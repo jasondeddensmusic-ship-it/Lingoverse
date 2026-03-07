@@ -1,0 +1,1647 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 9,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Vrije Tijd & Plannen",
+    "sub": "Future, Subordinate Clauses & Hobbies",
+    "icon": "⚽",
+    "level": "A2.1",
+    "color": "#2ECDA7"
+  },
+  "lessons": [
+    {
+      "id": "v2u9l1",
+      "title": "Wat Doe Je Graag?",
+      "icon": "🎨",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Wat Doe Je Graag?",
+          "desc": "Before making plans, you need hobbies. Dutch uses 'graag' (gladly) where English uses 'like to': 'Ik zwem graag' = I like to swim. This lesson teaches hobby/leisure vocabulary and the graag construction.",
+          "goals": [
+            "8 hobby/leisure words",
+            "'Graag' for expressing likes",
+            "'Liever' for preferences",
+            "Talk about what you enjoy"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "zwemmen",
+          "en": "to swim",
+          "phonetic": "ZVEM-mun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "swim"
+              },
+              {
+                "lang": "German",
+                "word": "schwimmen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik zwem graag.",
+          "exampleEn": "I like to swim.",
+          "note": "Regular verb. Stam = zwem.\n'Graag' goes after the verb for 'like to':\nIk zwem graag = I gladly swim = I like swimming.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "lezen",
+          "en": "to read",
+          "phonetic": "LAY-zun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "lesen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Zij leest graag boeken.",
+          "exampleEn": "She likes reading books.",
+          "note": "Irregular in past tense (gelezen), but regular in present.\nStam = lees. zij leest (stam + t).",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "koken",
+          "en": "to cook",
+          "phonetic": "KOH-kun",
+          "example": "Wij koken graag samen.",
+          "exampleEn": "We like cooking together.",
+          "note": "Regular. Stam = kook.\nYou already know this from Unit 4!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "wandelen",
+          "en": "to walk / to hike",
+          "phonetic": "VAN-duh-lun",
+          "example": "Ik wandel graag in het bos.",
+          "exampleEn": "I like walking in the forest.",
+          "note": "The 'recreational walk' verb from Unit 7.\n'Het bos' = the forest. Popular Dutch weekend activity.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "sporten",
+          "en": "to exercise / to do sports",
+          "phonetic": "SPOR-tun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "sport"
+              },
+              {
+                "lang": "German",
+                "word": "Sport treiben"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Hij sport drie keer per week.",
+          "exampleEn": "He exercises three times a week.",
+          "note": "Verb form of 'sport'. Very common.\n'Sporten' covers gym, running, cycling, etc.\nThe Dutch are among Europe's most active people.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het bos",
+          "en": "the forest",
+          "phonetic": "hut bos",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "bush"
+              },
+              {
+                "lang": "German",
+                "word": "Busch"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Wij wandelen in het bos.",
+          "exampleEn": "We walk in the forest.",
+          "note": "Het-word. The Netherlands has more forests than you'd think.\nVeluwe, Utrechtse Heuvelrug, Hoge Veluwe national park.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Graag vs Liever vs Het Liefst",
+          "text": "GRAAG = gladly (= like to)\nIk zwem graag. = I like swimming.\n\nLIEVER = rather (= prefer to)\nIk fiets liever. = I prefer cycling.\n\nHET LIEFST = most of all (= like most)\nIk wandel het liefst. = I like walking most of all.\n\nThis is a comparative system:\ngraag → liever → het liefst\n(gladly → rather → most gladly)\n\nExample conversation:\nWat doe je graag? = What do you like doing?\nIk zwem graag, maar ik fiets liever.\n= I like swimming, but I prefer cycling.\nIk wandel het liefst.\n= What I like most is walking."
+        },
+        {
+          "type": "mc",
+          "q": "'Ik zwem graag' means:",
+          "opts": [
+            "I swim fast",
+            "I like swimming",
+            "I swim rarely",
+            "I can swim"
+          ],
+          "ans": "I like swimming",
+          "hint": "graag = gladly = like to"
+        },
+        {
+          "type": "fb",
+          "s": "Ik fiets ___ dan wandelen.",
+          "a": "liever",
+          "opts": [
+            "liever",
+            "graag",
+            "het liefst",
+            "meer"
+          ],
+          "hint": "I PREFER cycling to walking"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "zwemmen",
+              "en": "to swim"
+            },
+            {
+              "nl": "lezen",
+              "en": "to read"
+            },
+            {
+              "nl": "wandelen",
+              "en": "to walk/hike"
+            },
+            {
+              "nl": "sporten",
+              "en": "to exercise"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik zwem {1}, maar ik wandel {2}.",
+          "blanks": {
+            "1": "graag",
+            "2": "liever"
+          },
+          "pool": [
+            "graag",
+            "liever",
+            "het liefst",
+            "minder"
+          ],
+          "hint": "I like swimming, but I prefer walking."
+        },
+        {
+          "type": "mc",
+          "q": "'Het liefst' is the ___ of 'graag':",
+          "opts": [
+            "comparative",
+            "superlative",
+            "imperative",
+            "infinitive"
+          ],
+          "ans": "superlative",
+          "hint": "graag → liever → het liefst"
+        },
+        {
+          "type": "fb",
+          "s": "Wat doe je ___? (= What do you like doing?)",
+          "a": "graag",
+          "opts": [
+            "graag",
+            "liever",
+            "niet",
+            "altijd"
+          ],
+          "hint": "What do you GLADLY do?"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l2",
+      "title": "Ik Ga Zwemmen",
+      "icon": "🏊",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Ik Ga Zwemmen",
+          "desc": "Dutch uses 'gaan + infinitive' for the near future — identical to English 'I'm going to swim.' This is the most common way to talk about plans in Dutch. Simple, natural, and you already know 'gaan'.",
+          "goals": [
+            "gaan + infinitive for future plans",
+            "Time expressions for the future",
+            "Make and discuss plans",
+            "Difference from 'zullen'"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ik ga zwemmen",
+          "en": "I'm going to swim",
+          "phonetic": "ik gah ZVEM-mun",
+          "example": "Ik ga morgen zwemmen.",
+          "exampleEn": "I'm going to swim tomorrow.",
+          "note": "gaan + infinitive = going to [verb].\nExact same structure as English!\nThe infinitive goes to the END (like modals).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "volgende week",
+          "en": "next week",
+          "phonetic": "VOL-gun-duh vayk",
+          "example": "Volgende week ga ik op vakantie.",
+          "exampleEn": "Next week I'm going on holiday.",
+          "note": "volgende = next/following.\nVolgende week, volgende maand, volgend jaar.\nNote: 'volgend jaar' (het-word → no -e).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "binnenkort",
+          "en": "soon",
+          "phonetic": "BIN-nun-kort",
+          "example": "Ik ga binnenkort naar de dokter.",
+          "exampleEn": "I'm going to the doctor soon.",
+          "note": "binnen + kort = within + short.\nLiterally: 'within a short time'.\n'Binnenkort' = soon but not immediate.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "op vakantie",
+          "en": "on holiday / on vacation",
+          "phonetic": "op vah-KAN-see",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "vacances"
+              },
+              {
+                "lang": "German",
+                "word": "Vakanz (rare)"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Wij gaan volgende week op vakantie.",
+          "exampleEn": "We're going on holiday next week.",
+          "note": "'Op vakantie gaan' = to go on holiday.\nThe Dutch LOVE holidays. Average: 25 vacation days/year.\n'Waar ga je op vakantie?' = Where are you going on holiday?",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "samen",
+          "en": "together",
+          "phonetic": "SAH-mun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "same"
+              },
+              {
+                "lang": "German",
+                "word": "zusammen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Wij gaan samen eten.",
+          "exampleEn": "We're going to eat together.",
+          "note": "Very common word.\n'Samen' makes everything warmer.\n'Zullen we samen gaan?' = Shall we go together?",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Future with 'gaan'",
+          "text": "Subject + gaan + ... + infinitive (at end)\n\nIk ga morgen zwemmen. = I'm going to swim tomorrow.\nWij gaan volgende week op vakantie.\n= We're going on holiday next week.\nZij gaat vanavond koken.\n= She's going to cook tonight.\n\nThis is the casual/spoken future.\nDutch also has 'zullen' (shall/will) — next lesson.\nBut 'gaan + infinitive' covers 90% of future plans.\n\nNegation: Ik ga morgen niet zwemmen.\n= I'm not going to swim tomorrow.\n'Niet' goes before the infinitive.\n\nQuestion: Ga je morgen zwemmen?\n= Are you going to swim tomorrow?"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ga morgen zwemmen' is:",
+          "opts": [
+            "past tense",
+            "present tense",
+            "future (with gaan + infinitive)",
+            "imperative"
+          ],
+          "ans": "future (with gaan + infinitive)",
+          "hint": "Going to = future plans"
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ volgende week op vakantie.",
+          "a": "gaan",
+          "opts": [
+            "gaan",
+            "ga",
+            "gaat",
+            "gegaan"
+          ],
+          "hint": "We ARE GOING on holiday (wij = gaan)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "volgende week",
+              "en": "next week"
+            },
+            {
+              "nl": "binnenkort",
+              "en": "soon"
+            },
+            {
+              "nl": "op vakantie",
+              "en": "on holiday"
+            },
+            {
+              "nl": "samen",
+              "en": "together"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Zij {1} vanavond {2}.",
+          "blanks": {
+            "1": "gaat",
+            "2": "koken"
+          },
+          "pool": [
+            "gaat",
+            "koken",
+            "ga",
+            "gekookt"
+          ],
+          "hint": "She IS GOING TO cook tonight."
+        },
+        {
+          "type": "fb",
+          "s": "___ je morgen zwemmen?",
+          "a": "Ga",
+          "opts": [
+            "Ga",
+            "Gaat",
+            "Gaan",
+            "Ging"
+          ],
+          "hint": "Are you going to swim? (question: -t drops)"
+        },
+        {
+          "type": "mc",
+          "q": "The infinitive in 'gaan + infinitive' goes:",
+          "opts": [
+            "before gaan",
+            "after the subject",
+            "at the end",
+            "anywhere"
+          ],
+          "ans": "at the end",
+          "hint": "Same rule as modals and perfect tense"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_going_swimming",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l3",
+      "title": "Zal Ik...?",
+      "icon": "💬",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Zal Ik...?",
+          "desc": "The second future construction: 'zullen' (shall/will). Less common than 'gaan' for plans, but essential for offers ('Shall I help?'), promises ('I will do it'), and predictions. Plus: making suggestions in Dutch.",
+          "goals": [
+            "Conjugate zullen",
+            "Offers with 'zal ik'",
+            "Promises with 'ik zal'",
+            "Zullen vs gaan: when to use which"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "zullen",
+          "en": "shall / will",
+          "phonetic": "ZUL-lun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "shall"
+              },
+              {
+                "lang": "German",
+                "word": "sollen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Zal ik je helpen?",
+          "exampleEn": "Shall I help you?",
+          "note": "Modal-like verb. Same word order.\nik zal, jij zult/zal, hij zal, wij zullen.\nMore formal/distant than 'gaan'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zal ik",
+          "en": "shall I",
+          "phonetic": "zal ik",
+          "example": "Zal ik koffie maken?",
+          "exampleEn": "Shall I make coffee?",
+          "note": "THE offer construction.\n'Zal ik [infinitive]?' = Shall I [verb]?\nVery polite and helpful-sounding.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "ik zal",
+          "en": "I will / I shall",
+          "phonetic": "ik zal",
+          "example": "Ik zal het doen.",
+          "exampleEn": "I will do it.",
+          "note": "Promise/intention.\n'Ik zal het niet vergeten.' = I won't forget it.\nMore formal than 'ik ga het doen'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "helpen",
+          "en": "to help",
+          "phonetic": "HEL-pun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "help"
+              },
+              {
+                "lang": "German",
+                "word": "helfen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Kan ik je helpen?",
+          "exampleEn": "Can I help you?",
+          "note": "Regular in present. Irregular past: geholpen.\nIdentical to English. 'Help!' = 'Help!'",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "vergeten",
+          "en": "to forget",
+          "phonetic": "fur-GAY-tun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "forget"
+              },
+              {
+                "lang": "German",
+                "word": "vergessen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik zal het niet vergeten.",
+          "exampleEn": "I won't forget it.",
+          "note": "ver- prefix → no ge- in past participle: vergeten.\nThe past participle is the same as the infinitive!\nvergeten → vergeten. (Like English: forget → forgotten)",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "⚖️ Gaan vs Zullen",
+          "text": "GAAN = concrete plans (going to)\nIk ga morgen zwemmen. = I'm going to swim tomorrow.\n(You've decided. It's planned.)\n\nZULLEN = offers, promises, predictions\nZal ik helpen? = Shall I help? (offer)\nIk zal het doen. = I will do it. (promise)\nHet zal morgen regenen. = It will rain tomorrow. (prediction)\n\nIn practice:\n'Gaan' covers 90% of future talk.\n'Zullen' is for offers ('Zal ik...?') and promises.\n\nDutch people rarely say 'ik zal morgen zwemmen.'\nThey say 'ik ga morgen zwemmen.'\n'Zullen' sounds more formal/distant for plans."
+        },
+        {
+          "type": "mc",
+          "q": "'Zal ik koffie maken?' is:",
+          "opts": [
+            "a command",
+            "an offer",
+            "a complaint",
+            "a past action"
+          ],
+          "ans": "an offer",
+          "hint": "Shall I...? = offering to do something"
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ het niet vergeten.",
+          "a": "zal",
+          "opts": [
+            "zal",
+            "ga",
+            "heb",
+            "ben"
+          ],
+          "hint": "I WILL not forget = promise"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "zal ik helpen?",
+              "en": "shall I help?"
+            },
+            {
+              "nl": "ik ga zwemmen",
+              "en": "I'm going to swim"
+            },
+            {
+              "nl": "ik zal het doen",
+              "en": "I will do it"
+            },
+            {
+              "nl": "vergeten",
+              "en": "to forget"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "For concrete plans, Dutch prefers:",
+          "opts": [
+            "zullen",
+            "gaan",
+            "moeten",
+            "kunnen"
+          ],
+          "ans": "gaan",
+          "hint": "Ik GA morgen zwemmen (not zal)"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} ik je helpen? Ik {2} morgen zwemmen.",
+          "blanks": {
+            "1": "Zal",
+            "2": "ga"
+          },
+          "pool": [
+            "Zal",
+            "ga",
+            "Moet",
+            "kan"
+          ],
+          "hint": "Shall I help? (offer) I'm going to swim. (plan)"
+        },
+        {
+          "type": "fb",
+          "s": "___ ik koffie maken?",
+          "a": "Zal",
+          "opts": [
+            "Zal",
+            "Ga",
+            "Moet",
+            "Kan"
+          ],
+          "hint": "Shall I...? (offering)"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_shall_i_help",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l4",
+      "title": "Omdat Het Leuk Is",
+      "icon": "📎",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Omdat Het Leuk Is",
+          "desc": "The hardest word-order rule in Dutch: subordinate clauses. Since Unit 3 you've been using V2 — the verb always in position 2. Now meet V-FINAL: when you use 'omdat' (because), 'dat' (that), or 'als' (if/when), the verb goes to the END. This is the #1 error even at B1 level. We're tackling it head-on.",
+          "goals": [
+            "Subordinate clause word order",
+            "omdat (because), dat (that), als (if/when)",
+            "Verb-final in subordinate clauses",
+            "Why this exists and how to practice"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🔑 The Verb Goes to the End",
+          "text": "Remember the V2 rule from Unit 3?\nIn main clauses, the verb is ALWAYS in position 2:\nIk drink koffie. = I drink coffee.\nSoms drink ik koffie. = Sometimes I drink coffee.\n\nSubordinate clauses break this rule.\nThe verb moves to the VERY END:\n...omdat ik koffie DRINK. = ...because I drink coffee.\n\nMain: Het is leuk.\nSubordinate: ...omdat het leuk IS.\n\nMain: Ik kan niet komen.\nSubordinate: ...omdat ik niet kan KOMEN.\n       (OR: ...omdat ik niet KAN komen.)\n\nTrigger words (conjunctions):\nomdat = because\ndat = that\nals = if / when\nwanneer = when\nterwijl = while\nhoewel = although\n\nAfter ANY of these, the conjugated verb moves to the end.\nThis is the #1 Dutch word order rule and the #1 error.\nPractice it until it becomes automatic."
+        },
+        {
+          "type": "teach",
+          "nl": "omdat",
+          "en": "because",
+          "phonetic": "om-DAT",
+          "example": "Ik leer Nederlands omdat ik in Amsterdam woon.",
+          "exampleEn": "I'm learning Dutch because I live in Amsterdam.",
+          "note": "The most common subordinating conjunction.\nAfter 'omdat': VERB TO THE END.\n...omdat ik in Amsterdam WOON.\nNot: ...omdat ik woon in Amsterdam.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "dat",
+          "en": "that",
+          "phonetic": "dat",
+          "example": "Ik denk dat hij ziek is.",
+          "exampleEn": "I think that he is sick.",
+          "note": "'That' as conjunction (not demonstrative).\nAfter 'dat': verb to the end.\n...dat hij ziek IS.\nNot: ...dat hij is ziek.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "als",
+          "en": "if / when",
+          "phonetic": "als",
+          "example": "Als het regent, blijf ik thuis.",
+          "exampleEn": "If it rains, I stay home.",
+          "note": "Two meanings: 'if' and 'when' (conditions).\nAfter 'als': verb to the end.\n...als het REGENT...\nNot: ...als regent het...",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "denken",
+          "en": "to think",
+          "phonetic": "DENG-kun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "think"
+              },
+              {
+                "lang": "German",
+                "word": "denken"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik denk dat het gaat regenen.",
+          "exampleEn": "I think that it's going to rain.",
+          "note": "Regular verb. Stam = denk.\nOften followed by 'dat': 'Ik denk dat...'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "weten",
+          "en": "to know (a fact)",
+          "phonetic": "VAY-tun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "wit (Old English: to know)"
+              },
+              {
+                "lang": "German",
+                "word": "wissen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik weet dat hij in Rotterdam woont.",
+          "exampleEn": "I know that he lives in Rotterdam.",
+          "note": "Irregular: ik weet, jij weet, wij weten.\nDistinct from 'kennen' (to know a person).\n'Ik weet het niet.' = I don't know.\nEnglish 'wit' used to mean 'to know' — as in\n'to wit' (= namely), 'witness' (one who knows),\nand 'witty' (originally: knowledgeable, clever).\nDutch kept 'weten' as the everyday word for knowing facts.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "dus",
+          "en": "so / therefore",
+          "phonetic": "dus",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "thus"
+              },
+              {
+                "lang": "German",
+                "word": "also (thus)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het regent, dus ik blijf thuis.",
+          "exampleEn": "It's raining, so I stay home.",
+          "note": "Coordinating conjunction — NORMAL word order.\nCompare:\nomdat → verb goes to END: ...omdat het regent.\ndus → verb stays in position 2: ...dus ik blijf thuis.\n\n'Dus' is English 'thus' — same Germanic root.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ With Modal Verbs",
+          "text": "When a subordinate clause has a modal verb,\nBOTH verbs go to the end:\n\nMain: Ik kan niet komen.\nSubordinate: ...omdat ik niet kan komen.\n             OR: ...omdat ik niet komen kan.\n\nBoth orders are accepted in modern Dutch.\nThe most natural: modal + infinitive at the end.\n\n...omdat ik niet KAN KOMEN.\n...dat ik morgen MOET WERKEN.\n...als ik niet KAN ZWEMMEN.\n\nWith perfect tense:\n...omdat ik heb GEWERKT.\nOR: ...omdat ik GEWERKT heb.\n\nAgain, both are fine. Don't overthink it.\nJust get the verb(s) to the end."
+        },
+        {
+          "type": "mc",
+          "q": "'...omdat ik in Amsterdam woon.' — the verb is at the END because:",
+          "opts": [
+            "It's a question",
+            "'omdat' triggers verb-final order",
+            "The sentence is negative",
+            "It's always like this"
+          ],
+          "ans": "'omdat' triggers verb-final order",
+          "hint": "Subordinating conjunctions → verb to end"
+        },
+        {
+          "type": "fb",
+          "s": "Ik leer Nederlands omdat ik in Nederland ___.",
+          "a": "woon",
+          "opts": [
+            "woon",
+            "woont",
+            "wonen",
+            "gewoond"
+          ],
+          "hint": "...because I LIVE in the Netherlands (verb at end)"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik denk dat hij ziek ___.'",
+          "opts": [
+            "is",
+            "ben",
+            "zijn",
+            "was"
+          ],
+          "ans": "is",
+          "hint": "dat hij ziek IS — verb at end"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "omdat",
+              "en": "because"
+            },
+            {
+              "nl": "dat",
+              "en": "that"
+            },
+            {
+              "nl": "als",
+              "en": "if / when"
+            },
+            {
+              "nl": "wanneer",
+              "en": "when"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik blijf thuis omdat het {1}. Ik denk dat hij {2} is.",
+          "blanks": {
+            "1": "regent",
+            "2": "ziek"
+          },
+          "pool": [
+            "regent",
+            "ziek",
+            "regenen",
+            "is"
+          ],
+          "hint": "...because it rains. ...that he sick IS."
+        },
+        {
+          "type": "fb",
+          "s": "Als het mooi weer ___, ga ik fietsen.",
+          "a": "is",
+          "opts": [
+            "is",
+            "ben",
+            "zijn",
+            "was"
+          ],
+          "hint": "If the weather nice IS... (verb at end in als-clause)"
+        },
+        {
+          "type": "mc",
+          "q": "In subordinate clauses, Dutch word order becomes:",
+          "opts": [
+            "V1 (verb first)",
+            "V2 (verb second)",
+            "V-final (verb at end)",
+            "V-free (anywhere)"
+          ],
+          "ans": "V-final (verb at end)",
+          "hint": "Main clause = V2. Subordinate = V-final."
+        },
+        {
+          "type": "fb",
+          "s": "Ik weet dat hij in Rotterdam ___.",
+          "a": "woont",
+          "opts": [
+            "woont",
+            "woon",
+            "wonen",
+            "gewoond"
+          ],
+          "hint": "...that he in Rotterdam LIVES (verb at end, hij = -t)"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_because_fun",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l5",
+      "title": "Als Het Mooi Weer Is...",
+      "icon": "🌤️",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Als Het Mooi Weer Is...",
+          "desc": "Practice subordinate clauses with 'als' (if/when) in real scenarios: weather, plans, conditions. Also introduces 'wanneer' (when) and the important structure where the subordinate clause comes FIRST.",
+          "goals": [
+            "'Als' for conditions and hypotheticals",
+            "Subordinate clause FIRST → inverted main clause",
+            "Weather vocabulary",
+            "Make conditional plans"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "het weer",
+          "en": "the weather",
+          "phonetic": "hut vayr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "weather"
+              },
+              {
+                "lang": "German",
+                "word": "Wetter"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het weer is mooi vandaag.",
+          "exampleEn": "The weather is nice today.",
+          "note": "Het-word. THE Dutch small-talk topic.\nThe Netherlands has unpredictable weather.\n'Lekker weer!' = Nice weather!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "regenen",
+          "en": "to rain",
+          "phonetic": "RAY-guh-nun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "rain"
+              },
+              {
+                "lang": "German",
+                "word": "regnen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het regent vaak in Nederland.",
+          "exampleEn": "It rains often in the Netherlands.",
+          "note": "'Het regent' = it rains. Impersonal verb.\nRain is the defining Dutch weather experience.\n'Wij fietsen in de regen.' = We cycle in the rain.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de regen",
+          "en": "the rain",
+          "phonetic": "duh RAY-gun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "rain"
+              },
+              {
+                "lang": "German",
+                "word": "Regen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik fiets door de regen.",
+          "exampleEn": "I cycle through the rain.",
+          "note": "De-word. 'In de regen' = in the rain.\nThe Dutch don't cancel plans because of rain.\nThey just cycle faster.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de zon",
+          "en": "the sun",
+          "phonetic": "duh zon",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "sun"
+              },
+              {
+                "lang": "German",
+                "word": "Sonne"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De zon schijnt!",
+          "exampleEn": "The sun is shining!",
+          "note": "De-word. 'De zon schijnt' = the sun shines.\nWhen the sun appears in NL, everything stops.\nTerraces fill. Parks fill. Life moves outside.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "wanneer",
+          "en": "when (in time)",
+          "phonetic": "van-NAYR",
+          "example": "Wanneer het zomer is, ga ik zwemmen.",
+          "exampleEn": "When it's summer, I go swimming.",
+          "note": "'Wanneer' = when (subordinating conjunction).\nSame verb-final rule as 'als'.\nSubtle difference: wanneer = more specific time.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Subordinate Clause First",
+          "text": "When the subordinate clause comes FIRST,\nthe main clause starts with the verb (inversion):\n\nNormal: Ik ga fietsen als het mooi weer is.\n= I'm going cycling if the weather is nice.\n\nReversed: Als het mooi weer is, ga ik fietsen.\n= If the weather is nice, I'm going cycling.\n\nThe comma separates the clauses.\nAfter the comma: VERB first, then subject.\n\nMore examples:\nOmdat het regent, blijf ik thuis.\n= Because it's raining, I stay home.\n\nAls ik tijd heb, ga ik wandelen.\n= If I have time, I'll go walking.\n\nThis looks complex but the rule is simple:\nSubordinate clause = verb at end.\nMain clause after subordinate = verb first."
+        },
+        {
+          "type": "mc",
+          "q": "'Als het regent, blijf ik thuis.' — why 'blijf' before 'ik'?",
+          "opts": [
+            "It's a question",
+            "The subordinate clause came first → main clause inverts",
+            "It's wrong",
+            "There's no rule"
+          ],
+          "ans": "The subordinate clause came first → main clause inverts",
+          "hint": "Subordinate first → verb-subject in main clause"
+        },
+        {
+          "type": "fb",
+          "s": "Als het mooi weer ___, ga ik fietsen.",
+          "a": "is",
+          "opts": [
+            "is",
+            "ben",
+            "zijn",
+            "was"
+          ],
+          "hint": "If the weather nice IS (verb at end)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "het weer",
+              "en": "the weather"
+            },
+            {
+              "nl": "regenen",
+              "en": "to rain"
+            },
+            {
+              "nl": "de zon",
+              "en": "the sun"
+            },
+            {
+              "nl": "wanneer",
+              "en": "when"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Als het {1}, blijf ik thuis. Als de zon {2}, ga ik fietsen.",
+          "blanks": {
+            "1": "regent",
+            "2": "schijnt"
+          },
+          "pool": [
+            "regent",
+            "schijnt",
+            "regen",
+            "zon"
+          ],
+          "hint": "If it rains... If the sun shines..."
+        },
+        {
+          "type": "fb",
+          "s": "___ ik tijd heb, ga ik wandelen.",
+          "a": "Als",
+          "opts": [
+            "Als",
+            "Omdat",
+            "Dat",
+            "Maar"
+          ],
+          "hint": "IF I have time..."
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch attitude to rain is:",
+          "opts": [
+            "Stay inside",
+            "Cancel plans",
+            "Cycle faster and keep going",
+            "Complain and do nothing"
+          ],
+          "ans": "Cycle faster and keep going",
+          "hint": "Rain doesn't stop the Dutch!"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_if_nice_weather",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l6",
+      "title": "Om Te...",
+      "icon": "🎯",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Om Te...",
+          "desc": "'Om... te...' = 'in order to.' A purpose clause that sends the infinitive to the end. 'Ik leer Nederlands om in Amsterdam te werken.' Clean, elegant, and very common in Dutch daily speech.",
+          "goals": [
+            "The 'om... te...' construction",
+            "Express purpose and goals",
+            "Combine with other subordinate clauses",
+            "Natural conversation examples"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "om... te...",
+          "en": "in order to...",
+          "phonetic": "om ... tuh",
+          "example": "Ik leer Nederlands om in Amsterdam te werken.",
+          "exampleEn": "I'm learning Dutch in order to work in Amsterdam.",
+          "note": "'Om' starts the purpose clause.\n'Te' goes right before the infinitive.\nThe infinitive is at the END.\nom [middle stuff] te [infinitive].",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "nodig",
+          "en": "necessary / needed",
+          "phonetic": "NOH-dug",
+          "example": "Het is niet nodig om te betalen.",
+          "exampleEn": "It's not necessary to pay.",
+          "note": "Adjective. 'Nodig hebben' = to need.\n'Ik heb een pen nodig.' = I need a pen.\n'Het is nodig om...' = It is necessary to...",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "proberen",
+          "en": "to try",
+          "phonetic": "proh-BAY-run",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "probieren"
+              },
+              {
+                "lang": "French",
+                "word": "essayer (different)"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Ik probeer om Nederlands te spreken.",
+          "exampleEn": "I try to speak Dutch.",
+          "note": "Regular verb. Stam = probeer.\n'Proberen om... te...' = try to...\n'Probeer het maar!' = Just try it!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Om Te in Practice",
+          "text": "Purpose:\nIk leer Nederlands om in Amsterdam te werken.\n= I'm learning Dutch in order to work in Amsterdam.\n\nIk fiets om gezond te blijven.\n= I cycle in order to stay healthy.\n\nWith separable verbs (ge-/prefix goes back together):\nIk bel om een afspraak te maken.\n= I'm calling to make an appointment.\n(NOT: om een afspraak te 'maak')\n\nAfter certain verbs:\nIk probeer om op tijd te komen.\n= I try to come on time.\n\nHij vergeet om te betalen.\n= He forgets to pay.\n\nNote: some verbs use 'te' without 'om':\nIk probeer te slapen. = I try to sleep.\nBut with 'om' is also correct and very common."
+        },
+        {
+          "type": "mc",
+          "q": "'Ik leer Nederlands om in Amsterdam te werken.' — 'om...te' expresses:",
+          "opts": [
+            "cause",
+            "purpose",
+            "time",
+            "location"
+          ],
+          "ans": "purpose",
+          "hint": "In order to = purpose"
+        },
+        {
+          "type": "fb",
+          "s": "Ik fiets ___ gezond te blijven.",
+          "a": "om",
+          "opts": [
+            "om",
+            "dat",
+            "als",
+            "omdat"
+          ],
+          "hint": "I cycle IN ORDER TO stay healthy"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "om...te...",
+              "en": "in order to"
+            },
+            {
+              "nl": "nodig",
+              "en": "necessary"
+            },
+            {
+              "nl": "proberen",
+              "en": "to try"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik leer Nederlands {1} in Amsterdam te {2}.",
+          "blanks": {
+            "1": "om",
+            "2": "werken"
+          },
+          "pool": [
+            "om",
+            "werken",
+            "dat",
+            "gewerkt"
+          ],
+          "hint": "I learn Dutch IN ORDER TO work in Amsterdam."
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ om Nederlands te spreken.",
+          "a": "probeer",
+          "opts": [
+            "probeer",
+            "proberen",
+            "probeerde",
+            "geprobeerd"
+          ],
+          "hint": "I TRY to speak Dutch (ik = stam)"
+        },
+        {
+          "type": "mc",
+          "q": "In 'om... te...', the infinitive goes:",
+          "opts": [
+            "at the start",
+            "after om",
+            "right after te (at the end)",
+            "before om"
+          ],
+          "ans": "right after te (at the end)",
+          "hint": "om [stuff] te [infinitive]"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_in_order_to",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l7",
+      "title": "Koningsdag!",
+      "icon": "👑",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Koningsdag!",
+          "desc": "April 27: the entire Netherlands turns orange. Koningsdag (King's Day) is the biggest national celebration — bigger than Christmas, bigger than New Year. Free markets, live music, boats, beer, and national pride. This is where language meets culture at full volume.",
+          "goals": [
+            "Koningsdag vocabulary",
+            "Dutch national celebrations",
+            "Practice all Unit 9 grammar in context",
+            "Cultural deep dive: oranje gekte"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 Koningsdag: April 27",
+          "text": "Koningsdag (King's Day) = King Willem-Alexander's birthday.\n\nThe rules:\n• Wear orange. Everything orange. No exceptions.\n• The whole country becomes a vrijmarkt (free market).\n  Anyone can sell anything on the street. No permits needed.\n• Live music on every corner.\n• Amsterdam's canals fill with boats blasting music.\n• Beer. Lots of beer. Starting at 8 AM.\n\n'Oranje gekte' = orange madness.\n\nKoningsnacht (King's Night, April 26) is when it starts.\nBy noon on April 27, every street is packed.\n\nThe color orange? From the House of Orange-Nassau,\nthe Dutch royal family. William of Orange (1533–1584)\nled the Dutch revolt against Spain.\n\n'Lang leve de Koning!' = Long live the King!\n'Oranje boven!' = Orange on top! (national cheer)"
+        },
+        {
+          "type": "teach",
+          "nl": "de koning",
+          "en": "the king",
+          "phonetic": "duh KOH-ning",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "king"
+              },
+              {
+                "lang": "German",
+                "word": "König"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De koning woont in Den Haag.",
+          "exampleEn": "The king lives in The Hague.",
+          "note": "De-word. Current king: Willem-Alexander (since 2013).\nThe Dutch monarchy is very popular.\nThe royal family is seen as 'normaal' — the ultimate Dutch compliment.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "vieren",
+          "en": "to celebrate",
+          "phonetic": "VEE-run",
+          "example": "Wij gaan Koningsdag vieren!",
+          "exampleEn": "We're going to celebrate King's Day!",
+          "note": "Regular verb. Stam = vier.\n'Vieren' works for all celebrations:\nverjaardag vieren, Koningsdag vieren.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "oranje",
+          "en": "orange (color)",
+          "phonetic": "oh-RAN-yuh",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "orange"
+              },
+              {
+                "lang": "French",
+                "word": "orange"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Iedereen draagt oranje!",
+          "exampleEn": "Everyone wears orange!",
+          "note": "Both the color and the national symbol.\n'Oranje' = the royal House of Orange.\nOn Koningsdag: orange clothes, orange food, orange everything.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het feest",
+          "en": "the party / celebration",
+          "phonetic": "hut fayst",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "feast"
+              },
+              {
+                "lang": "German",
+                "word": "Fest"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Koningsdag is het grootste feest van het jaar.",
+          "exampleEn": "King's Day is the biggest party of the year.",
+          "note": "Het-word. 'Een feestje' = a little party (diminutive).\n'Feesten' = to party (verb). Cognate of English 'feast'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de vrijmarkt",
+          "en": "the free market",
+          "phonetic": "duh VRAY-markt",
+          "example": "Op de vrijmarkt kun je alles kopen.",
+          "exampleEn": "At the free market you can buy everything.",
+          "note": "vrij + markt = free + market.\nAnyone can sell anything. Kids sell old toys.\nAdults sell second-hand clothes. No rules!",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "Koningsdag is on:",
+          "opts": [
+            "December 25",
+            "April 27",
+            "January 1",
+            "October 31"
+          ],
+          "ans": "April 27",
+          "hint": "The King's birthday"
+        },
+        {
+          "type": "fb",
+          "s": "Iedereen draagt ___ op Koningsdag.",
+          "a": "oranje",
+          "opts": [
+            "oranje",
+            "rood",
+            "blauw",
+            "zwart"
+          ],
+          "hint": "The national color!"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de koning",
+              "en": "the king"
+            },
+            {
+              "nl": "vieren",
+              "en": "to celebrate"
+            },
+            {
+              "nl": "het feest",
+              "en": "the party"
+            },
+            {
+              "nl": "de vrijmarkt",
+              "en": "the free market"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "The color orange comes from:",
+          "opts": [
+            "The Dutch flag",
+            "The House of Orange-Nassau",
+            "A popular orange drink",
+            "Dutch tulips"
+          ],
+          "ans": "The House of Orange-Nassau",
+          "hint": "William of Orange, the founding father"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wij {1} Koningsdag vieren! Het is het grootste {2} van het jaar.",
+          "blanks": {
+            "1": "gaan",
+            "2": "feest"
+          },
+          "pool": [
+            "gaan",
+            "feest",
+            "ga",
+            "feesten"
+          ],
+          "hint": "We're GOING TO celebrate! The biggest PARTY."
+        },
+        {
+          "type": "fb",
+          "s": "Op de ___ kun je alles kopen en verkopen.",
+          "a": "vrijmarkt",
+          "opts": [
+            "vrijmarkt",
+            "markt",
+            "winkel",
+            "borrel"
+          ],
+          "hint": "The FREE market"
+        },
+        {
+          "type": "mc",
+          "q": "'Lang leve de Koning!' means:",
+          "opts": [
+            "The king is tall",
+            "Long live the King!",
+            "The king is leaving",
+            "Long day for the king"
+          ],
+          "ans": "Long live the King!",
+          "hint": "The national cheer"
+        }
+      ]
+    },
+    {
+      "id": "v2u9l8",
+      "title": "Unit 9 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 9: Alles Samen",
+          "desc": "Future with gaan and zullen. Subordinate clauses with omdat/dat/als. Purpose clauses with om...te. Hobbies, weather, and Koningsdag. All of Unit 9 mixed together.",
+          "goals": [
+            "gaan + infinitive for plans",
+            "zullen for offers and promises",
+            "Subordinate clause word order",
+            "om...te for purpose",
+            "Weather and celebration vocabulary"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 What You Know Now",
+          "text": "After Unit 9 you can:\n\n• Talk about hobbies with graag/liever/het liefst\n• Make future plans with gaan + infinitive\n• Make offers with 'Zal ik...?'\n• Give reasons with omdat (verb at end!)\n• Set conditions with als (verb at end!)\n• Express purpose with om...te\n• Talk about weather\n• Celebrate Koningsdag\n\nYou've mastered the hardest word-order rule in Dutch.\nThat's a huge achievement."
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ga morgen zwemmen' uses future with:",
+          "opts": [
+            "zullen",
+            "gaan + infinitive",
+            "moeten",
+            "hebben"
+          ],
+          "ans": "gaan + infinitive",
+          "hint": "Going to = gaan"
+        },
+        {
+          "type": "fb",
+          "s": "___ ik je helpen?",
+          "a": "Zal",
+          "opts": [
+            "Zal",
+            "Ga",
+            "Moet",
+            "Kan"
+          ],
+          "hint": "Shall I help? (offer)"
+        },
+        {
+          "type": "mc",
+          "q": "After 'omdat', the verb goes:",
+          "opts": [
+            "second",
+            "first",
+            "to the end",
+            "nowhere"
+          ],
+          "ans": "to the end",
+          "hint": "...omdat ik in Amsterdam WOON."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "omdat",
+              "en": "because"
+            },
+            {
+              "nl": "als",
+              "en": "if / when"
+            },
+            {
+              "nl": "dat",
+              "en": "that"
+            },
+            {
+              "nl": "om...te",
+              "en": "in order to"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik blijf thuis omdat het {1}. Als de zon {2}, ga ik fietsen.",
+          "blanks": {
+            "1": "regent",
+            "2": "schijnt"
+          },
+          "pool": [
+            "regent",
+            "schijnt",
+            "regen",
+            "zon"
+          ],
+          "hint": "Because it RAINS. If the sun SHINES."
+        },
+        {
+          "type": "fb",
+          "s": "Ik leer Nederlands ___ in Amsterdam te werken.",
+          "a": "om",
+          "opts": [
+            "om",
+            "dat",
+            "als",
+            "omdat"
+          ],
+          "hint": "In order to"
+        },
+        {
+          "type": "mc",
+          "q": "'Gaat wel' as an answer to 'Hoe gaat het?' means:",
+          "opts": [
+            "Excellent!",
+            "Could be better, could be worse",
+            "I'm leaving",
+            "It doesn't go"
+          ],
+          "ans": "Could be better, could be worse",
+          "hint": "The most Dutch answer"
+        },
+        {
+          "type": "fb",
+          "s": "Ik zwem ___, maar ik wandel liever.",
+          "a": "graag",
+          "opts": [
+            "graag",
+            "liever",
+            "het liefst",
+            "niet"
+          ],
+          "hint": "I like swimming, but I prefer walking"
+        },
+        {
+          "type": "mc",
+          "q": "Koningsdag is on April 27 because:",
+          "opts": [
+            "It's the first day of spring",
+            "It's King Willem-Alexander's birthday",
+            "The Netherlands was founded that day",
+            "Orange tulips bloom in April"
+          ],
+          "ans": "It's King Willem-Alexander's birthday",
+          "hint": "The King's birthday!"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik denk {1} hij ziek {2}.",
+          "blanks": {
+            "1": "dat",
+            "2": "is"
+          },
+          "pool": [
+            "dat",
+            "is",
+            "omdat",
+            "ben"
+          ],
+          "hint": "I think THAT he sick IS."
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ volgende week op vakantie.",
+          "a": "gaan",
+          "opts": [
+            "gaan",
+            "ga",
+            "zullen",
+            "moeten"
+          ],
+          "hint": "We ARE GOING on holiday (wij = gaan)"
+        },
+        {
+          "type": "mc",
+          "q": "In 'Als het regent, blijf ik thuis' — 'blijf' comes before 'ik' because:",
+          "opts": [
+            "It's a question",
+            "The subordinate clause came first → inversion",
+            "It's imperative",
+            "Dutch always does this"
+          ],
+          "ans": "The subordinate clause came first → inversion",
+          "hint": "Subordinate first → verb-subject in main"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_going_swimming",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_because_fun",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u9v2_if_nice_weather",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

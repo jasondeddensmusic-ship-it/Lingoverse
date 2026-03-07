@@ -1,0 +1,1256 @@
+{
+  "_schema": "lingoverse_fk_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "ko": {
+      "title": "Hangul Gate Quiz",
+      "desc": "Can you already decode Hangul? Pass this quiz to skip Foundations.",
+      "passCriteria": {
+        "AB": 90,
+        "C": 85,
+        "DE": 80
+      },
+      "tasks": [
+        {
+          "id": "gate_a",
+          "title": "Task A: Jamo Recognition",
+          "desc": "Identify the sound of each jamo.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "What sound does ㅁ make?",
+              "opts": [
+                "m",
+                "n",
+                "b"
+              ],
+              "ans": "m"
+            },
+            {
+              "q": "What sound does ㄱ make?",
+              "opts": [
+                "n",
+                "g/k",
+                "d"
+              ],
+              "ans": "g/k"
+            },
+            {
+              "q": "What sound does ㅅ make?",
+              "opts": [
+                "j",
+                "h",
+                "s"
+              ],
+              "ans": "s"
+            },
+            {
+              "q": "What sound does ㅏ make?",
+              "opts": [
+                "o",
+                "a",
+                "u"
+              ],
+              "ans": "a"
+            },
+            {
+              "q": "What sound does ㅜ make?",
+              "opts": [
+                "u",
+                "eu",
+                "o"
+              ],
+              "ans": "u"
+            },
+            {
+              "q": "What sound does ㄹ make?",
+              "opts": [
+                "n",
+                "m",
+                "r/l"
+              ],
+              "ans": "r/l"
+            },
+            {
+              "q": "What sound does ㅓ make?",
+              "opts": [
+                "a",
+                "eo",
+                "i"
+              ],
+              "ans": "eo"
+            },
+            {
+              "q": "What sound does ㅎ make?",
+              "opts": [
+                "h",
+                "s",
+                "j"
+              ],
+              "ans": "h"
+            },
+            {
+              "q": "What sound does ㅗ make?",
+              "opts": [
+                "u",
+                "eu",
+                "o"
+              ],
+              "ans": "o"
+            },
+            {
+              "q": "What sound does ㅈ make?",
+              "opts": [
+                "s",
+                "j",
+                "ch"
+              ],
+              "ans": "j"
+            }
+          ]
+        },
+        {
+          "id": "gate_b",
+          "title": "Task B: Block Assembly",
+          "desc": "Pick the correct block for each syllable.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "Which block represents 'na'?",
+              "opts": [
+                "나",
+                "가",
+                "다",
+                "마"
+              ],
+              "ans": "나"
+            },
+            {
+              "q": "Which block represents 'go'?",
+              "opts": [
+                "노",
+                "고",
+                "도",
+                "모"
+              ],
+              "ans": "고"
+            },
+            {
+              "q": "Which block represents 'su'?",
+              "opts": [
+                "수",
+                "주",
+                "무",
+                "누"
+              ],
+              "ans": "수"
+            },
+            {
+              "q": "Which block represents 'hi'?",
+              "opts": [
+                "시",
+                "비",
+                "히",
+                "지"
+              ],
+              "ans": "히"
+            },
+            {
+              "q": "Which block represents 'beo'?",
+              "opts": [
+                "더",
+                "너",
+                "버",
+                "서"
+              ],
+              "ans": "버"
+            },
+            {
+              "q": "Which block represents 'o' (vowel only)?",
+              "opts": [
+                "아",
+                "오",
+                "우",
+                "으"
+              ],
+              "ans": "오"
+            },
+            {
+              "q": "Which block represents 'ri'?",
+              "opts": [
+                "니",
+                "리",
+                "미",
+                "시"
+              ],
+              "ans": "리"
+            },
+            {
+              "q": "Which block represents 'ja'?",
+              "opts": [
+                "자",
+                "사",
+                "하",
+                "나"
+              ],
+              "ans": "자"
+            },
+            {
+              "q": "Which block represents 'mu'?",
+              "opts": [
+                "누",
+                "구",
+                "루",
+                "무"
+              ],
+              "ans": "무"
+            },
+            {
+              "q": "Which block represents 'eu' (vowel only)?",
+              "opts": [
+                "이",
+                "으",
+                "우",
+                "아"
+              ],
+              "ans": "으"
+            }
+          ]
+        },
+        {
+          "id": "gate_c",
+          "title": "Task C: Decode Syllables",
+          "desc": "Read each 2-block item and pick the correct pronunciation.",
+          "type": "mc",
+          "category": "C",
+          "items": [
+            {
+              "q": "How do you read 누비?",
+              "opts": [
+                "nu-bi",
+                "na-bi",
+                "mu-bi",
+                "nu-mi"
+              ],
+              "ans": "nu-bi"
+            },
+            {
+              "q": "How do you read 다로? (pseudo)",
+              "opts": [
+                "da-ro",
+                "na-ro",
+                "da-mo",
+                "ta-lo"
+              ],
+              "ans": "da-ro"
+            },
+            {
+              "q": "How do you read 하기?",
+              "opts": [
+                "ha-gi",
+                "ho-gi",
+                "ha-bi",
+                "he-gi"
+              ],
+              "ans": "ha-gi"
+            },
+            {
+              "q": "How do you read 거시? (pseudo)",
+              "opts": [
+                "geo-si",
+                "go-si",
+                "geu-si",
+                "ga-si"
+              ],
+              "ans": "geo-si"
+            },
+            {
+              "q": "How do you read 소리?",
+              "opts": [
+                "so-ri",
+                "su-ri",
+                "sa-ri",
+                "si-ri"
+              ],
+              "ans": "so-ri"
+            },
+            {
+              "q": "How do you read 무자? (pseudo)",
+              "opts": [
+                "mu-ja",
+                "mo-ja",
+                "mu-sa",
+                "ma-ja"
+              ],
+              "ans": "mu-ja"
+            },
+            {
+              "q": "How do you read 버노? (pseudo)",
+              "opts": [
+                "beo-no",
+                "ba-no",
+                "bu-no",
+                "bo-no"
+              ],
+              "ans": "beo-no"
+            },
+            {
+              "q": "How do you read 마루?",
+              "opts": [
+                "ma-ru",
+                "mo-ru",
+                "mu-ru",
+                "ma-nu"
+              ],
+              "ans": "ma-ru"
+            }
+          ]
+        },
+        {
+          "id": "gate_d",
+          "title": "Task D: Batchim Mapping",
+          "desc": "Which of the 7 final sounds does each block end with?",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "옷 ends with ㅅ. What final sound?",
+              "opts": [
+                "[s]",
+                "[t]",
+                "[k]",
+                "[n]"
+              ],
+              "ans": "[t]"
+            },
+            {
+              "q": "밥 ends with ㅂ. What final sound?",
+              "opts": [
+                "[p]",
+                "[t]",
+                "[m]",
+                "[b]"
+              ],
+              "ans": "[p]"
+            },
+            {
+              "q": "국 ends with ㄱ. What final sound?",
+              "opts": [
+                "[k]",
+                "[t]",
+                "[g]",
+                "[n]"
+              ],
+              "ans": "[k]"
+            },
+            {
+              "q": "꽃 ends with ㅊ. What final sound?",
+              "opts": [
+                "[ch]",
+                "[t]",
+                "[k]",
+                "[p]"
+              ],
+              "ans": "[t]"
+            },
+            {
+              "q": "앙 ends with ㅇ. What final sound?",
+              "opts": [
+                "[ng]",
+                "[n]",
+                "[m]",
+                "(silent)"
+              ],
+              "ans": "[ng]"
+            },
+            {
+              "q": "말 ends with ㄹ. What final sound?",
+              "opts": [
+                "[l]",
+                "[n]",
+                "[r]",
+                "[t]"
+              ],
+              "ans": "[l]"
+            },
+            {
+              "q": "밖 ends with ㄲ. What final sound?",
+              "opts": [
+                "[k]",
+                "[kk]",
+                "[t]",
+                "[p]"
+              ],
+              "ans": "[k]"
+            },
+            {
+              "q": "남 ends with ㅁ. What final sound?",
+              "opts": [
+                "[m]",
+                "[n]",
+                "[p]",
+                "[ng]"
+              ],
+              "ans": "[m]"
+            }
+          ]
+        },
+        {
+          "id": "gate_e",
+          "title": "Task E: Liaison & Sound Rules",
+          "desc": "How does the connected pronunciation change?",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "한국어: ㄱ from 국 meets ㅇ in 어. What happens?",
+              "opts": [
+                "han-gu-geo (ㄱ moves forward)",
+                "han-guk-eo (each block stays separate)",
+                "han-gung-eo (ㄱ becomes nasal)",
+                "han-gu-eo (ㄱ drops completely)"
+              ],
+              "ans": "han-gu-geo (ㄱ moves forward)"
+            },
+            {
+              "q": "먹어: ㄱ from 먹 meets ㅇ in 어. Result?",
+              "opts": [
+                "meo-geo (liaison)",
+                "meok-eo (no change)",
+                "meong-eo",
+                "meo-eo (ㄱ drops)"
+              ],
+              "ans": "meo-geo (liaison)"
+            },
+            {
+              "q": "합니다: ㅂ before ㄴ. Result?",
+              "opts": [
+                "ham-ni-da (ㅂ→ㅁ nasal)",
+                "hap-ni-da (no change)",
+                "hab-ni-da",
+                "hang-ni-da"
+              ],
+              "ans": "ham-ni-da (ㅂ→ㅁ nasal)"
+            },
+            {
+              "q": "학년: ㄱ before ㄴ. Result?",
+              "opts": [
+                "hang-nyeon (ㄱ→ㅇ nasal)",
+                "hak-nyeon (no change)",
+                "han-nyeon",
+                "hag-nyeon"
+              ],
+              "ans": "hang-nyeon (ㄱ→ㅇ nasal)"
+            },
+            {
+              "q": "받는: ㄷ before ㄴ. Result?",
+              "opts": [
+                "ban-neun (ㄷ→ㄴ nasal)",
+                "bat-neun (no change)",
+                "bad-neun",
+                "bam-neun"
+              ],
+              "ans": "ban-neun (ㄷ→ㄴ nasal)"
+            }
+          ]
+        }
+      ],
+      "diagnosticRouting": {
+        "A": "Phase 1-2: You need more practice recognizing vowels and consonants.",
+        "B": "Phase 2-4: Practice building blocks from consonants + vowels.",
+        "C": "Phase 3-5: Keep practicing decoding CV and multi-syllable blocks.",
+        "D": "Phase 6: Study batchim and the 7 final sounds table (Phase 10).",
+        "E": "Phase 10: Study liaison (연음) and nasalization rules."
+      }
+    },
+    "nl": {
+      "title": "Dutch Foundations Gate Quiz",
+      "desc": "Already know Dutch spelling rules? Pass this quiz to skip Foundations.",
+      "passCriteria": {
+        "AB": 90,
+        "C": 85,
+        "DE": 80
+      },
+      "tasks": [
+        {
+          "id": "gate_a",
+          "title": "Task A: Vowel Recognition",
+          "desc": "Identify the vowel sound in each word.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "What vowel is in 'kat' (cat)?",
+              "opts": [
+                "Short a",
+                "Long a",
+                "Short o"
+              ],
+              "ans": "Short a"
+            },
+            {
+              "q": "What vowel is in 'boom' (tree)?",
+              "opts": [
+                "Short o",
+                "Long o",
+                "Short u"
+              ],
+              "ans": "Long o"
+            },
+            {
+              "q": "What vowel is in 'bus' (bus)?",
+              "opts": [
+                "Short o",
+                "Short u",
+                "Short i"
+              ],
+              "ans": "Short u"
+            },
+            {
+              "q": "What vowel is in 'been' (leg)?",
+              "opts": [
+                "Short e",
+                "Long e",
+                "Short i"
+              ],
+              "ans": "Long e"
+            },
+            {
+              "q": "What vowel is in 'pit' (seed)?",
+              "opts": [
+                "Short i",
+                "Short e",
+                "Short u"
+              ],
+              "ans": "Short i"
+            },
+            {
+              "q": "What vowel is in 'maan' (moon)?",
+              "opts": [
+                "Short a",
+                "Long a",
+                "Long o"
+              ],
+              "ans": "Long a"
+            },
+            {
+              "q": "What vowel is in 'vuur' (fire)?",
+              "opts": [
+                "Long u",
+                "Short u",
+                "Long o"
+              ],
+              "ans": "Long u"
+            },
+            {
+              "q": "What vowel is in 'bos' (forest)?",
+              "opts": [
+                "Short a",
+                "Long o",
+                "Short o"
+              ],
+              "ans": "Short o"
+            }
+          ]
+        },
+        {
+          "id": "gate_b",
+          "title": "Task B: Syllable Logic",
+          "desc": "Apply open/closed syllable rules.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "In 'la-ken' (sheet), the first syllable is…",
+              "opts": [
+                "Closed → short",
+                "Open → long",
+                "Double → long"
+              ],
+              "ans": "Open → long"
+            },
+            {
+              "q": "In 'lak' (lacquer), the syllable is…",
+              "opts": [
+                "Open → long",
+                "Closed → short"
+              ],
+              "ans": "Closed → short"
+            },
+            {
+              "q": "Why does 'maan' use aa?",
+              "opts": [
+                "Closed + long needs double",
+                "Open syllable signals long",
+                "It is an irregular word"
+              ],
+              "ans": "Closed + long needs double"
+            },
+            {
+              "q": "'man' vs 'maan' — the difference is…",
+              "opts": [
+                "Vowel length only",
+                "Different consonants",
+                "Different stress"
+              ],
+              "ans": "Vowel length only"
+            },
+            {
+              "q": "'bo-men' has a single o because…",
+              "opts": [
+                "Open syllable signals long",
+                "It is an exception",
+                "Short o"
+              ],
+              "ans": "Open syllable signals long"
+            },
+            {
+              "q": "In 'bom' (bomb), the vowel is short because…",
+              "opts": [
+                "Double vowel",
+                "Closed syllable",
+                "Open syllable"
+              ],
+              "ans": "Closed syllable"
+            },
+            {
+              "q": "Which has a long vowel?",
+              "opts": [
+                "tak",
+                "taak",
+                "kat"
+              ],
+              "ans": "taak"
+            },
+            {
+              "q": "Which has a short vowel?",
+              "opts": [
+                "boom",
+                "bot",
+                "boot"
+              ],
+              "ans": "bot"
+            }
+          ]
+        },
+        {
+          "id": "gate_c",
+          "title": "Task C: Spelling Rules",
+          "desc": "Apply doubling, dropping, and digraph rules.",
+          "type": "mc",
+          "category": "C",
+          "items": [
+            {
+              "q": "Plural of 'man' (man)?",
+              "opts": [
+                "manen",
+                "mannen",
+                "maannen"
+              ],
+              "ans": "mannen"
+            },
+            {
+              "q": "Plural of 'maan' (moon)?",
+              "opts": [
+                "manen",
+                "maanen",
+                "mannen"
+              ],
+              "ans": "manen"
+            },
+            {
+              "q": "Plural of 'kat' (cat)?",
+              "opts": [
+                "katen",
+                "katten",
+                "kaaten"
+              ],
+              "ans": "katten"
+            },
+            {
+              "q": "Plural of 'boom' (tree)?",
+              "opts": [
+                "bomen",
+                "boomen",
+                "bommen"
+              ],
+              "ans": "bomen"
+            },
+            {
+              "q": "'dik' + -e becomes…",
+              "opts": [
+                "dike",
+                "dikke",
+                "dieke"
+              ],
+              "ans": "dikke"
+            },
+            {
+              "q": "'groot' + -e becomes…",
+              "opts": [
+                "groote",
+                "grote",
+                "grotten"
+              ],
+              "ans": "grote"
+            },
+            {
+              "q": "'wit' + -e becomes…",
+              "opts": [
+                "wite",
+                "witte",
+                "wiete"
+              ],
+              "ans": "witte"
+            },
+            {
+              "q": "'rood' + -e becomes…",
+              "opts": [
+                "roode",
+                "rode",
+                "rodde"
+              ],
+              "ans": "rode"
+            }
+          ]
+        },
+        {
+          "id": "gate_d",
+          "title": "Task D: Consonant Decoding",
+          "desc": "Decode digraphs, clusters, and tricky consonants.",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "'ch' in Dutch represents how many sounds?",
+              "opts": [
+                "Two",
+                "One",
+                "Three"
+              ],
+              "ans": "One"
+            },
+            {
+              "q": "'straat' (street) has how many syllables?",
+              "opts": [
+                "One",
+                "Two",
+                "Three"
+              ],
+              "ans": "One"
+            },
+            {
+              "q": "The Dutch g sounds like…",
+              "opts": [
+                "English g in 'go'",
+                "A throaty fricative",
+                "English h"
+              ],
+              "ans": "A throaty fricative"
+            },
+            {
+              "q": "'sch' in 'school' is…",
+              "opts": [
+                "One sound",
+                "Two sounds: s + ch",
+                "Three sounds"
+              ],
+              "ans": "Two sounds: s + ch"
+            },
+            {
+              "q": "Digraphs ch and ng can be doubled in spelling.",
+              "opts": [
+                "True",
+                "False"
+              ],
+              "ans": "False"
+            },
+            {
+              "q": "Three-consonant onsets in Dutch always start with…",
+              "opts": [
+                "t",
+                "s",
+                "r"
+              ],
+              "ans": "s"
+            }
+          ]
+        },
+        {
+          "id": "gate_e",
+          "title": "Task E: Irregularities",
+          "desc": "Handle devoicing, spelling splits, and past tense.",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "'hond' (dog) sounds like 'hont'. The spelling uses d because…",
+              "opts": [
+                "Plural 'honden' reveals d",
+                "Dutch always writes d",
+                "It is silent"
+              ],
+              "ans": "Plural 'honden' reveals d"
+            },
+            {
+              "q": "'ei' and 'ij' represent…",
+              "opts": [
+                "Different sounds",
+                "The same sound",
+                "Short and long versions"
+              ],
+              "ans": "The same sound"
+            },
+            {
+              "q": "Stem 'werk' — past tense ending?",
+              "opts": [
+                "-de",
+                "-te"
+              ],
+              "ans": "-te"
+            },
+            {
+              "q": "'ou' and 'au' represent…",
+              "opts": [
+                "Different sounds",
+                "The same sound",
+                "Short and long versions"
+              ],
+              "ans": "The same sound"
+            },
+            {
+              "q": "Stem 'bouw': past tense ending?",
+              "opts": [
+                "-de",
+                "-te"
+              ],
+              "ans": "-de"
+            }
+          ]
+        }
+      ],
+      "diagnosticRouting": {
+        "A": "Stage 1: Practice identifying short and long vowels in CVC words.",
+        "B": "Stage 2: Study open/closed syllable logic and double vowels.",
+        "C": "Stage 4: Practice consonant doubling and vowel dropping rules.",
+        "D": "Stage 3: Study consonant digraphs (ch, ng) and clusters.",
+        "E": "Stage 6: Study final devoicing, ei/ij splits, and 't kofschip."
+      }
+    },
+    "ar": {
+      "title": "Arabic Script Gate Quiz",
+      "desc": "Can you already decode Arabic script? Pass to skip Foundations.",
+      "passCriteria": {
+        "AB": 90,
+        "C": 85,
+        "DE": 80
+      },
+      "tasks": [
+        {
+          "id": "gate_a",
+          "title": "Task A: Letter Recognition",
+          "desc": "Name the sound each Arabic letter makes.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "What sound does this letter make?  ب",
+              "opts": [
+                "ba",
+                "ta",
+                "tha",
+                "na"
+              ],
+              "ans": "ba"
+            },
+            {
+              "q": "What sound does this letter make?  ت",
+              "opts": [
+                "ba",
+                "ta",
+                "tha",
+                "sa"
+              ],
+              "ans": "ta"
+            },
+            {
+              "q": "What sound does this letter make?  ح",
+              "opts": [
+                "ja",
+                "breathy ha",
+                "kha",
+                "ha"
+              ],
+              "ans": "breathy ha"
+            },
+            {
+              "q": "What does this letter represent?  ا",
+              "opts": [
+                "la",
+                "long aa / glottal",
+                "da",
+                "ra"
+              ],
+              "ans": "long aa / glottal"
+            },
+            {
+              "q": "What sound does this letter make?  ش",
+              "opts": [
+                "sa",
+                "sha",
+                "tha",
+                "ba"
+              ],
+              "ans": "sha"
+            },
+            {
+              "q": "What sound does this letter make?  ق",
+              "opts": [
+                "fa",
+                "deep q",
+                "gha",
+                "ayn"
+              ],
+              "ans": "deep q"
+            },
+            {
+              "q": "What sound does this letter make?  ض",
+              "opts": [
+                "heavy sa",
+                "heavy da",
+                "heavy ta",
+                "heavy dha"
+              ],
+              "ans": "heavy da"
+            },
+            {
+              "q": "What sound does this letter make?  ع",
+              "opts": [
+                "gha",
+                "fa",
+                "throat squeeze",
+                "qa"
+              ],
+              "ans": "throat squeeze"
+            }
+          ]
+        },
+        {
+          "id": "gate_b",
+          "title": "Task B: Breakers & Pairs",
+          "desc": "Identify breaker letters and dot-based pairs.",
+          "type": "mc",
+          "category": "AB",
+          "items": [
+            {
+              "q": "How many breaker letters exist in Arabic?",
+              "opts": [
+                "2",
+                "4",
+                "6",
+                "8"
+              ],
+              "ans": "6"
+            },
+            {
+              "q": "A breaker letter connects to:",
+              "opts": [
+                "Both neighbors",
+                "Only the letter before it",
+                "Only the letter after it",
+                "Nothing"
+              ],
+              "ans": "Only the letter before it"
+            },
+            {
+              "q": "Which of these is a breaker?",
+              "opts": [
+                "ب",
+                "ل",
+                "د",
+                "م"
+              ],
+              "ans": "د"
+            },
+            {
+              "q": "Adding 1 dot above ر changes the sound from 'r' to:",
+              "opts": [
+                "z",
+                "dh",
+                "d",
+                "w"
+              ],
+              "ans": "z"
+            },
+            {
+              "q": "Adding 1 dot above د changes the sound from 'd' to:",
+              "opts": [
+                "z",
+                "r",
+                "dh",
+                "w"
+              ],
+              "ans": "dh"
+            },
+            {
+              "q": "Which pair are BOTH breakers?",
+              "opts": [
+                "ب and ت",
+                "س and ش",
+                "ر and ز",
+                "ل and م"
+              ],
+              "ans": "ر and ز"
+            },
+            {
+              "q": "Which is NOT a breaker letter?",
+              "opts": [
+                "ا",
+                "و",
+                "ر",
+                "ب"
+              ],
+              "ans": "ب"
+            },
+            {
+              "q": "Breaker letters have how many position forms?",
+              "opts": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "ans": "2"
+            }
+          ]
+        },
+        {
+          "id": "gate_c",
+          "title": "Task C: Vowel Marks",
+          "desc": "Identify short vowels, sukun, shadda, and tanwin.",
+          "type": "mc",
+          "category": "C",
+          "items": [
+            {
+              "q": "How many short vowel marks does Arabic have?",
+              "opts": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "ans": "3"
+            },
+            {
+              "q": "A small diagonal stroke ABOVE a letter is:",
+              "opts": [
+                "Kasra (i)",
+                "Fatha (a)",
+                "Damma (u)",
+                "Sukun"
+              ],
+              "ans": "Fatha (a)"
+            },
+            {
+              "q": "A small diagonal stroke BELOW a letter is:",
+              "opts": [
+                "Fatha (a)",
+                "Damma (u)",
+                "Kasra (i)",
+                "Shadda"
+              ],
+              "ans": "Kasra (i)"
+            },
+            {
+              "q": "A small circle above a letter means:",
+              "opts": [
+                "Double the consonant",
+                "No vowel follows",
+                "Long vowel",
+                "The a sound"
+              ],
+              "ans": "No vowel follows"
+            },
+            {
+              "q": "Shadda means:",
+              "opts": [
+                "No vowel",
+                "The letter is silent",
+                "Say the consonant twice",
+                "Long vowel"
+              ],
+              "ans": "Say the consonant twice"
+            },
+            {
+              "q": "Tanwin adds what sound to a vowel?",
+              "opts": [
+                "An m sound",
+                "An n sound",
+                "An l sound",
+                "An r sound"
+              ],
+              "ans": "An n sound"
+            },
+            {
+              "q": "Long vowel 'aa' uses which letter?",
+              "opts": [
+                "و",
+                "ي",
+                "ا",
+                "ه"
+              ],
+              "ans": "ا"
+            },
+            {
+              "q": "Long vowel 'ee' uses which letter?",
+              "opts": [
+                "ا",
+                "و",
+                "ي",
+                "ه"
+              ],
+              "ans": "ي"
+            }
+          ]
+        },
+        {
+          "id": "gate_d",
+          "title": "Task D: Special Features",
+          "desc": "The definite article, lam-alif combo, and look-alikes.",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "What does ال at the start of a word mean?",
+              "opts": [
+                "A question",
+                "And",
+                "The",
+                "From"
+              ],
+              "ans": "The"
+            },
+            {
+              "q": "When ل and ا appear together they:",
+              "opts": [
+                "Stay separate",
+                "Always merge into one shape",
+                "Disappear",
+                "Switch order"
+              ],
+              "ans": "Always merge into one shape"
+            },
+            {
+              "q": "How does ة differ from ه?",
+              "opts": [
+                "ة has 2 dots above",
+                "ه has 2 dots above",
+                "They are identical",
+                "ة is bigger"
+              ],
+              "ans": "ة has 2 dots above"
+            },
+            {
+              "q": "How does ى differ from ي?",
+              "opts": [
+                "ى has dots below",
+                "ي has 2 dots below but ى has none",
+                "They sound the same",
+                "ى is bigger"
+              ],
+              "ans": "ي has 2 dots below but ى has none"
+            },
+            {
+              "q": "Arabic text reads:",
+              "opts": [
+                "Left to right",
+                "Right to left",
+                "Top to bottom",
+                "Varies"
+              ],
+              "ans": "Right to left"
+            },
+            {
+              "q": "Arabic numbers read:",
+              "opts": [
+                "Right to left",
+                "Left to right",
+                "Backwards",
+                "Any direction"
+              ],
+              "ans": "Left to right"
+            }
+          ]
+        },
+        {
+          "id": "gate_e",
+          "title": "Task E: Read First Words",
+          "desc": "Decode short Arabic words.",
+          "type": "mc",
+          "category": "DE",
+          "items": [
+            {
+              "q": "في means:",
+              "opts": [
+                "From",
+                "And",
+                "In",
+                "No"
+              ],
+              "ans": "In"
+            },
+            {
+              "q": "من means:",
+              "opts": [
+                "In",
+                "What",
+                "And",
+                "From"
+              ],
+              "ans": "From"
+            },
+            {
+              "q": "لا means:",
+              "opts": [
+                "Yes",
+                "The",
+                "No / Not",
+                "And"
+              ],
+              "ans": "No / Not"
+            },
+            {
+              "q": "و means:",
+              "opts": [
+                "Or",
+                "And",
+                "The",
+                "In"
+              ],
+              "ans": "And"
+            },
+            {
+              "q": "ما means:",
+              "opts": [
+                "In",
+                "From",
+                "And",
+                "What"
+              ],
+              "ans": "What"
+            }
+          ]
+        }
+      ],
+      "diagnosticRouting": {
+        "A": "Stages 2-3: Review letter families and their shapes.",
+        "B": "Stage 1: Study breaker letters and how Arabic connects.",
+        "C": "Stage 4: Study vowel marks (harakat), sukun, and shadda.",
+        "D": "Stage 5: Study the definite article, look-alikes, and special features.",
+        "E": "Stage 5: Practice reading your first Arabic words."
+      }
+    }
+  }
+}

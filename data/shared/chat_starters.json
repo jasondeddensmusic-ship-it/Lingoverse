@@ -1,0 +1,51 @@
+{
+  "_schema": "lingoverse_chat_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "fr": [
+      "Comment tu t'appelles?",
+      "Qu'est-ce que tu aimes faire?",
+      "Parle-moi de ta journée"
+    ],
+    "nl": [
+      "Hoe heet je?",
+      "Wat doe je graag?",
+      "Vertel me over je dag"
+    ],
+    "en": [
+      "What's your name?",
+      "What do you like to do?",
+      "Tell me about your day"
+    ],
+    "de": [
+      "Wie heißt du?",
+      "Was machst du gern?",
+      "Erzähl mir von deinem Tag"
+    ],
+    "ro": [
+      "Cum te numești?",
+      "Ce îți place să faci?"
+    ],
+    "es": [
+      "¿Cómo te llamas?",
+      "¿Qué te gusta hacer?",
+      "Cuéntame sobre tu día"
+    ],
+    "ko": [
+      "이름이 뭐예요?",
+      "뭐 하는 거 좋아해요?"
+    ],
+    "zh": [
+      "你叫什么名字?",
+      "你喜欢做什么?"
+    ],
+    "ja": [
+      "お名前は?",
+      "趣味は何ですか?"
+    ],
+    "ru": [
+      "Как тебя зовут?",
+      "Что тебе нравится делать?"
+    ]
+  }
+}

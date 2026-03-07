@@ -1,0 +1,1956 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 7,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Mijn Dag",
+    "sub": "Perfect Tense & 't Kofschip",
+    "icon": "⏰",
+    "level": "A2.1",
+    "color": "#4A8FE7"
+  },
+  "lessons": [
+    {
+      "id": "v2u7l1",
+      "title": "Wat Heb Je Gedaan?",
+      "icon": "✅",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Wat Heb Je Gedaan?",
+          "desc": "Welcome to the past tense. Dutch uses the 'perfect tense' (voltooid tegenwoordige tijd) for almost all past actions in speech. It works like English 'I have done' — except Dutch uses it where English would say 'I did'. This is the most important grammar of A2.",
+          "goals": [
+            "How the perfect tense works",
+            "The formula: hebben + ge-...-d/-t",
+            "Make your first past participles",
+            "Talk about what you did"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🔑 The Perfect Tense: The Big Idea",
+          "text": "To talk about the past in Dutch conversation, use:\n\nSUBJECT + hebben/zijn + ... + PAST PARTICIPLE (at the end)\n\nIk heb gewerkt. = I have worked. / I worked.\nZij heeft gefietst. = She has cycled. / She cycled.\nWij hebben gegeten. = We have eaten. / We ate.\n\nEnglish splits 'I worked' (simple past) and 'I have worked' (perfect).\nDutch uses the perfect for BOTH in spoken language.\n\n'Ik heb gisteren gewerkt.' = I worked yesterday.\nNOT 'Ik werkte gisteren.' (This exists but is mostly for writing.)\n\nThe past participle goes to the VERY END of the sentence.\nSame end-position as modal infinitives — you already know this pattern!"
+        },
+        {
+          "type": "teach",
+          "nl": "het voltooid deelwoord",
+          "en": "the past participle",
+          "phonetic": "hut fol-TOYT DALE-vohrt",
+          "example": "'Gewerkt' is het voltooid deelwoord van 'werken'.",
+          "exampleEn": "'Gewerkt' is the past participle of 'werken'.",
+          "note": "The grammar term. You don't need to memorize it.\nJust know: past participle = the 'ge-...' word\nthat goes at the end of the sentence.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gewerkt",
+          "en": "worked",
+          "phonetic": "guh-VERKT",
+          "example": "Ik heb gisteren gewerkt.",
+          "exampleEn": "I worked yesterday.",
+          "note": "ge- + werk + -t = gewerkt.\nThe formula for regular verbs:\nge- + STAM + -t or -d.\nWhich ending (-t or -d)? That's the 't kofschip rule — next lesson!",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gefietst",
+          "en": "cycled",
+          "phonetic": "guh-FEETST",
+          "example": "Zij heeft naar het werk gefietst.",
+          "exampleEn": "She cycled to work.",
+          "note": "ge- + fiets + -t = gefietst.\nStam = fiets (ends in -s, which is a 't kofschip letter).\nSo: -t ending. More on this rule in L2.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "geleerd",
+          "en": "learned / studied",
+          "phonetic": "guh-LAIRD",
+          "example": "Ik heb Nederlands geleerd.",
+          "exampleEn": "I learned Dutch.",
+          "note": "ge- + leer + -d = geleerd.\nStam = leer (ends in -r, NOT a 't kofschip letter).\nSo: -d ending. The rule becomes clear in L2.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gemaakt",
+          "en": "made / done",
+          "phonetic": "guh-MAHKT",
+          "example": "Ik heb de keuken schoongemaakt.",
+          "exampleEn": "I cleaned the kitchen.",
+          "note": "ge- + maak + -t = gemaakt.\nFor separable verbs: ge- goes BETWEEN prefix and verb!\nschoonmaken → schoon-ge-maakt.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📐 The Formula",
+          "text": "Regular past participle = ge- + STAM + -t or -d\n\nStep 1: Find the stam.\nwerken → werk\nfietsen → fiets\nleren → leer\n\nStep 2: Add ge- at the front.\nge-werk, ge-fiets, ge-leer\n\nStep 3: Add -t or -d at the end.\ngewerkt, gefietst, geleerd\n\nWhich ending? Quick preview:\n-T after: t, k, f, s, ch, p (the 't kofschip' consonants)\n-D after everything else\n\nFull rule in the next lesson. For now:\nge- + stam + -t/-d → past participle.\nPut it at the END: Ik heb gewerkt."
+        },
+        {
+          "type": "teach",
+          "nl": "gisteren",
+          "en": "yesterday",
+          "phonetic": "GIS-tuh-run",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "yesterday (yester-)"
+              },
+              {
+                "lang": "German",
+                "word": "gestern"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Gisteren heb ik gewerkt.",
+          "exampleEn": "Yesterday I worked.",
+          "note": "Time word. Goes at start or after the verb.\n'Gisteren heb ik...' = Yesterday I... (V2: verb stays second!).\nCognate of German 'gestern'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vandaag",
+          "en": "today",
+          "phonetic": "fan-DAHG",
+          "example": "Vandaag heb ik niet gewerkt.",
+          "exampleEn": "Today I haven't worked.",
+          "note": "You already know this from Unit 3!\nvan + daag = from + day.\n'Vandaag' + perfect tense = talking about today so far.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch perfect tense formula is:",
+          "opts": [
+            "stam + -te",
+            "hebben + past participle",
+            "gaan + infinitive",
+            "zijn + adjective"
+          ],
+          "ans": "hebben + past participle",
+          "hint": "Ik HEB GEWERKT"
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ gisteren gewerkt.",
+          "a": "heb",
+          "opts": [
+            "heb",
+            "ben",
+            "ga",
+            "moet"
+          ],
+          "hint": "I HAVE worked = hebben"
+        },
+        {
+          "type": "mc",
+          "q": "Where does the past participle go?",
+          "opts": [
+            "At the start",
+            "After the subject",
+            "At the end",
+            "Before hebben"
+          ],
+          "ans": "At the end",
+          "hint": "Same position as modal infinitives"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gewerkt",
+              "en": "worked"
+            },
+            {
+              "nl": "gefietst",
+              "en": "cycled"
+            },
+            {
+              "nl": "geleerd",
+              "en": "learned"
+            },
+            {
+              "nl": "gemaakt",
+              "en": "made"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} Nederlands {2}.",
+          "blanks": {
+            "1": "heb",
+            "2": "geleerd"
+          },
+          "pool": [
+            "heb",
+            "geleerd",
+            "ben",
+            "leren"
+          ],
+          "hint": "I HAVE LEARNED Dutch"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ naar het werk gefietst.",
+          "a": "heeft",
+          "opts": [
+            "heeft",
+            "heb",
+            "hebben",
+            "is"
+          ],
+          "hint": "She HAS cycled (zij = heeft)"
+        },
+        {
+          "type": "mc",
+          "q": "For separable verbs, ge- goes:",
+          "opts": [
+            "at the very front: geschoonmaakt",
+            "between prefix and verb: schoongemaakt",
+            "at the end: maaktgeschoon",
+            "nowhere: schoonmaakt"
+          ],
+          "ans": "between prefix and verb: schoongemaakt",
+          "hint": "schoon + ge + maakt"
+        },
+        {
+          "type": "fb",
+          "s": "Gisteren ___ ik Nederlands geleerd.",
+          "a": "heb",
+          "opts": [
+            "heb",
+            "ben",
+            "ga",
+            "moet"
+          ],
+          "hint": "Yesterday I learned (V2: verb second)"
+        },
+        {
+          "type": "mc",
+          "q": "In spoken Dutch, 'I worked yesterday' is:",
+          "opts": [
+            "Ik werkte gisteren.",
+            "Ik heb gisteren gewerkt.",
+            "Ik had gisteren gewerkt.",
+            "Ik werk gisteren."
+          ],
+          "ans": "Ik heb gisteren gewerkt.",
+          "hint": "Perfect tense for ALL spoken past"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_worked_yesterday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_learned_dutch",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l2",
+      "title": "'t Kofschip",
+      "icon": "⚓",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "'t Kofschip",
+          "desc": "The most famous mnemonic in Dutch grammar. When you make a past participle, the ending is -t or -d. Which one? Look at the LAST letter of the stam. If it's in 't kofschip (t, k, f, s, ch, p), use -t. Otherwise: -d. That's it. That's the whole rule.",
+          "goals": [
+            "The 't kofschip mnemonic",
+            "Apply -t vs -d endings correctly",
+            "Practice with 10+ verbs",
+            "Never second-guess the ending again"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "⚓ 't Kofschip: The Rule",
+          "text": "Past participle = ge- + stam + -t OR -d.\n\nWhich ending? Look at the LAST CONSONANT of the stam:\n\n't Kofschip letters: T, K, F, S, CH, P → add -T\nEverything else → add -D\n\nExamples with -T:\nwerken → werk → K → gewerkt ✓\nfietsen → fiets → S → gefietst ✓\nkoken → kook → K → gekookt ✓\nmaken → maak → K → gemaakt ✓\n\nExamples with -D:\nleren → leer → R → geleerd ✓\nwonen → woon → N → gewoond ✓\n\n⚠️ THE V/Z TRAP:\nleven → stam = leef. F looks like a kofschip letter...\nBut the INFINITIVE is le-VEN. The original consonant is V.\nV is NOT in 't kofschip → geleefd (with -d) ✓\n\nreizen → stam = reis. S looks like a kofschip letter...\nBut the INFINITIVE is rei-ZEN. The original consonant is Z.\nZ is NOT in 't kofschip → gereisd (with -d) ✓\n\nRule: when in doubt, check the infinitive, not just the stam.",
+          "deepDive": {
+            "title": "The V/Z trap explained",
+            "text": "Dutch has a spelling rule called 'devoicing':\nV becomes F at the end of a syllable.\nZ becomes S at the end of a syllable.\n\nSo when you make the stam:\nleven → leef (v devoices to f)\nreizen → reis (z devoices to s)\n\nThe stam LOOKS like it ends in a kofschip letter.\nBut the underlying consonant (visible in the infinitive)\nis V or Z — neither of which is in 't kofschip.\n\nSo: geleefd (not geleeft), gereisd (not gereist).\n\nThe trick: always check the INFINITIVE's consonant.\nleven → V → -d → geleefd ✓\nreizen → Z → -d → gereisd ✓\n\nOr simpler: if the infinitive has V or Z before -en,\nalways use -d, regardless of how the stam looks."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "gekookt",
+          "en": "cooked",
+          "phonetic": "guh-KOHKT",
+          "example": "Ik heb rijst gekookt.",
+          "exampleEn": "I cooked rice.",
+          "note": "koken → kook → K = 't kofschip → ge+kook+t = gekookt.\nThe double 'o' stays because closed syllable needs two.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gestopt",
+          "en": "stopped",
+          "phonetic": "guh-STOPT",
+          "example": "Hij heeft gestopt met roken.",
+          "exampleEn": "He stopped smoking.",
+          "note": "stoppen → stop → P = 't kofschip → ge+stop+t = gestopt.\n'Stoppen met' = to stop/quit doing something.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gewoond",
+          "en": "lived (resided)",
+          "phonetic": "guh-VOHNT",
+          "example": "Ik heb in Amsterdam gewoond.",
+          "exampleEn": "I lived in Amsterdam.",
+          "note": "wonen → woon → N = NOT in 't kofschip → ge+woon+d = gewoond.\nFinal -d sounds like -t (devoicing), but you WRITE -d.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gespeeld",
+          "en": "played",
+          "phonetic": "guh-SPAYLT",
+          "example": "Wij hebben voetbal gespeeld.",
+          "exampleEn": "We played football.",
+          "note": "spelen → speel → L = NOT in 't kofschip → ge+speel+d = gespeeld.\nDouble 'e' in closed syllable = long vowel.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "betaald",
+          "en": "paid",
+          "phonetic": "buh-TAHLT",
+          "example": "Ik heb al betaald.",
+          "exampleEn": "I've already paid.",
+          "note": "betalen → betaal → L = NOT in 't kofschip → betaal+d = betaald.\n⚠️ No ge-! Verbs starting with be-, ver-, ge-, her-, ont-\nskip the ge- prefix. 'Betaald', NOT 'gebetaald'.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ Verbs That Skip ge-",
+          "text": "Some verbs DON'T get ge- in the past participle:\n\nbe-: betalen → betaald (NOT gebetaald)\nver-: verkopen → verkocht (NOT geverkocht)\nge-: gebruiken → gebruikt (NOT gegebruikt)\nher-: herhalen → herhaald (NOT geherhaald)\nont-: ontmoeten → ontmoet (NOT geontmoet)\n\nRule: if the verb starts with an UNSTRESSED prefix\n(be-, ver-, ge-, her-, ont-, er-), skip the ge-.\n\nThese prefixes are never stressed:\nbeGINnen, verKOpen, geBRUIken.\n\nContrast with SEPARABLE verbs (stressed prefix):\nOPbellen → opgebeld (ge- goes in the middle)\nSCHOONmaken → schoongemaakt"
+        },
+        {
+          "type": "teach",
+          "nl": "gebruikt",
+          "en": "used",
+          "phonetic": "guh-BROYKT",
+          "example": "Heb je mijn telefoon gebruikt?",
+          "exampleEn": "Did you use my phone?",
+          "note": "gebruiken → gebruik → K = 't kofschip → gebruik+t = gebruikt.\nNo ge-! The ge- prefix is already there (ge-bruiken).\nDon't add another one.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "verkocht",
+          "en": "sold",
+          "phonetic": "fur-KOGT",
+          "example": "Zij heeft haar huis verkocht.",
+          "exampleEn": "She sold her house.",
+          "note": "verkopen → verkocht. Wait — irregular!\nNot 'verkoopt'. The past participle is 'verkocht'.\nSome verbs are irregular. We'll cover those in L4.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "Stam of 'werken' = 'werk'. Last letter K. K is in 't kofschip. So:",
+          "opts": [
+            "gewerkt (-t)",
+            "gewerked (-d)",
+            "gewerkd (-d)",
+            "gewerk (nothing)"
+          ],
+          "ans": "gewerkt (-t)",
+          "hint": "K = 't kofschip = -t"
+        },
+        {
+          "type": "fb",
+          "s": "wonen → woon → N → ge+woon+___ = gewoond",
+          "a": "d",
+          "opts": [
+            "d",
+            "t",
+            "dt",
+            "nothing"
+          ],
+          "hint": "N is NOT in 't kofschip"
+        },
+        {
+          "type": "mc",
+          "q": "'Betaald' has no ge- because:",
+          "opts": [
+            "It's irregular",
+            "be- is an unstressed prefix",
+            "It's a short verb",
+            "The Dutch forgot"
+          ],
+          "ans": "be- is an unstressed prefix",
+          "hint": "be-, ver-, ge-, her-, ont- skip ge-"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gekookt",
+              "en": "cooked"
+            },
+            {
+              "nl": "gewoond",
+              "en": "lived"
+            },
+            {
+              "nl": "gespeeld",
+              "en": "played"
+            },
+            {
+              "nl": "betaald",
+              "en": "paid"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik heb rijst {1}. Wij hebben voetbal {2}.",
+          "blanks": {
+            "1": "gekookt",
+            "2": "gespeeld"
+          },
+          "pool": [
+            "gekookt",
+            "gespeeld",
+            "gekookt",
+            "gestopt"
+          ],
+          "hint": "I cooked rice. We played football."
+        },
+        {
+          "type": "mc",
+          "q": "The stam of 'fietsen' is 'fiets'. S is in 't kofschip. So:",
+          "opts": [
+            "gefietsd",
+            "gefietst",
+            "gefiets",
+            "gefietsen"
+          ],
+          "ans": "gefietst",
+          "hint": "S = 't kofschip = -t"
+        },
+        {
+          "type": "fb",
+          "s": "Zij heeft haar huis ___. (sold)",
+          "a": "verkocht",
+          "opts": [
+            "verkocht",
+            "verkoopt",
+            "geverkocht",
+            "verkopen"
+          ],
+          "hint": "Irregular! No ge- + irregular form"
+        },
+        {
+          "type": "mc",
+          "q": "'Leven' → stam = 'leef'. F is in 't kofschip, so -t? No! Why?",
+          "opts": [
+            "The original consonant is V (le-ven), V is NOT in 't kofschip",
+            "F always gets -d",
+            "It's irregular",
+            "The rule doesn't apply to leven"
+          ],
+          "ans": "The original consonant is V (le-ven), V is NOT in 't kofschip",
+          "hint": "The V/Z trap: check the infinitive"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik heb al {1}. Hij heeft {2} met roken.",
+          "blanks": {
+            "1": "betaald",
+            "2": "gestopt"
+          },
+          "pool": [
+            "betaald",
+            "gestopt",
+            "betalen",
+            "stoppen"
+          ],
+          "hint": "Already paid. Stopped smoking."
+        },
+        {
+          "type": "tr",
+          "mk": "u7_she_cycled_work",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l3",
+      "title": "Ik Ben Gegaan",
+      "icon": "🚶",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Ik Ben Gegaan",
+          "desc": "Not every verb uses 'hebben' in the perfect tense. Some use 'zijn'. Which ones? Verbs of MOVEMENT and CHANGE OF STATE. 'I have gone' = 'Ik ben gegaan.' 'I have become' = 'Ik ben geworden.' If you speak German or French, this system is identical.",
+          "goals": [
+            "When to use zijn vs hebben",
+            "The movement/change rule",
+            "8 common zijn-verbs",
+            "Past participles of komen, gaan, zijn, worden"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🔑 Zijn vs Hebben: The Rule",
+          "text": "Most verbs: hebben + past participle\nIk heb gewerkt. Zij heeft gegeten.\n\nSome verbs: zijn + past participle\nIk ben gegaan. Zij is gekomen.\n\nWhich verbs use zijn? Two categories:\n\n1. MOVEMENT (from A to B):\ngaan (go), komen (come), vertrekken (depart),\naankomen (arrive), rijden (drive/ride),\nfietsen (cycle), lopen (walk/run)\n\n2. CHANGE OF STATE:\nworden (become), sterven (die), groeien (grow),\nblijven (stay/remain), beginnen (begin),\nstoppen (stop — when intransitive)\n\n⚠️ 'Zijn' itself uses zijn: Ik ben geweest. (I have been.)\n\nGerman speakers: same system! Ich bin gegangen.\nFrench speakers: same system! Je suis allé(e).",
+          "deepDive": {
+            "title": "The fietsen trap",
+            "text": "'Fietsen' can use BOTH:\n\nIk heb gefietst. = I cycled. (general activity)\nIk ben naar het werk gefietst. = I cycled TO work. (movement A→B)\n\nWhen there's a destination (naar, uit, in), use zijn.\nWhen it's just the activity itself, use hebben.\n\nSame applies to: rijden, lopen, vliegen, zwemmen.\n\nIk heb gezwommen. = I swam. (activity)\nIk ben naar de overkant gezwommen. = I swam to the other side. (A→B)\n\nIn practice, the Dutch are relaxed about this.\nBut 'gaan', 'komen', 'worden', 'zijn', 'blijven' → ALWAYS zijn."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "gegaan",
+          "en": "gone",
+          "phonetic": "guh-GAHN",
+          "example": "Ik ben naar Amsterdam gegaan.",
+          "exampleEn": "I went to Amsterdam.",
+          "note": "gaan → gegaan. Irregular!\nNot 'gegaand' or 'gegaat'. Just: gegaan.\nAlways with zijn: ik BEN gegaan.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gekomen",
+          "en": "come / came",
+          "phonetic": "guh-KOH-mun",
+          "example": "Zij is uit België gekomen.",
+          "exampleEn": "She came from Belgium.",
+          "note": "komen → gekomen. Irregular!\nNot 'gekomt' or 'gekomd'. Just: gekomen.\nAlways with zijn: zij IS gekomen.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "geweest",
+          "en": "been",
+          "phonetic": "guh-VAYST",
+          "example": "Ik ben in Parijs geweest.",
+          "exampleEn": "I have been to Paris.",
+          "note": "zijn → geweest. Very irregular!\nThe most irregular past participle in Dutch.\nAlways with zijn: ik BEN geweest.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "geworden",
+          "en": "become",
+          "phonetic": "guh-VOR-dun",
+          "example": "Hij is leraar geworden.",
+          "exampleEn": "He became a teacher.",
+          "note": "worden → geworden. Irregular!\nChange of state verb → always zijn.\n'Worden' is extremely common in Dutch.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gebleven",
+          "en": "stayed / remained",
+          "phonetic": "guh-BLAY-vun",
+          "example": "Wij zijn thuis gebleven.",
+          "exampleEn": "We stayed home.",
+          "note": "blijven → gebleven. Irregular!\nStay = no movement, but it IS a state verb.\nAlways with zijn: wij ZIJN gebleven.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "vertrokken",
+          "en": "departed / left",
+          "phonetic": "fur-TROK-kun",
+          "example": "De trein is al vertrokken.",
+          "exampleEn": "The train has already departed.",
+          "note": "vertrekken → vertrokken. Irregular!\nNo ge- (ver- prefix). Movement verb → zijn.\nDe trein IS vertrokken.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📋 The Essential Zijn-Verbs",
+          "text": "Always with ZIJN:\ngaan → gegaan (gone)\nkomen → gekomen (come)\nzijn → geweest (been)\nworden → geworden (become)\nblijven → gebleven (stayed)\nvertrekken → vertrokken (departed)\naankomen → aangekomen (arrived)\nbeginnen → begonnen (begun)\nsterven → gestorven (died)\n\nMost of these are IRREGULAR.\nThat's annoying but predictable:\nthe most common verbs in any language are irregular.\n\nGood news: there are only ~20 zijn-verbs total.\nEverything else uses hebben."
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ___ naar Amsterdam gegaan.'",
+          "opts": [
+            "heb",
+            "ben",
+            "ga",
+            "heeft"
+          ],
+          "ans": "ben",
+          "hint": "Movement verb → zijn"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ uit België gekomen.",
+          "a": "is",
+          "opts": [
+            "is",
+            "heeft",
+            "ben",
+            "zijn"
+          ],
+          "hint": "She HAS come (zijn verb, zij = is)"
+        },
+        {
+          "type": "mc",
+          "q": "Which rule determines zijn vs hebben?",
+          "opts": [
+            "Word length",
+            "Movement or change of state",
+            "Whether it's regular",
+            "The article of the subject"
+          ],
+          "ans": "Movement or change of state",
+          "hint": "gaan (movement), worden (change)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gegaan",
+              "en": "gone"
+            },
+            {
+              "nl": "gekomen",
+              "en": "come"
+            },
+            {
+              "nl": "geweest",
+              "en": "been"
+            },
+            {
+              "nl": "gebleven",
+              "en": "stayed"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} thuis gebleven. De trein {2} vertrokken.",
+          "blanks": {
+            "1": "ben",
+            "2": "is"
+          },
+          "pool": [
+            "ben",
+            "is",
+            "heb",
+            "heeft"
+          ],
+          "hint": "I stayed (zijn). The train departed (zijn)."
+        },
+        {
+          "type": "fb",
+          "s": "Hij ___ leraar geworden.",
+          "a": "is",
+          "opts": [
+            "is",
+            "heeft",
+            "ben",
+            "zijn"
+          ],
+          "hint": "Change of state → zijn"
+        },
+        {
+          "type": "mc",
+          "q": "'Zijn' (to be) uses which auxiliary?",
+          "opts": [
+            "hebben: ik heb geweest",
+            "zijn: ik ben geweest",
+            "both are correct",
+            "neither — no perfect tense"
+          ],
+          "ans": "zijn: ik ben geweest",
+          "hint": "Zijn uses zijn. Meta!"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik heb gefietst' vs 'Ik ben naar het werk gefietst'. The difference?",
+          "opts": [
+            "No difference",
+            "hebben = activity, zijn = movement to destination",
+            "hebben is wrong",
+            "zijn is wrong"
+          ],
+          "ans": "hebben = activity, zijn = movement to destination",
+          "hint": "Destination (naar) → zijn"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wij {1} pannenkoeken gegeten. Zij {2} naar huis gegaan.",
+          "blanks": {
+            "1": "hebben",
+            "2": "is"
+          },
+          "pool": [
+            "hebben",
+            "is",
+            "zijn",
+            "heb"
+          ],
+          "hint": "We ATE (hebben). She WENT home (zijn)."
+        },
+        {
+          "type": "tr",
+          "mk": "u7_i_went_to_amsterdam",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_i_stayed_home",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l4",
+      "title": "Onregelmatige Deelwoorden",
+      "icon": "⚡",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Onregelmatige Deelwoorden",
+          "desc": "Some past participles don't follow 't kofschip. The vowel changes, the ending is -en instead of -t/-d, and you just have to memorize them. The good news: many match English or German patterns, and the 15 most common ones cover 80% of daily speech.",
+          "goals": [
+            "15 high-frequency irregular past participles",
+            "Pattern: ge-...-en (with vowel change)",
+            "Spot English/German cognate patterns",
+            "Use them in sentences fluently"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "⚡ Irregular Past Participles",
+          "text": "Regular: ge- + stam + -t/-d\ngewerkt, geleerd, gewoond\n\nIrregular: ge- + CHANGED STEM + -en\ngegeten, gedronken, geschreven\n\nThe vowel in the stem changes (just like English!):\ndrink → gedronken (drink → drunk)\neet → gegeten (eat → eaten)\nschrijf → geschreven (write → written)\n\nIf you know English or German irregular verbs,\nyou already know many Dutch ones.\nThe patterns are often the same."
+        },
+        {
+          "type": "teach",
+          "nl": "gegeten",
+          "en": "eaten",
+          "phonetic": "guh-GAY-tun",
+          "example": "Ik heb een appel gegeten.",
+          "exampleEn": "I ate an apple.",
+          "note": "eten → gegeten. Compare:\nEnglish: eat → eaten\nGerman: essen → gegessen\nSame -en ending, same pattern.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gedronken",
+          "en": "drunk / drank",
+          "phonetic": "guh-DRONG-kun",
+          "example": "Hij heeft koffie gedronken.",
+          "exampleEn": "He drank coffee.",
+          "note": "drinken → gedronken. Compare:\nEnglish: drink → drunk\nGerman: trinken → getrunken\nVowel change: i → o. Same in all three languages!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "geschreven",
+          "en": "written / wrote",
+          "phonetic": "guh-SGRAY-vun",
+          "example": "Ik heb een brief geschreven.",
+          "exampleEn": "I wrote a letter.",
+          "note": "schrijven → geschreven. Compare:\nEnglish: write → written (same pattern!)\nGerman: schreiben → geschrieben\nVowel change: ij → e.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gelezen",
+          "en": "read (past)",
+          "phonetic": "guh-LAY-zun",
+          "example": "Heb je het boek gelezen?",
+          "exampleEn": "Have you read the book?",
+          "note": "lezen → gelezen. The vowel doesn't change!\nBut the ending is -en (not -d).\nCompare German: lesen → gelesen. Identical.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gedaan",
+          "en": "done / did",
+          "phonetic": "guh-DAHN",
+          "example": "Wat heb je gedaan?",
+          "exampleEn": "What did you do?",
+          "note": "doen → gedaan. Irregular!\nCompare English: do → done.\nSame vowel change pattern: oe → a.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "gezien",
+          "en": "seen / saw",
+          "phonetic": "guh-ZEEN",
+          "example": "Ik heb dat niet gezien.",
+          "exampleEn": "I didn't see that.",
+          "note": "zien → gezien. Compare:\nEnglish: see → seen\nGerman: sehen → gesehen\nShort and common. Memorize this one.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "genomen",
+          "en": "taken / took",
+          "phonetic": "guh-NOH-mun",
+          "example": "Hij heeft de trein genomen.",
+          "exampleEn": "He took the train.",
+          "note": "nemen → genomen. Compare:\nEnglish: take → taken (different root!)\nGerman: nehmen → genommen\nVowel change: e → o.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gesproken",
+          "en": "spoken / spoke",
+          "phonetic": "guh-SPROH-kun",
+          "example": "Wij hebben Nederlands gesproken.",
+          "exampleEn": "We spoke Dutch.",
+          "note": "spreken → gesproken. Compare:\nEnglish: speak → spoken\nGerman: sprechen → gesprochen\nVowel change: e → o. Identical pattern.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📋 The 15 Most Common Irregulars",
+          "text": "HEBBEN verbs:\neten → gegeten (eaten)\ndrinken → gedronken (drunk)\nschrijven → geschreven (written)\nlezen → gelezen (read)\ndoen → gedaan (done)\nzien → gezien (seen)\nnemen → genomen (taken)\nspreken → gesproken (spoken)\ngeven → gegeven (given)\nvinden → gevonden (found)\n\nZIJN verbs:\ngaan → gegaan (gone)\nkomen → gekomen (come)\nzijn → geweest (been)\nworden → geworden (become)\nblijven → gebleven (stayed)\n\nThese 15 cover most daily conversation.\nMemorize them and you're 80% there."
+        },
+        {
+          "type": "mc",
+          "q": "'Eten → gegeten' follows the pattern:",
+          "opts": [
+            "ge- + stam + -t",
+            "ge- + stam + -d",
+            "ge- + changed stem + -en",
+            "stam + -te"
+          ],
+          "ans": "ge- + changed stem + -en",
+          "hint": "Irregular: -en ending with possible vowel change"
+        },
+        {
+          "type": "fb",
+          "s": "Hij heeft koffie ___.",
+          "a": "gedronken",
+          "opts": [
+            "gedronken",
+            "gedrinkt",
+            "gedrinkd",
+            "drinken"
+          ],
+          "hint": "drinken → gedronken (irregular)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gegeten",
+              "en": "eaten"
+            },
+            {
+              "nl": "geschreven",
+              "en": "written"
+            },
+            {
+              "nl": "gezien",
+              "en": "seen"
+            },
+            {
+              "nl": "gedaan",
+              "en": "done"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Doen → gedaan' — the vowel changes from:",
+          "opts": [
+            "oe → a",
+            "oo → a",
+            "oe → aa",
+            "o → a"
+          ],
+          "ans": "oe → a",
+          "hint": "doen (oe) → gedaan (a)"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik heb een brief {1}. Wij hebben Nederlands {2}.",
+          "blanks": {
+            "1": "geschreven",
+            "2": "gesproken"
+          },
+          "pool": [
+            "geschreven",
+            "gesproken",
+            "geschrijft",
+            "gespreekt"
+          ],
+          "hint": "Written a letter. Spoken Dutch."
+        },
+        {
+          "type": "fb",
+          "s": "Heb je het boek ___?",
+          "a": "gelezen",
+          "opts": [
+            "gelezen",
+            "geleest",
+            "geleesd",
+            "lezen"
+          ],
+          "hint": "lezen → gelezen"
+        },
+        {
+          "type": "mc",
+          "q": "Why are the most common verbs irregular?",
+          "opts": [
+            "Dutch is a hard language",
+            "Common verbs resist regularization over centuries",
+            "It's random",
+            "They were invented later"
+          ],
+          "ans": "Common verbs resist regularization over centuries",
+          "hint": "Same reason in English: be/was/been, go/went/gone"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wat heb je {1}? Ik heb dat niet {2}.",
+          "blanks": {
+            "1": "gedaan",
+            "2": "gezien"
+          },
+          "pool": [
+            "gedaan",
+            "gezien",
+            "gedoet",
+            "geziend"
+          ],
+          "hint": "What did you DO? I didn't SEE that."
+        },
+        {
+          "type": "tr",
+          "mk": "u7_we_ate_pancakes",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_he_drank_coffee",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l5",
+      "title": "Gisteren, Vandaag, Morgen",
+      "icon": "📅",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Gisteren, Vandaag, Morgen",
+          "desc": "You know how to form the perfect tense. Now let's anchor it in TIME. Yesterday, last week, this morning, two days ago — Dutch has rich time expressions, and they trigger V2 word order when fronted. This lesson also introduces 'morgen' for a sneak peek at the future.",
+          "goals": [
+            "12 time expressions for past, present, future",
+            "V2 word order with fronted time words",
+            "'Geleden' (ago) construction",
+            "Talk about your week naturally"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "gisteren",
+          "en": "yesterday",
+          "phonetic": "GIS-tuh-run",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "gestern"
+              },
+              {
+                "lang": "English",
+                "word": "yester-"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Gisteren heb ik gewerkt.",
+          "exampleEn": "Yesterday I worked.",
+          "note": "You know this from L1. When it starts the sentence:\nGisteren HEB ik gewerkt. (V2: verb second!)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "eergisteren",
+          "en": "the day before yesterday",
+          "phonetic": "AIR-gis-tuh-run",
+          "example": "Eergisteren ben ik naar Utrecht gegaan.",
+          "exampleEn": "The day before yesterday I went to Utrecht.",
+          "note": "eer (before) + gisteren = the day before yesterday.\nNot common in English, but Dutch uses it frequently.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "morgen",
+          "en": "tomorrow",
+          "phonetic": "MOR-gun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "morrow / morning"
+              },
+              {
+                "lang": "German",
+                "word": "morgen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Morgen ga ik naar de markt.",
+          "exampleEn": "Tomorrow I'm going to the market.",
+          "note": "Also means 'morning'! Context tells you which.\n'Morgen' (tomorrow) vs 'de morgen' / ''s morgens' (the morning).\nSame word, two meanings.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "overmorgen",
+          "en": "the day after tomorrow",
+          "phonetic": "OH-vur-MOR-gun",
+          "example": "Overmorgen begint het weekend.",
+          "exampleEn": "The day after tomorrow the weekend starts.",
+          "note": "over + morgen = over-tomorrow.\nDutch loves these compound time words.\nVery useful for planning.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vorige week",
+          "en": "last week",
+          "phonetic": "VOH-ruh-guh vayk",
+          "example": "Vorige week heb ik pannenkoeken gemaakt.",
+          "exampleEn": "Last week I made pancakes.",
+          "note": "vorige = previous/last. De-word adjective.\nVorige week, vorige maand, vorig jaar.\nNote: 'vorig jaar' (het-word → no -e).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "deze week",
+          "en": "this week",
+          "phonetic": "DAY-zuh vayk",
+          "example": "Deze week heb ik veel geleerd.",
+          "exampleEn": "This week I've learned a lot.",
+          "note": "deze = this (de-words). You know dit/dat.\ndeze = this (with de-words and plurals).\nDeze week, deze maand.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "geleden",
+          "en": "ago",
+          "phonetic": "guh-LAY-dun",
+          "example": "Twee jaar geleden ben ik naar Nederland gekomen.",
+          "exampleEn": "Two years ago I came to the Netherlands.",
+          "note": "Goes AFTER the time expression:\ntwee dagen geleden = two days ago\ndrie weken geleden = three weeks ago\neen uur geleden = an hour ago",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "hoe lang",
+          "en": "how long",
+          "phonetic": "hoo lahng",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "how long"
+              },
+              {
+                "lang": "German",
+                "word": "wie lange"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Hoe lang woon je in Nederland?",
+          "exampleEn": "How long have you lived in the Netherlands?",
+          "note": "For duration questions.\n'Hoe lang duurt de film?' = How long does the film last?\n'Hoe lang' + time: 'Drie jaar.' = Three years.\nAlso: 'Hoe lang nog?' = How much longer?",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📅 Time Expression Toolkit",
+          "text": "PAST:\ngisteren = yesterday\neergisteren = day before yesterday\nvorige week = last week\ntwee dagen geleden = two days ago\nvanochtend = this morning\nvanmiddag = this afternoon\nvanavond = this evening (already past)\n\nPRESENT:\nvandaag = today\nnu = now\ndeze week = this week\n\nFUTURE:\nmorgen = tomorrow\novermorgen = day after tomorrow\nvolgende week = next week\n\nDURATION:\nhoe lang? = how long?\ndrie jaar = three years\neen uur = one hour\n\n⚠️ When any of these START the sentence:\nRemember the V2 rule from Unit 3? Verb stays second.\nGisteren HEB ik gewerkt.\nMorgen GA ik naar de markt.\nVorige week HEBBEN wij pannenkoeken gemaakt.\nSame inversion you practised with 'Soms werk ik...'"
+        },
+        {
+          "type": "teach",
+          "nl": "vanochtend",
+          "en": "this morning",
+          "phonetic": "fan-OG-tunt",
+          "example": "Vanochtend heb ik koffie gedronken.",
+          "exampleEn": "This morning I drank coffee.",
+          "note": "van + ochtend = from + morning.\nSame pattern as vandaag (van + dag).\n'Vanochtend', 'vanmiddag', 'vanavond' — all one word.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vanavond",
+          "en": "this evening / tonight",
+          "phonetic": "fan-AH-vont",
+          "example": "Vanavond eet ik bij mijn ouders.",
+          "exampleEn": "Tonight I'm eating at my parents'.",
+          "note": "van + avond = from + evening.\nCan be past OR future depending on context.\n'Vanavond heb ik gekookt.' = Tonight I cooked. (done)\n'Vanavond kook ik.' = Tonight I'll cook. (planned)",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "'Gisteren heb ik gewerkt.' — why 'heb' before 'ik'?",
+          "opts": [
+            "It's a question",
+            "V2: gisteren is position 1, verb stays position 2",
+            "It's wrong",
+            "Dutch always puts verb first"
+          ],
+          "ans": "V2: gisteren is position 1, verb stays position 2",
+          "hint": "Fronted time word → verb second → subject third"
+        },
+        {
+          "type": "fb",
+          "s": "Twee dagen ___ ben ik naar Amsterdam gegaan.",
+          "a": "geleden",
+          "opts": [
+            "geleden",
+            "gisteren",
+            "vorige",
+            "morgen"
+          ],
+          "hint": "Two days AGO"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gisteren",
+              "en": "yesterday"
+            },
+            {
+              "nl": "morgen",
+              "en": "tomorrow"
+            },
+            {
+              "nl": "vorige week",
+              "en": "last week"
+            },
+            {
+              "nl": "hoe lang",
+              "en": "how long"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Morgen' can mean:",
+          "opts": [
+            "only tomorrow",
+            "only morning",
+            "both tomorrow and morning",
+            "yesterday"
+          ],
+          "ans": "both tomorrow and morning",
+          "hint": "Context tells you which!"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} heb ik koffie gedronken. {2} ga ik naar de markt.",
+          "blanks": {
+            "1": "Vanochtend",
+            "2": "Morgen"
+          },
+          "pool": [
+            "Vanochtend",
+            "Morgen",
+            "Geleden",
+            "Nu"
+          ],
+          "hint": "This morning I drank coffee. Tomorrow I'll go to the market."
+        },
+        {
+          "type": "fb",
+          "s": "___ week heb ik pannenkoeken gemaakt.",
+          "a": "Vorige",
+          "opts": [
+            "Vorige",
+            "Deze",
+            "Morgen",
+            "Volgende"
+          ],
+          "hint": "LAST week"
+        },
+        {
+          "type": "mc",
+          "q": "'Twee weken geleden' means:",
+          "opts": [
+            "in two weeks",
+            "two weeks ago",
+            "two weeks later",
+            "during two weeks"
+          ],
+          "ans": "two weeks ago",
+          "hint": "geleden = ago"
+        },
+        {
+          "type": "fb",
+          "s": "___ heb ik veel geleerd.",
+          "a": "Deze week",
+          "opts": [
+            "Deze week",
+            "Morgen",
+            "Gisteren",
+            "Geleden"
+          ],
+          "hint": "THIS WEEK I've learned a lot"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_worked_yesterday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_what_did_weekend",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l6",
+      "title": "Hoe Was Je Weekend?",
+      "icon": "💬",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Hoe Was Je Weekend?",
+          "desc": "The most common Dutch small-talk question at work on Monday morning. This lesson is pure conversation practice: asking and answering about your weekend using the perfect tense. No new grammar — just fluency with everything from L1–L5 in real dialogue.",
+          "goals": [
+            "Weekend conversation vocabulary",
+            "Ask and answer about past activities",
+            "String multiple perfect tense sentences together",
+            "Dutch weekend culture"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 Monday Morning in the Netherlands",
+          "text": "Every Monday, every office, every school in the Netherlands:\n\n'Hoe was je weekend?' = How was your weekend?\n'Wat heb je gedaan?' = What did you do?\n\nThis is THE Dutch small-talk ritual.\nYou're expected to give a brief, pleasant answer.\n\nTypical responses:\n'Leuk! Ik heb gewandeld.' = Nice! I went walking.\n'Rustig. Ik ben thuis gebleven.' = Quiet. I stayed home.\n'Druk. Ik heb veel gedaan.' = Busy. I did a lot.\n\nThe Dutch value balance: not too exciting, not too boring.\nBragging is frowned upon. Complaining is acceptable.\n'Het was gezellig.' = It was gezellig. (The perfect answer.)"
+        },
+        {
+          "type": "teach",
+          "nl": "het weekend",
+          "en": "the weekend",
+          "phonetic": "hut WEE-kent",
+          "example": "Hoe was je weekend?",
+          "exampleEn": "How was your weekend?",
+          "note": "Het-word. Borrowed from English.\n'In het weekend' = on the weekend.\n'Dit weekend' = this weekend.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "leuk",
+          "en": "fun / nice / cool",
+          "phonetic": "luhk",
+          "example": "Het was leuk!",
+          "exampleEn": "It was fun!",
+          "note": "The most common Dutch positive adjective.\n'Leuk' covers: fun, nice, cool, pleasant, enjoyable.\nYou'll hear it 50 times a day.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "druk",
+          "en": "busy",
+          "phonetic": "druk",
+          "example": "Het was een druk weekend.",
+          "exampleEn": "It was a busy weekend.",
+          "note": "Applies to people AND situations.\n'Ik heb het druk.' = I'm busy. (literally: I have it busy)\n'Het was druk in de stad.' = It was busy in the city.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rustig",
+          "en": "quiet / calm / peaceful",
+          "phonetic": "RUS-tug",
+          "example": "Het was rustig.",
+          "exampleEn": "It was quiet/peaceful.",
+          "note": "Opposite of 'druk'.\n'Een rustig weekend' = a quiet weekend.\nAlso: 'rustig aan' = take it easy, calm down.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gezellig",
+          "en": "cosy / fun / socially pleasant",
+          "phonetic": "guh-ZEL-ug",
+          "example": "Het was heel gezellig.",
+          "exampleEn": "It was really gezellig.",
+          "note": "THE untranslatable Dutch word.\nCosy + warm + fun + social + pleasant = gezellig.\nA borrel can be gezellig. Oma's house is gezellig.\nA rainy evening with friends is gezellig.\nThere is NO English equivalent. Just use it.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gewandeld",
+          "en": "walked / went for a walk",
+          "phonetic": "guh-VAN-dult",
+          "example": "Ik heb in het park gewandeld.",
+          "exampleEn": "I walked in the park.",
+          "note": "wandelen → gewandeld.\n'Wandelen' = to walk (for pleasure/exercise).\n'Lopen' = to walk (general/to go somewhere).\nThe Dutch walk A LOT on weekends.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "💬 Weekend Dialogue Template",
+          "text": "Q: Hoe was je weekend?\nA: Leuk! / Druk! / Rustig. / Gezellig!\n\nQ: Wat heb je gedaan?\nA: Ik heb [activity] + past participle.\n\nExamples:\nIk heb gewandeld. = I went walking.\nIk heb gekookt. = I cooked.\nIk ben naar de markt gegaan. = I went to the market.\nIk heb een boek gelezen. = I read a book.\nIk ben thuis gebleven. = I stayed home.\nWij hebben bij vrienden gegeten. = We ate at friends'.\n\nChaining them:\nIk heb eerst gewandeld, en daarna heb ik gekookt.\n= I walked first, and then I cooked.\n\n'Eerst' = first. 'Daarna' = after that. 'En toen' = and then."
+        },
+        {
+          "type": "teach",
+          "nl": "eerst",
+          "en": "first",
+          "phonetic": "ayrst",
+          "example": "Ik heb eerst koffie gedronken.",
+          "exampleEn": "I first drank coffee.",
+          "note": "Ordering events: eerst = first.\nGoes after 'hebben/zijn' or at the start:\nEerst heb ik koffie gedronken.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "daarna",
+          "en": "after that / then",
+          "phonetic": "dahr-NAH",
+          "example": "Daarna ben ik naar de markt gegaan.",
+          "exampleEn": "After that I went to the market.",
+          "note": "Daar + na = there + after.\nPerfect for chaining events:\nEerst X, daarna Y, en toen Z.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "en toen",
+          "en": "and then",
+          "phonetic": "en toon",
+          "example": "En toen zijn we naar huis gegaan.",
+          "exampleEn": "And then we went home.",
+          "note": "'Toen' on its own = then/when.\nVery common in narratives.\n'En toen?' = And then? (asking for more story)",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Het was gezellig' is the perfect weekend answer because:",
+          "opts": [
+            "It's the longest Dutch word",
+            "It covers cosy + fun + socially warm",
+            "It means 'expensive'",
+            "It's very formal"
+          ],
+          "ans": "It covers cosy + fun + socially warm",
+          "hint": "The untranslatable Dutch concept"
+        },
+        {
+          "type": "fb",
+          "s": "Hoe ___ je weekend?",
+          "a": "was",
+          "opts": [
+            "was",
+            "heb",
+            "ben",
+            "is"
+          ],
+          "hint": "How WAS your weekend?"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik heb het druk' means:",
+          "opts": [
+            "I had a busy weekend",
+            "I am busy",
+            "I dropped something",
+            "It was loud"
+          ],
+          "ans": "I am busy",
+          "hint": "Literally: I have it busy"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "leuk",
+              "en": "fun / nice"
+            },
+            {
+              "nl": "druk",
+              "en": "busy"
+            },
+            {
+              "nl": "rustig",
+              "en": "quiet"
+            },
+            {
+              "nl": "gezellig",
+              "en": "cosy (untranslatable)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} heb ik koffie gedronken. {2} ben ik naar de markt gegaan.",
+          "blanks": {
+            "1": "Eerst",
+            "2": "Daarna"
+          },
+          "pool": [
+            "Eerst",
+            "Daarna",
+            "Morgen",
+            "Gisteren"
+          ],
+          "hint": "First I drank coffee. After that I went to the market."
+        },
+        {
+          "type": "fb",
+          "s": "Ik heb in het park ___.",
+          "a": "gewandeld",
+          "opts": [
+            "gewandeld",
+            "gewandelt",
+            "lopen",
+            "gelopen"
+          ],
+          "hint": "wandelen → gewandeld"
+        },
+        {
+          "type": "mc",
+          "q": "'Wandelen' vs 'lopen' — what's the difference?",
+          "opts": [
+            "No difference",
+            "wandelen = walking for pleasure, lopen = general walking",
+            "wandelen = running, lopen = walking",
+            "wandelen is formal"
+          ],
+          "ans": "wandelen = walking for pleasure, lopen = general walking",
+          "hint": "Weekend walks = wandelen"
+        },
+        {
+          "type": "fb",
+          "s": "Het was heel ___! Wij hebben bij vrienden gegeten.",
+          "a": "gezellig",
+          "opts": [
+            "gezellig",
+            "druk",
+            "leuk",
+            "rustig"
+          ],
+          "hint": "Eating at friends' house = socially warm"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_what_did_weekend",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_i_stayed_home",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l7",
+      "title": "Een Typische Nederlandse Dag",
+      "icon": "🏙️",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Een Typische Nederlandse Dag",
+          "desc": "A day in the Netherlands runs on a strict internal clock: breakfast at 7, lunch (bread) at 12, coffee at 3, dinner at 6. Sharp. This lesson teaches daily routine vocabulary using the perfect tense to narrate your day. Plus: the cultural phenomenon of 'avondeten om zes uur'.",
+          "goals": [
+            "Daily routine vocabulary",
+            "Narrate a full day in the past",
+            "Dutch daily rhythm culture",
+            "'s morgens / 's middags / 's avonds"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "'s morgens",
+          "en": "in the morning",
+          "phonetic": "SMOR-guns",
+          "example": "'s Morgens drink ik koffie.",
+          "exampleEn": "In the morning I drink coffee.",
+          "note": "The 's = des (old genitive article, from 'des morgens').\n'smorgens, 'smiddags, 'savonds — all one pattern.\nThe apostrophe is required.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "'s middags",
+          "en": "in the afternoon",
+          "phonetic": "SMID-dahgs",
+          "example": "'s Middags eet ik een boterham.",
+          "exampleEn": "In the afternoon I eat a sandwich.",
+          "note": "'s + middags = in the afternoon.\nRemember Unit 4: Dutch lunch = bread. Every day.\n'smiddags om twaalf uur' = in the afternoon at twelve.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "'s avonds",
+          "en": "in the evening",
+          "phonetic": "SAH-vonts",
+          "example": "'s Avonds eten we warm.",
+          "exampleEn": "In the evening we eat a warm meal.",
+          "note": "'s + avonds = in the evening.\nThis is when the real meal happens.\n'Het avondeten' = dinner (literally: evening-eating).",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 The Dutch Daily Clock",
+          "text": "07:00 — Ontbijt (breakfast): bread, kaas, hagelslag\n08:30 — Work/school begins (on time!)\n10:00 — Koffiepauze (coffee break, sacred)\n12:00 — Lunch: boterhammen at your desk\n15:00 — Thee/koffie (afternoon break)\n17:00 — Work ends (part-time culture: often 16:00!)\n18:00 — Avondeten: the warm meal. Sharp at six.\n20:00 — TV, reading, or visiting\n22:30 — Bed (the Dutch sleep early by EU standards)\n\nThe Dutch are serious about 18:00 dinner.\n'We eten om zes uur' is non-negotiable.\nBeing late for avondeten is like being late for a meeting.\n\nThe Netherlands has the highest rate of part-time work\nin Europe. Many parents work 4 days, not 5.\n'Vrije dag' (day off) is a cherished concept.",
+          "deepDive": {
+            "title": "Part-time paradise",
+            "text": "The Netherlands is called a 'part-time paradise'.\n60% of Dutch women work part-time.\n25% of Dutch men work part-time.\n\nThis isn't seen as 'less ambitious' — it's a choice.\n'Kwaliteit van leven' (quality of life) matters more\nthan career climbing.\n\nWednesday is often 'papadag' or 'mamadag' —\nthe day a parent stays home with the kids.\n\nThe result: Dutch children are consistently rated\namong the happiest in the world."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "het ontbijt",
+          "en": "breakfast",
+          "phonetic": "hut ont-BAYT",
+          "example": "'s Morgens eet ik ontbijt.",
+          "exampleEn": "In the morning I eat breakfast.",
+          "note": "Het-word. ont- + bijt = un- + bite.\nLiterally: 'un-bite' (breaking the fast — like English 'breakfast'!).\nDutch breakfast = bread, cheese, hagelslag.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de lunch",
+          "en": "lunch",
+          "phonetic": "duh lunch",
+          "example": "De lunch is altijd koud in Nederland.",
+          "exampleEn": "Lunch is always cold in the Netherlands.",
+          "note": "De-word. Borrowed from English.\n'Lunchen' = to have lunch (verb).\nDutch lunch = cold. Always. We covered this in Unit 4.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het avondeten",
+          "en": "dinner / evening meal",
+          "phonetic": "hut AH-vont-ay-tun",
+          "example": "Het avondeten is om zes uur.",
+          "exampleEn": "Dinner is at six o'clock.",
+          "note": "Het-word. avond + eten = evening + eating.\nThe warm meal. The main meal. At 18:00.\nAlso called: 'het eten' (the food/meal).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de pauze",
+          "en": "the break / pause",
+          "phonetic": "duh POW-zuh",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "pause"
+              },
+              {
+                "lang": "German",
+                "word": "Pause"
+              },
+              {
+                "lang": "French",
+                "word": "pause"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Om tien uur is de koffiepauze.",
+          "exampleEn": "At ten o'clock is the coffee break.",
+          "note": "De-word. International word.\nkoffiepauze = coffee break (10:00, sacred)\nlunchpauze = lunch break (12:00-12:30, quick)",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "💬 Narrating Your Day (Past Tense)",
+          "text": "Chain events with time words + perfect tense:\n\n's Morgens heb ik ontbijt gegeten.\n= In the morning I ate breakfast.\n\nOm negen uur ben ik naar het werk gegaan.\n= At nine I went to work.\n\n's Middags heb ik een boterham gegeten.\n= In the afternoon I ate a sandwich.\n\nOm vijf uur ben ik naar huis gegaan.\n= At five I went home.\n\n's Avonds heb ik gekookt en een boek gelezen.\n= In the evening I cooked and read a book.\n\nNotice: V2 rule on every sentence.\nTime word → verb → subject → ... → past participle (end)."
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch eat their warm meal at:",
+          "opts": [
+            "12:00",
+            "15:00",
+            "18:00",
+            "20:00"
+          ],
+          "ans": "18:00",
+          "hint": "Het avondeten is om zes uur"
+        },
+        {
+          "type": "fb",
+          "s": "___ morgens drink ik koffie.",
+          "a": "'s",
+          "opts": [
+            "'s",
+            "De",
+            "Het",
+            "In"
+          ],
+          "hint": "The old genitive: 's morgens"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "het ontbijt",
+              "en": "breakfast"
+            },
+            {
+              "nl": "de lunch",
+              "en": "lunch"
+            },
+            {
+              "nl": "het avondeten",
+              "en": "dinner"
+            },
+            {
+              "nl": "de pauze",
+              "en": "break"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Ontbijt' literally means:",
+          "opts": [
+            "morning meal",
+            "first food",
+            "un-bite (breaking the fast)",
+            "bread time"
+          ],
+          "ans": "un-bite (breaking the fast)",
+          "hint": "ont- (un-) + bijt (bite) — like 'breakfast'!"
+        },
+        {
+          "type": "drag_fill",
+          "s": "'s Morgens heb ik ontbijt {1}. 's Avonds heb ik {2}.",
+          "blanks": {
+            "1": "gegeten",
+            "2": "gekookt"
+          },
+          "pool": [
+            "gegeten",
+            "gekookt",
+            "eten",
+            "koken"
+          ],
+          "hint": "Ate breakfast. Cooked dinner."
+        },
+        {
+          "type": "fb",
+          "s": "Om vijf uur ___ ik naar huis gegaan.",
+          "a": "ben",
+          "opts": [
+            "ben",
+            "heb",
+            "ga",
+            "moet"
+          ],
+          "hint": "Movement verb → zijn"
+        },
+        {
+          "type": "mc",
+          "q": "The Netherlands has Europe's highest rate of:",
+          "opts": [
+            "overtime work",
+            "part-time work",
+            "unemployment",
+            "remote work"
+          ],
+          "ans": "part-time work",
+          "hint": "Part-time paradise!"
+        },
+        {
+          "type": "fb",
+          "s": "'s ___ eten we warm.",
+          "a": "Avonds",
+          "opts": [
+            "Avonds",
+            "Morgens",
+            "Middags",
+            "Nachts"
+          ],
+          "hint": "In the EVENING we eat a warm meal"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_worked_yesterday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_i_went_to_amsterdam",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u7l8",
+      "title": "Unit 7 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 7: Alles Samen",
+          "desc": "Perfect tense with hebben and zijn. Regular participles ('t kofschip). Irregular participles. Time expressions. Weekend conversations. Daily routines. Everything from L1–L7 mixed together.",
+          "goals": [
+            "hebben vs zijn selection",
+            "'t kofschip: -t vs -d",
+            "Irregular past participles",
+            "Time expressions + V2 word order",
+            "Narrate past events fluently"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 What You Know Now",
+          "text": "After Unit 7 you can:\n\n• Form regular past participles (ge- + stam + -t/-d)\n• Apply 't kofschip to choose -t or -d\n• Know 15 irregular past participles\n• Choose hebben or zijn correctly\n• Use time expressions (gisteren, vorige week, geleden)\n• Narrate your day, weekend, and week\n• Have Monday morning small talk\n• Understand Dutch daily rhythm culture\n\nYou're now A2.1 — you can talk about the PAST.\nThat's a huge milestone."
+        },
+        {
+          "type": "mc",
+          "q": "'Werken → gewerkt.' The ending is -t because:",
+          "opts": [
+            "All participles end in -t",
+            "Stam 'werk' ends in K, which is in 't kofschip",
+            "It's irregular",
+            "Werken uses zijn"
+          ],
+          "ans": "Stam 'werk' ends in K, which is in 't kofschip",
+          "hint": "K = 't kofschip = -t"
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ gisteren naar Amsterdam gegaan.",
+          "a": "ben",
+          "opts": [
+            "ben",
+            "heb",
+            "ga",
+            "heeft"
+          ],
+          "hint": "Movement verb → zijn"
+        },
+        {
+          "type": "mc",
+          "q": "'Drinken → gedronken' is irregular because:",
+          "opts": [
+            "The vowel changes: i → o",
+            "It uses zijn",
+            "It has no ge-",
+            "The ending is -t"
+          ],
+          "ans": "The vowel changes: i → o",
+          "hint": "drink → dronk-en (vowel shift)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gegeten",
+              "en": "eaten"
+            },
+            {
+              "nl": "gedronken",
+              "en": "drunk"
+            },
+            {
+              "nl": "geschreven",
+              "en": "written"
+            },
+            {
+              "nl": "gesproken",
+              "en": "spoken"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} koffie gedronken. Zij {2} naar huis gegaan.",
+          "blanks": {
+            "1": "heb",
+            "2": "is"
+          },
+          "pool": [
+            "heb",
+            "is",
+            "ben",
+            "heeft"
+          ],
+          "hint": "Drinking = hebben. Going = zijn."
+        },
+        {
+          "type": "fb",
+          "s": "Twee weken ___ ben ik naar België gegaan.",
+          "a": "geleden",
+          "opts": [
+            "geleden",
+            "gisteren",
+            "morgen",
+            "vorige"
+          ],
+          "hint": "Two weeks AGO"
+        },
+        {
+          "type": "mc",
+          "q": "Verbs with be-, ver-, ge-, her-, ont- prefix:",
+          "opts": [
+            "always use zijn",
+            "get double ge-",
+            "skip the ge- prefix",
+            "are always irregular"
+          ],
+          "ans": "skip the ge- prefix",
+          "hint": "betaald, verkocht, gebruikt — no ge-"
+        },
+        {
+          "type": "mc",
+          "q": "'Hoe was je weekend?' — the correct answer is NOT:",
+          "opts": [
+            "Leuk!",
+            "Druk.",
+            "Het was gezellig.",
+            "Ik heb vierduizend euro verdiend."
+          ],
+          "ans": "Ik heb vierduizend euro verdiend.",
+          "hint": "Don't brag! Just be normaal."
+        },
+        {
+          "type": "fb",
+          "s": "'s ___ eet ik een boterham.",
+          "a": "Middags",
+          "opts": [
+            "Middags",
+            "Morgens",
+            "Avonds",
+            "Nachts"
+          ],
+          "hint": "Lunchtime = afternoon"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} heb ik ontbijt gegeten. {2} ben ik naar het werk gegaan.",
+          "blanks": {
+            "1": "Eerst",
+            "2": "Daarna"
+          },
+          "pool": [
+            "Eerst",
+            "Daarna",
+            "Morgen",
+            "Nu"
+          ],
+          "hint": "First... then..."
+        },
+        {
+          "type": "mc",
+          "q": "'Het avondeten is om zes uur.' Dutch dinner is at:",
+          "opts": [
+            "17:00",
+            "18:00",
+            "19:00",
+            "20:00"
+          ],
+          "ans": "18:00",
+          "hint": "Six o'clock sharp!"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gisteren",
+              "en": "yesterday"
+            },
+            {
+              "nl": "vorige week",
+              "en": "last week"
+            },
+            {
+              "nl": "eergisteren",
+              "en": "day before yesterday"
+            },
+            {
+              "nl": "geleden",
+              "en": "ago"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ een boek gelezen.",
+          "a": "heeft",
+          "opts": [
+            "heeft",
+            "is",
+            "heb",
+            "ben"
+          ],
+          "hint": "Reading = hebben, zij = heeft"
+        },
+        {
+          "type": "mc",
+          "q": "Separable verbs in the perfect tense: ge- goes:",
+          "opts": [
+            "at the front: geschoonmaakt",
+            "in the middle: schoongemaakt",
+            "at the end: maaktgeschoon",
+            "nowhere"
+          ],
+          "ans": "in the middle: schoongemaakt",
+          "hint": "prefix + ge + stam + ending"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Het was {1}. Ik heb bij vrienden {2}.",
+          "blanks": {
+            "1": "gezellig",
+            "2": "gegeten"
+          },
+          "pool": [
+            "gezellig",
+            "gegeten",
+            "leuk",
+            "gedronken"
+          ],
+          "hint": "It was gezellig. I ate at friends'."
+        },
+        {
+          "type": "tr",
+          "mk": "u7_we_ate_pancakes",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_what_did_weekend",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u7_she_cycled_work",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

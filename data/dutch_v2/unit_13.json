@@ -1,0 +1,1376 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 13,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Wat Vind Jij?",
+    "sub": "Opinions & Extended Subordination",
+    "icon": "💬",
+    "level": "B1.1",
+    "color": "#F5A623"
+  },
+  "lessons": [
+    {
+      "id": "v2u13l1",
+      "title": "Ik Vind Dat...",
+      "icon": "💭",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Ik Vind Dat...",
+          "desc": "Time to express what you think, feel, and believe. Dutch has specific verbs for different kinds of opinions — vinden (feel/think), denken (think rationally), geloven (believe), menen (hold the opinion). Master these and you'll sound like a real B1 speaker.",
+          "goals": [
+            "5 opinion verbs: vinden, denken, geloven, menen, lijken",
+            "'Ik vind dat...' structure",
+            "'Het lijkt me...' for impressions",
+            "Polysemy: vinden = find AND think/feel"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "vinden",
+          "en": "to find / to think (feel)",
+          "phonetic": "FIN-dun",
+          "example": "Ik vind dat belangrijk.",
+          "exampleEn": "I think that's important.",
+          "note": "THE most Dutch opinion verb.\nPolysemy: 'Ik vind mijn sleutels.' = I find my keys.\n'Ik vind het leuk.' = I think it's nice.\nWith 'dat': 'Ik vind dat hij gelijk heeft.'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "denken",
+          "en": "to think (rationally)",
+          "phonetic": "DENG-kun",
+          "example": "Ik denk dat het gaat regenen.",
+          "exampleEn": "I think it's going to rain.",
+          "note": "'Denken' = rational thought / analysis.\n'Vinden' = feeling / opinion.\n'Ik denk dat...' (I think that — brain)\n'Ik vind dat...' (I feel that — gut)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "geloven",
+          "en": "to believe",
+          "phonetic": "guh-LOH-vun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "believe"
+              },
+              {
+                "lang": "German",
+                "word": "glauben"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik geloof dat hij de waarheid spreekt.",
+          "exampleEn": "I believe he's telling the truth.",
+          "note": "'Geloven' = to believe (trust/faith).\n'Ik geloof het niet.' = I don't believe it.\n'Het geloof' = faith/belief.\nStronger than denken — more conviction.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "menen",
+          "en": "to hold the opinion / to mean",
+          "phonetic": "MAY-nun",
+          "example": "Ik meen dat we een ander plan nodig hebben.",
+          "exampleEn": "I hold the opinion that we need a different plan.",
+          "note": "Formal opinion verb. Less common in speech.\n'Menen' = to sincerely think/mean.\n'Dat meen je niet!' = You can't be serious!\n'Ik meen het.' = I mean it.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het lijkt me",
+          "en": "it seems to me",
+          "phonetic": "hut laykt muh",
+          "example": "Het lijkt me een goed idee.",
+          "exampleEn": "It seems like a good idea to me.",
+          "note": "'Lijken' = to seem/appear.\n'Het lijkt me...' = It seems to me...\nSofter than 'Ik vind...' — less committed.\n'Het lijkt erop dat...' = It looks like...",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "volgens mij",
+          "en": "in my opinion / I think",
+          "phonetic": "VOL-guns may",
+          "example": "Volgens mij klopt dat niet.",
+          "exampleEn": "In my opinion that's not right.",
+          "note": "Review from Unit 11!\n'Volgens' = according to.\n'Volgens mij' = in my opinion.\n'Volgens de krant...' = According to the newspaper...",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Vinden vs Denken vs Geloven",
+          "text": "Ik VIND het leuk. = I think it's nice. (feeling)\nIk DENK dat het gaat regenen. = I think it'll rain. (analysis)\nIk GELOOF dat hij liegt. = I believe he's lying. (conviction)\n\nVinden → gut / emotion / personal taste\nDenken → brain / logic / prediction\nGeloven → faith / trust / strong belief\n\nAll three use 'dat' for a full clause:\nIk vind DAT hij aardig is.\nIk denk DAT het waar is.\nIk geloof DAT ze gelijk heeft.\n\nRemember: 'dat' → verb to END!\nIk vind dat hij aardig IS. ✓"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik vind dat belangrijk' uses 'vinden' as:",
+          "opts": [
+            "To find (search)",
+            "To think/feel (opinion)",
+            "To discover",
+            "To decide"
+          ],
+          "ans": "To think/feel (opinion)",
+          "hint": "Vinden = opinion/feeling when not about physical finding"
+        },
+        {
+          "type": "fb",
+          "s": "Het ___ me een goed idee. (it seems)",
+          "a": "lijkt",
+          "opts": [
+            "lijkt",
+            "vindt",
+            "denkt",
+            "gelooft"
+          ],
+          "hint": "It SEEMS to me"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "vinden",
+              "en": "to think/feel"
+            },
+            {
+              "nl": "denken",
+              "en": "to think (rationally)"
+            },
+            {
+              "nl": "geloven",
+              "en": "to believe"
+            },
+            {
+              "nl": "lijken",
+              "en": "to seem"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ dat het gaat regenen. (I think — rational)",
+          "a": "denk",
+          "opts": [
+            "denk",
+            "vind",
+            "geloof",
+            "lijk"
+          ],
+          "hint": "Rational prediction = denken"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} dat hij aardig is. {2} mij klopt dat niet.",
+          "blanks": {
+            "1": "vind",
+            "2": "Volgens"
+          },
+          "pool": [
+            "vind",
+            "Volgens",
+            "denk",
+            "Het"
+          ],
+          "hint": "I feel he's nice. In my opinion that's wrong."
+        },
+        {
+          "type": "mc",
+          "q": "'Dat meen je niet!' means:",
+          "opts": [
+            "That's true",
+            "You can't be serious!",
+            "I agree",
+            "I believe you"
+          ],
+          "ans": "You can't be serious!",
+          "hint": "Menen = to be serious/mean it"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_i_think_important",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l2",
+      "title": "Eens of Oneens?",
+      "icon": "⚖️",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Eens of Oneens?",
+          "desc": "Agree or disagree? Now you'll learn the vocabulary of debate: agreement, disagreement, arguments, reasons, and solutions. These words power every discussion from dinner tables to Parliament.",
+          "goals": [
+            "Agreement/disagreement phrases",
+            "Debate vocabulary: argument, reden, oplossing",
+            "'Het eens/oneens zijn met'",
+            "Useful debate connectors"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "het eens zijn met",
+          "en": "to agree with",
+          "phonetic": "hut AYNS zayn met",
+          "example": "Ik ben het eens met jou.",
+          "exampleEn": "I agree with you.",
+          "note": "Fixed expression.\n'Het eens zijn met' = to agree with.\n'Daar ben ik het mee eens.' = I agree with that.\n'Eens' here means 'in agreement', not 'once'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het oneens zijn met",
+          "en": "to disagree with",
+          "phonetic": "hut on-AYNS zayn met",
+          "example": "Ik ben het oneens met dat plan.",
+          "exampleEn": "I disagree with that plan.",
+          "note": "'Oneens' = not in agreement.\n'Daar ben ik het NIET mee eens.' = also works.\nBoth forms mean the same thing.\nDirectly disagreeing is normal in Dutch!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "gelijk hebben",
+          "en": "to be right",
+          "phonetic": "guh-LAYK HEB-bun",
+          "example": "Je hebt gelijk.",
+          "exampleEn": "You're right.",
+          "note": "'Gelijk' = right/correct (also: equal).\n'Gelijk hebben' = to be right.\n'Ongelijk hebben' = to be wrong.\nVery common: 'Ja, je hebt gelijk!'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de reden",
+          "en": "the reason",
+          "phonetic": "duh RAY-dun",
+          "example": "Wat is de reden?",
+          "exampleEn": "What is the reason?",
+          "note": "De-word. 'De reden is dat...' = The reason is that...\n'Om die reden' = for that reason.\n'Daarom' = therefore (you know this from U11!).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de oplossing",
+          "en": "the solution",
+          "phonetic": "duh OP-los-sing",
+          "example": "We moeten een oplossing vinden.",
+          "exampleEn": "We need to find a solution.",
+          "note": "De-word. 'Oplossen' = to solve.\n'Het probleem' = the problem.\n'Een oplossing vinden/zoeken' = find/seek a solution.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de discussie",
+          "en": "the discussion / debate",
+          "phonetic": "duh dis-KUS-see",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "discussion"
+              },
+              {
+                "lang": "French",
+                "word": "discussion"
+              }
+            ],
+            "family": "latin"
+          },
+          "example": "We hadden een lange discussie.",
+          "exampleEn": "We had a long discussion.",
+          "note": "De-word. 'Discussiëren' = to discuss/debate.\nDutch people LOVE a good discussie.\nIt's part of the poldermodel.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "⚖️ Agreeing & Disagreeing",
+          "text": "AGREEING:\nIk ben het met je eens. = I agree with you.\nDat klopt. = That's correct.\nGoed punt. = Good point.\nPrecies! / Inderdaad! = Exactly! / Indeed!\nDaar heb je gelijk in. = You're right about that.\n\nDISAGREEING:\nIk ben het er niet mee eens. = I disagree.\nIk zie dat anders. = I see it differently.\nDat klopt niet. = That's not correct.\nJa, maar... = Yes, but...\nDat betwijfel ik. = I doubt that.\n\nNUANCED:\nDat hangt ervan af. = That depends.\nAan de ene kant... aan de andere kant...\n= On the one hand... on the other hand..."
+        },
+        {
+          "type": "mc",
+          "q": "'Daar ben ik het mee eens' means:",
+          "opts": [
+            "I don't care",
+            "I agree with that",
+            "I disagree",
+            "I don't understand"
+          ],
+          "ans": "I agree with that",
+          "hint": "Het eens zijn met = to agree with"
+        },
+        {
+          "type": "fb",
+          "s": "Je hebt ___! (You're right!)",
+          "a": "gelijk",
+          "opts": [
+            "gelijk",
+            "eens",
+            "reden",
+            "recht"
+          ],
+          "hint": "Gelijk hebben = to be right"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "het eens zijn",
+              "en": "to agree"
+            },
+            {
+              "nl": "het oneens zijn",
+              "en": "to disagree"
+            },
+            {
+              "nl": "de reden",
+              "en": "the reason"
+            },
+            {
+              "nl": "de oplossing",
+              "en": "the solution"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "We moeten een ___ vinden voor dit probleem.",
+          "a": "oplossing",
+          "opts": [
+            "oplossing",
+            "discussie",
+            "reden",
+            "gelijk"
+          ],
+          "hint": "We need to find a SOLUTION"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} het er niet mee {2}. Ik zie dat {3}.",
+          "blanks": {
+            "1": "ben",
+            "2": "eens",
+            "3": "anders"
+          },
+          "pool": [
+            "ben",
+            "eens",
+            "anders",
+            "heb"
+          ],
+          "hint": "I disagree. I see it differently."
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_i_agree",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l3",
+      "title": "Hoewel & Terwijl",
+      "icon": "📐",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Hoewel & Terwijl",
+          "desc": "New subordinate conjunctions! 'Hoewel' (although) lets you concede a point while still disagreeing. 'Terwijl' (while/whereas) lets you contrast two things happening at the same time — or two opposing ideas.",
+          "goals": [
+            "hoewel/alhoewel = although",
+            "terwijl = while / whereas",
+            "Verb-final word order (review)",
+            "Use in opinion and debate contexts"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "hoewel",
+          "en": "although / even though",
+          "phonetic": "hoo-VEL",
+          "also": "'Alhoewel' = same meaning, slightly more formal.",
+          "example": "Hoewel het regent, ga ik fietsen.",
+          "exampleEn": "Although it's raining, I'm going cycling.",
+          "note": "Subordinate conjunction → verb to END.\n'Hoewel het REGENT, ga ik fietsen.'\nLike 'omdat' and 'als' from Unit 9.\nUsed to concede a point before your main argument.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "terwijl",
+          "en": "while / whereas",
+          "phonetic": "tur-WAYL",
+          "example": "Ik werk terwijl hij slaapt.",
+          "exampleEn": "I work while he sleeps.",
+          "note": "Two meanings!\n1. SIMULTANEOUS: 'I read while she cooks.'\n2. CONTRAST: 'I like coffee, whereas he prefers tea.'\nBoth use verb-final: 'terwijl hij SLAAPT'.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Word Order Review",
+          "text": "All subordinate conjunctions → verb to END:\n\nomdat ik ZIEK BEN (because I'm sick)\nals je WILT (if you want)\ndat hij KOMT (that he's coming)\nvoordat ik GA (before I go)\nnadat ik had GEGETEN (after I had eaten)\n\nNEW:\nhoewel het REGENT (although it rains)\nterwijl hij SLAAPT (while he sleeps)\n\nWhen the sub-clause comes FIRST → inversion in main clause:\nHoewel het regent, GA ik fietsen.\n                    ↑ verb second in main clause\n\nThis is always the same rule. No exceptions!"
+        },
+        {
+          "type": "mc",
+          "q": "'Hoewel het regent, ga ik fietsen.' — 'hoewel' means:",
+          "opts": [
+            "because",
+            "before",
+            "although",
+            "while"
+          ],
+          "ans": "although",
+          "hint": "Concessive: despite the rain"
+        },
+        {
+          "type": "fb",
+          "s": "Ik lees ___ zij kookt. (while)",
+          "a": "terwijl",
+          "opts": [
+            "terwijl",
+            "hoewel",
+            "omdat",
+            "voordat"
+          ],
+          "hint": "I read WHILE she cooks"
+        },
+        {
+          "type": "mc",
+          "q": "In 'Hoewel het regent', the verb 'regent' is:",
+          "opts": [
+            "Second position",
+            "First position",
+            "At the end",
+            "Before hoewel"
+          ],
+          "ans": "At the end",
+          "hint": "Subordinate clause → verb to end"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "hoewel",
+              "en": "although"
+            },
+            {
+              "nl": "terwijl",
+              "en": "while/whereas"
+            },
+            {
+              "nl": "voordat",
+              "en": "before"
+            },
+            {
+              "nl": "nadat",
+              "en": "after"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} het koud is, gaat hij zwemmen. Ik kook {2} hij de tafel dekt.",
+          "blanks": {
+            "1": "Hoewel",
+            "2": "terwijl"
+          },
+          "pool": [
+            "Hoewel",
+            "terwijl",
+            "Omdat",
+            "voordat"
+          ],
+          "hint": "Although it's cold... I cook while he sets the table."
+        },
+        {
+          "type": "fb",
+          "s": "___ ik moe was, ging ik toch naar de vergadering.",
+          "a": "Hoewel",
+          "opts": [
+            "Hoewel",
+            "Terwijl",
+            "Voordat",
+            "Omdat"
+          ],
+          "hint": "ALTHOUGH I was tired..."
+        },
+        {
+          "type": "mc",
+          "q": "'Terwijl' can mean both:",
+          "opts": [
+            "before and after",
+            "although and because",
+            "while and whereas",
+            "until and since"
+          ],
+          "ans": "while and whereas",
+          "hint": "Simultaneous action OR contrast"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_although_raining",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l4",
+      "title": "Doordat & Zodat",
+      "icon": "📐",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Doordat & Zodat",
+          "desc": "More subordinate power tools. 'Doordat' explains external causes, 'zodat' expresses purpose or result, and 'tenzij' means unless. After this lesson, you can build truly complex Dutch sentences.",
+          "goals": [
+            "doordat = because (external cause)",
+            "zodat = so that (purpose/result)",
+            "tenzij = unless",
+            "Distinguish doordat vs omdat"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "doordat",
+          "en": "because (of the fact that)",
+          "phonetic": "DOHR-dat",
+          "example": "Doordat het regende, kwamen we te laat.",
+          "exampleEn": "Because it rained, we arrived late.",
+          "note": "Like 'omdat' but for EXTERNAL causes.\n'Omdat' = general reason (choice or circumstance).\n'Doordat' = external fact that caused something.\nDoordat het REGENDE = verb to end.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zodat",
+          "en": "so that / in order that",
+          "phonetic": "zo-DAT",
+          "example": "Ik lees de krant zodat ik Nederlands leer.",
+          "exampleEn": "I read the newspaper so that I learn Dutch.",
+          "note": "Purpose OR result.\n'Zodat ik Nederlands LEER.' = verb to end.\n'Zodat' = so that (the goal/result).\nSimilar to 'om te' but with a full clause.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "tenzij",
+          "en": "unless",
+          "phonetic": "ten-ZAY",
+          "example": "Ik ga, tenzij het regent.",
+          "exampleEn": "I'm going, unless it rains.",
+          "note": "'Tenzij' = unless = except if.\n'Tenzij het REGENT.' = verb to end.\nLess common than 'als...niet' but more elegant.\n'Tenzij je iets anders wilt.' = Unless you want something else.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Doordat vs Omdat",
+          "text": "Both mean 'because', but there's a difference:\n\nOmdat ik moe was, ging ik naar bed.\n= Because I was tired, I went to bed.\n→ My tiredness was the reason (could be my fault).\n\nDoordat het regende, kwamen we te laat.\n= Because it rained, we arrived late.\n→ Rain = external cause (not our fault).\n\nSimple rule:\n• Omdat = any reason (most common, default choice)\n• Doordat = external/factual cause (not a choice)\n\nWhen in doubt, use 'omdat'. It's always correct.\n'Doordat' is more precise but optional.",
+          "deepDive": {
+            "title": "More examples",
+            "text": "Omdat ik ziek was, bleef ik thuis.\n= Because I was sick. (general reason)\n\nDoordat de trein vertraging had, kwam ik te laat.\n= Because the train was delayed. (external cause)\n\nDoordat de straat glad was, vielen veel fietsers.\n= Because the road was slippery. (external cause)\n\nOmdat ik Nederlands wil leren, gebruik ik LingoVerse.\n= Because I want to learn Dutch. (my choice)"
+          }
+        },
+        {
+          "type": "mc",
+          "q": "'Doordat het regende, kwamen we te laat.' — 'doordat' is used because:",
+          "opts": [
+            "It's always better than omdat",
+            "Rain is an external cause",
+            "It's more informal",
+            "There's no difference"
+          ],
+          "ans": "Rain is an external cause",
+          "hint": "Doordat = external/factual cause"
+        },
+        {
+          "type": "fb",
+          "s": "Ik lees de krant ___ ik Nederlands leer. (so that)",
+          "a": "zodat",
+          "opts": [
+            "zodat",
+            "doordat",
+            "omdat",
+            "tenzij"
+          ],
+          "hint": "I read the newspaper SO THAT I learn Dutch"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "doordat",
+              "en": "because (external)"
+            },
+            {
+              "nl": "zodat",
+              "en": "so that"
+            },
+            {
+              "nl": "tenzij",
+              "en": "unless"
+            },
+            {
+              "nl": "omdat",
+              "en": "because (general)"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Ik ga, ___ het regent. (unless)",
+          "a": "tenzij",
+          "opts": [
+            "tenzij",
+            "zodat",
+            "doordat",
+            "hoewel"
+          ],
+          "hint": "I'm going, UNLESS it rains"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} de trein vertraging had, kwam ik te laat. Ik vertrek vroeg {2} ik op tijd ben.",
+          "blanks": {
+            "1": "Doordat",
+            "2": "zodat"
+          },
+          "pool": [
+            "Doordat",
+            "zodat",
+            "Omdat",
+            "tenzij"
+          ],
+          "hint": "Because (external) the train was delayed... I leave early so that I'm on time."
+        },
+        {
+          "type": "mc",
+          "q": "When in doubt between 'doordat' and 'omdat', use:",
+          "opts": [
+            "doordat — it's safer",
+            "omdat — it's always correct",
+            "tenzij — it covers both",
+            "zodat — it's more common"
+          ],
+          "ans": "omdat — it's always correct",
+          "hint": "Omdat is the universal 'because'"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_so_that_learn",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l5",
+      "title": "In het Nieuws",
+      "icon": "📰",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "In het Nieuws",
+          "desc": "News vocabulary. You'll learn the words for reading Dutch news — krant, artikel, bericht, journaal. Then you'll read a short news item using all the connectors you've learned.",
+          "goals": [
+            "8 news and media vocabulary words",
+            "Read a simplified news text",
+            "Recognize connectors in context",
+            "Build media literacy vocabulary"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de krant",
+          "en": "the newspaper",
+          "phonetic": "duh krant",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "courant"
+              },
+              {
+                "lang": "German",
+                "word": "Kranz"
+              }
+            ],
+            "family": "latin"
+          },
+          "example": "Ik lees elke dag de krant.",
+          "exampleEn": "I read the newspaper every day.",
+          "note": "De-word. Major Dutch newspapers:\nDe Volkskrant, NRC, De Telegraaf, AD.\n'De krant lezen' = to read the newspaper.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het artikel",
+          "en": "the article",
+          "phonetic": "hut ar-TI-kul",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "article"
+              },
+              {
+                "lang": "German",
+                "word": "Artikel"
+              }
+            ],
+            "family": "latin"
+          },
+          "example": "Heb je dat artikel gelezen?",
+          "exampleEn": "Have you read that article?",
+          "note": "Het-word. 'Een artikel schrijven' = to write an article.\n'Een artikel over...' = an article about...\nAlso: 'het bericht' = the report/message.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het bericht",
+          "en": "the report / message / news item",
+          "phonetic": "hut buh-RIGT",
+          "example": "Ik las een bericht over het weer.",
+          "exampleEn": "I read a report about the weather.",
+          "note": "Het-word. Multiple meanings:\n'Een nieuwsbericht' = a news report.\n'Een bericht sturen' = to send a message.\n'Berichten' = reports/messages (plural).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het journaal",
+          "en": "the news (TV)",
+          "phonetic": "hut zhoor-NAHL",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "journal"
+              },
+              {
+                "lang": "English",
+                "word": "journal"
+              }
+            ],
+            "family": "french"
+          },
+          "example": "Het journaal begint om acht uur.",
+          "exampleEn": "The news starts at eight.",
+          "note": "Het-word. THE Dutch evening news = 'het NOS Journaal'.\n'Het nieuws' = the news (general).\n'Het journaal kijken' = to watch the news.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de reclame",
+          "en": "the advertisement / commercial",
+          "phonetic": "duh ruh-KLAH-muh",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "réclame"
+              }
+            ],
+            "family": "french"
+          },
+          "example": "Er is te veel reclame op tv.",
+          "exampleEn": "There are too many commercials on TV.",
+          "note": "De-word. 'Reclame maken' = to advertise.\n'De advertentie' = the ad (in print).\nDutch TV has ad breaks during programs.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het interview",
+          "en": "the interview",
+          "phonetic": "hut IN-tur-vyoo",
+          "example": "De journalist doet een interview.",
+          "exampleEn": "The journalist is doing an interview.",
+          "note": "Het-word. Same as English!\n'Interviewen' = to interview (verb).\n'De journalist' = the journalist.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📰 Lees: Kort Nieuwsbericht",
+          "text": "MEER NEDERLANDERS WERKEN THUIS\n\nSteeds meer Nederlanders werken vanuit huis.\nVolgens een onderzoek werkt 40% minstens\néén dag per week thuis.\n\nHoewel werkgevers in het begin twijfelden,\nzijn de meesten nu tevreden.\nDoordat werknemers minder reistijd hebben,\nzijn ze productiever.\n\nTerwijl kantoren leger worden,\ngroeien de coworkingspaces.\n\nDeskundigen verwachten dat deze trend\nzal doorzetten, tenzij de economie verandert.",
+          "deepDive": {
+            "title": "Vertaling",
+            "text": "MORE DUTCH PEOPLE WORK FROM HOME\n\nMore and more Dutch people work from home.\nAccording to a study, 40% work at least\none day per week from home.\n\nAlthough employers doubted at first,\nmost are now satisfied.\nBecause employees have less commute time,\nthey are more productive.\n\nWhile offices are becoming emptier,\ncoworking spaces are growing.\n\nExperts expect that this trend\nwill continue, unless the economy changes."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "In the news text, what percentage works from home at least one day?",
+          "opts": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ],
+          "ans": "40%",
+          "hint": "40% minstens één dag per week"
+        },
+        {
+          "type": "fb",
+          "s": "___ werkgevers twijfelden, zijn ze nu tevreden.",
+          "a": "Hoewel",
+          "opts": [
+            "Hoewel",
+            "Doordat",
+            "Terwijl",
+            "Tenzij"
+          ],
+          "hint": "ALTHOUGH employers doubted..."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de krant",
+              "en": "newspaper"
+            },
+            {
+              "nl": "het artikel",
+              "en": "article"
+            },
+            {
+              "nl": "het journaal",
+              "en": "TV news"
+            },
+            {
+              "nl": "de reclame",
+              "en": "advertisement"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "___ werknemers minder reistijd hebben, zijn ze productiever.",
+          "a": "Doordat",
+          "opts": [
+            "Doordat",
+            "Hoewel",
+            "Terwijl",
+            "Tenzij"
+          ],
+          "hint": "BECAUSE (external cause) employees have less commute..."
+        },
+        {
+          "type": "mc",
+          "q": "The trend will continue 'tenzij de economie verandert'. 'Tenzij' means:",
+          "opts": [
+            "because",
+            "although",
+            "unless",
+            "while"
+          ],
+          "ans": "unless",
+          "hint": "Unless the economy changes"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik lees elke dag de {1}. Heb je dat {2} gelezen?",
+          "blanks": {
+            "1": "krant",
+            "2": "artikel"
+          },
+          "pool": [
+            "krant",
+            "artikel",
+            "bericht",
+            "reclame"
+          ],
+          "hint": "I read the newspaper daily. Have you read that article?"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l6",
+      "title": "Discussiëren",
+      "icon": "🗣️",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Discussiëren",
+          "desc": "Time to structure a real argument. You'll learn discourse markers — the signpost words that make your reasoning clear: ten eerste, bovendien, echter, daarom. These are the building blocks of B1 speaking and writing.",
+          "goals": [
+            "Discourse markers: ten eerste, bovendien, echter",
+            "Structure an argument logically",
+            "Practice a debate dialogue",
+            "Use connectors fluently"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ten eerste",
+          "en": "firstly / in the first place",
+          "phonetic": "ten AYR-stuh",
+          "example": "Ten eerste vind ik het te duur.",
+          "exampleEn": "Firstly, I think it's too expensive.",
+          "note": "'Ten eerste' = first point in an argument.\n'Ten tweede' = secondly.\n'Ten derde' = thirdly.\nVery useful for structured arguments.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "bovendien",
+          "en": "moreover / besides / in addition",
+          "phonetic": "boh-vun-DEEN",
+          "example": "Bovendien is het niet eerlijk.",
+          "exampleEn": "Moreover, it's not fair.",
+          "note": "Adds to your argument.\n'Bovendien' = besides / in addition.\nStrengthens your point.\nV2: 'Bovendien IS het...' (verb second!)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "echter",
+          "en": "however / but (formal)",
+          "phonetic": "EG-tur",
+          "example": "Het plan is goed. Echter, het kost te veel.",
+          "exampleEn": "The plan is good. However, it costs too much.",
+          "note": "Formal 'maar'. Used in writing and debate.\n'Echter' = however.\nCan start a sentence: 'Echter, ...'\nOr mid-sentence: 'Het is echter te duur.'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "aan de andere kant",
+          "en": "on the other hand",
+          "phonetic": "ahn duh AN-duh-ruh kant",
+          "example": "Aan de andere kant heeft hij ook gelijk.",
+          "exampleEn": "On the other hand, he's also right.",
+          "note": "'Aan de ene kant... aan de andere kant...'\n= On one hand... on the other hand...\nUsed for balanced arguments.\nVery 'polder' — seeing both sides!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🗣️ Een Discussie: Voor en Tegen",
+          "text": "Topic: Moeten we meer thuiswerken?\n= Should we work from home more?\n\nVOOR (for):\nTen eerste bespaart het reistijd.\n= Firstly, it saves commute time.\nBovendien is het beter voor het milieu.\n= Moreover, it's better for the environment.\n\nTEGEN (against):\nEchter, het is slecht voor de werksfeer.\n= However, it's bad for work atmosphere.\nAan de andere kant missen collega's het contact.\n= On the other hand, colleagues miss the contact.\n\nCONCLUSIE:\nIk vind dat een combinatie het beste is.\n= I think a combination is best.\nDaarom zou ik twee dagen thuis en drie op kantoor kiezen.\n= Therefore I would choose two days at home and three at the office."
+        },
+        {
+          "type": "mc",
+          "q": "'Bovendien' adds to your argument. It means:",
+          "opts": [
+            "However",
+            "Firstly",
+            "Moreover / besides",
+            "On the other hand"
+          ],
+          "ans": "Moreover / besides",
+          "hint": "Strengthens your point — adds another reason"
+        },
+        {
+          "type": "fb",
+          "s": "___ eerste vind ik het te duur.",
+          "a": "Ten",
+          "opts": [
+            "Ten",
+            "Het",
+            "In",
+            "De"
+          ],
+          "hint": "FIRSTLY, I think it's too expensive"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "ten eerste",
+              "en": "firstly"
+            },
+            {
+              "nl": "bovendien",
+              "en": "moreover"
+            },
+            {
+              "nl": "echter",
+              "en": "however"
+            },
+            {
+              "nl": "aan de andere kant",
+              "en": "on the other hand"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Het plan is goed. ___, het kost te veel.",
+          "a": "Echter",
+          "opts": [
+            "Echter",
+            "Bovendien",
+            "Daarom",
+            "Zodat"
+          ],
+          "hint": "HOWEVER, it costs too much"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} bespaart het reistijd. {2} is het beter voor het milieu.",
+          "blanks": {
+            "1": "Ten eerste",
+            "2": "Bovendien"
+          },
+          "pool": [
+            "Ten eerste",
+            "Bovendien",
+            "Echter",
+            "Daarom"
+          ],
+          "hint": "Firstly it saves commute time. Moreover it's better for the environment."
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch 'poldermodel' of debate means:",
+          "opts": [
+            "The boss decides",
+            "Everyone argues until someone wins",
+            "All sides are heard, seeking consensus",
+            "Nobody gives an opinion"
+          ],
+          "ans": "All sides are heard, seeking consensus",
+          "hint": "Aan de ene kant... aan de andere kant..."
+        }
+      ]
+    },
+    {
+      "id": "v2u13l7",
+      "title": "Polderen",
+      "icon": "🇳🇱",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Polderen",
+          "desc": "The poldermodel, Dutch directness, 'doe maar normaal', and the art of compromise. This lesson explores why the Dutch debate the way they do — and why it actually works.",
+          "goals": [
+            "Understand the poldermodel",
+            "Dutch directness vs other cultures",
+            "'Doe maar normaal' mentality",
+            "Reading comprehension: Dutch debate culture"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "het poldermodel",
+          "en": "the polder model (consensus politics)",
+          "phonetic": "hut POL-dur-mo-DEL",
+          "example": "Het poldermodel is typisch Nederlands.",
+          "exampleEn": "The polder model is typically Dutch.",
+          "note": "Named after 'polders' — land reclaimed from the sea.\nEveryone had to cooperate or drown.\nNow: politics by consensus and compromise.\nGovernment, employers, unions discuss everything.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "doe maar normaal",
+          "en": "just act normal / don't show off",
+          "phonetic": "doo mahr nor-MAHL",
+          "example": "Doe maar normaal, dan doe je al gek genoeg.",
+          "exampleEn": "Just act normal, that's crazy enough.",
+          "note": "THE Dutch motto.\n'Don't stand out. Don't show off. Be normal.'\nTall poppy syndrome — but accepted and embraced.\nSaid as advice AND as a gentle warning.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het compromis",
+          "en": "the compromise",
+          "phonetic": "hut kom-pro-MIS",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "compromise"
+              },
+              {
+                "lang": "French",
+                "word": "compromis"
+              }
+            ],
+            "family": "latin"
+          },
+          "example": "We moeten een compromis sluiten.",
+          "exampleEn": "We need to reach a compromise.",
+          "note": "Het-word. 'Een compromis sluiten' = to reach a compromise.\nThe Dutch LOVE compromises.\nNobody gets everything — but everyone gets something.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📖 Lees: De Kunst van het Polderen",
+          "text": "Nederlanders zijn direct. Dat weet iedereen.\nMaar ze zijn ook meesters in het compromis.\n\nHoe kan dat samengaan?\n\nHet antwoord is het poldermodel.\nIedereen mag zijn mening geven.\nIedereen wordt gehoord.\nMaar uiteindelijk moet je samenwerken.\n\nOp het werk: de baas vraagt de mening van het team.\nEchter, na de discussie neemt de baas het besluit.\n\nIn de politiek: Nederland heeft altijd een coalitie.\nGeen enkele partij heeft de meerderheid.\nDaarom moeten partijen samenwerken.\n\nDoe maar normaal, zeggen de Nederlanders.\nWees direct, maar respectvol.\nGeef je mening, maar luister ook.\nDat is polderen.",
+          "deepDive": {
+            "title": "Vertaling",
+            "text": "Dutch people are direct. Everyone knows that.\nBut they're also masters of compromise.\n\nHow can that go together?\n\nThe answer is the polder model.\nEveryone may give their opinion.\nEveryone is heard.\nBut eventually, you have to cooperate.\n\nAt work: the boss asks the team's opinion.\nHowever, after the discussion the boss makes the decision.\n\nIn politics: the Netherlands always has a coalition.\nNo single party has the majority.\nTherefore, parties must cooperate.\n\nJust act normal, say the Dutch.\nBe direct, but respectful.\nGive your opinion, but also listen.\nThat is 'poldering'."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "The poldermodel is named after polders because:",
+          "opts": [
+            "Polders are flat like Dutch opinions",
+            "Everyone had to cooperate or the land would flood",
+            "It was invented by a farmer",
+            "Polder means politics in old Dutch"
+          ],
+          "ans": "Everyone had to cooperate or the land would flood",
+          "hint": "Cooperate or drown!"
+        },
+        {
+          "type": "fb",
+          "s": "___ maar normaal, dan doe je al gek genoeg.",
+          "a": "Doe",
+          "opts": [
+            "Doe",
+            "Wees",
+            "Ben",
+            "Ga"
+          ],
+          "hint": "Just act normal"
+        },
+        {
+          "type": "mc",
+          "q": "Dutch directness means:",
+          "opts": [
+            "Being rude on purpose",
+            "Saying what you think honestly",
+            "Never compromising",
+            "Talking very fast"
+          ],
+          "ans": "Saying what you think honestly",
+          "hint": "Direct but respectful"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "het poldermodel",
+              "en": "consensus model"
+            },
+            {
+              "nl": "doe maar normaal",
+              "en": "act normal"
+            },
+            {
+              "nl": "het compromis",
+              "en": "the compromise"
+            },
+            {
+              "nl": "de discussie",
+              "en": "the debate"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Why does the Netherlands always have coalition governments?",
+          "opts": [
+            "The king requires it",
+            "No single party ever wins a majority",
+            "It's tradition",
+            "The constitution forbids single-party rule"
+          ],
+          "ans": "No single party ever wins a majority",
+          "hint": "So parties must cooperate — poldermodel!"
+        }
+      ]
+    },
+    {
+      "id": "v2u13l8",
+      "title": "Unit 13 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 13 Review",
+          "desc": "Opinions, connectors, debate, and Dutch directness. Let's review everything from Unit 13.",
+          "goals": [
+            "Opinion verbs: vinden, denken, geloven",
+            "hoewel, terwijl, doordat, zodat, tenzij",
+            "Agreement/disagreement phrases",
+            "Discourse markers"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Ik vind dat belangrijk' — 'vinden' here means:",
+          "opts": [
+            "To find (search)",
+            "To think/feel (opinion)",
+            "To discover",
+            "To look for"
+          ],
+          "ans": "To think/feel (opinion)",
+          "hint": "Vinden = opinion when not about physical finding"
+        },
+        {
+          "type": "fb",
+          "s": "___ het regent, ga ik fietsen. (although)",
+          "a": "Hoewel",
+          "opts": [
+            "Hoewel",
+            "Terwijl",
+            "Doordat",
+            "Omdat"
+          ],
+          "hint": "ALTHOUGH it's raining..."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "hoewel",
+              "en": "although"
+            },
+            {
+              "nl": "terwijl",
+              "en": "while/whereas"
+            },
+            {
+              "nl": "doordat",
+              "en": "because (external)"
+            },
+            {
+              "nl": "tenzij",
+              "en": "unless"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "___ eerste is het te duur. (firstly)",
+          "a": "Ten",
+          "opts": [
+            "Ten",
+            "Het",
+            "In",
+            "Bij"
+          ],
+          "hint": "TEN eerste = firstly"
+        },
+        {
+          "type": "mc",
+          "q": "'Doordat' is best used when the cause is:",
+          "opts": [
+            "Your own choice",
+            "An external fact",
+            "A wish",
+            "A future event"
+          ],
+          "ans": "An external fact",
+          "hint": "Doordat = external/factual cause"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik ben het er {1} mee eens. Ik zie dat {2}.",
+          "blanks": {
+            "1": "niet",
+            "2": "anders"
+          },
+          "pool": [
+            "niet",
+            "anders",
+            "wel",
+            "goed"
+          ],
+          "hint": "I disagree. I see it differently."
+        },
+        {
+          "type": "fb",
+          "s": "Het plan is goed. ___, het kost te veel.",
+          "a": "Echter",
+          "opts": [
+            "Echter",
+            "Bovendien",
+            "Daarom",
+            "Zodat"
+          ],
+          "hint": "HOWEVER"
+        },
+        {
+          "type": "mc",
+          "q": "'Doe maar normaal' is:",
+          "opts": [
+            "An insult",
+            "A core Dutch value: don't show off",
+            "Only for children",
+            "A political slogan"
+          ],
+          "ans": "A core Dutch value: don't show off",
+          "hint": "Just act normal — the Dutch motto"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik lees de krant {1} ik Nederlands leer. Ik ga, {2} het regent.",
+          "blanks": {
+            "1": "zodat",
+            "2": "tenzij"
+          },
+          "pool": [
+            "zodat",
+            "tenzij",
+            "doordat",
+            "hoewel"
+          ],
+          "hint": "I read so that I learn. I go, unless it rains."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "ten eerste",
+              "en": "firstly"
+            },
+            {
+              "nl": "bovendien",
+              "en": "moreover"
+            },
+            {
+              "nl": "het compromis",
+              "en": "compromise"
+            },
+            {
+              "nl": "de oplossing",
+              "en": "solution"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ dat het gaat regenen. (think — rational)",
+          "a": "denk",
+          "opts": [
+            "denk",
+            "vind",
+            "geloof",
+            "meen"
+          ],
+          "hint": "Rational = denken"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_although_raining",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_so_that_learn",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "v2u13_i_agree",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

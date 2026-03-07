@@ -1,0 +1,219 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 18,
+    "lang": "nl",
+    "track": "legacy",
+    "title": "Daily Routines",
+    "sub": "My Day",
+    "icon": "⏰",
+    "level": "A2.1",
+    "color": "#9B59B6"
+  },
+  "lessons": [
+    {
+      "id": "u18l1",
+      "title": "Morning Routine",
+      "icon": "🌅",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Morning Routine 🌅",
+          "desc": "Talk about what you do every morning! Learn essential daily routine vocabulary.",
+          "goals": [
+            "Morning activities",
+            "Tell time",
+            "Describe your routine"
+          ]
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_wakker_worden"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_opstaan"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_douchen"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_aankleden"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_ontbijten"
+        },
+        {
+          "type": "dialogue",
+          "title": "Morning Routine",
+          "content": "A: Hoe laat word je wakker?\nB: Meestal om 7 uur.\nA: En dan?\nB: Dan sta ik op en douche.\nA: Ontbijt je elke dag?\nB: Ja, altijd!"
+        },
+        {
+          "type": "tip",
+          "title": "⏰ Daily Structure",
+          "text": "Pattern: Ik word wakker → Ik sta op → Ik douche → Ik kleed me aan → Ik ontbijt"
+        },
+        {
+          "type": "mc",
+          "q": "What means 'to get up'?",
+          "opts": [
+            "wakker worden",
+            "opstaan",
+            "douchen",
+            "aankleden"
+          ],
+          "ans": "opstaan",
+          "hint": "After waking"
+        },
+        {
+          "type": "tr",
+          "mk": "u18_wake_up_7",
+          "dir": "produce"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "routine_get_up",
+            "routine_shower",
+            "routine_breakfast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u18l2",
+      "title": "Daily Activities",
+      "icon": "📅",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Daily Activities 📅",
+          "desc": "What do you do during the day?",
+          "goals": [
+            "Work and activities",
+            "Frequency adverbs"
+          ]
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_werken"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_studeren"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_sporten"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "adv_altijd"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "adv_vaak"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "adv_soms"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "adv_nooit"
+        },
+        {
+          "type": "mc",
+          "q": "'Altijd' means:",
+          "opts": [
+            "Always",
+            "Often",
+            "Sometimes",
+            "Never"
+          ],
+          "ans": "Always",
+          "hint": "100%"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "freq_always",
+            "freq_often",
+            "freq_sometimes",
+            "freq_never"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u18l3",
+      "title": "Evening",
+      "icon": "🌙",
+      "xp": 25,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Evening 🌙",
+          "desc": "End your day in Dutch!",
+          "goals": [
+            "Evening vocabulary",
+            "Bedtime"
+          ]
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_kijken"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_lezen"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "v_slapen"
+        },
+        {
+          "type": "vocab_ref",
+          "id": "n_bed"
+        },
+        {
+          "type": "teach",
+          "nl": "naar bed gaan",
+          "en": "to go to bed",
+          "img": "🛏️",
+          "phonetic": "nahr bet gahn",
+          "example": "Ik ga om 11 uur naar bed.",
+          "exampleEn": "I go to bed at 11.",
+          "note": "Fixed phrase",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "How to say 'I go to bed'?",
+          "opts": [
+            "Ik ga naar bed",
+            "Ik ga op bed",
+            "Ik ga in bed",
+            "Ik ga bed"
+          ],
+          "ans": "Ik ga naar bed",
+          "hint": "Naar = to"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "routine_sleep",
+            "routine_read",
+            "routine_bed"
+          ]
+        }
+      ]
+    }
+  ]
+}

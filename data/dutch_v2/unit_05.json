@@ -1,0 +1,2381 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 5,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Mijn Familie & Thuis",
+    "sub": "Reflexives, Adjectives & Home",
+    "icon": "👨‍👩‍👧‍👦",
+    "level": "A1.2",
+    "color": "#E74A8F"
+  },
+  "lessons": [
+    {
+      "id": "v2u5l1",
+      "title": "Mijn Familie",
+      "icon": "👨‍👩‍👧‍👦",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Mijn Familie",
+          "desc": "Welcome to Unit 5: family and home. You already know mijn/jouw/zijn/haar from Unit 4. Now we add the full family vocabulary and expand your possessive toolkit. By the end of this unit, you'll be able to talk about your people, your house, and your daily life.",
+          "goals": [
+            "10 family member words",
+            "Review and lock in possessives",
+            "Describe your family",
+            "Dutch family culture"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de familie",
+          "en": "the family",
+          "phonetic": "duh fah-MEE-lee",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "family"
+              },
+              {
+                "lang": "French",
+                "word": "famille"
+              },
+              {
+                "lang": "German",
+                "word": "Familie"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Mijn familie is groot.",
+          "exampleEn": "My family is big.",
+          "note": "De-word. International cognate — same in almost every European language.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de vader",
+          "en": "the father",
+          "phonetic": "duh VAH-dur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "father"
+              },
+              {
+                "lang": "German",
+                "word": "Vater"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn vader werkt in Amsterdam.",
+          "exampleEn": "My father works in Amsterdam.",
+          "note": "De-word. Dutch v = English f — a regular sound shift.\nvader/father, vis/fish, vinden/find, vol/full, vier/four.\nThis is one of the most useful patterns in Dutch:\nwhen you see 'v-' in Dutch, try 'f-' in English.\nInformal: papa.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de moeder",
+          "en": "the mother",
+          "phonetic": "duh MOO-dur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "mother"
+              },
+              {
+                "lang": "German",
+                "word": "Mutter"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Haar moeder woont in Utrecht.",
+          "exampleEn": "Her mother lives in Utrecht.",
+          "note": "De-word. Same Germanic root as English/German.\nInformal: mama.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de broer",
+          "en": "the brother",
+          "phonetic": "duh broor",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "brother"
+              },
+              {
+                "lang": "German",
+                "word": "Bruder"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn broer is veertien.",
+          "exampleEn": "My brother is fourteen.",
+          "note": "De-word. Plural: broers.\nSame root as English 'brother'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de zus",
+          "en": "the sister",
+          "phonetic": "duh zus",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "sister"
+              },
+              {
+                "lang": "German",
+                "word": "Schwester"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Zijn zus woont in Rotterdam.",
+          "exampleEn": "His sister lives in Rotterdam.",
+          "note": "De-word. Plural: zussen.\nAlso: 'de zuster' (more formal/literary).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het kind",
+          "en": "the child",
+          "phonetic": "hut kint",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "kind (Old English: child)"
+              },
+              {
+                "lang": "German",
+                "word": "Kind"
+              }
+            ],
+            "family": "germanic"
+          },
+          "also": "⚠️ False friend: Dutch 'kind' = child, NOT English 'kind' (= aardig)",
+          "example": "Het kind is drie jaar oud.",
+          "exampleEn": "The child is three years old.",
+          "note": "Het-word. Plural: kinderen (irregular).\nFalse friend! English 'kind' = Dutch 'aardig'.\nBut in Old English, 'kind' DID mean 'child' — same word.\nYou can still see it in English 'kindergarten' (children's garden)\nand 'humankind' (the human child/offspring → humanity).\nEnglish shifted the meaning; Dutch and German kept it.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "de zoon",
+          "en": "the son",
+          "phonetic": "duh zohn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "son"
+              },
+              {
+                "lang": "German",
+                "word": "Sohn"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Onze zoon heet Thomas.",
+          "exampleEn": "Our son is called Thomas.",
+          "note": "De-word. Plural: zonen.\nSame root as English 'son' and German 'Sohn'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de dochter",
+          "en": "the daughter",
+          "phonetic": "duh DOG-tur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "daughter"
+              },
+              {
+                "lang": "German",
+                "word": "Tochter"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Haar dochter is twaalf.",
+          "exampleEn": "Her daughter is twelve.",
+          "note": "De-word. Plural: dochters.\nThe 'ch' is the Dutch throat sound.\nSame root as English 'daughter'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de opa",
+          "en": "the grandfather / grandpa",
+          "phonetic": "duh OH-pah",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Opa"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn opa is tachtig jaar oud.",
+          "exampleEn": "My grandfather is eighty years old.",
+          "note": "De-word. Informal and universal.\nFormal: de grootvader. Nobody says that.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de oma",
+          "en": "the grandmother / grandma",
+          "phonetic": "duh OH-mah",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Oma"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn oma woont in Groningen.",
+          "exampleEn": "My grandma lives in Groningen.",
+          "note": "De-word. Same as German.\nFormal: de grootmoeder. Rarely used.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "👨‍👩‍👧‍👦 Family Vocabulary Overview",
+          "text": "de vader / papa = father / dad\nde moeder / mama = mother / mum\nde broer = brother\nde zus = sister\nde zoon = son\nde dochter = daughter\nhet kind = child (plural: kinderen)\nde opa = grandpa\nde oma = grandma\nde man = husband (also: man)\nde vrouw = wife (also: woman)\n\nNotice: almost ALL family words are de-words.\nException: het kind (het-word).\nYou already know 'man' and 'vrouw' from Unit 1!"
+        },
+        {
+          "type": "teach",
+          "nl": "getrouwd",
+          "en": "married",
+          "phonetic": "guh-TROUT",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "betrothed"
+              },
+              {
+                "lang": "German",
+                "word": "getraut"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn ouders zijn getrouwd.",
+          "exampleEn": "My parents are married.",
+          "note": "Past participle of 'trouwen' (to marry).\nShares a root with English 'betrothed' and 'troth.'\n'To plight one's troth' = to pledge one's faithfulness.\nEnglish 'troth' became rare, surviving mainly in wedding\nvows. Dutch kept it as the everyday word for marriage.\n'Getrouwd met' = married to.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de ouders",
+          "en": "the parents",
+          "phonetic": "duh OW-durs",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "old (elders)"
+              },
+              {
+                "lang": "German",
+                "word": "Eltern"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn ouders wonen in Den Haag.",
+          "exampleEn": "My parents live in The Hague.",
+          "note": "Literally: 'the olds' (from 'oud' = old).\nAlways plural: ouders.\nSame logic as English 'elders'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 Dutch Family Culture",
+          "text": "Dutch families are typically smaller than in many countries.\nOne or two children is standard.\n\nThe Dutch value independence — children are raised to be\n'zelfstandig' (self-reliant) from a young age.\n\n'Doe maar normaal, dan doe je al gek genoeg.'\n= Just be normal, that's crazy enough.\nThis is THE Dutch parenting motto.\nDon't show off. Don't be dramatic. Just be normal.\n\nFamilies often live close but not together.\nSunday lunch at opa and oma's is a common tradition.\n'Op bezoek bij opa en oma' = Visiting grandpa and grandma."
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch word 'kind' means:",
+          "opts": [
+            "kind (nice)",
+            "child",
+            "king",
+            "friend"
+          ],
+          "ans": "child",
+          "hint": "False friend! English 'kind' = Dutch 'aardig'"
+        },
+        {
+          "type": "fb",
+          "s": "Mijn ___ woont in Amsterdam. (father)",
+          "a": "vader",
+          "opts": [
+            "vader",
+            "moeder",
+            "broer",
+            "zus"
+          ],
+          "hint": "Father"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de broer",
+              "en": "brother"
+            },
+            {
+              "nl": "de zus",
+              "en": "sister"
+            },
+            {
+              "nl": "de zoon",
+              "en": "son"
+            },
+            {
+              "nl": "de dochter",
+              "en": "daughter"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Which is the ONLY het-word in the family?",
+          "opts": [
+            "vader",
+            "kind",
+            "moeder",
+            "zoon"
+          ],
+          "ans": "kind",
+          "hint": "Children are special in Dutch grammar too"
+        },
+        {
+          "type": "fb",
+          "s": "___ ouders wonen in Rotterdam. (his)",
+          "a": "Zijn",
+          "opts": [
+            "Zijn",
+            "Haar",
+            "Mijn",
+            "Jouw"
+          ],
+          "hint": "His parents..."
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} moeder is lerares. {2} vader werkt in Utrecht.",
+          "blanks": {
+            "1": "Haar",
+            "2": "Mijn"
+          },
+          "pool": [
+            "Haar",
+            "Mijn",
+            "De",
+            "Het"
+          ],
+          "hint": "HER mother is a teacher. MY father works in Utrecht."
+        },
+        {
+          "type": "mc",
+          "q": "The plural of 'kind' is:",
+          "opts": [
+            "kinds",
+            "kinden",
+            "kinderen",
+            "kindes"
+          ],
+          "ans": "kinderen",
+          "hint": "Irregular plural — just memorize it"
+        },
+        {
+          "type": "fb",
+          "s": "Mijn opa en oma ___ in Groningen.",
+          "a": "wonen",
+          "opts": [
+            "wonen",
+            "woont",
+            "woon",
+            "woond"
+          ],
+          "hint": "They live = plural form"
+        },
+        {
+          "type": "mc",
+          "q": "'Doe maar normaal' reflects the Dutch value of:",
+          "opts": [
+            "ambition",
+            "modesty and normalcy",
+            "family first",
+            "hard work"
+          ],
+          "ans": "modesty and normalcy",
+          "hint": "Don't show off, just be normal"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_my_family_big",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_brother_fourteen",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l2",
+      "title": "Ons Huis",
+      "icon": "🏠",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Ons Huis",
+          "desc": "Time to complete the possessives. You know mijn/jouw/zijn/haar/uw from Unit 4. Now: ons/onze (our), jullie (your plural), and hun (their). Plus the rooms and objects that make a Dutch house a Dutch house.",
+          "goals": [
+            "ons vs onze (our)",
+            "jullie and hun",
+            "6 rooms and household nouns",
+            "Describe your house"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ons",
+          "en": "our (with het-words)",
+          "phonetic": "ons",
+          "example": "Ons huis is klein.",
+          "exampleEn": "Our house is small.",
+          "note": "'Our' has TWO forms in Dutch!\n'Ons' for het-words: ons huis, ons kind.\n'Onze' for de-words: onze vader, onze kat.\nThis is the only possessive that changes.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "onze",
+          "en": "our (with de-words / plurals)",
+          "phonetic": "ON-zuh",
+          "example": "Onze tuin is groot.",
+          "exampleEn": "Our garden is big.",
+          "note": "'Onze' for de-words and ALL plurals:\nonze vader, onze kinderen, onze huizen.\n'Ons' ONLY for singular het-words.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Ons vs Onze — The Rule",
+          "text": "This is the ONLY possessive that changes form:\n\nONS + singular het-word:\nons huis = our house\nons kind = our child\nons glas = our glass\n\nONZE + de-word or plural:\nonze vader = our father\nonze tuin = our garden\nonze kinderen = our children\nonze huizen = our houses\n\nEvery other possessive stays the same:\nmijn huis / mijn vader (no change)\njouw huis / jouw vader (no change)\n\nOnly 'our' splits into ons/onze."
+        },
+        {
+          "type": "teach",
+          "nl": "jullie",
+          "en": "your (plural, possessive)",
+          "phonetic": "YUH-lee",
+          "example": "Jullie huis is mooi.",
+          "exampleEn": "Your (plural) house is beautiful.",
+          "note": "You already know 'jullie' as a pronoun (you all).\nAs possessive: 'jullie huis' = your house.\nNo change for de/het — always 'jullie'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "hun",
+          "en": "their",
+          "phonetic": "hun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "ihr (different form)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Hun kinderen zijn groot.",
+          "exampleEn": "Their children are big.",
+          "note": "'Hun' = their. No change for de/het.\nHun huis, hun vader, hun kinderen.\nSimple and consistent.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het huis",
+          "en": "the house",
+          "phonetic": "hut hoys",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "house"
+              },
+              {
+                "lang": "German",
+                "word": "Haus"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ons huis heeft drie kamers.",
+          "exampleEn": "Our house has three rooms.",
+          "note": "Het-word. So: 'ons huis' (not 'onze').\nPlural: huizen (s → z voicing).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de kamer",
+          "en": "the room",
+          "phonetic": "duh KAH-mur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "chamber"
+              },
+              {
+                "lang": "German",
+                "word": "Kammer"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De kamer is groot.",
+          "exampleEn": "The room is big.",
+          "note": "De-word. Plural: kamers.\nSlaapkamer = bedroom, woonkamer = living room.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de keuken",
+          "en": "the kitchen",
+          "phonetic": "duh KUH-kun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "kitchen"
+              },
+              {
+                "lang": "German",
+                "word": "Küche"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Wij eten in de keuken.",
+          "exampleEn": "We eat in the kitchen.",
+          "note": "De-word. Same root as English 'kitchen'.\nThe heart of a Dutch home — small but functional.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de tuin",
+          "en": "the garden",
+          "phonetic": "duh toyn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "town (enclosed area)"
+              },
+              {
+                "lang": "German",
+                "word": "Zaun (fence)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Onze tuin is klein maar mooi.",
+          "exampleEn": "Our garden is small but beautiful.",
+          "note": "De-word. So: 'onze tuin' (not 'ons').\nDutch gardens are typically tiny but immaculate.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de trap",
+          "en": "the stairs",
+          "phonetic": "duh trap",
+          "example": "De trap is steil.",
+          "exampleEn": "The stairs are steep.",
+          "note": "De-word. Plural: trappen.\nDutch stairs are FAMOUSLY steep — nearly vertical.\nMoving a couch? Use the hook on the gable.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het raam",
+          "en": "the window",
+          "phonetic": "hut rahm",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Rahmen (frame)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het raam is groot.",
+          "exampleEn": "The window is big.",
+          "note": "Het-word. So: 'ons raam'.\nDutch windows are enormous.\nAnd often WITHOUT curtains. On purpose.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 The Dutch House",
+          "text": "Dutch houses are... unique.\n\nSteep stairs: nearly vertical, notoriously narrow.\nMoving furniture? Use the hook (hijsbalk) on the roof peak\nand hoist it through the window.\n\nBig windows, NO curtains: the Dutch tradition of open windows\ncomes from Calvinist culture — 'we have nothing to hide.'\nYou can see straight into people's living rooms. This is normal.\n\nRijtjeshuizen: row houses. The typical Dutch street is a long\nrow of attached houses, each narrow and tall (3-4 floors).\n\nThe tuin is small — often just a tiny patch behind the house.\nBut it will be perfect. The Dutch are champion gardeners.\n\n'Gezellig' lives in the woonkamer (living room).\nSmall, warm, filled with candles."
+        },
+        {
+          "type": "mc",
+          "q": "'Ons huis' uses 'ons' because:",
+          "opts": [
+            "huis is a de-word",
+            "huis is a het-word",
+            "huis is plural",
+            "it's a rule for all possessives"
+          ],
+          "ans": "huis is a het-word",
+          "hint": "ons + het-word, onze + de-word"
+        },
+        {
+          "type": "fb",
+          "s": "___ tuin is klein. (our)",
+          "a": "Onze",
+          "opts": [
+            "Onze",
+            "Ons",
+            "Ons'",
+            "Onzen"
+          ],
+          "hint": "Tuin is a de-word → onze"
+        },
+        {
+          "type": "mc",
+          "q": "Which possessive is the ONLY one with two forms?",
+          "opts": [
+            "mijn",
+            "jouw",
+            "ons/onze",
+            "hun"
+          ],
+          "ans": "ons/onze",
+          "hint": "Every other possessive stays the same"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de keuken",
+              "en": "the kitchen"
+            },
+            {
+              "nl": "de kamer",
+              "en": "the room"
+            },
+            {
+              "nl": "het raam",
+              "en": "the window"
+            },
+            {
+              "nl": "de trap",
+              "en": "the stairs"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} huis is groot. {2} kinderen zijn klein.",
+          "blanks": {
+            "1": "Ons",
+            "2": "Hun"
+          },
+          "pool": [
+            "Ons",
+            "Hun",
+            "Onze",
+            "Zijn"
+          ],
+          "hint": "OUR house (het-word). THEIR children."
+        },
+        {
+          "type": "fb",
+          "s": "___ kinderen gaan naar school. (their)",
+          "a": "Hun",
+          "opts": [
+            "Hun",
+            "Haar",
+            "Zijn",
+            "Jullie"
+          ],
+          "hint": "Their children..."
+        },
+        {
+          "type": "mc",
+          "q": "Dutch houses are famous for:",
+          "opts": [
+            "having no stairs",
+            "large gardens",
+            "big windows without curtains",
+            "being detached"
+          ],
+          "ans": "big windows without curtains",
+          "hint": "Calvinist transparency tradition"
+        },
+        {
+          "type": "fb",
+          "s": "___ keuken is klein. (our)",
+          "a": "Onze",
+          "opts": [
+            "Onze",
+            "Ons",
+            "Onz",
+            "Onzen"
+          ],
+          "hint": "Keuken is a de-word"
+        },
+        {
+          "type": "mc",
+          "q": "'Jullie huis' — does 'jullie' change for het-words?",
+          "opts": [
+            "Yes: jullies huis",
+            "Yes: jul huis",
+            "No: jullie never changes",
+            "Yes: julle huis"
+          ],
+          "ans": "No: jullie never changes",
+          "hint": "Only ons/onze changes"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_our_house_small",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_their_garden",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l3",
+      "title": "Elke Ochtend",
+      "icon": "🌅",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Elke Ochtend",
+          "desc": "You can't describe a morning without reflexive verbs. 'I wash myself, I dress myself, I feel good.' Dutch uses these MORE than English — 'voelen' is always 'zich voelen'. If you speak German, French, Spanish, or Romanian, you already know the concept.",
+          "goals": [
+            "What reflexive verbs are",
+            "6 reflexive morning routine verbs",
+            "Reflexive pronouns (me, je, zich...)",
+            "Describe your morning in Dutch"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🪞 What Are Reflexive Verbs?",
+          "text": "A reflexive verb is one where the subject acts on ITSELF:\n\nIk was me. = I wash myself.\nJij kleedt je aan. = You dress yourself.\nHij voelt zich goed. = He feels (himself) good.\n\nEnglish often drops the 'myself' part:\n'I wash' (myself is implied).\n'I feel good' (myself is implied).\n\nDutch NEVER drops it:\nIk was me. ✅ (me = myself)\nIk was. ❌ (this means 'I was' — past tense of zijn!)\n\nThe reflexive pronoun changes per person:\nik → me\njij → je\nhij/zij → zich\nwij → ons\njullie → je\nzij (they) → zich",
+          "deepDive": {
+            "title": "If you speak other languages...",
+            "text": "French: je me lave, tu te laves, il se lave\nSpanish: me lavo, te lavas, se lava\nGerman: ich wasche mich, du wäschst dich, er wäscht sich\nRomanian: mă spăl, te speli, se spală\n\nDutch works exactly the same way.\nThe reflexive pronoun sits after the verb:\nIk was me. (I wash myself)\nJij wast je. (You wash yourself)\nHij wast zich. (He washes himself)\n\nIf you already know reflexives in ANY Romance\nor Germanic language, Dutch reflexives are free."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "zich wassen",
+          "en": "to wash (oneself)",
+          "phonetic": "zig VAS-sun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "wash"
+              },
+              {
+                "lang": "German",
+                "word": "sich waschen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik was me elke ochtend.",
+          "exampleEn": "I wash myself every morning.",
+          "note": "Reflexive verb. Dictionary form: 'zich wassen'.\n'Zich' = oneself (placeholder).\nConjugated: ik was me, jij wast je, hij wast zich.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "ik was me",
+          "en": "I wash myself",
+          "phonetic": "ik vas muh",
+          "example": "Ik was me om zeven uur.",
+          "exampleEn": "I wash myself at seven o'clock.",
+          "note": "was = stam of wassen. me = myself.\n⚠️ 'Ik was' alone = I was (past tense of zijn).\n'Ik was me' = I wash myself. Context is everything.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "hij wast zich",
+          "en": "he washes himself",
+          "phonetic": "hay vast zig",
+          "example": "Hij wast zich snel.",
+          "exampleEn": "He washes himself quickly.",
+          "note": "wast = stam + t. zich = himself.\nFor hij/zij/het, the reflexive pronoun is 'zich'.\n'Zich' is like French 'se' or German 'sich'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "zich aankleden",
+          "en": "to get dressed",
+          "phonetic": "zig AHN-klay-dun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "clothe"
+              },
+              {
+                "lang": "German",
+                "word": "sich ankleiden"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik kleed me aan.",
+          "exampleEn": "I get dressed.",
+          "note": "Reflexive + SEPARABLE! Two things at once.\naankleden → ik kleed me aan.\n'aan' goes to the end. Reflexive pronoun stays with the verb.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "zich voelen",
+          "en": "to feel",
+          "phonetic": "zig FOO-lun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "feel"
+              },
+              {
+                "lang": "German",
+                "word": "sich fühlen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik voel me goed.",
+          "exampleEn": "I feel good.",
+          "note": "In Dutch, 'voelen' is ALWAYS reflexive for emotions.\n'I feel good' = Ik voel ME goed.\nNever just 'Ik voel goed' — that's incomplete.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "zich scheren",
+          "en": "to shave (oneself)",
+          "phonetic": "zig SGAY-run",
+          "example": "Hij scheert zich elke ochtend.",
+          "exampleEn": "He shaves every morning.",
+          "note": "Regular reflexive. Stam = scheer.\n'sch' = the Dutch 'sg' sound.\nThe 'zich' makes it clear: he shaves HIMSELF.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "zich douchen",
+          "en": "to shower",
+          "phonetic": "zig DOW-shun",
+          "example": "Ik douche me om kwart over zeven.",
+          "exampleEn": "I shower at quarter past seven.",
+          "note": "From French 'douche'. Regular verb.\nStam = douche. Ik douche me, jij doucht je.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "wakker worden",
+          "en": "to wake up",
+          "phonetic": "VAK-kur VOR-dun",
+          "example": "Ik word elke dag om zes uur wakker.",
+          "exampleEn": "I wake up every day at six o'clock.",
+          "note": "Not reflexive, but SEPARABLE: wakker...worden.\n'Ik word wakker' = I wake up. 'Wakker' goes to the end.\nVerb 'worden' = to become. You 'become awake'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📋 Reflexive Pronouns — Full List",
+          "text": "ik → me (myself)\njij / je → je (yourself)\nu → zich / u (yourself formal)\nhij → zich (himself)\nzij → zich (herself)\nhet → zich (itself)\nwij → ons (ourselves)\njullie → je (yourselves)\nzij → zich (themselves)\n\nPattern: me, je, zich, ons, je, zich.\n'Zich' is the default for 3rd person and formal 'u'.\n'Je' does double duty for jij AND jullie."
+        },
+        {
+          "type": "tip",
+          "title": "🌅 A Dutch Morning",
+          "text": "A typical Dutch morning:\n\nIk word om zes uur wakker. = I wake up at 6.\nIk douche me. = I shower.\nIk was me. = I wash myself.\nIk scheer me. = I shave.\nIk kleed me aan. = I get dressed.\nIk voel me goed! = I feel good!\n\nIk eet een boterham met kaas. = I eat a sandwich with cheese.\nIk drink een kopje koffie. = I drink a cup of coffee.\n\nNotice: reflexive pronouns always sit right after the verb.\nSubject + verb + reflexive pronoun + rest."
+        },
+        {
+          "type": "mc",
+          "q": "Why must Dutch always include 'me' in 'Ik was me'?",
+          "opts": [
+            "It's optional",
+            "Without 'me', 'ik was' means 'I was' (past tense)",
+            "Dutch grammar requires it",
+            "It sounds more polite"
+          ],
+          "ans": "Without 'me', 'ik was' means 'I was' (past tense)",
+          "hint": "ik was = I was. ik was me = I wash myself."
+        },
+        {
+          "type": "fb",
+          "s": "Hij voelt ___ goed.",
+          "a": "zich",
+          "opts": [
+            "zich",
+            "me",
+            "je",
+            "ons"
+          ],
+          "hint": "He feels HIMSELF good — 3rd person"
+        },
+        {
+          "type": "mc",
+          "q": "'Zich aankleden' is both:",
+          "opts": [
+            "reflexive and regular",
+            "reflexive and irregular",
+            "reflexive and separable",
+            "separable and irregular"
+          ],
+          "ans": "reflexive and separable",
+          "hint": "ik kleed ME AAN — two things at once"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "zich wassen",
+              "en": "to wash oneself"
+            },
+            {
+              "nl": "zich voelen",
+              "en": "to feel"
+            },
+            {
+              "nl": "zich aankleden",
+              "en": "to get dressed"
+            },
+            {
+              "nl": "wakker worden",
+              "en": "to wake up"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik douche {1} om zeven uur. Hij scheert {2} elke ochtend.",
+          "blanks": {
+            "1": "me",
+            "2": "zich"
+          },
+          "pool": [
+            "me",
+            "zich",
+            "je",
+            "ons"
+          ],
+          "hint": "I shower MYSELF. He shaves HIMSELF."
+        },
+        {
+          "type": "fb",
+          "s": "Wij voelen ___ goed.",
+          "a": "ons",
+          "opts": [
+            "ons",
+            "zich",
+            "me",
+            "je"
+          ],
+          "hint": "WE feel OURSELVES good"
+        },
+        {
+          "type": "mc",
+          "q": "The reflexive pronoun for 'jij' is:",
+          "opts": [
+            "me",
+            "je",
+            "zich",
+            "ons"
+          ],
+          "ans": "je",
+          "hint": "Same word as 'you' unstressed!"
+        },
+        {
+          "type": "fb",
+          "s": "Ik kleed ___ aan.",
+          "a": "me",
+          "opts": [
+            "me",
+            "mij",
+            "zich",
+            "je"
+          ],
+          "hint": "I dress MYSELF"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik word om zes uur wakker' — where does 'wakker' go?",
+          "opts": [
+            "Before the verb",
+            "After 'ik'",
+            "At the end (separable)",
+            "It doesn't move"
+          ],
+          "ans": "At the end (separable)",
+          "hint": "wakker worden = separable verb"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_feel_good",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_wake_up_six",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l4",
+      "title": "De Grote Rode Fiets",
+      "icon": "📐",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "De Grote Rode Fiets",
+          "desc": "You've used adjectives casually — groot, klein, mooi, lekker. Now learn the SYSTEM. Dutch adjectives add -e... most of the time. There's one exception, and it trips up even advanced learners. This is the most important grammar rule in this unit.",
+          "goals": [
+            "The -e rule for adjectives",
+            "The one exception (indefinite het)",
+            "Multiple adjectives before a noun",
+            "Describe things around the house"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📐 The Adjective -e Rule",
+          "text": "When an adjective goes BEFORE a noun, it usually adds -e:\n\nde grote tuin = the big garden ✅\nhet kleine huis = the small house ✅\neen mooie kamer = a beautiful room ✅\n\nBut there is ONE exception:\n\neen groot huis = a big house ❌ (no -e!)\n\nThe exception: een/geen + het-word + adjective = NO -e.\n\nDE-WORDS: always add -e.\nde grote tuin ✅\neen grote tuin ✅\n\nHET-WORDS: add -e with de/het/dit/dat. NO -e with een/geen.\nhet grote huis ✅\neen groot huis ✅ (no -e!)\n\nThis is the ONLY exception. Everything else gets -e.",
+          "deepDive": {
+            "title": "Why this exception exists",
+            "text": "Historical grammar reason:\n\nOld Dutch had three genders: masculine, feminine, neuter.\nDe-words are masculine/feminine. Het-words are neuter.\n\nWith definite articles (de, het), ALL genders got -e.\nWith indefinite articles (een), neuter (het) kept the bare form.\n\nSo 'een groot huis' is a fossil from Old Dutch gender marking.\n\nGerman still has the full system:\nein großes Haus, eine große Küche, der große Garten...\nDutch simplified it to just one exception.\n\nIf you speak German: Dutch is German's adjective system\nwith 90% of the complexity removed."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "groot",
+          "en": "big",
+          "phonetic": "groht",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "great"
+              },
+              {
+                "lang": "German",
+                "word": "groß"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De grote tuin. Een groot huis.",
+          "exampleEn": "The big garden. A big house.",
+          "note": "De-word: de grote tuin, een grote tuin. (always -e)\nHet-word: het grote huis (definite → -e)\nBUT: een groot huis (indefinite het → NO -e!)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "klein",
+          "en": "small / little",
+          "phonetic": "klayn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "klein"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het kleine kopje. Een klein kopje.",
+          "exampleEn": "The small cup. A small cup.",
+          "note": "klein → kleine (with -e) or klein (without).\nHet kleine kopje (definite het → -e).\nEen klein kopje (indefinite het → no -e).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "mooi",
+          "en": "beautiful / nice",
+          "phonetic": "moy",
+          "example": "De mooie kamer. Een mooie kamer.",
+          "exampleEn": "The beautiful room. A beautiful room.",
+          "note": "De-word: always -e → mooie.\nmooi → mooie: the 'i' just gets an '-e' added.\nEen mooie kamer ✅ (de-word = always -e).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "oud",
+          "en": "old",
+          "phonetic": "owt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "old"
+              },
+              {
+                "lang": "German",
+                "word": "alt"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het oude huis. Een oud huis.",
+          "exampleEn": "The old house. An old house.",
+          "note": "Het oude huis (definite → -e).\nEen oud huis (indefinite het → no -e).\nFinal -d sounds like -t (devoicing).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "nieuw",
+          "en": "new",
+          "phonetic": "neew",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "new"
+              },
+              {
+                "lang": "German",
+                "word": "neu"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De nieuwe keuken.",
+          "exampleEn": "The new kitchen.",
+          "note": "nieuw → nieuwe. De-word = always -e.\nIdentical cognate across Germanic languages.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rood",
+          "en": "red",
+          "phonetic": "roht",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "red"
+              },
+              {
+                "lang": "German",
+                "word": "rot"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De rode fiets.",
+          "exampleEn": "The red bicycle.",
+          "note": "rood → rode. The 'oo' becomes 'o' (open syllable).\nSame Foundations rule: ro-de = open syllable → long vowel.\nOne 'o' is enough.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🎯 The Decision Tree",
+          "text": "Before a noun, ask:\n\n1. Is it a DE-word?\n   → YES: add -e. Always. Done.\n   de grote tuin, een grote tuin.\n\n2. Is it a HET-word?\n   → With het/dit/dat/ons: add -e.\n     het grote huis, dit kleine raam.\n   → With een/geen/no article: NO -e.\n     een groot huis, geen klein raam.\n\nThat's the entire rule. One flowchart, two paths.\n\n⚠️ After the noun (predicative), NEVER add -e:\nHet huis is groot. (not 'grote')\nDe tuin is mooi. (not 'mooie')\nOnly BEFORE nouns does -e apply."
+        },
+        {
+          "type": "mc",
+          "q": "'Een groot huis' — why no -e on 'groot'?",
+          "opts": [
+            "It's after the noun",
+            "een + het-word = no -e",
+            "groot never takes -e",
+            "It's a spelling rule"
+          ],
+          "ans": "een + het-word = no -e",
+          "hint": "The ONE exception"
+        },
+        {
+          "type": "fb",
+          "s": "De ___ tuin. (big)",
+          "a": "grote",
+          "opts": [
+            "grote",
+            "groot",
+            "groote",
+            "groten"
+          ],
+          "hint": "De-word = always -e"
+        },
+        {
+          "type": "mc",
+          "q": "Which is correct?",
+          "opts": [
+            "een mooie huis",
+            "een mooi huis",
+            "het mooi huis",
+            "een mooien huis"
+          ],
+          "ans": "een mooi huis",
+          "hint": "een + het-word = no -e"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de rode fiets",
+              "en": "the red bike"
+            },
+            {
+              "nl": "een groot huis",
+              "en": "a big house"
+            },
+            {
+              "nl": "het kleine kopje",
+              "en": "the small cup"
+            },
+            {
+              "nl": "een mooie kamer",
+              "en": "a beautiful room"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "De {1} keuken. Een {2} raam.",
+          "blanks": {
+            "1": "nieuwe",
+            "2": "groot"
+          },
+          "pool": [
+            "nieuwe",
+            "groot",
+            "nieuw",
+            "grote"
+          ],
+          "hint": "De = always -e. Een + het-word = no -e."
+        },
+        {
+          "type": "fb",
+          "s": "Het ___ huis. (old)",
+          "a": "oude",
+          "opts": [
+            "oude",
+            "oud",
+            "ouwe",
+            "ouden"
+          ],
+          "hint": "het + adjective = -e (definite)"
+        },
+        {
+          "type": "mc",
+          "q": "'De tuin is mooi.' — why no -e on 'mooi'?",
+          "opts": [
+            "It's a de-word",
+            "It's indefinite",
+            "The adjective is AFTER the noun",
+            "Mooi never changes"
+          ],
+          "ans": "The adjective is AFTER the noun",
+          "hint": "Predicative = no -e. Only BEFORE nouns."
+        },
+        {
+          "type": "mc",
+          "q": "'De rode fiets' — 'rood' became 'rode'. Why one 'o'?",
+          "opts": [
+            "It's irregular",
+            "Open syllable: ro-de, one 'o' = long",
+            "Spelling mistake",
+            "Vowel always drops"
+          ],
+          "ans": "Open syllable: ro-de, one 'o' = long",
+          "hint": "Foundations spelling engine!"
+        },
+        {
+          "type": "fb",
+          "s": "Een ___ kind. (small)",
+          "a": "klein",
+          "opts": [
+            "klein",
+            "kleine",
+            "kleinen",
+            "kleintje"
+          ],
+          "hint": "een + het-word (kind) = no -e"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_big_garden",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_old_house",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l5",
+      "title": "Schoonmaken & Opruimen",
+      "icon": "🧹",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Schoonmaken & Opruimen",
+          "desc": "Dutch housework verbs are almost ALL separable. The verb splits in two: the prefix flies to the end of the sentence. You've seen this with 'aankleden' and 'wakker worden'. Now: the full system, with housework as the playground.",
+          "goals": [
+            "How separable verbs split",
+            "6 separable housework verbs",
+            "Separable verbs with modals",
+            "Word order: prefix at the end"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "✂️ Separable Verbs: The Split",
+          "text": "Some Dutch verbs have a prefix that detaches in main clauses:\n\nopruimen (to tidy up):\nIk ruim de kamer op. = I tidy up the room.\n\nschoonmaken (to clean):\nIk maak de keuken schoon. = I clean the kitchen.\n\nThe prefix (op, schoon, aan, uit, mee...) goes to the END.\nThe verb stays in position 2.\n\nIt's like English 'pick up', 'clean out', 'turn on':\n'I pick the toys UP.' — same logic!\n\n⚠️ With modals, the verb DOESN'T split:\nIk moet de kamer opruimen. (infinitive stays whole)\nIk wil de keuken schoonmaken. (no split)"
+        },
+        {
+          "type": "teach",
+          "nl": "opruimen",
+          "en": "to tidy up / to clean up",
+          "phonetic": "OP-roy-mun",
+          "example": "Ik ruim mijn kamer op.",
+          "exampleEn": "I tidy up my room.",
+          "note": "op + ruimen = to tidy up.\n'Op' goes to the end: 'Ik ruim ... op.'\nVery common word in Dutch households.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "schoonmaken",
+          "en": "to clean",
+          "phonetic": "SGOHN-mah-kun",
+          "example": "Zij maakt de keuken schoon.",
+          "exampleEn": "She cleans the kitchen.",
+          "note": "schoon (clean) + maken (to make) = to clean.\nThe prefix 'schoon' goes to the end.\n'Zij maakt de keuken schoon.'",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "afwassen",
+          "en": "to do the dishes / to wash up",
+          "phonetic": "AF-vas-sun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "wash off"
+              },
+              {
+                "lang": "German",
+                "word": "abwaschen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik was elke avond af.",
+          "exampleEn": "I do the dishes every evening.",
+          "note": "af + wassen = to wash off/away.\nGerman cognate: abwaschen.\n⚠️ 'Ik was af' vs 'Ik was me' — context!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "stofzuigen",
+          "en": "to vacuum",
+          "phonetic": "STOF-zoy-gun",
+          "example": "Hij stofzuigt de woonkamer.",
+          "exampleEn": "He vacuums the living room.",
+          "note": "stof (dust) + zuigen (to suck) = to vacuum.\nLiterally: 'dust-sucking'.\nTechnically separable but rarely split in practice.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "openmaken",
+          "en": "to open",
+          "phonetic": "OH-pun-mah-kun",
+          "example": "Ik maak het raam open.",
+          "exampleEn": "I open the window.",
+          "note": "open + maken = to open (make open).\nAlternative: 'openen' (non-separable).\n'Maak het raam open' is more conversational.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "dichtdoen",
+          "en": "to close / to shut",
+          "phonetic": "DIGT-doon",
+          "example": "Doe de deur dicht.",
+          "exampleEn": "Close the door.",
+          "note": "dicht (closed/shut) + doen (to do) = to close.\nDicht goes to the end: 'Doe de deur dicht.'\n'Doen' you learned in Unit 3!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Split vs No Split",
+          "text": "MAIN CLAUSE (present tense): the verb SPLITS.\nIk ruim de kamer op.\nZij maakt de keuken schoon.\nHij wast de borden af.\n\nWITH A MODAL: the verb stays WHOLE (infinitive).\nIk moet de kamer opruimen.\nZij wil de keuken schoonmaken.\nHij kan de borden afwassen.\n\nThe rule: only the CONJUGATED verb splits.\nInfinitives (after modals) stay in one piece.\n\nThis is the same in German:\nIch räume das Zimmer auf. (splits)\nIch muss das Zimmer aufräumen. (whole)"
+        },
+        {
+          "type": "teach",
+          "nl": "elke",
+          "en": "every / each",
+          "phonetic": "EL-kuh",
+          "example": "Ik ruim elke week op.",
+          "exampleEn": "I tidy up every week.",
+          "note": "'Elke dag' = every day. 'Elke week' = every week.\n'Elke ochtend' = every morning.\nAlways followed by a singular noun.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ruim de kamer op.' — where does 'op' go?",
+          "opts": [
+            "Before the verb",
+            "After 'ik'",
+            "At the end",
+            "Before 'de kamer'"
+          ],
+          "ans": "At the end",
+          "hint": "Separable prefix → end of clause"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ de keuken schoon.",
+          "a": "maakt",
+          "opts": [
+            "maakt",
+            "maakt",
+            "schoon",
+            "schoonmaakt"
+          ],
+          "hint": "She makes the kitchen clean (stam + t)"
+        },
+        {
+          "type": "mc",
+          "q": "With a modal verb, separable verbs:",
+          "opts": [
+            "still split",
+            "stay whole (infinitive)",
+            "lose the prefix",
+            "become irregular"
+          ],
+          "ans": "stay whole (infinitive)",
+          "hint": "Ik MOET de kamer opruimen (no split)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "opruimen",
+              "en": "to tidy up"
+            },
+            {
+              "nl": "schoonmaken",
+              "en": "to clean"
+            },
+            {
+              "nl": "afwassen",
+              "en": "to do the dishes"
+            },
+            {
+              "nl": "stofzuigen",
+              "en": "to vacuum"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik was elke avond {1}. Ik moet de kamer {2}.",
+          "blanks": {
+            "1": "af",
+            "2": "opruimen"
+          },
+          "pool": [
+            "af",
+            "opruimen",
+            "schoon",
+            "op"
+          ],
+          "hint": "Present: splits. Modal: stays whole."
+        },
+        {
+          "type": "fb",
+          "s": "Doe de deur ___!",
+          "a": "dicht",
+          "opts": [
+            "dicht",
+            "doen",
+            "open",
+            "uit"
+          ],
+          "hint": "Close the door!"
+        },
+        {
+          "type": "mc",
+          "q": "'Stofzuigen' literally means:",
+          "opts": [
+            "dust-sucking",
+            "floor-cleaning",
+            "room-sweeping",
+            "carpet-washing"
+          ],
+          "ans": "dust-sucking",
+          "hint": "stof = dust, zuigen = to suck"
+        },
+        {
+          "type": "fb",
+          "s": "Hij ___ elke dag de woonkamer schoon.",
+          "a": "maakt",
+          "opts": [
+            "maakt",
+            "schoonmaakt",
+            "maken",
+            "schoon"
+          ],
+          "hint": "In main clause: verb in pos 2, prefix at end"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik maak het raam open.' — which part is the prefix?",
+          "opts": [
+            "ik",
+            "maak",
+            "het raam",
+            "open"
+          ],
+          "ans": "open",
+          "hint": "openmaken → ik maak ... open"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_tidy_room",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_clean_kitchen",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l6",
+      "title": "Gefeliciteerd!",
+      "icon": "🎂",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Gefeliciteerd!",
+          "desc": "The Dutch birthday is one of the most unique cultural experiences in Europe. You congratulate EVERYONE — the birthday person AND their family. You sit in a circle. There is cake. This lesson teaches the vocabulary and the survival rules for a Dutch verjaardag.",
+          "goals": [
+            "Birthday vocabulary",
+            "Say 'gefeliciteerd' correctly",
+            "The birthday circle ritual",
+            "Dutch birthday customs"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de verjaardag",
+          "en": "the birthday",
+          "phonetic": "fur-YAHR-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Geburtstag (different compound)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Mijn verjaardag is in mei.",
+          "exampleEn": "My birthday is in May.",
+          "note": "De-word. Literally: ver- + jaar + dag = anniversary day.\n'Jaar' = year, 'dag' = day.\nVery different from German 'Geburtstag' (birth-day).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "gefeliciteerd",
+          "en": "congratulations / happy birthday",
+          "phonetic": "guh-fay-lee-see-TEERD",
+          "example": "Gefeliciteerd met je verjaardag!",
+          "exampleEn": "Happy birthday! / Congratulations on your birthday!",
+          "note": "The longest word you've learned so far.\nUsed for birthdays, achievements, EVERYTHING.\n'Gefeliciteerd!' alone is enough.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de taart",
+          "en": "the cake",
+          "phonetic": "duh tahrt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "tart"
+              },
+              {
+                "lang": "German",
+                "word": "Torte"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De taart is lekker!",
+          "exampleEn": "The cake is delicious!",
+          "note": "De-word. Cognate of English 'tart'.\nAt Dutch birthdays: always taart. Always.\nOften: appeltaart (apple pie).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het cadeau",
+          "en": "the gift / present",
+          "phonetic": "hut kah-DOH",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "cadeau"
+              }
+            ],
+            "family": "french"
+          },
+          "example": "Dit cadeau is voor jou.",
+          "exampleEn": "This gift is for you.",
+          "note": "Het-word. Borrowed from French.\nAlso: het kado (simplified spelling — both correct).\n'Voor jou' = for you.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "voor",
+          "en": "for",
+          "phonetic": "vohr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "for"
+              },
+              {
+                "lang": "German",
+                "word": "für"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Dit is voor mijn moeder.",
+          "exampleEn": "This is for my mother.",
+          "note": "Same root as English 'for' and German 'für'.\nAlso means 'before' (in time):\n'voor drie uur' = before three o'clock.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "jarig",
+          "en": "having one's birthday",
+          "phonetic": "YAH-rig",
+          "example": "Wie is er jarig?",
+          "exampleEn": "Who is having their birthday?",
+          "note": "Adjective that means 'having a birthday TODAY'.\nEnglish has no equivalent!\n'Ik ben jarig.' = It's my birthday.\n'Zij is jarig.' = It's her birthday.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 The Dutch Birthday Circle",
+          "text": "The Dutch birthday party is unlike any other in the world.\n\nTHE CIRCLE: Everyone sits in a circle of chairs.\nNot standing. Not mingling. A CIRCLE.\nYou sit, you talk to the people next to you, you eat cake.\n\nTHE CONGRATULATIONS: You congratulate EVERYONE.\nNot just the birthday person, but their family too:\n'Gefeliciteerd met je moeder!' = Congratulations with your mother!\n'Gefeliciteerd met je zoon!' = Congratulations with your son!\n\nYes. You congratulate the mother of the birthday person.\nAnd the sister. And the neighbour. And the colleague.\n\nTHE CAKE: Usually made by the birthday person.\nYes — the birthday person PROVIDES the cake.\nAt work: you bring your own taart on YOUR birthday.\n\nTHE CALENDAR: de verjaardagskalender.\nA calendar in the toilet listing everyone's birthday.\nEvery Dutch home has one. In. The. Toilet.",
+          "deepDive": {
+            "title": "Why congratulate the family?",
+            "text": "This confuses every foreigner.\n\n'Gefeliciteerd met je man!'\n= Congratulations with your husband!\n(said to the wife of the birthday person)\n\nThe logic: the birthday is a happy event for the whole family.\nBy congratulating the family members, you acknowledge\nthat this is THEIR happy event too.\n\nIt's communal joy. It's very Dutch.\n\nThe correct response when congratulated:\n'Dank je wel!' = Thank you!\nEven if it's not YOUR birthday.\nBecause it's your family's special day.\n\nThis is one of those things you just have to experience."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "de verjaardagskalender",
+          "en": "the birthday calendar",
+          "phonetic": "fur-YAHR-dahgs-kah-LEN-dur",
+          "example": "De verjaardagskalender hangt in het toilet.",
+          "exampleEn": "The birthday calendar hangs in the toilet.",
+          "note": "Compound noun: verjaardag + s + kalender.\nHangs in the toilet = 100% true, 100% Dutch.\nEvery family member's birthday is on it.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de kaars",
+          "en": "the candle",
+          "phonetic": "duh kahrs",
+          "example": "Er zijn twaalf kaarsen op de taart.",
+          "exampleEn": "There are twelve candles on the cake.",
+          "note": "De-word. Plural: kaarsen.\nThe Dutch love candles — not just on cakes.\nEvery woonkamer has candles. Gezelligheid!",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "At a Dutch birthday, you congratulate:",
+          "opts": [
+            "only the birthday person",
+            "everyone in the room",
+            "only close family",
+            "nobody — you just say 'happy birthday'"
+          ],
+          "ans": "everyone in the room",
+          "hint": "'Gefeliciteerd met je moeder!'"
+        },
+        {
+          "type": "fb",
+          "s": "___ met je verjaardag!",
+          "a": "Gefeliciteerd",
+          "opts": [
+            "Gefeliciteerd",
+            "Goedemorgen",
+            "Alsjeblieft",
+            "Bedankt"
+          ],
+          "hint": "The birthday phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ben jarig' means:",
+          "opts": [
+            "I am old",
+            "It's my birthday",
+            "I have a gift",
+            "I like cake"
+          ],
+          "ans": "It's my birthday",
+          "hint": "'Jarig' = having your birthday today"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de verjaardag",
+              "en": "the birthday"
+            },
+            {
+              "nl": "de taart",
+              "en": "the cake"
+            },
+            {
+              "nl": "het cadeau",
+              "en": "the gift"
+            },
+            {
+              "nl": "de kaars",
+              "en": "the candle"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Who brings cake on a Dutch birthday at work?",
+          "opts": [
+            "The manager",
+            "The colleagues",
+            "The birthday person themselves",
+            "Nobody — there is no cake"
+          ],
+          "ans": "The birthday person themselves",
+          "hint": "YOU provide YOUR OWN cake"
+        },
+        {
+          "type": "fb",
+          "s": "Dit cadeau is ___ jou.",
+          "a": "voor",
+          "opts": [
+            "voor",
+            "met",
+            "van",
+            "aan"
+          ],
+          "hint": "This gift is FOR you"
+        },
+        {
+          "type": "drag_fill",
+          "s": "De {1} hangt in het toilet. Er zijn twaalf {2} op de taart.",
+          "blanks": {
+            "1": "verjaardagskalender",
+            "2": "kaarsen"
+          },
+          "pool": [
+            "verjaardagskalender",
+            "kaarsen",
+            "cadeau",
+            "taart"
+          ],
+          "hint": "The birthday calendar. Twelve candles."
+        },
+        {
+          "type": "mc",
+          "q": "The verjaardagskalender hangs in:",
+          "opts": [
+            "the kitchen",
+            "the living room",
+            "the toilet",
+            "the hallway"
+          ],
+          "ans": "the toilet",
+          "hint": "Every Dutch home. In the toilet."
+        },
+        {
+          "type": "tr",
+          "mk": "u5_happy_birthday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_gift_for_you",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l7",
+      "title": "Buren & Bezoek",
+      "icon": "🏡",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Buren & Bezoek",
+          "desc": "Visiting someone's home in the Netherlands has its own unwritten rules. This lesson brings together everything from Unit 5 — family, house, possessives, reflexives, adjectives — in a natural social scenario: a neighbour comes over for coffee.",
+          "goals": [
+            "Visiting vocabulary",
+            "Invitation and welcome phrases",
+            "Offer and accept food/drinks",
+            "Mini-dialogue: a neighbor visits"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de buur",
+          "en": "the neighbor",
+          "phonetic": "duh buwr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "neighbor (boor = dweller)"
+              },
+              {
+                "lang": "German",
+                "word": "Nachbar"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Onze buur is aardig.",
+          "exampleEn": "Our neighbor is nice.",
+          "note": "De-word. Plural: buren.\nAlso: de buurman (male), de buurvrouw (female).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "op bezoek",
+          "en": "visiting / on a visit",
+          "phonetic": "op buh-ZOOK",
+          "example": "De buren komen op bezoek.",
+          "exampleEn": "The neighbors are coming to visit.",
+          "note": "'Op bezoek komen' = to come visit.\n'Op bezoek gaan' = to go visit.\n'Bezoek' = visit (het bezoek).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "binnenkomen",
+          "en": "to come in / to enter",
+          "phonetic": "BIN-nun-koh-mun",
+          "example": "Kom binnen!",
+          "exampleEn": "Come in!",
+          "note": "Separable: binnen + komen.\n'Kom binnen!' = Come in! (invitation)\nThe most welcoming phrase in Dutch.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zitten",
+          "en": "to sit",
+          "phonetic": "ZIT-tun",
+          "example": "Ga zitten!",
+          "exampleEn": "Have a seat! (Lit: Go sit!)",
+          "note": "You learned this in Unit 4.\n'Ga zitten' = Go sit / Have a seat.\nUsed when welcoming someone into your home.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "iets",
+          "en": "something",
+          "phonetic": "eets",
+          "example": "Wil je iets drinken?",
+          "exampleEn": "Would you like something to drink?",
+          "note": "Very useful small word.\n'Iets drinken?' = Something to drink?\n'Iets eten?' = Something to eat?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "lekker",
+          "en": "tasty / nice / delicious",
+          "phonetic": "LEK-kur",
+          "also": "also means 'nice/pleasant' in general: 'lekker weer' = nice weather, 'lekker slapen' = sleep well",
+          "example": "De koffie is lekker!",
+          "exampleEn": "The coffee is tasty!",
+          "note": "The most Dutch word in existence.\nMeaning 1: tasty (food/drink)\nMeaning 2: pleasant/nice (weather, sleep, everything)\n'Lekker!' on its own = 'Yum!' or 'Nice!'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gezellig",
+          "en": "cosy / sociable / pleasant (untranslatable)",
+          "phonetic": "guh-ZEL-lig",
+          "example": "Het is gezellig hier!",
+          "exampleEn": "It's gezellig here! (cosy/nice atmosphere)",
+          "note": "THE untranslatable Dutch word.\nCosy + social + warm + pleasant + togetherness.\nA candle-lit room with friends and cake = gezellig.\nA lonely walk in the rain = NOT gezellig.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🏡 A Neighbour Comes Over: The Dialogue",
+          "text": "A: (rings doorbell)\nB: Hallo! Kom binnen! = Hello! Come in!\nA: Bedankt! Wat een mooi huis! = Thanks! What a nice house!\nB: Dank je wel. Ga zitten! = Thank you. Have a seat!\nB: Wil je iets drinken? = Would you like something to drink?\nA: Ja, graag! Een kopje koffie. = Yes please! A cup of coffee.\nB: Met melk? = With milk?\nA: Nee, zwart, alsjeblieft. = No, black, please.\nB: (gives coffee) Alsjeblieft!\nA: Dank je. Mmm, lekker! = Thanks. Mmm, tasty!\nB: Wil je een stukje taart? = Want a piece of cake?\nA: Ja! Het is heel gezellig hier. = Yes! It's very gezellig here.\n\nThis is THE Dutch home visit. Coffee + cake + gezelligheid.",
+          "deepDive": {
+            "title": "Visiting rules in the Netherlands",
+            "text": "1. ALWAYS accept the coffee. Refusing is awkward.\n2. The host offers — you don't help yourself.\n3. ONE cookie/slice. Wait to be offered a second.\n   The Dutch are generous but structured.\n4. Don't overstay. 1.5-2 hours is a good visit.\n5. Comment on the house: 'Wat een mooi huis!'\n   This is expected and appreciated.\n6. 'Gezellig' is the highest compliment you can give.\n   'Het was heel gezellig!' = It was really pleasant!\n   Say this when leaving. Always."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "het stukje",
+          "en": "the piece (small)",
+          "phonetic": "hut STUK-yuh",
+          "example": "Een stukje taart, alsjeblieft.",
+          "exampleEn": "A piece of cake, please.",
+          "note": "Diminutive of 'stuk' (piece).\n'Een stukje taart' = a (small) piece of cake.\nUsing the diminutive is polite — you're not asking for a lot.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Gezellig' is best translated as:",
+          "opts": [
+            "happy",
+            "cosy + social + warm + pleasant",
+            "beautiful",
+            "funny"
+          ],
+          "ans": "cosy + social + warm + pleasant",
+          "hint": "There IS no single English word"
+        },
+        {
+          "type": "fb",
+          "s": "Kom ___! Ga zitten!",
+          "a": "binnen",
+          "opts": [
+            "binnen",
+            "hier",
+            "in",
+            "op"
+          ],
+          "hint": "Come IN! (separable: binnenkomen)"
+        },
+        {
+          "type": "mc",
+          "q": "When visiting a Dutch home, you should:",
+          "opts": [
+            "help yourself to drinks",
+            "refuse coffee to be polite",
+            "accept the coffee and compliment the house",
+            "bring your own food"
+          ],
+          "ans": "accept the coffee and compliment the house",
+          "hint": "Always accept. Always compliment."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de buur",
+              "en": "the neighbor"
+            },
+            {
+              "nl": "op bezoek",
+              "en": "visiting"
+            },
+            {
+              "nl": "gezellig",
+              "en": "cosy/pleasant"
+            },
+            {
+              "nl": "het stukje",
+              "en": "the small piece"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wil je {1} drinken? Een {2} koffie?",
+          "blanks": {
+            "1": "iets",
+            "2": "kopje"
+          },
+          "pool": [
+            "iets",
+            "kopje",
+            "een",
+            "lekker"
+          ],
+          "hint": "Something to drink? A cup of coffee?"
+        },
+        {
+          "type": "fb",
+          "s": "De koffie is ___!",
+          "a": "lekker",
+          "opts": [
+            "lekker",
+            "gezellig",
+            "mooi",
+            "groot"
+          ],
+          "hint": "Tasty/delicious — for food and drinks"
+        },
+        {
+          "type": "mc",
+          "q": "'Lekker' can mean all of these EXCEPT:",
+          "opts": [
+            "tasty (food)",
+            "nice (weather)",
+            "pleasant (sleep)",
+            "expensive (price)"
+          ],
+          "ans": "expensive (price)",
+          "hint": "Lekker = tasty/nice/pleasant, never expensive"
+        },
+        {
+          "type": "fb",
+          "s": "Het was heel ___ hier! (said when leaving)",
+          "a": "gezellig",
+          "opts": [
+            "gezellig",
+            "lekker",
+            "mooi",
+            "goed"
+          ],
+          "hint": "The highest Dutch compliment for a visit"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_come_in",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_something_drink",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u5l8",
+      "title": "Unit 5 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 5: Alles Samen",
+          "desc": "Family, house, reflexive verbs, adjective agreement, separable verbs, birthdays, visiting — all of Unit 5 mixed together. The scenario: a family birthday gathering at oma's house.",
+          "goals": [
+            "Family vocabulary",
+            "All possessives (mijn through hun)",
+            "Reflexive verbs in context",
+            "Adjective -e rule",
+            "Separable verbs",
+            "Birthday and visiting culture"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 What You Know Now",
+          "text": "After Unit 5 you can:\n\n• Name all family members\n• Use ALL possessives (mijn, jouw, zijn, haar, uw, ons/onze, jullie, hun)\n• Describe your morning with reflexive verbs\n• Add -e to adjectives correctly (and know the ONE exception)\n• Use separable verbs (split in main clause, whole with modals)\n• Survive a Dutch birthday\n• Visit someone's home politely\n• Use 'gezellig' and 'lekker' like a local\n\nThat's a full family life in Dutch. Let's test it."
+        },
+        {
+          "type": "mc",
+          "q": "'Ons huis' but 'onze tuin' — because:",
+          "opts": [
+            "huis is a het-word, tuin is a de-word",
+            "huis is bigger",
+            "tuin is plural",
+            "there's no rule, it's random"
+          ],
+          "ans": "huis is a het-word, tuin is a de-word",
+          "hint": "ons + het-word, onze + de-word"
+        },
+        {
+          "type": "fb",
+          "s": "___ kinderen zijn jarig. (their)",
+          "a": "Hun",
+          "opts": [
+            "Hun",
+            "Haar",
+            "Zijn",
+            "Onze"
+          ],
+          "hint": "Their children..."
+        },
+        {
+          "type": "mc",
+          "q": "'Een groot huis' — no -e because:",
+          "opts": [
+            "groot never changes",
+            "it's after the noun",
+            "een + het-word = no -e",
+            "huis is special"
+          ],
+          "ans": "een + het-word = no -e",
+          "hint": "The one adjective exception"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de vader",
+              "en": "father"
+            },
+            {
+              "nl": "de dochter",
+              "en": "daughter"
+            },
+            {
+              "nl": "de broer",
+              "en": "brother"
+            },
+            {
+              "nl": "het kind",
+              "en": "child"
+            }
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Ik voel ___ goed.",
+          "a": "me",
+          "opts": [
+            "me",
+            "mij",
+            "zich",
+            "je"
+          ],
+          "hint": "I feel MYSELF good"
+        },
+        {
+          "type": "mc",
+          "q": "In 'Ik kleed me aan', which part is the separable prefix?",
+          "opts": [
+            "ik",
+            "kleed",
+            "me",
+            "aan"
+          ],
+          "ans": "aan",
+          "hint": "aankleden splits: kleed...aan"
+        },
+        {
+          "type": "drag_fill",
+          "s": "De {1} keuken. Een {2} huis.",
+          "blanks": {
+            "1": "nieuwe",
+            "2": "oud"
+          },
+          "pool": [
+            "nieuwe",
+            "oud",
+            "nieuw",
+            "oude"
+          ],
+          "hint": "De-word: -e. Een + het-word: no -e."
+        },
+        {
+          "type": "mc",
+          "q": "At a Dutch birthday, the birthday person:",
+          "opts": [
+            "receives cake from guests",
+            "brings their own cake",
+            "doesn't eat cake",
+            "buys cake for the office"
+          ],
+          "ans": "brings their own cake",
+          "hint": "YOU provide YOUR cake"
+        },
+        {
+          "type": "fb",
+          "s": "___ met je verjaardag!",
+          "a": "Gefeliciteerd",
+          "opts": [
+            "Gefeliciteerd",
+            "Goedemiddag",
+            "Bedankt",
+            "Alsjeblieft"
+          ],
+          "hint": "Happy birthday / Congratulations!"
+        },
+        {
+          "type": "mc",
+          "q": "The verjaardagskalender hangs in:",
+          "opts": [
+            "the kitchen",
+            "the bedroom",
+            "the toilet",
+            "the living room"
+          ],
+          "ans": "the toilet",
+          "hint": "Every Dutch home. Always."
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ de keuken schoon.",
+          "a": "maakt",
+          "opts": [
+            "maakt",
+            "schoonmaakt",
+            "schoon",
+            "maken"
+          ],
+          "hint": "Separable: verb in pos 2, prefix at end"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik moet de kamer {1}. Ik ruim mijn kamer {2}.",
+          "blanks": {
+            "1": "opruimen",
+            "2": "op"
+          },
+          "pool": [
+            "opruimen",
+            "op",
+            "schoon",
+            "uit"
+          ],
+          "hint": "With modal: whole. Main clause: splits."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "gezellig",
+              "en": "cosy/pleasant"
+            },
+            {
+              "nl": "lekker",
+              "en": "tasty/nice"
+            },
+            {
+              "nl": "jarig",
+              "en": "having birthday"
+            },
+            {
+              "nl": "getrouwd",
+              "en": "married"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Wil je iets drinken?' is what a Dutch host always asks. You should:",
+          "opts": [
+            "refuse politely",
+            "accept gratefully",
+            "ask what they have",
+            "bring your own"
+          ],
+          "ans": "accept gratefully",
+          "hint": "Always accept the coffee!"
+        },
+        {
+          "type": "fb",
+          "s": "Het was heel ___ hier!",
+          "a": "gezellig",
+          "opts": [
+            "gezellig",
+            "lekker",
+            "goed",
+            "mooi"
+          ],
+          "hint": "The best compliment when leaving someone's home"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} vader werkt. {2} moeder is jarig.",
+          "blanks": {
+            "1": "Mijn",
+            "2": "Haar"
+          },
+          "pool": [
+            "Mijn",
+            "Haar",
+            "Het",
+            "De"
+          ],
+          "hint": "MY father works. HER mother has a birthday."
+        },
+        {
+          "type": "mc",
+          "q": "'Doe maar normaal' means:",
+          "opts": [
+            "Do it again",
+            "Just be normal",
+            "Do it better",
+            "Be more Dutch"
+          ],
+          "ans": "Just be normal",
+          "hint": "The Dutch motto for everything"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_feel_good",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_happy_birthday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u5_our_house_small",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

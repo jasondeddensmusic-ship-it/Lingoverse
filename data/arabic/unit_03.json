@@ -1,0 +1,208 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 3,
+    "lang": "ar",
+    "title": "الأرقام",
+    "sub": "Numbers 1-10",
+    "icon": "🔢",
+    "level": "A1.1",
+    "color": "#4169E1",
+    "objectives": [
+      "ok_count_basic"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "aru3l1",
+      "title": "واحد اثنان ثلاثة 🔢",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Numbers 1-5 🔢",
+          "desc": "Your first Arabic numbers — from one to five.",
+          "goals": [
+            "Numbers 1-5",
+            "Pronunciation",
+            "Using numbers"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "واحد",
+          "en": "one (1)",
+          "img": "1️⃣☝️",
+          "phonetic": "WAA-hid",
+          "example": "واحد، اثنان، ثلاثة!",
+          "exampleEn": "One, two, three!",
+          "note": "Arabic numerals (1,2,3) actually COME from Arabic! Modern Arabic uses both: ١٢٣ (Eastern) or 123 (Western).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "اثنان",
+          "en": "two (2)",
+          "img": "2️⃣✌️",
+          "phonetic": "ith-NAAN",
+          "example": "اثنان قهوة من فضلك",
+          "exampleEn": "Two coffees please.",
+          "note": "Arabic has a special 'dual' — when there are exactly TWO of something, it uses a special suffix.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "ثلاثة",
+          "en": "three (3)",
+          "img": "3️⃣🤟",
+          "phonetic": "tha-LAA-tha",
+          "example": "ثلاثة كتب",
+          "exampleEn": "Three books.",
+          "note": "Starts with 'ث' (thaa) — the 'th' like English 'three'. Same ancient language family!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "أربعة",
+          "en": "four (4)",
+          "img": "4️⃣🍀",
+          "phonetic": "ar-BA-a",
+          "example": "أربعة أشخاص",
+          "exampleEn": "Four people.",
+          "note": "The 'ع' (ayn) at the end — a unique Arabic sound made deep in the throat.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "خمسة",
+          "en": "five (5)",
+          "img": "5️⃣🖐️",
+          "phonetic": "KHAM-sa",
+          "example": "خمسة دنانير",
+          "exampleEn": "Five dinars.",
+          "note": "'خ' (khaa) is the throaty sound — like clearing your throat gently. Similar to Dutch 'G'!",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "Which is 'three' in Arabic?",
+          "opts": [
+            "واحد",
+            "اثنان",
+            "ثلاثة",
+            "أربعة"
+          ],
+          "ans": "ثلاثة",
+          "hint": "Same ancient root as English 'three'!"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_num_1",
+            "ar_num_2",
+            "ar_num_3",
+            "ar_num_4"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "ar_num_5",
+          "dir": "comprehend"
+        },
+        {
+          "type": "mc",
+          "q": "'خمسة كتب' means:",
+          "opts": [
+            "Five books",
+            "Five people",
+            "Five waters",
+            "Five houses"
+          ],
+          "ans": "Five books",
+          "hint": "كتب = books"
+        }
+      ]
+    },
+    {
+      "id": "aru3l2",
+      "title": "ستة إلى عشرة 🔟",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Numbers 6-10 🔟",
+          "desc": "Complete your first ten — now you can count, shop, and order!",
+          "goals": [
+            "Numbers 6-10",
+            "Shopping phrases",
+            "Number practice"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ستة",
+          "en": "six (6)",
+          "img": "6️⃣🎲",
+          "phonetic": "SIT-ta",
+          "example": "ستة أيام",
+          "exampleEn": "Six days.",
+          "note": "The weekend in Arab countries is typically Friday-Saturday, not Saturday-Sunday.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "سبعة",
+          "en": "seven (7)",
+          "img": "7️⃣🌈",
+          "phonetic": "SAB-a",
+          "example": "سبعة أيام في الأسبوع",
+          "exampleEn": "Seven days in the week.",
+          "note": "The 'ع' (ayn) appears again — practice this signature Arabic sound.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "عشرة",
+          "en": "ten (10)",
+          "img": "🔟🎯",
+          "phonetic": "A-sha-ra",
+          "example": "عشرة دقائق",
+          "exampleEn": "Ten minutes.",
+          "note": "Now you can count 1-10! In markets, hold up fingers and say the number.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🔢 Arabic Numerals",
+          "text": "The '1,2,3' numerals used worldwide came to Europe through Arab mathematicians!\n\nArabic-speaking countries use TWO systems:\nWestern: 1 2 3 4 5 6 7 8 9 10\nEastern: ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠\n\nNumbers are read LEFT to RIGHT even though Arabic text is RIGHT to LEFT!"
+        },
+        {
+          "type": "mc",
+          "q": "عشرة means:",
+          "opts": [
+            "six",
+            "eight",
+            "nine",
+            "ten"
+          ],
+          "ans": "ten"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_num_5",
+            "ar_num_10",
+            "ar_num_3",
+            "ar_num_1"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "ar_num_10",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

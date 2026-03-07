@@ -1,0 +1,3031 @@
+{
+  "_schema": "lingoverse_dictionary_v1",
+  "_extracted": "2026-03-07",
+  "lang": "ko",
+  "entries": {
+    "저": {
+      "base": "I / me (polite)",
+      "morph": "Native Korean",
+      "particle": "는 (topic) / 가 (subject) / 를 (object)",
+      "uses": [
+        {
+          "k": "저는 학생이에요.",
+          "e": "I am a student."
+        },
+        {
+          "k": "저를 도와주세요.",
+          "e": "Please help me."
+        },
+        {
+          "k": "저도 몰라요.",
+          "e": "I don't know either."
+        }
+      ],
+      "note": "Formal/polite 'I'. Use with elders and strangers. Casual form: 나 (Unit 10).",
+      "level": "A1"
+    },
+    "나": {
+      "base": "I / me (casual)",
+      "morph": "Native Korean",
+      "particle": "는 / 가 / 를",
+      "uses": [
+        {
+          "k": "나는 학생이야.",
+          "e": "I'm a student. (casual)"
+        },
+        {
+          "k": "나도 갈게.",
+          "e": "I'll go too. (casual)"
+        },
+        {
+          "k": "나한테 줘.",
+          "e": "Give it to me. (casual)"
+        }
+      ],
+      "note": "Casual 'I'. Only use with close friends, younger people, or kids. Never with elders.",
+      "level": "A1"
+    },
+    "우리": {
+      "base": "our / my (collective)",
+      "morph": "Native Korean — collectivist pronoun",
+      "particle": "의 (possessive, often dropped)",
+      "uses": [
+        {
+          "k": "우리 엄마가 요리해요.",
+          "e": "My mom cooks."
+        },
+        {
+          "k": "우리 학교는 커요.",
+          "e": "My/our school is big."
+        },
+        {
+          "k": "우리 나라가 좋아요.",
+          "e": "I love my country."
+        }
+      ],
+      "note": "Koreans say 우리 엄마 (our mom) where English says 'my mom'. Reflects group-first culture.",
+      "level": "A1"
+    },
+    "제": {
+      "base": "my (polite)",
+      "morph": "저 + 의 contracted",
+      "particle": "— (possessive prefix)",
+      "uses": [
+        {
+          "k": "제 이름은 사라예요.",
+          "e": "My name is Sara."
+        },
+        {
+          "k": "제 가방이 없어요.",
+          "e": "My bag is gone."
+        },
+        {
+          "k": "제 생각에는요...",
+          "e": "In my opinion..."
+        }
+      ],
+      "note": "Polite possessive. 제 = 저의 contracted. Use with elders and strangers.",
+      "level": "A1"
+    },
+    "이것": {
+      "base": "this (thing)",
+      "morph": "이 (this/near speaker) + 것 (thing)",
+      "particle": "은/는 이 / 이/가 / 을/를",
+      "uses": [
+        {
+          "k": "이것은 뭐예요?",
+          "e": "What is this?"
+        },
+        {
+          "k": "이것을 주세요.",
+          "e": "Please give me this."
+        },
+        {
+          "k": "이것이 제 책이에요.",
+          "e": "This is my book."
+        }
+      ],
+      "note": "것 is one of the most frequent Korean words. 이것/그것/저것 = 3-level distance system.",
+      "level": "A1"
+    },
+    "그것": {
+      "base": "that (thing near you)",
+      "morph": "그 (that/near listener) + 것 (thing)",
+      "particle": "은/는 / 이/가 / 을/를",
+      "uses": [
+        {
+          "k": "그것이 뭐예요?",
+          "e": "What is that (near you)?"
+        },
+        {
+          "k": "그것 주세요.",
+          "e": "Please give me that."
+        },
+        {
+          "k": "그것도 있어요.",
+          "e": "That is also available."
+        }
+      ],
+      "note": "그 = near the listener (2nd person). English collapses 이/그/저 into just 'this/that'.",
+      "level": "A1"
+    },
+    "저것": {
+      "base": "that (thing over there)",
+      "morph": "저 (that/far) + 것 (thing)",
+      "particle": "은/는 / 이/가 / 을/를",
+      "uses": [
+        {
+          "k": "저것은 뭐예요?",
+          "e": "What is that over there?"
+        },
+        {
+          "k": "저것이 더 싸요.",
+          "e": "That over there is cheaper."
+        },
+        {
+          "k": "저것 좀 보여주세요.",
+          "e": "Please show me that."
+        }
+      ],
+      "note": "저 = far from both speaker and listener. The 3rd level English lacks.",
+      "level": "A1"
+    },
+    "있어요": {
+      "base": "there is / I have / is (at location)",
+      "morph": "있다 (to exist) + 어요 (polite ending)",
+      "particle": "이/가 있어요 (subject), 에 있어요 (location)",
+      "uses": [
+        {
+          "k": "커피가 있어요.",
+          "e": "There is coffee."
+        },
+        {
+          "k": "저는 차가 있어요.",
+          "e": "I have a car."
+        },
+        {
+          "k": "선생님이 교실에 있어요.",
+          "e": "The teacher is in the classroom."
+        }
+      ],
+      "note": "있다 does the job of 3 English verbs: 'there is', 'I have', 'someone is somewhere'.",
+      "level": "A1"
+    },
+    "없어요": {
+      "base": "there is not / I don't have / is not (at location)",
+      "morph": "없다 (to not exist) + 어요 (polite ending)",
+      "particle": "이/가 없어요 / 에 없어요",
+      "uses": [
+        {
+          "k": "시간이 없어요.",
+          "e": "There is no time."
+        },
+        {
+          "k": "차가 없어요.",
+          "e": "I don't have a car."
+        },
+        {
+          "k": "화장실이 없어요?",
+          "e": "There's no bathroom?"
+        }
+      ],
+      "note": "Exact inverse of 있어요. Pair them in memory: 있다 ↔ 없다.",
+      "level": "A1"
+    },
+    "있다": {
+      "base": "to exist / to have (dictionary form)",
+      "morph": "있 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 있다 / 에 있다",
+      "uses": [
+        {
+          "k": "커피가 있어요.",
+          "e": "There is coffee."
+        },
+        {
+          "k": "저는 차가 있어요.",
+          "e": "I have a car."
+        },
+        {
+          "k": "집에 있어요.",
+          "e": "I'm at home."
+        }
+      ],
+      "note": "Dictionary form. Powers 3 English meanings: 'there is', 'I have', 'is somewhere'.",
+      "level": "A1"
+    },
+    "없다": {
+      "base": "to not exist / to not have (dictionary form)",
+      "morph": "없 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 없다",
+      "uses": [
+        {
+          "k": "시간이 없어요.",
+          "e": "There is no time."
+        },
+        {
+          "k": "돈이 없어요.",
+          "e": "I have no money."
+        },
+        {
+          "k": "화장실이 없어요?",
+          "e": "There's no bathroom?"
+        }
+      ],
+      "note": "Exact inverse of 있다. Irregular stem 없 is indivisible. Builds: 재미없다, 맛없다.",
+      "level": "A1"
+    },
+    "이에요": {
+      "base": "am / is / are (after consonant)",
+      "morph": "이 (copula) + 에요 (polite suffix)",
+      "particle": "[noun]이에요",
+      "uses": [
+        {
+          "k": "학생이에요.",
+          "e": "I'm a student."
+        },
+        {
+          "k": "책이에요.",
+          "e": "It's a book."
+        },
+        {
+          "k": "서울이에요.",
+          "e": "It's Seoul."
+        }
+      ],
+      "note": "Use after a noun ending in a CONSONANT. 'Copula' = the verb to-be. The verb ALWAYS goes last.",
+      "level": "A1"
+    },
+    "예요": {
+      "base": "am / is / are (after vowel)",
+      "morph": "이에요 contracted when stem ends in vowel",
+      "particle": "[noun]예요",
+      "uses": [
+        {
+          "k": "엠마예요.",
+          "e": "I'm Emma."
+        },
+        {
+          "k": "커피예요.",
+          "e": "It's coffee."
+        },
+        {
+          "k": "카페예요.",
+          "e": "It's a café."
+        }
+      ],
+      "note": "Same meaning as 이에요 — use after nouns ending in a VOWEL. The -요 is always the polite marker.",
+      "level": "A1"
+    },
+    "아니에요": {
+      "base": "am not / is not",
+      "morph": "아니다 (to not be) + 에요 (polite)",
+      "particle": "[noun]이/가 아니에요",
+      "uses": [
+        {
+          "k": "학생이 아니에요.",
+          "e": "I'm not a student."
+        },
+        {
+          "k": "이게 아니에요.",
+          "e": "It's not this."
+        },
+        {
+          "k": "거짓말이 아니에요.",
+          "e": "It's not a lie."
+        }
+      ],
+      "note": "The subject before 아니에요 takes 이/가 (not 은/는). 아니요 (standalone 'no') is different.",
+      "level": "A1"
+    },
+    "해요": {
+      "base": "do / does",
+      "morph": "하다 (to do) + 아요 → 해요 (contraction)",
+      "particle": "[noun]을/를 해요",
+      "uses": [
+        {
+          "k": "공부해요.",
+          "e": "I study."
+        },
+        {
+          "k": "뭐 해요?",
+          "e": "What are you doing?"
+        },
+        {
+          "k": "운동해요.",
+          "e": "I exercise."
+        }
+      ],
+      "note": "하다 + 어요 contracts to 해요. Most -하다 verbs conjugate this way.",
+      "level": "A1"
+    },
+    "가요": {
+      "base": "go / goes",
+      "morph": "가다 (to go) + 아요 → 가요",
+      "particle": "에 가요 (destination)",
+      "uses": [
+        {
+          "k": "학교에 가요.",
+          "e": "I go to school."
+        },
+        {
+          "k": "어디 가요?",
+          "e": "Where are you going?"
+        },
+        {
+          "k": "같이 가요.",
+          "e": "Let's go together."
+        }
+      ],
+      "note": "가다 stem is 가 (pure vowel). Add 요 directly → 가요. One of the most used Korean verbs.",
+      "level": "A1"
+    },
+    "와요": {
+      "base": "come / comes",
+      "morph": "오다 (to come) + 아요 → 와요 (contraction)",
+      "particle": "에 와요 / 에서 와요",
+      "uses": [
+        {
+          "k": "학교에 와요.",
+          "e": "(I/you) come to school."
+        },
+        {
+          "k": "어디서 와요?",
+          "e": "Where do you come from?"
+        },
+        {
+          "k": "빨리 와요!",
+          "e": "Come quickly!"
+        }
+      ],
+      "note": "오 + 아요 contracts to 와요. Irregular-looking but follows the vowel harmony rule.",
+      "level": "A1"
+    },
+    "먹어요": {
+      "base": "eat / eats",
+      "morph": "먹다 (to eat) + 어요",
+      "particle": "을/를 먹어요",
+      "uses": [
+        {
+          "k": "밥을 먹어요.",
+          "e": "I eat rice/a meal."
+        },
+        {
+          "k": "뭐 먹어요?",
+          "e": "What are you eating?"
+        },
+        {
+          "k": "잘 먹겠습니다.",
+          "e": "I will eat well. (before meal)"
+        }
+      ],
+      "note": "먹 stem ends in dark vowel ㅓ → takes -어요. One of the highest-frequency Korean verbs.",
+      "level": "A1"
+    },
+    "마셔요": {
+      "base": "drink / drinks",
+      "morph": "마시다 (to drink) + 어요 → 마셔요",
+      "particle": "을/를 마셔요",
+      "uses": [
+        {
+          "k": "커피를 마셔요.",
+          "e": "I drink coffee."
+        },
+        {
+          "k": "물을 마셔요.",
+          "e": "I drink water."
+        },
+        {
+          "k": "뭐 마셔요?",
+          "e": "What are you drinking?"
+        }
+      ],
+      "note": "마시 + 어 contracts to 마셔. 이+어 → 여 is a standard Korean contraction.",
+      "level": "A1"
+    },
+    "알아요": {
+      "base": "know",
+      "morph": "알다 (to know) + 아요 → 알아요",
+      "particle": "을/를 알아요 / [clause] 알아요",
+      "uses": [
+        {
+          "k": "알아요.",
+          "e": "I know. / I understand."
+        },
+        {
+          "k": "그 사람 알아요?",
+          "e": "Do you know that person?"
+        },
+        {
+          "k": "뭐 알아요?",
+          "e": "What do you know?"
+        }
+      ],
+      "note": "알다 is ㄹ-irregular in some forms but 알아요 is regular. Pair with 몰라요 (don't know).",
+      "level": "A1"
+    },
+    "몰라요": {
+      "base": "don't know",
+      "morph": "모르다 (to not know) → 몰라요 (ㄹ contraction)",
+      "particle": "을/를 몰라요 / [clause] 몰라요",
+      "uses": [
+        {
+          "k": "몰라요.",
+          "e": "I don't know."
+        },
+        {
+          "k": "그 사람을 몰라요.",
+          "e": "I don't know that person."
+        },
+        {
+          "k": "진짜 몰라요.",
+          "e": "I really don't know."
+        }
+      ],
+      "note": "⚡ JRTF: 모르다 → 몰라요, NOT 모르어요. The stem transforms. Full pattern in Unit 13.",
+      "level": "A1"
+    },
+    "주세요": {
+      "base": "please give (me)",
+      "morph": "주다 (give) + 세요 (polite request suffix)",
+      "particle": "[thing]을/를 주세요",
+      "uses": [
+        {
+          "k": "물 주세요.",
+          "e": "Water, please."
+        },
+        {
+          "k": "메뉴 주세요.",
+          "e": "Menu, please."
+        },
+        {
+          "k": "영수증 주세요.",
+          "e": "Receipt, please."
+        }
+      ],
+      "note": "주다 → 주세요 = 'please give'. The most useful single request phrase in Korean.",
+      "level": "A1"
+    },
+    "좋아요": {
+      "base": "good / I like",
+      "morph": "좋다 (to be good) + 아요",
+      "particle": "이/가 좋아요",
+      "uses": [
+        {
+          "k": "이게 좋아요.",
+          "e": "This is good. / I like this."
+        },
+        {
+          "k": "뭐가 좋아요?",
+          "e": "What do you like?"
+        },
+        {
+          "k": "날씨가 좋아요.",
+          "e": "The weather is good."
+        }
+      ],
+      "note": "좋다 means BOTH 'to be good' and 'to like'. 좋아요 = 'is good' and '(I) like (it)'.",
+      "level": "A1"
+    },
+    "싫어요": {
+      "base": "dislike / don't want",
+      "morph": "싫다 (to dislike) + 어요",
+      "particle": "이/가 싫어요",
+      "uses": [
+        {
+          "k": "이거 싫어요.",
+          "e": "I don't like this."
+        },
+        {
+          "k": "밥 싫어요.",
+          "e": "I don't want rice."
+        },
+        {
+          "k": "공부가 싫어요.",
+          "e": "I dislike studying."
+        }
+      ],
+      "note": "Stronger than 안 좋아요 (not good). More emotional/direct expression of dislike.",
+      "level": "A1"
+    },
+    "해요체": {
+      "base": "polite speech level",
+      "morph": "해요 (do-politely) + 체 (style/body)",
+      "particle": "—",
+      "uses": [
+        {
+          "k": "해요체를 써요.",
+          "e": "I use polite speech."
+        },
+        {
+          "k": "해요체가 제일 안전해요.",
+          "e": "Polite speech is the safest."
+        },
+        {
+          "k": "해요체로 말하세요.",
+          "e": "Please speak in the polite style."
+        }
+      ],
+      "note": "The 7 Korean speech levels. 해요체 is the safe default for ALL adult interactions.",
+      "level": "A1"
+    },
+    "안": {
+      "base": "inside / within",
+      "morph": "Native Korean",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "가방 안에 있어요.",
+          "e": "It's inside the bag."
+        },
+        {
+          "k": "집 안에 있어요.",
+          "e": "It's inside the house."
+        },
+        {
+          "k": "안으로 들어오세요.",
+          "e": "Please come inside."
+        }
+      ],
+      "note": "안 ↔ 밖 (outside). DIFFERENT from 안 (negation). Context tells you which 안 it is.",
+      "level": "A1"
+    },
+    "못": {
+      "base": "cannot (inability)",
+      "morph": "Native Korean — adverb",
+      "particle": "못 + [verb]",
+      "uses": [
+        {
+          "k": "못 가요.",
+          "e": "I can't go. (unable)"
+        },
+        {
+          "k": "못 먹어요.",
+          "e": "I can't eat it. (allergy/physical)"
+        },
+        {
+          "k": "못 해요.",
+          "e": "I can't do it."
+        }
+      ],
+      "note": "못 = physical/circumstantial inability. 안 = won't. The distinction matters in Korean.",
+      "level": "A1"
+    },
+    "지않아요": {
+      "base": "do not (formal negation)",
+      "morph": "지 않다 (verb suffix + not-do) + 아요",
+      "particle": "[verb stem] + 지 않아요",
+      "uses": [
+        {
+          "k": "가지 않아요.",
+          "e": "I do not go. (formal)"
+        },
+        {
+          "k": "먹지 않아요.",
+          "e": "I do not eat."
+        },
+        {
+          "k": "이해하지 않아요.",
+          "e": "I do not understand."
+        }
+      ],
+      "note": "More formal/emphatic than 안. Used in writing, formal speech. Same meaning as 안 + verb.",
+      "level": "A1"
+    },
+    "지못해요": {
+      "base": "cannot (formal inability)",
+      "morph": "지 못하다 (verb suffix + unable-to-do) + 아요",
+      "particle": "[verb stem] + 지 못해요",
+      "uses": [
+        {
+          "k": "가지 못해요.",
+          "e": "I cannot go."
+        },
+        {
+          "k": "먹지 못해요.",
+          "e": "I cannot eat."
+        },
+        {
+          "k": "이해하지 못해요.",
+          "e": "I cannot understand."
+        }
+      ],
+      "note": "Formal version of 못 + verb. 수영을 못해요 = 수영하지 못해요. Same meaning, different register.",
+      "level": "A1"
+    },
+    "은": {
+      "base": "topic marker (after consonant)",
+      "morph": "은 — topic particle",
+      "particle": "[consonant-ending noun] + 은",
+      "uses": [
+        {
+          "k": "밥은 맛있어요.",
+          "e": "As for rice, it's delicious."
+        },
+        {
+          "k": "저는 학생이에요.",
+          "e": "As for me, I'm a student."
+        },
+        {
+          "k": "오늘은 바빠요.",
+          "e": "As for today, I'm busy."
+        }
+      ],
+      "note": "Sets the topic. Implies contrast: '저는 (not you)'. After vowels → 는.",
+      "level": "A1"
+    },
+    "는": {
+      "base": "topic marker (after vowel)",
+      "morph": "는 — topic particle",
+      "particle": "[vowel-ending noun] + 는",
+      "uses": [
+        {
+          "k": "저는 학생이에요.",
+          "e": "I am a student."
+        },
+        {
+          "k": "커피는 비싸요.",
+          "e": "As for coffee, it's expensive."
+        },
+        {
+          "k": "한국어는 재미있어요.",
+          "e": "As for Korean, it's interesting."
+        }
+      ],
+      "note": "Same as 은 but after vowel-ending words. Sets topic, shows contrast, marks known info.",
+      "level": "A1"
+    },
+    "이": {
+      "base": "subject marker (after consonant)",
+      "morph": "이 — subject particle",
+      "particle": "[consonant-ending noun] + 이",
+      "uses": [
+        {
+          "k": "학생이 왔어요.",
+          "e": "A student came. (new info)"
+        },
+        {
+          "k": "시간이 없어요.",
+          "e": "There is no time."
+        },
+        {
+          "k": "누가 왔어요? 제가 왔어요.",
+          "e": "Who came? I came. (emphasis)"
+        }
+      ],
+      "note": "Marks the doer or new info. Contrast with 은/는 (topic). After vowels → 가.",
+      "level": "A1"
+    },
+    "가": {
+      "base": "① subject particle  ② verb stem (가다 = to go)",
+      "morph": "가 is genuinely two things — context determines which",
+      "particle": "[vowel noun]+가 (particle) · 가+요=가요 (verb)",
+      "uses": [
+        {
+          "k": "커피가 있어요.",
+          "e": "① There is coffee. — 가 = subject particle"
+        },
+        {
+          "k": "학교에 가요.",
+          "e": "② I go to school. — 가 = stem of 가다 (to go)"
+        },
+        {
+          "k": "뭐가 좋아요?",
+          "e": "① What do you like? — 가 = subject particle"
+        }
+      ],
+      "note": "This ambiguity is REAL Korean. When 가 follows a noun → particle. When 가 precedes 요/서/면/고 → verb stem of 가다 (to go). Korean speakers feel the difference instantly — you will too.",
+      "level": "A1"
+    },
+    "을": {
+      "base": "object marker (after consonant)",
+      "morph": "을 — object particle",
+      "particle": "[consonant-ending noun] + 을",
+      "uses": [
+        {
+          "k": "밥을 먹어요.",
+          "e": "I eat rice. (object)"
+        },
+        {
+          "k": "책을 읽어요.",
+          "e": "I read a book."
+        },
+        {
+          "k": "한국어를... wait: 수영을 해요.",
+          "e": "I swim. (수영 ends in ㅇ = consonant)"
+        }
+      ],
+      "note": "Marks what the verb acts on. Often dropped in casual speech. After vowels → 를.",
+      "level": "A1"
+    },
+    "를": {
+      "base": "object marker (after vowel)",
+      "morph": "를 — object particle",
+      "particle": "[vowel-ending noun] + 를",
+      "uses": [
+        {
+          "k": "커피를 마셔요.",
+          "e": "I drink coffee."
+        },
+        {
+          "k": "영화를 봐요.",
+          "e": "I watch a movie."
+        },
+        {
+          "k": "한국어를 배워요.",
+          "e": "I learn Korean."
+        }
+      ],
+      "note": "Same as 을 but after vowel-ending words. Check the LAST syllable's final consonant.",
+      "level": "A1"
+    },
+    "에": {
+      "base": "to / at / in (location or destination or time)",
+      "morph": "에 — locative/directional particle",
+      "particle": "[place]에 있어요 / [place]에 가요 / [time]에",
+      "uses": [
+        {
+          "k": "학교에 가요.",
+          "e": "I go to school."
+        },
+        {
+          "k": "집에 있어요.",
+          "e": "I'm at home."
+        },
+        {
+          "k": "세 시에 만나요.",
+          "e": "Let's meet at 3 o'clock."
+        }
+      ],
+      "note": "에 marks WHERE something IS, WHERE you're GOING, and WHEN. Does NOT mark where you DO things → 에서.",
+      "level": "A1"
+    },
+    "에서": {
+      "base": "at / from (action location or origin)",
+      "morph": "에서 — action locative particle",
+      "particle": "[place]에서 [action verb]",
+      "uses": [
+        {
+          "k": "학교에서 공부해요.",
+          "e": "I study at school."
+        },
+        {
+          "k": "카페에서 일해요.",
+          "e": "I work at the café."
+        },
+        {
+          "k": "서울에서 왔어요.",
+          "e": "I came from Seoul."
+        }
+      ],
+      "note": "에서 = where you DO things. Test: is there an action verb? Yes → 에서. Also means 'from'.",
+      "level": "A1"
+    },
+    "도": {
+      "base": "also / too / either",
+      "morph": "도 — additive particle",
+      "particle": "[noun] + 도 (REPLACES 은/는, 이/가)",
+      "uses": [
+        {
+          "k": "저도 학생이에요.",
+          "e": "I'm also a student."
+        },
+        {
+          "k": "커피도 있어요.",
+          "e": "Coffee is also available."
+        },
+        {
+          "k": "저도 몰라요.",
+          "e": "I don't know either."
+        }
+      ],
+      "note": "도 REPLACES 은/는 or 이/가 — it never stacks. 저는도 ✗ / 저도 ✓",
+      "level": "A1"
+    },
+    "의": {
+      "base": "possessive particle (of / 's)",
+      "morph": "의 — genitive particle",
+      "particle": "[noun] + 의 + [noun]",
+      "uses": [
+        {
+          "k": "제 친구의 이름이에요.",
+          "e": "It's my friend's name."
+        },
+        {
+          "k": "한국의 음식이 맛있어요.",
+          "e": "Korea's food is delicious."
+        },
+        {
+          "k": "엄마의 핸드폰이에요.",
+          "e": "It's mom's phone."
+        }
+      ],
+      "note": "의 is often DROPPED in casual speech: 엄마의 이름 → 엄마 이름 (same meaning, more natural).",
+      "level": "A1"
+    },
+    "로": {
+      "base": "by / toward / via (direction or means)",
+      "morph": "(으)로 — directional/instrumental particle",
+      "particle": "[consonant]으로 / [vowel or ㄹ]로",
+      "uses": [
+        {
+          "k": "버스로 가요.",
+          "e": "I go by bus."
+        },
+        {
+          "k": "왼쪽으로 가세요.",
+          "e": "Go to the left."
+        },
+        {
+          "k": "한국어로 말해요.",
+          "e": "Speak in Korean."
+        }
+      ],
+      "note": "(으)로 = by means of / in the direction of. 으로 after consonant (except ㄹ), 로 after vowel or ㄹ.",
+      "level": "A1"
+    },
+    "밥": {
+      "base": "rice / meal / food in general",
+      "morph": "Native Korean",
+      "particle": "을/를 먹어요",
+      "uses": [
+        {
+          "k": "밥 먹었어요?",
+          "e": "Did you eat? (=How are you?)"
+        },
+        {
+          "k": "밥을 먹어요.",
+          "e": "I eat a meal."
+        },
+        {
+          "k": "밥이 맛있어요.",
+          "e": "The food is delicious."
+        }
+      ],
+      "note": "밥 = literally cooked rice, but culturally = any meal. 밥 먹었어요? is how Koreans say 'How are you?'",
+      "level": "A1"
+    },
+    "물": {
+      "base": "water",
+      "morph": "Native Korean",
+      "particle": "을 마셔요",
+      "uses": [
+        {
+          "k": "물 주세요.",
+          "e": "Water, please."
+        },
+        {
+          "k": "물을 마셔요.",
+          "e": "I drink water."
+        },
+        {
+          "k": "물이 차가워요.",
+          "e": "The water is cold."
+        }
+      ],
+      "note": "물 ends in consonant ㄹ → 물을 (object marker). Don't let the ㄹ fool you.",
+      "level": "A1"
+    },
+    "커피": {
+      "base": "coffee",
+      "morph": "Konglish — from English 'coffee'",
+      "particle": "를 마셔요",
+      "uses": [
+        {
+          "k": "커피를 마셔요.",
+          "e": "I drink coffee."
+        },
+        {
+          "k": "커피 한 잔 주세요.",
+          "e": "One coffee, please."
+        },
+        {
+          "k": "아이스 커피요.",
+          "e": "Iced coffee, please."
+        }
+      ],
+      "note": "커피 = Konglish pronunciation of 'coffee'. Korea has one of the world's highest café densities.",
+      "level": "A1"
+    },
+    "학교": {
+      "base": "school",
+      "morph": "학(學/study) + 교(校/school) — Sino-Korean",
+      "particle": "에 가요 / 에서 공부해요",
+      "uses": [
+        {
+          "k": "학교에 가요.",
+          "e": "I go to school."
+        },
+        {
+          "k": "학교에서 공부해요.",
+          "e": "I study at school."
+        },
+        {
+          "k": "우리 학교가 좋아요.",
+          "e": "I like my/our school."
+        }
+      ],
+      "note": "학 reappears in: 대학교 (university), 학원 (academy), 학생 (student).",
+      "level": "A1"
+    },
+    "집": {
+      "base": "house / home",
+      "morph": "Native Korean",
+      "particle": "에 있어요 / 에 가요",
+      "uses": [
+        {
+          "k": "집에 있어요.",
+          "e": "I'm at home."
+        },
+        {
+          "k": "집에 가요.",
+          "e": "I go home."
+        },
+        {
+          "k": "우리 집이 커요.",
+          "e": "My house is big."
+        }
+      ],
+      "note": "우리 집 (my house) not 나의 집. 집 = home as a concept, not just a building.",
+      "level": "A1"
+    },
+    "학생": {
+      "base": "student",
+      "morph": "학(學/study) + 생(生/person) — Sino-Korean",
+      "particle": "이에요 / 이/가",
+      "uses": [
+        {
+          "k": "저는 학생이에요.",
+          "e": "I am a student."
+        },
+        {
+          "k": "학생이 왔어요.",
+          "e": "A student came."
+        },
+        {
+          "k": "학생들이 많아요.",
+          "e": "There are many students."
+        }
+      ],
+      "note": "학 = study, 생 = life/person. 학생들 = students (들 = plural marker, optional in Korean).",
+      "level": "A1"
+    },
+    "선생님": {
+      "base": "teacher",
+      "morph": "선생(先生/teacher) + 님(honorific suffix)",
+      "particle": "이/가 / 께서 (super-honorific)",
+      "uses": [
+        {
+          "k": "선생님이 오셨어요.",
+          "e": "The teacher came."
+        },
+        {
+          "k": "선생님, 질문 있어요.",
+          "e": "Teacher, I have a question."
+        },
+        {
+          "k": "우리 선생님이 좋아요.",
+          "e": "I like our teacher."
+        }
+      ],
+      "note": "님 = honorific suffix showing respect. 선생 alone is informal. 선생님 is the safe form.",
+      "level": "A1"
+    },
+    "이름": {
+      "base": "name",
+      "morph": "Native Korean",
+      "particle": "이/가 뭐예요?",
+      "uses": [
+        {
+          "k": "이름이 뭐예요?",
+          "e": "What is your name?"
+        },
+        {
+          "k": "제 이름은 사라예요.",
+          "e": "My name is Sara."
+        },
+        {
+          "k": "이름을 써 주세요.",
+          "e": "Please write your name."
+        }
+      ],
+      "note": "이름이 뭐예요? = Survival question #1. Koreans often introduce by family name first.",
+      "level": "A1"
+    },
+    "뭐": {
+      "base": "what",
+      "morph": "Short for 무엇 (mu-eot) — spoken form",
+      "particle": "이/가 / 을/를",
+      "uses": [
+        {
+          "k": "이게 뭐예요?",
+          "e": "What is this?"
+        },
+        {
+          "k": "뭐 먹어요?",
+          "e": "What are you eating?"
+        },
+        {
+          "k": "뭐가 좋아요?",
+          "e": "What do you like?"
+        }
+      ],
+      "note": "뭐 is the casual spoken form of 무엇. Used in ~90% of daily questions. One of the top-10 Korean words.",
+      "level": "A1"
+    },
+    "어디": {
+      "base": "where",
+      "morph": "Native Korean question word",
+      "particle": "어디에 / 어디에서",
+      "uses": [
+        {
+          "k": "어디 가요?",
+          "e": "Where are you going?"
+        },
+        {
+          "k": "어디에 있어요?",
+          "e": "Where is it?"
+        },
+        {
+          "k": "어디서 왔어요?",
+          "e": "Where did you come from?"
+        }
+      ],
+      "note": "어디에 = at where (static) / 어디에서 = from where or doing where. Critical for directions.",
+      "level": "A1"
+    },
+    "왜": {
+      "base": "why",
+      "morph": "Native Korean question word",
+      "particle": "왜 [verb]?",
+      "uses": [
+        {
+          "k": "왜요?",
+          "e": "Why?"
+        },
+        {
+          "k": "왜 안 가요?",
+          "e": "Why aren't you going?"
+        },
+        {
+          "k": "왜 그래요?",
+          "e": "Why are you like that?"
+        }
+      ],
+      "note": "왜요 alone is a complete, natural question. Can sound confrontational — tone matters.",
+      "level": "A1"
+    },
+    "언제": {
+      "base": "when",
+      "morph": "Native Korean question word",
+      "particle": "언제 [verb]?",
+      "uses": [
+        {
+          "k": "언제 가요?",
+          "e": "When are you going?"
+        },
+        {
+          "k": "언제 왔어요?",
+          "e": "When did you come?"
+        },
+        {
+          "k": "언제가 좋아요?",
+          "e": "When is good for you?"
+        }
+      ],
+      "note": "Time question. Pairs with 에: 언제에 → 언제 (에 is usually dropped with question words).",
+      "level": "A1"
+    },
+    "얼마나": {
+      "base": "how much / how many / how long",
+      "morph": "얼마 (how much) + 나 (emphatic)",
+      "particle": "얼마나 [adjective]?",
+      "uses": [
+        {
+          "k": "얼마나 멀어요?",
+          "e": "How far is it?"
+        },
+        {
+          "k": "얼마나 걸려요?",
+          "e": "How long does it take?"
+        },
+        {
+          "k": "얼마나 자주 와요?",
+          "e": "How often do you come?"
+        }
+      ],
+      "note": "얼마 alone = how much money? 얼마나 = to what degree/extent (for adjectives and verbs).",
+      "level": "A1"
+    },
+    "얼마예요": {
+      "base": "how much is it? (price)",
+      "morph": "얼마 (how much) + 예요 (is)",
+      "particle": "이거 얼마예요?",
+      "uses": [
+        {
+          "k": "얼마예요?",
+          "e": "How much is it?"
+        },
+        {
+          "k": "이거 얼마예요?",
+          "e": "How much is this?"
+        },
+        {
+          "k": "다해서 얼마예요?",
+          "e": "How much is it in total?"
+        }
+      ],
+      "note": "Survival shopping phrase. 얼마 = how much money. 얼마나 = how much (degree).",
+      "level": "A1"
+    },
+    "맛있어요": {
+      "base": "delicious / tastes good",
+      "morph": "맛(taste) + 있다(exists) + 어요",
+      "particle": "이/가 맛있어요",
+      "uses": [
+        {
+          "k": "정말 맛있어요!",
+          "e": "Really delicious!"
+        },
+        {
+          "k": "뭐가 맛있어요?",
+          "e": "What's good here?"
+        },
+        {
+          "k": "여기 음식이 맛있어요.",
+          "e": "The food here is delicious."
+        }
+      ],
+      "note": "맛있다 = 'taste exists'. 맛없다 = 'taste doesn't exist' = tasteless. LEGO compound.",
+      "level": "A1"
+    },
+    "맛없어요": {
+      "base": "not tasty / tasteless",
+      "morph": "맛(taste) + 없다(doesn't exist) + 어요",
+      "particle": "이/가 맛없어요",
+      "uses": [
+        {
+          "k": "이게 맛없어요.",
+          "e": "This doesn't taste good."
+        },
+        {
+          "k": "라면이 맛없어요.",
+          "e": "The ramen is bad."
+        },
+        {
+          "k": "왜 맛없어요?",
+          "e": "Why doesn't it taste good?"
+        }
+      ],
+      "note": "Don't say this about food someone cooked for you! Try: 맛이 좀 특이해요 (the taste is unique).",
+      "level": "A1"
+    },
+    "잘": {
+      "base": "well / properly / skillfully",
+      "morph": "Native Korean adverb",
+      "particle": "잘 + [verb]",
+      "uses": [
+        {
+          "k": "잘 먹겠습니다.",
+          "e": "I will eat well. (said before eating)"
+        },
+        {
+          "k": "잘 먹었습니다.",
+          "e": "I ate well. (said after eating)"
+        },
+        {
+          "k": "잘 해요.",
+          "e": "Does it well."
+        }
+      ],
+      "note": "잘 먹겠습니다 / 잘 먹었습니다 = the two most important meal phrases in Korean.",
+      "level": "A1"
+    },
+    "좀": {
+      "base": "a bit / please (softener)",
+      "morph": "Native Korean — softening adverb",
+      "particle": "좀 + [verb or adjective]",
+      "uses": [
+        {
+          "k": "좀 주세요.",
+          "e": "Please give me (a bit more polite)."
+        },
+        {
+          "k": "좀 기다려요.",
+          "e": "Wait a moment."
+        },
+        {
+          "k": "좀 빨리 가요.",
+          "e": "Go a bit faster."
+        }
+      ],
+      "note": "좀 softens ANY request and makes you sound more Korean and natural. Use it constantly.",
+      "level": "A1"
+    },
+    "더": {
+      "base": "more",
+      "morph": "Native Korean adverb",
+      "particle": "더 + [verb/adjective]",
+      "uses": [
+        {
+          "k": "물 좀 더 주세요.",
+          "e": "More water, please."
+        },
+        {
+          "k": "더 싸요.",
+          "e": "It's cheaper. (more cheap)"
+        },
+        {
+          "k": "조금만 더요.",
+          "e": "Just a little bit more."
+        }
+      ],
+      "note": "더 = more (comparison). 더 이상 = no more (used with negative: 더 이상 없어요).",
+      "level": "A1"
+    },
+    "저기요": {
+      "base": "excuse me (to get attention)",
+      "morph": "저기 (over there) + 요 (polite) — attention call",
+      "particle": "standalone exclamation",
+      "uses": [
+        {
+          "k": "저기요! 메뉴 주세요.",
+          "e": "Excuse me! Menu please."
+        },
+        {
+          "k": "저기요, 화장실이 어디예요?",
+          "e": "Excuse me, where is the bathroom?"
+        },
+        {
+          "k": "저기요! 여기요!",
+          "e": "Excuse me! Over here!"
+        }
+      ],
+      "note": "저기요 = 'hey over there!' Used to call restaurant staff, strangers, shopkeepers. Universal.",
+      "level": "A1"
+    },
+    "주문하다": {
+      "base": "to order (food/goods)",
+      "morph": "주문(注文/order) + 하다 (to do)",
+      "particle": "을/를 주문해요",
+      "uses": [
+        {
+          "k": "주문할게요.",
+          "e": "I'll order now."
+        },
+        {
+          "k": "뭐 주문했어요?",
+          "e": "What did you order?"
+        },
+        {
+          "k": "주문이요!",
+          "e": "Order! (calling staff)"
+        }
+      ],
+      "note": "주문 = Sino-Korean: 주(注/pour) + 문(文/writing). The act of writing/noting an order.",
+      "level": "A1"
+    },
+    "계산": {
+      "base": "bill / payment / calculation",
+      "morph": "계산(計算) — Sino-Korean: 계(計/count) + 산(算/calculate)",
+      "particle": "계산해 주세요",
+      "uses": [
+        {
+          "k": "계산해 주세요.",
+          "e": "Check, please."
+        },
+        {
+          "k": "계산서 주세요.",
+          "e": "The bill, please."
+        },
+        {
+          "k": "카드로 계산해도 돼요?",
+          "e": "Can I pay by card?"
+        }
+      ],
+      "note": "In Korea, you often pay at the counter, not tableside. Say 계산해 주세요 and walk to the register.",
+      "level": "A1"
+    },
+    "포장": {
+      "base": "to-go / takeout / packaging",
+      "morph": "포장(包裝) — Sino-Korean: 포(包/wrap) + 장(裝/pack)",
+      "particle": "포장이요 / 포장해 주세요",
+      "uses": [
+        {
+          "k": "포장이요.",
+          "e": "To go, please."
+        },
+        {
+          "k": "포장해 주세요.",
+          "e": "Can you pack it to go?"
+        },
+        {
+          "k": "포장 가능해요?",
+          "e": "Is takeout available?"
+        }
+      ],
+      "note": "포장 = packaging. Say 포장이요 = to go. 먹고 갈게요 = eating here.",
+      "level": "A1"
+    },
+    "버스": {
+      "base": "bus",
+      "morph": "Konglish — from English 'bus'",
+      "particle": "를 타요 / 로 가요",
+      "uses": [
+        {
+          "k": "버스로 가요.",
+          "e": "I go by bus."
+        },
+        {
+          "k": "버스를 타요.",
+          "e": "I take the bus."
+        },
+        {
+          "k": "버스 정류장이 어디예요?",
+          "e": "Where is the bus stop?"
+        }
+      ],
+      "note": "타다 = to ride/board (타요). Use with all transport: 버스를 타다, 택시를 타다, 지하철을 타다.",
+      "level": "A1"
+    },
+    "지하철": {
+      "base": "subway / metro",
+      "morph": "지하(地下/underground) + 철(鐵/iron/rail) — Sino-Korean",
+      "particle": "를 타요",
+      "uses": [
+        {
+          "k": "지하철로 가요.",
+          "e": "I go by subway."
+        },
+        {
+          "k": "지하철역이 어디예요?",
+          "e": "Where is the subway station?"
+        },
+        {
+          "k": "지하철 몇 호선이에요?",
+          "e": "Which subway line is it?"
+        }
+      ],
+      "note": "지하 = underground, 철 = iron/rail. Seoul subway is one of the world's best — cheap, fast, clean.",
+      "level": "A1"
+    },
+    "택시": {
+      "base": "taxi",
+      "morph": "Konglish — from English 'taxi'",
+      "particle": "를 타요",
+      "uses": [
+        {
+          "k": "택시로 가요.",
+          "e": "I go by taxi."
+        },
+        {
+          "k": "택시를 불러요.",
+          "e": "I call a taxi."
+        },
+        {
+          "k": "택시 타도 돼요?",
+          "e": "Is it okay to take a taxi?"
+        }
+      ],
+      "note": "KakaoTaxi app is the main taxi hailing app in Korea. Cheaper than many countries.",
+      "level": "A1"
+    },
+    "역": {
+      "base": "(train/subway) station",
+      "morph": "역(驛) — Sino-Korean: station",
+      "particle": "에서 / 앞에서",
+      "uses": [
+        {
+          "k": "홍대역에서 만나요.",
+          "e": "Let's meet at Hongdae Station."
+        },
+        {
+          "k": "역이 어디예요?",
+          "e": "Where is the station?"
+        },
+        {
+          "k": "역 앞에서 봐요.",
+          "e": "Let's meet in front of the station."
+        }
+      ],
+      "note": "역 + 에서 = at the station. Korean subway system: 1호선 (Line 1) through 9호선 (Line 9) in Seoul.",
+      "level": "A1"
+    },
+    "출구": {
+      "base": "exit",
+      "morph": "출(出/out) + 구(口/mouth/opening) — Sino-Korean",
+      "particle": "로 나오세요",
+      "uses": [
+        {
+          "k": "1번 출구로 나오세요.",
+          "e": "Come out exit 1."
+        },
+        {
+          "k": "출구가 어디예요?",
+          "e": "Where is the exit?"
+        },
+        {
+          "k": "홍대역 9번 출구 앞에서 만나요.",
+          "e": "Let's meet at Hongdae Station exit 9."
+        }
+      ],
+      "note": "Korean subway: every station has numbered exits. Meetings are ALWAYS given by exit number, not 'near the station'.",
+      "level": "A1"
+    },
+    "타다": {
+      "base": "to ride / to board (transport)",
+      "morph": "Native Korean verb",
+      "particle": "[transport]를 타요",
+      "uses": [
+        {
+          "k": "버스를 타요.",
+          "e": "I take the bus."
+        },
+        {
+          "k": "자전거를 타요.",
+          "e": "I ride a bicycle."
+        },
+        {
+          "k": "어디서 타요?",
+          "e": "Where do I board?"
+        }
+      ],
+      "note": "타다 = to ride/board. Works for all transport and vehicles. Opposite: 내리다 (to get off).",
+      "level": "A1"
+    },
+    "엄마": {
+      "base": "mom (casual)",
+      "morph": "Native Korean",
+      "particle": "이/가",
+      "uses": [
+        {
+          "k": "우리 엄마가 요리해요.",
+          "e": "My mom cooks."
+        },
+        {
+          "k": "엄마!",
+          "e": "Mom!"
+        },
+        {
+          "k": "엄마한테 물어봐.",
+          "e": "Ask mom."
+        }
+      ],
+      "note": "엄마 = casual. 어머니 = formal/respectful. 우리 엄마 (not 나의 엄마) is natural Korean.",
+      "level": "A1"
+    },
+    "아빠": {
+      "base": "dad (casual)",
+      "morph": "Native Korean — tense consonant ㅃ",
+      "particle": "이/가",
+      "uses": [
+        {
+          "k": "아빠가 어디 있어요?",
+          "e": "Where is dad?"
+        },
+        {
+          "k": "아빠!",
+          "e": "Dad!"
+        },
+        {
+          "k": "우리 아빠가 의사예요.",
+          "e": "My dad is a doctor."
+        }
+      ],
+      "note": "아빠 = casual. 아버지 = formal. The ㅃ (tense b) sounds clipped/forceful — it's not just ㅂ.",
+      "level": "A1"
+    },
+    "어머니": {
+      "base": "mother (formal)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 께서 (super-honorific)",
+      "uses": [
+        {
+          "k": "어머니, 안녕하세요.",
+          "e": "Hello, mother/ma'am."
+        },
+        {
+          "k": "어머니가 오셨어요.",
+          "e": "Mother has come."
+        },
+        {
+          "k": "친구 어머니예요.",
+          "e": "It's my friend's mother."
+        }
+      ],
+      "note": "Use 어머니 when talking ABOUT others' mothers or in formal settings. Use 엄마 for your own mom casually.",
+      "level": "A1"
+    },
+    "아버지": {
+      "base": "father (formal)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 께서 (super-honorific)",
+      "uses": [
+        {
+          "k": "아버지가 집에 계세요.",
+          "e": "Father is at home."
+        },
+        {
+          "k": "친구 아버지예요.",
+          "e": "It's my friend's father."
+        },
+        {
+          "k": "아버지, 여기요.",
+          "e": "Father, over here."
+        }
+      ],
+      "note": "More formal than 아빠. Use when talking about someone else's father or in respectful contexts.",
+      "level": "A1"
+    },
+    "형": {
+      "base": "older brother (said by males)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 형!",
+      "uses": [
+        {
+          "k": "형, 배고파.",
+          "e": "Bro, I'm hungry. (male to older brother)"
+        },
+        {
+          "k": "우리 형이 대학생이에요.",
+          "e": "My older brother is a university student."
+        },
+        {
+          "k": "형 어디 있어?",
+          "e": "Where are you, bro?"
+        }
+      ],
+      "note": "ONLY males use 형. Females call older brothers 오빠. Also used for close older male friends.",
+      "level": "A1"
+    },
+    "오빠": {
+      "base": "older brother (said by females)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 오빠!",
+      "uses": [
+        {
+          "k": "오빠, 도와줘!",
+          "e": "Oppa, help me!"
+        },
+        {
+          "k": "우리 오빠가 멋있어요.",
+          "e": "My older brother is cool."
+        },
+        {
+          "k": "오빠라고 불러도 돼요?",
+          "e": "Can I call you oppa?"
+        }
+      ],
+      "note": "ONLY females use 오빠. Famous in K-pop: female fans call male idols 오빠. Carries warmth/closeness.",
+      "level": "A1"
+    },
+    "누나": {
+      "base": "older sister (said by males)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 누나!",
+      "uses": [
+        {
+          "k": "우리 누나가 요리사예요.",
+          "e": "My older sister is a chef."
+        },
+        {
+          "k": "누나, 이거 먹어.",
+          "e": "Sis, eat this."
+        },
+        {
+          "k": "누나가 예뻐요.",
+          "e": "My older sister is pretty."
+        }
+      ],
+      "note": "ONLY males use 누나. Same grid: Male speaker: 형 (older bro) / 누나 (older sis).",
+      "level": "A1"
+    },
+    "언니": {
+      "base": "older sister (said by females)",
+      "morph": "Native Korean",
+      "particle": "이/가 / 언니!",
+      "uses": [
+        {
+          "k": "언니, 어디 가?",
+          "e": "Sis, where are you going?"
+        },
+        {
+          "k": "우리 언니가 의사예요.",
+          "e": "My older sister is a doctor."
+        },
+        {
+          "k": "언니라고 불러요.",
+          "e": "(People) call her unni."
+        }
+      ],
+      "note": "ONLY females use 언니. Also used for older female friends, colleagues. Builds 정 (deep bond).",
+      "level": "A1"
+    },
+    "남동생": {
+      "base": "younger brother",
+      "morph": "남(男/male) + 동생(same-root younger sibling)",
+      "particle": "이/가",
+      "uses": [
+        {
+          "k": "남동생이 있어요.",
+          "e": "I have a younger brother."
+        },
+        {
+          "k": "남동생이 중학생이에요.",
+          "e": "My younger brother is in middle school."
+        },
+        {
+          "k": "남동생한테 줘.",
+          "e": "Give it to your younger brother."
+        }
+      ],
+      "note": "동생 = younger sibling (gender-neutral). 남동생 = male younger sibling. 여동생 = female.",
+      "level": "A1"
+    },
+    "여동생": {
+      "base": "younger sister",
+      "morph": "여(女/female) + 동생(younger sibling)",
+      "particle": "이/가",
+      "uses": [
+        {
+          "k": "여동생이 귀여워요.",
+          "e": "My younger sister is cute."
+        },
+        {
+          "k": "여동생이 초등학생이에요.",
+          "e": "My younger sister is in elementary school."
+        },
+        {
+          "k": "여동생이 없어요.",
+          "e": "I don't have a younger sister."
+        }
+      ],
+      "note": "동생 alone = younger sibling (any gender). 여동생 specifically = younger female sibling.",
+      "level": "A1"
+    },
+    "크다": {
+      "base": "to be big (dictionary form)",
+      "morph": "크 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 크다",
+      "uses": [
+        {
+          "k": "집이 커요.",
+          "e": "The house is big."
+        },
+        {
+          "k": "눈이 커요.",
+          "e": "The eyes are big."
+        },
+        {
+          "k": "얼마나 커요?",
+          "e": "How big is it?"
+        }
+      ],
+      "note": "으-irregular: 크다 → 커요. ㅡ drops before 아/어. Contrast with 작다 (small).",
+      "level": "A1"
+    },
+    "작다": {
+      "base": "to be small (dictionary form)",
+      "morph": "작 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 작다",
+      "uses": [
+        {
+          "k": "방이 작아요.",
+          "e": "The room is small."
+        },
+        {
+          "k": "이게 너무 작아요.",
+          "e": "This is too small."
+        },
+        {
+          "k": "작은 가방이에요.",
+          "e": "It's a small bag."
+        }
+      ],
+      "note": "Regular. 작 + 아요 → 작아요. 큰 ↔ 작은 (modifier forms).",
+      "level": "A1"
+    },
+    "많다": {
+      "base": "to be many / a lot (dictionary form)",
+      "morph": "많 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 많다",
+      "uses": [
+        {
+          "k": "사람이 많아요.",
+          "e": "There are many people."
+        },
+        {
+          "k": "시간이 많아요.",
+          "e": "There's a lot of time."
+        },
+        {
+          "k": "많이 먹어요.",
+          "e": "Eat a lot."
+        }
+      ],
+      "note": "많이 (adverb) = a lot. 많다 ≠ 많이. 많 + 아요 → 많아요.",
+      "level": "A1"
+    },
+    "비싸다": {
+      "base": "to be expensive (dictionary form)",
+      "morph": "비싸 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 비싸다",
+      "uses": [
+        {
+          "k": "이게 비싸요.",
+          "e": "This is expensive."
+        },
+        {
+          "k": "너무 비싸요.",
+          "e": "Too expensive."
+        },
+        {
+          "k": "왜 이렇게 비싸요?",
+          "e": "Why is it so expensive?"
+        }
+      ],
+      "note": "비싸 + 아요 → 비싸요. Regular. Opposite: 싸다 (cheap).",
+      "level": "A1"
+    },
+    "싸다": {
+      "base": "to be cheap / inexpensive",
+      "morph": "싸다 → 싸요 — regular",
+      "particle": "이/가 싸다",
+      "uses": [
+        {
+          "k": "이게 싸요.",
+          "e": "This is cheap."
+        },
+        {
+          "k": "더 싼 거 있어요?",
+          "e": "Is there a cheaper one?"
+        },
+        {
+          "k": "너무 싸요!",
+          "e": "So cheap!"
+        }
+      ],
+      "note": "Also means 'to wrap/pack' (different word, same spelling). Context distinguishes them.",
+      "level": "A1"
+    },
+    "재미있어요": {
+      "base": "interesting / fun",
+      "morph": "재미(fun/interest) + 있다(exists) + 어요",
+      "particle": "이/가 재미있어요",
+      "uses": [
+        {
+          "k": "한국어가 재미있어요.",
+          "e": "Korean is interesting."
+        },
+        {
+          "k": "이 영화가 재미있어요.",
+          "e": "This movie is fun."
+        },
+        {
+          "k": "뭐가 재미있어요?",
+          "e": "What's fun / interesting?"
+        }
+      ],
+      "note": "재미있다 ↔ 재미없다 (boring). Same LEGO logic as 맛있다 ↔ 맛없다.",
+      "level": "A1"
+    },
+    "어렵다": {
+      "base": "to be difficult (dictionary form)",
+      "morph": "어렵 (stem) + 다 — ㅂ-irregular",
+      "particle": "이/가 어렵다",
+      "uses": [
+        {
+          "k": "한국어가 어려워요.",
+          "e": "Korean is difficult."
+        },
+        {
+          "k": "시험이 어려워요.",
+          "e": "The exam is hard."
+        },
+        {
+          "k": "생각보다 어려워요.",
+          "e": "Harder than I thought."
+        }
+      ],
+      "note": "⚡ ㅂ-irregular: 어렵 + 어요 → 어려워요. ㅂ→우 before vowel. Taught fully Unit 7.",
+      "level": "A1"
+    },
+    "쉽다": {
+      "base": "to be easy (dictionary form)",
+      "morph": "쉽 (stem) + 다 — ㅂ-irregular",
+      "particle": "이/가 쉽다",
+      "uses": [
+        {
+          "k": "이게 쉬워요.",
+          "e": "This is easy."
+        },
+        {
+          "k": "생각보다 쉬워요.",
+          "e": "Easier than I thought."
+        },
+        {
+          "k": "제일 쉬운 게 뭐예요?",
+          "e": "What's the easiest?"
+        }
+      ],
+      "note": "⚡ ㅂ-irregular like 어렵다. 쉽 + 어요 → 쉬워요. Opposite of 어렵다.",
+      "level": "A1"
+    },
+    "덥다": {
+      "base": "to be hot (weather) — dictionary form",
+      "morph": "덥 (stem) + 다 — ㅂ-irregular",
+      "particle": "날씨가 덥다",
+      "uses": [
+        {
+          "k": "오늘 날씨가 더워요.",
+          "e": "Today's weather is hot."
+        },
+        {
+          "k": "너무 더워요!",
+          "e": "It's too hot!"
+        },
+        {
+          "k": "방이 더워요.",
+          "e": "The room is hot."
+        }
+      ],
+      "note": "⚡ ㅂ-irregular: 덥 + 어요 → 더워요. NOT 덥어요. Full pattern Unit 7.",
+      "level": "A1"
+    },
+    "춥다": {
+      "base": "to be cold (weather) — dictionary form",
+      "morph": "춥 (stem) + 다 — ㅂ-irregular",
+      "particle": "날씨가 춥다",
+      "uses": [
+        {
+          "k": "오늘 너무 추워요.",
+          "e": "It's so cold today."
+        },
+        {
+          "k": "밖이 추워요.",
+          "e": "It's cold outside."
+        },
+        {
+          "k": "겨울이 추워요.",
+          "e": "Winter is cold."
+        }
+      ],
+      "note": "⚡ ㅂ-irregular like 덥다. 춥 + 어요 → 추워요. Stem 춥 → 추워.",
+      "level": "A1"
+    },
+    "예쁘다": {
+      "base": "to be pretty — dictionary form",
+      "morph": "예쁘 (stem) + 다 — 으-irregular",
+      "particle": "이/가 예쁘다",
+      "uses": [
+        {
+          "k": "꽃이 예뻐요.",
+          "e": "The flower is pretty."
+        },
+        {
+          "k": "정말 예뻐요!",
+          "e": "Really pretty!"
+        },
+        {
+          "k": "예쁜 드레스예요.",
+          "e": "It's a pretty dress."
+        }
+      ],
+      "note": "으-irregular: 예쁘 + 어요 → 예뻐요. ㅡ drops. 예쁜 = modifier form.",
+      "level": "A1"
+    },
+    "맵다": {
+      "base": "to be spicy — dictionary form",
+      "morph": "맵 (stem) + 다 — ㅂ-irregular",
+      "particle": "이/가 맵다",
+      "uses": [
+        {
+          "k": "이게 매워요.",
+          "e": "This is spicy."
+        },
+        {
+          "k": "너무 매워요!",
+          "e": "Too spicy!"
+        },
+        {
+          "k": "안 매운 거 있어요?",
+          "e": "Is there something not spicy?"
+        }
+      ],
+      "note": "⚡ ㅂ-irregular: 맵 + 어요 → 매워요. One of the most useful food adjectives.",
+      "level": "A1"
+    },
+    "달다": {
+      "base": "to be sweet",
+      "morph": "달다 → 달아요 — regular",
+      "particle": "이/가 달다",
+      "uses": [
+        {
+          "k": "이게 달아요.",
+          "e": "This is sweet."
+        },
+        {
+          "k": "좀 달아요.",
+          "e": "It's a bit sweet."
+        },
+        {
+          "k": "너무 달아요.",
+          "e": "Too sweet."
+        }
+      ],
+      "note": "달다 is a ㄹ-irregular verb in some forms but 달아요 is the standard polite form.",
+      "level": "A1"
+    },
+    "짜다": {
+      "base": "to be salty",
+      "morph": "짜다 → 짜요 — regular",
+      "particle": "이/가 짜다",
+      "uses": [
+        {
+          "k": "이 국이 짜요.",
+          "e": "This soup is salty."
+        },
+        {
+          "k": "너무 짜요.",
+          "e": "Too salty."
+        },
+        {
+          "k": "짜지 않아요.",
+          "e": "It's not salty."
+        }
+      ],
+      "note": "짜다 also means 'to squeeze/wring'. Context distinguishes. In food context always = salty.",
+      "level": "A1"
+    },
+    "시": {
+      "base": "o'clock (counter for hours)",
+      "morph": "시(時) — Sino-Korean time counter",
+      "particle": "Native numbers + 시",
+      "uses": [
+        {
+          "k": "몇 시예요?",
+          "e": "What time is it?"
+        },
+        {
+          "k": "세 시예요.",
+          "e": "It's 3 o'clock."
+        },
+        {
+          "k": "열두 시에 만나요.",
+          "e": "Let's meet at 12 o'clock."
+        }
+      ],
+      "note": "Hours use NATIVE Korean numbers: 한 시, 두 시, 세 시... (not 일 시, 이 시). Mix with Sino for minutes.",
+      "level": "A1"
+    },
+    "분": {
+      "base": "minute (counter)",
+      "morph": "분(分) — Sino-Korean minute counter",
+      "particle": "Sino numbers + 분",
+      "uses": [
+        {
+          "k": "10분 후에 와요.",
+          "e": "Come in 10 minutes."
+        },
+        {
+          "k": "삼십 분이에요.",
+          "e": "It's 30 minutes."
+        },
+        {
+          "k": "잠깐만요, 5분만요.",
+          "e": "Just a moment, just 5 minutes."
+        }
+      ],
+      "note": "Minutes use SINO-KOREAN numbers: 십 분, 이십 분, 삼십 분. 반 = half: 세 시 반 = 3:30.",
+      "level": "A1"
+    },
+    "개": {
+      "base": "counter for general objects",
+      "morph": "개(個) — Sino-Korean general counter",
+      "particle": "Native numbers + 개",
+      "uses": [
+        {
+          "k": "사과 세 개 주세요.",
+          "e": "Three apples, please."
+        },
+        {
+          "k": "두 개 있어요.",
+          "e": "There are two."
+        },
+        {
+          "k": "몇 개예요?",
+          "e": "How many (things) are there?"
+        }
+      ],
+      "note": "개 = the most versatile counter. When unsure which counter to use, 개 is usually safe.",
+      "level": "A1"
+    },
+    "명": {
+      "base": "counter for people",
+      "morph": "명(名) — Sino-Korean person counter",
+      "particle": "Native numbers + 명",
+      "uses": [
+        {
+          "k": "두 명이에요.",
+          "e": "There are two people."
+        },
+        {
+          "k": "몇 명이에요?",
+          "e": "How many people?"
+        },
+        {
+          "k": "한 명만요.",
+          "e": "Just one person."
+        }
+      ],
+      "note": "명 = plain counter for people. 분 = polite/honorific version (두 분이세요? in restaurants).",
+      "level": "A1"
+    },
+    "잔": {
+      "base": "counter for cups/glasses",
+      "morph": "잔(盞) — Sino-Korean drink counter",
+      "particle": "Native numbers + 잔",
+      "uses": [
+        {
+          "k": "커피 한 잔 주세요.",
+          "e": "One coffee, please."
+        },
+        {
+          "k": "두 잔이요.",
+          "e": "Two cups."
+        },
+        {
+          "k": "맥주 세 잔이요.",
+          "e": "Three beers."
+        }
+      ],
+      "note": "커피 한 잔 주세요 = THE coffee order phrase in Korea. 잔 = cups, glasses, drinks.",
+      "level": "A1"
+    },
+    "원": {
+      "base": "Korean currency unit (won)",
+      "morph": "원(圓) — Sino-Korean",
+      "particle": "[number] + 원",
+      "uses": [
+        {
+          "k": "얼마예요? 오천 원이에요.",
+          "e": "How much? It's 5,000 won."
+        },
+        {
+          "k": "만 원 있어요?",
+          "e": "Do you have 10,000 won?"
+        },
+        {
+          "k": "이십 퍼센트 할인이에요.",
+          "e": "It's a 20% discount."
+        }
+      ],
+      "note": "만 (10,000) is the basic mental unit for Korean money. Think in 만, not in 천.",
+      "level": "A1"
+    },
+    "왼쪽": {
+      "base": "left (side)",
+      "morph": "왼 (left) + 쪽 (side/direction)",
+      "particle": "으로 / 에",
+      "uses": [
+        {
+          "k": "왼쪽으로 가세요.",
+          "e": "Go to the left."
+        },
+        {
+          "k": "왼쪽에 있어요.",
+          "e": "It's on the left."
+        },
+        {
+          "k": "왼쪽 첫 번째 문이에요.",
+          "e": "It's the first door on the left."
+        }
+      ],
+      "note": "쪽 = side/direction. Reusable suffix: 앞쪽 (front), 뒤쪽 (back), 이쪽 (this way).",
+      "level": "A1"
+    },
+    "오른쪽": {
+      "base": "right (side)",
+      "morph": "오른 (right) + 쪽 (side/direction)",
+      "particle": "으로 / 에",
+      "uses": [
+        {
+          "k": "오른쪽으로 가세요.",
+          "e": "Go to the right."
+        },
+        {
+          "k": "오른쪽에 있어요.",
+          "e": "It's on the right."
+        },
+        {
+          "k": "오른쪽 끝이에요.",
+          "e": "It's at the far right end."
+        }
+      ],
+      "note": "왼쪽 ↔ 오른쪽. The 쪽 suffix appears in: 앞쪽, 뒤쪽, 이쪽, 저쪽, 그쪽.",
+      "level": "A1"
+    },
+    "앞": {
+      "base": "front / in front",
+      "morph": "Native Korean",
+      "particle": "에 / 앞에 있어요",
+      "uses": [
+        {
+          "k": "앞에 있어요.",
+          "e": "It's in front."
+        },
+        {
+          "k": "학교 앞에서 만나요.",
+          "e": "Let's meet in front of the school."
+        },
+        {
+          "k": "앞으로 가세요.",
+          "e": "Go forward."
+        }
+      ],
+      "note": "앞 ↔ 뒤 (back). 앞쪽 = front side. 앞으로 = forward (direction).",
+      "level": "A1"
+    },
+    "뒤": {
+      "base": "back / behind",
+      "morph": "Native Korean",
+      "particle": "에 / 뒤에 있어요",
+      "uses": [
+        {
+          "k": "뒤에 있어요.",
+          "e": "It's behind."
+        },
+        {
+          "k": "차 뒤에 있어요.",
+          "e": "It's behind the car."
+        },
+        {
+          "k": "뒤로 가세요.",
+          "e": "Go back."
+        }
+      ],
+      "note": "앞 ↔ 뒤. 뒤쪽 = back side. Can mean 'behind', 'in back of', 'after' in some contexts.",
+      "level": "A1"
+    },
+    "위": {
+      "base": "above / on top",
+      "morph": "Native Korean",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "책상 위에 있어요.",
+          "e": "It's on top of the desk."
+        },
+        {
+          "k": "위에 올려놓아요.",
+          "e": "Put it on top."
+        },
+        {
+          "k": "위층이에요.",
+          "e": "It's on the upper floor."
+        }
+      ],
+      "note": "위 ↔ 아래 (below). 위에 있어요 = is on top of / above.",
+      "level": "A1"
+    },
+    "아래": {
+      "base": "below / under / beneath",
+      "morph": "Native Korean (also: 밑)",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "책상 아래에 있어요.",
+          "e": "It's under the desk."
+        },
+        {
+          "k": "아래로 내려가요.",
+          "e": "Go down."
+        },
+        {
+          "k": "아래 층이에요.",
+          "e": "It's on the lower floor."
+        }
+      ],
+      "note": "위 ↔ 아래. 밑 is a synonym. 아래 is slightly more formal, 밑 more casual.",
+      "level": "A1"
+    },
+    "밖": {
+      "base": "outside",
+      "morph": "Native Korean",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "밖에 있어요.",
+          "e": "It's outside."
+        },
+        {
+          "k": "밖으로 나가세요.",
+          "e": "Please go outside."
+        },
+        {
+          "k": "밖이 추워요.",
+          "e": "It's cold outside."
+        }
+      ],
+      "note": "안 ↔ 밖. 밖에 = only (in certain phrases): 방법이 없는 것밖에 = there's nothing but...",
+      "level": "A1"
+    },
+    "옆": {
+      "base": "beside / next to",
+      "morph": "Native Korean",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "옆에 앉아요.",
+          "e": "Sit next to (me/it)."
+        },
+        {
+          "k": "은행 옆에 있어요.",
+          "e": "It's next to the bank."
+        },
+        {
+          "k": "옆 사람이에요.",
+          "e": "It's the person next to (me)."
+        }
+      ],
+      "note": "옆 is one of the most useful position words for giving and getting directions.",
+      "level": "A1"
+    },
+    "사이": {
+      "base": "between / gap / relationship",
+      "morph": "Native Korean",
+      "particle": "에 있어요",
+      "uses": [
+        {
+          "k": "은행과 카페 사이에 있어요.",
+          "e": "It's between the bank and the café."
+        },
+        {
+          "k": "우리 사이가 좋아요.",
+          "e": "Our relationship is good."
+        },
+        {
+          "k": "그 사이에 뭐 했어요?",
+          "e": "What did you do in between?"
+        }
+      ],
+      "note": "사이 has TWO meanings: physical 'between' and social 'relationship'. Context distinguishes.",
+      "level": "A1"
+    },
+    "그래서": {
+      "base": "so / therefore / and so",
+      "morph": "그래 (like that) + 서 (because/so)",
+      "particle": "Sentence + 그래서 + Result",
+      "uses": [
+        {
+          "k": "배가 고파요. 그래서 밥을 먹어요.",
+          "e": "I'm hungry. So I eat."
+        },
+        {
+          "k": "비가 와요. 그래서 집에 있어요.",
+          "e": "It's raining. So I stay home."
+        },
+        {
+          "k": "늦었어요. 그래서 택시를 탔어요.",
+          "e": "I was late. So I took a taxi."
+        }
+      ],
+      "note": "그래서 starts the RESULT sentence. Cause → 그래서 → Effect.",
+      "level": "A1"
+    },
+    "그런데": {
+      "base": "but / however / by the way",
+      "morph": "그런 (like that) + 데 (situation/place)",
+      "particle": "Sentence + 그런데 + Contrast",
+      "uses": [
+        {
+          "k": "맛있어요. 그런데 매워요.",
+          "e": "It's delicious. But it's spicy."
+        },
+        {
+          "k": "갈게요. 그런데 늦을 것 같아요.",
+          "e": "I'll go. But I might be late."
+        },
+        {
+          "k": "그런데, 이름이 뭐예요?",
+          "e": "By the way, what's your name?"
+        }
+      ],
+      "note": "그런데 = but/however (contrast) OR topic shift ('by the way'). Very common in conversation.",
+      "level": "A1"
+    },
+    "그러면": {
+      "base": "then / in that case / if so",
+      "morph": "그러 (do like that) + 면 (if/when)",
+      "particle": "Condition + 그러면 + Result",
+      "uses": [
+        {
+          "k": "배고파요. 그러면 먹어요.",
+          "e": "I'm hungry. Then let's eat."
+        },
+        {
+          "k": "비가 오면 그러면 택시요.",
+          "e": "If it rains, then taxi it is."
+        },
+        {
+          "k": "그러면 내일 만나요.",
+          "e": "Then let's meet tomorrow."
+        }
+      ],
+      "note": "그러면 → 그럼 (casual short form). 그럼 is extremely common in conversation.",
+      "level": "A1"
+    },
+    "아니면": {
+      "base": "or / if not",
+      "morph": "아니 (not) + 면 (if) — Compound",
+      "particle": "A + 아니면 + B?",
+      "uses": [
+        {
+          "k": "버스 아니면 지하철이에요?",
+          "e": "Bus or subway?"
+        },
+        {
+          "k": "커피 아니면 차요?",
+          "e": "Coffee or tea?"
+        },
+        {
+          "k": "오늘 아니면 내일요.",
+          "e": "Today or tomorrow."
+        }
+      ],
+      "note": "아니면 = the main 'or' connector in Korean questions. More natural than 또는 in speech.",
+      "level": "A1"
+    },
+    "하지만": {
+      "base": "but / however (formal)",
+      "morph": "하지만 — connector adverb",
+      "particle": "Sentence + 하지만 + Contrast",
+      "uses": [
+        {
+          "k": "비싸요. 하지만 맛있어요.",
+          "e": "It's expensive. But it's delicious."
+        },
+        {
+          "k": "어려워요. 하지만 재미있어요.",
+          "e": "It's hard. But interesting."
+        },
+        {
+          "k": "늦었어요. 하지만 왔어요.",
+          "e": "I was late. But I came."
+        }
+      ],
+      "note": "하지만 = more formal than 그런데. Both mean 'but'. 그런데 is more common in speech.",
+      "level": "A1"
+    },
+    "자주": {
+      "base": "often / frequently",
+      "morph": "Native Korean adverb",
+      "particle": "자주 + [verb]",
+      "uses": [
+        {
+          "k": "자주 와요.",
+          "e": "I come often."
+        },
+        {
+          "k": "얼마나 자주요?",
+          "e": "How often?"
+        },
+        {
+          "k": "자주 먹어요.",
+          "e": "I eat it often."
+        }
+      ],
+      "note": "Frequency scale: 항상 (always) > 자주 (often) > 가끔 (sometimes) > 별로 (not really) > 전혀 (never).",
+      "level": "A1"
+    },
+    "가끔": {
+      "base": "sometimes / occasionally",
+      "morph": "Native Korean adverb",
+      "particle": "가끔 + [verb]",
+      "uses": [
+        {
+          "k": "가끔 가요.",
+          "e": "I go sometimes."
+        },
+        {
+          "k": "가끔 그래요.",
+          "e": "It's like that sometimes."
+        },
+        {
+          "k": "가끔 생각나요.",
+          "e": "I think of it sometimes."
+        }
+      ],
+      "note": "Frequency: 자주 (often) > 가끔 (sometimes) > 별로 안 (not really).",
+      "level": "A1"
+    },
+    "보통": {
+      "base": "usually / normally / average",
+      "morph": "보통(普通) — Sino-Korean: 普(general)+通(pass)",
+      "particle": "보통 + [verb]",
+      "uses": [
+        {
+          "k": "보통 7시에 일어나요.",
+          "e": "I usually get up at 7."
+        },
+        {
+          "k": "보통 어때요?",
+          "e": "How is it usually?"
+        },
+        {
+          "k": "보통이에요.",
+          "e": "It's average / just okay."
+        }
+      ],
+      "note": "보통 = usually (frequency) AND ordinary/average (adjective). Context tells which.",
+      "level": "A1"
+    },
+    "별로": {
+      "base": "not really / not particularly",
+      "morph": "별로 — always with negative",
+      "particle": "별로 + [negative verb]",
+      "uses": [
+        {
+          "k": "별로 안 좋아요.",
+          "e": "Not really good."
+        },
+        {
+          "k": "별로예요.",
+          "e": "It's not great."
+        },
+        {
+          "k": "별로 안 먹어요.",
+          "e": "I don't really eat it."
+        }
+      ],
+      "note": "별로 ALWAYS pairs with a negative. 별로 좋아요 ✗. 별로 안 좋아요 ✓.",
+      "level": "A1"
+    },
+    "전혀": {
+      "base": "not at all / absolutely not",
+      "morph": "전혀(全혀) — from 전(全/complete) + 혀",
+      "particle": "전혀 + [negative verb]",
+      "uses": [
+        {
+          "k": "전혀 몰라요.",
+          "e": "I have absolutely no idea."
+        },
+        {
+          "k": "전혀 없어요.",
+          "e": "There's absolutely none."
+        },
+        {
+          "k": "전혀 안 매워요.",
+          "e": "It's not spicy at all."
+        }
+      ],
+      "note": "전혀 = absolute zero. Always with negative. Stronger than 별로. 전혀 없어요 = absolutely none.",
+      "level": "A1"
+    },
+    "안녕하세요": {
+      "base": "Hello / Good day (polite)",
+      "morph": "안녕(安寧/peace) + 하세요 (please do/are)",
+      "particle": "standalone greeting",
+      "uses": [
+        {
+          "k": "안녕하세요!",
+          "e": "Hello!"
+        },
+        {
+          "k": "안녕하세요, 저는 사라예요.",
+          "e": "Hello, I'm Sara."
+        },
+        {
+          "k": "선생님, 안녕하세요.",
+          "e": "Hello, teacher."
+        }
+      ],
+      "note": "The universal Korean greeting for all adults and strangers. 안녕 alone = casual (friends only).",
+      "level": "A1"
+    },
+    "감사합니다": {
+      "base": "Thank you (formal)",
+      "morph": "감사(感謝/gratitude) + 합니다 (do-formally)",
+      "particle": "standalone phrase",
+      "uses": [
+        {
+          "k": "감사합니다!",
+          "e": "Thank you!"
+        },
+        {
+          "k": "정말 감사합니다.",
+          "e": "Thank you very much."
+        },
+        {
+          "k": "도와주셔서 감사합니다.",
+          "e": "Thank you for helping."
+        }
+      ],
+      "note": "Most formal 'thank you'. 고맙습니다 is warmer/less stiff. Both take 정말 (really) as intensifier.",
+      "level": "A1"
+    },
+    "고맙습니다": {
+      "base": "Thank you (warm, slightly less formal)",
+      "morph": "고맙다 (to be grateful) + 습니다",
+      "particle": "standalone phrase",
+      "uses": [
+        {
+          "k": "고맙습니다!",
+          "e": "Thank you!"
+        },
+        {
+          "k": "정말 고마워요.",
+          "e": "I'm really grateful. (casual)"
+        },
+        {
+          "k": "고마워!",
+          "e": "Thanks! (casual)"
+        }
+      ],
+      "note": "고맙습니다 is slightly warmer and less stiff than 감사합니다. Both are polite.",
+      "level": "A1"
+    },
+    "괜찮아요": {
+      "base": "it's okay / are you okay / no thanks",
+      "morph": "괜찮다 → 괜찮아요",
+      "particle": "이/가 괜찮아요",
+      "uses": [
+        {
+          "k": "괜찮아요.",
+          "e": "It's okay. / I'm fine."
+        },
+        {
+          "k": "괜찮아요? (to someone)",
+          "e": "Are you okay?"
+        },
+        {
+          "k": "괜찮아요. (declining offer)",
+          "e": "No thank you. (politely declining)"
+        }
+      ],
+      "note": "괜찮아요 has 3 uses: 1) I'm fine 2) Are you okay? 3) Politely declining. Context is everything.",
+      "level": "A1"
+    },
+    "죄송합니다": {
+      "base": "I'm sorry / excuse me (formal)",
+      "morph": "죄송(罪悚/sin-fear) + 합니다 (do-formally)",
+      "particle": "standalone apology",
+      "uses": [
+        {
+          "k": "죄송합니다.",
+          "e": "I'm sorry. (formal)"
+        },
+        {
+          "k": "늦어서 죄송합니다.",
+          "e": "I'm sorry for being late."
+        },
+        {
+          "k": "죄송한데요...",
+          "e": "I'm sorry but... (softener)"
+        }
+      ],
+      "note": "죄송합니다 = formal deep apology. 미안해요 = casual sorry. 실례합니다 = 'excuse me' (passing by).",
+      "level": "A1"
+    },
+    "만나서반갑습니다": {
+      "base": "Nice to meet you (formal)",
+      "morph": "만나서(having met) + 반갑습니다(glad-formally)",
+      "particle": "first meeting phrase",
+      "uses": [
+        {
+          "k": "만나서 반갑습니다!",
+          "e": "Nice to meet you!"
+        },
+        {
+          "k": "처음 뵙겠습니다.",
+          "e": "Meeting you for the first time. (super formal)"
+        },
+        {
+          "k": "반가워요!",
+          "e": "Nice to meet you! (casual)"
+        }
+      ],
+      "note": "만나서 = 'having met'. 반갑다 = glad/pleased. Bow slightly when you say this. Essential first meeting phrase.",
+      "level": "A1"
+    },
+    "잘부탁드립니다": {
+      "base": "I look forward to working with you",
+      "morph": "잘(well) + 부탁(favor) + 드립니다(humbly give-formally)",
+      "particle": "formal introductory phrase",
+      "uses": [
+        {
+          "k": "잘 부탁드립니다.",
+          "e": "Please take care of me. / Looking forward to working with you."
+        },
+        {
+          "k": "앞으로 잘 부탁드립니다.",
+          "e": "I look forward to our future relationship."
+        },
+        {
+          "k": "잘 부탁해요.",
+          "e": "(Casual version) Please take good care of me."
+        }
+      ],
+      "note": "Untranslatable but critical phrase. Said when joining a team, meeting business partners, or starting any new relationship.",
+      "level": "A1"
+    },
+    "가다": {
+      "base": "to go (dictionary form)",
+      "morph": "가 (stem) + 다 (infinitive suffix)",
+      "particle": "에 가다 (destination)",
+      "uses": [
+        {
+          "k": "학교에 가요.",
+          "e": "I go to school."
+        },
+        {
+          "k": "어디에 가요?",
+          "e": "Where are you going?"
+        },
+        {
+          "k": "같이 가요.",
+          "e": "Let's go together."
+        }
+      ],
+      "note": "Dictionary form. Drop 다 → stem 가. Add 요 → 가요. Train metaphor: 가 is the engine.",
+      "level": "A1"
+    },
+    "오다": {
+      "base": "to come (dictionary form)",
+      "morph": "오 (stem) + 다 (infinitive suffix)",
+      "particle": "에 오다 / 에서 오다",
+      "uses": [
+        {
+          "k": "학교에 와요.",
+          "e": "(I) come to school."
+        },
+        {
+          "k": "어디서 와요?",
+          "e": "Where do you come from?"
+        },
+        {
+          "k": "빨리 와요!",
+          "e": "Come quickly!"
+        }
+      ],
+      "note": "Dictionary form of 와요. 오 + 아요 → 와요 (vowel contraction). Stem: 오.",
+      "level": "A1"
+    },
+    "먹다": {
+      "base": "to eat (dictionary form)",
+      "morph": "먹 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 먹다",
+      "uses": [
+        {
+          "k": "밥을 먹어요.",
+          "e": "I eat a meal."
+        },
+        {
+          "k": "뭐 먹어요?",
+          "e": "What are you eating?"
+        },
+        {
+          "k": "잘 먹겠습니다.",
+          "e": "I will eat well."
+        }
+      ],
+      "note": "Dictionary form. 먹 + 어요 → 먹어요. Stem ends in dark vowel ㅓ → takes -어요.",
+      "level": "A1"
+    },
+    "마시다": {
+      "base": "to drink (dictionary form)",
+      "morph": "마시 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 마시다",
+      "uses": [
+        {
+          "k": "커피를 마셔요.",
+          "e": "I drink coffee."
+        },
+        {
+          "k": "물을 마셔요.",
+          "e": "I drink water."
+        },
+        {
+          "k": "뭐 마셔요?",
+          "e": "What are you drinking?"
+        }
+      ],
+      "note": "마시 + 어요 → 마셔요. 이+어 → 여 contraction. Dictionary form shown here.",
+      "level": "A1"
+    },
+    "하다": {
+      "base": "to do (dictionary form)",
+      "morph": "하 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 하다",
+      "uses": [
+        {
+          "k": "공부해요.",
+          "e": "I study."
+        },
+        {
+          "k": "뭐 해요?",
+          "e": "What are you doing?"
+        },
+        {
+          "k": "운동해요.",
+          "e": "I exercise."
+        }
+      ],
+      "note": "Most frequent Korean verb. 하다 + 어요 contracts to 해요. Powers all [noun]+하다 verbs.",
+      "level": "A1"
+    },
+    "보다": {
+      "base": "to see / to watch (dictionary form)",
+      "morph": "보 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 보다",
+      "uses": [
+        {
+          "k": "영화를 봐요.",
+          "e": "I watch a movie."
+        },
+        {
+          "k": "뭐 봐요?",
+          "e": "What are you watching?"
+        },
+        {
+          "k": "한번 봐요.",
+          "e": "Take a look."
+        }
+      ],
+      "note": "보 + 아요 → 봐요. Pure vowel stem. Also means 'to try' in -아/어 보다 form.",
+      "level": "A1"
+    },
+    "읽다": {
+      "base": "to read (dictionary form)",
+      "morph": "읽 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 읽다",
+      "uses": [
+        {
+          "k": "책을 읽어요.",
+          "e": "I read a book."
+        },
+        {
+          "k": "한국어를 읽어요.",
+          "e": "I read Korean."
+        },
+        {
+          "k": "신문을 읽어요.",
+          "e": "I read the newspaper."
+        }
+      ],
+      "note": "읽 + 어요 → 읽어요. The ㄱ in 읽 is pronounced only before a vowel.",
+      "level": "A1"
+    },
+    "쓰다": {
+      "base": "to write / to use (dictionary form)",
+      "morph": "쓰 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 쓰다",
+      "uses": [
+        {
+          "k": "한국어를 써요.",
+          "e": "I write/use Korean."
+        },
+        {
+          "k": "이름을 써 주세요.",
+          "e": "Please write your name."
+        },
+        {
+          "k": "펜을 써요.",
+          "e": "I use a pen."
+        }
+      ],
+      "note": "쓰 + 어요 → 써요. ㅡ-irregular: ㅡ drops before 아/어. Also means 'to wear (hat/glasses)'.",
+      "level": "A1"
+    },
+    "알다": {
+      "base": "to know (dictionary form)",
+      "morph": "알 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 알다",
+      "uses": [
+        {
+          "k": "알아요.",
+          "e": "I know."
+        },
+        {
+          "k": "그 사람 알아요?",
+          "e": "Do you know that person?"
+        },
+        {
+          "k": "뭐 알아요?",
+          "e": "What do you know?"
+        }
+      ],
+      "note": "ㄹ-irregular in some forms. 알아요 is regular. Pair with 모르다 (don't know).",
+      "level": "A1"
+    },
+    "모르다": {
+      "base": "to not know (dictionary form)",
+      "morph": "모르 (stem) + 다 (infinitive suffix)",
+      "particle": "을/를 모르다",
+      "uses": [
+        {
+          "k": "몰라요.",
+          "e": "I don't know."
+        },
+        {
+          "k": "그 사람을 몰라요.",
+          "e": "I don't know that person."
+        },
+        {
+          "k": "진짜 몰라요.",
+          "e": "I really don't know."
+        }
+      ],
+      "note": "⚡ JRTF: 모르다 → 몰라요 (ㄹ-irregular). Drop ㄹ before ㅏ/ㅗ and double: 몰+라요.",
+      "level": "A1"
+    },
+    "주다": {
+      "base": "to give (dictionary form)",
+      "morph": "주 (stem) + 다 (infinitive suffix)",
+      "particle": "에게 / 한테 주다",
+      "uses": [
+        {
+          "k": "물 주세요.",
+          "e": "Water, please."
+        },
+        {
+          "k": "친구한테 줘요.",
+          "e": "I give (it) to a friend."
+        },
+        {
+          "k": "선물을 줬어요.",
+          "e": "I gave a gift."
+        }
+      ],
+      "note": "주다 → 주세요 = 'please give'. 주 + 어요 → 줘요. Pairs with 받다 (to receive).",
+      "level": "A1"
+    },
+    "좋다": {
+      "base": "to be good / to like (dictionary form)",
+      "morph": "좋 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 좋다",
+      "uses": [
+        {
+          "k": "이게 좋아요.",
+          "e": "This is good / I like this."
+        },
+        {
+          "k": "뭐가 좋아요?",
+          "e": "What do you like?"
+        },
+        {
+          "k": "날씨가 좋아요.",
+          "e": "The weather is good."
+        }
+      ],
+      "note": "좋다 = BOTH 'to be good' AND 'to like'. 좋 + 아요 → 좋아요.",
+      "level": "A1"
+    },
+    "싫다": {
+      "base": "to dislike (dictionary form)",
+      "morph": "싫 (stem) + 다 (infinitive suffix)",
+      "particle": "이/가 싫다",
+      "uses": [
+        {
+          "k": "이거 싫어요.",
+          "e": "I don't like this."
+        },
+        {
+          "k": "공부가 싫어요.",
+          "e": "I dislike studying."
+        },
+        {
+          "k": "밥 싫어요.",
+          "e": "I don't want rice."
+        }
+      ],
+      "note": "싫 + 어요 → 싫어요. More direct/emotional than 안 좋아요.",
+      "level": "A1"
+    },
+    "의사": {
+      "base": "doctor",
+      "morph": "의(醫/medicine) + 사(師/expert) — Sino-Korean",
+      "particle": "이에요/예요 / 이/가",
+      "uses": [
+        {
+          "k": "의사예요.",
+          "e": "I'm a doctor."
+        },
+        {
+          "k": "의사 선생님이에요.",
+          "e": "He/she is a doctor. (respectful)"
+        },
+        {
+          "k": "의사한테 가요.",
+          "e": "I'm going to the doctor."
+        }
+      ],
+      "note": "사(師) = expert in a field. 의사, 요리사, 간호사 all share this 사 morpheme.",
+      "level": "A1"
+    },
+    "선생": {
+      "base": "teacher (informal base word)",
+      "morph": "선(先/before/first) + 생(生/birth/person) — Sino-Korean",
+      "particle": "선생님 (with honorific)",
+      "uses": [
+        {
+          "k": "선생님이에요.",
+          "e": "I'm a teacher."
+        },
+        {
+          "k": "영어 선생님이에요.",
+          "e": "I'm an English teacher."
+        },
+        {
+          "k": "선생님한테 물어봐요.",
+          "e": "Ask the teacher."
+        }
+      ],
+      "note": "선생 alone is informal. Always add 님 in actual use: 선생님. 님 = respect honorific suffix.",
+      "level": "A1"
+    },
+    "회사원": {
+      "base": "office worker / company employee",
+      "morph": "회사(會社/company) + 원(員/member) — Sino-Korean",
+      "particle": "이에요/예요",
+      "uses": [
+        {
+          "k": "회사원이에요.",
+          "e": "I'm an office worker."
+        },
+        {
+          "k": "회사원이 되고 싶어요.",
+          "e": "I want to become an office worker."
+        },
+        {
+          "k": "회사원 생활이 어때요?",
+          "e": "How is office worker life?"
+        }
+      ],
+      "note": "원(員) = member/person. 회사원, 공무원, 병원 all use 원 (though 병원의 원 = place, not person).",
+      "level": "A1"
+    },
+    "카페": {
+      "base": "café",
+      "morph": "Konglish — from French 'café'",
+      "particle": "에 가요 / 에서 마셔요",
+      "uses": [
+        {
+          "k": "카페에 가요.",
+          "e": "I go to the café."
+        },
+        {
+          "k": "카페에서 공부해요.",
+          "e": "I study at the café."
+        },
+        {
+          "k": "카페 어디 있어요?",
+          "e": "Where's a café?"
+        }
+      ],
+      "note": "Korea has one of the world's highest café densities. 카페 culture = 공부, 미팅, 데이트.",
+      "level": "A1"
+    },
+    "병원": {
+      "base": "hospital / clinic",
+      "morph": "병(病/illness) + 원(院/institution) — Sino-Korean",
+      "particle": "에 가요",
+      "uses": [
+        {
+          "k": "병원에 가요.",
+          "e": "I go to the hospital."
+        },
+        {
+          "k": "병원이 어디예요?",
+          "e": "Where is the hospital?"
+        },
+        {
+          "k": "병원에 예약했어요.",
+          "e": "I made a hospital appointment."
+        }
+      ],
+      "note": "병원 = any medical facility. 종합병원 = general hospital. 의원 = small clinic.",
+      "level": "A1"
+    },
+    "도서관": {
+      "base": "library",
+      "morph": "도서(圖書/books) + 관(館/building) — Sino-Korean",
+      "particle": "에 가요 / 에서 공부해요",
+      "uses": [
+        {
+          "k": "도서관에서 공부해요.",
+          "e": "I study at the library."
+        },
+        {
+          "k": "도서관이 어디예요?",
+          "e": "Where is the library?"
+        },
+        {
+          "k": "도서관에 책이 많아요.",
+          "e": "There are many books in the library."
+        }
+      ],
+      "note": "관(館) = public building. 관 reappears in: 미술관 (art museum), 박물관 (museum), 체육관 (gym).",
+      "level": "A1"
+    }
+  }
+}

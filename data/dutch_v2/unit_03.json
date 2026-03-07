@@ -1,0 +1,2425 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 3,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Numbers & Time",
+    "sub": "Counting, Clock & Days",
+    "icon": "🔢",
+    "level": "A1.1",
+    "color": "#2ECDA7"
+  },
+  "lessons": [
+    {
+      "id": "v2u3l1",
+      "title": "Numbers 11–100",
+      "icon": "🔢",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Numbers 11–100",
+          "desc": "Dutch numbers follow clear patterns. Above twenty, digits REVERSE: 'eenentwintig' = one-and-twenty.",
+          "goals": [
+            "Count the teens (11–19)",
+            "Learn the reversed digit order (20+)",
+            "Count by tens to 100",
+            "Spot the one irregular ten"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "elf",
+          "en": "eleven",
+          "phonetic": "elf",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "eleven"
+              },
+              {
+                "lang": "German",
+                "word": "elf"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Zij is elf jaar oud.",
+          "exampleEn": "She is eleven years old.",
+          "note": "Irregular, just memorize it. Good news: it's identical in German.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "twaalf",
+          "en": "twelve",
+          "phonetic": "tvahf",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "twelve"
+              },
+              {
+                "lang": "German",
+                "word": "zwölf"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Er zijn twaalf kinderen.",
+          "exampleEn": "There are twelve children.",
+          "note": "Irregular — just memorize it, like English.\n'tw' sounds like English 'tv'.\nFrom 13 onward, the pattern kicks in.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🧠 Just Like English",
+          "text": "Eleven and twelve are irregular in Dutch, English, AND German:\n\n• 11: elf / eleven / elf\n• 12: twaalf / twelve / zwölf\n\nFrom 13 onward, there's a pattern: [number] + tien.\nJust like English: thir-teen, four-teen, fif-teen."
+        },
+        {
+          "type": "teach",
+          "nl": "dertien",
+          "en": "thirteen",
+          "phonetic": "DAIR-teen",
+          "example": "Zij is dertien jaar oud.",
+          "exampleEn": "She is thirteen years old.",
+          "note": "drie → der + tien. The vowel shortens.\nSame in English: three → thir-teen.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "veertien",
+          "en": "fourteen",
+          "phonetic": "FAIR-teen",
+          "example": "Ik ben veertien jaar oud.",
+          "exampleEn": "I am fourteen years old.",
+          "note": "vier → veer + tien. Again the vowel shifts slightly. Pattern: [modified number] + tien.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vijftien",
+          "en": "fifteen",
+          "phonetic": "VAYF-teen",
+          "example": "Er zijn vijftien studenten.",
+          "exampleEn": "There are fifteen students.",
+          "note": "vijf + tien, straightforward. No vowel change needed here.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🔢 The Teen Pattern",
+          "text": "[number] + tien = teen. Some vowels shift:\n\n• 13: dertien (drie → der)\n• 14: veertien (vier → veer)\n• 15: vijftien\n• 16: zestien\n• 17: zeventien\n• 18: achttien (acht + tien = achttien, double t!)\n• 19: negentien\n\nCompare English: thir-teen, four-teen, fif-teen.\nSame system, same Germanic family."
+        },
+        {
+          "type": "mc",
+          "q": "Which is 'thirteen' in Dutch?",
+          "opts": [
+            "veertien",
+            "dertien",
+            "vijftien",
+            "twaalf"
+          ],
+          "ans": "dertien",
+          "hint": "drie → der + tien"
+        },
+        {
+          "type": "fb",
+          "s": "Elf, ___, dertien, veertien...",
+          "a": "twaalf",
+          "opts": [
+            "twaalf",
+            "twintig",
+            "tien",
+            "dertien"
+          ],
+          "hint": "Count in order from 11"
+        },
+        {
+          "type": "teach",
+          "nl": "twintig",
+          "en": "twenty",
+          "phonetic": "TVIN-tug",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "zwanzig"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik ben twintig jaar oud.",
+          "exampleEn": "I am twenty years old.",
+          "note": "The first round number above the teens. From here on, a BIG rule kicks in.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "eenentwintig",
+          "en": "twenty-one",
+          "phonetic": "AYN-en-TVIN-tug",
+          "example": "Hij is eenentwintig jaar oud.",
+          "exampleEn": "He is twenty-one years old.",
+          "note": "een + en + twintig = one-and-twenty.\nUnit BEFORE ten. All 20+ numbers work this way.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "✏️ The Trema: ë, ï",
+          "text": "When two vowels collide across syllables, Dutch adds dots (a trema):\n\ntwee + en = tweeën (not 'tweeen')\ndrie + en = drieën (not 'drieen')\n\nThe dots say: 'new syllable starts here!'",
+          "deepDive": {
+            "title": "Where else do you see the trema?",
+            "text": "In numbers:\n• 22 = tweeëntwintig\n• 23 = drieëntwintig\n• 33 = drieëndertig\n\nIn country names:\n• België (Belgium)\n• Italië (Italy)\n\nAlso in some common words:\n• ruïne (ruin)\n• geïnteresseerd (interested)\n\nThe trema prevents Dutch readers from misreading the vowel clusters."
+          }
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ The Big Reversal",
+          "text": "Dutch says the unit BEFORE the ten:\n\n• 21 = eenentwintig (one-and-twenty)\n• 23 = drieëntwintig (three-and-twenty)\n• 35 = vijfendertig (five-and-thirty)\n• 42 = tweeënveertig (two-and-forty)\n• 99 = negenennegentig (nine-and-ninety)\n\nThe pattern: [unit] + en + [ten]\n\nEnglish used to do this too: 'four-and-twenty blackbirds baked in a pie.' Dutch just kept doing it!"
+        },
+        {
+          "type": "teach",
+          "nl": "dertig",
+          "en": "thirty",
+          "phonetic": "DAIR-tug",
+          "example": "Hij is dertig jaar oud.",
+          "exampleEn": "He is thirty years old.",
+          "note": "Pattern: [modified number] + tig. Same vowel shifts as the teens: drie → der.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "veertig",
+          "en": "forty",
+          "phonetic": "FAIR-tug",
+          "example": "Hij is veertig jaar oud.",
+          "exampleEn": "He is forty years old.",
+          "note": "vier → veer + tig. Same vowel shift as veertien. The pattern is consistent.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🔢 The Tens: 50, 60, 70",
+          "text": "After veertig, the pattern continues:\n\n• 50 = vijftig (vijf + tig)\n• 60 = zestig (zes + tig)\n• 70 = zeventig (zeven + tig)\n\nAll predictable: [number] + tig.\nBut watch out for the NEXT one..."
+        },
+        {
+          "type": "teach",
+          "nl": "tachtig",
+          "en": "eighty",
+          "phonetic": "TAHG-tug",
+          "example": "Hij is tachtig jaar oud.",
+          "exampleEn": "He is eighty years old.",
+          "note": "The odd one out! NOT 'achtig' but 'tachtig'. The only irregular ten. Just memorize this one.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "negentig",
+          "en": "ninety",
+          "phonetic": "NAY-gun-tug",
+          "example": "Zij is negentig jaar oud.",
+          "exampleEn": "She is ninety years old.",
+          "note": "Back to the predictable formula: negen + tig. Only tachtig (80) breaks the rule.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "honderd",
+          "en": "hundred",
+          "phonetic": "HON-durt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "hundred"
+              },
+              {
+                "lang": "German",
+                "word": "hundert"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Er zijn honderd studenten.",
+          "exampleEn": "There are a hundred students.",
+          "note": "Almost identical across all three Germanic languages.\nAfter honderd, the reversal continues: honderdeenentwintig = 121.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "'Eenentwintig' means:",
+          "opts": [
+            "twelve",
+            "thirty-one",
+            "twenty",
+            "twenty-one"
+          ],
+          "ans": "twenty-one",
+          "hint": "een + en + twintig"
+        },
+        {
+          "type": "fb",
+          "s": "Twintig, ___, veertig, vijftig...",
+          "a": "dertig",
+          "opts": [
+            "dertig",
+            "dertien",
+            "drie",
+            "negentig"
+          ],
+          "hint": "Count the tens in order"
+        },
+        {
+          "type": "drag_fill",
+          "s": "23 = {1}. 47 = {2}.",
+          "blanks": {
+            "1": "drieëntwintig",
+            "2": "zevenenveertig"
+          },
+          "pool": [
+            "drieëntwintig",
+            "zevenenveertig",
+            "drieëndertien",
+            "vierenzeventig"
+          ],
+          "hint": "Unit first, then the ten"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "elf",
+              "en": "eleven"
+            },
+            {
+              "nl": "twintig",
+              "en": "twenty"
+            },
+            {
+              "nl": "vijftig",
+              "en": "fifty"
+            },
+            {
+              "nl": "honderd",
+              "en": "hundred"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Which number is the irregular ten?",
+          "opts": [
+            "tachtig (80)",
+            "zestig (60)",
+            "zeventig (70)",
+            "negentig (90)"
+          ],
+          "ans": "tachtig (80)",
+          "hint": "NOT 'achtig' — the only ten that breaks the pattern"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l2",
+      "title": "Regular Present Tense",
+      "icon": "📐",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Regular Present Tense",
+          "desc": "Every verb you've seen changes the same way. Time to name the rule: find the stam (stem), add -t or -en. Done.",
+          "goals": [
+            "Learn what a 'stam' (stem) is",
+            "Apply the stam+t rule",
+            "Conjugate werken (to work)",
+            "Conjugate leren (to learn)",
+            "Conjugate ANY regular verb"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🔍 Spot the Pattern",
+          "text": "Look at the three verbs you already know side by side:\n\nKOMEN:   ik kom,  jij komt,  wij komen\nSPREKEN: ik spreek, jij spreekt, wij spreken\nWONEN:   ik woon,  jij woont,  wij wonen\n\nSee it?\n\n• ik always gets the SHORT form.\n• jij always ADDS -t.\n• wij always uses the INFINITIVE.\n\nThis is not a coincidence. It's a RULE. Let's name it."
+        },
+        {
+          "type": "verb_table",
+          "title": "The Pattern Revealed",
+          "label": "Three Verbs Side by Side",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "kom / spreek / woon",
+                  "en": "I come / speak / live"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "komt / spreekt / woont",
+                  "en": "you come / speak / live"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "komt / spreekt / woont",
+                  "en": "you come / speak / live (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij / zij / het",
+                  "form": "komt / spreekt / woont",
+                  "en": "he / she / it comes / speaks / lives"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "komen / spreken / wonen",
+                  "en": "we come / speak / live"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "komen / spreken / wonen",
+                  "en": "you all come / speak / live"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "komen / spreken / wonen",
+                  "en": "they come / speak / live"
+                }
+              ]
+            }
+          ],
+          "note": "Three different verbs, same endings every time.\nik = stam, jij/u/hij/zij/het = stam + t, wij/jullie/zij = infinitive."
+        },
+        {
+          "type": "teach",
+          "nl": "de stam",
+          "en": "the stem (of a verb)",
+          "phonetic": "duh stahm",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "der Stamm"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De stam van 'werken' is 'werk'.",
+          "exampleEn": "The stem of 'werken' is 'werk'.",
+          "note": "Remove '-en' from any infinitive → that's the stam.\nThis one concept unlocks every regular verb.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📐 The Stam+t Rule",
+          "text": "Three steps to conjugate ANY regular Dutch verb:\n\n1. Take the infinitive: werken\n2. Remove -en → the stam: werk\n3. Apply the endings:\n\n• ik = stam → ik werk\n• jij/u/hij/zij/het = stam + t → jij werkt\n• wij/jullie/zij = infinitive → wij werken\n\nThat's it. This is called the 'regular present tense.'\nEvery regular verb in Dutch follows these three steps.",
+          "deepDive": {
+            "title": "Why 'ik kom' but 'ik woon'?",
+            "text": "When you remove -en, the spelling sometimes changes. There are TWO types:\n\nSHORT-VOWEL VERBS (vowel stays short):\n• ko-men → kom (short 'o', just remove -en)\n• wer-ken → werk (short 'e', just remove -en)\n\nLONG-VOWEL VERBS (vowel must stay long):\n• wo-nen → woon (long 'o', so you DOUBLE it)\n• le-ren → leer (long 'e', so you DOUBLE it)\n\nWhy? In 'wo-nen', the open syllable keeps the 'o' long with one letter. But 'won' is a closed syllable — one 'o' would sound short. So Dutch doubles it: 'woon'.\n\nIn 'ko-men', the 'o' is naturally short. 'Kom' in a closed syllable is already correct.\n\nThe Foundations spelling rules explain exactly when to double and when not to."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "werken",
+          "en": "to work",
+          "phonetic": "VAIR-kun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "work"
+              },
+              {
+                "lang": "German",
+                "word": "Werk"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik werk in Amsterdam.",
+          "exampleEn": "I work in Amsterdam.",
+          "note": "Stam = werk. A clean regular verb. The 'w' sounds like English 'v'. You'll use this one every day.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "ik werk",
+          "en": "I work",
+          "phonetic": "ik vairk",
+          "example": "Ik werk in een school.",
+          "exampleEn": "I work in a school.",
+          "note": "Stam alone, no ending. 'Werk' has a short 'e' in a closed syllable — no spelling surprises.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "hij werkt",
+          "en": "he works",
+          "phonetic": "hay vairkt",
+          "example": "Hij werkt in Amsterdam.",
+          "exampleEn": "He works in Amsterdam.",
+          "note": "Stam + t. Same rule as 'hij komt', 'hij spreekt', 'hij woont'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "verb_table",
+          "title": "Werken: to work",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "werk",
+                  "en": "I work"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "werkt",
+                  "en": "you work"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "werkt",
+                  "en": "you work (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "werkt",
+                  "en": "he works"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "werkt",
+                  "en": "she works"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "werkt",
+                  "en": "it works"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "werken",
+                  "en": "we work"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "werken",
+                  "en": "you all work"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "werken",
+                  "en": "they work"
+                }
+              ]
+            }
+          ],
+          "note": "Stam = werk. ik werk, jij werkt, wij werken.\nSame pattern as komen, spreken, wonen!"
+        },
+        {
+          "type": "teach",
+          "nl": "leren",
+          "en": "to learn / to teach",
+          "phonetic": "LAY-run",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "lernen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "also": "'Leren' also means 'to teach': 'Zij leert ons Nederlands.' = She teaches us Dutch.",
+          "example": "Ik leer Nederlands.",
+          "exampleEn": "I learn Dutch.",
+          "note": "Stam = leer. Long-vowel verb: 'ee' doubles.\nYou are doing this right now!",
+          "deepDive": "le-ren → leer.\nOpen syllable (le-) became closed (leer).\nTo keep the long vowel → double: 'ee'.\nSame pattern as spre-ken → spreek, wo-nen → woon.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zij leert",
+          "en": "she learns / she teaches",
+          "phonetic": "zay layrt",
+          "example": "Zij leert Nederlands op school.",
+          "exampleEn": "She learns Dutch at school.",
+          "note": "Stam + t = leert. Same rule, always.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🔑 Three Steps, Any Verb",
+          "text": "ALL regular verbs follow the same rule:\n\n1. Find the infinitive (e.g. werken)\n2. Remove -en → stam (werk)\n3. ik = stam, jij = stam+t, wij = stam+en\n\nThat's it. Works for every regular verb.",
+          "deepDive": {
+            "title": "Your five verbs so far",
+            "text": "• komen → stam: kom → ik kom, jij komt, wij komen\n• spreken → stam: spreek → ik spreek, jij spreekt, wij spreken\n• wonen → stam: woon → ik woon, jij woont, wij wonen\n• werken → stam: werk → ik werk, jij werkt, wij werken\n• leren → stam: leer → ik leer, jij leert, wij leren\n\nFrom now on, every new regular verb you meet, just find the stam and apply the rule."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "What is the stam of 'werken'?",
+          "opts": [
+            "werkt",
+            "wer",
+            "werk",
+            "werken"
+          ],
+          "ans": "werk",
+          "hint": "Remove -en from the infinitive"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ Nederlands op school.",
+          "a": "leert",
+          "opts": [
+            "leert",
+            "leer",
+            "leren",
+            "werkt"
+          ],
+          "hint": "zij = stam + t"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ___ Nederlands.' — Which verb fits?",
+          "opts": [
+            "leert",
+            "leer",
+            "leren",
+            "leeren"
+          ],
+          "ans": "leer",
+          "hint": "ik = stam alone, no -t"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} in Amsterdam. Hij {2} Nederlands.",
+          "blanks": {
+            "1": "werk",
+            "2": "leert"
+          },
+          "pool": [
+            "werk",
+            "leert",
+            "werkt",
+            "leren"
+          ],
+          "hint": "ik = stam, hij = stam + t"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "werken",
+              "en": "to work"
+            },
+            {
+              "nl": "leren",
+              "en": "to learn"
+            },
+            {
+              "nl": "de stam",
+              "en": "the stem"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Wij ___ in een restaurant.'",
+          "opts": [
+            "werk",
+            "werkt",
+            "komt",
+            "werken"
+          ],
+          "ans": "werken",
+          "hint": "wij = infinitive form"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_she_works_amsterdam",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_i_learn_dutch",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l3",
+      "title": "Hoe laat is het?",
+      "icon": "🕐",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Hoe laat is het?",
+          "desc": "Telling time in Dutch starts simple: number + 'uur'. But Dutch tells time BACKWARDS from English.",
+          "goals": [
+            "Ask and answer 'What time is it?'",
+            "Tell whole hours",
+            "Use 'om' for appointments"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "hoe laat",
+          "en": "what time",
+          "phonetic": "hoo laht",
+          "example": "Hoe laat is het?",
+          "exampleEn": "What time is it?",
+          "note": "Literally: 'how late'.\nDutch asks 'how late' instead of 'what time'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het uur",
+          "en": "the hour / o'clock",
+          "phonetic": "hut oor",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "hour"
+              },
+              {
+                "lang": "German",
+                "word": "Uhr"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het is drie uur.",
+          "exampleEn": "It is three o'clock.",
+          "note": "'Het' word. Also means 'hour'.\nDrie uur = three o'clock OR three hours.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het is ... uur",
+          "en": "it is ... o'clock",
+          "phonetic": "hut is ... oor",
+          "example": "Het is zeven uur.",
+          "exampleEn": "It is seven o'clock.",
+          "note": "Formula: het is + number + uur.\nSimple as that for whole hours!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🕐 Whole Hours",
+          "text": "het is één uur = 1:00\nhet is twee uur = 2:00\nhet is drie uur = 3:00\nhet is vier uur = 4:00\n...\nhet is twaalf uur = 12:00\n\nNotice: 'één' gets the accent marks to distinguish it from 'een' (a/an)."
+        },
+        {
+          "type": "teach",
+          "nl": "om",
+          "en": "at (time)",
+          "phonetic": "om",
+          "example": "Ik werk om negen uur.",
+          "exampleEn": "I work at nine o'clock.",
+          "note": "'Om' = at (for times).\n'Om hoe laat?' = At what time?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "'s ochtends",
+          "en": "in the morning",
+          "phonetic": "SOGG-tunts",
+          "example": "Ik werk 's ochtends.",
+          "exampleEn": "I work in the morning.",
+          "note": "The 's = contraction of 'des' (old genitive).\nYou'll see this pattern in all time-of-day words.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "'s middags",
+          "en": "in the afternoon",
+          "phonetic": "SMID-dahgs",
+          "example": "Om drie uur 's middags.",
+          "exampleEn": "At three o'clock in the afternoon.",
+          "note": "Same 's pattern.\nMiddag = midday/afternoon.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "'s avonds",
+          "en": "in the evening",
+          "phonetic": "SAH-vonts",
+          "example": "Om acht uur 's avonds.",
+          "exampleEn": "At eight o'clock in the evening.",
+          "note": "Same 's pattern.\nAvond = evening.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🌅 Time of Day",
+          "text": "Dutch uses these time markers:\n\n's ochtends = in the morning (6-12)\n's middags = in the afternoon (12-18)\n's avonds = in the evening (18-24)\n's nachts = at night (0-6)\n\nThey go AFTER the time:\nOm acht uur 's ochtends = At 8 in the morning."
+        },
+        {
+          "type": "mc",
+          "q": "'Hoe laat is het?' means:",
+          "opts": [
+            "How are you?",
+            "What time is it?",
+            "Where is it?",
+            "How much is it?"
+          ],
+          "ans": "What time is it?",
+          "hint": "'Hoe laat' = how late"
+        },
+        {
+          "type": "fb",
+          "s": "Het is vijf ___.",
+          "a": "uur",
+          "opts": [
+            "uur",
+            "laat",
+            "om",
+            "is"
+          ],
+          "hint": "5:00"
+        },
+        {
+          "type": "mc",
+          "q": "'Om negen uur' means:",
+          "opts": [
+            "Nine hours",
+            "At nine o'clock",
+            "Nine minutes",
+            "It's nine"
+          ],
+          "ans": "At nine o'clock",
+          "hint": "'Om' = at (time)"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik werk {1} acht uur {2}.",
+          "blanks": {
+            "1": "om",
+            "2": "'s ochtends"
+          },
+          "pool": [
+            "om",
+            "'s ochtends",
+            "uur",
+            "laat"
+          ],
+          "hint": "I work at 8 in the morning"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "hoe laat?",
+              "en": "what time?"
+            },
+            {
+              "nl": "het uur",
+              "en": "the hour"
+            },
+            {
+              "nl": "om",
+              "en": "at (time)"
+            },
+            {
+              "nl": "'s avonds",
+              "en": "in the evening"
+            }
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u3_seven_oclock",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_work_nine",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l4",
+      "title": "Half & Kwart",
+      "icon": "🕧",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Half & Kwart",
+          "desc": "This is where Dutch time gets WEIRD. 'Half drie' does NOT mean 3:30. It means 2:30. Yes, really. Plus: kwart over and kwart voor.",
+          "goals": [
+            "Understand the 'half' trap",
+            "Tell quarter past and quarter to",
+            "Convert between Dutch and English time"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "over",
+          "en": "past (time)",
+          "phonetic": "OH-vur",
+          "example": "Het is tien over drie.",
+          "exampleEn": "It is ten past three. (3:10)",
+          "note": "'Over' = past/after.\nMinutes OVER the hour.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "voor",
+          "en": "to / before (time)",
+          "phonetic": "fohr",
+          "example": "Het is tien voor vier.",
+          "exampleEn": "It is ten to four. (3:50)",
+          "note": "'Voor' = to/before.\nMinutes BEFORE the hour.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "kwart",
+          "en": "quarter",
+          "phonetic": "kvart",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "quarter"
+              },
+              {
+                "lang": "German",
+                "word": "Viertel"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het is kwart over twee.",
+          "exampleEn": "It is quarter past two. (2:15)",
+          "note": "kwart over = quarter past.\nkwart voor = quarter to.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "⏰ Over & Voor",
+          "text": "Minutes PAST the hour = over:\nhet is vijf over drie = 3:05\nhet is tien over drie = 3:10\nhet is kwart over drie = 3:15\n\nMinutes TO the hour = voor:\nhet is tien voor vier = 3:50\nhet is kwart voor vier = 3:45\n\nSo far, same as English. Now the trap..."
+        },
+        {
+          "type": "teach",
+          "nl": "half",
+          "en": "half (past)",
+          "phonetic": "hahlf",
+          "example": "Het is half drie.",
+          "exampleEn": "It is half past two. (2:30!)",
+          "note": "⚠️ BIGGEST TRAP!\n'Half drie' = 2:30, NOT 3:30!\nDutch counts TOWARD the next hour.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ The Half Trap",
+          "text": "In English: 'half past two' = 2:30 (looking BACK)\nIn Dutch: 'half drie' = 2:30 (looking FORWARD to 3)\nIn German: 'halb drei' = 2:30 (same as Dutch!)\n\nhalf twee = 1:30\nhalf drie = 2:30\nhalf vier = 3:30\nhalf vijf = 4:30\n\nRule: half + NUMBER = (NUMBER minus 1):30\n\nThis WILL confuse you. It confuses everyone. Drill it!",
+          "deepDive": {
+            "title": "Why does Dutch count forward?",
+            "text": "Dutch (and German) think of 'half' as 'halfway TO' the next hour.\n\nhalf drie = halfway to three = 2:30\n\nEnglish thinks of 'half past' as 'half an hour PAST' the current hour.\n\nhalf past two = two plus half an hour = 2:30\n\nSame time, opposite mental model. Dutch looks forward, English looks back. This is the single biggest time-telling mistake for English speakers."
+          }
+        },
+        {
+          "type": "tip",
+          "title": "🕐 The Full Clock",
+          "text": "3:00 = drie uur\n3:15 = kwart over drie\n3:30 = half vier (NOT half drie!)\n3:45 = kwart voor vier\n\nKey: 3:20–3:40 all reference 'half vier'.",
+          "deepDive": {
+            "title": "Full 5-minute chart",
+            "text": "3:00 = drie uur\n3:05 = vijf over drie\n3:10 = tien over drie\n3:15 = kwart over drie\n3:20 = tien voor half vier\n3:25 = vijf voor half vier\n3:30 = half vier\n3:35 = vijf over half vier\n3:40 = tien over half vier\n3:45 = kwart voor vier\n3:50 = tien voor vier\n3:55 = vijf voor vier\n4:00 = vier uur"
+          }
+        },
+        {
+          "type": "mc",
+          "q": "'Half vijf' = ?",
+          "opts": [
+            "5:30",
+            "4:30",
+            "5:00",
+            "4:00"
+          ],
+          "ans": "4:30",
+          "hint": "Half TO five"
+        },
+        {
+          "type": "mc",
+          "q": "'Kwart over twee' = ?",
+          "opts": [
+            "2:15",
+            "1:45",
+            "2:45",
+            "1:15"
+          ],
+          "ans": "2:15",
+          "hint": "Quarter PAST two"
+        },
+        {
+          "type": "fb",
+          "s": "Het is ___ voor zes. (= 5:45)",
+          "a": "kwart",
+          "opts": [
+            "kwart",
+            "half",
+            "tien",
+            "vijf"
+          ],
+          "hint": "Quarter to six"
+        },
+        {
+          "type": "mc",
+          "q": "'Half elf' = ?",
+          "opts": [
+            "11:30",
+            "10:30",
+            "10:00",
+            "11:00"
+          ],
+          "ans": "10:30",
+          "hint": "Half TO eleven"
+        },
+        {
+          "type": "mc",
+          "q": "2:30 in Dutch is:",
+          "opts": [
+            "half twee",
+            "half drie",
+            "twee uur",
+            "kwart over twee"
+          ],
+          "ans": "half drie",
+          "hint": "Count FORWARD to the next hour"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Het is {1} {2} negen. (= 9:15)",
+          "blanks": {
+            "1": "kwart",
+            "2": "over"
+          },
+          "pool": [
+            "kwart",
+            "over",
+            "voor",
+            "half"
+          ],
+          "hint": "Quarter past nine"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "half drie",
+              "en": "2:30"
+            },
+            {
+              "nl": "kwart voor acht",
+              "en": "7:45"
+            },
+            {
+              "nl": "kwart over zes",
+              "en": "6:15"
+            },
+            {
+              "nl": "half tien",
+              "en": "9:30"
+            }
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u3_half_past_two",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_quarter_past_nine",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l5",
+      "title": "Days of the Week",
+      "icon": "📅",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Dagen van de Week",
+          "desc": "Seven days, all ending in '-dag'. Dutch does NOT capitalize them. Plus: 'op' for 'on' with days.",
+          "goals": [
+            "All 7 days of the week",
+            "Say 'on Monday', 'on Friday'",
+            "Conjugate doen (to do)",
+            "Ask 'Wat doe je op...?'"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de dag",
+          "en": "the day",
+          "phonetic": "duh dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "day"
+              },
+              {
+                "lang": "German",
+                "word": "Tag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Welke dag is het vandaag?",
+          "exampleEn": "What day is it today?",
+          "note": "Same word as the greeting 'dag'!\nPlural: dagen.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "vandaag",
+          "en": "today",
+          "phonetic": "fan-DAHG",
+          "example": "Vandaag is het maandag.",
+          "exampleEn": "Today is Monday.",
+          "note": "Van + daag = from + day.\nLiterally: 'from this day'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "maandag",
+          "en": "Monday",
+          "phonetic": "MAHN-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Monday (moon-day)"
+              },
+              {
+                "lang": "German",
+                "word": "Montag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op maandag werk ik.",
+          "exampleEn": "On Monday I work.",
+          "note": "Maan + dag = moon + day.\nSame as English! NOT capitalized.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "dinsdag",
+          "en": "Tuesday",
+          "phonetic": "DINZ-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Dienstag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op dinsdag leer ik Nederlands.",
+          "exampleEn": "On Tuesday I learn Dutch.",
+          "note": "Named after the god Tyr (Tiw's day).\nNot capitalized in Dutch.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "woensdag",
+          "en": "Wednesday",
+          "phonetic": "VOONS-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Wednesday (Woden's day)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Woensdag is de helft van de week.",
+          "exampleEn": "Wednesday is the middle of the week.",
+          "note": "Named after Wodan/Odin.\nEnglish: Woden's day → Wednesday.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "donderdag",
+          "en": "Thursday",
+          "phonetic": "DON-dur-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Thursday (Thor's day)"
+              },
+              {
+                "lang": "German",
+                "word": "Donnerstag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op donderdag werkt hij.",
+          "exampleEn": "On Thursday he works.",
+          "note": "Donder = thunder. Thor's day!\nGerman: Donnerstag = thunder-day.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vrijdag",
+          "en": "Friday",
+          "phonetic": "VRAY-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Friday (Freya's day)"
+              },
+              {
+                "lang": "German",
+                "word": "Freitag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Vrijdag is de beste dag!",
+          "exampleEn": "Friday is the best day!",
+          "note": "Named after goddess Freya/Frigga.\nEnglish: Friday = Freya's day.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zaterdag",
+          "en": "Saturday",
+          "phonetic": "ZAH-tur-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Saturday (Saturn's day)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op zaterdag werk ik niet.",
+          "exampleEn": "On Saturday I don't work.",
+          "note": "From Latin 'Saturni dies'.\nSame as English Saturday.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zondag",
+          "en": "Sunday",
+          "phonetic": "ZON-dahg",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "Sunday (sun-day)"
+              },
+              {
+                "lang": "German",
+                "word": "Sonntag"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op zondag rust ik.",
+          "exampleEn": "On Sunday I rest.",
+          "note": "Zon + dag = sun + day.\nIdentical to English!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📅 All Seven Days",
+          "text": "maandag = Monday (moon-day)\ndinsdag = Tuesday (Tyr's day)\nwoensdag = Wednesday (Woden's day)\ndonderdag = Thursday (thunder-day)\nvrijdag = Friday (Freya's day)\nzaterdag = Saturday (Saturn's day)\nzondag = Sunday (sun-day)\n\n⚠️ NEVER capitalized in Dutch!\n'Op' + day = on that day: 'Op maandag werk ik.'"
+        },
+        {
+          "type": "teach",
+          "nl": "op",
+          "en": "on (with days)",
+          "phonetic": "op",
+          "example": "Op woensdag leer ik.",
+          "exampleEn": "On Wednesday I learn.",
+          "note": "'Op' + day = on that day.\n'Op maandag', 'op dinsdag', etc.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het weekend",
+          "en": "the weekend",
+          "phonetic": "hut WEE-kent",
+          "example": "In het weekend werk ik niet.",
+          "exampleEn": "On the weekend I don't work.",
+          "note": "Het-word. Borrowed from English!\n'In het weekend' uses 'in', not 'op'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "doen",
+          "en": "to do",
+          "phonetic": "doon",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "do"
+              },
+              {
+                "lang": "German",
+                "word": "tun"
+              }
+            ],
+            "family": "germanic"
+          },
+          "also": "'boodschappen doen' = to do groceries (go shopping)",
+          "example": "Wat doe je op maandag?",
+          "exampleEn": "What do you do on Monday?",
+          "note": "Your sixth verb! 'oe' is ONE sound (like 'oo' in 'food').\nStam = doe (not 'do'). You can't split 'oe'.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "ik doe",
+          "en": "I do",
+          "phonetic": "ik doo",
+          "example": "Ik doe het.",
+          "exampleEn": "I do it.",
+          "note": "Stam = doe. Why not 'do'?\n'oe' is a single vowel sound. doen = doe + n, not do + en.",
+          "fRef": "nl_spe_1",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "hij doet",
+          "en": "he does",
+          "phonetic": "hay doot",
+          "example": "Hij doet het.",
+          "exampleEn": "He does it.",
+          "note": "Stam + t = doet. Same ending as hij werkt, hij komt.",
+          "kind": "grammar"
+        },
+        {
+          "type": "verb_table",
+          "title": "Doen: to do",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "doe",
+                  "en": "I do"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "doet",
+                  "en": "you do"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "doet",
+                  "en": "you do (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "doet",
+                  "en": "he does"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "doet",
+                  "en": "she does"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "doet",
+                  "en": "it does"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "doen",
+                  "en": "we do"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "doen",
+                  "en": "you all do"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "doen",
+                  "en": "they do"
+                }
+              ]
+            }
+          ],
+          "note": "Stam = doe (not 'do', because 'oe' is one sound).\nik doe, jij doet, wij doen. Endings: same as every verb."
+        },
+        {
+          "type": "tip",
+          "title": "📅 Wat doe je op...?",
+          "text": "Now you can talk about your week!\n\nWat doe je op maandag? = What do you do on Monday?\nIk werk op maandag. = I work on Monday.\nWat doe je op vrijdag? = What do you do on Friday?\nIk leer Nederlands. = I learn Dutch.",
+          "deepDive": {
+            "title": "Why 'doe' and not 'doet'?",
+            "text": "Normal: Jij doet het. = You do it. (stam + t)\nQuestion: Wat doe je? = What do you do? (no -t!)\n\nWhen 'jij/je' comes AFTER the verb, the -t drops:\njij doet → doe jij?\njij werkt → werk jij?\njij komt → kom jij?\n\nThis applies to ALL verbs, not just doen.\nYou'll learn the full rule later."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "Which day is 'donderdag'?",
+          "opts": [
+            "Thursday",
+            "Tuesday",
+            "Wednesday",
+            "Monday"
+          ],
+          "ans": "Thursday",
+          "hint": "Donder = thunder = Thor"
+        },
+        {
+          "type": "fb",
+          "s": "___ vrijdag werk ik niet.",
+          "a": "Op",
+          "opts": [
+            "Op",
+            "In",
+            "Om",
+            "Het"
+          ],
+          "hint": "on + day"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "maandag",
+              "en": "Monday"
+            },
+            {
+              "nl": "woensdag",
+              "en": "Wednesday"
+            },
+            {
+              "nl": "vrijdag",
+              "en": "Friday"
+            },
+            {
+              "nl": "zondag",
+              "en": "Sunday"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Dutch days of the week are:",
+          "opts": [
+            "always capitalized",
+            "never capitalized",
+            "capitalized at start of sentence only",
+            "the same as English"
+          ],
+          "ans": "never capitalized",
+          "hint": "Unlike English!"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Op {1} werk ik. Op {2} rust ik.",
+          "blanks": {
+            "1": "maandag",
+            "2": "zondag"
+          },
+          "pool": [
+            "maandag",
+            "zondag",
+            "het",
+            "om"
+          ],
+          "hint": "Work Monday, rest Sunday"
+        },
+        {
+          "type": "mc",
+          "q": "What is the stam of 'doen'?",
+          "opts": [
+            "do",
+            "doe",
+            "doen",
+            "doet"
+          ],
+          "ans": "doe",
+          "hint": "'oe' is one sound, you can't split it"
+        },
+        {
+          "type": "fb",
+          "s": "Wat ___ je op vrijdag?",
+          "a": "doe",
+          "opts": [
+            "doe",
+            "doet",
+            "doen",
+            "doot"
+          ],
+          "hint": "je after the verb = no -t"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Op maandag {1} ik. Wat {2} je op dinsdag?",
+          "blanks": {
+            "1": "werk",
+            "2": "doe"
+          },
+          "pool": [
+            "werk",
+            "doe",
+            "werkt",
+            "doet"
+          ],
+          "hint": "ik = stam. Question with je = stam"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_on_tuesday_work",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_on_friday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_what_do_monday",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l6",
+      "title": "Months & Seasons",
+      "icon": "🍂",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Maanden en Seizoenen",
+          "desc": "Good news: Dutch months look almost identical to English. Bad news: they're NOT capitalized (like days). Plus: four seasons to complete your calendar vocabulary.",
+          "goals": [
+            "All 12 months",
+            "4 seasons",
+            "Say when things happen"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de maand",
+          "en": "the month",
+          "phonetic": "duh mahnt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "month"
+              },
+              {
+                "lang": "German",
+                "word": "Monat"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Welke maand is het?",
+          "exampleEn": "What month is it?",
+          "note": "De-word. Plural: maanden.\nFinal -d sounds like -t (devoicing).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "januari",
+          "en": "January",
+          "phonetic": "yah-noo-AH-ree",
+          "example": "In januari is het koud.",
+          "exampleEn": "In January it is cold.",
+          "note": "Almost identical to English.\nNOT capitalized in Dutch!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "februari",
+          "en": "February",
+          "phonetic": "fay-broo-AH-ree",
+          "example": "Februari is kort.",
+          "exampleEn": "February is short.",
+          "note": "Same as English, minus one letter.\nNot capitalized.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "maart",
+          "en": "March",
+          "phonetic": "mahrt",
+          "example": "In maart begint de lente.",
+          "exampleEn": "In March spring begins.",
+          "note": "Long 'aa'. Compare: March / März (German).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "april",
+          "en": "April",
+          "phonetic": "ah-PRIL",
+          "example": "April doet wat hij wil.",
+          "exampleEn": "April does what it wants. (Dutch proverb!)",
+          "note": "Identical to English.\nThe proverb means: April weather is unpredictable.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "mei",
+          "en": "May",
+          "phonetic": "may",
+          "example": "In mei is het warm.",
+          "exampleEn": "In May it is warm.",
+          "note": "Shortest Dutch month name. Easy cognate.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🗓️ All 12 Months",
+          "text": "januari = January\nfebruari = February\nmaart = March\napril = April\nmei = May\njuni = June\njuli = July\naugustus = August\nseptember = September\noktober = October\nnovember = November\ndecember = December\n\n⚠️ NEVER capitalized in Dutch!\n'In' + month: 'In januari is het koud.'"
+        },
+        {
+          "type": "teach",
+          "nl": "koud",
+          "en": "cold",
+          "phonetic": "kowt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "cold"
+              },
+              {
+                "lang": "German",
+                "word": "kalt"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "In de winter is het koud.",
+          "exampleEn": "In the winter it is cold.",
+          "note": "'Het is koud' = it is cold.\nFinal -d sounds like -t (devoicing again).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "warm",
+          "en": "warm",
+          "phonetic": "varm",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "warm"
+              },
+              {
+                "lang": "German",
+                "word": "warm"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "In de zomer is het warm.",
+          "exampleEn": "In the summer it is warm.",
+          "note": "Identical to English!\nW = V sound: 'varm'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de lente",
+          "en": "spring",
+          "phonetic": "duh LEN-tuh",
+          "example": "In de lente bloeien de bloemen.",
+          "exampleEn": "In spring the flowers bloom.",
+          "note": "De-word. Also: 'het voorjaar' (before-year).\nMaart, april, mei.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de zomer",
+          "en": "summer",
+          "phonetic": "duh ZOH-mur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "summer"
+              },
+              {
+                "lang": "German",
+                "word": "Sommer"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De zomer is warm.",
+          "exampleEn": "Summer is warm.",
+          "note": "De-word. Juni, juli, augustus.\nCompare: summer / Sommer / zomer.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de herfst",
+          "en": "autumn / fall",
+          "phonetic": "duh hayrfst",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "harvest"
+              },
+              {
+                "lang": "German",
+                "word": "Herbst"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "In de herfst vallen de bladeren.",
+          "exampleEn": "In autumn the leaves fall.",
+          "note": "De-word. September, oktober, november.\nRelated to English 'harvest'!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de winter",
+          "en": "winter",
+          "phonetic": "duh VIN-tur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "winter"
+              },
+              {
+                "lang": "German",
+                "word": "Winter"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De winter is koud.",
+          "exampleEn": "Winter is cold.",
+          "note": "De-word. December, januari, februari.\nIdentical to English!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🌸 Seasons + Months",
+          "text": "In de lente: maart, april, mei\nIn de zomer: juni, juli, augustus\nIn de herfst: september, oktober, november\nIn de winter: december, januari, februari\n\n'In de' + season: In de zomer is het warm.\n'In' + month: In januari is het koud."
+        },
+        {
+          "type": "mc",
+          "q": "Which month looks almost identical in English and Dutch?",
+          "opts": [
+            "december",
+            "maart",
+            "mei",
+            "februari"
+          ],
+          "ans": "december",
+          "hint": "Spot the twin"
+        },
+        {
+          "type": "fb",
+          "s": "In ___ is het koud.",
+          "a": "de winter",
+          "opts": [
+            "de winter",
+            "de zomer",
+            "mei",
+            "de lente"
+          ],
+          "hint": "Cold season"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de lente",
+              "en": "spring"
+            },
+            {
+              "nl": "de zomer",
+              "en": "summer"
+            },
+            {
+              "nl": "de herfst",
+              "en": "autumn"
+            },
+            {
+              "nl": "de winter",
+              "en": "winter"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "In {1} is het warm. In {2} vallen de bladeren.",
+          "blanks": {
+            "1": "de zomer",
+            "2": "de herfst"
+          },
+          "pool": [
+            "de zomer",
+            "de herfst",
+            "de winter",
+            "januari"
+          ],
+          "hint": "Warm season, falling leaves season"
+        },
+        {
+          "type": "mc",
+          "q": "Dutch months are:",
+          "opts": [
+            "always capitalized",
+            "never capitalized",
+            "only in formal writing",
+            "the same as English"
+          ],
+          "ans": "never capitalized",
+          "hint": "Same rule as days!"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_winter_cold",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_born_march",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l7",
+      "title": "Altijd, Soms, Nooit",
+      "icon": "🔁",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Altijd, Soms, Nooit",
+          "desc": "How often do you do things? Dutch frequency adverbs go AFTER the verb, not before it like English.",
+          "goals": [
+            "6 frequency adverbs",
+            "Where to place them in a sentence",
+            "Talk about your weekly habits",
+            "Understand Dutch directness about routines"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "altijd",
+          "en": "always",
+          "phonetic": "AL-tayt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "allzeit"
+              },
+              {
+                "lang": "English",
+                "word": "all-tide (Old English)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik drink altijd koffie.",
+          "exampleEn": "I always drink coffee.",
+          "note": "Literally 'all-time' (al + tijd).\nGoes AFTER the verb: Ik drink altijd koffie.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vaak",
+          "en": "often",
+          "phonetic": "vahk",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "oft (different word)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Zij fietst vaak naar het werk.",
+          "exampleEn": "She often cycles to work.",
+          "note": "Very common word. Same position as altijd:\nAFTER the verb: 'Zij fietst vaak...'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "meestal",
+          "en": "usually / mostly",
+          "phonetic": "MAY-stahl",
+          "example": "We eten meestal om zes uur.",
+          "exampleEn": "We usually eat at six o'clock.",
+          "note": "Meest + al = most + all.\nSlightly more formal than 'vaak'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "soms",
+          "en": "sometimes",
+          "phonetic": "soms",
+          "example": "Soms werk ik op zaterdag.",
+          "exampleEn": "Sometimes I work on Saturday.",
+          "note": "Can go BEFORE the subject too!\n'Soms werk ik...' = 'Sometimes I work...'\nWhen soms starts the sentence, the verb stays second.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zelden",
+          "en": "rarely / seldom",
+          "phonetic": "ZEL-dun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "seldom"
+              },
+              {
+                "lang": "German",
+                "word": "selten"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik eet zelden vlees.",
+          "exampleEn": "I rarely eat meat.",
+          "note": "English 'seldom' is the same word!\nNot super common in casual Dutch —\nmany people say 'bijna nooit' (almost never) instead.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "nooit",
+          "en": "never",
+          "phonetic": "noyt",
+          "example": "Hij komt nooit te laat.",
+          "exampleEn": "He never comes late.",
+          "note": "Strong word. The Dutch use it directly:\n'Dat doe ik nooit.' = I never do that.\nNo double negative needed (unlike French/Spanish).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📍 Where Do They Go?",
+          "text": "English: adverb BEFORE the verb → I always drink coffee.\nDutch: adverb AFTER the verb → Ik drink altijd koffie.\n\nPattern: SUBJECT + VERB + adverb + rest\n\n⚠️ soms/meestal can START the sentence (V2 rule applies):\nSoms werk ik op zaterdag.",
+          "deepDive": {
+            "title": "The V2 rule in action",
+            "text": "Dutch is a 'verb-second' language.\nThe conjugated verb is ALWAYS in position 2.\n\nNormal: Ik drink altijd koffie.\n  1=ik, 2=drink, 3=altijd, 4=koffie\n\nFronted adverb: Soms drink ik koffie.\n  1=soms, 2=drink, 3=ik, 4=koffie\n\nThe verb didn't move — 'soms' took position 1,\nso 'ik' had to move to position 3.\n\nThis is the same rule you already know from:\nOp maandag werk ik. (On Monday I work.)\nVandaag leer ik Nederlands. (Today I learn Dutch.)\n\nAnything can go in position 1, but the verb stays in position 2. Always."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "te laat",
+          "en": "too late / late",
+          "phonetic": "tuh laht",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "late"
+              },
+              {
+                "lang": "German",
+                "word": "zu spät"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik kom nooit te laat.",
+          "exampleEn": "I never come late.",
+          "note": "'Te' here means 'too'.\n'Te laat' = too late. 'Te vroeg' = too early.\nThe Dutch value punctuality!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "vroeg",
+          "en": "early",
+          "phonetic": "froog",
+          "example": "Zij staat altijd vroeg op.",
+          "exampleEn": "She always gets up early.",
+          "note": "Long 'oe' sound (like 'oo' in 'food').\nOpposite of 'laat'.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 Dutch & Punctuality",
+          "text": "The Dutch are famously punctual.\n\n'Op tijd' = on time.\n'Te laat' = too late.\n\n'Ik kom nooit te laat.' = something the Dutch say with pride.",
+          "deepDive": {
+            "title": "How punctual, exactly?",
+            "text": "If a meeting is at 14:00, arrive at 13:55.\nIf dinner is at 18:00, don't show up at 18:30.\n\n'Hij is altijd te laat.' is a genuine complaint in Dutch culture.\n\nFun fact: Dutch trains report delays in increments of 1 minute.\n'De trein is 3 minuten te laat.' = The train is 3 minutes late.\n\nPunctuality runs deep in Dutch society — it's considered basic respect."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "'I always drink coffee' in Dutch word order is:",
+          "opts": [
+            "Ik altijd drink koffie.",
+            "Ik drink altijd koffie.",
+            "Altijd ik drink koffie.",
+            "Ik drink koffie altijd."
+          ],
+          "ans": "Ik drink altijd koffie.",
+          "hint": "Adverb goes AFTER the verb"
+        },
+        {
+          "type": "fb",
+          "s": "Zij fietst ___ naar het werk.",
+          "a": "vaak",
+          "opts": [
+            "vaak",
+            "altijd niet",
+            "nooit geen",
+            "soms niet"
+          ],
+          "hint": "She often cycles..."
+        },
+        {
+          "type": "mc",
+          "q": "Which sentence is CORRECT?",
+          "opts": [
+            "Ik nooit kom te laat.",
+            "Ik kom nooit te laat.",
+            "Nooit ik kom te laat.",
+            "Ik kom te laat nooit."
+          ],
+          "ans": "Ik kom nooit te laat.",
+          "hint": "Verb in position 2, adverb after it"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "altijd",
+              "en": "always"
+            },
+            {
+              "nl": "soms",
+              "en": "sometimes"
+            },
+            {
+              "nl": "nooit",
+              "en": "never"
+            },
+            {
+              "nl": "zelden",
+              "en": "rarely"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wij eten {1} om zes uur. Hij komt {2} te laat.",
+          "blanks": {
+            "1": "meestal",
+            "2": "nooit"
+          },
+          "pool": [
+            "meestal",
+            "nooit",
+            "de",
+            "om"
+          ],
+          "hint": "Usually eat at 6. Never late."
+        },
+        {
+          "type": "mc",
+          "q": "'Soms werk ik op zaterdag.' Why is 'ik' after the verb?",
+          "opts": [
+            "It's a question",
+            "'Soms' took position 1, verb stays 2",
+            "It's wrong, should be 'Soms ik werk'",
+            "There's no rule for this"
+          ],
+          "ans": "'Soms' took position 1, verb stays 2",
+          "hint": "The V2 rule!"
+        },
+        {
+          "type": "fb",
+          "s": "___ eet ik vlees. (= I rarely eat meat.)",
+          "a": "Zelden",
+          "opts": [
+            "Zelden",
+            "Nooit",
+            "Altijd",
+            "Vaak"
+          ],
+          "hint": "Rarely — fronted to position 1"
+        },
+        {
+          "type": "mc",
+          "q": "The Dutch word for 'seldom' looks like its English cousin:",
+          "opts": [
+            "zelden",
+            "nooit",
+            "soms",
+            "altijd"
+          ],
+          "ans": "zelden",
+          "hint": "seldom ↔ ?"
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} leer ik Nederlands. Ik werk {2} op zondag.",
+          "blanks": {
+            "1": "Soms",
+            "2": "nooit"
+          },
+          "pool": [
+            "Soms",
+            "nooit",
+            "altijd",
+            "veel"
+          ],
+          "hint": "Sometimes I learn... I never work on..."
+        },
+        {
+          "type": "tr",
+          "mk": "u3_she_always_monday",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_never_late",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_always_learn_evening",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u3l8",
+      "title": "Unit 3 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 3: Alles Samen",
+          "desc": "Numbers, time, days, months, seasons, frequency adverbs — and the regular present tense. No new words. Everything from L1–L7 mixed together.",
+          "goals": [
+            "Numbers 1–100",
+            "Tell the time (hele uur, half, kwart)",
+            "Days, months, seasons",
+            "Frequency adverbs + word order",
+            "Regular present tense (-t rule)"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 What You Know Now",
+          "text": "After Unit 3 you can:\n\n• Count from 1 to 100\n• Tell the time — including the tricky 'half'\n• Name all 7 days (not capitalized!)\n• Name all 12 months and 4 seasons\n• Say how often you do things\n• Conjugate regular verbs in the present tense\n• Use V2 word order with fronted adverbs\n\nThat's a full calendar life in Dutch. Let's test it."
+        },
+        {
+          "type": "mc",
+          "q": "'Drieëntwintig' is:",
+          "opts": [
+            "23",
+            "33",
+            "32",
+            "13"
+          ],
+          "ans": "23",
+          "hint": "Drie-en-twintig = 3 and 20"
+        },
+        {
+          "type": "mc",
+          "q": "'Half vijf' means:",
+          "opts": [
+            "5:30",
+            "4:30",
+            "5:00",
+            "4:00"
+          ],
+          "ans": "4:30",
+          "hint": "Half TO five, not half past"
+        },
+        {
+          "type": "fb",
+          "s": "Het is ___ over drie. (= 3:15)",
+          "a": "kwart",
+          "opts": [
+            "kwart",
+            "half",
+            "tien",
+            "vijf"
+          ],
+          "hint": "Quarter past three"
+        },
+        {
+          "type": "mc",
+          "q": "Which day comes from 'thunder'?",
+          "opts": [
+            "donderdag",
+            "dinsdag",
+            "vrijdag",
+            "woensdag"
+          ],
+          "ans": "donderdag",
+          "hint": "Donder = thunder = Thor"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de lente",
+              "en": "spring"
+            },
+            {
+              "nl": "de herfst",
+              "en": "autumn"
+            },
+            {
+              "nl": "de zomer",
+              "en": "summer"
+            },
+            {
+              "nl": "de winter",
+              "en": "winter"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "In Dutch, days and months are:",
+          "opts": [
+            "always capitalized",
+            "never capitalized",
+            "capitalized in formal writing",
+            "the same as English"
+          ],
+          "ans": "never capitalized",
+          "hint": "maandag, januari — always lowercase"
+        },
+        {
+          "type": "fb",
+          "s": "Ik drink ___ koffie. (= I always drink coffee.)",
+          "a": "altijd",
+          "opts": [
+            "altijd",
+            "nooit",
+            "niet",
+            "geen"
+          ],
+          "hint": "Frequency adverb AFTER the verb"
+        },
+        {
+          "type": "mc",
+          "q": "Which word order is correct?",
+          "opts": [
+            "Ik altijd werk.",
+            "Ik werk altijd.",
+            "Werk altijd ik.",
+            "Altijd ik werk."
+          ],
+          "ans": "Ik werk altijd.",
+          "hint": "Adverb after verb in normal word order"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Op {1} werk ik. In {2} is het koud.",
+          "blanks": {
+            "1": "maandag",
+            "2": "de winter"
+          },
+          "pool": [
+            "maandag",
+            "de winter",
+            "altijd",
+            "uur"
+          ],
+          "hint": "On Monday... In winter..."
+        },
+        {
+          "type": "mc",
+          "q": "'Zij ___ in Amsterdam.' (She works in Amsterdam.)",
+          "opts": [
+            "werkt",
+            "werk",
+            "werken",
+            "werkst"
+          ],
+          "ans": "werkt",
+          "hint": "zij = stam + t"
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ Nederlands. (We learn Dutch.)",
+          "a": "leren",
+          "opts": [
+            "leren",
+            "leert",
+            "leer",
+            "leert"
+          ],
+          "hint": "Wij = full infinitive form"
+        },
+        {
+          "type": "mc",
+          "q": "In a question, 'jij werkt' becomes:",
+          "opts": [
+            "Werkt jij?",
+            "Werk jij?",
+            "Werken jij?",
+            "Jij werk?"
+          ],
+          "ans": "Werk jij?",
+          "hint": "The -t drops when jij follows the verb"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "vaak",
+              "en": "often"
+            },
+            {
+              "nl": "zelden",
+              "en": "rarely"
+            },
+            {
+              "nl": "meestal",
+              "en": "usually"
+            },
+            {
+              "nl": "soms",
+              "en": "sometimes"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'Soms werk ik op zaterdag.' The verb is in position:",
+          "opts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "ans": "2",
+          "hint": "V2 rule: verb always second"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Het is {1} voor acht. Ik werk {2} op vrijdag.",
+          "blanks": {
+            "1": "kwart",
+            "2": "nooit"
+          },
+          "pool": [
+            "kwart",
+            "nooit",
+            "half",
+            "altijd"
+          ],
+          "hint": "7:45. Never work Fridays."
+        },
+        {
+          "type": "fb",
+          "s": "___ eten we om zes uur.",
+          "a": "Meestal",
+          "opts": [
+            "Meestal",
+            "Ik",
+            "Het",
+            "Zes"
+          ],
+          "hint": "Usually we eat at six — adverb first, verb second"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_what_time",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_never_late",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_on_friday",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

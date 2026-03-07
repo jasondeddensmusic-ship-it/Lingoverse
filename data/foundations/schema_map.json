@@ -1,0 +1,17 @@
+{
+  "_schema": "lingoverse_fk_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "nl": "latin",
+    "de": "latin",
+    "fr": "latin",
+    "es": "latin",
+    "ro": "latin",
+    "en": "latin",
+    "ar": "arabic",
+    "ja": "syllabary",
+    "ko": "syllabary",
+    "zh": "cjk",
+    "ru": "latin"
+  }
+}

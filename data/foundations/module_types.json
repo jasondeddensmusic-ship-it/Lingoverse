@@ -1,0 +1,42 @@
+{
+  "_schema": "lingoverse_fk_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "info": {
+      "label": "Information",
+      "desc": "Read-only reference material (default)",
+      "icon": "📖",
+      "interactive": false
+    },
+    "grid": {
+      "label": "Character Grid",
+      "desc": "Interactive 2D character/letter grid",
+      "icon": "🔤",
+      "interactive": true
+    },
+    "recognition": {
+      "label": "Recognition",
+      "desc": "Identify characters, sounds, or patterns",
+      "icon": "👁️",
+      "interactive": true
+    },
+    "writing": {
+      "label": "Writing",
+      "desc": "Trace or copy characters (future: canvas input)",
+      "icon": "✍️",
+      "interactive": true
+    },
+    "production": {
+      "label": "Production",
+      "desc": "Produce characters or words from prompts",
+      "icon": "🎯",
+      "interactive": true
+    },
+    "contrast": {
+      "label": "Contrast",
+      "desc": "Distinguish similar-looking or similar-sounding items",
+      "icon": "⚖️",
+      "interactive": true
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 16,
+    "lang": "nl",
+    "track": "legacy",
+    "title": "Directions & Transportation",
+    "sub": "Getting Around",
+    "icon": "🗺️",
+    "level": "A2.2",
+    "color": "#F5A623"
+  },
+  "lessons": [
+    {
+      "id": "u16l1",
+      "title": "Where Is It?",
+      "icon": "🧭",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Where Is It? 🧭",
+          "desc": "Never get lost again! Learn to ask for and give directions in Dutch.",
+          "goals": [
+            "Ask for directions politely",
+            "Understand direction words",
+            "Give simple directions"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "links",
+          "en": "left",
+          "img": "⬅️👈",
+          "phonetic": "links",
+          "example": "Ga naar links.",
+          "exampleEn": "Go to the left.",
+          "note": "'Links' = left. Same word as 'links' (clumsy). 'Linksaf' = turn left.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rechts",
+          "en": "right",
+          "img": "➡️👉",
+          "phonetic": "rekhts",
+          "example": "De winkel is rechts.",
+          "exampleEn": "The shop is on the right.",
+          "note": "'Rechts' = right (direction). 'Recht' = straight. Don't confuse! 'Rechtsaf' = turn right.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rechtdoor",
+          "en": "straight ahead",
+          "img": "⬆️🚶",
+          "phonetic": "rekht-DOHR",
+          "example": "Ga rechtdoor.",
+          "exampleEn": "Go straight ahead.",
+          "note": "Essential direction! 'Rechtdoor' = straight on/ahead. One word, not 'recht door'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de hoek",
+          "en": "the corner",
+          "img": "🏪📐",
+          "phonetic": "duh hook",
+          "example": "Het is om de hoek.",
+          "exampleEn": "It's around the corner.",
+          "note": "'Om de hoek' = around the corner. 'Op de hoek' = on the corner.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het kruispunt",
+          "en": "the intersection / crossroads",
+          "img": "✖️🚦",
+          "phonetic": "ut KROWS-punt",
+          "example": "Bij het kruispunt ga je links.",
+          "exampleEn": "At the intersection you go left.",
+          "note": "'Kruispunt' = crossing point. Also: 'de kruising' (intersection).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "bij",
+          "en": "at / by / near",
+          "img": "📍🏢",
+          "phonetic": "bay",
+          "example": "Het is bij het station.",
+          "exampleEn": "It's at/near the station.",
+          "note": "'Bij' = at/by/near (location). 'Bij de supermarkt' = at/by the supermarket.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "langs",
+          "en": "along / past",
+          "img": "➡️🏘️",
+          "phonetic": "langs",
+          "example": "Loop langs de gracht.",
+          "exampleEn": "Walk along the canal.",
+          "note": "'Langs' = along/past. 'Langslopen' = to walk past. 'Langs de straat' = along the street.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🗣️ Dialogue: Asking for Directions",
+          "text": "A: Pardon, weet u waar het station is?\nB: Ja hoor! Ga rechtdoor tot het kruispunt.\nA: Oké, en dan?\nB: Dan ga je linksaf. Het station is aan je rechterhand.\nA: Is het ver lopen?\nB: Nee, ongeveer vijf minuten.\nA: Perfect, dank u wel!\nB: Graag gedaan!\n\nTranslation:\nA: Excuse me, do you know where the station is?\nB: Yes! Go straight until the intersection.\nA: Okay, and then?\nB: Then you turn left. The station is on your right-hand side.\nA: Is it far to walk?\nB: No, about five minutes.\nA: Perfect, thank you!\nB: You're welcome!"
+        },
+        {
+          "type": "tip",
+          "title": "🧭 Giving Directions in Dutch",
+          "text": "BASIC DIRECTIONS:\n⬅️ links — left\n➡️ rechts — right\n⬆️ rechtdoor — straight ahead\n↩️ terug — back\n\nIMPERATIVE (commands):\nGa rechtdoor — Go straight\nNeem de eerste straat links — Take the first street on the left\nSteek over — Cross (the street)\nLoop door — Keep walking\n\nLANDMARKS:\nbij het station — at the station\nop de hoek — on the corner\nom de hoek — around the corner\nnaast de kerk — next to the church\ntegenover de supermarkt — across from the supermarket\n\nFULL EXAMPLE:\n'Ga rechtdoor, neem de tweede straat rechts, en het is aan je linkerhand.'\n= Go straight, take the second street on the right, and it's on your left-hand side."
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'straight ahead'?",
+          "opts": [
+            "rechtdoor",
+            "rechts",
+            "recht",
+            "links"
+          ],
+          "ans": "rechtdoor",
+          "hint": "One word!"
+        },
+        {
+          "type": "tr",
+          "mk": "u16_shop_corner",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Ga _____ en dan rechts.",
+          "a": "Rechtdoor",
+          "opts": [
+            "Rechtdoor",
+            "Links",
+            "Terug",
+            "Door"
+          ],
+          "hint": "Go STRAIGHT and then right"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "nav_left",
+            "nav_right",
+            "nav_straight",
+            "nav_corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u16l2",
+      "title": "Public Transport",
+      "icon": "🚆",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Public Transport 🚆",
+          "desc": "Master Dutch public transport! Trains, buses, trams, and the essential OV-chipkaart.",
+          "goals": [
+            "Use public transport vocabulary",
+            "Buy tickets",
+            "Ask about connections"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "het station",
+          "en": "the station",
+          "img": "🚉🚂",
+          "phonetic": "ut stah-see-YON",
+          "example": "Ik ga naar het station.",
+          "exampleEn": "I'm going to the station.",
+          "note": "'Het station' (het-word). Amsterdam Centraal is the biggest station. 'NS' = Dutch Railways.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de halte",
+          "en": "the stop (bus/tram)",
+          "img": "🚏🚌",
+          "phonetic": "duh HAHL-tuh",
+          "example": "De bushalte is daar.",
+          "exampleEn": "The bus stop is there.",
+          "note": "'Halte' = stop (for bus/tram). 'Tramhalte' = tram stop. 'Bushalte' = bus stop.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de trein",
+          "en": "the train",
+          "img": "🚂🚃",
+          "phonetic": "duh trayn",
+          "example": "Ik neem de trein.",
+          "exampleEn": "I take the train.",
+          "note": "'De trein' (de-word). 'Met de trein' = by train. Dutch trains are punctual and frequent!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "overstappen",
+          "en": "to transfer / to change (trains/buses)",
+          "img": "🔄🚆",
+          "phonetic": "OH-vur-stah-pun",
+          "example": "Je moet overstappen in Utrecht.",
+          "exampleEn": "You have to transfer in Utrecht.",
+          "note": "Separable verb! 'Ik stap over' = I transfer. Essential for journeys with connections.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "uitstappen",
+          "en": "to get off / to exit",
+          "img": "🚪👋",
+          "phonetic": "OWT-stah-pun",
+          "example": "Waar moet ik uitstappen?",
+          "exampleEn": "Where should I get off?",
+          "note": "Separable verb! 'Ik stap uit' = I get off. Opposite: 'instappen' (to get on).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de OV-chipkaart",
+          "en": "the public transport chip card",
+          "img": "💳🚇",
+          "phonetic": "duh oh-fay-SKHIP-kahrt",
+          "example": "Vergeet je OV-chipkaart niet!",
+          "exampleEn": "Don't forget your OV-chipkaart!",
+          "note": "THE Dutch transport card. Check in AND out! 'Inchecken' (check in), 'uitchecken' (check out).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het perron",
+          "en": "the platform",
+          "img": "🚉📍",
+          "phonetic": "ut pair-ON",
+          "example": "De trein vertrekt van perron 3.",
+          "exampleEn": "The train departs from platform 3.",
+          "note": "'Perron' = platform. From French 'perron'. 'Spoor' also used for track number.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🗣️ Dialogue: At the Station",
+          "text": "A: Hallo, wanneer vertrekt de volgende trein naar Utrecht?\nB: Om 14:35, van perron 4.\nA: Moet ik overstappen?\nB: Nee, het is een directe trein.\nA: Perfect! Hoeveel kost een kaartje?\nB: Gebruik je OV-chipkaart?\nA: Ja.\nB: Dan is het ongeveer 8 euro.\nA: Oké, dank je! Welk perron was het?\nB: Perron 4. Goede reis!\n\nTranslation:\nA: Hello, when does the next train to Utrecht leave?\nB: At 14:35, from platform 4.\nA: Do I need to transfer?\nB: No, it's a direct train.\nA: Perfect! How much does a ticket cost?\nB: Are you using your OV-chipkaart?\nA: Yes.\nB: Then it's about 8 euros.\nA: Okay, thanks! Which platform was it?\nB: Platform 4. Have a good trip!"
+        },
+        {
+          "type": "tip",
+          "title": "🚆 Dutch Public Transport Tips",
+          "text": "OV-CHIPKAART RULES:\n✅ ALWAYS check in AND out!\n✅ Blue poles = check in/out\n✅ Yellow readers = balance check\n❌ Forget to check out = €20 fine + max fare\n\nASKING FOR HELP:\n'Gaat deze trein naar...?' — Does this train go to...?\n'Waar moet ik overstappen?' — Where do I transfer?\n'Welk perron?' — Which platform?\n'Hoe laat vertrekt de trein?' — What time does the train leave?\n\nTRANSPORT TYPES:\nde trein — train (NS)\nde tram — tram\nde bus — bus\nde metro — metro (Amsterdam, Rotterdam)\n\nAPPS:\n9292.nl — Journey planner (essential!)\nNS app — Train times and tickets\n\nFun fact: Dutch people bike to the station, then take the train. 'Fiets + trein' combo!"
+        },
+        {
+          "type": "mc",
+          "q": "What is 'overstappen'?",
+          "opts": [
+            "To get on",
+            "To get off",
+            "To transfer",
+            "To buy a ticket"
+          ],
+          "ans": "To transfer",
+          "hint": "Change trains/buses"
+        },
+        {
+          "type": "tr",
+          "mk": "u16_take_train",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Vergeet niet om in en uit te _____!",
+          "a": "Checken",
+          "opts": [
+            "Checken",
+            "Stappen",
+            "Kopen",
+            "Gaan"
+          ],
+          "hint": "Check in and out!"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "nav_station",
+            "nav_transfer",
+            "nav_get_off",
+            "nav_platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u16l3",
+      "title": "By Car & Bike",
+      "icon": "🚲",
+      "xp": 25,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "By Car & Bike 🚲",
+          "desc": "The Netherlands is THE cycling country! Learn about bikes, cars, and Dutch traffic culture.",
+          "goals": [
+            "Cycling vocabulary",
+            "Parking and traffic",
+            "Give route instructions"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de fiets",
+          "en": "the bicycle / bike",
+          "img": "🚲🇳🇱",
+          "phonetic": "duh feets",
+          "example": "Ik ga op de fiets.",
+          "exampleEn": "I go by bike.",
+          "note": "THE Dutch icon! 'Op de fiets' = by bike. 'Fietsen' = to cycle. More bikes than people in NL!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "fietsen",
+          "en": "to cycle / to bike",
+          "img": "🚴‍♂️💨",
+          "phonetic": "FEET-sun",
+          "example": "Ik fiets naar mijn werk.",
+          "exampleEn": "I bike to work.",
+          "note": "Verb: 'Ik fiets, jij fietst'. Dutch people cycle in ALL weather. Rain? No problem!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "het fietspad",
+          "en": "the bike path / cycle lane",
+          "img": "🚲🛤️",
+          "phonetic": "ut FEETS-paht",
+          "example": "Blijf op het fietspad!",
+          "exampleEn": "Stay on the bike path!",
+          "note": "Sacred in NL! Never walk on the fietspad. Bikes have priority. Red pavement = bike path.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de auto",
+          "en": "the car",
+          "img": "🚗🚙",
+          "phonetic": "duh OW-toh",
+          "example": "Ik ga met de auto.",
+          "exampleEn": "I go by car.",
+          "note": "'Auto' = car. 'Met de auto' = by car. Cities are bike-friendly, cars less convenient!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "parkeren",
+          "en": "to park",
+          "img": "🅿️🚗",
+          "phonetic": "par-KAY-run",
+          "example": "Waar kan ik parkeren?",
+          "exampleEn": "Where can I park?",
+          "note": "'Parkeren' = to park. Parking in Dutch cities = expensive! €5/hour is normal.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de parkeerplaats",
+          "en": "the parking spot / parking lot",
+          "img": "🅿️📍",
+          "phonetic": "duh par-KAYR-plahts",
+          "example": "Ik zoek een parkeerplaats.",
+          "exampleEn": "I'm looking for a parking spot.",
+          "note": "'Parkeerplaats' = parking spot/lot. Also: 'parkeergarage' (parking garage).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het stoplicht",
+          "en": "the traffic light",
+          "img": "🚦🔴",
+          "phonetic": "ut STOP-likht",
+          "example": "Bij het stoplicht ga je rechts.",
+          "exampleEn": "At the traffic light you go right.",
+          "note": "'Stoplicht' = traffic light. Red = stop! But bikes sometimes... bend the rules. 😅",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🗣️ Dialogue: Renting a Bike",
+          "text": "A: Goedemiddag, ik wil graag een fiets huren.\nB: Natuurlijk! Voor hoelang?\nA: Eén dag.\nB: Dat kan. Heb je een helm nodig?\nA: Nee, dank je. Waar kan ik fietsen?\nB: Overal! Maar blijf op het fietspad.\nA: En waar kan ik de fiets parkeren?\nB: Bij elk fietsenrek, maar zet hem op slot!\nA: Oké, dank je wel!\n\nTranslation:\nA: Good afternoon, I'd like to rent a bike.\nB: Of course! For how long?\nA: One day.\nB: That's possible. Do you need a helmet?\nA: No, thank you. Where can I cycle?\nB: Everywhere! But stay on the bike path.\nA: And where can I park the bike?\nB: At any bike rack, but lock it!\nA: Okay, thank you!"
+        },
+        {
+          "type": "tip",
+          "title": "🚲 Dutch Cycling Culture",
+          "text": "CYCLING FACTS:\n🚲 23 million bikes for 17 million people\n🚲 84% of Dutch people own a bike\n🚲 27% of ALL trips are by bike\n🚲 Amsterdam alone: 881,000 bikes\n\nBIKE VOCABULARY:\nde fiets — bike\nhet fietsenrek — bike rack\nhet fietsslot — bike lock\nde bel — bell (ring ring!)\nde ketting — chain\neen lekke band — flat tire\nde fietsenmaker — bike repair shop\n\nRULES:\n✅ Use bike paths (red pavement)\n✅ Ring your bell to warn pedestrians\n✅ Lock your bike (theft is common!)\n✅ Use lights at night (or get fined!)\n❌ Don't bike drunk (yes, it's illegal)\n\nFun: 'Bakfiets' = cargo bike (for kids/groceries)\nDutch parents bike with 3 kids + shopping. It's normal!\n\nCAR FACTS:\nParking is expensive (€3-6/hour)\nMany cities have car-free zones\nDutch prefer bikes for short trips\n'Park & Ride' = park outside, take tram in"
+        },
+        {
+          "type": "mc",
+          "q": "What is the bike path called?",
+          "opts": [
+            "de fietsstraat",
+            "het fietspad",
+            "de fietslaan",
+            "het fietsweg"
+          ],
+          "ans": "het fietspad",
+          "hint": "Fiets + pad"
+        },
+        {
+          "type": "tr",
+          "mk": "u16_bike_to_work",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Waar kan ik _____?",
+          "a": "Parkeren",
+          "opts": [
+            "Parkeren",
+            "Fietsen",
+            "Rijden",
+            "Stoppen"
+          ],
+          "hint": "Where can I PARK?"
+        },
+        {
+          "type": "mc",
+          "q": "What do you MUST have on your bike at night?",
+          "opts": [
+            "A bell",
+            "Lights",
+            "A lock",
+            "A basket"
+          ],
+          "ans": "Lights",
+          "hint": "Required by law!"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "nav_bike",
+            "nav_cycle",
+            "nav_bike_path",
+            "nav_park"
+          ]
+        },
+        {
+          "type": "gramref",
+          "title": "🗺️ Transportation Summary",
+          "level": "A2",
+          "text": "ASKING DIRECTIONS:\nWaar is...? — Where is...?\nHoe kom ik bij...? — How do I get to...?\nIs het ver? — Is it far?\nKan ik lopen? — Can I walk?\n\nGIVING DIRECTIONS:\nGa rechtdoor — Go straight\nNeem de eerste/tweede straat links/rechts\nSteek over — Cross\nHet is aan je linkerhand — It's on your left\n\nTRANSPORT PHRASES:\nIk ga met de trein/bus/fiets/auto\nIk neem de trein\nIk fiets erheen (I bike there)\nHoe laat vertrekt...? — What time does... leave?\nMoet ik overstappen? — Do I need to transfer?\n\nPARKING:\nWaar kan ik parkeren?\nIs er een parkeergarage?\nHoeveel kost parkeren? — How much is parking?"
+        }
+      ]
+    }
+  ]
+}

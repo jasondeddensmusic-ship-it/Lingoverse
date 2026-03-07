@@ -1,0 +1,259 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 5,
+    "lang": "ar",
+    "title": "عائلتي",
+    "sub": "My Family",
+    "icon": "👨‍👩‍👧‍👦",
+    "level": "A1.2",
+    "color": "#8B4513",
+    "objectives": [
+      "ok_introduce_self",
+      "ok_describe_family"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "aru5l1",
+      "title": "أبي وأمي 👨‍👩‍👧",
+      "xp": 25,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Parents & Siblings 👨‍👩‍👧",
+          "desc": "Learn words for your closest family members — the foundation of Arab social life.",
+          "goals": [
+            "Father, mother",
+            "Brother, sister",
+            "Possessives (my...)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "أب",
+          "en": "father",
+          "img": "👨👴",
+          "phonetic": "AB",
+          "example": "هذا أبي",
+          "exampleEn": "This is my father",
+          "note": "أب = father. أبي = MY father (the ي suffix = 'my'). This possessive ي is one of the first grammar patterns you'll learn.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "أم",
+          "en": "mother",
+          "img": "👩👵",
+          "phonetic": "UMM",
+          "example": "أمي في البيت",
+          "exampleEn": "My mother is at home",
+          "note": "أم = mother. أمي = MY mother. In Arabic culture, mothers hold extremely high status. 'الجنة تحت أقدام الأمهات' = 'Paradise lies under mothers' feet.'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "أخ",
+          "en": "brother",
+          "img": "👦🤝",
+          "phonetic": "AKH",
+          "example": "عندي أخ واحد",
+          "exampleEn": "I have one brother",
+          "note": "أخ = brother. أخي = MY brother. عندي (indi) = I have — literally 'at me'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "أخت",
+          "en": "sister",
+          "img": "👧🤝",
+          "phonetic": "UKHT",
+          "example": "أختي اسمها مريم",
+          "exampleEn": "My sister's name is Maryam",
+          "note": "أخت = sister. Notice ة (ta marbuta) at the end — this is the feminine marker in Arabic. أخت adds ت because sister is feminine.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "👨‍👩‍👧‍👦 Family in Arab Culture",
+          "text": "Family (عائلة) is the CENTER of Arab social life:\n\n👨‍👩‍👧‍👦 Extended families often live together or very nearby\n📞 Daily phone calls with parents are normal, even as adults\n🤝 'عندك إخوة؟' (Do you have siblings?) is standard small talk\n👴 Elders are deeply respected — always greet the oldest person first\n💍 Family approval matters for major life decisions\n\nAsking about someone's family shows genuine interest and builds trust."
+        },
+        {
+          "type": "mc",
+          "q": "'أمي' means:",
+          "opts": [
+            "my father",
+            "my mother",
+            "my brother",
+            "my sister"
+          ],
+          "ans": "my mother",
+          "hint": "أم = mother, ي = my"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_father",
+            "ar_mother",
+            "ar_brother",
+            "ar_sister"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'I have' in Arabic?",
+          "opts": [
+            "أريد",
+            "أنا",
+            "عندي",
+            "هذا"
+          ],
+          "ans": "عندي",
+          "hint": "Literally 'at me'"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_family",
+          "dir": "comprehend"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_mother",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "aru5l2",
+      "title": "أولادي 👶",
+      "xp": 25,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Children & Extended Family 👶",
+          "desc": "Talking about sons, daughters, husband, and wife — essential family vocabulary.",
+          "goals": [
+            "Son, daughter",
+            "Husband, wife",
+            "Describing your family"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ابن",
+          "en": "son",
+          "img": "👦💙",
+          "phonetic": "IBN",
+          "example": "ابني اسمه أحمد",
+          "exampleEn": "My son's name is Ahmed",
+          "note": "ابن = son. ابني = MY son. ابن is also used in names: ابن سينا = 'Son of Sina' (Avicenna).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "بنت",
+          "en": "daughter",
+          "img": "👧💗",
+          "phonetic": "BINT",
+          "example": "بنتي في المدرسة",
+          "exampleEn": "My daughter is at school",
+          "note": "بنت = daughter/girl. بنتي = MY daughter. المدرسة (al-madrasa) = the school.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "زوج",
+          "en": "husband",
+          "img": "👨💍",
+          "phonetic": "ZAWJ",
+          "example": "زوجي مهندس",
+          "exampleEn": "My husband is an engineer",
+          "note": "زوج = husband (also means 'pair'). زوجي = MY husband.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "زوجة",
+          "en": "wife",
+          "img": "👩💍",
+          "phonetic": "ZAW-ja",
+          "example": "زوجتي طبيبة",
+          "exampleEn": "My wife is a doctor",
+          "note": "زوجة = wife. Notice the ة (ta marbuta) — feminine marker. زوجتي = MY wife.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "عائلة",
+          "en": "family",
+          "img": "👨‍👩‍👧‍👦❤️",
+          "phonetic": "AA-i-la",
+          "example": "عائلتي كبيرة",
+          "exampleEn": "My family is big",
+          "note": "عائلة = family. كبيرة (kabeera) = big. Most Arab families are larger than Western ones.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "أطفال",
+          "en": "children",
+          "img": "👶👧👦",
+          "phonetic": "at-FAAL",
+          "example": "عندي ثلاثة أطفال",
+          "exampleEn": "I have three children",
+          "note": "أطفال = children (plural of طفل = child). Arabs love asking 'كم طفل عندك؟' (How many children do you have?).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "💍 Family Conversations",
+          "text": "Family topics in Arab culture:\n\n💬 Asking about family is warm and expected, not intrusive\n👶 'كم طفل عندك؟' (How many kids?) is normal small talk\n💍 Questions about marriage are common and friendly\n📸 People love showing family photos\n🏠 'عائلة' means both nuclear AND extended family\n\nSaying 'عائلتك كبيرة!' (Your family is big!) is a compliment, not a comment!"
+        },
+        {
+          "type": "mc",
+          "q": "'بنتي في المدرسة' means:",
+          "opts": [
+            "My son is at school",
+            "My daughter is at school",
+            "My wife is a teacher",
+            "My family is big"
+          ],
+          "ans": "My daughter is at school",
+          "hint": "بنت = daughter, ي = my"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_son",
+            "ar_daughter",
+            "ar_husband",
+            "ar_wife"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "'عائلتي كبيرة' means:",
+          "opts": [
+            "My family is small",
+            "I have children",
+            "My family is big",
+            "My wife is kind"
+          ],
+          "ans": "My family is big",
+          "hint": "كبيرة = big"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_children",
+          "dir": "comprehend"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_father",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

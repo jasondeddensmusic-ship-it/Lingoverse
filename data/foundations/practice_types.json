@@ -1,0 +1,22 @@
+{
+  "_schema": "lingoverse_fk_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "mc": {
+      "label": "Multiple Choice",
+      "desc": "Select the correct answer from options"
+    },
+    "match": {
+      "label": "Match Pairs",
+      "desc": "Match items from two columns"
+    },
+    "identify": {
+      "label": "Identify",
+      "desc": "Tap the correct item from a set"
+    },
+    "trace": {
+      "label": "Trace/Copy",
+      "desc": "Write or trace a character (future: handwriting input)"
+    }
+  }
+}

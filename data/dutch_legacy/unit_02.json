@@ -1,0 +1,500 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 2,
+    "lang": "nl",
+    "track": "legacy",
+    "title": "Who Am I?",
+    "sub": "Identity & Nationality",
+    "icon": "🪪",
+    "level": "A1.1",
+    "color": "#3A9BE0"
+  },
+  "lessons": [
+    {
+      "id": "u2l1",
+      "title": "Where Are You From?",
+      "icon": "🌍",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Where Are You From? 🌍",
+          "desc": "Dutch people love asking where you're from! In this lesson you'll learn to talk about yourself and your nationality.",
+          "goals": [
+            "Say where you come from",
+            "Ask others where they're from",
+            "Key countries in Dutch"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "Ik kom uit...",
+          "en": "I come from...",
+          "img": "🌍✈️",
+          "phonetic": "ik kom owt",
+          "example": "Ik kom uit Nederland.",
+          "exampleEn": "I come from the Netherlands.",
+          "note": "The most common way to say where you're from. 'Uit' means 'from' here.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "Waar kom je vandaan?",
+          "en": "Where do you come from? (informal)",
+          "img": "❓🗺️",
+          "phonetic": "vahr kom yuh van-DAHN",
+          "example": "Hoi! Waar kom je vandaan?",
+          "exampleEn": "Hi! Where do you come from?",
+          "note": "'Vandaan' adds emphasis to 'where from'. You can also just say 'Waar kom je?'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het land",
+          "en": "the country",
+          "img": "🗺️🏔️",
+          "phonetic": "ut lahnt",
+          "example": "Nederland is een klein land.",
+          "exampleEn": "The Netherlands is a small country.",
+          "note": "'Het land' — a het-word! It also means 'land/countryside'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🌐 Countries in Dutch",
+          "text": "Most country names in Dutch are recognizable:\n\n🇳🇱 Nederland — The Netherlands\n🇧🇪 België — Belgium\n🇩🇪 Duitsland — Germany\n🇫🇷 Frankrijk — France\n🇬🇧 Engeland — England\n🇺🇸 Amerika — America\n🇪🇸 Spanje — Spain\n🇮🇹 Italië — Italy\n🇹🇷 Turkije — Turkey\n🇲🇦 Marokko — Morocco\n\nNotice: country names don't get 'de' or 'het' — they stand alone!"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'I come from Germany'?",
+          "opts": [
+            "Ik kom uit Duitsland",
+            "Ik ben Duitsland",
+            "Ik ga naar Duitsland",
+            "Ik woon Duitsland"
+          ],
+          "ans": "Ik kom uit Duitsland",
+          "hint": "Uit = from"
+        },
+        {
+          "type": "teach",
+          "nl": "Ik ben...",
+          "en": "I am...",
+          "img": "🏷️👤",
+          "phonetic": "ik ben",
+          "example": "Ik ben Nederlands.",
+          "exampleEn": "I am Dutch.",
+          "note": "Use 'Ik ben' + nationality. Note: nationalities are adjectives in Dutch, not nouns!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🏳️ Nationalities",
+          "text": "Nationalities in Dutch often end in -s or -e:\n\n🇳🇱 Nederlands — Dutch\n🇩🇪 Duits — German\n🇫🇷 Frans — French\n🇬🇧 Engels — English\n🇪🇸 Spaans — Spanish\n🇹🇷 Turks — Turkish\n🇲🇦 Marokkaans — Moroccan\n\nExamples:\n• Ik ben Nederlands. — I am Dutch.\n• Zij is Frans. — She is French.\n• Hij spreekt Duits. — He speaks German.\n\nThe same word is used for the language AND the nationality!",
+          "deepDive": {
+            "title": "Nationality = Language in Dutch",
+            "text": "Unlike English, Dutch uses the same word for nationality and language.\n\n'Hij is Duits' = He is German\n'Hij spreekt Duits' = He speaks German\n\nThis makes things simpler! The context tells you whether it means the person or the language."
+          }
+        },
+        {
+          "type": "tr",
+          "mk": "u2_come_from_france",
+          "dir": "produce"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ben Spaans' means:",
+          "opts": [
+            "I am in Spain",
+            "I am Spanish",
+            "I speak Spanish",
+            "I like Spain"
+          ],
+          "ans": "I am Spanish",
+          "hint": "Ik ben = I am"
+        },
+        {
+          "type": "fb",
+          "s": "Waar kom je _____?",
+          "a": "Vandaan",
+          "opts": [
+            "Vandaan",
+            "Uit",
+            "Bij",
+            "Naar"
+          ],
+          "hint": "Where do you come FROM?"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "country_nl",
+            "country_de",
+            "country_fr",
+            "country_gb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2l2",
+      "title": "I Live In...",
+      "icon": "🏡",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "I Live In... 🏡",
+          "desc": "Tell people where you live! This is one of the most common small talk topics in the Netherlands.",
+          "goals": [
+            "Say where you live",
+            "Ask where someone lives",
+            "Cities in Dutch"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "wonen",
+          "en": "to live (reside)",
+          "img": "🏡🔑",
+          "phonetic": "VOH-nun",
+          "example": "Ik woon in Amsterdam.",
+          "exampleEn": "I live in Amsterdam.",
+          "note": "'Wonen' specifically means to reside/live somewhere. 'Ik woon' = I live.",
+          "conjugation": {
+            "ik": "woon",
+            "jij": "woont",
+            "hij/zij": "woont",
+            "wij": "wonen",
+            "jullie": "wonen",
+            "zij (they)": "wonen"
+          },
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de stad",
+          "en": "the city",
+          "img": "🏙️🌃",
+          "phonetic": "duh stat",
+          "example": "Amsterdam is een mooie stad.",
+          "exampleEn": "Amsterdam is a beautiful city.",
+          "note": "A de-word. Plural: de steden (cities). Dutch cities are world-famous!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het dorp",
+          "en": "the village",
+          "img": "🏘️🌳",
+          "phonetic": "ut dorp",
+          "example": "Ik woon in een klein dorp.",
+          "exampleEn": "I live in a small village.",
+          "note": "A het-word. The Netherlands has hundreds of charming dorpen (villages).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de straat",
+          "en": "the street",
+          "img": "🛣️🏠",
+          "phonetic": "duh straht",
+          "example": "In welke straat woon je?",
+          "exampleEn": "In which street do you live?",
+          "note": "A de-word. Many Dutch streets end in '-straat' or '-weg' (road) or '-laan' (lane).",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "💬 The most common question",
+          "text": "In Dutch small talk, 'Waar woon je?' (Where do you live?) is almost as common as 'Hoe gaat het?'\n\nFull pattern:\n❓ Waar woon je? — Where do you live?\n💬 Ik woon in [city/town]. — I live in [city/town].\n💬 Ik woon in de buurt van... — I live near...\n\nDutch people often follow up with:\n❓ Vind je het leuk daar? — Do you like it there?"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'I live in Rotterdam'?",
+          "opts": [
+            "Ik ben in Rotterdam",
+            "Ik woon in Rotterdam",
+            "Ik kom uit Rotterdam",
+            "Ik ga naar Rotterdam"
+          ],
+          "ans": "Ik woon in Rotterdam",
+          "hint": "Wonen = to live/reside"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_where_live",
+          "dir": "comprehend"
+        },
+        {
+          "type": "fb",
+          "s": "Ik _____ in een klein dorp.",
+          "a": "Woon",
+          "opts": [
+            "Woon",
+            "Ben",
+            "Kom",
+            "Ga"
+          ],
+          "hint": "Which verb means 'to live/reside'?"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "noun_city",
+            "noun_village",
+            "noun_street",
+            "verb_live"
+          ]
+        },
+        {
+          "type": "gramref",
+          "title": "How Dutch Verbs Work",
+          "level": "A1",
+          "text": "Time to conjugate! Here's the pattern:\n\n1. Take the infinitive: wonen\n2. Remove -en to get the stem: woon\n3. Add endings:\n\nik → stem (ik woon)\njij → stem + t (jij woont)\nhij/zij → stem + t (hij woont)\nwij/jullie/zij → infinitive (wij wonen)\n\nThis works for almost ALL Dutch verbs!\n\nFull reference → Grammar tab → A1 → How Dutch Verbs Work"
+        },
+        {
+          "type": "conj",
+          "verb": "wonen",
+          "en": "to live/reside",
+          "forms": {
+            "ik": "woon",
+            "jij": "woont",
+            "hij": "woont",
+            "wij": "wonen",
+            "jullie": "wonen",
+            "zij": "wonen"
+          },
+          "test": [
+            "ik",
+            "jij",
+            "wij"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u2_city_beautiful",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "u2l3",
+      "title": "Languages I Speak",
+      "icon": "🗣️",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Languages I Speak 🗣️",
+          "desc": "The Dutch are famous polyglots! Learn to talk about languages and what you speak.",
+          "goals": [
+            "Say what languages you speak",
+            "Ask if someone speaks Dutch",
+            "'Een beetje' (a little)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "spreken",
+          "en": "to speak",
+          "img": "🗣️💬",
+          "phonetic": "SPRAY-kun",
+          "example": "Spreek je Nederlands?",
+          "exampleEn": "Do you speak Dutch?",
+          "note": "Notice the double 'ee' in the stem — it keeps the long vowel sound. In questions with 'jij': 'Spreek je...?' (no -t!)",
+          "conjugation": {
+            "ik": "spreek",
+            "jij": "spreekt",
+            "hij/zij": "spreekt",
+            "wij": "spreken",
+            "jullie": "spreken",
+            "zij (they)": "spreken"
+          },
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "een beetje",
+          "en": "a little",
+          "img": "🤏😅",
+          "phonetic": "un BAY-tyuh",
+          "example": "Ik spreek een beetje Nederlands.",
+          "exampleEn": "I speak a little Dutch.",
+          "note": "Super useful phrase! 'Beetje' literally means 'a bit'. Dutch people will love hearing you try!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de taal",
+          "en": "the language",
+          "img": "🌐📖",
+          "phonetic": "duh tahl",
+          "example": "Nederlands is een mooie taal.",
+          "exampleEn": "Dutch is a beautiful language.",
+          "note": "A de-word. Plural: de talen. 'Moedertaal' = mother tongue.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 The Dutch and languages",
+          "text": "The Dutch are among the best non-native English speakers in the world! Many speak 2-3 languages.\n\nUseful phrases:\n• Ik spreek Nederlands. — I speak Dutch.\n• Ik spreek een beetje Nederlands. — I speak a little Dutch.\n• Spreek je Engels? — Do you speak English?\n• Ik leer Nederlands. — I am learning Dutch.\n• Ik versta je niet. — I don't understand you.\n\nPro tip: Even though most Dutch people speak English, they deeply appreciate any effort to speak Dutch!",
+          "deepDive": {
+            "title": "Why most Dutch people speak English so well",
+            "text": "Several reasons make the Dutch such good English speakers:\n\n1. Dutch TV shows and movies are subtitled, not dubbed (unlike Germany or France)\n2. English is taught from primary school (age 10-11)\n3. Dutch and English are both Germanic languages — they share many words\n4. The Netherlands is a small trading nation — English is essential for business\n\nFun cognates (words that look alike):\n• water = water\n• boek = book\n• appel = apple\n• groen = green\n• kat = cat"
+          }
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'I speak a little Dutch'?",
+          "opts": [
+            "Ik spreek Nederlands",
+            "Ik spreek een beetje Nederlands",
+            "Ik leer Nederlands",
+            "Ik versta Nederlands"
+          ],
+          "ans": "Ik spreek een beetje Nederlands",
+          "hint": "Een beetje = a little"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_speak_english",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Ik spreek een _____ Nederlands.",
+          "a": "Beetje",
+          "opts": [
+            "Beetje",
+            "Groot",
+            "Veel",
+            "Goed"
+          ],
+          "hint": "A little = een _____"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_lang_beautiful",
+          "dir": "comprehend"
+        },
+        {
+          "type": "mc",
+          "q": "What does 'Ik leer Nederlands' mean?",
+          "opts": [
+            "I speak Dutch",
+            "I am Dutch",
+            "I am learning Dutch",
+            "I understand Dutch"
+          ],
+          "ans": "I am learning Dutch",
+          "hint": "Leren = to learn"
+        },
+        {
+          "type": "gramref",
+          "title": "Conjugation Practice",
+          "level": "A1",
+          "text": "Remember the pattern from last lesson?\n\nInfinitive: spreken (to speak)\nStem: spreek (remove -en)\n\nik → spreek\njij → spreekt (stem + t)\nhij/zij → spreekt (stem + t)\nwij → spreken (= infinitive)\n\nNote: the double 'ee' stays in the stem to keep the long vowel sound. See Grammar → Spelling Rules for Stems."
+        },
+        {
+          "type": "conj",
+          "verb": "spreken",
+          "en": "to speak",
+          "forms": {
+            "ik": "spreek",
+            "jij": "spreekt",
+            "hij": "spreekt",
+            "wij": "spreken",
+            "jullie": "spreken",
+            "zij": "spreken"
+          },
+          "test": [
+            "ik",
+            "jij",
+            "hij"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2l4",
+      "title": "All About Me",
+      "icon": "💫",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "All About Me 💫",
+          "desc": "Now combine everything! Introduce yourself fully — name, origin, where you live, and what languages you speak.",
+          "goals": [
+            "Full self-introduction",
+            "Practice all Unit 2 vocabulary",
+            "Mini-conversation patterns"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🎯 Your Dutch self-intro",
+          "text": "Here's a full self-introduction pattern:\n\nHallo! Ik heet [name]. — Hello! My name is [name].\nIk kom uit [country]. — I come from [country].\nIk woon in [city]. — I live in [city].\nIk spreek [language] en een beetje Nederlands. — I speak [language] and a little Dutch.\nAangenaam! — Nice to meet you!\n\nExample:\nHallo! Ik heet Maria. — Hello! My name is Maria.\nIk kom uit Spanje. — I come from Spain.\nIk woon in Amsterdam. — I live in Amsterdam.\nIk spreek Spaans en een beetje Nederlands. — I speak Spanish and a little Dutch.\nAangenaam! — Nice to meet you!"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_name_origin",
+          "dir": "comprehend"
+        },
+        {
+          "type": "fb",
+          "s": "Ik _____ uit Frankrijk.",
+          "a": "Kom",
+          "opts": [
+            "Kom",
+            "Woon",
+            "Spreek",
+            "Heet"
+          ],
+          "hint": "I come FROM France"
+        },
+        {
+          "type": "mc",
+          "q": "Someone says 'Waar woon je?' — you reply:",
+          "opts": [
+            "Ik heet Anna",
+            "Ik kom uit Nederland",
+            "Ik woon in Utrecht",
+            "Ik spreek Nederlands"
+          ],
+          "ans": "Ik woon in Utrecht",
+          "hint": "They're asking WHERE you live"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_live_speak_little",
+          "dir": "produce"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "phrase_my_name_is",
+            "phrase_i_come_from",
+            "phrase_i_live_in",
+            "phrase_i_speak"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'Nice to meet you' in Dutch?",
+          "opts": [
+            "Alsjeblieft",
+            "Aangenaam",
+            "Goedemorgen",
+            "Bedankt"
+          ],
+          "ans": "Aangenaam",
+          "hint": "You learned this in Unit 1!"
+        }
+      ]
+    }
+  ]
+}
