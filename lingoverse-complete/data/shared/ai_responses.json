@@ -1,0 +1,154 @@
+{
+  "_schema": "lingoverse_ai_resp_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "fr": {
+      "g": [
+        {
+          "t": "Bonjour! 😊 Je m'appelle Nova.",
+          "h": "Say 'Je m'appelle [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Très bien! Tu progresses vite! 🌟",
+          "h": "'Très bien' = Very good"
+        },
+        {
+          "t": "Bonne réponse!",
+          "h": "'Bonne réponse' = Good answer"
+        }
+      ]
+    },
+    "nl": {
+      "g": [
+        {
+          "t": "Hallo! 😊 Ik ben Nova. Hoe heet jij?",
+          "h": "Say 'Ik heet [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Heel goed! 🌟",
+          "h": "'Heel goed' = Very good"
+        },
+        {
+          "t": "Goed gedaan!",
+          "h": "'Goed gedaan' = Well done"
+        }
+      ]
+    },
+    "en": {
+      "g": [
+        {
+          "t": "Hello! 😊 I'm Nova.",
+          "h": "Say 'My name is [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Great job! 🌟",
+          "h": "Keep it up!"
+        }
+      ]
+    },
+    "de": {
+      "g": [
+        {
+          "t": "Hallo! 😊 Ich bin Nova.",
+          "h": "Say 'Ich heiße [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Sehr gut! 🌟",
+          "h": "'Sehr gut' = Very good"
+        }
+      ]
+    },
+    "ro": {
+      "g": [
+        {
+          "t": "Bună! 😊 Eu sunt Nova.",
+          "h": "Say 'Mă numesc [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Foarte bine! 🌟",
+          "h": "'Foarte bine' = Very good"
+        }
+      ]
+    },
+    "es": {
+      "g": [
+        {
+          "t": "¡Hola! 😊 Soy Nova.",
+          "h": "Say 'Me llamo [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "¡Muy bien! 🌟",
+          "h": "'Muy bien' = Very good"
+        }
+      ]
+    },
+    "ko": {
+      "g": [
+        {
+          "t": "안녕하세요! 😊 저는 노바예요.",
+          "h": "Say '저는 [name]이에요'"
+        }
+      ],
+      "r": [
+        {
+          "t": "아주 잘했어요! 🌟",
+          "h": "'잘했어요' = Well done"
+        }
+      ]
+    },
+    "zh": {
+      "g": [
+        {
+          "t": "你好! 😊 我是Nova。",
+          "h": "Say '我叫 [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "很好! 🌟",
+          "h": "'很好' = Very good"
+        }
+      ]
+    },
+    "ja": {
+      "g": [
+        {
+          "t": "こんにちは! 😊 私はNovaです。",
+          "h": "Say '私は[name]です'"
+        }
+      ],
+      "r": [
+        {
+          "t": "とても上手です! 🌟",
+          "h": "'上手' = Skillful"
+        }
+      ]
+    },
+    "ru": {
+      "g": [
+        {
+          "t": "Привет! 😊 Я Нова.",
+          "h": "Say 'Меня зовут [name]'"
+        }
+      ],
+      "r": [
+        {
+          "t": "Очень хорошо! 🌟",
+          "h": "'Очень хорошо' = Very good"
+        }
+      ]
+    }
+  }
+}

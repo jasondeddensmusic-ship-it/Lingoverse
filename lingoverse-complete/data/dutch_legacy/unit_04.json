@@ -1,0 +1,452 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 4,
+    "lang": "nl",
+    "track": "legacy",
+    "title": "Eating & Drinking",
+    "sub": "Food & Ordering",
+    "icon": "🍽️",
+    "level": "A1.2",
+    "color": "#F5A623"
+  },
+  "lessons": [
+    {
+      "id": "u4l1",
+      "title": "What'll You Have?",
+      "icon": "☕",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "What'll You Have? ☕",
+          "desc": "The Dutch love their coffee breaks! Let's learn to order drinks — the first step to surviving in a Dutch café.",
+          "goals": [
+            "6 common Dutch drinks",
+            "How to order politely",
+            "De vs het with drinks"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de koffie",
+          "en": "coffee",
+          "img": "☕🫘",
+          "phonetic": "duh KOF-fee",
+          "example": "Wil je koffie?",
+          "exampleEn": "Do you want coffee?",
+          "note": "A de-word! The Dutch drink an average of 3-4 cups of coffee per day — the most in Europe!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de thee",
+          "en": "tea",
+          "img": "🍵🌿",
+          "phonetic": "duh tay",
+          "example": "Ik drink graag thee.",
+          "exampleEn": "I like to drink tea.",
+          "note": "A de-word. 'Graag' means 'gladly/preferably'. 'Ik drink graag...' = I like to drink...",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het water",
+          "en": "water",
+          "img": "💧🚰",
+          "phonetic": "ut WAH-tur",
+          "example": "Mag ik een glas water?",
+          "exampleEn": "May I have a glass of water?",
+          "note": "A het-word! 'Een glas water' = a glass of water. Very similar to English.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het bier",
+          "en": "beer",
+          "img": "🍺🇳🇱",
+          "phonetic": "ut beer",
+          "example": "Een biertje, alsjeblieft.",
+          "exampleEn": "A beer, please.",
+          "note": "A het-word! The diminutive 'biertje' is super common — it sounds friendlier. Heineken is Dutch!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de wijn",
+          "en": "wine",
+          "img": "🍷🍇",
+          "phonetic": "duh vayn",
+          "example": "Rode of witte wijn?",
+          "exampleEn": "Red or white wine?",
+          "note": "A de-word. 'Rode wijn' = red wine, 'witte wijn' = white wine. Sounds like English 'wine'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de melk",
+          "en": "milk",
+          "img": "🥛🐄",
+          "phonetic": "duh melk",
+          "example": "Melk is gezond.",
+          "exampleEn": "Milk is healthy.",
+          "note": "A de-word. The Dutch drink a lot of milk — karnemelk (buttermilk) is uniquely popular!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🗣️ How to order",
+          "text": "At a Dutch café or restaurant:\n\n☕ Mag ik een koffie? — May I have a coffee?\n🍺 Een biertje, alsjeblieft. — A beer, please.\n💧 Doe maar een water. — Just give me a water.\n🍵 Ik wil graag thee. — I'd like tea.\n\n'Doe maar...' is a very Dutch phrase meaning 'just give me...' or 'I'll have...' — super casual and commonly used!",
+          "deepDive": {
+            "title": "The Dutch coffee culture — 'koffietijd'",
+            "text": "Coffee isn't just a drink in the Netherlands — it's a social institution.\n\n'Koffie?' is the first thing you'll hear when visiting any Dutch home or office. Refusing coffee can even be considered slightly rude!\n\nCommon coffee terms:\n• Koffie verkeerd — literally 'wrong coffee' = coffee with lots of milk (like a latte)\n• Espresso — same as everywhere\n• Cappuccino — also common\n• Bakkie — slang for a cup of coffee\n\nMany Dutch workplaces have a daily 'koffiepauze' (coffee break) that's almost sacred."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "What article does 'water' get?",
+          "opts": [
+            "De",
+            "Het",
+            "Een",
+            "No article"
+          ],
+          "ans": "Het",
+          "hint": "Think about what category water falls into — liquid, substance..."
+        },
+        {
+          "type": "mc",
+          "q": "How would you casually order a beer?",
+          "opts": [
+            "Geef mij bier",
+            "Een biertje, alsjeblieft",
+            "Het bier is goed",
+            "Ik ben bier"
+          ],
+          "ans": "Een biertje, alsjeblieft",
+          "hint": "The diminutive -tje makes it friendlier"
+        },
+        {
+          "type": "tr",
+          "mk": "u4_glass_water",
+          "dir": "produce"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "food_coffee",
+            "food_tea",
+            "food_beer",
+            "food_wine"
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Mag ik een _____, alsjeblieft?",
+          "a": "Koffie",
+          "opts": [
+            "Koffie",
+            "Kopen",
+            "Groot",
+            "Lekker"
+          ],
+          "hint": "Ordering a hot drink"
+        }
+      ]
+    },
+    {
+      "id": "u4l2",
+      "title": "Eet smakelijk!",
+      "icon": "🍞",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Eet smakelijk! 🍞",
+          "desc": "'Eet smakelijk' means 'enjoy your meal'! Let's learn essential food words — many are key to understanding Dutch menus.",
+          "goals": [
+            "8 common food words",
+            "De vs het with food nouns",
+            "'Lekker' — the most Dutch word ever"
+          ]
+        },
+        {
+          "type": "gramref",
+          "title": "De vs Het — Why It Matters",
+          "level": "A1",
+          "text": "Food nouns are a great way to practice articles:\n\n🔴 de-words (coral): de kaas, de vis, de groente, de aardappel\n🟣 het-words (purple): het brood, het ei, het vlees\n\nNotice the teach cards are color-coded!\nCoral background = de word\nPurple background = het word\n\nThere's no logic — just memorize each noun with its article.\n\nFull reference → Grammar tab → A1 → Articles: De vs Het"
+        },
+        {
+          "type": "teach",
+          "nl": "het brood",
+          "en": "bread",
+          "img": "🍞🥖",
+          "phonetic": "ut broht",
+          "example": "Wij eten brood bij het ontbijt.",
+          "exampleEn": "We eat bread at breakfast.",
+          "note": "A het-word! Bread is THE Dutch food. The Dutch eat bread for lunch every single day — it's called 'boterham'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de kaas",
+          "en": "cheese",
+          "img": "🧀🇳🇱",
+          "phonetic": "duh kahs",
+          "example": "Nederlandse kaas is lekker!",
+          "exampleEn": "Dutch cheese is delicious!",
+          "note": "A de-word. The Netherlands is one of the world's biggest cheese exporters — Gouda, Edam, Leiden cheese!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het ei",
+          "en": "egg",
+          "img": "🥚🍳",
+          "phonetic": "ut ay",
+          "example": "Wil je een gekookt ei?",
+          "exampleEn": "Do you want a boiled egg?",
+          "note": "A het-word! Plural: de eieren (the eggs). 'Een gebakken ei' = a fried egg.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het vlees",
+          "en": "meat",
+          "img": "🥩🍖",
+          "phonetic": "ut vlays",
+          "example": "Ik eet geen vlees.",
+          "exampleEn": "I don't eat meat.",
+          "note": "A het-word! 'Geen' = no/not any. 'Ik eet geen vlees' is useful if you're vegetarian.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de vis",
+          "en": "fish",
+          "img": "🐟🎣",
+          "phonetic": "duh vis",
+          "example": "Vis is gezond.",
+          "exampleEn": "Fish is healthy.",
+          "note": "A de-word! The Dutch love haring (herring) — eaten raw with onions! A must-try street food.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de groente",
+          "en": "vegetables",
+          "img": "🥬🥕",
+          "phonetic": "duh GROON-tuh",
+          "example": "Eet meer groente!",
+          "exampleEn": "Eat more vegetables!",
+          "note": "A de-word. The classic Dutch dinner: meat + potatoes + groente. Called 'AVG' (aardappelen, vlees, groente).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de aardappel",
+          "en": "potato",
+          "img": "🥔🇳🇱",
+          "phonetic": "duh AHR-dah-pul",
+          "example": "Aardappelen zijn typisch Nederlands.",
+          "exampleEn": "Potatoes are typically Dutch.",
+          "note": "A de-word. Literally 'earth-apple'! Plural: aardappelen. Stamppot (mashed potatoes + veggies) is the national comfort food.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "lekker",
+          "en": "tasty/nice/yummy",
+          "img": "😋👨‍🍳",
+          "phonetic": "LEK-ur",
+          "example": "Dit is heel lekker!",
+          "exampleEn": "This is very tasty!",
+          "note": "THE most Dutch word! Used for food, weather, feelings — anything positive. 'Lekker weer' = nice weather, 'lekker slapen' = sleep well.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "😋 'Lekker' — the ultimate Dutch word",
+          "text": "'Lekker' is everywhere in Dutch:\n\n🍽️ Het eten is lekker! — The food is tasty!\n☀️ Lekker weer vandaag! — Nice weather today!\n😴 Slaap lekker! — Sleep well!\n🏖️ Lekker rustig. — Nicely quiet.\n💆 Ik voel me lekker. — I feel good.\n\nIf you only learn one Dutch adjective, make it 'lekker'!"
+        },
+        {
+          "type": "mc",
+          "q": "What article goes with 'brood'?",
+          "opts": [
+            "De",
+            "Het"
+          ],
+          "ans": "Het",
+          "hint": "You learned this one at breakfast!"
+        },
+        {
+          "type": "mc",
+          "q": "What does 'lekker' mean?",
+          "opts": [
+            "Ugly",
+            "Expensive",
+            "Tasty/nice",
+            "Difficult"
+          ],
+          "ans": "Tasty/nice",
+          "hint": "The most positive word in Dutch!"
+        },
+        {
+          "type": "tr",
+          "mk": "u4_cheese_delicious",
+          "dir": "comprehend"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "food_bread",
+            "food_cheese",
+            "food_meat",
+            "food_vegetables"
+          ]
+        },
+        {
+          "type": "fb",
+          "s": "Dit is heel _____!",
+          "a": "Lekker",
+          "opts": [
+            "Lekker",
+            "Groot",
+            "Nieuw",
+            "Klein"
+          ],
+          "hint": "The most Dutch compliment for food"
+        }
+      ]
+    },
+    {
+      "id": "u4l3",
+      "title": "At the Restaurant",
+      "icon": "🍽️",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "At the Restaurant 🍽️",
+          "desc": "Time to put it all together and order a full meal in Dutch! You'll learn key restaurant phrases.",
+          "goals": [
+            "Order food and drinks",
+            "Ask for the bill",
+            "Essential restaurant phrases"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "het menu",
+          "en": "the menu",
+          "img": "📋🍽️",
+          "phonetic": "ut muh-NOO",
+          "example": "Mag ik het menu?",
+          "exampleEn": "May I have the menu?",
+          "note": "A het-word! Same as French. You'll also hear 'de kaart' (the card) meaning the menu.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de rekening",
+          "en": "the bill/check",
+          "img": "🧾💶",
+          "phonetic": "duh RAY-kuh-ning",
+          "example": "Mag ik de rekening?",
+          "exampleEn": "May I have the bill?",
+          "note": "A de-word. In the Netherlands, you usually have to ASK for the bill — they won't bring it automatically.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het ontbijt",
+          "en": "breakfast",
+          "img": "🥐☀️",
+          "phonetic": "ut ont-BAYT",
+          "example": "Ontbijt om acht uur.",
+          "exampleEn": "Breakfast at eight.",
+          "note": "A het-word. Dutch breakfast = bread with cheese, ham, hagelslag (chocolate sprinkles!), peanut butter, jam.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de lunch",
+          "en": "lunch",
+          "img": "🥪🕐",
+          "phonetic": "duh lunch",
+          "example": "Wat eet je voor de lunch?",
+          "exampleEn": "What do you eat for lunch?",
+          "note": "A de-word. Dutch lunch is simple: broodjes (sandwiches). The warm meal is dinner.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het avondeten",
+          "en": "dinner",
+          "img": "🍲🌙",
+          "phonetic": "ut AH-vont-ay-tun",
+          "example": "Het avondeten is om zes uur.",
+          "exampleEn": "Dinner is at six.",
+          "note": "A het-word. Literally 'evening-eating'. Dutch people eat dinner early — often around 6 PM!",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🍽️ Restaurant survival phrases",
+          "text": "Essential phrases:\n\n📋 Mag ik het menu? — May I see the menu?\n🤔 Wat is de soep van de dag? — What is the soup of the day?\n☕ Ik wil graag een koffie. — I'd like a coffee.\n🍽️ Ik wil graag bestellen. — I'd like to order.\n🧾 Mag ik de rekening? — May I have the bill?\n💳 Kan ik pinnen? — Can I pay by card?\n\n'Pinnen' = paying by debit card (very Dutch — cash is rare!)"
+        },
+        {
+          "type": "mc",
+          "q": "How do you ask for the bill?",
+          "opts": [
+            "Mag ik het menu?",
+            "Mag ik de rekening?",
+            "Ik wil betalen",
+            "De koffie, alsjeblieft"
+          ],
+          "ans": "Mag ik de rekening?",
+          "hint": "De rekening = the bill"
+        },
+        {
+          "type": "tr",
+          "mk": "u4_like_to_order",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Mag ik het _____?",
+          "a": "Menu",
+          "opts": [
+            "Menu",
+            "Eten",
+            "Lekker",
+            "Goed"
+          ],
+          "hint": "What do you look at to choose your food?"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "food_breakfast",
+            "food_lunch",
+            "food_dinner",
+            "food_bill"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "What does 'Kan ik pinnen?' mean?",
+          "opts": [
+            "Can I eat here?",
+            "Can I pay by card?",
+            "Can I have the menu?",
+            "Can I sit here?"
+          ],
+          "ans": "Can I pay by card?",
+          "hint": "Pinnen = to pay by debit card"
+        }
+      ]
+    }
+  ]
+}

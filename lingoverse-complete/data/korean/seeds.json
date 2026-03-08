@@ -1,0 +1,179 @@
+{
+  "_schema": "lingoverse_seeds_v1",
+  "_extracted": "2026-03-07",
+  "lang": "ko",
+  "seeds": [
+    {
+      "concept": "verb_stem_engine",
+      "first_exposure": "kou1l2b",
+      "status": "always_active",
+      "first_note": "planted"
+    },
+    {
+      "concept": "vowel_harmony",
+      "first_exposure": "kou1l2b",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou2l2b",
+      "harvest_note": "A1"
+    },
+    {
+      "concept": "haeyo_speech_level",
+      "first_exposure": "kou1l2 + kou3l7b",
+      "status": "planted_and_harvested",
+      "harvest_lesson": "kou9l4",
+      "harvest_note": "A2 deepdive"
+    },
+    {
+      "concept": "hapjyo_speech_level",
+      "first_exposure": "kou3l7b",
+      "status": "planted_and_harvested",
+      "first_note": "recognition",
+      "harvest_lesson": "kou9l4",
+      "harvest_note": "A2 production"
+    },
+    {
+      "concept": "banmal",
+      "first_exposure": "kou3l7b",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou10l3",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "dt_irregular",
+      "first_exposure": "kou6l5",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou7l5",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "bp_irregular",
+      "first_exposure": "kou6l5",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou7l5",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "ru_eu_irregular",
+      "first_exposure": "kou6l5",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou9l7",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "h_irregular",
+      "first_exposure": "kou6l5",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou11l9",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "past_tense",
+      "first_exposure": "kou6l5",
+      "status": "planted_and_harvested",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou7l2",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "future_tense",
+      "first_exposure": "——",
+      "status": "planted",
+      "harvest_lesson": "kou9l2",
+      "harvest_note": "A2"
+    },
+    {
+      "concept": "neunde_connector",
+      "first_exposure": "kou8l8",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou13l2",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "go_iss_progressive",
+      "first_exposure": "kou9l6",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou11l4",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "ge_dwae_change",
+      "first_exposure": "kou7l4",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou15l4",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "neyo_discovery",
+      "first_exposure": "kou7l4",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou13l5",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "noun_modifiers",
+      "first_exposure": "kou7l8",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou18l5-7",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "ae_juda_for_someone",
+      "first_exposure": "kou8l4",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou15l1",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "geo_deun_yo_reason",
+      "first_exposure": "kou9l5",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou13l4",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "go_sipeo_hada_3rd",
+      "first_exposure": "kou9l8",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou15l7",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "deo_rago_yo_evidential",
+      "first_exposure": "kou10l7",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou19l2",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "double_past_었었",
+      "first_exposure": "kou10l7",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou17l6",
+      "harvest_note": "B1"
+    },
+    {
+      "concept": "gi_nominalization",
+      "first_exposure": "kou10l8",
+      "status": "planted_jrtf",
+      "first_note": "JRTF",
+      "harvest_lesson": "kou18l1",
+      "harvest_note": "B1"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 2,
+    "lang": "ar",
+    "title": "من أنا؟",
+    "sub": "Self-introduction",
+    "icon": "📛",
+    "level": "A1.1",
+    "color": "#D4A017",
+    "objectives": [
+      "ok_introduce_self",
+      "ok_how_are_you"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "aru2l1",
+      "title": "اسمي... 📛",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "My Name Is... 📛",
+          "desc": "Introduce yourself in Arabic — names, origins, and the essential question words.",
+          "goals": [
+            "'My name is...'",
+            "'I am from...'",
+            "How are you?"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "اسمي",
+          "en": "My name is...",
+          "img": "📛✨",
+          "phonetic": "IS-mee",
+          "example": "اسمي أحمد. وأنت؟",
+          "exampleEn": "My name is Ahmed. And you?",
+          "note": "'اسم' (ism) = name. The 'ي' (ee) at the end = my. So 'اسمي' = 'my name'. Arabic builds meaning through suffixes!",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "أنا من",
+          "en": "I am from...",
+          "img": "🌍✈️",
+          "phonetic": "A-na min",
+          "example": "أنا من مصر",
+          "exampleEn": "I am from Egypt.",
+          "note": "'أنا' = I, 'من' = from. Arabic has NO verb 'to be' in present tense! 'أنا من مصر' literally = 'I from Egypt'.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "كيف حالك؟",
+          "en": "How are you?",
+          "img": "💬❤️",
+          "phonetic": "KAY-fa HAA-lak",
+          "example": "مرحبا! كيف حالك؟",
+          "exampleEn": "Hello! How are you?",
+          "note": "Literally 'How is your condition?' Reply: 'بخير، شكرا' = Fine, thanks. Or 'الحمد لله' = Praise be to God — the most common reply.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "أنا بخير",
+          "en": "I'm fine",
+          "img": "😊👍",
+          "phonetic": "A-na bi-KHAYR",
+          "example": "أنا بخير، الحمد لله",
+          "exampleEn": "I'm fine, praise God.",
+          "note": "Adding 'الحمد لله' is extremely common — it's a cultural expression, not just religious.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🚫 No 'To Be' in Arabic!",
+          "text": "Arabic has NO present tense of 'to be':\n\n• أنا أحمد = I [am] Ahmed\n• أنا من مصر = I [am] from Egypt\n• أنا بخير = I [am] fine\n• هذا كتاب = This [is] a book\n\nNo conjugation, no 'am/is/are'. Just put words together!\nThis is one of the EASIEST parts of Arabic grammar."
+        },
+        {
+          "type": "mc",
+          "q": "'أنا من مصر' means:",
+          "opts": [
+            "I speak Egyptian",
+            "My name is Egypt",
+            "I am from Egypt",
+            "I love Egypt"
+          ],
+          "ans": "I am from Egypt",
+          "hint": "أنا = I, من = from, مصر = Egypt"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_my_name",
+          "dir": "comprehend"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_how_are_you",
+          "dir": "comprehend"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_my_name",
+            "ar_from",
+            "ar_how_are_you",
+            "ar_fine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aru2l2",
+      "title": "نعم ولا ✅❌",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Yes, No & Essentials ✅❌",
+          "desc": "The most important tiny words plus basic nouns.",
+          "goals": [
+            "Yes/No",
+            "Sorry",
+            "Basic nouns"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "نعم",
+          "en": "Yes",
+          "img": "✅👍",
+          "phonetic": "NA-am",
+          "example": "نعم، أنا من هنا",
+          "exampleEn": "Yes, I am from here.",
+          "note": "Formal 'yes'. Casual: 'أيوا' (aywa) or 'إيه' (eeh).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "لا",
+          "en": "No",
+          "img": "❌🙅",
+          "phonetic": "laa",
+          "example": "لا، شكرا",
+          "exampleEn": "No, thank you.",
+          "note": "The long 'aa' is important. 'لا شكرا' = no thank you (perfectly polite).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "ماء",
+          "en": "water",
+          "img": "💧🥤",
+          "phonetic": "MAA-a",
+          "example": "ماء من فضلك",
+          "exampleEn": "Water, please.",
+          "note": "Essential survival word! 'ماء بارد' (maa' baarid) = cold water.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "كتاب",
+          "en": "book",
+          "img": "📖📚",
+          "phonetic": "ki-TAAB",
+          "example": "هذا كتاب",
+          "exampleEn": "This is a book.",
+          "note": "From root ك-ت-ب (k-t-b) = writing. كتاب (book), كاتب (writer), مكتب (office), مكتبة (library) — all from 3 letters!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🌳 Arabic Root System",
+          "text": "Arabic is built on 3-letter ROOTS:\n\nك-ت-ب (k-t-b) = writing:\n• كتاب = book\n• كاتب = writer\n• مكتب = office/desk\n• مكتبة = library\n\nد-ر-س (d-r-s) = studying:\n• درس = lesson\n• مدرسة = school\n• مدرّس = teacher\n\nOnce you spot roots, vocabulary explodes open!"
+        },
+        {
+          "type": "mc",
+          "q": "'لا شكرا' means:",
+          "opts": [
+            "Yes please",
+            "No thank you",
+            "You're welcome",
+            "Excuse me"
+          ],
+          "ans": "No thank you",
+          "hint": "لا = no, شكرا = thank you"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "ar_yes",
+            "ar_no",
+            "ar_water",
+            "ar_book"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "ar_yes",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "ar_sorry",
+          "dir": "comprehend"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 9,
+    "lang": "nl",
+    "track": "legacy",
+    "title": "Looking Good",
+    "sub": "Shopping & Clothes",
+    "icon": "🛍️",
+    "level": "A2.1",
+    "color": "#F5A623"
+  },
+  "lessons": [
+    {
+      "id": "u9l1",
+      "title": "Colors",
+      "icon": "🎨",
+      "xp": 15,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Colors 🎨",
+          "desc": "Colors are everywhere — describing clothes, objects, and even feelings!",
+          "goals": [
+            "10 colors in Dutch",
+            "Colors as adjectives",
+            "The national color: oranje!"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "rood",
+          "en": "red",
+          "img": "🔴❤️",
+          "phonetic": "roht",
+          "example": "De roos is rood.",
+          "exampleEn": "The rose is red.",
+          "note": "Close to English 'red'. Before nouns: rode (een rode auto).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "blauw",
+          "en": "blue",
+          "img": "🔵💙",
+          "phonetic": "blow",
+          "example": "De lucht is blauw.",
+          "exampleEn": "The sky is blue.",
+          "note": "Close to English 'blue'. Before nouns: blauwe.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "groen",
+          "en": "green",
+          "img": "🟢💚",
+          "phonetic": "groon",
+          "example": "Het gras is groen.",
+          "exampleEn": "The grass is green.",
+          "note": "Nearly identical to English 'green'!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "geel",
+          "en": "yellow",
+          "img": "🟡💛",
+          "phonetic": "gayl",
+          "example": "De zon is geel.",
+          "exampleEn": "The sun is yellow.",
+          "note": "Related to English 'yellow'. Sounds like 'gale'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "wit",
+          "en": "white",
+          "img": "⚪🤍",
+          "phonetic": "vit",
+          "example": "De sneeuw is wit.",
+          "exampleEn": "The snow is white.",
+          "note": "Short! Een wit huis = a white house (het-word, no -te ending).",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "zwart",
+          "en": "black",
+          "img": "⚫🖤",
+          "phonetic": "zvart",
+          "example": "De kat is zwart.",
+          "exampleEn": "The cat is black.",
+          "note": "Related to English 'swarthy'. Een zwarte kat = a black cat.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "oranje",
+          "en": "orange",
+          "img": "🟠🧡",
+          "phonetic": "oh-RAHN-yuh",
+          "example": "Oranje is de kleur van Nederland.",
+          "exampleEn": "Orange is the color of the Netherlands.",
+          "note": "THE national color! Named after the Royal House of Orange-Nassau. On King's Day everyone wears oranje!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 Why orange?",
+          "text": "The flag is red-white-blue, but the nation's color is ORANGE!\n\nWhy? The Royal House of Orange-Nassau. On Koningsdag (King's Day, April 27), the whole country turns orange.\n\nMore colors:\n• bruin — brown 🟤\n• grijs — grey\n• roze — pink 🩷\n• paars — purple 💜"
+        },
+        {
+          "type": "mc",
+          "q": "What is the national color of the Netherlands?",
+          "opts": [
+            "Rood",
+            "Blauw",
+            "Oranje",
+            "Groen"
+          ],
+          "ans": "Oranje",
+          "hint": "Named after the Royal House..."
+        },
+        {
+          "type": "match",
+          "mks": [
+            "color_red",
+            "color_blue",
+            "color_green",
+            "color_black"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u9_cat_black",
+          "dir": "comprehend"
+        },
+        {
+          "type": "fb",
+          "s": "De lucht is _____.",
+          "a": "Blauw",
+          "opts": [
+            "Blauw",
+            "Rood",
+            "Zwart",
+            "Groen"
+          ],
+          "hint": "The sky is ___"
+        }
+      ]
+    },
+    {
+      "id": "u9l2",
+      "title": "At the Shop",
+      "icon": "🛍️",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "At the Shop 🛍️",
+          "desc": "Learn to ask prices, navigate shops, and pay — the Dutch way (with a debit card!).",
+          "goals": [
+            "Ask prices",
+            "Shopping vocabulary",
+            "Pay like a local"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de winkel",
+          "en": "shop/store",
+          "img": "🏪🛍️",
+          "phonetic": "duh VIN-kul",
+          "example": "De winkel is open.",
+          "exampleEn": "The shop is open.",
+          "note": "A de-word. 'Winkelen' = to shop.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "Hoeveel kost dit?",
+          "en": "How much does this cost?",
+          "img": "💶❓",
+          "phonetic": "hoo-VAYL kost dit",
+          "example": "Hoeveel kost dit? Vijf euro.",
+          "exampleEn": "How much does this cost? Five euros.",
+          "note": "THE shopping phrase. 'Hoeveel' = how much/many.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "duur",
+          "en": "expensive",
+          "img": "💰😱",
+          "phonetic": "door",
+          "example": "Deze jas is te duur.",
+          "exampleEn": "This coat is too expensive.",
+          "note": "'Te duur' = too expensive. Opposite: goedkoop.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "goedkoop",
+          "en": "cheap",
+          "img": "💰😊",
+          "phonetic": "HOOT-kohp",
+          "example": "Dit is goedkoop!",
+          "exampleEn": "This is cheap!",
+          "note": "Compound: goed (good) + koop (buy) = good buy = cheap!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "kopen",
+          "en": "to buy",
+          "img": "🛒✅",
+          "phonetic": "KOH-pun",
+          "example": "Ik wil dit kopen.",
+          "exampleEn": "I want to buy this.",
+          "note": "'Ik koop' = I buy. Past: 'Ik heb gekocht' = I bought.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "betalen",
+          "en": "to pay",
+          "img": "💳💶",
+          "phonetic": "buh-TAH-lun",
+          "example": "Ik wil graag betalen.",
+          "exampleEn": "I would like to pay.",
+          "note": "'Kan ik pinnen?' = Can I pay by card? Cash is rare in NL!",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🛒 Shopping phrases",
+          "text": "💬 Kan ik u helpen? — Can I help you?\n💬 Ik kijk even. — I'm just looking.\n💶 Hoeveel kost dit? — How much is this?\n💳 Kan ik pinnen? — Can I pay by card?\n🧾 Mag ik het bonnetje? — Receipt, please?\n\n'Pinnen' = debit card payment. Most Dutch shops are card-only!"
+        },
+        {
+          "type": "mc",
+          "q": "'Hoeveel kost dit?' means:",
+          "opts": [
+            "How much is this?",
+            "Where is this?",
+            "Can I have this?",
+            "Is this good?"
+          ],
+          "ans": "How much is this?"
+        },
+        {
+          "type": "tr",
+          "mk": "u9_too_expensive",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Kan ik _____?",
+          "a": "Pinnen",
+          "opts": [
+            "Pinnen",
+            "Eten",
+            "Slapen",
+            "Fietsen"
+          ],
+          "hint": "Pay by card"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "shop_buy",
+            "shop_pay",
+            "shop_expensive",
+            "shop_cheap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u9l3",
+      "title": "Getting Dressed",
+      "icon": "👕",
+      "xp": 20,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Getting Dressed 👕",
+          "desc": "What are you wearing? Learn the essential clothing words — very useful for shopping!",
+          "goals": [
+            "8 clothing words with articles",
+            "'Ik draag...' (I wear)",
+            "Colors + clothes"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de broek",
+          "en": "trousers/pants",
+          "img": "👖👔",
+          "phonetic": "duh brook",
+          "example": "Deze broek is te groot.",
+          "exampleEn": "These trousers are too big.",
+          "note": "A de-word. In Dutch, 'broek' is singular (unlike English 'trousers'). 'Een korte broek' = shorts.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het shirt",
+          "en": "shirt/t-shirt",
+          "img": "👕👚",
+          "phonetic": "ut shurt",
+          "example": "Ik draag een wit shirt.",
+          "exampleEn": "I wear a white shirt.",
+          "note": "A het-word! Borrowed from English. 'Overhemd' = formal dress shirt.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de jas",
+          "en": "jacket/coat",
+          "img": "🧥🌧️",
+          "phonetic": "duh yas",
+          "example": "Doe je jas aan, het is koud.",
+          "exampleEn": "Put on your coat, it's cold.",
+          "note": "A de-word. Essential in Dutch weather! 'Doe aan' = put on (separable verb: aandoen).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de schoen",
+          "en": "shoe",
+          "img": "👟👞",
+          "phonetic": "duh sghoon",
+          "example": "Nieuwe schoenen!",
+          "exampleEn": "New shoes!",
+          "note": "A de-word. Plural: schoenen. Dutch people take shoes off at home. 'Klompen' = clogs (the famous wooden shoes).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de jurk",
+          "en": "dress",
+          "img": "👗✨",
+          "phonetic": "duh yurk",
+          "example": "Wat een mooie jurk!",
+          "exampleEn": "What a beautiful dress!",
+          "note": "A de-word. 'Wat een...' = What a... (exclamation). Very natural in Dutch.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "dragen",
+          "en": "to wear",
+          "img": "👔🪞",
+          "phonetic": "DRAH-gun",
+          "example": "Wat draag jij vandaag?",
+          "exampleEn": "What are you wearing today?",
+          "note": "'Ik draag' = I wear. Also means 'to carry'. 'Draag jij een bril?' = Do you wear glasses?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "passen",
+          "en": "to try on / to fit",
+          "img": "🪞👗",
+          "phonetic": "PAS-sun",
+          "example": "Mag ik dit passen?",
+          "exampleEn": "May I try this on?",
+          "note": "Two meanings: 'passen' = to try on AND to fit. 'Het past niet' = it doesn't fit.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🛍️ Useful fitting room phrases",
+          "text": "At the shop:\n\n👀 Mag ik dit passen? — May I try this on?\n📏 Welke maat heb je? — What size do you have?\n📏 Maat 40, alsjeblieft. — Size 40, please.\n❌ Het past niet. — It doesn't fit.\n📏 Te groot / te klein — Too big / too small\n👌 Het staat je goed! — It looks good on you!\n🎨 Heeft u dit ook in het blauw? — Do you have this in blue too?\n\nDutch sizing uses EU numbers (36, 38, 40...), not S/M/L."
+        },
+        {
+          "type": "mc",
+          "q": "How do you ask 'May I try this on?'",
+          "opts": [
+            "Mag ik dit kopen?",
+            "Mag ik dit passen?",
+            "Mag ik dit hebben?",
+            "Mag ik dit zien?"
+          ],
+          "ans": "Mag ik dit passen?",
+          "hint": "Passen = to try on"
+        },
+        {
+          "type": "tr",
+          "mk": "u9_what_wearing",
+          "dir": "produce"
+        },
+        {
+          "type": "fb",
+          "s": "Het past _____. Het is te groot.",
+          "a": "Niet",
+          "opts": [
+            "Niet",
+            "Goed",
+            "Wel",
+            "Mooi"
+          ],
+          "hint": "It doesn't fit!"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "cloth_trousers",
+            "cloth_jacket",
+            "cloth_shoe",
+            "cloth_dress"
+          ]
+        }
+      ]
+    }
+  ]
+}

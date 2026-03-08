@@ -1,0 +1,2400 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 6,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Onderweg",
+    "sub": "Transport, Prepositions & Directions",
+    "icon": "🚲",
+    "level": "A1.2",
+    "color": "var(--purple-accent-text)"
+  },
+  "lessons": [
+    {
+      "id": "v2u6l1",
+      "title": "De Fiets",
+      "icon": "🚲",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "De Fiets",
+          "desc": "Welcome to Unit 6: getting around. And in the Netherlands, getting around starts with one thing — de fiets. There are more bicycles than people in this country. This lesson teaches cycling vocabulary, basic prepositions of direction, and why the bike IS Dutch identity.",
+          "goals": [
+            "Cycling and transport vocabulary",
+            "Basic prepositions: naar, van, met",
+            "The verb 'gaan' (to go)",
+            "Why the Dutch and bikes are inseparable"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de fiets",
+          "en": "the bicycle / bike",
+          "phonetic": "duh feets",
+          "example": "Ik ga met de fiets.",
+          "exampleEn": "I go by bike.",
+          "note": "De-word. THE Dutch object.\n23 million bikes for 17 million people.\nPlural: fietsen. Verb: fietsen (to cycle).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "fietsen",
+          "en": "to cycle / to bike",
+          "phonetic": "FEET-sun",
+          "example": "Ik fiets elke dag naar het werk.",
+          "exampleEn": "I cycle to work every day.",
+          "note": "Regular verb. Stam = fiets.\nIk fiets, jij fietst, hij fietst.\n70% of Dutch commutes involve a bicycle.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "gaan",
+          "en": "to go",
+          "phonetic": "gahn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "go"
+              },
+              {
+                "lang": "German",
+                "word": "gehen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik ga naar het station.",
+          "exampleEn": "I go to the station.",
+          "note": "Irregular verb! Your most important movement verb.\nik ga, jij gaat, hij gaat, wij gaan.\nSame root as English 'go' and German 'gehen'.",
+          "kind": "grammar"
+        },
+        {
+          "type": "verb_table",
+          "title": "Gaan: to go",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "ga",
+                  "en": "I go"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "gaat",
+                  "en": "you go"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "gaat",
+                  "en": "you go (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "gaat",
+                  "en": "he goes"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "gaat",
+                  "en": "she goes"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "gaat",
+                  "en": "it goes"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "gaan",
+                  "en": "we go"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "gaan",
+                  "en": "you all go"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "gaan",
+                  "en": "they go"
+                }
+              ]
+            }
+          ],
+          "note": "ik ga (short). jij/hij gaat (long 'aa' + t). wij gaan.\nIn questions: 'Ga jij...?' — the -t drops as always."
+        },
+        {
+          "type": "teach",
+          "nl": "naar",
+          "en": "to (direction)",
+          "phonetic": "nahr",
+          "example": "Ik ga naar Amsterdam.",
+          "exampleEn": "I go to Amsterdam.",
+          "note": "Direction = naar. 'I go TO the station.'\n'Naar' = towards a destination.\nDon't confuse with 'aan' (at/attached to).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "van",
+          "en": "from / of",
+          "phonetic": "fan",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "from (different root)"
+              },
+              {
+                "lang": "German",
+                "word": "von"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik kom van het station.",
+          "exampleEn": "I come from the station.",
+          "note": "Two meanings: 'from' (origin) and 'of' (possession).\nvan het station = from the station.\nde fiets van mijn broer = my brother's bike.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "met",
+          "en": "with / by (transport)",
+          "phonetic": "met",
+          "example": "Ik ga met de fiets.",
+          "exampleEn": "I go by bike.",
+          "note": "You learned 'met' = with (koffie met melk).\nFor transport: 'met de fiets' = by bike.\n'Met de trein' = by train. 'Met de auto' = by car.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de auto",
+          "en": "the car",
+          "phonetic": "duh OW-toh",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "auto"
+              },
+              {
+                "lang": "German",
+                "word": "Auto"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Hij gaat met de auto naar het werk.",
+          "exampleEn": "He goes to work by car.",
+          "note": "De-word. Same as German.\nLess popular than the fiets in Dutch cities.\nParking in Amsterdam is €7.50/hour.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "lopen",
+          "en": "to walk",
+          "phonetic": "LOH-pun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "lope (to run)"
+              },
+              {
+                "lang": "German",
+                "word": "laufen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "also": "⚠️ False friend: Dutch 'lopen' = to WALK. German 'laufen' = to RUN.",
+          "example": "Ik loop naar de winkel.",
+          "exampleEn": "I walk to the shop.",
+          "note": "Regular verb. Stam = loop.\n⚠️ German speakers: 'lopen' = walk, NOT run!\nDutch 'rennen' = to run.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de straat",
+          "en": "the street",
+          "phonetic": "duh straht",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "street"
+              },
+              {
+                "lang": "German",
+                "word": "Straße"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De straat is breed.",
+          "exampleEn": "The street is wide.",
+          "note": "De-word. Plural: straten.\nIdentical root across Germanic languages.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 The Netherlands = Bikes",
+          "text": "Some facts about Dutch cycling culture:\n\n• 23 million bikes for 17 million people\n• Dedicated bike lanes (fietspaden) everywhere\n• Children learn to cycle at age 3-4\n• Rain doesn't stop cyclists (nothing does)\n• Bike parking garages hold 10,000+ bikes\n• Amsterdam Central Station has the largest bike parking in the world\n\nHow to say it:\nIk ga met de fiets. = I go by bike.\nIk fiets naar het werk. = I cycle to work.\nIk fiets elke dag. = I cycle every day.\n\nNot cycling in the Netherlands is like not walking.\nThe fiets is not transport. It's identity.",
+          "deepDive": {
+            "title": "Types of Dutch bikes",
+            "text": "de stadsfiets = city bike (upright, practical, heavy)\nde omafiets = 'grandma bike' (classic Dutch style)\nde bakfiets = cargo bike (with a box in front for kids/groceries)\nde e-bike = electric bike (huge among older Dutch people)\nde racefiets = road bike (for sport)\n\nThe omafiets is the icon: black, heavy, one gear, indestructible.\nEvery Dutch person has had one.\n\nThe bakfiets is the Dutch SUV: parents use it to transport\n2-3 children through Amsterdam traffic. Fearlessly."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "There are more ___ than people in the Netherlands.",
+          "opts": [
+            "cars",
+            "bikes",
+            "trains",
+            "boats"
+          ],
+          "ans": "bikes",
+          "hint": "23 million bikes, 17 million people"
+        },
+        {
+          "type": "fb",
+          "s": "Ik ___ naar het station.",
+          "a": "ga",
+          "opts": [
+            "ga",
+            "gaat",
+            "gaan",
+            "gaat"
+          ],
+          "hint": "ik ga (stam of gaan)"
+        },
+        {
+          "type": "mc",
+          "q": "'Met de fiets' means:",
+          "opts": [
+            "on the bike",
+            "by bike",
+            "for the bike",
+            "without the bike"
+          ],
+          "ans": "by bike",
+          "hint": "met = by (for transport)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "fietsen",
+              "en": "to cycle"
+            },
+            {
+              "nl": "lopen",
+              "en": "to walk"
+            },
+            {
+              "nl": "gaan",
+              "en": "to go"
+            },
+            {
+              "nl": "naar",
+              "en": "to (direction)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik ga {1} de fiets {2} het werk.",
+          "blanks": {
+            "1": "met",
+            "2": "naar"
+          },
+          "pool": [
+            "met",
+            "naar",
+            "van",
+            "in"
+          ],
+          "hint": "BY bike TO work"
+        },
+        {
+          "type": "fb",
+          "s": "Hij ___ met de auto naar Amsterdam.",
+          "a": "gaat",
+          "opts": [
+            "gaat",
+            "ga",
+            "gaan",
+            "gat"
+          ],
+          "hint": "hij = stam + t"
+        },
+        {
+          "type": "mc",
+          "q": "Dutch 'lopen' means 'to walk'. German 'laufen' means:",
+          "opts": [
+            "to walk",
+            "to run",
+            "to stop",
+            "to drive"
+          ],
+          "ans": "to run",
+          "hint": "False friend across the border!"
+        },
+        {
+          "type": "mc",
+          "q": "'De fiets van mijn broer' — 'van' means:",
+          "opts": [
+            "to",
+            "from",
+            "of (possession)",
+            "with"
+          ],
+          "ans": "of (possession)",
+          "hint": "my brother's bike"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_cycle_work",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_go_station",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l2",
+      "title": "Links, Rechts, Rechtdoor",
+      "icon": "🧭",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Links, Rechts, Rechtdoor",
+          "desc": "How to give and understand directions. The three magic words: links (left), rechts (right), rechtdoor (straight ahead). Plus the verbs and phrases you need to navigate any Dutch city on foot or by bike.",
+          "goals": [
+            "Left, right, straight ahead",
+            "Giving simple directions",
+            "'Neem de eerste straat links'",
+            "Direction phrases for daily life"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "links",
+          "en": "left",
+          "phonetic": "links",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "left (related: link = left-handed)"
+              },
+              {
+                "lang": "German",
+                "word": "links"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ga links.",
+          "exampleEn": "Go left.",
+          "note": "Same word as German!\nNote: Dutch drives on the RIGHT side of the road.\n'Linksaf' = turning left.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rechts",
+          "en": "right",
+          "phonetic": "regts",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "right"
+              },
+              {
+                "lang": "German",
+                "word": "rechts"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het station is rechts.",
+          "exampleEn": "The station is on the right.",
+          "note": "Same as German. The 'ch' = throat sound.\n'Rechtsaf' = turning right.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "rechtdoor",
+          "en": "straight ahead",
+          "phonetic": "REGT-dohr",
+          "example": "Ga rechtdoor.",
+          "exampleEn": "Go straight ahead.",
+          "note": "recht (straight) + door (through) = straight ahead.\nThe most useful direction word.\n'Ga rechtdoor tot het einde.' = Go straight to the end.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de hoek",
+          "en": "the corner",
+          "phonetic": "duh hook",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "hook (angle)"
+              },
+              {
+                "lang": "German",
+                "word": "Ecke (different word)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Op de hoek is een winkel.",
+          "exampleEn": "On the corner there is a shop.",
+          "note": "De-word. 'Om de hoek' = around the corner.\nRelated to English 'hook' (angle/bend).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de brug",
+          "en": "the bridge",
+          "phonetic": "duh brug",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "bridge"
+              },
+              {
+                "lang": "German",
+                "word": "Brücke"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ga over de brug.",
+          "exampleEn": "Go over the bridge.",
+          "note": "De-word. The Netherlands has ~20,000 bridges.\nAmsterdam alone has 1,700.\n'Over de brug' = over/across the bridge.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "over",
+          "en": "over / across",
+          "phonetic": "OH-vur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "over"
+              },
+              {
+                "lang": "German",
+                "word": "über"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ga over de brug.",
+          "exampleEn": "Go over the bridge.",
+          "note": "Same as English 'over'.\n'Over de straat' = across the street.\n'Over de brug' = over the bridge.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "tot",
+          "en": "until / to",
+          "phonetic": "tot",
+          "example": "Ga rechtdoor tot de brug.",
+          "exampleEn": "Go straight ahead until the bridge.",
+          "note": "'Tot' = until (endpoint).\n'Tot ziens!' = Until seeing! (goodbye)\nYou already know this from 'tot ziens'!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de eerste",
+          "en": "the first",
+          "phonetic": "duh AYR-stuh",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "first (erst)"
+              },
+              {
+                "lang": "German",
+                "word": "erste"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Neem de eerste straat links.",
+          "exampleEn": "Take the first street on the left.",
+          "note": "Ordinal number: eerste = first.\nTweede = second, derde = third.\nYou'll learn more ordinals later.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "nemen",
+          "en": "to take",
+          "phonetic": "NAY-mun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "nehmen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Neem de tweede straat rechts.",
+          "exampleEn": "Take the second street on the right.",
+          "note": "Irregular verb. Stam = neem.\nik neem, jij neemt, hij neemt.\nFor directions: 'Neem de eerste/tweede straat...'",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🧭 Giving Directions in Dutch",
+          "text": "The essential direction phrases:\n\nGa links. = Go left.\nGa rechts. = Go right.\nGa rechtdoor. = Go straight.\nGa over de brug. = Go over the bridge.\n\nNeem de eerste straat links. = Take the first street left.\nNeem de tweede straat rechts. = Take the second street right.\n\nGa rechtdoor tot de hoek. = Go straight to the corner.\nHet is om de hoek. = It's around the corner.\nHet is aan de linkerkant. = It's on the left side.\nHet is aan de rechterkant. = It's on the right side.\n\nThese 10 phrases will get you anywhere."
+        },
+        {
+          "type": "mc",
+          "q": "'Ga rechtdoor tot de brug.' means:",
+          "opts": [
+            "Go left to the bridge.",
+            "Go straight until the bridge.",
+            "Go right over the bridge.",
+            "Go back to the bridge."
+          ],
+          "ans": "Go straight until the bridge.",
+          "hint": "rechtdoor = straight, tot = until"
+        },
+        {
+          "type": "fb",
+          "s": "Neem de eerste straat ___.",
+          "a": "links",
+          "opts": [
+            "links",
+            "rechts",
+            "rechtdoor",
+            "over"
+          ],
+          "hint": "Take the first street LEFT"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "links",
+              "en": "left"
+            },
+            {
+              "nl": "rechts",
+              "en": "right"
+            },
+            {
+              "nl": "rechtdoor",
+              "en": "straight ahead"
+            },
+            {
+              "nl": "de hoek",
+              "en": "the corner"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ga {1} de brug. Het is om de {2}.",
+          "blanks": {
+            "1": "over",
+            "2": "hoek"
+          },
+          "pool": [
+            "over",
+            "hoek",
+            "tot",
+            "straat"
+          ],
+          "hint": "Go OVER the bridge. Around the CORNER."
+        },
+        {
+          "type": "fb",
+          "s": "Ga rechtdoor ___ het station.",
+          "a": "tot",
+          "opts": [
+            "tot",
+            "naar",
+            "van",
+            "met"
+          ],
+          "hint": "Straight ahead UNTIL the station"
+        },
+        {
+          "type": "mc",
+          "q": "Amsterdam has approximately how many bridges?",
+          "opts": [
+            "170",
+            "1,700",
+            "17,000",
+            "17"
+          ],
+          "ans": "1,700",
+          "hint": "More than Venice!"
+        },
+        {
+          "type": "mc",
+          "q": "'Neem de tweede straat rechts' — 'neem' is the stam of:",
+          "opts": [
+            "nemen",
+            "namen",
+            "nomen",
+            "niemen"
+          ],
+          "ans": "nemen",
+          "hint": "to take = nemen"
+        },
+        {
+          "type": "fb",
+          "s": "Het station is aan de ___kant.",
+          "a": "linker",
+          "opts": [
+            "linker",
+            "rechter",
+            "links",
+            "rechts"
+          ],
+          "hint": "On the LEFT side"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_straight_bridge",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_first_street_left",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l3",
+      "title": "Met de Trein",
+      "icon": "🚉",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Met de Trein",
+          "desc": "Dutch trains (NS) connect every city. They're efficient, frequent — and the Dutch love to complain about them. This lesson teaches train vocabulary and separable verbs of movement: instappen (get in), uitstappen (get out), overstappen (transfer).",
+          "goals": [
+            "Train and transport vocabulary",
+            "Separable movement verbs (in/uit/overstappen)",
+            "Buy a ticket and understand announcements",
+            "Dutch train culture (and complaints)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "de trein",
+          "en": "the train",
+          "phonetic": "duh trayn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "train"
+              },
+              {
+                "lang": "German",
+                "word": "Zug (different word)"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "De trein naar Amsterdam vertrekt om drie uur.",
+          "exampleEn": "The train to Amsterdam departs at three o'clock.",
+          "note": "De-word. Plural: treinen.\n'Met de trein' = by train.\nNS (Nederlandse Spoorwegen) runs the national trains.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het station",
+          "en": "the station",
+          "phonetic": "hut stah-SYON",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "station"
+              },
+              {
+                "lang": "German",
+                "word": "Bahnhof (different)"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Het station is om de hoek.",
+          "exampleEn": "The station is around the corner.",
+          "note": "Het-word. Same as English/French.\nAmsterdam Centraal is the main hub.\nEvery Dutch city has at least one station.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het perron",
+          "en": "the platform",
+          "phonetic": "hut peh-RON",
+          "cognate": {
+            "words": [
+              {
+                "lang": "French",
+                "word": "perron"
+              }
+            ],
+            "family": "french"
+          },
+          "example": "De trein vertrekt van perron vijf.",
+          "exampleEn": "The train departs from platform five.",
+          "note": "Het-word. From French.\n'Perron 3' = Platform 3.\nAnnounced before every departure.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "het kaartje",
+          "en": "the ticket",
+          "phonetic": "hut KAHR-tyuh",
+          "example": "Een kaartje naar Utrecht, alsjeblieft.",
+          "exampleEn": "A ticket to Utrecht, please.",
+          "note": "Het-word (diminutive of 'kaart').\n'Een kaartje' = a ticket.\nThe OV-chipkaart is the Dutch transit card.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "instappen",
+          "en": "to get in / to board",
+          "phonetic": "IN-stap-pun",
+          "example": "We stappen in de trein in.",
+          "exampleEn": "We get on the train.",
+          "note": "Separable: in + stappen.\nStappen = to step. In = in/into.\n'Stap in!' = Get in! Board!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "uitstappen",
+          "en": "to get out / to exit",
+          "phonetic": "OYT-stap-pun",
+          "example": "We stappen in Utrecht uit.",
+          "exampleEn": "We get out at Utrecht.",
+          "note": "Separable: uit + stappen.\nOpposite of instappen.\n'Stap uit!' = Get out! Exit!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "overstappen",
+          "en": "to transfer / to change (trains)",
+          "phonetic": "OH-vur-stap-pun",
+          "example": "Je moet in Amersfoort overstappen.",
+          "exampleEn": "You have to transfer in Amersfoort.",
+          "note": "Separable: over + stappen.\n'Overstappen' is the bane of Dutch commuters.\nWith modal: 'Je moet overstappen' (stays whole).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vertrekken",
+          "en": "to depart / to leave",
+          "phonetic": "fur-TREK-kun",
+          "example": "De trein vertrekt om half vier.",
+          "exampleEn": "The train departs at half past three.",
+          "note": "NOT separable! 'ver-' is an inseparable prefix.\n'De trein vertrekt.' (never 'trekt ... ver')\nCompare: in/uit/over = separable. ver- = inseparable.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "aankomen",
+          "en": "to arrive",
+          "phonetic": "AHN-koh-mun",
+          "example": "Wij komen om vijf uur aan.",
+          "exampleEn": "We arrive at five o'clock.",
+          "note": "Separable: aan + komen.\n'Hoe laat komt de trein aan?'\n= What time does the train arrive?",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🚆 NS: Dutch Trains",
+          "text": "NS (Nederlandse Spoorwegen) runs Dutch trains.\n\nThe good: frequent (every 10-15 min between major cities),\nclean, reliable (usually).\n\nThe bad: the Dutch LOVE to complain about NS.\n'De trein heeft vijf minuten vertraging.'\n= The train has 5 minutes delay.\nThis is genuinely considered a scandal.\n\nUseful phrases:\nEen kaartje naar Amsterdam. = A ticket to Amsterdam.\nVan welk perron? = From which platform?\nMoet ik overstappen? = Do I need to transfer?\nHoe laat komt de trein aan? = What time does the train arrive?\n\nThe OV-chipkaart: a reloadable card for all public transport\n(trains, buses, trams, metro). Tap in, tap out.",
+          "deepDive": {
+            "title": "In/uit/over: the separable trio",
+            "text": "These three verbs share 'stappen' (to step):\n\ninstappen = step IN (board)\nuitstappen = step OUT (exit)\noverstappen = step OVER (transfer)\n\nAll three are separable:\nIk stap in de trein in.\nIk stap in Utrecht uit.\nIk stap in Amersfoort over.\n\nWith modals, they stay whole:\nIk moet in Amersfoort overstappen.\nJe kan in Den Haag uitstappen.\n\nCompare: vertrekken (ver- prefix) is NOT separable.\n'De trein vertrekt.' (never splits)\n\nRule of thumb:\nStressed prefix (ín-stappen) = separable.\nUnstressed prefix (ver-trékken) = inseparable."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "'Overstappen' means:",
+          "opts": [
+            "to step over",
+            "to get on",
+            "to transfer trains",
+            "to walk away"
+          ],
+          "ans": "to transfer trains",
+          "hint": "over + stappen = change/transfer"
+        },
+        {
+          "type": "fb",
+          "s": "De trein ___ om drie uur.",
+          "a": "vertrekt",
+          "opts": [
+            "vertrekt",
+            "trekt ver",
+            "vertreken",
+            "trekt"
+          ],
+          "hint": "vertrekken is INseparable (ver-)"
+        },
+        {
+          "type": "mc",
+          "q": "Which prefix is INseparable?",
+          "opts": [
+            "in-",
+            "uit-",
+            "over-",
+            "ver-"
+          ],
+          "ans": "ver-",
+          "hint": "vertrekken never splits"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "instappen",
+              "en": "to board"
+            },
+            {
+              "nl": "uitstappen",
+              "en": "to exit"
+            },
+            {
+              "nl": "overstappen",
+              "en": "to transfer"
+            },
+            {
+              "nl": "aankomen",
+              "en": "to arrive"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Wij stappen in Utrecht {1}. De trein {2} om vier uur.",
+          "blanks": {
+            "1": "uit",
+            "2": "vertrekt"
+          },
+          "pool": [
+            "uit",
+            "vertrekt",
+            "over",
+            "trekt"
+          ],
+          "hint": "Exit at Utrecht. The train departs."
+        },
+        {
+          "type": "fb",
+          "s": "Een ___ naar Rotterdam, alsjeblieft.",
+          "a": "kaartje",
+          "opts": [
+            "kaartje",
+            "trein",
+            "perron",
+            "station"
+          ],
+          "hint": "A ticket, please"
+        },
+        {
+          "type": "mc",
+          "q": "The OV-chipkaart is used for:",
+          "opts": [
+            "only trains",
+            "only buses",
+            "all public transport",
+            "only in Amsterdam"
+          ],
+          "ans": "all public transport",
+          "hint": "Trains, buses, trams, metro — everything"
+        },
+        {
+          "type": "fb",
+          "s": "Je moet in Amersfoort ___.",
+          "a": "overstappen",
+          "opts": [
+            "overstappen",
+            "instappen",
+            "uitstappen",
+            "vertrekken"
+          ],
+          "hint": "Transfer at Amersfoort (with modal = stays whole)"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_ticket_amsterdam",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_train_departs",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l4",
+      "title": "Waar is het Station?",
+      "icon": "📍",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Waar is het Station?",
+          "desc": "Asking for and understanding directions. You know links/rechts/rechtdoor. Now learn to ask 'where is...?' and understand the answers. Plus: the word 'er' as a location placeholder — one of the trickiest small words in Dutch.",
+          "goals": [
+            "'Waar is...?' questions",
+            "Understand direction answers",
+            "Introduction to 'er' (there/location)",
+            "Ask for help politely"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "waar",
+          "en": "where",
+          "phonetic": "vahr",
+          "example": "Waar is het station?",
+          "exampleEn": "Where is the station?",
+          "note": "You learned this in Unit 1.\n'Waar?' = Where?\n'Waar is...?' = Where is...? The most useful question for navigation.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "hier",
+          "en": "here",
+          "phonetic": "heer",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "here"
+              },
+              {
+                "lang": "German",
+                "word": "hier"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het station is hier.",
+          "exampleEn": "The station is here.",
+          "note": "Identical to German.\nSame root as English 'here'.\n'Hier in de buurt' = around here / nearby.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "daar",
+          "en": "there",
+          "phonetic": "dahr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "there"
+              },
+              {
+                "lang": "German",
+                "word": "da/dort"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het station is daar.",
+          "exampleEn": "The station is there.",
+          "note": "Points to a specific place.\n'Daar rechts' = there on the right.\n'Daar links' = there on the left.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "er",
+          "en": "there (unstressed) / it (placeholder)",
+          "phonetic": "ur",
+          "example": "Er is een station in de buurt.",
+          "exampleEn": "There is a station nearby.",
+          "note": "The most versatile small word in Dutch.\nYou already know: 'Er is een kat.' = There is a cat.\nHere: 'er' as a vague location reference.\n'Hoe kom ik er?' = How do I get there?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "dichtbij",
+          "en": "nearby / close",
+          "phonetic": "DIGT-bay",
+          "example": "Het station is dichtbij.",
+          "exampleEn": "The station is nearby.",
+          "note": "dicht (close) + bij (at) = nearby.\nOpposite: ver (far) or veraf (far away).\n'Is het dichtbij?' = Is it nearby?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "ver",
+          "en": "far",
+          "phonetic": "fair",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "far"
+              },
+              {
+                "lang": "German",
+                "word": "fern"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het is niet ver.",
+          "exampleEn": "It's not far.",
+          "note": "Opposite of dichtbij.\n'Is het ver?' = Is it far?\n'Niet ver' = not far. Very useful reassurance.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de buurt",
+          "en": "the neighborhood / area",
+          "phonetic": "duh buurt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "borough (related)"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Hier in de buurt is een supermarkt.",
+          "exampleEn": "There's a supermarket around here.",
+          "note": "De-word. 'In de buurt' = in the area / nearby.\n'Hier in de buurt' = around here.\nAlso: 'de buurman' (neighbor) comes from 'buurt'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🗺️ Asking for Directions",
+          "text": "Excuse me + question:\nSorry, waar is het station? = Sorry, where is the station?\nPardon, is er een supermarkt in de buurt?\n= Pardon, is there a supermarket nearby?\n\nUseful follow-up questions:\nIs het ver? = Is it far?\nIs het dichtbij? = Is it nearby?\nHoe kom ik er? = How do I get there?\nKun je dat herhalen? = Can you repeat that?\n\nUseful answers to understand:\nHet is daar. = It's there.\nHet is om de hoek. = It's around the corner.\nHet is vijf minuten lopen. = It's a 5-minute walk.\nGa rechtdoor en dan links. = Go straight and then left."
+        },
+        {
+          "type": "teach",
+          "nl": "dan",
+          "en": "then",
+          "phonetic": "dan",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "then"
+              },
+              {
+                "lang": "German",
+                "word": "dann"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ga rechtdoor en dan links.",
+          "exampleEn": "Go straight and then left.",
+          "note": "Connects steps in directions.\n'Eerst rechtdoor, dan links, dan rechts.'\n= First straight, then left, then right.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de minuut",
+          "en": "the minute",
+          "phonetic": "duh mee-NUWT",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "minute"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Het is vijf minuten lopen.",
+          "exampleEn": "It's a five-minute walk.",
+          "note": "De-word. Plural: minuten.\n'Vijf minuten lopen' = five minutes walking.\n'Tien minuten fietsen' = ten minutes cycling.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Hoe kom ik er?' means:",
+          "opts": [
+            "How far is it?",
+            "How do I get there?",
+            "Where am I?",
+            "Can I go there?"
+          ],
+          "ans": "How do I get there?",
+          "hint": "er = there (location placeholder)"
+        },
+        {
+          "type": "fb",
+          "s": "Het station is ___. (nearby)",
+          "a": "dichtbij",
+          "opts": [
+            "dichtbij",
+            "ver",
+            "hier",
+            "daar"
+          ],
+          "hint": "Close, not far"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "hier",
+              "en": "here"
+            },
+            {
+              "nl": "daar",
+              "en": "there (specific)"
+            },
+            {
+              "nl": "er",
+              "en": "there (unstressed)"
+            },
+            {
+              "nl": "dichtbij",
+              "en": "nearby"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ga rechtdoor en {1} links. Het is vijf minuten {2}.",
+          "blanks": {
+            "1": "dan",
+            "2": "lopen"
+          },
+          "pool": [
+            "dan",
+            "lopen",
+            "hier",
+            "ver"
+          ],
+          "hint": "Then left. Five minutes walking."
+        },
+        {
+          "type": "fb",
+          "s": "Is ___ een supermarkt in de buurt?",
+          "a": "er",
+          "opts": [
+            "er",
+            "het",
+            "de",
+            "hier"
+          ],
+          "hint": "Is THERE a supermarket nearby?"
+        },
+        {
+          "type": "mc",
+          "q": "'Hier in de buurt' means:",
+          "opts": [
+            "far from here",
+            "around here",
+            "in this house",
+            "behind the station"
+          ],
+          "ans": "around here",
+          "hint": "buurt = neighborhood/area"
+        },
+        {
+          "type": "fb",
+          "s": "___ is het station?",
+          "a": "Waar",
+          "opts": [
+            "Waar",
+            "Wat",
+            "Wie",
+            "Hoe"
+          ],
+          "hint": "WHERE is the station?"
+        },
+        {
+          "type": "mc",
+          "q": "'Het is tien minuten fietsen.' — fietsen here means:",
+          "opts": [
+            "by bike (cycling distance)",
+            "the bike",
+            "to fix",
+            "to walk"
+          ],
+          "ans": "by bike (cycling distance)",
+          "hint": "10 minutes of cycling"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_where_station",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_not_far",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l5",
+      "title": "Op, In, Aan, Bij",
+      "icon": "📐",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Op, In, Aan, Bij",
+          "desc": "Prepositions are the glue of Dutch sentences. You've used naar, van, met, over, tot. Now the big four location prepositions: op (on), in (in), aan (at/on), bij (at/near). Each has its own logic — and its own surprises.",
+          "goals": [
+            "4 core location prepositions",
+            "When to use which one",
+            "Common fixed expressions",
+            "Preposition + article contractions"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "op",
+          "en": "on / at (surface/specific place)",
+          "phonetic": "op",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "on / up"
+              },
+              {
+                "lang": "German",
+                "word": "auf"
+              }
+            ],
+            "family": "germanic"
+          },
+          "also": "also: 'op maandag' (on Monday), 'op het werk' (at work)",
+          "example": "Het boek ligt op de tafel.",
+          "exampleEn": "The book lies on the table.",
+          "note": "Surface contact: 'op de tafel' (on the table).\nSpecific places: 'op het werk' (at work).\nTimes: 'op maandag' (on Monday — you know this!).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "in",
+          "en": "in / inside",
+          "phonetic": "in",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "in"
+              },
+              {
+                "lang": "German",
+                "word": "in"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De melk is in de koelkast.",
+          "exampleEn": "The milk is in the fridge.",
+          "note": "Containment: inside something.\n'In de keuken' = in the kitchen.\n'In Amsterdam' = in Amsterdam.\n'In de winter' = in winter (you know this!).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "aan",
+          "en": "at / on (attached/along)",
+          "phonetic": "ahn",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "on (cognate)"
+              },
+              {
+                "lang": "German",
+                "word": "an"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het schilderij hangt aan de muur.",
+          "exampleEn": "The painting hangs on the wall.",
+          "note": "Attached/along: 'aan de muur' (on the wall — attached).\nAlong: 'aan de gracht' (on/along the canal).\n'Aan de linkerkant' = on the left side.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "bij",
+          "en": "at / near / with (someone's place)",
+          "phonetic": "bay",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "by"
+              },
+              {
+                "lang": "German",
+                "word": "bei"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik ben bij de huisarts.",
+          "exampleEn": "I am at the doctor.",
+          "note": "Proximity or someone's place:\n'Bij de dokter' = at the doctor.\n'Bij oma' = at grandma's (place).\n'Bij de ingang' = near the entrance.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📐 Op vs In vs Aan vs Bij",
+          "text": "OP = on a surface / at a specific place\nop de tafel = on the table\nop het station = at the station\nop het werk = at work\nop school = at school\n\nIN = inside / within\nin de koelkast = in the fridge\nin de stad = in the city\nin Amsterdam = in Amsterdam\nin de auto = in the car\n\nAAN = attached to / along\naan de muur = on the wall (hanging)\naan de gracht = along the canal\naan de linkerkant = on the left side\naan tafel = at the table (dining)\n\nBIJ = near / at someone's place\nbij het station = near the station\nbij de ingang = near the entrance\nbij oma = at grandma's place\nbij de huisarts = at the doctor\n\n⚠️ Many are fixed expressions — learn the combinations,\nnot just the individual prepositions.",
+          "deepDive": {
+            "title": "The tricky ones: op vs in vs aan",
+            "text": "Some choices seem arbitrary but have logic:\n\n'op het station' vs 'in de trein'\nYou're ON the platform but IN the vehicle.\n\n'aan de muur' vs 'op de tafel'\nThe painting is attached TO the wall (aan).\nThe book rests ON the table surface (op).\n\n'op school' vs 'in de school'\n'Op school' = at school (the institution).\n'In de school' = inside the school building.\n\nThese follow the same logic as German auf/in/an\nand somewhat like English on/in/at.\n\nWhen in doubt: learn the expression as a chunk,\nnot as individual words."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "de tafel",
+          "en": "the table",
+          "phonetic": "duh TAH-ful",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "table"
+              },
+              {
+                "lang": "German",
+                "word": "Tafel"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het eten staat op de tafel.",
+          "exampleEn": "The food is on the table.",
+          "note": "De-word. Plural: tafels.\nSame word as German 'Tafel'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de muur",
+          "en": "the wall",
+          "phonetic": "duh muwr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "mural (wall)"
+              },
+              {
+                "lang": "German",
+                "word": "Mauer"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het schilderij hangt aan de muur.",
+          "exampleEn": "The painting hangs on the wall.",
+          "note": "De-word. Related to English 'mural'.\n'Aan de muur' = on the wall (attached).\nNot 'op de muur' (that implies sitting on top of it).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de deur",
+          "en": "the door",
+          "phonetic": "duh duhr",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "door"
+              },
+              {
+                "lang": "German",
+                "word": "Tür"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De deur is open.",
+          "exampleEn": "The door is open.",
+          "note": "De-word. Nearly identical to English 'door'.\nSame root as 'through' (Dutch: door) — a door is\nwhat you go THROUGH. English split the words;\nDutch uses 'door' for both the noun and 'through'.\n'Bij de deur' = near/at the door.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Het boek ligt OP de tafel.' — 'op' here means:",
+          "opts": [
+            "in",
+            "on (surface)",
+            "near",
+            "at"
+          ],
+          "ans": "on (surface)",
+          "hint": "Resting on the surface"
+        },
+        {
+          "type": "fb",
+          "s": "Het schilderij hangt ___ de muur.",
+          "a": "aan",
+          "opts": [
+            "aan",
+            "op",
+            "in",
+            "bij"
+          ],
+          "hint": "Attached to the wall"
+        },
+        {
+          "type": "mc",
+          "q": "'Bij oma' means:",
+          "opts": [
+            "from grandma",
+            "in grandma",
+            "at grandma's place",
+            "on grandma"
+          ],
+          "ans": "at grandma's place",
+          "hint": "bij = at someone's place"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "op de tafel",
+              "en": "on the table"
+            },
+            {
+              "nl": "in de keuken",
+              "en": "in the kitchen"
+            },
+            {
+              "nl": "aan de muur",
+              "en": "on the wall"
+            },
+            {
+              "nl": "bij de deur",
+              "en": "near the door"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "De melk is {1} de koelkast. Het boek ligt {2} de tafel.",
+          "blanks": {
+            "1": "in",
+            "2": "op"
+          },
+          "pool": [
+            "in",
+            "op",
+            "aan",
+            "bij"
+          ],
+          "hint": "Milk is INSIDE. Book is ON surface."
+        },
+        {
+          "type": "fb",
+          "s": "Ik ben ___ het werk.",
+          "a": "op",
+          "opts": [
+            "op",
+            "in",
+            "aan",
+            "bij"
+          ],
+          "hint": "At work = op het werk (fixed expression)"
+        },
+        {
+          "type": "mc",
+          "q": "'Op school' vs 'in de school' — the difference is:",
+          "opts": [
+            "no difference",
+            "op = the institution, in = the building",
+            "op = outside, in = inside",
+            "op is formal, in is casual"
+          ],
+          "ans": "op = the institution, in = the building",
+          "hint": "At school (concept) vs inside the school (place)"
+        },
+        {
+          "type": "fb",
+          "s": "Wij zitten ___ tafel.",
+          "a": "aan",
+          "opts": [
+            "aan",
+            "op",
+            "in",
+            "bij"
+          ],
+          "hint": "Sitting at the table (dining) = aan tafel"
+        },
+        {
+          "type": "mc",
+          "q": "Which preposition means 'near' or 'at someone's place'?",
+          "opts": [
+            "op",
+            "in",
+            "aan",
+            "bij"
+          ],
+          "ans": "bij",
+          "hint": "bij oma = at grandma's"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_book_on_table",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_at_work",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l6",
+      "title": "Even naar de Winkel",
+      "icon": "🛒",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Even naar de Winkel",
+          "desc": "'Even' is the most Dutch word you haven't learned yet. It means 'just (quickly)' and the Dutch put it in EVERYTHING. 'Ik ga even naar de winkel.' This lesson teaches 'even', quick errand vocabulary, and more everyday movement phrases.",
+          "goals": [
+            "The word 'even' (just quickly)",
+            "Shopping and errand vocabulary",
+            "Combine prepositions with movement",
+            "Quick Dutch conversations"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "even",
+          "en": "just (quickly) / for a moment",
+          "phonetic": "AY-vun",
+          "example": "Ik ga even naar de winkel.",
+          "exampleEn": "I'm just going to the shop quickly.",
+          "note": "THE most Dutch filler word.\n'Even' softens everything. It says: this is quick, casual, no big deal.\n'Wacht even' = wait a moment.\n'Mag ik even?' = May I just...?",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "de supermarkt",
+          "en": "the supermarket",
+          "phonetic": "duh SOO-pur-markt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "supermarket"
+              },
+              {
+                "lang": "German",
+                "word": "Supermarkt"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "Ik ga even naar de supermarkt.",
+          "exampleEn": "I'm just popping to the supermarket.",
+          "note": "De-word. Albert Heijn (AH) is the biggest chain.\n'De AH' = the Albert Heijn. Every Dutch person knows it.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de apotheek",
+          "en": "the pharmacy",
+          "phonetic": "duh ah-poh-TAYK",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "apothecary"
+              },
+              {
+                "lang": "German",
+                "word": "Apotheke"
+              }
+            ],
+            "family": "international"
+          },
+          "example": "De apotheek is op de hoek.",
+          "exampleEn": "The pharmacy is on the corner.",
+          "note": "De-word. In NL, you need the huisarts (GP) first,\nthen a recept (prescription), then the apotheek.\nNo buying prescription medicine without it.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "de bakker",
+          "en": "the baker / bakery",
+          "phonetic": "duh BAK-kur",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "baker"
+              },
+              {
+                "lang": "German",
+                "word": "Bäcker"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik koop brood bij de bakker.",
+          "exampleEn": "I buy bread at the bakery.",
+          "note": "De-word. 'Bij de bakker' = at the baker's.\nDutch bakeries: vers brood (fresh bread),\ntaarten, and kroketten (croquettes).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "halen",
+          "en": "to get / to fetch / to pick up",
+          "phonetic": "HAH-lun",
+          "example": "Ik ga even brood halen.",
+          "exampleEn": "I'm just going to get bread.",
+          "note": "Regular verb. Stam = haal.\n'Brood halen' = to get bread.\n'Koffie halen' = to get coffee.\nAlso: 'afhalen' = to pick up (separable).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "brengen",
+          "en": "to bring",
+          "phonetic": "BRENG-un",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "bring"
+              },
+              {
+                "lang": "German",
+                "word": "bringen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ik breng je naar het station.",
+          "exampleEn": "I'll bring you to the station.",
+          "note": "Regular verb. Stam = breng.\nIdentical to English 'bring'.\n'Ik breng de kinderen naar school.' = I take the kids to school.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🇳🇱 'Even': The Most Dutch Word",
+          "text": "'Even' makes everything casual and friendly:\n\nIk ga even naar de winkel. = I'm just popping to the shop.\nWacht even. = Wait a moment.\nMag ik even? = May I just...?\nKun je even helpen? = Can you just help (for a sec)?\nIk ga even koffie halen. = I'm just getting coffee.\nEven kijken... = Let me just look...\n\n'Even' says: this is quick, this is casual, no big deal.\nIt's the verbal equivalent of a shrug.\n\nThe Dutch use 'even' 20+ times a day.\nOnce you start noticing it, you can't stop.\nYou'll start using it yourself within a week."
+        },
+        {
+          "type": "teach",
+          "nl": "terug",
+          "en": "back",
+          "phonetic": "tuh-RUG",
+          "example": "Ik ben zo terug.",
+          "exampleEn": "I'll be right back.",
+          "note": "'Terug' = back (direction).\n'Ik ga terug' = I go back.\n'Ik ben zo terug' = I'll be right back.\n'Zo' = so/soon — 'in a moment'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "samen",
+          "en": "together",
+          "phonetic": "SAH-mun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "same/together"
+              },
+              {
+                "lang": "German",
+                "word": "zusammen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Gaan we samen naar de winkel?",
+          "exampleEn": "Shall we go to the shop together?",
+          "note": "'Samen' = together.\n'Samen eten' = eat together.\n'Samen fietsen' = cycle together.\nRelated to English 'same'.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "'Even' in Dutch means:",
+          "opts": [
+            "also",
+            "never",
+            "just (quickly)",
+            "always"
+          ],
+          "ans": "just (quickly)",
+          "hint": "Softens and casualizes everything"
+        },
+        {
+          "type": "fb",
+          "s": "Ik ga ___ naar de supermarkt.",
+          "a": "even",
+          "opts": [
+            "even",
+            "altijd",
+            "nooit",
+            "niet"
+          ],
+          "hint": "Just quickly / for a moment"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "de supermarkt",
+              "en": "supermarket"
+            },
+            {
+              "nl": "de apotheek",
+              "en": "pharmacy"
+            },
+            {
+              "nl": "de bakker",
+              "en": "bakery"
+            },
+            {
+              "nl": "halen",
+              "en": "to get/fetch"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik ga even brood {1}. Ik ben zo {2}.",
+          "blanks": {
+            "1": "halen",
+            "2": "terug"
+          },
+          "pool": [
+            "halen",
+            "terug",
+            "even",
+            "naar"
+          ],
+          "hint": "Get bread. Be right back."
+        },
+        {
+          "type": "fb",
+          "s": "Ik koop brood ___ de bakker.",
+          "a": "bij",
+          "opts": [
+            "bij",
+            "op",
+            "in",
+            "aan"
+          ],
+          "hint": "At the baker's = bij de bakker"
+        },
+        {
+          "type": "mc",
+          "q": "Albert Heijn (AH) is:",
+          "opts": [
+            "a Dutch bank",
+            "the largest Dutch supermarket chain",
+            "a train company",
+            "a bicycle brand"
+          ],
+          "ans": "the largest Dutch supermarket chain",
+          "hint": "Every Dutch town has one"
+        },
+        {
+          "type": "fb",
+          "s": "Gaan we ___ naar de winkel?",
+          "a": "samen",
+          "opts": [
+            "samen",
+            "even",
+            "altijd",
+            "ook"
+          ],
+          "hint": "Together"
+        },
+        {
+          "type": "mc",
+          "q": "'Wacht even' means:",
+          "opts": [
+            "wait always",
+            "wait never",
+            "wait a moment",
+            "don't wait"
+          ],
+          "ans": "wait a moment",
+          "hint": "even = just a moment"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_just_going_shop",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_right_back",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l7",
+      "title": "Verdwaald!",
+      "icon": "🗺️",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Verdwaald!",
+          "desc": "You're lost in a Dutch city. This lesson puts all of Unit 6 together in a realistic scenario: asking strangers for help, understanding their directions, and finding your way. One extended dialogue with exercises between each section.",
+          "goals": [
+            "Ask for help when lost",
+            "Understand complex directions",
+            "Polite conversation starters",
+            "Combine all Unit 6 vocabulary"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "verdwaald",
+          "en": "lost",
+          "phonetic": "fur-DVAHLT",
+          "example": "Sorry, ik ben verdwaald.",
+          "exampleEn": "Sorry, I'm lost.",
+          "note": "Past participle of 'verdwalen' (to get lost).\n'Ik ben verdwaald' = I am lost.\nA very useful sentence for tourists.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "helpen",
+          "en": "to help",
+          "phonetic": "HEL-pun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "help"
+              },
+              {
+                "lang": "German",
+                "word": "helfen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Kunt u mij helpen?",
+          "exampleEn": "Can you help me?",
+          "note": "Regular verb. Stam = help.\n'Kunt u mij helpen?' = formal request for help.\n'Kun je me helpen?' = informal.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zoeken",
+          "en": "to look for / to search",
+          "phonetic": "ZOO-kun",
+          "example": "Ik zoek het station.",
+          "exampleEn": "I'm looking for the station.",
+          "note": "Regular verb. Stam = zoek.\n'Ik zoek...' = I'm looking for...\nNo preposition needed! (Unlike English 'look FOR')",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "weten",
+          "en": "to know (a fact)",
+          "phonetic": "VAY-tun",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "wit (know)"
+              },
+              {
+                "lang": "German",
+                "word": "wissen"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Weet u waar het station is?",
+          "exampleEn": "Do you know where the station is?",
+          "note": "Irregular: ik weet, jij weet, hij weet, wij weten.\nAll singular forms = weet.\n'Ik weet het niet.' = I don't know.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "misschien",
+          "en": "maybe / perhaps",
+          "phonetic": "mis-SGEEN",
+          "example": "Misschien is het om de hoek.",
+          "exampleEn": "Maybe it's around the corner.",
+          "note": "Long word but very useful.\n'Misschien' = perhaps.\nOften starts a suggestion.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🗺️ Lost in the Netherlands: A Dialogue",
+          "text": "YOU: Sorry, kunt u mij helpen?\n= Sorry, can you help me?\n\nSTRANGER: Ja, natuurlijk! Wat zoek je?\n= Yes, of course! What are you looking for?\n\nYOU: Ik zoek het Rijksmuseum. Ik ben verdwaald.\n= I'm looking for the Rijksmuseum. I'm lost.\n\nSTRANGER: Ah, dat is niet ver! Ga hier rechtdoor,\nneem de tweede straat links, en dan ga je over de brug.\nHet is aan de rechterkant.\n= Ah, it's not far! Go straight here,\ntake the second street left, and then go over the bridge.\nIt's on the right side.\n\nYOU: Hoeveel minuten lopen is het?\n= How many minutes walking is it?\n\nSTRANGER: Vijf minuten, misschien tien.\n= Five minutes, maybe ten.\n\nYOU: Dank u wel!\n= Thank you!\n\nSTRANGER: Geen probleem! Veel plezier!\n= No problem! Have fun!"
+        },
+        {
+          "type": "teach",
+          "nl": "natuurlijk",
+          "en": "of course / naturally",
+          "phonetic": "nah-TUWR-luk",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "naturally"
+              },
+              {
+                "lang": "German",
+                "word": "natürlich"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Ja, natuurlijk!",
+          "exampleEn": "Yes, of course!",
+          "note": "Very common response to requests.\n'Kun je me helpen?' → 'Ja, natuurlijk!'\nIdentical to German 'natürlich'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "veel plezier",
+          "en": "have fun / enjoy",
+          "phonetic": "vale pluh-ZEER",
+          "example": "Veel plezier in Amsterdam!",
+          "exampleEn": "Have fun in Amsterdam!",
+          "note": "'Veel' = much/many. 'Plezier' = pleasure/fun.\nSaid when someone is going somewhere nice.\nFrom French 'plaisir'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'Ik zoek het station.' — why no preposition after 'zoek'?",
+          "opts": [
+            "It's a mistake",
+            "Dutch 'zoeken' doesn't need one",
+            "You need 'naar'",
+            "'het' replaces the preposition"
+          ],
+          "ans": "Dutch 'zoeken' doesn't need one",
+          "hint": "Unlike English 'look FOR' — Dutch just says 'ik zoek...'"
+        },
+        {
+          "type": "fb",
+          "s": "Sorry, ik ben ___.",
+          "a": "verdwaald",
+          "opts": [
+            "verdwaald",
+            "verloren",
+            "zoeken",
+            "helpen"
+          ],
+          "hint": "I am LOST"
+        },
+        {
+          "type": "mc",
+          "q": "'Weet u waar het station is?' — 'weten' means:",
+          "opts": [
+            "to want",
+            "to wait",
+            "to know (a fact)",
+            "to see"
+          ],
+          "ans": "to know (a fact)",
+          "hint": "Do you know where...?"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "verdwaald",
+              "en": "lost"
+            },
+            {
+              "nl": "helpen",
+              "en": "to help"
+            },
+            {
+              "nl": "zoeken",
+              "en": "to look for"
+            },
+            {
+              "nl": "natuurlijk",
+              "en": "of course"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ga rechtdoor, neem de tweede straat {1}, en ga over de {2}.",
+          "blanks": {
+            "1": "links",
+            "2": "brug"
+          },
+          "pool": [
+            "links",
+            "brug",
+            "rechts",
+            "straat"
+          ],
+          "hint": "Straight, second street LEFT, over the BRIDGE"
+        },
+        {
+          "type": "fb",
+          "s": "___ is het station is?",
+          "a": "Weet u waar",
+          "opts": [
+            "Weet u waar",
+            "Waar u weet",
+            "Ken u waar",
+            "Hoe u weet"
+          ],
+          "hint": "Do you KNOW WHERE the station is?"
+        },
+        {
+          "type": "mc",
+          "q": "A Dutch person says 'Veel plezier!' — this means:",
+          "opts": [
+            "Good luck!",
+            "Have fun!",
+            "Goodbye!",
+            "Be careful!"
+          ],
+          "ans": "Have fun!",
+          "hint": "veel = much, plezier = fun"
+        },
+        {
+          "type": "fb",
+          "s": "Ja, ___! Ik kan je helpen.",
+          "a": "natuurlijk",
+          "opts": [
+            "natuurlijk",
+            "misschien",
+            "altijd",
+            "graag"
+          ],
+          "hint": "Of course!"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_im_lost",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_looking_for_station",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u6l8",
+      "title": "Unit 6 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 6: Alles Samen",
+          "desc": "Bikes, trains, directions, prepositions, separable verbs, 'even', asking for help — all of Unit 6 in one final test. The scenario: a day trip through the Netherlands using every form of transport.",
+          "goals": [
+            "Transport vocabulary",
+            "Prepositions (op, in, aan, bij, naar, van, met)",
+            "Separable movement verbs",
+            "Directions and navigation",
+            "'Even' and Dutch directness"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 What You Know Now",
+          "text": "After Unit 6 you can:\n\n• Say how you travel (fiets, trein, auto, lopen)\n• Use gaan (to go) in all forms\n• Give and understand directions\n• Use 8 prepositions correctly\n• Board, exit, and transfer on trains\n• Ask 'where is...?' and 'how do I get there?'\n• Use 'even' like a local\n• Ask strangers for help politely\n\nYou can now navigate the entire Netherlands."
+        },
+        {
+          "type": "mc",
+          "q": "'Ik ga met de fiets naar het werk.' — how many prepositions?",
+          "opts": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "ans": "2",
+          "hint": "met (by) and naar (to)"
+        },
+        {
+          "type": "fb",
+          "s": "Ga ___ en dan links.",
+          "a": "rechtdoor",
+          "opts": [
+            "rechtdoor",
+            "rechts",
+            "rechtsaf",
+            "verder"
+          ],
+          "hint": "Go STRAIGHT and then left"
+        },
+        {
+          "type": "mc",
+          "q": "'Instappen, uitstappen, overstappen' all share:",
+          "opts": [
+            "the prefix 'over'",
+            "the verb 'stappen'",
+            "the word 'trein'",
+            "the preposition 'in'"
+          ],
+          "ans": "the verb 'stappen'",
+          "hint": "Step IN, step OUT, step OVER"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "op de tafel",
+              "en": "on the table"
+            },
+            {
+              "nl": "in de stad",
+              "en": "in the city"
+            },
+            {
+              "nl": "aan de muur",
+              "en": "on the wall"
+            },
+            {
+              "nl": "bij de bakker",
+              "en": "at the bakery"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "De trein {1} om drie uur. Wij stappen in Utrecht {2}.",
+          "blanks": {
+            "1": "vertrekt",
+            "2": "uit"
+          },
+          "pool": [
+            "vertrekt",
+            "uit",
+            "aan",
+            "trekt"
+          ],
+          "hint": "Departs (inseparable). Exit (separable)."
+        },
+        {
+          "type": "fb",
+          "s": "Ik ga ___ naar de supermarkt.",
+          "a": "even",
+          "opts": [
+            "even",
+            "altijd",
+            "nooit",
+            "niet"
+          ],
+          "hint": "Just quickly — the most Dutch word"
+        },
+        {
+          "type": "mc",
+          "q": "Which prefix is INseparable?",
+          "opts": [
+            "in-",
+            "uit-",
+            "aan-",
+            "ver-"
+          ],
+          "ans": "ver-",
+          "hint": "vertrekken never splits"
+        },
+        {
+          "type": "fb",
+          "s": "___ is er een apotheek in de buurt?",
+          "a": "Pardon",
+          "opts": [
+            "Pardon",
+            "Waar",
+            "Hoeveel",
+            "Wanneer"
+          ],
+          "hint": "Polite conversation starter before a question"
+        },
+        {
+          "type": "mc",
+          "q": "'Hoe kom ik er?' asks about:",
+          "opts": [
+            "the price",
+            "the direction",
+            "the time",
+            "the distance"
+          ],
+          "ans": "the direction",
+          "hint": "How do I get THERE?"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik koop brood {1} de bakker. De melk is {2} de koelkast.",
+          "blanks": {
+            "1": "bij",
+            "2": "in"
+          },
+          "pool": [
+            "bij",
+            "in",
+            "op",
+            "aan"
+          ],
+          "hint": "AT the bakery. IN the fridge."
+        },
+        {
+          "type": "fb",
+          "s": "Sorry, ik ben ___.",
+          "a": "verdwaald",
+          "opts": [
+            "verdwaald",
+            "verloren",
+            "vergeten",
+            "vertrokken"
+          ],
+          "hint": "I am LOST"
+        },
+        {
+          "type": "mc",
+          "q": "'Vijf minuten fietsen' means:",
+          "opts": [
+            "five bikes",
+            "five minutes by bike",
+            "five minutes waiting",
+            "five bike lanes"
+          ],
+          "ans": "five minutes by bike",
+          "hint": "minuten + infinitive = travel time"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "dichtbij",
+              "en": "nearby"
+            },
+            {
+              "nl": "ver",
+              "en": "far"
+            },
+            {
+              "nl": "terug",
+              "en": "back"
+            },
+            {
+              "nl": "samen",
+              "en": "together"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "There are more bikes than people in NL because:",
+          "opts": [
+            "bikes are tax-free",
+            "many people own multiple bikes",
+            "the government mandates cycling",
+            "bikes are imported from Germany"
+          ],
+          "ans": "many people own multiple bikes",
+          "hint": "23 million bikes, 17 million people"
+        },
+        {
+          "type": "fb",
+          "s": "___ u waar het museum is?",
+          "a": "Weet",
+          "opts": [
+            "Weet",
+            "Kent",
+            "Kan",
+            "Wilt"
+          ],
+          "hint": "Do you KNOW where..."
+        },
+        {
+          "type": "mc",
+          "q": "'Veel plezier!' means:",
+          "opts": [
+            "Good luck!",
+            "Have fun!",
+            "Safe travels!",
+            "Good night!"
+          ],
+          "ans": "Have fun!",
+          "hint": "veel = much, plezier = fun"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_cycle_work",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_where_station",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u6_im_lost",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

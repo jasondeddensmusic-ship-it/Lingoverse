@@ -1,0 +1,2065 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 9,
+    "lang": "ko",
+    "track": "v1",
+    "title": "주말에 뭐 할 거예요?",
+    "sub": "Future Tense, Speech Levels & Plans",
+    "icon": "🔮",
+    "level": "A2.1",
+    "color": "#27AE60"
+  },
+  "lessons": [
+    {
+      "id": "kou9l1",
+      "title": "미래 시간 단어",
+      "icon": "📆",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Looking Ahead — Future Time Words",
+          "desc": "Unit 7 gave you past time words. Unit 8 gave you conditionals.\n\nNow: the future.\n\nBefore learning the future tense grammar, you need the vocabulary to place events in the future.",
+          "goals": [
+            "Learn future time expressions",
+            "Understand 나중에, 곧, 언젠가",
+            "Review and expand the time word system",
+            "Prepare for -(으)ㄹ 거예요 in Lesson 2"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "내일",
+          "en": "tomorrow",
+          "example": "내일 뭐 할 거예요?",
+          "exampleEn": "What are you going to do tomorrow?",
+          "note": "내일: tomorrow.\n\nYou learned this in Unit 7.\n내 (來: coming) + 일 (日: day).\n\n내일 뭐 할 거예요?\n= Tomorrow what will-you-do?\nYou'll learn 할 거예요 in Lesson 2.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "다음 주 / 다음 달",
+          "en": "next week / next month",
+          "example": "다음 주에 시험이 있어요.",
+          "exampleEn": "There's an exam next week.",
+          "note": "다음: next/following.\n\n다음 주: next week\n다음 달: next month\n다음에: next time\n\n이번 주: this week\n이번 달: this month\n이번에: this time",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "이번 주말",
+          "en": "this weekend",
+          "example": "이번 주말에 뭐 해요?",
+          "exampleEn": "What are you doing this weekend?",
+          "note": "이번: this (current).\n주말: weekend (주 + 말: week + end).\n\n이번 주말 = this weekend.\n\n이번 주말에 뭐 해요?\n= One of the most common Korean social questions.\n\nYou can answer with:\n집에서 쉴 거예요. (I'm going to rest at home.)\n친구를 만날 거예요. (I'm going to meet a friend.)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "나중에",
+          "en": "later / sometime later",
+          "example": "나중에 전화할게요.",
+          "exampleEn": "I'll call you later.",
+          "note": "나중에: later, sometime later.\n\n나중: later time.\n에: time particle.\n\n나중에 봐요! = See you later!\n나중에 이야기해요. = Let's talk later.\n\nNon-specific future — could be hours or days.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "곧",
+          "en": "soon",
+          "example": "곧 도착해요.",
+          "exampleEn": "I'll arrive soon.",
+          "note": "곧: soon.\n\n곧 가요: I'm going soon.\n곧 시작해요: It starts soon.\n곧 도착해요: I'll arrive soon.\n\n도착하다: to arrive.\n도착 (到着): 도 (arrive) + 착 (reach).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "언젠가",
+          "en": "someday",
+          "example": "언젠가 한국에 가고 싶어요.",
+          "exampleEn": "I want to go to Korea someday.",
+          "note": "언젠가: someday, at some point.\n\n언제 (when) + ㄴ가 (indefinite particle).\n\n언젠가 한국에 가고 싶어요.\n= Someday I want to go to Korea.\n\nFar future, unspecified time.\n\n뭔가: something (뭐 + ㄴ가)\n어딘가: somewhere (어디 + ㄴ가)\n누군가: someone (누구 + ㄴ가)",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📆 Complete Time Word System",
+          "text": "PAST: 어제 / 지난주 / 지난달 / 작년\nPRESENT: 오늘 / 이번 주 / 이번 달 / 올해\nFUTURE: 내일 / 다음 주 / 다음 달 / 내년\n\nSPECIFIC → VAGUE:\n내일 (tomorrow) — specific\n다음 주 (next week) — near future\n곧 (soon) — vague near future\n나중에 (later) — vague\n언젠가 (someday) — distant/unspecified\n\nAll go at the START of the sentence:\n내일 학교에 가요. ✓\n학교에 내일 가요. △ (possible but less natural)"
+        },
+        {
+          "type": "mc",
+          "q": "나중에 means:",
+          "opts": [
+            "Yesterday",
+            "Now",
+            "Later",
+            "Always"
+          ],
+          "ans": "Later",
+          "hint": "나중에 = later. 나중에 봐요 = see you later."
+        },
+        {
+          "type": "mc",
+          "q": "곧 도착해요. 곧 means:",
+          "opts": [
+            "Already",
+            "Soon",
+            "Never",
+            "Yesterday"
+          ],
+          "ans": "Soon",
+          "hint": "곧 = soon. 곧 도착해요 = arriving soon."
+        },
+        {
+          "type": "mc",
+          "q": "언젠가 = 언제 + ㄴ가. 언제 means:",
+          "opts": [
+            "Where",
+            "What",
+            "When",
+            "How"
+          ],
+          "ans": "When",
+          "hint": "언제 = when. + ㄴ가 (indefinite) = someday/sometime."
+        },
+        {
+          "type": "mc",
+          "q": "이번 주말에 뭐 해요? 이번 means:",
+          "opts": [
+            "Last",
+            "Next",
+            "This/current",
+            "Every"
+          ],
+          "ans": "This/current",
+          "hint": "이번 = this (current cycle). 이번 주말 = this weekend."
+        },
+        {
+          "type": "mc",
+          "q": "도착 = 도 + 착. 도 means:",
+          "opts": [
+            "Arrive",
+            "Leave",
+            "Start",
+            "Stop"
+          ],
+          "ans": "Arrive",
+          "hint": "도 (到) = arrive. 착 (着) = reach. 도착 = arrival."
+        },
+        {
+          "type": "fb",
+          "s": "___ 전화할게요. (I'll call you later.)",
+          "a": "나중에",
+          "opts": [
+            "나중에",
+            "어제",
+            "곧",
+            "지금"
+          ],
+          "hint": "나중에 = later."
+        },
+        {
+          "type": "fb",
+          "s": "___ 한국에 가고 싶어요. (I want to go to Korea someday.)",
+          "a": "언젠가",
+          "opts": [
+            "언젠가",
+            "어제",
+            "오늘",
+            "곧"
+          ],
+          "hint": "언젠가 = someday."
+        },
+        {
+          "type": "fb",
+          "s": "___ 주말에 뭐 할 거예요? (What are you doing this weekend?)",
+          "a": "이번",
+          "opts": [
+            "이번",
+            "지난",
+            "다음",
+            "그"
+          ],
+          "hint": "이번 = this (current). 이번 주말 = this weekend."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "나중에",
+              "en": "later"
+            },
+            {
+              "nl": "곧",
+              "en": "soon"
+            },
+            {
+              "nl": "언젠가",
+              "en": "someday"
+            },
+            {
+              "nl": "이번 주말",
+              "en": "this weekend"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} 뭐 할 거예요? {2} 친구를 만날 거예요. {3} 한국에 가고 싶어요.",
+          "blanks": {
+            "1": "내일",
+            "2": "다음 주에",
+            "3": "언젠가"
+          },
+          "pool": [
+            "내일",
+            "다음 주에",
+            "언젠가",
+            "어제",
+            "지난주에",
+            "작년에"
+          ],
+          "hint": "What will you do tomorrow? I'll meet a friend next week. I want to go to Korea someday."
+        },
+        {
+          "type": "mc",
+          "q": "Which time word goes FURTHEST into the future?",
+          "opts": [
+            "내일",
+            "다음 주",
+            "곧",
+            "언젠가"
+          ],
+          "ans": "언젠가",
+          "hint": "언젠가 = someday (distant, unspecified future)."
+        }
+      ]
+    },
+    {
+      "id": "kou9l2",
+      "title": "-(으)ㄹ 거예요",
+      "icon": "🔮",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "The Future Tense — Your Second Tense Car",
+          "desc": "Remember the Train?\nStem = engine. Past tense car = 았/었/했.\n\nNow: the FUTURE tense car.\n\n-(으)ㄹ 거예요 = will / going to.\n\nThis is the most common way to express future in Korean.",
+          "goals": [
+            "Learn -(으)ㄹ 거예요 formation",
+            "Apply to vowel and consonant stems",
+            "Produce future tense independently",
+            "Recognize -겠습니다 (합쇼체 future) by ear"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "-(으)ㄹ 거예요",
+          "en": "will / going to",
+          "example": "내일 학교에 갈 거예요.",
+          "exampleEn": "I'm going to go to school tomorrow.",
+          "note": "-(으)ㄹ 거예요: will / going to.\n\nThe Train: Stem + [future car: -(으)ㄹ 거] + 예요\n\nFormation:\nVowel stem + ㄹ 거예요: 가다 → 갈 거예요\nConsonant stem + 을 거예요: 먹다 → 먹을 거예요\n하다 → 할 거예요\n\n것 (thing) + 이다 (to be) = 거예요 (colloquial).\n\n갈 거예요 = 'the thing of going exists' = will go.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "가다 → 갈 거예요",
+          "en": "will go / going to go",
+          "example": "내일 학교에 갈 거예요.",
+          "exampleEn": "I'm going to go to school tomorrow.",
+          "note": "가다: vowel stem 가.\n가 + ㄹ 거예요 = 갈 거예요.\n\n하다 → 할 거예요 (will do)\n오다 → 올 거예요 (will come)\n보다 → 볼 거예요 (will see/watch)\n마시다 → 마실 거예요 (will drink)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "먹다 → 먹을 거예요",
+          "en": "will eat / going to eat",
+          "example": "저녁에 삼겹살을 먹을 거예요.",
+          "exampleEn": "I'm going to eat samgyeopsal for dinner.",
+          "note": "먹다: consonant stem 먹.\n먹 + 을 거예요 = 먹을 거예요.\n\n있다 → 있을 거예요 (will be/have)\n없다 → 없을 거예요 (won't be/have)\n읽다 → 읽을 거예요 (will read)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "살다 → 살 거예요",
+          "en": "will live",
+          "example": "서울에서 살 거예요.",
+          "exampleEn": "I'm going to live in Seoul.",
+          "note": "살다: ㄹ stem.\n\nㄹ stems already end in ㄹ, so just add 거예요:\n살다 → 살 거예요 (not 살을 거예요)\n알다 → 알 거예요 (will know)\n만들다 → 만들 거예요 (will make)\n놀다 → 놀 거예요 (will play/hang out)",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🔮 Future Tense Formation",
+          "text": "The Train now has TWO tense cars:\n\nPAST: stem + 았/었/했 + 어요\n먹 + 었어요 = 먹었어요 (ate)\n\nFUTURE: stem + (으)ㄹ 거예요\n먹 + 을 거예요 = 먹을 거예요 (will eat)\n\nFormation rules:\nVowel stem → +ㄹ 거예요: 갈, 올, 볼, 할\nConsonant stem → +을 거예요: 먹을, 있을, 읽을\nㄹ stem → +거예요: 살, 알, 만들\n\nNegative future:\n안 + future: 안 갈 거예요 (won't go)\n못 + future: 못 갈 거예요 (can't go — future)\n\nQuestion:\n뭐 할 거예요? = What will you do?"
+        },
+        {
+          "type": "teach",
+          "nl": "-겠습니다",
+          "en": "will (formal/합쇼체)",
+          "example": "잘 먹겠습니다.",
+          "exampleEn": "I will eat well. (said before eating)",
+          "note": "-겠습니다: formal future (합쇼체).\n\nYou've heard this:\n잘 먹겠습니다: I will eat well (before meal — gratitude)\n잘 하겠습니다: I will do well (commitment)\n알겠습니다: I understand / understood (formal)\n\n-겠- is the formal future/intention marker.\n-겠 + 습니다 = formal polite future.\n\n⚡ JRTF: You don't need to produce this yet.\nJust recognize it. Full 합쇼체 production in Lesson 4.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "먹다 → future:",
+          "opts": [
+            "먹을 거예요",
+            "먹는 거예요",
+            "먹은 거예요",
+            "먹어 거예요"
+          ],
+          "ans": "먹을 거예요",
+          "hint": "Consonant stem + 을 거예요. 먹을 거예요."
+        },
+        {
+          "type": "mc",
+          "q": "가다 → future:",
+          "opts": [
+            "가을 거예요",
+            "갈 거예요",
+            "간 거예요",
+            "가는 거예요"
+          ],
+          "ans": "갈 거예요",
+          "hint": "Vowel stem + ㄹ 거예요. 가 + ㄹ = 갈 거예요."
+        },
+        {
+          "type": "mc",
+          "q": "하다 → future:",
+          "opts": [
+            "할 거예요",
+            "한 거예요",
+            "하는 거예요",
+            "해 거예요"
+          ],
+          "ans": "할 거예요",
+          "hint": "하다: 하 + ㄹ = 할 거예요."
+        },
+        {
+          "type": "mc",
+          "q": "살다 → future:",
+          "opts": [
+            "살을 거예요",
+            "살 거예요",
+            "살는 거예요",
+            "살은 거예요"
+          ],
+          "ans": "살 거예요",
+          "hint": "ㄹ stem: already ends in ㄹ → just add 거예요."
+        },
+        {
+          "type": "mc",
+          "q": "잘 먹겠습니다 is said:",
+          "opts": [
+            "After eating",
+            "Before eating (expressing gratitude)",
+            "When you're full",
+            "When ordering food"
+          ],
+          "ans": "Before eating (expressing gratitude)",
+          "hint": "잘 먹겠습니다 = I will eat well = thank you for the food (before eating)."
+        },
+        {
+          "type": "mc",
+          "q": "내일 뭐 ___ 거예요? (What will you do tomorrow?)",
+          "opts": [
+            "할",
+            "한",
+            "하는",
+            "해"
+          ],
+          "ans": "할",
+          "hint": "하다 → 할 거예요. Question: 뭐 할 거예요?"
+        },
+        {
+          "type": "fb",
+          "s": "내일 영화를 ___ 거예요. (I'm going to watch a movie tomorrow.)",
+          "a": "볼",
+          "opts": [
+            "볼",
+            "본",
+            "보는",
+            "봐"
+          ],
+          "hint": "보다 → 볼 거예요. 보 + ㄹ = 볼."
+        },
+        {
+          "type": "fb",
+          "s": "이번 주말에 친구를 ___ 거예요. (I'm going to meet a friend this weekend.)",
+          "a": "만날",
+          "opts": [
+            "만날",
+            "만난",
+            "만나는",
+            "만나"
+          ],
+          "hint": "만나다 → 만날 거예요. 만나 + ㄹ = 만날."
+        },
+        {
+          "type": "fb",
+          "s": "한국어를 열심히 ___ 거예요. (I'm going to study Korean hard.)",
+          "a": "공부할",
+          "opts": [
+            "공부할",
+            "공부한",
+            "공부하는",
+            "공부해"
+          ],
+          "hint": "공부하다 → 공부할 거예요."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "갈 거예요",
+              "en": "will go"
+            },
+            {
+              "nl": "먹을 거예요",
+              "en": "will eat"
+            },
+            {
+              "nl": "할 거예요",
+              "en": "will do"
+            },
+            {
+              "nl": "볼 거예요",
+              "en": "will see/watch"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "내일 학교에 {1} 거예요. 한국어를 {2} 거예요. 저녁에 친구를 {3} 거예요.",
+          "blanks": {
+            "1": "갈",
+            "2": "공부할",
+            "3": "만날"
+          },
+          "pool": [
+            "갈",
+            "공부할",
+            "만날",
+            "간",
+            "공부한",
+            "만난"
+          ],
+          "hint": "Tomorrow I'll go to school. I'll study Korean. In the evening I'll meet a friend."
+        },
+        {
+          "type": "mc",
+          "q": "The Train now has ___ tense cars:",
+          "opts": [
+            "One (present only)",
+            "Two (past + future)",
+            "Three (past + present + future)",
+            "Four"
+          ],
+          "ans": "Two (past + future)",
+          "hint": "Past: 았/었/했어요. Future: -(으)ㄹ 거예요. Present has no tense car — just stem + 아/어요."
+        }
+      ]
+    },
+    {
+      "id": "kou9l3",
+      "title": "-아/어서: 이유와 순서",
+      "icon": "🔗",
+      "xp": 22,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Because and Then — -아/어서 Deep Dive",
+          "desc": "You used -아/어서 briefly in Unit 7.\nNow: the full picture.\n\n-아/어서 has TWO uses:\n1. CAUSE: 배가 고파서 밥을 먹었어요. (Because I was hungry, I ate.)\n2. SEQUENCE: 학교에 가서 공부해요. (I go to school and study.)\n\nPlus one critical warning.",
+          "goals": [
+            "Master -아/어서 for cause",
+            "Master -아/어서 for natural sequence",
+            "Learn the imperative restriction (critical!)",
+            "Distinguish from -고 (and) and -(으)니까 (preview)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "-아/어서 (cause)",
+          "en": "because / so",
+          "example": "배가 고파서 밥을 먹었어요.",
+          "exampleEn": "Because I was hungry, I ate.",
+          "note": "-아/어서 for CAUSE:\n\n[reason] + -아/어서 + [result].\n\n배가 고파서 밥을 먹었어요.\n= Hungry → so → ate.\n\nFormation (same vowel harmony as always):\nBright (ㅏ,ㅗ) → -아서: 가다 → 가서\nDark (others) → -어서: 먹다 → 먹어서\n하다 → 해서\n\n⚠️ Tense ONLY on the final verb:\n배가 고파서 먹었어요. ✓\n배가 고팠어서 먹었어요. ✗",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "-아/어서 (sequence)",
+          "en": "and then",
+          "example": "학교에 가서 공부해요.",
+          "exampleEn": "I go to school and (then) study.",
+          "note": "-아/어서 for SEQUENCE:\n\n[first action] + -아/어서 + [next action].\n\n학교에 가서 공부해요.\n= Go to school → and then → study.\n\n일어나서 밥을 먹었어요.\n= Got up → and then → ate.\n\nSequence implies natural flow:\nFirst action leads naturally to the second.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ Critical Rule: No Imperatives After -아/어서",
+          "text": "-아/어서 CANNOT be followed by commands or suggestions.\n\n배가 고파서 밥 먹어요. ✓ (statement)\n배가 고파서 밥 먹자! ✗ (suggestion — WRONG)\n배가 고파서 밥 먹어! ✗ (command — WRONG)\n\nFor commands/suggestions, Korean uses -(으)니까:\n배가 고프니까 밥 먹자! ✓\n\n⚡ JRTF: -(으)니까 is formally taught in Unit 14.\nFor now: just know -아/어서 + command = WRONG.\n\nThis is one of the most common mistakes foreign learners make.\nTOPIK tests this distinction heavily.",
+          "deepDive": {
+            "title": "Why This Rule Exists",
+            "text": "-아/어서 presents cause as NEUTRAL FACT.\nIt doesn't carry the speaker's authority or justification.\n\n-(으)니까 presents cause as the SPEAKER'S REASON.\nIt carries justification, so commands/suggestions can follow.\n\n배가 고파서... = 'Given the fact that I'm hungry...'\n→ Can state a result, but can't command someone.\n\n배가 고프니까... = 'Since I'm hungry (and I'm telling you this)...'\n→ Can justify a suggestion or command.\n\nThis distinction is taught fully in Unit 14.\nFor now: remember the restriction."
+          }
+        },
+        {
+          "type": "teach",
+          "nl": "만나서 반갑습니다",
+          "en": "nice to meet you",
+          "example": "만나서 반갑습니다.",
+          "exampleEn": "(Having met you,) nice to meet you.",
+          "note": "만나서 반갑습니다.\n\n만나다 + 아서 = 만나서 (having met)\n반갑다: glad/pleased.\n\nLiterally: 'Having met (you), I'm glad.'\n\nThis is one of the most common -아/어서 phrases.\nYou learned it in Unit 1 — now you know the grammar behind it!",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "감사합니다 / 고마워요",
+          "en": "thank you (formal / casual polite)",
+          "example": "도와줘서 고마워요.",
+          "exampleEn": "Thank you for helping.",
+          "note": "도와줘서 고마워요.\n= Because (you) helped, I'm thankful.\n\n도와주다: to help (도와 + 주다: help + give).\n도와줘서: because of helping.\n\n-아/어서 + 감사합니다/고마워요 = 'thank you FOR [verb]-ing'.\n\n와 줘서 감사합니다: thank you for coming.\n기다려 줘서 고마워요: thanks for waiting.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "배가 고파서 밥을 먹었어요. -아서 here means:",
+          "opts": [
+            "And then",
+            "Because",
+            "But",
+            "If"
+          ],
+          "ans": "Because",
+          "hint": "-아/어서 = because/so. Hungry → so → ate."
+        },
+        {
+          "type": "mc",
+          "q": "학교에 가서 공부해요. -서 here means:",
+          "opts": [
+            "Because",
+            "And then (sequence)",
+            "But",
+            "If"
+          ],
+          "ans": "And then (sequence)",
+          "hint": "-아/어서 for sequence: go to school → and then → study."
+        },
+        {
+          "type": "mc",
+          "q": "Which is WRONG?",
+          "opts": [
+            "비가 와서 못 갔어요",
+            "아파서 쉬었어요",
+            "배가 고파서 밥 먹자",
+            "늦어서 미안해요"
+          ],
+          "ans": "배가 고파서 밥 먹자",
+          "hint": "-아/어서 + command/suggestion = WRONG. Use -(으)니까 instead."
+        },
+        {
+          "type": "mc",
+          "q": "만나서 반갑습니다 literally means:",
+          "opts": [
+            "Nice to meet you",
+            "Having met you, I'm glad",
+            "I want to meet you",
+            "Let's meet again"
+          ],
+          "ans": "Having met you, I'm glad",
+          "hint": "만나서 = having met. 반갑다 = glad. → Nice to meet you."
+        },
+        {
+          "type": "mc",
+          "q": "도와줘서 고마워요. -아/어서 here means:",
+          "opts": [
+            "If you help",
+            "Because you helped",
+            "Help and then",
+            "While helping"
+          ],
+          "ans": "Because you helped",
+          "hint": "-아/어서 = because. 'Because you helped, thank you.'"
+        },
+        {
+          "type": "fb",
+          "s": "배가 고파___ 밥을 먹었어요. (Because I was hungry, I ate.)",
+          "a": "서",
+          "opts": [
+            "서",
+            "고",
+            "면",
+            "지만"
+          ],
+          "hint": "-아/어서 = because. 고프다 → 고파 + 서."
+        },
+        {
+          "type": "fb",
+          "s": "늦어___ 미안해요. (Sorry for being late.)",
+          "a": "서",
+          "opts": [
+            "서",
+            "고",
+            "면",
+            "지만"
+          ],
+          "hint": "늦다 → 늦어서. Because (I was) late, I'm sorry."
+        },
+        {
+          "type": "fb",
+          "s": "학교에 가___ 공부했어요. (I went to school and studied.)",
+          "a": "서",
+          "opts": [
+            "서",
+            "고",
+            "면",
+            "지만"
+          ],
+          "hint": "-아/어서 for sequence: went → and then → studied."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "배가 고파서",
+              "en": "because I'm hungry"
+            },
+            {
+              "nl": "학교에 가서",
+              "en": "go to school and then"
+            },
+            {
+              "nl": "만나서 반갑습니다",
+              "en": "nice to meet you"
+            },
+            {
+              "nl": "늦어서 미안해요",
+              "en": "sorry for being late"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "어제 늦게 일어나{1} 학교에 못 갔어요. 늦어{2} 선생님한테 미안하다고 했어요.",
+          "blanks": {
+            "1": "서",
+            "2": "서"
+          },
+          "pool": [
+            "서",
+            "고",
+            "면",
+            "지만",
+            "는데"
+          ],
+          "hint": "I woke up late so I couldn't go to school. I told the teacher I was sorry for being late."
+        },
+        {
+          "type": "mc",
+          "q": "-아/어서 + imperative is wrong. Which connector allows imperatives?",
+          "opts": [
+            "-(으)니까 (coming in U14)",
+            "-(으)면",
+            "그리고",
+            "-고"
+          ],
+          "ans": "-(으)니까 (coming in U14)",
+          "hint": "-(으)니까 = speaker's justification → commands OK. JRTF for now."
+        },
+        {
+          "type": "mc",
+          "q": "와 줘서 감사합니다 means:",
+          "opts": [
+            "Come and give",
+            "Thank you for coming",
+            "Please come",
+            "I came and gave"
+          ],
+          "ans": "Thank you for coming",
+          "hint": "와 줘서 = because (you) came (for me). 감사합니다 = thank you."
+        },
+        {
+          "type": "teach",
+          "nl": "-거나",
+          "en": "or (between verbs)",
+          "example": "주말에 영화를 보거나 운동해요.",
+          "exampleEn": "On weekends I watch movies or exercise.",
+          "note": "-거나: or (connecting verbs/adjectives).\n\nStem + 거나.\n보다 → 보거나 (watch or...)\n먹다 → 먹거나 (eat or...)\n하다 → 하거나 (do or...)\n\n주말에 영화를 보거나 운동해요.\n= On weekends I watch movies or exercise.\n\n아니면: or (between nouns): 커피 아니면 차?\n-거나: or (between verbs): 보거나 먹거나.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "영화를 보거나 책을 읽어요. -거나 means:",
+          "opts": [
+            "And",
+            "But",
+            "Or",
+            "Then"
+          ],
+          "ans": "Or",
+          "hint": "-거나 = or (between verbs)."
+        }
+      ]
+    },
+    {
+      "id": "kou9l4",
+      "title": "★ 말의 높낮이",
+      "icon": "🎭",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "The Three Speech Levels You Need",
+          "desc": "You've been speaking 해요체 since Unit 1 Lesson 2.\nYou heard 합쇼체 named in Unit 3 Lesson 7b.\n반말 was seeded: 'It exists. Don't use it yet.'\n\nNow all three get their full treatment.\n\nThis is a P26 harvest. You already FEEL the difference.\nToday you OWN it.",
+          "goals": [
+            "Master 해요체 production (you already have this)",
+            "Learn 합쇼체 production (formal polite)",
+            "Understand 반말 structure (preview for U10)",
+            "Know WHEN to use each level"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🎭 You've Been Doing This Since Unit 1",
+          "text": "Unit 1 Lesson 2: You learned -요 makes things polite.\nUnit 3 Lesson 7b: 해요체 was formally named.\nEvery lesson since: you've been producing 해요체.\n\nUnit 3 also showed you:\n감사합니다, 안녕하십니까 — 합쇼체.\n반말 exists but 'don't use it yet.'\n\nNow: the full map.\n\nKorean has 7 speech levels in grammar books.\nIn daily life, you need THREE:\n\n해요체: polite casual (90% of your life)\n합쇼체: polite formal (work, service, news)\n반말: casual (close friends, younger people)\n\nThe other 4 are literary/archaic. Ignore them."
+        },
+        {
+          "type": "teach",
+          "nl": "해요체 (polite casual)",
+          "en": "-아/어요 ending",
+          "example": "밥 먹어요. 가요. 좋아요.",
+          "exampleEn": "I eat. I go. It's good.",
+          "note": "해요체: the speech level you already know.\n\nPresent: 먹어요, 가요, 해요\nPast: 먹었어요, 갔어요, 했어요\nFuture: 먹을 거예요, 갈 거예요, 할 거예요\n\nUse with: everyone in daily life.\nStreet, cafe, friends' parents, colleagues, strangers.\n\n해요체 = safe. When in doubt, use 해요체.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "합쇼체 (polite formal)",
+          "en": "-ㅂ니다/-습니다 ending",
+          "example": "감사합니다. 잘 먹겠습니다.",
+          "exampleEn": "Thank you. I will eat well.",
+          "note": "합쇼체: the formal polite level.\n\nFormation:\nVowel stem + -ㅂ니다: 가다 → 갑니다\nConsonant stem + -습니다: 먹다 → 먹습니다\n\nPast: -았/었 + 습니다: 갔습니다, 먹었습니다\n\nUse with:\n• News anchors, presentations\n• Customer service: 감사합니다\n• Military, formal speeches\n• First meeting with someone much older\n• Before meals: 잘 먹겠습니다",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "합쇼체 Questions",
+          "en": "-ㅂ니까/-습니까",
+          "example": "어디 가십니까?",
+          "exampleEn": "Where are you going? (very formal)",
+          "note": "Questions in 합쇼체:\n\nVowel stem + -ㅂ니까: 가다 → 갑니까?\nConsonant stem + -습니까: 먹다 → 먹습니까?\n\n어디 갑니까? = Where are you going? (very formal)\n뭐 먹습니까? = What are you eating? (very formal)\n\nYou'll hear these on news and in very formal settings.\nIn daily life, 어디 가요? is normal.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "반말 (casual)",
+          "en": "no -요 ending",
+          "example": "밥 먹어. 가. 좋아.",
+          "exampleEn": "I eat. I go. It's good. (casual)",
+          "note": "반말: casual speech. No -요.\n\n해요체 → 반말: just drop -요.\n먹어요 → 먹어\n가요 → 가\n좋아요 → 좋아\n했어요 → 했어\n갈 거예요 → 갈 거야\n\nUse with:\n• Close friends your age or younger\n• Children\n• Very close siblings\n• NEVER with strangers, elders, or people you just met\n\n⚠️ Using 반말 with the wrong person is a serious social mistake.\n\n⚡ Full 반말 production practice: Unit 10 Lesson 3.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📋 When to Use Each Level",
+          "text": "해요체 (폴라이트 캐주얼):\n• Default for everything\n• Friends you're not super close with\n• Strangers\n• Shopping, restaurants, cafes\n• Parents of friends\n• 90% of your Korean life\n\n합쇼체 (폴라이트 포멀):\n• Job interviews\n• Presentations at work\n• News broadcasts\n• Customer service (from their side)\n• Military\n• Before/after meals: 잘 먹겠습니다 / 잘 먹었습니다\n• First meeting with much older person\n\n반말 (캐주얼):\n• Close friends (same age or younger)\n• Children\n• Siblings (depending on family)\n• Couples (after a while)\n• NEVER to strangers or elders\n\nThe golden rule:\nWhen in doubt → 해요체.\nBetter too polite than not polite enough."
+        },
+        {
+          "type": "mc",
+          "q": "가다 → 합쇼체 statement:",
+          "opts": [
+            "가요",
+            "갑니다",
+            "가습니다",
+            "가ㅂ니다"
+          ],
+          "ans": "갑니다",
+          "hint": "Vowel stem + ㅂ니다. 가 + ㅂ니다 = 갑니다."
+        },
+        {
+          "type": "mc",
+          "q": "먹다 → 합쇼체 statement:",
+          "opts": [
+            "먹ㅂ니다",
+            "먹습니다",
+            "먹어요",
+            "먹읍니다"
+          ],
+          "ans": "먹습니다",
+          "hint": "Consonant stem + 습니다. 먹 + 습니다 = 먹습니다."
+        },
+        {
+          "type": "mc",
+          "q": "먹어요 → 반말:",
+          "opts": [
+            "먹어",
+            "먹다",
+            "먹어요",
+            "먹습니다"
+          ],
+          "ans": "먹어",
+          "hint": "반말 = drop -요. 먹어요 → 먹어."
+        },
+        {
+          "type": "mc",
+          "q": "You're meeting your Korean friend's grandmother for the first time. Use:",
+          "opts": [
+            "반말",
+            "해요체",
+            "합쇼체",
+            "아무거나"
+          ],
+          "ans": "합쇼체",
+          "hint": "First meeting with elder → 합쇼체 (most respectful)."
+        },
+        {
+          "type": "mc",
+          "q": "At a coffee shop ordering coffee:",
+          "opts": [
+            "반말",
+            "합쇼체",
+            "해요체",
+            "All are fine"
+          ],
+          "ans": "해요체",
+          "hint": "Daily life with strangers → 해요체 (safe default)."
+        },
+        {
+          "type": "mc",
+          "q": "With your close friend who is your age:",
+          "opts": [
+            "합쇼체 always",
+            "해요체 always",
+            "반말 is okay",
+            "반말 is rude"
+          ],
+          "ans": "반말 is okay",
+          "hint": "Close friends same age → 반말 is natural and expected."
+        },
+        {
+          "type": "fb",
+          "s": "감사___. (Thank you — formal)",
+          "a": "합니다",
+          "opts": [
+            "합니다",
+            "해요",
+            "해",
+            "했어요"
+          ],
+          "hint": "감사하다 → 합쇼체: 감사합니다."
+        },
+        {
+          "type": "fb",
+          "s": "잘 먹___. (I will eat well — before meal, formal)",
+          "a": "겠습니다",
+          "opts": [
+            "겠습니다",
+            "을 거예요",
+            "어요",
+            "었어요"
+          ],
+          "hint": "Before meals: 잘 먹겠습니다 (합쇼체 future)."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "먹어요",
+              "en": "polite casual"
+            },
+            {
+              "nl": "먹습니다",
+              "en": "polite formal"
+            },
+            {
+              "nl": "먹어",
+              "en": "casual speech"
+            },
+            {
+              "nl": "먹겠습니다",
+              "en": "formal future"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "해요체: 가{1}. 합쇼체: 갑{2}. 반말: {3}.",
+          "blanks": {
+            "1": "요",
+            "2": "니다",
+            "3": "가"
+          },
+          "pool": [
+            "요",
+            "니다",
+            "가",
+            "습니다",
+            "아요"
+          ],
+          "hint": "해요체: 가요. 합쇼체: 갑니다. 반말: 가."
+        },
+        {
+          "type": "mc",
+          "q": "Which speech level have you been using since Unit 1?",
+          "opts": [
+            "합쇼체",
+            "반말",
+            "해요체",
+            "존댓말"
+          ],
+          "ans": "해요체",
+          "hint": "Every -아/어요 ending = 해요체. You've been using it from day one."
+        }
+      ]
+    },
+    {
+      "id": "kou9l5",
+      "title": "약속 잡기",
+      "icon": "📱",
+      "xp": 22,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Making Plans — Accept, Decline, Negotiate",
+          "desc": "Korean social life runs on plans.\n\n같이 밥 먹을까요? = Shall we eat together?\n내일 시간 있어요? = Do you have time tomorrow?\n\nThis lesson practices making, accepting, and declining plans.\nPlus a common excuse pattern you'll hear everywhere.",
+          "goals": [
+            "Ask about availability",
+            "Suggest plans with -(으)ㄹ까요?",
+            "Accept and decline invitations",
+            "Encounter -거든요 naturally (JRTF)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "-(으)ㄹ까요?",
+          "en": "shall we? / should I?",
+          "example": "같이 영화 볼까요?",
+          "exampleEn": "Shall we watch a movie together?",
+          "note": "-(으)ㄹ까요?: shall we? / should I?\n\nFormation: same as future -(으)ㄹ + 까요?\nVowel stem + ㄹ까요: 갈까요? (shall we go?)\nConsonant stem + 을까요: 먹을까요? (shall we eat?)\n하다 → 할까요? (shall we do?)\n\nSuggestion + question = -(으)ㄹ까요?\n\n같이 갈까요?: shall we go together?\n뭐 먹을까요?: what shall we eat?",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "시간 있어요?",
+          "en": "do you have time?",
+          "example": "내일 시간 있어요?",
+          "exampleEn": "Do you have time tomorrow?",
+          "note": "시간 있어요?: Do you have time?\n\n시간 (時間): time.\n시 (時: hour/time) + 간 (間: between/interval).\n\n내일 시간 있어요?\n= Do you have time tomorrow?\n\nAnswers:\n네, 시간 있어요. (Yes, I have time.)\n아니요, 시간 없어요. (No, I don't have time.)\n미안해요, 바빠요. (Sorry, I'm busy.)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "좋아요! / 그래요!",
+          "en": "sounds good! / okay!",
+          "example": "좋아요! 같이 가요!",
+          "exampleEn": "Sounds good! Let's go together!",
+          "note": "Accepting plans:\n\n좋아요!: sounds good! / great!\n그래요!: okay! / alright!\n네, 좋아요!: yes, sounds good!\n당연하죠!: of course! (당연하다: obvious + -죠: right?)\n\n같이 가요!: let's go together!\n같이 먹어요!: let's eat together!",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "미안해요, 못 가요",
+          "en": "sorry, I can't go",
+          "example": "미안해요, 내일 못 가요.",
+          "exampleEn": "Sorry, I can't go tomorrow.",
+          "note": "Declining plans:\n\n미안해요, 못 가요: sorry, I can't go.\n죄송해요, 약속이 있어요: sorry, I have plans.\n다음에 갈게요: I'll go next time.\n\n약속 (約束): promise / plans / appointment.\n\n다음에: next time.\n갈게요: I'll go (promise/intention — new ending!)\n-(으)ㄹ게요: 'I'll do X' (promise to the listener).",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "약속이 있거든요",
+          "en": "(you see,) I have plans",
+          "example": "왜 못 와요? — 약속이 있거든요.",
+          "exampleEn": "Why can't you come? — (You see,) I have plans.",
+          "note": "약속이 있거든요.\n\n-거든요: 'you see' / 'the reason is' / background explanation.\n\nWhy can't you come?\n약속이 있거든요. = (You see,) I have plans.\n\n-거든요 gives a REASON the listener didn't know.\nIt's like: 'the thing is...'\n\n⚡ JRTF: -거든요 is formally named in Unit 13.\nFor now: just recognize it as 'the reason is...'",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "같이 영화 볼까요? Translation:",
+          "opts": [
+            "I watched a movie",
+            "Shall we watch a movie together?",
+            "I want to watch a movie",
+            "Did you watch a movie?"
+          ],
+          "ans": "Shall we watch a movie together?",
+          "hint": "-(으)ㄹ까요? = shall we? 같이 = together."
+        },
+        {
+          "type": "mc",
+          "q": "약속 means:",
+          "opts": [
+            "Medicine",
+            "Money",
+            "Plans/appointment/promise",
+            "Time"
+          ],
+          "ans": "Plans/appointment/promise",
+          "hint": "약속 (約束) = promise/plans/appointment."
+        },
+        {
+          "type": "mc",
+          "q": "약속이 있거든요. -거든요 here means:",
+          "opts": [
+            "Because (neutral)",
+            "You see / the reason is",
+            "If",
+            "But"
+          ],
+          "ans": "You see / the reason is",
+          "hint": "-거든요 gives a reason the listener didn't know."
+        },
+        {
+          "type": "mc",
+          "q": "Someone invites you. You want to accept:",
+          "opts": [
+            "미안해요, 못 가요",
+            "좋아요! 같이 가요!",
+            "약속이 있거든요",
+            "다음에 갈게요"
+          ],
+          "ans": "좋아요! 같이 가요!",
+          "hint": "좋아요 = sounds good! Accepting the invitation."
+        },
+        {
+          "type": "mc",
+          "q": "Someone invites you. You must decline politely:",
+          "opts": [
+            "좋아요!",
+            "그래요!",
+            "미안해요, 내일 약속이 있어요",
+            "싫어요"
+          ],
+          "ans": "미안해요, 내일 약속이 있어요",
+          "hint": "미안해요 + reason = polite decline."
+        },
+        {
+          "type": "fb",
+          "s": "같이 밥 ___까요? (Shall we eat together?)",
+          "a": "먹을",
+          "opts": [
+            "먹을",
+            "먹는",
+            "먹은",
+            "먹어"
+          ],
+          "hint": "먹다 → -(으)ㄹ까요? 먹을까요?"
+        },
+        {
+          "type": "fb",
+          "s": "미안해요, 내일 ___ 가요. (Sorry, I can't go tomorrow.)",
+          "a": "못",
+          "opts": [
+            "못",
+            "안",
+            "잘",
+            "많이"
+          ],
+          "hint": "못 = can't (inability/situation)."
+        },
+        {
+          "type": "fb",
+          "s": "왜 못 와요? — 약속이 ___. (I have plans, you see.)",
+          "a": "있거든요",
+          "opts": [
+            "있거든요",
+            "있어요",
+            "있지만",
+            "있으면"
+          ],
+          "hint": "-거든요 = 'you see / the thing is...'"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "좋아요!",
+              "en": "sounds good!"
+            },
+            {
+              "nl": "미안해요",
+              "en": "sorry"
+            },
+            {
+              "nl": "약속이 있어요",
+              "en": "I have plans"
+            },
+            {
+              "nl": "다음에 갈게요",
+              "en": "I'll go next time"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "A: 이번 주말에 같이 영화 {1}? B: 미안해요, {2}이 있거든요. A: 그럼 {3}에 봐요!",
+          "blanks": {
+            "1": "볼까요",
+            "2": "약속",
+            "3": "다음"
+          },
+          "pool": [
+            "볼까요",
+            "봤어요",
+            "약속",
+            "시간",
+            "다음",
+            "지난"
+          ],
+          "hint": "A: Shall we watch a movie this weekend? B: Sorry, I have plans. A: Then let's meet next time!"
+        },
+        {
+          "type": "mc",
+          "q": "다음에 갈게요. -(으)ㄹ게요 expresses:",
+          "opts": [
+            "Past action",
+            "A promise/intention to the listener",
+            "A question",
+            "A command"
+          ],
+          "ans": "A promise/intention to the listener",
+          "hint": "-(으)ㄹ게요 = 'I'll do X' (promise to you)."
+        },
+        {
+          "type": "mc",
+          "q": "-(으)ㄹ까요? vs -(으)ㄹ 거예요 — difference:",
+          "opts": [
+            "Same meaning",
+            "ㄹ까요 is suggestion/question, ㄹ 거예요 is statement",
+            "ㄹ까요 is past, ㄹ 거예요 is future",
+            "ㄹ까요 is formal, ㄹ 거예요 is casual"
+          ],
+          "ans": "ㄹ까요 is suggestion/question, ㄹ 거예요 is statement",
+          "hint": "갈까요? = shall we go? 갈 거예요 = I will go."
+        },
+        {
+          "type": "teach",
+          "nl": "처럼",
+          "en": "like / as",
+          "example": "한국 사람처럼 말해요.",
+          "exampleEn": "You speak like a Korean person.",
+          "note": "처럼: like / as (comparison particle).\n\nNoun + 처럼.\n한국 사람처럼: like a Korean person.\n아이처럼: like a child.\n영화처럼: like a movie.\n\n한국 사람처럼 말해요!\n= You speak like a Korean!\n(The best compliment for a Korean learner.)",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "한국 사람처럼 means:",
+          "opts": [
+            "Like a Korean person",
+            "To a Korean person",
+            "From a Korean person",
+            "With a Korean person"
+          ],
+          "ans": "Like a Korean person",
+          "hint": "처럼 = like/as (comparison)."
+        }
+      ]
+    },
+    {
+      "id": "kou9l6",
+      "title": "-고 있다 & -고 나서",
+      "icon": "🔄",
+      "xp": 22,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Expanding -고 — Progressive and After",
+          "desc": "You learned -고 (and/then) in Unit 7.\n\nNow two important expansions:\n\n-고 있다: progressive (is doing right now)\n-고 나서: and after doing\n\nOne is a JRTF seed. One is new production.",
+          "goals": [
+            "Encounter -고 있다 (progressive) — JRTF",
+            "Learn -고 나서 (after doing) — produce",
+            "Use both in daily conversation",
+            "Recognize 지금 뭐 하고 있어요?"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "-고 있다",
+          "en": "is doing (progressive)",
+          "example": "지금 뭐 하고 있어요?",
+          "exampleEn": "What are you doing right now?",
+          "note": "-고 있다: is doing right now.\n\nStem + 고 있다.\n먹고 있어요: is eating.\n가고 있어요: is going.\n공부하고 있어요: is studying.\n\n지금 뭐 하고 있어요?\n= What are you doing right now?\n\n⚡ JRTF: This is formally named in Unit 11.\nFor now: recognize it.\n지금 하고 있어요 = am doing right now.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "-고 나서",
+          "en": "after doing",
+          "example": "밥을 먹고 나서 커피를 마셨어요.",
+          "exampleEn": "After eating, I drank coffee.",
+          "note": "-고 나서: after doing.\n\nStem + 고 나서.\n나다: to arise/come out. 나서 = after arising.\n\n먹고 나서: after eating.\n일어나고 나서: after waking up.\n씻고 나서: after washing.\n\n밥을 먹고 나서 커피를 마셨어요.\n= After eating, I drank coffee.\n\n-고 나서 emphasizes COMPLETION before the next action.\n-고 (simple): and/then (looser connection).\n-고 나서: and AFTER finishing (tighter sequence).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "밥을 먹고 나서",
+          "en": "after eating",
+          "example": "밥을 먹고 나서 산책했어요.",
+          "exampleEn": "After eating, I took a walk.",
+          "note": "밥을 먹고 나서 산책했어요.\n\n산책하다: to take a walk.\n산책 (散策): stroll.\n산 (散: scatter) + 책 (策: plan/walk).\n\n-고 나서 is commonly used with daily routines:\n일어나고 나서 씻어요. (After waking up, I wash.)\n씻고 나서 밥을 먹어요. (After washing, I eat.)\n밥을 먹고 나서 출근해요. (After eating, I go to work.)",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📋 -고 Family Comparison",
+          "text": "-고: and / and then (loose)\n밥을 먹고 커피를 마셨어요.\n= I ate and drank coffee. (two facts)\n\n-고 나서: after doing (tight sequence)\n밥을 먹고 나서 커피를 마셨어요.\n= After eating, I drank coffee. (finish eating first)\n\n-고 있다: progressive (right now) — JRTF\n지금 밥을 먹고 있어요.\n= I'm eating right now.\n\n-고 싶다: want to (you already know this!)\n밥을 먹고 싶어요.\n= I want to eat."
+        },
+        {
+          "type": "mc",
+          "q": "지금 뭐 하고 있어요? Translation:",
+          "opts": [
+            "What did you do?",
+            "What are you doing right now?",
+            "What will you do?",
+            "What do you want to do?"
+          ],
+          "ans": "What are you doing right now?",
+          "hint": "-고 있다 = progressive (is doing now)."
+        },
+        {
+          "type": "mc",
+          "q": "밥을 먹고 나서 커피를 마셨어요. -고 나서 means:",
+          "opts": [
+            "And also",
+            "But",
+            "After doing",
+            "Before doing"
+          ],
+          "ans": "After doing",
+          "hint": "-고 나서 = after doing/finishing."
+        },
+        {
+          "type": "mc",
+          "q": "-고 vs -고 나서:",
+          "opts": [
+            "Same meaning",
+            "고 나서 emphasizes completion before next action",
+            "-고 나서 is past tense only",
+            "-고 is more formal"
+          ],
+          "ans": "고 나서 emphasizes completion before next action",
+          "hint": "-고 = loose 'and.' -고 나서 = 'after finishing X, then Y.'"
+        },
+        {
+          "type": "mc",
+          "q": "-고 있다 is a ___ for Unit 11:",
+          "opts": [
+            "Review",
+            "Replacement",
+            "JRTF seed",
+            "Final test"
+          ],
+          "ans": "JRTF seed",
+          "hint": "⚡ JRTF: Formally named in Unit 11."
+        },
+        {
+          "type": "mc",
+          "q": "Which sentence means 'I'm studying right now'?",
+          "opts": [
+            "공부하고 있어요",
+            "공부했어요",
+            "공부할 거예요",
+            "공부하고 나서"
+          ],
+          "ans": "공부하고 있어요",
+          "hint": "-고 있다 = is doing now. 공부하고 있어요 = am studying."
+        },
+        {
+          "type": "fb",
+          "s": "밥을 먹___ 나서 커피를 마셨어요. (After eating, I drank coffee.)",
+          "a": "고",
+          "opts": [
+            "고",
+            "어",
+            "으면",
+            "아서"
+          ],
+          "hint": "-고 나서 = after doing. 먹 + 고 나서."
+        },
+        {
+          "type": "fb",
+          "s": "지금 한국어를 공부___ 있어요. (I'm studying Korean right now.)",
+          "a": "하고",
+          "opts": [
+            "하고",
+            "해서",
+            "하면",
+            "하지만"
+          ],
+          "hint": "-고 있다 = progressive. 공부하 + 고 있어요."
+        },
+        {
+          "type": "fb",
+          "s": "씻___ 나서 밥을 먹어요. (After washing, I eat.)",
+          "a": "고",
+          "opts": [
+            "고",
+            "어서",
+            "으면",
+            "지만"
+          ],
+          "hint": "씻다 + 고 나서 = after washing."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "먹고 있어요",
+              "en": "is eating (now)"
+            },
+            {
+              "nl": "먹고 나서",
+              "en": "after eating"
+            },
+            {
+              "nl": "먹고 싶어요",
+              "en": "want to eat"
+            },
+            {
+              "nl": "먹고 마셨어요",
+              "en": "ate and drank"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "지금 뭐 {1} 있어요? 밥을 {2} 있어요. 먹{3} 나서 공부할 거예요.",
+          "blanks": {
+            "1": "하고",
+            "2": "먹고",
+            "3": "고"
+          },
+          "pool": [
+            "하고",
+            "먹고",
+            "고",
+            "해서",
+            "먹어서",
+            "어서"
+          ],
+          "hint": "What are you doing now? I'm eating. After eating I'll study."
+        },
+        {
+          "type": "mc",
+          "q": "일어나고 나서 씻어요 means:",
+          "opts": [
+            "Before waking up, I wash",
+            "After waking up, I wash",
+            "While waking up, I wash",
+            "I don't want to wash"
+          ],
+          "ans": "After waking up, I wash",
+          "hint": "-고 나서 = after doing. Wake up → then → wash."
+        },
+        {
+          "type": "mc",
+          "q": "공부하고 있어요 — which tense?",
+          "opts": [
+            "Past",
+            "Future",
+            "Present progressive",
+            "Conditional"
+          ],
+          "ans": "Present progressive",
+          "hint": "-고 있다 = is doing right now = present progressive."
+        },
+        {
+          "type": "fb",
+          "s": "지금 전화___ 있어요. 나중에 다시 전화할게요. (I'm on the phone right now. I'll call back later.)",
+          "a": "하고",
+          "opts": [
+            "하고",
+            "해서",
+            "하면",
+            "하지만"
+          ],
+          "hint": "-고 있다 = progressive. 전화하고 있어요 = on the phone right now."
+        }
+      ]
+    },
+    {
+      "id": "kou9l7",
+      "title": "★ 불규칙: ㄹ과 으",
+      "icon": "⚡",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Two More Irregular Patterns",
+          "desc": "You conquered ㄷ and ㅂ irregulars in Unit 7.\n\nNow: ㄹ-irregular and 으-irregular.\n\nThese are the seeds planted in Unit 6 Lesson 5.\nYou've been using some of these without knowing the rule.\nNow they get their names.",
+          "goals": [
+            "Name the ㄹ-irregular pattern (ㄹ drops before certain consonants)",
+            "Name the 으-irregular pattern (ㅡ drops before vowel endings)",
+            "Apply both to present, past, and future",
+            "Know which common verbs belong to each"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "ㄹ-불규칙",
+          "en": "ㄹ-irregular: ㄹ drops before ㄴ, ㅂ, ㅅ",
+          "example": "알다 → 아는, 압니다, 아세요",
+          "exampleEn": "to know → knowing, know (formal), do you know?",
+          "note": "THE RULE: When a ㄹ-stem meets ㄴ, ㅂ, or ㅅ, the ㄹ drops.\n\n알다 (to know):\n알 + ㄴ → 아는 (not 알는) — modifier\n알 + ㅂ니다 → 압니다 (not 알ㅂ니다) — 합쇼체\n알 + 세요 → 아세요 (not 알세요) — honorific\n\nBUT ㄹ stays before other consonants:\n알 + 고 = 알고 ✓ (ㅈ, ㄱ, ㄷ, etc. → ㄹ stays)\n알 + 면 = 알면 ✓\n알 + 거예요 = 알 거예요 ✓",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "살다 → 사는 / 삽니다",
+          "en": "to live",
+          "example": "서울에 사는 사람이 많아요.",
+          "exampleEn": "There are many people living in Seoul.",
+          "note": "살다: ㄹ-irregular.\n\n살 + ㄴ → 사는 (modifier: living)\n살 + ㅂ니다 → 삽니다 (합쇼체)\n살 + 세요 → 사세요 (honorific: please live/lives)\n\nBUT:\n살 + 고 = 살고 ✓\n살 + 면 = 살면 ✓\n살 + 았어요 = 살았어요 ✓\n살 + 거예요 = 살 거예요 ✓",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "만들다 / 열다 / 팔다",
+          "en": "to make / to open / to sell",
+          "example": "문을 여세요.",
+          "exampleEn": "Please open the door.",
+          "note": "More ㄹ-irregulars:\n\n만들다 (make): 만드는, 만듭니다, 만드세요\n열다 (open): 여는, 엽니다, 여세요\n팔다 (sell): 파는, 팝니다, 파세요\n\nAll follow the same rule:\nㄹ drops before ㄴ, ㅂ, ㅅ.\n\n문을 여세요: please open the door.\n문: door. 여세요: please open.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📋 ㄹ-Irregular Summary",
+          "text": "RULE: ㄹ drops before ㄴ, ㅂ, ㅅ.\n\n알다: 아는 / 압니다 / 아세요\n살다: 사는 / 삽니다 / 사세요\n만들다: 만드는 / 만듭니다 / 만드세요\n열다: 여는 / 엽니다 / 여세요\n팔다: 파는 / 팝니다 / 파세요\n놀다: 노는 / 놉니다 / 노세요\n\nㄹ STAYS before:\n-고: 알고, 살고, 만들고\n-면: 알면, 살면, 만들면\n-았/었어요: 알았어요, 살았어요\n-(으)ㄹ 거예요: 알 거예요, 살 거예요\n\nMnemonic: ㄹ is shy around ㄴ, ㅂ, ㅅ.\n(These three consonants make ㄹ hide.)"
+        },
+        {
+          "type": "teach",
+          "nl": "으-불규칙",
+          "en": "으-irregular: ㅡ drops before vowel endings",
+          "example": "쓰다 → 써요, 크다 → 커요",
+          "exampleEn": "to write → writes, to be big → is big",
+          "note": "THE RULE: When a ㅡ-stem meets a VOWEL ending (-아/어), the ㅡ drops.\n\n쓰다 (write): 쓰 + 어요 → ㅡ drops → 써요\n크다 (big): 크 + 어요 → ㅡ drops → 커요\n바쁘다 (busy): 바쁘 + 아요 → ㅡ drops → 바빠요\n예쁘다 (pretty): 예쁘 + 어요 → ㅡ drops → 예뻐요\n\nThe vowel harmony uses the PREVIOUS syllable:\n바쁘: previous syllable 바 has ㅏ (bright) → 아요 → 바빠요\n예쁘: previous syllable 예 has ㅖ (dark) → 어요 → 예뻐요",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "바쁘다 → 바빠요 / 바빴어요",
+          "en": "busy → is busy / was busy",
+          "example": "요즘 너무 바빠요.",
+          "exampleEn": "I'm so busy these days.",
+          "note": "바쁘다: 으-irregular.\n\n바쁘 + 아요 → ㅡ drops → 바빠요 (present)\n바쁘 + 았어요 → ㅡ drops → 바빴어요 (past)\n\nWhy 아 not 어? Look at PREVIOUS syllable:\n바 has ㅏ → bright → -아 ending → 바빠요.\n\n요즘: these days/lately.\n너무: too much/very.\n요즘 너무 바빠요 = I'm so busy these days.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "예쁘다 → 예뻐요 / 예뻤어요",
+          "en": "pretty → is pretty / was pretty",
+          "example": "꽃이 예뻐요.",
+          "exampleEn": "The flower is pretty.",
+          "note": "예쁘다: 으-irregular.\n\n예쁘 + 어요 → ㅡ drops → 예뻐요 (present)\n예쁘 + 었어요 → ㅡ drops → 예뻤어요 (past)\n\nWhy 어 not 아? Previous syllable:\n예 has ㅖ → dark → -어 ending → 예뻐요.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "알다 → 합쇼체 (ㄹ-irregular):",
+          "opts": [
+            "알습니다",
+            "압니다",
+            "알ㅂ니다",
+            "암니다"
+          ],
+          "ans": "압니다",
+          "hint": "ㄹ drops before ㅂ. 알 → 아 + ㅂ니다 = 압니다."
+        },
+        {
+          "type": "mc",
+          "q": "살다 → modifier form (ㄹ-irregular):",
+          "opts": [
+            "살는",
+            "사는",
+            "살은",
+            "사은"
+          ],
+          "ans": "사는",
+          "hint": "ㄹ drops before ㄴ. 살 → 사 + 는 = 사는."
+        },
+        {
+          "type": "mc",
+          "q": "바쁘다 → present (으-irregular):",
+          "opts": [
+            "바쁘어요",
+            "바빠요",
+            "바쁘아요",
+            "바뻐요"
+          ],
+          "ans": "바빠요",
+          "hint": "ㅡ drops. Previous syllable 바 = bright → 아. 바빠요."
+        },
+        {
+          "type": "mc",
+          "q": "예쁘다 → present (으-irregular):",
+          "opts": [
+            "예쁘어요",
+            "예빠요",
+            "예뻐요",
+            "예쁘아요"
+          ],
+          "ans": "예뻐요",
+          "hint": "ㅡ drops. Previous syllable 예 = dark → 어. 예뻐요."
+        },
+        {
+          "type": "mc",
+          "q": "ㄹ drops before which consonants?",
+          "opts": [
+            "ㄱ, ㄷ, ㅈ",
+            "ㄴ, ㅂ, ㅅ",
+            "All consonants",
+            "None — ㄹ never drops"
+          ],
+          "ans": "ㄴ, ㅂ, ㅅ",
+          "hint": "ㄹ is shy around ㄴ, ㅂ, ㅅ. It hides."
+        },
+        {
+          "type": "mc",
+          "q": "크다 → past tense (으-irregular):",
+          "opts": [
+            "크었어요",
+            "컸어요",
+            "크았어요",
+            "켰어요"
+          ],
+          "ans": "컸어요",
+          "hint": "ㅡ drops. 크 is one syllable only → default 어. 커 + ㅆ어요 = 컸어요."
+        },
+        {
+          "type": "fb",
+          "s": "서울에 ___사람이 많아요. (Many people living in Seoul.)",
+          "a": "사는",
+          "opts": [
+            "사는",
+            "살는",
+            "살은",
+            "사은"
+          ],
+          "hint": "살다: ㄹ drops before ㄴ. 사 + 는 = 사는."
+        },
+        {
+          "type": "fb",
+          "s": "요즘 너무 ___. (I'm so busy these days.)",
+          "a": "바빠요",
+          "opts": [
+            "바빠요",
+            "바쁘어요",
+            "바쁘아요",
+            "바뻐요"
+          ],
+          "hint": "바쁘다: ㅡ drops. 바 = bright → 아. 바빠요."
+        },
+        {
+          "type": "fb",
+          "s": "문을 ___. (Please open the door.)",
+          "a": "여세요",
+          "opts": [
+            "여세요",
+            "열세요",
+            "열으세요",
+            "여르세요"
+          ],
+          "hint": "열다: ㄹ drops before ㅅ. 열 → 여 + 세요 = 여세요."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "압니다",
+              "en": "I know (formal)"
+            },
+            {
+              "nl": "바빠요",
+              "en": "is busy"
+            },
+            {
+              "nl": "사는",
+              "en": "living (modifier)"
+            },
+            {
+              "nl": "싶어해요",
+              "en": "wants to (3rd person)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kou9l8",
+      "title": "-고 싶어하다",
+      "icon": "👥",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Third Person Want — The Trap",
+          "desc": "You know -고 싶어요: 'I want to.'\n\nBut what about 'HE wants to'?\n\nIn Korean, you can't say what someone ELSE wants using -고 싶어요.\nYou need -고 싶어하다.\n\nThis is one of the trickiest grammar points for foreigners.",
+          "goals": [
+            "Understand why -고 싶다 is 1st person only",
+            "Learn -고 싶어하다 for 3rd person",
+            "See the 하다 suffix for external observation",
+            "Preview for full treatment in Unit 15"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "-고 싶다 (1st person)",
+          "en": "I want to...",
+          "example": "저는 한국에 가고 싶어요.",
+          "exampleEn": "I want to go to Korea.",
+          "note": "-고 싶다: I want to.\n\nYou learned this in Unit 4.\n먹고 싶어요: I want to eat.\n가고 싶어요: I want to go.\n\nWhy is this 1ST PERSON ONLY?\nBecause -고 싶다 describes an INTERNAL feeling.\nYou can know YOUR feelings, but you can't directly state someone else's.\n\n저는 가고 싶어요. ✓ (I know my desire)\n그 사람은 가고 싶어요. ✗ (How do you know their desire?)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "-고 싶어하다 (3rd person)",
+          "en": "he/she wants to...",
+          "example": "그 사람은 한국에 가고 싶어해요.",
+          "exampleEn": "That person wants to go to Korea.",
+          "note": "-고 싶어하다: he/she wants to.\n\n싶어하다: shows external OBSERVATION of someone's desire.\n하다 suffix = 'shows/acts like' (external behavior).\n\n1st person: 가고 싶어요 (I feel I want to go)\n3rd person: 가고 싶어해요 (I observe they want to go)\n\n그 사람은 한국에 가고 싶어해요.\n= That person wants to go to Korea.\n(I can see/know this from their behavior.)",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📋 The Internal/External Rule",
+          "text": "Korean distinguishes INTERNAL vs EXTERNAL feelings:\n\nINTERNAL (1st person) — I feel it:\n가고 싶어요 (I want to go)\n아파요 (I hurt)\n좋아요 (I like it/it's good)\n\nEXTERNAL (3rd person) — I observe it:\n가고 싶어해요 (they want to go)\n아파해요 (they seem to be in pain)\n좋아해요 (they like it)\n\nThe -하다 suffix shifts from FEELING to OBSERVING.\n\n⚡ JRTF: Full exploration in Unit 15.\nThis is a deep topic — for now, just know the 3rd person rule.\nWhen you talk about someone ELSE's desires, add -하다.\n\n저는 커피를 좋아해요 is an exception:\n좋아하다 is ALREADY the externalized form.\nFor 1st person feelings: 커피가 좋아요."
+        },
+        {
+          "type": "mc",
+          "q": "'I want to eat' — correct:",
+          "opts": [
+            "먹고 싶어요",
+            "먹고 싶어해요",
+            "먹고 싶었어요",
+            "먹고 싶어하다"
+          ],
+          "ans": "먹고 싶어요",
+          "hint": "1st person feelings → -고 싶어요 (internal)."
+        },
+        {
+          "type": "mc",
+          "q": "'She wants to eat' — correct:",
+          "opts": [
+            "먹고 싶어요",
+            "먹고 싶어해요",
+            "먹고 싶었어요",
+            "먹고 싶다"
+          ],
+          "ans": "먹고 싶어해요",
+          "hint": "3rd person → -고 싶어하다. 먹고 싶어해요."
+        },
+        {
+          "type": "mc",
+          "q": "Why can't you say 그 사람은 가고 싶어요?",
+          "opts": [
+            "It's grammatically wrong always",
+            "You can't directly state someone else's internal feelings",
+            "-고 싶다 is past tense",
+            "It sounds rude"
+          ],
+          "ans": "You can't directly state someone else's internal feelings",
+          "hint": "Korean: internal feelings = 1st person only. 3rd person needs -하다."
+        },
+        {
+          "type": "mc",
+          "q": "-고 싶어하다 adds -하다 because:",
+          "opts": [
+            "It's more polite",
+            "It shifts from feeling to external observation",
+            "It makes it future tense",
+            "It's formal speech"
+          ],
+          "ans": "It shifts from feeling to external observation",
+          "hint": "-하다 = external action/behavior. You're observing, not feeling."
+        },
+        {
+          "type": "mc",
+          "q": "This lesson is a ___ for Unit 15:",
+          "opts": [
+            "Complete lesson",
+            "JRTF seed",
+            "Test",
+            "Review"
+          ],
+          "ans": "JRTF seed",
+          "hint": "⚡ JRTF: Full treatment in Unit 15 Lesson 7."
+        },
+        {
+          "type": "fb",
+          "s": "저는 한국에 가고 ___. (I want to go to Korea.)",
+          "a": "싶어요",
+          "opts": [
+            "싶어요",
+            "싶어해요",
+            "싶어하다",
+            "싶어했어요"
+          ],
+          "hint": "1st person → -고 싶어요."
+        },
+        {
+          "type": "fb",
+          "s": "그 사람은 한국에 가고 ___. (That person wants to go to Korea.)",
+          "a": "싶어해요",
+          "opts": [
+            "싶어해요",
+            "싶어요",
+            "싶어하다",
+            "싶은"
+          ],
+          "hint": "3rd person → -고 싶어해요."
+        },
+        {
+          "type": "fb",
+          "s": "동생이 아이스크림을 먹고 ___. (My younger sibling wants to eat ice cream.)",
+          "a": "싶어해요",
+          "opts": [
+            "싶어해요",
+            "싶어요",
+            "싶다",
+            "싶어"
+          ],
+          "hint": "3rd person (동생) → -고 싶어해요."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "가고 싶어요",
+              "en": "I want to go (1st)"
+            },
+            {
+              "nl": "가고 싶어해요",
+              "en": "they want to go (3rd)"
+            },
+            {
+              "nl": "먹고 싶어요",
+              "en": "I want to eat (1st)"
+            },
+            {
+              "nl": "먹고 싶어해요",
+              "en": "they want to eat (3rd)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 커피를 마시고 {1}. 친구는 주스를 마시고 {2}.",
+          "blanks": {
+            "1": "싶어요",
+            "2": "싶어해요"
+          },
+          "pool": [
+            "싶어요",
+            "싶어해요",
+            "싶어하다",
+            "싶었어요"
+          ],
+          "hint": "I want to drink coffee. My friend wants to drink juice."
+        },
+        {
+          "type": "mc",
+          "q": "Korean has the internal/external distinction because:",
+          "opts": [
+            "It's random",
+            "Korean culture values not assuming others' feelings",
+            "It's easier that way",
+            "Only Korean does this"
+          ],
+          "ans": "Korean culture values not assuming others' feelings",
+          "hint": "Korean linguistic culture: you can speak your own feelings, but observe others' externally."
+        },
+        {
+          "type": "mc",
+          "q": "엄마가 한국 음식을 먹고 ___. (Mom wants to eat Korean food.)",
+          "opts": [
+            "싶어요",
+            "싶어해요",
+            "싶다",
+            "싶어하다"
+          ],
+          "ans": "싶어해요",
+          "hint": "엄마 = 3rd person → -고 싶어해요."
+        },
+        {
+          "type": "fb",
+          "s": "저는 여행하고 ___. 친구도 여행하고 ___. (I want to travel. My friend also wants to travel.)",
+          "a": "싶어요",
+          "opts": [
+            "싶어요",
+            "싶어해요",
+            "싶다",
+            "싶어하다"
+          ],
+          "hint": "First blank: 1st person → 싶어요. Second blank... 3rd person → 싶어해요."
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 커피를 마시고 {1}. 동생은 주스를 마시고 {2}. 엄마는 차를 마시고 {3}.",
+          "blanks": {
+            "1": "싶어요",
+            "2": "싶어해요",
+            "3": "싶어해요"
+          },
+          "pool": [
+            "싶어요",
+            "싶어해요",
+            "싶다",
+            "싶어하다",
+            "싶어했어요"
+          ],
+          "hint": "I want to drink coffee. My sibling wants juice. Mom wants tea. (1st → 싶어요, 3rd → 싶어해요)"
+        }
+      ]
+    },
+    {
+      "id": "kou9l9",
+      "title": "복습 + 퀴즈",
+      "icon": "📝",
+      "xp": 30,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 9 Complete — Future Tense & Speech Levels",
+          "desc": "You've unlocked:\n\n• Future tense (-(으)ㄹ 거예요)\n• -아/어서 cause and sequence (with imperative restriction)\n• ★ Three speech levels (해요체/합쇼체/반말)\n• Plans vocabulary and dialogue\n• -고 있다 and -고 나서\n• ★ ㄹ and 으 irregular families\n• -고 싶어하다 (3rd person want)\n\nAlmost done with A2!",
+          "goals": [
+            "Verify future tense mastery",
+            "Test speech level knowledge",
+            "Confirm irregular verb patterns",
+            "Demonstrate plan-making ability"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "가다 → future:",
+          "opts": [
+            "갈 거예요",
+            "가을 거예요",
+            "간 거예요",
+            "가는 거예요"
+          ],
+          "ans": "갈 거예요",
+          "hint": "Vowel stem + ㄹ 거예요. 갈 거예요."
+        },
+        {
+          "type": "mc",
+          "q": "먹다 → 합쇼체:",
+          "opts": [
+            "먹어요",
+            "먹습니다",
+            "먹ㅂ니다",
+            "먹읍니다"
+          ],
+          "ans": "먹습니다",
+          "hint": "Consonant stem + 습니다. 먹습니다."
+        },
+        {
+          "type": "mc",
+          "q": "살다 → modifier (ㄹ-irregular):",
+          "opts": [
+            "살는",
+            "사는",
+            "살은",
+            "사은"
+          ],
+          "ans": "사는",
+          "hint": "ㄹ drops before ㄴ. 살 → 사는."
+        },
+        {
+          "type": "mc",
+          "q": "바쁘다 → present (으-irregular):",
+          "opts": [
+            "바빠요",
+            "바쁘어요",
+            "바쁘아요",
+            "바뻐요"
+          ],
+          "ans": "바빠요",
+          "hint": "ㅡ drops. Previous syllable ㅏ = bright → 아. 바빠요."
+        },
+        {
+          "type": "mc",
+          "q": "'She wants to go' — correct form:",
+          "opts": [
+            "가고 싶어요",
+            "가고 싶어해요",
+            "가고 싶다",
+            "간 싶어요"
+          ],
+          "ans": "가고 싶어해요",
+          "hint": "3rd person → -고 싶어해요."
+        },
+        {
+          "type": "mc",
+          "q": "배가 고파서 밥 먹자! — This is:",
+          "opts": [
+            "Correct Korean",
+            "Wrong: -아/어서 can't be followed by suggestions",
+            "Only used in formal speech",
+            "A question"
+          ],
+          "ans": "Wrong: -아/어서 can't be followed by suggestions",
+          "hint": "-아/어서 + imperative/suggestion = WRONG."
+        },
+        {
+          "type": "mc",
+          "q": "지금 공부하고 있어요. -고 있다 means:",
+          "opts": [
+            "Finished studying",
+            "Is studying right now",
+            "Will study",
+            "Wants to study"
+          ],
+          "ans": "Is studying right now",
+          "hint": "-고 있다 = progressive (is doing right now)."
+        },
+        {
+          "type": "mc",
+          "q": "반말 is used with:",
+          "opts": [
+            "Strangers",
+            "Your boss",
+            "Close friends your age or younger",
+            "Everyone"
+          ],
+          "ans": "Close friends your age or younger",
+          "hint": "반말 only with close friends same age/younger. Never strangers/elders."
+        },
+        {
+          "type": "mc",
+          "q": "약속이 있거든요. -거든요 means:",
+          "opts": [
+            "If you have",
+            "Because you have",
+            "You see, (I have)",
+            "When you have"
+          ],
+          "ans": "You see, (I have)",
+          "hint": "-거든요 = the reason is / you see."
+        },
+        {
+          "type": "fb",
+          "s": "내일 영화를 ___ 거예요. (I'm going to watch a movie tomorrow.)",
+          "a": "볼",
+          "opts": [
+            "볼",
+            "본",
+            "보는",
+            "봐"
+          ],
+          "hint": "보다 → 볼 거예요."
+        },
+        {
+          "type": "fb",
+          "s": "가다 → 합쇼체: ___니다.",
+          "a": "갑",
+          "opts": [
+            "갑",
+            "가습",
+            "간",
+            "갈"
+          ],
+          "hint": "가: vowel stem + ㅂ니다 = 갑니다."
+        },
+        {
+          "type": "fb",
+          "s": "밥을 먹___ 나서 커피를 마셨어요. (After eating, I drank coffee.)",
+          "a": "고",
+          "opts": [
+            "고",
+            "어서",
+            "으면",
+            "지만"
+          ],
+          "hint": "-고 나서 = after doing."
+        },
+        {
+          "type": "fb",
+          "s": "열다 → 여세요 (please open). ㄹ drops before:",
+          "a": "ㅅ",
+          "opts": [
+            "ㅅ",
+            "ㄱ",
+            "ㄷ",
+            "ㅈ"
+          ],
+          "hint": "ㄹ drops before ㄴ, ㅂ, ㅅ. 열 + 세요 → 여세요."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "갈 거예요",
+              "en": "will go"
+            },
+            {
+              "nl": "갑니다",
+              "en": "go (formal)"
+            },
+            {
+              "nl": "가",
+              "en": "go (casual)"
+            },
+            {
+              "nl": "가고 있어요",
+              "en": "is going (now)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "내일 친구를 {1} 거예요. 같이 영화를 {2} 거예요. 밥을 먹{3} 나서 카페에 {4} 거예요.",
+          "blanks": {
+            "1": "만날",
+            "2": "볼",
+            "3": "고",
+            "4": "갈"
+          },
+          "pool": [
+            "만날",
+            "볼",
+            "고",
+            "갈",
+            "만난",
+            "본",
+            "어서",
+            "간"
+          ],
+          "hint": "Tomorrow I'll meet a friend. We'll watch a movie. After eating we'll go to a café."
+        },
+        {
+          "type": "tip",
+          "title": "🎉 Unit 9 Complete",
+          "text": "What you can do now:\n\n✅ Talk about the future: -(으)ㄹ 거예요\n✅ Use all three speech levels (해요체/합쇼체/반말)\n✅ Make, accept, and decline plans\n✅ Handle ㄹ and 으 irregular verbs\n✅ Use -아/어서 correctly (with imperative restriction)\n✅ Express progressive actions (-고 있다)\n✅ Sequence with -고 나서 (after doing)\n\nOne more unit to go for A2!\n\nUnit 10: 한국 생활\nDaily routine, home vocabulary, 반말 production,\n편의점 and 배달 culture.\n\n거의 다 왔어요! (You're almost there!)"
+        },
+        {
+          "type": "mc",
+          "q": "The Train now has ___ tense cars + other grammar cars:",
+          "opts": [
+            "One",
+            "Two (past + future)",
+            "Three",
+            "Zero"
+          ],
+          "ans": "Two (past + future)",
+          "hint": "Past: 았/었/했. Future: -(으)ㄹ 거. Plus conditional, ability, etc."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 3,
+    "lang": "de",
+    "title": "Zahlen",
+    "sub": "Count from 0 to 100 in German — essential for shopping, telling time, and everyday life.",
+    "level": "A1.1"
+  },
+  "lessons": [
+    {
+      "id": "de_u3l1",
+      "title": "Zahlen 0–10 🔢",
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Numbers 0–10 🔢",
+          "desc": "German numbers are very close to English — they share Germanic roots. Let's start counting!",
+          "goals": [
+            "Count from 0 to 10",
+            "Pronunciation of German numbers",
+            "Use numbers in simple sentences"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "null",
+          "en": "zero",
+          "img": "0️⃣",
+          "phonetic": "nool",
+          "example": "Es ist null Grad.",
+          "exampleEn": "It is zero degrees.",
+          "note": "Same word as in Dutch! Used for temperatures, scores, and phone numbers.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "eins",
+          "en": "one",
+          "img": "1️⃣",
+          "phonetic": "ayns",
+          "example": "Ich habe einen Hund.",
+          "exampleEn": "I have one dog.",
+          "note": "'Eins' when counting, but 'ein/eine/einen' in sentences — it changes with gender! Don't worry about that yet.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zwei",
+          "en": "two",
+          "img": "2️⃣✌️",
+          "phonetic": "tsvay",
+          "example": "Zwei Kaffee, bitte.",
+          "exampleEn": "Two coffees, please.",
+          "note": "Very close to English 'two'. On the phone, Germans often say 'zwo' instead to avoid confusion with 'drei'.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "drei",
+          "en": "three",
+          "img": "3️⃣",
+          "phonetic": "dry",
+          "example": "Drei Kinder spielen.",
+          "exampleEn": "Three children are playing.",
+          "note": "Almost identical to Dutch 'drie'. The German 'r' can be guttural (throat) or rolled.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🔊 Numbers 1–3: Sound comparison",
+          "text": "German numbers are close to English AND Dutch:\n\n1 — eins (ayns) — cf. English 'one', Dutch 'een'\n2 — zwei (tsvay) — cf. English 'two', Dutch 'twee'\n3 — drei (dry) — cf. English 'three', Dutch 'drie'\n\nThe 'z' in 'zwei' sounds like 'ts'. The 'ei' in German ALWAYS sounds like English 'eye'."
+        },
+        {
+          "type": "teach",
+          "nl": "vier",
+          "en": "four",
+          "img": "4️⃣",
+          "phonetic": "feer",
+          "example": "Vier Jahreszeiten.",
+          "exampleEn": "Four seasons.",
+          "note": "Sounds like English 'fear'. Identical to Dutch 'vier'!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "fünf",
+          "en": "five",
+          "img": "5️⃣",
+          "phonetic": "fuunf",
+          "example": "Fünf Finger.",
+          "exampleEn": "Five fingers.",
+          "note": "The umlaut 'ü' is key — round your lips like saying 'oo' but try to say 'ee'. Dutch 'vijf' is quite different here.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "sechs",
+          "en": "six",
+          "img": "6️⃣",
+          "phonetic": "zeks",
+          "example": "Sechs Eier, bitte.",
+          "exampleEn": "Six eggs, please.",
+          "note": "The 'ch' after 'se' makes a soft 'ks' sound. Like English 'six' with a 'z' start.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "sieben",
+          "en": "seven",
+          "img": "7️⃣",
+          "phonetic": "ZEE-ben",
+          "example": "Sieben Tage in der Woche.",
+          "exampleEn": "Seven days in the week.",
+          "note": "Close to English 'seven'. Dutch 'zeven' is almost the same!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "acht",
+          "en": "eight",
+          "img": "8️⃣",
+          "phonetic": "ahkht",
+          "example": "Um acht Uhr.",
+          "exampleEn": "At eight o'clock.",
+          "note": "The 'ch' is the guttural German sound. Same word in Dutch!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "neun",
+          "en": "nine",
+          "img": "9️⃣",
+          "phonetic": "noyn",
+          "example": "Neun Leben hat die Katze.",
+          "exampleEn": "A cat has nine lives.",
+          "note": "The 'eu' in German always sounds like 'oy'. Dutch 'negen' is quite different.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zehn",
+          "en": "ten",
+          "img": "🔟",
+          "phonetic": "tsayn",
+          "example": "Zehn Euro, bitte.",
+          "exampleEn": "Ten euros, please.",
+          "note": "Starts with 'ts' like 'zwei'. Dutch 'tien' sounds different but same root.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'five' in German?",
+          "opts": [
+            "vier",
+            "fünf",
+            "sechs",
+            "drei"
+          ],
+          "ans": "fünf",
+          "hint": "It has an umlaut (ü)"
+        },
+        {
+          "type": "mc",
+          "q": "What is 'acht' in English?",
+          "opts": [
+            "six",
+            "seven",
+            "eight",
+            "nine"
+          ],
+          "ans": "eight",
+          "hint": "Same word in Dutch!"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "num_three",
+            "num_seven",
+            "num_nine",
+            "num_five"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de_u3l2",
+      "title": "Zahlen 11–20 🔢",
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Numbers 11–20 🔢",
+          "desc": "The teens in German have a twist — from 13 onward, the ones digit comes FIRST! 'Dreizehn' = three-ten.",
+          "goals": [
+            "Count from 11 to 20",
+            "Understand the reversed number pattern",
+            "Practice pronunciation"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "elf",
+          "en": "eleven",
+          "img": "1️⃣1️⃣",
+          "phonetic": "elf",
+          "example": "Elf Spieler pro Team.",
+          "exampleEn": "Eleven players per team.",
+          "note": "Same in Dutch and German! One of the easiest numbers.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zwölf",
+          "en": "twelve",
+          "img": "1️⃣2️⃣",
+          "phonetic": "tsvuulf",
+          "example": "Zwölf Monate im Jahr.",
+          "exampleEn": "Twelve months in the year.",
+          "note": "The 'ö' is pronounced by rounding lips for 'o' while saying 'e'. Dutch 'twaalf' sounds quite different.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "dreizehn",
+          "en": "thirteen",
+          "img": "1️⃣3️⃣",
+          "phonetic": "DRY-tsayn",
+          "example": "Er ist dreizehn Jahre alt.",
+          "exampleEn": "He is thirteen years old.",
+          "note": "From here the pattern starts: drei + zehn = dreizehn. The ones come FIRST, just like English 'thir-teen'!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "vierzehn",
+          "en": "fourteen",
+          "img": "1️⃣4️⃣",
+          "phonetic": "FEER-tsayn",
+          "example": "Vierzehn Tage Urlaub.",
+          "exampleEn": "Fourteen days of vacation.",
+          "note": "Vier + zehn. 'Vierzehn Tage' is a common expression for two weeks!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "zwanzig",
+          "en": "twenty",
+          "img": "2️⃣0️⃣",
+          "phonetic": "TSVAN-tsig",
+          "example": "Ich bin zwanzig Jahre alt.",
+          "exampleEn": "I am twenty years old.",
+          "note": "Note: -zig ending for tens (like English '-ty'). The 'z' = 'ts' as always.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🔢 The teen pattern",
+          "text": "German teens follow a clear pattern (just like English!):\n\n13 — dreizehn (drei + zehn)\n14 — vierzehn (vier + zehn)\n15 — fünfzehn (fünf + zehn)\n16 — sechzehn (note: sechs drops the 's'!)\n17 — siebzehn (note: sieben drops the 'en'!)\n18 — achtzehn (acht + zehn)\n19 — neunzehn (neun + zehn)\n\n⚠️ Watch out for 16 and 17 — they lose letters!\nsechs → sechzehn (not 'sechszehn')\nsieben → siebzehn (not 'siebenzehn')"
+        },
+        {
+          "type": "mc",
+          "q": "What is 'sechzehn' in English?",
+          "opts": [
+            "fifteen",
+            "sixteen",
+            "seventeen",
+            "eighteen"
+          ],
+          "ans": "sixteen",
+          "hint": "Sechs (six) + zehn (ten), but sechs loses the 's'"
+        },
+        {
+          "type": "fb",
+          "s": "Er ist _____ Jahre alt.",
+          "a": "dreizehn",
+          "opts": [
+            "dreizehn",
+            "dreißig",
+            "drei",
+            "zwanzig"
+          ],
+          "hint": "He is 13 years old"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_she_is_thirteen",
+          "dir": "comprehend"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "num_eleven",
+            "num_twelve",
+            "num_fourteen",
+            "num_twenty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de_u3l3",
+      "title": "Große Zahlen 💯",
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Tens & Big Numbers 💯",
+          "desc": "German has a FAMOUS number quirk — ones come before tens! '25' = fünfundzwanzig (five-and-twenty).",
+          "goals": [
+            "Tens: 20, 30, 40... 100",
+            "The reversed ones+tens pattern",
+            "Use numbers confidently"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "dreißig",
+          "en": "thirty",
+          "img": "3️⃣0️⃣",
+          "phonetic": "DRY-sig",
+          "example": "Sie ist dreißig.",
+          "exampleEn": "She is thirty.",
+          "note": "Uses 'ß' (Eszett). The '-ßig' ending is unique to 30. All other tens use '-zig'.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "vierzig",
+          "en": "forty",
+          "img": "4️⃣0️⃣",
+          "phonetic": "FEER-tsig",
+          "example": "Vierzig Euro.",
+          "exampleEn": "Forty euros.",
+          "note": "Vier + zig. Regular pattern from here!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "fünfzig",
+          "en": "fifty",
+          "img": "5️⃣0️⃣",
+          "phonetic": "FUUNF-tsig",
+          "example": "Fünfzig Prozent.",
+          "exampleEn": "Fifty percent.",
+          "note": "Fünf + zig. The umlaut stays.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "hundert",
+          "en": "one hundred",
+          "img": "💯",
+          "phonetic": "HOON-dert",
+          "example": "Hundert Prozent!",
+          "exampleEn": "One hundred percent!",
+          "note": "Very close to English 'hundred'. Dutch 'honderd' is nearly identical.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🔄 The German number flip!",
+          "text": "This is Germany's FAMOUS number quirk:\n\n25 = fünf·und·zwanzig (five and twenty)\n38 = acht·und·dreißig (eight and thirty)\n47 = sieben·und·vierzig (seven and forty)\n99 = neun·und·neunzig (nine and ninety)\n\nAlways: ONES + und + TENS\n\nThis takes getting used to! When you hear a phone number, the digits come in reversed pairs.\n\nFun fact: This is actually the OLD English way too — think of the nursery rhyme 'four-and-twenty blackbirds'!"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say '25' in German?",
+          "opts": [
+            "zwanzigfünf",
+            "fünfundzwanzig",
+            "fünfzwanzig",
+            "zweiundvierzig"
+          ],
+          "ans": "fünfundzwanzig",
+          "hint": "Five-and-twenty (ones first!)"
+        },
+        {
+          "type": "fb",
+          "s": "99 = neun·und·_____",
+          "a": "neunzig",
+          "opts": [
+            "neunzig",
+            "neunzehn",
+            "neun",
+            "hundert"
+          ],
+          "hint": "Ninety = neun + zig"
+        },
+        {
+          "type": "tr",
+          "mk": "u3_hundred_percent",
+          "dir": "comprehend"
+        },
+        {
+          "type": "mc",
+          "q": "What is 'siebenundvierzig' (47)?",
+          "opts": [
+            "74",
+            "47",
+            "37",
+            "57"
+          ],
+          "ans": "47",
+          "hint": "sieben (7) + und + vierzig (40)"
+        }
+      ]
+    }
+  ]
+}

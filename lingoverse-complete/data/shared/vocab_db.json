@@ -1,0 +1,306 @@
+{
+  "_schema": "lingoverse_vocab_db_v1",
+  "_extracted": "2026-03-07",
+  "data": {
+    "v_wakker_worden": {
+      "word": "wakker worden",
+      "type": "verb",
+      "translation": "to wake up",
+      "phonetic": "VAH-kur VOR-dun",
+      "examples": [
+        {
+          "nl": "Ik word om 7 uur wakker.",
+          "en": "I wake up at 7."
+        }
+      ],
+      "note": "Separable verb",
+      "img": "⏰"
+    },
+    "v_opstaan": {
+      "word": "opstaan",
+      "type": "verb",
+      "translation": "to get up",
+      "phonetic": "op-STAHN",
+      "examples": [
+        {
+          "nl": "Ik sta om 7 uur op.",
+          "en": "I get up at 7."
+        }
+      ],
+      "note": "Separable verb",
+      "img": "🛌"
+    },
+    "v_douchen": {
+      "word": "douchen",
+      "type": "verb",
+      "translation": "to shower",
+      "phonetic": "DOO-shun",
+      "examples": [
+        {
+          "nl": "Ik douche elke ochtend.",
+          "en": "I shower every morning."
+        }
+      ],
+      "note": "Regular verb",
+      "img": "🚿"
+    },
+    "v_aankleden": {
+      "word": "aankleden",
+      "type": "verb",
+      "translation": "to get dressed",
+      "phonetic": "AHN-klay-dun",
+      "examples": [
+        {
+          "nl": "Ik kleed me aan.",
+          "en": "I get dressed."
+        }
+      ],
+      "note": "Separable verb",
+      "img": "👔"
+    },
+    "v_ontbijten": {
+      "word": "ontbijten",
+      "type": "verb",
+      "translation": "to have breakfast",
+      "phonetic": "ONT-bay-tun",
+      "examples": [
+        {
+          "nl": "Ik ontbijt om 8 uur.",
+          "en": "I have breakfast at 8."
+        }
+      ],
+      "note": "Regular verb",
+      "img": "🍳"
+    },
+    "v_werken": {
+      "word": "werken",
+      "type": "verb",
+      "translation": "to work",
+      "phonetic": "VAIR-kun",
+      "examples": [
+        {
+          "nl": "Ik werk in Amsterdam.",
+          "en": "I work in Amsterdam."
+        }
+      ],
+      "note": "Regular verb",
+      "img": "💼"
+    },
+    "v_studeren": {
+      "word": "studeren",
+      "type": "verb",
+      "translation": "to study (university)",
+      "phonetic": "stoo-DAY-run",
+      "examples": [
+        {
+          "nl": "Ik studeer geneeskunde.",
+          "en": "I study medicine."
+        }
+      ],
+      "note": "University study",
+      "img": "📚"
+    },
+    "v_sporten": {
+      "word": "sporten",
+      "type": "verb",
+      "translation": "to exercise",
+      "phonetic": "SPOR-tun",
+      "examples": [
+        {
+          "nl": "Ik sport vaak.",
+          "en": "I exercise often."
+        }
+      ],
+      "note": "Regular verb",
+      "img": "🏃"
+    },
+    "v_kijken": {
+      "word": "kijken",
+      "type": "verb",
+      "translation": "to watch, to look",
+      "phonetic": "KAY-kun",
+      "examples": [
+        {
+          "nl": "Ik kijk televisie.",
+          "en": "I watch television."
+        }
+      ],
+      "note": "Regular verb",
+      "img": "👀"
+    },
+    "v_lezen": {
+      "word": "lezen",
+      "type": "verb",
+      "translation": "to read",
+      "phonetic": "LAY-zun",
+      "examples": [
+        {
+          "nl": "Ik lees graag.",
+          "en": "I like to read."
+        }
+      ],
+      "note": "Irregular verb",
+      "img": "📖"
+    },
+    "v_slapen": {
+      "word": "slapen",
+      "type": "verb",
+      "translation": "to sleep",
+      "phonetic": "SLAH-pun",
+      "examples": [
+        {
+          "nl": "Ik slaap 8 uur.",
+          "en": "I sleep 8 hours."
+        }
+      ],
+      "note": "Irregular verb",
+      "img": "😴"
+    },
+    "n_bed": {
+      "word": "het bed",
+      "type": "noun",
+      "gender": "het",
+      "translation": "the bed",
+      "phonetic": "ut bet",
+      "examples": [
+        {
+          "nl": "Ik ga naar bed.",
+          "en": "I'm going to bed."
+        }
+      ],
+      "note": "Het-word",
+      "img": "🛏️"
+    },
+    "n_hoofd": {
+      "word": "het hoofd",
+      "type": "noun",
+      "gender": "het",
+      "translation": "the head",
+      "phonetic": "ut hohft",
+      "examples": [
+        {
+          "nl": "Mijn hoofd doet pijn.",
+          "en": "My head hurts."
+        }
+      ],
+      "note": "Het-word",
+      "img": "🗣️"
+    },
+    "n_oog": {
+      "word": "het oog",
+      "type": "noun",
+      "gender": "het",
+      "translation": "the eye",
+      "phonetic": "ut ohg",
+      "examples": [
+        {
+          "nl": "Blauwe ogen",
+          "en": "Blue eyes"
+        }
+      ],
+      "note": "Het-word",
+      "img": "👁️"
+    },
+    "n_oor": {
+      "word": "het oor",
+      "type": "noun",
+      "gender": "het",
+      "translation": "the ear",
+      "phonetic": "ut ohr",
+      "examples": [
+        {
+          "nl": "Mijn oor doet pijn.",
+          "en": "My ear hurts."
+        }
+      ],
+      "note": "Het-word",
+      "img": "👂"
+    },
+    "n_hand": {
+      "word": "de hand",
+      "type": "noun",
+      "gender": "de",
+      "translation": "the hand",
+      "phonetic": "duh hant",
+      "examples": [
+        {
+          "nl": "Geef me je hand.",
+          "en": "Give me your hand."
+        }
+      ],
+      "note": "De-word",
+      "img": "✋"
+    },
+    "n_voet": {
+      "word": "de voet",
+      "type": "noun",
+      "gender": "de",
+      "translation": "the foot",
+      "phonetic": "duh foot",
+      "examples": [
+        {
+          "nl": "Mijn voeten zijn moe.",
+          "en": "My feet are tired."
+        }
+      ],
+      "note": "De-word",
+      "img": "🦶"
+    },
+    "adv_altijd": {
+      "word": "altijd",
+      "type": "adverb",
+      "translation": "always",
+      "phonetic": "AL-tayt",
+      "examples": [
+        {
+          "nl": "Ik ben altijd moe.",
+          "en": "I'm always tired."
+        }
+      ],
+      "note": "100% frequency",
+      "img": "♾️"
+    },
+    "adv_vaak": {
+      "word": "vaak",
+      "type": "adverb",
+      "translation": "often",
+      "phonetic": "vahk",
+      "examples": [
+        {
+          "nl": "Ik sport vaak.",
+          "en": "I exercise often."
+        }
+      ],
+      "note": "60% frequency",
+      "img": "🔄"
+    },
+    "adv_soms": {
+      "word": "soms",
+      "type": "adverb",
+      "translation": "sometimes",
+      "phonetic": "soms",
+      "examples": [
+        {
+          "nl": "Soms ben ik moe.",
+          "en": "Sometimes I'm tired."
+        }
+      ],
+      "note": "40% frequency",
+      "img": "🔀"
+    },
+    "adv_nooit": {
+      "word": "nooit",
+      "type": "adverb",
+      "translation": "never",
+      "phonetic": "noyt",
+      "examples": [
+        {
+          "nl": "Ik rook nooit.",
+          "en": "I never smoke."
+        }
+      ],
+      "note": "0% frequency",
+      "img": "🚫"
+    }
+  }
+}

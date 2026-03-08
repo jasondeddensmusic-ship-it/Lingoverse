@@ -1,0 +1,2150 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 2,
+    "lang": "nl",
+    "track": "v2",
+    "title": "Who Am I?",
+    "sub": "Komen, Spreken, Wonen & Identity",
+    "icon": "🪪",
+    "level": "A1.1",
+    "color": "#3A9BE0"
+  },
+  "lessons": [
+    {
+      "id": "v2u2l1",
+      "title": "Ik kom uit...",
+      "icon": "🌍",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Ik kom uit...",
+          "desc": "Your first new verb since zijn and hebben. Learn all forms of 'komen' and say where you come from.",
+          "goals": [
+            "Every form of komen",
+            "4 countries",
+            "Say where you're from"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "komen",
+          "en": "to come",
+          "phonetic": "KOH-mun",
+          "example": "Ik kom uit Nederland.",
+          "exampleEn": "I come from the Netherlands.",
+          "note": "Full form: ko-men. The 'o' is long (like 'oh').\nYou'll hear why this matters for the ik-form.",
+          "deepDive": "Open syllable = ends in a vowel, not a consonant.\nko-men: 'ko' ends in vowel → long 'oh'.\nSingle 'o' is enough — the open syllable does the work.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "ik kom",
+          "en": "I come",
+          "phonetic": "ik kom",
+          "example": "Ik kom uit België.",
+          "exampleEn": "I come from Belgium.",
+          "note": "Short 'o' — just one letter, like English 'cot'.\nNOT 'koom'!",
+          "deepDive": "ko-men → ik kom.\nThe open syllable (ko-) became closed (kom).\nClosed syllable = ends in a consonant.\nShort vowel → single letter: one 'o'.\nThis is a SHORT-VOWEL verb: the base vowel is short.",
+          "fRef": "nl_spe_1",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "jij komt",
+          "en": "you come (informal)",
+          "phonetic": "yay komt",
+          "example": "Jij komt uit Duitsland.",
+          "exampleEn": "You come from Germany.",
+          "note": "In questions: 'Kom jij...?' — the -t drops.\nSame rule as 'Heb jij?' and 'Ben jij?'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "u komt",
+          "en": "you come (formal)",
+          "phonetic": "oo komt",
+          "example": "U komt uit Amerika.",
+          "exampleEn": "You come from America.",
+          "note": "Same form as jij: 'komt'.\nThe -t stays in u questions: 'Komt u uit...?'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "hij komt",
+          "en": "he comes",
+          "phonetic": "hay komt",
+          "example": "Hij komt uit Frankrijk.",
+          "exampleEn": "He comes from France.",
+          "note": "Same form again: 'komt'. He, she, it, you: all 'komt'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij komt",
+          "en": "she comes",
+          "phonetic": "zay komt",
+          "also": "'zij' also means 'they', but then the verb changes: 'zij komen'",
+          "example": "Zij komt uit België.",
+          "exampleEn": "She comes from Belgium.",
+          "note": "'Zij' = she. Same form as hij: 'komt'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "verb_table",
+          "title": "Komen: to come",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "kom",
+                  "en": "I come"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "komt",
+                  "en": "you come"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "komt",
+                  "en": "you come (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "komt",
+                  "en": "he comes"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "komt",
+                  "en": "she comes"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "komt",
+                  "en": "it comes"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "komen",
+                  "en": "we come"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "komen",
+                  "en": "you all come"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "komen",
+                  "en": "they come"
+                }
+              ]
+            }
+          ],
+          "note": "Two forms to remember: 'kom' for ik, 'komt' for jij, u, hij, zij. Plural = the full form 'komen'.",
+          "deepDive": {
+            "title": "The -t drop: it works here too",
+            "text": "You learned in Unit 1 that jij drops the -t in questions:\n\nJij hebt een hond. → Heb jij een hond?\nJij bent groot. → Ben jij groot?\n\nSame with komen:\n\nJij komt uit Nederland. → Kom jij uit Nederland?\n\nThis rule works with EVERY verb when jij follows it. You'll see it again and again."
+          }
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "wij komen",
+          "en": "we come",
+          "phonetic": "vay KOH-mun",
+          "example": "Wij komen uit Nederland.",
+          "exampleEn": "We come from the Netherlands.",
+          "note": "'Wij' = we. Uses the full form: 'komen'.\nShort form: 'we komen'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij komen",
+          "en": "they come",
+          "phonetic": "zay KOH-mun",
+          "example": "Zij komen uit Duitsland.",
+          "exampleEn": "They come from Germany.",
+          "note": "'Zij' = they here. The verb tells you which:\nzij komt = she comes\nzij komen = they come",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Nederland",
+          "en": "the Netherlands",
+          "phonetic": "NAY-dur-lahnt",
+          "note": "Also called 'Holland' — technically only 2 of 12 provinces.\nThe 'e' is a quick, lazy 'uh' sound.",
+          "fRef": "nl_vowels",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Duitsland",
+          "en": "Germany",
+          "phonetic": "DOWTS-lahnt",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Deutschland"
+              }
+            ],
+            "family": "germanic"
+          },
+          "note": "'Duits' = German (adjective).\nThe 'ui' diphthong again — round your lips!",
+          "fRef": "nl_vowels",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Frankrijk",
+          "en": "France",
+          "phonetic": "FRAHNK-rayk",
+          "note": "'-rijk' = realm/kingdom.\nFrankrijk = realm of the Franks.\nOostenrijk (Austria) = eastern realm!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "België",
+          "en": "Belgium",
+          "phonetic": "BEL-ghee-uh",
+          "note": "Your southern neighbour. They speak Dutch too (called 'Vlaams' or Flemish), plus French and German.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "Zij ___ uit Duitsland.",
+          "opts": [
+            "kom",
+            "komt",
+            "komen",
+            "bent"
+          ],
+          "ans": "komt",
+          "hint": "zij (she), singular"
+        },
+        {
+          "type": "mc",
+          "q": "Ik ___ uit Nederland.",
+          "opts": [
+            "ben",
+            "heb",
+            "kom",
+            "ga"
+          ],
+          "ans": "kom",
+          "hint": "Travelling FROM a place"
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ uit België.",
+          "a": "komen",
+          "opts": [
+            "bent",
+            "komen",
+            "kom",
+            "komt"
+          ],
+          "hint": "Plural: same form as the infinitive"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l2",
+      "title": "Landen en Talen",
+      "icon": "🗣️",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Landen en Talen",
+          "desc": "Your second new verb: spreken (to speak). Plus four languages, so you can say what you speak.",
+          "goals": [
+            "Every form of spreken",
+            "4 languages",
+            "Say what you speak"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "spreken",
+          "en": "to speak",
+          "phonetic": "SPRAY-kun",
+          "example": "Ik spreek Nederlands.",
+          "exampleEn": "I speak Dutch.",
+          "note": "Full form: spre-ken. The 'e' is long (like 'ay').\nSingle 'e' is enough here.",
+          "deepDive": "Open syllable: 'spre' ends in a vowel → long 'ay'.\nThe open syllable does the work, no need for 'ee'.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "ik spreek",
+          "en": "I speak",
+          "phonetic": "ik sprayk",
+          "example": "Ik spreek een beetje Frans.",
+          "exampleEn": "I speak a little French.",
+          "note": "Double 'ee' — keeps the long 'ay' sound.\nOne 'e' alone in 'sprek' would sound short.",
+          "deepDive": "spre-ken → ik spreek.\nOpen syllable (spre-) became closed (spreek).\nTo keep the LONG vowel → double the letter: 'ee'.\nThis is a LONG-VOWEL verb.",
+          "fRef": "nl_spe_1",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "jij spreekt",
+          "en": "you speak (informal)",
+          "phonetic": "yay spraykt",
+          "example": "Spreek jij Engels?",
+          "exampleEn": "Do you speak English?",
+          "note": "In questions: 'Spreek jij...?' — the -t drops.\nSame rule as every verb.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "ook",
+          "en": "also / too",
+          "phonetic": "ohk",
+          "example": "Ik spreek ook Frans.",
+          "exampleEn": "I also speak French.",
+          "note": "Goes right before what it modifies.\n'Ook' is one of the most common Dutch words.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "u spreekt",
+          "en": "you speak (formal)",
+          "phonetic": "oo spraykt",
+          "example": "Spreekt u ook Frans?",
+          "exampleEn": "Do you also speak French?",
+          "note": "Same form as jij: 'spreekt'.\nThe -t stays with u: 'Spreekt u Frans?'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "hij spreekt",
+          "en": "he speaks",
+          "phonetic": "hay spraykt",
+          "example": "Hij spreekt drie talen.",
+          "exampleEn": "He speaks three languages.",
+          "note": "Same form for hij, zij (she), het.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij spreekt",
+          "en": "she speaks",
+          "phonetic": "zay spraykt",
+          "also": "'zij spreken' = THEY speak (different form!)",
+          "example": "Zij spreekt heel goed Nederlands.",
+          "exampleEn": "She speaks Dutch very well.",
+          "note": "'Zij' here = she. When 'zij' means 'they', the verb changes to the plural form: 'zij spreken'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "verb_table",
+          "title": "Spreken: to speak",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "spreek",
+                  "en": "I speak"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "spreekt",
+                  "en": "you speak"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "spreekt",
+                  "en": "you speak (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "spreekt",
+                  "en": "he speaks"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "spreekt",
+                  "en": "she speaks"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "spreekt",
+                  "en": "it speaks"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "spreken",
+                  "en": "we speak"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "spreken",
+                  "en": "you all speak"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "spreken",
+                  "en": "they speak"
+                }
+              ]
+            }
+          ],
+          "note": "Two forms: 'spreek' (ik) and 'spreekt' (jij, u, hij, zij). Plural = the full form 'spreken'."
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "wij spreken",
+          "en": "we speak",
+          "phonetic": "vay SPRAY-kun",
+          "example": "Wij spreken Engels en Nederlands.",
+          "exampleEn": "We speak English and Dutch.",
+          "note": "Uses the full form: 'spreken'.\nShort form: 'we spreken'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij spreken",
+          "en": "they speak",
+          "phonetic": "zay SPRAY-kun",
+          "example": "Zij spreken vier talen.",
+          "exampleEn": "They speak four languages.",
+          "note": "'Zij' = they here.\nVerb tells you: spreekt = she, spreken = they.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Nederlands",
+          "en": "Dutch (language)",
+          "phonetic": "NAY-dur-lahnts",
+          "note": "Capital letter — derives from a country name.\n'Nederlands' (language) vs 'Nederland' (country).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Engels",
+          "en": "English",
+          "phonetic": "ENG-uls",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "English"
+              },
+              {
+                "lang": "German",
+                "word": "Englisch"
+              }
+            ],
+            "family": "germanic"
+          },
+          "note": "From 'Engeland'. Capital letter, same rule.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Frans",
+          "en": "French",
+          "phonetic": "frahns",
+          "note": "From 'Frankrijk' (France).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Duits",
+          "en": "German",
+          "phonetic": "dowts",
+          "note": "From 'Duitsland'. That 'ui' diphthong again!",
+          "fRef": "nl_vowels",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🌍 Multilingual neighbours",
+          "text": "The Netherlands and Belgium are famously multilingual:\n\nMost Dutch people speak Engels (English) fluently, often Duits (German) and Frans (French) too.\n\nBelgium has THREE official languages: Nederlands (in Flanders), Frans (in Wallonia), and Duits (in a small eastern region).\n\nBrussel is officially bilingual: Nederlands + Frans.\n\nSaying 'Ik spreek een beetje Nederlands' (I speak a little Dutch) will always get you a warm reaction!"
+        },
+        {
+          "type": "mc",
+          "q": "Wij ___ Engels en Nederlands.",
+          "opts": [
+            "spreekt",
+            "spreken",
+            "spreek",
+            "bent"
+          ],
+          "ans": "spreken",
+          "hint": "Plural"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ heel goed Frans. (she)",
+          "a": "spreekt",
+          "opts": [
+            "spreek",
+            "komt",
+            "spreken",
+            "spreekt"
+          ],
+          "hint": "Singular she"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_speak_english",
+          "dir": "produce"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l3",
+      "title": "Waar woon jij?",
+      "icon": "🏠",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Waar woon jij?",
+          "desc": "Your third new verb: wonen (to live/reside). Plus cities, so you can say where you live.",
+          "goals": [
+            "Every form of wonen",
+            "Cities: Amsterdam, Brussel",
+            "Say where you live"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "wonen",
+          "en": "to live, to reside",
+          "phonetic": "VOH-nun",
+          "example": "Ik woon in Amsterdam.",
+          "exampleEn": "I live in Amsterdam.",
+          "note": "Full form: wo-nen. The 'o' is long (like 'oh').\nSame pattern as ko-men.",
+          "deepDive": "Open syllable: 'wo' ends in a vowel → long 'oh'.\nSingle 'o' is enough — same as ko-men.",
+          "fRef": "nl_spe_1",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "ik woon",
+          "en": "I live",
+          "phonetic": "ik vohn",
+          "example": "Ik woon in Amsterdam.",
+          "exampleEn": "I live in Amsterdam.",
+          "note": "Double 'oo' — keeps the long 'oh' sound.\nOPPOSITE of 'ik kom' (short 'o')!",
+          "deepDive": "wo-nen → ik woon.\nOpen syllable (wo-) became closed (woon).\nTo keep the LONG vowel → double: 'oo'.\nOpposite of ik kom (short-vowel verb).",
+          "fRef": "nl_spe_1",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "jij woont",
+          "en": "you live (informal)",
+          "phonetic": "yay vohnt",
+          "example": "Waar woon jij?",
+          "exampleEn": "Where do you live?",
+          "note": "In questions: 'Woon jij in Brussel?' The -t drops when jij follows, just like every verb.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "u woont",
+          "en": "you live (formal)",
+          "phonetic": "oo vohnt",
+          "example": "Woont u in Amsterdam?",
+          "exampleEn": "Do you live in Amsterdam?",
+          "note": "Same as jij: 'woont'.\nThe -t stays with u: 'Woont u hier?'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "hij woont",
+          "en": "he lives",
+          "phonetic": "hay vohnt",
+          "example": "Hij woont in Berlijn.",
+          "exampleEn": "He lives in Berlin.",
+          "note": "Same form for hij, zij (she), het.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij woont",
+          "en": "she lives",
+          "phonetic": "zay vohnt",
+          "also": "'zij wonen' = THEY live (different form!)",
+          "example": "Zij woont in Brussel.",
+          "exampleEn": "She lives in Brussels.",
+          "note": "'Zij' = she. For 'they': 'zij wonen'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "verb_table",
+          "title": "Wonen: to live",
+          "label": "Full Conjugation",
+          "groups": [
+            {
+              "label": "Singular",
+              "rows": [
+                {
+                  "pronoun": "ik",
+                  "form": "woon",
+                  "en": "I live"
+                },
+                {
+                  "pronoun": "jij / je",
+                  "form": "woont",
+                  "en": "you live"
+                },
+                {
+                  "pronoun": "u",
+                  "form": "woont",
+                  "en": "you live (formal)"
+                }
+              ]
+            },
+            {
+              "label": "Third Person",
+              "rows": [
+                {
+                  "pronoun": "hij",
+                  "form": "woont",
+                  "en": "he lives"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "woont",
+                  "en": "she lives"
+                },
+                {
+                  "pronoun": "het",
+                  "form": "woont",
+                  "en": "it lives"
+                }
+              ]
+            },
+            {
+              "label": "Plural",
+              "rows": [
+                {
+                  "pronoun": "wij / we",
+                  "form": "wonen",
+                  "en": "we live"
+                },
+                {
+                  "pronoun": "jullie",
+                  "form": "wonen",
+                  "en": "you all live"
+                },
+                {
+                  "pronoun": "zij / ze",
+                  "form": "wonen",
+                  "en": "they live"
+                }
+              ]
+            }
+          ],
+          "note": "Two forms: 'woon' (ik) and 'woont' (jij, u, hij, zij). Plural = the full form 'wonen'."
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "wij wonen",
+          "en": "we live",
+          "phonetic": "vay VOH-nun",
+          "example": "Wij wonen in een klein dorp.",
+          "exampleEn": "We live in a small village.",
+          "note": "Uses the full form: 'wonen'.\nShort form: 'we wonen'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "zij wonen",
+          "en": "they live",
+          "phonetic": "zay VOH-nun",
+          "example": "Zij wonen in Brussel.",
+          "exampleEn": "They live in Brussels.",
+          "note": "'Zij' = they here.\nwoont = she, wonen = they.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Amsterdam",
+          "en": "Amsterdam",
+          "phonetic": "AHM-stur-dahm",
+          "note": "Largest city, but government sits in Den Haag.\nCultural and business capital.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Brussel",
+          "en": "Brussels",
+          "phonetic": "BRUS-sul",
+          "note": "Capital of Belgium AND the EU.\nBilingual city: Dutch and French.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🏠 'In' vs 'uit'",
+          "text": "Two little words, big difference:\n\nIk woon IN Amsterdam. = I live in Amsterdam.\nIk kom UIT Nederland. = I come from the Netherlands.\n\n'In' = location (where you are now)\n'Uit' = origin (where you're from)\n\nYou can combine them:\nIk kom uit België en ik woon in Amsterdam.\n= I come from Belgium and I live in Amsterdam."
+        },
+        {
+          "type": "mc",
+          "q": "Waar ___ jij?",
+          "opts": [
+            "woont",
+            "woon",
+            "wonen",
+            "komt"
+          ],
+          "ans": "woon",
+          "hint": "Question with jij: what happens to the -t?"
+        },
+        {
+          "type": "mc",
+          "q": "Hij ___ in Amsterdam.",
+          "opts": [
+            "woon",
+            "komen",
+            "woont",
+            "wonen"
+          ],
+          "ans": "woont",
+          "hint": "hij = singular"
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ in Brussel.",
+          "a": "wonen",
+          "opts": [
+            "woont",
+            "komt",
+            "wonen",
+            "woon"
+          ],
+          "hint": "Plural"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_where_live",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_city_beautiful",
+          "dir": "comprehend"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l4",
+      "title": "Zijn of Hebben?",
+      "icon": "⚡",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Zijn of Hebben?",
+          "desc": "You already know all forms of zijn and hebben. Now master CHOOSING the right one, mixed with your new verbs.",
+          "goals": [
+            "Pick the right verb: zijn or hebben",
+            "Tricky cases: age, hunger, thirst",
+            "Mix all 5 verbs confidently"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Zijn vs Hebben",
+          "en": "When to use which",
+          "note": "Zijn = what something IS (identity, state).\nHebben = what someone HAS (possession).\nThink: am/is/are vs have/has.",
+          "example": "Hij IS leraar. Hij HEEFT een hond.",
+          "exampleEn": "He IS a teacher. He HAS a dog.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ Tricky cases",
+          "text": "Age uses ZIJN (not hebben!):\nIk ben 25 jaar oud. = I am 25 years old.\n\nHunger and thirst use HEBBEN:\nIk heb honger. = I am hungry. (lit: I have hunger)\nIk heb dorst. = I am thirsty. (lit: I have thirst)\n\nFrench and Spanish speakers: Dutch uses 'hebben' for hunger/thirst like your languages, but 'zijn' for age unlike yours!"
+        },
+        {
+          "type": "mc",
+          "q": "Zij ___ heel aardig.",
+          "opts": [
+            "heeft",
+            "zijn",
+            "is",
+            "heb"
+          ],
+          "ans": "is",
+          "hint": "Describing a quality"
+        },
+        {
+          "type": "mc",
+          "q": "Wij ___ uit België.",
+          "opts": [
+            "zijn",
+            "hebben",
+            "wonen",
+            "komen"
+          ],
+          "ans": "komen",
+          "hint": "Origin"
+        },
+        {
+          "type": "fb",
+          "s": "Het kind ___ drie jaar oud.",
+          "a": "is",
+          "opts": [
+            "heeft",
+            "is",
+            "bent",
+            "heb"
+          ],
+          "hint": "Age = identity, not possession"
+        },
+        {
+          "type": "mc",
+          "q": "Hij ___ een grote hond.",
+          "opts": [
+            "is",
+            "komt",
+            "heeft",
+            "woont"
+          ],
+          "ans": "heeft",
+          "hint": "Owning something"
+        },
+        {
+          "type": "fb",
+          "s": "Jullie ___ een mooi huis.",
+          "a": "hebben",
+          "opts": [
+            "zijn",
+            "hebben",
+            "heeft",
+            "bent"
+          ],
+          "hint": "Owning, plural"
+        },
+        {
+          "type": "mc",
+          "q": "Ik ___ in Amsterdam.",
+          "opts": [
+            "ben",
+            "woon",
+            "heb",
+            "kom"
+          ],
+          "ans": "woon",
+          "hint": "Where you reside"
+        },
+        {
+          "type": "mc",
+          "q": "Hij ___ honger.",
+          "opts": [
+            "is",
+            "woont",
+            "komt",
+            "heeft"
+          ],
+          "ans": "heeft",
+          "hint": "A feeling you possess, not something you are"
+        },
+        {
+          "type": "fb",
+          "s": "___ jij student?",
+          "a": "Ben",
+          "opts": [
+            "Heb",
+            "Woon",
+            "Kom",
+            "Ben"
+          ],
+          "hint": "Identity, not possession. Question form!"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_come_from_france",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_live_speak_little",
+          "dir": "comprehend"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l5",
+      "title": "Alles over Jou",
+      "icon": "🙋",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Alles over Jou",
+          "desc": "Put it all together: six key questions about identity. After this lesson, you can introduce yourself completely in Dutch.",
+          "goals": [
+            "Ask and answer 6 identity questions",
+            "Ask and state your age",
+            "Combine all verbs fluently"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "Vijf sleutelvragen",
+          "en": "Five key questions",
+          "note": "Five questions that cover your full identity.\nSee the tip below for the complete list.",
+          "example": "Hoe heet je? Ik heet Anna.",
+          "exampleEn": "What's your name? My name is Anna.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de leraar",
+          "en": "the teacher",
+          "phonetic": "duh lay-RAHR",
+          "article": "de",
+          "example": "Hij is leraar.",
+          "exampleEn": "He is a teacher.",
+          "note": "No article before professions with zijn:\n'Ik ben leraar' NOT 'Ik ben een leraar'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de student",
+          "en": "the student",
+          "phonetic": "duh stoo-DENT",
+          "article": "de",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "student"
+              }
+            ],
+            "family": "borrowed"
+          },
+          "example": "Zij is student in Amsterdam.",
+          "exampleEn": "She is a student in Amsterdam.",
+          "note": "A cognate — looks and sounds almost identical.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "hoe oud ben je?",
+          "en": "how old are you? (informal)",
+          "phonetic": "hoo owt ben yuh",
+          "example": "Hoe oud ben je? Ik ben 25.",
+          "exampleEn": "How old are you? I am 25.",
+          "note": "Literally: 'how old are you?'\nThe answer uses zijn + number + jaar:\n'Ik ben vijfentwintig jaar (oud).' — 'oud' is optional.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "ik ben ... jaar",
+          "en": "I am ... years (old)",
+          "phonetic": "ik ben ... yahr",
+          "example": "Ik ben dertig jaar oud.",
+          "exampleEn": "I am thirty years old.",
+          "note": "'Jaar' = year. No plural needed!\nDutch says 'dertig jaar', NOT 'dertig jaren'.\nJust like English: 'I am 30', not 'I am 30 years'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "Waar ___ je vandaan?",
+          "opts": [
+            "woon",
+            "ben",
+            "kom",
+            "spreek"
+          ],
+          "ans": "kom",
+          "hint": "'vandaan' = from (origin)"
+        },
+        {
+          "type": "mc",
+          "q": "Hoe ___ ben je?",
+          "opts": [
+            "oud",
+            "groot",
+            "lang",
+            "goed"
+          ],
+          "ans": "oud",
+          "hint": "Asking about age"
+        },
+        {
+          "type": "mc",
+          "q": "Wat ___ je? (asking about language)",
+          "opts": [
+            "kom",
+            "woon",
+            "spreek",
+            "ben"
+          ],
+          "ans": "spreek",
+          "hint": "What do you do with a language?"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} uit Frankrijk en ik {2} Frans.",
+          "blanks": {
+            "1": "kom",
+            "2": "spreek"
+          },
+          "pool": [
+            "spreek",
+            "ben",
+            "woon",
+            "kom"
+          ],
+          "hint": "Origin + language"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_name_origin",
+          "dir": "comprehend"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Hij {1} leraar en hij {2} in Brussel.",
+          "blanks": {
+            "1": "is",
+            "2": "woont"
+          },
+          "pool": [
+            "woont",
+            "komt",
+            "heeft",
+            "is"
+          ],
+          "hint": "Identity + residence"
+        },
+        {
+          "type": "mc",
+          "q": "Zij ___ dokter.",
+          "opts": [
+            "heeft",
+            "woont",
+            "spreekt",
+            "is"
+          ],
+          "ans": "is",
+          "hint": "Profession = identity"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_where_live",
+          "dir": "comprehend"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "phrase_my_name_is",
+            "phrase_i_come_from",
+            "phrase_i_live_in",
+            "phrase_i_speak"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🙋 You can now introduce yourself completely",
+          "text": "Name: Ik heet...\nOrigin: Ik kom uit...\nLanguage: Ik spreek...\nHome: Ik woon in...\nAge: Ik ben ... jaar.\nProfession: Ik ben...\n\nThat's six questions answered with five verbs. You've come a long way since 'Hallo'!"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l6",
+      "title": "More de & het Nouns",
+      "icon": "📝",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "More de & het Nouns",
+          "desc": "You learned de and het in Unit 1. Now: 8 essential nouns to build your vocabulary.",
+          "goals": [
+            "Learn 8 new nouns with articles",
+            "Build article instinct through repetition",
+            "Spot cognates with English and German"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de man",
+          "en": "the man",
+          "phonetic": "duh mahn",
+          "article": "de",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "man"
+              },
+              {
+                "lang": "German",
+                "word": "Mann"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De man spreekt Nederlands.",
+          "exampleEn": "The man speaks Dutch.",
+          "note": "One of the most common de-words.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de vrouw",
+          "en": "the woman",
+          "phonetic": "duh vrow",
+          "article": "de",
+          "also": "wife (context-dependent)",
+          "example": "De vrouw woont in Amsterdam.",
+          "exampleEn": "The woman lives in Amsterdam.",
+          "note": "'Vrouw' also means 'wife' — context tells you.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "het kind",
+          "en": "the child",
+          "phonetic": "hut kint",
+          "article": "het",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Kind"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het kind is drie jaar oud.",
+          "exampleEn": "The child is three years old.",
+          "note": "False friend: NOT English 'kind' (= aardig).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de stad",
+          "en": "the city",
+          "phonetic": "duh staht",
+          "article": "de",
+          "cognate": {
+            "words": [
+              {
+                "lang": "German",
+                "word": "Stadt"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Amsterdam is een mooie stad.",
+          "exampleEn": "Amsterdam is a beautiful city.",
+          "note": "Plural: steden (irregular).",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "het land",
+          "en": "the country",
+          "phonetic": "hut lahnt",
+          "article": "het",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "land"
+              },
+              {
+                "lang": "German",
+                "word": "Land"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Nederland is een klein land.",
+          "exampleEn": "The Netherlands is a small country.",
+          "note": "Means both 'country' and 'land' (ground).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de taal",
+          "en": "the language",
+          "phonetic": "duh tahl",
+          "article": "de",
+          "example": "Nederlands is een mooie taal.",
+          "exampleEn": "Dutch is a beautiful language.",
+          "note": "No close English cognate — just memorize it.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "het huis",
+          "en": "the house",
+          "phonetic": "hut hows",
+          "article": "het",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "house"
+              },
+              {
+                "lang": "German",
+                "word": "Haus"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "Het huis is groot.",
+          "exampleEn": "The house is big.",
+          "note": "'ui' = Dutch diphthong. Like 'ow' in 'house'.",
+          "fRef": "nl_vowels",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "de school",
+          "en": "the school",
+          "phonetic": "duh skhohl",
+          "article": "de",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "school"
+              }
+            ],
+            "family": "germanic"
+          },
+          "example": "De school is in de stad.",
+          "exampleEn": "The school is in the city.",
+          "note": "Almost identical to English.\n'sch' = 'skh', not 'sh'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🔵🟡 De or Het?",
+          "text": "About 75% of Dutch nouns are de-words. Het-words include:\n\n• Words ending in -je (broodje, meisje, kopje)\n• Many two-syllable words starting with be-, ge-, ver-\n• And many others you simply learn by exposure\n\nThe best strategy: always learn the article WITH the noun. Say 'het huis', never just 'huis'.",
+          "deepDive": {
+            "title": "De and het: does it matter?",
+            "text": "Yes. Later, de and het affect:\n\n• Which demonstrative you use (dit/dat vs deze/die)\n• Which relative pronoun you use (dat vs die)\n• Adjective endings in some cases\n\nGetting articles wrong won't stop people from understanding you, but it marks you as a beginner. Building the instinct now saves pain later."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "What article goes with 'kind'?",
+          "opts": [
+            "het",
+            "de",
+            "een",
+            "geen"
+          ],
+          "ans": "het",
+          "hint": "Think about the teach card. Child = ?"
+        },
+        {
+          "type": "mc",
+          "q": "What does 'de vrouw' mean?",
+          "opts": [
+            "the woman",
+            "the man",
+            "the child",
+            "the city"
+          ],
+          "ans": "the woman",
+          "hint": "'Vrouw' sounds a bit like..."
+        },
+        {
+          "type": "fb",
+          "s": "___ huis is groot.",
+          "a": "Het",
+          "opts": [
+            "Het",
+            "De",
+            "Een",
+            "Geen"
+          ],
+          "hint": "'Huis' is a het-word"
+        },
+        {
+          "type": "fb",
+          "s": "___ man spreekt Nederlands.",
+          "a": "De",
+          "opts": [
+            "De",
+            "Het",
+            "Een",
+            "Dit"
+          ],
+          "hint": "'Man' is a de-word"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "noun_man",
+            "noun_child",
+            "noun_language",
+            "noun_house"
+          ]
+        },
+        {
+          "type": "match",
+          "mks": [
+            "noun_woman",
+            "noun_city",
+            "noun_country",
+            "noun_school"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v2u2l7",
+      "title": "Er is... Er zijn...",
+      "icon": "📍",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Er is... Er zijn...",
+          "desc": "How do you say 'there is' and 'there are' in Dutch? Two tiny words change everything.",
+          "goals": [
+            "Use er is for singular things",
+            "Use er zijn for plural things",
+            "Negate with er is geen and er zijn geen"
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "er is",
+          "en": "there is",
+          "phonetic": "ehr is",
+          "example": "Er is een man in het huis.",
+          "exampleEn": "There is a man in the house.",
+          "note": "Used with ONE thing.\n'Er' = Dutch sentence starter.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "er zijn",
+          "en": "there are",
+          "phonetic": "ehr zayn",
+          "example": "Er zijn twee kinderen in de school.",
+          "exampleEn": "There are two children in the school.",
+          "note": "Used with MORE THAN ONE.\nSame 'zijn' you know from 'they are'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📍 Er = there (sort of)",
+          "text": "'Er' doesn't translate perfectly to English.\n\nEnglish can skip 'there': 'A man is in the house.'\nDutch always needs 'er': 'Er is een man in het huis.'\n\nThink of 'er' as a sentence starter that Dutch requires when talking about what exists somewhere.",
+          "deepDive": {
+            "title": "Why does Dutch need 'er'?",
+            "text": "Dutch doesn't like starting a sentence with an unknown subject.\n\nInstead of just saying 'Een man is in het huis', Dutch prefers 'Er is een man in het huis.'\n\nThis 'er' signals: I'm about to tell you something exists.\n\nYou'll see 'er' again in later units with other uses, but for now: er is = there is, er zijn = there are."
+          }
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "er is geen",
+          "en": "there is no",
+          "phonetic": "ehr is khayn",
+          "example": "Er is geen melk.",
+          "exampleEn": "There is no milk.",
+          "note": "'Geen' negates nouns, just like you learned in Unit 1. Er is + geen = there is no.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "er zijn geen",
+          "en": "there are no",
+          "phonetic": "ehr zayn khayn",
+          "example": "Er zijn geen kinderen in de school.",
+          "exampleEn": "There are no children in the school.",
+          "note": "Plural version. 'Geen' works for both.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "Er ___ een school in de stad.",
+          "opts": [
+            "is",
+            "zijn",
+            "heeft",
+            "ben"
+          ],
+          "ans": "is",
+          "hint": "One school = singular"
+        },
+        {
+          "type": "mc",
+          "q": "Er ___ drie mannen in het huis.",
+          "opts": [
+            "zijn",
+            "is",
+            "heeft",
+            "ben"
+          ],
+          "ans": "zijn",
+          "hint": "Three men = plural"
+        },
+        {
+          "type": "fb",
+          "s": "Er ___ geen melk.",
+          "a": "is",
+          "opts": [
+            "is",
+            "zijn",
+            "heeft",
+            "ben"
+          ],
+          "hint": "Milk is singular (uncountable)"
+        },
+        {
+          "type": "fb",
+          "s": "Er ___ vijf huizen in de stad.",
+          "a": "zijn",
+          "opts": [
+            "zijn",
+            "is",
+            "heeft",
+            "bent"
+          ],
+          "hint": "Five houses = plural"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'There is no house'?",
+          "opts": [
+            "Er is geen huis",
+            "Er zijn geen huis",
+            "Het is geen huis",
+            "Er heeft geen huis"
+          ],
+          "ans": "Er is geen huis",
+          "hint": "One house = singular, negate with geen"
+        },
+        {
+          "type": "fb",
+          "s": "Er ___ twee vrouwen en een man.",
+          "a": "zijn",
+          "opts": [
+            "zijn",
+            "is",
+            "heeft",
+            "komt"
+          ],
+          "hint": "Two women + one man = plural total"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Er {1} een school en er {2} drie huizen.",
+          "blanks": {
+            "1": "is",
+            "2": "zijn"
+          },
+          "pool": [
+            "is",
+            "zijn",
+            "heeft",
+            "ben"
+          ],
+          "hint": "One school (singular), three houses (plural)"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "phrase_there_is",
+            "phrase_there_are",
+            "phrase_there_is_no",
+            "phrase_there_are_no"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u2_there_are_two_children",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_no_school_in_city",
+          "dir": "comprehend"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l8",
+      "title": "Dit & Dat, Deze & Die",
+      "icon": "👉",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Dit & Dat, Deze & Die",
+          "desc": "This, that, these, those. Dutch has a system that connects to de and het. Two uses, one clear pattern.",
+          "goals": [
+            "Learn hier (here) and daar (there)",
+            "Use dit/dat with het-words",
+            "Use deze/die with de-words and plurals",
+            "Point at things: always Dit is... / Dat is..."
+          ]
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "hier",
+          "en": "here",
+          "phonetic": "heer",
+          "example": "Het huis is hier.",
+          "exampleEn": "The house is here.",
+          "note": "Points at something nearby.\n'dit huis hier' = this house here.",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "here"
+              },
+              {
+                "lang": "German",
+                "word": "hier"
+              }
+            ],
+            "family": "germanic"
+          },
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "daar",
+          "en": "there / over there",
+          "phonetic": "dahr",
+          "example": "De school is daar.",
+          "exampleEn": "The school is there.",
+          "note": "Points at something farther away.\n'die school daar' = that school there.",
+          "cognate": {
+            "words": [
+              {
+                "lang": "English",
+                "word": "there"
+              },
+              {
+                "lang": "German",
+                "word": "da/dort"
+              }
+            ],
+            "family": "germanic"
+          },
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "dit",
+          "en": "this (het-words, nearby)",
+          "phonetic": "dit",
+          "example": "Dit huis hier is groot.",
+          "exampleEn": "This house here is big.",
+          "note": "For het-words nearby.\n'Dit huis hier' = this house here.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "dat",
+          "en": "that (het-words, far away)",
+          "phonetic": "daht",
+          "example": "Dat land daar is mooi.",
+          "exampleEn": "That country there is beautiful.",
+          "note": "For het-words farther away.\n'Dat huis daar' = that house there.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "deze",
+          "en": "this / these (de-words, plurals, nearby)",
+          "phonetic": "DAY-zuh",
+          "example": "Deze man hier is een leraar.",
+          "exampleEn": "This man here is a teacher.",
+          "note": "For de-words + plurals nearby.\n'Deze huizen hier' = these houses here.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "board": true,
+          "nl": "die",
+          "en": "that / those (de-words, plurals, far away)",
+          "phonetic": "dee",
+          "example": "Die vrouw daar spreekt Frans.",
+          "exampleEn": "That woman there speaks French.",
+          "note": "For de-words + plurals farther away.\n'Die kinderen daar' = those children there.",
+          "also": "Later: 'die' also means 'who/that' in relative clauses.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "👉 Two Uses of Demonstratives",
+          "text": "BEFORE A NOUN:\nhet-words nearby: dit huis hier\nhet-words far: dat huis daar\nde-words nearby: deze man hier\nde-words far: die man daar\nPlurals: same as de-words (deze/die)\n\nPOINTING AT SOMETHING:\nDit is het huis. Dat is de school.\nAlways dit/dat when pointing at things.\nNever 'deze is de school' or 'die is het huis'.",
+          "deepDive": {
+            "title": "Why always dit/dat for pointing?",
+            "text": "When you point at a thing and say 'this is...' or 'that is...', Dutch always uses dit or dat.\n\nIt does not matter if the noun is de or het:\nDit is de man. (pointing nearby)\nDat is de school. (pointing far)\nDit is het kind. (pointing nearby)\nDat is het huis. (pointing far)\n\nThink of 'Dit is...' and 'Dat is...' as fixed phrases for pointing.\n\n'Deze is...' and 'Die is...' are only used when choosing between people, not things."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "Which pair goes with het-words?",
+          "opts": [
+            "deze / die",
+            "dit / die",
+            "dit / dat",
+            "deze / dat"
+          ],
+          "ans": "dit / dat",
+          "hint": "Het-words get their own pair"
+        },
+        {
+          "type": "mc",
+          "q": "___ man hier is een leraar.",
+          "opts": [
+            "Dit",
+            "Dat",
+            "Deze",
+            "Die"
+          ],
+          "ans": "Deze",
+          "hint": "Man = de-word, hier = nearby"
+        },
+        {
+          "type": "fb",
+          "s": "___ huis daar is klein.",
+          "a": "Dat",
+          "opts": [
+            "Dit",
+            "Deze",
+            "Dat",
+            "Die"
+          ],
+          "hint": "Huis = het-word, daar = far away"
+        },
+        {
+          "type": "fb",
+          "s": "___ kinderen hier spreken Nederlands.",
+          "a": "Deze",
+          "opts": [
+            "Deze",
+            "Die",
+            "Dit",
+            "Dat"
+          ],
+          "hint": "Plural + hier = nearby"
+        },
+        {
+          "type": "mc",
+          "q": "How do you say 'That man there is not here'?",
+          "opts": [
+            "Die man daar is niet hier",
+            "Deze man daar is niet hier",
+            "Dat man daar is niet hier",
+            "Dit man daar is niet hier"
+          ],
+          "ans": "Die man daar is niet hier",
+          "hint": "Man = de-word, daar = far away"
+        },
+        {
+          "type": "fb",
+          "s": "___ is het kind hier.",
+          "a": "Dit",
+          "opts": [
+            "Dit",
+            "Deze",
+            "Die",
+            "Dat"
+          ],
+          "hint": "Pointing at something nearby: always dit"
+        },
+        {
+          "type": "fb",
+          "s": "___ is de school daar.",
+          "a": "Dat",
+          "opts": [
+            "Dat",
+            "Deze",
+            "Die",
+            "Dit"
+          ],
+          "hint": "Pointing at something far: always dat"
+        },
+        {
+          "type": "tip",
+          "title": "⚠️ A Common Mistake",
+          "text": "Dit is de school. (correct)\nDeze is de school. (wrong)\n\nWhen pointing at things, always use dit or dat.\nNever deze or die.\n\nDeze and die go BEFORE a noun:\nDeze school hier is groot. (correct)\n\nBut when pointing: Dit is... / Dat is... Always.",
+          "deepDive": {
+            "title": "When CAN you use deze/die alone?",
+            "text": "Only when choosing between people:\n'Welke man? Deze.' = Which man? This one.\n\nAt this stage, just remember the rule:\nPointing at things = dit/dat.\nBefore a noun = check de/het + hier/daar."
+          }
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} huis hier is groot en {2} stad daar is mooi.",
+          "blanks": {
+            "1": "Dit",
+            "2": "die"
+          },
+          "pool": [
+            "Dit",
+            "die",
+            "Deze",
+            "Dat"
+          ],
+          "hint": "het-word + hier, de-word + daar"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "dit",
+              "en": "this (het)"
+            },
+            {
+              "nl": "dat",
+              "en": "that (het)"
+            },
+            {
+              "nl": "deze",
+              "en": "this/these (de)"
+            },
+            {
+              "nl": "die",
+              "en": "that/those (de)"
+            }
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u2_this_man_here_germany",
+          "dir": "comprehend"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l9",
+      "title": "Mini-Dialogue: Meeting Someone",
+      "icon": "🤝",
+      "xp": 15,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Mini-Dialogue: Meeting Someone",
+          "desc": "Time to put it all together. A real Dutch conversation between two people meeting for the first time.",
+          "goals": [
+            "Follow a full Dutch dialogue",
+            "Fill in missing parts of a conversation",
+            "Produce your own introduction sentences"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🤝 The Conversation",
+          "text": "A: Hallo! Hoe heet je?\nB: Ik heet Sophie. En jij?\n\nA: Ik heet Marco. Aangenaam!\nB: Aangenaam! Waar kom je vandaan?\n\nA: Ik kom uit Duitsland. En jij?\nB: Ik kom uit België. Ik woon in Brussel.\n\nA: Spreek je ook Frans?\nB: Ja, ik spreek Frans en Nederlands.",
+          "deepDive": {
+            "title": "Natural conversation structure",
+            "text": "Notice the pattern:\n1. Greeting (Hallo!)\n2. Names (Hoe heet je?)\n3. Origin (Waar kom je vandaan?)\n4. Bounce back (En jij?)\n5. Details (language, residence)\n\nThis is how Dutch people actually start conversations. The 'en jij?' bounce-back is key. It keeps the conversation flowing."
+          }
+        },
+        {
+          "type": "fb",
+          "s": "Hallo! Hoe ___ je?",
+          "a": "heet",
+          "opts": [
+            "heet",
+            "ben",
+            "kom",
+            "spreek"
+          ],
+          "hint": "Asking someone's name"
+        },
+        {
+          "type": "fb",
+          "s": "Ik heet Sophie. En ___?",
+          "a": "jij",
+          "opts": [
+            "jij",
+            "je",
+            "u",
+            "zij"
+          ],
+          "hint": "And YOU?"
+        },
+        {
+          "type": "mc",
+          "q": "What does 'Waar kom je vandaan?' mean?",
+          "opts": [
+            "Where do you live?",
+            "What do you speak?",
+            "Where do you come from?",
+            "Who are you?"
+          ],
+          "ans": "Where do you come from?",
+          "hint": "'Vandaan' = from (origin)"
+        },
+        {
+          "type": "fb",
+          "s": "Ik kom uit ___. Ik woon in Brussel.",
+          "a": [
+            "België"
+          ],
+          "opts": [
+            "België",
+            "Duitsland",
+            "Frankrijk",
+            "Nederland"
+          ],
+          "hint": "Sophie lives in Brussels, so she's from..."
+        },
+        {
+          "type": "fb",
+          "s": "___ je ook Frans?",
+          "a": "Spreek",
+          "opts": [
+            "Spreek",
+            "Woon",
+            "Kom",
+            "Heet"
+          ],
+          "hint": "Asking about a language"
+        },
+        {
+          "type": "mc",
+          "q": "Sophie speaks:",
+          "opts": [
+            "Only French",
+            "French and Dutch",
+            "Only Dutch",
+            "German and Dutch"
+          ],
+          "ans": "French and Dutch",
+          "hint": "Ja, ik spreek Frans en Nederlands."
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} Marco. Ik {2} uit Duitsland.",
+          "blanks": {
+            "1": "heet",
+            "2": "kom"
+          },
+          "pool": [
+            "heet",
+            "kom",
+            "woon",
+            "spreek"
+          ],
+          "hint": "Name + origin"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} in Brussel en ik {2} Frans.",
+          "blanks": {
+            "1": "woon",
+            "2": "spreek"
+          },
+          "pool": [
+            "woon",
+            "spreek",
+            "heet",
+            "kom"
+          ],
+          "hint": "Residence + language"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_nice_to_meet_where_from",
+          "dir": "produce"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_speak_french_and_dutch",
+          "dir": "comprehend"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Ik {1} in Amsterdam en ik {2} een beetje Nederlands.",
+          "blanks": {
+            "1": "woon",
+            "2": "spreek"
+          },
+          "pool": [
+            "woon",
+            "spreek",
+            "kom",
+            "heet"
+          ],
+          "hint": "Residence + language ability"
+        },
+        {
+          "type": "tip",
+          "title": "🎉 Your first real Dutch conversation!",
+          "text": "You can now introduce yourself, ask about someone's origin, and talk about languages.\n\nName: Ik heet...\nOrigin: Ik kom uit...\nResidence: Ik woon in...\nLanguage: Ik spreek...\n\nThat's real A1 progress. You've come a long way since 'Hallo'!"
+        }
+      ]
+    },
+    {
+      "id": "v2u2l10",
+      "title": "Unit 2 Review",
+      "icon": "🔄",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 2 Review",
+          "desc": "Everything from Unit 2, plus Unit 1 mixed in. No new words. Just proof you've got this.",
+          "goals": [
+            "Review all 5 verbs and their forms",
+            "Practice countries, languages, cities",
+            "Test de/het articles, er is/zijn, dit/dat/deze/die"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "Ik ___ uit Nederland.",
+          "opts": [
+            "ben",
+            "kom",
+            "heb",
+            "woon"
+          ],
+          "ans": "kom",
+          "hint": "Stating where you're from"
+        },
+        {
+          "type": "fb",
+          "s": "Zij ___ een leraar. (she)",
+          "a": "is",
+          "opts": [
+            "is",
+            "ben",
+            "heeft",
+            "zijn"
+          ],
+          "hint": "Profession = identity (singular she)"
+        },
+        {
+          "type": "mc",
+          "q": "What article goes with 'taal'?",
+          "opts": [
+            "het",
+            "een",
+            "de",
+            "geen"
+          ],
+          "ans": "de",
+          "hint": "'Taal' is a de-word"
+        },
+        {
+          "type": "fb",
+          "s": "Er ___ drie scholen in de stad.",
+          "a": "zijn",
+          "opts": [
+            "zijn",
+            "is",
+            "heeft",
+            "bent"
+          ],
+          "hint": "Three schools = plural"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "verb_come",
+            "verb_speak",
+            "verb_live",
+            "noun_house"
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "___ huis hier is groot.",
+          "opts": [
+            "Deze",
+            "Die",
+            "Dit",
+            "Dat"
+          ],
+          "ans": "Dit",
+          "hint": "Huis = het-word, hier = nearby"
+        },
+        {
+          "type": "fb",
+          "s": "Wij ___ in Amsterdam.",
+          "a": "wonen",
+          "opts": [
+            "wonen",
+            "woont",
+            "woon",
+            "komt"
+          ],
+          "hint": "Wij + wonen"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_speak_dutch",
+          "dir": "produce"
+        },
+        {
+          "type": "drag_fill",
+          "s": "Er {1} een man en er {2} twee vrouwen.",
+          "blanks": {
+            "1": "is",
+            "2": "zijn"
+          },
+          "pool": [
+            "is",
+            "zijn",
+            "heeft",
+            "bent"
+          ],
+          "hint": "One man (singular), two women (plural)"
+        },
+        {
+          "type": "mc",
+          "q": "Die kinderen ___ uit België.",
+          "opts": [
+            "woont",
+            "kom",
+            "komen",
+            "bent"
+          ],
+          "ans": "komen",
+          "hint": "'Die kinderen' = those children (plural)"
+        },
+        {
+          "type": "fb",
+          "s": "___ vrouw daar spreekt Frans.",
+          "a": "Die",
+          "opts": [
+            "Die",
+            "Deze",
+            "Dit",
+            "Dat"
+          ],
+          "hint": "De-word, daar = far away"
+        },
+        {
+          "type": "match",
+          "mks": [
+            "noun_man",
+            "noun_child",
+            "noun_city",
+            "noun_country"
+          ]
+        },
+        {
+          "type": "tr",
+          "mk": "u2_no_schools_in_this_city",
+          "dir": "comprehend"
+        },
+        {
+          "type": "tr",
+          "mk": "u2_live_brussels_speak_french",
+          "dir": "produce"
+        }
+      ]
+    }
+  ]
+}

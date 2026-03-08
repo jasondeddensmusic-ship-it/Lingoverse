@@ -1,0 +1,2195 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 6,
+    "lang": "ko",
+    "track": "v1",
+    "title": "어디 가요?",
+    "sub": "Transport, Location Particles & Conjugation Preview",
+    "icon": "🚇",
+    "level": "A1.2",
+    "color": "#3498DB"
+  },
+  "lessons": [
+    {
+      "id": "kou6l1",
+      "title": "Transport Words",
+      "icon": "🚌",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Getting Around Korea",
+          "desc": "Korea has world-class public transit. Subway, bus, KTX bullet train — all connected, cheap, on time. Every transport word is a decodable compound. Let's decode them.",
+          "goals": [
+            "Learn core transport vocabulary",
+            "Decode transport compound words",
+            "Know Korean transit culture basics"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "지하철",
+          "en": "subway",
+          "phonetic": "ji-ha-cheol",
+          "example": "지하철로 가요.",
+          "exampleEn": "I go by subway.",
+          "note": "COMPOUND: 지하 (underground) + 철 (iron/rail).\nLiterally: 'underground iron.'\n\n지하: underground. 지 (earth) + 하 (below).\n철: iron. Also in 철교 (iron bridge).\n\nSeoul subway: 23 lines. Clean, frequent, cheap.\nWi-Fi throughout. Announcements in Korean + English.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "버스",
+          "en": "bus",
+          "phonetic": "beo-seu",
+          "example": "버스를 타요.",
+          "exampleEn": "I take the bus.",
+          "note": "Konglish: from English 'bus.'\n\n버스 정류장: bus stop.\n정류 (stop/stay) + 장 (place) = stop-place.\n\n타다 = to ride / take (transport verb).\n\n버스를 타다\n→ to take the bus\n\n택시를 타다\n→ to take a taxi\n\n지하철을 타다\n→ to take the subway",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "기차 / KTX",
+          "en": "train / bullet train",
+          "phonetic": "gi-cha / kay-tee-eks",
+          "example": "기차가 빨라요.",
+          "exampleEn": "The train is fast.",
+          "note": "기차: train.\nSINO-KOREAN: 기 (machine) + 차 (vehicle).\n기 reappears in: 비행기, 세탁기, 청소기.\n\nKTX: Korea Train eXpress.\nSeoul → Busan in 2.5 hours.\nSeoul → Incheon airport 45 min.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "비행기",
+          "en": "airplane",
+          "phonetic": "bi-haeng-gi",
+          "example": "비행기를 타고 일본에 가요.",
+          "exampleEn": "I go to Japan by airplane.",
+          "note": "COMPOUND: 비행 (flying) + 기 (machine).\n비: to fly. 행: go/travel. 기: machine.\n'Flying-travel machine' = airplane.\n\n비행: flying. 비행사: pilot (flying + expert).\n공항: airport. 공 (air/public) + 항 (port).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "타다",
+          "en": "to ride / take (transport)",
+          "phonetic": "ta-da",
+          "example": "매일 지하철을 타요.",
+          "exampleEn": "I take the subway every day.",
+          "note": "타다: universal 'board/ride' verb for transport.\n\n버스를 타다: take the bus\n택시를 타다: take a taxi\n자전거를 타다: ride a bicycle\n말을 타다: ride a horse\n\n내리다: to get off (opposite of 타다).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🚇 Korean Transport: World Class",
+          "text": "Seoul's public transit system:\n\n지하철 (subway):\n• 23 lines covering Greater Seoul\n• Color-coded, numbered exits\n• T-money card works on everything\n• Last train ~12-1am\n\nKTX (bullet train):\n• Seoul → Busan: 2h 30m\n• Seoul → Gwangju: 1h 30m\n• Reserved seating, meals available\n\n버스 (bus):\n• Color-coded by type:\n  파란 버스: trunk routes (blue)\n  초록 버스: neighborhood routes (green)\n  빨간 버스: express (red)\n\n공항철도: Airport Railroad\nSeoul Station → Incheon Airport: 43 min."
+        },
+        {
+          "type": "mc",
+          "q": "지하철 decomposes into:",
+          "opts": [
+            "지하 (underground) + 철 (iron)",
+            "지 (earth) + 하철 (rail)",
+            "지하 (lower) + 전 (electric)",
+            "All one piece"
+          ],
+          "ans": "지하 (underground) + 철 (iron)",
+          "hint": "Underground + iron/rail"
+        },
+        {
+          "type": "mc",
+          "q": "비행기 means 'airplane' because:",
+          "opts": [
+            "It sounds like English 'fly'",
+            "비행 (flying) + 기 (machine)",
+            "From Chinese characters only",
+            "It's an old native Korean word"
+          ],
+          "ans": "비행 (flying) + 기 (machine)",
+          "hint": "Flying-machine = airplane"
+        },
+        {
+          "type": "mc",
+          "q": "타다 means:",
+          "opts": [
+            "To go to",
+            "To arrive at",
+            "To ride/board transport",
+            "To pay"
+          ],
+          "ans": "To ride/board transport",
+          "hint": "버스를 타다, 기차를 타다"
+        },
+        {
+          "type": "fb",
+          "s": "매일 ___ 을/를 타요. (I take the subway every day)",
+          "a": "지하철",
+          "opts": [
+            "지하철",
+            "비행기",
+            "기차",
+            "버스"
+          ],
+          "hint": "지하철 = subway (underground + iron)"
+        },
+        {
+          "type": "fb",
+          "s": "서울에서 부산까지 ___로 두 시간 삼십 분이에요.",
+          "a": "KTX",
+          "opts": [
+            "KTX",
+            "버스",
+            "지하철",
+            "비행기"
+          ],
+          "hint": "Seoul to Busan 2.5 hours = bullet train"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "지하철",
+              "en": "subway"
+            },
+            {
+              "nl": "기차",
+              "en": "train"
+            },
+            {
+              "nl": "비행기",
+              "en": "airplane"
+            },
+            {
+              "nl": "타다",
+              "en": "to ride/board"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "버스 정류장",
+              "en": "bus stop"
+            },
+            {
+              "nl": "공항",
+              "en": "airport"
+            },
+            {
+              "nl": "내리다",
+              "en": "to get off"
+            },
+            {
+              "nl": "KTX",
+              "en": "bullet train"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 매일 {1}을 타요. 주말에는 {2}로 여행해요.",
+          "blanks": {
+            "1": "지하철",
+            "2": "기차"
+          },
+          "pool": [
+            "지하철",
+            "기차",
+            "비행기",
+            "택시"
+          ],
+          "hint": "I take the subway every day. On weekends I travel by train."
+        },
+        {
+          "type": "mc",
+          "q": "기 appears in: 비행기, 세탁기, 청소기. 기 means:",
+          "opts": [
+            "Big",
+            "Electric",
+            "Machine",
+            "Modern"
+          ],
+          "ans": "Machine",
+          "hint": "비행기 (flying machine), 세탁기 (washing machine), 청소기 (cleaning machine)"
+        }
+      ]
+    },
+    {
+      "id": "kou6l2",
+      "title": "에 vs 에서 Named",
+      "icon": "📍",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "P26 Moment: AT (Static) vs AT (Active)",
+          "desc": "You've seen both 에 and 에서 since Unit 2. Today they get their full names and the distinction between them becomes crystal clear: 에 = where you ARE or GO. 에서 = where you DO things.",
+          "goals": [
+            "Name 에 as destination/static location marker",
+            "Name 에서 as action location marker",
+            "Apply the correct particle every time"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "에",
+          "en": "to / at (destination or static location)",
+          "phonetic": "e",
+          "example": "학교에 가요.",
+          "exampleEn": "I go TO school.",
+          "note": "에 marks THREE things:\n\n1. DESTINATION: 학교에 가요 (go TO school)\n2. STATIC LOCATION: 집에 있어요 (am AT home)\n3. TIME: 3시에 (AT 3 o'clock)\n\n에 answers: WHERE are you? WHERE are you going?\nIt doesn't say anything about what you DO there.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "에서",
+          "en": "at / in (action location)",
+          "phonetic": "e-seo",
+          "example": "학교에서 공부해요.",
+          "exampleEn": "I study AT school.",
+          "note": "에서 marks WHERE an ACTION happens.\n\n학교에서 공부해요: study AT school.\n카페에서 커피를 마셔요: drink coffee AT the café.\n도서관에서 책을 읽어요: read books AT the library.\n\nTest: Is there an ACTION verb?\nYes → 에서\nNo (just being/going) → 에",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📍 에 vs 에서: The Complete System",
+          "text": "에 = WHERE something IS or WHERE you GO\n에서 = WHERE you DO something\n\n학교에 가요.\n→ I go to school. (destination)\n\n학교에 있어요.\n→ I'm at school. (static)\n\n학교에서 공부해요.\n→ I study at school. (action)\n\nBonus — 에서 also means FROM:\n서울에서 왔어요.\n→ I came from Seoul.\n\n에서: WHERE you DO something\n\n집에서 쉬어요: rest AT home (action: resting)\n도서관에서 공부해요: study AT library (action: studying)\n카페에서 일해요: work AT a café (action: working)\n\nThe test:\n'What are you doing there?'\nIf there IS an action → 에서\nIf you're just BEING there or ARRIVING → 에\n\nBonus: 에서 also means 'from' in one pattern:\n서울에서 왔어요: I came FROM Seoul."
+        },
+        {
+          "type": "mc",
+          "q": "'I study AT the library' — correct particle:",
+          "opts": [
+            "도서관에 공부해요",
+            "도서관에서 공부해요",
+            "도서관을 공부해요",
+            "도서관는 공부해요"
+          ],
+          "ans": "도서관에서 공부해요",
+          "hint": "Studying = action at a place → 에서"
+        },
+        {
+          "type": "mc",
+          "q": "'I am AT home' — correct particle:",
+          "opts": [
+            "집에서 있어요",
+            "집에 있어요",
+            "집을 있어요",
+            "집는 있어요"
+          ],
+          "ans": "집에 있어요",
+          "hint": "Being there statically (있어요, no action) → 에"
+        },
+        {
+          "type": "mc",
+          "q": "'I go TO school' — correct particle:",
+          "opts": [
+            "학교에서 가요",
+            "학교를 가요",
+            "학교에 가요",
+            "학교는 가요"
+          ],
+          "ans": "학교에 가요",
+          "hint": "Going TO a destination → 에"
+        },
+        {
+          "type": "mc",
+          "q": "'I drink coffee AT the café' — correct particle:",
+          "opts": [
+            "카페에 커피를 마셔요",
+            "카페에서 커피를 마셔요",
+            "카페를 커피를 마셔요",
+            "카페는 커피를 마셔요"
+          ],
+          "ans": "카페에서 커피를 마셔요",
+          "hint": "Drinking = action at a place → 에서"
+        },
+        {
+          "type": "fb",
+          "s": "저는 매일 도서관___공부해요.",
+          "a": "에서",
+          "opts": [
+            "에서",
+            "에",
+            "를",
+            "는"
+          ],
+          "hint": "Studying is an action — what you DO at the library"
+        },
+        {
+          "type": "fb",
+          "s": "친구가 집___있어요.",
+          "a": "에",
+          "opts": [
+            "에",
+            "에서",
+            "를",
+            "는"
+          ],
+          "hint": "Being at home, no action verb — static location"
+        },
+        {
+          "type": "fb",
+          "s": "저는 학교___가요. 학교___한국어를 공부해요.",
+          "a": "에",
+          "opts": [
+            "에",
+            "에서",
+            "를",
+            "도"
+          ],
+          "hint": "First blank: going TO school (destination)"
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 카페{1} 일해요. 지금 카페{2} 있어요.",
+          "blanks": {
+            "1": "에서",
+            "2": "에"
+          },
+          "pool": [
+            "에",
+            "에서",
+            "를",
+            "는"
+          ],
+          "hint": "I work AT the café (action). Right now I am AT the café (static)."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "학교에 가요",
+              "en": "go TO school (destination)"
+            },
+            {
+              "nl": "학교에서 공부해요",
+              "en": "study AT school (action)"
+            },
+            {
+              "nl": "집에 있어요",
+              "en": "am AT home (static)"
+            },
+            {
+              "nl": "집에서 쉬어요",
+              "en": "rest AT home (action)"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "q": "서울에서 왔어요 means:",
+          "opts": [
+            "I am in Seoul",
+            "I go to Seoul",
+            "I came FROM Seoul",
+            "Seoul is far"
+          ],
+          "ans": "I came FROM Seoul",
+          "hint": "에서 also marks 'from' with movement verbs like 오다"
+        },
+        {
+          "type": "mc",
+          "q": "에서 is different from 에 because:",
+          "opts": [
+            "에서 is longer",
+            "에서 marks where ACTIONS happen",
+            "에서 is more polite",
+            "에서 is for big places"
+          ],
+          "ans": "에서 marks where ACTIONS happen",
+          "hint": "The key distinction: action vs static/destination"
+        }
+      ]
+    },
+    {
+      "id": "kou6l3",
+      "title": "(으)로: By and Toward",
+      "icon": "🛤️",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Going BY Bus, Heading TOWARD the Station",
+          "desc": "(으)로 does two related jobs: it marks HOW you travel (by bus, by subway) and WHICH DIRECTION you go (to the left, toward the station). One particle, two uses, one concept: direction/means.",
+          "goals": [
+            "Use (으)로 for means of transport",
+            "Use (으)로 for direction",
+            "Know when to use 로 vs 으로"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "(으)로",
+          "en": "by (means) / toward (direction)",
+          "phonetic": "(eu)-ro",
+          "example": "버스로 가요.",
+          "exampleEn": "I go by bus.",
+          "note": "(으)로: means OR direction.\n\nROULE:\n로: after vowels or ㄹ\n으로: after other consonants\n\n지하철로 (지하철 ends in ㄹ → 로)\n버스로 (버스 ends in vowel → 로)\n학교으로 ✗ → 학교로 ✓ (ends in vowel → 로)\n\n왼쪽으로 (왼쪽 ends in consonant ㄱ → 으로)",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "로 — transport use",
+          "en": "by (vehicle/method)",
+          "phonetic": "ro",
+          "example": "기차로 가요.",
+          "exampleEn": "I go by train.",
+          "note": "(으)로 marks the METHOD of transport:\n\n버스로 가요: go by bus\n지하철로 가요: go by subway\n비행기로 가요: go by plane\n걸어서 가요: go on foot (걸어서 = by walking)\n\n걸어서: special form — 걷다 (walk) + -어서.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "로 — direction use",
+          "en": "toward / in the direction of",
+          "phonetic": "ro",
+          "example": "왼쪽으로 가세요.",
+          "exampleEn": "Please go to the left.",
+          "note": "(으)로 marks DIRECTION:\n\n왼쪽으로 가세요: go LEFT\n오른쪽으로 가세요: go RIGHT\n앞으로 가세요: go FORWARD\n뒤로 가세요: go BACK\n출구 쪽으로 가세요: go toward the exit",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "'I go by subway' — correct form:",
+          "opts": [
+            "지하철에 가요",
+            "지하철를 가요",
+            "지하철로 가요",
+            "지하철가 가요"
+          ],
+          "ans": "지하철로 가요",
+          "hint": "지하철 ends in ㄹ → 로 (not 으로)"
+        },
+        {
+          "type": "mc",
+          "q": "(으)로 marks:",
+          "opts": [
+            "Static location",
+            "Action location",
+            "Means/direction",
+            "Object"
+          ],
+          "ans": "Means/direction",
+          "hint": "BY bus, TOWARD the exit — means and direction"
+        },
+        {
+          "type": "mc",
+          "q": "왼쪽___가세요 — correct form:",
+          "opts": [
+            "왼쪽가",
+            "왼쪽로",
+            "왼쪽으로",
+            "왼쪽에서"
+          ],
+          "ans": "왼쪽으로",
+          "hint": "왼쪽 ends in consonant ㄱ → 으로"
+        },
+        {
+          "type": "mc",
+          "q": "'By airplane' in Korean:",
+          "opts": [
+            "비행기에",
+            "비행기를",
+            "비행기로",
+            "비행기에서"
+          ],
+          "ans": "비행기로",
+          "hint": "비행기 ends in vowel → 로"
+        },
+        {
+          "type": "fb",
+          "s": "오른쪽___가세요. (Go right)",
+          "a": "으로",
+          "opts": [
+            "으로",
+            "에서",
+            "에",
+            "를"
+          ],
+          "hint": "오른쪽 ends in consonant ㄱ → 으로"
+        },
+        {
+          "type": "fb",
+          "s": "저는 매일 버스___학교에 가요.",
+          "a": "로",
+          "opts": [
+            "로",
+            "으로",
+            "에서",
+            "를"
+          ],
+          "hint": "버스 ends in vowel → 로 (by bus)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "버스로",
+              "en": "by bus"
+            },
+            {
+              "nl": "지하철로",
+              "en": "by subway"
+            },
+            {
+              "nl": "왼쪽으로",
+              "en": "to the left"
+            },
+            {
+              "nl": "앞으로",
+              "en": "forward"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "직진하다가 왼쪽{1} 가세요. 거기서 버스{2} 가면 돼요.",
+          "blanks": {
+            "1": "으로",
+            "2": "로"
+          },
+          "pool": [
+            "으로",
+            "로",
+            "에",
+            "에서"
+          ],
+          "hint": "Go straight, then go left. From there, go by bus."
+        },
+        {
+          "type": "mc",
+          "q": "에 vs (으)로: 학교에 가요 vs 학교로 가요 — the difference:",
+          "opts": [
+            "Same meaning",
+            "에 = AT/TO destination; 로 = heading TOWARD (directional flavor)",
+            "로 is more formal",
+            "에 is for transport only"
+          ],
+          "ans": "에 = AT/TO destination; 로 = heading TOWARD (directional flavor)",
+          "hint": "학교에 가요 (going to school). 학교로 가요 (heading toward school — directional)"
+        },
+        {
+          "type": "mc",
+          "q": "걸어서 가요. 걸어서 = going by:",
+          "opts": [
+            "Car",
+            "Train",
+            "Foot (walking)",
+            "Bicycle"
+          ],
+          "ans": "Foot (walking)",
+          "hint": "걷다 (to walk) + -어서 = by walking"
+        },
+        {
+          "type": "teach",
+          "nl": "기다리다",
+          "en": "to wait",
+          "phonetic": "gi-da-ri-da",
+          "example": "여기에서 기다리세요.",
+          "exampleEn": "Please wait here.",
+          "note": "기다리다: to wait.\n기다리 + 어요 = 기다려요 (ㅣ+ㅓ = ㅕ).\n\n여기에서 기다리세요: please wait here.\n잠깐만 기다려요: wait a moment.\n버스를 기다려요: I'm waiting for the bus.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "찾다",
+          "en": "to find / to look for",
+          "phonetic": "chat-da",
+          "example": "길을 찾아요.",
+          "exampleEn": "I'm looking for the way.",
+          "note": "찾다: to find / to look for.\n찾 + 아요 = 찾아요 (regular).\n\n길을 찾다: look for the way.\n친구를 찾다: look for a friend.\n지갑을 찾다: look for a wallet.\n\n찾았어요!: I found it!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "(이)랑",
+          "en": "and / with (casual)",
+          "phonetic": "(i)-rang",
+          "example": "친구랑 같이 가요.",
+          "exampleEn": "I'm going with a friend.",
+          "note": "(이)랑: and / with (casual version of 하고).\n\nConsonant ending + 이랑: 친구 → X, wait — 친구 ends in vowel → 랑.\nVowel ending + 랑: 친구랑, 엄마랑\nConsonant ending + 이랑: 선생님이랑, 동생이랑\n\n친구랑 = 친구하고 (same meaning, more casual).\n\n하고: neutral.\n(이)랑: casual/spoken.\n와/과: formal/written.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "에게 / 한테",
+          "en": "to (a person)",
+          "phonetic": "e-ge / han-te",
+          "example": "친구에게 선물을 줬어요.",
+          "exampleEn": "I gave a gift to a friend.",
+          "note": "에게: to (a person) — formal/written.\n한테: to (a person) — casual/spoken.\n\n친구에게 = 친구한테 (same meaning).\n\n선생님에게 물어봤어요: I asked the teacher.\n엄마한테 전화했어요: I called mom.\n\n에: for places/things.\n에게/한테: for people/animals.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "친구랑 같이 가요. (이)랑 is the casual form of:",
+          "opts": [
+            "하고",
+            "에서",
+            "의",
+            "에"
+          ],
+          "ans": "하고",
+          "hint": "(이)랑 = 하고 (and/with). More casual."
+        },
+        {
+          "type": "mc",
+          "q": "에게 vs 한테:",
+          "opts": [
+            "Same meaning, 에게 is formal",
+            "에게 is for places",
+            "한테 is for things",
+            "Different meanings"
+          ],
+          "ans": "Same meaning, 에게 is formal",
+          "hint": "에게 (formal) = 한테 (casual). Both mean 'to a person.'"
+        }
+      ]
+    },
+    {
+      "id": "kou6l4",
+      "title": "Directions",
+      "icon": "🧭",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Left, Right, Straight, Nearby",
+          "desc": "Direction vocabulary for real-world navigation. Korea's numbered subway exits make directions simpler. You'll use 으로 from the last lesson constantly here.",
+          "goals": [
+            "Give and understand basic directions",
+            "Use 어디에 있어요? to find places",
+            "Know subway exit culture"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "왼쪽 / 오른쪽",
+          "en": "left / right",
+          "phonetic": "oen-jjok / o-reun-jjok",
+          "example": "왼쪽으로 가세요.",
+          "exampleEn": "Please go left.",
+          "note": "쪽: side/direction (reusable suffix).\n왼: left. 오른: right.\n\n쪽 reappears everywhere:\n앞쪽: front side\n뒤쪽: back side\n위쪽: upper side\n아래쪽: lower side\n이쪽: this way (이 + 쪽)",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "직진 / 유턴",
+          "en": "straight / U-turn",
+          "phonetic": "jik-jin / yu-teon",
+          "example": "직진하세요. 그다음 왼쪽이에요.",
+          "exampleEn": "Go straight. Then it's on the left.",
+          "note": "직진: go straight.\nSINO-KOREAN: 직 (straight) + 진 (advance).\n\n유턴: Konglish for U-turn.\n\n좌회전: left turn (좌=left, 회전=turn)\n우회전: right turn (우=right, 회전=turn)\n\n좌우: left-right (direction pair).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "근처",
+          "en": "nearby / in the vicinity",
+          "phonetic": "geun-cheo",
+          "example": "여기 근처에 카페가 있어요?",
+          "exampleEn": "Is there a café nearby?",
+          "note": "근처: nearby area.\n근처에: in the vicinity of.\n\n여기 근처에: near here\n학교 근처에: near the school\n역 근처에: near the station\n\n역: (subway/train) station — important word!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "어디에 있어요?",
+          "en": "Where is it?",
+          "phonetic": "eo-di-e i-sseo-yo?",
+          "example": "화장실이 어디에 있어요?",
+          "exampleEn": "Where is the bathroom?",
+          "note": "어디: where (question word).\n어디에 있어요?: 'Where does it exist?'\n= Where is it?\n\n화장실이 어디에 있어요?: Where's the bathroom?\n출구가 어디에 있어요?: Where's the exit?\n지하철역이 어디에 있어요?: Where's the subway station?",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "역",
+          "en": "station (subway/train)",
+          "phonetic": "yeok",
+          "example": "다음 역이 어디예요?",
+          "exampleEn": "What's the next station?",
+          "note": "역: station.\n\n홍대역: Hongdae Station\n강남역: Gangnam Station\n서울역: Seoul Station\n\n역 근처에: near the station\n몇 번 출구: which numbered exit\n\n번: number counter (for numbering things).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🚇 Numbered Exits: Korea's Navigation Secret",
+          "text": "Every Korean subway station has NUMBERED EXITS.\n\n출구: exit (출=out + 구=opening/mouth)\n1번 출구, 2번 출구, 3번 출구...\n\nWhy this matters:\nKoreans give ALL directions by exit number.\n\n'3번 출구로 나오세요.\n→ Please come out exit 3.\n\n홍대역 9번 출구 앞에서 만나요.\n→ Let's meet in front of Hongdae Station exit 9.\n\nPractical use:\n• Save the exit number, not just the station\n• Landmarks are always described by exit number\n• Meeting spots are '역 X번 출구 앞' (in front of exit X)"
+        },
+        {
+          "type": "mc",
+          "q": "쪽 in 왼쪽/오른쪽 means:",
+          "opts": [
+            "Turn",
+            "Side/direction",
+            "Hand",
+            "Road"
+          ],
+          "ans": "Side/direction",
+          "hint": "쪽 = side/direction suffix. 이쪽, 앞쪽, 뒤쪽 all use it."
+        },
+        {
+          "type": "mc",
+          "q": "'Where is the bathroom?' in Korean:",
+          "opts": [
+            "화장실이 뭐예요?",
+            "화장실이 어디에 있어요?",
+            "화장실을 가요?",
+            "화장실에서 있어요?"
+          ],
+          "ans": "화장실이 어디에 있어요?",
+          "hint": "어디에 있어요? = Where does it exist? = Where is it?"
+        },
+        {
+          "type": "mc",
+          "q": "직진 = 직 + 진. What does it mean?",
+          "opts": [
+            "Slow down",
+            "Turn left",
+            "Go straight",
+            "Go back"
+          ],
+          "ans": "Go straight",
+          "hint": "직 (straight) + 진 (advance)"
+        },
+        {
+          "type": "mc",
+          "q": "Koreans give directions using:",
+          "opts": [
+            "Street names like America",
+            "Numbered subway exits",
+            "Building colors",
+            "Compass directions"
+          ],
+          "ans": "Numbered subway exits",
+          "hint": "'3번 출구로 나오세요' — exit number is the landmark"
+        },
+        {
+          "type": "fb",
+          "s": "지하철역이 ___ 있어요? (Where is the subway station?)",
+          "a": "어디에",
+          "opts": [
+            "어디에",
+            "어디를",
+            "어디서",
+            "어디가"
+          ],
+          "hint": "어디에 있어요 = where is it? (어디 + location particle 에)"
+        },
+        {
+          "type": "fb",
+          "s": "직진하다가 오른쪽___가세요.",
+          "a": "으로",
+          "opts": [
+            "으로",
+            "에",
+            "에서",
+            "를"
+          ],
+          "hint": "오른쪽 ends in consonant ㄱ → 으로"
+        },
+        {
+          "type": "fb",
+          "s": "학교 ___에 카페가 있어요.",
+          "a": "근처",
+          "opts": [
+            "근처",
+            "뒤쪽",
+            "직진",
+            "출구"
+          ],
+          "hint": "근처 = nearby/vicinity"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "왼쪽으로 가세요",
+              "en": "go left"
+            },
+            {
+              "nl": "직진하세요",
+              "en": "go straight"
+            },
+            {
+              "nl": "오른쪽으로 가세요",
+              "en": "go right"
+            },
+            {
+              "nl": "3번 출구",
+              "en": "exit number 3"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1}하다가 왼쪽{2} 가세요. 역 {3}에 있어요.",
+          "blanks": {
+            "1": "직진",
+            "2": "으로",
+            "3": "근처"
+          },
+          "pool": [
+            "직진",
+            "오른쪽",
+            "으로",
+            "에서",
+            "근처",
+            "앞쪽"
+          ],
+          "hint": "Go straight, then go left. It's near the station."
+        },
+        {
+          "type": "mc",
+          "q": "'Let's meet in front of exit 9 at Hongdae Station':",
+          "opts": [
+            "홍대역 9번 출구 앞에서 만나요",
+            "홍대 9번에서 만나요",
+            "홍대역에 만나요",
+            "9번에 홍대를 만나요"
+          ],
+          "ans": "홍대역 9번 출구 앞에서 만나요",
+          "hint": "역 + numbered exit + 앞에서 + 만나요 — standard Korean meeting arrangement"
+        },
+        {
+          "type": "teach",
+          "nl": "위",
+          "en": "above / on top of",
+          "phonetic": "wi",
+          "example": "책상 위에 있어요.",
+          "exampleEn": "It's on top of the desk.",
+          "note": "위: above, on top.\\n위에: on top of / above (+ 에 for location).\\n\\n책상 위에: on the desk.\\n냉장고 위에: on top of the fridge.\\n\\n위 ↔ 아래/밑: top ↔ bottom.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "옆",
+          "en": "beside / next to",
+          "phonetic": "yeop",
+          "example": "학교 옆에 있어요.",
+          "exampleEn": "It's next to the school.",
+          "note": "옆: beside, next to.\\n옆에: next to / beside.\\n\\n학교 옆에: next to the school.\\n내 옆에 앉아요: sit next to me.\\n\\n방향(direction) vs 위치(position):\\n왼쪽으로 가세요 (direction) vs 옆에 있어요 (position).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "밖",
+          "en": "outside",
+          "phonetic": "bak",
+          "example": "밖에 있어요.",
+          "exampleEn": "It's outside.",
+          "note": "밖: outside.\\n밖에: outside of.\\n\\n안 (inside) ↔ 밖 (outside).\\n\\n밖에 나가요: go outside.\\n문 밖에: outside the door.\\n집 밖에: outside the house.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "사이",
+          "en": "between",
+          "phonetic": "sa-i",
+          "example": "은행과 카페 사이에 있어요.",
+          "exampleEn": "It's between the bank and the café.",
+          "note": "사이: between.\\nA와 B 사이에: between A and B.\\n\\n은행과 카페 사이에: between the bank and café.\\n\\n사이 also means 'relationship':\\n우리 사이: our relationship / between us.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "📍 The Complete 8-Position Set",
+          "text": "You now know all the core position words:\\n\\n위 (above) ↔ 아래/밑 (below)\\n앞 (front) ↔ 뒤 (back)\\n안 (inside) ↔ 밖 (outside)\\n왼쪽 (left) ↔ 오른쪽 (right)\\n\\nPlus:\\n옆 (beside/next to)\\n사이 (between)\\n근처 (nearby)\\n\\nAll use +에 있어요 to say 'is at [position]':\n\n책상 위에 있어요.\n→ It's on top of the desk.\n\n은행 옆에 있어요.\n→ It's next to the bank.\n\n집 밖에 있어요.\n→ It's outside the house."
+        },
+        {
+          "type": "teach",
+          "nl": "건너다 / 건너가다",
+          "en": "to cross",
+          "phonetic": "geon-neo-da",
+          "example": "횡단보도를 건너세요.",
+          "exampleEn": "Cross at the crosswalk.",
+          "note": "건너다: to cross.\\n건너가다: to go across.\\n\\n길을 건너다: cross the road.\\n다리를 건너다: cross the bridge.\\n횡단보도: crosswalk.\\n\\n건너세요: please cross (polite command).",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "돌다 / 돌아가다",
+          "en": "to turn",
+          "phonetic": "dol-da",
+          "example": "왼쪽으로 돌아가세요.",
+          "exampleEn": "Turn left.",
+          "note": "돌다: to turn.\\n돌아가다: to turn and go.\\n\\n왼쪽으로 돌아가세요: turn left.\\n오른쪽으로 돌아가세요: turn right.\\n\\n좌회전/우회전: formal signs.\\n돌아가세요 = conversational direction.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "'It's next to the school' — correct:",
+          "opts": [
+            "학교 위에 있어요",
+            "학교 옆에 있어요",
+            "학교 사이에 있어요",
+            "학교 밖에 있어요"
+          ],
+          "ans": "학교 옆에 있어요",
+          "hint": "옆 = beside/next to"
+        },
+        {
+          "type": "mc",
+          "q": "'Between the bank and the café':",
+          "opts": [
+            "은행 카페 위에",
+            "은행과 카페 옆에",
+            "은행과 카페 사이에",
+            "은행과 카페 밖에"
+          ],
+          "ans": "은행과 카페 사이에",
+          "hint": "A와 B 사이에 = between A and B"
+        },
+        {
+          "type": "mc",
+          "q": "안 ↔ 밖 means:",
+          "opts": [
+            "Front ↔ Back",
+            "Left ↔ Right",
+            "Inside ↔ Outside",
+            "Above ↔ Below"
+          ],
+          "ans": "Inside ↔ Outside",
+          "hint": "안 = inside, 밖 = outside"
+        },
+        {
+          "type": "mc",
+          "q": "'Cross the crosswalk' — correct verb:",
+          "opts": [
+            "가세요",
+            "건너세요",
+            "돌아가세요",
+            "내려가세요"
+          ],
+          "ans": "건너세요",
+          "hint": "건너다 = to cross"
+        },
+        {
+          "type": "fb",
+          "s": "책상 ___ 에 책이 있어요. (The book is on top of the desk)",
+          "a": "위",
+          "opts": [
+            "위",
+            "아래",
+            "옆",
+            "사이"
+          ],
+          "hint": "위 = above/on top"
+        },
+        {
+          "type": "fb",
+          "s": "직진하다가 왼쪽으로 ___. (Go straight then turn left)",
+          "a": "돌아가세요",
+          "opts": [
+            "돌아가세요",
+            "건너세요",
+            "가세요",
+            "내려가세요"
+          ],
+          "hint": "돌다/돌아가다 = to turn"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "위",
+              "en": "above/on top"
+            },
+            {
+              "nl": "옆",
+              "en": "beside/next to"
+            },
+            {
+              "nl": "밖",
+              "en": "outside"
+            },
+            {
+              "nl": "사이",
+              "en": "between"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kou6l5",
+      "title": "★ Verb Review: Contractions + Irregular Seeds",
+      "icon": "🔧",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "The Full Engine — Contractions and What's Coming",
+          "desc": "You know the stem. You know vowel harmony. Now: the full set of contraction patterns, and a first look at the irregular families coming in Unit 7. Consider this your A1 verb graduation.",
+          "goals": [
+            "Master all contraction patterns",
+            "See every verb class you've used in A1 systematically",
+            "Plant seeds for the 5 irregular families",
+            "Preview the past tense structure (Unit 7)"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "📋 The Complete Contraction Map",
+          "text": "When the stem's final vowel meets the -아/어요 ending, these contacts happen:\n\nCONTRACTIONS:\n가 + 아요 = 가요 (ㅏ+ㅏ → single ㅏ)\n오 + 아요 = 와요 (ㅗ+ㅏ → ㅘ)\n보 + 아요 = 봐요 (ㅗ+ㅏ → ㅘ)\n마시 + 어요 = 마셔요 (ㅣ+ㅓ → ㅕ)\n배우 + 어요 = 배워요 (ㅜ+ㅓ → ㅝ)\n쓰 + 어요 = 써요 (ㅡ drops, ㅓ takes over)\n하 + 아요 = 해요 (ㅏ+ㅏ → ㅐ: special)\n\nNO CONTRACTION (consonant stems — vowel inserted):\n먹 + 어요 = 먹어요\n있 + 어요 = 있어요\n읽 + 어요 = 읽어요"
+        },
+        {
+          "type": "mc",
+          "q": "배우다 (to learn) — stem 배우, vowel ㅜ. Polite form?",
+          "opts": [
+            "배우아요",
+            "배워요",
+            "배우요",
+            "배해요"
+          ],
+          "ans": "배워요",
+          "hint": "ㅜ+ㅓ contracts to ㅝ. 배우 + 어요 = 배워요"
+        },
+        {
+          "type": "mc",
+          "q": "쓰다 (to write/use) — stem 쓰, vowel ㅡ. Polite form?",
+          "opts": [
+            "쓰어요",
+            "쓰아요",
+            "써요",
+            "쓰요"
+          ],
+          "ans": "써요",
+          "hint": "ㅡ drops when followed by a vowel ending. 쓰 + 어요 = 써요"
+        },
+        {
+          "type": "mc",
+          "q": "읽다 (to read) — stem 읽, consonant. Polite form?",
+          "opts": [
+            "읽아요",
+            "읽어요",
+            "읽요",
+            "읽해요"
+          ],
+          "ans": "읽어요",
+          "hint": "Consonant stem + 어요. No contraction. 읽 + 어요 = 읽어요"
+        },
+        {
+          "type": "tip",
+          "title": "⚡ The 5 Irregular Families — JRTF",
+          "text": "Most Korean verbs are completely regular.\nBut 5 families behave differently when vowel endings attach.\nYou've already seen some of them — now you know to watch for them.\n\n① ㄷ-IRREGULAR: ㄷ becomes ㄹ before vowels\n걷다 (walk) → 걸어요 (not 걷어요)\n듣다 (listen) → 들어요\n\n② ㅂ-IRREGULAR: ㅂ becomes 우 before vowels\n덥다 (hot) → 더워요\n춥다 (cold) → 추워요\n어렵다 (difficult) → 어려워요\n\n③ ㅅ-IRREGULAR: ㅅ drops before vowels\n낫다 (to get better) → 나아요\n\n④ 르-IRREGULAR: 르 doubles ㄹ\n모르다 (not know) → 몰라요\n부르다 (call) → 불러요\n\n⑤ ㅎ-IRREGULAR: ㅎ drops/transforms\n빨갛다 (red) → 빨개요\n하얗다 (white) → 하얘요\n\n⚡ JRTF: Full explanation in Unit 7 (①②) and Unit 9 (④⑤).\nFor now: notice the pattern. You've heard 더워요 and 어려워요 before.",
+          "deepDive": {
+            "title": "Why Do Irregulars Exist?",
+            "text": "Korean irregulars are not random.\nThey're the result of historical sound changes:\n\nㄷ-irregular: in old Korean, ㄷ softened to ㄹ before vowels.\nRegular ㄷ verbs like 받다 (receive) didn't change.\nIrregular ones like 듣다 (listen) did. Inherited from the sound shift.\n\nㅂ-irregular: ㅂ was originally a bilabial fricative (like English 'v').\nBefore vowels, it weakened to 오/우.\nHence: 덥다 → 더워요 (더 + v + 어요 → 더우어요 → 더워요)\n\nThese aren't exceptions to memorise — they're historical fossils.\nKnowing the pattern lets you predict them."
+          }
+        },
+        {
+          "type": "mc",
+          "q": "덥다 (hot) is a ㅂ-irregular. Its polite form is:",
+          "opts": [
+            "덥어요",
+            "더워요",
+            "덥아요",
+            "덥해요"
+          ],
+          "ans": "더워요",
+          "hint": "ㅂ-irregular: ㅂ → 우 before vowels. 덥 → 더우 + 어요 = 더워요"
+        },
+        {
+          "type": "mc",
+          "q": "모르다 (not know) is a 르-irregular. Its polite form is:",
+          "opts": [
+            "모르어요",
+            "모르아요",
+            "몰라요",
+            "모르해요"
+          ],
+          "ans": "몰라요",
+          "hint": "르-irregular: 르 → ㄹ doubles. 모르 + 아요 = 몰라요"
+        },
+        {
+          "type": "teach",
+          "nl": "Past tense preview: stem + 았/었어요",
+          "en": "Adding the past tense car",
+          "phonetic": "",
+          "example": "먹었어요 / 갔어요 / 했어요",
+          "exampleEn": "ate / went / did",
+          "note": "The past tense adds ONE car between the stem and -요:\n\n가 (bright ㅏ) + 았어요 = 갔어요\n먹 (dark ㅓ) + 었어요 = 먹었어요\n하 → 했어요 (always)\n\n⚡ JRTF: Same vowel harmony rule applies to past!\nBright stem → -았어요\nDark stem → -었어요\n하다 → 했어요\n\nThis is Unit 7. You're ready. Just notice the pattern now.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "먹다 (dark vowel) — past tense form:",
+          "opts": [
+            "먹았어요",
+            "먹었어요",
+            "먹해요",
+            "먹다했어요"
+          ],
+          "ans": "먹었어요",
+          "hint": "Dark vowel → 었어요. 먹 + 었어요 = 먹었어요"
+        },
+        {
+          "type": "mc",
+          "q": "가다 (bright vowel ㅏ) — past tense form:",
+          "opts": [
+            "가었어요",
+            "갔어요",
+            "가았어요",
+            "가했어요"
+          ],
+          "ans": "갔어요",
+          "hint": "Bright vowel → 았어요. 가 + 았어요 = 갔어요 (contraction: ㅏ+ㅏ=ㅏ)"
+        },
+        {
+          "type": "mc",
+          "q": "하다 — past tense form:",
+          "opts": [
+            "하았어요",
+            "하었어요",
+            "했어요",
+            "하했어요"
+          ],
+          "ans": "했어요",
+          "hint": "하다 always: 해요 (present), 했어요 (past). Special contraction."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "가다",
+              "en": "go"
+            },
+            {
+              "nl": "먹다",
+              "en": "eat"
+            },
+            {
+              "nl": "하다",
+              "en": "do"
+            },
+            {
+              "nl": "오다",
+              "en": "come"
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "🎓 A1 Verb Graduation",
+          "text": "You leave A1 knowing:\n\n🚂 Stem + ending = every Korean verb\n⚡ Bright (ㅏ/ㅗ) → -아요 / Dark → -어요\n🎙️ 해요체 = your register\n📋 All contraction patterns\n🌱 5 irregular families (to be explained in A2)\n⏰ Past tense preview: -았/었어요\n\nUnit 7 formally teaches the past tense.\nYou already know the engine. You just need the new car.\n\nWelcome to A2."
+        }
+      ]
+    },
+    {
+      "id": "kou6l6",
+      "title": "Weather Talk",
+      "icon": "🌤️",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Hot, Cold, and JRTF Irregular Forms",
+          "desc": "Weather is day-one practical vocabulary. But several key weather words use irregular conjugation. Flag them now — Unit 7 will explain the ㅂ pattern.",
+          "goals": [
+            "Say hot, cold, sunny, rainy, cloudy",
+            "Accept JRTF for ㅂ-irregular weather verbs",
+            "Use 날씨가 어때요? (How's the weather?)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "날씨",
+          "en": "weather",
+          "phonetic": "nal-ssi",
+          "example": "오늘 날씨가 어때요?",
+          "exampleEn": "How's the weather today?",
+          "note": "날씨: weather.\n날: day/weather. 씨: suffix.\n\n날씨가 어때요?: How's the weather?\n어때요?: 'How is it?' — very useful question pattern.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "덥다 → 더워요",
+          "en": "hot (weather) → it's hot",
+          "phonetic": "deop-da → deo-wo-yo",
+          "example": "오늘 너무 더워요.",
+          "exampleEn": "It's really hot today.",
+          "note": "덥다: to be hot (weather/temperature).\n\n더워요 (NOT 덥어요!).\nThe ㅂ at the end changes to 워 before vowel endings.\n\n⚡ JUST REMEMBER THIS FORM.\nFull ㅂ-irregular pattern: Unit 7.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "춥다 → 추워요",
+          "en": "cold (weather) → it's cold",
+          "phonetic": "chup-da → chu-wo-yo",
+          "example": "겨울에 너무 추워요.",
+          "exampleEn": "It's so cold in winter.",
+          "note": "춥다: to be cold (weather/temperature).\n\n추워요 (NOT 춥어요!).\nSame ㅂ-irregular as 덥다 (hot).\n추워요 (NOT 춥어요).\n\n⚡ JUST REMEMBER THIS FORM.\n겨울: winter. 여름: summer.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "맑다 → 맑아요",
+          "en": "clear/sunny → it's clear",
+          "phonetic": "mak-da → mal-ga-yo",
+          "example": "날씨가 맑아요.",
+          "exampleEn": "The weather is clear.",
+          "note": "맑다: clear, sunny.\n맑아요: regular! (no irregular change)\n\n날씨가 맑아요: the weather is clear\n하늘이 맑아요: the sky is clear\n\n하늘: sky. 하늘색: sky-blue (하늘 + 색).",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "비가 와요",
+          "en": "it's raining",
+          "phonetic": "bi-ga wa-yo",
+          "example": "오늘 비가 와요.",
+          "exampleEn": "It's raining today.",
+          "note": "비: rain.\n와요: comes (비가 오다 = rain comes)\n\nKorean thinks of rain, snow as 'coming':\n비가 와요: rain comes = it rains\n눈이 와요: snow comes = it snows\n\n비가 많이 와요: it rains a lot\n비가 조금 와요: it rains a little",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "흐리다 → 흐려요",
+          "en": "cloudy → it's cloudy",
+          "phonetic": "heu-ri-da → heu-ryeo-yo",
+          "example": "오늘 흐려요.",
+          "exampleEn": "It's cloudy today.",
+          "note": "흐리다: cloudy.\n흐려요: it's cloudy (이 + 어 → 여 contraction).\n\nSame pattern you saw with 마시다 → 마셔요.\n이 + 어 → 여\n\n맑음: clear (weather forecast)\n흐림: cloudy (weather forecast)\n비: rain (weather forecast)",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "'It's hot' in Korean (correct form):",
+          "opts": [
+            "덥어요",
+            "덥요",
+            "더워요",
+            "더워다"
+          ],
+          "ans": "더워요",
+          "hint": "⚡ JRTF: 덥다 → 더워요 (ㅂ-irregular)"
+        },
+        {
+          "type": "mc",
+          "q": "'It's raining' in Korean:",
+          "opts": [
+            "비가 와요",
+            "비가 있어요",
+            "비가 내려요",
+            "비가 해요"
+          ],
+          "ans": "비가 와요",
+          "hint": "Korean thinks of rain as 'coming': 비가 오다"
+        },
+        {
+          "type": "mc",
+          "q": "날씨가 어때요? means:",
+          "opts": [
+            "What's the weather?",
+            "Where is the weather?",
+            "The weather is good",
+            "What season is it?"
+          ],
+          "ans": "What's the weather?",
+          "hint": "어때요 = how is it? 날씨 = weather"
+        },
+        {
+          "type": "mc",
+          "q": "춥다 → 추워요 is an example of:",
+          "opts": [
+            "Regular conjugation",
+            "ㅂ-irregular (explained in U7)",
+            "A typo",
+            "Konglish"
+          ],
+          "ans": "ㅂ-irregular (explained in U7)",
+          "hint": "JRTF: just remember the form, pattern in Unit 7"
+        },
+        {
+          "type": "fb",
+          "s": "오늘 날씨가 ___. 비가 와요. (It's cloudy today. It's raining.)",
+          "a": "흐려요",
+          "opts": [
+            "흐려요",
+            "흐리어요",
+            "맑아요",
+            "더워요"
+          ],
+          "hint": "흐리다 → 흐려요 (이 + 어 → 여)"
+        },
+        {
+          "type": "fb",
+          "s": "여름에 ___, 겨울에 추워요. (In summer it's hot, in winter it's cold)",
+          "a": "더워요",
+          "opts": [
+            "더워요",
+            "덥어요",
+            "덥요",
+            "더위요"
+          ],
+          "hint": "⚡ JRTF: 덥다 → 더워요"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "더워요",
+              "en": "it's hot"
+            },
+            {
+              "nl": "추워요",
+              "en": "it's cold"
+            },
+            {
+              "nl": "맑아요",
+              "en": "it's clear/sunny"
+            },
+            {
+              "nl": "비가 와요",
+              "en": "it's raining"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "오늘 날씨가 {1}. {2}가 {3}.",
+          "blanks": {
+            "1": "흐려요",
+            "2": "비",
+            "3": "와요"
+          },
+          "pool": [
+            "더워요",
+            "흐려요",
+            "비",
+            "눈",
+            "와요",
+            "있어요"
+          ],
+          "hint": "It's cloudy today. It's raining."
+        },
+        {
+          "type": "mc",
+          "q": "눈이 와요 means:",
+          "opts": [
+            "It's snowing",
+            "It's raining",
+            "It's sunny",
+            "The sky is clear"
+          ],
+          "ans": "It's snowing",
+          "hint": "눈: snow. 눈이 오다 = snow comes = it snows. Same pattern as 비가 와요."
+        },
+        {
+          "type": "mc",
+          "q": "하늘색 = 하늘 + 색. 색 means:",
+          "opts": [
+            "Sky",
+            "Clear",
+            "Color",
+            "Cloud"
+          ],
+          "ans": "Color",
+          "hint": "하늘 (sky) + 색 (color) = sky-blue color"
+        },
+        {
+          "type": "teach",
+          "nl": "마다",
+          "en": "every / each",
+          "phonetic": "ma-da",
+          "example": "날마다 운동해요.",
+          "exampleEn": "I exercise every day.",
+          "note": "마다: every / each.\n\n날마다: every day (= 매일).\n주마다: every week.\n사람마다: every person / each person.\n\n매일 vs 날마다: same meaning.\n매 (每: every) is Sino-Korean.\n마다 is pure Korean particle.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "아주",
+          "en": "very / extremely",
+          "phonetic": "a-ju",
+          "example": "오늘 날씨가 아주 좋아요.",
+          "exampleEn": "The weather is very good today.",
+          "note": "아주: very, extremely.\n\n아주 좋아요: very good.\n아주 맛있어요: very delicious.\n\n아주 vs 너무 vs 정말:\n아주: very (neutral emphasis)\n너무: too much (can be positive or negative)\n정말: really (emphasis on truth)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "바람 / 산 / 바다",
+          "en": "wind / mountain / sea",
+          "phonetic": "ba-ram / san / ba-da",
+          "example": "바람이 불어요. 산이 높아요. 바다가 넓어요.",
+          "exampleEn": "The wind blows. The mountain is high. The sea is wide.",
+          "note": "자연 (nature) vocabulary:\n\n바람: wind. 바람이 불다: wind blows.\n산 (山): mountain. 산이 높아요: the mountain is high.\n바다: sea/ocean. 바다가 넓어요: the sea is wide.\n나무: tree. 나무가 많아요: there are many trees.\n강 (江): river. 한강: Han River.\n\n등산: mountain climbing (登山: climb + mountain).\n등산하다: to go hiking.",
+          "kind": "phrase"
+        },
+        {
+          "type": "mc",
+          "q": "날마다 = 매일. 마다 means:",
+          "opts": [
+            "Every/each",
+            "Only",
+            "Also",
+            "But"
+          ],
+          "ans": "Every/each",
+          "hint": "마다 = every/each. 날마다 = every day."
+        },
+        {
+          "type": "mc",
+          "q": "아주 좋아요 means:",
+          "opts": [
+            "Very good",
+            "A little good",
+            "Not good",
+            "Too good"
+          ],
+          "ans": "Very good",
+          "hint": "아주 = very/extremely."
+        }
+      ]
+    },
+    {
+      "id": "kou6l7",
+      "title": "Transit Compounds + 한강",
+      "icon": "🌉",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Compound Words + Korean Transit Culture",
+          "desc": "A rapid-fire compound decoding session with transport words, then the cultural anchor: the Han River as the heart of Seoul social life.",
+          "goals": [
+            "Decode 버스정류장, 공항, 출구 compounds",
+            "Know T-money card system",
+            "Understand 한강 culture"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "버스 정류장",
+          "en": "bus stop",
+          "phonetic": "beo-seu jeong-ryu-jang",
+          "example": "버스 정류장이 어디에 있어요?",
+          "exampleEn": "Where is the bus stop?",
+          "note": "COMPOUND: 버스 + 정류 + 장.\n정류: stop/stay. 정 (stop/fix) + 류 (flow).\n'Stop the flow' = stopping place.\n장: place.\n\n버스 정류장: 'bus stopping-place'\n주차장: parking lot (주차 + 장: parking place)\n화장실: bathroom (화장 + 실: makeup-clean room)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "공항",
+          "en": "airport",
+          "phonetic": "gong-hang",
+          "example": "공항에 어떻게 가요?",
+          "exampleEn": "How do I get to the airport?",
+          "note": "SINO-KOREAN: 공항 = 공 + 항.\n공 (空): air / public / empty. 항 (港): port.\n'Air port' = airport.\n\n공기: air (공 + 기 = air + energy/matter)\n공원: park (공 + 원 = public + garden)\n공장: factory (공 + 장 = manufacturing + place)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "출구",
+          "en": "exit",
+          "phonetic": "chul-gu",
+          "example": "3번 출구로 나오세요.",
+          "exampleEn": "Please come out exit 3.",
+          "note": "SINO-KOREAN: 출 + 구.\n출 (出): to go out. 구 (口): mouth/opening.\n'Going-out opening' = exit.\n\n출 reappears in:\n출근: going to work (출 + 근: out + attendance)\n출발: departure (출 + 발: out + departure)\n\n나오세요: please come out (나오다 + 세요)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "T-money 카드",
+          "en": "T-money card",
+          "phonetic": "tee-meo-ni ka-deu",
+          "example": "T-money 카드로 타요.",
+          "exampleEn": "I ride using the T-money card.",
+          "note": "T-money: Korea's rechargeable transit card.\n\n지하철, 버스, 택시 — all accept T-money.\nBuy at any 편의점 (convenience store).\nTop up at subway machines.\n\n카드를 찍다: tap the card\n요금: fare (교통 요금: transit fare)",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🌉 한강: Seoul's Social Heart",
+          "text": "한강 = Han River — runs through the center of Seoul.\n한 (韓) = Korea / great. 강 (江) = river.\n\n한국 사람의 거실\n→ Korean people's living room.\n\nWhat people do at 한강:\n• 치킨 + 맥주 (chicken + beer) on the grass\n• 자전거 타기 (cycling) on riverside paths\n• 야경 감상 (night view) at 63빌딩\n• 한강 유람선 (cruise boat)\n• 피크닉 (picnic) with convenience store food\n\n한강 치킨 배달:\nYou can order chicken delivery to the riverbank.\nDelivery person brings it right to you.\n\n한강 culture = 정 (shared life) + 빨리빨리 (fast-paced, efficient fun)\n\n'한강 가자!' = Let's go to the Han River!\n= Let's hang out."
+        },
+        {
+          "type": "mc",
+          "q": "공항 = 공 + 항. 항 means:",
+          "opts": [
+            "Air",
+            "Machine",
+            "Port",
+            "Road"
+          ],
+          "ans": "Port",
+          "hint": "공 (air) + 항 (port) = airport"
+        },
+        {
+          "type": "mc",
+          "q": "출구 = 출 + 구. 출 means:",
+          "opts": [
+            "Enter",
+            "Exit/go out",
+            "Station",
+            "Open"
+          ],
+          "ans": "Exit/go out",
+          "hint": "출 (出): to go out. 출근 (going to work), 출발 (departure)"
+        },
+        {
+          "type": "mc",
+          "q": "버스 정류장 = 버스 + 정류 + 장. 장 means:",
+          "opts": [
+            "Bus",
+            "Stop",
+            "Place",
+            "Line"
+          ],
+          "ans": "Place",
+          "hint": "장 = place. 주차장 (parking place), 시장 (market place)"
+        },
+        {
+          "type": "mc",
+          "q": "T-money card works on:",
+          "opts": [
+            "Subway only",
+            "Bus only",
+            "Subway + bus + taxi",
+            "Subway + KTX only"
+          ],
+          "ans": "Subway + bus + taxi",
+          "hint": "T-money is the universal Korean transit payment system"
+        },
+        {
+          "type": "fb",
+          "s": "___ 에 어떻게 가요? (How do I get to the airport?)",
+          "a": "공항",
+          "opts": [
+            "공항",
+            "기차역",
+            "버스 정류장",
+            "출구"
+          ],
+          "hint": "공 (air) + 항 (port) = airport"
+        },
+        {
+          "type": "fb",
+          "s": "3번 ___로 나오세요. (Please come out exit 3)",
+          "a": "출구",
+          "opts": [
+            "출구",
+            "공항",
+            "역",
+            "정류장"
+          ],
+          "hint": "출구 = exit (出口)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "버스 정류장",
+              "en": "bus stop"
+            },
+            {
+              "nl": "공항",
+              "en": "airport"
+            },
+            {
+              "nl": "출구",
+              "en": "exit"
+            },
+            {
+              "nl": "한강",
+              "en": "Han River"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1}에서 {2}로 {3}에 가요.",
+          "blanks": {
+            "1": "서울역",
+            "2": "KTX",
+            "3": "부산"
+          },
+          "pool": [
+            "서울역",
+            "KTX",
+            "버스",
+            "부산",
+            "공항"
+          ],
+          "hint": "From Seoul Station, I go to Busan by KTX."
+        },
+        {
+          "type": "mc",
+          "q": "한강 치킨 배달 means:",
+          "opts": [
+            "Chicken restaurant near the river",
+            "Delivery chicken to the Han River bank",
+            "Korean fried chicken brand",
+            "Festival food"
+          ],
+          "ans": "Delivery chicken to the Han River bank",
+          "hint": "You can have chicken delivered directly to you at the riverbank — 정 + convenience culture"
+        }
+      ]
+    },
+    {
+      "id": "kou6l9",
+      "title": "못, -지만 & Connectors",
+      "icon": "🔑",
+      "xp": 28,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "The Final A1 Toolkit",
+          "desc": "못 (can't), -지만 (but), four connectors, and frequency adverbs. These appear in every Korean conversation from day one.",
+          "goals": [
+            "Distinguish 안 (won't) vs 못 (can't)",
+            "Use -지만 for contrast",
+            "Connect sentences with 그래서/그런데/그러면/아니면",
+            "Use frequency adverbs naturally"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "못",
+          "en": "can't (inability)",
+          "phonetic": "mot",
+          "example": "수영을 못해요.",
+          "exampleEn": "(I) can't swim.",
+          "note": "못 goes before the verb.\n\n못 가요\n→ can't go\n\n못 먹어요\n→ can't eat\n\n못 자요\n→ can't sleep",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "💡 수영을 못해요 — why 을?",
+          "text": "수영하다 = 수영 (swimming) + 하다 (to do)\n(to swim = swimming + to do)\n\nWith 하다 verbs, 못 splits the compound:\n\n수영을 못해요\n→ (I) can't swim\n\n운전을 못해요\n→ (I) can't drive\n\n한국어를 못해요\n→ (I) can't speak Korean\n\nWith plain verbs, 못 just goes before:\n\n못 가요\n→ can't go\n\n못 먹어요\n→ can't eat"
+        },
+        {
+          "type": "teach",
+          "nl": "안 vs 못",
+          "en": "won't (choice) vs can't (inability)",
+          "phonetic": "an / mot",
+          "example": "오늘 안 가요.  /  오늘 못 가요.",
+          "exampleEn": "I'm not going today (choice).  /  I can't go today (inability).",
+          "note": "안 = I choose not to.\n못 = I am not able to.\n\nUsing the wrong one changes what you're saying.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "🚫 안 vs 못 — The Difference Matters",
+          "text": "매운 음식을 안 먹어요.\n→ I don't eat spicy food. (preference)\n\n매운 음식을 못 먹어요.\n→ I can't eat spicy food. (physically unable)\n\n커피를 안 마셔요.\n→ I don't drink coffee. (choice)\n\n커피를 못 마셔요.\n→ I can't drink coffee. (e.g. allergy)"
+        },
+        {
+          "type": "mc",
+          "q": "'I can't eat spicy food (not capable)' — correct:",
+          "opts": [
+            "매운 음식을 안 먹어요",
+            "매운 음식을 못 먹어요",
+            "매운 음식이 없어요",
+            "매운 음식을 싫어요"
+          ],
+          "ans": "매운 음식을 못 먹어요",
+          "hint": "못 = not capable"
+        },
+        {
+          "type": "mc",
+          "q": "'I don't drink coffee (by choice)' — correct:",
+          "opts": [
+            "커피를 못 마셔요",
+            "커피를 안 마셔요",
+            "커피가 없어요",
+            "커피를 싫어요"
+          ],
+          "ans": "커피를 안 마셔요",
+          "hint": "안 = I choose not to"
+        },
+        {
+          "type": "fb",
+          "s": "저는 운전을 ___해요. (I can't drive — not capable)",
+          "a": "못",
+          "opts": [
+            "못",
+            "안",
+            "별로",
+            "전혀"
+          ],
+          "hint": "Inability = 못"
+        },
+        {
+          "type": "teach",
+          "nl": "-지 못하다",
+          "en": "cannot (formal long form)",
+          "phonetic": "-ji mot-ha-da",
+          "example": "수영하지 못해요.",
+          "exampleEn": "(I) cannot swim.",
+          "note": "COMPOUND: -지 (verb connector) + 못하다 (cannot do).\nLiterally: 'verb-and-cannot'\n\n수영을 못해요 = 수영하지 못해요\n→ Both mean: can't swim\n→ -지 못하다 is slightly more formal",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "-지만",
+          "en": "but / however",
+          "phonetic": "-ji-man",
+          "example": "한국어는 어렵지만 재미있어요.",
+          "exampleEn": "Korean is difficult, but it's interesting.",
+          "note": "COMPOUND: stem + 지만 (but/however).\n\n어렵다 → 어렵지만\n→ (to be) difficult → but difficult\n\n가다 → 가지만\n→ to go → but going\n\n비싸다 → 비싸지만\n→ (to be) expensive → but expensive",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "✂️ -지만 in Action",
+          "text": "비싸지만 맛있어요.\n→ It's expensive, but delicious.\n\n가고 싶지만 시간이 없어요.\n→ I want to go, but I have no time.\n\n어렵지만 재미있어요.\n→ It's hard, but interesting."
+        },
+        {
+          "type": "mc",
+          "q": "'It's expensive but delicious' — correct:",
+          "opts": [
+            "비싸고 맛있어요",
+            "비싸지만 맛있어요",
+            "비싸서 맛있어요",
+            "비싸는 맛있어요"
+          ],
+          "ans": "비싸지만 맛있어요",
+          "hint": "-지만 = but (contrast)"
+        },
+        {
+          "type": "fb",
+          "s": "한국어는 어렵___ 재미있어요.",
+          "a": "지만",
+          "opts": [
+            "지만",
+            "고",
+            "서",
+            "는데"
+          ],
+          "hint": "-지만 attaches to the first verb stem"
+        },
+        {
+          "type": "teach",
+          "nl": "그래서",
+          "en": "so / therefore",
+          "phonetic": "geu-rae-seo",
+          "example": "피곤해요. 그래서 집에 있어요.",
+          "exampleEn": "I'm tired. So I'm staying home.",
+          "note": "Connects two sentences: reason → result.\n그래서 starts the SECOND sentence.\n\n배가 고파요. 그래서 밥을 먹었어요.\n→ I'm hungry. So I ate.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "그런데 / 근데",
+          "en": "but / by the way",
+          "phonetic": "geu-reon-de / geun-de",
+          "example": "맛있어요. 그런데 비싸요.",
+          "exampleEn": "It's delicious. But it's expensive.",
+          "note": "Two uses:\n\n1. Contrast:\n맛있어요. 그런데 비싸요.\n→ It's delicious. But it's expensive.\n\n2. Topic shift:\n그런데, 오늘 뭐 했어요?\n→ By the way, what did you do today?\n\n근데 = casual spoken form",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "그러면 / 그럼",
+          "en": "then / in that case",
+          "phonetic": "geu-reo-myeon / geu-reom",
+          "example": "그럼, 같이 가요!",
+          "exampleEn": "Then let's go together!",
+          "note": "그럼요!\n→ Of course! (very common polite reply)\n\n그럼 = casual spoken form of 그러면",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "아니면",
+          "en": "or / otherwise",
+          "phonetic": "a-ni-myeon",
+          "example": "커피 아니면 차? 뭐 마실래요?",
+          "exampleEn": "Coffee or tea? What would you like?",
+          "note": "COMPOUND: 아니다 (not be) + (으)면 (if-condition).\nLiterally: 'if it is not (that)'\n\n커피 아니면 차\n→ coffee or tea\n\n여기 아니면 거기\n→ here or there",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🔗 The Connector Set — A1 Complete",
+          "text": "WITHIN a sentence:\n\n-고: and/then\n먹고 마셔요 → eat, then drink\n\n-지만: but\n어렵지만 재미있어요 → hard but interesting\n\n-아/어서: because → Unit 9\n\nBETWEEN sentences:\n\n그리고 → and also\n그래서 → so / therefore\n그런데 / 근데 → but / by the way\n그러면 / 그럼 → then / in that case\n아니면 → or / otherwise\n\nHalf these keep appearing all the way to B1."
+        },
+        {
+          "type": "mc",
+          "q": "'I was tired. So I stayed home.' — which connector?",
+          "opts": [
+            "그런데",
+            "그러면",
+            "그래서",
+            "아니면"
+          ],
+          "ans": "그래서",
+          "hint": "그래서 = so/therefore (reason → result)"
+        },
+        {
+          "type": "mc",
+          "q": "'Coffee or tea?' — which connector?",
+          "opts": [
+            "그리고",
+            "그래서",
+            "그런데",
+            "아니면"
+          ],
+          "ans": "아니면",
+          "hint": "아니면 = or / otherwise"
+        },
+        {
+          "type": "fb",
+          "s": "맛있어요. ___ 비싸요. (Delicious. But expensive.)",
+          "a": "그런데",
+          "opts": [
+            "그런데",
+            "그래서",
+            "그러면",
+            "아니면"
+          ],
+          "hint": "그런데 = but / by the way"
+        },
+        {
+          "type": "teach",
+          "nl": "자주 / 가끔 / 보통",
+          "en": "often / sometimes / usually",
+          "phonetic": "ja-ju / ga-kkeum / bo-tong",
+          "example": "자주 운동해요. 가끔 영화를 봐요.",
+          "exampleEn": "I often exercise. I sometimes watch movies.",
+          "note": "Adverbs go BEFORE the verb:\n\n자주 운동해요 ✓\n→ I often exercise. (correct)\n\n운동해요 자주 ✗\n→ wrong word order\n\nFrequency scale:\n항상 (always) → 자주 (often) → 보통 (usually) → 가끔 (sometimes)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "별로 / 전혀",
+          "en": "not really / not at all",
+          "phonetic": "byeol-lo / jeon-hyeo",
+          "example": "별로 안 좋아요. 전혀 몰라요.",
+          "exampleEn": "It's not really good. I have no idea at all.",
+          "note": "Both ALWAYS pair with a negative:\n\n별로 안 좋아요\n→ not really good\n\n전혀 없어요\n→ absolutely none\n\n전혀 몰라요\n→ I have absolutely no idea",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "다시 / 혼자 / 천천히",
+          "en": "again / alone / slowly",
+          "phonetic": "da-si / hon-ja / cheon-cheon-hi",
+          "example": "천천히 말해 주세요.",
+          "exampleEn": "Please speak slowly.",
+          "note": "다시 한 번만요.\n→ Just one more time.\n\n혼자 왔어요.\n→ I came alone.\n\n천천히 말해 주세요.\n→ Please speak slowly.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "왜 / 얼마나",
+          "en": "why / how much – how long",
+          "phonetic": "wae / eol-ma-na",
+          "example": "왜요? 얼마나 걸려요?",
+          "exampleEn": "Why? How long does it take?",
+          "note": "왜요?\n→ Why? (casual)\n\n얼마나 걸려요?\n→ How long does it take?\n\nFull question word set — now complete:\n뭐 (what) | 어디 (where) | 언제 (when)\n어떻게 (how) | 왜 (why) | 누가 (who)\n얼마 (how much — price) | 얼마나 (how long/much — degree) | 몇 (how many)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "제일 / 가장",
+          "en": "the most / the best",
+          "phonetic": "je-il / ga-jang",
+          "example": "제일 좋아요.",
+          "exampleEn": "I like it the most. / It's the best.",
+          "note": "SINO-KOREAN: 제 (第: rank) + 일 (一: one) = number one = the most.\n\n제일 좋아요\n→ I like it the most.\n\n가장 어려워요\n→ It's the most difficult.\n\n제일 = 가장 — same meaning, 제일 more common in speech.",
+          "kind": "phrase"
+        },
+        {
+          "type": "tip",
+          "title": "📊 Frequency Scale — Full A1 Set",
+          "text": "항상 / 늘\n→ always\n\n자주\n→ often\n\n보통\n→ usually\n\n가끔\n→ sometimes\n\n별로 (+ negative)\n→ not really\n\n전혀 (+ negative)\n→ not at all\n\n이제 A1이 진짜 끝났어요.\n→ Now A1 is truly complete."
+        },
+        {
+          "type": "mc",
+          "q": "별로 / 전혀 always pair with:",
+          "opts": [
+            "Positive sentences",
+            "Negative sentences (안/못/없어요)",
+            "Questions only",
+            "Past tense only"
+          ],
+          "ans": "Negative sentences (안/못/없어요)",
+          "hint": "별로 안 좋아요, 전혀 없어요 — always negative"
+        },
+        {
+          "type": "mc",
+          "q": "'How long does it take?' in Korean:",
+          "opts": [
+            "얼마예요?",
+            "얼마나 걸려요?",
+            "언제 걸려요?",
+            "왜 걸려요?"
+          ],
+          "ans": "얼마나 걸려요?",
+          "hint": "얼마나 = how much/long (degree/duration)"
+        },
+        {
+          "type": "fb",
+          "s": "저는 ___ 커피를 마셔요. (I often drink coffee)",
+          "a": "자주",
+          "opts": [
+            "자주",
+            "가끔",
+            "전혀",
+            "별로"
+          ],
+          "hint": "자주 = often"
+        },
+        {
+          "type": "fb",
+          "s": "___ 말해 주세요. (Please speak slowly)",
+          "a": "천천히",
+          "opts": [
+            "천천히",
+            "자주",
+            "다시",
+            "혼자"
+          ],
+          "hint": "천천히 = slowly"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "자주",
+              "en": "often"
+            },
+            {
+              "nl": "가끔",
+              "en": "sometimes"
+            },
+            {
+              "nl": "전혀 + neg",
+              "en": "not at all"
+            },
+            {
+              "nl": "제일/가장",
+              "en": "the most/best"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1} 운동해요. {2} 피곤해요. {3} 쉬어요.",
+          "blanks": {
+            "1": "자주",
+            "2": "그래서",
+            "3": "가끔"
+          },
+          "pool": [
+            "자주",
+            "가끔",
+            "그래서",
+            "그런데",
+            "전혀"
+          ],
+          "hint": "I often exercise. So I'm tired. I sometimes rest."
+        }
+      ]
+    },
+    {
+      "id": "kou6l8",
+      "title": "Review and Quiz",
+      "icon": "📝",
+      "xp": 30,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 6 Complete — A1 Done",
+          "desc": "Transport, particles, directions, connectors, negation, frequency adverbs. A1 is complete. Everything TOPIK 1 requires is now in place.",
+          "goals": [
+            "Verify 에 vs 에서 vs (으)로 mastery",
+            "Confirm 안 vs 못 distinction",
+            "Test connector and frequency adverb knowledge"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "A1 Complete: Grammar Summary",
+          "en": "Everything covered through U6",
+          "phonetic": "",
+          "example": "저는 버스로 학교에 가요. 학교에서 공부해요. 어렵지만 재미있어요.",
+          "exampleEn": "I go to school by bus. I study at school. It's hard but interesting.",
+          "note": "PARTICLES: 은/는, 이/가, 을/를, 에, 에서, (으)로, 의, 도 — all named.\n\nNEGATION: 안 (choice), 못 (inability), -지 않아요, -지 못해요.\n\nCONNECTORS: -고, -지만, 그래서, 그런데, 그러면, 아니면.\n\nFREQUENCY: 자주, 가끔, 보통, 별로, 전혀, 왜, 얼마나, 제일/가장.\n\nPOSITIONS: 위/아래/앞/뒤/안/밖/옆/사이 — complete set.\n\nVERB STRUCTURE: stem + ending (preview). Full system Unit 7.\n\n✅ You are TOPIK 1 ready.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "에 vs 에서 — the key difference:",
+          "opts": [
+            "Same thing",
+            "에: static/destination; 에서: action location",
+            "에: action; 에서: static",
+            "에: formal; 에서: casual"
+          ],
+          "ans": "에: static/destination; 에서: action location",
+          "hint": "에 = being/going there. 에서 = doing something there."
+        },
+        {
+          "type": "mc",
+          "q": "지하철 decomposes into:",
+          "opts": [
+            "지하 + 철",
+            "지 + 하철",
+            "지하 + 전",
+            "지하철 = one piece"
+          ],
+          "ans": "지하 + 철",
+          "hint": "지하 (underground) + 철 (iron/rail)"
+        },
+        {
+          "type": "mc",
+          "q": "(으)로 marks:",
+          "opts": [
+            "Object",
+            "Static location",
+            "Means/direction",
+            "Topic"
+          ],
+          "ans": "Means/direction",
+          "hint": "BY bus (means), TOWARD the right (direction)"
+        },
+        {
+          "type": "mc",
+          "q": "In 먹어요, the stem is:",
+          "opts": [
+            "먹어",
+            "먹",
+            "어요",
+            "먹어요"
+          ],
+          "ans": "먹",
+          "hint": "Strip 다 from 먹다. Remaining = stem."
+        },
+        {
+          "type": "mc",
+          "q": "'It's hot' — correct polite form:",
+          "opts": [
+            "덥어요",
+            "덥요",
+            "더워요",
+            "더워다"
+          ],
+          "ans": "더워요",
+          "hint": "⚡ JRTF: 덥다 → 더워요 (ㅂ-irregular, Unit 7)"
+        },
+        {
+          "type": "mc",
+          "q": "공항 = 공 + 항. 공 means:",
+          "opts": [
+            "Korean",
+            "Machine",
+            "Air/public/empty",
+            "Port"
+          ],
+          "ans": "Air/public/empty",
+          "hint": "공 (空): air, public, empty. 공기, 공원, 공항"
+        },
+        {
+          "type": "mc",
+          "q": "비가 와요 — why 와요 (come) not another verb?",
+          "opts": [
+            "Random",
+            "Korean conceptualizes rain as 'coming'",
+            "wa-yo sounds soft",
+            "Standard English translation"
+          ],
+          "ans": "Korean conceptualizes rain as 'coming'",
+          "hint": "비가 오다 = rain comes = it rains. 눈이 오다 = snow comes = it snows."
+        },
+        {
+          "type": "fb",
+          "s": "도서관___공부해요. (I study at the library)",
+          "a": "에서",
+          "opts": [
+            "에서",
+            "에",
+            "를",
+            "로"
+          ],
+          "hint": "Studying is an ACTION at the library → 에서"
+        },
+        {
+          "type": "fb",
+          "s": "지하철___학교에 가요. (I go to school by subway)",
+          "a": "로",
+          "opts": [
+            "로",
+            "에",
+            "에서",
+            "를"
+          ],
+          "hint": "지하철 ends in ㄹ → 로 (by subway)"
+        },
+        {
+          "type": "fb",
+          "s": "친구가___. (A friend comes — polite present)",
+          "a": "와요",
+          "opts": [
+            "와요",
+            "오아요",
+            "오요",
+            "왔요"
+          ],
+          "hint": "오다 → 오 + 아 contracts to 와. 와요."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "에",
+              "en": "to/at (static or destination)"
+            },
+            {
+              "nl": "에서",
+              "en": "at (action location)"
+            },
+            {
+              "nl": "(으)로",
+              "en": "by/toward (means/direction)"
+            },
+            {
+              "nl": "을/를",
+              "en": "object marker"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 버스{1} 공항{2} 가요. 공항{3} 두 시간 기다렸어요.",
+          "blanks": {
+            "1": "로",
+            "2": "에",
+            "3": "에서"
+          },
+          "pool": [
+            "로",
+            "에",
+            "에서",
+            "를",
+            "는"
+          ],
+          "hint": "I go to the airport by bus. I waited at the airport for 2 hours."
+        },
+        {
+          "type": "mc",
+          "q": "You've now finished A1.2. You can:",
+          "opts": [
+            "Read novels",
+            "Watch dramas without subtitles",
+            "Handle survival Korean situations and navigate Korea",
+            "Speak fluently"
+          ],
+          "ans": "Handle survival Korean situations and navigate Korea",
+          "hint": "A1.2 = survival level. You can navigate, eat, shop, ask directions, handle numbers."
+        }
+      ]
+    }
+  ]
+}

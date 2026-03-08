@@ -1,0 +1,2453 @@
+{
+  "_schema": "lingoverse_unit_v1",
+  "_extracted": "2026-03-07",
+  "unit": {
+    "n": 2,
+    "lang": "ko",
+    "track": "v1",
+    "title": "저는 학생이에요",
+    "sub": "Identity, Existence & Demonstratives",
+    "icon": "🧑",
+    "level": "A1.1",
+    "color": "#5B8CFF"
+  },
+  "lessons": [
+    {
+      "id": "kou2l1",
+      "title": "직업 (Jobs)",
+      "icon": "💼",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "What Do You Do?",
+          "desc": "Job words — and every single one is a Sino-Korean compound. You'll see the SAME building blocks from Unit 1 reappearing. This is the LEGO system in action.",
+          "goals": [
+            "Learn 8 job words",
+            "Decompose each into Sino-Korean parts",
+            "See 학, 생, 원, 사 reused across words"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "학생",
+          "hanja": "學+生",
+          "en": "student",
+          "phonetic": "hak-saeng",
+          "example": "저는 학생이에요.",
+          "exampleEn": "I am a student.",
+          "note": "SINO-KOREAN: 학 (study) + 생 (life, person).\n'Study-person' = student.\n학 reappears in: 학교, 학원, 대학교...\n생 reappears in: 선생님, 생일, 생활...",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "선생님",
+          "hanja": "先生+님",
+          "en": "teacher",
+          "phonetic": "seon-saeng-nim",
+          "example": "선생님, 감사합니다!",
+          "exampleEn": "Thank you, teacher!",
+          "note": "COMPOUND: 선생 (teacher) + 님 (honorific).\n님 shows RESPECT. You add it to titles.\n선생 alone is informal. 님 elevates it.\n님 reappears in: 사장님, 부장님, 의사 선생님...",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "의사",
+          "hanja": "醫+師",
+          "en": "doctor",
+          "phonetic": "ui-sa",
+          "example": "저는 의사예요.",
+          "exampleEn": "I am a doctor.",
+          "note": "SINO-KOREAN: 의 (medicine) + 사 (master/expert).\n의 reappears in: 의학 (medicine), 의원 (clinic).\n사 (master/expert) reappears in: 교사, 강사...",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "회사원",
+          "hanja": "會社+員",
+          "en": "office worker",
+          "phonetic": "hoe-sa-won",
+          "example": "저는 회사원이에요.",
+          "exampleEn": "I am an office worker.",
+          "note": "SINO-KOREAN: 회사 (company) + 원 (member).\n'Company-member' = office worker.\n원 reappears in: 병원, 학원, 공무원...",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "경찰관",
+          "hanja": "警察+官",
+          "en": "police officer",
+          "phonetic": "gyeong-chal-gwan",
+          "example": "경찰관이에요.",
+          "exampleEn": "(They are) a police officer.",
+          "note": "SINO-KOREAN: 경찰 (police) + 관 (official).\n관: same building block as 도서관!\n경 (warn) + 찰 (observe): police.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "요리사",
+          "hanja": "料理+師",
+          "en": "chef / cook",
+          "phonetic": "yo-ri-sa",
+          "example": "저는 요리사예요.",
+          "exampleEn": "I am a chef.",
+          "note": "SINO-KOREAN: 요리 (cooking) + 사 (expert).\nSame 사 as 의사!\n요리: cooking. Also a verb: 요리하다 (to cook).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "간호사",
+          "hanja": "看護+師",
+          "en": "nurse",
+          "phonetic": "gan-ho-sa",
+          "example": "간호사가 있어요?",
+          "exampleEn": "Is there a nurse?",
+          "note": "SINO-KOREAN: 간호 (nursing/care) + 사 (expert).\nSame 사 (expert) three times: 의사, 요리사, 간호사.\n사 = professional expert in a field.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "프리랜서",
+          "en": "freelancer",
+          "phonetic": "peu-ri-laen-seo",
+          "example": "저는 프리랜서예요.",
+          "exampleEn": "I am a freelancer.",
+          "note": "KONGLISH: English 'freelancer' → 프리랜서.\nKorea has many freelancers (프리랜서).\nNote: 예요 not 이에요 (ends in vowel sound).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🧱 The 사 (師/士) Morpheme: Expert in a Field",
+          "text": "You've now seen 사 (expert) THREE times:\n\n의사 (의+사)\n→ doctor (medicine + expert)\n\n요리사 (요리+사)\n→ chef (cooking + expert)\n\n간호사 (간호+사)\n→ nurse (nursing + expert)\n\nAnd 원 (member) twice:\n회사원\n→ office worker (company + member)\n\n병원 (coming soon)\n→ hospital (illness + place)\n\n8 morphemes → already 10+ words decoded.\nEvery lesson, your LEGO set gets bigger."
+        },
+        {
+          "type": "mc",
+          "q": "학생 분해: 학 + 생. 학 means:",
+          "opts": [
+            "Person",
+            "Study",
+            "School",
+            "Teacher"
+          ],
+          "ans": "Study",
+          "hint": "Study-person = student"
+        },
+        {
+          "type": "mc",
+          "q": "의사, 요리사, 간호사 — what do they all share?",
+          "opts": [
+            "의 morpheme",
+            "사 (expert) morpheme",
+            "원 morpheme",
+            "님 honorific"
+          ],
+          "ans": "사 (expert) morpheme",
+          "hint": "사 = professional/expert in a field"
+        },
+        {
+          "type": "mc",
+          "q": "Which word uses 님 to add RESPECT to a title?",
+          "opts": [
+            "학생",
+            "의사",
+            "선생님",
+            "회사원"
+          ],
+          "ans": "선생님",
+          "hint": "님 is an honorific suffix added to titles"
+        },
+        {
+          "type": "mc",
+          "q": "'I am a chef' in Korean:",
+          "opts": [
+            "저는 요리사예요",
+            "저는 선생님이에요",
+            "저는 학생이에요",
+            "저는 의사예요"
+          ],
+          "ans": "저는 요리사예요",
+          "hint": "요리사 = chef, and it ends in a vowel → 예요"
+        },
+        {
+          "type": "fb",
+          "s": "저는 ___이에요. (office worker)",
+          "a": "회사원",
+          "opts": [
+            "회사원",
+            "경찰관",
+            "의사",
+            "학생"
+          ],
+          "hint": "Company + member = office worker"
+        },
+        {
+          "type": "fb",
+          "s": "저는 간호___예요.",
+          "a": "사",
+          "opts": [
+            "사",
+            "님",
+            "원",
+            "생"
+          ],
+          "hint": "Expert morpheme used in 의사, 요리사, 간호사"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "학생",
+              "en": "student"
+            },
+            {
+              "nl": "선생님",
+              "en": "teacher"
+            },
+            {
+              "nl": "의사",
+              "en": "doctor"
+            },
+            {
+              "nl": "회사원",
+              "en": "office worker"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "요리사",
+              "en": "chef"
+            },
+            {
+              "nl": "간호사",
+              "en": "nurse"
+            },
+            {
+              "nl": "경찰관",
+              "en": "police officer"
+            },
+            {
+              "nl": "프리랜서",
+              "en": "freelancer"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 {1}이에요. 학교에서 공부해요.",
+          "blanks": {
+            "1": "학생"
+          },
+          "pool": [
+            "학생",
+            "의사",
+            "요리사",
+            "간호사"
+          ],
+          "hint": "Who studies at school?"
+        },
+        {
+          "type": "mc",
+          "q": "회사원 = 회사 + 원. 원 means:",
+          "opts": [
+            "Office",
+            "Work",
+            "Member",
+            "Place"
+          ],
+          "ans": "Member",
+          "hint": "Company-member = office worker"
+        },
+        {
+          "type": "mc",
+          "q": "프리랜서 is best described as:",
+          "opts": [
+            "Sino-Korean",
+            "Pure Korean",
+            "Konglish (English loanword)",
+            "Hanja compound"
+          ],
+          "ans": "Konglish (English loanword)",
+          "hint": "It sounds like the English word"
+        }
+      ]
+    },
+    {
+      "id": "kou2l2",
+      "title": "있어요 / 없어요",
+      "icon": "📦",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "There Is / There Isn't",
+          "desc": "있다 does three jobs in one: 'there is', 'I have', and 'it exists'. Korean sees these as the SAME idea. This lesson also introduces 이/가 naturally — just notice it, don't stress it.",
+          "goals": [
+            "Use 있어요 for 'there is' AND 'I have'",
+            "Use 없어요 for the opposite",
+            "Notice 이/가 landing naturally on subjects"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "있어요",
+          "en": "there is / I have / exists",
+          "phonetic": "i-sseo-yo",
+          "example": "커피가 있어요.",
+          "exampleEn": "There is coffee. / I have coffee.",
+          "note": "있다: to exist / to have.\n있어요: polite present form.\n\nWorks for BOTH 'there is' and 'I have':\n커피가 있어요: There is coffee.\n저는 고양이가 있어요: I have a cat.\n\nKorean doesn't always separate existence from possession.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "없어요",
+          "en": "there isn't / I don't have",
+          "phonetic": "eop-seo-yo",
+          "example": "시간이 없어요.",
+          "exampleEn": "There is no time. / I don't have time.",
+          "note": "없다 = to not exist / to not have.\n없어요 = polite present form.\n\n있어요\n→ there is / I have\n\n없어요\n→ there is not / I don't have\n\nExact opposites. Pair them in your memory.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "이 / 가",
+          "en": "(subject marker — just notice it)",
+          "phonetic": "i / ga",
+          "example": "커피가 있어요. 시간이 없어요.",
+          "exampleEn": "Coffee exists. Time doesn't exist.",
+          "note": "You'll see 이/가 on subjects.\n\n이 after consonant: 시간이 (time)\n가 after vowel: 커피가 (coffee)\n\nJust notice the pattern for now.\nDon't memorize a rule yet.\nUnit 5 will give this a proper name.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "💡 있다: Korean's Most Useful Verb",
+          "text": "있다 covers THREE English ideas:\n\n1. There is:\n커피가 있어요.\n→ There is coffee.\n\n2. I have:\n저는 차가 있어요.\n→ I have a car.\n\n3. Someone is somewhere:\n선생님이 교실에 있어요.\n→ The teacher is in the classroom.\n\n없다 is the exact inverse of all three:\n\n커피가 없어요.\n→ There is no coffee. / I don't have coffee.\n\nOne verb doing the work of three English verbs."
+        },
+        {
+          "type": "mc",
+          "q": "커피가 있어요 can mean:",
+          "opts": [
+            "Coffee is expensive",
+            "There is coffee / I have coffee",
+            "I want coffee",
+            "No coffee"
+          ],
+          "ans": "There is coffee / I have coffee",
+          "hint": "있어요 covers both 'there is' and 'I have'"
+        },
+        {
+          "type": "mc",
+          "q": "'I don't have time':",
+          "opts": [
+            "시간이 있어요",
+            "시간이 없어요",
+            "시간은 이에요",
+            "시간을 주세요"
+          ],
+          "ans": "시간이 없어요",
+          "hint": "없어요 = don't have / there isn't"
+        },
+        {
+          "type": "mc",
+          "q": "시간이 없어요. Which particle is on 시간?",
+          "opts": [
+            "은",
+            "도",
+            "이",
+            "를"
+          ],
+          "ans": "이",
+          "hint": "이 after consonant-ending words"
+        },
+        {
+          "type": "mc",
+          "q": "커피___ 있어요. (There is coffee)",
+          "opts": [
+            "이",
+            "가",
+            "은",
+            "는"
+          ],
+          "ans": "가",
+          "hint": "커피 ends in a vowel → 가"
+        },
+        {
+          "type": "fb",
+          "s": "물이 ___.",
+          "a": "있어요",
+          "opts": [
+            "있어요",
+            "없어요",
+            "이에요",
+            "아니에요"
+          ],
+          "hint": "'There IS water'"
+        },
+        {
+          "type": "fb",
+          "s": "저는 시간이 ___. (I have no time)",
+          "a": "없어요",
+          "opts": [
+            "있어요",
+            "없어요",
+            "이에요",
+            "몰라요"
+          ],
+          "hint": "Don't have = the opposite of 있어요"
+        },
+        {
+          "type": "fb",
+          "s": "교실에 선생님___ 있어요.",
+          "a": "이",
+          "opts": [
+            "이",
+            "가",
+            "은",
+            "는"
+          ],
+          "hint": "선생님 ends in consonant ㅁ"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "있어요",
+              "en": "there is / I have"
+            },
+            {
+              "nl": "없어요",
+              "en": "there isn't / don't have"
+            },
+            {
+              "nl": "이",
+              "en": "subject marker (after consonant)"
+            },
+            {
+              "nl": "가",
+              "en": "subject marker (after vowel)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "{1}이 있어요. 커피가 {2}.",
+          "blanks": {
+            "1": "시간",
+            "2": "없어요"
+          },
+          "pool": [
+            "시간",
+            "커피",
+            "있어요",
+            "없어요",
+            "이에요"
+          ],
+          "hint": "Time exists. No coffee."
+        },
+        {
+          "type": "mc",
+          "q": "'There is no doctor' — choose the correct sentence:",
+          "opts": [
+            "의사가 있어요",
+            "의사는 없어요",
+            "의사가 이에요",
+            "의사도 있어요"
+          ],
+          "ans": "의사는 없어요",
+          "hint": "없어요 = there isn't"
+        },
+        {
+          "type": "mc",
+          "q": "저는 고양이가 있어요. This means:",
+          "opts": [
+            "I am a cat",
+            "I want a cat",
+            "I have a cat",
+            "Cats are nice"
+          ],
+          "ans": "I have a cat",
+          "hint": "있어요 = have, when used with a possessed object"
+        },
+        {
+          "type": "mc",
+          "q": "이/가 is used for:",
+          "opts": [
+            "Object of sentence",
+            "Topic of sentence",
+            "Subject of sentence",
+            "Location"
+          ],
+          "ans": "Subject of sentence",
+          "hint": "Just notice for now — Unit 5 names this properly"
+        }
+      ]
+    },
+    {
+      "id": "kou2l2b",
+      "title": "★ Vowel Harmony: Why -아요 vs -어요",
+      "icon": "⚡",
+      "xp": 25,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "The Rule Behind Every Verb Ending",
+          "desc": "In Unit 1 you noticed: 가요 vs 먹어요. Why different endings? There's a single rule that governs this. You've been following it correctly without knowing it. Now you'll know why.",
+          "goals": [
+            "Understand the bright/dark vowel split",
+            "Know when to use -아요 vs -어요",
+            "Understand why 하다 → 해요 (not 하아요)",
+            "Generate ANY regular verb form from the stem alone"
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "☀️ Bright Vowels Take -아요",
+          "text": "Korean splits vowels into two families.\n\n☀️ BRIGHT vowels: ㅏ and ㅗ\nThese attract the ending -아요.\n\nLook at the LAST VOWEL of the stem.\nIf it's ㅏ or ㅗ, the verb takes -아요.\n\n가다: stem 가, vowel ㅏ (bright) → -아요\n오다: stem 오, vowel ㅗ (bright) → -아요\n보다: stem 보, vowel ㅗ (bright) → -아요\n\nTwo bright sounds prefer each other."
+        },
+        {
+          "type": "teach",
+          "nl": "가다",
+          "en": "to go",
+          "phonetic": "ga-da",
+          "example": "학교에 가요.",
+          "exampleEn": "I go to school.",
+          "note": "가다: stem 가.\nVowel ㅏ is bright.\n가 + 아요 → ㅏ+ㅏ same vowel merges.\n가요.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "오다",
+          "en": "to come",
+          "phonetic": "o-da",
+          "example": "친구가 와요.",
+          "exampleEn": "A friend is coming.",
+          "note": "오다: stem 오.\nVowel ㅗ is bright.\n오 + 아요 → ㅗ+ㅏ contracts to ㅘ.\n와요.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "보다",
+          "en": "to see / to watch",
+          "phonetic": "bo-da",
+          "example": "영화를 봐요.",
+          "exampleEn": "I watch a movie.",
+          "note": "보다: stem 보.\nVowel ㅗ is bright.\n보 + 아요 → ㅗ+ㅏ contracts to ㅘ.\n봐요.\n\nSame contraction as 오다.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🌙 All Other Vowels Take -어요",
+          "text": "Every vowel that is NOT ㅏ or ㅗ is dark.\nDark vowels take -어요.\n\nㅓ, ㅜ, ㅡ, ㅣ, ㅔ, ㅐ and all others.\n\n먹다: stem 먹, vowel ㅓ (dark) → -어요\n마시다: stem 마시, last vowel ㅣ (dark) → -어요\n있다: stem 있, vowel ㅣ (dark) → -어요\n\nBright = only ㅏ and ㅗ.\nDark = literally everything else."
+        },
+        {
+          "type": "teach",
+          "nl": "먹다",
+          "en": "to eat",
+          "phonetic": "meok-da",
+          "example": "밥을 먹어요.",
+          "exampleEn": "I eat rice.",
+          "note": "먹다: stem 먹.\nVowel ㅓ is dark.\n먹 + 어요 = 먹어요.\n\nConsonant stems: the ending just attaches.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "마시다",
+          "en": "to drink",
+          "phonetic": "ma-si-da",
+          "example": "커피를 마셔요.",
+          "exampleEn": "I drink coffee.",
+          "note": "마시다: stem 마시.\nLast vowel ㅣ is dark.\n마시 + 어요 → ㅣ+ㅓ contracts to ㅕ.\n마셔요.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "✨ 하다 Is Special",
+          "text": "하다 follows bright rules (ㅏ is bright).\nBut it contracts tightly:\n\n하 + 아요 → 하아요? No.\n하 + 아 contracts to 해.\n해 + 요 = 해요.\n\n하다 → ALWAYS 해요. No exceptions.\n\nThis means ALL 하다 verbs work the same:\n공부하다 → 공부해요\n운동하다 → 운동해요\n요리하다 → 요리해요"
+        },
+        {
+          "type": "mc",
+          "q": "배우다 (to learn) — stem vowel is ㅜ. Which ending?",
+          "opts": [
+            "-아요 → 배우아요",
+            "-어요 → 배워요",
+            "해요",
+            "가요"
+          ],
+          "ans": "-어요 → 배워요",
+          "hint": "ㅜ is dark (not ㅏ or ㅗ) → -어요. 배우 + 어요 → 배워요 (ㅜ+ㅓ contracts)"
+        },
+        {
+          "type": "mc",
+          "q": "오다 (to come) — stem vowel is ㅗ. Which ending?",
+          "opts": [
+            "-아요 → 와요",
+            "-어요 → 오어요",
+            "해요",
+            "요만"
+          ],
+          "ans": "-아요 → 와요",
+          "hint": "ㅗ is BRIGHT → -아요. 오 + 아요 → 와요 (contraction)"
+        },
+        {
+          "type": "mc",
+          "q": "Which verb gets -어요?",
+          "opts": [
+            "가다 (ㅏ stem)",
+            "보다 (ㅗ stem)",
+            "읽다 (ㅣ vowel)",
+            "오다 (ㅗ stem)"
+          ],
+          "ans": "읽다 (ㅣ vowel)",
+          "hint": "읽다: stem 읽, last vowel is ㅣ. ㅣ is dark → -어요 → 읽어요"
+        },
+        {
+          "type": "fb",
+          "s": "살다 (to live) — stem 살, vowel ㅏ → ___",
+          "a": "살아요",
+          "opts": [
+            "살아요",
+            "살어요",
+            "살해요",
+            "살요"
+          ],
+          "hint": "ㅏ is BRIGHT → -아요. 살 + 아요 = 살아요"
+        },
+        {
+          "type": "fb",
+          "s": "서다 (to stand) — stem 서, vowel ㅓ → ___",
+          "a": "서요",
+          "opts": [
+            "서요",
+            "서아요",
+            "서해요",
+            "서어요"
+          ],
+          "hint": "ㅓ is dark → -어요. 서 + 어요 = 서요 (ㅓ + ㅓ contracts)"
+        },
+        {
+          "type": "tip",
+          "title": "🔗 Contraction Patterns",
+          "text": "When the stem vowel meets the ending vowel, they merge:\n\n① Same vowel merges: ㅏ+ㅏ → ㅏ\n가 + 아요 = 가요\n\n② ㅗ+ㅏ → ㅘ\n오 + 아요 = 와요\n보 + 아요 = 봐요\n\n③ ㅣ+ㅓ → ㅕ\n마시 + 어요 = 마셔요\n\n④ ㅡ drops entirely:\n쓰다 → 쓰 + 어요 = 써요\n\nDon't memorise these.\nJust SAY the contraction — your mouth prefers the shorter form."
+        },
+        {
+          "type": "mc",
+          "q": "마시다 (to drink) → 마시 + 어요 = ?",
+          "opts": [
+            "마시어요",
+            "마셔요",
+            "마사요",
+            "마시요"
+          ],
+          "ans": "마셔요",
+          "hint": "이 + 어 contracts to 여. 마시 + 어요 = 마셔요"
+        },
+        {
+          "type": "mc",
+          "q": "보다 (to see) → 보 + 아요 = ?",
+          "opts": [
+            "보아요",
+            "봐요",
+            "보요",
+            "봐아요"
+          ],
+          "ans": "봐요",
+          "hint": "ㅗ + ㅏ contracts to ㅘ. 보 + 아요 = 봐요"
+        },
+        {
+          "type": "tip",
+          "title": "🎯 You Can Now Generate ANY Regular Verb",
+          "text": "Test yourself. You've never seen this verb:\n\n앉다 = to sit\nStem: 앉\nLast vowel: ㅏ (bright)\nEnding: -아요\n앉 + 아요 = 앉아요 ✓\n\nOr this one:\n쓰다 = to write\nStem: 쓰\nVowel: ㅡ (dark, and ㅡ drops)\n쓰 + 어요 = 써요 ✓\n\nYou derived these yourself.\nYou did not memorise them.\nThat is the difference between a phrase learner and a language learner."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "가다 (ㅏ)",
+              "en": "bright: goes"
+            },
+            {
+              "nl": "먹다 (ㅓ)",
+              "en": "dark: eats"
+            },
+            {
+              "nl": "오다 (ㅗ)",
+              "en": "bright: comes"
+            },
+            {
+              "nl": "하다",
+              "en": "special: always 해"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 학교에 {1}. 밥을 {2}. 그다음 커피를 {3}.",
+          "blanks": {
+            "1": "가요",
+            "2": "먹어요",
+            "3": "마셔요"
+          },
+          "pool": [
+            "가요",
+            "먹어요",
+            "마셔요",
+            "봐요",
+            "해요"
+          ],
+          "hint": "Bright stem, dark stem, dark contracted"
+        },
+        {
+          "type": "mc",
+          "q": "You see a new verb: 놀다 (to play). Stem 놀, vowel ㅗ. Polite form?",
+          "opts": [
+            "놀아요",
+            "놀어요",
+            "놀해요",
+            "노요"
+          ],
+          "ans": "놀아요",
+          "hint": "ㅗ is BRIGHT → -아요. 놀 + 아요 = 놀아요"
+        },
+        {
+          "type": "mc",
+          "q": "Summary: 하다 ALWAYS becomes:",
+          "opts": [
+            "하아요",
+            "하요",
+            "해요",
+            "하여요"
+          ],
+          "ans": "해요",
+          "hint": "하 + 아 always contracts to 해. 해요. No exceptions."
+        }
+      ]
+    },
+    {
+      "id": "kou2l3",
+      "title": "이것 / 그것 / 저것",
+      "icon": "👆",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "This / That / That Over There",
+          "desc": "Korean sees space in THREE levels where English sees two. The 이/그/저 prefix runs through everything: things, places, directions. Master the prefix — master the system.",
+          "goals": [
+            "Use all three demonstratives",
+            "Understand the 이/그/저 prefix logic",
+            "See how it connects to 여기/거기/저기"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "이것",
+          "en": "this (near me)",
+          "phonetic": "i-geot",
+          "example": "이것은 뭐예요?",
+          "exampleEn": "What is this?",
+          "note": "이: near ME (the speaker).\n것: thing.\n이것: this thing.\n\n이 prefix rule: near the SPEAKER.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "그것",
+          "en": "that (near you)",
+          "phonetic": "geu-geot",
+          "example": "그것은 뭐예요?",
+          "exampleEn": "What is that (near you)?",
+          "note": "그: near YOU (the listener).\n그것: that thing near you.\n\nAlso used for things just mentioned:\n'그 사람' = 'that person' (already mentioned).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "저것",
+          "en": "that (far from both)",
+          "phonetic": "jeo-geot",
+          "example": "저것이 뭐예요?",
+          "exampleEn": "What is that over there?",
+          "note": "저: far from BOTH of us.\n저것: that thing way over there.\n\nThe full three-level system:\n이: near ME | 그: near YOU | 저: far from BOTH.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "이 / 그 / 저 + [noun]",
+          "en": "this / that / that [noun]",
+          "phonetic": "i / geu / jeo",
+          "example": "이 가방 / 그 책 / 저 건물",
+          "exampleEn": "This bag / that book / that building over there",
+          "note": "The prefix drops 것 and attaches to a noun:\n이것 → 이 [noun]: 이 가방 (this bag)\n그것 → 그 [noun]: 그 책 (that book)\n저것 → 저 [noun]: 저 건물 (that building)\n\nSame 이/그/저 logic, just + a specific noun.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "🔺 One Prefix, Three Systems",
+          "text": "이/그/저 is ONE pattern running through everything:\n\n이것/그것/저것 → things\n여기/거기/저기 → places (next lesson!)\n이쪽/그쪽/저쪽 → directions\n이분/그분/저분 → people (honorific)\n\nLearn the prefix ONCE.\nGet four systems for free.\n\nEnglish: this ↔ that (2 levels)\nKorean: 이 ↔ 그 ↔ 저 (3 levels)"
+        },
+        {
+          "type": "mc",
+          "q": "Something is right next to YOU (not me). You call it:",
+          "opts": [
+            "이것",
+            "그것",
+            "저것",
+            "여기"
+          ],
+          "ans": "그것",
+          "hint": "Near the LISTENER = 그"
+        },
+        {
+          "type": "mc",
+          "q": "A mountain far from both of us. You say:",
+          "opts": [
+            "이것",
+            "그것",
+            "저것",
+            "그산"
+          ],
+          "ans": "저것",
+          "hint": "Far from BOTH = 저"
+        },
+        {
+          "type": "mc",
+          "q": "이것 = 이 + 것. 것 means:",
+          "opts": [
+            "Place",
+            "Person",
+            "Thing",
+            "Time"
+          ],
+          "ans": "Thing",
+          "hint": "것 = thing/stuff"
+        },
+        {
+          "type": "mc",
+          "q": "'That book (near you)' as a short form:",
+          "opts": [
+            "이 책",
+            "그 책",
+            "저 책",
+            "그것 책"
+          ],
+          "ans": "그 책",
+          "hint": "Drop 것, add the noun directly"
+        },
+        {
+          "type": "fb",
+          "s": "___ 건물이 아름다워요. (That building over there is beautiful)",
+          "a": "저",
+          "opts": [
+            "이",
+            "그",
+            "저",
+            "여"
+          ],
+          "hint": "Far from both = 저"
+        },
+        {
+          "type": "fb",
+          "s": "___ 것은 뭐예요? (What is this?)",
+          "a": "이",
+          "opts": [
+            "이",
+            "그",
+            "저",
+            "그게"
+          ],
+          "hint": "Near the SPEAKER = 이"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "이것",
+              "en": "this (near me)"
+            },
+            {
+              "nl": "그것",
+              "en": "that (near you)"
+            },
+            {
+              "nl": "저것",
+              "en": "that (far away)"
+            },
+            {
+              "nl": "그 + [noun]",
+              "en": "that specific [noun] near listener"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "이것은 제 가방이에요. {1}은 선생님 가방이에요. {2}은 저기 있어요.",
+          "blanks": {
+            "1": "그것",
+            "2": "저것"
+          },
+          "pool": [
+            "이것",
+            "그것",
+            "저것",
+            "여기",
+            "거기"
+          ],
+          "hint": "My bag, teacher's bag (near them), the third one is far"
+        },
+        {
+          "type": "mc",
+          "q": "'이 사람' most likely refers to:",
+          "opts": [
+            "A person far away",
+            "A person near the speaker",
+            "A person near the listener",
+            "An imaginary person"
+          ],
+          "ans": "A person near the speaker",
+          "hint": "이 = near ME/the speaker"
+        },
+        {
+          "type": "mc",
+          "q": "그것 is used when the object is:",
+          "opts": [
+            "Right in front of you",
+            "Near the listener",
+            "On a distant mountain",
+            "In a past conversation only"
+          ],
+          "ans": "Near the listener",
+          "hint": "그 = near YOU (the other person)"
+        },
+        {
+          "type": "mc",
+          "q": "Which prefix system do 이것/그것/저것 share with 여기/거기/저기?",
+          "opts": [
+            "은/는/도",
+            "이/그/저",
+            "있/없/모",
+            "을/를"
+          ],
+          "ans": "이/그/저",
+          "hint": "The same distance-based prefix runs through both"
+        },
+        {
+          "type": "teach",
+          "nl": "보다",
+          "en": "to see / to watch",
+          "phonetic": "bo-da",
+          "example": "이거 봐요!",
+          "exampleEn": "Look at this!",
+          "note": "보다: to see, to watch, to look.\n\nOne of the 5 most common Korean verbs.\n보다 → 봐요 (polite present: ㅗ+ㅏ = ㅘ contraction).\n\n영화를 봐요: I watch a movie.\n텔레비전을 봐요: I watch TV.\n이거 봐요!: Look at this!\n\n보다 appears EVERYWHERE in Korean.\nYou'll use it every day.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "말하다",
+          "en": "to speak / to say",
+          "phonetic": "mal-ha-da",
+          "example": "한국어로 말해요.",
+          "exampleEn": "I speak in Korean.",
+          "note": "말하다: to speak, to say.\n말 (speech/words) + 하다 (do).\n\n말하다 → 말해요 (하다 verb: always 해요).\n\n한국어로 말해요: I speak in Korean.\n영어로 말해요: I speak in English.\n천천히 말해 주세요: Please speak slowly.\n\n-(으)로 말하다: speak IN [language].",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "보다 → polite present:",
+          "opts": [
+            "봐요",
+            "보아요",
+            "보요",
+            "봅니다"
+          ],
+          "ans": "봐요",
+          "hint": "보: ㅗ+ㅏ contracts to ㅘ. 봐요."
+        },
+        {
+          "type": "mc",
+          "q": "한국어로 말해요 means:",
+          "opts": [
+            "I speak Korean",
+            "I write Korean",
+            "I read Korean",
+            "I study Korean"
+          ],
+          "ans": "I speak Korean",
+          "hint": "말하다 = to speak. 한국어로 = in Korean."
+        }
+      ]
+    },
+    {
+      "id": "kou2l4",
+      "title": "여기 / 거기 / 저기",
+      "icon": "📍",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Here / There / Over There",
+          "desc": "Same three-way logic, now for PLACES. And a bonus: 저기요! is how you get a waiter's attention — which you'll use on day one in Korea.",
+          "goals": [
+            "Use 여기, 거기, 저기 for places",
+            "Call a waiter with 저기요!",
+            "Connect this system back to 이/그/저"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "여기",
+          "en": "here (near me)",
+          "phonetic": "yeo-gi",
+          "example": "여기 앉으세요.",
+          "exampleEn": "Please sit here.",
+          "note": "여기: here, near the speaker.\nSame 이 logic: near ME.\n\n여기요!: 'Here!' (used to direct someone here).\n여기 있어요: 'It's here.'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "거기",
+          "en": "there (near you)",
+          "phonetic": "geo-gi",
+          "example": "거기가 어디예요?",
+          "exampleEn": "Where is that place (near you)?",
+          "note": "거기: there, near the listener.\nSame 그 logic: near YOU.\n\n거기 있어요?: 'Is it there (by you)?'",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "저기",
+          "en": "over there (far from both)",
+          "phonetic": "jeo-gi",
+          "example": "저기 보세요!",
+          "exampleEn": "Look over there!",
+          "note": "저기: over there, far from both.\nSame 저 logic: far from BOTH.\n\n저기요!: 'Excuse me!' — to get someone's attention.\nLiterally: 'Hey, over there!' Used for waiters, strangers.\nOne of Korea's most useful words.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "이쪽 / 그쪽 / 저쪽",
+          "en": "this way / that way / that way (far)",
+          "phonetic": "i-jjok / geu-jjok / jeo-jjok",
+          "example": "이쪽으로 오세요.",
+          "exampleEn": "Come this way.",
+          "note": "쪽: direction/side.\n이쪽: this direction (toward me).\n그쪽: that direction (toward you).\n저쪽: that direction (far).\n\n이쪽으로: this way → (으)로 = direction particle (Unit 6).",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "📍 저기요: The Word That Gets You Fed",
+          "text": "The most useful single word for visiting Korea:\n\n저기요!\n→ Excuse me! (literally: hey, over there!)\n\n여기요!\n→ Hey, over here! (also used, slightly less common)\n\n저기요 works for:\n• Calling a waiter in a restaurant\n• Getting a stranger's attention\n• Flagging down a taxi\n• Alerting a shopkeeper\n\n저기요 is the safe default."
+        },
+        {
+          "type": "mc",
+          "q": "To call a waiter in a Korean restaurant:",
+          "opts": [
+            "여기!",
+            "거기요!",
+            "저기요!",
+            "안녕하세요!"
+          ],
+          "ans": "저기요!",
+          "hint": "저기요 = Excuse me! (to get attention from afar)"
+        },
+        {
+          "type": "mc",
+          "q": "You want your friend (standing near you) to come toward you. You say:",
+          "opts": [
+            "저기로 가세요",
+            "거기 있어요",
+            "이쪽으로 오세요",
+            "저기요"
+          ],
+          "ans": "이쪽으로 오세요",
+          "hint": "이쪽 = this direction (toward me)"
+        },
+        {
+          "type": "mc",
+          "q": "거기 maps to which 이/그/저 prefix?",
+          "opts": [
+            "이",
+            "그",
+            "저",
+            "여"
+          ],
+          "ans": "그",
+          "hint": "거기 = there, near YOU = 그 logic"
+        },
+        {
+          "type": "mc",
+          "q": "화장실이 어디 있어요? You look and say '저기요!' Wait — what does 저기요 mean here?",
+          "opts": [
+            "I found it over there",
+            "Excuse me (asking someone)",
+            "Here I am",
+            "That's the bathroom"
+          ],
+          "ans": "Excuse me (asking someone)",
+          "hint": "저기요 = 'Excuse me!' to get attention"
+        },
+        {
+          "type": "fb",
+          "s": "지하철역이 ___에 있어요. (The subway station is over there)",
+          "a": "저기",
+          "opts": [
+            "여기",
+            "거기",
+            "저기",
+            "이기"
+          ],
+          "hint": "Far from both people = 저"
+        },
+        {
+          "type": "fb",
+          "s": "___요! 메뉴 주세요. (Calling the waiter)",
+          "a": "저기",
+          "opts": [
+            "여기",
+            "거기",
+            "저기",
+            "이기"
+          ],
+          "hint": "Standard way to call a waiter"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "여기",
+              "en": "here (near me)"
+            },
+            {
+              "nl": "거기",
+              "en": "there (near you)"
+            },
+            {
+              "nl": "저기",
+              "en": "over there"
+            },
+            {
+              "nl": "저기요!",
+              "en": "Excuse me!"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "이쪽",
+              "en": "this way (toward me)"
+            },
+            {
+              "nl": "그쪽",
+              "en": "that way (toward you)"
+            },
+            {
+              "nl": "저쪽",
+              "en": "that way (far)"
+            },
+            {
+              "nl": "쪽",
+              "en": "direction / side"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "A: {1}요! 메뉴 주세요. B: 네, {2} 있어요.",
+          "blanks": {
+            "1": "저기",
+            "2": "여기"
+          },
+          "pool": [
+            "여기",
+            "거기",
+            "저기",
+            "이기"
+          ],
+          "hint": "Call the waiter, then: the menu is right here"
+        },
+        {
+          "type": "mc",
+          "q": "What connects 이것/그것/저것 and 여기/거기/저기?",
+          "opts": [
+            "They all use 것",
+            "They all use the 이/그/저 distance prefix",
+            "They all mean 'place'",
+            "They are all questions"
+          ],
+          "ans": "They all use the 이/그/저 distance prefix",
+          "hint": "One prefix system, multiple applications"
+        },
+        {
+          "type": "mc",
+          "q": "이쪽으로 오세요 means:",
+          "opts": [
+            "Go over there",
+            "Come this way",
+            "Look that direction",
+            "Stay there"
+          ],
+          "ans": "Come this way",
+          "hint": "이쪽 = this direction (toward speaker), 오세요 = please come"
+        }
+      ]
+    },
+    {
+      "id": "kou2l5",
+      "title": "Family Preview",
+      "icon": "👨‍👩‍👧‍👦",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Meet the Family (Preview)",
+          "desc": "A first look at family vocabulary. The big reveal: which word you use for 'older sibling' depends on YOUR gender, not the sibling's. Korean speakers encode speaker identity into their vocabulary.",
+          "goals": [
+            "Preview core family words",
+            "Grasp the speaker-gender rule",
+            "Prepare for the full family unit (U5)"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "엄마 / 어머니",
+          "en": "mom / mother",
+          "phonetic": "eom-ma / eo-meo-ni",
+          "example": "우리 엄마가 있어요.",
+          "exampleEn": "My mom is here.",
+          "note": "엄마: casual (mom).\n어머니: formal (mother).\n\nKids and adults alike use 엄마 with their own mother.\nUse 어머니 about other people's mothers.\nNote: 우리 엄마 = 'our mom' = Korean says 'our', not 'my'.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "아빠 / 아버지",
+          "en": "dad / father",
+          "phonetic": "a-ppa / a-beo-ji",
+          "example": "아빠가 있어요.",
+          "exampleEn": "Dad is here.",
+          "note": "아빠: casual (dad).\n아버지: formal (father).\n\nThe double ㅃ in 아빠 is a tense consonant.\nAudio tip: it sounds clipped and forceful.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "형 / 오빠",
+          "en": "older brother (male/female speaker)",
+          "phonetic": "hyeong / o-ppa",
+          "example": "오빠가 있어요. (female speaker)",
+          "exampleEn": "I have an older brother. (said by a female)",
+          "note": "TWO words. ONE meaning. Different speakers:\n형: used by MALE speakers.\n오빠: used by FEMALE speakers.\n\nThe SPEAKER's gender determines the word.\nNot the sibling's gender.",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "누나 / 언니",
+          "en": "older sister (male/female speaker)",
+          "phonetic": "nu-na / eon-ni",
+          "example": "누나가 있어요. (male speaker)",
+          "exampleEn": "I have an older sister. (said by a male)",
+          "note": "Same rule as 형/오빠:\n누나: used by MALE speakers.\n언니: used by FEMALE speakers.\n\nFull grid:\nMale speaker: 형 (older bro), 누나 (older sis)\nFemale speaker: 오빠 (older bro), 언니 (older sis)",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "동생",
+          "en": "younger sibling",
+          "phonetic": "dong-saeng",
+          "example": "동생이 있어요.",
+          "exampleEn": "I have a younger sibling.",
+          "note": "동생: younger sibling.\n남동생: younger BROTHER (남: male).\n여동생: younger SISTER (여: female).\n\nGood news: no speaker-gender split for younger siblings.\nDifference only for OLDER siblings.",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🎯 Korean Siblings: It's About YOU, Not Them",
+          "text": "In English: one word per sibling type.\n'Older brother' = older brother, done.\n\nIn Korean: THE SPEAKER'S GENDER MATTERS:\n\n[YOU are MALE]\n형 = my older brother\n누나 = my older sister\n\n[YOU are FEMALE]\n오빠 = my older brother\n언니 = my older sister\n\nThese words also extend OUTSIDE family:\n오빠: how female fans call male idols!\n언니: how Korean women address older female friends.\n형: how Korean men address older male friends.\n\nThey're relationship words, not just family labels."
+        },
+        {
+          "type": "mc",
+          "q": "A female speaker says '오빠가 있어요.' She has:",
+          "opts": [
+            "A younger brother",
+            "An older brother",
+            "An older sister",
+            "A younger sister"
+          ],
+          "ans": "An older brother",
+          "hint": "오빠 = older brother, used by FEMALE speakers"
+        },
+        {
+          "type": "mc",
+          "q": "A male speaker wants to say 'I have an older sister':",
+          "opts": [
+            "오빠가 있어요",
+            "언니가 있어요",
+            "누나가 있어요",
+            "형이 있어요"
+          ],
+          "ans": "누나가 있어요",
+          "hint": "Male speaker + older sister = 누나"
+        },
+        {
+          "type": "mc",
+          "q": "남동생 = 남 + 동생. 남 means:",
+          "opts": [
+            "Female",
+            "Older",
+            "Male",
+            "Young"
+          ],
+          "ans": "Male",
+          "hint": "남 (male) / 여 (female) — pair these"
+        },
+        {
+          "type": "mc",
+          "q": "Which sibling term does NOT change based on speaker gender?",
+          "opts": [
+            "형/오빠",
+            "누나/언니",
+            "동생",
+            "All change"
+          ],
+          "ans": "동생",
+          "hint": "Younger sibling = 동생 regardless of speaker"
+        },
+        {
+          "type": "fb",
+          "s": "저는 여자예요. 오빠___ 있어요.",
+          "a": "가",
+          "opts": [
+            "가",
+            "이",
+            "는",
+            "를"
+          ],
+          "hint": "오빠 ends in vowel → subject marker 가"
+        },
+        {
+          "type": "fb",
+          "s": "저는 남자예요. ___ 이 있어요. (older sister)",
+          "a": "누나",
+          "opts": [
+            "누나",
+            "언니",
+            "오빠",
+            "형"
+          ],
+          "hint": "Male speaker + older sister = ?"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "형",
+              "en": "older bro (male speaker)"
+            },
+            {
+              "nl": "오빠",
+              "en": "older bro (female speaker)"
+            },
+            {
+              "nl": "누나",
+              "en": "older sis (male speaker)"
+            },
+            {
+              "nl": "언니",
+              "en": "older sis (female speaker)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 여자예요. {1}이 있고 {2}도 있어요.",
+          "blanks": {
+            "1": "오빠",
+            "2": "언니"
+          },
+          "pool": [
+            "형",
+            "오빠",
+            "누나",
+            "언니",
+            "동생"
+          ],
+          "hint": "Female speaker: older brother + older sister"
+        },
+        {
+          "type": "mc",
+          "q": "Outside the family, 오빠 is used by:",
+          "opts": [
+            "Male friends for older males",
+            "Female speakers for older males they're close to",
+            "Anyone for anyone older",
+            "Only in formal contexts"
+          ],
+          "ans": "Female speakers for older males they're close to",
+          "hint": "오빠 extends to friendships and fandoms"
+        },
+        {
+          "type": "mc",
+          "q": "'I have a younger brother' in Korean:",
+          "opts": [
+            "남동생이 있어요",
+            "여동생이 있어요",
+            "형이 있어요",
+            "오빠가 있어요"
+          ],
+          "ans": "남동생이 있어요",
+          "hint": "남 (male) + 동생 (younger sibling)"
+        }
+      ]
+    },
+    {
+      "id": "kou2l6",
+      "title": "Sino-Korean Cluster",
+      "icon": "🏛️",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unlock Words With Building Blocks",
+          "desc": "~60% of Korean vocabulary comes from Chinese characters. Every morpheme you learn today unlocks 5-15 future words. This session is an investment that pays forever.",
+          "goals": [
+            "Learn 학교, 도서관, 교실, 병원",
+            "Decompose each into reusable morphemes",
+            "Build your LEGO morpheme bank to 10+ pieces"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "학교",
+          "hanja": "學+校",
+          "en": "school",
+          "phonetic": "hak-gyo",
+          "example": "학교에 가요.",
+          "exampleEn": "I go to school.",
+          "note": "SINO-KOREAN: 학 (study) + 교 (teach).\n'Study-teach place': school.\n\n학: same as 학생!\n교 reappears in: 교실 (classroom), 교육 (education), 교사 (teacher).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "도서관",
+          "hanja": "圖書+館",
+          "en": "library",
+          "phonetic": "do-seo-gwan",
+          "example": "도서관에 있어요.",
+          "exampleEn": "I'm at the library.",
+          "note": "SINO-KOREAN: 도서 (books) + 관 (building).\n'Book-building' = library.\n\n관 reappears in: 영화관 (cinema), 미술관 (art museum), 박물관 (museum), 경찰관 (police officer)!",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "교실",
+          "hanja": "校+室",
+          "en": "classroom",
+          "phonetic": "gyo-sil",
+          "example": "교실이 어디예요?",
+          "exampleEn": "Where is the classroom?",
+          "note": "SINO-KOREAN: 교 (teach) + 실 (room).\n'Teach-room' = classroom.\n\n실 reappears in: 사무실 (office), 회의실 (meeting room), 화장실 (bathroom).",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "병원",
+          "hanja": "病+院",
+          "en": "hospital / clinic",
+          "phonetic": "byeong-won",
+          "example": "병원에 가요.",
+          "exampleEn": "I'm going to the hospital.",
+          "note": "SINO-KOREAN: 병 (illness) + 원 (place/institution).\n'Illness-place' = hospital.\n\n원: same as 회사원! But here 원 means 'institution/place'.\n원 appears as BOTH 'member' and 'place' — context tells you which.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "약국",
+          "hanja": "藥+局",
+          "en": "pharmacy",
+          "phonetic": "yak-guk",
+          "example": "약국이 어디 있어요?",
+          "exampleEn": "Where is the pharmacy?",
+          "note": "SINO-KOREAN: 약 (medicine) + 국 (bureau/bureau).\n'Medicine-place' = pharmacy.\n\n약: medicine. Reappears in 약사 (pharmacist = medicine + expert!).",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "🏗️ Your Morpheme Bank So Far",
+          "text": "You now know these Sino-Korean building blocks:\n\n학 (study): 학생, 학교, 학원...\n생 (life/person): 학생, 선생님, 생일...\n교 (teach): 학교, 교실, 교육...\n관 (building): 도서관, 영화관, 미술관...\n실 (room): 교실, 사무실, 화장실...\n원 (member/place): 회사원, 병원, 학원...\n의 (medicine): 의사, 의학...\n사 (expert): 의사, 요리사, 간호사...\n약 (medicine): 약국, 약사...\n병 (illness): 병원, 병...\n\n10 morphemes → already 20+ words decoded.\nBy Unit 14: ~80 morphemes → 500+ words."
+        },
+        {
+          "type": "mc",
+          "q": "학교 = 학 + 교. 교 means:",
+          "opts": [
+            "Study",
+            "School",
+            "Teach",
+            "Place"
+          ],
+          "ans": "Teach",
+          "hint": "Study + Teach = school"
+        },
+        {
+          "type": "mc",
+          "q": "도서관 = 도서 + 관. 관 means:",
+          "opts": [
+            "Book",
+            "Room",
+            "Building",
+            "Library"
+          ],
+          "ans": "Building",
+          "hint": "관 = building/hall (영화관, 미술관)"
+        },
+        {
+          "type": "mc",
+          "q": "교실 and 화장실 both share 실. 실 means:",
+          "opts": [
+            "School",
+            "Teach",
+            "Room",
+            "Place"
+          ],
+          "ans": "Room",
+          "hint": "교실 = teach-room, 화장실 = wash-room"
+        },
+        {
+          "type": "mc",
+          "q": "병원 = 병 + 원. 병 means:",
+          "opts": [
+            "Doctor",
+            "Place",
+            "Illness",
+            "Medicine"
+          ],
+          "ans": "Illness",
+          "hint": "Illness-place = hospital"
+        },
+        {
+          "type": "fb",
+          "s": "___에 가요. 약을 사요. (Going to get medicine)",
+          "a": "약국",
+          "opts": [
+            "약국",
+            "병원",
+            "학교",
+            "도서관"
+          ],
+          "hint": "약 (medicine) + 국 (bureau) = pharmacy"
+        },
+        {
+          "type": "fb",
+          "s": "교___이 어디에 있어요? (Where is the classroom?)",
+          "a": "실",
+          "opts": [
+            "실",
+            "관",
+            "원",
+            "학"
+          ],
+          "hint": "교 (teach) + ___ (room)"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "학교",
+              "en": "school"
+            },
+            {
+              "nl": "도서관",
+              "en": "library"
+            },
+            {
+              "nl": "교실",
+              "en": "classroom"
+            },
+            {
+              "nl": "병원",
+              "en": "hospital"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "약국",
+              "en": "pharmacy"
+            },
+            {
+              "nl": "학 (morpheme)",
+              "en": "study"
+            },
+            {
+              "nl": "관 (morpheme)",
+              "en": "building"
+            },
+            {
+              "nl": "실 (morpheme)",
+              "en": "room"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 {1}에서 공부해요. 책이 {2}에 있어요.",
+          "blanks": {
+            "1": "학교",
+            "2": "도서관"
+          },
+          "pool": [
+            "학교",
+            "도서관",
+            "병원",
+            "약국"
+          ],
+          "hint": "Study at school, books are at the library"
+        },
+        {
+          "type": "mc",
+          "q": "Which word contains 원 meaning 'PLACE' (not 'member')?",
+          "opts": [
+            "회사원",
+            "병원",
+            "선생님",
+            "경찰관"
+          ],
+          "ans": "병원",
+          "hint": "병원 = illness-place; 회사원 = company-member"
+        }
+      ]
+    },
+    {
+      "id": "kou2l7",
+      "title": "도 (also / too)",
+      "icon": "➕",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Also / Too",
+          "desc": "One small particle with big frequency. 도 REPLACES 은/는 and 이/가 — it never stacks onto them. Master this rule now and avoid the most common beginner particle error.",
+          "goals": [
+            "Use 도 (also/too)",
+            "Understand that 도 replaces other particles",
+            "Use 저도요 as an instant reply"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "도",
+          "en": "also / too",
+          "phonetic": "do",
+          "example": "저도 학생이에요.",
+          "exampleEn": "I am also a student.",
+          "note": "도: also / too.\n\n도 REPLACES 은/는 or 이/가:\n저는 학생이에요 → 저도 학생이에요.\n커피가 있어요 → 커피도 있어요.\n\n도 NEVER stacks:\n저는도 ✗ / 커피가도 ✗\nJust: 저도 ✓ / 커피도 ✓",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "저도요",
+          "en": "me too",
+          "phonetic": "jeo-do-yo",
+          "example": "A: 저는 학생이에요. B: 저도요!",
+          "exampleEn": "A: I'm a student. B: Me too!",
+          "note": "저도요: 'Me too!' Quick, natural reply.\n\n저도요 = 저 (I) + 도 (also) + 요 (polite).\n\nOne of the most common expressions in Korean conversation.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "도 with 있어요",
+          "en": "also have / also there is",
+          "phonetic": "do",
+          "example": "커피도 있어요.",
+          "exampleEn": "There is also coffee. / I also have coffee.",
+          "note": "도 replaces 이/가 on the subject too:\n커피가 있어요 → 커피도 있어요 (also have coffee)\n시간이 없어요 → 시간도 없어요 (also no time)\n\nNegative 도: '도 없어요' = 'also don't have'",
+          "kind": "phrase"
+        },
+        {
+          "type": "teach",
+          "nl": "도 with negatives",
+          "en": "neither / don't have either",
+          "phonetic": "do",
+          "example": "저도 몰라요.",
+          "exampleEn": "I don't know either.",
+          "note": "도 + negative = 'neither' / 'don't ... either':\n저도 몰라요: I don't know either.\n저도 없어요: I don't have it either.\n저도 학생이 아니에요: I'm not a student either.\n\nSame particle, different meaning with negatives.",
+          "kind": "grammar"
+        },
+        {
+          "type": "tip",
+          "title": "⚡ 도 Replaces — Never Stacks",
+          "text": "도 REPLACES 은/는 / 이/가. It never stacks.\n\n✗ 저는도 학생이에요 (WRONG — can't stack)\n✗ 커피가도 있어요 (WRONG — can't stack)\n\n✓ 저도 학생이에요.\n→ I am also a student.\n\n✓ 커피도 있어요.\n→ There is coffee too.\n\n✓ 선생님도 있어요.\n→ The teacher is also here.\n\n도 = swap, not addition."
+        },
+        {
+          "type": "mc",
+          "q": "'I am ALSO a student':",
+          "opts": [
+            "저는 학생이에요",
+            "저도 학생이에요",
+            "저가 학생이에요",
+            "저도는 학생이에요"
+          ],
+          "ans": "저도 학생이에요",
+          "hint": "도 replaces 는 entirely"
+        },
+        {
+          "type": "mc",
+          "q": "Your friend says 저는 커피가 좋아요. You agree. Your reply:",
+          "opts": [
+            "아니요",
+            "저도요!",
+            "감사합니다",
+            "맞아요 저는"
+          ],
+          "ans": "저도요!",
+          "hint": "Quick 'me too' reply"
+        },
+        {
+          "type": "mc",
+          "q": "'There is also tea' (차 = tea):",
+          "opts": [
+            "차도 있어요",
+            "차가도 있어요",
+            "차는도 있어요",
+            "차이도 있어요"
+          ],
+          "ans": "차도 있어요",
+          "hint": "도 replaces 가 — never stacks with it"
+        },
+        {
+          "type": "mc",
+          "q": "저도 몰라요 means:",
+          "opts": [
+            "I know too",
+            "I don't know either",
+            "I also want to know",
+            "Me too!"
+          ],
+          "ans": "I don't know either",
+          "hint": "도 + negative = neither / don't either"
+        },
+        {
+          "type": "fb",
+          "s": "커피___ 있어요. 차도 있어요. (There is ALSO coffee)",
+          "a": "도",
+          "opts": [
+            "도",
+            "는",
+            "가",
+            "이"
+          ],
+          "hint": "Also-exists = 도 replaces the particle"
+        },
+        {
+          "type": "fb",
+          "s": "A: 저는 배가 고파요. B: 저___ 배가 고파요!",
+          "a": "도",
+          "opts": [
+            "도",
+            "는",
+            "가",
+            "이"
+          ],
+          "hint": "Me too = 저도"
+        },
+        {
+          "type": "fb",
+          "s": "선생님___ 없어요. (The teacher isn't here either)",
+          "a": "도",
+          "opts": [
+            "도",
+            "은",
+            "이",
+            "가"
+          ],
+          "hint": "도 replaces 은 to add 'also/either'"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "도",
+              "en": "also / too (replaces particles)"
+            },
+            {
+              "nl": "저도요",
+              "en": "me too!"
+            },
+            {
+              "nl": "도 없어요",
+              "en": "don't have either"
+            },
+            {
+              "nl": "도 몰라요",
+              "en": "don't know either"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 학생이에요. 제 친구{1} 학생이에요. 우리 선생님{2} 여기 있어요.",
+          "blanks": {
+            "1": "도",
+            "2": "도"
+          },
+          "pool": [
+            "도",
+            "는",
+            "이",
+            "가"
+          ],
+          "hint": "Friend is ALSO a student. Teacher is ALSO here."
+        },
+        {
+          "type": "mc",
+          "q": "Which sentence is WRONG?",
+          "opts": [
+            "저도 학생이에요",
+            "커피도 있어요",
+            "선생님도 있어요",
+            "시간이도 없어요"
+          ],
+          "ans": "시간이도 없어요",
+          "hint": "도 never stacks with 이/가"
+        }
+      ]
+    },
+    {
+      "id": "kou2l8",
+      "title": "[place]에 있어요",
+      "icon": "📍",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Where Things Are",
+          "desc": "에 is one of Korean's most important particles. Today: one job only — marking WHERE something is. You'll see more of 에 in Unit 6. For now, use it for location.",
+          "goals": [
+            "Use [place]에 있어요 to say where things are",
+            "Ask 어디에 있어요? (where is?)",
+            "Get comfortable with 에 as a location particle"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "에",
+          "en": "at / in (location)",
+          "phonetic": "e",
+          "example": "학교에 있어요.",
+          "exampleEn": "I'm at school.",
+          "note": "에 = marks WHERE something IS (static location).\n\n학교에 있어요.\n→ (I'm) at school.\n\n카페에 있어요.\n→ (I'm) at the café.\n\n집에 있어요.\n→ (I'm) at home.\n\nFull 에 system taught in Unit 6.\nPattern: [place]에 있어요 = is/am at [place].",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "어디",
+          "en": "where",
+          "phonetic": "eo-di",
+          "example": "화장실이 어디에 있어요?",
+          "exampleEn": "Where is the bathroom?",
+          "note": "어디: where.\n어디에 있어요?: 'Where is it?'\n\n어디에 있어요 = survival Korean.\nThe most important question you'll ask in Korea.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "집",
+          "en": "home / house",
+          "phonetic": "jip",
+          "example": "집에 있어요.",
+          "exampleEn": "I'm at home.",
+          "note": "집: home/house.\n집에 있어요: 'I'm at home' / 'It's at home'.\n\nNative Korean word (not Sino-Korean).\n집에 가요: 'going home' (에 as destination — preview of U6!)",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "카페",
+          "en": "café",
+          "phonetic": "ka-pe",
+          "example": "카페에 있어요.",
+          "exampleEn": "I'm at the café.",
+          "note": "KONGLISH: English 'café' → 카페.\n카페에 있어요: 'I'm at the café.'\n\nKorea has more cafés per capita than any country.\n카페 culture is massive here.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "지금",
+          "en": "now / right now",
+          "phonetic": "ji-geum",
+          "example": "지금 어디에 있어요?",
+          "exampleEn": "Where are you right now?",
+          "note": "지금: now.\n지금 어디에 있어요?: 'Where are you right now?'\n\nSINO-KOREAN: 지 (this) + 금 (now).\nVery common time word.",
+          "kind": "word"
+        },
+        {
+          "type": "mc",
+          "q": "화장실이 어디에 있어요? means:",
+          "opts": [
+            "What is the bathroom?",
+            "Where is the bathroom?",
+            "Is there a bathroom?",
+            "The bathroom is big."
+          ],
+          "ans": "Where is the bathroom?",
+          "hint": "어디 = where, 있어요 = is/there is"
+        },
+        {
+          "type": "mc",
+          "q": "'I'm at the library':",
+          "opts": [
+            "도서관에 없어요",
+            "도서관이 있어요",
+            "도서관에 있어요",
+            "도서관은 이에요"
+          ],
+          "ans": "도서관에 있어요",
+          "hint": "Place + 에 + 있어요 = am at [place]"
+        },
+        {
+          "type": "mc",
+          "q": "지금 어디에 있어요? Someone is asking:",
+          "opts": [
+            "How are you now?",
+            "Where are you right now?",
+            "What time is it?",
+            "Are you here now?"
+          ],
+          "ans": "Where are you right now?",
+          "hint": "지금 = now, 어디에 있어요 = where is"
+        },
+        {
+          "type": "mc",
+          "q": "집에 있어요. 집 means:",
+          "opts": [
+            "School",
+            "Café",
+            "Home",
+            "Library"
+          ],
+          "ans": "Home",
+          "hint": "집 = home/house"
+        },
+        {
+          "type": "fb",
+          "s": "지금 카페___있어요.",
+          "a": "에",
+          "opts": [
+            "에",
+            "이",
+            "가",
+            "는"
+          ],
+          "hint": "Location particle: at the café"
+        },
+        {
+          "type": "fb",
+          "s": "선생님이 ___에 있어요? (Where is the teacher?)",
+          "a": "어디",
+          "opts": [
+            "어디",
+            "무엇",
+            "누구",
+            "언제"
+          ],
+          "hint": "'Where' in Korean"
+        },
+        {
+          "type": "fb",
+          "s": "저는 지금 집___있어요.",
+          "a": "에",
+          "opts": [
+            "에",
+            "은",
+            "이",
+            "가"
+          ],
+          "hint": "At home = 집 + location particle + 있어요"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "에",
+              "en": "at/in (location)"
+            },
+            {
+              "nl": "어디",
+              "en": "where"
+            },
+            {
+              "nl": "집",
+              "en": "home/house"
+            },
+            {
+              "nl": "지금",
+              "en": "now"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "A: 지금 {1}에 있어요? B: 아니요, {2}에 있어요.",
+          "blanks": {
+            "1": "학교",
+            "2": "카페"
+          },
+          "pool": [
+            "학교",
+            "카페",
+            "집",
+            "병원",
+            "어디"
+          ],
+          "hint": "Are you at school? No, I'm at the café."
+        },
+        {
+          "type": "mc",
+          "q": "학교에 있어요. The 에 particle marks:",
+          "opts": [
+            "What school is",
+            "How school is",
+            "Where the person is (location)",
+            "When they're at school"
+          ],
+          "ans": "Where the person is (location)",
+          "hint": "에 = location marker here"
+        },
+        {
+          "type": "mc",
+          "q": "카페 is best described as:",
+          "opts": [
+            "Sino-Korean",
+            "Pure Korean (고유어)",
+            "Konglish (English loanword)",
+            "Hanja compound"
+          ],
+          "ans": "Konglish (English loanword)",
+          "hint": "It comes from the English/French word café"
+        }
+      ]
+    },
+    {
+      "id": "kou2l9",
+      "title": "알아요 / 몰라요",
+      "icon": "💡",
+      "xp": 20,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "I Know / I Don't Know",
+          "desc": "Two essential expressions. And an honest heads-up: 모르다 does something unexpected when conjugated. We'll flag it and move on — the explanation comes in Unit 13.",
+          "goals": [
+            "Say 알아요 (I know)",
+            "Say 몰라요 (I don't know)",
+            "Understand the JRTF flag"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "알아요",
+          "en": "I know / I understand",
+          "phonetic": "a-ra-yo",
+          "example": "네, 알아요.",
+          "exampleEn": "Yes, I know.",
+          "note": "알다: to know.\n알아요: polite present form.\n\n알아요: 'I know (this information).'\n이해해요: 'I understand (a concept)' — but 알아요 covers both in daily use.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "몰라요",
+          "en": "I don't know",
+          "phonetic": "mol-la-yo",
+          "example": "저는 몰라요.",
+          "exampleEn": "I don't know.",
+          "note": "모르다 = to not know.\n\n⚡ JRTF — Just Remember This Form:\n\n모르다 → 몰라요\n→ don't know (NOT 모르어요 — the stem transforms)\n\nIrregular verb. Full pattern taught in Unit 13.\nFor now: 몰라요 is a set phrase.",
+          "kind": "grammar"
+        },
+        {
+          "type": "teach",
+          "nl": "맞아요",
+          "en": "That's right / Correct",
+          "phonetic": "ma-ja-yo",
+          "example": "네, 맞아요!",
+          "exampleEn": "Yes, that's right!",
+          "note": "맞다: to be correct/right.\n맞아요: polite form. 'That's correct.'\n\n맞아요 is used to confirm someone is right.\n틀려요: 'That's wrong.' (opposite)\n\nVery common in conversation.",
+          "kind": "word"
+        },
+        {
+          "type": "teach",
+          "nl": "정말요?",
+          "en": "Really?",
+          "phonetic": "jeong-mal-yo",
+          "example": "A: 저는 의사예요. B: 정말요?",
+          "exampleEn": "A: I'm a doctor. B: Really?",
+          "note": "정말: really / truly.\n정말요?: 'Really?' (surprised/interested reaction)\n\n정말요 = 정말 (really) + 요 (polite).\n\n진짜요?: same meaning, more casual.\n(진짜 = real/true, more emphatic than 정말)",
+          "kind": "word"
+        },
+        {
+          "type": "tip",
+          "title": "⚡ JRTF: Just Remember This Form",
+          "text": "You'll occasionally meet verbs that change shape when conjugated.\n\n모르다 → 몰라요 (expected: 모르어요 ✗)\n\nThis is called an IRREGULAR verb.\nDon't try to figure out the pattern yet.\nThe specific rule is taught in Unit 13 (르-irregular).\n\nWhen you see ⚡ JRTF:\n→ Just memorize the given form\n→ The explanation is coming later\n→ It's not an error, it's a known pattern\n\nFor now: 몰라요. Done."
+        },
+        {
+          "type": "mc",
+          "q": "'I don't know':",
+          "opts": [
+            "알아요",
+            "몰라요",
+            "없어요",
+            "아니에요"
+          ],
+          "ans": "몰라요",
+          "hint": "JRTF: Just Remember This Form — 모르다 → 몰라요"
+        },
+        {
+          "type": "mc",
+          "q": "Why does 모르다 become 몰라요 (not 모르어요)?",
+          "opts": [
+            "It's a typo",
+            "It's irregular — pattern taught in Unit 13",
+            "Because of SOV",
+            "Random exception"
+          ],
+          "ans": "It's irregular — pattern taught in Unit 13",
+          "hint": "JRTF: the pattern has a name, it's just coming later"
+        },
+        {
+          "type": "mc",
+          "q": "맞아요 is used to:",
+          "opts": [
+            "Say 'I don't know'",
+            "Confirm something is correct",
+            "Ask a question",
+            "Say goodbye"
+          ],
+          "ans": "Confirm something is correct",
+          "hint": "맞다 = to be correct/right"
+        },
+        {
+          "type": "mc",
+          "q": "정말요? is a reaction expressing:",
+          "opts": [
+            "Agreement",
+            "Disagreement",
+            "Surprise or interest",
+            "Politeness"
+          ],
+          "ans": "Surprise or interest",
+          "hint": "정말 = really — used when surprised or wanting to confirm"
+        },
+        {
+          "type": "fb",
+          "s": "A: 선생님이 학교에 있어요. B: 네, ___요. (That's right)",
+          "a": "맞아",
+          "opts": [
+            "맞아",
+            "알아",
+            "몰라",
+            "정말"
+          ],
+          "hint": "Confirming something is correct"
+        },
+        {
+          "type": "fb",
+          "s": "저는 ___. (I don't know — irregular form!)",
+          "a": "몰라요",
+          "opts": [
+            "몰라요",
+            "모르어요",
+            "모르요",
+            "모라요"
+          ],
+          "hint": "JRTF: 모르다 → the irregular polite form"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "알아요",
+              "en": "I know"
+            },
+            {
+              "nl": "몰라요",
+              "en": "I don't know"
+            },
+            {
+              "nl": "맞아요",
+              "en": "That's right"
+            },
+            {
+              "nl": "정말요?",
+              "en": "Really?"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "A: 선생님이 어디에 있어요? B: {1}. 저도 {2}.",
+          "blanks": {
+            "1": "몰라요",
+            "2": "몰라요"
+          },
+          "pool": [
+            "알아요",
+            "몰라요",
+            "맞아요",
+            "정말요"
+          ],
+          "hint": "A asks where the teacher is. B has no idea. Neither does C."
+        },
+        {
+          "type": "mc",
+          "q": "진짜요? compared to 정말요? is:",
+          "opts": [
+            "More formal",
+            "Less common",
+            "More casual/emphatic",
+            "Completely different meaning"
+          ],
+          "ans": "More casual/emphatic",
+          "hint": "진짜 = real/true, often used with stronger feeling"
+        },
+        {
+          "type": "mc",
+          "q": "알아요 covers which English meanings?",
+          "opts": [
+            "I know only",
+            "I understand only",
+            "Both 'I know' and 'I understand'",
+            "Neither — it means something else"
+          ],
+          "ans": "Both 'I know' and 'I understand'",
+          "hint": "알아요 is used for both in daily conversation"
+        }
+      ]
+    },
+    {
+      "id": "kou2l10",
+      "title": "Review & Quiz",
+      "icon": "📝",
+      "xp": 30,
+      "board": true,
+      "steps": [
+        {
+          "type": "intro",
+          "title": "Unit 2 Complete",
+          "desc": "Testing everything: jobs, existence, demonstratives, family, place, morphemes. Every question uses only vocabulary from Units 1-2.",
+          "goals": [
+            "Verify all U2 concepts",
+            "Test morpheme decomposition",
+            "Confirm particle instincts"
+          ]
+        },
+        {
+          "type": "teach",
+          "nl": "Unit 2 Summary",
+          "en": "What you now know",
+          "phonetic": "",
+          "example": "저는 학생이에요. 학교에 있어요. 친구도 있어요.",
+          "exampleEn": "I am a student. I'm at school. I also have a friend.",
+          "note": "VOCABULARY: 8 jobs, 5 locations, 5 family terms.\nGRAMMAR SHOWN (not yet named):\n이/가 subject marker\n에 location particle\n도 'also' particle\n있다/없다 existence/possession\nDECOMPOSITION: 10 Sino-Korean morphemes banked.",
+          "kind": "grammar"
+        },
+        {
+          "type": "mc",
+          "q": "학생 = 학 + 생. 학 means:",
+          "opts": [
+            "Person",
+            "Study",
+            "School",
+            "Teacher"
+          ],
+          "ans": "Study",
+          "hint": "Study-person = student"
+        },
+        {
+          "type": "mc",
+          "q": "선생님 = 선생 + 님. 님 means:",
+          "opts": [
+            "Teacher",
+            "Student",
+            "Honorific suffix",
+            "Friend"
+          ],
+          "ans": "Honorific suffix",
+          "hint": "님 elevates any title"
+        },
+        {
+          "type": "mc",
+          "q": "Which correctly uses 도?",
+          "opts": [
+            "저는도 학생이에요",
+            "저도 학생이에요",
+            "저가도 학생이에요",
+            "저이도 학생이에요"
+          ],
+          "ans": "저도 학생이에요",
+          "hint": "도 REPLACES 는, never stacks"
+        },
+        {
+          "type": "mc",
+          "q": "Something far from both speaker and listener is called:",
+          "opts": [
+            "이것",
+            "그것",
+            "저것",
+            "여기"
+          ],
+          "ans": "저것",
+          "hint": "Far from BOTH = 저"
+        },
+        {
+          "type": "mc",
+          "q": "'Where is the pharmacy?'",
+          "opts": [
+            "약국이 뭐예요?",
+            "약국이 어디에 있어요?",
+            "약국에 있어요.",
+            "약국이 있어요?"
+          ],
+          "ans": "약국이 어디에 있어요?",
+          "hint": "어디 = where, 있어요 = is"
+        },
+        {
+          "type": "mc",
+          "q": "관 appears in 도서관 AND 경찰관. It means:",
+          "opts": [
+            "Study",
+            "Building/Official hall",
+            "Room",
+            "Member"
+          ],
+          "ans": "Building/Official hall",
+          "hint": "관 = building/official hall in both words"
+        },
+        {
+          "type": "mc",
+          "q": "A female speaker saying 오빠가 있어요 has:",
+          "opts": [
+            "A younger brother",
+            "An older sister",
+            "An older brother",
+            "A male friend"
+          ],
+          "ans": "An older brother",
+          "hint": "오빠 = older brother, used by female speakers"
+        },
+        {
+          "type": "fb",
+          "s": "지금 카페___있어요.",
+          "a": "에",
+          "opts": [
+            "에",
+            "는",
+            "이",
+            "가"
+          ],
+          "hint": "Location: at the café"
+        },
+        {
+          "type": "fb",
+          "s": "저는 ___. 그 단어를 몰라요. (I don't know)",
+          "a": "몰라요",
+          "opts": [
+            "몰라요",
+            "모르어요",
+            "알아요",
+            "없어요"
+          ],
+          "hint": "JRTF: the irregular form of 모르다"
+        },
+        {
+          "type": "fb",
+          "s": "커피도 있어요. 차___ 있어요. (Tea is ALSO there)",
+          "a": "도",
+          "opts": [
+            "도",
+            "는",
+            "이",
+            "가"
+          ],
+          "hint": "Also-there = 도 replaces the particle"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "있어요",
+              "en": "there is / I have"
+            },
+            {
+              "nl": "없어요",
+              "en": "there isn't / don't have"
+            },
+            {
+              "nl": "알아요",
+              "en": "I know"
+            },
+            {
+              "nl": "몰라요",
+              "en": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            {
+              "nl": "학교",
+              "en": "school (study+teach)"
+            },
+            {
+              "nl": "도서관",
+              "en": "library (book+building)"
+            },
+            {
+              "nl": "병원",
+              "en": "hospital (illness+place)"
+            },
+            {
+              "nl": "교실",
+              "en": "classroom (teach+room)"
+            }
+          ]
+        },
+        {
+          "type": "drag_fill",
+          "s": "저는 {1}에 있어요. {2}도 있어요.",
+          "blanks": {
+            "1": "학교",
+            "2": "친구"
+          },
+          "pool": [
+            "학교",
+            "카페",
+            "집",
+            "친구",
+            "선생님"
+          ],
+          "hint": "I'm at school. A friend is also here."
+        },
+        {
+          "type": "mc",
+          "q": "실 appears in 교실 and 화장실. It means:",
+          "opts": [
+            "Teach",
+            "Place",
+            "Room",
+            "Study"
+          ],
+          "ans": "Room",
+          "hint": "교실 = teach-room; 화장실 = bathroom = wash-room"
+        }
+      ]
+    }
+  ]
+}
