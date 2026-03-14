@@ -44,7 +44,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 71 decisions, pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 79 decisions (D1-D79), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
@@ -150,6 +150,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - **P34**: Every word in exercises must have been taught (teach card) before use
 - **P37**: Function words need teach cards before first use. Each language defines its own function word list in LANG_BLUEPRINT. Cognate exception: exempt only if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
 - **P43**: Density targets per language (Korean: 20-25, Dutch: 25-35). Pedagogy over count — never add filler steps.
+- **P46**: B1+ multi-construct density. Every B1+ lesson must: (a) layer 2+ constructs in examples, (b) have 50%+ quiz sentences combining current + previous grammar, (c) end with a comprehensive multi-pattern final question (3+ constructs), (d) meet minimum 15 steps.
 
 ### Content Formatting:
 - **P22c**: NEVER use em-dashes (—). Use periods, colons, commas, or \n bullets.
@@ -241,11 +242,14 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - B1 quality audit (2026-03-14): 28 duplicate teach cards removed (incl. 호텔→숙소), ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
 - A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
-- **TOPIK/TTMIK standards audit (2026-03-14)**: ~60-65% of TTMIK L1-6 grammar covered. ~40 patterns missing. See `docs/KOREAN_TOPIK_TTMIK_AUDIT.md`
-  - Critical gaps: -(으)ㄹ게요 (volitional future), -(으)니까 (reason+command), -자마자, -(이)나/-거나 (or), -만 (only), -(으)ㄹ래요, -(으)ㄴ 후에, -한테/-한테서, 죄송합니다/저기요, 누구/왜/어떻게, 그리고/그래서
-  - Gap plan: ~15-20 new lessons across existing units, 12 new seeds. See `docs/KOREAN_CURRICULUM_GAP_PLAN.md`
+- **TOPIK/TTMIK standards audit (2026-03-14)**: Code-verified. ~70-75% of TTMIK L1-6 grammar covered. ~20-25 patterns actually missing (initial report said ~40, but 7 were false positives). See `docs/KOREAN_TOPIK_TTMIK_AUDIT.md`
+  - Initial audit found 7 false positives: 죄송합니다, 한테, 그리고, -(으)니까, -(으)ㄹ게요, -기 전에, -거나 ARE already taught
+  - Confirmed gaps: -(으)ㄹ래요, -(으)ㄹ까요, 그래서, 누구 (standalone), -만 (general), -(으)ㄴ 후에, -자마자, -잖아요, -나 보다, -아/어지다, -다가, -(으)러 가다, -(으)ㄴ 적이 있다, N밖에, -(으)려면, -한테서, -아/어도, narrative tense, -(으)ㅂ시다, -게 adverbial
+  - Gap plan (v2 corrected): ~10-15 new lessons, 14 new seeds, + B1 density uplift. See `docs/KOREAN_CURRICULUM_GAP_PLAN.md`
+  - **B1 density problem**: 63% of B1 lessons below P43 floor (20-25 steps). U20 at 10.9 avg. New rule P46: multi-construct sentences, comprehensive final questions.
   - Strengths confirmed: seed-harvest system, cultural anchoring, practice ratio (65%), Sino-Korean compounds, irregular systematization
-  - **Next action**: Execute Sprint 1 (A1 survival patch) then Sprint 2 (A2 structural unlocks)
+  - Decisions D72-D79 added to engine decision log
+  - **Next action**: Execute Sprint 1 (A1 patch) → Sprint 2 (A2 unlocks) → Sprint 3-4 (B1 gaps) → Sprint 5 (B1 density uplift)
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -264,7 +268,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B1 DONE. Next: TOPIK/TTMIK gap fill (15-20 lessons, 12 new seeds), then A1-A2 quality fixes, then B2.
+1. **Korean** - A1-B1 DONE. Next: TOPIK/TTMIK gap fill (10-15 lessons, 14 seeds) + B1 density uplift (~200-300 steps), then A1-A2 quality fixes, then B2.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
@@ -319,8 +323,8 @@ Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
 - `docs/LINGOVERSE_MASTER_BIBLE.md` — Full philosophy, per-language standards, official reference requirements, unit count doctrine
 - `docs/POLYGLOT_PIPELINE_STANDARDS.md` — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan
 - `docs/KOREAN_B1_CURRICULUM_DESIGN.md` — **NEW** Complete B1 design: seed harvests, grammar sequencing, cultural anchors, trade-offs
-- `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` — **NEW** TOPIK I + TTMIK L1-6 gap analysis: ~40 missing grammar patterns, coverage percentages, tiered priority list
-- `docs/KOREAN_CURRICULUM_GAP_PLAN.md` — **NEW** Implementation plan: 5 sprints, 12 new seeds, ~15-20 new lessons, polyglot seeding philosophy
+- `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` — TOPIK I + TTMIK L1-6 gap analysis: coverage percentages, tiered priority list (NOTE: raw counts pre-code-verification, see gap plan v2 for corrected numbers)
+- `docs/KOREAN_CURRICULUM_GAP_PLAN.md` — **CORRECTED v2** Implementation plan: 6 sprints, 14 new seeds, ~10-15 new lessons + B1 density uplift, P8 safeguards, P46 multi-construct rule
 - `docs/KOREAN_QUALITY_AUDIT.md` — A1-A2 quality audit with 7 fix batches (2026-03-14, issues resolved)
 - `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit)
 

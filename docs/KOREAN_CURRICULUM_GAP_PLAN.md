@@ -1,8 +1,26 @@
-# Korean Curriculum Gap Plan: TOPIK/TTMIK Alignment
+# Korean Curriculum Gap Plan: TOPIK/TTMIK Alignment (v2 — Corrected)
 
-> Date: 2026-03-14
+> Date: 2026-03-14 (v2: code-verified, false positives removed, density plan added)
 > Prerequisite: Read `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` first
 > Philosophy: Early structural unlocks. Seed massively. Harvest patiently.
+
+---
+
+## CORRECTION NOTICE (v2)
+
+The v1 gap plan (same date) contained **7 false positives**: patterns listed as "missing" that code verification proved ARE already taught. This v2 is the corrected, code-verified version.
+
+**Removed from gap list (already in code):**
+- 죄송합니다 — fully taught U1L7, 5 MC exercises
+- 한테 — taught U5L3+, 10+ uses across units
+- 그리고 — taught U3L2, teach card + drag_fill
+- -(으)니까 — full lesson U9L3, contrasts with -아/어서
+- -(으)ㄹ게요 — multiple teaches U8-U10, MC quiz U9L4
+- -기 전에 — taught U8L5, teach card + MC + FB
+- -거나 — taught U10L2, MC exercise
+
+**Actual confirmed gap count: ~20-25 patterns (not ~40).**
+**TTMIK coverage recalculated: ~70-75% (not ~60-65%).**
 
 ---
 
@@ -10,339 +28,371 @@
 
 This plan follows the owner's polyglot acquisition vision:
 
-1. **Structural unlocks first.** Patterns that help you understand HOW Korean expresses nuance get priority over patterns that add one more way to say something. -(으)니까 vs -아/어서 is a structural unlock (it reveals Korean's reason-giving system). 훨씬 ("much more") is vocabulary.
+1. **Structural unlocks first.** Patterns that help you understand HOW Korean expresses nuance get priority. -(으)ㄹ까요 vs -(으)ㄹ래요 is a structural unlock (reveals Korean's suggestion system). 훨씬 ("much more") is vocabulary.
 
-2. **Seed as early as possible.** If a pattern can appear naturally in a sentence at A1, seed it at A1. Don't wait until the "right" unit. The brain needs exposure time before naming. P26 is law.
+2. **Seed as early as possible.** If a pattern can appear naturally in a sentence at A1, seed it at A1. The brain needs exposure time before naming. P26 is law.
 
 3. **The whole language, early.** A learner at U3 should already feel the shape of Korean: SOV, particles, stems+endings, speech levels, vowel harmony, and now also connectors, question words, restriction particles. Not as formal grammar, but as patterns they keep bumping into.
 
-4. **Contrast pairs are structural unlocks.** -(으)ㄹ 거예요 vs -(으)ㄹ게요. -아/어서 vs -(으)니까. -고 싶다 vs -(으)ㄹ래요. These distinctions reveal Korean's listener-awareness. Teach the contrast, not just the form.
+4. **Contrast pairs are structural unlocks.** -고 싶다 vs -(으)ㄹ래요. -아/어서 vs -(으)니까 (already taught, but contrast can be deepened). These distinctions reveal Korean's listener-awareness. Teach the contrast, not just the form.
+
+5. **B1 sentences must pull their weight.** Every B1 exercise sentence should layer 2-3 previously-taught constructs with the current grammar. The last quiz question of every lesson should be a hefty multi-pattern sentence testing comprehensive comprehension. (See B1 Density Uplift below.)
 
 ---
 
-## Seeding Strategy: New Seeds to Plant NOW
+## CONFIRMED GAPS (Code-Verified)
 
-These patterns should be **seeded** (shown in natural context, not formally taught) in existing lessons immediately. Each seed gets a brief JRTF ("Just Remember This Form") note or appears in examples without explanation.
+### Tier 1: Must-Fix (High TOPIK/TTMIK frequency)
+
+| # | Pattern | Meaning | Status in Code | Action |
+|---|---------|---------|---------------|--------|
+| 1 | 그래서 | "So/therefore" connector | ABSENT | Add teach card + exercises U6 |
+| 2 | 누구 (standalone) | "Who" question word | Example-only, no teach card | Add formal teach card U2 |
+| 3 | -만 (general) | "Only" particle | Only in 잠시만요 compound | Add standalone teach U3 |
+| 4 | -(으)ㄴ 후에 | "After doing" | ABSENT | New lesson U10/U11 |
+| 5 | -자마자 | "As soon as" | ABSENT | New lesson U12/U13 |
+| 6 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 |
+| 7 | -(으)ㄹ까요? | "Shall we?" suggestion | ABSENT as formal teach | New lesson U9 |
+| 8 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
+| 9 | -(으)ㄴ 적이 있다 | "Have done before" | ABSENT | New lesson U11/U12 |
+| 10 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
+| 11 | -(으)려면 | "If you want to" | ABSENT | Add to U14 |
+| 12 | -한테서 | "From a person" | ABSENT (한테 exists, 한테서 doesn't) | Add teach card U10 |
+
+### Tier 2: Important (Expected at B1)
+
+| # | Pattern | Meaning | Status in Code | Action |
+|---|---------|---------|---------------|--------|
+| 13 | -아/어지다 | "Become" (state change) | Example-only (좋아지다), no teach | Add dedicated teach U15 |
+| 14 | -잖아요 | "You know, right?" | ABSENT | New lesson U19 |
+| 15 | -나 보다 | "I guess / it seems" | ABSENT | New lesson U19 |
+| 16 | -다가 | "While doing, then" | ABSENT | Add to U17 |
+| 17 | Narrative -(ㄴ/는)다 | Diary/writing form | ABSENT | Add to U20 |
+| 18 | -아/어도 | "Even if/though" | ABSENT | Add to U13/U14 |
+| 19 | -(으)ㅂ시다 | "Let's" (formal) | 1 example, no teach card | Add teach card U20 |
+| 20 | -게 (adverbial) | "In a manner of" | Only in -게 되다 combo | Add dedicated teach U15 |
+
+### Tier 3: Enrichment (Nice for B1, required for B2)
+
+| # | Pattern | Meaning | Action |
+|---|---------|---------|--------|
+| 21 | -(으)ㄹ 뻔했다 | "Almost did" | Defer to B2 |
+| 22 | -지요/-죠 | Tag question | Defer to B2 |
+| 23 | -(이)라도 | "At least / even if" | Defer to B2 |
+| 24 | 대신에 | "Instead" | Defer to B2 |
+| 25 | -기는 하다 | "I DID do it, but..." | Defer to B2 |
+
+---
+
+## B1 Density Uplift Plan (NEW — addresses P43 violation)
+
+### The Problem
+
+B1 lessons average **13.8 steps** vs the P43 target of **20-25 steps**.
+- 59/93 B1 lessons (63%) are under 15 steps
+- 21/93 (23%) are under 12 steps
+- U20 averages only **10.9 steps** (weakest unit, should be strongest)
+- Final lesson (U20L10) has **9-11 steps** (weaker than U1L1)
+- B1 sentences are narrowly focused on single patterns, not layering constructs
+
+### The Fix: Multi-Construct Density
+
+**New Pipeline Rule P46: B1+ Sentence Complexity**
+
+Every B1+ lesson must follow these density principles:
+
+1. **Teach cards**: Example sentences must use 2+ previously-taught constructs alongside the new pattern. Example for -자마자: "집에 도착하자마자 친구한테 전화했어요" (uses: -자마자 + 한테 + past tense + 하다 verb).
+
+2. **MC/FB questions**: At least 50% of quiz sentences must layer current + previous grammar. Not "Which means 'as soon as'?" but "도착하자마자 짐을 풀고 쉬었어요. What happened?" (tests: -자마자 + -고 sequential + past tense + comprehension).
+
+3. **Final question rule**: The last quiz step of every B1+ lesson MUST be a comprehensive multi-pattern sentence. Minimum 3 constructs tested. Format: drag_fill or FB preferred (forces production). Example: "{1} 도착하자마자 친구{2} 전화{3}." → blanks: 집에, 한테, 했어요. Tests: location particle + -자마자 + -한테 + past tense.
+
+4. **Density floor**: No B1 lesson under 15 steps. Target: 18-22. Uplift thin lessons by adding multi-construct exercises, not filler teach cards.
+
+### B1 Uplift Targets (by unit)
+
+| Unit | Current Avg | Target Avg | Action |
+|------|-----------|-----------|--------|
+| U11 | 16.7 | 18-20 | Minor: add 2-3 multi-construct exercises to thinnest lessons |
+| U12 | 15.2 | 18-20 | Add multi-construct exercises to 3-4 lessons |
+| U13 | 14.1 | 18-20 | Add layered connector exercises |
+| U14 | 13.8 | 18-20 | Add obligation+purpose combo sentences |
+| U15 | 13.5 | 18-20 | Add benefactive+change combo sentences |
+| U16 | 13.2 | 18-20 | Add reported speech in complex contexts |
+| U17 | 12.8 | 18-20 | Add passive+news multi-clause sentences |
+| U18 | 13.0 | 18-20 | Add nominalization in real-world contexts |
+| U19 | 12.7 | 18-20 | Add evidential+register multi-pattern |
+| U20 | **10.9** | **20-22** | **Major uplift**: capstone MUST be strongest unit |
+
+---
+
+## P8 Anti-Leak Safeguards for New Lessons
+
+### Contrast Lesson Quiz Design
+
+For lessons teaching A vs B patterns (e.g., -(으)ㄹ 거예요 already taught vs -(으)ㄹ래요 new), these P8 rules apply:
+
+1. **MC stems must use Korean sentences, not English meta-descriptions.** BAD: "Which future is listener-aware?" GOOD: Show a Korean dialogue, ask which form completes it. The Korean context cues the answer through grammar, not through English labels.
+
+2. **FB is the preferred format for contrast testing.** A full Korean sentence with a blank forces the learner to read surrounding grammar to decide. The sentence structure itself IS the test.
+
+3. **Match pairs for batch discrimination.** Show 4 situations matched to 4 forms simultaneously. No single question leaks a single answer.
+
+4. **Distractors must be plausible Korean forms.** MC options for grammar contrast must include 3+ forms the learner knows. Never include English glosses of the rule.
+
+### Hint Design for Contrast Questions (P44)
+
+Hints must reference the **decision framework**, not restate the grammar rule:
+- BAD hint: "Use -(으)ㄹ래요 for casual preference"
+- GOOD hint: "Think about how formal this situation is"
+- BAD hint: "-(으)니까 works before commands"
+- GOOD hint: "Look at what comes AFTER the 'because' clause"
+
+### Seed Boundary Rule (P34 Compliance)
+
+Seeded patterns may appear in:
+- Teach card `example` and `exampleEn` fields
+- Teach card `note` fields (with JRTF flag)
+- Tip card `text` or `deepDive` fields
+
+Seeded patterns must NEVER appear in:
+- MC `opts[]` or `ans` fields
+- FB `a` (answer) or `s` (sentence blank) fields
+- Match `pairs` fields
+- drag_fill `blanks` or `pool` fields
+- tr targets
+
+Until their harvest lesson provides formal teach cards.
+
+---
+
+## Seeding Strategy: Verified Seeds to Plant
 
 ### Seeds for A1 (Units 1-6)
 
 | Pattern | Seed Location | How | Harvest Target |
 |---------|--------------|-----|---------------|
-| 죄송합니다 | U1 L1 or L4 | Add teach card alongside 감사합니다 | A1 (immediate) |
-| 저기요 | U4 L2 (ordering) | Natural restaurant context: "저기요, 주세요" | A1 (immediate) |
-| 누구/왜/어떻게 | U2 L3-L5 | Add question word teach cards to identity unit | A1 (immediate) |
-| 그리고/그래서/그런데 | U1 L7+ | Seed in example sentences: "한국어, 그리고 영어" | U6 or U8 |
-| -하고 | U3 L4 (counters) | "커피하고 빵" in ordering/counting context | U5 or U6 |
-| -만 | U3 (numbers) | "하나만 주세요" (just one please) | U8 or seed registry |
-| -(이)나 | U4 (food) | "커피나 차" (coffee or tea) in ordering | U9 or U13 |
-| -한테 | U5 (family) | "엄마한테" (to mom) in family context | U8 or U10 |
-| -(으)ㄹ게요 | U4 L5+ | "제가 할게요" in dialogue, JRTF note | U9 (formal harvest) |
-| -(으)니까 | U6+ | Weather: "추우니까 옷 입으세요" JRTF note | U13 or U14 |
-| -기 전에 | U3 (time) | "먹기 전에" in daily routine context | U10 or U11 |
-| -아/어도 | U8 (health) | "아파도 괜찮아요" as example | U14 |
-
-**Total new A1 seeds: 12 patterns.**
-These are NOT new lessons. They're 1-2 teach cards or example sentences added to existing lessons, plus seed registry entries.
+| 누구/왜/어떻게 | U2 L3-L5 | Add question word teach cards | A1 (immediate formal teach) |
+| 그래서 | U1 L7+ or U3 | Seed in example sentences | U6 (formal teach) |
+| -만 | U3 L4 (counters) | "하나만 주세요" (just one please) | U8 or stay implicit |
+| -(이)나 | U4 L2 (food) | "커피나 차" (coffee or tea) | U13 (formal teach with -거나) |
+| -(으)ㄹ래요 | U4 L5+ | "뭐 먹을래요?" JRTF note | U9 (formal teach) |
+| -(으)ㄹ까요 | U4 L5+ | "같이 갈까요?" JRTF note | U9 (formal teach) |
+| -아/어도 | U8 (health) | "아파도 괜찮아요" as example | U13/U14 (formal teach) |
 
 ### Seeds for A2 (Units 7-10)
 
 | Pattern | Seed Location | How | Harvest Target |
 |---------|--------------|-----|---------------|
-| -자마자 | U7 (past tense) | "집에 도착하자마자 잠들었어요" as example | U13 or new |
-| -다가 | U10 (daily life) | "밥 먹다가 전화 받았어요" as example | U17 or new |
-| -나 보다 | U10 L8 (것 같다) | Near 것 같다, seed alternative: "비가 오나 봐요" | U19 or new |
-| -잖아요 | U10 (반말 unit) | "알잖아" in casual speech examples | U19 or new |
-| -아/어지다 | U7-U8 | "날씨가 추워졌어요" in past tense/weather context | U15 or new |
-| Narrative -(ㄴ/는)다 | U10 | Diary example: "오늘 학교에 갔다" | U16 or U20 |
+| -자마자 | U7 L2 (past tense) | "도착하자마자 잠들었어요" example | U12/U13 (formal teach) |
+| -다가 | U10 L1 (daily life) | "먹다가 전화 받았어요" example | U17 (formal teach) |
+| -나 보다 | U10 L8 (것 같다) | "비가 오나 봐요" near 것 같다 | U19 (formal teach) |
+| -잖아요 | U10 L3 (반말) | "알잖아" in casual speech | U19 (formal teach) |
+| -아/어지다 | U7-U8 (weather) | "추워졌어요" in past context | U15 (formal teach) |
+| Narrative -(ㄴ/는)다 | U10 L8 | Diary: "오늘 학교에 갔다" | U20 (formal teach) |
+| -(으)ㄴ 후에 | U9 L6 (-고 나서 lesson) | "먹은 후에" near -고 나서 | U10/U11 (formal teach) |
 
-**Total new A2 seeds: 6 patterns.**
+**Total seeds: 14 (7 A1 + 7 A2)**
 
 ---
 
 ## Implementation Plan: Where Each Gap Gets Filled
 
-### Phase A: A1 Patch (Units 1-6) — Add to existing lessons
-
-These are survival-level patterns that should have been there from the start. They fit naturally into existing units without new lessons.
-
-**U1 additions (Greetings & Being):**
-- Add 죄송합니다/죄송해요 teach card to L4 or L4b (negation context: apology is adjacent to politeness)
-- Add 저기요 teach card (calling attention)
-- 2-3 MC questions testing 감사합니다 vs 죄송합니다 distinction
+### Phase A: A1 Patch (Units 1-6) — Expand existing lessons
 
 **U2 additions (Identity & Existence):**
-- Add question word lesson or expand L3-L5:
-  - 누구 (who), 왜 (why), 어떻게 (how), 얼마나 (how much)
-  - These are function words (P37) that need teach cards before quiz use
-  - 4-6 teach cards + 4-6 MC = could be 1 new lesson or expansion of existing
+- Add standalone 누구 teach card (who) — currently only in compound 누군가
+- Add 왜 (why), 어떻게 (how) teach cards if missing
+- D44 compliance: Add intro tip "Korean Question Words" before first question word teach
+- 4-6 teach cards + 4-6 MC = expand existing lesson or 1 new lesson
+- board:true on any new lesson
 
 **U3 additions (Numbers & Counters):**
-- Seed -만: "하나만 주세요" (just one please) in counter lesson
-- Seed -하고: "커피하고 빵" (coffee and bread) in counter/money lesson
+- Add -만 standalone teach card: "only" particle beyond 잠시만요
+- "하나만 주세요" (just one please), "물만 마셔요" (I only drink water)
+- 2-3 MC exercises testing -만
 
-**U4 additions (Food & Ordering):**
-- Seed -(이)나: "커피나 차 드릴까요?" (coffee or tea?) in ordering context
-- Seed -(으)ㄹ게요: "제가 주문할게요" (I'll order) with JRTF note: "You'll learn this future form properly in U9. For now, just notice it."
-- Seed 저기요 if not already in U1
+**U6 additions (Transport):**
+- Add 그래서 teach card (so/therefore) — 그리고 and 그런데 already exist
+- "버스가 늦었어요. 그래서 택시를 탔어요."
+- 2-3 MC/FB exercises
+- Seed: -(이)나 in example if not already present
 
-**U5 additions (Family):**
-- Add -한테: "엄마한테 전화해요" (call mom). Teach card for -한테 (to a person)
-- Seed -(이)랑: "언니랑 같이" (together with sister)
-- 2-3 exercises using -한테 in family context
+**Estimated A1 patch: 1 new lesson (question words) + 8-12 new steps in existing lessons.**
 
-**U6 additions (Transport & Location):**
-- Add 그리고/그래서/그런데 as sentence connectors. This could be 1 new lesson:
-  - 3 teach cards (그리고 = and, 그래서 = so, 그런데 = but/by the way)
-  - Transport context: "버스가 늦었어요. 그래서 택시를 탔어요."
-  - 4-6 MC/FB exercises
-- Seed -(으)니까: "비가 오니까 택시 타세요" with JRTF note
-- Confirm spatial words (앞/뒤/옆/위/밑/안/밖) have dedicated teach cards. If not, add them.
+### Phase B: A2 Structural Unlocks (Units 7-10) — New lessons
 
-**Estimated A1 patch: 2-3 new lessons + 15-20 new steps in existing lessons.**
+**U9 additions — Suggestion & Preference Forms:**
 
----
+**New Lesson: "-(으)ㄹ까요? + -(으)ㄹ래요: Suggesting & Wanting"**
+- -(으)ㄹ까요? = shall we? / do you think? (suggestion/question)
+- -(으)ㄹ래요 = I want to / do you want to? (casual preference)
+- D44: Intro tip "Korean Suggestion System" before first teach card
+- Teach cards: 4 (-(으)ㄹ까요 form, -(으)ㄹ래요 form, contrast, usage)
+- Tip: "How Korean splits suggestions from preferences"
+- MC: 6 (Korean sentence completion, not English meta-descriptions per P8)
+- FB: 4 (sentence with blank, learner picks form)
+- Match: 1 (situations to forms)
+- Final question: Multi-construct drag_fill testing -(으)ㄹ까요/래요 + previous grammar
+- board:true, **~20-22 steps**
 
-### Phase B: A2 Structural Unlocks (Units 7-10) — New lessons needed
+**U10 additions — Complete Person Particle Set:**
 
-These are the patterns that unlock Korean's nuance system. They need proper lessons, not just seeds.
+**Expand existing lesson: Add -한테서 + -에게서**
+- -한테 already taught. Add -한테서 (from a person) as contrast
+- Add -에게/-에게서 as formal register alternatives
+- 3-4 teach cards + 4-6 MC/FB
+- board:true, **~10-14 new steps in existing lesson**
 
-**U9 additions (Future & Speech Levels) — THE BIG UNLOCK:**
-
-This is where the future tense contrast lives. Add 1-2 new lessons:
-
-**New Lesson: "-(으)ㄹ게요: The Listener-Aware Future"**
-- Structural unlock: Korean has TWO futures because Korean is listener-aware
-- -(으)ㄹ 거예요 = plan/prediction (about you, neutral)
-- -(으)ㄹ게요 = promise/commitment (to the listener, responsive)
-- This distinction reveals Korean's fundamental social awareness
-- Teach cards: 3 (form, contrast, usage rules)
-- Tip: "Why Korean needs two futures" (structural unlock card)
-- MC: 6-8 questions testing which future fits which context
-- FB: 3-4 fill-in-blank
-- Match: pairs of situations with correct future
-- **~18-22 steps**
-
-**New Lesson: "-(으)ㄹ까요? Shall We? + -(으)ㄹ래요 What Do You Want?"**
-- Suggestion and preference forms
-- -(으)ㄹ까요? = shall we / do you think?
-- -(으)ㄹ래요? = do you want to? / I want to (casual intention)
-- Context: making plans (already U9's theme)
-- **~16-20 steps**
-
-**U8 or U10 additions — Reason-Giving System:**
-
-**New Lesson: "-(으)니까: The Other Because"**
-- Structural unlock: Korean splits "because" based on what follows
-- -아/어서 = soft reason, cannot be followed by commands/suggestions
-- -(으)니까 = strong reason, CAN be followed by commands/suggestions
-- "배가 아프니까 병원에 가세요" (Because your stomach hurts, go to the hospital) — only works with 니까
-- Tip: "Korean reason-giving has rules about what comes next"
-- **~18-22 steps**
-
-**U10 additions (Daily Life) — Person Particles:**
-
-**Expand existing or add lesson: "-한테/-한테서 + -에게/-에게서"**
-- To a person vs from a person
-- Formal (에게) vs casual (한테) register
-- Context: daily life communication
-- "친구한테 선물을 줬어요" / "친구한테서 편지를 받았어요"
-- **~14-18 steps**
-
-**Estimated A2 additions: 3-4 new lessons (~65-80 new steps).**
-
----
+**Estimated A2 additions: 1-2 new lessons + lesson expansions (~35-50 new steps).**
 
 ### Phase C: B1 Gap Filling (Units 11-20) — New lessons in existing units
 
-These patterns belong at B1 and fit naturally into existing unit themes.
+**U11 (Travel):**
+- Add -(으)러 가다/오다 teach card: "밥 먹으러 가요"
+- Add -(으)ㄴ 후에 lesson: "After doing" temporal connector
+  - Contrast with -고 나서 (already taught U9L6)
+  - D44: Intro tip for temporal pair
+  - board:true, **~18-20 steps**
 
-**U11 (Travel) additions:**
-- Add -(으)러 가다/오다: "밥 먹으러 가요" — natural travel/movement context
-- Can expand existing lesson or add 1 lesson
-- Seed: -자마자 in travel context: "공항에 도착하자마자 전화했어요"
+**U12 (Hobbies):**
+- New lesson: "-(으)ㄴ 적이 있다: Have You Ever...?"
+  - Contrast with -아/어 봤어요 (taught U11)
+  - D44: Intro tip "Two Ways to Say Experience"
+  - Compound: 경험 = 경(pass through) + 험(test) as LEGO chip
+  - board:true, **~18-20 steps**
 
-**U12 (Hobbies) or U13 (Connectors) additions:**
+**U13 (Connectors):**
+- New lesson: "-자마자: As Soon As" (harvest from A2 seed)
+  - D44: Intro tip for temporal connectors
+  - board:true, **~18-20 steps**
+- New lesson: "-아/어도: Even If/Though"
+  - Concessive connector, fits nuance theme
+  - board:true, **~18-20 steps**
 
-**New Lesson: "-(으)ㄴ 적이 있다: Have You Ever...?"**
-- Experiential past: "한국에 간 적이 있어요?"
-- Contrast with -아/어 봤어요 (which is already taught in U11)
-- Tip: Two ways to say "have done before" and when each fits
-- Context: hobbies/travel discussion
-- **~16-20 steps**
+**U14 (Workplace):**
+- Add -(으)려면 to obligation unit: "If you want to..."
+  - Natural extension of -(으)려고 (already taught)
+  - Expand existing lesson or add 1 new, board:true, **~16-20 steps**
 
-**New Lesson: "-자마자: As Soon As" (harvest)**
-- Temporal connector harvest (seeded in A2)
-- "집에 도착하자마자 잠들었어요"
-- Context: daily life narrative
-- **~14-18 steps**
+**U15 (Education):**
+- New lesson: "-아/어지다 + -게: Becoming & Manner"
+  - -아/어지다 = state change (Korean became easier: 쉬워졌어요)
+  - -게 = adverbial (quickly: 빠르게, loudly: 크게)
+  - D44: Intro tip "How Korean Expresses Change and Manner"
+  - board:true, **~18-22 steps**
 
-**U13 (Connectors) — Perfect home for missing connectors:**
+**U17 (News):**
+- Add -다가 to existing lesson: "While doing X, then Y"
+  - "공부하다가 잠들었어요" (was studying, then fell asleep)
+  - Add N밖에 + negative: "시간밖에 없어요" (nothing but time)
+  - Expand existing lessons, **~8-12 new steps**
 
-**Expand or add: "-(이)나/-거나: Or"**
-- Noun alternative: 커피나 차 (coffee or tea)
-- Verb alternative: 먹거나 마시거나 (eat or drink)
-- Contrast with 아니면 (or else)
-- **~14-18 steps**
+**U19 (Relationships):**
+- New lesson: "-잖아요 + -나 보다: Shared Knowledge & Inference"
+  - -잖아요 = "you know" / appealing to shared knowledge
+  - -나 보다 = "I guess" / inference from observation
+  - Both are relationship/conversation patterns
+  - board:true, **~18-22 steps**
 
-**Add: "-아/어도: Even If/Though" (concessive)**
-- "비가 와도 갈 거예요" (even if it rains, I'll go)
-- Concessive connector fits U13's nuance theme perfectly
-- **~14-18 steps**
+**U20 (Consolidation):**
+- Add -(으)ㅂ시다 teach card to grammar review lesson
+- Add narrative tense -(ㄴ/는)다 to reading practice lesson
+- **Major density uplift**: U20 must reach 20-22 steps/lesson average (currently 10.9)
+  - Add multi-construct final questions to every lesson
+  - Add comprehensive review exercises layering all B1 grammar
+  - **~50-80 new steps across U20**
 
-**U14 (Workplace/Obligation) additions:**
-- Add -(으)려면: "한국어를 잘 하려면 많이 연습해야 해요"
-- Natural extension of obligation/purpose theme
-- Can be 1 new lesson or expansion of -(으)려고 lesson
-
-**U15 (Education) additions:**
-- Add -아/어지다: "한국어가 쉬워졌어요" (Korean became easier)
-- State change pattern fits education theme
-- Add -게 (adverbial): "빠르게 배웠어요" (learned quickly)
-- Can be 1 new lesson: "Becoming and Manner"
-
-**U17 (News) additions:**
-- Add -다가: "공부하다가 잠들었어요" (was studying, then fell asleep)
-- Interrupted action fits news narrative context
-- Add N밖에: "시간밖에 없어요" (there's nothing but time)
-- Restriction in news/formal context
-
-**U19 (Relationships) additions:**
-- Add -잖아요: "알잖아요" (you know, right?)
-- Very natural in relationship/conversation context (harvest from A2 seed)
-- Add -나 보다: "좋아하나 봐요" (I guess they like it)
-- Inference fits relationship observation context (harvest from A2 seed)
-
-**U20 (Consolidation) additions:**
-- Add -(으)ㅂ시다 formal suggestion: "시작합시다" (let's begin)
-- Add narrative tense -(ㄴ/는)다 in reading practice lesson
-- These fit the consolidation/assessment theme
-
-**Estimated B1 additions: 6-8 new lessons + expansions (~120-160 new steps).**
-
----
+**Estimated B1 additions: 6-7 new lessons + major expansions (~180-250 new steps).**
 
 ### Phase D: Vocabulary Domain Patches
 
-These can be woven into existing units or become sub-lessons.
-
 | Domain | Target Unit | Approach |
 |--------|------------|----------|
-| Clothing/fashion | U10 (Daily Life) or U12 (Hobbies) | Add 8-10 clothing words + MC exercises |
-| School subjects | U15 (Education) | Natural fit: add 과학/수학/역사/영어/음악 teach cards |
-| Animals | U3 (Counters: 마리) or U12 | Expand counter lesson with animal vocabulary |
-| Sports | U12 (Hobbies) | Add 축구/야구/수영/농구 to hobby vocabulary |
-| Degree adverbs | U5 or U8 | 좀/정말/아주/별로/전혀 as teach cards + exercises |
-| 아직/벌써 | U7 (Time) | Time adverbs: "아직 안 먹었어요" / "벌써 끝났어요" |
+| Clothing/fashion | U10 or U12 | 8-10 clothing words + MC exercises |
+| School subjects | U15 | 과학/수학/역사/영어/음악 teach cards |
+| Animals | U3 (counters) or U12 | Expand counter lesson with animal vocab |
+| Sports | U12 | 축구/야구/수영/농구 to hobby vocab |
+| Degree adverbs | U5 or U8 | 좀/정말/아주/별로/전혀 teach cards |
+| 아직/벌써 | U7 | "아직 안 먹었어요" / "벌써 끝났어요" |
 
-**Estimated: 30-40 new steps across existing lessons. No new lessons needed.**
+**Estimated: 30-40 new steps. No new lessons needed.**
 
----
+### Phase E: B1 Density Uplift (ALL Units 11-20)
 
-## Complete Seed Registry Update
+Separate from gap filling. Every existing B1 lesson that falls below 15 steps gets:
+1. 2-4 additional multi-construct MC/FB exercises
+2. A comprehensive final question (drag_fill or FB, 3+ constructs)
+3. Broader example sentences on existing teach cards
 
-### New Seeds to Add to Registry
+Priority: U20 first (worst), then U19, U18, U17 upward.
 
-| Seed | Plant in | Natural Context | Harvest in | Strategy |
-|------|---------|----------------|-----------|----------|
-| -(으)ㄹ게요 | U4 L5 | "제가 할게요" (I'll do it) | U9 new lesson | JRTF note |
-| -(으)니까 | U6 L6 | "추우니까" (because it's cold) | U8/U10 new lesson | JRTF note |
-| -만 | U3 L4 | "하나만" (just one) | U8 or stay implicit | Natural example |
-| -(이)나 | U4 L2 | "커피나 차" (coffee or tea) | U13 new lesson | Natural example |
-| -한테 | U5 L3 | "엄마한테" (to mom) | U10 new lesson | Teach card |
-| -자마자 | U7 L2 | "도착하자마자" (as soon as arrived) | U12/U13 | Natural example |
-| -다가 | U10 L1 | "먹다가" (while eating) | U17 new lesson | Natural example |
-| -나 보다 | U10 L8 | "비가 오나 봐요" | U19 new lesson | Near 것 같다 |
-| -잖아요 | U10 L3 | "알잖아" (you know) | U19 new lesson | 반말 context |
-| -아/어지다 | U7 L6 | "추워졌어요" (it got cold) | U15 new lesson | Natural example |
-| -(ㄴ/는)다 narrative | U10 L8 | Diary: "오늘 학교에 갔다" | U20 lesson | Example text |
-| -기 전에 | U3 L5 | "먹기 전에" (before eating) | U10/U11 | Natural example |
+**Estimated: ~200-300 new steps across 59 thin lessons.**
 
 ---
 
 ## Implementation Order (Recommended)
 
-### Sprint 1: A1 Survival Patch (Smallest, highest impact)
-1. Add 죄송합니다/저기요 to U1
-2. Add question words (누구/왜/어떻게) to U2
-3. Add 그리고/그래서/그런데 lesson to U6
-4. Sprinkle seeds: -만, -하고, -(이)나, -한테, -(으)ㄹ게요, -(으)니까 across U3-U6
+### Sprint 1: A1 Patch (Smallest, highest impact)
+1. Add question word teach cards (누구/왜/어떻게) to U2
+2. Add 그래서 teach card to U6
+3. Add -만 standalone teach card to U3
+4. Sprinkle seeds for Tier 1 gaps across U3-U6
 5. Update seed registry
 
-### Sprint 2: A2 Structural Unlocks (Most important new content)
-6. Add -(으)ㄹ게요 contrast lesson to U9
-7. Add -(으)ㄹ까요?/-(으)ㄹ래요 lesson to U9
-8. Add -(으)니까 contrast lesson to U8 or U10
-9. Add -한테/-한테서 lesson to U10
-10. Sprinkle A2 seeds: -자마자, -다가, -나 보다, -잖아요, -아/어지다
+### Sprint 2: A2 Structural Unlocks
+6. Add -(으)ㄹ까요?/-(으)ㄹ래요 lesson to U9
+7. Add -한테서 teach cards to U10
+8. Sprinkle A2 seeds: -자마자, -다가, -나 보다, -잖아요, -아/어지다, -(으)ㄴ 후에
 
 ### Sprint 3: B1 Connector Expansion
-11. Add -(으)ㄴ 적이 있다 to U11 or U12
-12. Add -자마자 harvest to U12 or U13
-13. Add -(이)나/-거나 to U13
-14. Add -아/어도 to U13
-15. Add -(으)려면 to U14
+9. Add -(으)ㄴ 후에 lesson to U11
+10. Add -(으)ㄴ 적이 있다 to U12
+11. Add -자마자 + -아/어도 to U13
+12. Add -(으)려면 to U14
 
 ### Sprint 4: B1 Enrichment
-16. Add -아/어지다 + -게 adverbial to U15
-17. Add -다가 + N밖에 to U17
-18. Add -잖아요 + -나 보다 to U19
-19. Add -(으)ㅂ시다 + narrative tense to U20
-20. Add -(으)러 가다/오다 to U11
+13. Add -아/어지다 + -게 to U15
+14. Add -다가 + N밖에 to U17
+15. Add -잖아요 + -나 보다 to U19
+16. Add -(으)ㅂ시다 + narrative tense to U20
+17. Add -(으)러 가다/오다 to U11
 
-### Sprint 5: Vocabulary Patches
-21. Clothing words (U10 or U12)
-22. School subjects (U15)
-23. Animals + sports (U12)
-24. Degree adverbs (U5 or U8)
-25. 아직/벌써 (U7)
+### Sprint 5: B1 Density Uplift
+18. Uplift U20 to 20-22 steps/lesson (priority)
+19. Uplift U19, U18, U17 to 18-20 steps/lesson
+20. Uplift U16-U11 to minimum 15 steps/lesson
+21. Add multi-construct final questions to all B1 lessons
+
+### Sprint 6: Vocabulary Patches
+22. Clothing, school subjects, animals, sports, degree adverbs, 아직/벌써
 
 ---
 
-## Expected Outcome
+## Expected Outcome (Corrected)
 
 | Metric | Before | After |
 |--------|--------|-------|
-| Total lessons | 195 | ~210-215 |
-| Total steps | 3,353 | ~3,600-3,700 |
-| TTMIK L1-6 coverage | ~60% | ~85-90% |
-| TOPIK I grammar coverage | ~75% | ~95% |
-| Seed registry entries | 12 (all harvested) | 24+ (12 new seeds) |
+| Total lessons | 195 | ~205-210 |
+| Total steps | 3,353 | ~3,900-4,100 |
+| TTMIK L1-6 coverage | ~70-75% | ~90-95% |
+| TOPIK I grammar coverage | ~80% | ~95%+ |
+| Seed registry entries | 12 (all harvested) | 26 (12 old + 14 new) |
 | Vocabulary domains covered | 14/17 | 17/17 |
+| B1 avg steps/lesson | 13.8 | 18-20 |
+| B1 lessons under 15 steps | 59/93 (63%) | 0/~100 (0%) |
 
-**Net addition: ~15-20 new lessons, ~250-350 new steps.**
-**No units need to be restructured.** All gaps fit into existing unit themes.
-
----
-
-## Architectural Notes
-
-### Why Not Just Add Units 21-25?
-
-The gaps don't cluster into coherent new themes. They're scattered particles, connectors, and contrasts that belong contextually in existing units. Adding "Unit 21: Missing Stuff" violates the cultural anchoring principle. Instead:
-
-- A1 gaps go into A1 units (where they should have been)
-- A2 structural unlocks go into A2 units (where they thematically belong)
-- B1 connectors go into U13 (which is literally the connector unit)
-- B1 enrichment goes into units with matching themes
-
-### P26 Compliance
-
-Every new pattern follows the seed-harvest cycle:
-1. **Seed**: Natural appearance in earlier unit (JRTF note or example)
-2. **Harvest**: Formal lesson with teach cards, tip, and exercises
-3. **Registry**: Every seed documented with plant location and harvest target
-
-### P34 Compliance
-
-Every new lesson must ensure all words in exercises have prior teach cards. New vocabulary introduced in seeds must be limited to teach card contexts (not quiz contexts) until formally taught.
+**Net addition: ~10-15 new lessons, ~550-750 new steps (including density uplift).**
 
 ---
 
 ## Decision Record
 
-- **D72**: Korean TOPIK/TTMIK gap audit identified ~40 missing grammar patterns. Fix via seeding + targeted lessons, not new units.
-- **D73**: -(으)ㄹ게요 vs -(으)ㄹ 거예요 is the single highest-priority gap. Seed in U4, harvest in U9.
-- **D74**: -(으)니까 vs -아/어서 is the second highest priority. Korean's reason system is a structural unlock.
-- **D75**: Sentence connectors (그리고/그래서/그런데) should be A1 content, not B1. Added to U6.
-- **D76**: Question words (누구/왜/어떻게) should be A1 formal content. Added to U2.
-- **D77**: New seed registry doubles from 12 to 24+ entries. All new seeds get documented plant/harvest locations.
+- **D72**: Korean TOPIK/TTMIK gap audit: code verification reduced gap from ~40 to ~20-25 patterns. 7 false positives removed. Fix via seeding + targeted lessons, not new units.
+- **D73**: -(으)ㄹ까요/-(으)ㄹ래요 is the highest-priority A2 gap. Seed in U4, formal lesson in U9.
+- **D74**: Sentence connectors partially present (그리고 exists, 그래서 missing). Only add what's actually absent.
+- **D75**: Question words (누구/왜/어떻게) need standalone teach cards in U2. Currently example-only.
+- **D76**: Seed registry expands from 12 to 26 entries. All new seeds documented with plant/harvest locations.
+- **D77**: B1 density uplift required. 63% of B1 lessons violate P43. U20 at 10.9 avg is unacceptable for capstone.
+- **D78**: New pipeline rule P46: B1+ multi-construct sentence density. Last question of every B1+ lesson must test 3+ constructs.
+- **D79**: P8 safeguards for contrast lessons: MC stems use Korean sentences not English meta-descriptions. FB preferred for grammar discrimination. Hints reference decision frameworks, never grammar rules.
