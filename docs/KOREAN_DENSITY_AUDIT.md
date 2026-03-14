@@ -1,5 +1,7 @@
-# KOREAN CURRICULUM — DENSITY AUDIT
-## 91 Issues Across 62 of 102 Lessons | 0 CRITICAL
+# KOREAN CURRICULUM — DENSITY AUDIT (HISTORICAL)
+## ⚠️ SUPERSEDED by `KOREAN_QUALITY_AUDIT.md` for all fix work
+## This file tracks density metrics only. For the active fix plan with line numbers, see KOREAN_QUALITY_AUDIT.md.
+## 91 Density Issues Across 62 of 102 Lessons | 0 CRITICAL
 ## Date: 2026-03-14 (Fresh audit, supersedes 2026-03-07)
 
 ---

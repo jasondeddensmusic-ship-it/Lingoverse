@@ -223,8 +223,9 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - A1 (Units 1-6): COMPLETE, all A1 gap items added (못, -지만, spatial words, adverbs, colors, connectors)
 - A2 (Units 7-10): COMPLETE (U7 Past Tense, U8 Health/Conditional, U9 Future/Speech Levels, U10 Daily Life/반말)
 - 10 units, 102 lessons, 2,056 steps (avg 20.2/lesson)
-- **91 density issues** remaining (0 CRITICAL), down from 568 (fresh audit 2026-03-14)
-- Remaining: TIP_KOREAN_HEAVY (39), TEACH_STREAK (20), NOTE_WALL (11), DEEPDIVE_WALL (11), TIP_WALL (6)
+- **~570 quality issues** found in full audit (2026-03-14). See `docs/KOREAN_QUALITY_AUDIT.md` for batch fix plan.
+- Issue types: lazy hints (151), bracket text (16), duplicates (20), answer-revealing hints (18), distractor quality (85), tip/note walls (209), deepDive quality (77), vocab gate (5)
+- 7 fix batches planned, execute unit-by-unit U1→U10
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
 - Units 11-20 (B1): Not yet built
 
@@ -237,7 +238,8 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 - `docs/LINGOVERSE_MASTER_BIBLE.md` — Full philosophy, per-language standards, official reference requirements, unit count doctrine
 - `docs/POLYGLOT_PIPELINE_STANDARDS.md` — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan
-- `docs/KOREAN_DENSITY_AUDIT.md` — Detailed audit of all 96 Korean lessons with issue counts and fix patterns
+- `docs/KOREAN_QUALITY_AUDIT.md` — **ACTIVE** Full quality audit with 7 fix batches, line numbers, and execution plan (2026-03-14)
+- `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit for fix work)
 
 ---
 
