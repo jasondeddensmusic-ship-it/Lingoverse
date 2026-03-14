@@ -252,6 +252,13 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
   - 14 new lessons, ~315 new steps. All Tier 1 (11) + Tier 2 (8) gaps filled.
   - See `docs/KOREAN_CURRICULUM_GAP_PLAN.md` for full details.
   - **Lesson learned (D80)**: Initial audit had 25% false-positive rate because agents compared references against CLAUDE.md descriptions instead of grep-ing actual code. All future audits MUST grep data files first.
+- **KNOWN ISSUES — B1 content quality (owner-reported, 2026-03-14)**:
+  - The gap plan added content fast. Original B1 content (U11-U20) has quality issues too. Owner flagged specific broken rules in kou17l9 and likely elsewhere.
+  - **Issue 1 (kou17l9 line 4500)**: FB "아이에게 밥을 {1}. (I ___ the child rice.)" — English is unnatural (P32). Options truncating on mobile (CSS overflow with Korean text in option buttons).
+  - **Issue 2 (kou17l9 line 4505)**: drag_fill "이 영화가 관객을 {1}. 전 세계에서 {2}." — English blanks ambiguous, 5 pool options where English doesn't clearly map to Korean answers (P32, P8). Learner must already know the answer to solve it.
+  - **Rules broken**: P32 (native-speaker quality English), P8 (ambiguous blanks), P44 (hints should guide).
+  - **Scope**: These are from the ORIGINAL B1, not new gap plan content. The 14 new lessons (Sprints 1-4) and 30+ new exercises (Sprint 5) have NOT had a quality pass either.
+  - **NEXT ACTION (PRIORITY)**: Full quality audit of (1) all 14 new gap plan lessons, (2) Sprint 5 density exercises, (3) U17-U20 original content. Same rigor as KOREAN_QUALITY_AUDIT.md. Grep code, fix in place, check P32/P8/P44/P43 on every step. Also investigate mobile CSS overflow on fb/drag_fill option buttons.
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
