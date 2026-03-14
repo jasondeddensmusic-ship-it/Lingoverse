@@ -1,0 +1,5591 @@
+// src/data/units-dutch.js — Extracted from lingoverse.jsx (structural refactor, no content changes)
+// Contains: All Dutch (lang:"nl") curriculum units
+
+export default [
+
+// ── DUTCH UNITS (v2 Curriculum) ──
+  {n:1,lang:"nl",track:"v2",title:"First Contact",sub:"Greetings, Zijn & Goodbyes",icon:"👋",level:"A1.1",color:"#4A8FE7",lessons:[
+// ═══ L1: Hallo & Tot ziens ═══
+       {id:"v2u1l1",title:"Hallo & Tot ziens",icon:"👋",xp:15,board:true,steps:[
+         {type:"intro",title:"Hallo & Tot ziens",desc:"Your very first Dutch words, the ones you'll use every single day. Dutch greetings are logical and quick to master.",goals:["4 greetings (formal + casual)","4 goodbyes","Know when to use each one"]},
+
+         {type:"teach",kind:"word",nl:"hallo",en:"hello",phonetic:"HAH-loh",cognate:{words:[{lang:"English",word:"hello"},{lang:"German",word:"Hallo"}],family:"germanic"},example:"Hallo! Hoe gaat het?",exampleEn:"Hello! How are you?",note:"Works with anyone, anywhere, anytime.\nWhen in doubt: hallo.",fRef:"nl_vowels"},
+         {type:"teach",kind:"word",nl:"goedemorgen",en:"good morning",phonetic:"HOO-duh-MOR-hun",cognate:{words:[{lang:"English",word:"good morning"},{lang:"German",word:"Guten Morgen"}],family:"germanic"},example:"Goedemorgen, mevrouw!",exampleEn:"Good morning, ma'am!",note:"Until about noon.\nGoede + morgen = good + morning.",fRef:"nl_con_1"},
+         {type:"teach",kind:"word",nl:"goedemiddag",en:"good afternoon",phonetic:"HOO-duh-MID-dahg",example:"Goedemiddag. Kan ik u helpen?",exampleEn:"Good afternoon. Can I help you?",note:"Noon to ~6 PM. Slightly formal  -  shops, offices."},
+         {type:"teach",kind:"word",nl:"goedenavond",en:"good evening",phonetic:"HOO-dun-AH-vont",example:"Goedenavond allemaal!",exampleEn:"Good evening everyone!",note:"From ~6 PM onwards.\nPattern: goede + time of day!"},
+
+         {type:"tip",title:"🧠 The Goede + Time Pattern",text:"All formal greetings follow one formula:\n\ngoede + morgen = goedemorgen (good morning)\ngoede + middag = goedemiddag (good afternoon)\ngoede + avond = goedenavond (good evening)\n\nThree words, one pattern. Done!",deepDive:{title:"The Dutch 'g': the hardest sound",text:"You'll hear a distinctive throat sound in 'goedemorgen'. The Dutch 'g' is NOT like English 'g', it's a friction sound from the back of your throat.\n\nTips to practice:\n• Start by saying 'aah' like at the doctor\n• Add friction, like gentle gargling\n• Practice: goed, gaan, groot, groep\n\nIn the south of the Netherlands and Belgium, the 'g' is softer, almost like a gentle 'h'. Both are correct!"}},
+
+         {type:"teach",kind:"word",nl:"dag",en:"hello / goodbye",phonetic:"dahg",also:"'de dag' = the day",cognate:{words:[{lang:"English",word:"day"},{lang:"German",word:"Tag"}],family:"germanic"},example:"Dag mevrouw! Dag meneer!",exampleEn:"Hello/goodbye ma'am! Hello/goodbye sir!",note:"Works as BOTH hello AND goodbye.\nOften doubled for warmth: 'dag dag!'\n'De dag' = the day (separate meaning)."},
+         {type:"teach",kind:"phrase",nl:"tot ziens",en:"goodbye (formal)",phonetic:"tot ZEENS",cognate:{words:[{lang:"German",word:"Auf Wiedersehen"}],family:"germanic"},example:"Tot ziens, meneer Bakker.",exampleEn:"Goodbye, Mr. Bakker.",note:"Literally: 'until seeing.'\nFormal  -  shops, offices, strangers."},
+         {type:"teach",kind:"word",nl:"doei",en:"bye! (casual)",phonetic:"DOO-ee",example:"Doei! Tot morgen!",exampleEn:"Bye! See you tomorrow!",note:"Very casual. Like English 'bye-bye!'\nFriends only."},
+         {type:"teach",kind:"phrase",nl:"tot later",en:"see you later",phonetic:"tot LAH-tur",example:"Ik moet gaan. Tot later!",exampleEn:"I have to go. See you later!",note:"'Tot' = until. Dutch builds farewells with it:\ntot morgen = see you tomorrow\ntot zo = see you soon"},
+
+         {type:"tip",title:"👔 Formal vs Casual",text:"🏢 Formal (shops, strangers, older people):\nGoedemorgen / Goedemiddag / Tot ziens / Dag\n\n😊 Casual (friends, family, peers):\nHallo / Hoi / Hey / Doei\n\nWhen in doubt, start formal. The Dutch will quickly say 'je mag jij zeggen' (you can use informal).",deepDive:{title:"Why two levels of politeness?",text:"English used to have this too! 'Thou' was informal and 'you' was formal. English dropped 'thou'. Dutch kept both.\n\njij/je = informal 'you' (like old English 'thou')\nu = formal 'you'\n\nThe Netherlands is quite informal compared to Germany or France. Many Dutch people quickly switch to 'je'. But starting with 'u' shows respect.\n\nFun fact: Belgium uses 'u' MUCH more than the Netherlands!"}},
+
+         {type:"mc",q:"It's 9 AM. You enter a bakery. You say:",opts:["Goedenavond","Goedemorgen","Goedemiddag","Doei"],ans:"Goedemorgen",hint:"Morning greeting"},
+         {type:"mc",q:"Leaving a business meeting, you say:",opts:["Doei!","Hoi!","Tot ziens.","Hey!"],ans:"Tot ziens.",hint:"The formal goodbye"},
+         {type:"mc",q:"'Dag' can be used as:",opts:["Only hello","Only goodbye","Both hello AND goodbye","Only formal"],ans:"Both hello AND goodbye",hint:"The Swiss army knife"},
+         {type:"fb",s:"___! Tot morgen!",a:"Doei",opts:["Doei","Meneer","Sorry","Hallo"],hint:"Casual goodbye to a friend"},
+         {type:"match",pairs:[{nl:"hallo",en:"hello"},{nl:"dag",en:"hello/goodbye"},{nl:"tot ziens",en:"goodbye (formal)"},{nl:"doei",en:"bye! (casual)"}]},
+         {type:"mc",q:"What does 'tot ziens' literally mean?",opts:["Good day","Until seeing","See you later","Hello again"],ans:"Until seeing",hint:"Tot = until"},
+       ]},
+
+       // ═══ L2: Zijn: FULL Conjugation ═══
+       {id:"v2u1l2",title:"Zijn: To Be (Complete)",icon:"🧑",xp:20,board:true,steps:[
+         {type:"intro",title:"Zijn: To Be",desc:"The most important verb in Dutch. You'll learn ALL forms of 'zijn' in one go, because you need them all from day one.",goals:["All 7 subject pronouns","Every form of zijn","Say 'I am', 'you are', 'we are'..."]},
+
+         {type:"teach",kind:"phrase",nl:"ik ben",en:"I am",phonetic:"ik ben",example:"Ik ben student.",exampleEn:"I am a student.",note:"'Ik' = I (always lowercase mid-sentence).\nNo article before professions: 'Ik ben student.'"},
+         {type:"teach",kind:"phrase",nl:"jij bent",en:"you are (informal)",phonetic:"yay bent",example:"Jij bent mijn vriend.",exampleEn:"You are my friend.",note:"Use 'jij' with friends, family, peers.\nIn questions: flips to 'ben jij?'  -  the -t drops!"},
+         {type:"teach",kind:"phrase",nl:"u bent",en:"you are (formal)",phonetic:"oo bent",example:"U bent welkom.",exampleEn:"You are welcome.",note:"For strangers, elders, formal settings.\nSame form as jij: bent."},
+         {type:"teach",kind:"phrase",nl:"hij is",en:"he is",phonetic:"hay is",example:"Hij is groot.",exampleEn:"He is tall.",note:"'Hij' = he. Uses 'is'. Simple!"},
+         {type:"teach",kind:"phrase",nl:"zij is",en:"she is",phonetic:"zay is",also:"'zij' also means 'they': context makes it clear",example:"Zij is aardig.",exampleEn:"She is nice.",note:"'Zij' = she. Same form as hij: is."},
+
+         {type:"verb_table",title:"Zijn: to be",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"ben",en:"I am"},
+              {pronoun:"jij / je",form:"bent",en:"you are"},
+              {pronoun:"u",form:"bent",en:"you are (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"is",en:"he is"},
+              {pronoun:"zij / ze",form:"is",en:"she is"},
+              {pronoun:"het",form:"is",en:"it is"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"zijn",en:"we are"},
+              {pronoun:"jullie",form:"zijn",en:"you all are"},
+              {pronoun:"zij / ze",form:"zijn",en:"they are"},
+            ]}
+          ],note:"Only 4 forms to learn: ben, bent, is, zijn.\nThat covers ALL 9 pronouns!",
+          deepDive:{title:"The jij/je mystery: what's the difference?",text:"You'll see both 'jij' and 'je' everywhere. They mean the same thing!\n\njij = emphasized form\nje = unstressed form\n\nIn daily speech, 'je' is far more common. 'Jij' adds emphasis or contrast:\n• Jij bent groot = YOU are tall (not him)\n• Je bent groot = you're tall (neutral)\n\nSame pattern for all paired pronouns:\n• zij / ze (she or they)\n• wij / we (we)\n\nThe short forms sound more natural in everyday Dutch."}},
+
+         {type:"teach",kind:"phrase",nl:"wij zijn",en:"we are",phonetic:"vay zayn",example:"Wij zijn blij.",exampleEn:"We are happy.",note:"'Wij' = we. Uses the full form: 'zijn'.\nShort form: 'we zijn'."},
+         {type:"teach",kind:"phrase",nl:"jullie zijn",en:"you all are",phonetic:"YUL-lee zayn",example:"Jullie zijn laat!",exampleEn:"You all are late!",note:"'Jullie' = you (plural). Also uses 'zijn'.\nNo separate formal plural  -  'u' covers both."},
+         {type:"teach",kind:"phrase",nl:"zij zijn",en:"they are",phonetic:"zay zayn",example:"Zij zijn mijn buren.",exampleEn:"They are my neighbours.",note:"Same word as 'she'  -  context makes it clear.\nShort form: 'ze zijn'."},
+
+         {type:"tip",title:"🔑 Pattern: Only 4 Forms",text:"Despite 9 pronouns, zijn only has 4 forms:\n\nben → only ik (I)\nbent → jij (you) and u (you, formal)\nis → hij (he), zij (she), het (it)\nzijn → wij (we), jullie (you all), zij (they)\n\nCompare English: am, are, is, also just 3 forms!\nDutch adds one more (ben ≠ bent) but the logic is identical."},
+
+         {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Wij + ?"},
+         {type:"mc",q:"Which pronoun uses 'is'?",opts:["ik","jij","hij","wij"],ans:"hij",hint:"Third person singular"},
+         {type:"fb",s:"Jullie ___ laat!",a:"zijn",opts:["zijn","bent","is","ben"],hint:"Plural 'you'"},
+         {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Ben jij?","Is jij?","Zijn jij?"],ans:"Ben jij?",hint:"The -t drops when jij follows the verb"},
+         {type:"match",pairs:[{nl:"ik ben",en:"I am"},{nl:"hij is",en:"he is"},{nl:"wij zijn",en:"we are"},{nl:"jij bent",en:"you are"}]},
+         {type:"mc",q:"'Zij ___ mijn buren.' (They ___ my neighbours)",opts:["is","bent","zijn","ben"],ans:"zijn",hint:"zij (they) takes the same form as wij"},
+       ]},
+
+       // ═══ L3: Wie? Wat? Waar? ═══
+       {id:"v2u1l3",title:"Wie? Wat? Waar?",icon:"❓",xp:20,board:true,steps:[
+         {type:"intro",title:"Question Words",desc:"Six words that unlock hundreds of questions. Plus the one rule you need: Dutch flips the verb in questions.",goals:["6 question words","Question word order","Form real questions"]},
+
+         {type:"teach",kind:"word",nl:"wie",en:"who",phonetic:"vee",example:"Wie is dat?",exampleEn:"Who is that?",note:"Sounds like 'vee'.\nDutch W = English V sound.",fRef:"nl_con_1"},
+         {type:"teach",kind:"word",nl:"wat",en:"what",phonetic:"vat",also:"also means 'some': wat water = some water",example:"Wat is jouw naam?",exampleEn:"What is your name?",note:"W = V sound. Rhymes with 'but', not 'bat'.\nShort 'a'."},
+         {type:"teach",kind:"word",nl:"waar",en:"where",phonetic:"vahr",also:"also means 'true': dat is waar! = that's true!",example:"Waar is het toilet?",exampleEn:"Where is the toilet?",note:"Long 'aa'  -  hold it!\nYou WILL need this word in the Netherlands."},
+
+         {type:"tip",title:"⚡ Question Word Order",text:"Dutch flips the verb before the subject:\n\nJij bent student. → Ben jij student?\n\nWith a question word, it goes FIRST:\nWie ben jij? = Who are you?\nWat is dat? = What is that?\nWaar is het station? = Where is the station?\n\nPattern: Question word → VERB → subject → rest",deepDive:{title:"Why does Dutch flip the verb?",text:"This is called 'inversion' and Dutch does it consistently.\n\nIn statements: subject → verb → rest\nJij bent groot. = You are tall.\n\nIn questions: verb → subject → rest\nBen jij groot? = Are you tall?\n\nWith question word: question → verb → subject → rest\nHoe groot ben jij? = How tall are you?\n\nGerman does exactly the same thing! If you ever learn German, this rule transfers directly."}},
+
+         {type:"teach",kind:"word",nl:"hoe",en:"how",phonetic:"hoo",example:"Hoe heet je?",exampleEn:"What's your name? (lit: How are you called?)",note:"THE most common way to ask a name.\nLiterally: 'How are-you-called?'"},
+         {type:"teach",kind:"word",nl:"wanneer",en:"when",phonetic:"vah-NEER",example:"Wanneer kom je?",exampleEn:"When are you coming?",note:"Two syllables: wan-NEER. Stress on second."},
+         {type:"teach",kind:"word",nl:"waarom",en:"why",phonetic:"vahr-OM",example:"Waarom niet?",exampleEn:"Why not?",note:"Waar + om = 'where about.'\nStress on second: vahr-OM."},
+
+         {type:"tip",title:"🗣️ Your Survival Questions",text:"Memorize these 5, they'll save you daily:\n\nWat is dat? = What is that?\nWaar is het toilet? = Where is the toilet?\nHoe heet je? = What's your name?\nWanneer vertrekt de trein? = When does the train leave?\nWaarom niet? = Why not?\n\nNotice: verb ALWAYS comes right after the question word."},
+
+         {type:"mc",q:"'Waar is het station?' means:",opts:["What is the station?","Who is at the station?","Where is the station?","How is the station?"],ans:"Where is the station?",hint:"Waar = where"},
+         {type:"mc",q:"'Hoe heet je?' literally means:",opts:["What is your name?","How are you called?","Where are you from?","Who are you?"],ans:"How are you called?",hint:"Hoe = how"},
+         {type:"fb",s:"___ is dat?",a:"Wie",opts:["Wie","Wat","Waar","Hoe"],hint:"Asking about a person"},
+         {type:"mc",q:"In Dutch questions, the verb comes:",opts:["At the end","Right after the question word","After everything","Before the question word"],ans:"Right after the question word",hint:"Question word → VERB → subject"},
+         {type:"match",pairs:[{nl:"wie",en:"who"},{nl:"wat",en:"what"},{nl:"waar",en:"where"},{nl:"waarom",en:"why"}]},
+         {type:"mc",q:"'Wanneer kom je?' means:",opts:["Where are you going?","When are you coming?","Why are you coming?","How are you coming?"],ans:"When are you coming?",hint:"Wanneer = when"},
+       ]},
+
+       // ═══ L4: De, Het & Een ═══
+       {id:"v2u1l4",title:"De, Het & Een",icon:"📦",xp:20,board:true,steps:[
+         {type:"intro",title:"De, Het & Een: Dutch Articles",desc:"Dutch has TWO words for 'the': de and het. No reliable rule  -  you learn them with each word.",goals:["Know de vs het","Use een (a/an)","Learn 6 nouns with their articles","Accept: memorize, don't overthink"]},
+
+         {type:"teach",kind:"phrase",nl:"de man",en:"the man",phonetic:"duh mahn",also:"'man' also means 'husband'",cognate:{words:[{lang:"English",word:"man"},{lang:"German",word:"Mann"}],family:"germanic"},example:"De man is groot.",exampleEn:"The man is tall.",note:"'De' is the most common article (~2/3 of nouns).\nAll plurals ALWAYS use 'de'."},
+         {type:"teach",kind:"phrase",nl:"de vrouw",en:"the woman",phonetic:"duh vrouw",also:"'vrouw' also means 'wife'",cognate:{words:[{lang:"German",word:"Frau"}],family:"germanic"},example:"De vrouw is aardig.",exampleEn:"The woman is nice.",note:"A de-word. 'v' = English 'v'.\n'ouw' rhymes with 'now'."},
+         {type:"teach",kind:"phrase",nl:"het kind",en:"the child",phonetic:"hut kint",cognate:{words:[{lang:"German",word:"Kind"}],family:"germanic"},example:"Het kind speelt buiten.",exampleEn:"The child plays outside.",note:"'Het' words are ~1/3 of all nouns.\nNo reliable rule  -  learn it per word."},
+
+         {type:"tip",title:"📖 De vs Het: The Honest Truth",text:"There is NO reliable rule for de vs het.\n\n✅ What helps:\n• Learn each noun WITH its article (de man, het huis)\n• All plurals use 'de' (de mannen, de huizen)\n• Most people-words use 'de'\n• Words ending in -je always use 'het'\n• If you guess 'de', you're right ~65% of the time",deepDive:{title:"Why does Dutch have de and het?",text:"Dutch inherited two grammatical genders from older Germanic:\n\nde-words = originally masculine OR feminine\nhet-words = neuter\n\nOver centuries, Dutch merged masculine and feminine into one group ('de') but kept neuter separate ('het'). German still has all three (der/die/das). Dutch simplified to two.\n\nFun fact: Dutch speakers themselves often disagree about de/het for some words! Even native speakers sometimes say 'de auto' and 'het auto' interchangeably. So don't stress too much!"}},
+
+         {type:"teach",kind:"phrase",nl:"het huis",en:"the house",phonetic:"hut howss",cognate:{words:[{lang:"English",word:"house"},{lang:"German",word:"Haus"}],family:"germanic"},example:"Het huis is mooi.",exampleEn:"The house is beautiful.",note:"The 'ui' is a uniquely Dutch sound  -  round your lips!\nDoesn't exist in English.",fRef:"nl_vowels"},
+         {type:"teach",kind:"phrase",nl:"een boek",en:"a book",phonetic:"un book",cognate:{words:[{lang:"English",word:"book"},{lang:"German",word:"Buch"}],family:"germanic"},example:"Ik lees een boek.",exampleEn:"I'm reading a book.",note:"'Een' = a/an for ALL nouns.\nIt NEVER changes. That's the good news!"},
+         {type:"teach",kind:"phrase",nl:"de kat",en:"the cat",phonetic:"duh kaht",cognate:{words:[{lang:"English",word:"cat"},{lang:"German",word:"Katze"}],family:"germanic"},example:"De kat slaapt.",exampleEn:"The cat sleeps.",note:"A de-word. Most animals use 'de'.\nException: 'het paard' (the horse)."},
+
+         {type:"mc",q:"Which article goes with 'huis'?",opts:["de","het","een","geen"],ans:"het",hint:"Het huis: a het-word"},
+         {type:"mc",q:"All plural nouns use:",opts:["de","het","een","No article"],ans:"de",hint:"De mannen, de huizen, de katten..."},
+         {type:"fb",s:"___ vrouw is aardig.",a:"De",opts:["De","Het","Een","Geen"],hint:"'The woman': vrouw is a de-word"},
+         {type:"mc",q:"'Een' is used for:",opts:["Only de-words","Only het-words","Both de and het words","Plural nouns"],ans:"Both de and het words",hint:"Een never changes!"},
+         {type:"match",pairs:[{nl:"de man",en:"the man"},{nl:"het huis",en:"the house"},{nl:"de kat",en:"the cat"},{nl:"het kind",en:"the child"}]},
+         {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","het","een","geen"],ans:"het",hint:"Het broodje, het meisje, het kopje..."},
+       ]},
+
+       // ═══ L5: Hebben: FULL Conjugation ═══
+       {id:"v2u1l5",title:"Hebben: To Have (Complete)",icon:"✋",xp:20,board:true,steps:[
+         {type:"intro",title:"Hebben: To Have",desc:"Your second essential verb, all forms at once. After this lesson you know zijn AND hebben, the two verbs that power 60% of daily Dutch.",goals:["Every form of hebben","The -t drop rule in questions","Mini review of L1–L4"]},
+
+         {type:"teach",kind:"phrase",nl:"ik heb",en:"I have",phonetic:"ik hep",example:"Ik heb een kat.",exampleEn:"I have a cat.",note:"Spelled 'heb', sounds like 'hep'.\nFinal b → p, d → t, g → k in Dutch!",fRef:"nl_con_1"},
+         {type:"teach",kind:"phrase",nl:"jij hebt",en:"you have (informal)",phonetic:"yay hept",example:"Jij hebt een groot huis.",exampleEn:"You have a big house.",note:"'Hebt' for jij.\nIn questions: 'Heb jij...?'  -  the -t drops!\nReal rule, not an exception."},
+         {type:"teach",kind:"phrase",nl:"u heeft",en:"you have (formal)",phonetic:"oo hayft",example:"U heeft een afspraak.",exampleEn:"You have an appointment.",note:"Some say 'u hebt'  -  both accepted.\n'U heeft' is more standard."},
+         {type:"teach",kind:"phrase",nl:"hij heeft",en:"he/she has",phonetic:"hay hayft",example:"Hij heeft een kat.",exampleEn:"He has a cat.",note:"Three forms: heb, hebt, heeft.\nik → no -t, jij → -t, hij → -ft."},
+
+         {type:"verb_table",title:"Hebben: to have",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"heb",en:"I have"},
+              {pronoun:"jij / je",form:"hebt",en:"you have"},
+              {pronoun:"u",form:"heeft",en:"you have (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"heeft",en:"he has"},
+              {pronoun:"zij / ze",form:"heeft",en:"she has"},
+              {pronoun:"het",form:"heeft",en:"it has"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"hebben",en:"we have"},
+              {pronoun:"jullie",form:"hebben",en:"you all have"},
+              {pronoun:"zij / ze",form:"hebben",en:"they have"},
+            ]}
+          ],note:"4 forms: heb, hebt, heeft, hebben.\nSame pattern as zijn!",
+          deepDive:{title:"The -t drop rule: the most useful grammar trick",text:"When jij comes AFTER the verb (in questions), the -t disappears:\n\nJij hebt een auto. = You have a car.\nHeb jij een auto? = Do you have a car?\n\nJij bent groot. = You are tall.\nBen jij groot? = Are you tall?\n\nJij werkt hier. = You work here.\nWerk jij hier? = Do you work here?\n\nThis ONLY happens with jij/je, never with u, hij, or anyone else. It's one of the first 'real' grammar rules worth mastering."}},
+
+         {type:"teach",kind:"phrase",nl:"wij hebben",en:"we have",phonetic:"vay HEB-bun",also:"'honger hebben' = to be hungry (lit: to have hunger)",example:"Wij hebben honger.",exampleEn:"We are hungry. (lit: We have hunger)",note:"Dutch says 'have hunger' not 'are hungry'.\nSame for thirst: 'Ik heb dorst.'\nLike French and German!"},
+         {type:"teach",kind:"phrase",nl:"zij hebben",en:"they have",phonetic:"zay HEB-bun",example:"Zij hebben een huis.",exampleEn:"They have a house.",note:"Same as wij: hebben.\nThe plural always uses the full form."},
+
+         {type:"tip",title:"🔁 Quick Review: Zijn + Hebben",text:"ZIJN (to be): ben, bent, is, zijn\nHEBBEN (to have): heb, hebt, heeft, hebben\n\n• Ik ben student. = I am a student.\n• Ik heb een kat. = I have a cat.\n• Ben jij blij? = Are you happy?\n• Hij is groot. = He is tall."},
+
+         {type:"mc",q:"'Ik heb een boek' means:",opts:["I am a book","I have a book","I want a book","I see a book"],ans:"I have a book",hint:"Heb = have"},
+         {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"The -t drops when jij follows the verb"},
+         {type:"mc",q:"'Wij hebben honger' means:",opts:["We are hungry","We have a dog","We are home","We have money"],ans:"We are hungry",hint:"Dutch says 'have hunger' not 'are hungry'"},
+         {type:"fb",s:"Hij ___ een kat.",a:"heeft",opts:["heeft","hebt","heb","hebben"],hint:"hij/zij uses which form?"},
+         // Mini review L1-L4
+         {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Tot ziens","Dag dag"],ans:"Tot ziens",hint:"From Lesson 1"},
+         {type:"mc",q:"'Waar is het station?', 'waar' means:",opts:["what","who","where","when"],ans:"where",hint:"From Lesson 3"},
+         {type:"match",pairs:[{nl:"ik heb",en:"I have"},{nl:"wij hebben",en:"we have"},{nl:"hij heeft",en:"he has"},{nl:"jij hebt",en:"you have"}]},
+       ]},
+// ═══ L6: Ja, Nee & Alsjeblieft ═══
+       {id:"v2u1l6",title:"Ja, Nee & Alsjeblieft",icon:"🙏",xp:20,board:true,steps:[
+         {type:"intro",title:"Ja, Nee & Alsjeblieft",desc:"The three magic words of Dutch politeness. Master these and every interaction gets smoother, shops, cafés, trains, everywhere.",goals:["Ja / nee / misschien","Alsjeblieft & alstublieft","Dank je & dank u","Polite social glue phrases"]},
+
+         {type:"teach",kind:"word",nl:"ja",en:"yes",phonetic:"yah",example:"Ja, graag!",exampleEn:"Yes, please!",note:"J in Dutch ALWAYS sounds like English Y.\n'Ja, graag' = yes please  -  your go-to in shops.",fRef:"nl_con_1"},
+         {type:"teach",kind:"word",nl:"nee",en:"no",phonetic:"nay",example:"Nee, dank je.",exampleEn:"No, thank you.",note:"Long 'ee' sound.\nAlways 'Nee, dank je'  -  never just 'nee' (too abrupt)."},
+         {type:"teach",kind:"word",nl:"misschien",en:"maybe / perhaps",phonetic:"mis-SKEEN",example:"Misschien morgen.",exampleEn:"Maybe tomorrow.",note:"Literally 'it may seem.' Stress: mis-SCHIEN.\n'sch' = 'sk' sound."},
+
+         {type:"tip",title:"🙏 Alsjeblieft: The Swiss Army Word",text:"'Alsjeblieft' is used THREE ways:\n\n1. As 'please':\nMag ik een koffie, alsjeblieft? = Can I have a coffee, please?\n\n2. As 'here you go' (handing something):\nAlsjeblieft! = Here you go!\n\n3. As 'you're welcome':\nDank je! → Alsjeblieft! = Thanks! → You're welcome!\n\nOne word, three functions. Context makes it clear.",deepDive:{title:"How 'alsjeblieft' is a compressed sentence",text:"It looks like one word but it's actually a full sentence!\n\nals + je + belieft = 'if it pleases you'\n\n• als = if\n• je = you (informal)\n• belieft = pleases (archaic Dutch verb)\n\nThe formal version 'alstublieft' works the same way:\nals + t + u + belieft = 'if it pleases you' (formal)\n\nThe 't' comes from the formal verb conjugation. Most Dutch people don't realize this, you'll impress them if you know it!"}},
+
+         {type:"teach",kind:"word",nl:"alsjeblieft",en:"please / here you go (informal)",phonetic:"AHL-shuh-BLEEFT",example:"Een broodje, alsjeblieft.",exampleEn:"A sandwich, please.",note:"Literally 'if it pleases you' (als + je + belieft).\nAlso means 'here you go' when handing something over."},
+         {type:"teach",kind:"word",nl:"alstublieft",en:"please / here you go (formal)",phonetic:"AHL-stoo-BLEEFT",example:"Uw koffie, alstublieft.",exampleEn:"Your coffee, here you go (formal).",note:"Formal version: als + u + belieft.\nThe je/u swap is the only difference."},
+         {type:"teach",kind:"phrase",nl:"dank je",en:"thank you (informal)",phonetic:"dahnk yuh",example:"Dank je wel!",exampleEn:"Thank you very much!",note:"Add 'wel' for emphasis: 'dank je wel!'\nYou'll hear 'dankjewel' as one word."},
+         {type:"teach",kind:"phrase",nl:"dank u",en:"thank you (formal)",phonetic:"dahnk oo",example:"Dank u wel, meneer.",exampleEn:"Thank you very much, sir.",note:"je → u is the formality switch.\n'Dank u wel' for emphasis.\nAlso common: 'bedankt' (works for both)."},
+
+         {type:"tip",title:"🔑 The je/u Pattern",text:"• alsjeblieft / alstublieft = please\n• dank je / dank u = thank you\n• hoe heet je / hoe heet u = what's your name\n• hoe gaat het met je / met u = how are you\n\n'je' ↔ 'u' is the ONLY switch. Works for ANY phrase."},
+
+         {type:"teach",kind:"word",nl:"sorry",en:"sorry",phonetic:"SOR-ee",cognate:{words:[{lang:"English",word:"sorry"}],family:"borrowed"},example:"Sorry, ik versta het niet.",exampleEn:"Sorry, I don't understand.",note:"Borrowed from English  -  same meaning.\n'Pardon' also works (slightly more formal)."},
+         {type:"teach",kind:"word",nl:"graag",en:"gladly / please",phonetic:"hrahg",also:"'ik wil graag' = I would like",example:"Graag gedaan!",exampleEn:"You're welcome! (lit: gladly done)",note:"Incredibly versatile:\nja, graag = yes please\ngraag gedaan = you're welcome\nik wil graag... = I would like..."},
+
+         {type:"mc",q:"A waiter hands you coffee. You say:",opts:["Alsjeblieft","Dank je wel","Sorry","Graag"],ans:"Dank je wel",hint:"They gave you something: you thank them"},
+         {type:"mc",q:"You hand a friend their book back. You say:",opts:["Dank je","Alsjeblieft","Sorry","Nee"],ans:"Alsjeblieft",hint:"You're handing something over"},
+         {type:"fb",s:"Een koffie, ___.",a:["alsjeblieft","alstublieft"],opts:["alsjeblieft","sorry","dank je","graag"],hint:"Ordering politely"},
+         {type:"mc",q:"The formal version of 'dank je' is:",opts:["Dank hij","Dank u","Dank wij","Dank ze"],ans:"Dank u",hint:"je ↔ u is the switch"},
+         {type:"match",pairs:[{nl:"ja, graag",en:"yes, please"},{nl:"nee, dank je",en:"no, thank you"},{nl:"alsjeblieft",en:"please / here you go"},{nl:"sorry",en:"sorry"}]},
+         {type:"mc",q:"'Graag gedaan' means:",opts:["Sorry about that","You're welcome","Yes please","See you later"],ans:"You're welcome",hint:"Literally: gladly done"},
+       ]},
+
+       // ═══ L7: Numbers 1–10 ═══
+       {id:"v2u1l7",title:"Numbers 1–10",icon:"🔢",xp:20,board:true,steps:[
+         {type:"intro",title:"Numbers 1–10",desc:"Dutch numbers 1–10 are your everyday toolkit, prices, times, addresses, phone numbers. Most are recognizable if you speak English or German.",goals:["Count 1–10 in Dutch","Recognize numbers in context","Spot the Germanic cousins"]},
+
+         {type:"teach",kind:"word",nl:"een",en:"one",phonetic:"ayn",example:"Een koffie, alsjeblieft.",exampleEn:"One coffee, please.",note:"As number: stressed 'EEN koffie.'\nAs article (a/an): unstressed 'een koffie.'\nIn writing: 'één' (with accents) = the number.",deepDive:"Dutch uses accent marks to tell them apart:\n\néén = the number one (één koffie = one coffee)\neen = the article a/an (een koffie = a coffee)\n\nIn speech, stress does the job.\nIn writing, the accents do.\nYou'll see 'één' on menus, signs, and clocks."},
+         {type:"teach",kind:"word",nl:"twee",en:"two",phonetic:"tvay",cognate:{words:[{lang:"English",word:"two"},{lang:"German",word:"zwei"}],family:"germanic"},example:"Twee broodjes.",exampleEn:"Two sandwiches.",note:"'tw' sounds like English 'tv'.\nLips together, then release."},
+         {type:"teach",kind:"word",nl:"drie",en:"three",phonetic:"dree",cognate:{words:[{lang:"English",word:"three"},{lang:"German",word:"drei"}],family:"germanic"},example:"Drie kinderen.",exampleEn:"Three children.",note:"Like English 'three' without the 'th'.\nDutch 'r' is slightly rolled."},
+         {type:"teach",kind:"word",nl:"vier",en:"four",phonetic:"feer",cognate:{words:[{lang:"German",word:"vier"},{lang:"English",word:"four"}],family:"germanic"},example:"Vier seizoenen.",exampleEn:"Four seasons.",note:"Sounds like 'fear.' Dutch v = English f:\nvier/four, vader/father, vis/fish."},
+         {type:"teach",kind:"word",nl:"vijf",en:"five",phonetic:"vayf",example:"Vijf euro.",exampleEn:"Five euros.",note:"'ij' = uniquely Dutch, like 'ay' in 'say'.\nRhymes with English 'knife'.",fRef:"nl_vowels"},
+
+         {type:"tip",title:"🧠 Germanic Cousins",text:"Dutch numbers are siblings of English and German:\n\n• een = one (German: eins)\n• twee = two (German: zwei)\n• drie = three (German: drei)\n• vier = four (German: vier)\n• vijf = five (German: fünf)\n\nYou already know these, your brain just needs to connect the dots!"},
+
+         {type:"teach",kind:"word",nl:"zes",en:"six",phonetic:"zes",cognate:{words:[{lang:"English",word:"six"},{lang:"German",word:"sechs"}],family:"germanic"},example:"Zes appels.",exampleEn:"Six apples.",note:"Almost identical to English 'says'. Easy!"},
+         {type:"teach",kind:"word",nl:"zeven",en:"seven",phonetic:"ZAY-vun",cognate:{words:[{lang:"English",word:"seven"},{lang:"German",word:"sieben"}],family:"germanic"},example:"Zeven dagen.",exampleEn:"Seven days.",note:"Dutch 'v' = English 'v'.\nCompare: seven / zeven / sieben."},
+         {type:"teach",kind:"word",nl:"acht",en:"eight",phonetic:"ahgt",cognate:{words:[{lang:"English",word:"eight"},{lang:"German",word:"acht"}],family:"germanic"},example:"Acht uur.",exampleEn:"Eight o'clock.",note:"'ch' = same throat sound as Dutch 'g'.",fRef:"nl_con_1"},
+         {type:"teach",kind:"word",nl:"negen",en:"nine",phonetic:"NAY-gun",cognate:{words:[{lang:"English",word:"nine"},{lang:"German",word:"neun"}],family:"germanic"},example:"Negen maanden.",exampleEn:"Nine months.",note:"The 'g' has the Dutch throat sound."},
+         {type:"teach",kind:"word",nl:"tien",en:"ten",phonetic:"teen",cognate:{words:[{lang:"English",word:"ten"},{lang:"German",word:"zehn"}],family:"germanic"},example:"Tien minuten.",exampleEn:"Ten minutes.",note:"Sounds like English 'teen'."},
+
+         {type:"tip",title:"💰 Numbers in Real Life",text:"You'll use these instantly:\n\nDat is drie euro vijftig. = That's €3.50.\nTwee koffie, alsjeblieft. = Two coffees, please.\nHet is vijf uur. = It's five o'clock.\nNummer acht. = Number eight.\n\nDutch people use numbers constantly!"},
+
+         {type:"mc",q:"How do you say 'five' in Dutch?",opts:["vier","vijf","zes","drie"],ans:"vijf",hint:"Contains the 'ij' diphthong"},
+         {type:"mc",q:"'Acht uur' means:",opts:["Six o'clock","Eight o'clock","Ten o'clock","Four o'clock"],ans:"Eight o'clock",hint:"Acht = eight"},
+         {type:"fb",s:"Eén, ___, drie, vier...",a:"Twee",opts:["Twee","Tien","Zes","Vijf"],hint:"Count in order"},
+         {type:"mc",q:"Which number sounds like English 'fear'?",opts:["vijf","vier","drie","zes"],ans:"vier",hint:"F-eer"},
+         {type:"match",pairs:[{nl:"drie",en:"three"},{nl:"zeven",en:"seven"},{nl:"negen",en:"nine"},{nl:"tien",en:"ten"}]},
+         {type:"mc",q:"'Een' as a number is pronounced differently than 'een' as:",opts:["a verb","a name","an article (a/an)","an adjective"],ans:"an article (a/an)",hint:"Number = stressed, article = unstressed"},
+       ]},
+
+       // ═══ L8: Introducing Yourself ═══
+       {id:"v2u1l8",title:"Introducing Yourself",icon:"🙋",xp:20,board:true,steps:[
+         {type:"intro",title:"Introducing Yourself",desc:"Put it all together, you'll learn to introduce yourself in Dutch with a natural mini-conversation. This is where L1–L7 click into place.",goals:["Say your name","Say where you're from","Ask someone's name","Have a real mini-conversation"]},
+
+         {type:"teach",kind:"phrase",nl:"ik heet...",en:"my name is... (lit: I am called)",phonetic:"ik hayt",example:"Ik heet Anna.",exampleEn:"My name is Anna.",note:"'Heten' = to be called.\nMore natural than 'mijn naam is'."},
+         {type:"teach",kind:"phrase",nl:"hoe heet je?",en:"what's your name? (informal)",phonetic:"hoo hayt yuh",example:"Hoi! Hoe heet je?",exampleEn:"Hi! What's your name?",note:"Literally: 'How are-you-called?'\n'hoe' = how, not what. Verb flips in questions."},
+         {type:"teach",kind:"word",nl:"aangenaam",en:"nice to meet you",phonetic:"AHN-guh-nahm",also:"literally means 'pleasant' or 'agreeable'",example:"Aangenaam! Ik heet Mark.",exampleEn:"Nice to meet you! I'm Mark.",note:"Slightly formal but universally appropriate.\nLiterally: 'pleasant'."},
+
+         {type:"teach",kind:"word",nl:"en",en:"and",phonetic:"en",example:"Ik heet Sophie. En jij?",exampleEn:"I'm Sophie. And you?",note:"The glue word of Dutch.\n'En jij?' = and you?  -  bounces any question back."},
+         {type:"teach",kind:"grammar",nl:"maar",en:"but",phonetic:"mahr",cognate:{words:[{lang:"German",word:"aber"},{lang:"English",word:"more (archaic: 'no more')"}],family:"germanic"},example:"Ik spreek Engels, maar ik leer Nederlands.",exampleEn:"I speak English, but I'm learning Dutch.",note:"The second connector you need.\n'En' links, 'maar' contrasts.\n'Ik ben klein maar sterk.' = I am small but strong."},
+
+         {type:"tip",title:"🗣️ Your First Dutch Conversation",text:"A: Hallo! Hoe heet je? = Hi! What's your name?\nB: Ik heet Sophie. En jij? = I'm Sophie. And you?\nA: Ik heet Jan. Aangenaam! = I'm Jan. Nice to meet you!\nB: Aangenaam! = Nice to meet you!\n\nThat's it, you just introduced yourself in Dutch!",deepDive:{title:"'En jij?': the power of bouncing back",text:"In any language, the fastest way to keep a conversation going is to bounce the question back:\n\nHoe heet je? = What's your name?\nIk heet... En jij? = I'm called... And you?\n\nHoe gaat het? = How are you?\nGoed! En met jou? = Good! And with you?\n\nWaar woon je? = Where do you live?\nIk woon in... En jij? = I live in... And you?\n\n'En jij?' (and you?) and 'en met jou?' (and with you?) are your conversation lifelines.\n\nNote: 'jou' is the object form of 'jij', like English 'me' vs 'I'. More on this in Unit 2!"}},
+
+         {type:"teach",kind:"phrase",nl:"ik kom uit...",en:"I come from...",phonetic:"ik kom owt",example:"Ik kom uit Nederland.",exampleEn:"I come from the Netherlands.",note:"'Uit' = from/out of.\nThe 'ui' is that Dutch diphthong again!",fRef:"nl_vowels"},
+         {type:"teach",kind:"phrase",nl:"waar kom je vandaan?",en:"where are you from?",phonetic:"vahr kom yuh fan-DAHN",example:"Waar kom je vandaan?",exampleEn:"Where do you from?",note:"'Vandaan' = from-there.\n'Waar kom je uit?' also works, but 'vandaan' is more natural."},
+         {type:"teach",kind:"phrase",nl:"ik woon in...",en:"I live in...",phonetic:"ik vohn in",cognate:{words:[{lang:"German",word:"Ich wohne in..."}],family:"germanic"},example:"Ik woon in Amsterdam.",exampleEn:"I live in Amsterdam.",note:"'Wonen' = to live (reside).\nW = V sound. 'Woon' rhymes with 'bone'."},
+         {type:"teach",kind:"phrase",nl:"ik spreek een beetje Nederlands",en:"I speak a little Dutch",phonetic:"ik sprayk un BAYT-yuh NAY-dur-lahnts",example:"Sorry, ik spreek een beetje Nederlands.",exampleEn:"Sorry, I speak a little Dutch.",note:"THE survival sentence. Dutch people love hearing this!\n'Een beetje' = a little bit."},
+
+         {type:"tip",title:"🎬 The Full Introduction",text:"You know every word you need for a natural Dutch introduction: name, origin, residence. Tap below to see a full model conversation.",deepDive:{title:"Model conversation",text:"A: Hallo! Ik heet Jan. Hoe heet jij?\n→ Hi! I'm Jan. What's your name?\n\nB: Ik heet Sophie. Aangenaam!\n→ I'm Sophie. Nice to meet you!\n\nA: Waar kom je vandaan?\n→ Where are you from?\n\nB: Ik kom uit België. En jij?\n→ I'm from Belgium. And you?\n\nA: Ik kom uit Nederland. Ik woon in Utrecht.\n→ I'm from the Netherlands. I live in Utrecht.\n\nB: Leuk! Ik woon in Antwerpen.\n→ Nice! I live in Antwerp.\n\nYou know every word here. You are ready."}},
+
+         {type:"mc",q:"Someone asks 'Hoe heet je?', you reply:",opts:["Ik kom uit...","Ik heet...","Ik woon in...","Ik ben..."],ans:"Ik heet...",hint:"They asked your name"},
+         {type:"mc",q:"'Waar kom je vandaan?' asks about your:",opts:["Your full name","Your origin","Your profession","Your family"],ans:"Your origin",hint:"Waar = where, vandaan = from"},
+         {type:"fb",s:"Ik ___ een beetje Nederlands.",a:"spreek",opts:["spreek","heet","woon","kom"],hint:"What do you do with a language?"},
+         {type:"mc",q:"'En jij?' is used to:",opts:["End a conversation","Ask someone to repeat","Bounce the question back","Say goodbye"],ans:"Bounce the question back",hint:"And you?"},
+         {type:"match",pairs:[{nl:"ik heet",en:"my name is"},{nl:"ik kom uit",en:"I come from"},{nl:"ik woon in",en:"I live in"},{nl:"aangenaam",en:"nice to meet you"}]},
+         {type:"mc",q:"Dutch people react to 'ik spreek een beetje Nederlands' by:",opts:["Being offended","Appreciating the effort","Ignoring you","Correcting your grammar"],ans:"Appreciating the effort",hint:"They love it when foreigners try!"},
+       ]},
+
+       // ═══ L9: Niet & Geen: Saying No ═══
+       {id:"v2u1l9",title:"Niet & Geen: Saying No",icon:"🚫",xp:20,board:true,steps:[
+         {type:"intro",title:"Niet & Geen",desc:"Dutch has TWO words for negation: 'niet' (not) and 'geen' (no/not a). One simple rule covers 90% of cases.",goals:["niet = not (for verbs, adjectives, adverbs)","geen = not a / no (replaces een)","Place negation correctly","Stop mixing them up"]},
+
+         {type:"teach",kind:"word",nl:"niet",en:"not",phonetic:"neet",cognate:{words:[{lang:"English",word:"not"},{lang:"German",word:"nicht"}],family:"germanic"},example:"Ik ben niet groot.",exampleEn:"I am not tall.",note:"Negates verbs and adjectives.\nGoes AFTER the verb: 'Ik woon niet in Amsterdam.'"},
+         {type:"teach",kind:"word",nl:"geen",en:"no / not a / not any",phonetic:"gayn",cognate:{words:[{lang:"German",word:"kein"}],family:"germanic"},example:"Ik heb geen auto.",exampleEn:"I don't have a car. (lit: I have no car)",note:"Replaces 'een' (a/an) to negate nouns.\n'Ik heb een auto' → 'Ik heb geen auto.'"},
+
+         {type:"tip",title:"⚡ The Golden Rule: Niet vs Geen",text:"Would you use 'een' (a/an) in the positive sentence?\n\n✅ YES → use GEEN:\n• Ik heb een hond → Ik heb GEEN hond.\n• Dat is een probleem → Dat is GEEN probleem.\n\n❌ NO → use NIET:\n• Ik ben groot → Ik ben NIET groot.\n• Hij woont in Utrecht → Hij woont NIET in Utrecht.\n\nOne rule, 90% of cases.",deepDive:{title:"Where does 'niet' go in the sentence?",text:"Placement of 'niet' follows these patterns:\n\nAfter the verb:\nIk zwem niet. = I don't swim.\n\nBefore adjectives:\nHet is niet groot. = It's not big.\n\nBefore prepositional phrases:\nIk woon niet in Amsterdam. = I don't live in Amsterdam.\n\nAt the end if nothing else:\nIk weet het niet. = I don't know.\n\nCommon beginner mistake:\n❌ Ik niet woon in Amsterdam.\n✅ Ik woon niet in Amsterdam.\n\nThe verb stays in position 2. 'Niet' comes after it."}},
+
+         {type:"teach",kind:"phrase",nl:"ik ben niet...",en:"I am not...",phonetic:"ik ben neet",example:"Ik ben niet ziek.",exampleEn:"I am not sick.",note:"Niet AFTER 'ben', BEFORE adjective.\n'Ik ben niet groot, niet klein...'"},
+         {type:"teach",kind:"phrase",nl:"ik heb geen...",en:"I don't have (a)...",phonetic:"ik hep gayn",example:"Ik heb geen tijd.",exampleEn:"I don't have time. (lit: I have no time)",note:"'Geen' goes where 'een' would go.\ngeen tijd, geen geld, geen probleem!"},
+         {type:"teach",kind:"phrase",nl:"dat is geen probleem",en:"that's no problem",phonetic:"daht is gayn pro-BLAYM",example:"Sorry!. Dat is geen probleem!",exampleEn:"Sorry!. That's no problem!",note:"One of the most useful Dutch phrases.\nYou'll say this ten times a day."},
+
+         {type:"tip",title:"🔁 Niet & Geen with Zijn + Hebben",text:"ZIJN + niet:\nIk ben niet Nederlands. = I'm not Dutch.\nHij is niet hier. = He is not here.\n\nHEBBEN + geen:\nIk heb geen geld. = I have no money.\nWij hebben geen kinderen. = We don't have children.\n\nPattern: zijn pairs with 'niet', hebben pairs with 'geen'."},
+
+         {type:"mc",q:"'Ik heb ___ auto.' (I don't have a car.)",opts:["niet","geen","nee","ja"],ans:"geen",hint:"Would the positive use 'een'? Ik heb een auto → ..."},
+         {type:"mc",q:"'Hij is ___ groot.' (He is not tall.)",opts:["niet","geen","nee","un"],ans:"niet",hint:"Negating an adjective"},
+         {type:"fb",s:"Dat is ___ probleem!",a:"geen",opts:["geen","niet","nee","de"],hint:"No problem! (negating a noun)"},
+         {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik niet woon in Amsterdam.","Ik woon niet in Amsterdam.","Niet ik woon in Amsterdam.","Ik woon in niet Amsterdam."],ans:"Ik woon niet in Amsterdam.",hint:"Verb stays in position 2, niet comes after"},
+         {type:"mc",q:"'Wij hebben geen kinderen' means:",opts:["We have children","We don't have children","We like children","We want children"],ans:"We don't have children",hint:"Geen = no / not any"},
+         {type:"match",pairs:[{nl:"niet",en:"not (verbs/adjectives)"},{nl:"geen",en:"no / not a (nouns)"},{nl:"geen probleem",en:"no problem"},{nl:"niet hier",en:"not here"}]},
+       ]},
+
+       // ═══ L10: Unit 1 Review ═══
+       {id:"v2u1l10",title:"Unit 1 Review",icon:"🔄",xp:25,board:true,steps:[
+         {type:"intro",title:"Unit 1: Everything Together",desc:"Time to prove you own this. No new words, just L1–L9 mixed together. If you nail this, you're ready for Unit 2.",goals:["Greetings & goodbyes","All forms of zijn & hebben","Questions, articles, negation","Polite phrases & introductions"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After 9 lessons you can:\n\n• Greet anyone (formal + casual)\n• Say goodbye four different ways\n• Say all forms of zijn and hebben\n• Ask who, what, where, how, when, why\n• Use de, het, and een correctly\n• Be polite (alsjeblieft, dank je)\n• Count to ten\n• Introduce yourself naturally\n• Say 'no' with niet and geen\n\nThat's a LOT for Unit 1. Let's test it."},
+
+         {type:"mc",q:"It's 3 PM. You enter a shop. You say:",opts:["Goedemorgen","Goedemiddag","Goedenavond","Doei"],ans:"Goedemiddag",hint:"Afternoon greeting"},
+         {type:"mc",q:"'Wij ___ blij.', Fill in the verb (to be):",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Wij + zijn = ?"},
+         {type:"fb",s:"___ is het station?",a:"Waar",opts:["Waar","Wie","Wat","Hoe"],hint:"Asking for a location"},
+         {type:"mc",q:"Which noun uses 'het'?",opts:["man","vrouw","kind","kat"],ans:"kind",hint:"One of the het-words from L4"},
+         {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"The -t drops when jij follows"},
+         {type:"fb",s:"___, ik spreek een beetje Nederlands.",a:"Sorry",opts:["Sorry","Hallo","Dank je","Dag"],hint:"Excusing yourself before speaking"},
+
+         {type:"verb_table",title:"Zijn: to be",label:"Review",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"ben",en:"I am"},
+              {pronoun:"jij / je",form:"bent",en:"you are"},
+              {pronoun:"u",form:"bent",en:"you are (formal)"},
+            ]},
+            {label:"He / She / It",rows:[
+              {pronoun:"hij / zij / het",form:"is",en:"he / she / it is"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / jullie / zij",form:"zijn",en:"we / you all / they are"},
+            ]}
+          ],note:"4 forms: ben, bent, is, zijn."},
+         {type:"verb_table",title:"Hebben: to have",label:"Review",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"heb",en:"I have"},
+              {pronoun:"jij / je",form:"hebt",en:"you have"},
+              {pronoun:"u",form:"heeft",en:"you have (formal)"},
+            ]},
+            {label:"He / She / It",rows:[
+              {pronoun:"hij / zij / het",form:"heeft",en:"he / she / it has"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / jullie / zij",form:"hebben",en:"we / you all / they have"},
+            ]}
+          ],note:"4 forms: heb, hebt, heeft, hebben."},
+
+         {type:"mc",q:"'Zij ___ een huis.' (They ___ a house.)",opts:["is","bent","heeft","hebben"],ans:"hebben",hint:"Zij (they) + hebben"},
+         {type:"mc",q:"You hand someone their change. You say:",opts:["Dank je","Alsjeblieft","Sorry","Dag"],ans:"Alsjeblieft",hint:"'Here you go!'"},
+         {type:"mc",q:"'Ik heb ___ geld.' (I don't have money.)",opts:["niet","geen","nee","een"],ans:"geen",hint:"Negating a noun: would use 'een' in positive?"},
+         {type:"fb",s:"Ik ___ uit Nederland.",a:"kom",opts:["kom","ben","heb","heet"],hint:"Stating where you're from"},
+         {type:"mc",q:"How do you say 'seven' in Dutch?",opts:["zes","zeven","negen","vijf"],ans:"zeven",hint:"Sounds like 'ZAY-vun'"},
+         {type:"match",pairs:[{nl:"hoe heet je?",en:"what's your name?"},{nl:"waar woon je?",en:"where do you live?"},{nl:"geen probleem",en:"no problem"},{nl:"dank je wel",en:"thank you very much"}]},
+         {type:"mc",q:"'Aangenaam' is used when:",opts:["Saying goodbye","Meeting someone","Ordering food","Apologizing"],ans:"Meeting someone",hint:"Nice to meet you"},
+         {type:"mc",q:"Which greeting uses the Dutch throat 'g' sound?",opts:["goedemorgen","alsjeblieft","tot ziens","aangenaam"],ans:"goedemorgen",hint:"Goede... starts with 'g'"},
+         {type:"mc",q:"Which is CORRECT?",opts:["Ik ben niet student.","Ik niet ben student.","Ik ben geen student.","Ik geen ben student."],ans:"Ik ben geen student.",hint:"Student has an implied 'een': so use geen"},
+       ]},
+
+  ]},
+
+  {n:2,lang:"nl",track:"v2",title:"Who Am I?",sub:"Komen, Spreken, Wonen & Identity",icon:"🪪",level:"A1.1",color:"#3A9BE0",lessons:[
+       {id:"v2u2l1",title:"Ik kom uit...",icon:"🌍",xp:15,board:true,steps:[
+         {type:"intro",title:"Ik kom uit...",desc:"Your first new verb since zijn and hebben. Learn all forms of 'komen' and say where you come from.",goals:["Every form of komen","4 countries","Say where you're from"]},
+
+         {type:"teach",kind:"word",board:true,nl:"komen",en:"to come",phonetic:"KOH-mun",example:"Ik kom uit Nederland.",exampleEn:"I come from the Netherlands.",note:"Full form: ko-men. The 'o' is long (like 'oh').\nYou'll hear why this matters for the ik-form.",deepDive:"Open syllable = ends in a vowel, not a consonant.\nko-men: 'ko' ends in vowel → long 'oh'.\nSingle 'o' is enough  -  the open syllable does the work.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"ik kom",en:"I come",phonetic:"ik kom",example:"Ik kom uit België.",exampleEn:"I come from Belgium.",note:"Short 'o'  -  just one letter, like English 'cot'.\nNOT 'koom'!",deepDive:"ko-men → ik kom.\nThe open syllable (ko-) became closed (kom).\nClosed syllable = ends in a consonant.\nShort vowel → single letter: one 'o'.\nThis is a SHORT-VOWEL verb: the base vowel is short.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"jij komt",en:"you come (informal)",phonetic:"yay komt",example:"Jij komt uit Duitsland.",exampleEn:"You come from Germany.",note:"In questions: 'Kom jij...?'  -  the -t drops.\nSame rule as 'Heb jij?' and 'Ben jij?'"},
+         {type:"teach",kind:"phrase",board:true,nl:"u komt",en:"you come (formal)",phonetic:"oo komt",example:"U komt uit Amerika.",exampleEn:"You come from America.",note:"Same form as jij: 'komt'.\nThe -t stays in u questions: 'Komt u uit...?'"},
+         {type:"teach",kind:"phrase",board:true,nl:"hij komt",en:"he comes",phonetic:"hay komt",example:"Hij komt uit Frankrijk.",exampleEn:"He comes from France.",note:"Same form again: 'komt'. He, she, it, you: all 'komt'."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij komt",en:"she comes",phonetic:"zay komt",also:"'zij' also means 'they', but then the verb changes: 'zij komen'",example:"Zij komt uit België.",exampleEn:"She comes from Belgium.",note:"'Zij' = she. Same form as hij: 'komt'."},
+
+         {type:"verb_table",title:"Komen: to come",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"kom",en:"I come"},
+              {pronoun:"jij / je",form:"komt",en:"you come"},
+              {pronoun:"u",form:"komt",en:"you come (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"komt",en:"he comes"},
+              {pronoun:"zij / ze",form:"komt",en:"she comes"},
+              {pronoun:"het",form:"komt",en:"it comes"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"komen",en:"we come"},
+              {pronoun:"jullie",form:"komen",en:"you all come"},
+              {pronoun:"zij / ze",form:"komen",en:"they come"},
+            ]}
+          ],note:"Two forms to remember: 'kom' for ik, 'komt' for jij, u, hij, zij. Plural = the full form 'komen'.",
+          deepDive:{title:"The -t drop: it works here too",text:"You learned in Unit 1 that jij drops the -t in questions:\n\nJij hebt een hond. \u2192 Heb jij een hond?\nJij bent groot. \u2192 Ben jij groot?\n\nSame with komen:\n\nJij komt uit Nederland. \u2192 Kom jij uit Nederland?\n\nThis rule works with EVERY verb when jij follows it. You'll see it again and again."}},
+
+         {type:"teach",kind:"phrase",board:true,nl:"wij komen",en:"we come",phonetic:"vay KOH-mun",example:"Wij komen uit Nederland.",exampleEn:"We come from the Netherlands.",note:"'Wij' = we. Uses the full form: 'komen'.\nShort form: 'we komen'."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij komen",en:"they come",phonetic:"zay KOH-mun",example:"Zij komen uit Duitsland.",exampleEn:"They come from Germany.",note:"'Zij' = they here. The verb tells you which:\nzij komt = she comes\nzij komen = they come"},
+
+         {type:"teach",kind:"word",board:true,nl:"Nederland",en:"the Netherlands",phonetic:"NAY-dur-lahnt",note:"Also called 'Holland'  -  technically only 2 of 12 provinces.\nThe 'e' is a quick, lazy 'uh' sound.",fRef:"nl_vowels"},
+         {type:"teach",kind:"word",board:true,nl:"Duitsland",en:"Germany",phonetic:"DOWTS-lahnt",cognate:{words:[{lang:"German",word:"Deutschland"}],family:"germanic"},note:"'Duits' = German (adjective).\nThe 'ui' diphthong again  -  round your lips!",fRef:"nl_vowels"},
+         {type:"teach",kind:"word",board:true,nl:"Frankrijk",en:"France",phonetic:"FRAHNK-rayk",note:"'-rijk' = realm/kingdom.\nFrankrijk = realm of the Franks.\nOostenrijk (Austria) = eastern realm!"},
+         {type:"teach",kind:"word",board:true,nl:"Belgi\u00eb",en:"Belgium",phonetic:"BEL-ghee-uh",note:"Your southern neighbour. They speak Dutch too (called 'Vlaams' or Flemish), plus French and German."},
+
+         {type:"mc",q:"Zij ___ uit Duitsland.",opts:["kom","komt","komen","bent"],ans:"komt",hint:"zij (she), singular"},
+         {type:"mc",q:"Ik ___ uit Nederland.",opts:["ben","heb","kom","ga"],ans:"kom",hint:"Travelling FROM a place"},
+         {type:"fb",s:"Wij ___ uit Belgi\u00eb.",a:"komen",opts:["bent","komen","kom","komt"],hint:"Plural: same form as the infinitive"},
+       ]},
+       {id:"v2u2l2",title:"Landen en Talen",icon:"\ud83d\udde3\ufe0f",xp:15,board:true,steps:[
+         {type:"intro",title:"Landen en Talen",desc:"Your second new verb: spreken (to speak). Plus four languages, so you can say what you speak.",goals:["Every form of spreken","4 languages","Say what you speak"]},
+
+         {type:"teach",kind:"word",board:true,nl:"spreken",en:"to speak",phonetic:"SPRAY-kun",example:"Ik spreek Nederlands.",exampleEn:"I speak Dutch.",note:"Full form: spre-ken. The 'e' is long (like 'ay').\nSingle 'e' is enough here.",deepDive:"Open syllable: 'spre' ends in a vowel → long 'ay'.\nThe open syllable does the work, no need for 'ee'.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"ik spreek",en:"I speak",phonetic:"ik sprayk",example:"Ik spreek een beetje Frans.",exampleEn:"I speak a little French.",note:"Double 'ee'  -  keeps the long 'ay' sound.\nOne 'e' alone in 'sprek' would sound short.",deepDive:"spre-ken → ik spreek.\nOpen syllable (spre-) became closed (spreek).\nTo keep the LONG vowel → double the letter: 'ee'.\nThis is a LONG-VOWEL verb.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"jij spreekt",en:"you speak (informal)",phonetic:"yay spraykt",example:"Spreek jij Engels?",exampleEn:"Do you speak English?",note:"In questions: 'Spreek jij...?'  -  the -t drops.\nSame rule as every verb."},
+         {type:"teach",kind:"word",board:true,nl:"ook",en:"also / too",phonetic:"ohk",example:"Ik spreek ook Frans.",exampleEn:"I also speak French.",note:"Goes right before what it modifies.\n'Ook' is one of the most common Dutch words."},
+         {type:"teach",kind:"phrase",board:true,nl:"u spreekt",en:"you speak (formal)",phonetic:"oo spraykt",example:"Spreekt u ook Frans?",exampleEn:"Do you also speak French?",note:"Same form as jij: 'spreekt'.\nThe -t stays with u: 'Spreekt u Frans?'"},
+         {type:"teach",kind:"phrase",board:true,nl:"hij spreekt",en:"he speaks",phonetic:"hay spraykt",example:"Hij spreekt drie talen.",exampleEn:"He speaks three languages.",note:"Same form for hij, zij (she), het."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij spreekt",en:"she speaks",phonetic:"zay spraykt",also:"'zij spreken' = THEY speak (different form!)",example:"Zij spreekt heel goed Nederlands.",exampleEn:"She speaks Dutch very well.",note:"'Zij' here = she. When 'zij' means 'they', the verb changes to the plural form: 'zij spreken'."},
+
+         {type:"verb_table",title:"Spreken: to speak",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"spreek",en:"I speak"},
+              {pronoun:"jij / je",form:"spreekt",en:"you speak"},
+              {pronoun:"u",form:"spreekt",en:"you speak (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"spreekt",en:"he speaks"},
+              {pronoun:"zij / ze",form:"spreekt",en:"she speaks"},
+              {pronoun:"het",form:"spreekt",en:"it speaks"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"spreken",en:"we speak"},
+              {pronoun:"jullie",form:"spreken",en:"you all speak"},
+              {pronoun:"zij / ze",form:"spreken",en:"they speak"},
+            ]}
+          ],note:"Two forms: 'spreek' (ik) and 'spreekt' (jij, u, hij, zij). Plural = the full form 'spreken'."},
+
+         {type:"teach",kind:"phrase",board:true,nl:"wij spreken",en:"we speak",phonetic:"vay SPRAY-kun",example:"Wij spreken Engels en Nederlands.",exampleEn:"We speak English and Dutch.",note:"Uses the full form: 'spreken'.\nShort form: 'we spreken'."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij spreken",en:"they speak",phonetic:"zay SPRAY-kun",example:"Zij spreken vier talen.",exampleEn:"They speak four languages.",note:"'Zij' = they here.\nVerb tells you: spreekt = she, spreken = they."},
+
+         {type:"teach",kind:"word",board:true,nl:"Nederlands",en:"Dutch (language)",phonetic:"NAY-dur-lahnts",note:"Capital letter  -  derives from a country name.\n'Nederlands' (language) vs 'Nederland' (country)."},
+         {type:"teach",kind:"word",board:true,nl:"Engels",en:"English",phonetic:"ENG-uls",cognate:{words:[{lang:"English",word:"English"},{lang:"German",word:"Englisch"}],family:"germanic"},note:"From 'Engeland'. Capital letter, same rule."},
+         {type:"teach",kind:"word",board:true,nl:"Frans",en:"French",phonetic:"frahns",note:"From 'Frankrijk' (France)."},
+         {type:"teach",kind:"word",board:true,nl:"Duits",en:"German",phonetic:"dowts",note:"From 'Duitsland'. That 'ui' diphthong again!",fRef:"nl_vowels"},
+
+         {type:"tip",title:"\ud83c\udf0d Multilingual neighbours",text:"The Netherlands and Belgium are famously multilingual:\n\nMost Dutch people speak Engels (English) fluently, often Duits (German) and Frans (French) too.\n\nBelgium has THREE official languages: Nederlands (in Flanders), Frans (in Wallonia), and Duits (in a small eastern region).\n\nBrussel is officially bilingual: Nederlands + Frans.\n\nSaying 'Ik spreek een beetje Nederlands' (I speak a little Dutch) will always get you a warm reaction!"},
+
+         {type:"mc",q:"Wij ___ Engels en Nederlands.",opts:["spreekt","spreken","spreek","bent"],ans:"spreken",hint:"Plural"},
+         {type:"fb",s:"Zij ___ heel goed Frans. (she)",a:"spreekt",opts:["spreek","komt","spreken","spreekt"],hint:"Singular she"},
+         {type:"tr",mk:"u2_speak_english",dir:"produce"},
+       ]},
+       {id:"v2u2l3",title:"Waar woon jij?",icon:"\ud83c\udfe0",xp:15,board:true,steps:[
+         {type:"intro",title:"Waar woon jij?",desc:"Your third new verb: wonen (to live/reside). Plus cities, so you can say where you live.",goals:["Every form of wonen","Cities: Amsterdam, Brussel","Say where you live"]},
+
+         {type:"teach",kind:"word",board:true,nl:"wonen",en:"to live, to reside",phonetic:"VOH-nun",example:"Ik woon in Amsterdam.",exampleEn:"I live in Amsterdam.",note:"Full form: wo-nen. The 'o' is long (like 'oh').\nSame pattern as ko-men.",deepDive:"Open syllable: 'wo' ends in a vowel → long 'oh'.\nSingle 'o' is enough  -  same as ko-men.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"ik woon",en:"I live",phonetic:"ik vohn",example:"Ik woon in Amsterdam.",exampleEn:"I live in Amsterdam.",note:"Double 'oo'  -  keeps the long 'oh' sound.\nOPPOSITE of 'ik kom' (short 'o')!",deepDive:"wo-nen → ik woon.\nOpen syllable (wo-) became closed (woon).\nTo keep the LONG vowel → double: 'oo'.\nOpposite of ik kom (short-vowel verb).",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",board:true,nl:"jij woont",en:"you live (informal)",phonetic:"yay vohnt",example:"Waar woon jij?",exampleEn:"Where do you live?",note:"In questions: 'Woon jij in Brussel?' The -t drops when jij follows, just like every verb."},
+         {type:"teach",kind:"phrase",board:true,nl:"u woont",en:"you live (formal)",phonetic:"oo vohnt",example:"Woont u in Amsterdam?",exampleEn:"Do you live in Amsterdam?",note:"Same as jij: 'woont'.\nThe -t stays with u: 'Woont u hier?'"},
+         {type:"teach",kind:"phrase",board:true,nl:"hij woont",en:"he lives",phonetic:"hay vohnt",example:"Hij woont in Berlijn.",exampleEn:"He lives in Berlin.",note:"Same form for hij, zij (she), het."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij woont",en:"she lives",phonetic:"zay vohnt",also:"'zij wonen' = THEY live (different form!)",example:"Zij woont in Brussel.",exampleEn:"She lives in Brussels.",note:"'Zij' = she. For 'they': 'zij wonen'."},
+
+         {type:"verb_table",title:"Wonen: to live",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"woon",en:"I live"},
+              {pronoun:"jij / je",form:"woont",en:"you live"},
+              {pronoun:"u",form:"woont",en:"you live (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"woont",en:"he lives"},
+              {pronoun:"zij / ze",form:"woont",en:"she lives"},
+              {pronoun:"het",form:"woont",en:"it lives"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"wonen",en:"we live"},
+              {pronoun:"jullie",form:"wonen",en:"you all live"},
+              {pronoun:"zij / ze",form:"wonen",en:"they live"},
+            ]}
+          ],note:"Two forms: 'woon' (ik) and 'woont' (jij, u, hij, zij). Plural = the full form 'wonen'."},
+
+         {type:"teach",kind:"phrase",board:true,nl:"wij wonen",en:"we live",phonetic:"vay VOH-nun",example:"Wij wonen in een klein dorp.",exampleEn:"We live in a small village.",note:"Uses the full form: 'wonen'.\nShort form: 'we wonen'."},
+         {type:"teach",kind:"phrase",board:true,nl:"zij wonen",en:"they live",phonetic:"zay VOH-nun",example:"Zij wonen in Brussel.",exampleEn:"They live in Brussels.",note:"'Zij' = they here.\nwoont = she, wonen = they."},
+
+         {type:"teach",kind:"word",board:true,nl:"Amsterdam",en:"Amsterdam",phonetic:"AHM-stur-dahm",note:"Largest city, but government sits in Den Haag.\nCultural and business capital."},
+         {type:"teach",kind:"word",board:true,nl:"Brussel",en:"Brussels",phonetic:"BRUS-sul",note:"Capital of Belgium AND the EU.\nBilingual city: Dutch and French."},
+
+         {type:"tip",title:"\ud83c\udfe0 'In' vs 'uit'",text:"Two little words, big difference:\n\nIk woon IN Amsterdam. = I live in Amsterdam.\nIk kom UIT Nederland. = I come from the Netherlands.\n\n'In' = location (where you are now)\n'Uit' = origin (where you're from)\n\nYou can combine them:\nIk kom uit Belgi\u00eb en ik woon in Amsterdam.\n= I come from Belgium and I live in Amsterdam."},
+
+         {type:"mc",q:"Waar ___ jij?",opts:["woont","woon","wonen","komt"],ans:"woon",hint:"Question with jij: what happens to the -t?"},
+         {type:"mc",q:"Hij ___ in Amsterdam.",opts:["woon","komen","woont","wonen"],ans:"woont",hint:"hij = singular"},
+         {type:"fb",s:"Wij ___ in Brussel.",a:"wonen",opts:["woont","komt","wonen","woon"],hint:"Plural"},
+         {type:"tr",mk:"u2_where_live",dir:"produce"},
+         {type:"tr",mk:"u2_city_beautiful",dir:"comprehend"},
+       ]},
+       {id:"v2u2l4",title:"Zijn of Hebben?",icon:"\u26a1",xp:15,board:true,steps:[
+         {type:"intro",title:"Zijn of Hebben?",desc:"You already know all forms of zijn and hebben. Now master CHOOSING the right one, mixed with your new verbs.",goals:["Pick the right verb: zijn or hebben","Tricky cases: age, hunger, thirst","Mix all 5 verbs confidently"]},
+         {type:"teach",kind:"grammar",board:true,nl:"Zijn vs Hebben",en:"When to use which",note:"Zijn = what something IS (identity, state).\nHebben = what someone HAS (possession).\nThink: am/is/are vs have/has.",example:"Hij IS leraar. Hij HEEFT een hond.",exampleEn:"He IS a teacher. He HAS a dog."},
+         {type:"tip",title:"\u26a0\ufe0f Tricky cases",text:"Age uses ZIJN (not hebben!):\nIk ben 25 jaar oud. = I am 25 years old.\n\nHunger and thirst use HEBBEN:\nIk heb honger. = I am hungry. (lit: I have hunger)\nIk heb dorst. = I am thirsty. (lit: I have thirst)\n\nFrench and Spanish speakers: Dutch uses 'hebben' for hunger/thirst like your languages, but 'zijn' for age unlike yours!"},
+         {type:"mc",q:"Zij ___ heel aardig.",opts:["heeft","zijn","is","heb"],ans:"is",hint:"Describing a quality"},
+         {type:"mc",q:"Wij ___ uit Belgi\u00eb.",opts:["zijn","hebben","wonen","komen"],ans:"komen",hint:"Origin"},
+         {type:"fb",s:"Het kind ___ drie jaar oud.",a:"is",opts:["heeft","is","bent","heb"],hint:"Age = identity, not possession"},
+         {type:"mc",q:"Hij ___ een grote hond.",opts:["is","komt","heeft","woont"],ans:"heeft",hint:"Owning something"},
+         {type:"fb",s:"Jullie ___ een mooi huis.",a:"hebben",opts:["zijn","hebben","heeft","bent"],hint:"Owning, plural"},
+         {type:"mc",q:"Ik ___ in Amsterdam.",opts:["ben","woon","heb","kom"],ans:"woon",hint:"Where you reside"},
+         {type:"mc",q:"Hij ___ honger.",opts:["is","woont","komt","heeft"],ans:"heeft",hint:"A feeling you possess, not something you are"},
+         {type:"fb",s:"___ jij student?",a:"Ben",opts:["Heb","Woon","Kom","Ben"],hint:"Identity, not possession. Question form!"},
+         {type:"tr",mk:"u2_come_from_france",dir:"produce"},
+         {type:"tr",mk:"u2_live_speak_little",dir:"comprehend"},
+       ]},
+       {id:"v2u2l5",title:"Alles over Jou",icon:"\ud83d\ude4b",xp:15,board:true,steps:[
+         {type:"intro",title:"Alles over Jou",desc:"Put it all together: six key questions about identity. After this lesson, you can introduce yourself completely in Dutch.",goals:["Ask and answer 6 identity questions","Ask and state your age","Combine all verbs fluently"]},
+         {type:"teach",kind:"phrase",board:true,nl:"Vijf sleutelvragen",en:"Five key questions",note:"Five questions that cover your full identity.\nSee the tip below for the complete list.",example:"Hoe heet je? Ik heet Anna.",exampleEn:"What's your name? My name is Anna."},
+         {type:"teach",kind:"phrase",board:true,nl:"de leraar",en:"the teacher",phonetic:"duh lay-RAHR",article:"de",example:"Hij is leraar.",exampleEn:"He is a teacher.",note:"No article before professions with zijn:\n'Ik ben leraar' NOT 'Ik ben een leraar'."},
+         {type:"teach",kind:"phrase",board:true,nl:"de student",en:"the student",phonetic:"duh stoo-DENT",article:"de",cognate:{words:[{lang:"English",word:"student"}],family:"borrowed"},example:"Zij is student in Amsterdam.",exampleEn:"She is a student in Amsterdam.",note:"A cognate  -  looks and sounds almost identical."},
+         {type:"teach",kind:"phrase",board:true,nl:"hoe oud ben je?",en:"how old are you? (informal)",phonetic:"hoo owt ben yuh",example:"Hoe oud ben je? Ik ben 25.",exampleEn:"How old are you? I am 25.",note:"Literally: 'how old are you?'\nThe answer uses zijn + number + jaar:\n'Ik ben vijfentwintig jaar (oud).'  -  'oud' is optional."},
+         {type:"teach",kind:"phrase",board:true,nl:"ik ben ... jaar",en:"I am ... years (old)",phonetic:"ik ben ... yahr",example:"Ik ben dertig jaar oud.",exampleEn:"I am thirty years old.",note:"'Jaar' = year. No plural needed!\nDutch says 'dertig jaar', NOT 'dertig jaren'.\nJust like English: 'I am 30', not 'I am 30 years'."},
+         {type:"mc",q:"Waar ___ je vandaan?",opts:["woon","ben","kom","spreek"],ans:"kom",hint:"'vandaan' = from (origin)"},
+         {type:"mc",q:"Hoe ___ ben je?",opts:["oud","groot","lang","goed"],ans:"oud",hint:"Asking about age"},
+         {type:"mc",q:"Wat ___ je? (asking about language)",opts:["kom","woon","spreek","ben"],ans:"spreek",hint:"What do you do with a language?"},
+         {type:"drag_fill",s:"Ik {1} uit Frankrijk en ik {2} Frans.",blanks:{"1":"kom","2":"spreek"},pool:["spreek","ben","woon","kom"],hint:"Origin + language"},
+         {type:"tr",mk:"u2_name_origin",dir:"comprehend"},
+         {type:"drag_fill",s:"Hij {1} leraar en hij {2} in Brussel.",blanks:{"1":"is","2":"woont"},pool:["woont","komt","heeft","is"],hint:"Identity + residence"},
+         {type:"mc",q:"Zij ___ dokter.",opts:["heeft","woont","spreekt","is"],ans:"is",hint:"Profession = identity"},
+         {type:"tr",mk:"u2_where_live",dir:"comprehend"},
+         {type:"match",mks:["phrase_my_name_is","phrase_i_come_from","phrase_i_live_in","phrase_i_speak"]},
+         {type:"tip",title:"\ud83d\ude4b You can now introduce yourself completely",text:"Name: Ik heet...\nOrigin: Ik kom uit...\nLanguage: Ik spreek...\nHome: Ik woon in...\nAge: Ik ben ... jaar.\nProfession: Ik ben...\n\nThat's six questions answered with five verbs. You've come a long way since 'Hallo'!"},
+       ]},
+       {id:"v2u2l6",title:"More de & het Nouns",icon:"📝",xp:15,board:true,steps:[
+         {type:"intro",title:"More de & het Nouns",desc:"You learned de and het in Unit 1. Now: 8 essential nouns to build your vocabulary.",goals:["Learn 8 new nouns with articles","Build article instinct through repetition","Spot cognates with English and German"]},
+         {type:"teach",kind:"phrase",board:true,nl:"de man",en:"the man",phonetic:"duh mahn",article:"de",cognate:{words:[{lang:"English",word:"man"},{lang:"German",word:"Mann"}],family:"germanic"},example:"De man spreekt Nederlands.",exampleEn:"The man speaks Dutch.",note:"One of the most common de-words."},
+         {type:"teach",kind:"phrase",board:true,nl:"de vrouw",en:"the woman",phonetic:"duh vrow",article:"de",also:"wife (context-dependent)",example:"De vrouw woont in Amsterdam.",exampleEn:"The woman lives in Amsterdam.",note:"'Vrouw' also means 'wife'  -  context tells you."},
+         {type:"teach",kind:"phrase",board:true,nl:"het kind",en:"the child",phonetic:"hut kint",article:"het",cognate:{words:[{lang:"German",word:"Kind"}],family:"germanic"},example:"Het kind is drie jaar oud.",exampleEn:"The child is three years old.",note:"False friend: NOT English 'kind' (= aardig)."},
+         {type:"teach",kind:"grammar",board:true,nl:"de stad",en:"the city",phonetic:"duh staht",article:"de",cognate:{words:[{lang:"German",word:"Stadt"}],family:"germanic"},example:"Amsterdam is een mooie stad.",exampleEn:"Amsterdam is a beautiful city.",note:"Plural: steden (irregular)."},
+         {type:"teach",kind:"phrase",board:true,nl:"het land",en:"the country",phonetic:"hut lahnt",article:"het",cognate:{words:[{lang:"English",word:"land"},{lang:"German",word:"Land"}],family:"germanic"},example:"Nederland is een klein land.",exampleEn:"The Netherlands is a small country.",note:"Means both 'country' and 'land' (ground)."},
+         {type:"teach",kind:"phrase",board:true,nl:"de taal",en:"the language",phonetic:"duh tahl",article:"de",example:"Nederlands is een mooie taal.",exampleEn:"Dutch is a beautiful language.",note:"No close English cognate  -  just memorize it."},
+         {type:"teach",kind:"phrase",board:true,nl:"het huis",en:"the house",phonetic:"hut hows",article:"het",cognate:{words:[{lang:"English",word:"house"},{lang:"German",word:"Haus"}],family:"germanic"},example:"Het huis is groot.",exampleEn:"The house is big.",note:"'ui' = Dutch diphthong. Like 'ow' in 'house'.",fRef:"nl_vowels"},
+         {type:"teach",kind:"phrase",board:true,nl:"de school",en:"the school",phonetic:"duh skhohl",article:"de",cognate:{words:[{lang:"English",word:"school"}],family:"germanic"},example:"De school is in de stad.",exampleEn:"The school is in the city.",note:"Almost identical to English.\n'sch' = 'skh', not 'sh'."},
+         {type:"tip",title:"🔵🟡 De or Het?",text:"About 75% of Dutch nouns are de-words. Het-words include:\n\n\u2022 Words ending in -je (broodje, meisje, kopje)\n\u2022 Many two-syllable words starting with be-, ge-, ver-\n\u2022 And many others you simply learn by exposure\n\nThe best strategy: always learn the article WITH the noun. Say 'het huis', never just 'huis'.",deepDive:{title:"De and het: does it matter?",text:"Yes. Later, de and het affect:\n\n\u2022 Which demonstrative you use (dit/dat vs deze/die)\n\u2022 Which relative pronoun you use (dat vs die)\n\u2022 Adjective endings in some cases\n\nGetting articles wrong won't stop people from understanding you, but it marks you as a beginner. Building the instinct now saves pain later."}},
+         {type:"mc",q:"What article goes with 'kind'?",opts:["het","de","een","geen"],ans:"het",hint:"Think about the teach card. Child = ?"},
+         {type:"mc",q:"What does 'de vrouw' mean?",opts:["the woman","the man","the child","the city"],ans:"the woman",hint:"'Vrouw' sounds a bit like..."},
+         {type:"fb",s:"___ huis is groot.",a:"Het",opts:["Het","De","Een","Geen"],hint:"'Huis' is a het-word"},
+         {type:"fb",s:"___ man spreekt Nederlands.",a:"De",opts:["De","Het","Een","Dit"],hint:"'Man' is a de-word"},
+         {type:"match",mks:["noun_man","noun_child","noun_language","noun_house"]},
+         {type:"match",mks:["noun_woman","noun_city","noun_country","noun_school"]},
+       ]},
+       {id:"v2u2l7",title:"Er is... Er zijn...",icon:"📍",xp:15,board:true,steps:[
+         {type:"intro",title:"Er is... Er zijn...",desc:"How do you say 'there is' and 'there are' in Dutch? Two tiny words change everything.",goals:["Use er is for singular things","Use er zijn for plural things","Negate with er is geen and er zijn geen"]},
+         {type:"teach",kind:"phrase",board:true,nl:"er is",en:"there is",phonetic:"ehr is",example:"Er is een man in het huis.",exampleEn:"There is a man in the house.",note:"Used with ONE thing.\n'Er' = Dutch sentence starter."},
+         {type:"teach",kind:"phrase",board:true,nl:"er zijn",en:"there are",phonetic:"ehr zayn",example:"Er zijn twee kinderen in de school.",exampleEn:"There are two children in the school.",note:"Used with MORE THAN ONE.\nSame 'zijn' you know from 'they are'."},
+         {type:"tip",title:"📍 Er = there (sort of)",text:"'Er' doesn't translate perfectly to English.\n\nEnglish can skip 'there': 'A man is in the house.'\nDutch always needs 'er': 'Er is een man in het huis.'\n\nThink of 'er' as a sentence starter that Dutch requires when talking about what exists somewhere.",deepDive:{title:"Why does Dutch need 'er'?",text:"Dutch doesn't like starting a sentence with an unknown subject.\n\nInstead of just saying 'Een man is in het huis', Dutch prefers 'Er is een man in het huis.'\n\nThis 'er' signals: I'm about to tell you something exists.\n\nYou'll see 'er' again in later units with other uses, but for now: er is = there is, er zijn = there are."}},
+         {type:"teach",kind:"phrase",board:true,nl:"er is geen",en:"there is no",phonetic:"ehr is khayn",example:"Er is geen melk.",exampleEn:"There is no milk.",note:"'Geen' negates nouns, just like you learned in Unit 1. Er is + geen = there is no."},
+         {type:"teach",kind:"phrase",board:true,nl:"er zijn geen",en:"there are no",phonetic:"ehr zayn khayn",example:"Er zijn geen kinderen in de school.",exampleEn:"There are no children in the school.",note:"Plural version. 'Geen' works for both."},
+         {type:"mc",q:"Er ___ een school in de stad.",opts:["is","zijn","heeft","ben"],ans:"is",hint:"One school = singular"},
+         {type:"mc",q:"Er ___ drie mannen in het huis.",opts:["zijn","is","heeft","ben"],ans:"zijn",hint:"Three men = plural"},
+         {type:"fb",s:"Er ___ geen melk.",a:"is",opts:["is","zijn","heeft","ben"],hint:"Milk is singular (uncountable)"},
+         {type:"fb",s:"Er ___ vijf huizen in de stad.",a:"zijn",opts:["zijn","is","heeft","bent"],hint:"Five houses = plural"},
+         {type:"mc",q:"How do you say 'There is no house'?",opts:["Er is geen huis","Er zijn geen huis","Het is geen huis","Er heeft geen huis"],ans:"Er is geen huis",hint:"One house = singular, negate with geen"},
+         {type:"fb",s:"Er ___ twee vrouwen en een man.",a:"zijn",opts:["zijn","is","heeft","komt"],hint:"Two women + one man = plural total"},
+         {type:"drag_fill",s:"Er {1} een school en er {2} drie huizen.",blanks:{"1":"is","2":"zijn"},pool:["is","zijn","heeft","ben"],hint:"One school (singular), three houses (plural)"},
+         {type:"match",mks:["phrase_there_is","phrase_there_are","phrase_there_is_no","phrase_there_are_no"]},
+         {type:"tr",mk:"u2_there_are_two_children",dir:"produce"},
+         {type:"tr",mk:"u2_no_school_in_city",dir:"comprehend"},
+       ]},
+       {id:"v2u2l8",title:"Dit & Dat, Deze & Die",icon:"👉",xp:15,board:true,steps:[
+         {type:"intro",title:"Dit & Dat, Deze & Die",desc:"This, that, these, those. Dutch has a system that connects to de and het. Two uses, one clear pattern.",goals:["Learn hier (here) and daar (there)","Use dit/dat with het-words","Use deze/die with de-words and plurals","Point at things: always Dit is... / Dat is..."]},
+         {type:"teach",kind:"word",board:true,nl:"hier",en:"here",phonetic:"heer",example:"Het huis is hier.",exampleEn:"The house is here.",note:"Points at something nearby.\n'dit huis hier' = this house here.",cognate:{words:[{lang:"English",word:"here"},{lang:"German",word:"hier"}],family:"germanic"}},
+         {type:"teach",kind:"word",board:true,nl:"daar",en:"there / over there",phonetic:"dahr",example:"De school is daar.",exampleEn:"The school is there.",note:"Points at something farther away.\n'die school daar' = that school there.",cognate:{words:[{lang:"English",word:"there"},{lang:"German",word:"da/dort"}],family:"germanic"}},
+         {type:"teach",kind:"word",board:true,nl:"dit",en:"this (het-words, nearby)",phonetic:"dit",example:"Dit huis hier is groot.",exampleEn:"This house here is big.",note:"For het-words nearby.\n'Dit huis hier' = this house here."},
+         {type:"teach",kind:"word",board:true,nl:"dat",en:"that (het-words, far away)",phonetic:"daht",example:"Dat land daar is mooi.",exampleEn:"That country there is beautiful.",note:"For het-words farther away.\n'Dat huis daar' = that house there."},
+         {type:"teach",kind:"word",board:true,nl:"deze",en:"this / these (de-words, plurals, nearby)",phonetic:"DAY-zuh",example:"Deze man hier is een leraar.",exampleEn:"This man here is a teacher.",note:"For de-words + plurals nearby.\n'Deze huizen hier' = these houses here."},
+         {type:"teach",kind:"word",board:true,nl:"die",en:"that / those (de-words, plurals, far away)",phonetic:"dee",example:"Die vrouw daar spreekt Frans.",exampleEn:"That woman there speaks French.",note:"For de-words + plurals farther away.\n'Die kinderen daar' = those children there.",also:"Later: 'die' also means 'who/that' in relative clauses."},
+         {type:"tip",title:"👉 Two Uses of Demonstratives",text:"BEFORE A NOUN:\nhet-words nearby: dit huis hier\nhet-words far: dat huis daar\nde-words nearby: deze man hier\nde-words far: die man daar\nPlurals: same as de-words (deze/die)\n\nPOINTING AT SOMETHING:\nDit is het huis. Dat is de school.\nAlways dit/dat when pointing at things.\nNever 'deze is de school' or 'die is het huis'.",deepDive:{title:"Why always dit/dat for pointing?",text:"When you point at a thing and say 'this is...' or 'that is...', Dutch always uses dit or dat.\n\nIt does not matter if the noun is de or het:\nDit is de man. (pointing nearby)\nDat is de school. (pointing far)\nDit is het kind. (pointing nearby)\nDat is het huis. (pointing far)\n\nThink of 'Dit is...' and 'Dat is...' as fixed phrases for pointing.\n\n'Deze is...' and 'Die is...' are only used when choosing between people, not things."}},
+         {type:"mc",q:"Which pair goes with het-words?",opts:["deze / die","dit / die","dit / dat","deze / dat"],ans:"dit / dat",hint:"Het-words get their own pair"},
+         {type:"mc",q:"___ man hier is een leraar.",opts:["Dit","Dat","Deze","Die"],ans:"Deze",hint:"Man = de-word, hier = nearby"},
+         {type:"fb",s:"___ huis daar is klein.",a:"Dat",opts:["Dit","Deze","Dat","Die"],hint:"Huis = het-word, daar = far away"},
+         {type:"fb",s:"___ kinderen hier spreken Nederlands.",a:"Deze",opts:["Deze","Die","Dit","Dat"],hint:"Plural + hier = nearby"},
+         {type:"mc",q:"How do you say 'That man there is not here'?",opts:["Die man daar is niet hier","Deze man daar is niet hier","Dat man daar is niet hier","Dit man daar is niet hier"],ans:"Die man daar is niet hier",hint:"Man = de-word, daar = far away"},
+         {type:"fb",s:"___ is het kind hier.",a:"Dit",opts:["Dit","Deze","Die","Dat"],hint:"Pointing at something nearby: always dit"},
+         {type:"fb",s:"___ is de school daar.",a:"Dat",opts:["Dat","Deze","Die","Dit"],hint:"Pointing at something far: always dat"},
+         {type:"tip",title:"⚠️ A Common Mistake",text:"Dit is de school. (correct)\nDeze is de school. (wrong)\n\nWhen pointing at things, always use dit or dat.\nNever deze or die.\n\nDeze and die go BEFORE a noun:\nDeze school hier is groot. (correct)\n\nBut when pointing: Dit is... / Dat is... Always.",deepDive:{title:"When CAN you use deze/die alone?",text:"Only when choosing between people:\n'Welke man? Deze.' = Which man? This one.\n\nAt this stage, just remember the rule:\nPointing at things = dit/dat.\nBefore a noun = check de/het + hier/daar."}},
+         {type:"drag_fill",s:"{1} huis hier is groot en {2} stad daar is mooi.",blanks:{"1":"Dit","2":"die"},pool:["Dit","die","Deze","Dat"],hint:"het-word + hier, de-word + daar"},
+         {type:"match",pairs:[{nl:"dit",en:"this (het)"},{nl:"dat",en:"that (het)"},{nl:"deze",en:"this/these (de)"},{nl:"die",en:"that/those (de)"}]},
+         {type:"tr",mk:"u2_this_man_here_germany",dir:"comprehend"},
+       ]},
+       {id:"v2u2l9",title:"Mini-Dialogue: Meeting Someone",icon:"🤝",xp:15,board:true,steps:[
+         {type:"intro",title:"Mini-Dialogue: Meeting Someone",desc:"Time to put it all together. A real Dutch conversation between two people meeting for the first time.",goals:["Follow a full Dutch dialogue","Fill in missing parts of a conversation","Produce your own introduction sentences"]},
+         {type:"tip",title:"🤝 The Conversation",text:"A: Hallo! Hoe heet je?\nB: Ik heet Sophie. En jij?\n\nA: Ik heet Marco. Aangenaam!\nB: Aangenaam! Waar kom je vandaan?\n\nA: Ik kom uit Duitsland. En jij?\nB: Ik kom uit Belgi\u00eb. Ik woon in Brussel.\n\nA: Spreek je ook Frans?\nB: Ja, ik spreek Frans en Nederlands.",deepDive:{title:"Natural conversation structure",text:"Notice the pattern:\n1. Greeting (Hallo!)\n2. Names (Hoe heet je?)\n3. Origin (Waar kom je vandaan?)\n4. Bounce back (En jij?)\n5. Details (language, residence)\n\nThis is how Dutch people actually start conversations. The 'en jij?' bounce-back is key. It keeps the conversation flowing."}},
+         {type:"fb",s:"Hallo! Hoe ___ je?",a:"heet",opts:["heet","ben","kom","spreek"],hint:"Asking someone's name"},
+         {type:"fb",s:"Ik heet Sophie. En ___?",a:"jij",opts:["jij","je","u","zij"],hint:"And YOU?"},
+         {type:"mc",q:"What does 'Waar kom je vandaan?' mean?",opts:["Where do you live?","What do you speak?","Where do you come from?","Who are you?"],ans:"Where do you come from?",hint:"'Vandaan' = from (origin)"},
+         {type:"fb",s:"Ik kom uit ___. Ik woon in Brussel.",a:["Belgi\u00eb"],opts:["Belgi\u00eb","Duitsland","Frankrijk","Nederland"],hint:"Sophie lives in Brussels, so she's from..."},
+         {type:"fb",s:"___ je ook Frans?",a:"Spreek",opts:["Spreek","Woon","Kom","Heet"],hint:"Asking about a language"},
+         {type:"mc",q:"Sophie speaks:",opts:["Only French","French and Dutch","Only Dutch","German and Dutch"],ans:"French and Dutch",hint:"Ja, ik spreek Frans en Nederlands."},
+         {type:"drag_fill",s:"Ik {1} Marco. Ik {2} uit Duitsland.",blanks:{"1":"heet","2":"kom"},pool:["heet","kom","woon","spreek"],hint:"Name + origin"},
+         {type:"drag_fill",s:"Ik {1} in Brussel en ik {2} Frans.",blanks:{"1":"woon","2":"spreek"},pool:["woon","spreek","heet","kom"],hint:"Residence + language"},
+         {type:"tr",mk:"u2_nice_to_meet_where_from",dir:"produce"},
+         {type:"tr",mk:"u2_speak_french_and_dutch",dir:"comprehend"},
+         {type:"drag_fill",s:"Ik {1} in Amsterdam en ik {2} een beetje Nederlands.",blanks:{"1":"woon","2":"spreek"},pool:["woon","spreek","kom","heet"],hint:"Residence + language ability"},
+         {type:"tip",title:"\ud83c\udf89 Your first real Dutch conversation!",text:"You can now introduce yourself, ask about someone's origin, and talk about languages.\n\nName: Ik heet...\nOrigin: Ik kom uit...\nResidence: Ik woon in...\nLanguage: Ik spreek...\n\nThat's real A1 progress. You've come a long way since 'Hallo'!"},
+       ]},
+       {id:"v2u2l10",title:"Unit 2 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 2 Review",desc:"Everything from Unit 2, plus Unit 1 mixed in. No new words. Just proof you've got this.",goals:["Review all 5 verbs and their forms","Practice countries, languages, cities","Test de/het articles, er is/zijn, dit/dat/deze/die"]},
+         {type:"mc",q:"Ik ___ uit Nederland.",opts:["ben","kom","heb","woon"],ans:"kom",hint:"Stating where you're from"},
+         {type:"fb",s:"Zij ___ een leraar. (she)",a:"is",opts:["is","ben","heeft","zijn"],hint:"Profession = identity (singular she)"},
+         {type:"mc",q:"What article goes with 'taal'?",opts:["het","een","de","geen"],ans:"de",hint:"'Taal' is a de-word"},
+         {type:"fb",s:"Er ___ drie scholen in de stad.",a:"zijn",opts:["zijn","is","heeft","bent"],hint:"Three schools = plural"},
+         {type:"match",mks:["verb_come","verb_speak","verb_live","noun_house"]},
+         {type:"mc",q:"___ huis hier is groot.",opts:["Deze","Die","Dit","Dat"],ans:"Dit",hint:"Huis = het-word, hier = nearby"},
+         {type:"fb",s:"Wij ___ in Amsterdam.",a:"wonen",opts:["wonen","woont","woon","komt"],hint:"Wij + wonen"},
+         {type:"tr",mk:"u2_speak_dutch",dir:"produce"},
+         {type:"drag_fill",s:"Er {1} een man en er {2} twee vrouwen.",blanks:{"1":"is","2":"zijn"},pool:["is","zijn","heeft","bent"],hint:"One man (singular), two women (plural)"},
+         {type:"mc",q:"Die kinderen ___ uit Belgi\u00eb.",opts:["woont","kom","komen","bent"],ans:"komen",hint:"'Die kinderen' = those children (plural)"},
+         {type:"fb",s:"___ vrouw daar spreekt Frans.",a:"Die",opts:["Die","Deze","Dit","Dat"],hint:"De-word, daar = far away"},
+         {type:"match",mks:["noun_man","noun_child","noun_city","noun_country"]},
+         {type:"tr",mk:"u2_no_schools_in_this_city",dir:"comprehend"},
+         {type:"tr",mk:"u2_live_brussels_speak_french",dir:"produce"},
+       ]},
+  ]},
+
+  {n:3,lang:"nl",track:"v2",title:"Numbers & Time",sub:"Counting, Clock & Days",icon:"🔢",level:"A1.1",color:"#2ECDA7",lessons:[
+       {id:"v2u3l1",title:"Numbers 11–100",icon:"🔢",xp:15,board:true,steps:[
+         {type:"intro",title:"Numbers 11–100",desc:"Dutch numbers follow clear patterns. Above twenty, digits REVERSE: 'eenentwintig' = one-and-twenty.",goals:["Count the teens (11–19)","Learn the reversed digit order (20+)","Count by tens to 100","Spot the one irregular ten"]},
+
+         {type:"teach",kind:"grammar",nl:"elf",en:"eleven",phonetic:"elf",cognate:{words:[{lang:"English",word:"eleven"},{lang:"German",word:"elf"}],family:"germanic"},example:"Zij is elf jaar oud.",exampleEn:"She is eleven years old.",note:"Irregular, just memorize it. Good news: it's identical in German."},
+         {type:"teach",kind:"grammar",nl:"twaalf",en:"twelve",phonetic:"tvahf",cognate:{words:[{lang:"English",word:"twelve"},{lang:"German",word:"zwölf"}],family:"germanic"},example:"Er zijn twaalf kinderen.",exampleEn:"There are twelve children.",note:"Irregular  -  just memorize it, like English.\n'tw' sounds like English 'tv'.\nFrom 13 onward, the pattern kicks in."},
+
+         {type:"tip",title:"🧠 Just Like English",text:"Eleven and twelve are irregular in Dutch, English, AND German:\n\n• 11: elf / eleven / elf\n• 12: twaalf / twelve / zwölf\n\nFrom 13 onward, there's a pattern: [number] + tien.\nJust like English: thir-teen, four-teen, fif-teen."},
+
+         {type:"teach",kind:"word",nl:"dertien",en:"thirteen",phonetic:"DAIR-teen",example:"Zij is dertien jaar oud.",exampleEn:"She is thirteen years old.",note:"drie → der + tien. The vowel shortens.\nSame in English: three → thir-teen."},
+         {type:"teach",kind:"word",nl:"veertien",en:"fourteen",phonetic:"FAIR-teen",example:"Ik ben veertien jaar oud.",exampleEn:"I am fourteen years old.",note:"vier → veer + tien. Again the vowel shifts slightly. Pattern: [modified number] + tien."},
+         {type:"teach",kind:"word",nl:"vijftien",en:"fifteen",phonetic:"VAYF-teen",example:"Er zijn vijftien studenten.",exampleEn:"There are fifteen students.",note:"vijf + tien, straightforward. No vowel change needed here."},
+
+         {type:"tip",title:"🔢 The Teen Pattern",text:"[number] + tien = teen. Some vowels shift:\n\n• 13: dertien (drie → der)\n• 14: veertien (vier → veer)\n• 15: vijftien\n• 16: zestien\n• 17: zeventien\n• 18: achttien (acht + tien = achttien, double t!)\n• 19: negentien\n\nCompare English: thir-teen, four-teen, fif-teen.\nSame system, same Germanic family."},
+
+         {type:"mc",q:"Which is 'thirteen' in Dutch?",opts:["veertien","dertien","vijftien","twaalf"],ans:"dertien",hint:"drie → der + tien"},
+         {type:"fb",s:"Elf, ___, dertien, veertien...",a:"twaalf",opts:["twaalf","twintig","tien","dertien"],hint:"Count in order from 11"},
+
+         {type:"teach",kind:"word",nl:"twintig",en:"twenty",phonetic:"TVIN-tug",cognate:{words:[{lang:"German",word:"zwanzig"}],family:"germanic"},example:"Ik ben twintig jaar oud.",exampleEn:"I am twenty years old.",note:"The first round number above the teens. From here on, a BIG rule kicks in."},
+         {type:"teach",kind:"word",nl:"eenentwintig",en:"twenty-one",phonetic:"AYN-en-TVIN-tug",example:"Hij is eenentwintig jaar oud.",exampleEn:"He is twenty-one years old.",note:"een + en + twintig = one-and-twenty.\nUnit BEFORE ten. All 20+ numbers work this way."},
+
+         {type:"tip",title:"✏️ The Trema: ë, ï",text:"When two vowels collide across syllables, Dutch adds dots (a trema):\n\ntwee + en = tweeën (not 'tweeen')\ndrie + en = drieën (not 'drieen')\n\nThe dots say: 'new syllable starts here!'",deepDive:{title:"Where else do you see the trema?",text:"In numbers:\n• 22 = tweeëntwintig\n• 23 = drieëntwintig\n• 33 = drieëndertig\n\nIn country names:\n• België (Belgium)\n• Italië (Italy)\n\nAlso in some common words:\n• ruïne (ruin)\n• geïnteresseerd (interested)\n\nThe trema prevents Dutch readers from misreading the vowel clusters."}},
+
+         {type:"tip",title:"⚠️ The Big Reversal",text:"Dutch says the unit BEFORE the ten:\n\n• 21 = eenentwintig (one-and-twenty)\n• 23 = drieëntwintig (three-and-twenty)\n• 35 = vijfendertig (five-and-thirty)\n• 42 = tweeënveertig (two-and-forty)\n• 99 = negenennegentig (nine-and-ninety)\n\nThe pattern: [unit] + en + [ten]\n\nEnglish used to do this too: 'four-and-twenty blackbirds baked in a pie.' Dutch just kept doing it!"},
+
+         {type:"teach",kind:"word",nl:"dertig",en:"thirty",phonetic:"DAIR-tug",example:"Hij is dertig jaar oud.",exampleEn:"He is thirty years old.",note:"Pattern: [modified number] + tig. Same vowel shifts as the teens: drie → der."},
+         {type:"teach",kind:"word",nl:"veertig",en:"forty",phonetic:"FAIR-tug",example:"Hij is veertig jaar oud.",exampleEn:"He is forty years old.",note:"vier → veer + tig. Same vowel shift as veertien. The pattern is consistent."},
+         {type:"tip",title:"🔢 The Tens: 50, 60, 70",text:"After veertig, the pattern continues:\n\n• 50 = vijftig (vijf + tig)\n• 60 = zestig (zes + tig)\n• 70 = zeventig (zeven + tig)\n\nAll predictable: [number] + tig.\nBut watch out for the NEXT one..."},
+         {type:"teach",kind:"grammar",nl:"tachtig",en:"eighty",phonetic:"TAHG-tug",example:"Hij is tachtig jaar oud.",exampleEn:"He is eighty years old.",note:"The odd one out! NOT 'achtig' but 'tachtig'. The only irregular ten. Just memorize this one."},
+         {type:"teach",kind:"word",nl:"negentig",en:"ninety",phonetic:"NAY-gun-tug",example:"Zij is negentig jaar oud.",exampleEn:"She is ninety years old.",note:"Back to the predictable formula: negen + tig. Only tachtig (80) breaks the rule."},
+         {type:"teach",kind:"word",nl:"honderd",en:"hundred",phonetic:"HON-durt",cognate:{words:[{lang:"English",word:"hundred"},{lang:"German",word:"hundert"}],family:"germanic"},example:"Er zijn honderd studenten.",exampleEn:"There are a hundred students.",note:"Almost identical across all three Germanic languages.\nAfter honderd, the reversal continues: honderdeenentwintig = 121."},
+
+         {type:"mc",q:"'Eenentwintig' means:",opts:["twelve","thirty-one","twenty","twenty-one"],ans:"twenty-one",hint:"een + en + twintig"},
+         {type:"fb",s:"Twintig, ___, veertig, vijftig...",a:"dertig",opts:["dertig","dertien","drie","negentig"],hint:"Count the tens in order"},
+         {type:"drag_fill",s:"23 = {1}. 47 = {2}.",blanks:{"1":"drieëntwintig","2":"zevenenveertig"},pool:["drieëntwintig","zevenenveertig","drieëndertien","vierenzeventig"],hint:"Unit first, then the ten"},
+         {type:"match",pairs:[{nl:"elf",en:"eleven"},{nl:"twintig",en:"twenty"},{nl:"vijftig",en:"fifty"},{nl:"honderd",en:"hundred"}]},
+         {type:"mc",q:"Which number is the irregular ten?",opts:["tachtig (80)","zestig (60)","zeventig (70)","negentig (90)"],ans:"tachtig (80)",hint:"NOT 'achtig'  -  the only ten that breaks the pattern"},
+       ]},
+       {id:"v2u3l2",title:"Regular Present Tense",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Regular Present Tense",desc:"Every verb you've seen changes the same way. Time to name the rule: find the stam (stem), add -t or -en. Done.",goals:["Learn what a 'stam' (stem) is","Apply the stam+t rule","Conjugate werken (to work)","Conjugate leren (to learn)","Conjugate ANY regular verb"]},
+
+         {type:"tip",title:"🔍 Spot the Pattern",text:"Look at the three verbs you already know side by side:\n\nKOMEN:   ik kom,  jij komt,  wij komen\nSPREKEN: ik spreek, jij spreekt, wij spreken\nWONEN:   ik woon,  jij woont,  wij wonen\n\nSee it?\n\n• ik always gets the SHORT form.\n• jij always ADDS -t.\n• wij always uses the INFINITIVE.\n\nThis is not a coincidence. It's a RULE. Let's name it."},
+
+         {type:"verb_table",title:"The Pattern Revealed",label:"Three Verbs Side by Side",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"kom / spreek / woon",en:"I come / speak / live"},
+              {pronoun:"jij / je",form:"komt / spreekt / woont",en:"you come / speak / live"},
+              {pronoun:"u",form:"komt / spreekt / woont",en:"you come / speak / live (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij / zij / het",form:"komt / spreekt / woont",en:"he / she / it comes / speaks / lives"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"komen / spreken / wonen",en:"we come / speak / live"},
+              {pronoun:"jullie",form:"komen / spreken / wonen",en:"you all come / speak / live"},
+              {pronoun:"zij / ze",form:"komen / spreken / wonen",en:"they come / speak / live"},
+            ]}
+          ],note:"Three different verbs, same endings every time.\nik = stam, jij/u/hij/zij/het = stam + t, wij/jullie/zij = infinitive."},
+
+         {type:"teach",kind:"phrase",nl:"de stam",en:"the stem (of a verb)",phonetic:"duh stahm",cognate:{words:[{lang:"German",word:"der Stamm"}],family:"germanic"},example:"De stam van 'werken' is 'werk'.",exampleEn:"The stem of 'werken' is 'werk'.",note:"Remove '-en' from any infinitive → that's the stam.\nThis one concept unlocks every regular verb."},
+
+         {type:"tip",title:"📐 The Stam+t Rule",text:"Three steps to conjugate ANY regular Dutch verb:\n\n1. Take the infinitive: werken\n2. Remove -en → the stam: werk\n3. Apply the endings:\n\n• ik = stam → ik werk\n• jij/u/hij/zij/het = stam + t → jij werkt\n• wij/jullie/zij = infinitive → wij werken\n\nThat's it. This is called the 'regular present tense.'\nEvery regular verb in Dutch follows these three steps.",deepDive:{title:"Why 'ik kom' but 'ik woon'?",text:"When you remove -en, the spelling sometimes changes. There are TWO types:\n\nSHORT-VOWEL VERBS (vowel stays short):\n• ko-men → kom (short 'o', just remove -en)\n• wer-ken → werk (short 'e', just remove -en)\n\nLONG-VOWEL VERBS (vowel must stay long):\n• wo-nen → woon (long 'o', so you DOUBLE it)\n• le-ren → leer (long 'e', so you DOUBLE it)\n\nWhy? In 'wo-nen', the open syllable keeps the 'o' long with one letter. But 'won' is a closed syllable  -  one 'o' would sound short. So Dutch doubles it: 'woon'.\n\nIn 'ko-men', the 'o' is naturally short. 'Kom' in a closed syllable is already correct.\n\nThe Foundations spelling rules explain exactly when to double and when not to."}},
+
+         {type:"teach",kind:"word",nl:"werken",en:"to work",phonetic:"VAIR-kun",cognate:{words:[{lang:"English",word:"work"},{lang:"German",word:"Werk"}],family:"germanic"},example:"Ik werk in Amsterdam.",exampleEn:"I work in Amsterdam.",note:"Stam = werk. A clean regular verb. The 'w' sounds like English 'v'. You'll use this one every day.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"grammar",nl:"ik werk",en:"I work",phonetic:"ik vairk",example:"Ik werk in een school.",exampleEn:"I work in a school.",note:"Stam alone, no ending. 'Werk' has a short 'e' in a closed syllable  -  no spelling surprises."},
+         {type:"teach",kind:"phrase",nl:"hij werkt",en:"he works",phonetic:"hay vairkt",example:"Hij werkt in Amsterdam.",exampleEn:"He works in Amsterdam.",note:"Stam + t. Same rule as 'hij komt', 'hij spreekt', 'hij woont'."},
+
+         {type:"verb_table",title:"Werken: to work",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"werk",en:"I work"},
+              {pronoun:"jij / je",form:"werkt",en:"you work"},
+              {pronoun:"u",form:"werkt",en:"you work (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"werkt",en:"he works"},
+              {pronoun:"zij / ze",form:"werkt",en:"she works"},
+              {pronoun:"het",form:"werkt",en:"it works"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"werken",en:"we work"},
+              {pronoun:"jullie",form:"werken",en:"you all work"},
+              {pronoun:"zij / ze",form:"werken",en:"they work"},
+            ]}
+          ],note:"Stam = werk. ik werk, jij werkt, wij werken.\nSame pattern as komen, spreken, wonen!"},
+
+         {type:"teach",kind:"word",nl:"leren",en:"to learn / to teach",phonetic:"LAY-run",cognate:{words:[{lang:"German",word:"lernen"}],family:"germanic"},also:"'Leren' also means 'to teach': 'Zij leert ons Nederlands.' = She teaches us Dutch.",example:"Ik leer Nederlands.",exampleEn:"I learn Dutch.",note:"Stam = leer. Long-vowel verb: 'ee' doubles.\nYou are doing this right now!",deepDive:"le-ren → leer.\nOpen syllable (le-) became closed (leer).\nTo keep the long vowel → double: 'ee'.\nSame pattern as spre-ken → spreek, wo-nen → woon.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",nl:"zij leert",en:"she learns / she teaches",phonetic:"zay layrt",example:"Zij leert Nederlands op school.",exampleEn:"She learns Dutch at school.",note:"Stam + t = leert. Same rule, always."},
+
+         {type:"tip",title:"🔑 Three Steps, Any Verb",text:"ALL regular verbs follow the same rule:\n\n1. Find the infinitive (e.g. werken)\n2. Remove -en → stam (werk)\n3. ik = stam, jij = stam+t, wij = stam+en\n\nThat's it. Works for every regular verb.",deepDive:{title:"Your five verbs so far",text:"• komen → stam: kom → ik kom, jij komt, wij komen\n• spreken → stam: spreek → ik spreek, jij spreekt, wij spreken\n• wonen → stam: woon → ik woon, jij woont, wij wonen\n• werken → stam: werk → ik werk, jij werkt, wij werken\n• leren → stam: leer → ik leer, jij leert, wij leren\n\nFrom now on, every new regular verb you meet, just find the stam and apply the rule."}},
+
+         {type:"mc",q:"What is the stam of 'werken'?",opts:["werkt","wer","werk","werken"],ans:"werk",hint:"Remove -en from the infinitive"},
+         {type:"fb",s:"Zij ___ Nederlands op school.",a:"leert",opts:["leert","leer","leren","werkt"],hint:"zij = stam + t"},
+         {type:"mc",q:"'Ik ___ Nederlands.'  -  Which verb fits?",opts:["leert","leer","leren","leeren"],ans:"leer",hint:"ik = stam alone, no -t"},
+         {type:"drag_fill",s:"Ik {1} in Amsterdam. Hij {2} Nederlands.",blanks:{"1":"werk","2":"leert"},pool:["werk","leert","werkt","leren"],hint:"ik = stam, hij = stam + t"},
+         {type:"match",pairs:[{nl:"werken",en:"to work"},{nl:"leren",en:"to learn"},{nl:"de stam",en:"the stem"}]},
+         {type:"mc",q:"'Wij ___ in een restaurant.'",opts:["werk","werkt","komt","werken"],ans:"werken",hint:"wij = infinitive form"},
+         {type:"tr",mk:"u3_she_works_amsterdam",dir:"produce"},
+         {type:"tr",mk:"u3_i_learn_dutch",dir:"produce"},
+       ]},
+       {id:"v2u3l3",title:"Hoe laat is het?",icon:"🕐",xp:15,board:true,steps:[
+         {type:"intro",title:"Hoe laat is het?",desc:"Telling time in Dutch starts simple: number + 'uur'. But Dutch tells time BACKWARDS from English.",goals:["Ask and answer 'What time is it?'","Tell whole hours","Use 'om' for appointments"]},
+
+         {type:"teach",kind:"phrase",nl:"hoe laat",en:"what time",phonetic:"hoo laht",example:"Hoe laat is het?",exampleEn:"What time is it?",note:"Literally: 'how late'.\nDutch asks 'how late' instead of 'what time'."},
+         {type:"teach",kind:"phrase",nl:"het uur",en:"the hour / o'clock",phonetic:"hut oor",cognate:{words:[{lang:"English",word:"hour"},{lang:"German",word:"Uhr"}],family:"germanic"},example:"Het is drie uur.",exampleEn:"It is three o'clock.",note:"'Het' word. Also means 'hour'.\nDrie uur = three o'clock OR three hours."},
+         {type:"teach",kind:"phrase",nl:"het is ... uur",en:"it is ... o'clock",phonetic:"hut is ... oor",example:"Het is zeven uur.",exampleEn:"It is seven o'clock.",note:"Formula: het is + number + uur.\nSimple as that for whole hours!"},
+
+         {type:"tip",title:"🕐 Whole Hours",text:"het is één uur = 1:00\nhet is twee uur = 2:00\nhet is drie uur = 3:00\nhet is vier uur = 4:00\n...\nhet is twaalf uur = 12:00\n\nNotice: 'één' gets the accent marks to distinguish it from 'een' (a/an)."},
+
+         {type:"teach",kind:"word",nl:"om",en:"at (time)",phonetic:"om",example:"Ik werk om negen uur.",exampleEn:"I work at nine o'clock.",note:"'Om' = at (for times).\n'Om hoe laat?' = At what time?"},
+         {type:"teach",kind:"grammar",nl:"'s ochtends",en:"in the morning",phonetic:"SOGG-tunts",example:"Ik werk 's ochtends.",exampleEn:"I work in the morning.",note:"The 's = contraction of 'des' (old genitive).\nYou'll see this pattern in all time-of-day words."},
+         {type:"teach",kind:"phrase",nl:"'s middags",en:"in the afternoon",phonetic:"SMID-dahgs",example:"Om drie uur 's middags.",exampleEn:"At three o'clock in the afternoon.",note:"Same 's pattern.\nMiddag = midday/afternoon."},
+         {type:"teach",kind:"phrase",nl:"'s avonds",en:"in the evening",phonetic:"SAH-vonts",example:"Om acht uur 's avonds.",exampleEn:"At eight o'clock in the evening.",note:"Same 's pattern.\nAvond = evening."},
+
+         {type:"tip",title:"🌅 Time of Day",text:"Dutch uses these time markers:\n\n's ochtends = in the morning (6-12)\n's middags = in the afternoon (12-18)\n's avonds = in the evening (18-24)\n's nachts = at night (0-6)\n\nThey go AFTER the time:\nOm acht uur 's ochtends = At 8 in the morning."},
+
+         {type:"mc",q:"'Hoe laat is het?' means:",opts:["How are you?","What time is it?","Where is it?","How much is it?"],ans:"What time is it?",hint:"'Hoe laat' = how late"},
+         {type:"fb",s:"Het is vijf ___.",a:"uur",opts:["uur","laat","om","is"],hint:"5:00"},
+         {type:"mc",q:"'Om negen uur' means:",opts:["Nine hours","At nine o'clock","Nine minutes","It's nine"],ans:"At nine o'clock",hint:"'Om' = at (time)"},
+         {type:"drag_fill",s:"Ik werk {1} acht uur {2}.",blanks:{"1":"om","2":"'s ochtends"},pool:["om","'s ochtends","uur","laat"],hint:"I work at 8 in the morning"},
+         {type:"match",pairs:[{nl:"hoe laat?",en:"what time?"},{nl:"het uur",en:"the hour"},{nl:"om",en:"at (time)"},{nl:"'s avonds",en:"in the evening"}]},
+         {type:"tr",mk:"u3_seven_oclock",dir:"produce"},
+         {type:"tr",mk:"u3_work_nine",dir:"produce"},
+       ]},
+       {id:"v2u3l4",title:"Half & Kwart",icon:"🕧",xp:15,board:true,steps:[
+         {type:"intro",title:"Half & Kwart",desc:"This is where Dutch time gets WEIRD. 'Half drie' does NOT mean 3:30. It means 2:30. Yes, really. Plus: kwart over and kwart voor.",goals:["Understand the 'half' trap","Tell quarter past and quarter to","Convert between Dutch and English time"]},
+
+         {type:"teach",kind:"word",nl:"over",en:"past (time)",phonetic:"OH-vur",example:"Het is tien over drie.",exampleEn:"It is ten past three. (3:10)",note:"'Over' = past/after.\nMinutes OVER the hour."},
+         {type:"teach",kind:"word",nl:"voor",en:"to / before (time)",phonetic:"fohr",example:"Het is tien voor vier.",exampleEn:"It is ten to four. (3:50)",note:"'Voor' = to/before.\nMinutes BEFORE the hour."},
+         {type:"teach",kind:"word",nl:"kwart",en:"quarter",phonetic:"kvart",cognate:{words:[{lang:"English",word:"quarter"},{lang:"German",word:"Viertel"}],family:"germanic"},example:"Het is kwart over twee.",exampleEn:"It is quarter past two. (2:15)",note:"kwart over = quarter past.\nkwart voor = quarter to."},
+
+         {type:"tip",title:"⏰ Over & Voor",text:"Minutes PAST the hour = over:\nhet is vijf over drie = 3:05\nhet is tien over drie = 3:10\nhet is kwart over drie = 3:15\n\nMinutes TO the hour = voor:\nhet is tien voor vier = 3:50\nhet is kwart voor vier = 3:45\n\nSo far, same as English. Now the trap..."},
+
+         {type:"teach",kind:"word",nl:"half",en:"half (past)",phonetic:"hahlf",example:"Het is half drie.",exampleEn:"It is half past two. (2:30!)",note:"⚠️ BIGGEST TRAP!\n'Half drie' = 2:30, NOT 3:30!\nDutch counts TOWARD the next hour."},
+
+         {type:"tip",title:"⚠️ The Half Trap",text:"In English: 'half past two' = 2:30 (looking BACK)\nIn Dutch: 'half drie' = 2:30 (looking FORWARD to 3)\nIn German: 'halb drei' = 2:30 (same as Dutch!)\n\nhalf twee = 1:30\nhalf drie = 2:30\nhalf vier = 3:30\nhalf vijf = 4:30\n\nRule: half + NUMBER = (NUMBER minus 1):30\n\nThis WILL confuse you. It confuses everyone. Drill it!",deepDive:{title:"Why does Dutch count forward?",text:"Dutch (and German) think of 'half' as 'halfway TO' the next hour.\n\nhalf drie = halfway to three = 2:30\n\nEnglish thinks of 'half past' as 'half an hour PAST' the current hour.\n\nhalf past two = two plus half an hour = 2:30\n\nSame time, opposite mental model. Dutch looks forward, English looks back. This is the single biggest time-telling mistake for English speakers."}},
+
+         {type:"tip",title:"🕐 The Full Clock",text:"3:00 = drie uur\n3:15 = kwart over drie\n3:30 = half vier (NOT half drie!)\n3:45 = kwart voor vier\n\nKey: 3:20–3:40 all reference 'half vier'.",deepDive:{title:"Full 5-minute chart",text:"3:00 = drie uur\n3:05 = vijf over drie\n3:10 = tien over drie\n3:15 = kwart over drie\n3:20 = tien voor half vier\n3:25 = vijf voor half vier\n3:30 = half vier\n3:35 = vijf over half vier\n3:40 = tien over half vier\n3:45 = kwart voor vier\n3:50 = tien voor vier\n3:55 = vijf voor vier\n4:00 = vier uur"}},
+
+         {type:"mc",q:"'Half vijf' = ?",opts:["5:30","4:30","5:00","4:00"],ans:"4:30",hint:"Half TO five"},
+         {type:"mc",q:"'Kwart over twee' = ?",opts:["2:15","1:45","2:45","1:15"],ans:"2:15",hint:"Quarter PAST two"},
+         {type:"fb",s:"Het is ___ voor zes. (= 5:45)",a:"kwart",opts:["kwart","half","tien","vijf"],hint:"Quarter to six"},
+         {type:"mc",q:"'Half elf' = ?",opts:["11:30","10:30","10:00","11:00"],ans:"10:30",hint:"Half TO eleven"},
+         {type:"mc",q:"2:30 in Dutch is:",opts:["half twee","half drie","twee uur","kwart over twee"],ans:"half drie",hint:"Count FORWARD to the next hour"},
+         {type:"drag_fill",s:"Het is {1} {2} negen. (= 9:15)",blanks:{"1":"kwart","2":"over"},pool:["kwart","over","voor","half"],hint:"Quarter past nine"},
+         {type:"match",pairs:[{nl:"half drie",en:"2:30"},{nl:"kwart voor acht",en:"7:45"},{nl:"kwart over zes",en:"6:15"},{nl:"half tien",en:"9:30"}]},
+         {type:"tr",mk:"u3_half_past_two",dir:"produce"},
+         {type:"tr",mk:"u3_quarter_past_nine",dir:"produce"},
+       ]},
+       {id:"v2u3l5",title:"Days of the Week",icon:"📅",xp:15,board:true,steps:[
+         {type:"intro",title:"Dagen van de Week",desc:"Seven days, all ending in '-dag'. Dutch does NOT capitalize them. Plus: 'op' for 'on' with days.",goals:["All 7 days of the week","Say 'on Monday', 'on Friday'","Conjugate doen (to do)","Ask 'Wat doe je op...?'"]},
+
+         {type:"teach",kind:"phrase",nl:"de dag",en:"the day",phonetic:"duh dahg",cognate:{words:[{lang:"English",word:"day"},{lang:"German",word:"Tag"}],family:"germanic"},example:"Welke dag is het vandaag?",exampleEn:"What day is it today?",note:"Same word as the greeting 'dag'!\nPlural: dagen."},
+         {type:"teach",kind:"word",nl:"vandaag",en:"today",phonetic:"fan-DAHG",example:"Vandaag is het maandag.",exampleEn:"Today is Monday.",note:"Van + daag = from + day.\nLiterally: 'from this day'."},
+         {type:"teach",kind:"word",nl:"maandag",en:"Monday",phonetic:"MAHN-dahg",cognate:{words:[{lang:"English",word:"Monday (moon-day)"},{lang:"German",word:"Montag"}],family:"germanic"},example:"Op maandag werk ik.",exampleEn:"On Monday I work.",note:"Maan + dag = moon + day.\nSame as English! NOT capitalized."},
+         {type:"teach",kind:"word",nl:"dinsdag",en:"Tuesday",phonetic:"DINZ-dahg",cognate:{words:[{lang:"German",word:"Dienstag"}],family:"germanic"},example:"Op dinsdag leer ik Nederlands.",exampleEn:"On Tuesday I learn Dutch.",note:"Named after the god Tyr (Tiw's day).\nNot capitalized in Dutch."},
+         {type:"teach",kind:"word",nl:"woensdag",en:"Wednesday",phonetic:"VOONS-dahg",cognate:{words:[{lang:"English",word:"Wednesday (Woden's day)"}],family:"germanic"},example:"Woensdag is de helft van de week.",exampleEn:"Wednesday is the middle of the week.",note:"Named after Wodan/Odin.\nEnglish: Woden's day → Wednesday."},
+         {type:"teach",kind:"word",nl:"donderdag",en:"Thursday",phonetic:"DON-dur-dahg",cognate:{words:[{lang:"English",word:"Thursday (Thor's day)"},{lang:"German",word:"Donnerstag"}],family:"germanic"},example:"Op donderdag werkt hij.",exampleEn:"On Thursday he works.",note:"Donder = thunder. Thor's day!\nGerman: Donnerstag = thunder-day."},
+         {type:"teach",kind:"word",nl:"vrijdag",en:"Friday",phonetic:"VRAY-dahg",cognate:{words:[{lang:"English",word:"Friday (Freya's day)"},{lang:"German",word:"Freitag"}],family:"germanic"},example:"Vrijdag is de beste dag!",exampleEn:"Friday is the best day!",note:"Named after goddess Freya/Frigga.\nEnglish: Friday = Freya's day."},
+         {type:"teach",kind:"word",nl:"zaterdag",en:"Saturday",phonetic:"ZAH-tur-dahg",cognate:{words:[{lang:"English",word:"Saturday (Saturn's day)"}],family:"germanic"},example:"Op zaterdag werk ik niet.",exampleEn:"On Saturday I don't work.",note:"From Latin 'Saturni dies'.\nSame as English Saturday."},
+         {type:"teach",kind:"word",nl:"zondag",en:"Sunday",phonetic:"ZON-dahg",cognate:{words:[{lang:"English",word:"Sunday (sun-day)"},{lang:"German",word:"Sonntag"}],family:"germanic"},example:"Op zondag rust ik.",exampleEn:"On Sunday I rest.",note:"Zon + dag = sun + day.\nIdentical to English!"},
+
+         {type:"tip",title:"📅 All Seven Days",text:"maandag = Monday (moon-day)\ndinsdag = Tuesday (Tyr's day)\nwoensdag = Wednesday (Woden's day)\ndonderdag = Thursday (thunder-day)\nvrijdag = Friday (Freya's day)\nzaterdag = Saturday (Saturn's day)\nzondag = Sunday (sun-day)\n\n⚠️ NEVER capitalized in Dutch!\n'Op' + day = on that day: 'Op maandag werk ik.'"},
+
+         {type:"teach",kind:"word",nl:"op",en:"on (with days)",phonetic:"op",example:"Op woensdag leer ik.",exampleEn:"On Wednesday I learn.",note:"'Op' + day = on that day.\n'Op maandag', 'op dinsdag', etc."},
+         {type:"teach",kind:"phrase",nl:"het weekend",en:"the weekend",phonetic:"hut WEE-kent",example:"In het weekend werk ik niet.",exampleEn:"On the weekend I don't work.",note:"Het-word. Borrowed from English!\n'In het weekend' uses 'in', not 'op'."},
+
+         {type:"teach",kind:"word",nl:"doen",en:"to do",phonetic:"doon",cognate:{words:[{lang:"English",word:"do"},{lang:"German",word:"tun"}],family:"germanic"},also:"'boodschappen doen' = to do groceries (go shopping)",example:"Wat doe je op maandag?",exampleEn:"What do you do on Monday?",note:"Your sixth verb! 'oe' is ONE sound (like 'oo' in 'food').\nStam = doe (not 'do'). You can't split 'oe'.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",nl:"ik doe",en:"I do",phonetic:"ik doo",example:"Ik doe het.",exampleEn:"I do it.",note:"Stam = doe. Why not 'do'?\n'oe' is a single vowel sound. doen = doe + n, not do + en.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"grammar",nl:"hij doet",en:"he does",phonetic:"hay doot",example:"Hij doet het.",exampleEn:"He does it.",note:"Stam + t = doet. Same ending as hij werkt, hij komt."},
+
+         {type:"verb_table",title:"Doen: to do",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"doe",en:"I do"},
+              {pronoun:"jij / je",form:"doet",en:"you do"},
+              {pronoun:"u",form:"doet",en:"you do (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"doet",en:"he does"},
+              {pronoun:"zij / ze",form:"doet",en:"she does"},
+              {pronoun:"het",form:"doet",en:"it does"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"doen",en:"we do"},
+              {pronoun:"jullie",form:"doen",en:"you all do"},
+              {pronoun:"zij / ze",form:"doen",en:"they do"},
+            ]}
+          ],note:"Stam = doe (not 'do', because 'oe' is one sound).\nik doe, jij doet, wij doen. Endings: same as every verb."},
+
+         {type:"tip",title:"📅 Wat doe je op...?",text:"Now you can talk about your week!\n\nWat doe je op maandag? = What do you do on Monday?\nIk werk op maandag. = I work on Monday.\nWat doe je op vrijdag? = What do you do on Friday?\nIk leer Nederlands. = I learn Dutch.",deepDive:{title:"Why 'doe' and not 'doet'?",text:"Normal: Jij doet het. = You do it. (stam + t)\nQuestion: Wat doe je? = What do you do? (no -t!)\n\nWhen 'jij/je' comes AFTER the verb, the -t drops:\njij doet → doe jij?\njij werkt → werk jij?\njij komt → kom jij?\n\nThis applies to ALL verbs, not just doen.\nYou'll learn the full rule later."}},
+
+         {type:"mc",q:"Which day is 'donderdag'?",opts:["Thursday","Tuesday","Wednesday","Monday"],ans:"Thursday",hint:"Donder = thunder = Thor"},
+         {type:"fb",s:"___ vrijdag werk ik niet.",a:"Op",opts:["Op","In","Om","Het"],hint:"on + day"},
+         {type:"match",pairs:[{nl:"maandag",en:"Monday"},{nl:"woensdag",en:"Wednesday"},{nl:"vrijdag",en:"Friday"},{nl:"zondag",en:"Sunday"}]},
+         {type:"mc",q:"Dutch days of the week are:",opts:["always capitalized","never capitalized","capitalized at start of sentence only","the same as English"],ans:"never capitalized",hint:"Unlike English!"},
+         {type:"drag_fill",s:"Op {1} werk ik. Op {2} rust ik.",blanks:{"1":"maandag","2":"zondag"},pool:["maandag","zondag","het","om"],hint:"Work Monday, rest Sunday"},
+
+         {type:"mc",q:"What is the stam of 'doen'?",opts:["do","doe","doen","doet"],ans:"doe",hint:"'oe' is one sound, you can't split it"},
+         {type:"fb",s:"Wat ___ je op vrijdag?",a:"doe",opts:["doe","doet","doen","doot"],hint:"je after the verb = no -t"},
+         {type:"drag_fill",s:"Op maandag {1} ik. Wat {2} je op dinsdag?",blanks:{"1":"werk","2":"doe"},pool:["werk","doe","werkt","doet"],hint:"ik = stam. Question with je = stam"},
+
+         {type:"tr",mk:"u3_on_tuesday_work",dir:"produce"},
+         {type:"tr",mk:"u3_on_friday",dir:"produce"},
+         {type:"tr",mk:"u3_what_do_monday",dir:"produce"},
+       ]},
+       {id:"v2u3l6",title:"Months & Seasons",icon:"🍂",xp:15,board:true,steps:[
+         {type:"intro",title:"Maanden en Seizoenen",desc:"Good news: Dutch months look almost identical to English. Bad news: they're NOT capitalized (like days). Plus: four seasons to complete your calendar vocabulary.",goals:["All 12 months","4 seasons","Say when things happen"]},
+
+         {type:"teach",kind:"phrase",nl:"de maand",en:"the month",phonetic:"duh mahnt",cognate:{words:[{lang:"English",word:"month"},{lang:"German",word:"Monat"}],family:"germanic"},example:"Welke maand is het?",exampleEn:"What month is it?",note:"De-word. Plural: maanden.\nFinal -d sounds like -t (devoicing)."},
+         {type:"teach",kind:"word",nl:"januari",en:"January",phonetic:"yah-noo-AH-ree",example:"In januari is het koud.",exampleEn:"In January it is cold.",note:"Almost identical to English.\nNOT capitalized in Dutch!"},
+         {type:"teach",kind:"word",nl:"februari",en:"February",phonetic:"fay-broo-AH-ree",example:"Februari is kort.",exampleEn:"February is short.",note:"Same as English, minus one letter.\nNot capitalized."},
+         {type:"teach",kind:"word",nl:"maart",en:"March",phonetic:"mahrt",example:"In maart begint de lente.",exampleEn:"In March spring begins.",note:"Long 'aa'. Compare: March / März (German)."},
+         {type:"teach",kind:"word",nl:"april",en:"April",phonetic:"ah-PRIL",example:"April doet wat hij wil.",exampleEn:"April does what it wants. (Dutch proverb!)",note:"Identical to English.\nThe proverb means: April weather is unpredictable."},
+         {type:"teach",kind:"word",nl:"mei",en:"May",phonetic:"may",example:"In mei is het warm.",exampleEn:"In May it is warm.",note:"Shortest Dutch month name. Easy cognate."},
+
+         {type:"tip",title:"🗓️ All 12 Months",text:"januari = January\nfebruari = February\nmaart = March\napril = April\nmei = May\njuni = June\njuli = July\naugustus = August\nseptember = September\noktober = October\nnovember = November\ndecember = December\n\n⚠️ NEVER capitalized in Dutch!\n'In' + month: 'In januari is het koud.'"},
+
+         {type:"teach",kind:"word",nl:"koud",en:"cold",phonetic:"kowt",cognate:{words:[{lang:"English",word:"cold"},{lang:"German",word:"kalt"}],family:"germanic"},example:"In de winter is het koud.",exampleEn:"In the winter it is cold.",note:"'Het is koud' = it is cold.\nFinal -d sounds like -t (devoicing again)."},
+         {type:"teach",kind:"word",nl:"warm",en:"warm",phonetic:"varm",cognate:{words:[{lang:"English",word:"warm"},{lang:"German",word:"warm"}],family:"germanic"},example:"In de zomer is het warm.",exampleEn:"In the summer it is warm.",note:"Identical to English!\nW = V sound: 'varm'."},
+
+         {type:"teach",kind:"phrase",nl:"de lente",en:"spring",phonetic:"duh LEN-tuh",example:"In de lente bloeien de bloemen.",exampleEn:"In spring the flowers bloom.",note:"De-word. Also: 'het voorjaar' (before-year).\nMaart, april, mei."},
+         {type:"teach",kind:"phrase",nl:"de zomer",en:"summer",phonetic:"duh ZOH-mur",cognate:{words:[{lang:"English",word:"summer"},{lang:"German",word:"Sommer"}],family:"germanic"},example:"De zomer is warm.",exampleEn:"Summer is warm.",note:"De-word. Juni, juli, augustus.\nCompare: summer / Sommer / zomer."},
+         {type:"teach",kind:"phrase",nl:"de herfst",en:"autumn / fall",phonetic:"duh hayrfst",cognate:{words:[{lang:"English",word:"harvest"},{lang:"German",word:"Herbst"}],family:"germanic"},example:"In de herfst vallen de bladeren.",exampleEn:"In autumn the leaves fall.",note:"De-word. September, oktober, november.\nRelated to English 'harvest'!"},
+         {type:"teach",kind:"phrase",nl:"de winter",en:"winter",phonetic:"duh VIN-tur",cognate:{words:[{lang:"English",word:"winter"},{lang:"German",word:"Winter"}],family:"germanic"},example:"De winter is koud.",exampleEn:"Winter is cold.",note:"De-word. December, januari, februari.\nIdentical to English!"},
+
+         {type:"tip",title:"🌸 Seasons + Months",text:"In de lente: maart, april, mei\nIn de zomer: juni, juli, augustus\nIn de herfst: september, oktober, november\nIn de winter: december, januari, februari\n\n'In de' + season: In de zomer is het warm.\n'In' + month: In januari is het koud."},
+
+         {type:"mc",q:"Which month looks almost identical in English and Dutch?",opts:["december","maart","mei","februari"],ans:"december",hint:"Spot the twin"},
+         {type:"fb",s:"In ___ is het koud.",a:"de winter",opts:["de winter","de zomer","mei","de lente"],hint:"Cold season"},
+         {type:"match",pairs:[{nl:"de lente",en:"spring"},{nl:"de zomer",en:"summer"},{nl:"de herfst",en:"autumn"},{nl:"de winter",en:"winter"}]},
+         {type:"drag_fill",s:"In {1} is het warm. In {2} vallen de bladeren.",blanks:{"1":"de zomer","2":"de herfst"},pool:["de zomer","de herfst","de winter","januari"],hint:"Warm season, falling leaves season"},
+         {type:"mc",q:"Dutch months are:",opts:["always capitalized","never capitalized","only in formal writing","the same as English"],ans:"never capitalized",hint:"Same rule as days!"},
+         {type:"tr",mk:"u3_winter_cold",dir:"produce"},
+         {type:"tr",mk:"u3_born_march",dir:"produce"},
+       ]},
+       {id:"v2u3l7",title:"Altijd, Soms, Nooit",icon:"🔁",xp:15,board:true,steps:[
+         {type:"intro",title:"Altijd, Soms, Nooit",desc:"How often do you do things? Dutch frequency adverbs go AFTER the verb, not before it like English.",goals:["6 frequency adverbs","Where to place them in a sentence","Talk about your weekly habits","Understand Dutch directness about routines"]},
+
+         {type:"teach",kind:"word",nl:"altijd",en:"always",phonetic:"AL-tayt",cognate:{words:[{lang:"German",word:"allzeit"},{lang:"English",word:"all-tide (Old English)"}],family:"germanic"},example:"Ik drink altijd koffie.",exampleEn:"I always drink coffee.",note:"Literally 'all-time' (al + tijd).\nGoes AFTER the verb: Ik drink altijd koffie."},
+         {type:"teach",kind:"word",nl:"vaak",en:"often",phonetic:"vahk",cognate:{words:[{lang:"German",word:"oft (different word)"}],family:"germanic"},example:"Zij fietst vaak naar het werk.",exampleEn:"She often cycles to work.",note:"Very common word. Same position as altijd:\nAFTER the verb: 'Zij fietst vaak...'"},
+         {type:"teach",kind:"word",nl:"meestal",en:"usually / mostly",phonetic:"MAY-stahl",example:"We eten meestal om zes uur.",exampleEn:"We usually eat at six o'clock.",note:"Meest + al = most + all.\nSlightly more formal than 'vaak'."},
+         {type:"teach",kind:"word",nl:"soms",en:"sometimes",phonetic:"soms",example:"Soms werk ik op zaterdag.",exampleEn:"Sometimes I work on Saturday.",note:"Can go BEFORE the subject too!\n'Soms werk ik...' = 'Sometimes I work...'\nWhen soms starts the sentence, the verb stays second."},
+         {type:"teach",kind:"word",nl:"zelden",en:"rarely / seldom",phonetic:"ZEL-dun",cognate:{words:[{lang:"English",word:"seldom"},{lang:"German",word:"selten"}],family:"germanic"},example:"Ik eet zelden vlees.",exampleEn:"I rarely eat meat.",note:"English 'seldom' is the same word!\nNot super common in casual Dutch  - \nmany people say 'bijna nooit' (almost never) instead."},
+         {type:"teach",kind:"word",nl:"nooit",en:"never",phonetic:"noyt",example:"Hij komt nooit te laat.",exampleEn:"He never comes late.",note:"Strong word. The Dutch use it directly:\n'Dat doe ik nooit.' = I never do that.\nNo double negative needed (unlike French/Spanish)."},
+
+         {type:"tip",title:"📍 Where Do They Go?",text:"English: adverb BEFORE the verb → I always drink coffee.\nDutch: adverb AFTER the verb → Ik drink altijd koffie.\n\nPattern: SUBJECT + VERB + adverb + rest\n\n⚠️ soms/meestal can START the sentence (V2 rule applies):\nSoms werk ik op zaterdag.",deepDive:{title:"The V2 rule in action",text:"Dutch is a 'verb-second' language.\nThe conjugated verb is ALWAYS in position 2.\n\nNormal: Ik drink altijd koffie.\n  1=ik, 2=drink, 3=altijd, 4=koffie\n\nFronted adverb: Soms drink ik koffie.\n  1=soms, 2=drink, 3=ik, 4=koffie\n\nThe verb didn't move  -  'soms' took position 1,\nso 'ik' had to move to position 3.\n\nThis is the same rule you already know from:\nOp maandag werk ik. (On Monday I work.)\nVandaag leer ik Nederlands. (Today I learn Dutch.)\n\nAnything can go in position 1, but the verb stays in position 2. Always."}},
+
+         {type:"teach",kind:"phrase",nl:"te laat",en:"too late / late",phonetic:"tuh laht",cognate:{words:[{lang:"English",word:"late"},{lang:"German",word:"zu spät"}],family:"germanic"},example:"Ik kom nooit te laat.",exampleEn:"I never come late.",note:"'Te' here means 'too'.\n'Te laat' = too late. 'Te vroeg' = too early.\nThe Dutch value punctuality!"},
+         {type:"teach",kind:"word",nl:"vroeg",en:"early",phonetic:"froog",example:"Zij staat altijd vroeg op.",exampleEn:"She always gets up early.",note:"Long 'oe' sound (like 'oo' in 'food').\nOpposite of 'laat'."},
+
+         {type:"tip",title:"🇳🇱 Dutch & Punctuality",text:"The Dutch are famously punctual.\n\n'Op tijd' = on time.\n'Te laat' = too late.\n\n'Ik kom nooit te laat.' = something the Dutch say with pride.",deepDive:{title:"How punctual, exactly?",text:"If a meeting is at 14:00, arrive at 13:55.\nIf dinner is at 18:00, don't show up at 18:30.\n\n'Hij is altijd te laat.' is a genuine complaint in Dutch culture.\n\nFun fact: Dutch trains report delays in increments of 1 minute.\n'De trein is 3 minuten te laat.' = The train is 3 minutes late.\n\nPunctuality runs deep in Dutch society  -  it's considered basic respect."}},
+
+         {type:"mc",q:"'I always drink coffee' in Dutch word order is:",opts:["Ik altijd drink koffie.","Ik drink altijd koffie.","Altijd ik drink koffie.","Ik drink koffie altijd."],ans:"Ik drink altijd koffie.",hint:"Adverb goes AFTER the verb"},
+         {type:"fb",s:"Zij fietst ___ naar het werk.",a:"vaak",opts:["vaak","altijd niet","nooit geen","soms niet"],hint:"She often cycles..."},
+         {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik nooit kom te laat.","Ik kom nooit te laat.","Nooit ik kom te laat.","Ik kom te laat nooit."],ans:"Ik kom nooit te laat.",hint:"Verb in position 2, adverb after it"},
+         {type:"match",pairs:[{nl:"altijd",en:"always"},{nl:"soms",en:"sometimes"},{nl:"nooit",en:"never"},{nl:"zelden",en:"rarely"}]},
+         {type:"drag_fill",s:"Wij eten {1} om zes uur. Hij komt {2} te laat.",blanks:{"1":"meestal","2":"nooit"},pool:["meestal","nooit","de","om"],hint:"Usually eat at 6. Never late."},
+         {type:"mc",q:"'Soms werk ik op zaterdag.' Why is 'ik' after the verb?",opts:["It's a question","'Soms' took position 1, verb stays 2","It's wrong, should be 'Soms ik werk'","There's no rule for this"],ans:"'Soms' took position 1, verb stays 2",hint:"The V2 rule!"},
+         {type:"fb",s:"___ eet ik vlees. (= I rarely eat meat.)",a:"Zelden",opts:["Zelden","Nooit","Altijd","Vaak"],hint:"Rarely  -  fronted to position 1"},
+         {type:"mc",q:"The Dutch word for 'seldom' looks like its English cousin:",opts:["zelden","nooit","soms","altijd"],ans:"zelden",hint:"seldom ↔ ?"},
+         {type:"drag_fill",s:"{1} leer ik Nederlands. Ik werk {2} op zondag.",blanks:{"1":"Soms","2":"nooit"},pool:["Soms","nooit","altijd","veel"],hint:"Sometimes I learn... I never work on..."},
+
+         {type:"tr",mk:"u3_she_always_monday",dir:"produce"},
+         {type:"tr",mk:"u3_never_late",dir:"produce"},
+         {type:"tr",mk:"u3_always_learn_evening",dir:"produce"},
+       ]},
+       {id:"v2u3l8",title:"Unit 3 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 3: Alles Samen",desc:"Numbers, time, days, months, seasons, frequency adverbs  -  and the regular present tense. No new words. Everything from L1–L7 mixed together.",goals:["Numbers 1–100","Tell the time (hele uur, half, kwart)","Days, months, seasons","Frequency adverbs + word order","Regular present tense (-t rule)"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 3 you can:\n\n• Count from 1 to 100\n• Tell the time  -  including the tricky 'half'\n• Name all 7 days (not capitalized!)\n• Name all 12 months and 4 seasons\n• Say how often you do things\n• Conjugate regular verbs in the present tense\n• Use V2 word order with fronted adverbs\n\nThat's a full calendar life in Dutch. Let's test it."},
+
+         {type:"mc",q:"'Drieëntwintig' is:",opts:["23","33","32","13"],ans:"23",hint:"Drie-en-twintig = 3 and 20"},
+         {type:"mc",q:"'Half vijf' means:",opts:["5:30","4:30","5:00","4:00"],ans:"4:30",hint:"Half TO five, not half past"},
+         {type:"fb",s:"Het is ___ over drie. (= 3:15)",a:"kwart",opts:["kwart","half","tien","vijf"],hint:"Quarter past three"},
+         {type:"mc",q:"Which day comes from 'thunder'?",opts:["donderdag","dinsdag","vrijdag","woensdag"],ans:"donderdag",hint:"Donder = thunder = Thor"},
+         {type:"match",pairs:[{nl:"de lente",en:"spring"},{nl:"de herfst",en:"autumn"},{nl:"de zomer",en:"summer"},{nl:"de winter",en:"winter"}]},
+         {type:"mc",q:"In Dutch, days and months are:",opts:["always capitalized","never capitalized","capitalized in formal writing","the same as English"],ans:"never capitalized",hint:"maandag, januari  -  always lowercase"},
+
+         {type:"fb",s:"Ik drink ___ koffie. (= I always drink coffee.)",a:"altijd",opts:["altijd","nooit","niet","geen"],hint:"Frequency adverb AFTER the verb"},
+         {type:"mc",q:"Which word order is correct?",opts:["Ik altijd werk.","Ik werk altijd.","Werk altijd ik.","Altijd ik werk."],ans:"Ik werk altijd.",hint:"Adverb after verb in normal word order"},
+         {type:"drag_fill",s:"Op {1} werk ik. In {2} is het koud.",blanks:{"1":"maandag","2":"de winter"},pool:["maandag","de winter","altijd","uur"],hint:"On Monday... In winter..."},
+
+         {type:"mc",q:"'Zij ___ in Amsterdam.' (She works in Amsterdam.)",opts:["werkt","werk","werken","werkst"],ans:"werkt",hint:"zij = stam + t"},
+         {type:"fb",s:"Wij ___ Nederlands. (We learn Dutch.)",a:"leren",opts:["leren","leert","leer","leert"],hint:"Wij = full infinitive form"},
+         {type:"mc",q:"In a question, 'jij werkt' becomes:",opts:["Werkt jij?","Werk jij?","Werken jij?","Jij werk?"],ans:"Werk jij?",hint:"The -t drops when jij follows the verb"},
+
+         {type:"match",pairs:[{nl:"vaak",en:"often"},{nl:"zelden",en:"rarely"},{nl:"meestal",en:"usually"},{nl:"soms",en:"sometimes"}]},
+         {type:"mc",q:"'Soms werk ik op zaterdag.' The verb is in position:",opts:["1","2","3","4"],ans:"2",hint:"V2 rule: verb always second"},
+         {type:"drag_fill",s:"Het is {1} voor acht. Ik werk {2} op vrijdag.",blanks:{"1":"kwart","2":"nooit"},pool:["kwart","nooit","half","altijd"],hint:"7:45. Never work Fridays."},
+         {type:"fb",s:"___ eten we om zes uur.",a:"Meestal",opts:["Meestal","Ik","Het","Zes"],hint:"Usually we eat at six  -  adverb first, verb second"},
+         {type:"tr",mk:"u3_what_time",dir:"produce"},
+         {type:"tr",mk:"u3_never_late",dir:"produce"},
+         {type:"tr",mk:"u3_on_friday",dir:"produce"},
+       ]},
+  ]},
+
+  {n:4,lang:"nl",track:"v2",title:"Eten & Drinken",sub:"Food, Modals & Possessives",icon:"🍽️",level:"A1.2",color:"#F5A623",lessons:[
+       {id:"v2u4l1",title:"De Boterham",icon:"🥪",xp:15,board:true,steps:[
+         {type:"intro",title:"De Boterham",desc:"Welcome to Unit 4: Eten & Drinken. We start with the most Dutch thing imaginable  -  lunch. In the Netherlands, lunch is cold bread. Every day. With cheese. Or hagelslag (chocolate sprinkles). This lesson teaches essential food nouns, articles, and the cultural shock that is Dutch lunch.",goals:["8 essential food nouns with articles","Dutch lunch culture","Say what you eat and drink","Use 'eten' and 'drinken' (two new verbs)"]},
+
+         {type:"tip",title:"🇳🇱 Dutch Lunch: The Culture Shock",text:"In France, lunch is a warm three-course affair.\nIn Spain, lunch is the main meal of the day.\nIn the Netherlands, lunch is... bread.\n\nCold bread. With cheese. Or peanut butter. Or hagelslag.\nEvery single day. At your desk. From a broodtrommel.\n\nThe Dutch call this 'de boterham'  -  a slice of bread with something on it.\nThat's it. That's lunch.\n\nDon't fight it. Embrace the boterham. It's efficient, practical, and very Dutch.",deepDive:{title:"Why bread? A theory.",text:"The Netherlands is a trading nation. Time is money.\nA warm lunch takes 45–60 minutes. A boterham takes 10.\n\nThe Dutch word 'boterham' literally comes from:\nboter (butter) + ham (ham)  -  bread with butter.\n\nThe broodtrommel (bread box/lunch box) is a Dutch icon.\nChildren bring them to school. Adults bring them to work.\n\nThe WARM meal is dinner ('het avondeten'), served at 18:00 sharp.\nBeing late for dinner is a greater sin than being late for work."}},
+
+         {type:"teach",kind:"grammar",nl:"eten",en:"to eat",phonetic:"AY-tun",cognate:{words:[{lang:"English",word:"eat"},{lang:"German",word:"essen"}],family:"germanic"},also:"also a noun: 'het eten' = the food/the meal",example:"Wij eten brood.",exampleEn:"We eat bread.",note:"Irregular verb! ik eet, jij eet, hij eet.\nThe stam is 'eet' (long vowel), not 'et'.\nPlural: wij eten (same as infinitive)."},
+         {type:"teach",kind:"phrase",nl:"ik eet",en:"I eat",phonetic:"ik ayt",example:"Ik eet een boterham.",exampleEn:"I eat a sandwich.",note:"Long 'ee'  -  like English 'ate' without the t.\nDouble 'e' in closed syllable = long vowel.",fRef:"nl_spe_1"},
+         {type:"teach",kind:"phrase",nl:"hij eet",en:"he eats",phonetic:"hay ayt",example:"Hij eet kaas.",exampleEn:"He eats cheese.",note:"Wait  -  where's the -t? Stam = 'eet'.\neet + t would be 'eett'  -  Dutch never doubles a final -t.\nSo: hij eet. No extra -t needed.",fRef:"nl_spe_1"},
+
+         {type:"verb_table",title:"Eten: to eat",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"eet",en:"I eat"},
+              {pronoun:"jij / je",form:"eet",en:"you eat"},
+              {pronoun:"u",form:"eet",en:"you eat (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"eet",en:"he eats"},
+              {pronoun:"zij / ze",form:"eet",en:"she eats"},
+              {pronoun:"het",form:"eet",en:"it eats"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"eten",en:"we eat"},
+              {pronoun:"jullie",form:"eten",en:"you all eat"},
+              {pronoun:"zij / ze",form:"eten",en:"they eat"},
+            ]}
+          ],note:"Stam = eet. Since 'eet' already ends in -t, no extra -t is added for jij/hij.\nAll singular forms are identical: eet."},
+
+         {type:"teach",kind:"word",nl:"drinken",en:"to drink",phonetic:"DRING-kun",cognate:{words:[{lang:"English",word:"drink"},{lang:"German",word:"trinken"}],family:"germanic"},example:"Ik drink koffie.",exampleEn:"I drink coffee.",note:"Regular verb! Stam = drink.\nik drink, jij drinkt, hij drinkt.\nAlmost identical to English."},
+         {type:"teach",kind:"phrase",nl:"hij drinkt",en:"he drinks",phonetic:"hay drinkt",example:"Hij drinkt altijd thee.",exampleEn:"He always drinks tea.",note:"Stam + t = drinkt. Regular rule.\nCompare 'eten': stam already ends in -t → no extra.\n'Drinken': stam = drink → add -t → drinkt."},
+
+         {type:"teach",kind:"phrase",nl:"het brood",en:"the bread",phonetic:"hut broht",cognate:{words:[{lang:"English",word:"bread"},{lang:"German",word:"Brot"}],family:"germanic"},example:"Het brood is vers.",exampleEn:"The bread is fresh.",note:"Het-word. The single most important food in Dutch culture.\nPlural: broden."},
+         {type:"teach",kind:"phrase",nl:"de boterham",en:"the sandwich / slice of bread",phonetic:"duh BOH-tur-ham",example:"Ik eet een boterham met kaas.",exampleEn:"I eat a sandwich with cheese.",note:"De-word. Literally: butter-ham.\nA slice of bread with a topping = een boterham.\nPlural: boterhammen."},
+         {type:"teach",kind:"phrase",nl:"de kaas",en:"the cheese",phonetic:"duh kahs",cognate:{words:[{lang:"English",word:"cheese"},{lang:"German",word:"Käse"},{lang:"Latin",word:"caseus"}],family:"international"},example:"Nederland maakt veel kaas.",exampleEn:"The Netherlands makes a lot of cheese.",note:"De-word. From Latin 'caseus'  -  borrowed into Germanic\nlanguages 2000 years ago via Roman trade routes.\nThe Netherlands is the world's largest cheese exporter.\nGouda, Edam, Leiden  -  all Dutch cities AND cheeses."},
+         {type:"teach",kind:"phrase",nl:"de melk",en:"the milk",phonetic:"duh melk",cognate:{words:[{lang:"English",word:"milk"},{lang:"German",word:"Milch"}],family:"germanic"},example:"Ik drink melk.",exampleEn:"I drink milk.",note:"De-word. Almost identical to English.\nKarnemelk (buttermilk) is uniquely popular in NL."},
+         {type:"teach",kind:"grammar",nl:"het ei",en:"the egg",phonetic:"hut ay",cognate:{words:[{lang:"German",word:"Ei"},{lang:"English",word:"egg (via Norse)"}],family:"germanic"},example:"Ik eet een ei.",exampleEn:"I eat an egg.",note:"Het-word. Short word, big breakfast item.\nPlural: eieren (irregular  -  adds -eren)."},
+         {type:"teach",kind:"phrase",nl:"de boter",en:"the butter",phonetic:"duh BOH-tur",cognate:{words:[{lang:"English",word:"butter"},{lang:"German",word:"Butter"}],family:"germanic"},example:"Brood met boter.",exampleEn:"Bread with butter.",note:"De-word. You can hear it in 'boterham'!\nAlmost identical across all Germanic languages."},
+
+         {type:"tip",title:"🧀 What Goes on a Boterham?",text:"The classic Dutch lunch toppings:\n\nkaas = cheese (the #1 choice)\nboter = butter (the base layer)\npindakaas = peanut butter ('peanut cheese'!)\nhagelslag = chocolate sprinkles (yes, on bread)\nham = ham\njam = jam\n\nThe combo: boter + kaas = 'een boterham met kaas.'\nThe kids' favourite: boter + hagelslag.\n\n'Met' = with. You'll use this word constantly:\nbrood met kaas = bread with cheese\nkoffie met melk = coffee with milk\nthee met suiker = tea with sugar"},
+
+         {type:"teach",kind:"word",nl:"met",en:"with",phonetic:"met",cognate:{words:[{lang:"English",word:"with (different root)"},{lang:"German",word:"mit"}],family:"germanic"},example:"Koffie met melk.",exampleEn:"Coffee with milk.",note:"Identical to German 'mit'.\nYou'll use this in almost every food sentence:\n'een boterham met...' = a sandwich with..."},
+         {type:"teach",kind:"phrase",nl:"de koffie",en:"the coffee",phonetic:"duh KOF-fee",cognate:{words:[{lang:"English",word:"coffee"},{lang:"German",word:"Kaffee"}],family:"international"},example:"Ik drink altijd koffie.",exampleEn:"I always drink coffee.",note:"De-word. The Dutch drink MORE coffee per person\nthan almost any country. 3-4 cups a day is normal.\nThe 'koffiepauze' (coffee break) is sacred."},
+         {type:"teach",kind:"phrase",nl:"de thee",en:"the tea",phonetic:"duh tay",cognate:{words:[{lang:"English",word:"tea"},{lang:"German",word:"Tee"}],family:"international"},example:"Zij drinkt thee.",exampleEn:"She drinks tea.",note:"De-word. Same word across many languages.\n'Thee' has a long 'ee' sound  -  like 'tay'."},
+
+         {type:"tip",title:"☕ Dutch Coffee Culture",text:"The Dutch are among the world's top coffee drinkers.\n\nNormal coffee = 'een bakkie koffie' (informal)\nWith milk = 'koffie met melk'\nBlack = 'zwarte koffie'\n\nThe 'koffiepauze' (coffee break) is a workplace ritual.\nRefusing coffee when offered is... unusual.\n\n'Wil je koffie?' = Do you want coffee?\nThis is the most common sentence in Dutch offices.\n\nYou'll learn 'willen' (to want) in the next lesson!"},
+
+         {type:"mc",q:"'De boterham' literally means:",opts:["butter-ham","bread-slice","cheese-bread","lunch-box"],ans:"butter-ham",hint:"boter + ham"},
+         {type:"fb",s:"Ik ___ een boterham met kaas.",a:"eet",opts:["eet","eten","drinkt","drink"],hint:"I eat... (ik = stam)"},
+         {type:"mc",q:"Why is 'hij eet' not 'hij eett'?",opts:["Dutch never doubles a final -t","It's irregular","The -t drops","There's no rule"],ans:"Dutch never doubles a final -t",hint:"Stam = eet, already ends in -t"},
+         {type:"match",pairs:[{nl:"het brood",en:"the bread"},{nl:"de kaas",en:"the cheese"},{nl:"de melk",en:"the milk"},{nl:"het ei",en:"the egg"}]},
+         {type:"fb",s:"Hij ___ altijd koffie.",a:"drinkt",opts:["drinkt","drink","drinken","eet"],hint:"he drinks = stam + t"},
+         {type:"mc",q:"Dutch lunch is typically:",opts:["a warm three-course meal","cold bread with toppings","soup and salad","the main meal of the day"],ans:"cold bread with toppings",hint:"De boterham!"},
+         {type:"drag_fill",s:"Ik eet brood {1} kaas. Zij drinkt koffie {2} melk.",blanks:{"1":"met","2":"met"},pool:["met","met","en","of"],hint:"bread WITH cheese, coffee WITH milk"},
+         {type:"match",pairs:[{nl:"de koffie",en:"the coffee"},{nl:"de thee",en:"the tea"},{nl:"de boter",en:"the butter"},{nl:"de boterham",en:"the sandwich"}]},
+         {type:"mc",q:"Which of these is a het-word?",opts:["kaas","brood","melk","koffie"],ans:"brood",hint:"Think about what you just learned  -  which one had 'het'?"},
+         {type:"fb",s:"Wij ___ brood met boter.",a:"eten",opts:["eten","eet","eets","eett"],hint:"Wij = infinitive form"},
+         {type:"tr",mk:"u4_bread_cheese",dir:"produce"},
+         {type:"tr",mk:"u4_drink_coffee_milk",dir:"produce"},
+       ]},
+       {id:"v2u4l2",title:"Ik wil graag...",icon:"🍽️",xp:20,board:true,steps:[
+         {type:"intro",title:"Ik wil graag...",desc:"Your first modal verb: willen (to want). This is the single most useful sentence pattern for surviving in the Netherlands. 'Ik wil graag een kopje koffie' will get you through any café, restaurant, or office kitchen.",goals:["Conjugate willen (to want)","Order food and drinks politely","Use 'graag' for politeness","Understand modal verb word order"]},
+
+         {type:"teach",kind:"word",nl:"willen",en:"to want",phonetic:"VIL-lun",cognate:{words:[{lang:"English",word:"will (desire)"},{lang:"German",word:"wollen"}],family:"germanic"},example:"Ik wil een boterham.",exampleEn:"I want a sandwich.",note:"Your first MODAL verb.\nModals are special: they change the word order.\nThe second verb goes to the END of the sentence."},
+         {type:"teach",kind:"phrase",nl:"ik wil",en:"I want",phonetic:"ik vil",example:"Ik wil koffie.",exampleEn:"I want coffee.",note:"No -t, no tricks. Just 'wil'.\nShort 'i'  -  like English 'will'."},
+         {type:"teach",kind:"phrase",nl:"jij wilt",en:"you want",phonetic:"yay vilt",example:"Wil jij ook koffie?",exampleEn:"Do you also want coffee?",note:"Technically: stam + t = wilt.\nIn questions: 'Wil jij...?' (-t drops as always).\nBut in practice: most Dutch speakers say 'jij wil'\nEVEN in statements. 'Jij wil koffie' is more natural\nthan 'Jij wilt koffie' in everyday speech.\nWritten/formal: jij wilt. Spoken: jij wil. Both correct."},
+         {type:"teach",kind:"grammar",nl:"hij wil",en:"he wants",phonetic:"hay vil",example:"Hij wil thee.",exampleEn:"He wants tea.",note:"Wait  -  no -t? Correct!\n'Willen' is irregular: hij wil (not 'wilt').\nThis is one of the few verbs where hij has no -t."},
+
+         {type:"verb_table",title:"Willen: to want",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"wil",en:"I want"},
+              {pronoun:"jij / je",form:"wilt / wil",en:"you want"},
+              {pronoun:"u",form:"wilt",en:"you want (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"wil",en:"he wants"},
+              {pronoun:"zij / ze",form:"wil",en:"she wants"},
+              {pronoun:"het",form:"wil",en:"it wants"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"willen",en:"we want"},
+              {pronoun:"jullie",form:"willen",en:"you all want"},
+              {pronoun:"zij / ze",form:"willen",en:"they want"},
+            ]}
+          ],note:"Irregular! hij/zij wil (no -t). jij wilt OR jij wil — both correct.\nIn daily speech, 'jij wil' dominates. 'Jij wilt' sounds more formal.\nPlural = willen. Two forms to know: wil and willen."},
+
+         {type:"tip",title:"📐 Modal Verb Word Order",text:"Modal verbs change the sentence structure.\nThe second verb moves to the END:\n\nWithout modal:\nIk drink koffie. = I drink coffee.\n\nWith modal:\nIk wil koffie drinken. = I want to drink coffee.\n\nThe pattern: subject + modal + object + INFINITIVE (at the end)\n\nIk wil brood eten. = I want to eat bread.\nHij wil water drinken. = He wants to drink water.\nWij willen kaas eten. = We want to eat cheese.\n\n⚠️ The infinitive goes to the VERY end.\nThis feels strange if you speak English,\nbut natural if you know German (same rule!)."},
+
+         {type:"teach",kind:"grammar",nl:"graag",en:"gladly / please (in requests)",phonetic:"grahg",example:"Ik wil graag een kopje koffie.",exampleEn:"I would like a cup of coffee.",note:"'Graag' is the magic politeness word.\n'Ik wil koffie' = I want coffee. (blunt)\n'Ik wil graag koffie' = I'd like coffee. (polite)\nAlways add 'graag' when ordering!"},
+         {type:"teach",kind:"phrase",nl:"het kopje",en:"the cup (small)",phonetic:"hut KOP-yuh",example:"Een kopje koffie, alsjeblieft.",exampleEn:"A cup of coffee, please.",note:"Het-word. Derives from 'kop' which means HEAD.\n'Kopje' (kop + je) literally = 'small head'.\nThree meanings in daily Dutch:\n1. A small cup (een kopje koffie)\n2. A small head (affectionate: 'een lief kopje')\n3. A heading/header in text (een kopje in een artikel)\nThe '-je' is a diminutive  -  you'll learn this system in L6.\nSame root as English 'cup'  -  both from Latin 'cuppa'."},
+         {type:"teach",kind:"phrase",nl:"het glas",en:"the glass",phonetic:"hut glas",cognate:{words:[{lang:"English",word:"glass"},{lang:"German",word:"Glas"}],family:"germanic"},example:"Een glas water, alsjeblieft.",exampleEn:"A glass of water, please.",note:"Het-word. Identical to English and German.\nPlural: glazen (the 's' becomes 'z'  -  devoicing in reverse)."},
+         {type:"teach",kind:"phrase",nl:"het water",en:"the water",phonetic:"hut VAH-tur",cognate:{words:[{lang:"English",word:"water"},{lang:"German",word:"Wasser"}],family:"germanic"},example:"Ik wil graag een glas water.",exampleEn:"I would like a glass of water.",note:"Het-word. Almost identical to English.\nRemember: Dutch 'w' sounds like English 'v'."},
+
+         {type:"tip",title:"🇳🇱 Ordering in Dutch: The Formula",text:"The polite ordering formula:\n\nIk wil graag + [quantity] + [item].\n\nIk wil graag een kopje koffie. = I'd like a cup of coffee.\nIk wil graag een glas water. = I'd like a glass of water.\nIk wil graag een boterham met kaas. = I'd like a cheese sandwich.\n\nEven shorter (very common):\nEen kopje koffie, alsjeblieft. = A cup of coffee, please.\nEen glas water, alsjeblieft. = A glass of water, please.\n\nBoth work. The short version is perfectly polite.\nThe Dutch value directness  -  no need for elaborate formulas.",deepDive:{title:"Terrasje: the Dutch outdoor café",text:"When the sun comes out in the Netherlands, the entire country moves outside.\n\n'Op het terras zitten' = to sit on the terrace.\n'Een terrasje pakken' = to grab a spot on a terrace.\n\nThis is a national ritual. The first sunny day of spring,\nevery café terrace in Amsterdam is packed by noon.\n\n'Gezellig'  -  that untranslatable Dutch word for cosy,\nwarm, social, pleasant  -  this is what a terrasje is.\n\nYou'll learn 'gezellig' properly later. For now:\nterrasje = outdoor café = Dutch happiness."}},
+
+         {type:"teach",kind:"word",nl:"ook",en:"also / too",phonetic:"ohk",cognate:{words:[{lang:"German",word:"auch"},{lang:"English",word:"eke (Middle English)"}],family:"germanic"},example:"Wil jij ook koffie?",exampleEn:"Do you also want coffee?",note:"Very common small word.\n'Ik ook!' = Me too!\n'Zij ook.' = Her too.\nEnglish once had the same word: 'eke' meant 'also.'\nYou can still see it hiding in 'nickname'  -  originally\n'an eke-name' (an also-name, an extra name).\nThe word shifted over centuries. Dutch kept 'ook', English lost 'eke.'"},
+         {type:"teach",kind:"word",nl:"of",en:"or",phonetic:"of",example:"Koffie of thee?",exampleEn:"Coffee or tea?",note:"Same as English 'of'? No  -  it means 'or'.\nFalse friend alert!\nDutch 'of' = or. English 'of' = van."},
+
+         {type:"mc",q:"'Ik wil graag een kopje koffie.' means:",opts:["I need a cup of coffee.","I would like a cup of coffee.","I have a cup of coffee.","I drink a cup of coffee."],ans:"I would like a cup of coffee.",hint:"wil graag = would like"},
+         {type:"fb",s:"Ik wil brood ___.",a:"eten",opts:["eten","eet","eets","eett"],hint:"Modal: infinitive goes to the END"},
+         {type:"mc",q:"'Hij wil'  -  where is the -t?",opts:["It's 'hij wilt' actually","Willen is irregular: hij wil, no -t","The -t dropped in a question","He doesn't want one"],ans:"Willen is irregular: hij wil, no -t",hint:"One of the few verbs where hij has no -t"},
+         {type:"match",pairs:[{nl:"het kopje",en:"the cup"},{nl:"het glas",en:"the glass"},{nl:"het water",en:"the water"},{nl:"graag",en:"gladly / please"}]},
+         {type:"fb",s:"Wij ___ graag kaas eten.",a:"willen",opts:["willen","wil","wilt","willt"],hint:"Wij = plural = infinitive"},
+         {type:"drag_fill",s:"Ik wil graag een {1} koffie. Koffie {2} thee?",blanks:{"1":"kopje","2":"of"},pool:["kopje","of","glas","met"],hint:"A cup of coffee. Coffee or tea?"},
+         {type:"mc",q:"The Dutch word 'of' means:",opts:["of","or","off","if"],ans:"or",hint:"False friend! Dutch 'of' ≠ English 'of'"},
+         {type:"mc",q:"Where does the infinitive go with a modal verb?",opts:["Before the modal","After the subject","At the end of the sentence","It doesn't matter"],ans:"At the end of the sentence",hint:"Ik wil brood ETEN."},
+         {type:"fb",s:"___ jij ook water drinken?",a:"Wil",opts:["Wil","Wilt","Willen","Wollen"],hint:"Question with jij: -t drops"},
+         {type:"tr",mk:"u4_want_coffee",dir:"produce"},
+         {type:"tr",mk:"u4_glass_water",dir:"produce"},
+       ]},
+       {id:"v2u4l3",title:"Kunnen & Mogen",icon:"🔓",xp:20,board:true,steps:[
+         {type:"intro",title:"Kunnen & Mogen",desc:"English technically has both 'can' (ability) and 'may' (permission)  -  but modern speakers almost always say 'can' for both. 'Can I sit here?' has largely replaced 'May I sit here?' Dutch doesn't allow this collapse. Kunnen stays kunnen (ability). Mogen stays mogen (permission). The distinction is alive and enforced.",goals:["Conjugate kunnen (ability)","Conjugate mogen (permission)","Know when to use which","Handle modal word order fluently"]},
+
+         {type:"teach",kind:"word",nl:"kunnen",en:"to be able to / can",phonetic:"KUH-nun",cognate:{words:[{lang:"English",word:"can / could"},{lang:"German",word:"können"}],family:"germanic"},example:"Ik kan Nederlands spreken.",exampleEn:"I can speak Dutch.",note:"Modal verb #2. Ability = kunnen.\n'Can you swim?' = 'Kun je zwemmen?'\nSame word order rule: infinitive at the END.\nIn English, 'can' has swallowed 'may' in everyday speech.\nIn Dutch, kunnen ONLY covers ability  -  never permission.\n'Can I sit here?' in Dutch must be 'Mag ik...?' (mogen), never 'Kan ik...?'"},
+         {type:"teach",kind:"phrase",nl:"ik kan",en:"I can",phonetic:"ik kan",example:"Ik kan fietsen.",exampleEn:"I can cycle.",note:"Short 'a'  -  like 'can' in English.\nNo -t, no tricks. Just 'kan'."},
+         {type:"teach",kind:"phrase",nl:"jij kunt",en:"you can",phonetic:"yay kuhnt",example:"Kun jij zwemmen?",exampleEn:"Can you swim?",note:"kunt OR kan  -  both are correct for jij.\nIn questions: 'Kun jij...?' (-t drops).\n'Kan jij...?' is also fine and very common."},
+         {type:"teach",kind:"grammar",nl:"hij kan",en:"he can",phonetic:"hay kan",example:"Hij kan goed koken.",exampleEn:"He can cook well.",note:"Irregular again! hij kan (no -t).\nSame as willen: modals often skip the -t for hij."},
+
+         {type:"verb_table",title:"Kunnen: can / to be able to",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"kan",en:"I can"},
+              {pronoun:"jij / je",form:"kunt / kan",en:"you can"},
+              {pronoun:"u",form:"kunt / kan",en:"you can (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"kan",en:"he can"},
+              {pronoun:"zij / ze",form:"kan",en:"she can"},
+              {pronoun:"het",form:"kan",en:"it can"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"kunnen",en:"we can"},
+              {pronoun:"jullie",form:"kunnen",en:"you all can"},
+              {pronoun:"zij / ze",form:"kunnen",en:"they can"},
+            ]}
+          ],note:"Irregular: hij/zij kan (no -t). jij kunt OR jij kan — both correct.\nSame pattern as willen: two forms (kan / kunnen)."},
+
+         {type:"teach",kind:"word",nl:"mogen",en:"to be allowed to / may",phonetic:"MOH-gun",cognate:{words:[{lang:"English",word:"may / might"},{lang:"German",word:"mögen / dürfen"}],family:"germanic"},example:"Mag ik hier zitten?",exampleEn:"May I sit here?",note:"Modal verb #3. Permission = mogen.\nThis is the POLITE request verb.\n'Mag ik...?' = May I...? (very common)\nEnglish DOES have 'may' for permission  -  'May I sit here?'\nBut most English speakers now say 'Can I sit here?' instead.\nIn Dutch you cannot make that swap. 'Kan ik hier zitten?'\nwould sound like you're asking about physical ability,\nnot permission. Mogen stays mogen. Always."},
+         {type:"teach",kind:"phrase",nl:"ik mag",en:"I may / I am allowed to",phonetic:"ik mag",example:"Ik mag hier niet roken.",exampleEn:"I am not allowed to smoke here.",note:"Short 'a'. The 'g' is the Dutch throat sound.\n'Mag niet' = not allowed. You'll hear this constantly."},
+         {type:"teach",kind:"grammar",nl:"hij mag",en:"he may / he is allowed to",phonetic:"hay mag",example:"Hij mag niet binnen.",exampleEn:"He is not allowed inside.",note:"Irregular: hij mag (no -t). All three modals so far:\nhij wil, hij kan, hij mag. No -t on any of them."},
+
+         {type:"verb_table",title:"Mogen: may / to be allowed to",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"mag",en:"I may"},
+              {pronoun:"jij / je",form:"mag",en:"you may"},
+              {pronoun:"u",form:"mag",en:"you may (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"mag",en:"he may"},
+              {pronoun:"zij / ze",form:"mag",en:"she may"},
+              {pronoun:"het",form:"mag",en:"it may"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"mogen",en:"we may"},
+              {pronoun:"jullie",form:"mogen",en:"you all may"},
+              {pronoun:"zij / ze",form:"mogen",en:"they may"},
+            ]}
+          ],note:"Irregular: ALL singular forms are 'mag'. No -t anywhere.\njij mag (not 'magt'). Same pattern as willen and kunnen."},
+
+         {type:"tip",title:"🔑 Kunnen vs Mogen: The Split",text:"English uses 'can' for both. Dutch splits them:\n\nKUNNEN = ability (physical/mental)\nIk kan zwemmen. = I can swim. (I have the ability.)\nKun je fietsen? = Can you cycle? (Do you know how?)\nHij kan goed koken. = He can cook well.\n\nMOGEN = permission (allowed/not allowed)\nMag ik hier zitten? = May I sit here?\nJe mag niet roken. = You may not smoke.\nMogen wij naar binnen? = May we go inside?\n\n⚠️ The test: replace 'can' with 'am allowed to'.\nIf it works → mogen. If not → kunnen.\n\n'Can I sit here?' → 'Am I allowed to sit here?' ✅ → MOGEN\n'Can you swim?' → 'Are you allowed to swim?' ❌ → KUNNEN",deepDive:{title:"German speakers: careful!",text:"German 'mögen' means 'to like' (ich mag Kaffee = I like coffee).\nDutch 'mogen' means 'to be allowed to'.\n\nDutch 'may I?' = Mag ik?\nGerman 'may I?' = Darf ich?\n\nDutch 'I like coffee' = Ik hou van koffie. (NOT 'ik mag koffie')\nGerman 'I like coffee' = Ich mag Kaffee.\n\nFalse friend across the border!"}},
+
+         {type:"teach",kind:"word",nl:"betalen",en:"to pay",phonetic:"buh-TAH-lun",example:"Kan ik hier betalen?",exampleEn:"Can I pay here?",note:"Regular verb. Stam = betaal.\nVery useful: 'Kan ik betalen?' = Can I pay?\nThis is how you ask for the bill."},
+         {type:"teach",kind:"word",nl:"zitten",en:"to sit",phonetic:"ZIT-tun",cognate:{words:[{lang:"English",word:"sit"},{lang:"German",word:"sitzen"}],family:"germanic"},example:"Mag ik hier zitten?",exampleEn:"May I sit here?",note:"Stam = zit. Cognate of English 'sit'.\n'Mag ik hier zitten?'  -  you'll use this on every terras."},
+         {type:"teach",kind:"word",nl:"roken",en:"to smoke",phonetic:"ROH-kun",example:"Je mag hier niet roken.",exampleEn:"You may not smoke here.",note:"Regular verb. Stam = rook.\nSmoking is banned indoors in NL since 2008.\n'Niet roken' signs are everywhere."},
+
+         {type:"tip",title:"🇳🇱 'Dat mag niet!'",text:"Three words you'll hear constantly in the Netherlands:\n\n'Dat mag niet!' = That's not allowed!\n\nThe Dutch are direct about rules. If something is forbidden,\nthey'll tell you  -  clearly, immediately, without softening.\n\nDat mag niet. = That's not allowed.\nJe mag hier niet roken. = You may not smoke here.\nJe mag hier niet fietsen. = You may not cycle here.\nDat mag niet van de gemeente. = The municipality doesn't allow that.\n\nThis directness isn't rude  -  it's Dutch efficiency.\nYou know exactly where you stand."},
+
+         {type:"mc",q:"'Mag ik hier zitten?' is asking for:",opts:["ability","permission","obligation","a suggestion"],ans:"permission",hint:"Mogen = may = permission"},
+         {type:"fb",s:"Ik ___ goed Nederlands spreken.",a:"kan",opts:["kan","mag","wil","moet"],hint:"Ability to speak = kunnen"},
+         {type:"mc",q:"'Kun jij zwemmen?' is asking about:",opts:["permission to swim","ability to swim","desire to swim","obligation to swim"],ans:"ability to swim",hint:"Kunnen = can = ability"},
+         {type:"match",pairs:[{nl:"kunnen",en:"can (ability)"},{nl:"mogen",en:"may (permission)"},{nl:"willen",en:"want"},{nl:"betalen",en:"to pay"}]},
+         {type:"drag_fill",s:"{1} ik hier zitten? {2} jij fietsen?",blanks:{"1":"Mag","2":"Kun"},pool:["Mag","Kun","Wil","Moet"],hint:"Permission to sit. Ability to cycle."},
+         {type:"fb",s:"Je ___ hier niet roken.",a:"mag",opts:["mag","kan","wil","moet"],hint:"Not ALLOWED to smoke"},
+         {type:"mc",q:"All three modals (wil, kan, mag) share which quirk?",opts:["They all end in -t for hij","They all skip the -t for hij","They all use 'hebben'","They're all regular"],ans:"They all skip the -t for hij",hint:"hij wil, hij kan, hij mag  -  no -t"},
+         {type:"mc",q:"'Kan ik hier betalen?'  -  you're asking:",opts:["May I pay here?","Can I pay here? (is it possible?)","Do I want to pay?","Must I pay here?"],ans:"Can I pay here? (is it possible?)",hint:"Kunnen = ability/possibility"},
+         {type:"fb",s:"Wij ___ hier niet zwemmen. (not allowed)",a:"mogen",opts:["mogen","kunnen","willen","moeten"],hint:"Plural form of mogen"},
+         {type:"tr",mk:"u4_may_sit_here",dir:"produce"},
+         {type:"tr",mk:"u4_can_speak_dutch",dir:"produce"},
+       ]},
+       {id:"v2u4l4",title:"Moeten & Hoeven",icon:"💪",xp:20,board:true,steps:[
+         {type:"intro",title:"Moeten & Hoeven",desc:"Modal #4: moeten (must/have to). Plus its negative partner: hoeven (need to). English has no single verb for 'don't have to'  -  Dutch does. This lesson also teaches Dutch punctuality culture, because 'je moet op tijd komen' is a way of life here.",goals:["Conjugate moeten (must)","Use hoeven + niet for 'don't have to'","All 4 modal verbs compared","Dutch punctuality culture"]},
+
+         {type:"teach",kind:"word",nl:"moeten",en:"must / have to",phonetic:"MOO-tun",cognate:{words:[{lang:"English",word:"must"},{lang:"German",word:"müssen"}],family:"germanic"},example:"Ik moet werken.",exampleEn:"I have to work.",note:"Modal verb #4. Obligation = moeten.\nSame word order: infinitive at the end.\nIk moet werken = I must work."},
+         {type:"teach",kind:"phrase",nl:"ik moet",en:"I must / I have to",phonetic:"ik moot",example:"Ik moet om negen uur beginnen.",exampleEn:"I have to start at nine o'clock.",note:"Long 'oe' sound (like 'oo' in 'food').\nStrong obligation  -  'I have no choice'."},
+         {type:"teach",kind:"phrase",nl:"jij moet",en:"you must",phonetic:"yay moot",example:"Je moet op tijd komen!",exampleEn:"You have to come on time!",note:"Same form as ik: 'moet'. No extra -t.\nStam = moet, which already ends in -t.\nSame logic as eten: eet + t would be 'eett'."},
+         {type:"teach",kind:"phrase",nl:"hij moet",en:"he must",phonetic:"hay moot",example:"Hij moet elke dag werken.",exampleEn:"He has to work every day.",note:"Again: moet. The stam ends in -t, so no extra -t.\nAll singular forms of moeten are identical: moet."},
+
+         {type:"verb_table",title:"Moeten: must / have to",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"moet",en:"I must"},
+              {pronoun:"jij / je",form:"moet",en:"you must"},
+              {pronoun:"u",form:"moet",en:"you must (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"moet",en:"he must"},
+              {pronoun:"zij / ze",form:"moet",en:"she must"},
+              {pronoun:"het",form:"moet",en:"it must"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"moeten",en:"we must"},
+              {pronoun:"jullie",form:"moeten",en:"you all must"},
+              {pronoun:"zij / ze",form:"moeten",en:"they must"},
+            ]}
+          ],note:"All singular = moet. Why no extra -t for jij/hij?\nStam = moet (ends in -t already). Same rule as eten.\nTwo forms: moet (singular) and moeten (plural)."},
+
+         {type:"teach",kind:"word",nl:"hoeven",en:"to need to (only used with 'niet')",phonetic:"HOO-vun",example:"Je hoeft niet te betalen.",exampleEn:"You don't need to pay.",note:"The negative partner of moeten.\nALWAYS used with 'niet': 'hoeft niet' = don't have to.\nEnglish needs 3 words. Dutch has one verb."},
+         {type:"teach",kind:"phrase",nl:"je hoeft niet",en:"you don't have to / you needn't",phonetic:"yuh hooft neet",example:"Je hoeft niet te komen.",exampleEn:"You don't have to come.",note:"hoeft + niet + te + infinitive.\nNote the 'te' before the infinitive  -  unique to hoeven.\nModals normally don't need 'te'. Hoeven does.\nThis little word 'te' will come back later in Unit 9\nwith 'om...te' (in order to). For now, just memorize it\nas part of the hoeven formula: hoeft + niet + te + verb."},
+
+         {type:"tip",title:"⚖️ Moeten vs Hoeven",text:"MOETEN = must / have to (positive obligation)\nJe moet op tijd komen. = You must come on time.\nIk moet werken. = I have to work.\n\nHOEVEN + NIET = don't have to / needn't (no obligation)\nJe hoeft niet te komen. = You don't have to come.\nJe hoeft niet te betalen. = You don't need to pay.\n\n⚠️ Korean groups by 만 (10,000), not 천 (1,000).\n'Je moet niet...' = You must NOT... (prohibition)\n'Je hoeft niet...' = You don't HAVE TO... (no obligation)\n\n'Je moet niet roken.' = You must not smoke. (forbidden)\n'Je hoeft niet te roken.' = You don't have to smoke. (your choice)\n\nBig difference! 'Moet niet' is much stronger than 'hoeft niet'.",deepDive:{title:"Why 'te' with hoeven?",text:"All modal verbs so far use bare infinitives:\nIk wil eten. (not 'te eten')\nIk kan zwemmen. (not 'te zwemmen')\nIk moet werken. (not 'te werken')\n\nBut hoeven is special:\nIk hoef niet TE betalen.\n\nWhy? Hoeven is technically not a 'true' modal  - \nit's a semi-modal that requires 'te' before the infinitive.\n\nJust remember: hoeven + niet + te + infinitive.\nJe hoeft niet te komen.\nWij hoeven niet te werken."}},
+
+         {type:"teach",kind:"word",nl:"beginnen",en:"to begin / to start",phonetic:"buh-GIN-nun",cognate:{words:[{lang:"English",word:"begin"},{lang:"German",word:"beginnen"}],family:"germanic"},example:"Ik moet om negen uur beginnen.",exampleEn:"I have to start at nine o'clock.",note:"Identical to English! Regular verb.\nStam = begin. Ik begin, jij begint."},
+         {type:"teach",kind:"phrase",nl:"op tijd",en:"on time",phonetic:"op tayt",example:"Je moet op tijd komen.",exampleEn:"You must come on time.",note:"Op = on, tijd = time.\nThe Dutch live by this phrase.\n'Op tijd' is not a suggestion  -  it's a lifestyle."},
+
+         {type:"tip",title:"🇳🇱 Je Moet Op Tijd Komen!",text:"The Dutch and time:\n\nMeeting at 14:00? Be there at 13:55.\nDinner at 18:00? Don't arrive at 18:15.\nTrain at 08:12? It leaves at 08:12.\n\nRemember 'op tijd' and 'te laat' from Lesson 7?\nNow combine them with 'moeten':\n\n'Op tijd' (on time) is a core Dutch value.\n'Te laat' (late) is a genuine social offence.\n\nAt work: 'Je moet op tijd beginnen.' = You must start on time.\nAt school: 'Je moet op tijd komen.' = You must come on time.\nFor dinner: 'We eten om zes uur.' = We eat at six. (Be there.)\n\nThe Dutch saying: 'Afspraak is afspraak.'\n= A deal is a deal. / An appointment is an appointment.\nIf you said 14:00, you meant 14:00."},
+
+         {type:"tip",title:"📋 All Four Modals  -  Compared",text:"willen = to want → Ik wil koffie drinken.\nkunnen = can (ability) → Ik kan Nederlands spreken.\nmogen = may (permission) → Mag ik hier zitten?\nmoeten = must (obligation) → Ik moet werken.\n\nAll four share the same word order:\nSubject + modal + object + INFINITIVE (at end).\n\nAll four are irregular in the singular:\nhij wil, hij kan, hij mag, hij moet.\n(willen/kunnen/mogen skip -t; moeten's stam already ends in -t)\n\nNegative obligation = hoeven + niet + te + infinitive:\nJe hoeft niet te betalen.",deepDive:{title:"The modal family tree",text:"All four Dutch modals are ancient Germanic words with English cousins:\n\nwillen ↔ will  -  English 'will' started as 'to want' (I will = I want to).\nOver time it became a future marker. Dutch kept the original 'want' meaning.\n\nkunnen ↔ can  -  Nearly identical. Both from Proto-Germanic *kunnaną.\nIn Old English, 'can' also meant 'to know how.' Dutch 'kennen' (to know)\nis the same root.\n\nmogen ↔ may  -  Both from *maganą (to be able/allowed).\nEnglish 'may' is dying in casual speech  -  most people say 'can' instead.\nDutch 'mogen' is alive and used daily.\n\nmoeten ↔ must  -  Both from *mōtaną.\nEnglish 'must' has no past tense ('I musted' doesn't exist).\nDutch 'moeten' does: ik moest (I had to). Much more flexible.\n\nNotice the pattern: Dutch modals are more regular and more alive\nthan their English cousins. English is simplifying; Dutch is holding firm."}},
+
+         {type:"mc",q:"'Je hoeft niet te betalen.' means:",opts:["You must pay.","You must not pay.","You don't have to pay.","You can't pay."],ans:"You don't have to pay.",hint:"hoeven + niet = don't have to"},
+         {type:"fb",s:"Ik ___ om acht uur beginnen.",a:"moet",opts:["moet","mag","hoeft","kan"],hint:"I MUST start at eight"},
+         {type:"mc",q:"What's the difference between 'moet niet' and 'hoeft niet'?",opts:["No difference","'moet niet' = must not, 'hoeft niet' = don't have to","'moet niet' = don't have to, 'hoeft niet' = must not","Both mean 'can not'"],ans:"'moet niet' = must not, 'hoeft niet' = don't have to",hint:"Prohibition vs no obligation"},
+         {type:"match",pairs:[{nl:"willen",en:"to want"},{nl:"kunnen",en:"can (ability)"},{nl:"mogen",en:"may (permission)"},{nl:"moeten",en:"must (obligation)"}]},
+         {type:"drag_fill",s:"Je {1} op tijd komen. Je {2} niet te betalen.",blanks:{"1":"moet","2":"hoeft"},pool:["moet","hoeft","mag","kan"],hint:"Must come on time. Don't have to pay."},
+         {type:"fb",s:"Wij ___ niet te werken op zondag.",a:"hoeven",opts:["hoeven","moeten","mogen","kunnen"],hint:"We don't HAVE TO work on Sunday"},
+         {type:"mc",q:"Which modal verb needs 'te' before the infinitive?",opts:["willen","kunnen","hoeven","moeten"],ans:"hoeven",hint:"Je hoeft niet TE betalen"},
+         {type:"mc",q:"'Afspraak is afspraak' reflects the Dutch value of:",opts:["gezelligheid","punctuality and keeping commitments","being direct","cycling culture"],ans:"punctuality and keeping commitments",hint:"A deal is a deal"},
+         {type:"fb",s:"Hij ___ elke dag om zeven uur beginnen.",a:"moet",opts:["moet","mag","hoeft","wilt"],hint:"He HAS TO start every day at seven"},
+         {type:"tr",mk:"u4_must_work",dir:"produce"},
+         {type:"tr",mk:"u4_dont_have_to_pay",dir:"produce"},
+       ]},
+       {id:"v2u4l5",title:"Mijn Koffie, Jouw Broodje",icon:"☕",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Koffie, Jouw Broodje",desc:"You've been ordering food but you can't say 'my coffee' or 'your sandwich' yet. Time to fix that. Dutch possessives are straightforward  -  and surprisingly close to English.",goals:["5 possessive pronouns (mijn, jouw, zijn, haar, uw)","Stressed vs unstressed forms","Use possessives with food and drink","Say whose order is whose"]},
+
+         {type:"teach",kind:"word",nl:"mijn",en:"my",phonetic:"mayn",cognate:{words:[{lang:"English",word:"mine"},{lang:"German",word:"mein"}],family:"germanic"},example:"Mijn koffie is koud.",exampleEn:"My coffee is cold.",note:"Sounds like English 'mine'.\nUnstressed form: 'm'n' (very common in speech).\nWritten: mijn. Spoken: often m'n."},
+         {type:"teach",kind:"word",nl:"jouw",en:"your (informal)",phonetic:"yow",example:"Jouw boterham is lekker.",exampleEn:"Your sandwich is tasty.",note:"From 'jij' → jouw (possessive).\nUnstressed form: 'je' (same as the pronoun!).\nContext makes it clear: 'je koffie' = your coffee."},
+         {type:"teach",kind:"word",nl:"zijn",en:"his / its",phonetic:"zayn",example:"Zijn brood is oud.",exampleEn:"His bread is old.",note:"Yes  -  same word as 'zijn' (to be)!\n'Hij is groot.' = He is big. (verb)\n'Zijn huis is groot.' = His house is big. (possessive)\nContext always makes it clear."},
+         {type:"teach",kind:"word",nl:"haar",en:"her",phonetic:"hahr",also:"also means 'hair' (het haar)",example:"Haar thee is warm.",exampleEn:"Her tea is warm.",note:"Same word as 'haar' (hair).\nAnother case of Dutch polysemy.\n'Haar haar is lang.' = Her hair is long. (really!)"},
+
+         {type:"tip",title:"📋 All Possessives",text:"mijn = my (unstressed: m'n)\njouw = your informal (unstressed: je)\nzijn = his / its (unstressed: z'n)\nhaar = her\nuw = your formal\nons / onze = our\njullie = your (plural)\nhun = their\n\nFor now, focus on the first four: mijn, jouw, zijn, haar.\nYou'll use these 95% of the time.\nOns/jullie/hun come in Unit 5.",deepDive:{title:"Stressed vs unstressed",text:"In casual Dutch speech, possessives often shorten:\n\nmijn → m'n (mun)\njouw → je (yuh)\nzijn → z'n (zun)\n\nWritten Dutch: Mijn koffie is koud.\nSpoken Dutch: M'n koffie is koud.\n\nBoth are correct. In formal writing, use the full form.\nIn speech, the short forms are more natural.\n\nYou'll hear 'je' a lot  -  it can mean:\n1. you (pronoun): 'Je bent groot.' = You are big.\n2. your (possessive): 'Je koffie is koud.' = Your coffee is cold.\nContext always tells you which one."}},
+
+         {type:"teach",kind:"word",nl:"uw",en:"your (formal)",phonetic:"uw",example:"Uw koffie, meneer.",exampleEn:"Your coffee, sir.",note:"Formal 'your'. Used with 'u'.\nHear it in restaurants and shops:\n'Uw bestelling?' = Your order?"},
+         {type:"teach",kind:"phrase",nl:"de rekening",en:"the bill / the check",phonetic:"duh RAY-kuh-ning",cognate:{words:[{lang:"German",word:"Rechnung"},{lang:"English",word:"reckoning"}],family:"germanic"},example:"Mag ik de rekening?",exampleEn:"May I have the bill?",note:"De-word. You'll need this in every restaurant.\n'De rekening, alsjeblieft.' = The bill, please.\nCognate of English 'reckoning' (counting up)."},
+
+         {type:"tip",title:"☕ Whose Order Is This?",text:"At a café, the server brings drinks:\n\nUw koffie, mevrouw. = Your coffee, madam.\nUw thee, meneer. = Your tea, sir.\n\nAt your table with friends:\nDit is mijn koffie. = This is my coffee.\nDat is jouw broodje. = That is your sandwich.\nZijn glas is leeg. = His glass is empty.\nHaar thee is koud. = Her tea is cold.\n\nAsking for the bill:\nMag ik de rekening? = May I have the bill?\nDe rekening, alsjeblieft. = The bill, please.\n\n🇳🇱 Dutch custom: splitting the bill ('going Dutch')\nis genuinely common in the Netherlands!"},
+
+         {type:"mc",q:"'Mijn koffie is koud.' means:",opts:["My coffee is cold.","Your coffee is cold.","His coffee is cold.","The coffee is cold."],ans:"My coffee is cold.",hint:"mijn = my"},
+         {type:"fb",s:"___ broodje is lekker. (your, informal)",a:"Jouw",opts:["Jouw","Mijn","Zijn","Haar"],hint:"Your (informal) = ?"},
+         {type:"mc",q:"The word 'zijn' can mean:",opts:["only 'to be'","only 'his'","both 'to be' and 'his'","'she' and 'her'"],ans:"both 'to be' and 'his'",hint:"Context tells you which"},
+         {type:"match",pairs:[{nl:"mijn",en:"my"},{nl:"jouw",en:"your (informal)"},{nl:"zijn",en:"his"},{nl:"haar",en:"her"}]},
+         {type:"fb",s:"___ thee is warm. (her)",a:"Haar",opts:["Haar","Zijn","Mijn","Jouw"],hint:"Her tea..."},
+         {type:"drag_fill",s:"Dit is {1} koffie. Dat is {2} broodje.",blanks:{"1":"mijn","2":"jouw"},pool:["mijn","jouw","de","het"],hint:"This is MY coffee. That is YOUR sandwich."},
+         {type:"mc",q:"In a restaurant, the formal 'your' is:",opts:["jouw","mijn","uw","hun"],ans:"uw",hint:"Used with 'u' and 'meneer/mevrouw'"},
+         {type:"fb",s:"Mag ik de ___?",a:"rekening",opts:["rekening","koffie","boterham","kaas"],hint:"The bill, please"},
+         {type:"mc",q:"'Haar haar is lang' means:",opts:["Her hair is long.","His hair is long.","Her house is long.","Their hair is long."],ans:"Her hair is long.",hint:"haar = her AND hair"},
+         {type:"drag_fill",s:"{1} glas is leeg. {2} koffie is koud.",blanks:{"1":"Zijn","2":"Mijn"},pool:["Zijn","Mijn","De","Het"],hint:"HIS glass is empty. MY coffee is cold."},
+         {type:"tr",mk:"u4_my_coffee_cold",dir:"produce"},
+         {type:"tr",mk:"u4_may_have_bill",dir:"produce"},
+       ]},
+       {id:"v2u4l6",title:"Twee Broodjes, Drie Biertjes",icon:"🍰",xp:20,board:true,steps:[
+         {type:"intro",title:"Twee Broodjes, Drie Biertjes",desc:"Two systems that food makes real: plurals (-en and -s) and diminutives (-je and friends). In Dutch, 'een biertje' isn't just a small beer  -  it's a FRIENDLY beer. Diminutives change the social temperature of a word.",goals:["Plural rules: when -en, when -s","Diminutive system: -je, -tje, -pje, -etje","Why diminutives matter culturally","Order multiple items fluently"]},
+
+         {type:"tip",title:"📦 Two Ways to Make Plurals",text:"Remember the open/closed syllable rules from Foundations?\nThey're about to matter again. Spelling changes kick in with -en plurals.\n\nDutch has two plural endings:\n\n-EN (the default  -  most nouns)\nbrood → broden = breads\nboterham → boterhammen = sandwiches\nei → eieren = eggs (irregular)\n\n-S (for words ending in -el, -em, -en, -er, -je)\ntafel → tafels = tables\nappel → appels = apples\nbroodje → broodjes = little breads\n\nRule of thumb:\nIf it ends in an unstressed syllable (-el, -em, -en, -er): add -s.\nOtherwise: add -en.\n\n⚠️ Spelling changes with -en: one vowel may drop (brood → broden)\nor a consonant may double (boterham → boterhammen) to keep the\nvowel sound correct. Same rules you learned in the Foundations Playthrough.",fRef:"nl_spe_2"},
+
+         {type:"teach",kind:"word",nl:"broden",en:"breads / loaves",phonetic:"BROH-dun",example:"Twee broden, alsjeblieft.",exampleEn:"Two loaves, please.",note:"brood → broden. The 'oo' becomes 'o'.\nWhy? 'bro-den' = open syllable → long vowel.\nOne 'o' is enough. (Foundations: vowel dropping!)",fRef:"nl_spe_1"},
+         {type:"teach",kind:"word",nl:"boterhammen",en:"sandwiches",phonetic:"BOH-tur-ham-mun",example:"Drie boterhammen met kaas.",exampleEn:"Three sandwiches with cheese.",note:"boterham → boterhammen.\nThe 'm' doubles! Why?\n'ham' + en → 'ha-men' would make 'a' long.\nDouble 'm' keeps the 'a' short.",fRef:"nl_spe_1"},
+
+         {type:"tip",title:"⚙️ Spelling Changes in Plurals",text:"When adding -en, the Foundations spelling rules kick in:\n\nVOWEL DROPPING (long vowel, open syllable → drop one letter):\nbrood → bro-den (not 'brooden')  -  one 'o' is enough\nkaas → ka-zen (not 'kaazen')  -  one 'a' is enough\n\nCONSONANT DOUBLING (short vowel needs protection):\nboterham → boterhám-men (double 'm' keeps 'a' short)\nglas → glá-zen (irregular: s → z, see below)\n\nVOICING (s → z, f → v in plurals):\nglas → glazen (s → z between vowels)\nhuis → huizen (s → z)\n\nThese are the SAME rules from Foundations Playthrough.\nIf you did the Playthrough, you already know this system!",fRef:"nl_spe_2"},
+
+         {type:"teach",kind:"phrase",nl:"de appel",en:"the apple",phonetic:"duh AP-pul",cognate:{words:[{lang:"English",word:"apple"},{lang:"German",word:"Apfel"}],family:"germanic"},example:"Ik eet een appel.",exampleEn:"I eat an apple.",note:"De-word. Plural: appels (-s, because it ends in -el).\nIdentical cognate across all Germanic languages."},
+         {type:"teach",kind:"grammar",nl:"appels",en:"apples",phonetic:"AP-pulz",example:"Drie appels, alsjeblieft.",exampleEn:"Three apples, please.",note:"Simple -s plural. Words ending in -el, -em, -en, -er\nget -s instead of -en. Easy."},
+
+         {type:"tip",title:"🍰 Enter the Diminutive: -je",text:"The diminutive is the SOUL of Dutch.\n\nAdd '-je' to make something small:\nbrood → broodje = small bread / roll\nbier → biertje = small beer\nkop → kopje = small cup\n\nBut here's the secret: diminutives aren't just about SIZE.\nThey change the FEELING:\n\n'Een bier' = a beer. (neutral, factual)\n'Een biertje' = a beer. (friendly, casual, cosy)\n\n'Een moment' = a moment. (formal)\n'Een momentje' = a moment. (friendly, 'just a sec')\n\nThe Dutch use diminutives CONSTANTLY.\nThey make everything warmer, softer, more gezellig.\n\n⚠️ ALL diminutives are het-words!\nde kop → het kopje\nde hond → het hondje\nde kat → het katje"},
+
+         {type:"teach",kind:"phrase",nl:"het broodje",en:"the bread roll / small bread",phonetic:"hut BROHT-yuh",example:"Een broodje kaas, alsjeblieft.",exampleEn:"A cheese roll, please.",note:"brood + je = broodje.\nHet-word (all diminutives are het!).\n'Een broodje kaas' = the classic Dutch lunch order."},
+         {type:"teach",kind:"phrase",nl:"het biertje",en:"the beer (casual/friendly)",phonetic:"hut BEER-tyuh",example:"Wil je een biertje?",exampleEn:"Want a beer?",note:"bier + tje = biertje.\nWhy -tje and not just -je? After a long vowel + r,\nyou need -tje. More rules below."},
+         {type:"teach",kind:"phrase",nl:"het taartje",en:"the small cake / pastry",phonetic:"hut TAHRT-yuh",example:"Een taartje bij de koffie.",exampleEn:"A pastry with the coffee.",note:"taart + je = taartje.\nDutch cafés always offer 'iets erbij?' (something with it?)\nmeaning: a cake or pastry with your coffee."},
+
+         {type:"tip",title:"📐 Diminutive Spelling Rules",text:"The base rule: add -je.\nBut Dutch pronunciation demands adjustments:\n\n-JE: after most consonants\nbrood → broodje, huis → huisje, boek → boekje\n\n-TJE: after long vowel/diphthong + l, n, r\nbier → biertje, stoel → stoeltje, deur → deurtje\n\n-PJE: after long vowel/diphthong + m\nboom → boompje (tree → little tree)\n\n-ETJE: after words ending in unstressed -el, -em, -en, -er\nappel → appeltje, tafel → tafeltje\n\n-KJE: after -ing\nkoning → koninkje (king → little king)\n\nDon't memorize all rules now. The pattern:\nthe suffix adapts so it SOUNDS natural.\nYou'll develop an ear for it."},
+
+         {type:"mc",q:"What happens to ALL diminutives?",opts:["They become de-words","They become het-words","They lose their article","They stay the same gender"],ans:"They become het-words",hint:"de kop → het kopje"},
+         {type:"fb",s:"Twee ___, alsjeblieft. (bread rolls)",a:"broodjes",opts:["broodjes","broden","broodje","brood"],hint:"Diminutive plural: -je + s"},
+         {type:"mc",q:"'Een biertje' vs 'een bier'  -  what's the real difference?",opts:["Size only  -  biertje is smaller","Biertje sounds friendlier and more casual","Biertje is more expensive","No difference at all"],ans:"Biertje sounds friendlier and more casual",hint:"The diminutive changes the social feeling"},
+         {type:"match",pairs:[{nl:"broodje",en:"bread roll"},{nl:"biertje",en:"beer (casual)"},{nl:"kopje",en:"small cup"},{nl:"taartje",en:"pastry"}]},
+         {type:"drag_fill",s:"Drie {1} kaas. Twee {2}, alsjeblieft.",blanks:{"1":"broodjes","2":"biertjes"},pool:["broodjes","biertjes","broden","bieren"],hint:"Three cheese rolls. Two beers (casual)."},
+         {type:"fb",s:"Kaas → ka___. (plural)",a:"zen",opts:["zen","sen","en","ssen"],hint:"s → z between vowels"},
+         {type:"mc",q:"Why is the plural of 'brood' written 'broden' (not 'brooden')?",opts:["It's irregular","Open syllable: one 'o' = long vowel already","The 'oo' always drops","Dutch hates double vowels"],ans:"Open syllable: one 'o' = long vowel already",hint:"Foundations spelling rule!"},
+         {type:"mc",q:"Words ending in -el, -em, -en, -er get which plural?",opts:["-en","-s","-je","-zen"],ans:"-s",hint:"appel → appels, tafel → tafels"},
+         {type:"fb",s:"Wil je een ___ koffie? (small cup)",a:"kopje",opts:["kopje","kop","koppen","kopjes"],hint:"Diminutive of kop"},
+         {type:"tr",mk:"u4_cheese_roll",dir:"produce"},
+         {type:"tr",mk:"u4_three_apples",dir:"produce"},
+       ]},
+       {id:"v2u4l7",title:"Op de Markt",icon:"💰",xp:15,board:true,steps:[
+         {type:"intro",title:"Op de Markt",desc:"You know numbers from Unit 3. Now use them to BUY things. This lesson teaches euro amounts, how to ask prices, and shopping vocabulary  -  all set at a Dutch street market.",goals:["Ask 'how much does it cost?'","Understand euro amounts","Shopping vocabulary","Market culture"]},
+
+         {type:"teach",kind:"word",nl:"kosten",en:"to cost",phonetic:"KOS-tun",cognate:{words:[{lang:"English",word:"cost"},{lang:"German",word:"kosten"}],family:"germanic"},example:"Hoeveel kost dat?",exampleEn:"How much does that cost?",note:"Regular verb. Stam = kost.\n'Hoeveel kost...?' = How much does... cost?\nThe #1 shopping question."},
+         {type:"teach",kind:"word",nl:"hoeveel",en:"how much / how many",phonetic:"hoo-VALE",example:"Hoeveel kost een broodje?",exampleEn:"How much does a bread roll cost?",note:"Hoe + veel = how + much.\nYou already know both words!\n'Hoeveel?' works for price AND quantity."},
+         {type:"teach",kind:"phrase",nl:"de euro",en:"the euro",phonetic:"duh UH-roh",example:"Dat is drie euro.",exampleEn:"That is three euros.",note:"De-word. No plural change!\n'Één euro, twee euro, drie euro.'\nDutch does NOT say 'euros'  -  just 'euro'."},
+         {type:"teach",kind:"phrase",nl:"de cent",en:"the cent",phonetic:"duh sent",cognate:{words:[{lang:"English",word:"cent"},{lang:"German",word:"Cent"}],family:"international"},example:"Vijftig cent, alsjeblieft.",exampleEn:"Fifty cents, please.",note:"De-word. Same as English.\nPlural: no change  -  'vijftig cent', not 'centen'.\nPrices: 'drie euro vijftig' = €3.50."},
+
+         {type:"tip",title:"💰 Saying Prices in Dutch",text:"Dutch price format: [euros] euro [cents]\n\n€1.00 = één euro\n€2.50 = twee euro vijftig (= twee vijftig)\n€3.75 = drie euro vijfenzeventig\n€0.50 = vijftig cent\n€10.99 = tien euro negenennegentig\n\nShort form (very common):\n€2.50 = twee vijftig\n€3.75 = drie vijfenzeventig\n\nYou can drop 'euro' in casual speech.\nJust say the numbers: 'Dat is twee vijftig.'"},
+
+         {type:"teach",kind:"word",nl:"kopen",en:"to buy",phonetic:"KOH-pun",cognate:{words:[{lang:"English",word:"cheap (related: to cope)"},{lang:"German",word:"kaufen"}],family:"germanic"},example:"Ik wil kaas kopen.",exampleEn:"I want to buy cheese.",note:"Regular verb. Stam = koop.\nkopen + modal: 'Ik wil brood kopen.'\nGerman cognate: kaufen."},
+         {type:"teach",kind:"word",nl:"verkopen",en:"to sell",phonetic:"fur-KOH-pun",example:"Zij verkoopt vis.",exampleEn:"She sells fish.",note:"ver- + kopen = sell.\n'ver-' reverses the meaning here.\nkopen = buy, verkopen = sell."},
+         {type:"teach",kind:"phrase",nl:"de winkel",en:"the shop / store",phonetic:"duh VING-kul",example:"De winkel is open.",exampleEn:"The shop is open.",note:"De-word. Plural: winkels.\n'Winkelen' = to shop (verb form)."},
+         {type:"teach",kind:"phrase",nl:"de markt",en:"the market",phonetic:"duh markt",cognate:{words:[{lang:"English",word:"market"},{lang:"German",word:"Markt"}],family:"germanic"},example:"Op zaterdag ga ik naar de markt.",exampleEn:"On Saturday I go to the market.",note:"De-word. Identical cognate.\nEvery Dutch city has a weekly markt.\nAmsterdam: Albert Cuyp. Rotterdam: Blaak."},
+         {type:"teach",kind:"word",nl:"goedkoop",en:"cheap / inexpensive",phonetic:"GOOT-kohp",example:"Kaas is goedkoop op de markt.",exampleEn:"Cheese is cheap at the market.",note:"goed (good) + koop (buy) = 'good buy'.\nLiterally: a good purchase!\nOpposite: duur (expensive)."},
+         {type:"teach",kind:"word",nl:"duur",en:"expensive",phonetic:"duwr",cognate:{words:[{lang:"English",word:"dear (costly)"},{lang:"German",word:"teuer"}],family:"germanic"},example:"Amsterdam is duur.",exampleEn:"Amsterdam is expensive.",note:"Cognate of English 'dear' (as in 'costly').\nThe Dutch complain about prices constantly.\n'Dat is te duur!' = That's too expensive!"},
+
+         {type:"tip",title:"🇳🇱 De Markt: Dutch Market Culture",text:"Every Dutch town has a weekly market.\n\nAmsterdam: Albert Cuypmarkt (every day!)\nRotterdam: Markthal + Blaak\nUtrecht: Bloemenmarkt\n\nWhat you find: verse groenten (fresh vegetables),\nkaas, vis (fish), bloemen (flowers), kleding (clothing).\n\nAt the market, you'll hear:\n'Zegt u het maar!' = Go ahead, tell me! (= What would you like?)\n'Drie euro het kilo.' = Three euros per kilo.\n'Anders nog iets?' = Anything else?\n\nThe Dutch reputation for being careful with money?\nThe market is where you see it in action.\n'Dat is te duur' is not rude  -  it's negotiation."},
+
+         {type:"mc",q:"'Hoeveel kost dat?' means:",opts:["How much does that weigh?","How much does that cost?","How many do you want?","How expensive is that?"],ans:"How much does that cost?",hint:"hoeveel = how much, kost = costs"},
+         {type:"fb",s:"Dat is drie euro ___. (= €3.50)",a:"vijftig",opts:["vijftig","vijf","vijftien","vijfentwintig"],hint:"Three euros and fifty cents"},
+         {type:"mc",q:"The Dutch plural of 'euro' is:",opts:["euros","euro's","euro","euren"],ans:"euro",hint:"No change! Twee euro."},
+         {type:"match",pairs:[{nl:"kopen",en:"to buy"},{nl:"verkopen",en:"to sell"},{nl:"goedkoop",en:"cheap"},{nl:"duur",en:"expensive"}]},
+         {type:"drag_fill",s:"{1} kost een broodje? Twee euro {2}.",blanks:{"1":"Hoeveel","2":"vijftig"},pool:["Hoeveel","vijftig","Wat","vijf"],hint:"How much does a roll cost? €2.50"},
+         {type:"fb",s:"Ik wil kaas ___.",a:"kopen",opts:["kopen","koop","koopt","kosten"],hint:"Modal + infinitive at the end"},
+         {type:"mc",q:"'Goedkoop' literally means:",opts:["good buy","not expensive","low price","cheap stuff"],ans:"good buy",hint:"goed + koop = good + buy"},
+         {type:"mc",q:"'Dat is te duur!' expresses:",opts:["satisfaction","surprise","complaint about the price","a compliment"],ans:"complaint about the price",hint:"te duur = too expensive"},
+         {type:"tr",mk:"u4_how_much_cost",dir:"produce"},
+         {type:"tr",mk:"u4_cheese_cheap_market",dir:"produce"},
+       ]},
+       {id:"v2u4l8",title:"Borrel! — Unit 4 Review",icon:"🍻",xp:20,board:true,steps:[
+         {type:"intro",title:"Borrel!  -  Unit 4 Review",desc:"It's Friday afternoon. Time for the vrijdagmiddagborrel  -  the most Dutch social ritual there is. This review pulls together everything from Unit 4: ordering, modals, possessives, plurals, diminutives, and prices. All set at a borrel.",goals:["All 4 modal verbs in context","Possessives in social settings","Order food and drinks fluently","Dutch borrel culture"]},
+
+         {type:"tip",title:"🇳🇱 De Borrel: Dutch Social Glue",text:"A borrel is an informal drinks gathering.\n\nThe vrijmibo (vrijdagmiddagborrel) = Friday afternoon drinks.\nThis is where Dutch colleagues become friends.\n\nWhat's at a borrel:\n• biertjes (beers  -  always diminutive, always casual)\n• wijn (wine)\n• bitterballen (deep-fried meat ragout balls  -  THE borrel snack)\n• kaasblokjes (little cheese cubes)\n• nootjes (nuts  -  another diminutive!)\n\nThe word 'borrel' itself means 'a drink' (informal).\n'Een borrel doen' = to have drinks.\n'Borrelen' = to socialise over drinks.\n\nProost! = Cheers! (always look people in the eye)"},
+
+         {type:"mc",q:"'Ik wil graag een biertje.'  -  this sentence uses:",opts:["a modal + a diminutive","a possessive + a plural","an imperative","a question word"],ans:"a modal + a diminutive",hint:"willen + biertje"},
+         {type:"fb",s:"___ ik hier zitten?",a:"Mag",opts:["Mag","Kan","Wil","Moet"],hint:"Asking PERMISSION to sit"},
+         {type:"mc",q:"'Hoeveel kosten drie bitterballen?'  -  'kosten' is plural because:",opts:["it's formal","the subject is plural (drie bitterballen)","it always ends in -en","it's a modal verb"],ans:"the subject is plural (drie bitterballen)",hint:"drie bitterballen = they cost"},
+         {type:"match",pairs:[{nl:"willen",en:"to want"},{nl:"kunnen",en:"can (ability)"},{nl:"mogen",en:"may (permission)"},{nl:"moeten",en:"must (obligation)"}]},
+
+         {type:"drag_fill",s:"{1} koffie is koud. {2} biertje is lekker!",blanks:{"1":"Mijn","2":"Jouw"},pool:["Mijn","Jouw","De","Het"],hint:"MY coffee is cold. YOUR beer is tasty!"},
+         {type:"fb",s:"Wij ___ niet te betalen  -  het is gratis!",a:"hoeven",opts:["hoeven","moeten","mogen","kunnen"],hint:"We don't HAVE TO pay  -  it's free!"},
+         {type:"mc",q:"All diminutives become:",opts:["de-words","het-words","plural","masculine"],ans:"het-words",hint:"de kop → het kopje, always"},
+
+         {type:"mc",q:"'Twee broodjes kaas en drie biertjes.'  -  how many items total?",opts:["2","3","5","6"],ans:"5",hint:"2 rolls + 3 beers"},
+         {type:"fb",s:"Hoeveel ___ dat?",a:"kost",opts:["kost","kosten","kostt","koste"],hint:"How much does THAT cost? (singular)"},
+         {type:"drag_fill",s:"Hij {1} altijd bier drinken. Zij {2} niet roken hier.",blanks:{"1":"wil","2":"mag"},pool:["wil","mag","moet","kan"],hint:"He WANTS to drink beer. She MAY NOT smoke."},
+
+         {type:"mc",q:"The plural of 'appel' is:",opts:["appelen","appels","appelen","äppel"],ans:"appels",hint:"-el ending → -s plural"},
+         {type:"fb",s:"___ euro vijftig, alsjeblieft. (= €3.50)",a:"Drie",opts:["Drie","Dertien","Dertig","Driehonderd"],hint:"Three euros fifty"},
+         {type:"mc",q:"At a borrel, 'Proost!' means:",opts:["Please","Thank you","Cheers!","Goodbye"],ans:"Cheers!",hint:"Raise your glass!"},
+         {type:"match",pairs:[{nl:"goedkoop",en:"cheap"},{nl:"duur",en:"expensive"},{nl:"de rekening",en:"the bill"},{nl:"de markt",en:"the market"}]},
+
+         {type:"fb",s:"Kan ik hier ___?",a:"betalen",opts:["betalen","betaalt","betaal","kopen"],hint:"Can I PAY here?"},
+         {type:"mc",q:"'Je moet op tijd komen' reflects the Dutch value of:",opts:["gezelligheid","punctuality","directness","thriftiness"],ans:"punctuality",hint:"Afspraak is afspraak!"},
+         {type:"drag_fill",s:"Ik wil graag een {1} koffie en twee {2}.",blanks:{"1":"kopje","2":"broodjes"},pool:["kopje","broodjes","glas","broden"],hint:"A cup of coffee and two bread rolls"},
+         {type:"tr",mk:"u4_want_coffee",dir:"produce"},
+         {type:"tr",mk:"u4_how_much_cost",dir:"produce"},
+         {type:"tr",mk:"u4_may_sit_here",dir:"produce"},
+       ]},
+  ]},
+
+  {n:5,lang:"nl",track:"v2",title:"Mijn Familie & Thuis",sub:"Reflexives, Adjectives & Home",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#E74A8F",lessons:[
+       {id:"v2u5l1",title:"Mijn Familie",icon:"👨‍👩‍👧‍👦",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Familie",desc:"Welcome to Unit 5: family and home. You already know mijn/jouw/zijn/haar from Unit 4. Now we add the full family vocabulary and expand your possessive toolkit. By the end of this unit, you'll be able to talk about your people, your house, and your daily life.",goals:["10 family member words","Review and lock in possessives","Describe your family","Dutch family culture"]},
+
+         {type:"teach",kind:"phrase",nl:"de familie",en:"the family",phonetic:"duh fah-MEE-lee",cognate:{words:[{lang:"English",word:"family"},{lang:"French",word:"famille"},{lang:"German",word:"Familie"}],family:"international"},example:"Mijn familie is groot.",exampleEn:"My family is big.",note:"De-word. International cognate  -  same in almost every European language."},
+         {type:"teach",kind:"phrase",nl:"de vader",en:"the father",phonetic:"duh VAH-dur",cognate:{words:[{lang:"English",word:"father"},{lang:"German",word:"Vater"}],family:"germanic"},example:"Mijn vader werkt in Amsterdam.",exampleEn:"My father works in Amsterdam.",note:"De-word. Dutch v = English f  -  a regular sound shift.\nvader/father, vis/fish, vinden/find, vol/full, vier/four.\nThis is one of the most useful patterns in Dutch:\nwhen you see 'v-' in Dutch, try 'f-' in English.\nInformal: papa."},
+         {type:"teach",kind:"phrase",nl:"de moeder",en:"the mother",phonetic:"duh MOO-dur",cognate:{words:[{lang:"English",word:"mother"},{lang:"German",word:"Mutter"}],family:"germanic"},example:"Haar moeder woont in Utrecht.",exampleEn:"Her mother lives in Utrecht.",note:"De-word. Same Germanic root as English/German.\nInformal: mama."},
+         {type:"teach",kind:"phrase",nl:"de broer",en:"the brother",phonetic:"duh broor",cognate:{words:[{lang:"English",word:"brother"},{lang:"German",word:"Bruder"}],family:"germanic"},example:"Mijn broer is veertien.",exampleEn:"My brother is fourteen.",note:"De-word. Plural: broers.\nSame root as English 'brother'."},
+         {type:"teach",kind:"phrase",nl:"de zus",en:"the sister",phonetic:"duh zus",cognate:{words:[{lang:"English",word:"sister"},{lang:"German",word:"Schwester"}],family:"germanic"},example:"Zijn zus woont in Rotterdam.",exampleEn:"His sister lives in Rotterdam.",note:"De-word. Plural: zussen.\nAlso: 'de zuster' (more formal/literary)."},
+
+         {type:"teach",kind:"grammar",nl:"het kind",en:"the child",phonetic:"hut kint",cognate:{words:[{lang:"English",word:"kind (Old English: child)"},{lang:"German",word:"Kind"}],family:"germanic"},also:"⚠️ False friend: Dutch 'kind' = child, NOT English 'kind' (= aardig)",example:"Het kind is drie jaar oud.",exampleEn:"The child is three years old.",note:"Het-word. Plural: kinderen (irregular).\nFalse friend! English 'kind' = Dutch 'aardig'.\nBut in Old English, 'kind' DID mean 'child'  -  same word.\nYou can still see it in English 'kindergarten' (children's garden)\nand 'humankind' (the human child/offspring → humanity).\nEnglish shifted the meaning; Dutch and German kept it."},
+         {type:"teach",kind:"phrase",nl:"de zoon",en:"the son",phonetic:"duh zohn",cognate:{words:[{lang:"English",word:"son"},{lang:"German",word:"Sohn"}],family:"germanic"},example:"Onze zoon heet Thomas.",exampleEn:"Our son is called Thomas.",note:"De-word. Plural: zonen.\nSame root as English 'son' and German 'Sohn'."},
+         {type:"teach",kind:"phrase",nl:"de dochter",en:"the daughter",phonetic:"duh DOG-tur",cognate:{words:[{lang:"English",word:"daughter"},{lang:"German",word:"Tochter"}],family:"germanic"},example:"Haar dochter is twaalf.",exampleEn:"Her daughter is twelve.",note:"De-word. Plural: dochters.\nThe 'ch' is the Dutch throat sound.\nSame root as English 'daughter'."},
+         {type:"teach",kind:"phrase",nl:"de opa",en:"the grandfather / grandpa",phonetic:"duh OH-pah",cognate:{words:[{lang:"German",word:"Opa"}],family:"germanic"},example:"Mijn opa is tachtig jaar oud.",exampleEn:"My grandfather is eighty years old.",note:"De-word. Informal and universal.\nFormal: de grootvader. Nobody says that."},
+         {type:"teach",kind:"phrase",nl:"de oma",en:"the grandmother / grandma",phonetic:"duh OH-mah",cognate:{words:[{lang:"German",word:"Oma"}],family:"germanic"},example:"Mijn oma woont in Groningen.",exampleEn:"My grandma lives in Groningen.",note:"De-word. Same as German.\nFormal: de grootmoeder. Rarely used."},
+
+         {type:"tip",title:"👨‍👩‍👧‍👦 Family Vocabulary Overview",text:"de vader / papa = father / dad\nde moeder / mama = mother / mum\nde broer = brother\nde zus = sister\nde zoon = son\nde dochter = daughter\nhet kind = child (plural: kinderen)\nde opa = grandpa\nde oma = grandma\nde man = husband (also: man)\nde vrouw = wife (also: woman)\n\nNotice: almost ALL family words are de-words.\nException: het kind (het-word).\nYou already know 'man' and 'vrouw' from Unit 1!"},
+
+         {type:"teach",kind:"word",nl:"getrouwd",en:"married",phonetic:"guh-TROUT",cognate:{words:[{lang:"English",word:"betrothed"},{lang:"German",word:"getraut"}],family:"germanic"},example:"Mijn ouders zijn getrouwd.",exampleEn:"My parents are married.",note:"Past participle of 'trouwen' (to marry).\nShares a root with English 'betrothed' and 'troth.'\n'To plight one's troth' = to pledge one's faithfulness.\nEnglish 'troth' became rare, surviving mainly in wedding\nvows. Dutch kept it as the everyday word for marriage.\n'Getrouwd met' = married to."},
+         {type:"teach",kind:"phrase",nl:"de ouders",en:"the parents",phonetic:"duh OW-durs",cognate:{words:[{lang:"English",word:"old (elders)"},{lang:"German",word:"Eltern"}],family:"germanic"},example:"Mijn ouders wonen in Den Haag.",exampleEn:"My parents live in The Hague.",note:"Literally: 'the olds' (from 'oud' = old).\nAlways plural: ouders.\nSame logic as English 'elders'."},
+
+         {type:"tip",title:"🇳🇱 Dutch Family Culture",text:"Dutch families are typically smaller than in many countries.\nOne or two children is standard.\n\nThe Dutch value independence  -  children are raised to be\n'zelfstandig' (self-reliant) from a young age.\n\n'Doe maar normaal, dan doe je al gek genoeg.'\n= Just be normal, that's crazy enough.\nThis is THE Dutch parenting motto.\nDon't show off. Don't be dramatic. Just be normal.\n\nFamilies often live close but not together.\nSunday lunch at opa and oma's is a common tradition.\n'Op bezoek bij opa en oma' = Visiting grandpa and grandma."},
+
+         {type:"mc",q:"The Dutch word 'kind' means:",opts:["kind (nice)","child","king","friend"],ans:"child",hint:"False friend! English 'kind' = Dutch 'aardig'"},
+         {type:"fb",s:"Mijn ___ woont in Amsterdam. (father)",a:"vader",opts:["vader","moeder","broer","zus"],hint:"Father"},
+         {type:"match",pairs:[{nl:"de broer",en:"brother"},{nl:"de zus",en:"sister"},{nl:"de zoon",en:"son"},{nl:"de dochter",en:"daughter"}]},
+         {type:"mc",q:"Which is the ONLY het-word in the family?",opts:["vader","kind","moeder","zoon"],ans:"kind",hint:"Children are special in Dutch grammar too"},
+         {type:"fb",s:"___ ouders wonen in Rotterdam. (his)",a:"Zijn",opts:["Zijn","Haar","Mijn","Jouw"],hint:"His parents..."},
+         {type:"drag_fill",s:"{1} moeder is lerares. {2} vader werkt in Utrecht.",blanks:{"1":"Haar","2":"Mijn"},pool:["Haar","Mijn","De","Het"],hint:"HER mother is a teacher. MY father works in Utrecht."},
+         {type:"mc",q:"The plural of 'kind' is:",opts:["kinds","kinden","kinderen","kindes"],ans:"kinderen",hint:"Irregular plural  -  just memorize it"},
+         {type:"fb",s:"Mijn opa en oma ___ in Groningen.",a:"wonen",opts:["wonen","woont","woon","woond"],hint:"They live = plural form"},
+         {type:"mc",q:"'Doe maar normaal' reflects the Dutch value of:",opts:["ambition","modesty and normalcy","family first","hard work"],ans:"modesty and normalcy",hint:"Don't show off, just be normal"},
+         {type:"tr",mk:"u5_my_family_big",dir:"produce"},
+         {type:"tr",mk:"u5_brother_fourteen",dir:"produce"},
+       ]},
+       {id:"v2u5l2",title:"Ons Huis",icon:"🏠",xp:15,board:true,steps:[
+         {type:"intro",title:"Ons Huis",desc:"Time to complete the possessives. You know mijn/jouw/zijn/haar/uw from Unit 4. Now: ons/onze (our), jullie (your plural), and hun (their). Plus the rooms and objects that make a Dutch house a Dutch house.",goals:["ons vs onze (our)","jullie and hun","6 rooms and household nouns","Describe your house"]},
+
+         {type:"teach",kind:"word",nl:"ons",en:"our (with het-words)",phonetic:"ons",example:"Ons huis is klein.",exampleEn:"Our house is small.",note:"'Our' has TWO forms in Dutch!\n'Ons' for het-words: ons huis, ons kind.\n'Onze' for de-words: onze vader, onze kat.\nThis is the only possessive that changes."},
+         {type:"teach",kind:"word",nl:"onze",en:"our (with de-words / plurals)",phonetic:"ON-zuh",example:"Onze tuin is groot.",exampleEn:"Our garden is big.",note:"'Onze' for de-words and ALL plurals:\nonze vader, onze kinderen, onze huizen.\n'Ons' ONLY for singular het-words."},
+
+         {type:"tip",title:"📐 Ons vs Onze  -  The Rule",text:"This is the ONLY possessive that changes form:\n\nONS + singular het-word:\nons huis = our house\nons kind = our child\nons glas = our glass\n\nONZE + de-word or plural:\nonze vader = our father\nonze tuin = our garden\nonze kinderen = our children\nonze huizen = our houses\n\nEvery other possessive stays the same:\nmijn huis / mijn vader (no change)\njouw huis / jouw vader (no change)\n\nOnly 'our' splits into ons/onze."},
+
+         {type:"teach",kind:"word",nl:"jullie",en:"your (plural, possessive)",phonetic:"YUH-lee",example:"Jullie huis is mooi.",exampleEn:"Your (plural) house is beautiful.",note:"You already know 'jullie' as a pronoun (you all).\nAs possessive: 'jullie huis' = your house.\nNo change for de/het  -  always 'jullie'."},
+         {type:"teach",kind:"word",nl:"hun",en:"their",phonetic:"hun",cognate:{words:[{lang:"German",word:"ihr (different form)"}],family:"germanic"},example:"Hun kinderen zijn groot.",exampleEn:"Their children are big.",note:"'Hun' = their. No change for de/het.\nHun huis, hun vader, hun kinderen.\nSimple and consistent."},
+
+         {type:"teach",kind:"phrase",nl:"het huis",en:"the house",phonetic:"hut hoys",cognate:{words:[{lang:"English",word:"house"},{lang:"German",word:"Haus"}],family:"germanic"},example:"Ons huis heeft drie kamers.",exampleEn:"Our house has three rooms.",note:"Het-word. So: 'ons huis' (not 'onze').\nPlural: huizen (s → z voicing)."},
+         {type:"teach",kind:"phrase",nl:"de kamer",en:"the room",phonetic:"duh KAH-mur",cognate:{words:[{lang:"English",word:"chamber"},{lang:"German",word:"Kammer"}],family:"germanic"},example:"De kamer is groot.",exampleEn:"The room is big.",note:"De-word. Plural: kamers.\nSlaapkamer = bedroom, woonkamer = living room."},
+         {type:"teach",kind:"phrase",nl:"de keuken",en:"the kitchen",phonetic:"duh KUH-kun",cognate:{words:[{lang:"English",word:"kitchen"},{lang:"German",word:"Küche"}],family:"germanic"},example:"Wij eten in de keuken.",exampleEn:"We eat in the kitchen.",note:"De-word. Same root as English 'kitchen'.\nThe heart of a Dutch home  -  small but functional."},
+         {type:"teach",kind:"phrase",nl:"de tuin",en:"the garden",phonetic:"duh toyn",cognate:{words:[{lang:"English",word:"town (enclosed area)"},{lang:"German",word:"Zaun (fence)"}],family:"germanic"},example:"Onze tuin is klein maar mooi.",exampleEn:"Our garden is small but beautiful.",note:"De-word. So: 'onze tuin' (not 'ons').\nDutch gardens are typically tiny but immaculate."},
+         {type:"teach",kind:"phrase",nl:"de trap",en:"the stairs",phonetic:"duh trap",example:"De trap is steil.",exampleEn:"The stairs are steep.",note:"De-word. Plural: trappen.\nDutch stairs are FAMOUSLY steep  -  nearly vertical.\nMoving a couch? Use the hook on the gable."},
+         {type:"teach",kind:"phrase",nl:"het raam",en:"the window",phonetic:"hut rahm",cognate:{words:[{lang:"German",word:"Rahmen (frame)"}],family:"germanic"},example:"Het raam is groot.",exampleEn:"The window is big.",note:"Het-word. So: 'ons raam'.\nDutch windows are enormous.\nAnd often WITHOUT curtains. On purpose."},
+
+         {type:"tip",title:"🇳🇱 The Dutch House",text:"Dutch houses are... unique.\n\nSteep stairs: nearly vertical, notoriously narrow.\nMoving furniture? Use the hook (hijsbalk) on the roof peak\nand hoist it through the window.\n\nBig windows, NO curtains: the Dutch tradition of open windows\ncomes from Calvinist culture  -  'we have nothing to hide.'\nYou can see straight into people's living rooms. This is normal.\n\nRijtjeshuizen: row houses. The typical Dutch street is a long\nrow of attached houses, each narrow and tall (3-4 floors).\n\nThe tuin is small  -  often just a tiny patch behind the house.\nBut it will be perfect. The Dutch are champion gardeners.\n\n'Gezellig' lives in the woonkamer (living room).\nSmall, warm, filled with candles."},
+
+         {type:"mc",q:"'Ons huis' uses 'ons' because:",opts:["huis is a de-word","huis is a het-word","huis is plural","it's a rule for all possessives"],ans:"huis is a het-word",hint:"ons + het-word, onze + de-word"},
+         {type:"fb",s:"___ tuin is klein. (our)",a:"Onze",opts:["Onze","Ons","Ons'","Onzen"],hint:"Tuin is a de-word → onze"},
+         {type:"mc",q:"Which possessive is the ONLY one with two forms?",opts:["mijn","jouw","ons/onze","hun"],ans:"ons/onze",hint:"Every other possessive stays the same"},
+         {type:"match",pairs:[{nl:"de keuken",en:"the kitchen"},{nl:"de kamer",en:"the room"},{nl:"het raam",en:"the window"},{nl:"de trap",en:"the stairs"}]},
+         {type:"drag_fill",s:"{1} huis is groot. {2} kinderen zijn klein.",blanks:{"1":"Ons","2":"Hun"},pool:["Ons","Hun","Onze","Zijn"],hint:"OUR house (het-word). THEIR children."},
+         {type:"fb",s:"___ kinderen gaan naar school. (their)",a:"Hun",opts:["Hun","Haar","Zijn","Jullie"],hint:"Their children..."},
+         {type:"mc",q:"Dutch houses are famous for:",opts:["having no stairs","large gardens","big windows without curtains","being detached"],ans:"big windows without curtains",hint:"Calvinist transparency tradition"},
+         {type:"fb",s:"___ keuken is klein. (our)",a:"Onze",opts:["Onze","Ons","Onz","Onzen"],hint:"Keuken is a de-word"},
+         {type:"mc",q:"'Jullie huis'  -  does 'jullie' change for het-words?",opts:["Yes: jullies huis","Yes: jul huis","No: jullie never changes","Yes: julle huis"],ans:"No: jullie never changes",hint:"Only ons/onze changes"},
+         {type:"tr",mk:"u5_our_house_small",dir:"produce"},
+         {type:"tr",mk:"u5_their_garden",dir:"produce"},
+       ]},
+       {id:"v2u5l3",title:"Elke Ochtend",icon:"🌅",xp:20,board:true,steps:[
+         {type:"intro",title:"Elke Ochtend",desc:"You can't describe a morning without reflexive verbs. 'I wash myself, I dress myself, I feel good.' Dutch uses these MORE than English  -  'voelen' is always 'zich voelen'. If you speak German, French, Spanish, or Romanian, you already know the concept.",goals:["What reflexive verbs are","6 reflexive morning routine verbs","Reflexive pronouns (me, je, zich...)","Describe your morning in Dutch"]},
+
+         {type:"tip",title:"🪞 What Are Reflexive Verbs?",text:"A reflexive verb is one where the subject acts on ITSELF:\n\nIk was me. = I wash myself.\nJij kleedt je aan. = You dress yourself.\nHij voelt zich goed. = He feels (himself) good.\n\nEnglish often drops the 'myself' part:\n'I wash' (myself is implied).\n'I feel good' (myself is implied).\n\nDutch NEVER drops it:\nIk was me. ✅ (me = myself)\nIk was. ❌ (this means 'I was'  -  past tense of zijn!)\n\nThe reflexive pronoun changes per person:\nik → me\njij → je\nhij/zij → zich\nwij → ons\njullie → je\nzij (they) → zich",deepDive:{title:"If you speak other languages...",text:"French: je me lave, tu te laves, il se lave\nSpanish: me lavo, te lavas, se lava\nGerman: ich wasche mich, du wäschst dich, er wäscht sich\nRomanian: mă spăl, te speli, se spală\n\nDutch works exactly the same way.\nThe reflexive pronoun sits after the verb:\nIk was me. (I wash myself)\nJij wast je. (You wash yourself)\nHij wast zich. (He washes himself)\n\nIf you already know reflexives in ANY Romance\nor Germanic language, Dutch reflexives are free."}},
+
+         {type:"teach",kind:"grammar",nl:"zich wassen",en:"to wash (oneself)",phonetic:"zig VAS-sun",cognate:{words:[{lang:"English",word:"wash"},{lang:"German",word:"sich waschen"}],family:"germanic"},example:"Ik was me elke ochtend.",exampleEn:"I wash myself every morning.",note:"Reflexive verb. Dictionary form: 'zich wassen'.\n'Zich' = oneself (placeholder).\nConjugated: ik was me, jij wast je, hij wast zich."},
+         {type:"teach",kind:"grammar",nl:"ik was me",en:"I wash myself",phonetic:"ik vas muh",example:"Ik was me om zeven uur.",exampleEn:"I wash myself at seven o'clock.",note:"was = stam of wassen. me = myself.\n⚠️ 'Ik was' alone = I was (past tense of zijn).\n'Ik was me' = I wash myself. Context is everything."},
+         {type:"teach",kind:"phrase",nl:"hij wast zich",en:"he washes himself",phonetic:"hay vast zig",example:"Hij wast zich snel.",exampleEn:"He washes himself quickly.",note:"wast = stam + t. zich = himself.\nFor hij/zij/het, the reflexive pronoun is 'zich'.\n'Zich' is like French 'se' or German 'sich'."},
+
+         {type:"teach",kind:"phrase",nl:"zich aankleden",en:"to get dressed",phonetic:"zig AHN-klay-dun",cognate:{words:[{lang:"English",word:"clothe"},{lang:"German",word:"sich ankleiden"}],family:"germanic"},example:"Ik kleed me aan.",exampleEn:"I get dressed.",note:"Reflexive + SEPARABLE! Two things at once.\naankleden → ik kleed me aan.\n'aan' goes to the end. Reflexive pronoun stays with the verb."},
+         {type:"teach",kind:"phrase",nl:"zich voelen",en:"to feel",phonetic:"zig FOO-lun",cognate:{words:[{lang:"English",word:"feel"},{lang:"German",word:"sich fühlen"}],family:"germanic"},example:"Ik voel me goed.",exampleEn:"I feel good.",note:"In Dutch, 'voelen' is ALWAYS reflexive for emotions.\n'I feel good' = Ik voel ME goed.\nNever just 'Ik voel goed'  -  that's incomplete."},
+         {type:"teach",kind:"phrase",nl:"zich scheren",en:"to shave (oneself)",phonetic:"zig SGAY-run",example:"Hij scheert zich elke ochtend.",exampleEn:"He shaves every morning.",note:"Regular reflexive. Stam = scheer.\n'sch' = the Dutch 'sg' sound.\nThe 'zich' makes it clear: he shaves HIMSELF."},
+         {type:"teach",kind:"phrase",nl:"zich douchen",en:"to shower",phonetic:"zig DOW-shun",example:"Ik douche me om kwart over zeven.",exampleEn:"I shower at quarter past seven.",note:"From French 'douche'. Regular verb.\nStam = douche. Ik douche me, jij doucht je."},
+         {type:"teach",kind:"phrase",nl:"wakker worden",en:"to wake up",phonetic:"VAK-kur VOR-dun",example:"Ik word elke dag om zes uur wakker.",exampleEn:"I wake up every day at six o'clock.",note:"Not reflexive, but SEPARABLE: wakker...worden.\n'Ik word wakker' = I wake up. 'Wakker' goes to the end.\nVerb 'worden' = to become. You 'become awake'."},
+
+         {type:"tip",title:"📋 Reflexive Pronouns  -  Full List",text:"ik → me (myself)\njij / je → je (yourself)\nu → zich / u (yourself formal)\nhij → zich (himself)\nzij → zich (herself)\nhet → zich (itself)\nwij → ons (ourselves)\njullie → je (yourselves)\nzij → zich (themselves)\n\nPattern: me, je, zich, ons, je, zich.\n'Zich' is the default for 3rd person and formal 'u'.\n'Je' does double duty for jij AND jullie."},
+
+         {type:"tip",title:"🌅 A Dutch Morning",text:"A typical Dutch morning:\n\nIk word om zes uur wakker. = I wake up at 6.\nIk douche me. = I shower.\nIk was me. = I wash myself.\nIk scheer me. = I shave.\nIk kleed me aan. = I get dressed.\nIk voel me goed! = I feel good!\n\nIk eet een boterham met kaas. = I eat a sandwich with cheese.\nIk drink een kopje koffie. = I drink a cup of coffee.\n\nNotice: reflexive pronouns always sit right after the verb.\nSubject + verb + reflexive pronoun + rest."},
+
+         {type:"mc",q:"Why must Dutch always include 'me' in 'Ik was me'?",opts:["It's optional","Without 'me', 'ik was' means 'I was' (past tense)","Dutch grammar requires it","It sounds more polite"],ans:"Without 'me', 'ik was' means 'I was' (past tense)",hint:"ik was = I was. ik was me = I wash myself."},
+         {type:"fb",s:"Hij voelt ___ goed.",a:"zich",opts:["zich","me","je","ons"],hint:"He feels HIMSELF good  -  3rd person"},
+         {type:"mc",q:"'Zich aankleden' is both:",opts:["reflexive and regular","reflexive and irregular","reflexive and separable","separable and irregular"],ans:"reflexive and separable",hint:"ik kleed ME AAN  -  two things at once"},
+         {type:"match",pairs:[{nl:"zich wassen",en:"to wash oneself"},{nl:"zich voelen",en:"to feel"},{nl:"zich aankleden",en:"to get dressed"},{nl:"wakker worden",en:"to wake up"}]},
+         {type:"drag_fill",s:"Ik douche {1} om zeven uur. Hij scheert {2} elke ochtend.",blanks:{"1":"me","2":"zich"},pool:["me","zich","je","ons"],hint:"I shower MYSELF. He shaves HIMSELF."},
+         {type:"fb",s:"Wij voelen ___ goed.",a:"ons",opts:["ons","zich","me","je"],hint:"WE feel OURSELVES good"},
+         {type:"mc",q:"The reflexive pronoun for 'jij' is:",opts:["me","je","zich","ons"],ans:"je",hint:"Same word as 'you' unstressed!"},
+         {type:"fb",s:"Ik kleed ___ aan.",a:"me",opts:["me","mij","zich","je"],hint:"I dress MYSELF"},
+         {type:"mc",q:"'Ik word om zes uur wakker'  -  where does 'wakker' go?",opts:["Before the verb","After 'ik'","At the end (separable)","It doesn't move"],ans:"At the end (separable)",hint:"wakker worden = separable verb"},
+         {type:"tr",mk:"u5_feel_good",dir:"produce"},
+         {type:"tr",mk:"u5_wake_up_six",dir:"produce"},
+       ]},
+       {id:"v2u5l4",title:"De Grote Rode Fiets",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"De Grote Rode Fiets",desc:"You've used adjectives casually  -  groot, klein, mooi, lekker. Now learn the SYSTEM. Dutch adjectives add -e... most of the time. There's one exception, and it trips up even advanced learners. This is the most important grammar rule in this unit.",goals:["The -e rule for adjectives","The one exception (indefinite het)","Multiple adjectives before a noun","Describe things around the house"]},
+
+         {type:"tip",title:"📐 The Adjective -e Rule",text:"When an adjective goes BEFORE a noun, it usually adds -e:\n\nde grote tuin = the big garden ✅\nhet kleine huis = the small house ✅\neen mooie kamer = a beautiful room ✅\n\nBut there is ONE exception:\n\neen groot huis = a big house ❌ (no -e!)\n\nThe exception: een/geen + het-word + adjective = NO -e.\n\nDE-WORDS: always add -e.\nde grote tuin ✅\neen grote tuin ✅\n\nHET-WORDS: add -e with de/het/dit/dat. NO -e with een/geen.\nhet grote huis ✅\neen groot huis ✅ (no -e!)\n\nThis is the ONLY exception. Everything else gets -e.",deepDive:{title:"Why this exception exists",text:"Historical grammar reason:\n\nOld Dutch had three genders: masculine, feminine, neuter.\nDe-words are masculine/feminine. Het-words are neuter.\n\nWith definite articles (de, het), ALL genders got -e.\nWith indefinite articles (een), neuter (het) kept the bare form.\n\nSo 'een groot huis' is a fossil from Old Dutch gender marking.\n\nGerman still has the full system:\nein großes Haus, eine große Küche, der große Garten...\nDutch simplified it to just one exception.\n\nIf you speak German: Dutch is German's adjective system\nwith 90% of the complexity removed."}},
+
+         {type:"teach",kind:"word",nl:"groot",en:"big",phonetic:"groht",cognate:{words:[{lang:"English",word:"great"},{lang:"German",word:"groß"}],family:"germanic"},example:"De grote tuin. Een groot huis.",exampleEn:"The big garden. A big house.",note:"De-word: de grote tuin, een grote tuin. (always -e)\nHet-word: het grote huis (definite → -e)\nBUT: een groot huis (indefinite het → NO -e!)"},
+         {type:"teach",kind:"word",nl:"klein",en:"small / little",phonetic:"klayn",cognate:{words:[{lang:"German",word:"klein"}],family:"germanic"},example:"Het kleine kopje. Een klein kopje.",exampleEn:"The small cup. A small cup.",note:"klein → kleine (with -e) or klein (without).\nHet kleine kopje (definite het → -e).\nEen klein kopje (indefinite het → no -e)."},
+         {type:"teach",kind:"word",nl:"mooi",en:"beautiful / nice",phonetic:"moy",example:"De mooie kamer. Een mooie kamer.",exampleEn:"The beautiful room. A beautiful room.",note:"De-word: always -e → mooie.\nmooi → mooie: the 'i' just gets an '-e' added.\nEen mooie kamer ✅ (de-word = always -e)."},
+         {type:"teach",kind:"word",nl:"oud",en:"old",phonetic:"owt",cognate:{words:[{lang:"English",word:"old"},{lang:"German",word:"alt"}],family:"germanic"},example:"Het oude huis. Een oud huis.",exampleEn:"The old house. An old house.",note:"Het oude huis (definite → -e).\nEen oud huis (indefinite het → no -e).\nFinal -d sounds like -t (devoicing)."},
+         {type:"teach",kind:"word",nl:"nieuw",en:"new",phonetic:"neew",cognate:{words:[{lang:"English",word:"new"},{lang:"German",word:"neu"}],family:"germanic"},example:"De nieuwe keuken.",exampleEn:"The new kitchen.",note:"nieuw → nieuwe. De-word = always -e.\nIdentical cognate across Germanic languages."},
+         {type:"teach",kind:"word",nl:"rood",en:"red",phonetic:"roht",cognate:{words:[{lang:"English",word:"red"},{lang:"German",word:"rot"}],family:"germanic"},example:"De rode fiets.",exampleEn:"The red bicycle.",note:"rood → rode. The 'oo' becomes 'o' (open syllable).\nSame Foundations rule: ro-de = open syllable → long vowel.\nOne 'o' is enough.",fRef:"nl_spe_1"},
+
+         {type:"tip",title:"🎯 The Decision Tree",text:"Before a noun, ask:\n\n1. Is it a DE-word?\n   → YES: add -e. Always. Done.\n   de grote tuin, een grote tuin.\n\n2. Is it a HET-word?\n   → With het/dit/dat/ons: add -e.\n     het grote huis, dit kleine raam.\n   → With een/geen/no article: NO -e.\n     een groot huis, geen klein raam.\n\nThat's the entire rule. One flowchart, two paths.\n\n⚠️ After the noun (predicative), NEVER add -e:\nHet huis is groot. (not 'grote')\nDe tuin is mooi. (not 'mooie')\nOnly BEFORE nouns does -e apply."},
+
+         {type:"mc",q:"'Een groot huis'  -  why no -e on 'groot'?",opts:["It's after the noun","een + het-word = no -e","groot never takes -e","It's a spelling rule"],ans:"een + het-word = no -e",hint:"The ONE exception"},
+         {type:"fb",s:"De ___ tuin. (big)",a:"grote",opts:["grote","groot","groote","groten"],hint:"De-word = always -e"},
+         {type:"mc",q:"Which is correct?",opts:["een mooie huis","een mooi huis","het mooi huis","een mooien huis"],ans:"een mooi huis",hint:"een + het-word = no -e"},
+         {type:"match",pairs:[{nl:"de rode fiets",en:"the red bike"},{nl:"een groot huis",en:"a big house"},{nl:"het kleine kopje",en:"the small cup"},{nl:"een mooie kamer",en:"a beautiful room"}]},
+         {type:"drag_fill",s:"De {1} keuken. Een {2} raam.",blanks:{"1":"nieuwe","2":"groot"},pool:["nieuwe","groot","nieuw","grote"],hint:"De = always -e. Een + het-word = no -e."},
+         {type:"fb",s:"Het ___ huis. (old)",a:"oude",opts:["oude","oud","ouwe","ouden"],hint:"het + adjective = -e (definite)"},
+         {type:"mc",q:"'De tuin is mooi.'  -  why no -e on 'mooi'?",opts:["It's a de-word","It's indefinite","The adjective is AFTER the noun","Mooi never changes"],ans:"The adjective is AFTER the noun",hint:"Predicative = no -e. Only BEFORE nouns."},
+         {type:"mc",q:"'De rode fiets'  -  'rood' became 'rode'. Why one 'o'?",opts:["It's irregular","Open syllable: ro-de, one 'o' = long","Spelling mistake","Vowel always drops"],ans:"Open syllable: ro-de, one 'o' = long",hint:"Foundations spelling engine!"},
+         {type:"fb",s:"Een ___ kind. (small)",a:"klein",opts:["klein","kleine","kleinen","kleintje"],hint:"een + het-word (kind) = no -e"},
+         {type:"tr",mk:"u5_big_garden",dir:"produce"},
+         {type:"tr",mk:"u5_old_house",dir:"produce"},
+       ]},
+       {id:"v2u5l5",title:"Schoonmaken & Opruimen",icon:"🧹",xp:20,board:true,steps:[
+         {type:"intro",title:"Schoonmaken & Opruimen",desc:"Dutch housework verbs are almost ALL separable. The verb splits in two: the prefix flies to the end of the sentence. You've seen this with 'aankleden' and 'wakker worden'. Now: the full system, with housework as the playground.",goals:["How separable verbs split","6 separable housework verbs","Separable verbs with modals","Word order: prefix at the end"]},
+
+         {type:"tip",title:"✂️ Separable Verbs: The Split",text:"Some Dutch verbs have a prefix that detaches in main clauses:\n\nopruimen (to tidy up):\nIk ruim de kamer op. = I tidy up the room.\n\nschoonmaken (to clean):\nIk maak de keuken schoon. = I clean the kitchen.\n\nThe prefix (op, schoon, aan, uit, mee...) goes to the END.\nThe verb stays in position 2.\n\nIt's like English 'pick up', 'clean out', 'turn on':\n'I pick the toys UP.'  -  same logic!\n\n⚠️ With modals, the verb DOESN'T split:\nIk moet de kamer opruimen. (infinitive stays whole)\nIk wil de keuken schoonmaken. (no split)"},
+
+         {type:"teach",kind:"word",nl:"opruimen",en:"to tidy up / to clean up",phonetic:"OP-roy-mun",example:"Ik ruim mijn kamer op.",exampleEn:"I tidy up my room.",note:"op + ruimen = to tidy up.\n'Op' goes to the end: 'Ik ruim ... op.'\nVery common word in Dutch households."},
+         {type:"teach",kind:"grammar",nl:"schoonmaken",en:"to clean",phonetic:"SGOHN-mah-kun",example:"Zij maakt de keuken schoon.",exampleEn:"She cleans the kitchen.",note:"schoon (clean) + maken (to make) = to clean.\nThe prefix 'schoon' goes to the end.\n'Zij maakt de keuken schoon.'"},
+         {type:"teach",kind:"word",nl:"afwassen",en:"to do the dishes / to wash up",phonetic:"AF-vas-sun",cognate:{words:[{lang:"English",word:"wash off"},{lang:"German",word:"abwaschen"}],family:"germanic"},example:"Ik was elke avond af.",exampleEn:"I do the dishes every evening.",note:"af + wassen = to wash off/away.\nGerman cognate: abwaschen.\n⚠️ 'Ik was af' vs 'Ik was me'  -  context!"},
+         {type:"teach",kind:"word",nl:"stofzuigen",en:"to vacuum",phonetic:"STOF-zoy-gun",example:"Hij stofzuigt de woonkamer.",exampleEn:"He vacuums the living room.",note:"stof (dust) + zuigen (to suck) = to vacuum.\nLiterally: 'dust-sucking'.\nTechnically separable but rarely split in practice."},
+         {type:"teach",kind:"word",nl:"openmaken",en:"to open",phonetic:"OH-pun-mah-kun",example:"Ik maak het raam open.",exampleEn:"I open the window.",note:"open + maken = to open (make open).\nAlternative: 'openen' (non-separable).\n'Maak het raam open' is more conversational."},
+         {type:"teach",kind:"word",nl:"dichtdoen",en:"to close / to shut",phonetic:"DIGT-doon",example:"Doe de deur dicht.",exampleEn:"Close the door.",note:"dicht (closed/shut) + doen (to do) = to close.\nDicht goes to the end: 'Doe de deur dicht.'\n'Doen' you learned in Unit 3!"},
+
+         {type:"tip",title:"📐 Split vs No Split",text:"MAIN CLAUSE (present tense): the verb SPLITS.\nIk ruim de kamer op.\nZij maakt de keuken schoon.\nHij wast de borden af.\n\nWITH A MODAL: the verb stays WHOLE (infinitive).\nIk moet de kamer opruimen.\nZij wil de keuken schoonmaken.\nHij kan de borden afwassen.\n\nThe rule: only the CONJUGATED verb splits.\nInfinitives (after modals) stay in one piece.\n\nThis is the same in German:\nIch räume das Zimmer auf. (splits)\nIch muss das Zimmer aufräumen. (whole)"},
+
+         {type:"teach",kind:"word",nl:"elke",en:"every / each",phonetic:"EL-kuh",example:"Ik ruim elke week op.",exampleEn:"I tidy up every week.",note:"'Elke dag' = every day. 'Elke week' = every week.\n'Elke ochtend' = every morning.\nAlways followed by a singular noun."},
+
+         {type:"mc",q:"'Ik ruim de kamer op.'  -  where does 'op' go?",opts:["Before the verb","After 'ik'","At the end","Before 'de kamer'"],ans:"At the end",hint:"Separable prefix → end of clause"},
+         {type:"fb",s:"Zij ___ de keuken schoon.",a:"maakt",opts:["maakt","maakt","schoon","schoonmaakt"],hint:"She makes the kitchen clean (stam + t)"},
+         {type:"mc",q:"With a modal verb, separable verbs:",opts:["still split","stay whole (infinitive)","lose the prefix","become irregular"],ans:"stay whole (infinitive)",hint:"Ik MOET de kamer opruimen (no split)"},
+         {type:"match",pairs:[{nl:"opruimen",en:"to tidy up"},{nl:"schoonmaken",en:"to clean"},{nl:"afwassen",en:"to do the dishes"},{nl:"stofzuigen",en:"to vacuum"}]},
+         {type:"drag_fill",s:"Ik was elke avond {1}. Ik moet de kamer {2}.",blanks:{"1":"af","2":"opruimen"},pool:["af","opruimen","schoon","op"],hint:"Present: splits. Modal: stays whole."},
+         {type:"fb",s:"Doe de deur ___!",a:"dicht",opts:["dicht","doen","open","uit"],hint:"Close the door!"},
+         {type:"mc",q:"'Stofzuigen' literally means:",opts:["dust-sucking","floor-cleaning","room-sweeping","carpet-washing"],ans:"dust-sucking",hint:"stof = dust, zuigen = to suck"},
+         {type:"fb",s:"Hij ___ elke dag de woonkamer schoon.",a:"maakt",opts:["maakt","schoonmaakt","maken","schoon"],hint:"In main clause: verb in pos 2, prefix at end"},
+         {type:"mc",q:"'Ik maak het raam open.'  -  which part is the prefix?",opts:["ik","maak","het raam","open"],ans:"open",hint:"openmaken → ik maak ... open"},
+         {type:"tr",mk:"u5_tidy_room",dir:"produce"},
+         {type:"tr",mk:"u5_clean_kitchen",dir:"produce"},
+       ]},
+       {id:"v2u5l6",title:"Gefeliciteerd!",icon:"🎂",xp:15,board:true,steps:[
+         {type:"intro",title:"Gefeliciteerd!",desc:"The Dutch birthday is one of the most unique cultural experiences in Europe. You congratulate EVERYONE  -  the birthday person AND their family. You sit in a circle. There is cake. This lesson teaches the vocabulary and the survival rules for a Dutch verjaardag.",goals:["Birthday vocabulary","Say 'gefeliciteerd' correctly","The birthday circle ritual","Dutch birthday customs"]},
+
+         {type:"teach",kind:"phrase",nl:"de verjaardag",en:"the birthday",phonetic:"fur-YAHR-dahg",cognate:{words:[{lang:"German",word:"Geburtstag (different compound)"}],family:"germanic"},example:"Mijn verjaardag is in mei.",exampleEn:"My birthday is in May.",note:"De-word. Literally: ver- + jaar + dag = anniversary day.\n'Jaar' = year, 'dag' = day.\nVery different from German 'Geburtstag' (birth-day)."},
+         {type:"teach",kind:"word",nl:"gefeliciteerd",en:"congratulations / happy birthday",phonetic:"guh-fay-lee-see-TEERD",example:"Gefeliciteerd met je verjaardag!",exampleEn:"Happy birthday! / Congratulations on your birthday!",note:"The longest word you've learned so far.\nUsed for birthdays, achievements, EVERYTHING.\n'Gefeliciteerd!' alone is enough."},
+         {type:"teach",kind:"phrase",nl:"de taart",en:"the cake",phonetic:"duh tahrt",cognate:{words:[{lang:"English",word:"tart"},{lang:"German",word:"Torte"}],family:"germanic"},example:"De taart is lekker!",exampleEn:"The cake is delicious!",note:"De-word. Cognate of English 'tart'.\nAt Dutch birthdays: always taart. Always.\nOften: appeltaart (apple pie)."},
+         {type:"teach",kind:"phrase",nl:"het cadeau",en:"the gift / present",phonetic:"hut kah-DOH",cognate:{words:[{lang:"French",word:"cadeau"}],family:"french"},example:"Dit cadeau is voor jou.",exampleEn:"This gift is for you.",note:"Het-word. Borrowed from French.\nAlso: het kado (simplified spelling  -  both correct).\n'Voor jou' = for you."},
+         {type:"teach",kind:"word",nl:"voor",en:"for",phonetic:"vohr",cognate:{words:[{lang:"English",word:"for"},{lang:"German",word:"für"}],family:"germanic"},example:"Dit is voor mijn moeder.",exampleEn:"This is for my mother.",note:"Same root as English 'for' and German 'für'.\nAlso means 'before' (in time):\n'voor drie uur' = before three o'clock."},
+         {type:"teach",kind:"word",nl:"jarig",en:"having one's birthday",phonetic:"YAH-rig",example:"Wie is er jarig?",exampleEn:"Who is having their birthday?",note:"Adjective that means 'having a birthday TODAY'.\nEnglish has no equivalent!\n'Ik ben jarig.' = It's my birthday.\n'Zij is jarig.' = It's her birthday."},
+
+         {type:"tip",title:"🇳🇱 The Dutch Birthday Circle",text:"The Dutch birthday party is unlike any other in the world.\n\nTHE CIRCLE: Everyone sits in a circle of chairs.\nNot standing. Not mingling. A CIRCLE.\nYou sit, you talk to the people next to you, you eat cake.\n\nTHE CONGRATULATIONS: You congratulate EVERYONE.\nNot just the birthday person, but their family too:\n'Gefeliciteerd met je moeder!' = Congratulations with your mother!\n'Gefeliciteerd met je zoon!' = Congratulations with your son!\n\nYes. You congratulate the mother of the birthday person.\nAnd the sister. And the neighbour. And the colleague.\n\nTHE CAKE: Usually made by the birthday person.\nYes  -  the birthday person PROVIDES the cake.\nAt work: you bring your own taart on YOUR birthday.\n\nTHE CALENDAR: de verjaardagskalender.\nA calendar in the toilet listing everyone's birthday.\nEvery Dutch home has one. In. The. Toilet.",deepDive:{title:"Why congratulate the family?",text:"This confuses every foreigner.\n\n'Gefeliciteerd met je man!'\n= Congratulations with your husband!\n(said to the wife of the birthday person)\n\nThe logic: the birthday is a happy event for the whole family.\nBy congratulating the family members, you acknowledge\nthat this is THEIR happy event too.\n\nIt's communal joy. It's very Dutch.\n\nThe correct response when congratulated:\n'Dank je wel!' = Thank you!\nEven if it's not YOUR birthday.\nBecause it's your family's special day.\n\nThis is one of those things you just have to experience."}},
+
+         {type:"teach",kind:"phrase",nl:"de verjaardagskalender",en:"the birthday calendar",phonetic:"fur-YAHR-dahgs-kah-LEN-dur",example:"De verjaardagskalender hangt in het toilet.",exampleEn:"The birthday calendar hangs in the toilet.",note:"Compound noun: verjaardag + s + kalender.\nHangs in the toilet = 100% true, 100% Dutch.\nEvery family member's birthday is on it."},
+         {type:"teach",kind:"phrase",nl:"de kaars",en:"the candle",phonetic:"duh kahrs",example:"Er zijn twaalf kaarsen op de taart.",exampleEn:"There are twelve candles on the cake.",note:"De-word. Plural: kaarsen.\nThe Dutch love candles  -  not just on cakes.\nEvery woonkamer has candles. Gezelligheid!"},
+
+         {type:"mc",q:"At a Dutch birthday, you congratulate:",opts:["only the birthday person","everyone in the room","only close family","nobody  -  you just say 'happy birthday'"],ans:"everyone in the room",hint:"'Gefeliciteerd met je moeder!'"},
+         {type:"fb",s:"___ met je verjaardag!",a:"Gefeliciteerd",opts:["Gefeliciteerd","Goedemorgen","Alsjeblieft","Bedankt"],hint:"The birthday phrase"},
+         {type:"mc",q:"'Ik ben jarig' means:",opts:["I am old","It's my birthday","I have a gift","I like cake"],ans:"It's my birthday",hint:"'Jarig' = having your birthday today"},
+         {type:"match",pairs:[{nl:"de verjaardag",en:"the birthday"},{nl:"de taart",en:"the cake"},{nl:"het cadeau",en:"the gift"},{nl:"de kaars",en:"the candle"}]},
+         {type:"mc",q:"Who brings cake on a Dutch birthday at work?",opts:["The manager","The colleagues","The birthday person themselves","Nobody  -  there is no cake"],ans:"The birthday person themselves",hint:"YOU provide YOUR OWN cake"},
+         {type:"fb",s:"Dit cadeau is ___ jou.",a:"voor",opts:["voor","met","van","aan"],hint:"This gift is FOR you"},
+         {type:"drag_fill",s:"De {1} hangt in het toilet. Er zijn twaalf {2} op de taart.",blanks:{"1":"verjaardagskalender","2":"kaarsen"},pool:["verjaardagskalender","kaarsen","cadeau","taart"],hint:"The birthday calendar. Twelve candles."},
+         {type:"mc",q:"The verjaardagskalender hangs in:",opts:["the kitchen","the living room","the toilet","the hallway"],ans:"the toilet",hint:"Every Dutch home. In the toilet."},
+         {type:"tr",mk:"u5_happy_birthday",dir:"produce"},
+         {type:"tr",mk:"u5_gift_for_you",dir:"produce"},
+       ]},
+       {id:"v2u5l7",title:"Buren & Bezoek",icon:"🏡",xp:15,board:true,steps:[
+         {type:"intro",title:"Buren & Bezoek",desc:"Visiting someone's home in the Netherlands has its own unwritten rules. This lesson brings together everything from Unit 5  -  family, house, possessives, reflexives, adjectives  -  in a natural social scenario: a neighbour comes over for coffee.",goals:["Visiting vocabulary","Invitation and welcome phrases","Offer and accept food/drinks","Mini-dialogue: a neighbor visits"]},
+
+         {type:"teach",kind:"phrase",nl:"de buur",en:"the neighbor",phonetic:"duh buwr",cognate:{words:[{lang:"English",word:"neighbor (boor = dweller)"},{lang:"German",word:"Nachbar"}],family:"germanic"},example:"Onze buur is aardig.",exampleEn:"Our neighbor is nice.",note:"De-word. Plural: buren.\nAlso: de buurman (male), de buurvrouw (female)."},
+         {type:"teach",kind:"phrase",nl:"op bezoek",en:"visiting / on a visit",phonetic:"op buh-ZOOK",example:"De buren komen op bezoek.",exampleEn:"The neighbors are coming to visit.",note:"'Op bezoek komen' = to come visit.\n'Op bezoek gaan' = to go visit.\n'Bezoek' = visit (het bezoek)."},
+         {type:"teach",kind:"word",nl:"binnenkomen",en:"to come in / to enter",phonetic:"BIN-nun-koh-mun",example:"Kom binnen!",exampleEn:"Come in!",note:"Separable: binnen + komen.\n'Kom binnen!' = Come in! (invitation)\nThe most welcoming phrase in Dutch."},
+         {type:"teach",kind:"word",nl:"zitten",en:"to sit",phonetic:"ZIT-tun",example:"Ga zitten!",exampleEn:"Have a seat! (Lit: Go sit!)",note:"You learned this in Unit 4.\n'Ga zitten' = Go sit / Have a seat.\nUsed when welcoming someone into your home."},
+         {type:"teach",kind:"word",nl:"iets",en:"something",phonetic:"eets",example:"Wil je iets drinken?",exampleEn:"Would you like something to drink?",note:"Very useful small word.\n'Iets drinken?' = Something to drink?\n'Iets eten?' = Something to eat?"},
+         {type:"teach",kind:"word",nl:"lekker",en:"tasty / nice / delicious",phonetic:"LEK-kur",also:"also means 'nice/pleasant' in general: 'lekker weer' = nice weather, 'lekker slapen' = sleep well",example:"De koffie is lekker!",exampleEn:"The coffee is tasty!",note:"The most Dutch word in existence.\nMeaning 1: tasty (food/drink)\nMeaning 2: pleasant/nice (weather, sleep, everything)\n'Lekker!' on its own = 'Yum!' or 'Nice!'"},
+         {type:"teach",kind:"word",nl:"gezellig",en:"cosy / sociable / pleasant (untranslatable)",phonetic:"guh-ZEL-lig",example:"Het is gezellig hier!",exampleEn:"It's gezellig here! (cosy/nice atmosphere)",note:"THE untranslatable Dutch word.\nCosy + social + warm + pleasant + togetherness.\nA candle-lit room with friends and cake = gezellig.\nA lonely walk in the rain = NOT gezellig."},
+
+         {type:"tip",title:"🏡 A Neighbour Comes Over: The Dialogue",text:"A: (rings doorbell)\nB: Hallo! Kom binnen! = Hello! Come in!\nA: Bedankt! Wat een mooi huis! = Thanks! What a nice house!\nB: Dank je wel. Ga zitten! = Thank you. Have a seat!\nB: Wil je iets drinken? = Would you like something to drink?\nA: Ja, graag! Een kopje koffie. = Yes please! A cup of coffee.\nB: Met melk? = With milk?\nA: Nee, zwart, alsjeblieft. = No, black, please.\nB: (gives coffee) Alsjeblieft!\nA: Dank je. Mmm, lekker! = Thanks. Mmm, tasty!\nB: Wil je een stukje taart? = Want a piece of cake?\nA: Ja! Het is heel gezellig hier. = Yes! It's very gezellig here.\n\nThis is THE Dutch home visit. Coffee + cake + gezelligheid.",deepDive:{title:"Visiting rules in the Netherlands",text:"1. ALWAYS accept the coffee. Refusing is awkward.\n2. The host offers  -  you don't help yourself.\n3. ONE cookie/slice. Wait to be offered a second.\n   The Dutch are generous but structured.\n4. Don't overstay. 1.5-2 hours is a good visit.\n5. Comment on the house: 'Wat een mooi huis!'\n   This is expected and appreciated.\n6. 'Gezellig' is the highest compliment you can give.\n   'Het was heel gezellig!' = It was really pleasant!\n   Say this when leaving. Always."}},
+
+         {type:"teach",kind:"phrase",nl:"het stukje",en:"the piece (small)",phonetic:"hut STUK-yuh",example:"Een stukje taart, alsjeblieft.",exampleEn:"A piece of cake, please.",note:"Diminutive of 'stuk' (piece).\n'Een stukje taart' = a (small) piece of cake.\nUsing the diminutive is polite  -  you're not asking for a lot."},
+
+         {type:"mc",q:"'Gezellig' is best translated as:",opts:["happy","cosy + social + warm + pleasant","beautiful","funny"],ans:"cosy + social + warm + pleasant",hint:"There IS no single English word"},
+         {type:"fb",s:"Kom ___! Ga zitten!",a:"binnen",opts:["binnen","hier","in","op"],hint:"Come IN! (separable: binnenkomen)"},
+         {type:"mc",q:"When visiting a Dutch home, you should:",opts:["help yourself to drinks","refuse coffee to be polite","accept the coffee and compliment the house","bring your own food"],ans:"accept the coffee and compliment the house",hint:"Always accept. Always compliment."},
+         {type:"match",pairs:[{nl:"de buur",en:"the neighbor"},{nl:"op bezoek",en:"visiting"},{nl:"gezellig",en:"cosy/pleasant"},{nl:"het stukje",en:"the small piece"}]},
+         {type:"drag_fill",s:"Wil je {1} drinken? Een {2} koffie?",blanks:{"1":"iets","2":"kopje"},pool:["iets","kopje","een","lekker"],hint:"Something to drink? A cup of coffee?"},
+         {type:"fb",s:"De koffie is ___!",a:"lekker",opts:["lekker","gezellig","mooi","groot"],hint:"Tasty/delicious  -  for food and drinks"},
+         {type:"mc",q:"'Lekker' can mean all of these EXCEPT:",opts:["tasty (food)","nice (weather)","pleasant (sleep)","expensive (price)"],ans:"expensive (price)",hint:"Lekker = tasty/nice/pleasant, never expensive"},
+         {type:"fb",s:"Het was heel ___ hier! (said when leaving)",a:"gezellig",opts:["gezellig","lekker","mooi","goed"],hint:"The highest Dutch compliment for a visit"},
+         {type:"tr",mk:"u5_come_in",dir:"produce"},
+         {type:"tr",mk:"u5_something_drink",dir:"produce"},
+       ]},
+       {id:"v2u5l8",title:"Unit 5 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 5: Alles Samen",desc:"Family, house, reflexive verbs, adjective agreement, separable verbs, birthdays, visiting  -  all of Unit 5 mixed together. The scenario: a family birthday gathering at oma's house.",goals:["Family vocabulary","All possessives (mijn through hun)","Reflexive verbs in context","Adjective -e rule","Separable verbs","Birthday and visiting culture"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 5 you can:\n\n• Name all family members\n• Use ALL possessives (mijn, jouw, zijn, haar, uw, ons/onze, jullie, hun)\n• Describe your morning with reflexive verbs\n• Add -e to adjectives correctly (and know the ONE exception)\n• Use separable verbs (split in main clause, whole with modals)\n• Survive a Dutch birthday\n• Visit someone's home politely\n• Use 'gezellig' and 'lekker' like a local\n\nThat's a full family life in Dutch. Let's test it."},
+
+         {type:"mc",q:"'Ons huis' but 'onze tuin'  -  because:",opts:["huis is a het-word, tuin is a de-word","huis is bigger","tuin is plural","there's no rule, it's random"],ans:"huis is a het-word, tuin is a de-word",hint:"ons + het-word, onze + de-word"},
+         {type:"fb",s:"___ kinderen zijn jarig. (their)",a:"Hun",opts:["Hun","Haar","Zijn","Onze"],hint:"Their children..."},
+         {type:"mc",q:"'Een groot huis'  -  no -e because:",opts:["groot never changes","it's after the noun","een + het-word = no -e","huis is special"],ans:"een + het-word = no -e",hint:"The one adjective exception"},
+         {type:"match",pairs:[{nl:"de vader",en:"father"},{nl:"de dochter",en:"daughter"},{nl:"de broer",en:"brother"},{nl:"het kind",en:"child"}]},
+
+         {type:"fb",s:"Ik voel ___ goed.",a:"me",opts:["me","mij","zich","je"],hint:"I feel MYSELF good"},
+         {type:"mc",q:"In 'Ik kleed me aan', which part is the separable prefix?",opts:["ik","kleed","me","aan"],ans:"aan",hint:"aankleden splits: kleed...aan"},
+         {type:"drag_fill",s:"De {1} keuken. Een {2} huis.",blanks:{"1":"nieuwe","2":"oud"},pool:["nieuwe","oud","nieuw","oude"],hint:"De-word: -e. Een + het-word: no -e."},
+
+         {type:"mc",q:"At a Dutch birthday, the birthday person:",opts:["receives cake from guests","brings their own cake","doesn't eat cake","buys cake for the office"],ans:"brings their own cake",hint:"YOU provide YOUR cake"},
+         {type:"fb",s:"___ met je verjaardag!",a:"Gefeliciteerd",opts:["Gefeliciteerd","Goedemiddag","Bedankt","Alsjeblieft"],hint:"Happy birthday / Congratulations!"},
+         {type:"mc",q:"The verjaardagskalender hangs in:",opts:["the kitchen","the bedroom","the toilet","the living room"],ans:"the toilet",hint:"Every Dutch home. Always."},
+
+         {type:"fb",s:"Zij ___ de keuken schoon.",a:"maakt",opts:["maakt","schoonmaakt","schoon","maken"],hint:"Separable: verb in pos 2, prefix at end"},
+         {type:"drag_fill",s:"Ik moet de kamer {1}. Ik ruim mijn kamer {2}.",blanks:{"1":"opruimen","2":"op"},pool:["opruimen","op","schoon","uit"],hint:"With modal: whole. Main clause: splits."},
+         {type:"match",pairs:[{nl:"gezellig",en:"cosy/pleasant"},{nl:"lekker",en:"tasty/nice"},{nl:"jarig",en:"having birthday"},{nl:"getrouwd",en:"married"}]},
+
+         {type:"mc",q:"'Wil je iets drinken?' is what a Dutch host always asks. You should:",opts:["refuse politely","accept gratefully","ask what they have","bring your own"],ans:"accept gratefully",hint:"Always accept the coffee!"},
+         {type:"fb",s:"Het was heel ___ hier!",a:"gezellig",opts:["gezellig","lekker","goed","mooi"],hint:"The best compliment when leaving someone's home"},
+         {type:"drag_fill",s:"{1} vader werkt. {2} moeder is jarig.",blanks:{"1":"Mijn","2":"Haar"},pool:["Mijn","Haar","Het","De"],hint:"MY father works. HER mother has a birthday."},
+         {type:"mc",q:"'Doe maar normaal' means:",opts:["Do it again","Just be normal","Do it better","Be more Dutch"],ans:"Just be normal",hint:"The Dutch motto for everything"},
+         {type:"tr",mk:"u5_feel_good",dir:"produce"},
+         {type:"tr",mk:"u5_happy_birthday",dir:"produce"},
+         {type:"tr",mk:"u5_our_house_small",dir:"produce"},
+       ]},
+  ]},
+
+  {n:6,lang:"nl",track:"v2",title:"Onderweg",sub:"Transport, Prepositions & Directions",icon:"🚲",level:"A1.2",color:"var(--purple-accent-text)",lessons:[
+       {id:"v2u6l1",title:"De Fiets",icon:"🚲",xp:15,board:true,steps:[
+         {type:"intro",title:"De Fiets",desc:"Welcome to Unit 6: getting around. And in the Netherlands, getting around starts with one thing  -  de fiets. There are more bicycles than people in this country. This lesson teaches cycling vocabulary, basic prepositions of direction, and why the bike IS Dutch identity.",goals:["Cycling and transport vocabulary","Basic prepositions: naar, van, met","The verb 'gaan' (to go)","Why the Dutch and bikes are inseparable"]},
+
+         {type:"teach",kind:"phrase",nl:"de fiets",en:"the bicycle / bike",phonetic:"duh feets",example:"Ik ga met de fiets.",exampleEn:"I go by bike.",note:"De-word. THE Dutch object.\n23 million bikes for 17 million people.\nPlural: fietsen. Verb: fietsen (to cycle)."},
+         {type:"teach",kind:"word",nl:"fietsen",en:"to cycle / to bike",phonetic:"FEET-sun",example:"Ik fiets elke dag naar het werk.",exampleEn:"I cycle to work every day.",note:"Regular verb. Stam = fiets.\nIk fiets, jij fietst, hij fietst.\n70% of Dutch commutes involve a bicycle."},
+         {type:"teach",kind:"grammar",nl:"gaan",en:"to go",phonetic:"gahn",cognate:{words:[{lang:"English",word:"go"},{lang:"German",word:"gehen"}],family:"germanic"},example:"Ik ga naar het station.",exampleEn:"I go to the station.",note:"Irregular verb! Your most important movement verb.\nik ga, jij gaat, hij gaat, wij gaan.\nSame root as English 'go' and German 'gehen'."},
+
+         {type:"verb_table",title:"Gaan: to go",label:"Full Conjugation",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"ga",en:"I go"},
+              {pronoun:"jij / je",form:"gaat",en:"you go"},
+              {pronoun:"u",form:"gaat",en:"you go (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"gaat",en:"he goes"},
+              {pronoun:"zij / ze",form:"gaat",en:"she goes"},
+              {pronoun:"het",form:"gaat",en:"it goes"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"gaan",en:"we go"},
+              {pronoun:"jullie",form:"gaan",en:"you all go"},
+              {pronoun:"zij / ze",form:"gaan",en:"they go"},
+            ]}
+          ],note:"ik ga (short). jij/hij gaat (long 'aa' + t). wij gaan.\nIn questions: 'Ga jij...?' — the -t drops as always."},
+
+         {type:"teach",kind:"word",nl:"naar",en:"to (direction)",phonetic:"nahr",example:"Ik ga naar Amsterdam.",exampleEn:"I go to Amsterdam.",note:"Direction = naar. 'I go TO the station.'\n'Naar' = towards a destination.\nDon't confuse with 'aan' (at/attached to)."},
+         {type:"teach",kind:"word",nl:"van",en:"from / of",phonetic:"fan",cognate:{words:[{lang:"English",word:"from (different root)"},{lang:"German",word:"von"}],family:"germanic"},example:"Ik kom van het station.",exampleEn:"I come from the station.",note:"Two meanings: 'from' (origin) and 'of' (possession).\nvan het station = from the station.\nde fiets van mijn broer = my brother's bike."},
+         {type:"teach",kind:"word",nl:"met",en:"with / by (transport)",phonetic:"met",example:"Ik ga met de fiets.",exampleEn:"I go by bike.",note:"You learned 'met' = with (koffie met melk).\nFor transport: 'met de fiets' = by bike.\n'Met de trein' = by train. 'Met de auto' = by car."},
+         {type:"teach",kind:"phrase",nl:"de auto",en:"the car",phonetic:"duh OW-toh",cognate:{words:[{lang:"English",word:"auto"},{lang:"German",word:"Auto"}],family:"international"},example:"Hij gaat met de auto naar het werk.",exampleEn:"He goes to work by car.",note:"De-word. Same as German.\nLess popular than the fiets in Dutch cities.\nParking in Amsterdam is €7.50/hour."},
+         {type:"teach",kind:"word",nl:"lopen",en:"to walk",phonetic:"LOH-pun",cognate:{words:[{lang:"English",word:"lope (to run)"},{lang:"German",word:"laufen"}],family:"germanic"},also:"⚠️ False friend: Dutch 'lopen' = to WALK. German 'laufen' = to RUN.",example:"Ik loop naar de winkel.",exampleEn:"I walk to the shop.",note:"Regular verb. Stam = loop.\n⚠️ German speakers: 'lopen' = walk, NOT run!\nDutch 'rennen' = to run."},
+         {type:"teach",kind:"phrase",nl:"de straat",en:"the street",phonetic:"duh straht",cognate:{words:[{lang:"English",word:"street"},{lang:"German",word:"Straße"}],family:"germanic"},example:"De straat is breed.",exampleEn:"The street is wide.",note:"De-word. Plural: straten.\nIdentical root across Germanic languages."},
+
+         {type:"tip",title:"🇳🇱 The Netherlands = Bikes",text:"Some facts about Dutch cycling culture:\n\n• 23 million bikes for 17 million people\n• Dedicated bike lanes (fietspaden) everywhere\n• Children learn to cycle at age 3-4\n• Rain doesn't stop cyclists (nothing does)\n• Bike parking garages hold 10,000+ bikes\n• Amsterdam Central Station has the largest bike parking in the world\n\nHow to say it:\nIk ga met de fiets. = I go by bike.\nIk fiets naar het werk. = I cycle to work.\nIk fiets elke dag. = I cycle every day.\n\nNot cycling in the Netherlands is like not walking.\nThe fiets is not transport. It's identity.",deepDive:{title:"Types of Dutch bikes",text:"de stadsfiets = city bike (upright, practical, heavy)\nde omafiets = 'grandma bike' (classic Dutch style)\nde bakfiets = cargo bike (with a box in front for kids/groceries)\nde e-bike = electric bike (huge among older Dutch people)\nde racefiets = road bike (for sport)\n\nThe omafiets is the icon: black, heavy, one gear, indestructible.\nEvery Dutch person has had one.\n\nThe bakfiets is the Dutch SUV: parents use it to transport\n2-3 children through Amsterdam traffic. Fearlessly."}},
+
+         {type:"mc",q:"There are more ___ than people in the Netherlands.",opts:["cars","bikes","trains","boats"],ans:"bikes",hint:"23 million bikes, 17 million people"},
+         {type:"fb",s:"Ik ___ naar het station.",a:"ga",opts:["ga","gaat","gaan","gaat"],hint:"ik ga (stam of gaan)"},
+         {type:"mc",q:"'Met de fiets' means:",opts:["on the bike","by bike","for the bike","without the bike"],ans:"by bike",hint:"met = by (for transport)"},
+         {type:"match",pairs:[{nl:"fietsen",en:"to cycle"},{nl:"lopen",en:"to walk"},{nl:"gaan",en:"to go"},{nl:"naar",en:"to (direction)"}]},
+         {type:"drag_fill",s:"Ik ga {1} de fiets {2} het werk.",blanks:{"1":"met","2":"naar"},pool:["met","naar","van","in"],hint:"BY bike TO work"},
+         {type:"fb",s:"Hij ___ met de auto naar Amsterdam.",a:"gaat",opts:["gaat","ga","gaan","gat"],hint:"hij = stam + t"},
+         {type:"mc",q:"Dutch 'lopen' means 'to walk'. German 'laufen' means:",opts:["to walk","to run","to stop","to drive"],ans:"to run",hint:"False friend across the border!"},
+         {type:"mc",q:"'De fiets van mijn broer'  -  'van' means:",opts:["to","from","of (possession)","with"],ans:"of (possession)",hint:"my brother's bike"},
+         {type:"tr",mk:"u6_cycle_work",dir:"produce"},
+         {type:"tr",mk:"u6_go_station",dir:"produce"},
+       ]},
+       {id:"v2u6l2",title:"Links, Rechts, Rechtdoor",icon:"🧭",xp:15,board:true,steps:[
+         {type:"intro",title:"Links, Rechts, Rechtdoor",desc:"How to give and understand directions. The three magic words: links (left), rechts (right), rechtdoor (straight ahead). Plus the verbs and phrases you need to navigate any Dutch city on foot or by bike.",goals:["Left, right, straight ahead","Giving simple directions","'Neem de eerste straat links'","Direction phrases for daily life"]},
+
+         {type:"teach",kind:"word",nl:"links",en:"left",phonetic:"links",cognate:{words:[{lang:"English",word:"left (related: link = left-handed)"},{lang:"German",word:"links"}],family:"germanic"},example:"Ga links.",exampleEn:"Go left.",note:"Same word as German!\nNote: Dutch drives on the RIGHT side of the road.\n'Linksaf' = turning left."},
+         {type:"teach",kind:"word",nl:"rechts",en:"right",phonetic:"regts",cognate:{words:[{lang:"English",word:"right"},{lang:"German",word:"rechts"}],family:"germanic"},example:"Het station is rechts.",exampleEn:"The station is on the right.",note:"Same as German. The 'ch' = throat sound.\n'Rechtsaf' = turning right."},
+         {type:"teach",kind:"word",nl:"rechtdoor",en:"straight ahead",phonetic:"REGT-dohr",example:"Ga rechtdoor.",exampleEn:"Go straight ahead.",note:"recht (straight) + door (through) = straight ahead.\nThe most useful direction word.\n'Ga rechtdoor tot het einde.' = Go straight to the end."},
+         {type:"teach",kind:"phrase",nl:"de hoek",en:"the corner",phonetic:"duh hook",cognate:{words:[{lang:"English",word:"hook (angle)"},{lang:"German",word:"Ecke (different word)"}],family:"germanic"},example:"Op de hoek is een winkel.",exampleEn:"On the corner there is a shop.",note:"De-word. 'Om de hoek' = around the corner.\nRelated to English 'hook' (angle/bend)."},
+         {type:"teach",kind:"phrase",nl:"de brug",en:"the bridge",phonetic:"duh brug",cognate:{words:[{lang:"English",word:"bridge"},{lang:"German",word:"Brücke"}],family:"germanic"},example:"Ga over de brug.",exampleEn:"Go over the bridge.",note:"De-word. The Netherlands has ~20,000 bridges.\nAmsterdam alone has 1,700.\n'Over de brug' = over/across the bridge."},
+         {type:"teach",kind:"word",nl:"over",en:"over / across",phonetic:"OH-vur",cognate:{words:[{lang:"English",word:"over"},{lang:"German",word:"über"}],family:"germanic"},example:"Ga over de brug.",exampleEn:"Go over the bridge.",note:"Same as English 'over'.\n'Over de straat' = across the street.\n'Over de brug' = over the bridge."},
+         {type:"teach",kind:"word",nl:"tot",en:"until / to",phonetic:"tot",example:"Ga rechtdoor tot de brug.",exampleEn:"Go straight ahead until the bridge.",note:"'Tot' = until (endpoint).\n'Tot ziens!' = Until seeing! (goodbye)\nYou already know this from 'tot ziens'!"},
+         {type:"teach",kind:"phrase",nl:"de eerste",en:"the first",phonetic:"duh AYR-stuh",cognate:{words:[{lang:"English",word:"first (erst)"},{lang:"German",word:"erste"}],family:"germanic"},example:"Neem de eerste straat links.",exampleEn:"Take the first street on the left.",note:"Ordinal number: eerste = first.\nTweede = second, derde = third.\nYou'll learn more ordinals later."},
+         {type:"teach",kind:"grammar",nl:"nemen",en:"to take",phonetic:"NAY-mun",cognate:{words:[{lang:"German",word:"nehmen"}],family:"germanic"},example:"Neem de tweede straat rechts.",exampleEn:"Take the second street on the right.",note:"Irregular verb. Stam = neem.\nik neem, jij neemt, hij neemt.\nFor directions: 'Neem de eerste/tweede straat...'"},
+
+         {type:"tip",title:"🧭 Giving Directions in Dutch",text:"The essential direction phrases:\n\nGa links. = Go left.\nGa rechts. = Go right.\nGa rechtdoor. = Go straight.\nGa over de brug. = Go over the bridge.\n\nNeem de eerste straat links. = Take the first street left.\nNeem de tweede straat rechts. = Take the second street right.\n\nGa rechtdoor tot de hoek. = Go straight to the corner.\nHet is om de hoek. = It's around the corner.\nHet is aan de linkerkant. = It's on the left side.\nHet is aan de rechterkant. = It's on the right side.\n\nThese 10 phrases will get you anywhere."},
+
+         {type:"mc",q:"'Ga rechtdoor tot de brug.' means:",opts:["Go left to the bridge.","Go straight until the bridge.","Go right over the bridge.","Go back to the bridge."],ans:"Go straight until the bridge.",hint:"rechtdoor = straight, tot = until"},
+         {type:"fb",s:"Neem de eerste straat ___.",a:"links",opts:["links","rechts","rechtdoor","over"],hint:"Take the first street LEFT"},
+         {type:"match",pairs:[{nl:"links",en:"left"},{nl:"rechts",en:"right"},{nl:"rechtdoor",en:"straight ahead"},{nl:"de hoek",en:"the corner"}]},
+         {type:"drag_fill",s:"Ga {1} de brug. Het is om de {2}.",blanks:{"1":"over","2":"hoek"},pool:["over","hoek","tot","straat"],hint:"Go OVER the bridge. Around the CORNER."},
+         {type:"fb",s:"Ga rechtdoor ___ het station.",a:"tot",opts:["tot","naar","van","met"],hint:"Straight ahead UNTIL the station"},
+         {type:"mc",q:"Amsterdam has approximately how many bridges?",opts:["170","1,700","17,000","17"],ans:"1,700",hint:"More than Venice!"},
+         {type:"mc",q:"'Neem de tweede straat rechts'  -  'neem' is the stam of:",opts:["nemen","namen","nomen","niemen"],ans:"nemen",hint:"to take = nemen"},
+         {type:"fb",s:"Het station is aan de ___kant.",a:"linker",opts:["linker","rechter","links","rechts"],hint:"On the LEFT side"},
+         {type:"tr",mk:"u6_straight_bridge",dir:"produce"},
+         {type:"tr",mk:"u6_first_street_left",dir:"produce"},
+       ]},
+       {id:"v2u6l3",title:"Met de Trein",icon:"🚉",xp:20,board:true,steps:[
+         {type:"intro",title:"Met de Trein",desc:"Dutch trains (NS) connect every city. They're efficient, frequent  -  and the Dutch love to complain about them. This lesson teaches train vocabulary and separable verbs of movement: instappen (get in), uitstappen (get out), overstappen (transfer).",goals:["Train and transport vocabulary","Separable movement verbs (in/uit/overstappen)","Buy a ticket and understand announcements","Dutch train culture (and complaints)"]},
+
+         {type:"teach",kind:"phrase",nl:"de trein",en:"the train",phonetic:"duh trayn",cognate:{words:[{lang:"English",word:"train"},{lang:"German",word:"Zug (different word)"}],family:"international"},example:"De trein naar Amsterdam vertrekt om drie uur.",exampleEn:"The train to Amsterdam departs at three o'clock.",note:"De-word. Plural: treinen.\n'Met de trein' = by train.\nNS (Nederlandse Spoorwegen) runs the national trains."},
+         {type:"teach",kind:"phrase",nl:"het station",en:"the station",phonetic:"hut stah-SYON",cognate:{words:[{lang:"English",word:"station"},{lang:"German",word:"Bahnhof (different)"}],family:"international"},example:"Het station is om de hoek.",exampleEn:"The station is around the corner.",note:"Het-word. Same as English/French.\nAmsterdam Centraal is the main hub.\nEvery Dutch city has at least one station."},
+         {type:"teach",kind:"phrase",nl:"het perron",en:"the platform",phonetic:"hut peh-RON",cognate:{words:[{lang:"French",word:"perron"}],family:"french"},example:"De trein vertrekt van perron vijf.",exampleEn:"The train departs from platform five.",note:"Het-word. From French.\n'Perron 3' = Platform 3.\nAnnounced before every departure."},
+         {type:"teach",kind:"phrase",nl:"het kaartje",en:"the ticket",phonetic:"hut KAHR-tyuh",example:"Een kaartje naar Utrecht, alsjeblieft.",exampleEn:"A ticket to Utrecht, please.",note:"Het-word (diminutive of 'kaart').\n'Een kaartje' = a ticket.\nThe OV-chipkaart is the Dutch transit card."},
+
+         {type:"teach",kind:"word",nl:"instappen",en:"to get in / to board",phonetic:"IN-stap-pun",example:"We stappen in de trein in.",exampleEn:"We get on the train.",note:"Separable: in + stappen.\nStappen = to step. In = in/into.\n'Stap in!' = Get in! Board!"},
+         {type:"teach",kind:"word",nl:"uitstappen",en:"to get out / to exit",phonetic:"OYT-stap-pun",example:"We stappen in Utrecht uit.",exampleEn:"We get out at Utrecht.",note:"Separable: uit + stappen.\nOpposite of instappen.\n'Stap uit!' = Get out! Exit!"},
+         {type:"teach",kind:"word",nl:"overstappen",en:"to transfer / to change (trains)",phonetic:"OH-vur-stap-pun",example:"Je moet in Amersfoort overstappen.",exampleEn:"You have to transfer in Amersfoort.",note:"Separable: over + stappen.\n'Overstappen' is the bane of Dutch commuters.\nWith modal: 'Je moet overstappen' (stays whole)."},
+         {type:"teach",kind:"grammar",nl:"vertrekken",en:"to depart / to leave",phonetic:"fur-TREK-kun",example:"De trein vertrekt om half vier.",exampleEn:"The train departs at half past three.",note:"NOT separable! 'ver-' is an inseparable prefix.\n'De trein vertrekt.' (never 'trekt ... ver')\nCompare: in/uit/over = separable. ver- = inseparable."},
+         {type:"teach",kind:"word",nl:"aankomen",en:"to arrive",phonetic:"AHN-koh-mun",example:"Wij komen om vijf uur aan.",exampleEn:"We arrive at five o'clock.",note:"Separable: aan + komen.\n'Hoe laat komt de trein aan?'\n= What time does the train arrive?"},
+
+         {type:"tip",title:"🚆 NS: Dutch Trains",text:"NS (Nederlandse Spoorwegen) runs Dutch trains.\n\nThe good: frequent (every 10-15 min between major cities),\nclean, reliable (usually).\n\nThe bad: the Dutch LOVE to complain about NS.\n'De trein heeft vijf minuten vertraging.'\n= The train has 5 minutes delay.\nThis is genuinely considered a scandal.\n\nUseful phrases:\nEen kaartje naar Amsterdam. = A ticket to Amsterdam.\nVan welk perron? = From which platform?\nMoet ik overstappen? = Do I need to transfer?\nHoe laat komt de trein aan? = What time does the train arrive?\n\nThe OV-chipkaart: a reloadable card for all public transport\n(trains, buses, trams, metro). Tap in, tap out.",deepDive:{title:"In/uit/over: the separable trio",text:"These three verbs share 'stappen' (to step):\n\ninstappen = step IN (board)\nuitstappen = step OUT (exit)\noverstappen = step OVER (transfer)\n\nAll three are separable:\nIk stap in de trein in.\nIk stap in Utrecht uit.\nIk stap in Amersfoort over.\n\nWith modals, they stay whole:\nIk moet in Amersfoort overstappen.\nJe kan in Den Haag uitstappen.\n\nCompare: vertrekken (ver- prefix) is NOT separable.\n'De trein vertrekt.' (never splits)\n\nRule of thumb:\nStressed prefix (ín-stappen) = separable.\nUnstressed prefix (ver-trékken) = inseparable."}},
+
+         {type:"mc",q:"'Overstappen' means:",opts:["to step over","to get on","to transfer trains","to walk away"],ans:"to transfer trains",hint:"over + stappen = change/transfer"},
+         {type:"fb",s:"De trein ___ om drie uur.",a:"vertrekt",opts:["vertrekt","trekt ver","vertreken","trekt"],hint:"vertrekken is INseparable (ver-)"},
+         {type:"mc",q:"Which prefix is INseparable?",opts:["in-","uit-","over-","ver-"],ans:"ver-",hint:"vertrekken never splits"},
+         {type:"match",pairs:[{nl:"instappen",en:"to board"},{nl:"uitstappen",en:"to exit"},{nl:"overstappen",en:"to transfer"},{nl:"aankomen",en:"to arrive"}]},
+         {type:"drag_fill",s:"Wij stappen in Utrecht {1}. De trein {2} om vier uur.",blanks:{"1":"uit","2":"vertrekt"},pool:["uit","vertrekt","over","trekt"],hint:"Exit at Utrecht. The train departs."},
+         {type:"fb",s:"Een ___ naar Rotterdam, alsjeblieft.",a:"kaartje",opts:["kaartje","trein","perron","station"],hint:"A ticket, please"},
+         {type:"mc",q:"The OV-chipkaart is used for:",opts:["only trains","only buses","all public transport","only in Amsterdam"],ans:"all public transport",hint:"Trains, buses, trams, metro  -  everything"},
+         {type:"fb",s:"Je moet in Amersfoort ___.",a:"overstappen",opts:["overstappen","instappen","uitstappen","vertrekken"],hint:"Transfer at Amersfoort (with modal = stays whole)"},
+         {type:"tr",mk:"u6_ticket_amsterdam",dir:"produce"},
+         {type:"tr",mk:"u6_train_departs",dir:"produce"},
+       ]},
+       {id:"v2u6l4",title:"Waar is het Station?",icon:"📍",xp:15,board:true,steps:[
+         {type:"intro",title:"Waar is het Station?",desc:"Asking for and understanding directions. You know links/rechts/rechtdoor. Now learn to ask 'where is...?' and understand the answers. Plus: the word 'er' as a location placeholder  -  one of the trickiest small words in Dutch.",goals:["'Waar is...?' questions","Understand direction answers","Introduction to 'er' (there/location)","Ask for help politely"]},
+
+         {type:"teach",kind:"word",nl:"waar",en:"where",phonetic:"vahr",example:"Waar is het station?",exampleEn:"Where is the station?",note:"You learned this in Unit 1.\n'Waar?' = Where?\n'Waar is...?' = Where is...? The most useful question for navigation."},
+         {type:"teach",kind:"word",nl:"hier",en:"here",phonetic:"heer",cognate:{words:[{lang:"English",word:"here"},{lang:"German",word:"hier"}],family:"germanic"},example:"Het station is hier.",exampleEn:"The station is here.",note:"Identical to German.\nSame root as English 'here'.\n'Hier in de buurt' = around here / nearby."},
+         {type:"teach",kind:"word",nl:"daar",en:"there",phonetic:"dahr",cognate:{words:[{lang:"English",word:"there"},{lang:"German",word:"da/dort"}],family:"germanic"},example:"Het station is daar.",exampleEn:"The station is there.",note:"Points to a specific place.\n'Daar rechts' = there on the right.\n'Daar links' = there on the left."},
+         {type:"teach",kind:"word",nl:"er",en:"there (unstressed) / it (placeholder)",phonetic:"ur",example:"Er is een station in de buurt.",exampleEn:"There is a station nearby.",note:"The most versatile small word in Dutch.\nYou already know: 'Er is een kat.' = There is a cat.\nHere: 'er' as a vague location reference.\n'Hoe kom ik er?' = How do I get there?"},
+         {type:"teach",kind:"word",nl:"dichtbij",en:"nearby / close",phonetic:"DIGT-bay",example:"Het station is dichtbij.",exampleEn:"The station is nearby.",note:"dicht (close) + bij (at) = nearby.\nOpposite: ver (far) or veraf (far away).\n'Is het dichtbij?' = Is it nearby?"},
+         {type:"teach",kind:"word",nl:"ver",en:"far",phonetic:"fair",cognate:{words:[{lang:"English",word:"far"},{lang:"German",word:"fern"}],family:"germanic"},example:"Het is niet ver.",exampleEn:"It's not far.",note:"Opposite of dichtbij.\n'Is het ver?' = Is it far?\n'Niet ver' = not far. Very useful reassurance."},
+         {type:"teach",kind:"phrase",nl:"de buurt",en:"the neighborhood / area",phonetic:"duh buurt",cognate:{words:[{lang:"English",word:"borough (related)"}],family:"germanic"},example:"Hier in de buurt is een supermarkt.",exampleEn:"There's a supermarket around here.",note:"De-word. 'In de buurt' = in the area / nearby.\n'Hier in de buurt' = around here.\nAlso: 'de buurman' (neighbor) comes from 'buurt'."},
+
+         {type:"tip",title:"🗺️ Asking for Directions",text:"Excuse me + question:\nSorry, waar is het station? = Sorry, where is the station?\nPardon, is er een supermarkt in de buurt?\n= Pardon, is there a supermarket nearby?\n\nUseful follow-up questions:\nIs het ver? = Is it far?\nIs het dichtbij? = Is it nearby?\nHoe kom ik er? = How do I get there?\nKun je dat herhalen? = Can you repeat that?\n\nUseful answers to understand:\nHet is daar. = It's there.\nHet is om de hoek. = It's around the corner.\nHet is vijf minuten lopen. = It's a 5-minute walk.\nGa rechtdoor en dan links. = Go straight and then left."},
+
+         {type:"teach",kind:"word",nl:"dan",en:"then",phonetic:"dan",cognate:{words:[{lang:"English",word:"then"},{lang:"German",word:"dann"}],family:"germanic"},example:"Ga rechtdoor en dan links.",exampleEn:"Go straight and then left.",note:"Connects steps in directions.\n'Eerst rechtdoor, dan links, dan rechts.'\n= First straight, then left, then right."},
+         {type:"teach",kind:"phrase",nl:"de minuut",en:"the minute",phonetic:"duh mee-NUWT",cognate:{words:[{lang:"English",word:"minute"}],family:"international"},example:"Het is vijf minuten lopen.",exampleEn:"It's a five-minute walk.",note:"De-word. Plural: minuten.\n'Vijf minuten lopen' = five minutes walking.\n'Tien minuten fietsen' = ten minutes cycling."},
+
+         {type:"mc",q:"'Hoe kom ik er?' means:",opts:["How far is it?","How do I get there?","Where am I?","Can I go there?"],ans:"How do I get there?",hint:"er = there (location placeholder)"},
+         {type:"fb",s:"Het station is ___. (nearby)",a:"dichtbij",opts:["dichtbij","ver","hier","daar"],hint:"Close, not far"},
+         {type:"match",pairs:[{nl:"hier",en:"here"},{nl:"daar",en:"there (specific)"},{nl:"er",en:"there (unstressed)"},{nl:"dichtbij",en:"nearby"}]},
+         {type:"drag_fill",s:"Ga rechtdoor en {1} links. Het is vijf minuten {2}.",blanks:{"1":"dan","2":"lopen"},pool:["dan","lopen","hier","ver"],hint:"Then left. Five minutes walking."},
+         {type:"fb",s:"Is ___ een supermarkt in de buurt?",a:"er",opts:["er","het","de","hier"],hint:"Is THERE a supermarket nearby?"},
+         {type:"mc",q:"'Hier in de buurt' means:",opts:["far from here","around here","in this house","behind the station"],ans:"around here",hint:"buurt = neighborhood/area"},
+         {type:"fb",s:"___ is het station?",a:"Waar",opts:["Waar","Wat","Wie","Hoe"],hint:"WHERE is the station?"},
+         {type:"mc",q:"'Het is tien minuten fietsen.'  -  fietsen here means:",opts:["by bike (cycling distance)","the bike","to fix","to walk"],ans:"by bike (cycling distance)",hint:"10 minutes of cycling"},
+         {type:"tr",mk:"u6_where_station",dir:"produce"},
+         {type:"tr",mk:"u6_not_far",dir:"produce"},
+       ]},
+       {id:"v2u6l5",title:"Op, In, Aan, Bij",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Op, In, Aan, Bij",desc:"Prepositions are the glue of Dutch sentences. You've used naar, van, met, over, tot. Now the big four location prepositions: op (on), in (in), aan (at/on), bij (at/near). Each has its own logic  -  and its own surprises.",goals:["4 core location prepositions","When to use which one","Common fixed expressions","Preposition + article contractions"]},
+
+         {type:"teach",kind:"word",nl:"op",en:"on / at (surface/specific place)",phonetic:"op",cognate:{words:[{lang:"English",word:"on / up"},{lang:"German",word:"auf"}],family:"germanic"},also:"also: 'op maandag' (on Monday), 'op het werk' (at work)",example:"Het boek ligt op de tafel.",exampleEn:"The book lies on the table.",note:"Surface contact: 'op de tafel' (on the table).\nSpecific places: 'op het werk' (at work).\nTimes: 'op maandag' (on Monday  -  you know this!)."},
+         {type:"teach",kind:"word",nl:"in",en:"in / inside",phonetic:"in",cognate:{words:[{lang:"English",word:"in"},{lang:"German",word:"in"}],family:"germanic"},example:"De melk is in de koelkast.",exampleEn:"The milk is in the fridge.",note:"Containment: inside something.\n'In de keuken' = in the kitchen.\n'In Amsterdam' = in Amsterdam.\n'In de winter' = in winter (you know this!)."},
+         {type:"teach",kind:"word",nl:"aan",en:"at / on (attached/along)",phonetic:"ahn",cognate:{words:[{lang:"English",word:"on (cognate)"},{lang:"German",word:"an"}],family:"germanic"},example:"Het schilderij hangt aan de muur.",exampleEn:"The painting hangs on the wall.",note:"Attached/along: 'aan de muur' (on the wall  -  attached).\nAlong: 'aan de gracht' (on/along the canal).\n'Aan de linkerkant' = on the left side."},
+         {type:"teach",kind:"word",nl:"bij",en:"at / near / with (someone's place)",phonetic:"bay",cognate:{words:[{lang:"English",word:"by"},{lang:"German",word:"bei"}],family:"germanic"},example:"Ik ben bij de huisarts.",exampleEn:"I am at the doctor.",note:"Proximity or someone's place:\n'Bij de dokter' = at the doctor.\n'Bij oma' = at grandma's (place).\n'Bij de ingang' = near the entrance."},
+
+         {type:"tip",title:"📐 Op vs In vs Aan vs Bij",text:"OP = on a surface / at a specific place\nop de tafel = on the table\nop het station = at the station\nop het werk = at work\nop school = at school\n\nIN = inside / within\nin de koelkast = in the fridge\nin de stad = in the city\nin Amsterdam = in Amsterdam\nin de auto = in the car\n\nAAN = attached to / along\naan de muur = on the wall (hanging)\naan de gracht = along the canal\naan de linkerkant = on the left side\naan tafel = at the table (dining)\n\nBIJ = near / at someone's place\nbij het station = near the station\nbij de ingang = near the entrance\nbij oma = at grandma's place\nbij de huisarts = at the doctor\n\n⚠️ Many are fixed expressions  -  learn the combinations,\nnot just the individual prepositions.",deepDive:{title:"The tricky ones: op vs in vs aan",text:"Some choices seem arbitrary but have logic:\n\n'op het station' vs 'in de trein'\nYou're ON the platform but IN the vehicle.\n\n'aan de muur' vs 'op de tafel'\nThe painting is attached TO the wall (aan).\nThe book rests ON the table surface (op).\n\n'op school' vs 'in de school'\n'Op school' = at school (the institution).\n'In de school' = inside the school building.\n\nThese follow the same logic as German auf/in/an\nand somewhat like English on/in/at.\n\nWhen in doubt: learn the expression as a chunk,\nnot as individual words."}},
+
+         {type:"teach",kind:"phrase",nl:"de tafel",en:"the table",phonetic:"duh TAH-ful",cognate:{words:[{lang:"English",word:"table"},{lang:"German",word:"Tafel"}],family:"germanic"},example:"Het eten staat op de tafel.",exampleEn:"The food is on the table.",note:"De-word. Plural: tafels.\nSame word as German 'Tafel'."},
+         {type:"teach",kind:"phrase",nl:"de muur",en:"the wall",phonetic:"duh muwr",cognate:{words:[{lang:"English",word:"mural (wall)"},{lang:"German",word:"Mauer"}],family:"germanic"},example:"Het schilderij hangt aan de muur.",exampleEn:"The painting hangs on the wall.",note:"De-word. Related to English 'mural'.\n'Aan de muur' = on the wall (attached).\nNot 'op de muur' (that implies sitting on top of it)."},
+         {type:"teach",kind:"phrase",nl:"de deur",en:"the door",phonetic:"duh duhr",cognate:{words:[{lang:"English",word:"door"},{lang:"German",word:"Tür"}],family:"germanic"},example:"De deur is open.",exampleEn:"The door is open.",note:"De-word. Nearly identical to English 'door'.\nSame root as 'through' (Dutch: door)  -  a door is\nwhat you go THROUGH. English split the words;\nDutch uses 'door' for both the noun and 'through'.\n'Bij de deur' = near/at the door."},
+
+         {type:"mc",q:"'Het boek ligt OP de tafel.'  -  'op' here means:",opts:["in","on (surface)","near","at"],ans:"on (surface)",hint:"Resting on the surface"},
+         {type:"fb",s:"Het schilderij hangt ___ de muur.",a:"aan",opts:["aan","op","in","bij"],hint:"Attached to the wall"},
+         {type:"mc",q:"'Bij oma' means:",opts:["from grandma","in grandma","at grandma's place","on grandma"],ans:"at grandma's place",hint:"bij = at someone's place"},
+         {type:"match",pairs:[{nl:"op de tafel",en:"on the table"},{nl:"in de keuken",en:"in the kitchen"},{nl:"aan de muur",en:"on the wall"},{nl:"bij de deur",en:"near the door"}]},
+         {type:"drag_fill",s:"De melk is {1} de koelkast. Het boek ligt {2} de tafel.",blanks:{"1":"in","2":"op"},pool:["in","op","aan","bij"],hint:"Milk is INSIDE. Book is ON surface."},
+         {type:"fb",s:"Ik ben ___ het werk.",a:"op",opts:["op","in","aan","bij"],hint:"At work = op het werk (fixed expression)"},
+         {type:"mc",q:"'Op school' vs 'in de school'  -  the difference is:",opts:["no difference","op = the institution, in = the building","op = outside, in = inside","op is formal, in is casual"],ans:"op = the institution, in = the building",hint:"At school (concept) vs inside the school (place)"},
+         {type:"fb",s:"Wij zitten ___ tafel.",a:"aan",opts:["aan","op","in","bij"],hint:"Sitting at the table (dining) = aan tafel"},
+         {type:"mc",q:"Which preposition means 'near' or 'at someone's place'?",opts:["op","in","aan","bij"],ans:"bij",hint:"bij oma = at grandma's"},
+         {type:"tr",mk:"u6_book_on_table",dir:"produce"},
+         {type:"tr",mk:"u6_at_work",dir:"produce"},
+       ]},
+       {id:"v2u6l6",title:"Even naar de Winkel",icon:"🛒",xp:15,board:true,steps:[
+         {type:"intro",title:"Even naar de Winkel",desc:"'Even' is the most Dutch word you haven't learned yet. It means 'just (quickly)' and the Dutch put it in EVERYTHING. 'Ik ga even naar de winkel.' This lesson teaches 'even', quick errand vocabulary, and more everyday movement phrases.",goals:["The word 'even' (just quickly)","Shopping and errand vocabulary","Combine prepositions with movement","Quick Dutch conversations"]},
+
+         {type:"teach",kind:"word",nl:"even",en:"just (quickly) / for a moment",phonetic:"AY-vun",example:"Ik ga even naar de winkel.",exampleEn:"I'm just going to the shop quickly.",note:"THE most Dutch filler word.\n'Even' softens everything. It says: this is quick, casual, no big deal.\n'Wacht even' = wait a moment.\n'Mag ik even?' = May I just...?"},
+         {type:"teach",kind:"phrase",nl:"de supermarkt",en:"the supermarket",phonetic:"duh SOO-pur-markt",cognate:{words:[{lang:"English",word:"supermarket"},{lang:"German",word:"Supermarkt"}],family:"international"},example:"Ik ga even naar de supermarkt.",exampleEn:"I'm just popping to the supermarket.",note:"De-word. Albert Heijn (AH) is the biggest chain.\n'De AH' = the Albert Heijn. Every Dutch person knows it."},
+         {type:"teach",kind:"phrase",nl:"de apotheek",en:"the pharmacy",phonetic:"duh ah-poh-TAYK",cognate:{words:[{lang:"English",word:"apothecary"},{lang:"German",word:"Apotheke"}],family:"international"},example:"De apotheek is op de hoek.",exampleEn:"The pharmacy is on the corner.",note:"De-word. In NL, you need the huisarts (GP) first,\nthen a recept (prescription), then the apotheek.\nNo buying prescription medicine without it."},
+         {type:"teach",kind:"phrase",nl:"de bakker",en:"the baker / bakery",phonetic:"duh BAK-kur",cognate:{words:[{lang:"English",word:"baker"},{lang:"German",word:"Bäcker"}],family:"germanic"},example:"Ik koop brood bij de bakker.",exampleEn:"I buy bread at the bakery.",note:"De-word. 'Bij de bakker' = at the baker's.\nDutch bakeries: vers brood (fresh bread),\ntaarten, and kroketten (croquettes)."},
+         {type:"teach",kind:"word",nl:"halen",en:"to get / to fetch / to pick up",phonetic:"HAH-lun",example:"Ik ga even brood halen.",exampleEn:"I'm just going to get bread.",note:"Regular verb. Stam = haal.\n'Brood halen' = to get bread.\n'Koffie halen' = to get coffee.\nAlso: 'afhalen' = to pick up (separable)."},
+         {type:"teach",kind:"word",nl:"brengen",en:"to bring",phonetic:"BRENG-un",cognate:{words:[{lang:"English",word:"bring"},{lang:"German",word:"bringen"}],family:"germanic"},example:"Ik breng je naar het station.",exampleEn:"I'll bring you to the station.",note:"Regular verb. Stam = breng.\nIdentical to English 'bring'.\n'Ik breng de kinderen naar school.' = I take the kids to school."},
+
+         {type:"tip",title:"🇳🇱 'Even': The Most Dutch Word",text:"'Even' makes everything casual and friendly:\n\nIk ga even naar de winkel. = I'm just popping to the shop.\nWacht even. = Wait a moment.\nMag ik even? = May I just...?\nKun je even helpen? = Can you just help (for a sec)?\nIk ga even koffie halen. = I'm just getting coffee.\nEven kijken... = Let me just look...\n\n'Even' says: this is quick, this is casual, no big deal.\nIt's the verbal equivalent of a shrug.\n\nThe Dutch use 'even' 20+ times a day.\nOnce you start noticing it, you can't stop.\nYou'll start using it yourself within a week."},
+
+         {type:"teach",kind:"word",nl:"terug",en:"back",phonetic:"tuh-RUG",example:"Ik ben zo terug.",exampleEn:"I'll be right back.",note:"'Terug' = back (direction).\n'Ik ga terug' = I go back.\n'Ik ben zo terug' = I'll be right back.\n'Zo' = so/soon  -  'in a moment'."},
+         {type:"teach",kind:"word",nl:"samen",en:"together",phonetic:"SAH-mun",cognate:{words:[{lang:"English",word:"same/together"},{lang:"German",word:"zusammen"}],family:"germanic"},example:"Gaan we samen naar de winkel?",exampleEn:"Shall we go to the shop together?",note:"'Samen' = together.\n'Samen eten' = eat together.\n'Samen fietsen' = cycle together.\nRelated to English 'same'."},
+
+         {type:"mc",q:"'Even' in Dutch means:",opts:["also","never","just (quickly)","always"],ans:"just (quickly)",hint:"Softens and casualizes everything"},
+         {type:"fb",s:"Ik ga ___ naar de supermarkt.",a:"even",opts:["even","altijd","nooit","niet"],hint:"Just quickly / for a moment"},
+         {type:"match",pairs:[{nl:"de supermarkt",en:"supermarket"},{nl:"de apotheek",en:"pharmacy"},{nl:"de bakker",en:"bakery"},{nl:"halen",en:"to get/fetch"}]},
+         {type:"drag_fill",s:"Ik ga even brood {1}. Ik ben zo {2}.",blanks:{"1":"halen","2":"terug"},pool:["halen","terug","even","naar"],hint:"Get bread. Be right back."},
+         {type:"fb",s:"Ik koop brood ___ de bakker.",a:"bij",opts:["bij","op","in","aan"],hint:"At the baker's = bij de bakker"},
+         {type:"mc",q:"Albert Heijn (AH) is:",opts:["a Dutch bank","the largest Dutch supermarket chain","a train company","a bicycle brand"],ans:"the largest Dutch supermarket chain",hint:"Every Dutch town has one"},
+         {type:"fb",s:"Gaan we ___ naar de winkel?",a:"samen",opts:["samen","even","altijd","ook"],hint:"Together"},
+         {type:"mc",q:"'Wacht even' means:",opts:["wait always","wait never","wait a moment","don't wait"],ans:"wait a moment",hint:"even = just a moment"},
+         {type:"tr",mk:"u6_just_going_shop",dir:"produce"},
+         {type:"tr",mk:"u6_right_back",dir:"produce"},
+       ]},
+       {id:"v2u6l7",title:"Verdwaald!",icon:"🗺️",xp:15,board:true,steps:[
+         {type:"intro",title:"Verdwaald!",desc:"You're lost in a Dutch city. This lesson puts all of Unit 6 together in a realistic scenario: asking strangers for help, understanding their directions, and finding your way. One extended dialogue with exercises between each section.",goals:["Ask for help when lost","Understand complex directions","Polite conversation starters","Combine all Unit 6 vocabulary"]},
+
+         {type:"teach",kind:"word",nl:"verdwaald",en:"lost",phonetic:"fur-DVAHLT",example:"Sorry, ik ben verdwaald.",exampleEn:"Sorry, I'm lost.",note:"Past participle of 'verdwalen' (to get lost).\n'Ik ben verdwaald' = I am lost.\nA very useful sentence for tourists."},
+         {type:"teach",kind:"word",nl:"helpen",en:"to help",phonetic:"HEL-pun",cognate:{words:[{lang:"English",word:"help"},{lang:"German",word:"helfen"}],family:"germanic"},example:"Kunt u mij helpen?",exampleEn:"Can you help me?",note:"Regular verb. Stam = help.\n'Kunt u mij helpen?' = formal request for help.\n'Kun je me helpen?' = informal."},
+         {type:"teach",kind:"word",nl:"zoeken",en:"to look for / to search",phonetic:"ZOO-kun",example:"Ik zoek het station.",exampleEn:"I'm looking for the station.",note:"Regular verb. Stam = zoek.\n'Ik zoek...' = I'm looking for...\nNo preposition needed! (Unlike English 'look FOR')"},
+         {type:"teach",kind:"grammar",nl:"weten",en:"to know (a fact)",phonetic:"VAY-tun",cognate:{words:[{lang:"English",word:"wit (know)"},{lang:"German",word:"wissen"}],family:"germanic"},example:"Weet u waar het station is?",exampleEn:"Do you know where the station is?",note:"Irregular: ik weet, jij weet, hij weet, wij weten.\nAll singular forms = weet.\n'Ik weet het niet.' = I don't know."},
+         {type:"teach",kind:"word",nl:"misschien",en:"maybe / perhaps",phonetic:"mis-SGEEN",example:"Misschien is het om de hoek.",exampleEn:"Maybe it's around the corner.",note:"Long word but very useful.\n'Misschien' = perhaps.\nOften starts a suggestion."},
+
+         {type:"tip",title:"🗺️ Lost in the Netherlands: A Dialogue",text:"YOU: Sorry, kunt u mij helpen?\n= Sorry, can you help me?\n\nSTRANGER: Ja, natuurlijk! Wat zoek je?\n= Yes, of course! What are you looking for?\n\nYOU: Ik zoek het Rijksmuseum. Ik ben verdwaald.\n= I'm looking for the Rijksmuseum. I'm lost.\n\nSTRANGER: Ah, dat is niet ver! Ga hier rechtdoor,\nneem de tweede straat links, en dan ga je over de brug.\nHet is aan de rechterkant.\n= Ah, it's not far! Go straight here,\ntake the second street left, and then go over the bridge.\nIt's on the right side.\n\nYOU: Hoeveel minuten lopen is het?\n= How many minutes walking is it?\n\nSTRANGER: Vijf minuten, misschien tien.\n= Five minutes, maybe ten.\n\nYOU: Dank u wel!\n= Thank you!\n\nSTRANGER: Geen probleem! Veel plezier!\n= No problem! Have fun!"},
+
+         {type:"teach",kind:"word",nl:"natuurlijk",en:"of course / naturally",phonetic:"nah-TUWR-luk",cognate:{words:[{lang:"English",word:"naturally"},{lang:"German",word:"natürlich"}],family:"germanic"},example:"Ja, natuurlijk!",exampleEn:"Yes, of course!",note:"Very common response to requests.\n'Kun je me helpen?' → 'Ja, natuurlijk!'\nIdentical to German 'natürlich'."},
+         {type:"teach",kind:"phrase",nl:"veel plezier",en:"have fun / enjoy",phonetic:"vale pluh-ZEER",example:"Veel plezier in Amsterdam!",exampleEn:"Have fun in Amsterdam!",note:"'Veel' = much/many. 'Plezier' = pleasure/fun.\nSaid when someone is going somewhere nice.\nFrom French 'plaisir'."},
+
+         {type:"mc",q:"'Ik zoek het station.'  -  why no preposition after 'zoek'?",opts:["It's a mistake","Dutch 'zoeken' doesn't need one","You need 'naar'","'het' replaces the preposition"],ans:"Dutch 'zoeken' doesn't need one",hint:"Unlike English 'look FOR'  -  Dutch just says 'ik zoek...'"},
+         {type:"fb",s:"Sorry, ik ben ___.",a:"verdwaald",opts:["verdwaald","verloren","zoeken","helpen"],hint:"I am LOST"},
+         {type:"mc",q:"'Weet u waar het station is?'  -  'weten' means:",opts:["to want","to wait","to know (a fact)","to see"],ans:"to know (a fact)",hint:"Do you know where...?"},
+         {type:"match",pairs:[{nl:"verdwaald",en:"lost"},{nl:"helpen",en:"to help"},{nl:"zoeken",en:"to look for"},{nl:"natuurlijk",en:"of course"}]},
+         {type:"drag_fill",s:"Ga rechtdoor, neem de tweede straat {1}, en ga over de {2}.",blanks:{"1":"links","2":"brug"},pool:["links","brug","rechts","straat"],hint:"Straight, second street LEFT, over the BRIDGE"},
+         {type:"fb",s:"___ is het station is?",a:"Weet u waar",opts:["Weet u waar","Waar u weet","Ken u waar","Hoe u weet"],hint:"Do you KNOW WHERE the station is?"},
+         {type:"mc",q:"A Dutch person says 'Veel plezier!'  -  this means:",opts:["Good luck!","Have fun!","Goodbye!","Be careful!"],ans:"Have fun!",hint:"veel = much, plezier = fun"},
+         {type:"fb",s:"Ja, ___! Ik kan je helpen.",a:"natuurlijk",opts:["natuurlijk","misschien","altijd","graag"],hint:"Of course!"},
+         {type:"tr",mk:"u6_im_lost",dir:"produce"},
+         {type:"tr",mk:"u6_looking_for_station",dir:"produce"},
+       ]},
+       {id:"v2u6l8",title:"Unit 6 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 6: Alles Samen",desc:"Bikes, trains, directions, prepositions, separable verbs, 'even', asking for help  -  all of Unit 6 in one final test. The scenario: a day trip through the Netherlands using every form of transport.",goals:["Transport vocabulary","Prepositions (op, in, aan, bij, naar, van, met)","Separable movement verbs","Directions and navigation","'Even' and Dutch directness"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 6 you can:\n\n• Say how you travel (fiets, trein, auto, lopen)\n• Use gaan (to go) in all forms\n• Give and understand directions\n• Use 8 prepositions correctly\n• Board, exit, and transfer on trains\n• Ask 'where is...?' and 'how do I get there?'\n• Use 'even' like a local\n• Ask strangers for help politely\n\nYou can now navigate the entire Netherlands."},
+
+         {type:"mc",q:"'Ik ga met de fiets naar het werk.'  -  how many prepositions?",opts:["1","2","3","0"],ans:"2",hint:"met (by) and naar (to)"},
+         {type:"fb",s:"Ga ___ en dan links.",a:"rechtdoor",opts:["rechtdoor","rechts","rechtsaf","verder"],hint:"Go STRAIGHT and then left"},
+         {type:"mc",q:"'Instappen, uitstappen, overstappen' all share:",opts:["the prefix 'over'","the verb 'stappen'","the word 'trein'","the preposition 'in'"],ans:"the verb 'stappen'",hint:"Step IN, step OUT, step OVER"},
+         {type:"match",pairs:[{nl:"op de tafel",en:"on the table"},{nl:"in de stad",en:"in the city"},{nl:"aan de muur",en:"on the wall"},{nl:"bij de bakker",en:"at the bakery"}]},
+
+         {type:"drag_fill",s:"De trein {1} om drie uur. Wij stappen in Utrecht {2}.",blanks:{"1":"vertrekt","2":"uit"},pool:["vertrekt","uit","aan","trekt"],hint:"Departs (inseparable). Exit (separable)."},
+         {type:"fb",s:"Ik ga ___ naar de supermarkt.",a:"even",opts:["even","altijd","nooit","niet"],hint:"Just quickly  -  the most Dutch word"},
+         {type:"mc",q:"Which prefix is INseparable?",opts:["in-","uit-","aan-","ver-"],ans:"ver-",hint:"vertrekken never splits"},
+
+         {type:"fb",s:"___ is er een apotheek in de buurt?",a:"Pardon",opts:["Pardon","Waar","Hoeveel","Wanneer"],hint:"Polite conversation starter before a question"},
+         {type:"mc",q:"'Hoe kom ik er?' asks about:",opts:["the price","the direction","the time","the distance"],ans:"the direction",hint:"How do I get THERE?"},
+         {type:"drag_fill",s:"Ik koop brood {1} de bakker. De melk is {2} de koelkast.",blanks:{"1":"bij","2":"in"},pool:["bij","in","op","aan"],hint:"AT the bakery. IN the fridge."},
+
+         {type:"fb",s:"Sorry, ik ben ___.",a:"verdwaald",opts:["verdwaald","verloren","vergeten","vertrokken"],hint:"I am LOST"},
+         {type:"mc",q:"'Vijf minuten fietsen' means:",opts:["five bikes","five minutes by bike","five minutes waiting","five bike lanes"],ans:"five minutes by bike",hint:"minuten + infinitive = travel time"},
+         {type:"match",pairs:[{nl:"dichtbij",en:"nearby"},{nl:"ver",en:"far"},{nl:"terug",en:"back"},{nl:"samen",en:"together"}]},
+
+         {type:"mc",q:"There are more bikes than people in NL because:",opts:["bikes are tax-free","many people own multiple bikes","the government mandates cycling","bikes are imported from Germany"],ans:"many people own multiple bikes",hint:"23 million bikes, 17 million people"},
+         {type:"fb",s:"___ u waar het museum is?",a:"Weet",opts:["Weet","Kent","Kan","Wilt"],hint:"Do you KNOW where..."},
+         {type:"mc",q:"'Veel plezier!' means:",opts:["Good luck!","Have fun!","Safe travels!","Good night!"],ans:"Have fun!",hint:"veel = much, plezier = fun"},
+         {type:"tr",mk:"u6_cycle_work",dir:"produce"},
+         {type:"tr",mk:"u6_where_station",dir:"produce"},
+         {type:"tr",mk:"u6_im_lost",dir:"produce"},
+       ]},
+  ]},
+
+  {n:7,lang:"nl",track:"v2",title:"Mijn Dag",sub:"Perfect Tense & 't Kofschip",icon:"⏰",level:"A2.1",color:"#4A8FE7",lessons:[
+       {id:"v2u7l1",title:"Wat Heb Je Gedaan?",icon:"✅",xp:20,board:true,steps:[
+         {type:"intro",title:"Wat Heb Je Gedaan?",desc:"Welcome to the past tense. Dutch uses the 'perfect tense' (voltooid tegenwoordige tijd) for almost all past actions in speech. It works like English 'I have done'  -  except Dutch uses it where English would say 'I did'. This is the most important grammar of A2.",goals:["How the perfect tense works","The formula: hebben + ge-...-d/-t","Make your first past participles","Talk about what you did"]},
+
+         {type:"tip",title:"🔑 The Perfect Tense: The Big Idea",text:"To talk about the past in Dutch conversation, use:\n\nSUBJECT + hebben/zijn + ... + PAST PARTICIPLE (at the end)\n\nIk heb gewerkt. = I have worked. / I worked.\nZij heeft gefietst. = She has cycled. / She cycled.\nWij hebben gegeten. = We have eaten. / We ate.\n\nEnglish splits 'I worked' (simple past) and 'I have worked' (perfect).\nDutch uses the perfect for BOTH in spoken language.\n\n'Ik heb gisteren gewerkt.' = I worked yesterday.\nNOT 'Ik werkte gisteren.' (This exists but is mostly for writing.)\n\nThe past participle goes to the VERY END of the sentence.\nSame end-position as modal infinitives  -  you already know this pattern!"},
+
+         {type:"teach",kind:"grammar",nl:"het voltooid deelwoord",en:"the past participle",phonetic:"hut fol-TOYT DALE-vohrt",example:"'Gewerkt' is het voltooid deelwoord van 'werken'.",exampleEn:"'Gewerkt' is the past participle of 'werken'.",note:"The grammar term. You don't need to memorize it.\nJust know: past participle = the 'ge-...' word\nthat goes at the end of the sentence."},
+         {type:"teach",kind:"grammar",nl:"gewerkt",en:"worked",phonetic:"guh-VERKT",example:"Ik heb gisteren gewerkt.",exampleEn:"I worked yesterday.",note:"ge- + werk + -t = gewerkt.\nThe formula for regular verbs:\nge- + STAM + -t or -d.\nWhich ending (-t or -d)? That's the 't kofschip rule  -  next lesson!"},
+         {type:"teach",kind:"grammar",nl:"gefietst",en:"cycled",phonetic:"guh-FEETST",example:"Zij heeft naar het werk gefietst.",exampleEn:"She cycled to work.",note:"ge- + fiets + -t = gefietst.\nStam = fiets (ends in -s, which is a 't kofschip letter).\nSo: -t ending. More on this rule in L2."},
+         {type:"teach",kind:"grammar",nl:"geleerd",en:"learned / studied",phonetic:"guh-LAIRD",example:"Ik heb Nederlands geleerd.",exampleEn:"I learned Dutch.",note:"ge- + leer + -d = geleerd.\nStam = leer (ends in -r, NOT a 't kofschip letter).\nSo: -d ending. The rule becomes clear in L2."},
+         {type:"teach",kind:"grammar",nl:"gemaakt",en:"made / done",phonetic:"guh-MAHKT",example:"Ik heb de keuken schoongemaakt.",exampleEn:"I cleaned the kitchen.",note:"ge- + maak + -t = gemaakt.\nFor separable verbs: ge- goes BETWEEN prefix and verb!\nschoonmaken → schoon-ge-maakt."},
+
+         {type:"tip",title:"📐 The Formula",text:"Regular past participle = ge- + STAM + -t or -d\n\nStep 1: Find the stam.\nwerken → werk\nfietsen → fiets\nleren → leer\n\nStep 2: Add ge- at the front.\nge-werk, ge-fiets, ge-leer\n\nStep 3: Add -t or -d at the end.\ngewerkt, gefietst, geleerd\n\nWhich ending? Quick preview:\n-T after: t, k, f, s, ch, p (the 't kofschip' consonants)\n-D after everything else\n\nFull rule in the next lesson. For now:\nge- + stam + -t/-d → past participle.\nPut it at the END: Ik heb gewerkt."},
+
+         {type:"teach",kind:"word",nl:"gisteren",en:"yesterday",phonetic:"GIS-tuh-run",cognate:{words:[{lang:"English",word:"yesterday (yester-)"},{lang:"German",word:"gestern"}],family:"germanic"},example:"Gisteren heb ik gewerkt.",exampleEn:"Yesterday I worked.",note:"Time word. Goes at start or after the verb.\n'Gisteren heb ik...' = Yesterday I... (V2: verb stays second!).\nCognate of German 'gestern'."},
+         {type:"teach",kind:"grammar",nl:"vandaag",en:"today",phonetic:"fan-DAHG",example:"Vandaag heb ik niet gewerkt.",exampleEn:"Today I haven't worked.",note:"You already know this from Unit 3!\nvan + daag = from + day.\n'Vandaag' + perfect tense = talking about today so far."},
+
+         {type:"mc",q:"The Dutch perfect tense formula is:",opts:["stam + -te","hebben + past participle","gaan + infinitive","zijn + adjective"],ans:"hebben + past participle",hint:"Ik HEB GEWERKT"},
+         {type:"fb",s:"Ik ___ gisteren gewerkt.",a:"heb",opts:["heb","ben","ga","moet"],hint:"I HAVE worked = hebben"},
+         {type:"mc",q:"Where does the past participle go?",opts:["At the start","After the subject","At the end","Before hebben"],ans:"At the end",hint:"Same position as modal infinitives"},
+         {type:"match",pairs:[{nl:"gewerkt",en:"worked"},{nl:"gefietst",en:"cycled"},{nl:"geleerd",en:"learned"},{nl:"gemaakt",en:"made"}]},
+         {type:"drag_fill",s:"Ik {1} Nederlands {2}.",blanks:{"1":"heb","2":"geleerd"},pool:["heb","geleerd","ben","leren"],hint:"I HAVE LEARNED Dutch"},
+         {type:"fb",s:"Zij ___ naar het werk gefietst.",a:"heeft",opts:["heeft","heb","hebben","is"],hint:"She HAS cycled (zij = heeft)"},
+         {type:"mc",q:"For separable verbs, ge- goes:",opts:["at the very front: geschoonmaakt","between prefix and verb: schoongemaakt","at the end: maaktgeschoon","nowhere: schoonmaakt"],ans:"between prefix and verb: schoongemaakt",hint:"schoon + ge + maakt"},
+         {type:"fb",s:"Gisteren ___ ik Nederlands geleerd.",a:"heb",opts:["heb","ben","ga","moet"],hint:"Yesterday I learned (V2: verb second)"},
+         {type:"mc",q:"In spoken Dutch, 'I worked yesterday' is:",opts:["Ik werkte gisteren.","Ik heb gisteren gewerkt.","Ik had gisteren gewerkt.","Ik werk gisteren."],ans:"Ik heb gisteren gewerkt.",hint:"Perfect tense for ALL spoken past"},
+         {type:"tr",mk:"u7_worked_yesterday",dir:"produce"},
+         {type:"tr",mk:"u7_learned_dutch",dir:"produce"},
+       ]},
+       {id:"v2u7l2",title:"'t Kofschip",icon:"⚓",xp:20,board:true,steps:[
+         {type:"intro",title:"'t Kofschip",desc:"The most famous mnemonic in Dutch grammar. When you make a past participle, the ending is -t or -d. Which one? Look at the LAST letter of the stam. If it's in 't kofschip (t, k, f, s, ch, p), use -t. Otherwise: -d. That's it. That's the whole rule.",goals:["The 't kofschip mnemonic","Apply -t vs -d endings correctly","Practice with 10+ verbs","Never second-guess the ending again"]},
+
+         {type:"tip",title:"⚓ 't Kofschip: The Rule",text:"Past participle = ge- + stam + -t OR -d.\n\nWhich ending? Look at the LAST CONSONANT of the stam:\n\n't Kofschip letters: T, K, F, S, CH, P → add -T\nEverything else → add -D\n\nExamples with -T:\nwerken → werk → K → gewerkt ✓\nfietsen → fiets → S → gefietst ✓\nkoken → kook → K → gekookt ✓\nmaken → maak → K → gemaakt ✓\n\nExamples with -D:\nleren → leer → R → geleerd ✓\nwonen → woon → N → gewoond ✓\n\n⚠️ THE V/Z TRAP:\nleven → stam = leef. F looks like a kofschip letter...\nBut the INFINITIVE is le-VEN. The original consonant is V.\nV is NOT in 't kofschip → geleefd (with -d) ✓\n\nreizen → stam = reis. S looks like a kofschip letter...\nBut the INFINITIVE is rei-ZEN. The original consonant is Z.\nZ is NOT in 't kofschip → gereisd (with -d) ✓\n\nRule: when in doubt, check the infinitive, not just the stam.",deepDive:{title:"The V/Z trap explained",text:"Dutch has a spelling rule called 'devoicing':\nV becomes F at the end of a syllable.\nZ becomes S at the end of a syllable.\n\nSo when you make the stam:\nleven → leef (v devoices to f)\nreizen → reis (z devoices to s)\n\nThe stam LOOKS like it ends in a kofschip letter.\nBut the underlying consonant (visible in the infinitive)\nis V or Z  -  neither of which is in 't kofschip.\n\nSo: geleefd (not geleeft), gereisd (not gereist).\n\nThe trick: always check the INFINITIVE's consonant.\nleven → V → -d → geleefd ✓\nreizen → Z → -d → gereisd ✓\n\nOr simpler: if the infinitive has V or Z before -en,\nalways use -d, regardless of how the stam looks."}},
+
+         {type:"teach",kind:"word",nl:"gekookt",en:"cooked",phonetic:"guh-KOHKT",example:"Ik heb rijst gekookt.",exampleEn:"I cooked rice.",note:"koken → kook → K = 't kofschip → ge+kook+t = gekookt.\nThe double 'o' stays because closed syllable needs two."},
+         {type:"teach",kind:"word",nl:"gestopt",en:"stopped",phonetic:"guh-STOPT",example:"Hij heeft gestopt met roken.",exampleEn:"He stopped smoking.",note:"stoppen → stop → P = 't kofschip → ge+stop+t = gestopt.\n'Stoppen met' = to stop/quit doing something."},
+         {type:"teach",kind:"word",nl:"gewoond",en:"lived (resided)",phonetic:"guh-VOHNT",example:"Ik heb in Amsterdam gewoond.",exampleEn:"I lived in Amsterdam.",note:"wonen → woon → N = NOT in 't kofschip → ge+woon+d = gewoond.\nFinal -d sounds like -t (devoicing), but you WRITE -d."},
+         {type:"teach",kind:"word",nl:"gespeeld",en:"played",phonetic:"guh-SPAYLT",example:"Wij hebben voetbal gespeeld.",exampleEn:"We played football.",note:"spelen → speel → L = NOT in 't kofschip → ge+speel+d = gespeeld.\nDouble 'e' in closed syllable = long vowel."},
+         {type:"teach",kind:"grammar",nl:"betaald",en:"paid",phonetic:"buh-TAHLT",example:"Ik heb al betaald.",exampleEn:"I've already paid.",note:"betalen → betaal → L = NOT in 't kofschip → betaal+d = betaald.\n⚠️ No ge-! Verbs starting with be-, ver-, ge-, her-, ont-\nskip the ge- prefix. 'Betaald', NOT 'gebetaald'."},
+
+         {type:"tip",title:"⚠️ Verbs That Skip ge-",text:"Some verbs DON'T get ge- in the past participle:\n\nbe-: betalen → betaald (NOT gebetaald)\nver-: verkopen → verkocht (NOT geverkocht)\nge-: gebruiken → gebruikt (NOT gegebruikt)\nher-: herhalen → herhaald (NOT geherhaald)\nont-: ontmoeten → ontmoet (NOT geontmoet)\n\nRule: if the verb starts with an UNSTRESSED prefix\n(be-, ver-, ge-, her-, ont-, er-), skip the ge-.\n\nThese prefixes are never stressed:\nbeGINnen, verKOpen, geBRUIken.\n\nContrast with SEPARABLE verbs (stressed prefix):\nOPbellen → opgebeld (ge- goes in the middle)\nSCHOONmaken → schoongemaakt"},
+
+         {type:"teach",kind:"grammar",nl:"gebruikt",en:"used",phonetic:"guh-BROYKT",example:"Heb je mijn telefoon gebruikt?",exampleEn:"Did you use my phone?",note:"gebruiken → gebruik → K = 't kofschip → gebruik+t = gebruikt.\nNo ge-! The ge- prefix is already there (ge-bruiken).\nDon't add another one."},
+         {type:"teach",kind:"grammar",nl:"verkocht",en:"sold",phonetic:"fur-KOGT",example:"Zij heeft haar huis verkocht.",exampleEn:"She sold her house.",note:"verkopen → verkocht. Wait  -  irregular!\nNot 'verkoopt'. The past participle is 'verkocht'.\nSome verbs are irregular. We'll cover those in L4."},
+
+         {type:"mc",q:"Stam of 'werken' = 'werk'. Last letter K. K is in 't kofschip. So:",opts:["gewerkt (-t)","gewerked (-d)","gewerkd (-d)","gewerk (nothing)"],ans:"gewerkt (-t)",hint:"K = 't kofschip = -t"},
+         {type:"fb",s:"wonen → woon → N → ge+woon+___ = gewoond",a:"d",opts:["d","t","dt","nothing"],hint:"N is NOT in 't kofschip"},
+         {type:"mc",q:"'Betaald' has no ge- because:",opts:["It's irregular","be- is an unstressed prefix","It's a short verb","The Dutch forgot"],ans:"be- is an unstressed prefix",hint:"be-, ver-, ge-, her-, ont- skip ge-"},
+         {type:"match",pairs:[{nl:"gekookt",en:"cooked"},{nl:"gewoond",en:"lived"},{nl:"gespeeld",en:"played"},{nl:"betaald",en:"paid"}]},
+         {type:"drag_fill",s:"Ik heb rijst {1}. Wij hebben voetbal {2}.",blanks:{"1":"gekookt","2":"gespeeld"},pool:["gekookt","gespeeld","gekookt","gestopt"],hint:"I cooked rice. We played football."},
+         {type:"mc",q:"The stam of 'fietsen' is 'fiets'. S is in 't kofschip. So:",opts:["gefietsd","gefietst","gefiets","gefietsen"],ans:"gefietst",hint:"S = 't kofschip = -t"},
+         {type:"fb",s:"Zij heeft haar huis ___. (sold)",a:"verkocht",opts:["verkocht","verkoopt","geverkocht","verkopen"],hint:"Irregular! No ge- + irregular form"},
+         {type:"mc",q:"'Leven' → stam = 'leef'. F is in 't kofschip, so -t? No! Why?",opts:["The original consonant is V (le-ven), V is NOT in 't kofschip","F always gets -d","It's irregular","The rule doesn't apply to leven"],ans:"The original consonant is V (le-ven), V is NOT in 't kofschip",hint:"The V/Z trap: check the infinitive"},
+         {type:"drag_fill",s:"Ik heb al {1}. Hij heeft {2} met roken.",blanks:{"1":"betaald","2":"gestopt"},pool:["betaald","gestopt","betalen","stoppen"],hint:"Already paid. Stopped smoking."},
+         {type:"tr",mk:"u7_she_cycled_work",dir:"produce"},
+       ]},
+       {id:"v2u7l3",title:"Ik Ben Gegaan",icon:"🚶",xp:20,board:true,steps:[
+         {type:"intro",title:"Ik Ben Gegaan",desc:"Not every verb uses 'hebben' in the perfect tense. Some use 'zijn'. Which ones? Verbs of MOVEMENT and CHANGE OF STATE. 'I have gone' = 'Ik ben gegaan.' 'I have become' = 'Ik ben geworden.' If you speak German or French, this system is identical.",goals:["When to use zijn vs hebben","The movement/change rule","8 common zijn-verbs","Past participles of komen, gaan, zijn, worden"]},
+
+         {type:"tip",title:"🔑 Zijn vs Hebben: The Rule",text:"Most verbs: hebben + past participle\nIk heb gewerkt. Zij heeft gegeten.\n\nSome verbs: zijn + past participle\nIk ben gegaan. Zij is gekomen.\n\nWhich verbs use zijn? Two categories:\n\n1. MOVEMENT (from A to B):\ngaan (go), komen (come), vertrekken (depart),\naankomen (arrive), rijden (drive/ride),\nfietsen (cycle), lopen (walk/run)\n\n2. CHANGE OF STATE:\nworden (become), sterven (die), groeien (grow),\nblijven (stay/remain), beginnen (begin),\nstoppen (stop  -  when intransitive)\n\n⚠️ 'Zijn' itself uses zijn: Ik ben geweest. (I have been.)\n\nGerman speakers: same system! Ich bin gegangen.\nFrench speakers: same system! Je suis allé(e).",deepDive:{title:"The fietsen trap",text:"'Fietsen' can use BOTH:\n\nIk heb gefietst. = I cycled. (general activity)\nIk ben naar het werk gefietst. = I cycled TO work. (movement A→B)\n\nWhen there's a destination (naar, uit, in), use zijn.\nWhen it's just the activity itself, use hebben.\n\nSame applies to: rijden, lopen, vliegen, zwemmen.\n\nIk heb gezwommen. = I swam. (activity)\nIk ben naar de overkant gezwommen. = I swam to the other side. (A→B)\n\nIn practice, the Dutch are relaxed about this.\nBut 'gaan', 'komen', 'worden', 'zijn', 'blijven' → ALWAYS zijn."}},
+
+         {type:"teach",kind:"grammar",nl:"gegaan",en:"gone",phonetic:"guh-GAHN",example:"Ik ben naar Amsterdam gegaan.",exampleEn:"I went to Amsterdam.",note:"gaan → gegaan. Irregular!\nNot 'gegaand' or 'gegaat'. Just: gegaan.\nAlways with zijn: ik BEN gegaan."},
+         {type:"teach",kind:"grammar",nl:"gekomen",en:"come / came",phonetic:"guh-KOH-mun",example:"Zij is uit België gekomen.",exampleEn:"She came from Belgium.",note:"komen → gekomen. Irregular!\nNot 'gekomt' or 'gekomd'. Just: gekomen.\nAlways with zijn: zij IS gekomen."},
+         {type:"teach",kind:"grammar",nl:"geweest",en:"been",phonetic:"guh-VAYST",example:"Ik ben in Parijs geweest.",exampleEn:"I have been to Paris.",note:"zijn → geweest. Very irregular!\nThe most irregular past participle in Dutch.\nAlways with zijn: ik BEN geweest."},
+         {type:"teach",kind:"grammar",nl:"geworden",en:"become",phonetic:"guh-VOR-dun",example:"Hij is leraar geworden.",exampleEn:"He became a teacher.",note:"worden → geworden. Irregular!\nChange of state verb → always zijn.\n'Worden' is extremely common in Dutch."},
+         {type:"teach",kind:"grammar",nl:"gebleven",en:"stayed / remained",phonetic:"guh-BLAY-vun",example:"Wij zijn thuis gebleven.",exampleEn:"We stayed home.",note:"blijven → gebleven. Irregular!\nStay = no movement, but it IS a state verb.\nAlways with zijn: wij ZIJN gebleven."},
+         {type:"teach",kind:"grammar",nl:"vertrokken",en:"departed / left",phonetic:"fur-TROK-kun",example:"De trein is al vertrokken.",exampleEn:"The train has already departed.",note:"vertrekken → vertrokken. Irregular!\nNo ge- (ver- prefix). Movement verb → zijn.\nDe trein IS vertrokken."},
+
+         {type:"tip",title:"📋 The Essential Zijn-Verbs",text:"Always with ZIJN:\ngaan → gegaan (gone)\nkomen → gekomen (come)\nzijn → geweest (been)\nworden → geworden (become)\nblijven → gebleven (stayed)\nvertrekken → vertrokken (departed)\naankomen → aangekomen (arrived)\nbeginnen → begonnen (begun)\nsterven → gestorven (died)\n\nMost of these are IRREGULAR.\nThat's annoying but predictable:\nthe most common verbs in any language are irregular.\n\nGood news: there are only ~20 zijn-verbs total.\nEverything else uses hebben."},
+
+         {type:"mc",q:"'Ik ___ naar Amsterdam gegaan.'",opts:["heb","ben","ga","heeft"],ans:"ben",hint:"Movement verb → zijn"},
+         {type:"fb",s:"Zij ___ uit België gekomen.",a:"is",opts:["is","heeft","ben","zijn"],hint:"She HAS come (zijn verb, zij = is)"},
+         {type:"mc",q:"Which rule determines zijn vs hebben?",opts:["Word length","Movement or change of state","Whether it's regular","The article of the subject"],ans:"Movement or change of state",hint:"gaan (movement), worden (change)"},
+         {type:"match",pairs:[{nl:"gegaan",en:"gone"},{nl:"gekomen",en:"come"},{nl:"geweest",en:"been"},{nl:"gebleven",en:"stayed"}]},
+         {type:"drag_fill",s:"Ik {1} thuis gebleven. De trein {2} vertrokken.",blanks:{"1":"ben","2":"is"},pool:["ben","is","heb","heeft"],hint:"I stayed (zijn). The train departed (zijn)."},
+         {type:"fb",s:"Hij ___ leraar geworden.",a:"is",opts:["is","heeft","ben","zijn"],hint:"Change of state → zijn"},
+         {type:"mc",q:"'Zijn' (to be) uses which auxiliary?",opts:["hebben: ik heb geweest","zijn: ik ben geweest","both are correct","neither  -  no perfect tense"],ans:"zijn: ik ben geweest",hint:"Zijn uses zijn. Meta!"},
+         {type:"mc",q:"'Ik heb gefietst' vs 'Ik ben naar het werk gefietst'. The difference?",opts:["No difference","hebben = activity, zijn = movement to destination","hebben is wrong","zijn is wrong"],ans:"hebben = activity, zijn = movement to destination",hint:"Destination (naar) → zijn"},
+         {type:"drag_fill",s:"Wij {1} pannenkoeken gegeten. Zij {2} naar huis gegaan.",blanks:{"1":"hebben","2":"is"},pool:["hebben","is","zijn","heb"],hint:"We ATE (hebben). She WENT home (zijn)."},
+         {type:"tr",mk:"u7_i_went_to_amsterdam",dir:"produce"},
+         {type:"tr",mk:"u7_i_stayed_home",dir:"produce"},
+       ]},
+       {id:"v2u7l4",title:"Onregelmatige Deelwoorden",icon:"⚡",xp:20,board:true,steps:[
+         {type:"intro",title:"Onregelmatige Deelwoorden",desc:"Some past participles don't follow 't kofschip. The vowel changes, the ending is -en instead of -t/-d, and you just have to memorize them. The good news: many match English or German patterns, and the 15 most common ones cover 80% of daily speech.",goals:["15 high-frequency irregular past participles","Pattern: ge-...-en (with vowel change)","Spot English/German cognate patterns","Use them in sentences fluently"]},
+
+         {type:"tip",title:"⚡ Irregular Past Participles",text:"Regular: ge- + stam + -t/-d\ngewerkt, geleerd, gewoond\n\nIrregular: ge- + CHANGED STEM + -en\ngegeten, gedronken, geschreven\n\nThe vowel in the stem changes (just like English!):\ndrink → gedronken (drink → drunk)\neet → gegeten (eat → eaten)\nschrijf → geschreven (write → written)\n\nIf you know English or German irregular verbs,\nyou already know many Dutch ones.\nThe patterns are often the same."},
+
+         {type:"teach",kind:"grammar",nl:"gegeten",en:"eaten",phonetic:"guh-GAY-tun",example:"Ik heb een appel gegeten.",exampleEn:"I ate an apple.",note:"eten → gegeten. Compare:\nEnglish: eat → eaten\nGerman: essen → gegessen\nSame -en ending, same pattern."},
+         {type:"teach",kind:"word",nl:"gedronken",en:"drunk / drank",phonetic:"guh-DRONG-kun",example:"Hij heeft koffie gedronken.",exampleEn:"He drank coffee.",note:"drinken → gedronken. Compare:\nEnglish: drink → drunk\nGerman: trinken → getrunken\nVowel change: i → o. Same in all three languages!"},
+         {type:"teach",kind:"word",nl:"geschreven",en:"written / wrote",phonetic:"guh-SGRAY-vun",example:"Ik heb een brief geschreven.",exampleEn:"I wrote a letter.",note:"schrijven → geschreven. Compare:\nEnglish: write → written (same pattern!)\nGerman: schreiben → geschrieben\nVowel change: ij → e."},
+         {type:"teach",kind:"grammar",nl:"gelezen",en:"read (past)",phonetic:"guh-LAY-zun",example:"Heb je het boek gelezen?",exampleEn:"Have you read the book?",note:"lezen → gelezen. The vowel doesn't change!\nBut the ending is -en (not -d).\nCompare German: lesen → gelesen. Identical."},
+         {type:"teach",kind:"grammar",nl:"gedaan",en:"done / did",phonetic:"guh-DAHN",example:"Wat heb je gedaan?",exampleEn:"What did you do?",note:"doen → gedaan. Irregular!\nCompare English: do → done.\nSame vowel change pattern: oe → a."},
+         {type:"teach",kind:"word",nl:"gezien",en:"seen / saw",phonetic:"guh-ZEEN",example:"Ik heb dat niet gezien.",exampleEn:"I didn't see that.",note:"zien → gezien. Compare:\nEnglish: see → seen\nGerman: sehen → gesehen\nShort and common. Memorize this one."},
+         {type:"teach",kind:"word",nl:"genomen",en:"taken / took",phonetic:"guh-NOH-mun",example:"Hij heeft de trein genomen.",exampleEn:"He took the train.",note:"nemen → genomen. Compare:\nEnglish: take → taken (different root!)\nGerman: nehmen → genommen\nVowel change: e → o."},
+         {type:"teach",kind:"word",nl:"gesproken",en:"spoken / spoke",phonetic:"guh-SPROH-kun",example:"Wij hebben Nederlands gesproken.",exampleEn:"We spoke Dutch.",note:"spreken → gesproken. Compare:\nEnglish: speak → spoken\nGerman: sprechen → gesprochen\nVowel change: e → o. Identical pattern."},
+
+         {type:"tip",title:"📋 The 15 Most Common Irregulars",text:"HEBBEN verbs:\neten → gegeten (eaten)\ndrinken → gedronken (drunk)\nschrijven → geschreven (written)\nlezen → gelezen (read)\ndoen → gedaan (done)\nzien → gezien (seen)\nnemen → genomen (taken)\nspreken → gesproken (spoken)\ngeven → gegeven (given)\nvinden → gevonden (found)\n\nZIJN verbs:\ngaan → gegaan (gone)\nkomen → gekomen (come)\nzijn → geweest (been)\nworden → geworden (become)\nblijven → gebleven (stayed)\n\nThese 15 cover most daily conversation.\nMemorize them and you're 80% there."},
+
+         {type:"mc",q:"'Eten → gegeten' follows the pattern:",opts:["ge- + stam + -t","ge- + stam + -d","ge- + changed stem + -en","stam + -te"],ans:"ge- + changed stem + -en",hint:"Irregular: -en ending with possible vowel change"},
+         {type:"fb",s:"Hij heeft koffie ___.",a:"gedronken",opts:["gedronken","gedrinkt","gedrinkd","drinken"],hint:"drinken → gedronken (irregular)"},
+         {type:"match",pairs:[{nl:"gegeten",en:"eaten"},{nl:"geschreven",en:"written"},{nl:"gezien",en:"seen"},{nl:"gedaan",en:"done"}]},
+         {type:"mc",q:"'Doen → gedaan'  -  the vowel changes from:",opts:["oe → a","oo → a","oe → aa","o → a"],ans:"oe → a",hint:"doen (oe) → gedaan (a)"},
+         {type:"drag_fill",s:"Ik heb een brief {1}. Wij hebben Nederlands {2}.",blanks:{"1":"geschreven","2":"gesproken"},pool:["geschreven","gesproken","geschrijft","gespreekt"],hint:"Written a letter. Spoken Dutch."},
+         {type:"fb",s:"Heb je het boek ___?",a:"gelezen",opts:["gelezen","geleest","geleesd","lezen"],hint:"lezen → gelezen"},
+         {type:"mc",q:"Why are the most common verbs irregular?",opts:["Dutch is a hard language","Common verbs resist regularization over centuries","It's random","They were invented later"],ans:"Common verbs resist regularization over centuries",hint:"Same reason in English: be/was/been, go/went/gone"},
+         {type:"drag_fill",s:"Wat heb je {1}? Ik heb dat niet {2}.",blanks:{"1":"gedaan","2":"gezien"},pool:["gedaan","gezien","gedoet","geziend"],hint:"What did you DO? I didn't SEE that."},
+         {type:"tr",mk:"u7_we_ate_pancakes",dir:"produce"},
+         {type:"tr",mk:"u7_he_drank_coffee",dir:"produce"},
+       ]},
+       {id:"v2u7l5",title:"Gisteren, Vandaag, Morgen",icon:"📅",xp:15,board:true,steps:[
+         {type:"intro",title:"Gisteren, Vandaag, Morgen",desc:"You know how to form the perfect tense. Now let's anchor it in TIME. Yesterday, last week, this morning, two days ago  -  Dutch has rich time expressions, and they trigger V2 word order when fronted. This lesson also introduces 'morgen' for a sneak peek at the future.",goals:["12 time expressions for past, present, future","V2 word order with fronted time words","'Geleden' (ago) construction","Talk about your week naturally"]},
+
+         {type:"teach",kind:"word",nl:"gisteren",en:"yesterday",phonetic:"GIS-tuh-run",cognate:{words:[{lang:"German",word:"gestern"},{lang:"English",word:"yester-"}],family:"germanic"},example:"Gisteren heb ik gewerkt.",exampleEn:"Yesterday I worked.",note:"You know this from L1. When it starts the sentence:\nGisteren HEB ik gewerkt. (V2: verb second!)"},
+         {type:"teach",kind:"word",nl:"eergisteren",en:"the day before yesterday",phonetic:"AIR-gis-tuh-run",example:"Eergisteren ben ik naar Utrecht gegaan.",exampleEn:"The day before yesterday I went to Utrecht.",note:"eer (before) + gisteren = the day before yesterday.\nNot common in English, but Dutch uses it frequently."},
+         {type:"teach",kind:"word",nl:"morgen",en:"tomorrow",phonetic:"MOR-gun",cognate:{words:[{lang:"English",word:"morrow / morning"},{lang:"German",word:"morgen"}],family:"germanic"},example:"Morgen ga ik naar de markt.",exampleEn:"Tomorrow I'm going to the market.",note:"Also means 'morning'! Context tells you which.\n'Morgen' (tomorrow) vs 'de morgen' / ''s morgens' (the morning).\nSame word, two meanings."},
+         {type:"teach",kind:"word",nl:"overmorgen",en:"the day after tomorrow",phonetic:"OH-vur-MOR-gun",example:"Overmorgen begint het weekend.",exampleEn:"The day after tomorrow the weekend starts.",note:"over + morgen = over-tomorrow.\nDutch loves these compound time words.\nVery useful for planning."},
+
+         {type:"teach",kind:"phrase",nl:"vorige week",en:"last week",phonetic:"VOH-ruh-guh vayk",example:"Vorige week heb ik pannenkoeken gemaakt.",exampleEn:"Last week I made pancakes.",note:"vorige = previous/last. De-word adjective.\nVorige week, vorige maand, vorig jaar.\nNote: 'vorig jaar' (het-word → no -e)."},
+         {type:"teach",kind:"phrase",nl:"deze week",en:"this week",phonetic:"DAY-zuh vayk",example:"Deze week heb ik veel geleerd.",exampleEn:"This week I've learned a lot.",note:"deze = this (de-words). You know dit/dat.\ndeze = this (with de-words and plurals).\nDeze week, deze maand."},
+         {type:"teach",kind:"word",nl:"geleden",en:"ago",phonetic:"guh-LAY-dun",example:"Twee jaar geleden ben ik naar Nederland gekomen.",exampleEn:"Two years ago I came to the Netherlands.",note:"Goes AFTER the time expression:\ntwee dagen geleden = two days ago\ndrie weken geleden = three weeks ago\neen uur geleden = an hour ago"},
+         {type:"teach",kind:"phrase",nl:"hoe lang",en:"how long",phonetic:"hoo lahng",cognate:{words:[{lang:"English",word:"how long"},{lang:"German",word:"wie lange"}],family:"germanic"},example:"Hoe lang woon je in Nederland?",exampleEn:"How long have you lived in the Netherlands?",note:"For duration questions.\n'Hoe lang duurt de film?' = How long does the film last?\n'Hoe lang' + time: 'Drie jaar.' = Three years.\nAlso: 'Hoe lang nog?' = How much longer?"},
+
+         {type:"tip",title:"📅 Time Expression Toolkit",text:"PAST:\ngisteren = yesterday\neergisteren = day before yesterday\nvorige week = last week\ntwee dagen geleden = two days ago\nvanochtend = this morning\nvanmiddag = this afternoon\nvanavond = this evening (already past)\n\nPRESENT:\nvandaag = today\nnu = now\ndeze week = this week\n\nFUTURE:\nmorgen = tomorrow\novermorgen = day after tomorrow\nvolgende week = next week\n\nDURATION:\nhoe lang? = how long?\ndrie jaar = three years\neen uur = one hour\n\n⚠️ When any of these START the sentence:\nRemember the V2 rule from Unit 3? Verb stays second.\nGisteren HEB ik gewerkt.\nMorgen GA ik naar de markt.\nVorige week HEBBEN wij pannenkoeken gemaakt.\nSame inversion you practised with 'Soms werk ik...'"},
+
+         {type:"teach",kind:"word",nl:"vanochtend",en:"this morning",phonetic:"fan-OG-tunt",example:"Vanochtend heb ik koffie gedronken.",exampleEn:"This morning I drank coffee.",note:"van + ochtend = from + morning.\nSame pattern as vandaag (van + dag).\n'Vanochtend', 'vanmiddag', 'vanavond'  -  all one word."},
+         {type:"teach",kind:"grammar",nl:"vanavond",en:"this evening / tonight",phonetic:"fan-AH-vont",example:"Vanavond eet ik bij mijn ouders.",exampleEn:"Tonight I'm eating at my parents'.",note:"van + avond = from + evening.\nCan be past OR future depending on context.\n'Vanavond heb ik gekookt.' = Tonight I cooked. (done)\n'Vanavond kook ik.' = Tonight I'll cook. (planned)"},
+
+         {type:"mc",q:"'Gisteren heb ik gewerkt.'  -  why 'heb' before 'ik'?",opts:["It's a question","V2: gisteren is position 1, verb stays position 2","It's wrong","Dutch always puts verb first"],ans:"V2: gisteren is position 1, verb stays position 2",hint:"Fronted time word → verb second → subject third"},
+         {type:"fb",s:"Twee dagen ___ ben ik naar Amsterdam gegaan.",a:"geleden",opts:["geleden","gisteren","vorige","morgen"],hint:"Two days AGO"},
+         {type:"match",pairs:[{nl:"gisteren",en:"yesterday"},{nl:"morgen",en:"tomorrow"},{nl:"vorige week",en:"last week"},{nl:"hoe lang",en:"how long"}]},
+         {type:"mc",q:"'Morgen' can mean:",opts:["only tomorrow","only morning","both tomorrow and morning","yesterday"],ans:"both tomorrow and morning",hint:"Context tells you which!"},
+         {type:"drag_fill",s:"{1} heb ik koffie gedronken. {2} ga ik naar de markt.",blanks:{"1":"Vanochtend","2":"Morgen"},pool:["Vanochtend","Morgen","Geleden","Nu"],hint:"This morning I drank coffee. Tomorrow I'll go to the market."},
+         {type:"fb",s:"___ week heb ik pannenkoeken gemaakt.",a:"Vorige",opts:["Vorige","Deze","Morgen","Volgende"],hint:"LAST week"},
+         {type:"mc",q:"'Twee weken geleden' means:",opts:["in two weeks","two weeks ago","two weeks later","during two weeks"],ans:"two weeks ago",hint:"geleden = ago"},
+         {type:"fb",s:"___ heb ik veel geleerd.",a:"Deze week",opts:["Deze week","Morgen","Gisteren","Geleden"],hint:"THIS WEEK I've learned a lot"},
+         {type:"tr",mk:"u7_worked_yesterday",dir:"produce"},
+         {type:"tr",mk:"u7_what_did_weekend",dir:"produce"},
+       ]},
+       {id:"v2u7l6",title:"Hoe Was Je Weekend?",icon:"💬",xp:15,board:true,steps:[
+         {type:"intro",title:"Hoe Was Je Weekend?",desc:"The most common Dutch small-talk question at work on Monday morning. This lesson is pure conversation practice: asking and answering about your weekend using the perfect tense. No new grammar  -  just fluency with everything from L1–L5 in real dialogue.",goals:["Weekend conversation vocabulary","Ask and answer about past activities","String multiple perfect tense sentences together","Dutch weekend culture"]},
+
+         {type:"tip",title:"🇳🇱 Monday Morning in the Netherlands",text:"Every Monday, every office, every school in the Netherlands:\n\n'Hoe was je weekend?' = How was your weekend?\n'Wat heb je gedaan?' = What did you do?\n\nThis is THE Dutch small-talk ritual.\nYou're expected to give a brief, pleasant answer.\n\nTypical responses:\n'Leuk! Ik heb gewandeld.' = Nice! I went walking.\n'Rustig. Ik ben thuis gebleven.' = Quiet. I stayed home.\n'Druk. Ik heb veel gedaan.' = Busy. I did a lot.\n\nThe Dutch value balance: not too exciting, not too boring.\nBragging is frowned upon. Complaining is acceptable.\n'Het was gezellig.' = It was gezellig. (The perfect answer.)"},
+
+         {type:"teach",kind:"phrase",nl:"het weekend",en:"the weekend",phonetic:"hut WEE-kent",example:"Hoe was je weekend?",exampleEn:"How was your weekend?",note:"Het-word. Borrowed from English.\n'In het weekend' = on the weekend.\n'Dit weekend' = this weekend."},
+         {type:"teach",kind:"word",nl:"leuk",en:"fun / nice / cool",phonetic:"luhk",example:"Het was leuk!",exampleEn:"It was fun!",note:"The most common Dutch positive adjective.\n'Leuk' covers: fun, nice, cool, pleasant, enjoyable.\nYou'll hear it 50 times a day."},
+         {type:"teach",kind:"word",nl:"druk",en:"busy",phonetic:"druk",example:"Het was een druk weekend.",exampleEn:"It was a busy weekend.",note:"Applies to people AND situations.\n'Ik heb het druk.' = I'm busy. (literally: I have it busy)\n'Het was druk in de stad.' = It was busy in the city."},
+         {type:"teach",kind:"word",nl:"rustig",en:"quiet / calm / peaceful",phonetic:"RUS-tug",example:"Het was rustig.",exampleEn:"It was quiet/peaceful.",note:"Opposite of 'druk'.\n'Een rustig weekend' = a quiet weekend.\nAlso: 'rustig aan' = take it easy, calm down."},
+         {type:"teach",kind:"word",nl:"gezellig",en:"cosy / fun / socially pleasant",phonetic:"guh-ZEL-ug",example:"Het was heel gezellig.",exampleEn:"It was really gezellig.",note:"THE untranslatable Dutch word.\nCosy + warm + fun + social + pleasant = gezellig.\nA borrel can be gezellig. Oma's house is gezellig.\nA rainy evening with friends is gezellig.\nThere is NO English equivalent. Just use it."},
+         {type:"teach",kind:"word",nl:"gewandeld",en:"walked / went for a walk",phonetic:"guh-VAN-dult",example:"Ik heb in het park gewandeld.",exampleEn:"I walked in the park.",note:"wandelen → gewandeld.\n'Wandelen' = to walk (for pleasure/exercise).\n'Lopen' = to walk (general/to go somewhere).\nThe Dutch walk A LOT on weekends."},
+
+         {type:"tip",title:"💬 Weekend Dialogue Template",text:"Q: Hoe was je weekend?\nA: Leuk! / Druk! / Rustig. / Gezellig!\n\nQ: Wat heb je gedaan?\nA: Ik heb [activity] + past participle.\n\nExamples:\nIk heb gewandeld. = I went walking.\nIk heb gekookt. = I cooked.\nIk ben naar de markt gegaan. = I went to the market.\nIk heb een boek gelezen. = I read a book.\nIk ben thuis gebleven. = I stayed home.\nWij hebben bij vrienden gegeten. = We ate at friends'.\n\nChaining them:\nIk heb eerst gewandeld, en daarna heb ik gekookt.\n= I walked first, and then I cooked.\n\n'Eerst' = first. 'Daarna' = after that. 'En toen' = and then."},
+
+         {type:"teach",kind:"word",nl:"eerst",en:"first",phonetic:"ayrst",example:"Ik heb eerst koffie gedronken.",exampleEn:"I first drank coffee.",note:"Ordering events: eerst = first.\nGoes after 'hebben/zijn' or at the start:\nEerst heb ik koffie gedronken."},
+         {type:"teach",kind:"word",nl:"daarna",en:"after that / then",phonetic:"dahr-NAH",example:"Daarna ben ik naar de markt gegaan.",exampleEn:"After that I went to the market.",note:"Daar + na = there + after.\nPerfect for chaining events:\nEerst X, daarna Y, en toen Z."},
+         {type:"teach",kind:"phrase",nl:"en toen",en:"and then",phonetic:"en toon",example:"En toen zijn we naar huis gegaan.",exampleEn:"And then we went home.",note:"'Toen' on its own = then/when.\nVery common in narratives.\n'En toen?' = And then? (asking for more story)"},
+
+         {type:"mc",q:"'Het was gezellig' is the perfect weekend answer because:",opts:["It's the longest Dutch word","It covers cosy + fun + socially warm","It means 'expensive'","It's very formal"],ans:"It covers cosy + fun + socially warm",hint:"The untranslatable Dutch concept"},
+         {type:"fb",s:"Hoe ___ je weekend?",a:"was",opts:["was","heb","ben","is"],hint:"How WAS your weekend?"},
+         {type:"mc",q:"'Ik heb het druk' means:",opts:["I had a busy weekend","I am busy","I dropped something","It was loud"],ans:"I am busy",hint:"Literally: I have it busy"},
+         {type:"match",pairs:[{nl:"leuk",en:"fun / nice"},{nl:"druk",en:"busy"},{nl:"rustig",en:"quiet"},{nl:"gezellig",en:"cosy (untranslatable)"}]},
+         {type:"drag_fill",s:"{1} heb ik koffie gedronken. {2} ben ik naar de markt gegaan.",blanks:{"1":"Eerst","2":"Daarna"},pool:["Eerst","Daarna","Morgen","Gisteren"],hint:"First I drank coffee. After that I went to the market."},
+         {type:"fb",s:"Ik heb in het park ___.",a:"gewandeld",opts:["gewandeld","gewandelt","lopen","gelopen"],hint:"wandelen → gewandeld"},
+         {type:"mc",q:"'Wandelen' vs 'lopen'  -  what's the difference?",opts:["No difference","wandelen = walking for pleasure, lopen = general walking","wandelen = running, lopen = walking","wandelen is formal"],ans:"wandelen = walking for pleasure, lopen = general walking",hint:"Weekend walks = wandelen"},
+         {type:"fb",s:"Het was heel ___! Wij hebben bij vrienden gegeten.",a:"gezellig",opts:["gezellig","druk","leuk","rustig"],hint:"Eating at friends' house = socially warm"},
+         {type:"tr",mk:"u7_what_did_weekend",dir:"produce"},
+         {type:"tr",mk:"u7_i_stayed_home",dir:"produce"},
+       ]},
+       {id:"v2u7l7",title:"Een Typische Nederlandse Dag",icon:"🏙️",xp:15,board:true,steps:[
+         {type:"intro",title:"Een Typische Nederlandse Dag",desc:"A day in the Netherlands runs on a strict internal clock: breakfast at 7, lunch (bread) at 12, coffee at 3, dinner at 6. Sharp. This lesson teaches daily routine vocabulary using the perfect tense to narrate your day. Plus: the cultural phenomenon of 'avondeten om zes uur'.",goals:["Daily routine vocabulary","Narrate a full day in the past","Dutch daily rhythm culture","'s morgens / 's middags / 's avonds"]},
+
+         {type:"teach",kind:"phrase",nl:"'s morgens",en:"in the morning",phonetic:"SMOR-guns",example:"'s Morgens drink ik koffie.",exampleEn:"In the morning I drink coffee.",note:"The 's = des (old genitive article, from 'des morgens').\n'smorgens, 'smiddags, 'savonds  -  all one pattern.\nThe apostrophe is required."},
+         {type:"teach",kind:"phrase",nl:"'s middags",en:"in the afternoon",phonetic:"SMID-dahgs",example:"'s Middags eet ik een boterham.",exampleEn:"In the afternoon I eat a sandwich.",note:"'s + middags = in the afternoon.\nRemember Unit 4: Dutch lunch = bread. Every day.\n'smiddags om twaalf uur' = in the afternoon at twelve."},
+         {type:"teach",kind:"phrase",nl:"'s avonds",en:"in the evening",phonetic:"SAH-vonts",example:"'s Avonds eten we warm.",exampleEn:"In the evening we eat a warm meal.",note:"'s + avonds = in the evening.\nThis is when the real meal happens.\n'Het avondeten' = dinner (literally: evening-eating)."},
+
+         {type:"tip",title:"🇳🇱 The Dutch Daily Clock",text:"07:00  -  Ontbijt (breakfast): bread, kaas, hagelslag\n08:30  -  Work/school begins (on time!)\n10:00  -  Koffiepauze (coffee break, sacred)\n12:00  -  Lunch: boterhammen at your desk\n15:00  -  Thee/koffie (afternoon break)\n17:00  -  Work ends (part-time culture: often 16:00!)\n18:00  -  Avondeten: the warm meal. Sharp at six.\n20:00  -  TV, reading, or visiting\n22:30  -  Bed (the Dutch sleep early by EU standards)\n\nThe Dutch are serious about 18:00 dinner.\n'We eten om zes uur' is non-negotiable.\nBeing late for avondeten is like being late for a meeting.\n\nThe Netherlands has the highest rate of part-time work\nin Europe. Many parents work 4 days, not 5.\n'Vrije dag' (day off) is a cherished concept.",deepDive:{title:"Part-time paradise",text:"The Netherlands is called a 'part-time paradise'.\n60% of Dutch women work part-time.\n25% of Dutch men work part-time.\n\nThis isn't seen as 'less ambitious'  -  it's a choice.\n'Kwaliteit van leven' (quality of life) matters more\nthan career climbing.\n\nWednesday is often 'papadag' or 'mamadag'  - \nthe day a parent stays home with the kids.\n\nThe result: Dutch children are consistently rated\namong the happiest in the world."}},
+
+         {type:"teach",kind:"phrase",nl:"het ontbijt",en:"breakfast",phonetic:"hut ont-BAYT",example:"'s Morgens eet ik ontbijt.",exampleEn:"In the morning I eat breakfast.",note:"Het-word. ont- + bijt = un- + bite.\nLiterally: 'un-bite' (breaking the fast  -  like English 'breakfast'!).\nDutch breakfast = bread, cheese, hagelslag."},
+         {type:"teach",kind:"phrase",nl:"de lunch",en:"lunch",phonetic:"duh lunch",example:"De lunch is altijd koud in Nederland.",exampleEn:"Lunch is always cold in the Netherlands.",note:"De-word. Borrowed from English.\n'Lunchen' = to have lunch (verb).\nDutch lunch = cold. Always. We covered this in Unit 4."},
+         {type:"teach",kind:"phrase",nl:"het avondeten",en:"dinner / evening meal",phonetic:"hut AH-vont-ay-tun",example:"Het avondeten is om zes uur.",exampleEn:"Dinner is at six o'clock.",note:"Het-word. avond + eten = evening + eating.\nThe warm meal. The main meal. At 18:00.\nAlso called: 'het eten' (the food/meal)."},
+         {type:"teach",kind:"phrase",nl:"de pauze",en:"the break / pause",phonetic:"duh POW-zuh",cognate:{words:[{lang:"English",word:"pause"},{lang:"German",word:"Pause"},{lang:"French",word:"pause"}],family:"international"},example:"Om tien uur is de koffiepauze.",exampleEn:"At ten o'clock is the coffee break.",note:"De-word. International word.\nkoffiepauze = coffee break (10:00, sacred)\nlunchpauze = lunch break (12:00-12:30, quick)"},
+
+         {type:"tip",title:"💬 Narrating Your Day (Past Tense)",text:"Chain events with time words + perfect tense:\n\n's Morgens heb ik ontbijt gegeten.\n= In the morning I ate breakfast.\n\nOm negen uur ben ik naar het werk gegaan.\n= At nine I went to work.\n\n's Middags heb ik een boterham gegeten.\n= In the afternoon I ate a sandwich.\n\nOm vijf uur ben ik naar huis gegaan.\n= At five I went home.\n\n's Avonds heb ik gekookt en een boek gelezen.\n= In the evening I cooked and read a book.\n\nNotice: V2 rule on every sentence.\nTime word → verb → subject → ... → past participle (end)."},
+
+         {type:"mc",q:"The Dutch eat their warm meal at:",opts:["12:00","15:00","18:00","20:00"],ans:"18:00",hint:"Het avondeten is om zes uur"},
+         {type:"fb",s:"___ morgens drink ik koffie.",a:"'s",opts:["'s","De","Het","In"],hint:"The old genitive: 's morgens"},
+         {type:"match",pairs:[{nl:"het ontbijt",en:"breakfast"},{nl:"de lunch",en:"lunch"},{nl:"het avondeten",en:"dinner"},{nl:"de pauze",en:"break"}]},
+         {type:"mc",q:"'Ontbijt' literally means:",opts:["morning meal","first food","un-bite (breaking the fast)","bread time"],ans:"un-bite (breaking the fast)",hint:"ont- (un-) + bijt (bite)  -  like 'breakfast'!"},
+         {type:"drag_fill",s:"'s Morgens heb ik ontbijt {1}. 's Avonds heb ik {2}.",blanks:{"1":"gegeten","2":"gekookt"},pool:["gegeten","gekookt","eten","koken"],hint:"Ate breakfast. Cooked dinner."},
+         {type:"fb",s:"Om vijf uur ___ ik naar huis gegaan.",a:"ben",opts:["ben","heb","ga","moet"],hint:"Movement verb → zijn"},
+         {type:"mc",q:"The Netherlands has Europe's highest rate of:",opts:["overtime work","part-time work","unemployment","remote work"],ans:"part-time work",hint:"Part-time paradise!"},
+         {type:"fb",s:"'s ___ eten we warm.",a:"Avonds",opts:["Avonds","Morgens","Middags","Nachts"],hint:"In the EVENING we eat a warm meal"},
+         {type:"tr",mk:"u7_worked_yesterday",dir:"produce"},
+         {type:"tr",mk:"u7_i_went_to_amsterdam",dir:"produce"},
+       ]},
+       {id:"v2u7l8",title:"Unit 7 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 7: Alles Samen",desc:"Perfect tense with hebben and zijn. Regular participles ('t kofschip). Irregular participles. Time expressions. Weekend conversations. Daily routines. Everything from L1–L7 mixed together.",goals:["hebben vs zijn selection","'t kofschip: -t vs -d","Irregular past participles","Time expressions + V2 word order","Narrate past events fluently"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 7 you can:\n\n• Form regular past participles (ge- + stam + -t/-d)\n• Apply 't kofschip to choose -t or -d\n• Know 15 irregular past participles\n• Choose hebben or zijn correctly\n• Use time expressions (gisteren, vorige week, geleden)\n• Narrate your day, weekend, and week\n• Have Monday morning small talk\n• Understand Dutch daily rhythm culture\n\nYou're now A2.1  -  you can talk about the PAST.\nThat's a huge milestone."},
+
+         {type:"mc",q:"'Werken → gewerkt.' The ending is -t because:",opts:["All participles end in -t","Stam 'werk' ends in K, which is in 't kofschip","It's irregular","Werken uses zijn"],ans:"Stam 'werk' ends in K, which is in 't kofschip",hint:"K = 't kofschip = -t"},
+         {type:"fb",s:"Ik ___ gisteren naar Amsterdam gegaan.",a:"ben",opts:["ben","heb","ga","heeft"],hint:"Movement verb → zijn"},
+         {type:"mc",q:"'Drinken → gedronken' is irregular because:",opts:["The vowel changes: i → o","It uses zijn","It has no ge-","The ending is -t"],ans:"The vowel changes: i → o",hint:"drink → dronk-en (vowel shift)"},
+         {type:"match",pairs:[{nl:"gegeten",en:"eaten"},{nl:"gedronken",en:"drunk"},{nl:"geschreven",en:"written"},{nl:"gesproken",en:"spoken"}]},
+
+         {type:"drag_fill",s:"Ik {1} koffie gedronken. Zij {2} naar huis gegaan.",blanks:{"1":"heb","2":"is"},pool:["heb","is","ben","heeft"],hint:"Drinking = hebben. Going = zijn."},
+         {type:"fb",s:"Twee weken ___ ben ik naar België gegaan.",a:"geleden",opts:["geleden","gisteren","morgen","vorige"],hint:"Two weeks AGO"},
+         {type:"mc",q:"Verbs with be-, ver-, ge-, her-, ont- prefix:",opts:["always use zijn","get double ge-","skip the ge- prefix","are always irregular"],ans:"skip the ge- prefix",hint:"betaald, verkocht, gebruikt  -  no ge-"},
+
+         {type:"mc",q:"'Hoe was je weekend?'  -  the correct answer is NOT:",opts:["Leuk!","Druk.","Het was gezellig.","Ik heb vierduizend euro verdiend."],ans:"Ik heb vierduizend euro verdiend.",hint:"Don't brag! Just be normaal."},
+         {type:"fb",s:"'s ___ eet ik een boterham.",a:"Middags",opts:["Middags","Morgens","Avonds","Nachts"],hint:"Lunchtime = afternoon"},
+         {type:"drag_fill",s:"{1} heb ik ontbijt gegeten. {2} ben ik naar het werk gegaan.",blanks:{"1":"Eerst","2":"Daarna"},pool:["Eerst","Daarna","Morgen","Nu"],hint:"First... then..."},
+         {type:"mc",q:"'Het avondeten is om zes uur.' Dutch dinner is at:",opts:["17:00","18:00","19:00","20:00"],ans:"18:00",hint:"Six o'clock sharp!"},
+
+         {type:"match",pairs:[{nl:"gisteren",en:"yesterday"},{nl:"vorige week",en:"last week"},{nl:"eergisteren",en:"day before yesterday"},{nl:"geleden",en:"ago"}]},
+         {type:"fb",s:"Zij ___ een boek gelezen.",a:"heeft",opts:["heeft","is","heb","ben"],hint:"Reading = hebben, zij = heeft"},
+         {type:"mc",q:"Separable verbs in the perfect tense: ge- goes:",opts:["at the front: geschoonmaakt","in the middle: schoongemaakt","at the end: maaktgeschoon","nowhere"],ans:"in the middle: schoongemaakt",hint:"prefix + ge + stam + ending"},
+         {type:"drag_fill",s:"Het was {1}. Ik heb bij vrienden {2}.",blanks:{"1":"gezellig","2":"gegeten"},pool:["gezellig","gegeten","leuk","gedronken"],hint:"It was gezellig. I ate at friends'."},
+         {type:"tr",mk:"u7_we_ate_pancakes",dir:"produce"},
+         {type:"tr",mk:"u7_what_did_weekend",dir:"produce"},
+         {type:"tr",mk:"u7_she_cycled_work",dir:"produce"},
+       ]},
+  ]},
+
+  {n:8,lang:"nl",track:"v2",title:"Gezondheid & Gevoel",sub:"Imperative, Comparatives & Body",icon:"🏥",level:"A2.1",color:"#F56565",lessons:[
+       {id:"v2u8l1",title:"Mijn Hoofd, Mijn Buik",icon:"🦶",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Hoofd, Mijn Buik",desc:"Before you can talk about health, you need the body. Dutch body part vocabulary is full of Germanic cognates  -  head/hoofd, hand/hand, foot/voet. This lesson teaches 12 essential body parts and the construction 'Ik heb pijn in mijn...' (I have pain in my...).",goals:["12 body parts with articles","'Ik heb pijn in mijn...' construction","'Ik heb hoofdpijn/buikpijn/rugpijn'","Compound pain words"]},
+
+         {type:"teach",kind:"phrase",nl:"het hoofd",en:"the head",phonetic:"hut hohft",cognate:{words:[{lang:"English",word:"head"},{lang:"German",word:"Haupt"}],family:"germanic"},example:"Ik heb pijn in mijn hoofd.",exampleEn:"I have pain in my head.",note:"Het-word. Formal; informal = 'het hoofd' or just 'kop'.\n'Hoofdpijn' = headache (compound word)."},
+         {type:"teach",kind:"phrase",nl:"de buik",en:"the belly / stomach",phonetic:"duh boyk",example:"Mijn buik doet pijn.",exampleEn:"My stomach hurts.",note:"De-word. 'Buikpijn' = stomachache.\n'Mijn buik doet pijn' = my belly hurts.\nAlternative: 'de maag' (the stomach, internal organ)."},
+         {type:"teach",kind:"phrase",nl:"de rug",en:"the back",phonetic:"duh rug",cognate:{words:[{lang:"German",word:"Rücken"}],family:"germanic"},example:"Ik heb rugpijn.",exampleEn:"I have back pain.",note:"De-word. 'Rugpijn' = back pain.\nVery common complaint in the Netherlands.\nRelated to German 'Rücken'."},
+         {type:"teach",kind:"phrase",nl:"de hand",en:"the hand",phonetic:"duh hant",cognate:{words:[{lang:"English",word:"hand"},{lang:"German",word:"Hand"}],family:"germanic"},example:"Geef me je hand.",exampleEn:"Give me your hand.",note:"De-word. Identical to English!\nPlural: handen. Final -d sounds like -t."},
+         {type:"teach",kind:"phrase",nl:"de voet",en:"the foot",phonetic:"duh foot",cognate:{words:[{lang:"English",word:"foot"},{lang:"German",word:"Fuß"}],family:"germanic"},example:"Mijn voet doet pijn.",exampleEn:"My foot hurts.",note:"De-word. Plural: voeten.\nSame root as English 'foot'. The 'oe' = 'oo'."},
+         {type:"teach",kind:"phrase",nl:"het been",en:"the leg",phonetic:"hut bayn",cognate:{words:[{lang:"English",word:"bone"},{lang:"German",word:"Bein"}],family:"germanic"},example:"Ik heb pijn in mijn been.",exampleEn:"I have pain in my leg.",note:"Het-word. ⚠️ False friend in English!\nDutch 'been' = leg (AND bone).\nEnglish 'bean' = Dutch 'boon'. Different word!"},
+         {type:"teach",kind:"phrase",nl:"de arm",en:"the arm",phonetic:"duh arm",cognate:{words:[{lang:"English",word:"arm"},{lang:"German",word:"Arm"}],family:"germanic"},example:"Mijn arm is gebroken.",exampleEn:"My arm is broken.",note:"De-word. Identical to English and German.\nPlural: armen."},
+         {type:"teach",kind:"phrase",nl:"het oor",en:"the ear",phonetic:"hut ohr",cognate:{words:[{lang:"English",word:"ear"},{lang:"German",word:"Ohr"}],family:"germanic"},example:"Ik heb pijn in mijn oor.",exampleEn:"I have pain in my ear.",note:"Het-word. Plural: oren.\nSame root as English 'ear' and German 'Ohr'."},
+         {type:"teach",kind:"phrase",nl:"het oog",en:"the eye",phonetic:"hut ohg",cognate:{words:[{lang:"English",word:"eye"},{lang:"German",word:"Auge"}],family:"germanic"},example:"Mijn oog is rood.",exampleEn:"My eye is red.",note:"Het-word. Plural: ogen.\nThe 'g' in 'oog' is the Dutch throat sound."},
+         {type:"teach",kind:"phrase",nl:"de keel",en:"the throat",phonetic:"duh kayl",example:"Ik heb keelpijn.",exampleEn:"I have a sore throat.",note:"De-word. 'Keelpijn' = sore throat.\nVery common winter complaint."},
+
+         {type:"tip",title:"🏥 Compound Pain Words",text:"Dutch builds pain words by compounding:\n\nhoofdpijn = headache (hoofd + pijn)\nbuikpijn = stomachache\nrugpijn = back pain\nkeelpijn = sore throat\nkiespijn = toothache (kies = molar)\noorpijn = earache\n\nThe pattern: [body part] + pijn = [body part]-ache.\n\nAlternatively: 'Ik heb pijn in mijn [body part].'\nIk heb pijn in mijn been. = My leg hurts.\nIk heb pijn in mijn arm. = My arm hurts.\n\nOr: '[body part] doet pijn.' = [body part] hurts.\nMijn buik doet pijn. = My stomach hurts.\nMijn hoofd doet pijn. = My head hurts."},
+
+         {type:"teach",kind:"phrase",nl:"de pijn",en:"the pain",phonetic:"duh payn",cognate:{words:[{lang:"English",word:"pain"},{lang:"French",word:"peine"},{lang:"German",word:"Pein"}],family:"germanic"},example:"Ik heb veel pijn.",exampleEn:"I have a lot of pain.",note:"De-word. 'Pijn hebben' = to have pain.\n'Pijn doen' = to hurt.\nBoth constructions are equally common."},
+
+         {type:"mc",q:"'Hoofdpijn' is a compound of:",opts:["hoofd + pijn = headache","hoof + dip = hoofache","hood + pijn = pain","hoofd + pin = needle"],ans:"hoofd + pijn = headache",hint:"Head + pain"},
+         {type:"fb",s:"Ik heb ___ in mijn rug.",a:"pijn",opts:["pijn","ziek","koud","warm"],hint:"I have PAIN in my back"},
+         {type:"match",pairs:[{nl:"het hoofd",en:"the head"},{nl:"de buik",en:"the belly"},{nl:"de rug",en:"the back"},{nl:"de voet",en:"the foot"}]},
+         {type:"mc",q:"Dutch 'been' means:",opts:["bean","leg (and bone)","bin","behind"],ans:"leg (and bone)",hint:"False friend! Not a vegetable."},
+         {type:"drag_fill",s:"Mijn {1} doet pijn. Ik heb {2}.",blanks:{"1":"buik","2":"buikpijn"},pool:["buik","buikpijn","hoofd","hoofdpijn"],hint:"My belly hurts. I have a stomachache."},
+         {type:"fb",s:"Mijn ___ doet pijn. (throat)",a:"keel",opts:["keel","hoofd","oor","oog"],hint:"Keelpijn = sore throat"},
+         {type:"match",pairs:[{nl:"het oor",en:"the ear"},{nl:"het oog",en:"the eye"},{nl:"de hand",en:"the hand"},{nl:"de arm",en:"the arm"}]},
+         {type:"mc",q:"Which body parts are het-words?",opts:["hoofd, been, oor, oog","arm, hand, rug, buik","all body parts","none of them"],ans:"hoofd, been, oor, oog",hint:"The paired/sensory ones tend to be het-words"},
+         {type:"tr",mk:"u8_headache",dir:"produce"},
+       ]},
+       {id:"v2u8l2",title:"Ik Voel Me...",icon:"😊",xp:15,board:true,steps:[
+         {type:"intro",title:"Ik Voel Me...",desc:"Dutch uses reflexive verbs for feelings  -  you learned the system in Unit 5. Now apply it to emotions and wellbeing. 'Ik voel me goed', 'ik voel me ziek', 'ik voel me moe'  -  essential daily vocabulary.",goals:["10 feeling/state adjectives","'Ik voel me...' for emotions","'Hoe gaat het?' deep dive","Nuanced responses beyond 'goed'"]},
+
+         {type:"teach",kind:"word",nl:"ziek",en:"sick / ill",phonetic:"zeek",cognate:{words:[{lang:"English",word:"sick"},{lang:"German",word:"siech (literary)"}],family:"germanic"},example:"Ik voel me ziek.",exampleEn:"I feel sick.",note:"Same root as English 'sick'  -  both from Proto-Germanic.\nGerman 'siech' still exists but only in literary or\nold-fashioned contexts; modern German uses 'krank' instead.\nDutch kept 'ziek' as the everyday word.\n'Ik ben ziek.' = I am sick.\n'Ik voel me ziek.' = I feel sick.\nAlso: 'het ziekenhuis' = the hospital (sick-house)."},
+         {type:"teach",kind:"word",nl:"moe",en:"tired",phonetic:"moo",cognate:{words:[{lang:"German",word:"müde"}],family:"germanic"},example:"Ik ben heel moe.",exampleEn:"I am very tired.",note:"Short word, very common.\n'Ik voel me moe.' = I feel tired.\nGerman: müde. Same root."},
+         {type:"teach",kind:"grammar",nl:"beter",en:"better",phonetic:"BAY-tur",cognate:{words:[{lang:"English",word:"better"},{lang:"German",word:"besser"}],family:"germanic"},example:"Ik voel me vandaag beter.",exampleEn:"I feel better today.",note:"Comparative of 'goed' (good).\ngoed → beter → best. Irregular!\nSame as English: good → better → best."},
+         {type:"teach",kind:"word",nl:"lekker",en:"nice / well / tasty",phonetic:"LEK-kur",example:"Ik voel me niet lekker.",exampleEn:"I don't feel well.",note:"'Lekker' = the Swiss army knife of Dutch.\nWith food: lekker = tasty. 'De kaas is lekker.'\nWith feelings: lekker = well/good. 'Ik voel me lekker.'\nNegative: 'niet lekker' = unwell, nauseous."},
+         {type:"teach",kind:"word",nl:"blij",en:"happy / glad",phonetic:"blay",example:"Ik ben heel blij!",exampleEn:"I am very happy!",note:"Short and common.\n'Blij met' = happy with/about.\n'Ik ben blij met mijn nieuwe baan.' = I'm happy with my new job."},
+         {type:"teach",kind:"word",nl:"verdrietig",en:"to be sad",phonetic:"fur-DREE-tug",example:"Zij voelt zich verdrietig.",exampleEn:"She feels sad.",note:"ver- + driet + -ig. 'Verdriet' = grief/sadness.\nMore formal; casual Dutch often says 'triest' or just 'niet blij'."},
+         {type:"teach",kind:"word",nl:"boos",en:"angry / mad",phonetic:"bohs",example:"Hij is boos op mij.",exampleEn:"He is angry at me.",note:"'Boos op' = angry at (person).\n'Boos over' = angry about (thing).\nDutch directness: they'll tell you when they're boos."},
+         {type:"teach",kind:"word",nl:"bang",en:"afraid / scared",phonetic:"bang",example:"Ik ben bang voor spinnen.",exampleEn:"I'm afraid of spiders.",note:"'Bang voor' = afraid of.\nSame sound as English 'bang'!\n'Bang zijn' = to be afraid."},
+
+         {type:"tip",title:"💬 Beyond 'Goed': Real Answers to 'Hoe gaat het?'",text:"'Hoe gaat het?' → Dutch people usually say 'goed' or 'prima'.\nBut now you can be more expressive:\n\nPositive:\nHeel goed! = Very good!\nPrima! = Great!\nLekker! = Nice/well!\nIk voel me goed. = I feel good.\n\nNeutral:\nGaat wel. = It's okay. (most common honest answer)\nHet gaat. = It goes. (= surviving)\nNiet slecht. = Not bad.\n\nNegative:\nNiet zo goed. = Not so good.\nIk voel me niet lekker. = I don't feel well.\nIk ben moe. = I'm tired.\nIk ben een beetje ziek. = I'm a bit sick.\n\n'Gaat wel' is the real Dutch answer.\nIt means 'could be better, could be worse.'\nVery Dutch: understated, realistic, not dramatic."},
+
+         {type:"mc",q:"'Ik voel me niet lekker' means:",opts:["I don't feel tasty","I don't feel well","I feel great","I'm not nice"],ans:"I don't feel well",hint:"lekker with feelings = well"},
+         {type:"fb",s:"Ik ___ me vandaag beter.",a:"voel",opts:["voel","ben","heb","ga"],hint:"I FEEL myself better today"},
+         {type:"match",pairs:[{nl:"ziek",en:"sick"},{nl:"moe",en:"tired"},{nl:"blij",en:"happy"},{nl:"boos",en:"angry"}]},
+         {type:"mc",q:"'Gaat wel' is the most Dutch answer because:",opts:["It's very positive","It's understated and realistic","It means 'excellent'","It's formal"],ans:"It's understated and realistic",hint:"Not too good, not too bad. Just... gaat wel."},
+         {type:"drag_fill",s:"Ik ben {1} voor spinnen. Hij is {2} op mij.",blanks:{"1":"bang","2":"boos"},pool:["bang","boos","blij","moe"],hint:"Afraid OF spiders. Angry AT me."},
+         {type:"fb",s:"Zij voelt ___ verdrietig.",a:"zich",opts:["zich","me","je","ons"],hint:"She feels HERSELF (third person reflexive)"},
+         {type:"mc",q:"'Lekker' can mean all EXCEPT:",opts:["tasty","well/good","expensive","nice"],ans:"expensive",hint:"Lekker covers tasty, well, and nice  -  not price"},
+         {type:"fb",s:"Ik voel me niet ___. Ik ben een beetje ziek.",a:"lekker",opts:["lekker","goed","blij","beter"],hint:"I don't feel WELL"},
+         {type:"tr",mk:"u8_feel_sick",dir:"produce"},
+       ]},
+       {id:"v2u8l3",title:"Bij de Huisarts",icon:"🩺",xp:20,board:true,steps:[
+         {type:"intro",title:"Bij de Huisarts",desc:"The Dutch healthcare system starts with the huisarts (GP/family doctor). You can't go directly to a specialist  -  the huisarts decides. And their solution for almost everything? 'Neem maar een paracetamolletje.' This lesson teaches medical vocab and the cultural shock of Dutch healthcare.",goals:["Doctor visit vocabulary","Describe symptoms","Dutch healthcare culture","The huisarts gatekeeper system"]},
+
+         {type:"teach",kind:"phrase",nl:"de huisarts",en:"the GP / family doctor",phonetic:"duh HOYS-arts",example:"Ik moet naar de huisarts.",exampleEn:"I have to go to the GP.",note:"huis + arts = house + doctor.\nEvery Dutch person is registered with a huisarts.\nYou CANNOT see a specialist without a referral."},
+         {type:"teach",kind:"phrase",nl:"de dokter",en:"the doctor",phonetic:"duh DOK-tur",cognate:{words:[{lang:"English",word:"doctor"},{lang:"German",word:"Doktor"}],family:"international"},example:"De dokter zegt dat ik moet rusten.",exampleEn:"The doctor says I must rest.",note:"General term. Less specific than 'huisarts'.\n'Naar de dokter gaan' = to go to the doctor."},
+         {type:"teach",kind:"phrase",nl:"de afspraak",en:"the appointment",phonetic:"duh AF-sprahk",example:"Ik heb een afspraak bij de huisarts.",exampleEn:"I have an appointment at the GP.",note:"af + spraak = appointment. Also: agreement.\n'Afspraak is afspraak' = a deal is a deal.\nYou need an afspraak for almost everything in NL."},
+         {type:"teach",kind:"phrase",nl:"het recept",en:"the prescription / recipe",phonetic:"hut ruh-SEPT",cognate:{words:[{lang:"English",word:"receipt / recipe"},{lang:"German",word:"Rezept"}],family:"international"},example:"De dokter geeft een recept.",exampleEn:"The doctor gives a prescription.",note:"Het-word. Same word for recipe AND prescription!\nContext tells you which.\n'Een recept voor antibiotica' = a prescription for antibiotics."},
+
+         {type:"tip",title:"🇳🇱 The Dutch Huisarts: Gatekeeper of Healthcare",text:"The Dutch healthcare system works like this:\n\n1. You feel sick → call the huisarts\n2. Huisarts sees you (often same day or next day)\n3. Huisarts decides: treat, wait, or refer\n\nYou CANNOT:\n• Go directly to a specialist\n• Go to the ER for non-emergencies\n• Get antibiotics 'just in case'\n\nThe huisarts philosophy: the body heals itself.\nForeign residents are often shocked by:\n'Neem maar een paracetamolletje en drink veel water.'\n= Just take a paracetamol and drink lots of water.\n\nThis isn't neglect  -  it's evidence-based medicine.\nThe Dutch prescribe fewer antibiotics than almost\nany country in Europe. And their health outcomes\nare among the best.",deepDive:{title:"The paracetamolletje",text:"'Paracetamolletje'  -  note the diminutive (-letje)!\nIt makes the pill sound small, harmless, friendly.\n\nThe Dutch solution for:\n• Headache → paracetamolletje\n• Back pain → paracetamolletje\n• Flu → paracetamolletje + water + rest\n• Broken heart → paracetamolletje (joking... mostly)\n\nThis is a running joke among expats.\nBut the Dutch live to an average of 82 years.\nThe system works. Even if it frustrates you."}},
+
+         {type:"teach",kind:"word",nl:"koorts",en:"fever",phonetic:"kohrts",cognate:{words:[{lang:"German",word:"Fieber (different word)"}],family:"germanic"},example:"Ik heb koorts.",exampleEn:"I have a fever.",note:"De-word but often used without article.\n'Koorts hebben' = to have a fever.\n38°C+ = koorts in Dutch medical standards."},
+         {type:"teach",kind:"word",nl:"verkouden",en:"having a cold",phonetic:"fur-KOW-dun",example:"Ik ben verkouden.",exampleEn:"I have a cold.",note:"Adjective, not a noun!\n'Ik BEN verkouden.' (with zijn, not hebben.)\n'Verkouden zijn' = to have a cold."},
+         {type:"teach",kind:"word",nl:"rusten",en:"to rest",phonetic:"RUS-tun",cognate:{words:[{lang:"English",word:"rest"},{lang:"German",word:"ruhen / rasten"}],family:"germanic"},example:"Je moet rusten.",exampleEn:"You must rest.",note:"Regular verb. Stam = rust.\nThe doctor's favorite advice after paracetamol:\n'Rust maar uit.' = Just rest."},
+         {type:"teach",kind:"phrase",nl:"de apotheek",en:"the pharmacy",phonetic:"duh ah-poh-TAYK",cognate:{words:[{lang:"English",word:"apothecary"},{lang:"German",word:"Apotheke"}],family:"international"},example:"Ga naar de apotheek voor je recept.",exampleEn:"Go to the pharmacy for your prescription.",note:"De-word. Where you pick up prescriptions.\n'De apotheker' = the pharmacist.\nOpen until 17:00-18:00, some have evening dienst."},
+
+         {type:"mc",q:"In the Netherlands, you must see the huisarts before:",opts:["buying paracetamol","seeing a specialist","eating lunch","going to work"],ans:"seeing a specialist",hint:"The gatekeeper system  -  no direct access"},
+         {type:"fb",s:"Ik ___ verkouden.",a:"ben",opts:["ben","heb","voel","ga"],hint:"I AM having a cold (zijn, not hebben)"},
+         {type:"match",pairs:[{nl:"de huisarts",en:"the GP"},{nl:"de afspraak",en:"the appointment"},{nl:"het recept",en:"the prescription"},{nl:"de apotheek",en:"the pharmacy"}]},
+         {type:"mc",q:"'Neem maar een paracetamolletje'  -  the '-letje' is:",opts:["a plural ending","a diminutive (making it sound small/friendly)","a formal suffix","the brand name"],ans:"a diminutive (making it sound small/friendly)",hint:"Unit 4 diminutive system!"},
+         {type:"drag_fill",s:"Ik heb {1}. De dokter zegt: je moet {2}.",blanks:{"1":"koorts","2":"rusten"},pool:["koorts","rusten","pijn","werken"],hint:"I have a fever. Doctor says: rest."},
+         {type:"fb",s:"Ga naar de ___ voor je recept.",a:"apotheek",opts:["apotheek","huisarts","markt","winkel"],hint:"The pharmacy"},
+         {type:"mc",q:"The Dutch prescribe fewer ___ than most EU countries:",opts:["paracetamol","antibiotics","vitamins","coffee"],ans:"antibiotics",hint:"The body heals itself philosophy"},
+         {type:"fb",s:"Ik heb een ___ bij de huisarts.",a:"afspraak",opts:["afspraak","recept","pijn","koorts"],hint:"An appointment"},
+         {type:"tr",mk:"u8_go_to_doctor",dir:"produce"},
+         {type:"tr",mk:"u8_take_paracetamol",dir:"produce"},
+       ]},
+       {id:"v2u8l4",title:"Doe Dit, Doe Dat",icon:"👆",xp:20,board:true,steps:[
+         {type:"intro",title:"Doe Dit, Doe Dat",desc:"Commands in Dutch are dead simple: use the stam. 'Kom!' = Come! 'Ga zitten!' = Sit down! You've been seeing the stam for 7 units  -  now it has a new job. This lesson also teaches softening with 'maar', 'even', and 'eens'.",goals:["Form imperatives (= just the stam!)","Soften commands with maar/even/eens","Polite vs direct commands","Common imperative phrases"]},
+
+         {type:"tip",title:"📐 The Imperative: Just the Stam",text:"The imperative in Dutch = the stam. That's it.\n\nwerken → werk! (Work!)\nkomen → kom! (Come!)\ngaan → ga! (Go!)\neten → eet! (Eat!)\nzitten → zit! (Sit!)\ndoen → doe! (Do!)\n\nYou already know the stam of every verb.\nNow you can give commands.\n\nFor separable verbs, the prefix goes to the end:\nopstaan → Sta op! (Stand up! / Get up!)\nbinnenkomen → Kom binnen! (Come in!)\nopbellen → Bel op! (Call!)\n\nFormality note: Dutch commands sound very direct.\nAdd 'u' for formal: 'Komt u binnen.' = Please come in.\nAdd softeners for polite: 'Kom maar binnen.' = Do come in."},
+
+         {type:"teach",kind:"word",nl:"kom!",en:"come!",phonetic:"kom",example:"Kom hier!",exampleEn:"Come here!",note:"Stam of 'komen'. Simplest command.\n'Kom binnen!' = Come in!\n'Kom maar.' = Come on (encouraging)."},
+         {type:"teach",kind:"word",nl:"ga!",en:"go!",phonetic:"gah",example:"Ga zitten!",exampleEn:"Sit down! (= Go sit!)",note:"Stam of 'gaan'.\n'Ga weg!' = Go away!\n'Ga maar.' = Go ahead."},
+         {type:"teach",kind:"word",nl:"wacht!",en:"wait!",phonetic:"vagt",example:"Wacht even!",exampleEn:"Wait a moment!",note:"Stam of 'wachten'.\n'Wacht even' = wait a sec (very common).\n'Even' softens it dramatically."},
+         {type:"teach",kind:"word",nl:"kijk!",en:"look!",phonetic:"kayk",example:"Kijk eens!",exampleEn:"Look! / Check this out!",note:"Stam of 'kijken'.\n'Kijk uit!' = Watch out! / Be careful!\n'Kijk eens' = take a look (friendly)."},
+
+         {type:"tip",title:"✨ Softeners: maar, even, eens",text:"Dutch commands can sound harsh. Add softeners:\n\nMAAR = go ahead, don't worry\n'Kom maar.' = Just come. (encouraging)\n'Ga maar zitten.' = Go ahead, sit down.\n'Neem maar.' = Just take it. (offering)\n\nEVEN = just, for a moment\n'Wacht even.' = Wait a sec.\n'Kijk even.' = Just take a look.\n'Kom even hier.' = Come here for a sec.\n\nEENS = why don't you (suggestion-like)\n'Kijk eens!' = Look! / Check this out!\n'Luister eens.' = Listen (for a moment).\n'Probeer eens.' = Try it!\n\nCombine them: 'Kom maar even hier.' = Just come here for a sec.\nThe more softeners, the more polite and gentle.\n\n⚠️ Without softeners, Dutch commands are VERY direct.\n'Kom!' vs 'Kom maar even.'  -  huge difference in tone."},
+
+         {type:"teach",kind:"word",nl:"luister!",en:"listen!",phonetic:"LOYS-tur",example:"Luister goed!",exampleEn:"Listen carefully!",note:"Stam of 'luisteren'.\n'Luister eens' = listen (gentle).\n'Luister goed' = listen carefully (firm)."},
+         {type:"teach",kind:"word",nl:"neem",en:"take!",phonetic:"naym",example:"Neem maar een kopje koffie.",exampleEn:"Just take/have a cup of coffee.",note:"Stam of 'nemen'.\n'Neem maar.' = Go ahead and take it.\nVery common when offering food/drink."},
+         {type:"teach",kind:"word",nl:"stop!",en:"stop!",phonetic:"stop",cognate:{words:[{lang:"English",word:"stop"},{lang:"German",word:"Stopp"}],family:"international"},example:"Stop! Niet doen!",exampleEn:"Stop! Don't do that!",note:"Stam of 'stoppen'. Identical to English.\n'Niet doen!' = Don't do (that)!  -  very common.\nCombined: 'Stop daarmee!' = Stop that!"},
+
+         {type:"mc",q:"The Dutch imperative is formed by:",opts:["adding -en to the stam","just using the stam","using gaan + infinitive","adding -t to the stam"],ans:"just using the stam",hint:"Werk! Kom! Ga! = the stam"},
+         {type:"fb",s:"___ maar zitten!",a:"Ga",opts:["Ga","Gaat","Gaan","Ging"],hint:"Go ahead and sit! (stam of gaan)"},
+         {type:"mc",q:"'Wacht even' sounds softer than 'Wacht!' because:",opts:["'even' = just/for a moment  -  softens the command","'even' means please","it's a different verb","it's longer"],ans:"'even' = just/for a moment  -  softens the command",hint:"Softeners change the tone dramatically"},
+         {type:"match",pairs:[{nl:"maar",en:"go ahead / just"},{nl:"even",en:"just / for a moment"},{nl:"eens",en:"why don't you (suggesting)"}]},
+         {type:"drag_fill",s:"{1} hier! {2} goed!",blanks:{"1":"Kom","2":"Luister"},pool:["Kom","Luister","Gaat","Doen"],hint:"Come here! Listen well!"},
+         {type:"fb",s:"___ maar een kopje koffie.",a:"Neem",opts:["Neem","Neemt","Nemen","Genomen"],hint:"Just TAKE a cup of coffee"},
+         {type:"mc",q:"For separable verbs, the imperative puts the prefix:",opts:["before the stam: opsta!","at the end: sta op!","nowhere: sta!","doubled: opstaop!"],ans:"at the end: sta op!",hint:"Same as declarative: prefix to the end"},
+         {type:"fb",s:"___ uit! (= Watch out!)",a:"Kijk",opts:["Kijk","Kijkt","Kijken","Gekeken"],hint:"Look out! = stam of kijken"},
+         {type:"mc",q:"'Neem maar een paracetamolletje'  -  'maar' here means:",opts:["but","go ahead / just (softener)","more","never"],ans:"go ahead / just (softener)",hint:"Encouraging: just take one, no worries"},
+       ]},
+       {id:"v2u8l5",title:"Groter, Beter, Mooier",icon:"📊",xp:20,board:true,steps:[
+         {type:"intro",title:"Groter, Beter, Mooier",desc:"Bigger, better, more beautiful. Dutch comparatives add -er (like English) and use 'dan' (than). Simple system with a few spelling quirks. This lesson covers regular comparatives and the important irregulars.",goals:["Form comparatives with -er","Use 'dan' for comparison","Spelling changes with -er","4 irregular comparatives"]},
+
+         {type:"tip",title:"📐 Comparatives: The Rule",text:"Dutch: adjective + -er + dan\nEnglish: adjective + -er + than\n\ngroot → groter dan = bigger than\nklein → kleiner dan = smaller than\nmooi → mooier dan = more beautiful than\noud → ouder dan = older than\n\nDutch NEVER uses 'meer' (more) for single adjectives.\nEnglish: 'more beautiful' ✓ / 'beautifuller' ✗\nDutch: 'mooier' ✓ / 'meer mooi' ✗\n\nEverything gets -er. Everything.\n(Except the 4 irregulars  -  see below.)"},
+
+         {type:"teach",kind:"word",nl:"groter",en:"bigger / taller",phonetic:"GROH-tur",example:"Amsterdam is groter dan Utrecht.",exampleEn:"Amsterdam is bigger than Utrecht.",note:"groot → groter. The 'oo' becomes 'o'.\nWhy? 'gro-ter' = open syllable → one 'o' is enough.\nSame spelling rule as plurals!"},
+         {type:"teach",kind:"word",nl:"kleiner",en:"smaller",phonetic:"KLAY-nur",example:"Utrecht is kleiner dan Amsterdam.",exampleEn:"Utrecht is smaller than Amsterdam.",note:"klein → kleiner. No spelling change needed.\nThe diphthong 'ei' doesn't change."},
+         {type:"teach",kind:"word",nl:"mooier",en:"more beautiful / prettier",phonetic:"MOY-ur",example:"Dit huis is mooier dan dat huis.",exampleEn:"This house is prettier than that house.",note:"mooi → mooier. Just add -er.\nNo 'meer mooi'  -  Dutch always uses -er."},
+         {type:"teach",kind:"word",nl:"dan",en:"than",phonetic:"dan",example:"Kaas is duurder dan brood.",exampleEn:"Cheese is more expensive than bread.",note:"'Dan' = than. Not 'als'!\n⚠️ Common mistake: 'groter als' (WRONG).\nCorrect: 'groter dan'. Always 'dan'."},
+         {type:"teach",kind:"word",nl:"duurder",en:"more expensive",phonetic:"DUWR-dur",example:"Amsterdam is duurder dan Rotterdam.",exampleEn:"Amsterdam is more expensive than Rotterdam.",note:"duur → duurder. Regular -er.\nRemember from Unit 4: duur = expensive."},
+
+         {type:"tip",title:"⚡ Irregular Comparatives",text:"Four common adjectives have irregular comparatives:\n\ngoed → beter (good → better)\nveel → meer (much/many → more)\nweinig → minder (little/few → less/fewer)\ngraag → liever (gladly → rather/preferring)\n\nThese are the SAME irregulars as English:\ngood → better (not 'gooder')\nmuch → more (not 'mucher')\nlittle → less (not 'littler')\n\nSame Germanic inheritance, same exceptions.\nJust four words to memorize."},
+
+         {type:"teach",kind:"grammar",nl:"beter",en:"better",phonetic:"BAY-tur",example:"Jouw koffie is beter dan mijn koffie.",exampleEn:"Your coffee is better than my coffee.",note:"goed → beter. Irregular.\nSame as English: good → better.\n'Beter laat dan nooit.' = Better late than never."},
+         {type:"teach",kind:"grammar",nl:"meer",en:"more",phonetic:"mayr",example:"Ik wil meer koffie.",exampleEn:"I want more coffee.",note:"veel → meer. Irregular.\n'Meer dan' = more than.\n'Steeds meer' = increasingly."},
+         {type:"teach",kind:"grammar",nl:"minder",en:"less / fewer",phonetic:"MIN-dur",example:"Ik heb minder tijd dan jij.",exampleEn:"I have less time than you.",note:"weinig → minder. Irregular.\n'Minder dan' = less/fewer than.\nOpposite of 'meer'."},
+
+         {type:"mc",q:"'Groot → groter'  -  the 'oo' becomes 'o' because:",opts:["It's irregular","Open syllable: one 'o' is enough for long vowel","Dutch hates double vowels","It's a spelling error"],ans:"Open syllable: one 'o' is enough for long vowel",hint:"gro-ter: open syllable = long vowel with one letter"},
+         {type:"fb",s:"Amsterdam is ___ dan Utrecht.",a:"groter",opts:["groter","groot","grote","grooter"],hint:"Bigger than"},
+         {type:"mc",q:"Dutch for 'more beautiful' is:",opts:["meer mooi","mooier","de meest mooi","het mooist"],ans:"mooier",hint:"Dutch ALWAYS uses -er, never 'meer + adjective'"},
+         {type:"match",pairs:[{nl:"beter",en:"better"},{nl:"meer",en:"more"},{nl:"minder",en:"less"},{nl:"duurder",en:"more expensive"}]},
+         {type:"drag_fill",s:"Kaas is {1} dan brood. Jouw koffie is {2} dan mijn koffie.",blanks:{"1":"duurder","2":"beter"},pool:["duurder","beter","duur","goed"],hint:"Cheese is MORE EXPENSIVE. Your coffee is BETTER."},
+         {type:"fb",s:"Ik heb ___ tijd dan jij.",a:"minder",opts:["minder","meer","weinig","veel"],hint:"I have LESS time than you"},
+         {type:"mc",q:"The comparison word 'than' in Dutch is:",opts:["als","dan","van","met"],ans:"dan",hint:"Groter DAN  -  not 'als'!"},
+         {type:"fb",s:"Goed → ___. Veel → meer.",a:"beter",opts:["beter","goeder","goeier","meer goed"],hint:"Irregular: good → better"},
+         {type:"tr",mk:"u8_taller_than",dir:"produce"},
+       ]},
+       {id:"v2u8l6",title:"De Beste, De Grootste",icon:"🏆",xp:15,board:true,steps:[
+         {type:"intro",title:"De Beste, De Grootste",desc:"The best, the biggest, the most beautiful. Dutch superlatives use -st (like English -est) with 'het' or 'de' before them. Combined with comparatives from L5, you can now rank and compare everything.",goals:["Form superlatives with -st/-ste","'De grootste' vs 'het grootst'","Irregular superlatives","Combine comparatives and superlatives"]},
+
+         {type:"tip",title:"📐 Superlatives: The Rule",text:"Two forms:\n\n1. Before a noun: de/het + adjective + -ste\nDe grootste stad. = The biggest city.\nHet mooiste huis. = The most beautiful house.\n\n2. After 'is': het + adjective + -st (no -e)\nDeze stad is het grootst. = This city is the biggest.\nDit huis is het mooist. = This house is the most beautiful.\n\nAlways 'het' in the predicate form (after 'is'):\nAmsterdam is het grootst.\nNederlandse kaas is het lekkerst.\n\nIrregulars:\ngoed → best (not 'goedst')\nveel → meest (not 'veelst')\nweinig → minst (not 'weinigst')\ngraag → liefst (not 'graagst')"},
+
+         {type:"teach",kind:"phrase",nl:"de grootste",en:"the biggest",phonetic:"duh GROHT-stuh",example:"Amsterdam is de grootste stad.",exampleEn:"Amsterdam is the biggest city.",note:"groot → grootst → grootste (before noun).\nDouble 'o' returns in closed syllable.\nBefore noun: add -e → grootste."},
+         {type:"teach",kind:"grammar",nl:"de beste",en:"the best",phonetic:"duh BES-tuh",example:"Dit is de beste kaas.",exampleEn:"This is the best cheese.",note:"goed → best → beste (before noun).\nIrregular, same as English: good → best.\n'De beste' = the best."},
+         {type:"teach",kind:"phrase",nl:"de mooiste",en:"the most beautiful",phonetic:"duh MOY-stuh",example:"De mooiste grachten zijn in Amsterdam.",exampleEn:"The most beautiful canals are in Amsterdam.",note:"mooi → mooist → mooiste.\nNo 'meest mooi'  -  always -st.\nDutch: everything gets -st."},
+         {type:"teach",kind:"grammar",nl:"het meest",en:"the most",phonetic:"hut mayst",example:"Zij heeft het meest geleerd.",exampleEn:"She learned the most.",note:"veel → meest. Irregular.\nSame as English: much → most.\n'De meeste mensen' = most people."},
+         {type:"teach",kind:"grammar",nl:"het minst",en:"the least",phonetic:"hut minst",example:"Dit kost het minst.",exampleEn:"This costs the least.",note:"weinig → minst. Irregular.\nOpposite of 'meest'.\n'De minste problemen' = the fewest problems."},
+
+         {type:"mc",q:"'De grootste stad'  -  'grootste' is:",opts:["comparative","superlative before a noun","superlative after 'is'","imperative"],ans:"superlative before a noun",hint:"de + adjective + -ste = before noun"},
+         {type:"fb",s:"Nederlandse kaas is ___ lekkerst!",a:"het",opts:["het","de","een","geen"],hint:"After 'is': always 'het' + superlative"},
+         {type:"match",pairs:[{nl:"de beste",en:"the best"},{nl:"de grootste",en:"the biggest"},{nl:"het meest",en:"the most"},{nl:"het minst",en:"the least"}]},
+         {type:"mc",q:"Dutch for 'the most beautiful' is:",opts:["de meest mooi","de mooiste","het meer mooi","mooist"],ans:"de mooiste",hint:"Always -ste, never 'meest + adjective'"},
+         {type:"drag_fill",s:"Dit is {1} kaas. Amsterdam is {2} grootst.",blanks:{"1":"de beste","2":"het"},pool:["de beste","het","de","beter"],hint:"The BEST cheese. Amsterdam is THE biggest."},
+         {type:"fb",s:"Goed → beter → ___.",a:"best",opts:["best","goedst","beter","meest goed"],hint:"Good → better → ?"},
+         {type:"mc",q:"After 'is', the superlative uses:",opts:["de + -ste","het + -st","een + -ster","no article"],ans:"het + -st",hint:"Amsterdam is HET grootst."},
+         {type:"fb",s:"Dit is de ___ stad van Nederland. (biggest)",a:"grootste",opts:["grootste","grootst","groter","groot"],hint:"Before noun: de + -ste"},
+         {type:"tr",mk:"u8_best_cheese",dir:"produce"},
+       ]},
+       {id:"v2u8l7",title:"Hoe Gaat Het Echt?",icon:"💭",xp:15,board:true,steps:[
+         {type:"intro",title:"Hoe Gaat Het Echt?",desc:"Pulling together body, feelings, health, commands, and comparatives in real conversation. How do you actually talk about health and feelings in Dutch daily life? This lesson is scenario-based: at work, at the doctor, with friends.",goals:["Natural health conversations","Combining grammar from L1–L6","Dutch directness about feelings","'Beterschap!' and other set phrases"]},
+
+         {type:"teach",kind:"word",nl:"beterschap",en:"get well soon",phonetic:"BAY-tur-sgap",example:"Beterschap!",exampleEn:"Get well soon!",note:"The standard thing to say when someone is sick.\nLiterally: 'better-ship' (the state of getting better).\nJust one word. Simple and warm."},
+         {type:"teach",kind:"word",nl:"sterkte",en:"be strong / good luck (with difficulty)",phonetic:"STAIRK-tuh",example:"Sterkte met je examen!",exampleEn:"Good luck with your exam!",note:"From 'sterk' (strong) + -te.\nUsed when someone faces something hard:\nsickness, exams, bad news, a tough week.\n'Sterkte!' = hang in there / be strong."},
+         {type:"teach",kind:"word",nl:"succes",en:"good luck / success",phonetic:"suk-SES",cognate:{words:[{lang:"English",word:"success"},{lang:"French",word:"succès"}],family:"international"},example:"Succes met je werk!",exampleEn:"Good luck with your work!",note:"For neutral/positive situations.\n'Succes!' before a presentation, job interview, etc.\nCompare: 'sterkte' = for tough situations."},
+         {type:"teach",kind:"word",nl:"gelukkig",en:"happy / fortunately",phonetic:"guh-LUK-kug",example:"Gelukkig voel ik me beter.",exampleEn:"Fortunately I feel better.",note:"Two meanings!\n1. Adjective: 'Ik ben gelukkig.' = I am happy.\n2. Adverb: 'Gelukkig is het niet erg.' = Fortunately it's not serious.\nContext tells you which."},
+         {type:"teach",kind:"word",nl:"helaas",en:"unfortunately",phonetic:"hay-LAHS",example:"Helaas ben ik ziek.",exampleEn:"Unfortunately I'm sick.",note:"The opposite of 'gelukkig' (fortunately).\nVery common in Dutch conversation.\n'Helaas niet.' = Unfortunately not."},
+
+         {type:"tip",title:"💬 Set Phrases for Health & Feelings",text:"When someone is sick:\n'Beterschap!' = Get well soon!\n'Pas goed op jezelf.' = Take good care of yourself.\n'Rust lekker uit.' = Rest well.\n\nWhen someone has a tough time:\n'Sterkte!' = Be strong / Hang in there.\n'Dat is vervelend.' = That's annoying/tough.\n'Kan ik iets doen?' = Can I do something?\n\nWhen something goes well:\n'Gefeliciteerd!' = Congratulations!\n'Goed gedaan!' = Well done!\n'Wat fijn!' = How nice!\n\nDutch directness extends to asking about health:\n'Je ziet er niet goed uit.' = You don't look well.\nThis isn't rude  -  it's concern. The Dutch show care\nby being direct, not by tiptoeing around things."},
+
+         {type:"mc",q:"'Beterschap!' is used when someone is:",opts:["getting married","sick","going on vacation","starting a new job"],ans:"sick",hint:"Better-ship = get well soon"},
+         {type:"fb",s:"___ met je examen!",a:"Succes",opts:["Succes","Sterkte","Beterschap","Gefeliciteerd"],hint:"Good luck (positive situation)"},
+         {type:"mc",q:"'Sterkte' vs 'Succes'  -  what's the difference?",opts:["No difference","Sterkte = for tough situations, Succes = for neutral/positive","Sterkte is formal, Succes is informal","Sterkte is old-fashioned"],ans:"Sterkte = for tough situations, Succes = for neutral/positive",hint:"Sick → sterkte. Exam → succes."},
+         {type:"match",pairs:[{nl:"beterschap",en:"get well soon"},{nl:"sterkte",en:"hang in there"},{nl:"succes",en:"good luck"},{nl:"helaas",en:"unfortunately"}]},
+         {type:"drag_fill",s:"{1} ben ik ziek. {2} voel ik me beter.",blanks:{"1":"Helaas","2":"Gelukkig"},pool:["Helaas","Gelukkig","Beterschap","Sterkte"],hint:"Unfortunately sick. Fortunately better."},
+         {type:"fb",s:"Goed ___!",a:"gedaan",opts:["gedaan","gemaakt","geweest","gegaan"],hint:"Well done! (past participle of doen)"},
+         {type:"mc",q:"'Je ziet er niet goed uit' is:",opts:["an insult","Dutch direct concern about your health","a compliment","a greeting"],ans:"Dutch direct concern about your health",hint:"Directness = care in Dutch culture"},
+         {type:"fb",s:"___ is het niet erg. (= Fortunately it's not serious.)",a:"Gelukkig",opts:["Gelukkig","Helaas","Beterschap","Sterkte"],hint:"Fortunately..."},
+         {type:"tr",mk:"u8_feel_sick",dir:"produce"},
+         {type:"tr",mk:"u8_headache",dir:"produce"},
+       ]},
+       {id:"v2u8l8",title:"Unit 8 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 8: Alles Samen",desc:"Body parts, feelings, the huisarts, imperatives, comparatives, superlatives, and Dutch directness about health. All mixed together. The scenario: you're not feeling well, you visit the doctor, and things get better.",goals:["Body parts and pain compounds","Feelings and wellbeing","Imperatives with softeners","Comparatives and superlatives","Healthcare culture"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 8 you can:\n\n• Name 12 body parts\n• Describe pain with compounds (hoofdpijn, rugpijn)\n• Express 8 feelings (ziek, moe, blij, boos...)\n• Navigate a huisarts visit\n• Give commands with softeners (maar, even, eens)\n• Compare things (groter dan, beter dan)\n• Use superlatives (de beste, het grootst)\n• Use set phrases (beterschap, sterkte, succes)\n\nYou're solidly A2.1 now."},
+
+         {type:"mc",q:"'Ik heb buikpijn' is a compound of:",opts:["buik + pijn = stomachache","bui + kpijn = stormache","buik + pin = belly pin","boek + pijn = bookache"],ans:"buik + pijn = stomachache",hint:"Belly + pain"},
+         {type:"fb",s:"Ik voel me niet ___.",a:"lekker",opts:["lekker","goed","groot","mooi"],hint:"I don't feel WELL"},
+         {type:"mc",q:"The imperative of 'komen' is:",opts:["komt!","kom!","komen!","gekomen!"],ans:"kom!",hint:"Imperative = stam"},
+         {type:"match",pairs:[{nl:"beterschap",en:"get well soon"},{nl:"sterkte",en:"hang in there"},{nl:"groter dan",en:"bigger than"},{nl:"de beste",en:"the best"}]},
+
+         {type:"drag_fill",s:"Amsterdam is {1} dan Utrecht. Nederlandse kaas is {2} beste.",blanks:{"1":"groter","2":"de"},pool:["groter","de","groot","het"],hint:"Bigger THAN. THE best."},
+         {type:"fb",s:"___ even! Ik kom eraan.",a:"Wacht",opts:["Wacht","Wachten","Gewacht","Wachtte"],hint:"Wait a moment! (imperative)"},
+         {type:"mc",q:"At the huisarts, you're most likely to hear:",opts:["Hier is een recept voor antibiotica.","Neem maar een paracetamolletje.","U moet naar het ziekenhuis.","Ik weet het niet."],ans:"Neem maar een paracetamolletje.",hint:"The Dutch healthcare philosophy"},
+
+         {type:"fb",s:"Goed → beter → ___.",a:"best",opts:["best","goedst","betest","meest goed"],hint:"Good → better → ..."},
+         {type:"mc",q:"After 'is', the superlative always uses:",opts:["de","het","een","geen"],ans:"het",hint:"Amsterdam is HET grootst."},
+         {type:"drag_fill",s:"Ik heb {1}. De dokter zegt: {2} maar uit!",blanks:{"1":"hoofdpijn","2":"Rust"},pool:["hoofdpijn","Rust","koorts","Neem"],hint:"I have a headache. Doctor says: just rest!"},
+
+         {type:"mc",q:"'Gelukkig' can mean:",opts:["only 'happy'","only 'fortunately'","both 'happy' and 'fortunately'","'unlucky'"],ans:"both 'happy' and 'fortunately'",hint:"Two meanings depending on context"},
+         {type:"fb",s:"___ met je examen!",a:"Succes",opts:["Succes","Sterkte","Beterschap","Proost"],hint:"Good luck (positive occasion)"},
+         {type:"match",pairs:[{nl:"het hoofd",en:"the head"},{nl:"de buik",en:"the belly"},{nl:"de rug",en:"the back"},{nl:"de keel",en:"the throat"}]},
+         {type:"mc",q:"'Minder' is the comparative of:",opts:["meer","weinig","minder","klein"],ans:"weinig",hint:"weinig (little/few) → minder (less/fewer)"},
+         {type:"drag_fill",s:"{1} ben ik ziek. {2} voel ik me vandaag beter.",blanks:{"1":"Helaas","2":"Gelukkig"},pool:["Helaas","Gelukkig","Sterkte","Beterschap"],hint:"Unfortunately... Fortunately..."},
+         {type:"tr",mk:"u8_go_to_doctor",dir:"produce"},
+         {type:"tr",mk:"u8_best_cheese",dir:"produce"},
+         {type:"tr",mk:"u8_taller_than",dir:"produce"},
+       ]},
+  ]},
+
+  {n:9,lang:"nl",track:"v2",title:"Vrije Tijd & Plannen",sub:"Future, Subordinate Clauses & Hobbies",icon:"⚽",level:"A2.1",color:"#2ECDA7",lessons:[
+       {id:"v2u9l1",title:"Wat Doe Je Graag?",icon:"🎨",xp:15,board:true,steps:[
+         {type:"intro",title:"Wat Doe Je Graag?",desc:"Before making plans, you need hobbies. Dutch uses 'graag' (gladly) where English uses 'like to': 'Ik zwem graag' = I like to swim. This lesson teaches hobby/leisure vocabulary and the graag construction.",goals:["8 hobby/leisure words","'Graag' for expressing likes","'Liever' for preferences","Talk about what you enjoy"]},
+
+         {type:"teach",kind:"word",nl:"zwemmen",en:"to swim",phonetic:"ZVEM-mun",cognate:{words:[{lang:"English",word:"swim"},{lang:"German",word:"schwimmen"}],family:"germanic"},example:"Ik zwem graag.",exampleEn:"I like to swim.",note:"Regular verb. Stam = zwem.\n'Graag' goes after the verb for 'like to':\nIk zwem graag = I gladly swim = I like swimming."},
+         {type:"teach",kind:"grammar",nl:"lezen",en:"to read",phonetic:"LAY-zun",cognate:{words:[{lang:"German",word:"lesen"}],family:"germanic"},example:"Zij leest graag boeken.",exampleEn:"She likes reading books.",note:"Irregular in past tense (gelezen), but regular in present.\nStam = lees. zij leest (stam + t)."},
+         {type:"teach",kind:"word",nl:"koken",en:"to cook",phonetic:"KOH-kun",example:"Wij koken graag samen.",exampleEn:"We like cooking together.",note:"Regular. Stam = kook.\nYou already know this from Unit 4!"},
+         {type:"teach",kind:"word",nl:"wandelen",en:"to walk / to hike",phonetic:"VAN-duh-lun",example:"Ik wandel graag in het bos.",exampleEn:"I like walking in the forest.",note:"The 'recreational walk' verb from Unit 7.\n'Het bos' = the forest. Popular Dutch weekend activity."},
+         {type:"teach",kind:"word",nl:"sporten",en:"to exercise / to do sports",phonetic:"SPOR-tun",cognate:{words:[{lang:"English",word:"sport"},{lang:"German",word:"Sport treiben"}],family:"international"},example:"Hij sport drie keer per week.",exampleEn:"He exercises three times a week.",note:"Verb form of 'sport'. Very common.\n'Sporten' covers gym, running, cycling, etc.\nThe Dutch are among Europe's most active people."},
+         {type:"teach",kind:"phrase",nl:"het bos",en:"the forest",phonetic:"hut bos",cognate:{words:[{lang:"English",word:"bush"},{lang:"German",word:"Busch"}],family:"germanic"},example:"Wij wandelen in het bos.",exampleEn:"We walk in the forest.",note:"Het-word. The Netherlands has more forests than you'd think.\nVeluwe, Utrechtse Heuvelrug, Hoge Veluwe national park."},
+
+         {type:"tip",title:"📐 Graag vs Liever vs Het Liefst",text:"GRAAG = gladly (= like to)\nIk zwem graag. = I like swimming.\n\nLIEVER = rather (= prefer to)\nIk fiets liever. = I prefer cycling.\n\nHET LIEFST = most of all (= like most)\nIk wandel het liefst. = I like walking most of all.\n\nThis is a comparative system:\ngraag → liever → het liefst\n(gladly → rather → most gladly)\n\nExample conversation:\nWat doe je graag? = What do you like doing?\nIk zwem graag, maar ik fiets liever.\n= I like swimming, but I prefer cycling.\nIk wandel het liefst.\n= What I like most is walking."},
+
+         {type:"mc",q:"'Ik zwem graag' means:",opts:["I swim fast","I like swimming","I swim rarely","I can swim"],ans:"I like swimming",hint:"graag = gladly = like to"},
+         {type:"fb",s:"Ik fiets ___ dan wandelen.",a:"liever",opts:["liever","graag","het liefst","meer"],hint:"I PREFER cycling to walking"},
+         {type:"match",pairs:[{nl:"zwemmen",en:"to swim"},{nl:"lezen",en:"to read"},{nl:"wandelen",en:"to walk/hike"},{nl:"sporten",en:"to exercise"}]},
+         {type:"drag_fill",s:"Ik zwem {1}, maar ik wandel {2}.",blanks:{"1":"graag","2":"liever"},pool:["graag","liever","het liefst","minder"],hint:"I like swimming, but I prefer walking."},
+         {type:"mc",q:"'Het liefst' is the ___ of 'graag':",opts:["comparative","superlative","imperative","infinitive"],ans:"superlative",hint:"graag → liever → het liefst"},
+         {type:"fb",s:"Wat doe je ___? (= What do you like doing?)",a:"graag",opts:["graag","liever","niet","altijd"],hint:"What do you GLADLY do?"},
+       ]},
+       {id:"v2u9l2",title:"Ik Ga Zwemmen",icon:"🏊",xp:20,board:true,steps:[
+         {type:"intro",title:"Ik Ga Zwemmen",desc:"Dutch uses 'gaan + infinitive' for the near future  -  identical to English 'I'm going to swim.' This is the most common way to talk about plans in Dutch. Simple, natural, and you already know 'gaan'.",goals:["gaan + infinitive for future plans","Time expressions for the future","Make and discuss plans","Difference from 'zullen'"]},
+
+         {type:"teach",kind:"phrase",nl:"ik ga zwemmen",en:"I'm going to swim",phonetic:"ik gah ZVEM-mun",example:"Ik ga morgen zwemmen.",exampleEn:"I'm going to swim tomorrow.",note:"gaan + infinitive = going to [verb].\nExact same structure as English!\nThe infinitive goes to the END (like modals)."},
+         {type:"teach",kind:"phrase",nl:"volgende week",en:"next week",phonetic:"VOL-gun-duh vayk",example:"Volgende week ga ik op vakantie.",exampleEn:"Next week I'm going on holiday.",note:"volgende = next/following.\nVolgende week, volgende maand, volgend jaar.\nNote: 'volgend jaar' (het-word → no -e)."},
+         {type:"teach",kind:"word",nl:"binnenkort",en:"soon",phonetic:"BIN-nun-kort",example:"Ik ga binnenkort naar de dokter.",exampleEn:"I'm going to the doctor soon.",note:"binnen + kort = within + short.\nLiterally: 'within a short time'.\n'Binnenkort' = soon but not immediate."},
+         {type:"teach",kind:"phrase",nl:"op vakantie",en:"on holiday / on vacation",phonetic:"op vah-KAN-see",cognate:{words:[{lang:"French",word:"vacances"},{lang:"German",word:"Vakanz (rare)"}],family:"international"},example:"Wij gaan volgende week op vakantie.",exampleEn:"We're going on holiday next week.",note:"'Op vakantie gaan' = to go on holiday.\nThe Dutch LOVE holidays. Average: 25 vacation days/year.\n'Waar ga je op vakantie?' = Where are you going on holiday?"},
+         {type:"teach",kind:"word",nl:"samen",en:"together",phonetic:"SAH-mun",cognate:{words:[{lang:"English",word:"same"},{lang:"German",word:"zusammen"}],family:"germanic"},example:"Wij gaan samen eten.",exampleEn:"We're going to eat together.",note:"Very common word.\n'Samen' makes everything warmer.\n'Zullen we samen gaan?' = Shall we go together?"},
+
+         {type:"tip",title:"📐 Future with 'gaan'",text:"Subject + gaan + ... + infinitive (at end)\n\nIk ga morgen zwemmen. = I'm going to swim tomorrow.\nWij gaan volgende week op vakantie.\n= We're going on holiday next week.\nZij gaat vanavond koken.\n= She's going to cook tonight.\n\nThis is the casual/spoken future.\nDutch also has 'zullen' (shall/will)  -  next lesson.\nBut 'gaan + infinitive' covers 90% of future plans.\n\nNegation: Ik ga morgen niet zwemmen.\n= I'm not going to swim tomorrow.\n'Niet' goes before the infinitive.\n\nQuestion: Ga je morgen zwemmen?\n= Are you going to swim tomorrow?"},
+
+         {type:"mc",q:"'Ik ga morgen zwemmen' is:",opts:["past tense","present tense","future (with gaan + infinitive)","imperative"],ans:"future (with gaan + infinitive)",hint:"Going to = future plans"},
+         {type:"fb",s:"Wij ___ volgende week op vakantie.",a:"gaan",opts:["gaan","ga","gaat","gegaan"],hint:"We ARE GOING on holiday (wij = gaan)"},
+         {type:"match",pairs:[{nl:"volgende week",en:"next week"},{nl:"binnenkort",en:"soon"},{nl:"op vakantie",en:"on holiday"},{nl:"samen",en:"together"}]},
+         {type:"drag_fill",s:"Zij {1} vanavond {2}.",blanks:{"1":"gaat","2":"koken"},pool:["gaat","koken","ga","gekookt"],hint:"She IS GOING TO cook tonight."},
+         {type:"fb",s:"___ je morgen zwemmen?",a:"Ga",opts:["Ga","Gaat","Gaan","Ging"],hint:"Are you going to swim? (question: -t drops)"},
+         {type:"mc",q:"The infinitive in 'gaan + infinitive' goes:",opts:["before gaan","after the subject","at the end","anywhere"],ans:"at the end",hint:"Same rule as modals and perfect tense"},
+         {type:"tr",mk:"u9v2_going_swimming",dir:"produce"},
+       ]},
+       {id:"v2u9l3",title:"Zal Ik...?",icon:"💬",xp:15,board:true,steps:[
+         {type:"intro",title:"Zal Ik...?",desc:"The second future construction: 'zullen' (shall/will). Less common than 'gaan' for plans, but essential for offers ('Shall I help?'), promises ('I will do it'), and predictions. Plus: making suggestions in Dutch.",goals:["Conjugate zullen","Offers with 'zal ik'","Promises with 'ik zal'","Zullen vs gaan: when to use which"]},
+
+         {type:"teach",kind:"word",nl:"zullen",en:"shall / will",phonetic:"ZUL-lun",cognate:{words:[{lang:"English",word:"shall"},{lang:"German",word:"sollen"}],family:"germanic"},example:"Zal ik je helpen?",exampleEn:"Shall I help you?",note:"Modal-like verb. Same word order.\nik zal, jij zult/zal, hij zal, wij zullen.\nMore formal/distant than 'gaan'."},
+         {type:"teach",kind:"phrase",nl:"zal ik",en:"shall I",phonetic:"zal ik",example:"Zal ik koffie maken?",exampleEn:"Shall I make coffee?",note:"THE offer construction.\n'Zal ik [infinitive]?' = Shall I [verb]?\nVery polite and helpful-sounding."},
+         {type:"teach",kind:"phrase",nl:"ik zal",en:"I will / I shall",phonetic:"ik zal",example:"Ik zal het doen.",exampleEn:"I will do it.",note:"Promise/intention.\n'Ik zal het niet vergeten.' = I won't forget it.\nMore formal than 'ik ga het doen'."},
+         {type:"teach",kind:"grammar",nl:"helpen",en:"to help",phonetic:"HEL-pun",cognate:{words:[{lang:"English",word:"help"},{lang:"German",word:"helfen"}],family:"germanic"},example:"Kan ik je helpen?",exampleEn:"Can I help you?",note:"Regular in present. Irregular past: geholpen.\nIdentical to English. 'Help!' = 'Help!'"},
+         {type:"teach",kind:"grammar",nl:"vergeten",en:"to forget",phonetic:"fur-GAY-tun",cognate:{words:[{lang:"English",word:"forget"},{lang:"German",word:"vergessen"}],family:"germanic"},example:"Ik zal het niet vergeten.",exampleEn:"I won't forget it.",note:"ver- prefix → no ge- in past participle: vergeten.\nThe past participle is the same as the infinitive!\nvergeten → vergeten. (Like English: forget → forgotten)"},
+
+         {type:"tip",title:"⚖️ Gaan vs Zullen",text:"GAAN = concrete plans (going to)\nIk ga morgen zwemmen. = I'm going to swim tomorrow.\n(You've decided. It's planned.)\n\nZULLEN = offers, promises, predictions\nZal ik helpen? = Shall I help? (offer)\nIk zal het doen. = I will do it. (promise)\nHet zal morgen regenen. = It will rain tomorrow. (prediction)\n\nIn practice:\n'Gaan' covers 90% of future talk.\n'Zullen' is for offers ('Zal ik...?') and promises.\n\nDutch people rarely say 'ik zal morgen zwemmen.'\nThey say 'ik ga morgen zwemmen.'\n'Zullen' sounds more formal/distant for plans."},
+
+         {type:"mc",q:"'Zal ik koffie maken?' is:",opts:["a command","an offer","a complaint","a past action"],ans:"an offer",hint:"Shall I...? = offering to do something"},
+         {type:"fb",s:"Ik ___ het niet vergeten.",a:"zal",opts:["zal","ga","heb","ben"],hint:"I WILL not forget = promise"},
+         {type:"match",pairs:[{nl:"zal ik helpen?",en:"shall I help?"},{nl:"ik ga zwemmen",en:"I'm going to swim"},{nl:"ik zal het doen",en:"I will do it"},{nl:"vergeten",en:"to forget"}]},
+         {type:"mc",q:"For concrete plans, Dutch prefers:",opts:["zullen","gaan","moeten","kunnen"],ans:"gaan",hint:"Ik GA morgen zwemmen (not zal)"},
+         {type:"drag_fill",s:"{1} ik je helpen? Ik {2} morgen zwemmen.",blanks:{"1":"Zal","2":"ga"},pool:["Zal","ga","Moet","kan"],hint:"Shall I help? (offer) I'm going to swim. (plan)"},
+         {type:"fb",s:"___ ik koffie maken?",a:"Zal",opts:["Zal","Ga","Moet","Kan"],hint:"Shall I...? (offering)"},
+         {type:"tr",mk:"u9v2_shall_i_help",dir:"produce"},
+       ]},
+       {id:"v2u9l4",title:"Omdat Het Leuk Is",icon:"📎",xp:20,board:true,steps:[
+         {type:"intro",title:"Omdat Het Leuk Is",desc:"The hardest word-order rule in Dutch: subordinate clauses. Since Unit 3 you've been using V2  -  the verb always in position 2. Now meet V-FINAL: when you use 'omdat' (because), 'dat' (that), or 'als' (if/when), the verb goes to the END. This is the #1 error even at B1 level. We're tackling it head-on.",goals:["Subordinate clause word order","omdat (because), dat (that), als (if/when)","Verb-final in subordinate clauses","Why this exists and how to practice"]},
+
+         {type:"tip",title:"🔑 The Verb Goes to the End",text:"Remember the V2 rule from Unit 3?\nIn main clauses, the verb is ALWAYS in position 2:\nIk drink koffie. = I drink coffee.\nSoms drink ik koffie. = Sometimes I drink coffee.\n\nSubordinate clauses break this rule.\nThe verb moves to the VERY END:\n...omdat ik koffie DRINK. = ...because I drink coffee.\n\nMain: Het is leuk.\nSubordinate: ...omdat het leuk IS.\n\nMain: Ik kan niet komen.\nSubordinate: ...omdat ik niet kan KOMEN.\n       (OR: ...omdat ik niet KAN komen.)\n\nTrigger words (conjunctions):\nomdat = because\ndat = that\nals = if / when\nwanneer = when\nterwijl = while\nhoewel = although\n\nAfter ANY of these, the conjugated verb moves to the end.\nThis is the #1 Dutch word order rule and the #1 error.\nPractice it until it becomes automatic."},
+
+         {type:"teach",kind:"word",nl:"omdat",en:"because",phonetic:"om-DAT",example:"Ik leer Nederlands omdat ik in Amsterdam woon.",exampleEn:"I'm learning Dutch because I live in Amsterdam.",note:"The most common subordinating conjunction.\nAfter 'omdat': VERB TO THE END.\n...omdat ik in Amsterdam WOON.\nNot: ...omdat ik woon in Amsterdam."},
+         {type:"teach",kind:"word",nl:"dat",en:"that",phonetic:"dat",example:"Ik denk dat hij ziek is.",exampleEn:"I think that he is sick.",note:"'That' as conjunction (not demonstrative).\nAfter 'dat': verb to the end.\n...dat hij ziek IS.\nNot: ...dat hij is ziek."},
+         {type:"teach",kind:"word",nl:"als",en:"if / when",phonetic:"als",example:"Als het regent, blijf ik thuis.",exampleEn:"If it rains, I stay home.",note:"Two meanings: 'if' and 'when' (conditions).\nAfter 'als': verb to the end.\n...als het REGENT...\nNot: ...als regent het..."},
+         {type:"teach",kind:"word",nl:"denken",en:"to think",phonetic:"DENG-kun",cognate:{words:[{lang:"English",word:"think"},{lang:"German",word:"denken"}],family:"germanic"},example:"Ik denk dat het gaat regenen.",exampleEn:"I think that it's going to rain.",note:"Regular verb. Stam = denk.\nOften followed by 'dat': 'Ik denk dat...'"},
+         {type:"teach",kind:"grammar",nl:"weten",en:"to know (a fact)",phonetic:"VAY-tun",cognate:{words:[{lang:"English",word:"wit (Old English: to know)"},{lang:"German",word:"wissen"}],family:"germanic"},example:"Ik weet dat hij in Rotterdam woont.",exampleEn:"I know that he lives in Rotterdam.",note:"Irregular: ik weet, jij weet, wij weten.\nDistinct from 'kennen' (to know a person).\n'Ik weet het niet.' = I don't know.\nEnglish 'wit' used to mean 'to know'  -  as in\n'to wit' (= namely), 'witness' (one who knows),\nand 'witty' (originally: knowledgeable, clever).\nDutch kept 'weten' as the everyday word for knowing facts."},
+         {type:"teach",kind:"word",nl:"dus",en:"so / therefore",phonetic:"dus",cognate:{words:[{lang:"English",word:"thus"},{lang:"German",word:"also (thus)"}],family:"germanic"},example:"Het regent, dus ik blijf thuis.",exampleEn:"It's raining, so I stay home.",note:"Coordinating conjunction  -  NORMAL word order.\nCompare:\nomdat → verb goes to END: ...omdat het regent.\ndus → verb stays in position 2: ...dus ik blijf thuis.\n\n'Dus' is English 'thus'  -  same Germanic root."},
+
+         {type:"tip",title:"⚠️ With Modal Verbs",text:"When a subordinate clause has a modal verb,\nBOTH verbs go to the end:\n\nMain: Ik kan niet komen.\nSubordinate: ...omdat ik niet kan komen.\n             OR: ...omdat ik niet komen kan.\n\nBoth orders are accepted in modern Dutch.\nThe most natural: modal + infinitive at the end.\n\n...omdat ik niet KAN KOMEN.\n...dat ik morgen MOET WERKEN.\n...als ik niet KAN ZWEMMEN.\n\nWith perfect tense:\n...omdat ik heb GEWERKT.\nOR: ...omdat ik GEWERKT heb.\n\nAgain, both are fine. Don't overthink it.\nJust get the verb(s) to the end."},
+
+         {type:"mc",q:"'...omdat ik in Amsterdam woon.'  -  the verb is at the END because:",opts:["It's a question","'omdat' triggers verb-final order","The sentence is negative","It's always like this"],ans:"'omdat' triggers verb-final order",hint:"Subordinating conjunctions → verb to end"},
+         {type:"fb",s:"Ik leer Nederlands omdat ik in Nederland ___.",a:"woon",opts:["woon","woont","wonen","gewoond"],hint:"...because I LIVE in the Netherlands (verb at end)"},
+         {type:"mc",q:"'Ik denk dat hij ziek ___.'",opts:["is","ben","zijn","was"],ans:"is",hint:"dat hij ziek IS  -  verb at end"},
+         {type:"match",pairs:[{nl:"omdat",en:"because"},{nl:"dat",en:"that"},{nl:"als",en:"if / when"},{nl:"wanneer",en:"when"}]},
+         {type:"drag_fill",s:"Ik blijf thuis omdat het {1}. Ik denk dat hij {2} is.",blanks:{"1":"regent","2":"ziek"},pool:["regent","ziek","regenen","is"],hint:"...because it rains. ...that he sick IS."},
+         {type:"fb",s:"Als het mooi weer ___, ga ik fietsen.",a:"is",opts:["is","ben","zijn","was"],hint:"If the weather nice IS... (verb at end in als-clause)"},
+         {type:"mc",q:"In subordinate clauses, Dutch word order becomes:",opts:["V1 (verb first)","V2 (verb second)","V-final (verb at end)","V-free (anywhere)"],ans:"V-final (verb at end)",hint:"Main clause = V2. Subordinate = V-final."},
+         {type:"fb",s:"Ik weet dat hij in Rotterdam ___.",a:"woont",opts:["woont","woon","wonen","gewoond"],hint:"...that he in Rotterdam LIVES (verb at end, hij = -t)"},
+         {type:"tr",mk:"u9v2_because_fun",dir:"produce"},
+       ]},
+       {id:"v2u9l5",title:"Als Het Mooi Weer Is...",icon:"🌤️",xp:15,board:true,steps:[
+         {type:"intro",title:"Als Het Mooi Weer Is...",desc:"Practice subordinate clauses with 'als' (if/when) in real scenarios: weather, plans, conditions. Also introduces 'wanneer' (when) and the important structure where the subordinate clause comes FIRST.",goals:["'Als' for conditions and hypotheticals","Subordinate clause FIRST → inverted main clause","Weather vocabulary","Make conditional plans"]},
+
+         {type:"teach",kind:"phrase",nl:"het weer",en:"the weather",phonetic:"hut vayr",cognate:{words:[{lang:"English",word:"weather"},{lang:"German",word:"Wetter"}],family:"germanic"},example:"Het weer is mooi vandaag.",exampleEn:"The weather is nice today.",note:"Het-word. THE Dutch small-talk topic.\nThe Netherlands has unpredictable weather.\n'Lekker weer!' = Nice weather!"},
+         {type:"teach",kind:"word",nl:"regenen",en:"to rain",phonetic:"RAY-guh-nun",cognate:{words:[{lang:"English",word:"rain"},{lang:"German",word:"regnen"}],family:"germanic"},example:"Het regent vaak in Nederland.",exampleEn:"It rains often in the Netherlands.",note:"'Het regent' = it rains. Impersonal verb.\nRain is the defining Dutch weather experience.\n'Wij fietsen in de regen.' = We cycle in the rain."},
+         {type:"teach",kind:"phrase",nl:"de regen",en:"the rain",phonetic:"duh RAY-gun",cognate:{words:[{lang:"English",word:"rain"},{lang:"German",word:"Regen"}],family:"germanic"},example:"Ik fiets door de regen.",exampleEn:"I cycle through the rain.",note:"De-word. 'In de regen' = in the rain.\nThe Dutch don't cancel plans because of rain.\nThey just cycle faster."},
+         {type:"teach",kind:"phrase",nl:"de zon",en:"the sun",phonetic:"duh zon",cognate:{words:[{lang:"English",word:"sun"},{lang:"German",word:"Sonne"}],family:"germanic"},example:"De zon schijnt!",exampleEn:"The sun is shining!",note:"De-word. 'De zon schijnt' = the sun shines.\nWhen the sun appears in NL, everything stops.\nTerraces fill. Parks fill. Life moves outside."},
+         {type:"teach",kind:"word",nl:"wanneer",en:"when (in time)",phonetic:"van-NAYR",example:"Wanneer het zomer is, ga ik zwemmen.",exampleEn:"When it's summer, I go swimming.",note:"'Wanneer' = when (subordinating conjunction).\nSame verb-final rule as 'als'.\nSubtle difference: wanneer = more specific time."},
+
+         {type:"tip",title:"📐 Subordinate Clause First",text:"When the subordinate clause comes FIRST,\nthe main clause starts with the verb (inversion):\n\nNormal: Ik ga fietsen als het mooi weer is.\n= I'm going cycling if the weather is nice.\n\nReversed: Als het mooi weer is, ga ik fietsen.\n= If the weather is nice, I'm going cycling.\n\nThe comma separates the clauses.\nAfter the comma: VERB first, then subject.\n\nMore examples:\nOmdat het regent, blijf ik thuis.\n= Because it's raining, I stay home.\n\nAls ik tijd heb, ga ik wandelen.\n= If I have time, I'll go walking.\n\nThis looks complex but the rule is simple:\nSubordinate clause = verb at end.\nMain clause after subordinate = verb first."},
+
+         {type:"mc",q:"'Als het regent, blijf ik thuis.'  -  why 'blijf' before 'ik'?",opts:["It's a question","The subordinate clause came first → main clause inverts","It's wrong","There's no rule"],ans:"The subordinate clause came first → main clause inverts",hint:"Subordinate first → verb-subject in main clause"},
+         {type:"fb",s:"Als het mooi weer ___, ga ik fietsen.",a:"is",opts:["is","ben","zijn","was"],hint:"If the weather nice IS (verb at end)"},
+         {type:"match",pairs:[{nl:"het weer",en:"the weather"},{nl:"regenen",en:"to rain"},{nl:"de zon",en:"the sun"},{nl:"wanneer",en:"when"}]},
+         {type:"drag_fill",s:"Als het {1}, blijf ik thuis. Als de zon {2}, ga ik fietsen.",blanks:{"1":"regent","2":"schijnt"},pool:["regent","schijnt","regen","zon"],hint:"If it rains... If the sun shines..."},
+         {type:"fb",s:"___ ik tijd heb, ga ik wandelen.",a:"Als",opts:["Als","Omdat","Dat","Maar"],hint:"IF I have time..."},
+         {type:"mc",q:"The Dutch attitude to rain is:",opts:["Stay inside","Cancel plans","Cycle faster and keep going","Complain and do nothing"],ans:"Cycle faster and keep going",hint:"Rain doesn't stop the Dutch!"},
+         {type:"tr",mk:"u9v2_if_nice_weather",dir:"produce"},
+       ]},
+       {id:"v2u9l6",title:"Om Te...",icon:"🎯",xp:15,board:true,steps:[
+         {type:"intro",title:"Om Te...",desc:"'Om... te...' = 'in order to.' A purpose clause that sends the infinitive to the end. 'Ik leer Nederlands om in Amsterdam te werken.' Clean, elegant, and very common in Dutch daily speech.",goals:["The 'om... te...' construction","Express purpose and goals","Combine with other subordinate clauses","Natural conversation examples"]},
+
+         {type:"teach",kind:"phrase",nl:"om... te...",en:"in order to...",phonetic:"om ... tuh",example:"Ik leer Nederlands om in Amsterdam te werken.",exampleEn:"I'm learning Dutch in order to work in Amsterdam.",note:"'Om' starts the purpose clause.\n'Te' goes right before the infinitive.\nThe infinitive is at the END.\nom [middle stuff] te [infinitive]."},
+         {type:"teach",kind:"word",nl:"nodig",en:"necessary / needed",phonetic:"NOH-dug",example:"Het is niet nodig om te betalen.",exampleEn:"It's not necessary to pay.",note:"Adjective. 'Nodig hebben' = to need.\n'Ik heb een pen nodig.' = I need a pen.\n'Het is nodig om...' = It is necessary to..."},
+         {type:"teach",kind:"word",nl:"proberen",en:"to try",phonetic:"proh-BAY-run",cognate:{words:[{lang:"German",word:"probieren"},{lang:"French",word:"essayer (different)"}],family:"international"},example:"Ik probeer om Nederlands te spreken.",exampleEn:"I try to speak Dutch.",note:"Regular verb. Stam = probeer.\n'Proberen om... te...' = try to...\n'Probeer het maar!' = Just try it!"},
+
+         {type:"tip",title:"📐 Om Te in Practice",text:"Purpose:\nIk leer Nederlands om in Amsterdam te werken.\n= I'm learning Dutch in order to work in Amsterdam.\n\nIk fiets om gezond te blijven.\n= I cycle in order to stay healthy.\n\nWith separable verbs (ge-/prefix goes back together):\nIk bel om een afspraak te maken.\n= I'm calling to make an appointment.\n(NOT: om een afspraak te 'maak')\n\nAfter certain verbs:\nIk probeer om op tijd te komen.\n= I try to come on time.\n\nHij vergeet om te betalen.\n= He forgets to pay.\n\nNote: some verbs use 'te' without 'om':\nIk probeer te slapen. = I try to sleep.\nBut with 'om' is also correct and very common."},
+
+         {type:"mc",q:"'Ik leer Nederlands om in Amsterdam te werken.'  -  'om...te' expresses:",opts:["cause","purpose","time","location"],ans:"purpose",hint:"In order to = purpose"},
+         {type:"fb",s:"Ik fiets ___ gezond te blijven.",a:"om",opts:["om","dat","als","omdat"],hint:"I cycle IN ORDER TO stay healthy"},
+         {type:"match",pairs:[{nl:"om...te...",en:"in order to"},{nl:"nodig",en:"necessary"},{nl:"proberen",en:"to try"}]},
+         {type:"drag_fill",s:"Ik leer Nederlands {1} in Amsterdam te {2}.",blanks:{"1":"om","2":"werken"},pool:["om","werken","dat","gewerkt"],hint:"I learn Dutch IN ORDER TO work in Amsterdam."},
+         {type:"fb",s:"Ik ___ om Nederlands te spreken.",a:"probeer",opts:["probeer","proberen","probeerde","geprobeerd"],hint:"I TRY to speak Dutch (ik = stam)"},
+         {type:"mc",q:"In 'om... te...', the infinitive goes:",opts:["at the start","after om","right after te (at the end)","before om"],ans:"right after te (at the end)",hint:"om [stuff] te [infinitive]"},
+         {type:"tr",mk:"u9v2_in_order_to",dir:"produce"},
+       ]},
+       {id:"v2u9l7",title:"Koningsdag!",icon:"👑",xp:15,board:true,steps:[
+         {type:"intro",title:"Koningsdag!",desc:"April 27: the entire Netherlands turns orange. Koningsdag (King's Day) is the biggest national celebration  -  bigger than Christmas, bigger than New Year. Free markets, live music, boats, beer, and national pride. This is where language meets culture at full volume.",goals:["Koningsdag vocabulary","Dutch national celebrations","Practice all Unit 9 grammar in context","Cultural deep dive: oranje gekte"]},
+
+         {type:"tip",title:"🇳🇱 Koningsdag: April 27",text:"Koningsdag (King's Day) = King Willem-Alexander's birthday.\n\nThe rules:\n• Wear orange. Everything orange. No exceptions.\n• The whole country becomes a vrijmarkt (free market).\n  Anyone can sell anything on the street. No permits needed.\n• Live music on every corner.\n• Amsterdam's canals fill with boats blasting music.\n• Beer. Lots of beer. Starting at 8 AM.\n\n'Oranje gekte' = orange madness.\n\nKoningsnacht (King's Night, April 26) is when it starts.\nBy noon on April 27, every street is packed.\n\nThe color orange? From the House of Orange-Nassau,\nthe Dutch royal family. William of Orange (1533–1584)\nled the Dutch revolt against Spain.\n\n'Lang leve de Koning!' = Long live the King!\n'Oranje boven!' = Orange on top! (national cheer)"},
+
+         {type:"teach",kind:"phrase",nl:"de koning",en:"the king",phonetic:"duh KOH-ning",cognate:{words:[{lang:"English",word:"king"},{lang:"German",word:"König"}],family:"germanic"},example:"De koning woont in Den Haag.",exampleEn:"The king lives in The Hague.",note:"De-word. Current king: Willem-Alexander (since 2013).\nThe Dutch monarchy is very popular.\nThe royal family is seen as 'normaal'  -  the ultimate Dutch compliment."},
+         {type:"teach",kind:"word",nl:"vieren",en:"to celebrate",phonetic:"VEE-run",example:"Wij gaan Koningsdag vieren!",exampleEn:"We're going to celebrate King's Day!",note:"Regular verb. Stam = vier.\n'Vieren' works for all celebrations:\nverjaardag vieren, Koningsdag vieren."},
+         {type:"teach",kind:"word",nl:"oranje",en:"orange (color)",phonetic:"oh-RAN-yuh",cognate:{words:[{lang:"English",word:"orange"},{lang:"French",word:"orange"}],family:"international"},example:"Iedereen draagt oranje!",exampleEn:"Everyone wears orange!",note:"Both the color and the national symbol.\n'Oranje' = the royal House of Orange.\nOn Koningsdag: orange clothes, orange food, orange everything."},
+         {type:"teach",kind:"phrase",nl:"het feest",en:"the party / celebration",phonetic:"hut fayst",cognate:{words:[{lang:"English",word:"feast"},{lang:"German",word:"Fest"}],family:"germanic"},example:"Koningsdag is het grootste feest van het jaar.",exampleEn:"King's Day is the biggest party of the year.",note:"Het-word. 'Een feestje' = a little party (diminutive).\n'Feesten' = to party (verb). Cognate of English 'feast'."},
+         {type:"teach",kind:"phrase",nl:"de vrijmarkt",en:"the free market",phonetic:"duh VRAY-markt",example:"Op de vrijmarkt kun je alles kopen.",exampleEn:"At the free market you can buy everything.",note:"vrij + markt = free + market.\nAnyone can sell anything. Kids sell old toys.\nAdults sell second-hand clothes. No rules!"},
+
+         {type:"mc",q:"Koningsdag is on:",opts:["December 25","April 27","January 1","October 31"],ans:"April 27",hint:"The King's birthday"},
+         {type:"fb",s:"Iedereen draagt ___ op Koningsdag.",a:"oranje",opts:["oranje","rood","blauw","zwart"],hint:"The national color!"},
+         {type:"match",pairs:[{nl:"de koning",en:"the king"},{nl:"vieren",en:"to celebrate"},{nl:"het feest",en:"the party"},{nl:"de vrijmarkt",en:"the free market"}]},
+         {type:"mc",q:"The color orange comes from:",opts:["The Dutch flag","The House of Orange-Nassau","A popular orange drink","Dutch tulips"],ans:"The House of Orange-Nassau",hint:"William of Orange, the founding father"},
+         {type:"drag_fill",s:"Wij {1} Koningsdag vieren! Het is het grootste {2} van het jaar.",blanks:{"1":"gaan","2":"feest"},pool:["gaan","feest","ga","feesten"],hint:"We're GOING TO celebrate! The biggest PARTY."},
+         {type:"fb",s:"Op de ___ kun je alles kopen en verkopen.",a:"vrijmarkt",opts:["vrijmarkt","markt","winkel","borrel"],hint:"The FREE market"},
+         {type:"mc",q:"'Lang leve de Koning!' means:",opts:["The king is tall","Long live the King!","The king is leaving","Long day for the king"],ans:"Long live the King!",hint:"The national cheer"},
+       ]},
+       {id:"v2u9l8",title:"Unit 9 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 9: Alles Samen",desc:"Future with gaan and zullen. Subordinate clauses with omdat/dat/als. Purpose clauses with om...te. Hobbies, weather, and Koningsdag. All of Unit 9 mixed together.",goals:["gaan + infinitive for plans","zullen for offers and promises","Subordinate clause word order","om...te for purpose","Weather and celebration vocabulary"]},
+
+         {type:"tip",title:"📋 What You Know Now",text:"After Unit 9 you can:\n\n• Talk about hobbies with graag/liever/het liefst\n• Make future plans with gaan + infinitive\n• Make offers with 'Zal ik...?'\n• Give reasons with omdat (verb at end!)\n• Set conditions with als (verb at end!)\n• Express purpose with om...te\n• Talk about weather\n• Celebrate Koningsdag\n\nYou've mastered the hardest word-order rule in Dutch.\nThat's a huge achievement."},
+
+         {type:"mc",q:"'Ik ga morgen zwemmen' uses future with:",opts:["zullen","gaan + infinitive","moeten","hebben"],ans:"gaan + infinitive",hint:"Going to = gaan"},
+         {type:"fb",s:"___ ik je helpen?",a:"Zal",opts:["Zal","Ga","Moet","Kan"],hint:"Shall I help? (offer)"},
+         {type:"mc",q:"After 'omdat', the verb goes:",opts:["second","first","to the end","nowhere"],ans:"to the end",hint:"...omdat ik in Amsterdam WOON."},
+         {type:"match",pairs:[{nl:"omdat",en:"because"},{nl:"als",en:"if / when"},{nl:"dat",en:"that"},{nl:"om...te",en:"in order to"}]},
+
+         {type:"drag_fill",s:"Ik blijf thuis omdat het {1}. Als de zon {2}, ga ik fietsen.",blanks:{"1":"regent","2":"schijnt"},pool:["regent","schijnt","regen","zon"],hint:"Because it RAINS. If the sun SHINES."},
+         {type:"fb",s:"Ik leer Nederlands ___ in Amsterdam te werken.",a:"om",opts:["om","dat","als","omdat"],hint:"In order to"},
+         {type:"mc",q:"'Gaat wel' as an answer to 'Hoe gaat het?' means:",opts:["Excellent!","Could be better, could be worse","I'm leaving","It doesn't go"],ans:"Could be better, could be worse",hint:"The most Dutch answer"},
+
+         {type:"fb",s:"Ik zwem ___, maar ik wandel liever.",a:"graag",opts:["graag","liever","het liefst","niet"],hint:"I like swimming, but I prefer walking"},
+         {type:"mc",q:"Koningsdag is on April 27 because:",opts:["It's the first day of spring","It's King Willem-Alexander's birthday","The Netherlands was founded that day","Orange tulips bloom in April"],ans:"It's King Willem-Alexander's birthday",hint:"The King's birthday!"},
+         {type:"drag_fill",s:"Ik denk {1} hij ziek {2}.",blanks:{"1":"dat","2":"is"},pool:["dat","is","omdat","ben"],hint:"I think THAT he sick IS."},
+         {type:"fb",s:"Wij ___ volgende week op vakantie.",a:"gaan",opts:["gaan","ga","zullen","moeten"],hint:"We ARE GOING on holiday (wij = gaan)"},
+         {type:"mc",q:"In 'Als het regent, blijf ik thuis'  -  'blijf' comes before 'ik' because:",opts:["It's a question","The subordinate clause came first → inversion","It's imperative","Dutch always does this"],ans:"The subordinate clause came first → inversion",hint:"Subordinate first → verb-subject in main"},
+         {type:"tr",mk:"u9v2_going_swimming",dir:"produce"},
+         {type:"tr",mk:"u9v2_because_fun",dir:"produce"},
+         {type:"tr",mk:"u9v2_if_nice_weather",dir:"produce"},
+       ]},
+  ]},
+
+  {n:10,lang:"nl",track:"v2",title:"Vroeger & Verhalen",sub:"Simple Past, Relative Clauses & Reading",icon:"📖",level:"A2.2",color:"#9B59B6",lessons:[
+       {id:"v2u10l1",title:"Vroeger...",icon:"📖",xp:20,board:true,steps:[
+         {type:"intro",title:"Vroeger...",desc:"You already know the perfect tense (ik heb gedaan, ik ben gegaan). Now meet its partner: the imperfectum (simple past). We start with the two most important verbs: zijn → was/waren and hebben → had/hadden. These two are so common you'll learn them as vocabulary, not as grammar.",goals:["was / waren (was/were)","had / hadden (had)","'Vroeger' = in the past / back in the day","Talk about how things USED to be"]},
+
+         {type:"tip",title:"📖 Perfect vs Imperfectum  -  Preview",text:"You already know the perfect tense (Unit 7):\nIk heb gegeten. = I have eaten. / I ate.\nIk ben gegaan. = I have gone. / I went.\n\nNow: the imperfectum (simple past):\nIk at. = I ate.\nIk ging. = I went.\n\nWhat's the difference?\n\nPerfect = finished actions, results matter NOW.\n'Ik heb gegeten.' = I've eaten. (I'm not hungry now.)\n\nImperfectum = stories, descriptions, background, 'used to'.\n'Vroeger at ik altijd brood.' = I always used to eat bread.\n\nSpoken Dutch uses the PERFECT for almost everything.\nThe imperfectum is for stories, 'vroeger', and writing.\n\nBut for zijn and hebben? The imperfectum is MORE common:\n'Ik was moe.' (not 'Ik ben moe geweest.')\n'Ik had honger.' (not 'Ik heb honger gehad.')"},
+
+         {type:"teach",kind:"word",nl:"vroeger",en:"in the past / back in the day / used to",phonetic:"FROO-gur",example:"Vroeger woonde ik in Rotterdam.",exampleEn:"I used to live in Rotterdam.",note:"One of the most Dutch words for nostalgia.\n'Vroeger was alles beter.' = Everything used to be better.\nThe Dutch LOVE talking about 'vroeger'."},
+         {type:"teach",kind:"grammar",nl:"was",en:"was (ik/hij/zij)",phonetic:"vas",cognate:{words:[{lang:"English",word:"was"},{lang:"German",word:"war"}],family:"germanic"},example:"Ik was moe.",exampleEn:"I was tired.",note:"Singular past of zijn.\nik was, jij was, hij was, zij was.\nIdentical to English  -  easiest Dutch grammar ever."},
+         {type:"teach",kind:"word",nl:"waren",en:"were (wij/jullie/zij)",phonetic:"VAH-run",cognate:{words:[{lang:"English",word:"were"},{lang:"German",word:"waren"}],family:"germanic"},example:"Wij waren in Amsterdam.",exampleEn:"We were in Amsterdam.",note:"Plural past of zijn.\nwij waren, jullie waren, zij waren.\nSame as English 'were' and German 'waren'."},
+
+         {type:"verb_table",title:"Zijn: imperfectum",label:"Simple Past",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"was",en:"I was"},
+              {pronoun:"jij / je",form:"was",en:"you were"},
+              {pronoun:"u",form:"was",en:"you were (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"was",en:"he was"},
+              {pronoun:"zij / ze",form:"was",en:"she was"},
+              {pronoun:"het",form:"was",en:"it was"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"waren",en:"we were"},
+              {pronoun:"jullie",form:"waren",en:"you all were"},
+              {pronoun:"zij / ze",form:"waren",en:"they were"},
+            ]}
+          ],note:"Two forms: was (singular) and waren (plural).\nSame as English! The easiest Dutch past tense."},
+
+         {type:"teach",kind:"word",nl:"had",en:"had (ik/hij/zij)",phonetic:"hat",cognate:{words:[{lang:"English",word:"had"},{lang:"German",word:"hatte"}],family:"germanic"},example:"Ik had honger.",exampleEn:"I was hungry. (lit: I had hunger.)",note:"Singular past of hebben.\nik had, jij had, hij had.\nIdentical to English."},
+         {type:"teach",kind:"word",nl:"hadden",en:"had (wij/jullie/zij)",phonetic:"HAD-dun",cognate:{words:[{lang:"English",word:"had"},{lang:"German",word:"hatten"}],family:"germanic"},example:"Wij hadden een hond.",exampleEn:"We had a dog.",note:"Plural past of hebben.\nDouble 'd' keeps the 'a' short.\nwij hadden, jullie hadden, zij hadden."},
+
+         {type:"verb_table",title:"Hebben: imperfectum",label:"Simple Past",
+          groups:[
+            {label:"Singular",rows:[
+              {pronoun:"ik",form:"had",en:"I had"},
+              {pronoun:"jij / je",form:"had",en:"you had"},
+              {pronoun:"u",form:"had",en:"you had (formal)"},
+            ]},
+            {label:"Third Person",rows:[
+              {pronoun:"hij",form:"had",en:"he had"},
+              {pronoun:"zij / ze",form:"had",en:"she had"},
+              {pronoun:"het",form:"had",en:"it had"},
+            ]},
+            {label:"Plural",rows:[
+              {pronoun:"wij / we",form:"hadden",en:"we had"},
+              {pronoun:"jullie",form:"hadden",en:"you all had"},
+              {pronoun:"zij / ze",form:"hadden",en:"they had"},
+            ]}
+          ],note:"Two forms: had (singular) and hadden (plural).\nSame as English! was/were + had/hadden — you already know these."},
+
+         {type:"teach",kind:"word",nl:"toen",en:"then / when (in the past)",phonetic:"toon",cognate:{words:[{lang:"German",word:"dann / damals"}],family:"germanic"},example:"Toen was ik nog jong.",exampleEn:"Back then I was still young.",note:"'Toen' = then (past). NOT 'dan' (dan = then, future).\n'Toen ik jong was...' = When I was young...\nVery common in stories and 'vroeger' talk."},
+         {type:"teach",kind:"word",nl:"nog",en:"still / yet",phonetic:"nog",example:"Ik was toen nog een kind.",exampleEn:"I was still a child back then.",note:"Tiny word, big meaning.\n'Nog niet' = not yet.\n'Nog steeds' = still (continuing)."},
+
+         {type:"tip",title:"🇳🇱 'Vroeger Was Alles Beter'",text:"The Dutch love nostalgia  -  and they'll tell you about it.\n\n'Vroeger was alles beter.' = Everything used to be better.\nThis is said with a mix of irony and sincerity.\n\nVroeger was het brood beter. = The bread used to be better.\nVroeger was het niet zo duur. = It wasn't so expensive before.\nVroeger hadden wij geen mobiel. = We didn't have phones before.\n\nThe word 'vroeger' triggers a flood of memories.\nIt's the Dutch equivalent of 'back in my day...'\n\nYou might hear: 'Vroeger was hier allemaal water.'\n= This used to be all water.\n(In the Netherlands, this is often literally true.)"},
+
+         {type:"mc",q:"'Ik was moe.' means:",opts:["I am tired.","I was tired.","I have been tired.","I will be tired."],ans:"I was tired.",hint:"was = past tense of zijn"},
+         {type:"fb",s:"Wij ___ in Amsterdam. (we were)",a:"waren",opts:["waren","was","zijn","bent"],hint:"Plural past of zijn"},
+         {type:"mc",q:"'Zij had twee katten.' means:",opts:["She has two cats.","She had two cats.","She wants two cats.","She likes two cats."],ans:"She had two cats.",hint:"had = past of hebben"},
+         {type:"match",pairs:[{nl:"was",en:"was (singular)"},{nl:"waren",en:"were (plural)"},{nl:"had",en:"had (singular)"},{nl:"hadden",en:"had (plural)"}]},
+         {type:"drag_fill",s:"Vroeger {1} ik moe. Wij {2} een grote tuin.",blanks:{"1":"was","2":"hadden"},pool:["was","hadden","waren","zijn"],hint:"I used to be tired... We had..."},
+         {type:"fb",s:"___ was ik nog een kind.",a:"Toen",opts:["Toen","Dan","Nu","Soms"],hint:"Back THEN (in the past)"},
+         {type:"mc",q:"For zijn and hebben, the Dutch prefer:",opts:["the perfect tense","the imperfectum (was/had)","the future tense","the infinitive"],ans:"the imperfectum (was/had)",hint:"'Ik was moe' is more natural than 'Ik ben moe geweest'"},
+         {type:"fb",s:"Zij ___ drie kinderen. (they had, plural)",a:"hadden",opts:["hadden","had","hebben","was"],hint:"Plural past of hebben"},
+         {type:"mc",q:"'Vroeger was alles beter' is a Dutch expression of:",opts:["optimism","nostalgia","anger","confusion"],ans:"nostalgia",hint:"Back in the day everything was better..."},
+         {type:"tr",mk:"v2u10_was_tired",dir:"produce"},
+         {type:"tr",mk:"v2u10_had_dog",dir:"produce"},
+       ]},
+       {id:"v2u10l2",title:"Ik Werkte, Ik Fietste",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Ik Werkte, Ik Fietste",desc:"Now the system: how to form the imperfectum for REGULAR verbs. The rule uses 't kofschip  -  the same mnemonic from Unit 7. If the stam ends in t/k/f/s/ch/p → add -te. Otherwise → add -de. Singular = stam + te/de. Plural = stam + ten/den.",goals:["'t kofschip rule for imperfectum","Singular: -te or -de","Plural: -ten or -den","Form the past tense of any regular verb"]},
+
+         {type:"tip",title:"⚓ 't Kofschip Returns!",text:"In Unit 7 you learned 't kofschip for past participles:\nge- + stam + t (if stam ends in t, k, f, s, ch, p)\nge- + stam + d (otherwise)\n\nThe SAME rule applies to the imperfectum!\n\nIf the stam ends in t, k, f, s, ch, p → add -TE / -TEN\nOtherwise → add -DE / -DEN\n\nwerken → stam 'werk' → k is in 't kofschip → werkte / werkten\nfietsen → stam 'fiets' → s is in 't kofschip → fietste / fietsten\nwonen → stam 'woon' → n is NOT in 't kofschip → woonde / woonden\n\n⚠️ Remember the V/Z trap from Unit 7!\nleven → stam 'leef' → looks like F (kofschip)...\nBut the INFINITIVE has V (le-ven). V is NOT in 't kofschip.\nSo: leefDE, not leefTE. Same rule as participles: check the infinitive!\nreizen → stam 'reis' → looks like S (kofschip)...\nBut the INFINITIVE has Z (rei-zen). Z is NOT in 't kofschip.\nSo: reisDE, not reisTE."},
+
+         {type:"teach",kind:"word",nl:"werkte",en:"worked (singular)",phonetic:"VAIRK-tuh",example:"Ik werkte in Amsterdam.",exampleEn:"I worked in Amsterdam.",note:"werk + te = werkte.\n'k' is in 't kofschip → -te.\nik werkte, jij werkte, hij werkte."},
+         {type:"teach",kind:"word",nl:"werkten",en:"worked (plural)",phonetic:"VAIRK-tun",example:"Wij werkten elke dag.",exampleEn:"We worked every day.",note:"werk + ten = werkten.\nPlural just adds -n to the singular form.\nwij werkten, jullie werkten, zij werkten."},
+         {type:"teach",kind:"grammar",nl:"fietste",en:"cycled (singular)",phonetic:"FEET-stuh",example:"Zij fietste naar school.",exampleEn:"She cycled to school.",note:"fiets + te = fietste.\n's' is in 't kofschip → -te.\nStraightforward: stam 'fiets' + ending '-te'."},
+         {type:"teach",kind:"word",nl:"woonde",en:"lived (singular)",phonetic:"VOHN-duh",example:"Ik woonde in Groningen.",exampleEn:"I lived in Groningen.",note:"woon + de = woonde.\n'n' is NOT in 't kofschip → -de.\nik woonde, jij woonde, hij woonde."},
+         {type:"teach",kind:"word",nl:"woonden",en:"lived (plural)",phonetic:"VOHN-dun",example:"Wij woonden in een groot huis.",exampleEn:"We lived in a big house.",note:"woon + den = woonden.\nPlural adds -n: woonde → woonden."},
+         {type:"teach",kind:"word",nl:"leerde",en:"learned (singular)",phonetic:"LAYR-duh",example:"Ik leerde Nederlands.",exampleEn:"I learned Dutch.",note:"leer + de = leerde.\n'r' is NOT in 't kofschip → -de.\nAlso means 'taught': Hij leerde mij Nederlands."},
+
+         {type:"tip",title:"📐 The Full System",text:"SINGULAR (ik, jij, hij, zij, het, u):\nStam + te (if last letter is in 't kofschip)\nStam + de (otherwise)\n\nPLURAL (wij, jullie, zij):\nStam + ten (if last letter is in 't kofschip)\nStam + den (otherwise)\n\nExamples:\nwerken → werk → werkte / werkten (k = kofschip)\nkoken → kook → kookte / kookten (k = kofschip)\nfietsen → fiets → fietste / fietsten (s = kofschip)\nwonen → woon → woonde / woonden (n ≠ kofschip)\nleren → leer → leerde / leerden (r ≠ kofschip)\nspelen → speel → speelde / speelden (l ≠ kofschip)\n\n⚠️ THE V/Z TRAP (same as Unit 7 participles!):\nleven → stam = leef (v→f devoicing)\nBut check the INFINITIVE: le-VEN → V is NOT kofschip → leefDE ✅\nreizen → stam = reis (z→s devoicing)\nBut check the INFINITIVE: rei-ZEN → Z is NOT kofschip → reisDE ✅\n\nRule: if the infinitive has V or Z before -en,\nalways use -DE/-DEN, regardless of how the stam looks."},
+
+         {type:"teach",kind:"word",nl:"speelde",en:"played (singular)",phonetic:"SPAYL-duh",example:"Het kind speelde buiten.",exampleEn:"The child played outside.",note:"speel + de = speelde.\n'l' is NOT in 't kofschip → -de.\nGoed zo  -  you're getting the pattern!"},
+         {type:"teach",kind:"word",nl:"kookte",en:"cooked (singular)",phonetic:"KOHK-tuh",example:"Mijn moeder kookte elke dag.",exampleEn:"My mother cooked every day.",note:"kook + te = kookte.\n'k' IS in 't kofschip → -te.\nVowel stays long (open syllable): kook-te."},
+
+         {type:"mc",q:"'Werken' → stam 'werk' → imperfectum is:",opts:["werkde","werkte","werkede","werktde"],ans:"werkte",hint:"k is in 't kofschip → -te"},
+         {type:"fb",s:"Ik ___ in Groningen.",a:"woonde",opts:["woonde","woontte","woonte","woonede"],hint:"n is NOT in 't kofschip → -de"},
+         {type:"mc",q:"Which letter decides -te or -de?",opts:["The first letter of the verb","The last letter of the stam","The last letter of the infinitive","It doesn't matter"],ans:"The last letter of the stam",hint:"Check the stam's final letter against 't kofschip"},
+         {type:"match",pairs:[{nl:"werkte",en:"worked"},{nl:"woonde",en:"lived"},{nl:"fietste",en:"cycled"},{nl:"leerde",en:"learned"}]},
+         {type:"drag_fill",s:"Zij {1} naar school. Wij {2} elke dag.",blanks:{"1":"fietste","2":"werkten"},pool:["fietste","werkten","woonde","leerden"],hint:"She cycled. We worked."},
+         {type:"fb",s:"Het kind ___ buiten. (played)",a:"speelde",opts:["speelde","speelte","speeltte","spelde"],hint:"l is NOT in 't kofschip → -de"},
+         {type:"mc",q:"Plural imperfectum of 'koken' (stam: kook):",opts:["kookden","kookten","kokten","kooken"],ans:"kookten",hint:"k = kofschip → -ten"},
+         {type:"mc",q:"'Ik leerde Nederlands' can mean:",opts:["I learned Dutch only","I taught Dutch only","Both 'I learned' and 'I taught'","Neither"],ans:"Both 'I learned' and 'I taught'",hint:"leren = both to learn AND to teach"},
+         {type:"fb",s:"Mijn opa ___ altijd kaas.",a:"kookte",opts:["kookte","kookde","kooke","kooktte"],hint:"k IS in 't kofschip → -te"},
+         {type:"tr",mk:"v2u10_worked_amsterdam",dir:"produce"},
+         {type:"tr",mk:"v2u10_lived_groningen",dir:"produce"},
+       ]},
+       {id:"v2u10l3",title:"Ik Ging, Ik Kwam",icon:"⚡",xp:20,board:true,steps:[
+         {type:"intro",title:"Ik Ging, Ik Kwam",desc:"Not all verbs follow 't kofschip. Strong verbs change their vowel in the past  -  just like English (go → went, come → came, drink → drank). Dutch does the same: gaan → ging, komen → kwam, drinken → dronk. You need to memorize these, but the good news: they often match English or German.",goals:["10 common irregular past tense forms","See the English/German parallels","Singular vs plural of strong verbs","Tell a simple story in the past"]},
+
+         {type:"tip",title:"⚡ Strong Verbs: The Vowel Change",text:"Regular verbs (weak): add -te/-de.\nwerken → werkte. wonen → woonde.\n\nIrregular verbs (strong): the vowel CHANGES.\ngaan → ging. komen → kwam. drinken → dronk.\n\nEnglish does this too:\ngo → went. come → came. drink → drank.\n\nGerman does too:\ngehen → ging. kommen → kam. trinken → trank.\n\nThe pattern:\nSingular = new vowel form (ging, kwam, dronk)\nPlural = new vowel + en (gingen, kwamen, dronken)\n\nYou can't predict which vowel  -  you memorize them.\nBut many MATCH English or German, so you have a head start."},
+
+         {type:"teach",kind:"phrase",nl:"ging / gingen",en:"went",phonetic:"ging / GING-un",cognate:{words:[{lang:"English",word:"went (go)"},{lang:"German",word:"ging / gingen"}],family:"germanic"},example:"Ik ging naar de markt.",exampleEn:"I went to the market.",note:"gaan → ging (singular), gingen (plural).\nIdentical to German: ging / gingen.\nik ging, wij gingen."},
+         {type:"teach",kind:"phrase",nl:"kwam / kwamen",en:"came",phonetic:"kvam / KVAH-mun",cognate:{words:[{lang:"English",word:"came (come)"},{lang:"German",word:"kam / kamen"}],family:"germanic"},example:"Zij kwam om drie uur.",exampleEn:"She came at three o'clock.",note:"komen → kwam (singular), kwamen (plural).\nSame as German: kam / kamen.\nEnglish: came (same vowel shift!)."},
+         {type:"teach",kind:"phrase",nl:"dronk / dronken",en:"drank",phonetic:"dronk / DRON-kun",cognate:{words:[{lang:"English",word:"drank (drink)"},{lang:"German",word:"trank / tranken"}],family:"germanic"},example:"Hij dronk koffie.",exampleEn:"He drank coffee.",note:"drinken → dronk / dronken.\nEnglish: drink → drank. Same shift!\nGerman: trinken → trank."},
+         {type:"teach",kind:"phrase",nl:"at / aten",en:"ate",phonetic:"at / AH-tun",cognate:{words:[{lang:"English",word:"ate (eat)"},{lang:"German",word:"aß / aßen"}],family:"germanic"},example:"Wij aten brood met kaas.",exampleEn:"We ate bread with cheese.",note:"eten → at (singular), aten (plural).\nEnglish: eat → ate. Same root!\nik at, wij aten."},
+         {type:"teach",kind:"phrase",nl:"deed / deden",en:"did",phonetic:"dayt / DAY-dun",cognate:{words:[{lang:"English",word:"did (do)"},{lang:"German",word:"tat / taten"}],family:"germanic"},example:"Wat deed je gisteren?",exampleEn:"What did you do yesterday?",note:"doen → deed (singular), deden (plural).\nEnglish: do → did.\n'Wat deed je?' = What did you do?"},
+         {type:"teach",kind:"phrase",nl:"zag / zagen",en:"saw",phonetic:"zag / ZAH-gun",cognate:{words:[{lang:"English",word:"saw (see)"},{lang:"German",word:"sah / sahen"}],family:"germanic"},example:"Ik zag een mooie fiets.",exampleEn:"I saw a beautiful bike.",note:"zien → zag (singular), zagen (plural).\nEnglish: see → saw.\nGerman: sehen → sah."},
+         {type:"teach",kind:"phrase",nl:"gaf / gaven",en:"gave",phonetic:"gaf / GAH-vun",cognate:{words:[{lang:"English",word:"gave (give)"},{lang:"German",word:"gab / gaben"}],family:"germanic"},example:"Zij gaf mij een cadeau.",exampleEn:"She gave me a present.",note:"geven → gaf (singular), gaven (plural).\nEnglish: give → gave. Identical shift!\nNote: f in singular, v in plural (voicing)."},
+         {type:"teach",kind:"phrase",nl:"nam / namen",en:"took",phonetic:"nam / NAH-mun",cognate:{words:[{lang:"English",word:"took (take  -  different root)"},{lang:"German",word:"nahm / nahmen"}],family:"germanic"},example:"Hij nam de trein.",exampleEn:"He took the train.",note:"nemen → nam (singular), namen (plural).\nGerman: nehmen → nahm. Almost identical!\nEnglish went a different direction: take → took."},
+         {type:"teach",kind:"phrase",nl:"stond / stonden",en:"stood",phonetic:"stont / STON-dun",cognate:{words:[{lang:"English",word:"stood (stand)"},{lang:"German",word:"stand / standen"}],family:"germanic"},example:"Ik stond bij het station.",exampleEn:"I stood at the station.",note:"staan → stond (singular), stonden (plural).\nEnglish: stand → stood. Same root!\nik stond, wij stonden."},
+         {type:"teach",kind:"phrase",nl:"schreef / schreven",en:"wrote",phonetic:"sgraif / SGRAY-vun",cognate:{words:[{lang:"English",word:"wrote (write  -  different root)"},{lang:"German",word:"schrieb / schrieben"}],family:"germanic"},example:"Zij schreef een brief.",exampleEn:"She wrote a letter.",note:"schrijven → schreef / schreven.\nGerman: schreiben → schrieb. Same pattern!\nNote: f in singular, v in plural (voicing again)."},
+
+         {type:"tip",title:"📋 The 10 You Need Most",text:"gaan → ging / gingen = went\nkomen → kwam / kwamen = came\neten → at / aten = ate\ndrinken → dronk / dronken = drank\ndoen → deed / deden = did\nzien → zag / zagen = saw\ngeven → gaf / gaven = gave\nnemen → nam / namen = took\nstaan → stond / stonden = stood\nschrijven → schreef / schreven = wrote\n\nPattern: singular = vowel change.\nPlural = singular + en.\n\n⚠️ Some have f/v alternation in singular/plural:\ngaf → gaven, schreef → schreven.\nSame voicing rule as plurals (huis → huizen)."},
+
+         {type:"mc",q:"'Komen' in the imperfectum:",opts:["komde","koomte","kwam","koonde"],ans:"kwam",hint:"Strong verb: vowel changes completely"},
+         {type:"fb",s:"Ik ___ naar de markt. (went)",a:"ging",opts:["ging","gingde","gaande","gaan"],hint:"gaan → ging"},
+         {type:"match",pairs:[{nl:"ging",en:"went"},{nl:"kwam",en:"came"},{nl:"at",en:"ate"},{nl:"deed",en:"did"}]},
+         {type:"mc",q:"The plural of 'dronk' is:",opts:["dronken","dronkten","drinkten","dronkden"],ans:"dronken",hint:"Singular + en = plural for strong verbs"},
+         {type:"drag_fill",s:"Zij {1} een brief. Wij {2} brood.",blanks:{"1":"schreef","2":"aten"},pool:["schreef","aten","gingen","deed"],hint:"She wrote. We ate."},
+         {type:"fb",s:"Wat ___ je gisteren? (did)",a:"deed",opts:["deed","doed","doede","daad"],hint:"doen → deed"},
+         {type:"mc",q:"'Gaf' → 'gaven' shows:",opts:["consonant doubling","the f → v voicing rule","irregular spelling","a typo"],ans:"the f → v voicing rule",hint:"Same as glas → glazen, huis → huizen"},
+         {type:"fb",s:"Hij ___ de trein naar Utrecht. (took)",a:"nam",opts:["nam","noomde","neemde","nemde"],hint:"nemen → nam"},
+         {type:"tr",mk:"v2u10_went_market",dir:"produce"},
+         {type:"tr",mk:"v2u10_what_did_yesterday",dir:"produce"},
+       ]},
+       {id:"v2u10l4",title:"Heb Gedaan vs Deed",icon:"⚖️",xp:20,board:true,steps:[
+         {type:"intro",title:"Heb Gedaan vs Deed",desc:"When do you use 'ik heb gedaan' (perfect) and when 'ik deed' (imperfectum)? In spoken Dutch, the perfect dominates for almost everything. The imperfectum has specific jobs: stories, descriptions, 'used to', and zijn/hebben. This lesson clarifies when to use which.",goals:["When to use the perfect tense","When to use the imperfectum","The spoken vs written difference","Practice choosing the right tense"]},
+
+         {type:"tip",title:"⚖️ The Big Difference",text:"PERFECT TENSE (voltooid tegenwoordige tijd):\nIk heb gegeten. = I have eaten. / I ate.\n→ Finished action, result matters NOW.\n→ Default tense in SPOKEN Dutch.\n→ 'Ik heb gisteren gewerkt.' = I worked yesterday.\n\nIMPERFECTUM (onvoltooid verleden tijd):\nIk at. = I ate.\n→ Stories, background, descriptions, 'used to'.\n→ Default tense in WRITTEN Dutch / stories.\n→ 'Vroeger at ik altijd brood.' = I used to always eat bread.\n\nThe key insight:\nSpoken Dutch = mostly perfect.\nWritten Dutch / stories = more imperfectum.\nSijn/hebben = almost always imperfectum (was/had)."},
+
+         {type:"tip",title:"📐 When to Use Which",text:"USE THE PERFECT when:\n✅ Talking about recent events\n  Ik heb gisteren gewerkt. = I worked yesterday.\n✅ Stating completed actions\n  Ik heb het gedaan. = I've done it.\n✅ In normal conversation\n  Heb je gegeten? = Have you eaten?\n\nUSE THE IMPERFECTUM when:\n✅ Telling stories\n  Er was eens een prins... = Once upon a time there was a prince...\n✅ Describing background/state\n  Het was koud. De straat was leeg. = It was cold. The street was empty.\n✅ 'Used to' (vroeger/altijd)\n  Vroeger woonde ik in Utrecht. = I used to live in Utrecht.\n✅ zijn and hebben (always)\n  Ik was moe. Ik had honger. (NOT: ik ben moe geweest)\n✅ Modal verbs (often)\n  Ik kon niet komen. = I couldn't come.\n  Ik moest werken. = I had to work.",deepDive:{title:"The modal imperfectums",text:"Modal verbs almost always use the imperfectum:\n\nwillen → wilde / wilden (wanted)\nkunnen → kon / konden (could)\nmogen → mocht / mochten (was allowed to)\nmoeten → moest / moesten (had to)\n\nIk wilde komen. = I wanted to come.\nIk kon niet fietsen. = I couldn't cycle.\nIk mocht niet roken. = I wasn't allowed to smoke.\nIk moest werken. = I had to work.\n\nThese are HIGH-frequency forms  -  you'll hear them daily."}},
+
+         {type:"teach",kind:"grammar",nl:"wilde / wilden",en:"wanted",phonetic:"VIL-duh / VIL-dun",example:"Ik wilde koffie drinken.",exampleEn:"I wanted to drink coffee.",note:"willen → wilde (singular), wilden (plural).\nRegular -de ending. Very common.\n'Ik wilde niet.' = I didn't want to."},
+         {type:"teach",kind:"phrase",nl:"kon / konden",en:"could / was able to",phonetic:"kon / KON-dun",example:"Ik kon niet komen.",exampleEn:"I couldn't come.",note:"kunnen → kon (singular), konden (plural).\nStrong verb (vowel change: u → o).\nVery common: 'Ik kon niet...' = I couldn't..."},
+         {type:"teach",kind:"phrase",nl:"moest / moesten",en:"had to / must (past)",phonetic:"moost / MOOS-tun",example:"Ik moest vroeg beginnen.",exampleEn:"I had to start early.",note:"moeten → moest (singular), moesten (plural).\nStrong verb.\n'Ik moest werken.' = I had to work."},
+         {type:"teach",kind:"phrase",nl:"mocht / mochten",en:"was allowed to / might (past)",phonetic:"mogt / MOG-tun",example:"Ik mocht niet binnen.",exampleEn:"I wasn't allowed inside.",note:"mogen → mocht (singular), mochten (plural).\nStrong verb.\n'Ik mocht niet...' = I wasn't allowed to..."},
+
+         {type:"tip",title:"💡 The Simple Rule for Daily Life",text:"When in doubt, use the PERFECT in conversation.\n\nThe only times you MUST use imperfectum:\n1. zijn → was / waren\n2. hebben → had / hadden\n3. Modal verbs: wilde, kon, moest, mocht\n\nFor everything else, the perfect works fine:\n'Ik heb gisteren gefietst.' ✅ (I cycled yesterday.)\n'Ik fietste gisteren.' ✅ (Also correct, but more literary.)\n\nBoth are correct. The perfect is just more natural in speech.\n\nFor stories and writing, mix both:\n'Het was een mooie dag. Ik ging naar de markt\nen ik heb kaas gekocht.'\n(Imperfectum for background, perfect for actions.)"},
+
+         {type:"mc",q:"In SPOKEN Dutch, the default past tense is:",opts:["imperfectum","perfect","future","present"],ans:"perfect",hint:"'Ik heb gegeten' is more natural than 'ik at'"},
+         {type:"fb",s:"Ik ___ moe.",a:"was",opts:["was","heb","ben","had"],hint:"zijn ALWAYS uses imperfectum"},
+         {type:"mc",q:"'Vroeger woonde ik in Utrecht.' uses imperfectum because:",opts:["It's a question","It describes 'used to'","It's about today","It's formal"],ans:"It describes 'used to'",hint:"vroeger + habitual = imperfectum"},
+         {type:"match",pairs:[{nl:"wilde",en:"wanted"},{nl:"kon",en:"could"},{nl:"moest",en:"had to"},{nl:"mocht",en:"was allowed to"}]},
+         {type:"drag_fill",s:"Ik {1} niet komen. Ik {2} werken.",blanks:{"1":"kon","2":"moest"},pool:["kon","moest","wilde","mocht"],hint:"I couldn't come. I had to work."},
+         {type:"mc",q:"For a story that starts 'Er was eens...', you'd use:",opts:["mostly perfect","mostly imperfectum","only present tense","future tense"],ans:"mostly imperfectum",hint:"Stories and fairy tales use imperfectum"},
+         {type:"fb",s:"Ik ___ koffie drinken. (wanted)",a:"wilde",opts:["wilde","wilte","wil","wolde"],hint:"willen → wilde"},
+         {type:"mc",q:"'Ik heb gisteren gefietst' vs 'Ik fietste gisteren'  -  which is more natural in speech?",opts:["Both equally natural","The perfect (heb gefietst)","The imperfectum (fietste)","Neither  -  use present tense"],ans:"The perfect (heb gefietst)",hint:"Spoken Dutch prefers the perfect"},
+         {type:"fb",s:"Zij ___ niet naar binnen. (wasn't allowed)",a:"mocht",opts:["mocht","mogde","magde","moog"],hint:"mogen → mocht"},
+         {type:"tr",mk:"v2u10_couldnt_come",dir:"produce"},
+         {type:"tr",mk:"v2u10_had_to_work",dir:"produce"},
+       ]},
+       {id:"v2u10l5",title:"De Man Die...",icon:"🔗",xp:15,board:true,steps:[
+         {type:"intro",title:"De Man Die...",desc:"The last major grammar point: relative clauses. 'The man WHO lives here', 'the house THAT is big.' Dutch uses 'die' for de-words and 'dat' for het-words. And like all subordinate clauses, the verb goes to the END.",goals:["'die' for de-words","'dat' for het-words","Verb goes to end in relative clauses","Build complex sentences"]},
+
+         {type:"tip",title:"🔗 What Is a Relative Clause?",text:"A relative clause adds information about a noun:\n\n'The man who lives here.' → 'who lives here' = relative clause.\n'The house that is big.' → 'that is big' = relative clause.\n\nEnglish uses: who, which, that.\nDutch uses: die or dat.\n\nThe rule is simple:\nDe-words → die\nDe man die hier woont. = The man who lives here.\n\nHet-words → dat\nHet huis dat groot is. = The house that is big.\n\nPlurals → always die\nDe kinderen die spelen. = The children who are playing.\n\n⚠️ In the relative clause, the verb goes to the END.\nDe man die hier WOONT. (not: die woont hier)"},
+
+         {type:"teach",kind:"word",nl:"die",en:"who / which / that (for de-words)",phonetic:"dee",example:"De man die hier woont, is mijn buurman.",exampleEn:"The man who lives here is my neighbour.",note:"'Die' for ALL de-words and ALL plurals.\nDe vrouw die werkt... = The woman who works...\nDe kinderen die spelen... = The children who play..."},
+         {type:"teach",kind:"word",nl:"dat",en:"which / that (for het-words)",phonetic:"dat",example:"Het boek dat ik lees, is goed.",exampleEn:"The book that I'm reading is good.",note:"'Dat' ONLY for singular het-words.\nHet kind dat speelt... = The child who plays...\nHet huis dat groot is... = The house that is big..."},
+
+         {type:"tip",title:"📐 The Verb-Final Rule",text:"In relative clauses, the conjugated verb goes to the END:\n\nMain clause: De man woont hier.\n            (The man lives here.  -  verb in position 2)\n\nRelative clause: De man die hier WOONT...\n                (The man who lives here...  -  verb at end)\n\nMore examples:\nHet meisje dat Nederlands LEERT... = The girl who learns Dutch...\nDe fiets die ik gisteren KOCHT... = The bike that I bought yesterday...\nHet eten dat zij KOOKT... = The food that she cooks...\n\nThis is the same rule as subordinate clauses (Unit 9):\nomdat, dat, als, wanneer → verb to end.\nRelative clauses follow the exact same pattern.",deepDive:{title:"Two verbs in a relative clause",text:"When there are two verbs (modal + infinitive, or perfect tense),\nboth go to the end:\n\nDe man die niet KAN KOMEN... = The man who can't come...\nHet boek dat ik GELEZEN HEB... = The book that I've read...\n\nThe order at the end can be:\ninfinitive + modal: die niet komen kan (formal)\nmodal + infinitive: die niet kan komen (common)\n\nBoth are correct. Don't stress about this  - \nat A2 level, just getting the verb to the end is the win."}},
+
+         {type:"teach",kind:"phrase",nl:"de buurman",en:"the neighbour (male)",phonetic:"duh BUWR-man",cognate:{words:[{lang:"English",word:"neighbour (near-dweller)"},{lang:"German",word:"Nachbar"}],family:"germanic"},example:"De buurman die naast ons woont.",exampleEn:"The neighbour who lives next to us.",note:"De-word. Buur + man = neighbour-man.\nFemale: de buurvrouw.\nThe Dutch have a strong 'buren' (neighbours) culture."},
+         {type:"teach",kind:"phrase",nl:"het verhaal",en:"the story",phonetic:"hut fur-HAHL",example:"Het verhaal dat zij schreef, was mooi.",exampleEn:"The story that she wrote was beautiful.",note:"Het-word. Plural: verhalen.\nFrom 'verhalen' (to tell/narrate).\nYou'll read a short verhaal in L6!"},
+
+         {type:"mc",q:"'De vrouw die hier werkt'  -  why 'die' and not 'dat'?",opts:["'vrouw' is a de-word","'vrouw' is a het-word","It's a question","It's always 'die'"],ans:"'vrouw' is a de-word",hint:"De-words → die"},
+         {type:"fb",s:"Het kind ___ buiten speelt, is mijn zoon.",a:"dat",opts:["dat","die","wat","wie"],hint:"Het kind = het-word → dat"},
+         {type:"mc",q:"In a relative clause, the verb goes:",opts:["in position 2","at the beginning","at the end","before the subject"],ans:"at the end",hint:"Same rule as omdat/dat/als clauses"},
+         {type:"match",pairs:[{nl:"de man die",en:"the man who"},{nl:"het huis dat",en:"the house that"},{nl:"de kinderen die",en:"the children who"},{nl:"het boek dat",en:"the book that"}]},
+         {type:"drag_fill",s:"De fiets {1} ik kocht, is mooi. Het eten {2} zij kookt, is lekker.",blanks:{"1":"die","2":"dat"},pool:["die","dat","wie","wat"],hint:"De fiets = de-word → die. Het eten = het-word → dat"},
+         {type:"fb",s:"De man ___ naast ons woont, heet Jan.",a:"die",opts:["die","dat","wie","wat"],hint:"De man = de-word → die"},
+         {type:"mc",q:"Plurals ALWAYS use:",opts:["dat","die","wie","wat"],ans:"die",hint:"De kinderen die... De huizen die..."},
+         {type:"mc",q:"'Het verhaal dat ik las, was mooi.'  -  'las' is at the end because:",opts:["It's the imperfectum","It's in a relative clause","It's a question","Dutch always puts verbs last"],ans:"It's in a relative clause",hint:"Relative clause → verb to end"},
+         {type:"fb",s:"De buurvrouw ___ hier woont, is aardig.",a:"die",opts:["die","dat","de","het"],hint:"De buurvrouw = de-word → die"},
+         {type:"tr",mk:"v2u10_man_who_lives",dir:"produce"},
+         {type:"tr",mk:"v2u10_book_reading",dir:"produce"},
+       ]},
+       {id:"v2u10l6",title:"Een Kort Verhaal",icon:"📚",xp:15,board:true,steps:[
+         {type:"intro",title:"Een Kort Verhaal",desc:"Time to READ Dutch. This lesson presents a short story with translations to help you. Most of the grammar and vocabulary comes from what you've already learned  -  plus a handful of new story words. The story uses the imperfectum for narrative, exactly how real Dutch stories work.",goals:["Read a short Dutch text","See imperfectum in natural context","Learn new story vocabulary","Build reading confidence"]},
+
+         {type:"teach",kind:"word",nl:"want",en:"because (keeps normal word order)",phonetic:"vant",cognate:{words:[{lang:"German",word:"denn (similar function)"},{lang:"English",word:"for (literary: 'for it was cold')"}],family:"germanic"},example:"Ik fiets, want het is mooi weer.",exampleEn:"I cycle, because it's nice weather.",note:"'Want' = because, but unlike 'omdat' (Unit 9),\nit keeps NORMAL word order (verb stays in position 2).\nomdat: Ik fiets omdat het mooi weer IS. (verb → end)\nwant: Ik fiets, want het IS mooi weer. (verb stays put)\nEnglish once used 'for' the same way: 'I stayed, for it was cold.'\nYou might still see this in literature or formal writing.\nDutch 'want' kept this usage alive in everyday speech."},
+
+         {type:"tip",title:"📖 Een Dag op de Markt",text:"Read this story FIRST in Dutch only.\nTry to understand as much as you can.\nYou know most of these words already.\nNew words will be taught after the story.\n\nHet was zaterdag. De zon scheen.\n\nAnna ging naar de markt.\nZij fietste, want het was mooi weer.\n\nOp de markt waren veel mensen. Het was druk.\n\nAnna wilde kaas kopen. De kaas was niet duur.\n\n'Hoeveel kost dat?' vroeg Anna.\n\n'Drie euro vijftig,' zei de man.\n\nAnna kocht de kaas en een broodje.\n\nDaarna dronk zij een kopje koffie op het terras.\n\nHet was een goede dag."},
+
+         {type:"mc",q:"In the story, what did Anna want to buy?",opts:["brood","koffie","kaas","een fiets"],ans:"kaas",hint:"Re-read: 'Anna wilde kaas kopen.'"},
+         {type:"mc",q:"How much did it cost?",opts:["twee euro","drie euro vijftig","vijf euro","tien euro"],ans:"drie euro vijftig",hint:"The man said the price"},
+         {type:"mc",q:"What did Anna drink after shopping?",opts:["thee","water","melk","koffie"],ans:"koffie",hint:"On the terras..."},
+
+         {type:"tip",title:"📖 Vertalingen (Translations)",text:"Now check your understanding:\n\nHet was zaterdag. De zon scheen.\n→ It was Saturday. The sun was shining.\n\nAnna ging naar de markt. Zij fietste, want het was mooi weer.\n→ Anna went to the market. She cycled, because it was nice weather.\n\nOp de markt waren veel mensen. Het was druk.\n→ At the market there were many people. It was busy.\n\nAnna wilde kaas kopen. De kaas was niet duur.\n→ Anna wanted to buy cheese. The cheese wasn't expensive.\n\n'Hoeveel kost dat?' vroeg Anna. 'Drie euro vijftig,' zei de man.\n→ 'How much does that cost?' asked Anna. 'Three fifty,' said the man.\n\nAnna kocht de kaas en een broodje.\n→ Anna bought the cheese and a bread roll.\n\nDaarna dronk zij een kopje koffie op het terras.\n→ Afterwards she drank a cup of coffee on the terrace.\n\nHet was een goede dag.\n→ It was a good day."},
+
+         {type:"teach",kind:"word",nl:"scheen",en:"shone / was shining (past of schijnen)",phonetic:"sgayn",example:"De zon scheen.",exampleEn:"The sun was shining.",note:"schijnen → scheen (strong verb).\nUsed for weather: 'de zon scheen' = the sun shone.\nAlso: schijnen = to seem/appear."},
+         {type:"teach",kind:"word",nl:"veel",en:"many / much / a lot",phonetic:"vale",cognate:{words:[{lang:"English",word:"full (related)"},{lang:"German",word:"viel"}],family:"germanic"},example:"Er waren veel mensen.",exampleEn:"There were many people.",note:"You've seen 'hoeveel' (how much).\nNow: 'veel' alone = much/many/a lot.\nVeel mensen = many people."},
+         {type:"teach",kind:"word",nl:"druk",en:"busy / crowded",phonetic:"druk",cognate:{words:[{lang:"German",word:"Druck (pressure)"}],family:"germanic"},example:"Het was druk op de markt.",exampleEn:"It was busy at the market.",note:"Very Dutch word. Used for places AND people.\n'Het is druk.' = It's busy/crowded.\n'Ik heb het druk.' = I'm busy."},
+         {type:"teach",kind:"word",nl:"vroeg",en:"asked (past of vragen)",phonetic:"froog",example:"'Hoeveel kost dat?' vroeg zij.",exampleEn:"'How much does that cost?' she asked.",note:"vragen → vroeg (strong verb).\nAlso means 'early' (adjective)!\n'vroeg' = asked (verb) OR early (adjective). Context decides."},
+         {type:"teach",kind:"word",nl:"zei",en:"said (past of zeggen)",phonetic:"zay",example:"'Drie euro,' zei de man.",exampleEn:"'Three euros,' said the man.",note:"zeggen → zei (singular), zeiden (plural).\nVery common in stories and reported speech.\nUsed just like English 'said'."},
+         {type:"teach",kind:"phrase",nl:"kocht / kochten",en:"bought",phonetic:"kogt / KOG-tun",cognate:{words:[{lang:"English",word:"bought (related to 'buy')"},{lang:"German",word:"kaufte"}],family:"germanic"},example:"Zij kocht kaas op de markt.",exampleEn:"She bought cheese at the market.",note:"kopen → kocht (singular), kochten (plural).\nStrong verb. The 'ch' is the throat sound.\nUseful: 'Ik heb het gekocht.' = I bought it. (perfect)"},
+         {type:"teach",kind:"grammar",nl:"daarna",en:"afterwards / after that",phonetic:"dahr-NAH",example:"Daarna ging zij naar huis.",exampleEn:"Afterwards she went home.",note:"daar + na = there + after.\nVery useful time connector for stories.\n'Eerst... daarna...' = First... then..."},
+
+         {type:"tip",title:"📐 Notice the Tense Mix",text:"The story mixes imperfectum and perfect naturally:\n\nIMPERFECTUM (background, description, state):\nHet was zaterdag. = It was Saturday.\nDe zon scheen. = The sun was shining.\nHet was druk. = It was busy.\nDe kaas was niet duur. = The cheese wasn't expensive.\n\nIMPERFECTUM (story actions in narrative):\nAnna ging naar de markt. = Anna went to the market.\nZij fietste. = She cycled.\nAnna kocht de kaas. = Anna bought the cheese.\n\nThis is typical Dutch story-writing:\nimperfectum carries the narrative.\nThe perfect tense would appear in dialogue.\n\nWritten Dutch stories = mostly imperfectum.\nSpoken Dutch retelling = mostly perfect."},
+
+         {type:"mc",q:"In the story, 'Het was zaterdag' uses imperfectum because:",opts:["It's a question","It describes background/setting","It's about the future","It's a command"],ans:"It describes background/setting",hint:"Background descriptions use imperfectum"},
+         {type:"fb",s:"De zon ___. (was shining)",a:"scheen",opts:["scheen","schijnt","schijnde","schonte"],hint:"schijnen → scheen (strong verb)"},
+         {type:"mc",q:"'Veel mensen' means:",opts:["few people","many people","some people","all people"],ans:"many people",hint:"veel = many/much"},
+         {type:"match",pairs:[{nl:"vroeg",en:"asked"},{nl:"zei",en:"said"},{nl:"kocht",en:"bought"},{nl:"daarna",en:"afterwards"}]},
+         {type:"fb",s:"'Hoeveel kost dat?' ___ Anna.",a:"vroeg",opts:["vroeg","zei","deed","ging"],hint:"She ASKED  -  vragen → vroeg"},
+         {type:"mc",q:"The word 'vroeg' can mean:",opts:["only 'asked'","only 'early'","both 'asked' and 'early'","neither"],ans:"both 'asked' and 'early'",hint:"Context tells you which!"},
+         {type:"drag_fill",s:"Anna {1} kaas. Daarna {2} zij koffie.",blanks:{"1":"kocht","2":"dronk"},pool:["kocht","dronk","ging","at"],hint:"She bought cheese. Then she drank coffee."},
+         {type:"fb",s:"'Drie euro,' ___ de man.",a:"zei",opts:["zei","vroeg","deed","ging"],hint:"He SAID  -  zeggen → zei"},
+         {type:"mc",q:"The story uses mostly imperfectum because:",opts:["It's about the future","It's a narrative / story","The narrator is confused","It's informal speech"],ans:"It's a narrative / story",hint:"Written stories use imperfectum"},
+         {type:"tr",mk:"v2u10_sun_shining",dir:"comprehend"},
+         {type:"tr",mk:"v2u10_bought_cheese",dir:"produce"},
+       ]},
+       {id:"v2u10l7",title:"Mijn Week",icon:"✍️",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Week",desc:"Production time. You've learned two past tenses: the perfect from Unit 7 (ik heb gedaan, ik ben gegaan) and the imperfectum from this unit (ik deed, ik ging). Now put them together. Spoken Dutch uses the perfect; written Dutch uses the imperfectum. This lesson is all about YOU describing YOUR week  -  both ways.",goals:["Describe your week in Dutch","Mix perfect and imperfectum naturally","Use time connectors","Build real production fluency"]},
+
+         {type:"tip",title:"✍️ How to Talk About Your Week",text:"Spoken Dutch (casual, with friends):\n\nWat heb je dit weekend gedaan?\n= What did you do this weekend?\n\nIk heb zaterdag gewerkt.\n= I worked on Saturday.\n\nDaarna ben ik naar de markt gegaan.\n= Then I went to the market.\n\nIk heb kaas gekocht en koffie gedronken.\n= I bought cheese and drank coffee.\n\nHet was leuk!\n= It was fun!\n\n - \n\nWritten Dutch (in an email or diary):\n\nZaterdag werkte ik. Daarna ging ik naar de markt.\nIk kocht kaas en dronk koffie. Het was een goede dag.\n\nNotice: spoken = perfect. Written = imperfectum.\nBoth describe the same events!"},
+
+         {type:"teach",kind:"phrase",nl:"dit weekend",en:"this weekend",phonetic:"dit WEE-kent",example:"Wat heb je dit weekend gedaan?",exampleEn:"What did you do this weekend?",note:"'Dit' = this (het-word: het weekend).\nThe #1 Monday morning question in every Dutch office.\n'Dit weekend' or 'afgelopen weekend' (past weekend)."},
+         {type:"teach",kind:"word",nl:"leuk",en:"fun / nice / cool",phonetic:"luhk",example:"Het was leuk!",exampleEn:"It was fun!",note:"The most common Dutch positive word.\n'Leuk!' = Nice! / Cool! / Fun!\n'Dat was leuk.' = That was fun.\nNot as strong as 'geweldig' (amazing)."},
+         {type:"teach",kind:"grammar",nl:"eerst",en:"first",phonetic:"ayrst",cognate:{words:[{lang:"English",word:"erst (as in 'erstwhile')"},{lang:"German",word:"erst / zuerst"}],family:"germanic"},example:"Eerst ging ik naar de winkel.",exampleEn:"First I went to the shop.",note:"Same root as English 'erstwhile' (= formerly).\n'Erst' is Old English for 'first'  -  it survives\nonly in 'erstwhile.' Dutch kept it as the everyday word.\nTime connector for sequences:\n'Eerst... daarna... toen...' = First... then... then...\nVery useful for telling stories."},
+         {type:"teach",kind:"word",nl:"daarna",en:"after that / then",phonetic:"dahr-NAH",example:"Daarna ging ik naar huis.",exampleEn:"After that I went home.",note:"You saw this in L6. Most common sequencer.\n'Eerst' → 'daarna' → 'toen' → 'uiteindelijk'\nFirst → then → then → finally."},
+         {type:"teach",kind:"grammar",nl:"uiteindelijk",en:"finally / eventually / in the end",phonetic:"OY-tun-duh-luk",example:"Uiteindelijk ging ik naar huis.",exampleEn:"Eventually I went home.",note:"Long word! uit + einde + lijk.\nUit (out) + einde (end) + -lijk (suffix) = in the end.\nUsed to wrap up a story."},
+
+         {type:"tip",title:"📐 Time Connectors for Stories",text:"eerst = first\ndaarna = after that / then\ntoen = then (past)\nlater = later\n's ochtends = in the morning\n's middags = in the afternoon\n's avonds = in the evening\nuiteindelijk = finally\n\nPut them at position 1, verb at position 2 (V2 rule):\n\nEerst ging ik naar de markt.\nDaarna kocht ik kaas.\nToen dronk ik koffie.\nUiteindelijk ging ik naar huis.\n\nThis is the skeleton of ANY Dutch story.\nFill in different verbs and you can describe any day."},
+
+         {type:"tip",title:"📋 Describe YOUR Week: Template",text:"Try to describe your own week using this pattern:\n\nMaandag werkte ik. = Monday I worked.\nDinsdag ging ik naar... = Tuesday I went to...\nWoensdag heb ik... gedaan. = Wednesday I did...\nDonderdag was het druk. = Thursday it was busy.\nVrijdag had ik vrij. = Friday I had off.\nZaterdag ging ik naar de markt. = Saturday I went to the market.\nZondag was ik thuis. = Sunday I was at home.\n\nVerbs you can use:\nwerken, fietsen, koken, eten, drinken, lezen, kopen,\ngaan, komen, lopen, spelen, leren, slapen, zwemmen.\n\nYou know ALL of these. Mix and match!"},
+
+         {type:"mc",q:"The #1 Monday morning question in Dutch offices:",opts:["Hoe gaat het?","Wat heb je dit weekend gedaan?","Wil je koffie?","Hoe laat is het?"],ans:"Wat heb je dit weekend gedaan?",hint:"What did you do this weekend?"},
+         {type:"fb",s:"___ ging ik naar de markt. (first)",a:"Eerst",opts:["Eerst","Daarna","Toen","Later"],hint:"First I went to the market"},
+         {type:"mc",q:"In spoken Dutch, you'd say:",opts:["Ik werkte zaterdag.","Ik heb zaterdag gewerkt.","Ik werk zaterdag.","Ik zal zaterdag werken."],ans:"Ik heb zaterdag gewerkt.",hint:"Spoken Dutch = perfect tense"},
+         {type:"match",pairs:[{nl:"eerst",en:"first"},{nl:"daarna",en:"after that"},{nl:"toen",en:"then (past)"},{nl:"uiteindelijk",en:"finally"}]},
+         {type:"drag_fill",s:"{1} kocht ik kaas. {2} ging ik naar huis.",blanks:{"1":"Eerst","2":"Daarna"},pool:["Eerst","Daarna","Toen","Nu"],hint:"First... then..."},
+         {type:"fb",s:"Het was ___! (fun)",a:"leuk",opts:["leuk","goed","mooi","druk"],hint:"The most common Dutch positive word"},
+         {type:"mc",q:"'Uiteindelijk' literally means:",opts:["out-end-ly","finally","at last","all three are close"],ans:"all three are close",hint:"uit + einde + lijk = out + end + -ly"},
+         {type:"fb",s:"Wat heb je dit weekend ___?",a:"gedaan",opts:["gedaan","deed","doen","doet"],hint:"Perfect tense: heb ... gedaan"},
+         {type:"mc",q:"To describe a day's events in order, use:",opts:["alleen imperfectum","eerst... daarna... uiteindelijk...","only present tense","random order"],ans:"eerst... daarna... uiteindelijk...",hint:"Time connectors structure the story"},
+         {type:"tr",mk:"v2u10_weekend_done",dir:"produce"},
+         {type:"tr",mk:"v2u10_was_fun",dir:"produce"},
+       ]},
+       {id:"v2u10l8",title:"🎉 A1–A2 Klaar!",icon:"🏆",xp:25,board:true,steps:[
+         {type:"intro",title:"Gefeliciteerd! A1–A2 Klaar!",desc:"You made it. Ten units. Eighty lessons. From 'hallo' to telling stories in the past tense. This final lesson is a celebration  -  a review of everything, a look at what you can do now, and a peek at what comes next.",goals:["Review ALL major grammar points","Celebrate your progress","See what you can do at A2 level","What comes next: B1"]},
+
+         {type:"tip",title:"🏆 What You Can Do Now",text:"At A2 level, you can:\n\n🗣️ Greet, introduce yourself, say where you're from\n🔢 Count, tell time, handle dates and prices\n🍽️ Order food and drinks, shop at a market\n👨‍👩‍👧‍👦 Talk about your family, describe your home\n🚲 Give and follow directions, take transport\n📅 Describe your daily routine\n💪 Say what you can, may, must, and want to do\n😊 Express feelings, talk about health\n📆 Make plans, discuss the future\n📖 Tell stories about the past\n🔗 Build complex sentences with subordinate clauses\n\nYou know 500+ Dutch words, 15+ verb forms, and the entire\npresent-past-future tense system.\n\nThat's not nothing. That's DUTCH."},
+
+         {type:"tip",title:"📐 Your Grammar Toolkit",text:"Present tense: ik werk, jij werkt, wij werken\nModal verbs: willen, kunnen, mogen, moeten, hoeven\nPerfect tense: ik heb gewerkt, ik ben gegaan\nImperfectum: ik werkte, ik ging, ik was\n't Kofschip: determines -t/-d and -te/-de\nSeparable verbs: Ik bel je op. / Ik wil je opbellen.\nReflexive verbs: Ik was me. Ik kleed me aan.\nAdjective agreement: de grote fiets, een groot huis\nSubordinate clauses: omdat ik moet werken\nRelative clauses: de man die hier woont\nPossessives: mijn, jouw, zijn, haar, ons/onze, hun\nArticles: de, het, een + geen/niet\n\nThat is the COMPLETE A1–A2 grammar.\nEverything from here builds on this foundation."},
+
+         {type:"mc",q:"'Ik heb gisteren gefietst' is which tense?",opts:["Present","Perfect","Imperfectum","Future"],ans:"Perfect",hint:"heb + voltooid deelwoord = perfect"},
+         {type:"fb",s:"De man ___ hier woont, heet Jan. (who)",a:"die",opts:["die","dat","wie","wat"],hint:"De man = de-word → die"},
+         {type:"mc",q:"'Half vijf' means:",opts:["5:30","5:00","4:30","4:00"],ans:"4:30",hint:"Still tricky! Half TO five."},
+         {type:"match",pairs:[{nl:"willen",en:"to want"},{nl:"kunnen",en:"can"},{nl:"mogen",en:"may"},{nl:"moeten",en:"must"}]},
+         {type:"fb",s:"Ik ___ naar de markt. (went)",a:"ging",opts:["ging","ga","gaat","gegaan"],hint:"gaan → ging (imperfectum)"},
+         {type:"mc",q:"Which sentence is correct?",opts:["Ik werk altijd op maandag.","Ik altijd werk op maandag.","Altijd ik werk op maandag.","Op maandag ik werk altijd."],ans:"Ik werk altijd op maandag.",hint:"Adverb after verb. V2 rule."},
+
+         {type:"drag_fill",s:"Zij {1} niet te komen. Het {2} een mooie dag.",blanks:{"1":"hoeft","2":"was"},pool:["hoeft","was","moet","is"],hint:"She doesn't have to come. It was a nice day."},
+         {type:"mc",q:"All diminutives are:",opts:["de-words","het-words","no article","irregular"],ans:"het-words",hint:"de kop → het kopje. Always."},
+         {type:"fb",s:"Ik fiets ___ naar het werk. (every day)",a:"elke dag",opts:["elke dag","altijd niet","soms geen","vroeger"],hint:"Every day"},
+         {type:"mc",q:"'Omdat ik moet werken'  -  the verb is at the end because:",opts:["It's a question","It's a subordinate clause","It's the imperfectum","It's formal Dutch"],ans:"It's a subordinate clause",hint:"omdat, dat, als → verb to end"},
+
+         {type:"match",pairs:[{nl:"was / waren",en:"was / were"},{nl:"had / hadden",en:"had"},{nl:"ging / gingen",en:"went"},{nl:"kwam / kwamen",en:"came"}]},
+         {type:"mc",q:"'Mag ik de rekening?'  -  you're asking for:",opts:["the menu","the bill","permission to sit","more coffee"],ans:"the bill",hint:"De rekening = the bill"},
+         {type:"fb",s:"___ was alles beter. (in the past / back in the day)",a:"Vroeger",opts:["Vroeger","Gisteren","Morgen","Nu"],hint:"The Dutch nostalgia word"},
+         {type:"mc",q:"The V2 rule means:",opts:["The verb is always last","The verb is always first","The conjugated verb is always in position 2","Verbs are optional"],ans:"The conjugated verb is always in position 2",hint:"The backbone of Dutch word order"},
+
+         {type:"tip",title:"🇳🇱 What Comes Next: B1",text:"At B1, you'll learn:\n\n📝 Passive voice (er wordt gefietst = there is cycling)\n📖 More subordinate clause types\n💬 Indirect speech (hij zei dat...)\n📰 Reading newspaper articles\n✍️ Writing longer texts\n🗣️ Expressing opinions (ik vind dat...)\n📺 Understanding Dutch TV and radio\n\nBut that's for later. Right now:\n\nJe hebt het gedaan. Je spreekt Nederlands.\nGefeliciteerd!\n\n🎉 Proost op jou! 🎉"},
+
+         {type:"tr",mk:"v2u10_couldnt_come",dir:"produce"},
+         {type:"tr",mk:"v2u10_went_market",dir:"produce"},
+         {type:"tr",mk:"v2u10_was_fun",dir:"produce"},
+
+         {type:"tip",title:"🎉 Een Laatste Woord",text:"You started with 'Hallo' and 'Dag'.\n\nNow you can order a broodje kaas,\ntell someone about your family,\ncycle through Amsterdam (linguistically),\ndescribe your morning routine,\nmake plans for the weekend,\nand tell the story of your day  -  in the past tense.\n\nYou know what 'gezellig' means (even if you can't translate it).\nYou know that 'half vijf' is 4:30, not 5:30.\nYou know that the Dutch eat bread for lunch and call it a meal.\nYou know that the verb goes to the end in subordinate clauses.\n\nYou are no longer a beginner.\n\nTot ziens  -  en veel succes!\n= Goodbye  -  and good luck!\n\n🇳🇱"},
+       ]},
+  ]},
+
+/*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+B1 CURRICULUM ROADMAP — Units 11–20
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 units × 8 lessons = 80 lessons (mirrors A1–A2 structure).
+B1.1 = Units 11–15 | B1.2 = Units 16–20
+
+Each unit follows the proven spiral:
+  L1–L2: Core vocabulary (teach cards with full treatment)
+  L3–L4: Grammar pattern (verb tables, tips, bilingual pairs)
+  L5–L6: Application (dialogues, situational vocab, reading)
+  L7: Culture/reading comprehension
+  L8: Review (MC, FB, match, drag-fill, translation)
+
+UNIT 11 — Op het Werk (At Work)
+  CEFR: B1.1 | Grammar: Past perfect, voordat/nadat
+  ✅ BUILT
+
+UNIT 12 — Geld & Zaken (Money & Matters)
+  CEFR: B1.1 | Grammar: Zou/zouden (conditional mood)
+  ✅ BUILT
+
+UNIT 13 — Wat Vind Jij? (What Do You Think?)
+  CEFR: B1.1 | Grammar: Extended subordination
+  ✅ BUILT
+
+UNIT 14 — Het Kleine Woordje 'Er' (The Little Word 'Er')
+  CEFR: B1.1 | Grammar: All 5 uses of er
+  ✅ BUILT
+
+UNIT 15 — Opleiding & Toekomst (Education & Future)
+  CEFR: B1.1 | Grammar: Infinitive constructions, verb clusters
+  ✅ BUILT
+
+UNIT 16 — Het Wordt Gedaan (It Is Being Done)
+  CEFR: B1.2 | Grammar: Passive voice (full)
+  Vocab: formal/news register (artikel, rapport, wet, besluit, onderzoek)
+  Grammar: worden + PP (process, present), werd (past),
+           zijn + PP (result/state), impersonal er-passive,
+           passive + modals, door-agent
+  Application: news article reading, active↔passive transforms
+  ✅ BUILT
+
+UNIT 17 — Een Nieuw Huis (A New House)
+  CEFR: B1.2 | Grammar: Extended relative clauses
+  Vocab: housing (huren, kopen, makelaar, hypotheek, borg),
+         moving (verhuizen, inrichten, buurt, wijk)
+  Grammar: waar...in/op/mee/over (prepositional relatives),
+           de persoon met wie (wie-relatives for persons)
+  Application: rental contract reading, formal email writing
+  Culture: woningmarkt, wachtlijst, woonboot
+  ✅ BUILT
+
+UNIT 18 — Hij Zei Dat... (He Said That...)
+  CEFR: B1.2 | Grammar: Indirect speech + tense backshift
+  Vocab: reporting verbs (zeggen, vertellen, vragen, uitleggen,
+         waarschuwen, beweren, melden)
+  Grammar: hij zei dat... (statements), ze vroeg of... (questions),
+           full tense backshift (present→imperf, perfect→plusq, zullen→zou)
+  Application: gossiping dialogue, news reporting register,
+               formal/informal email writing
+  ✅ BUILT
+
+UNIT 19 — Nederland & De Wereld (Netherlands & the World)
+  CEFR: B1.2 | Grammar: Participles as adjectives, word formation
+  Vocab: traditions (Sinterklaas, Koningsdag, Carnaval),
+         environment (milieu, duurzaam, recyclen, vervuiling)
+  Grammar: present participle as adj (de werkende vrouw),
+           past participle as adj (de gesloten deur),
+           compound nouns (linking sounds), inseparable prefixes
+           (ver-/be-/ont-/her-)
+  Culture: Dutch social norms, gezelligheid, doe normaal
+  ✅ BUILT
+
+UNIT 20 — B1 Klaar! (B1 Done!)
+  CEFR: B1.2 | Grammar: Diminutives, register, consolidation
+  Vocab: diminutive rules (-je/-tje/-etje/-pje/-kje),
+         formal register (Zou u zo vriendelijk...),
+         statistics (percentage, gemiddeld, de helft)
+  Grammar: full diminutive system, register switching,
+           all B1 grammar consolidated
+  Application: article reading, email writing, connected speech
+  Celebration: B1 achievement + B2 preview
+  ✅ BUILT
+
+VOCAB STATUS:
+  Teach cards in lessons = primary vocab system.
+  No preloading needed — each lesson's teach cards ARE the vocabulary.
+  VOCAB_DB entries added later for Flashcards/Vocabulary page features.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*/
+
+// ── DUTCH B1 UNITS (v2 Curriculum — Units 11–20) ──
+
+  {n:11,lang:"nl",track:"v2",title:"Op het Werk",sub:"Past Perfect, Voordat & Nadat",icon:"💼",level:"B1.1",color:"#4A8FE7",lessons:[
+// ═══ L1: Beroepen ═══
+       {id:"v2u11l1",title:"Beroepen",icon:"💼",xp:15,board:true,steps:[
+         {type:"intro",title:"Beroepen",desc:"Welcome to B1. You can already talk about the past, make plans, and give opinions. Now you enter the world of work, money, and real Dutch life. We start with the vocabulary of professional life  -  the words you'll hear in every kantoor and vergadering.",goals:["10 core work and profession words","Talk about what people do for a living","Workplace vocabulary: kantoor, collega, baas","Use 'als' for professions: 'Ik werk als...'"]},
+
+         {type:"teach",kind:"phrase",nl:"het beroep",en:"the profession / job",phonetic:"hut buh-ROOP",example:"Wat is je beroep?",exampleEn:"What is your profession?",note:"Formal word for job/profession.\n'Baan' = job (specific position).\n'Werk' = work (general)."},
+         {type:"teach",kind:"phrase",nl:"het kantoor",en:"the office",phonetic:"hut kan-TOHR",cognate:{words:[{lang:"French",word:"comptoir"},{lang:"English",word:"counter"}],family:"romance"},example:"Ik werk op een kantoor.",exampleEn:"I work at an office.",note:"Het-word. 'Op een kantoor' = at an office.\nNOT 'in een kantoor'  -  Dutch uses 'op' here.\nPlural: kantoren."},
+         {type:"teach",kind:"grammar",nl:"de collega",en:"the colleague",phonetic:"duh kol-LAY-gah",cognate:{words:[{lang:"English",word:"colleague"},{lang:"German",word:"Kollege"}],family:"latin"},example:"Mijn collega's zijn aardig.",exampleEn:"My colleagues are nice.",note:"De-word. Plural: collega's (with apostrophe!).\nDutch uses apostrophe for plurals\nof words ending in -a, -o, -u, -y."},
+         {type:"teach",kind:"phrase",nl:"de baas",en:"the boss",phonetic:"duh bahs",also:"Colloquial: 'baas' also means 'great/awesome'  -  'Dat is baas!'",example:"Mijn baas is streng maar eerlijk.",exampleEn:"My boss is strict but fair.",note:"De-word. Also: chef, leidinggevende (manager).\nThe Dutch workplace is quite flat  - \nmany people call their boss by first name."},
+         {type:"teach",kind:"phrase",nl:"het bedrijf",en:"the company / business",phonetic:"hut buh-DRAYF",cognate:{words:[{lang:"German",word:"Betrieb"}],family:"germanic"},example:"Hij werkt bij een groot bedrijf.",exampleEn:"He works at a large company.",note:"Het-word. 'Bij een bedrijf werken' = work at a company.\nAlso: 'de firma' (the firm), 'het bureau' (the office/agency)."},
+         {type:"teach",kind:"phrase",nl:"de klant",en:"the customer / client",phonetic:"duh klant",cognate:{words:[{lang:"English",word:"client"},{lang:"German",word:"Kunde"}],family:"germanic"},example:"De klant heeft altijd gelijk.",exampleEn:"The customer is always right.",note:"De-word. Plural: klanten.\n'De klant heeft altijd gelijk'  -  same saying as English!"},
+
+         {type:"tip",title:"📐 Ik Werk Als...",text:"To say what someone does for a living:\n\nIk werk als leraar. = I work as a teacher.\nZij werkt als arts. = She works as a doctor.\nHij werkt als ingenieur. = He works as an engineer.\n\nAlternative with zijn (no article!):\nIk ben leraar. = I am a teacher.\nZij is arts. = She is a doctor.\n\nRemember from Unit 1: no article before professions!\n'Ik ben EEN leraar' = WRONG.\n'Ik ben leraar' = CORRECT."},
+
+         {type:"teach",kind:"phrase",nl:"de arts",en:"the doctor (physician)",phonetic:"duh arts",example:"Zij werkt als arts in het ziekenhuis.",exampleEn:"She works as a doctor in the hospital.",note:"De-word. More formal than 'dokter'.\n'De huisarts' = the GP (general practitioner).\nVery common in the Netherlands: everyone has a huisarts."},
+         {type:"teach",kind:"phrase",nl:"de leraar",en:"the teacher",phonetic:"duh LAY-rahr",cognate:{words:[{lang:"German",word:"Lehrer"}],family:"germanic"},also:"Feminine: 'de lerares' (less common now).",example:"De leraar geeft les.",exampleEn:"The teacher gives a lesson.",note:"De-word. 'De docent' = more formal (university level).\n'Les geven' = to teach (lit: to give lessons)."},
+         {type:"teach",kind:"phrase",nl:"de baan",en:"the job (position)",phonetic:"duh bahn",also:"'De baan' also = the track/lane (ice skating, racing).",example:"Ik zoek een nieuwe baan.",exampleEn:"I'm looking for a new job.",note:"De-word. 'Een baan zoeken' = to look for a job.\n'Een baan hebben' = to have a job.\nMore specific than 'werk' (work in general)."},
+         {type:"teach",kind:"phrase",nl:"de werkgever",en:"the employer",phonetic:"duh VERK-gay-vur",example:"Mijn werkgever betaalt goed.",exampleEn:"My employer pays well.",note:"De-word. werk + gever = work + giver.\n'De werknemer' = the employee (work + taker).\nTransparent compound  -  you can see the logic!"},
+
+         {type:"tip",title:"🏢 Common Professions",text:"de advocaat = the lawyer\nde ingenieur = the engineer\nde verpleegkundige = the nurse\nde accountant = the accountant\nde programmeur = the programmer\nde kok = the cook\nde journalist = the journalist\nde politieagent = the police officer\nde ondernemer = the entrepreneur\nde ambtenaar = the civil servant\n\nMany are cognates  -  you can guess most of them!\nThe Netherlands has lots of ZZP'ers\n(zelfstandigen zonder personeel = freelancers)."},
+
+         {type:"mc",q:"'Ik werk op een kantoor.'  -  why 'op' and not 'in'?",opts:["Both are correct","Dutch uses 'op' for offices","'In' is only for homes","'Op' means 'inside'"],ans:"Dutch uses 'op' for offices",hint:"Op een kantoor, op school, op de universiteit"},
+         {type:"fb",s:"Zij werkt ___ arts in het ziekenhuis.",a:"als",opts:["als","een","de","voor"],hint:"She works AS a doctor"},
+         {type:"mc",q:"'Mijn collega's'  -  why the apostrophe?",opts:["It's possessive","Dutch plurals use apostrophe after -a/-o/-u/-y","It's optional","It's a spelling error"],ans:"Dutch plurals use apostrophe after -a/-o/-u/-y",hint:"foto's, collega's, menu's"},
+         {type:"match",pairs:[{nl:"het kantoor",en:"the office"},{nl:"de baas",en:"the boss"},{nl:"de klant",en:"the customer"},{nl:"het bedrijf",en:"the company"}]},
+         {type:"fb",s:"Ik ben ___. (teacher  -  no article!)",a:"leraar",opts:["leraar","een leraar","de leraar","het leraar"],hint:"No article before professions with zijn"},
+         {type:"mc",q:"'De werkgever' literally means:",opts:["work-giver","work-taker","big boss","company owner"],ans:"work-giver",hint:"werk + gever = work + giver"},
+         {type:"drag_fill",s:"Mijn {1} werkt bij een groot {2}.",blanks:{"1":"collega","2":"bedrijf"},pool:["collega","bedrijf","kantoor","beroep"],hint:"My colleague works at a large company."},
+         {type:"tr",mk:"v2u11_i_work_at_office",dir:"produce"},
+         {type:"tr",mk:"v2u11_she_is_my_colleague",dir:"produce"},
+       ]},
+
+// ═══ L2: Mijn Werkdag ═══
+       {id:"v2u11l2",title:"Mijn Werkdag",icon:"📋",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Werkdag",desc:"Now that you know the people and places, let's learn the daily rhythm of working life. Meetings, breaks, deadlines, and emails  -  the bread and butter of any Dutch kantoor.",goals:["8 daily work vocabulary words","Talk about meetings and schedules","Use 'daarom' and 'namelijk'","Describe a typical work day"]},
+
+         {type:"teach",kind:"phrase",nl:"de vergadering",en:"the meeting",phonetic:"duh fur-GAH-duh-ring",example:"De vergadering begint om tien uur.",exampleEn:"The meeting starts at ten.",note:"De-word. Formal meeting.\n'Overleg' = consultation/discussion (less formal).\n'Een vergadering hebben' = to have a meeting."},
+         {type:"teach",kind:"phrase",nl:"het overleg",en:"the consultation / discussion",phonetic:"hut OH-vur-leg",example:"We hebben om twee uur overleg.",exampleEn:"We have a discussion at two.",note:"Het-word. Less formal than 'vergadering'.\nOften used for team check-ins.\n'Overleggen' = to discuss/consult (verb)."},
+         {type:"teach",kind:"phrase",nl:"de pauze",en:"the break",phonetic:"duh POW-zuh",cognate:{words:[{lang:"English",word:"pause"},{lang:"German",word:"Pause"}],family:"latin"},example:"Laten we pauze nemen.",exampleEn:"Let's take a break.",note:"De-word. 'Lunchpauze' = lunch break.\n'Pauze nemen' = to take a break.\nDutch office lunch = usually 30 min, often at your desk."},
+         {type:"teach",kind:"phrase",nl:"het project",en:"the project",phonetic:"hut pro-YEKT",cognate:{words:[{lang:"English",word:"project"},{lang:"German",word:"Projekt"}],family:"latin"},example:"Dit project duurt drie maanden.",exampleEn:"This project lasts three months.",note:"Het-word. Same as English!\n'Aan een project werken' = to work on a project.\n'De deadline' = also used in Dutch (borrowed from English)."},
+         {type:"teach",kind:"phrase",nl:"de afspraak",en:"the appointment / agreement",phonetic:"duh AF-sprahk",also:"Also means: an agreement/deal between people.",example:"Ik heb een afspraak om drie uur.",exampleEn:"I have an appointment at three.",note:"De-word. 'Een afspraak maken' = to make an appointment.\nPolysemy: appointment AND agreement.\n'We hebben een afspraak.' = We have a deal."},
+
+         {type:"teach",kind:"phrase",nl:"de e-mail",en:"the email",phonetic:"duh EE-mayl",example:"Ik heb je e-mail gelezen.",exampleEn:"I read your email.",note:"De-word. Also written as 'de mail'.\n'Een e-mail sturen' = to send an email.\n'Mailen' = to email (verb). Very common."},
+         {type:"teach",kind:"grammar",nl:"daarom",en:"therefore / that's why",phonetic:"DAHR-om",example:"Het regende, daarom bleef ik thuis.",exampleEn:"It rained, that's why I stayed home.",note:"Connector! Cause → result.\n'Daarom' = that's why (points to result).\nV2 rule: 'Daarom bleef ik thuis.' (verb second!)"},
+         {type:"teach",kind:"word",nl:"namelijk",en:"namely / you see / because",phonetic:"NAH-muh-luk",cognate:{words:[{lang:"German",word:"nämlich"}],family:"germanic"},example:"Ik kan niet komen, ik ben namelijk ziek.",exampleEn:"I can't come, you see, I'm sick.",note:"Adverb, NOT a conjunction! Goes INSIDE the clause.\n'Ik ben namelijk ziek.' (after verb, before complement)\nUsed to explain a reason  -  very common in Dutch."},
+
+         {type:"tip",title:"📅 Een Typische Werkdag",text:"08:30  -  Ik kom op kantoor. = I arrive at the office.\n09:00  -  We hebben overleg. = We have a meeting.\n10:30  -  Ik beantwoord e-mails. = I answer emails.\n12:00  -  Lunchpauze. = Lunch break.\n13:00  -  Ik werk aan een project. = I work on a project.\n14:00  -  We hebben een vergadering. = We have a meeting.\n15:30  -  Koffiepauze. = Coffee break.\n17:00  -  Ik ga naar huis. = I go home.\n\nNotice: 'op kantoor' (at the office), not 'in kantoor'.\nAnd 'naar huis' (to home), no article!"},
+
+         {type:"teach",kind:"word",nl:"parttime",en:"part-time",phonetic:"part-TIME",example:"Zij werkt parttime, drie dagen per week.",exampleEn:"She works part-time, three days per week.",note:"Borrowed from English. Also: 'fulltime'.\nThe Netherlands is the PART-TIME CAPITAL of the world.\nMany Dutch people work 4 days (32 hours)."},
+
+         {type:"mc",q:"'De vergadering begint om tien uur.'  -  'vergadering' means:",opts:["email","meeting","project","break"],ans:"meeting",hint:"De vergadering = the meeting"},
+         {type:"fb",s:"Het regende, ___ bleef ik thuis.",a:"daarom",opts:["daarom","namelijk","maar","want"],hint:"Therefore I stayed home"},
+         {type:"mc",q:"Where does 'namelijk' go in a sentence?",opts:["At the start, like 'daarom'","After the verb, inside the clause","At the very end","Before the subject"],ans:"After the verb, inside the clause",hint:"Ik ben NAMELIJK ziek."},
+         {type:"match",pairs:[{nl:"de vergadering",en:"the meeting"},{nl:"de pauze",en:"the break"},{nl:"de afspraak",en:"the appointment"},{nl:"het overleg",en:"the discussion"}]},
+         {type:"fb",s:"Ik heb een ___ om drie uur. (appointment)",a:"afspraak",opts:["afspraak","vergadering","pauze","overleg"],hint:"An appointment at three"},
+         {type:"drag_fill",s:"Ik kan niet komen, ik ben {1} ziek. {2} werk ik vandaag thuis.",blanks:{"1":"namelijk","2":"Daarom"},pool:["namelijk","Daarom","want","maar"],hint:"I'm sick, you see. Therefore I work from home."},
+         {type:"mc",q:"Why is the Netherlands called the 'part-time capital'?",opts:["People are lazy","Many people work 4-day weeks by choice","Companies require it","Schools are only 4 days"],ans:"Many people work 4-day weeks by choice",hint:"Work-life balance is a Dutch value"},
+         {type:"tr",mk:"v2u11_meeting_at_ten",dir:"produce"},
+       ]},
+
+// ═══ L3: Had Al Gedaan ═══
+       {id:"v2u11l3",title:"Had Al Gedaan",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Had Al Gedaan",desc:"You already know the perfect tense (ik heb gedaan) and the simple past (ik deed). Now meet their older sibling: the past perfect (plusquamperfectum). It describes something that happened BEFORE another past event. Think: 'I had already eaten when he arrived.'",goals:["Past perfect with hebben: had + voltooid deelwoord","Past perfect with zijn: was + voltooid deelwoord","Express 'before another past event'","Use 'al' (already) with the past perfect"]},
+
+         {type:"tip",title:"📖 Three Past Tenses  -  The Full Picture",text:"Present perfect (Unit 7):\nIk heb gegeten. = I have eaten. / I ate.\n→ Finished action. Most common in speech.\n\nSimple past / imperfectum (Unit 10):\nIk at. = I ate.\n→ Stories, descriptions, 'vroeger', writing.\n\nPast perfect / plusquamperfectum (NEW):\nIk had gegeten. = I had eaten.\n→ Something that happened BEFORE another past event.\n\nTimeline:\n  [had gegeten]  -  - → [hij kwam]  -  - → [now]\n  (earlier past)     (later past)\n\n'Ik had al gegeten toen hij kwam.'\n= I had already eaten when he arrived.\n\nThe past perfect is the DEEPEST past.\nIt says: this happened FIRST."},
+
+         {type:"teach",kind:"grammar",nl:"had gedaan",en:"had done",phonetic:"hat guh-DAHN",example:"Ik had het al gedaan.",exampleEn:"I had already done it.",note:"Past perfect with hebben:\nhad/hadden + voltooid deelwoord.\nSame past participle as perfect tense!\n'Ik heb gedaan' → 'Ik had gedaan'."},
+         {type:"teach",kind:"phrase",nl:"was gegaan",en:"had gone",phonetic:"vas guh-GAHN",example:"Zij was al naar huis gegaan.",exampleEn:"She had already gone home.",note:"Past perfect with zijn:\nwas/waren + voltooid deelwoord.\nSame verbs that use 'zijn' in the perfect!\n'Ik ben gegaan' → 'Ik was gegaan'."},
+         {type:"teach",kind:"word",nl:"al",en:"already",phonetic:"al",example:"Ik had al gegeten.",exampleEn:"I had already eaten.",note:"You know this from earlier lessons!\n'Al' = already. Very common with past perfect.\nPosition: after had/was, before past participle.\n'Ik had AL gegeten.'"},
+         {type:"teach",kind:"word",nl:"net",en:"just (a moment ago)",phonetic:"net",example:"Ik had net gegeten toen hij belde.",exampleEn:"I had just eaten when he called.",note:"'Net' = just now/just then.\n'Ik had net gegeten.' = I had JUST eaten.\nOpposite timing of 'al': al = a while ago, net = moments ago."},
+         {type:"teach",kind:"grammar",nl:"toen",en:"when (past) / then",phonetic:"toon",example:"Toen ik aankwam, was de vergadering al begonnen.",exampleEn:"When I arrived, the meeting had already started.",note:"You learned this in Unit 10!\n'Toen' = when/then (in the past).\nKey connector for past perfect:\n'Toen X happened, Y had already happened.'"},
+
+         {type:"verb_table",title:"Past Perfect (Plusquamperfectum)",label:"had/was + voltooid deelwoord",
+          groups:[
+            {label:"With hebben (most verbs)",rows:[
+              {pronoun:"ik",form:"had gewerkt",en:"I had worked"},
+              {pronoun:"jij / je",form:"had gewerkt",en:"you had worked"},
+              {pronoun:"hij / zij",form:"had gewerkt",en:"he/she had worked"},
+              {pronoun:"wij / jullie / zij",form:"hadden gewerkt",en:"we/you/they had worked"},
+            ]},
+            {label:"With zijn (movement/change verbs)",rows:[
+              {pronoun:"ik",form:"was gegaan",en:"I had gone"},
+              {pronoun:"jij / je",form:"was gegaan",en:"you had gone"},
+              {pronoun:"hij / zij",form:"was gegaan",en:"he/she had gone"},
+              {pronoun:"wij / jullie / zij",form:"waren gegaan",en:"we/you/they had gone"},
+            ]}
+          ],note:"Formula: had/hadden OR was/waren + past participle.\nSame past participle as the regular perfect tense!\nSame hebben/zijn split as the regular perfect tense!"},
+
+         {type:"tip",title:"📐 When to Use It",text:"The past perfect answers:\n'What had ALREADY happened before something else?'\n\nIk had al gegeten toen hij kwam.\n= I had already eaten when he arrived.\n\nZij was al vertrokken toen ik belde.\n= She had already left when I called.\n\nWij hadden de film al gezien.\n= We had already seen the movie.\n\nPattern: had/was + al + past participle + toen...\n\nYou also see it WITHOUT 'toen':\n'Ik had het niet verwacht.' = I hadn't expected it.\n'Ze waren nog nooit in Nederland geweest.'\n= They had never been to the Netherlands."},
+
+         {type:"mc",q:"'Ik had al gegeten toen hij kwam.'  -  what happened FIRST?",opts:["Hij kwam","Ik at","They happened at the same time","Neither"],ans:"Ik at",hint:"Past perfect = the EARLIER event"},
+         {type:"fb",s:"Zij ___ al naar huis gegaan toen ik belde.",a:"was",opts:["was","had","is","heeft"],hint:"Gegaan = zijn verb → was/waren"},
+         {type:"mc",q:"The past perfect uses the same past participles as:",opts:["The simple past","The present tense","The regular perfect tense","The future tense"],ans:"The regular perfect tense",hint:"heb gewerkt → had gewerkt. Same participle!"},
+         {type:"drag_fill",s:"Ik {1} de brief al {2} toen de baas belde.",blanks:{"1":"had","2":"geschreven"},pool:["had","geschreven","was","schreef"],hint:"I had already written the letter when the boss called."},
+         {type:"fb",s:"Wij ___ nog nooit in Parijs geweest.",a:"waren",opts:["waren","hadden","zijn","hebben"],hint:"Geweest = zijn verb, wij = plural → waren"},
+         {type:"match",pairs:[{nl:"ik had gedaan",en:"I had done"},{nl:"zij was gegaan",en:"she had gone"},{nl:"wij hadden gezien",en:"we had seen"},{nl:"hij was gekomen",en:"he had come"}]},
+         {type:"mc",q:"'Ik had NET gegeten.'  -  'net' means:",opts:["not","never","just (a moment ago)","already"],ans:"just (a moment ago)",hint:"Net = just then, moments before"},
+         {type:"fb",s:"Toen ik aankwam, ___ de vergadering al begonnen.",a:"was",opts:["was","had","is","heeft"],hint:"Begonnen... zijn verb (change of state) → was"},
+         {type:"tr",mk:"v2u11_had_already_eaten",dir:"produce"},
+         {type:"tr",mk:"v2u11_before_i_came",dir:"produce"},
+       ]},
+
+// ═══ L4: Voordat & Nadat ═══
+       {id:"v2u11l4",title:"Voordat & Nadat",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Voordat & Nadat",desc:"Now that you have the past perfect, you need the connectors that go with it. 'Voordat' (before) and 'nadat' (after) let you describe the ORDER of events. Plus: 'zodra' (as soon as) and 'totdat' (until).",goals:["voordat (before) + word order","nadat (after) + past perfect","zodra (as soon as) + totdat (until)","Build complex time sequences"]},
+
+         {type:"teach",kind:"word",nl:"voordat",en:"before",phonetic:"VOHR-dat",example:"Voordat ik naar huis ging, maakte ik het af.",exampleEn:"Before I went home, I finished it.",note:"Subordinate conjunction → verb to END.\n'Voordat ik naar huis GING, ...'\n'Voor' alone = before (preposition, no clause).\n'Voordat' = before (with a full clause)."},
+         {type:"teach",kind:"word",nl:"nadat",en:"after",phonetic:"NAH-dat",example:"Nadat ik had gegeten, ging ik naar bed.",exampleEn:"After I had eaten, I went to bed.",note:"Subordinate conjunction → verb to END.\nOften paired with past perfect in the nadat-clause:\n'Nadat ik HAD GEGETEN, ging ik...'\nThe nadat-event happened FIRST."},
+         {type:"teach",kind:"word",nl:"zodra",en:"as soon as",phonetic:"zo-DRAH",example:"Zodra ik thuis ben, bel ik je.",exampleEn:"As soon as I'm home, I'll call you.",note:"Subordinate conjunction → verb to END.\n'Zodra' = the moment that, as soon as.\nExpresses immediate sequence."},
+         {type:"teach",kind:"word",nl:"totdat",en:"until",phonetic:"tot-DAT",example:"Ik wacht totdat je klaar bent.",exampleEn:"I'll wait until you're ready.",note:"Subordinate conjunction → verb to END.\n'Tot' alone = until (preposition).\n'Totdat' = until (with full clause).\n'Ik wacht totdat je klaar BENT.'"},
+
+         {type:"tip",title:"📐 Word Order Reminder",text:"All four are subordinate conjunctions.\nThe verb goes to the END of the sub-clause:\n\nVoordat ik naar huis GING, ...\nNadat ik had GEGETEN, ...\nZodra ik thuis BEN, ...\nTotdat je klaar BENT, ...\n\nThe MAIN clause still follows V2:\n'Voordat ik ging, MAAKTE ik het af.'\n       ↑ sub-clause     ↑ verb 2nd in main clause\n\nWhen the sub-clause comes FIRST, the main clause\nstarts with the verb (inversion).\nThis is the same pattern as omdat/als from Unit 9!"},
+
+         {type:"tip",title:"🔑 Nadat + Past Perfect",text:"'Nadat' usually pairs with the past perfect:\n\nNadat ik had gegeten, ging ik slapen.\n= After I had eaten, I went to sleep.\n\nNadat zij was aangekomen, begon de vergadering.\n= After she had arrived, the meeting started.\n\nThe nadat-clause = the EARLIER event (past perfect).\nThe main clause = the LATER event (simple past or perfect).\n\nYou CAN use nadat without past perfect,\nbut with past perfect it's clearer and more precise.",deepDive:{title:"Voordat + past perfect?",text:"You can also use the past perfect in voordat-clauses:\n\nVoordat ik had gegeten, was ik moe.\n= Before I had eaten, I was tired.\n\nBut this is less common. Usually:\n'Voordat' + simple past in the sub-clause\n'Nadat' + past perfect in the sub-clause\n\nThe logic: nadat describes the completed event\n(so past perfect fits). Voordat describes the\nevent that hadn't happened yet (so simple past fits)."}},
+
+         {type:"mc",q:"'Nadat ik had gegeten, ging ik slapen.'  -  what happened first?",opts:["I went to sleep","I ate","They happened together","Neither"],ans:"I ate",hint:"Nadat-clause = the EARLIER event"},
+         {type:"fb",s:"___ ik naar huis ging, maakte ik het werk af.",a:"Voordat",opts:["Voordat","Nadat","Zodra","Totdat"],hint:"BEFORE I went home..."},
+         {type:"mc",q:"In 'Voordat ik naar huis ging', the verb 'ging' is:",opts:["Second position","First position","At the end","Before the subject"],ans:"At the end",hint:"Subordinate clause → verb to end"},
+         {type:"drag_fill",s:"{1} zij was aangekomen, begon de vergadering. Ik wachtte {2} de baas klaar was.",blanks:{"1":"Nadat","2":"totdat"},pool:["Nadat","totdat","Voordat","zodra"],hint:"After she arrived... I waited until..."},
+         {type:"fb",s:"___ ik thuis ben, bel ik je. (as soon as)",a:"Zodra",opts:["Zodra","Totdat","Voordat","Nadat"],hint:"As soon as I'm home..."},
+         {type:"match",pairs:[{nl:"voordat",en:"before"},{nl:"nadat",en:"after"},{nl:"zodra",en:"as soon as"},{nl:"totdat",en:"until"}]},
+         {type:"mc",q:"'Nadat' is usually paired with which tense?",opts:["Present tense","Simple past only","Past perfect (had + PP)","Future tense"],ans:"Past perfect (had + PP)",hint:"Nadat ik HAD gegeten..."},
+         {type:"fb",s:"Nadat ik had ___, ging ik naar bed. (eaten)",a:"gegeten",opts:["gegeten","eten","at","gegeet"],hint:"Past perfect: had + past participle of eten"},
+         {type:"tr",mk:"v2u11_after_meeting",dir:"produce"},
+         {type:"tr",mk:"v2u11_before_i_came",dir:"produce"},
+       ]},
+
+// ═══ L5: Solliciteren ═══
+       {id:"v2u11l5",title:"Solliciteren",icon:"📝",xp:20,board:true,steps:[
+         {type:"intro",title:"Solliciteren",desc:"Applying for a job in the Netherlands. You'll learn the vocabulary of the hiring process and practice a simple job interview dialogue. Formal register  -  this is where 'u' comes back.",goals:["Job application vocabulary","solliciteren, cv, gesprek, ervaring","Formal register: Geachte, Met vriendelijke groet","A mini job interview dialogue"]},
+
+         {type:"teach",kind:"word",nl:"solliciteren",en:"to apply (for a job)",phonetic:"sol-li-si-TAY-run",example:"Ik heb gesolliciteerd naar deze baan.",exampleEn:"I applied for this job.",note:"'Solliciteren naar' = to apply for.\nThe noun: 'de sollicitatie' = the application.\n'Een sollicitatiebrief' = a cover letter."},
+         {type:"teach",kind:"phrase",nl:"het cv",en:"the CV / resume",phonetic:"hut say-VAY",cognate:{words:[{lang:"English",word:"CV (curriculum vitae)"},{lang:"French",word:"CV"}],family:"latin"},example:"Stuur je cv naar de werkgever.",exampleEn:"Send your CV to the employer.",note:"Het-word. Pronounced 'say-vay'.\nIn the Netherlands: CV + motivatiebrief\n(cover letter) is the standard application."},
+         {type:"teach",kind:"phrase",nl:"het gesprek",en:"the conversation / interview",phonetic:"hut guh-SPREK",also:"Also: just 'a conversation' in general.",example:"Ik heb morgen een sollicitatiegesprek.",exampleEn:"I have a job interview tomorrow.",note:"Het-word. 'Sollicitatiegesprek' = job interview.\nAlso: 'een goed gesprek' = a good conversation.\nPolysemy: conversation AND interview."},
+         {type:"teach",kind:"phrase",nl:"de ervaring",en:"the experience",phonetic:"duh ur-VAH-ring",cognate:{words:[{lang:"German",word:"Erfahrung"}],family:"germanic"},example:"Heb je ervaring met projectmanagement?",exampleEn:"Do you have experience with project management?",note:"De-word. 'Werkervaring' = work experience.\n'Ervaren' (adjective) = experienced.\n'Een ervaren collega' = an experienced colleague."},
+         {type:"teach",kind:"phrase",nl:"de opleiding",en:"the education / training",phonetic:"duh OP-lay-ding",example:"Welke opleiding heb je gedaan?",exampleEn:"What education did you do?",note:"De-word. 'Opleiding' = formal education/degree.\n'Een opleiding volgen' = to follow/take a course.\nAlso used for training programs at work."},
+         {type:"teach",kind:"phrase",nl:"het salaris",en:"the salary",phonetic:"hut sah-LAH-ris",cognate:{words:[{lang:"English",word:"salary"},{lang:"French",word:"salaire"}],family:"latin"},example:"Het salaris is goed.",exampleEn:"The salary is good.",note:"Het-word. Also: 'het loon' (wages).\nDutch job ads often don't list salary.\nYou negotiate during the gesprek."},
+
+         {type:"tip",title:"💼 Het Sollicitatiegesprek",text:"A typical Dutch job interview:\n\nWerkgever: Vertel eens over uzelf.\n= Tell us about yourself.\n\nJij: Ik heb drie jaar ervaring als programmeur.\nDaarvoor heb ik informatica gestudeerd.\n= I have three years of experience as a programmer.\nBefore that, I studied computer science.\n\nWerkgever: Waarom wilt u bij ons werken?\n= Why do you want to work with us?\n\nJij: Ik vind het bedrijf interessant\nen ik heb ervaring met dit soort projecten.\n= I find the company interesting\nand I have experience with this type of project.\n\nWerkgever: Heeft u nog vragen?\n= Do you have any questions?\n\nJij: Ja. Hoeveel vakantiedagen zijn er?\n= Yes. How many vacation days are there?",deepDive:{title:"Dutch interview culture",text:"Dutch interviews are relatively informal compared to many countries.\nHowever, they are DIRECT. Expect specific questions about your skills.\n\nDutch norms:\n- Firm handshake, eye contact, arrive ON TIME (not early, not late).\n- 'U' at the start, switch to 'je' if they suggest it.\n- Be honest about what you CAN and CANNOT do.\n- Asking about salary, vacation days, and work-life balance is normal.\n- The Dutch value 'nuchterheid' (down-to-earth-ness). Don't oversell.\n- Follow up with a short thank-you email.\n\nVacation: 25 days minimum is standard in the Netherlands.\nMost people take 3-4 weeks in summer."}},
+
+         {type:"mc",q:"'Solliciteren naar een baan' means:",opts:["To apply for a job","To reject a job","To quit a job","To interview someone"],ans:"To apply for a job",hint:"Solliciteren = to apply"},
+         {type:"fb",s:"Welke ___ heb je gedaan? (education/training)",a:"opleiding",opts:["opleiding","ervaring","baan","sollicitatie"],hint:"What education/training did you do?"},
+         {type:"match",pairs:[{nl:"solliciteren",en:"to apply"},{nl:"het gesprek",en:"the interview"},{nl:"de ervaring",en:"the experience"},{nl:"de opleiding",en:"the education"}]},
+         {type:"mc",q:"In a Dutch interview, asking about vacation days is:",opts:["Rude","Completely normal","Only for the second interview","Never done"],ans:"Completely normal",hint:"Work-life balance is a Dutch value"},
+         {type:"fb",s:"Stuur je ___ naar de werkgever.",a:"cv",opts:["cv","brief","mail","baan"],hint:"Send your CV"},
+         {type:"drag_fill",s:"Ik heb drie jaar {1} als programmeur. Daarvoor heb ik informatica {2}.",blanks:{"1":"ervaring","2":"gestudeerd"},pool:["ervaring","gestudeerd","opleiding","gewerkt"],hint:"Three years of experience. Before that, I studied."},
+         {type:"mc",q:"'Het salaris' is:",opts:["de-word","het-word","no article","irregular"],ans:"het-word",hint:"HET salaris"},
+         {type:"tr",mk:"v2u11_applied_for_job",dir:"produce"},
+       ]},
+
+// ═══ L6: Op de Vergadering ═══
+       {id:"v2u11l6",title:"Op de Vergadering",icon:"🤝",xp:20,board:true,steps:[
+         {type:"intro",title:"Op de Vergadering",desc:"Time to sit in a Dutch meeting. You'll learn how to discuss, propose, and give your opinion. This lesson introduces the structures 'Ik denk dat...', 'Volgens mij...', and basic meeting vocabulary.",goals:["Meeting vocabulary: voorstel, punt, besluit","Express opinions: Ik denk dat..., Volgens mij...","Agree and disagree politely","Participate in a simple meeting dialogue"]},
+
+         {type:"teach",kind:"phrase",nl:"het voorstel",en:"the proposal / suggestion",phonetic:"hut VOHR-stel",example:"Ik heb een voorstel.",exampleEn:"I have a proposal.",note:"Het-word. 'Een voorstel doen' = to make a proposal.\n'Voorstellen' (verb) = to suggest/propose.\nAlso: 'Mag ik me voorstellen?' = May I introduce myself?"},
+         {type:"teach",kind:"phrase",nl:"het punt",en:"the point / item (on agenda)",phonetic:"hut punt",cognate:{words:[{lang:"English",word:"point"},{lang:"German",word:"Punkt"}],family:"latin"},example:"Het volgende punt op de agenda.",exampleEn:"The next item on the agenda.",note:"Het-word. 'Punt' = point/item.\n'De agenda' = the agenda (same word!).\n'Goed punt!' = Good point!"},
+         {type:"teach",kind:"phrase",nl:"het besluit",en:"the decision",phonetic:"hut buh-SLOWT",example:"We moeten een besluit nemen.",exampleEn:"We need to make a decision.",note:"Het-word. 'Een besluit nemen' = to make a decision.\n'Besluiten' (verb) = to decide.\n'Beslissen' = also to decide (more informal)."},
+         {type:"teach",kind:"grammar",nl:"bespreken",en:"to discuss",phonetic:"buh-SPRAY-kun",example:"Laten we dit punt bespreken.",exampleEn:"Let's discuss this item.",note:"Inseparable verb (be- prefix → not separable).\n'Bespreken' = to discuss.\n'De bespreking' = the discussion."},
+
+         {type:"tip",title:"💬 Meningen Geven  -  Giving Opinions",text:"Ik denk dat... = I think that...\nIk vind dat... = I think/feel that...\nVolgens mij... = In my opinion...\nMisschien kunnen we... = Maybe we could...\n\nAgreeing:\nDaar ben ik het mee eens. = I agree with that.\nGoed idee! = Good idea!\nDat klopt. = That's correct.\n\nDisagreeing (politely!):\nDaar ben ik het niet mee eens. = I disagree.\nIk zie dat anders. = I see it differently.\nJa, maar... = Yes, but...\n\nThe Dutch are DIRECT but not rude.\n'Ik ben het er niet mee eens' is perfectly polite.\nNo need to soften  -  directness is valued."},
+
+         {type:"teach",kind:"phrase",nl:"ik denk dat",en:"I think that",phonetic:"ik denk dat",example:"Ik denk dat we meer tijd nodig hebben.",exampleEn:"I think that we need more time.",note:"'Denken' = to think (intellectual).\n'Dat' introduces subordinate clause → verb to end!\n'Ik denk dat we meer tijd nodig HEBBEN.'"},
+         {type:"teach",kind:"phrase",nl:"volgens mij",en:"in my opinion / I think",phonetic:"VOL-guns may",example:"Volgens mij is dat een goed idee.",exampleEn:"In my opinion, that's a good idea.",note:"Literally: 'according to me'.\n'Volgens' = according to.\nVery common Dutch way to give an opinion.\nV2: 'Volgens mij IS dat...' (verb second!)."},
+
+         {type:"mc",q:"'Ik denk dat we meer tijd nodig hebben.'  -  why is 'hebben' at the end?",opts:["It's a question","Random word order","'Dat' starts a subordinate clause","It's the past perfect"],ans:"'Dat' starts a subordinate clause",hint:"dat/omdat/als → verb to end"},
+         {type:"fb",s:"___ mij is dat een goed idee.",a:"Volgens",opts:["Volgens","Voor","Door","Met"],hint:"According to me / In my opinion"},
+         {type:"match",pairs:[{nl:"het voorstel",en:"the proposal"},{nl:"het besluit",en:"the decision"},{nl:"bespreken",en:"to discuss"},{nl:"het punt",en:"the point/item"}]},
+         {type:"mc",q:"'Daar ben ik het mee eens' means:",opts:["I don't understand","I agree with that","I'll think about it","That's not my point"],ans:"I agree with that",hint:"Het eens zijn met = to agree with"},
+         {type:"fb",s:"Ik ___ dat we een besluit moeten nemen.",a:"denk",opts:["denk","vind","wil","heb"],hint:"I think that..."},
+         {type:"drag_fill",s:"{1} mij is het een goed {2}. Laten we het bespreken.",blanks:{"1":"Volgens","2":"voorstel"},pool:["Volgens","voorstel","punt","Ik"],hint:"In my opinion it's a good proposal. Let's discuss it."},
+         {type:"mc",q:"In Dutch meeting culture, disagreeing directly is:",opts:["Very rude","Perfectly normal and expected","Only for the boss","Done with body language"],ans:"Perfectly normal and expected",hint:"Dutch directness is valued in the workplace"},
+         {type:"tr",mk:"v2u11_i_think_that",dir:"produce"},
+       ]},
+
+// ═══ L7: Werken in Nederland ═══
+       {id:"v2u11l7",title:"Werken in Nederland",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"Werken in Nederland",desc:"Dutch work culture is unique. Flat hierarchies, direct communication, lunch at your desk, the Friday borrel, and the world's highest rate of part-time work. This lesson explores what makes working in the Netherlands special.",goals:["Dutch work culture concepts","Key cultural vocabulary","Reading comprehension: short text","Understand the borrel, overleg, and parttime culture"]},
+
+         {type:"tip",title:"🇳🇱 De Nederlandse Werkcultuur",text:"1. Flat hierarchy: de baas is 'Jan', not 'Meneer De Vries'.\nMost people call their boss by first name.\n\n2. Direct communication: 'Ik ben het er niet mee eens'\nis not rude  -  it's expected. No beating around the bush.\n\n3. Lunch: brood met kaas, at your desk, in 30 minutes.\nNo long French lunch breaks.\n\n4. Part-time: the Netherlands is the world champion\nof part-time work. Many people work 32 hours (4 days).\n\n5. De borrel: Friday afternoon drinks with colleagues.\nBeer, wine, bitterballen. The social glue of Dutch offices.\n\n6. Overleg: the Dutch LOVE meetings (overleg/vergadering).\nEveryone gets to speak. Decisions take time.\nThis is the 'poldermodel'  -  consensus through discussion."},
+
+         {type:"teach",kind:"phrase",nl:"de borrel",en:"the drinks reception / social drinks",phonetic:"duh BOR-rul",example:"Ga je mee naar de borrel?",exampleEn:"Are you coming to the drinks?",note:"THE most Dutch social concept at work.\nFriday afternoon = 'borrel time'.\nBitterballen, beer, wine, networking.\n'Borrelen' = to have drinks socially."},
+         {type:"teach",kind:"phrase",nl:"de vakantiedag",en:"the vacation day",phonetic:"duh vah-KAN-see-dahg",example:"Ik heb nog tien vakantiedagen.",exampleEn:"I still have ten vacation days.",note:"De-word. vakantie + dag.\nThe Dutch get 25 days minimum by law.\nMany get more. This is non-negotiable in Dutch culture."},
+         {type:"teach",kind:"phrase",nl:"het overleg",en:"the consultation / meeting",phonetic:"hut OH-vur-leg",example:"We hebben veel overleg op kantoor.",exampleEn:"We have a lot of meetings at the office.",note:"You saw this in L2. Repeated because it's SO Dutch.\n'Overleggen' = to consult/discuss.\nThe poldermodel in action: talk until everyone agrees."},
+         {type:"teach",kind:"phrase",nl:"de werksfeer",en:"the work atmosphere",phonetic:"duh VERK-sfayr",example:"De werksfeer is hier heel goed.",exampleEn:"The work atmosphere here is very good.",note:"De-word. werk + sfeer.\n'Sfeer' = atmosphere/vibe.\nDutch workers value 'een goede sfeer' highly."},
+
+         {type:"tip",title:"📖 Lees: Een Dag op Kantoor",text:"Lees het verhaal en beantwoord de vragen.\n= Read the story and answer the questions.\n\nMaandag, half negen. Lisa komt op kantoor.\nZe zegt 'hoi' tegen haar collega's en maakt koffie.\nOm negen uur heeft ze overleg met haar team.\nZe bespreken het nieuwe project.\n\nNa het overleg beantwoordt Lisa haar e-mails.\nOm twaalf uur eet ze een broodje aan haar bureau.\nDe pauze duurt maar een half uur.\n\n's Middags heeft ze een vergadering met een klant.\nDe klant is tevreden. Lisa is blij.\nOm vijf uur gaat ze naar huis.\nHet is maandag  -  geen borrel vandaag.\nDie is op vrijdag.",deepDive:{title:"Vertaling",text:"Monday, half past eight. Lisa arrives at the office.\nShe says 'hi' to her colleagues and makes coffee.\nAt nine she has a meeting with her team.\nThey discuss the new project.\n\nAfter the meeting, Lisa answers her emails.\nAt twelve she eats a sandwich at her desk.\nThe break lasts only half an hour.\n\nIn the afternoon she has a meeting with a client.\nThe client is satisfied. Lisa is happy.\nAt five she goes home.\nIt's Monday  -  no drinks today.\nThat's on Friday."}},
+
+         {type:"mc",q:"According to the text, when does Lisa eat lunch?",opts:["At eleven","At twelve, at her desk","At one, in the canteen","She skips lunch"],ans:"At twelve, at her desk",hint:"Om twaalf uur eet ze een broodje aan haar bureau"},
+         {type:"fb",s:"De ___ is op vrijdag.",a:"borrel",opts:["borrel","vergadering","pauze","klant"],hint:"Friday afternoon drinks"},
+         {type:"mc",q:"The 'poldermodel' means:",opts:["Work alone","Consensus through discussion","Boss decides everything","No meetings allowed"],ans:"Consensus through discussion",hint:"Overleg, overleg, overleg..."},
+         {type:"match",pairs:[{nl:"de borrel",en:"social drinks"},{nl:"de vakantiedag",en:"vacation day"},{nl:"de werksfeer",en:"work atmosphere"},{nl:"het overleg",en:"consultation"}]},
+         {type:"mc",q:"How many vacation days do Dutch workers get minimum?",opts:["10 days","15 days","20 days","25 days"],ans:"25 days",hint:"And many get more"},
+         {type:"fb",s:"De ___ is hier heel goed. (work atmosphere)",a:"werksfeer",opts:["werksfeer","vergadering","baas","borrel"],hint:"Werk + sfeer"},
+         {type:"mc",q:"In the text, Lisa says 'hoi' to her colleagues. This shows:",opts:["She's rude","Dutch offices are informal","She's the boss","It's a special occasion"],ans:"Dutch offices are informal",hint:"Flat hierarchy  -  'hoi' not 'goedemorgen mevrouw'"},
+       ]},
+
+// ═══ L8: Unit 11 Review ═══
+       {id:"v2u11l8",title:"Unit 11 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 11 Review",desc:"Let's bring it all together. Work vocabulary, the past perfect, time connectors, and workplace culture. This review tests everything from Unit 11.",goals:["Review all work vocabulary","Past perfect: had/was + PP","Voordat, nadat, zodra, totdat","Express opinions: Ik denk dat..., Volgens mij..."]},
+
+         {type:"mc",q:"'Ik had al gegeten toen hij kwam.'  -  the past perfect is:",opts:["hij kwam","ik had gegeten","Both are past perfect","Neither"],ans:"ik had gegeten",hint:"had + past participle = past perfect"},
+         {type:"fb",s:"___ de vergadering begon, had ik al koffie gedronken.",a:"Voordat",opts:["Voordat","Nadat","Zodra","Totdat"],hint:"BEFORE the meeting started..."},
+         {type:"match",pairs:[{nl:"het kantoor",en:"the office"},{nl:"de vergadering",en:"the meeting"},{nl:"solliciteren",en:"to apply"},{nl:"het besluit",en:"the decision"}]},
+         {type:"mc",q:"'Nadat ik had gegeten'  -  which tense is in the nadat-clause?",opts:["Present","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"had + gegeten = past perfect"},
+         {type:"fb",s:"Zij werkt ___ arts. (as)",a:"als",opts:["als","een","de","voor"],hint:"She works AS a doctor"},
+         {type:"drag_fill",s:"{1} ik thuis ben, bel ik je. Ik wacht {2} je klaar bent.",blanks:{"1":"Zodra","2":"totdat"},pool:["Zodra","totdat","Voordat","Nadat"],hint:"As soon as... I'll wait until..."},
+         {type:"mc",q:"'Volgens mij is dat een goed idee.'  -  'Volgens mij' means:",opts:["I'm sure","In my opinion","The boss said","Everyone thinks"],ans:"In my opinion",hint:"Volgens = according to"},
+         {type:"fb",s:"Ik ___ dat we meer tijd nodig hebben.",a:"denk",opts:["denk","vind","heb","wil"],hint:"I think that..."},
+         {type:"match",pairs:[{nl:"voordat",en:"before"},{nl:"nadat",en:"after"},{nl:"zodra",en:"as soon as"},{nl:"totdat",en:"until"}]},
+         {type:"mc",q:"'De klant heeft altijd gelijk' means:",opts:["The customer is always late","The customer is always right","The client needs help","The company is always correct"],ans:"The customer is always right",hint:"Gelijk = right/correct"},
+         {type:"fb",s:"Nadat zij was ___, begon de vergadering. (arrived)",a:"aangekomen",opts:["aangekomen","gekomen","aankomen","kwam"],hint:"Past perfect with zijn: was + PP"},
+         {type:"drag_fill",s:"Ik {1} drie jaar {2} als programmeur.",blanks:{"1":"heb","2":"ervaring"},pool:["heb","ervaring","had","opleiding"],hint:"I have three years of experience as a programmer."},
+         {type:"mc",q:"The Dutch 'borrel' is:",opts:["A type of soup","Friday afternoon drinks with colleagues","A formal meeting","A holiday"],ans:"Friday afternoon drinks with colleagues",hint:"Bitterballen, beer, social glue"},
+         {type:"fb",s:"Wij ___ nog nooit in Parijs geweest. (had  -  plural)",a:"waren",opts:["waren","hadden","zijn","hebben"],hint:"Geweest = zijn verb, plural = waren"},
+         {type:"tr",mk:"v2u11_had_already_eaten",dir:"produce"},
+         {type:"tr",mk:"v2u11_applied_for_job",dir:"produce"},
+         {type:"tr",mk:"v2u11_i_think_that",dir:"produce"},
+       ]},
+  ]},
+
+  {n:12,lang:"nl",track:"v2",title:"Geld & Zaken",sub:"Zou/Zouden & Banking",icon:"💶",level:"B1.1",color:"#2ECD9E",lessons:[
+// ═══ L1: De Bank ═══
+       {id:"v2u12l1",title:"De Bank",icon:"🏦",xp:15,board:true,steps:[
+         {type:"intro",title:"De Bank",desc:"Money makes the world go round  -  and in the Netherlands, it's almost entirely digital. Cash is disappearing, everyone 'pint', and the Tikkie app rules social life. Let's learn the vocabulary of Dutch banking.",goals:["8 core banking vocabulary words","Talk about accounts and payments","Understand 'pinnen' and Dutch cashless culture","Polysemy: 'rekening' = account AND bill"]},
+
+         {type:"teach",kind:"phrase",nl:"de rekening",en:"the account / the bill",phonetic:"duh RAY-kuh-ning",example:"Ik heb een rekening bij de Rabobank.",exampleEn:"I have an account at Rabobank.",note:"De-word. Polysemy!\n'De bankrekening' = bank account.\n'De rekening' (in restaurant) = the bill.\n'De rekening betalen' = to pay the bill.\n\nWord family: from 'rekenen' (to calculate/count).\n'Rekenen' = the school subject for arithmetic.\n'Wiskunde' = mathematics (the advanced subject).\nDutch kids learn 'rekenen' first (1+1=2),\nthen 'wiskunde' later (algebra, geometry).\nSo 'de rekening' literally = 'the calculation'."},
+         {type:"teach",kind:"word",nl:"sparen",en:"to save (money)",phonetic:"SPAH-run",cognate:{words:[{lang:"German",word:"sparen"},{lang:"English",word:"spare"}],family:"germanic"},example:"Ik spaar elke maand honderd euro.",exampleEn:"I save a hundred euros every month.",note:"'De spaarrekening' = savings account.\n'Het spaargeld' = savings.\nThe Dutch are known for being 'zuinig' (thrifty)."},
+         {type:"teach",kind:"word",nl:"pinnen",en:"to pay by card / to use debit card",phonetic:"PIN-nun",example:"Kan ik hier pinnen?",exampleEn:"Can I pay by card here?",note:"THE most Dutch payment word.\n'Pinnen' = to pay with your bankpas (debit card).\n'De pinpas' / 'de bankpas' = debit card.\nCash is almost gone in NL  -  everything is pinnen."},
+         {type:"teach",kind:"word",nl:"overmaken",en:"to transfer (money)",phonetic:"OH-vur-mah-kun",example:"Ik maak het geld vandaag over.",exampleEn:"I'll transfer the money today.",note:"Separable verb: over|maken.\n'Geld overmaken' = to transfer money.\n'De overschrijving' = the bank transfer.\nDutch people transfer money for EVERYTHING."},
+         {type:"teach",kind:"word",nl:"contant",en:"cash / in cash",phonetic:"kon-TANT",cognate:{words:[{lang:"French",word:"comptant"},{lang:"English",word:"count"}],family:"latin"},example:"Betaalt u contant of met de pin?",exampleEn:"Are you paying cash or by card?",note:"'Contant betalen' = to pay in cash.\n'Contant geld' = cash money.\nMany Dutch shops now say 'alleen pinnen'\n= card only. Cash is dying in NL."},
+         {type:"teach",kind:"phrase",nl:"de bankpas",en:"the debit card",phonetic:"duh BANK-pas",example:"Ik ben mijn bankpas kwijt.",exampleEn:"I've lost my debit card.",note:"De-word. Also: 'de pinpas'.\nNOT a credit card! Dutch use debit cards.\n'Creditcard' exists but is much less common.\n'Kwijt zijn' = to have lost something."},
+
+         {type:"tip",title:"💳 Pinnen: The Dutch Way",text:"The Netherlands is one of the most cashless countries in the world.\n\nKan ik pinnen? = Can I pay by card?\nAlleen pinnen. = Card only.\nContactloos betalen. = Contactless payment.\n\nThe Tikkie app: Dutch people send each other\npayment requests for tiny amounts.\nShared a pizza? You'll get a Tikkie for €4,50.\nThis is NOT rude  -  it's normal and expected.\n\n'Going Dutch' (splitting the bill) is literally\nthe Dutch way of life. Nobody pays for someone\nelse unless it's a special occasion."},
+
+         {type:"teach",kind:"phrase",nl:"geld opnemen",en:"to withdraw money",phonetic:"gelt OP-nay-mun",example:"Ik moet geld opnemen bij de automaat.",exampleEn:"I need to withdraw money at the ATM.",note:"Separable: op|nemen.\n'De geldautomaat' / 'de pinautomaat' = ATM.\nATMs are getting rarer  -  most people never use cash."},
+         {type:"teach",kind:"phrase",nl:"de lening",en:"the loan",phonetic:"duh LAY-ning",example:"Hij heeft een lening bij de bank.",exampleEn:"He has a loan from the bank.",note:"De-word. 'Lenen' = to borrow OR to lend.\n'Geld lenen' = to borrow money.\n'Geld uitlenen' = to lend money.\nContext tells you which!"},
+
+         {type:"mc",q:"'De rekening' can mean both:",opts:["the bank and the money","the account and the bill","the card and the cash","the salary and the tax"],ans:"the account and the bill",hint:"Bankrekening (account) vs rekening in a restaurant (bill)"},
+         {type:"fb",s:"Kan ik hier ___? (pay by card)",a:"pinnen",opts:["pinnen","betalen","sparen","lenen"],hint:"The Dutch word for paying by debit card"},
+         {type:"match",pairs:[{nl:"sparen",en:"to save"},{nl:"pinnen",en:"to pay by card"},{nl:"overmaken",en:"to transfer"},{nl:"contant",en:"cash"}]},
+         {type:"mc",q:"A 'Tikkie' is:",opts:["A Dutch cookie","A payment request app","A bank card","A tax form"],ans:"A payment request app",hint:"€4,50 for your share of the pizza"},
+         {type:"fb",s:"Ik maak het geld vandaag ___.",a:"over",opts:["over","op","uit","aan"],hint:"Overmaken is separable: ik maak ... over"},
+         {type:"drag_fill",s:"Ik heb een {1} bij de Rabobank. Ik {2} elke maand honderd euro.",blanks:{"1":"rekening","2":"spaar"},pool:["rekening","spaar","lening","pin"],hint:"I have an account. I save 100 euros monthly."},
+         {type:"tr",mk:"v2u12_i_have_account",dir:"produce"},
+       ]},
+
+// ═══ L2: Rekeningen & Verzekering ═══
+       {id:"v2u12l2",title:"Rekeningen & Verzekering",icon:"📄",xp:15,board:true,steps:[
+         {type:"intro",title:"Rekeningen & Verzekering",desc:"Bills, insurance, taxes  -  the less glamorous side of living in the Netherlands. But you need these words to survive. Every Dutch person deals with huur, verzekering, and belasting.",goals:["8 financial/administrative words","Talk about bills and insurance","Understand Dutch tax basics","Per maand, per jaar expressions"]},
+
+         {type:"teach",kind:"phrase",nl:"de huur",en:"the rent",phonetic:"duh hüür",example:"De huur is zeshonderd euro per maand.",exampleEn:"The rent is six hundred euros per month.",note:"De-word. 'Huren' = to rent.\n'De huurder' = the tenant.\n'De verhuurder' = the landlord.\n'Per maand' = per month."},
+         {type:"teach",kind:"phrase",nl:"de verzekering",en:"the insurance",phonetic:"duh fur-ZAY-kuh-ring",example:"De zorgverzekering is verplicht in Nederland.",exampleEn:"Health insurance is mandatory in the Netherlands.",note:"De-word. 'Verzekeren' = to insure.\n'De zorgverzekering' = health insurance (MANDATORY).\nEveryone in NL must have one. ~€130/month."},
+         {type:"teach",kind:"phrase",nl:"het abonnement",en:"the subscription",phonetic:"hut ah-bon-uh-MENT",cognate:{words:[{lang:"French",word:"abonnement"},{lang:"English",word:"subscription"}],family:"french"},example:"Mijn telefoonabonnement kost dertig euro.",exampleEn:"My phone subscription costs thirty euros.",note:"Het-word. Phone, gym, streaming, transport...\n'Een abonnement nemen' = to take out a subscription.\n'Opzeggen' = to cancel a subscription."},
+         {type:"teach",kind:"phrase",nl:"de belasting",en:"the tax",phonetic:"duh buh-LAS-ting",example:"In Nederland betaal je veel belasting.",exampleEn:"In the Netherlands you pay a lot of tax.",note:"De-word. 'De Belastingdienst' = the Tax Authority.\n'Aangifte doen' = to file your tax return.\n'De inkomstenbelasting' = income tax.\nDutch taxes are high but fund excellent services."},
+         {type:"teach",kind:"phrase",nl:"de korting",en:"the discount",phonetic:"duh KOR-ting",cognate:{words:[{lang:"German",word:"Kürzung (short)"}],family:"germanic"},example:"Er is twintig procent korting.",exampleEn:"There is a twenty percent discount.",note:"De-word. 'Korting krijgen' = to get a discount.\n'Uitverkoop' = sale (clearance).\nDutch people love korting  -  zuinig!"},
+         {type:"teach",kind:"phrase",nl:"de factuur",en:"the invoice",phonetic:"duh fak-TÜÜR",cognate:{words:[{lang:"French",word:"facture"},{lang:"English",word:"invoice"}],family:"latin"},also:"Informal: 'de bon' = the receipt.",example:"De factuur moet binnen dertig dagen betaald worden.",exampleEn:"The invoice must be paid within thirty days.",note:"De-word. Formal: factuur. Informal: rekening/bon.\n'Een factuur sturen' = to send an invoice.\n'De bon' = the receipt (at a shop)."},
+         {type:"teach",kind:"phrase",nl:"de schuld",en:"the debt",phonetic:"duh sgult",cognate:{words:[{lang:"German",word:"Schuld"},{lang:"English",word:"guilt (same root!)"}],family:"germanic"},example:"Hij heeft een studieschuld.",exampleEn:"He has student debt.",note:"De-word. Also means 'guilt/fault'  -  same word!\n'Het is mijn schuld.' = It's my fault.\n'Schulden hebben' = to have debts.\nRelated: 'de lening' = the loan."},
+         {type:"teach",kind:"word",nl:"btw",en:"VAT (value added tax)",phonetic:"bay-tay-WAY",example:"De prijs is inclusief btw.",exampleEn:"The price includes VAT.",note:"Stands for 'belasting over de toegevoegde waarde'.\nDutch VAT = 21% (standard) or 9% (food, books).\n'Inclusief btw' / 'exclusief btw'."},
+
+         {type:"tip",title:"💡 Per Maand, Per Jaar",text:"de huur = €800 per maand (per month)\nde verzekering = €130 per maand\nhet abonnement = €30 per maand\nde belasting = per jaar (per year)\n\nUseful phrases:\n'Hoeveel kost dat per maand?' = How much per month?\n'Dat is inclusief/exclusief...' = incl./excl.\n'Maandelijks' = monthly\n'Jaarlijks' = yearly / annually"},
+
+         {type:"mc",q:"Health insurance in the Netherlands is:",opts:["Optional","Only for workers","Mandatory for everyone","Free"],ans:"Mandatory for everyone",hint:"De zorgverzekering is verplicht"},
+         {type:"fb",s:"Er is twintig procent ___.",a:"korting",opts:["korting","belasting","schuld","huur"],hint:"20% discount"},
+         {type:"match",pairs:[{nl:"de huur",en:"the rent"},{nl:"de verzekering",en:"the insurance"},{nl:"de belasting",en:"the tax"},{nl:"de schuld",en:"the debt"}]},
+         {type:"mc",q:"'De schuld' means both:",opts:["debt and discount","tax and insurance","debt and guilt/fault","bill and receipt"],ans:"debt and guilt/fault",hint:"Hij heeft schulden. Het is mijn schuld."},
+         {type:"fb",s:"De prijs is inclusief ___. (VAT)",a:"btw",opts:["btw","huur","korting","schuld"],hint:"Belasting over de toegevoegde waarde"},
+         {type:"drag_fill",s:"De {1} is zeshonderd euro per maand. De {2} is verplicht in Nederland.",blanks:{"1":"huur","2":"zorgverzekering"},pool:["huur","zorgverzekering","belasting","korting"],hint:"The rent is €600. Health insurance is mandatory."},
+       ]},
+
+// ═══ L3: Zou Je...? ═══
+       {id:"v2u12l3",title:"Zou Je...?",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Zou Je...?",desc:"Meet 'zou'  -  the Swiss Army knife of Dutch. It makes requests polite, advice gentle, and opens the door to hypothetical thinking. This is the word that separates A2 Dutch from B1 Dutch.",goals:["Zou/zouden conjugation","Polite requests: Zou je...?","Softened advice: Ik zou...","First hypotheticals: Als ik zou..."]},
+
+         {type:"tip",title:"🔑 What Is 'Zou'?",text:"'Zou' is the past tense of 'zullen' (shall/will).\nBut it's NOT about the past!\n\nZou/zouden = would / could / should\n\nIt has THREE main uses:\n\n1. POLITE REQUESTS:\nZou je me willen helpen? = Would you help me?\n(Much softer than: Wil je me helpen?)\n\n2. SOFTENED ADVICE:\nIk zou een paraplu meenemen. = I would take an umbrella.\n(Softer than: Neem een paraplu mee!)\n\n3. HYPOTHETICAL:\nAls ik rijk was, zou ik reizen.\n= If I were rich, I would travel.\n\nAll three make language MORE POLITE or LESS CERTAIN."},
+
+         {type:"verb_table",title:"Zou/Zouden",label:"Past tense of zullen",
+          groups:[
+            {label:"Conjugation",rows:[
+              {pronoun:"ik",form:"zou",en:"I would"},
+              {pronoun:"jij / je",form:"zou",en:"you would"},
+              {pronoun:"hij / zij / het",form:"zou",en:"he/she/it would"},
+              {pronoun:"u",form:"zou",en:"you would (formal)"},
+              {pronoun:"wij / we",form:"zouden",en:"we would"},
+              {pronoun:"jullie",form:"zouden",en:"you (pl.) would"},
+              {pronoun:"zij / ze",form:"zouden",en:"they would"},
+            ]}
+          ],note:"Simple: zou (singular) / zouden (plural + jullie).\nSame pattern as kon/konden, moest/moesten.\nInfinitive goes to the END:\n'Ik zou willen helpen.' (I would like to help.)"},
+
+         {type:"teach",kind:"phrase",nl:"zou je... willen",en:"would you like to / would you...",phonetic:"zow yuh VIL-lun",example:"Zou je me willen helpen?",exampleEn:"Would you help me?",note:"POLITE REQUEST formula.\n'Zou je...' = would you...\n+ willen + infinitive.\nMuch softer than 'Wil je...'!"},
+         {type:"teach",kind:"phrase",nl:"ik zou",en:"I would",phonetic:"ik zow",example:"Ik zou een paraplu meenemen.",exampleEn:"I would take an umbrella.",note:"SOFTENED ADVICE.\n'Ik zou...' = I would... (if I were you).\nImplied: 'Als ik jou was, zou ik...'\n= If I were you, I would..."},
+         {type:"teach",kind:"phrase",nl:"zou kunnen",en:"could / might",phonetic:"zow KUN-nun",example:"Het zou kunnen regenen.",exampleEn:"It could rain. / It might rain.",note:"'Zou kunnen' = might / could (possibility).\n'Het zou kunnen dat...' = It could be that...\nExpresses uncertainty  -  very useful for B1!"},
+
+         {type:"tip",title:"📐 Polite Scale",text:"From blunt to very polite:\n\nHelp me! → Help me!\nWil je me helpen? → Do you want to help me?\nKun je me helpen? → Can you help me?\nZou je me willen helpen? → Would you help me?\nZou u me willen helpen? → Would you help me? (formal)\nZou u zo vriendelijk willen zijn om...? → (ultra-formal)\n\n'Zou' + 'u' = maximum politeness.\nUse this with strangers, officials, older people.\n\nAt work, 'Zou je...' is the standard polite form."},
+
+         {type:"mc",q:"'Zou je me willen helpen?' is more polite than:",opts:["'Zou u me helpen?'","'Wil je me helpen?'","'Zou je het kunnen doen?'","All of the above"],ans:"'Wil je me helpen?'",hint:"Zou + willen is softer than wil"},
+         {type:"fb",s:"___ je het raam willen opendoen?",a:"Zou",opts:["Zou","Wil","Kan","Moet"],hint:"Would you... (polite)"},
+         {type:"mc",q:"'Ik zou een paraplu meenemen' is:",opts:["A command","A polite request","Softened advice","A question"],ans:"Softened advice",hint:"I WOULD take an umbrella (if I were you)"},
+         {type:"match",pairs:[{nl:"zou je willen",en:"would you like to"},{nl:"ik zou",en:"I would (advice)"},{nl:"zou kunnen",en:"could / might"},{nl:"zouden",en:"would (plural)"}]},
+         {type:"fb",s:"Het ___ kunnen regenen. (might)",a:"zou",opts:["zou","zal","kan","moet"],hint:"It WOULD be able to = it might"},
+         {type:"drag_fill",s:"{1} je me {2} helpen? Ik {3} een jas meenemen.",blanks:{"1":"Zou","2":"willen","3":"zou"},pool:["Zou","willen","zou","Wil"],hint:"Would you help me? I would take a jacket."},
+         {type:"tr",mk:"v2u12_would_you_help",dir:"produce"},
+       ]},
+
+// ═══ L4: Als Ik Zou... ═══
+       {id:"v2u12l4",title:"Als Ik Zou...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Als Ik Zou...",desc:"Now zou gets creative. Hypothetical situations: 'If I were rich...', 'If I could fly...'. Plus wishes with 'zou willen dat'. This is where Dutch opens up to imagination and nuance.",goals:["Hypothetical: als + imperfectum, zou + infinitive","Wishes: ik zou willen dat...","Uncertainty: het zou kunnen dat...","Full zou toolkit"]},
+
+         {type:"tip",title:"📐 Hypothetical Conditionals",text:"The pattern:\nALS + imperfectum (simple past), ZOU + infinitive.\n\nAls ik rijk was, zou ik een huis kopen.\n= If I were rich, I would buy a house.\n\nAls hij hier woonde, zou hij fietsen.\n= If he lived here, he would cycle.\n\nAls we meer tijd hadden, zouden we blijven.\n= If we had more time, we would stay.\n\nThe als-clause uses imperfectum (Unit 10!).\nThe main clause uses zou/zouden + infinitive.\n\nThis is EXACTLY like English:\nIf I WERE rich (past), I WOULD buy (conditional).\n\n⚠️ Dutch also allows: Als ik rijk ZOU ZIJN...\nBoth forms are correct and common."},
+
+         {type:"teach",kind:"phrase",nl:"als ik ... was/zou zijn",en:"if I were...",phonetic:"als ik ... vas / zow zayn",example:"Als ik president was, zou ik alles veranderen.",exampleEn:"If I were president, I would change everything.",note:"Two options for the als-clause:\n1. 'Als ik rijk WAS...' (imperfectum  -  common)\n2. 'Als ik rijk ZOU ZIJN...' (zou  -  also fine)\nBoth are correct. #1 is more spoken."},
+         {type:"teach",kind:"phrase",nl:"ik zou willen dat",en:"I would like that / I wish that",phonetic:"ik zow VIL-lun dat",example:"Ik zou willen dat ik meer tijd had.",exampleEn:"I wish I had more time.",note:"Wish formula: 'Ik zou willen dat...'\nThe dat-clause uses imperfectum!\n'Ik zou willen dat het ZOMER WAS.'\n= I wish it were summer."},
+         {type:"teach",kind:"phrase",nl:"het zou kunnen dat",en:"it could be that / it's possible that",phonetic:"hut zow KUN-nun dat",example:"Het zou kunnen dat hij ziek is.",exampleEn:"It could be that he's sick.",note:"Uncertainty formula.\n'Het zou kunnen dat...' = It's possible that...\n'Misschien' = maybe (simpler alternative).\n'Zou kunnen' = softer, more uncertain than 'kan'."},
+
+         {type:"tip",title:"🧰 The Full Zou Toolkit",text:"1. POLITE REQUEST: Zou je... willen...?\n   Zou je de deur willen sluiten?\n\n2. SOFTENED ADVICE: Ik zou...\n   Ik zou een arts bezoeken.\n\n3. HYPOTHETICAL: Als... was, zou...\n   Als ik jou was, zou ik gaan.\n\n4. WISH: Ik zou willen dat...\n   Ik zou willen dat het vrijdag was.\n\n5. UNCERTAINTY: Het zou kunnen dat...\n   Het zou kunnen dat het morgen regent.\n\n6. REPORTED SPEECH (preview for Unit 18):\n   Hij zei dat hij zou komen.\n   = He said he would come.\n\nYou now have all 6 uses.\nUses 1-5 are active now. #6 comes in Unit 18."},
+
+         {type:"mc",q:"'Als ik rijk was, zou ik reizen.'  -  the als-clause uses:",opts:["Present tense","Perfect tense","Imperfectum (simple past)","Future tense"],ans:"Imperfectum (simple past)",hint:"Als ik rijk WAS... (imperfectum)"},
+         {type:"fb",s:"Ik ___ willen dat ik meer tijd had.",a:"zou",opts:["zou","wil","kan","moet"],hint:"I WOULD like that..."},
+         {type:"mc",q:"'Het zou kunnen dat hij ziek is' expresses:",opts:["Certainty","A command","Uncertainty/possibility","A wish"],ans:"Uncertainty/possibility",hint:"It COULD be that... = maybe"},
+         {type:"drag_fill",s:"Als ik president {1}, {2} ik alles veranderen.",blanks:{"1":"was","2":"zou"},pool:["was","zou","ben","zal"],hint:"If I WERE president, I WOULD change everything."},
+         {type:"fb",s:"Als we meer tijd hadden, ___ we blijven.",a:"zouden",opts:["zouden","zou","kunnen","willen"],hint:"We (plural) = zouden"},
+         {type:"match",pairs:[{nl:"als ik rijk was",en:"if I were rich"},{nl:"zou willen dat",en:"I wish that"},{nl:"het zou kunnen",en:"it could be"},{nl:"zou je willen",en:"would you like to"}]},
+         {type:"mc",q:"Both 'Als ik rijk was' and 'Als ik rijk zou zijn' are:",opts:["Wrong","Correct  -  both options work","Only the first is correct","Only formal language"],ans:"Correct  -  both options work",hint:"Two valid forms for hypothetical als-clauses"},
+         {type:"tr",mk:"v2u12_if_i_were_rich",dir:"produce"},
+       ]},
+
+// ═══ L5: Winkelen & Klagen ═══
+       {id:"v2u12l5",title:"Winkelen & Klagen",icon:"🛍️",xp:20,board:true,steps:[
+         {type:"intro",title:"Winkelen & Klagen",desc:"Something's broken, the wrong size, or just not what you expected. Time to learn the Dutch art of complaining and returning items  -  politely, of course. This is where zou-politeness meets real life.",goals:["Complaint vocabulary: klacht, ruilen, terugbrengen","Return/exchange dialogue","Use zou for polite complaints","Handle problems at a shop"]},
+
+         {type:"teach",kind:"grammar",nl:"de klacht",en:"the complaint",phonetic:"duh klahgt",example:"Ik wil een klacht indienen.",exampleEn:"I want to file a complaint.",note:"De-word. 'Klagen' = to complain.\n'Een klacht indienen' = to file a complaint.\n'De klachtenservice' = complaints department."},
+         {type:"teach",kind:"word",nl:"ruilen",en:"to exchange / swap",phonetic:"ROW-lun",example:"Kan ik dit ruilen voor een andere maat?",exampleEn:"Can I exchange this for a different size?",note:"'Ruilen' = to exchange (like for like).\n'Omruilen' = also exchange.\nDifferent from 'terugbrengen' (return for refund)."},
+         {type:"teach",kind:"word",nl:"terugbrengen",en:"to return / bring back",phonetic:"tuh-RUG-breng-un",example:"Ik wil dit terugbrengen.",exampleEn:"I want to return this.",note:"Separable: terug|brengen.\n'Ik breng het terug.' = I bring it back.\n'Terugbetalen' = to refund.\nKeep the bon (receipt)!"},
+         {type:"teach",kind:"word",nl:"kapot",en:"broken / out of order",phonetic:"kah-POT",example:"De wasmachine is kapot.",exampleEn:"The washing machine is broken.",note:"Adjective, no inflection needed.\n'Kapotmaken' = to break (on purpose or by accident).\nVery common everyday word."},
+         {type:"teach",kind:"word",nl:"beschadigd",en:"damaged",phonetic:"buh-SGAH-digt",example:"Het pakket was beschadigd.",exampleEn:"The package was damaged.",note:"More formal than 'kapot'.\n'Beschadigen' = to damage.\n'De schade' = the damage.\n'Schade claimen' = to claim damage."},
+
+         {type:"tip",title:"🛍️ In de Winkel: Ruilen",text:"You: Goedemiddag. Ik zou dit graag willen ruilen.\n= Good afternoon. I would like to exchange this.\n\nWinkelier: Wat is het probleem?\n= What's the problem?\n\nYou: Het is kapot / de verkeerde maat / beschadigd.\n= It's broken / the wrong size / damaged.\n\nWinkelier: Heeft u de bon?\n= Do you have the receipt?\n\nYou: Ja, hier is de bon.\n= Yes, here's the receipt.\n\nWinkelier: Dan kunt u het ruilen of uw geld terugkrijgen.\n= Then you can exchange it or get your money back.\n\nNotice: 'Ik zou graag willen...' = maximum politeness.\nThis is the zou-formula from L3 in real life!"},
+
+         {type:"teach",kind:"phrase",nl:"de bon",en:"the receipt",phonetic:"duh bon",example:"Heeft u de bon nog?",exampleEn:"Do you still have the receipt?",note:"De-word. Keep your bon!\nWithout it, returning is much harder.\n'De kassabon' = cash register receipt."},
+
+         {type:"mc",q:"'Ik zou dit graag willen ruilen' is:",opts:["Rude","Neutral","Very polite","A question"],ans:"Very polite",hint:"zou + graag + willen = maximum politeness"},
+         {type:"fb",s:"Ik wil dit ___. (return/bring back)",a:"terugbrengen",opts:["terugbrengen","ruilen","kopen","betalen"],hint:"To return something to the shop"},
+         {type:"match",pairs:[{nl:"ruilen",en:"to exchange"},{nl:"terugbrengen",en:"to return"},{nl:"kapot",en:"broken"},{nl:"beschadigd",en:"damaged"}]},
+         {type:"fb",s:"De wasmachine is ___.",a:"kapot",opts:["kapot","beschadigd","ruilen","klacht"],hint:"Broken / out of order"},
+         {type:"drag_fill",s:"Ik {1} dit graag willen {2}. Heeft u de {3}?",blanks:{"1":"zou","2":"ruilen","3":"bon"},pool:["zou","ruilen","bon","wil"],hint:"I would like to exchange this. Do you have the receipt?"},
+         {type:"tr",mk:"v2u12_return_item",dir:"produce"},
+       ]},
+
+// ═══ L6: Op het Gemeentehuis ═══
+       {id:"v2u12l6",title:"Op het Gemeentehuis",icon:"🏛️",xp:20,board:true,steps:[
+         {type:"intro",title:"Op het Gemeentehuis",desc:"Welcome to Dutch bureaucracy. The gemeentehuis (city hall) is where life in the Netherlands officially begins: registration, BSN number, passport, rijbewijs. Every expat knows this place.",goals:["Municipal vocabulary: gemeente, formulier, BSN","Registration dialogue","Understand Dutch bureaucratic system","Use formal register with officials"]},
+
+         {type:"teach",kind:"phrase",nl:"de gemeente",en:"the municipality",phonetic:"duh guh-MAYN-tuh",example:"Ik woon in de gemeente Amsterdam.",exampleEn:"I live in the municipality of Amsterdam.",note:"De-word. The unit of local government.\n'Het gemeentehuis' = city hall.\nEvery person in NL is registered at a gemeente."},
+         {type:"teach",kind:"phrase",nl:"het formulier",en:"the form",phonetic:"hut for-mü-LEER",cognate:{words:[{lang:"French",word:"formulaire"},{lang:"English",word:"form"}],family:"latin"},example:"U moet dit formulier invullen.",exampleEn:"You need to fill in this form.",note:"Het-word. 'Invullen' = to fill in.\n'Een formulier invullen' = to fill in a form.\nDutch bureaucracy loves formulieren."},
+         {type:"teach",kind:"phrase",nl:"de handtekening",en:"the signature",phonetic:"duh HANT-tay-kuh-ning",example:"Zet hier uw handtekening.",exampleEn:"Put your signature here.",note:"De-word. hand + tekening = hand + drawing.\n'Tekenen' / 'ondertekenen' = to sign.\n'Hier tekenen, alstublieft.' = Sign here, please."},
+         {type:"teach",kind:"phrase",nl:"het BSN-nummer",en:"the citizen service number",phonetic:"hut bay-es-EN num-mur",example:"Wat is uw BSN-nummer?",exampleEn:"What is your BSN number?",note:"BSN = Burgerservicenummer.\nYour Dutch social security number.\nYou need it for EVERYTHING: work, bank, doctor, tax."},
+         {type:"teach",kind:"word",nl:"inschrijven",en:"to register",phonetic:"IN-sgrahy-vun",example:"Ik moet me inschrijven bij de gemeente.",exampleEn:"I need to register at the municipality.",note:"Separable: in|schrijven.\n'Zich inschrijven' = to register (yourself).\n'De inschrijving' = the registration.\nFirst thing you do when moving to NL!"},
+         {type:"teach",kind:"phrase",nl:"het rijbewijs",en:"the driver's license",phonetic:"hut RAY-buh-ways",example:"Mag ik uw rijbewijs zien?",exampleEn:"May I see your driver's license?",note:"Het-word. rij + bewijs = driving + proof.\n'Een rijbewijs halen' = to get a driver's license.\n'Het paspoort' = the passport."},
+
+         {type:"tip",title:"🏛️ Bij de Gemeente: Inschrijven",text:"Ambtenaar: Goedemorgen. Waarmee kan ik u helpen?\n= Good morning. How can I help you?\n\nJij: Ik wil me graag inschrijven.\n= I'd like to register, please.\n\nAmbtenaar: Heeft u uw paspoort en huurcontract bij u?\n= Do you have your passport and rental contract?\n\nJij: Ja, alstublieft.\n= Yes, here you are.\n\nAmbtenaar: Vult u dit formulier in, alstublieft.\nDan krijgt u een BSN-nummer.\n= Fill in this form, please.\nThen you'll get a BSN number.\n\nJij: Hoe lang duurt dat?\n= How long does that take?\n\nAmbtenaar: U krijgt het per post binnen twee weken.\n= You'll receive it by mail within two weeks.\n\nNotice: officials use 'u'. You use 'u' back.\nThis is formal Dutch in action."},
+
+         {type:"mc",q:"BSN stands for:",opts:["Bank Service Nummer","Burger Service Nummer","Buitenlands Sociaal Nummer","Basis Systeem Nederland"],ans:"Burger Service Nummer",hint:"Burgerservicenummer"},
+         {type:"fb",s:"Ik moet me ___ bij de gemeente.",a:"inschrijven",opts:["inschrijven","uitschrijven","schrijven","tekenen"],hint:"To register"},
+         {type:"match",pairs:[{nl:"de gemeente",en:"the municipality"},{nl:"het formulier",en:"the form"},{nl:"inschrijven",en:"to register"},{nl:"de handtekening",en:"the signature"}]},
+         {type:"fb",s:"Zet hier uw ___.",a:"handtekening",opts:["handtekening","formulier","paspoort","rijbewijs"],hint:"Put your signature here"},
+         {type:"drag_fill",s:"U moet dit {1} invullen. Dan krijgt u een {2}.",blanks:{"1":"formulier","2":"BSN-nummer"},pool:["formulier","BSN-nummer","handtekening","gemeente"],hint:"Fill in this form. Then you get a BSN number."},
+         {type:"tr",mk:"v2u12_register_gemeente",dir:"produce"},
+       ]},
+
+// ═══ L7: Zuinig Zijn ═══
+       {id:"v2u12l7",title:"Zuinig Zijn",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"Zuinig Zijn",desc:"The Dutch have a reputation for being thrifty. Is it true? Let's explore the culture of money in the Netherlands: going Dutch, the Tikkie, tipping (or not), and why 'zuinig' isn't an insult.",goals:["Cultural vocabulary: zuinig, gezellig, borrel","Understand 'going Dutch' / splitting bills","Dutch tipping culture","Reading comprehension: money culture text"]},
+
+         {type:"teach",kind:"word",nl:"zuinig",en:"thrifty / frugal",phonetic:"ZOW-nug",example:"Nederlanders zijn zuinig  -  en trots.",exampleEn:"Dutch people are thrifty  -  and proud of it.",note:"NOT an insult in Dutch! It's a virtue.\n'Zuinig zijn' = to be careful with money.\n'Zuinig omgaan met' = to handle carefully.\nOpposite: 'verkwistend' = wasteful."},
+         {type:"teach",kind:"phrase",nl:"de fooi",en:"the tip (gratuity)",phonetic:"duh foy",example:"Een fooi geven is niet verplicht.",exampleEn:"Tipping is not mandatory.",note:"De-word. 'Een fooi geven' = to give a tip.\nDutch tipping: round up or 5-10% for good service.\nNO American-style 20%. Wages are already decent."},
+         {type:"teach",kind:"phrase",nl:"de Tikkie",en:"Tikkie (payment request app)",phonetic:"duh TIK-ee",example:"Ik stuur je een Tikkie.",exampleEn:"I'll send you a Tikkie.",note:"THE Dutch payment app.\nSplit dinner? Tikkie for €12,50.\nShared a taxi? Tikkie for €3,75.\nIt's not stingy  -  it's Dutch!"},
+
+         {type:"tip",title:"📖 Lees: Geld in Nederland",text:"Nederlanders staan bekend als zuinig.\nMaar is dat waar?\n\nHet is waar dat Nederlanders graag de rekening delen.\n'Going Dutch' komt niet voor niets uit Nederland.\nAls je met vrienden uit eten gaat,\nbetaalt iedereen zijn eigen deel.\nNa het eten stuurt iemand een Tikkie.\nDat is heel normaal.\n\nFooi geven is niet verplicht.\nIn een restaurant kun je afronden of\n5-10% extra geven voor goede service.\nMaar niemand verwacht 20% zoals in Amerika.\n\nContant geld verdwijnt snel.\nBijna overal kun je pinnen.\nSommige winkels accepteren geen contant meer.\nNederland is bijna helemaal digitaal.\n\nZuinig zijn is geen schande in Nederland.\nHet is slim. Het is praktisch.\nEn het is heel erg Nederlands.",deepDive:{title:"Vertaling",text:"Dutch people are known as thrifty.\nBut is that true?\n\nIt's true that Dutch people like to split the bill.\n'Going Dutch' doesn't come from the Netherlands for nothing.\nWhen you go out to eat with friends,\neveryone pays their own share.\nAfter dinner, someone sends a Tikkie.\nThat's completely normal.\n\nTipping is not mandatory.\nIn a restaurant you can round up or\ngive 5-10% extra for good service.\nBut nobody expects 20% like in America.\n\nCash is disappearing fast.\nAlmost everywhere you can pay by card.\nSome shops don't accept cash anymore.\nThe Netherlands is almost completely digital.\n\nBeing thrifty is not a shame in the Netherlands.\nIt's smart. It's practical.\nAnd it's very Dutch."}},
+
+         {type:"mc",q:"'Zuinig' in Dutch culture is:",opts:["An insult","A positive trait","Only for old people","About poverty"],ans:"A positive trait",hint:"Smart, practical, Dutch"},
+         {type:"fb",s:"Een ___ geven is niet verplicht in Nederland.",a:"fooi",opts:["fooi","rekening","Tikkie","bon"],hint:"Tipping is not mandatory"},
+         {type:"mc",q:"Standard Dutch tipping is:",opts:["20% like America","Nothing ever","Round up or 5-10%","Exactly 15%"],ans:"Round up or 5-10%",hint:"For good service  -  not mandatory"},
+         {type:"match",pairs:[{nl:"zuinig",en:"thrifty"},{nl:"de fooi",en:"the tip"},{nl:"de Tikkie",en:"payment request app"},{nl:"pinnen",en:"to pay by card"}]},
+         {type:"mc",q:"In the text, what is disappearing in the Netherlands?",opts:["Restaurants","Cash money","Tipping","Banks"],ans:"Cash money",hint:"Contant geld verdwijnt snel"},
+         {type:"fb",s:"Ik stuur je een ___. (payment request)",a:"Tikkie",opts:["Tikkie","fooi","rekening","bon"],hint:"The Dutch payment request app"},
+       ]},
+
+// ═══ L8: Unit 12 Review ═══
+       {id:"v2u12l8",title:"Unit 12 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 12 Review",desc:"Review time. Banking, zou/zouden, complaints, bureaucracy, and Dutch money culture. Let's bring it all together.",goals:["Review all financial vocabulary","Zou/zouden: polite, advice, hypothetical, wishes","Complaint and return vocabulary","Municipal registration vocabulary"]},
+
+         {type:"mc",q:"'Zou je me willen helpen?' is:",opts:["A command","A polite request using zou","A hypothetical","A complaint"],ans:"A polite request using zou",hint:"Zou + je + willen = polite request"},
+         {type:"fb",s:"Als ik rijk ___, zou ik een huis kopen.",a:"was",opts:["was","ben","zou","had"],hint:"Hypothetical: als + imperfectum"},
+         {type:"match",pairs:[{nl:"de rekening",en:"account / bill"},{nl:"sparen",en:"to save"},{nl:"de klacht",en:"the complaint"},{nl:"inschrijven",en:"to register"}]},
+         {type:"fb",s:"Het ___ kunnen dat hij ziek is. (might)",a:"zou",opts:["zou","zal","kan","moet"],hint:"It COULD be that... = zou kunnen"},
+         {type:"mc",q:"'De schuld' means:",opts:["The discount","The debt AND guilt/fault","The insurance","The salary"],ans:"The debt AND guilt/fault",hint:"Polysemy: debt + guilt"},
+         {type:"drag_fill",s:"Ik {1} dit graag willen {2}. Het is {3}.",blanks:{"1":"zou","2":"ruilen","3":"kapot"},pool:["zou","ruilen","kapot","wil"],hint:"I would like to exchange this. It's broken."},
+         {type:"fb",s:"Ik moet me ___ bij de gemeente.",a:"inschrijven",opts:["inschrijven","uitschrijven","tekenen","betalen"],hint:"To register at the municipality"},
+         {type:"match",pairs:[{nl:"voordat",en:"before"},{nl:"zou je willen",en:"would you like"},{nl:"de huur",en:"the rent"},{nl:"de verzekering",en:"the insurance"}]},
+         {type:"mc",q:"Dutch VAT (btw) standard rate is:",opts:["5%","9%","15%","21%"],ans:"21%",hint:"21% standard, 9% reduced"},
+         {type:"fb",s:"___ ik jou was, zou ik een arts bezoeken.",a:"Als",opts:["Als","Toen","Dat","Of"],hint:"IF I were you..."},
+         {type:"drag_fill",s:"Ik wil me graag {1}. Wat is mijn {2}?",blanks:{"1":"inschrijven","2":"BSN-nummer"},pool:["inschrijven","BSN-nummer","formulier","gemeente"],hint:"I'd like to register. What is my BSN?"},
+         {type:"tr",mk:"v2u12_would_you_help",dir:"produce"},
+         {type:"tr",mk:"v2u12_if_i_were_rich",dir:"produce"},
+         {type:"tr",mk:"v2u12_register_gemeente",dir:"produce"},
+       ]},
+  ]},
+
+  {n:13,lang:"nl",track:"v2",title:"Wat Vind Jij?",sub:"Opinions & Extended Subordination",icon:"💬",level:"B1.1",color:"#F5A623",lessons:[
+// ═══ L1: Ik Vind Dat... ═══
+       {id:"v2u13l1",title:"Ik Vind Dat...",icon:"💭",xp:15,board:true,steps:[
+         {type:"intro",title:"Ik Vind Dat...",desc:"Time to express what you think, feel, and believe. Dutch has specific verbs for different kinds of opinions  -  vinden (feel/think), denken (think rationally), geloven (believe), menen (hold the opinion). Master these and you'll sound like a real B1 speaker.",goals:["5 opinion verbs: vinden, denken, geloven, menen, lijken","'Ik vind dat...' structure","'Het lijkt me...' for impressions","Polysemy: vinden = find AND think/feel"]},
+
+         {type:"teach",kind:"word",nl:"vinden",en:"to find / to think (feel)",phonetic:"FIN-dun",example:"Ik vind dat belangrijk.",exampleEn:"I think that's important.",note:"THE most Dutch opinion verb.\nPolysemy: 'Ik vind mijn sleutels.' = I find my keys.\n'Ik vind het leuk.' = I think it's nice.\nWith 'dat': 'Ik vind dat hij gelijk heeft.'"},
+         {type:"teach",kind:"word",nl:"denken",en:"to think (rationally)",phonetic:"DENG-kun",example:"Ik denk dat het gaat regenen.",exampleEn:"I think it's going to rain.",note:"'Denken' = rational thought / analysis.\n'Vinden' = feeling / opinion.\n'Ik denk dat...' (I think that  -  brain)\n'Ik vind dat...' (I feel that  -  gut)"},
+         {type:"teach",kind:"word",nl:"geloven",en:"to believe",phonetic:"guh-LOH-vun",cognate:{words:[{lang:"English",word:"believe"},{lang:"German",word:"glauben"}],family:"germanic"},example:"Ik geloof dat hij de waarheid spreekt.",exampleEn:"I believe he's telling the truth.",note:"'Geloven' = to believe (trust/faith).\n'Ik geloof het niet.' = I don't believe it.\n'Het geloof' = faith/belief.\nStronger than denken  -  more conviction."},
+         {type:"teach",kind:"word",nl:"menen",en:"to hold the opinion / to mean",phonetic:"MAY-nun",example:"Ik meen dat we een ander plan nodig hebben.",exampleEn:"I hold the opinion that we need a different plan.",note:"Formal opinion verb. Less common in speech.\n'Menen' = to sincerely think/mean.\n'Dat meen je niet!' = You can't be serious!\n'Ik meen het.' = I mean it."},
+         {type:"teach",kind:"phrase",nl:"het lijkt me",en:"it seems to me",phonetic:"hut laykt muh",example:"Het lijkt me een goed idee.",exampleEn:"It seems like a good idea to me.",note:"'Lijken' = to seem/appear.\n'Het lijkt me...' = It seems to me...\nSofter than 'Ik vind...'  -  less committed.\n'Het lijkt erop dat...' = It looks like..."},
+         {type:"teach",kind:"phrase",nl:"volgens mij",en:"in my opinion / I think",phonetic:"VOL-guns may",example:"Volgens mij klopt dat niet.",exampleEn:"In my opinion that's not right.",note:"Review from Unit 11!\n'Volgens' = according to.\n'Volgens mij' = in my opinion.\n'Volgens de krant...' = According to the newspaper..."},
+
+         {type:"tip",title:"📐 Vinden vs Denken vs Geloven",text:"Ik VIND het leuk. = I think it's nice. (feeling)\nIk DENK dat het gaat regenen. = I think it'll rain. (analysis)\nIk GELOOF dat hij liegt. = I believe he's lying. (conviction)\n\nVinden → gut / emotion / personal taste\nDenken → brain / logic / prediction\nGeloven → faith / trust / strong belief\n\nAll three use 'dat' for a full clause:\nIk vind DAT hij aardig is.\nIk denk DAT het waar is.\nIk geloof DAT ze gelijk heeft.\n\nRemember: 'dat' → verb to END!\nIk vind dat hij aardig IS. ✓"},
+
+         {type:"mc",q:"'Ik vind dat belangrijk' uses 'vinden' as:",opts:["To find (search)","To think/feel (opinion)","To discover","To decide"],ans:"To think/feel (opinion)",hint:"Vinden = opinion/feeling when not about physical finding"},
+         {type:"fb",s:"Het ___ me een goed idee. (it seems)",a:"lijkt",opts:["lijkt","vindt","denkt","gelooft"],hint:"It SEEMS to me"},
+         {type:"match",pairs:[{nl:"vinden",en:"to think/feel"},{nl:"denken",en:"to think (rationally)"},{nl:"geloven",en:"to believe"},{nl:"lijken",en:"to seem"}]},
+         {type:"fb",s:"Ik ___ dat het gaat regenen. (I think  -  rational)",a:"denk",opts:["denk","vind","geloof","lijk"],hint:"Rational prediction = denken"},
+         {type:"drag_fill",s:"Ik {1} dat hij aardig is. {2} mij klopt dat niet.",blanks:{"1":"vind","2":"Volgens"},pool:["vind","Volgens","denk","Het"],hint:"I feel he's nice. In my opinion that's wrong."},
+         {type:"mc",q:"'Dat meen je niet!' means:",opts:["That's true","You can't be serious!","I agree","I believe you"],ans:"You can't be serious!",hint:"Menen = to be serious/mean it"},
+         {type:"tr",mk:"v2u13_i_think_important",dir:"produce"},
+       ]},
+
+// ═══ L2: Eens of Oneens? ═══
+       {id:"v2u13l2",title:"Eens of Oneens?",icon:"⚖️",xp:15,board:true,steps:[
+         {type:"intro",title:"Eens of Oneens?",desc:"Agree or disagree? Now you'll learn the vocabulary of debate: agreement, disagreement, arguments, reasons, and solutions. These words power every discussion from dinner tables to Parliament.",goals:["Agreement/disagreement phrases","Debate vocabulary: argument, reden, oplossing","'Het eens/oneens zijn met'","Useful debate connectors"]},
+
+         {type:"teach",kind:"phrase",nl:"het eens zijn met",en:"to agree with",phonetic:"hut AYNS zayn met",example:"Ik ben het eens met jou.",exampleEn:"I agree with you.",note:"Fixed expression.\n'Het eens zijn met' = to agree with.\n'Daar ben ik het mee eens.' = I agree with that.\n'Eens' here means 'in agreement', not 'once'."},
+         {type:"teach",kind:"phrase",nl:"het oneens zijn met",en:"to disagree with",phonetic:"hut on-AYNS zayn met",example:"Ik ben het oneens met dat plan.",exampleEn:"I disagree with that plan.",note:"'Oneens' = not in agreement.\n'Daar ben ik het NIET mee eens.' = also works.\nBoth forms mean the same thing.\nDirectly disagreeing is normal in Dutch!"},
+         {type:"teach",kind:"phrase",nl:"gelijk hebben",en:"to be right",phonetic:"guh-LAYK HEB-bun",example:"Je hebt gelijk.",exampleEn:"You're right.",note:"'Gelijk' = right/correct (also: equal).\n'Gelijk hebben' = to be right.\n'Ongelijk hebben' = to be wrong.\nVery common: 'Ja, je hebt gelijk!'"},
+         {type:"teach",kind:"phrase",nl:"de reden",en:"the reason",phonetic:"duh RAY-dun",example:"Wat is de reden?",exampleEn:"What is the reason?",note:"De-word. 'De reden is dat...' = The reason is that...\n'Om die reden' = for that reason.\n'Daarom' = therefore (you know this from U11!)."},
+         {type:"teach",kind:"phrase",nl:"de oplossing",en:"the solution",phonetic:"duh OP-los-sing",example:"We moeten een oplossing vinden.",exampleEn:"We need to find a solution.",note:"De-word. 'Oplossen' = to solve.\n'Het probleem' = the problem.\n'Een oplossing vinden/zoeken' = find/seek a solution."},
+         {type:"teach",kind:"phrase",nl:"de discussie",en:"the discussion / debate",phonetic:"duh dis-KUS-see",cognate:{words:[{lang:"English",word:"discussion"},{lang:"French",word:"discussion"}],family:"latin"},example:"We hadden een lange discussie.",exampleEn:"We had a long discussion.",note:"De-word. 'Discussiëren' = to discuss/debate.\nDutch people LOVE a good discussie.\nIt's part of the poldermodel."},
+
+         {type:"tip",title:"⚖️ Agreeing & Disagreeing",text:"AGREEING:\nIk ben het met je eens. = I agree with you.\nDat klopt. = That's correct.\nGoed punt. = Good point.\nPrecies! / Inderdaad! = Exactly! / Indeed!\nDaar heb je gelijk in. = You're right about that.\n\nDISAGREEING:\nIk ben het er niet mee eens. = I disagree.\nIk zie dat anders. = I see it differently.\nDat klopt niet. = That's not correct.\nJa, maar... = Yes, but...\nDat betwijfel ik. = I doubt that.\n\nNUANCED:\nDat hangt ervan af. = That depends.\nAan de ene kant... aan de andere kant...\n= On the one hand... on the other hand..."},
+
+         {type:"mc",q:"'Daar ben ik het mee eens' means:",opts:["I don't care","I agree with that","I disagree","I don't understand"],ans:"I agree with that",hint:"Het eens zijn met = to agree with"},
+         {type:"fb",s:"Je hebt ___! (You're right!)",a:"gelijk",opts:["gelijk","eens","reden","recht"],hint:"Gelijk hebben = to be right"},
+         {type:"match",pairs:[{nl:"het eens zijn",en:"to agree"},{nl:"het oneens zijn",en:"to disagree"},{nl:"de reden",en:"the reason"},{nl:"de oplossing",en:"the solution"}]},
+         {type:"fb",s:"We moeten een ___ vinden voor dit probleem.",a:"oplossing",opts:["oplossing","discussie","reden","gelijk"],hint:"We need to find a SOLUTION"},
+         {type:"drag_fill",s:"Ik {1} het er niet mee {2}. Ik zie dat {3}.",blanks:{"1":"ben","2":"eens","3":"anders"},pool:["ben","eens","anders","heb"],hint:"I disagree. I see it differently."},
+         {type:"tr",mk:"v2u13_i_agree",dir:"produce"},
+       ]},
+
+// ═══ L3: Hoewel & Terwijl ═══
+       {id:"v2u13l3",title:"Hoewel & Terwijl",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Hoewel & Terwijl",desc:"New subordinate conjunctions! 'Hoewel' (although) lets you concede a point while still disagreeing. 'Terwijl' (while/whereas) lets you contrast two things happening at the same time  -  or two opposing ideas.",goals:["hoewel/alhoewel = although","terwijl = while / whereas","Verb-final word order (review)","Use in opinion and debate contexts"]},
+
+         {type:"teach",kind:"word",nl:"hoewel",en:"although / even though",phonetic:"hoo-VEL",also:"'Alhoewel' = same meaning, slightly more formal.",example:"Hoewel het regent, ga ik fietsen.",exampleEn:"Although it's raining, I'm going cycling.",note:"Subordinate conjunction → verb to END.\n'Hoewel het REGENT, ga ik fietsen.'\nLike 'omdat' and 'als' from Unit 9.\nUsed to concede a point before your main argument."},
+         {type:"teach",kind:"word",nl:"terwijl",en:"while / whereas",phonetic:"tur-WAYL",example:"Ik werk terwijl hij slaapt.",exampleEn:"I work while he sleeps.",note:"Two meanings!\n1. SIMULTANEOUS: 'I read while she cooks.'\n2. CONTRAST: 'I like coffee, whereas he prefers tea.'\nBoth use verb-final: 'terwijl hij SLAAPT'."},
+
+         {type:"tip",title:"📐 Word Order Review",text:"All subordinate conjunctions → verb to END:\n\nomdat ik ZIEK BEN (because I'm sick)\nals je WILT (if you want)\ndat hij KOMT (that he's coming)\nvoordat ik GA (before I go)\nnadat ik had GEGETEN (after I had eaten)\n\nNEW:\nhoewel het REGENT (although it rains)\nterwijl hij SLAAPT (while he sleeps)\n\nWhen the sub-clause comes FIRST → inversion in main clause:\nHoewel het regent, GA ik fietsen.\n                    ↑ verb second in main clause\n\nThis is always the same rule. No exceptions!"},
+
+         {type:"mc",q:"'Hoewel het regent, ga ik fietsen.'  -  'hoewel' means:",opts:["because","before","although","while"],ans:"although",hint:"Concessive: despite the rain"},
+         {type:"fb",s:"Ik lees ___ zij kookt. (while)",a:"terwijl",opts:["terwijl","hoewel","omdat","voordat"],hint:"I read WHILE she cooks"},
+         {type:"mc",q:"In 'Hoewel het regent', the verb 'regent' is:",opts:["Second position","First position","At the end","Before hoewel"],ans:"At the end",hint:"Subordinate clause → verb to end"},
+         {type:"match",pairs:[{nl:"hoewel",en:"although"},{nl:"terwijl",en:"while/whereas"},{nl:"voordat",en:"before"},{nl:"nadat",en:"after"}]},
+         {type:"drag_fill",s:"{1} het koud is, gaat hij zwemmen. Ik kook {2} hij de tafel dekt.",blanks:{"1":"Hoewel","2":"terwijl"},pool:["Hoewel","terwijl","Omdat","voordat"],hint:"Although it's cold... I cook while he sets the table."},
+         {type:"fb",s:"___ ik moe was, ging ik toch naar de vergadering.",a:"Hoewel",opts:["Hoewel","Terwijl","Voordat","Omdat"],hint:"ALTHOUGH I was tired..."},
+         {type:"mc",q:"'Terwijl' can mean both:",opts:["before and after","although and because","while and whereas","until and since"],ans:"while and whereas",hint:"Simultaneous action OR contrast"},
+         {type:"tr",mk:"v2u13_although_raining",dir:"produce"},
+       ]},
+
+// ═══ L4: Doordat & Zodat ═══
+       {id:"v2u13l4",title:"Doordat & Zodat",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Doordat & Zodat",desc:"More subordinate power tools. 'Doordat' explains external causes, 'zodat' expresses purpose or result, and 'tenzij' means unless. After this lesson, you can build truly complex Dutch sentences.",goals:["doordat = because (external cause)","zodat = so that (purpose/result)","tenzij = unless","Distinguish doordat vs omdat"]},
+
+         {type:"teach",kind:"word",nl:"doordat",en:"because (of the fact that)",phonetic:"DOHR-dat",example:"Doordat het regende, kwamen we te laat.",exampleEn:"Because it rained, we arrived late.",note:"Like 'omdat' but for EXTERNAL causes.\n'Omdat' = general reason (choice or circumstance).\n'Doordat' = external fact that caused something.\nDoordat het REGENDE = verb to end."},
+         {type:"teach",kind:"word",nl:"zodat",en:"so that / in order that",phonetic:"zo-DAT",example:"Ik lees de krant zodat ik Nederlands leer.",exampleEn:"I read the newspaper so that I learn Dutch.",note:"Purpose OR result.\n'Zodat ik Nederlands LEER.' = verb to end.\n'Zodat' = so that (the goal/result).\nSimilar to 'om te' but with a full clause."},
+         {type:"teach",kind:"word",nl:"tenzij",en:"unless",phonetic:"ten-ZAY",example:"Ik ga, tenzij het regent.",exampleEn:"I'm going, unless it rains.",note:"'Tenzij' = unless = except if.\n'Tenzij het REGENT.' = verb to end.\nLess common than 'als...niet' but more elegant.\n'Tenzij je iets anders wilt.' = Unless you want something else."},
+
+         {type:"tip",title:"📐 Doordat vs Omdat",text:"Both mean 'because', but there's a difference:\n\nOmdat ik moe was, ging ik naar bed.\n= Because I was tired, I went to bed.\n→ My tiredness was the reason (could be my fault).\n\nDoordat het regende, kwamen we te laat.\n= Because it rained, we arrived late.\n→ Rain = external cause (not our fault).\n\nSimple rule:\n• Omdat = any reason (most common, default choice)\n• Doordat = external/factual cause (not a choice)\n\nWhen in doubt, use 'omdat'. It's always correct.\n'Doordat' is more precise but optional.",deepDive:{title:"More examples",text:"Omdat ik ziek was, bleef ik thuis.\n= Because I was sick. (general reason)\n\nDoordat de trein vertraging had, kwam ik te laat.\n= Because the train was delayed. (external cause)\n\nDoordat de straat glad was, vielen veel fietsers.\n= Because the road was slippery. (external cause)\n\nOmdat ik Nederlands wil leren, gebruik ik LingoVerse.\n= Because I want to learn Dutch. (my choice)"}},
+
+         {type:"mc",q:"'Doordat het regende, kwamen we te laat.'  -  'doordat' is used because:",opts:["It's always better than omdat","Rain is an external cause","It's more informal","There's no difference"],ans:"Rain is an external cause",hint:"Doordat = external/factual cause"},
+         {type:"fb",s:"Ik lees de krant ___ ik Nederlands leer. (so that)",a:"zodat",opts:["zodat","doordat","omdat","tenzij"],hint:"I read the newspaper SO THAT I learn Dutch"},
+         {type:"match",pairs:[{nl:"doordat",en:"because (external)"},{nl:"zodat",en:"so that"},{nl:"tenzij",en:"unless"},{nl:"omdat",en:"because (general)"}]},
+         {type:"fb",s:"Ik ga, ___ het regent. (unless)",a:"tenzij",opts:["tenzij","zodat","doordat","hoewel"],hint:"I'm going, UNLESS it rains"},
+         {type:"drag_fill",s:"{1} de trein vertraging had, kwam ik te laat. Ik vertrek vroeg {2} ik op tijd ben.",blanks:{"1":"Doordat","2":"zodat"},pool:["Doordat","zodat","Omdat","tenzij"],hint:"Because (external) the train was delayed... I leave early so that I'm on time."},
+         {type:"mc",q:"When in doubt between 'doordat' and 'omdat', use:",opts:["doordat  -  it's safer","omdat  -  it's always correct","tenzij  -  it covers both","zodat  -  it's more common"],ans:"omdat  -  it's always correct",hint:"Omdat is the universal 'because'"},
+         {type:"tr",mk:"v2u13_so_that_learn",dir:"produce"},
+       ]},
+
+// ═══ L5: In het Nieuws ═══
+       {id:"v2u13l5",title:"In het Nieuws",icon:"📰",xp:20,board:true,steps:[
+         {type:"intro",title:"In het Nieuws",desc:"News vocabulary. You'll learn the words for reading Dutch news  -  krant, artikel, bericht, journaal. Then you'll read a short news item using all the connectors you've learned.",goals:["8 news and media vocabulary words","Read a simplified news text","Recognize connectors in context","Build media literacy vocabulary"]},
+
+         {type:"teach",kind:"phrase",nl:"de krant",en:"the newspaper",phonetic:"duh krant",cognate:{words:[{lang:"French",word:"courant"},{lang:"German",word:"Kranz"}],family:"latin"},example:"Ik lees elke dag de krant.",exampleEn:"I read the newspaper every day.",note:"De-word. Major Dutch newspapers:\nDe Volkskrant, NRC, De Telegraaf, AD.\n'De krant lezen' = to read the newspaper."},
+         {type:"teach",kind:"phrase",nl:"het artikel",en:"the article",phonetic:"hut ar-TI-kul",cognate:{words:[{lang:"English",word:"article"},{lang:"German",word:"Artikel"}],family:"latin"},example:"Heb je dat artikel gelezen?",exampleEn:"Have you read that article?",note:"Het-word. 'Een artikel schrijven' = to write an article.\n'Een artikel over...' = an article about...\nAlso: 'het bericht' = the report/message."},
+         {type:"teach",kind:"phrase",nl:"het bericht",en:"the report / message / news item",phonetic:"hut buh-RIGT",example:"Ik las een bericht over het weer.",exampleEn:"I read a report about the weather.",note:"Het-word. Multiple meanings:\n'Een nieuwsbericht' = a news report.\n'Een bericht sturen' = to send a message.\n'Berichten' = reports/messages (plural)."},
+         {type:"teach",kind:"phrase",nl:"het journaal",en:"the news (TV)",phonetic:"hut zhoor-NAHL",cognate:{words:[{lang:"French",word:"journal"},{lang:"English",word:"journal"}],family:"french"},example:"Het journaal begint om acht uur.",exampleEn:"The news starts at eight.",note:"Het-word. THE Dutch evening news = 'het NOS Journaal'.\n'Het nieuws' = the news (general).\n'Het journaal kijken' = to watch the news."},
+         {type:"teach",kind:"phrase",nl:"de reclame",en:"the advertisement / commercial",phonetic:"duh ruh-KLAH-muh",cognate:{words:[{lang:"French",word:"réclame"}],family:"french"},example:"Er is te veel reclame op tv.",exampleEn:"There are too many commercials on TV.",note:"De-word. 'Reclame maken' = to advertise.\n'De advertentie' = the ad (in print).\nDutch TV has ad breaks during programs."},
+         {type:"teach",kind:"phrase",nl:"het interview",en:"the interview",phonetic:"hut IN-tur-vyoo",example:"De journalist doet een interview.",exampleEn:"The journalist is doing an interview.",note:"Het-word. Same as English!\n'Interviewen' = to interview (verb).\n'De journalist' = the journalist."},
+
+         {type:"tip",title:"📰 Lees: Kort Nieuwsbericht",text:"MEER NEDERLANDERS WERKEN THUIS\n\nSteeds meer Nederlanders werken vanuit huis.\nVolgens een onderzoek werkt 40% minstens\néén dag per week thuis.\n\nHoewel werkgevers in het begin twijfelden,\nzijn de meesten nu tevreden.\nDoordat werknemers minder reistijd hebben,\nzijn ze productiever.\n\nTerwijl kantoren leger worden,\ngroeien de coworkingspaces.\n\nDeskundigen verwachten dat deze trend\nzal doorzetten, tenzij de economie verandert.",deepDive:{title:"Vertaling",text:"MORE DUTCH PEOPLE WORK FROM HOME\n\nMore and more Dutch people work from home.\nAccording to a study, 40% work at least\none day per week from home.\n\nAlthough employers doubted at first,\nmost are now satisfied.\nBecause employees have less commute time,\nthey are more productive.\n\nWhile offices are becoming emptier,\ncoworking spaces are growing.\n\nExperts expect that this trend\nwill continue, unless the economy changes."}},
+
+         {type:"mc",q:"In the news text, what percentage works from home at least one day?",opts:["20%","30%","40%","50%"],ans:"40%",hint:"40% minstens één dag per week"},
+         {type:"fb",s:"___ werkgevers twijfelden, zijn ze nu tevreden.",a:"Hoewel",opts:["Hoewel","Doordat","Terwijl","Tenzij"],hint:"ALTHOUGH employers doubted..."},
+         {type:"match",pairs:[{nl:"de krant",en:"newspaper"},{nl:"het artikel",en:"article"},{nl:"het journaal",en:"TV news"},{nl:"de reclame",en:"advertisement"}]},
+         {type:"fb",s:"___ werknemers minder reistijd hebben, zijn ze productiever.",a:"Doordat",opts:["Doordat","Hoewel","Terwijl","Tenzij"],hint:"BECAUSE (external cause) employees have less commute..."},
+         {type:"mc",q:"The trend will continue 'tenzij de economie verandert'. 'Tenzij' means:",opts:["because","although","unless","while"],ans:"unless",hint:"Unless the economy changes"},
+         {type:"drag_fill",s:"Ik lees elke dag de {1}. Heb je dat {2} gelezen?",blanks:{"1":"krant","2":"artikel"},pool:["krant","artikel","bericht","reclame"],hint:"I read the newspaper daily. Have you read that article?"},
+       ]},
+
+// ═══ L6: Discussiëren ═══
+       {id:"v2u13l6",title:"Discussiëren",icon:"🗣️",xp:20,board:true,steps:[
+         {type:"intro",title:"Discussiëren",desc:"Time to structure a real argument. You'll learn discourse markers  -  the signpost words that make your reasoning clear: ten eerste, bovendien, echter, daarom. These are the building blocks of B1 speaking and writing.",goals:["Discourse markers: ten eerste, bovendien, echter","Structure an argument logically","Practice a debate dialogue","Use connectors fluently"]},
+
+         {type:"teach",kind:"phrase",nl:"ten eerste",en:"firstly / in the first place",phonetic:"ten AYR-stuh",example:"Ten eerste vind ik het te duur.",exampleEn:"Firstly, I think it's too expensive.",note:"'Ten eerste' = first point in an argument.\n'Ten tweede' = secondly.\n'Ten derde' = thirdly.\nVery useful for structured arguments."},
+         {type:"teach",kind:"word",nl:"bovendien",en:"moreover / besides / in addition",phonetic:"boh-vun-DEEN",example:"Bovendien is het niet eerlijk.",exampleEn:"Moreover, it's not fair.",note:"Adds to your argument.\n'Bovendien' = besides / in addition.\nStrengthens your point.\nV2: 'Bovendien IS het...' (verb second!)"},
+         {type:"teach",kind:"word",nl:"echter",en:"however / but (formal)",phonetic:"EG-tur",example:"Het plan is goed. Echter, het kost te veel.",exampleEn:"The plan is good. However, it costs too much.",note:"Formal 'maar'. Used in writing and debate.\n'Echter' = however.\nCan start a sentence: 'Echter, ...'\nOr mid-sentence: 'Het is echter te duur.'"},
+         {type:"teach",kind:"phrase",nl:"aan de andere kant",en:"on the other hand",phonetic:"ahn duh AN-duh-ruh kant",example:"Aan de andere kant heeft hij ook gelijk.",exampleEn:"On the other hand, he's also right.",note:"'Aan de ene kant... aan de andere kant...'\n= On one hand... on the other hand...\nUsed for balanced arguments.\nVery 'polder'  -  seeing both sides!"},
+
+         {type:"tip",title:"🗣️ Een Discussie: Voor en Tegen",text:"Topic: Moeten we meer thuiswerken?\n= Should we work from home more?\n\nVOOR (for):\nTen eerste bespaart het reistijd.\n= Firstly, it saves commute time.\nBovendien is het beter voor het milieu.\n= Moreover, it's better for the environment.\n\nTEGEN (against):\nEchter, het is slecht voor de werksfeer.\n= However, it's bad for work atmosphere.\nAan de andere kant missen collega's het contact.\n= On the other hand, colleagues miss the contact.\n\nCONCLUSIE:\nIk vind dat een combinatie het beste is.\n= I think a combination is best.\nDaarom zou ik twee dagen thuis en drie op kantoor kiezen.\n= Therefore I would choose two days at home and three at the office."},
+
+         {type:"mc",q:"'Bovendien' adds to your argument. It means:",opts:["However","Firstly","Moreover / besides","On the other hand"],ans:"Moreover / besides",hint:"Strengthens your point  -  adds another reason"},
+         {type:"fb",s:"___ eerste vind ik het te duur.",a:"Ten",opts:["Ten","Het","In","De"],hint:"FIRSTLY, I think it's too expensive"},
+         {type:"match",pairs:[{nl:"ten eerste",en:"firstly"},{nl:"bovendien",en:"moreover"},{nl:"echter",en:"however"},{nl:"aan de andere kant",en:"on the other hand"}]},
+         {type:"fb",s:"Het plan is goed. ___, het kost te veel.",a:"Echter",opts:["Echter","Bovendien","Daarom","Zodat"],hint:"HOWEVER, it costs too much"},
+         {type:"drag_fill",s:"{1} bespaart het reistijd. {2} is het beter voor het milieu.",blanks:{"1":"Ten eerste","2":"Bovendien"},pool:["Ten eerste","Bovendien","Echter","Daarom"],hint:"Firstly it saves commute time. Moreover it's better for the environment."},
+         {type:"mc",q:"The Dutch 'poldermodel' of debate means:",opts:["The boss decides","Everyone argues until someone wins","All sides are heard, seeking consensus","Nobody gives an opinion"],ans:"All sides are heard, seeking consensus",hint:"Aan de ene kant... aan de andere kant..."},
+       ]},
+
+// ═══ L7: Polderen ═══
+       {id:"v2u13l7",title:"Polderen",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"Polderen",desc:"The poldermodel, Dutch directness, 'doe maar normaal', and the art of compromise. This lesson explores why the Dutch debate the way they do  -  and why it actually works.",goals:["Understand the poldermodel","Dutch directness vs other cultures","'Doe maar normaal' mentality","Reading comprehension: Dutch debate culture"]},
+
+         {type:"teach",kind:"phrase",nl:"het poldermodel",en:"the polder model (consensus politics)",phonetic:"hut POL-dur-mo-DEL",example:"Het poldermodel is typisch Nederlands.",exampleEn:"The polder model is typically Dutch.",note:"Named after 'polders'  -  land reclaimed from the sea.\nEveryone had to cooperate or drown.\nNow: politics by consensus and compromise.\nGovernment, employers, unions discuss everything."},
+         {type:"teach",kind:"phrase",nl:"doe maar normaal",en:"just act normal / don't show off",phonetic:"doo mahr nor-MAHL",example:"Doe maar normaal, dan doe je al gek genoeg.",exampleEn:"Just act normal, that's crazy enough.",note:"THE Dutch motto.\n'Don't stand out. Don't show off. Be normal.'\nTall poppy syndrome  -  but accepted and embraced.\nSaid as advice AND as a gentle warning."},
+         {type:"teach",kind:"phrase",nl:"het compromis",en:"the compromise",phonetic:"hut kom-pro-MIS",cognate:{words:[{lang:"English",word:"compromise"},{lang:"French",word:"compromis"}],family:"latin"},example:"We moeten een compromis sluiten.",exampleEn:"We need to reach a compromise.",note:"Het-word. 'Een compromis sluiten' = to reach a compromise.\nThe Dutch LOVE compromises.\nNobody gets everything  -  but everyone gets something."},
+
+         {type:"tip",title:"📖 Lees: De Kunst van het Polderen",text:"Nederlanders zijn direct. Dat weet iedereen.\nMaar ze zijn ook meesters in het compromis.\n\nHoe kan dat samengaan?\n\nHet antwoord is het poldermodel.\nIedereen mag zijn mening geven.\nIedereen wordt gehoord.\nMaar uiteindelijk moet je samenwerken.\n\nOp het werk: de baas vraagt de mening van het team.\nEchter, na de discussie neemt de baas het besluit.\n\nIn de politiek: Nederland heeft altijd een coalitie.\nGeen enkele partij heeft de meerderheid.\nDaarom moeten partijen samenwerken.\n\nDoe maar normaal, zeggen de Nederlanders.\nWees direct, maar respectvol.\nGeef je mening, maar luister ook.\nDat is polderen.",deepDive:{title:"Vertaling",text:"Dutch people are direct. Everyone knows that.\nBut they're also masters of compromise.\n\nHow can that go together?\n\nThe answer is the polder model.\nEveryone may give their opinion.\nEveryone is heard.\nBut eventually, you have to cooperate.\n\nAt work: the boss asks the team's opinion.\nHowever, after the discussion the boss makes the decision.\n\nIn politics: the Netherlands always has a coalition.\nNo single party has the majority.\nTherefore, parties must cooperate.\n\nJust act normal, say the Dutch.\nBe direct, but respectful.\nGive your opinion, but also listen.\nThat is 'poldering'."}},
+
+         {type:"mc",q:"The poldermodel is named after polders because:",opts:["Polders are flat like Dutch opinions","Everyone had to cooperate or the land would flood","It was invented by a farmer","Polder means politics in old Dutch"],ans:"Everyone had to cooperate or the land would flood",hint:"Cooperate or drown!"},
+         {type:"fb",s:"___ maar normaal, dan doe je al gek genoeg.",a:"Doe",opts:["Doe","Wees","Ben","Ga"],hint:"Just act normal"},
+         {type:"mc",q:"Dutch directness means:",opts:["Being rude on purpose","Saying what you think honestly","Never compromising","Talking very fast"],ans:"Saying what you think honestly",hint:"Direct but respectful"},
+         {type:"match",pairs:[{nl:"het poldermodel",en:"consensus model"},{nl:"doe maar normaal",en:"act normal"},{nl:"het compromis",en:"the compromise"},{nl:"de discussie",en:"the debate"}]},
+         {type:"mc",q:"Why does the Netherlands always have coalition governments?",opts:["The king requires it","No single party ever wins a majority","It's tradition","The constitution forbids single-party rule"],ans:"No single party ever wins a majority",hint:"So parties must cooperate  -  poldermodel!"},
+       ]},
+
+// ═══ L8: Unit 13 Review ═══
+       {id:"v2u13l8",title:"Unit 13 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 13 Review",desc:"Opinions, connectors, debate, and Dutch directness. Let's review everything from Unit 13.",goals:["Opinion verbs: vinden, denken, geloven","hoewel, terwijl, doordat, zodat, tenzij","Agreement/disagreement phrases","Discourse markers"]},
+
+         {type:"mc",q:"'Ik vind dat belangrijk'  -  'vinden' here means:",opts:["To find (search)","To think/feel (opinion)","To discover","To look for"],ans:"To think/feel (opinion)",hint:"Vinden = opinion when not about physical finding"},
+         {type:"fb",s:"___ het regent, ga ik fietsen. (although)",a:"Hoewel",opts:["Hoewel","Terwijl","Doordat","Omdat"],hint:"ALTHOUGH it's raining..."},
+         {type:"match",pairs:[{nl:"hoewel",en:"although"},{nl:"terwijl",en:"while/whereas"},{nl:"doordat",en:"because (external)"},{nl:"tenzij",en:"unless"}]},
+         {type:"fb",s:"___ eerste is het te duur. (firstly)",a:"Ten",opts:["Ten","Het","In","Bij"],hint:"TEN eerste = firstly"},
+         {type:"mc",q:"'Doordat' is best used when the cause is:",opts:["Your own choice","An external fact","A wish","A future event"],ans:"An external fact",hint:"Doordat = external/factual cause"},
+         {type:"drag_fill",s:"Ik ben het er {1} mee eens. Ik zie dat {2}.",blanks:{"1":"niet","2":"anders"},pool:["niet","anders","wel","goed"],hint:"I disagree. I see it differently."},
+         {type:"fb",s:"Het plan is goed. ___, het kost te veel.",a:"Echter",opts:["Echter","Bovendien","Daarom","Zodat"],hint:"HOWEVER"},
+         {type:"mc",q:"'Doe maar normaal' is:",opts:["An insult","A core Dutch value: don't show off","Only for children","A political slogan"],ans:"A core Dutch value: don't show off",hint:"Just act normal  -  the Dutch motto"},
+         {type:"drag_fill",s:"Ik lees de krant {1} ik Nederlands leer. Ik ga, {2} het regent.",blanks:{"1":"zodat","2":"tenzij"},pool:["zodat","tenzij","doordat","hoewel"],hint:"I read so that I learn. I go, unless it rains."},
+         {type:"match",pairs:[{nl:"ten eerste",en:"firstly"},{nl:"bovendien",en:"moreover"},{nl:"het compromis",en:"compromise"},{nl:"de oplossing",en:"solution"}]},
+         {type:"fb",s:"Ik ___ dat het gaat regenen. (think  -  rational)",a:"denk",opts:["denk","vind","geloof","meen"],hint:"Rational = denken"},
+         {type:"tr",mk:"v2u13_although_raining",dir:"produce"},
+         {type:"tr",mk:"v2u13_so_that_learn",dir:"produce"},
+         {type:"tr",mk:"v2u13_i_agree",dir:"produce"},
+       ]},
+  ]},
+
+  {n:14,lang:"nl",track:"v2",title:"Het Kleine Woordje 'Er'",sub:"All Five Uses of Er",icon:"📍",level:"B1.1",color:"#E74A8F",lessons:[
+// ═══ L1: Er Is... Er Zijn... (Review) ═══
+       {id:"v2u14l1",title:"Er Is... Er Zijn...",icon:"📍",xp:15,board:true,steps:[
+         {type:"intro",title:"Er Is... Er Zijn...",desc:"'Er' is the most misunderstood word in Dutch. It has FIVE different uses, and they all look the same. This unit will master them all. We start with the one you already know: existential er (there is/there are).",goals:["Review er is / er zijn","Position verbs with er: staan, liggen, zitten, hangen","Er + indefinite subjects","Build foundation for all 5 uses"]},
+
+         {type:"tip",title:"📍 Five Uses of Er  -  Overview",text:"Er has FIVE uses in Dutch:\n\n1. EXISTENTIAL: Er is een man. (There is a man.)\n2. LOCATIVE: Ik woon er. (I live there.)\n3. PREPOSITIONAL: Ik denk erover na. (I think about it.)\n4. PARTITIVE: Ik heb er drie. (I have three of them.)\n5. EXPLETIVE: Er wordt gewerkt. (Work is being done.)\n\nThey all use the same word: 'er'.\nThe meaning changes based on context.\n\nThis unit covers ALL FIVE. One per lesson.\nBy L7 you'll combine them like a pro.\n\nLet's start with #1  -  the one you know."},
+
+         {type:"teach",kind:"phrase",nl:"er is / er zijn",en:"there is / there are",phonetic:"ur is / ur zayn",example:"Er is een probleem.",exampleEn:"There is a problem.",note:"EXISTENTIAL er. You learned this in Unit 5!\n'Er is' = singular. 'Er zijn' = plural.\n'Er is een man.' = There is a man.\n'Er zijn veel mensen.' = There are many people."},
+         {type:"teach",kind:"phrase",nl:"er staat",en:"there stands / there is (standing)",phonetic:"ur staht",example:"Er staat een man bij de deur.",exampleEn:"There is a man (standing) at the door.",note:"Position verbs with er!\nDutch specifies HOW something exists:\n'Er staat' = standing (bottles, buildings, people).\nMore vivid than plain 'er is'."},
+         {type:"teach",kind:"phrase",nl:"er ligt",en:"there lies / there is (lying)",phonetic:"ur likt",example:"Er ligt een boek op tafel.",exampleEn:"There is a book (lying) on the table.",note:"'Er ligt' = lying flat (books, papers, cities).\n'Er ligt sneeuw.' = There is snow (lying).\n'Amsterdam ligt in Noord-Holland.'\n= Amsterdam lies in North Holland."},
+         {type:"teach",kind:"phrase",nl:"er zit",en:"there sits / there is (sitting/inside)",phonetic:"ur zit",example:"Er zit een kat in de tuin.",exampleEn:"There is a cat (sitting) in the garden.",note:"'Er zit' = sitting/contained.\n'Er zit geld in mijn portemonnee.'\n= There is money in my wallet.\nAlso for stains: 'Er zit een vlek op je shirt.'"},
+         {type:"teach",kind:"phrase",nl:"er hangt",en:"there hangs / there is (hanging)",phonetic:"ur hangt",example:"Er hangt een schilderij aan de muur.",exampleEn:"There is a painting (hanging) on the wall.",note:"'Er hangt' = hanging.\n'Er hangt een jas aan de kapstok.'\n= There's a coat on the coat rack.\nFour position verbs: staan, liggen, zitten, hangen."},
+
+         {type:"tip",title:"📐 Er + Position Verbs",text:"Plain: Er IS een boek op tafel.\n= There is a book on the table. (neutral)\n\nBetter: Er LIGT een boek op tafel.\n= There lies a book on the table. (natural Dutch!)\n\nstaan → vertical/upright: bottles, buildings, people\nliggen → flat/horizontal: books, cities, snow\nzitten → contained/enclosed: money in wallet, cat in garden\nhangen → suspended: paintings, coats, lamps\n\nUsing position verbs instead of 'is/zijn'\nmakes your Dutch sound much more natural.\nThis is a B1 skill that natives appreciate!"},
+
+         {type:"mc",q:"'Er staat een man bij de deur.'  -  why 'staat' and not 'is'?",opts:["Staat is more formal","People stand (vertical)","Staat means 'important'","There's no difference"],ans:"People stand (vertical)",hint:"Position verb: standing = staan"},
+         {type:"fb",s:"Er ___ een boek op tafel. (lying flat)",a:"ligt",opts:["ligt","staat","zit","hangt"],hint:"Books lie flat → liggen"},
+         {type:"match",pairs:[{nl:"er staat",en:"there stands"},{nl:"er ligt",en:"there lies"},{nl:"er zit",en:"there sits"},{nl:"er hangt",en:"there hangs"}]},
+         {type:"fb",s:"Er ___ een schilderij aan de muur.",a:"hangt",opts:["hangt","staat","ligt","zit"],hint:"A painting on the wall → hanging"},
+         {type:"drag_fill",s:"Er {1} een kat in de tuin. Er {2} sneeuw op straat.",blanks:{"1":"zit","2":"ligt"},pool:["zit","ligt","staat","hangt"],hint:"Cat in garden (contained). Snow on street (flat)."},
+         {type:"tr",mk:"v2u14_there_is_a_man",dir:"produce"},
+       ]},
+
+// ═══ L2: Ik Woon Er ═══
+       {id:"v2u14l2",title:"Ik Woon Er",icon:"📍",xp:15,board:true,steps:[
+         {type:"intro",title:"Ik Woon Er",desc:"Use #2: Locative er. When 'er' replaces a place. 'I live in Amsterdam' → 'I live THERE' → 'Ik woon ER.' The key distinction: er = unstressed (neutral), daar = stressed (emphatic).",goals:["Locative er = unstressed 'there'","er vs daar: when to use which","Replace places with er","Position of er in the sentence"]},
+
+         {type:"teach",kind:"phrase",nl:"er (locative)",en:"there (unstressed)",phonetic:"ur",example:"Ik woon er al vijf jaar.",exampleEn:"I've lived there for five years already.",note:"USE #2: LOCATIVE er.\n'Ik woon in Amsterdam.' → 'Ik woon er.'\n'Er' replaces a place  -  unstressed.\nLike French 'y': 'J'y habite.'"},
+         {type:"teach",kind:"word",nl:"daar",en:"there (stressed / emphatic)",phonetic:"dahr",example:"Daar woon ik! Niet hier!",exampleEn:"THERE is where I live! Not here!",note:"'Daar' = stressed version of locative er.\n'Ik woon er.' = I live there. (neutral)\n'Ik woon DAAR.' / 'DAAR woon ik.' = THERE! (emphatic)\nUse 'daar' when pointing or contrasting."},
+
+         {type:"tip",title:"📐 Er vs Daar",text:"ER = unstressed, neutral:\nIk woon er graag. = I like living there.\nHij werkt er al jaren. = He's worked there for years.\n\nDAAR = stressed, emphatic, or pointing:\nDaar wil ik wonen! = THERE is where I want to live!\nIk ga niet daar, ik ga hier. = Not there, here.\n\nRule: if you could point while saying 'there', use DAAR.\nIf 'there' is just background info, use ER.\n\nPosition of er:\nMain clause: after the conjugated verb.\n'Ik woon ER al vijf jaar.'\nSub-clause: before the verb cluster.\n'...omdat ik ER al vijf jaar woon.'"},
+
+         {type:"mc",q:"'Ik woon er.'  -  'er' replaces:",opts:["A person","A place","A number","A thing"],ans:"A place",hint:"Locative er = there (a place)"},
+         {type:"fb",s:"Ik woon in Amsterdam. → Ik woon ___.",a:"er",opts:["er","daar","het","hier"],hint:"Neutral replacement = er"},
+         {type:"mc",q:"When would you use 'daar' instead of 'er'?",opts:["Always","When pointing or emphasizing","In sub-clauses","For plural places"],ans:"When pointing or emphasizing",hint:"DAAR woon ik! (emphatic)"},
+         {type:"match",pairs:[{nl:"er (locative)",en:"there (unstressed)"},{nl:"daar",en:"there (stressed)"},{nl:"hier",en:"here"},{nl:"er (existential)",en:"there is/are"}]},
+         {type:"drag_fill",s:"Ik werk {1} al drie jaar. Maar {2} wil ik niet meer werken!",blanks:{"1":"er","2":"daar"},pool:["er","daar","hier","het"],hint:"I've worked there (neutral) 3 years. But THERE (emphatic) I don't want to work!"},
+         {type:"tr",mk:"v2u14_i_live_there",dir:"produce"},
+       ]},
+
+// ═══ L3: Erover, Ermee, Eraan ═══
+       {id:"v2u14l3",title:"Erover, Ermee, Eraan",icon:"📍",xp:20,board:true,steps:[
+         {type:"intro",title:"Erover, Ermee, Eraan",desc:"Use #3: Prepositional er. Dutch combines 'er' with prepositions to replace 'about it', 'with it', 'on it'. English says 'I'm thinking about it'  -  Dutch says 'Ik denk erover na'. This is a key B1 structure.",goals:["er + preposition = erover, ermee, eraan...","Replace 'preposition + het/dat' with er-compounds","Common verb + preposition combinations","Split compounds in sentences"]},
+
+         {type:"teach",kind:"word",nl:"erover",en:"about it",phonetic:"ur-OH-vur",example:"Ik denk erover na.",exampleEn:"I'm thinking about it.",note:"USE #3: PREPOSITIONAL er.\ner + over = erover (about it).\n'Denken over' = to think about.\n'Ik denk erover na.' = I'm thinking about it.\nThe 'na' is from 'nadenken' (separable)."},
+         {type:"teach",kind:"word",nl:"ermee",en:"with it",phonetic:"ur-MAY",example:"Ik ben het ermee eens.",exampleEn:"I agree with it.",note:"er + mee (= met) = ermee (with it).\n'Het eens zijn met' = to agree with.\n'Ik ben het ermee eens.' = I agree with it.\n'Stoppen ermee' = to stop with it / quit."},
+         {type:"teach",kind:"word",nl:"eraan",en:"on it / to it",phonetic:"ur-AHN",example:"Ik denk er vaak aan.",exampleEn:"I often think of it.",note:"er + aan = eraan (to/on it).\n'Denken aan' = to think of.\n'Wennen aan' = to get used to.\n'Ik moet eraan wennen.' = I have to get used to it."},
+         {type:"teach",kind:"word",nl:"erop",en:"on it / about it",phonetic:"ur-OP",example:"Ik reken erop.",exampleEn:"I count on it.",note:"er + op = erop.\n'Rekenen op' = to count on.\n'Letten op' = to pay attention to.\n'Let erop!' = Pay attention to it!"},
+         {type:"teach",kind:"word",nl:"ervoor",en:"for it / before it",phonetic:"ur-VOHR",example:"Ik betaal ervoor.",exampleEn:"I pay for it.",note:"er + voor = ervoor.\n'Betalen voor' = to pay for.\n'Zorgen voor' = to take care of.\n'Ik zorg ervoor.' = I'll take care of it."},
+
+         {type:"tip",title:"📐 The Er-Compound System",text:"When a verb uses a preposition + a THING:\n→ Replace with er + preposition.\n\nIk denk over het probleem. → Ik denk erover na.\n= I'm thinking about the problem → about it.\n\nIk ben blij met het resultaat. → Ik ben er blij mee.\n= I'm happy with the result → with it.\n\n⚠️ ONLY for THINGS. For PEOPLE, use preposition + hem/haar:\nIk denk aan mijn moeder. → Ik denk aan haar.\n(NOT: 'Ik denk eraan' for a person!)\n\nCommon compounds:\nerover (about it), ermee (with it), eraan (to/on it),\nerop (on it), ervoor (for it), erin (in it),\neruit (out of it), ervan (of/from it),\nertegen (against it), erbij (with/at it),\neronder (under it), ertussen (between it)"},
+
+         {type:"mc",q:"'Ik denk erover na'  -  'erover' replaces:",opts:["A person","A place","A thing with 'over'","A time"],ans:"A thing with 'over'",hint:"Denken over + thing → denken erover"},
+         {type:"fb",s:"Ik ben het ___ eens. (with it)",a:"ermee",opts:["ermee","erover","eraan","erop"],hint:"Het eens zijn MET → ermee"},
+         {type:"match",pairs:[{nl:"erover",en:"about it"},{nl:"ermee",en:"with it"},{nl:"eraan",en:"to/on it"},{nl:"ervoor",en:"for it"}]},
+         {type:"mc",q:"For PEOPLE, you DON'T use er-compounds. You say:",opts:["Ik denk erover na","Ik denk eraan","Ik denk aan haar","Ik denk erhaar"],ans:"Ik denk aan haar",hint:"People = preposition + hem/haar"},
+         {type:"fb",s:"Ik betaal ___. (for it)",a:"ervoor",opts:["ervoor","ermee","erover","erop"],hint:"Betalen VOOR → ervoor"},
+         {type:"drag_fill",s:"Ik denk {1} na. Ik moet {2} wennen.",blanks:{"1":"erover","2":"eraan"},pool:["erover","eraan","ermee","erop"],hint:"I think about it. I have to get used to it."},
+         {type:"tr",mk:"v2u14_thinking_about_it",dir:"produce"},
+       ]},
+
+// ═══ L4: Hoeveel? Er Drie! ═══
+       {id:"v2u14l4",title:"Hoeveel? Er Drie!",icon:"📍",xp:20,board:true,steps:[
+         {type:"intro",title:"Hoeveel? Er Drie!",desc:"Use #4: Partitive er. When 'er' replaces a noun in quantity expressions. 'How many apples do you have?'  -  'I have three (OF THEM).' In Dutch, that 'of them' is mandatory and it's 'er'.",goals:["Partitive er = of them / some","Use with quantities: er drie, er veel, er geen","Mandatory in Dutch (unlike English)","Position in the sentence"]},
+
+         {type:"teach",kind:"phrase",nl:"er (partitive)",en:"of them / some (partitive)",phonetic:"ur",example:"Hoeveel appels heb je? Ik heb er drie.",exampleEn:"How many apples do you have? I have three (of them).",note:"USE #4: PARTITIVE er.\nWhen you mention a quantity WITHOUT the noun.\nEnglish: 'I have three.' (no 'of them' needed)\nDutch: 'Ik heb ER drie.' (er is MANDATORY!)"},
+
+         {type:"tip",title:"📐 Partitive Er: The Rule",text:"When you drop the noun but keep the number:\n→ You MUST add 'er'.\n\nHoeveel kinderen heb je? = How many kids do you have?\nIk heb er twee. = I have two (of them).\n\nHeb je boeken? = Do you have books?\nJa, ik heb er veel. = Yes, I have many (of them).\n\nZijn er koekjes? = Are there cookies?\nJa, er zijn er nog drie. = Yes, there are still three.\n\nWith 'geen' (none):\nHeb je katten? Nee, ik heb er geen.\n= Do you have cats? No, I have none (of them).\n\nPosition: 'er' goes before the number/quantity.\n'Ik heb ER drie.' NOT 'Ik heb drie er.'\n\nIn English you can say 'I have three.'\nIn Dutch you CANNOT say 'Ik heb drie.' (without er!)"},
+
+         {type:"mc",q:"'Hoeveel appels heb je?'  -  'Ik heb er drie.' Why is 'er' needed?",opts:["It's optional","Dutch requires er when the noun is dropped with a number","It means 'there'","It replaces 'appels'"],ans:"Dutch requires er when the noun is dropped with a number",hint:"Partitive er is mandatory in Dutch"},
+         {type:"fb",s:"Heb je kinderen? Ja, ik heb ___ twee.",a:"er",opts:["er","het","ze","die"],hint:"I have two OF THEM"},
+         {type:"mc",q:"'Ik heb er geen.'  -  what does this mean?",opts:["I have it","I have none (of them)","I have some","I don't have there"],ans:"I have none (of them)",hint:"Er geen = none of them"},
+         {type:"match",pairs:[{nl:"er drie",en:"three of them"},{nl:"er veel",en:"many of them"},{nl:"er geen",en:"none of them"},{nl:"er een paar",en:"a few of them"}]},
+         {type:"drag_fill",s:"Hoeveel boeken heb je? Ik heb {1} {2}.",blanks:{"1":"er","2":"vijf"},pool:["er","vijf","het","boeken"],hint:"How many books? I have five (of them)."},
+         {type:"fb",s:"Zijn er koekjes? Ja, er zijn ___ nog drie.",a:"er",opts:["er","ze","die","het"],hint:"There are still three OF THEM"},
+         {type:"tr",mk:"v2u14_i_have_three",dir:"produce"},
+       ]},
+
+// ═══ L5: Er Wordt Gewerkt ═══
+       {id:"v2u14l5",title:"Er Wordt Gewerkt",icon:"📍",xp:20,board:true,steps:[
+         {type:"intro",title:"Er Wordt Gewerkt",desc:"Use #5: Expletive/impersonal er. This one appears in passive sentences with no subject: 'Er wordt hier gewerkt.' (Work is being done here.) It's a placeholder  -  very Dutch, very useful. Full passive comes in Unit 16.",goals:["Expletive er in impersonal constructions","'Er wordt + past participle' pattern","Preview of passive voice","Common impersonal expressions"]},
+
+         {type:"teach",kind:"phrase",nl:"er wordt",en:"(impersonal passive: it is being...)",phonetic:"ur vort",example:"Er wordt hier niet gerookt.",exampleEn:"Smoking is not done here. / No smoking here.",note:"USE #5: EXPLETIVE er.\nFills the empty subject position.\n'Er wordt gewerkt.' = Work is being done.\nNo specific person does the action.\nFull passive = Unit 16. This is just the preview."},
+         {type:"teach",kind:"phrase",nl:"er wordt gefietst",en:"cycling is done / people cycle",phonetic:"ur vort guh-FEETST",example:"In Nederland wordt er veel gefietst.",exampleEn:"In the Netherlands, a lot of cycling is done.",note:"Uniquely Dutch! English can't really do this.\n'Er wordt gefietst' = cycling happens / people cycle.\n'Er wordt gedanst' = dancing is done.\nUsed for general activities without naming who."},
+         {type:"teach",kind:"phrase",nl:"er wordt gewerkt",en:"work is being done / people are working",phonetic:"ur vort guh-VERKT",example:"Er wordt hier hard gewerkt.",exampleEn:"People work hard here.",note:"'Er wordt gewerkt' = working is happening.\nUsed for signs, rules, general statements.\n'Er wordt niet gerookt.' = No smoking.\n'Er wordt gebeld.' = Someone's calling."},
+
+         {type:"tip",title:"📐 Impersonal Er: The Pattern",text:"Er wordt + past participle.\n\nEr wordt hier gewerkt. = People work here.\nEr wordt veel gedanst. = There's a lot of dancing.\nEr wordt niet gerookt. = No smoking.\nEr wordt Nederlands gesproken. = Dutch is spoken.\n\nThis construction:\n1. Has no specific subject (who? doesn't matter)\n2. Uses 'worden' (passive helper  -  full lesson in U16)\n3. Uses 'er' as a placeholder\n\nEnglish alternatives:\n'No smoking' / 'People work here' / 'Dancing happens'\n\nDutch uses this pattern MUCH more than English.\nIt's especially common for:\n- Rules: Er wordt niet gerend. (No running.)\n- Activities: Er wordt gedanst. (There's dancing.)\n- Signs: Er wordt gebouwd. (Construction happening.)"},
+
+         {type:"mc",q:"'Er wordt hier niet gerookt.' means:",opts:["He works here","No smoking here","I was working","They don't run"],ans:"No smoking here",hint:"Impersonal passive: smoking is not done here"},
+         {type:"fb",s:"In Nederland wordt ___ veel gefietst.",a:"er",opts:["er","het","men","je"],hint:"Impersonal er as placeholder"},
+         {type:"mc",q:"'Er wordt gewerkt' doesn't specify WHO because:",opts:["It's a secret","Impersonal passive has no specific subject","The subject is always 'ik'","It's future tense"],ans:"Impersonal passive has no specific subject",hint:"No subject → impersonal"},
+         {type:"match",pairs:[{nl:"er wordt gewerkt",en:"people are working"},{nl:"er wordt gedanst",en:"dancing is done"},{nl:"er wordt gerookt",en:"smoking is done"},{nl:"er wordt gebeld",en:"someone is calling"}]},
+         {type:"fb",s:"Er ___ hier hard gewerkt.",a:"wordt",opts:["wordt","is","heeft","gaat"],hint:"Impersonal passive: er WORDT + PP"},
+         {type:"drag_fill",s:"Er {1} hier niet {2}. Er {3} Nederlands {4}.",blanks:{"1":"wordt","2":"gerookt","3":"wordt","4":"gesproken"},pool:["wordt","gerookt","wordt","gesproken"],hint:"No smoking here. Dutch is spoken."},
+       ]},
+
+// ═══ L6: Waar... Over? Waar... Mee? ═══
+       {id:"v2u14l6",title:"Waar... Over?",icon:"📍",xp:20,board:true,steps:[
+         {type:"intro",title:"Waar... Over?",desc:"Question forms of prepositional er. If 'erover' = about it, then 'waarover?' = about what? You can also split them: 'Waar denk je over?' These question forms are everywhere in spoken Dutch.",goals:["Question forms: waarover, waarmee, waaraan...","Split forms: Waar... over? Waar... mee?","Formal vs informal positioning","Practice with common verbs"]},
+
+         {type:"teach",kind:"word",nl:"waarover",en:"about what",phonetic:"vahr-OH-vur",example:"Waarover gaat het artikel?",exampleEn:"What is the article about?",note:"waar + over = waarover (about what?).\n'Waarover praat je?' = What are you talking about?\nFormal: 'Waarover gaat het?'\nInformal: 'Waar gaat het over?'"},
+         {type:"teach",kind:"word",nl:"waarmee",en:"with what",phonetic:"vahr-MAY",example:"Waarmee kan ik je helpen?",exampleEn:"What can I help you with?",note:"waar + mee (met) = waarmee.\n'Waarmee werk je?' = What do you work with?\nFormal: 'Waarmee kan ik helpen?'\nInformal: 'Waar kan ik je mee helpen?'"},
+         {type:"teach",kind:"word",nl:"waaraan",en:"to what / at what",phonetic:"vahr-AHN",example:"Waaraan denk je?",exampleEn:"What are you thinking of?",note:"waar + aan = waaraan.\n'Denken aan' = to think of.\n'Waaraan denk je?' = What are you thinking of?\nInformal: 'Waar denk je aan?'"},
+         {type:"teach",kind:"word",nl:"waarop",en:"on what / for what",phonetic:"vahr-OP",example:"Waarop wacht je?",exampleEn:"What are you waiting for?",note:"waar + op = waarop.\n'Wachten op' = to wait for.\n'Waarop wacht je?' / 'Waar wacht je op?'\nBoth are correct. Split = more spoken."},
+
+         {type:"tip",title:"📐 Formal vs Informal Split",text:"FORMAL (written, official):\nWaarover gaat het artikel?\n= What is the article about?\n\nINFORMAL (spoken, everyday):\nWaar gaat het artikel over?\n= What's the article about?\n\nBoth are grammatically correct!\nThe split form (waar... over) is more common in speech.\nThe combined form (waarover) is more common in writing.\n\nMore examples:\nWaarmee werk je? / Waar werk je mee?\nWaaraan denk je? / Waar denk je aan?\nWaarop wacht je? / Waar wacht je op?\nWaarvoor betaal je? / Waar betaal je voor?\n\nThe informal split is what you'll hear most often."},
+
+         {type:"mc",q:"'Waar denk je aan?' is the informal version of:",opts:["Denk je eraan?","Waaraan denk je?","Waar denk je?","Aan wat denk je?"],ans:"Waaraan denk je?",hint:"Split waar...aan = combined waaraan"},
+         {type:"fb",s:"___ gaat het artikel? (about what)",a:"Waarover",opts:["Waarover","Waarmee","Waaraan","Waarop"],hint:"About what = waarover"},
+         {type:"match",pairs:[{nl:"waarover",en:"about what"},{nl:"waarmee",en:"with what"},{nl:"waaraan",en:"to what"},{nl:"waarop",en:"on what"}]},
+         {type:"fb",s:"Waar wacht je ___? (for what  -  split)",a:"op",opts:["op","over","mee","aan"],hint:"Wachten OP → Waar... op?"},
+         {type:"drag_fill",s:"{1} kan ik je helpen? {2} gaat het boek?",blanks:{"1":"Waarmee","2":"Waarover"},pool:["Waarmee","Waarover","Waaraan","Waarop"],hint:"With what can I help? What is the book about?"},
+         {type:"mc",q:"The split form 'Waar... over?' is more common in:",opts:["Writing","Speaking","Both equally","Neither"],ans:"Speaking",hint:"Split = spoken, combined = written"},
+       ]},
+
+// ═══ L7: Er Combineren ═══
+       {id:"v2u14l7",title:"Er Combineren",icon:"📍",xp:20,board:true,steps:[
+         {type:"intro",title:"Er Combineren",desc:"The final boss: combining multiple er-types in one sentence. Yes, 'er' can appear twice. 'Er staan er drie.' (There are three of them standing there.) Position rules and combinations.",goals:["Combine existential + partitive er","Position rules for er in sentences","Handle 'er... er' constructions","Full er mastery: all 5 types mixed"]},
+
+         {type:"tip",title:"📐 Er + Er: Double Er",text:"Existential + Partitive can combine:\n\nEr staan er drie op tafel.\n= There are three (of them) standing on the table.\n\nFirst 'er' = existential (there are)\nSecond 'er' = partitive (of them)\n\nMore examples:\nEr liggen er twee op de grond.\n= There are two (of them) lying on the ground.\n\nEr zijn er veel in Nederland.\n= There are many (of them) in the Netherlands.\n\nThis sounds odd but is 100% correct and common.\nContext always makes the meaning clear."},
+
+         {type:"tip",title:"📐 Position of Er",text:"Main clause:\nEr goes AFTER the conjugated verb:\n'Ik woon ER graag.' (locative)\n'Ik heb ER drie.' (partitive)\n'Ik denk EROVER na.' (prepositional)\n\nBUT existential er goes FIRST:\n'ER staat een man bij de deur.'\n\nSub-clause:\nEr goes BEFORE the verb cluster:\n'...omdat ik ER graag woon.'\n'...dat ER een man staat.'\n\nMultiple er's: existential first, others after verb:\n'Er staan er drie op tafel.'\n  ↑exist.    ↑partitive"},
+
+         {type:"mc",q:"'Er staan er drie op tafel.'  -  the two er's are:",opts:["Both existential","Both partitive","Existential + partitive","Locative + partitive"],ans:"Existential + partitive",hint:"There are (exist.) three of them (part.)"},
+         {type:"fb",s:"___ liggen ___ twee op de grond.",a:"Er",opts:["Er","Het","Ze","Die"],hint:"THERE lie TWO (of them)  -  Er... er"},
+         {type:"mc",q:"In a main clause, where does locative er go?",opts:["Before the verb","After the conjugated verb","At the end","Before the subject"],ans:"After the conjugated verb",hint:"Ik woon ER graag."},
+         {type:"match",pairs:[{nl:"er is (existential)",en:"there is"},{nl:"er (locative)",en:"there (place)"},{nl:"erover (prepositional)",en:"about it"},{nl:"er drie (partitive)",en:"three of them"}]},
+         {type:"drag_fill",s:"{1} zijn {2} veel in Nederland. Ik denk {3} na.",blanks:{"1":"Er","2":"er","3":"erover"},pool:["Er","er","erover","ermee"],hint:"There are many of them. I'm thinking about it."},
+         {type:"mc",q:"Which er-type fills the empty subject in passive sentences?",opts:["Existential","Locative","Prepositional","Expletive"],ans:"Expletive",hint:"Er wordt gewerkt  -  expletive er"},
+         {type:"fb",s:"Ik moet ___ wennen. (get used to it)",a:"eraan",opts:["eraan","erover","ermee","erop"],hint:"Wennen AAN → eraan"},
+       ]},
+
+// ═══ L8: Unit 14 Review ═══
+       {id:"v2u14l8",title:"Unit 14 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 14 Review",desc:"All five uses of 'er' in one review. Can you tell them apart? Let's find out.",goals:["Identify all 5 er-types","Position verbs with er","Prepositional er compounds","Partitive er with quantities"]},
+
+         {type:"mc",q:"'Er staat een man bij de deur.'  -  which er?",opts:["Locative","Partitive","Existential","Expletive"],ans:"Existential",hint:"There IS a man = existential"},
+         {type:"fb",s:"Ik woon ___ al vijf jaar.",a:"er",opts:["er","daar","hier","het"],hint:"Locative er = unstressed 'there'"},
+         {type:"mc",q:"'Ik heb er drie.'  -  which er?",opts:["Existential","Locative","Prepositional","Partitive"],ans:"Partitive",hint:"Three OF THEM = partitive"},
+         {type:"match",pairs:[{nl:"er is",en:"existential: there is"},{nl:"ik woon er",en:"locative: I live there"},{nl:"erover",en:"prepositional: about it"},{nl:"er drie",en:"partitive: three of them"}]},
+         {type:"fb",s:"Er ___ hier niet gerookt.",a:"wordt",opts:["wordt","is","heeft","gaat"],hint:"Impersonal passive: er WORDT + PP"},
+         {type:"drag_fill",s:"Ik denk {1} na. Ik heb {2} twee.",blanks:{"1":"erover","2":"er"},pool:["erover","er","ermee","eraan"],hint:"I think about it. I have two of them."},
+         {type:"mc",q:"For PEOPLE, instead of er-compounds you use:",opts:["Er + preposition","Preposition + hem/haar","Daar + preposition","Hier + preposition"],ans:"Preposition + hem/haar",hint:"Ik denk aan haar (not eraan for people)"},
+         {type:"fb",s:"___ gaat het artikel? (about what  -  formal)",a:"Waarover",opts:["Waarover","Waarmee","Waaraan","Waarop"],hint:"About what = waarover"},
+         {type:"match",pairs:[{nl:"er wordt gedanst",en:"expletive: dancing is done"},{nl:"er staan er drie",en:"exist. + partitive"},{nl:"Waarover?",en:"about what?"},{nl:"Waarmee?",en:"with what?"}]},
+         {type:"fb",s:"Er ___ een boek op tafel. (lying)",a:"ligt",opts:["ligt","staat","zit","hangt"],hint:"Books lie flat → liggen"},
+         {type:"tr",mk:"v2u14_there_is_a_man",dir:"produce"},
+         {type:"tr",mk:"v2u14_thinking_about_it",dir:"produce"},
+         {type:"tr",mk:"v2u14_i_have_three",dir:"produce"},
+       ]},
+  ]},
+
+  {n:15,lang:"nl",track:"v2",title:"Opleiding & Toekomst",sub:"Infinitive Constructions & Verb Clusters",icon:"🎓",level:"B1.1",color:"#9B59B6",lessons:[
+// ═══ L1: School & Studie ═══
+       {id:"v2u15l1",title:"School & Studie",icon:"📚",xp:15,board:true,steps:[
+         {type:"intro",title:"School & Studie",desc:"Education vocabulary. From basisschool to universiteit, from diplomas to exams. The Netherlands has a unique school system that surprises many internationals  -  let's learn how it works.",goals:["10 education vocabulary words","Talk about school and studies","Dutch school system basics","Key expressions: studeren, afstuderen, slagen"]},
+
+         {type:"teach",kind:"phrase",nl:"de opleiding",en:"the education / training / degree",phonetic:"duh OP-lay-ding",example:"Welke opleiding heb je gedaan?",exampleEn:"What education/degree did you do?",note:"De-word. Already seen in U11 (solliciteren).\n'Een opleiding volgen' = to take a course/degree.\nBroader than 'studie'  -  includes vocational training."},
+         {type:"teach",kind:"phrase",nl:"het diploma",en:"the diploma / degree",phonetic:"hut dee-PLOH-mah",cognate:{words:[{lang:"English",word:"diploma"},{lang:"French",word:"diplôme"}],family:"latin"},example:"Ik heb mijn diploma gehaald.",exampleEn:"I got my diploma.",note:"Het-word. 'Een diploma halen' = to get a degree.\n'Gediplomeerd' = qualified/certified.\nVery important in NL  -  degrees are valued highly."},
+         {type:"teach",kind:"phrase",nl:"het examen",en:"the exam",phonetic:"hut ek-SAH-mun",cognate:{words:[{lang:"English",word:"exam"},{lang:"French",word:"examen"}],family:"latin"},also:"'Het tentamen' = university exam (for one course).",example:"Het examen is volgende week.",exampleEn:"The exam is next week.",note:"Het-word. 'Examen doen' = to take an exam.\n'Slagen voor het examen' = to pass the exam.\n'Zakken voor het examen' = to fail the exam."},
+         {type:"teach",kind:"word",nl:"slagen",en:"to pass (an exam) / succeed",phonetic:"SLAH-gun",example:"Zij is geslaagd voor haar examen!",exampleEn:"She passed her exam!",note:"'Slagen voor' = to pass.\nUses 'zijn': 'Ik BEN geslaagd.'\n'Zakken' = to fail: 'Ik ben gezakt.'\nIn June you see Dutch flags on houses\nwhen teenagers pass their eindexamen!"},
+         {type:"teach",kind:"phrase",nl:"de student",en:"the student (university)",phonetic:"duh stü-DENT",cognate:{words:[{lang:"English",word:"student"},{lang:"German",word:"Student"}],family:"latin"},also:"'De leerling' = pupil (primary/secondary school).",example:"Er studeren veel internationale studenten in Nederland.",exampleEn:"Many international students study in the Netherlands.",note:"De-word. 'Student' = university/HBO student.\n'Leerling' = school pupil.\n'Studeren' = to study (at university).\n'Leren' = to learn/study (general)."},
+         {type:"teach",kind:"phrase",nl:"de docent",en:"the teacher / lecturer",phonetic:"duh doh-SENT",cognate:{words:[{lang:"Latin",word:"docens (teaching)"}],family:"latin"},example:"De docent geeft les aan de universiteit.",exampleEn:"The lecturer teaches at the university.",note:"De-word. More formal than 'leraar'.\n'Docent' = university/HBO lecturer.\n'Leraar' = school teacher.\n'Professor' = full professor (highest rank)."},
+         {type:"teach",kind:"phrase",nl:"de stage",en:"the internship",phonetic:"duh STAH-zhuh",cognate:{words:[{lang:"French",word:"stage"}],family:"french"},example:"Ik doe stage bij een bedrijf.",exampleEn:"I'm doing an internship at a company.",note:"De-word. Pronounced like French.\n'Stage lopen/doen' = to do an internship.\nVery common in Dutch education.\nMost HBO and MBO students do multiple stages."},
+         {type:"teach",kind:"word",nl:"afstuderen",en:"to graduate",phonetic:"AF-stü-day-run",example:"Ik studeer volgend jaar af.",exampleEn:"I'm graduating next year.",note:"Separable: af|studeren.\n'Afstuderen' = to complete your studies.\n'De afstudeerscriptie' = the thesis.\n'Ik ben afgestudeerd.' = I have graduated."},
+
+         {type:"tip",title:"🇳🇱 Het Nederlandse Schoolsysteem",text:"Basisschool (primary): ages 4-12, 8 years.\nAfter group 8: the CITO-toets (standardized test).\n\nMiddelbare school (secondary): ages 12-16/18.\nThree tracks based on CITO score:\n• VMBO (4 years) → vocational\n• HAVO (5 years) → applied university (HBO)\n• VWO (6 years) → research university (WO)\n\nHigher education:\n• MBO = vocational training (after VMBO)\n• HBO = applied university (after HAVO)\n• WO = research university (after VWO)\n\nThe tracking system is controversial.\nAt age 12, your path is largely set.\nBut you CAN switch tracks (opstroom)."},
+
+         {type:"mc",q:"'Slagen voor het examen' uses which auxiliary?",opts:["hebben: ik heb geslaagd","zijn: ik ben geslaagd","both work","no auxiliary"],ans:"zijn: ik ben geslaagd",hint:"Slagen = change of state → zijn"},
+         {type:"fb",s:"Ik ___ volgend jaar af. (graduate)",a:"studeer",opts:["studeer","studer","studeerd","heb"],hint:"Afstuderen is separable: ik studeer... af"},
+         {type:"match",pairs:[{nl:"de student",en:"university student"},{nl:"de leerling",en:"school pupil"},{nl:"de docent",en:"lecturer"},{nl:"de stage",en:"internship"}]},
+         {type:"fb",s:"Zij is ___ voor haar examen!",a:"geslaagd",opts:["geslaagd","gezakt","gehaald","gedaan"],hint:"She PASSED"},
+         {type:"drag_fill",s:"Ik doe {1} bij een bedrijf. Ik heb mijn {2} gehaald.",blanks:{"1":"stage","2":"diploma"},pool:["stage","diploma","examen","cursus"],hint:"I'm doing an internship. I got my diploma."},
+         {type:"tr",mk:"v2u15_study_at_uni",dir:"produce"},
+       ]},
+
+// ═══ L2: Het Nederlandse Systeem ═══
+       {id:"v2u15l2",title:"Het Nederlandse Systeem",icon:"🏫",xp:15,board:true,steps:[
+         {type:"intro",title:"Het Nederlandse Systeem",desc:"VMBO, HAVO, VWO, MBO, HBO, WO  -  Dutch education has more acronyms than a government agency. Let's decode them all and understand the grades and tracking system.",goals:["School track names: VMBO, HAVO, VWO","Higher education: MBO, HBO, WO","Grading system: cijfers 1-10","Cultural context: Cito-toets, tracking"]},
+
+         {type:"teach",kind:"phrase",nl:"de basisschool",en:"primary school",phonetic:"duh BAH-sis-sgohl",example:"Ik ging naar de basisschool in Groningen.",exampleEn:"I went to primary school in Groningen.",note:"De-word. Ages 4-12, 8 years (groep 1-8).\n'Groep 1' = first year (age 4).\n'Groep 8' = final year (age 11-12).\nAt the end: the CITO-toets."},
+         {type:"teach",kind:"phrase",nl:"de middelbare school",en:"secondary school / high school",phonetic:"duh MID-ul-bah-ruh sgohl",example:"Op de middelbare school zat ik op het VWO.",exampleEn:"In secondary school I was in VWO.",note:"De-word. 'Middelbaar' = secondary/intermediate.\nThree levels: VMBO, HAVO, VWO.\nYour track is determined around age 12."},
+         {type:"teach",kind:"phrase",nl:"het cijfer",en:"the grade / number",phonetic:"hut SAY-fur",example:"Ik heb een acht voor wiskunde.",exampleEn:"I got an 8 for math.",note:"Het-word. Dutch grades: 1-10.\n10 = perfect (almost never given!).\n8 = very good. 6 = pass (voldoende).\n5.5 or below = fail (onvoldoende).\nA Dutch 8 = an American A."},
+         {type:"teach",kind:"phrase",nl:"de universiteit",en:"the university",phonetic:"duh ü-nee-ver-si-TAYT",cognate:{words:[{lang:"English",word:"university"},{lang:"French",word:"université"}],family:"latin"},also:"Also: 'WO' = wetenschappelijk onderwijs (research education).",example:"Zij studeert aan de universiteit van Amsterdam.",exampleEn:"She studies at the University of Amsterdam.",note:"De-word. WO = research universities.\nHBO = hogescholen (applied universities).\nBoth give bachelor's and master's degrees.\nDutch distinction: HBO is more practical, WO more theoretical."},
+
+         {type:"tip",title:"📊 Het Cijfersysteem",text:"Dutch grades run from 1 to 10:\n\n10  -  Uitmuntend (outstanding)  -  almost never given\n9  -  Zeer goed (very good)  -  rare\n8  -  Goed (good)  -  excellent\n7  -  Ruim voldoende (more than sufficient)\n6  -  Voldoende (sufficient)  -  pass!\n5  -  Onvoldoende (insufficient)  -  fail\n4  -  Ruim onvoldoende (clearly insufficient)\n3-1  -  Very rare, means you barely tried\n\n'Een voldoende halen' = to get a passing grade.\nDutch saying: 'Een zesje is ook een voldoende.'\n= A six is also a pass. (Don't overachieve!)\nThis is 'doe maar normaal' applied to grades."},
+
+         {type:"mc",q:"A Dutch grade of 6 means:",opts:["Excellent","Good","Pass (sufficient)","Fail"],ans:"Pass (sufficient)",hint:"6 = voldoende = pass"},
+         {type:"fb",s:"Ik heb een ___ voor wiskunde. (grade)",a:"cijfer",opts:["cijfer","diploma","examen","punt"],hint:"The numerical grade = het cijfer"},
+         {type:"match",pairs:[{nl:"VMBO",en:"vocational track"},{nl:"HAVO",en:"→ applied university"},{nl:"VWO",en:"→ research university"},{nl:"MBO",en:"vocational training"}]},
+         {type:"mc",q:"'Een zesje is ook een voldoende' reflects:",opts:["High ambition","Doe maar normaal  -  don't overachieve","Failing is fine","The teacher is strict"],ans:"Doe maar normaal  -  don't overachieve",hint:"A six is good enough! Very Dutch."},
+         {type:"fb",s:"Zij studeert aan de ___ van Amsterdam.",a:"universiteit",opts:["universiteit","school","basisschool","hogeschool"],hint:"She studies at the university"},
+         {type:"drag_fill",s:"Op de {1} school zat ik op het VWO. Nu studeer ik aan de {2}.",blanks:{"1":"middelbare","2":"universiteit"},pool:["middelbare","universiteit","basisschool","hogeschool"],hint:"In secondary school I was in VWO. Now I study at university."},
+       ]},
+
+// ═══ L3: Om Te Leren ═══
+       {id:"v2u15l3",title:"Om Te Leren",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Om Te Leren",desc:"You learned 'om te' for purpose in a later lesson. Now we expand: 'zonder te' (without -ing), 'in plaats van te' (instead of -ing). These infinitive constructions are essential B1 grammar.",goals:["om te = in order to (expanded)","zonder te = without -ing","in plaats van te = instead of -ing","Build complex purpose/manner clauses"]},
+
+         {type:"teach",kind:"phrase",nl:"om te",en:"in order to / to (purpose)",phonetic:"om tuh",example:"Ik ga naar school om te leren.",exampleEn:"I go to school in order to learn.",note:"Review from Unit 9!\n'Om te' + infinitive = purpose clause.\n'Ik werk hard om geld te verdienen.'\n= I work hard to earn money.\nThe infinitive goes at the END."},
+         {type:"teach",kind:"phrase",nl:"zonder te",en:"without (doing)",phonetic:"ZON-dur tuh",example:"Hij ging weg zonder te betalen.",exampleEn:"He left without paying.",note:"NEW! 'Zonder te' + infinitive.\n'Zonder te betalen' = without paying.\n'Zonder te kijken' = without looking.\nThe infinitive at the END, like 'om te'."},
+         {type:"teach",kind:"phrase",nl:"in plaats van te",en:"instead of (doing)",phonetic:"in plahts fan tuh",example:"In plaats van te werken, ging hij slapen.",exampleEn:"Instead of working, he went to sleep.",note:"NEW! 'In plaats van te' + infinitive.\n'In plaats van te klagen, doe iets!'\n= Instead of complaining, do something!\nLonger phrase, but same pattern as om te."},
+
+         {type:"tip",title:"📐 Three Infinitive Patterns",text:"All three follow the same structure:\n[phrase] + te + INFINITIVE (at the end)\n\n1. OM TE (purpose  -  why?):\nIk leer Nederlands om in NL te werken.\n= I learn Dutch to work in NL.\n\n2. ZONDER TE (without  -  what you didn't do):\nZij vertrok zonder afscheid te nemen.\n= She left without saying goodbye.\n\n3. IN PLAATS VAN TE (instead  -  what you did differently):\nIn plaats van te fietsen, nam ik de bus.\n= Instead of cycling, I took the bus.\n\nWith separable verbs, te goes BETWEEN:\nzonder op te letten (without paying attention)\nom mee te doen (in order to participate)"},
+
+         {type:"mc",q:"'Hij ging weg zonder te betalen.'  -  'zonder te' means:",opts:["in order to","without","instead of","before"],ans:"without",hint:"He left WITHOUT paying"},
+         {type:"fb",s:"Ik ga naar school ___ te leren.",a:"om",opts:["om","zonder","in","voor"],hint:"I go to school IN ORDER TO learn"},
+         {type:"match",pairs:[{nl:"om te",en:"in order to"},{nl:"zonder te",en:"without"},{nl:"in plaats van te",en:"instead of"}]},
+         {type:"fb",s:"___ plaats van te werken, ging hij slapen.",a:"In",opts:["In","Om","Zonder","Voor"],hint:"INSTEAD OF working..."},
+         {type:"drag_fill",s:"Ik werk hard {1} te verdienen. Hij vertrok {2} te betalen.",blanks:{"1":"om geld","2":"zonder"},pool:["om geld","zonder","in plaats van","om"],hint:"I work hard to earn money. He left without paying."},
+         {type:"mc",q:"With separable verbs, 'te' goes:",opts:["Before the whole verb","After the whole verb","Between prefix and verb","It disappears"],ans:"Between prefix and verb",hint:"zonder OP TE letten"},
+         {type:"tr",mk:"v2u15_in_order_to_learn",dir:"produce"},
+       ]},
+
+// ═══ L4: Proberen Te... ═══
+       {id:"v2u15l4",title:"Proberen Te...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Proberen Te...",desc:"Many Dutch verbs take 'te + infinitive' directly: proberen te (try to), vergeten te (forget to), beloven te (promise to). Plus the progressive: 'zitten te lezen' (to be reading).",goals:["Verbs + te + infinitive","proberen te, vergeten te, beloven te","Progressive: liggen/staan/zitten te","Position of te + infinitive"]},
+
+         {type:"teach",kind:"phrase",nl:"proberen te",en:"to try to",phonetic:"pro-BAY-run tuh",example:"Ik probeer het te begrijpen.",exampleEn:"I'm trying to understand it.",note:"'Proberen te' + infinitive.\n'Ik probeer te slapen.' = I try to sleep.\n'Te' + infinitive at the end.\nVery common B1 construction."},
+         {type:"teach",kind:"grammar",nl:"vergeten te",en:"to forget to",phonetic:"fur-GAY-tun tuh",example:"Ik vergat te bellen.",exampleEn:"I forgot to call.",note:"'Vergeten te' + infinitive.\n'Ik ben vergeten te bellen.' = I forgot to call.\nIrregular PP: vergeten → vergeten (same!).\n'Vergeten' uses 'zijn': ik BEN vergeten."},
+         {type:"teach",kind:"phrase",nl:"beloven te",en:"to promise to",phonetic:"buh-LOH-vun tuh",example:"Hij beloofde te komen.",exampleEn:"He promised to come.",note:"'Beloven te' + infinitive.\n'Ik beloof op tijd te komen.'\n= I promise to come on time.\n'De belofte' = the promise (noun)."},
+         {type:"teach",kind:"phrase",nl:"zitten te",en:"to be (doing) / to sit and (do)",phonetic:"ZIT-tun tuh",example:"Ik zit te lezen.",exampleEn:"I'm reading. / I'm sitting reading.",note:"PROGRESSIVE construction!\n'Zitten te' = to be doing (while sitting).\n'Ik zit te lezen.' = I'm reading.\n'Zij zit te huilen.' = She's crying.\nExpresses ongoing action with body position."},
+         {type:"teach",kind:"phrase",nl:"staan te",en:"to be (doing) / to stand and (do)",phonetic:"stahn tuh",example:"Hij staat te wachten.",exampleEn:"He's waiting. / He's standing waiting.",note:"'Staan te' = ongoing action while standing.\n'Hij staat te wachten.' = He's waiting.\n'Ze staan te praten.' = They're talking.\nImplies standing position."},
+         {type:"teach",kind:"phrase",nl:"liggen te",en:"to be (doing) / to lie and (do)",phonetic:"LIG-gun tuh",example:"De kat ligt te slapen.",exampleEn:"The cat is sleeping. / The cat lies sleeping.",note:"'Liggen te' = ongoing action while lying.\n'De kat ligt te slapen.' = The cat's sleeping.\n'Ik lag te dromen.' = I was dreaming.\nExpresses comfort/relaxation."},
+
+         {type:"tip",title:"📐 Dutch Progressive: Zitten/Staan/Liggen Te",text:"Dutch doesn't have English-style -ing progressive.\nInstead, it uses POSITION VERBS + te + infinitive:\n\nIk zit te lezen. = I'm reading (seated).\nHij staat te wachten. = He's waiting (standing).\nZij ligt te slapen. = She's sleeping (lying).\nHet hangt te drogen. = It's drying (hanging).\n\nThese express ONGOING action + physical position.\nThey add vividness and are very natural Dutch.\n\nYou can also use 'lopen te' (walking):\nHij loopt te zingen. = He's walking around singing.\n\nIn the past:\nIk zat te lezen. = I was reading.\nHij stond te wachten. = He was waiting.\nZij lag te slapen. = She was sleeping."},
+
+         {type:"mc",q:"'Ik zit te lezen.' means:",opts:["I sit down to read","I'm reading (while seated)","I tried to read","I forgot to read"],ans:"I'm reading (while seated)",hint:"Zitten te = progressive with seated position"},
+         {type:"fb",s:"Ik ___ het te begrijpen. (try)",a:"probeer",opts:["probeer","vergeet","beloof","zit"],hint:"I TRY to understand it"},
+         {type:"match",pairs:[{nl:"proberen te",en:"to try to"},{nl:"vergeten te",en:"to forget to"},{nl:"zitten te",en:"to be -ing (seated)"},{nl:"staan te",en:"to be -ing (standing)"}]},
+         {type:"fb",s:"De kat ___ te slapen. (lies)",a:"ligt",opts:["ligt","zit","staat","loopt"],hint:"The cat LIES sleeping"},
+         {type:"drag_fill",s:"Ik {1} te bellen. Hij {2} te wachten.",blanks:{"1":"vergat","2":"staat"},pool:["vergat","staat","probeer","zit"],hint:"I forgot to call. He's standing waiting."},
+         {type:"tr",mk:"v2u15_trying_to_understand",dir:"produce"},
+       ]},
+
+// ═══ L5: Laten We...! ═══
+       {id:"v2u15l5",title:"Laten We...!",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Laten We...!",desc:"'Laten' is a power verb. 'Laten we gaan!' (Let's go!), 'Ik laat mijn haar knippen' (I'm getting my hair cut). Suggestions AND causatives in one lesson.",goals:["Laten we = let's (suggestion)","Laten + infinitive = to let/have something done","Causative: Ik laat mijn haar knippen","Common laten expressions"]},
+
+         {type:"teach",kind:"phrase",nl:"laten we",en:"let's / let us",phonetic:"LAH-tun vuh",example:"Laten we beginnen!",exampleEn:"Let's begin!",note:"SUGGESTION formula.\n'Laten we gaan!' = Let's go!\n'Laten we eten!' = Let's eat!\n'Laten we het proberen.' = Let's try it.\nVery common in spoken Dutch."},
+         {type:"teach",kind:"phrase",nl:"laten + infinitive",en:"to let / to have (something done)",phonetic:"LAH-tun",example:"Ik laat mijn haar knippen.",exampleEn:"I'm having my hair cut.",note:"CAUSATIVE construction.\n'Laten' + infinitive = to have something done.\n'Ik laat mijn auto repareren.' = I'm having my car repaired.\nYou don't do it yourself  -  someone else does."},
+         {type:"teach",kind:"phrase",nl:"laten vallen",en:"to drop (let fall)",phonetic:"LAH-tun FAL-lun",example:"Ik heb mijn telefoon laten vallen!",exampleEn:"I dropped my phone!",note:"Common expression!\n'Laten vallen' = to drop (accidentally).\n'Laten liggen' = to leave (behind).\n'Laten zien' = to show (let see).\nAll follow: laten + infinitive."},
+         {type:"teach",kind:"phrase",nl:"laten zien",en:"to show (let see)",phonetic:"LAH-tun zeen",example:"Laat me je foto's zien!",exampleEn:"Show me your photos!",note:"'Laten zien' = to show.\n'Laat maar.' = Never mind. / Leave it.\n'Laat me met rust!' = Leave me alone!\nMany fixed expressions with 'laten'."},
+
+         {type:"tip",title:"📐 Laten: Three Uses",text:"1. SUGGESTION: Laten we...\nLaten we gaan! = Let's go!\nLaten we Nederlands praten. = Let's speak Dutch.\n\n2. CAUSATIVE: Ik laat...\nIk laat mijn haar knippen. = I'm getting my hair cut.\nIk laat de auto wassen. = I'm having the car washed.\n(Someone else does it FOR you.)\n\n3. FIXED EXPRESSIONS:\nlaten vallen = to drop\nlaten liggen = to leave (behind)\nlaten zien = to show\nlaten weten = to let know\nlaat maar = never mind\n\nPast tense: 'Ik heb mijn auto LATEN repareren.'\n(Not 'gelaten'  -  double infinitive rule!)"},
+
+         {type:"mc",q:"'Ik laat mijn haar knippen.'  -  who cuts the hair?",opts:["I cut it myself","Someone else cuts it","The hair cuts itself","No one cuts it"],ans:"Someone else cuts it",hint:"Causative: having something done by someone else"},
+         {type:"fb",s:"___ we beginnen!",a:"Laten",opts:["Laten","Gaan","Willen","Moeten"],hint:"LET'S begin!"},
+         {type:"match",pairs:[{nl:"laten we",en:"let's"},{nl:"laten vallen",en:"to drop"},{nl:"laten zien",en:"to show"},{nl:"laat maar",en:"never mind"}]},
+         {type:"fb",s:"Ik heb mijn telefoon laten ___!",a:"vallen",opts:["vallen","zien","liggen","gaan"],hint:"I DROPPED my phone!"},
+         {type:"drag_fill",s:"{1} we gaan! Ik {2} mijn auto repareren.",blanks:{"1":"Laten","2":"laat"},pool:["Laten","laat","Gaan","heb"],hint:"Let's go! I'm having my car repaired."},
+         {type:"tr",mk:"v2u15_lets_go",dir:"produce"},
+       ]},
+
+// ═══ L6: Drie Werkwoorden ═══
+       {id:"v2u15l6",title:"Drie Werkwoorden",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Drie Werkwoorden",desc:"The final grammar challenge of B1.1: multi-verb clusters. What happens when you have 2 or 3 verbs at the end of a subordinate clause? Dutch stacks them. 'dat ik had willen komen' (that I had wanted to come). Let's master the stack.",goals:["Two-verb clusters in sub-clauses","Three-verb clusters: had willen komen","Word order with stacked verbs","The 'green vs red' order debate"]},
+
+         {type:"tip",title:"📐 Verb Clusters at the End",text:"In subordinate clauses, verbs go to the END.\nYou already know this for 1-2 verbs:\n\n1 verb: ...dat ik WERK.\n2 verbs: ...dat ik wil WERKEN. (modal + inf)\n2 verbs: ...dat ik heb GEWERKT. (aux + PP)\n\nNow for THREE verbs:\n...dat ik had willen komen.\n= ...that I had wanted to come.\n\n...dat het gemaakt moet worden.\n= ...that it must be made.\n\nThe order can vary! Dutch has two traditions:\n'Red order': ...dat ik had willen komen. (most common)\n'Green order': ...dat ik komen had willen. (some dialects)\n\nBoth are grammatically correct.\nWe teach the red order  -  it's standard."},
+
+         {type:"teach",kind:"phrase",nl:"had willen komen",en:"had wanted to come",phonetic:"hat VIL-lun KOH-mun",example:"...dat ik had willen komen.",exampleEn:"...that I had wanted to come.",note:"Three-verb cluster:\nhad (auxiliary) + willen (modal) + komen (infinitive).\nAll three at the end of the sub-clause.\n'Ik zou graag zijn gekomen.' = I would have liked to come."},
+         {type:"teach",kind:"phrase",nl:"moet worden gemaakt",en:"must be made",phonetic:"moot VOR-dun guh-MAHKT",example:"...dat het besluit moet worden genomen.",exampleEn:"...that the decision must be made.",note:"Three-verb cluster with passive (preview!):\nmoet (modal) + worden (passive aux) + genomen (PP).\nFull passive = Unit 16. For now: recognize the pattern."},
+
+         {type:"tip",title:"📐 Common Two-Verb Patterns",text:"In sub-clauses:\n\n...dat ik kan ZWEMMEN. (can swim)\n...dat hij wil WERKEN. (wants to work)\n...dat zij moet STUDEREN. (must study)\n...dat ik heb GEWERKT. (have worked)\n...dat hij is GEKOMEN. (has come)\n...dat we gaan ETEN. (are going to eat)\n...dat ik zit te LEZEN. (am reading)\n...dat ik probeer te BEGRIJPEN. (try to understand)\n\nAll follow: ...dat + subject + [stuff] + VERB CLUSTER.\n\nThe verb cluster is always at the END.\nThe conjugated verb comes first in the cluster,\nfollowed by infinitive(s) or past participle."},
+
+         {type:"mc",q:"'...dat ik had willen komen.'  -  how many verbs in the cluster?",opts:["One","Two","Three","Four"],ans:"Three",hint:"had + willen + komen = three verbs"},
+         {type:"fb",s:"...dat ik ___ willen komen.",a:"had",opts:["had","heb","was","zou"],hint:"Had wanted to come"},
+         {type:"mc",q:"The 'red order' (most common) puts verbs:",opts:["Infinitive first, auxiliary last","Auxiliary first, infinitive last","Random order","All verbs combined into one"],ans:"Auxiliary first, infinitive last",hint:"had willen komen = auxiliary → modal → infinitive"},
+         {type:"match",pairs:[{nl:"kan zwemmen",en:"can swim"},{nl:"wil werken",en:"wants to work"},{nl:"heb gewerkt",en:"have worked"},{nl:"had willen komen",en:"had wanted to come"}]},
+         {type:"drag_fill",s:"Ik weet dat hij {1} willen {2}.",blanks:{"1":"had","2":"komen"},pool:["had","komen","is","gaan"],hint:"I know that he HAD WANTED TO COME."},
+         {type:"mc",q:"Both 'red' and 'green' verb orders are:",opts:["Wrong","Correct  -  both are accepted","Only red is correct","Only green is correct"],ans:"Correct  -  both are accepted",hint:"Regional variation, both grammatical"},
+       ]},
+
+// ═══ L7: Levenslang Leren ═══
+       {id:"v2u15l7",title:"Levenslang Leren",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"Levenslang Leren",desc:"The Dutch education mindset: everyone is always studying something. From bijscholing to avondcursussen, from HBO to PhD  -  learning never stops in the Netherlands.",goals:["Lifelong learning culture","HBO vs WO distinction","Cultural vocabulary: bijscholing, cursus","Reading comprehension"]},
+
+         {type:"teach",kind:"phrase",nl:"levenslang leren",en:"lifelong learning",phonetic:"LAY-vuns-lang LAY-run",example:"Levenslang leren is belangrijk in Nederland.",exampleEn:"Lifelong learning is important in the Netherlands.",note:"Key Dutch value.\n'Levenslang' = lifelong.\n'Bijscholing' = further training/continuing education.\nMany Dutch adults take courses throughout life."},
+         {type:"teach",kind:"phrase",nl:"de cursus",en:"the course",phonetic:"duh KUR-sus",cognate:{words:[{lang:"English",word:"course"},{lang:"Latin",word:"cursus"}],family:"latin"},example:"Ik volg een cursus Nederlands.",exampleEn:"I'm taking a Dutch course.",note:"De-word. 'Een cursus volgen' = to take a course.\nLess formal than 'opleiding'.\nCan be evening, weekend, online, short-term."},
+
+         {type:"tip",title:"📖 Lees: Studeren in Nederland",text:"In Nederland stopt het leren niet na school.\n\nVeel volwassenen volgen cursussen.\nEen taalcursus, een kookcursus,\neen cursus programmeren  -  alles is mogelijk.\n\nHet verschil tussen HBO en WO is belangrijk.\nHBO (Hogeschool) is praktischer.\nJe leert vaardigheden voor een beroep.\nWO (Universiteit) is theoretischer.\nJe leert onderzoek doen.\n\nBeide geven een bachelor en een master.\nMaar de aanpak is anders.\n\nVeel bedrijven betalen bijscholing voor werknemers.\nDat heet 'opleidingsbudget'.\nJe kunt cursussen volgen om je te ontwikkelen.\n\nNederlanders vinden het normaal\nom op je vijftigste nog een nieuwe opleiding te beginnen.\nLevenslang leren  -  het zit in de cultuur.",deepDive:{title:"Vertaling",text:"In the Netherlands, learning doesn't stop after school.\n\nMany adults take courses.\nA language course, a cooking course,\na programming course  -  everything is possible.\n\nThe difference between HBO and WO is important.\nHBO (applied university) is more practical.\nYou learn skills for a profession.\nWO (research university) is more theoretical.\nYou learn to do research.\n\nBoth offer bachelor's and master's degrees.\nBut the approach is different.\n\nMany companies pay for employee training.\nThat's called 'training budget'.\nYou can take courses to develop yourself.\n\nDutch people find it normal\nto start a new education at fifty.\nLifelong learning  -  it's in the culture."}},
+
+         {type:"mc",q:"The main difference between HBO and WO is:",opts:["HBO is cheaper","HBO is practical, WO is theoretical","WO is shorter","HBO is only for young people"],ans:"HBO is practical, WO is theoretical",hint:"HBO = skills, WO = research"},
+         {type:"fb",s:"Ik volg een ___ Nederlands. (course)",a:"cursus",opts:["cursus","opleiding","examen","stage"],hint:"I'm taking a COURSE"},
+         {type:"mc",q:"Starting a new education at age 50 is considered:",opts:["Strange","Normal in Dutch culture","Only for the rich","Impossible"],ans:"Normal in Dutch culture",hint:"Levenslang leren = lifelong learning"},
+         {type:"match",pairs:[{nl:"levenslang leren",en:"lifelong learning"},{nl:"bijscholing",en:"further training"},{nl:"de cursus",en:"the course"},{nl:"het opleidingsbudget",en:"training budget"}]},
+       ]},
+
+// ═══ L8: Unit 15 Review ═══
+       {id:"v2u15l8",title:"Unit 15 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 15 Review",desc:"Education, infinitive constructions, progressive, laten, and verb clusters. The last B1.1 review.",goals:["Education vocabulary review","om te / zonder te / in plaats van te","Zitten/staan/liggen te (progressive)","Laten: suggestions, causatives, expressions"]},
+
+         {type:"mc",q:"'Slagen voor het examen' means:",opts:["To fail the exam","To pass the exam","To take the exam","To study for the exam"],ans:"To pass the exam",hint:"Slagen = pass, zakken = fail"},
+         {type:"fb",s:"Hij ging weg ___ te betalen. (without)",a:"zonder",opts:["zonder","om","in","voor"],hint:"He left WITHOUT paying"},
+         {type:"match",pairs:[{nl:"om te",en:"in order to"},{nl:"zonder te",en:"without"},{nl:"proberen te",en:"to try to"},{nl:"vergeten te",en:"to forget to"}]},
+         {type:"fb",s:"De kat ___ te slapen. (lies  -  progressive)",a:"ligt",opts:["ligt","zit","staat","loopt"],hint:"The cat LIES sleeping"},
+         {type:"mc",q:"'Ik laat mijn auto repareren.'  -  who repairs the car?",opts:["I do","Someone else does","The car repairs itself","Nobody"],ans:"Someone else does",hint:"Causative laten: having it done by someone"},
+         {type:"drag_fill",s:"{1} we beginnen! Ik heb mijn telefoon laten {2}.",blanks:{"1":"Laten","2":"vallen"},pool:["Laten","vallen","Gaan","zien"],hint:"Let's begin! I dropped my phone."},
+         {type:"fb",s:"...dat ik ___ willen komen.",a:"had",opts:["had","heb","was","zou"],hint:"Three-verb cluster: had willen komen"},
+         {type:"mc",q:"A Dutch grade of 8 is considered:",opts:["Average","Good/excellent","Barely passing","Failing"],ans:"Good/excellent",hint:"8 = goed  -  very good in Dutch grading"},
+         {type:"match",pairs:[{nl:"afstuderen",en:"to graduate"},{nl:"de stage",en:"internship"},{nl:"laten zien",en:"to show"},{nl:"laat maar",en:"never mind"}]},
+         {type:"drag_fill",s:"Ik {1} het te begrijpen. {2} plaats van te klagen, doe iets!",blanks:{"1":"probeer","2":"In"},pool:["probeer","In","vergeet","Om"],hint:"I try to understand. Instead of complaining, do something!"},
+         {type:"tr",mk:"v2u15_in_order_to_learn",dir:"produce"},
+         {type:"tr",mk:"v2u15_trying_to_understand",dir:"produce"},
+         {type:"tr",mk:"v2u15_lets_go",dir:"produce"},
+       ]},
+  ]},
+
+
+  {n:16,lang:"nl",track:"v2",title:"Het Wordt Gedaan",sub:"Passive Voice & Formal Register",icon:"📰",level:"B1.2",color:"#4A8FE7",lessons:[
+// ═══ L1: Actief vs Passief ═══
+       {id:"v2u16l1",title:"Actief vs Passief",icon:"📰",xp:15,board:true,steps:[
+         {type:"intro",title:"Actief vs Passief",desc:"Until now, you've always said WHO does something: 'Ik schrijf de brief' (I write the letter). But what if you want to focus on WHAT happens, not who does it? 'De brief wordt geschreven'  -  the letter is being written. This is the passive voice, and it's everywhere in Dutch news, rules, and formal writing.",goals:["Understand active vs passive concept","Core vocabulary for formal contexts","See passive in real Dutch examples","Prepare for the grammar in L2–L5"]},
+
+         {type:"tip",title:"🔑 Active vs Passive  -  The Big Idea",text:"Active: The DOER is the subject.\nIk schrijf de brief. = I write the letter.\nDe kok maakt het eten. = The cook makes the food.\n\nPassive: The THING/ACTION is the subject.\nDe brief wordt geschreven. = The letter is being written.\nHet eten wordt gemaakt. = The food is being made.\n\nWhy use passive?\n1. You don't know who did it.\n2. It doesn't matter who did it.\n3. You want to sound formal or objective.\n4. Rules and laws: 'Er wordt hier niet gerookt.'\n\nDutch uses passive MORE than English,\nespecially in news, regulations, and formal writing."},
+
+         {type:"teach",kind:"phrase",nl:"het artikel",en:"the article (newspaper)",phonetic:"hut ar-TEE-kul",cognate:{words:[{lang:"English",word:"article"},{lang:"German",word:"Artikel"}],family:"latin"},example:"Heb je het artikel gelezen?",exampleEn:"Have you read the article?",note:"Het-word. Also: article/item in general.\n'Een krantenartikel' = a newspaper article."},
+         {type:"teach",kind:"phrase",nl:"het rapport",en:"the report",phonetic:"hut rap-PORT",cognate:{words:[{lang:"English",word:"report"},{lang:"French",word:"rapport"}],family:"latin"},example:"Het rapport wordt morgen gepresenteerd.",exampleEn:"The report will be presented tomorrow.",note:"Het-word. 'Een rapport schrijven' = to write a report.\nFirst passive in action: 'wordt gepresenteerd'."},
+         {type:"teach",kind:"phrase",nl:"de wet",en:"the law",phonetic:"duh vet",cognate:{words:[{lang:"German",word:"Gesetz (related)"}],family:"germanic"},example:"De wet werd vorig jaar aangenomen.",exampleEn:"The law was adopted last year.",note:"De-word. 'Wetten' = laws (plural).\n'De wetgeving' = the legislation.\nPassive is very common with laws: 'werd aangenomen'."},
+         {type:"teach",kind:"phrase",nl:"het onderzoek",en:"the research / investigation",phonetic:"hut ON-dur-zook",example:"Het onderzoek is afgerond.",exampleEn:"The research has been completed.",note:"Het-word. 'Onderzoeken' = to research/investigate.\n'Uit onderzoek blijkt dat...' = Research shows that...\nVery common in news: passive + onderzoek."},
+         {type:"teach",kind:"phrase",nl:"het besluit",en:"the decision",phonetic:"hut buh-SLOWT",example:"Het besluit is genomen.",exampleEn:"The decision has been made.",note:"You learned this in Unit 11!\nRepeated because it's a passive-magnet word.\n'Het besluit werd genomen door de minister.'"},
+         {type:"teach",kind:"phrase",nl:"de regel",en:"the rule",phonetic:"duh RAY-gul",cognate:{words:[{lang:"English",word:"rule (reg-)"},{lang:"German",word:"Regel"}],family:"germanic"},example:"De regels moeten worden gevolgd.",exampleEn:"The rules must be followed.",note:"De-word. 'Regels' = rules.\n'De regelgeving' = regulations.\nPassive + modal: 'moeten worden gevolgd'."},
+
+         {type:"mc",q:"In 'De brief wordt geschreven', the focus is on:",opts:["Who writes it","The letter itself","The past","The future"],ans:"The letter itself",hint:"Passive = focus on what happens, not who does it"},
+         {type:"fb",s:"Het ___ wordt morgen gepresenteerd.",a:"rapport",opts:["rapport","artikel","wet","regel"],hint:"The report is being presented tomorrow"},
+         {type:"match",pairs:[{nl:"het artikel",en:"the article"},{nl:"de wet",en:"the law"},{nl:"het onderzoek",en:"the research"},{nl:"de regel",en:"the rule"}]},
+         {type:"mc",q:"Passive voice is especially common in:",opts:["Casual conversation","News, rules, and formal writing","Children's books","Song lyrics"],ans:"News, rules, and formal writing",hint:"Formal, objective = passive territory"},
+         {type:"fb",s:"De ___ werd vorig jaar aangenomen.",a:"wet",opts:["wet","brief","mail","klant"],hint:"The law was adopted last year"},
+       ]},
+
+// ═══ L2: Worden + Gedaan (Present Passive) ═══
+       {id:"v2u16l2",title:"Worden + Gedaan",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Worden + Gedaan",desc:"The present passive in Dutch uses 'worden' + past participle. 'De brief wordt geschreven' = The letter is being written. This describes a process that is happening or happens regularly.",goals:["worden + past participle = present passive","Conjugate worden (word/wordt/worden)","Add 'door' for the agent (by whom)","Transform active → passive sentences"]},
+
+         {type:"verb_table",title:"Worden  -  Present Tense",label:"worden (to become / passive auxiliary)",
+          groups:[
+            {label:"Present tense",rows:[
+              {pronoun:"ik",form:"word",en:"I am (being)..."},
+              {pronoun:"jij / je",form:"wordt",en:"you are (being)..."},
+              {pronoun:"hij / zij / het",form:"wordt",en:"he/she/it is (being)..."},
+              {pronoun:"wij / jullie / zij",form:"worden",en:"we/you/they are (being)..."},
+            ]}
+          ],note:"'Worden' has TWO jobs in Dutch:\n1. To become: 'Ik word ziek' = I'm getting sick.\n2. Passive auxiliary: 'De brief wordt geschreven' = The letter is being written.\nSame conjugation for both uses."},
+
+         {type:"tip",title:"📐 Active → Passive",text:"Active: De student schrijft de brief.\n           (subject)  (verb)   (object)\n\nPassive: De brief wordt geschreven (door de student).\n           (subject) (worden+PP)    (agent optional)\n\nSteps:\n1. Object → becomes the subject.\n2. Verb → wordt/worden + past participle.\n3. Subject → optional: 'door + ...' at end.\n\nMore examples:\nDe kok maakt het eten. → Het eten wordt gemaakt.\nZij leest het boek. → Het boek wordt gelezen.\nWij bespreken het plan. → Het plan wordt besproken."},
+
+         {type:"teach",kind:"word",nl:"door",en:"by (agent in passive)",phonetic:"dohr",example:"De brief wordt geschreven door de student.",exampleEn:"The letter is written by the student.",note:"'Door' = by (in passive sentences).\nOptional  -  only add when you WANT to say who.\n'Het eten wordt gemaakt door de kok.'\nOften omitted: 'Het eten wordt gemaakt.'"},
+
+         {type:"mc",q:"'De brief wordt geschreven.'  -  'wordt' is:",opts:["Simple present of worden","Past tense of worden","Future tense","Conditional"],ans:"Simple present of worden",hint:"word/wordt/worden = present tense"},
+         {type:"fb",s:"Het eten ___ gemaakt.",a:"wordt",opts:["wordt","werd","is","heeft"],hint:"The food IS BEING made (present passive)"},
+         {type:"mc",q:"Active: 'De kok maakt het eten.' → Passive:",opts:["Het eten wordt gemaakt.","Het eten werd gemaakt.","De kok wordt gemaakt.","Het eten is gemaakt."],ans:"Het eten wordt gemaakt.",hint:"Object → subject + wordt + PP"},
+         {type:"drag_fill",s:"Het boek {1} gelezen {2} veel mensen.",blanks:{"1":"wordt","2":"door"},pool:["wordt","door","werd","van"],hint:"The book is read BY many people."},
+         {type:"fb",s:"De regels ___ gevolgd. (present passive)",a:"worden",opts:["worden","werd","zijn","worden"],hint:"The rules ARE followed (plural = worden)"},
+         {type:"mc",q:"When is 'door + agent' used?",opts:["Always required","Only when you want to specify WHO","Only in questions","Only in past tense"],ans:"Only when you want to specify WHO",hint:"Optional! Often omitted."},
+         {type:"match",pairs:[{nl:"De brief wordt geschreven.",en:"The letter is being written."},{nl:"Het eten wordt gemaakt.",en:"The food is being made."},{nl:"De regels worden gevolgd.",en:"The rules are followed."},{nl:"Het plan wordt besproken.",en:"The plan is being discussed."}]},
+         {type:"fb",s:"Het plan wordt ___ door het team.",a:"besproken",opts:["besproken","bespreken","bespreekt","besprak"],hint:"The plan is being discussed (PP of bespreken)"},
+       ]},
+
+// ═══ L3: Werd Geschreven (Past Passive) ═══
+       {id:"v2u16l3",title:"Werd Geschreven",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Werd Geschreven",desc:"The past passive uses 'werd/werden' + past participle. 'De brief werd geschreven' = The letter was (being) written. Same pattern, just past tense of 'worden'.",goals:["werd/werden + PP = past passive","Contrast: wordt (present) vs werd (past)","Transform past active → past passive","Read passive in news contexts"]},
+
+         {type:"verb_table",title:"Worden  -  Past Tense (Imperfectum)",label:"werd/werden",
+          groups:[
+            {label:"Past tense (imperfectum)",rows:[
+              {pronoun:"ik",form:"werd",en:"I was (being)..."},
+              {pronoun:"jij / je",form:"werd",en:"you were (being)..."},
+              {pronoun:"hij / zij / het",form:"werd",en:"he/she/it was (being)..."},
+              {pronoun:"wij / jullie / zij",form:"werden",en:"we/you/they were (being)..."},
+            ]}
+          ],note:"Worden is a strong verb:\nworden → werd/werden (past) → geworden (PP).\n\nPresent passive: De brief WORDT geschreven.\nPast passive: De brief WERD geschreven.\n\nJust swap word/wordt/worden → werd/werden!"},
+
+         {type:"tip",title:"📐 Present vs Past Passive",text:"Present: De brief wordt geschreven.\n= The letter is being written. (now/generally)\n\nPast: De brief werd geschreven.\n= The letter was (being) written. (then)\n\nPresent: Het plan wordt besproken.\nPast: Het plan werd besproken.\n\nPresent: De regels worden gevolgd.\nPast: De regels werden gevolgd.\n\nThe past participle stays the same!\nOnly worden changes: wordt → werd, worden → werden."},
+
+         {type:"mc",q:"'De wet werd aangenomen.'  -  this happened:",opts:["Now","In the past","In the future","Always"],ans:"In the past",hint:"Werd = past tense of worden"},
+         {type:"fb",s:"De brief ___ gisteren geschreven.",a:"werd",opts:["werd","wordt","is","was"],hint:"The letter WAS written yesterday (past passive)"},
+         {type:"mc",q:"Plural past passive: 'De regels _____ gevolgd.'",opts:["werd","werden","worden","was"],ans:"werden",hint:"Plural past = werden"},
+         {type:"drag_fill",s:"Het besluit {1} genomen door de minister. De regels {2} niet gevolgd.",blanks:{"1":"werd","2":"werden"},pool:["werd","werden","wordt","worden"],hint:"The decision WAS made. The rules WERE not followed."},
+         {type:"match",pairs:[{nl:"wordt geschreven",en:"is being written"},{nl:"werd geschreven",en:"was written"},{nl:"worden besproken",en:"are being discussed"},{nl:"werden besproken",en:"were discussed"}]},
+         {type:"fb",s:"Het onderzoek ___ vorig jaar uitgevoerd.",a:"werd",opts:["werd","wordt","is","had"],hint:"The research WAS conducted last year"},
+         {type:"mc",q:"Active: 'De minister nam het besluit.' → Past passive:",opts:["Het besluit werd genomen door de minister.","Het besluit wordt genomen.","De minister werd genomen.","Het besluit was genomen."],ans:"Het besluit werd genomen door de minister.",hint:"werd + PP + door + agent"},
+         {type:"tr",mk:"v2u16_letter_was_written",dir:"produce"},
+       ]},
+
+// ═══ L4: Is Geschreven (State Passive) ═══
+       {id:"v2u16l4",title:"Is Geschreven",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Is Geschreven",desc:"Dutch has TWO types of passive. You've learned the process passive (worden). Now meet the state/result passive: 'zijn' + past participle. 'De brief is geschreven' = The letter has been written (it's done). This describes the RESULT, not the process.",goals:["zijn + PP = state/result passive","Contrast: worden (process) vs zijn (result)","The letter IS BEING written vs IS written","Use both in context"]},
+
+         {type:"tip",title:"📐 Worden vs Zijn  -  Process vs Result",text:"WORDEN-passive = PROCESS (it's happening):\nDe brief wordt geschreven. = The letter is being written.\nDe deur wordt gesloten. = The door is being closed.\n\nZIJN-passive = RESULT (it's done):\nDe brief is geschreven. = The letter has been written.\nDe deur is gesloten. = The door is closed.\n\nThink of it as:\nWorden = BECOMING (the action is underway).\nZijn = BEING (the action is complete, we see the result).\n\nDe brief wordt geschreven. → someone is writing it NOW.\nDe brief is geschreven. → it's DONE. Finished. Result.\n\nThis distinction doesn't exist in English!\nEnglish uses 'is written' for BOTH.\nDutch separates them: worden vs zijn."},
+
+         {type:"teach",kind:"word",nl:"gesloten",en:"closed / shut",phonetic:"guh-SLOH-tun",example:"De winkel is gesloten.",exampleEn:"The shop is closed.",note:"Past participle of 'sluiten' (to close).\nZijn-passive: 'is gesloten' = is closed (result).\nVs worden: 'wordt gesloten' = is being closed (process)."},
+         {type:"teach",kind:"word",nl:"geopend",en:"opened",phonetic:"guh-OH-punt",example:"De nieuwe winkel is geopend.",exampleEn:"The new shop has been opened.",note:"Past participle of 'openen' (to open).\n'Is geopend' = has been opened / is open.\nNote: openen → ge-open-d (regular)."},
+         {type:"teach",kind:"word",nl:"verboden",en:"forbidden / prohibited",phonetic:"fur-BOH-dun",example:"Roken is hier verboden.",exampleEn:"Smoking is prohibited here.",note:"Past participle of 'verbieden' (to forbid).\nZijn-passive: 'is verboden' = is forbidden.\nVery common on signs: 'Verboden toegang!'"},
+
+         {type:"mc",q:"'De winkel is gesloten.'  -  this means:",opts:["Someone is closing the shop now","The shop is closed (result/state)","The shop will close","The shop was being closed"],ans:"The shop is closed (result/state)",hint:"Zijn + PP = result/state"},
+         {type:"fb",s:"De brief ___ geschreven. Het is klaar! (result)",a:"is",opts:["is","wordt","werd","had"],hint:"It's done! Result = zijn-passive"},
+         {type:"mc",q:"'De deur wordt gesloten' vs 'De deur is gesloten'. Difference?",opts:["No difference","worden = process happening, zijn = result done","worden = past, zijn = present","worden = formal, zijn = informal"],ans:"worden = process happening, zijn = result done",hint:"Becoming closed vs BEING closed"},
+         {type:"match",pairs:[{nl:"wordt geschreven",en:"is being written (process)"},{nl:"is geschreven",en:"has been written (result)"},{nl:"wordt gesloten",en:"is being closed (process)"},{nl:"is gesloten",en:"is closed (result)"}]},
+         {type:"drag_fill",s:"De winkel {1} om negen uur geopend. Nu is hij {2}.",blanks:{"1":"wordt","2":"gesloten"},pool:["wordt","gesloten","werd","geopend"],hint:"The shop IS OPENED at nine. Now it IS closed."},
+         {type:"fb",s:"Roken is hier ___.",a:"verboden",opts:["verboden","gesloten","geschreven","gemaakt"],hint:"Smoking is PROHIBITED here"},
+         {type:"tr",mk:"v2u16_letter_is_written",dir:"produce"},
+         {type:"tr",mk:"v2u16_decision_made",dir:"produce"},
+       ]},
+
+// ═══ L5: Er Wordt Gefietst (Impersonal Passive) ═══
+       {id:"v2u16l5",title:"Er Wordt Gefietst",icon:"🚲",xp:20,board:true,steps:[
+         {type:"intro",title:"Er Wordt Gefietst",desc:"This is the most Dutch thing about the passive voice. Dutch can make passive sentences with NO subject at all. 'Er wordt gefietst' = There is cycling / Cycling is happening. English simply can't do this. It's used for rules, general activities, and impersonal statements.",goals:["Impersonal passive: er + worden + PP","No subject! Er fills the gap","Rules: 'Er wordt hier niet gerookt'","Very Dutch  -  English can't do this"]},
+
+         {type:"tip",title:"🚲 The Impersonal Passive",text:"Normal passive has a subject:\nDe brief wordt geschreven. (de brief = subject)\n\nImpersonal passive has NO real subject:\nEr wordt gefietst. = There is cycling. / People cycle.\nEr wordt hier gewerkt. = Work is being done here.\nEr wordt niet gerookt. = No smoking. (lit: It is not smoked.)\n\n'Er' is just a placeholder  -  it fills the first position.\nThere is no 'thing' being cycled or worked.\nThe verb is intransitive (no object).\n\nThis is VERY Dutch. English can't say:\n'It is cycled.' ✗ (meaningless in English)\n'Er wordt gefietst.' ✓ (perfectly normal in Dutch)\n\nUsed for:\n1. Rules/signs: 'Er wordt hier niet gerookt.'\n2. General activities: 'Er werd veel gedanst.'\n3. Weather/atmosphere: 'Er wordt gewerkt.'"},
+
+         {type:"teach",kind:"phrase",nl:"er wordt gerookt",en:"there is smoking / people smoke",phonetic:"ur vort guh-ROHKT",example:"Er wordt hier niet gerookt.",exampleEn:"There is no smoking here.",note:"roken = to smoke. Past participle: gerookt.\nImpersonal passive: er + wordt + gerookt.\n'Niet' makes it a rule: no smoking."},
+         {type:"teach",kind:"phrase",nl:"er wordt gewerkt",en:"work is being done / people work",phonetic:"ur vort guh-VERKT",example:"Er wordt hier hard gewerkt.",exampleEn:"People work hard here.",note:"werken = to work. Impersonal passive.\nNo specific person  -  just 'work happens here'.\nVery common in workplace contexts."},
+         {type:"teach",kind:"phrase",nl:"er werd gedanst",en:"there was dancing / people danced",phonetic:"ur vert guh-DANST",example:"Er werd veel gedanst op het feest.",exampleEn:"There was a lot of dancing at the party.",note:"Past impersonal passive: er + werd + PP.\nPresent: er wordt gedanst.\nPast: er werd gedanst."},
+
+         {type:"mc",q:"'Er wordt hier niet gerookt.'  -  who is the subject?",opts:["Er","The smoker","There is no real subject","Het"],ans:"There is no real subject",hint:"Er is just a placeholder  -  impersonal!"},
+         {type:"fb",s:"Er ___ hier hard gewerkt.",a:"wordt",opts:["wordt","werd","is","heeft"],hint:"People work hard here (present)"},
+         {type:"mc",q:"Why can English NOT say 'It is cycled' the way Dutch says 'Er wordt gefietst'?",opts:["English doesn't have passive","English passive needs a real subject/object","English is simpler","It's a grammar mistake in Dutch too"],ans:"English passive needs a real subject/object",hint:"English: 'The letter is written' (subject exists). Dutch: 'Er wordt gefietst' (no subject!)"},
+         {type:"match",pairs:[{nl:"Er wordt gerookt.",en:"People smoke. / Smoking happens."},{nl:"Er wordt gewerkt.",en:"Work is being done."},{nl:"Er werd gedanst.",en:"There was dancing."},{nl:"Er wordt niet gerookt.",en:"No smoking."}]},
+         {type:"drag_fill",s:"Er {1} hier niet {2}. (no smoking  -  past)",blanks:{"1":"werd","2":"gerookt"},pool:["werd","gerookt","wordt","gewerkt"],hint:"There was no smoking here."},
+         {type:"fb",s:"Er werd veel ___ op het feest.",a:"gedanst",opts:["gedanst","gerookt","gewerkt","geschreven"],hint:"There was a lot of DANCING at the party"},
+         {type:"tr",mk:"v2u16_no_smoking",dir:"produce"},
+       ]},
+
+// ═══ L6: De Krant Lezen ═══
+       {id:"v2u16l6",title:"De Krant Lezen",icon:"📰",xp:15,board:true,steps:[
+         {type:"intro",title:"De Krant Lezen",desc:"Time to see the passive voice in action. Dutch news is FULL of passive constructions. You'll read a short news text and practice recognizing passives in context.",goals:["Recognize passive in news texts","News vocabulary: minister, parlement, maatregel","Reading comprehension with passives","Distinguish worden-passive from zijn-passive"]},
+
+         {type:"teach",kind:"phrase",nl:"de minister",en:"the minister (government)",phonetic:"duh mi-NIS-tur",cognate:{words:[{lang:"English",word:"minister"},{lang:"French",word:"ministre"}],family:"latin"},example:"De minister werd gevraagd om te reageren.",exampleEn:"The minister was asked to respond.",note:"De-word. 'De minister-president' = the prime minister.\n'De ministerraad' = the cabinet/council of ministers."},
+         {type:"teach",kind:"phrase",nl:"de maatregel",en:"the measure / action (policy)",phonetic:"duh MAHT-ray-gul",example:"Nieuwe maatregelen werden aangekondigd.",exampleEn:"New measures were announced.",note:"De-word. 'Maatregelen nemen' = to take measures.\nVery common in news: policies, regulations.\nOften in passive: 'werden aangekondigd'."},
+         {type:"teach",kind:"word",nl:"aankondigen",en:"to announce",phonetic:"AHN-kon-dih-gun",example:"Het plan werd gisteren aangekondigd.",exampleEn:"The plan was announced yesterday.",note:"Separable: 'kondigt aan' (active present).\n'Aangekondigd' = past participle.\nPassive: 'werd aangekondigd' = was announced."},
+
+         {type:"tip",title:"📰 Lees: Het Nieuws",text:"Lees het bericht en beantwoord de vragen.\n\nGisteren werd een nieuw plan aangekondigd door\nde minister. Het plan is bedoeld om de luchtkwaliteit\nte verbeteren. Nieuwe regels worden ingevoerd\nvoor bedrijven. Er werd veel over gesproken in\nhet parlement.\n\nDe maatregelen worden volgend jaar uitgevoerd.\nHet besluit is genomen na lang overleg.\nNiet iedereen is het ermee eens. De oppositie\nvindt dat er meer onderzoek nodig is.",deepDive:{title:"Vertaling",text:"Yesterday a new plan was announced by the minister.\nThe plan is intended to improve air quality.\nNew rules are being introduced for companies.\nIt was widely discussed in parliament.\n\nThe measures will be implemented next year.\nThe decision was made after lengthy consultation.\nNot everyone agrees. The opposition thinks\nmore research is needed."}},
+
+         {type:"mc",q:"In the text, 'werd aangekondigd' is:",opts:["Present passive","Past passive","State passive","Active voice"],ans:"Past passive",hint:"Werd = past tense of worden"},
+         {type:"fb",s:"Het besluit ___ genomen na lang overleg.",a:"is",opts:["is","werd","wordt","had"],hint:"The decision HAS BEEN made (result = zijn)"},
+         {type:"mc",q:"'Er werd veel over gesproken'  -  what type of passive?",opts:["Normal passive","State passive","Impersonal passive","Not passive"],ans:"Impersonal passive",hint:"Er + werd + PP, no real subject"},
+         {type:"match",pairs:[{nl:"werd aangekondigd",en:"was announced"},{nl:"worden ingevoerd",en:"are being introduced"},{nl:"is genomen",en:"has been made"},{nl:"is bedoeld",en:"is intended"}]},
+         {type:"fb",s:"Nieuwe maatregelen ___ aangekondigd.",a:"werden",opts:["werden","werd","worden","is"],hint:"Measures WERE announced (plural past)"},
+       ]},
+
+// ═══ L7: Door Wie? Waardoor? ═══
+       {id:"v2u16l7",title:"Door Wie? Waardoor?",icon:"🔍",xp:15,board:true,steps:[
+         {type:"intro",title:"Door Wie? Waardoor?",desc:"Who did it? In passive sentences, 'door' (by) introduces the agent. Plus: passive with modals  -  'Het moet gedaan worden' (It must be done). The final piece of the passive puzzle.",goals:["door + agent: by whom","Passive + modals: moet/kan worden + PP","Word order in sub-clauses with passive","Ask 'Door wie?' and 'Waardoor?'"]},
+
+         {type:"tip",title:"📐 Passive + Modals",text:"The passive can combine with modals (moeten, kunnen, etc.):\n\nHet moet gedaan worden. = It must be done.\nDat kan niet veranderd worden. = That can't be changed.\nHet zou besproken moeten worden. = It should be discussed.\n\nPattern: modal + past participle + worden\n\nIn a sub-clause (verb to end!):\n...dat het gedaan moet worden.\n...dat het besproken zou moeten worden.\n\nThe verbs stack at the end!\nThis is the multi-verb cluster from Unit 15 in action."},
+
+         {type:"teach",kind:"phrase",nl:"door wie",en:"by whom",phonetic:"dohr vee",example:"Door wie werd het besluit genomen?",exampleEn:"By whom was the decision made?",note:"Question: 'Door wie?' = By whom?\n'Door wie werd het gedaan?'\nVery common in news and formal contexts."},
+         {type:"teach",kind:"word",nl:"waardoor",en:"by which / because of what",phonetic:"vahr-DOHR",example:"Waardoor werd het probleem veroorzaakt?",exampleEn:"What caused the problem? / By what was the problem caused?",note:"waar + door = by what/which.\nUsed for THINGS (not people).\nPeople: 'Door wie?' Things: 'Waardoor?'"},
+
+         {type:"mc",q:"'Het moet gedaan worden.'  -  word order is:",opts:["modal + PP + worden","worden + PP + modal","PP + modal + worden","modal + worden + PP"],ans:"modal + PP + worden",hint:"Het MOET GEDAAN WORDEN."},
+         {type:"fb",s:"___ wie werd het besluit genomen?",a:"Door",opts:["Door","Van","Met","Voor"],hint:"BY whom was the decision made?"},
+         {type:"mc",q:"In '...dat het gedaan moet worden', why is 'worden' last?",opts:["It's always last","Sub-clause: all verbs go to the end","Random order","Passive always ends sentences"],ans:"Sub-clause: all verbs go to the end",hint:"dat + ... + verb cluster at end"},
+         {type:"drag_fill",s:"Het {1} besproken {2} worden.",blanks:{"1":"zou","2":"moeten"},pool:["zou","moeten","wordt","kan"],hint:"It SHOULD be discussed. (zou moeten worden)"},
+         {type:"match",pairs:[{nl:"moet worden gedaan",en:"must be done"},{nl:"kan worden veranderd",en:"can be changed"},{nl:"door wie?",en:"by whom?"},{nl:"waardoor?",en:"because of what?"}]},
+         {type:"fb",s:"Het probleem ___ veroorzaakt door de storm.",a:"werd",opts:["werd","wordt","is","had"],hint:"The problem WAS caused by the storm"},
+       ]},
+
+// ═══ L8: Unit 16 Review ═══
+       {id:"v2u16l8",title:"Unit 16 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 16 Review",desc:"The full passive voice toolkit. Process passive (worden), state passive (zijn), impersonal passive (er wordt), past passive (werd/werden), passive + modals, and the door-agent. Let's test it all.",goals:["All passive types reviewed","Active ↔ passive transformations","Recognize passive in context","worden vs zijn distinction"]},
+
+         {type:"mc",q:"'De brief wordt geschreven'  -  which passive type?",opts:["Process passive (worden, present)","State passive (zijn)","Impersonal passive","Past passive"],ans:"Process passive (worden, present)",hint:"Wordt + PP = present process passive"},
+         {type:"fb",s:"De brief ___ geschreven. Het is klaar.",a:"is",opts:["is","wordt","werd","worden"],hint:"It's DONE = result/state passive (zijn)"},
+         {type:"mc",q:"Active: 'De minister nam het besluit.' → Passive:",opts:["Het besluit werd genomen door de minister.","De minister werd genomen.","Het besluit wordt genomen.","Het werd minister genomen."],ans:"Het besluit werd genomen door de minister.",hint:"Object → subject, werd + PP, door + agent"},
+         {type:"match",pairs:[{nl:"wordt geschreven",en:"is being written"},{nl:"werd geschreven",en:"was written"},{nl:"is geschreven",en:"has been written"},{nl:"er wordt gerookt",en:"people smoke / smoking happens"}]},
+         {type:"fb",s:"Er ___ hier niet gerookt.",a:"wordt",opts:["wordt","werd","is","zijn"],hint:"No smoking here (present impersonal)"},
+         {type:"drag_fill",s:"Het {1} besproken moeten {2}.",blanks:{"1":"had","2":"worden"},pool:["had","worden","werd","zijn"],hint:"It had to be discussed. (had moeten worden)"},
+         {type:"mc",q:"'Door wie werd het gedaan?' asks:",opts:["When it was done","Where it was done","By whom it was done","Why it was done"],ans:"By whom it was done",hint:"Door wie = by whom"},
+         {type:"fb",s:"De wet ___ vorig jaar aangenomen.",a:"werd",opts:["werd","wordt","is","had"],hint:"The law WAS adopted last year"},
+         {type:"mc",q:"Worden-passive vs zijn-passive:",opts:["No difference","worden = process, zijn = result","worden = past, zijn = present","worden = formal, zijn = informal"],ans:"worden = process, zijn = result",hint:"Becoming vs being"},
+         {type:"drag_fill",s:"De regels {1} gevolgd. Het besluit {2} genomen.",blanks:{"1":"worden","2":"is"},pool:["worden","is","werd","wordt"],hint:"The rules ARE followed. The decision HAS BEEN made."},
+         {type:"tr",mk:"v2u16_letter_was_written",dir:"produce"},
+         {type:"tr",mk:"v2u16_no_smoking",dir:"produce"},
+         {type:"tr",mk:"v2u16_decision_made",dir:"produce"},
+       ]},
+  ]},
+
+  {n:17,lang:"nl",track:"v2",title:"Een Nieuw Huis",sub:"Housing, Moving & Extended Relatives",icon:"🏠",level:"B1.2",color:"#3A9BE0",lessons:[
+// ═══ L1: Huren of Kopen? ═══
+       {id:"v2u17l1",title:"Huren of Kopen?",icon:"🏠",xp:15,board:true,steps:[
+         {type:"intro",title:"Huren of Kopen?",desc:"The Dutch housing market is one of the most talked-about topics in the Netherlands. Long waiting lists, high prices, and a culture of renting. Let's learn the vocabulary you need to talk about housing.",goals:["8 core housing vocabulary words","huren vs kopen (rent vs buy)","makelaar, hypotheek, borg","Talk about where you live"]},
+
+         {type:"teach",kind:"word",nl:"huren",en:"to rent",phonetic:"HUU-run",example:"Ik huur een appartement in het centrum.",exampleEn:"I rent an apartment in the centre.",note:"'Huren' = to rent (as tenant).\n'Verhuren' = to rent out (as landlord).\n'De huur' = the rent (noun).\n'De huurder' = the tenant."},
+         {type:"teach",kind:"word",nl:"kopen",en:"to buy",phonetic:"KOH-pun",example:"Wij willen een huis kopen.",exampleEn:"We want to buy a house.",note:"'Kopen' = to buy. 'Verkopen' = to sell.\nIn NL, buying a house is very competitive.\n'Overbieden' = to outbid (common in Dutch housing)."},
+         {type:"teach",kind:"phrase",nl:"de makelaar",en:"the real estate agent",phonetic:"duh MAH-kuh-lahr",example:"De makelaar laat het huis zien.",exampleEn:"The real estate agent shows the house.",note:"De-word. 'Een makelaar inschakelen' = to hire an agent.\nIn NL, both buyer AND seller often have their own makelaar."},
+         {type:"teach",kind:"phrase",nl:"de hypotheek",en:"the mortgage",phonetic:"duh hee-poh-TAYK",cognate:{words:[{lang:"English",word:"hypothec/mortgage"},{lang:"French",word:"hypothèque"}],family:"latin"},example:"We moeten een hypotheek aanvragen.",exampleEn:"We need to apply for a mortgage.",note:"De-word. 'Een hypotheek aanvragen' = to apply for a mortgage.\n'De hypotheekrente' = mortgage interest rate.\nIn NL, you can borrow up to ~100% of the house value."},
+         {type:"teach",kind:"phrase",nl:"de borg",en:"the deposit (security)",phonetic:"duh borg",cognate:{words:[{lang:"German",word:"Bürgschaft (guarantee)"}],family:"germanic"},example:"De borg is twee maanden huur.",exampleEn:"The deposit is two months' rent.",note:"De-word. 'De waarborgsom' = security deposit (formal).\nTypically 1-2 months' rent in the Netherlands.\nYou get it back when you leave (if no damage)."},
+         {type:"teach",kind:"phrase",nl:"het huurcontract",en:"the rental contract / lease",phonetic:"hut HUUR-kon-trakt",example:"Lees het huurcontract goed door!",exampleEn:"Read the rental contract carefully!",note:"Het-word. huur + contract = rental contract.\n'Doorlezen' = to read through carefully.\n'Tekenen' = to sign."},
+         {type:"teach",kind:"word",nl:"opzeggen",en:"to cancel / to give notice",phonetic:"OP-zeg-un",example:"Ik wil mijn huurcontract opzeggen.",exampleEn:"I want to cancel my lease.",note:"Separable: 'Ik zeg het contract op.'\n'De opzegtermijn' = the notice period.\nUsually 1 month for tenants in NL."},
+
+         {type:"mc",q:"'Huren' vs 'Verhuren':",opts:["Same meaning","huren = rent (tenant), verhuren = rent out (landlord)","huren = buy, verhuren = sell","huren = past, verhuren = present"],ans:"huren = rent (tenant), verhuren = rent out (landlord)",hint:"ver- often reverses the perspective"},
+         {type:"fb",s:"De ___ is twee maanden huur.",a:"borg",opts:["borg","huur","makelaar","hypotheek"],hint:"The deposit/security"},
+         {type:"match",pairs:[{nl:"huren",en:"to rent"},{nl:"kopen",en:"to buy"},{nl:"de makelaar",en:"the agent"},{nl:"de hypotheek",en:"the mortgage"}]},
+         {type:"mc",q:"In the Netherlands, a rental deposit is typically:",opts:["6 months","1-2 months","Half a year's rent","None required"],ans:"1-2 months",hint:"De borg is usually 1-2 months"},
+         {type:"fb",s:"Lees het ___ goed door!",a:"huurcontract",opts:["huurcontract","hypotheek","makelaar","borg"],hint:"Read the rental contract carefully"},
+         {type:"drag_fill",s:"Ik wil mijn huurcontract {1}. De {2} is één maand.",blanks:{"1":"opzeggen","2":"opzegtermijn"},pool:["opzeggen","opzegtermijn","huren","borg"],hint:"I want to cancel my lease. The notice period is one month."},
+         {type:"tr",mk:"v2u17_rent_apartment",dir:"produce"},
+       ]},
+
+// ═══ L2: Verhuizen ═══
+       {id:"v2u17l2",title:"Verhuizen",icon:"📦",xp:15,board:true,steps:[
+         {type:"intro",title:"Verhuizen",desc:"Moving house in the Netherlands. Packing boxes, new neighbours, registering at the gemeente. The vocabulary of starting fresh somewhere new.",goals:["Moving vocabulary: verhuizen, verhuisdoos, inrichten","Neighbourhood words: buurt, wijk, buren","Municipal registration: inschrijven, adreswijziging","Connector: inmiddels (meanwhile)"]},
+
+         {type:"teach",kind:"grammar",nl:"verhuizen",en:"to move (house)",phonetic:"fur-HOW-zun",example:"Wij gaan volgende maand verhuizen.",exampleEn:"We're moving next month.",note:"Inseparable: ver- prefix.\n'De verhuizing' = the move (noun).\n'De verhuisdoos' = moving box."},
+         {type:"teach",kind:"phrase",nl:"de verhuisdoos",en:"the moving box",phonetic:"duh fur-HOWS-dohs",example:"We hebben twintig verhuisdozen nodig.",exampleEn:"We need twenty moving boxes.",note:"De-word. Compound: verhuis + doos (box).\nPlural: verhuisdozen (doos → dozen)."},
+         {type:"teach",kind:"word",nl:"inrichten",en:"to furnish / set up",phonetic:"IN-rig-tun",example:"We moeten het nieuwe huis inrichten.",exampleEn:"We need to furnish the new house.",note:"Separable: 'Ik richt het huis in.'\n'De inrichting' = the interior/furnishing.\n'Meubels' = furniture."},
+         {type:"teach",kind:"phrase",nl:"de buurt",en:"the neighbourhood",phonetic:"duh buurt",example:"Het is een leuke buurt.",exampleEn:"It's a nice neighbourhood.",note:"De-word. 'De buren' = the neighbours.\n'De buurtsuper' = the local supermarket.\n'In de buurt' = nearby."},
+         {type:"teach",kind:"phrase",nl:"de wijk",en:"the district / neighbourhood",phonetic:"duh vayk",example:"In welke wijk woon je?",exampleEn:"In which district do you live?",note:"De-word. Slightly larger than 'buurt'.\n'Een woonwijk' = a residential area.\n'Een industriewijk' = an industrial area."},
+         {type:"teach",kind:"word",nl:"inschrijven",en:"to register",phonetic:"IN-sghray-vun",example:"Je moet je inschrijven bij de gemeente.",exampleEn:"You must register at the municipality.",note:"Separable: 'Ik schrijf me in.'\n'De inschrijving' = the registration.\nRequired in NL within 5 days of moving!"},
+         {type:"teach",kind:"grammar",nl:"inmiddels",en:"meanwhile / by now",phonetic:"in-MI-duls",example:"We zijn inmiddels verhuisd.",exampleEn:"We've moved by now.",note:"Adverb. Very useful connector.\n'Inmiddels' = by now, in the meantime.\nShows time has passed: 'Inmiddels woon ik hier al twee jaar.'"},
+
+         {type:"mc",q:"'Verhuizen' means:",opts:["To furnish","To move house","To buy","To register"],ans:"To move house",hint:"ver- + huis (house)"},
+         {type:"fb",s:"Je moet je ___ bij de gemeente.",a:"inschrijven",opts:["inschrijven","verhuizen","inrichten","opzeggen"],hint:"You must register"},
+         {type:"match",pairs:[{nl:"verhuizen",en:"to move"},{nl:"inrichten",en:"to furnish"},{nl:"de buurt",en:"neighbourhood"},{nl:"inschrijven",en:"to register"}]},
+         {type:"fb",s:"We zijn ___ verhuisd.",a:"inmiddels",opts:["inmiddels","gisteren","altijd","nooit"],hint:"We've moved BY NOW"},
+         {type:"drag_fill",s:"In welke {1} woon je? Het is een leuke {2}.",blanks:{"1":"wijk","2":"buurt"},pool:["wijk","buurt","huis","stad"],hint:"Which district? Nice neighbourhood."},
+         {type:"tr",mk:"v2u17_we_are_moving",dir:"produce"},
+       ]},
+
+// ═══ L3: Het Huis Waarin... ═══
+       {id:"v2u17l3",title:"Het Huis Waarin...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Het Huis Waarin...",desc:"You learned 'die' and 'dat' for relative clauses in a later lesson. Now it's time for the next level: prepositional relatives. When you need 'in which', 'about which', or 'on which', Dutch uses 'waar + preposition'. 'Het huis waarin ik woon' = The house in which I live.",goals:["waar + preposition = in which, about which, etc.","waarin, waarop, waarmee, waarover, waaraan","Verb-final in the relative clause","Practice with housing context"]},
+
+         {type:"tip",title:"📐 Waar + Preposition",text:"You already know:\nDe man die hier woont. = The man who lives here.\nHet boek dat ik lees. = The book that I read.\n\nBut what about:\nThe house IN WHICH I live?\nThe topic ABOUT WHICH we talked?\n\nDutch uses: waar + preposition:\nwaar + in = waarin\nwaar + op = waarop\nwaar + mee(t) = waarmee\nwaar + over = waarover\nwaar + aan = waaraan\nwaar + voor = waarvoor\nwaar + naar = waarnaar\n\nHet huis waarin ik woon.\n= The house in which I live.\n\nHet onderwerp waarover we spraken.\n= The topic about which we spoke.\n\nDe stoel waarop ik zit.\n= The chair on which I sit.\n\nVerb goes to END (it's a relative clause!)."},
+
+         {type:"teach",kind:"word",nl:"waarin",en:"in which",phonetic:"vahr-IN",example:"Het huis waarin ik woon, is oud.",exampleEn:"The house in which I live is old.",note:"waar + in. For things/places.\n'Het land waarin ik woon.'\n'De stad waarin ik ben geboren.'"},
+         {type:"teach",kind:"word",nl:"waarop",en:"on which",phonetic:"vahr-OP",example:"De stoel waarop ik zit, is kapot.",exampleEn:"The chair on which I sit is broken.",note:"waar + op. For surfaces/dates.\n'De dag waarop we verhuizen.'\n= The day on which we move."},
+         {type:"teach",kind:"word",nl:"waarmee",en:"with which",phonetic:"vahr-MAY",example:"De pen waarmee ik schrijf.",exampleEn:"The pen with which I write.",note:"waar + mee (from 'met').\n'Met' becomes 'mee' in compounds.\nJust like 'ermee' from Unit 14!"},
+         {type:"teach",kind:"word",nl:"waarover",en:"about which",phonetic:"vahr-OH-vur",example:"Het onderwerp waarover we spraken.",exampleEn:"The topic about which we spoke.",note:"waar + over.\n'Waarover gaat het?' = What is it about?\nSame 'over' as in 'erover' (Unit 14)."},
+
+         {type:"tip",title:"💡 Informal Alternative",text:"Formal: Het huis waarin ik woon.\nInformal: Het huis waar ik in woon.\n\nBoth are correct! In speech, Dutch people\noften SPLIT waar from the preposition:\n\nFormal: Het boek waarover we spraken.\nInformal: Het boek waar we over spraken.\n\nFormal: De pen waarmee ik schrijf.\nInformal: De pen waar ik mee schrijf.\n\nThe split version sounds more natural in speech.\nThe combined version is more formal/written.\nBoth are 100% correct."},
+
+         {type:"mc",q:"'Het huis waarin ik woon'  -  'waarin' means:",opts:["that","who","in which","because"],ans:"in which",hint:"waar + in = in which"},
+         {type:"fb",s:"De stoel ___ ik zit, is kapot.",a:"waarop",opts:["waarop","waarin","waarmee","waarover"],hint:"The chair ON WHICH I sit"},
+         {type:"match",pairs:[{nl:"waarin",en:"in which"},{nl:"waarop",en:"on which"},{nl:"waarmee",en:"with which"},{nl:"waarover",en:"about which"}]},
+         {type:"mc",q:"Informal version of 'Het boek waarover we spraken':",opts:["Het boek waar we over spraken.","Het boek over waar we spraken.","Het boek we waar over spraken.","There is no informal version."],ans:"Het boek waar we over spraken.",hint:"Split: waar ... over"},
+         {type:"drag_fill",s:"Het huis {1} ik woon. De pen {2} ik schrijf.",blanks:{"1":"waarin","2":"waarmee"},pool:["waarin","waarmee","waarop","waarover"],hint:"The house IN WHICH. The pen WITH WHICH."},
+         {type:"fb",s:"Het onderwerp ___ we spraken.",a:"waarover",opts:["waarover","waarin","waarmee","waarop"],hint:"The topic ABOUT WHICH we spoke"},
+         {type:"tr",mk:"v2u17_house_i_live_in",dir:"produce"},
+       ]},
+
+// ═══ L4: De Persoon Met Wie... ═══
+       {id:"v2u17l4",title:"De Persoon Met Wie...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"De Persoon Met Wie...",desc:"'Waar + preposition' is for THINGS. For PEOPLE, Dutch uses 'preposition + wie'. 'De collega met wie ik werk' = The colleague with whom I work. This is more formal  -  informal Dutch often uses 'waar...mee' for people too.",goals:["preposition + wie = for people","de man met wie, de vrouw voor wie","Formal vs informal usage","Combine waar-relatives and wie-relatives"]},
+
+         {type:"tip",title:"📐 Wie vs Waar  -  People vs Things",text:"For THINGS: waar + preposition\nHet huis waarin ik woon.\nDe stoel waarop ik zit.\n\nFor PEOPLE: preposition + wie\nDe collega met wie ik werk.\nDe man voor wie ik het deed.\nDe vrouw aan wie ik het gaf.\n\nCommon combinations:\nmet wie = with whom\nvoor wie = for whom\naan wie = to whom\nover wie = about whom\nvan wie = from whom / whose\nbij wie = at/with whom\n\nINFORMAL: Dutch speakers often use\n'waar...mee' even for people:\n'De man waar ik mee werk.'\nThis is very common in speech!\n\nFORMAL: 'De man met wie ik werk.'\nUse this in writing and formal contexts."},
+
+         {type:"teach",kind:"phrase",nl:"met wie",en:"with whom",phonetic:"met vee",example:"De collega met wie ik werk.",exampleEn:"The colleague with whom I work.",note:"For people. Formal/written.\nInformal: 'De collega waar ik mee werk.'\nBoth correct  -  formal writing prefers 'met wie'."},
+         {type:"teach",kind:"phrase",nl:"voor wie",en:"for whom",phonetic:"vohr vee",example:"De klant voor wie het rapport is.",exampleEn:"The client for whom the report is.",note:"For people. 'Voor wie doe je dat?'\n= For whom are you doing that?\nAlso a question word: 'Voor wie is dit?'"},
+         {type:"teach",kind:"phrase",nl:"aan wie",en:"to whom",phonetic:"ahn vee",example:"De persoon aan wie ik het vertelde.",exampleEn:"The person to whom I told it.",note:"For people with 'aan'.\n'Aan wie geef je het cadeau?'\n= To whom are you giving the present?"},
+
+         {type:"mc",q:"'De collega met wie ik werk'  -  for things, this would be:",opts:["Het kantoor waarin ik werk.","Het kantoor met wie ik werk.","Het kantoor voor wie ik werk.","Het kantoor aan wie ik werk."],ans:"Het kantoor waarin ik werk.",hint:"Things = waar + preposition, People = preposition + wie"},
+         {type:"fb",s:"De man ___ wie ik samenwerk.",a:"met",opts:["met","voor","aan","van"],hint:"The man WITH whom I collaborate"},
+         {type:"match",pairs:[{nl:"met wie",en:"with whom"},{nl:"voor wie",en:"for whom"},{nl:"aan wie",en:"to whom"},{nl:"waarin",en:"in which (things)"}]},
+         {type:"mc",q:"'De man waar ik mee werk' vs 'De man met wie ik werk':",opts:["First is wrong","Second is wrong","First = informal, second = formal","No difference"],ans:"First = informal, second = formal",hint:"Both correct  -  register difference"},
+         {type:"drag_fill",s:"De collega {1} wie ik werk. Het huis {2} ik woon.",blanks:{"1":"met","2":"waarin"},pool:["met","waarin","voor","waarop"],hint:"The colleague WITH whom. The house IN WHICH."},
+         {type:"fb",s:"De klant ___ wie het rapport is.",a:"voor",opts:["voor","met","aan","van"],hint:"The client FOR whom the report is"},
+         {type:"tr",mk:"v2u17_colleague_i_work_with",dir:"produce"},
+       ]},
+
+// ═══ L5: Het Contract ═══
+       {id:"v2u17l5",title:"Het Contract",icon:"📋",xp:15,board:true,steps:[
+         {type:"intro",title:"Het Contract",desc:"Formal language time. Rental contracts, conditions, terms  -  the language of legal documents simplified for B1. You'll read a simplified contract excerpt and learn key terms.",goals:["Contract vocabulary: voorwaarden, kosten, termijn","Read a simplified rental contract","Formal register practice","Combine housing vocab with relative clauses"]},
+
+         {type:"teach",kind:"phrase",nl:"de voorwaarden",en:"the conditions / terms",phonetic:"duh VOHR-vahr-dun",example:"Lees de voorwaarden goed door.",exampleEn:"Read the conditions carefully.",note:"Always plural in this meaning: de voorwaarden.\n'Onder voorwaarde dat...' = on condition that...\nContracts always list voorwaarden."},
+         {type:"teach",kind:"phrase",nl:"de kosten",en:"the costs / expenses",phonetic:"duh KOS-tun",example:"De bijkomende kosten zijn hoog.",exampleEn:"The additional costs are high.",note:"Always plural: de kosten.\n'Bijkomende kosten' = additional costs.\n'Servicekosten' = service charges (very common in NL)."},
+         {type:"teach",kind:"phrase",nl:"de termijn",en:"the term / period / deadline",phonetic:"duh tur-MAYN",cognate:{words:[{lang:"English",word:"term"},{lang:"French",word:"terme"}],family:"latin"},example:"De opzegtermijn is één maand.",exampleEn:"The notice period is one month.",note:"De-word. 'De looptijd' = duration/term.\n'De opzegtermijn' = notice period.\n'Op korte termijn' = in the short term."},
+
+         {type:"tip",title:"📋 Lees: Een Huurcontract (vereenvoudigd)",text:"HUUROVEREENKOMST\n\nHuurder: [naam]\nVerhuurder: [naam]\n\nArtikel 1: Het gehuurde\nHet betreft het appartement aan de Keizersgracht 42.\n\nArtikel 2: Huurprijs\nDe huur bedraagt € 1.250 per maand.\nDe servicekosten bedragen € 150 per maand.\n\nArtikel 3: Waarborgsom\nDe huurder betaalt een borg van twee maanden huur.\n\nArtikel 4: Opzegtermijn\nDe opzegtermijn bedraagt één kalendermaand.\n\nArtikel 5: Onderhoud\nKlein onderhoud is voor rekening van de huurder.",deepDive:{title:"Vertaling",text:"RENTAL AGREEMENT\n\nTenant: [name]\nLandlord: [name]\n\nArticle 1: The rented property\nIt concerns the apartment at Keizersgracht 42.\n\nArticle 2: Rent price\nThe rent amounts to €1,250 per month.\nThe service charges amount to €150 per month.\n\nArticle 3: Security deposit\nThe tenant pays a deposit of two months' rent.\n\nArticle 4: Notice period\nThe notice period amounts to one calendar month.\n\nArticle 5: Maintenance\nMinor maintenance is at the tenant's expense."}},
+
+         {type:"mc",q:"In the contract, 'bedraagt' means:",opts:["becomes","amounts to","is reduced","is paid"],ans:"amounts to",hint:"bedragen = to amount to (formal)"},
+         {type:"fb",s:"De ___ bedragen € 150 per maand.",a:"servicekosten",opts:["servicekosten","huur","borg","termijn"],hint:"The service CHARGES amount to €150"},
+         {type:"match",pairs:[{nl:"de voorwaarden",en:"the conditions"},{nl:"de kosten",en:"the costs"},{nl:"de opzegtermijn",en:"notice period"},{nl:"de waarborgsom",en:"security deposit"}]},
+         {type:"mc",q:"'Klein onderhoud is voor rekening van de huurder' means:",opts:["The tenant must leave","Minor maintenance is the tenant's responsibility","The owner pays for everything","The deposit covers maintenance"],ans:"Minor maintenance is the tenant's responsibility",hint:"Voor rekening van = at the expense of"},
+         {type:"fb",s:"De opzegtermijn bedraagt ___ kalendermaand.",a:"één",opts:["één","twee","drie","geen"],hint:"The notice period = one calendar month"},
+       ]},
+
+// ═══ L6: Bij de Gemeente ═══
+       {id:"v2u17l6",title:"Bij de Gemeente",icon:"🏛️",xp:15,board:true,steps:[
+         {type:"intro",title:"Bij de Gemeente",desc:"Every time you move in the Netherlands, you must register at the gemeente (municipality). DigiD, BSN, uittreksel  -  the vocabulary of Dutch bureaucracy continues from Unit 12.",goals:["Municipality vocab: DigiD, uittreksel, bewijs","Formal email writing: opening and closing","Practice: write a short formal email","Combine housing + bureaucracy vocabulary"]},
+
+         {type:"teach",kind:"phrase",nl:"het uittreksel",en:"the extract / certificate",phonetic:"hut OWT-trek-sul",example:"Ik heb een uittreksel nodig.",exampleEn:"I need an extract/certificate.",note:"Het-word. 'Een uittreksel uit de basisregistratie'\n= an extract from the population register.\nYou need this for many official things in NL."},
+         {type:"teach",kind:"phrase",nl:"het bewijs",en:"the proof / certificate",phonetic:"hut buh-VAYS",example:"Ik heb een bewijs van inschrijving.",exampleEn:"I have a proof of registration.",note:"Het-word. 'Bewijs van inschrijving' = proof of registration.\n'Het rijbewijs' = the driving licence.\nCompound: rij (drive) + bewijs (proof)."},
+         {type:"teach",kind:"phrase",nl:"de adreswijziging",en:"the change of address",phonetic:"duh ah-DRES-vay-zi-ging",example:"Ik moet een adreswijziging doorgeven.",exampleEn:"I need to report a change of address.",note:"De-word. adres + wijziging (change).\n'Doorgeven' = to pass on/report.\nYou must do this within 5 days of moving!"},
+
+         {type:"tip",title:"✉️ Een Formele E-mail",text:"Opening (formal):\nGeachte heer/mevrouw, = Dear Sir/Madam,\nGeachte heer De Vries, = Dear Mr De Vries,\n\nBody:\nBij deze wil ik u informeren dat...\n= I hereby wish to inform you that...\n\nZou u zo vriendelijk willen zijn om...\n= Would you be so kind as to...\n\nClosing:\nMet vriendelijke groet, = Kind regards,\nHoogachtend, = Respectfully yours, (very formal)\n\nExample:\nGeachte heer/mevrouw,\n\nBij deze wil ik mijn adreswijziging doorgeven.\nMijn nieuwe adres is: Keizersgracht 42, Amsterdam.\nKunt u mij een bewijs van inschrijving sturen?\n\nMet vriendelijke groet,\n[naam]"},
+
+         {type:"mc",q:"'Geachte heer/mevrouw' is used in:",opts:["Casual emails","Formal emails and letters","Text messages","Only government letters"],ans:"Formal emails and letters",hint:"Formal opening = Geachte..."},
+         {type:"fb",s:"Ik heb een ___ van inschrijving nodig.",a:"bewijs",opts:["bewijs","uittreksel","contract","formulier"],hint:"Proof of registration"},
+         {type:"match",pairs:[{nl:"het uittreksel",en:"the extract"},{nl:"het bewijs",en:"the proof"},{nl:"de adreswijziging",en:"address change"},{nl:"Geachte heer/mevrouw",en:"Dear Sir/Madam"}]},
+         {type:"fb",s:"___ vriendelijke groet, (closing a formal email)",a:"Met",opts:["Met","Van","Door","Bij"],hint:"Kind regards = Met vriendelijke groet"},
+         {type:"mc",q:"When moving in NL, you must register within:",opts:["1 day","5 days","30 days","No deadline"],ans:"5 days",hint:"Within 5 days of moving!"},
+       ]},
+
+// ═══ L7: De Woningmarkt ═══
+       {id:"v2u17l7",title:"De Woningmarkt",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"De Woningmarkt",desc:"The Dutch housing crisis. Waiting lists of 15 years in Amsterdam, bidding wars, and creative solutions. Understanding the woningmarkt is essential for living in the Netherlands.",goals:["Housing crisis vocabulary","Cultural context: wachtlijst, overbieden","Reading comprehension: housing article","Special Dutch housing: woonboot, tiny house"]},
+
+         {type:"teach",kind:"phrase",nl:"de wachtlijst",en:"the waiting list",phonetic:"duh VAGT-layst",example:"De wachtlijst voor sociale huur is lang.",exampleEn:"The waiting list for social housing is long.",note:"De-word. wacht (wait) + lijst (list).\n'Sociale huur' = social/subsidised housing.\nIn Amsterdam: waiting lists of 10-15+ years."},
+         {type:"teach",kind:"phrase",nl:"de woningnood",en:"the housing shortage",phonetic:"duh VOH-ning-noht",example:"Er is grote woningnood in Nederland.",exampleEn:"There is a major housing shortage in the Netherlands.",note:"De-word. woning (dwelling) + nood (need/crisis).\n'Woningtekort' = housing deficit.\nA major political issue in the Netherlands."},
+         {type:"teach",kind:"word",nl:"overbieden",en:"to outbid / bid over asking price",phonetic:"OH-vur-bee-dun",example:"We moesten flink overbieden.",exampleEn:"We had to outbid significantly.",note:"Separable in some uses: 'We boden over.'\n'Flink overbieden' = to bid well over asking price.\nVery common in Dutch housing market."},
+
+         {type:"tip",title:"🏠 Bijzonder Wonen in Nederland",text:"De woonboot: Many Dutch people live on boats!\nEspecially in Amsterdam and other cities with canals.\n'Een ligplaats' = a mooring/berth.\n\nHet tiny house: Small, sustainable houses.\nA growing trend for people who want\nsimple, affordable, eco-friendly living.\n\nDe woningcorporatie: Housing association.\nManages social housing (sociale huur).\nAbout 30% of Dutch homes are social housing.\n\nAnti-kraak / leegstandsbeheer:\nLiving in empty buildings as a 'property guardian'.\nCheap rent in exchange for occupying vacant buildings.\nA uniquely Dutch solution to the housing crisis."},
+
+         {type:"mc",q:"In Amsterdam, social housing waiting lists can be:",opts:["1-2 years","5-7 years","10-15+ years","No waiting list"],ans:"10-15+ years",hint:"Very long waiting times"},
+         {type:"fb",s:"Er is grote ___ in Nederland.",a:"woningnood",opts:["woningnood","wachtlijst","woonboot","buurt"],hint:"Housing shortage"},
+         {type:"match",pairs:[{nl:"de wachtlijst",en:"waiting list"},{nl:"overbieden",en:"to outbid"},{nl:"de woonboot",en:"houseboat"},{nl:"de woningnood",en:"housing shortage"}]},
+         {type:"mc",q:"'Anti-kraak' living means:",opts:["Illegal squatting","Living as property guardian in vacant buildings","Living on a boat","Renting from the government"],ans:"Living as property guardian in vacant buildings",hint:"Cheap rent for occupying empty buildings"},
+       ]},
+
+// ═══ L8: Unit 17 Review ═══
+       {id:"v2u17l8",title:"Unit 17 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 17 Review",desc:"Housing vocabulary, extended relative clauses, contracts, and Dutch housing culture. Let's bring it all together.",goals:["Review housing and moving vocabulary","waar + preposition relatives","preposition + wie for people","Contract and formal register"]},
+
+         {type:"mc",q:"'Het huis waarin ik woon'  -  'waarin' means:",opts:["that","in which","about which","for whom"],ans:"in which",hint:"waar + in = in which"},
+         {type:"fb",s:"De collega ___ wie ik werk.",a:"met",opts:["met","voor","aan","in"],hint:"WITH whom I work"},
+         {type:"match",pairs:[{nl:"huren",en:"to rent"},{nl:"de hypotheek",en:"the mortgage"},{nl:"verhuizen",en:"to move"},{nl:"de borg",en:"the deposit"}]},
+         {type:"mc",q:"For THINGS use ___, for PEOPLE use ___:",opts:["waar+prep, prep+wie","wie, waar","die/dat, waar","prep+wie, waar+prep"],ans:"waar+prep, prep+wie",hint:"Things: waarin, waarop. People: met wie, voor wie."},
+         {type:"fb",s:"Het onderwerp ___ we spraken.",a:"waarover",opts:["waarover","waarmee","waarin","waarop"],hint:"The topic ABOUT WHICH we spoke"},
+         {type:"drag_fill",s:"De stoel {1} ik zit. De klant {2} wie het rapport is.",blanks:{"1":"waarop","2":"voor"},pool:["waarop","voor","waarmee","met"],hint:"ON WHICH I sit. FOR WHOM the report is."},
+         {type:"mc",q:"'De opzegtermijn bedraagt één maand'  -  'bedraagt' means:",opts:["costs","amounts to","requires","reduces"],ans:"amounts to",hint:"Formal: bedragen = to amount to"},
+         {type:"fb",s:"We moesten flink ___. (outbid)",a:"overbieden",opts:["overbieden","huren","kopen","betalen"],hint:"We had to outbid significantly"},
+         {type:"mc",q:"'Met vriendelijke groet' is used to:",opts:["Open an email","Close a formal email","Introduce yourself","Ask a question"],ans:"Close a formal email",hint:"Kind regards = closing"},
+         {type:"fb",s:"Je moet je ___ bij de gemeente.",a:"inschrijven",opts:["inschrijven","verhuizen","opzeggen","inrichten"],hint:"You must REGISTER at the municipality"},
+         {type:"tr",mk:"v2u17_house_i_live_in",dir:"produce"},
+         {type:"tr",mk:"v2u17_colleague_i_work_with",dir:"produce"},
+         {type:"tr",mk:"v2u17_we_are_moving",dir:"produce"},
+       ]},
+  ]},
+
+  {n:18,lang:"nl",track:"v2",title:"Hij Zei Dat...",sub:"Indirect Speech & Reporting",icon:"🗣️",level:"B1.2",color:"#F56565",lessons:[
+// ═══ L1: Zeggen & Vertellen ═══
+       {id:"v2u18l1",title:"Zeggen & Vertellen",icon:"🗣️",xp:15,board:true,steps:[
+         {type:"intro",title:"Zeggen & Vertellen",desc:"How do you report what someone said? First you need the right verbs. Dutch has many reporting verbs, and 'zeggen' vs 'vertellen' is a crucial distinction that English doesn't make clearly.",goals:["Reporting verbs: zeggen, vertellen, vragen, uitleggen","zeggen vs vertellen: key difference","Additional verbs: beweren, melden, waarschuwen","Prepare for indirect speech in L2–L4"]},
+
+         {type:"teach",kind:"word",nl:"zeggen",en:"to say",phonetic:"ZEG-un",example:"Hij zei: 'Ik ben moe.'",exampleEn:"He said: 'I am tired.'",note:"'Zeggen' = to say (no indirect object required).\nImperfectum: zei / zeiden.\n'Hij zei dat...' = He said that...\nDoes NOT need 'to someone'."},
+         {type:"teach",kind:"word",nl:"vertellen",en:"to tell",phonetic:"fur-TEL-un",example:"Zij vertelde mij het verhaal.",exampleEn:"She told me the story.",note:"'Vertellen' = to tell (needs a person!).\n'Vertellen aan' someone.\nImperfectum: vertelde / vertelden.\n'Zij vertelde mij dat...' = She told me that..."},
+         {type:"teach",kind:"word",nl:"vragen",en:"to ask",phonetic:"VRAH-gun",example:"Hij vroeg of ik meeging.",exampleEn:"He asked if I was coming along.",note:"'Vragen' = to ask. Imperfectum: vroeg / vroegen.\n'Vragen of...' = to ask whether/if...\n'Vragen wat/wie/waar...' = to ask what/who/where..."},
+         {type:"teach",kind:"word",nl:"uitleggen",en:"to explain",phonetic:"OWT-leg-un",example:"Zij legde uit hoe het werkt.",exampleEn:"She explained how it works.",note:"Separable: 'Zij legt uit...' → 'Zij legde uit...'\n'Uitleggen hoe/wat/waarom...' = explain how/what/why...\n'De uitleg' = the explanation."},
+         {type:"teach",kind:"grammar",nl:"beweren",en:"to claim / assert",phonetic:"buh-VAY-run",example:"Hij beweerde dat het waar was.",exampleEn:"He claimed that it was true.",note:"Inseparable (be- prefix).\n'Beweren' implies you may not believe them.\n'Hij beweert dat...' = He claims that... (skeptical tone)."},
+         {type:"teach",kind:"word",nl:"waarschuwen",en:"to warn",phonetic:"VAHR-sgoo-wun",example:"Zij waarschuwde mij voor het gevaar.",exampleEn:"She warned me about the danger.",note:"'Waarschuwen voor' = to warn about.\n'De waarschuwing' = the warning.\n'Ik waarschuwde dat...' = I warned that..."},
+         {type:"teach",kind:"word",nl:"melden",en:"to report / notify",phonetic:"MEL-dun",example:"De politie meldde dat er een ongeluk was.",exampleEn:"The police reported that there was an accident.",note:"'Melden' = to report/notify (formal).\n'Het bericht meldde dat...' = The report stated that...\nVery common in news: 'bronnen melden dat...'"},
+
+         {type:"tip",title:"🔑 Zeggen vs Vertellen",text:"ZEGGEN = to SAY (no person needed):\nHij zei: 'Ik ga weg.'\nHij zei dat hij wegging.\n\nVERTELLEN = to TELL (needs a person!):\nZij vertelde MIJ het verhaal.\nZij vertelde MIJ dat ze ging.\n\n✗ 'Hij vertelde dat...' (who did he tell?)\n✓ 'Hij vertelde mij/ons dat...' (correct: person included)\n\nThis matches English:\n'He said he was leaving.' (no person)\n'He told ME he was leaving.' (person needed)\n\nException: 'vertellen' without person\nis sometimes used in storytelling:\n'Zij vertelde over haar reis.' (told about her trip)"},
+
+         {type:"mc",q:"'Zeggen' vs 'vertellen': the key difference is:",opts:["No difference","zeggen = say (no person), vertellen = tell (needs person)","zeggen = formal, vertellen = informal","zeggen = past, vertellen = present"],ans:"zeggen = say (no person), vertellen = tell (needs person)",hint:"He said vs He told ME"},
+         {type:"fb",s:"Hij ___ dat hij moe was.",a:"zei",opts:["zei","vertelde","vroeg","legde"],hint:"He SAID that (no person needed)"},
+         {type:"match",pairs:[{nl:"zeggen",en:"to say"},{nl:"vertellen",en:"to tell"},{nl:"vragen",en:"to ask"},{nl:"uitleggen",en:"to explain"}]},
+         {type:"fb",s:"Zij ___ mij het verhaal. (told)",a:"vertelde",opts:["vertelde","zei","vroeg","beweerde"],hint:"She TOLD me (needs person!)"},
+         {type:"mc",q:"'Beweren' implies:",opts:["Certainty","Skepticism  -  you may not believe them","Excitement","A question"],ans:"Skepticism  -  you may not believe them",hint:"Hij beweert dat... = He claims that..."},
+         {type:"drag_fill",s:"Hij {1} of ik meeging. Zij {2} mij voor het gevaar.",blanks:{"1":"vroeg","2":"waarschuwde"},pool:["vroeg","waarschuwde","zei","vertelde"],hint:"He asked if. She warned me about."},
+       ]},
+
+// ═══ L2: Hij Zei Dat... ═══
+       {id:"v2u18l2",title:"Hij Zei Dat...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Hij Zei Dat...",desc:"Indirect speech for statements. Direct: He said 'I am tired.' → Indirect: He said that he was tired. In Dutch: Hij zei: 'Ik ben moe.' → Hij zei dat hij moe was. The tense shifts back, and the word order changes.",goals:["Direct → indirect statements","hij zei dat + verb-final clause","Tense backshift: present → imperfectum","Pronoun changes: ik → hij"]},
+
+         {type:"tip",title:"📐 Direct → Indirect Speech",text:"Direct speech (what someone actually said):\nHij zei: 'Ik ben moe.'\n= He said: 'I am tired.'\n\nIndirect speech (reported):\nHij zei dat hij moe was.\n= He said that he was tired.\n\nWhat changes?\n1. Quotes disappear.\n2. 'Dat' introduces the clause.\n3. Verb goes to END (subordinate clause!).\n4. Tense shifts back: ben → was.\n5. Pronoun changes: ik → hij.\n\nMore examples:\n'Ik heb honger.' → Hij zei dat hij honger had.\n'Wij gaan morgen.' → Zij zei dat ze morgen gingen.\n'Het regent.' → Ze vertelde dat het regende."},
+
+         {type:"tip",title:"📐 Tense Backshift",text:"When the reporting verb is PAST (zei, vertelde),\nthe tense in the dat-clause shifts BACK:\n\nPresent → Imperfectum:\n'Ik ben moe.' → dat hij moe WAS.\n'Ik heb honger.' → dat hij honger HAD.\n'Ik werk hier.' → dat hij daar WERKTE.\n\nThe logic: what WAS present at the time\nis now in the past (because we're reporting it later).\n\nIf the reporting verb is PRESENT, no shift:\nHij zegt dat hij moe is. (present → present)\n\nOnly shift when reporting in the PAST:\nHij zei dat hij moe was. (past reporting → shift)"},
+
+         {type:"mc",q:"'Ik ben moe.' → Hij zei dat hij moe ___.",opts:["is","was","ben","werd"],ans:"was",hint:"Present → imperfectum (tense backshift)"},
+         {type:"fb",s:"'Ik heb honger.' → Zij zei dat zij honger ___.",a:"had",opts:["had","heb","heeft","hebben"],hint:"heb → had (backshift)"},
+         {type:"mc",q:"In 'Hij zei dat hij moe was', why is 'was' at the end?",opts:["It's always at the end","'Dat' starts a subordinate clause","It's past perfect","Random order"],ans:"'Dat' starts a subordinate clause",hint:"dat/omdat/als → verb to end"},
+         {type:"drag_fill",s:"'Wij gaan morgen.' → Zij zei dat ze morgen {1}. 'Het regent.' → Hij vertelde dat het {2}.",blanks:{"1":"gingen","2":"regende"},pool:["gingen","regende","gaan","regent"],hint:"gaan → gingen, regent → regende"},
+         {type:"match",pairs:[{nl:"Hij zei dat hij moe was.",en:"He said he was tired."},{nl:"Zij vertelde dat ze honger had.",en:"She told that she was hungry."},{nl:"Hij zei dat hij daar werkte.",en:"He said he worked there."},{nl:"Ze zei dat het regende.",en:"She said it was raining."}]},
+         {type:"fb",s:"'Ik werk in Amsterdam.' → Hij zei dat hij in Amsterdam ___.",a:"werkte",opts:["werkte","werkt","werk","werkde"],hint:"werk → werkte (imperfectum)"},
+         {type:"mc",q:"Pronoun change: 'Ik ga weg.' → Hij zei dat ___ wegging.",opts:["ik","hij","jij","we"],ans:"hij",hint:"ik → hij (the speaker becomes 'he')"},
+         {type:"tr",mk:"v2u18_he_said_tired",dir:"produce"},
+       ]},
+
+// ═══ L3: Ze Vroeg Of... ═══
+       {id:"v2u18l3",title:"Ze Vroeg Of...",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Ze Vroeg Of...",desc:"Indirect speech for QUESTIONS. 'Did he come?' becomes 'She asked if he came.' Dutch uses 'of' for yes/no questions and the question word (wat, waar, wie) for wh-questions.",goals:["Indirect yes/no questions: vroeg of...","Indirect wh-questions: vroeg wat/waar/wie...","Word order: verb to end after of/wat/waar","Combine with tense backshift"]},
+
+         {type:"tip",title:"📐 Indirect Questions",text:"YES/NO questions → 'of' (whether/if):\n'Kom je morgen?' → Zij vroeg of ik morgen kwam.\n= She asked if I was coming tomorrow.\n\n'Heb je tijd?' → Hij vroeg of ik tijd had.\n= He asked if I had time.\n\nWH-questions → keep the question word:\n'Waar woon je?' → Zij vroeg waar ik woonde.\n= She asked where I lived.\n\n'Wat doe je?' → Hij vroeg wat ik deed.\n= He asked what I did.\n\n'Hoe laat begint het?' → Ze vroeg hoe laat het begon.\n= She asked what time it started.\n\nRules:\n1. 'Of' for yes/no, question word for wh-.\n2. Verb goes to END (subordinate clause).\n3. Tense shifts back (if reporting in past).\n4. NO question mark  -  it's not a question anymore!"},
+
+         {type:"mc",q:"'Kom je morgen?' → Zij vroeg ___ ik morgen kwam.",opts:["dat","of","wat","als"],ans:"of",hint:"Yes/no question → of (whether/if)"},
+         {type:"fb",s:"'Waar woon je?' → Zij vroeg ___ ik woonde.",a:"waar",opts:["waar","of","wat","dat"],hint:"WH-question → keep the question word"},
+         {type:"mc",q:"In 'Ze vroeg of ik tijd had', why is 'had' at the end?",opts:["Past tense rule","Sub-clause: verb goes to the end","Question order","Random"],ans:"Sub-clause: verb goes to the end",hint:"of/dat/waar → verb-final"},
+         {type:"drag_fill",s:"'Heb je tijd?' → Hij vroeg {1} ik tijd {2}.",blanks:{"1":"of","2":"had"},pool:["of","had","dat","heb"],hint:"He asked IF I had time."},
+         {type:"match",pairs:[{nl:"Ze vroeg of ik kwam.",en:"She asked if I was coming."},{nl:"Hij vroeg waar ik woonde.",en:"He asked where I lived."},{nl:"Ze vroeg wat ik deed.",en:"She asked what I did."},{nl:"Hij vroeg of ik tijd had.",en:"He asked if I had time."}]},
+         {type:"fb",s:"'Hoe laat begint het?' → Ze vroeg hoe laat het ___.",a:"begon",opts:["begon","begint","begonnen","beginnen"],hint:"begint → begon (backshift)"},
+         {type:"mc",q:"Indirect questions end with:",opts:["A question mark","A period  -  it's not a question anymore","An exclamation mark","Nothing"],ans:"A period  -  it's not a question anymore",hint:"Ze vroeg of ik kwam. (statement, not question)"},
+         {type:"tr",mk:"v2u18_she_asked_coming",dir:"produce"},
+       ]},
+
+// ═══ L4: De Tijd Verschuift ═══
+       {id:"v2u18l4",title:"De Tijd Verschuift",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"De Tijd Verschuift",desc:"The full tense backshift system. What happens to the perfect tense and the future tense in indirect speech? Present → imperfectum you already know. Now: perfect → past perfect, and zullen → zou.",goals:["Perfect → plusquamperfectum in indirect speech","Future (zullen) → zou/zouden","Complete backshift system","Practice all patterns together"]},
+
+         {type:"tip",title:"📐 Full Tense Backshift",text:"When reporting in the PAST (hij zei dat...):\n\nPresent → Imperfectum:\n'Ik ben moe.' → dat hij moe was.\n'Ik werk hier.' → dat hij daar werkte.\n\nPerfect → Plusquamperfectum (Past Perfect):\n'Ik heb gegeten.' → dat hij had gegeten.\n'Ik ben geweest.' → dat hij was geweest.\n\nFuture (zullen) → zou/zouden:\n'Ik zal komen.' → dat hij zou komen.\n'Wij zullen helpen.' → dat zij zouden helpen.\n\nSummary:\nben/heb → was/had\nheb gedaan → had gedaan\nzal doen → zou doen\n\nPast perfect (had gedaan) stays the same:\n'Ik had al gegeten.' → dat hij al had gegeten.\n(Can't shift further back!)"},
+
+         {type:"mc",q:"'Ik heb gegeten.' → Hij zei dat hij had ___.",opts:["gegeten","eten","at","gegeet"],ans:"gegeten",hint:"heb gegeten → had gegeten (perfect → past perfect)"},
+         {type:"fb",s:"'Ik zal komen.' → Hij zei dat hij ___ komen.",a:"zou",opts:["zou","zal","zullen","kan"],hint:"zal → zou (future → conditional)"},
+         {type:"mc",q:"'Ik ben naar Parijs geweest.' → Zij zei dat zij naar Parijs ___ geweest.",opts:["was","is","ben","had"],ans:"was",hint:"ben geweest → was geweest"},
+         {type:"drag_fill",s:"'Wij zullen helpen.' → Zij zei dat zij {1} helpen. 'Ik heb het gedaan.' → Hij zei dat hij het {2} gedaan.",blanks:{"1":"zouden","2":"had"},pool:["zouden","had","zullen","heb"],hint:"zullen → zouden, heb → had"},
+         {type:"match",pairs:[{nl:"ben → was",en:"present → past"},{nl:"heb gedaan → had gedaan",en:"perfect → past perfect"},{nl:"zal doen → zou doen",en:"future → conditional"},{nl:"had gedaan → had gedaan",en:"past perfect stays"}]},
+         {type:"fb",s:"'Ik zal het afmaken.' → Zij vertelde dat zij het ___ afmaken.",a:"zou",opts:["zou","zal","had","was"],hint:"zal → zou"},
+         {type:"mc",q:"Past perfect in indirect speech:",opts:["Shifts to present","Shifts further back","Stays the same  -  can't shift further","Disappears"],ans:"Stays the same  -  can't shift further",hint:"Had gedaan is already the deepest past"},
+         {type:"tr",mk:"v2u18_he_said_would_come",dir:"produce"},
+       ]},
+
+// ═══ L5: Roddelen ═══
+       {id:"v2u18l5",title:"Roddelen",icon:"💬",xp:15,board:true,steps:[
+         {type:"intro",title:"Roddelen",desc:"Gossiping in Dutch. 'Weet je wat ze zei?'  -  informal reporting is a daily activity. You'll learn the casual reporting words: kennelijk, schijnbaar, blijkbaar, and how to gossip like a native.",goals:["Informal reporting vocabulary","kennelijk, schijnbaar, blijkbaar (apparently)","Gossip dialogue practice","Indirect speech in casual contexts"]},
+
+         {type:"teach",kind:"word",nl:"blijkbaar",en:"apparently / evidently",phonetic:"BLAYK-bahr",example:"Blijkbaar gaat ze verhuizen.",exampleEn:"Apparently she's moving.",note:"'Blijkbaar' = apparently (based on evidence).\nImplies: I can SEE it's true.\n'Blijken' = to turn out/appear.\nMost neutral of the three 'apparently' words."},
+         {type:"teach",kind:"word",nl:"schijnbaar",en:"apparently / seemingly",phonetic:"SGHAYN-bahr",example:"Hij is schijnbaar ziek.",exampleEn:"He is apparently sick.",note:"'Schijnbaar' = seemingly (might not be true!).\n'Schijn' = appearance.\nImplies: it LOOKS like it, but maybe not.\nSubtle difference from 'blijkbaar'."},
+         {type:"teach",kind:"word",nl:"kennelijk",en:"apparently / evidently",phonetic:"KEN-uh-luk",example:"Kennelijk is het waar.",exampleEn:"Evidently it's true.",note:"'Kennelijk' = evidently (based on knowledge).\nThe most formal of the three.\n'Kennen' = to know. 'Kennis' = knowledge.\nIn practice, often interchangeable with 'blijkbaar'."},
+         {type:"teach",kind:"word",nl:"roddelen",en:"to gossip",phonetic:"ROD-uh-lun",example:"Mijn collega's roddelen veel.",exampleEn:"My colleagues gossip a lot.",note:"'Roddelen' = to gossip. 'De roddel' = gossip/rumour.\n'Roddelen over' = to gossip about.\nVery useful for informal conversation!"},
+
+         {type:"tip",title:"💬 Roddelgesprek (Gossip Conversation)",text:"A: Heb je gehoord van Lisa?\nB: Nee, wat dan?\n\nA: Blijkbaar gaat ze een nieuwe baan zoeken.\nB: Echt waar? Wie heeft dat gezegd?\n\nA: Mark vertelde het aan mij.\n   Hij zei dat ze ontevreden was over haar salaris.\nB: Dat verbaast me niet.\n   Ze had al vaker gezegd dat ze meer wilde verdienen.\n\nA: En kennelijk heeft ze al gesolliciteerd bij Google.\nB: Wauw! Ik hoop dat het lukt.\n\nNotice the mix:\n- Direct: 'Wie heeft dat gezegd?'\n- Indirect: 'Hij zei dat ze ontevreden was.'\n- Reporting: 'Blijkbaar', 'Kennelijk'\n- Past perfect: 'Ze had al vaker gezegd dat...'"},
+
+         {type:"mc",q:"'Blijkbaar' vs 'schijnbaar': the key difference is:",opts:["No difference","blijkbaar = probably true, schijnbaar = might not be true","blijkbaar = formal, schijnbaar = informal","blijkbaar = past, schijnbaar = present"],ans:"blijkbaar = probably true, schijnbaar = might not be true",hint:"schijn = appearance (might be deceiving)"},
+         {type:"fb",s:"___ gaat ze verhuizen.",a:"Blijkbaar",opts:["Blijkbaar","Schijnbaar","Kennelijk","Misschien"],hint:"Apparently she's moving (neutral/factual)"},
+         {type:"match",pairs:[{nl:"blijkbaar",en:"apparently (evidence)"},{nl:"schijnbaar",en:"seemingly (maybe not)"},{nl:"kennelijk",en:"evidently (formal)"},{nl:"roddelen",en:"to gossip"}]},
+         {type:"fb",s:"Mark ___ dat ze ontevreden was.",a:"zei",opts:["zei","vertelde","vroeg","beweerde"],hint:"Mark SAID that (no person after zei)"},
+         {type:"mc",q:"In the dialogue, 'Ze had al vaker gezegd dat...' uses:",opts:["Present tense","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"Had gezegd = past perfect"},
+         {type:"tr",mk:"v2u18_apparently",dir:"produce"},
+       ]},
+
+// ═══ L6: Het Journaal ═══
+       {id:"v2u18l6",title:"Het Journaal",icon:"📺",xp:15,board:true,steps:[
+         {type:"intro",title:"Het Journaal",desc:"News reporting in Dutch. 'De minister verklaarde dat...'  -  formal indirect speech is the backbone of news writing. You'll read a simplified news broadcast and see indirect speech in its natural habitat.",goals:["News reporting vocabulary: verklaarde, bleek, volgens","Formal indirect speech in news","Reading comprehension: news broadcast","Combine passive + indirect speech"]},
+
+         {type:"teach",kind:"word",nl:"verklaren",en:"to declare / state",phonetic:"fur-KLAH-run",example:"De minister verklaarde dat de plannen doorgaan.",exampleEn:"The minister declared that the plans will proceed.",note:"Inseparable (ver-). Very formal.\n'De verklaring' = the declaration/statement.\nNews language: 'De premier verklaarde dat...'"},
+         {type:"teach",kind:"word",nl:"blijken",en:"to turn out / to appear",phonetic:"BLAY-kun",example:"Uit onderzoek blijkt dat het waar is.",exampleEn:"Research shows that it is true.",note:"'Uit onderzoek blijkt dat...' = Research shows that...\n'Het blijkt dat...' = It turns out that...\nVery common in news and academic Dutch."},
+         {type:"teach",kind:"word",nl:"volgens",en:"according to",phonetic:"VOL-guns",example:"Volgens de minister zijn de maatregelen nodig.",exampleEn:"According to the minister, the measures are needed.",note:"You learned 'Volgens mij' in U11.\nNow expanded: 'Volgens de krant...'\n'Volgens bronnen...' = According to sources..."},
+
+         {type:"tip",title:"📺 Lees: Het NOS Journaal",text:"Goedeavond. Dit zijn de belangrijkste berichten.\n\nDe minister van Onderwijs verklaarde vandaag\ndat er meer geld komt voor basisscholen.\nUit onderzoek is gebleken dat Nederlandse kinderen\nminder goed lezen dan tien jaar geleden.\n\nVolgens de minister moeten scholen meer uren\nbesteden aan leesonderwijs.\nDe oppositie vroeg of het budget voldoende is.\nDe minister antwoordde dat er volgend jaar\nmeer middelen beschikbaar worden gesteld.",deepDive:{title:"Vertaling",text:"Good evening. These are the most important reports.\n\nThe Minister of Education declared today\nthat more money is coming for primary schools.\nResearch has shown that Dutch children\nread less well than ten years ago.\n\nAccording to the minister, schools must spend\nmore hours on reading education.\nThe opposition asked if the budget is sufficient.\nThe minister answered that next year\nmore resources will be made available."}},
+
+         {type:"mc",q:"'Uit onderzoek is gebleken dat...' means:",opts:["The research failed","Research has shown that...","People investigated whether...","Research is needed"],ans:"Research has shown that...",hint:"Blijken = to turn out/appear"},
+         {type:"fb",s:"De minister ___ dat er meer geld komt.",a:"verklaarde",opts:["verklaarde","vroeg","beweerde","meldde"],hint:"The minister declared/stated that"},
+         {type:"match",pairs:[{nl:"verklaren",en:"to declare"},{nl:"blijken",en:"to turn out"},{nl:"volgens",en:"according to"},{nl:"antwoorden",en:"to answer"}]},
+         {type:"fb",s:"___ de minister moeten scholen meer uren besteden.",a:"Volgens",opts:["Volgens","Door","Van","Met"],hint:"ACCORDING TO the minister"},
+         {type:"mc",q:"In 'De oppositie vroeg of het budget voldoende is', 'of' means:",opts:["or","if/whether","that","because"],ans:"if/whether",hint:"Indirect yes/no question → of"},
+       ]},
+
+// ═══ L7: Brieven & E-mails ═══
+       {id:"v2u18l7",title:"Brieven & E-mails",icon:"✉️",xp:15,board:true,steps:[
+         {type:"intro",title:"Brieven & E-mails",desc:"Formal vs informal writing in Dutch. You already saw 'Geachte heer/mevrouw' and 'Met vriendelijke groet'. Now let's contrast formal emails with informal WhatsApp messages and learn the full register spectrum.",goals:["Formal email: Geachte, Bij deze, Hoogachtend","Informal: Hoi, Groetjes, x","WhatsApp style vs business email","Write in both registers"]},
+
+         {type:"tip",title:"✉️ Formeel vs Informeel",text:"FORMEEL (business email):\nGeachte heer De Vries,\n\nNaar aanleiding van ons gesprek wil ik u informeren\ndat het rapport is afgerond.\nKunt u mij laten weten wanneer u beschikbaar bent?\n\nMet vriendelijke groet,\nAnna Bakker\n\nINFORMEEL (WhatsApp/text):\nHoi Jan!\n\nHet rapport is klaar.\nWanneer heb je tijd?\n\nGroetjes!\nAnna\n\nKey differences:\n- Geachte → Hoi/Hallo/Beste\n- u → jij/je\n- Naar aanleiding van → (just state it directly)\n- Kunt u → Kun je\n- Met vriendelijke groet → Groetjes/Gr/xxx"},
+
+         {type:"teach",kind:"phrase",nl:"naar aanleiding van",en:"with regard to / further to",phonetic:"nahr AHN-lay-ding fan",example:"Naar aanleiding van uw e-mail...",exampleEn:"With regard to your email...",note:"Very formal opening phrase.\n'Naar aanleiding van ons gesprek...' = Further to our conversation...\nOnly in formal emails and letters."},
+         {type:"teach",kind:"word",nl:"beschikbaar",en:"available",phonetic:"buh-SGIK-bahr",cognate:{words:[{lang:"German",word:"verfügbar (similar pattern)"}],family:"germanic"},example:"Bent u morgen beschikbaar?",exampleEn:"Are you available tomorrow?",note:"'Beschikbaar zijn' = to be available.\nFormal: 'Wanneer bent u beschikbaar?'\nInformal: 'Wanneer heb je tijd?'"},
+         {type:"teach",kind:"word",nl:"groetjes",en:"regards / love (informal closing)",phonetic:"GROOT-yus",example:"Groetjes, Anna",exampleEn:"Regards, Anna",note:"Informal email/message closing.\n'Groetjes' = little greetings (diminutive!).\n'Groeten' = greetings (slightly more formal).\n'Gr' = abbreviation in texts."},
+
+         {type:"mc",q:"'Naar aanleiding van uw e-mail'  -  which register?",opts:["Very informal","Formal","Neutral","Slang"],ans:"Formal",hint:"Only in business/formal writing"},
+         {type:"fb",s:"___ heer De Vries, (formal email opening)",a:"Geachte",opts:["Geachte","Beste","Hoi","Lieve"],hint:"Most formal opening"},
+         {type:"match",pairs:[{nl:"Geachte heer/mevrouw",en:"Dear Sir/Madam (formal)"},{nl:"Met vriendelijke groet",en:"Kind regards (formal)"},{nl:"Hoi",en:"Hi (informal)"},{nl:"Groetjes",en:"Regards (informal)"}]},
+         {type:"mc",q:"In a formal email, 'u' is used instead of:",opts:["wij","zij","jij/je","hij"],ans:"jij/je",hint:"u = formal you, jij = informal you"},
+         {type:"fb",s:"Kunt u mij laten ___ wanneer u beschikbaar bent?",a:"weten",opts:["weten","zien","horen","komen"],hint:"Let me KNOW (laten weten = to let know)"},
+       ]},
+
+// ═══ L8: Unit 18 Review ═══
+       {id:"v2u18l8",title:"Unit 18 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 18 Review",desc:"Reporting verbs, indirect statements, indirect questions, tense backshift, and register. Let's test the full indirect speech toolkit.",goals:["zeggen vs vertellen reviewed","hij zei dat... + tense backshift","ze vroeg of... + question words","Formal vs informal register"]},
+
+         {type:"mc",q:"'Hij zei dat hij moe was.'  -  tense backshift:",opts:["ben → was","was → is","is → wordt","No shift"],ans:"ben → was",hint:"Present → imperfectum"},
+         {type:"fb",s:"'Heb je tijd?' → Ze vroeg ___ ik tijd had.",a:"of",opts:["of","dat","wat","als"],hint:"Yes/no question → of"},
+         {type:"match",pairs:[{nl:"zei dat",en:"said that"},{nl:"vroeg of",en:"asked if"},{nl:"vertelde dat",en:"told that"},{nl:"beweerde dat",en:"claimed that"}]},
+         {type:"mc",q:"'Ik heb gegeten.' → Hij zei dat hij ___.",opts:["heb gegeten","heeft gegeten","had gegeten","at"],ans:"had gegeten",hint:"Perfect → past perfect (heb → had)"},
+         {type:"fb",s:"'Ik zal komen.' → Zij zei dat zij ___ komen.",a:"zou",opts:["zou","zal","had","was"],hint:"zal → zou (future → conditional)"},
+         {type:"drag_fill",s:"{1} gaat ze verhuizen. Hij {2} dat hij zou komen.",blanks:{"1":"Blijkbaar","2":"zei"},pool:["Blijkbaar","zei","Volgens","vroeg"],hint:"Apparently she's moving. He said he would come."},
+         {type:"mc",q:"'Vertellen' differs from 'zeggen' because:",opts:["It's more formal","It needs a person (tell someone)","It's only for questions","It's only for past tense"],ans:"It needs a person (tell someone)",hint:"Vertellen aan iemand = tell someone"},
+         {type:"fb",s:"Uit onderzoek ___ dat het waar is.",a:"blijkt",opts:["blijkt","zegt","vertelt","vraagt"],hint:"Research SHOWS that... (blijken)"},
+         {type:"mc",q:"Formal email closing:",opts:["Groetjes","Doei","Met vriendelijke groet","xxx"],ans:"Met vriendelijke groet",hint:"Formal = Met vriendelijke groet"},
+         {type:"fb",s:"De minister ___ dat de plannen doorgaan.",a:"verklaarde",opts:["verklaarde","roddelde","groette","schreef"],hint:"The minister DECLARED that"},
+         {type:"tr",mk:"v2u18_he_said_tired",dir:"produce"},
+         {type:"tr",mk:"v2u18_she_asked_coming",dir:"produce"},
+         {type:"tr",mk:"v2u18_he_said_would_come",dir:"produce"},
+       ]},
+  ]},
+
+  {n:19,lang:"nl",track:"v2",title:"Nederland & De Wereld",sub:"Participles, Compounds & Prefixes",icon:"🌍",level:"B1.2",color:"#2ECDA7",lessons:[
+// ═══ L1: Tradities ═══
+       {id:"v2u19l1",title:"Tradities",icon:"🎉",xp:15,board:true,steps:[
+         {type:"intro",title:"Tradities",desc:"Dutch traditions are unique. Sinterklaas, Koningsdag, Carnaval, the Nieuwjaarsduik  -  they define Dutch culture. Let's learn the vocabulary to talk about what makes the Netherlands special.",goals:["Dutch tradition vocabulary","Sinterklaas, Koningsdag, Carnaval","Cultural context and history","Talk about holidays and celebrations"]},
+
+         {type:"teach",kind:"word",nl:"Sinterklaas",en:"Saint Nicholas (Dutch tradition)",phonetic:"SIN-tur-klahs",example:"Sinterklaas komt op 5 december.",exampleEn:"Sinterklaas comes on December 5th.",note:"THE Dutch children's holiday.\n'Pakjesavond' = gift evening (Dec 5th, not 25th!).\n'Pepernoten' = spiced cookies.\nMuch bigger than Christmas in NL for children."},
+         {type:"teach",kind:"word",nl:"Koningsdag",en:"King's Day",phonetic:"KOH-nings-dahg",example:"Op Koningsdag draagt iedereen oranje.",exampleEn:"On King's Day everyone wears orange.",note:"April 27th. The king's birthday.\n'Vrijmarkt' = free market (everyone sells stuff).\nThe whole country turns orange.\n'Koninginnedag' was the old name (Queen's Day)."},
+         {type:"teach",kind:"word",nl:"Carnaval",en:"Carnival",phonetic:"kar-nah-VAL",cognate:{words:[{lang:"English",word:"carnival"},{lang:"French",word:"carnaval"}],family:"latin"},example:"Carnaval wordt vooral in het zuiden gevierd.",exampleEn:"Carnival is mainly celebrated in the south.",note:"3 days before Ash Wednesday.\nMainly in the south: Brabant, Limburg.\nCostumes, parades, beer. Cities get silly nicknames.\n'Alaaf!' = carnival greeting in Limburg."},
+         {type:"teach",kind:"word",nl:"Bevrijdingsdag",en:"Liberation Day",phonetic:"buh-FRAY-dings-dahg",example:"Bevrijdingsdag is op 5 mei.",exampleEn:"Liberation Day is on May 5th.",note:"May 5th. End of WWII occupation.\nDay before: 'Dodenherdenking' (Remembrance Day, May 4).\nAt 8pm on May 4: 2 minutes of silence nationwide."},
+         {type:"teach",kind:"phrase",nl:"de Nieuwjaarsduik",en:"the New Year's dive",phonetic:"duh NEEW-yahrs-dowk",example:"Duizenden mensen doen de Nieuwjaarsduik.",exampleEn:"Thousands of people do the New Year's dive.",note:"January 1st: jump into the North Sea.\nScheveningen beach: the biggest one.\nWater temperature: about 5°C!\n'Duiken' = to dive."},
+         {type:"teach",kind:"word",nl:"oliebollen",en:"Dutch doughnuts (New Year's treat)",phonetic:"OH-lee-bol-un",example:"Bij Oud en Nieuw eten we oliebollen.",exampleEn:"At New Year's we eat oliebollen.",note:"Deep-fried dough balls with powdered sugar.\n'Oud en Nieuw' = Old and New (New Year's Eve).\nAlso: 'appelflappen' = apple turnovers.\nTraditional New Year's food."},
+         {type:"teach",kind:"word",nl:"vieren",en:"to celebrate",phonetic:"VEE-run",example:"Hoe vier jij je verjaardag?",exampleEn:"How do you celebrate your birthday?",note:"'Vieren' = to celebrate.\n'Het feest' = the party/celebration.\n'Gefeliciteerd!' = Congratulations!\nDutch birthdays: YOU bring cake to work."},
+
+         {type:"mc",q:"When is Sinterklaas celebrated?",opts:["December 25th","December 5th","January 6th","November 11th"],ans:"December 5th",hint:"Pakjesavond = December 5th"},
+         {type:"fb",s:"Op ___ draagt iedereen oranje.",a:"Koningsdag",opts:["Koningsdag","Sinterklaas","Carnaval","Pasen"],hint:"King's Day = orange everywhere"},
+         {type:"match",pairs:[{nl:"Sinterklaas",en:"Saint Nicholas"},{nl:"Koningsdag",en:"King's Day"},{nl:"Bevrijdingsdag",en:"Liberation Day"},{nl:"de Nieuwjaarsduik",en:"New Year's dive"}]},
+         {type:"mc",q:"Carnaval is mainly celebrated in:",opts:["Amsterdam","The north","The south (Brabant, Limburg)","The east"],ans:"The south (Brabant, Limburg)",hint:"Brabant and Limburg = carnival territory"},
+         {type:"fb",s:"Bij Oud en Nieuw eten we ___.",a:"oliebollen",opts:["oliebollen","pepernoten","pannenkoeken","stroopwafels"],hint:"Deep-fried dough balls for New Year's"},
+         {type:"mc",q:"On Dutch birthdays, who brings the cake?",opts:["The guests","The birthday person","Nobody","The boss"],ans:"The birthday person",hint:"YOU bring cake  -  to work, to school, everywhere"},
+       ]},
+
+// ═══ L2: Het Milieu ═══
+       {id:"v2u19l2",title:"Het Milieu",icon:"🌱",xp:15,board:true,steps:[
+         {type:"intro",title:"Het Milieu",desc:"The Netherlands takes sustainability seriously. Solar panels, cycling infrastructure, recycling  -  but also a country below sea level dealing with climate change. The vocabulary of environment and sustainability.",goals:["Environment vocabulary: milieu, duurzaam, recyclen","Climate and nature words","Connector: steeds meer (increasingly)","Talk about environmental issues"]},
+
+         {type:"teach",kind:"phrase",nl:"het milieu",en:"the environment",phonetic:"hut mi-LYUH",cognate:{words:[{lang:"French",word:"milieu"},{lang:"English",word:"milieu"}],family:"french"},example:"Het milieu is belangrijk.",exampleEn:"The environment is important.",note:"Het-word. False friend alert!\n'Milieu' = environment (not 'milieu' as in social class).\n'Het milieu beschermen' = to protect the environment."},
+         {type:"teach",kind:"word",nl:"duurzaam",en:"sustainable",phonetic:"DUUR-zahm",example:"We moeten duurzamer leven.",exampleEn:"We must live more sustainably.",note:"'Duurzaam' = sustainable/durable.\n'Duurzaamheid' = sustainability.\n'Duurzame energie' = sustainable energy.\nA key Dutch buzzword."},
+         {type:"teach",kind:"word",nl:"recyclen",en:"to recycle",phonetic:"ree-SAY-klun",cognate:{words:[{lang:"English",word:"recycle"}],family:"english"},example:"In Nederland recyclen we veel.",exampleEn:"In the Netherlands we recycle a lot.",note:"Borrowed from English. Also: 'hergebruiken' (re-use).\n'De afvalbak' = the waste bin.\n'Gescheiden inzameling' = separated collection."},
+         {type:"teach",kind:"phrase",nl:"de vervuiling",en:"the pollution",phonetic:"duh fur-VOW-ling",example:"De luchtvervuiling is een probleem.",exampleEn:"Air pollution is a problem.",note:"De-word. 'Vervuilen' = to pollute.\n'De luchtvervuiling' = air pollution.\n'De watervervuiling' = water pollution."},
+         {type:"teach",kind:"word",nl:"besparen",en:"to save (money/energy)",phonetic:"buh-SPAH-run",example:"We moeten energie besparen.",exampleEn:"We must save energy.",note:"'Besparen' = to save (reduce usage).\nNOT 'sparen' which = to save (put money aside).\n'Energiebesparing' = energy saving."},
+         {type:"teach",kind:"grammar",nl:"steeds meer",en:"increasingly / more and more",phonetic:"stayts mayr",example:"Steeds meer mensen fietsen naar het werk.",exampleEn:"More and more people cycle to work.",note:"Very useful connector!\n'Steeds' = ever/continually.\n'Steeds meer' = more and more.\n'Steeds minder' = less and less."},
+
+         {type:"mc",q:"'Duurzaam' means:",opts:["Expensive","Sustainable","Fast","Traditional"],ans:"Sustainable",hint:"Duurzaam = sustainable/durable"},
+         {type:"fb",s:"We moeten energie ___.",a:"besparen",opts:["besparen","sparen","recyclen","vervuilen"],hint:"Save energy (reduce usage)"},
+         {type:"match",pairs:[{nl:"het milieu",en:"the environment"},{nl:"duurzaam",en:"sustainable"},{nl:"de vervuiling",en:"pollution"},{nl:"besparen",en:"to save (energy)"}]},
+         {type:"fb",s:"___ meer mensen fietsen naar het werk.",a:"Steeds",opts:["Steeds","Veel","Heel","Meer"],hint:"More and more = steeds meer"},
+         {type:"mc",q:"'Besparen' vs 'sparen':",opts:["Same meaning","besparen = reduce usage, sparen = put money aside","besparen = formal, sparen = informal","besparen = energy, sparen = time"],ans:"besparen = reduce usage, sparen = put money aside",hint:"Energie besparen vs geld sparen"},
+         {type:"tr",mk:"v2u19_sustainable",dir:"produce"},
+       ]},
+
+// ═══ L3: De Werkende Vrouw ═══
+       {id:"v2u19l3",title:"De Werkende Vrouw",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"De Werkende Vrouw",desc:"A new grammar pattern: using the PRESENT participle as an adjective. 'De werkende vrouw' = the working woman. 'Een groeiend probleem' = a growing problem. The present participle = infinitive + d, then add -e before nouns.",goals:["Present participle: infinitive + -d","As adjective: + -e before nouns","de werkende vrouw, een groeiend probleem","Distinguish from past participles"]},
+
+         {type:"tip",title:"📐 Present Participle as Adjective",text:"Formation:\nInfinitive + -d = present participle\nwerken + d = werkend (working)\ngroeien + d = groeiend (growing)\nlopen + d = lopend (walking/running)\nslapen + d = slapend (sleeping)\n\nAs adjective (add -e before a noun):\nde werkende vrouw = the working woman\neen groeiend probleem = a growing problem\nhet lopende project = the ongoing project\nde slapende baby = the sleeping baby\n\nThis describes an ONGOING action:\n'werkend' = currently working\n'groeiend' = currently growing\n\nDo NOT confuse with past participles:\nwerkend = working (present, ongoing)\ngewerkt = worked (past, completed)"},
+
+         {type:"teach",kind:"word",nl:"werkend",en:"working (present participle)",phonetic:"VER-kunt",example:"De werkende bevolking groeit.",exampleEn:"The working population is growing.",note:"werken + d = werkend.\nAs adjective: 'de werkende bevolking'.\n= the working population.\nDescribes people who ARE working (ongoing)."},
+         {type:"teach",kind:"word",nl:"groeiend",en:"growing (present participle)",phonetic:"GROO-yunt",example:"Een groeiend probleem in de stad.",exampleEn:"A growing problem in the city.",note:"groeien + d = groeiend.\n'Een groeiend probleem' = a growing problem.\n'De groeiende economie' = the growing economy."},
+         {type:"teach",kind:"word",nl:"komend",en:"coming / next (present participle)",phonetic:"KOH-munt",example:"De komende week ga ik op vakantie.",exampleEn:"The coming week I'm going on vacation.",note:"komen + d = komend.\n'De komende week' = next week.\n'Het komende jaar' = the coming year.\nVery commonly used for 'next/upcoming'."},
+         {type:"teach",kind:"word",nl:"lopend",en:"walking / running / ongoing",phonetic:"LOH-punt",example:"Het lopende onderzoek is bijna klaar.",exampleEn:"The ongoing research is almost finished.",note:"lopen + d = lopend.\n'Het lopende project' = the ongoing/current project.\n'Lopende zaken' = ongoing matters/current affairs."},
+
+         {type:"mc",q:"Present participle formation: werken → ___",opts:["werkend","gewerkt","werkende","werking"],ans:"werkend",hint:"Infinitive + d = present participle"},
+         {type:"fb",s:"Een ___ probleem in de stad. (growing)",a:"groeiend",opts:["groeiend","gegroeid","groeiende","groei"],hint:"groeien + d = groeiend"},
+         {type:"mc",q:"'De werkende vrouw'  -  why '-e' on werkend?",opts:["Always add -e","Add -e when before a noun","Add -e for female","Add -e for de-words only"],ans:"Add -e when before a noun",hint:"Like regular adjectives: groot → grote, werkend → werkende"},
+         {type:"match",pairs:[{nl:"werkend",en:"working"},{nl:"groeiend",en:"growing"},{nl:"komend",en:"coming/next"},{nl:"lopend",en:"ongoing"}]},
+         {type:"drag_fill",s:"De {1} week ga ik op vakantie. Het {2} project is bijna klaar.",blanks:{"1":"komende","2":"lopende"},pool:["komende","lopende","werkende","groeiende"],hint:"The coming week. The ongoing project."},
+         {type:"fb",s:"De ___ bevolking groeit. (working)",a:"werkende",opts:["werkende","gewerkte","werkend","werkde"],hint:"Before a noun: werkend + e = werkende"},
+         {type:"tr",mk:"v2u19_growing_problem",dir:"produce"},
+       ]},
+
+// ═══ L4: De Gesloten Deur ═══
+       {id:"v2u19l4",title:"De Gesloten Deur",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"De Gesloten Deur",desc:"Now the PAST participle as an adjective. You already know past participles from the perfect tense: gesloten, geschreven, gebakken. Now use them before nouns: 'de gesloten deur' = the closed door.",goals:["Past participle as adjective","de gesloten deur, een gebakken ei","Adjective agreement with past participles","Contrast: present vs past participle adjectives"]},
+
+         {type:"tip",title:"📐 Past Participle as Adjective",text:"You already know past participles:\ngesloten (closed), geschreven (written),\ngebakken (baked/fried), gebroken (broken)\n\nUse them as adjectives before nouns:\nde gesloten deur = the closed door\nhet geschreven woord = the written word\neen gebakken ei = a fried egg\neen gebroken been = a broken leg\n\nAdjective agreement rules apply:\nde gesloten deur (de-word → no extra -e!)\neen gesloten deur (indefinite → no extra -e!)\nhet gesloten raam (het-word → no extra -e!)\n\nWait  -  no -e? That's because most strong PPs\nalready end in -en: geslot-EN, geschrev-EN.\nThey DON'T take an extra -e.\n\nWeak PPs (ending in -t/-d) DO take -e:\nde gekookte aardappel = the cooked potato\neen georganiseerd feest = an organized party"},
+
+         {type:"teach",kind:"grammar",nl:"gesloten",en:"closed (as adjective)",phonetic:"guh-SLOH-tun",example:"De gesloten deur ging niet open.",exampleEn:"The closed door wouldn't open.",note:"sluiten → gesloten.\n'De gesloten winkel' = the closed shop.\nStrong PP (-en ending): no extra -e needed!"},
+         {type:"teach",kind:"word",nl:"geschreven",en:"written (as adjective)",phonetic:"guh-SGRAY-vun",example:"Het geschreven woord is krachtig.",exampleEn:"The written word is powerful.",note:"schrijven → geschreven.\n'Een geschreven brief' = a written letter.\nStrong PP: no extra -e."},
+         {type:"teach",kind:"word",nl:"gebakken",en:"baked / fried (as adjective)",phonetic:"guh-BAK-kun",example:"Een gebakken ei met brood.",exampleEn:"A fried egg with bread.",note:"bakken → gebakken.\n'Een gebakken vis' = a fried fish.\n'Gebak' = pastries/cakes (related noun)."},
+         {type:"teach",kind:"word",nl:"gebroken",en:"broken (as adjective)",phonetic:"guh-BROH-kun",cognate:{words:[{lang:"English",word:"broken"},{lang:"German",word:"gebrochen"}],family:"germanic"},example:"Hij heeft een gebroken been.",exampleEn:"He has a broken leg.",note:"breken → gebroken. Cognate!\nEnglish: broken, German: gebrochen.\n'Een gebroken hart' = a broken heart."},
+
+         {type:"tip",title:"📐 Present vs Past Participle",text:"PRESENT participle = ONGOING action:\nde werkende vrouw = the woman who IS working\neen groeiend probleem = a problem that IS growing\n\nPAST participle = COMPLETED action/state:\nde gesloten deur = the door that HAS BEEN closed\neen gebroken been = a leg that HAS BEEN broken\n\nPresent: -end(e) = happening NOW.\nPast: ge-...-en/-t/-d = already DONE.\n\nde slapende baby = the baby who is sleeping (now)\nde gebroken vaas = the vase that was broken (already)"},
+
+         {type:"mc",q:"'De gesloten deur'  -  'gesloten' is:",opts:["Present participle","Past participle used as adjective","A verb","An adverb"],ans:"Past participle used as adjective",hint:"gesloten = closed (completed action)"},
+         {type:"fb",s:"Een ___ ei met brood. (fried)",a:"gebakken",opts:["gebakken","gebroken","gesloten","bakken"],hint:"bakken → gebakken"},
+         {type:"match",pairs:[{nl:"de gesloten deur",en:"the closed door"},{nl:"het geschreven woord",en:"the written word"},{nl:"een gebroken been",en:"a broken leg"},{nl:"een gebakken ei",en:"a fried egg"}]},
+         {type:"mc",q:"'De werkende vrouw' (present) vs 'de gesloten deur' (past):",opts:["Both describe ongoing actions","Present = ongoing, past = completed","Present = completed, past = ongoing","No difference"],ans:"Present = ongoing, past = completed",hint:"Working (now) vs closed (already done)"},
+         {type:"drag_fill",s:"De {1} winkel is dicht. Een {2} probleem in de stad.",blanks:{"1":"gesloten","2":"groeiend"},pool:["gesloten","groeiend","werkende","geschreven"],hint:"Closed (past PP). Growing (present PP)."},
+         {type:"fb",s:"Het ___ woord is krachtig.",a:"geschreven",opts:["geschreven","schrijvende","geschrijf","schreef"],hint:"The WRITTEN word (past participle)"},
+         {type:"tr",mk:"v2u19_closed_door",dir:"produce"},
+       ]},
+
+// ═══ L5: Samengestelde Woorden ═══
+       {id:"v2u19l5",title:"Samengestelde Woorden",icon:"🔗",xp:15,board:true,steps:[
+         {type:"intro",title:"Samengestelde Woorden",desc:"Dutch LOVES compound nouns. Stack two, three, or even four words together! 'Zonnebril' (sun-glasses), 'fietsenstalling' (bicycle-parking), 'koffiezetapparaat' (coffee-making-device). Learn the rules and the linking sounds.",goals:["Compound noun formation","Linking sounds: -s-, -en-, -e-","Common compounds in daily life","Gender rule: last word determines de/het"]},
+
+         {type:"tip",title:"🔗 Dutch Compound Nouns",text:"Dutch stacks nouns together. No spaces!\n\nzon + bril = zonnebril (sunglasses)\nfiets + stalling = fietsenstalling (bicycle parking)\nkoffie + zet + apparaat = koffiezetapparaat (coffee maker)\nhuis + arts = huisarts (GP/family doctor)\n\nLinking sounds between the parts:\n-e-: zonnebril (zon + e + bril)\n-en-: fietsenstalling (fiets + en + stalling)\n-s-: dorpsplein (dorp + s + plein)\nNothing: huisarts (huis + arts)\n\nWhich linking sound? No perfect rule!\nBut -en- is common after plural-like nouns.\n-s- is common after certain endings.\nYou'll develop a feel for it.\n\nGender rule: the LAST word determines de/het!\nde zonnebril (bril = de)\nhet dorpsplein (plein = het)\nde huisarts (arts = de)"},
+
+         {type:"teach",kind:"phrase",nl:"de zonnebril",en:"sunglasses",phonetic:"duh ZON-uh-bril",example:"Ik heb mijn zonnebril vergeten.",exampleEn:"I forgot my sunglasses.",note:"zon(ne) + bril = sun-glasses.\nDe-word (because 'de bril' = de).\n'Zon' + linking -e- + 'bril'."},
+         {type:"teach",kind:"phrase",nl:"de huisarts",en:"the GP / family doctor",phonetic:"duh HOWS-arts",example:"Ik ga morgen naar de huisarts.",exampleEn:"I'm going to the GP tomorrow.",note:"huis + arts = house-doctor.\nNo linking sound needed.\nDe-word (because 'de arts' = de).\nEveryone in NL has a huisarts."},
+         {type:"teach",kind:"phrase",nl:"de fietsenstalling",en:"bicycle parking / bike rack",phonetic:"duh FEET-sun-stal-ling",example:"De fietsenstalling is vol.",exampleEn:"The bicycle parking is full.",note:"fiets + en + stalling = bicycle parking.\n-en- linking sound.\nYou'll find these at every train station in NL."},
+         {type:"teach",kind:"phrase",nl:"het koffiezetapparaat",en:"coffee maker / machine",phonetic:"hut KOF-fee-zet-ah-pah-raht",example:"Het koffiezetapparaat is kapot.",exampleEn:"The coffee maker is broken.",note:"koffie + zet + apparaat = coffee-making-device.\n3-part compound! Het-word (apparaat = het).\nThe most Dutch compound example.\n'Zetten' = to make/brew (coffee)."},
+
+         {type:"mc",q:"In compounds, gender is determined by:",opts:["The first word","The last word","Always de","Always het"],ans:"The last word",hint:"De zonneBRIL (bril = de), het dorpsPLEIN (plein = het)"},
+         {type:"fb",s:"Ik ga naar de ___. (GP/family doctor)",a:"huisarts",opts:["huisarts","tandarts","dierenarts","oogarts"],hint:"huis + arts = house doctor"},
+         {type:"match",pairs:[{nl:"zonnebril",en:"sunglasses"},{nl:"fietsenstalling",en:"bicycle parking"},{nl:"koffiezetapparaat",en:"coffee maker"},{nl:"huisarts",en:"GP/family doctor"}]},
+         {type:"mc",q:"'Fietsenstalling' has the linking sound:",opts:["-s-","-en-","-e-","No linking sound"],ans:"-en-",hint:"fiets + EN + stalling"},
+         {type:"fb",s:"Het ___ is kapot.",a:"koffiezetapparaat",opts:["koffiezetapparaat","fietsenstalling","zonnebril","huisarts"],hint:"The coffee maker is broken (het-word)"},
+         {type:"tr",mk:"v2u19_sunglasses",dir:"produce"},
+       ]},
+
+// ═══ L6: Ver-, Be-, Ont- ═══
+       {id:"v2u19l6",title:"Ver-, Be-, Ont-",icon:"📐",xp:20,board:true,steps:[
+         {type:"intro",title:"Ver-, Be-, Ont-",desc:"Dutch has inseparable prefixes that completely change a verb's meaning. Unlike 'op-' or 'af-' (separable), these prefixes STAY attached. 'Ver-' (change), 'be-' (make transitive), 'ont-' (undo), 'her-' (redo).",goals:["Inseparable prefixes: ver-, be-, ont-, her-","How each prefix changes meaning","10+ common inseparable prefix verbs","Past participle: NO ge-! (betaald, not gebetaald)"]},
+
+         {type:"tip",title:"📐 Inseparable Prefixes",text:"Separable (you know these): op, af, aan, uit, mee...\n'Ik bel je op.' (splits in main clause)\n\nInseparable (NEW): ver-, be-, ont-, her-\n'Ik verander het.' (NEVER splits!)\n\nKey rule for past participles:\nSeparable: ge- goes between: opgebeld, aangemaakt\nInseparable: NO ge- at all! veranderd, betaald, ontdekt\n\nWhy? Because ge- is unstressed, and inseparable prefixes\ntake the stress position where ge- would go.\n\nver-: change/intensify\nbe-: make transitive / direct action at\nont-: undo / reverse / begin\nher-: redo / again"},
+
+         {type:"teach",kind:"word",nl:"veranderen",en:"to change",phonetic:"fur-AN-duh-run",example:"De wereld verandert snel.",exampleEn:"The world is changing fast.",note:"ver- + anderen (other) = to change.\nPP: veranderd (NO ge-!).\n'De verandering' = the change."},
+         {type:"teach",kind:"word",nl:"verbeteren",en:"to improve",phonetic:"fur-BAY-tuh-run",example:"Ik wil mijn Nederlands verbeteren.",exampleEn:"I want to improve my Dutch.",note:"ver- + beteren (better) = to improve.\nPP: verbeterd (NO ge-!).\n'De verbetering' = the improvement."},
+         {type:"teach",kind:"word",nl:"betalen",en:"to pay",phonetic:"buh-TAH-lun",example:"Heb je al betaald?",exampleEn:"Have you already paid?",note:"be- + talen = to pay.\nPP: betaald (NO ge-!).\nYou learned this early  -  now you know WHY\nit's 'betaald' and not 'gebetaald'."},
+         {type:"teach",kind:"word",nl:"beschrijven",en:"to describe",phonetic:"buh-SGHRAY-vun",example:"Kun je het probleem beschrijven?",exampleEn:"Can you describe the problem?",note:"be- + schrijven = to describe.\nPP: beschreven (NO ge-!).\n'De beschrijving' = the description."},
+         {type:"teach",kind:"word",nl:"ontdekken",en:"to discover",phonetic:"ont-DEK-kun",example:"Zij heeft een nieuw restaurant ontdekt.",exampleEn:"She discovered a new restaurant.",note:"ont- + dekken (cover) = to dis-cover!\nSame logic as English: un-cover = discover.\nPP: ontdekt (NO ge-!)."},
+         {type:"teach",kind:"word",nl:"onthouden",en:"to remember",phonetic:"ont-HOW-dun",example:"Ik kan het niet onthouden.",exampleEn:"I can't remember it.",note:"ont- + houden (hold) = to retain/remember.\nPP: onthouden (NO ge-!).\n'Onthoud dit!' = Remember this!"},
+         {type:"teach",kind:"word",nl:"herhalen",en:"to repeat",phonetic:"her-HAH-lun",example:"Kunt u dat herhalen?",exampleEn:"Could you repeat that?",note:"her- + halen (fetch) = to re-fetch/repeat.\nPP: herhaald (NO ge-!).\n'De herhaling' = the repetition/rerun."},
+
+         {type:"mc",q:"Past participle of 'betalen':",opts:["gebetaald","betaald","gebetaalt","betaalt"],ans:"betaald",hint:"Inseparable prefix = NO ge-!"},
+         {type:"fb",s:"Ik wil mijn Nederlands ___.",a:"verbeteren",opts:["verbeteren","veranderen","beteren","verteren"],hint:"To improve = ver- + beteren"},
+         {type:"match",pairs:[{nl:"ver-",en:"change/intensify"},{nl:"be-",en:"make transitive"},{nl:"ont-",en:"undo/reverse"},{nl:"her-",en:"redo/again"}]},
+         {type:"mc",q:"Why is it 'ontdekt' and NOT 'geontdekt'?",opts:["It's irregular","Inseparable prefixes don't get ge-","It's a spelling error","Ont- replaces ge-"],ans:"Inseparable prefixes don't get ge-",hint:"ver-, be-, ont-, her- = no ge- in PP"},
+         {type:"fb",s:"Zij heeft een nieuw restaurant ___.",a:"ontdekt",opts:["ontdekt","geontdekt","ontdekken","ontdekte"],hint:"Discovered (PP of ontdekken, no ge-)"},
+         {type:"drag_fill",s:"Kunt u dat {1}? Ik kan het niet {2}.",blanks:{"1":"herhalen","2":"onthouden"},pool:["herhalen","onthouden","veranderen","ontdekken"],hint:"Repeat that? I can't remember it."},
+       ]},
+
+// ═══ L7: Doe Maar Normaal ═══
+       {id:"v2u19l7",title:"Doe Maar Normaal",icon:"🇳🇱",xp:15,board:true,steps:[
+         {type:"intro",title:"Doe Maar Normaal",desc:"The unwritten rules of Dutch society. Gezelligheid, directness, doe normaal, birthday circles, and the tolerance paradox. This lesson explores what makes the Dutch... Dutch.",goals:["Key Dutch cultural concepts","gezellig, nuchter, doe normaal","Birthday and social customs","Reading comprehension: Dutch norms"]},
+
+         {type:"teach",kind:"word",nl:"gezellig",en:"cozy / fun / sociable (untranslatable!)",phonetic:"guh-ZEL-lig",example:"Wat een gezellig feestje!",exampleEn:"What a cozy/fun party!",note:"THE most Dutch word. No exact English translation.\nCan mean: cozy, fun, sociable, pleasant, warm.\n'Gezelligheid' = the state of being gezellig.\nA café, a dinner, a person can all be 'gezellig'."},
+         {type:"teach",kind:"word",nl:"nuchter",en:"sober / down-to-earth / pragmatic",phonetic:"NUG-tur",example:"Nederlanders zijn vrij nuchter.",exampleEn:"The Dutch are fairly down-to-earth.",note:"'Nuchter' = sober (not drunk) AND pragmatic.\n'Nuchtere kijk' = pragmatic/sober view.\n'Doe maar normaal' comes from this nuchterheid."},
+         {type:"teach",kind:"phrase",nl:"doe maar normaal",en:"just act normal / don't show off",phonetic:"doo mahr nor-MAHL",example:"Doe maar normaal, dan doe je al gek genoeg.",exampleEn:"Just act normal, that's crazy enough.",note:"THE Dutch saying. Don't be too flashy,\ntoo loud, too proud, too different.\n'Doe maar normaal, dan doe je al gek genoeg.'\n= Just act normal, that's already crazy enough."},
+
+         {type:"tip",title:"🇳🇱 Nederlandse Sociale Normen",text:"1. Verjaardagen: Everyone sits in a CIRCLE.\nYou congratulate not just the birthday person,\nbut EVERYONE: 'Gefeliciteerd met je vader!'\n= Congratulations with your father! (on his birthday)\n\n2. Directheid: Dutch people say what they think.\n'Dat is niet zo'n goed idee.' = That's not a great idea.\nNot rude  -  just Dutch.\n\n3. Afspraken: Always make an appointment.\nDon't just 'drop by'. Even friends schedule visits.\n'Zullen we een keer afspreken?' = Shall we meet sometime?\n\n4. Gelijkheid: The Netherlands is very egalitarian.\nThe boss makes coffee. The intern gives opinions.\n'Iedereen is gelijk.' = Everyone is equal.\n\n5. Fiets: The bicycle is not transport  -  it's identity.\n'Geen fiets? Geen Nederlander.'\n= No bike? Not Dutch.",deepDive:{title:"Het Tolerantie-paradox",text:"The Dutch are famous for tolerance:\nearly LGBTQ+ rights, legalized euthanasia,\ncoffee shops, the Red Light District.\n\nBut 'tolerance' in Dutch is more like:\n'gedogen' = to allow/tolerate without approving.\nIt's pragmatism more than idealism.\n\nAnd in recent decades, debates about immigration,\nidentity, and integration show that tolerance\nhas its limits and complexities.\n\nThe Netherlands is both very progressive\nand more complicated than the stereotype."}},
+
+         {type:"mc",q:"'Gezellig' can mean:",opts:["Only cozy","Only fun","Cozy, fun, sociable, pleasant  -  depends on context","Only warm"],ans:"Cozy, fun, sociable, pleasant  -  depends on context",hint:"The most untranslatable Dutch word"},
+         {type:"fb",s:"___ maar normaal, dan doe je al gek genoeg.",a:"Doe",opts:["Doe","Ben","Ga","Maak"],hint:"Just ACT normal"},
+         {type:"match",pairs:[{nl:"gezellig",en:"cozy/fun/sociable"},{nl:"nuchter",en:"down-to-earth"},{nl:"doe maar normaal",en:"just act normal"},{nl:"de verjaardag",en:"the birthday"}]},
+         {type:"mc",q:"At a Dutch birthday party, you congratulate:",opts:["Only the birthday person","Everyone present","Nobody  -  it's considered rude","Only family members"],ans:"Everyone present",hint:"'Gefeliciteerd met je vader!'"},
+       ]},
+
+// ═══ L8: Unit 19 Review ═══
+       {id:"v2u19l8",title:"Unit 19 Review",icon:"🔄",xp:20,board:true,steps:[
+         {type:"intro",title:"Unit 19 Review",desc:"Dutch traditions, environment, present and past participles as adjectives, compound nouns, inseparable prefixes, and cultural norms. Let's test it all.",goals:["Present vs past participle adjectives","Compound nouns and gender","Inseparable prefixes: no ge- in PP","Dutch culture and traditions"]},
+
+         {type:"mc",q:"Present participle of 'groeien':",opts:["gegroeid","groeiend","groeiende","groeing"],ans:"groeiend",hint:"Infinitive + d = present participle"},
+         {type:"fb",s:"De ___ deur ging niet open.",a:"gesloten",opts:["gesloten","sluitende","geopende","openende"],hint:"The CLOSED door (past participle)"},
+         {type:"match",pairs:[{nl:"werkend",en:"working (ongoing)"},{nl:"gesloten",en:"closed (done)"},{nl:"groeiend",en:"growing (ongoing)"},{nl:"geschreven",en:"written (done)"}]},
+         {type:"mc",q:"In 'de zonnebril', gender comes from:",opts:["zon (de)","bril (de)","Always de for compounds","The linking sound"],ans:"bril (de)",hint:"Last word determines gender"},
+         {type:"fb",s:"PP of 'ontdekken':",a:"ontdekt",opts:["ontdekt","geontdekt","ontdekken","ontdekte"],hint:"Inseparable prefix = NO ge-!"},
+         {type:"drag_fill",s:"De {1} bevolking groeit. Een {2} ei met brood.",blanks:{"1":"werkende","2":"gebakken"},pool:["werkende","gebakken","gesloten","groeiende"],hint:"Working population (present PP). Fried egg (past PP)."},
+         {type:"mc",q:"'Doe maar normaal' reflects Dutch:",opts:["Love of parties","Nuchterheid (down-to-earth pragmatism)","Formality","Love of rules"],ans:"Nuchterheid (down-to-earth pragmatism)",hint:"Don't show off, just be normal"},
+         {type:"fb",s:"We moeten energie ___.",a:"besparen",opts:["besparen","sparen","recyclen","vervuilen"],hint:"Save energy (reduce usage)"},
+         {type:"mc",q:"Koningsdag is on:",opts:["December 5","April 27","May 5","January 1"],ans:"April 27",hint:"King's birthday"},
+         {type:"fb",s:"Ik wil mijn Nederlands ___.",a:"verbeteren",opts:["verbeteren","veranderen","vertellen","vergeten"],hint:"Improve = ver-beteren"},
+         {type:"tr",mk:"v2u19_growing_problem",dir:"produce"},
+         {type:"tr",mk:"v2u19_closed_door",dir:"produce"},
+         {type:"tr",mk:"v2u19_sustainable",dir:"produce"},
+       ]},
+  ]},
+
+  {n:20,lang:"nl",track:"v2",title:"B1 Klaar!",sub:"Diminutives, Register & Consolidation",icon:"🏆",level:"B1.2",color:"#9B59B6",lessons:[
+// ═══ L1: Verkleinwoorden ═══
+       {id:"v2u20l1",title:"Verkleinwoorden",icon:"🔤",xp:20,board:true,steps:[
+         {type:"intro",title:"Verkleinwoorden",desc:"Diminutives are EVERYWHERE in Dutch. 'Een kopje koffie', 'een broodje', 'een biertje'  -  even 'eventjes' (just a moment). The suffix changes based on the word's ending, and ALL diminutives become het-words. Let's master the full system.",goals:["Five diminutive suffix rules","All diminutives = het-words","Emotional/social uses of diminutives","Practice with common examples"]},
+
+         {type:"tip",title:"🔤 The Five Diminutive Suffixes",text:"The basic suffix is -je. But it changes depending\non the last sound of the word:\n\n1. -JE (standard  -  after most consonants):\nhuis → huisje (little house)\nboek → boekje (little book)\nding → dingetje... wait, that's -etje! See rule 3.\n\n2. -TJE (after long vowel/diphthong/r/l/n):\nbloem → bloempje... wait, that's -pje! \nLet me be more precise:\n-tje after words ending in: -r, -l, -n, long vowel\nauto → autootje\ncafé → cafeetje\n\n3. -ETJE (after -l, -m, -n, -ng, -r + short vowel):\nding → dingetje\nbal → balletje\nman → mannetje\nring → ringetje\n\n4. -PJE (after -m with long vowel):\nbloem → bloempje (little flower)\nboom → boompje (little tree)\nraam → raampje (little window)\n\n5. -KJE (after -ng):\nkoning → koninkje (little king)\nring → ringetje... \n\nThe rules overlap and have exceptions!\nDon't memorize rules  -  learn by example.\nThe more Dutch you hear, the more natural it becomes."},
+
+         {type:"teach",kind:"grammar",nl:"het kopje",en:"the little cup",phonetic:"hut KOP-yuh",example:"Wil je een kopje koffie?",exampleEn:"Would you like a cup of coffee?",note:"kop → kopje. Standard -je suffix.\n'Een kopje koffie' is THE Dutch phrase.\nNote: ALL diminutives are HET-words!\n'De kop' → 'het kopje'."},
+         {type:"teach",kind:"grammar",nl:"het broodje",en:"the bread roll / sandwich",phonetic:"hut BROHT-yuh",example:"Een broodje kaas, alstublieft.",exampleEn:"A cheese sandwich, please.",note:"brood → broodje. -je suffix.\n'Een broodje' = a bread roll or filled roll.\nIn the Netherlands, THE lunch item.\nNotice: de brood → het broodje."},
+         {type:"teach",kind:"grammar",nl:"het biertje",en:"a (little) beer",phonetic:"hut BEER-tyuh",example:"Zullen we een biertje drinken?",exampleEn:"Shall we have a beer?",note:"bier → biertje. -tje suffix (after -r).\n'Een biertje doen' = to have a beer.\nDiminutive makes it sound casual and friendly."},
+         {type:"teach",kind:"grammar",nl:"het bloempje",en:"a little flower",phonetic:"hut BLOOM-pyuh",example:"Wat een leuk bloempje!",exampleEn:"What a cute little flower!",note:"bloem → bloempje. -pje suffix (after -m).\n'De bloem' → 'het bloempje'.\nThe -m + pje combination is very distinctive."},
+         {type:"teach",kind:"grammar",nl:"het ringetje",en:"a little ring",phonetic:"hut RING-uh-tyuh",example:"Een ringetje voor je vinger.",exampleEn:"A little ring for your finger.",note:"ring → ringetje. -etje suffix (after -ng).\nThe 'g' in -ng triggers -etje.\n'De ring' → 'het ringetje'."},
+         {type:"teach",kind:"grammar",nl:"het raampje",en:"a little window",phonetic:"hut RAHM-pyuh",example:"Mag het raampje open?",exampleEn:"May the window be opened?",note:"raam → raampje. -pje suffix (after -m).\nUsed on planes, in cars, etc.\n'De raam' → 'het raampje'."},
+
+         {type:"tip",title:"💡 Why Diminutives Matter",text:"Dutch uses diminutives A LOT more than English.\nThey don't always mean 'small':\n\n'Een kopje koffie' = a cup of coffee (normal size!)\n'Een biertje' = a beer (not small!)\n'Eventjes' = just a moment (not tiny!)\n'Een uurtje' = about an hour (not short!)\n\nDiminutives add:\n- Friendliness: 'een biertje' (casual beer)\n- Softening: 'een momentje' (just a moment, please)\n- Affection: 'mijn schatje' (my darling)\n- Minimizing: 'een probleempje' (a little problem)\n\nDutch without diminutives sounds cold and formal.\nThey're the sugar in the language."},
+
+         {type:"mc",q:"ALL diminutives in Dutch are:",opts:["De-words","Het-words","Sometimes de, sometimes het","No article needed"],ans:"Het-words",hint:"De kop → het kopje. Always het!"},
+         {type:"fb",s:"Wil je een ___ koffie?",a:"kopje",opts:["kopje","koppes","kopke","koppen"],hint:"kop → kopje"},
+         {type:"match",pairs:[{nl:"kopje",en:"-je (standard)"},{nl:"biertje",en:"-tje (after -r)"},{nl:"bloempje",en:"-pje (after -m)"},{nl:"ringetje",en:"-etje (after -ng)"}]},
+         {type:"mc",q:"'Een biertje' doesn't actually mean a SMALL beer. It means:",opts:["A big beer","A friendly/casual beer","A warm beer","A fancy beer"],ans:"A friendly/casual beer",hint:"Diminutives add friendliness, not always smallness"},
+         {type:"fb",s:"bloem → bloem___",a:"pje",opts:["pje","tje","je","etje"],hint:"After -m: -pje"},
+         {type:"drag_fill",s:"Een {1} kaas. Zullen we een {2} drinken?",blanks:{"1":"broodje","2":"biertje"},pool:["broodje","biertje","kopje","bloempje"],hint:"A cheese sandwich. Shall we have a beer?"},
+         {type:"tr",mk:"v2u20_little_cup",dir:"produce"},
+       ]},
+
+// ═══ L2: Formeel & Informeel ═══
+       {id:"v2u20l2",title:"Formeel & Informeel",icon:"👔",xp:15,board:true,steps:[
+         {type:"intro",title:"Formeel & Informeel",desc:"Register switching  -  the ability to move between formal and informal Dutch. From 'Zou u zo vriendelijk willen zijn om...' to 'Kun je even...?' This skill marks a true B1 speaker.",goals:["Formal phrases: Zou u zo vriendelijk willen zijn...","Informal equivalents: Kun je even...?","U vs jij in depth","Business Dutch essentials"]},
+
+         {type:"tip",title:"👔 Register Spectrum",text:"VERY FORMAL (government/legal):\n'Hierbij verzoek ik u om...' = I hereby request you to...\n'Gelieve het formulier in te vullen.' = Please fill in the form.\n\nFORMAL (business):\n'Zou u zo vriendelijk willen zijn om mij te helpen?'\n= Would you be so kind as to help me?\n\nPOLITE:\n'Kunt u mij helpen?' = Can you help me?\n\nNEUTRAL:\n'Kun je me helpen?' = Can you help me?\n\nINFORMAL:\n'Help je me even?' = Will you help me?\n\nVERY INFORMAL:\n'Help even!' = Help out!\n\nThe Dutch default is NEUTRAL.\nFormal is for business, government, strangers.\nInformal is for friends, family, colleagues."},
+
+         {type:"teach",kind:"phrase",nl:"Zou u zo vriendelijk willen zijn om...",en:"Would you be so kind as to...",phonetic:"zow uu zo VREEN-duh-luk VIL-un zayn om",example:"Zou u zo vriendelijk willen zijn om het raam te sluiten?",exampleEn:"Would you be so kind as to close the window?",note:"The MOST formal request structure.\nZou + u + zo vriendelijk + willen zijn + om te...\nUsed in formal letters, government, customer service."},
+         {type:"teach",kind:"word",nl:"hierbij",en:"hereby / with this",phonetic:"heer-BAY",example:"Hierbij stuur ik u het rapport.",exampleEn:"Hereby I send you the report.",note:"Very formal. 'Hierbij' = with this/hereby.\nOnly in formal letters and emails.\n'Hierbij bevestig ik dat...' = I hereby confirm that..."},
+         {type:"teach",kind:"word",nl:"gelieve",en:"please (very formal)",phonetic:"guh-LEE-vuh",example:"Gelieve het formulier in te vullen.",exampleEn:"Please fill in the form.",note:"VERY formal 'please'. Government/legal language.\nNormal 'please' = 'alstublieft' (formal) / 'alsjeblieft' (informal).\n'Gelieve' is a step above even 'alstublieft'."},
+
+         {type:"mc",q:"The Dutch default register is:",opts:["Very formal","Formal","Neutral","Very informal"],ans:"Neutral",hint:"Not too formal, not too informal"},
+         {type:"fb",s:"___ stuur ik u het rapport.",a:"Hierbij",opts:["Hierbij","Hier","Nu","Graag"],hint:"Hereby I send you the report"},
+         {type:"match",pairs:[{nl:"Zou u zo vriendelijk willen zijn...",en:"Would you be so kind..."},{nl:"Kunt u mij helpen?",en:"Can you help me? (formal)"},{nl:"Kun je me even helpen?",en:"Can you help me? (informal)"},{nl:"Gelieve",en:"Please (very formal)"}]},
+         {type:"mc",q:"'Gelieve het formulier in te vullen' is:",opts:["Very informal","Neutral","Formal","Very formal  -  government/legal"],ans:"Very formal  -  government/legal",hint:"Gelieve = a step above alstublieft"},
+         {type:"fb",s:"Zou u zo vriendelijk ___ zijn om het raam te sluiten?",a:"willen",opts:["willen","kunnen","moeten","zullen"],hint:"Would you be so kind as to WANT to..."},
+         {type:"tr",mk:"v2u20_formal_request",dir:"produce"},
+       ]},
+
+// ═══ L3: Een Artikel Lezen ═══
+       {id:"v2u20l3",title:"Een Artikel Lezen",icon:"📰",xp:15,board:true,steps:[
+         {type:"intro",title:"Een Artikel Lezen",desc:"Full reading comprehension at B1. A simplified newspaper article using ALL the grammar you've learned: passive voice, relative clauses, indirect speech, connectors, and more. Time to prove you can read real Dutch.",goals:["Read a ~150-word Dutch article","All B1 grammar in context","Answer comprehension questions","Identify grammar patterns in text"]},
+
+         {type:"tip",title:"📰 Lees: Steeds Meer Nederlanders Werken Thuis",text:"STEEDS MEER NEDERLANDERS WERKEN THUIS\n\nUit onderzoek is gebleken dat steeds meer\nNederlanders vanuit huis werken. Volgens het\nCentraal Bureau voor de Statistiek (CBS) werkt\ninmiddels meer dan de helft van de werkende\nbevolking minstens één dag per week thuis.\n\nDe minister van Sociale Zaken verklaarde dat\nhet thuiswerken wordt gestimuleerd door de overheid.\n'Het is goed voor het milieu en voor de\nwerk-privébalans,' zei de minister.\n\nHoewel veel werknemers tevreden zijn over het\nthuiswerken, waarschuwde een expert dat er ook\nnadelen zijn. 'Sommige mensen voelen zich eenzaam,'\nvertelde zij. 'De werksfeer op kantoor kun je niet\nvervangen door een beeldscherm.'\n\nDe komende jaren worden er nieuwe maatregelen\nverwacht om thuiswerken beter te regelen.",deepDive:{title:"Vertaling",text:"MORE AND MORE DUTCH PEOPLE WORK FROM HOME\n\nResearch has shown that more and more\nDutch people work from home. According to the\nCentral Bureau of Statistics (CBS), more than\nhalf of the working population now works at least\none day per week from home.\n\nThe Minister of Social Affairs declared that\nworking from home is being encouraged by the government.\n'It is good for the environment and for the\nwork-life balance,' said the minister.\n\nAlthough many employees are satisfied with\nworking from home, an expert warned that there\nare also disadvantages. 'Some people feel lonely,'\nshe told. 'You can't replace the work atmosphere\nat the office with a screen.'\n\nIn the coming years, new measures are expected\nto better regulate working from home."}},
+
+         {type:"mc",q:"According to the article, how many people work from home?",opts:["Less than a quarter","About a third","More than half","Everyone"],ans:"More than half",hint:"meer dan de helft = more than half"},
+         {type:"fb",s:"Uit onderzoek is ___ dat steeds meer mensen thuiswerken.",a:"gebleken",opts:["gebleken","gezegd","gevraagd","geschreven"],hint:"Research has SHOWN that (blijken → gebleken)"},
+         {type:"mc",q:"'De werkende bevolking' uses a:",opts:["Past participle","Present participle as adjective","Regular adjective","Verb form"],ans:"Present participle as adjective",hint:"werkend + e = werkende (working, ongoing)"},
+         {type:"mc",q:"'Het thuiswerken wordt gestimuleerd' is:",opts:["Active voice","Passive voice (worden)","State passive (zijn)","Impersonal passive"],ans:"Passive voice (worden)",hint:"wordt + PP = process passive"},
+         {type:"fb",s:"___ veel werknemers tevreden zijn, zijn er ook nadelen.",a:"Hoewel",opts:["Hoewel","Omdat","Doordat","Nadat"],hint:"ALTHOUGH many employees are satisfied..."},
+         {type:"mc",q:"'De komende jaren worden er nieuwe maatregelen verwacht'  -  'komende' means:",opts:["Past","Coming/upcoming","Going","Leaving"],ans:"Coming/upcoming",hint:"Present participle: komend = coming"},
+       ]},
+
+// ═══ L4: Een E-mail Schrijven ═══
+       {id:"v2u20l4",title:"Een E-mail Schrijven",icon:"✉️",xp:15,board:true,steps:[
+         {type:"intro",title:"Een E-mail Schrijven",desc:"Structured writing practice. You'll work through a formal complaint email step by step, using the register and vocabulary you've learned. Opening, problem description, request, closing.",goals:["Write a formal complaint email","Structure: opening → problem → request → closing","Use formal register: Geachte, Zou u, Met vriendelijke groet","Translation exercises for email phrases"]},
+
+         {type:"tip",title:"✉️ De Klachtenbrief (Complaint Email)",text:"STRUCTURE:\n\n1. OPENING:\nGeachte heer/mevrouw,\n\n2. REFERENCE:\nNaar aanleiding van [situation], schrijf ik u...\n= With regard to [situation], I am writing to you...\n\n3. PROBLEM:\nIk wil u informeren dat...\nHet probleem is dat...\nDit is niet wat ik had verwacht.\n\n4. REQUEST:\nZou u zo vriendelijk willen zijn om...\nIk zou het op prijs stellen als...\n= I would appreciate it if...\nKunt u mij laten weten wanneer dit wordt opgelost?\n\n5. CLOSING:\nIk hoor graag van u.\n= I look forward to hearing from you.\nMet vriendelijke groet,\n[naam]\n\nEXAMPLE:\nGeachte heer/mevrouw,\n\nNaar aanleiding van mijn bestelling van 15 februari\nwil ik u melden dat het product beschadigd is\naangekomen. Dit is niet wat ik had verwacht.\n\nZou u zo vriendelijk willen zijn om een vervangend\nproduct te sturen? Ik hoor graag van u.\n\nMet vriendelijke groet,\nAnna Bakker"},
+
+         {type:"mc",q:"'Ik zou het op prijs stellen als...' means:",opts:["I would complain if...","I would appreciate it if...","I would be angry if...","I would understand if..."],ans:"I would appreciate it if...",hint:"Op prijs stellen = to appreciate/value"},
+         {type:"fb",s:"Ik hoor graag ___ u.",a:"van",opts:["van","over","aan","met"],hint:"I look forward to hearing FROM you"},
+         {type:"match",pairs:[{nl:"Geachte heer/mevrouw",en:"Dear Sir/Madam"},{nl:"Naar aanleiding van",en:"With regard to"},{nl:"Ik hoor graag van u",en:"I look forward to hearing from you"},{nl:"Met vriendelijke groet",en:"Kind regards"}]},
+         {type:"mc",q:"'Dit is niet wat ik had verwacht' uses:",opts:["Present tense","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"had verwacht = had expected"},
+         {type:"fb",s:"___ u zo vriendelijk willen zijn om een nieuw product te sturen?",a:"Zou",opts:["Zou","Kunt","Wilt","Moet"],hint:"Would you be so kind as to..."},
+       ]},
+
+// ═══ L5: Mijn Verhaal Vertellen ═══
+       {id:"v2u20l5",title:"Mijn Verhaal Vertellen",icon:"📖",xp:15,board:true,steps:[
+         {type:"intro",title:"Mijn Verhaal Vertellen",desc:"Connected speech at B1. Tell the story of your week, your move to the Netherlands, or your career change. Use all tenses, connectors, and opinions. This is what B1 is about: producing connected text on familiar topics.",goals:["Use all tenses in connected speech","Time markers: eerst, toen, daarna, uiteindelijk","Give reasons and opinions","Produce connected text"]},
+
+         {type:"tip",title:"📖 Time Markers for Stories",text:"To tell a connected story, use TIME MARKERS:\n\nEerst... = First...\nToen... = Then... (past)\nDaarna... = After that...\nVervolgens... = Subsequently...\nIntussen... = Meanwhile...\nUiteindelijk... = Eventually...\nTen slotte... = Finally...\n\nExample story:\nEerst woonde ik in België.\nToen kreeg ik een baan in Amsterdam.\nDaarna ben ik verhuisd.\nIntussen had ik al een huis gevonden.\nUiteindelijk begon ik met mijn nieuwe werk.\nTen slotte voelde ik me thuis in Nederland."},
+
+         {type:"teach",kind:"word",nl:"uiteindelijk",en:"eventually / in the end",phonetic:"OW-tun-duh-luk",example:"Uiteindelijk vond ik een baan.",exampleEn:"Eventually I found a job.",note:"'Uiteindelijk' = in the end, eventually.\nVery useful for concluding a story.\n'Uiteindelijk is alles goed gekomen.'\n= In the end everything turned out well."},
+         {type:"teach",kind:"word",nl:"vervolgens",en:"subsequently / then",phonetic:"fur-VOL-guns",example:"Vervolgens ging ik naar de gemeente.",exampleEn:"Subsequently I went to the municipality.",note:"'Vervolgens' = next/then (more formal than 'daarna').\nGood for structured storytelling.\n'Daarna' (after that) = more casual version."},
+         {type:"teach",kind:"phrase",nl:"ten slotte",en:"finally / lastly",phonetic:"ten SLOT-tuh",example:"Ten slotte wil ik iedereen bedanken.",exampleEn:"Finally, I want to thank everyone.",note:"'Ten slotte' = lastly/in conclusion.\nUsed for the LAST point in a series.\n'Tot slot' = same meaning, slightly less formal."},
+
+         {type:"mc",q:"Order these: eerst, uiteindelijk, daarna, ten slotte",opts:["eerst → daarna → uiteindelijk → ten slotte","uiteindelijk → eerst → ten slotte → daarna","ten slotte → daarna → eerst → uiteindelijk","daarna → eerst → ten slotte → uiteindelijk"],ans:"eerst → daarna → uiteindelijk → ten slotte",hint:"First → after that → eventually → finally"},
+         {type:"fb",s:"___ vond ik een baan. (eventually)",a:"Uiteindelijk",opts:["Uiteindelijk","Eerst","Daarna","Vervolgens"],hint:"In the end, eventually"},
+         {type:"match",pairs:[{nl:"eerst",en:"first"},{nl:"daarna",en:"after that"},{nl:"vervolgens",en:"subsequently"},{nl:"ten slotte",en:"finally"}]},
+         {type:"drag_fill",s:"{1} woonde ik in België. {2} kreeg ik een baan in Amsterdam.",blanks:{"1":"Eerst","2":"Toen"},pool:["Eerst","Toen","Daarna","Uiteindelijk"],hint:"First I lived in Belgium. Then I got a job."},
+         {type:"fb",s:"___ wil ik iedereen bedanken.",a:"Ten slotte",opts:["Ten slotte","Eerst","Daarna","Intussen"],hint:"Finally / lastly"},
+       ]},
+
+// ═══ L6: Nederland in Getallen ═══
+       {id:"v2u20l6",title:"Nederland in Getallen",icon:"📊",xp:15,board:true,steps:[
+         {type:"intro",title:"Nederland in Getallen",desc:"Statistics and data vocabulary. 'De helft van de bevolking fietst.' How to talk about percentages, averages, and proportions  -  essential for reading news and understanding reports.",goals:["Data vocabulary: percentage, gemiddeld, de helft","Proportion words: een derde, een kwart","Approximate quantities: ongeveer, meer dan","Read an infographic about the Netherlands"]},
+
+         {type:"teach",kind:"phrase",nl:"het percentage",en:"the percentage",phonetic:"hut per-sen-TAH-zhuh",cognate:{words:[{lang:"English",word:"percentage"},{lang:"French",word:"pourcentage"}],family:"latin"},example:"Het percentage is gestegen.",exampleEn:"The percentage has risen.",note:"Het-word. 'Procent' = percent.\n'50 procent' = 50 percent.\n'Het percentage daalt/stijgt.' = The percentage drops/rises."},
+         {type:"teach",kind:"word",nl:"gemiddeld",en:"on average / average",phonetic:"guh-MI-dult",example:"Gemiddeld werken Nederlanders 32 uur per week.",exampleEn:"On average, Dutch people work 32 hours per week.",note:"'Gemiddeld' = on average (adverb) / average (adjective).\n'Het gemiddelde' = the average (noun).\n'Boven/onder het gemiddelde' = above/below average."},
+         {type:"teach",kind:"phrase",nl:"de helft",en:"the half / half",phonetic:"duh helft",example:"De helft van de bevolking fietst.",exampleEn:"Half of the population cycles.",note:"De-word. 'De helft van...' = half of...\n'De bevolking' = the population.\n'Meer dan de helft' = more than half."},
+         {type:"teach",kind:"phrase",nl:"een derde",en:"a third",phonetic:"un DER-duh",example:"Een derde van de studenten werkt parttime.",exampleEn:"A third of the students works part-time.",note:"'Een derde' = a third (1/3).\n'Een kwart' = a quarter (1/4).\n'Twee derde' = two thirds (2/3)."},
+         {type:"teach",kind:"word",nl:"ongeveer",en:"approximately / about",phonetic:"on-guh-VAYR",example:"Er wonen ongeveer 17 miljoen mensen in Nederland.",exampleEn:"Approximately 17 million people live in the Netherlands.",note:"'Ongeveer' = approximately.\nAlso: 'circa' (more formal), 'zo'n' (informal).\n'Zo'n 17 miljoen' = about 17 million."},
+
+         {type:"tip",title:"📊 Nederland in Getallen",text:"🚲 Meer fietsen dan mensen: ~23 miljoen fietsen\nvoor ~17,9 miljoen inwoners.\n\n🏠 Gemiddelde huurprijs: ~€1.100 per maand.\n\n☕ Koffie per persoon: ~150 liter per jaar.\nNederland = top 5 koffiedrinkers ter wereld.\n\n🌊 Onder zeeniveau: ~26% van Nederland ligt\nonder de zeespiegel.\n\n📚 Talen: Ongeveer 90% van de Nederlanders\nspreekt Engels. Meer dan de helft spreekt\nminstens 2 vreemde talen.\n\n💰 Parttime: Een derde van de banen is parttime.\nHoogste percentage in Europa."},
+
+         {type:"mc",q:"'Gemiddeld' means:",opts:["Maximum","Minimum","On average","Exactly"],ans:"On average",hint:"Gemiddeld = average/on average"},
+         {type:"fb",s:"De ___ van de bevolking fietst.",a:"helft",opts:["helft","derde","kwart","percentage"],hint:"Half of the population"},
+         {type:"match",pairs:[{nl:"de helft",en:"half"},{nl:"een derde",en:"a third"},{nl:"een kwart",en:"a quarter"},{nl:"ongeveer",en:"approximately"}]},
+         {type:"fb",s:"Er wonen ___ 17 miljoen mensen in Nederland.",a:"ongeveer",opts:["ongeveer","precies","altijd","gemiddeld"],hint:"Approximately 17 million"},
+         {type:"mc",q:"How many bicycles does the Netherlands have?",opts:["About 5 million","About 12 million","About 23 million","About 50 million"],ans:"About 23 million",hint:"More bikes than people!"},
+         {type:"tr",mk:"v2u20_half_population",dir:"produce"},
+       ]},
+
+// ═══ L7: Alles Samen ═══
+       {id:"v2u20l7",title:"Alles Samen",icon:"🧩",xp:20,board:true,steps:[
+         {type:"intro",title:"Alles Samen",desc:"The comprehensive B1 grammar review. Past perfect, zou/zouden, passive voice, er (all 5 uses), indirect speech, participle adjectives, word formation  -  your complete B1 toolkit in one lesson.",goals:["Review ALL B1 grammar patterns","Past perfect, zou, passive, er, indirect speech","Participles, compounds, inseparable prefixes","One question per major grammar topic"]},
+
+         {type:"mc",q:"Past perfect: 'Ik ___ al gegeten toen hij kwam.'",opts:["heb","had","ben","was"],ans:"had",hint:"Past perfect with hebben: had + PP"},
+         {type:"fb",s:"Zou je mij kunnen ___? (help)",a:"helpen",opts:["helpen","geholpen","hielp","helpt"],hint:"Zou + infinitive (conditional)"},
+         {type:"mc",q:"'De brief wordt geschreven' vs 'De brief is geschreven':",opts:["Same meaning","worden = process, zijn = result","worden = past, zijn = present","worden = formal, zijn = informal"],ans:"worden = process, zijn = result",hint:"Worden = becoming, zijn = done"},
+         {type:"fb",s:"Er ___ hier niet gerookt. (impersonal passive)",a:"wordt",opts:["wordt","is","werd","zijn"],hint:"No smoking here (er + worden + PP)"},
+         {type:"mc",q:"'Heb je er drie?'  -  which er is this?",opts:["Existential er","Locative er","Prepositional er","Partitive er"],ans:"Partitive er",hint:"Er drie = three of them (quantity)"},
+         {type:"fb",s:"Hij zei dat hij moe ___. (tense backshift)",a:"was",opts:["was","is","ben","wordt"],hint:"ben → was in indirect speech"},
+         {type:"mc",q:"'De werkende bevolking' uses a:",opts:["Past participle","Present participle","Regular verb","Noun"],ans:"Present participle",hint:"werkend = working (ongoing, present)"},
+         {type:"fb",s:"PP of 'ontdekken' (inseparable prefix):",a:"ontdekt",opts:["ontdekt","geontdekt","ontdekken","ontdekte"],hint:"No ge- with inseparable prefixes!"},
+         {type:"mc",q:"'Het huis waarin ik woon'  -  for people, this becomes:",opts:["waar + preposition","preposition + wie","die/dat","of"],ans:"preposition + wie",hint:"Things: waar+prep. People: prep+wie."},
+         {type:"fb",s:"___ de vergadering begon, had ik al koffie gedronken.",a:"Voordat",opts:["Voordat","Nadat","Zodra","Hoewel"],hint:"BEFORE the meeting started..."},
+         {type:"mc",q:"All diminutives in Dutch are:",opts:["De-words","Het-words","Both possible","No article"],ans:"Het-words",hint:"De kop → het kopje. Always het!"},
+       ]},
+
+// ═══ L8: 🎉 B1 Klaar! ═══
+       {id:"v2u20l8",title:"🎉 B1 Klaar!",icon:"🏆",xp:25,board:true,steps:[
+         {type:"intro",title:"🎉 B1 Klaar!",desc:"You made it. From 'Hallo' to passive voice, from counting to one to writing formal complaint emails, from 'Ik ben...' to 'Hij zei dat hij zou komen.' You are a B1 Dutch speaker. This is your celebration  -  and your final challenge.",goals:["Celebrate your B1 achievement","Your complete grammar toolkit","Comprehensive mixed review","What comes next: B2 preview"]},
+
+         {type:"tip",title:"🏆 What You Can Do at B1",text:"✅ You can handle most situations in the Netherlands.\n✅ You can read simplified news articles.\n✅ You can write formal and informal emails.\n✅ You can tell stories about the past (3 past tenses!).\n✅ You can express and defend opinions.\n✅ You can describe conditions and hypotheticals (zou).\n✅ You can understand passive voice in news.\n✅ You can report what others said.\n✅ You can navigate Dutch bureaucracy.\n✅ You can understand Dutch culture and customs.\n\nYour grammar toolkit:\nA1: present tense, V2, zijn/hebben, de/het\nA1-A2: modals, perfect tense, 't kofschip\nA2: separable verbs, adjectives, simple past\nA2: relative clauses (die/dat), subordination\nB1: past perfect, zou, passive, er (5 types)\nB1: indirect speech, participles, compounds\nB1: infinitive constructions, verb clusters\n\nVocabulary: ~1,200 explicitly taught words.\nPlus hundreds more from context and exposure."},
+
+         {type:"mc",q:"'Ik had al gegeten toen hij kwam'  -  which happened first?",opts:["Hij kwam","Ik at","Both at the same time","Neither"],ans:"Ik at",hint:"Past perfect = the EARLIER event"},
+         {type:"fb",s:"De wet ___ vorig jaar aangenomen. (passive, past)",a:"werd",opts:["werd","wordt","is","was"],hint:"Past passive: werd + PP"},
+         {type:"mc",q:"'Er wordt hier gewerkt'  -  what type of passive?",opts:["Normal passive","State passive","Impersonal passive","Not passive"],ans:"Impersonal passive",hint:"No real subject  -  er fills the gap"},
+         {type:"match",pairs:[{nl:"hoewel",en:"although"},{nl:"doordat",en:"because (external)"},{nl:"zodat",en:"so that"},{nl:"tenzij",en:"unless"}]},
+         {type:"fb",s:"Ze vroeg ___ ik morgen kwam.",a:"of",opts:["of","dat","wat","als"],hint:"Indirect yes/no question → of"},
+         {type:"mc",q:"PP of 'verbeteren' (inseparable prefix):",opts:["verbeterd","geverbeterd","verbetert","gebeterd"],ans:"verbeterd",hint:"Inseparable prefix = no ge-!"},
+         {type:"drag_fill",s:"De {1} deur. Een {2} probleem.",blanks:{"1":"gesloten","2":"groeiend"},pool:["gesloten","groeiend","werkende","geschreven"],hint:"CLOSED door (past PP). GROWING problem (present PP)."},
+         {type:"fb",s:"___ u zo vriendelijk willen zijn om mij te helpen?",a:"Zou",opts:["Zou","Kunt","Wilt","Bent"],hint:"Would you be so kind..."},
+         {type:"mc",q:"Congratulations! What is your next Dutch level?",opts:["A2","B1","B2","C1"],ans:"B2",hint:"After B1 comes B2!"},
+
+         {type:"tip",title:"🔮 Wat Komt Er Hierna? (B2 Preview)",text:"At B2 you will learn:\n\n📖 Longer, more complex texts (newspaper editorials,\n   short stories, academic summaries)\n\n📐 More passive constructions (worden + past tenses)\n\n📐 Extended conditional (als...zou...hebben)\n\n📐 Subjunctive remnants (het zij zo, moge het lukken)\n\n📐 Academic register (wetenschappelijke teksten)\n\n📐 Idiomatic expressions (op de hoogte zijn,\n   aan de slag gaan, voor de hand liggen)\n\n📐 Nuanced opinion & argumentation\n\n📐 Literary Dutch (reading comprehension)\n\nBut that's for later.\nFor now: you are B1.\n\nJe hebt het gehaald. Gefeliciteerd! 🎉\n= You made it. Congratulations!\n\n🇳🇱 Tot ziens bij B2! 🇳🇱"},
+       ]},
+  ]},
+
+// ── DUTCH LEGACY UNITS (Original A1–B1 Course) ──
+  {n:1,lang:"nl",track:"legacy",title:"First Contact",sub:"Greetings & Introductions",icon:"👋",level:"A1.1",objectives:["ok_greet_formal","ok_greet_informal","ok_say_goodbye","ok_polite_phrases","ok_introduce_self","ok_how_are_you"],color:"#4A8FE7",lessons:[
+
+    // ── LESSON 1: SAYING HELLO ──
+    {id:"u1l1",title:"Saying Hello",icon:"👋",xp:15,steps:[
+      // INTRO
+      {type:"intro",title:"Saying Hello 👋",desc:"In this lesson, you'll learn how Dutch people greet each other at different times of day. Dutch greetings are very logical  -  they literally describe the time!",goals:["4 Dutch greetings","When to use each one","Casual vs formal hello"]},
+
+      // TEACH: hallo
+      {type:"teach",kind:"word",nl:"hallo",en:"hello",img:"👋🙂",phonetic:"HAH-loh",example:"Hallo! Hoe gaat het?",exampleEn:"Hello! How are you?",note:"The universal Dutch greeting. Works anytime, anywhere, with anyone. You can't go wrong with 'hallo'!"},
+
+      // TEACH: goedemorgen
+      {type:"teach",kind:"word",nl:"goedemorgen",en:"good morning",img:"🌅☀️",phonetic:"HOO-duh-mor-hun",example:"Goedemorgen! Lekker geslapen?",exampleEn:"Good morning! Sleep well?",note:"Used from sunrise until about noon. 'Goede' means 'good' and 'morgen' means 'morning'. See the logic? 😊"},
+
+      // TEACH: goedemiddag
+      {type:"teach",kind:"word",nl:"goedemiddag",en:"good afternoon",img:"☀️🕐",phonetic:"HOO-duh-mid-dahg",example:"Goedemiddag, mevrouw.",exampleEn:"Good afternoon, ma'am.",note:"Used from roughly noon to 6 PM. 'Middag' = afternoon (literally 'mid-day'). A bit formal  -  you'd use this in shops or with strangers."},
+
+      // TEACH: goedenavond
+      {type:"teach",kind:"word",nl:"goedenavond",en:"good evening",img:"🌆🌙",phonetic:"HOO-dun-ah-vont",example:"Goedenavond allemaal!",exampleEn:"Good evening everyone!",note:"Used from about 6 PM onwards. 'Avond' = evening. Notice the pattern: goede + time of day!"},
+
+      // TIP: The pattern
+      {type:"tip",title:"🧠 See the pattern?",text:"All formal Dutch greetings follow the same formula:\n\nGoede + time of day\n\n• goede + morgen = goedemorgen\n• goede + middag = goedemiddag\n• goede + avond = goedenavond\n\nThis makes them easy to remember!"},
+
+      // PRACTICE after first 4 words
+      {type:"mc",q:"How do you say 'good morning' in Dutch?",opts:["Goedenavond","Goedemorgen","Goedemiddag","Hallo"],ans:"Goedemorgen",hint:"Morgen = morning"},
+      {type:"mc",q:"It's 3 PM. Which greeting fits best?",opts:["Goedemorgen","Goedemiddag","Goedenavond","Goedenacht"],ans:"Goedemiddag",hint:"Middag = afternoon (noon–6 PM)"},
+
+      // TEACH: hoi (casual)
+      {type:"teach",kind:"word",nl:"hoi",en:"hi (casual)",img:"✋😄",phonetic:"hoy",example:"Hoi! Alles goed?",exampleEn:"Hi! Everything okay?",note:"Casual and friendly  -  used constantly in daily Dutch life. You'll hear it everywhere: at shops, on the street, between neighbours. In the Netherlands, even strangers greet each other with 'hoi'. It's warm but informal."},
+
+      // TEACH: hey
+      {type:"teach",kind:"word",nl:"hey",en:"hey (very casual)",img:"🤙😎",phonetic:"hay",example:"Hey! Wat leuk je te zien!",exampleEn:"Hey! How nice to see you!",note:"Even more casual than 'hoi'. Used a lot in text messages and between close friends."},
+
+      // TIP: Formal vs Informal
+      {type:"tip",title:"👔 Formal or casual?",text:"Dutch people switch between formal and casual greetings:\n\n🏢 Formal (shops, strangers, older people):\nGoedemorgen / Goedemiddag / Goedenavond\n\n😊 Casual (friends, family, peers):\nHallo / Hoi / Hey\n\nWhen in doubt, start formal  -  the other person will usually say 'je mag jij zeggen' (you can use informal) if they prefer casual.",deepDive:{title:"Why does Dutch have formal and informal?",text:"English used to have this too! 'Thou' was informal and 'you' was formal. Over time, English dropped 'thou' and kept only 'you'.\n\nDutch kept both:\n• jij/je = informal 'you' (like old English 'thou')\n• u = formal 'you'\n\nThe Netherlands is actually quite informal compared to Germany or France. Many Dutch people quickly switch to 'je'. But it's respectful to start with 'u' when meeting someone older or in a professional context.\n\nFun fact: In Belgium, people use 'u' much more than in the Netherlands!"}},
+
+      // MORE PRACTICE
+      {type:"mc",q:"Which greeting is very casual (like 'hey')?",opts:["Goedemiddag","Hoi","Goedenavond","Goedemorgen"],ans:"Hoi",hint:"Used between friends"},
+      {type:"tr",mk:"u1_hello",dir:"produce"},
+      {type:"tr",mk:"u1_good_evening",dir:"comprehend"},
+
+      // FINAL REVIEW
+      {type:"match",mks:["greet_hello","greet_morning","greet_afternoon","greet_evening"]},
+      {type:"mc",q:"You walk into a bakery at 9 AM. You say:",opts:["Goedenavond!","Goedemorgen!","Hoi!","Doei!"],ans:"Goedemorgen!",hint:"Which greeting matches the time of day?"},
+    ]},
+
+    // ── LESSON 2: SAYING GOODBYE ──
+    {id:"u1l2",title:"Saying Goodbye",icon:"✌️",xp:15,steps:[
+      {type:"intro",title:"Saying Goodbye ✌️",desc:"Now that you can say hello, let's learn how to leave! Dutch has different goodbyes for different situations.",goals:["4 ways to say goodbye","Formal vs casual farewell","'Tot' phrases (see you...)"]},
+
+      {type:"teach",kind:"word",nl:"dag",en:"bye / hello",img:"👋🚪",phonetic:"dahg",example:"Dag! Tot morgen!",exampleEn:"Bye! See you tomorrow!",note:"'Dag' is a Swiss army knife  -  it works as both hello AND goodbye! Slightly formal. Often repeated for warmth: 'dag dag!'"},
+
+      {type:"teach",kind:"phrase",nl:"tot ziens",en:"goodbye (formal)",img:"🤝👔",phonetic:"tot ZEENS",example:"Tot ziens, meneer Jansen.",exampleEn:"Goodbye, Mr. Jansen.",note:"The formal goodbye. 'Tot' means 'until' and 'ziens' means 'seeing'. So literally: 'until seeing (again)'. Use in professional settings."},
+
+      {type:"teach",kind:"word",nl:"doei",en:"bye! (casual)",img:"✌️😊",phonetic:"DOO-ee",example:"Doei! Ik ga naar huis!",exampleEn:"Bye! I'm going home!",note:"Very casual and friendly  -  like 'bye-bye!' in English. You'll hear Dutch kids say this a LOT. Perfectly fine for adults with friends too."},
+
+      {type:"tip",title:"💡 'Tot' = 'Until / See you...'",text:"Dutch uses 'tot' (until) + time to say when you'll meet again:\n\n• tot morgen = see you tomorrow\n• tot later = see you later\n• tot zo = see you soon\n• tot volgende week = see you next week\n\nThese are incredibly common and useful!"},
+
+      {type:"teach",kind:"phrase",nl:"tot morgen",en:"see you tomorrow",img:"🌅👋",phonetic:"tot MOR-gun",example:"Tot morgen! Slaap lekker!",exampleEn:"See you tomorrow! Sleep well!",note:"'Tot' = until, 'morgen' = tomorrow. Dutch people use these 'tot' combinations all the time."},
+
+      {type:"teach",kind:"phrase",nl:"tot later",en:"see you later",img:"⏰👋",phonetic:"tot LAH-tur",example:"Ik moet gaan. Tot later!",exampleEn:"I have to go. See you later!",note:"Very common in everyday speech. Works in both formal and informal situations."},
+
+      // PRACTICE
+      {type:"mc",q:"Leaving a formal business meeting  -  what do you say?",opts:["Doei!","Tot ziens.","Hoi!","Dag dag!"],ans:"Tot ziens.",hint:"The formal goodbye"},
+      {type:"fb",s:"___! Tot later!",a:"Doei",opts:["Doei","Pardon","Sorry","Meneer"],hint:"Casual goodbye to a friend"},
+      {type:"tr",mk:"u1_goodbye_sir",dir:"produce"},
+      {type:"mc",q:"What does 'tot morgen' literally mean?",opts:["Good morning","Until tomorrow","See you tonight","Tomorrow morning"],ans:"Until tomorrow",hint:"Tot = until"},
+      {type:"tr",mk:"u1_bye_tmrw",dir:"comprehend"},
+      {type:"match",mks:["bye_casual","bye_formal","bye_casual2","bye_tmrw"]},
+    ]},
+
+    // ── LESSON 3: PLEASE & THANK YOU ──
+    {id:"u1l3",title:"Please & Thank You",icon:"🙏",xp:15,steps:[
+      {type:"intro",title:"Please & Thank You 🙏",desc:"Politeness goes a long way in the Netherlands! Let's learn the essential polite words.",goals:["Say 'please' and 'thank you'","Formal vs informal versions","'Sorry' and 'excuse me'"]},
+
+      {type:"teach",kind:"phrase",nl:"dank je wel",en:"thank you (informal)",img:"🙏😊",phonetic:"DAHNK yuh vel",example:"Dank je wel voor je hulp!",exampleEn:"Thank you for your help!",note:"The standard 'thank you' for informal situations. 'Dank' = thanks, 'je' = you (informal), 'wel' adds emphasis. You can also just say 'dank je' or even 'bedankt' (thanks!)."},
+
+      {type:"teach",kind:"phrase",nl:"dank u wel",en:"thank you (formal)",img:"🙏👔",phonetic:"DAHNK oo vel",example:"Dank u wel, mevrouw.",exampleEn:"Thank you, ma'am.",note:"Same as above but with 'u' (formal you) instead of 'je'. Use in shops, restaurants, with older people, or anyone you don't know well."},
+
+      {type:"tip",title:"🔑 The je/u secret",text:"This is one of the most important patterns in Dutch:\n\n• 'je' version = informal (friends, peers)\n• 'u' version = formal (strangers, elders, professional)\n\nThis applies to many phrases:\n• dank je / dank u\n• alsjeblieft / alstublieft\n• hoe heet je / hoe heet u\n\nSpot the pattern? 'je' ↔ 'u' is the switch!",deepDive:{title:"How 'alsjeblieft' is actually a full sentence",text:"'Alsjeblieft' looks like one word but it's actually a compressed sentence!\n\nals + je + blieft = 'if it pleases you'\n\nBreaking it down:\n• als = if\n• je = you (informal)\n• belieft = pleases (old Dutch verb)\n\nSo when you say 'alsjeblieft', you're literally saying 'if it pleases you'  -  very polite!\n\nThe formal version 'alstublieft' works the same way:\nals + t + u + belieft = 'if it pleases you' (formal)\n\nThe 't' comes from the formal verb conjugation. Most Dutch people don't even realize this  -  you'll impress them if you know it!"}},
+
+      {type:"teach",kind:"word",nl:"alsjeblieft",en:"please / here you go (informal)",img:"☕🤲",phonetic:"AHL-shuh-bleeft",example:"Een koffie, alsjeblieft.",exampleEn:"A coffee, please.",note:"Two meanings! (1) 'please' when asking for something, and (2) 'here you go' when handing something to someone. Context makes it clear."},
+
+      {type:"teach",kind:"word",nl:"alstublieft",en:"please / here you go (formal)",img:"🍽️🤲",phonetic:"AHL-stoo-bleeft",example:"Alstublieft, uw koffie.",exampleEn:"Here you go, your coffee.",note:"The formal version. Notice 'je' → 'u' again! A waiter would say this when bringing your order."},
+
+      // Quick practice
+      {type:"mc",q:"How do you say 'please' to a friend?",opts:["Alstublieft","Alsjeblieft","Dank u wel","Pardon"],ans:"Alsjeblieft",hint:"'je' = informal friend"},
+      {type:"mc",q:"What's the FORMAL 'thank you'?",opts:["Dank je wel","Dank u wel","Bedankt","Prima"],ans:"Dank u wel",hint:"'u' = formal you"},
+
+      {type:"teach",kind:"word",nl:"sorry",en:"sorry",img:"😅🙈",phonetic:"SOR-ree",example:"Sorry, ik ben te laat!",exampleEn:"Sorry, I'm late!",note:"Same word as English! Used when you've made a mistake or bump into someone. Dutch people say it a lot."},
+
+      {type:"teach",kind:"word",nl:"pardon",en:"excuse me",img:"🚶‍♂️🚉",phonetic:"par-DON",example:"Pardon, mag ik even langs?",exampleEn:"Excuse me, may I pass?",note:"Used to get someone's attention or ask to pass. More polite than 'sorry'. You'll use this on crowded trains!"},
+
+      // Practice
+      {type:"fb",s:"Koffie, _____.",a:"Alsjeblieft",opts:["Alsjeblieft","Sorry","Pardon","Dank je"],hint:"Asking politely for coffee"},
+      {type:"tr",mk:"u1_thank_you",dir:"produce"},
+      {type:"tr",mk:"u1_excuse_pass",dir:"comprehend"},
+      {type:"mc",q:"Someone bumps into you on the street. They say:",opts:["Dank je!","Alsjeblieft!","Sorry!","Doei!"],ans:"Sorry!",hint:"They're apologizing"},
+      {type:"match",mks:["polite_thanks","polite_please","polite_sorry","polite_excuse"]},
+    ]},
+
+    // ── LESSON 4: WHAT'S YOUR NAME? ──
+    {id:"u1l4",title:"What's Your Name?",icon:"🤝",xp:20,steps:[
+      {type:"intro",title:"What's Your Name? 🤝",desc:"Time to introduce yourself! This is your first real Dutch conversation pattern.",goals:["Ask someone's name","Introduce yourself","Formal vs informal introductions","Say 'nice to meet you'"]},
+
+      {type:"teach",kind:"phrase",nl:"Ik heet...",en:"My name is... (I'm called...)",img:"🏷️👤",phonetic:"ik hayt",example:"Hallo! Ik heet Anna.",exampleEn:"Hello! My name is Anna.",note:"Literally means 'I am called...'  -  'ik' = I, 'heet' = am called. This is THE way to introduce yourself in Dutch."},
+
+      {type:"teach",kind:"phrase",nl:"Hoe heet je?",en:"What's your name? (informal)",img:"❓🙋",phonetic:"hoo hayt yuh",example:"Hoi! Hoe heet je?",exampleEn:"Hi! What's your name?",note:"Literally: 'How are you called?' Use this with people your own age, in casual situations."},
+
+      {type:"teach",kind:"phrase",nl:"Hoe heet u?",en:"What's your name? (formal)",img:"❓🧑‍💼",phonetic:"hoo hayt oo",example:"Goedemiddag. Hoe heet u?",exampleEn:"Good afternoon. What's your name?",note:"The formal version  -  remember the je/u switch! Use with older people, in professional settings, or when unsure."},
+
+      {type:"tip",title:"🗣️ Your first conversation!",text:"Here's a typical Dutch introduction:\n\nA: Hallo! Ik heet Anna. Hoe heet jij?\nB: Hoi! Ik heet Mark. Aangenaam!\nA: Aangenaam!\n\nThat's it  -  you just had a conversation! 🎉\n\n'Aangenaam' (nice to meet you) is the polite way to close an introduction. You can also say 'leuk je te ontmoeten' (nice to meet you) but 'aangenaam' is simpler."},
+
+      {type:"teach",kind:"word",nl:"aangenaam",en:"nice to meet you",img:"🤝😃",phonetic:"AHN-guh-nahm",example:"Aangenaam! Ik ben Lisa.",exampleEn:"Nice to meet you! I'm Lisa.",note:"A polite way to say 'pleased to meet you.' Often accompanied by a handshake in professional settings."},
+
+      {type:"teach",kind:"phrase",nl:"Ik ben...",en:"I am...",img:"🪪✨",phonetic:"ik ben",example:"Ik ben student.",exampleEn:"I am a student.",note:"Another way to introduce yourself: 'Ik ben [name]'. 'Ben' is the 'I' form of 'zijn' (to be). You'll use this verb constantly!"},
+
+      // Practice
+      {type:"mc",q:"How to ask someone's name informally?",opts:["Hoe heet u?","Hoe heet je?","Wie ben jij?","Hoe gaat het?"],ans:"Hoe heet je?",hint:"'je' = informal"},
+      {type:"fb",s:"Ik _____ Anna.",a:["Heet","Ben"],opts:["Heet","Ben","Heb","Ga"],hint:"Both 'heet' and 'ben' work here!"},
+      {type:"tr",mk:"u1_my_name_thomas",dir:"produce"},
+      {type:"tr",mk:"u1_nice_meet_lisa",dir:"comprehend"},
+      {type:"mc",q:"Meeting your friend's grandfather  -  ask his name:",opts:["Hoe heet je?","Hoe heet u?","Wie ben jij?","Hoe gaat het?"],ans:"Hoe heet u?",hint:"Older person → formal 'u'"},
+      {type:"tr",mk:"u1_nice_to_meet",dir:"produce"},
+    ]},
+
+    // ── LESSON 5: HOW ARE YOU? (FULL REVIEW) ──
+    {id:"u1l5",title:"How Are You?",icon:"💬",xp:25,steps:[
+      {type:"intro",title:"How Are You? 💬",desc:"The final piece of basic conversation  -  asking how someone is and responding. After this, you can have a real mini-conversation!",goals:["Ask 'how are you?'","Give natural responses","Put it ALL together in a conversation"]},
+
+      {type:"teach",kind:"phrase",nl:"Hoe gaat het?",en:"How are you? / How's it going?",img:"💬🤗",phonetic:"hoo GAHT ut",example:"Hoi! Hoe gaat het met je?",exampleEn:"Hi! How are you?",note:"The standard 'how are you'. Literally: 'How goes it?' You can add 'met je' (with you, informal) or 'met u' (formal) at the end."},
+
+      {type:"teach",kind:"word",nl:"Goed!",en:"Good! / Well!",img:"👍😄",phonetic:"hoot",example:"Het gaat goed, dank je!",exampleEn:"I'm doing well, thanks!",note:"The most common response. Note the pronunciation  -  'goed' sounds like 'hoot' (the 'g' is a throat sound unique to Dutch!)."},
+
+      {type:"teach",kind:"word",nl:"Prima!",en:"Great! / Fine!",img:"🌟💪",phonetic:"PREE-mah",example:"Prima, en met jou?",exampleEn:"Great, and with you?",note:"A step above 'goed'  -  means everything is great. Very common and natural-sounding."},
+
+      {type:"teach",kind:"grammar",nl:"En met jou?",en:"And with you? (informal)",img:"🔄🫵",phonetic:"en met yow",example:"Goed! En met jou?",exampleEn:"Good! And with you?",note:"The natural follow-up after answering. 'Jou' is the informal 'you' (object form). For formal: 'En met u?'"},
+
+      {type:"tip",title:"🎬 A complete Dutch conversation!",text:"You now know enough for a full greeting:\n\nA: Goedemorgen! Hoe heet je?\nB: Ik heet Sophie. En jij?\nA: Ik heet Jan. Aangenaam!\nB: Aangenaam! Hoe gaat het?\nA: Goed, dank je! En met jou?\nB: Prima! Tot ziens!\nA: Dag!\n\n🎉 That's a REAL Dutch conversation! You could actually do this in the Netherlands right now!",deepDive:{title:"The Dutch 'g' sound  -  the hardest part",text:"You may have noticed that Dutch has a unique throat sound for the letter 'g'. It's the most distinctive feature of Dutch pronunciation!\n\nThe 'g' in 'goedemorgen', 'goed', and 'gaat' is NOT like the English 'g'. It's a friction sound made in the back of your throat  -  similar to gargling or the 'ch' in Scottish 'loch'.\n\nTips to master it:\n• Start by saying 'aaah' like at the doctor\n• Now try to make that same sound but with friction\n• Practice with: goed, gaan, groot, groen\n\nFun fact: In the south of the Netherlands and in Belgium, they use a softer 'g'  -  almost like a gentle 'h'. Both versions are correct!"}},
+
+      // REVIEW EXERCISES — now that they've learned everything
+      {type:"mc",q:"Someone asks 'Hoe gaat het?'  -  you reply:",opts:["Ik heet Anna.","Goed, dank je!","Tot ziens!","Pardon?"],ans:"Goed, dank je!",hint:"They're asking how you are"},
+      {type:"fb",s:"Hoe gaat het? _____, dank je!",a:"Goed",opts:["Goed","Hallo","Sorry","Dag"],hint:"I'm ___, thanks!"},
+      {type:"tr",mk:"u1_fine_and_you",dir:"produce"},
+      {type:"tr",mk:"u1_morning_how_are",dir:"comprehend"},
+      {type:"mc",q:"Best response to 'Aangenaam!'?",opts:["Sorry!","Aangenaam!","Doei!","Pardon?"],ans:"Aangenaam!",hint:"Mirror it back  -  like 'nice to meet you too'"},
+      {type:"match",mks:["howru_how","howru_good","howru_great","howru_and_you"]},
+      {type:"mc",q:"8 AM, entering a shop. The shopkeeper is older. You say:",opts:["Hoi!","Goedemorgen!","Doei!","Hoe heet je?"],ans:"Goedemorgen!",hint:"Morning + slightly formal setting"},
+    ]},
+  ]},
+  {n:2,lang:"nl",track:"legacy",title:"Who Am I?",sub:"Identity & Nationality",icon:"🪪",level:"A1.1",color:"#3A9BE0",lessons:[
+    // ── LESSON 1: WHERE ARE YOU FROM? ──
+    {id:"u2l1",title:"Where Are You From?",icon:"🌍",xp:15,steps:[
+      {type:"intro",title:"Where Are You From? 🌍",desc:"Dutch people love asking where you're from! In this lesson you'll learn to talk about yourself and your nationality.",goals:["Say where you come from","Ask others where they're from","Key countries in Dutch"]},
+      {type:"teach",kind:"phrase",nl:"Ik kom uit...",en:"I come from...",img:"🌍✈️",phonetic:"ik kom owt",example:"Ik kom uit Nederland.",exampleEn:"I come from the Netherlands.",note:"The most common way to say where you're from. 'Uit' means 'from' here."},
+      {type:"teach",kind:"phrase",nl:"Waar kom je vandaan?",en:"Where do you come from? (informal)",img:"❓🗺️",phonetic:"vahr kom yuh van-DAHN",example:"Hoi! Waar kom je vandaan?",exampleEn:"Hi! Where do you come from?",note:"'Vandaan' adds emphasis to 'where from'. You can also just say 'Waar kom je?'"},
+      {type:"teach",kind:"phrase",nl:"het land",en:"the country",img:"🗺️🏔️",phonetic:"ut lahnt",example:"Nederland is een klein land.",exampleEn:"The Netherlands is a small country.",note:"'Het land'  -  a het-word! It also means 'land/countryside'."},
+      {type:"tip",title:"🌐 Countries in Dutch",text:"Most country names in Dutch are recognizable:\n\n🇳🇱 Nederland  -  The Netherlands\n🇧🇪 België  -  Belgium\n🇩🇪 Duitsland  -  Germany\n🇫🇷 Frankrijk  -  France\n🇬🇧 Engeland  -  England\n🇺🇸 Amerika  -  America\n🇪🇸 Spanje  -  Spain\n🇮🇹 Italië  -  Italy\n🇹🇷 Turkije  -  Turkey\n🇲🇦 Marokko  -  Morocco\n\nNotice: country names don't get 'de' or 'het'  -  they stand alone!"},
+      {type:"mc",q:"How do you say 'I come from Germany'?",opts:["Ik kom uit Duitsland","Ik ben Duitsland","Ik ga naar Duitsland","Ik woon Duitsland"],ans:"Ik kom uit Duitsland",hint:"Uit = from"},
+      {type:"teach",kind:"phrase",nl:"Ik ben...",en:"I am...",img:"🏷️👤",phonetic:"ik ben",example:"Ik ben Nederlands.",exampleEn:"I am Dutch.",note:"Use 'Ik ben' + nationality. Note: nationalities are adjectives in Dutch, not nouns!"},
+      {type:"tip",title:"🏳️ Nationalities",text:"Nationalities in Dutch often end in -s or -e:\n\n🇳🇱 Nederlands  -  Dutch\n🇩🇪 Duits  -  German\n🇫🇷 Frans  -  French\n🇬🇧 Engels  -  English\n🇪🇸 Spaans  -  Spanish\n🇹🇷 Turks  -  Turkish\n🇲🇦 Marokkaans  -  Moroccan\n\nExamples:\n• Ik ben Nederlands.  -  I am Dutch.\n• Zij is Frans.  -  She is French.\n• Hij spreekt Duits.  -  He speaks German.\n\nThe same word is used for the language AND the nationality!",deepDive:{title:"Nationality = Language in Dutch",text:"Unlike English, Dutch uses the same word for nationality and language.\n\n'Hij is Duits' = He is German\n'Hij spreekt Duits' = He speaks German\n\nThis makes things simpler! The context tells you whether it means the person or the language."}},
+      {type:"tr",mk:"u2_come_from_france",dir:"produce"},
+      {type:"mc",q:"'Ik ben Spaans' means:",opts:["I am in Spain","I am Spanish","I speak Spanish","I like Spain"],ans:"I am Spanish",hint:"Ik ben = I am"},
+      {type:"fb",s:"Waar kom je _____?",a:"Vandaan",opts:["Vandaan","Uit","Bij","Naar"],hint:"Where do you come FROM?"},
+      {type:"match",mks:["country_nl","country_de","country_fr","country_gb"]},
+    ]},
+
+    // ── LESSON 2: I LIVE IN... ──
+    {id:"u2l2",title:"I Live In...",icon:"🏡",xp:15,steps:[
+      {type:"intro",title:"I Live In... 🏡",desc:"Tell people where you live! This is one of the most common small talk topics in the Netherlands.",goals:["Say where you live","Ask where someone lives","Cities in Dutch"]},
+      {type:"teach",kind:"word",nl:"wonen",en:"to live (reside)",img:"🏡🔑",phonetic:"VOH-nun",example:"Ik woon in Amsterdam.",exampleEn:"I live in Amsterdam.",note:"'Wonen' specifically means to reside/live somewhere. 'Ik woon' = I live.",conjugation:{ik:"woon",jij:"woont","hij/zij":"woont",wij:"wonen",jullie:"wonen","zij (they)":"wonen"}},
+      {type:"teach",kind:"phrase",nl:"de stad",en:"the city",img:"🏙️🌃",phonetic:"duh stat",example:"Amsterdam is een mooie stad.",exampleEn:"Amsterdam is a beautiful city.",note:"A de-word. Plural: de steden (cities). Dutch cities are world-famous!"},
+      {type:"teach",kind:"phrase",nl:"het dorp",en:"the village",img:"🏘️🌳",phonetic:"ut dorp",example:"Ik woon in een klein dorp.",exampleEn:"I live in a small village.",note:"A het-word. The Netherlands has hundreds of charming dorpen (villages)."},
+      {type:"teach",kind:"phrase",nl:"de straat",en:"the street",img:"🛣️🏠",phonetic:"duh straht",example:"In welke straat woon je?",exampleEn:"In which street do you live?",note:"A de-word. Many Dutch streets end in '-straat' or '-weg' (road) or '-laan' (lane)."},
+      {type:"tip",title:"💬 The most common question",text:"In Dutch small talk, 'Waar woon je?' (Where do you live?) is almost as common as 'Hoe gaat het?'\n\nFull pattern:\n❓ Waar woon je?  -  Where do you live?\n💬 Ik woon in [city/town].  -  I live in [city/town].\n💬 Ik woon in de buurt van...  -  I live near...\n\nDutch people often follow up with:\n❓ Vind je het leuk daar?  -  Do you like it there?"},
+      {type:"mc",q:"How do you say 'I live in Rotterdam'?",opts:["Ik ben in Rotterdam","Ik woon in Rotterdam","Ik kom uit Rotterdam","Ik ga naar Rotterdam"],ans:"Ik woon in Rotterdam",hint:"Wonen = to live/reside"},
+      {type:"tr",mk:"u2_where_live",dir:"comprehend"},
+      {type:"fb",s:"Ik _____ in een klein dorp.",a:"Woon",opts:["Woon","Ben","Kom","Ga"],hint:"Which verb means 'to live/reside'?"},
+      {type:"match",mks:["noun_city","noun_village","noun_street","verb_live"]},
+      {type:"gramref",title:"How Dutch Verbs Work",level:"A1",text:"Time to conjugate! Here's the pattern:\n\n1. Take the infinitive: wonen\n2. Remove -en to get the stem: woon\n3. Add endings:\n\nik → stem (ik woon)\njij → stem + t (jij woont)\nhij/zij → stem + t (hij woont)\nwij/jullie/zij → infinitive (wij wonen)\n\nThis works for almost ALL Dutch verbs!\n\nFull reference → Grammar tab → A1 → How Dutch Verbs Work"},
+      {type:"conj",verb:"wonen",en:"to live/reside",forms:{ik:"woon",jij:"woont",hij:"woont",wij:"wonen",jullie:"wonen",zij:"wonen"},test:["ik","jij","wij"]},
+      {type:"tr",mk:"u2_city_beautiful",dir:"produce"},
+    ]},
+
+    // ── LESSON 3: LANGUAGES I SPEAK ──
+    {id:"u2l3",title:"Languages I Speak",icon:"🗣️",xp:15,steps:[
+      {type:"intro",title:"Languages I Speak 🗣️",desc:"The Dutch are famous polyglots! Learn to talk about languages and what you speak.",goals:["Say what languages you speak","Ask if someone speaks Dutch","'Een beetje' (a little)"]},
+      {type:"teach",kind:"word",nl:"spreken",en:"to speak",img:"🗣️💬",phonetic:"SPRAY-kun",example:"Spreek je Nederlands?",exampleEn:"Do you speak Dutch?",note:"Notice the double 'ee' in the stem  -  it keeps the long vowel sound. In questions with 'jij': 'Spreek je...?' (no -t!)",conjugation:{ik:"spreek",jij:"spreekt","hij/zij":"spreekt",wij:"spreken",jullie:"spreken","zij (they)":"spreken"}},
+      {type:"teach",kind:"phrase",nl:"een beetje",en:"a little",img:"🤏😅",phonetic:"un BAY-tyuh",example:"Ik spreek een beetje Nederlands.",exampleEn:"I speak a little Dutch.",note:"Super useful phrase! 'Beetje' literally means 'a bit'. Dutch people will love hearing you try!"},
+      {type:"teach",kind:"phrase",nl:"de taal",en:"the language",img:"🌐📖",phonetic:"duh tahl",example:"Nederlands is een mooie taal.",exampleEn:"Dutch is a beautiful language.",note:"A de-word. Plural: de talen. 'Moedertaal' = mother tongue."},
+      {type:"tip",title:"🇳🇱 The Dutch and languages",text:"The Dutch are among the best non-native English speakers in the world! Many speak 2-3 languages.\n\nUseful phrases:\n• Ik spreek Nederlands.  -  I speak Dutch.\n• Ik spreek een beetje Nederlands.  -  I speak a little Dutch.\n• Spreek je Engels?  -  Do you speak English?\n• Ik leer Nederlands.  -  I am learning Dutch.\n• Ik versta je niet.  -  I don't understand you.\n\nPro tip: Even though most Dutch people speak English, they deeply appreciate any effort to speak Dutch!",deepDive:{title:"Why most Dutch people speak English so well",text:"Several reasons make the Dutch such good English speakers:\n\n1. Dutch TV shows and movies are subtitled, not dubbed (unlike Germany or France)\n2. English is taught from primary school (age 10-11)\n3. Dutch and English are both Germanic languages  -  they share many words\n4. The Netherlands is a small trading nation  -  English is essential for business\n\nFun cognates (words that look alike):\n• water = water\n• boek = book\n• appel = apple\n• groen = green\n• kat = cat"}},
+      {type:"mc",q:"How do you say 'I speak a little Dutch'?",opts:["Ik spreek Nederlands","Ik spreek een beetje Nederlands","Ik leer Nederlands","Ik versta Nederlands"],ans:"Ik spreek een beetje Nederlands",hint:"Een beetje = a little"},
+      {type:"tr",mk:"u2_speak_english",dir:"produce"},
+      {type:"fb",s:"Ik spreek een _____ Nederlands.",a:"Beetje",opts:["Beetje","Groot","Veel","Goed"],hint:"A little = een _____"},
+      {type:"tr",mk:"u2_lang_beautiful",dir:"comprehend"},
+      {type:"mc",q:"What does 'Ik leer Nederlands' mean?",opts:["I speak Dutch","I am Dutch","I am learning Dutch","I understand Dutch"],ans:"I am learning Dutch",hint:"Leren = to learn"},
+      {type:"gramref",title:"Conjugation Practice",level:"A1",text:"Remember the pattern from last lesson?\n\nInfinitive: spreken (to speak)\nStem: spreek (remove -en)\n\nik → spreek\njij → spreekt (stem + t)\nhij/zij → spreekt (stem + t)\nwij → spreken (= infinitive)\n\nNote: the double 'ee' stays in the stem to keep the long vowel sound. See Grammar → Spelling Rules for Stems."},
+      {type:"conj",verb:"spreken",en:"to speak",forms:{ik:"spreek",jij:"spreekt",hij:"spreekt",wij:"spreken",jullie:"spreken",zij:"spreken"},test:["ik","jij","hij"]},
+    ]},
+
+    // ── LESSON 4: PUTTING IT TOGETHER ──
+    {id:"u2l4",title:"All About Me",icon:"💫",xp:20,steps:[
+      {type:"intro",title:"All About Me 💫",desc:"Now combine everything! Introduce yourself fully  -  name, origin, where you live, and what languages you speak.",goals:["Full self-introduction","Practice all Unit 2 vocabulary","Mini-conversation patterns"]},
+      {type:"tip",title:"🎯 Your Dutch self-intro",text:"Here's a full self-introduction pattern:\n\nHallo! Ik heet [name].  -  Hello! My name is [name].\nIk kom uit [country].  -  I come from [country].\nIk woon in [city].  -  I live in [city].\nIk spreek [language] en een beetje Nederlands.  -  I speak [language] and a little Dutch.\nAangenaam!  -  Nice to meet you!\n\nExample:\nHallo! Ik heet Maria.  -  Hello! My name is Maria.\nIk kom uit Spanje.  -  I come from Spain.\nIk woon in Amsterdam.  -  I live in Amsterdam.\nIk spreek Spaans en een beetje Nederlands.  -  I speak Spanish and a little Dutch.\nAangenaam!  -  Nice to meet you!"},
+      {type:"tr",mk:"u2_name_origin",dir:"comprehend"},
+      {type:"fb",s:"Ik _____ uit Frankrijk.",a:"Kom",opts:["Kom","Woon","Spreek","Heet"],hint:"I come FROM France"},
+      {type:"mc",q:"Someone says 'Waar woon je?'  -  you reply:",opts:["Ik heet Anna","Ik kom uit Nederland","Ik woon in Utrecht","Ik spreek Nederlands"],ans:"Ik woon in Utrecht",hint:"They're asking WHERE you live"},
+      {type:"tr",mk:"u2_live_speak_little",dir:"produce"},
+      {type:"match",mks:["phrase_my_name_is","phrase_i_come_from","phrase_i_live_in","phrase_i_speak"]},
+      {type:"mc",q:"How do you say 'Nice to meet you' in Dutch?",opts:["Alsjeblieft","Aangenaam","Goedemorgen","Bedankt"],ans:"Aangenaam",hint:"You learned this in Unit 1!"},
+    ]},
+  ]},
+
+  {n:3,lang:"nl",track:"legacy",title:"Numbers & Counting",sub:"0-100 and Beyond",icon:"🔢",level:"A1.1",color:"#2ECDA7",lessons:[
+    // ── LESSON 1: NUMBERS 0-10 ──
+    {id:"u3l1",title:"Numbers 0-10",icon:"🔢",xp:15,steps:[
+      {type:"intro",title:"Numbers 0-10 🔢",desc:"Numbers are essential for shopping, telling time, giving your phone number, and everyday life. Let's start with the basics!",goals:["Count from 0 to 10 in Dutch","Pronunciation of Dutch numbers","Use numbers in simple sentences"]},
+      {type:"teach",kind:"word",nl:"nul",en:"zero",img:"0️⃣",phonetic:"nul",example:"Het is nul graden.",exampleEn:"It is zero degrees.",note:"Same as English! Used for temperatures, scores, and phone numbers."},
+      {type:"teach",kind:"word",nl:"een",en:"one",img:"1️⃣",phonetic:"ayn",example:"Ik heb een kat.",exampleEn:"I have one cat.",note:"'Een' means both 'one' and 'a/an'. Context tells you which! When it means 'one' it's stressed: één."},
+      {type:"teach",kind:"word",nl:"twee",en:"two",img:"2️⃣✌️",phonetic:"tvay",example:"Er zijn twee stoelen.",exampleEn:"There are two chairs.",note:"The 'tw' combination sounds like English 'tw' in 'twin'. Sounds like 'tvay'."},
+      {type:"teach",kind:"word",nl:"drie",en:"three",img:"3️⃣",phonetic:"dree",example:"Drie kinderen spelen.",exampleEn:"Three children are playing.",note:"Very close to English 'three'  -  just change the 'th' to a 'd'!"},
+      {type:"tip",title:"🔊 Getting the sound right",text:"Dutch numbers 1-3 are close to English:\n\n1  -  een (ayn)  -  like 'a' in 'day' + n\n2  -  twee (tvay)  -  like 'tvay'\n3  -  drie (dree)  -  like English 'three' with a 'd'\n\nThe Dutch 'r' in 'drie' is softer than English. Try rolling it slightly or making it guttural."},
+      {type:"teach",kind:"word",nl:"vier",en:"four",img:"4️⃣",phonetic:"veer",example:"Vier seizoenen in een jaar.",exampleEn:"Four seasons in a year.",note:"Sounds like 'veer'. The Dutch 'v' sounds like a softer English 'v' (almost between 'v' and 'f')."},
+      {type:"teach",kind:"word",nl:"vijf",en:"five",img:"5️⃣🖐️",phonetic:"vayf",example:"Ik heb vijf vingers.",exampleEn:"I have five fingers.",note:"Sounds like 'vife'. The 'ij' combination is a key Dutch sound  -  like 'ay' in 'say'."},
+      {type:"teach",kind:"word",nl:"zes",en:"six",img:"6️⃣",phonetic:"zes",example:"Ze heeft zes boeken.",exampleEn:"She has six books.",note:"Simple! Almost the same as English 'says' without the 'ay'."},
+      {type:"teach",kind:"word",nl:"zeven",en:"seven",img:"7️⃣",phonetic:"ZAY-vun",example:"Er zijn zeven dagen.",exampleEn:"There are seven days.",note:"Related to English 'seven'  -  both come from the same Germanic root!"},
+      {type:"teach",kind:"word",nl:"acht",en:"eight",img:"8️⃣",phonetic:"ahgt",example:"De les begint om acht uur.",exampleEn:"The class starts at eight.",note:"The 'ch' is the Dutch throat sound (like a soft gargle). Practice: 'ahh' + friction."},
+      {type:"teach",kind:"word",nl:"negen",en:"nine",img:"9️⃣",phonetic:"NAY-gun",example:"Negen maanden.",exampleEn:"Nine months.",note:"Two syllables: NAY-gun. The 'g' is the guttural Dutch 'g' again."},
+      {type:"teach",kind:"word",nl:"tien",en:"ten",img:"🔟",phonetic:"teen",example:"Ik tel tot tien.",exampleEn:"I count to ten.",note:"Rhymes with English 'teen'. Related to the '-tien' in dertien (13), veertien (14), etc."},
+      {type:"mc",q:"What is 'vijf' in English?",opts:["Four","Five","Six","Seven"],ans:"Five",hint:"Sounds like 'vife'"},
+      {type:"mc",q:"How do you say 'eight' in Dutch?",opts:["Acht","Zes","Negen","Zeven"],ans:"Acht",hint:"Has the Dutch throat sound 'ch'"},
+      {type:"match",mks:["num_three","num_seven","num_nine","num_five"]},
+      {type:"fb",s:"Er zijn _____ dagen in een week.",a:"Zeven",opts:["Vijf","Zes","Zeven","Acht"],hint:"How many days in a week?"},
+    ]},
+
+    // ── LESSON 2: NUMBERS 11-20 ──
+    {id:"u3l2",title:"Numbers 11-20",icon:"🔢",xp:15,steps:[
+      {type:"intro",title:"Numbers 11-20 🔢",desc:"Now the teens! Dutch teen numbers have a unique pattern  -  the unit comes BEFORE the ten.",goals:["Numbers 11-20","The Dutch 'unit-first' pattern","Use numbers in context"]},
+      {type:"teach",kind:"word",nl:"elf",en:"eleven",img:"1️⃣1️⃣",phonetic:"elf",example:"Het is elf uur.",exampleEn:"It is eleven o'clock.",note:"Same as English 'elf'! A standalone word  -  doesn't follow the teen pattern."},
+      {type:"teach",kind:"word",nl:"twaalf",en:"twelve",img:"1️⃣2️⃣",phonetic:"tvahlf",example:"Twaalf maanden in een jaar.",exampleEn:"Twelve months in a year.",note:"Like English 'twelve'  -  another standalone. From 13 onwards, the pattern kicks in."},
+      {type:"teach",kind:"word",nl:"dertien",en:"thirteen",img:"1️⃣3️⃣",phonetic:"DAIR-teen",example:"Zij is dertien jaar oud.",exampleEn:"She is thirteen years old.",note:"Now the pattern starts! Der(=3) + tien(=10). Three-ten = thirteen."},
+      {type:"teach",kind:"word",nl:"veertien",en:"fourteen",img:"1️⃣4️⃣",phonetic:"VAIR-teen",example:"Veertien dagen vakantie.",exampleEn:"Fourteen days of vacation.",note:"Veer(=4) + tien(=10). This 'unit + tien' pattern continues all the way to 19!"},
+      {type:"tip",title:"🧠 The teen pattern",text:"From 13-19, Dutch teens follow: unit + tien\n\n13  -  dertien (3+10)\n14  -  veertien (4+10)\n15  -  vijftien (5+10)\n16  -  zestien (6+10)\n17  -  zeventien (7+10)\n18  -  achttien (8+10)\n19  -  negentien (9+10)\n\nSame as English! Thir-teen, four-teen, etc.",deepDive:{title:"Why Dutch reverses numbers after 20",text:"Here's where it gets wild. After 20, Dutch puts the unit BEFORE the ten:\n\n21 = eenentwintig (one-and-twenty)\n35 = vijfendertig (five-and-thirty)\n99 = negenennegentig (nine-and-ninety)\n\nThis is the SAME pattern Old English had! Shakespeare would say 'four and twenty blackbirds'. German still does this too (einundzwanzig).\n\nIt takes practice but becomes natural. Think of it as: unit + en (and) + tens."}},
+      {type:"teach",kind:"word",nl:"twintig",en:"twenty",img:"2️⃣0️⃣",phonetic:"TVIN-tug",example:"Ik ben twintig jaar oud.",exampleEn:"I am twenty years old.",note:"The first 'round ten'. Related to 'twee' (two)  -  twin-tig. Stress on first syllable."},
+      {type:"mc",q:"What is 'veertien'?",opts:["13","14","15","16"],ans:"14",hint:"Veer = vier = 4, tien = 10"},
+      {type:"mc",q:"How do you say 'twenty' in Dutch?",opts:["Twintig","Twaalf","Dertien","Dertig"],ans:"Twintig",hint:"Related to 'twee' (two)"},
+      {type:"tr",mk:"u3_she_is_thirteen",dir:"comprehend"},
+      {type:"match",mks:["num_eleven","num_twelve","num_fourteen","num_twenty"]},
+    ]},
+
+    // ── LESSON 3: TENS AND BIG NUMBERS ──
+    {id:"u3l3",title:"Tens & Big Numbers",icon:"💯",xp:15,steps:[
+      {type:"intro",title:"Tens & Big Numbers 💯",desc:"Let's learn the round tens (20, 30, 40...) and the unique Dutch way of building numbers.",goals:["Round tens 20-100","How Dutch combines numbers","Hundreds and thousands"]},
+      {type:"teach",kind:"word",nl:"dertig",en:"thirty",img:"3️⃣0️⃣",phonetic:"DAIR-tug",example:"Dertig minuten lopen.",exampleEn:"Thirty minutes walking.",note:"Der(=3) + tig. All round tens end in '-tig' (like English '-ty')."},
+      {type:"teach",kind:"word",nl:"vijftig",en:"fifty",img:"5️⃣0️⃣",phonetic:"VAYF-tug",example:"Hij is vijftig jaar oud.",exampleEn:"He is fifty years old.",note:"Vijf(=5) + tig. See the pattern: veer-tig(40), vijf-tig(50), zes-tig(60), zeven-tig(70), tach-tig(80), negen-tig(90)."},
+      {type:"teach",kind:"word",nl:"honderd",en:"hundred",img:"💯✨",phonetic:"HON-durt",example:"Honderd procent zeker.",exampleEn:"One hundred percent sure.",note:"Related to English 'hundred'! No article needed for just '100'."},
+      {type:"teach",kind:"word",nl:"duizend",en:"thousand",img:"1️⃣0️⃣0️⃣0️⃣",phonetic:"DOW-zunt",example:"Duizend euro.",exampleEn:"One thousand euros.",note:"Related to English 'thousand'. Dutch uses a period for thousands: 1.000 (not 1,000)."},
+      {type:"tip",title:"🔄 The Dutch number flip",text:"After 20, units come BEFORE tens with 'en' (and):\n\n21  -  eenentwintig (1 and 20)\n32  -  tweeëndertig (2 and 30)\n45  -  vijfenveertig (5 and 40)\n67  -  zevenenzestig (7 and 60)\n88  -  achtentachtig (8 and 80)\n99  -  negenennegentig (9 and 90)\n\nIt sounds complex but Dutch children learn it effortlessly  -  you will too!\n\n🔢 Full tens:\n20 twintig · 30 dertig · 40 veertig · 50 vijftig\n60 zestig · 70 zeventig · 80 tachtig · 90 negentig"},
+      {type:"mc",q:"How would a Dutch person say 25?",opts:["Twintigvijf","Vijfentwintig","Vijftwintig","Tweeenvijftig"],ans:"Vijfentwintig",hint:"Unit first: vijf (5) + en + twintig (20)"},
+      {type:"mc",q:"What is 'tachtig'?",opts:["70","80","90","60"],ans:"80",hint:"The odd one out  -  doesn't follow the regular pattern exactly"},
+      {type:"tr",mk:"u3_hundred_percent",dir:"comprehend"},
+      {type:"fb",s:"Er zijn _____ dagen in een jaar.",a:["Driehonderdvijfenzestig"],opts:["Driehonderdvijfenzestig","Honderd","Duizend","Tweehonderd"],hint:"365 days"},
+    ]},
+  ]},
+
+  {n:4,lang:"nl",track:"legacy",title:"Eating & Drinking",sub:"Food & Ordering",icon:"🍽️",level:"A1.2",color:"#F5A623",lessons:[
+    // ── LESSON 1: DRINKS ──
+    {id:"u4l1",title:"What'll You Have?",icon:"☕",xp:15,steps:[
+      {type:"intro",title:"What'll You Have? ☕",desc:"The Dutch love their coffee breaks! Let's learn to order drinks  -  the first step to surviving in a Dutch café.",goals:["6 common Dutch drinks","How to order politely","De vs het with drinks"]},
+      {type:"teach",kind:"phrase",nl:"de koffie",en:"coffee",img:"☕🫘",phonetic:"duh KOF-fee",example:"Wil je koffie?",exampleEn:"Do you want coffee?",note:"A de-word! The Dutch drink an average of 3-4 cups of coffee per day  -  the most in Europe!"},
+      {type:"teach",kind:"phrase",nl:"de thee",en:"tea",img:"🍵🌿",phonetic:"duh tay",example:"Ik drink graag thee.",exampleEn:"I like to drink tea.",note:"A de-word. 'Graag' means 'gladly/preferably'. 'Ik drink graag...' = I like to drink..."},
+      {type:"teach",kind:"phrase",nl:"het water",en:"water",img:"💧🚰",phonetic:"ut WAH-tur",example:"Mag ik een glas water?",exampleEn:"May I have a glass of water?",note:"A het-word! 'Een glas water' = a glass of water. Very similar to English."},
+      {type:"teach",kind:"phrase",nl:"het bier",en:"beer",img:"🍺🇳🇱",phonetic:"ut beer",example:"Een biertje, alsjeblieft.",exampleEn:"A beer, please.",note:"A het-word! The diminutive 'biertje' is super common  -  it sounds friendlier. Heineken is Dutch!"},
+      {type:"teach",kind:"phrase",nl:"de wijn",en:"wine",img:"🍷🍇",phonetic:"duh vayn",example:"Rode of witte wijn?",exampleEn:"Red or white wine?",note:"A de-word. 'Rode wijn' = red wine, 'witte wijn' = white wine. Sounds like English 'wine'."},
+      {type:"teach",kind:"phrase",nl:"de melk",en:"milk",img:"🥛🐄",phonetic:"duh melk",example:"Melk is gezond.",exampleEn:"Milk is healthy.",note:"A de-word. The Dutch drink a lot of milk  -  karnemelk (buttermilk) is uniquely popular!"},
+      {type:"tip",title:"🗣️ How to order",text:"At a Dutch café or restaurant:\n\n☕ Mag ik een koffie?  -  May I have a coffee?\n🍺 Een biertje, alsjeblieft.  -  A beer, please.\n💧 Doe maar een water.  -  Just give me a water.\n🍵 Ik wil graag thee.  -  I'd like tea.\n\n'Doe maar...' is a very Dutch phrase meaning 'just give me...' or 'I'll have...'  -  super casual and commonly used!",deepDive:{title:"The Dutch coffee culture  -  'koffietijd'",text:"Coffee isn't just a drink in the Netherlands  -  it's a social institution.\n\n'Koffie?' is the first thing you'll hear when visiting any Dutch home or office. Refusing coffee can even be considered slightly rude!\n\nCommon coffee terms:\n• Koffie verkeerd  -  literally 'wrong coffee' = coffee with lots of milk (like a latte)\n• Espresso  -  same as everywhere\n• Cappuccino  -  also common\n• Bakkie  -  slang for a cup of coffee\n\nMany Dutch workplaces have a daily 'koffiepauze' (coffee break) that's almost sacred."}},
+      {type:"mc",q:"What article does 'water' get?",opts:["De","Het","Een","No article"],ans:"Het",hint:"Think about what category water falls into  -  liquid, substance..."},
+      {type:"mc",q:"How would you casually order a beer?",opts:["Geef mij bier","Een biertje, alsjeblieft","Het bier is goed","Ik ben bier"],ans:"Een biertje, alsjeblieft",hint:"The diminutive -tje makes it friendlier"},
+      {type:"tr",mk:"u4_glass_water",dir:"produce"},
+      {type:"match",mks:["food_coffee","food_tea","food_beer","food_wine"]},
+      {type:"fb",s:"Mag ik een _____, alsjeblieft?",a:"Koffie",opts:["Koffie","Kopen","Groot","Lekker"],hint:"Ordering a hot drink"},
+    ]},
+
+    // ── LESSON 2: FOOD BASICS ──
+    {id:"u4l2",title:"Eet smakelijk!",icon:"🍞",xp:15,steps:[
+      {type:"intro",title:"Eet smakelijk! 🍞",desc:"'Eet smakelijk' means 'enjoy your meal'! Let's learn essential food words  -  many are key to understanding Dutch menus.",goals:["8 common food words","De vs het with food nouns","'Lekker'  -  the most Dutch word ever"]},
+      {type:"gramref",title:"De vs Het  -  Why It Matters",level:"A1",text:"Food nouns are a great way to practice articles:\n\n🔴 de-words (coral): de kaas, de vis, de groente, de aardappel\n🟣 het-words (purple): het brood, het ei, het vlees\n\nNotice the teach cards are color-coded!\nCoral background = de word\nPurple background = het word\n\nThere's no logic  -  just memorize each noun with its article.\n\nFull reference → Grammar tab → A1 → Articles: De vs Het"},
+      {type:"teach",kind:"phrase",nl:"het brood",en:"bread",img:"🍞🥖",phonetic:"ut broht",example:"Wij eten brood bij het ontbijt.",exampleEn:"We eat bread at breakfast.",note:"A het-word! Bread is THE Dutch food. The Dutch eat bread for lunch every single day  -  it's called 'boterham'."},
+      {type:"teach",kind:"phrase",nl:"de kaas",en:"cheese",img:"🧀🇳🇱",phonetic:"duh kahs",example:"Nederlandse kaas is lekker!",exampleEn:"Dutch cheese is delicious!",note:"A de-word. The Netherlands is one of the world's biggest cheese exporters  -  Gouda, Edam, Leiden cheese!"},
+      {type:"teach",kind:"phrase",nl:"het ei",en:"egg",img:"🥚🍳",phonetic:"ut ay",example:"Wil je een gekookt ei?",exampleEn:"Do you want a boiled egg?",note:"A het-word! Plural: de eieren (the eggs). 'Een gebakken ei' = a fried egg."},
+      {type:"teach",kind:"phrase",nl:"het vlees",en:"meat",img:"🥩🍖",phonetic:"ut vlays",example:"Ik eet geen vlees.",exampleEn:"I don't eat meat.",note:"A het-word! 'Geen' = no/not any. 'Ik eet geen vlees' is useful if you're vegetarian."},
+      {type:"teach",kind:"phrase",nl:"de vis",en:"fish",img:"🐟🎣",phonetic:"duh vis",example:"Vis is gezond.",exampleEn:"Fish is healthy.",note:"A de-word! The Dutch love haring (herring)  -  eaten raw with onions! A must-try street food."},
+      {type:"teach",kind:"phrase",nl:"de groente",en:"vegetables",img:"🥬🥕",phonetic:"duh GROON-tuh",example:"Eet meer groente!",exampleEn:"Eat more vegetables!",note:"A de-word. The classic Dutch dinner: meat + potatoes + groente. Called 'AVG' (aardappelen, vlees, groente)."},
+      {type:"teach",kind:"phrase",nl:"de aardappel",en:"potato",img:"🥔🇳🇱",phonetic:"duh AHR-dah-pul",example:"Aardappelen zijn typisch Nederlands.",exampleEn:"Potatoes are typically Dutch.",note:"A de-word. Literally 'earth-apple'! Plural: aardappelen. Stamppot (mashed potatoes + veggies) is the national comfort food."},
+      {type:"teach",kind:"word",nl:"lekker",en:"tasty/nice/yummy",img:"😋👨‍🍳",phonetic:"LEK-ur",example:"Dit is heel lekker!",exampleEn:"This is very tasty!",note:"THE most Dutch word! Used for food, weather, feelings  -  anything positive. 'Lekker weer' = nice weather, 'lekker slapen' = sleep well."},
+      {type:"tip",title:"😋 'Lekker'  -  the ultimate Dutch word",text:"'Lekker' is everywhere in Dutch:\n\n🍽️ Het eten is lekker!  -  The food is tasty!\n☀️ Lekker weer vandaag!  -  Nice weather today!\n😴 Slaap lekker!  -  Sleep well!\n🏖️ Lekker rustig.  -  Nicely quiet.\n💆 Ik voel me lekker.  -  I feel good.\n\nIf you only learn one Dutch adjective, make it 'lekker'!"},
+      {type:"mc",q:"What article goes with 'brood'?",opts:["De","Het"],ans:"Het",hint:"You learned this one at breakfast!"},
+      {type:"mc",q:"What does 'lekker' mean?",opts:["Ugly","Expensive","Tasty/nice","Difficult"],ans:"Tasty/nice",hint:"The most positive word in Dutch!"},
+      {type:"tr",mk:"u4_cheese_delicious",dir:"comprehend"},
+      {type:"match",mks:["food_bread","food_cheese","food_meat","food_vegetables"]},
+      {type:"fb",s:"Dit is heel _____!",a:"Lekker",opts:["Lekker","Groot","Nieuw","Klein"],hint:"The most Dutch compliment for food"},
+    ]},
+
+    // ── LESSON 3: AT THE RESTAURANT ──
+    {id:"u4l3",title:"At the Restaurant",icon:"🍽️",xp:20,steps:[
+      {type:"intro",title:"At the Restaurant 🍽️",desc:"Time to put it all together and order a full meal in Dutch! You'll learn key restaurant phrases.",goals:["Order food and drinks","Ask for the bill","Essential restaurant phrases"]},
+      {type:"teach",kind:"phrase",nl:"het menu",en:"the menu",img:"📋🍽️",phonetic:"ut muh-NOO",example:"Mag ik het menu?",exampleEn:"May I have the menu?",note:"A het-word! Same as French. You'll also hear 'de kaart' (the card) meaning the menu."},
+      {type:"teach",kind:"phrase",nl:"de rekening",en:"the bill/check",img:"🧾💶",phonetic:"duh RAY-kuh-ning",example:"Mag ik de rekening?",exampleEn:"May I have the bill?",note:"A de-word. In the Netherlands, you usually have to ASK for the bill  -  they won't bring it automatically."},
+      {type:"teach",kind:"phrase",nl:"het ontbijt",en:"breakfast",img:"🥐☀️",phonetic:"ut ont-BAYT",example:"Ontbijt om acht uur.",exampleEn:"Breakfast at eight.",note:"A het-word. Dutch breakfast = bread with cheese, ham, hagelslag (chocolate sprinkles!), peanut butter, jam."},
+      {type:"teach",kind:"phrase",nl:"de lunch",en:"lunch",img:"🥪🕐",phonetic:"duh lunch",example:"Wat eet je voor de lunch?",exampleEn:"What do you eat for lunch?",note:"A de-word. Dutch lunch is simple: broodjes (sandwiches). The warm meal is dinner."},
+      {type:"teach",kind:"phrase",nl:"het avondeten",en:"dinner",img:"🍲🌙",phonetic:"ut AH-vont-ay-tun",example:"Het avondeten is om zes uur.",exampleEn:"Dinner is at six.",note:"A het-word. Literally 'evening-eating'. Dutch people eat dinner early  -  often around 6 PM!"},
+      {type:"tip",title:"🍽️ Restaurant survival phrases",text:"Essential phrases:\n\n📋 Mag ik het menu?  -  May I see the menu?\n🤔 Wat is de soep van de dag?  -  What is the soup of the day?\n☕ Ik wil graag een koffie.  -  I'd like a coffee.\n🍽️ Ik wil graag bestellen.  -  I'd like to order.\n🧾 Mag ik de rekening?  -  May I have the bill?\n💳 Kan ik pinnen?  -  Can I pay by card?\n\n'Pinnen' = paying by debit card (very Dutch  -  cash is rare!)"},
+      {type:"mc",q:"How do you ask for the bill?",opts:["Mag ik het menu?","Mag ik de rekening?","Ik wil betalen","De koffie, alsjeblieft"],ans:"Mag ik de rekening?",hint:"De rekening = the bill"},
+      {type:"tr",mk:"u4_like_to_order",dir:"produce"},
+      {type:"fb",s:"Mag ik het _____?",a:"Menu",opts:["Menu","Eten","Lekker","Goed"],hint:"What do you look at to choose your food?"},
+      {type:"match",mks:["food_breakfast","food_lunch","food_dinner","food_bill"]},
+      {type:"mc",q:"What does 'Kan ik pinnen?' mean?",opts:["Can I eat here?","Can I pay by card?","Can I have the menu?","Can I sit here?"],ans:"Can I pay by card?",hint:"Pinnen = to pay by debit card"},
+    ]},
+  ]},
+  {n:5,lang:"nl",track:"legacy",title:"My Family",sub:"Family & Possessives",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#E74A8F",lessons:[
+    // ── LESSON 1: CLOSE FAMILY ──
+    {id:"u5l1",title:"Vader, Moeder, Kind",icon:"👨‍👩‍👧",xp:15,steps:[
+      {type:"intro",title:"Vader, Moeder, Kind 👨‍👩‍👧",desc:"Family is a huge topic in Dutch small talk. Let's learn the closest family members and their articles.",goals:["Core family members","De vs het with family words","Talk about your family"]},
+      {type:"teach",kind:"phrase",nl:"de vader",en:"father",img:"👨💪",phonetic:"duh VAH-dur",example:"Mijn vader werkt bij een bank.",exampleEn:"My father works at a bank.",note:"A de-word. Informally: 'papa' or 'pap'. Most Dutch people say 'papa' at home."},
+      {type:"teach",kind:"phrase",nl:"de moeder",en:"mother",img:"👩❤️",phonetic:"duh MOO-dur",example:"Mijn moeder kookt lekker.",exampleEn:"My mother cooks well.",note:"A de-word. Informally: 'mama' or 'mam'. Dutch families are often close-knit."},
+      {type:"teach",kind:"phrase",nl:"het kind",en:"child",img:"🧒🎈",phonetic:"ut kint",example:"Het kind speelt buiten.",exampleEn:"The child plays outside.",note:"A het-word! But the plural 'de kinderen' takes 'de'  -  all plurals do! This catches many learners off guard."},
+      {type:"teach",kind:"phrase",nl:"de broer",en:"brother",img:"👦🤝",phonetic:"duh broor",example:"Mijn broer is ouder dan ik.",exampleEn:"My brother is older than me.",note:"A de-word. 'Grote broer' = big brother, 'kleine broer' = little brother."},
+      {type:"teach",kind:"phrase",nl:"de zus",en:"sister",img:"👧💜",phonetic:"duh zus",example:"Ik heb twee zussen.",exampleEn:"I have two sisters.",note:"A de-word. Plural: 'zussen'. 'Grote zus' = big sister. Also formal: 'de zuster'."},
+      {type:"teach",kind:"phrase",nl:"de ouders",en:"parents",img:"👫🏠",phonetic:"duh OW-durs",example:"Mijn ouders wonen in Utrecht.",exampleEn:"My parents live in Utrecht.",note:"Always plural (de-word). 'Ouder' also means 'older'  -  same word! Context makes it clear."},
+      {type:"tip",title:"💡 Het kind → De kinderen",text:"This is one of the trickiest things in Dutch articles:\n\n• het kind (the child)  -  neuter, het-word\n• de kinderen (the children)  -  plural, always de!\n\nAll plurals in Dutch take 'de', even if the singular is a het-word:\n• het huis → de huizen\n• het boek → de boeken\n• het kind → de kinderen\n\nSo you only need to memorize de/het for singular nouns!"},
+      {type:"mc",q:"What article goes with 'kind'?",opts:["De","Het"],ans:"Het",hint:"This one surprises many learners!"},
+      {type:"mc",q:"What article do ALL plurals get?",opts:["De","Het","Een","No article"],ans:"De",hint:"Even het-words become de in plural!"},
+      {type:"tr",mk:"u5_brother_older",dir:"produce"},
+      {type:"match",mks:["fam_father","fam_mother","fam_brother","fam_sister"]},
+      {type:"gramref",title:"Hebben  -  Irregular!",level:"A1",text:"'Hebben' (to have) doesn't follow the regular pattern.\nYou need to memorize it:\n\nik heb\njij hebt\nhij/zij heeft\nwij hebben\njullie hebben\nzij hebben\n\n⚠️ In questions with jij: 'Heb jij...?' (drops the -t)\n\nFull conjugation → Grammar tab → A1 → Zijn & Hebben"},
+      {type:"conj",verb:"hebben",en:"to have (irregular!)",forms:{ik:"heb",jij:"hebt",hij:"heeft",wij:"hebben",jullie:"hebben",zij:"hebben"},test:["ik","jij","hij"]},
+      {type:"fb",s:"_____ ouders wonen in Amsterdam.",a:"Mijn",opts:["Mijn","Het","Een","De"],hint:"MY parents"},
+    ]},
+
+    // ── LESSON 2: EXTENDED FAMILY ──
+    {id:"u5l2",title:"Opa & Oma",icon:"👴👵",xp:15,steps:[
+      {type:"intro",title:"Opa & Oma 👴👵",desc:"Meet the extended family! Grandparents, uncles, aunts  -  and learn the possessive pronouns.",goals:["Extended family members","All possessive pronouns","Describe your family"]},
+      {type:"gramref",title:"Possessive Pronouns",level:"A1",text:"Quick reference  -  you'll need these for family:\n\nmijn  -  my\njouw / je  -  your (informal)\nuw  -  your (formal)\nzijn  -  his\nhaar  -  her\nons / onze  -  our (ons + het-word, onze + de-word)\nhun  -  their\n\n⚠️ Only ons/onze changes based on de/het!\n\nFull explanation → Grammar tab → A1 → Possessive Pronouns"},
+      {type:"teach",kind:"phrase",nl:"de opa",en:"grandfather/grandpa",img:"👴🍪",phonetic:"duh OH-pah",example:"Opa vertelt verhalen.",exampleEn:"Grandpa tells stories.",note:"A de-word. Also: 'de grootvader' (formal). Most Dutch people say 'opa'  -  it's warm and affectionate."},
+      {type:"teach",kind:"phrase",nl:"de oma",en:"grandmother/grandma",img:"👵🧶",phonetic:"duh OH-mah",example:"Oma bakt koekjes.",exampleEn:"Grandma bakes cookies.",note:"A de-word. Also: 'de grootmoeder' (formal). 'Oma's koekjes' = Grandma's cookies  -  the 's shows possession!"},
+      {type:"teach",kind:"phrase",nl:"de oom",en:"uncle",img:"👨🎩",phonetic:"duh ohm",example:"Mijn oom woont in België.",exampleEn:"My uncle lives in Belgium.",note:"A de-word. Fun fact: the Dutch word for 'uncle' sounds exactly like 'ohm'  -  the electrical unit!"},
+      {type:"teach",kind:"phrase",nl:"de tante",en:"aunt",img:"👩🎀",phonetic:"duh TAHN-tuh",example:"Tante Mien komt morgen.",exampleEn:"Aunt Mien comes tomorrow.",note:"A de-word. Dutch people often use 'oom' and 'tante' even for close family friends  -  a sign of affection."},
+      {type:"teach",kind:"phrase",nl:"de zoon",en:"son",img:"👦⭐",phonetic:"duh zohn",example:"Mijn zoon is vijf jaar.",exampleEn:"My son is five years old.",note:"A de-word. Sounds similar to English 'son'! Plural: 'zonen' or 'zoons'."},
+      {type:"teach",kind:"phrase",nl:"de dochter",en:"daughter",img:"👧🌸",phonetic:"duh DOG-tur",example:"Haar dochter studeert.",exampleEn:"Her daughter is studying.",note:"A de-word. Related to English 'daughter'  -  both from the same ancient root."},
+      {type:"tip",title:"👤 Possessive pronouns",text:"Here are all the possessives you need:\n\n🔹 mijn  -  my\n🔹 jouw / je  -  your (informal)\n🔹 uw  -  your (formal)\n🔹 zijn  -  his\n🔹 haar  -  her\n🔹 ons / onze  -  our\n🔹 hun  -  their\n\n⚠️ Special rule for 'ons/onze':\n• ons + het-word: ons huis (our house)\n• onze + de-word: onze auto (our car)\n• onze + plural: onze kinderen (our children)\n\nThis is the ONLY possessive that changes based on gender!",deepDive:{title:"Why 'zijn' and 'haar' can be confusing",text:"'Zijn' means both 'his' AND 'to be':\n• Zijn vader is arts. = His father is a doctor.\n• Where 'zijn' = his AND = is!\n\n'Haar' means both 'her' AND 'hair':\n• Haar haar is blond. = Her hair is blond.\n\nContext always makes it clear, but it trips up beginners!"}},
+      {type:"mc",q:"Which possessive changes based on de/het?",opts:["Mijn","Zijn","Ons/Onze","Hun"],ans:"Ons/Onze",hint:"Ons huis (het) vs onze auto (de)"},
+      {type:"fb",s:"_____ kinderen gaan naar school.",a:["Onze","Hun"],opts:["Ons","Onze","Zijn","Mijn"],hint:"OUR children (plural → onze)"},
+      {type:"tr",mk:"u5_grandma_cookies",dir:"produce"},
+      {type:"match",mks:["fam_grandpa","fam_grandma","fam_uncle","fam_aunt"]},
+    ]},
+
+    // ── LESSON 3: DESCRIBING YOUR FAMILY ──
+    {id:"u5l3",title:"Big or Small?",icon:"📸",xp:15,steps:[
+      {type:"intro",title:"Big or Small? 📸",desc:"How many brothers do you have? Is your family big? Let's learn to describe families with adjectives and 'hebben'.",goals:["'Heb je...?' questions","Adjectives for family","Numbers + family"]},
+      {type:"teach",kind:"phrase",nl:"het gezin",en:"family (nuclear)",img:"👨‍👩‍👧‍👦🏠",phonetic:"ut guh-ZIN",example:"Ons gezin is niet groot.",exampleEn:"Our family is not big.",note:"A het-word! 'Gezin' = nuclear family (parents + children). 'Familie' = extended family. This distinction is very Dutch!"},
+      {type:"teach",kind:"phrase",nl:"de baby",en:"baby",img:"👶🍼",phonetic:"duh BAY-bee",example:"De baby slaapt.",exampleEn:"The baby is sleeping.",note:"A de-word. Borrowed from English! Diminutive: 'het babytje'  -  with het because all diminutives are het-words."},
+      {type:"teach",kind:"grammar",nl:"groot",en:"big/large",img:"📏⬆️",phonetic:"groht",example:"Ik heb een groot gezin.",exampleEn:"I have a big family.",note:"Remember adjective endings! 'Een groot gezin' (een + het-word = no -e), but 'het grote gezin' (het-word + definite = -e)."},
+      {type:"teach",kind:"word",nl:"klein",en:"small/little",img:"📏⬇️",phonetic:"klayn",example:"Het is een klein dorp.",exampleEn:"It is a small village.",note:"Same adjective rule: 'een klein huis' (een + het = no -e), but 'de kleine tuin' (de-word = always -e)."},
+      {type:"tip",title:"💬 Talking about your family",text:"Common family questions & answers:\n\n❓ Heb je broers of zussen?\n -  Do you have brothers or sisters?\n💬 Ik heb twee broers en een zus.\n -  I have two brothers and one sister.\n\n❓ Hoe groot is je gezin?\n -  How big is your family?\n💬 We zijn met z'n vijven.\n -  There are five of us.\n\n❓ Heb je kinderen?\n -  Do you have children?\n💬 Ja, ik heb een zoon en een dochter.\n -  Yes, I have a son and a daughter."},
+      {type:"mc",q:"What is the difference between 'gezin' and 'familie'?",opts:["Gezin=formal, familie=informal","Gezin=nuclear family, familie=extended","They mean the same","Gezin=big, familie=small"],ans:"Gezin=nuclear family, familie=extended",hint:"Gezin is parents + children at home"},
+      {type:"tr",mk:"u5_siblings",dir:"produce"},
+      {type:"fb",s:"Ik heb een _____ gezin.",a:["Groot","Klein"],opts:["Groot","Goed","Lekker","Mooi"],hint:"A big/small family"},
+      {type:"tr",mk:"u5_five_of_us",dir:"comprehend"},
+      {type:"match",mks:["fam_big","fam_small","fam_family","fam_baby"]},
+    ]},
+
+    // ── LESSON 4: FAMILY REUNION ──
+    {id:"u5l4",title:"Family Reunion",icon:"🎉",xp:20,steps:[
+      {type:"intro",title:"Family Reunion 🎉",desc:"Practice round! Combine all family vocabulary, possessives, and descriptions in real conversations.",goals:["Full family descriptions","Possessives in context","Unit 5 review"]},
+      {type:"tip",title:"📸 Describe this family",text:"Practice describing a family:\n\nDit is mijn gezin.  -  This is my family.\nMijn vader heet Pieter en mijn moeder heet Sanne.  -  My father is called Pieter and my mother is called Sanne.\nIk heb een broer  -  hij heet Lars.  -  I have a brother  -  he's called Lars.\nMijn opa en oma wonen in Den Haag.  -  My grandpa and grandma live in The Hague.\nWij zijn met z'n vijven.  -  There are five of us.\nIk houd van mijn familie!  -  I love my family!\n\n'Ik houd van' = I love (for people and things)"},
+      {type:"tr",mk:"u5_parents_names",dir:"comprehend"},
+      {type:"fb",s:"_____ dochter studeert in Leiden.",a:"Haar",opts:["Haar","Zijn","Ons","Mijn"],hint:"HER daughter"},
+      {type:"mc",q:"'Ons huis' vs 'Onze auto'  -  why the difference?",opts:["Random","Huis is het-word (ons), auto is de-word (onze)","Huis is small, auto is big","No real difference"],ans:"Huis is het-word (ons), auto is de-word (onze)",hint:"Ons/onze changes based on de or het!"},
+      {type:"tr",mk:"u5_son_five",dir:"produce"},
+      {type:"match",mks:["poss_my","poss_your","poss_his","poss_her"]},
+      {type:"mc",q:"How do you say 'I love my family'?",opts:["Ik heb mijn familie","Ik woon met mijn familie","Ik houd van mijn familie","Ik ken mijn familie"],ans:"Ik houd van mijn familie",hint:"Houden van = to love"},
+    ]},
+  ]},
+  {n:6,lang:"nl",track:"legacy",title:"Around the House",sub:"Rooms & Objects",icon:"🏠",level:"A1.2",objectives:["ok_describe_home"],color:"var(--purple-accent-text)",lessons:[
+    // ── LESSON 1: ROOMS ──
+    {id:"u6l1",title:"Welcome to My Home",icon:"🏠",xp:15,steps:[
+      {type:"intro",title:"Welcome to My Home 🏠",desc:"Dutch people love their homes  -  they'll even give you a tour! Let's learn the rooms of a house.",goals:["Rooms of the house","De vs het for home words","'Er is/er zijn' (there is/there are)"]},
+      {type:"teach",kind:"phrase",nl:"het huis",en:"house",img:"🏡🔑",phonetic:"ut hows",example:"Ons huis is groot.",exampleEn:"Our house is big.",note:"A het-word! Related to English 'house'. Plural: 'de huizen' (remember: all plurals → de)."},
+      {type:"teach",kind:"phrase",nl:"de kamer",en:"room",img:"🚪🛋️",phonetic:"duh KAH-mur",example:"Mijn kamer is klein.",exampleEn:"My room is small.",note:"A de-word. 'Kamer' appears in many compounds: slaapkamer, badkamer, woonkamer."},
+      {type:"teach",kind:"phrase",nl:"de keuken",en:"kitchen",img:"👨‍🍳🍳",phonetic:"duh KUH-kun",example:"Ik kook in de keuken.",exampleEn:"I cook in the kitchen.",note:"A de-word. Related to English 'kitchen'! The heart of many Dutch homes."},
+      {type:"teach",kind:"phrase",nl:"de woonkamer",en:"living room",img:"🛋️📺",phonetic:"duh VOHN-kah-mur",example:"Wij zitten in de woonkamer.",exampleEn:"We sit in the living room.",note:"A de-word. Literally 'living-room'. 'Woon' from 'wonen' (to live) + 'kamer' (room)."},
+      {type:"teach",kind:"phrase",nl:"de slaapkamer",en:"bedroom",img:"🛏️😴",phonetic:"duh SLAHP-kah-mur",example:"De slaapkamer is rustig.",exampleEn:"The bedroom is quiet.",note:"A de-word. 'Slaap' from 'slapen' (to sleep) + 'kamer'. See the compound pattern?"},
+      {type:"teach",kind:"phrase",nl:"de badkamer",en:"bathroom",img:"🚿🛁",phonetic:"duh BAD-kah-mur",example:"De badkamer is boven.",exampleEn:"The bathroom is upstairs.",note:"A de-word. 'Bad' (bath) + 'kamer'. Dutch toilets are often separate from the bathroom!"},
+      {type:"teach",kind:"phrase",nl:"de tuin",en:"garden",img:"🌻🌳",phonetic:"duh town",example:"De tuin is mooi.",exampleEn:"The garden is beautiful.",note:"A de-word. Dutch people love their gardens. Many houses have a small 'achtertuin' (backyard)."},
+      {type:"tip",title:"📍 Er is / Er zijn",text:"To say 'there is' or 'there are':\n\n• Er is een keuken.  -  There is a kitchen.\n• Er zijn drie slaapkamers.  -  There are three bedrooms.\n• Er is geen tuin.  -  There is no garden.\n\nUse 'er is' for singular, 'er zijn' for plural.\nThis is essential for describing houses!"},
+      {type:"mc",q:"What article goes with 'huis'?",opts:["De","Het"],ans:"Het",hint:"One of the most common nouns  -  did you memorize it?"},
+      {type:"tr",mk:"u6_three_bedrooms",dir:"produce"},
+      {type:"match",mks:["house_kitchen","house_living_room","house_bedroom","house_garden"]},
+      {type:"fb",s:"Er _____ een grote tuin.",a:"Is",opts:["Is","Zijn","Heb","Ben"],hint:"There IS (singular)"},
+    ]},
+
+    // ── LESSON 2: THINGS IN THE HOUSE ──
+    {id:"u6l2",title:"Furniture & Objects",icon:"🪑",xp:15,steps:[
+      {type:"intro",title:"Furniture & Objects 🪑",desc:"What's inside the rooms? Tables, chairs, beds  -  and the tricky de/het divide continues!",goals:["Common furniture words","Prepositions: op, in, onder, naast","Describe where things are"]},
+      {type:"teach",kind:"phrase",nl:"de tafel",en:"table",img:"🪵🍽️",phonetic:"duh TAH-ful",example:"Het eten staat op tafel.",exampleEn:"The food is on the table.",note:"A de-word. Related to English 'table'! Fun: Dutch often drop the article: 'op tafel' not 'op de tafel'."},
+      {type:"teach",kind:"phrase",nl:"de stoel",en:"chair",img:"🪑💺",phonetic:"duh stool",example:"Ga zitten op de stoel.",exampleEn:"Sit down on the chair.",note:"A de-word. Sounds like English 'stool'! Plural: 'stoelen'."},
+      {type:"teach",kind:"phrase",nl:"het bed",en:"bed",img:"🛏️😴",phonetic:"ut bet",example:"Ik ga naar bed.",exampleEn:"I go to bed.",note:"A het-word! Same as English. 'Naar bed gaan' = to go to bed (a fixed expression)."},
+      {type:"teach",kind:"phrase",nl:"het raam",en:"window",img:"🪟☀️",phonetic:"ut rahm",example:"Open het raam.",exampleEn:"Open the window.",note:"A het-word. Fun fact: Dutch people rarely close their curtains  -  they want everyone to see their clean, cozy homes!"},
+      {type:"teach",kind:"phrase",nl:"de deur",en:"door",img:"🚪🔑",phonetic:"duh duhr",example:"Doe de deur dicht.",exampleEn:"Close the door.",note:"A de-word. Related to English 'door'. 'Dicht' = closed, 'open' = open. 'Doe de deur open' = open the door."},
+      {type:"teach",kind:"phrase",nl:"de trap",en:"stairs",img:"🪜⬆️",phonetic:"duh trap",example:"Loop de trap op.",exampleEn:"Walk up the stairs.",note:"A de-word. Dutch houses are famous for having VERY steep, narrow stairs. Be careful!"},
+      {type:"tip",title:"📍 Prepositions of place",text:"Where is it? Essential prepositions:\n\n📦 op  -  on (top of)\n📦 in  -  in (inside)\n📦 onder  -  under\n📦 naast  -  next to\n📦 voor  -  in front of\n📦 achter  -  behind\n📦 boven  -  above / upstairs\n📦 beneden  -  below / downstairs\n📦 tussen  -  between\n\nExamples:\n• De kat zit op de tafel.  -  The cat sits on the table.\n• De schoenen staan onder het bed.  -  The shoes are under the bed.\n• De keuken is beneden.  -  The kitchen is downstairs."},
+      {type:"mc",q:"What article goes with 'raam' (window)?",opts:["De","Het"],ans:"Het",hint:"Think about which gender window falls into."},
+      {type:"tr",mk:"u6_cat_on_table",dir:"comprehend"},
+      {type:"fb",s:"De schoenen staan _____ het bed.",a:"Onder",opts:["Op","Onder","In","Naast"],hint:"UNDER the bed"},
+      {type:"match",mks:["house_table","house_chair","house_window","house_door"]},
+    ]},
+
+    // ── LESSON 3: MY HOUSE TOUR ──
+    {id:"u6l3",title:"House Tour",icon:"🏘️",xp:20,steps:[
+      {type:"intro",title:"House Tour 🏘️",desc:"Give a full tour of your home! Combine rooms, objects, and prepositions into flowing descriptions.",goals:["Describe a complete house","Use er is/er zijn fluently","Prepositions in context"]},
+      {type:"tip",title:"🏠 A typical Dutch house tour",text:"Dutch home description:\n\nMijn huis heeft twee verdiepingen.  -  My house has two floors.\nBeneden is er een woonkamer, een keuken en een toilet.  -  Downstairs there is a living room, a kitchen and a toilet.\nBoven zijn er drie slaapkamers en een badkamer.  -  Upstairs there are three bedrooms and a bathroom.\nWe hebben een kleine tuin achter het huis.  -  We have a small garden behind the house.\nDe woonkamer is groot en gezellig.  -  The living room is big and cozy.\n\n'Verdiepingen' = floors/stories\n'Beneden' = downstairs\n'Boven' = upstairs\n'Gezellig' = cozy (the most Dutch word ever!)"},
+      {type:"tr",mk:"u6_two_floors",dir:"comprehend"},
+      {type:"mc",q:"What does 'beneden' mean?",opts:["Upstairs","Downstairs","Outside","Next door"],ans:"Downstairs",hint:"The opposite of 'boven'"},
+      {type:"fb",s:"Er _____ drie slaapkamers boven.",a:"Zijn",opts:["Is","Zijn","Heb","Heeft"],hint:"There ARE (plural → zijn)"},
+      {type:"tr",mk:"u6_kitchen_downstairs",dir:"produce"},
+      {type:"match",mks:["pos_upstairs","pos_downstairs","pos_behind","pos_next_to"]},
+      {type:"mc",q:"What word is considered the 'most Dutch word ever'?",opts:["Lekker","Gezellig","Alsjeblieft","Mooi"],ans:"Gezellig",hint:"It means cozy/fun/nice atmosphere  -  untranslatable!"},
+    ]},
+  ]},
+  {n:7,lang:"nl",track:"legacy",title:"My Day",sub:"Routine & Time",icon:"⏰",level:"A2.1",color:"#4A8FE7",lessons:[
+    // ── LESSON 1: TELLING TIME ──
+    {id:"u7l1",title:"Hoe laat is het?",icon:"🕐",xp:15,steps:[
+      {type:"intro",title:"Hoe laat is het? 🕐",desc:"'What time is it?'  -  essential for daily life! Dutch telling of time is a bit different from English.",goals:["Ask and tell time","Whole hours and half hours","The unique Dutch 'half' system"]},
+      {type:"teach",kind:"phrase",nl:"het uur",en:"hour/o'clock",img:"🕐⏰",phonetic:"ut oor",example:"Hoe laat is het? Drie uur.",exampleEn:"What time is it? Three o'clock.",note:"A het-word. 'Uur' for whole hours. 'Om drie uur' = at three o'clock. 'Om hoe laat?' = at what time?"},
+      {type:"teach",kind:"phrase",nl:"de minuut",en:"minute",img:"⏱️",phonetic:"duh mee-NOOT",example:"Vijf minuten nog.",exampleEn:"Five more minutes.",note:"A de-word. Plural: 'minuten'. Related to English 'minute'  -  same Latin root."},
+      {type:"teach",kind:"phrase",nl:"kwart over",en:"quarter past",img:"🕐➡️",phonetic:"kvart OH-vur",example:"Het is kwart over drie.",exampleEn:"It is quarter past three.",note:"Same concept as English! 'Over' = past. 'Kwart over tien' = quarter past ten."},
+      {type:"teach",kind:"phrase",nl:"kwart voor",en:"quarter to",img:"⬅️🕐",phonetic:"kvart vohr",example:"Het is kwart voor vijf.",exampleEn:"It is quarter to five.",note:"'Voor' = to/before. 'Kwart voor acht' = quarter to eight. Same logic as English."},
+      {type:"teach",kind:"word",nl:"half",en:"half (past the NEXT hour!)",img:"🕐⚠️",phonetic:"hahf",example:"Het is half drie.",exampleEn:"It is half past two (2:30).",note:"⚠️ BIGGEST TRAP! 'Half drie' = 2:30, NOT 3:30! Dutch counts toward the NEXT hour. Half drie = halfway TO three."},
+      {type:"tip",title:"⚠️ The Dutch half-hour trap",text:"This catches EVERY foreigner:\n\n🕑 Half drie = 2:30 (halfway to 3)\n🕒 Half vier = 3:30 (halfway to 4)\n🕓 Half vijf = 4:30 (halfway to 5)\n\nThink of it as: halfway TO the hour.\n\nMore examples:\n🕐 Half twee = 1:30\n🕛 Half een = 12:30\n🕕 Half zeven = 6:30\n\nDutch people also say:\n• Tien over half drie = 2:40 (10 past half-three)\n• Vijf voor half drie = 2:25 (5 before half-three)\n\nThis is genuinely confusing  -  even Germans (who have a similar system) sometimes get lost!",deepDive:{title:"The full Dutch clock system",text:"The complete system revolves around quarters and halves:\n\n2:00  -  twee uur\n2:05  -  vijf over twee\n2:10  -  tien over twee\n2:15  -  kwart over twee\n2:20  -  tien voor half drie ⚠️\n2:25  -  vijf voor half drie\n2:30  -  half drie ⚠️\n2:35  -  vijf over half drie\n2:40  -  tien over half drie\n2:45  -  kwart voor drie\n2:50  -  tien voor drie\n2:55  -  vijf voor drie\n3:00  -  drie uur\n\nAfter 2:15, everything references either 'half drie' or 'drie uur'.\n\nIn daily life, many Dutch people just use digital time: 'Het is 14:35'  -  especially for appointments."}},
+      {type:"mc",q:"What time is 'half vijf'?",opts:["5:30","4:30","5:00","4:00"],ans:"4:30",hint:"Halfway TO five = 4:30"},
+      {type:"mc",q:"How do you say 'quarter past seven'?",opts:["Kwart over zeven","Kwart voor zeven","Half zeven","Zeven uur"],ans:"Kwart over zeven",hint:"Over = past"},
+      {type:"tr",mk:"u7_quarter_to_ten",dir:"comprehend"},
+      {type:"fb",s:"Het is _____ drie. (= 2:30)",a:"Half",opts:["Half","Kwart","Tien","Vijf"],hint:"Halfway TO three"},
+    ]},
+
+    // ── LESSON 2: DAILY ROUTINE ──
+    {id:"u7l2",title:"My Daily Routine",icon:"🌅",xp:15,steps:[
+      {type:"intro",title:"My Daily Routine 🌅",desc:"What do you do every day? Wake up, eat, work, sleep  -  learn the verbs of daily life.",goals:["Daily routine verbs","Reflexive verbs (zich wassen)","Time expressions"]},
+      {type:"gramref",title:"Separable Verbs",level:"A2",text:"Some Dutch verbs have a prefix that separates in main clauses:\n\nopstaan → Ik sta om 7 uur op.\nweggaan → Ik ga om 8 uur weg.\naankomen → Hij komt morgen aan.\n\nThe prefix goes to the END of the main clause.\nIn perfect tense, 'ge-' goes BETWEEN: op-ge-staan\n\nFull explanation → Grammar tab → A2 → Separable Verbs"},
+      {type:"teach",kind:"word",nl:"opstaan",en:"to get up",img:"🛏️⬆️",phonetic:"OP-stahn",example:"Ik sta om zeven uur op.",exampleEn:"I get up at seven o'clock.",note:"A separable verb! 'Op' goes to the end: 'Ik sta op' not 'Ik opsta'. This is a key pattern."},
+      {type:"teach",kind:"word",nl:"ontbijten",en:"to have breakfast",img:"🥐☕",phonetic:"ont-BAY-tun",example:"Wij ontbijten om acht uur.",exampleEn:"We have breakfast at eight.",note:"From 'ontbijt' (breakfast). Dutch breakfasts are simple: bread with toppings, coffee/tea. Quick and practical!"},
+      {type:"teach",kind:"word",nl:"werken",en:"to work",img:"💼💻",phonetic:"VAIR-kun",example:"Ik werk van negen tot vijf.",exampleEn:"I work from nine to five.",note:"'Van...tot...' = from...to... Dutch people are known for their work-life balance  -  many work 4-day weeks!",conjugation:{ik:"werk",jij:"werkt","hij/zij":"werkt",wij:"werken",jullie:"werken","zij (they)":"werken"}},
+      {type:"teach",kind:"grammar",nl:"slapen",en:"to sleep",img:"😴💤",phonetic:"SLAH-pun",example:"Ik slaap acht uur per nacht.",exampleEn:"I sleep eight hours per night.",note:"Irregular past: 'sliep' (slept). Related to English 'sleep'. 'Slaap lekker!' = Sleep well!"},
+      {type:"tip",title:"🔄 Separable verbs in action",text:"'Opstaan' (to get up) shows how separable verbs work:\n\n✅ Ik sta om 7 uur op. (main clause  -  prefix to end)\n✅ ...omdat ik om 7 uur opsta. (subordinate  -  stays together)\n✅ Ik ben om 7 uur opgestaan. (perfect  -  ge- goes in between)\n\nMore daily separable verbs:\n• aankleden  -  to get dressed (Ik kleed me aan.)\n• weggaan  -  to leave (Ik ga om 8 uur weg.)\n• thuiskomen  -  to come home (Ik kom om 6 uur thuis.)\n• opruimen  -  to tidy up (Ik ruim de kamer op.)"},
+      {type:"mc",q:"'Ik sta om zeven uur op'  -  what is the infinitive?",opts:["Staan","Opstaan","Opzitten","Staan op"],ans:"Opstaan",hint:"The prefix 'op' separated and went to the end"},
+      {type:"tr",mk:"u7_nine_to_five",dir:"produce"},
+      {type:"fb",s:"Ik _____ om zes uur op.",a:"Sta",opts:["Sta","Ben","Ga","Kom"],hint:"To get up = opstaan → ik sta...op"},
+      {type:"gramref",title:"Regular Verb Drill",level:"A1",text:"You've seen the conjugation pattern before. Quick refresher:\n\nwerken → stem: werk\n\nik werk\njij werkt\nhij/zij werkt\nwij werken\n\nRemember: the stem is the infinitive minus -en.\nThen add -t for jij/hij/zij, or use the full infinitive for wij/jullie/zij.\n\nNow try it yourself! 👇"},
+      {type:"conj",verb:"werken",en:"to work",forms:{ik:"werk",jij:"werkt",hij:"werkt",wij:"werken",jullie:"werken",zij:"werken"},test:["ik","jij","wij"]},
+      {type:"match",mks:["daily_get_up","daily_breakfast","daily_work","daily_sleep"]},
+    ]},
+
+    // ── LESSON 3: DAYS OF THE WEEK ──
+    {id:"u7l3",title:"Days & Planning",icon:"📅",xp:20,steps:[
+      {type:"intro",title:"Days & Planning 📅",desc:"Master the days of the week and make simple plans. 'What are you doing on Saturday?'",goals:["Days of the week","'Op maandag' (on Monday)","Make plans: 'Ik ga...'"]},
+      {type:"teach",kind:"word",nl:"maandag",en:"Monday",img:"🌙1️⃣",phonetic:"MAHN-dahg",example:"Maandag ga ik werken.",exampleEn:"Monday I go to work.",note:"Moon-day! 'Maan' = moon, 'dag' = day. Same origin as English Monday (moon-day)."},
+      {type:"teach",kind:"word",nl:"dinsdag",en:"Tuesday",img:"⚔️2️⃣",phonetic:"DINS-dahg",example:"Dinsdag heb ik les.",exampleEn:"Tuesday I have class.",note:"Named after the Norse god Tyr (Thing). All Dutch days end in '-dag' (day)."},
+      {type:"teach",kind:"word",nl:"woensdag",en:"Wednesday",img:"⚡3️⃣",phonetic:"VOONS-dahg",example:"Woensdag is mijn vrije dag.",exampleEn:"Wednesday is my day off.",note:"Named after the god Wodan (=Odin). Same as English Wednesday (Woden's day)."},
+      {type:"teach",kind:"word",nl:"donderdag",en:"Thursday",img:"⛈️4️⃣",phonetic:"DON-dur-dahg",example:"Donderdag gaan we sporten.",exampleEn:"Thursday we go exercise.",note:"Thunder-day! 'Donder' = thunder. Named after Thor/Donar. English: Thursday (Thor's day)."},
+      {type:"teach",kind:"word",nl:"vrijdag",en:"Friday",img:"💃5️⃣",phonetic:"VRAY-dahg",example:"Vrijdag is het bijna weekend!",exampleEn:"Friday it's almost weekend!",note:"Named after the goddess Freya/Frigga. English: Friday (Freya's day). TGIF → 'God zij dank, het is vrijdag!'"},
+      {type:"teach",kind:"word",nl:"zaterdag",en:"Saturday",img:"🛒6️⃣",phonetic:"ZAH-tur-dahg",example:"Zaterdag ga ik boodschappen doen.",exampleEn:"Saturday I go grocery shopping.",note:"From Latin 'Saturni dies' (Saturn's day). Same as English Saturday. 'Boodschappen doen' = grocery shopping."},
+      {type:"teach",kind:"word",nl:"zondag",en:"Sunday",img:"☀️7️⃣",phonetic:"ZON-dahg",example:"Zondag is een rustdag.",exampleEn:"Sunday is a rest day.",note:"Sun-day! 'Zon' = sun. A day of rest. Many shops are closed or have limited hours on Sunday."},
+      {type:"tip",title:"📅 Making plans",text:"How to talk about days and plans:\n\n📅 Op maandag werk ik.  -  On Monday I work.\n📅 Wat doe je op zaterdag?  -  What do you do on Saturday?\n📅 Ik ga naar de markt.  -  I go to the market.\n📅 Zullen we vrijdag afspreken?  -  Shall we meet on Friday?\n\nNotice: days of the week are NOT capitalized in Dutch!\n• maandag (not Maandag)\n• dinsdag (not Dinsdag)\n\nThis is different from English!"},
+      {type:"mc",q:"Which day is named after Thor/Donar?",opts:["Dinsdag","Woensdag","Donderdag","Vrijdag"],ans:"Donderdag",hint:"Donder = thunder → Thor"},
+      {type:"tr",mk:"u7_what_saturday",dir:"produce"},
+      {type:"match",mks:["day_monday","day_wednesday","day_friday","day_sunday"]},
+      {type:"fb",s:"_____ ga ik boodschappen doen.",a:"Zaterdag",opts:["Zaterdag","Zondag","Maandag","Vrijdag"],hint:"The typical Dutch grocery shopping day"},
+    ]},
+  ]},
+  {n:8,lang:"nl",track:"legacy",title:"Getting Around",sub:"Transport & Directions",icon:"🚲",level:"A2.1",color:"#2ECDA7",lessons:[
+    // ── LESSON 1: TRANSPORT ──
+    {id:"u8l1",title:"Fiets, Trein, Bus",icon:"🚲",xp:15,steps:[
+      {type:"intro",title:"Fiets, Trein, Bus 🚲",desc:"The Netherlands is a transport paradise  -  bikes, trains, buses, trams. Let's learn how to get around!",goals:["Transport vocabulary","'Met de...' (by the...)","Ask how to get somewhere"]},
+      {type:"teach",kind:"phrase",nl:"de fiets",en:"bicycle",img:"🚲🇳🇱",phonetic:"duh feets",example:"Ik ga met de fiets.",exampleEn:"I go by bike.",note:"A de-word. THE symbol of the Netherlands. There are more bikes than people! 23 million bikes for 17 million people."},
+      {type:"teach",kind:"phrase",nl:"de trein",en:"train",img:"🚆🛤️",phonetic:"duh trayn",example:"De trein vertrekt om negen uur.",exampleEn:"The train departs at nine.",note:"A de-word. The Dutch rail network (NS) is one of the busiest in Europe. Use an OV-chipkaart to travel!"},
+      {type:"teach",kind:"phrase",nl:"de bus",en:"bus",img:"🚌🚏",phonetic:"duh bus",example:"De bus komt zo.",exampleEn:"The bus is coming soon.",note:"A de-word. Same as English! 'De bushalte' = the bus stop. 'Komt zo' = is coming soon."},
+      {type:"teach",kind:"phrase",nl:"de auto",en:"car",img:"🚗💨",phonetic:"duh OW-toh",example:"Ik heb een rode auto.",exampleEn:"I have a red car.",note:"A de-word. From French 'automobile'. Less common than in many countries  -  bikes and trains rule in NL!"},
+      {type:"teach",kind:"phrase",nl:"het station",en:"station",img:"🏛️🚆",phonetic:"ut stah-SHON",example:"Het station is hier dichtbij.",exampleEn:"The station is nearby.",note:"A het-word! 'Dichtbij' = nearby. 'Amsterdam Centraal' is the biggest station in the Netherlands."},
+      {type:"teach",kind:"word",nl:"lopen",en:"to walk",img:"🚶‍♂️👟",phonetic:"LOH-pun",example:"Ik loop naar school.",exampleEn:"I walk to school.",note:"'Lopen' means to walk (not to run!). 'Rennen' or 'hardlopen' = to run. 'Te voet' = on foot."},
+      {type:"tip",title:"🚲 How the Dutch travel",text:"Getting around in Dutch:\n\n🚲 Met de fiets  -  by bike\n🚆 Met de trein  -  by train\n🚌 Met de bus  -  by bus\n🚗 Met de auto  -  by car\n🚶 Te voet / lopend  -  on foot\n🚊 Met de tram  -  by tram\n⛴️ Met de boot  -  by boat\n✈️ Met het vliegtuig  -  by plane\n\nNotice: 'met de...' (with the) for most,\nbut 'met het vliegtuig'  -  because vliegtuig is het!\n\n🇳🇱 Fun fact: 27% of all trips in NL are by bike  -  the highest in the world!"},
+      {type:"mc",q:"How do you say 'by train'?",opts:["In de trein","Op de trein","Met de trein","Bij de trein"],ans:"Met de trein",hint:"Met de... = by the..."},
+      {type:"tr",mk:"u8_by_bike",dir:"produce"},
+      {type:"match",mks:["transport_bike","transport_train","transport_bus","transport_car"]},
+      {type:"fb",s:"De trein _____ om negen uur.",a:"Vertrekt",opts:["Vertrekt","Gaat","Komt","Loopt"],hint:"Departs at nine"},
+    ]},
+
+    // ── LESSON 2: DIRECTIONS ──
+    {id:"u8l2",title:"Left, Right, Straight",icon:"🧭",xp:15,steps:[
+      {type:"intro",title:"Left, Right, Straight 🧭",desc:"Lost? Ask for directions! Learn the essential direction words to navigate any Dutch city.",goals:["Direction words","Ask 'Where is...?'","Understand basic directions"]},
+      {type:"teach",kind:"word",nl:"links",en:"left",img:"⬅️👈",phonetic:"links",example:"Ga links bij de hoek.",exampleEn:"Go left at the corner.",note:"Easy to remember  -  'links' sounds like 'link' as in 'link to the left'!"},
+      {type:"teach",kind:"word",nl:"rechts",en:"right",img:"➡️👉",phonetic:"regts",example:"Het station is rechts.",exampleEn:"The station is on the right.",note:"The 'ch' is the Dutch throat sound. Related to English 'right'  -  both from the same root."},
+      {type:"teach",kind:"word",nl:"rechtdoor",en:"straight ahead",img:"⬆️🔝",phonetic:"REGT-dohr",example:"Loop rechtdoor.",exampleEn:"Walk straight ahead.",note:"'Recht' (straight) + 'door' (through). Very common in directions!"},
+      {type:"teach",kind:"phrase",nl:"de hoek",en:"corner",img:"↪️📐",phonetic:"duh hook",example:"Om de hoek is een bakker.",exampleEn:"Around the corner is a bakery.",note:"A de-word. 'Om de hoek' = around the corner. A very useful phrase for directions."},
+      {type:"teach",kind:"word",nl:"dichtbij",en:"nearby/close",img:"📍✅",phonetic:"DIGT-bay",example:"Het is dichtbij.",exampleEn:"It is nearby.",note:"'Dicht' (close) + 'bij' (by/near). Opposite: 'ver weg' (far away)."},
+      {type:"tip",title:"🗺️ Asking for directions",text:"Essential direction phrases:\n\n❓ Waar is het station?  -  Where is the station?\n❓ Hoe kom ik bij...?  -  How do I get to...?\n❓ Is het ver?  -  Is it far?\n\nDirections you might hear:\n➡️ Ga rechts.  -  Go right.\n⬅️ Ga links.  -  Go left.\n⬆️ Loop rechtdoor.  -  Walk straight ahead.\n↪️ Neem de eerste straat links.  -  Take the first street left.\n📍 Het is aan uw linkerhand.  -  It's on your left.\n\nPolite tip: Start with 'Pardon, weet u...' (Excuse me, do you know...)"},
+      {type:"mc",q:"How do you say 'straight ahead'?",opts:["Rechts","Links","Rechtdoor","Rechtsaf"],ans:"Rechtdoor",hint:"Recht + door = straight through"},
+      {type:"tr",mk:"u8_where_station",dir:"produce"},
+      {type:"fb",s:"Loop _____ en dan links.",a:"Rechtdoor",opts:["Rechtdoor","Rechts","Dichtbij","Ver"],hint:"Walk straight ahead, then left"},
+      {type:"match",mks:["dir_left","dir_right","dir_straight","dir_nearby"]},
+    ]},
+
+    // ── LESSON 3: AT THE STATION ──
+    {id:"u8l3",title:"At the Station",icon:"🚉",xp:20,steps:[
+      {type:"intro",title:"At the Station 🚉",desc:"Buying a ticket, finding your platform, checking delays  -  all the station vocabulary you need!",goals:["Station vocabulary","Buy a ticket","Understand announcements"]},
+      {type:"teach",kind:"phrase",nl:"het perron",en:"platform",img:"🚉🔢",phonetic:"ut pair-ON",example:"De trein vertrekt van perron 3.",exampleEn:"The train departs from platform 3.",note:"A het-word! From French. In the Netherlands, platforms are numbered. Check the yellow departure boards!"},
+      {type:"teach",kind:"phrase",nl:"het kaartje",en:"ticket",img:"🎫💳",phonetic:"ut KAHR-tyuh",example:"Ik wil een kaartje kopen.",exampleEn:"I want to buy a ticket.",note:"A het-word! Diminutive of 'kaart' (card)  -  hence 'het' (all diminutives = het). 'Enkele reis' = one way, 'retour' = round trip."},
+      {type:"teach",kind:"phrase",nl:"de vertraging",en:"delay",img:"⏳😤",phonetic:"duh vur-TRAH-ging",example:"Er is een vertraging van tien minuten.",exampleEn:"There is a ten-minute delay.",note:"A de-word. From 'vertragen' (to delay). Dutch trains are generally punctual, but delays do happen!"},
+      {type:"teach",kind:"word",nl:"overstappen",en:"to transfer/change",img:"🔄🚆",phonetic:"OH-vur-stah-pun",example:"Je moet overstappen in Utrecht.",exampleEn:"You have to transfer in Utrecht.",note:"A separable verb! 'Ik stap over in Utrecht.' Utrecht Centraal is the biggest transfer hub in the Netherlands."},
+      {type:"tip",title:"🎫 Station survival phrases",text:"At the ticket machine or counter:\n\n🎫 Een enkele reis naar Amsterdam.  -  A one-way ticket to Amsterdam.\n🎫 Een retour naar Rotterdam.  -  A round trip to Rotterdam.\n❓ Van welk perron vertrekt de trein?  -  From which platform does the train leave?\n❓ Moet ik overstappen?  -  Do I need to transfer?\n⏰ Hoe laat vertrekt de volgende trein?  -  When does the next train leave?\n\nAnnouncement vocabulary:\n📢 'De trein naar... vertrekt om...'  -  The train to... departs at...\n📢 'Instappen alstublieft!'  -  Board please!\n📢 'Let op! Trein wijziging!'  -  Attention! Train change!"},
+      {type:"mc",q:"How do you ask for a round-trip ticket?",opts:["Een enkele reis","Een retour","Een kaartje","Een perron"],ans:"Een retour",hint:"Retour = round trip, from French"},
+      {type:"tr",mk:"u8_transfer_utrecht",dir:"produce"},
+      {type:"fb",s:"De trein vertrekt van _____ 3.",a:"Perron",opts:["Perron","Station","Kaartje","Trein"],hint:"The platform number"},
+      {type:"match",mks:["transport_platform","transport_ticket","transport_delay","transport_transfer"]},
+      {type:"mc",q:"What does 'Moet ik overstappen?' mean?",opts:["Can I sit here?","Is this the right train?","Do I need to transfer?","Where is the exit?"],ans:"Do I need to transfer?",hint:"Overstappen = to change/transfer trains"},
+    ]},
+  ]},
+  {n:9,lang:"nl",track:"legacy",title:"Looking Good",sub:"Shopping & Clothes",icon:"🛍️",level:"A2.1",color:"#F5A623",lessons:[
+    {id:"u9l1",title:"Colors",icon:"🎨",xp:15,steps:[
+      {type:"intro",title:"Colors 🎨",desc:"Colors are everywhere  -  describing clothes, objects, and even feelings!",goals:["10 colors in Dutch","Colors as adjectives","The national color: oranje!"]},
+      {type:"teach",kind:"word",nl:"rood",en:"red",img:"🔴❤️",phonetic:"roht",example:"De roos is rood.",exampleEn:"The rose is red.",note:"Close to English 'red'. Before nouns: rode (een rode auto)."},
+      {type:"teach",kind:"word",nl:"blauw",en:"blue",img:"🔵💙",phonetic:"blow",example:"De lucht is blauw.",exampleEn:"The sky is blue.",note:"Close to English 'blue'. Before nouns: blauwe."},
+      {type:"teach",kind:"word",nl:"groen",en:"green",img:"🟢💚",phonetic:"groon",example:"Het gras is groen.",exampleEn:"The grass is green.",note:"Nearly identical to English 'green'!"},
+      {type:"teach",kind:"word",nl:"geel",en:"yellow",img:"🟡💛",phonetic:"gayl",example:"De zon is geel.",exampleEn:"The sun is yellow.",note:"Related to English 'yellow'. Sounds like 'gale'."},
+      {type:"teach",kind:"grammar",nl:"wit",en:"white",img:"⚪🤍",phonetic:"vit",example:"De sneeuw is wit.",exampleEn:"The snow is white.",note:"Short! Een wit huis = a white house (het-word, no -te ending)."},
+      {type:"teach",kind:"word",nl:"zwart",en:"black",img:"⚫🖤",phonetic:"zvart",example:"De kat is zwart.",exampleEn:"The cat is black.",note:"Related to English 'swarthy'. Een zwarte kat = a black cat."},
+      {type:"teach",kind:"word",nl:"oranje",en:"orange",img:"🟠🧡",phonetic:"oh-RAHN-yuh",example:"Oranje is de kleur van Nederland.",exampleEn:"Orange is the color of the Netherlands.",note:"THE national color! Named after the Royal House of Orange-Nassau. On King's Day everyone wears oranje!"},
+      {type:"tip",title:"🇳🇱 Why orange?",text:"The flag is red-white-blue, but the nation's color is ORANGE!\n\nWhy? The Royal House of Orange-Nassau. On Koningsdag (King's Day, April 27), the whole country turns orange.\n\nMore colors:\n• bruin  -  brown 🟤\n• grijs  -  grey\n• roze  -  pink 🩷\n• paars  -  purple 💜"},
+      {type:"mc",q:"What is the national color of the Netherlands?",opts:["Rood","Blauw","Oranje","Groen"],ans:"Oranje",hint:"Named after the Royal House..."},
+      {type:"match",mks:["color_red","color_blue","color_green","color_black"]},
+      {type:"tr",mk:"u9_cat_black",dir:"comprehend"},
+      {type:"fb",s:"De lucht is _____.",a:"Blauw",opts:["Blauw","Rood","Zwart","Groen"],hint:"The sky is ___"},
+    ]},
+    {id:"u9l2",title:"At the Shop",icon:"🛍️",xp:20,steps:[
+      {type:"intro",title:"At the Shop 🛍️",desc:"Learn to ask prices, navigate shops, and pay  -  the Dutch way (with a debit card!).",goals:["Ask prices","Shopping vocabulary","Pay like a local"]},
+      {type:"teach",kind:"phrase",nl:"de winkel",en:"shop/store",img:"🏪🛍️",phonetic:"duh VIN-kul",example:"De winkel is open.",exampleEn:"The shop is open.",note:"A de-word. 'Winkelen' = to shop."},
+      {type:"teach",kind:"phrase",nl:"Hoeveel kost dit?",en:"How much does this cost?",img:"💶❓",phonetic:"hoo-VAYL kost dit",example:"Hoeveel kost dit? Vijf euro.",exampleEn:"How much does this cost? Five euros.",note:"THE shopping phrase. 'Hoeveel' = how much/many."},
+      {type:"teach",kind:"word",nl:"duur",en:"expensive",img:"💰😱",phonetic:"door",example:"Deze jas is te duur.",exampleEn:"This coat is too expensive.",note:"'Te duur' = too expensive. Opposite: goedkoop."},
+      {type:"teach",kind:"word",nl:"goedkoop",en:"cheap",img:"💰😊",phonetic:"HOOT-kohp",example:"Dit is goedkoop!",exampleEn:"This is cheap!",note:"Compound: goed (good) + koop (buy) = good buy = cheap!"},
+      {type:"teach",kind:"word",nl:"kopen",en:"to buy",img:"🛒✅",phonetic:"KOH-pun",example:"Ik wil dit kopen.",exampleEn:"I want to buy this.",note:"'Ik koop' = I buy. Past: 'Ik heb gekocht' = I bought."},
+      {type:"teach",kind:"word",nl:"betalen",en:"to pay",img:"💳💶",phonetic:"buh-TAH-lun",example:"Ik wil graag betalen.",exampleEn:"I would like to pay.",note:"'Kan ik pinnen?' = Can I pay by card? Cash is rare in NL!"},
+      {type:"tip",title:"🛒 Shopping phrases",text:"💬 Kan ik u helpen?  -  Can I help you?\n💬 Ik kijk even.  -  I'm just looking.\n💶 Hoeveel kost dit?  -  How much is this?\n💳 Kan ik pinnen?  -  Can I pay by card?\n🧾 Mag ik het bonnetje?  -  Receipt, please?\n\n'Pinnen' = debit card payment. Most Dutch shops are card-only!"},
+      {type:"mc",q:"'Hoeveel kost dit?' means:",opts:["How much is this?","Where is this?","Can I have this?","Is this good?"],ans:"How much is this?"},
+      {type:"tr",mk:"u9_too_expensive",dir:"produce"},
+      {type:"fb",s:"Kan ik _____?",a:"Pinnen",opts:["Pinnen","Eten","Slapen","Fietsen"],hint:"Pay by card"},
+      {type:"match",mks:["shop_buy","shop_pay","shop_expensive","shop_cheap"]},
+    ]},
+
+    // ── LESSON 3: CLOTHES ──
+    {id:"u9l3",title:"Getting Dressed",icon:"👕",xp:20,steps:[
+      {type:"intro",title:"Getting Dressed 👕",desc:"What are you wearing? Learn the essential clothing words  -  very useful for shopping!",goals:["8 clothing words with articles","'Ik draag...' (I wear)","Colors + clothes"]},
+      {type:"teach",kind:"phrase",nl:"de broek",en:"trousers/pants",img:"👖👔",phonetic:"duh brook",example:"Deze broek is te groot.",exampleEn:"These trousers are too big.",note:"A de-word. In Dutch, 'broek' is singular (unlike English 'trousers'). 'Een korte broek' = shorts."},
+      {type:"teach",kind:"phrase",nl:"het shirt",en:"shirt/t-shirt",img:"👕👚",phonetic:"ut shurt",example:"Ik draag een wit shirt.",exampleEn:"I wear a white shirt.",note:"A het-word! Borrowed from English. 'Overhemd' = formal dress shirt."},
+      {type:"teach",kind:"phrase",nl:"de jas",en:"jacket/coat",img:"🧥🌧️",phonetic:"duh yas",example:"Doe je jas aan, het is koud.",exampleEn:"Put on your coat, it's cold.",note:"A de-word. Essential in Dutch weather! 'Doe aan' = put on (separable verb: aandoen)."},
+      {type:"teach",kind:"phrase",nl:"de schoen",en:"shoe",img:"👟👞",phonetic:"duh sghoon",example:"Nieuwe schoenen!",exampleEn:"New shoes!",note:"A de-word. Plural: schoenen. Dutch people take shoes off at home. 'Klompen' = clogs (the famous wooden shoes)."},
+      {type:"teach",kind:"phrase",nl:"de jurk",en:"dress",img:"👗✨",phonetic:"duh yurk",example:"Wat een mooie jurk!",exampleEn:"What a beautiful dress!",note:"A de-word. 'Wat een...' = What a... (exclamation). Very natural in Dutch."},
+      {type:"teach",kind:"word",nl:"dragen",en:"to wear",img:"👔🪞",phonetic:"DRAH-gun",example:"Wat draag jij vandaag?",exampleEn:"What are you wearing today?",note:"'Ik draag' = I wear. Also means 'to carry'. 'Draag jij een bril?' = Do you wear glasses?"},
+      {type:"teach",kind:"word",nl:"passen",en:"to try on / to fit",img:"🪞👗",phonetic:"PAS-sun",example:"Mag ik dit passen?",exampleEn:"May I try this on?",note:"Two meanings: 'passen' = to try on AND to fit. 'Het past niet' = it doesn't fit."},
+      {type:"tip",title:"🛍️ Useful fitting room phrases",text:"At the shop:\n\n👀 Mag ik dit passen?  -  May I try this on?\n📏 Welke maat heb je?  -  What size do you have?\n📏 Maat 40, alsjeblieft.  -  Size 40, please.\n❌ Het past niet.  -  It doesn't fit.\n📏 Te groot / te klein  -  Too big / too small\n👌 Het staat je goed!  -  It looks good on you!\n🎨 Heeft u dit ook in het blauw?  -  Do you have this in blue too?\n\nDutch sizing uses EU numbers (36, 38, 40...), not S/M/L."},
+      {type:"mc",q:"How do you ask 'May I try this on?'",opts:["Mag ik dit kopen?","Mag ik dit passen?","Mag ik dit hebben?","Mag ik dit zien?"],ans:"Mag ik dit passen?",hint:"Passen = to try on"},
+      {type:"tr",mk:"u9_what_wearing",dir:"produce"},
+      {type:"fb",s:"Het past _____. Het is te groot.",a:"Niet",opts:["Niet","Goed","Wel","Mooi"],hint:"It doesn't fit!"},
+      {type:"match",mks:["cloth_trousers","cloth_jacket","cloth_shoe","cloth_dress"]},
+    ]},
+  ]},
+  {n:10,lang:"nl",track:"legacy",title:"How Do You Feel?",sub:"Body & Health",icon:"🏥",level:"A2.1",color:"#F56565",lessons:[
+    {id:"u10l1",title:"Body Parts",icon:"🫀",xp:15,steps:[
+      {type:"intro",title:"Body Parts 🫀",desc:"Essential for doctor visits. Many Dutch body words are close to English!",goals:["8 body parts with articles","Say what hurts","The pijn (pain) pattern"]},
+      {type:"teach",kind:"phrase",nl:"het hoofd",en:"head",img:"🧠😵",phonetic:"ut hohft",example:"Ik heb hoofdpijn.",exampleEn:"I have a headache.",note:"A het-word! Hoofdpijn = headache (hoofd + pijn)."},
+      {type:"teach",kind:"phrase",nl:"het oog",en:"eye",img:"👁️👀",phonetic:"ut ohg",example:"Hij heeft blauwe ogen.",exampleEn:"He has blue eyes.",note:"A het-word! Plural: ogen. 'Bril' = glasses."},
+      {type:"teach",kind:"phrase",nl:"de hand",en:"hand",img:"✋🤝",phonetic:"duh hant",example:"Was je handen.",exampleEn:"Wash your hands.",note:"Same as English! Plural: handen."},
+      {type:"teach",kind:"phrase",nl:"het been",en:"leg",img:"🦵🏃",phonetic:"ut bayn",example:"Mijn been is gebroken.",exampleEn:"My leg is broken.",note:"A het-word! ⚠️ 'Been' = leg, NOT bone. 'Bot' = bone."},
+      {type:"teach",kind:"phrase",nl:"de rug",en:"back",img:"🔙😣",phonetic:"duh rug",example:"Ik heb rugpijn.",exampleEn:"I have back pain.",note:"'Rugpijn' = back pain. Very common complaint!"},
+      {type:"teach",kind:"phrase",nl:"het hart",en:"heart",img:"❤️🫀",phonetic:"ut hart",example:"Mijn hart klopt snel.",exampleEn:"My heart beats fast.",note:"A het-word! Nearly identical to English 'heart'."},
+      {type:"tip",title:"🤕 The pijn pattern",text:"Pijn = pain. Add a body part:\n\nhoofdpijn  -  headache\nbuikpijn  -  stomachache\nrugpijn  -  back pain\noorpijn  -  earache\nkeelpijn  -  sore throat\ntandpijn  -  toothache\n\nOr use 'doet pijn':\nMijn arm doet pijn.  -  My arm hurts.\n\nAt the doctor: 'Waar doet het pijn?'  -  Where does it hurt?"},
+      {type:"mc",q:"'Het been' means:",opts:["Bone","Arm","Leg","Back"],ans:"Leg",hint:"False friend  -  it's NOT bone!"},
+      {type:"tr",mk:"u10_headache",dir:"comprehend"},
+      {type:"match",mks:["body_head","body_hand","body_leg","body_heart"]},
+      {type:"fb",s:"Mijn arm doet _____.",a:"Pijn",opts:["Pijn","Goed","Lekker","Groot"],hint:"My arm hurts"},
+    ]},
+    {id:"u10l2",title:"At the Doctor",icon:"😷",xp:20,steps:[
+      {type:"intro",title:"At the Doctor 😷",desc:"Describe how you feel and survive a doctor's visit in Dutch.",goals:["Health vocabulary","Doctor visit phrases","Feelings and emotions"]},
+      {type:"teach",kind:"word",nl:"ziek",en:"sick",img:"🤒😷",phonetic:"zeek",example:"Hij is ziek.",exampleEn:"He is sick.",note:"'Ziek zijn' = to be sick. 'Ziekenhuis' = hospital (sick-house)."},
+      {type:"teach",kind:"word",nl:"moe",en:"tired",img:"😴💤",phonetic:"moo",example:"Ik ben moe.",exampleEn:"I am tired.",note:"Just two letters! 'Doodmoe' = dead tired (very Dutch expression)."},
+      {type:"teach",kind:"word",nl:"blij",en:"to be happy",img:"😊🎉",phonetic:"blay",example:"Ik ben blij!",exampleEn:"I am happy!",note:"For immediate happiness. 'Gelukkig' = happy in a deeper sense."},
+      {type:"teach",kind:"word",nl:"boos",en:"angry",img:"😡💢",phonetic:"bohs",example:"Zij is boos.",exampleEn:"She is angry.",note:"Not English 'boss'! 'Boos op iemand' = angry at someone."},
+      {type:"teach",kind:"phrase",nl:"de dokter",en:"doctor",img:"👨‍⚕️🏥",phonetic:"duh DOK-tur",example:"Ik ga naar de dokter.",exampleEn:"I'm going to the doctor.",note:"In NL, you always see a 'huisarts' (GP) first  -  they're the gatekeeper to specialists."},
+      {type:"teach",kind:"phrase",nl:"de apotheek",en:"pharmacy",img:"💊🏪",phonetic:"duh ah-poh-TAYK",example:"De apotheek is dichtbij.",exampleEn:"The pharmacy is nearby.",note:"Fills prescriptions. For minor things: 'drogist' (drugstore)."},
+      {type:"tip",title:"🏥 Doctor phrases",text:"❓ Wat is er aan de hand?  -  What's the matter?\n🤒 Ik voel me niet lekker.  -  I don't feel well.\n🤕 Ik heb pijn hier.  -  I have pain here.\n💊 Heeft u iets voor hoofdpijn?  -  Something for headache?\n📋 Ik heb een afspraak.  -  I have an appointment.\n\nRemember: 'niet lekker' = not well!"},
+      {type:"mc",q:"'Ik voel me niet lekker' means:",opts:["I feel great","I don't feel well","The food is bad","I'm hungry"],ans:"I don't feel well",hint:"Niet lekker = not well"},
+      {type:"tr",mk:"u10_tired",dir:"produce"},
+      {type:"fb",s:"Ik voel me niet _____.",a:"Lekker",opts:["Lekker","Groot","Boos","Rood"],hint:"I don't feel well"},
+      {type:"match",mks:["feel_sick","feel_tired","feel_happy","feel_angry"]},
+    ]},
+
+    // ── LESSON 3: HOW ARE YOU REALLY? ──
+    {id:"u10l3",title:"How Are You Really?",icon:"💬",xp:20,steps:[
+      {type:"intro",title:"How Are You Really? 💬",desc:"Beyond 'goed'  -  express real feelings, ask how others are doing, and respond naturally.",goals:["More feeling adjectives","Respond naturally to 'Hoe gaat het?'","'Ik heb zin/geen zin' pattern"]},
+      {type:"teach",kind:"word",nl:"verdrietig",en:"to be sad",img:"😢💧",phonetic:"vur-DREE-tug",example:"Zij is verdrietig.",exampleEn:"She is sad.",note:"More formal/literary than 'triest' (also sad). 'Verdriet' = grief/sadness."},
+      {type:"teach",kind:"word",nl:"bang",en:"scared/afraid",img:"😨👻",phonetic:"bahng",example:"Ik ben bang voor spinnen.",exampleEn:"I am afraid of spiders.",note:"'Bang zijn voor' = to be afraid of. 'Bang' does NOT mean 'angry' (that's 'boos')!"},
+      {type:"teach",kind:"word",nl:"zenuwachtig",en:"nervous",img:"😰🫣",phonetic:"ZAY-noo-ahg-tug",example:"Ik ben zenuwachtig voor het examen.",exampleEn:"I am nervous about the exam.",note:"From 'zenuw' (nerve) + '-achtig' (like). Long word, but very common!"},
+      {type:"teach",kind:"word",nl:"trots",en:"proud",img:"😊🏆",phonetic:"trots",example:"Ik ben trots op je!",exampleEn:"I am proud of you!",note:"'Trots op' = proud of. Very common Dutch compliment: 'Ik ben trots op je!'"},
+      {type:"teach",kind:"phrase",nl:"het gevoel",en:"feeling",img:"💭❤️",phonetic:"ut guh-VOOL",example:"Ik heb een goed gevoel.",exampleEn:"I have a good feeling.",note:"A het-word. 'Gevoelens' (plural) = feelings/emotions. 'Ik voel me...' = I feel..."},
+      {type:"tip",title:"💬 Beyond 'goed'",text:"Real answers to 'Hoe gaat het?':\n\n😊 Prima!  -  Great!\n😊 Goed, dank je!  -  Good, thanks!\n😐 Gaat wel.  -  It's okay. (so-so)\n😐 Niet zo goed.  -  Not so good.\n😔 Niet lekker.  -  Not well.\n😴 Een beetje moe.  -  A bit tired.\n😤 Beetje gestrest.  -  A bit stressed.\n\nDutch people often say 'gaat wel'  -  it's honest without being dramatic. Very Dutch: understated, direct.\n\n'En met jou?' = And with you? (informal)\n'En met u?' = And with you? (formal)"},
+      {type:"mc",q:"'Ik ben trots op je' means:",opts:["I am angry at you","I am proud of you","I am afraid of you","I am tired of you"],ans:"I am proud of you",hint:"Trots = proud, op = of/on"},
+      {type:"tr",mk:"u10_nervous_exam",dir:"produce"},
+      {type:"fb",s:"Het gaat _____. Niet zo goed vandaag.",a:["Niet"],opts:["Niet","Goed","Heel","Erg"],hint:"Not so good today..."},
+      {type:"match",mks:["feel_sad","feel_scared","feel_nervous","feel_proud"]},
+    ]},
+  ]},
+  {n:11,lang:"nl",track:"legacy",title:"Wind & Rain",sub:"Weather & Seasons",icon:"🌧️",level:"A2.1",color:"#4A8FE7",lessons:[
+    {id:"u11l1",title:"What's the Weather?",icon:"🌤️",xp:15,steps:[
+      {type:"intro",title:"What's the Weather? 🌤️",desc:"The Dutch LOVE talking about weather  -  it changes five times a day! Essential small talk.",goals:["Weather vocabulary","Describe today's weather","The 'het' pattern with weather"]},
+      {type:"teach",kind:"phrase",nl:"het weer",en:"weather",img:"🌤️🌧️",phonetic:"ut vayr",example:"Hoe is het weer?",exampleEn:"How is the weather?",note:"A het-word! 'Het weer' = the weather. 'Weerbericht' = weather forecast."},
+      {type:"teach",kind:"phrase",nl:"de zon",en:"sun",img:"☀️🌞",phonetic:"duh zon",example:"De zon schijnt.",exampleEn:"The sun is shining.",note:"A de-word. 'Zonnig' = sunny. 'Zonnebrand' = sunburn/sunscreen."},
+      {type:"teach",kind:"phrase",nl:"de regen",en:"rain",img:"🌧️☔",phonetic:"duh RAY-gun",example:"Het regent weer.",exampleEn:"It's raining again.",note:"A de-word. 'Het regent' = it rains. The Dutch saying: 'Er is geen slecht weer, alleen verkeerde kleding' (no bad weather, only wrong clothes)!"},
+      {type:"teach",kind:"phrase",nl:"de wind",en:"wind",img:"💨🌬️",phonetic:"duh vint",example:"Er staat veel wind.",exampleEn:"There is a lot of wind.",note:"A de-word. Same as English! The Netherlands is very windy  -  flat + coastal = wind!"},
+      {type:"teach",kind:"phrase",nl:"de sneeuw",en:"snow",img:"❄️⛄",phonetic:"duh snayoo",example:"Het sneeuwt!",exampleEn:"It's snowing!",note:"A de-word. Related to English 'snow'. Rare in NL  -  when it snows, the whole country gets excited!"},
+      {type:"teach",kind:"word",nl:"bewolkt",en:"cloudy",img:"☁️☁️",phonetic:"buh-VOLKT",example:"Het is bewolkt.",exampleEn:"It is cloudy.",note:"From 'wolk' (cloud). 'Bewolkt' is the default Dutch weather, honestly."},
+      {type:"tip",title:"☔ Dutch weather small talk",text:"Weather is THE #1 small talk topic:\n\n☀️ Lekker weer, hè?  -  Nice weather, right?\n🌧️ Wat een rotweer!  -  What terrible weather!\n🌡️ Het is koud vandaag.  -  It's cold today.\n☀️ Het is warm vandaag.  -  It's warm today.\n🌧️ Het regent alweer!  -  It's raining again!\n❄️ Het vriest!  -  It's freezing!\n\n'Hè?' at the end = seeking agreement. Very Dutch!\n\nThe Netherlands averages 200+ rainy days per year. Always carry an umbrella!"},
+      {type:"mc",q:"'Het regent' means:",opts:["It's sunny","It's raining","It's snowing","It's windy"],ans:"It's raining",hint:"Regen = rain"},
+      {type:"tr",mk:"u11_nice_weather",dir:"comprehend"},
+      {type:"fb",s:"De zon _____.",a:"Schijnt",opts:["Schijnt","Regent","Sneeuwt","Waait"],hint:"The sun ___ (shines)"},
+      {type:"match",mks:["weather_sun","weather_rain","weather_wind","weather_snow"]},
+    ]},
+    {id:"u11l2",title:"Hot, Cold & Seasons",icon:"🌡️",xp:20,steps:[
+      {type:"intro",title:"Hot, Cold & Seasons 🌡️",desc:"Describe temperature and learn the four Dutch seasons.",goals:["Temperature adjectives","The four seasons","Describe seasonal activities"]},
+      {type:"teach",kind:"word",nl:"warm",en:"warm/hot",img:"🌡️🔥",phonetic:"varm",example:"Het is warm vandaag.",exampleEn:"It is warm today.",note:"Same as English! 'Heel warm' = very hot. 'Te warm' = too hot."},
+      {type:"teach",kind:"word",nl:"koud",en:"cold",img:"🌡️❄️",phonetic:"kowt",example:"Het is koud buiten.",exampleEn:"It is cold outside.",note:"Related to English 'cold'. 'IJskoud' = ice cold."},
+      {type:"teach",kind:"phrase",nl:"de lente",en:"spring",img:"🌷🌱",phonetic:"duh LEN-tuh",example:"In de lente bloeien de tulpen.",exampleEn:"In spring the tulips bloom.",note:"Tulip season! The Netherlands is world-famous for spring flowers. Keukenhof opens in lente."},
+      {type:"teach",kind:"phrase",nl:"de zomer",en:"summer",img:"☀️🏖️",phonetic:"duh ZOH-mur",example:"In de zomer gaan we naar het strand.",exampleEn:"In summer we go to the beach.",note:"Related to English 'summer'. Dutch summers are mild: 20-25°C is 'warm'."},
+      {type:"teach",kind:"phrase",nl:"de herfst",en:"autumn/fall",img:"🍂🍁",phonetic:"duh hairfst",example:"De herfst is kleurrijk.",exampleEn:"Autumn is colorful.",note:"Related to English 'harvest'. Herfst in NL = lots of rain and wind."},
+      {type:"teach",kind:"phrase",nl:"de winter",en:"winter",img:"❄️⛸️",phonetic:"duh VIN-tur",example:"In de winter vriest het soms.",exampleEn:"In winter it sometimes freezes.",note:"Same as English! Dutch winters are mild but wet. When canals freeze: 'Elfstedentocht' fever!"},
+      {type:"tip",title:"⛸️ Elfstedentocht",text:"The Elfstedentocht (Eleven Cities Tour) is a legendary 200 km ice skating race through Friesland. It can only happen when ALL canals freeze thick enough  -  extremely rare.\n\nLast one: 1997. The whole nation watches the thermometer every winter hoping for 'het zal toch niet..?' (surely not...?).\n\nIt's practically a national obsession. When it gets cold, the first Dutch question is always: 'Would it be cold enough for the Elfstedentocht?'"},
+      {type:"mc",q:"When do tulips bloom in the Netherlands?",opts:["De winter","De lente","De herfst","De zomer"],ans:"De lente",hint:"Spring = tulip season!"},
+      {type:"tr",mk:"u11_cold_outside",dir:"produce"},
+      {type:"fb",s:"In de _____ gaan we naar het strand.",a:"Zomer",opts:["Zomer","Winter","Herfst","Regen"],hint:"In ___ we go to the beach"},
+      {type:"match",mks:["season_spring","season_summer","season_autumn","season_winter"]},
+    ]},
+
+    // ── LESSON 3: WEATHER SMALL TALK ──
+    {id:"u11l3",title:"Weather Talk",icon:"☔",xp:20,steps:[
+      {type:"intro",title:"Weather Talk ☔",desc:"Weather is THE Dutch small talk topic. Learn to hold a real weather conversation!",goals:["Weather small talk phrases","'Het is...' weather pattern","Describe what you do in different weather"]},
+      {type:"teach",kind:"phrase",nl:"Lekker weer, hè?",en:"Nice weather, right?",img:"☀️😄",phonetic:"LEK-ur vayr, HAY",example:"Lekker weer vandaag, hè?",exampleEn:"Nice weather today, right?",note:"THE classic Dutch opening line. 'Hè?' at the end invites agreement  -  very Dutch!"},
+      {type:"teach",kind:"phrase",nl:"Het waait",en:"It's windy",img:"💨🌬️",phonetic:"ut vayt",example:"Het waait hard vandaag.",exampleEn:"It's very windy today.",note:"From 'waaien' (to blow). 'Hard' = hard/strong. The Netherlands is famously windy  -  flat land!"},
+      {type:"teach",kind:"phrase",nl:"de paraplu",en:"umbrella",img:"☂️🌧️",phonetic:"duh pah-rah-PLOO",example:"Neem een paraplu mee!",exampleEn:"Take an umbrella with you!",note:"A de-word. From French. Essential in NL! 'Meenemen' = to take along (separable verb)."},
+      {type:"teach",kind:"phrase",nl:"de jas",en:"coat/jacket",img:"🧥🌧️",phonetic:"duh yas",example:"Doe je jas aan, het regent.",exampleEn:"Put your coat on, it's raining.",note:"'Doe aan' from 'aandoen' = to put on. 'Doe uit' from 'uitdoen' = to take off. Both separable!"},
+      {type:"teach",kind:"phrase",nl:"de graad",en:"degree",img:"🌡️📏",phonetic:"duh grahd",example:"Het is 20 graden.",exampleEn:"It is 20 degrees.",note:"A de-word. The Netherlands uses Celsius. 20°C = comfortable. 30°C = heatwave (to Dutch standards!)."},
+      {type:"tip",title:"🌡️ Dutch temperature reactions",text:"How Dutch people react to temperatures:\n\n❄️ Onder 0°C  -  Koud! Misschien Elfstedentocht?\n🧊 0-10°C  -  Normaal. Jas aan.\n🌤️ 10-15°C  -  'Lekker fris' (nicely fresh)\n☀️ 15-20°C  -  'Heerlijk weer!' (wonderful weather!)\n🔥 20-25°C  -  Terraces FULL. Everyone outside.\n🥵 25-30°C  -  'Tropisch!' National crisis. Fans sold out.\n💀 30°C+  -  HITTEGOLF! Schools may close.\n\nFor context: 25°C in the Netherlands = national holiday vibes.\n25°C in Spain = 'nice morning'."},
+      {type:"mc",q:"What does 'hè?' at the end of a sentence do?",opts:["Makes it a question","Asks for agreement","Shows surprise","Means 'hello'"],ans:"Asks for agreement",hint:"'Lekker weer, hè?' = Nice weather, right?"},
+      {type:"tr",mk:"u11_take_umbrella",dir:"produce"},
+      {type:"fb",s:"Lekker weer vandaag, _____?",a:"Hè",opts:["Hè","Ja","Niet","Of"],hint:"The classic Dutch agreement-seeking word"},
+      {type:"match",mks:["weather_raining","weather_windy","weather_snowing","weather_freezing"]},
+    ]},
+  ]},
+  {n:12,lang:"nl",track:"legacy",title:"Free Time",sub:"Hobbies & Activities",icon:"⚽",level:"A2.2",objectives:["ok_talk_hobbies","ok_make_invitations"],color:"#2ECDA7",lessons:[
+    {id:"u12l1",title:"What Do You Like?",icon:"💛",xp:15,steps:[
+      {type:"intro",title:"What Do You Like? 💛",desc:"Talk about hobbies and what you enjoy! Learn the important Dutch verbs for liking and doing activities.",goals:["Express likes and dislikes","Hobby vocabulary","'Ik vind het leuk' pattern"]},
+      {type:"teach",kind:"word",nl:"leuk",en:"fun/nice/cool",img:"😊👍",phonetic:"luhk",example:"Dat was heel leuk!",exampleEn:"That was really fun!",note:"One of the most-used Dutch words! 'Leuk' = fun/nice/cool. 'Ik vind het leuk' = I like it (I find it nice)."},
+      {type:"teach",kind:"phrase",nl:"leuk vinden",en:"to like (find nice)",img:"💛👌",phonetic:"luhk VIN-dun",example:"Ik vind voetbal leuk.",exampleEn:"I like football.",note:"Dutch way of saying 'I like': Ik vind [thing] leuk. Literally: 'I find football nice.'"},
+      {type:"teach",kind:"word",nl:"graag",en:"gladly (= like to)",img:"😊✨",phonetic:"grahg",example:"Ik lees graag.",exampleEn:"I like to read.",note:"Put 'graag' after the verb: Ik zwem graag = I like to swim. 'Graag gedaan!' = You're welcome!"},
+      {type:"teach",kind:"word",nl:"sporten",en:"to exercise/do sports",img:"🏃‍♂️⚽",phonetic:"SPOR-tun",example:"Ik sport drie keer per week.",exampleEn:"I exercise three times a week.",note:"'Sporten' covers all exercise. 'Sport' as a noun = any sport."},
+      {type:"teach",kind:"word",nl:"lezen",en:"to read",img:"📚🤓",phonetic:"LAY-zun",example:"Ik lees een boek.",exampleEn:"I read a book.",note:"'Ik lees' = I read. Past: 'Ik heb gelezen'. The Dutch are avid readers!"},
+      {type:"teach",kind:"word",nl:"koken",en:"to cook",img:"👨‍🍳🍳",phonetic:"KOH-kun",example:"Ik kook graag Italiaans.",exampleEn:"I like to cook Italian.",note:"'Koken' = to cook. Also: to boil! 'Het water kookt' = the water is boiling."},
+      {type:"tip",title:"💛 Two ways to say 'I like'",text:"Dutch has two patterns:\n\n1️⃣ Ik vind [thing] leuk.  -  I like [thing].\nIk vind voetbal leuk.  -  I like football.\nIk vind Nederland mooi.  -  I find NL beautiful.\n\n2️⃣ Ik [verb] graag.  -  I like to [verb].\nIk lees graag.  -  I like to read.\nIk kook graag.  -  I like to cook.\nIk fiets graag.  -  I like to cycle.\n\n❌ Ik hou van... = I love... (stronger!)\nIk hou van kaas.  -  I love cheese.\nIk hou van jou.  -  I love you."},
+      {type:"mc",q:"How do you say 'I like football'?",opts:["Ik ben voetbal","Ik vind voetbal leuk","Ik graag voetbal","Ik hou voetbal"],ans:"Ik vind voetbal leuk",hint:"Ik vind [thing] leuk"},
+      {type:"tr",mk:"u12_like_reading",dir:"comprehend"},
+      {type:"fb",s:"Ik _____ graag.",a:"Kook",opts:["Kook","Leuk","Vind","Goed"],hint:"I like to cook"},
+      {type:"match",mks:["hobby_fun","hobby_sport","hobby_read","hobby_cook"]},
+    ]},
+    {id:"u12l2",title:"Weekend Plans",icon:"🎬",xp:20,steps:[
+      {type:"intro",title:"Weekend Plans 🎬",desc:"What do you do on weekends? Movies, going out, sports  -  talk about leisure activities.",goals:["Weekend activity verbs","Make plans in Dutch","Common Dutch pastimes"]},
+      {type:"teach",kind:"word",nl:"zwemmen",en:"to swim",img:"🏊‍♂️🌊",phonetic:"ZVEM-mun",example:"Ik ga zwemmen.",exampleEn:"I go swimming.",note:"'Ik ga zwemmen' = I go swimming. 'Het zwembad' = the swimming pool."},
+      {type:"teach",kind:"word",nl:"wandelen",en:"to walk/hike",img:"🚶‍♂️🌲",phonetic:"VAN-duh-lun",example:"Wij wandelen in het bos.",exampleEn:"We walk in the forest.",note:"'Wandelen' = leisurely walk/hike. 'Lopen' = regular walking. The Dutch love a 'boswandeling' (forest walk)."},
+      {type:"teach",kind:"phrase",nl:"naar de film",en:"to the movies",img:"🎬🍿",phonetic:"nahr duh film",example:"Zullen we naar de film gaan?",exampleEn:"Shall we go to the movies?",note:"'De bioscoop' = the cinema. 'Zullen we...?' = Shall we...? (great for suggesting plans!)"},
+      {type:"teach",kind:"phrase",nl:"uit eten gaan",en:"to eat out/dine out",img:"🍽️🌃",phonetic:"owt AY-tun gahn",example:"Vanavond gaan we uit eten.",exampleEn:"Tonight we're going out to eat.",note:"Separable: 'We gaan uit eten' or 'We gaan vanavond uit eten.' Very common weekend activity."},
+      {type:"teach",kind:"phrase",nl:"Heb je zin in...?",en:"Do you feel like...?",img:"💭🤔",phonetic:"hep yuh zin in",example:"Heb je zin in koffie?",exampleEn:"Do you feel like coffee?",note:"Super useful! 'Zin hebben in' = to feel like/fancy. 'Ik heb zin in pizza!' = I feel like pizza!"},
+      {type:"tip",title:"🇳🇱 Dutch weekend culture",text:"Typical Dutch weekend:\n\n🛒 Zaterdag: boodschappen doen (groceries)\n☕ Terrasje pakken (sit at a café terrace)\n🚲 Fietsen in de natuur (cycling in nature)\n👨‍👩‍👧 Bij familie op bezoek (visiting family)\n⚽ Voetbal kijken (watching football)\n🎂 Verjaardagen (birthday parties  -  huge in NL!)\n\nSuggesting plans:\n• Zullen we...?  -  Shall we...?\n• Heb je zin in...?  -  Do you feel like...?\n• Zin in een biertje?  -  Fancy a beer?"},
+      {type:"mc",q:"'Heb je zin in koffie?' means:",opts:["Do you have coffee?","Do you feel like coffee?","Is the coffee ready?","Do you like coffee?"],ans:"Do you feel like coffee?",hint:"Zin in = feel like/fancy"},
+      {type:"tr",mk:"u12_go_movies",dir:"produce"},
+      {type:"fb",s:"Heb je _____ in pizza?",a:"Zin",opts:["Zin","Leuk","Graag","Goed"],hint:"Do you feel like pizza?"},
+      {type:"match",mks:["hobby_swim","hobby_walk","hobby_cook","hobby_read"]},
+    ]},
+
+    // ── LESSON 3: CELEBRATING! ──
+    {id:"u12l3",title:"Gefeliciteerd!",icon:"🎂",xp:20,steps:[
+      {type:"intro",title:"Gefeliciteerd! 🎂",desc:"Dutch celebrations are unique  -  especially birthdays! Learn the social vocabulary for parties and festivities.",goals:["Birthday and celebration words","'Gefeliciteerd' etiquette","Dutch party culture"]},
+      {type:"teach",kind:"phrase",nl:"de verjaardag",en:"birthday",img:"🎂🎈",phonetic:"duh vur-YAHR-dahg",example:"Vandaag is mijn verjaardag!",exampleEn:"Today is my birthday!",note:"A de-word. Literally 'year-day'. Birthdays are a BIG deal in Dutch culture."},
+      {type:"teach",kind:"word",nl:"Gefeliciteerd!",en:"Congratulations! / Happy birthday!",img:"🎉🥳",phonetic:"guh-fay-lee-see-TAYRT",example:"Gefeliciteerd met je verjaardag!",exampleEn:"Happy birthday!",note:"The most important celebration word. You say it to EVERYONE  -  the birthday person AND their family!"},
+      {type:"teach",kind:"phrase",nl:"het feest",en:"party/celebration",img:"🎉🎊",phonetic:"ut fayst",example:"Kom je naar mijn feest?",exampleEn:"Are you coming to my party?",note:"A het-word! Related to English 'feast'. 'Feestje' (diminutive) = smaller/casual party."},
+      {type:"teach",kind:"phrase",nl:"het cadeau",en:"gift/present",img:"🎁🎀",phonetic:"ut kah-DOH",example:"Wat een mooi cadeau!",exampleEn:"What a beautiful gift!",note:"A het-word. From French. Also: 'cadeautje' (small gift, diminutive). 'Sinterklaas cadeautjes' are a huge tradition!"},
+      {type:"teach",kind:"phrase",nl:"de taart",en:"cake",img:"🎂🍰",phonetic:"duh tahrt",example:"Wie wil er taart?",exampleEn:"Who wants cake?",note:"A de-word. On your birthday in NL, YOU bring the cake  -  to work, to school, to family. Not the other way around!"},
+      {type:"teach",kind:"word",nl:"Proost!",en:"Cheers!",img:"🥂🍻",phonetic:"prohst",example:"Proost! Op de gezondheid!",exampleEn:"Cheers! To health!",note:"The Dutch toast. Always make EYE CONTACT when clinking glasses  -  it's considered bad luck otherwise!"},
+      {type:"tip",title:"🎂 Dutch birthday rules",text:"Dutch birthdays are VERY different:\n\n1️⃣ YOU bring cake to work/school (not your colleagues)\n2️⃣ You congratulate EVERYONE at the party  -  not just the birthday person!\n   'Gefeliciteerd met je moeder!' = Congrats with your mother!\n3️⃣ The 'verjaardagskring' (birthday circle): everyone sits in a circle, drinks coffee, eats cake\n4️⃣ 'Abraham/Sarah': turning 50 is huge  -  you've 'seen Abraham (or Sarah)'\n5️⃣ The birthday calendar hangs in the TOILET (yes, really!) so nobody forgets a birthday\n\nForeigners find the verjaardagskring hilarious but it's deeply Dutch. Embrace it!"},
+      {type:"mc",q:"On your birthday in the Netherlands, who brings cake?",opts:["Your friends","Your colleagues","You bring it yourself","Nobody brings cake"],ans:"You bring it yourself",hint:"The Dutch birthday tradition!"},
+      {type:"tr",mk:"u12_happy_birthday",dir:"produce"},
+      {type:"fb",s:"_____ met je verjaardag!",a:"Gefeliciteerd",opts:["Gefeliciteerd","Alsjeblieft","Dank je","Goedemorgen"],hint:"The big birthday word!"},
+      {type:"match",mks:["social_birthday","social_party","social_gift","social_cheers"]},
+    ]},
+  ]},
+  {n:13,lang:"nl",track:"legacy",title:"Past Experiences",sub:"Talking About What Happened",icon:"⏮️",level:"A2.2",color:"var(--purple-accent-text)",lessons:[
+    // ── LESSON 1: PERFECT TENSE WITH HEBBEN ──
+    {id:"u13l1",title:"I Have Done",icon:"✅",xp:20,steps:[
+      {type:"intro",title:"I Have Done ✅",desc:"Learn to talk about the past! The Dutch perfect tense (voltooid tegenwoordige tijd) lets you describe completed actions.",goals:["Form perfect tense with hebben","Regular past participles","Talk about recent experiences"]},
+      {type:"teach",kind:"grammar",nl:"Ik heb gegeten",en:"I have eaten / I ate",img:"🍽️✅",phonetic:"ik hep guh-GAY-tun",example:"Ik heb al gegeten.",exampleEn:"I have already eaten.",note:"Perfect tense = hebben/zijn + past participle. Most verbs use 'hebben'. Past participle of regular verbs: ge- + stem + -t/-d."},
+      {type:"teach",kind:"phrase",nl:"Wat heb je gedaan?",en:"What have you done? / What did you do?",img:"🤔❓",phonetic:"vat hep yuh guh-DAHN",example:"Wat heb je dit weekend gedaan?",exampleEn:"What did you do this weekend?",note:"'Doen' (to do) → 'gedaan' (done). This is THE question for asking about past activities!"},
+      {type:"teach",kind:"word",nl:"beleven",en:"to experience",img:"🎢🌟",phonetic:"buh-LAY-vun",example:"Ik heb veel beleefd.",exampleEn:"I have experienced a lot.",note:"'Beleven' → 'beleefd'. Used for experiences and adventures. 'Wat een ervaring!' = What an experience!"},
+      {type:"teach",kind:"grammar",nl:"bezoeken",en:"to visit",img:"🏛️👋",phonetic:"buh-ZOO-kun",example:"We hebben Parijs bezocht.",exampleEn:"We visited Paris.",note:"Inseparable prefix be- → NO ge-! Bezoeken → bezocht (not 'gebezocht'). This is important!"},
+      {type:"teach",kind:"grammar",nl:"gisteren",en:"yesterday",img:"📅⏪",phonetic:"GIS-tuh-run",example:"Gisteren heb ik gewerkt.",exampleEn:"Yesterday I worked.",note:"Essential time word! 'Gisteren' always signals past tense. Order: Gisteren heb ik... or Ik heb gisteren..."},
+      {type:"teach",kind:"phrase",nl:"vorige week",en:"last week",img:"📆🔙",phonetic:"VOH-ruh-guh vayk",example:"Vorige week ben ik ziek geweest.",exampleEn:"Last week I was sick.",note:"'Vorige' = last/previous. Also: vorige maand (last month), vorig jaar (last year). Vorig changes gender!"},
+      {type:"tip",title:"🔨 How to make past participles",text:"Regular verbs follow a simple pattern:\n\n1️⃣ REGULAR (most verbs):\nwerken → ge + werk + t → gewerkt\nspelen → ge + speel + d → gespeeld\n\nRule: -t after voiceless sounds (k,p,t,f,s,ch), -d after voiced sounds\n\n2️⃣ INSEPARABLE PREFIX (be-, ge-, ver-, ont-, her-, er-):\nbezoeken → NO ge-! → bezocht\nvergeten → NO ge-! → vergeten\n\n3️⃣ SEPARABLE PREFIX:\nopbellen → op + ge + bel + d → opgebeld\n\nExamples:\nmaken → gemaakt (made)\nleren → geleerd (learned)\nverkopen → verkocht (sold, no ge-!)\naankomen → aangekomen (arrived)"},
+      {type:"mc",q:"What is the past participle of 'werken'?",opts:["werk","gewerkt","gewerken","werkte"],ans:"gewerkt",hint:"ge + stem + t"},
+      {type:"mc",q:"'Bezoeken' → past participle?",opts:["gebezoeken","gebezocht","bezocht","bezoekt"],ans:"bezocht",hint:"Be- prefix = no ge-!"},
+      {type:"tr",mk:"u13_worked_yesterday",dir:"produce"},
+      {type:"fb",s:"Wat heb je dit weekend _____?",a:"Gedaan",opts:["Gedaan","Doen","Deed","Doet"],hint:"What did you DO?"},
+      {type:"match",mks:["past_made","past_learned","past_visited","past_yesterday"]},
+    ]},
+
+    // ── LESSON 2: PERFECT TENSE WITH ZIJN ──
+    {id:"u13l2",title:"I Have Gone",icon:"🚶",xp:20,steps:[
+      {type:"intro",title:"I Have Gone 🚶",desc:"Some verbs use 'zijn' instead of 'hebben' in perfect tense. Learn which verbs and why!",goals:["Perfect tense with zijn","Motion & change verbs","Common zijn verbs"]},
+      {type:"teach",kind:"phrase",nl:"Ik ben gegaan",en:"I have gone / I went",img:"🚶✅",phonetic:"ik ben guh-GAHN",example:"Ik ben naar Amsterdam gegaan.",exampleEn:"I went to Amsterdam.",note:"Gaan = to go → gegaan. Motion verbs use ZIJN not hebben! This is crucial."},
+      {type:"teach",kind:"word",nl:"reizen",en:"to travel",img:"✈️🌍",phonetic:"RAY-zun",example:"Zij is naar Spanje gereisd.",exampleEn:"She traveled to Spain.",note:"Reizen → gereisd. Another motion verb → uses zijn! 'Een reis' = a trip/journey."},
+      {type:"teach",kind:"word",nl:"gebeuren",en:"to happen",img:"⚡💥",phonetic:"guh-BUH-run",example:"Wat is er gebeurd?",exampleEn:"What happened?",note:"Gebeuren → gebeurd. 'Wat is er gebeurd?' = the #1 question when something went wrong!"},
+      {type:"teach",kind:"grammar",nl:"ontmoeten",en:"to meet",img:"👋🤝",phonetic:"ont-MOO-tun",example:"Ik heb een oude vriend ontmoet.",exampleEn:"I met an old friend.",note:"Ontmoeten → ontmoet (no ge- with ont- prefix!). Uses hebben, not zijn. Meeting people = hebben."},
+      {type:"teach",kind:"word",nl:"vergeten",en:"to forget",img:"🤦💭",phonetic:"vur-GAY-tun",example:"Hij is zijn sleutels vergeten.",exampleEn:"He forgot his keys.",note:"Vergeten → vergeten (no ge-!). Can use ZIJN (more common in NL) or hebben. 'Ik ben het vergeten' = I forgot it."},
+      {type:"teach",kind:"grammar",nl:"geleden",en:"ago",img:"⏳📅",phonetic:"guh-LAY-dun",example:"Twee dagen geleden.",exampleEn:"Two days ago.",note:"ALWAYS after the time period: drie weken geleden, een jaar geleden. Essential for past tense!"},
+      {type:"tip",title:"🚶 Which verbs use ZIJN?",text:"Use ZIJN (not hebben) for:\n\n1️⃣ MOTION verbs:\ngaan → gegaan (gone)\nkomen → gekomen (come)\nreizen → gereisd (traveled)\nrijden → gereden (driven/ridden)\nlopen → gelopen (walked)\nfietsen → gefietst (cycled)\nvallen → gevallen (fallen)\n\n2️⃣ CHANGE OF STATE:\nworden → geworden (become)\nsterven → gestorven (died)\ngroeien → gegroeid (grown)\n\n3️⃣ SPECIAL CASES:\nzijn → geweest (been)\nblijven → gebleven (stayed)\n\nAll other verbs → HEBBEN\n\nTrick: If you can answer 'Where did you go?', it's probably zijn.\n'Ik ben naar huis gegaan'  -  I went home ✅\n'Ik heb gegeten'  -  I ate ✅"},
+      {type:"gramref",title:"📍 Time expressions with geleden",level:"A2",text:"Structure: [time period] + geleden = ago\n\neen uur geleden  -  an hour ago\ntwee dagen geleden  -  two days ago\neen week geleden  -  a week ago\nvier maanden geleden  -  four months ago\neen jaar geleden  -  a year ago\n\nIn a sentence:\nIk heb haar drie weken geleden gezien.\nZe zijn vorige maand verhuisd.\nWat heb je gisteren gedaan?\n\nOther time expressions:\nvorige week  -  last week\nvorige maand  -  last month\nvorig jaar  -  last year\nin 2020  -  in 2020\nrecent  -  recently\nal  -  already\nnog niet  -  not yet"},
+      {type:"mc",q:"Which auxiliary verb for 'gaan' (to go)?",opts:["hebben","zijn"],ans:"zijn",hint:"Motion verb!"},
+      {type:"mc",q:"'Drie dagen _____' = Three days ago",opts:["geleden","voor","na","sinds"],ans:"geleden",hint:"Always after the time!"},
+      {type:"tr",mk:"u13_traveled_spain",dir:"produce"},
+      {type:"fb",s:"Wat _____ er gebeurd?",a:"Is",opts:["Is","Heeft","Heb","Ben"],hint:"What HAS happened? (gebeuren uses zijn)"},
+      {type:"conj",verb:"gaan",en:"to go (perfect tense)",forms:{ik:"ben gegaan",jij:"bent gegaan",hij:"is gegaan",wij:"zijn gegaan",jullie:"zijn gegaan",zij:"zijn gegaan"},test:["ik","jij","wij"]},
+      {type:"match",mks:["past_gone","past_come","past_traveled","past_been"]},
+    ]},
+
+    // ── LESSON 3: DESCRIBING PAST EXPERIENCES ──
+    {id:"u13l3",title:"My Story",icon:"📖",xp:25,steps:[
+      {type:"intro",title:"My Story 📖",desc:"Put it all together! Describe vacations, events, and personal experiences using perfect tense fluently.",goals:["Tell complete past stories","Mix hebben and zijn","Use time expressions naturally"]},
+      {type:"teach",kind:"phrase",nl:"de ervaring",en:"the experience",img:"🎢✨",phonetic:"duh air-VAH-ring",example:"Dat was een goede ervaring.",exampleEn:"That was a good experience.",note:"A de-word. 'Beleven' (verb) → ervaring (noun). 'Veel ervaring hebben' = to have a lot of experience."},
+      {type:"teach",kind:"phrase",nl:"de reis",en:"the trip/journey",img:"✈️🗺️",phonetic:"duh rays",example:"De reis was fantastisch!",exampleEn:"The trip was fantastic!",note:"A de-word. 'Reizen' (verb) → reis (noun). 'Een rondreis' = a round trip. 'Goede reis!' = Have a good trip!"},
+      {type:"teach",kind:"phrase",nl:"de vakantie",en:"the vacation/holiday",img:"🏖️🌴",phonetic:"duh vah-KAHN-see",example:"We hadden een mooie vakantie.",exampleEn:"We had a nice vacation.",note:"A de-word. 'Op vakantie gaan' = to go on vacation. Dutch get around 4-5 weeks per year!"},
+      {type:"teach",kind:"grammar",nl:"verliezen",en:"to lose",img:"😢🔍",phonetic:"vur-LEE-zun",example:"Ik heb mijn tas verloren.",exampleEn:"I lost my bag.",note:"Verliezen → verloren (strong verb). Ver- prefix = no ge-! Uses hebben. 'Verloren en gevonden' = lost and found."},
+      {type:"teach",kind:"word",nl:"vinden",en:"to find",img:"🔍✨",phonetic:"VIN-dun",example:"Heb je je telefoon gevonden?",exampleEn:"Did you find your phone?",note:"Vinden → gevonden (strong verb). Be careful: 'vinden' also = 'to think/find'. 'Ik vind het leuk' = I like it (I find it nice)."},
+      {type:"teach",kind:"phrase",nl:"genieten van",en:"to enjoy",img:"😊💕",phonetic:"guh-NEE-tun van",example:"Zij heeft genoten van de vakantie.",exampleEn:"She enjoyed the vacation.",note:"Genieten → genoten. Always 'genieten VAN' something. 'Geniet ervan!' = Enjoy it!"},
+      {type:"tip",title:"📖 Building past stories",text:"Template for past experiences:\n\n🎯 STRUCTURE:\n[Time] + [heb/ben] + [subject] + [past participle]\n\nVorige week ben ik naar Rotterdam gegaan.  -  Last week I went to Rotterdam.\nGisteren heb ik mijn vriend bezocht.  -  Yesterday I visited my friend.\nIn 2023 zijn we verhuisd.  -  In 2023 we moved.\n\n🎯 VACATION STORY TEMPLATE:\n\nVorig jaar zijn we naar [place] gereisd.  -  Last year we traveled to [place].\nWe hebben [time] in [place] gebleven.  -  We stayed [time] in [place].\nWe hebben [activity] en [activity].  -  We [activity] and [activity].\nHet was heel [adjective]!  -  It was very [adjective]!\nIk heb veel [geleerd/gezien/meegemaakt].  -  I [learned/seen/experienced] a lot.\n\nExample:\nVorig jaar zijn we naar Italië gereisd.  -  Last year we traveled to Italy.\nWe hebben twee weken in Rome gebleven.  -  We stayed two weeks in Rome.\nWe hebben het Colosseum bezocht en veel pizza gegeten.  -  We visited the Colosseum and ate a lot of pizza.\nHet was heel leuk!  -  It was really fun!\nIk heb veel Italiaans geleerd.  -  I learned a lot of Italian."},
+      {type:"mc",q:"'Heb je ooit in Rome _____?' = Have you ever been to Rome?",opts:["geweest","gegaan","was","bent"],ans:"geweest",hint:"Zijn → geweest (been)"},
+      {type:"tr",mk:"u13_lost_wallet",dir:"comprehend"},
+      {type:"fb",s:"Zij heeft _____ van haar vakantie.",a:"Genoten",opts:["Genoten","Genieten","Geniet","Genoot"],hint:"She ENJOYED (past participle)"},
+      {type:"tr",mk:"u13_last_year_spain",dir:"produce"},
+      {type:"mc",q:"Complete: 'We _____ twee weken in Italië geweest.'",opts:["hebben","zijn","hadden","waren"],ans:"zijn",hint:"Zijn → geweest uses zijn!"},
+      {type:"match",mks:["past_experience","past_trip","past_vacation","past_lost"]},
+      {type:"gramref",title:"🎯 Perfect Tense Summary",level:"A2",text:"Complete overview:\n\n📘 HEBBEN verbs (most):\nIk heb gewerkt  -  I worked\nZij heeft gelezen  -  She read\nWe hebben gemaakt  -  We made\n\n📗 ZIJN verbs (motion & change):\nIk ben gegaan  -  I went\nHij is gekomen  -  He came\nZe zijn gereisd  -  They traveled\n\n📙 IRREGULAR PAST PARTICIPLES:\ndoen → gedaan (done)\nzien → gezien (seen)\neten → gegeten (eaten)\nschrijven → geschreven (written)\nlezen → gelezen (read)\ngaan → gegaan (gone)\nkomen → gekomen (come)\nzijn → geweest (been)\nhebben → gehad (had)\n\nSee Grammar tab for full irregular verb list!"},
+    ]},
+  ]},
+  {n:14,lang:"nl",track:"legacy",title:"Future Plans",sub:"Talking About Tomorrow",icon:"🔮",level:"A2.2",color:"#4A8FE7",lessons:[
+    // ── LESSON 1: FUTURE WITH GAAN ──
+    {id:"u14l1",title:"I'm Going To...",icon:"📅",xp:20,steps:[
+      {type:"intro",title:"I'm Going To... 📅",desc:"Learn to talk about future plans! Dutch uses 'gaan + infinitive' just like English 'going to'.",goals:["Form future with gaan","Talk about plans and intentions","Use time expressions for future"]},
+      {type:"teach",kind:"grammar",nl:"Ik ga morgen werken",en:"I'm going to work tomorrow",img:"💼📅",phonetic:"ik gah MOR-gun VAIR-kun",example:"Ik ga morgen naar Amsterdam.",exampleEn:"I'm going to Amsterdam tomorrow.",note:"Future = gaan (conjugated) + infinitive. 'Ik ga werken' = I'm going to work. Super simple!"},
+      {type:"teach",kind:"word",nl:"morgen",en:"tomorrow",img:"🌅➡️",phonetic:"MOR-gun",example:"Morgen ga ik naar de dokter.",exampleEn:"Tomorrow I'm going to the doctor.",note:"Time word for future. 'Morgen' at start OR end of sentence. Both work!"},
+      {type:"teach",kind:"phrase",nl:"volgende week",en:"next week",img:"📆➡️",phonetic:"VOL-gun-duh vayk",example:"Volgende week ben ik vrij.",exampleEn:"Next week I'm free.",note:"'Volgende' = next/following. Also: volgende maand (next month), volgend jaar (next year)."},
+      {type:"teach",kind:"phrase",nl:"van plan zijn",en:"to plan to / to intend to",img:"📝✨",phonetic:"van plan zayn",example:"Ik ben van plan om te verhuizen.",exampleEn:"I plan to move.",note:"More formal than 'gaan'. 'Ik ben van plan om...' + te + infinitive. Shows intention."},
+      {type:"teach",kind:"word",nl:"misschien",en:"maybe / perhaps",img:"🤷‍♀️❓",phonetic:"mis-SKHEEN",example:"Misschien ga ik morgen zwemmen.",exampleEn:"Maybe I'll go swimming tomorrow.",note:"Adds uncertainty. 'Misschien' usually at start of sentence. Very common in Dutch!"},
+      {type:"teach",kind:"word",nl:"zeker",en:"certainly / for sure",img:"✅💯",phonetic:"ZAY-kur",example:"Ik ga zeker naar het feest.",exampleEn:"I'm definitely going to the party.",note:"Shows certainty. 'Zeker weten' = know for sure. Opposite of 'misschien'."},
+      {type:"teach",kind:"word",nl:"straks",en:"soon / later today / in a bit",img:"⏰🔜",phonetic:"straks",example:"Ik ga straks boodschappen doen.",exampleEn:"I'm going shopping in a bit.",note:"'Straks' = soon/later today. Very useful! 'Tot straks!' = See you later (today)!"},
+      {type:"teach",kind:"word",nl:"binnenkort",en:"soon / in the near future",img:"📅🔜",phonetic:"BIN-nun-kort",example:"We gaan binnenkort verhuizen.",exampleEn:"We're going to move soon.",note:"'Binnenkort' = soon (within weeks/months). More distant than 'straks'."},
+      {type:"teach",kind:"word",nl:"later",en:"later",img:"⏳➡️",phonetic:"LAH-tur",example:"Ik bel je later.",exampleEn:"I'll call you later.",note:"'Later' = later. Can mean later today, or later in general. Context tells you which!"},
+      {type:"teach",kind:"word",nl:"vanavond",en:"tonight / this evening",img:"🌙✨",phonetic:"van-AH-vont",example:"Wat ga je vanavond doen?",exampleEn:"What are you going to do tonight?",note:"'Vanavond' = tonight/this evening. Also: vanmiddag (this afternoon), vannacht (tonight/this night)."},
+      {type:"tip",title:"🗣️ Dialogue: Weekend Plans",text:"A: Hé, wat ga je dit weekend doen?\nB: Ik ga misschien naar het strand. En jij?\nA: Ik ben van plan om te fietsen.\nB: Leuk! Ga je zaterdag of zondag?\nA: Waarschijnlijk zaterdag. Zondag ga ik familie bezoeken.\nB: Klinkt goed! Veel plezier!\nA: Jij ook! Tot volgende week.\n\nTranslation:\nA: Hey, what are you going to do this weekend?\nB: I might go to the beach. And you?\nA: I'm planning to cycle.\nB: Nice! Are you going Saturday or Sunday?\nA: Probably Saturday. Sunday I'm visiting family.\nB: Sounds good! Have fun!\nA: You too! See you next week."},
+      {type:"tip",title:"🔮 Future with GAAN",text:"Dutch future is super easy:\n\n📘 Pattern: gaan (conjugated) + infinitive\n\nIk ga werken  -  I'm going to work\nJij gaat studeren  -  You're going to study\nWe gaan eten  -  We're going to eat\nZij gaan reizen  -  They're going to travel\n\n⏰ Time expressions:\nmorgen  -  tomorrow\nstraks  -  soon/later today\nvolgende week  -  next week\nvolgend jaar  -  next year\nbinnenkort  -  soon\nlater  -  later\nvanavond  -  tonight\n\n💡 Word order:\nMorgen ga ik werken. (time first)\nIk ga morgen werken. (time after verb)\nBoth are correct!"},
+      {type:"mc",q:"How do you say 'I'm going to eat'?",opts:["Ik ga eten","Ik gaan eten","Ik eet gaan","Ik ben eten"],ans:"Ik ga eten",hint:"gaan + infinitive"},
+      {type:"tr",mk:"u14_tmrw_movies",dir:"produce"},
+      {type:"fb",s:"Volgende week _____ ik vrij.",a:"Ben",opts:["Ben","Ga","Heb","Word"],hint:"Next week I AM free (not going)"},
+      {type:"tr",mk:"u14_shopping_soon",dir:"produce"},
+      {type:"match",mks:["future_tomorrow","future_maybe","future_certainly","future_next_week"]},
+    ]},
+
+    // ── LESSON 2: MAKING APPOINTMENTS ──
+    {id:"u14l2",title:"Let's Meet!",icon:"🤝",xp:20,steps:[
+      {type:"intro",title:"Let's Meet! 🤝",desc:"Make plans and schedule appointments in Dutch. Essential for social life and work!",goals:["Suggest meeting times","Accept and decline invitations","Use 'zullen we' for suggestions"]},
+      {type:"teach",kind:"phrase",nl:"Zullen we?",en:"Shall we?",img:"💭🤝",phonetic:"ZUL-lun vuh",example:"Zullen we morgen afspreken?",exampleEn:"Shall we meet tomorrow?",note:"THE way to suggest plans! 'Zullen we + infinitive?' Very polite and common."},
+      {type:"teach",kind:"word",nl:"afspreken",en:"to make an appointment / to arrange to meet",img:"📅✅",phonetic:"af-SPRAY-kun",example:"Laten we volgende week afspreken.",exampleEn:"Let's meet next week.",note:"'Een afspraak' = an appointment. 'Afspreken' = to arrange to meet. Super useful verb!"},
+      {type:"teach",kind:"phrase",nl:"Dat komt goed uit",en:"That works out well / That's convenient",img:"👍⭐",phonetic:"dat komt goot owt",example:"Dinsdag? Ja, dat komt goed uit!",exampleEn:"Tuesday? Yes, that works well!",note:"Perfect response when a time suits you. 'Uitkomen' = to work out/suit."},
+      {type:"teach",kind:"phrase",nl:"Dat komt niet uit",en:"That doesn't work / That's not convenient",img:"❌📅",phonetic:"dat komt neet owt",example:"Woensdag komt niet uit.",exampleEn:"Wednesday doesn't work.",note:"Polite way to say a time doesn't suit. Much better than just 'nee'!"},
+      {type:"teach",kind:"phrase",nl:"Hoe laat?",en:"What time?",img:"🕐❓",phonetic:"hoo laht",example:"Zullen we afspreken? Hoe laat?",exampleEn:"Shall we meet? What time?",note:"Essential question for making plans. 'Laat' = late, but 'hoe laat' = what time."},
+      {type:"teach",kind:"phrase",nl:"om ... uur",en:"at ... o'clock",img:"🕐⏰",phonetic:"om ... oor",example:"Om drie uur?",exampleEn:"At three o'clock?",note:"'Om' = at (for time). 'Om acht uur' = at 8 o'clock. Drop 'uur' in casual speech: 'om drie'."},
+      {type:"teach",kind:"word",nl:"Afgesproken!",en:"Agreed! / It's a deal!",img:"🤝✅",phonetic:"af-guh-SPROH-kun",example:"Morgen om 2 uur? Afgesproken!",exampleEn:"Tomorrow at 2? It's a deal!",note:"Perfect way to confirm plans! Past participle of 'afspreken' used as exclamation."},
+      {type:"teach",kind:"phrase",nl:"Tot dan!",en:"See you then!",img:"👋📅",phonetic:"tot dan",example:"Oké, tot donderdag dan!",exampleEn:"Okay, see you Thursday then!",note:"'Tot' = until/see you. 'Tot dan' = see you then. Also: Tot morgen! (See you tomorrow!)"},
+      {type:"teach",kind:"phrase",nl:"een ander keertje",en:"another time",img:"🔄📅",phonetic:"un AN-dur KAYR-tyuh",example:"Ik kan niet. Een ander keertje?",exampleEn:"I can't. Another time?",note:"Polite way to decline but stay friendly. 'Keertje' = diminutive of 'keer' (time/occasion)."},
+      {type:"teach",kind:"phrase",nl:"Lukt het?",en:"Does it work? / Can you make it?",img:"❓👍",phonetic:"lukt ut",example:"Morgen om 10 uur, lukt het?",exampleEn:"Tomorrow at 10, can you make it?",note:"'Lukken' = to succeed/work out. 'Lukt het?' = casual way to ask if someone can make it."},
+      {type:"tip",title:"🗣️ Dialogue: Making an Appointment",text:"A: Hé Lisa, zullen we binnenkort koffie drinken?\nB: Ja, leuk! Wanneer heb je tijd?\nA: Donderdag of vrijdag?\nB: Donderdag komt niet uit, maar vrijdag is prima.\nA: Oké! Hoe laat?\nB: Om 3 uur?\nA: Dat komt goed uit! Bij het café op de hoek?\nB: Perfect. Afgesproken!\nA: Top! Tot vrijdag dan.\nB: Tot dan!\n\nTranslation:\nA: Hey Lisa, shall we have coffee soon?\nB: Yes, nice! When do you have time?\nA: Thursday or Friday?\nB: Thursday doesn't work, but Friday is fine.\nA: Okay! What time?\nB: At 3 o'clock?\nA: That works! At the café on the corner?\nB: Perfect. It's a deal!\nA: Great! See you Friday then.\nB: See you then!"},
+      {type:"tip",title:"🤝 Making Plans Like a Dutch Person",text:"Standard flow:\n\n1️⃣ SUGGEST:\nZullen we koffie drinken?  -  Shall we have coffee?\nHeb je zin om te lunchen?  -  Do you feel like lunch?\n\n2️⃣ PROPOSE TIME:\nMorgen om 3 uur?  -  Tomorrow at 3?\nVolgende week dinsdag?  -  Next week Tuesday?\n\n3️⃣ ACCEPT:\nJa, leuk!  -  Yes, nice!\nDat komt goed uit!  -  That works!\nGoed plan!  -  Good plan!\nPrima!  -  Fine!\nLukt het?  -  Can you make it?\n\n4️⃣ DECLINE:\nDat komt helaas niet uit.  -  That unfortunately doesn't work.\nIk kan niet, sorry.  -  I can't, sorry.\nEen ander keertje?  -  Another time?\n\n5️⃣ CONFIRM:\nAfgesproken!  -  Agreed!/It's a deal!\nTot dan!  -  See you then!\nTot morgen!  -  See you tomorrow!"},
+      {type:"mc",q:"'Zullen we morgen lunchen?' means:",opts:["We will lunch tomorrow","Shall we have lunch tomorrow?","We must lunch tomorrow","Did we lunch tomorrow?"],ans:"Shall we have lunch tomorrow?",hint:"Zullen we = shall we (suggestion)"},
+      {type:"tr",mk:"u14_works_out",dir:"comprehend"},
+      {type:"fb",s:"Zullen we _____ drie uur afspreken?",a:"Om",opts:["Om","Op","In","Aan"],hint:"AT three o'clock"},
+      {type:"tr",mk:"u14_its_a_deal",dir:"produce"},
+      {type:"match",mks:["future_shall_we","future_arrange","future_what_time","future_works_out"]},
+    ]},
+
+    // ── LESSON 3: FUTURE INTENTIONS ──
+    {id:"u14l3",title:"My Plans",icon:"🎯",xp:25,steps:[
+      {type:"intro",title:"My Plans 🎯",desc:"Talk about your future goals, dreams, and intentions. From weekend plans to life goals!",goals:["Express future intentions","Use 'willen' for future desires","Combine time expressions fluently"]},
+      {type:"teach",kind:"phrase",nl:"Ik wil graag...",en:"I would like to... / I want to...",img:"💭✨",phonetic:"ik vil grahg",example:"Ik wil graag Nederlands leren.",exampleEn:"I would like to learn Dutch.",note:"'Willen' (to want) + infinitive. Add 'graag' to be polite. 'Ik wil' alone = direct/demanding."},
+      {type:"teach",kind:"phrase",nl:"van plan zijn om",en:"to be planning to",img:"📋🎯",phonetic:"van plan zayn om",example:"Ik ben van plan om te verhuizen.",exampleEn:"I'm planning to move.",note:"Formal intention. 'Van plan zijn om + te + infinitive'. Shows serious planning."},
+      {type:"teach",kind:"word",nl:"hopelijk",en:"hopefully",img:"🤞🌟",phonetic:"HOH-puh-luk",example:"Hopelijk wordt het mooi weer.",exampleEn:"Hopefully it will be nice weather.",note:"Expresses hope. Usually at start of sentence. From 'hopen' (to hope)."},
+      {type:"teach",kind:"phrase",nl:"Ik hoop dat...",en:"I hope that...",img:"🙏💭",phonetic:"ik hohp dat",example:"Ik hoop dat je komt.",exampleEn:"I hope that you come.",note:"'Hopen dat' + sentence. The 'dat' is important! 'Ik hoop dat het lukt' = I hope it works out."},
+      {type:"teach",kind:"grammar",nl:"Als alles goed gaat",en:"If all goes well",img:"🤞✅",phonetic:"als AL-lus goot gaht",example:"Als alles goed gaat, verhuis ik in mei.",exampleEn:"If all goes well, I'll move in May.",note:"Common phrase for conditional future. Shows cautious optimism  -  very Dutch!"},
+      {type:"teach",kind:"phrase",nl:"over een maand",en:"in a month / a month from now",img:"📅➡️",phonetic:"OH-vur un mahnt",example:"Over twee weken ga ik op vakantie.",exampleEn:"In two weeks I'm going on vacation.",note:"'Over' = in (future time). Over een jaar = in a year. Over drie dagen = in three days."},
+      {type:"teach",kind:"word",nl:"waarschijnlijk",en:"probably / likely",img:"🤔📊",phonetic:"vahr-SKHAY-nlik",example:"Ik ga waarschijnlijk studeren.",exampleEn:"I'm probably going to study.",note:"Shows probability. Middle ground between 'misschien' and 'zeker'."},
+      {type:"teach",kind:"grammar",nl:"van plan",en:"planning / intending",img:"📋💭",phonetic:"van plan",example:"Wat ben je van plan?",exampleEn:"What are you planning?",note:"Noun form. 'Wat zijn je plannen?' = What are your plans?"},
+      {type:"teach",kind:"phrase",nl:"de toekomst",en:"the future",img:"🔮✨",phonetic:"duh TOO-komst",example:"In de toekomst wil ik reizen.",exampleEn:"In the future I want to travel.",note:"'Toekomst' = future (noun). Related to 'toekomen' (to arrive/come to)."},
+      {type:"tip",title:"🗣️ Dialogue: Life Plans",text:"A: Wat zijn je plannen voor volgend jaar?\nB: Ik ben van plan om een nieuwe baan te zoeken.\nA: Oh ja? Wat wil je graag doen?\nB: Hopelijk iets met ICT. En jij?\nA: Ik wil graag naar het buitenland verhuizen.\nB: Wauw! Waarheen?\nA: Waarschijnlijk naar Spanje of Portugal.\nB: Als alles goed gaat, lukt het zeker!\nA: Dank je! Ik hoop het.\n\nTranslation:\nA: What are your plans for next year?\nB: I'm planning to look for a new job.\nA: Oh yeah? What would you like to do?\nB: Hopefully something with IT. And you?\nA: I'd like to move abroad.\nB: Wow! Where to?\nA: Probably to Spain or Portugal.\nB: If all goes well, it'll definitely work out!\nA: Thanks! I hope so."},
+      {type:"tip",title:"🎯 Talking About Future Plans",text:"Different levels of commitment:\n\n💪 CERTAIN:\nIk ga morgen...  -  I'm going to tomorrow...\nVolgende week doe ik...  -  Next week I'll do...\nIk ga zeker...  -  I'm definitely going to...\n\n📝 PLANNED:\nIk ben van plan om...  -  I'm planning to...\nIk wil graag...  -  I'd like to...\n\n🤞 HOPEFUL:\nHopelijk...  -  Hopefully...\nIk hoop dat...  -  I hope that...\nAls alles goed gaat...  -  If all goes well...\n\n❓ UNCERTAIN:\nMisschien...  -  Maybe...\nIk denk dat...  -  I think that...\nWaarschijnlijk...  -  Probably...\n\nExample progression:\nMisschien ga ik volgende jaar verhuizen.\n→ Ik ben van plan om te verhuizen.\n→ Als alles goed gaat, verhuis ik in mei.\n→ Ik ga zeker verhuizen!"},
+      {type:"mc",q:"'Over twee weken' means:",opts:["Two weeks ago","In two weeks","For two weeks","About two weeks"],ans:"In two weeks",hint:"Over = in (future time)"},
+      {type:"tr",mk:"u14_hope_come",dir:"produce"},
+      {type:"fb",s:"Ik _____ graag Nederlands leren.",a:"Wil",opts:["Wil","Ga","Ben","Heb"],hint:"I WANT to learn Dutch"},
+      {type:"mc",q:"Most polite way to express a wish?",opts:["Ik wil","Ik wil graag","Ik moet","Geef mij"],ans:"Ik wil graag",hint:"Graag makes it polite"},
+      {type:"tr",mk:"u14_probably_study",dir:"produce"},
+      {type:"match",mks:["future_hopefully","future_in_a_week","future_plan_to","future_if_goes_well"]},
+      {type:"gramref",title:"🎯 Future Expressions Summary",level:"A2",text:"FUTURE IN DUTCH:\n\n1️⃣ GAAN + infinitive (most common)\nIk ga werken  -  I'm going to work\nWe gaan eten  -  We're going to eat\n\n2️⃣ PRESENT TENSE (with time word)\nMorgen werk ik  -  Tomorrow I work\nVolgende week zijn we vrij  -  Next week we're free\n\n3️⃣ ZULLEN (formal/suggestions)\nZullen we gaan?  -  Shall we go?\nDat zal wel lukken  -  That will probably work\n\n4️⃣ WILLEN (desires/intentions)\nIk wil studeren  -  I want to study\n\n5️⃣ VAN PLAN ZIJN (firm plans)\nIk ben van plan om te verhuizen  -  I plan to move\n\nNo separate future tense like English 'will'!\nDutch uses present + time word or 'gaan'."},
+    ]},
+  ]},
+  {n:15,lang:"nl",track:"legacy",title:"Comparisons & Preferences",sub:"Better, Best, Favorite",icon:"⚖️",level:"A2.2",color:"#2ECDA7",lessons:[
+    // ── LESSON 1: BIGGER & SMALLER (COMPARATIVES) ──
+    {id:"u15l1",title:"Bigger & Smaller",icon:"📏",xp:20,steps:[
+      {type:"intro",title:"Bigger & Smaller 📏",desc:"Compare things in Dutch! Learn comparatives to say something is bigger, cheaper, or better than something else.",goals:["Form comparatives with -er","Use 'dan' (than)","Learn irregular comparatives"]},
+      {type:"teach",kind:"word",nl:"groter",en:"bigger / larger",img:"📦📦📦",phonetic:"GROH-tur",example:"Amsterdam is groter dan Utrecht.",exampleEn:"Amsterdam is bigger than Utrecht.",note:"Comparative: groot → groter. Add -er to adjectives. 'Dan' = than."},
+      {type:"teach",kind:"word",nl:"kleiner",en:"smaller",img:"📦→🎁",phonetic:"KLAY-nur",example:"Mijn kamer is kleiner dan jouw kamer.",exampleEn:"My room is smaller than your room.",note:"Klein → kleiner. Regular pattern: adjective + -er."},
+      {type:"teach",kind:"grammar",nl:"beter",en:"better",img:"⭐✨",phonetic:"BAY-tur",example:"Dit boek is beter dan de film.",exampleEn:"This book is better than the movie.",note:"IRREGULAR! Goed → beter (not 'goeder'). Like English good → better."},
+      {type:"teach",kind:"grammar",nl:"slechter",en:"worse",img:"👎⬇️",phonetic:"SLEKH-tur",example:"Het weer is slechter dan gisteren.",exampleEn:"The weather is worse than yesterday.",note:"IRREGULAR! Slecht → slechter. Also means 'bad → worse'."},
+      {type:"teach",kind:"word",nl:"duurder",en:"more expensive",img:"💰💸",phonetic:"DUHR-dur",example:"Amsterdam is duurder dan Groningen.",exampleEn:"Amsterdam is more expensive than Groningen.",note:"Duur → duurder. Double -uu- becomes single -u- before -er. Spelling rule!"},
+      {type:"teach",kind:"word",nl:"goedkoper",en:"cheaper",img:"💵😊",phonetic:"GOOT-koh-pur",example:"De trein is goedkoper dan de auto.",exampleEn:"The train is cheaper than the car.",note:"Goedkoop → goedkoper. 'Goedkoop' = cheap/inexpensive. Essential for shopping!"},
+      {type:"teach",kind:"word",nl:"dan",en:"than",img:"⚖️➡️",phonetic:"dan",example:"Koffie is beter dan thee.",exampleEn:"Coffee is better than tea.",note:"'Dan' = than (for comparisons). Don't confuse with 'toen' (then/when)."},
+      {type:"teach",kind:"word",nl:"mooier",en:"more beautiful / prettier",img:"✨🌸",phonetic:"MOHY-ur",example:"Deze bloem is mooier.",exampleEn:"This flower is prettier.",note:"Mooi → mooier. Double 'o' stays double before -er!"},
+      {type:"teach",kind:"word",nl:"sneller",en:"faster",img:"🏃💨",phonetic:"SNEL-lur",example:"De trein is sneller dan de bus.",exampleEn:"The train is faster than the bus.",note:"Snel → sneller. Add extra -l- for pronunciation."},
+      {type:"teach",kind:"word",nl:"langzamer",en:"slower",img:"🐌⏰",phonetic:"LANG-zah-mur",example:"Deze computer is langzamer.",exampleEn:"This computer is slower.",note:"Langzaam → langzamer. Regular formation."},
+      {type:"tip",title:"🗣️ Dialogue: Shopping Comparison",text:"A: Welke jas vind je mooier?\nB: Ik vind de blauwe mooier dan de rode.\nA: Maar de rode is goedkoper.\nB: Ja, maar de blauwe is beter kwaliteit.\nA: En welke is groter?\nB: Ze zijn allebei dezelfde maat.\nA: Oké, dan neem ik de blauwe.\n\nTranslation:\nA: Which coat do you find prettier?\nB: I find the blue one prettier than the red one.\nA: But the red one is cheaper.\nB: Yes, but the blue one is better quality.\nA: And which one is bigger?\nB: They're both the same size.\nA: Okay, then I'll take the blue one."},
+      {type:"tip",title:"📏 How to Form Comparatives",text:"REGULAR PATTERN:\nadjective + -er\n\ngroot → groter (bigger)\nklein → kleiner (smaller)\nlang → langer (longer)\nkort → korter (shorter)\nnieuw → nieuwer (newer)\noud → ouder (older)\n\nSPELLING CHANGES:\n• Double vowel → single: duur → duurder\n• Add extra consonant if needed: groot → groter (not grooter)\n\nIRREGULAR (memorize these!):\ngoed → beter (better)\nslecht → slechter (worse)\nveel → meer (more)\nweinig → minder (less/fewer)\ngraag → liever (rather/preferably)\n\nUSAGE:\nX is [comparative] dan Y\nDeze auto is sneller dan die auto.  -  This car is faster than that car."},
+      {type:"mc",q:"What is the comparative of 'groot'?",opts:["grooter","groter","meer groot","het grootst"],ans:"groter",hint:"Just add -er"},
+      {type:"mc",q:"'Goed' → comparative?",opts:["goeder","goeder dan","beter","meer goed"],ans:"beter",hint:"Irregular!"},
+      {type:"tr",mk:"u15_coffee_better",dir:"produce"},
+      {type:"fb",s:"Amsterdam is _____ dan Utrecht.",a:"Groter",opts:["Groter","Groot","Het grootst","Meer groot"],hint:"Bigger (comparative)"},
+      {type:"match",mks:["comp_bigger","comp_smaller","comp_better","comp_more_expensive"]},
+    ]},
+
+    // ── LESSON 2: THE BEST! (SUPERLATIVES) ──
+    {id:"u15l2",title:"The Best!",icon:"🏆",xp:20,steps:[
+      {type:"intro",title:"The Best! 🏆",desc:"Talk about the biggest, best, and most beautiful! Learn superlatives to express extremes.",goals:["Form superlatives with -st","Use 'het' with superlatives","Express favorites"]},
+      {type:"teach",kind:"phrase",nl:"het grootst",en:"the biggest / the largest",img:"🏆📦",phonetic:"ut GROT-st",example:"Amsterdam is het grootst.",exampleEn:"Amsterdam is the biggest.",note:"Superlative: groot → grootst. Always use 'het' before superlative! Het grootst, het kleinst."},
+      {type:"teach",kind:"grammar",nl:"het best",en:"the best",img:"🥇⭐",phonetic:"ut best",example:"Dit is het beste restaurant.",exampleEn:"This is the best restaurant.",note:"IRREGULAR! Goed → best (not 'goedst'). 'Het beste' (with -e) when before noun."},
+      {type:"teach",kind:"phrase",nl:"het meest",en:"the most",img:"📊🔝",phonetic:"ut mayst",example:"Dit is het meest populair.",exampleEn:"This is the most popular.",note:"Use 'het meest' + adjective for long adjectives. Het meest interessant = the most interesting."},
+      {type:"teach",kind:"phrase",nl:"het minst",en:"the least",img:"📊⬇️",phonetic:"ut minst",example:"Dit is het minst duur.",exampleEn:"This is the least expensive.",note:"Opposite of 'het meest'. Het minst = the least. From 'weinig' (little/few)."},
+      {type:"teach",kind:"phrase",nl:"mijn favoriet",en:"my favorite",img:"❤️⭐",phonetic:"mayn fah-voh-REET",example:"Wat is jouw favoriete kleur?",exampleEn:"What is your favorite color?",note:"'Favoriet' as noun (mijn favoriet), 'favoriete' as adjective (favoriete boek). From French."},
+      {type:"teach",kind:"grammar",nl:"lievelings-",en:"favorite (prefix)",img:"💕✨",phonetic:"LEE-vuh-lings",example:"Wat is je lievelingseten?",exampleEn:"What is your favorite food?",note:"Compound prefix! Lievelingsfilm, lievelingsboek, lievelingslied. Very Dutch construction."},
+      {type:"tip",title:"🗣️ Dialogue: Restaurant Choice",text:"A: Wat is het beste restaurant in de stad?\nB: Dat hangt ervan af. Voor Italiaans is Luigi's het best.\nA: En voor Nederlands eten?\nB: Dan is De Oude Haven het leukst.\nA: Welke is het duurst?\nB: Luigi's, denk ik. Maar het eten is het meest lekker!\nA: Oké, dan gaan we daar naartoe.\n\nTranslation:\nA: What's the best restaurant in the city?\nB: That depends. For Italian, Luigi's is the best.\nA: And for Dutch food?\nB: Then De Oude Haven is the nicest.\nA: Which is the most expensive?\nB: Luigi's, I think. But the food is the tastiest!\nA: Okay, then we'll go there."},
+      {type:"tip",title:"🏆 Superlatives Explained",text:"FORMATION:\nadjective + -st\n\ngroot → grootst (biggest)\nklein → kleinst (smallest)\nlang → langst (longest)\noud → oudst (oldest)\n\nALWAYS USE 'HET':\nhet grootst  -  the biggest\nhet kleinst  -  the smallest\nhet best  -  the best\nhet slechtst  -  the worst\n\nBEFORE NOUNS, ADD -E:\nde grootste stad  -  the biggest city\nhet kleinste huis  -  the smallest house\nhet beste boek  -  the best book\n\nIRREGULAR:\ngoed → best (best)\nslecht → slechtst (worst)\nveel → meest (most)\nweinig → minst (least)\ngraag → liefst (most preferably)\n\nLONG ADJECTIVES:\nUse 'het meest' + adjective:\nhet meest interessant  -  the most interesting\nhet meest populair  -  the most popular"},
+      {type:"mc",q:"What is the superlative of 'goed'?",opts:["het goedst","het best","het beter","goedst"],ans:"het best",hint:"Irregular superlative"},
+      {type:"mc",q:"Before a noun, 'het beste' becomes:",opts:["het best","beste","de beste","het bests"],ans:"de beste",hint:"Add -e before nouns"},
+      {type:"tr",mk:"u15_best_book",dir:"produce"},
+      {type:"fb",s:"Amsterdam is de _____ stad van Nederland.",a:"Grootste",opts:["Grootste","Grootst","Groter","Groot"],hint:"The BIGGEST city (before noun = -e)"},
+      {type:"match",mks:["super_best","super_biggest","super_most","pref_favorite"]},
+    ]},
+
+    // ── LESSON 3: I PREFER... (PREFERENCES) ──
+    {id:"u15l3",title:"I Prefer...",icon:"💝",xp:25,steps:[
+      {type:"intro",title:"I Prefer... 💝",desc:"Express what you like better! Talk about preferences, choices, and favorites in natural Dutch.",goals:["Use 'liever' for preferences","Express choices","Compare preferences naturally"]},
+      {type:"teach",kind:"word",nl:"liever",en:"rather / preferably / more willingly",img:"😊✨",phonetic:"LEE-vur",example:"Ik drink liever thee dan koffie.",exampleEn:"I prefer tea to coffee.",note:"Comparative of 'graag'. 'Ik doe liever X dan Y' = I prefer X to Y. Super common!"},
+      {type:"teach",kind:"phrase",nl:"het liefst",en:"most preferably / favorite",img:"❤️🏆",phonetic:"ut LEEF-st",example:"Wat doe je het liefst?",exampleEn:"What do you like (to do) most?",note:"Superlative of 'graag'. Shows strong preference. 'Het liefst' = most of all/favorite."},
+      {type:"teach",kind:"phrase",nl:"de voorkeur geven aan",en:"to prefer / to give preference to",img:"⭐👍",phonetic:"duh VOOR-kuhr GAY-vun ahn",example:"Ik geef de voorkeur aan thee.",exampleEn:"I prefer tea.",note:"Formal preference expression. 'Voorkeur' = preference. More formal than 'liever'."},
+      {type:"teach",kind:"word",nl:"kiezen",en:"to choose",img:"🤔➡️",phonetic:"KEE-zun",example:"Ik kan niet kiezen!",exampleEn:"I can't choose!",note:"'Kiezen' = to choose/select. Past: gekozen. 'Een keuze maken' = to make a choice."},
+      {type:"teach",kind:"phrase",nl:"Ik hou meer van",en:"I like ... more / I prefer",img:"💕📊",phonetic:"ik how mayr van",example:"Ik hou meer van zomer dan winter.",exampleEn:"I prefer summer to winter.",note:"'Meer' = more. 'Ik hou van X' = I like/love X. 'Ik hou meer van X dan Y' = I prefer X to Y."},
+      {type:"teach",kind:"word",nl:"allebei",en:"both",img:"👥✌️",phonetic:"AH-luh-bay",example:"Ik vind ze allebei leuk.",exampleEn:"I like them both.",note:"'Allebei' = both (for two things). 'Alle drie' = all three. 'Allemaal' = all of them."},
+      {type:"tip",title:"🗣️ Dialogue: Preferences",text:"A: Ga je liever naar de film of naar een concert?\nB: Ik hou meer van concerten. En jij?\nA: Ik kan niet kiezen! Ik vind allebei leuk.\nB: Wat doe je het liefst in het weekend?\nA: Lekker lui op de bank. Jij?\nB: Ik geef de voorkeur aan buiten zijn.\nA: Dat is ook leuk!\n\nTranslation:\nA: Do you prefer going to the movies or to a concert?\nB: I like concerts more. And you?\nA: I can't choose! I like both.\nB: What do you like doing most on the weekend?\nA: Relaxing lazily on the couch. You?\nB: I prefer being outside.\nA: That's nice too!"},
+      {type:"tip",title:"💝 Expressing Preferences",text:"WAYS TO SAY 'I PREFER':\n\n1️⃣ LIEVER (most common):\nIk drink liever koffie.  -  I prefer to drink coffee.\nIk ga liever naar de film dan naar theater.  -  I'd rather go to the cinema than the theater.\n\n2️⃣ HET LIEFST (strongest):\nIk eet het liefst Italiaans.  -  I like eating Italian best.\nWat doe je het liefst in het weekend?  -  What do you like doing most on weekends?\n\n3️⃣ MEER VAN HOUDEN:\nIk hou meer van honden dan van katten.  -  I like dogs more than cats.\n\n4️⃣ VOORKEUR GEVEN AAN (formal):\nIk geef de voorkeur aan thee.  -  I prefer tea.\n\n5️⃣ BETER VINDEN:\nIk vind koffie beter dan thee.  -  I think coffee is better than tea.\n\nASKING PREFERENCES:\nWat vind je lekkerder?  -  What do you like better?\nWelke vind je het mooist?  -  Which do you find most beautiful?\nKies je A of B?  -  Do you choose A or B?"},
+      {type:"mc",q:"'Ik drink liever thee' means:",opts:["I drink tea","I prefer to drink tea","I must drink tea","I drank tea"],ans:"I prefer to drink tea",hint:"Liever = preferably/rather"},
+      {type:"tr",mk:"u15_prefer_coffee",dir:"produce"},
+      {type:"fb",s:"Wat doe je _____ liefst?",a:"Het",opts:["Het","De","Een","Veel"],hint:"What do you like MOST?"},
+      {type:"mc",q:"How to say 'I like both'?",opts:["Ik vind ze allebei leuk","Ik vind ze twee leuk","Ik vind het beide leuk","Ik vind alles leuk"],ans:"Ik vind ze allebei leuk",hint:"Allebei = both"},
+      {type:"match",mks:["pref_rather","pref_most_pref","pref_choose","pref_both"]},
+      {type:"gramref",title:"⚖️ Comparison Summary",level:"A2",text:"COMPLETE COMPARISON CHART:\n\n📊 REGULAR:\nPositive → Comparative → Superlative\ngroot → groter → grootst (big)\nklein → kleiner → kleinst (small)\nlang → langer → langst (long)\n\n⚡ IRREGULAR:\ngoed → beter → best (good)\nslecht → slechter → slechtst (bad)\nveel → meer → meest (much/many)\nweinig → minder → minst (little/few)\ngraag → liever → liefst (gladly)\n\n📐 PATTERNS:\nComparative: X is [adj]er dan Y\nSuperlative: X is het [adj]st\nBefore noun: de/het [adj]ste + noun\n\n💡 PREFERENCES:\nIk [verb] liever X dan Y\nIk doe het liefst X\nIk geef de voorkeur aan X"},
+    ]},
+  ]},
+  {n:16,lang:"nl",track:"legacy",title:"Directions & Transportation",sub:"Getting Around",icon:"🗺️",level:"A2.2",color:"#F5A623",lessons:[
+    // ── LESSON 1: WHERE IS IT? ──
+    {id:"u16l1",title:"Where Is It?",icon:"🧭",xp:20,steps:[
+      {type:"intro",title:"Where Is It? 🧭",desc:"Never get lost again! Learn to ask for and give directions in Dutch.",goals:["Ask for directions politely","Understand direction words","Give simple directions"]},
+      {type:"teach",kind:"word",nl:"links",en:"left",img:"⬅️👈",phonetic:"links",example:"Ga naar links.",exampleEn:"Go to the left.",note:"'Links' = left. Same word as 'links' (clumsy). 'Linksaf' = turn left."},
+      {type:"teach",kind:"word",nl:"rechts",en:"right",img:"➡️👉",phonetic:"rekhts",example:"De winkel is rechts.",exampleEn:"The shop is on the right.",note:"'Rechts' = right (direction). 'Recht' = straight. Don't confuse! 'Rechtsaf' = turn right."},
+      {type:"teach",kind:"word",nl:"rechtdoor",en:"straight ahead",img:"⬆️🚶",phonetic:"rekht-DOHR",example:"Ga rechtdoor.",exampleEn:"Go straight ahead.",note:"Essential direction! 'Rechtdoor' = straight on/ahead. One word, not 'recht door'."},
+      {type:"teach",kind:"phrase",nl:"de hoek",en:"the corner",img:"🏪📐",phonetic:"duh hook",example:"Het is om de hoek.",exampleEn:"It's around the corner.",note:"'Om de hoek' = around the corner. 'Op de hoek' = on the corner."},
+      {type:"teach",kind:"phrase",nl:"het kruispunt",en:"the intersection / crossroads",img:"✖️🚦",phonetic:"ut KROWS-punt",example:"Bij het kruispunt ga je links.",exampleEn:"At the intersection you go left.",note:"'Kruispunt' = crossing point. Also: 'de kruising' (intersection)."},
+      {type:"teach",kind:"word",nl:"bij",en:"at / by / near",img:"📍🏢",phonetic:"bay",example:"Het is bij het station.",exampleEn:"It's at/near the station.",note:"'Bij' = at/by/near (location). 'Bij de supermarkt' = at/by the supermarket."},
+      {type:"teach",kind:"word",nl:"langs",en:"along / past",img:"➡️🏘️",phonetic:"langs",example:"Loop langs de gracht.",exampleEn:"Walk along the canal.",note:"'Langs' = along/past. 'Langslopen' = to walk past. 'Langs de straat' = along the street."},
+      {type:"tip",title:"🗣️ Dialogue: Asking for Directions",text:"A: Pardon, weet u waar het station is?\nB: Ja hoor! Ga rechtdoor tot het kruispunt.\nA: Oké, en dan?\nB: Dan ga je linksaf. Het station is aan je rechterhand.\nA: Is het ver lopen?\nB: Nee, ongeveer vijf minuten.\nA: Perfect, dank u wel!\nB: Graag gedaan!\n\nTranslation:\nA: Excuse me, do you know where the station is?\nB: Yes! Go straight until the intersection.\nA: Okay, and then?\nB: Then you turn left. The station is on your right-hand side.\nA: Is it far to walk?\nB: No, about five minutes.\nA: Perfect, thank you!\nB: You're welcome!"},
+      {type:"tip",title:"🧭 Giving Directions in Dutch",text:"BASIC DIRECTIONS:\n⬅️ links  -  left\n➡️ rechts  -  right\n⬆️ rechtdoor  -  straight ahead\n↩️ terug  -  back\n\nIMPERATIVE (commands):\nGa rechtdoor  -  Go straight\nNeem de eerste straat links  -  Take the first street on the left\nSteek over  -  Cross (the street)\nLoop door  -  Keep walking\n\nLANDMARKS:\nbij het station  -  at the station\nop de hoek  -  on the corner\nom de hoek  -  around the corner\nnaast de kerk  -  next to the church\ntegenover de supermarkt  -  across from the supermarket\n\nFULL EXAMPLE:\n'Ga rechtdoor, neem de tweede straat rechts, en het is aan je linkerhand.'\n= Go straight, take the second street on the right, and it's on your left-hand side."},
+      {type:"mc",q:"How do you say 'straight ahead'?",opts:["rechtdoor","rechts","recht","links"],ans:"rechtdoor",hint:"One word!"},
+      {type:"tr",mk:"u16_shop_corner",dir:"produce"},
+      {type:"fb",s:"Ga _____ en dan rechts.",a:"Rechtdoor",opts:["Rechtdoor","Links","Terug","Door"],hint:"Go STRAIGHT and then right"},
+      {type:"match",mks:["nav_left","nav_right","nav_straight","nav_corner"]},
+    ]},
+
+    // ── LESSON 2: PUBLIC TRANSPORT ──
+    {id:"u16l2",title:"Public Transport",icon:"🚆",xp:20,steps:[
+      {type:"intro",title:"Public Transport 🚆",desc:"Master Dutch public transport! Trains, buses, trams, and the essential OV-chipkaart.",goals:["Use public transport vocabulary","Buy tickets","Ask about connections"]},
+      {type:"teach",kind:"phrase",nl:"het station",en:"the station",img:"🚉🚂",phonetic:"ut stah-see-YON",example:"Ik ga naar het station.",exampleEn:"I'm going to the station.",note:"'Het station' (het-word). Amsterdam Centraal is the biggest station. 'NS' = Dutch Railways."},
+      {type:"teach",kind:"phrase",nl:"de halte",en:"the stop (bus/tram)",img:"🚏🚌",phonetic:"duh HAHL-tuh",example:"De bushalte is daar.",exampleEn:"The bus stop is there.",note:"'Halte' = stop (for bus/tram). 'Tramhalte' = tram stop. 'Bushalte' = bus stop."},
+      {type:"teach",kind:"phrase",nl:"de trein",en:"the train",img:"🚂🚃",phonetic:"duh trayn",example:"Ik neem de trein.",exampleEn:"I take the train.",note:"'De trein' (de-word). 'Met de trein' = by train. Dutch trains are punctual and frequent!"},
+      {type:"teach",kind:"word",nl:"overstappen",en:"to transfer / to change (trains/buses)",img:"🔄🚆",phonetic:"OH-vur-stah-pun",example:"Je moet overstappen in Utrecht.",exampleEn:"You have to transfer in Utrecht.",note:"Separable verb! 'Ik stap over' = I transfer. Essential for journeys with connections."},
+      {type:"teach",kind:"word",nl:"uitstappen",en:"to get off / to exit",img:"🚪👋",phonetic:"OWT-stah-pun",example:"Waar moet ik uitstappen?",exampleEn:"Where should I get off?",note:"Separable verb! 'Ik stap uit' = I get off. Opposite: 'instappen' (to get on)."},
+      {type:"teach",kind:"phrase",nl:"de OV-chipkaart",en:"the public transport chip card",img:"💳🚇",phonetic:"duh oh-fay-SKHIP-kahrt",example:"Vergeet je OV-chipkaart niet!",exampleEn:"Don't forget your OV-chipkaart!",note:"THE Dutch transport card. Check in AND out! 'Inchecken' (check in), 'uitchecken' (check out)."},
+      {type:"teach",kind:"phrase",nl:"het perron",en:"the platform",img:"🚉📍",phonetic:"ut pair-ON",example:"De trein vertrekt van perron 3.",exampleEn:"The train departs from platform 3.",note:"'Perron' = platform. From French 'perron'. 'Spoor' also used for track number."},
+      {type:"tip",title:"🗣️ Dialogue: At the Station",text:"A: Hallo, wanneer vertrekt de volgende trein naar Utrecht?\nB: Om 14:35, van perron 4.\nA: Moet ik overstappen?\nB: Nee, het is een directe trein.\nA: Perfect! Hoeveel kost een kaartje?\nB: Gebruik je OV-chipkaart?\nA: Ja.\nB: Dan is het ongeveer 8 euro.\nA: Oké, dank je! Welk perron was het?\nB: Perron 4. Goede reis!\n\nTranslation:\nA: Hello, when does the next train to Utrecht leave?\nB: At 14:35, from platform 4.\nA: Do I need to transfer?\nB: No, it's a direct train.\nA: Perfect! How much does a ticket cost?\nB: Are you using your OV-chipkaart?\nA: Yes.\nB: Then it's about 8 euros.\nA: Okay, thanks! Which platform was it?\nB: Platform 4. Have a good trip!"},
+      {type:"tip",title:"🚆 Dutch Public Transport Tips",text:"OV-CHIPKAART RULES:\n✅ ALWAYS check in AND out!\n✅ Blue poles = check in/out\n✅ Yellow readers = balance check\n❌ Forget to check out = €20 fine + max fare\n\nASKING FOR HELP:\n'Gaat deze trein naar...?'  -  Does this train go to...?\n'Waar moet ik overstappen?'  -  Where do I transfer?\n'Welk perron?'  -  Which platform?\n'Hoe laat vertrekt de trein?'  -  What time does the train leave?\n\nTRANSPORT TYPES:\nde trein  -  train (NS)\nde tram  -  tram\nde bus  -  bus\nde metro  -  metro (Amsterdam, Rotterdam)\n\nAPPS:\n9292.nl  -  Journey planner (essential!)\nNS app  -  Train times and tickets\n\nFun fact: Dutch people bike to the station, then take the train. 'Fiets + trein' combo!"},
+      {type:"mc",q:"What is 'overstappen'?",opts:["To get on","To get off","To transfer","To buy a ticket"],ans:"To transfer",hint:"Change trains/buses"},
+      {type:"tr",mk:"u16_take_train",dir:"produce"},
+      {type:"fb",s:"Vergeet niet om in en uit te _____!",a:"Checken",opts:["Checken","Stappen","Kopen","Gaan"],hint:"Check in and out!"},
+      {type:"match",mks:["nav_station","nav_transfer","nav_get_off","nav_platform"]},
+    ]},
+
+    // ── LESSON 3: BY CAR & BIKE ──
+    {id:"u16l3",title:"By Car & Bike",icon:"🚲",xp:25,steps:[
+      {type:"intro",title:"By Car & Bike 🚲",desc:"The Netherlands is THE cycling country! Learn about bikes, cars, and Dutch traffic culture.",goals:["Cycling vocabulary","Parking and traffic","Give route instructions"]},
+      {type:"teach",kind:"phrase",nl:"de fiets",en:"the bicycle / bike",img:"🚲🇳🇱",phonetic:"duh feets",example:"Ik ga op de fiets.",exampleEn:"I go by bike.",note:"THE Dutch icon! 'Op de fiets' = by bike. 'Fietsen' = to cycle. More bikes than people in NL!"},
+      {type:"teach",kind:"word",nl:"fietsen",en:"to cycle / to bike",img:"🚴‍♂️💨",phonetic:"FEET-sun",example:"Ik fiets naar mijn werk.",exampleEn:"I bike to work.",note:"Verb: 'Ik fiets, jij fietst'. Dutch people cycle in ALL weather. Rain? No problem!"},
+      {type:"teach",kind:"phrase",nl:"het fietspad",en:"the bike path / cycle lane",img:"🚲🛤️",phonetic:"ut FEETS-paht",example:"Blijf op het fietspad!",exampleEn:"Stay on the bike path!",note:"Sacred in NL! Never walk on the fietspad. Bikes have priority. Red pavement = bike path."},
+      {type:"teach",kind:"phrase",nl:"de auto",en:"the car",img:"🚗🚙",phonetic:"duh OW-toh",example:"Ik ga met de auto.",exampleEn:"I go by car.",note:"'Auto' = car. 'Met de auto' = by car. Cities are bike-friendly, cars less convenient!"},
+      {type:"teach",kind:"word",nl:"parkeren",en:"to park",img:"🅿️🚗",phonetic:"par-KAY-run",example:"Waar kan ik parkeren?",exampleEn:"Where can I park?",note:"'Parkeren' = to park. Parking in Dutch cities = expensive! €5/hour is normal."},
+      {type:"teach",kind:"phrase",nl:"de parkeerplaats",en:"the parking spot / parking lot",img:"🅿️📍",phonetic:"duh par-KAYR-plahts",example:"Ik zoek een parkeerplaats.",exampleEn:"I'm looking for a parking spot.",note:"'Parkeerplaats' = parking spot/lot. Also: 'parkeergarage' (parking garage)."},
+      {type:"teach",kind:"phrase",nl:"het stoplicht",en:"the traffic light",img:"🚦🔴",phonetic:"ut STOP-likht",example:"Bij het stoplicht ga je rechts.",exampleEn:"At the traffic light you go right.",note:"'Stoplicht' = traffic light. Red = stop! But bikes sometimes... bend the rules. 😅"},
+      {type:"tip",title:"🗣️ Dialogue: Renting a Bike",text:"A: Goedemiddag, ik wil graag een fiets huren.\nB: Natuurlijk! Voor hoelang?\nA: Eén dag.\nB: Dat kan. Heb je een helm nodig?\nA: Nee, dank je. Waar kan ik fietsen?\nB: Overal! Maar blijf op het fietspad.\nA: En waar kan ik de fiets parkeren?\nB: Bij elk fietsenrek, maar zet hem op slot!\nA: Oké, dank je wel!\n\nTranslation:\nA: Good afternoon, I'd like to rent a bike.\nB: Of course! For how long?\nA: One day.\nB: That's possible. Do you need a helmet?\nA: No, thank you. Where can I cycle?\nB: Everywhere! But stay on the bike path.\nA: And where can I park the bike?\nB: At any bike rack, but lock it!\nA: Okay, thank you!"},
+      {type:"tip",title:"🚲 Dutch Cycling Culture",text:"CYCLING FACTS:\n🚲 23 million bikes for 17 million people\n🚲 84% of Dutch people own a bike\n🚲 27% of ALL trips are by bike\n🚲 Amsterdam alone: 881,000 bikes\n\nBIKE VOCABULARY:\nde fiets  -  bike\nhet fietsenrek  -  bike rack\nhet fietsslot  -  bike lock\nde bel  -  bell (ring ring!)\nde ketting  -  chain\neen lekke band  -  flat tire\nde fietsenmaker  -  bike repair shop\n\nRULES:\n✅ Use bike paths (red pavement)\n✅ Ring your bell to warn pedestrians\n✅ Lock your bike (theft is common!)\n✅ Use lights at night (or get fined!)\n❌ Don't bike drunk (yes, it's illegal)\n\nFun: 'Bakfiets' = cargo bike (for kids/groceries)\nDutch parents bike with 3 kids + shopping. It's normal!\n\nCAR FACTS:\nParking is expensive (€3-6/hour)\nMany cities have car-free zones\nDutch prefer bikes for short trips\n'Park & Ride' = park outside, take tram in"},
+      {type:"mc",q:"What is the bike path called?",opts:["de fietsstraat","het fietspad","de fietslaan","het fietsweg"],ans:"het fietspad",hint:"Fiets + pad"},
+      {type:"tr",mk:"u16_bike_to_work",dir:"produce"},
+      {type:"fb",s:"Waar kan ik _____?",a:"Parkeren",opts:["Parkeren","Fietsen","Rijden","Stoppen"],hint:"Where can I PARK?"},
+      {type:"mc",q:"What do you MUST have on your bike at night?",opts:["A bell","Lights","A lock","A basket"],ans:"Lights",hint:"Required by law!"},
+      {type:"match",mks:["nav_bike","nav_cycle","nav_bike_path","nav_park"]},
+      {type:"gramref",title:"🗺️ Transportation Summary",level:"A2",text:"ASKING DIRECTIONS:\nWaar is...?  -  Where is...?\nHoe kom ik bij...?  -  How do I get to...?\nIs het ver?  -  Is it far?\nKan ik lopen?  -  Can I walk?\n\nGIVING DIRECTIONS:\nGa rechtdoor  -  Go straight\nNeem de eerste/tweede straat links/rechts\nSteek over  -  Cross\nHet is aan je linkerhand  -  It's on your left\n\nTRANSPORT PHRASES:\nIk ga met de trein/bus/fiets/auto\nIk neem de trein\nIk fiets erheen (I bike there)\nHoe laat vertrekt...?  -  What time does... leave?\nMoet ik overstappen?  -  Do I need to transfer?\n\nPARKING:\nWaar kan ik parkeren?\nIs er een parkeergarage?\nHoeveel kost parkeren?  -  How much is parking?"},
+    ]},
+  ]},
+  {n:17,lang:"nl",track:"legacy",title:"Shopping & Money",sub:"Buying Things",icon:"🛍️",level:"A2.2",color:"#F5A623",lessons:[
+    // ── LESSON 1: IN THE SHOP ──
+    {id:"u17l1",title:"In the Shop",icon:"🏪",xp:20,steps:[
+      {type:"intro",title:"In the Shop 🏪",desc:"Learn to shop like a local! Ask prices, try things on, and make purchases in Dutch.",goals:["Shopping vocabulary","Ask about prices","Make purchases politely"]},
+      {type:"teach",kind:"phrase",nl:"de winkel",en:"the shop / store",img:"🏪🛒",phonetic:"duh VING-kul",example:"Ik ga naar de winkel.",exampleEn:"I'm going to the shop.",note:"De-word. 'Winkelen' = to shop (verb). 'Winkelen gaan' = to go shopping."},
+      {type:"teach",kind:"word",nl:"kopen",en:"to buy",img:"💳🛍️",phonetic:"KOH-pun",example:"Ik wil deze broek kopen.",exampleEn:"I want to buy these pants.",note:"Essential shopping verb! Past: gekocht. 'Inkopen' = groceries (noun)."},
+      {type:"teach",kind:"word",nl:"verkopen",en:"to sell",img:"💰🏷️",phonetic:"vur-KOH-pun",example:"Verkopen jullie ook schoenen?",exampleEn:"Do you also sell shoes?",note:"Opposite of kopen. Past: verkocht. 'Te koop' = for sale."},
+      {type:"teach",kind:"word",nl:"kosten",en:"to cost",img:"💵❓",phonetic:"KOS-tun",example:"Hoeveel kost dit?",exampleEn:"How much does this cost?",note:"'Kosten' (verb) vs 'de kosten' (the costs/expenses). Very regular verb."},
+      {type:"teach",kind:"phrase",nl:"de prijs",en:"the price",img:"🏷️💰",phonetic:"duh prays",example:"Wat is de prijs?",exampleEn:"What is the price?",note:"De-word. 'Duur' = expensive. 'Goedkoop' = cheap. 'Prijzig' = pricey."},
+      {type:"teach",kind:"word",nl:"duur",en:"expensive",img:"💸😰",phonetic:"duhr",example:"Deze jas is te duur.",exampleEn:"This coat is too expensive.",note:"Also means 'duration'. Context tells you which! 'Duur' vs 'duurder' (more expensive)."},
+      {type:"teach",kind:"word",nl:"goedkoop",en:"cheap / inexpensive",img:"💵😊",phonetic:"GOOT-kohp",example:"Dit shirt is goedkoop.",exampleEn:"This shirt is cheap.",note:"Literally 'good-buy'! Positive meaning (unlike English 'cheap'). Opposite: duur."},
+      {type:"teach",kind:"word",nl:"betalen",en:"to pay",img:"💳✅",phonetic:"buh-TAH-lun",example:"Waar kan ik betalen?",exampleEn:"Where can I pay?",note:"'Betalen' = to pay. 'De betaling' = the payment. 'Ik betaal' = I pay."},
+      {type:"teach",kind:"word",nl:"passen",en:"to fit / to try on",img:"👔🔄",phonetic:"PAH-sun",example:"Mag ik dit passen?",exampleEn:"May I try this on?",note:"'Passen' = to fit/try on. 'De paskamer' = fitting room. 'Het past (me)' = it fits (me)."},
+      {type:"teach",kind:"phrase",nl:"de maat",en:"the size",img:"📏👕",phonetic:"duh maht",example:"Welke maat heb je?",exampleEn:"What size are you?",note:"De-word. 'Maat S/M/L' or numbers. 'Dezelfde maat' = the same size."},
+      {type:"teach",kind:"phrase",nl:"Hoeveel kost dit?",en:"How much does this cost?",img:"❓💰",phonetic:"HOO-fayl kost dit",example:"Hoeveel kost deze trui?",exampleEn:"How much does this sweater cost?",note:"PHRASE: Essential shopping question! 'Hoeveel kosten deze?' (plural). Response: '€10' or 'Tien euro'."},
+      {type:"tip",title:"🗣️ Dialogue: Clothes Shopping",text:"A: Goedemiddag! Kan ik u helpen?\nB: Ja, ik zoek een jas.\nA: Welke maat heeft u?\nB: Maat M. Mag ik deze zwarte passen?\nA: Natuurlijk! De paskamer is daar.\n[Later]\nB: Hij past perfect! Hoeveel kost hij?\nA: €79,95.\nB: Oké, ik neem hem.\nA: Wilt u pinnen of contant betalen?\nB: Pinnen, alstublieft.\n\nTranslation:\nA: Good afternoon! Can I help you?\nB: Yes, I'm looking for a coat.\nA: What size are you?\nB: Size M. May I try this black one on?\nA: Of course! The fitting room is there.\n[Later]\nB: It fits perfectly! How much does it cost?\nA: €79.95.\nB: Okay, I'll take it.\nA: Would you like to pay by card or cash?\nB: Card, please."},
+      {type:"tip",title:"🛍️ Shopping Phrases",text:"ASKING:\nHoeveel kost dit/deze?  -  How much does this cost?\nMag ik dit passen?  -  May I try this on?\nHeeft u dit in maat...?  -  Do you have this in size...?\nHeeft u andere kleuren?  -  Do you have other colors?\n\nRESPONDING:\nIk zoek...  -  I'm looking for...\nIk wil graag...  -  I would like...\nIk neem hem/haar/het  -  I'll take it\nDat is te duur  -  That's too expensive\nIk kijk even  -  I'm just looking\n\nSIZES:\nMaat S/M/L/XL  -  Size S/M/L/XL\nMaat 38, 40, 42...  -  Size 38, 40, 42...\nEen maatje groter/kleiner  -  One size bigger/smaller"},
+      {type:"mc",q:"What does 'passen' mean in a shop?",opts:["To pay","To try on","To buy","To sell"],ans:"To try on",hint:"Mag ik dit passen?"},
+      {type:"tr",mk:"u17_how_much",dir:"produce"},
+      {type:"fb",s:"Deze jas is te _____.",a:"Duur",opts:["Duur","Koop","Prijs","Winkel"],hint:"This coat is too EXPENSIVE"},
+      {type:"tr",mk:"u17_try_on",dir:"comprehend"},
+      {type:"match",mks:["shop2_buy","shop2_sell","shop2_expensive","shop2_cheap"]},
+    ]},
+
+    // ── LESSON 2: MONEY & PRICES ──
+    {id:"u17l2",title:"Money Talk",icon:"💶",xp:20,steps:[
+      {type:"intro",title:"Money Talk 💶",desc:"Handle money like a pro! Learn about euros, paying methods, and getting change.",goals:["Money vocabulary","Payment methods","Deal with prices and change"]},
+      {type:"teach",kind:"phrase",nl:"de euro",en:"the euro",img:"💶💵",phonetic:"duh UH-roh",example:"Dat kost vijf euro.",exampleEn:"That costs five euros.",note:"De-word. Currency of Netherlands (and most EU). Symbol: €. Plural: euro (no -s!)."},
+      {type:"teach",kind:"phrase",nl:"de cent",en:"the cent",img:"🪙💰",phonetic:"duh sent",example:"Vijf euro en twintig cent.",exampleEn:"Five euros and twenty cents.",note:"De-word. 100 cents = 1 euro. Often written: €5,20 (comma, not period!)."},
+      {type:"teach",kind:"word",nl:"pinnen",en:"to pay by card / to use a debit card",img:"💳✨",phonetic:"PIN-nun",example:"Kan ik pinnen?",exampleEn:"Can I pay by card?",note:"Very Dutch! 'Pinnen' = pay by card. 'De pinpas' = debit card. 'De pinautomaat' = ATM."},
+      {type:"teach",kind:"word",nl:"contant",en:"cash / in cash",img:"💵💸",phonetic:"kon-TANT",example:"Ik betaal contant.",exampleEn:"I pay cash.",note:"'Contant betalen' = pay cash. 'Contant geld' = cash money. Dutch are going cashless!"},
+      {type:"teach",kind:"phrase",nl:"het wisselgeld",en:"the change (money back)",img:"💰🔄",phonetic:"ut VIS-sul-gelt",example:"Hier is uw wisselgeld.",exampleEn:"Here is your change.",note:"Het-word. 'Wisselen' = to change/exchange. 'Wisselgeld terug' = change back."},
+      {type:"teach",kind:"phrase",nl:"de korting",en:"the discount",img:"🏷️📉",phonetic:"duh KOR-ting",example:"Er is 20% korting!",exampleEn:"There's 20% discount!",note:"De-word. 'Korting krijgen' = get discount. 'Met korting' = with discount."},
+      {type:"teach",kind:"phrase",nl:"de uitverkoop",en:"the sale / clearance sale",img:"🛍️💥",phonetic:"duh OWT-vur-kohp",example:"De uitverkoop begint morgen.",exampleEn:"The sale starts tomorrow.",note:"Literally 'out-sale'. 'Alles moet weg!' = Everything must go! Summer/winter sales are huge."},
+      {type:"teach",kind:"phrase",nl:"de kassa",en:"the cash register / checkout",img:"🏪💳",phonetic:"duh KAS-sah",example:"Betaal bij de kassa.",exampleEn:"Pay at the checkout.",note:"De-word. From Italian 'cassa'. 'Kassa 3 is open' = Checkout 3 is open."},
+      {type:"teach",kind:"phrase",nl:"het bonnetje",en:"the receipt",img:"🧾✅",phonetic:"ut BON-nuh-tyuh",example:"Wilt u een bonnetje?",exampleEn:"Would you like a receipt?",note:"Het-word. Diminutive of 'bon'. 'Het kassabonnetje' = receipt. Always ask: 'Met of zonder bonnetje?'"},
+      {type:"teach",kind:"phrase",nl:"de pinpas",en:"the debit card",img:"💳🏦",phonetic:"duh PIN-pas",example:"Ik ben mijn pinpas vergeten.",exampleEn:"I forgot my debit card.",note:"De-word. 'PIN' = Personal Identification Number. Almost everyone pins in NL!"},
+      {type:"tip",title:"🗣️ Dialogue: At the Checkout",text:"A: Dat is €24,50 alstublieft.\nB: Kan ik pinnen?\nA: Ja, natuurlijk.\n[B pins]\nA: Wilt u een bonnetje?\nB: Ja, graag.\nA: Alstublieft. Fijne dag!\nB: U ook, dank u!\n\nAt a market:\nA: Hoeveel is dit?\nB: Drie euro vijftig.\nA: Alstublieft. [Geeft €5]\nB: En hier is uw wisselgeld: €1,50.\nA: Dank u wel!\n\nTranslation:\nA: That's €24.50 please.\nB: Can I pay by card?\nA: Yes, of course.\n[B pays by card]\nA: Would you like a receipt?\nB: Yes, please.\nA: Here you go. Have a nice day!\nB: You too, thank you!\n\nAt a market:\nA: How much is this?\nB: Three fifty.\nA: Here you go. [Gives €5]\nB: And here's your change: €1.50.\nA: Thank you!"},
+      {type:"tip",title:"💶 Money in the Netherlands",text:"PAYMENT CULTURE:\n💳 95% of transactions are by card\n💵 Cash is disappearing fast\n📱 Tikkie app for splitting bills\n🏧 ATMs everywhere (geldautomaat)\n\nSAYING PRICES:\n€5  -  vijf euro\n€5,50  -  vijf euro vijftig / vijf vijftig\n€10,95  -  tien euro vijfennegentig / tien vijfennegentig\n€0,50  -  vijftig cent\n\nWRITING PRICES:\nDutch uses comma: €10,50 (not €10.50)\nThousands: €1.000 (not €1,000)\n\nCOMMON PHRASES:\nKan ik pinnen?  -  Can I pay by card?\nNeemt u contant aan?  -  Do you accept cash?\nMet of zonder bonnetje?  -  With or without receipt?\nDat is €...  -  That's €..."},
+      {type:"mc",q:"What does 'pinnen' mean?",opts:["To pay cash","To pay by card","To get a discount","To receive change"],ans:"To pay by card",hint:"Very Dutch word!"},
+      {type:"tr",mk:"u17_pay_card",dir:"produce"},
+      {type:"fb",s:"Dat kost vijf euro en twintig _____.",a:"Cent",opts:["Cent","Euro","Geld","Korting"],hint:"Five euros and twenty CENTS"},
+      {type:"mc",q:"How do you write €10.50 in Dutch?",opts:["€10.50","€10,50","€10:50","10€50"],ans:"€10,50",hint:"Comma, not period!"},
+      {type:"match",mks:["shop2_pin","shop2_cash","shop2_discount","shop2_change"]},
+    ]},
+
+    // ── LESSON 3: AT THE MARKET ──
+    {id:"u17l3",title:"At the Market",icon:"🥕",xp:25,steps:[
+      {type:"intro",title:"At the Market 🥕",desc:"Experience Dutch market culture! Buy fresh produce, ask for quantities, and haggle (a little).",goals:["Market vocabulary","Quantities and weights","Fresh food shopping"]},
+      {type:"teach",kind:"phrase",nl:"de markt",en:"the market",img:"🏪🥬",phonetic:"duh markt",example:"Ik ga naar de markt.",exampleEn:"I'm going to the market.",note:"De-word. Saturday markets are huge in NL! 'De weekmarkt' = weekly market."},
+      {type:"teach",kind:"word",nl:"vers",en:"fresh",img:"🥗✨",phonetic:"vers",example:"Verse groenten!",exampleEn:"Fresh vegetables!",note:"'Vers' = fresh (for food). 'Versgebakken brood' = freshly baked bread. Very important at markets!"},
+      {type:"teach",kind:"phrase",nl:"de groente",en:"the vegetable",img:"🥕🥬",phonetic:"duh GROON-tuh",example:"Ik koop groente op de markt.",exampleEn:"I buy vegetables at the market.",note:"De-word. Usually plural: 'groenten'. 'De groenteboer' = vegetable vendor."},
+      {type:"teach",kind:"phrase",nl:"het fruit",en:"the fruit",img:"🍎🍊",phonetic:"ut frowt",example:"Vers fruit!",exampleEn:"Fresh fruit!",note:"Het-word. From French. Collective noun (like English). 'De fruitboer' = fruit vendor."},
+      {type:"teach",kind:"phrase",nl:"een kilo",en:"a kilogram / a kilo",img:"⚖️📦",phonetic:"un KEE-loh",example:"Een kilo appels, alstublieft.",exampleEn:"A kilo of apples, please.",note:"Weight measurement. 'Een halve kilo' = half a kilo. 'Twee kilo' (no -s!)."},
+      {type:"teach",kind:"phrase",nl:"een pond",en:"a pound (500 grams)",img:"⚖️🥔",phonetic:"un pont",example:"Een pond aardappels.",exampleEn:"A pound of potatoes.",note:"Dutch pound = 500g (not British/American pound!). 'Een half pond' = 250g."},
+      {type:"teach",kind:"word",nl:"proeven",en:"to taste / to try",img:"👅😋",phonetic:"PROO-vun",example:"Mag ik proeven?",exampleEn:"May I taste it?",note:"'Proeven' = to taste/try. At markets: always ask 'Mag ik proeven?' Very normal!"},
+      {type:"teach",kind:"phrase",nl:"de kaas",en:"the cheese",img:"🧀🇳🇱",phonetic:"duh kahs",example:"Nederlandse kaas is lekker.",exampleEn:"Dutch cheese is delicious.",note:"De-word. NL is famous for cheese! Gouda, Edam, Maasdam. Markets have kaas stands."},
+      {type:"teach",kind:"phrase",nl:"de bloem",en:"the flower",img:"🌷🌸",phonetic:"duh bloom",example:"Een bos bloemen, alstublieft.",exampleEn:"A bouquet of flowers, please.",note:"De-word. 'Bloemen' = flowers (plural). Flower markets are iconic! 'Een bosje' = small bouquet."},
+      {type:"teach",kind:"grammar",nl:"Wat mag het zijn?",en:"What would you like? / What can I get you?",img:"🤗❓",phonetic:"vat mag ut zayn",example:"[Vendor:] Wat mag het zijn?",exampleEn:"[Vendor:] What would you like?",note:"PHRASE: Classic vendor greeting! Shows politeness. Literally: 'What may it be?'"},
+      {type:"tip",title:"🗣️ Dialogue: At the Market",text:"A: Goedemorgen! Wat mag het zijn?\nB: Goedemorgen! Een kilo tomaten, alstublieft.\nA: Verse tomaten vandaag! En verder?\nB: Mag ik die kaas proeven?\nA: Natuurlijk! [Geeft stukje]\nB: Hmmm, lekker! Een pond graag.\nA: Prima. Is dat alles?\nB: Ja, dat is alles. Hoeveel is het?\nA: Dat is €6,50 bij elkaar.\nB: Alstublieft.\nA: Dank u! Fijne dag!\n\nTranslation:\nA: Good morning! What would you like?\nB: Good morning! A kilo of tomatoes, please.\nA: Fresh tomatoes today! And anything else?\nB: May I taste that cheese?\nA: Of course! [Gives piece]\nB: Mmm, delicious! A pound please.\nA: Great. Is that everything?\nB: Yes, that's all. How much is it?\nA: That's €6.50 altogether.\nB: Here you go.\nA: Thank you! Have a nice day!"},
+      {type:"tip",title:"🥕 Dutch Market Culture",text:"MARKET FACTS:\n📅 Most towns have weekly markets\n🕐 Usually Wednesday or Saturday\n🥬 Best prices on produce\n🧀 Try before you buy (cheese!)\n🌷 Flower stalls everywhere\n\nQUANTITIES:\neen kilo  -  1 kg\neen pond  -  500g (Dutch pound)\neen half pond  -  250g\neen ons  -  100g (old measure, rare)\neen stuk  -  one piece\neen bosje  -  a bunch\n\nMARKET VOCABULARY:\nde kraam  -  the stall\nde marktkraam  -  market stall\nde koopman  -  the vendor\nvers  -  fresh\nbiologisch  -  organic\nseizoen  -  in season\n\nFAMOUS MARKETS:\nAlbert Cuypmarkt (Amsterdam)\nDappermarkt (Amsterdam)\nBlaak Market (Rotterdam)\n\nTIP: Markets are 30-50% cheaper than supermarkets!"},
+      {type:"mc",q:"A Dutch 'pond' is:",opts:["1 kilogram","500 grams","250 grams","1 British pound"],ans:"500 grams",hint:"Half a kilo!"},
+      {type:"tr",mk:"u17_taste",dir:"produce"},
+      {type:"fb",s:"Een _____ appels, alstublieft.",a:"Kilo",opts:["Kilo","Pond","Euro","Markt"],hint:"A KILO of apples"},
+      {type:"tr",mk:"u17_what_like",dir:"comprehend"},
+      {type:"match",mks:["shop2_fresh","shop2_taste","shop2_kilo","shop2_market"]},
+      {type:"gramref",title:"🛍️ Shopping Summary",level:"A2",text:"SHOPPING PHRASES:\nHoeveel kost dit/deze?  -  How much?\nMag ik passen?  -  May I try on?\nIk neem hem/haar/het  -  I'll take it\nKan ik pinnen?  -  Can I pay by card?\nWat mag het zijn?  -  What would you like?\n\nMONEY:\nde euro  -  euro\nde cent  -  cent\npinnen  -  pay by card\ncontant  -  cash\nhet wisselgeld  -  change\nde korting  -  discount\n\nQUANTITIES:\neen kilo  -  1 kg\neen pond  -  500g\neen stuk  -  one piece\n\nLOCATIONS:\nde winkel  -  shop\nde supermarkt  -  supermarket\nde markt  -  market\nde kassa  -  checkout\n\nDutch shopping culture: mostly cashless, markets on weekends, try cheese before buying!"},
+    ]},
+  ]},
+  
+  // ═══════════════════════════════════════════════════════════════════════
+  // UNITS 18-20: NEW DATABASE REFERENCE SYSTEM
+  // These demonstrate how lessons reference the master vocabulary database
+  // instead of embedding content directly
+  // ═══════════════════════════════════════════════════════════════════════
+  
+  {n:18,lang:"nl",track:"legacy",title:"Daily Routines",sub:"My Day",icon:"⏰",level:"A2.1",color:"#9B59B6",
+   
+   // NEW: Vocabulary list references database IDs
+   vocabulary: ["v_wakker_worden","v_opstaan","v_douchen","v_aankleden","v_ontbijten","v_werken","v_koken","v_slapen","v_lezen","v_kijken","adv_altijd","adv_vaak","adv_soms","adv_nooit","n_bed","n_dag"],
+   
+   lessons:[
+    {id:"u18l1",title:"Morning Routine",icon:"🌅",xp:20,steps:[
+      {type:"intro",title:"Morning Routine 🌅",desc:"Talk about what you do every morning! Learn essential daily routine vocabulary.",goals:["Morning activities","Tell time","Describe your routine"]},
+      
+      // NEW SYSTEM: vocab_ref points to database
+      // The app will fetch these from vocabulary_dutch.js
+      {type:"vocab_ref",id:"v_wakker_worden"},
+      {type:"vocab_ref",id:"v_opstaan"},
+      {type:"vocab_ref",id:"v_douchen"},
+      {type:"vocab_ref",id:"v_aankleden"},
+      {type:"vocab_ref",id:"v_ontbijten"},
+      
+      {type:"dialogue",title:"Morning Routine",content:"A: Hoe laat word je wakker?\nB: Meestal om 7 uur.\nA: En dan?\nB: Dan sta ik op en douche.\nA: Ontbijt je elke dag?\nB: Ja, altijd!"},
+      
+      {type:"tip",title:"⏰ Daily Structure",text:"Pattern: Ik word wakker → Ik sta op → Ik douche → Ik kleed me aan → Ik ontbijt"},
+      
+      {type:"mc",q:"What means 'to get up'?",opts:["wakker worden","opstaan","douchen","aankleden"],ans:"opstaan",hint:"After waking"},
+      {type:"tr",mk:"u18_wake_up_7",dir:"produce"},
+      {type:"match",mks:["routine_get_up","routine_shower","routine_breakfast"]},
+    ]},
+    {id:"u18l2",title:"Daily Activities",icon:"📅",xp:20,steps:[
+      {type:"intro",title:"Daily Activities 📅",desc:"What do you do during the day?",goals:["Work and activities","Frequency adverbs"]},
+      {type:"vocab_ref",id:"v_werken"},
+      {type:"vocab_ref",id:"v_studeren"},
+      {type:"vocab_ref",id:"v_sporten"},
+      {type:"vocab_ref",id:"adv_altijd"},
+      {type:"vocab_ref",id:"adv_vaak"},
+      {type:"vocab_ref",id:"adv_soms"},
+      {type:"vocab_ref",id:"adv_nooit"},
+      {type:"mc",q:"'Altijd' means:",opts:["Always","Often","Sometimes","Never"],ans:"Always",hint:"100%"},
+      {type:"match",mks:["freq_always","freq_often","freq_sometimes","freq_never"]},
+    ]},
+    {id:"u18l3",title:"Evening",icon:"🌙",xp:25,steps:[
+      {type:"intro",title:"Evening 🌙",desc:"End your day in Dutch!",goals:["Evening vocabulary","Bedtime"]},
+      {type:"vocab_ref",id:"v_kijken"},
+      {type:"vocab_ref",id:"v_lezen"},
+      {type:"vocab_ref",id:"v_slapen"},
+      {type:"vocab_ref",id:"n_bed"},
+      {type:"teach",kind:"phrase",nl:"naar bed gaan",en:"to go to bed",img:"🛏️",phonetic:"nahr bet gahn",example:"Ik ga om 11 uur naar bed.",exampleEn:"I go to bed at 11.",note:"Fixed phrase"},
+      {type:"mc",q:"How to say 'I go to bed'?",opts:["Ik ga naar bed","Ik ga op bed","Ik ga in bed","Ik ga bed"],ans:"Ik ga naar bed",hint:"Naar = to"},
+      {type:"match",mks:["routine_sleep","routine_read","routine_bed"]},
+    ]},
+  ]},
+  
+  {n:19,lang:"nl",track:"legacy",title:"Health & Body",sub:"Feeling Good",icon:"🏥",level:"A2.1",color:"#4A8FE7",
+   
+   // References to database
+   vocabulary: ["n_hoofd","n_oog","n_oor","n_hand","n_voet","adj_ziek","adj_moe","adj_gezond"],
+   
+   lessons:[
+    {id:"u19l1",title:"Body Parts",icon:"👤",xp:20,steps:[
+      {type:"intro",title:"Body Parts 👤",desc:"Learn the parts of your body in Dutch!",goals:["Body vocabulary","Describe pain"]},
+      {type:"vocab_ref",id:"n_hoofd"},
+      {type:"vocab_ref",id:"n_oog"},
+      {type:"vocab_ref",id:"n_oor"},
+      {type:"vocab_ref",id:"n_hand"},
+      {type:"vocab_ref",id:"n_voet"},
+      {type:"teach",kind:"word",nl:"pijn",en:"pain",img:"😣",phonetic:"payn",example:"Ik heb pijn.",exampleEn:"I have pain.",note:"'Pijn hebben' = to have pain. 'Hoofdpijn' = headache"},
+      {type:"mc",q:"What is 'hand' in Dutch?",opts:["de hand","het hand","der hand","die hand"],ans:"de hand",hint:"De-word"},
+      {type:"match",mks:["body2_head","body2_eye","body2_ear","body2_hand"]},
+    ]},
+    {id:"u19l2",title:"Feeling Sick",icon:"🤒",xp:20,steps:[
+      {type:"intro",title:"Feeling Sick 🤒",desc:"Talk about how you feel.",goals:["Health vocabulary","Express symptoms"]},
+      {type:"teach",kind:"word",nl:"ziek",en:"sick",img:"🤢",phonetic:"zeek",example:"Ik ben ziek.",exampleEn:"I am sick.",note:"'Zich ziek voelen' = to feel sick"},
+      {type:"teach",kind:"word",nl:"moe",en:"tired",img:"😴",phonetic:"moo",example:"Ik ben moe.",exampleEn:"I'm tired.",note:"Very common! 'Doodmoe' = exhausted"},
+      {type:"teach",kind:"phrase",nl:"de dokter",en:"the doctor",img:"👨‍⚕️",phonetic:"duh DOK-tur",example:"Ik ga naar de dokter.",exampleEn:"I'm going to the doctor.",note:"De-word"},
+      {type:"mc",q:"'Ik ben ziek' means:",opts:["I am sick","I am tired","I am happy","I am hungry"],ans:"I am sick",hint:"Not feeling well"},
+      {type:"tr",mk:"u19_headache",dir:"produce"},
+    ]},
+    {id:"u19l3",title:"Staying Healthy",icon:"💪",xp:25,steps:[
+      {type:"intro",title:"Staying Healthy 💪",desc:"Talk about health and wellness.",goals:["Healthy habits","Give advice"]},
+      {type:"vocab_ref",id:"v_sporten"},
+      {type:"teach",kind:"word",nl:"gezond",en:"healthy",img:"🥗",phonetic:"guh-ZONT",example:"Groenten zijn gezond.",exampleEn:"Vegetables are healthy.",note:"'Gezonde voeding' = healthy food"},
+      {type:"teach",kind:"word",nl:"bewegen",en:"to move, to exercise",img:"🏃",phonetic:"buh-VAY-gun",example:"Bewegen is belangrijk.",exampleEn:"Exercise is important.",note:"Literally 'to move'"},
+      {type:"mc",q:"'Gezond' means:",opts:["Sick","Tired","Healthy","Hungry"],ans:"Healthy",hint:"Good for you"},
+      {type:"match",mks:["health_healthy","health_sport","health_move"]},
+    ]},
+  ]},
+  
+  {n:20,lang:"nl",track:"legacy",title:"Simple Past",sub:"Telling Stories",icon:"📖",level:"A2.2",color:"#2ECDA7",
+   
+   grammar: ["g_imperfect_tense"],
+   
+   lessons:[
+    {id:"u20l1",title:"Past Tense Intro",icon:"⏮️",xp:20,steps:[
+      {type:"intro",title:"Past Tense ⏮️",desc:"Talk about what you did! Learn the simple past (imperfect).",goals:["Imperfect tense","Regular verbs in past","Tell simple stories"]},
+      {type:"teach",kind:"word",nl:"was",en:"was",img:"⏮️",phonetic:"vas",example:"Ik was moe.",exampleEn:"I was tired.",note:"Past of 'zijn'. Was/waren"},
+      {type:"teach",kind:"word",nl:"had",en:"had",img:"📦⏮️",phonetic:"hat",example:"Ik had tijd.",exampleEn:"I had time.",note:"Past of 'hebben'. Had/hadden"},
+      {type:"tip",title:"📚 Imperfect Tense",text:"FORMATION:\nRegular verbs: stem + -te/-de or -ten/-den\n\nIk werkte  -  I worked\nWe werkten  -  We worked\n\nUse -te after: p,t,k,f,s,ch (SOFT KETCHUP)\nOtherwise use -de\n\nwerken → werkte\nleven → leefde"},
+      {type:"mc",q:"Past of 'zijn' (I was):",opts:["ik was","ik ben","ik had","ik word"],ans:"ik was",hint:"Was/waren"},
+      {type:"tr",mk:"u20_was_tired",dir:"produce"},
+    ]},
+    {id:"u20l2",title:"Regular Past",icon:"📝",xp:20,steps:[
+      {type:"intro",title:"Regular Past 📝",desc:"Form the past tense of regular verbs.",goals:["Regular imperfect","Tell about yesterday"]},
+      {type:"teach",kind:"word",nl:"werkte",en:"worked",img:"💼⏮️",phonetic:"VERK-tuh",example:"Ik werkte gisteren.",exampleEn:"I worked yesterday.",note:"Regular past: werk + te"},
+      {type:"teach",kind:"word",nl:"woonde",en:"lived",img:"🏠⏮️",phonetic:"VOHN-duh",example:"Ik woonde in Amsterdam.",exampleEn:"I lived in Amsterdam.",note:"Regular past: woon + de"},
+      {type:"mc",q:"Past of 'werken':",opts:["werkte","werken","gewerkt","werkt"],ans:"werkte",hint:"Add -te"},
+      {type:"match",mks:["simp_past_worked","simp_past_lived","simp_past_was"]},
+    ]},
+    {id:"u20l3",title:"Telling Stories",icon:"📚",xp:25,steps:[
+      {type:"intro",title:"Telling Stories 📚",desc:"Put it all together and tell about the past!",goals:["Combine past tenses","Tell coherent stories"]},
+      {type:"dialogue",title:"Yesterday",content:"A: Wat deed je gisteren?\nB: Ik werkte tot 5 uur.\nA: En daarna?\nB: Ik ging naar huis en kookte.\nA: Was het lekker?\nB: Ja, heel lekker!"},
+      {type:"tip",title:"📖 Past Tense Mix",text:"PERFECT vs IMPERFECT:\n\nPerfect (hebben/zijn + participle):\n→ Completed actions\n→ Ik heb gewerkt\n\nImperfect (simple past):\n→ Ongoing/habitual past\n→ Ik werkte\n→ Storytelling\n\nBoth are used in Dutch!"},
+      {type:"tr",mk:"u20_lived_amsterdam",dir:"produce"},
+      {type:"match",mks:["time_yesterday","time_last_week","time_then"]},
+    ]},
+  ]},
+  {n:21,lang:"nl",track:"legacy",title:"News & Events",sub:"Current Affairs",icon:"📰",level:"B1.1",color:"#4A8FE7",lessons:[
+    {id:"u21l1",title:"In het Nieuws",icon:"📺",xp:20,steps:[
+      {type:"intro",title:"In het Nieuws 📺",desc:"Read Dutch headlines and discuss current events.",goals:["News vocabulary","Understand headlines","Discuss events"]},
+      {type:"teach",kind:"phrase",nl:"het nieuws",en:"the news",img:"📺📰",phonetic:"ut neeoos",example:"Heb je het nieuws gezien?",exampleEn:"Have you seen the news?",note:"A het-word. 'Het Journaal' = main evening news (NOS). 'Goed/slecht nieuws' = good/bad news."},
+      {type:"teach",kind:"phrase",nl:"de krant",en:"the newspaper",img:"📰☕",phonetic:"duh krant",example:"Ik lees elke dag de krant.",exampleEn:"I read the newspaper every day.",note:"A de-word. Major papers: de Volkskrant, NRC, Trouw, De Telegraaf, AD."},
+      {type:"teach",kind:"phrase",nl:"het artikel",en:"the article",img:"📝📰",phonetic:"ut ar-TEE-kul",example:"Dit artikel is interessant.",exampleEn:"This article is interesting.",note:"A het-word. 'Een artikel lezen/schrijven' = to read/write an article."},
+      {type:"teach",kind:"phrase",nl:"de regering",en:"the government",img:"🏛️🇳🇱",phonetic:"duh ruh-GAY-ring",example:"De regering wil meer banen.",exampleEn:"The government wants more jobs.",note:"'Regeren' = to govern. 'De minister-president' = prime minister. Always a coalition!"},
+      {type:"teach",kind:"phrase",nl:"de samenleving",en:"society",img:"👥🌍",phonetic:"duh SAH-men-lay-ving",example:"Het is een probleem voor de samenleving.",exampleEn:"It is a problem for society.",note:"Literally 'living-together'. Beautiful Dutch word. 'Samen' = together."},
+      {type:"teach",kind:"word",nl:"interessant",en:"interesting",img:"🧐💡",phonetic:"in-tuh-reh-SAHNT",example:"Dat is een interessant onderwerp.",exampleEn:"That's an interesting subject.",note:"Stress on last syllable! 'Oninteressant' = uninteresting."},
+      {type:"tip",title:"📰 Dutch media for learners",text:"Great for learning Dutch:\n\n📱 NU.nl  -  simple, short articles (PERFECT for B1!)\n📺 NOS Journaal in Makkelijke Taal (Easy Language)\n📰 de Volkskrant, NRC  -  quality papers\n\nHeadline words:\n• 'meer/minder' = more/fewer\n• 'weer' = again\n• 'nieuw' = new\n• 'vandaag' = today\n• 'verwacht' = expected\n\n💡 TIP: Read NU.nl every day  -  even 1 article helps!"},
+      {type:"mc",q:"'De krant' is:",opts:["The magazine","The newspaper","The internet","The TV show"],ans:"The newspaper",hint:"Paper news"},
+      {type:"tr",mk:"u21_seen_news",dir:"produce"},
+      {type:"tr",mk:"u21_article_interesting",dir:"comprehend"},
+      {type:"fb",s:"Ik lees elke dag de _____.",a:"Krant",opts:["Krant","Nieuws","Boek","Brief"],hint:"The newspaper"},
+      {type:"match",mks:["news_news","news_paper","news_govt","news_interesting"]},
+    ]},
+    {id:"u21l2",title:"What Happened?",icon:"🗞️",xp:20,steps:[
+      {type:"intro",title:"What Happened? 🗞️",desc:"Learn 'er is/er zijn', 'omdat' + verb at end, and cause-effect language.",goals:["Event vocabulary","'Omdat' + verb at end","Cause and effect"]},
+      {type:"teach",kind:"phrase",nl:"er is / er zijn",en:"there is / there are",img:"👉📍",phonetic:"air is / air zayn",example:"Er is een probleem.",exampleEn:"There is a problem.",note:"'Er is' + singular, 'er zijn' + plural. 'Er' = 'there'. One of the trickiest Dutch words!"},
+      {type:"teach",kind:"phrase",nl:"het probleem",en:"the problem",img:"⚠️🤔",phonetic:"ut proh-BLAYM",example:"Er is een groot probleem.",exampleEn:"There is a big problem.",note:"A het-word. Plural: 'problemen'. 'Een probleem oplossen' = to solve a problem."},
+      {type:"teach",kind:"phrase",nl:"de oplossing",en:"the solution",img:"💡✅",phonetic:"duh OP-los-sing",example:"We moeten een oplossing vinden.",exampleEn:"We need to find a solution.",note:"From 'oplossen' (to solve). Very useful in formal contexts!"},
+      {type:"teach",kind:"word",nl:"veranderen",en:"to change",img:"🔄✨",phonetic:"vur-AN-duh-run",example:"Het klimaat verandert.",exampleEn:"The climate is changing.",note:"'De verandering' = the change. 'Er verandert veel' = A lot is changing."},
+      {type:"teach",kind:"phrase",nl:"het besluit",en:"the decision",img:"⚖️✅",phonetic:"ut buh-SLOWT",example:"De regering heeft een besluit genomen.",exampleEn:"The government made a decision.",note:"'Besluiten' = to decide. 'Een besluit nemen' = to make a decision."},
+      {type:"teach",kind:"word",nl:"omdat",en:"because (verb to end!)",img:"🔗💡",phonetic:"om-DAT",example:"Ik blijf thuis omdat ik ziek ben.",exampleEn:"I'm staying home because I'm sick.",note:"'Omdat' sends the verb to END! 'Omdat ik ziek BEN' (not 'omdat ik ben ziek'). B1-essential!"},
+      {type:"gramref",title:"🔄 Omdat + verb at end",level:"B1",text:"'Omdat' (because)  -  verb goes to END:\n\n✅ Ik blijf thuis omdat ik ziek BEN.\n❌ Ik blijf thuis omdat ik BEN ziek.\n\n✅ Hij werkt hard omdat hij geld nodig HEEFT.\n❌ Hij werkt hard omdat hij HEEFT geld nodig.\n\nAlso: dat, als, wanneer, terwijl, hoewel\nSee Grammar tab → B1 → Subordinate Clauses"},
+      {type:"mc",q:"'Er is een probleem' means:",opts:["It is a problem","There is a problem","This is a problem","That is a problem"],ans:"There is a problem",hint:"Er = there"},
+      {type:"mc",q:"Correct word order?",opts:["Omdat ik ben ziek","Omdat ik ziek ben","Omdat ben ik ziek","Ik omdat ziek ben"],ans:"Omdat ik ziek ben",hint:"Verb to END after omdat"},
+      {type:"tr",mk:"u21_find_solution",dir:"produce"},
+      {type:"fb",s:"Ik blijf thuis _____ ik ziek ben.",a:"Omdat",opts:["Omdat","Want","Dus","Maar"],hint:"BECAUSE (verb to end!)"},
+      {type:"match",mks:["news_problem","news_solution","news_change","news_because"]},
+    ]},
+    {id:"u21l3",title:"In My View",icon:"📣",xp:25,steps:[
+      {type:"intro",title:"In My View 📣",desc:"Form complex opinions and justify them. Your Dutch starts sounding adult here.",goals:["Complex opinion phrases","Justify with examples","Formal discussion"]},
+      {type:"teach",kind:"phrase",nl:"het onderwerp",en:"the subject/topic",img:"📋🎯",phonetic:"ut ON-dur-vairp",example:"Dat is een moeilijk onderwerp.",exampleEn:"That's a difficult subject.",note:"A het-word. 'Van onderwerp veranderen' = to change the subject."},
+      {type:"teach",kind:"word",nl:"uitleggen",en:"to explain",img:"👨‍🏫💬",phonetic:"OWT-leg-gun",example:"Kun je dat uitleggen?",exampleEn:"Can you explain that?",note:"Separable! 'Ik leg het uit.' 'De uitleg' = the explanation."},
+      {type:"teach",kind:"phrase",nl:"het voorbeeld",en:"the example",img:"📖👉",phonetic:"ut VOHR-baylt",example:"Kun je een voorbeeld geven?",exampleEn:"Can you give an example?",note:"'Bijvoorbeeld' (bijv.) = for example. Very common!"},
+      {type:"teach",kind:"word",nl:"eigenlijk",en:"actually/really",img:"🤔💡",phonetic:"AY-gun-luk",example:"Eigenlijk vind ik dat niet.",exampleEn:"Actually, I don't think so.",note:"THE hedge word. 'Eigenlijk wel' = actually yes. 'Eigenlijk niet' = not really. Used constantly!"},
+      {type:"teach",kind:"word",nl:"daarom",en:"therefore/that's why",img:"➡️💡",phonetic:"DAHR-om",example:"Het regent, daarom blijf ik thuis.",exampleEn:"It's raining, that's why I stay home.",note:"'Waarom? Daarom!' = Why? Just because! Normal word order after daarom."},
+      {type:"teach",kind:"word",nl:"bijvoorbeeld",en:"for example",img:"📝👉",phonetic:"bay-VOHR-baylt",example:"Er zijn veel steden, bijvoorbeeld Amsterdam.",exampleEn:"There are many cities, for example Amsterdam.",note:"Abbreviated: bijv. Literally 'by example'. Essential for explanations."},
+      {type:"tip",title:"🎯 Building an argument",text:"1️⃣ STATE YOUR OPINION:\n• Ik vind dat...  -  I think that...\n• Volgens mij...  -  In my opinion...\n\n2️⃣ GIVE A REASON:\n• Omdat...  -  Because (verb to end!)\n• Want...  -  Because (normal word order!)\n• Daarom...  -  Therefore...\n\n3️⃣ GIVE AN EXAMPLE:\n• Bijvoorbeeld...  -  For example...\n\n4️⃣ CONCLUDE:\n• Dus...  -  So...\n\n⚠️ OMDAT vs WANT:\nOmdat → verb to END\nWant → normal word order"},
+      {type:"mc",q:"'Eigenlijk' is used to:",opts:["Strongly agree","Soften with 'actually'","Ask a question","Change subject"],ans:"Soften with 'actually'",hint:"A hedge word"},
+      {type:"tr",mk:"u21_explain_that",dir:"produce"},
+      {type:"tr",mk:"u21_raining_stay_home",dir:"comprehend"},
+      {type:"fb",s:"Kun je een _____ geven?",a:"Voorbeeld",opts:["Voorbeeld","Uitleg","Antwoord","Probleem"],hint:"Can you give an EXAMPLE?"},
+      {type:"match",mks:["news_explain","news_example","news_actually","news_therefore"]},
+    ]},
+  ]},
+
+  {n:22,lang:"nl",track:"legacy",title:"Professional Dutch",sub:"Emails & Calls",icon:"📧",level:"B1.1",color:"#F5A623",lessons:[
+    {id:"u22l1",title:"Writing Emails",icon:"📧",xp:20,steps:[
+      {type:"intro",title:"Writing Emails 📧",desc:"Dutch email culture is more direct than English. Learn the formulas!",goals:["Email greetings/closings","Formal vs informal","Common phrases"]},
+      {type:"teach",kind:"word",nl:"Beste",en:"Dear (formal email)",img:"📧🎩",phonetic:"BES-tuh",example:"Beste mevrouw Jansen,",exampleEn:"Dear Mrs Jansen,",note:"THE formal opening. Very formal: 'Geachte heer/mevrouw'."},
+      {type:"teach",kind:"phrase",nl:"Met vriendelijke groet",en:"Kind regards",img:"✍️🤝",phonetic:"met VREEN-duh-luh-kuh groot",example:"Met vriendelijke groet, Anna",exampleEn:"Kind regards, Anna",note:"THE standard formal closing. Informal: 'Groetjes' or just 'Gr,'."},
+      {type:"teach",kind:"phrase",nl:"de bijlage",en:"the attachment",img:"📎📄",phonetic:"duh BAY-lah-guh",example:"Zie de bijlage.",exampleEn:"See the attachment.",note:"'In de bijlage vindt u...' = In the attachment you will find... 'Bijgevoegd' = attached."},
+      {type:"teach",kind:"word",nl:"reageren",en:"to respond/react",img:"↩️💬",phonetic:"ray-AH-gay-run",example:"Kunt u zo snel mogelijk reageren?",exampleEn:"Could you respond ASAP?",note:"'Een reactie' = a response. Also works for reactions to news."},
+      {type:"teach",kind:"phrase",nl:"Alvast bedankt",en:"Thanks in advance",img:"🙏✨",phonetic:"AL-vast buh-DANKT",example:"Alvast bedankt voor uw hulp.",exampleEn:"Thanks in advance for your help.",note:"Very common Dutch email phrase! Normal in Dutch, slightly presumptuous in English."},
+      {type:"teach",kind:"phrase",nl:"het verzoek",en:"the request",img:"📋🙏",phonetic:"ut vur-ZOOK",example:"Ik heb een verzoek.",exampleEn:"I have a request.",note:"'Verzoeken' = to request (formal). More formal than 'vragen'."},
+      {type:"tip",title:"📧 Dutch email templates",text:"FORMAL:\nGeachte heer/mevrouw,\n[content]\nMet vriendelijke groet, [name]\n\nSEMI-FORMAL:\nBeste [name],\n[content]\nMet vriendelijke groet, [name]\n\nINFORMAL:\nHoi [name],\n[content]\nGroetjes / Gr, [name]\n\nUSEFUL:\n• Naar aanleiding van...  -  Regarding...\n• Zie de bijlage  -  See attachment\n• Alvast bedankt  -  Thanks in advance\n• In afwachting van uw reactie  -  Awaiting your response\n\nDutch emails are shorter and more direct!"},
+      {type:"mc",q:"Standard formal closing is:",opts:["Met vriendelijke groet","Groetjes","Doei","Alvast bedankt"],ans:"Met vriendelijke groet",hint:"Kind regards"},
+      {type:"tr",mk:"u22_see_attachment",dir:"produce"},
+      {type:"tr",mk:"u22_thanks_advance",dir:"comprehend"},
+      {type:"fb",s:"_____ mevrouw Jansen,",a:"Beste",opts:["Beste","Hoi","Hallo","Dag"],hint:"Dear (formal)"},
+      {type:"match",mks:["prof_dear","prof_attachment","prof_respond","prof_regards"]},
+    ]},
+    {id:"u22l2",title:"On the Phone",icon:"📞",xp:20,steps:[
+      {type:"intro",title:"On the Phone 📞",desc:"Dutch phone etiquette is unique  -  they answer with their last name!",goals:["Phone vocabulary","Dutch phone etiquette","Leave a message"]},
+      {type:"teach",kind:"phrase",nl:"Met [naam]",en:"[Name] speaking",img:"📞👤",phonetic:"met [nahm]",example:"Met de Vries.",exampleEn:"De Vries speaking.",note:"Dutch answer: 'Met [last name].' NOT 'Hallo?' At work: 'Goedemorgen, u spreekt met [name].'"},
+      {type:"teach",kind:"phrase",nl:"Mag ik [naam] spreken?",en:"May I speak to [name]?",img:"📞🗣️",phonetic:"mahg ik [nahm] SPRAY-kun",example:"Mag ik meneer Bakker spreken?",exampleEn:"May I speak to Mr Bakker?",note:"'Ik verbind u door' = I'll put you through. 'Een ogenblikje' = one moment."},
+      {type:"teach",kind:"phrase",nl:"een bericht achterlaten",en:"to leave a message",img:"📝📞",phonetic:"un buh-RIGT AG-tur-lah-tun",example:"Kan ik een bericht achterlaten?",exampleEn:"Can I leave a message?",note:"'Het bericht' = the message. 'Kunt u hem vragen mij terug te bellen?'"},
+      {type:"teach",kind:"word",nl:"terugbellen",en:"to call back",img:"📞🔄",phonetic:"tuh-RUG-bel-un",example:"Ik bel u morgen terug.",exampleEn:"I'll call you back tomorrow.",note:"Separable! 'Ik bel terug.' 'Ik heb teruggebeld' = I called back."},
+      {type:"teach",kind:"grammar",nl:"het telefoonnummer",en:"the phone number",img:"📱🔢",phonetic:"ut tay-luh-FOHN-nuh-mur",example:"Wat is uw telefoonnummer?",exampleEn:"What is your phone number?",note:"A het-word. Dutch numbers: +31 then area code. '06' = mobile prefix."},
+      {type:"teach",kind:"phrase",nl:"in gesprek",en:"on the phone / busy",img:"📞🔴",phonetic:"in guh-SPREK",example:"Sorry, hij is in gesprek.",exampleEn:"Sorry, he's on the phone.",note:"'Het gesprek' = the conversation. 'Een telefoongesprek' = a phone call."},
+      {type:"tip",title:"📞 Dutch phone culture",text:"1️⃣ ANSWER WITH LAST NAME:\n'Met Jansen.' NOT 'Hallo?'\n\n2️⃣ AT WORK:\n'Goedemorgen, [company], u spreekt met [name].'\n\n3️⃣ ENDING:\n'Tot ziens!' / 'Dag!' (formal)\n'Doei!' / 'Hoi hoi!' (casual)\n\n4️⃣ USEFUL:\n• Een ogenblikje  -  One moment\n• Ik verbind u door  -  I'll transfer you\n• Kunt u dat herhalen?  -  Could you repeat?\n• De verbinding is slecht  -  Bad connection"},
+      {type:"mc",q:"How do Dutch people answer the phone?",opts:["Hallo?","Ja?","Met [last name]","Wie is daar?"],ans:"Met [last name]",hint:"NOT 'Hallo?'"},
+      {type:"tr",mk:"u22_leave_message",dir:"produce"},
+      {type:"tr",mk:"u22_call_back",dir:"comprehend"},
+      {type:"fb",s:"Sorry, hij is in _____.",a:"Gesprek",opts:["Gesprek","Vergadering","Kantoor","Huis"],hint:"He's on the phone"},
+      {type:"match",mks:["prof_call_back","prof_message","prof_on_phone","prof_phone_num"]},
+    ]},
+    {id:"u22l3",title:"Asking Politely",icon:"🙏",xp:25,steps:[
+      {type:"intro",title:"Asking Politely 🙏",desc:"The Dutch are direct, but there IS a polite register. Master 'zou' and 'even'.",goals:["Polite request forms","'Zou u...' pattern","The magic word 'even'"]},
+      {type:"teach",kind:"grammar",nl:"Zou u...?",en:"Would you...? (formal)",img:"🙏🎩",phonetic:"zow oo",example:"Zou u dat kunnen herhalen?",exampleEn:"Would you be able to repeat that?",note:"THE polite request formula. 'Zou' = would (conditional of 'zullen')."},
+      {type:"teach",kind:"grammar",nl:"Kun je...?",en:"Can you...? (informal)",img:"🤝❓",phonetic:"kun yuh",example:"Kun je me helpen?",exampleEn:"Can you help me?",note:"Informal version. 'Kunt u' = formal. Add 'alsjeblieft' for extra politeness."},
+      {type:"teach",kind:"phrase",nl:"nodig hebben",en:"to need",img:"📋❗",phonetic:"NOH-dug HEB-bun",example:"Ik heb hulp nodig.",exampleEn:"I need help.",note:"Word order: 'Ik heb [thing] nodig.' 'Nodig' goes to END! 'Wat heb je nodig?'"},
+      {type:"teach",kind:"word",nl:"hulp",en:"help",img:"🤝🆘",phonetic:"hulp",example:"Dank je voor je hulp!",exampleEn:"Thank you for your help!",note:"'Hulp nodig?' = Need help? 'Kunt u mij helpen?' = Can you help me?"},
+      {type:"teach",kind:"phrase",nl:"het formulier",en:"the form",img:"📋✍️",phonetic:"ut for-moo-LEER",example:"Kunt u dit formulier invullen?",exampleEn:"Could you fill in this form?",note:"'Invullen' = to fill in. You'll encounter MANY forms in NL!"},
+      {type:"teach",kind:"word",nl:"even",en:"just/quickly/moment",img:"⏱️✨",phonetic:"AY-vun",example:"Kun je even wachten?",exampleEn:"Can you just wait a moment?",note:"Makes ANY request lighter! 'Ik kijk even' = I'll just look. Most versatile Dutch softener!"},
+      {type:"tip",title:"🙏 Dutch politeness scale",text:"Most → least formal:\n\n🎩 Zou u zo vriendelijk willen zijn om...  -  Would you be so kind as to...\n👔 Zou u... kunnen?  -  Would you be able to?\n👔 Kunt u... alstublieft?  -  Could you please?\n😊 Kun je... alsjeblieft?  -  Can you please?\n😊 Mag ik...?  -  May I...?\n🤝 Kun je even...?  -  Can you just...?\n\n💡 Magic word: 'even'\nMakes ANY request lighter:\n'Kun je even wachten?' = Can you just wait a sec?"},
+      {type:"mc",q:"'Ik heb hulp nodig'  -  where does 'nodig' go?",opts:["Before 'hulp'","After 'hulp' (end)","Before 'heb'","After 'ik'"],ans:"After 'hulp' (end)",hint:"Ik heb [thing] NODIG"},
+      {type:"tr",mk:"u22_help_me",dir:"produce"},
+      {type:"tr",mk:"u22_wait_moment",dir:"comprehend"},
+      {type:"fb",s:"Ik heb hulp _____.",a:"Nodig",opts:["Nodig","Graag","Nu","Hier"],hint:"I NEED help"},
+      {type:"match",mks:["prof_would_you","prof_need","prof_help","prof_moment"]},
+    ]},
+  ]},
+
+  {n:23,lang:"nl",track:"legacy",title:"Like a Local",sub:"Natural Dutch",icon:"🏆",level:"B1.2",color:"#2ECDA7",lessons:[
+    {id:"u23l1",title:"Expressions",icon:"🗣️",xp:20,steps:[
+      {type:"intro",title:"Dutch Expressions 🗣️",desc:"Phrases textbooks skip but every Dutch person uses daily.",goals:["Essential expressions","Sound natural","Common filler words"]},
+      {type:"teach",kind:"word",nl:"Nou...",en:"Well...",img:"🤔💬",phonetic:"now",example:"Nou, ik weet het niet.",exampleEn:"Well, I don't know.",note:"THE Dutch filler word. Half of all Dutch sentences start with 'Nou...'"},
+      {type:"teach",kind:"word",nl:"Toch?",en:"Right?/Isn't it?",img:"❓🤝",phonetic:"tog",example:"Het is mooi weer, toch?",exampleEn:"It's nice weather, right?",note:"Tag question. 'Je komt toch?' = You're coming, right? 'Toch niet!' = Surely not!"},
+      {type:"teach",kind:"phrase",nl:"Laat maar",en:"Never mind/Forget it",img:"😊👋",phonetic:"laht mahr",example:"Laat maar, het is niet belangrijk.",exampleEn:"Never mind, it's not important.",note:"'Laat maar zitten' = don't worry about it. Can be dismissive or reassuring."},
+      {type:"teach",kind:"phrase",nl:"Zeg maar",en:"So to speak/Like",img:"🤷💬",phonetic:"zeg mahr",example:"Het is zeg maar mijn hobby.",exampleEn:"It's, like, my hobby.",note:"THE Dutch 'like'. Young people use it constantly! Fills gaps in speech."},
+      {type:"teach",kind:"grammar",nl:"best wel",en:"quite/pretty (much)",img:"👍📊",phonetic:"best vel",example:"Het is best wel ver.",exampleEn:"It's quite far.",note:"Understatement marker. If they say 'best wel goed', it's probably excellent!"},
+      {type:"teach",kind:"word",nl:"gewoon",en:"just/simply/normal",img:"🤷✨",phonetic:"guh-VOHN",example:"Doe maar gewoon.",exampleEn:"Just act normal.",note:"Super common. 'Gewoon doen' = just do it. 'Dat is gewoon zo' = That's just how it is."},
+      {type:"tip",title:"🗣️ Sound like a local",text:"FILLER WORDS (use these!):\n• Nou...  -  Well...\n• Zeg maar  -  Like\n• Eigenlijk  -  Actually\n• Even  -  Just/quickly\n• Gewoon  -  Just/simply\n• Best wel  -  Quite/pretty\n\nREACTIONS:\n• Toch?  -  Right?\n• Precies!  -  Exactly!\n• Klopt!  -  That's right!\n\nDUTCH SOUNDS:\n• 'Ja ja' (uh-huh, listening)\n• 'Zo zo' (well well)\n• 'Tja...' (well... what can you do)\n• 'Pfff' (frustration)\n\nUse these and Dutch people forget you're foreign!"},
+      {type:"mc",q:"'Best wel goed' probably REALLY means:",opts:["Average","Bad","Excellent","Okay"],ans:"Excellent",hint:"Dutch understatement!"},
+      {type:"mc",q:"'Nou...' is used to:",opts:["Say no","Buy thinking time","End conversation","Disagree"],ans:"Buy thinking time",hint:"THE Dutch filler"},
+      {type:"tr",mk:"u23_nice_weather",dir:"comprehend"},
+      {type:"fb",s:"_____, ik weet het niet.",a:"Nou",opts:["Nou","Ja","Nee","Toch"],hint:"WELL, I don't know"},
+      {type:"match",mks:["local_well","local_right","local_never_mind","local_like"]},
+    ]},
+    {id:"u23l2",title:"Spreekwoorden",icon:"📖",xp:20,steps:[
+      {type:"intro",title:"Spreekwoorden 📖",desc:"Dutch proverbs reveal how the Dutch think. Water, weather, and being practical!",goals:["Famous Dutch sayings","Cultural meanings","Use them naturally"]},
+      {type:"teach",kind:"phrase",nl:"Doe maar gewoon",en:"Just act normal",img:"😐🇳🇱",phonetic:"doo mahr guh-VOHN",example:"Doe maar gewoon, dan doe je al gek genoeg.",exampleEn:"Just act normal, that's crazy enough.",note:"THE Dutch saying. Don't show off, be yourself. Deeply Calvinist. THE one to learn."},
+      {type:"teach",kind:"phrase",nl:"Niet lullen, maar poetsen",en:"Less talk, more action",img:"💪🧹",phonetic:"neet LUL-un mahr POOT-sun",example:"Rotterdam's motto: Niet lullen, maar poetsen!",exampleEn:"Rotterdam's motto: Less talk, more action!",note:"Slightly crude ('lullen' is informal). Very Dutch: pragmatic, direct, productive."},
+      {type:"teach",kind:"phrase",nl:"Helaas pindakaas",en:"Too bad! (rhyming)",img:"😅🥜",phonetic:"hay-LAHS PIN-dah-kahs",example:"Geen kaartjes meer? Helaas pindakaas!",exampleEn:"No more tickets? Too bad!",note:"Playful! 'Pindakaas' (peanut butter) just for the rhyme. Like 'see you later, alligator'."},
+      {type:"teach",kind:"phrase",nl:"Gezelligheid kent geen tijd",en:"Coziness knows no time",img:"☕🕯️⏰",phonetic:"guh-ZEL-ug-hayt kent gayn tayt",example:"Het is al middernacht? Gezelligheid kent geen tijd!",exampleEn:"Midnight already? When it's cozy, time flies!",note:"Ultimate Dutch compliment for an evening together."},
+      {type:"teach",kind:"phrase",nl:"Op de fiets",en:"By bike",img:"🚲🇳🇱",phonetic:"op duh feets",example:"Ik ga op de fiets naar werk.",exampleEn:"I go to work by bike.",note:"THE Dutch way. 18 million people, 23 million bikes. Rain? Still op de fiets. Snow? Still op de fiets."},
+      {type:"teach",kind:"phrase",nl:"Met de deur in huis vallen",en:"Get straight to the point",img:"🚪💨",phonetic:"met duh duhr in hows FAL-un",example:"Ik val maar met de deur in huis.",exampleEn:"I'll get straight to the point.",note:"Literally: fall into the house with the door. No beating around the bush!"},
+      {type:"tip",title:"📖 More Dutch sayings",text:"WATER & WEATHER:\n🌊 Na regen komt zonneschijn  -  After rain, sunshine\n🌊 Je hoofd boven water houden  -  Keep head above water\n\nPRACTICAL:\n🧀 Dat is andere koek  -  Different matter\n💰 Boter bij de vis  -  Money where your mouth is\n\nANIMALS:\n🐔 Met de kippen op stok  -  Going to bed early\n🐱 De kat uit de boom kijken  -  Wait and see\n\nFOOD:\n🍪 Dat is koek en ei  -  Piece of cake\n🥧 Door de zure appel heen bijten  -  Bite the bullet"},
+      {type:"mc",q:"'Doe maar gewoon' reflects:",opts:["Be humble/don't show off","Work hard","Save money","Speak English"],ans:"Be humble/don't show off",hint:"The #1 Dutch rule"},
+      {type:"tr",mk:"u23_too_bad",dir:"comprehend"},
+      {type:"fb",s:"Niet lullen, maar _____!",a:"Poetsen",opts:["Poetsen","Praten","Werken","Lachen"],hint:"Less talk, more ACTION"},
+      {type:"match",mks:["local_act_normal","local_too_bad","local_by_bike","local_never_mind"]},
+    ]},
+    {id:"u23l3",title:"Nu Spreek Je!",icon:"🏆",xp:30,steps:[
+      {type:"intro",title:"Nu Spreek Je! 🏆",desc:"You made it! Test everything across all 23 units. Your graduation exam!",goals:["Review all concepts","Mixed difficulty","Prove your Dutch!"]},
+      {type:"tip",title:"🏆 Look how far you've come!",text:"You started with 'Hallo' and now you can:\n\n✅ Introduce yourself and talk about your life\n✅ Navigate Dutch daily life\n✅ Talk about past, present, and future\n✅ Express opinions and feelings\n✅ Write professional emails\n✅ Understand Dutch culture\n✅ Use natural expressions like a local\n\n300+ words, 30+ grammar rules, cultural knowledge.\n\n'Doe zo door!' = Keep it up!\n\nNext steps:\n💬 Chat with Nova to practice everything\n📖 Read NU.nl for real Dutch news\n🇳🇱 Spreek Nederlands!"},
+      {type:"mc",q:"How do Dutch answer the phone?",opts:["Hallo?","Met [last name]","Ja?","Wie is dit?"],ans:"Met [last name]",hint:"From Unit 22!"},
+      {type:"mc",q:"'Gezellig' means:",opts:["Cozy/convivial (untranslatable)","Healthy","Delicious","Interesting"],ans:"Cozy/convivial (untranslatable)",hint:"THE most Dutch word"},
+      {type:"tr",mk:"u23_dutch_fun",dir:"produce"},
+      {type:"tr",mk:"u23_disagree",dir:"produce"},
+      {type:"tr",mk:"u23_act_normal",dir:"comprehend"},
+      {type:"fb",s:"Ik voel _____ niet lekker.",a:"Me",opts:["Me","Mij","Je","Zich"],hint:"Reflexive: MYSELF"},
+      {type:"fb",s:"Ik blijf thuis _____ het regent.",a:"Omdat",opts:["Omdat","Want","Dus","Daarom"],hint:"BECAUSE (verb to end!)"},
+      {type:"match",mks:["local_important","local_actually","local_for_example","local_my_opinion"]},
+      {type:"match",mks:["local_how_nice","local_what_shame","local_stay_strong","local_thanks_advance"]},
+    ]},
+  ]},
+
+];
