@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B1 complete (20 units, 195 lessons). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B1 complete (20 units, ~209 lessons, TOPIK/TTMIK gap plan executed). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -44,7 +44,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 79 decisions (D1-D79), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 82 decisions (D1-D82), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
@@ -238,18 +238,20 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
   - U19: Relationships, -더라고요 evidential, register switching
   - U20: Consolidation + B1 assessment
   - All 12 seed registry harvests complete
-- 20 units, 195 lessons total (A1: 64, A2: 38, B1: 93)
-- B1 quality audit (2026-03-14): 28 duplicate teach cards removed (incl. 호텔→숙소), ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
+- 20 units, ~209 lessons total (A1: 64+2, A2: 38+2, B1: 93+10), ~3,668 steps
+- B1 quality audit (2026-03-14): 28 duplicate teach cards removed, ~250 translations added, 6 hint-reveal fixes. Final: 0 violations.
 - A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
-- **TOPIK/TTMIK standards audit (2026-03-14)**: Code-verified. ~70-75% of TTMIK L1-6 grammar covered. ~20-25 patterns actually missing (initial report said ~40, but 7 were false positives). See `docs/KOREAN_TOPIK_TTMIK_AUDIT.md`
-  - Initial audit found 7 false positives: 죄송합니다, 한테, 그리고, -(으)니까, -(으)ㄹ게요, -기 전에, -거나 ARE already taught
-  - Confirmed gaps: -(으)ㄹ래요, -(으)ㄹ까요, 그래서, 누구 (standalone), -만 (general), -(으)ㄴ 후에, -자마자, -잖아요, -나 보다, -아/어지다, -다가, -(으)러 가다, -(으)ㄴ 적이 있다, N밖에, -(으)려면, -한테서, -아/어도, narrative tense, -(으)ㅂ시다, -게 adverbial
-  - Gap plan (v2 corrected): ~10-15 new lessons, 14 new seeds, + B1 density uplift. See `docs/KOREAN_CURRICULUM_GAP_PLAN.md`
-  - **B1 density problem**: 63% of B1 lessons below P43 floor (20-25 steps). U20 at 10.9 avg. New rule P46: multi-construct sentences, comprehensive final questions.
-  - Strengths confirmed: seed-harvest system, cultural anchoring, practice ratio (65%), Sino-Korean compounds, irregular systematization
-  - Decisions D72-D79 added to engine decision log
-  - **Next action**: Execute Sprint 1 (A1 patch) → Sprint 2 (A2 unlocks) → Sprint 3-4 (B1 gaps) → Sprint 5 (B1 density uplift)
+- **TOPIK/TTMIK gap plan: EXECUTED (2026-03-14)**. All 6 sprints complete. TTMIK L1-6 coverage ~90-95%.
+  - Sprint 1: A1 patch (question words, -만, 죄송합니다 in U2-U5)
+  - Sprint 2: A2 unlocks (-(으)ㄹ래요, -(으)ㄹ까요, -한테서 in U9-U10)
+  - Sprint 3: B1 connectors (-(으)ㄴ 후에, -(으)ㄴ 적이 있다, -자마자, -아/어도, -(으)려면)
+  - Sprint 4: B1 enrichment (-(으)러 가다, -아/어지다, -게, -다가, N밖에, -잖아요, -나 보다, -(으)ㅂ시다, narrative tense)
+  - Sprint 5: B1 density uplift (~30 multi-construct exercises added to U17-U20)
+  - Sprint 6: Vocabulary domain patches (animals, sports, school, clothing, degree adverbs)
+  - 14 new lessons, ~315 new steps. All Tier 1 (11) + Tier 2 (8) gaps filled.
+  - See `docs/KOREAN_CURRICULUM_GAP_PLAN.md` for full details.
+  - **Lesson learned (D80)**: Initial audit had 25% false-positive rate because agents compared references against CLAUDE.md descriptions instead of grep-ing actual code. All future audits MUST grep data files first.
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -268,7 +270,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B1 DONE. Next: TOPIK/TTMIK gap fill (10-15 lessons, 14 seeds) + B1 density uplift (~200-300 steps), then A1-A2 quality fixes, then B2.
+1. **Korean** - A1-B1 DONE + TOPIK/TTMIK gap plan DONE (~90-95% TTMIK coverage). Next: A1-A2 quality fixes (KOREAN_QUALITY_AUDIT.md), then B2.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
@@ -318,15 +320,23 @@ Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
 
 ---
 
-## Documentation Files
+## Documentation Files — Hierarchy & Read Order
 
-- `docs/LINGOVERSE_MASTER_BIBLE.md` — Full philosophy, per-language standards, official reference requirements, unit count doctrine
-- `docs/POLYGLOT_PIPELINE_STANDARDS.md` — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan
-- `docs/KOREAN_B1_CURRICULUM_DESIGN.md` — **NEW** Complete B1 design: seed harvests, grammar sequencing, cultural anchors, trade-offs
-- `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` — TOPIK I + TTMIK L1-6 gap analysis: coverage percentages, tiered priority list (NOTE: raw counts pre-code-verification, see gap plan v2 for corrected numbers)
-- `docs/KOREAN_CURRICULUM_GAP_PLAN.md` — **CORRECTED v2** Implementation plan: 6 sprints, 14 new seeds, ~10-15 new lessons + B1 density uplift, P8 safeguards, P46 multi-construct rule
-- `docs/KOREAN_QUALITY_AUDIT.md` — A1-A2 quality audit with 7 fix batches (2026-03-14, issues resolved)
-- `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit)
+Every session should understand what each doc does and which ones are authoritative. Read CLAUDE.md first (you're reading it). Then consult docs as needed for the task at hand.
+
+### Tier 1: Authoritative (always current, governs all work)
+- **`CLAUDE.md`** (this file) — Single source of truth for project state, pipeline rules, decisions. READ FIRST.
+- **`docs/LINGOVERSE_MASTER_BIBLE.md`** — Full philosophy, per-language standards, official reference requirements, unit count doctrine.
+- **`docs/POLYGLOT_PIPELINE_STANDARDS.md`** — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan.
+
+### Tier 2: Active reference (current for their scope)
+- **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors.
+- **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — TOPIK/TTMIK gap plan (v2, code-verified). All 6 sprints EXECUTED. Use as reference for what was added and where.
+- **`docs/KOREAN_QUALITY_AUDIT.md`** — A1-A2 quality audit. 7 fix batches. Active TODO for remaining fixes.
+
+### Tier 3: Historical (preserved for reference, DO NOT use for active decisions)
+- **`docs/KOREAN_TOPIK_TTMIK_AUDIT.md`** — Raw TOPIK/TTMIK audit. Contains 25% false positives. SUPERSEDED by gap plan v2. Has correction notice at top.
+- **`docs/KOREAN_DENSITY_AUDIT.md`** — Historical A1-A2 density metrics. SUPERSEDED by quality audit.
 
 ---
 
@@ -360,6 +370,54 @@ Commit and push to `main`. GitHub Actions automatically builds and uploads to mi
 
 ---
 
+## Session Startup Protocol (MANDATORY)
+
+Every new Claude Code session MUST follow this sequence before writing any code:
+
+1. **Read CLAUDE.md** (this file). Understand current project state, active TODOs, and all pipeline rules.
+2. **Check the Documentation Hierarchy** (above). Know which docs are authoritative vs historical. Never treat Tier 3 docs as current truth.
+3. **Read memory files** (`~/.claude/projects/.../memory/`). Check for owner preferences, past mistakes, and architectural decisions.
+4. **Before any audit or gap analysis**: Follow the Agent Deployment Standards below. Never compare external references against CLAUDE.md descriptions alone.
+5. **Before writing content**: Re-read the Pipeline Rules section. Every rule (P8, P24, P26, P34, P37, P43, P46) applies to every lesson in every language.
+
+### Why This Exists
+In March 2026, audit agents compared TOPIK/TTMIK reference lists against CLAUDE.md descriptions instead of grep-ing actual code. This produced a 25% false-positive rate (10 patterns listed as "missing" that actually existed in `units-korean.js`). The owner could have found these with Ctrl+F faster than the agents did. This protocol prevents that class of error from recurring.
+
+---
+
+## Agent Deployment Standards (MANDATORY)
+
+When deploying sub-agents for audits, gap analysis, or content verification:
+
+### Rule 1: Code-First Verification (D80)
+NEVER claim a grammar pattern, vocabulary item, or feature is "missing" based on reading docs or CLAUDE.md alone. ALWAYS:
+1. **Grep the actual data file** (e.g., `units-korean.js`, `units-dutch.js`) for the specific pattern.
+2. **Search multiple representations**: Korean patterns can appear as hangul (-(으)니까), romanized (nikka), or in teach card `nl`/`en`/`note`/`example` fields. Search all.
+3. **Check teach cards AND quiz cards AND tip text**: A pattern might be formally taught (teach card), used in examples (seed), or explained in a tip. All count differently.
+4. **Distinguish "not taught" from "taught but not labeled"**: If 그리고 appears in 15 teach card examples but has no standalone teach card, that's "seeded but not formally taught", not "missing".
+
+### Rule 2: Agent Task Specificity (D81)
+Every deployed agent must receive:
+- **Exact file paths** to search (not "check the Korean curriculum")
+- **Exact search terms** with multiple variants (hangul + romanized + English gloss)
+- **Clear output format**: for each claimed gap, agent must provide (a) the search terms used, (b) grep results (hit or miss), (c) confidence level
+- **Return raw evidence**, not conclusions. The main session interprets.
+
+### Rule 3: Token Optimization (D81)
+- Do NOT have agents read entire multi-thousand-line files when a targeted grep suffices
+- Do NOT re-read CLAUDE.md in every sub-agent when the main session already has the context
+- Do NOT deploy agents for tasks that a single grep/glob from the main session can answer
+- A human with Ctrl+F should not be faster than your agent. If they would be, use grep directly.
+
+### Rule 4: Cross-Verification for Audits (D80)
+For any audit that produces a gap list:
+1. Agent 1 produces the raw gap list from external references
+2. Agent 2 (or main session) verifies EVERY item against actual code with grep
+3. Only verified gaps proceed to planning
+4. False positives are logged with the search terms that would have caught them
+
+---
+
 ## Memory & Decision Tracking (MANDATORY)
 
 Claude Code has a persistent memory system at `~/.claude/projects/.../memory/`. Every session MUST:
@@ -384,3 +442,5 @@ The goal: any future Claude Code session should be able to read CLAUDE.md + memo
 4. **P26 Core Constructs First is law.** Teach and NAME core constructs early. Control what gets QUIZZED, not what gets taught. Introduce → Use → Elaborate.
 5. **Every new concept type needs an intro tip before first instance** (D44).
 6. **Treat every session as if building for a language you don't speak.** The rules exist because they caught real errors.
+7. **Code is truth, docs are claims.** When verifying what exists in the curriculum, grep the data files. CLAUDE.md and docs describe intent; `units-*.js` files contain reality. (D80)
+8. **A human with Ctrl+F must not be faster than your agents.** If a verification task is a simple keyword search, do it directly. Deploy agents only for tasks requiring judgment or cross-referencing. (D81)

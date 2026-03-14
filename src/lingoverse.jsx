@@ -2812,6 +2812,36 @@ DECISION 79 — P8 Safeguards for Contrast Lessons
   (c) Hints reference decision frameworks, never grammar rules
   (d) Distractors must be 3+ plausible Korean forms, never English glosses
 
+DECISION 80 — Code-First Verification Protocol (2026-03-14)
+  TOPIK/TTMIK audit agents produced 25% false positives (10/40) by
+  comparing reference lists against CLAUDE.md descriptions instead of
+  grep-ing actual code. Owner feedback: "I could find that with Ctrl+F."
+  RULE: ALL content audits MUST verify against actual data files
+  (units-korean.js, units-dutch.js, etc.) using grep/search, NEVER
+  rely solely on doc descriptions. For each claimed gap: provide
+  search terms used, grep results, and confidence level.
+  APPLIES TO: All languages. All future audit sessions.
+
+DECISION 81 — Agent Deployment Standards (2026-03-14)
+  Sub-agents must receive: exact file paths, exact search terms with
+  multiple variants (hangul + romanized + English), clear output format
+  with raw evidence. Agents return evidence, main session interprets.
+  TOKEN RULE: Do not deploy agents for tasks a single grep can answer.
+  A human with Ctrl+F must not be faster than your agent.
+  VERIFICATION: Any audit producing a gap list requires a second pass
+  (agent or main session) verifying every item against actual code.
+  False positives must be logged with the search terms that would have
+  caught them.
+
+DECISION 82 — Documentation Hierarchy (2026-03-14)
+  Three tiers established in CLAUDE.md:
+  Tier 1 (authoritative): CLAUDE.md, MASTER_BIBLE, POLYGLOT_PIPELINE
+  Tier 2 (active reference): B1_DESIGN, GAP_PLAN, QUALITY_AUDIT
+  Tier 3 (historical, DO NOT use for active decisions): TOPIK_AUDIT
+  (25% false positives), DENSITY_AUDIT (superseded)
+  RULE: Never treat Tier 3 docs as current truth. They are preserved
+  for audit trail only. Always check the correction notices at top.
+
 
 ═══════════════════════════════════════════════════════════════════════
 LINGOVERSE CONTENT PIPELINE — Mandatory Checklist for New Content
