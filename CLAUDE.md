@@ -19,11 +19,11 @@ LingoVerse is a self-contained multilingual language learning platform. The enti
 
 The owner is NOT a coder. The workflow is:
 1. Edit `src/lingoverse.jsx` with Claude's help
-2. Ask Claude for an `index.html` build of the JSX
-3. Manually upload that single `index.html` to mijndomein.nl file manager
-4. That's it. No CI/CD, no git deploy, no npm on the server.
+2. Claude commits and pushes to GitHub
+3. GitHub Actions automatically builds and deploys to mijndomein.nl via FTPS
+4. lingoverse.nl updates within ~2 minutes. No manual upload needed.
 
-Any architectural change must preserve this workflow or provide an equally simple alternative. The owner cannot run build scripts on the server.
+The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are stored as GitHub Secrets (FTP_USERNAME, FTP_PASSWORD).
 
 ---
 
@@ -138,11 +138,11 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Before Writing ANY Lesson:
 - **P24**: Check no prior unit already teaches this concept
-- **P26**: Check P26 Naming Map — don't name grammar rules before their harvest unit
+- **P26**: Core Constructs First — introduce and NAME core constructs in Lessons 1-3. Use them in all later lessons. Elaborate (full drills) only in dedicated units. Quiz vocabulary/phrases early, system mechanics only at Elaborate phase. Check Core Constructs Map for timing.
 - **P32**: Every sentence must be native-speaker quality, every exercise must have exactly ONE correct answer
 - **P34**: Every word in exercises must have been taught (teach card) before use
-- **P37**: Function words (en, of, maar, ook, niet, ja, nee, er) need teach cards before first use
-- **P43**: Minimum 20 steps per Korean lesson. Dutch target: 25-35.
+- **P37**: Function words need teach cards before first use. Each language defines its own function word list in LANG_BLUEPRINT. Cognate exception: exempt only if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+- **P43**: Density targets per language (Korean: 20-25, Dutch: 25-35). Pedagogy over count — never add filler steps.
 
 ### Content Formatting:
 - **P22c**: NEVER use em-dashes (—). Use periods, colons, commas, or \n bullets.
@@ -252,8 +252,8 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 3. Run full audit checklist (P24-P45)
 4. Every teach card: check also/cognate/fRef fields
 
-### Building index.html for deployment:
-Run `npm run build` — Vite produces a bundled index.html in `dist/`. The owner uploads this single file to mijndomein.nl via their file manager.
+### Deploying to lingoverse.nl:
+Commit and push to `main`. GitHub Actions automatically builds and uploads to mijndomein.nl via FTPS. The site updates within ~2 minutes. No manual upload needed. To manually trigger: go to Actions → "Build and Deploy to Mijndomein" → "Run workflow".
 
 ---
 
@@ -262,6 +262,6 @@ Run `npm run build` — Vite produces a bundled index.html in `dist/`. The owner
 1. **We are building the system that builds courses.** Every decision shapes the process that will eventually run WITHOUT a human safety net.
 2. **When unsure about grammar: FLAG IT, do not commit.** Use `// VERIFY:` comments.
 3. **The pipeline must guarantee quality by PROCESS, not by human review.** Think: "Would this catch this bug in Japanese, where no human reads the output?"
-4. **P26 Spiral is law.** Show grammar naturally 2-4 units before formal naming. Never harvest early.
+4. **P26 Core Constructs First is law.** Teach and NAME core constructs early. Control what gets QUIZZED, not what gets taught. Introduce → Use → Elaborate.
 5. **Every new concept type needs an intro tip before first instance** (D44).
 6. **Treat every session as if building for a language you don't speak.** The rules exist because they caught real errors.
