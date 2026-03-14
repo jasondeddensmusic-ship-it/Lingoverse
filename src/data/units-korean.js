@@ -188,20 +188,23 @@ export default [
 // dt_irregular          → kou6l5 (preview)            → kou7l5 (A2) ✅harvested
 // bp_irregular          → kou6l5 (preview)            → kou7l5 (A2) ✅harvested
 // ru_eu_irregular       → kou6l5 (preview)            → kou9l7 (A2) ✅harvested
-// h_irregular           → kou6l5 (preview)            → kou11l9 (B1)
+// h_irregular           → kou6l5 (preview)            → kou11l9 (B1) ✅harvested
 // past_tense            → kou6l5 (preview)            → kou7l2 (A2) ✅harvested
 // future_tense          → ——                       → kou9l2 (A2)
-// neunde_connector      → kou8l8 (preview) ✅planted  → kou13l2 (B1)
-// go_iss_progressive    → kou9l6 (preview) ✅planted  → kou11l4 (B1)
-// ge_dwae_change        → kou7l4 (preview) ✅planted  → kou15l4 (B1)
-// neyo_discovery        → kou7l4 (preview) ✅planted  → kou13l5 (B1)
-// noun_modifiers        → kou7l8 (preview) ✅planted  → kou18l5-7 (B1)
-// ae_juda_for_someone   → kou8l4 (preview) ✅planted  → kou15l1 (B1)
-// geo_deun_yo_reason    → kou9l5 (preview) ✅planted  → kou13l4 (B1)
-// go_sipeo_hada_3rd     → kou9l8 (preview) ✅planted  → kou15l7 (B1)
-// deo_rago_yo_evidential→ kou10l7 (preview) ✅planted → kou19l2 (B1)
-// double_past_었었       → kou10l7 (preview) ✅planted → kou17l6 (B1)
-// gi_nominalization     → kou10l8 (preview) ✅planted → kou18l1 (B1)
+// neunde_connector      → kou8l8 (preview) ✅planted  → kou13l2 (B1) ✅harvested
+// go_iss_progressive    → kou9l6 (preview) ✅planted  → kou11l4 (B1) ✅harvested
+// ge_dwae_change        → kou7l4 (preview) ✅planted  → kou15l4 (B1) ✅harvested
+// neyo_discovery        → kou7l4 (preview) ✅planted  → kou13l5 (B1) ✅harvested
+// noun_modifiers        → kou7l8 (preview) ✅planted  → kou18l5-7 (B1) ✅harvested
+// ae_juda_for_someone   → kou8l4 (preview) ✅planted  → kou15l1 (B1) ✅harvested
+// geo_deun_yo_reason    → kou9l5 (preview) ✅planted  → kou13l4 (B1) ✅harvested
+// go_sipeo_hada_3rd     → kou9l8 (preview) ✅planted  → kou15l7 (B1) ✅harvested
+// deo_rago_yo_evidential→ kou10l7 (preview) ✅planted → kou19l2 (B1) ✅harvested
+// double_past_었었       → kou10l7 (preview) ✅planted → kou17l6 (B1) ✅harvested
+// gi_nominalization     → kou10l8 (preview) ✅planted → kou18l1 (B1) ✅harvested
+// ═══════════════════════════════════════════════════════════
+// ALL 12 B1 SEEDS HARVESTED. Registry complete through B1.
+// B2 seeds to be planted in U17-U20 for future harvest.
 // ═══════════════════════════════════════════════════════════
  {id:"kou1l1",title:"안녕하세요",icon:"👋",xp:20,board:true,steps:[
  // ── Step 1: Intro ──

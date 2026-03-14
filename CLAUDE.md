@@ -243,12 +243,37 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ---
 
+## Korean B1 Design Decisions (Units 11-20)
+
+Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
+
+### Key Architectural Decisions
+
+1. **Harvest-Before-New**: All 12 seed registry patterns from A1-A2 are formally harvested in B1 before introducing new grammar. Every harvest lesson opens with "You have been seeing [X] since Unit Y."
+
+2. **Cultural Anchoring**: Each unit is tied to a Korean cultural context (travel, 눈치, 회식, 수능, 맛집, 정, etc.) that provides natural sentence contexts for the grammar being taught.
+
+3. **Irregular Completion**: The remaining 3 irregular verb families (ㅎ in U11, ㅅ in U12, 르 in U13) are harvested in units where their example verbs appear naturally.
+
+4. **Speech Level Progression**: B1.1 uses 해요체 primary; B1.2 adds active 합쇼체/반말 use; U19 introduces explicit register switching.
+
+5. **Indirect Speech Before Passive**: Deliberate ordering. Indirect speech (U16) is more immediately useful; passive/causative (U17) is structurally harder. Having reported speech first enables "The news said..." patterns in U17.
+
+6. **Step Density Trade-off**: B1 averages ~13.8 steps/lesson (vs A1-A2's 20-25). B1 grammar is cognitively heavier per step. Quality over filler.
+
+7. **Contrastive Questions Allowed**: MC questions that show both options in the question stem (e.g., "X vs Y: which means Z?") are permitted when testing pattern discrimination, not recall.
+
+8. **Sino-Korean COMPOUND Chips**: Every new Sino-Korean word gets morpheme decomposition (e.g., "COMPOUND: 관(relate/關) + 계(connect/係)"). By B1 end, learners have seen 100+ Sino-Korean morphemes.
+
+---
+
 ## Documentation Files
 
 - `docs/LINGOVERSE_MASTER_BIBLE.md` — Full philosophy, per-language standards, official reference requirements, unit count doctrine
 - `docs/POLYGLOT_PIPELINE_STANDARDS.md` — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan
-- `docs/KOREAN_QUALITY_AUDIT.md` — **ACTIVE** Full quality audit with 7 fix batches, line numbers, and execution plan (2026-03-14)
-- `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit for fix work)
+- `docs/KOREAN_B1_CURRICULUM_DESIGN.md` — **NEW** Complete B1 design: seed harvests, grammar sequencing, cultural anchors, trade-offs
+- `docs/KOREAN_QUALITY_AUDIT.md` — A1-A2 quality audit with 7 fix batches (2026-03-14, issues resolved)
+- `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit)
 
 ---
 
