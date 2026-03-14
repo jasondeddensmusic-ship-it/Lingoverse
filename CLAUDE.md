@@ -107,7 +107,10 @@ The main curriculum. Structure:
   { id, title, icon, xp, board:true, steps: [...] }
 ]}
 ```
-Track system: `track:"v2"` for new curriculum, `track:"legacy"` for old Dutch content.
+### Track System (IMPORTANT)
+- **Korean**: Always `track:"v1"` for ALL units (A1, A2, B1, future B2+). Korean has no legacy course. One tab.
+- **Dutch**: `track:"v2"` for new curriculum, `track:"legacy"` for old content. Two tabs until legacy is deleted.
+- **New languages**: Use a single track value (e.g., `track:"v1"`). Only create a second track if migrating from an old curriculum.
 Data lives in: `units-dutch.js`, `units-korean.js`, `units-other.js`.
 
 ### MK / MEANINGS / LEXEMES
@@ -285,7 +288,7 @@ Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
 3. Add FOUNDATIONS_BY_LANG entry
 4. Create FK_PLAYTHROUGH stages
 5. Create FK_GATE_QUIZ
-6. Add UNITS with track:"v2", board:true on all lessons
+6. Add UNITS with the correct track value and board:true on all lessons (see Track System below)
 7. Validate with validateLessonForLeaks()
 
 **File separation convention**: New languages start in `units-other.js`. Once a language has 5+ units with real content (not skeletons), create a dedicated `units-{lang}.js` file:
@@ -304,6 +307,22 @@ This is manual. Phase 2 (post-content-complete) will migrate all units to JSON f
 
 ### Deploying to lingoverse.nl:
 Commit and push to `main`. GitHub Actions automatically builds and uploads to mijndomein.nl via FTPS. The site updates within ~2 minutes. No manual upload needed. To manually trigger: go to Actions → "Build and Deploy to Mijndomein" → "Run workflow".
+
+---
+
+## Memory & Decision Tracking (MANDATORY)
+
+Claude Code has a persistent memory system at `~/.claude/projects/.../memory/`. Every session MUST:
+
+1. **After any architectural decision or design choice**: Save it to memory AND update CLAUDE.md if it affects future sessions. Decisions like track values, grammar sequencing, file structure changes, etc.
+
+2. **After any mistake or correction from the owner**: Save a feedback memory explaining what went wrong and how to avoid it. These prevent repeating the same errors.
+
+3. **After completing a major milestone** (e.g., finishing B1, adding a language): Update `project_status.md` in memory AND the "Current Build Status" section in CLAUDE.md.
+
+4. **After learning owner preferences**: Save to `user_profile.md` or `feedback_workflow.md`.
+
+The goal: any future Claude Code session should be able to read CLAUDE.md + memory files and have full context on every decision made, every mistake avoided, and the current state of the project.
 
 ---
 
