@@ -3884,4 +3884,174 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 16 — 뭐라고 했어요? (Indirect Speech) — B1.2
+// Grammar: -(ㄴ)다고 하다 (reported statements), -냐고 하다 (reported questions),
+//          -(으)라고 하다 (reported commands), -자고 하다 (reported suggestions),
+//          -(으)시- honorific deepening
+// Cultural anchor: Internet/SNS culture, Korean online communication
+// Prerequisite: U15 (benefactive, change, 3rd person feelings)
+// ═══════════════════════════════════════════════════════════
+{n:16,lang:"ko",track:"v2",title:"뭐라고 했어요?",sub:"Indirect Speech",icon:"💬",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 인터넷 어휘 (Internet Vocabulary) ──
+{id:"kou16l1",title:"인터넷 어휘",icon:"📱",xp:22,board:true,steps:[
+{type:"intro",title:"Korean Internet Culture",desc:"인터넷\n→ internet\n\nKorea: world's most connected country.\nOnline culture and vocabulary.",goals:["Learn 8 internet/SNS words","Understand Korean online culture","Talk about social media","Use digital vocabulary naturally"]},
+{type:"teach",nl:"인터넷",en:"internet",phonetic:"in-teo-net",note:"Konglish from English 'internet.'\n한국은 인터넷 강국이에요.\nKorea is an internet powerhouse.",kind:"noun"},
+{type:"teach",nl:"댓글",en:"comment (online)",phonetic:"daet-geul",note:"댓(reply/答) + 글(writing).\nReply-writing = online comment.\n댓글을 달다 = to leave a comment.",kind:"noun"},
+{type:"teach",nl:"검색하다",en:"to search (online)",phonetic:"geom-saek-ha-da",note:"COMPOUND: 검(examine/檢) + 색(search/索).\nExamine-search = search online.\n네이버에서 검색하다 = search on Naver.",kind:"verb"},
+{type:"teach",nl:"공유하다",en:"to share",phonetic:"gong-yu-ha-da",note:"COMPOUND: 공(public/公) + 유(have/有).\nPublic-have = share.\n링크를 공유하다 = share a link.",kind:"verb"},
+{type:"teach",nl:"게시판",en:"bulletin board, forum",phonetic:"ge-si-pan",note:"COMPOUND: 게(put up/揭) + 시(show/示) + 판(board/板).\nPut-up-show-board = bulletin board.",kind:"noun"},
+{type:"teach",nl:"카톡",en:"KakaoTalk (messaging app)",phonetic:"ka-tok",note:"Short for 카카오톡.\nKorea's #1 messaging app.\nUsed by 90%+ of Koreans.",kind:"noun",deepDive:"KakaoTalk dominance in Korea:\n\nUnlike other countries where WhatsApp\nor iMessage dominate, Korea uses KakaoTalk.\n\n- 카톡 보내다 = send a KakaoTalk\n- 카톡 읽다/안 읽다 = read/unread receipts\n- 단톡방 = group chat (단체 톡방)\n- 이모티콘 = emoticons/stickers\n\n카톡 is used for everything:\npersonal, work, government services."},
+{type:"teach",nl:"팔로우하다",en:"to follow (social media)",phonetic:"pal-lo-u-ha-da",note:"Konglish from English 'follow.'\n인스타에서 팔로우하다\n= follow on Instagram.",kind:"verb"},
+{type:"teach",nl:"업로드하다",en:"to upload",phonetic:"eop-ro-deu-ha-da",note:"Konglish from English 'upload.'\n사진을 업로드하다 = upload a photo.",kind:"verb"},
+{type:"mc",q:"댓글 means:",opts:["Online comment","Social media","Search result","Website"],ans:"Online comment",hint:"댓(reply/答) + 글(writing) = reply-writing = comment."},
+{type:"match",pairs:[{nl:"검색하다",en:"to search"},{nl:"공유하다",en:"to share"},{nl:"팔로우하다",en:"to follow"},{nl:"업로드하다",en:"to upload"}]},
+{type:"mc",q:"카톡 is short for:",opts:["카카오톡 (KakaoTalk)","카페 토크 (Cafe Talk)","카메라 톡 (Camera Talk)","카드 토큰 (Card Token)"],ans:"카카오톡 (KakaoTalk)",hint:"Korea's dominant messaging app. Used by over 90% of Koreans."},
+{type:"fb",s:"네이버에서 {1}했어요. 좋은 식당을 찾았어요.",a:"검색",opts:["검색","댓글","공유","업로드"],hint:"I searched on Naver. I found a good restaurant."},
+{type:"mc",q:"게시판 literally means:",opts:["Put-up-show-board","Talk-write-page","Read-see-screen","Type-send-post"],ans:"Put-up-show-board",hint:"게(put up) + 시(show) + 판(board) = bulletin board."},
+{type:"drag_fill",s:"인스타에 사진을 {1}하고 친구한테 {2}했어요.",blanks:{"1":"업로드","2":"공유"},pool:["업로드","공유","검색","팔로우","댓글"],hint:"I uploaded a photo to Instagram and shared it with a friend."},
+{type:"fb",s:"이 영상에 {1}을 달아 주세요.",a:"댓글",opts:["댓글","검색","카톡","업로드"],hint:"Please leave a ___ on this video. Comment."},
+{type:"match",pairs:[{nl:"인터넷",en:"internet"},{nl:"카톡",en:"KakaoTalk"},{nl:"게시판",en:"forum/bulletin board"},{nl:"댓글",en:"comment"}]},
+]},
+
+// ── L2: -(ㄴ)다고 하다 (Reported Statements) ──
+{id:"kou16l2",title:"-(ㄴ)다고 하다",icon:"🗣️",xp:26,board:true,steps:[
+{type:"intro",title:"Reporting What Someone Said",desc:"-(ㄴ)다고 하다\n→ someone said that...\n\n뭐라고 했어요?\n→ What did they say?\n\nHow to report statements.",goals:["Use -(ㄴ)다고 하다 for reported speech","Know verb vs adjective vs noun forms","Report what others said","Read and understand quotes online"]},
+{type:"tip",title:"Indirect Speech: Statements",text:"For verbs: -(ㄴ/는)다고 하다\nPresent: 간다고 해요 (says they go)\nPast: 갔다고 해요 (says they went)\nFuture: 갈 거라고 해요 (says they will go)\n\nFor adjectives: -(ㄴ/는)다고 하다\nPresent: 크다고 해요 (says it's big)\nPast: 컸다고 해요 (says it was big)\n\nFor nouns + 이다: -(이)라고 하다\n학생이라고 해요 (says they're a student)",deepDive:"The full pattern:\n\nDirect speech:\n민수: '나는 한국 사람이에요.'\n\nIndirect speech:\n민수가 한국 사람이라고 했어요.\n(Minsu said he's Korean.)\n\nThe quotation particle changes:\n- Verb: -(ㄴ/는)다고\n- Adjective: -다고\n- Noun+이다: -(이)라고\n- 아니다: 아니라고\n\n하다 can be replaced with:\n말하다 (say/speak)\n이야기하다 (tell/talk)"},
+{type:"mc",q:"민수가 한국에 간다고 했어요 means:",opts:["Minsu said he's going to Korea","Minsu is going to Korea","Minsu asked about Korea","I told Minsu about Korea"],ans:"Minsu said he's going to Korea",hint:"-(ㄴ)다고 했어요 = said that... Reporting what Minsu said."},
+{type:"fb",s:"친구가 내일 온{1} 했어요.",a:"다고",opts:["다고","냐고","라고","자고"],hint:"My friend said they're coming tomorrow. Verb statement → -(ㄴ)다고."},
+{type:"mc",q:"이 음식이 맛있다고 해요 means:",opts:["They say this food is delicious","I said the food is delicious","Is the food delicious?","Make the food delicious"],ans:"They say this food is delicious",hint:"맛있다고 해요 = they say (it's delicious). Reporting a statement."},
+{type:"fb",s:"선생님이 시험이 어려웠{1} 했어요.",a:"다고",opts:["다고","냐고","라고","자고"],hint:"The teacher said the exam was hard. Adjective past → -다고."},
+{type:"mc",q:"학생이라고 했어요 vs 학생이다고 했어요. Which is correct?",opts:["학생이라고 (noun+이다 takes -(이)라고)","학생이다고 (standard form)","Both are correct","Neither is correct"],ans:"학생이라고 (noun+이다 takes -(이)라고)",hint:"Nouns use -(이)라고, not -다고. This is specific to 이다 (copula)."},
+{type:"fb",s:"의사{1} 했어요. 자기 직업이요.",a:"라고",opts:["라고","다고","냐고","자고"],hint:"They said they're a doctor. Noun (의사) → (이)라고. 의사 ends in vowel → 라고."},
+{type:"tip",title:"Shortened Forms",text:"In casual speech, 하다 is often dropped:\n\n간다고 해요 → 간대요 (says they go)\n맛있다고 해요 → 맛있대요 (says it's tasty)\n학생이라고 해요 → 학생이래요 (says they're a student)\n\nThese shortened forms are very common\nin spoken Korean and online.",deepDive:"Common shortened forms:\n\nFull → Short:\n간다고 해요 → 간대요\n먹는다고 해요 → 먹는대요\n좋다고 해요 → 좋대요\n학생이라고 해요 → 학생이래요\n아니라고 해요 → 아니래요\n\n온다고 했어요 → 온댔어요 (past)\n맛있다고 했어요 → 맛있댔어요 (past)"},
+{type:"mc",q:"맛있대요 is the shortened form of:",opts:["맛있다고 해요","맛있냐고 해요","맛있으라고 해요","맛있자고 해요"],ans:"맛있다고 해요",hint:"Statements: -다고 해요 → -대요 (shortened)."},
+{type:"match",pairs:[{nl:"간다고 해요",en:"says they go (verb)"},{nl:"좋다고 해요",en:"says it's good (adj)"},{nl:"학생이라고 해요",en:"says they're a student (noun)"},{nl:"갔다고 해요",en:"says they went (past)"}]},
+{type:"drag_fill",s:"A: 뭐{1} 했어요?\nB: 내일 온{2} 했어요.",blanks:{"1":"라고","2":"다고"},pool:["라고","다고","냐고","자고","이라고"],hint:"A: What did they say? B: They said they're coming tomorrow."},
+{type:"fb",s:"뉴스에서 내일 비가 온{1} 했어요.",a:"다고",opts:["다고","냐고","라고","자고"],hint:"The news said it will rain tomorrow. Verb statement → -(ㄴ)다고."},
+]},
+
+// ── L3: -냐고 하다 (Reported Questions) ──
+{id:"kou16l3",title:"-냐고 하다",icon:"❓",xp:24,board:true,steps:[
+{type:"intro",title:"Reporting Questions",desc:"-냐고 하다\n→ someone asked whether...\n\nReport questions others asked.\nVery common in daily speech.",goals:["Use -냐고 하다 for reported questions","Know verb/adjective/noun forms","Report questions naturally","Distinguish from reported statements"]},
+{type:"teach",nl:"-냐고 하다",en:"asked whether, asked if",phonetic:"-nya-go ha-da",note:"Verb/adj stem + -냐고 하다.\n가냐고 했어요 = asked if (I'm) going.\n\nNoun + -(이)냐고 하다.\n학생이냐고 했어요 = asked if (I'm) a student.",kind:"grammar",deepDive:"Question reporting patterns:\n\nVerb: stem + -냐고\n가냐고 (asked if going)\n먹냐고 (asked if eating)\n했냐고 (asked if did)\n\nAdjective: stem + -냐고 or -(으)냐고\n좋냐고 / 좋으냐고 (asked if good)\n맛있냐고 (asked if tasty)\n\nNoun: + (이)냐고\n학생이냐고 (asked if student)\n한국 사람이냐고 (asked if Korean)\n\nShortened: -냐고 해요 → -냬요"},
+{type:"mc",q:"어디 가냐고 했어요 means:",opts:["Asked where (I'm) going","Said they're going somewhere","Told me to go","Suggested going"],ans:"Asked where (I'm) going",hint:"-냐고 했어요 = asked whether/if. It reports a question."},
+{type:"fb",s:"친구가 시험 {1} 했어요.",a:"봤냐고",opts:["봤냐고","봤다고","보라고","보자고"],hint:"My friend asked if I took the exam. Reported question → -냐고."},
+{type:"mc",q:"Statement vs Question reporting: '간다고' vs '가냐고':",opts:["-다고 = says going. -냐고 = asks if going.","Both mean the same","Both are statements","Both are questions"],ans:"-다고 = says going. -냐고 = asks if going.",hint:"-다고 reports a statement. -냐고 reports a question."},
+{type:"fb",s:"선생님이 숙제 했{1} 물어봤어요.",a:"냐고",opts:["냐고","다고","라고","자고"],hint:"The teacher asked if I did the homework. Reported question → -냐고."},
+{type:"mc",q:"한국 사람이냐고 했어요 means:",opts:["Asked if (I'm) Korean","Said I'm Korean","Told me to be Korean","Korean people said"],ans:"Asked if (I'm) Korean",hint:"-(이)냐고 = asked if. It's a reported question with noun+이다."},
+{type:"teach",nl:"물어보다",en:"to ask (a question)",phonetic:"mul-eo-bo-da",note:"물(ask) + 어 + 보다(try/see).\n물어봤어요 = I asked.\nMore casual than 질문하다.",kind:"verb"},
+{type:"fb",s:"엄마가 밥 먹었{1} 물어봤어요.",a:"냐고",opts:["냐고","다고","라고","자고"],hint:"Mom asked if I ate. Reported question."},
+{type:"mc",q:"맛있냬요 is the shortened form of:",opts:["맛있냐고 해요","맛있다고 해요","맛있으라고 해요","맛있자고 해요"],ans:"맛있냐고 해요",hint:"Questions: -냐고 해요 → -냬요 (shortened)."},
+{type:"drag_fill",s:"A: 친구가 뭐{1} 물어봤어요?\nB: 내일 시간 있{2} 물어봤어요.",blanks:{"1":"라고","2":"냐고"},pool:["라고","냐고","다고","자고","으라고"],hint:"A: What did your friend ask? (뭐라고) B: Asked if I have time tomorrow. (Question → -냐고)"},
+{type:"match",pairs:[{nl:"간다고 (statement)",en:"says going"},{nl:"가냐고 (question)",en:"asks if going"},{nl:"가라고 (command)",en:"tells to go"},{nl:"가자고 (suggestion)",en:"suggests going"}]},
+{type:"mc",q:"외국인이냐고 물어봤어요. This person was:",opts:["Asked if I'm a foreigner","Told me I'm a foreigner","Said they're a foreigner","Suggested being a foreigner"],ans:"Asked if I'm a foreigner",hint:"-(이)냐고 = asked if. A question about identity."},
+{type:"fb",s:"손님이 이거 얼마{1} 물어봤어요.",a:"냐고",opts:["냐고","다고","라고","자고"],hint:"The customer asked how much this is. Reported question."},
+]},
+
+// ── L4: -(으)라고/자고 하다 (Commands & Suggestions) ──
+{id:"kou16l4",title:"-(으)라고/자고",icon:"📣",xp:24,board:true,steps:[
+{type:"intro",title:"Reporting Commands & Suggestions",desc:"-(으)라고 하다\n→ told someone to...\n\n-자고 하다\n→ suggested that...\n\nComplete the indirect speech system.",goals:["Use -(으)라고 for reported commands","Use -자고 for reported suggestions","Complete all 4 indirect speech types","Build natural reported speech"]},
+{type:"teach",nl:"-(으)라고 하다",en:"told to, ordered to",phonetic:"-(eu)ra-go ha-da",note:"Verb stem + (으)라고 하다.\nVowel stem: 라고.\nConsonant stem: 으라고.\n가라고 했어요 = told (me) to go.",kind:"grammar",deepDive:"Commands use imperative base:\n\n가다 → 가라고 (told to go)\n먹다 → 먹으라고 (told to eat)\n하다 → 하라고 (told to do)\n오다 → 오라고 (told to come)\n\nNegative commands:\n가지 말라고 (told not to go)\n먹지 말라고 (told not to eat)\n\nShortened: -(으)라고 해요 → -(으)래요"},
+{type:"teach",nl:"-자고 하다",en:"suggested, proposed",phonetic:"-ja-go ha-da",note:"Verb stem + 자고 하다.\n가자고 했어요 = suggested going.\n같이 먹자고 했어요 = suggested eating together.",kind:"grammar",deepDive:"Suggestions use -자 base:\n\n가다 → 가자고 (suggested going)\n먹다 → 먹자고 (suggested eating)\n하다 → 하자고 (suggested doing)\n\nShortened: -자고 해요 → -재요\n\n가자고 해요 → 가재요\n먹자고 해요 → 먹재요"},
+{type:"mc",q:"선생님이 공부하라고 했어요 means:",opts:["The teacher told us to study","The teacher said they study","The teacher asked if we study","The teacher suggested studying"],ans:"The teacher told us to study",hint:"-(으)라고 = reported command. The teacher ordered/instructed."},
+{type:"fb",s:"친구가 같이 영화 보{1} 했어요.",a:"자고",opts:["자고","라고","다고","냐고"],hint:"My friend suggested watching a movie together. Suggestion → -자고."},
+{type:"mc",q:"엄마가 빨리 오라고 했어요 vs 엄마가 빨리 오자고 했어요:",opts:["First: mom told to come. Second: mom suggested coming.","Both mean the same","First is a suggestion, second is a command","Both are questions"],ans:"First: mom told to come. Second: mom suggested coming.",hint:"-(으)라고 = command (told to). -자고 = suggestion (let's)."},
+{type:"fb",s:"의사가 운동{1} 했어요. 건강을 위해서요.",a:"하라고",opts:["하라고","하자고","한다고","하냐고"],hint:"The doctor told me to exercise. For my health. Command."},
+{type:"mc",q:"가지 말라고 했어요 means:",opts:["Told not to go","Suggested not going","Said they're not going","Asked if going"],ans:"Told not to go",hint:"-지 말라고 = reported negative command. 'Don't go,' they said."},
+{type:"tip",title:"The Complete Indirect Speech System",text:"4 types of reported speech:\n\n1. Statement: -(ㄴ)다고\n   간다고 해요 (says going)\n\n2. Question: -냐고\n   가냐고 해요 (asks if going)\n\n3. Command: -(으)라고\n   가라고 해요 (tells to go)\n\n4. Suggestion: -자고\n   가자고 해요 (suggests going)\n\nAll can use 하다, 말하다, or 이야기하다."},
+{type:"fb",s:"동생에게 숙제 {1} 했어요.",a:"하라고",opts:["하라고","하자고","한다고","하냐고"],hint:"I told my younger sibling to do homework. Command → -(으)라고."},
+{type:"mc",q:"같이 점심 먹자고 했어요. This is a:",opts:["Reported suggestion","Reported command","Reported statement","Reported question"],ans:"Reported suggestion",hint:"-자고 = suggestion. 'Let's eat lunch together,' someone suggested."},
+{type:"drag_fill",s:"선생님이 조용히 {1} 했어요. 그리고 책을 읽{2} 했어요.",blanks:{"1":"하라고","2":"으라고"},pool:["하라고","으라고","한다고","읽냐고","하자고"],hint:"Teacher told us to be quiet. And told us to read the book. Both commands."},
+{type:"match",pairs:[{nl:"-(ㄴ)다고",en:"reports statement"},{nl:"-냐고",en:"reports question"},{nl:"-(으)라고",en:"reports command"},{nl:"-자고",en:"reports suggestion"}]},
+{type:"mc",q:"Shortened forms: 간대요, 가냬요, 가래요, 가재요. Match the full forms:",opts:["간다고, 가냐고, 가라고, 가자고 — all correct","Only 간대요 is a real form","These are all the same meaning","None of these exist"],ans:"간다고, 가냐고, 가라고, 가자고 — all correct",hint:"-대요(statement), -냬요(question), -래요(command), -재요(suggestion)."},
+{type:"fb",s:"친구가 주말에 등산 가{1} 했어요. 같이 가요!",a:"자고",opts:["자고","라고","다고","냐고"],hint:"My friend suggested going hiking this weekend. Suggestion → -자고."},
+]},
+
+// ── L5: -(으)시- 존댓말 (Honorifics) ──
+{id:"kou16l5",title:"-(으)시- 존댓말",icon:"🙇",xp:24,board:true,steps:[
+{type:"intro",title:"Deepening Honorifics",desc:"-(으)시-\n→ honorific marker\n\nMake verbs respectful.\nEssential for polite Korean.",goals:["Use -(으)시- honorific marker","Know when to use honorifics","Apply to common verbs","Understand special honorific words"]},
+{type:"teach",nl:"-(으)시-",en:"honorific verb marker",phonetic:"-(eu)si-",note:"Insert between stem and ending.\nVowel stem: 시\nConsonant stem: 으시\n가다 → 가시다 → 가세요.\n먹다 → 잡수시다 (special form).",kind:"grammar",deepDive:"-(으)시- conjugation:\n\n가다 → 가시다\n가세요 (present polite)\n가셨어요 (past polite)\n가실 거예요 (future polite)\n\n먹다 → 드시다/잡수시다 (special)\n읽다 → 읽으시다 → 읽으세요\n\nUse for: elders, bosses, teachers,\nstrangers, customers.\nDo NOT use for yourself."},
+{type:"tip",title:"Special Honorific Words",text:"Some verbs have completely different\nhonorific forms:\n\n먹다 → 드시다/잡수시다 (eat)\n마시다 → 드시다 (drink)\n자다 → 주무시다 (sleep)\n있다 → 계시다 (exist/stay)\n말하다 → 말씀하시다 (speak)\n죽다 → 돌아가시다 (die)\n아프다 → 편찮으시다 (be sick)\n\nThese are called 높임말 (elevated words).",deepDive:"The three levels of Korean politeness:\n\n1. 반말 (casual): 가, 먹어, 자\n   For close friends, children, juniors.\n\n2. 해요체 (polite): 가요, 먹어요, 자요\n   Default for most situations.\n\n3. 존댓말 with -(으)시-: 가세요, 드세요\n   For elders, superiors, strangers.\n\n4. 합쇼체 (formal): 가십니다, 드십니다\n   Official situations, news, military."},
+{type:"mc",q:"할머니, 뭐 드세요? means:",opts:["Grandma, what are you eating/drinking? (honorific)","Grandma, what do you give?","What did grandma make?","Grandma, please give me something"],ans:"Grandma, what are you eating/drinking? (honorific)",hint:"드시다 = honorific for 먹다/마시다. 드세요 = are you eating (respectful)."},
+{type:"fb",s:"선생님이 교실에 {1}.",a:"계세요",opts:["계세요","있어요","있세요","있으세요"],hint:"The teacher is in the classroom. 있다 honorific → 계시다 → 계세요."},
+{type:"mc",q:"할아버지, 잘 주무셨어요? means:",opts:["Grandfather, did you sleep well? (honorific)","Grandfather, are you sleeping?","Did you give grandfather something?","Grandfather is sleeping well"],ans:"Grandfather, did you sleep well? (honorific)",hint:"주무시다 = honorific for 자다 (sleep). 주무셨어요 = slept (past, honorific)."},
+{type:"fb",s:"어머니, 식사 {1}?",a:"하셨어요",opts:["하셨어요","했어요","하시면","해요"],hint:"Mother, have you eaten? (Did you have your meal?) Honorific past."},
+{type:"mc",q:"Which is the honorific of 말하다?",opts:["말씀하시다","말해시다","말시하다","말을하시다"],ans:"말씀하시다",hint:"말하다 → 말씀하시다. Special honorific word."},
+{type:"teach",nl:"말씀",en:"words, speech (honorific)",phonetic:"mal-sseum",note:"Honorific form of 말.\n말씀하시다 = to speak (honorific).\n말씀해 주세요 = please tell me.",kind:"noun"},
+{type:"fb",s:"사장님이 {1}. 회의가 있대요.",a:"말씀하셨어요",opts:["말씀하셨어요","말했어요","말해요","말하거든요"],hint:"The CEO spoke. There's a meeting, they said. Honorific → 말씀하시다."},
+{type:"mc",q:"You should NEVER use -(으)시- for:",opts:["Yourself (your own actions)","Your teacher","Your grandparents","A customer"],ans:"Yourself (your own actions)",hint:"-(으)시- is for others you respect. Using it for yourself is grammatically wrong."},
+{type:"match",pairs:[{nl:"먹다 → 드시다",en:"eat (honorific)"},{nl:"자다 → 주무시다",en:"sleep (honorific)"},{nl:"있다 → 계시다",en:"be/stay (honorific)"},{nl:"말하다 → 말씀하시다",en:"speak (honorific)"}]},
+{type:"drag_fill",s:"A: 할머니, 어디 {1}?\nB: 시장에 {2}.",blanks:{"1":"가세요","2":"가요"},pool:["가세요","가요","가시다","갔어요","가는데"],hint:"A: Grandma, where are you going? (honorific) B: I'm going to the market. (no honorific for self)"},
+{type:"mc",q:"돌아가셨어요 is the honorific way to say someone:",opts:["Died (passed away)","Came back","Left","Got lost"],ans:"Died (passed away)",hint:"돌아가시다 = honorific for 죽다 (die). Very respectful way to say someone passed."},
+]},
+
+// ── L6: SNS 한국어 (Social Media Korean) ──
+{id:"kou16l6",title:"SNS 한국어",icon:"📲",xp:20,board:true,steps:[
+{type:"intro",title:"Korean Online Slang",desc:"Online Korean is different\nfrom textbook Korean.\n\nAbbreviations, slang, and trends.",goals:["Learn common Korean internet slang","Understand online abbreviations","See how reported speech appears online","Navigate Korean social media"]},
+{type:"tip",title:"Common Korean Internet Abbreviations",text:"ㅋㅋㅋ = hahaha (ㅋ = consonant of 크)\nㅎㅎㅎ = hehe (softer laugh)\nㅠㅠ = crying (looks like tears)\nㄱㄱ = go go (let's go)\nㄴㄴ = no no (nope)\nㅇㅇ = yeah yeah (uh-huh)\nㄷㄷ = 덜덜 (shaking/wow)\nㅇㅋ = OK",deepDive:"More Korean internet culture:\n\n인정 = acknowledged/agreed\n실화? = for real? (실제 화? = real story?)\n갑분싸 = 갑자기 분위기 싸해짐\n   (atmosphere suddenly got cold)\n레전드 = legend (Konglish, amazing thing)\n꿀잼 = honey-fun (super fun)\n노잼 = no-fun (boring)\n\n찐 = real/genuine (from 진짜)\n최고 = the best\n대박 = amazing/jackpot"},
+{type:"mc",q:"ㅋㅋㅋ in a Korean chat means:",opts:["Laughter (hahaha)","Crying","Anger","Confusion"],ans:"Laughter (hahaha)",hint:"ㅋ is the consonant of 크 (ke-ke), representing laughter."},
+{type:"teach",nl:"대박",en:"amazing, jackpot, wow",phonetic:"dae-bak",note:"Originally: big gourd (harvest symbol).\nNow: exclamation of amazement.\n대박! = Wow! Amazing!",kind:"exclamation"},
+{type:"teach",nl:"꿀잼",en:"super fun, hilarious",phonetic:"kkul-jaem",note:"꿀(honey) + 잼(fun, from 재미).\nHoney-fun = super entertaining.\nOpposite: 노잼 (no fun, boring).",kind:"slang"},
+{type:"mc",q:"ㅠㅠ represents:",opts:["Crying eyes (sad/moved)","Laughing eyes","Angry eyes","Sleeping eyes"],ans:"Crying eyes (sad/moved)",hint:"ㅠ looks like tears streaming down."},
+{type:"fb",s:"이 영화 {1}! 꼭 봐야 해요!",a:"꿀잼",opts:["꿀잼","노잼","대박","ㅋㅋ"],hint:"This movie is super fun! You must watch it!"},
+{type:"mc",q:"노잼 means:",opts:["Boring (no fun)","Super fun","A type of jam","A music genre"],ans:"Boring (no fun)",hint:"노(no) + 잼(fun/재미) = no fun = boring."},
+{type:"tip",title:"Reported Speech Online",text:"Online, Koreans report what others said:\n\n누가 맛있다고 했어요?\n= Who said it's delicious?\n\n댓글에 좋다고 써 있어요.\n= The comments say it's good.\n\n친구가 가자고 카톡 보냈어요.\n= My friend sent a KakaoTalk suggesting we go.\n\nIndirect speech is everywhere in\nKorean social media and messaging."},
+{type:"match",pairs:[{nl:"ㅋㅋㅋ",en:"hahaha"},{nl:"ㅠㅠ",en:"crying"},{nl:"대박",en:"amazing"},{nl:"꿀잼",en:"super fun"}]},
+{type:"fb",s:"친구가 카톡으로 내일 만나{1} 했어요.",a:"자고",opts:["자고","라고","다고","냐고"],hint:"My friend suggested via KakaoTalk that we meet tomorrow. Suggestion."},
+{type:"mc",q:"댓글에 맛있대요 means:",opts:["The comments say it's delicious","The comments ask if it's delicious","I commented it's delicious","Delete the comment"],ans:"The comments say it's delicious",hint:"맛있대요 = 맛있다고 해요 (shortened). Reports what the comments say."},
+{type:"drag_fill",s:"A: 이 식당 어때? B: {1}! 댓글에 맛있{2}.",blanks:{"1":"대박","2":"대요"},pool:["대박","대요","ㅋㅋ","냬요","래요"],hint:"A: How's this restaurant? B: Amazing! The comments say it's delicious."},
+]},
+
+// ── L7: 간접 화법 연습 (Indirect Speech Practice) ──
+{id:"kou16l7",title:"간접 화법 연습",icon:"💬",xp:22,board:true,steps:[
+{type:"intro",title:"Putting It All Together",desc:"Practice all 4 types of reported speech\nin natural conversations.",goals:["Use all 4 indirect speech types","Combine with honorifics","Report online and offline conversations","Build fluent reported speech"]},
+{type:"mc",q:"뉴스에서 내일 비가 온다고 했어요. Type:",opts:["Reported statement","Reported question","Reported command","Reported suggestion"],ans:"Reported statement",hint:"-(ㄴ)다고 = statement. News reported a fact."},
+{type:"fb",s:"엄마가 밥 먹었{1} 물어봤어요.",a:"냐고",opts:["냐고","다고","라고","자고"],hint:"Mom asked if I ate. Reported question."},
+{type:"mc",q:"의사가 운동하라고 했어요. Type:",opts:["Reported command","Reported statement","Reported question","Reported suggestion"],ans:"Reported command",hint:"-(으)라고 = command. Doctor told/ordered to exercise."},
+{type:"fb",s:"친구가 같이 공부{1} 했어요.",a:"하자고",opts:["하자고","하라고","한다고","하냐고"],hint:"My friend suggested studying together. Suggestion → -자고."},
+{type:"drag_fill",s:"A: 선생님이 뭐라고 {1}?\nB: 조용히 하{2} 하셨어요.",blanks:{"1":"하셨어요","2":"라고"},pool:["하셨어요","라고","했어요","다고","냐고"],hint:"A: What did the teacher say? (honorific) B: Told us to be quiet. (command)"},
+{type:"mc",q:"Convert: '같이 점심 먹자.' → reported speech:",opts:["같이 점심 먹자고 했어요","같이 점심 먹는다고 했어요","같이 점심 먹냐고 했어요","같이 점심 먹으라고 했어요"],ans:"같이 점심 먹자고 했어요",hint:"먹자 = let's eat (suggestion). Reported: 먹자고 했어요."},
+{type:"fb",s:"카톡에서 친구가 어디{1} 물어봤어요.",a:"냐고",opts:["냐고","다고","라고","자고"],hint:"On KakaoTalk, my friend asked where (I am). Question → -냐고."},
+{type:"match",pairs:[{nl:"온다고 했어요",en:"said they're coming"},{nl:"오냐고 했어요",en:"asked if coming"},{nl:"오라고 했어요",en:"told to come"},{nl:"오자고 했어요",en:"suggested coming"}]},
+{type:"mc",q:"할머니가 잘 먹으라고 하셨어요. Notice -(으)시 + -(으)라고:",opts:["Honorific (할머니) + reported command = 하셨어요","Only honorific is used","Only reported speech is used","Neither is used"],ans:"Honorific (할머니) + reported command = 하셨어요",hint:"할머니 gets honorific -(으)시- on 하다: 하셨어요. Plus -(으)라고 for command."},
+{type:"drag_fill",s:"뉴스에서 경제가 좋아{1} 했어요. 하지만 국민들은 아니{2} 해요.",blanks:{"1":"진다고","2":"라고"},pool:["진다고","라고","냐고","자고","졌다고"],hint:"News said the economy is improving. But citizens say it's not."},
+{type:"fb",s:"사장님이 회의에 참석{1} 말씀하셨어요.",a:"하라고",opts:["하라고","하자고","한다고","하냐고"],hint:"The CEO told us to attend the meeting. Honorific command."},
+]},
+
+// ── L8: 온라인 대화 (Online Conversations) ──
+{id:"kou16l8",title:"온라인 대화",icon:"🌐",xp:20,board:true,steps:[
+{type:"intro",title:"Online Conversations",desc:"How indirect speech works\nin Korean digital communication.",goals:["Read Korean social media naturally","Understand reported speech in context","Combine internet slang with grammar","Navigate Korean online spaces"]},
+{type:"mc",q:"인스타에서 팔로워가 맛있대요. 맛있대요 means:",opts:["They say it's delicious","Is it delicious?","Make it delicious","It used to be delicious"],ans:"They say it's delicious",hint:"맛있대요 = 맛있다고 해요 (shortened). Followers say it's tasty."},
+{type:"fb",s:"댓글에 별로{1}. 안 가는 게 좋을 것 같아요.",a:"래요",opts:["래요","대요","냬요","재요"],hint:"The comments say it's not great. Shortened: 별로라고 해요 → 별로래요."},
+{type:"mc",q:"친구가 카톡으로 '내일 뭐 해?' 보냈어요. In reported speech:",opts:["내일 뭐 하냐고 했어요","내일 뭐 한다고 했어요","내일 뭐 하라고 했어요","내일 뭐 하자고 했어요"],ans:"내일 뭐 하냐고 했어요",hint:"'뭐 해?' is a question. Reported question → -냐고."},
+{type:"fb",s:"블로그에 이 식당이 최고{1}. 가 볼까요?",a:"래요",opts:["래요","대요","냬요","재요"],hint:"The blog says this restaurant is the best. 최고라고 해요 → 최고래요 (noun+이다)."},
+{type:"tip",title:"Korean Internet Culture Facts",text:"Korea's internet culture:\n\n- 네이버 (Naver): Korea's Google\n- 다음 (Daum): second search engine\n- 카카오톡: messaging monopoly\n- 네이버 카페: community forums\n- DC인사이드: Korean Reddit equivalent\n- 에브리타임: university student app\n\nKorea has the world's fastest average\ninternet speed and highest smartphone\npenetration rate."},
+{type:"match",pairs:[{nl:"네이버",en:"Korea's Google"},{nl:"카카오톡",en:"messaging app"},{nl:"네이버 카페",en:"community forums"},{nl:"DC인사이드",en:"Korean Reddit"}]},
+{type:"mc",q:"기사에서 한국이 인터넷 강국이라고 했어요. -(이)라고 is used because:",opts:["인터넷 강국 is a noun + 이다","인터넷 강국 is a verb","It's a question","It's a command"],ans:"인터넷 강국 is a noun + 이다",hint:"Noun + 이다 → -(이)라고. 강국이라고 = said it's a powerhouse."},
+{type:"fb",s:"리뷰에서 여기 서비스가 좋{1}.",a:"대요",opts:["대요","래요","냬요","재요"],hint:"Reviews say the service here is good. 좋다고 해요 → 좋대요 (adjective)."},
+{type:"drag_fill",s:"A: 이 카페 어때? 댓글에 {1}.\nB: {2}! 가 보자.",blanks:{"1":"분위기 좋대요","2":"대박"},pool:["분위기 좋대요","분위기 좋냬요","대박","노잼","좋래요"],hint:"A: How's this cafe? Comments say the atmosphere is good. B: Amazing! Let's try it."},
+{type:"mc",q:"한국 인터넷에서 '실화?' means:",opts:["For real? (is this a true story?)","Fiction","Silk flower","Serious problem"],ans:"For real? (is this a true story?)",hint:"실화 = real story/true story. As a question: 'Is this for real?'"},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou16l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 16 Review",desc:"Review all indirect speech and honorifics.\n\n-(ㄴ)다고, -냐고, -(으)라고, -자고.\n-(으)시- honorifics.",goals:["Review all 4 indirect speech types","Test honorific usage","Apply internet vocabulary","Complete B1.2 phase"]},
+{type:"mc",q:"친구가 내일 온다고 했어요. Type of reported speech:",opts:["Statement","Question","Command","Suggestion"],ans:"Statement",hint:"-(ㄴ)다고 = statement. Friend said they're coming."},
+{type:"fb",s:"엄마가 빨리 오{1} 했어요.",a:"라고",opts:["라고","다고","냐고","자고"],hint:"Mom told me to come quickly. Command → -(으)라고."},
+{type:"mc",q:"할머니가 뭐 드시고 싶으세요? combines:",opts:["Honorific 드시다 + -(으)시- + 싶다","Only 드시다","Only -(으)시-","Neither"],ans:"Honorific 드시다 + -(으)시- + 싶다",hint:"드시다 (honorific eat) + 싶으시다 (honorific want). Double respect."},
+{type:"fb",s:"선생님이 교실에 {1}.",a:"계세요",opts:["계세요","있어요","있으세요","계요"],hint:"The teacher is in the classroom. 있다 honorific → 계시다 → 계세요."},
+{type:"match",pairs:[{nl:"간다고",en:"says going (statement)"},{nl:"가냐고",en:"asks if going (question)"},{nl:"가라고",en:"tells to go (command)"},{nl:"가자고",en:"suggests going (suggestion)"}]},
+{type:"mc",q:"ㅋㅋㅋ, ㅠㅠ, 대박, 꿀잼 are all:",opts:["Korean internet slang","Formal Korean words","Grammar patterns","Honorific forms"],ans:"Korean internet slang",hint:"All common in online Korean communication."},
+{type:"drag_fill",s:"뉴스에서 내일 비가 {1} 했어요. 우산을 가져가{2} 말씀하셨어요.",blanks:{"1":"온다고","2":"라고"},pool:["온다고","라고","오냐고","오자고","온대요"],hint:"News said it'll rain. (Statement) (Someone honorific) told to bring an umbrella. (Command)"},
+{type:"fb",s:"친구가 같이 공부{1} 했는데, 저는 피곤해서 못 간다고 했어요.",a:"하자고",opts:["하자고","하라고","한다고","하냐고"],hint:"Friend suggested studying together, but I said I can't go because I'm tired."},
+{type:"mc",q:"맛있대요 = 맛있다고 해요. The shortened form loses:",opts:["다고 해 → 대 (contracted)","Nothing, it's a different word","The subject","The verb"],ans:"다고 해 → 대 (contracted)",hint:"-다고 해요 contracts to -대요. The middle parts merge."},
+{type:"mc",q:"존댓말 with reported speech: 선생님이 가시라고 했어요. Why -(으)시-?",opts:["Showing respect for the teacher who gave the command","Making the report more formal","Because all commands need -(으)시-","It's incorrect"],ans:"Showing respect for the teacher who gave the command",hint:"The teacher gets -(으)시- because we respect them. The quote gets -(으)라고."},
+{type:"match",pairs:[{nl:"인터넷",en:"internet"},{nl:"댓글",en:"comment"},{nl:"검색하다",en:"to search"},{nl:"카톡",en:"KakaoTalk"}]},
+{type:"drag_fill",s:"할아버지가 잘 {1}냐고 물어보셨어요. 그리고 밥 {2}라고 하셨어요.",blanks:{"1":"지내","2":"먹으"},pool:["지내","먹으","지낸다고","먹자고","있으"],hint:"Grandfather asked if I'm doing well. (Question) And told me to eat. (Command) Both honorific."},
+]},
+
+]},
+
 ];
