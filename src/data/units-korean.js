@@ -3719,4 +3719,169 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 15 — 도와 주세요 (Benefactive & Change) — B1.2
+// Grammar: ★ -아/어 주다 HARVEST (kou8l4 seed), ★ -게 되다 HARVEST (kou7l4 seed),
+//          ★ -고 싶어하다 HARVEST (kou9l8 seed)
+// Cultural anchor: Education, 수능, Korean learning culture
+// Prerequisite: U14 (obligation, permission, purpose)
+// ═══════════════════════════════════════════════════════════
+{n:15,lang:"ko",track:"v2",title:"도와 주세요",sub:"Benefactive & Change",icon:"🤝",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: ★ -아/어 주다 HARVEST ──
+{id:"kou15l1",title:"★ -아/어 주다",icon:"🌾",xp:26,board:true,steps:[
+{type:"intro",title:"Harvesting -아/어 주다",desc:"You've been seeing -아/어 주다 since Unit 8.\n\n도와 주세요\n→ Please help (do it for me)\n\nDoing something FOR someone.\nGiving and receiving actions.",goals:["Master -아/어 주다 (do for someone)","Distinguish 주다 vs 드리다 (humble)","Use -아/어 주세요 for polite requests","Express gratitude for received actions"]},
+{type:"tip",title:"-아/어 주다: Doing FOR Someone",text:"Verb stem + 아/어 주다\n= do [action] for someone\n\n도와 주다 = help (do-help for someone)\n가르쳐 주다 = teach (for someone)\n보여 주다 = show (for someone)\n사 주다 = buy (for someone)\n\n주다 = give. So literally:\n'do the action and give it to someone.'",deepDive:"-아/어 주다 vs -아/어 드리다:\n\n주다: neutral or to equals/juniors\n사 주세요 = please buy (for me)\n\n드리다: humble, to superiors\n사 드릴까요? = shall I buy (for you, respectfully)?\n\nTo your boss: 도와 드릴까요?\nTo a friend: 도와 줄까요?\nBoth mean 'shall I help?' but\ndifferent respect levels."},
+{type:"mc",q:"도와 주세요 means:",opts:["Please help me","I will help","I helped already","Help is not needed"],ans:"Please help me",hint:"-아/어 주세요 = please do [action] for me. 돕다 → 도와."},
+{type:"fb",s:"이것 좀 가르쳐 {1}.",a:"주세요",opts:["주세요","드려요","해요","줘요"],hint:"Please teach me this. Polite request with 주세요."},
+{type:"mc",q:"선생님에게 '도와 드릴까요?' vs 친구에게 '도와 줄까요?' What's the difference?",opts:["드리다 is humble (for superiors), 주다 is neutral","주다 is more formal","They're the same","드리다 is casual"],ans:"드리다 is humble (for superiors), 주다 is neutral",hint:"드리다 = humble 주다. Use to/for people above you."},
+{type:"fb",s:"사진을 찍어 {1}? 여기서요.",a:"줄까요",opts:["줄까요","드릴까요","할까요","볼까요"],hint:"Shall I take a photo for you? To a stranger (neutral → 주다)."},
+{type:"teach",nl:"드리다",en:"to give (humble)",phonetic:"deu-ri-da",note:"Humble form of 주다.\n드려요 = I give (to a superior).\n도와 드릴까요? = Shall I help (you, respectfully)?",kind:"verb"},
+{type:"mc",q:"커피 사 줄게요 means:",opts:["I'll buy you coffee","Buy me coffee","I bought coffee","Coffee is expensive"],ans:"I'll buy you coffee",hint:"사 주다 = buy for someone. -(으)ㄹ게요 = I will (promise)."},
+{type:"fb",s:"선생님, 이거 설명해 {1}?",a:"드릴까요",opts:["드릴까요","줄까요","해요","줘요"],hint:"Teacher, shall I explain this (for you)? To a superior → 드리다."},
+{type:"tip",title:"-아/어 줄게요 vs -아/어 줄까요",text:"-아/어 줄게요 = I'll do it for you (promise)\n사 줄게요 = I'll buy it for you.\n\n-아/어 줄까요? = Shall I do it for you? (offer)\n사 줄까요? = Shall I buy it for you?\n\n-아/어 주세요 = Please do it for me (request)\n사 주세요 = Please buy it for me."},
+{type:"mc",q:"Which is a REQUEST (not an offer)?",opts:["도와 주세요 (Please help me)","도와 줄게요 (I'll help you)","도와 줄까요? (Shall I help?)","도와 드릴까요? (Shall I help, humbly?)"],ans:"도와 주세요 (Please help me)",hint:"-아/어 주세요 = please do for me. The others are offers or promises."},
+{type:"drag_fill",s:"A: 이거 좀 들어 {1}?\nB: 네, 들어 {2}!",blanks:{"1":"줄까요","2":"줄게요"},pool:["줄까요","줄게요","주세요","드려요","해요"],hint:"A: Shall I carry this for you? B: Yes, I'll carry it for you!"},
+{type:"match",pairs:[{nl:"-아/어 주세요",en:"please do for me"},{nl:"-아/어 줄게요",en:"I'll do for you"},{nl:"-아/어 줄까요?",en:"shall I do for you?"},{nl:"-아/어 드리다",en:"do for (humble)"}]},
+{type:"fb",s:"길을 알려 {1}. 감사합니다!",a:"주셔서",opts:["주셔서","줘서","드려서","해서"],hint:"Thank you for telling me the way. 주셔서 = polite 'because you did for me.'"},
+{type:"mc",q:"엄마가 밥을 만들어 줬어요. Who cooked?",opts:["Mom cooked (for the speaker)","The speaker cooked for mom","They cooked together","Nobody cooked"],ans:"Mom cooked (for the speaker)",hint:"만들어 주다 = make for someone. 엄마가 = mom (subject). Mom made it for me."},
+]},
+
+// ── L2: 교육 어휘 (Education Vocabulary) ──
+{id:"kou15l2",title:"교육 어휘",icon:"📚",xp:22,board:true,steps:[
+{type:"intro",title:"Education in Korea",desc:"교육\n→ education\n\nKorea's education-focused culture.\nSchool, exams, and studying.",goals:["Learn 8 education words","Understand Korean education culture","Talk about studying and exams","Use education vocabulary naturally"]},
+{type:"teach",nl:"교육",en:"education",phonetic:"gyo-yuk",note:"COMPOUND: 교(teach/教) + 육(nurture/育).\nTeach-nurture = education.",kind:"noun"},
+{type:"teach",nl:"학교",en:"school",phonetic:"hak-gyo",note:"COMPOUND: 학(study/學) + 교(school/校).\nStudy-school = school.",kind:"noun"},
+{type:"teach",nl:"시험",en:"exam, test",phonetic:"si-heom",note:"COMPOUND: 시(try/試) + 험(test/驗).\nTry-test = examination.",kind:"noun"},
+{type:"teach",nl:"학원",en:"private academy, cram school",phonetic:"hak-won",note:"COMPOUND: 학(study/學) + 원(institute/院).\nStudy-institute = cram school.\nKorea's famous hagwon culture.",kind:"noun",deepDive:"학원 (hagwon) culture:\n\nAlmost all Korean students attend 학원s\nafter regular school hours.\n\nTypes: math, English, science, music, art,\ncoding, SAT prep (수능 prep).\n\nMany students study until 10-11pm.\nThe government had to pass a law\nlimiting 학원 hours (10pm curfew).\n\nThis is a major reason for Korea's\nhigh education achievement, but also\na source of student stress."},
+{type:"teach",nl:"수능",en:"Korean SAT (college entrance exam)",phonetic:"su-neung",note:"수학능력시험 (Scholastic Ability Test).\nAbbreviated to 수능.\nThe most important day for students.",kind:"noun"},
+{type:"teach",nl:"성적",en:"grades, academic record",phonetic:"seong-jeok",note:"COMPOUND: 성(achieve/成) + 적(record/績).\nAchieve-record = grades.",kind:"noun"},
+{type:"teach",nl:"졸업하다",en:"to graduate",phonetic:"jol-eop-ha-da",note:"COMPOUND: 졸(finish/卒) + 업(work/業).\nFinish-work = graduate.",kind:"verb"},
+{type:"teach",nl:"합격하다",en:"to pass (an exam)",phonetic:"hap-gyeok-ha-da",note:"COMPOUND: 합(combine/合) + 격(standard/格).\nMeet-standard = pass.",kind:"verb"},
+{type:"mc",q:"학원 is:",opts:["A private academy/cram school","A public school","A university","A library"],ans:"A private academy/cram school",hint:"학(study) + 원(institute). Korea's famous after-school academies."},
+{type:"match",pairs:[{nl:"시험",en:"exam"},{nl:"수능",en:"Korean SAT"},{nl:"성적",en:"grades"},{nl:"합격하다",en:"to pass"}]},
+{type:"mc",q:"수능 is Korea's:",opts:["College entrance exam (like SAT)","High school graduation test","Driver's license test","Korean language proficiency test"],ans:"College entrance exam (like SAT)",hint:"수학능력시험 = Scholastic Ability Test. THE exam that determines university."},
+{type:"fb",s:"대학교를 {1}하고 회사에 취직했어요.",a:"졸업",opts:["졸업","합격","시험","교육"],hint:"I graduated from university and got a job at a company."},
+{type:"mc",q:"합격하다 literally means:",opts:["Meet-standard (pass)","Study-hard (work)","Try-again (retry)","Finish-school (graduate)"],ans:"Meet-standard (pass)",hint:"합(combine/meet) + 격(standard) = meeting the standard = passing."},
+{type:"drag_fill",s:"한국 학생들은 학교 후에 {1}에 가요. {2}을 준비하려고요.",blanks:{"1":"학원","2":"수능"},pool:["학원","수능","졸업","교육","학교"],hint:"Korean students go to hagwon after school. To prepare for the college entrance exam."},
+{type:"fb",s:"{1}이 좋아야 좋은 대학교에 갈 수 있어요.",a:"성적",opts:["성적","시험","수능","교육"],hint:"Your ___ must be good to get into a good university. Grades."},
+{type:"match",pairs:[{nl:"교육",en:"education"},{nl:"학원",en:"cram school"},{nl:"졸업하다",en:"to graduate"},{nl:"학교",en:"school"}]},
+]},
+
+// ── L3: 수능 문화 (Korean Exam Culture) ──
+{id:"kou15l3",title:"수능 문화",icon:"🎓",xp:20,board:true,steps:[
+{type:"intro",title:"수능: Korea's Biggest Exam Day",desc:"수능 day is a national event.\n\nFlights are delayed.\nPolice escort late students.\nThe whole country rallies around test-takers.",goals:["Understand 수능 day culture","Learn about exam preparation","See how society supports students","Discuss education pressure"]},
+{type:"tip",title:"수능 Day: A National Event",text:"On 수능 day (November):\n\n- Government offices open late\n- Flight takeoffs paused during listening test\n- Police motorcycle escorts for late students\n- Parents pray at temples\n- 후배 cheer outside exam halls\n- Stock market opens late\n- No honking near test centers",deepDive:"The pressure of 수능:\n\n수능 scores largely determine\nwhich university you attend.\n\nUniversity prestige affects:\n- Career opportunities\n- Social status\n- Even marriage prospects\n\nSKY universities (서울대, 고려대, 연세대)\nare the most prestigious.\n\nThis pressure has led to:\n- 학원 culture (hagwon boom)\n- Student mental health concerns\n- Calls for education reform\n- Growing gap between rich and poor"},
+{type:"mc",q:"On 수능 day, flights are delayed because:",opts:["The English listening test needs silence","Too many students traveling","Airport workers take the exam","It's a national holiday"],ans:"The English listening test needs silence",hint:"During the listening portion, airplane noise could disrupt students. Flights pause."},
+{type:"teach",nl:"응원하다",en:"to cheer, to support",phonetic:"eung-won-ha-da",note:"COMPOUND: 응(respond/應) + 원(help/援).\nRespond-help = cheer/support.\n수능 응원 = cheering for exam-takers.",kind:"verb"},
+{type:"teach",nl:"긴장하다",en:"to be nervous",phonetic:"gin-jang-ha-da",note:"COMPOUND: 긴(tense/緊) + 장(stretch/張).\nTense-stretch = nervous.",kind:"verb"},
+{type:"fb",s:"수능 전날 너무 {1}. 잠을 못 잤어요.",a:"긴장했어요",opts:["긴장했어요","응원했어요","합격했어요","졸업했어요"],hint:"The night before 수능, I was so ___. I couldn't sleep. Nervous."},
+{type:"mc",q:"후배들이 교문 앞에서 응원해요. They're:",opts:["Cheering for exam-takers outside the school gate","Taking the exam themselves","Protesting against the exam","Leaving school early"],ans:"Cheering for exam-takers outside the school gate",hint:"응원하다 = to cheer/support. 후배 = juniors. They cheer for the 선배 taking 수능."},
+{type:"fb",s:"부모님이 절에서 기도{1} 주세요. 수능이거든요.",a:"해",opts:["해","하면","하고","하는"],hint:"Parents pray at the temple for me. You see, it's 수능 day. -아/어 주다 benefactive."},
+{type:"mc",q:"SKY universities are:",opts:["Seoul, Korea, Yonsei (top 3 in Korea)","International exchange schools","Sky-high tuition schools","Universities on mountains"],ans:"Seoul, Korea, Yonsei (top 3 in Korea)",hint:"서울대, 고려대, 연세대. The most prestigious universities in Korea. S-K-Y."},
+{type:"match",pairs:[{nl:"수능",en:"college entrance exam"},{nl:"응원하다",en:"to cheer"},{nl:"긴장하다",en:"to be nervous"},{nl:"합격하다",en:"to pass"}]},
+{type:"drag_fill",s:"수능 날, 경찰이 늦은 학생을 {1} 줘요. 온 나라가 {2}해요.",blanks:{"1":"데려다","2":"응원"},pool:["데려다","응원","긴장","합격","졸업"],hint:"On 수능 day, police escort late students. The whole country cheers."},
+{type:"mc",q:"한국 교육의 가장 큰 문제는:",opts:["Too much pressure on students","Not enough schools","No exams","Teachers are too casual"],ans:"Too much pressure on students",hint:"학원 culture, 수능 stress, and the pressure to enter SKY universities."},
+]},
+
+// ── L4: ★ -게 되다 HARVEST ──
+{id:"kou15l4",title:"★ -게 되다",icon:"🌾",xp:24,board:true,steps:[
+{type:"intro",title:"Harvesting -게 되다",desc:"You've been seeing -게 되다 since Unit 7.\n\n한국어를 알게 됐어요.\n→ I came to know Korean.\n\nExpress changes that happened naturally.",goals:["Master -게 되다 for natural change","Distinguish from active decisions","Use for life changes and developments","Build natural change-of-state sentences"]},
+{type:"tip",title:"-게 되다: 'Came to, Ended Up'",text:"-게 되다 expresses change that happens\nnaturally or through circumstances.\nNot a deliberate decision.\n\nVerb stem + -게 되다\n알다 → 알게 되다 = come to know\n좋아하다 → 좋아하게 되다 = come to like\n살다 → 살게 되다 = end up living\n\n한국을 좋아하게 됐어요.\n= I came to like Korea.\n(It happened naturally, not by choice.)",deepDive:"-게 되다 vs active verbs:\n\n한국어를 배웠어요.\n= I learned Korean. (I actively did it.)\n\n한국어를 알게 됐어요.\n= I came to know Korean. (It happened gradually.)\n\n한국에 살기로 했어요.\n= I decided to live in Korea. (Active choice.)\n\n한국에 살게 됐어요.\n= I ended up living in Korea. (Circumstances led to it.)\n\nKey nuance: -게 되다 removes personal agency.\nThings just 'turned out that way.'"},
+{type:"mc",q:"한국을 좋아하게 됐어요 means:",opts:["I came to like Korea (naturally)","I decided to like Korea","I always liked Korea","I don't like Korea"],ans:"I came to like Korea (naturally)",hint:"-게 되다 = natural change. It happened over time, not by decision."},
+{type:"fb",s:"한국 음식을 먹{1} 됐어요. 처음에는 매웠는데요.",a:"게",opts:["게","어","기로","으려고"],hint:"I came to eat Korean food. At first it was spicy. Natural change over time."},
+{type:"mc",q:"한국에 살게 됐어요 vs 한국에 살기로 했어요:",opts:["Ended up living vs decided to live","Both mean decided","Both mean ended up","살게 is past, 살기로 is future"],ans:"Ended up living vs decided to live",hint:"-게 되다 = circumstances led to it. -기로 하다 = active decision."},
+{type:"fb",s:"대학교를 졸업하고 선생님이 {1} 됐어요.",a:"되",opts:["되","하게","시작","만들"],hint:"After graduating, I became a teacher. Wait, this is just 되다 (become), not -게 되다!"},
+{type:"mc",q:"Which uses -게 되다 correctly?",opts:["한국 드라마를 보다가 한국어에 관심을 갖게 됐어요.","한국어를 공부하게 해요.","한국에 가게 해요.","한국을 좋아하게 만들어요."],ans:"한국 드라마를 보다가 한국어에 관심을 갖게 됐어요.",hint:"While watching K-dramas, I naturally became interested in Korean. Natural change."},
+{type:"teach",nl:"관심",en:"interest, attention",phonetic:"gwan-sim",note:"COMPOUND: 관(relate/關) + 심(heart/心).\nRelate-heart = interest.\n관심이 있다 = to be interested.",kind:"noun"},
+{type:"fb",s:"한국 문화에 {1}을 갖게 됐어요.",a:"관심",opts:["관심","취미","교육","시험"],hint:"I came to have ___ in Korean culture. Interest."},
+{type:"mc",q:"일이 바빠서 운동을 못 하게 됐어요. This person:",opts:["Ended up unable to exercise because work got busy","Decided not to exercise","Started exercising","Always exercises"],ans:"Ended up unable to exercise because work got busy",hint:"못 하게 됐어요 = ended up being unable to. Circumstances, not choice."},
+{type:"drag_fill",s:"처음에는 한국어가 어려웠어요. 하지만 공부하다 보니까 {1} 됐어요.",blanks:{"1":"재미있게"},pool:["재미있게","재미있어서","재미있으면","재미있는데"],hint:"At first Korean was hard. But as I studied, it came to be fun. Natural change."},
+{type:"match",pairs:[{nl:"알게 되다",en:"come to know"},{nl:"좋아하게 되다",en:"come to like"},{nl:"살게 되다",en:"end up living"},{nl:"먹게 되다",en:"come to eat"}]},
+{type:"fb",s:"졸업하고 서울에서 일{1} 됐어요.",a:"하게",opts:["하게","하기로","해서","하면서"],hint:"After graduating, I ended up working in Seoul. Circumstances, not planned."},
+{type:"mc",q:"-게 되다 removes:",opts:["Personal agency (things just turned out that way)","The subject of the sentence","Past tense meaning","The verb entirely"],ans:"Personal agency (things just turned out that way)",hint:"-게 되다 implies it happened through circumstances, not by your active choice."},
+]},
+
+// ── L5: -아/어 보다 복습 (Review of Experiential) ──
+{id:"kou15l5",title:"-아/어 보다 복습",icon:"🔁",xp:20,board:true,steps:[
+{type:"intro",title:"Review: Try & Experience",desc:"Quick review of -아/어 보다 from Unit 11.\n\nCombine with new grammar:\n-아/어 주다 + -게 되다 + -아/어 보다.",goals:["Review -아/어 보다 (try/experience)","Combine experiential with benefactive","Use -아/어 봤어요 for life experiences","Build complex grammar chains"]},
+{type:"mc",q:"한국 음식을 먹어 봤어요 means:",opts:["I've tried eating Korean food","I'm eating Korean food now","I eat Korean food every day","I want to eat Korean food"],ans:"I've tried eating Korean food",hint:"-아/어 봤어요 = have tried/experienced."},
+{type:"fb",s:"이 학원에 다녀 {1}? 좋은 학원이거든요.",a:"볼까요",opts:["볼까요","줄까요","봤어요","줬어요"],hint:"Shall we try attending this hagwon? You see, it's good. Try + suggestion."},
+{type:"mc",q:"선생님이 설명해 줘서 이해하게 됐어요. Three grammar points here:",opts:["-아/어 주다 (benefactive), -아/어서 (because), -게 되다 (came to)","Only one grammar point","Two grammar points","-아/어 보다, -는데, -거든요"],ans:"-아/어 주다 (benefactive), -아/어서 (because), -게 되다 (came to)",hint:"설명해 줘서 = because (teacher) explained FOR me. 이해하게 됐어요 = came to understand."},
+{type:"fb",s:"한국어를 가르쳐 {1} 선생님 감사합니다.",a:"주신",opts:["주신","준","드린","본"],hint:"Thank you, teacher, for teaching me Korean. 주시다 → 주신 (honorific modifier)."},
+{type:"drag_fill",s:"한국에 와서 김치를 먹어 {1}. 그래서 김치를 좋아하{2} 됐어요.",blanks:{"1":"봤어요","2":"게"},pool:["봤어요","게","줬어요","기로","서"],hint:"I came to Korea and tried kimchi. So I came to like kimchi."},
+{type:"mc",q:"이 책 읽어 봤어요? 재미있는데 읽어 볼까요? Both use -아/어 보다 but:",opts:["First: have you experienced? Second: shall we try?","Both are past tense","Both are suggestions","They're the same"],ans:"First: have you experienced? Second: shall we try?",hint:"-아/어 봤어요 = past experience. -아/어 볼까요 = suggestion to try."},
+{type:"match",pairs:[{nl:"-아/어 봤어요",en:"have tried/experienced"},{nl:"-아/어 볼까요",en:"shall we try?"},{nl:"-아/어 주세요",en:"please do for me"},{nl:"-게 됐어요",en:"came to / ended up"}]},
+{type:"fb",s:"한국 드라마를 보다가 한국에 관심을 갖{1} 됐어요.",a:"게",opts:["게","어","기로","아서"],hint:"While watching K-dramas, I came to be interested in Korea."},
+{type:"mc",q:"Which combines -아/어 주다 and -게 되다 correctly?",opts:["친구가 도와 줘서 합격하게 됐어요","친구가 도와 게 줘서 됐어요","도와 됐어요 줘서 게","주게 도와 됐어요서"],ans:"친구가 도와 줘서 합격하게 됐어요",hint:"Friend helped FOR me (-아/어 주다), so I ended up passing (-게 되다)."},
+{type:"drag_fill",s:"선생님이 잘 {1} 주셔서 한국어를 잘하{2} 됐어요.",blanks:{"1":"가르쳐","2":"게"},pool:["가르쳐","게","해서","기로","하면서"],hint:"Because the teacher taught me well, I came to speak Korean well."},
+]},
+
+// ── L6: -고 싶다 복습 + -고 싶어하다 ──
+{id:"kou15l6",title:"-고 싶어하다",icon:"💭",xp:22,board:true,steps:[
+{type:"intro",title:"Wanting: Self vs Others",desc:"-고 싶다\n→ I want to (1st person)\n\n-고 싶어하다\n→ someone else wants to (3rd person)\n\nKorean distinguishes who's wanting.",goals:["Review -고 싶다 (I want to)","Learn -고 싶어하다 (they want to)","Understand 1st vs 3rd person feelings","Apply in education context"]},
+{type:"tip",title:"1st Person vs 3rd Person Feelings",text:"Korean makes an important distinction:\n\n1st person (I): direct feeling\n저는 가고 싶어요. (I want to go.)\n\n3rd person (they): observed feeling\n민수는 가고 싶어해요. (Minsu wants to go.)\n\nYou can KNOW your own feelings directly.\nYou can only OBSERVE others' feelings.\n\nThis applies to: 싶다, 좋다, 슬프다, etc.",deepDive:"Why this distinction matters:\n\nIn Korean, some states are 'internal.'\nOnly the experiencer can state them directly.\n\n저는 배가 고파요. (I'm hungry. Direct.)\n민수는 배가 고파해요. (Minsu seems hungry. Observed.)\n\n저는 슬퍼요. (I'm sad. Direct.)\n민수는 슬퍼해요. (Minsu seems/acts sad. Observed.)\n\nExceptions:\n- 좋아하다 already works for 3rd person\n  (it means 'to like' as an action)\n- In casual speech, the distinction blurs"},
+{type:"mc",q:"저는 한국에 가고 싶어요 vs 민수는 한국에 가고 싶어해요. Why different?",opts:["1st person uses 싶다 directly, 3rd person uses 싶어하다","They're both wrong","Only 싶어해요 is correct","There's no difference"],ans:"1st person uses 싶다 directly, 3rd person uses 싶어하다",hint:"You know your own desires directly. You observe others' desires from outside."},
+{type:"fb",s:"친구가 한국에 가고 {1}.",a:"싶어해요",opts:["싶어해요","싶어요","싶은데","싶거든요"],hint:"My friend wants to go to Korea. Third person → 싶어하다."},
+{type:"mc",q:"저는 수능에 합격하고 싶어요. This is correct because:",opts:["1st person uses -고 싶다 directly","1st person must use -고 싶어하다","싶어요 is always wrong","합격 is a noun"],ans:"1st person uses -고 싶다 directly",hint:"I want to pass. My own desire → direct -고 싶다."},
+{type:"fb",s:"동생이 선생님이 되고 {1}.",a:"싶어해요",opts:["싶어해요","싶어요","싶은데","싶었어요"],hint:"My younger sibling wants to become a teacher. 3rd person → 싶어하다."},
+{type:"mc",q:"Which is WRONG?",opts:["민수는 먹고 싶어요 (should be 싶어해요)","저는 먹고 싶어요","저는 한국에 가고 싶어요","민수는 먹고 싶어해요"],ans:"민수는 먹고 싶어요 (should be 싶어해요)",hint:"민수 is 3rd person. Should use 싶어해요 (observed wanting), not 싶어요 (direct)."},
+{type:"tip",title:"Past Tense: -고 싶었다",text:"저는 가고 싶었어요.\n= I wanted to go.\n\n민수는 가고 싶어했어요.\n= Minsu wanted to go.\n\nPast tense works the same way.\n1st person: 싶었어요\n3rd person: 싶어했어요"},
+{type:"fb",s:"어렸을 때 의사가 되고 {1}.",a:"싶었어요",opts:["싶었어요","싶어했어요","싶은데","싶거든요"],hint:"When I was young, I wanted to become a doctor. 1st person past → 싶었어요."},
+{type:"mc",q:"엄마가 아들이 의사가 되고 싶어한다고 했어요. The mom said:",opts:["Her son wants to become a doctor","She wants to become a doctor","The son became a doctor","She's a doctor"],ans:"Her son wants to become a doctor",hint:"아들이 (son) 되고 싶어하다 = son wants to become. 3rd person → 싶어하다."},
+{type:"match",pairs:[{nl:"가고 싶어요 (I)",en:"I want to go"},{nl:"가고 싶어해요 (they)",en:"they want to go"},{nl:"가고 싶었어요 (I, past)",en:"I wanted to go"},{nl:"가고 싶어했어요 (they, past)",en:"they wanted to go"}]},
+{type:"drag_fill",s:"저는 한국에 {1}. 친구도 가고 {2}.",blanks:{"1":"가고 싶어요","2":"싶어해요"},pool:["가고 싶어요","싶어해요","싶어요","가게 돼요","가려고요"],hint:"I want to go to Korea. My friend also wants to go. 1st: 싶어요. 3rd: 싶어해요."},
+]},
+
+// ── L7: ★ -고 싶어하다 HARVEST ──
+{id:"kou15l7",title:"★ 3인칭 감정",icon:"🌾",xp:24,board:true,steps:[
+{type:"intro",title:"Harvesting 3rd Person Feelings",desc:"You've been seeing this pattern since Unit 9.\n\nThe full system for expressing\nothers' internal states.",goals:["Master 3rd person internal states","Apply beyond just -고 싶다","Use 좋아하다 vs 좋다 correctly","Express observations about others"]},
+{type:"tip",title:"The Full 1st/3rd Person System",text:"Internal states in Korean:\n\n| Feeling | 1st Person | 3rd Person |\n| want to | -고 싶어요 | -고 싶어해요 |\n| like | 좋아요 | 좋아해요 |\n| sad | 슬퍼요 | 슬퍼해요 |\n| happy | 기뻐요 | 기뻐해요 |\n| lonely | 외로워요 | 외로워해요 |\n| scared | 무서워요 | 무서워해요 |\n\n좋아하다 is special: it already behaves\nlike an action verb, so it works for all persons.",deepDive:"Why Korean does this:\n\nKorean epistemology:\nYou can KNOW your own internal state.\nYou can only OBSERVE others' states.\n\nThis is reflected grammatically:\n저는 슬퍼요 = I am sad (I know.)\n그는 슬퍼해요 = He seems/acts sad (I observe.)\n\nIn formal/academic Korean, this rule\nis strict. In casual speech, it's relaxed.\nBut using it correctly sounds more natural."},
+{type:"mc",q:"민수가 외로워해요 vs 민수가 외로워요. The better sentence is:",opts:["외로워해요 (observed, grammatically standard)","외로워요 (direct, more natural)","Both are equally correct in formal Korean","Neither is correct"],ans:"외로워해요 (observed, grammatically standard)",hint:"3rd person internal state → -아/어하다 is standard. You observe, not directly feel."},
+{type:"fb",s:"아이가 무서워{1}. 큰 개를 봤거든요.",a:"해요",opts:["해요","요","하는데","서"],hint:"The child seems scared. You see, they saw a big dog. 3rd person → 무서워해요."},
+{type:"mc",q:"저는 기뻐요. 민수도 기뻐해요. Why is '기뻐요' used for 저 and '기뻐해요' for 민수?",opts:["I know I'm happy (direct), I observe Minsu is happy","They're randomly different","기뻐요 is past, 기뻐해요 is present","기뻐요 is formal"],ans:"I know I'm happy (direct), I observe Minsu is happy",hint:"1st person: direct access to feelings. 3rd person: observed from outside."},
+{type:"fb",s:"학생들이 수능을 무서워{1}.",a:"해요",opts:["해요","요","하는데","해서"],hint:"Students are scared of 수능. 3rd person plural → 무서워해요."},
+{type:"teach",nl:"외롭다",en:"to be lonely",phonetic:"oe-rop-da",note:"ㅂ-irregular!\n외롭 + 어요 → 외로워요.\n3rd person: 외로워해요.",kind:"adjective"},
+{type:"teach",nl:"기쁘다",en:"to be happy, glad",phonetic:"gi-ppeu-da",note:"기뻐요 = I'm happy.\n3rd person: 기뻐해요.\n으-irregular: 으 drops.",kind:"adjective"},
+{type:"mc",q:"엄마가 기뻐하세요. The -하세요 is:",opts:["Honorific 3rd person feeling expression","Past tense","Casual speech","A request"],ans:"Honorific 3rd person feeling expression",hint:"기쁘다 (1st) → 기뻐하다 (3rd) → 기뻐하시다 (honorific 3rd). Mom is happy."},
+{type:"drag_fill",s:"저는 {1}. 하지만 친구는 {2}.",blanks:{"1":"슬퍼요","2":"기뻐해요"},pool:["슬퍼요","기뻐해요","슬퍼해요","기뻐요","슬프거든요"],hint:"I'm sad. But my friend is happy. 1st: direct. 3rd: observed."},
+{type:"match",pairs:[{nl:"저는 슬퍼요",en:"I'm sad (direct)"},{nl:"그는 슬퍼해요",en:"He seems sad (observed)"},{nl:"저는 무서워요",en:"I'm scared (direct)"},{nl:"그녀는 무서워해요",en:"She seems scared (observed)"}]},
+{type:"fb",s:"할머니가 손자를 보고 기뻐{1}.",a:"하세요",opts:["하세요","해요","요","해서"],hint:"Grandma is happy seeing her grandchild. 3rd person + honorific = 기뻐하세요."},
+{type:"mc",q:"Choose CORRECT: 'The students want to pass 수능.'",opts:["학생들이 수능에 합격하고 싶어해요","학생들이 수능에 합격하고 싶어요","학생들이 수능에 합격하게 돼요","학생들이 수능에 합격해 줘요"],ans:"학생들이 수능에 합격하고 싶어해요",hint:"Students (3rd person) want → 싶어하다."},
+]},
+
+// ── L8: 복합 문법 연습 (Combined Grammar) ──
+{id:"kou15l8",title:"복합 문법",icon:"🧩",xp:22,board:true,steps:[
+{type:"intro",title:"Combining All Patterns",desc:"Layer -아/어 주다, -게 되다,\nand 3rd person feelings naturally.",goals:["Combine Unit 15 grammar naturally","Build complex multi-grammar sentences","Use in education context","Prepare for review"]},
+{type:"mc",q:"선생님이 잘 가르쳐 주셔서 한국어를 좋아하게 됐어요. Three patterns:",opts:["-아/어 주다 (benefactive), -아/어서 (because), -게 되다 (came to)","Only -게 되다","Only -아/어 주다","Only -아/어서"],ans:"-아/어 주다 (benefactive), -아/어서 (because), -게 되다 (came to)",hint:"Teacher taught FOR me → because of that → came to like Korean. Three layers."},
+{type:"fb",s:"친구가 한국 드라마를 추천해 {1} 한국에 관심을 갖게 됐어요.",a:"줘서",opts:["줘서","봐서","해서","가서"],hint:"Because my friend recommended K-dramas FOR me, I came to be interested in Korea."},
+{type:"mc",q:"아이들이 공부하고 싶어해요. But 아이들이 공부하고 싶어요 is:",opts:["Grammatically less standard for 3rd person","More correct","The only option","Impossible"],ans:"Grammatically less standard for 3rd person",hint:"3rd person internal states should use -아/어하다 form. Though casual speech relaxes this."},
+{type:"drag_fill",s:"학원에 다니{1} 됐어요. 성적을 올리{2}요.",blanks:{"1":"게","2":"려고"},pool:["게","려고","해서","주고","면서"],hint:"I ended up attending hagwon. To raise my grades."},
+{type:"fb",s:"동생이 유학 가고 싶어{1}. 부모님이 도와 {2}.",a:"해요",opts:["해요","요","하는데","해서"],hint:"My younger sibling wants to study abroad. 3rd person → 싶어해요. Parents help → 주세요."},
+{type:"mc",q:"수능을 준비하려고 학원에 다녀요. -려고 shows:",opts:["Purpose: attending hagwon TO prepare for 수능","Result of attending hagwon","Attending while preparing","Attending but not preparing"],ans:"Purpose: attending hagwon TO prepare for 수능",hint:"-(으)려고 = in order to. The purpose is 수능 preparation."},
+{type:"match",pairs:[{nl:"-아/어 줘서",en:"because (someone) did for me"},{nl:"-게 됐어요",en:"came to / ended up"},{nl:"-고 싶어해요",en:"(they) want to"},{nl:"-(으)려고",en:"in order to"}]},
+{type:"drag_fill",s:"선생님이 설명{1} 주셔서 이해{2} 됐어요. 감사해요!",blanks:{"1":"해","2":"하게"},pool:["해","하게","해서","하면서","하는데"],hint:"Because the teacher explained FOR me, I came to understand. Thank you!"},
+{type:"mc",q:"합격하게 돼서 기뻐요. Two grammar points:",opts:["-게 되다 (ended up passing) + -아/어서 (because)","Only -게 되다","Only -아/어서","Neither"],ans:"-게 되다 (ended up passing) + -아/어서 (because)",hint:"Ended up passing, and because of that, I'm happy."},
+{type:"fb",s:"부모님이 응원해 {1} 힘을 얻었어요.",a:"줘서",opts:["줘서","봐서","게","해서"],hint:"Because my parents cheered FOR me, I gained strength. -아/어 주다 benefactive."},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou15l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 15 Review",desc:"Review benefactive, change, and 3rd person feelings.\n\n-아/어 주다, -게 되다, -고 싶어하다.",goals:["Review all Unit 15 grammar","Test -아/어 주다 benefactive","Apply -게 되다 changes","Master 1st vs 3rd person"]},
+{type:"mc",q:"도와 주세요 uses -아/어 주다 to mean:",opts:["Please do (help) FOR me","I will help","I helped already","Help is available"],ans:"Please do (help) FOR me",hint:"-아/어 주세요 = please do [action] for me."},
+{type:"fb",s:"한국에 관심을 갖{1} 됐어요.",a:"게",opts:["게","어","기로","으려고"],hint:"I came to be interested in Korea. Natural change → -게 되다."},
+{type:"mc",q:"동생이 한국에 가고 싶어해요. 싶어해요 is used because:",opts:["3rd person (동생) uses 싶어하다","1st person always uses 싶어하다","싶어요 is wrong","It's past tense"],ans:"3rd person (동생) uses 싶어하다",hint:"You observe others' desires from outside. 3rd person → 싶어하다."},
+{type:"match",pairs:[{nl:"교육",en:"education"},{nl:"학원",en:"cram school"},{nl:"수능",en:"college entrance exam"},{nl:"합격하다",en:"to pass"}]},
+{type:"fb",s:"선생님에게 도와 {1}? (humble)",a:"드릴까요",opts:["드릴까요","줄까요","줘요","주세요"],hint:"Shall I help you, teacher? To a superior → 드리다 (humble)."},
+{type:"mc",q:"한국어를 알게 됐어요 vs 한국어를 배웠어요:",opts:["Came to know (naturally) vs learned (actively)","Both mean the same","알게 is formal, 배웠 is casual","배웠 is natural, 알게 is active"],ans:"Came to know (naturally) vs learned (actively)",hint:"-게 되다 = natural change. Active verb = deliberate action."},
+{type:"drag_fill",s:"친구가 추천{1} 줘서 이 학원에 다니{2} 됐어요.",blanks:{"1":"해","2":"게"},pool:["해","게","해서","기로","으면서"],hint:"Because my friend recommended FOR me, I ended up attending this hagwon."},
+{type:"fb",s:"아이가 무서워{1}. 큰 소리가 나거든요.",a:"해요",opts:["해요","요","해서","하는데"],hint:"The child seems scared. You see, there was a loud noise. 3rd person feeling."},
+{type:"mc",q:"수능에 합격하게 돼서 기뻐해요. Who is happy?",opts:["Someone else (3rd person, because of 기뻐해요)","The speaker (1st person)","Nobody","The teacher"],ans:"Someone else (3rd person, because of 기뻐해요)",hint:"기뻐해요 = 3rd person observed happiness. For 'I'm happy': 기뻐요."},
+{type:"mc",q:"커피 사 줄게요 means:",opts:["I'll buy coffee FOR you","Buy me coffee","Coffee is free","I want coffee"],ans:"I'll buy coffee FOR you",hint:"사 주다 = buy for someone. -(으)ㄹ게요 = I will (promise to the listener)."},
+{type:"drag_fill",s:"저는 선생님이 되고 {1}. 동생은 의사가 되고 {2}.",blanks:{"1":"싶어요","2":"싶어해요"},pool:["싶어요","싶어해요","싶은데","싶거든요","싶으면"],hint:"I want to become a teacher. My sibling wants to become a doctor. 1st: 싶어요. 3rd: 싶어해요."},
+{type:"match",pairs:[{nl:"-아/어 주다",en:"do for someone"},{nl:"-게 되다",en:"come to / end up"},{nl:"-고 싶다 (1st)",en:"I want to"},{nl:"-고 싶어하다 (3rd)",en:"they want to"}]},
+]},
+
+]},
+
 ];
