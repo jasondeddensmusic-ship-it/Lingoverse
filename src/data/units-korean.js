@@ -4054,4 +4054,173 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 17 — 뉴스를 봤어요 (Passive & Causative) — B1.2
+// Grammar: Passive -이/히/리/기, Causative -이/히/리/기/우/추,
+//          ★ -았/었었 HARVEST (double past, kou10l7 seed)
+// Cultural anchor: News, current events, Korean media
+// Prerequisite: U16 (indirect speech, honorifics)
+// ═══════════════════════════════════════════════════════════
+{n:17,lang:"ko",track:"v2",title:"뉴스를 봤어요",sub:"Passive & Causative",icon:"📰",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 뉴스 어휘 (News Vocabulary) ──
+{id:"kou17l1",title:"뉴스 어휘",icon:"📺",xp:22,board:true,steps:[
+{type:"intro",title:"Korean News & Media",desc:"뉴스\n→ news\n\nKorea's vibrant media landscape.\nTV, online news, and current events.",goals:["Learn 8 news/media words","Talk about current events","Understand Korean media landscape","Use news vocabulary naturally"]},
+{type:"teach",nl:"뉴스",en:"news",phonetic:"nyu-seu",note:"Konglish from English 'news.'\n뉴스를 보다 = to watch the news.",kind:"noun"},
+{type:"teach",nl:"기사",en:"news article",phonetic:"gi-sa",note:"COMPOUND: 기(record/記) + 사(matter/事).\nRecord-matter = news article.",kind:"noun"},
+{type:"teach",nl:"사건",en:"incident, event",phonetic:"sa-geon",note:"COMPOUND: 사(matter/事) + 건(matter/件).\nMatter-matter = incident/event.",kind:"noun"},
+{type:"teach",nl:"사고",en:"accident",phonetic:"sa-go",note:"COMPOUND: 사(matter/事) + 고(event/故).\n교통사고 = traffic accident.",kind:"noun"},
+{type:"teach",nl:"경제",en:"economy",phonetic:"gyeong-je",note:"COMPOUND: 경(manage/經) + 제(aid/濟).\nManage-aid = economy.",kind:"noun"},
+{type:"teach",nl:"정치",en:"politics",phonetic:"jeong-chi",note:"COMPOUND: 정(govern/政) + 치(manage/治).\nGovern-manage = politics.",kind:"noun"},
+{type:"teach",nl:"사회",en:"society",phonetic:"sa-hoe",note:"COMPOUND: 사(company/社) + 회(gather/會).\nCompany-gather = society.",kind:"noun"},
+{type:"teach",nl:"환경",en:"environment",phonetic:"hwan-gyeong",note:"COMPOUND: 환(surround/環) + 경(boundary/境).\nSurround-boundary = environment.",kind:"noun"},
+{type:"mc",q:"기사 in a news context means:",opts:["News article","Reporter","Newspaper","Television"],ans:"News article",hint:"기(record) + 사(matter) = a recorded matter = article."},
+{type:"match",pairs:[{nl:"경제",en:"economy"},{nl:"정치",en:"politics"},{nl:"사회",en:"society"},{nl:"환경",en:"environment"}]},
+{type:"mc",q:"교통사고 means:",opts:["Traffic accident","Traffic jam","Bus stop","Train station"],ans:"Traffic accident",hint:"교통 = traffic. 사고 = accident."},
+{type:"fb",s:"오늘 뉴스에서 큰 {1}이 있었다고 해요.",a:"사건",opts:["사건","뉴스","기사","사회"],hint:"Today's news said there was a big ___. Incident/event."},
+{type:"drag_fill",s:"이 {1}에 경제 {2}가 많이 나와요.",blanks:{"1":"뉴스","2":"기사"},pool:["뉴스","기사","사건","사고","정치"],hint:"This news has many economy articles."},
+{type:"mc",q:"환경 문제 means:",opts:["Environmental issue","Social problem","Economic crisis","Political debate"],ans:"Environmental issue",hint:"환경 = environment. 문제 = problem/issue."},
+{type:"fb",s:"한국 {1}이 최근에 많이 변했어요.",a:"사회",opts:["사회","경제","정치","환경"],hint:"Korean ___ has changed a lot recently. Society."},
+{type:"match",pairs:[{nl:"뉴스",en:"news"},{nl:"기사",en:"article"},{nl:"사건",en:"incident"},{nl:"사고",en:"accident"}]},
+]},
+
+// ── L2: 피동 (Passive Voice) ──
+{id:"kou17l2",title:"피동 (Passive)",icon:"🔄",xp:26,board:true,steps:[
+{type:"intro",title:"Korean Passive Voice",desc:"문이 열렸어요.\n→ The door was opened.\n\nKorean passive uses suffix changes.\nNot 'be + past participle' like English.",goals:["Understand Korean passive suffixes","Learn -이/히/리/기 passive forms","Convert active to passive","Use passive in news contexts"]},
+{type:"tip",title:"Passive Suffixes: -이/히/리/기",text:"Korean passives change the VERB ITSELF:\n\nActive → Passive (suffix)\n보다 → 보이다 (-이) = be seen\n잡다 → 잡히다 (-히) = be caught\n열다 → 열리다 (-리) = be opened\n잠그다 → 잠기다 (-기) = be locked\n\nNo pattern for which suffix to use.\nYou must memorize each pair.\nBut groups of similar stems often\nshare the same suffix.",deepDive:"The four passive suffixes:\n\n-이: 보다→보이다, 쓰다→쓰이다, 놓다→놓이다\n-히: 잡다→잡히다, 읽다→읽히다, 먹다→먹히다\n-리: 열다→열리다, 팔다→팔리다, 들다→들리다\n-기: 잠그다→잠기다, 끊다→끊기다, 안다→안기다\n\nTrends (not rules):\nㅂ stems often take -히\nㄹ stems often take -리\nBut exceptions are common."},
+{type:"teach",nl:"열리다",en:"to be opened",phonetic:"yeol-li-da",note:"Passive of 열다 (to open).\n문이 열렸어요 = The door was opened.\nSuffix: -리.",kind:"verb"},
+{type:"teach",nl:"잡히다",en:"to be caught",phonetic:"jap-hi-da",note:"Passive of 잡다 (to catch).\n범인이 잡혔어요 = The criminal was caught.\nSuffix: -히.",kind:"verb"},
+{type:"teach",nl:"보이다",en:"to be seen, to be visible",phonetic:"bo-i-da",note:"Passive of 보다 (to see).\n산이 보여요 = The mountain is visible.\nSuffix: -이.",kind:"verb"},
+{type:"teach",nl:"들리다",en:"to be heard",phonetic:"deul-li-da",note:"Passive of 듣다 (to hear). (ㄷ→ㄹ first)\n소리가 들려요 = A sound is heard.\nSuffix: -리.",kind:"verb"},
+{type:"mc",q:"문이 열렸어요 means:",opts:["The door was opened","I opened the door","Open the door","The door is opening"],ans:"The door was opened",hint:"열리다 is passive. The door is the subject of the passive sentence."},
+{type:"fb",s:"멀리서 음악이 {1}.",a:"들려요",opts:["들려요","들어요","들리세요","듣어요"],hint:"Music is heard from far away. Passive of 듣다 → 들리다 → 들려요."},
+{type:"mc",q:"Active: 경찰이 범인을 잡았어요. Passive:",opts:["범인이 잡혔어요","범인을 잡혔어요","경찰이 잡혔어요","범인이 잡아요"],ans:"범인이 잡혔어요",hint:"잡다 → 잡히다 (passive). 범인 becomes the subject with 이/가."},
+{type:"fb",s:"여기서 한라산이 {1}.",a:"보여요",opts:["보여요","봐요","보이세요","보는데"],hint:"Hallasan is visible from here. Passive of 보다 → 보이다 → 보여요."},
+{type:"tip",title:"Active vs Passive Structure",text:"Active: [Subject]이/가 [Object]을/를 verb\n경찰이 범인을 잡았어요.\nPolice caught the criminal.\n\nPassive: [Subject]이/가 passive-verb\n범인이 잡혔어요.\nThe criminal was caught.\n\nThe object becomes the subject.\nThe original subject is often dropped."},
+{type:"mc",q:"이 책이 많이 읽혔어요 means:",opts:["This book was read a lot","I read this book a lot","This book reads a lot","Read this book a lot"],ans:"This book was read a lot",hint:"읽다 → 읽히다 (passive). The book is the subject being read."},
+{type:"match",pairs:[{nl:"열다 → 열리다",en:"open → be opened"},{nl:"잡다 → 잡히다",en:"catch → be caught"},{nl:"보다 → 보이다",en:"see → be seen"},{nl:"듣다 → 들리다",en:"hear → be heard"}]},
+{type:"fb",s:"이 제품이 한국에서 많이 {1}.",a:"팔려요",opts:["팔려요","팔아요","파는데","팔거든요"],hint:"This product is sold a lot in Korea. 팔다 → 팔리다 (passive)."},
+{type:"drag_fill",s:"뉴스에서 큰 사건이 {1}. 범인이 아직 안 {2}.",blanks:{"1":"보도됐어요","2":"잡혔어요"},pool:["보도됐어요","잡혔어요","보였어요","들렸어요","열렸어요"],hint:"A big incident was reported on the news. The criminal hasn't been caught yet."},
+{type:"mc",q:"Which is NOT a passive suffix?",opts:["-서 (and so)","이 (see → be seen)","히 (catch → be caught)","리 (open → be opened)"],ans:"-서 (and so)",hint:"-서 is a connector (because/and so). The passive suffixes are -이, -히, -리, -기."},
+]},
+
+// ── L3: 사동 (Causative Voice) ──
+{id:"kou17l3",title:"사동 (Causative)",icon:"➡️",xp:24,board:true,steps:[
+{type:"intro",title:"Making Someone Do Something",desc:"Causative: make/let someone act.\n\n아이를 먹이다.\n→ Feed the child. (Make eat.)\n\nCausative suffixes overlap with passive.",goals:["Understand Korean causative","Learn -이/히/리/기/우/추 causatives","Distinguish from passive","Use in everyday contexts"]},
+{type:"tip",title:"Causative Suffixes",text:"Causatives MAKE or LET someone do something:\n\n먹다 → 먹이다 (-이) = feed (make eat)\n읽다 → 읽히다 (-히) = make read\n알다 → 알리다 (-리) = inform (make know)\n웃다 → 웃기다 (-기) = make laugh\n자다 → 재우다 (-우) = put to sleep\n낮다 → 낮추다 (-추) = lower (make low)\n\nSame suffixes as passive, PLUS -우 and -추!\nContext tells you passive vs causative.",deepDive:"Passive vs Causative with same suffix:\n\n보이다: passive = be seen / causative = show\n먹이다: causative only = feed\n읽히다: passive = be read / causative = make read\n\nHow to tell apart:\nPassive: subject receives action\n문이 열리다 = door is opened\n\nCausative: subject causes action\n아이를 먹이다 = feed the child\n\nThe sentence structure reveals which one."},
+{type:"teach",nl:"먹이다",en:"to feed (make eat)",phonetic:"meog-i-da",note:"Causative of 먹다.\n아이에게 밥을 먹여요.\n= I feed the child rice.",kind:"verb"},
+{type:"teach",nl:"웃기다",en:"to make laugh",phonetic:"ut-gi-da",note:"Causative of 웃다 (to laugh).\n이 영화가 웃겨요.\n= This movie is funny (makes you laugh).",kind:"verb"},
+{type:"teach",nl:"알리다",en:"to inform, to notify",phonetic:"al-li-da",note:"Causative of 알다 (to know).\nMake someone know = inform.\n소식을 알려요 = I inform/notify.",kind:"verb"},
+{type:"teach",nl:"재우다",en:"to put to sleep",phonetic:"jae-u-da",note:"Causative of 자다 (to sleep).\n아이를 재워요 = I put the child to sleep.\nSuffix: -우.",kind:"verb"},
+{type:"mc",q:"먹이다 means:",opts:["To feed (make someone eat)","To be eaten","To eat a lot","To stop eating"],ans:"To feed (make someone eat)",hint:"Causative: make someone eat = feed."},
+{type:"fb",s:"이 코미디가 정말 {1}.",a:"웃겨요",opts:["웃겨요","웃어요","웃기세요","웃는데"],hint:"This comedy really makes you laugh. 웃기다 = causative of 웃다."},
+{type:"mc",q:"알리다 comes from 알다 (know). 알리다 means:",opts:["To inform (make someone know)","To be known","To forget","To not know"],ans:"To inform (make someone know)",hint:"Causative: make someone know = inform/notify."},
+{type:"fb",s:"아기를 {1}. 이제 자요.",a:"재웠어요",opts:["재웠어요","잤어요","자려고요","자면서"],hint:"I put the baby to sleep. They're sleeping now. 재우다 = causative of 자다."},
+{type:"mc",q:"Passive 보이다 (be seen) vs Causative 보이다 (show). How to tell apart?",opts:["By sentence structure: subject receives action (passive) vs causes action (causative)","They're always the same","Passive is formal, causative is casual","You can't tell"],ans:"By sentence structure: subject receives action (passive) vs causes action (causative)",hint:"산이 보여요 = mountain is seen (passive). 사진을 보여요 = show a photo (causative)."},
+{type:"teach",nl:"낮추다",en:"to lower, to reduce",phonetic:"nat-chu-da",note:"Causative of 낮다 (to be low).\n소리를 낮춰요 = Lower the volume.\nSuffix: -추.",kind:"verb"},
+{type:"fb",s:"소리를 {1}. 아기가 자고 있어요.",a:"낮춰요",opts:["낮춰요","낮아요","낮게요","낮히요"],hint:"Lower the volume. The baby is sleeping. 낮추다 = causative."},
+{type:"match",pairs:[{nl:"먹이다 (causative)",en:"feed"},{nl:"웃기다 (causative)",en:"make laugh"},{nl:"알리다 (causative)",en:"inform"},{nl:"재우다 (causative)",en:"put to sleep"}]},
+{type:"drag_fill",s:"엄마가 아이에게 밥을 {1}. 그리고 아이를 {2}.",blanks:{"1":"먹여요","2":"재워요"},pool:["먹여요","재워요","먹어요","자요","알려요"],hint:"Mom feeds the child rice. And puts the child to sleep."},
+{type:"mc",q:"뉴스에서 사건을 알렸어요. 알리다 is used because:",opts:["The news informed (made people know)","The news was known (passive)","People already knew","The news asked about it"],ans:"The news informed (made people know)",hint:"알리다 = causative of 알다. Making people know = informing."},
+]},
+
+// ── L4: 뉴스 읽기 (Reading News) ──
+{id:"kou17l4",title:"뉴스 읽기",icon:"📰",xp:22,board:true,steps:[
+{type:"intro",title:"Reading Korean News",desc:"Korean news uses passive and causative\nheavily. Also formal written style.",goals:["Read simplified Korean news sentences","Identify passive in news context","Understand news sentence patterns","Build news vocabulary"]},
+{type:"tip",title:"News Korean Features",text:"Korean news differs from conversation:\n\n1. Passive heavy: 발견됐다 (was discovered)\n2. Formal endings: -습니다/-ㅂ니다\n3. Sino-Korean vocabulary: 실시, 발표, 보도\n4. Indirect speech: ~라고 밝혔다\n5. Noun-heavy sentences\n\nDon't worry about producing this style.\nJust recognize it when reading.",deepDive:"Common news verbs (mostly passive/reported):\n\n보도되다 = be reported\n발표되다 = be announced\n발견되다 = be discovered\n개최되다 = be held (event)\n체포되다 = be arrested\n확인되다 = be confirmed\n\nThese all use 되다 passive pattern:\n한자어 + 되다 = be [action]ed"},
+{type:"teach",nl:"발표하다",en:"to announce",phonetic:"bal-pyo-ha-da",note:"COMPOUND: 발(send out/發) + 표(show/表).\nSend-out-show = announce.\nPassive: 발표되다 = be announced.",kind:"verb"},
+{type:"teach",nl:"보도하다",en:"to report (news)",phonetic:"bo-do-ha-da",note:"COMPOUND: 보(report/報) + 도(guide/導).\nReport-guide = news reporting.\nPassive: 보도되다 = be reported.",kind:"verb"},
+{type:"teach",nl:"체포하다",en:"to arrest",phonetic:"che-po-ha-da",note:"COMPOUND: 체(body/體) + 포(catch/捕).\nBody-catch = arrest.\nPassive: 체포되다 = be arrested.",kind:"verb"},
+{type:"mc",q:"범인이 체포됐어요 means:",opts:["The criminal was arrested","The criminal arrested someone","The criminal escaped","The police are searching"],ans:"The criminal was arrested",hint:"체포되다 = passive of 체포하다. The criminal is the subject receiving the action."},
+{type:"fb",s:"새로운 정책이 {1}.",a:"발표됐어요",opts:["발표됐어요","발표했어요","발표하는데","발표할까요"],hint:"A new policy was announced. Passive: 발표되다."},
+{type:"mc",q:"뉴스에서 사고가 보도됐어요. This means:",opts:["An accident was reported on the news","The news caused an accident","The accident reported the news","Someone reported to the accident"],ans:"An accident was reported on the news",hint:"보도되다 = passive of 보도하다. The accident was reported."},
+{type:"fb",s:"경제 성장률이 3%로 {1}.",a:"확인됐어요",opts:["확인됐어요","확인했어요","확인하면","확인해서"],hint:"Economic growth rate was confirmed at 3%. Passive: 확인되다."},
+{type:"match",pairs:[{nl:"발표되다",en:"be announced"},{nl:"보도되다",en:"be reported"},{nl:"체포되다",en:"be arrested"},{nl:"확인되다",en:"be confirmed"}]},
+{type:"mc",q:"한자어 + 되다 pattern creates:",opts:["Passive voice (be [action]ed)","Active voice","Future tense","Past tense"],ans:"Passive voice (be [action]ed)",hint:"되다 after a Sino-Korean action noun = passive. Very common in news."},
+{type:"drag_fill",s:"오늘 뉴스: 큰 사건이 {1}. 범인은 아직 {2}.",blanks:{"1":"보도됐어요","2":"체포되지 않았어요"},pool:["보도됐어요","체포되지 않았어요","보도했어요","체포했어요","발표했어요"],hint:"Today's news: A big incident was reported. The criminal hasn't been arrested yet."},
+{type:"fb",s:"올림픽이 서울에서 {1}.",a:"개최됐어요",opts:["개최됐어요","개최했어요","개최하는데","개최할까요"],hint:"The Olympics were held in Seoul. Passive: 개최되다."},
+{type:"mc",q:"Active: 정부가 정책을 발표했어요. Passive:",opts:["정책이 발표됐어요","정부가 발표됐어요","정책을 발표됐어요","정부를 발표했어요"],ans:"정책이 발표됐어요",hint:"The object (정책) becomes the subject. 발표하다 → 발표되다."},
+]},
+
+// ── L5: 한국 미디어 (Korean Media) ──
+{id:"kou17l5",title:"한국 미디어",icon:"📡",xp:20,board:true,steps:[
+{type:"intro",title:"Korean Media Landscape",desc:"Korea's media is diverse and influential.\n\nFrom K-drama to K-pop to news.",goals:["Understand Korean media types","Learn about Korean broadcasting","Discuss media in Korean","Apply passive/causative in context"]},
+{type:"tip",title:"Korean Broadcasting",text:"Major Korean TV networks:\n- KBS (한국방송공사): public broadcaster\n- MBC (문화방송): semi-public\n- SBS (서울방송): private\n- JTBC: cable news/drama\n- tvN: cable entertainment\n\nStreaming:\n- 넷플릭스 (Netflix): K-drama global reach\n- 왓챠 (Watcha): Korean streaming\n- 웨이브 (Wavve): KBS/MBC/SBS joint",deepDive:"K-content global impact:\n\n한류 (Korean Wave) = the spread of\nKorean pop culture globally.\n\nMilestones:\n- 2012: 강남스타일 (Gangnam Style)\n- 2020: 기생충 (Parasite) Oscar\n- 2021: 오징어 게임 (Squid Game)\n- BTS, BLACKPINK global fame\n\n한류 has made Korean language\nlearning popular worldwide."},
+{type:"teach",nl:"한류",en:"Korean Wave (Hallyu)",phonetic:"hal-lyu",note:"COMPOUND: 한(Korea/韓) + 류(flow/流).\nKorea-flow = Korean cultural wave.\nThe global spread of K-culture.",kind:"noun"},
+{type:"teach",nl:"방송",en:"broadcast, TV show",phonetic:"bang-song",note:"COMPOUND: 방(release/放) + 송(send/送).\nRelease-send = broadcast.",kind:"noun"},
+{type:"mc",q:"한류 literally means:",opts:["Korea-flow (Korean Wave)","Korea-style","Korean news","Korean drama"],ans:"Korea-flow (Korean Wave)",hint:"한(韓) = Korea. 류(流) = flow/wave. The flow of Korean culture globally."},
+{type:"fb",s:"이 드라마가 전 세계에서 {1}. 한류 덕분이에요.",a:"인기를 얻었어요",opts:["인기를 얻었어요","인기를 잃었어요","인기가 없어요","인기를 줬어요"],hint:"This drama gained popularity worldwide. Thanks to Hallyu."},
+{type:"mc",q:"기생충 (Parasite) was significant because:",opts:["First Korean film to win Academy Award for Best Picture","First Korean drama on Netflix","First K-pop song to chart globally","First Korean news broadcast"],ans:"First Korean film to win Academy Award for Best Picture",hint:"기생충 (Parasite) by 봉준호 won Best Picture at the 2020 Oscars."},
+{type:"match",pairs:[{nl:"KBS",en:"Korean public broadcaster"},{nl:"한류",en:"Korean Wave"},{nl:"방송",en:"broadcast"},{nl:"기생충",en:"Parasite (film)"}]},
+{type:"fb",s:"넷플릭스에서 한국 드라마가 많이 {1}.",a:"방송돼요",opts:["방송돼요","방송해요","방송하면서","방송하려고"],hint:"Many Korean dramas are broadcast on Netflix. Passive: 방송되다."},
+{type:"mc",q:"한류 has made Korean language learning:",opts:["Popular worldwide","Less popular","Only popular in Asia","Unpopular"],ans:"Popular worldwide",hint:"The global spread of K-pop, K-drama, and K-film has driven interest in Korean."},
+{type:"drag_fill",s:"한국 문화가 전 세계에 {1}. 이것을 {2}라고 해요.",blanks:{"1":"알려졌어요","2":"한류"},pool:["알려졌어요","한류","방송","뉴스","전해졌어요"],hint:"Korean culture became known worldwide. This is called Hallyu."},
+]},
+
+// ── L6: ★ -았/었었 HARVEST (Double Past) ──
+{id:"kou17l6",title:"★ -았/었었",icon:"🌾",xp:24,board:true,steps:[
+{type:"intro",title:"Harvesting -았/었었 (Double Past)",desc:"You've been seeing -았/었었 since Unit 10.\n\n전에 서울에 살았었어요.\n→ I used to live in Seoul (but not anymore).\n\nPast actions that are no longer true.",goals:["Master -았/었었 for discontinued past","Distinguish from simple past -았/었","Use for life changes and memories","Express 'used to' naturally"]},
+{type:"tip",title:"-았/었었 vs -았/었",text:"Simple past -았/었:\n서울에 살았어요.\n= I lived in Seoul. (maybe still do)\n\nDouble past -았/었었:\n서울에 살았었어요.\n= I used to live in Seoul. (not anymore)\n\nThe double past emphasizes that\nthe situation has CHANGED.\nIt's now OVER or DIFFERENT.",deepDive:"When to use -았/었었:\n\n1. You no longer do it:\n한국에 살았었어요. (used to live, don't now)\n\n2. Things have changed:\n이 가게가 유명했었어요. (was famous, isn't now)\n\n3. Distant memories:\n어렸을 때 여기서 놀았었어요. (played here as a child)\n\nNOTE: In casual speech, simple past\noften covers both meanings.\n-았/었었 is more precise/emphatic."},
+{type:"mc",q:"전에 한국에 살았었어요 means:",opts:["I used to live in Korea (not anymore)","I live in Korea now","I will live in Korea","I'm living in Korea"],ans:"I used to live in Korea (not anymore)",hint:"-았/었었 = discontinued past. I lived there, but that's over now."},
+{type:"fb",s:"이 식당이 전에 유명{1}. 지금은 아니에요.",a:"했었어요",opts:["했었어요","했어요","해요","하는데"],hint:"This restaurant used to be famous. Not anymore. Discontinued → -았/었었."},
+{type:"mc",q:"공부했어요 vs 공부했었어요:",opts:["First: studied (neutral). Second: used to study (not anymore).","Both mean the same","First is more emphatic","Second is present tense"],ans:"First: studied (neutral). Second: used to study (not anymore).",hint:"-았/었어요 = simple past. -았/었었어요 = discontinued past."},
+{type:"fb",s:"어렸을 때 이 공원에서 {1}.",a:"놀았었어요",opts:["놀았었어요","놀아요","놀았어요","노는데"],hint:"When I was young, I used to play in this park. Distant memory, no longer happening."},
+{type:"mc",q:"이 가수가 예전에 인기가 많았었어요. Now:",opts:["The singer is no longer popular","The singer is still popular","The singer just debuted","The singer's popularity is growing"],ans:"The singer is no longer popular",hint:"-았/었었 = discontinued past. The popularity was there before but isn't now."},
+{type:"teach",nl:"예전에",en:"in the past, before",phonetic:"ye-jeon-e",note:"예전 = old times, before.\n예전에는 = in the past (contrast with now).\nOften paired with -았/었었.",kind:"adverb"},
+{type:"fb",s:"예전에는 한국어를 못 {1}. 지금은 잘해요.",a:"했었어요",opts:["했었어요","했어요","해요","하는데"],hint:"In the past, I couldn't speak Korean. Now I'm good. Change → -았/었었."},
+{type:"mc",q:"'I used to watch this drama' in Korean:",opts:["이 드라마를 봤었어요","이 드라마를 봐요","이 드라마를 볼 거예요","이 드라마를 보는데"],ans:"이 드라마를 봤었어요",hint:"Used to (discontinued past) → -았/었었. 보다 → 봤었어요."},
+{type:"drag_fill",s:"예전에 이 동네가 조용{1}. 지금은 많이 {2}.",blanks:{"1":"했었어요","2":"변했어요"},pool:["했었어요","변했어요","해요","했어요","하는데"],hint:"This neighborhood used to be quiet. Now it's changed a lot."},
+{type:"match",pairs:[{nl:"살았어요",en:"lived (neutral past)"},{nl:"살았었어요",en:"used to live (not anymore)"},{nl:"했어요",en:"did (neutral past)"},{nl:"했었어요",en:"used to do (not anymore)"}]},
+{type:"fb",s:"한국 경제가 어려{1}. 지금은 많이 좋아졌어요.",a:"웠었어요",opts:["웠었어요","워요","웠어요","운데"],hint:"Korea's economy used to be difficult. Now it's gotten much better. 어렵다 (ㅂ-irreg) past: 어려웠었어요."},
+{type:"mc",q:"-았/었었 is most natural when:",opts:["Emphasizing that the past situation has changed","Talking about yesterday","Describing current events","Making future plans"],ans:"Emphasizing that the past situation has changed",hint:"The key use: the situation WAS true but ISN'T anymore. Change emphasis."},
+]},
+
+// ── L7: 시사 토론 (Current Events Discussion) ──
+{id:"kou17l7",title:"시사 토론",icon:"🗣️",xp:22,board:true,steps:[
+{type:"intro",title:"Discussing Current Events",desc:"Use all Unit 17 grammar\nto discuss news and events.",goals:["Discuss news using passive voice","Report events with causative","Use -았/었었 for historical changes","Combine all patterns naturally"]},
+{type:"mc",q:"경찰에 의해 범인이 체포됐어요. 의해 adds:",opts:["By (agent marker in passive)","Because","Despite","While"],ans:"By (agent marker in passive)",hint:"에 의해 = by (marks who performed the action in passive)."},
+{type:"fb",s:"이 사건이 뉴스에서 크게 {1}.",a:"보도됐어요",opts:["보도됐어요","보도했어요","보도하면서","보도하려고"],hint:"This incident was widely reported on the news. Passive."},
+{type:"mc",q:"정부가 새 법을 발표했어요 (active). Passive version:",opts:["새 법이 발표됐어요","정부가 발표됐어요","새 법을 발표됐어요","법이 발표하다"],ans:"새 법이 발표됐어요",hint:"Object (새 법) becomes subject. 발표하다 → 발표되다."},
+{type:"fb",s:"예전에 이 지역이 위험{1}. 지금은 안전해요.",a:"했었어요",opts:["했었어요","했어요","해요","하는데"],hint:"This area used to be dangerous. Now it's safe. Change → -았/었었."},
+{type:"drag_fill",s:"한류가 전 세계에 한국 문화를 {1}. 한국어 학습자가 {2}.",blanks:{"1":"알렸어요","2":"늘었어요"},pool:["알렸어요","늘었어요","알려졌어요","줄었어요","보도됐어요"],hint:"Hallyu informed the world about Korean culture (causative). Korean learners increased."},
+{type:"match",pairs:[{nl:"보도되다",en:"be reported (passive)"},{nl:"알리다",en:"inform (causative)"},{nl:"-았/었었",en:"used to (discontinued)"},{nl:"에 의해",en:"by (passive agent)"}]},
+{type:"mc",q:"이 코미디가 관객을 웃겼어요. 웃기다 here is:",opts:["Causative (made the audience laugh)","Passive (was laughed at)","Active (laughed)","Honorific (respectfully laughed)"],ans:"Causative (made the audience laugh)",hint:"웃기다 = causative of 웃다. The comedy CAUSED the audience to laugh."},
+{type:"fb",s:"한국 영화가 세계적으로 {1}. 한류의 영향이에요.",a:"알려졌어요",opts:["알려졌어요","알렸어요","알았어요","알게요"],hint:"Korean films became known worldwide. Passive: 알려지다 (become known)."},
+{type:"drag_fill",s:"예전에는 한국 문화가 잘 {1}. 지금은 전 세계에서 {2}.",blanks:{"1":"알려지지 않았었어요","2":"사랑받고 있어요"},pool:["알려지지 않았었어요","사랑받고 있어요","알려졌어요","보도됐어요","발표했어요"],hint:"Korean culture used to not be well known. Now it's loved worldwide."},
+]},
+
+// ── L8: 한국 사회 변화 (Social Changes) ──
+{id:"kou17l8",title:"한국 사회 변화",icon:"🔄",xp:20,board:true,steps:[
+{type:"intro",title:"How Korea Has Changed",desc:"Korea's rapid modernization.\n\nFrom war to tech powerhouse\nin one generation.",goals:["Discuss Korea's transformation","Use -았/었었 for historical changes","Apply passive to social changes","Understand Korea's rapid development"]},
+{type:"tip",title:"Korea's Transformation",text:"1950s: One of the poorest countries.\n2020s: 10th largest economy.\n\n한강의 기적 (Miracle on the Han River)\n\nKey changes:\n- 농업 → 제조업 → 기술 (agriculture → manufacturing → tech)\n- 교육 중심 사회 (education-focused society)\n- K-pop, K-drama: global cultural exports\n- Samsung, Hyundai, LG: global brands",deepDive:"Korea's economic miracle facts:\n\n1960 GDP per capita: ~$79\n2020 GDP per capita: ~$31,000\n\nThat's 400x growth in 60 years.\n\nKey factors:\n1. 교육 investment (education)\n2. Export-driven economy\n3. Government-corporate cooperation (재벌)\n4. Hard work culture (근면)\n5. Compressed modernization\n\nThe downside:\n- Extreme work hours\n- Education pressure\n- Birth rate crisis\n- Wealth inequality"},
+{type:"mc",q:"한강의 기적 refers to:",opts:["Korea's rapid economic development","A miracle that happened at the Han River","A famous Korean drama","A religious event"],ans:"Korea's rapid economic development",hint:"한강의 기적 = Miracle on the Han River. Korea's transformation from poverty to prosperity."},
+{type:"fb",s:"한국이 예전에 가난{1}. 지금은 선진국이에요.",a:"했었어요",opts:["했었어요","했어요","해요","하는데"],hint:"Korea used to be poor. Now it's a developed country. Discontinued past."},
+{type:"teach",nl:"발전하다",en:"to develop, to advance",phonetic:"bal-jeon-ha-da",note:"COMPOUND: 발(send out/發) + 전(unfold/展).\nSend-out-unfold = develop.\n한국이 빠르게 발전했어요.",kind:"verb"},
+{type:"teach",nl:"변하다",en:"to change",phonetic:"byeon-ha-da",note:"변(change/變) + 하다.\n세상이 많이 변했어요.\n= The world has changed a lot.",kind:"verb"},
+{type:"mc",q:"한국 사회가 빠르게 변했어요 means:",opts:["Korean society changed rapidly","Korean society is changing slowly","Korean society didn't change","Korean society will change"],ans:"Korean society changed rapidly",hint:"변하다 = to change. 빠르게 = rapidly. Past tense."},
+{type:"fb",s:"기술이 많이 {1}. 스마트폰이 생활을 바꿨어요.",a:"발전했어요",opts:["발전했어요","발전되요","발전하는데","발전할까요"],hint:"Technology has advanced a lot. Smartphones changed daily life."},
+{type:"match",pairs:[{nl:"발전하다",en:"to develop"},{nl:"변하다",en:"to change"},{nl:"한강의 기적",en:"Miracle on the Han River"},{nl:"한류",en:"Korean Wave"}]},
+{type:"drag_fill",s:"예전에 한국은 농업 국가{1}. 지금은 기술 강국으로 {2}.",blanks:{"1":"였었어요","2":"발전했어요"},pool:["였었어요","발전했어요","이에요","변하는데","했어요"],hint:"Korea used to be an agricultural country. Now it has developed into a tech powerhouse."},
+{type:"mc",q:"한국의 출산율이 세계에서 가장 낮아졌어요. This is about:",opts:["Korea's birth rate becoming the world's lowest","Korea's economy growing the fastest","Korea's education system improving","Korea's population increasing"],ans:"Korea's birth rate becoming the world's lowest",hint:"출산율 = birth rate. 가장 낮아졌어요 = became the lowest."},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou17l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 17 Review",desc:"Review passive, causative, and double past.\n\nPassive -이/히/리/기, 되다 passive.\nCausative. -았/었었 discontinued past.",goals:["Review passive voice","Test causative usage","Apply -았/었었 correctly","Complete news vocabulary"]},
+{type:"mc",q:"문이 열렸어요. This is:",opts:["Passive (the door was opened)","Active (I opened the door)","Causative (made someone open)","Future (the door will open)"],ans:"Passive (the door was opened)",hint:"열리다 = passive of 열다. The door is the subject receiving the action."},
+{type:"fb",s:"아이에게 밥을 {1}.",a:"먹여요",opts:["먹여요","먹어요","먹히요","먹이세요"],hint:"I feed the child. 먹이다 = causative of 먹다."},
+{type:"mc",q:"한국에 살았었어요 vs 한국에 살았어요:",opts:["Used to live (not anymore) vs lived (neutral)","Both mean the same","First is present, second is past","First is formal"],ans:"Used to live (not anymore) vs lived (neutral)",hint:"-았/었었 emphasizes the situation has changed. Simple past is neutral."},
+{type:"match",pairs:[{nl:"열리다",en:"be opened (passive)"},{nl:"먹이다",en:"feed (causative)"},{nl:"보도되다",en:"be reported (passive)"},{nl:"알리다",en:"inform (causative)"}]},
+{type:"fb",s:"범인이 경찰에게 {1}.",a:"잡혔어요",opts:["잡혔어요","잡았어요","잡기요","잡아요"],hint:"The criminal was caught by the police. Passive of 잡다."},
+{type:"mc",q:"한자어 + 되다 creates:",opts:["Passive (발표되다 = be announced)","Active voice","Causative","Honorific"],ans:"Passive (발표되다 = be announced)",hint:"Sino-Korean noun + 되다 = passive. Very common in news Korean."},
+{type:"drag_fill",s:"이 영화가 관객을 {1}. 전 세계에서 {2}.",blanks:{"1":"웃겼어요","2":"사랑받았어요"},pool:["웃겼어요","사랑받았어요","웃었어요","사랑했어요","보였어요"],hint:"This movie made audiences laugh (causative). It was loved worldwide (passive)."},
+{type:"fb",s:"예전에 이 지역이 위험{1}. 지금은 안전해졌어요.",a:"했었어요",opts:["했었어요","했어요","해요","하면서"],hint:"This area used to be dangerous. Now it's become safe. Discontinued past."},
+{type:"mc",q:"한류 means:",opts:["Korean Wave (global Korean culture spread)","Korean news","Korean politics","Korean Wave goodbye"],ans:"Korean Wave (global Korean culture spread)",hint:"한(Korea) + 류(flow/wave) = the global flow of Korean pop culture."},
+{type:"match",pairs:[{nl:"뉴스",en:"news"},{nl:"기사",en:"article"},{nl:"사건",en:"incident"},{nl:"한류",en:"Korean Wave"}]},
+{type:"mc",q:"소리를 낮춰요 uses 낮추다, which is:",opts:["Causative of 낮다 (make lower)","Passive of 낮다 (be lowered)","Active voice","Honorific form"],ans:"Causative of 낮다 (make lower)",hint:"낮추다 = make low/lower (causative). You're causing the volume to decrease."},
+{type:"drag_fill",s:"한국이 예전에 가난{1}. 한강의 기적으로 크게 {2}.",blanks:{"1":"했었어요","2":"발전했어요"},pool:["했었어요","발전했어요","해요","발전하는데","했어요"],hint:"Korea used to be poor. Through the Miracle on the Han River, it greatly developed."},
+]},
+
+]},
+
 ];
