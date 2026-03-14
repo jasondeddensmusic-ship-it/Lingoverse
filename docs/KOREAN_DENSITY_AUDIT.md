@@ -1,6 +1,8 @@
 # KOREAN CURRICULUM — DENSITY AUDIT (HISTORICAL)
-## ⚠️ SUPERSEDED by `KOREAN_QUALITY_AUDIT.md` for all fix work
-## This file tracks density metrics only. For the active fix plan with line numbers, see KOREAN_QUALITY_AUDIT.md.
+## ⚠️ FOR HISTORICAL REFERENCE ONLY — DO NOT USE FOR ACTIVE WORK
+## SUPERSEDED by: `KOREAN_QUALITY_AUDIT.md` (A1-A2 formatting/quality fixes)
+## SUPERSEDED by: `KOREAN_CURRICULUM_GAP_PLAN.md` (TOPIK/TTMIK grammar gaps + B1 density uplift)
+## This file preserves the original A1-A2 density metrics from before B1 was built.
 ## 91 Density Issues Across 62 of 102 Lessons | 0 CRITICAL
 ## Date: 2026-03-14 (Fresh audit, supersedes 2026-03-07)
 

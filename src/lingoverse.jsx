@@ -2759,6 +2759,59 @@ DECISION 71 — P34 Teach-Before-Test: Full Curriculum Audit Required
   Not just the blank answers — the SURROUNDING SENTENCE too.
   BATCH T for next agent: full P34 audit on all quiz cards, U1-U3 first.
 
+DECISION 72 — Korean TOPIK/TTMIK Standards Audit (2026-03-14)
+  Multi-agent audit against TOPIK I + TTMIK L1-6 found gaps.
+  Initial report claimed ~40 missing patterns. Code verification
+  found 7 false positives (죄송, 한테, 그리고, 니까, ㄹ게요, 기전에,
+  거나 all already taught). Corrected gap: ~20-25 patterns.
+  RULE: All future gap audits MUST verify against actual code,
+  not just CLAUDE.md/docs claims. Search units-korean.js directly.
+  See docs/KOREAN_TOPIK_TTMIK_AUDIT.md + KOREAN_CURRICULUM_GAP_PLAN.md.
+
+DECISION 73 — -(으)ㄹ까요/-(으)ㄹ래요 Highest A2 Gap
+  Suggestion (-(으)ㄹ까요?) and casual preference (-(으)ㄹ래요) are
+  both absent despite being high-frequency TOPIK/TTMIK patterns.
+  Seed in U4 examples, formal harvest lesson in U9.
+  These reveal Korean's suggestion vs preference distinction.
+
+DECISION 74 — Code-Verified Gap List Replaces Assumed Gaps
+  Seven patterns assumed missing were actually present. Future
+  content audits MUST grep the actual data files. GENERIC: This
+  applies to ALL languages, not just Korean. Before claiming a
+  gap, verify: does a teach card exist? Is it just in examples?
+
+DECISION 75 — Question Words Need Standalone Teach Cards
+  누구/왜/어떻게 appear in examples but lack formal teach cards
+  in U2 (Identity). Function words (P37) need teach cards.
+  These are A1 survival words. Add to U2L3-L5.
+
+DECISION 76 — Seed Registry Expansion (12 → 26)
+  14 new seeds documented with plant locations + harvest targets.
+  Seeds may appear in teach card examples/notes only (not quizzes)
+  per P34. Every seed gets a seed registry entry before planting.
+
+DECISION 77 — B1 Density Violation: 63% Below P43 Floor
+  Audit: 59/93 B1 lessons under 15 steps. U20 avg 10.9 (worst).
+  P43 target is 20-25. The "cognitively heavier" justification is
+  insufficient when sentences don't layer multiple constructs.
+  FIX: B1 density uplift. No lesson under 15 steps. Target 18-20.
+  U20 (capstone) must be strongest unit, not weakest.
+
+DECISION 78 — P46: B1+ Multi-Construct Sentence Density
+  NEW PIPELINE RULE. Every B1+ lesson must:
+  (a) Use 2+ previously-taught constructs in teach card examples
+  (b) Have 50%+ quiz sentences layering current + previous grammar
+  (c) End with a comprehensive multi-pattern final question (3+ constructs)
+  (d) Meet minimum 15 steps, target 18-22
+  GENERIC: Applies to ALL languages at B1+, not just Korean.
+
+DECISION 79 — P8 Safeguards for Contrast Lessons
+  Contrast lessons (A vs B grammar) carry inherent P8 leak risk.
+  RULES: (a) MC stems use Korean sentences, not English meta-descriptions
+  (b) FB preferred for grammar discrimination (sentence with blank)
+  (c) Hints reference decision frameworks, never grammar rules
+  (d) Distractors must be 3+ plausible Korean forms, never English glosses
+
 
 ═══════════════════════════════════════════════════════════════════════
 LINGOVERSE CONTENT PIPELINE — Mandatory Checklist for New Content

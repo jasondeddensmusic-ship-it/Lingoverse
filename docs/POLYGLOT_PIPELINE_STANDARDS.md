@@ -477,7 +477,8 @@ Every language curriculum document must maintain a seed inventory table:
 | [item] | [how it appears] | [U#] | [L#] | [natural/JRTF/notice] | [U# L#] |
 ```
 
-See the Korean curriculum document for the complete Korean seed inventory.
+See `docs/KOREAN_B1_CURRICULUM_DESIGN.md` (lines 45-64) for the 12 planted/harvested B1 seeds.
+See `docs/KOREAN_CURRICULUM_GAP_PLAN.md` for the 14 NEW seeds to be implemented (gap fill plan).
 
 ---
 
