@@ -50,15 +50,15 @@ This plan follows the owner's polyglot acquisition vision:
 |---|---------|---------|---------------|--------|
 | 1 | ~~누구 (standalone)~~ | ~~"Who" question word~~ | **DONE Sprint 1** | Teach card + exercises in U2 L9b |
 | 2 | ~~-만 (general)~~ | ~~"Only" particle~~ | **DONE Sprint 1** | Teach card + exercises in U3 L4 |
-| 3 | -(으)ㄴ 후에 | "After doing" | ABSENT | New lesson U10/U11 |
-| 4 | -자마자 | "As soon as" | ABSENT | New lesson U12/U13 |
-| 5 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 (contrast with existing -(으)ㄹ까요) |
+| 3 | ~~-(으)ㄴ 후에~~ | ~~"After doing"~~ | **DONE Sprint 3** | New lesson kou11l5b (19 steps) |
+| 4 | ~~-자마자~~ | ~~"As soon as"~~ | **DONE Sprint 3** | New lesson kou13l1b (16 steps) |
+| 5 | ~~-(으)ㄹ래요~~ | ~~Casual want/intention~~ | **DONE Sprint 2** | New lesson kou9l5b (20 steps) |
 | 6 | ~~-(으)ㄹ까요?~~ | ~~"Shall we?" suggestion~~ | **ALREADY TAUGHT** U9L5 | Full teach card line 2560 |
 | 7 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
-| 8 | -(으)ㄴ 적이 있다 | "Have done before" | ABSENT | New lesson U11/U12 |
+| 8 | ~~-(으)ㄴ 적이 있다~~ | ~~"Have done before"~~ | **DONE Sprint 3** | New lesson kou12l1b (18 steps) |
 | 9 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
-| 10 | -(으)려면 | "If you want to" | ABSENT | Add to U14 |
-| 11 | -한테서 | "From a person" | ABSENT (한테 exists, 한테서 doesn't) | Add teach card U10 |
+| 10 | ~~-(으)려면~~ | ~~"If you want to"~~ | **DONE Sprint 3** | New lesson kou14l4b (16 steps) |
+| 11 | ~~-한테서~~ | ~~"From a person"~~ | **DONE Sprint 2** | Teach card + exercises in U10L6 |
 
 ### Tier 2: Important (Expected at B1)
 
@@ -69,7 +69,7 @@ This plan follows the owner's polyglot acquisition vision:
 | 15 | -나 보다 | "I guess / it seems" | ABSENT | New lesson U19 |
 | 16 | -다가 | "While doing, then" | ABSENT | Add to U17 |
 | 17 | Narrative -(ㄴ/는)다 | Diary/writing form | ABSENT | Add to U20 |
-| 18 | -아/어도 | "Even if/though" | ABSENT | Add to U13/U14 |
+| 18 | ~~-아/어도~~ | ~~"Even if/though"~~ | **DONE Sprint 3** | New lesson kou13l1c (16 steps) |
 | 19 | -(으)ㅂ시다 | "Let's" (formal) | 1 example, no teach card | Add teach card U20 |
 | 20 | -게 (adverbial) | "In a manner of" | Only in -게 되다 combo | Add dedicated teach U15 |
 
@@ -343,11 +343,11 @@ Priority: U20 first (worst), then U19, U18, U17 upward.
 7. Add -한테서 teach cards to U10
 8. Sprinkle A2 seeds: -자마자, -다가, -나 보다, -잖아요, -아/어지다, -(으)ㄴ 후에
 
-### Sprint 3: B1 Connector Expansion
-9. Add -(으)ㄴ 후에 lesson to U11
-10. Add -(으)ㄴ 적이 있다 to U12
-11. Add -자마자 + -아/어도 to U13
-12. Add -(으)려면 to U14
+### Sprint 3: B1 Connector Expansion ✅ DONE
+9. ~~Add -(으)ㄴ 후에 lesson to U11~~ **DONE** — kou11l5b (19 steps)
+10. ~~Add -(으)ㄴ 적이 있다 to U12~~ **DONE** — kou12l1b (18 steps)
+11. ~~Add -자마자 + -아/어도 to U13~~ **DONE** — kou13l1b (16 steps) + kou13l1c (16 steps)
+12. ~~Add -(으)려면 to U14~~ **DONE** — kou14l4b (16 steps)
 
 ### Sprint 4: B1 Enrichment
 13. Add -아/어지다 + -게 to U15

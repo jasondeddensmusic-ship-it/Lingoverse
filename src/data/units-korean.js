@@ -3120,6 +3120,29 @@ export default [
   {type:"mc",q:"A: 제주도 바다가 어때요? B: 정말 예뻐요! 어때요 means:",opts:["Where is it?","How is it?","When did you go?","What is it?"],ans:"How is it?",hint:"어때요 = how is it? Asking for opinion/impression."},
 ]},
 
+// ═══ L5b: -(으)ㄴ 후에 (After Doing) ═══
+{id:"kou11l5b",title:"-(으)ㄴ 후에: 도착한 후에",icon:"⏭️",xp:22,board:true,steps:[
+  {type:"intro",title:"After Doing: -(으)ㄴ 후에",desc:"도착한 후에 전화했어요.\n→ After arriving, I called.\n\nSequence events with -(으)ㄴ 후에.",goals:["Use -(으)ㄴ 후에 to sequence events","Attach it to past-tense verb stems","Contrast with -고 나서 (A2)","Sequence travel actions naturally"]},
+  {type:"tip",title:"Sequencing: -(으)ㄴ 후에",text:"후 means 'after.' 에 marks time.\nAttach past modifier -(으)ㄴ to the verb:\n\nConsonant stem: + 은 후에\n먹다 → 먹은 후에 (after eating)\n\nVowel stem: + ㄴ 후에\n가다 → 간 후에 (after going)\n\n하다 → 한 후에 (after doing)",deepDive:{title:"-고 나서 vs -(으)ㄴ 후에",text:"-고 나서: and then (immediate sequence).\n밥을 먹고 나서 커피를 마셨어요.\nI ate, then drank coffee.\n\n-(으)ㄴ 후에: after (time gap possible).\n졸업한 후에 한국에 갔어요.\nAfter graduating, I went to Korea.\n\nBoth work for sequences.\n-(으)ㄴ 후에 feels more formal.\n-고 나서 feels more conversational.\n\n후에 can also follow nouns:\n수업 후에 = after class.\n점심 후에 = after lunch."}},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄴ 후에",en:"after doing",example:"도착한 후에 전화했어요.",exampleEn:"After arriving, I called.",note:"-(으)ㄴ 후에: after doing.\n\nConsonant: stem + 은 후에.\nVowel: stem + ㄴ 후에.\n하다 → 한 후에."},
+  {type:"teach",kind:"phrase",nl:"밥을 먹은 후에",en:"after eating",example:"밥을 먹은 후에 산책했어요.",exampleEn:"After eating, I went for a walk.",note:"먹다 → 먹은 후에.\nConsonant stem: add 은 후에."},
+  {type:"mc",q:"도착한 후에 전화했어요 means:",opts:["After arriving, I called","Before arriving, I called","While arriving, I called","I arrived and I'm calling"],ans:"After arriving, I called",hint:"-(으)ㄴ 후에 = after doing. 도착하다 → 도착한 후에."},
+  {type:"fb",s:"숙소에 도착{1} 후에 짐을 풀었어요.\n(After arriving at the lodging, I unpacked.)",a:"한",opts:["한","하는","할","했"],hint:"도착하다 → 도착한 후에. Past modifier -(으)ㄴ."},
+  {type:"teach",kind:"phrase",nl:"체크인한 후에",en:"after checking in",example:"체크인한 후에 방에 갔어요.",exampleEn:"After checking in, I went to the room.",note:"체크인하다 → 체크인한 후에.\n하다 verbs: just add ㄴ 후에."},
+  {type:"mc",q:"졸업한 후에 한국에 갔어요. What happened first?",opts:["Graduating","Going to Korea","Both at the same time","Neither is specified"],ans:"Graduating",hint:"-(으)ㄴ 후에: the verb BEFORE 후에 happens first."},
+  {type:"fb",s:"비행기에서 내{1} 후에 택시를 탔어요.\n(After getting off the plane, I took a taxi.)",a:"린",opts:["린","는","리는","렸"],hint:"내리다 → 내린 후에. Vowel stem: add ㄴ 후에."},
+  {type:"teach",kind:"phrase",nl:"예약한 후에",en:"after booking/reserving",example:"호텔을 예약한 후에 비행기표를 샀어요.",exampleEn:"After booking the hotel, I bought a plane ticket.",note:"예약하다 → 예약한 후에.\n\nCOMPOUND: 예(ahead/豫) + 약(promise/約).\nAhead-promise = reservation."},
+  {type:"mc",q:"Which is correct for 'after eating'?",opts:["먹은 후에","먹는 후에","먹을 후에","먹고 후에"],ans:"먹은 후에",hint:"-(으)ㄴ 후에 uses the PAST modifier. 먹다 (consonant) → 먹은 후에."},
+  {type:"fb",s:"표를 {1} 후에 기차를 기다렸어요.\n(After buying the ticket, I waited for the train.)",a:"산",opts:["산","사는","살","사"],hint:"사다 → 산 후에. Vowel stem: add ㄴ 후에."},
+  {type:"match",pairs:[{nl:"먹은 후에",en:"after eating"},{nl:"도착한 후에",en:"after arriving"},{nl:"본 후에",en:"after seeing"},{nl:"만난 후에",en:"after meeting"}]},
+  {type:"mc",q:"점심을 먹은 후에 커피를 마셨어요. -고 나서 version:",opts:["점심을 먹고 나서 커피를 마셨어요","점심을 먹는데 커피를 마셨어요","점심을 먹으면 커피를 마셨어요","점심을 먹어서 커피를 마셨어요"],ans:"점심을 먹고 나서 커피를 마셨어요",hint:"-고 나서 and -(으)ㄴ 후에 both mean 'after doing.' -고 나서 is more casual."},
+  {type:"fb",s:"한국에 {1} 후에 한국어를 공부하기 시작했어요.\n(After coming to Korea, I started studying Korean.)",a:"온",opts:["온","오는","올","와"],hint:"오다 → 온 후에. Vowel stem: add ㄴ."},
+  {type:"mc",q:"'After checking in, I rested in the room' — which grammar fits?",opts:["체크인한 후에 방에서 쉬었어요","체크인하고 있는 방에서 쉬었어요","체크인하면 방에서 쉬었어요","체크인하는데 방에서 쉬었어요"],ans:"체크인한 후에 방에서 쉬었어요",hint:"-(으)ㄴ 후에 for 'after doing.' 체크인하다 → 체크인한 후에."},
+  {type:"drag_fill",s:"비행기에서 {1} 후에 짐을 {2} 택시를 {3}.\n(After getting off the plane, I picked up luggage and took a taxi.)",blanks:{"1":"내린","2":"찾고","3":"탔어요"},pool:["내린","찾고","탔어요","내리는","찾은","타요"],hint:"내리다 → 내린 후에. Then 찾고 (picked up and) 탔어요 (took)."},
+  {type:"fb",s:"여행을 끝{1} 후에 사진을 정리했어요.\n(After finishing the trip, I organized photos.)",a:"낸",opts:["낸","내는","내고","났"],hint:"끝내다 → 끝낸 후에. 내다 vowel stem: add ㄴ."},
+  {type:"drag_fill",s:"KTX에서 {1} 후에 {2}한테 전화{3}.\n(After getting off the KTX, I called my friend.)",blanks:{"1":"내린","2":"친구","3":"했어요"},pool:["내린","친구","했어요","내리는","한테서","해요"],hint:"After getting off: 내린 후에. Called my friend: 친구한테 전화했어요."},
+]},
+
 // ═══ L6: -(으)ㄹ 줄 알다/모르다 ═══
 {id:"kou11l6",title:"-(으)ㄹ 줄 알다",icon:"🎯",xp:24,board:true,steps:[
   {type:"intro",title:"Know How To / Don't Know How To",desc:"-(으)ㄹ 줄 알다\n→ know how to\n\nAbility based on knowledge, not possibility.",goals:["Use -(으)ㄹ 줄 알다 for 'know how to'","Use -(으)ㄹ 줄 모르다 for 'don't know how to'","Distinguish from -(으)ㄹ 수 있다","Practice with real skills"]},
@@ -3250,6 +3273,28 @@ export default [
 {type:"match",pairs:[{nl:"사진을 찍다",en:"to take photos"},{nl:"게임을 하다",en:"to play games"},{nl:"등산을 하다",en:"to go hiking"},{nl:"요리를 하다",en:"to cook"}]},
 {type:"mc",q:"독서 breaks down as:",opts:["Read + book","Read + word","Book + read","See + text"],ans:"Read + book",hint:"독 (讀) = read. 서 (書) = book."},
 {type:"drag_fill",s:"취미가 뭐예요? 저는 {1}을 좋아하고, {2}도 즐겨요.\n(What is your hobby? I like ___, and I also enjoy ___.)",blanks:{"1":"사진","2":"독서"},pool:["사진","독서","뭐예요","취미","좋아하고"],hint:"Think: camera hobby and book hobby."},
+]},
+
+// ── L1b: -(으)ㄴ 적이 있다 (Have Done Before) ──
+{id:"kou12l1b",title:"-(으)ㄴ 적이 있다",icon:"📝",xp:24,board:true,steps:[
+  {type:"intro",title:"Have You Ever...?",desc:"한국에 간 적이 있어요.\n→ I have been to Korea (before).\n\nTalk about life experiences with -(으)ㄴ 적이 있다.",goals:["Use -(으)ㄴ 적이 있다 for 'have done before'","Use -(으)ㄴ 적이 없다 for 'have never done'","Ask about hobby experiences","Share your own experiences"]},
+  {type:"tip",title:"Experience: -(으)ㄴ 적이 있다",text:"적 means 'occasion/time.'\n있다/없다 = have/don't have.\n\nPast modifier + 적이 있다:\n= Have had the occasion of doing\n= Have done before.\n\nConsonant: stem + 은 적이 있다\nVowel: stem + ㄴ 적이 있다",deepDive:{title:"적이 있다 vs -아/어 봤어요",text:"Both translate as 'have done.'\n\n-아/어 봤어요: tried doing.\n한국 음식을 먹어 봤어요.\nI've tried eating Korean food.\n(Focus: the attempt/trying)\n\n-(으)ㄴ 적이 있다: had the experience.\n한국에 간 적이 있어요.\nI have been to Korea.\n(Focus: the fact it happened)\n\nIn daily speech, Koreans often use\n-아/어 봤어요 more casually.\n-(으)ㄴ 적이 있다 sounds slightly\nmore formal or deliberate."}},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄴ 적이 있다",en:"have done before / have experienced",example:"한국에 간 적이 있어요.",exampleEn:"I have been to Korea (before).",note:"-(으)ㄴ 적이 있다: have done before.\n\nConsonant: + 은 적이 있다.\nVowel: + ㄴ 적이 있다.\n하다 → 한 적이 있다."},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄴ 적이 없다",en:"have never done",example:"스키를 탄 적이 없어요.",exampleEn:"I have never skied.",note:"-(으)ㄴ 적이 없다: have never done.\n\nJust swap 있다 for 없다.\n없다 = don't have (the experience)."},
+  {type:"mc",q:"한국에 간 적이 있어요 means:",opts:["I have been to Korea","I am going to Korea","I went to Korea yesterday","I want to go to Korea"],ans:"I have been to Korea",hint:"-(으)ㄴ 적이 있다 = have done before. Life experience, not specific trip."},
+  {type:"fb",s:"김치를 만{1} 적이 있어요?\n(Have you ever made kimchi?)",a:"든",opts:["든","드는","들","들어"],hint:"만들다 → 만든 적이 있다. ㄹ drops, add ㄴ."},
+  {type:"mc",q:"스키를 탄 적이 없어요 means:",opts:["I have never skied","I don't want to ski","I can't ski","I skied before"],ans:"I have never skied",hint:"-(으)ㄴ 적이 없다 = have NEVER done. 없다 = don't have the experience."},
+  {type:"teach",kind:"phrase",nl:"등산한 적이 있어요",en:"I have gone hiking before",example:"설악산에서 등산한 적이 있어요.",exampleEn:"I have hiked at Seoraksan before.",note:"등산하다 → 등산한 적이 있어요.\n하다 verbs: just add ㄴ 적이 있다."},
+  {type:"fb",s:"한국 드라마를 {1} 적이 있어요?\n(Have you ever watched a Korean drama?)",a:"본",opts:["본","보는","볼","봤"],hint:"보다 → 본 적이 있다. Vowel stem: add ㄴ."},
+  {type:"mc",q:"'I have never cooked Korean food' — which is correct?",opts:["한국 음식을 요리한 적이 없어요","한국 음식을 요리한 적이 있어요","한국 음식을 요리하는 적이 없어요","한국 음식을 요리할 적이 없어요"],ans:"한국 음식을 요리한 적이 없어요",hint:"Have NEVER = -(으)ㄴ 적이 없다. 요리하다 → 요리한 적이 없어요."},
+  {type:"match",pairs:[{nl:"간 적이 있다",en:"have been (gone)"},{nl:"먹은 적이 있다",en:"have eaten"},{nl:"본 적이 있다",en:"have seen"},{nl:"한 적이 없다",en:"have never done"}]},
+  {type:"fb",s:"제주도에 {1} 적이 있어요. 정말 예뻤어요.\n(I have been to Jeju before. It was really pretty.)",a:"간",opts:["간","가는","갈","갔"],hint:"가다 → 간 적이 있다. Vowel stem: add ㄴ."},
+  {type:"mc",q:"How do you ask 'Have you ever played a Korean game?'",opts:["한국 게임을 한 적이 있어요?","한국 게임을 하는 적이 있어요?","한국 게임을 할 적이 있어요?","한국 게임을 했어요?"],ans:"한국 게임을 한 적이 있어요?",hint:"하다 → 한 적이 있다. Past modifier + 적이 있다."},
+  {type:"fb",s:"사진을 {1} 적이 있어요? 취미로요.\n(Have you ever taken photos? As a hobby.)",a:"찍은",opts:["찍은","찍는","찍을","찍고"],hint:"찍다 → 찍은 적이 있다. Consonant stem: add 은."},
+  {type:"mc",q:"A: 번지점프를 한 적이 있어요? B: 아니요, ____.",opts:["한 적이 없어요","할 적이 없어요","하는 적이 없어요","했어요"],ans:"한 적이 없어요",hint:"Negative answer: -(으)ㄴ 적이 없어요. Same form, swap 있다 → 없다."},
+  {type:"drag_fill",s:"저는 한국 노래를 {1} 적이 있어요. 노래방에서 {2} 봤어요.\n(I have sung Korean songs before. I tried singing at noraebang.)",blanks:{"1":"부른","2":"불러"},pool:["부른","불러","부르는","불렀","부를","봤어요"],hint:"부르다 → 부른 (past mod). 불러 봤어요 (tried doing). ㅡ drops for 르 irregular."},
+  {type:"fb",s:"외국에서 {1} 적이 있어요? 어디에서 살았어요?\n(Have you ever lived abroad? Where did you live?)",a:"산",opts:["산","사는","살","살았"],hint:"살다 → 산 적이 있다. ㄹ drops, add ㄴ."},
+  {type:"drag_fill",s:"{1}에 {2} 적이 있어요. 도착{3} 후에 바로 맛집에 갔어요.\n(I have been to Busan before. After arriving, I went to a famous restaurant right away.)",blanks:{"1":"부산","2":"간","3":"한"},pool:["부산","간","한","가는","하는","서울"],hint:"부산에 간 적이 있어요. 도착한 후에 (after arriving) layers two B1 patterns."},
 ]},
 
 // ── L2: 더/덜/가장 (Comparison Words) ──
@@ -3455,6 +3500,46 @@ export default [
 {type:"match",pairs:[{nl:"그리고",en:"and, also"},{nl:"하지만",en:"but, however"},{nl:"아니면",en:"or, otherwise"},{nl:"그러니까",en:"so, that's why"}]},
 {type:"drag_fill",s:"비가 많이 와요. {1} 우산이 없어요. {2} 택시를 타요.\n(It's raining a lot. ___ I don't have an umbrella. ___ I take a taxi.)",blanks:{"1":"그런데","2":"그래서"},pool:["그런데","그래서","그래도","그러면","하지만"],hint:"It's raining a lot. BUT I don't have an umbrella. SO I take a taxi."},
 {type:"mc",q:"그래서 vs 그러니까. What's the difference?",opts:["그러니까 is stronger/more emphatic","그래서 is more formal","They're completely different meanings","그러니까 is used for contrast"],ans:"그러니까 is stronger/more emphatic",hint:"Both mean 'so/therefore.' 그러니까 adds emphasis: 'that's WHY!'"},
+]},
+
+// ── L1b: -자마자 (As Soon As) ──
+{id:"kou13l1b",title:"-자마자: 도착하자마자",icon:"⚡",xp:22,board:true,steps:[
+  {type:"intro",title:"As Soon As: -자마자",desc:"집에 도착하자마자 잠들었어요.\n→ As soon as I got home, I fell asleep.\n\nConnect two events that happen one right after another.",goals:["Use -자마자 for 'as soon as'","Attach to verb stems directly","Sequence rapid events naturally","Combine with past tense and other connectors"]},
+  {type:"tip",title:"Instant Sequence: -자마자",text:"-자마자 attaches directly to the verb stem.\nNo tense marker needed.\n\nAny verb stem + 자마자:\n도착하다 → 도착하자마자\n먹다 → 먹자마자\n보다 → 보자마자\n일어나다 → 일어나자마자\n\nThe main clause usually uses past tense.",deepDive:{title:"-자마자 vs -(으)ㄴ 후에",text:"-자마자: IMMEDIATELY after. No gap.\n집에 오자마자 샤워했어요.\nAs soon as I got home, I showered.\n\n-(으)ㄴ 후에: after. Time gap possible.\n집에 온 후에 샤워했어요.\nAfter getting home, I showered.\n\n-자마자 implies urgency or speed.\n-(으)ㄴ 후에 is neutral about timing.\n\n-고 나서: sequential, neutral.\n집에 오고 나서 샤워했어요.\nI came home, then showered."}},
+  {type:"teach",kind:"grammar",nl:"-자마자",en:"as soon as",example:"집에 도착하자마자 잠들었어요.",exampleEn:"As soon as I got home, I fell asleep.",note:"-자마자: as soon as.\n\nVerb stem + 자마자.\nNo consonant/vowel distinction.\nNo tense on the first verb."},
+  {type:"mc",q:"집에 도착하자마자 잠들었어요 means:",opts:["As soon as I got home, I fell asleep","After getting home, I eventually slept","Before going home, I was sleepy","While going home, I fell asleep"],ans:"As soon as I got home, I fell asleep",hint:"-자마자 = as soon as. Immediate sequence."},
+  {type:"fb",s:"일어나{1} 커피를 마셨어요.\n(As soon as I woke up, I drank coffee.)",a:"자마자",opts:["자마자","고 나서","ㄴ 후에","면서"],hint:"As soon as = -자마자. Attaches directly to stem."},
+  {type:"teach",kind:"phrase",nl:"문을 열자마자",en:"as soon as (I) opened the door",example:"문을 열자마자 고양이가 나갔어요.",exampleEn:"As soon as I opened the door, the cat went out.",note:"열다 → 열자마자.\nDirect attachment. No tense change."},
+  {type:"mc",q:"Which means 'as soon as I saw'?",opts:["보자마자","본 후에","보면서","보고 나서"],ans:"보자마자",hint:"-자마자 = as soon as. 보다 → 보자마자."},
+  {type:"fb",s:"수업이 끝나{1} 학생들이 나갔어요.\n(As soon as class ended, the students left.)",a:"자마자",opts:["자마자","고","면","는데"],hint:"As soon as class ended = 끝나자마자."},
+  {type:"mc",q:"회사에 도착하자마자 회의가 시작됐어요 means:",opts:["As soon as I arrived at work, the meeting started","After arriving at work, the meeting ended","I arrived at work during the meeting","I have to arrive at work before the meeting"],ans:"As soon as I arrived at work, the meeting started",hint:"-자마자 = as soon as. Immediate sequence of events."},
+  {type:"match",pairs:[{nl:"먹자마자",en:"as soon as (I) ate"},{nl:"도착하자마자",en:"as soon as (I) arrived"},{nl:"일어나자마자",en:"as soon as (I) woke up"},{nl:"끝나자마자",en:"as soon as it ended"}]},
+  {type:"fb",s:"비행기에서 내리{1} 친구한테 전화했어요.\n(As soon as I got off the plane, I called my friend.)",a:"자마자",opts:["자마자","고 나서","ㄴ 후에","는데"],hint:"As soon as I got off = 내리자마자. Immediate action."},
+  {type:"mc",q:"'As soon as the movie started, I fell asleep' — which is correct?",opts:["영화가 시작하자마자 잠들었어요","영화가 시작한 자마자 잠들었어요","영화를 시작자마자 잠들었어요","영화가 시작하면 잠들었어요"],ans:"영화가 시작하자마자 잠들었어요",hint:"-자마자 attaches to the bare stem. No tense markers."},
+  {type:"fb",s:"졸업하{1} 취직했어요.\n(As soon as I graduated, I got a job.)",a:"자마자",opts:["자마자","ㄴ 후에","고 있다","면서"],hint:"As soon as graduating = 졸업하자마자."},
+  {type:"drag_fill",s:"KTX에서 {1} 부산역에 {2} 해물탕을 {3}.\n(As soon as I got off the KTX and arrived at Busan station, I ate haemultang.)",blanks:{"1":"내리자마자","2":"도착해서","3":"먹었어요"},pool:["내리자마자","도착해서","먹었어요","내린","도착하고","먹자마자"],hint:"As soon as getting off: 내리자마자. Arrived so: 도착해서. Ate: 먹었어요."},
+  {type:"mc",q:"눈을 뜨자마자 핸드폰을 봤어요 means:",opts:["As soon as I opened my eyes, I looked at my phone","After opening my eyes, I lost my phone","While my eyes were open, I used my phone","Before opening my eyes, I checked my phone"],ans:"As soon as I opened my eyes, I looked at my phone",hint:"눈을 뜨다 = open eyes. -자마자 = as soon as."},
+  {type:"drag_fill",s:"알람이 {1} 일어나{2} 커피를 {3}.\n(As soon as the alarm rang, I got up and made coffee.)",blanks:{"1":"울리자마자","2":"서","3":"만들었어요"},pool:["울리자마자","서","만들었어요","울리고","자마자","만들자마자"],hint:"Alarm rang as-soon-as: 울리자마자. Got up and (so): 일어나서. Made coffee: 만들었어요."},
+]},
+
+// ── L1c: -아/어도 (Even If/Though) ──
+{id:"kou13l1c",title:"-아/어도: 비가 와도",icon:"🌧️",xp:22,board:true,steps:[
+  {type:"intro",title:"Even If/Though: -아/어도",desc:"비가 와도 괜찮아요.\n→ Even if it rains, it's okay.\n\nExpress concession: something is true despite a condition.",goals:["Use -아/어도 for 'even if/though'","Follow vowel harmony for attachment","Express persistence despite obstacles","Combine with other connectors"]},
+  {type:"tip",title:"Concession: -아/어도",text:"-아/어도: even if / even though.\nFollows standard vowel harmony:\n\nㅏ/ㅗ stems: + 아도\n가다 → 가도 (even if I go)\n오다 → 와도 (even if it comes)\n\nOther vowels: + 어도\n먹다 → 먹어도 (even if I eat)\n배우다 → 배워도 (even if I learn)\n\n하다 → 해도 (even if I do)",deepDive:{title:"-아/어도 vs -지만",text:"-지만: simple contrast. Two facts.\n비싸지만 맛있어요.\nIt's expensive, but tasty.\n\n-아/어도: concession. Condition doesn't matter.\n비싸도 살 거예요.\nEven if it's expensive, I'll buy it.\n\n-지만 states both sides neutrally.\n-아/어도 says the first part WON'T\nchange the second part.\n\n비가 와도 갈 거예요.\nEven if it rains, I'll go.\n(Rain can't stop me.)"}},
+  {type:"teach",kind:"grammar",nl:"-아/어도",en:"even if / even though",example:"비가 와도 괜찮아요.",exampleEn:"Even if it rains, it's okay.",note:"-아/어도: even if, even though.\n\nVowel harmony applies:\nㅏ/ㅗ → 아도. Others → 어도.\n하다 → 해도."},
+  {type:"mc",q:"비가 와도 괜찮아요 means:",opts:["Even if it rains, it's okay","Because it rains, it's okay","When it rains, it's okay","It rained so it's okay"],ans:"Even if it rains, it's okay",hint:"-아/어도 = even if/though. The rain doesn't change the outcome."},
+  {type:"fb",s:"바빠{1} 운동해요.\n(Even though I'm busy, I exercise.)",a:"도",opts:["도","서","면","지만"],hint:"바쁘다 → 바빠도. Even though busy = -아도."},
+  {type:"teach",kind:"phrase",nl:"비싸도 살 거예요",en:"even if it's expensive, I'll buy it",example:"이 가방이 비싸도 살 거예요.",exampleEn:"Even if this bag is expensive, I'll buy it.",note:"비싸다 → 비싸도.\nVowel ㅏ: add 도 directly.\n(비싸 already ends in 아)"},
+  {type:"mc",q:"피곤해도 공부해야 돼요 means:",opts:["Even though I'm tired, I have to study","Because I'm tired, I should study","If I'm tired, I can study","I'm tired so I'll study"],ans:"Even though I'm tired, I have to study",hint:"-아/어도 = even though. 피곤하다 → 피곤해도."},
+  {type:"fb",s:"한국어가 어려{1} 재미있어요.\n(Even though Korean is hard, it's fun.)",a:"워도",opts:["워도","우면","워서","운데"],hint:"어렵다 → 어려워도 (ㅂ irregular). Even though it's hard."},
+  {type:"mc",q:"Which means 'even if I eat a lot'?",opts:["많이 먹어도","많이 먹으면","많이 먹어서","많이 먹는데"],ans:"많이 먹어도",hint:"-아/어도 = even if. 먹다 → 먹어도."},
+  {type:"match",pairs:[{nl:"가도",en:"even if (I) go"},{nl:"먹어도",en:"even if (I) eat"},{nl:"비싸도",en:"even if expensive"},{nl:"해도",en:"even if (I) do"}]},
+  {type:"fb",s:"돈이 없{1} 행복해요.\n(Even though I don't have money, I'm happy.)",a:"어도",opts:["어도","으면","어서","는데"],hint:"없다 → 없어도. Even if there isn't."},
+  {type:"mc",q:"시간이 없어도 한국어를 공부해요 means:",opts:["Even if I don't have time, I study Korean","If I don't have time, I can't study Korean","Because I don't have time, I study Korean","When I don't have time, I study Korean"],ans:"Even if I don't have time, I study Korean",hint:"-아/어도: the lack of time doesn't change the action."},
+  {type:"fb",s:"날씨가 추{1} 밖에 나갈 거예요.\n(Even if the weather is cold, I'll go outside.)",a:"워도",opts:["워도","우면","워서","운데"],hint:"춥다 → 추워도 (ㅂ irregular). Even if cold."},
+  {type:"mc",q:"맛이 없어도 다 먹었어요 means:",opts:["Even though it didn't taste good, I ate it all","Because it didn't taste good, I ate it all","If it doesn't taste good, I'll eat it all","It tasted good so I ate it all"],ans:"Even though it didn't taste good, I ate it all",hint:"-아/어도 = even though. Past in main clause: 먹었어요."},
+  {type:"drag_fill",s:"비가 {1} 우산이 {2} 학교에 {3}.\n(Even if it rains, even if I don't have an umbrella, I'll go to school.)",blanks:{"1":"와도","2":"없어도","3":"갈 거예요"},pool:["와도","없어도","갈 거예요","오면","없으면","가요"],hint:"Even if rain comes: 와도. Even if no umbrella: 없어도. I'll go: 갈 거예요."},
+  {type:"drag_fill",s:"한국어가 {1} 포기하지 않을 거예요. 매일 {2} 공부{3}.\n(Even if Korean is hard, I won't give up. I'll study every day.)",blanks:{"1":"어려워도","2":"조금씩","3":"할 거예요"},pool:["어려워도","조금씩","할 거예요","어려우면","많이","했어요"],hint:"Even if hard: 어려워도. Little by little: 조금씩. Will study: 공부할 거예요."},
 ]},
 
 // ── L2: ★ -는데 HARVEST ──
@@ -3691,6 +3776,26 @@ export default [
 {type:"match",pairs:[{nl:"가려고",en:"in order to go"},{nl:"먹으려고",en:"in order to eat"},{nl:"하려고",en:"in order to do"},{nl:"보려고",en:"in order to see"}]},
 {type:"fb",s:"승진{1} 열심히 일해요.\n(I work hard ___ get promoted.)",a:"하려고",opts:["하려고","하면서","하는데","해야"],hint:"I work hard in order to get promoted."},
 {type:"mc",q:"마감까지 끝내려고 야근했어요 means:",opts:["I worked overtime to finish by the deadline","I worked overtime because of the deadline","I must finish by the deadline","I don't want to work overtime"],ans:"I worked overtime to finish by the deadline",hint:"-(으)려고 = in order to. Purpose: finish by deadline."},
+]},
+
+// ── L4b: -(으)려면 (If You Want To) ──
+{id:"kou14l4b",title:"-(으)려면: 승진하려면",icon:"🎯",xp:22,board:true,steps:[
+  {type:"intro",title:"If You Want To: -(으)려면",desc:"한국어를 잘하려면 매일 연습하세요.\n→ If you want to be good at Korean, practice daily.\n\nCombines purpose (-(으)려고) + condition (-(으)면).",goals:["Use -(으)려면 for 'if you want to'","Recognize it as -(으)려고 + -(으)면","Give advice using -(으)려면","Use in workplace contexts"]},
+  {type:"tip",title:"Purpose + Condition: -(으)려면",text:"You know -(으)려고: in order to.\nYou know -(으)면: if.\n\n-(으)려고 + -(으)면 = -(으)려면:\n= if you intend to = if you want to.\n\nConsonant: stem + 으려면\n먹다 → 먹으려면\n\nVowel: stem + 려면\n가다 → 가려면\n\n하다 → 하려면",deepDive:{title:"-(으)려면 Usage Patterns",text:"-(으)려면 is almost always followed\nby advice, requirements, or conditions:\n\n승진하려면 열심히 일해야 돼요.\nIf you want a promotion, work hard.\n\n건강하려면 운동하세요.\nIf you want to be healthy, exercise.\n\nThe main clause often uses:\n-아/어야 하다 (must)\n-(으)세요 (please do)\n-는 게 좋다 (it's good to)\n\nVery natural for giving advice."}},
+  {type:"teach",kind:"grammar",nl:"-(으)려면",en:"if you want to / in order to (conditional)",example:"한국어를 잘하려면 매일 연습하세요.",exampleEn:"If you want to be good at Korean, practice daily.",note:"-(으)려면: if you want to.\n\nConsonant: + 으려면.\nVowel: + 려면.\n하다 → 하려면.\n\n= -(으)려고 + -(으)면 combined."},
+  {type:"mc",q:"한국어를 잘하려면 매일 연습하세요 means:",opts:["If you want to be good at Korean, practice daily","Because you're good at Korean, practice daily","In order to practice, learn Korean","Even if you practice Korean daily, it's hard"],ans:"If you want to be good at Korean, practice daily",hint:"-(으)려면 = if you want to. Followed by advice."},
+  {type:"fb",s:"승진하{1} 열심히 일해야 돼요.\n(If you want a promotion, you have to work hard.)",a:"려면",opts:["려면","려고","면서","는데"],hint:"승진하다 → 승진하려면. If you want to get promoted."},
+  {type:"teach",kind:"phrase",nl:"건강하려면",en:"if you want to be healthy",example:"건강하려면 운동하세요.",exampleEn:"If you want to be healthy, exercise.",note:"건강하다 → 건강하려면.\n하다 verbs: stem + 려면."},
+  {type:"mc",q:"살을 빼려면 뭘 해야 돼요? This question asks:",opts:["What should I do if I want to lose weight?","Why did I gain weight?","How much weight did I lose?","When did I start dieting?"],ans:"What should I do if I want to lose weight?",hint:"-(으)려면 = if you want to. 살을 빼다 = lose weight."},
+  {type:"fb",s:"좋은 회사에 들어가{1} 자격증이 필요해요.\n(If you want to get into a good company, you need certifications.)",a:"려면",opts:["려면","려고","면서","고"],hint:"들어가다 → 들어가려면. If you want to enter."},
+  {type:"mc",q:"Which means 'if you want to learn quickly'?",opts:["빨리 배우려면","빨리 배워서","빨리 배우면서","빨리 배우는데"],ans:"빨리 배우려면",hint:"배우다 → 배우려면. If you want to learn."},
+  {type:"match",pairs:[{nl:"가려면",en:"if you want to go"},{nl:"먹으려면",en:"if you want to eat"},{nl:"하려면",en:"if you want to do"},{nl:"알려면",en:"if you want to know"}]},
+  {type:"fb",s:"한국에서 일하{1} 비자가 있어야 돼요.\n(If you want to work in Korea, you need a visa.)",a:"려면",opts:["려면","면서","려고","는데"],hint:"일하다 → 일하려면. If you want to work."},
+  {type:"mc",q:"회의에 참석하려면 미리 준비해야 돼요 means:",opts:["If you want to attend the meeting, prepare in advance","I attended the meeting because I prepared","After attending the meeting, I prepared","While preparing, I attended the meeting"],ans:"If you want to attend the meeting, prepare in advance",hint:"-(으)려면 = if you want to. 참석하다 = attend."},
+  {type:"fb",s:"TOPIK 시험에 합격하{1} 많이 공부해야 돼요.\n(If you want to pass the TOPIK exam, you have to study a lot.)",a:"려면",opts:["려면","면","려고","서"],hint:"합격하다 → 합격하려면. If you want to pass."},
+  {type:"mc",q:"맛있는 음식을 먹으려면 어디에 가야 돼요? This asks:",opts:["Where should I go if I want to eat delicious food?","Where did I eat delicious food?","Why is the food delicious?","How do I cook delicious food?"],ans:"Where should I go if I want to eat delicious food?",hint:"먹다 → 먹으려면. If you want to eat. Consonant stem: 으려면."},
+  {type:"drag_fill",s:"{1} 매일 열심히 {2}. 포기하지 {3}.\n(If you want to succeed, work hard every day. Don't give up.)",blanks:{"1":"성공하려면","2":"노력하세요","3":"마세요"},pool:["성공하려면","노력하세요","마세요","성공해서","노력하고","않아요"],hint:"If you want to succeed: 성공하려면. Work hard: 노력하세요. Don't: -지 마세요."},
+  {type:"drag_fill",s:"좋은 {1} 받{2} 야근도 {3} 돼요.\n(If you want to get a good evaluation, you have to work overtime too.)",blanks:{"1":"평가를","2":"으려면","3":"해야"},pool:["평가를","으려면","해야","평가는","으면","하고"],hint:"Good evaluation: 좋은 평가를. If you want to receive: 받으려면. Must also overtime: 야근도 해야 돼요."},
 ]},
 
 // ── L5: 회식 문화 (After-Work Culture) ──
