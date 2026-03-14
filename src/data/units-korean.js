@@ -2932,4 +2932,227 @@ export default [
 
 ]},
 
+// ╔══════════════════════════════════════════════════════════╗
+// ║  KOREAN B1 — TOPIK 3 / CEFR B1 / TTMIK L5-9           ║
+// ║  Units 11-20 (10 units, ~94 lessons)                    ║
+// ║  Speech levels: U11-U16 해요체+합쇼체+반말               ║
+// ║                 U17-U20 + register switching             ║
+// ╚══════════════════════════════════════════════════════════╝
+
+// ═══════════════════════════════════════════════
+// UNIT 11: 여행 가요! (Let's Travel!)
+// B1.1 — Travel, Progressive & Experiential
+// HARVESTS: -고 있다 (from kou9l6), ㅎ-irregular (from kou6l5)
+// ═══════════════════════════════════════════════
+{n:11,lang:"ko",track:"v2",title:"여행 가요!",sub:"Travel, Progressive & Experiential",icon:"🧳",level:"B1.1",color:"#6C5CE7",lessons:[
+
+// ═══ L1: 여행 준비 (Trip Prep) ═══
+{id:"kou11l1",title:"여행 준비",icon:"✈️",xp:22,board:true,steps:[
+  {type:"intro",title:"Getting Ready to Travel",desc:"여행\n→ travel / trip\n\nPack your bags. Korea awaits.",goals:["Learn essential travel vocabulary","Know transportation words","Use 예약하다 (to reserve)","Cultural context: Korean domestic travel"]},
+  {type:"teach",kind:"word",nl:"여행",en:"travel / trip",phonetic:"yeo-haeng",example:"여행을 좋아해요.",exampleEn:"I like traveling.",note:"여행 (旅行): travel / trip.\nCOMPOUND: 여 (travel) + 행 (go).",deepDive:{title:"Types of 여행",text:"해외여행: overseas travel.\n국내여행: domestic travel.\n배낭여행: backpacking.\n신혼여행: honeymoon."}},
+  {type:"teach",kind:"word",nl:"여행하다",en:"to travel",example:"한국에서 여행했어요.",exampleEn:"I traveled in Korea.",note:"여행하다: to travel.\n여행 + 하다 = noun + do."},
+  {type:"teach",kind:"word",nl:"호텔",en:"hotel",example:"호텔을 예약했어요.",exampleEn:"I booked a hotel.",note:"호텔: hotel (Konglish).\n호텔 or 숙소 (accommodation)."},
+  {type:"teach",kind:"word",nl:"예약하다",en:"to reserve / book",phonetic:"ye-yak-ha-da",example:"비행기표를 예약했어요.",exampleEn:"I booked a plane ticket.",note:"예약 (豫約): reservation.\nCOMPOUND: 예 (beforehand) + 약 (promise).",deepDive:{title:"Using 예약하다",text:"호텔을 예약하다: book a hotel.\n식당을 예약하다: reserve a restaurant.\n예약 취소: cancel a reservation.\n\n인터넷으로 예약했어요.\n= I booked online."}},
+  {type:"teach",kind:"word",nl:"비행기",en:"airplane",phonetic:"bi-haeng-gi",example:"비행기로 제주도에 가요.",exampleEn:"I go to Jeju by airplane.",note:"비행기 (飛行機): airplane.\nCOMPOUND: 비 (fly) + 행 (go) + 기 (machine).",deepDive:{title:"Travel Transport Words",text:"비행기: airplane.\n기차: train.\n버스: bus.\n택시: taxi.\n배: ship/boat.\n\n비행기표: plane ticket.\n탑승권: boarding pass."}},
+  {type:"teach",kind:"word",nl:"여권",en:"passport",phonetic:"yeo-gwon",example:"여권을 가져왔어요?",exampleEn:"Did you bring your passport?",note:"여권 (旅券): passport.\nCOMPOUND: 여 (travel) + 권 (ticket/certificate)."},
+  {type:"teach",kind:"word",nl:"짐",en:"luggage / baggage",example:"짐을 싸야 해요.",exampleEn:"I need to pack my luggage.",note:"짐: luggage, baggage, things to carry.\n짐을 싸다: to pack.\n짐을 풀다: to unpack."},
+  {type:"mc",q:"여행 = 여 + 행. 행 means:",opts:["Go","Travel","Fly","Stay"],ans:"Go",hint:"행 (行) = go/business. 여행 = travel + go = a trip."},
+  {type:"mc",q:"예약하다 means:",opts:["To cancel","To pack","To reserve","To arrive"],ans:"To reserve",hint:"예 (beforehand) + 약 (promise) = reservation. 예약하다 = to reserve."},
+  {type:"mc",q:"비행기 = 비 + 행 + 기. 비 means:",opts:["Fly","Big","Fast","High"],ans:"Fly",hint:"비 (飛) = fly. 비행기 = fly + go + machine = airplane."},
+  {type:"fb",s:"호텔을 ___했어요. (I booked a hotel.)",a:"예약",opts:["예약","여행","출발","도착"],hint:"예약 = reservation. To book = 예약하다."},
+  {type:"fb",s:"___을 싸야 해요. (I need to pack luggage.)",a:"짐",opts:["짐","여권","표","돈"],hint:"The word for luggage/baggage. 싸다 = to pack."},
+  {type:"match",pairs:[{nl:"여행",en:"travel/trip"},{nl:"예약",en:"reservation"},{nl:"비행기",en:"airplane"},{nl:"여권",en:"passport"}]},
+  {type:"teach",kind:"word",nl:"출발",en:"departure",phonetic:"chul-bal",example:"출발 시간이 몇 시예요?",exampleEn:"What time is the departure?",note:"출발 (出發): departure.\nCOMPOUND: 출 (exit) + 발 (start/release)."},
+  {type:"teach",kind:"word",nl:"도착",en:"arrival",phonetic:"do-chak",example:"도착했어요!",exampleEn:"I arrived!",note:"도착 (到着): arrival.\nCOMPOUND: 도 (reach) + 착 (attach/arrive)."},
+  {type:"mc",q:"출발 is the opposite of:",opts:["여행","도착","예약","비행기"],ans:"도착",hint:"출발 = departure. The opposite is arrival."},
+  {type:"fb",s:"___시간이 몇 시예요? (What time is the departure?)",a:"출발",opts:["출발","도착","예약","비행기"],hint:"출 (exit) + 발 (start) = departure."},
+  {type:"match",pairs:[{nl:"출발",en:"departure"},{nl:"도착",en:"arrival"},{nl:"짐",en:"luggage"},{nl:"호텔",en:"hotel"}]},
+  {type:"drag_fill",s:"비행기표를 {1}하고 {2}을 쌌어요. {3} 시간은 10시예요.",blanks:{"1":"예약","2":"짐","3":"출발"},pool:["예약","여행","짐","돈","출발","도착"],hint:"I booked the plane ticket and packed luggage. Departure time is 10:00."},
+  {type:"mc",q:"인터넷으로 호텔을 예약했어요 means:",opts:["I canceled the hotel online","I booked the hotel online","I found the hotel online","I reviewed the hotel online"],ans:"I booked the hotel online",hint:"인터넷으로 = via internet. 예약하다 = to reserve/book."},
+]},
+
+// ═══ L2: KTX와 교통 ═══
+{id:"kou11l2",title:"KTX와 교통",icon:"🚄",xp:22,board:true,steps:[
+  {type:"intro",title:"KTX and Transportation",desc:"KTX\n→ Korea Train Express\n\nKorea's bullet train.",goals:["Learn KTX and train vocabulary","Know transport-related words","Use -로 for transport method","Cultural context: Korean train travel"]},
+  {type:"teach",kind:"word",nl:"기차",en:"train",phonetic:"gi-cha",example:"기차로 부산에 가요.",exampleEn:"I go to Busan by train.",note:"기차 (汽車): train.\nCOMPOUND: 기 (steam) + 차 (vehicle)."},
+  {type:"teach",kind:"word",nl:"기차역",en:"train station",phonetic:"gi-cha-yeok",example:"기차역이 어디에 있어요?",exampleEn:"Where is the train station?",note:"기차역: train station.\nCOMPOUND: 기차 (train) + 역 (station).\n역 (驛) appears in 서울역, 부산역."},
+  {type:"teach",kind:"word",nl:"표",en:"ticket",example:"표를 샀어요.",exampleEn:"I bought a ticket.",note:"표 (票): ticket.\n기차표: train ticket.\n비행기표: plane ticket."},
+  {type:"teach",kind:"word",nl:"좌석",en:"seat",phonetic:"jwa-seok",example:"좌석 번호가 뭐예요?",exampleEn:"What is the seat number?",note:"좌석 (座席): seat.\nCOMPOUND: 좌 (sit) + 석 (place).\n창가 좌석: window seat.\n통로 좌석: aisle seat."},
+  {type:"tip",title:"🚄 KTX: Korea's Bullet Train",text:"KTX = Korea Train Express.\nSeoul to Busan: 2.5 hours (300km/h).\nSeoul to Gwangju: 2 hours.\n\nBook at korail.com or use the Korail Talk app.",deepDive:{title:"Korean Train System",text:"KTX: fastest, most expensive.\nITX-새마을: semi-express.\n무궁화호: local (cheapest, slowest).\n\nKey stations:\n서울역: Seoul Station.\n부산역: Busan Station.\n대전역: Daejeon Station.\n\n서울역에서 부산역까지 KTX로 2시간 반이에요.\n= Seoul to Busan by KTX is 2.5 hours."}},
+  {type:"mc",q:"기차역 = 기차 + 역. 역 means:",opts:["Train","Station","Road","City"],ans:"Station",hint:"역 (驛) = station. 서울역, 부산역, 기차역."},
+  {type:"mc",q:"KTX takes how long from Seoul to Busan?",opts:["30 minutes","1 hour","2.5 hours","5 hours"],ans:"2.5 hours",hint:"Korea's bullet train: 300km/h. Seoul to Busan in about 2.5 hours."},
+  {type:"teach",kind:"grammar",nl:"-로/-으로 (교통수단)",en:"by (transport method)",example:"비행기로 가요. 기차로 가요.",exampleEn:"I go by plane. I go by train.",note:"-로/-으로: by (means of transport).\n\nAfter vowel or ㄹ: -로 (비행기로).\nAfter consonant: -으로 (버스으로 → 버스로).",deepDive:{title:"Transport + -로 Examples",text:"비행기로: by plane.\n기차로: by train.\n버스로: by bus.\n택시로: by taxi.\n지하철로: by subway.\n\n뭐로 가요? = How are you getting there?\n(literally: by what are you going?)"}},
+  {type:"teach",kind:"word",nl:"지하철",en:"subway",phonetic:"ji-ha-cheol",example:"지하철로 강남에 가요.",exampleEn:"I go to Gangnam by subway.",note:"지하철 (地下鐵): subway.\nCOMPOUND: 지하 (underground) + 철 (iron/rail)."},
+  {type:"mc",q:"뭐로 가요? means:",opts:["Where are you going?","How are you getting there?","When are you leaving?","Who are you going with?"],ans:"How are you getting there?",hint:"-로 = by (method). 뭐로 = by what method."},
+  {type:"fb",s:"___로 부산에 가요. (I go to Busan by train.)",a:"기차",opts:["기차","비행기","택시","버스"],hint:"Korea's train system. 기차 = train."},
+  {type:"fb",s:"기차___를 샀어요. (I bought a train ticket.)",a:"표",opts:["표","역","좌석","시간"],hint:"표 (票) = ticket."},
+  {type:"match",pairs:[{nl:"기차",en:"train"},{nl:"지하철",en:"subway"},{nl:"좌석",en:"seat"},{nl:"표",en:"ticket"}]},
+  {type:"teach",kind:"word",nl:"환승",en:"transfer (trains/subway)",phonetic:"hwan-seung",example:"2호선에서 환승하세요.",exampleEn:"Please transfer at Line 2.",note:"환승 (換乘): transfer.\nCOMPOUND: 환 (change) + 승 (ride)."},
+  {type:"mc",q:"지하철 = 지하 + 철. 지하 means:",opts:["Underground","Train","Fast","City"],ans:"Underground",hint:"지하 (地下) = underground. 철 (鐵) = iron/rail."},
+  {type:"fb",s:"2호선에서 ___하세요. (Transfer at Line 2.)",a:"환승",opts:["환승","출발","도착","예약"],hint:"환 (change) + 승 (ride) = transfer."},
+  {type:"drag_fill",s:"{1}로 서울에서 부산까지 가요. {2}에서 {3}를 샀어요.",blanks:{"1":"KTX","2":"기차역","3":"표"},pool:["KTX","비행기","기차역","공항","표","짐"],hint:"I go from Seoul to Busan by KTX. I bought a ticket at the train station."},
+  {type:"mc",q:"창가 좌석 means:",opts:["Aisle seat","Window seat","First class seat","Standing ticket"],ans:"Window seat",hint:"창가 = by the window. 좌석 = seat. Window seat."},
+]},
+
+// ═══ L3: -아/어 봤어요 (Experiential) ═══
+{id:"kou11l3",title:"-아/어 봤어요",icon:"🌏",xp:24,board:true,steps:[
+  {type:"intro",title:"Have You Ever...?",desc:"-아/어 봤어요\n→ have tried / have experienced\n\nThe experiential past.",goals:["Use -아/어 봤어요 for life experiences","Ask and answer 'have you ever' questions","Distinguish from simple past tense","Build natural conversation about travel"]},
+  {type:"tip",title:"🌏 Experience vs Simple Past",text:"You already know -아/어 보다 (try doing) from A2.\n\n-아/어 봤어요 adds PAST:\n= have tried / have experienced.\n\n먹어 봤어요: have tried eating.\n가 봤어요: have been to.",deepDive:{title:"Simple Past vs Experiential Past",text:"갔어요 = I went (simple fact, specific time).\n가 봤어요 = I have been (life experience, any time).\n\n김치를 먹었어요 = I ate kimchi (yesterday, last week).\n김치를 먹어 봤어요 = I have tried kimchi (ever in my life).\n\nThe difference: -았/었어요 = specific event.\n-아/어 봤어요 = general experience."}},
+  {type:"teach",kind:"grammar",nl:"-아/어 봤어요",en:"have tried / have experienced",example:"한국에 가 봤어요?",exampleEn:"Have you been to Korea?",note:"-아/어 봤어요: experiential past.\n\nVerb stem + 아/어 보다 (try) + past = have tried.",deepDive:{title:"Conjugation Pattern",text:"Same vowel harmony as always:\n\nBright (ㅏ,ㅗ): -아 봤어요\n가다 → 가 봤어요 (have been)\n\nDark (others): -어 봤어요\n먹다 → 먹어 봤어요 (have tried eating)\n\n하다 → 해 봤어요 (have tried doing)"}},
+  {type:"mc",q:"한국에 가 봤어요? means:",opts:["Are you going to Korea?","Did you go to Korea yesterday?","Have you been to Korea?","Do you want to go to Korea?"],ans:"Have you been to Korea?",hint:"-아/어 봤어요 = have experienced. Life experience question."},
+  {type:"teach",kind:"phrase",nl:"네, 가 봤어요 / 아니요, 안 가 봤어요",en:"Yes, I have / No, I haven't",example:"A: 제주도에 가 봤어요? B: 네, 작년에 가 봤어요.",exampleEn:"A: Have you been to Jeju? B: Yes, I went last year.",note:"Positive: 가 봤어요 (have been).\nNegative: 안 가 봤어요 (haven't been).\n\nOr: 못 가 봤어요 (haven't been able to)."},
+  {type:"mc",q:"김치를 먹어 봤어요 is different from 김치를 먹었어요 because:",opts:["It means the future","It asks about life experience, not a specific time","It is more formal","It means you didn't like it"],ans:"It asks about life experience, not a specific time",hint:"-어 봤어요 = have experienced (ever). -었어요 = did (specific event)."},
+  {type:"fb",s:"한국 음식을 먹___봤어요? (Have you tried Korean food?)",a:"어",opts:["어","아","해","여"],hint:"먹다: dark vowel stem. 먹 + 어 봤어요."},
+  {type:"fb",s:"서울에 ___봤어요? (Have you been to Seoul?)",a:"가",opts:["가","갈","갔","간"],hint:"가다: bright vowel. 가 + 봤어요."},
+  {type:"teach",kind:"phrase",nl:"해 봤어요",en:"have tried doing",example:"A: 스키를 해 봤어요? B: 아니요, 안 해 봤어요.",exampleEn:"A: Have you tried skiing? B: No, I haven't.",note:"하다 → 해 봤어요.\n\nAll 하다 verbs follow this:\n운동해 봤어요: have tried exercising.\n요리해 봤어요: have tried cooking."},
+  {type:"mc",q:"스키를 해 봤어요? means:",opts:["Do you ski?","Did you ski yesterday?","Have you tried skiing?","Will you go skiing?"],ans:"Have you tried skiing?",hint:"해 봤어요 = have tried doing. Experience question."},
+  {type:"fb",s:"한복을 입___봤어요? (Have you tried wearing hanbok?)",a:"어",opts:["어","아","해","여"],hint:"입다: dark vowel (ㅣ). 입 + 어 봤어요."},
+  {type:"teach",kind:"phrase",nl:"한번도 안 -아/어 봤어요",en:"have never (not even once)",example:"한번도 안 가 봤어요.",exampleEn:"I have never been (not even once).",note:"한번도 = not even once.\n한번도 + 안 + -아/어 봤어요 = have never.\n\nStrong negation for experience."},
+  {type:"mc",q:"한번도 안 먹어 봤어요 means:",opts:["I ate it once","I have never tried it","I tried it many times","I want to try it"],ans:"I have never tried it",hint:"한번도 = not even once. 안 먹어 봤어요 = haven't tried eating."},
+  {type:"match",pairs:[{nl:"가 봤어요",en:"have been (to)"},{nl:"먹어 봤어요",en:"have tried eating"},{nl:"해 봤어요",en:"have tried doing"},{nl:"한번도 안",en:"not even once"}]},
+  {type:"drag_fill",s:"A: 제주도에 {1} 봤어요? B: 네, 작년에 {2} 봤어요. 정말 {3}.",blanks:{"1":"가","2":"가","3":"좋았어요"},pool:["가","먹어","해","좋았어요","맛있었어요","재미있었어요"],hint:"A: Have you been to Jeju? B: Yes, I went last year. It was really nice."},
+  {type:"fb",s:"불고기를 먹어 봤어요? 네, 정말 ___. (Have you tried bulgogi? Yes, it was really delicious.)",a:"맛있었어요",opts:["맛있었어요","맛있어요","맛있을 거예요","맛없어요"],hint:"Past tense: it WAS delicious (after trying it)."},
+  {type:"mc",q:"Which question asks about life experience?",opts:["어제 뭐 먹었어요?","한국 음식을 먹어 봤어요?","오늘 뭐 먹을 거예요?","지금 뭐 먹어요?"],ans:"한국 음식을 먹어 봤어요?",hint:"-어 봤어요 = the experiential pattern. Asks about any-time experience."},
+]},
+
+// ═══ L4: ★ -고 있다: Progressive (HARVEST) ═══
+{id:"kou11l4",title:"★ -고 있다: 진행",icon:"🔄",xp:24,board:true,steps:[
+  {type:"intro",title:"-고 있다: Right Now",desc:"-고 있다\n→ is doing (right now)\n\nYou have been seeing this since Unit 9.\nNow it gets its own lesson.",goals:["Use -고 있다 for ongoing actions","Distinguish from simple present","Past progressive: -고 있었어요","Production practice with all tenses"]},
+  {type:"tip",title:"🔄 You Have Seen This Before",text:"Since Unit 9, you have seen -고 있다 in examples:\n공부하고 있어요 = am studying (right now).\n\nYou knew what it meant.\nNow let's NAME it and drill it.",deepDive:{title:"Why -고 있다 Exists",text:"-고 있다 = progressive aspect.\n\nKorean present tense is ambiguous:\n먹어요 = I eat / I am eating.\n\n-고 있다 removes ambiguity:\n먹고 있어요 = I am eating (right now, definitely).\n\nEnglish needs 'am/is/are + -ing'.\nKorean needs stem + 고 있다."}},
+  {type:"teach",kind:"grammar",nl:"-고 있다",en:"is doing / am doing",example:"지금 밥을 먹고 있어요.",exampleEn:"I am eating right now.",note:"-고 있다: progressive (ongoing action).\n\nVerb stem + 고 있다.\n먹다 → 먹고 있어요 (am eating).\n가다 → 가고 있어요 (am going).",deepDive:{title:"Full Progressive Conjugation",text:"Present: 먹고 있어요 = am eating.\nPast: 먹고 있었어요 = was eating.\nFormal: 먹고 있습니다 = am eating (formal).\n\n하다 → 하고 있어요 (am doing).\n공부하다 → 공부하고 있어요 (am studying).\n읽다 → 읽고 있어요 (am reading)."}},
+  {type:"mc",q:"먹고 있어요 means:",opts:["I ate","I will eat","I am eating","I want to eat"],ans:"I am eating",hint:"-고 있다 = progressive. Right now, ongoing."},
+  {type:"mc",q:"How is 먹고 있어요 different from 먹어요?",opts:["More formal","Emphasizes RIGHT NOW","Past tense","Future tense"],ans:"Emphasizes RIGHT NOW",hint:"먹어요 = I eat (general). 먹고 있어요 = I am eating (right now)."},
+  {type:"fb",s:"지금 책을 읽___있어요. (I am reading a book right now.)",a:"고",opts:["고","어","아","는"],hint:"Stem + 고 있다 = progressive."},
+  {type:"fb",s:"친구를 기다리___있어요. (I am waiting for a friend.)",a:"고",opts:["고","어","아","는"],hint:"기다리다 stem + 고 있다."},
+  {type:"teach",kind:"grammar",nl:"-고 있었어요",en:"was doing",example:"전화했을 때 자고 있었어요.",exampleEn:"I was sleeping when you called.",note:"-고 있었어요: past progressive.\n\n있다 → past = 있었다.\n먹고 있었어요 = was eating.",deepDive:{title:"Past Progressive Usage",text:"자고 있었어요: was sleeping.\n공부하고 있었어요: was studying.\n기다리고 있었어요: was waiting.\n\nUsed for interrupted actions:\n전화했을 때 (when you called)\n+ 자고 있었어요 (I was sleeping)."}},
+  {type:"mc",q:"자고 있었어요 means:",opts:["I sleep","I am sleeping","I was sleeping","I will sleep"],ans:"I was sleeping",hint:"-고 있었어요 = was doing. Past progressive."},
+  {type:"fb",s:"전화했을 때 공부___있었어요. (When you called, I was studying.)",a:"하고",opts:["하고","해서","하면","하는"],hint:"공부하다 → 공부하고 있었어요 (was studying)."},
+  {type:"teach",kind:"phrase",nl:"뭐 하고 있어요?",en:"What are you doing?",example:"A: 뭐 하고 있어요? B: 영화를 보고 있어요.",exampleEn:"A: What are you doing? B: I'm watching a movie.",note:"뭐 하고 있어요?: what are you doing (right now)?\n\nThe go-to check-in question."},
+  {type:"mc",q:"A: 뭐 하고 있어요? B: 음악을 듣고 있어요. B is:",opts:["Listening to music right now","Going to listen to music","Done listening","Wanting to listen"],ans:"Listening to music right now",hint:"-고 있어요 = doing right now. Progressive."},
+  {type:"match",pairs:[{nl:"먹고 있어요",en:"am eating"},{nl:"자고 있었어요",en:"was sleeping"},{nl:"공부하고 있어요",en:"am studying"},{nl:"기다리고 있어요",en:"am waiting"}]},
+  {type:"drag_fill",s:"A: 뭐 {1} 있어요? B: 한국어를 {2} 있어요. 아까는 음악을 {3} 있었어요.",blanks:{"1":"하고","2":"공부하고","3":"듣고"},pool:["하고","먹고","공부하고","배우고","듣고","보고"],hint:"A: What are you doing? B: I am studying Korean. Earlier I was listening to music."},
+  {type:"fb",s:"지금 비가 오___있어요. (It is raining right now.)",a:"고",opts:["고","어","아","는"],hint:"오다 + 고 있다 = is raining (ongoing)."},
+  {type:"mc",q:"Which sentence emphasizes an action happening RIGHT NOW?",opts:["책을 읽어요","책을 읽고 있어요","책을 읽었어요","책을 읽을 거예요"],ans:"책을 읽고 있어요",hint:"-고 있다 = progressive. Happening at this moment."},
+  {type:"fb",s:"아이가 ___있어요. (The child is sleeping.)",a:"자고",opts:["자고","자서","자면","잤어"],hint:"자다 (to sleep) + 고 있다 = is sleeping."},
+]},
+
+// ═══ L5: 제주도 여행 (Conversation) ═══
+{id:"kou11l5",title:"제주도 여행",icon:"🏝️",xp:22,board:true,steps:[
+  {type:"intro",title:"Planning a Jeju Trip",desc:"제주도\n→ Jeju Island\n\nKorea's favorite vacation destination.",goals:["Practice travel conversation","Combine experiential + progressive","Learn Jeju-specific vocabulary","Plan a trip using all travel grammar"]},
+  {type:"teach",kind:"word",nl:"제주도",en:"Jeju Island",phonetic:"je-ju-do",example:"제주도에 가 봤어요?",exampleEn:"Have you been to Jeju?",note:"제주도: Jeju Island.\n도 (島) = island.\n\nKorea's #1 vacation destination."},
+  {type:"teach",kind:"word",nl:"바다",en:"sea / ocean",example:"제주도 바다가 정말 예뻐요.",exampleEn:"The Jeju sea is really pretty.",note:"바다: sea, ocean.\n바닷가: seaside, beach.\n해수욕장: swimming beach."},
+  {type:"teach",kind:"word",nl:"관광",en:"sightseeing / tourism",phonetic:"gwan-gwang",example:"관광하러 제주도에 갔어요.",exampleEn:"I went to Jeju for sightseeing.",note:"관광 (觀光): sightseeing.\nCOMPOUND: 관 (see) + 광 (light/scenery).\n관광지: tourist spot."},
+  {type:"teach",kind:"word",nl:"렌터카",en:"rental car",example:"제주도에서 렌터카를 빌렸어요.",exampleEn:"I rented a car in Jeju.",note:"렌터카: rental car (Konglish).\n빌리다: to rent/borrow.\n\nJeju has no subway. Cars are essential."},
+  {type:"mc",q:"제주도 = 제주 + 도. 도 means:",opts:["City","Island","Province","Mountain"],ans:"Island",hint:"도 (島) = island. 제주도 = Jeju Island."},
+  {type:"tip",title:"🏝️ 제주도 Travel Guide",text:"제주도 is Korea's Hawaii:\n\n비행기로 서울에서 1시간.\n렌터카가 필수 (no subway).\n한라산: Korea's tallest mountain.\n흑돼지: famous black pig BBQ.",deepDive:{title:"Must-Visit Jeju Spots",text:"한라산 (Hallasan): Korea's tallest peak (1,947m).\n성산일출봉: Sunrise Peak (UNESCO).\n만장굴: Lava tube cave.\n\n제주 특산물 (specialties):\n흑돼지: black pig.\n감귤: tangerines.\n해녀: female divers (UNESCO heritage).\n\n제주 방언 (dialect):\nVery different from standard Korean.\n혼저 옵서예 = 어서 오세요 (welcome)."}},
+  {type:"mc",q:"Why do most tourists rent a car in Jeju?",opts:["Cars are very cheap","There is no subway system","Jeju is very small","Taxis don't exist"],ans:"There is no subway system",hint:"제주도 has no subway. 렌터카 or bus are the main options."},
+  {type:"fb",s:"제주도에 ___봤어요? (Have you been to Jeju?)",a:"가",opts:["가","간","갈","갔"],hint:"-아/어 봤어요 pattern. 가다 → 가 봤어요."},
+  {type:"fb",s:"지금 제주도에서 ___하고 있어요. (I am sightseeing in Jeju right now.)",a:"관광",opts:["관광","여행","출발","도착"],hint:"관광 = sightseeing. 관광하고 있어요 = am sightseeing."},
+  {type:"teach",kind:"word",nl:"숙소",en:"accommodation / lodging",phonetic:"suk-so",example:"숙소를 예약했어요.",exampleEn:"I booked accommodation.",note:"숙소 (宿所): accommodation.\nCOMPOUND: 숙 (stay overnight) + 소 (place).\n\nBroader than 호텔. Includes 게스트하우스, 민박."},
+  {type:"teach",kind:"word",nl:"일정",en:"schedule / itinerary",phonetic:"il-jeong",example:"여행 일정을 만들었어요.",exampleEn:"I made a travel itinerary.",note:"일정 (日程): schedule, itinerary.\nCOMPOUND: 일 (day) + 정 (set/plan)."},
+  {type:"match",pairs:[{nl:"제주도",en:"Jeju Island"},{nl:"바다",en:"sea"},{nl:"숙소",en:"accommodation"},{nl:"일정",en:"itinerary"}]},
+  {type:"drag_fill",s:"제주도에 {1}로 가요. {2}를 예약하고 {3}을 만들었어요.",blanks:{"1":"비행기","2":"숙소","3":"일정"},pool:["비행기","기차","숙소","호텔","일정","여권"],hint:"I go to Jeju by plane. I booked accommodation and made an itinerary."},
+  {type:"mc",q:"관광지 means:",opts:["Airport","Tourist spot","Hotel","Restaurant"],ans:"Tourist spot",hint:"관광 (sightseeing) + 지 (地: place) = tourist spot."},
+  {type:"fb",s:"한라산에 올라___봤어요? (Have you tried climbing Hallasan?)",a:"가",opts:["가","간","갈","가고"],hint:"올라가다 (to climb up) → 올라가 봤어요."},
+  {type:"mc",q:"A: 제주도 바다가 어때요? B: 정말 예뻐요! 어때요 means:",opts:["Where is it?","How is it?","When did you go?","What is it?"],ans:"How is it?",hint:"어때요 = how is it? Asking for opinion/impression."},
+]},
+
+// ═══ L6: -(으)ㄹ 줄 알다/모르다 ═══
+{id:"kou11l6",title:"-(으)ㄹ 줄 알다",icon:"🎯",xp:24,board:true,steps:[
+  {type:"intro",title:"Know How To / Don't Know How To",desc:"-(으)ㄹ 줄 알다\n→ know how to\n\nAbility based on knowledge, not possibility.",goals:["Use -(으)ㄹ 줄 알다 for 'know how to'","Use -(으)ㄹ 줄 모르다 for 'don't know how to'","Distinguish from -(으)ㄹ 수 있다","Practice with real skills"]},
+  {type:"tip",title:"🎯 Two Kinds of 'Can'",text:"You learned -(으)ㄹ 수 있다 in A2:\n= CAN (possibility/ability).\n\nNow: -(으)ㄹ 줄 알다:\n= KNOW HOW TO (learned skill).\n\n운전할 수 있어요: I can drive (it's possible).\n운전할 줄 알아요: I know how to drive (learned skill).",deepDive:{title:"수 있다 vs 줄 알다",text:"-(으)ㄹ 수 있다: ability/possibility.\nCan you come tomorrow? 내일 올 수 있어요?\n\n-(으)ㄹ 줄 알다: learned knowledge/skill.\nCan you drive? 운전할 줄 알아요?\n\nBoth translate to 'can' in English.\nKorean distinguishes them.\n\n줄 literally means 'way/method'.\n알다 = to know.\n줄 알다 = know the way = know how to."}},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄹ 줄 알다",en:"know how to",example:"한국어를 읽을 줄 알아요.",exampleEn:"I know how to read Korean.",note:"-(으)ㄹ 줄 알다: know how to.\n\nConsonant stem + 을 줄 알다.\nVowel stem + ㄹ 줄 알다.",deepDive:{title:"Conjugation Examples",text:"읽다 → 읽을 줄 알아요 (know how to read).\n만들다 → 만들 줄 알아요 (know how to make).\n하다 → 할 줄 알아요 (know how to do).\n타다 → 탈 줄 알아요 (know how to ride).\n\nNegative: 줄 모르다\n읽을 줄 몰라요 (don't know how to read).\n\n⚠️ 모르다 past = 몰랐어요 (not 모랐어요)."}},
+  {type:"mc",q:"운전할 줄 알아요 means:",opts:["I can drive (it's possible)","I know how to drive (learned skill)","I want to drive","I am driving"],ans:"I know how to drive (learned skill)",hint:"줄 알다 = know the way/method. Learned skill."},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄹ 줄 모르다",en:"don't know how to",example:"수영할 줄 몰라요.",exampleEn:"I don't know how to swim.",note:"-(으)ㄹ 줄 모르다: don't know how to.\n\n줄 모르다 is the negative of 줄 알다.\n모르다 → 몰라요 (irregular)."},
+  {type:"mc",q:"수영할 줄 몰라요 means:",opts:["I can't swim (no pool)","I don't know how to swim","I don't want to swim","I didn't swim"],ans:"I don't know how to swim",hint:"줄 모르다 = don't know the method. Never learned."},
+  {type:"fb",s:"한국어를 읽___줄 알아요. (I know how to read Korean.)",a:"을",opts:["을","는","고","어"],hint:"읽다: consonant stem → 을 줄 알다."},
+  {type:"fb",s:"요리___줄 몰라요. (I don't know how to cook.)",a:"할",opts:["할","하는","한","해"],hint:"요리하다: 하다 → 할 줄 모르다."},
+  {type:"mc",q:"Which asks about a LEARNED SKILL?",opts:["내일 올 수 있어요?","요리할 줄 알아요?","요리하고 싶어요?","요리했어요?"],ans:"요리할 줄 알아요?",hint:"줄 알다 = know how to (learned skill)."},
+  {type:"teach",kind:"phrase",nl:"그럴 줄 몰랐어요",en:"I didn't know that would happen",example:"비가 올 줄 몰랐어요.",exampleEn:"I didn't know it would rain.",note:"줄 몰랐어요: didn't know/expect.\n\nExtended meaning: didn't expect.\n이렇게 맛있을 줄 몰랐어요.\n= I didn't know it would be this delicious.",deepDive:{title:"줄 알다/모르다 for Expectations",text:"Beyond skills, 줄 알다/모르다 expresses expectations:\n\n올 줄 알았어요: I thought they would come.\n올 줄 몰랐어요: I didn't think they would come.\n\n이렇게 어려울 줄 몰랐어요.\n= I didn't know it would be this hard."}},
+  {type:"mc",q:"비가 올 줄 몰랐어요 means:",opts:["I know it will rain","I didn't know it would rain","It's not raining","I want it to rain"],ans:"I didn't know it would rain",hint:"줄 몰랐어요 = didn't know/expect."},
+  {type:"match",pairs:[{nl:"할 줄 알아요",en:"know how to do"},{nl:"할 줄 몰라요",en:"don't know how to"},{nl:"할 수 있어요",en:"can do (possible)"},{nl:"올 줄 몰랐어요",en:"didn't expect to come"}]},
+  {type:"drag_fill",s:"A: 한국어를 읽{1} 줄 알아요? B: 네, 읽{2} 줄 알아요. 하지만 쓸 줄 {3}.",blanks:{"1":"을","2":"을","3":"몰라요"},pool:["을","는","고","알아요","몰라요","있어요"],hint:"A: Do you know how to read Korean? B: Yes, I know how to read. But I don't know how to write."},
+  {type:"fb",s:"자전거를 탈 줄 ___? (Do you know how to ride a bicycle?)",a:"알아요",opts:["알아요","몰라요","있어요","없어요"],hint:"Asking if they KNOW how to. 줄 알다 = know how to."},
+  {type:"mc",q:"피아노를 칠 줄 알아요? asks:",opts:["Can you play piano? (is it possible now)","Do you know how to play piano? (learned skill)","Do you want to play piano?","Did you play piano?"],ans:"Do you know how to play piano? (learned skill)",hint:"줄 알다 = know how to. A learned/practiced skill."},
+]},
+
+// ═══ L7: 여행 대화 (Practical Dialogues) ═══
+{id:"kou11l7",title:"여행 대화",icon:"💬",xp:22,board:true,steps:[
+  {type:"intro",title:"Travel Conversations",desc:"Practical dialogues for travelers.\n\nBooking, directions, complaints.",goals:["Use travel vocabulary in real dialogues","Practice booking and asking directions","Handle common travel situations","Combine all U11 grammar in context"]},
+  {type:"teach",kind:"phrase",nl:"방이 있어요?",en:"Do you have a room?",example:"A: 방이 있어요? B: 네, 있어요. 1박에 8만 원이에요.",exampleEn:"A: Do you have a room? B: Yes. 80,000 won per night.",note:"방이 있어요?: Do you have a room?\n1박 (一泊): one night's stay.\n박 = overnight stay counter."},
+  {type:"teach",kind:"word",nl:"1박 2일",en:"1 night 2 days",phonetic:"il-bak i-il",example:"1박 2일로 제주도에 가요.",exampleEn:"I'm going to Jeju for 1 night 2 days.",note:"1박 2일: one night, two days.\n박 (泊) = overnight stay.\n\nCommon trip format in Korea."},
+  {type:"teach",kind:"phrase",nl:"체크인/체크아웃",en:"check-in / check-out",example:"체크인은 3시부터예요.",exampleEn:"Check-in is from 3 PM.",note:"체크인: check-in (Konglish).\n체크아웃: check-out.\n\n-부터: from (time). -까지: until."},
+  {type:"mc",q:"1박 2일 means:",opts:["One week","1 night 2 days","2 nights 3 days","Half a day"],ans:"1 night 2 days",hint:"박 = overnight stay. 1박 = one night. 2일 = two days."},
+  {type:"fb",s:"체크인은 3시___예요. (Check-in is from 3 PM.)",a:"부터",opts:["부터","까지","에서","한테"],hint:"부터 = from (time). 3시부터 = from 3 PM."},
+  {type:"teach",kind:"phrase",nl:"길을 잃었어요",en:"I'm lost",example:"죄송합니다, 길을 잃었어요.",exampleEn:"Excuse me, I'm lost.",note:"길 = road/way.\n잃다 = to lose.\n길을 잃다 = to lose one's way = to be lost."},
+  {type:"teach",kind:"phrase",nl:"여기서 얼마나 걸려요?",en:"How long does it take from here?",example:"A: 역까지 얼마나 걸려요? B: 10분 정도 걸려요.",exampleEn:"A: How long to the station? B: About 10 minutes.",note:"얼마나: how much/long.\n걸리다: to take (time).\n정도: about/approximately."},
+  {type:"mc",q:"길을 잃었어요 means:",opts:["I found the way","I'm lost","The road is long","I know the way"],ans:"I'm lost",hint:"길 = road. 잃다 = to lose. Lost the road = I'm lost."},
+  {type:"fb",s:"역까지 얼마나 ___? (How long does it take to the station?)",a:"걸려요",opts:["걸려요","가요","있어요","해요"],hint:"걸리다 = to take (time). 얼마나 걸려요? = how long does it take?"},
+  {type:"teach",kind:"phrase",nl:"와이파이가 안 돼요",en:"The WiFi doesn't work",example:"죄송합니다, 와이파이가 안 돼요.",exampleEn:"Excuse me, the WiFi doesn't work.",note:"와이파이: WiFi (Konglish).\n안 돼요: doesn't work.\n\n에어컨이 안 돼요: AC doesn't work."},
+  {type:"mc",q:"와이파이가 안 돼요 means:",opts:["WiFi is fast","WiFi is free","WiFi doesn't work","Where is the WiFi?"],ans:"WiFi doesn't work",hint:"안 돼요 = doesn't work / isn't working."},
+  {type:"match",pairs:[{nl:"방이 있어요?",en:"Do you have a room?"},{nl:"길을 잃었어요",en:"I'm lost"},{nl:"얼마나 걸려요?",en:"How long does it take?"},{nl:"안 돼요",en:"doesn't work"}]},
+  {type:"drag_fill",s:"A: 죄송합니다, 길을 {1}. 역까지 얼마나 {2}? B: 걸어서 10분 {3} 걸려요.",blanks:{"1":"잃었어요","2":"걸려요","3":"정도"},pool:["잃었어요","있어요","걸려요","가요","정도","쯤"],hint:"A: Excuse me, I'm lost. How long to the station? B: About 10 minutes walking."},
+  {type:"fb",s:"에어컨이 ___돼요. (The AC doesn't work.)",a:"안",opts:["안","못","잘","다"],hint:"안 돼요 = doesn't work."},
+  {type:"mc",q:"걸어서 10분 정도 걸려요 means:",opts:["It takes about 10 minutes walking","The walk is 10 minutes away","I walked for 10 minutes","I can walk in 10 minutes"],ans:"It takes about 10 minutes walking",hint:"걸어서 = by walking. 10분 정도 = about 10 min. 걸려요 = it takes."},
+]},
+
+// ═══ L8: 한국 여행 문화 ═══
+{id:"kou11l8",title:"한국 여행 문화",icon:"🌏",xp:20,board:true,steps:[
+  {type:"intro",title:"Korean Travel Culture",desc:"How Koreans travel.\n\nDomestic tourism, apps, and etiquette.",goals:["Understand Korean domestic travel trends","Know key travel apps and services","Learn seasonal travel vocabulary","Cultural context for B1 conversations"]},
+  {type:"teach",kind:"word",nl:"국내 여행",en:"domestic travel",phonetic:"guk-nae yeo-haeng",example:"한국 사람들은 국내 여행을 많이 해요.",exampleEn:"Koreans travel domestically a lot.",note:"국내 (國內): domestic.\nCOMPOUND: 국 (country) + 내 (inside).\n국내 여행 = travel inside the country."},
+  {type:"teach",kind:"word",nl:"해외 여행",en:"overseas travel",phonetic:"hae-oe yeo-haeng",example:"해외 여행 가 봤어요?",exampleEn:"Have you traveled overseas?",note:"해외 (海外): overseas.\nCOMPOUND: 해 (sea) + 외 (outside).\n해외 여행 = travel outside the country."},
+  {type:"mc",q:"국내 = 국 + 내. 내 means:",opts:["Outside","Inside","Country","Travel"],ans:"Inside",hint:"내 (內) = inside. 국내 = inside the country."},
+  {type:"tip",title:"🗺️ Popular Korean Travel Destinations",text:"Top domestic destinations:\n\n제주도: beaches, hiking, food.\n부산: 해운대 beach, seafood.\n경주: ancient capital, temples.\n전주: 한옥마을, 비빔밥.",deepDive:{title:"Travel Apps and Services",text:"네이버 지도: Korea's #1 map app.\n카카오맵: alternative map app.\nKorail: train booking.\n야놀자/여기어때: accommodation apps.\n\n한국 관광공사 (KTO): official tourism org.\nVisit Korea app: English tourist info.\n\n한국 여행 팁:\n현금보다 카드 (card > cash).\nT-money 카드: transit card.\nWiFi egg: portable WiFi rental."}},
+  {type:"mc",q:"해외 = 해 + 외. 외 means:",opts:["Sea","Inside","Outside","Far"],ans:"Outside",hint:"외 (外) = outside. 해외 = outside the sea = overseas."},
+  {type:"teach",kind:"word",nl:"관광지",en:"tourist spot / attraction",phonetic:"gwan-gwang-ji",example:"서울에 관광지가 많아요.",exampleEn:"Seoul has many tourist spots.",note:"관광지: tourist spot.\nCOMPOUND: 관광 (sightseeing) + 지 (地: place)."},
+  {type:"fb",s:"___여행을 좋아해요? 국내 여행이요? 해외 여행이요? (Which travel do you like?)",a:"어떤",opts:["어떤","어디","언제","뭐"],hint:"어떤 = which kind of."},
+  {type:"match",pairs:[{nl:"국내 여행",en:"domestic travel"},{nl:"해외 여행",en:"overseas travel"},{nl:"관광지",en:"tourist spot"},{nl:"숙소",en:"accommodation"}]},
+  {type:"mc",q:"네이버 지도 is:",opts:["A restaurant guide","Korea's main map app","A train booking site","A hotel booking app"],ans:"Korea's main map app",hint:"네이버 지도 = Naver Map. Korea's #1 navigation app."},
+  {type:"drag_fill",s:"한국 사람들은 {1} 여행을 많이 해요. {2}에 가 봤어요? {3}가 많아요.",blanks:{"1":"국내","2":"제주도","3":"관광지"},pool:["국내","해외","제주도","부산","관광지","숙소"],hint:"Koreans travel domestically a lot. Have you been to Jeju? There are many tourist spots."},
+]},
+
+// ═══ L9: ★ ㅎ 불규칙 (HARVEST, Batch 3) ═══
+{id:"kou11l9",title:"★ ㅎ 불규칙",icon:"🎨",xp:24,board:true,steps:[
+  {type:"intro",title:"ㅎ-Irregular Verbs: Color Adjectives",desc:"노랗다 → 노래요\n→ to be yellow → is yellow\n\nYou saw color hints since Unit 6.\nNow the pattern gets named.",goals:["Master ㅎ-irregular conjugation pattern","Learn color adjectives that use ㅎ-irregular","Understand ㅎ drops before vowel endings","Apply to modifier forms"]},
+  {type:"tip",title:"🎨 You Have Seen This Before",text:"Since Unit 6, you saw adjectives like 까맣다 and 노랗다.\nYou noticed something odd about their conjugation.\n\nNow: the ㅎ-IRREGULAR pattern.\nWhen ㅎ meets a vowel ending, ㅎ DROPS and the vowel changes.",deepDive:{title:"The ㅎ-Irregular Rule",text:"ㅎ stems: When the ending starts with a vowel:\n1. ㅎ drops completely.\n2. ㅏ or ㅓ merges with the remaining vowel.\n\n노랗다: 노랗 + 아요 → 노라 + 아요 → 노래요 (yellow).\n빨갛다: 빨갛 + 아요 → 빨가 + 아요 → 빨개요 (red).\n까맣다: 까맣 + 아요 → 까마 + 아요 → 까매요 (black).\n하얗다: 하얗 + 아요 → 하야 + 아요 → 하얘요 (white).\n파랗다: 파랗 + 아요 → 파라 + 아요 → 파래요 (blue).\n\nThis is Batch 3 of 5 irregular families.\nYou already know ㄷ, ㅂ, ㄹ, 으. Now ㅎ."}},
+  {type:"teach",kind:"grammar",nl:"ㅎ 불규칙",en:"ㅎ-irregular pattern",example:"노랗다 → 노래요, 빨갛다 → 빨개요",exampleEn:"yellow → is yellow, red → is red",note:"ㅎ-irregular: ㅎ drops before vowel endings.\n\nMostly color adjectives.\nBatch 3 of 5 irregular families."},
+  {type:"teach",kind:"word",nl:"노랗다",en:"to be yellow",phonetic:"no-ra-ta",example:"바나나가 노래요.",exampleEn:"The banana is yellow.",note:"노랗다 → 노래요 (ㅎ-irregular).\n노란 바나나: yellow banana (modifier)."},
+  {type:"teach",kind:"word",nl:"빨갛다",en:"to be red",phonetic:"ppal-ga-ta",example:"사과가 빨개요.",exampleEn:"The apple is red.",note:"빨갛다 → 빨개요 (ㅎ-irregular).\n빨간 사과: red apple (modifier)."},
+  {type:"teach",kind:"word",nl:"까맣다",en:"to be black",phonetic:"kka-ma-ta",example:"머리카락이 까매요.",exampleEn:"The hair is black.",note:"까맣다 → 까매요 (ㅎ-irregular).\n까만 머리: black hair (modifier)."},
+  {type:"teach",kind:"word",nl:"하얗다",en:"to be white",phonetic:"ha-ya-ta",example:"눈이 하얘요.",exampleEn:"The snow is white.",note:"하얗다 → 하얘요 (ㅎ-irregular).\n하얀 눈: white snow (modifier)."},
+  {type:"teach",kind:"word",nl:"파랗다",en:"to be blue",phonetic:"pa-ra-ta",example:"하늘이 파래요.",exampleEn:"The sky is blue.",note:"파랗다 → 파래요 (ㅎ-irregular).\n파란 하늘: blue sky (modifier)."},
+  {type:"mc",q:"노랗다 → polite form:",opts:["노라요","노래요","노랗아요","노랗해요"],ans:"노래요",hint:"ㅎ drops. 노랗 + 아요 → 노래요."},
+  {type:"mc",q:"빨갛다 → polite form:",opts:["빨갛아요","빨개요","빨가요","빨갛해요"],ans:"빨개요",hint:"ㅎ drops. 빨갛 + 아요 → 빨개요."},
+  {type:"fb",s:"하늘이 ___. (The sky is blue.)",a:"파래요",opts:["파래요","파랗아요","파라요","파란해요"],hint:"파랗다: ㅎ-irregular. 파랗 + 아요 → 파래요."},
+  {type:"fb",s:"눈이 ___. (The snow is white.)",a:"하얘요",opts:["하얘요","하얗아요","하야요","하얀해요"],hint:"하얗다: ㅎ-irregular. 하얗 + 아요 → 하얘요."},
+  {type:"tip",title:"🎨 ㅎ-Irregular Modifier Forms",text:"Modifier form: ㅎ drops + ㄴ\n\n노랗다 → 노란 (yellow + noun)\n빨갛다 → 빨간 (red + noun)\n까맣다 → 까만 (black + noun)\n하얗다 → 하얀 (white + noun)\n파랗다 → 파란 (blue + noun)",deepDive:{title:"Color Modifiers in Action",text:"노란 꽃: yellow flower.\n빨간 사과: red apple.\n까만 고양이: black cat.\n하얀 구름: white cloud.\n파란 바다: blue sea.\n\nAll ㅎ-irregulars follow this:\nstem without ㅎ + ㄴ = modifier."}},
+  {type:"mc",q:"'Red apple' in Korean:",opts:["빨갛 사과","빨간 사과","빨개 사과","빨개요 사과"],ans:"빨간 사과",hint:"ㅎ-irregular modifier: 빨갛다 → 빨간 + noun."},
+  {type:"fb",s:"___고양이가 귀여워요. (The black cat is cute.)",a:"까만",opts:["까만","까매","까맣","까매요"],hint:"까맣다 modifier form: 까만 + noun."},
+  {type:"match",pairs:[{nl:"노란",en:"yellow (modifier)"},{nl:"빨간",en:"red (modifier)"},{nl:"까만",en:"black (modifier)"},{nl:"파란",en:"blue (modifier)"}]},
+  {type:"drag_fill",s:"{1} 하늘에 {2} 구름이 있어요. {3} 꽃이 예뻐요.",blanks:{"1":"파란","2":"하얀","3":"노란"},pool:["파란","빨간","하얀","까만","노란","초록"],hint:"In the blue sky there are white clouds. The yellow flowers are pretty."},
+  {type:"mc",q:"How many irregular families have you now learned?",opts:["Three","Four","Five","Six"],ans:"Five",hint:"ㄷ, ㅂ (U7) + ㄹ, 으 (U9) + ㅎ (now) = 5 families."},
+]},
+
+// ═══ L10: 복습 + 퀴즈 ═══
+{id:"kou11l10",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 11 Review",desc:"Review all travel vocabulary and grammar.\n\n-아/어 봤어요, -고 있다, -(으)ㄹ 줄 알다, ㅎ-irregular.",goals:["Review all Unit 11 vocabulary","Test experiential and progressive","Apply -(으)ㄹ 줄 알다/모르다","Prove ㅎ-irregular mastery"]},
+  {type:"mc",q:"제주도에 가 봤어요? asks about:",opts:["Future plans","Life experience","Current action","Past specific event"],ans:"Life experience",hint:"-아/어 봤어요 = experiential. Have you ever...?"},
+  {type:"mc",q:"지금 비가 오고 있어요 means:",opts:["It rained","It will rain","It is raining right now","It might rain"],ans:"It is raining right now",hint:"-고 있다 = progressive. Happening now."},
+  {type:"mc",q:"한국어를 읽을 줄 알아요 means:",opts:["I can read Korean (possible)","I know how to read Korean (skill)","I am reading Korean","I want to read Korean"],ans:"I know how to read Korean (skill)",hint:"줄 알다 = know how to. Learned skill."},
+  {type:"mc",q:"노랗다 → modifier form:",opts:["노랗은","노란","노래","노래요"],ans:"노란",hint:"ㅎ-irregular modifier: ㅎ drops + ㄴ. 노란 + noun."},
+  {type:"fb",s:"한국 음식을 먹___봤어요? (Have you tried Korean food?)",a:"어",opts:["어","아","해","고"],hint:"먹다: dark vowel. 먹 + 어 봤어요."},
+  {type:"fb",s:"지금 뭐 하___있어요? (What are you doing now?)",a:"고",opts:["고","어","아","는"],hint:"Progressive: stem + 고 있다."},
+  {type:"fb",s:"자전거를 탈 줄 ___? (Do you know how to ride a bicycle?)",a:"알아요",opts:["알아요","몰라요","있어요","봤어요"],hint:"Asking if they know how to. 줄 알다."},
+  {type:"fb",s:"___바다가 예뻐요. (The blue sea is pretty.)",a:"파란",opts:["파란","파래","파랗","파래요"],hint:"ㅎ-irregular modifier: 파랗다 → 파란."},
+  {type:"match",pairs:[{nl:"여행",en:"travel"},{nl:"예약",en:"reservation"},{nl:"출발",en:"departure"},{nl:"도착",en:"arrival"}]},
+  {type:"match",pairs:[{nl:"가 봤어요",en:"have been to"},{nl:"하고 있어요",en:"am doing"},{nl:"할 줄 알아요",en:"know how to do"},{nl:"노래요",en:"is yellow"}]},
+  {type:"drag_fill",s:"제주도에 {1} 봤어요. 지금 호텔에서 {2} 있어요. {3} 바다가 정말 예뻐요.",blanks:{"1":"가","2":"쉬고","3":"파란"},pool:["가","먹어","쉬고","자고","파란","빨간"],hint:"I have been to Jeju. I am resting at the hotel now. The blue sea is really pretty."},
+  {type:"mc",q:"여권 = 여 + 권. 여 means:",opts:["Travel","Document","Country","Person"],ans:"Travel",hint:"여 (旅) = travel. 권 (券) = ticket/certificate. 여권 = travel certificate = passport."},
+  {type:"mc",q:"1박 2일 describes:",opts:["A 2-week vacation","A 1 night, 2 day trip","A round trip ticket","A hotel room type"],ans:"A 1 night, 2 day trip",hint:"박 = overnight stay. 1박 = one night. 2일 = two days."},
+  {type:"mc",q:"걸어서 10분 정도 걸려요 means:",opts:["I walked for 10 hours","It takes about 10 minutes walking","The walk costs 10 won","I ran for 10 minutes"],ans:"It takes about 10 minutes walking",hint:"걸어서 = walking. 정도 = about. 걸려요 = it takes."},
+  {type:"mc",q:"Which is ㅎ-irregular?",opts:["먹다","가다","크다","하얗다"],ans:"하얗다",hint:"ㅎ-irregulars are mostly color adjectives ending in ㅎ."},
+]},
+
+]},
+
 ];
