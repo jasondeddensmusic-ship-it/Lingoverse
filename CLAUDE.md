@@ -241,6 +241,11 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - B1 quality audit (2026-03-14): 28 duplicate teach cards removed (incl. 호텔→숙소), ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
 - A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
+- **TOPIK/TTMIK standards audit (2026-03-14)**: ~60-65% of TTMIK L1-6 grammar covered. ~40 patterns missing. See `docs/KOREAN_TOPIK_TTMIK_AUDIT.md`
+  - Critical gaps: -(으)ㄹ게요 (volitional future), -(으)니까 (reason+command), -자마자, -(이)나/-거나 (or), -만 (only), -(으)ㄹ래요, -(으)ㄴ 후에, -한테/-한테서, 죄송합니다/저기요, 누구/왜/어떻게, 그리고/그래서
+  - Gap plan: ~15-20 new lessons across existing units, 12 new seeds. See `docs/KOREAN_CURRICULUM_GAP_PLAN.md`
+  - Strengths confirmed: seed-harvest system, cultural anchoring, practice ratio (65%), Sino-Korean compounds, irregular systematization
+  - **Next action**: Execute Sprint 1 (A1 survival patch) then Sprint 2 (A2 structural unlocks)
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -259,7 +264,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B1 DONE. Next: A1-A2 quality fixes, then B2.
+1. **Korean** - A1-B1 DONE. Next: TOPIK/TTMIK gap fill (15-20 lessons, 12 new seeds), then A1-A2 quality fixes, then B2.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
@@ -314,6 +319,8 @@ Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
 - `docs/LINGOVERSE_MASTER_BIBLE.md` — Full philosophy, per-language standards, official reference requirements, unit count doctrine
 - `docs/POLYGLOT_PIPELINE_STANDARDS.md` — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan
 - `docs/KOREAN_B1_CURRICULUM_DESIGN.md` — **NEW** Complete B1 design: seed harvests, grammar sequencing, cultural anchors, trade-offs
+- `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` — **NEW** TOPIK I + TTMIK L1-6 gap analysis: ~40 missing grammar patterns, coverage percentages, tiered priority list
+- `docs/KOREAN_CURRICULUM_GAP_PLAN.md` — **NEW** Implementation plan: 5 sprints, 12 new seeds, ~15-20 new lessons, polyglot seeding philosophy
 - `docs/KOREAN_QUALITY_AUDIT.md` — A1-A2 quality audit with 7 fix batches (2026-03-14, issues resolved)
 - `docs/KOREAN_DENSITY_AUDIT.md` — Historical density tracking (superseded by quality audit)
 
