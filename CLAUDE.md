@@ -238,6 +238,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
   - U20: Consolidation + B1 assessment
   - All 12 seed registry harvests complete
 - 20 units, 195 lessons total (A1: 66, A2: 36, B1: 93)
+- B1 quality audit (2026-03-14): 27 duplicate teach cards removed, ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
 - A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
 
