@@ -3540,4 +3540,183 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 14 — 해야 돼요 (Obligation & Purpose) — B1.2
+// Grammar: -아/어야 하다 (must/have to), -(으)려고 (in order to),
+//          -(으)면 안 되다 (must not), -아/어도 되다 (may/allowed)
+// Cultural anchor: Workplace culture, 회식, Korean work ethic
+// Prerequisite: U13 (connectors, all irregulars)
+// ═══════════════════════════════════════════════════════════
+{n:14,lang:"ko",track:"v2",title:"해야 돼요",sub:"Obligation & Purpose",icon:"📋",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 직장 어휘 (Workplace Vocabulary) ──
+{id:"kou14l1",title:"직장 어휘",icon:"🏢",xp:22,board:true,steps:[
+{type:"intro",title:"At the Office",desc:"직장\n→ workplace\n\nKorean work culture vocabulary.\nThe office, meetings, and colleagues.",goals:["Learn 8 workplace words","Talk about work and meetings","Understand Korean office hierarchy","Use workplace vocabulary naturally"]},
+{type:"teach",nl:"직장",en:"workplace, job",phonetic:"jik-jang",note:"COMPOUND: 직(job/職) + 장(place/場).\nJob-place = workplace.",kind:"noun"},
+{type:"teach",nl:"회의",en:"meeting",phonetic:"hoe-ui",note:"COMPOUND: 회(gather/會) + 의(discuss/議).\nGather-discuss = meeting.",kind:"noun"},
+{type:"teach",nl:"회사",en:"company",phonetic:"hoe-sa",note:"COMPOUND: 회(gather/會) + 사(office/社).\n회사에 다니다 = work at a company.",kind:"noun"},
+{type:"teach",nl:"상사",en:"boss, superior",phonetic:"sang-sa",note:"COMPOUND: 상(above/上) + 사(person/司).\nAbove-person = boss/superior.",kind:"noun"},
+{type:"teach",nl:"동료",en:"colleague",phonetic:"dong-ryo",note:"COMPOUND: 동(same/同) + 료(companion/僚).\nSame-companion = colleague.",kind:"noun"},
+{type:"teach",nl:"출근하다",en:"to go to work",phonetic:"chul-geun-ha-da",note:"COMPOUND: 출(go out/出) + 근(work/勤).\nGo-out-to-work = commute to work.\nOpposite: 퇴근하다 (leave work).",kind:"verb"},
+{type:"teach",nl:"퇴근하다",en:"to leave work",phonetic:"toe-geun-ha-da",note:"COMPOUND: 퇴(retreat/退) + 근(work/勤).\nRetreat-from-work = leave work.",kind:"verb"},
+{type:"teach",nl:"야근하다",en:"to work overtime",phonetic:"ya-geun-ha-da",note:"COMPOUND: 야(night/夜) + 근(work/勤).\nNight-work = overtime.",kind:"verb"},
+{type:"mc",q:"출근하다 vs 퇴근하다:",opts:["Go to work vs leave work","Start work vs finish work early","Morning shift vs night shift","Get hired vs get fired"],ans:"Go to work vs leave work",hint:"출(out) + 근(work) = go out to work. 퇴(retreat) + 근(work) = leave work."},
+{type:"match",pairs:[{nl:"회의",en:"meeting"},{nl:"회사",en:"company"},{nl:"상사",en:"boss"},{nl:"동료",en:"colleague"}]},
+{type:"mc",q:"야근 literally means:",opts:["Night-work","Extra-work","Hard-work","Late-work"],ans:"Night-work",hint:"야 (夜) = night. 근 (勤) = work."},
+{type:"fb",s:"아침 9시에 {1}하고 저녁 6시에 {2}해요.",a:"출근",opts:["출근","퇴근","야근","회의"],hint:"I ___ at 9am and ___ at 6pm. First: go to work. Second: leave work."},
+{type:"mc",q:"직장 means:",opts:["Workplace","Direct message","Boss","Meeting room"],ans:"Workplace",hint:"직(job/職) + 장(place/場) = job-place."},
+{type:"teach",nl:"보고서",en:"report",phonetic:"bo-go-seo",note:"COMPOUND: 보(report/報) + 고(announce/告) + 서(document/書).\nReport-announce-document.",kind:"noun"},
+{type:"teach",nl:"마감",en:"deadline",phonetic:"ma-gam",note:"COMPOUND: 마(end/末) + 감(wrap/感).\n마감일 = deadline day.",kind:"noun"},
+{type:"fb",s:"{1}까지 보고서를 내야 해요.",a:"마감",opts:["마감","출근","퇴근","회의"],hint:"I have to submit the report by the ___. Deadline."},
+{type:"match",pairs:[{nl:"출근하다",en:"go to work"},{nl:"퇴근하다",en:"leave work"},{nl:"야근하다",en:"work overtime"},{nl:"마감",en:"deadline"}]},
+{type:"mc",q:"보고서 breaks down as:",opts:["Report + announce + document","Boss + tell + paper","Work + talk + write","Send + message + text"],ans:"Report + announce + document",hint:"보(報) = report, 고(告) = announce, 서(書) = document."},
+{type:"drag_fill",s:"오늘 {1}가 있어요. 그래서 일찍 {2}했어요.",blanks:{"1":"회의","2":"출근"},pool:["회의","출근","퇴근","야근","마감"],hint:"I have a meeting today. So I came to work early."},
+]},
+
+// ── L2: -아/어야 하다 (Must/Have To) ──
+{id:"kou14l2",title:"-아/어야 하다",icon:"✅",xp:24,board:true,steps:[
+{type:"intro",title:"Must / Have To",desc:"-아/어야 하다\n→ must, have to\n\nExpress obligation and necessity.\nThings you MUST do.",goals:["Use -아/어야 하다 for obligation","Know the 되다 alternative: -아/어야 되다","Express what you must do at work","Build natural obligation sentences"]},
+{type:"teach",nl:"-아/어야 하다",en:"must, have to",phonetic:"-a/eo-ya ha-da",note:"Verb stem + 아/어야 하다.\nBright vowel (ㅏ,ㅗ): 아야\nDark vowel: 어야\n가야 해요 = I have to go.",kind:"grammar",deepDive:"-아/어야 하다 vs -아/어야 되다:\n\nBoth mean 'must/have to.'\n하다 version is slightly more formal.\n되다 version is more common in speech.\n\n가야 해요 = must go (formal)\n가야 돼요 = must go (common)\n\nBoth are correct. 되다 version is used\nmore often in daily conversation."},
+{type:"tip",title:"Conjugation Pattern",text:"Stem + 아/어야 해요/돼요\n\n가다 → 가야 해요 (must go)\n먹다 → 먹어야 해요 (must eat)\n하다 → 해야 해요 (must do)\n오다 → 와야 해요 (must come)\n공부하다 → 공부해야 해요 (must study)\n\nPast: 했어야 했어요 (should have done)\nNegative: 안 해도 돼요 (don't have to)"},
+{type:"mc",q:"내일까지 보고서를 내야 해요 means:",opts:["I must submit the report by tomorrow","I want to submit the report","I submitted the report","I might submit the report"],ans:"I must submit the report by tomorrow",hint:"-아/어야 하다 = must. 까지 = by (deadline)."},
+{type:"fb",s:"9시까지 출근{1} 돼요.",a:"해야",opts:["해야","하면","하거든","하는데"],hint:"I must go to work by 9. 하다 → 해야."},
+{type:"mc",q:"먹다 + -아/어야 해요 = ?",opts:["먹어야 해요","먹아야 해요","먹야 해요","먹해야 해요"],ans:"먹어야 해요",hint:"먹 has dark vowel ㅓ. Dark → 어야. 먹어야 해요."},
+{type:"fb",s:"회의에 {1} 해요. 중요한 회의예요.",a:"가야",opts:["가야","가면","가는데","가거든"],hint:"I must go to the meeting. It's an important meeting. 가다 → 가야."},
+{type:"mc",q:"-아/어야 하다 vs -아/어야 되다:",opts:["Both mean 'must.' 되다 is more common in speech.","They have different meanings","하다 is casual, 되다 is formal","Only 하다 is correct"],ans:"Both mean 'must.' 되다 is more common in speech.",hint:"가야 해요 = 가야 돼요. Same meaning. 되다 version is more conversational."},
+{type:"teach",nl:"제출하다",en:"to submit",phonetic:"je-chul-ha-da",note:"COMPOUND: 제(present/提) + 출(go out/出).\nPresent-outward = submit.",kind:"verb"},
+{type:"fb",s:"보고서를 내일까지 {1} 해요.",a:"제출해야",opts:["제출해야","제출하면","제출하는데","제출하거든"],hint:"I must submit the report by tomorrow. -아/어야 하다 for obligation."},
+{type:"mc",q:"오다 + -아/어야 = ?",opts:["와야","오아야","오어야","올야"],ans:"와야",hint:"오 + 아 contracts to 와. 와야 해요 = must come."},
+{type:"drag_fill",s:"마감이에요. 오늘까지 {1} 해요. 그래서 {2}해야 돼요.",blanks:{"1":"끝내야","2":"야근"},pool:["끝내야","야근","출근","퇴근","회의"],hint:"It's the deadline. I must finish today. So I must work overtime."},
+{type:"match",pairs:[{nl:"가야 해요",en:"must go"},{nl:"먹어야 해요",en:"must eat"},{nl:"해야 해요",en:"must do"},{nl:"와야 해요",en:"must come"}]},
+{type:"mc",q:"한국어를 매일 공부해야 돼요. Why use 돼요 instead of 해요?",opts:["Both are correct. 돼요 is more conversational.","돼요 is the only correct form","해요 is wrong here","돼요 is more formal"],ans:"Both are correct. 돼요 is more conversational.",hint:"-아/어야 하다 and -아/어야 되다 are interchangeable. 되다 is used more in speech."},
+{type:"fb",s:"숙제를 {1} 돼요. 선생님이 말했어요.",a:"해야",opts:["해야","하면","하는","해서"],hint:"I have to do homework. The teacher said so. 하다 → 해야."},
+]},
+
+// ── L3: -(으)면 안 되다 / -아/어도 되다 ──
+{id:"kou14l3",title:"안 되다/되다",icon:"🚫",xp:24,board:true,steps:[
+{type:"intro",title:"Must Not / May",desc:"-(으)면 안 되다\n→ must not\n\n-아/어도 되다\n→ may, it's OK to\n\nProhibition and permission.",goals:["Use -(으)면 안 되다 for prohibition","Use -아/어도 되다 for permission","Ask for permission naturally","Understand workplace rules"]},
+{type:"teach",nl:"-(으)면 안 되다",en:"must not, may not",phonetic:"-(eu)myeon an doe-da",note:"Stem + (으)면 안 돼요.\nVowel stem: 면 안 돼요.\nConsonant stem: 으면 안 돼요.\n가면 안 돼요 = You must not go.",kind:"grammar",deepDive:"Literally: 'If you do [X], it won't do.'\n\nStructure: verb + (으)면 + 안 되다\n= if + [action] + not + become/work\n\n여기서 담배 피우면 안 돼요.\n= You must not smoke here.\n(If you smoke here, it won't do.)"},
+{type:"teach",nl:"-아/어도 되다",en:"may, it's OK to, allowed to",phonetic:"-a/eo-do doe-da",note:"Stem + 아/어도 돼요.\n가도 돼요 = You may go.\n먹어도 돼요 = You may eat.",kind:"grammar",deepDive:"Literally: 'Even if you do [X], it becomes OK.'\n\n-도 = even/also\n되다 = become OK\n\n질문해도 돼요? = May I ask a question?\n(Even if I ask, is it OK?)\n\nVery polite way to ask permission."},
+{type:"mc",q:"여기서 사진을 찍으면 안 돼요 means:",opts:["You must not take photos here","You may take photos here","Please take photos here","I took photos here"],ans:"You must not take photos here",hint:"-(으)면 안 돼요 = must not. Prohibition."},
+{type:"fb",s:"회의 중에 전화{1} 안 돼요.",a:"하면",opts:["하면","해도","해야","해서"],hint:"You must not make phone calls during a meeting. -(으)면 안 되다."},
+{type:"mc",q:"이거 먹어도 돼요? means:",opts:["May I eat this?","Must I eat this?","I ate this","I won't eat this"],ans:"May I eat this?",hint:"-아/어도 돼요? = is it OK if I...? Asking permission."},
+{type:"fb",s:"질문{1} 돼요?",a:"해도",opts:["해도","하면","해야","해서"],hint:"May I ask a question? -아/어도 되다 for permission."},
+{type:"tip",title:"Permission vs Obligation vs Prohibition",text:"해야 돼요 = must do (obligation)\n해도 돼요 = may do (permission)\n하면 안 돼요 = must not do (prohibition)\n안 해도 돼요 = don't have to (no obligation)\n\n해야 돼요? = Must I?\n해도 돼요? = May I?\n하면 안 돼요? = Is it not allowed?"},
+{type:"mc",q:"안 해도 돼요 means:",opts:["You don't have to do it","You must not do it","You must do it","You may do it"],ans:"You don't have to do it",hint:"안 + 해도 돼요 = not + 'even if you do, it's OK' = no obligation. Different from 하면 안 돼요."},
+{type:"fb",s:"여기서 담배를 피우{1} 안 돼요.",a:"면",opts:["면","도","야","서"],hint:"You must not smoke here. 피우다 vowel stem → 면 안 돼요."},
+{type:"mc",q:"먹어도 돼요 vs 먹으면 안 돼요:",opts:["May eat vs must not eat","Must eat vs may not eat","Want to eat vs don't eat","Ate vs didn't eat"],ans:"May eat vs must not eat",hint:"-아/어도 돼요 = permission. -(으)면 안 돼요 = prohibition."},
+{type:"drag_fill",s:"회의 중에 전화{1} 안 돼요. 하지만 메모{2} 돼요.",blanks:{"1":"하면","2":"해도"},pool:["하면","해도","해야","해서","하는데"],hint:"You must not call during meetings. But you may take notes."},
+{type:"match",pairs:[{nl:"해야 돼요",en:"must do"},{nl:"해도 돼요",en:"may do"},{nl:"하면 안 돼요",en:"must not do"},{nl:"안 해도 돼요",en:"don't have to"}]},
+{type:"mc",q:"늦게 퇴근해도 돼요? Your boss says: 네, 괜찮아요. You may:",opts:["Leave work late","Leave work early","Skip work","Work overtime"],ans:"Leave work late",hint:"퇴근해도 돼요? = May I leave work late? 네, 괜찮아요 = Yes, it's fine."},
+{type:"fb",s:"오늘 일찍 퇴근{1} 돼요? 약속이 있거든요.",a:"해도",opts:["해도","하면","해야","해서"],hint:"May I leave work early today? You see, I have an appointment. Permission + reason."},
+]},
+
+// ── L4: -(으)려고 (In Order To) ──
+{id:"kou14l4",title:"-(으)려고",icon:"🎯",xp:22,board:true,steps:[
+{type:"intro",title:"In Order To",desc:"-(으)려고\n→ in order to, intending to\n\nExpress purpose and intention.\nWhy you do something.",goals:["Use -(으)려고 for purpose","Build purpose + action sentences","Combine with workplace vocabulary","Distinguish from -아/어서 (because)"]},
+{type:"teach",nl:"-(으)려고",en:"in order to, intending to",phonetic:"-(eu)ryeo-go",note:"Verb stem + (으)려고.\nVowel stem: 려고.\nConsonant stem: 으려고.\n가려고 해요 = I intend to go.",kind:"grammar",deepDive:"-(으)려고 vs -아/어서 vs -기 위해서:\n\n-(으)려고: intention/purpose\n한국어를 배우려고 한국에 왔어요.\nI came to Korea to learn Korean.\n\n-아/어서: because (cause-effect)\n한국어를 배워서 행복해요.\nI'm happy because I learned Korean.\n\n-기 위해서: formal 'for the purpose of'\n한국어를 배우기 위해서 한국에 왔어요.\nI came to Korea for the purpose of learning Korean.\n\n-(으)려고 is the most natural for daily speech."},
+{type:"tip",title:"Conjugation",text:"Vowel stem: + 려고\n가다 → 가려고 (in order to go)\n보다 → 보려고 (in order to see)\n하다 → 하려고 (in order to do)\n\nConsonant stem: + 으려고\n먹다 → 먹으려고 (in order to eat)\n읽다 → 읽으려고 (in order to read)\n찾다 → 찾으려고 (in order to find)"},
+{type:"mc",q:"한국어를 배우려고 한국에 왔어요 means:",opts:["I came to Korea in order to learn Korean","I came to Korea because I learned Korean","I learned Korean in Korea","I want to come to Korea"],ans:"I came to Korea in order to learn Korean",hint:"-(으)려고 = in order to. Purpose comes first, then the action taken."},
+{type:"fb",s:"보고서를 쓰{1} 야근했어요.",a:"려고",opts:["려고","면서","는데","어서"],hint:"I worked overtime in order to write the report. 쓰 vowel stem → 려고."},
+{type:"mc",q:"먹다 + -(으)려고 = ?",opts:["먹으려고","먹려고","먹으려","먹어려고"],ans:"먹으려고",hint:"먹 ends in consonant. Consonant stem → 으려고."},
+{type:"fb",s:"일찍 출근{1} 5시에 일어났어요.",a:"하려고",opts:["하려고","하면서","하는데","해서"],hint:"I woke up at 5 in order to go to work early."},
+{type:"mc",q:"Which expresses PURPOSE?",opts:["운동하려고 공원에 갔어요","운동해서 건강해요","운동하는데 힘들어요","운동하면서 음악 들어요"],ans:"운동하려고 공원에 갔어요",hint:"-(으)려고 = in order to. I went to the park in order to exercise."},
+{type:"teach",nl:"준비하다",en:"to prepare",phonetic:"jun-bi-ha-da",note:"COMPOUND: 준(standard/準) + 비(equip/備).\n회의를 준비하다 = prepare for a meeting.",kind:"verb"},
+{type:"fb",s:"회의를 {1} 자료를 만들었어요.",a:"준비하려고",opts:["준비하려고","준비하면서","준비해서","준비하는데"],hint:"I made materials in order to prepare for the meeting."},
+{type:"mc",q:"-(으)려고 하다 (intend to) vs -(으)려고 (in order to):",opts:["-(으)려고 하다 = intention. -(으)려고 = purpose.","Same meaning","-(으)려고 하다 is past, -(으)려고 is present","Only -(으)려고 하다 is correct"],ans:"-(으)려고 하다 = intention. -(으)려고 = purpose.",hint:"가려고 해요 = I intend to go. 가려고 일찍 일어났어요 = I woke up early to go."},
+{type:"drag_fill",s:"한국어를 {1} 매일 공부해요. 그리고 한국 드라마를 {2} 넷플릭스를 봐요.",blanks:{"1":"배우려고","2":"보려고"},pool:["배우려고","보려고","배워서","봐서","배우면서"],hint:"I study every day to learn Korean. And I watch Netflix to see K-dramas."},
+{type:"match",pairs:[{nl:"가려고",en:"in order to go"},{nl:"먹으려고",en:"in order to eat"},{nl:"하려고",en:"in order to do"},{nl:"보려고",en:"in order to see"}]},
+{type:"fb",s:"승진{1} 열심히 일해요.",a:"하려고",opts:["하려고","하면서","하는데","해야"],hint:"I work hard in order to get promoted."},
+{type:"mc",q:"마감까지 끝내려고 야근했어요 means:",opts:["I worked overtime to finish by the deadline","I worked overtime because of the deadline","I must finish by the deadline","I don't want to work overtime"],ans:"I worked overtime to finish by the deadline",hint:"-(으)려고 = in order to. Purpose: finish by deadline."},
+]},
+
+// ── L5: 회식 문화 (After-Work Culture) ──
+{id:"kou14l5",title:"회식 문화",icon:"🍺",xp:20,board:true,steps:[
+{type:"intro",title:"Korean After-Work Culture",desc:"회식\n→ company dinner/drinks\n\nKorea's famous (and sometimes infamous)\nafter-work gathering tradition.",goals:["Learn about 회식 culture","Understand workplace social obligations","Use obligation grammar in context","Navigate 1차, 2차, 3차 culture"]},
+{type:"teach",nl:"회식",en:"company dinner/drinks",phonetic:"hoe-sik",note:"COMPOUND: 회(company/會) + 식(eat/食).\nCompany-eat = work dinner.\nOften involves alcohol.",kind:"noun",deepDive:"회식 is a central part of Korean work culture.\n\nTraditionally, attendance was mandatory.\nYounger workers are pushing back on this.\n\n회식 often follows this pattern:\n1차 (first round): dinner + soju\n2차 (second round): bar or karaoke\n3차 (third round): more drinks\n\nBoss usually pays for 1차.\n야, 한 잔 더! (Hey, one more glass!)"},
+{type:"teach",nl:"1차",en:"first round (of socializing)",phonetic:"il-cha",note:"차 = round/order.\n1차 = first round (dinner).\n2차 = second round (bar/karaoke).\n3차 = third round (rare, hardcore).",kind:"noun"},
+{type:"teach",nl:"건배",en:"cheers (toast)",phonetic:"geon-bae",note:"COMPOUND: 건(dry/乾) + 배(cup/杯).\nDry-cup = empty your glass = cheers!",kind:"noun"},
+{type:"teach",nl:"분위기",en:"atmosphere, mood",phonetic:"bun-wi-gi",note:"Already learned in U13.\n회식 분위기 = after-work dinner mood.",kind:"noun"},
+{type:"tip",title:"회식 Etiquette",text:"Traditional rules (changing now):\n\n1. Pour drinks for 상사 first\n2. Turn away when drinking with 상사\n3. Use both hands to receive a drink\n4. Don't refuse the first glass\n5. Don't leave before your 상사\n\nModern Korea is relaxing these rules.\nYounger workers value work-life balance.\n'워라밸' (work-life balance) is now a buzzword.",deepDive:"The changing face of 회식:\n\nOld style: mandatory, heavy drinking,\nlate nights, pressure to participate.\n\n주52시간 (52-hour work week law, 2018)\nhelped reduce forced overtime and 회식.\n\nNew style: optional, lunch 회식,\nactivity-based (hiking, bowling),\nalcohol-free options accepted.\n\nBut in many industries, 회식 culture\nis still strong, especially in\ntraditional companies."},
+{type:"mc",q:"회식 literally means:",opts:["Company-eat","Work-party","Drink-together","Night-fun"],ans:"Company-eat",hint:"회(company/會) + 식(eat/食). A company eating event."},
+{type:"mc",q:"2차 at a 회식 typically means:",opts:["Second round: bar or karaoke","Second day of work dinner","Ordering a second dish","Going home second"],ans:"Second round: bar or karaoke",hint:"차 = round. 1차 dinner, 2차 bar/karaoke, 3차 more drinks."},
+{type:"fb",s:"회식에 {1} 해요. 상사가 오라고 했어요.",a:"가야",opts:["가야","가면","가도","가려고"],hint:"I must go to the 회식. The boss told me to come. Obligation."},
+{type:"mc",q:"건배 literally means:",opts:["Dry-cup (empty your glass)","Happy-drink","Together-raise","Good-health"],ans:"Dry-cup (empty your glass)",hint:"건(乾) = dry. 배(杯) = cup. Dry your cup = cheers!"},
+{type:"fb",s:"회식에 안 {1} 돼요? 피곤하거든요.",a:"가도",opts:["가도","가면","가야","가려고"],hint:"May I not go to the 회식? You see, I'm tired. Permission question."},
+{type:"drag_fill",s:"오늘 회식이 있어요. 1차는 {1}이고 2차는 {2}예요.",blanks:{"1":"저녁","2":"노래방"},pool:["저녁","노래방","퇴근","출근","회의"],hint:"There's a 회식 today. 1st round is dinner, 2nd round is karaoke."},
+{type:"match",pairs:[{nl:"회식",en:"company dinner"},{nl:"1차/2차/3차",en:"rounds of socializing"},{nl:"건배",en:"cheers (toast)"},{nl:"야근",en:"overtime"}]},
+{type:"mc",q:"Modern Korean workers say '워라밸.' This comes from:",opts:["Work-life balance (워크라이프밸런스)","Working rally bell","War labor belt","Worker rally balance"],ans:"Work-life balance (워크라이프밸런스)",hint:"Konglish abbreviation: 워크(work) + 라이프(life) + 밸런스(balance) → 워라밸."},
+{type:"fb",s:"상사가 소주를 주면 {1} 받아야 해요. 한국 문화예요.",a:"두 손으로",opts:["두 손으로","한 손으로","빨리","천천히"],hint:"When the boss offers soju, you must receive it with TWO hands. Korean etiquette."},
+]},
+
+// ── L6: 직장 대화 (Workplace Conversations) ──
+{id:"kou14l6",title:"직장 대화",icon:"💼",xp:22,board:true,steps:[
+{type:"intro",title:"At the Office: Conversations",desc:"Combining obligation, permission, and purpose\nin workplace contexts.",goals:["Use all Unit 14 grammar at work","Navigate workplace situations","Combine obligation + purpose","Practice workplace vocabulary"]},
+{type:"mc",q:"보고서를 내일까지 제출해야 돼요. 그래서 야근하려고 해요. This person:",opts:["Must submit by tomorrow, so plans to work overtime","Wants to submit and leave early","Finished the report already","Doesn't need to submit"],ans:"Must submit by tomorrow, so plans to work overtime",hint:"해야 돼요 = must. -(으)려고 해요 = intends to."},
+{type:"fb",s:"회의 중에 핸드폰을 사용{1} 안 돼요.",a:"하면",opts:["하면","해도","해야","해서"],hint:"You must not use your phone during meetings. Prohibition."},
+{type:"mc",q:"이메일 보내도 돼요? 상사에게 확인하려고요. The speaker:",opts:["Asks permission to send email, to check with the boss","Must send email to the boss","Can't send email","Already sent the email"],ans:"Asks permission to send email, to check with the boss",hint:"-아/어도 돼요? = may I? -(으)려고요 = in order to (shortened)."},
+{type:"fb",s:"승진{1} 열심히 일{2} 돼요.",a:"하려고",opts:["하려고","하면","해서","하는데"],hint:"In order to get promoted, I must work hard."},
+{type:"drag_fill",s:"오늘 일찍 퇴근{1} 돼요? 병원에 {2} 가야 해요.",blanks:{"1":"해도","2":"가려고"},pool:["해도","해야","가려고","가면서","하면"],hint:"May I leave early? I must go (in order to go) to the hospital."},
+{type:"mc",q:"야근하면 안 돼요! 건강이 중요해요. The speaker is saying:",opts:["You must not work overtime! Health is important.","You should work overtime.","You may work overtime.","Working overtime is easy."],ans:"You must not work overtime! Health is important.",hint:"-(으)면 안 돼요 = must not. Prohibition with a health reason."},
+{type:"match",pairs:[{nl:"해야 돼요",en:"must do"},{nl:"해도 돼요",en:"may do"},{nl:"하면 안 돼요",en:"must not do"},{nl:"하려고 해요",en:"intend to do"}]},
+{type:"fb",s:"동료가 도와줘서 일찍 {1}할 수 있었어요.",a:"퇴근",opts:["퇴근","출근","야근","회식"],hint:"Because my colleague helped, I could leave work early."},
+{type:"mc",q:"마감을 지키려고 밤새 일했어요. -(으)려고 here shows:",opts:["Purpose: worked all night to meet the deadline","Contrast: despite the deadline","Permission: allowed to meet deadline","Obligation: must meet deadline"],ans:"Purpose: worked all night to meet the deadline",hint:"-(으)려고 = in order to. Working all night was the means to meet the deadline."},
+{type:"drag_fill",s:"A: 내일 쉬{1} 돼요?\nB: 네, 괜찮아요. 하지만 보고서는 {2} 해요.",blanks:{"1":"어도","2":"내야"},pool:["어도","어야","내야","내면","내도"],hint:"A: May I take off tomorrow? B: Yes, OK. But you must submit the report."},
+{type:"mc",q:"한국 직장에서 상사에게 존댓말을 써야 해요. 존댓말 means:",opts:["Honorific/formal speech","Casual speech","Written speech","Slang"],ans:"Honorific/formal speech",hint:"존댓말 = respectful speech. In Korean workplaces, you must use it with superiors."},
+]},
+
+// ── L7: 의무와 규칙 (Rules and Regulations) ──
+{id:"kou14l7",title:"의무와 규칙",icon:"📜",xp:22,board:true,steps:[
+{type:"intro",title:"Rules & Regulations",desc:"Obligation grammar in everyday rules.\n\nSigns, announcements, regulations.\nThings you must and must not do.",goals:["Read Korean rule signs","Express rules with obligation grammar","Combine prohibition and permission","Practice formal obligation expressions"]},
+{type:"teach",nl:"규칙",en:"rule, regulation",phonetic:"gyu-chik",note:"COMPOUND: 규(standard/規) + 칙(rule/則).\nStandard-rule = regulation.",kind:"noun"},
+{type:"teach",nl:"금지",en:"prohibition, forbidden",phonetic:"geum-ji",note:"COMPOUND: 금(forbid/禁) + 지(stop/止).\nForbid-stop = prohibited.\n흡연 금지 = No smoking.",kind:"noun"},
+{type:"teach",nl:"허락",en:"permission, approval",phonetic:"heo-rak",note:"COMPOUND: 허(permit/許) + 락(agree/諾).\nPermit-agree = permission/approval.",kind:"noun"},
+{type:"mc",q:"흡연 금지 on a sign means:",opts:["No smoking","Smoking area","Cigarette shop","Smoking allowed"],ans:"No smoking",hint:"흡연 = smoking. 금지 = prohibited. Forbidden to smoke."},
+{type:"fb",s:"이 건물에서 음식을 먹{1} 안 돼요. 규칙이에요.",a:"으면",opts:["으면","어도","어야","어서"],hint:"You must not eat food in this building. It's the rule."},
+{type:"mc",q:"사진 촬영 금지 means:",opts:["Photography prohibited","Photo studio","Take pictures","Photography allowed"],ans:"Photography prohibited",hint:"촬영 = filming/photographing. 금지 = prohibited."},
+{type:"fb",s:"여기서 수영{1} 돼요? 표지판이 없거든요.",a:"해도",opts:["해도","하면","해야","해서"],hint:"May I swim here? You see, there's no sign."},
+{type:"tip",title:"Common Korean Signs",text:"금연 = No smoking (금 = forbid, 연 = smoke)\n주차 금지 = No parking\n출입 금지 = No entry\n촬영 금지 = No photography\n음식물 반입 금지 = No outside food\n\nThese use 금지 (prohibition) pattern.\nIn conversation: -(으)면 안 돼요."},
+{type:"mc",q:"주차 금지 means:",opts:["No parking","Parking lot","Free parking","Parking available"],ans:"No parking",hint:"주차 = parking. 금지 = prohibited."},
+{type:"match",pairs:[{nl:"금연",en:"no smoking"},{nl:"주차 금지",en:"no parking"},{nl:"출입 금지",en:"no entry"},{nl:"촬영 금지",en:"no photography"}]},
+{type:"drag_fill",s:"이 공원에서 자전거를 타{1} 안 돼요. 하지만 걸{2} 돼요.",blanks:{"1":"면","2":"어도"},pool:["면","어도","어야","으면서","려고"],hint:"You must not ride bikes in this park. But you may walk."},
+{type:"fb",s:"허락 없이 들어가{1} 안 돼요.",a:"면",opts:["면","도","야","서"],hint:"You must not enter without permission."},
+{type:"mc",q:"음식물 반입 금지. 반입 means:",opts:["Bringing in","Taking out","Eating","Buying"],ans:"Bringing in",hint:"반(carry/搬) + 입(enter/入) = carry-in. No bringing in food."},
+]},
+
+// ── L8: 한국 직장 생활 (Korean Work Life) ──
+{id:"kou14l8",title:"한국 직장 생활",icon:"🇰🇷",xp:20,board:true,steps:[
+{type:"intro",title:"Korean Work Life",desc:"Understanding Korean workplace culture.\n\nHierarchy, respect, and changing norms.",goals:["Understand Korean work hierarchy","Learn about 선배/후배 culture","See how work culture is changing","Discuss work-life balance"]},
+{type:"teach",nl:"선배",en:"senior (at work/school)",phonetic:"seon-bae",note:"COMPOUND: 선(ahead/先) + 배(generation/輩).\nAhead-generation = senior.\nVery important social role in Korea.",kind:"noun",deepDive:"선배/후배 is one of Korea's most\nimportant social relationships.\n\n선배 (senior) is expected to:\n- Guide and mentor\n- Pay for meals\n- Take responsibility\n\n후배 (junior) is expected to:\n- Show respect\n- Follow advice\n- Use honorific language\n\nThis applies in school AND workplace."},
+{type:"teach",nl:"후배",en:"junior (at work/school)",phonetic:"hu-bae",note:"COMPOUND: 후(behind/後) + 배(generation/輩).\nBehind-generation = junior.",kind:"noun"},
+{type:"teach",nl:"존댓말",en:"honorific/formal speech",phonetic:"jon-daen-mal",note:"존대 (respect) + 말 (speech).\nRequired with 상사 and 선배.\n반말 (casual speech) only with close peers.",kind:"noun"},
+{type:"mc",q:"선배/후배 relationship is based on:",opts:["Who started earlier (seniority)","Who is older","Who has a higher position","Who earns more money"],ans:"Who started earlier (seniority)",hint:"선(ahead) + 배(generation). The one who started first is 선배."},
+{type:"tip",title:"Changing Korean Work Culture",text:"Traditional: hierarchy, long hours, 회식 pressure.\n\nModern trends:\n- 워라밸 (work-life balance)\n- 주52시간 (52-hour work week law)\n- 수평적 문화 (flat/horizontal culture)\n- Some companies use English names\n  instead of titles\n- Remote work increasing\n\nBut many traditional companies still\nmaintain strict hierarchy.",deepDive:"Korean workplace vocabulary:\n\n사원 = staff (lowest rank)\n대리 = assistant manager\n과장 = section chief\n차장 = deputy department head\n부장 = department head\n이사 = director\n사장 = CEO\n\nIn traditional companies, you MUST\naddress people by title + 님:\n과장님, 부장님, etc.\nNever by first name!"},
+{type:"mc",q:"한국 직장에서 상사에게 반말을 쓰면 안 돼요. This means:",opts:["You must not use casual speech with your boss","You should use casual speech with your boss","Your boss uses casual speech with you","반말 is only for meetings"],ans:"You must not use casual speech with your boss",hint:"-(으)면 안 돼요 = must not. 반말 (casual) to 상사 (boss) is forbidden."},
+{type:"fb",s:"선배에게 {1}을 써야 해요. 한국 문화예요.",a:"존댓말",opts:["존댓말","반말","영어","이름"],hint:"You must use ___ with seniors. Korean culture. Honorific speech."},
+{type:"match",pairs:[{nl:"선배",en:"senior"},{nl:"후배",en:"junior"},{nl:"존댓말",en:"formal speech"},{nl:"반말",en:"casual speech"}]},
+{type:"mc",q:"워라밸 comes from:",opts:["Work-life balance","War labor belly","Worker rally balance","Walking running balance"],ans:"Work-life balance",hint:"워크(work) + 라이프(life) + 밸런스(balance) abbreviated to 워라밸."},
+{type:"drag_fill",s:"한국에서 직장 {1}에게 존댓말을 {2} 해요. 규칙이에요.",blanks:{"1":"상사","2":"써야"},pool:["상사","동료","써야","쓰면","쓰려고"],hint:"In Korea, you must use honorific speech to your workplace boss. It's the rule."},
+{type:"fb",s:"요즘 한국 회사들은 {1} 문화를 중요하게 생각해요.",a:"수평적",opts:["수평적","수직적","전통적","보수적"],hint:"These days, Korean companies value ___ (flat/horizontal) culture."},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou14l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 14 Review",desc:"Review obligation, permission, purpose.\n\n-아/어야 하다, -(으)면 안 되다,\n-아/어도 되다, -(으)려고.",goals:["Review all Unit 14 grammar","Test obligation and permission","Apply purpose expressions","Workplace vocabulary mastery"]},
+{type:"mc",q:"보고서를 제출해야 돼요. 해야 돼요 means:",opts:["Must, have to","May, allowed to","Must not","In order to"],ans:"Must, have to",hint:"-아/어야 되다 = must/have to. Obligation."},
+{type:"fb",s:"회의 중에 전화{1} 안 돼요.",a:"하면",opts:["하면","해도","해야","하려고"],hint:"You must not make calls during meetings. Prohibition: -(으)면 안 되다."},
+{type:"mc",q:"질문해도 돼요? is asking for:",opts:["Permission","Obligation","Purpose","Prohibition"],ans:"Permission",hint:"-아/어도 돼요? = May I? Permission question."},
+{type:"fb",s:"승진{1} 열심히 공부해요.",a:"하려고",opts:["하려고","하면서","하는데","해야"],hint:"I study hard IN ORDER TO get promoted. Purpose."},
+{type:"match",pairs:[{nl:"직장",en:"workplace"},{nl:"회식",en:"company dinner"},{nl:"마감",en:"deadline"},{nl:"야근",en:"overtime"}]},
+{type:"mc",q:"1차, 2차, 3차 at a 회식 are:",opts:["Rounds of socializing","Types of food","Different restaurants","Days of the week"],ans:"Rounds of socializing",hint:"차 = round. 1st round: dinner. 2nd: bar/karaoke. 3rd: more drinks."},
+{type:"drag_fill",s:"내일까지 보고서를 {1} 돼요. 그래서 야근{2} 해요.",blanks:{"1":"내야","2":"하려고"},pool:["내야","내면","하려고","하면서","해도"],hint:"I must submit the report by tomorrow. So I intend to work overtime."},
+{type:"fb",s:"여기서 사진을 찍{1} 안 돼요. 촬영 {2}예요.",a:"으면",opts:["으면","어도","어야","으려고"],hint:"You must not take photos here. Photography prohibited."},
+{type:"mc",q:"안 해도 돼요 vs 하면 안 돼요:",opts:["Don't have to vs must not","Both mean must not","Both mean don't have to","May do vs must do"],ans:"Don't have to vs must not",hint:"안 해도 돼요 = no obligation. 하면 안 돼요 = prohibition. Very different!"},
+{type:"match",pairs:[{nl:"선배",en:"senior"},{nl:"후배",en:"junior"},{nl:"건배",en:"cheers"},{nl:"규칙",en:"rule"}]},
+{type:"mc",q:"한국 직장에서 선배에게:",opts:["존댓말을 써야 해요 (must use honorifics)","반말을 써도 돼요 (may use casual)","이름을 불러도 돼요 (may use first name)","영어를 써야 돼요 (must use English)"],ans:"존댓말을 써야 해요 (must use honorifics)",hint:"In Korean workplaces, you MUST use honorific speech with seniors."},
+{type:"drag_fill",s:"한국에서 회식에 {1} 해요. 하지만 요즘은 안 {2} 돼요.",blanks:{"1":"가야","2":"가도"},pool:["가야","가도","가면","가려고","가는데"],hint:"In Korea you must go to 회식. But these days it's OK not to go."},
+{type:"mc",q:"금지 means:",opts:["Prohibited/forbidden","Allowed/permitted","Required/mandatory","Optional/voluntary"],ans:"Prohibited/forbidden",hint:"금(forbid) + 지(stop) = prohibition."},
+]},
+
+]},
+
 ];
