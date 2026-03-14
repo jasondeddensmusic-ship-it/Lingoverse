@@ -19,9 +19,10 @@ The v1 gap plan (same date) contained **7 false positives**: patterns listed as 
 - -(으)ㄹ게요 — multiple teaches U8-U10, MC quiz U9L4
 - -기 전에 — taught U8L5, teach card + MC + FB
 - -거나 — taught U10L2, MC exercise
+- -(으)ㄹ까요 — full teach card U9L5 (line 2560) + deepDive + MC + FB
 
-**Actual confirmed gap count: ~19-24 patterns (not ~40).**
-**TTMIK coverage recalculated: ~72-77% (not ~60-65%).**
+**Actual confirmed gap count: ~18-23 patterns (not ~40).**
+**TTMIK coverage recalculated: ~74-79% (not ~60-65%).**
 
 ---
 
@@ -47,12 +48,12 @@ This plan follows the owner's polyglot acquisition vision:
 
 | # | Pattern | Meaning | Status in Code | Action |
 |---|---------|---------|---------------|--------|
-| 1 | 누구 (standalone) | "Who" question word | Example-only, no teach card | Add formal teach card U2 |
-| 2 | -만 (general) | "Only" particle | Only in 잠시만요 compound | Add standalone teach U3 |
+| 1 | ~~누구 (standalone)~~ | ~~"Who" question word~~ | **DONE Sprint 1** | Teach card + exercises in U2 L9b |
+| 2 | ~~-만 (general)~~ | ~~"Only" particle~~ | **DONE Sprint 1** | Teach card + exercises in U3 L4 |
 | 3 | -(으)ㄴ 후에 | "After doing" | ABSENT | New lesson U10/U11 |
 | 4 | -자마자 | "As soon as" | ABSENT | New lesson U12/U13 |
-| 5 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 |
-| 6 | -(으)ㄹ까요? | "Shall we?" suggestion | ABSENT as formal teach | New lesson U9 |
+| 5 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 (contrast with existing -(으)ㄹ까요) |
+| 6 | ~~-(으)ㄹ까요?~~ | ~~"Shall we?" suggestion~~ | **ALREADY TAUGHT** U9L5 | Full teach card line 2560 |
 | 7 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
 | 8 | -(으)ㄴ 적이 있다 | "Have done before" | ABSENT | New lesson U11/U12 |
 | 9 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
