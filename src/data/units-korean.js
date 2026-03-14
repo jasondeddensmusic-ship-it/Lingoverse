@@ -4548,4 +4548,160 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 20 — B1 완성! (B1 Consolidation & Assessment)
+// Grammar: All B1 grammar review, comprehensive assessment
+// Cultural anchor: K-culture seasons, looking ahead to B2
+// Prerequisite: U19 (all B1 grammar complete)
+// ═══════════════════════════════════════════════════════════
+{n:20,lang:"ko",track:"v2",title:"B1 완성!",sub:"Consolidation & Assessment",icon:"🏆",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: B1 Grammar Map (Overview) ──
+{id:"kou20l1",title:"B1 문법 지도",icon:"🗺️",xp:20,board:true,steps:[
+{type:"intro",title:"Your B1 Grammar Map",desc:"B1 완성!\n→ B1 complete!\n\nYou have learned 25+ grammar patterns.\nLet's organize them by function.",goals:["Review all B1 grammar categories","See how patterns connect","Identify your strongest areas","Prepare for comprehensive practice"]},
+{type:"tip",title:"Describing Actions",text:"Progressive: -고 있다\n'I am doing'\n\nSimultaneous: -(으)면서\n'while doing'\n\nPurpose: -(으)려고\n'in order to'",deepDive:"These three patterns describe HOW actions happen:\n\n-고 있다: ongoing right now\n지금 먹고 있어요 = I'm eating now\n\n-(으)면서: two actions at once\n음악을 들으면서 공부해요 = I study while listening to music\n\n-(으)려고: goal of the action\n한국어를 배우려고 한국에 왔어요 = I came to Korea to learn Korean"},
+{type:"tip",title:"Expressing Obligation & Permission",text:"Must: -아/어야 하다/되다\n'have to, must'\n\nCan't: -(으)면 안 되다\n'must not'\n\nMay: -아/어도 되다\n'may, is allowed'",deepDive:"Obligation spectrum:\n\n-아/어야 하다 = must (general)\n-아/어야 되다 = must (spoken)\n-(으)면 안 되다 = prohibited\n-아/어도 되다 = permitted\n\n숙제를 해야 해요 = I must do homework\n여기서 사진 찍으면 안 돼요 = No photos here\n들어가도 돼요? = May I enter?"},
+{type:"tip",title:"Reporting Speech",text:"Statement: -(ㄴ)다고 하다\nQuestion: -냐고 하다\nCommand: -(으)라고 하다\nSuggestion: -자고 하다",deepDive:"Indirect speech converts direct quotes:\n\n'가요' → 간다고 했어요 = said they go\n'갔어요?' → 갔냐고 했어요 = asked if they went\n'가세요' → 가라고 했어요 = told them to go\n'같이 가요' → 같이 가자고 했어요 = suggested going together\n\n줄여서 (shortened):\n-다고 → -대요\n-냐고 → -냬요\n-라고 → -래요\n-자고 → -재요"},
+{type:"tip",title:"Connectors & Nuance",text:"-는데: soft background\n-거든요: 'the reason is...'\n-네요: surprise/realization\n-더라고요: 'I found that...'\n-(으)ㄹ수록: 'the more...'",deepDive:"These five patterns add NUANCE:\n\n-는데 sets up context gently\n비가 오는데 우산 있어요? = It's raining, do you have an umbrella?\n\n-거든요 explains the reason\n못 가요. 바쁘거든요. = I can't go. I'm busy, you see.\n\n-네요 marks discovery\n여기 예쁘네요! = Oh, it's pretty here!\n\n-더라고요 reports past experience\n한국 음식이 맛있더라고요 = I found Korean food delicious\n\n-(으)ㄹ수록 shows progression\n배울수록 재미있어요 = The more I learn, the more fun it is"},
+{type:"mc",q:"Which pattern means 'I found that...' based on past experience?",opts:["-더라고요","-네요","-거든요","-는데"],ans:"-더라고요",hint:"Past personal experience retold to the listener."},
+{type:"mc",q:"'Must not do' is expressed with:",opts:["-(으)면 안 되다","-아/어야 되다","-아/어도 되다","-(으)려고"],ans:"-(으)면 안 되다",hint:"If you do it, it won't do = prohibited."},
+{type:"match",pairs:[{nl:"-고 있다",en:"progressive (doing now)"},{nl:"-(으)면서",en:"while doing"},{nl:"-(으)려고",en:"in order to"},{nl:"-아/어야 하다",en:"must, have to"}]},
+{type:"fb",s:"친구가 내일 온{1} 했어요.",a:"다고",opts:["다고","냐고","라고","자고"],hint:"Friend SAID they are coming. Reported statement."},
+{type:"mc",q:"Which pattern sets up soft background context?",opts:["-는데","-거든요","-네요","-더라고요"],ans:"-는데",hint:"Gently introduces context before the main point."},
+]},
+
+// ── L2: Verb Mastery Review ──
+{id:"kou20l2",title:"동사 완성",icon:"💪",xp:22,board:true,steps:[
+{type:"intro",title:"Verb Forms You Know",desc:"동사 완성\n→ verb mastery\n\nFrom basic conjugation to complex forms.\nLet's test your verb skills.",goals:["Review all verb conjugation patterns","Practice irregular verbs","Apply tense and aspect correctly","Master verb-based grammar"]},
+{type:"tip",title:"Tense Review",text:"Present: -아/어요\nPast: -았/었어요\nFuture: -(으)ㄹ 거예요\nDouble past: -았/었었어요\nProgressive: -고 있다",deepDive:"Korean tense markers:\n\nPresent: 가요 = go/goes\nPast: 갔어요 = went\nFuture: 갈 거예요 = will go\nDouble past: 갔었어요 = had gone (no longer)\nProgressive: 가고 있어요 = am going\n\nDouble past vs past:\n서울에 살았어요 = I lived in Seoul (maybe still)\n서울에 살았었어요 = I had lived in Seoul (not anymore)"},
+{type:"tip",title:"Six Irregular Families",text:"ㄷ-irregular: 듣다 → 들어요\nㅂ-irregular: 돕다 → 도와요\nㅎ-irregular: 그렇다 → 그래요\nㅅ-irregular: 짓다 → 지어요\n르-irregular: 모르다 → 몰라요\nㄹ/으-drop: 쓰다 → 써요",deepDive:"How to remember all six:\n\nㄷ→ㄹ before vowel: 듣다→들어, 걷다→걸어\nㅂ→우 before vowel: 돕다→도와, 춥다→추워\nㅎ drops + merge: 그렇다→그래, 빨갛다→빨개\nㅅ drops: 짓다→지어, 낫다→나아\n르→ㄹ+ㄹ: 모르다→몰라, 빠르다→빨라\nㄹ drops before ㄴ,ㅂ,ㅅ: 살다→사세요\n으 drops: 쓰다→써, 크다→커"},
+{type:"fb",s:"그 영화가 정말 재미있{1}.",a:"었어요",opts:["었어요","어요","을 거예요","고 있어요"],hint:"That movie WAS really fun. Past tense."},
+{type:"mc",q:"듣다 (to listen) conjugated to past tense:",opts:["들었어요","듣었어요","들었었어요","듣어요"],ans:"들었어요",hint:"ㄷ-irregular: ㄷ→ㄹ before vowel, then past marker."},
+{type:"fb",s:"날씨가 추{1} 코트를 입었어요.",a:"워서",opts:["워서","어서","와서","우서"],hint:"Because the weather was cold... ㅂ-irregular: 춥다→추워."},
+{type:"mc",q:"짓다 (to build) → 'built' in past tense:",opts:["지었어요","짓었어요","짓았어요","지았어요"],ans:"지었어요",hint:"ㅅ-irregular: ㅅ drops before vowel. 짓→지 + 었어요."},
+{type:"match",pairs:[{nl:"들었어요",en:"listened (ㄷ-irreg)"},{nl:"도와요",en:"helps (ㅂ-irreg)"},{nl:"몰라요",en:"doesn't know (르-irreg)"},{nl:"지어요",en:"builds (ㅅ-irreg)"}]},
+{type:"fb",s:"서울에 살{1} 지금은 부산에 살아요.",a:"았었는데",opts:["았었는데","았는데","고 있는데","아서"],hint:"I HAD lived in Seoul but now live in Busan. Double past + -는데."},
+{type:"mc",q:"빨갛다 (to be red) → polite present form:",opts:["빨개요","빨갛아요","빨가요","빨개해요"],ans:"빨개요",hint:"ㅎ-irregular: ㅎ drops and merges. 빨갛+아→빨개."},
+{type:"drag_fill",s:"한국어를 {1} 수록 재미있{2}.",blanks:{"1":"배울","2":"더라고요"},pool:["배울","더라고요","배운","네요","거든요"],hint:"The more I learn Korean, the more fun I found it."},
+]},
+
+// ── L3: Passive & Causative Review ──
+{id:"kou20l3",title:"피동과 사동",icon:"🔄",xp:22,board:true,steps:[
+{type:"intro",title:"Passive & Causative Mastery",desc:"피동과 사동\n→ passive and causative\n\nThings that happen TO you.\nThings you MAKE happen.",goals:["Review passive -이/히/리/기","Review causative -이/히/리/기/우/추","Practice 되다 passive pattern","Use both in natural sentences"]},
+{type:"tip",title:"Passive Review",text:"Suffix passives: -이/히/리/기\n보다→보이다 (be seen)\n잡다→잡히다 (be caught)\n\n되다 passives:\n결정하다→결정되다 (be decided)",deepDive:"Passive formation:\n\n-이: 보다→보이다, 쓰다→쓰이다\n-히: 잡다→잡히다, 먹다→먹히다, 읽다→읽히다\n-리: 듣다→들리다, 팔다→팔리다, 열다→열리다\n-기: 안다→안기다, 끊다→끊기다\n\n되다 pattern (Sino-Korean):\n한자어 하다→되다\n결정하다→결정되다\n변경하다→변경되다"},
+{type:"tip",title:"Causative Review",text:"Suffix causatives: make/let happen\n보다→보이다 (show)\n먹다→먹이다 (feed)\n웃다→웃기다 (make laugh)\n\n-게 하다: general causative\n공부하게 했어요 (made study)",deepDive:"Causative formation:\n\n-이: 보다→보이다, 먹다→먹이다\n-히: 앉다→앉히다, 읽다→읽히다\n-리: 울다→울리다, 살다→살리다\n-기: 웃다→웃기다, 벗다→벗기다\n-우: 자다→재우다, 타다→태우다\n-추: 맞다→맞추다, 늦다→늦추다\n\n-게 하다 works with any verb:\n공부하게 했어요 = made someone study\n가게 했어요 = made someone go"},
+{type:"fb",s:"멀리서도 산이 {1}.",a:"보여요",opts:["보여요","봐요","보게 해요","봐져요"],hint:"Mountains are SEEN even from far away. Passive of 보다."},
+{type:"mc",q:"엄마가 아이한테 밥을 먹였어요 means:",opts:["Mom fed the child rice","Mom ate rice with the child","The child ate mom's rice","Mom bought rice for the child"],ans:"Mom fed the child rice",hint:"먹이다 is causative of 먹다: make/let eat = feed."},
+{type:"fb",s:"문이 {1}.",a:"열렸어요",opts:["열렸어요","열었어요","열게 했어요","열어요"],hint:"The door WAS OPENED. Passive of 열다. -리 passive."},
+{type:"mc",q:"회의 시간이 변경되었어요 means:",opts:["The meeting time was changed","The meeting time changed itself","I changed the meeting time","The meeting time will change"],ans:"The meeting time was changed",hint:"되다 passive: 변경하다 → 변경되다. Something was changed."},
+{type:"match",pairs:[{nl:"보이다",en:"be seen (passive)"},{nl:"먹이다",en:"feed (causative)"},{nl:"들리다",en:"be heard (passive)"},{nl:"웃기다",en:"make laugh (causative)"}]},
+{type:"drag_fill",s:"선생님이 학생들을 {1} 했어요. 그래서 학생들이 {2}.",blanks:{"1":"공부하게","2":"공부했어요"},pool:["공부하게","공부했어요","공부하고","공부해요","공부되어요"],hint:"Teacher MADE students study. So students studied."},
+{type:"fb",s:"이 노래가 자주 {1}.",a:"들려요",opts:["들려요","들어요","듣어요","듣기다"],hint:"This song is often HEARD. Passive of 듣다. -리 passive."},
+]},
+
+// ── L4: Modifier & Nominalization Review ──
+{id:"kou20l4",title:"수식어와 명사화",icon:"🔗",xp:22,board:true,steps:[
+{type:"intro",title:"Modifiers & Nominalization",desc:"수식어와 명사화\n→ modifiers and nominalization\n\nTurn verbs into adjectives.\nTurn verbs into nouns.",goals:["Review -는/-(으)ㄴ/-(으)ㄹ modifiers","Review -기 nominalization","Practice -는 것 noun clauses","Combine patterns naturally"]},
+{type:"tip",title:"Noun Modifiers",text:"Present: -는 (action verbs)\n먹는 사람 = person who eats\n\nPast: -(으)ㄴ\n먹은 사람 = person who ate\n\nFuture: -(으)ㄹ\n먹을 사람 = person who will eat",deepDive:"Modifier tenses:\n\nAction verbs:\n-는 present: 가는 길 = road that goes\n-(으)ㄴ past: 간 사람 = person who went\n-(으)ㄹ future: 갈 곳 = place to go\n\nDescriptive verbs (adjectives):\n-(으)ㄴ present: 큰 집 = big house\n-(으)ㄹ future: 클 거예요 = will be big\n\n존재: 있는/없는 (always -는)\n있는 사람 = person who has\n없는 것 = thing that doesn't exist"},
+{type:"tip",title:"-기 Nominalization Patterns",text:"-기 전에: before doing\n-기 쉽다: easy to do\n-기 어렵다: hard to do\n-기 시작하다: start doing\n-기 위해서: in order to",deepDive:"Common -기 patterns:\n\n-기 전에: 가기 전에 = before going\n-기 후에: 먹기 후에 = after eating\n-기 쉽다: 배우기 쉽다 = easy to learn\n-기 어렵다: 읽기 어렵다 = hard to read\n-기 시작하다: 비가 오기 시작했다 = it started raining\n-기 위해서: 합격하기 위해서 = in order to pass\n\n-는 것 noun clauses:\n먹는 것을 좋아해요 = I like eating\n아는 것이 힘이다 = Knowledge is power"},
+{type:"fb",s:"어제 {1} 영화가 재미있었어요.",a:"본",opts:["본","보는","볼","봐요"],hint:"The movie I WATCHED yesterday. Past modifier."},
+{type:"mc",q:"한국어를 배우기 시작했어요 means:",opts:["I started learning Korean","I will start learning Korean","I finished learning Korean","Korean is easy to learn"],ans:"I started learning Korean",hint:"-기 시작하다 = started doing."},
+{type:"fb",s:"내일 {1} 곳을 정했어요.",a:"갈",opts:["갈","가는","간","가기"],hint:"The place I WILL GO tomorrow. Future modifier."},
+{type:"mc",q:"읽는 것을 좋아해요 means:",opts:["I like reading","I read well","I'm reading now","I like books"],ans:"I like reading",hint:"-는 것 turns verb into noun. 읽는 것 = reading (the act of)."},
+{type:"match",pairs:[{nl:"먹는 사람",en:"person who eats"},{nl:"먹은 음식",en:"food that was eaten"},{nl:"먹을 것",en:"thing to eat"},{nl:"먹기 전에",en:"before eating"}]},
+{type:"drag_fill",s:"{1} 위해서 매일 {2} 것을 연습해요.",blanks:{"1":"합격하기","2":"읽는"},pool:["합격하기","읽는","합격한","읽기","위한"],hint:"In order to pass, I practice reading every day."},
+{type:"fb",s:"지금 {1} 노래가 뭐예요?",a:"듣는",opts:["듣는","들은","들을","듣기"],hint:"The song you are LISTENING TO now. Present modifier for action verb."},
+]},
+
+// ── L5: Korean Seasons & Nature ──
+{id:"kou20l5",title:"한국의 사계절",icon:"🌸",xp:22,board:true,steps:[
+{type:"intro",title:"Korean Seasons",desc:"한국의 사계절\n→ Korea's four seasons\n\nKorea has four distinct seasons.\nEach has its own culture and beauty.",goals:["Learn season vocabulary","Understand seasonal culture","Practice weather expressions","Describe seasonal activities"]},
+{type:"teach",nl:"사계절",en:"four seasons",phonetic:"sa-gye-jeol",note:"COMPOUND: 사(four/四) + 계(season/季) + 절(period/節).\nFour-season-period = four seasons.",kind:"noun"},
+{type:"teach",nl:"봄",en:"spring",phonetic:"bom",note:"벚꽃(cherry blossoms) bloom.\n봄바람 = spring breeze.\nKoreans go 꽃놀이 (flower viewing).",kind:"noun"},
+{type:"teach",nl:"여름",en:"summer",phonetic:"yeo-reum",note:"Hot and humid (덥고 습해요).\n장마 = rainy season (June-July).\n바다 = beach season.",kind:"noun"},
+{type:"teach",nl:"가을",en:"autumn, fall",phonetic:"ga-eul",note:"단풍 = autumn foliage.\n하늘이 높아요 = sky is high.\n천고마비 = high sky, plump horses.",kind:"noun"},
+{type:"teach",nl:"겨울",en:"winter",phonetic:"gyeo-ul",note:"추워요 = it's cold.\n눈 = snow.\n김장 = making winter kimchi.\n난방 = heating (온돌 floor heating).",kind:"noun"},
+{type:"mc",q:"Which season is associated with 벚꽃 (cherry blossoms)?",opts:["봄","여름","가을","겨울"],ans:"봄",hint:"Cherry blossoms bloom in this first season."},
+{type:"fb",s:"한국의 {1}은 덥고 습해요.",a:"여름",opts:["여름","겨울","봄","가을"],hint:"Hot and humid. That's the warm season."},
+{type:"tip",title:"Seasonal Culture",text:"봄: 꽃놀이 (flower viewing)\n여름: 바캉스 (vacation)\n가을: 단풍놀이 (leaf viewing)\n겨울: 김장 (kimchi making)",deepDive:"Korea's seasonal rhythms:\n\n봄 (March-May):\n벚꽃 축제 across the country\n여의도, 진해 famous viewing spots\n\n여름 (June-August):\n장마 (monsoon season)\n복날 = dog days of summer\n삼복 더위 = midsummer heat\n\n가을 (September-November):\n추석 (Korean Thanksgiving)\n설악산 단풍 (famous foliage spot)\n\n겨울 (December-February):\n김장 season (making winter kimchi)\nSki resorts in 강원도\n떡국 (rice cake soup) on 설날"},
+{type:"mc",q:"김장 (making winter kimchi) happens in which season?",opts:["겨울","가을","봄","여름"],ans:"겨울",hint:"Preparing kimchi for the cold months ahead."},
+{type:"match",pairs:[{nl:"봄",en:"spring"},{nl:"여름",en:"summer"},{nl:"가을",en:"autumn"},{nl:"겨울",en:"winter"}]},
+{type:"drag_fill",s:"한국의 {1}은 단풍이 예쁘{2}.",blanks:{"1":"가을","2":"더라고요"},pool:["가을","더라고요","겨울","네요","어요"],hint:"Korea's autumn, I found the foliage pretty."},
+{type:"fb",s:"한국은 사계절이 뚜렷해{1}.",a:"서",opts:["서","는데","거든요","지만"],hint:"BECAUSE Korea has distinct four seasons... Reason connector."},
+]},
+
+// ── L6: Culture Comprehensive ──
+{id:"kou20l6",title:"한국 문화 총정리",icon:"🇰🇷",xp:22,board:true,steps:[
+{type:"intro",title:"Korean Culture Review",desc:"한국 문화 총정리\n→ Korean culture summary\n\nFrom 눈치 to 정, from 회식 to 수능.\nEverything you've learned about Korea.",goals:["Review key cultural concepts","Connect culture to language use","Practice cultural vocabulary","Understand Korean society"]},
+{type:"tip",title:"Key Cultural Concepts",text:"눈치: reading the atmosphere\n정: deep emotional bond\n한: collective sorrow/yearning\n체면: saving face\n효도: filial piety",deepDive:"Five pillars of Korean culture:\n\n눈치 (U13): Social radar\nReading unspoken cues and expectations\n\n정 (U19): Emotional bonds\nDeep attachment formed through shared experience\n\n한 (한): Hard to translate\nCollective feeling of injustice, yearning\nSeen in Korean music, drama, history\n\n체면: Maintaining dignity\nNot embarrassing yourself or others publicly\n\n효도: Respecting parents/elders\nCentral to Korean family structure"},
+{type:"mc",q:"Which cultural concept means 'reading the atmosphere'?",opts:["눈치","정","한","체면"],ans:"눈치",hint:"Social radar for unspoken cues."},
+{type:"tip",title:"Social Structures",text:"선배/후배: senior/junior\n형/누나/오빠/언니: age-based titles\n회식: company dinner\n반말/존댓말: speech levels",deepDive:"Korean society is organized by:\n\nAge hierarchy:\n형 (older brother, male speaker)\n오빠 (older brother, female speaker)\n누나 (older sister, male speaker)\n언니 (older sister, female speaker)\n\nWorkplace hierarchy:\n선배 = senior colleague\n후배 = junior colleague\n상사 = boss/superior\n\nSpeech level = respect level:\n합쇼체 = formal (strangers, elders)\n해요체 = polite (daily default)\n반말 = casual (friends, younger)"},
+{type:"fb",s:"한국에서는 {1}가 매우 중요해요.",a:"눈치",opts:["눈치","정","한","체면"],hint:"In Korea, reading social cues is very important."},
+{type:"mc",q:"회식 refers to:",opts:["Company dinner/drinking","Family reunion","School festival","Wedding ceremony"],ans:"Company dinner/drinking",hint:"Workplace social gathering, often with drinking."},
+{type:"match",pairs:[{nl:"눈치",en:"social awareness"},{nl:"정",en:"deep emotional bond"},{nl:"체면",en:"saving face"},{nl:"효도",en:"filial piety"}]},
+{type:"mc",q:"In Korean workplace, 선배 means:",opts:["Senior colleague","Junior colleague","Boss","Friend"],ans:"Senior colleague",hint:"Senior-junior system: 선배/후배."},
+{type:"fb",s:"한국 사람들은 {1}이 많아서 정이 깊어요.",a:"정",opts:["정","한","눈치","체면"],hint:"Koreans have a lot of deep bonds."},
+{type:"drag_fill",s:"한국에서는 나이가 {1} 사람한테 {2}을 써야 해요.",blanks:{"1":"많은","2":"존댓말"},pool:["많은","존댓말","적은","반말","해요체"],hint:"To older people, you must use polite/formal language."},
+]},
+
+// ── L7: Integrated Conversation Practice ──
+{id:"kou20l7",title:"종합 회화",icon:"🗣️",xp:24,board:true,steps:[
+{type:"intro",title:"Integrated Conversations",desc:"종합 회화\n→ comprehensive conversation\n\nPut ALL your B1 skills together\nin realistic conversations.",goals:["Combine multiple grammar patterns","Practice natural dialogue flow","Use appropriate register","Handle complex topics"]},
+{type:"tip",title:"Conversation Strategy",text:"Start soft: -는데 background\nExplain why: -거든요\nShow experience: -더라고요\nSuggest: -자고 / -(으)ㄹ까요?\nAgree: 그래요! / 좋아요!",deepDive:"Natural conversation flow:\n\n1. 오늘 날씨가 좋은데... (background)\n2. 등산 가고 싶거든요. (reason)\n3. 지난번에 가 봤는데 좋더라고요. (experience)\n4. 같이 갈까요? (suggestion)\n5. 좋아요! 가요! (agreement)\n\nThis pattern feels natural because:\n-는데 softly introduces the topic\n-거든요 gives your reason\n-더라고요 adds personal credibility\nThe suggestion follows logically"},
+{type:"fb",s:"내일 시간이 있{1} 같이 영화 볼까요?",a:"으면",opts:["으면","는데","어서","지만"],hint:"IF you have time tomorrow, shall we watch a movie?"},
+{type:"mc",q:"Best response to '왜 한국어를 배워요?':",opts:["한국 드라마를 좋아하거든요","한국 드라마를 좋아하는데요","한국 드라마를 좋아하더라고요","한국 드라마를 좋아하네요"],ans:"한국 드라마를 좋아하거든요",hint:"Explaining YOUR reason why. -거든요 = 'the thing is...'"},
+{type:"fb",s:"한국 음식을 처음 먹어 봤는데 맛있{1}.",a:"더라고요",opts:["더라고요","네요","거든요","어요"],hint:"First time trying Korean food, I FOUND it delicious."},
+{type:"drag_fill",s:"주말에 등산을 {1} 했는데, 경치가 정말 {2}.",blanks:{"1":"가기로","2":"좋더라고요"},pool:["가기로","좋더라고요","가려고","좋거든요","갔는데"],hint:"I decided to go hiking on the weekend, and the scenery was really great."},
+{type:"mc",q:"'같이 가자고 했어요' means:",opts:["They suggested we go together","They asked if we're going","They told us to go","They said they went"],ans:"They suggested we go together",hint:"-자고 하다 = reported suggestion."},
+{type:"fb",s:"처음에는 어렵{1} 지금은 괜찮아요.",a:"었는데",opts:["었는데","어서","었지만","었더라고요"],hint:"At first it WAS difficult, BUT now it's okay. Past + soft contrast."},
+{type:"match",pairs:[{nl:"같이 갈까요?",en:"Shall we go together?"},{nl:"가기로 했어요",en:"I decided to go"},{nl:"가 보니까 좋더라고요",en:"I went and found it good"},{nl:"가야 돼요",en:"I have to go"}]},
+{type:"drag_fill",s:"한국어를 {1} 수록 {2} 것 같아요.",blanks:{"1":"배울","2":"재미있는"},pool:["배울","재미있는","배운","재미있어","좋은"],hint:"The more I learn Korean, the more fun it seems."},
+]},
+
+// ── L8: Reading Comprehension ──
+{id:"kou20l8",title:"독해 연습",icon:"📖",xp:22,board:true,steps:[
+{type:"intro",title:"Reading Practice",desc:"독해 연습\n→ reading practice\n\nRead longer Korean passages\nand answer questions.",goals:["Read multi-sentence passages","Identify grammar patterns in context","Answer comprehension questions","Build reading confidence"]},
+{type:"tip",title:"Reading Passage 1: Self-Introduction",text:"저는 한국에서 산 지 1년 됐어요.\n처음에는 한국어가 어려웠는데\n지금은 많이 늘었어요.\n한국 음식도 좋아하게 됐어요.\n특히 김치찌개를 좋아하거든요.",deepDive:"Grammar breakdown:\n\n산 지 1년 됐어요: duration since\n어려웠는데: past + soft contrast\n늘었어요: improved (past)\n좋아하게 됐어요: came to like (-게 되다)\n좋아하거든요: the reason is... I like"},
+{type:"mc",q:"How long has the speaker lived in Korea?",opts:["1 year","2 years","6 months","3 years"],ans:"1 year",hint:"산 지 1년 됐어요 = it's been 1 year since living."},
+{type:"mc",q:"What grammar pattern shows 'came to like'?",opts:["-게 되다","-고 싶다","-아/어야 하다","-더라고요"],ans:"-게 되다",hint:"Natural change over time: 좋아하게 됐어요."},
+{type:"tip",title:"Reading Passage 2: Travel Story",text:"지난 주말에 부산에 갔어요.\n기차를 타면서 음악을 들었어요.\n부산에 도착하니까 날씨가 좋더라고요.\n바다가 정말 예쁜 것 같았어요.",deepDive:"Grammar breakdown:\n\n타면서: simultaneous actions (-(으)면서)\n도착하니까: upon arriving\n좋더라고요: found it good (past experience)\n예쁜 것 같았어요: seemed pretty (noun modifier + 것 같다)"},
+{type:"mc",q:"How did the speaker travel to Busan?",opts:["By train","By bus","By plane","By car"],ans:"By train",hint:"기차를 타면서 = while riding the train."},
+{type:"fb",s:"부산에 {1} 날씨가 좋더라고요.",a:"도착하니까",opts:["도착하니까","도착해서","도착하면","도착하는데"],hint:"When I arrived in Busan... -(으)니까 for discovery upon doing."},
+{type:"mc",q:"바다가 정말 예쁜 것 같았어요 means:",opts:["The ocean seemed really pretty","The ocean was really pretty","The ocean is always pretty","I like the pretty ocean"],ans:"The ocean seemed really pretty",hint:"것 같다 = it seems/appeared. 예쁜 것 같았어요 = seemed pretty."},
+{type:"match",pairs:[{nl:"산 지 1년 됐어요",en:"It's been 1 year since living"},{nl:"좋아하게 됐어요",en:"came to like"},{nl:"타면서",en:"while riding"},{nl:"좋더라고요",en:"I found it good"}]},
+{type:"drag_fill",s:"한국에 {1} 지 6개월 {2}.",blanks:{"1":"온","2":"됐어요"},pool:["온","됐어요","오는","돼요","와서"],hint:"It's been 6 months since coming to Korea."},
+]},
+
+// ── L9: B1 Assessment ──
+{id:"kou20l9",title:"B1 평가",icon:"📝",xp:30,board:true,steps:[
+{type:"intro",title:"B1 Assessment",desc:"B1 평가\n→ B1 evaluation\n\nThis is your B1 level test.\nShow everything you've learned!",goals:["Test all B1 grammar patterns","Demonstrate reading comprehension","Show cultural knowledge","Prove B1 competency"]},
+{type:"mc",q:"'비가 오고 있어요' uses which grammar?",opts:["Progressive -고 있다","Listing -고","Causative -게 하다","Passive -이/히/리/기"],ans:"Progressive -고 있다",hint:"Rain IS falling. Action in progress right now."},
+{type:"fb",s:"음악을 들{1} 공부해요.",a:"으면서",opts:["으면서","어서","고","는데"],hint:"I study WHILE listening to music. Simultaneous actions."},
+{type:"mc",q:"한국어를 잘하게 됐어요 means:",opts:["I came to speak Korean well","I want to speak Korean well","I must speak Korean well","I can speak Korean well"],ans:"I came to speak Korean well",hint:"-게 되다 = came to (natural change over time)."},
+{type:"fb",s:"선생님이 공부하{1} 했어요.",a:"라고",opts:["라고","다고","냐고","자고"],hint:"The teacher TOLD (commanded) to study. Reported command."},
+{type:"mc",q:"김치가 맛있더라고요 expresses:",opts:["Past experience: I found kimchi tasty","Present opinion: kimchi is tasty","Surprise: wow, kimchi is tasty!","Reason: because kimchi is tasty"],ans:"Past experience: I found kimchi tasty",hint:"-더라고요 = retelling past personal experience."},
+{type:"drag_fill",s:"여기서 사진 {1} 안 {2}.",blanks:{"1":"찍으면","2":"돼요"},pool:["찍으면","돼요","찍어서","해요","찍는데"],hint:"You must NOT take photos here. -(으)면 안 되다."},
+{type:"mc",q:"문이 열렸어요 is:",opts:["Passive: the door was opened","Active: I opened the door","Causative: I made the door open","Progressive: the door is opening"],ans:"Passive: the door was opened",hint:"열리다 is passive of 열다. The door was opened (by someone/something)."},
+{type:"fb",s:"매운 음식을 {1} 전에 물을 준비하세요.",a:"먹기",opts:["먹기","먹는","먹을","먹은"],hint:"BEFORE eating spicy food. -기 전에 = before doing."},
+{type:"match",pairs:[{nl:"-고 있다",en:"progressive"},{nl:"-게 되다",en:"natural change"},{nl:"-더라고요",en:"past experience"},{nl:"-(으)면 안 되다",en:"must not"}]},
+{type:"mc",q:"어제 읽은 책이 재미있었어요. '읽은' is:",opts:["Past modifier: book that was read","Present modifier: book being read","Future modifier: book to read","Nominalization: reading"],ans:"Past modifier: book that was read",hint:"-(으)ㄴ after action verb = past modifier."},
+{type:"drag_fill",s:"친구가 한국에 {1} 했어요. 같이 {2} 했어요.",blanks:{"1":"간다고","2":"가자고"},pool:["간다고","가자고","갔다고","가냐고","가라고"],hint:"Friend SAID they're going to Korea. SUGGESTED going together."},
+{type:"fb",s:"한국 드라마를 {1} 수록 한국어가 늘어요.",a:"볼",opts:["볼","보는","본","보기"],hint:"The MORE you watch Korean dramas... -(으)ㄹ수록."},
+]},
+
+// ── L10: B1 완성! Celebration ──
+{id:"kou20l10",title:"축하해요! 🎉",icon:"🎊",xp:25,board:true,steps:[
+{type:"intro",title:"Congratulations! B1 Complete!",desc:"축하해요!\n→ Congratulations!\n\nYou have completed Korean B1.\nYou are now an intermediate speaker.",goals:["Celebrate your achievement","Review your B1 journey","Preview B2 topics","Set goals for continued learning"]},
+{type:"tip",title:"What You've Achieved",text:"10 units of B1 content:\n25+ grammar patterns\n6 irregular verb families\n200+ new vocabulary words\n12 seed registry harvests\nKorean cultural understanding",deepDive:"Your B1 journey (Units 11-20):\n\nU11: Travel + progressive + ㅎ-irregular\nU12: Hobbies + comparatives + ㅅ-irregular\nU13: Connectors + -는데/-거든요/-네요 + 르-irregular\nU14: Workplace + obligation/permission\nU15: Education + benefactive + -게 되다\nU16: Internet + indirect speech + honorifics\nU17: News + passive/causative + double past\nU18: Food + nominalization + modifiers\nU19: Relationships + -더라고요 + register\nU20: Consolidation + assessment"},
+{type:"tip",title:"Your Korean Level Now",text:"You can:\n- Discuss daily topics fluently\n- Read simple news articles\n- Understand indirect speech\n- Use passive and causative\n- Switch between speech levels\n- Express nuanced opinions",deepDive:"TOPIK Level 3 (B1) means:\n\nYou can handle most daily situations.\nYou understand Korean social norms.\nYou can read simple texts on familiar topics.\nYou can express your experiences and opinions.\n\nYou know:\n- 3 speech levels (반말/해요체/합쇼체)\n- All 6 irregular families\n- Reported speech\n- Passive/causative constructions\n- Complex connectors\n- Noun modification\n- Nominalization patterns"},
+{type:"tip",title:"Looking Ahead to B2",text:"B2 will cover:\n- Advanced connectors\n- Formal written Korean\n- Proverbs and idioms\n- Academic vocabulary\n- TOPIK 4 preparation\n- Advanced honorific system",deepDive:"B2 (TOPIK 4) preview:\n\n-(으)ㄴ/는 반면에: on the other hand\n-고자: with the intention of (formal)\n-(으)ㄹ 뿐만 아니라: not only... but also\n-는 바람에: because of (unexpected)\n-(으)ㄹ 정도로: to the extent that\n\nYou'll also learn:\n- Written/academic style (-(으)ㅂ니다 체)\n- Korean proverbs (속담)\n- Business Korean\n- TOPIK essay writing structure"},
+{type:"mc",q:"How many irregular verb families did you learn?",opts:["6","4","3","8"],ans:"6",hint:"ㄷ, ㅂ, ㅎ, ㅅ, 르, ㄹ/으-drop."},
+{type:"mc",q:"Which unit taught you about 눈치?",opts:["Unit 13","Unit 11","Unit 15","Unit 17"],ans:"Unit 13",hint:"눈치 was the cultural anchor of the connectors unit."},
+{type:"match",pairs:[{nl:"축하해요",en:"congratulations"},{nl:"완성",en:"completion"},{nl:"잘했어요",en:"well done"},{nl:"화이팅",en:"you got this!"}]},
+{type:"fb",s:"한국어를 계속 공부할{1}.",a:" 거예요",opts:[" 거예요"," 수 있어요"," 줄 알아요"," 뿐이에요"],hint:"I WILL continue studying Korean. Future tense."},
+{type:"mc",q:"B1 완성! 수고했어요! What level comes next?",opts:["B2","B1+","C1","A2"],ans:"B2",hint:"After B1 comes B2, then C1, then C2."},
+]},
+
+]},
+
 ];
