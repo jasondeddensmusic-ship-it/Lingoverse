@@ -4396,6 +4396,8 @@ export default [
 {type:"fb",s:"넷플릭스에서 한국 드라마가 많이 {1}.\n(Many Korean dramas are ___ on Netflix.)",a:"방송돼요",opts:["방송돼요","방송해요","방송하면서","방송하려고"],hint:"Many Korean dramas are broadcast on Netflix. Passive: 방송되다."},
 {type:"mc",q:"한류 has made Korean language learning:",opts:["Popular worldwide","Less popular","Only popular in Asia","Unpopular"],ans:"Popular worldwide",hint:"The global spread of K-pop, K-drama, and K-film has driven interest in Korean."},
 {type:"drag_fill",s:"한국 문화가 전 세계에 {1}. 이것을 {2}라고 해요.\n(Korean culture became ___ worldwide. This is called ___.)",blanks:{"1":"알려졌어요","2":"한류"},pool:["알려졌어요","한류","방송","뉴스","전해졌어요"],hint:"Korean culture became known worldwide. This is called Hallyu."},
+{type:"fb",s:"한국 드라마를 보{1} 볼수록 재미있어요.\n(The more I watch Korean dramas, the more fun they are.)",a:"면",opts:["면","는데","어서","다가"],hint:"The MORE I watch, the more fun. -(으)ㄹ수록."},
+{type:"drag_fill",s:"뉴스{1} 안 봐요. 드라마{2} 봐요.\n(I watch nothing but news. I watch nothing but dramas.)",blanks:{"1":"밖에","2":"밖에"},pool:["밖에","밖에","만","만","도","도"],hint:"Nothing but news: 뉴스밖에. Nothing but dramas: 드라마밖에. Both + negative."},
 ]},
 
 // ── L6: ★ -았/었었 HARVEST (Double Past) ──
@@ -4428,6 +4430,8 @@ export default [
 {type:"mc",q:"이 코미디가 관객을 웃겼어요. 웃기다 here is:",opts:["Causative (made the audience laugh)","Passive (was laughed at)","Active (laughed)","Honorific (respectfully laughed)"],ans:"Causative (made the audience laugh)",hint:"웃기다 = causative of 웃다. The comedy CAUSED the audience to laugh."},
 {type:"fb",s:"한국 영화가 세계적으로 {1}. 한류의 영향이에요.\n(Korean films became ___ worldwide. It's Hallyu's influence.)",a:"알려졌어요",opts:["알려졌어요","알렸어요","알았어요","알게요"],hint:"Korean films became known worldwide. Passive: 알려지다 (become known)."},
 {type:"drag_fill",s:"예전에는 한국 문화가 잘 {1}. 지금은 전 세계에서 {2}.\n(Korean culture used to not be well ___. Now it's ___ worldwide.)",blanks:{"1":"알려지지 않았었어요","2":"사랑받고 있어요"},pool:["알려지지 않았었어요","사랑받고 있어요","알려졌어요","보도됐어요","발표했어요"],hint:"Korean culture used to not be well known. Now it's loved worldwide."},
+{type:"fb",s:"한류 덕분에 한국어를 배우{1} 오는 외국인이 많아졌어요.\n(Thanks to Hallyu, more foreigners are coming to learn Korean.)",a:"러",opts:["러","려고","면서","다가"],hint:"Coming TO learn Korean. -(으)러 오다 = come to do."},
+{type:"mc",q:"한국 영화가 유명해졌잖아요 means:",opts:["Korean movies became famous, you know","Did Korean movies become famous?","Korean movies will become famous","Korean movies aren't famous"],ans:"Korean movies became famous, you know",hint:"-아/어지다 (became) + -잖아요 (you know!). Shared knowledge."},
 ]},
 
 // ── L8: 한국 사회 변화 (Social Changes) ──
@@ -4443,6 +4447,8 @@ export default [
 {type:"match",pairs:[{nl:"발전하다",en:"to develop"},{nl:"변하다",en:"to change"},{nl:"한강의 기적",en:"Miracle on the Han River"},{nl:"한류",en:"Korean Wave"}]},
 {type:"drag_fill",s:"예전에 한국은 농업 국가{1}. 지금은 기술 강국으로 {2}.\n(Korea used to be an agricultural country___. Now it ___ into a tech powerhouse.)",blanks:{"1":"였었어요","2":"발전했어요"},pool:["였었어요","발전했어요","이에요","변하는데","했어요"],hint:"Korea used to be an agricultural country. Now it has developed into a tech powerhouse."},
 {type:"mc",q:"한국의 출산율이 세계에서 가장 낮아졌어요. This is about:",opts:["Korea's birth rate becoming the world's lowest","Korea's economy growing the fastest","Korea's education system improving","Korea's population increasing"],ans:"Korea's birth rate becoming the world's lowest",hint:"출산율 = birth rate. 가장 낮아졌어요 = became the lowest."},
+{type:"fb",s:"경제가 발전하{1} 발전할수록 사회가 변해요.\n(The more the economy develops, the more society changes.)",a:"면",opts:["면","서","는데","다가"],hint:"The MORE it develops. -(으)ㄹ수록. 발전하면 발전할수록."},
+{type:"drag_fill",s:"예전에는 회식을 매일 {1}. 요즘은 회식{2} 안 해요.\n(We used to have company dinners every day. These days we barely do them.)",blanks:{"1":"했었어요","2":"밖에"},pool:["했었어요","밖에","해요","만","했어요","도"],hint:"Used to (double past): 했었어요. Barely/nothing but: 밖에 + 안."},
 ]},
 
 // ── L9: 복습 + 퀴즈 ──
@@ -4578,6 +4584,8 @@ export default [
 {type:"match",pairs:[{nl:"자주 가는 식당",en:"restaurant I often go to"},{nl:"어제 먹은 음식",en:"food I ate yesterday"},{nl:"내일 만들 요리",en:"dish to make tomorrow"},{nl:"좋아하는 반찬",en:"side dishes I like"}]},
 {type:"mc",q:"살기 좋은 도시 = -기 + -(으)ㄴ modifier. The structure is:",opts:["-기 (nominalized verb) + adjective modifier","Two verbs combined","A passive construction","A causative construction"],ans:"-기 (nominalized verb) + adjective modifier",hint:"살기 = living (nominalized). 좋은 = good (adjective modifier). Good for living."},
 {type:"drag_fill",s:"제가 {1} 한국 음식은 떡볶이예요. 매운 {2} 좋아해요.\n(The Korean food I ___ is tteokbokki. I like spicy ___.)",blanks:{"1":"가장 좋아하는","2":"것을"},pool:["가장 좋아하는","것을","가장 좋아한","것이","좋아할"],hint:"The Korean food I like most is tteokbokki. I like spicy things."},
+{type:"fb",s:"어제 만{1} 요리가 맛있{2}.\n(The dish I made yesterday was tasty, I found.)",a:"든",opts:["든","드는","들","들은"],hint:"만들다 → 만든 (past modifier, ㄹ drops). 맛있더라고요 = I found it tasty."},
+{type:"drag_fill",s:"맛있{1} 음식을 먹{2} 기분이 {3}.\n(When I eat delicious food, my mood gets better.)",blanks:{"1":"는","2":"으면","3":"좋아져요"},pool:["는","으면","좋아져요","은","으면서","좋아해요"],hint:"Delicious: 맛있는 (present mod). If eat: 먹으면. Gets better: 좋아져요 (-아/어지다)."},
 ]},
 
 // ── L7: -자고/-라고 복습 (Indirect Speech in Food Context) ──
@@ -4592,6 +4600,8 @@ export default [
 {type:"mc",q:"맛있는 거 먹자고 했어요. 먹자고 is:",opts:["Reported suggestion (suggested eating)","Reported command","Reported statement","Reported question"],ans:"Reported suggestion (suggested eating)",hint:"-자고 = suggested. 'Let's eat something delicious,' they suggested."},
 {type:"fb",s:"배달 음식 시키{1} 했는데 뭐 먹고 싶어요?\n(I suggested ordering___ delivery food. What do you want to eat?)",a:"자고",opts:["자고","라고","다고","냐고"],hint:"I suggested ordering delivery food. What do you want to eat?"},
 {type:"drag_fill",s:"A: 뭐 먹을래요?\nB: 친구가 삼겹살이 맛있{1}.\nA: 그러면 삼겹살 먹{2}!\n(A: What shall we eat? B: Friend says samgyeopsal is tasty___. A: Then let's eat___!)",blanks:{"1":"대요","2":"자고요"},pool:["대요","자고요","냬요","래요","다고요"],hint:"A: What shall we eat? B: Friend says samgyeopsal is tasty. A: Then let's eat samgyeopsal!"},
+{type:"fb",s:"삼겹살 먹{1} 식당에 갔어요.\n(I went to a restaurant to eat samgyeopsal.)",a:"으러",opts:["으러","으려고","으면서","어서"],hint:"Went TO eat. -(으)러 가다. Purpose of going."},
+{type:"mc",q:"매운 거 못 먹잖아요 means:",opts:["I can't eat spicy food, you know","Can I eat spicy food?","I ate spicy food","Spicy food is outside"],ans:"I can't eat spicy food, you know",hint:"-잖아요 = you know! Reminding of shared knowledge."},
 ]},
 
 // ── L8: 음식 대화 (Food Conversations) ──
@@ -4607,6 +4617,8 @@ export default [
 {type:"fb",s:"자주 {1} 맛집에서 새로운 메뉴가 나왔대요.\n(At the restaurant I often ___ to, a new menu came out.)",a:"가는",opts:["가는","간","갈","가"],hint:"At the famous restaurant I often go to, a new menu came out, they say."},
 {type:"drag_fill",s:"먹{1} 전에 손 씻으세요. {2} 음식은 냉장고에 넣으세요.\n(Wash hands before eating___. Put ___ food in the fridge.)",blanks:{"1":"기","2":"남은"},pool:["기","남은","먹는","남는","기를"],hint:"Wash hands before eating. Put leftover food in the fridge. -기 전에 + past modifier."},
 {type:"mc",q:"살기 좋고 먹을 것이 많은 나라: Korea? This sentence uses:",opts:["Two modifiers: 살기 좋은 (good to live) + 많은 (many/plentiful)","One modifier","No modifiers","Three modifiers"],ans:"Two modifiers: 살기 좋은 (good to live) + 많은 (many/plentiful)",hint:"살기 좋은 = good to live in. 먹을 것이 많은 = with many things to eat. Both modify 나라."},
+{type:"fb",s:"맛집에 도착하{1} 바로 주문했어요.\n(As soon as I arrived at the famous restaurant, I ordered right away.)",a:"자마자",opts:["자마자","고 나서","ㄴ 후에","면서"],hint:"AS SOON AS arriving. -자마자 = immediate sequence."},
+{type:"drag_fill",s:"비가 {1} 맛집에 {2}. 비빔밥을 {3}.\n(Even if it rains, I'll go to the famous restaurant. I'll eat bibimbap.)",blanks:{"1":"와도","2":"갈 거예요","3":"먹을래요"},pool:["와도","갈 거예요","먹을래요","오면","가요","먹어요"],hint:"Even if rain: 와도. I'll go: 갈 거예요. I want to eat: 먹을래요."},
 ]},
 
 // ── L9: 복습 + 퀴즈 ──
@@ -4773,6 +4785,8 @@ export default [
 {type:"match",pairs:[{nl:"정이 들다",en:"grow attached"},{nl:"정이 많다",en:"warm/caring person"},{nl:"미운 정 고운 정",en:"love-hate bond"},{nl:"말 놓다",en:"drop formality"}]},
 {type:"drag_fill",s:"한국 사람들은 {1}이 많{2}. 음식도 나눠 먹고 마음도 나눠요.\n(I found Koreans have a lot of ___. They share food and feelings.)",blanks:{"1":"정","2":"더라고요"},pool:["정","더라고요","네요","거든요","관계"],hint:"I found Koreans have a lot of 정. They share food and feelings."},
 {type:"mc",q:"한국어를 알면 알수록 정이 들더라고요. Three grammar points:",opts:["-(으)ㄹ수록 (the more), 정이 들다 (attachment), -더라고요 (I found)","Only one grammar point","Only -더라고요","Only -(으)ㄹ수록"],ans:"-(으)ㄹ수록 (the more), 정이 들다 (attachment), -더라고요 (I found)",hint:"The more I know Korean, the more attached I became, I found. Three layers."},
+{type:"fb",s:"친구가 도와{1} 덕분에 잘 적응했어요.\n(Thanks to my friend helping me, I adjusted well.)",a:"준",opts:["준","주는","줄","줘"],hint:"Friend who helped: 도와준 (past modifier of 도와주다). -아/어 주다 benefactive."},
+{type:"drag_fill",s:"처음에는 외로{1}. 하지만 정이 {2} 이제 괜찮아요.\n(At first I was lonely. But I grew attached, so now I'm okay.)",blanks:{"1":"웠어요","2":"들어서"},pool:["웠어요","들어서","워요","들면","웠는데","드는"],hint:"At first lonely (past): 외로웠어요. Grew attached so: 정이 들어서."},
 ]},
 
 // ── L7: 복합 대화 (Complex Conversations) ──
@@ -4787,6 +4801,8 @@ export default [
 {type:"mc",q:"친구에게 반말해도 되냐고 물어봤어요. Three things here:",opts:["반말 (casual speech), -아/어도 되다 (permission), -냐고 (reported question)","Only reported question","Only permission","Only 반말"],ans:"반말 (casual speech), -아/어도 되다 (permission), -냐고 (reported question)",hint:"Asked (reported question) if it's OK (permission) to use casual speech (반말)."},
 {type:"fb",s:"친구를 사귄 {1} 5년 됐어요. 이제 가족 같아요.\n(It has been 5 years since we started dating. Now they feel like family.)",a:"지",opts:["지","때","후","동안"],hint:"It's been 5 years since I started dating my friend. Now they're like family."},
 {type:"drag_fill",s:"처음에 한국어가 어려{1}. 하지만 배우{2} 배울수록 재미있{3}.\n(At first Korean was hard. But the more I learned, the more fun I found it.)",blanks:{"1":"웠는데","2":"면","3":"더라고요"},pool:["웠는데","면","더라고요","어서","네요"],hint:"At first Korean was hard. But the more I learned, the more fun I found it."},
+{type:"fb",s:"한국 친구가 생기{1} 한국어가 빨리 늘{1}.\n(If you want to make Korean friends, your Korean will improve quickly.)",a:"려면",opts:["려면","면서","려고","는데"],hint:"If you WANT TO make friends. -(으)려면 = purpose + condition."},
+{type:"drag_fill",s:"친구{1} 알면 알수록 {2}이 {3}.\n(The more you know your friend, the deeper the bond becomes.)",blanks:{"1":"를","2":"정","3":"깊어져요"},pool:["를","정","깊어져요","가","사랑","깊게요"],hint:"The more you know: 알면 알수록. Bond deepens: 정이 깊어져요 (-아/어지다)."},
 ]},
 
 // ── L8: B1 문법 종합 (B1 Grammar Overview) ──
@@ -4802,6 +4818,8 @@ export default [
 {type:"mc",q:"-기 nominalization vs -는 것:",opts:["-기 for abstract/fixed patterns, -는 것 for specific/versatile","Exactly the same","Only -기 exists","Only -는 것 exists"],ans:"-기 for abstract/fixed patterns, -는 것 for specific/versatile",hint:"-기 전에 (before), -기 쉽다 (easy to). -는 것 = what I do/did/will do."},
 {type:"drag_fill",s:"B1 완료! 이제 25+ 문법 패턴을 알{1} 됐{2}.\n(B1 complete! Now I have come to know 25+ grammar patterns.)",blanks:{"1":"게","2":"어요"},pool:["게","어요","면","는데","거든요"],hint:"B1 complete! Now I've come to know 25+ grammar patterns. -게 되다."},
 {type:"mc",q:"How many seed harvests were completed in B1?",opts:["All 12 seeds from A1-A2","6 seeds","3 seeds","None"],ans:"All 12 seeds from A1-A2",hint:"Every grammar concept planted in A1-A2 has been harvested in B1."},
+{type:"fb",s:"한국어를 배우{1} 배울수록 재미있어요.\n(The more I learn Korean, the more fun it is.)",a:"면",opts:["면","는데","어서","지만"],hint:"-(으)ㄹ수록: the more I learn, the more fun it is."},
+{type:"drag_fill",s:"B1을 {1} 후에 B2를 시작{2}!\n(After finishing B1, let's start B2!)",blanks:{"1":"끝낸","2":"합시다"},pool:["끝낸","합시다","끝내는","할까요","끝나고","하자"],hint:"After finishing: 끝낸 후에. Let's start (formal): 시작합시다."},
 ]},
 
 // ── L9: 복습 + 퀴즈 ──
@@ -4843,6 +4861,10 @@ export default [
 {type:"match",pairs:[{nl:"-고 있다",en:"progressive (doing now)"},{nl:"-(으)면서",en:"while doing"},{nl:"-(으)려고",en:"in order to"},{nl:"-아/어야 하다",en:"must, have to"}]},
 {type:"fb",s:"선생님이 내일 시험이 있{1} 했어요.\n(The teacher said there is a test tomorrow.)",a:"다고",opts:["다고","냐고","라고","자고"],hint:"Teacher SAID there's a test tomorrow. Statement report."},
 {type:"mc",q:"Which pattern sets up soft background context?",opts:["-는데","-거든요","-네요","-더라고요"],ans:"-는데",hint:"Gently introduces context before the main point."},
+{type:"fb",s:"한국어를 배우{1} 매일 연습하세요.\n(If you want to learn Korean, practice every day.)",a:"려면",opts:["려면","면서","려고","는데"],hint:"If you WANT TO learn Korean. -(으)려면 = purpose + condition."},
+{type:"drag_fill",s:"한국에 {1} 1년 {2}. 한국어가 {3}.\n(It's been 1 year since coming to Korea. Korean has gotten better.)",blanks:{"1":"온 지","2":"됐어요","3":"좋아졌어요"},pool:["온 지","됐어요","좋아졌어요","오는 지","돼요","좋아져요"],hint:"Since coming: 온 지. It's been: 됐어요. Got better: 좋아졌어요 (-아/어지다)."},
+{type:"mc",q:"비가 와도 갈 거예요 uses which connector?",opts:["-아/어도 (even if)","-(으)면 (if)","-아/어서 (because)","-는데 (but)"],ans:"-아/어도 (even if)",hint:"Even if it rains, I'll go. -아/어도 = concession."},
+{type:"drag_fill",s:"도착하{1} 친구한테 전화{2}. 바쁜{3} 봐요.\n(As soon as I arrived, I called my friend. They seem busy.)",blanks:{"1":"자마자","2":"했어요","3":"가"},pool:["자마자","했어요","가","고 나서","해요","나"],hint:"As soon as arriving: -자마자. Called: 했어요. Seems busy: 바쁜가 봐요 (-나 보다)."},
 ]},
 
 // ── L2: Verb Mastery Review ──
@@ -4888,6 +4910,9 @@ export default [
 {type:"match",pairs:[{nl:"보이다",en:"be seen (passive)"},{nl:"먹이다",en:"feed (causative)"},{nl:"들리다",en:"be heard (passive)"},{nl:"웃기다",en:"make laugh (causative)"}]},
 {type:"drag_fill",s:"선생님이 학생들을 {1} 했어요. 그래서 학생들이 {2}.\n(The teacher made students study. So the students studied.)",blanks:{"1":"공부하게","2":"공부했어요"},pool:["공부하게","공부했어요","공부하고","공부해요","공부되어요"],hint:"Teacher MADE students study. So students studied."},
 {type:"fb",s:"이 노래가 자주 {1}.\n(This song is often heard.)",a:"들려요",opts:["들려요","들어요","듣어요","듣기다"],hint:"This song is often HEARD. Passive of 듣다. -리 passive."},
+{type:"mc",q:"회의 시간이 변경됐잖아요 means:",opts:["The meeting time was changed, you know!","Was the meeting time changed?","The meeting time should change","I changed the meeting time"],ans:"The meeting time was changed, you know!",hint:"되다 passive + -잖아요 (shared knowledge). You KNOW it was changed!"},
+{type:"fb",s:"사고가 나{1} 경찰이 바로 왔어요.\n(As soon as the accident happened, police came right away.)",a:"자마자",opts:["자마자","고 나서","ㄴ 후에","면서"],hint:"AS SOON AS the accident happened. -자마자 = immediate."},
+{type:"drag_fill",s:"아이한테 밥을 {1} 후에 {2}.\n(After feeding the child, I put them to sleep.)",blanks:{"1":"먹인","2":"재웠어요"},pool:["먹인","재웠어요","먹이는","재우고","먹여서","잤어요"],hint:"After feeding: 먹인 후에 (causative + -(으)ㄴ 후에). Put to sleep: 재웠어요."},
 ]},
 
 // ── L4: Modifier & Nominalization Review ──
@@ -4902,6 +4927,8 @@ export default [
 {type:"match",pairs:[{nl:"먹는 사람",en:"person who eats"},{nl:"먹은 음식",en:"food that was eaten"},{nl:"먹을 것",en:"thing to eat"},{nl:"먹기 전에",en:"before eating"}]},
 {type:"drag_fill",s:"{1} 위해서 매일 {2} 것을 연습해요.\n(In order to ___, I practice ___ every day.)",blanks:{"1":"합격하기","2":"읽는"},pool:["합격하기","읽는","합격한","읽기","위한"],hint:"In order to pass, I practice reading every day."},
 {type:"fb",s:"지금 {1} 노래가 뭐예요?\n(What is the song you are listening to now?)",a:"듣는",opts:["듣는","들은","들을","듣기"],hint:"The song you are LISTENING TO now. Present modifier for action verb."},
+{type:"mc",q:"한국어를 배우기 전에 일본어를 공부했어요 means:",opts:["Before learning Korean, I studied Japanese","After learning Korean, I studied Japanese","While learning Korean, I studied Japanese","Instead of Korean, I studied Japanese"],ans:"Before learning Korean, I studied Japanese",hint:"-기 전에 = before doing."},
+{type:"drag_fill",s:"어제 {1} 책이 재미있{2}. 빨리{3} 읽었어요.\n(The book I read yesterday was interesting, I found. I read it quickly.)",blanks:{"1":"읽은","2":"더라고요","3":"게"},pool:["읽은","더라고요","게","읽는","네요","히"],hint:"Past modifier: 읽은. Found interesting: 더라고요. Quickly: 빠르게 → 빨리/게."},
 ]},
 
 // ── L5: Korean Seasons & Nature ──
@@ -4967,6 +4994,10 @@ export default [
 {type:"fb",s:"처음에는 어렵{1} 지금은 괜찮아요.\n(At first it was difficult, but now it is okay.)",a:"었는데",opts:["었는데","어서","었지만","었더라고요"],hint:"At first it WAS difficult, BUT now it's okay. Past + soft contrast."},
 {type:"match",pairs:[{nl:"같이 갈까요?",en:"Shall we go together?"},{nl:"가기로 했어요",en:"I decided to go"},{nl:"가 보니까 좋더라고요",en:"I went and found it good"},{nl:"가야 돼요",en:"I have to go"}]},
 {type:"drag_fill",s:"한국어를 {1} 수록 {2} 것 같아요.\n(The more I learn Korean, the more fun it seems.)",blanks:{"1":"배울","2":"재미있는"},pool:["배울","재미있는","배운","재미있어","좋은"],hint:"The more I learn Korean, the more fun it seems."},
+{type:"mc",q:"바빠도 운동해야 돼요 combines:",opts:["-아/어도 (even if) + -아/어야 하다 (must)","-아/어서 (because) + -아/어야 하다","-는데 (but) + -고 싶다 (want)","-지만 (but) + -(으)ㄹ 거예요 (will)"],ans:"-아/어도 (even if) + -아/어야 하다 (must)",hint:"Even if busy, must exercise. Concession + obligation."},
+{type:"fb",s:"한국에 여행하{1} 왔어요. 맛있는 음식을 먹{2} 왔어요.\n(I came to travel to Korea. I came to eat delicious food.)",a:"러",opts:["러","려고","면서","서"],hint:"I came TO travel. -(으)러 오다 = came to do."},
+{type:"drag_fill",s:"시험이{1}! 공부{2}!\n(The exam is tomorrow, you know! Let's study!)",blanks:{"1":"잖아요","2":"합시다"},pool:["잖아요","합시다","거든요","할까요","네요","하자"],hint:"You know: -잖아요. Let's (formal): -(으)ㅂ시다."},
+{type:"fb",s:"한국어가 어렵{1} 포기하지 않을 거예요.\n(Even if Korean is hard, I won't give up.)",a:"워도",opts:["워도","워서","우면","운데"],hint:"Even if hard: 어렵다 → 어려워도 (ㅂ irregular + -아/어도)."},
 ]},
 
 // ── L8: Reading Comprehension ──
@@ -4981,6 +5012,9 @@ export default [
 {type:"mc",q:"바다가 정말 예쁜 것 같았어요 means:",opts:["The ocean seemed really pretty","The ocean was really pretty","The ocean is always pretty","I like the pretty ocean"],ans:"The ocean seemed really pretty",hint:"것 같다 = it seems/appeared. 예쁜 것 같았어요 = seemed pretty."},
 {type:"match",pairs:[{nl:"산 지 1년 됐어요",en:"It's been 1 year since living"},{nl:"좋아하게 됐어요",en:"came to like"},{nl:"타면서",en:"while riding"},{nl:"좋더라고요",en:"I found it good"}]},
 {type:"drag_fill",s:"한국에 {1} 지 6개월 {2}.\n(It has been 6 months since I came to Korea.)",blanks:{"1":"온","2":"됐어요"},pool:["온","됐어요","오는","돼요","와서"],hint:"It's been 6 months since coming to Korea."},
+{type:"fb",s:"비가 오{1} 봐요. 사람들이 우산을 들고 있어요.\n(It seems to be raining. People are carrying umbrellas.)",a:"나",opts:["나","는가","다","라"],hint:"It seems: -나 보다 (evidence-based). People have umbrellas = evidence."},
+{type:"mc",q:"이 식당에 김치밖에 없어요 means:",opts:["This restaurant only has kimchi","This restaurant doesn't have kimchi","Kimchi is outside the restaurant","This restaurant has everything"],ans:"This restaurant only has kimchi",hint:"N밖에 없다 = nothing but N. Only kimchi."},
+{type:"drag_fill",s:"일본에 {1} 적이 {2}. 도착하{3} 라멘을 먹었어요.\n(I have been to Japan. As soon as I arrived, I ate ramen.)",blanks:{"1":"간","2":"있어요","3":"자마자"},pool:["간","있어요","자마자","가는","없어요","고 나서"],hint:"Have been: 간 적이 있어요. As soon as arriving: 도착하자마자."},
 ]},
 
 // ── L9: B1 Assessment ──
