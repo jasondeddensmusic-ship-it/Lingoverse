@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 units, 160 lessons). Korean A1-A2 complete (10 units, 102 lessons, density nearly resolved). German and Arabic have early skeletons (5 units each, below density standard).
+**Current state**: Dutch A1-B1 complete (20 units, 160 lessons). Korean A1-B1 complete (20 units, 195 lessons). German and Arabic have early skeletons (5 units each, below density standard).
 
 ---
 
@@ -37,7 +37,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
-| `units-korean.js` | ~2,920 | All 10 Korean units (U1-U6 A1, U7-U10 A2) |
+| `units-korean.js` | ~4,710 | All 20 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,800 lines)
@@ -222,12 +222,21 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
 - A1 (Units 1-6): COMPLETE, all A1 gap items added (못, -지만, spatial words, adverbs, colors, connectors)
 - A2 (Units 7-10): COMPLETE (U7 Past Tense, U8 Health/Conditional, U9 Future/Speech Levels, U10 Daily Life/반말)
-- 10 units, 102 lessons, 2,056 steps (avg 20.2/lesson)
-- **~570 quality issues** found in full audit (2026-03-14). See `docs/KOREAN_QUALITY_AUDIT.md` for batch fix plan.
-- Issue types: lazy hints (151), bracket text (16), duplicates (20), answer-revealing hints (18), distractor quality (85), tip/note walls (209), deepDive quality (77), vocab gate (5)
-- 7 fix batches planned, execute unit-by-unit U1→U10
+- B1 (Units 11-20): COMPLETE (93 lessons, ~1,285 steps, audited)
+  - U11: Travel/KTX, progressive, ㅎ-irregular
+  - U12: Hobbies, comparatives, ㅅ-irregular
+  - U13: Connectors, -는데/-거든요/-네요, 르-irregular (all 6 irregular families done)
+  - U14: Workplace, obligation/permission/purpose
+  - U15: Education, benefactive -아/어 주다, -게 되다
+  - U16: Internet/SNS, indirect speech, honorifics
+  - U17: News, passive/causative, double past
+  - U18: Food, -기 nominalization, noun modifiers
+  - U19: Relationships, -더라고요 evidential, register switching
+  - U20: Consolidation + B1 assessment
+  - All 12 seed registry harvests complete
+- 20 units, 195 lessons total (A1: 66, A2: 36, B1: 93)
+- A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
-- Units 11-20 (B1): Not yet built
 
 ### German: 5 early units, below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units, RTL works, needs CEFR audit
