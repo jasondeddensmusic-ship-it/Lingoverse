@@ -386,6 +386,36 @@ Priority: U20 first (worst), then U19, U18, U17 upward.
 
 ---
 
+## Implementation Checklist (Per Sprint)
+
+Every sprint must verify these pipeline rules before committing new content:
+
+| Rule | Requirement | Common Mistake |
+|------|------------|----------------|
+| P8 | MC stems use Korean context, not English meta-descriptions | "Which means X?" leaks answer |
+| P22c | No em-dashes anywhere in content strings | Use periods, colons, \n bullets |
+| P24 | Grep existing units for overlap before adding teaches | -아/어지다 vs -게 되다 overlap risk |
+| P27 | ASCII-only phonetics, no IPA notation | /slashes/ are banned |
+| P32 | Every Korean sentence verified native-quality | Have examples reviewed |
+| P34 | Every quiz word must have a prior teach card | Seeds exempt from quizzes only |
+| P37 | Function words get teach cards before quiz use | Particles like -만 need cards |
+| P39 | Single-escaped \n in all content strings | Not \\\\n |
+| P43 | Korean target: 20-25 steps. B1 floor: 15 | Pedagogy over count |
+| P44 | Hints guide, never reveal the answer | Reference decision framework |
+| D21 | board:true on ALL new lessons | No exceptions |
+| D44 | Intro tip before first instance of new concept type | "Korean X System" pattern |
+| D58 | Korean format: centered/large/purple Korean lines, max 85 chars, colons for defs | Never use = for definitions |
+
+### Korean-Specific Pipeline Rules
+
+- **Train metaphor**: Reference every time a new verb ending is introduced (stem + ending visual)
+- **Vowel harmony**: Note whether each new verb ending triggers -아 or -어
+- **Speech levels**: U1-U9 해요체 primary, 합쇼체 shown but not quizzed. U10+ adds 반말. U16+ adds 합쇼체 active use
+- **Romanization**: U1-U3 show romanization, U4-U6 hover-only, U7+ no romanization on new teach cards
+- **Sino-Korean LEGO**: Every new Sino-Korean word gets morpheme decomposition chip
+
+---
+
 ## Decision Record
 
 - **D72**: Korean TOPIK/TTMIK gap audit: code verification reduced gap from ~40 to ~20-25 patterns. 7 false positives removed. Fix via seeding + targeted lessons, not new units.
