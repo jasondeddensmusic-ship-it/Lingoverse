@@ -11811,9 +11811,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         </div>
 
         {/* DeepDive */}
-        {st.deepDive&&<div style={{marginTop:16}}>
+        {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div style={{marginTop:16}}>
           <button onClick={()=>setShowDeepDive(!showDeepDive)} style={{background:"none",border:"none",cursor:"pointer",padding:"12px 0",width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",fontSize:14,fontWeight:700,color:"var(--purple-accent-text)",fontFamily:"'Nunito','system-ui',sans-serif"}}>
-            <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/> {st.deepDive.title}</span>
+            <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/> {dd.title}</span>
             <span style={{fontSize:18,transition:"transform .2s",transform:showDeepDive?"rotate(180deg)":"rotate(0)"}}>⌄</span>
           </button>
           {showDeepDive&&<div className="anim">
@@ -11828,7 +11828,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 :"0 4px 18px rgba(123,94,232,0.08), 0 0 10px rgba(180,165,240,0.1), inset 0 2px 0 rgba(255,255,255,0.7), inset 0 -2px 0 rgba(123,94,232,0.04)"}}>
               <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"35%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.05) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.08) 60%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
               <div style={{position:"relative",zIndex:2}}>
-              {st.deepDive.text.split(/\\n|\n/).map((line,i)=>{
+              {(dd.text||"").split(/\\n|\n/).map((line,i)=>{
                 if(!line.trim()) return <div key={i} style={{height:8}}/>;
                 if(line.startsWith("⚠️")) return <div key={i} style={{background:dk?"rgba(245,166,35,0.12)":"rgba(245,166,35,0.08)",borderRadius:10,padding:"8px 12px",margin:"6px 0",display:"flex",gap:6,alignItems:"flex-start"}}><span style={{fontSize:14,lineHeight:1.2,flexShrink:0}}>⚠️</span><span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.slice(2).trim())}</span></div>;
                 if(/^[A-Z][A-Z ]{2,}:/.test(line.trim())) return <div key={i} style={{background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",borderRadius:8,padding:"6px 12px",margin:"8px 0 2px",borderLeft:"2px solid var(--purple-accent)"}}><span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)",letterSpacing:0.8,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.trim())}</span></div>;
@@ -11846,7 +11846,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               </div>
             </div>
           </div>}
-        </div>}
+        </div>})()}
 
         {/* Continue */}
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:20}}>
@@ -11978,9 +11978,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return <div key={i2} style={{fontSize:14,color:isHeader?"var(--gray-800)":"var(--gray-600)",fontWeight:isHeader?700:500,lineHeight:1.65,marginTop:isHeader?10:0,padding:"2px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
             });})()}
           </div>
-          {st.deepDive&&<div style={{borderTop:"1.5px solid rgba(123,94,232,0.12)",padding:"0 24px 4px"}}>
+          {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div style={{borderTop:"1.5px solid rgba(123,94,232,0.12)",padding:"0 24px 4px"}}>
             <button onClick={()=>setShowDeepDive(!showDeepDive)} style={{background:"none",border:"none",cursor:"pointer",padding:"14px 0",width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",fontSize:14,fontWeight:700,color:"var(--purple-accent-text)",fontFamily:"'Nunito','system-ui',sans-serif"}}>
-              <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/>  {st.deepDive.title}</span>
+              <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/>  {dd.title}</span>
               <span style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontSize:18,transition:"transform .2s",transform:showDeepDive?"rotate(180deg)":"rotate(0)"}}>⌄</span></span>
             </button>
             {showDeepDive&&<div className="anim" style={{paddingBottom:16}}>
@@ -12001,7 +12001,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     :"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.08) 60%, transparent 100%)",
                   pointerEvents:"none",zIndex:1}}/>
                 <div style={{position:"relative",zIndex:2}}>
-                {st.deepDive.text.split(/\\n|\n/).map((line,i)=>{
+                {(dd.text||"").split(/\\n|\n/).map((line,i)=>{
                   if(!line.trim()) return <div key={i} style={{height:8}}/>;
                   if(line.startsWith("⚠️")) return <div key={i} style={{background:dk?"rgba(245,166,35,0.12)":"rgba(245,166,35,0.08)",borderRadius:10,padding:"8px 12px",margin:"6px 0",display:"flex",gap:6,alignItems:"flex-start"}}><span style={{fontSize:14,lineHeight:1.2,flexShrink:0}}>⚠️</span><span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.slice(2).trim())}</span></div>;
                   if(/^[A-Z][A-Z ]{2,}:/.test(line.trim())) return <div key={i} style={{background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",borderRadius:8,padding:"6px 12px",margin:"8px 0 2px",borderLeft:"2px solid var(--purple-accent)"}}><span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)",letterSpacing:0.8,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.trim())}</span></div>;
@@ -12019,7 +12019,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 </div>
               </div>
             </div>}
-          </div>}
+          </div>})()}
         </div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:24}}>
           {si>0&&<NavArrow onClick={goBack} isBack/>}
