@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 units, 160 lessons). Korean A1-B1 complete (20 units, 195 lessons). German and Arabic have early skeletons (5 units each, below density standard).
+**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B1 complete (20 units, 195 lessons). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -37,10 +37,10 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
-| `units-korean.js` | ~4,710 | All 20 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1) |
+| `units-korean.js` | ~4,713 | All 20 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
-### Engine (`src/lingoverse.jsx`, ~12,800 lines)
+### Engine (`src/lingoverse.jsx`, ~12,847 lines)
 
 | Section | Contents |
 |---------|----------|
@@ -237,13 +237,51 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
   - U19: Relationships, -더라고요 evidential, register switching
   - U20: Consolidation + B1 assessment
   - All 12 seed registry harvests complete
-- 20 units, 195 lessons total (A1: 66, A2: 36, B1: 93)
-- B1 quality audit (2026-03-14): 27 duplicate teach cards removed, ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
+- 20 units, 195 lessons total (A1: 64, A2: 38, B1: 93)
+- B1 quality audit (2026-03-14): 28 duplicate teach cards removed (incl. 호텔→숙소), ~250 P40/P43 translations added, 6 hint-reveal fixes, grammar error fixed, format normalized. Final: 0 violations.
 - A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
 - A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
 
-### German: 5 early units, below density standard, needs Goethe-Institut A1 audit
-### Arabic: 5 skeleton units, RTL works, needs CEFR audit
+### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
+### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
+### French: Infrastructure only (LANG_META, VOCAB entries, CULTURE_PACKS). No units, no foundations.
+### Spanish: Infrastructure only (LANG_META, VOCAB entries). No units, no foundations.
+
+### Infrastructure Readiness:
+- LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
+- LANG_META: All 11 complete
+- LANG_BLUEPRINT: Only nl, de, ar populated. Others TODO.
+- SCRIPT_BLUEPRINTS: 7 scripts defined (hangul, kana, arabic, hanzi, cyrillic, latin_complex, latin_simple)
+
+---
+
+## Product Roadmap
+
+### Phase 1: Content (Current)
+5 target languages to A1-B2, from English (primary source) and Arabic (second source):
+1. **Korean** - A1-B1 DONE. Next: A1-A2 quality fixes, then B2.
+2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
+3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
+4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
+5. **German** - 5 skeleton units. Next: full A1 build from scratch.
+
+### Phase 2: AI Integration
+- Proxy and backend for AI bot/chat integration
+- Personal curriculum adaptation
+- UI polish and responsive improvements
+
+### Phase 3: Expansion Languages
+- Chinese (Mandarin), Japanese, Russian, Arabic (as target)
+
+### Phase 4: Grand Vision
+- ANY source to ANY target. Semi-autonomous course generation.
+
+### Known Scaling Blockers (must fix before Phase 1 expansion):
+1. KOREAN_DICT hardcoded in engine (~line 10384) - extract to per-language module
+2. LANG_BLUEPRINT incomplete - need fr/es before building those curricula
+3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
+4. No multi-source lesson schema - units assume English source
+5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
 
 ---
 
