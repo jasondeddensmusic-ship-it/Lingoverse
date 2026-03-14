@@ -54,9 +54,9 @@ This plan follows the owner's polyglot acquisition vision:
 | 4 | ~~-자마자~~ | ~~"As soon as"~~ | **DONE Sprint 3** | New lesson kou13l1b (16 steps) |
 | 5 | ~~-(으)ㄹ래요~~ | ~~Casual want/intention~~ | **DONE Sprint 2** | New lesson kou9l5b (20 steps) |
 | 6 | ~~-(으)ㄹ까요?~~ | ~~"Shall we?" suggestion~~ | **ALREADY TAUGHT** U9L5 | Full teach card line 2560 |
-| 7 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
+| 7 | ~~-(으)러 가다/오다~~ | ~~"Go/come to do"~~ | **DONE Sprint 4** | New lesson kou11l5c (15 steps) |
 | 8 | ~~-(으)ㄴ 적이 있다~~ | ~~"Have done before"~~ | **DONE Sprint 3** | New lesson kou12l1b (18 steps) |
-| 9 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
+| 9 | ~~N밖에 + negative~~ | ~~"Nothing but"~~ | **DONE Sprint 4** | New lesson kou17l3c (12 steps) |
 | 10 | ~~-(으)려면~~ | ~~"If you want to"~~ | **DONE Sprint 3** | New lesson kou14l4b (16 steps) |
 | 11 | ~~-한테서~~ | ~~"From a person"~~ | **DONE Sprint 2** | Teach card + exercises in U10L6 |
 
@@ -64,14 +64,14 @@ This plan follows the owner's polyglot acquisition vision:
 
 | # | Pattern | Meaning | Status in Code | Action |
 |---|---------|---------|---------------|--------|
-| 13 | -아/어지다 | "Become" (state change) | Example-only (좋아지다), no teach | Add dedicated teach U15 |
-| 14 | -잖아요 | "You know, right?" | ABSENT | New lesson U19 |
-| 15 | -나 보다 | "I guess / it seems" | ABSENT | New lesson U19 |
-| 16 | -다가 | "While doing, then" | ABSENT | Add to U17 |
-| 17 | Narrative -(ㄴ/는)다 | Diary/writing form | ABSENT | Add to U20 |
+| 13 | ~~-아/어지다~~ | ~~"Become" (state change)~~ | **DONE Sprint 4** | New lesson kou15l4b (16 steps, combined with -게) |
+| 14 | ~~-잖아요~~ | ~~"You know, right?"~~ | **DONE Sprint 4** | New lesson kou19l2b (13 steps) |
+| 15 | ~~-나 보다~~ | ~~"I guess / it seems"~~ | **DONE Sprint 4** | New lesson kou19l4b (13 steps) |
+| 16 | ~~-다가~~ | ~~"While doing, then"~~ | **DONE Sprint 4** | New lesson kou17l3b (14 steps) |
+| 17 | ~~Narrative -(ㄴ/는)다~~ | ~~Diary/writing form~~ | **DONE Sprint 4** | New lesson kou20l5b (13 steps) |
 | 18 | ~~-아/어도~~ | ~~"Even if/though"~~ | **DONE Sprint 3** | New lesson kou13l1c (16 steps) |
-| 19 | -(으)ㅂ시다 | "Let's" (formal) | 1 example, no teach card | Add teach card U20 |
-| 20 | -게 (adverbial) | "In a manner of" | Only in -게 되다 combo | Add dedicated teach U15 |
+| 19 | ~~-(으)ㅂ시다~~ | ~~"Let's" (formal)~~ | **DONE Sprint 4** | New lesson kou20l2b (12 steps) |
+| 20 | ~~-게 (adverbial)~~ | ~~"In a manner of"~~ | **DONE Sprint 4** | In kou15l4b (combined with -아/어지다) |
 
 ### Tier 3: Enrichment (Nice for B1, required for B2)
 
@@ -349,12 +349,12 @@ Priority: U20 first (worst), then U19, U18, U17 upward.
 11. ~~Add -자마자 + -아/어도 to U13~~ **DONE** — kou13l1b (16 steps) + kou13l1c (16 steps)
 12. ~~Add -(으)려면 to U14~~ **DONE** — kou14l4b (16 steps)
 
-### Sprint 4: B1 Enrichment
-13. Add -아/어지다 + -게 to U15
-14. Add -다가 + N밖에 to U17
-15. Add -잖아요 + -나 보다 to U19
-16. Add -(으)ㅂ시다 + narrative tense to U20
-17. Add -(으)러 가다/오다 to U11
+### Sprint 4: B1 Enrichment ✅ DONE
+13. ~~Add -아/어지다 + -게 to U15~~ **DONE** — kou15l4b (16 steps, combined lesson)
+14. ~~Add -다가 + N밖에 to U17~~ **DONE** — kou17l3b (14 steps) + kou17l3c (12 steps)
+15. ~~Add -잖아요 + -나 보다 to U19~~ **DONE** — kou19l2b (13 steps) + kou19l4b (13 steps)
+16. ~~Add -(으)ㅂ시다 + narrative tense to U20~~ **DONE** — kou20l2b (12 steps) + kou20l5b (13 steps)
+17. ~~Add -(으)러 가다/오다 to U11~~ **DONE** — kou11l5c (15 steps)
 
 ### Sprint 5: B1 Density Uplift
 18. Uplift U20 to 20-22 steps/lesson (priority)

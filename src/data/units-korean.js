@@ -3143,6 +3143,25 @@ export default [
   {type:"drag_fill",s:"KTX에서 {1} 후에 {2}한테 전화{3}.\n(After getting off the KTX, I called my friend.)",blanks:{"1":"내린","2":"친구","3":"했어요"},pool:["내린","친구","했어요","내리는","한테서","해요"],hint:"After getting off: 내린 후에. Called my friend: 친구한테 전화했어요."},
 ]},
 
+// ═══ L5c: -(으)러 가다/오다 (Go/Come To Do) ═══
+{id:"kou11l5c",title:"-(으)러 가다/오다",icon:"🚶",xp:22,board:true,steps:[
+  {type:"intro",title:"Go/Come To Do: -(으)러",desc:"밥 먹으러 가요!\n→ Let's go to eat!\n\nExpress purpose of movement.",goals:["Use -(으)러 가다 for 'go to do'","Use -(으)러 오다 for 'come to do'","Distinguish from -(으)려고","Apply in travel contexts"]},
+  {type:"tip",title:"Purpose of Movement: -(으)러",text:"-(으)러 ONLY works with movement verbs:\n가다 (go), 오다 (come), 다니다 (commute).\n\nConsonant stem: + 으러\n먹다 → 먹으러 가다\n\nVowel stem: + 러\n보다 → 보러 가다\n\n하다 → 하러 가다",deepDive:{title:"-(으)러 vs -(으)려고",text:"-(으)러: purpose of GOING/COMING.\nOnly with 가다/오다/다니다.\n밥 먹으러 가요. (Go to eat.)\n\n-(으)려고: general purpose.\nWorks with ANY verb.\n밥 먹으려고 요리해요.\n(I cook in order to eat.)\n\n밥 먹으러 식당에 갔어요. (Went to restaurant to eat.)\n밥 먹으려고 요리했어요. (Cooked in order to eat.)\n\n-(으)러 implies physical movement.\n-(으)려고 is about intention/purpose."}},
+  {type:"teach",kind:"grammar",nl:"-(으)러 가다",en:"go to do",example:"밥 먹으러 식당에 갔어요.",exampleEn:"I went to the restaurant to eat.",note:"-(으)러 가다: go to do.\n\nConsonant: + 으러 가다.\nVowel: + 러 가다.\nOnly with movement verbs."},
+  {type:"teach",kind:"grammar",nl:"-(으)러 오다",en:"come to do",example:"한국어 배우러 왔어요.",exampleEn:"I came to learn Korean.",note:"-(으)러 오다: come to do.\n\nSame pattern, different direction.\n가다 = going. 오다 = coming."},
+  {type:"mc",q:"밥 먹으러 가요 means:",opts:["Let's go eat","I ate already","I'm eating now","I want to eat"],ans:"Let's go eat",hint:"-(으)러 가다 = go to do. Going to eat."},
+  {type:"fb",s:"커피 마시{1} 카페에 갔어요.\n(I went to a cafe to drink coffee.)",a:"러",opts:["러","려고","면서","는데"],hint:"마시다 → 마시러 가다. Vowel stem: add 러."},
+  {type:"mc",q:"한국어 배우러 왔어요 means:",opts:["I came to learn Korean","I learned Korean and came","I'm learning Korean now","I want to learn Korean"],ans:"I came to learn Korean",hint:"-(으)러 오다 = come to do. 배우다 → 배우러 왔어요."},
+  {type:"fb",s:"친구를 만나{1} 서울에 갔어요.\n(I went to Seoul to meet a friend.)",a:"러",opts:["러","려고","서","면"],hint:"만나다 → 만나러 가다. Purpose of going."},
+  {type:"match",pairs:[{nl:"먹으러 가다",en:"go to eat"},{nl:"보러 오다",en:"come to see"},{nl:"사러 가다",en:"go to buy"},{nl:"놀러 가다",en:"go to hang out"}]},
+  {type:"mc",q:"놀러 가요 means:",opts:["Let's go hang out","I'm playing now","Go play by yourself","I came to play"],ans:"Let's go hang out",hint:"놀다 → 놀러 가다. Go to play/hang out."},
+  {type:"fb",s:"관광지를 {1} 제주도에 갔어요.\n(I went to Jeju to see tourist spots.)",a:"보러",opts:["보러","봐서","보면","보는데"],hint:"보다 → 보러 가다. Go to see."},
+  {type:"mc",q:"부산에 해운대 해수욕장 보러 왔어요. This means:",opts:["I came to Busan to see Haeundae Beach","I saw Haeundae Beach in Busan","I will go to Haeundae Beach","Haeundae Beach came to Busan"],ans:"I came to Busan to see Haeundae Beach",hint:"-(으)러 오다 = come to do. Came to see the beach."},
+  {type:"fb",s:"기차표를 {1} 역에 갔어요.\n(I went to the station to buy a train ticket.)",a:"사러",opts:["사러","사서","사면","사고"],hint:"사다 → 사러 가다. Went to buy."},
+  {type:"drag_fill",s:"한국 음식을 {1} 식당에 {2}. 도착한 후에 메뉴를 {3}.\n(I went to a restaurant to eat Korean food. After arriving, I looked at the menu.)",blanks:{"1":"먹으러","2":"갔어요","3":"봤어요"},pool:["먹으러","갔어요","봤어요","먹어서","가요","보러"],hint:"Went to eat: 먹으러 갔어요. After arriving: 도착한 후에. Looked at: 봤어요."},
+  {type:"drag_fill",s:"친구가 한국에 {1} 왔어요. 공항에서 내리{2} 저한테 전화{3}.\n(My friend came to Korea to travel. As soon as getting off at the airport, they called me.)",blanks:{"1":"여행하러","2":"자마자","3":"했어요"},pool:["여행하러","자마자","했어요","여행해서","고 나서","해요"],hint:"Came to travel: 여행하러 왔어요. As soon as: -자마자. Called me: 전화했어요."},
+]},
+
 // ═══ L6: -(으)ㄹ 줄 알다/모르다 ═══
 {id:"kou11l6",title:"-(으)ㄹ 줄 알다",icon:"🎯",xp:24,board:true,steps:[
   {type:"intro",title:"Know How To / Don't Know How To",desc:"-(으)ㄹ 줄 알다\n→ know how to\n\nAbility based on knowledge, not possibility.",goals:["Use -(으)ㄹ 줄 알다 for 'know how to'","Use -(으)ㄹ 줄 모르다 for 'don't know how to'","Distinguish from -(으)ㄹ 수 있다","Practice with real skills"]},
@@ -3970,6 +3989,26 @@ export default [
 {type:"mc",q:"-게 되다 removes:",opts:["Personal agency (things just turned out that way)","The subject of the sentence","Past tense meaning","The verb entirely"],ans:"Personal agency (things just turned out that way)",hint:"-게 되다 implies it happened through circumstances, not by your active choice."},
 ]},
 
+// ── L4b: -아/어지다 + -게 (Become & Adverbial) ──
+{id:"kou15l4b",title:"-아/어지다 & -게",icon:"🔄",xp:24,board:true,steps:[
+  {type:"intro",title:"Become & Making Adverbs",desc:"날씨가 따뜻해졌어요.\n→ The weather became warm.\n\n빠르게 걸어요.\n→ Walk quickly.\n\nTwo ways to transform adjectives.",goals:["Use -아/어지다 for 'become' (state change)","Use -게 to make adverbs from adjectives","Distinguish -아/어지다 from -게 되다","Build natural descriptions"]},
+  {type:"tip",title:"-아/어지다: Becoming",text:"-아/어지다 shows gradual state change:\n\nㅏ/ㅗ stems: + 아지다\n작다 → 작아지다 (become small)\n\nOther: + 어지다\n예쁘다 → 예뻐지다 (become pretty)\n\n하다 → 해지다\n깨끗하다 → 깨끗해지다 (become clean)\n\nOften implies natural, gradual change.",deepDive:{title:"-아/어지다 vs -게 되다",text:"-아/어지다: gradual change in STATE.\n날씨가 추워졌어요.\nThe weather got cold (gradually).\n\n-게 되다: change in SITUATION.\n한국에 살게 됐어요.\nI ended up living in Korea.\n\n-아/어지다 focuses on the quality changing.\n-게 되다 focuses on circumstances changing.\n\nBoth can translate as 'become'\nbut the nuance differs:\n예뻐졌어요 = got prettier (look changed).\n예쁘게 됐어요 = ended up being pretty (situation)."}},
+  {type:"teach",kind:"grammar",nl:"-아/어지다",en:"become / get (state change)",example:"날씨가 따뜻해졌어요.",exampleEn:"The weather became warm.",note:"-아/어지다: become.\n\nVowel harmony:\nㅏ/ㅗ → 아지다. Others → 어지다.\n하다 → 해지다.\n\nPast: -아/어졌어요."},
+  {type:"mc",q:"날씨가 추워졌어요 means:",opts:["The weather got cold","The weather is cold","The weather will be cold","I feel cold"],ans:"The weather got cold",hint:"-아/어지다 = become. 춥다 → 추워지다. Past: 추워졌어요."},
+  {type:"fb",s:"한국어가 재미있{1}.\n(Korean became interesting.)",a:"어졌어요",opts:["어졌어요","게 됐어요","어요","았어요"],hint:"재미있다 → 재미있어지다. Became interesting (quality change)."},
+  {type:"tip",title:"-게: Making Adverbs",text:"-게 turns adjectives into adverbs.\nLike English '-ly':\n\n빠르다 → 빠르게 (quickly)\n크다 → 크게 (loudly/largely)\n조용하다 → 조용하게 (quietly)\n행복하다 → 행복하게 (happily)\n\nJust add -게 to the adjective stem.\nNo vowel harmony needed.",deepDive:{title:"-게 vs -이/-히",text:"Korean has two adverb systems:\n\n-게: productive, works with any adj.\n빠르게, 크게, 조용하게.\n\n-이/-히: fixed forms for common adverbs.\n빨리 (quickly), 조용히 (quietly).\n\n빠르게 = 빨리. Both mean 'quickly.'\n빠르게 is more formal/written.\n빨리 is more colloquial.\n\nFor new or rare adjectives,\nalways use -게. It always works."}},
+  {type:"teach",kind:"grammar",nl:"-게",en:"adverb-making suffix (-ly)",example:"크게 말하세요.",exampleEn:"Please speak loudly.",note:"-게: turns adjective into adverb.\n\nAdjective stem + 게.\n크다 → 크게 (loudly).\n빠르다 → 빠르게 (quickly).\n조용하다 → 조용하게 (quietly)."},
+  {type:"mc",q:"크게 말하세요 means:",opts:["Please speak loudly","It's big","Speak in a big way","The big thing spoke"],ans:"Please speak loudly",hint:"-게 = adverb. 크다 → 크게 (loudly). 말하세요 = please speak."},
+  {type:"fb",s:"조용{1} 공부하세요.\n(Please study quietly.)",a:"하게",opts:["하게","히","해서","하면"],hint:"조용하다 → 조용하게. Add -게 for adverb."},
+  {type:"match",pairs:[{nl:"빠르게",en:"quickly"},{nl:"크게",en:"loudly"},{nl:"조용하게",en:"quietly"},{nl:"행복하게",en:"happily"}]},
+  {type:"mc",q:"Which means 'The days got longer'?",opts:["날이 길어졌어요","날이 길게 됐어요","날을 길어요","날이 길어서요"],ans:"날이 길어졌어요",hint:"길다 → 길어지다. State change: the days became long."},
+  {type:"fb",s:"열심히 공부해서 성적이 좋{1}.\n(I studied hard so my grades got better.)",a:"아졌어요",opts:["아졌어요","게 됐어요","아요","았어요"],hint:"좋다 → 좋아지다 → 좋아졌어요. Quality improved."},
+  {type:"mc",q:"행복하게 살고 싶어요 means:",opts:["I want to live happily","I'm happy living here","Living makes me happy","I became happy"],ans:"I want to live happily",hint:"-게 = adverb. 행복하게 = happily. 살고 싶다 = want to live."},
+  {type:"fb",s:"요즘 날씨가 많이 따뜻{1}.\n(The weather has gotten much warmer lately.)",a:"해졌어요",opts:["해졌어요","하게요","해서요","하면요"],hint:"따뜻하다 → 따뜻해지다. 하다 adj: 해지다."},
+  {type:"drag_fill",s:"한국어를 {1} 공부하면 실력이 {2}.\n(If you study Korean diligently, your skills will improve.)",blanks:{"1":"열심히","2":"좋아질 거예요"},pool:["열심히","좋아질 거예요","열심하게","좋게 될 거예요","열심으로","좋아서요"],hint:"열심히 = diligently (fixed adverb). 좋아지다 = improve (become good). Future: 좋아질 거예요."},
+  {type:"drag_fill",s:"수능 준비를 {1} 하면 성적이 {2}. {3} 말해 주세요.\n(If you prepare for 수능 diligently, grades will improve. Please speak loudly.)",blanks:{"1":"열심히","2":"좋아질 거예요","3":"크게"},pool:["열심히","좋아질 거예요","크게","열심","좋아요","커서"],hint:"Diligently: 열심히. Will improve: 좋아질 거예요. Loudly: 크게."},
+]},
+
 // ── L5: -아/어 보다 복습 (Review of Experiential) ──
 {id:"kou15l5",title:"-아/어 보다 복습",icon:"🔁",xp:20,board:true,steps:[
 {type:"intro",title:"Review: Try & Experience",desc:"Quick review of -아/어 보다 from Unit 11.\n\nCombine with new grammar:\n-아/어 주다 + -게 되다 + -아/어 보다.",goals:["Review -아/어 보다 (try/experience)","Combine experiential with benefactive","Use -아/어 봤어요 for life experiences","Build complex grammar chains"]},
@@ -4292,6 +4331,40 @@ export default [
 {type:"mc",q:"뉴스에서 사건을 알렸어요. 알리다 is used because:",opts:["The news informed (made people know)","The news was known (passive)","People already knew","The news asked about it"],ans:"The news informed (made people know)",hint:"알리다 = causative of 알다. Making people know = informing."},
 ]},
 
+// ── L3b: -다가 (While Doing, Then) ──
+{id:"kou17l3b",title:"-다가: 먹다가",icon:"🔀",xp:22,board:true,steps:[
+  {type:"intro",title:"While Doing, Then: -다가",desc:"밥을 먹다가 전화를 받았어요.\n→ While eating, I got a phone call.\n\nOne action interrupted by another.",goals:["Use -다가 for interrupted actions","Express action switches mid-stream","Distinguish from -면서 (simultaneous)","Use in news/daily contexts"]},
+  {type:"tip",title:"Interruption: -다가",text:"-다가: doing A, then switched to B.\nAction A was interrupted or abandoned.\n\nVerb stem + 다가:\n먹다 → 먹다가\n보다 → 보다가\n걷다 → 걷다가\n공부하다 → 공부하다가\n\nThe subject usually stays the same.",deepDive:{title:"-다가 vs -면서",text:"-면서: two actions AT THE SAME TIME.\n음악을 들으면서 공부해요.\nI study while listening to music.\n(Both continue together.)\n\n-다가: action A then SWITCH to B.\n공부하다가 잠들었어요.\nWhile studying, I fell asleep.\n(Studying stopped. Sleeping started.)\n\n-면서 = simultaneous, parallel.\n-다가 = sequential, one replaces other.\n\n-다가 often implies the switch was\nunplanned or unexpected."}},
+  {type:"teach",kind:"grammar",nl:"-다가",en:"while doing (then switched to)",example:"밥을 먹다가 전화를 받았어요.",exampleEn:"While eating, I got a phone call.",note:"-다가: while doing A, then B.\n\nVerb stem + 다가.\nAction A interrupted or switched.\nUsually same subject."},
+  {type:"mc",q:"밥을 먹다가 전화를 받았어요 means:",opts:["While eating, I got a phone call","After eating, I made a call","I ate and then called","I called while eating"],ans:"While eating, I got a phone call",hint:"-다가 = while doing, then. Eating was interrupted by the call."},
+  {type:"fb",s:"공부하{1} 잠들었어요.\n(While studying, I fell asleep.)",a:"다가",opts:["다가","면서","고","서"],hint:"Studying was interrupted by falling asleep. -다가."},
+  {type:"mc",q:"TV를 보다가 나갔어요 means:",opts:["While watching TV, I went out","I watched TV and went out","After watching TV, I went out","I watch TV outside"],ans:"While watching TV, I went out",hint:"-다가 = switched actions. Was watching TV, then left."},
+  {type:"fb",s:"걷{1} 넘어졌어요.\n(While walking, I fell down.)",a:"다가",opts:["다가","으면서","고","어서"],hint:"Walking interrupted by falling. -다가."},
+  {type:"teach",kind:"phrase",nl:"운전하다가 사고가 났어요",en:"while driving, an accident happened",example:"고속도로에서 운전하다가 사고가 났어요.",exampleEn:"While driving on the highway, an accident happened.",note:"News often uses -다가 for incidents.\n운전하다가 = while driving."},
+  {type:"mc",q:"Which means 'while running, I got hurt'?",opts:["뛰다가 다쳤어요","뛰면서 다쳤어요","뛰고 다쳤어요","뛰어서 다쳤어요"],ans:"뛰다가 다쳤어요",hint:"-다가 = action interrupted. Running was interrupted by getting hurt."},
+  {type:"match",pairs:[{nl:"먹다가",en:"while eating (then...)"},{nl:"걷다가",en:"while walking (then...)"},{nl:"자다가",en:"while sleeping (then...)"},{nl:"일하다가",en:"while working (then...)"}]},
+  {type:"fb",s:"뉴스를 보{1} 잠들었어요.\n(While watching the news, I fell asleep.)",a:"다가",opts:["다가","면서","고 나서","ㄴ 후에"],hint:"Watching was interrupted by sleeping. -다가."},
+  {type:"mc",q:"비가 오다가 갑자기 멈췄어요 means:",opts:["It was raining, then suddenly stopped","Because it rained, it stopped","After raining, it stopped","If it rains, it will stop"],ans:"It was raining, then suddenly stopped",hint:"-다가 = switched states. Rain stopped mid-action."},
+  {type:"fb",s:"서울에서 살{1} 부산으로 이사했어요.\n(I was living in Seoul, then moved to Busan.)",a:"다가",opts:["다가","면서","아서","고"],hint:"Living in Seoul was interrupted by moving. -다가."},
+  {type:"drag_fill",s:"뉴스 기사를 {1} 모르는 단어가 {2}. 사전을 {3}.\n(While reading a news article, I came across an unknown word. I looked it up in the dictionary.)",blanks:{"1":"읽다가","2":"나왔어요","3":"찾아봤어요"},pool:["읽다가","나왔어요","찾아봤어요","읽으면서","나오면","찾으러"],hint:"While reading: 읽다가. Appeared: 나왔어요. Looked up: 찾아봤어요."},
+]},
+
+// ── L3c: N밖에 + Negative (Nothing But) ──
+{id:"kou17l3c",title:"N밖에: 뉴스밖에",icon:"⚠️",xp:20,board:true,steps:[
+  {type:"intro",title:"Nothing But: N밖에",desc:"시간이 10분밖에 없어요.\n→ There are only 10 minutes (nothing but 10 min).\n\nEmphasize scarcity with N밖에 + negative.",goals:["Use N밖에 + negative for 'nothing but'","Always pair with a negative verb","Contrast with -만 ('only')","Express scarcity in news contexts"]},
+  {type:"tip",title:"N밖에 + Negative",text:"밖 = outside. 에 = at.\nN밖에 = outside of N = nothing but N.\n\nALWAYS requires a NEGATIVE verb:\n돈이 천 원밖에 없어요.\n= I only have 1,000 won.\n(Nothing but 1,000 won exists.)\n\n시간이 없어요 (negative).\n모르다 (negative meaning).\n못 하다 (negative).",deepDive:{title:"밖에 vs -만",text:"Both mean 'only' but differ:\n\n-만: neutral. Just states a fact.\n커피만 마셔요. (I only drink coffee.)\n\nN밖에: emphasizes scarcity/limitation.\n커피밖에 없어요. (There's nothing but coffee.)\n\n-만 works with positive verbs.\nN밖에 REQUIRES negative verbs.\n\n-만 마셔요 (only drink) = choice.\nN밖에 없어요 (nothing but) = limitation.\n\n밖에 sounds more emphatic,\nslightly complaining."}},
+  {type:"teach",kind:"grammar",nl:"N밖에 + negative",en:"nothing but / only (emphatic)",example:"시간이 10분밖에 없어요.",exampleEn:"There are only 10 minutes left.",note:"N밖에: nothing but N.\n\nALWAYS + negative verb.\n없어요, 모르다, 못 하다, 안 하다.\n\nMore emphatic than -만."},
+  {type:"mc",q:"돈이 천 원밖에 없어요 means:",opts:["I only have 1,000 won","I have more than 1,000 won","1,000 won is enough","I don't have 1,000 won"],ans:"I only have 1,000 won",hint:"N밖에 없다 = nothing but N exists. Emphasizes how little."},
+  {type:"fb",s:"학생이 세 명{1} 안 왔어요.\n(Only three students came. / Nothing but three students came.)",a:"밖에",opts:["밖에","만","도","이"],hint:"N밖에 + negative. Three students, that's all that came."},
+  {type:"mc",q:"한국어를 조금밖에 못 해요 means:",opts:["I can only speak a little Korean","I can speak a lot of Korean","I can't speak Korean at all","I speak Korean well"],ans:"I can only speak a little Korean",hint:"N밖에 못 하다 = can do nothing but N. Only a little."},
+  {type:"fb",s:"뉴스{1} 안 봐요.\n(I watch nothing but the news.)",a:"밖에",opts:["밖에","만","도","를"],hint:"N밖에 + negative (안). Nothing but news."},
+  {type:"match",pairs:[{nl:"밖에 없다",en:"there's nothing but"},{nl:"밖에 모르다",en:"know nothing but"},{nl:"밖에 못 하다",en:"can do nothing but"},{nl:"밖에 안 하다",en:"do nothing but"}]},
+  {type:"mc",q:"이 식당에는 김치찌개밖에 없어요. This means:",opts:["This restaurant only has kimchi stew","This restaurant doesn't have kimchi stew","This restaurant has everything except kimchi stew","Kimchi stew is outside the restaurant"],ans:"This restaurant only has kimchi stew",hint:"N밖에 없다 = nothing but N exists."},
+  {type:"fb",s:"이 기사에 사진이 한 장{1} 없어요.\n(This article has only one photo.)",a:"밖에",opts:["밖에","만","도","이"],hint:"Nothing but one photo. N밖에 + 없어요."},
+  {type:"mc",q:"Which is correct? 'I only know this word.'",opts:["이 단어밖에 몰라요","이 단어밖에 알아요","이 단어만에 몰라요","이 단어밖에 알고 있어요"],ans:"이 단어밖에 몰라요",hint:"N밖에 + negative verb (모르다). 밖에 always needs negative."},
+  {type:"drag_fill",s:"이 뉴스 {1}에는 경제 기사{2} {3}.\n(This news channel has nothing but economy articles.)",blanks:{"1":"채널","2":"밖에","3":"없어요"},pool:["채널","밖에","없어요","채널을","만","있어요"],hint:"This channel: 채널에는. Nothing but economy articles: 기사밖에 없어요."},
+]},
+
 // ── L4: 뉴스 읽기 (Reading News) ──
 {id:"kou17l4",title:"뉴스 읽기",icon:"📰",xp:22,board:true,steps:[
 {type:"intro",title:"Reading Korean News",desc:"Korean news uses passive and causative\nheavily. Also formal written style.",goals:["Read simplified Korean news sentences","Identify passive in news context","Understand news sentence patterns","Build news vocabulary"]},
@@ -4602,6 +4675,23 @@ export default [
 {type:"mc",q:"생각보다 한국어가 쉽더라고요 means:",opts:["I found Korean easier than expected","Korean is easy","I think Korean will be easy","Korean was easy (simple past)"],ans:"I found Korean easier than expected",hint:"-더라고요 = personal discovery. 생각보다 = more than expected."},
 ]},
 
+// ── L2b: -잖아요 (You Know, Right?) ──
+{id:"kou19l2b",title:"-잖아요: 알잖아요",icon:"💬",xp:22,board:true,steps:[
+  {type:"intro",title:"You Know: -잖아요",desc:"내일 시험이잖아요!\n→ Tomorrow is the exam, you know!\n\nRemind someone of shared knowledge.",goals:["Use -잖아요 for 'you know / as you know'","Attach to verb stems and nouns","Express shared knowledge","Use for gentle reminders and emphasis"]},
+  {type:"tip",title:"-잖아요: Shared Knowledge",text:"-잖아요 reminds the listener of\nsomething they already know.\n\nVerb/adj stem + 잖아요:\n알다 → 알잖아요 (you know, right?)\n바쁘다 → 바쁘잖아요 (you know I'm busy)\n\nNoun + (이)잖아요:\n학생 → 학생이잖아요 (they're a student, you know)\n주말 → 주말이잖아요 (it's the weekend, you know)",deepDive:{title:"-잖아요 Nuance",text:"-잖아요 has different tones:\n\n1. Gentle reminder:\n내일 시험이잖아요.\nTomorrow's the exam, remember?\n\n2. Mild frustration:\n제가 말했잖아요!\nI told you already!\n\n3. Explaining/justifying:\n바쁘잖아요. 못 가요.\nI'm busy, you know. I can't go.\n\n4. Emphasizing the obvious:\n한국 사람이잖아요.\nThey're Korean, you know.\n(So of course they can speak Korean.)\n\n반말: -잖아\n알잖아! (You know!)"}},
+  {type:"teach",kind:"grammar",nl:"-잖아요",en:"you know / as you know",example:"내일 시험이잖아요!",exampleEn:"Tomorrow is the exam, you know!",note:"-잖아요: you know, right?\n\nVerb/adj stem + 잖아요.\nNoun + (이)잖아요.\n\nReminds listener of shared info."},
+  {type:"mc",q:"내일 시험이잖아요 means:",opts:["Tomorrow's the exam, you know!","Is tomorrow the exam?","I don't know about the exam","Tomorrow might be the exam"],ans:"Tomorrow's the exam, you know!",hint:"-잖아요 = you know! Reminding of shared knowledge."},
+  {type:"fb",s:"제가 말했{1}! 왜 안 들어요?\n(I told you already! Why don't you listen?)",a:"잖아요",opts:["잖아요","어요","네요","거든요"],hint:"I TOLD you, remember? Mild frustration. -잖아요."},
+  {type:"mc",q:"바쁘잖아요. 못 가요. This means:",opts:["I'm busy, you know. I can't go.","Am I busy? I can't go.","I'm busy so I'll go.","You're busy, I know."],ans:"I'm busy, you know. I can't go.",hint:"-잖아요 = justifying with shared knowledge. You know I'm busy."},
+  {type:"fb",s:"한국 사람이{1}. 당연히 한국어를 잘하죠.\n(They're Korean, you know. Of course they speak Korean well.)",a:"잖아요",opts:["잖아요","에요","거든요","네요"],hint:"They're Korean, you know! Obvious fact. -잖아요."},
+  {type:"mc",q:"오늘 주말이잖아요 means:",opts:["Today is the weekend, you know","Is today the weekend?","Today is not the weekend","I think today is the weekend"],ans:"Today is the weekend, you know",hint:"주말 + 이잖아요. Reminding: it's the weekend!"},
+  {type:"match",pairs:[{nl:"알잖아요",en:"you know (that I know)"},{nl:"말했잖아요",en:"I told you already"},{nl:"바쁘잖아요",en:"I'm busy, you know"},{nl:"학생이잖아요",en:"they're a student, you know"}]},
+  {type:"fb",s:"우리 내일 만나기로 했{1}.\n(We agreed to meet tomorrow, remember?)",a:"잖아요",opts:["잖아요","어요","네요","더라고요"],hint:"We agreed, you know! Reminder. -잖아요."},
+  {type:"mc",q:"그 영화 재미있잖아요 means:",opts:["That movie is fun, you know","That movie is fun?","I found the movie fun","That movie seems fun"],ans:"That movie is fun, you know",hint:"-잖아요 = reminding of shared knowledge. We both know it's fun."},
+  {type:"fb",s:"매운 거 못 먹{1}. 다른 거 시켜 주세요.\n(I can't eat spicy food, you know. Please order something else.)",a:"잖아요",opts:["잖아요","어요","거든요","네요"],hint:"You know I can't eat spicy! -잖아요 for shared knowledge."},
+  {type:"drag_fill",s:"내일 {1} 오늘은 집에서 {2} 해야 {3}.\n(Tomorrow's the exam, you know. Today I have to study at home.)",blanks:{"1":"시험이잖아요.","2":"공부를","3":"돼요"},pool:["시험이잖아요.","공부를","돼요","시험이에요.","공부가","해요"],hint:"Exam tomorrow, you know: 시험이잖아요. Have to study: 공부를 해야 돼요."},
+]},
+
 // ── L3: -ㄴ/는 지 (Duration/Since) ──
 {id:"kou19l3",title:"-ㄴ/는 지",icon:"⏰",xp:24,board:true,steps:[
 {type:"intro",title:"How Long Since...",desc:"한국에서 산 지 1년 됐어요.\n→ It's been 1 year since I lived in Korea.\n\nExpress duration since an event.",goals:["Use -ㄴ 지 for 'since' expressions","Express how long ago something happened","Combine with time words","Build natural duration sentences"]},
@@ -4634,6 +4724,23 @@ export default [
 {type:"match",pairs:[{nl:"알면 알수록",en:"the more you know"},{nl:"보면 볼수록",en:"the more you see"},{nl:"갈수록",en:"increasingly"},{nl:"만나면 만날수록",en:"the more you meet"}]},
 {type:"mc",q:"사람은 알면 알수록 좋아지는 거예요. This means:",opts:["The more you get to know a person, the more you like them","People are always good","If you know them, they're good","You should know more people"],ans:"The more you get to know a person, the more you like them",hint:"알면 알수록 + 좋아지다 = the more you know, the better they become."},
 {type:"fb",s:"한국 음식은 먹으{1} 먹을수록 맛있어요.\n(The more you eat Korean food, the more delicious it gets.)",a:"면",opts:["면","는데","어서","지만"],hint:"The more you eat Korean food, the more delicious it gets."},
+]},
+
+// ── L4b: -나 보다 / -(으)ㄴ가 보다 (I Guess / It Seems) ──
+{id:"kou19l4b",title:"-나 보다: 비가 오나 봐요",icon:"🤔",xp:22,board:true,steps:[
+  {type:"intro",title:"I Guess / It Seems: -나 보다",desc:"비가 오나 봐요.\n→ It seems like it's raining.\n\nMake guesses based on evidence.",goals:["Use -나 보다 for guesses about actions","Use -(으)ㄴ가 보다 for adjectives","Base guesses on evidence","Distinguish from 것 같다"]},
+  {type:"tip",title:"Guessing: -나 보다",text:"-나 보다: guess based on what you see.\n\nAction verbs: stem + 나 보다\n오다 → 오나 보다 (seems to be coming)\n먹다 → 먹나 봐요 (seems to be eating)\n\nAdjectives: stem + (으)ㄴ가 보다\n바쁘다 → 바쁜가 봐요 (seems busy)\n많다 → 많은가 봐요 (seems like a lot)\n\nPast: -았/었나 봐요\n갔나 봐요 (seems they went)",deepDive:{title:"-나 보다 vs 것 같다",text:"것 같다: personal opinion/guess.\n비가 올 것 같아요.\nI think it might rain. (My guess.)\n\n-나 보다: evidence-based inference.\n비가 오나 봐요.\nIt seems to be raining. (I see evidence.)\n\n것 같다 is more cautious/polite.\n-나 보다 implies you see signs/clues.\n\n사람이 많은 것 같아요.\n(I think there are many people.)\n\n사람이 많은가 봐요.\n(Seems like many people. I can see.)"}},
+  {type:"teach",kind:"grammar",nl:"-나 보다",en:"it seems / I guess (evidence-based)",example:"비가 오나 봐요.",exampleEn:"It seems like it's raining.",note:"-나 보다: I guess / it seems.\n\nVerbs: stem + 나 봐요.\nAdj: stem + (으)ㄴ가 봐요.\nPast: -았/었나 봐요."},
+  {type:"mc",q:"비가 오나 봐요 means:",opts:["It seems like it's raining","I want it to rain","It might rain tomorrow","I saw the rain"],ans:"It seems like it's raining",hint:"-나 보다 = it seems. Based on evidence (hearing rain, seeing wet ground)."},
+  {type:"fb",s:"사람들이 많이 왔{1} 봐요.\n(It seems many people came.)",a:"나",opts:["나","는","은가","을"],hint:"Past: -았/었나 봐요. 왔나 봐요 = it seems they came."},
+  {type:"mc",q:"바쁜가 봐요 means:",opts:["It seems like they're busy","They're busy","Are they busy?","They look busy to me"],ans:"It seems like they're busy",hint:"Adjective + (으)ㄴ가 보다. 바쁘다 → 바쁜가 봐요."},
+  {type:"fb",s:"맛있{1} 봐요. 사람들이 줄을 서고 있어요.\n(It seems delicious. People are standing in line.)",a:"는가",opts:["는가","나","은가","을"],hint:"맛있다 has 있다 (verb-like): 맛있나 봐요 OR 맛있는가 봐요. Both work."},
+  {type:"teach",kind:"phrase",nl:"집에 갔나 봐요",en:"it seems they went home",example:"전화를 안 받아요. 집에 갔나 봐요.",exampleEn:"They're not answering. It seems they went home.",note:"Past: 갔 + 나 봐요.\nEvidence: not answering the phone."},
+  {type:"mc",q:"전화를 안 받아요. 바쁜가 봐요. The speaker is:",opts:["Guessing they're busy because they're not answering","Certain they're busy","Asking if they're busy","Hoping they're busy"],ans:"Guessing they're busy because they're not answering",hint:"-나 보다 = evidence-based guess. Evidence: phone not answered."},
+  {type:"match",pairs:[{nl:"오나 봐요",en:"seems to be coming"},{nl:"갔나 봐요",en:"seems they went"},{nl:"바쁜가 봐요",en:"seems busy"},{nl:"많은가 봐요",en:"seems like a lot"}]},
+  {type:"fb",s:"날씨가 추워{1} 봐요. 사람들이 두꺼운 옷을 입었어요.\n(The weather seems to have gotten cold. People are wearing thick clothes.)",a:"진가",opts:["진가","지나","져서","지면"],hint:"추워지다 (got cold) past modifier: 추워진가 봐요."},
+  {type:"mc",q:"한국어를 잘하나 봐요 means:",opts:["It seems they're good at Korean","Are they good at Korean?","They're good at Korean","I think they can learn Korean"],ans:"It seems they're good at Korean",hint:"-나 봐요 = it seems. 잘하다 → 잘하나 봐요."},
+  {type:"drag_fill",s:"아무도 안 와요. 오늘 {1} 봐요. 다들 바쁜{2} 봐요.\n(Nobody's coming. It seems it was canceled today. Everyone seems busy.)",blanks:{"1":"취소됐나","2":"가"},pool:["취소됐나","가","취소되나","는","취소해서","을"],hint:"Seems canceled: 취소됐나 봐요 (past). Seem busy: 바쁜가 봐요 (adj)."},
 ]},
 
 // ── L5: 레지스터 전환 (Register Switching) ──
@@ -4753,6 +4860,22 @@ export default [
 {type:"drag_fill",s:"한국어를 {1} 수록 재미있{2}.\n(The more I learn Korean, the more fun I found it.)",blanks:{"1":"배울","2":"더라고요"},pool:["배울","더라고요","배운","네요","거든요"],hint:"The more I learn Korean, the more fun I found it."},
 ]},
 
+// ── L2b: -(으)ㅂ시다 (Let's — Formal) ──
+{id:"kou20l2b",title:"-(으)ㅂ시다",icon:"🤝",xp:20,board:true,steps:[
+  {type:"intro",title:"Let's (Formal): -(으)ㅂ시다",desc:"같이 합시다!\n→ Let's do it together!\n\nThe formal 'let's' for meetings, speeches, groups.",goals:["Use -(으)ㅂ시다 for formal proposals","Contrast with -(으)ㄹ까요 (suggestion)","Contrast with -자 (casual 'let's')","Apply in workplace/formal settings"]},
+  {type:"tip",title:"Three Ways to Say 'Let's'",text:"Korean has three 'let's' forms:\n\n-(으)ㅂ시다: formal. Meetings, speeches.\n시작합시다! (Let's begin!)\n\n-(으)ㄹ까요: suggestion/question.\n같이 갈까요? (Shall we go together?)\n\n-자: casual 반말.\n가자! (Let's go!)\n\n-(으)ㅂ시다 is decisive, not a question.\n-(으)ㄹ까요 asks for agreement.",deepDive:{title:"-(으)ㅂ시다 Formation",text:"Consonant stem: + 읍시다\n먹다 → 먹읍시다 (let's eat)\n\nVowel stem: + ㅂ시다\n가다 → 갑시다 (let's go)\n하다 → 합시다 (let's do)\n보다 → 봅시다 (let's see)\n\nUsed in:\n- Business meetings: 회의를 시작합시다.\n- Group activities: 같이 노력합시다.\n- Announcements: 출발합시다!"}},
+  {type:"teach",kind:"grammar",nl:"-(으)ㅂ시다",en:"let's (formal)",example:"같이 시작합시다!",exampleEn:"Let's start together!",note:"-(으)ㅂ시다: formal let's.\n\nConsonant: + 읍시다.\nVowel: + ㅂ시다.\n하다 → 합시다."},
+  {type:"mc",q:"같이 시작합시다 means:",opts:["Let's start together","Shall we start together?","Start together!","We started together"],ans:"Let's start together",hint:"-(으)ㅂ시다 = formal let's. Decisive, not a question."},
+  {type:"fb",s:"회의를 시작{1}.\n(Let's begin the meeting.)",a:"합시다",opts:["합시다","할까요","하자","해요"],hint:"Formal meeting context. -(으)ㅂ시다. 시작하다 → 시작합시다."},
+  {type:"mc",q:"갑시다 means:",opts:["Let's go (formal)","Shall we go?","Go! (command)","Let's go (casual)"],ans:"Let's go (formal)",hint:"가다 → 갑시다. Vowel stem: add ㅂ시다."},
+  {type:"fb",s:"다 같이 노력{1}!\n(Let's all work hard together!)",a:"합시다",opts:["합시다","할까요","하자","해요"],hint:"Group rally cry. Formal: -(으)ㅂ시다. 노력하다 → 노력합시다."},
+  {type:"match",pairs:[{nl:"합시다",en:"let's do (formal)"},{nl:"갑시다",en:"let's go (formal)"},{nl:"먹읍시다",en:"let's eat (formal)"},{nl:"봅시다",en:"let's see (formal)"}]},
+  {type:"mc",q:"Which is the most formal 'let's eat'?",opts:["먹읍시다","먹을까요","먹자","먹어요"],ans:"먹읍시다",hint:"-(으)ㅂ시다 is the most formal. 먹다 (consonant) → 먹읍시다."},
+  {type:"fb",s:"축하{1}! 건배!\n(Let's celebrate! Cheers!)",a:"합시다",opts:["합시다","할까요","하자","해요"],hint:"Toast at a formal event. 축하하다 → 축하합시다."},
+  {type:"mc",q:"'Let's go together' — formal vs casual:",opts:["같이 갑시다 / 같이 가자","같이 가자 / 같이 갑시다","같이 갈까요 / 같이 가자","같이 가요 / 같이 갑시다"],ans:"같이 갑시다 / 같이 가자",hint:"Formal: -(으)ㅂ시다. Casual: -자."},
+  {type:"drag_fill",s:"자, {1}를 {2}. 오늘 할 일이 {3}.\n(Now, let's start the meeting. We have a lot to do today.)",blanks:{"1":"회의","2":"시작합시다","3":"많습니다"},pool:["회의","시작합시다","많습니다","회식","시작할까요","많아요"],hint:"Meeting: 회의. Let's start (formal): 시작합시다. A lot (formal): 많습니다."},
+]},
+
 // ── L3: Passive & Causative Review ──
 {id:"kou20l3",title:"피동과 사동",icon:"🔄",xp:22,board:true,steps:[
 {type:"intro",title:"Passive & Causative Mastery",desc:"피동과 사동\n→ passive and causative\n\nThings that happen TO you.\nThings you MAKE happen.",goals:["Review passive -이/히/리/기","Review causative -이/히/리/기/우/추","Practice 되다 passive pattern","Use both in natural sentences"]},
@@ -4796,6 +4919,23 @@ export default [
 {type:"match",pairs:[{nl:"봄",en:"spring"},{nl:"여름",en:"summer"},{nl:"가을",en:"autumn"},{nl:"겨울",en:"winter"}]},
 {type:"drag_fill",s:"한국의 {1}은 단풍이 예쁘{2}.\n(Korea's ___ has pretty autumn foliage, I found.)",blanks:{"1":"가을","2":"더라고요"},pool:["가을","더라고요","겨울","네요","어요"],hint:"Korea's autumn, I found the foliage pretty."},
 {type:"fb",s:"한국은 사계절이 뚜렷해{1}.\n(Because Korea has distinct four seasons...)",a:"서",opts:["서","는데","거든요","지만"],hint:"BECAUSE Korea has distinct four seasons... Reason connector."},
+]},
+
+// ── L5b: Narrative Tense -(ㄴ/는)다 ──
+{id:"kou20l5b",title:"-(ㄴ/는)다: 일기체",icon:"📓",xp:22,board:true,steps:[
+  {type:"intro",title:"Diary & Writing Form: -(ㄴ/는)다",desc:"오늘 날씨가 좋다.\n→ The weather is nice today. (diary)\n\nKorean's plain/written style.",goals:["Recognize the narrative/plain ending","Use -(ㄴ/는)다 for writing","Know when it appears (diaries, news, books)","Distinguish from spoken endings"]},
+  {type:"tip",title:"The Plain/Narrative Ending",text:"Korean has a 'writing' speech level.\nNo politeness markers. Just facts.\n\nAction verbs: stem + ㄴ다/는다\n가다 → 간다 (goes/going)\n먹다 → 먹는다 (eats/eating)\n\nDescriptive (adj): stem + 다\n좋다 → 좋다 (is good)\n예쁘다 → 예쁘다 (is pretty)\n\n이다: stem + (이)다\n학생이다 (is a student)",deepDive:{title:"Where You'll See -(ㄴ/는)다",text:"1. Diaries/journals:\n오늘 비가 온다. (It's raining today.)\n\n2. Newspaper headlines:\n경제가 성장한다. (Economy grows.)\n\n3. Books/novels:\n그는 집으로 간다. (He goes home.)\n\n4. Signs/notices:\n출입을 금한다. (Entry prohibited.)\n\n5. Proverbs:\n시작이 반이다. (Starting is half.)\n\nNOT used in conversation.\nSpeaking this way sounds like\na narrator or a robot.\n\nPast: -았/었다\n갔다 = went. 먹었다 = ate."}},
+  {type:"teach",kind:"grammar",nl:"-(ㄴ/는)다",en:"plain/narrative ending (writing form)",example:"오늘 날씨가 좋다.",exampleEn:"The weather is nice today. (diary style)",note:"-(ㄴ/는)다: plain/writing ending.\n\nAction (vowel stem): + ㄴ다. 간다.\nAction (consonant): + 는다. 먹는다.\nAdj: just + 다. 좋다, 크다.\nPast: -았/었다. 갔다, 먹었다."},
+  {type:"mc",q:"오늘 비가 온다 — this style is used in:",opts:["Diaries, books, news","Polite conversation","Formal speeches","Text messages to friends"],ans:"Diaries, books, news",hint:"-(ㄴ/는)다 = plain/narrative. Written style, not spoken."},
+  {type:"fb",s:"나는 매일 한국어를 공부{1}.\n(I study Korean every day. — diary)",a:"한다",opts:["한다","해요","합니다","하자"],hint:"하다 → 한다. Plain/narrative form for diary."},
+  {type:"mc",q:"경제가 성장한다 — this is:",opts:["A news headline (plain form)","A polite statement","A casual text","A question"],ans:"A news headline (plain form)",hint:"-(ㄴ/는)다 in news: factual, impersonal."},
+  {type:"fb",s:"봄이 {1}. 꽃이 핀다.\n(Spring comes. Flowers bloom. — diary)",a:"온다",opts:["온다","와요","옵니다","오자"],hint:"오다 → 온다. Action vowel stem: add ㄴ다."},
+  {type:"match",pairs:[{nl:"간다",en:"goes (plain)"},{nl:"먹는다",en:"eats (plain)"},{nl:"좋다",en:"is good (plain)"},{nl:"했다",en:"did (plain past)"}]},
+  {type:"mc",q:"시작이 반이다 (a proverb) means:",opts:["Starting is half (the battle)","The beginning was half","Start the other half","Half started"],ans:"Starting is half (the battle)",hint:"이다 = is. 시작이 반이다 = The start is half. Famous Korean proverb."},
+  {type:"fb",s:"어제 친구를 만{1}. 같이 밥을 먹{2}.\n(Yesterday I met a friend. We ate together. — diary)",a:"났다",opts:["났다","나요","났어요","나자"],hint:"만나다 past plain: 만났다. "},
+  {type:"fb",s:"한국의 가을은 {1}. 단풍이 예쁘{2}.\n(Korea's autumn is short. The foliage is pretty. — diary)",a:"짧다",opts:["짧다","짧아요","짧습니다","짧아"],hint:"Adjective plain form: just stem + 다. 짧다."},
+  {type:"mc",q:"그는 서울에서 산다 is written in:",opts:["Plain/narrative style (book/diary)","Polite conversational style","Formal speech style","Casual 반말 style"],ans:"Plain/narrative style (book/diary)",hint:"살다 → 산다. ㄹ drops + ㄴ다. Literary/written style."},
+  {type:"drag_fill",s:"오늘은 날씨가 {1}. 공원에서 산책을 {2}. 기분이 {3}.\n(Today the weather is good. I took a walk in the park. I feel great. — diary)",blanks:{"1":"좋다","2":"했다","3":"좋았다"},pool:["좋다","했다","좋았다","좋아요","해요","좋았어요"],hint:"Diary style: 좋다 (adj plain), 했다 (past plain), 좋았다 (past adj plain)."},
 ]},
 
 // ── L6: Culture Comprehensive ──
