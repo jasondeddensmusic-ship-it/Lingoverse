@@ -3155,4 +3155,212 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 12 — 취미가 뭐예요? (Hobbies & Comparisons) — B1.1
+// Grammar: -보다 (comparison), 가장/제일 (superlative), -(으)면서 (simultaneous),
+//          -기로 하다 (decide to), -는 편이다 (tend to), ㅅ-irregular Batch 4
+// Cultural anchor: Korean hobbies, 등산 culture, PC방/노래방
+// Prerequisite: U11 (travel vocab, -아/어 봤어요, -고 있다, ㅎ-irregular)
+// ═══════════════════════════════════════════════════════════
+{n:12,lang:"ko",track:"v2",title:"취미가 뭐예요?",sub:"Hobbies & Comparisons",icon:"🎯",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 취미 어휘 (Hobby Vocabulary) ──
+{id:"kou12l1",title:"취미 어휘",icon:"🎨",xp:22,board:true,steps:[
+{type:"intro",title:"취미가 뭐예요?",desc:"취미\n→ hobby\n\nWhat do Koreans do for fun?\nLet's learn hobby words.",goals:["Learn 8 common hobby words","Talk about what you enjoy","Ask about others' hobbies","Use 취미 in conversation"]},
+{type:"teach",nl:"취미",en:"hobby",phonetic:"chwi-mi",note:"COMPOUND: 취(interest/趣) + 미(taste/味).\nInterest-taste = hobby.",kind:"noun"},
+{type:"teach",nl:"운동",en:"exercise, sports",phonetic:"un-dong",note:"COMPOUND: 운(carry/運) + 동(move/動).\nCarry-move = exercise.",kind:"noun"},
+{type:"teach",nl:"등산",en:"hiking, mountain climbing",phonetic:"deung-san",note:"COMPOUND: 등(climb/登) + 산(mountain/山).\nClimb-mountain = hiking.",kind:"noun",deepDive:"등산 is Korea's national hobby.\nOver 30% of Koreans hike regularly.\nMost mountains have well-marked trails\nwith rest stops serving 막걸리 and 파전."},
+{type:"teach",nl:"요리",en:"cooking",phonetic:"yo-ri",note:"COMPOUND: 요(material/料) + 리(manage/理).\nManage-materials = cooking.",kind:"noun"},
+{type:"teach",nl:"독서",en:"reading (books)",phonetic:"dok-seo",note:"COMPOUND: 독(read/讀) + 서(book/書).\nRead-book = reading.",kind:"noun"},
+{type:"teach",nl:"음악",en:"music",phonetic:"eu-mak",note:"COMPOUND: 음(sound/音) + 악(enjoy/樂).\nEnjoy-sound = music.",kind:"noun"},
+{type:"teach",nl:"사진",en:"photo, photography",phonetic:"sa-jin",note:"COMPOUND: 사(copy/寫) + 진(true/眞).\nCopy-truth = photograph.",kind:"noun"},
+{type:"teach",nl:"게임",en:"game",phonetic:"ge-im",note:"Konglish from English 'game'.\nVery popular hobby in Korea.",kind:"noun"},
+{type:"mc",q:"등산 literally means:",opts:["Mountain path","Climb mountain","Walk outside","Nature trip"],ans:"Climb mountain",hint:"등 = climb (登), 산 = mountain (山)."},
+{type:"mc",q:"취미 literally means:",opts:["Fun time","Interest-taste","Free activity","Happy thing"],ans:"Interest-taste",hint:"취 = interest (趣), 미 = taste (味)."},
+{type:"match",pairs:[{nl:"운동",en:"exercise"},{nl:"요리",en:"cooking"},{nl:"독서",en:"reading"},{nl:"음악",en:"music"}]},
+{type:"mc",q:"Which hobby is Konglish?",opts:["등산","독서","게임","요리"],ans:"게임",hint:"Which word sounds like an English word?"},
+{type:"teach",nl:"좋아하다",en:"to like",phonetic:"jo-a-ha-da",note:"좋다 (good) + 하다 (do).\n좋아해요 = I like it.",kind:"verb"},
+{type:"teach",nl:"즐기다",en:"to enjoy",phonetic:"jeul-gi-da",note:"즐겨요 = I enjoy it.\nMore active than 좋아하다.",kind:"verb"},
+{type:"fb",s:"취미가 뭐예요? 저는 {1}을/를 좋아해요.",a:"등산",opts:["등산","좋아하다","취미","뭐"],hint:"What hobby do 30% of Koreans enjoy? Climb + mountain."},
+{type:"mc",q:"'I enjoy cooking' in Korean:",opts:["요리를 즐겨요","요리가 좋아요","요리를 해요","요리가 있어요"],ans:"요리를 즐겨요",hint:"즐기다 → 즐겨요. Cooking takes 를 as the object."},
+{type:"fb",s:"저는 음악{1} 좋아해요.",a:"을",opts:["을","를","이","가"],hint:"음악 ends in a consonant (ㄱ). Which object marker follows consonants?"},
+{type:"match",pairs:[{nl:"사진을 찍다",en:"to take photos"},{nl:"게임을 하다",en:"to play games"},{nl:"등산을 하다",en:"to go hiking"},{nl:"요리를 하다",en:"to cook"}]},
+{type:"mc",q:"독서 breaks down as:",opts:["Read + book","Read + word","Book + read","See + text"],ans:"Read + book",hint:"독 (讀) = read. 서 (書) = book."},
+{type:"drag_fill",s:"취미가 뭐예요? 저는 {1}을 좋아하고, {2}도 즐겨요.",blanks:{"1":"사진","2":"독서"},pool:["사진","독서","뭐예요","취미","좋아하고"],hint:"I like photography, and I also enjoy reading."},
+]},
+
+// ── L2: 더/덜/가장 (Comparison Words) ──
+{id:"kou12l2",title:"더/덜/가장",icon:"📊",xp:22,board:true,steps:[
+{type:"intro",title:"Comparing Things",desc:"더\n→ more\n\nCompare hobbies, food, places.\nKorean comparison is simpler than English.",goals:["Use 더 (more) in sentences","Use 덜 (less) in sentences","Use 가장/제일 (most) for superlatives","Compare hobbies and activities"]},
+{type:"teach",nl:"더",en:"more",phonetic:"deo",note:"더 + adjective = more [adjective].\n더 좋아요 = It's better (more good).",kind:"adverb",deepDive:"Korean doesn't change the adjective itself.\nNo '-er' suffix like English.\nJust add 더 before any adjective:\n더 크다 = bigger\n더 작다 = smaller\n더 맛있다 = tastier"},
+{type:"teach",nl:"덜",en:"less",phonetic:"deol",note:"덜 + adjective = less [adjective].\n덜 매워요 = It's less spicy.",kind:"adverb"},
+{type:"teach",nl:"가장",en:"most (superlative)",phonetic:"ga-jang",note:"가장 + adjective = most [adjective].\n가장 좋아요 = It's the best.",kind:"adverb"},
+{type:"teach",nl:"제일",en:"most, number one",phonetic:"je-il",note:"COMPOUND: 제(most/第) + 일(one/一).\nSame meaning as 가장. More casual.",kind:"adverb"},
+{type:"tip",title:"Korean Comparisons: No Conjugation Needed",text:"English changes the adjective: big → bigger → biggest.\nKorean just adds a word before it:\n\n더 크다 = bigger (more big)\n덜 크다 = less big\n가장 크다 = biggest (most big)\n제일 크다 = biggest (number-one big)\n\nThe adjective stays the same every time.",deepDive:"Comparison with 가장 vs 제일:\n\n가장 is slightly more formal/written.\n제일 is more casual/spoken.\nBoth are correct in any context.\n\nExamples:\n가장 맛있는 음식 = the tastiest food\n제일 좋아하는 취미 = favorite hobby"},
+{type:"mc",q:"'More delicious' in Korean:",opts:["더 맛있어요","맛있더요","맛있은요","덜 맛있어요"],ans:"더 맛있어요",hint:"Just put 더 (more) before the adjective. The adjective doesn't change."},
+{type:"mc",q:"'Less spicy' in Korean:",opts:["더 매워요","덜 매워요","가장 매워요","안 매워요"],ans:"덜 매워요",hint:"덜 means less. 안 means not. Which reduces degree?"},
+{type:"fb",s:"이 산이 {1} 높아요. 한국에서 제일 높은 산이에요.",a:"가장",opts:["가장","더","덜","안"],hint:"This mountain is the ___ high. It's the highest in Korea."},
+{type:"mc",q:"가장 and 제일 are:",opts:["Opposites","Synonyms (same meaning)","Different grammar levels","Never interchangeable"],ans:"Synonyms (same meaning)",hint:"Both mean 'most.' One is slightly more casual."},
+{type:"fb",s:"등산이 게임{1} 더 좋아요.",a:"보다",opts:["보다","에서","하고","부터"],hint:"Hiking is better THAN games. What particle means 'than'?"},
+{type:"mc",q:"저는 운동을 {___} 좋아해요 means 'I like exercise the most.'",opts:["가장","더","덜","안"],ans:"가장",hint:"The most = superlative. Which word means 'most'?"},
+{type:"drag_fill",s:"요리가 독서{1} {2} 재미있어요.",blanks:{"1":"보다","2":"더"},pool:["보다","더","덜","가장","에서"],hint:"Cooking is more fun than reading. [than] [more]."},
+{type:"match",pairs:[{nl:"더 크다",en:"bigger"},{nl:"덜 비싸다",en:"less expensive"},{nl:"가장 맛있다",en:"most delicious"},{nl:"제일 좋아하다",en:"favorite (like most)"}]},
+{type:"mc",q:"한국에서 가장 인기 있는 취미는 등산이에요. This means:",opts:["Hiking is Korea's most popular hobby","Hiking is more popular than cooking","Hiking is less popular in Korea","Koreans don't like hiking"],ans:"Hiking is Korea's most popular hobby",hint:"가장 인기 있는 = most popular. 등산 = hiking."},
+]},
+
+// ── L3: -보다 (Comparison Particle) ──
+{id:"kou12l3",title:"-보다",icon:"⚖️",xp:22,board:true,steps:[
+{type:"intro",title:"Comparing with -보다",desc:"-보다\n→ than, compared to\n\nThe comparison particle.\nA보다 B = B more than A.",goals:["Use -보다 to compare two things","Combine -보다 with 더/덜","Build natural comparison sentences","Compare hobbies, places, and food"]},
+{type:"teach",nl:"-보다",en:"than, compared to",phonetic:"bo-da",note:"Attaches to the LESSER item.\nA보다 B가 더 좋아요.\n= B is better than A.",kind:"particle",deepDive:"Word order matters:\nA보다 B가 더 크다.\n= Compared to A, B is bigger.\n\nThe item with -보다 is the one\nyou're comparing AGAINST.\nThe other item is the 'winner.'"},
+{type:"tip",title:"Comparison Sentence Pattern",text:"Pattern: A보다 B가 더 [adjective]\n\n커피보다 차가 더 좋아요.\n= Tea is better than coffee.\n(Compared to coffee, tea is more good.)\n\n서울보다 부산이 더 따뜻해요.\n= Busan is warmer than Seoul.",deepDive:"You can drop 더 if comparison is clear:\n커피보다 차가 좋아요.\nStill means 'tea is better than coffee.'\n\nBut 더 makes it explicit and natural.\nIn speaking, 더 is almost always included."},
+{type:"mc",q:"커피보다 차가 더 좋아요 means:",opts:["I like tea more than coffee","I like coffee more than tea","Coffee and tea are equal","I don't like either"],ans:"I like tea more than coffee",hint:"The item with -보다 is what you compare against. 차 is the preferred one."},
+{type:"fb",s:"등산{1} 게임이 더 재미있어요.",a:"보다",opts:["보다","에서","하고","까지"],hint:"Games are more fun THAN hiking. Which particle means 'than'?"},
+{type:"mc",q:"서울보다 제주도가 더 따뜻해요. Which city is warmer?",opts:["서울","제주도","Both the same","Can't tell"],ans:"제주도",hint:"The item WITHOUT -보다 has the quality. 제주도 is 더 따뜻해요."},
+{type:"fb",s:"한국 음식{1} 일본 음식이 {2} 매워요.",a:"보다",opts:["보다","가","더","에"],hint:"Japanese food is ___er than Korean food? Wait, is that right?"},
+{type:"mc",q:"운동보다 독서를 더 좋아해요 means:",opts:["I like reading more than exercise","I like exercise more than reading","I like both equally","I don't like reading"],ans:"I like reading more than exercise",hint:"운동보다 = compared to exercise. 독서를 더 좋아해요 = like reading more."},
+{type:"teach",nl:"비슷하다",en:"to be similar",phonetic:"bi-seut-ha-da",note:"비슷해요 = They're similar.\nUsed when comparison shows equality.",kind:"adjective"},
+{type:"teach",nl:"다르다",en:"to be different",phonetic:"da-reu-da",note:"달라요 = It's different.\n르-irregular: 르 → ㄹ라.",kind:"adjective",deepDive:"다르다 is a 르-irregular verb.\nStem: 다르 → 달라요.\nThe 르 splits: ㄹ goes to previous syllable,\nand 라 follows.\nFull harvest of 르-irregulars in Unit 13."},
+{type:"mc",q:"한국어와 일본어는 비슷해요? means:",opts:["Are Korean and Japanese similar?","Are Korean and Japanese different?","Is Korean harder than Japanese?","Is Japanese better than Korean?"],ans:"Are Korean and Japanese similar?",hint:"비슷하다 = to be similar. The 요 makes it a polite question."},
+{type:"fb",s:"서울하고 부산은 많이 {1}.",a:"달라요",opts:["달라요","비슷해요","좋아요","커요"],hint:"Seoul and Busan are very ___. They're quite different from each other."},
+{type:"drag_fill",s:"요리{1} 등산이 {2} 힘들어요. 하지만 둘 다 재미있어요.",blanks:{"1":"보다","2":"더"},pool:["보다","더","덜","가장","하고"],hint:"Hiking is harder than cooking. But both are fun."},
+{type:"match",pairs:[{nl:"A보다 B가 더 커요",en:"B is bigger than A"},{nl:"A보다 B가 덜 비싸요",en:"B is less expensive than A"},{nl:"A하고 B는 비슷해요",en:"A and B are similar"},{nl:"A하고 B는 달라요",en:"A and B are different"}]},
+{type:"mc",q:"Pick the CORRECT comparison: 'Tea is more expensive than coffee.'",opts:["커피보다 차가 더 비싸요","차보다 커피가 더 비싸요","커피보다 차가 덜 비싸요","차하고 커피가 비싸요"],ans:"커피보다 차가 더 비싸요",hint:"-보다 goes on the LESSER item. Coffee is less expensive, so 커피보다."},
+]},
+
+// ── L4: -(으)면서 (Simultaneous Actions) ──
+{id:"kou12l4",title:"-(으)면서",icon:"🔄",xp:24,board:true,steps:[
+{type:"intro",title:"Doing Two Things at Once",desc:"-(으)면서\n→ while doing\n\nMultitasking in Korean.\nConnect two simultaneous actions.",goals:["Use -(으)면서 for simultaneous actions","Know when to use 으면서 vs 면서","Build natural multitasking sentences","Distinguish from -고 (sequential)"]},
+{type:"teach",nl:"-(으)면서",en:"while doing, at the same time as",phonetic:"-(eu)myeon-seo",note:"Verb stem + (으)면서.\nConsonant stem: 으면서.\nVowel stem: 면서.\n먹으면서 = while eating.",kind:"grammar",deepDive:"-(으)면서 vs -고:\n\n-고 = and (sequential or listing)\n먹고 마셔요 = I eat and (then) drink.\n\n-(으)면서 = while (simultaneous)\n먹으면서 마셔요 = I drink while eating.\n\nBoth actions happen at the SAME TIME\nwith -(으)면서."},
+{type:"tip",title:"Consonant vs Vowel Stems",text:"Vowel stem (no 받침): + 면서\n가다 → 가면서 (while going)\n보다 → 보면서 (while watching)\n하다 → 하면서 (while doing)\n\nConsonant stem (받침): + 으면서\n먹다 → 먹으면서 (while eating)\n듣다 → 들으면서 (while listening, ㄷ-irreg)\n읽다 → 읽으면서 (while reading)"},
+{type:"mc",q:"음악을 들으면서 공부해요 means:",opts:["I study while listening to music","I listen to music and then study","I study music","I like music and studying"],ans:"I study while listening to music",hint:"-(으)면서 = while doing. Both actions happen simultaneously."},
+{type:"fb",s:"커피를 마시{1} 책을 읽어요.",a:"면서",opts:["면서","으면서","고","지만"],hint:"I read a book WHILE drinking coffee. 마시 ends in a vowel."},
+{type:"mc",q:"먹다 + -(으)면서 = ?",opts:["먹면서","먹으면서","먹어면서","먹는면서"],ans:"먹으면서",hint:"먹 ends in consonant ㄱ. Consonant stems take 으면서."},
+{type:"fb",s:"운동{1} 음악을 들어요.",a:"하면서",opts:["하면서","하고","해서","하지만"],hint:"I listen to music WHILE exercising. 하 ends in a vowel."},
+{type:"mc",q:"Which sentence means 'I talk on the phone while walking'?",opts:["걸으면서 전화해요","걷고 전화해요","걸어서 전화해요","걷지만 전화해요"],ans:"걸으면서 전화해요",hint:"걷다 is ㄷ-irregular: 걷 → 걸. Then + 으면서 for simultaneous."},
+{type:"teach",nl:"전화하다",en:"to make a phone call",phonetic:"jeon-hwa-ha-da",note:"COMPOUND: 전(electric/電) + 화(speech/話).\nElectric-speech = telephone.",kind:"verb"},
+{type:"teach",nl:"산책하다",en:"to take a walk",phonetic:"san-chaek-ha-da",note:"COMPOUND: 산(scatter/散) + 책(step/策).\n산책해요 = I take a walk.",kind:"verb"},
+{type:"mc",q:"산책하면서 사진을 찍어요 means:",opts:["I take photos while walking","I walk to take photos","I take photos and then walk","I walk instead of taking photos"],ans:"I take photos while walking",hint:"-(으)면서 = simultaneous. Both happen at the same time."},
+{type:"drag_fill",s:"등산{1} 친구하고 이야기{2}.",blanks:{"1":"하면서","2":"해요"},pool:["하면서","해요","하고","해서","으면서"],hint:"I chat with friends while hiking."},
+{type:"mc",q:"Which is WRONG?",opts:["공부하면서 자요 (study while sleeping)","음악을 들으면서 요리해요","커피를 마시면서 일해요","산책하면서 전화해요"],ans:"공부하면서 자요 (study while sleeping)",hint:"You can't study and sleep at the same time. -(으)면서 requires both actions to be physically possible together."},
+{type:"match",pairs:[{nl:"먹으면서",en:"while eating"},{nl:"보면서",en:"while watching"},{nl:"걸으면서",en:"while walking"},{nl:"하면서",en:"while doing"}]},
+{type:"fb",s:"텔레비전을 {1} 저녁을 먹어요.",a:"보면서",opts:["보면서","보고","봐서","보지만"],hint:"I eat dinner WHILE watching TV. 보 ends in a vowel."},
+{type:"mc",q:"-고 vs -(으)면서: '먹고 갔어요' vs '먹으면서 갔어요'. What's the difference?",opts:["First: ate then left. Second: ate while going.","Both mean the same thing","First is formal, second is casual","First is wrong"],ans:"First: ate then left. Second: ate while going.",hint:"-고 connects sequential actions. -(으)면서 connects simultaneous ones."},
+]},
+
+// ── L5: -기로 하다 (Deciding To) ──
+{id:"kou12l5",title:"-기로 하다",icon:"✋",xp:22,board:true,steps:[
+{type:"intro",title:"Making Decisions",desc:"-기로 하다\n→ decide to\n\nHow to express decisions and plans.\nCommit to an action.",goals:["Use -기로 하다 to express decisions","Distinguish decided plans from wishes","Talk about hobby decisions","Use past tense: -기로 했어요"]},
+{type:"teach",nl:"-기로 하다",en:"to decide to",phonetic:"-gi-ro ha-da",note:"Verb stem + 기로 하다.\n가기로 했어요 = I decided to go.\n-기 nominalizes the verb.",kind:"grammar",deepDive:"Structure breakdown:\n-기 = nominalizer (turns verb into noun)\n-로 = by means of, toward\n하다 = to do\n\nLiterally: 'do it in the direction of [verb-ing]'\n= decide to [verb]\n\nAlmost always used in past tense:\n-기로 했어요 = decided to"},
+{type:"tip",title:"Decision vs Wish",text:"-기로 했어요 = I decided to (firm plan)\n-고 싶어요 = I want to (just a wish)\n-(으)ㄹ 거예요 = I will (general plan)\n\n등산하기로 했어요.\n= I decided to go hiking. (committed)\n\n등산하고 싶어요.\n= I want to go hiking. (just wanting)\n\n등산할 거예요.\n= I'm going to go hiking. (planned)"},
+{type:"mc",q:"한국어를 배우기로 했어요 means:",opts:["I decided to learn Korean","I want to learn Korean","I'm learning Korean now","I learned Korean"],ans:"I decided to learn Korean",hint:"-기로 했어요 = decided to. A firm decision was made."},
+{type:"fb",s:"내일부터 운동하{1} 했어요.",a:"기로",opts:["기로","고","면서","지만"],hint:"I ___ to exercise starting tomorrow. A decision was made."},
+{type:"mc",q:"등산하기로 했어요 vs 등산하고 싶어요. Which is a firm plan?",opts:["등산하기로 했어요","등산하고 싶어요","Both are equally firm","Neither is a plan"],ans:"등산하기로 했어요",hint:"-기로 했어요 = decided. -고 싶어요 = want. Deciding is firmer."},
+{type:"fb",s:"주말에 친구하고 요리{1} 했어요.",a:"하기로",opts:["하기로","하면서","하고","해서"],hint:"I decided to cook with my friend on the weekend."},
+{type:"mc",q:"같이 영화 보기로 했어요 means:",opts:["We decided to watch a movie together","We watched a movie together","We want to watch a movie","We are watching a movie"],ans:"We decided to watch a movie together",hint:"-기로 했어요 = decided to. 같이 = together."},
+{type:"teach",nl:"시작하다",en:"to start, to begin",phonetic:"si-jak-ha-da",note:"COMPOUND: 시(begin/始) + 작(make/作).\nBegin-make = start.",kind:"verb"},
+{type:"teach",nl:"그만두다",en:"to quit, to stop",phonetic:"geu-man-du-da",note:"그만 (stop) + 두다 (put).\nPut a stop to it.",kind:"verb"},
+{type:"fb",s:"담배를 {1} 했어요.",a:"그만두기로",opts:["그만두기로","그만두면서","그만두고","시작하기로"],hint:"I decided to QUIT smoking."},
+{type:"mc",q:"새로운 취미를 시작하기로 했어요. This person:",opts:["Decided to start a new hobby","Is thinking about hobbies","Quit their old hobby","Started a new hobby already"],ans:"Decided to start a new hobby",hint:"-기로 했어요 = the decision has been made. Starting hasn't happened yet."},
+{type:"drag_fill",s:"올해부터 매일 {1} 했어요. 건강이 중요해요.",blanks:{"1":"운동하기로"},pool:["운동하기로","운동하면서","운동하고","운동해서"],hint:"I decided to exercise every day from this year. Health is important."},
+{type:"match",pairs:[{nl:"-기로 했어요",en:"decided to"},{nl:"-고 싶어요",en:"want to"},{nl:"-(으)ㄹ 거예요",en:"will, going to"},{nl:"-고 있어요",en:"am doing (progressive)"}]},
+{type:"mc",q:"다음 달에 제주도에 가기로 했어요. I ___.",opts:["decided to go to Jeju next month","went to Jeju last month","am going to Jeju now","want to go to Jeju someday"],ans:"decided to go to Jeju next month",hint:"다음 달 = next month. -기로 했어요 = decided to."},
+]},
+
+// ── L6: -는 편이다 (Tendency) ──
+{id:"kou12l6",title:"-는 편이다",icon:"📈",xp:22,board:true,steps:[
+{type:"intro",title:"Expressing Tendencies",desc:"-는 편이다\n→ tend to, on the ... side\n\nSoften statements about habits.\nKorean speakers prefer indirect expression.",goals:["Use -는 편이다 for tendencies","Soften strong statements","Describe your hobby preferences","Understand Korean indirectness"]},
+{type:"teach",nl:"-는 편이다",en:"tend to, on the ... side",phonetic:"-neun pyeon-i-da",note:"Verb stem + -는 편이에요.\nAdjective stem + -(으)ㄴ 편이에요.\n운동하는 편이에요 = I tend to exercise.",kind:"grammar",deepDive:"Why Koreans use this:\n\nDirect: 저는 많이 먹어요. (I eat a lot.)\nSofter: 저는 많이 먹는 편이에요. (I tend to eat a lot.)\n\n편 literally means 'side.'\nYou're saying 'I'm on the [verb] side.'\nThis is less absolute and more polite.\n\nKorean communication values indirectness.\n-는 편이다 is one of many softening tools."},
+{type:"tip",title:"Verbs vs Adjectives",text:"For verbs: stem + -는 편이에요\n먹다 → 먹는 편이에요 (tend to eat)\n운동하다 → 운동하는 편이에요 (tend to exercise)\n\nFor adjectives: stem + -(으)ㄴ 편이에요\n크다 → 큰 편이에요 (on the big side)\n작다 → 작은 편이에요 (on the small side)\n조용하다 → 조용한 편이에요 (on the quiet side)"},
+{type:"mc",q:"저는 운동하는 편이에요 means:",opts:["I tend to exercise","I exercise every day","I don't exercise","I like exercise"],ans:"I tend to exercise",hint:"-는 편이에요 softens. You're 'on the exercising side' but not absolute."},
+{type:"fb",s:"저는 요리{1} 편이에요.",a:"하는",opts:["하는","한","하면서","하기로"],hint:"I tend to cook. For verbs, use -는 편이에요."},
+{type:"mc",q:"이 산은 높은 편이에요 means:",opts:["This mountain is on the high side","This mountain is the highest","This mountain is high","This mountain isn't high"],ans:"This mountain is on the high side",hint:"높은 편이에요 = on the high side. Softened, not absolute."},
+{type:"fb",s:"한국 음식은 매운 {1}이에요.",a:"편",opts:["편","것","때","말"],hint:"Korean food tends to be spicy. On the spicy ___."},
+{type:"mc",q:"Which is softer/more indirect?",opts:["저는 조용한 편이에요","저는 조용해요","저는 매우 조용해요","저는 항상 조용해요"],ans:"저는 조용한 편이에요",hint:"-ㄴ 편이에요 softens the statement. All others are direct."},
+{type:"teach",nl:"활발하다",en:"to be active, lively",phonetic:"hwal-bal-ha-da",note:"COMPOUND: 활(lively/活) + 발(develop/發).\n활발한 편이에요 = I tend to be active.",kind:"adjective"},
+{type:"teach",nl:"내성적이다",en:"to be introverted",phonetic:"nae-seong-jeok-i-da",note:"COMPOUND: 내(inner/內) + 성(nature/性) + 적(like).\nInner-nature-like = introverted.",kind:"adjective"},
+{type:"mc",q:"저는 내성적인 편이에요. This person is saying:",opts:["I'm somewhat introverted","I'm very introverted","I'm not introverted","I'm extroverted"],ans:"I'm somewhat introverted",hint:"-ㄴ 편이에요 = on the ... side. It's softened, not absolute."},
+{type:"drag_fill",s:"저는 등산을 {1} 편이에요. 주말마다 산에 가요.",blanks:{"1":"좋아하는"},pool:["좋아하는","좋아한","좋아하기","좋아해서"],hint:"I tend to like hiking. I go to the mountains every weekend. For verbs: -는 편이에요."},
+{type:"match",pairs:[{nl:"먹는 편이에요",en:"I tend to eat"},{nl:"큰 편이에요",en:"on the big side"},{nl:"조용한 편이에요",en:"on the quiet side"},{nl:"운동하는 편이에요",en:"I tend to exercise"}]},
+{type:"fb",s:"저는 활발{1} 편이에요. 등산도 하고 운동도 해요.",a:"한",opts:["한","하는","하면서","해서"],hint:"I'm on the active side. 활발하다 is an adjective. Adjectives take -(으)ㄴ."},
+{type:"mc",q:"'I tend to read a lot' in Korean:",opts:["많이 읽는 편이에요","많이 읽은 편이에요","많이 읽어 편이에요","많이 읽기 편이에요"],ans:"많이 읽는 편이에요",hint:"읽다 is a verb. Verbs take -는 편이에요."},
+]},
+
+// ── L7: 한국 취미 문화 (Korean Hobby Culture) ──
+{id:"kou12l7",title:"한국 취미 문화",icon:"⛰️",xp:20,board:true,steps:[
+{type:"intro",title:"Korean Hobby Culture",desc:"등산\n→ Korea's National Pastime\n\nHow Koreans spend free time.\nFrom mountains to singing rooms.",goals:["Learn about Korean leisure culture","Understand 등산 as national pastime","Know about PC방, 노래방, 찜질방","Discuss hobbies using new grammar"]},
+{type:"tip",title:"등산: More Than a Hobby",text:"Over 30% of Koreans hike regularly.\nKorea has mountains everywhere.\n\nHiking etiquette:\n- Full gear (등산복) is expected\n- Greet fellow hikers: 안녕하세요!\n- Rest stops sell 막걸리 and 파전\n- Dawn hikes (새벽 등산) are popular",deepDive:"Why hiking is so popular:\n\n1. Geography: 70% of Korea is mountains\n2. Accessibility: trails near every city\n3. Social: hiking clubs (등산회) are everywhere\n4. Health: Korean health consciousness\n5. Tradition: mountains are sacred in Korean culture\n\n한라산 (Hallasan, Jeju) and\n설악산 (Seoraksan, Gangwon) are\nthe most famous hiking destinations."},
+{type:"teach",nl:"등산복",en:"hiking clothes",phonetic:"deung-san-bok",note:"COMPOUND: 등산(hiking) + 복(clothes/服).\nKoreans dress head-to-toe in hiking gear.",kind:"noun"},
+{type:"teach",nl:"동호회",en:"club, hobby group",phonetic:"dong-ho-hoe",note:"COMPOUND: 동(same/同) + 호(like/好) + 회(group/會).\nSame-interest-group = club.",kind:"noun"},
+{type:"mc",q:"등산복 means:",opts:["Hiking clothes","Mountain top","Trail map","Hiking boots"],ans:"Hiking clothes",hint:"등산 = hiking, 복 (服) = clothes."},
+{type:"tip",title:"방 (Room) Culture",text:"Korean leisure often happens in 방:\n\nPC방 = internet cafe (gaming)\n노래방 = singing room (karaoke)\n찜질방 = spa/bathhouse\n만화방 = comic book cafe\n\n방 literally means 'room.'\nThese are social spaces, not just businesses.",deepDive:"PC방 culture:\n- Open 24 hours\n- Popular for online gaming\n- Snacks and ramyeon available\n- Many students go after school\n\n찜질방 culture:\n- Wear provided clothing (찜질복)\n- Multiple temperature rooms\n- Sleep overnight (cheap accommodation)\n- Eat 식혜 (sweet rice drink) and eggs"},
+{type:"teach",nl:"만화",en:"comics, manga",phonetic:"man-hwa",note:"COMPOUND: 만(random/漫) + 화(picture/畫).\n만화방 = comic book cafe.",kind:"noun"},
+{type:"mc",q:"찜질방 is:",opts:["A spa/bathhouse","A singing room","A gaming cafe","A comic shop"],ans:"A spa/bathhouse",hint:"찜질 = steaming/heating treatment. 방 = room."},
+{type:"fb",s:"주말에 친구하고 노래{1}에 가기로 했어요.",a:"방",opts:["방","집","점","관"],hint:"I decided to go to a karaoke ___ with my friend on the weekend."},
+{type:"mc",q:"동호회 literally means:",opts:["Same-interest group","Sports team","School club","Study group"],ans:"Same-interest group",hint:"동(same) + 호(like/interest) + 회(group/meeting)."},
+{type:"drag_fill",s:"저는 등산{1} 편이에요. 주말마다 등산{2}에서 같이 가요.",blanks:{"1":"하는","2":"회"},pool:["하는","하면서","하기로","회","방","복"],hint:"I tend to hike. I go together with my hiking club every weekend."},
+{type:"match",pairs:[{nl:"PC방",en:"internet/gaming cafe"},{nl:"노래방",en:"karaoke room"},{nl:"찜질방",en:"spa/bathhouse"},{nl:"만화방",en:"comic book cafe"}]},
+{type:"mc",q:"한국에서 가장 인기 있는 야외 취미는 뭐예요?",opts:["등산","축구","수영","자전거"],ans:"등산",hint:"30% of Koreans do this regularly. Mountains are everywhere."},
+{type:"fb",s:"한국 사람들은 등산{1} 좋아해요. 등산{2} 한국의 국민 취미예요.",a:"을",opts:["을","를","이","가"],hint:"등산 ends in a consonant (ㄴ). Object marker after consonant?"},
+]},
+
+// ── L8: ★ ㅅ 불규칙 HARVEST Batch 4 ──
+{id:"kou12l8",title:"★ ㅅ 불규칙",icon:"🔧",xp:24,board:true,steps:[
+{type:"intro",title:"ㅅ-Irregular Verbs",desc:"짓다\n→ to build\n\n짓 + 어요 = 지어요 (not 짓어요)\n\nThe ㅅ drops before vowel endings.\nBatch 4 of irregular families.",goals:["Understand ㅅ-irregular pattern","Conjugate 짓다, 낫다, 붓다, 잇다","Know when ㅅ drops","Compare with regular ㅅ stems"]},
+{type:"tip",title:"Irregular Family Progress",text:"You've learned 4 of 5 families:\n\n1. ㄷ-irregular (U7): ㄷ → ㄹ before vowels\n2. ㅂ-irregular (U7): ㅂ → 우 before vowels\n3. ㄹ/으-irregular (U9): special patterns\n4. ㅎ-irregular (U11): ㅎ drops, vowel changes\n\nNow: ㅅ-irregular\nㅅ drops completely before vowel endings.\n짓 + 어요 → 지어요",deepDive:"Regular vs ㅅ-irregular:\n\nRegular ㅅ: 씻다 (wash) → 씻어요\nThe ㅅ STAYS.\n\nIrregular ㅅ: 짓다 (build) → 지어요\nThe ㅅ DROPS.\n\nYou have to memorize which are irregular.\nMost common ㅅ-irregulars:\n짓다, 낫다, 붓다, 잇다, 젓다"},
+{type:"teach",nl:"짓다",en:"to build, to make (name/house)",phonetic:"jit-da",note:"ㅅ-IRREGULAR.\n짓 + 어요 → 지어요 (ㅅ drops).\n집을 지어요 = I build a house.",kind:"verb",deepDive:"짓다 has multiple meanings:\n\n1. Build: 집을 짓다 (build a house)\n2. Name: 이름을 짓다 (name/create a name)\n3. Make (expression): 표정을 짓다\n4. Compose: 시를 짓다 (write a poem)\n\nAll use the same ㅅ-irregular pattern."},
+{type:"teach",nl:"낫다",en:"to get better, to heal",phonetic:"nat-da",note:"ㅅ-IRREGULAR.\n낫 + 아요 → 나아요 (ㅅ drops).\n감기가 나아요 = The cold gets better.",kind:"verb"},
+{type:"teach",nl:"붓다",en:"to swell, to pour",phonetic:"but-da",note:"ㅅ-IRREGULAR.\n붓 + 어요 → 부어요 (ㅅ drops).\n눈이 부어요 = My eyes are swollen.",kind:"verb"},
+{type:"teach",nl:"잇다",en:"to connect, to continue",phonetic:"it-da",note:"ㅅ-IRREGULAR.\n잇 + 어요 → 이어요 (ㅅ drops).\n이야기를 이어요 = Continue the story.",kind:"verb"},
+{type:"mc",q:"짓다 (build): 짓 + 어요 = ?",opts:["지어요","짓어요","짓아요","짓해요"],ans:"지어요",hint:"ㅅ-irregular: the ㅅ drops before vowel endings. 짓 → 지 + 어요."},
+{type:"mc",q:"낫다 (heal): 낫 + 아요 = ?",opts:["나아요","낫아요","나서요","낫해요"],ans:"나아요",hint:"ㅅ drops. 낫 → 나 + 아요 = 나아요."},
+{type:"fb",s:"감기가 {1}. 이제 괜찮아요.",a:"나아요",opts:["나아요","낫아요","나요","낫해요"],hint:"The cold is getting better. 낫다 is ㅅ-irregular."},
+{type:"mc",q:"Which is a REGULAR ㅅ verb (ㅅ does NOT drop)?",opts:["씻다 (wash)","짓다 (build)","낫다 (heal)","붓다 (swell)"],ans:"씻다 (wash)",hint:"씻다 → 씻어요 (ㅅ stays). The others are ㅅ-irregular."},
+{type:"fb",s:"새 집을 {1}.",a:"지어요",opts:["지어요","짓어요","짓아요","짓해요"],hint:"I'm building a new house. 짓다 is ㅅ-irregular."},
+{type:"mc",q:"붓다 (swell): 붓 + 어요 = ?",opts:["부어요","붓어요","부세요","붓해요"],ans:"부어요",hint:"ㅅ drops. 붓 → 부 + 어요 = 부어요."},
+{type:"teach",nl:"씻다",en:"to wash",phonetic:"ssit-da",note:"REGULAR ㅅ verb.\n씻 + 어요 → 씻어요 (ㅅ stays).\nNot all ㅅ verbs are irregular!",kind:"verb"},
+{type:"mc",q:"씻다 vs 짓다: What's the difference?",opts:["씻다 is regular (ㅅ stays), 짓다 is irregular (ㅅ drops)","Both are irregular","Both are regular","씻다 is irregular, 짓다 is regular"],ans:"씻다 is regular (ㅅ stays), 짓다 is irregular (ㅅ drops)",hint:"씻어요 (ㅅ stays) vs 지어요 (ㅅ drops)."},
+{type:"drag_fill",s:"감기가 {1}. 다리는 아직 {2}.",blanks:{"1":"나아요","2":"부어요"},pool:["나아요","부어요","낫아요","붓어요","지어요"],hint:"The cold is getting better. My leg is still swollen. Both ㅅ-irregular."},
+{type:"match",pairs:[{nl:"짓다 → 지어요",en:"build (ㅅ drops)"},{nl:"낫다 → 나아요",en:"heal (ㅅ drops)"},{nl:"붓다 → 부어요",en:"swell (ㅅ drops)"},{nl:"씻다 → 씻어요",en:"wash (regular)"}]},
+{type:"fb",s:"이야기를 {1}. 계속해 주세요.",a:"이어요",opts:["이어요","잇어요","잇아요","이세요"],hint:"Continue the story. 잇다 is ㅅ-irregular: ㅅ drops."},
+{type:"mc",q:"All 5 irregular families you've learned:",opts:["ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ","ㄷ, ㅂ, ㅎ, ㅅ, ㄹ","ㄱ, ㄴ, ㄷ, ㅂ, ㅅ","ㅂ, ㅅ, ㅈ, ㅎ, ㄹ"],ans:"ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ",hint:"U7: ㄷ+ㅂ, U9: ㄹ/으, U11: ㅎ, U12: ㅅ. One more left: 르."},
+]},
+
+// ── L9: 취미 대화 (Hobby Conversations) ──
+{id:"kou12l9",title:"취미 대화",icon:"💬",xp:22,board:true,steps:[
+{type:"intro",title:"Hobby Conversations",desc:"Putting it all together.\n\nCompare, decide, multitask, and soften.\nReal hobby conversations.",goals:["Use all Unit 12 grammar in context","Have natural hobby discussions","Combine comparison + tendency + decision","Practice ㅅ-irregular in context"]},
+{type:"tip",title:"Sample Hobby Conversation",text:"A: 취미가 뭐예요?\nB: 저는 등산을 좋아하는 편이에요.\n\nA: 등산이 운동보다 더 좋아요?\nB: 네, 등산하면서 사진도 찍어요.\n\nA: 저도 등산하기로 했어요!\nB: 같이 가요! 주말에 등산회가 있어요."},
+{type:"mc",q:"취미가 뭐예요? 저는 음악을 듣는 편이에요. This person:",opts:["Tends to listen to music as a hobby","Listens to music every day without exception","Doesn't like music","Just started listening to music"],ans:"Tends to listen to music as a hobby",hint:"-는 편이에요 = tend to. It's a softened statement."},
+{type:"fb",s:"요리{1} 운동이 더 재미있어요.",a:"보다",opts:["보다","하고","에서","까지"],hint:"Exercise is more fun THAN cooking."},
+{type:"mc",q:"등산하면서 음악을 들어요. 등산하기로 했어요. Which is the decision?",opts:["등산하기로 했어요","등산하면서 음악을 들어요","Both are decisions","Neither is a decision"],ans:"등산하기로 했어요",hint:"-기로 했어요 = decided to. -(으)면서 = while doing."},
+{type:"fb",s:"새 취미를 시작{1} 했어요. 사진이에요!",a:"하기로",opts:["하기로","하면서","해서","하는"],hint:"I decided to start a new hobby. Photography!"},
+{type:"drag_fill",s:"저는 요리{1} 편이에요. 요리{2} 음악을 들어요.",blanks:{"1":"하는","2":"하면서"},pool:["하는","하면서","하기로","해서","하고"],hint:"I tend to cook. I listen to music while cooking."},
+{type:"mc",q:"이 동호회가 가장 인기 있어요. 가장 means:",opts:["most","more","less","very"],ans:"most",hint:"가장 = superlative. The most popular."},
+{type:"fb",s:"집을 {1}. 큰 집이에요.",a:"지어요",opts:["지어요","짓어요","짓아요","지세요"],hint:"I'm building a house. 짓다 is ㅅ-irregular."},
+{type:"mc",q:"Match: 저는 활발한 편이에요. 등산보다 운동을 더 좋아해요. This person:",opts:["Tends to be active and likes exercise more than hiking","Is very active and hates hiking","Tends to be quiet","Likes hiking the most"],ans:"Tends to be active and likes exercise more than hiking",hint:"-ㄴ 편이에요 = tend to be. 등산보다 운동 = exercise more than hiking."},
+{type:"drag_fill",s:"노래방{1} PC방이 {2} 재미있어요. 그래서 PC방에 {3} 했어요.",blanks:{"1":"보다","2":"더","3":"가기로"},pool:["보다","더","가기로","가면서","가는","덜"],hint:"PC방 is more fun than 노래방. So I decided to go to PC방."},
+{type:"match",pairs:[{nl:"-보다 더",en:"more than"},{nl:"-(으)면서",en:"while doing"},{nl:"-기로 했어요",en:"decided to"},{nl:"-는 편이에요",en:"tend to"}]},
+{type:"fb",s:"감기가 {1}. 이제 등산할 수 있어요!",a:"나아요",opts:["나아요","낫아요","나요","낫해요"],hint:"My cold is getting better. 낫다 is ㅅ-irregular."},
+{type:"mc",q:"제일 좋아하는 취미가 뭐예요? 제일 means:",opts:["most (casual)","more","less","very"],ans:"most (casual)",hint:"제일 = 가장. Both mean 'most.' 제일 is more casual."},
+]},
+
+// ── L10: 복습 + 퀴즈 ──
+{id:"kou12l10",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 12 Review",desc:"Review all hobby vocabulary and grammar.\n\n-보다/가장, -(으)면서, -기로 하다, -는 편이다, ㅅ-irregular.",goals:["Review all Unit 12 vocabulary","Test comparison grammar","Apply all 4 new patterns","Prove ㅅ-irregular mastery"]},
+{type:"mc",q:"'Photography is more fun than reading' in Korean:",opts:["독서보다 사진이 더 재미있어요","사진보다 독서가 더 재미있어요","독서하고 사진이 재미있어요","사진이 독서보다 덜 재미있어요"],ans:"독서보다 사진이 더 재미있어요",hint:"-보다 goes on the lesser item. Reading is less fun, so 독서보다."},
+{type:"fb",s:"음악을 들{1} 산책해요.",a:"으면서",opts:["으면서","면서","고","어서"],hint:"I walk while listening to music. 듣다 is ㄷ-irregular: 듣 → 들. 들 ends in consonant ㄹ."},
+{type:"mc",q:"내일부터 매일 독서하기로 했어요 means:",opts:["I decided to read every day starting tomorrow","I read every day already","I want to read tomorrow","I will read one book"],ans:"I decided to read every day starting tomorrow",hint:"-기로 했어요 = decided to. 내일부터 = from tomorrow. 매일 = every day."},
+{type:"fb",s:"저는 조용한 {1}이에요. 독서를 좋아해요.",a:"편",opts:["편","것","때","중"],hint:"I'm on the quiet ___. 편 = side."},
+{type:"mc",q:"짓다 → 지어요. Why does ㅅ drop?",opts:["짓다 is ㅅ-irregular","All ㅅ verbs drop ㅅ","짓다 is ㄷ-irregular","It's a spelling rule"],ans:"짓다 is ㅅ-irregular",hint:"Only ㅅ-IRREGULAR verbs drop ㅅ. Regular ones like 씻다 keep it."},
+{type:"match",pairs:[{nl:"취미",en:"hobby"},{nl:"등산",en:"hiking"},{nl:"동호회",en:"club/group"},{nl:"등산복",en:"hiking clothes"}]},
+{type:"drag_fill",s:"등산{1} 요리가 {2} 쉬워요. 하지만 저는 등산{3} 편이에요.",blanks:{"1":"보다","2":"더","3":"하는"},pool:["보다","더","하는","하면서","덜","한"],hint:"Cooking is easier than hiking. But I tend to hike."},
+{type:"mc",q:"PC방, 노래방, 찜질방, 만화방. 방 means:",opts:["Room","Fun","Game","Place"],ans:"Room",hint:"All these places end in 방 = room."},
+{type:"fb",s:"다리가 아직 {1}. 등산 못 해요.",a:"부어요",opts:["부어요","붓어요","부세요","붓아요"],hint:"My leg is still swollen. 붓다 is ㅅ-irregular."},
+{type:"mc",q:"Which pair are synonyms?",opts:["가장 and 제일","더 and 덜","보다 and 하고","크다 and 작다"],ans:"가장 and 제일",hint:"Both mean 'most' (superlative). 가장 is slightly more formal."},
+{type:"mc",q:"'I decided to join a hiking club' =",opts:["등산회에 가입하기로 했어요","등산회에 가면서 했어요","등산회가 좋은 편이에요","등산회보다 더 좋아요"],ans:"등산회에 가입하기로 했어요",hint:"-기로 했어요 = decided to. 가입하다 = to join."},
+{type:"drag_fill",s:"커피를 {1} 독서하는 편이에요. 커피{2} 차가 {3} 좋아요.",blanks:{"1":"마시면서","2":"보다","3":"더"},pool:["마시면서","보다","더","마시고","에서","덜"],hint:"I tend to read while drinking coffee. I like tea more than coffee."},
+{type:"mc",q:"가장 좋아하는 취미: 1위 등산, 2위 운동, 3위 독서. 등산이 가장 인기 있어요 because:",opts:["가장 = most, and 등산 is ranked #1","가장 = less, and 등산 is least popular","가장 = second, middle rank","가장 = third"],ans:"가장 = most, and 등산 is ranked #1",hint:"가장 means 'most.' 등산 is #1 = most popular."},
+]},
+
+]},
+
 ];
