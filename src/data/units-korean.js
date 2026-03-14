@@ -4387,4 +4387,165 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 19 — 한국에서 산 지 1년 (Evidential & Complex) — B1.2
+// Grammar: ★ -더라고요 HARVEST (kou10l7 seed), -ㄴ/는 지 (duration/since),
+//          -(으)ㄹ 수록 (the more...the more), register switching
+// Cultural anchor: Relationships, 정 culture
+// Prerequisite: U18 (nominalization, modifiers)
+// ═══════════════════════════════════════════════════════════
+{n:19,lang:"ko",track:"v2",title:"한국에서 산 지 1년",sub:"Evidential & Complex Patterns",icon:"💫",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 관계 어휘 (Relationship Vocabulary) ──
+{id:"kou19l1",title:"관계 어휘",icon:"❤️",xp:22,board:true,steps:[
+{type:"intro",title:"Relationships in Korean",desc:"관계\n→ relationship\n\nKorean relationships are defined\nby age, closeness, and context.",goals:["Learn 8 relationship words","Understand Korean relationship terms","Talk about social connections","Use relationship vocabulary naturally"]},
+{type:"teach",nl:"관계",en:"relationship, relation",phonetic:"gwan-gye",note:"COMPOUND: 관(relate/關) + 계(connect/係).\nRelate-connect = relationship.",kind:"noun"},
+{type:"teach",nl:"사이",en:"relationship, between",phonetic:"sa-i",note:"The space/relationship between people.\n사이가 좋다 = have a good relationship.\n사이가 나쁘다 = have a bad relationship.",kind:"noun"},
+{type:"teach",nl:"정",en:"affection, bond (Korean concept)",phonetic:"jeong",note:"Uniquely Korean concept.\nDeep emotional bond formed over time.\n정이 들다 = grow attached.\n정이 많다 = warm/affectionate person.",kind:"noun",deepDive:"정 (jeong) is untranslatable:\n\nIt's deeper than 'love' or 'friendship.'\nIt develops through shared experience.\n\n정이 들다 = attachment grows\n정이 떨어지다 = attachment fades\n정이 많다 = very warm/caring person\n미운 정 고운 정 = love-hate bond\n\n정 explains why Koreans:\n- Stay at jobs they dislike (직장 정)\n- Maintain difficult relationships\n- Share food from one plate\n- Feel sad leaving any place"},
+{type:"teach",nl:"소개팅",en:"blind date (arranged introduction)",phonetic:"so-gae-ting",note:"소개(introduction) + 팅(dating, from 미팅).\nFriend arranges a date between two people.\nVery common in Korea.",kind:"noun"},
+{type:"teach",nl:"연애하다",en:"to date, to be in a relationship",phonetic:"yeon-ae-ha-da",note:"COMPOUND: 연(connect/緣) + 애(love/愛).\nConnect-love = romantic relationship.",kind:"verb"},
+{type:"teach",nl:"헤어지다",en:"to break up",phonetic:"he-eo-ji-da",note:"헤어지다 = to part, separate.\n여자친구하고 헤어졌어요.\n= I broke up with my girlfriend.",kind:"verb"},
+{type:"teach",nl:"사귀다",en:"to date, to go out with",phonetic:"sa-gwi-da",note:"사귀어요 = I'm dating.\n누구하고 사귀어요? = Who are you dating?\n만나다 is also used (to see someone).",kind:"verb"},
+{type:"teach",nl:"결혼하다",en:"to get married",phonetic:"gyeol-hon-ha-da",note:"COMPOUND: 결(bind/結) + 혼(marriage/婚).\nBind-marriage = to marry.",kind:"verb"},
+{type:"mc",q:"정 is a uniquely Korean concept meaning:",opts:["Deep emotional bond formed over time","Romantic love","Friendship only","Business relationship"],ans:"Deep emotional bond formed over time",hint:"정 is deeper than love or friendship. It develops through shared experience."},
+{type:"match",pairs:[{nl:"사귀다",en:"to date"},{nl:"헤어지다",en:"to break up"},{nl:"결혼하다",en:"to get married"},{nl:"소개팅",en:"blind date"}]},
+{type:"mc",q:"소개팅 is:",opts:["A blind date arranged by friends","A dating app","A wedding ceremony","A relationship counselor"],ans:"A blind date arranged by friends",hint:"소개(introduction) + 팅(dating). A friend introduces two people."},
+{type:"fb",s:"사이가 {1} 친구가 많아요.",a:"좋은",opts:["좋은","나쁜","큰","작은"],hint:"I have many friends I have a ___ relationship with. Good."},
+{type:"mc",q:"정이 들다 means:",opts:["To grow attached/fond of","To fall in love instantly","To break up","To get married"],ans:"To grow attached/fond of",hint:"정 grows over time. 들다 = to enter/form. Attachment forms gradually."},
+{type:"drag_fill",s:"한국에서 오래 살면 {1}이 들어요. 떠나기 {2}.",blanks:{"1":"정","2":"싫어요"},pool:["정","싫어요","좋아요","관계","어려워요"],hint:"If you live in Korea a long time, 정 grows. You don't want to leave."},
+{type:"fb",s:"2년 {1}고 결혼했어요.",a:"사귀",opts:["사귀","연애하","만나","헤어지"],hint:"We dated for 2 years and got married."},
+]},
+
+// ── L2: ★ -더라고요 HARVEST ──
+{id:"kou19l2",title:"★ -더라고요",icon:"🌾",xp:26,board:true,steps:[
+{type:"intro",title:"Harvesting -더라고요",desc:"You've been seeing -더라고요 since Unit 10.\n\n한국 음식이 맛있더라고요.\n→ I found that Korean food is delicious.\n\nReport what YOU personally experienced.",goals:["Master -더라고요 for personal experience","Distinguish from -네요 (surprise)","Use for sharing discoveries","Build natural experiential statements"]},
+{type:"tip",title:"-더라고요: 'I Noticed/Found That...'",text:"-더라고요 reports YOUR past experience:\n\n한국 음식이 맛있더라고요.\n= I found that Korean food is delicious.\n(I experienced it and I'm telling you.)\n\nVerb stem + -더라고요\nAdj stem + -더라고요\n\nPast observation: -았/었더라고요\n한국에 갔었는데 재미있었더라고요.\n= I went to Korea and it was fun.",deepDive:"-더라고요 vs -네요:\n\n-네요: in-the-moment discovery\n맛있네요! (Oh, it's delicious! Right now.)\n\n-더라고요: recounting past discovery\n맛있더라고요. (I found it was delicious. Telling you later.)\n\nKey difference: TIME.\n-네요 = experiencing NOW.\n-더라고요 = recalling PAST experience.\n\nBoth are from direct experience.\n-더라고요 is you retelling it.\n-네요 is you reacting to it."},
+{type:"mc",q:"한국 사람들이 친절하더라고요 means:",opts:["I found that Koreans are kind (personal experience)","Koreans are kind (general fact)","I heard Koreans are kind (hearsay)","Are Koreans kind? (question)"],ans:"I found that Koreans are kind (personal experience)",hint:"-더라고요 = I personally experienced/noticed this and I'm reporting it to you."},
+{type:"fb",s:"한국어가 생각보다 재미있{1}.",a:"더라고요",opts:["더라고요","네요","거든요","는데요"],hint:"I found Korean is more fun than I thought. Recounting past experience."},
+{type:"mc",q:"-더라고요 vs -네요: You're eating NOW and it's delicious. Which ending?",opts:["-네요 (in-the-moment reaction)","더라고요 (recalling past)","Both work equally","Neither works"],ans:"-네요 (in-the-moment reaction)",hint:"You're experiencing it RIGHT NOW. -네요. If you tell someone later: -더라고요."},
+{type:"fb",s:"서울이 정말 크{1}. 처음 갔을 때 놀랐어요.",a:"더라고요",opts:["더라고요","네요","거든요","는데요"],hint:"Seoul was really big, I found. I was surprised when I first went."},
+{type:"mc",q:"Which is -더라고요 (not -네요)?",opts:["어제 먹었는데 맛있더라고요 (ate yesterday, found it delicious)","지금 먹는데 맛있네요 (eating now, it's delicious!)","Both are -더라고요","Both are -네요"],ans:"어제 먹었는데 맛있더라고요 (ate yesterday, found it delicious)",hint:"-더라고요 = past experience retold. -네요 = current experience in the moment."},
+{type:"tip",title:"Common -더라고요 Patterns",text:"A: 한국 어때요?\nB: 사람들이 친절하더라고요.\n(I found the people are kind.)\n\nA: 그 식당 어땠어요?\nB: 음식이 맛있더라고요.\n(I found the food was delicious.)\n\nA: 한국어 공부 어때요?\nB: 생각보다 어렵더라고요.\n(I found it harder than expected.)"},
+{type:"fb",s:"한국에서 살아 보니까 정이 들{1}.",a:"더라고요",opts:["더라고요","네요","었어요","거든요"],hint:"Living in Korea, I found that 정 grows. Past personal experience shared."},
+{type:"mc",q:"겨울에 한국이 춥더라고요. The speaker:",opts:["Experienced cold Korean winters and is telling someone about it","Is cold right now","Heard Korea is cold","Thinks Korea will be cold"],ans:"Experienced cold Korean winters and is telling someone about it",hint:"-더라고요 = first-hand past experience retold. The speaker actually felt the cold."},
+{type:"drag_fill",s:"A: 한국 생활 어때요?\nB: 처음에는 힘들었는데, 지금은 재미있{1}.",blanks:{"1":"더라고요"},pool:["더라고요","네요","거든요","어요","는데요"],hint:"A: How's life in Korea? B: It was hard at first, but now I find it fun."},
+{type:"match",pairs:[{nl:"-더라고요",en:"I found that... (past experience)"},{nl:"-네요",en:"Oh! (in-the-moment)"},{nl:"-거든요",en:"you see... (new info)"},{nl:"-군요",en:"I see (realization)"}]},
+{type:"fb",s:"한국 사람들은 정이 많{1}. 정말 따뜻해요.",a:"더라고요",opts:["더라고요","네요","아요","거든요"],hint:"I found that Koreans have a lot of 정. They're really warm."},
+{type:"mc",q:"생각보다 한국어가 쉽더라고요 means:",opts:["I found Korean easier than expected","Korean is easy","I think Korean will be easy","Korean was easy (simple past)"],ans:"I found Korean easier than expected",hint:"-더라고요 = personal discovery. 생각보다 = more than expected."},
+]},
+
+// ── L3: -ㄴ/는 지 (Duration/Since) ──
+{id:"kou19l3",title:"-ㄴ/는 지",icon:"⏰",xp:24,board:true,steps:[
+{type:"intro",title:"How Long Since...",desc:"한국에서 산 지 1년 됐어요.\n→ It's been 1 year since I lived in Korea.\n\nExpress duration since an event.",goals:["Use -ㄴ 지 for 'since' expressions","Express how long ago something happened","Combine with time words","Build natural duration sentences"]},
+{type:"teach",nl:"-ㄴ/은 지",en:"since (time duration)",phonetic:"-n/eun ji",note:"Past modifier + 지 + time + 되다.\n온 지 3일 됐어요.\n= It's been 3 days since I came.\n\n지 = a point in time.\n되다 = become/pass.",kind:"grammar",deepDive:"Full pattern:\nVerb past modifier + 지 + duration + 되다\n\n한국에 온 지 1년 됐어요.\n= It's been 1 year since I came to Korea.\n\n밥 먹은 지 3시간 됐어요.\n= It's been 3 hours since I ate.\n\n사귄 지 2년 됐어요.\n= It's been 2 years since we started dating.\n\nThe 되다 shows how much time has passed\nsince the action."},
+{type:"mc",q:"한국에 온 지 1년 됐어요 means:",opts:["It's been 1 year since I came to Korea","I will come to Korea in 1 year","I came to Korea 1 year ago (and left)","Korea is 1 year old"],ans:"It's been 1 year since I came to Korea",hint:"-ㄴ 지 + time + 되다 = it's been [time] since [action]."},
+{type:"fb",s:"한국어를 배운 {1} 6개월 됐어요.",a:"지",opts:["지","때","후","전"],hint:"It's been 6 months since I started learning Korean. -ㄴ 지 for duration."},
+{type:"mc",q:"밥 먹은 지 3시간 됐어요 means:",opts:["It's been 3 hours since I ate","I ate for 3 hours","I will eat in 3 hours","I eat every 3 hours"],ans:"It's been 3 hours since I ate",hint:"-ㄴ 지 + duration + 되다 = time elapsed since the action."},
+{type:"fb",s:"사귄 {1} 2년 됐어요. 곧 결혼할 거예요.",a:"지",opts:["지","때","후","까지"],hint:"It's been 2 years since we started dating. We'll get married soon."},
+{type:"mc",q:"졸업한 지 5년 됐어요. This person graduated:",opts:["5 years ago (and time has passed since)","5 years from now","In 5 years of school","5 times"],ans:"5 years ago (and time has passed since)",hint:"-ㄴ 지 + 5년 됐어요 = 5 years have passed since graduating."},
+{type:"teach",nl:"얼마나",en:"how much, how long",phonetic:"eol-ma-na",note:"Question word for amount/duration.\n얼마나 됐어요? = How long has it been?\n얼마나 걸려요? = How long does it take?",kind:"adverb"},
+{type:"fb",s:"한국에 온 {1} 얼마나 됐어요?",a:"지",opts:["지","때","후","부터"],hint:"How long has it been since you came to Korea?"},
+{type:"mc",q:"결혼한 지 얼마나 됐어요? is asking:",opts:["How long have you been married?","When will you get married?","Are you married?","Who did you marry?"],ans:"How long have you been married?",hint:"-ㄴ 지 얼마나 됐어요 = how long since [action]?"},
+{type:"drag_fill",s:"A: 한국어 배운 {1} 얼마나 됐어요?\nB: {2} 지 1년 됐어요.",blanks:{"1":"지","2":"배운"},pool:["지","배운","배우는","때","후에"],hint:"A: How long since you started learning Korean? B: It's been 1 year since I started."},
+{type:"match",pairs:[{nl:"온 지 1년",en:"1 year since coming"},{nl:"만난 지 3개월",en:"3 months since meeting"},{nl:"시작한 지 2주",en:"2 weeks since starting"},{nl:"헤어진 지 6개월",en:"6 months since breaking up"}]},
+{type:"fb",s:"이 회사에서 일한 {1} 10년 됐어요.",a:"지",opts:["지","때","후","동안"],hint:"It's been 10 years since I started working at this company."},
+]},
+
+// ── L4: -(으)ㄹ수록 (The More... The More) ──
+{id:"kou19l4",title:"-(으)ㄹ수록",icon:"📈",xp:22,board:true,steps:[
+{type:"intro",title:"The More... The More...",desc:"-(으)ㄹ수록\n→ the more... the more...\n\n알면 알수록 재미있어요.\n→ The more I know, the more fun it is.",goals:["Use -(으)ㄹ수록 pattern","Build 'the more X, the more Y' sentences","Combine with relationship vocabulary","Express growing feelings"]},
+{type:"teach",nl:"-(으)ㄹ수록",en:"the more... (the more...)",phonetic:"-(eu)l-su-rok",note:"Verb/adj stem + (으)ㄹ수록.\n알수록 = the more you know.\n갈수록 = as it goes on.\n\n알면 알수록 = the more you know.",kind:"grammar",deepDive:"Common pattern: V면 V(으)ㄹ수록\n\n알면 알수록 = the more you know\n보면 볼수록 = the more you see\n먹으면 먹을수록 = the more you eat\n\nThe repeated verb emphasizes\nthe progressive increase.\n\n갈수록 = as it goes on (as time passes)\nis a very common fixed expression.\n갈수록 좋아져요 = it gets better over time."},
+{type:"mc",q:"알면 알수록 좋아해요 means:",opts:["The more I know, the more I like it","I know and I like it","If I know, I like it","I knew and liked it"],ans:"The more I know, the more I like it",hint:"V면 V(으)ㄹ수록 = the more V, the more... Progressive increase."},
+{type:"fb",s:"한국어를 배우{1} 배울수록 재미있어요.",a:"면",opts:["면","는데","어서","거든"],hint:"The more I learn Korean, the more fun it is. V면 V(으)ㄹ수록."},
+{type:"mc",q:"갈수록 한국이 좋아져요 means:",opts:["As time goes on, I like Korea more","I went to Korea and liked it","I'll go to Korea if I like it","Korea goes well"],ans:"As time goes on, I like Korea more",hint:"갈수록 = as it goes on. A fixed expression for gradual change over time."},
+{type:"fb",s:"만나{1} 만날수록 정이 들어요.",a:"면",opts:["면","고","어서","는데"],hint:"The more we meet, the more 정 grows."},
+{type:"mc",q:"먹으면 먹을수록 맛있어요 means:",opts:["The more I eat, the more delicious it gets","I eat because it's delicious","Eating is delicious","If I eat, it's delicious"],ans:"The more I eat, the more delicious it gets",hint:"V면 V(으)ㄹ수록 = the more I V, the more..."},
+{type:"teach",nl:"갈수록",en:"as time goes on, increasingly",phonetic:"gal-su-rok",note:"Fixed expression from 가다 + -(으)ㄹ수록.\nAs things go on = increasingly.\n갈수록 어려워요 = it gets harder.",kind:"adverb"},
+{type:"fb",s:"한국에 살{1} 살수록 정이 들어요.",a:"면",opts:["면","는데","어서","지만"],hint:"The more I live in Korea, the more 정 grows."},
+{type:"drag_fill",s:"{1} 한국어가 {2}.",blanks:{"1":"갈수록","2":"쉬워져요"},pool:["갈수록","쉬워져요","갈수","어려워요","알수록"],hint:"As time goes on, Korean gets easier."},
+{type:"match",pairs:[{nl:"알면 알수록",en:"the more you know"},{nl:"보면 볼수록",en:"the more you see"},{nl:"갈수록",en:"increasingly"},{nl:"만나면 만날수록",en:"the more you meet"}]},
+{type:"mc",q:"사람은 알면 알수록 좋아지는 거예요. This means:",opts:["The more you get to know a person, the more you like them","People are always good","If you know them, they're good","You should know more people"],ans:"The more you get to know a person, the more you like them",hint:"알면 알수록 + 좋아지다 = the more you know, the better they become."},
+{type:"fb",s:"한국 음식은 먹으{1} 먹을수록 맛있어요.",a:"면",opts:["면","는데","어서","지만"],hint:"The more you eat Korean food, the more delicious it gets."},
+]},
+
+// ── L5: 레지스터 전환 (Register Switching) ──
+{id:"kou19l5",title:"레지스터 전환",icon:"🎭",xp:24,board:true,steps:[
+{type:"intro",title:"Switching Between Registers",desc:"Same person, different speech levels.\n\nKoreans switch registers constantly\ndepending on who they're talking to.",goals:["Understand register switching","Practice switching 반말/해요체/합쇼체","Know when to switch","Apply in relationship contexts"]},
+{type:"tip",title:"Three Registers Review",text:"반말 (casual): 가, 먹어, 해\n→ Close friends, younger people\n\n해요체 (polite): 가요, 먹어요, 해요\n→ Default, most situations\n\n합쇼체 (formal): 갑니다, 먹습니다, 합니다\n→ News, presentations, military, very formal\n\nKoreans switch between these\nmultiple times per day.\n상사에게: 합쇼체\n동료에게: 해요체\n친구에게: 반말",deepDive:"Register switching in real life:\n\nMorning: wake up\n엄마에게: 잘 잤어요? (해요체)\n 동생에게: 일어나! (반말)\n\nAt work:\n 상사에게: 보고서 제출하겠습니다. (합쇼체)\n 동료에게: 커피 마시러 갈래요? (해요체)\n 후배에게: 이거 해 줘. (반말)\n\nWith friends:\n 밥 먹자! 어디 갈까? (반말)\n\nOn the phone with a customer:\n 네, 알겠습니다. (합쇼체)"},
+{type:"mc",q:"You talk to your boss, then your friend. Your speech changes from:",opts:["합쇼체/존댓말 → 반말","반말 → 합쇼체","No change needed","해요체 → 합쇼체"],ans:"합쇼체/존댓말 → 반말",hint:"Boss gets formal/honorific. Friend gets casual. Switch instantly."},
+{type:"fb",s:"상사에게: 보고서 제출{1}.",a:"하겠습니다",opts:["하겠습니다","할게","해요","해"],hint:"To boss: I will submit the report. Formal 합쇼체."},
+{type:"mc",q:"Same sentence in 반말: '보고서 제출하겠습니다' →",opts:["보고서 제출할게","보고서 제출합니다","보고서를 제출하겠습니다","보고서 제출해요"],ans:"보고서 제출할게",hint:"반말 of 하겠습니다 → 할게. Casual promise."},
+{type:"fb",s:"친구에게: 밥 먹{1}!",a:"자",opts:["자","읍시다","어요","습니다"],hint:"To friend: Let's eat! 반말 suggestion → -자."},
+{type:"mc",q:"Same suggestion in 합쇼체: '밥 먹자' →",opts:["식사하시겠습니까?","밥 먹읍시다","밥 먹자요","밥 먹습니다"],ans:"밥 먹읍시다",hint:"반말 -자 → 합쇼체 -(으)ㅂ시다. Let's eat (formally)."},
+{type:"tip",title:"When 반말 Starts",text:"In Korean relationships:\n\n처음 만났을 때: 존댓말 (always)\n나이 확인 후: possibly 반말\n\n'말 놓으세요' = Please speak casually.\n'반말해도 돼요?' = Can I use 반말?\n\nSwitching to 반말 is a BIG moment.\nIt signals closeness and trust.\nNever switch without permission."},
+{type:"mc",q:"'말 놓으세요' means:",opts:["Please speak casually (drop the formality)","Please be quiet","Please speak more formally","Please speak slowly"],ans:"Please speak casually (drop the formality)",hint:"말 놓다 = put down speech/formality. Permission to use casual speech."},
+{type:"fb",s:"반말{1} 돼요? 우리 나이가 같으니까.",a:"해도",opts:["해도","하면","해야","하려고"],hint:"May I use casual speech? Since we're the same age."},
+{type:"match",pairs:[{nl:"합쇼체 (formal)",en:"갑니다 / 먹습니다"},{nl:"해요체 (polite)",en:"가요 / 먹어요"},{nl:"반말 (casual)",en:"가 / 먹어"},{nl:"존댓말 (honorific)",en:"가세요 / 드세요"}]},
+{type:"drag_fill",s:"상사에게: 감사{1}.\n친구에게: 고마{2}.",blanks:{"1":"합니다","2":"워"},pool:["합니다","워","해요","요","드려요"],hint:"To boss: Thank you (formal). To friend: Thanks (casual)."},
+{type:"mc",q:"A Korean person switches from 해요체 to 반말 with you. This means:",opts:["They feel closer to you now","They're being rude","They forgot how to speak politely","They're angry"],ans:"They feel closer to you now",hint:"Switching to 반말 signals growing closeness and comfort."},
+]},
+
+// ── L6: 정 문화 (Korean 정 Culture) ──
+{id:"kou19l6",title:"정 문화",icon:"🫂",xp:20,board:true,steps:[
+{type:"intro",title:"Understanding 정",desc:"정 is Korea's most important\nemotional concept.\n\nDeep bonds that transcend\nlogic and convenience.",goals:["Deeply understand 정 culture","See how 정 affects daily life","Express 정 using new grammar","Connect 정 to language learning"]},
+{type:"tip",title:"정 in Daily Life",text:"정 examples:\n\n직장 정: staying at a bad job because\nyou've bonded with colleagues.\n\n동네 정: feeling sad when your\nneighborhood changes.\n\n음식 정: loving food because of who\nmade it, not just the taste.\n\n미운 정 고운 정: love-hate relationship\nwhere both positive and negative\nfeelings create deep bonds.",deepDive:"정 and Korean language learning:\n\nWhy Koreans share food:\n정 is built through sharing.\nRefusing shared food can be rude.\n\nWhy Koreans ask personal questions:\n나이, 결혼, 직업 are asked early\nbecause 정 requires knowing someone.\n\nWhy Koreans give unsolicited advice:\n정 makes them care about you.\nAdvice = showing they care.\n\nKorean language itself carries 정:\n어머, 아이고, 그래그래 are sounds\nof emotional connection."},
+{type:"mc",q:"미운 정 고운 정 describes:",opts:["A love-hate bond where both feelings create deep attachment","Only positive feelings","Only negative feelings","No feelings at all"],ans:"A love-hate bond where both feelings create deep attachment",hint:"미운 = ugly/hateful. 고운 = beautiful/kind. Both create 정."},
+{type:"fb",s:"한국에 살면 살수록 {1}이 들어요.",a:"정",opts:["정","관심","사랑","취미"],hint:"The more you live in Korea, the more ___ grows. The untranslatable bond."},
+{type:"mc",q:"A Korean asks your age and marital status on first meeting. This is:",opts:["Normal in Korean culture (building 정 through knowing each other)","Very rude","Only for dating","Only at work"],ans:"Normal in Korean culture (building 정 through knowing each other)",hint:"Personal questions help establish the relationship framework (나이, 관계)."},
+{type:"teach",nl:"아이고",en:"oh my, oh dear (exclamation)",phonetic:"a-i-go",note:"Korean emotional exclamation.\nExpresses sympathy, surprise, frustration.\n아이고, 힘들었겠다! = Oh my, that must have been hard!",kind:"exclamation"},
+{type:"fb",s:"{1}, 많이 힘들었겠다! 괜찮아요?",a:"아이고",opts:["아이고","대박","꿀잼","ㅋㅋ"],hint:"Oh my, that must have been hard! Are you okay? Emotional exclamation of sympathy."},
+{type:"mc",q:"A Korean coworker brings you food 'because they made too much.' Really:",opts:["They made it for you (showing 정)","They genuinely made too much","They don't want the food","It's a business transaction"],ans:"They made it for you (showing 정)",hint:"Sharing food is a classic way to express 정 in Korean culture."},
+{type:"match",pairs:[{nl:"정이 들다",en:"grow attached"},{nl:"정이 많다",en:"warm/caring person"},{nl:"미운 정 고운 정",en:"love-hate bond"},{nl:"말 놓다",en:"drop formality"}]},
+{type:"drag_fill",s:"한국 사람들은 {1}이 많{2}. 음식도 나눠 먹고 마음도 나눠요.",blanks:{"1":"정","2":"더라고요"},pool:["정","더라고요","네요","거든요","관계"],hint:"I found Koreans have a lot of 정. They share food and feelings."},
+{type:"mc",q:"한국어를 알면 알수록 정이 들더라고요. Three grammar points:",opts:["-(으)ㄹ수록 (the more), 정이 들다 (attachment), -더라고요 (I found)","Only one grammar point","Only -더라고요","Only -(으)ㄹ수록"],ans:"-(으)ㄹ수록 (the more), 정이 들다 (attachment), -더라고요 (I found)",hint:"The more I know Korean, the more attached I became, I found. Three layers."},
+]},
+
+// ── L7: 복합 대화 (Complex Conversations) ──
+{id:"kou19l7",title:"복합 대화",icon:"💬",xp:22,board:true,steps:[
+{type:"intro",title:"Complex Conversations",desc:"Combine all Unit 19 grammar\nin natural relationship conversations.",goals:["Use all Unit 19 patterns naturally","Layer -더라고요 + -(으)ㄹ수록 + -ㄴ 지","Practice register switching","Build fluent complex Korean"]},
+{type:"mc",q:"한국에 온 지 1년 됐는데, 갈수록 좋아지더라고요. How many grammar points?",opts:["Three: -ㄴ 지 (since), 갈수록 (increasingly), -더라고요 (I found)","One","Two","Four"],ans:"Three: -ㄴ 지 (since), 갈수록 (increasingly), -더라고요 (I found)",hint:"Since coming + as time goes on + I found. Three layers of complex grammar."},
+{type:"fb",s:"한국에서 산 {1} 3년 됐어요.",a:"지",opts:["지","때","후","동안"],hint:"It's been 3 years since I lived in Korea. -ㄴ 지 for duration."},
+{type:"mc",q:"사람은 만나면 만날수록 좋아져요. This wisdom says:",opts:["The more you meet someone, the more you like them","You should meet many people","Meeting is better than not meeting","People are always likeable"],ans:"The more you meet someone, the more you like them",hint:"만나면 만날수록 = the more you meet. Progressive increase in liking."},
+{type:"fb",s:"한국어가 어렵{1}. 하지만 갈수록 재미있어요.",a:"더라고요",opts:["더라고요","네요","어요","거든요"],hint:"I found Korean is hard. But it gets more fun over time."},
+{type:"drag_fill",s:"한국에 온 {1} 1년 됐어요. 알면 {2} 좋은 나라{3}.",blanks:{"1":"지","2":"알수록","3":"더라고요"},pool:["지","알수록","더라고요","네요","거든요"],hint:"It's been 1 year since I came. The more you know, the better country it is, I found."},
+{type:"match",pairs:[{nl:"-ㄴ 지 + 되다",en:"it's been [time] since"},{nl:"-(으)ㄹ수록",en:"the more..."},{nl:"-더라고요",en:"I found that..."},{nl:"갈수록",en:"increasingly"}]},
+{type:"mc",q:"친구에게 반말해도 되냐고 물어봤어요. Three things here:",opts:["반말 (casual speech), -아/어도 되다 (permission), -냐고 (reported question)","Only reported question","Only permission","Only 반말"],ans:"반말 (casual speech), -아/어도 되다 (permission), -냐고 (reported question)",hint:"Asked (reported question) if it's OK (permission) to use casual speech (반말)."},
+{type:"fb",s:"친구를 사귄 {1} 5년 됐어요. 이제 가족 같아요.",a:"지",opts:["지","때","후","동안"],hint:"It's been 5 years since I started dating my friend. Now they're like family."},
+{type:"drag_fill",s:"처음에 한국어가 어려{1}. 하지만 배우{2} 배울수록 재미있{3}.",blanks:{"1":"웠는데","2":"면","3":"더라고요"},pool:["웠는데","면","더라고요","어서","네요"],hint:"At first Korean was hard. But the more I learned, the more fun I found it."},
+]},
+
+// ── L8: B1 문법 종합 (B1 Grammar Overview) ──
+{id:"kou19l8",title:"B1 문법 종합",icon:"📊",xp:22,board:true,steps:[
+{type:"intro",title:"B1 Grammar Overview",desc:"All the grammar you've learned in B1.\n\nFrom Unit 11 to Unit 19.\nPrepare for the final review.",goals:["Review all B1 grammar patterns","See the big picture","Identify your strengths","Prepare for Unit 20 assessment"]},
+{type:"tip",title:"B1 Grammar Map",text:"U11: -아/어 봤어요, -고 있다, -(으)ㄹ 줄 알다\nU12: -보다, 가장, -(으)면서, -기로 하다, -는 편이다\nU13: -는데, -거든요, -네요, -군요\nU14: -아/어야 하다, -(으)면 안 되다, -아/어도 되다, -(으)려고\nU15: -아/어 주다, -게 되다, -고 싶어하다\nU16: -(ㄴ)다고, -냐고, -(으)라고, -자고, -(으)시-\nU17: Passive, Causative, -았/었었\nU18: -기 nom, -는 것, Modifiers\nU19: -더라고요, -ㄴ 지, -(으)ㄹ수록"},
+{type:"mc",q:"Which unit taught passive voice?",opts:["Unit 17 (뉴스를 봤어요)","Unit 14 (해야 돼요)","Unit 11 (여행 가요!)","Unit 16 (뭐라고 했어요?)"],ans:"Unit 17 (뉴스를 봤어요)",hint:"Passive (-이/히/리/기) and causative were in Unit 17."},
+{type:"fb",s:"한국에 온 {1} 1년 됐어요. Unit 19 grammar.",a:"지",opts:["지","때","후","동안"],hint:"-ㄴ 지 for duration since an event. Unit 19."},
+{type:"mc",q:"Which pair is from Unit 13?",opts:["-는데 and -거든요","-(으)면서 and -보다","-아/어야 하다 and -(으)려고","-다고 and -냐고"],ans:"-는데 and -거든요",hint:"Unit 13: Connectors and nuance. -는데 (background), -거든요 (new info reason)."},
+{type:"match",pairs:[{nl:"-아/어 주다 (U15)",en:"do for someone"},{nl:"-게 되다 (U15)",en:"come to / end up"},{nl:"-더라고요 (U19)",en:"I found that..."},{nl:"-았/었었 (U17)",en:"used to (discontinued)"}]},
+{type:"mc",q:"All 6 irregular families were completed in which unit?",opts:["Unit 13 (르-irregular, final batch)","Unit 17","Unit 11","Unit 12"],ans:"Unit 13 (르-irregular, final batch)",hint:"ㄷ(U7), ㅂ(U7), ㄹ/으(U9), ㅎ(U11), ㅅ(U12), 르(U13). All complete by U13."},
+{type:"fb",s:"한국어를 배우{1} 배울수록 재미있어요. Unit 19 grammar.",a:"면",opts:["면","는데","어서","지만"],hint:"-(으)ㄹ수록: the more I learn, the more fun it is."},
+{type:"mc",q:"-기 nominalization vs -는 것:",opts:["-기 for abstract/fixed patterns, -는 것 for specific/versatile","Exactly the same","Only -기 exists","Only -는 것 exists"],ans:"-기 for abstract/fixed patterns, -는 것 for specific/versatile",hint:"-기 전에 (before), -기 쉽다 (easy to). -는 것 = what I do/did/will do."},
+{type:"drag_fill",s:"B1 완료! 이제 25+ 문법 패턴을 알{1} 됐{2}.",blanks:{"1":"게","2":"어요"},pool:["게","어요","면","는데","거든요"],hint:"B1 complete! Now I've come to know 25+ grammar patterns. -게 되다."},
+{type:"mc",q:"How many seed harvests were completed in B1?",opts:["All 12 seeds from A1-A2","6 seeds","3 seeds","None"],ans:"All 12 seeds from A1-A2",hint:"Every grammar concept planted in A1-A2 has been harvested in B1."},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou19l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 19 Review",desc:"Review evidential, duration, and complexity.\n\n-더라고요, -ㄴ 지, -(으)ㄹ수록.",goals:["Review -더라고요","Test -ㄴ 지 duration","Apply -(으)ㄹ수록","Prepare for B1 final assessment"]},
+{type:"mc",q:"맛있더라고요 vs 맛있네요:",opts:["Past experience retold vs in-the-moment discovery","Both present tense","Both past tense","Same meaning"],ans:"Past experience retold vs in-the-moment discovery",hint:"-더라고요 = telling someone about past experience. -네요 = reacting now."},
+{type:"fb",s:"한국에 온 {1} 2년 됐어요.",a:"지",opts:["지","때","후","동안"],hint:"It's been 2 years since I came to Korea. -ㄴ 지 for duration."},
+{type:"mc",q:"알면 알수록 좋아요 means:",opts:["The more you know, the better","If you know, it's good","When you know, it's good","You know it's good"],ans:"The more you know, the better",hint:"V면 V(으)ㄹ수록 = the more V, the more..."},
+{type:"match",pairs:[{nl:"정",en:"deep emotional bond"},{nl:"소개팅",en:"blind date"},{nl:"사귀다",en:"to date"},{nl:"헤어지다",en:"to break up"}]},
+{type:"fb",s:"한국 사람들이 친절하{1}.",a:"더라고요",opts:["더라고요","네요","거든요","어요"],hint:"I found Koreans are kind. Past experience retold."},
+{type:"mc",q:"정이 들더라고요 means:",opts:["I found that I grew attached","I'm growing attached right now","I will grow attached","Attachment is gone"],ans:"I found that I grew attached",hint:"-더라고요 = past experience. 정이 들다 = grow attached."},
+{type:"drag_fill",s:"한국어를 배운 {1} 1년 됐는데, 갈수록 재미있{2}.",blanks:{"1":"지","2":"더라고요"},pool:["지","더라고요","네요","거든요","어서"],hint:"It's been 1 year since I started learning Korean, and I find it increasingly fun."},
+{type:"fb",s:"만나{1} 만날수록 좋은 사람이에요.",a:"면",opts:["면","는데","어서","지만"],hint:"The more you meet them, the better person they are."},
+{type:"mc",q:"Register switching: same sentence in 반말 vs 합쇼체:",opts:["가 vs 갑니다","가요 vs 가","갑니다 vs 가요","All the same"],ans:"가 vs 갑니다",hint:"반말 가 → 합쇼체 갑니다. Casual to very formal."},
+{type:"match",pairs:[{nl:"-더라고요",en:"I found (past experience)"},{nl:"-ㄴ 지 + 되다",en:"it's been [time] since"},{nl:"-(으)ㄹ수록",en:"the more..."},{nl:"갈수록",en:"increasingly"}]},
+{type:"mc",q:"한국에서 산 지 얼마나 됐어요? is asking:",opts:["How long have you been living in Korea?","Where do you live in Korea?","Do you live in Korea?","When will you move to Korea?"],ans:"How long have you been living in Korea?",hint:"-ㄴ 지 얼마나 됐어요 = how long since... Duration question."},
+{type:"drag_fill",s:"정이 {1} 한국을 떠나기 {2}.",blanks:{"1":"들어서","2":"싫어요"},pool:["들어서","싫어요","들면","좋아요","싫은데"],hint:"Because 정 has formed, I don't want to leave Korea."},
+]},
+
+]},
+
 ];
