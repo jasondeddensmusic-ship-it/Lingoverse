@@ -3363,4 +3363,181 @@ export default [
 
 ]},
 
+// ═══════════════════════════════════════════════════════════
+// UNIT 13 — 그런데 말이에요... (Connectors & Nuance) — B1.1
+// Grammar: ★ -는데 HARVEST (kou8l8 seed), ★ -거든요 HARVEST (kou9l5 seed),
+//          ★ -네요 HARVEST (kou7l4 seed), 르-irregular Batch 5 (FINAL)
+// Cultural anchor: 눈치 culture, indirect communication
+// Prerequisite: U12 (comparison, tendency, -(으)면서)
+// ═══════════════════════════════════════════════════════════
+{n:13,lang:"ko",track:"v2",title:"그런데 말이에요...",sub:"Connectors & Nuance",icon:"🔗",level:"B1",color:"#7B5EE8",lessons:[
+
+// ── L1: 연결어 어휘 (Connector Vocabulary) ──
+{id:"kou13l1",title:"연결어 어휘",icon:"🔗",xp:22,board:true,steps:[
+{type:"intro",title:"Connecting Ideas",desc:"그런데\n→ but, by the way\n\nKorean has rich connectors.\nThey show relationships between ideas.",goals:["Learn 8 common connectors","Understand nuances between similar connectors","Build complex sentences","Prepare for grammar harvests"]},
+{type:"teach",nl:"그런데",en:"but, by the way, however",phonetic:"geu-reon-de",note:"Sentence connector. Starts a new sentence.\nContrast or topic change.\n그런데 is often shortened to 근데.",kind:"connector",deepDive:"그런데 has two uses:\n\n1. Contrast: '...but...'\n한국어는 어려워요. 그런데 재미있어요.\nKorean is hard. But it's fun.\n\n2. Topic shift: 'by the way...'\n그런데 내일 시간 있어요?\nBy the way, are you free tomorrow?"},
+{type:"teach",nl:"그래서",en:"so, therefore",phonetic:"geu-rae-seo",note:"Cause → result connector.\n비가 와요. 그래서 집에 있어요.\nIt's raining. So I'm staying home.",kind:"connector"},
+{type:"teach",nl:"그러면",en:"then, in that case",phonetic:"geu-reo-myeon",note:"Conditional connector.\n시간 있어요? 그러면 같이 가요.\nDo you have time? Then let's go together.\nOften shortened to 그럼.",kind:"connector"},
+{type:"teach",nl:"그래도",en:"still, nevertheless",phonetic:"geu-rae-do",note:"Concessive connector.\n비가 와요. 그래도 나가요.\nIt's raining. Still, I'm going out.",kind:"connector"},
+{type:"teach",nl:"그리고",en:"and, also",phonetic:"geu-ri-go",note:"Additive connector.\n커피를 마셔요. 그리고 케이크도 먹어요.\nI drink coffee. And I eat cake too.",kind:"connector"},
+{type:"teach",nl:"그러니까",en:"so, that's why (emphasis)",phonetic:"geu-reo-ni-kka",note:"Stronger than 그래서.\nEmphasizes the logical conclusion.\n그러니까 빨리 가야 해요!\nSo (that's why) we need to go fast!",kind:"connector"},
+{type:"teach",nl:"하지만",en:"but, however (written)",phonetic:"ha-ji-man",note:"More formal/written than 그런데.\n하지만 포기하지 않아요.\nHowever, I don't give up.",kind:"connector"},
+{type:"teach",nl:"아니면",en:"or, otherwise",phonetic:"a-ni-myeon",note:"아니 (no) + 면 (if).\nLiterally: 'if not.'\n커피 마실래요? 아니면 차?\nWant coffee? Or tea?",kind:"connector"},
+{type:"mc",q:"비가 와요. {___} 집에 있어요. (It's raining. SO I stay home.)",opts:["그래서","그런데","그래도","하지만"],ans:"그래서",hint:"Rain causes staying home. Which connector shows cause → result?"},
+{type:"mc",q:"비가 와요. {___} 나가요. (It's raining. STILL, I go out.)",opts:["그래도","그래서","그러면","그러니까"],ans:"그래도",hint:"Despite the rain, going out. Which connector means 'nevertheless'?"},
+{type:"match",pairs:[{nl:"그래서",en:"so, therefore"},{nl:"그런데",en:"but, by the way"},{nl:"그래도",en:"still, nevertheless"},{nl:"그러면",en:"then, in that case"}]},
+{type:"fb",s:"시간 있어요? {1} 같이 영화 봐요.",a:"그러면",opts:["그러면","그래서","그런데","그래도"],hint:"Do you have time? THEN let's watch a movie together. Conditional."},
+{type:"mc",q:"그런데 is often shortened to:",opts:["근데","그래","그럼","근"],ans:"근데",hint:"그런데 → 근데. Very common in casual speech."},
+{type:"fb",s:"한국어 어려워요. {1} 재미있어요!",a:"그런데",opts:["그런데","그래서","그러니까","그러면"],hint:"Korean is hard. BUT it's fun! Contrast connector."},
+{type:"match",pairs:[{nl:"그리고",en:"and, also"},{nl:"하지만",en:"but, however"},{nl:"아니면",en:"or, otherwise"},{nl:"그러니까",en:"so, that's why"}]},
+{type:"drag_fill",s:"비가 많이 와요. {1} 우산이 없어요. {2} 택시를 타요.",blanks:{"1":"그런데","2":"그래서"},pool:["그런데","그래서","그래도","그러면","하지만"],hint:"It's raining a lot. BUT I don't have an umbrella. SO I take a taxi."},
+{type:"mc",q:"그래서 vs 그러니까. What's the difference?",opts:["그러니까 is stronger/more emphatic","그래서 is more formal","They're completely different meanings","그러니까 is used for contrast"],ans:"그러니까 is stronger/more emphatic",hint:"Both mean 'so/therefore.' 그러니까 adds emphasis: 'that's WHY!'"},
+]},
+
+// ── L2: ★ -는데 HARVEST ──
+{id:"kou13l2",title:"★ -는데/-ㄴ데",icon:"🌾",xp:26,board:true,steps:[
+{type:"intro",title:"Harvesting -는데",desc:"You've been seeing -는데 since Unit 8.\n\n맛있는데 비싸요.\n→ It's delicious, but it's expensive.\n\nTime to master this essential connector.",goals:["Master -는데 for background + contrast","Know verb vs adjective forms","Use -는데 for soft topic shifts","Build natural flowing sentences"]},
+{type:"tip",title:"-는데: The Swiss Army Knife",text:"-는데 is Korea's most versatile connector.\nIt sets up background for what follows.\n\nFor action verbs: stem + -는데\n먹는데 = eating, but.../while eating...\n\nFor adjectives: stem + -(으)ㄴ데\n큰데 = it's big, but.../being big...\n\nFor 이다 (copula): -인데\n학생인데 = being a student...",deepDive:"Three uses of -는데:\n\n1. Background + contrast:\n맛있는데 비싸요.\nIt's tasty, but expensive.\n\n2. Background + new info:\n한국 사람인데 김치를 안 좋아해요.\nI'm Korean, but I don't like kimchi.\n\n3. Soft question/request setup:\n시간 있는데 같이 갈래요?\nI have time. Want to go together?\n\nUnlike 그런데 (sentence connector),\n-는데 connects WITHIN a sentence."},
+{type:"mc",q:"맛있는데 비싸요 means:",opts:["It's tasty but expensive","It's tasty so it's expensive","It's tasty and cheap","I ate but it was expensive"],ans:"It's tasty but expensive",hint:"-는데 sets up background (tasty) then adds contrast (expensive)."},
+{type:"fb",s:"비가 오{1} 우산이 없어요.",a:"는데",opts:["는데","ㄴ데","인데","지만"],hint:"It's raining but I don't have an umbrella. 오다 is a verb, so -는데."},
+{type:"mc",q:"한국 사람인데 매운 음식을 못 먹어요. -인데 is used because:",opts:["이다 (copula) takes -인데","한국 is a noun","사람 is a person","매운 is spicy"],ans:"이다 (copula) takes -인데",hint:"[noun]이다 → [noun]인데. It's the copula form."},
+{type:"tip",title:"Verb vs Adjective Forms",text:"VERBS: stem + -는데\n가다 → 가는데 (going, but...)\n먹다 → 먹는데 (eating, but...)\n하다 → 하는데 (doing, but...)\n\nADJECTIVES: stem + -(으)ㄴ데\n크다 → 큰데 (big, but...)\n작다 → 작은데 (small, but...)\n좋다 → 좋은데 (good, but...)\n\nPAST: stem + -았/었는데\n갔는데 = went, but...\n먹었는데 = ate, but..."},
+{type:"fb",s:"이 가방은 예쁘{1} 비싸요.",a:"ㄴ데",opts:["ㄴ데","는데","인데","어서"],hint:"This bag is pretty but expensive. 예쁘다 is an adjective. Vowel stem → ㄴ데."},
+{type:"mc",q:"어제 영화를 봤는데 재미없었어요 means:",opts:["I watched a movie yesterday but it wasn't fun","I watched a fun movie yesterday","I want to watch a movie","I'm watching a movie but it's boring"],ans:"I watched a movie yesterday but it wasn't fun",hint:"-았/었는데 = past background. 재미없었어요 = wasn't fun."},
+{type:"fb",s:"학생{1} 한국어를 공부해요.",a:"인데",opts:["인데","는데","ㄴ데","이면"],hint:"I'm a student, and I study Korean. After 이다 copula, use -인데."},
+{type:"mc",q:"시간 있는데 같이 갈래요? The -는데 here is:",opts:["Setting up a soft request","Showing contrast","Expressing surprise","Showing cause"],ans:"Setting up a soft request",hint:"-는데 softly provides background before asking. Very natural in Korean."},
+{type:"drag_fill",s:"한국어를 배우{1} 정말 재미있어요. {2} 한자는 어려워요.",blanks:{"1":"는데","2":"그런데"},pool:["는데","ㄴ데","그런데","그래서","인데"],hint:"Learning Korean is really fun. But hanja is hard. First: within clause. Second: between sentences."},
+{type:"match",pairs:[{nl:"가는데",en:"going, but... (verb)"},{nl:"큰데",en:"big, but... (adjective)"},{nl:"학생인데",en:"being a student... (copula)"},{nl:"갔는데",en:"went, but... (past)"}]},
+{type:"fb",s:"이 식당은 맛있{1} 사람이 많아요.",a:"는데",opts:["는데","ㄴ데","인데","어서"],hint:"This restaurant is delicious, but it's crowded. 맛있다 conjugates like a VERB (-는데) even though it looks like an adjective."},
+{type:"mc",q:"좋은데 vs 좋는데. Which is correct for 좋다 (adjective)?",opts:["좋은데","좋는데","Both are correct","Neither"],ans:"좋은데",hint:"좋다 is an adjective. Adjectives take -(으)ㄴ데, not -는데."},
+{type:"mc",q:"-는데 vs -지만. Both mean 'but.' What's different?",opts:["-는데 is softer and more natural in speech","-지만 is more casual","-는데 is only for writing","No difference at all"],ans:"-는데 is softer and more natural in speech",hint:"-는데 provides background context. -지만 is more direct contrast."},
+]},
+
+// ── L3: 눈치 문화 (Reading the Room) ──
+{id:"kou13l3",title:"눈치 문화",icon:"👀",xp:20,board:true,steps:[
+{type:"intro",title:"The Art of 눈치",desc:"눈치\n→ social sense, reading the room\n\nKorea's most important social skill.\nWhy Korean connectors matter so much.",goals:["Understand 눈치 (social awareness)","Learn why indirect speech matters","See how connectors enable nuance","Practice reading between the lines"]},
+{type:"teach",nl:"눈치",en:"social sense, reading the room",phonetic:"nun-chi",note:"COMPOUND: 눈(eye/눈) + 치(measure/치).\nEye-measure = reading social cues.\n눈치가 빠르다 = good at reading the room.",kind:"noun",deepDive:"눈치 is arguably Korea's most important\nsocial concept.\n\n눈치가 빠르다 = quick 눈치 (socially sharp)\n눈치가 없다 = no 눈치 (socially clueless)\n눈치를 보다 = to observe/gauge the mood\n\nIn Korean culture, much communication is\nindirect. You're expected to 'read' what\nothers mean without them saying it directly."},
+{type:"teach",nl:"분위기",en:"atmosphere, mood",phonetic:"bun-wi-gi",note:"COMPOUND: 분(portion) + 위(surroundings) + 기(energy).\n분위기가 좋다 = good atmosphere.",kind:"noun"},
+{type:"teach",nl:"직접적",en:"direct, straightforward",phonetic:"jik-jeop-jeok",note:"직접 (direct) + 적 (-like suffix).\nKorean prefers indirect expression.",kind:"adjective"},
+{type:"teach",nl:"간접적",en:"indirect",phonetic:"gan-jeop-jeok",note:"간접 (indirect) + 적 (-like suffix).\nMost Korean communication is indirect.",kind:"adjective"},
+{type:"tip",title:"Why Korean Uses So Many Connectors",text:"Korean speakers prefer indirectness.\nInstead of saying 'no,' they might say:\n\n좋은데... (It's good, but...)\n그게... (Well, that thing is...)\n좀... (A bit...)\n\nConnectors like -는데, -거든요, -네요 help\nyou express things softly and leave room\nfor the listener to 'read' your meaning.",deepDive:"Examples of indirect refusal:\n\n직접: 안 돼요. (No.)\n간접: 좋은데 시간이 없어요. (It's good, but I don't have time.)\n\n직접: 싫어요. (I dislike it.)\n간접: 음... 좀 생각해 볼게요. (Hmm... let me think about it.)\n\nWhen a Korean says 좋은데...\nand trails off, they usually mean 'no.'\nThis is 눈치 in action."},
+{type:"mc",q:"눈치 literally means:",opts:["Eye-measure","Heart-sense","Mind-read","Word-feel"],ans:"Eye-measure",hint:"눈 = eye. 치 = measure. Measuring with your eyes = reading social cues."},
+{type:"mc",q:"눈치가 빠르다 describes someone who:",opts:["Reads social cues quickly","Speaks very fast","Has good eyesight","Is very honest"],ans:"Reads social cues quickly",hint:"빠르다 = fast. Fast 눈치 = quick at reading the room."},
+{type:"fb",s:"이 식당은 {1}가 좋아요. 다시 오고 싶어요.",a:"분위기",opts:["분위기","눈치","직접","간접"],hint:"This restaurant has a good ___. I want to come again. Atmosphere."},
+{type:"mc",q:"A friend says '좋은데...' and stops. Using 눈치, this probably means:",opts:["They're politely declining","They think it's great","They want more details","They're confused"],ans:"They're politely declining",hint:"Trailing off after 좋은데... is a classic indirect refusal. The -는데 leaves space."},
+{type:"match",pairs:[{nl:"눈치가 빠르다",en:"socially sharp"},{nl:"눈치가 없다",en:"socially clueless"},{nl:"직접적",en:"direct"},{nl:"간접적",en:"indirect"}]},
+{type:"mc",q:"Korean communication is generally more:",opts:["Indirect (간접적)","Direct (직접적)","Formal than informal","Written than spoken"],ans:"Indirect (간접적)",hint:"This is why connectors like -는데 are so important. They enable nuance."},
+{type:"fb",s:"눈치{1} 보다 = to observe the mood, gauge the atmosphere.",a:"를",opts:["를","가","에","는"],hint:"눈치 ends in a vowel (치). Object marker after vowel = 를."},
+{type:"drag_fill",s:"한국 사람들은 {1} 표현을 많이 해요. 그래서 {2}가 중요해요.",blanks:{"1":"간접적인","2":"눈치"},pool:["간접적인","직접적인","눈치","분위기","말"],hint:"Koreans express things indirectly. So 눈치 is important."},
+]},
+
+// ── L4: ★ -거든요 HARVEST ──
+{id:"kou13l4",title:"★ -거든요",icon:"🌾",xp:24,board:true,steps:[
+{type:"intro",title:"Harvesting -거든요",desc:"You've been seeing -거든요 since Unit 9.\n\n배가 아프거든요.\n→ You see, my stomach hurts.\n\nGive background reasons the listener didn't know.",goals:["Master -거든요 for explanations","Distinguish from -아/어서 (because)","Use for new information the listener needs","Build natural explanatory sentences"]},
+{type:"tip",title:"-거든요: 'You see, ...'",text:"-거든요 provides a reason the LISTENER\ndoesn't know yet.\n\nA: 왜 안 먹어요?\nB: 배가 아프거든요.\n(You see, my stomach hurts.)\n\nThe speaker gives background info\nthat explains their action.\n\nVerb/adj stem + -거든요\n가다 → 가거든요\n좋다 → 좋거든요\n학생이다 → 학생이거든요",deepDive:"-거든요 vs -아/어서 vs -니까:\n\n-아/어서: neutral cause-effect\n바빠서 못 가요. (I'm busy so I can't go.)\n\n-거든요: NEW info for the listener\n못 가요. 바쁘거든요. (I can't go. You see, I'm busy.)\n\n-니까: shared/known reason, emphasis\n바쁘니까 빨리 해요! (Since I'm busy, do it fast!)\n\nKey difference: with -거든요,\nthe reason comes AFTER the result.\nWith -아/어서, reason comes BEFORE."},
+{type:"mc",q:"오늘 못 가요. 바쁘거든요. The -거든요 tells us:",opts:["The listener didn't know the speaker was busy","Both already knew the speaker was busy","The speaker is asking why they're busy","The listener is busy too"],ans:"The listener didn't know the speaker was busy",hint:"-거든요 = 'you see...' Giving NEW information to explain."},
+{type:"fb",s:"한국어를 잘해요. 3년 배{1}.",a:"웠거든요",opts:["웠거든요","워서요","우면서","우는데"],hint:"I speak Korean well. You see, I learned for 3 years. New info for the listener."},
+{type:"mc",q:"Which is -거든요 (not -아/어서)?",opts:["늦어요. 길이 막히거든요.","길이 막혀서 늦어요.","막히면 늦어요.","막히는데 빨리 가요."],ans:"늦어요. 길이 막히거든요.",hint:"-거든요: result first, then reason (new info). -아/어서: reason first, then result."},
+{type:"fb",s:"못 먹어요. 매운 음식을 싫어하{1}.",a:"거든요",opts:["거든요","서요","는데","지만"],hint:"I can't eat it. You see, I don't like spicy food. Explanation the listener didn't know."},
+{type:"mc",q:"A: 한국어 잘하시네요! B: 한국에서 살았거든요. B is:",opts:["Explaining why (new info for A)","Agreeing with A","Asking a question","Changing the topic"],ans:"Explaining why (new info for A)",hint:"-거든요 explains. A didn't know B lived in Korea. B reveals this as the reason."},
+{type:"teach",nl:"그래서",en:"so, therefore",phonetic:"geu-rae-seo",note:"Already learned! Used here to contrast.\n-거든요 gives reason AFTER result.\n그래서 gives result AFTER reason.",kind:"connector"},
+{type:"fb",s:"이 식당 정말 맛있{1}. 제가 자주 와요.",a:"거든요",opts:["거든요","어요","으면","는데"],hint:"This restaurant is really delicious, you see. That's why I come often. New info."},
+{type:"mc",q:"Word order with -거든요 vs 그래서:\n-거든요: result, then reason.\n그래서: reason, then result.",opts:["Correct","Wrong, it's the opposite","Both have same order","Neither shows cause-effect"],ans:"Correct",hint:"못 가요. 바쁘거든요. (result → reason) vs 바빠요. 그래서 못 가요. (reason → result)."},
+{type:"drag_fill",s:"A: 왜 한국어 공부해요?\nB: 한국 드라마를 좋아하{1}.",blanks:{"1":"거든요"},pool:["거든요","어서","는데","으면"],hint:"A asks why. B gives the reason the listener didn't know yet: 'You see, I like K-dramas.'"},
+{type:"match",pairs:[{nl:"-거든요",en:"you see... (new info reason)"},{nl:"-아/어서",en:"because (neutral cause)"},{nl:"-니까",en:"since (known/emphasized)"},{nl:"-는데",en:"background + contrast"}]},
+{type:"fb",s:"오늘 일찍 왔어요. 약속이 있{1}.",a:"거든요",opts:["거든요","어요","으니까","는데"],hint:"I came early today. You see, I have an appointment. New info for the listener."},
+{type:"mc",q:"Pick the sentence where -거든요 is used correctly:",opts:["안 가요. 피곤하거든요.","피곤하거든요 안 가요.","피곤거든요 안 가요.","안 가거든요 피곤해요."],ans:"안 가요. 피곤하거든요.",hint:"Result first (안 가요), then reason with -거든요 (피곤하거든요). Separate sentences."},
+]},
+
+// ── L5: ★ -네요 HARVEST ──
+{id:"kou13l5",title:"★ -네요",icon:"🌾",xp:24,board:true,steps:[
+{type:"intro",title:"Harvesting -네요",desc:"You've been seeing -네요 since Unit 7.\n\n맛있네요!\n→ Oh, it's delicious!\n\nExpress genuine surprise or discovery.",goals:["Master -네요 for surprise/discovery","Know verb vs adjective attachment","Use naturally in reactions","Distinguish from -군요 (realization)"]},
+{type:"tip",title:"-네요: 'Oh, I see!'",text:"-네요 expresses surprise at something\nyou're experiencing RIGHT NOW.\n\nVerb stem + -네요\n오다 → 오네요 (Oh, someone's coming!)\n먹다 → 먹네요 (Oh, they're eating!)\n\nAdjective stem + -네요\n맛있다 → 맛있네요 (Oh, it's tasty!)\n크다 → 크네요 (Oh, it's big!)\n\nPast: -았/었네요\n왔네요 (Oh, they came!)",deepDive:"When to use -네요:\n\n1. Tasting food for the first time:\n이거 맛있네요! (Oh, this is delicious!)\n\n2. Seeing something unexpected:\n벌써 왔네요! (Oh, you came already!)\n\n3. Realizing something new:\n한국어 잘하시네요! (Oh, you speak Korean well!)\n\nKey: it must be based on DIRECT experience,\nnot hearsay. You saw/tasted/heard it yourself."},
+{type:"mc",q:"비가 오네요! The speaker is:",opts:["Surprised to see it's raining","Reporting rain from a forecast","Asking if it will rain","Hoping for rain"],ans:"Surprised to see it's raining",hint:"-네요 = real-time discovery. The speaker just noticed the rain."},
+{type:"fb",s:"이 케이크 정말 맛있{1}!",a:"네요",opts:["네요","어요","군요","는데"],hint:"Oh, this cake is really delicious! Just tasted it. Surprise/discovery."},
+{type:"mc",q:"한국어 잘하시네요! is best translated as:",opts:["Oh, you speak Korean well!","Do you speak Korean well?","You speak Korean well.","Please speak Korean well."],ans:"Oh, you speak Korean well!",hint:"-네요 adds surprise. 'Oh!' Not a neutral statement."},
+{type:"fb",s:"벌써 12시{1}! 시간이 빨라요.",a:"네요",opts:["네요","예요","인데","거든요"],hint:"Oh, it's already 12! Time flies. Just noticed."},
+{type:"teach",nl:"-군요",en:"I realize that..., I see",phonetic:"-gun-yo",note:"Similar to -네요 but more reflective.\n-네요 = 'Oh!' (in the moment)\n-군요 = 'I see...' (processing)\n그렇군요 = I see, is that so.",kind:"grammar",deepDive:"-네요 vs -군요:\n\n-네요: immediate, experiential\n비가 오네요! (Oh, it's raining! [I just saw])\n\n-군요: reflective, processing\n비가 오는군요. (I see it's raining. [taking it in])\n\n-군요 is more common in formal/written\ncontexts or when processing information.\n-네요 is more common in daily conversation."},
+{type:"mc",q:"-네요 vs -군요: '맛있네요!' vs '맛있군요.' What's the nuance?",opts:["-네요 is immediate surprise, -군요 is reflective realization","-네요 is formal, -군요 is casual","No difference","They're used for different tenses"],ans:"-네요 is immediate surprise, -군요 is reflective realization",hint:"-네요 = 'Oh!' (spontaneous). -군요 = 'I see...' (processing the information)."},
+{type:"fb",s:"한국에서 등산이 인기가 많{1}.",a:"군요",opts:["군요","네요","는데","거든요"],hint:"I see that hiking is popular in Korea. Processing information you just learned. Reflective."},
+{type:"mc",q:"You bite into food and exclaim. Which ending?",opts:["-네요 (immediate surprise)","-군요 (reflective realization)","-거든요 (explanation)","-는데 (background)"],ans:"-네요 (immediate surprise)",hint:"You're experiencing it RIGHT NOW. Immediate reaction = -네요."},
+{type:"drag_fill",s:"A: 이 식당 {1}!\nB: 네, 유명하{2}. 사람이 많아요.",blanks:{"1":"좋네요","2":"거든요"},pool:["좋네요","좋는데","거든요","군요","은데"],hint:"A: Oh, this restaurant is nice! (surprise) B: Yes, you see, it's famous. (new info)"},
+{type:"match",pairs:[{nl:"-네요",en:"Oh! (surprise/discovery)"},{nl:"-군요",en:"I see (realization)"},{nl:"-거든요",en:"you see... (new info)"},{nl:"-는데",en:"background/contrast"}]},
+{type:"fb",s:"와, 눈이 오{1}! 너무 예뻐요!",a:"네요",opts:["네요","군요","거든요","는데"],hint:"Wow, oh it's snowing! So pretty! Immediate surprise at what you see."},
+{type:"mc",q:"Someone tells you Korea has 5,000 years of history. You respond:",opts:["그렇군요! (I see!)","그렇네요! (Oh!)","그런데요! (But!)","그래서요! (So!)"],ans:"그렇군요! (I see!)",hint:"You're processing information someone TOLD you (not direct experience). Reflective = -군요."},
+{type:"mc",q:"Complete: 벌써 봄이 왔___! 꽃이 피었어요. (Spring came already! Flowers bloomed.)",opts:["네요","군요","거든요","는데"],ans:"네요",hint:"You're seeing it right now. Flowers blooming = direct experience. Surprise = -네요."},
+]},
+
+// ── L6: ★ 르 불규칙 HARVEST Batch 5 (FINAL) ──
+{id:"kou13l6",title:"★ 르 불규칙",icon:"🎓",xp:24,board:true,steps:[
+{type:"intro",title:"르-Irregular: The Final Batch",desc:"모르다\n→ to not know\n\n모르 + 아요 = 몰라요 (not 모라요)\n\n르 splits: ㄹ joins previous syllable.\nBatch 5 of 5. All irregular families complete!",goals:["Master the 르-irregular pattern","Conjugate 모르다, 다르다, 빠르다, 부르다, 자르다","Understand the ㄹ splitting mechanism","Complete all 5 irregular families!"]},
+{type:"tip",title:"All 5 Irregular Families: Complete!",text:"1. ㄷ-irreg (U7): ㄷ → ㄹ before vowels\n   듣다 → 들어요\n2. ㅂ-irreg (U7): ㅂ → 우 before vowels\n   덥다 → 더워요\n3. ㄹ/으-irreg (U9): ㄹ drops before ㄴ/ㅂ/ㅅ\n   살다 → 삽니다\n4. ㅎ-irreg (U11): ㅎ drops + vowel change\n   노랗다 → 노래요\n5. ㅅ-irreg (U12): ㅅ drops before vowels\n   짓다 → 지어요\n\nNow: 르-irregular\n모르다 → 몰라요 (르 splits into ㄹ + 라)"},
+{type:"teach",nl:"모르다",en:"to not know",phonetic:"mo-reu-da",note:"르-IRREGULAR.\n모르 + 아요 → 몰라요.\n르 splits: ㄹ goes to 모, making 몰.\nThen 라요 follows.",kind:"verb",deepDive:"The 르 splitting mechanism:\n\n모르 → 몰 + 라\n\nStep 1: Remove 르\nStep 2: Add ㄹ to previous syllable: 모 → 몰\nStep 3: Add 라/러 (based on vowel harmony)\n\n모르다: 모 has ㅗ (bright) → 몰 + 라요\n다르다: 다 has ㅏ (bright) → 달 + 라요\n부르다: 부 has ㅜ (dark) → 불 + 러요"},
+{type:"teach",nl:"다르다",en:"to be different",phonetic:"da-reu-da",note:"르-IRREGULAR.\n다르 + 아요 → 달라요.\nYou saw this in U12. Now you know why!",kind:"adjective"},
+{type:"teach",nl:"빠르다",en:"to be fast",phonetic:"ppa-reu-da",note:"르-IRREGULAR.\n빠르 + 아요 → 빨라요.\n빠 has ㅏ (bright) → 빨 + 라요.",kind:"adjective"},
+{type:"teach",nl:"부르다",en:"to call, to sing",phonetic:"bu-reu-da",note:"르-IRREGULAR.\n부르 + 어요 → 불러요.\n부 has ㅜ (dark) → 불 + 러요.\n노래를 불러요 = I sing a song.",kind:"verb"},
+{type:"teach",nl:"자르다",en:"to cut",phonetic:"ja-reu-da",note:"르-IRREGULAR.\n자르 + 아요 → 잘라요.\n자 has ㅏ (bright) → 잘 + 라요.",kind:"verb"},
+{type:"mc",q:"모르다: 모르 + 아요 = ?",opts:["몰라요","모라요","모르아요","몰러요"],ans:"몰라요",hint:"르 splits: ㄹ goes to 모 → 몰. Then 라요 (bright vowel). 몰라요."},
+{type:"mc",q:"부르다: 부르 + 어요 = ?",opts:["불러요","부러요","부르어요","불라요"],ans:"불러요",hint:"르 splits: ㄹ goes to 부 → 불. 부 has ㅜ (dark) → 불 + 러요. 불러요."},
+{type:"fb",s:"이 두 개는 많이 {1}.",a:"달라요",opts:["달라요","다라요","다르아요","달러요"],hint:"These two are very different. 다르다 is 르-irregular. 다 has bright vowel → 달라요."},
+{type:"mc",q:"빠르다: 빠르 + 아요 = ?",opts:["빨라요","빠라요","빠르아요","빨러요"],ans:"빨라요",hint:"르 splits: ㄹ → 빠 becomes 빨. Bright vowel → 빨라요."},
+{type:"fb",s:"노래를 {1}. 노래방에서요.",a:"불러요",opts:["불러요","부러요","불라요","부르어요"],hint:"I sing songs. At karaoke. 부르다 → 불러요 (dark vowel → 러요)."},
+{type:"fb",s:"머리를 {1}. 미용실에 갔어요.",a:"잘랐어요",opts:["잘랐어요","자랐어요","잘렀어요","자르았어요"],hint:"I cut my hair. 자르다 past: 잘 + 랐어요 (bright vowel)."},
+{type:"mc",q:"Vowel harmony in 르-irregulars: bright vowel (ㅏ,ㅗ) → ___라, dark vowel → ___러.",opts:["Correct","Wrong, it's reversed","Both use 라","Both use 러"],ans:"Correct",hint:"모르다 → 몰라요 (ㅗ = bright → 라). 부르다 → 불러요 (ㅜ = dark → 러)."},
+{type:"drag_fill",s:"저는 {1}. 한국어를 조금 {2}. 하지만 열심히 배우고 있어요.",blanks:{"1":"외국인이에요","2":"몰라요"},pool:["외국인이에요","몰라요","달라요","불러요","알아요"],hint:"I'm a foreigner. I don't know much Korean. But I'm studying hard."},
+{type:"match",pairs:[{nl:"모르다 → 몰라요",en:"not know (르-irreg)"},{nl:"다르다 → 달라요",en:"different (르-irreg)"},{nl:"빠르다 → 빨라요",en:"fast (르-irreg)"},{nl:"부르다 → 불러요",en:"sing/call (르-irreg)"}]},
+{type:"mc",q:"All 6 irregular families complete! Which one drops its consonant entirely?",opts:["ㅅ-irregular (짓다 → 지어요)","ㄷ-irregular (듣다 → 들어요)","ㅂ-irregular (덥다 → 더워요)","르-irregular (모르다 → 몰라요)"],ans:"ㅅ-irregular (짓다 → 지어요)",hint:"ㅅ drops completely. ㄷ changes to ㄹ. ㅂ changes to 우. 르 splits."},
+]},
+
+// ── L7: 복합 연결 (Complex Connectors) ──
+{id:"kou13l7",title:"복합 연결",icon:"🧩",xp:22,board:true,steps:[
+{type:"intro",title:"Combining Connectors",desc:"Natural Korean uses multiple connectors.\n\nLayer -는데, -거든요, and -네요\nfor nuanced, flowing speech.",goals:["Combine connectors naturally","Use -는데 + -거든요 in one conversation","React with -네요 in context","Build multi-sentence flowing Korean"]},
+{type:"tip",title:"Connector Flow in Conversation",text:"A: 오늘 바쁜데 내일은 괜찮아요.\n   (I'm busy today but tomorrow is OK.)\n\nB: 그러면 내일 만나요!\n   (Then let's meet tomorrow!)\n\nA: 좋아요! 맛있는 식당을 알거든요.\n   (Great! You see, I know a tasty restaurant.)\n\nB: 진짜요? 어디에요?\n   (Really? Where?)\n\nA: 강남인데 분위기가 좋네요.\n   (It's in Gangnam, and the atmosphere is nice.)"},
+{type:"mc",q:"오늘 바쁜데 내일은 시간이 있어요. The -는데 connects:",opts:["Background (busy) with new info (free tomorrow)","Cause and effect","Two unrelated facts","A question and answer"],ans:"Background (busy) with new info (free tomorrow)",hint:"-는데 sets up context, then adds contrasting or new information."},
+{type:"fb",s:"이 카페 좋{1}. 커피가 맛있{2}.",a:"은데",opts:["은데","는데","인데","지만"],hint:"This cafe is nice, and... 좋다 is an adjective. Adjective + (으)ㄴ데."},
+{type:"mc",q:"A: 왜 한국어 공부해요? B: K-드라마를 좋아하거든요. B uses -거든요 because:",opts:["B is giving A a reason A didn't know","B is asking a question","B is expressing surprise","B is making a comparison"],ans:"B is giving A a reason A didn't know",hint:"-거든요 = 'you see...' New information explaining why."},
+{type:"fb",s:"와, 이 케이크 맛있{1}! 어디서 샀어요?",a:"네요",opts:["네요","거든요","는데","군요"],hint:"Wow, this cake is delicious! Just tasted it. Immediate surprise."},
+{type:"drag_fill",s:"A: 이 식당 어때요?\nB: 맛있{1}! 분위기도 좋{2}.",blanks:{"1":"네요","2":"은데"},pool:["네요","은데","거든요","는데","군요"],hint:"A: How's this restaurant? B: Oh it's tasty! (surprise) And the atmosphere is good... (background)."},
+{type:"mc",q:"Which order is natural? 'I can't go. You see, I'm busy.'",opts:["못 가요. 바쁘거든요.","바쁘거든요. 못 가요.","못 가거든요. 바빠요.","바빠서 못 가거든요."],ans:"못 가요. 바쁘거든요.",hint:"With -거든요: result first, then reason. Separate sentences."},
+{type:"fb",s:"한국어 공부하{1} 재미있어요. 한국 문화도 좋아하{2}.",a:"는데",opts:["는데","ㄴ데","지만","어서"],hint:"Studying Korean is fun, and... 공부하다 is a verb. Verb + -는데."},
+{type:"match",pairs:[{nl:"-는데 (verb)",en:"background/contrast (doing...)"},{nl:"-(으)ㄴ데 (adj)",en:"background/contrast (being...)"},{nl:"-거든요",en:"you see... (reason)"},{nl:"-네요",en:"oh! (surprise)"}]},
+{type:"drag_fill",s:"A: 한국어 잘하시{1}!\nB: 감사해요. 한국에서 3년 살았{2}.\nA: 그렇{3}!",blanks:{"1":"네요","2":"거든요","3":"군요"},pool:["네요","거든요","군요","는데","어서"],hint:"A: Oh you speak Korean well! B: Thanks. You see, I lived in Korea 3 years. A: I see!"},
+{type:"mc",q:"Which response uses -네요 correctly?",opts:["(Tasting food) 이거 맛있네요!","(Someone told you) 맛있네요.","(Reading a menu) 맛있네요.","(Remembering food) 맛있네요."],ans:"(Tasting food) 이거 맛있네요!",hint:"-네요 requires DIRECT experience. Tasting it yourself qualifies."},
+]},
+
+// ── L8: 대화 연습 (Conversation Practice) ──
+{id:"kou13l8",title:"대화 연습",icon:"💬",xp:22,board:true,steps:[
+{type:"intro",title:"Conversation Practice",desc:"All connectors in real conversations.\n\nCombine everything from Unit 13\nfor natural Korean flow.",goals:["Use all Unit 13 grammar naturally","Have flowing multi-turn conversations","Apply 눈치 concepts","Practice 르-irregular in context"]},
+{type:"mc",q:"A: 취미가 뭐예요? B: 등산이에요. A: 그렇군요! 저는 잘 {___}. B uses:",opts:["몰라요","모라요","모르아요","몰러요"],ans:"몰라요",hint:"I don't know much (about hiking). 모르다 → 몰라요. 르-irregular."},
+{type:"fb",s:"이 산이 높{1} 경치가 아름다워요.",a:"은데",opts:["은데","는데","인데","지만"],hint:"This mountain is high, and the scenery is beautiful. 높다 = adjective → (으)ㄴ데."},
+{type:"mc",q:"A: 왜 등산 좋아해요? B: 건강에 좋거든요. 그리고 경치가 아름답네요! B uses two endings. Why?",opts:["-거든요 for reason A didn't know, -네요 for experiencing beauty now","-거든요 for surprise, -네요 for explanation","Both express the same thing","Both show contrast"],ans:"-거든요 for reason A didn't know, -네요 for experiencing beauty now",hint:"-거든요 = 'you see, it's healthy.' -네요 = 'oh, the scenery is beautiful!' (seeing it now)."},
+{type:"fb",s:"서울하고 부산은 많이 {1}. 분위기가 완전히 다르{2}.",a:"달라요",opts:["달라요","다라요","다르아요","달러요"],hint:"Seoul and Busan are very different. 다르다 → 달라요. 르-irregular."},
+{type:"drag_fill",s:"A: 한국 음식 매{1}?\nB: 네, 좀 매운 편이에요. {2} 맛있{3}!",blanks:{"1":"워요","2":"그래도","3":"네요"},pool:["워요","그래도","네요","거든요","는데","군요"],hint:"A: Is Korean food spicy? B: Yes, tends to be. Still, oh it's tasty!"},
+{type:"mc",q:"'I sing this song. Do you know it?' Best Korean:",opts:["이 노래를 불러요. 알아요?","이 노래를 부르어요. 아세요?","이 노래를 불라요. 모르아요?","이 노래를 부러요. 알아요?"],ans:"이 노래를 불러요. 알아요?",hint:"부르다 → 불러요 (르-irregular, dark vowel → 러)."},
+{type:"fb",s:"눈치가 {1} 사람은 분위기를 잘 읽어요.",a:"빠른",opts:["빠른","빨른","빠르는","빨라는"],hint:"A person with quick 눈치 reads the mood well. 빠르다 modifier: 빠른 (르 stays in modifier form)."},
+{type:"match",pairs:[{nl:"그런데/근데",en:"but, by the way"},{nl:"그래서",en:"so, therefore"},{nl:"그래도",en:"still, nevertheless"},{nl:"그러면/그럼",en:"then, in that case"}]},
+{type:"mc",q:"Fill the conversation: A: 내일 시간 있어요? B: 있는데 왜요? A: 같이 등산 가기로 했거든요! B: 좋네요!",opts:["B uses -는데 (background), A uses -거든요 (new info), B uses -네요 (pleasant surprise)","All three use the same grammar","Only -는데 is used","Only -네요 is used"],ans:"B uses -는데 (background), A uses -거든요 (new info), B uses -네요 (pleasant surprise)",hint:"Three different connectors, each perfect for its role in the conversation."},
+{type:"drag_fill",s:"한국 문화는 {1} 표현이 많아요. 그래서 {2}가 중요하{3}.",blanks:{"1":"간접적인","2":"눈치","3":"거든요"},pool:["간접적인","눈치","거든요","네요","직접적인","분위기"],hint:"Korean culture has many indirect expressions. So, you see, 눈치 is important."},
+]},
+
+// ── L9: 복습 + 퀴즈 ──
+{id:"kou13l9",title:"복습 + 퀴즈",icon:"📝",xp:20,board:true,steps:[
+{type:"intro",title:"Unit 13 Review",desc:"Review all connectors and grammar.\n\n-는데, -거든요, -네요, 르-irregular.\nAll 6 irregular families now complete!",goals:["Review all Unit 13 connectors","Test -는데/-거든요/-네요 usage","Apply 르-irregular conjugation","Celebrate: all irregulars mastered!"]},
+{type:"mc",q:"맛있는데 비싸요. -는데 is used for:",opts:["Background + contrast","Cause and effect","Surprise","Explanation"],ans:"Background + contrast",hint:"-는데 sets up background (tasty) then contrasts (expensive)."},
+{type:"fb",s:"못 가요. 바쁘{1}.",a:"거든요",opts:["거든요","네요","는데","어서"],hint:"I can't go. You see, I'm busy. New reason for the listener."},
+{type:"mc",q:"와, 예쁘네요! -네요 expresses:",opts:["Surprise at what you see right now","Something you read about","An old memory","A wish"],ans:"Surprise at what you see right now",hint:"-네요 = immediate experience. You're seeing something beautiful right now."},
+{type:"fb",s:"모르다 → {1}.",a:"몰라요",opts:["몰라요","모라요","몰러요","모르아요"],hint:"르 splits: ㄹ goes to 모 → 몰. Bright vowel → 라요."},
+{type:"match",pairs:[{nl:"모르다 → 몰라요",en:"not know"},{nl:"빠르다 → 빨라요",en:"fast"},{nl:"부르다 → 불러요",en:"sing/call"},{nl:"자르다 → 잘라요",en:"cut"}]},
+{type:"mc",q:"한국에서 눈치가 없다 means:",opts:["Socially clueless","Very observant","Having good manners","Being too quiet"],ans:"Socially clueless",hint:"눈치가 없다 = no 눈치 = can't read social cues."},
+{type:"drag_fill",s:"A: 한국어 잘하시{1}!\nB: 한국에서 살았{2}. 3년 살았어요.",blanks:{"1":"네요","2":"거든요"},pool:["네요","거든요","군요","는데","어서"],hint:"A: Oh you speak well! (surprise) B: You see, I lived in Korea. (new info)"},
+{type:"fb",s:"이 카페는 좋{1} 커피가 비싸요.",a:"은데",opts:["은데","는데","인데","지만"],hint:"This cafe is nice but coffee is expensive. 좋다 adjective → (으)ㄴ데."},
+{type:"mc",q:"All 6 Korean irregular families in order:",opts:["ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ, 르","ㄱ, ㄴ, ㄷ, ㅂ, ㅅ, ㅈ","ㄷ, ㅂ, ㅅ, ㅈ, ㅎ, ㄹ","ㄱ, ㄷ, ㅂ, ㅎ, ㅅ, 르"],ans:"ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ, 르",hint:"U7: ㄷ+ㅂ. U9: ㄹ/으. U11: ㅎ. U12: ㅅ. U13: 르."},
+{type:"mc",q:"그렇군요 vs 그렇네요. When someone TELLS you a fact, you say:",opts:["그렇군요 (I see, processing)","그렇네요 (Oh! surprise)","Both work the same","Neither is correct"],ans:"그렇군요 (I see, processing)",hint:"-군요 for information received from others. -네요 for direct experience."},
+{type:"drag_fill",s:"서울하고 부산은 {1}. 음식도 다르고 {2}도 달라요.",blanks:{"1":"달라요","2":"분위기"},pool:["달라요","다라요","분위기","눈치","빨라요"],hint:"Seoul and Busan are different. Food is different and atmosphere is different too."},
+{type:"mc",q:"Connector review: 비가 와요. {___} 우산 가져가세요.",opts:["그러니까 (so, emphasis)","그런데 (but)","그래도 (still)","그리고 (and)"],ans:"그러니까 (so, emphasis)",hint:"It's raining. So (that's why!) take an umbrella. Emphatic conclusion."},
+{type:"fb",s:"노래를 {1}. 노래방에서 자주 가요.",a:"불러요",opts:["불러요","부러요","불라요","부르아요"],hint:"I sing songs. I go to karaoke often. 부르다 → 불러요 (르-irregular)."},
+]},
+
+]},
+
 ];
