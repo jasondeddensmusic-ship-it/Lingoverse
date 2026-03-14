@@ -2947,7 +2947,7 @@ export default [
 // B1.1 — Travel, Progressive & Experiential
 // HARVESTS: -고 있다 (from kou9l6), ㅎ-irregular (from kou6l5)
 // ═══════════════════════════════════════════════
-{n:11,lang:"ko",track:"v2",title:"여행 가요!",sub:"Travel, Progressive & Experiential",icon:"🧳",level:"B1.1",color:"#6C5CE7",lessons:[
+{n:11,lang:"ko",track:"v1",title:"여행 가요!",sub:"Travel, Progressive & Experiential",icon:"🧳",level:"B1.1",color:"#6C5CE7",lessons:[
 
 // ═══ L1: 여행 준비 (Trip Prep) ═══
 {id:"kou11l1",title:"여행 준비",icon:"✈️",xp:22,board:true,steps:[
@@ -3165,7 +3165,7 @@ export default [
 // Cultural anchor: Korean hobbies, 등산 culture, PC방/노래방
 // Prerequisite: U11 (travel vocab, -아/어 봤어요, -고 있다, ㅎ-irregular)
 // ═══════════════════════════════════════════════════════════
-{n:12,lang:"ko",track:"v2",title:"취미가 뭐예요?",sub:"Hobbies & Comparisons",icon:"🎯",level:"B1",color:"#7B5EE8",lessons:[
+{n:12,lang:"ko",track:"v1",title:"취미가 뭐예요?",sub:"Hobbies & Comparisons",icon:"🎯",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 취미 어휘 (Hobby Vocabulary) ──
 {id:"kou12l1",title:"취미 어휘",icon:"🎨",xp:22,board:true,steps:[
@@ -3373,7 +3373,7 @@ export default [
 // Cultural anchor: 눈치 culture, indirect communication
 // Prerequisite: U12 (comparison, tendency, -(으)면서)
 // ═══════════════════════════════════════════════════════════
-{n:13,lang:"ko",track:"v2",title:"그런데 말이에요...",sub:"Connectors & Nuance",icon:"🔗",level:"B1",color:"#7B5EE8",lessons:[
+{n:13,lang:"ko",track:"v1",title:"그런데 말이에요...",sub:"Connectors & Nuance",icon:"🔗",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 연결어 어휘 (Connector Vocabulary) ──
 {id:"kou13l1",title:"연결어 어휘",icon:"🔗",xp:22,board:true,steps:[
@@ -3550,7 +3550,7 @@ export default [
 // Cultural anchor: Workplace culture, 회식, Korean work ethic
 // Prerequisite: U13 (connectors, all irregulars)
 // ═══════════════════════════════════════════════════════════
-{n:14,lang:"ko",track:"v2",title:"해야 돼요",sub:"Obligation & Purpose",icon:"📋",level:"B1",color:"#7B5EE8",lessons:[
+{n:14,lang:"ko",track:"v1",title:"해야 돼요",sub:"Obligation & Purpose",icon:"📋",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 직장 어휘 (Workplace Vocabulary) ──
 {id:"kou14l1",title:"직장 어휘",icon:"🏢",xp:22,board:true,steps:[
@@ -3729,7 +3729,7 @@ export default [
 // Cultural anchor: Education, 수능, Korean learning culture
 // Prerequisite: U14 (obligation, permission, purpose)
 // ═══════════════════════════════════════════════════════════
-{n:15,lang:"ko",track:"v2",title:"도와 주세요",sub:"Benefactive & Change",icon:"🤝",level:"B1",color:"#7B5EE8",lessons:[
+{n:15,lang:"ko",track:"v1",title:"도와 주세요",sub:"Benefactive & Change",icon:"🤝",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: ★ -아/어 주다 HARVEST ──
 {id:"kou15l1",title:"★ -아/어 주다",icon:"🌾",xp:26,board:true,steps:[
@@ -3895,7 +3895,7 @@ export default [
 // Cultural anchor: Internet/SNS culture, Korean online communication
 // Prerequisite: U15 (benefactive, change, 3rd person feelings)
 // ═══════════════════════════════════════════════════════════
-{n:16,lang:"ko",track:"v2",title:"뭐라고 했어요?",sub:"Indirect Speech",icon:"💬",level:"B1",color:"#7B5EE8",lessons:[
+{n:16,lang:"ko",track:"v1",title:"뭐라고 했어요?",sub:"Indirect Speech",icon:"💬",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 인터넷 어휘 (Internet Vocabulary) ──
 {id:"kou16l1",title:"인터넷 어휘",icon:"📱",xp:22,board:true,steps:[
@@ -4064,7 +4064,7 @@ export default [
 // Cultural anchor: News, current events, Korean media
 // Prerequisite: U16 (indirect speech, honorifics)
 // ═══════════════════════════════════════════════════════════
-{n:17,lang:"ko",track:"v2",title:"뉴스를 봤어요",sub:"Passive & Causative",icon:"📰",level:"B1",color:"#7B5EE8",lessons:[
+{n:17,lang:"ko",track:"v1",title:"뉴스를 봤어요",sub:"Passive & Causative",icon:"📰",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 뉴스 어휘 (News Vocabulary) ──
 {id:"kou17l1",title:"뉴스 어휘",icon:"📺",xp:22,board:true,steps:[
@@ -4233,7 +4233,7 @@ export default [
 // Cultural anchor: Korean food deep dive, 맛집 culture
 // Prerequisite: U17 (passive, causative, double past)
 // ═══════════════════════════════════════════════════════════
-{n:18,lang:"ko",track:"v2",title:"먹는 것을 좋아해요",sub:"Nominalization & Modifiers",icon:"🍽️",level:"B1",color:"#7B5EE8",lessons:[
+{n:18,lang:"ko",track:"v1",title:"먹는 것을 좋아해요",sub:"Nominalization & Modifiers",icon:"🍽️",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: ★ -기 명사화 HARVEST ──
 {id:"kou18l1",title:"★ -기 명사화",icon:"🌾",xp:26,board:true,steps:[
@@ -4397,7 +4397,7 @@ export default [
 // Cultural anchor: Relationships, 정 culture
 // Prerequisite: U18 (nominalization, modifiers)
 // ═══════════════════════════════════════════════════════════
-{n:19,lang:"ko",track:"v2",title:"한국에서 산 지 1년",sub:"Evidential & Complex Patterns",icon:"💫",level:"B1",color:"#7B5EE8",lessons:[
+{n:19,lang:"ko",track:"v1",title:"한국에서 산 지 1년",sub:"Evidential & Complex Patterns",icon:"💫",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: 관계 어휘 (Relationship Vocabulary) ──
 {id:"kou19l1",title:"관계 어휘",icon:"❤️",xp:22,board:true,steps:[
@@ -4557,7 +4557,7 @@ export default [
 // Cultural anchor: K-culture seasons, looking ahead to B2
 // Prerequisite: U19 (all B1 grammar complete)
 // ═══════════════════════════════════════════════════════════
-{n:20,lang:"ko",track:"v2",title:"B1 완성!",sub:"Consolidation & Assessment",icon:"🏆",level:"B1",color:"#7B5EE8",lessons:[
+{n:20,lang:"ko",track:"v1",title:"B1 완성!",sub:"Consolidation & Assessment",icon:"🏆",level:"B1",color:"#7B5EE8",lessons:[
 
 // ── L1: B1 Grammar Map (Overview) ──
 {id:"kou20l1",title:"B1 문법 지도",icon:"🗺️",xp:20,board:true,steps:[
