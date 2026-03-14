@@ -416,6 +416,7 @@ export function p(key, baseLang="en") {
   return entry[baseLang] || entry.en || "";
 }
 
+/*
 RULE: Every language in LANGUAGES must have an FK_PLAYTHROUGH entry
 (even if it's just a placeholder with stages:[]).
 This is enforced by DEV GUARD below.
@@ -426,7 +427,6 @@ Lessons reuse the same step shapes as the main LessonEngine:
   {type:"teach",kind:"info", ...}, {type:"mc", ...}, {type:"match", ...}, etc.
 Progress is stored in user.progress.fkPlay[lang][lessonId].
 This system NEVER touches user.progress.lessons or user.progress.foundation.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 */
 
 export const SCRIPT_BLUEPRINTS = {
