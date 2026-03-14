@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-LingoVerse is a self-contained multilingual language learning platform. The entire application lives in **one file**: `src/lingoverse.jsx` (~26,600 lines). It is a React 18 app built with Vite.
+LingoVerse is a self-contained multilingual language learning platform built with React 18 and Vite. The codebase is split into 7 source files (1 engine + 6 data modules). Vite bundles them into a single optimized output for deployment.
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
@@ -27,28 +27,31 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 ---
 
-## Architecture — Single File Structure
+## Architecture — Multi-File Structure
 
-`src/lingoverse.jsx` contains everything in this order:
+### Data Modules (`src/data/`)
 
-| Section | Lines (approx) | Contents |
-|---------|----------------|----------|
-| Manifesto & Decision Log | 1–3,500 | 20+ principles, 71 decisions, pipeline rules, curriculum spine |
-| Utility functions | 3,670–4,060 | TTS, vocab helpers, storage |
-| Language metadata | 4,060–4,420 | LANGUAGES, CEFR_LEVELS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS |
-| Foundations system | 4,420–6,840 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ, SCRIPT_BLUEPRINTS |
-| UI translations | 6,800–6,840 | TEXT_KEYS, tk() helper |
-| Content validator | 7,050 | validateLessonForLeaks() |
-| Learning objectives | 7,340–7,450 | OBJECTIVES, STANDARDS |
-| Vocabulary & grammar | 7,680–8,940 | VOCAB, LEXEMES, MEANINGS, GRAMMAR |
-| XP & achievements | 9,680–9,710 | LEVEL_XP, ACHS |
-| Article colors & families | 9,710–9,800 | ARTICLE_COLORS, LANG_FAMILIES |
-| CSS design system | 9,800–10,680 | Full CSS-in-JS with dark mode |
-| Page components | 10,680–12,940 | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
-| **UNITS (curriculum data)** | **12,940–21,960** | All lesson content for all languages (~9,000 lines) |
-| Learn page & UnitMap | 21,960–23,560 | Navigation, Foundations UI, lesson lists |
-| **LessonEngine** | **23,570–26,360** | Core teaching/quiz rendering engine |
-| App root | 26,460–26,650 | Main App component, routing, persistence |
+| File | Lines | Contents |
+|------|-------|----------|
+| `metadata.js` | ~440 | VOCAB_DB, LANGUAGES, CEFR_LEVELS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, SCRIPT_BLUEPRINTS |
+| `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
+| `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
+| `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
+| `units-korean.js` | ~2,920 | All 10 Korean units |
+| `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
+
+### Engine (`src/lingoverse.jsx`, ~12,800 lines)
+
+| Section | Contents |
+|---------|----------|
+| Manifesto & Decision Log | 20+ principles, 71 decisions, pipeline rules, curriculum spine |
+| Utility functions | TTS, vocab helpers, storage, validators |
+| CSS design system | Full CSS-in-JS with dark mode |
+| Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
+| UNITS assembly | `const UNITS = [...dutchUnits, ...koreanUnits, ...otherUnits]` |
+| Learn page & UnitMap | Navigation, Foundations UI, lesson lists |
+| LessonEngine | Core teaching/quiz rendering engine |
+| App root | Main App component, routing, persistence |
 
 ---
 
@@ -85,19 +88,19 @@ Every decision must move toward:
 
 ## Key Constants & Data Structures
 
-### LANG_META (line ~4293)
+### LANG_META (`src/data/metadata.js`)
 Per-language settings: scriptType, framework, levelMap, ttsLocale, specialRules. Every new language needs an entry here.
 
-### FOUNDATIONS_BY_LANG (line ~4416)
+### FOUNDATIONS_BY_LANG (`src/data/foundations.js`)
 Reference knowledge grids. Organized by sections (alphabet, vowels, consonants, spelling rules). Dutch has 6 sections with 24 items — that's the benchmark.
 
-### FK_PLAYTHROUGH (line ~5575)
-Interactive foundations lessons. Stages → lessons → steps. Currently implemented: Korean (10 phases), Dutch (22 lessons).
+### FK_PLAYTHROUGH (`src/data/foundations.js`)
+Interactive foundations lessons. Stages → lessons → steps. Currently implemented: Korean (25 phases), Dutch (22 lessons).
 
-### FK_GATE_QUIZ (line ~6272)
+### FK_GATE_QUIZ (`src/data/foundations.js`)
 Pass/fail gate quiz after foundations. Currently: Korean implemented.
 
-### UNITS (line ~12936)
+### UNITS (assembled in `src/lingoverse.jsx` from `src/data/units-*.js`)
 The main curriculum. Structure:
 ```
 { n, lang, track, title, sub, icon, level, color, lessons: [
@@ -105,6 +108,7 @@ The main curriculum. Structure:
 ]}
 ```
 Track system: `track:"v2"` for new curriculum, `track:"legacy"` for old Dutch content.
+Data lives in: `units-dutch.js`, `units-korean.js`, `units-other.js`.
 
 ### MK / MEANINGS / LEXEMES
 Vocabulary is meaning-centric. MK keys are the atomic unit. All content maps through meaning, not surface language.
