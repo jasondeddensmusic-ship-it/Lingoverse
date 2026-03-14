@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 units, 160 lessons). Korean A1 complete (6 units, ~96 lessons, density upgrade in progress). German and Arabic have early skeletons (5 units each, below density standard).
+**Current state**: Dutch A1-B1 complete (20 units, 160 lessons). Korean A1-A2 complete (10 units, 102 lessons, density nearly resolved). German and Arabic have early skeletons (5 units each, below density standard).
 
 ---
 
@@ -37,7 +37,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
-| `units-korean.js` | ~2,920 | All 10 Korean units |
+| `units-korean.js` | ~2,920 | All 10 Korean units (U1-U6 A1, U7-U10 A2) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,800 lines)
@@ -220,11 +220,13 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
-- A1 (Units 1-6): COMPLETE but density upgrade in progress (D59)
-- **568 density issues** across 94/96 lessons (Korean Density Audit)
-- Issue types: NOTE_WALL (328), TIP_WALL (79), TEACH_STREAK (57), TIP_KOREAN_HEAVY (56), NL_SLASH (36), EXAMPLE_FORMULA (7)
-- D62 violations in note/text/deepDive fields: ~376 remaining
-- Units 7-20: Not yet built
+- A1 (Units 1-6): COMPLETE, all A1 gap items added (못, -지만, spatial words, adverbs, colors, connectors)
+- A2 (Units 7-10): COMPLETE (U7 Past Tense, U8 Health/Conditional, U9 Future/Speech Levels, U10 Daily Life/반말)
+- 10 units, 102 lessons, 2,056 steps (avg 20.2/lesson)
+- **91 density issues** remaining (0 CRITICAL), down from 568 (fresh audit 2026-03-14)
+- Remaining: TIP_KOREAN_HEAVY (39), TEACH_STREAK (20), NOTE_WALL (11), DEEPDIVE_WALL (11), TIP_WALL (6)
+- A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
+- Units 11-20 (B1): Not yet built
 
 ### German: 5 early units, below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units, RTL works, needs CEFR audit
@@ -249,6 +251,14 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 5. Create FK_GATE_QUIZ
 6. Add UNITS with track:"v2", board:true on all lessons
 7. Validate with validateLessonForLeaks()
+
+**File separation convention**: New languages start in `units-other.js`. Once a language has 5+ units with real content (not skeletons), create a dedicated `units-{lang}.js` file:
+1. Create `src/data/units-{lang}.js` exporting the units array
+2. Add `import {lang}Units from './data/units-{lang}.js';` in lingoverse.jsx (lines 7-9)
+3. Add `...{lang}Units` to the UNITS spread (line ~8102)
+4. Remove those units from `units-other.js`
+
+This is manual. Phase 2 (post-content-complete) will migrate all units to JSON files per language.
 
 ### Adding a lesson to an existing unit:
 1. Run P24 redundancy check first
