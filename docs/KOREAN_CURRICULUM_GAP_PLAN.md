@@ -362,8 +362,14 @@ Priority: U20 first (worst), then U19, U18, U17 upward.
 20. Uplift U16-U11 to minimum 15 steps/lesson
 21. Add multi-construct final questions to all B1 lessons
 
-### Sprint 6: Vocabulary Patches
-22. Clothing, school subjects, animals, sports, degree adverbs, 아직/벌써
+### Sprint 6: Vocabulary Patches ✅ DONE
+22. ~~Clothing, school subjects, animals, sports, degree adverbs, 아직/벌써~~
+    - Animals (고양이, 강아지, 새) + 마리 counter added to U3L4
+    - Sports (축구, 야구, 수영, 농구) with Sino-Korean compounds added to U12L1
+    - School subjects (수학, 과학, 역사, 영어, 음악) with compounds added to U15L2
+    - Clothing (옷, 치마, 바지) + 아직 added to U10L6
+    - Degree adverbs (아주, 별로, 전혀) added to U5L4.3
+    - 벌써/이미 already taught in U10L6 (false positive)
 
 ---
 

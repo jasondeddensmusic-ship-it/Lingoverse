@@ -1001,6 +1001,14 @@ export default [
   {type:"mc",q:"하나만 주세요 means:",opts:["Give me one more","Just one, please","I have only one","One is not enough"],ans:"Just one, please",hint:"-만 = only/just"},
   {type:"fb",s:"커피___ 마셔요. (I drink ONLY coffee.)",a:"만",opts:["만","도","를","은"],hint:"'Only' particle: replaces 를"},
   {type:"mc",q:"물만 주세요. What is being requested?",opts:["More water","Only water","Hot water","No water"],ans:"Only water",hint:"-만 = only/just"},
+
+  // ── Animals with 마리 counter ──
+  {type:"teach",kind:"word",nl:"고양이",en:"cat",phonetic:"go-yang-i",example:"고양이 한 마리가 있어요.",exampleEn:"There is one cat.",note:"고양이: cat.\nCounted with 마리 (animal counter).\n한 마리, 두 마리, 세 마리..."},
+  {type:"teach",kind:"word",nl:"강아지",en:"puppy / dog",phonetic:"gang-a-ji",example:"강아지 두 마리를 키워요.",exampleEn:"I raise two puppies.",note:"강아지: puppy/small dog.\n개 = dog (general).\n강아지 is more common in daily speech."},
+  {type:"teach",kind:"word",nl:"새",en:"bird",phonetic:"sae",example:"나무에 새가 있어요.",exampleEn:"There is a bird in the tree.",note:"새: bird (general).\n참새 = sparrow.\n독수리 = eagle."},
+  {type:"mc",q:"고양이 세 마리 — how many cats?",opts:["3","2","4","1"],ans:"3",hint:"세 = 3. 마리 = animal counter. Three cats."},
+  {type:"fb",s:"강아지 {1} 마리를 키워요.\n(I raise ___ puppies.)",a:"두",opts:["두","이","둘","들"],hint:"Two puppies. Native Korean number before counter: 두."},
+  {type:"match",pairs:[{nl:"고양이",en:"cat"},{nl:"강아지",en:"puppy"},{nl:"새",en:"bird"},{nl:"물고기",en:"fish"}]},
 ]},
 
 // ═══ L5: 몇 시예요? ═══
@@ -1522,6 +1530,14 @@ export default [
   {type:"match",pairs:[{nl:"행복하다",en:"happy"},{nl:"슬프다",en:"sad"},{nl:"깨끗하다",en:"clean"},{nl:"중요하다",en:"important"}]},
   {type:"match",pairs:[{nl:"편하다",en:"comfortable"},{nl:"높다",en:"high"},{nl:"멀다",en:"far"},{nl:"무섭다",en:"scary"}]},
   {type:"teach",kind:"phrase",nl:"싫어하다 → 싫어해요",en:"to dislike / to hate",phonetic:"si-reo-ha-da",example:"저는 매운 음식을 싫어해요.",exampleEn:"I dislike spicy food.",note:"싫어하다: to dislike/hate.\n좋아하다 (like) ↔ 싫어하다 (dislike).\n싫다 expresses feeling. 싫어하다 describes the action of disliking.",deepDive:{title:"싫다 vs 싫어하다",text:"싫다 → 싫어요: I do not like it (my feeling).\n싫어하다 → 싫어해요: to dislike (observable action).\n\n저는 매운 음식을 싫어해요 = I dislike spicy food.\n그 사람을 싫어해요 = I dislike that person."}},
+
+  // ── Degree adverbs ──
+  {type:"teach",kind:"adverb",nl:"아주",en:"very / really",phonetic:"a-ju",example:"아주 맛있어요.",exampleEn:"It's very delicious.",note:"아주: very, really.\nStronger than 좀.\nWeaker than 너무.\n\n아주 좋아요 = very good.\n아주 크다 = very big."},
+  {type:"teach",kind:"adverb",nl:"별로",en:"not really / not particularly",phonetic:"byeol-lo",example:"별로 안 좋아해요.",exampleEn:"I don't really like it.",note:"별로: not particularly.\nALWAYS with negative verb.\n\n별로 안 맛있어요.\n→ Not really tasty.\n별로예요.\n→ It's so-so / not great."},
+  {type:"teach",kind:"adverb",nl:"전혀",en:"not at all / absolutely not",phonetic:"jeon-hyeo",example:"전혀 모르겠어요.",exampleEn:"I don't understand at all.",note:"전혀: not at all.\nALWAYS with negative verb.\nStrongest negative degree.\n\n전혀 안 매워요.\n→ Not spicy AT ALL."},
+  {type:"mc",q:"별로 안 좋아해요 means:",opts:["I don't really like it","I really like it","I don't like it at all","I like it a lot"],ans:"I don't really like it",hint:"별로 = not really. Mild negative. Always + negative verb."},
+  {type:"fb",s:"{1} 모르겠어요. (I don't understand AT ALL.)",a:"전혀",opts:["전혀","별로","아주","좀"],hint:"Not at all. Strongest negative degree adverb."},
+  {type:"match",pairs:[{nl:"아주",en:"very (strong positive)"},{nl:"별로",en:"not really (mild negative)"},{nl:"전혀",en:"not at all (strong negative)"},{nl:"좀",en:"a bit / somewhat"}]},
 
 ]},
 
@@ -2884,6 +2900,14 @@ export default [
   {type:"teach",kind:"word",nl:"벌써",en:"already (time flew)",phonetic:"beol-sseo",example:"벌써 12시예요!",exampleEn:"It is already 12 o'clock!",note:"벌써: already  -  surprise that time passed fast.\n벌써 arrived? = Already?! (surprised)"},
   {type:"teach",kind:"word",nl:"이미",en:"already (completed)",phonetic:"i-mi",example:"이미 먹었어요.",exampleEn:"I already ate.",note:"이미: already  -  something is done, factual.\n이미 = completed fact. 벌써 expresses surprise that time passed fast."},
   {type:"mc",q:"You want to ask the teacher something. You raise your hand and say:",opts:["대답이 있어요","문제가 있어요","질문이 있어요","감사합니다"],ans:"질문이 있어요",hint:"질문 = question. 있어요 = I have."},
+
+// ── Clothing + 아직 ──
+{type:"teach",kind:"word",nl:"옷",en:"clothes / clothing",phonetic:"ot",example:"새 옷을 샀어요.",exampleEn:"I bought new clothes.",note:"옷: clothes (general).\n옷을 입다 = to wear clothes.\n옷을 벗다 = to take off clothes."},
+{type:"teach",kind:"word",nl:"치마",en:"skirt",phonetic:"chi-ma",example:"치마를 입었어요.",exampleEn:"I wore a skirt.",note:"치마: skirt.\n긴 치마 = long skirt.\n짧은 치마 = short skirt."},
+{type:"teach",kind:"word",nl:"바지",en:"pants / trousers",phonetic:"ba-ji",example:"청바지를 좋아해요.",exampleEn:"I like jeans.",note:"바지: pants.\n청바지 = jeans (blue-pants).\n반바지 = shorts (half-pants)."},
+{type:"teach",kind:"word",nl:"아직",en:"yet / still",phonetic:"a-jik",example:"아직 안 먹었어요.",exampleEn:"I haven't eaten yet.",note:"아직: yet, still.\n\n아직 + negative = not yet.\n아직 안 왔어요 = hasn't come yet.\n\n아직 + positive = still.\n아직 학생이에요 = still a student."},
+{type:"mc",q:"아직 안 먹었어요 means:",opts:["I haven't eaten yet","I already ate","I don't eat","I ate a lot"],ans:"I haven't eaten yet",hint:"아직 + negative = not yet."},
+{type:"match",pairs:[{nl:"옷",en:"clothes"},{nl:"치마",en:"skirt"},{nl:"바지",en:"pants"},{nl:"아직",en:"yet / still"}]},
 ]},
 
 // ═══ L7: Extended Daily Life Narrative ═══
@@ -3292,6 +3316,14 @@ export default [
 {type:"match",pairs:[{nl:"사진을 찍다",en:"to take photos"},{nl:"게임을 하다",en:"to play games"},{nl:"등산을 하다",en:"to go hiking"},{nl:"요리를 하다",en:"to cook"}]},
 {type:"mc",q:"독서 breaks down as:",opts:["Read + book","Read + word","Book + read","See + text"],ans:"Read + book",hint:"독 (讀) = read. 서 (書) = book."},
 {type:"drag_fill",s:"취미가 뭐예요? 저는 {1}을 좋아하고, {2}도 즐겨요.\n(What is your hobby? I like ___, and I also enjoy ___.)",blanks:{"1":"사진","2":"독서"},pool:["사진","독서","뭐예요","취미","좋아하고"],hint:"Think: camera hobby and book hobby."},
+
+// ── Sports vocabulary ──
+{type:"teach",kind:"word",nl:"축구",en:"soccer / football",phonetic:"chuk-gu",example:"축구를 좋아해요.",exampleEn:"I like soccer.",note:"COMPOUND: 축(kick/蹴) + 구(ball/球).\nKick-ball = soccer/football."},
+{type:"teach",kind:"word",nl:"야구",en:"baseball",phonetic:"ya-gu",example:"야구를 보러 갔어요.",exampleEn:"I went to watch baseball.",note:"COMPOUND: 야(field/野) + 구(ball/球).\nField-ball = baseball. Very popular in Korea."},
+{type:"teach",kind:"word",nl:"수영",en:"swimming",phonetic:"su-yeong",example:"수영을 잘해요.",exampleEn:"I'm good at swimming.",note:"COMPOUND: 수(water/水) + 영(swim/泳).\nWater-swim = swimming."},
+{type:"teach",kind:"word",nl:"농구",en:"basketball",phonetic:"nong-gu",example:"농구를 하러 가요.",exampleEn:"Let's go play basketball.",note:"COMPOUND: 농(basket/籠) + 구(ball/球).\nBasket-ball = basketball."},
+{type:"mc",q:"축구 breaks down as:",opts:["Kick + ball","Field + ball","Water + ball","Basket + ball"],ans:"Kick + ball",hint:"축 = kick. 구 = ball. Kick-ball = soccer."},
+{type:"match",pairs:[{nl:"축구",en:"soccer"},{nl:"야구",en:"baseball"},{nl:"수영",en:"swimming"},{nl:"농구",en:"basketball"}]},
 ]},
 
 // ── L1b: -(으)ㄴ 적이 있다 (Have Done Before) ──
@@ -3953,6 +3985,16 @@ export default [
 {type:"drag_fill",s:"한국 학생들은 학교 후에 {1}에 가요. {2}을 준비하려고요.\n(Korean students go to ___ after school. To prepare for ___.)",blanks:{"1":"학원","2":"수능"},pool:["학원","수능","졸업","교육","학교"],hint:"Korean students go to hagwon after school. To prepare for the college entrance exam."},
 {type:"fb",s:"{1}이 좋아야 좋은 대학교에 갈 수 있어요.\n(Your ___ must be good to get into a good university.)",a:"성적",opts:["성적","시험","수능","교육"],hint:"Your ___ must be good to get into a good university. Grades."},
 {type:"match",pairs:[{nl:"교육",en:"education"},{nl:"학원",en:"cram school"},{nl:"졸업하다",en:"to graduate"},{nl:"학교",en:"school"}]},
+
+// ── School subjects ──
+{type:"teach",kind:"word",nl:"수학",en:"mathematics",phonetic:"su-hak",example:"수학 시험이 어려웠어요.",exampleEn:"The math exam was hard.",note:"COMPOUND: 수(number/數) + 학(study/學).\nNumber-study = mathematics."},
+{type:"teach",kind:"word",nl:"과학",en:"science",phonetic:"gwa-hak",example:"과학을 좋아해요.",exampleEn:"I like science.",note:"COMPOUND: 과(department/科) + 학(study/學).\nDepartment-study = science."},
+{type:"teach",kind:"word",nl:"역사",en:"history",phonetic:"yeok-sa",example:"한국 역사를 공부해요.",exampleEn:"I study Korean history.",note:"COMPOUND: 역(pass/歷) + 사(thing/史).\nPass-record = history."},
+{type:"teach",kind:"word",nl:"영어",en:"English (language)",phonetic:"yeong-eo",example:"영어를 잘해요.",exampleEn:"I'm good at English.",note:"COMPOUND: 영(English/英) + 어(language/語).\nEnglish-language."},
+{type:"teach",kind:"word",nl:"음악",en:"music",phonetic:"eu-mak",example:"음악을 듣는 것을 좋아해요.",exampleEn:"I like listening to music.",note:"COMPOUND: 음(sound/音) + 악(music/樂).\nSound-music = music."},
+{type:"mc",q:"수학 breaks down as:",opts:["Number + study","Science + study","History + study","Music + study"],ans:"Number + study",hint:"수 = number. 학 = study. Number-study = math."},
+{type:"match",pairs:[{nl:"수학",en:"math"},{nl:"과학",en:"science"},{nl:"역사",en:"history"},{nl:"음악",en:"music"}]},
+{type:"fb",s:"한국 {1}를 공부하면 한국을 더 잘 이해할 수 있어요.\n(If you study Korean ___, you can understand Korea better.)",a:"역사",opts:["역사","수학","과학","음악"],hint:"Study Korean HISTORY to understand Korea better."},
 ]},
 
 // ── L3: 수능 문화 (Korean Exam Culture) ──
