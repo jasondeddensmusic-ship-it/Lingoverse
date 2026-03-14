@@ -21,12 +21,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: lingoverse.nl
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /httpdocs/
-          protocol: ftps
+      - name: Deploy via FTPS
+        run: |
+          lftp -u "${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }}" \
+            -e "set ftp:ssl-force true; set ssl:verify-certificate no; set ftp:ssl-protect-data true; mirror -R --verbose ./dist/ /httpdocs/; quit" \
+            lingoverse.nl
