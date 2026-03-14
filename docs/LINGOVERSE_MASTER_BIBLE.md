@@ -267,7 +267,7 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 |----------|-------|---------|-------|-----|--------|
 | Dutch (nl) v2 | 20 | 164 | 2,681 | 16.3/lesson | ✅ A1–B1 complete. Retroactive polish needed after Korean B1. |
 | Dutch (nl) legacy | 23 | 73 | 913 | 12.5/lesson | Archive. Below density standard. |
-| Korean (ko) | 6 | 54 | 931 | 17.2/lesson | ✅ A1 done (with gap fixes needed). 20-unit spine exists. U7–U20 needed. |
+| Korean (ko) | 10 | 102 | 2,056 | 20.2/lesson | ✅ A1-A2 complete. 91 density issues (0 CRITICAL). A1 gaps fixed. U11–U20 (B1) needed. |
 | German (de) | 5 | 19 | 235 | 12.4/lesson | Very early. A1 U1–U5 only. Lean density. |
 | Arabic (ar) | 5 | 10 | 106 | 10.6/lesson | Skeleton. RTL works. Full curriculum needed. |
 | French (fr) | 0 | 0 | 0 | — | Not started. |
@@ -296,7 +296,7 @@ Arabic-speaking people in Dutch, German, French, and Spanish-speaking countries 
 | Language | What's needed | Scale |
 |----------|--------------|-------|
 | Dutch | Retroactive density polish | Significant but mechanical |
-| Korean | A1 gap fixes + U7–U20 | 14 units, ~120 lessons |
+| Korean | Density polish (91 remaining) + U11–U20 (B1) | 10 units, ~100 lessons |
 | German | A1 audit + U6–U20 | Full rebuild from U6 |
 | French | U1–U20 from scratch | Full course |
 | Spanish | U1–U20 from scratch | Full course |
