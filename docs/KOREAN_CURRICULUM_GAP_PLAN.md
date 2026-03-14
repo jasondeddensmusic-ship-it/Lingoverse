@@ -13,14 +13,15 @@ The v1 gap plan (same date) contained **7 false positives**: patterns listed as 
 **Removed from gap list (already in code):**
 - 죄송합니다 — fully taught U1L7, 5 MC exercises
 - 한테 — taught U5L3+, 10+ uses across units
-- 그리고 — taught U3L2, teach card + drag_fill
+- 그리고 — taught U4L4, teach card + drag_fill
+- 그래서 — taught U6L9.1, full teach card (line 1844)
 - -(으)니까 — full lesson U9L3, contrasts with -아/어서
 - -(으)ㄹ게요 — multiple teaches U8-U10, MC quiz U9L4
 - -기 전에 — taught U8L5, teach card + MC + FB
 - -거나 — taught U10L2, MC exercise
 
-**Actual confirmed gap count: ~20-25 patterns (not ~40).**
-**TTMIK coverage recalculated: ~70-75% (not ~60-65%).**
+**Actual confirmed gap count: ~19-24 patterns (not ~40).**
+**TTMIK coverage recalculated: ~72-77% (not ~60-65%).**
 
 ---
 
@@ -46,18 +47,17 @@ This plan follows the owner's polyglot acquisition vision:
 
 | # | Pattern | Meaning | Status in Code | Action |
 |---|---------|---------|---------------|--------|
-| 1 | 그래서 | "So/therefore" connector | ABSENT | Add teach card + exercises U6 |
-| 2 | 누구 (standalone) | "Who" question word | Example-only, no teach card | Add formal teach card U2 |
-| 3 | -만 (general) | "Only" particle | Only in 잠시만요 compound | Add standalone teach U3 |
-| 4 | -(으)ㄴ 후에 | "After doing" | ABSENT | New lesson U10/U11 |
-| 5 | -자마자 | "As soon as" | ABSENT | New lesson U12/U13 |
-| 6 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 |
-| 7 | -(으)ㄹ까요? | "Shall we?" suggestion | ABSENT as formal teach | New lesson U9 |
-| 8 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
-| 9 | -(으)ㄴ 적이 있다 | "Have done before" | ABSENT | New lesson U11/U12 |
-| 10 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
-| 11 | -(으)려면 | "If you want to" | ABSENT | Add to U14 |
-| 12 | -한테서 | "From a person" | ABSENT (한테 exists, 한테서 doesn't) | Add teach card U10 |
+| 1 | 누구 (standalone) | "Who" question word | Example-only, no teach card | Add formal teach card U2 |
+| 2 | -만 (general) | "Only" particle | Only in 잠시만요 compound | Add standalone teach U3 |
+| 3 | -(으)ㄴ 후에 | "After doing" | ABSENT | New lesson U10/U11 |
+| 4 | -자마자 | "As soon as" | ABSENT | New lesson U12/U13 |
+| 5 | -(으)ㄹ래요 | Casual want/intention | ABSENT (U4 title only) | New lesson U9 |
+| 6 | -(으)ㄹ까요? | "Shall we?" suggestion | ABSENT as formal teach | New lesson U9 |
+| 7 | -(으)러 가다/오다 | "Go/come to do" | ABSENT | Add to U11 |
+| 8 | -(으)ㄴ 적이 있다 | "Have done before" | ABSENT | New lesson U11/U12 |
+| 9 | N밖에 + negative | "Nothing but" | ABSENT | Add to U17 |
+| 10 | -(으)려면 | "If you want to" | ABSENT | Add to U14 |
+| 11 | -한테서 | "From a person" | ABSENT (한테 exists, 한테서 doesn't) | Add teach card U10 |
 
 ### Tier 2: Important (Expected at B1)
 
@@ -172,13 +172,13 @@ Until their harvest lesson provides formal teach cards.
 
 | Pattern | Seed Location | How | Harvest Target |
 |---------|--------------|-----|---------------|
-| 누구/왜/어떻게 | U2 L3-L5 | Add question word teach cards | A1 (immediate formal teach) |
-| 그래서 | U1 L7+ or U3 | Seed in example sentences | U6 (formal teach) |
-| -만 | U3 L4 (counters) | "하나만 주세요" (just one please) | U8 or stay implicit |
-| -(이)나 | U4 L2 (food) | "커피나 차" (coffee or tea) | U13 (formal teach with -거나) |
-| -(으)ㄹ래요 | U4 L5+ | "뭐 먹을래요?" JRTF note | U9 (formal teach) |
-| -(으)ㄹ까요 | U4 L5+ | "같이 갈까요?" JRTF note | U9 (formal teach) |
-| -아/어도 | U8 (health) | "아파도 괜찮아요" as example | U13/U14 (formal teach) |
+| 누구/왜/어떻게/언제 | U2 L9b | **DONE**: Full teach cards + 21 exercises | A1 (immediate formal teach) |
+| 그래서 | U6 L9.1 | **ALREADY TAUGHT**: Full teach card (line 1844) | N/A (already exists) |
+| -만 | U3 L4 (counters) | **DONE**: Teach card + 3 MC exercises | U8 or stay implicit |
+| -(이)나 | U4 L5 (restaurant) | **DONE**: "커피나 차 드릴까요?" in 좀 example | U13 (formal teach with -거나) |
+| -(으)ㄹ래요 | U4 L1 (food) | Already seeded: "라면 먹을래요?" + unit title | U9 (formal teach) |
+| -(으)ㄹ까요 | U4 L6 (반찬) | **DONE**: "같이 먹을까요?" + "같이 갈까요?" | U9 (formal teach) |
+| -아/어도 | U6 L6 (weather) | **DONE**: "비가 와도 괜찮아요" in 비가 와요 example | U13/U14 (formal teach) |
 
 ### Seeds for A2 (Units 7-10)
 
@@ -213,12 +213,10 @@ Until their harvest lesson provides formal teach cards.
 - 2-3 MC exercises testing -만
 
 **U6 additions (Transport):**
-- Add 그래서 teach card (so/therefore) — 그리고 and 그런데 already exist
-- "버스가 늦었어요. 그래서 택시를 탔어요."
-- 2-3 MC/FB exercises
-- Seed: -(이)나 in example if not already present
+- 그래서 already taught in kou6l9.1 (line 1844). No action needed.
+- Seed: -(이)나 in U4/U6 example if not already present
 
-**Estimated A1 patch: 1 new lesson (question words) + 8-12 new steps in existing lessons.**
+**Estimated A1 patch: 1 new lesson (question words) + 5-8 new steps in existing lessons.**
 
 ### Phase B: A2 Structural Unlocks (Units 7-10) — New lessons
 
@@ -335,10 +333,9 @@ Priority: U20 first (worst), then U19, U18, U17 upward.
 
 ### Sprint 1: A1 Patch (Smallest, highest impact)
 1. Add question word teach cards (누구/왜/어떻게) to U2
-2. Add 그래서 teach card to U6
-3. Add -만 standalone teach card to U3
-4. Sprinkle seeds for Tier 1 gaps across U3-U6
-5. Update seed registry
+2. Add -만 standalone teach card to U3
+3. Sprinkle seeds for Tier 1 gaps across U3-U6
+4. Update seed registry
 
 ### Sprint 2: A2 Structural Unlocks
 6. Add -(으)ㄹ까요?/-(으)ㄹ래요 lesson to U9
