@@ -40,11 +40,11 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `units-korean.js` | ~4,713 | All 20 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
-### Engine (`src/lingoverse.jsx`, ~12,847 lines)
+### Engine (`src/lingoverse.jsx`, ~12,892 lines)
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 82 decisions (D1-D82), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 84 decisions (D1-D84), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
@@ -298,7 +298,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 1. KOREAN_DICT hardcoded in engine (~line 10384) - extract to per-language module
 2. LANG_BLUEPRINT incomplete - need fr/es before building those curricula
 3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
-4. No multi-source lesson schema - units assume English source
+4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
 
 ---

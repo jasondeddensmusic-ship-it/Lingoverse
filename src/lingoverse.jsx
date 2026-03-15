@@ -2842,6 +2842,30 @@ DECISION 82 — Documentation Hierarchy (2026-03-14)
   RULE: Never treat Tier 3 docs as current truth. They are preserved
   for audit trail only. Always check the correction notices at top.
 
+DECISION 83 — Onboarding: Skip "I speak" + Flag Icon Grid (2026-03-15)
+  PROBLEM: "I speak" language selection screen was unnecessary since
+  English is the only source language. "I want to learn" used a dropdown
+  that didn't match the Profile screen's flag icon card UI.
+  FIX: (a) Removed step 1 ("I speak") entirely, hardcoded baseSel="en".
+  Splash now goes directly to target language picker.
+  (b) Replaced dropdown target picker with flag icon grid using the
+  same .lang-card CSS class and CountryFlag component as Profile screen.
+  RULE: Re-add "I speak" screen when Arabic is implemented as a second
+  source language. Until then, English is hardcoded.
+
+DECISION 84 — Korean/English Translation Separation (2026-03-15)
+  PROBLEM: fb/mc/drag_fill exercises showed English translations inline
+  with Korean text. koreanHl() and smartHl() applied random purple/green
+  coloring to English words mixed in with Korean.
+  FIX: (a) splitKoEn() helper splits st.s/st.q on newline: first line
+  is Korean (rendered via koreanHl), rest is English (rendered plain).
+  (b) renderEnglishBelow() shows toggleable translation: hidden by
+  default for fb/mc (comprehension first), visible for drag_fill
+  (multi-blank needs context). Toggle resets on step navigation.
+  (c) {1} format normalized to ___ in fb renderer for Korean content.
+  RULE: All quiz renderers must separate Korean and English before
+  applying highlighting. English translations are never highlighted.
+
 
 ═══════════════════════════════════════════════════════════════════════
 LINGOVERSE CONTENT PIPELINE — Mandatory Checklist for New Content
@@ -8034,14 +8058,9 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
 
 function Onboarding({onComplete}){
   const dk=document.documentElement.classList.contains("dark");
-  const [step,setStep]=useState(0);
-  const [baseSel,setBaseSel]=useState(null);
+  const [step,setStep]=useState(0); // 0=splash, 1=pick target language
   const [targetSel,setTargetSel]=useState(null);
-  const [openBase,setOpenBase]=useState(false);
-  const [openTarget,setOpenTarget]=useState(false);
-  const tgtLang=LANGUAGES.find(l=>l.code===targetSel);
-  const bLang=BASE_LANGUAGES.find(l=>l.code===baseSel);
-  const colors=targetSel?FLAG_COLORS[targetSel]:null;
+  const baseSel="en"; // D83: hardcoded until Arabic source language is added
 
   // Ctrl+S → proceed on ALL onboarding screens
   useEffect(()=>{
@@ -8049,13 +8068,12 @@ function Onboarding({onComplete}){
       if((e.ctrlKey||e.metaKey)&&e.key==="s"){
         e.preventDefault();
         if(step===0) setStep(1);
-        else if(step===1&&baseSel) setStep(2);
-        else if(step===2&&targetSel) onComplete(baseSel,targetSel);
+        else if(step===1&&targetSel) onComplete(baseSel,targetSel);
       }
     };
     window.addEventListener("keydown",h);
     return ()=>window.removeEventListener("keydown",h);
-  },[step,baseSel,targetSel]);
+  },[step,targetSel]);
 
   // Step 0: Splash
   if(step===0) return(
@@ -8070,67 +8088,13 @@ function Onboarding({onComplete}){
     </div>
   );
 
-  // Step 1: "I speak..." — same dropdown style as original
-  if(step===1) return(
-    <div className="ob-overlay" style={{overflowY:"auto",padding:20}}>
-      <div className="ob-card" style={{maxWidth:480}}>
-        <div style={{width:76,height:76,borderRadius:19,margin:"0 auto 16px",overflow:"hidden",boxShadow:"0 8px 28px rgba(123,94,232,0.25)",position:"relative"}}>
-          {baseSel?(
-            <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={baseSel} size={40}/></div>
-          ):(
-            <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:32}}>🗣️</div>
-          )}
-        </div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4}}>I speak...</h2>
-        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14}}>Choose your native language</p>
-
-        <div style={{position:"relative",maxWidth:320,margin:"0 auto 28px"}}>
-          <div onClick={()=>setOpenBase(!openBase)} style={{background:"var(--card-bg)",border:`2px solid ${baseSel?"var(--purple-accent)":"var(--card-border)"}`,borderRadius:16,padding:"14px 18px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"space-between",transition:"all .15s",boxShadow:openBase?"0 8px 24px rgba(0,0,0,0.08)":"none"}}>
-            {baseSel?(
-              <div style={{display:"flex",alignItems:"center",gap:12}}>
-                <CountryFlag code={baseSel} size={28}/>
-                <div>
-                  <div className="hd" style={{fontWeight:700,fontSize:16}}>{bLang?.name}</div>
-                  <div style={{fontSize:12,color:"var(--gray-400)"}}>{bLang?.native}</div>
-                </div>
-              </div>
-            ):(
-              <span style={{color:"var(--gray-400)",fontSize:15}}>Select your language...</span>
-            )}
-            <span style={{fontSize:18,color:"var(--gray-400)",transition:"transform .2s",transform:openBase?"rotate(180deg)":"none"}}>⌄</span>
-          </div>
-          {openBase&&<div className="anim" style={{position:"absolute",top:"100%",left:0,right:0,marginTop:6,background:"var(--card-bg)",borderRadius:16,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 12px 32px rgba(0,0,0,0.12)",zIndex:10,overflow:"hidden"}}>
-            {BASE_LANGUAGES.map(l=>(
-              <div key={l.code} onClick={()=>{setBaseSel(l.code);setOpenBase(false);}} style={{display:"flex",alignItems:"center",gap:12,padding:"12px 18px",cursor:"pointer",background:baseSel===l.code?"var(--purple-bg)":"transparent",borderBottom:"1px solid var(--gray-50)",transition:"background .1s"}} onMouseEnter={e=>e.currentTarget.style.background=baseSel===l.code?"var(--purple-bg)":"var(--gray-50)"} onMouseLeave={e=>e.currentTarget.style.background=baseSel===l.code?"var(--purple-bg)":"transparent"}>
-                <CountryFlag code={l.code} size={24} variant="plain"/>
-                <div style={{flex:1}}>
-                  <div style={{fontWeight:700,fontSize:14,color:"var(--gray-800)"}}>{l.name}</div>
-                  <div style={{fontSize:11,color:"var(--gray-400)"}}>{l.native}</div>
-                </div>
-              </div>
-            ))}
-          </div>}
-        </div>
-
-        <button className="btn btn-blue" style={{fontSize:17,padding:"14px 36px",borderRadius:16,opacity:baseSel?1:.4,transition:"all .2s"}} disabled={!baseSel} onClick={()=>baseSel&&setStep(2)}>
-          {t("ob_continue",baseSel||"en")}
-        </button>
-      </div>
-    </div>
-  );
-
-  // Step 2: "I want to learn..." — exact same style as the original target picker
+  // Step 1: "I want to learn..." — flag icon grid matching Profile screen (D83)
   return(
     <div className="ob-overlay" style={{overflowY:"auto",padding:20}}>
-      <div className="ob-card" style={{maxWidth:480}}>
-        <div style={{width:76,height:76,borderRadius:19,margin:"0 auto 16px",overflow:"hidden",boxShadow:colors?`0 8px 28px ${colors[0]}50`:"0 8px 28px rgba(123,94,232,0.25)",transition:"all .3s",position:"relative"}}>
-          {colors?(
-            <div style={{width:"100%",height:"100%",display:"flex",flexDirection:"column"}}>
-              <div style={{flex:1,background:colors[0]}}/>
-              <div style={{flex:1,background:colors[1]}}/>
-              <div style={{flex:1,background:colors[2]}}/>
-              <div style={{position:"absolute",inset:0,display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={targetSel} size={40}/></div>
-            </div>
+      <div className="ob-card" style={{maxWidth:520}}>
+        <div style={{width:76,height:76,borderRadius:19,margin:"0 auto 16px",overflow:"hidden",boxShadow:"0 8px 28px rgba(123,94,232,0.25)",position:"relative"}}>
+          {targetSel?(
+            <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={targetSel} size={44}/></div>
           ):(
             <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:32,fontWeight:900,color:"#fff",fontFamily:"'DM Sans',sans-serif"}}>L</div>
           )}
@@ -8138,41 +8102,17 @@ function Onboarding({onComplete}){
         <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4}}>{t("ob_i_want_learn",baseSel)}</h2>
         <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14}}>{t("ob_choose_target",baseSel)}</p>
 
-        <div style={{position:"relative",maxWidth:320,margin:"0 auto 28px"}}>
-          <div onClick={()=>setOpenTarget(!openTarget)} style={{background:"var(--card-bg)",border:`2px solid ${targetSel?"var(--purple-accent)":"var(--card-border)"}`,borderRadius:16,padding:"14px 18px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"space-between",transition:"all .15s",boxShadow:openTarget?"0 8px 24px rgba(0,0,0,0.08)":"none"}}>
-            {targetSel?(
-              <div style={{display:"flex",alignItems:"center",gap:12}}>
-                <CountryFlag code={targetSel} size={28}/>
-                <div>
-                  <div className="hd" style={{fontWeight:700,fontSize:16}}>{tgtLang?.name}</div>
-                  <div style={{fontSize:12,color:"var(--gray-400)"}}>{tgtLang?.native}</div>
-                </div>
-              </div>
-            ):(
-              <span style={{color:"var(--gray-400)",fontSize:15}}>{t("ob_select_target",baseSel)}</span>
-            )}
-            <span style={{fontSize:18,color:"var(--gray-400)",transition:"transform .2s",transform:openTarget?"rotate(180deg)":"none"}}>⌄</span>
-          </div>
-          {openTarget&&<div className="anim" style={{position:"absolute",top:"100%",left:0,right:0,marginTop:6,background:"var(--card-bg)",borderRadius:16,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 12px 32px rgba(0,0,0,0.12)",zIndex:10,overflow:"hidden",maxHeight:300,overflowY:"auto"}}>
-            {LANGUAGES.map(l=>(
-              <div key={l.code} onClick={()=>{setTargetSel(l.code);setOpenTarget(false);}} style={{display:"flex",alignItems:"center",gap:12,padding:"12px 18px",cursor:"pointer",background:targetSel===l.code?"var(--purple-bg)":"transparent",borderBottom:"1px solid var(--gray-50)",transition:"background .1s"}} onMouseEnter={e=>e.currentTarget.style.background=targetSel===l.code?"var(--purple-bg)":"var(--gray-50)"} onMouseLeave={e=>e.currentTarget.style.background=targetSel===l.code?"var(--purple-bg)":"transparent"}>
-                <CountryFlag code={l.code} size={24} variant="plain"/>
-                <div style={{flex:1}}>
-                  <div style={{fontWeight:700,fontSize:14,color:"var(--gray-800)"}}>{l.name}</div>
-                  <div style={{fontSize:11,color:"var(--gray-400)"}}>{l.native}</div>
-                </div>
-                <span style={{fontSize:13,color:"var(--gray-300)"}}>{l.greeting}</span>
-              </div>
-            ))}
-          </div>}
+        <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center",maxWidth:460,margin:"0 auto 28px"}}>
+          {LANGUAGES.map(l=>(
+            <div key={l.code} className={`lang-card ${targetSel===l.code?"active":""}`} onClick={()=>setTargetSel(l.code)} style={{cursor:"pointer"}}>
+              <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
+            </div>
+          ))}
         </div>
 
-        <div style={{display:"flex",gap:10,justifyContent:"center"}}>
-          <button onClick={()=>setStep(1)} style={{fontSize:14,padding:"12px 24px",borderRadius:14,border:"2px solid var(--gray-200)",background:"var(--card-bg)",color:"var(--gray-500)",fontWeight:700,cursor:"pointer"}}>{t("ob_back",baseSel)}</button>
-          <button className="btn btn-blue" style={{fontSize:17,padding:"14px 36px",borderRadius:16,opacity:targetSel?1:.4,transition:"all .2s"}} disabled={!targetSel} onClick={()=>targetSel&&onComplete(baseSel,targetSel)}>
-            {t("ob_start_learning",baseSel)} {targetSel?<CountryFlag code={targetSel} size={16}/>:""}
-          </button>
-        </div>
+        <button className="btn btn-blue" style={{fontSize:17,padding:"14px 36px",borderRadius:16,opacity:targetSel?1:.4,transition:"all .2s"}} disabled={!targetSel} onClick={()=>targetSel&&onComplete(baseSel,targetSel)}>
+          {t("ob_start_learning",baseSel)} {targetSel?<CountryFlag code={targetSel} size={16}/>:""}
+        </button>
       </div>
     </div>
   );
