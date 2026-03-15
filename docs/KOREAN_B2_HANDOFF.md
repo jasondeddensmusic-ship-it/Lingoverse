@@ -1,15 +1,20 @@
 # KOREAN B2 CURRICULUM HANDOFF — Agent Briefing
 
-> **Date**: 2026-03-15 (original), updated 2026-03-15 (post-build)
+> **Date**: 2026-03-15 (original), updated 2026-03-15 (post-D98)
 > **Author**: Claude Code session completing A1-B1 audits (D92+D93)
-> **Purpose**: Reference doc for B2 build decisions. B2 skeleton COMMITTED (U21-U30). Density uplift pending.
-> **Decision**: D94, D95
+> **Purpose**: Reference doc for B2 build decisions. B2 COMPLETE: skeleton + density uplift + P48/P49 fixes.
+> **Decision**: D94, D95, D96, D97, D98
 
 ---
 
 ## STATUS
 
-B2 skeleton committed 2026-03-15: 10 units, 100 lessons, ~77 grammar patterns. Density uplift pending (91/100 lessons below P43 minimum). See POST-MORTEM section at end of doc.
+B2 COMPLETE as of 2026-03-15:
+- Skeleton committed (D94): 10 units, 100 lessons, ~77 grammar patterns.
+- Density uplift DONE (D96): All 100 lessons 20-22 steps (avg 21.2).
+- **P48 fix DONE (D98)**: 520 multi-blank `fb` steps converted to `drag_fill`. Zero remaining violations.
+- **P49 fix DONE (D98)**: 15 CEFR meta-curriculum quiz steps rewritten. Zero remaining violations.
+- **Remaining**: B2 deep quality audit (D92-style P8/P34/P46 scan) not yet done.
 
 ---
 
