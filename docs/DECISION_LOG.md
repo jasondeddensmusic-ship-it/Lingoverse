@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D93 | A1-A2 Full Quality Audit | Audit | Korean |
 | D1 | Arabic: Diagram-First Intro Card | Content | Arabic |
 | D2 | Korean: No Full Sentences Before Script | Content | Korean |
 | D3 | Anti-Leak Validator | Engine | All |
@@ -173,6 +174,16 @@ Single-pass P8 scans miss subtle leaks, especially single-particle answers (는,
 
 ### D92: B1 Full Quality Audit — 14 Rounds
 Complete B1 (U11-U20) audit across 14 commit rounds. Fixed: ~50 P8 hint-reveals, 6 engine \n bugs, 5 P34 teach-before-test violations, ~15 missing translations, 3 pattern-ID MC reframes, 2 duplicate match sets, 1 misleading translation. All fixes verified by independent agent scans. Standard for future level audits.
+
+## D93: A1-A2 Full Quality Audit (2026-03-15)
+
+Complete A1-A2 (U1-U10) audit against CEFR A1/A2, TOPIK I, and TTMIK L1-4. Verified: all 34 CEFR A1 grammar constructs, 17 vocabulary domains, 50 TTMIK items, 57 TOPIK I patterns. Gaps found and fixed across 4 commit rounds:
+- **Round 1** (bea78d3): 어떤, -(으)ㄹ 때, -는 중이다 teach cards + 3 pipeline fixes.
+- **Round 2** (5756746): 52 pipeline issues (P8/D90/P44) + -(으)ㄹ게요 TOPIK gap.
+- **Round 3** (6861a44): 화나다 (emotion vocab), 아무 (TTMIK L4 prefix), -(으)ㄹ 뻔하다 (TTMIK L4).
+- **Round 4** (59e3386): 5 color teach cards (빨간/파란/하얀/검은/노란) to fix tip that said "You know" colors never taught.
+
+**Design decisions confirmed (not gaps)**: Past tense in A2 U7 (not A1), future tense in A2 U9, body parts in A2 U8, comparatives in B1 U12. Korean A1 focuses on particles + present tense; A2 adds tenses + conditions. This mirrors TTMIK and standard Korean pedagogy.
 
 ---
 
