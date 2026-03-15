@@ -169,6 +169,32 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - Engine shuffleOpts handles runtime shuffle
 - Question and answer must use DIFFERENT representations
 
+### Step Type Correctness (P48):
+- **P48**: Step type MUST match step complexity. Specifically:
+  - `fb` (fill-in-blank) is for SINGLE-BLANK steps only. The engine `fb` renderer replaces `{1}` with a blank. It does NOT handle `{2}`, `{3}`, `{4}` — those render as literal text.
+  - `drag_fill` is for MULTI-BLANK steps. It uses a `blanks:{}` object and parses all `{N}` tokens correctly.
+  - If a step has 2+ blanks, it MUST be `type:"drag_fill"` with a `blanks` object, NOT `type:"fb"` with an `a:[]` array.
+  - NEVER create `fb` steps with multiple `{N}` placeholders. They WILL render broken.
+  - This rule exists because D96 created 520 broken multi-blank `fb` steps that displayed `{2}`,`{3}`,`{4}` as literal text to learners.
+
+### No Meta-Curriculum in Learner Content (P49):
+- **P49**: CEFR levels (A1, A2, B1, B2, C1, C2) must NEVER appear in learner-facing content. Specifically:
+  - Quiz questions must NEVER ask "which level is this from?" or "this pattern recalls which level?"
+  - Quiz options must NEVER contain CEFR labels like "A2 progressive", "B1 grammar", "B2 new"
+  - Teach cards, tips, and notes must NEVER reference CEFR levels as content the learner needs to know
+  - The learner does not know what CEFR is. They are learning a LANGUAGE, not a curriculum taxonomy.
+  - Internal comments (// A2 pattern) are fine. Learner-facing strings are NOT.
+  - This rule exists because D96 interpreted "recycle A1-B1 grammar" as "quiz learners on which CEFR level grammar belongs to" — producing 100+ anti-pedagogical meta-questions.
+
+### Recycling/Review Step Quality (P50):
+- **P50**: When adding review/recycling steps that reuse earlier grammar in later units:
+  - "Recycle" means USE the pattern naturally in a new context. NOT ask about its classification.
+  - Every recycling MC/FB must test the learner's ability to USE the grammar correctly, choosing the right form/word in a Korean sentence.
+  - Good recycling: "지금 뭐 하고 있어요?" → opts: [먹고 있어요, 먹었어요, 먹을 거예요, 먹어요] (tests -고 있다 USAGE)
+  - Bad recycling: "-고 있다 is from?" → opts: [A2 progressive, B1 grammar, B2 new, A1 only] (tests TAXONOMY)
+  - Recycling steps should place old grammar in the CURRENT unit's thematic context (e.g., A1 particles in B2 workplace sentences).
+  - The Polyglot Pipeline Pillar 1 (Show Before Name) applies: test comprehension and production, never label recall.
+
 ### Build-Time Quality Enforcement:
 - **P47**: Step density must be validated PER LESSON DURING BUILD, not after. Every lesson must meet P43 minimums before the builder moves to the next lesson. Batch-building thin skeletons for later uplift is a known anti-pattern that has caused two costly uplift passes (D88 for B1, D95 for B2). See Agent Rule 7 for enforcement details.
 
@@ -462,6 +488,18 @@ When building curriculum content (units/lessons) across multiple units:
 ### Why Rule 7 Exists
 In March 2026, the Korean B2 build (U21-U30, 100 lessons) was completed with 91/100 lessons below the P43 density minimum. The build session produced progressively thinner content as it continued — early units averaged 17.7 steps, final units averaged 10.9. No agent was monitoring density during the build. The main session and all sub-agents focused on grammar scope and structural correctness but ignored step count requirements. This cost the owner a full separate uplift pass (same as D88 for B1). The pipeline must guarantee quality by PROCESS (Principle 3) — density is a process guarantee, not a post-hoc fix.
 
+### Rule 8: Content Quality Gate for Uplift/Batch Edits (D97)
+When performing density uplifts, batch content additions, or any operation that adds steps to existing lessons:
+1. **Every added step must be pedagogically valid on its own.** A step that meets density count but teaches nothing is WORSE than a missing step — it wastes learner time and erodes trust.
+2. **Verify step type correctness (P48)**: Every `fb` step has exactly ONE blank (`{1}`). Every multi-blank step uses `drag_fill` with a `blanks` object. Run a grep for `type:"fb"` + `{2}` after any batch edit.
+3. **Verify no meta-curriculum leakage (P49)**: Grep for CEFR level strings (A1, A2, B1, B2, C1) in quiz `q`, `opts`, and `ans` fields after any batch edit. Zero tolerance.
+4. **Verify recycling quality (P50)**: Every recycling step must test USAGE of the grammar, not classification. Spot-check at least 5 recycling steps per unit after batch addition.
+5. **Run a rendering sanity check**: For every new step type used, mentally trace the engine renderer path. Does the engine actually support what the data expects? Check the renderer code, not assumptions.
+6. **Post-uplift audit is MANDATORY, not optional.** After any batch edit touching 10+ steps, run P8/P48/P49/P50 verification BEFORE committing. The D96 uplift added ~600 steps with zero quality verification — this must never happen again.
+
+### Why Rule 8 Exists
+In March 2026, the D96 density uplift added ~600 steps to Korean B2 to meet P43 minimums. The uplift enforced step COUNT but not step QUALITY. Result: 520 broken multi-blank `fb` steps (engine only supports single-blank), 100+ CEFR taxonomy quizzes (learners asked to classify grammar by level), and hundreds of shallow recycling steps. The owner described this as "disrespecting the pipeline and polyglot vision." Density without quality is anti-pedagogy. Rule 8 ensures that quantity metrics never override teaching quality again.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -490,3 +528,6 @@ The goal: any future Claude Code session should be able to read CLAUDE.md + memo
 6. **Treat every session as if building for a language you don't speak.** The rules exist because they caught real errors.
 7. **Code is truth, docs are claims.** When verifying what exists in the curriculum, grep the data files. CLAUDE.md and docs describe intent; `units-*.js` files contain reality. (D80)
 8. **A human with Ctrl+F must not be faster than your agents.** If a verification task is a simple keyword search, do it directly. Deploy agents only for tasks requiring judgment or cross-referencing. (D81)
+9. **Learners learn LANGUAGE, not curriculum structure.** CEFR levels, grammar labels, unit numbers — these are internal tools. Learners never see them, never need them, never get quizzed on them. (P49)
+10. **Density without quality is anti-pedagogy.** A step that meets count but teaches nothing is worse than no step. Every step must earn its place by teaching, testing, or reinforcing LANGUAGE. (D97)
+11. **Step type must match engine capability.** Before creating a step, verify the engine renderer actually supports the data shape. Multi-blank needs drag_fill, not fb. Check the code, not assumptions. (P48)
