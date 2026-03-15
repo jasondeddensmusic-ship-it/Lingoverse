@@ -7665,6 +7665,19 @@ export default [
 {type:"match",pairs:[{nl:"-는 바람에",en:"Because (unexpected cause)"},{nl:"-(으)ㄹ지라도",en:"Even if (formal concession)"},{nl:"-곤 하다",en:"Used to (habitual)"},{nl:"-나 보다",en:"It seems that (inference)"}]},
 {type:"drag_fill",s:"B2 패턴 중 원인은 '{1}', 양보는 '{2}', 정도는 '{3}', 습관은 '{4}'.\n(Cause = 바람에. Concession = ㄹ지라도. Degree = 정도로. Habit = 곤 하다.)",blanks:{"1":"-는 바람에","2":"-(으)ㄹ지라도","3":"-(으)ㄹ 정도로","4":"-곤 하다"},pool:["-는 바람에","-(으)ㄹ지라도","-(으)ㄹ 정도로","-곤 하다","-는 한","-(으)ㅁ","-기 마련이다","-다기보다"],hint:"Unexpected-cause. Even-if. To-extent. Habitual-past."},
 {type:"fb",s:"눈을 {1} 사이에 봄이 왔어요. 방심하면 기회를 놓치{2} 수가 있어요.\n(While I blinked, spring came. If careless, can miss opportunities.)",a:["깜빡한","는"],opts:["깜빡한","는","깜빡하는","ㄹ","깜빡할","은"],hint:"Past-during. Present-can-happen."},
+
+{type:"mc",q:"전화를 받는 사이에 커피가 식었어요.\n받는 사이에는?",opts:["전화를 받고 있는 동안 (While receiving)","전화를 받기 전에 (Before receiving)","전화를 받은 후에 (After receiving)","전화를 받으려고 (In order to receive)"],ans:"전화를 받고 있는 동안 (While receiving)",hint:"사이에 = during that interval."},
+{type:"fb",s:"회의에 {1} 사이에 중요한 이메일이 왔어요. 방심하면 기회를 놓치{2} 수가 있어요.",a:["참석한","는"],opts:["참석한","는","참석하는","ㄹ","참석할","은"],hint:"Past modifier + gap. Present warning form."},
+{type:"mc",q:"잠깐 쉬는 사이에 비가 오기 시작했어요.\n포함된 문법은?",opts:["-는 사이에 (B2) + -기 시작하다 (B1)","-는 사이에 + 때문에","-는 수가 있다 + 반면에","-는 사이에 + -지만"],ans:"-는 사이에 (B2) + -기 시작하다 (B1)",hint:"Gap pattern + begin-to-do. Two layers."},
+{type:"drag_fill",s:"아이가 {1} 사이에 많이 컸어요. 방심{2}면 사고가 나{3} 수가 있습니다. 한국어는 어렵{4} 반면에 재미있어요.",blanks:{"1":"자는","2":"하","3":"는","4":"는"},pool:["자는","하","는","는","잔","한","ㄹ","은"],hint:"Sleep-modifier + gap. Conditional. Warning. Contrast."},
+{type:"mc",q:"부장님이 자리를 비운 사이에 직원들이 편하게 이야기했어요.\n자리를 비우다 means:",opts:["잠시 자리를 떠나다 (Step away briefly)","자리를 청소하다 (Clean the seat)","출근하다 (Arrive at work)","완전히 떠나다 (Leave permanently)"],ans:"잠시 자리를 떠나다 (Step away briefly)",hint:"비우다 = to empty. 자리를 비우다 = leave temporarily."},
+{type:"fb",s:"서울에서 부산{1}지 KTX로 두 시간밖에 안 걸리{2} 반면에 버스는 다섯 시간이나 걸려요.",a:["까","는"],opts:["까","는","에","은","로","ㄴ"],hint:"Endpoint particle (A1). Present contrast modifier."},
+{type:"match",pairs:[{nl:"-는 사이에",en:"During the gap (while away)"},{nl:"-는 수가 있다",en:"It can happen (warning)"},{nl:"-(으)ㄹ 수 있다",en:"Can / able to (ability)"},{nl:"-는 동안",en:"During / while (duration)"}]},
+{type:"mc",q:"감기에 걸리는 수가 있으니까 따뜻하게 입으세요.\nA1-B1 문법은?",opts:["-(으)니까 (reason, A2) + -(으)세요 (request, A1)","때문에 + 반면에","-지만 + -아서","-고 + -는데"],ans:"-(으)니까 (reason, A2) + -(으)세요 (request, A1)",hint:"Two earlier patterns wrapping B2 content."},
+{type:"fb",s:"한국 경제가 {1}한 반면에 출생률은 계속 {2}하고 있다. 이{3} 인해 노동 인구 문제가 심각해{4}고 있다.",a:["성장","감소","로","지"],opts:["성장","감소","로","지","발전","증가","에","하"],hint:"Growth. Decline. Due-to. Become-serious."},
+{type:"drag_fill",s:"뉴스를 {1} 사이에 상황이 바뀌었어요. 이런 일이 생기{2} 수가 있{3}니까 항상 확인하{4} 것이 좋아요.",blanks:{"1":"안 본","2":"는","3":"으","4":"는"},pool:["안 본","는","으","는","안 보는","ㄹ","어","은"],hint:"Negation + past modifier + gap. Warning. Because. Recommendation."},
+{type:"mc",q:"다음 중 양보(concession) 패턴만 모은 것은?",opts:["-(으)ㄹ지라도, -(으)나 마나, -아/어 봤자","-(으)ㄹ 정도로, -(으)ㄹ 지경이다, -(으)ㄹ 만큼","-는 바람에, -(으)ㄴ 탓에, -느라고","-(으)ㄴ 반면에, -는 한편, -다기보다"],ans:"-(으)ㄹ지라도, -(으)나 마나, -아/어 봤자",hint:"Concession = even if / futile. Which group ALL express that?"},
+{type:"fb",s:"어제 집에 {1} 사이에 택배가 왔{2} 봐요. 현관 앞에 상자가 놓여 {3}더라고요.",a:["없는","나","있"],opts:["없는","나","있","없을","는","있는"],hint:"Absence + gap. Inference (나 보다). Evidential (더라고요)."},
 ]},
 // --- L2: 원인 복습 (Cause Review) ---
 {id:"kou30l2",title:"원인 복습",icon:"🔍",xp:20,board:true,steps:[
@@ -7679,6 +7692,18 @@ export default [
 {type:"drag_fill",s:"열심히 공부{1}라고 놀 시간이 없었어요. 친구 {2}에 좋은 기회를 얻었어요. 사고{3} 인해 출근이 늦었다. 비{4} 바람에 약속에 못 갔어요.\n(Busy studying, no play time. Thanks to friend, got opportunity. Due to accident, late. Rain unexpectedly, missed appointment.)",blanks:{"1":"느","2":"덕분","3":"로","4":"오는"},pool:["느","덕분","로","오는","는","탓","에","온"],hint:"Busy-doing. Grateful. Due-to. Unexpected."},
 {type:"mc",q:"다음 중 격식체(formal) 원인 표현은?",opts:["-(으)로 인해 (Due to — formal written)","-(으)ㄴ 탓에 (Blame — conversational)","-는 바람에 (Unexpected — conversational)","-아/어서 (Sequential — basic)"],ans:"-(으)로 인해 (Due to — formal written)",hint:"로 인해 is the most formal: news, reports, essays."},
 {type:"fb",s:"경제 위기{1} 인해 실업률이 높아졌{2}. 정부의 노력{3} 덕분에 회복되고 있습니다.\n(Due to crisis, unemployment rose. Thanks to gov effort, recovering.)",a:["로","다","의"],opts:["로","다","의","에","어요","을"],hint:"Due-to-formal. Written-ending. Possession."},
+
+{type:"fb",s:"시험 준비{1}느라고 친구를 못 만났어요. 친구 {2}에 미안해요.",a:["하","한테"],opts:["하","한테","를","에게","의","와"],hint:"Busy-doing stem. To-person particle (A1)."},
+{type:"mc",q:"비가 오는 바람에 vs 비가 와서: 둘 다 사용할 수 있는 상황은?",opts:["비 때문에 소풍이 취소된 경우","비가 와서 기분이 좋은 경우","비가 올 예정인 경우","비가 안 오는 경우"],ans:"비 때문에 소풍이 취소된 경우",hint:"Both work for cancellation. 바람에 adds surprise/negative."},
+{type:"drag_fill",s:"과로{1} 인해 건강이 나빠졌다. 건강이 나빠{2} 탓에 일을 쉬어야 했다. 쉬{3}라고 취미를 못 즐겼다. 가족 {4}에 다시 건강해졌어요.",blanks:{"1":"로","2":"진","3":"느","4":"덕분"},pool:["로","진","느","덕분","에","한","하","탓"],hint:"Due-to-formal. Past-blame. Busy-doing. Grateful."},
+{type:"mc",q:"아침을 안 먹었더니 배고파 죽겠어요.\n원인 패턴은?",opts:["-더니 (discovered consequence)","때문에 (neutral cause)","-는 바람에 (unexpected)","-(으)므로 (formal)"],ans:"-더니 (discovered consequence)",hint:"더니 = I did X, discovered Y as result."},
+{type:"fb",s:"교통사고{1} 인해 도로가 {2}혔다. 사고가 {3} 바람에 출근이 늦었어요.",a:["로","막","난"],opts:["로","막","난","에","열","나는"],hint:"Due-to-formal. Blocked (passive). Happened-unexpectedly."},
+{type:"match",pairs:[{nl:"-아/어서",en:"Because/so (neutral, basic)"},{nl:"-(으)니까",en:"Because (subjective, discovered)"},{nl:"-(으)므로",en:"Because (formal written)"},{nl:"-거든요",en:"You see, the reason is..."}]},
+{type:"mc",q:"경제 성장으로 인해 생활 수준이 높아졌다. 구어체로 바꾸면?",opts:["경제가 성장해서 생활 수준이 높아졌어요","경제 성장으로 인해 생활 수준이 높아졌어요","경제가 성장하는 바람에 높아졌어요","경제 때문에 높아졌다"],ans:"경제가 성장해서 생활 수준이 높아졌어요",hint:"Spoken = 아서 + 해요체 ending."},
+{type:"fb",s:"한국어를 {1}느라고 밤을 새{2}어요. 선생님 {3}에 실력이 많이 늘었어요.",a:["공부하","웠","덕분"],opts:["공부하","웠","덕분","배우","잤","탓"],hint:"Study (busy-doing). Stayed-up. Grateful-cause."},
+{type:"drag_fill",s:"{1}에서 비가 오니까 우산을 가져가세요. 어제는 비가 오{2} 바람에 옷이 젖었어요. 비{3} 인해 행사가 취소되었다.",blanks:{"1":"밖","2":"는","3":"로"},pool:["밖","는","로","안","은","에"],hint:"Outside. Unexpected-present. Due-to-formal."},
+{type:"mc",q:"다음 중 주어 제약이 있는 원인 패턴은?",opts:["-느라고: 앞뒤 주어가 같아야 함","-아/어서: 주어 제약 없음","-(으)므로: 주어 제약 없음","-(으)ㄴ 탓에: 주어 제약 없음"],ans:"-느라고: 앞뒤 주어가 같아야 함",hint:"느라고 = busy doing X. Same person both clauses."},
+{type:"fb",s:"요즘 물가가 올라{1} 탓에 생활이 어려워{2}어요. 정부의 노력에{3} 불구하고 나아지{4} 않고 있어요.",a:["간","졌","도","지"],opts:["간","졌","도","지","가는","진","는","고"],hint:"Past-blame. Became-difficult. Despite. Negation."},
 ]},
 // --- L3: 대조 복습 (Contrast Review) ---
 {id:"kou30l3",title:"대조 복습",icon:"⚖️",xp:20,board:true,steps:[
@@ -7691,6 +7716,20 @@ export default [
 {type:"drag_fill",s:"어렵{1} 재미있어요. 어려{2}지라도 포기하지 마세요. 어렵{3} 반면에 보람 있어요. 설명해 {4} 이해 못 해요.\n(Hard but fun. Even if hard, don't give up. Hard but rewarding. Useless to explain.)",blanks:{"1":"지만","2":"울","3":"는","4":"봤자"},pool:["지만","울","는","봤자","은데","운","은","봐서"],hint:"Simple-but. Future-concession. Present-comparison. Futile-try."},
 {type:"fb",s:"밥{1}커녕 물도 못 마셨어요. 하지만 포기{2}들 달라지는 건 없어요.\n(Let alone food, no water. But even giving up wouldn't change anything.)",a:["은","한"],opts:["은","한","을","하는","이","할"],hint:"Let-alone. Past-literary-concession."},
 {type:"mc",q:"격식 순서: 가장 구어 → 가장 문어",opts:["-아/어도 → -더라도 → -(으)ㄹ지라도 → -(으)ㄴ/는들","-(으)ㄴ/는들 → -(으)ㄹ지라도 → -더라도 → -아/어도","All same formality","Cannot be ordered"],ans:"-아/어도 → -더라도 → -(으)ㄹ지라도 → -(으)ㄴ/는들",hint:"아도 (basic) < 더라도 (stronger) < ㄹ지라도 (formal) < 는들 (literary)."},
+
+{type:"fb",s:"한국 음식은 맵{1} 반면에 일본 음식은 {2}한 편이에요. 둘 다 맛{3}지만 스타일이 달라요.",a:["는","담백","있"],opts:["는","담백","있","은","매운","없"],hint:"Present contrast. Mild flavor. Delicious + but."},
+{type:"mc",q:"아무리 설명해도 이해를 못 해요. 양보 패턴은?",opts:["-아/어도: 기본 양보 (even if, basic)","-(으)ㄹ지라도: 격식 양보 (formal)","-는들: 문어 양보 (literary)","-(으)나 마나: 무의미 양보 (futile)"],ans:"-아/어도: 기본 양보 (even if, basic)",hint:"아무리 + 아도 = no matter how much."},
+{type:"drag_fill",s:"서울은 복잡{1} 반면에 제주도는 조용{2}요. 비싸{3}라도 서울에서 살고 싶어요. 시골에서 살{4} 봤자 불편해요.",blanks:{"1":"한","2":"해","3":"더","4":"아"},pool:["한","해","더","아","는","하","아서","어"],hint:"Adj-contrast. Copula. Even-if-stronger. Futile-try."},
+{type:"mc",q:"노력했음에도 불구하고 실패했다. 에도 불구하고 앞에는?",opts:["-(으)ㅁ 명사화: 노력했음","-(으)ㄴ 관형사: 노력한","해요체: 노력했어요","반말: 노력했어"],ans:"-(으)ㅁ 명사화: 노력했음",hint:"에도 불구하고 needs a noun. -(으)ㅁ nominalizes."},
+{type:"fb",s:"돈{1}커녕 시간도 없어요. 그래{2} 포기하{3} 않을 거예요.",a:["은","도","지"],opts:["은","도","지","이","는","고"],hint:"Let-alone (topic). Nevertheless. Negation."},
+{type:"match",pairs:[{nl:"-(으)ㅁ에도 불구하고",en:"Despite (formal written)"},{nl:"-은/는커녕",en:"Let alone / far from"},{nl:"-아/어 봤자",en:"Even trying, useless"},{nl:"-(으)나 마나",en:"Whether or not, same"}]},
+{type:"mc",q:"비싸기는 하지만 맛있어요. -기는 하다는?",opts:["사실 인정 + 다른 점 (Acknowledge but qualify)","완전히 동의 (Fully agree)","부정 (Deny)","질문 (Question)"],ans:"사실 인정 + 다른 점 (Acknowledge but qualify)",hint:"기는 하다 = it IS, but... Concedes the point."},
+{type:"fb",s:"공부{1}들 소용없다고 생각하{2} 마세요. 노력{3}면 결과가 있{4} 거예요.",a:["한","지","하","을"],opts:["한","지","하","을","하는","한다","해","는"],hint:"Literary-concession. Prohibition. Conditional. Future."},
+{type:"drag_fill",s:"비가 오{1}라도 등산 갈 거예요. 우산{2}커녕 모자도 없지만 괜찮아요. 등산{3} 힘들{4} 반면에 건강에 좋아요.",blanks:{"1":"더","2":"은","3":"은","4":"는"},pool:["더","은","은","는","어","이","이","ㄴ"],hint:"Even-if-stronger. Let-alone. Topic. Present-contrast."},
+{type:"mc",q:"치열함에도 불구하고 취업에 성공했다. Register는?",opts:["문어체 (Written formal)","해요체 (Polite informal)","반말 (Casual)","합쇼체 (Polite formal spoken)"],ans:"문어체 (Written formal)",hint:"-(으)ㅁ에도 불구하고 + -다 = formal written."},
+{type:"fb",s:"한국어가 어렵{1} 반면에 보람이 있어요. 어렵{2}지라도 포기하{3} 않을 거예요.",a:["는","울","지"],opts:["는","울","지","은","은","고"],hint:"Present-contrast. Formal-concession. Negation."},
+{type:"match",pairs:[{nl:"-지만 (A1)",en:"But (simple, neutral)"},{nl:"-는 반면에 (B2)",en:"On the other hand (structured)"},{nl:"-더라도 (B2)",en:"Even if (stronger)"},{nl:"-(으)ㄴ/는들 (B2)",en:"Even if (literary)"}]},
+{type:"mc",q:"밥은커녕 물도 못 마셨어요. 힘들었지만 포기 안 했어요. 대조 패턴 수는?",opts:["2개: 은커녕 + 지만","1개: 지만만","3개","0개"],ans:"2개: 은커녕 + 지만",hint:"Let-alone + but = two contrast patterns."},
 ]},
 // --- L4: 격식 복습 (Register Review) ---
 {id:"kou30l4",title:"격식 복습",icon:"🎭",xp:20,board:true,steps:[
@@ -7706,6 +7745,17 @@ export default [
 {type:"drag_fill",s:"학생들이 떠들어 {1}는 바람에 수업이 힘들었다. {2}서 교실 규칙을 강화했다. 규칙을 만들{3}다가 학생들에게 나눠 줬다.\n(Students kept chattering, class was hard. Therefore strengthened rules. Made rules then distributed.)",blanks:{"1":"대","2":"따라","3":"어"},pool:["대","따라","어","봐","그래","아"],hint:"Excessive. Formal-therefore. Do-then-transfer."},
 {type:"fb",s:"문제가 심각{1}에도 불구하고 해결책이 없{2}. {3}나 조치가 필요하{4}.\n(Despite serious problem, no solution. However, action is necessary.)",a:["함","다","그러","다"],opts:["함","다","그러","다","기","요","하지","어요"],hint:"Formal-despite. Written-ending. Formal-however. Written-ending."},
 {type:"mc",q:"-아/어다가와 -아/어서의 차이는?",opts:["다가 = action result transferred to new location / 서 = simple sequence","Same meaning","다가 is formal / 서 is casual","다가 is past / 서 is present"],ans:"다가 = action result transferred to new location / 서 = simple sequence",hint:"사다가 = buy and BRING. 사서 = buy and (then...)."},
+
+{type:"fb",s:"아이들이 떠들어 {1}서 수업을 할 수 없었어요. 조용히 하{2}고 했지만 소용없었어요.",a:["대","라"],opts:["대","라","봐","자","줘","다"],hint:"Excessive-action. Indirect command (라고 하다)."},
+{type:"mc",q:"반찬을 만들어다가 이웃에게 나눠 줬어요. B1 문법은?",opts:["-아/어 주다 (benefactive, B1 U15)","-(으)면 (conditional, A2)","때문에 (because, A1)","것 같아요 (seems, A2)"],ans:"-아/어 주다 (benefactive, B1 U15)",hint:"나눠 주다 = share for someone."},
+{type:"drag_fill",s:"강아지가 짖어 {1}서 잠을 못 잤어요. {2}라서 이사를 결심{3}다. 새 집을 구{4}다가 친구에게 알려 줬어요.",blanks:{"1":"대","2":"따","3":"했","4":"해"},pool:["대","따","했","해","봐","그래","한","하"],hint:"Excessive. Formal-therefore. Past-decision. Transfer."},
+{type:"mc",q:"한국 경제가 빠르게 성장하고 있어요. 문어체는?",opts:["한국 경제가 빠르게 성장하고 있다 (-다 ending)","한국 경제가 빠르게 성장하고 있습니다 (합쇼체)","한국 경제가 빠르게 성장하고 있어 (반말)","한국 경제 성장 중 (Telegraphic)"],ans:"한국 경제가 빠르게 성장하고 있다 (-다 ending)",hint:"문어체 = plain statement -다."},
+{type:"fb",s:"음식을 {1}다가 손님에게 대접했어요. 손님이 맛있다{2} 계속 먹어 {3}더라고요.",a:["만들어","고","대"],opts:["만들어","고","대","만들","서","줘"],hint:"Make-transfer. Indirect speech. Excessive-ate."},
+{type:"match",pairs:[{nl:"그래서 -> 따라서",en:"Therefore (spoken -> written)"},{nl:"-아/어요 -> -다",en:"Polite -> written ending"},{nl:"그런데 -> 그러나",en:"However (spoken -> written)"},{nl:"그리고 -> 또한",en:"Also (spoken -> written)"}]},
+{type:"mc",q:"문제가 심각하다. 그러나 해결책은 있다. Register는?",opts:["문어체: -다 + 그러나 (Written formal)","해요체 (Polite informal)","반말 (Casual)","합쇼체 (Polite formal spoken)"],ans:"문어체: -다 + 그러나 (Written formal)",hint:"-다 + 그러나 = consistent 문어체."},
+{type:"fb",s:"학생들이 떠들어 {1}는 {2}에 수업이 힘들었다. 조용히 시키{3}도 소용없었다.",a:["대","바람","어"],opts:["대","바람","어","줘","덕분","아"],hint:"Excessive. Unexpected-cause. Even-if-basic."},
+{type:"drag_fill",s:"커피를 {1}다가 동료에게 줬어요. 동료가 고맙다{2} 했어요. 그 {3}에 기분이 좋아{4}어요.",blanks:{"1":"사","2":"고","3":"덕분","4":"졌"},pool:["사","고","덕분","졌","만들어","라고","탓","했"],hint:"Buy-transfer. Indirect. Grateful-cause. Became."},
+{type:"mc",q:"밥 먹었어? -> 식사하셨습니까? 바뀐 요소는?",opts:["어휘 + 높임 + 종결어미 모두 (All three)","종결어미만 (Only ending)","어휘만 (Only vocabulary)","높임만 (Only honorific)"],ans:"어휘 + 높임 + 종결어미 모두 (All three)",hint:"Full register shift: word + honorific + ending ALL change."},
 ]},
 // --- L5: 뉘앙스 복습 (Nuance Review) ---
 {id:"kou30l5",title:"뉘앙스 복습",icon:"🎯",xp:20,board:true,steps:[
@@ -7722,6 +7772,16 @@ export default [
 {type:"drag_fill",s:"친구 {1}에 기회를 얻었지만, 게으름 {2}에 놓쳤어요. 후회해 {3} 소용없고, 다시 시작하{4} 뿐이에요.\n(Thanks to friend, got opportunity. Due to laziness, missed it. Regretting is useless. Merely start again.)",blanks:{"1":"덕분","2":"탓","3":"봤자","4":"ㄹ"},pool:["덕분","탓","봤자","ㄹ","바람","통","서라도","는"],hint:"Grateful. Blame. Futile. Merely."},
 {type:"mc",q:"보고 싶어 죽겠어요.\n이 표현의 특징은?",opts:["구어 과장 표현: 매우 보고 싶다 (Spoken exaggeration: miss a lot)","문어체 (Written style)","격식체 (Formal)","부정적 의미 (Negative meaning only)"],ans:"구어 과장 표현: 매우 보고 싶다 (Spoken exaggeration: miss a lot)",hint:"죽겠다 = spoken exaggeration. Both positive and negative."},
 {type:"fb",s:"더워 {1}겠어요. 에어컨을 {2} 사이에 더 더워졌어요.\n(Dying of heat. While the AC was off, it got even hotter.)",a:["죽","끈"],opts:["죽","끈","살","켠","먹","연"],hint:"Die-from. Turn-off + 사이에."},
+
+{type:"fb",s:"요즘 날씨가 추워지{1} 들어요. 감기에 걸리{2} 수가 있으니까 따뜻하게 입{3}세요.",a:["고","는","으"],opts:["고","는","으","서","ㄹ","어"],hint:"Begin-to-enter-state. Warning. Polite request."},
+{type:"mc",q:"배고파 죽겠다 vs 배가 고프다: 차이는?",opts:["죽겠다 = 과장 (exaggeration) / 고프다 = 중립 (neutral)","Same meaning","죽겠다 is literal","죽겠다 is formal"],ans:"죽겠다 = 과장 (exaggeration) / 고프다 = 중립 (neutral)",hint:"죽겠다 adds dramatic emphasis."},
+{type:"drag_fill",s:"피곤해 {1}겠어요. 잠깐 {2} 사이에 일이 많이 쌓였어요. 쉬{3} 봤자 소용없{4}니까 그냥 하겠어요.",blanks:{"1":"죽","2":"쉰","3":"어","4":"으"},pool:["죽","쉰","어","으","살","쉬는","아","이"],hint:"Dying-of. Past-gap. Futile-try. Because."},
+{type:"mc",q:"일이 많아서 죽겠는데 상사가 더 시켰어요. 문장 구조는?",opts:["-아서 죽겠다 + -는데 (background) + 시키다 (causative)","죽겠다 + 때문에","죽겠다 + 반면에","죽겠다 + 므로"],ans:"-아서 죽겠다 + -는데 (background) + 시키다 (causative)",hint:"Three layers: extreme + background + causative."},
+{type:"fb",s:"슬프{1}보다 아쉬워요. 기쁜{2}커녕 슬퍼요.",a:["다기","은"],opts:["다기","은","다고","는"],hint:"Rather-than (gentle). Let-alone (dramatic)."},
+{type:"match",pairs:[{nl:"정도로",en:"To the extent (measured)"},{nl:"지경이다",en:"To the dire point (extreme)"},{nl:"만하다",en:"Worth doing"},{nl:"만큼",en:"As much as (proportional)"}]},
+{type:"mc",q:"김에 vs 겸: 차이는?",opts:["김에 = 이왕 하는 거 (opportunistic) / 겸 = 계획 (planned)","Same meaning","김에 is formal","김에 is negative"],ans:"김에 = 이왕 하는 거 (opportunistic) / 겸 = 계획 (planned)",hint:"김에: since already doing. 겸: for dual purpose."},
+{type:"drag_fill",s:"그 영화는 볼 {1}해요. 기대했{2} 정도로 재미있었어요. 보고 싶어 {3}겠어요. 사{4} 김에 팝콘도 샀어요.",blanks:{"1":"만","2":"던","3":"죽","4":"는"},pool:["만","던","죽","는","한","은","살","ㄴ"],hint:"Worth-doing. Past-recall. Dying-to. Opportunistic."},
+{type:"fb",s:"보고 싶어 {1}겠어요. 만나{2} 않은 사이에 많은 일이 있었{3} 봐요.",a:["죽","지","나"],opts:["죽","지","나","살","고","는"],hint:"Dying-to. Negation + gap. Inference."},
 ]},
 // --- L6: TOPIK 쓰기 51번 (Q51 — Graph Description) ---
 {id:"kou30l6",title:"TOPIK 쓰기 51번",icon:"📊",xp:20,board:true,steps:[
@@ -7735,6 +7795,19 @@ export default [
 {type:"mc",q:"출생률이 감소함에 따라 노동 인구도 줄어들고 있다.\n이 문장에서 -(으)ㅁ에 따라는:",opts:["As the birth rate decreases (formal cause-effect)","Because of the birth rate","Despite the birth rate","While the birth rate"],ans:"As the birth rate decreases (formal cause-effect)",hint:"ㅁ에 따라 = as [formal noun clause] happens."},
 {type:"drag_fill",s:"이 그래프는 한국의 1인 가구 {1}를 나타낸 것이다. 1인 가구 {2}은 2010년 20%에서 2020년 35%{3} {4}했다. 이는 고령화와 결혼 기피 현상{5} 인한 것으로 분석된다.\n(Shows single-person household ratio. Increased from 20% to 35%. Due to aging and marriage avoidance.)",blanks:{"1":"비율","2":"비율","3":"로","4":"증가","5":"에"},pool:["비율","비율","로","증가","에","추이","추이","에서","감소","로"],hint:"Ratio. Ratio. To. Increase. Due-to."},
 {type:"fb",s:"조사 결과, 만족도가 전년 대비 10% {1}한 것{2} 나타났다.\n(Survey: satisfaction decreased 10% vs previous year.)",a:["감소","으로"],opts:["감소","으로","증가","에서","변화","이라"],hint:"Decrease. Formal 'appeared as.'"},
+
+{type:"teach",kind:"word",nl:"추이",en:"trend / course of change",phonetic:"chu-i",example:"인구 변화 추이를 분석하다.",exampleEn:"Analyze the trend of population change.",note:"COMPOUND: 추(follow/推) + 이(move/移)\n추이를 보다 (observe trend), 변화 추이 (change trend)."},
+{type:"teach",kind:"word",nl:"조사",en:"survey / investigation",phonetic:"jo-sa",example:"설문 조사 결과에 따르면...",exampleEn:"According to the survey results...",note:"COMPOUND: 조(investigate/調) + 사(examine/査)\n조사하다 (investigate), 여론 조사 (opinion poll)."},
+{type:"fb",s:"이 그래프는 출생률 변화{1} 나타낸 것이다. 출생률은 1990년 이후 지속적으{2} {3}하고 있다.",a:["를","로","감소"],opts:["를","로","감소","을","에","증가"],hint:"Object. Adverb-making. Decrease."},
+{type:"mc",q:"2010년 40%에서 2020년 60%로 증가했다. 조사(particles)는?",opts:["에서 (from) + 로 (to)","에 + 까지","부터 + 까지","의 + 로"],ans:"에서 (from) + 로 (to)",hint:"From X% to Y% = 에서...로."},
+{type:"drag_fill",s:"{1} 조사에 {2}르면 스마트폰 사용률이 {3}했다. 2015년 70%에{4} 2023년 95%{5} 변화했다.",blanks:{"1":"설문","2":"따","3":"증가","4":"서","5":"로"},pool:["설문","따","증가","서","로","여론","의","감소","에","까지"],hint:"Survey. According-to. Increased. From. To."},
+{type:"mc",q:"TOPIK 51번에서 피해야 하는 표현은?",opts:["증가했어요 (해요 ending)","증가했다 (문어체)","로 인해 (formal cause)","에 따르면 (according to)"],ans:"증가했어요 (해요 ending)",hint:"TOPIK 쓰기 = always 문어체. Never -요."},
+{type:"fb",s:"1인 가구 비율{1} 매년 증가하{2} 있{3}. 이러한 {4}는 계속될 것으로 예상된다.",a:["이","고","다","추이"],opts:["이","고","다","추이","은","아","요","변화"],hint:"Subject. Progressive. Written ending. Trend."},
+{type:"mc",q:"만족도가 전년 대비 10% 감소한 것으로 나타났다. 대비는?",opts:["비교하여 / compared to","덕분에 / thanks to","에도 불구하고 / despite","때문에 / because of"],ans:"비교하여 / compared to",hint:"대비 = comparison. 전년 대비 = vs previous year."},
+{type:"drag_fill",s:"이 {1}는 연령별 사용률을 나타낸 것이{2}. 20대가 가{3} 높은 {4}에 60대는 낮{5}.",blanks:{"1":"그래프","2":"다","3":"장","4":"반면","5":"다"},pool:["그래프","다","장","반면","다","조사","요","제일","덕분","어요"],hint:"Graph. Written. Most. Contrast. Written."},
+{type:"fb",s:"급격{1} 증가한 것에 비해 감소 속도는 완만{2}다. 이는 고령화{3} 인한 것으로 분석된다.",a:["히","하","로"],opts:["히","하","로","하게","한","에"],hint:"Sharply. Slow-adj. Due-to-formal."},
+{type:"mc",q:"TOPIK 51번 마지막 문장으로 적절한 것은?",opts:["이는 경제와 관련이 있는 것으로 보인다. (Formal)","이거 경제 때문인 것 같아요. (해요체)","경제 때문이야. (반말)","경제 때문입니다. (합쇼체)"],ans:"이는 경제와 관련이 있는 것으로 보인다. (Formal)",hint:"문어체: 것으로 보인다/분석된다."},
+{type:"fb",s:"결론적으{1}, 출생률은 지속적으로 감소하{2} 있으며 대책이 시급{3}다.",a:["로","고","하"],opts:["로","고","하","에","아","한"],hint:"In-conclusion. Progressive. Urgent-written."},
 ]},
 // --- L7: TOPIK 쓰기 52번 (Q52 — Situation/Advice) ---
 {id:"kou30l7",title:"TOPIK 쓰기 52번",icon:"💬",xp:20,board:true,steps:[
@@ -7746,6 +7819,21 @@ export default [
 {type:"drag_fill",s:"현대인의 스트레스가 {1}하고 있다. 이는 과도한 업무와 경쟁{2} 인한 것이다. {3}라서 충분한 휴식을 취하{4} 것이 {5}하다.\n(Modern stress increasing. Due to excessive work and competition. Therefore, getting sufficient rest is important.)",blanks:{"1":"증가","2":"에","3":"따","4":"는","5":"중요"},pool:["증가","에","따","는","중요","감소","로","그래","은","필요"],hint:"Increase. Due-to. Formal-therefore. Present. Important."},
 {type:"fb",s:"건강을 위{1} 규칙적인 운동을 해야 {2}. {3}한 식습관{4} 관리하{5} 것이 좋{6}.\n(Must exercise for health. Also good to manage eating habits.)",a:["해","한다","또","도","는","다"],opts:["해","한다","또","도","는","다","에","했다","그리고","만","은","요"],hint:"For-purpose. Written-must. Furthermore. Also. Present. Written."},
 {type:"mc",q:"52번 답변에서 피해야 하는 것은?",opts:["해요체 종결어미 사용 (Using -요 endings)","따라서 사용 (Using 'therefore')","-(으)ㅁ 사용 (Using formal nominalization)","구체적 조언 (Specific advice)"],ans:"해요체 종결어미 사용 (Using -요 endings)",hint:"TOPIK 쓰기 = always 문어체. Never -요."},
+
+{type:"teach",kind:"word",nl:"대책",en:"countermeasure / solution",phonetic:"dae-chaek",example:"정부가 환경 대책을 발표했다.",exampleEn:"The government announced environmental measures.",note:"COMPOUND: 대(respond/對) + 책(plan/策)\n대책을 세우다 (establish measures)."},
+{type:"teach",kind:"word",nl:"개선",en:"improvement / reform",phonetic:"gae-seon",example:"교육 제도를 개선해야 한다.",exampleEn:"The education system must be improved.",note:"COMPOUND: 개(reform/改) + 선(good/善)\n개선하다 (improve), 개선이 필요하다 (needed)."},
+{type:"fb",s:"환경 문제가 심각{1}지고 있다. 이에 대{2} {3}이 시급하다.",a:["해","한","대책"],opts:["해","한","대책","하","해","개선"],hint:"Become-serious. Regarding. Countermeasure."},
+{type:"mc",q:"52번에서 이에 대해의 역할은?",opts:["앞 문장 상황을 받아서 연결","결론을 내리는 역할","반론을 제시하는 역할","예시를 도입하는 역할"],ans:"앞 문장 상황을 받아서 연결",hint:"이에 대해 = regarding this. Bridges problem to solution."},
+{type:"drag_fill",s:"건강 문제가 {1}하고 있다. 운동 부족{2} 식습관{3} 인한 것이다. {4}라서 규칙적 운동과 균형 잡{5} 식단이 필요하다.",blanks:{"1":"증가","2":"과","3":"에","4":"따","5":"힌"},pool:["증가","과","에","따","힌","감소","이","로","그래","한"],hint:"Increasing. And. Due-to. Therefore. Past-modifier."},
+{type:"fb",s:"스트레스를 관리하{1} 위해 취미를 하{2} 것이 좋다. {3}한 운동{4} 도움이 된다.",a:["기","는","또","도"],opts:["기","는","또","도","는","은","그리고","은"],hint:"For-purpose. Recommendation. Furthermore. Also."},
+{type:"mc",q:"해야 한다 vs 하는 것이 좋다 차이는?",opts:["해야 한다 = 의무 / 것이 좋다 = 권유","Same meaning","해야 한다 is casual","것이 좋다 is stronger"],ans:"해야 한다 = 의무 / 것이 좋다 = 권유",hint:"Must vs should. Different strength."},
+{type:"drag_fill",s:"인구 {1}로 인해 노동력이 부족{2}지고 있다. 이에 대{3} {4}이 논의되고 있다. 외국인 유입을 확대하{5} 것이 방안이다.",blanks:{"1":"감소","2":"해","3":"한","4":"대책","5":"는"},pool:["감소","해","한","대책","는","증가","하","해","개선","은"],hint:"Decrease. Become-lacking. Regarding. Countermeasure. Recommendation."},
+{type:"fb",s:"교육의 질{1} {2}하기 위해 투자를 늘려{3} 한다. 이를 {4}해 협력해야 한다.",a:["을","개선","야","위"],opts:["을","개선","야","위","이","발전","면","때"],hint:"Object. Improve. Must. For-purpose."},
+{type:"mc",q:"52번 마지막: 노력을 통해 해결할 수 있을 것이다. 역할은?",opts:["긍정적 전망 (Positive outlook)","문제 설명 (Problem)","조사 결과 (Survey)","반론 (Counter)"],ans:"긍정적 전망 (Positive outlook)",hint:"Ends with solution + hopeful future."},
+{type:"drag_fill",s:"{1}적으로, 건강{2} 위해 규칙적 생활이 중요하다. 수면{3} 식단, 그리{4} 운동이 필{5}하다.",blanks:{"1":"결론","2":"을","3":"과","4":"고","5":"요"},pool:["결론","을","과","고","요","서론","에","이","또","필"],hint:"Conclusion. For. And. And. Necessary."},
+{type:"fb",s:"스마트폰 과다 사용이 문제{1} 되고 있다. 이{2} 인해 시력 저하가 발생한다. 따라{3} 사용 시간{4} 제한하{5} 것이 필요하다.",a:["가","로","서","을","는"],opts:["가","로","서","을","는","이","에","지","에","은"],hint:"Subject. Due-to. Therefore. Object. Recommendation."},
+{type:"mc",q:"이를 위해 vs 이에 대해 차이는?",opts:["위해 = for this purpose / 대해 = regarding this","Same meaning","위해 is casual","대해 is stronger"],ans:"위해 = for this purpose / 대해 = regarding this",hint:"위해 = to achieve. 대해 = about/concerning."},
+{type:"fb",s:"이{1}한 문제는 개인 노력만으{2}는 해결하{3} 어렵다. 그{4}므로 사회적 대책이 필요하{5}.",a:["러","로","기","러","다"],opts:["러","로","기","러","다","런","에","되기","따라","요"],hint:"Such-a. Only-by. Difficult-to-do. Therefore. Written."},
 ]},
 // --- L8: TOPIK 쓰기 53번 (Q53 — Long Essay) ---
 {id:"kou30l8",title:"TOPIK 쓰기 53번",icon:"📝",xp:20,board:true,steps:[
@@ -7761,6 +7849,17 @@ export default [
 {type:"tip",title:"에세이 유용한 표현",text:"서론:\n현대 사회에서 ...은/는 중요한 문제이다.\n...에 대한 논의가 활발하다.\n\n본론:\n첫째, ... 둘째, ...\n이러한 점에서 ...\n반면에 ...라는 의견도 있다.\n\n결론:\n따라서 / 결론적으로\n...해야 할 것이다.\n...이/가 필요하다고 본다.",deepDive:"Practice writing the same essay in all 4 registers to feel the difference. The 문어체 version should sound like a news editorial, not a conversation."},
 {type:"mc",q:"에세이 본론에서 '첫째, 둘째'를 쓰는 이유는?",opts:["논점을 명확하게 구분하기 위해 (To clearly separate points)","글자 수를 늘리기 위해 (To increase word count)","격식을 높이기 위해 (To increase formality)","반론을 제시하기 위해 (To present counterarguments)"],ans:"논점을 명확하게 구분하기 위해 (To clearly separate points)",hint:"첫째/둘째 = numbered points for clear structure."},
 {type:"fb",s:"{1}적으로, 기술 발전은 긍정적 측면과 부정적 측면이 공존한다. {2}서 균형 있는 활용이 필요하{3}.\n(In conclusion, tech has both positive and negative sides. Therefore balanced use is needed.)",a:["결론","따라","다"],opts:["결론","따라","다","서론","그래","요"],hint:"Conclusion-ally. Formal-therefore. Written-ending."},
+
+{type:"fb",s:"{1}에서 주제를 소개하고 {2}을 밝힌다. {3}에서 근거를 제시한다.",a:["서론","입장","본론"],opts:["서론","입장","본론","결론","주장","주제"],hint:"Introduction. Position. Body."},
+{type:"mc",q:"이러한 점에서의 역할은?",opts:["논점 연결 전환어 (Transition)","결론 (Conclusion)","반론 (Counterargument)","예시 도입 (Example intro)"],ans:"논점 연결 전환어 (Transition)",hint:"이러한 점에서 = in this regard."},
+{type:"drag_fill",s:"환경 문제는 {1}한 과제이다. 첫째, 오염{2} 인해 건강 문제가 {3}한다. 둘째, 자원 고갈{4} 경제에 영향을 미친다.",blanks:{"1":"중요","2":"로","3":"증가","4":"이"},pool:["중요","로","증가","이","필요","에","감소","은"],hint:"Important. Due-to. Increasing. Subject."},
+{type:"fb",s:"반면에 기술이 도움{1} 된다{2} 의견도 있다. 그러{3} 기술만으{4}는 해결이 어렵다.",a:["이","는","나","로"],opts:["이","는","나","로","을","다","고","에"],hint:"Subject. Quotation. However. Only-by."},
+{type:"mc",q:"53번에서 반론의 역할은?",opts:["논리 균형 + 설득력 증가","자기 주장 약화","글자 수 증가","서론에 포함"],ans:"논리 균형 + 설득력 증가",hint:"Counterargument strengthens YOUR position."},
+{type:"drag_fill",s:"{1}적으로, 환경 보호는 모두의 {2}이다. 작은 실천{3}라도 도움이 {4}다. {5}라서 모두가 관심을 가{6}야 한다.",blanks:{"1":"결론","2":"책임","3":"이","4":"된","5":"따","6":"져"},pool:["결론","책임","이","된","따","져","서론","권리","을","되는","그래","지"],hint:"Conclusion. Responsibility. Even-if. Becomes. Therefore. Must."},
+{type:"fb",s:"인터넷 발달{1} 따라 정보 접근성이 높아{2}다. 교육 {3}에도 변화를 가져왔{4}.",a:["에","졌","분야","다"],opts:["에","졌","분야","다","로","진","방면","요"],hint:"As-happens. Became. Field. Written."},
+{type:"mc",q:"글이 짧을 때 좋은 방법은?",opts:["구체적 예시와 설명 추가","같은 내용 반복","서론 길게 쓰기","해요체로 바꾸기"],ans:"구체적 예시와 설명 추가",hint:"Add substance: examples, data, cases."},
+{type:"drag_fill",s:"온라인 교육{1} 대한 관심이 높아지고 있{2}. 기술 발전{3} 인한 것이{4}. 시간 제약{5} 줄여 준다는 장점이 있{6}.",blanks:{"1":"에","2":"다","3":"에","4":"다","5":"을","6":"다"},pool:["에","다","에","다","을","다","의","요","로","어요"],hint:"Regarding. Written. Due-to. Written. Object. Written."},
+{type:"fb",s:"요약하{1}, 두 방식을 결합하{2} 것이 효과적{3} 것이다.",a:["자면","는","일"],opts:["자면","는","일","면","은","인"],hint:"To-summarize. Recommendation. Formal-copula."},
 ]},
 // --- L9: 한류와 세계 (Hallyu & The World) ---
 {id:"kou30l9",title:"한류와 세계",icon:"🌏",xp:20,board:true,steps:[
@@ -7776,6 +7875,17 @@ export default [
 {type:"mc",q:"한류 콘텐츠에 포함되지 않는 것은?",opts:["자동차 수출 (Car exports — this is industrial, not cultural)","드라마 (Drama)","K-pop","웹툰 (Webtoons)"],ans:"자동차 수출 (Car exports — this is industrial, not cultural)",hint:"한류 = cultural content, not industrial exports."},
 {type:"drag_fill",s:"{1} 덕분에 한국어를 배우는 사람이 {2}했다. 한국 {3}가 전 세계에서 인기를 끌고 있{4}에 따라 문화 {5}도 급격히 늘었다.\n(Thanks to Hallyu, learners increased. As content gains popularity, cultural exports also sharply increased.)",blanks:{"1":"한류","2":"증가","3":"콘텐츠","4":"음","5":"수출"},pool:["한류","증가","콘텐츠","음","수출","경쟁","감소","문화","기","수입"],hint:"Hallyu. Increase. Content. Formal-as. Export."},
 {type:"fb",s:"한류{1}야말로 한국의 가장 큰 소프트 파워{2}.\n(Hallyu is truly Korea's greatest soft power.)",a:["야말로","이다"],opts:["야말로","이다","이야말로","예요","야","입니다"],hint:"Note: 한류 ends in vowel. Written ending."},
+
+{type:"fb",s:"한국 드라마 {1}에 한국어를 배우기 시작{2}어요. 문화{3} 관심이 생{4}거든요.",a:["덕분","했","에","겼"],opts:["덕분","했","에","겼","탓","한","를","긴"],hint:"Grateful-cause. Started. In/toward. Was-formed."},
+{type:"mc",q:"K-pop 팬덤이 퍼져 있는 반면에 비판도 있어요. 반면에 역할은?",opts:["긍정과 부정 대조 (Contrast)","원인 (Cause)","결론 (Conclusion)","시간 순서 (Sequence)"],ans:"긍정과 부정 대조 (Contrast)",hint:"반면에 = on the other hand."},
+{type:"drag_fill",s:"한류{1}야말로 소프트 파워이다. 한류 {2}에 관광객이 {3}했고 학습자{4} 늘었다. 한국 음식{5} 세계에서 인기를 끌고 있다.",blanks:{"1":"이","2":"덕분","3":"증가","4":"도","5":"도"},pool:["이","덕분","증가","도","도","야말로","탓","감소","만","은"],hint:"Emphasis. Thanks-to. Increased. Also. Also."},
+{type:"mc",q:"한류로 인해 이미지가 긍정적으로 변했다. Register는?",opts:["문어체: 로 인해 + -다 (Formal written)","해요체 (Polite informal)","반말 (Casual)","합쇼체 (Formal spoken)"],ans:"문어체: 로 인해 + -다 (Formal written)",hint:"로 인해 + 다 = formal written."},
+{type:"fb",s:"콘텐츠가 인기를 끌{1} 있{2}에 따라 문화 {3}이 급격히 증가{4}다.",a:["고","음","수출","했"],opts:["고","음","수출","했","어","기","수입","한"],hint:"Progressive. Formal-as. Export. Past-written."},
+{type:"match",pairs:[{nl:"한류 (韓流)",en:"Korean Wave"},{nl:"문화 수출",en:"Cultural export"},{nl:"소프트 파워",en:"Soft power"},{nl:"콘텐츠",en:"Content (media)"}]},
+{type:"mc",q:"드라마를 보는 동안 한국어를 배울 수 있어요. B1 문법은?",opts:["-(으)ㄹ 수 있다 + -는 동안 (ability + while)","때문에 + 반면에","-지만 + 아서","-고 + 는데"],ans:"-(으)ㄹ 수 있다 + -는 동안 (ability + while)",hint:"Can-do + while-doing. Two B1 patterns."},
+{type:"fb",s:"한국 문화가 세계{1}으로 퍼{2} 있는 {3}에 교육{4} 대한 수요도 증가하고 있다.",a:["적","져","한편","에"],opts:["적","져","한편","에","으로","지","반면","을"],hint:"World-adj. Spread. Meanwhile. Regarding."},
+{type:"drag_fill",s:"10년 전{1}는 한국을 모르{2}던 사람들이 이제 한국에 가고 싶{3}고 해요. 이것{4}야말로 한류의 힘이에요.",blanks:{"1":"에","2":"았","3":"다","4":"이"},pool:["에","았","다","이","에서","은","어","야말로"],hint:"Time-point. Past. Quotation. Emphasis."},
+{type:"mc",q:"한류 영향으로 관광, 음식, 학습 모두 증가했어요. A1 문법은?",opts:["모두 (all) + 과거 시제 (past tense)","반면에 (contrast)","때문에 (because)","므로 (formal because)"],ans:"모두 (all) + 과거 시제 (past tense)",hint:"Even in B2, basic grammar is everywhere."},
 ]},
 // --- L10: C1을 향해 (Toward C1 — Celebration & Preview) ---
 {id:"kou30l10",title:"C1을 향해",icon:"🚀",xp:25,board:true,steps:[
@@ -7791,6 +7901,17 @@ export default [
 {type:"fb",s:"한국어 {1}에 대한 열정{2}야말로 가장 큰 {3}입니다. {4}적으로 B2 과정을 마치신 것을 축하합니다.\n(Passion for Korean learning IS the greatest strength. In conclusion, congratulations on completing B2.)",a:["학습","이","힘","결론"],opts:["학습","이","힘","결론","공부","야말로","능력","서론"],hint:"Learning. (vowel ending). Strength. Conclusion."},
 {type:"mc",q:"B2를 완주했습니다! 다음 단계는?",opts:["C1으로 나아가기: 학술/문학/원어민 수준 (Advance to C1: academic/literary/native level)","A1부터 다시 시작 (Restart from A1)","여기서 멈추기 (Stop here)","다른 언어 시작 (Start another language)"],ans:"C1으로 나아가기: 학술/문학/원어민 수준 (Advance to C1: academic/literary/native level)",hint:"The journey continues! C1 awaits."},
 {type:"tip",title:"마지막 한마디",text:"한국어를 여기까지 배운 당신은 대단합니다.\n포기하지 않고 B2까지 온 것 자체가 성공입니다.\n\n원숭이도 나무에서 떨어지지만,\n시작이 반이고,\n서당 개 삼 년이면 풍월을 읊습니다.\n\n축하합니다! 🎉\n한국어와 함께하는 여행은 계속됩니다.",deepDive:"From your first 안녕하세요 to writing TOPIK essays with 15 different 'because' patterns, you've come an incredible distance. Korean is one of the hardest languages for English speakers, and reaching B2 puts you in the top 1% of Korean learners worldwide. The C1 journey ahead is about refinement, not survival. You've already won."},
+
+{type:"fb",s:"A1에서 한글{1} 배우고 A2에서 과거 시제{2} 익히고 B1에서 간접 화법{3} 배웠어요.",a:["을","를","을"],opts:["을","를","을","이","은","이"],hint:"Object markers for each level."},
+{type:"mc",q:"B2 원인 패턴 중 격식체는?",opts:["-(으)로 인해, -(으)므로","-(으)ㄴ 탓에, 덕분에","-는 바람에, -느라고","-아/어서, -(으)니까"],ans:"-(으)로 인해, -(으)므로",hint:"Most formal cause patterns."},
+{type:"drag_fill",s:"B2를 {1}했으니까 뉴스를 읽{2} 수 있어요. 에세이{3} 쓸 수 있고 토론에{4} 참여할 수 있어요.",blanks:{"1":"완주","2":"을","3":"도","4":"도"},pool:["완주","을","도","도","시작","는","만","에"],hint:"Completed. Ability. Also. Also."},
+{type:"mc",q:"배운 것은 대단한 일이에요. -(으)ㄴ 것은?",opts:["명사화 (Nominalization, B1 U18)","과거 시제 (Past tense)","관형사만 (Modifier only)","추측 (Speculation)"],ans:"명사화 (Nominalization, B1 U18)",hint:"배운 것 = the thing of having learned."},
+{type:"fb",s:"원숭이{1} 나무에서 떨어지{2}만 시작이 반이{3}. 포기하지 {4}으면 성공해요.",a:["도","지","고","않"],opts:["도","지","고","않","는","고","는","못"],hint:"Also/even. But. And. Negation."},
+{type:"match",pairs:[{nl:"A1: 인사와 숫자",en:"Greetings and numbers"},{nl:"A2: 과거/미래 시제",en:"Past/future tense"},{nl:"B1: 간접 화법, 피동",en:"Indirect speech, passive"},{nl:"B2: 격식, 뉘앙스",en:"Register, nuance, TOPIK"}]},
+{type:"mc",q:"C1의 -(으)ㄹ 따름이다는?",opts:["단지 할 뿐이다 (merely, nothing but)","할 수 있다 (can do)","해야 한다 (must do)","하고 싶다 (want to)"],ans:"단지 할 뿐이다 (merely, nothing but)",hint:"Literary version of 뿐이다."},
+{type:"fb",s:"한국어{1} 대한 열정이 있{2}면 C1{3} 도달할 수 있어요. 포기하지 마{4}요!",a:["에","으","에","세"],opts:["에","으","에","세","을","이","를","지"],hint:"Regarding. Conditional. Destination. Prohibition."},
+{type:"drag_fill",s:"B2에서 15가지 원인 패턴, 10개의 {1}, 10개의 {2}, 4개의 {3}을 배웠어요. C1에서는 {4} 수준을 목표로 합니다.",blanks:{"1":"속담","2":"사자성어","3":"격식 단계","4":"원어민"},pool:["속담","사자성어","격식 단계","원어민","관용어","한자어","문법","초보자"],hint:"Proverbs. Idioms. Register levels. Native."},
+{type:"mc",q:"B2 학습자가 할 수 있는 것은?",opts:["뉴스를 읽고 에세이를 쓸 수 있다","모든 문학을 완벽히 이해한다","통역사로 일할 수 있다","사전이 필요 없다"],ans:"뉴스를 읽고 에세이를 쓸 수 있다",hint:"B2 = upper intermediate. News and essays: yes."},
 ]},
 ]},
 ];
