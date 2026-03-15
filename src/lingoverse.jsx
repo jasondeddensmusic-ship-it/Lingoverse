@@ -11263,7 +11263,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   // ── LETTER / WORD / IDIOM cards ──
   // Helper: render letter examples with Hangul purple, operators gray
-  const showInContext = teachKind==="word"||teachKind==="idiom"; // letters and info don't get "In Context"
+  const showInContext = teachKind==="word"||teachKind==="idiom"||teachKind==="grammar"; // letters and info don't get "In Context"
   const isDialogueEx = /[AB]:\s/.test(st.example||""); // dialogue examples render as standalone iOS bubbles
   const showEmoji = teachKind==="word"||teachKind==="idiom"; // letters don't show emoji icon
   const isScript = /[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/.test(st.nl); // Korean/Arabic/CJK = script mode (NOT Latin diacritics like ë, ü, é)
