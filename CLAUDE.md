@@ -44,7 +44,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 85 decisions (D1-D85), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 87 decisions (D1-D87), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
@@ -337,6 +337,8 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/POLYGLOT_PIPELINE_STANDARDS.md`** — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan.
 
 ### Tier 2: Active reference (current for their scope)
+- **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable index of all Korean grammar patterns, vocabulary domains, and teach/tip locations. Check HERE before grepping data files. Updated per language.
+- **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D87+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors.
 - **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — TOPIK/TTMIK gap plan (v2, code-verified). All 6 sprints EXECUTED. Use as reference for what was added and where.
 - **`docs/KOREAN_QUALITY_AUDIT.md`** — A1-A2 quality audit. 7 fix batches. Active TODO for remaining fixes.
@@ -422,6 +424,25 @@ For any audit that produces a gap list:
 2. Agent 2 (or main session) verifies EVERY item against actual code with grep
 3. Only verified gaps proceed to planning
 4. False positives are logged with the search terms that would have caught them
+
+### Rule 5: String Editing Safety (D86)
+When editing JS string literals (especially in `units-*.js` data files):
+1. **NEVER insert actual newline characters** inside JS string literals. Always use the two-character escape `\n`.
+2. **Keep each string on one source line.** The Edit tool can silently insert real newlines when replacing multiline content. If a string must contain a line break, use `\n` — never a literal line break inside quotes.
+3. **After any batch string edit**, verify the build passes (`npm run build`) before committing. Vite will catch unterminated string literals.
+4. **Post-edit verification**: Check quote parity (every `"` has a matching `"`), no unterminated strings, no orphaned commas or colons.
+5. **Python scripts editing JS files**: Use `chr(92)` + `chr(110)` for `\n` in Python heredocs to avoid shell/Python escape conflicts. Use `chr(10)` for actual newline detection.
+
+### Rule 6: Post-Verification Evidence Format (D87)
+Any gap claim or "missing pattern" assertion MUST include an evidence table:
+
+| Pattern | Search Terms Used | Files Searched | Grep Result | Confidence |
+|---------|-------------------|----------------|-------------|------------|
+| -(으)니까 | `니까`, `nikka`, `because/since` | units-korean.js | FOUND: kou8l3, step 4 | verified |
+
+- Claims without grep evidence are **rejected** — they do not proceed to planning.
+- "I read the file and didn't see it" is NOT evidence. Grep output is evidence.
+- Consult `docs/CONCEPT_REGISTRY.md` first before grepping — the registry may already answer the question.
 
 ---
 
