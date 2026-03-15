@@ -1,7 +1,7 @@
 # Korean Curriculum Gap Plan: TOPIK/TTMIK Alignment (v2 — Corrected)
 
 > Date: 2026-03-14 (v2: code-verified, false positives removed, density plan added)
-> Prerequisite: Read `docs/KOREAN_TOPIK_TTMIK_AUDIT.md` first
+> Prerequisite: ~~`docs/KOREAN_TOPIK_TTMIK_AUDIT.md`~~ (deleted March 2026, superseded by this plan + D93 audit)
 > Philosophy: Early structural unlocks. Seed massively. Harvest patiently.
 
 ---

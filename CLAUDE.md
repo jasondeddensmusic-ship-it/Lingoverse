@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B2 complete (30 units, ~311 lessons). B2 skeleton committed, density uplift pending. German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Korean A1-B2 COMPLETE (30 units, ~311 lessons, fully uplifted + P48/P49 clean). Dutch A1-B1 COMPLETE + POLISHED (20 v2 units, ~164 lessons, density uplift D99). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -36,15 +36,15 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `metadata.js` | ~440 | VOCAB_DB, LANGUAGES, CEFR_LEVELS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, SCRIPT_BLUEPRINTS |
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
-| `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
-| `units-korean.js` | ~7,800 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
+| `units-dutch.js` | ~6,030 | All 43 Dutch units (20 v2 + 23 legacy) |
+| `units-korean.js` | ~8,660 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,892 lines)
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 95+ decisions (D1-D95+), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 99+ decisions (D1-D99+), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
