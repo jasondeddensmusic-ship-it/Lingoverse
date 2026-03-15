@@ -374,16 +374,12 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable index of all Korean grammar patterns, vocabulary domains, and teach/tip locations. Check HERE before grepping data files. Updated per language.
 - **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D100+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. Template for future level designs.
-- **`docs/LINGOVERSE_MASTER_BIBLE.md`** — Full philosophy, per-language standards, official reference requirements, unit count doctrine.
-- **`docs/POLYGLOT_PIPELINE_STANDARDS.md`** — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan.
-
-### Tier 3: Completed work reference (historical, not actionable)
-These docs describe COMPLETED Korean work. Keep for reference but do NOT use as active handoffs:
-- **`docs/KOREAN_B2_HANDOFF.md`** — SUPERSEDED. B2 build is COMPLETE + density-uplifted + P48/P49 clean + dialogue-enriched. Useful only for understanding design decisions behind B2.
-- **`docs/KOREAN_B2_DENSITY_UPLIFT_HANDOFF.md`** — SUPERSEDED. Density uplift is COMPLETE (D96). All 100 lessons 20+ steps. Useful only for understanding the uplift strategy.
-- **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — SUPERSEDED. All 6 TOPIK/TTMIK sprints EXECUTED. Useful only for understanding what gaps were filled and where.
 
 ### Deleted (March 2026 cleanup)
+All completed Korean work docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
+- ~~`KOREAN_B2_HANDOFF.md`~~ — B2 build COMPLETE + density-uplifted + P48/P49 clean + dialogue-enriched (D94-D100).
+- ~~`KOREAN_B2_DENSITY_UPLIFT_HANDOFF.md`~~ — Density uplift COMPLETE (D96). All 100 lessons 20+ steps.
+- ~~`KOREAN_CURRICULUM_GAP_PLAN.md`~~ — All 6 TOPIK/TTMIK sprints EXECUTED (D93).
 - ~~`KOREAN_DENSITY_AUDIT.md`~~ — Superseded by D88 density uplift + D92 audit.
 - ~~`KOREAN_TOPIK_TTMIK_AUDIT.md`~~ — Had 25% false positives. Superseded by gap plan v2.
 - ~~`KOREAN_QUALITY_AUDIT.md`~~ — All critical items addressed by D92 (14 rounds) + D93 (7 rounds).
