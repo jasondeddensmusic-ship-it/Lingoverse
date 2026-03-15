@@ -9828,6 +9828,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const lessonId=lesson?.id;
   const [answered,setAnswered]=useState(false);
   const [showHint,setShowHint]=useState(false);
+  const [showTrans,setShowTrans]=useState(false);
   const [selOpt,setSelOpt]=useState(null);
   const [inputVal,setInputVal]=useState("");
   const [matchSel,setMatchSel]=useState({nl:null,en:null});
@@ -10233,8 +10234,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   const goNext=()=>{
     continueRef.current=null; // Clear spacebar binding on advance
-    if(si+1>=total){setDone(true);setAnswered(false);setSelOpt(null);setWordBubble(null);setShowDeepDive(false);setShowHint(false);}
-    else{setSi(i=>i+1);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);setWordBubble(null);UISounds.pageTurn();}
+    if(si+1>=total){setDone(true);setAnswered(false);setSelOpt(null);setWordBubble(null);setShowDeepDive(false);setShowHint(false);setShowTrans(false);}
+    else{setSi(i=>i+1);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);setShowTrans(false);setWordBubble(null);UISounds.pageTurn();}
   };
   const goBack=()=>{
     if(si<=0)return;
@@ -10342,7 +10343,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return ()=>{window.removeEventListener("keydown",handler,true);window.removeEventListener("mousemove",mouseHandler);};
   },[done,doneFocus,onContinue,onBack]);
 
-  const retryLesson=()=>{setSi(0);setScore(0);setDone(false);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);};
+  const retryLesson=()=>{setSi(0);setScore(0);setDone(false);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);setShowTrans(false);};
 
   if(done){
     const cappedScore=Math.min(score,totalEx);
@@ -11049,10 +11050,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return {korean,english:rest||null};
   };
 
-  // Render English translation line below Korean — plain gray, smaller
-  const renderEnglishBelow=(english)=>{
+  // Render English translation below Korean — toggleable
+  // startVisible: true for drag_fill (need translation), false for fb/mc (try without)
+  const renderEnglishBelow=(english,startVisible)=>{
     if(!english) return null;
-    return <div style={{fontSize:13,color:"var(--gray-400)",fontWeight:500,marginTop:6,lineHeight:1.45,fontFamily:"'Nunito','system-ui',sans-serif"}}>{english}</div>;
+    const visible=startVisible||showTrans;
+    if(!visible) return <div style={{marginTop:6}}><button onClick={()=>setShowTrans(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"'Nunito','system-ui',sans-serif",padding:"2px 8px",borderRadius:6,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="var(--purple-accent-text)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";}}>👁 Show translation</button></div>;
+    return <div style={{marginTop:6,cursor:startVisible?"default":"pointer"}} onClick={()=>{if(!startVisible)setShowTrans(false);}}><div style={{fontSize:14,color:"var(--gray-700)",fontWeight:500,lineHeight:1.45,fontFamily:"'Nunito','system-ui',sans-serif"}}>{english}</div></div>;
   };
 
   // ── Shared example renderer: operators gray, non-ASCII purple ──
@@ -12148,7 +12152,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_choose_correct",baseLang)}</div>
           {(()=>{const{korean:mcKo,english:mcEn}=splitKoEn(st.q||"");return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {/[\uAC00-\uD7AF]/.test(mcKo)?koreanHl(mcKo):smartHl(mcKo)}
-          </div>{renderEnglishBelow(mcEn)}</>;})()}
+          </div>{renderEnglishBelow(mcEn,false)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
           </div>
@@ -12312,7 +12316,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
           {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{/[\uAC00-\uD7AF]/.test(part)?koreanHl(part):smartHl(part)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
-          </div>{renderEnglishBelow(fbEn)}</>;})()}
+          </div>{renderEnglishBelow(fbEn,false)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
         </div>
@@ -12525,7 +12529,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return <span key={i}>{/[\uAC00-\uD7AF]/.test(part)?koreanHl(part):part}</span>;
             })}
           </div>
-          {renderEnglishBelow(dfEn)}
+          {renderEnglishBelow(dfEn,true)}
           {st.hint&&!showHint&&!answered&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
         </div>
