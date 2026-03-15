@@ -4873,6 +4873,7 @@ export default [
 {type:"teach",nl:"시청자",en:"viewer, audience",phonetic:"si-cheong-ja",note:"COMPOUND: 시(see/視) + 청(listen/聴) + 자(person/者).\nSee-listen-person = viewer.",kind:"noun"},
 {type:"teach",nl:"출연하다",en:"to appear (on a show)",phonetic:"chul-yeon-ha-da",note:"COMPOUND: 출(go out/出) + 연(perform/演).\nGo-out-perform = appear on show.",kind:"verb"},
 {type:"fb",s:"유명한 배우가 이 드라마에 {1}.\n(A famous actor ___ in this drama.)",a:"출연했어요",opts:["출연했어요","출연됐어요","출연하는데","출연할래요"],hint:"The actor appeared on the show. Active: they chose to appear."},
+{type:"teach",kind:"grammar",nl:"에 의해(서)",en:"by (agent in passive)",example:"경찰에 의해 범인이 체포됐어요.",exampleEn:"The criminal was arrested by the police.",note:"에 의해: marks who did the action.\nUsed with passive sentences.\nFormal/written style. Common in news."},
 {type:"mc",q:"이 방송이 시청자에 의해 선택됐어요.\n(This broadcast was chosen by viewers.)\n에 의해 marks:",opts:["The agent (viewers) in a passive sentence","The time","The location","The reason"],ans:"The agent (viewers) in a passive sentence",hint:"에 의해 = by. Who did the choosing?"},
 {type:"fb",s:"한류 덕분에 한국 드라마가 전 세계에 {1}.\n(Thanks to Hallyu, Korean dramas became ___ worldwide.)",a:"알려졌어요",opts:["알려졌어요","알렸어요","알았어요","알려요"],hint:"Korean dramas became known. Passive."},
 {type:"drag_fill",s:"예전에는 한국 방송이 한국에서{1} 안 {2}. 지금은 전 세계 {3}가 봐요.\n(Korean broadcasts used to only be watched in Korea. Now viewers worldwide watch.)",blanks:{"1":"밖에","2":"봤어요","3":"시청자"},pool:["밖에","봤어요","시청자","만","봐요","방송"],hint:"Only watched in Korea (emphatic limitation + negative). Viewers worldwide."},
@@ -4915,7 +4916,6 @@ export default [
 // ── L7: 시사 토론 (Current Events Discussion) ──
 {id:"kou17l7",title:"시사 토론",icon:"🗣️",xp:22,board:true,steps:[
 {type:"intro",title:"Discussing Current Events",desc:"Use all Unit 17 grammar\nto discuss news and events.",goals:["Discuss news using passive voice","Report events with causative","Use -았/었었 for historical changes","Combine all patterns naturally"]},
-{type:"teach",kind:"grammar",nl:"에 의해(서)",en:"by (agent in passive)",example:"경찰에 의해 범인이 체포됐어요.",exampleEn:"The criminal was arrested by the police.",note:"에 의해: marks who did the action.\nUsed with passive sentences.\nFormal/written style. Common in news."},
 {type:"mc",q:"경찰에 의해 범인이 체포됐어요. 의해 adds:",opts:["By (agent marker in passive)","Because","Despite","While"],ans:"By (agent marker in passive)",hint:"Who did the arresting? 경찰 (police). 에 의해 marks the agent."},
 {type:"fb",s:"이 사건이 뉴스에서 크게 {1}.\n(This incident was widely ___ on the news.)",a:"보도됐어요",opts:["보도됐어요","보도했어요","보도하면서","보도하려고"],hint:"This incident was widely reported on the news. Passive."},
 {type:"mc",q:"정부가 새 법을 발표했어요 (active). Passive version:",opts:["새 법이 발표됐어요","정부가 발표됐어요","새 법을 발표됐어요","법이 발표하다"],ans:"새 법이 발표됐어요",hint:"Object (새 법) becomes subject. 발표하다 → 발표되다."},
@@ -5446,7 +5446,7 @@ export default [
 {type:"mc",q:"Same sentence in 반말: '보고서 제출하겠습니다' →",opts:["보고서 제출할게","보고서 제출합니다","보고서를 제출하겠습니다","보고서 제출해요"],ans:"보고서 제출할게",hint:"반말 of 하겠습니다 → 할게. Casual promise."},
 {type:"fb",s:"친구에게: 밥 먹{1}!\n(To friend: Let's eat!)",a:"자",opts:["자","읍시다","어요","습니다"],hint:"To friend: Let's eat! 반말 suggestion → -자."},
 {type:"mc",q:"Same suggestion in 합쇼체: '밥 먹자' →",opts:["식사하시겠습니까?","밥 먹읍시다","밥 먹자요","밥 먹습니다"],ans:"밥 먹읍시다",hint:"반말 -자 → 합쇼체 -(으)ㅂ시다. Let's eat (formally)."},
-{type:"tip",title:"When 반말 Starts",text:"In Korean relationships:\n\n처음 만났을 때: 존댓말 (always)\n나이 확인 후: possibly 반말\n\n'말 놓으세요' = Please speak casually.\n'반말해도 돼요?' = Can I use 반말?\n\nSwitching to 반말 is a BIG moment.\nIt signals closeness and trust.\nNever switch without permission."},
+{type:"tip",title:"When 반말 Starts",text:"In Korean relationships:\n\n처음 만났을 때 (when first meeting): 존댓말 (always)\n나이 확인 후 (after checking age): possibly 반말\n\n'말 놓으세요' = Please speak casually.\n'반말해도 돼요?' = Can I use 반말?\n\nSwitching to 반말 is a BIG moment.\nIt signals closeness and trust.\nNever switch without permission."},
 {type:"mc",q:"'말 놓으세요' means:",opts:["Please speak casually (drop the formality)","Please be quiet","Please speak more formally","Please speak slowly"],ans:"Please speak casually (drop the formality)",hint:"말 놓다 = put down speech/formality. Permission to use casual speech."},
 {type:"fb",s:"반말{1} 돼요? 우리 나이가 같으니까.\n(May I use casual speech? Since we are the same age.)",a:"해도",opts:["해도","하면","해야","하려고"],hint:"May I use casual speech? Since we're the same age."},
 {type:"match",pairs:[{nl:"합쇼체 (formal)",en:"갑니다 / 먹습니다"},{nl:"해요체 (polite)",en:"가요 / 먹어요"},{nl:"반말 (casual)",en:"가 / 먹어"},{nl:"존댓말 (honorific)",en:"가세요 / 드세요"}]},
