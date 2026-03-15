@@ -1,13 +1,19 @@
 # KOREAN B2 CURRICULUM HANDOFF — Agent Briefing
 
-> **Date**: 2026-03-15
+> **Date**: 2026-03-15 (original), updated 2026-03-15 (post-build)
 > **Author**: Claude Code session completing A1-B1 audits (D92+D93)
-> **Purpose**: Everything the next agent needs to build Korean B2 (U21-U30)
-> **Decision**: D94
+> **Purpose**: Reference doc for B2 build decisions. B2 skeleton COMMITTED (U21-U30). Density uplift pending.
+> **Decision**: D94, D95
 
 ---
 
-## YOUR MISSION
+## STATUS
+
+B2 skeleton committed 2026-03-15: 10 units, 100 lessons, ~77 grammar patterns. Density uplift pending (91/100 lessons below P43 minimum). See POST-MORTEM section at end of doc.
+
+---
+
+## ORIGINAL MISSION (COMPLETED)
 
 Build Korean B2 curriculum: Units 21-30, targeting TOPIK 4 / CEFR B2 / TTMIK Levels 5-9.
 
@@ -329,6 +335,28 @@ The owner is NOT a coder. The workflow:
 
 ---
 
+## POST-MORTEM: B2 BUILD DENSITY FAILURE (D95)
+
+> **Added**: 2026-03-15, after B2 skeleton build
+
+The B2 build (U21-U30, 100 lessons) was completed with 91/100 lessons below the P43 density minimum of 18-20 steps. Average: 13.8 steps/lesson. This is the SAME failure as B1 (D88), which also averaged 13.8 before its uplift pass.
+
+### What went wrong
+1. **No density monitoring during build.** Sub-agents validated P8 (anti-leak), P34 (teach-before-test), and board:true — but nobody tracked step counts per lesson.
+2. **Progressive thinning.** Early units (U21) averaged 17.7 steps. Final units (U30) averaged 10.9. As the session's context filled up, lessons got shorter. Nobody flagged this drift.
+3. **Bird's-eye failure.** The main session focused on completing all 10 units. Sub-agents were given narrow validation tasks. Nobody had the holistic view to say "U28 lessons average 11 steps, that's 40% below minimum."
+4. **Known anti-pattern repeated.** B1 had the exact same problem (D88). The solution was documented. But the B2 build session didn't enforce it during construction.
+
+### How to prevent this in future builds
+1. **P47 (new)**: Step density validated per lesson DURING build, not after.
+2. **Agent Rule 7 (new)**: Deploy a density-monitoring agent during multi-unit builds. Use density-first templates. Deploy a bird's-eye orchestrator for 5+ unit builds.
+3. **Never build thin skeletons.** If a lesson has fewer than 18 steps when you finish writing it, add more quiz steps before moving on. The D88-style uplift pass is a known costly recovery pattern.
+
+### Current status
+B2 skeleton committed (2026-03-15). Density uplift pending as separate pass.
+
+---
+
 ## FINAL NOTES
 
 1. **Code is truth, docs are claims (D80).** Always grep `units-korean.js` to verify what exists. Never trust a doc description alone.
@@ -336,5 +364,6 @@ The owner is NOT a coder. The workflow:
 3. **When unsure about grammar: FLAG IT (// VERIFY:).** Do not commit uncertain Korean.
 4. **The pipeline must guarantee quality by PROCESS, not by human review (Principle 3).** Think: "Would this catch this bug in Japanese?"
 5. **Every B2 lesson should make a B1 graduate say: 'I know every piece of this sentence individually, but I've never seen them combined like this.'** That's the B2 feeling.
+6. **P47: Enforce density DURING build (D95).** Never batch-build thin skeletons. Both B1 and B2 failed this way. See Agent Rule 7.
 
 Good luck. Build something excellent.

@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B1 complete (20 units, ~209 lessons, TOPIK/TTMIK gap plan executed). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Dutch A1-B1 complete (20 v2 units, ~160 lessons). Korean A1-B2 complete (30 units, ~311 lessons). B2 skeleton committed, density uplift pending. German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -37,14 +37,14 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~5,590 | All 43 Dutch units (20 v2 + 23 legacy) |
-| `units-korean.js` | ~5,920 | All 20 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1) |
+| `units-korean.js` | ~7,800 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
 | `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,892 lines)
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 88 decisions (D1-D88), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 95+ decisions (D1-D95+), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
@@ -169,6 +169,9 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - Engine shuffleOpts handles runtime shuffle
 - Question and answer must use DIFFERENT representations
 
+### Build-Time Quality Enforcement:
+- **P47**: Step density must be validated PER LESSON DURING BUILD, not after. Every lesson must meet P43 minimums before the builder moves to the next lesson. Batch-building thin skeletons for later uplift is a known anti-pattern that has caused two costly uplift passes (D88 for B1, D95 for B2). See Agent Rule 7 for enforcement details.
+
 ### Engine Rules:
 - **P30**: NO React hooks inside if(st.type===) renderer blocks. EVER.
 - **P31**: Never assign CSS gradients to the `color` property
@@ -243,11 +246,20 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - **B1 Full Quality Audit (D92, 2026-03-15)**: 14 commit rounds. ~50 P8 fixes, 6 engine \n bugs, 5 P34 violations, ~15 translations, 3 D90 reframes.
 - **TOPIK/TTMIK gap plan: EXECUTED (2026-03-14)**. All 6 sprints complete. TTMIK L1-6 coverage ~90-95%.
 - 20 units, ~209 lessons total, ~4,700+ steps (after all audit additions)
-- **REMAINING QUALITY ITEMS** (lower priority, not blocking B2):
+- **B2 (U21-U30): SKELETON COMMITTED, DENSITY UPLIFT PENDING.**
+  - 10 units, 100 lessons, ~77 grammar patterns, 10 proverbs, 10 사자성어, 10 body idioms.
+  - B2.1 (U21-U25): Formal writing, opinions, news, regret/hypotheticals, cause discrimination.
+  - B2.2 (U26-U30): Habits, proverbs/idioms, comparison/degree, register mastery, TOPIK prep + C1 preview.
+  - TOPIK II writing prep (51번/52번/53번). 4-register mastery. 8 C1 seeds planted.
+  - **DENSITY ISSUE (D95)**: Skeleton avg 13.8 steps/lesson (91/100 below P43 minimum of 18-20). Same pattern as B1 pre-D88. Requires D88-style density uplift pass (~400-500 additional quiz steps).
+  - P8 scan: 4 leaks found and fixed. P34 scan: PASS. board:true: 311/311.
+- 30 units, ~311 lessons total
+- **REMAINING QUALITY ITEMS**:
+  - B2 density uplift (CRITICAL — must reach P43 minimum before B2 is production-ready).
   - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
   - P44 lazy hints: 12 in A1/A2 content.
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
-- **NEXT ACTION**: B2 curriculum design and build (U21-U30). All A1-B1 audits COMPLETE.
+- **NEXT ACTION**: B2 density uplift (D88-style pass), then C1 curriculum or expansion to other languages.
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -266,7 +278,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B1 FULLY AUDITED (D92+D93) + density uplift DONE. All CEFR/TOPIK/TTMIK verified. Next: **B2 curriculum (U21-U30)**.
+1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 skeleton committed, density uplift pending (D95). Next: **B2 density uplift, then C1**.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
@@ -433,6 +445,21 @@ Any gap claim or "missing pattern" assertion MUST include an evidence table:
 - Claims without grep evidence are **rejected** — they do not proceed to planning.
 - "I read the file and didn't see it" is NOT evidence. Grep output is evidence.
 - Consult `docs/CONCEPT_REGISTRY.md` first before grepping — the registry may already answer the question.
+
+### Rule 7: Build-Time Density Enforcement (D95)
+When building curriculum content (units/lessons) across multiple units:
+1. **Enforce P43 step counts PER LESSON as you build, not after.** Every lesson must meet the language's density minimum (Korean: 18-20+) BEFORE moving to the next lesson.
+2. **Deploy a density-monitoring agent** as a parallel background task during multi-unit builds. This agent should periodically count steps per lesson in the file being built and flag violations immediately.
+3. **Never batch-build skeleton lessons for later uplift.** The B1 and B2 builds both produced skeletons averaging 13.8 steps/lesson that required costly separate uplift passes. This pattern must not repeat.
+4. **Use a density-first template**: Start each lesson with the intro + minimum required teach/tip/quiz steps BEFORE adding content. Fill in the content afterward. This ensures the structural minimum is always met.
+5. **Bird's-eye view agent**: For any build spanning 5+ units, deploy a dedicated orchestrator agent that:
+   - Tracks which units/lessons are complete and which are pending
+   - Validates density, P8, P34 after each unit (not after the entire level)
+   - Flags systematic drift (e.g., step counts decreasing as the session progresses — this is the exact pattern that caused the B2 failure: U21 avg 17.7 → U30 avg 10.9)
+   - Reports cumulative statistics after each unit is complete
+
+### Why Rule 7 Exists
+In March 2026, the Korean B2 build (U21-U30, 100 lessons) was completed with 91/100 lessons below the P43 density minimum. The build session produced progressively thinner content as it continued — early units averaged 17.7 steps, final units averaged 10.9. No agent was monitoring density during the build. The main session and all sub-agents focused on grammar scope and structural correctness but ignored step count requirements. This cost the owner a full separate uplift pass (same as D88 for B1). The pipeline must guarantee quality by PROCESS (Principle 3) — density is a process guarantee, not a post-hoc fix.
 
 ---
 
