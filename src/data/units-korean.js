@@ -696,7 +696,7 @@ export default [
  // ── Tip: you've seen this ──
  {type:"tip",title:"🔍 You've Been Seeing 을/를 Since Day One",text:"택시를 타요 = I take a taxi.\n커피를 마셔요 = I drink coffee.\n밥을 먹어요 = I eat rice.\n\nEvery time you saw 를 or 을 in an example, that was the object marker at work.",deepDive:{title:"Why 을/를 Matters So Much",text:"Without 을/를, Korean sentences are ambiguous.\n\n커피 마셔요: I drink coffee (casual, particles dropped).\n커피를 마셔요: I drink coffee (clear: coffee is the object).\n\nKoreans drop particles in casual speech.\nBut when you are learning, particles are your roadmap.\nThey tell you exactly what role each word plays."}},
  // ── Final MC ──
- {type:"mc",q:"저는 한국 음식을 좋아해요. What is the object?",opts:["저 (I, polite form)","한국 음식 (Korean food)","좋아해요 (like, action)","는 (topic particle)"],ans:"한국 음식\n(Korean food)",hint:"을 marks the object. What comes before 을?"},
+ {type:"mc",q:"저는 한국 음식을 좋아해요. What is the object?",opts:["저 (I, polite form)","한국 음식 (Korean food)","좋아해요 (like, action)","는 (topic particle)"],ans:"한국 음식 (Korean food)",hint:"을 marks the object. What comes before 을?"},
 ]},
 
 {id:"kou2l3",title:"이것 / 그것 / 저것",icon:"👆",xp:20,board:true,steps:[
@@ -1437,7 +1437,7 @@ export default [
   {type:"mc",q:"의 means:",opts:["'s","our","my","and"],ans:"'s",hint:"This possessive particle shows ownership between nouns."},
   {type:"tip",title:"🏠 우리 집 vs 내 방: Korean Collectivism",text:"Korean uses 우리 (our) where English uses 'my':\n\n우리 집 = our house (not 내 집)  -  even for YOUR own house\n우리 엄마 = our mom  -  even if talking about YOUR mom\n우리 나라 = our country = Korea",deepDive:{title:"Full Comparison",text:"내 방 = my room  -  private space uses 내\nThis reflects Korean collectivist culture: family is shared.\n\n제/내 (my) is used for:\n• Personal items: 제 가방, 내 책\n• Characteristics: 제 이름, 내 생각\n\nThe logic: family and community are SHARED.\n'My house' belongs to everyone in it.\n'My mom' raised the whole family.\nSo 우리 is more natural.\n\n나의 엄마 sounds cold, even selfish."}},
   {type:"mc",q:"'My mom cooks well' - correct Korean:",opts:["우리 엄마가 잘 해요","나의 엄마가 잘 해요","내 엄마를 잘 해요","저의 엄마가 잘 해요"],ans:"우리 엄마가 잘 해요",hint:"Family = 우리, not 나의 or 저의"},
-  {type:"mc",q:"의 is used for:",opts:["Object marking","Topic marking","Possession (X's Y)","Location"],ans:"Possession\n(X's Y)",hint:"엄마의 이름 = mom's name"},
+  {type:"mc",q:"의 is used for:",opts:["Object marking","Topic marking","Possession (X's Y)","Location"],ans:"Possession (X's Y)",hint:"엄마의 이름 = mom's name"},
   {type:"mc",q:"우리 나라 means:",opts:["Our neighborhood","My country / Korea","Our family","Our school"],ans:"My country / Korea",hint:"나라 = country. Koreans say 우리 나라 to mean South Korea."},
   {type:"mc",q:"'My bag' (personal item, polite):",opts:["우리 가방","제 가방","나의 가방","저의 가방"],ans:"제 가방",hint:"Personal items use 제 (polite) or 내 (casual), not 우리"},
   {type:"fb",s:"___ 아버지는 의사예요.\n(My father is a doctor)",a:"우리",opts:["우리","제","내","나의"],hint:"Family member"},
@@ -4198,7 +4198,7 @@ export default [
 {type:"mc",q:"커피 사 줄게요 means:",opts:["I'll buy you coffee","Buy me coffee","I bought coffee","Coffee is expensive"],ans:"I'll buy you coffee",hint:"사 주다 = buy for someone. -(으)ㄹ게요 = I will (promise)."},
 {type:"fb",s:"선생님, 이거 설명해 {1}?\n(Teacher, shall I explain this ___?)",a:"드릴까요",opts:["드릴까요","줄까요","해요","줘요"],hint:"Teacher, shall I explain this (for you)? To a superior → 드리다."},
 {type:"tip",title:"-아/어 줄게요 vs -아/어 줄까요",text:"-아/어 줄게요 = I'll do it for you (promise)\n사 줄게요 = I'll buy it for you.\n\n-아/어 줄까요? = Shall I do it for you? (offer)\n사 줄까요? = Shall I buy it for you?\n\n-아/어 주세요 = Please do it for me (request)\n사 주세요 = Please buy it for me."},
-{type:"mc",q:"Which is a REQUEST (not an offer)?",opts:["도와 주세요 (Please help me)","도와 줄게요 (I'll help you)","도와 줄까요? (Shall I help?)","도와 드릴까요? (Shall I help, humbly?)"],ans:"도와 주세요\n(Please help me)",hint:"-아/어 주세요 = please do for me. The others are offers or promises."},
+{type:"mc",q:"Which is a REQUEST (not an offer)?",opts:["도와 주세요 (Please help me)","도와 줄게요 (I'll help you)","도와 줄까요? (Shall I help?)","도와 드릴까요? (Shall I help, humbly?)"],ans:"도와 주세요 (Please help me)",hint:"-아/어 주세요 = please do for me. The others are offers or promises."},
 {type:"drag_fill",s:"A: 이거 좀 들어 {1}?\nB: 네, 들어 {2}!\n(A: Shall I carry this for you?\nB: Yes, I will carry it for you!)",blanks:{"1":"줄까요","2":"줄게요"},pool:["줄까요","줄게요","주세요","드려요","해요"],hint:"A: Shall I carry this for you? B: Yes, I'll carry it for you!"},
 {type:"match",pairs:[{nl:"-아/어 주세요",en:"please do for me"},{nl:"-아/어 줄게요",en:"I'll do for you"},{nl:"-아/어 줄까요?",en:"shall I do for you?"},{nl:"-아/어 드리다",en:"do for (humble)"}]},
 {type:"fb",s:"길을 알려 {1}. 감사합니다!\n(Thank you for telling me the way!)",a:"주셔서",opts:["주셔서","줘서","드려서","해서"],hint:"Thank you for telling me the way. Polite causal form of 주다 with honorific."},
@@ -4429,7 +4429,7 @@ export default [
 {type:"drag_fill",s:"친구가 추천{1} 줘서 이 학원에 다니{2} 됐어요.\n(Because my friend recommended it for me, I ended up attending this academy.)",blanks:{"1":"해","2":"게"},pool:["해","게","해서","기로","으면서"],hint:"Because my friend recommended FOR me, I ended up attending this hagwon."},
 {type:"fb",s:"아이가 무서워{1}. 큰 소리가 나거든요.\n(The child seems scared. There was a loud noise.)",a:"해요",opts:["해요","요","해서","하는데"],hint:"The child seems scared. You see, there was a loud noise. 3rd person feeling."},
 {type:"mc",q:"수능에 합격하게 돼서 기뻐해요. Who is happy?",opts:["Someone else (3rd person, because of 기뻐해요)","The speaker (1st person)","Nobody","The teacher"],ans:"Someone else (3rd person, because of 기뻐해요)",hint:"기뻐해요 = 3rd person observed happiness. For 'I'm happy': 기뻐요."},
-{type:"mc",q:"Which sentence uses the benefactive -아/어 주다 correctly?",opts:["도와 줄게요 (I'll help you)","도와 할게요 (I'll help you)","도와서 줄게요 (I'll help give)","돕아 줄게요 (I'll help you)"],ans:"도와 줄게요\n(I'll help you)",hint:"돕다 is ㅂ-irregular: 돕→도와. Then add 주다 for benefactive."},
+{type:"mc",q:"Which sentence uses the benefactive -아/어 주다 correctly?",opts:["도와 줄게요 (I'll help you)","도와 할게요 (I'll help you)","도와서 줄게요 (I'll help give)","돕아 줄게요 (I'll help you)"],ans:"도와 줄게요 (I'll help you)",hint:"돕다 is ㅂ-irregular: 돕→도와. Then add 주다 for benefactive."},
 {type:"drag_fill",s:"저는 선생님이 되고 {1}. 동생은 의사가 되고 {2}.\n(I want to become a teacher. My sibling wants to become a doctor.)",blanks:{"1":"싶어요","2":"싶어해요"},pool:["싶어요","싶어해요","싶은데","싶거든요","싶으면"],hint:"I want to become a teacher. My sibling wants to become a doctor. 1st: 싶어요. 3rd: 싶어해요."},
 {type:"match",pairs:[{nl:"-아/어 주다",en:"do for someone"},{nl:"-게 되다",en:"come to / end up"},{nl:"-고 싶다 (1st)",en:"I want to"},{nl:"-고 싶어하다 (3rd)",en:"they want to"}]},
 
