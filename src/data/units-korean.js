@@ -6636,6 +6636,13 @@ export default [
 {type:"drag_fill",s:"큰 {1}를 해서 {2}하고 있어요. 시간을 {3} 수 있다면 좋겠어요.\n(I made a big mistake so I'm regretting it. I wish I could turn back time.)",blanks:{"1":"실수","2":"후회","3":"돌이킬"},pool:["실수","후회","돌이킬","아쉬움","불안","그리워할"],hint:"Lose-hand. After-turn-back. Reverse."},
 {type:"mc",q:"한 (恨) is best described as:",opts:["Deep unresolved longing and bittersweet acceptance","Simple sadness","Anger at others","Fear of the future"],ans:"Deep unresolved longing and bittersweet acceptance",hint:"한 is a uniquely Korean collective emotional concept."},
 {type:"fb",s:"미래에 대한 {1}이 크{2} {3}도 많아요.\n(Anxiety about the future is big, and regrets are also many.)",a:["불안","며","후회"],opts:["불안","며","후회","실수","고","아쉬움"],hint:"Not-peace. Written 'and'. After-turn-back."},
+
+{type:"fb",s:"그때 더 열심히 공부{1} 걸. 정말 아쉬{2}요.\n(I should have studied harder then. I really feel regretful.)",a:["할","워"],opts:["할","워","한","어","하","운","를","는"],hint:"Should-have (future modifier + 걸). Adjective polite."},
+{type:"mc",q:"아쉽다 vs 후회하다:\n시험을 잘 못 봐서 아쉬워요.\n공부 안 한 것을 후회해요.\nKey difference?\n(Comparing two regret words.)",opts:["아쉽다 = mild disappointment; 후회하다 = active self-blame","Same meaning","아쉽다 = stronger","후회하다 = milder"],ans:"아쉽다 = mild disappointment; 후회하다 = active self-blame",hint:"아쉽다 is softer. 후회 implies you blame yourself."},
+{type:"fb",s:"고향{1} 그리워해{2}. 실수{3} 돌이킬 수 없어요.\n(I miss my hometown. I cannot reverse the mistake.)",a:["을","요","를"],opts:["을","요","를","이","는","에","가","서"],hint:"Object. Polite. Object + cannot."},
+
+{type:"fb",s:"어렸{1} 때 더 많이 여행{2} 걸. 지금은 시간{3} 없어요.\n(Should have traveled more when young. Now there's no time.)",a:["을","할","이"],opts:["을","할","이","는","한","가","에","의"],hint:"Past modifier. Should-have. Subject."},
+{type:"mc",q:"불안하다 vs 걱정하다:\n불안 = anxiety (general unease).\n걱정 = worry (about specific thing).\nWhich is the B1 pattern?\n(Distinguishing worry words.)",opts:["걱정하다 is B1; 불안하다 is B2 vocabulary","Both A1","Both B2","불안 is A1"],ans:"걱정하다 is B1; 불안하다 is B2 vocabulary",hint:"걱정 appears frequently from B1 onward."},
 ]},
 
 // ── L2: 할걸 (I Should Have) ──
@@ -6653,6 +6660,16 @@ export default [
 {type:"mc",q:"우산을 가져올걸 그랬다.\n아시다시피 비가 많이 왔습니다.\nU23 + U24 patterns:",opts:["-(으)ㄹ걸 (regret) + 다시피 (as you know)","Only -(으)ㄹ걸","Only 다시피","Neither is a learned pattern"],ans:"-(으)ㄹ걸 (regret) + 다시피 (as you know)",hint:"Regret from U24 + shared knowledge from U23."},
 {type:"fb",s:"{1}할걸. {2}해도 소용없지만 {3}워요.\n(Should have studied harder. Regretting is no use, but it's a shame.)",a:["공부","후회","아쉬"],opts:["공부","후회","아쉬","운동","실수","불안"],hint:"Study. After-turn-back. Bittersweet."},
 {type:"drag_fill",s:"{1}에 따르면 {2}생의 70%가 진로 선택을 {3}한다{4} 저도 다른 전공을 {5}\n(According to a survey, 70% of students regret their career choice. I also should have chosen a different major.)",blanks:{"1":"조사","2":"대학","3":"후회","4":"더라.","5":"고를걸."},pool:["조사","대학","후회","더라.","고를걸.","통계","고등학","실수","던데.","골랐으면."],hint:"Survey. University. Regret. Hearsay. Should have chosen."},
+
+{type:"mc",q:"우산을 가져올걸!\nA1 우산 was taught in which vocab domain?\n(I should have brought an umbrella!)",opts:["Weather/daily items (A1 survival vocabulary)","B1 academic vocabulary","B2 formal vocabulary","A2 food vocabulary"],ans:"Weather/daily items (A1 survival vocabulary)",hint:"A1 everyday objects."},
+{type:"fb",s:"미리 예약{1} 걸. 자리{2} 없어{3}요.\n(I should have reserved in advance. There are no seats.)",a:["할","가","서"],opts:["할","가","서","한","를","어","하","의"],hint:"Should-have. Subject. Cause (because)."},
+{type:"mc",q:"-(으)ㄹ걸 is ONLY for the speaker's OWN past choices.\nWhich sentence is WRONG?\n(Constraint of the regret pattern.)",opts:["네가 공부할걸 (You should have studied) — WRONG: can't use for others","내가 공부할걸 (I should have studied)","일찍 잘걸 (Should have slept early)","더 먹을걸 (Should have eaten more)"],ans:"네가 공부할걸 (You should have studied) — WRONG: can't use for others",hint:"-(으)ㄹ걸 is first-person only."},
+{type:"fb",s:"택시{1} 탈걸! 버스{2} 타{3}서 늦었어요.\n(Should have taken a taxi! Because I took the bus, I was late.)",a:["를","를","아"],opts:["를","를","아","을","이","어","가","는"],hint:"Object. Object. A2 cause (sequential)."},
+{type:"drag_fill",s:"-(으)ㄹ걸: {1} regret, speaker {2}.\n-(으)면 좋겠다: {3}, any person.\n-았/었더라면: {4} counterfactual.\n(Three levels of wishing.)",blanks:{"1":"mild","2":"only","3":"wish","4":"strong"},pool:["mild","only","wish","strong","heavy","anyone","regret","weak"],hint:"걸=light. 좋겠다=wish. 더라면=full unreal past."},
+{type:"fb",s:"그 영화{1} 볼걸. 친구{2} 재미있{3}고 했어요.\n(Should have watched that movie. My friend said it was fun.)",a:["를","가","다"],opts:["를","가","다","을","는","어","이","라"],hint:"Object. Subject. Indirect speech (said it was)."},
+
+{type:"fb",s:"그때 고백{1} 걸. 용기{2} 없었어요.\n(Should have confessed then. I had no courage.)",a:["할","가"],opts:["할","가","한","를","하","이","는","의"],hint:"Should-have. Subject."},
+{type:"mc",q:"더 일찍 시작할걸 그랬어요.\n그랬어요 adds what nuance?\n(Should have started earlier, I regret it.)",opts:["Emphasis: reinforces the regret feeling","Changes to present tense","Makes it a question","Removes regret meaning"],ans:"Emphasis: reinforces the regret feeling",hint:"그랬어요 = I should have done so."},
 ]},
 
 // ── L3: 할 뻔했다 (I Almost Did) [HARVEST] ──
@@ -6670,6 +6687,16 @@ export default [
 {type:"mc",q:"사고로 인해 길이 막혔습니다.\n하마터면 늦을 뻔했어요.\nRegister shift:",opts:["First is formal news; second is casual personal","Both are formal","Both are casual","First is casual; second is formal"],ans:"First is formal news; second is casual personal",hint:"으로 인해 = news. 뻔했어요 = personal storytelling."},
 {type:"fb",s:"{1}에 따르면 {2}가 심각하다{3} 저도 {4}를 할 뻔했어요.\n(According to reports, accidents are serious, I heard. I also almost had an accident.)",a:["보도","사고","더라.","사고"],opts:["보도","사고","더라.","사고","통계","실수","던데.","피해"],hint:"News. Accident. Hearsay. Same word again for personal near-miss."},
 {type:"drag_fill",s:"{1}를 놓{2} 뻔했{3} 다행히 {4}했어요. 다음에는 일찍 {5}\n(I almost missed the opportunity, but fortunately succeeded. Next time I should come early.)",blanks:{"1":"기회","2":"칠","3":"지만","4":"합격","5":"올걸."},pool:["기회","칠","지만","합격","올걸.","비행기","친","는데","불합격","갈걸."],hint:"Chance. Almost miss. But. Pass. Should have come."},
+
+{type:"mc",q:"하마터면 넘어질 뻔했어요!\nA2 넘어지다 means?\n(I almost fell!)",opts:["넘어지다 = to fall down (A2 motion verb)","넘어지다 = to jump","넘어지다 = to climb","넘어지다 = to run"],ans:"넘어지다 = to fall down (A2 motion verb)",hint:"A2 physical motion vocabulary."},
+{type:"fb",s:"버스{1} 놓칠 뻔했{2}요! 하마터면 지각{3} 뻔했어요.\n(Almost missed the bus! Almost was late.)",a:["를","어","할"],opts:["를","어","할","을","아","하","이","에"],hint:"Object. Past polite. Almost-did."},
+{type:"mc",q:"-(으)ㄹ 뻔하다 is harvested from A2.\nThe A2 form expresses?\n(Reviewing the near-miss pattern.)",opts:["Relief that something bad almost happened but didn't","Certainty it will happen","Regret about past","Wish for future"],ans:"Relief that something bad almost happened but didn't",hint:"Near-miss: it almost happened but was avoided."},
+{type:"fb",s:"비밀{1} 말할 뻔했어요. 다행히 참{2}어요. 위험할 뻔{3} 상황이었어요.\n(Almost told the secret. Fortunately held back. It was a near-dangerous situation.)",a:["을","았","한"],opts:["을","았","한","이","어","하","는","의"],hint:"Object. Past (fortunately held). Modifier (near-miss)."},
+{type:"drag_fill",s:"-(으)ㄹ 뻔하다: near-miss, speaker feels {1}.\n-(으)ㄹ걸: past action, speaker feels {2}.\nBoth use -(으)ㄹ {3} modifier.\n(Comparing two past-oriented patterns.)",blanks:{"1":"relief","2":"regret","3":"future/prospective"},pool:["relief","regret","future/prospective","fear","hope","past","present","anger"],hint:"뻔하다=phew! 걸=wish I had. Both use ㄹ modifier."},
+{type:"fb",s:"사고{1} 날 뻔했{2}요. 안전벨트{3} 하{4}서 다행이에요.\n(There was almost an accident. Fortunately I wore a seatbelt.)",a:["가","어","를","아"],opts:["가","어","를","아","이","았","을","는"],hint:"Subject. Past polite. Object. A2 cause."},
+{type:"mc",q:"할 뻔했다 + 할걸 combined:\n하마터면 실수할 뻔했어요. 미리 확인할걸!\nHow many B2 patterns here?\n(Almost made a mistake. Should have checked!)",opts:["2: 뻔하다 (near-miss) + -(으)ㄹ걸 (regret)","1 pattern","3 patterns","0 B2 patterns"],ans:"2: 뻔하다 (near-miss) + -(으)ㄹ걸 (regret)",hint:"뻔하다 was A2 seed, now B2 depth. 걸 is B2 new."},
+{type:"fb",s:"전화{1} 안 받{2} 뻔했어요. 벨소리{3} 안 들렸거든{4}.\n(Almost didn't answer the phone. Because I couldn't hear the ringtone.)",a:["를","을","가","요"],opts:["를","을","가","요","이","는","에","어"],hint:"Object. Almost-didn't. Subject. Explaining why (거든요)."},
+{type:"mc",q:"하마터면 adds what nuance to -(으)ㄹ 뻔하다?\n(The emphasis word before near-miss.)",opts:["Dramatic emphasis: by a hair's breadth","Softens the near-miss","Makes it formal","Changes to future tense"],ans:"Dramatic emphasis: by a hair's breadth",hint:"하마터면 = nearly/by a narrow margin."},
 ]},
 
 // ── L4: 텐데 vs 테니까 (Expectations & Promises) ──
@@ -6688,6 +6715,15 @@ export default [
 {type:"mc",q:"내가 다 할 테니까 넌 가.\n테니까 here expresses:",opts:["A promise as reason: I'll do it, so you go","An expectation: it must be done","Regret: I should have done it","Hearsay: I heard it was done"],ans:"A promise as reason: I'll do it, so you go",hint:"Speaker promises (할 테니까) + gives suggestion (가)."},
 {type:"fb",s:"놓{1} 뻔했{2} 다행히 {3}을 텐데.\n(Almost missed it, but fortunately it will be okay.)",a:["칠","지만","괜찮"],opts:["칠","지만","괜찮","친","는데","힘들"],hint:"Near-miss form. But connector. Fine/okay."},
 {type:"drag_fill",s:"{1}했으면 {2}했을 텐데 {3}할걸. 다음에는 제가 도와{4} 테니까 걱정 마세요.\n(If I'd studied, I would've passed. Should've studied. Next time I'll help, so don't worry.)",blanks:{"1":"공부","2":"합격","3":"공부","4":"줄"},pool:["공부","합격","공부","줄","운동","불합격","운동","준"],hint:"Study. Pass. Study again (regret). Help promise."},
+
+{type:"fb",s:"피곤하{1} 텐데 좀 쉬세요. 제{2} 할 테니까 걱정 마세요.\n(You must be tired, so rest. I will do it, so don't worry.)",a:["ㄹ","가"],opts:["ㄹ","가","을","는","이","에","를","의"],hint:"Expectation modifier. Subject (I)."},
+{type:"mc",q:"-았/었을 텐데: past counterfactual concern.\n미리 말했으면 도와줬을 텐데.\nB1 -(으)면 means?\n(If you had told me, I would have helped.)",opts:["-(으)면 = if/when (B1 conditional)","-(으)면 = because","-(으)면 = although","-(으)면 = while"],ans:"-(으)면 = if/when (B1 conditional)",hint:"B1 conditional that builds the counterfactual."},
+{type:"fb",s:"내일 춥{1} 텐데 따뜻하{2} 옷{3} 입{4}세요.\n(It will probably be cold tomorrow, so wear warm clothes.)",a:["을","게","을","으"],opts:["을","게","을","으","는","이","를","에"],hint:"Expectation. Adverbial. Object. Honorific."},
+
+{type:"fb",s:"배고프{1} 텐데 밥 먹{2}러 갈까요? 제{3} 살 테니까 걱정 마세요.\n(You must be hungry, shall we go eat? I'll pay so don't worry.)",a:["ㄹ","으","가"],opts:["ㄹ","으","가","을","는","이","에","를"],hint:"Expectation. Purpose (go to eat). Subject (I)."},
+{type:"mc",q:"-(으)ㄹ 텐데 vs -(으)ㄹ 테니까:\n텐데 = concern for LISTENER.\n테니까 = SPEAKER's promise/plan as reason.\nWhich expresses empathy?\n(Comparing the two patterns.)",opts:["텐데 expresses empathy and concern","테니까 expresses empathy","Both express empathy equally","Neither expresses empathy"],ans:"텐데 expresses empathy and concern",hint:"텐데 = I imagine you might be X (caring)."},
+{type:"fb",s:"혼자{1}면 외로{2} 텐데 같이 가{3}요. 길{4} 안내할 테니까요.\n(You'd be lonely alone, let's go together. I'll guide the way.)",a:["이","울","자","을"],opts:["이","울","자","을","는","는","ㅂ시","를"],hint:"If alone. Lonely (expectation). Let's. Object (road)."},
+{type:"mc",q:"힘들었을 텐데 잘 해냈어요!\n-았/었을 텐데 is past + expectation.\nB1 -아/어 내다 means?\n(It must have been hard but you did great!)",opts:["-아/어 내다 = to accomplish/manage to do (B1 completion)","내다 = to put out","내다 = to start","내다 = to forget"],ans:"-아/어 내다 = to accomplish/manage to do (B1 completion)",hint:"B1 completion auxiliary: successfully did."},
 ]},
 
 // ── L5: 했더라면 (If I Had Done — Past Counterfactual) ──
@@ -6705,6 +6741,14 @@ export default [
 {type:"mc",q:"Rank the regret intensity:\nA: 갈걸.\nB: 갔더라면 좋았을 텐데.\nC: 가고 싶었어요.",opts:["C (weakest: wish) < A (mild regret) < B (strongest: counterfactual)","A < B < C","B < A < C","All equal"],ans:"C (weakest: wish) < A (mild regret) < B (strongest: counterfactual)",hint:"Wish < should have < if I had gone, it would have been..."},
 {type:"fb",s:"그 기회를 놓{1} 뻔했{2} 잡았더라면 지금 {3}하지 않았을 텐데.\n(I almost missed that opportunity. If I had grabbed it, I wouldn't regret now.)",a:["칠","지만","후회"],opts:["칠","지만","후회","친","는데","실수"],hint:"Almost-miss form. But. After-turn-back."},
 {type:"drag_fill",s:"{1}했더라면 {2}했을 텐데. {3}할걸. 하마터면 기회를 완전히 놓{4} 뻔했어요.\n(If I had studied, I would have passed. Should have studied. I almost completely missed the chance.)",blanks:{"1":"공부","2":"합격","3":"공부","4":"칠"},pool:["공부","합격","공부","칠","운동","불합격","운동","친"],hint:"Study. Pass. Study (regret). Almost miss."},
+
+{type:"mc",q:"그때 더 공부했더라면 합격했을 텐데.\nThis combines which TWO B2 patterns?\n(If I had studied more, I would have passed.)",opts:["-았/었더라면 (counterfactual if) + -(으)ㄹ 텐데 (would have)","Only one pattern","Three patterns","A2 patterns only"],ans:"-았/었더라면 (counterfactual if) + -(으)ㄹ 텐데 (would have)",hint:"Full counterfactual chain: if-had + would-have."},
+{type:"fb",s:"일찍 출발했{1}라면 비행기{2} 탔{3} 텐데.\n(If I had left early, I would have caught the plane.)",a:["더","를","을"],opts:["더","를","을","어","을","이","는","가"],hint:"Counterfactual past. Object. Would-have."},
+{type:"mc",q:"-았/었더라면 is the STRONGEST hypothetical.\n걸 < 면 좋겠다 < 더라면.\nWhich level is 면 좋겠다 from?\n(Ranking the regret/wish patterns.)",opts:["B1: -(으)면 좋겠다 (wish)","A1 pattern","A2 pattern","B2 only"],ans:"B1: -(으)면 좋겠다 (wish)",hint:"B1 wish expression."},
+{type:"fb",s:"한국어{1} 열심히 배웠더라면 TOPIK{2} 통과했{3} 텐데. 아쉬워{4}.\n(If I had studied Korean hard, I would have passed TOPIK. Regretful.)",a:["를","에","을","요"],opts:["를","에","을","요","을","이","는","서"],hint:"Object. Target. Would-have. Polite."},
+{type:"drag_fill",s:"-(으)ㄹ걸: {1} regret, {2} person only.\n-았/었더라면: {3} counterfactual, {4} person.\n(Comparing regret levels.)",blanks:{"1":"mild","2":"first","3":"strong","4":"any"},pool:["mild","first","strong","any","heavy","second","weak","third"],hint:"걸=light, self only. 더라면=full unreal, anyone."},
+{type:"fb",s:"그 소식{1} 들었더라면 갔{2} 텐데. 아무{3} 안 알려줬어요.\n(If I had heard the news, I would have gone. Nobody told me.)",a:["을","을","도"],opts:["을","을","도","이","는","가","에","를"],hint:"Object. Would-have. A1 nobody."},
+{type:"mc",q:"매일 운동했더라면 건강했을 텐데.\nA2 매일 means?\n(If I had exercised every day, I would have been healthy.)",opts:["매일 = every day (A2 time word)","매일 = sometimes","매일 = never","매일 = often"],ans:"매일 = every day (A2 time word)",hint:"A2 frequency/time vocabulary."},
 ]},
 
 // ── L6: 할까 봐 (Worried That) ──
@@ -6722,6 +6766,16 @@ export default [
 {type:"drag_fill",s:"비가 {1}까 봐 우산을 가져{2} 안 가져{3}까 말까 고민했{4} 결국 가져왔어요.\n(Worried it might rain, debated whether to bring an umbrella or not. In the end, brought it.)",blanks:{"1":"올","2":"올","3":"올","4":"는데"},pool:["올","올","올","는데","오는","온","온","지만"],hint:"Rain possibility. Bring possibility. Bring or not. Connector."},
 {type:"mc",q:"실수할까 봐 불안했는데 했더라면 더 좋았을 텐데.\nPatterns combined:",opts:["까 봐 (worry) + 더라면/텐데 (counterfactual)","Only 까 봐","Only 더라면","까 말까 + 텐데"],ans:"까 봐 (worry) + 더라면/텐데 (counterfactual)",hint:"Was worried + if I had done it, would've been better."},
 {type:"fb",s:"기회를 놓{1}까 봐 빨리 {2}했{3} {4}했더라면 더 좋았을 텐데.\n(Applied quickly worried about missing the chance. If I had prepared, it would've been better.)",a:["칠","지원","지만","준비"],opts:["칠","지원","지만","준비","친","포기","는데","공부"],hint:"Miss. Apply. But. Advance work."},
+
+{type:"mc",q:"비가 올까 봐 우산을 가져왔어요.\nA2 가져오다 means?\n(Worried it might rain, I brought an umbrella.)",opts:["가져오다 = to bring (A2 compound verb)","가져오다 = to take away","가져오다 = to lose","가져오다 = to forget"],ans:"가져오다 = to bring (A2 compound verb)",hint:"A2 가지다 + 오다 compound."},
+{type:"fb",s:"시험{1} 떨어질까 봐 걱정이에요. 갈까 말까 고민{2} 있어요.\n(Worried about failing the exam. I'm debating whether to go or not.)",a:["에","하고"],opts:["에","하고","을","에서","이","하는","가","의"],hint:"Target (fail AT). Deliberating."},
+{type:"mc",q:"-(으)ㄹ까 봐 vs -(으)ㄹ까 말까:\n봐 = worry about happening.\n말까 = decide whether to do.\nKey structural difference?\n(Worry vs indecision.)",opts:["까 봐: anxious about future event; 까 말까: deliberate choice to make","Same meaning","까 봐 = positive; 까 말까 = negative","까 말까 is more formal"],ans:"까 봐: anxious about future event; 까 말까: deliberate choice to make",hint:"봐=fear. 말까=should I or shouldn't I."},
+{type:"fb",s:"늦{1}까 봐 택시{2} 탔어요. 택시{2} 탈까 말까 하다{3} 결국 탔어요.\n(Worried about being late, took a taxi. Was debating whether to take a taxi, ended up taking it.)",a:["을","를","가"],opts:["을","를","가","는","을","이","에","의"],hint:"Future modifier (worry). Object (x2). Subject (ended up)."},
+{type:"drag_fill",s:"-(으)ㄹ까 봐 + preventive: 다칠까 봐 {1}.\n-(으)ㄹ까 말까 + decision: 말할까 말까 {2}.\n(Worry leads to action. Indecision leads to choice.)",blanks:{"1":"조심했어요","2":"고민했어요"},pool:["조심했어요","고민했어요","포기했어요","시작했어요"],hint:"Worried about injury, so was careful. Debating whether to say."},
+{type:"fb",s:"부모님{1} 걱정하실까 봐 말 안 했{2}요. 아프{3} 걸 숨겼어요.\n(Worried my parents would worry, I didn't tell them. I hid that I was sick.)",a:["이","어","ㄴ"],opts:["이","어","ㄴ","을","아","는","가","의"],hint:"Subject (hon.). Past polite. Past modifier."},
+
+{type:"fb",s:"실수{1}까 봐 세 번{2}나 확인했어요. 그래{3} 걱정이에요.\n(Worried about making a mistake, I checked three times. Still, I'm worried.)",a:["할","이","도"],opts:["할","이","도","하","을","는","에","가"],hint:"Future (worry about). Emphasis (as many as). Still/even."},
+{type:"mc",q:"어디로 갈까 말까 하다가 결국 집에 있었어요.\nB1 결국 + A2 -다가 combine here.\nWhat happened?\n(Was debating where to go, ended up staying home.)",opts:["Debated, then gave up and stayed home","Went out successfully","Decided quickly","Asked someone for help"],ans:"Debated, then gave up and stayed home",hint:"까 말까 = indecision. 결국 = in the end."},
 ]},
 
 // ── L7: 고 말다 / 려다가 (Unintended & Interrupted) ──
@@ -6739,6 +6793,16 @@ export default [
 {type:"drag_fill",s:"결국 {1}하고 말았어요. {2}했더라면 {3}하지 않았을 텐데. {4}할걸.\n(Ended up making a mistake. If I had been careful, I wouldn't have made a mistake. Should have been careful.)",blanks:{"1":"실수","2":"조심","3":"실수","4":"조심"},pool:["실수","조심","실수","조심","후회","준비","후회","준비"],hint:"Error. Caution. Error again. Caution again."},
 {type:"mc",q:"말하려다가 참았는데 결국 말하고 말았어요.\nThe sequence:",opts:["Held back initially, but ended up telling anyway","Told immediately","Never told","Held back successfully"],ans:"Held back initially, but ended up telling anyway",hint:"-려다가 참다 (held back) + -고 말다 (ended up doing)."},
 {type:"fb",s:"{1}하{2}다가 {3}를 바꿨{4} 결국 {5}하고 말았어요.\n(Was about to apply but changed plans. Ended up regretting in the end.)",a:["지원","려","계획","는데","후회"],opts:["지원","려","계획","는데","후회","합격","고","일정","지만","실수"],hint:"Apply. Intention. Plan. Connector. After-turn-back."},
+
+{type:"mc",q:"결국 울고 말았어요.\nA2 결국 means?\n(In the end, I ended up crying.)",opts:["결국 = in the end / eventually (A2 adverb)","결국 = suddenly","결국 = fortunately","결국 = almost"],ans:"결국 = in the end / eventually (A2 adverb)",hint:"A2 outcome/conclusion adverb."},
+{type:"fb",s:"참{1}려다가 결국 웃고 말{2}어요. 비밀{3} 지키려다가 말해 버렸어요.\n(Tried to hold it in but ended up laughing. Tried to keep the secret but blurted it out.)",a:["으","았","을"],opts:["으","았","을","어","는","이","를","가"],hint:"Was-about-to stem. Ended-up past. Object."},
+{type:"mc",q:"-고 말다 implies the speaker is?\n결국 실수하고 말았어요.\n(In the end, I ended up making a mistake.)",opts:["Frustrated or disappointed by the outcome","Happy about the result","Neutral about it","Surprised but pleased"],ans:"Frustrated or disappointed by the outcome",hint:"-고 말다 carries negative/resigned feelings."},
+{type:"fb",s:"운동하{1}다가 비{2} 와서 집에 갔어요. 결국 포기하{3} 말았어요.\n(Was about to exercise but it rained so went home. In the end, gave up.)",a:["려","가","고"],opts:["려","가","고","는","를","어","이","다"],hint:"Was-about-to. Subject. Ended-up."},
+{type:"drag_fill",s:"-고 말다: {1} result, speaker feels {2}.\n-(으)려다가: intention was {3}, but {4} happened.\n(Two patterns about plans going wrong.)",blanks:{"1":"unintended","2":"frustrated","3":"interrupted","4":"something else"},pool:["unintended","frustrated","interrupted","something else","planned","happy","completed","nothing"],hint:"고 말다=ended up. 려다가=was going to but..."},
+{type:"fb",s:"다이어트하{1}다가 치킨{2} 먹고 말{3}어요. 의지{4} 약했어요.\n(Was trying to diet but ended up eating chicken. My willpower was weak.)",a:["려","을","았","가"],opts:["려","을","았","가","는","를","어","이"],hint:"Was-about-to. Object. Ended-up past. Subject."},
+
+{type:"fb",s:"공부하{1}다가 게임하고 말{2}어요. 의지{3} 약해요.\n(Was about to study but ended up gaming. My willpower is weak.)",a:["려","았","가"],opts:["려","았","가","는","어","이","을","에"],hint:"Was-about-to. Ended-up past. Subject."},
+{type:"mc",q:"사려다가 안 샀어요 vs 사고 말았어요.\nKey difference?\n(Was going to buy but didn't vs ended up buying.)",opts:["려다가: didn't do it; 고 말다: did it (reluctantly)","Same meaning","려다가: did it; 고 말다: didn't","Both mean didn't do it"],ans:"려다가: didn't do it; 고 말다: did it (reluctantly)",hint:"려다가=intention interrupted. 고 말다=it happened despite wishes."},
 ]},
 
 // ── L8: 참이다 (Just About To) ──
@@ -6756,6 +6820,16 @@ export default [
 {type:"mc",q:"U24 intention patterns ranked by outcome:\nA: -려고 (basic purpose)\nB: -려다가 (interrupted)\nC: -려던 참이다 (coincidence)\nD: -고 말다 (unintended result)",opts:["A: planned. B: didn't happen. C: about to happen. D: happened unwantedly.","All the same","A = B = C = D","Only D has a result"],ans:"A: planned. B: didn't happen. C: about to happen. D: happened unwantedly.",hint:"Each intention pattern has a different outcome."},
 {type:"fb",s:"{1}할까 봐 {2}하{3}다가 결국 {4}하고 말았어요. {5}할걸.\n(Worried about failing, was about to give up, but ended up trying. Should have prepared.)",a:["실패","포기","려","도전","준비"],opts:["실패","포기","려","도전","준비","합격","지원","고","실수","공부"],hint:"Failure worry. Quit. Intention. Challenge. Advance work."},
 {type:"drag_fill",s:"마침 {1}하려던 참이었{2} {3}했더라면 더 좋았을 텐데.\n(Was just about to apply. If I had prepared, it would've been better.)",blanks:{"1":"지원","2":"어요.","3":"준비"},pool:["지원","어요.","준비","합격","는데.","공부"],hint:"Apply. End. Preparation."},
+
+{type:"mc",q:"마침 전화하려던 참이었어요!\n마침 means?\n(I was just about to call, what timing!)",opts:["마침 = just then / by coincidence (timing word)","마침 = finally","마침 = unfortunately","마침 = always"],ans:"마침 = just then / by coincidence (timing word)",hint:"Happy coincidence marker."},
+{type:"fb",s:"밥 먹{1}려던 참이{2}어요. 같이 먹{3}래요?\n(I was just about to eat. Want to eat together?)",a:["으","었","을"],opts:["으","었","을","는","이","어","는","가"],hint:"About-to stem. Past (was). A2 suggestion."},
+{type:"mc",q:"-(으)려던 참이다 vs -(으)려다가:\n참 = timing match (positive).\n다가 = interruption (often negative).\nKey difference?\n(Two intention patterns.)",opts:["참이다: happy coincidence; 려다가: plan got interrupted","Same meaning","참이다 = negative; 려다가 = positive","Both are about interruptions"],ans:"참이다: happy coincidence; 려다가: plan got interrupted",hint:"참 = perfect timing. 다가 = but then..."},
+{type:"fb",s:"마침 나가{1}려던 참에 택배{2} 왔어요. 딱 맞{3}어요!\n(Just as I was about to leave, a delivery came. Perfect timing!)",a:["으","가","았"],opts:["으","가","았","는","를","어","이","에"],hint:"About-to stem. Subject. Past."},
+{type:"drag_fill",s:"-(으)려고: {1} intention.\n-(으)려다가: intention {2}.\n-(으)려던 참이다: intention + {3} timing.\n-고자: {4} intention.\n(Four intention patterns compared.)",blanks:{"1":"simple","2":"interrupted","3":"perfect","4":"formal"},pool:["simple","interrupted","perfect","formal","strong","completed","bad","casual"],hint:"려고=plain. 려다가=but. 참이다=coincidence. 고자=written."},
+{type:"fb",s:"커피 사{1}려던 참에 친구{2} 커피{3} 사 줬어요. 고마워{4}!\n(Just about to buy coffee when my friend bought me one. Thanks!)",a:["으","가","를","요"],opts:["으","가","를","요","는","이","을","서"],hint:"About-to stem. Subject. Object. Polite."},
+{type:"mc",q:"마침 퇴근하려던 참이었어요.\nB1 퇴근하다 means?\n(I was just about to leave work.)",opts:["퇴근하다 = to leave work / clock out (B1 work vocab)","퇴근하다 = to arrive at work","퇴근하다 = to skip work","퇴근하다 = to overtime"],ans:"퇴근하다 = to leave work / clock out (B1 work vocab)",hint:"B1 workplace vocabulary."},
+{type:"fb",s:"질문하{1}려던 참에 선생님{2} 먼저 설명해 주셨{3}요.\n(Just about to ask when the teacher explained first.)",a:["으","이","어"],opts:["으","이","어","는","을","가","는","아"],hint:"About-to stem. Subject. Honorific past."},
+{type:"mc",q:"Four intention patterns in order of learning level:\n-(으)려고 (A2) → -고자 (B1) → -(으)려다가 (B2) → -(으)려던 참이다 (B2).\nWhat level is -(으)려고?\n(Tracking the progression.)",opts:["A2: basic intention pattern","A1","B1","B2"],ans:"A2: basic intention pattern",hint:"One of the earliest intention patterns taught."},
 ]},
 
 // ── L9: 한의 문화 (Korean Soul of Regret) ──
@@ -6772,6 +6846,15 @@ export default [
 {type:"mc",q:"보도에 따르면 이산가족 상봉이 줄고 있는 것으로 나타났습니다.\nHow many U23 patterns?",opts:["Two: 에 따르면 (citation) + 것으로 나타났다 (found)","One: 에 따르면","Three: 에 따르면 + 나타났다 + 보도","Zero"],ans:"Two: 에 따르면 (citation) + 것으로 나타났다 (found)",hint:"News citation + news result cliche."},
 {type:"fb",s:"한국인의 {1}은 역사{2} 인해 깊어졌{3} 예술로 {4}을 풀기도 합니다.\n(Korean 한 deepened due to history, and they also resolve 한 through art.)",a:["한","으로","으며","한"],opts:["한","으로","으며","한","후회","에","고","아쉬움"],hint:"Deep emotion. Cause (formal). Written 'and'. Same emotion resolved."},
 {type:"match",pairs:[{nl:"한이 맺히다",en:"한 builds up"},{nl:"한을 풀다",en:"resolve 한"},{nl:"이산가족",en:"separated families"},{nl:"아쉬움",en:"bittersweet regret"}]},
+
+{type:"mc",q:"한이 맺히다: 한 builds up inside.\nA1 안 (inside) appears in many emotion expressions.\nWhat does 맺히다 literally mean?\n(Cultural expression about accumulated grief.)",opts:["맺히다 = to form/accumulate (like a knot)","맺히다 = to disappear","맺히다 = to enjoy","맺히다 = to forget"],ans:"맺히다 = to form/accumulate (like a knot)",hint:"A knot of emotion forming inside."},
+{type:"fb",s:"이산가족{1} 한{2} 맺혔어요. 만나{3} 못 해 한{4} 풀 수 없었어요.\n(Separated families accumulated grief. Unable to meet, couldn't resolve their grief.)",a:["에게","이","지","을"],opts:["에게","이","지","을","에","를","의","는"],hint:"To-person. Subject. Negation. Object + resolve."},
+{type:"mc",q:"한을 풀다: to resolve or release 한.\nB1 풀다 also means?\n(Resolving deep grief.)",opts:["풀다 = to untie/solve/release (B1 multi-meaning verb)","풀다 = to tighten","풀다 = to create","풀다 = to increase"],ans:"풀다 = to untie/solve/release (B1 multi-meaning verb)",hint:"B1 verb: untie a knot, solve a problem, release tension."},
+{type:"fb",s:"가족{1} 만났더라면 한{2} 풀렸{3} 텐데.\n(If they had met their family, the grief would have been resolved.)",a:["을","이","을"],opts:["을","이","을","이","를","가","는","에"],hint:"Object (family). Subject (grief). Would-have."},
+{type:"drag_fill",s:"한이 맺히다: grief {1}.\n한을 풀다: grief {2}.\n판소리: traditional art born from {3}.\n이산가족: families {4} by war.\n(Korean cultural vocabulary.)",blanks:{"1":"accumulates","2":"is released","3":"한","4":"separated"},pool:["accumulates","is released","한","separated","disappears","grows","joy","united"],hint:"Forms inside. Gets resolved. Born from pain. Divided."},
+{type:"fb",s:"판소리{1} 한{2} 담긴 예술이에요. 슬픔{3} 아름다움{4} 바꿔요.\n(Pansori is art containing 한. It turns sadness into beauty.)",a:["는","이","을","으로"],opts:["는","이","을","으로","에","가","의","를"],hint:"Topic. Subject. Object. Into (transformation)."},
+{type:"mc",q:"그때 더 시간을 보냈더라면 한이 안 맺혔을 텐데.\nHow many B2 patterns in this sentence?\n(If I had spent more time then, grief wouldn't have formed.)",opts:["3: -았/었더라면 + 맺히다 (한 vocab) + -(으)ㄹ 텐데","1 pattern","2 patterns","4 patterns"],ans:"3: -았/었더라면 + 맺히다 (한 vocab) + -(으)ㄹ 텐데",hint:"Counterfactual + cultural vocab + would-have."},
+{type:"fb",s:"한국 사람{1}에게 한{2} 특별{3} 감정이에요. 모든 사람{4} 이해할 수 있어요.\n(For Korean people, 한 is a special emotion. Everyone can understand.)",a:["들","은","한","이"],opts:["들","은","한","이","의","이","는","을"],hint:"Plural. Topic. Special (modifier). Subject."},
 ]},
 
 // ── L10: 종합 평가 (Unit Assessment) ──
@@ -6790,6 +6873,15 @@ export default [
 {type:"mc",q:"다음 중 U24에서 배운 패턴이 아닌 것은?",opts:["-(으)로 인해 (due to — U23)","-(으)ㄹ걸 (should have)","-(으)ㄹ 뻔하다 (almost did)","-고 말다 (ended up doing)"],ans:"-(으)로 인해 (due to — U23)",hint:"으로 인해 is formal cause from U23 (news). U24 is about regret."},
 {type:"fb",s:"{1}에 따르면 {2}생의 대부분이 진로를 {3}한다{4} 저도 다른 전공을 {5}더라면 좋았을 텐데.\n(According to a survey, most students regret their career choice. I also wish I had chosen a different major.)",a:["조사","대학","후회","더라.","골랐"],opts:["조사","대학","후회","더라.","골랐","통계","고등학","실수","던데.","공부했"],hint:"Survey. University. Regret. Hearsay. Past choice."},
 {type:"drag_fill",s:"마침 {1}하려던 참이었{2} {3}할까 봐 {4}하{5}다가 결국 {6}하고 말았{7} {8}했더라면 {9}했을 텐데.\n(Was just about to apply. Was about to give up worried about failing. Ended up trying. If I had prepared, I would have succeeded.)",blanks:{"1":"지원","2":"는데","3":"실패","4":"포기","5":"려","6":"도전","7":"어요.","8":"준비","9":"합격"},pool:["지원","는데","실패","포기","려","도전","어요.","준비","합격","공부","지만","성공","고","실수","고","운동","습니다.","연습","성공"],hint:"Apply. Connect. Fail. Quit. Intent. Challenge. End. Prepare. Pass."},
+
+{type:"fb",s:"전화하{1}려던 참에 메시지{2} 왔어요. 안 보냈{3}면 전화할걸!\n(Was just about to call when a message came. If they hadn't sent it, I should have called!)",a:["으","가","으"],opts:["으","가","으","는","를","어","이","는"],hint:"About-to stem. Subject. Conditional."},
+{type:"mc",q:"Match the emotion to the pattern:\n안도감 (relief) → 뻔했다\n후회 (regret) → 걸\n걱정 (worry) → 까 봐\n좌절 (frustration) → 고 말다\nWhich pairing is INCORRECT?\n(Testing emotion-pattern connections.)",opts:["All four pairings are correct","뻔했다 should be worry","걸 should be relief","까 봐 should be frustration"],ans:"All four pairings are correct",hint:"Relief at near-miss. Regret at own choice. Worry about future. Frustrated at outcome."},
+{type:"fb",s:"일찍 출발했더라면 비행기{1} 탔{2} 텐데. 놓칠 뻔{3} 게 아니라 정말 놓쳤어요.\n(If I had left early, I would have caught the plane. It wasn't almost missing it, I really missed it.)",a:["를","을","한"],opts:["를","을","한","이","는","어","가","을"],hint:"Object. Would-have. Modifier (near-miss thing)."},
+{type:"drag_fill",s:"Mild: -(으)ㄹ{1}. Medium: -(으)면 {2}. Strong: -았/었{3}.\nNear-miss: -(으)ㄹ {4}.\n(Regret intensity scale.)",blanks:{"1":"걸","2":"좋겠다","3":"더라면","4":"뻔하다"},pool:["걸","좋겠다","더라면","뻔하다","텐데","까 봐","고 말다","참이다"],hint:"Light self-blame. Wish. Full counterfactual. Almost-happened."},
+
+{type:"fb",s:"먹{1}려던 참에 배달{2} 왔어요. 안 시켰{3}면 직접 만들걸!\n(Was just about to eat when delivery came. If I hadn't ordered, I should have made it myself!)",a:["으","이","으"],opts:["으","이","으","는","가","어","을","에"],hint:"About-to stem. Subject. Conditional."},
+{type:"mc",q:"ALL U24 patterns use -(으)ㄹ modifier EXCEPT?\n걸, 뻔하다, 텐데, 테니까, 까 봐, 까 말까...\nWhich pattern uses -았/었 instead?\n(Checking the tense markers.)",opts:["-았/었더라면 uses PAST tense, not future -(으)ㄹ","All use -(으)ㄹ","고 말다 uses past","려던 참이다 uses past"],ans:"-았/었더라면 uses PAST tense, not future -(으)ㄹ",hint:"더라면 is the only pattern starting with past tense marker."},
+{type:"fb",s:"결국 포기하{1} 말았어요. 포기하{2}까 봐 걱정했{3}데 정말 포기했어요.\n(Ended up giving up. Was worried about giving up, and really did.)",a:["고","ㄹ","는"],opts:["고","ㄹ","는","어","을","은","다","에"],hint:"Ended-up. Future (worry). Hearsay/background."},
 ]},
 
 ]},
