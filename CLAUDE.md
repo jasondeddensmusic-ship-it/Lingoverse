@@ -75,6 +75,15 @@ LingoVerse's endgame is ANY source language to ANY target language. This means:
 
 4. **The long-term goal is semi-autonomous course generation.** Language family templates, shared grammar pattern libraries, reusable curriculum skeletons. Spinning up a new language pair should be a guided generation process, not starting from scratch.
 
+### Language Complexity & Unit Count Guidance
+
+Languages are NOT crammed into boxes. The number of units varies by:
+1. **Language complexity**: Agglutinative languages (Korean, Japanese, Turkish) need more units for morphology. Languages with grammatical gender (Dutch, German, French) need targeted article/agreement practice. Tonal languages (Chinese, Vietnamese) need pronunciation-heavy foundations.
+2. **Source language distance**: A Dutch speaker learning German (close, same family) needs fewer units than an Arabic speaker learning German (distant, different script + grammar). Cognate languages can move faster.
+3. **Script complexity**: Non-Latin scripts (hangul, kana/kanji, arabic, cyrillic, hanzi) require dedicated foundations playthrough. Latin-script languages need shorter foundations focused on pronunciation differences.
+
+**Baseline**: Dutch = 20 units A1-B1, 30 units A1-B2. Korean = 30 units A1-B2. These are GUIDELINES, not limits. If a language needs 35 units for B2, it gets 35 units.
+
 ### Architecture Implications
 
 Every decision must move toward:
@@ -141,6 +150,45 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ---
 
+## Manifesto Principles Index (P-numbers)
+
+The full Manifesto lives in `src/lingoverse.jsx` (lines ~14-314). Key principles referenced throughout:
+
+| Principle | Name | Summary |
+|-----------|------|---------|
+| P8 | Anti-Leak System | 5 leak types: visual, script, hint, pattern, position |
+| P9 | TK Localization | UI strings localization layer (deferred) |
+| P14 | No Hardcoded Language | Shared UI must not contain language-specific terms |
+| P22c | No Em-Dashes | Use periods, colons, commas, or \n bullets instead |
+| P24 | No Redundancy | Check no prior unit already teaches this concept |
+| P26 | Core Constructs First | NAME core constructs in L1-L3, elaborate later |
+| P27 | No IPA | ASCII-only phonetics, no slashes as separators |
+| P30 | No Hooks in Renderers | No React hooks inside if(st.type===) blocks |
+| P31 | No Gradient Colors | Never assign CSS gradients to color property |
+| P32 | Native Quality | Every sentence native-speaker quality, one correct answer |
+| P34 | Teach Before Test | Every word in exercises must have teach card first |
+| P35 | Drag Ghost DOM | Use document.body escape hatch with delta positioning |
+| P36 | Note Length | Max ~100 chars or use \n/bullets |
+| P37 | Function Words | Need teach cards before first use |
+| P38 | Phonetics Visibility | Hidden for Latin scripts, visible for non-Latin |
+| P39 | String Escaping | Single-escaped \n, not \\n |
+| P43 | Density Targets | Korean: 20-25, Dutch: 18-35 steps/lesson |
+| P44 | No Lazy Hints | Hints must be 15+ chars, guide not reveal |
+| P45 | DeepDive Purpose | Explanation only, never continuation |
+| P46 | B1+ Multi-Construct | 2+ constructs per example, 50%+ combo quizzes |
+| P47 | Build-Time Density | Validate per lesson during build, not after |
+| P48 | Step Type Match | fb = single blank, drag_fill = multi-blank |
+| P49 | No Meta-Curriculum | CEFR labels never in learner-facing content |
+| P50 | Recycling Quality | Test USAGE, not classification |
+
+### Decision Log Reference
+The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent decisions:
+- **D99**: Dutch B1 density uplift + quick fixes
+- **D100**: Korean dialogue enrichment (Rule 9 workflow, 847/1132 cards)
+- **D101+**: Dutch quality uplift to Korean standard (this session)
+
+---
+
 ## Pipeline Rules (Must-Follow for Content Creation)
 
 ### Before Writing ANY Lesson:
@@ -162,10 +210,12 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - **D58**: Korean-only lines centered/large/purple. Empty lines = 12px spacers. Max 85 chars/line. Colons for definitions, never equals.
 - **D62**: Note/text/deepDive fields must follow structured card design standards
 
-### Anti-Leak (P8):
-- Answer must not be visible in question
-- Hints must GUIDE, never REVEAL (P44)
-- Answer position varies (~25% each position)
+### Anti-Leak System (P8) — Five Leak Types:
+1. **Visual leak**: Answer visible in the question text itself
+2. **Script leak**: Answer deducible from script/character patterns (e.g., only one Korean option among English)
+3. **Hint leak**: Hint directly reveals or contains the answer (P44: hints must GUIDE, never REVEAL)
+4. **Pattern leak**: Answer always in same position or always the longest option
+5. **Position leak**: Correct answer clustering (must vary ~25% each position)
 - Engine shuffleOpts handles runtime shuffle
 - Question and answer must use DIFFERENT representations
 
@@ -208,11 +258,13 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 ## Design System
 
 ### Colors:
-- Purple #7B5EE8 — UI accent, focus, selection, board card left accent
-- Teal #2ECDA7 — English translations, correct answers
+- Purple #7B5EE8 — UI accent, focus, selection, board card left accent, ALL unit theme colors
+- Teal #2ECDA7 — English translations, correct answers, word emphasis (logical use only)
 - Gold #E8960A — het article, low-score warning
 - Blue #4A8FE7 — de article, general buttons
 - Coral #F56565 — wrong answers only
+
+**Article colors are PERMANENT.** The de/het color scheme (blue for de-words, gold for het-words) is a core learning feature that must never be removed or changed. It exists across all Dutch content and is integral to the learning experience.
 
 ### Fonts:
 - Quicksand — display headings

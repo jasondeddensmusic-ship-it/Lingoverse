@@ -4,7 +4,7 @@
 export default [
 
 // ── DUTCH UNITS (v2 Curriculum) ──
-  {n:1,lang:"nl",track:"v2",title:"First Contact",sub:"Greetings, Zijn & Goodbyes",icon:"👋",level:"A1.1",color:"#4A8FE7",lessons:[
+  {n:1,lang:"nl",track:"v2",title:"First Contact",sub:"Greetings, Zijn & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: Hallo & Tot ziens ═══
        {id:"v2u1l1",title:"Hallo & Tot ziens",icon:"👋",xp:15,board:true,steps:[
          {type:"intro",title:"Hallo & Tot ziens",desc:"Your very first Dutch words, the ones you'll use every single day. Dutch greetings are logical and quick to master.",goals:["4 greetings (formal + casual)","4 goodbyes","Know when to use each one"]},
@@ -326,7 +326,7 @@ export default [
 
   ]},
 
-  {n:2,lang:"nl",track:"v2",title:"Who Am I?",sub:"Komen, Spreken, Wonen & Identity",icon:"🪪",level:"A1.1",color:"#3A9BE0",lessons:[
+  {n:2,lang:"nl",track:"v2",title:"Who Am I?",sub:"Komen, Spreken, Wonen & Identity",icon:"🪪",level:"A1.1",color:"#7B5EE8",lessons:[
        {id:"v2u2l1",title:"Ik kom uit...",icon:"🌍",xp:15,board:true,steps:[
          {type:"intro",title:"Ik kom uit...",desc:"Your first new verb since zijn and hebben. Learn all forms of 'komen' and say where you come from.",goals:["Every form of komen","4 countries","Say where you're from"]},
 
@@ -581,7 +581,7 @@ export default [
        ]},
   ]},
 
-  {n:3,lang:"nl",track:"v2",title:"Numbers & Time",sub:"Counting, Clock & Days",icon:"🔢",level:"A1.1",color:"#2ECDA7",lessons:[
+  {n:3,lang:"nl",track:"v2",title:"Numbers & Time",sub:"Counting, Clock & Days",icon:"🔢",level:"A1.1",color:"#7B5EE8",lessons:[
        {id:"v2u3l1",title:"Numbers 11–100",icon:"🔢",xp:15,board:true,steps:[
          {type:"intro",title:"Numbers 11–100",desc:"Dutch numbers follow clear patterns. Above twenty, digits REVERSE: 'eenentwintig' = one-and-twenty.",goals:["Count the teens (11–19)","Learn the reversed digit order (20+)","Count by tens to 100","Spot the one irregular ten"]},
 
@@ -879,7 +879,7 @@ export default [
        ]},
   ]},
 
-  {n:4,lang:"nl",track:"v2",title:"Eten & Drinken",sub:"Food, Modals & Possessives",icon:"🍽️",level:"A1.2",color:"#F5A623",lessons:[
+  {n:4,lang:"nl",track:"v2",title:"Eten & Drinken",sub:"Food, Modals & Possessives",icon:"🍽️",level:"A1.2",color:"#7B5EE8",lessons:[
        {id:"v2u4l1",title:"De Boterham",icon:"🥪",xp:15,board:true,steps:[
          {type:"intro",title:"De Boterham",desc:"Welcome to Unit 4: Eten & Drinken. We start with the most Dutch thing imaginable  -  lunch. In the Netherlands, lunch is cold bread. Every day. With cheese. Or hagelslag (chocolate sprinkles). This lesson teaches essential food nouns, articles, and the cultural shock that is Dutch lunch.",goals:["8 essential food nouns with articles","Dutch lunch culture","Say what you eat and drink","Use 'eten' and 'drinken' (two new verbs)"]},
 
@@ -1234,7 +1234,7 @@ export default [
        ]},
   ]},
 
-  {n:5,lang:"nl",track:"v2",title:"Mijn Familie & Thuis",sub:"Reflexives, Adjectives & Home",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#E74A8F",lessons:[
+  {n:5,lang:"nl",track:"v2",title:"Mijn Familie & Thuis",sub:"Reflexives, Adjectives & Home",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#7B5EE8",lessons:[
        {id:"v2u5l1",title:"Mijn Familie",icon:"👨‍👩‍👧‍👦",xp:15,board:true,steps:[
          {type:"intro",title:"Mijn Familie",desc:"Welcome to Unit 5: family and home. You already know mijn/jouw/zijn/haar from Unit 4. Now we add the full family vocabulary and expand your possessive toolkit. By the end of this unit, you'll be able to talk about your people, your house, and your daily life.",goals:["10 family member words","Review and lock in possessives","Describe your family","Dutch family culture"]},
 
@@ -1470,7 +1470,7 @@ export default [
        ]},
   ]},
 
-  {n:6,lang:"nl",track:"v2",title:"Onderweg",sub:"Transport, Prepositions & Directions",icon:"🚲",level:"A1.2",color:"var(--purple-accent-text)",lessons:[
+  {n:6,lang:"nl",track:"v2",title:"Onderweg",sub:"Transport, Prepositions & Directions",icon:"🚲",level:"A1.2",color:"#7B5EE8",lessons:[
        {id:"v2u6l1",title:"De Fiets",icon:"🚲",xp:15,board:true,steps:[
          {type:"intro",title:"De Fiets",desc:"Welcome to Unit 6: getting around. And in the Netherlands, getting around starts with one thing  -  de fiets. There are more bicycles than people in this country. This lesson teaches cycling vocabulary, basic prepositions of direction, and why the bike IS Dutch identity.",goals:["Cycling and transport vocabulary","Basic prepositions: naar, van, met","The verb 'gaan' (to go)","Why the Dutch and bikes are inseparable"]},
 
@@ -1705,7 +1705,7 @@ export default [
        ]},
   ]},
 
-  {n:7,lang:"nl",track:"v2",title:"Mijn Dag",sub:"Perfect Tense & 't Kofschip",icon:"⏰",level:"A2.1",color:"#4A8FE7",lessons:[
+  {n:7,lang:"nl",track:"v2",title:"Mijn Dag",sub:"Perfect Tense & 't Kofschip",icon:"⏰",level:"A2.1",color:"#7B5EE8",lessons:[
        {id:"v2u7l1",title:"Wat Heb Je Gedaan?",icon:"✅",xp:20,board:true,steps:[
          {type:"intro",title:"Wat Heb Je Gedaan?",desc:"Welcome to the past tense. Dutch uses the 'perfect tense' (voltooid tegenwoordige tijd) for almost all past actions in speech. It works like English 'I have done'  -  except Dutch uses it where English would say 'I did'. This is the most important grammar of A2.",goals:["How the perfect tense works","The formula: hebben + ge-...-d/-t","Make your first past participles","Talk about what you did"]},
 
@@ -1928,7 +1928,7 @@ export default [
        ]},
   ]},
 
-  {n:8,lang:"nl",track:"v2",title:"Gezondheid & Gevoel",sub:"Imperative, Comparatives & Body",icon:"🏥",level:"A2.1",color:"#F56565",lessons:[
+  {n:8,lang:"nl",track:"v2",title:"Gezondheid & Gevoel",sub:"Imperative, Comparatives & Body",icon:"🏥",level:"A2.1",color:"#7B5EE8",lessons:[
        {id:"v2u8l1",title:"Mijn Hoofd, Mijn Buik",icon:"🦶",xp:15,board:true,steps:[
          {type:"intro",title:"Mijn Hoofd, Mijn Buik",desc:"Before you can talk about health, you need the body. Dutch body part vocabulary is full of Germanic cognates  -  head/hoofd, hand/hand, foot/voet. This lesson teaches 12 essential body parts and the construction 'Ik heb pijn in mijn...' (I have pain in my...).",goals:["12 body parts with articles","'Ik heb pijn in mijn...' construction","'Ik heb hoofdpijn/buikpijn/rugpijn'","Compound pain words"]},
 
@@ -2132,7 +2132,7 @@ export default [
        ]},
   ]},
 
-  {n:9,lang:"nl",track:"v2",title:"Vrije Tijd & Plannen",sub:"Future, Subordinate Clauses & Hobbies",icon:"⚽",level:"A2.1",color:"#2ECDA7",lessons:[
+  {n:9,lang:"nl",track:"v2",title:"Vrije Tijd & Plannen",sub:"Future, Subordinate Clauses & Hobbies",icon:"⚽",level:"A2.1",color:"#7B5EE8",lessons:[
        {id:"v2u9l1",title:"Wat Doe Je Graag?",icon:"🎨",xp:15,board:true,steps:[
          {type:"intro",title:"Wat Doe Je Graag?",desc:"Before making plans, you need hobbies. Dutch uses 'graag' (gladly) where English uses 'like to': 'Ik zwem graag' = I like to swim. This lesson teaches hobby/leisure vocabulary and the graag construction.",goals:["8 hobby/leisure words","'Graag' for expressing likes","'Liever' for preferences","Talk about what you enjoy"]},
 
@@ -2294,7 +2294,7 @@ export default [
        ]},
   ]},
 
-  {n:10,lang:"nl",track:"v2",title:"Vroeger & Verhalen",sub:"Simple Past, Relative Clauses & Reading",icon:"📖",level:"A2.2",color:"#9B59B6",lessons:[
+  {n:10,lang:"nl",track:"v2",title:"Vroeger & Verhalen",sub:"Simple Past, Relative Clauses & Reading",icon:"📖",level:"A2.2",color:"#7B5EE8",lessons:[
        {id:"v2u10l1",title:"Vroeger...",icon:"📖",xp:20,board:true,steps:[
          {type:"intro",title:"Vroeger...",desc:"You already know the perfect tense (ik heb gedaan, ik ben gegaan). Now meet its partner: the imperfectum (simple past). We start with the two most important verbs: zijn → was/waren and hebben → had/hadden. These two are so common you'll learn them as vocabulary, not as grammar.",goals:["was / waren (was/were)","had / hadden (had)","'Vroeger' = in the past / back in the day","Talk about how things USED to be"]},
 
@@ -2663,7 +2663,7 @@ VOCAB STATUS:
 
 // ── DUTCH B1 UNITS (v2 Curriculum — Units 11–20) ──
 
-  {n:11,lang:"nl",track:"v2",title:"Op het Werk",sub:"Past Perfect, Voordat & Nadat",icon:"💼",level:"B1.1",color:"#4A8FE7",lessons:[
+  {n:11,lang:"nl",track:"v2",title:"Op het Werk",sub:"Past Perfect, Voordat & Nadat",icon:"💼",level:"B1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: Beroepen ═══
        {id:"v2u11l1",title:"Beroepen",icon:"💼",xp:15,board:true,steps:[
          {type:"intro",title:"Beroepen",desc:"Welcome to B1. You can already talk about the past, make plans, and give opinions. Now you enter the world of work, money, and real Dutch life. We start with the vocabulary of professional life  -  the words you'll hear in every kantoor and vergadering.",goals:["10 core work and profession words","Talk about what people do for a living","Workplace vocabulary: kantoor, collega, baas","Use 'als' for professions: 'Ik werk als...'"]},
@@ -2892,7 +2892,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:12,lang:"nl",track:"v2",title:"Geld & Zaken",sub:"Zou/Zouden & Banking",icon:"💶",level:"B1.1",color:"#2ECD9E",lessons:[
+  {n:12,lang:"nl",track:"v2",title:"Geld & Zaken",sub:"Zou/Zouden & Banking",icon:"💶",level:"B1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: De Bank ═══
        {id:"v2u12l1",title:"De Bank",icon:"🏦",xp:15,board:true,steps:[
          {type:"intro",title:"De Bank",desc:"Money makes the world go round  -  and in the Netherlands, it's almost entirely digital. Cash is disappearing, everyone 'pint', and the Tikkie app rules social life. Let's learn the vocabulary of Dutch banking.",goals:["8 core banking vocabulary words","Talk about accounts and payments","Understand 'pinnen' and Dutch cashless culture","Polysemy: 'rekening' = account AND bill"]},
@@ -3108,7 +3108,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:13,lang:"nl",track:"v2",title:"Wat Vind Jij?",sub:"Opinions & Extended Subordination",icon:"💬",level:"B1.1",color:"#F5A623",lessons:[
+  {n:13,lang:"nl",track:"v2",title:"Wat Vind Jij?",sub:"Opinions & Extended Subordination",icon:"💬",level:"B1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: Ik Vind Dat... ═══
        {id:"v2u13l1",title:"Ik Vind Dat...",icon:"💭",xp:15,board:true,steps:[
          {type:"intro",title:"Ik Vind Dat...",desc:"Time to express what you think, feel, and believe. Dutch has specific verbs for different kinds of opinions  -  vinden (feel/think), denken (think rationally), geloven (believe), menen (hold the opinion). Master these and you'll sound like a real B1 speaker.",goals:["5 opinion verbs: vinden, denken, geloven, menen, lijken","'Ik vind dat...' structure","'Het lijkt me...' for impressions","Polysemy: vinden = find AND think/feel"]},
@@ -3308,7 +3308,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:14,lang:"nl",track:"v2",title:"Het Kleine Woordje 'Er'",sub:"All Five Uses of Er",icon:"📍",level:"B1.1",color:"#E74A8F",lessons:[
+  {n:14,lang:"nl",track:"v2",title:"Het Kleine Woordje 'Er'",sub:"All Five Uses of Er",icon:"📍",level:"B1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: Er Is... Er Zijn... (Review) ═══
        {id:"v2u14l1",title:"Er Is... Er Zijn...",icon:"📍",xp:15,board:true,steps:[
          {type:"intro",title:"Er Is... Er Zijn...",desc:"'Er' is the most misunderstood word in Dutch. It has FIVE different uses, and they all look the same. This unit will master them all. We start with the one you already know: existential er (there is/there are).",goals:["Review er is / er zijn","Position verbs with er: staan, liggen, zitten, hangen","Er + indefinite subjects","Build foundation for all 5 uses"]},
@@ -3509,7 +3509,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:15,lang:"nl",track:"v2",title:"Opleiding & Toekomst",sub:"Infinitive Constructions & Verb Clusters",icon:"🎓",level:"B1.1",color:"#9B59B6",lessons:[
+  {n:15,lang:"nl",track:"v2",title:"Opleiding & Toekomst",sub:"Infinitive Constructions & Verb Clusters",icon:"🎓",level:"B1.1",color:"#7B5EE8",lessons:[
 // ═══ L1: School & Studie ═══
        {id:"v2u15l1",title:"School & Studie",icon:"📚",xp:15,board:true,steps:[
          {type:"intro",title:"School & Studie",desc:"Education vocabulary. From basisschool to universiteit, from diplomas to exams. The Netherlands has a unique school system that surprises many internationals  -  let's learn how it works.",goals:["10 education vocabulary words","Talk about school and studies","Dutch school system basics","Key expressions: studeren, afstuderen, slagen"]},
@@ -3716,7 +3716,7 @@ VOCAB STATUS:
   ]},
 
 
-  {n:16,lang:"nl",track:"v2",title:"Het Wordt Gedaan",sub:"Passive Voice & Formal Register",icon:"📰",level:"B1.2",color:"#4A8FE7",lessons:[
+  {n:16,lang:"nl",track:"v2",title:"Het Wordt Gedaan",sub:"Passive Voice & Formal Register",icon:"📰",level:"B1.2",color:"#7B5EE8",lessons:[
 // ═══ L1: Actief vs Passief ═══
        {id:"v2u16l1",title:"Actief vs Passief",icon:"📰",xp:15,board:true,steps:[
          {type:"intro",title:"Actief vs Passief",desc:"Until now, you've always said WHO does something: 'Ik schrijf de brief' (I write the letter). But what if you want to focus on WHAT happens, not who does it? 'De brief wordt geschreven'  -  the letter is being written. This is the passive voice, and it's everywhere in Dutch news, rules, and formal writing.",goals:["Understand active vs passive concept","Core vocabulary for formal contexts","See passive in real Dutch examples","Prepare for the grammar in L2–L5"]},
@@ -3933,7 +3933,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:17,lang:"nl",track:"v2",title:"Een Nieuw Huis",sub:"Housing, Moving & Extended Relatives",icon:"🏠",level:"B1.2",color:"#3A9BE0",lessons:[
+  {n:17,lang:"nl",track:"v2",title:"Een Nieuw Huis",sub:"Housing, Moving & Extended Relatives",icon:"🏠",level:"B1.2",color:"#7B5EE8",lessons:[
 // ═══ L1: Huren of Kopen? ═══
        {id:"v2u17l1",title:"Huren of Kopen?",icon:"🏠",xp:15,board:true,steps:[
          {type:"intro",title:"Huren of Kopen?",desc:"The Dutch housing market is one of the most talked-about topics in the Netherlands. Long waiting lists, high prices, and a culture of renting. Let's learn the vocabulary you need to talk about housing.",goals:["8 core housing vocabulary words","huren vs kopen (rent vs buy)","makelaar, hypotheek, borg","Talk about where you live"]},
@@ -4132,7 +4132,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:18,lang:"nl",track:"v2",title:"Hij Zei Dat...",sub:"Indirect Speech & Reporting",icon:"🗣️",level:"B1.2",color:"#F56565",lessons:[
+  {n:18,lang:"nl",track:"v2",title:"Hij Zei Dat...",sub:"Indirect Speech & Reporting",icon:"🗣️",level:"B1.2",color:"#7B5EE8",lessons:[
 // ═══ L1: Zeggen & Vertellen ═══
        {id:"v2u18l1",title:"Zeggen & Vertellen",icon:"🗣️",xp:15,board:true,steps:[
          {type:"intro",title:"Zeggen & Vertellen",desc:"How do you report what someone said? First you need the right verbs. Dutch has many reporting verbs, and 'zeggen' vs 'vertellen' is a crucial distinction that English doesn't make clearly.",goals:["Reporting verbs: zeggen, vertellen, vragen, uitleggen","zeggen vs vertellen: key difference","Additional verbs: beweren, melden, waarschuwen","Prepare for indirect speech in L2–L4"]},
@@ -4330,7 +4330,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:19,lang:"nl",track:"v2",title:"Nederland & De Wereld",sub:"Participles, Compounds & Prefixes",icon:"🌍",level:"B1.2",color:"#2ECDA7",lessons:[
+  {n:19,lang:"nl",track:"v2",title:"Nederland & De Wereld",sub:"Participles, Compounds & Prefixes",icon:"🌍",level:"B1.2",color:"#7B5EE8",lessons:[
 // ═══ L1: Tradities ═══
        {id:"v2u19l1",title:"Tradities",icon:"🎉",xp:15,board:true,steps:[
          {type:"intro",title:"Tradities",desc:"Dutch traditions are unique. Sinterklaas, Koningsdag, Carnaval, the Nieuwjaarsduik  -  they define Dutch culture. Let's learn the vocabulary to talk about what makes the Netherlands special.",goals:["Dutch tradition vocabulary","Sinterklaas, Koningsdag, Carnaval","Cultural context and history","Talk about holidays and celebrations"]},
@@ -4538,7 +4538,7 @@ VOCAB STATUS:
        ]},
   ]},
 
-  {n:20,lang:"nl",track:"v2",title:"B1 Klaar!",sub:"Diminutives, Register & Consolidation",icon:"🏆",level:"B1.2",color:"#9B59B6",lessons:[
+  {n:20,lang:"nl",track:"v2",title:"B1 Klaar!",sub:"Diminutives, Register & Consolidation",icon:"🏆",level:"B1.2",color:"#7B5EE8",lessons:[
 // ═══ L1: Verkleinwoorden ═══
        {id:"v2u20l1",title:"Verkleinwoorden",icon:"🔤",xp:20,board:true,steps:[
          {type:"intro",title:"Verkleinwoorden",desc:"Diminutives are EVERYWHERE in Dutch. 'Een kopje koffie', 'een broodje', 'een biertje'  -  even 'eventjes' (just a moment). The suffix changes based on the word's ending, and ALL diminutives become het-words. Let's master the full system.",goals:["Five diminutive suffix rules","All diminutives = het-words","Emotional/social uses of diminutives","Practice with common examples"]},
