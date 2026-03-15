@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D100 | Korean Dialogue Enrichment + Sequential Workflow | Content/Workflow | Korean/All |
 | D99 | Dutch B1 Polish: Density Uplift + Quick Fixes | Content/Quality | Dutch |
 | D98 | P48/P49 Fix: 520 fb→drag_fill + 15 CEFR Purge | Quality Fix | Korean |
 | D97 | Content Quality Gate for Uplift/Batch Edits | Agent Protocol | All |
@@ -107,6 +108,7 @@
 | D90 | Pattern-ID MC Reframe to Meaning Questions | Pipeline/Quality | All |
 | D91 | Two-Pass P8 Scanning Protocol | Agent Protocol | All |
 | D92 | B1 Full Quality Audit: 14 Rounds | Content/Quality | Korean |
+| D100 | Korean Dialogue Enrichment + Sequential Agent Workflow | Content/Workflow | Korean/All |
 
 ---
 
@@ -131,7 +133,7 @@ D32, D37
 D11, D35d, D69
 
 ### Korean Curriculum
-D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94, D96, D98
+D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94, D96, D98, D100
 
 ### Korean Engine Features
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
@@ -143,7 +145,10 @@ D12, D23, D29, D30, D32, D34a-l, D99
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
 
 ### Agent Protocol / Documentation
-D74, D80, D81, D82, D86, D87, D91, D95, D97
+D74, D80, D81, D82, D86, D87, D91, D95, D97, D100
+
+### Content Enrichment Workflow
+D100
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85
