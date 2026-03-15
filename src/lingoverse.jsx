@@ -10156,9 +10156,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return ()=>{document.removeEventListener("pointerup",handleDragEnd);document.removeEventListener("touchend",handleDragEnd);};
   },[]);
   const total=steps.length;
-  let st=steps[si];
+  let st=steps[si]||null;
   // Auto-convert multi-blank fb to drag_fill (P48: fb only supports single blank {1})
-  if(st.type==="fb"&&/\{2\}/.test(st.s)){
+  if(st&&st.type==="fb"&&/\{2\}/.test(st.s)){
     const fbA=Array.isArray(st.a)?st.a:[st.a];
     const autoBlanks={};
     fbA.forEach((ans,i)=>{autoBlanks[String(i+1)]=ans;});
