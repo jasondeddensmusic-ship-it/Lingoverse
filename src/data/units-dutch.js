@@ -2882,7 +2882,7 @@ VOCAB STATUS:
          {type:"fb",s:"___ de vergadering begon, had ik al koffie gedronken.",a:"Voordat",opts:["Voordat","Nadat","Zodra","Totdat"],hint:"BEFORE the meeting started..."},
          {type:"match",pairs:[{nl:"het kantoor",en:"the office"},{nl:"de vergadering",en:"the meeting"},{nl:"solliciteren",en:"to apply"},{nl:"het besluit",en:"the decision"}]},
          {type:"mc",q:"'Nadat ik had gegeten'  -  which tense is in the nadat-clause?",opts:["Present","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"had + gegeten = past perfect"},
-         {type:"fb",s:"Zij werkt ___ arts. (as)",a:"als",opts:["als","een","de","voor"],hint:"She works AS a doctor"},
+         {type:"fb",s:"Zij werkt ___ arts. (as)",a:"als",opts:["als","een","de","voor"],hint:"Which word connects a profession to werken?"},
          {type:"drag_fill",s:"{1} ik thuis ben, bel ik je. Ik wacht {2} je klaar bent.",blanks:{"1":"Zodra","2":"totdat"},pool:["Zodra","totdat","Voordat","Nadat"],hint:"As soon as... I'll wait until..."},
          {type:"mc",q:"'Volgens mij is dat een goed idee.'  -  'Volgens mij' means:",opts:["I'm sure","In my opinion","The boss said","Everyone thinks"],ans:"In my opinion",hint:"Volgens = according to"},
          {type:"fb",s:"Ik ___ dat we meer tijd nodig hebben.",a:"denk",opts:["denk","vind","heb","wil"],hint:"I think that..."},
