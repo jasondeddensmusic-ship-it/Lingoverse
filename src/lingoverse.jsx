@@ -2859,12 +2859,23 @@ DECISION 84 — Korean/English Translation Separation (2026-03-15)
   coloring to English words mixed in with Korean.
   FIX: (a) splitKoEn() helper splits st.s/st.q on newline: first line
   is Korean (rendered via koreanHl), rest is English (rendered plain).
-  (b) renderEnglishBelow() shows toggleable translation: hidden by
-  default for fb/mc (comprehension first), visible for drag_fill
-  (multi-blank needs context). Toggle resets on step navigation.
+  (b) renderEnglishBelow() shows translation visible by default for
+  all quiz types (fb, mc, drag_fill). Learners need context.
   (c) {1} format normalized to ___ in fb renderer for Korean content.
+  (d) ~450+ inline English translations in units-korean.js moved to
+  \n-separated second line across all 20 units.
   RULE: All quiz renderers must separate Korean and English before
   applying highlighting. English translations are never highlighted.
+
+DECISION 85 — Streamlined Onboarding: Single Screen (2026-03-15)
+  PROBLEM: New users had to click through 3 screens (splash → language
+  picker → auth/sign-in) before reaching the app. Too much friction.
+  FIX: (a) Removed splash screen entirely. Onboarding opens directly
+  on the flag icon grid language picker. (b) Removed auth screen.
+  Onboard auto-creates a guest profile (Learner, beginner, 15min goal).
+  Users go from cold start to learning in ONE click.
+  RULE: Re-add auth when user accounts are implemented server-side.
+  Until then, all state is local (localStorage).
 
 
 ═══════════════════════════════════════════════════════════════════════
@@ -8058,37 +8069,22 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
 
 function Onboarding({onComplete}){
   const dk=document.documentElement.classList.contains("dark");
-  const [step,setStep]=useState(0); // 0=splash, 1=pick target language
   const [targetSel,setTargetSel]=useState(null);
   const baseSel="en"; // D83: hardcoded until Arabic source language is added
 
-  // Ctrl+S → proceed on ALL onboarding screens
+  // Ctrl+S → proceed
   useEffect(()=>{
     const h=e=>{
       if((e.ctrlKey||e.metaKey)&&e.key==="s"){
         e.preventDefault();
-        if(step===0) setStep(1);
-        else if(step===1&&targetSel) onComplete(baseSel,targetSel);
+        if(targetSel) onComplete(baseSel,targetSel);
       }
     };
     window.addEventListener("keydown",h);
     return ()=>window.removeEventListener("keydown",h);
-  },[step,targetSel]);
+  },[targetSel]);
 
-  // Step 0: Splash
-  if(step===0) return(
-    <div className="ob-overlay">
-      <div className="ob-card">
-        <div style={{width:80,height:80,borderRadius:20,margin:"0 auto 20px",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:36,fontWeight:900,color:"#fff",fontFamily:"'DM Sans',sans-serif",boxShadow:"0 8px 32px rgba(123,94,232,0.3)"}}>L</div>
-        <h1 className="hd" style={{fontSize:40,fontWeight:800,marginBottom:6,background:"linear-gradient(135deg,#7B5EE8,#A890FF)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>LingoVerse</h1>
-        <p style={{color:"var(--purple-accent-text)",fontSize:14,fontWeight:600,letterSpacing:1,textTransform:"uppercase",marginBottom:20}}>Your AI Language Universe</p>
-        <p style={{color:"var(--gray-500)",fontSize:16,lineHeight:1.7,maxWidth:400,margin:"0 auto 32px"}}>Master any language with AI-powered lessons, personalized vocabulary, and real conversation practice.</p>
-        <button className="btn btn-blue" style={{fontSize:17,padding:"16px 40px",borderRadius:16}} onClick={()=>setStep(1)}>Get Started →</button>
-      </div>
-    </div>
-  );
-
-  // Step 1: "I want to learn..." — flag icon grid matching Profile screen (D83)
+  // D85: Single screen — pick target language. No splash, no auth. Flag icon grid matching Profile screen.
   return(
     <div className="ob-overlay" style={{overflowY:"auto",padding:20}}>
       <div className="ob-card" style={{maxWidth:520}}>
@@ -12092,7 +12088,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_choose_correct",baseLang)}</div>
           {(()=>{const{korean:mcKo,english:mcEn}=splitKoEn(st.q||"");return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {/[\uAC00-\uD7AF]/.test(mcKo)?koreanHl(mcKo):smartHl(mcKo)}
-          </div>{renderEnglishBelow(mcEn,false)}</>;})()}
+          </div>{renderEnglishBelow(mcEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
           </div>
@@ -12256,7 +12252,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
           {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{/[\uAC00-\uD7AF]/.test(part)?koreanHl(part):smartHl(part)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
-          </div>{renderEnglishBelow(fbEn,false)}</>;})()}
+          </div>{renderEnglishBelow(fbEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
         </div>
@@ -12795,7 +12791,8 @@ export default function App(){
     setUser(u=>{const ls=new Set(u.ls);ls.add(lang);if(ls.size>=3&&!u.achs.includes("polyglot"))setTimeout(()=>unlock("polyglot"),500);return{...u,ls};});
   },[lang]);
 
-  const onboard=(base,target)=>{setBaseLang(base);setLang(target);setOb(true);showToast(`${t("ob_start_learning",base)} ${LANGUAGES.find(l=>l.code===target)?.name}!`,"🚀");};
+  // D85: onboard auto-creates guest profile, skipping auth screen entirely
+  const onboard=(base,target)=>{setBaseLang(base);setLang(target);setOb(true);setProfile({displayName:"Learner",avatar:"🧑‍🚀",level:"beginner",dailyGoal:15,createdAt:new Date().toISOString()});setAuthed(true);showToast(`${t("ob_start_learning",base)} ${LANGUAGES.find(l=>l.code===target)?.name}!`,"🚀");};
 
   // ── PERSISTENCE ──
   useEffect(()=>{

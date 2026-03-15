@@ -44,7 +44,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 | Section | Contents |
 |---------|----------|
-| Manifesto & Decision Log | 20+ principles, 84 decisions (D1-D84), pipeline rules, curriculum spine |
+| Manifesto & Decision Log | 20+ principles, 85 decisions (D1-D85), pipeline rules, curriculum spine |
 | Utility functions | TTS, vocab helpers, storage, validators |
 | CSS design system | Full CSS-in-JS with dark mode |
 | Page components | TopNav, Home, Profile, Chat, Quiz, Flashcards, Auth, Onboarding |
