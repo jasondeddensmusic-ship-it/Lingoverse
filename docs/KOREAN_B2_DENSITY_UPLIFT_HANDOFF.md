@@ -5,6 +5,8 @@
 > **Purpose**: Everything the next agent needs to uplift B2 to production quality
 > **Decision**: D95 (density failure), P47 (build-time enforcement), Agent Rule 7
 > **Scope**: NOT just adding filler steps. This is a PEDAGOGIC uplift that makes B2 the crown jewel of the Korean curriculum.
+>
+> **STATUS (2026-03-15)**: DENSITY UPLIFT COMPLETE (D96). P48 FIX COMPLETE (D98, 520 fb→drag_fill). P49 FIX COMPLETE (D98, 15 CEFR purges). Remaining: D92-style deep quality audit.
 
 ---
 

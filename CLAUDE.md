@@ -279,6 +279,8 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
   - TOPIK II writing prep (51번/52번/53번). 4-register mastery. 8 C1 seeds planted.
   - **DENSITY UPLIFT COMPLETE (2026-03-15)**: All 100 lessons now 20-22 steps (avg 21.2). ~600 cross-level review steps added recycling A1-B1 grammar. Brace/bracket balanced. D89 clean. 0 low lessons.
   - P8 scan: 4 leaks found and fixed. P34 scan: PASS. board:true: 311/311.
+- **P48 FIX COMPLETE (D98, 2026-03-15)**: All 520 multi-blank `fb` steps converted to `drag_fill` with proper `blanks:{}` objects. Distribution: U18(1), U21(21), U22(29), U23(56), U24(67), U25(67), U26(69), U27(44), U28(52), U29(56), U30(58). Zero remaining P48 violations.
+- **P49 FIX COMPLETE (D98, 2026-03-15)**: 15 CEFR meta-curriculum quiz steps rewritten. Removed all A1/A2/B1/B2/C1 labels from learner-facing quiz `q`, `opts`, and `ans` fields. Replaced with grammar-usage questions. Zero remaining P49 violations in quiz content.
 - 30 units, ~311 lessons total, ~6,900+ steps (after B2 uplift)
 - **REMAINING QUALITY ITEMS**:
   - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
@@ -304,7 +306,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 density uplift COMPLETE (D96, avg 21.2). Next: **B2 quality audit, then C1**.
+1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 density uplift COMPLETE (D96, avg 21.2). P48/P49 fixes COMPLETE (D98). Next: **B2 quality audit, then C1**.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.

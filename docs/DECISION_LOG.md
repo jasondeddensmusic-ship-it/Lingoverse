@@ -9,6 +9,10 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D98 | P48/P49 Fix: 520 fb→drag_fill + 15 CEFR Purge | Quality Fix | Korean |
+| D97 | Content Quality Gate for Uplift/Batch Edits | Agent Protocol | All |
+| D96 | B2 Density Uplift (U21-U30) | Content/Quality | Korean |
+| D95 | B2 Density Failure Post-Mortem | Agent Protocol | All |
 | D94 | Korean B2 Curriculum Kickoff | Content/Architecture | Korean |
 | D93 | A1-A2 Full Quality Audit (7 rounds) | Audit | Korean |
 | D1 | Arabic: Diagram-First Intro Card | Content | Arabic |
@@ -126,7 +130,7 @@ D32, D37
 D11, D35d, D69
 
 ### Korean Curriculum
-D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94
+D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94, D96, D98
 
 ### Korean Engine Features
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
@@ -135,10 +139,10 @@ D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
 D12, D23, D29, D30, D32, D34a-l
 
 ### Pipeline Rules
-D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90
+D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
 
 ### Agent Protocol / Documentation
-D74, D80, D81, D82, D86, D87, D91
+D74, D80, D81, D82, D86, D87, D91, D95, D97
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85
@@ -147,7 +151,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98
 
 ---
 
@@ -159,6 +163,7 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93
 - **D36-D40**: Session 35+ block continuing from line ~3778
 - **D86-D87**: Defined in `CLAUDE.md` Agent Deployment Standards (Rules 5-6), not in lingoverse.jsx
 - **D89-D92**: From B1 Full Quality Audit (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D95-D98**: B2 density uplift cycle (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 
 ---
 
@@ -205,6 +210,29 @@ Korean A1-B1 is fully audited and verified. B2 curriculum (U21-U30) begins. B2 t
 - **Items deferred from B1 gap plan Tier 3**: -(으)ㄹ 뻔했다 (already added in A1-A2 audit round 3 to U20), -지요/-죠, -(이)라도, 대신에, -기는 하다
 - **Pipeline**: All rules P8-P56, D58, D89-D93 apply. P46 multi-construct density is MANDATORY. B2 should be stricter than B1.
 - **References**: TOPIK II (levels 3-4), TTMIK L5-9, Korean Grammar in Use Intermediate, Integrated Korean Intermediate 1-2
+
+## D95: B2 Density Failure Post-Mortem (2026-03-15)
+
+Korean B2 skeleton (U21-U30, 100 lessons) was built with 91/100 lessons below P43 minimum. Progressive thinning: U21 averaged 17.7 steps, U30 averaged 10.9. No agent monitored density during build. **Root cause**: No Rule 7 enforcement (density checked post-build, not per-lesson). Same pattern as B1 pre-uplift (D88). **Action**: Created P47 (build-time density enforcement) and Agent Rule 7 (deploy orchestrator agent during multi-unit builds). See CLAUDE.md for full rule text.
+
+## D96: B2 Density Uplift (2026-03-15)
+
+All 100 B2 lessons uplifted to 20-22 steps (avg 21.2). ~600 cross-level review steps added recycling A1-B1 grammar. However, uplift enforced step COUNT but not step QUALITY — see D97 and D98.
+
+## D97: Content Quality Gate for Uplift/Batch Edits (2026-03-15)
+
+Created Agent Rule 8 in response to D96 quality failures. **Rule**: After any batch edit touching 10+ steps, MUST verify P48 (step type correctness), P49 (no CEFR in learner content), P50 (recycling tests usage not classification) BEFORE committing. Every added step must be pedagogically valid on its own. Density without quality is anti-pedagogy. See CLAUDE.md Rule 8 for full text.
+
+## D98: P48/P49 Fix — 520 fb→drag_fill + 15 CEFR Purge (2026-03-15)
+
+**P48 fix**: Converted all 520 multi-blank `fb` steps to `drag_fill` with proper `blanks:{}` objects and `pool:[]` arrays. The engine `fb` renderer only supports single-blank `{1}`; steps with `{2}`,`{3}`,`{4}` rendered as literal text to learners. Distribution: U18(1), U21(21), U22(29), U23(56), U24(67), U25(67), U26(69), U27(44), U28(52), U29(56), U30(58). Conversion was mechanical (Python script), verified by grep post-conversion: zero remaining `type:"fb"` with `{2}+`.
+
+**P49 fix**: Rewrote 15 quiz steps that exposed CEFR level labels (A1/A2/B1/B2/C1) in learner-facing `q`, `opts`, or sentence strings. Examples of violations:
+- "A1-문법은?" → rewritten to "이 문장에서 이유와 요청을 나타내는 문법은?"
+- "B2에서 배운 원인 패턴의 수는?" → rewritten to test formal cause pattern identification
+- "B1에서 배운 문법을" → removed CEFR label, kept grammar-usage question
+
+**Verification**: `grep` confirms zero remaining CEFR labels in quiz `q`/`opts`/`ans` fields. Build passes. Engine runtime safety net also added (auto-convert any surviving multi-blank fb to drag_fill).
 
 ---
 
