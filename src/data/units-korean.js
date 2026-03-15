@@ -3684,7 +3684,7 @@ export default [
 {type:"fb",s:"수업이 끝나{1} 학생들이 밖으로 나갔어요.\n(As soon as class ended, the students went outside.)",a:["자마자"],opts:["자마자","면","서","는데"],hint:"Class ended, students went out right away. Instant sequence connector on verb stem."},
 {type:"mc",q:"한국에 도착하자마자 김치를 먹어 봤어요.\n(As soon as I arrived in Korea, I tried kimchi.)",opts:["-자마자 + -아/어 보다","-자마자 + -게 되다","-(으)ㄴ 후에 + -아/어 보다","-기 전에 + -아/어 보다"],ans:"-자마자 + -아/어 보다",hint:"Immediate action (-자마자) + trying something (-아/어 보다)."},
 {type:"drag_fill",s:"문을 {1} 전화가 {2}.\n(As soon as I opened the door, the phone rang.)",blanks:{"1":"열자마자","2":"울렸어요"},pool:["열자마자","울렸어요","열면","울려요","여는데","울리고"],hint:"-자마자 for immediate sequence. 열다 → 열자마자."},
-{type:"match",pairs:[{nl:"도착하자마자",en:"as soon as arriving"},{nl:"일어나자마자",en:"as soon as waking up"},{nl:"끝나자마자",en:"as soon as ending"},{nl:"만나자마자",en:"as soon as meeting"}]},
+{type:"match",pairs:[{nl:"열자마자",en:"as soon as opening"},{nl:"시작하자마자",en:"as soon as starting"},{nl:"보자마자",en:"as soon as seeing"},{nl:"만나자마자",en:"as soon as meeting"}]},
 ]},
 
 // ── L1c: -아/어도 (Even If/Though) ──
@@ -3758,6 +3758,8 @@ export default [
 {type:"fb",s:"한국에서는 어른 앞에서 조용히 {1} 해요.\n(In Korea, you should behave quietly in front of elders.)",a:["해야"],opts:["해야","하면","해도","하는데"],hint:"-아/어야 하다 (obligation). Cultural expectation about behavior."},
 {type:"drag_fill",s:"눈치가 {1} 사람은 실수를 {2} 해요.\n(A person without nunchi often makes mistakes.)",blanks:{"1":"없는","2":"자주"},pool:["없는","자주","없어서","많이","없으면","잘"],hint:"Modifier -는 + noun + frequency adverb for cultural description."},
 {type:"mc",q:"선배가 화가 난 것 같은데 뭐라고 해야 할지 모르겠어요.\n(It seems the senior is angry but I do not know what to say.)",opts:["-는 것 같다 + -는데 + 뭐라고","-나 보다 + -지만 + 뭐라고","-는 것 같다 + -거든요 + 뭐라고","-나 보다 + -는데 + 어떻게"],ans:"-는 것 같다 + -는데 + 뭐라고",hint:"Seems like + background + indirect question: reading social situation."},
+{type:"teach",kind:"noun",nl:"예의",en:"manners, etiquette",phonetic:"ye-ui",example:"한국에서는 예의가 중요해요.",exampleEn:"Manners are important in Korea.",note:"COMPOUND: 예(ceremony/禮) + 의(right/義).\nCeremony-right: proper social behavior."},
+{type:"teach",kind:"noun",nl:"체면",en:"face, reputation",phonetic:"che-myeon",example:"한국 사람들은 체면을 중요하게 생각해요.",exampleEn:"Koreans consider face/reputation important.",note:"COMPOUND: 체(body/體) + 면(face/面).\nBody-face: social dignity and appearance."},
 {type:"match",pairs:[{nl:"눈치",en:"social awareness / reading the room"},{nl:"분위기",en:"atmosphere / mood"},{nl:"예의",en:"manners / etiquette"},{nl:"체면",en:"face / reputation"}]},
 {type:"fb",s:"회의 중에 눈치를 보{1} 아무 말도 못 했어요.\n(I was reading the room during the meeting and could not say anything.)",a:["느라고"],opts:["느라고","아서","는데","지만"],hint:"Because of reading the room, couldn't speak. Which causal connector implies a negative result?"},
 ]},
@@ -3802,7 +3804,7 @@ export default [
 {type:"drag_fill",s:"A: 이 식당 {1}!\nB: 네, 유명하{2}. 사람이 많아요.\n(A: Oh, this restaurant is ___!\nB: Yes, you see, it's ___. It's crowded.)",blanks:{"1":"좋네요","2":"거든요"},pool:["좋네요","좋는데","거든요","군요","은데"],hint:"A: Oh, this restaurant is nice! (surprise) B: Yes, you see, it's famous. (new info)"},
 {type:"match",pairs:[{nl:"-네요",en:"Oh! (surprise/discovery)"},{nl:"-군요",en:"I see (realization)"},{nl:"-거든요",en:"you see... (new info)"},{nl:"-는데",en:"background/contrast"}]},
 {type:"fb",s:"와, 눈이 오{1}! 너무 예뻐요!\n(Wow, oh it's snowing___! So pretty!)",a:"네요",opts:["네요","군요","거든요","는데"],hint:"Wow, oh it's snowing! So pretty! Immediate surprise at what you see."},
-{type:"mc",q:"Someone tells you Korea has 5,000 years of history. You respond:",opts:["그렇군요! (I see!)","그렇네요! (Oh!)","그런데요! (But!)","그래서요! (So!)"],ans:"그렇군요!\n(I see!)",hint:"You're processing information someone TOLD you (not direct experience). Reflective = -군요."},
+{type:"mc",q:"Someone tells you Korea has 5,000 years of history. You respond:",opts:["그렇군요! (I see!)","그렇네요! (Oh!)","그런데요! (But!)","그래서요! (So!)"],ans:"그렇군요! (I see!)",hint:"You're processing information someone TOLD you (not direct experience). Reflective = -군요."},
 {type:"mc",q:"Complete: 벌써 봄이 왔___! 꽃이 피었어요.\n(Spring came already! Flowers bloomed.)",opts:["네요","군요","거든요","는데"],ans:"네요",hint:"You're seeing it right now. Flowers blooming = direct experience. Surprise = -네요."},
 
 {type:"fb",s:"와, 이 음식 정말 맛있{1}!\n(Wow, this food is really delicious!)",a:["네요"],opts:["네요","어요","군요","는데요"],hint:"Expressing surprise from direct experience. Just tasted it and reacting. Which ending?"},
@@ -3832,6 +3834,7 @@ export default [
 {type:"match",pairs:[{nl:"모르다 → 몰라요",en:"not know (르-irreg)"},{nl:"다르다 → 달라요",en:"different (르-irreg)"},{nl:"빠르다 → 빨라요",en:"fast (르-irreg)"},{nl:"부르다 → 불러요",en:"sing/call (르-irreg)"}]},
 {type:"mc",q:"All 6 irregular families complete! Which one drops its consonant entirely?",opts:["ㅅ-irregular (짓다 → 지어요)","ㄷ-irregular (듣다 → 들어요)","ㅂ-irregular (덥다 → 더워요)","르-irregular (모르다 → 몰라요)"],ans:"ㅅ-irregular (짓다 → 지어요)",hint:"ㅅ drops completely. ㄷ changes to ㄹ. ㅂ changes to 우. 르 splits."},
 
+{type:"teach",kind:"verb",nl:"마르다",en:"to be dry, to be parched",phonetic:"ma-reu-da",example:"날씨가 건조해서 목이 말라요.",exampleEn:"The weather is dry so my throat is parched.",note:"르-irregular: 마르다 → 말라요.\n마 has bright vowel (ㅏ) → 라.\nㄹ doubles: 마 → 말 + 라요."},
 {type:"fb",s:"이 음식이 너무 매워서 목이 {1}.\n(This food is so spicy that my throat hurts.)",a:["말라요"],opts:["말라요","마르어요","마라요","말러요"],hint:"마르다 is 르-irregular. ㄹ doubles, ㅡ drops. 마 has bright vowel (ㅏ). Apply the rule."},
 {type:"mc",q:"배가 고파서 빨리 먹고 싶었는데 음식이 아직 안 왔어요.\n(I was hungry and wanted to eat quickly but the food had not come yet.)",opts:["-아/어서 + -고 싶다 (past) + -는데","-니까 + -고 싶다 + -지만","-때문에 + -게 되다 + -는데","-는데 + -고 싶다 + -거든요"],ans:"-아/어서 + -고 싶다 (past) + -는데",hint:"Cause + past desire + contrast: 고프다 is 르-irregular (고파서)."},
 {type:"drag_fill",s:"한국에서는 교통이 {1} 편이라서 여행하기 {2}.\n(Transportation in Korea tends to be fast so traveling is convenient.)",blanks:{"1":"빠른","2":"편해요"},pool:["빠른","편해요","빠르는","편한","빠르게","편하게"],hint:"빠르다 is 르-irregular: modifier form 빠른. + -는 편이다 (tendency)."},
@@ -3865,7 +3868,7 @@ export default [
 // ── L8: 대화 연습 (Conversation Practice) ──
 {id:"kou13l8",title:"대화 연습",icon:"💬",xp:22,board:true,steps:[
 {type:"intro",title:"Conversation Practice",desc:"All connectors in real conversations.\n\nCombine everything from Unit 13\nfor natural Korean flow.",goals:["Use all Unit 13 grammar naturally","Have flowing multi-turn conversations","Apply 눈치 concepts","Practice 르-irregular in context"]},
-{type:"mc",q:"A: 취미가 뭐예요? B: 등산이에요. A: 그렇군요! 저는 잘 {___}. B uses:",opts:["몰라요","모라요","모르아요","몰러요"],ans:"몰라요",hint:"I don't know much (about hiking). 모르다 → 몰라요. 르-irregular."},
+{type:"mc",q:"A: 취미가 뭐예요? B: 등산이에요. A: 그렇군요! 저는 잘 {___}.\nComplete A's response:",opts:["몰라요","모라요","모르아요","몰러요"],ans:"몰라요",hint:"I don't know much (about hiking). 모르다 → 몰라요. 르-irregular."},
 {type:"fb",s:"이 산이 높{1} 경치가 아름다워요.\n(This mountain is high___ the scenery is beautiful.)",a:"은데",opts:["은데","는데","인데","지만"],hint:"This mountain is high, and the scenery is beautiful. 높다 = adjective → (으)ㄴ데."},
 {type:"mc",q:"A: 왜 등산 좋아해요? B: 건강에 좋거든요. 그리고 경치가 아름답네요! B uses two endings. Why?",opts:["-거든요 for reason A didn't know, -네요 for experiencing beauty now","-거든요 for surprise, -네요 for explanation","Both express the same thing","Both show contrast"],ans:"-거든요 for reason A didn't know, -네요 for experiencing beauty now",hint:"-거든요 = 'you see, it's healthy.' -네요 = 'oh, the scenery is beautiful!' (seeing it now)."},
 {type:"fb",s:"서울하고 부산은 많이 {1}.\n(Seoul and Busan are very ___.)",a:"달라요",opts:["달라요","다라요","다르아요","달러요"],hint:"다르다 is a 르-irregular verb. How does it conjugate?"},
@@ -3899,7 +3902,7 @@ export default [
 {type:"drag_fill",s:"A: 한국어 잘하시{1}!\nB: 한국에서 살았{2}. 3년 살았어요.\n(A: Oh, you speak Korean well___!\nB: You see, I lived in Korea___. I lived there 3 years.)",blanks:{"1":"네요","2":"거든요"},pool:["네요","거든요","군요","는데","어서"],hint:"A: Oh you speak well! (surprise) B: You see, I lived in Korea. (new info)"},
 {type:"fb",s:"이 카페는 좋{1} 커피가 비싸요.\n(This cafe is nice___ the coffee is expensive.)",a:"은데",opts:["은데","는데","인데","지만"],hint:"This cafe is nice but coffee is expensive. 좋다 adjective → (으)ㄴ데."},
 {type:"mc",q:"모르다 → 몰라요. What happens with 르-irregular verbs?",opts:["ㄹ doubles, ㅡ drops, then add 아/어요","르 changes to ㄹ","르 drops entirely","르 stays and adds 어요"],ans:"ㄹ doubles, ㅡ drops, then add 아/어요",hint:"르 splits: ㄹ goes to previous syllable (doubling it). ㅡ drops. Then vowel harmony applies."},
-{type:"mc",q:"그렇군요 vs 그렇네요. When someone TELLS you a fact, you say:",opts:["그렇군요 (I see, processing)","그렇네요 (Oh! surprise)","Both work the same","Neither is correct"],ans:"그렇군요\n(I see, processing)",hint:"-군요 for information received from others. -네요 for direct experience."},
+{type:"mc",q:"그렇군요 vs 그렇네요. When someone TELLS you a fact, you say:",opts:["그렇군요 (I see, processing)","그렇네요 (Oh! surprise)","Both work the same","Neither is correct"],ans:"그렇군요 (I see, processing)",hint:"-군요 for information received from others. -네요 for direct experience."},
 {type:"drag_fill",s:"서울하고 부산은 {1}. 음식도 다르고 {2}도 달라요.\n(Seoul and Busan are ___. The food is different and the ___ is different too.)",blanks:{"1":"달라요","2":"분위기"},pool:["달라요","다라요","분위기","눈치","빨라요"],hint:"Seoul and Busan are different. Food is different and atmosphere is different too."},
 {type:"mc",q:"Connector review: 비가 와요. {___} 우산 가져가세요.",opts:["그러니까 (so, emphasis)","그런데 (but)","그래도 (still)","그리고 (and)"],ans:"그러니까 (so, emphasis)",hint:"It's raining. So (that's why!) take an umbrella. Emphatic conclusion."},
 {type:"fb",s:"노래를 {1}. 노래방에서 자주 가요.\n(I sing songs___. I go to karaoke often.)",a:"불러요",opts:["불러요","부러요","불라요","부르아요"],hint:"I sing songs. 부르다 is 르-irregular. Apply the conjugation rule."},
