@@ -340,7 +340,8 @@ Every session should understand what each doc does and which ones are authoritat
 ### Tier 2: Active reference (current for their scope)
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable index of all Korean grammar patterns, vocabulary domains, and teach/tip locations. Check HERE before grepping data files. Updated per language.
 - **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D94+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
-- **`docs/KOREAN_B2_HANDOFF.md`** — **B2 BUILDER: START HERE.** Complete handoff briefing for building U21-U30. Grammar scope, unit structure, seeds, pipeline rules, quality standards.
+- **`docs/KOREAN_B2_HANDOFF.md`** — B2 build reference. Grammar scope, unit structure, seeds, pipeline rules. Includes post-mortem on density failure (D95).
+- **`docs/KOREAN_B2_DENSITY_UPLIFT_HANDOFF.md`** — **B2 DENSITY UPLIFT: START HERE.** Complete handoff for uplifting all 100 B2 lessons. A1-B1 recycling map, step templates, agent strategy, TOPIK/TTMIK completeness audit, per-unit deficits. Permission to add units beyond U30.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. B2 design should follow this template.
 - **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — TOPIK/TTMIK gap plan (v2, code-verified). All 6 sprints EXECUTED. Use as reference for what was added and where.
 ### Deleted (March 2026 cleanup)
