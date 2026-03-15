@@ -1,8 +1,14 @@
-# Concept Registry — Korean (ko)
+# Concept Registry
 
 > Machine-searchable index of all grammar patterns, vocabulary domains, and concept locations.
 > Check HERE before grepping data files. If a pattern is in this registry, it exists in the code.
-> Last updated: 2026-03-15 (U1-U20, ~830+ teach cards, ~209 lessons, post-D93 A1-A2 audit)
+> Last updated: 2026-03-15
+
+---
+
+# Korean (ko)
+
+> Korean section: U1-U30, ~1,132 teach cards, ~311 lessons, post-D93/D100 audit + B2 complete
 
 ---
 
@@ -288,3 +294,108 @@ When adding new units or lessons to Korean:
 2. Add new vocabulary domains
 3. Update the Unit Overview table (lesson/teach counts)
 4. Update the "Last updated" date at the top
+
+---
+
+# Dutch (nl)
+
+> Dutch section: U1-U30, ~1,492 teach cards, ~244 lessons, D101 complete
+> Data file: `src/data/units-dutch.js`
+
+## Unit Overview
+
+| Unit | Level | Title | Theme | Lessons | Key Grammar |
+|------|-------|-------|-------|---------|-------------|
+| U1 | A1.1 | First Contact | Greetings, zijn, goodbyes | 10 | zijn (to be), subject pronouns, V2 word order |
+| U2 | A1.1 | Who Am I? | Komen, spreken, wonen, identity | 10 | Regular verbs present, question words |
+| U3 | A1.1 | Numbers & Time | Counting, clock, days | 8 | Numbers 1-100, telling time, days/months |
+| U4 | A1.2 | Eten & Drinken | Food, modals, possessives | 8 | Modals (willen, kunnen, mogen), possessives |
+| U5 | A1.2 | Mijn Familie & Thuis | Reflexives, adjectives, home | 8 | Reflexive verbs, adjective agreement (-e rule) |
+| U6 | A1.2 | Onderweg | Transport, prepositions, directions | 8 | Prepositions (in, op, aan, naar), separable verbs |
+| U7 | A2.1 | Mijn Dag | Perfect tense, 't kofschip | 8 | Perfect tense (hebben/zijn + voltooid deelwoord), 't kofschip |
+| U8 | A2.1 | Gezondheid & Gevoel | Imperative, comparatives, body | 8 | Imperative, comparatives (-er/-st), body parts |
+| U9 | A2.1 | Vrije Tijd & Plannen | Future, subordinate clauses, hobbies | 8 | Future (gaan/zullen), subordinate clause word order |
+| U10 | A2.2 | Vroeger & Verhalen | Simple past, relative clauses, reading | 8 | Simple past (imperfectum), relative clauses (die/dat) |
+| U11 | B1.1 | Op het Werk | Past perfect, voordat/nadat | 8 | Past perfect (had + voltooid deelwoord), temporal conjunctions |
+| U12 | B1.1 | Geld & Zaken | Zou/zouden, banking | 8 | Conditional (zou/zouden), financial vocabulary |
+| U13 | B1.1 | Wat Vind Jij? | Opinions, extended subordination | 8 | Opinion verbs, multiple subordinate clauses |
+| U14 | B1.1 | Het Kleine Woordje 'Er' | All five uses of er | 8 | Er (existential, locative, prepositional, quantitative, passive) |
+| U15 | B1.1 | Opleiding & Toekomst | Infinitive constructions, verb clusters | 8 | om...te, infinitive constructions, verb cluster order |
+| U16 | B1.2 | Het Wordt Gedaan | Passive voice, formal register | 8 | Passive voice (worden + voltooid deelwoord), formal register |
+| U17 | B1.2 | Een Nieuw Huis | Housing, extended relatives | 8 | Extended relative clauses, housing vocabulary |
+| U18 | B1.2 | Hij Zei Dat... | Indirect speech, reporting | 8 | Indirect speech (zei dat, vroeg of), reporting verbs |
+| U19 | B1.2 | Nederland & De Wereld | Participles, compounds, prefixes | 8 | Present/past participles as adjectives, compound nouns |
+| U20 | B1.2 | B1 Klaar! | Diminutives, register, consolidation | 8 | Diminutives (-je), register switching, B1 review |
+| U21 | B2.1 | Formeel Schrijven | Conditionals, opinions, formal letters | 8 | Conditional types 1-2 (als/indien), formal writing |
+| U22 | B2.1 | Nieuws & Media | Advanced passive, indirect speech, media | 8 | Advanced passive, news vocabulary, media literacy |
+| U23 | B2.1 | Als Ik Kon... | Hypotheticals, regret | 8 | Conditional type 3 (mocht/ware), subjunctive |
+| U24 | B2.1 | Academisch Nederlands | Participials, cleft sentences, academic | 8 | Participial constructions, cleft sentences (Het is...die) |
+| U25 | B2.1 | Op de Werkvloer | Register, modals, business Dutch | 8 | Advanced modals, register switching, business vocabulary |
+| U26 | B2.2 | Maatschappij & Cultuur | Advanced conjunctions, essay structure | 8 | doordat, zodat, mits, tenzij, hoewel, naarmate, hoe...hoe |
+| U27 | B2.2 | Gevorderde Gesprekken | Discourse markers, hedging, nuance | 8 | overigens, trouwens, eigenlijk, wellicht, eventueel |
+| U28 | B2.2 | Literatuur & Uitdrukkingen | Proverbs, idioms, figurative language | 8 | Dutch proverbs, idioms, metafoor, vergelijking |
+| U29 | B2.2 | Debat & Argumentatie | Counter-arguments, concession, persuasion | 8 | weliswaar...maar, ondanks dat, niettemin, desondanks |
+| U30 | B2.2 | B2 Klaar! | NT2 prep, C1 preview | 8 | NT2 exam vocabulary, C1 seeds, comprehensive review |
+
+## Key Grammar Patterns
+
+### Articles & Gender
+| Pattern | Meaning | Unit | Notes |
+|---------|---------|------|-------|
+| de (common) | the (common gender) | U1+ | Blue #4A8FE7 |
+| het (neuter) | the (neuter gender) | U1+ | Gold #E8960A |
+| de/het system | Article assignment | U1 P26 tip | Named in "How Dutch Works" roadmap |
+
+### Verb Tenses
+| Pattern | Meaning | Unit |
+|---------|---------|------|
+| Present tense | Regular conjugation (stam + endings) | U2 |
+| Perfect tense | hebben/zijn + voltooid deelwoord | U7 |
+| 't kofschip rule | Past participle consonant rule | U7 |
+| Simple past (imperfectum) | Past narrative tense | U10 |
+| Past perfect (plusquamperfectum) | had + voltooid deelwoord | U11 |
+| Future (gaan + infinitive) | Going to | U9 |
+| Future (zullen + infinitive) | Will/shall | U9 |
+| Conditional (zou/zouden) | Would | U12 |
+| Passive (worden + vd) | Is being done | U16 |
+| Advanced passive (zijn + vd) | Was done (result) | U22 |
+
+### Word Order
+| Pattern | Meaning | Unit |
+|---------|---------|------|
+| V2 (verb second) | Main clause word order | U1 |
+| Subordinate clause (verb final) | After dat/omdat/als etc. | U9 |
+| Inversion after adverb | Morgen ga ik... | U9 |
+| Verb cluster order | Multiple verbs at end | U15 |
+| Multiple subordinate clauses | Nested verb-final | U13, U24 |
+
+### Conjunctions (B2)
+| Pattern | Meaning | Unit |
+|---------|---------|------|
+| doordat | because of the fact that | U26 |
+| zodat | so that / in order that | U26 |
+| mits | provided that | U26 |
+| tenzij | unless | U26 |
+| hoewel | although | U26 |
+| naarmate | as / to the extent that | U26 |
+| hoe...hoe | the more...the more | U26 |
+| weliswaar...maar | admittedly...but | U29 |
+| ondanks dat | despite the fact that | U29 |
+
+### Discourse & Debate (B2)
+| Pattern | Meaning | Unit |
+|---------|---------|------|
+| ten eerste / daarnaast / bovendien | firstly / additionally / moreover | U26 |
+| samenvattend / concluderend | in summary / in conclusion | U26 |
+| desalniettemin / niettemin | nevertheless | U26, U29 |
+| enerzijds...anderzijds | on one hand...on the other | U26 |
+| naar mijn mening | in my opinion | U27 |
+| overigens / trouwens | by the way (formal/casual) | U27 |
+| eigenlijk | actually | U27 |
+| het hangt ervan af | it depends | U29 |
+
+### Updating This Registry
+When adding new units or lessons to Dutch:
+1. Add new grammar patterns to the appropriate table
+2. Update the Unit Overview table
+3. Update the "Last updated" date at the top

@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-15 (D1-D85 + D86-D88 in CLAUDE.md)
+> Last updated: 2026-03-15 (D1-D101. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D101 | Dutch Quality Uplift to Korean Standard | Content/Quality | Dutch |
 | D100 | Korean Dialogue Enrichment + Sequential Workflow | Content/Workflow | Korean/All |
 | D99 | Dutch B1 Polish: Density Uplift + Quick Fixes | Content/Quality | Dutch |
 | D98 | P48/P49 Fix: 520 fb→drag_fill + 15 CEFR Purge | Quality Fix | Korean |
@@ -139,7 +140,7 @@ D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
 
 ### Dutch Curriculum
-D12, D23, D29, D30, D32, D34a-l, D99
+D12, D23, D29, D30, D32, D34a-l, D99, D101
 
 ### Pipeline Rules
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
@@ -157,7 +158,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101
 
 ---
 
@@ -263,6 +264,45 @@ Total: ~437 new quiz steps across 76 lessons. All mc/fb/match/drag_fill types.
 Independent audit agent verified: 80/80 lessons at 18+ steps (avg 18.3). P48: 0 violations. P49: 0 violations. Build: passes.
 
 **Key difference from Korean D96 uplift**: Dutch B1 uplift followed Rule 7 (parallel agents with density monitoring) and Rule 8 (quality verification before commit). No P48/P49 violations introduced. No meta-curriculum leakage. No broken step types. Every new step tests vocabulary or grammar from its lesson's teach cards.
+
+---
+
+## D101: Dutch Quality Uplift to Korean Standard (2026-03-15)
+
+Full-spectrum quality uplift of Dutch curriculum from A1-B1 to A1-B2, targeting Korean gold standard.
+
+**Phase 0: Purple Theming + CLAUDE.md**
+All 30 v2 Dutch unit colors changed to #7B5EE8 (purple). Article colors (blue de, gold het) PERMANENT. CLAUDE.md updated with manifesto index, P8 leak types, language complexity guidance.
+
+**Phase 1: P26 Core Constructs**
+Added "How Dutch Works: A Roadmap" tip to U1 L1, naming all 9 core Dutch constructs with forward references to where they're taught.
+
+**Phase 2: P8/P22c/P44 Quality Fixes**
+- 64 severe P8 hint-reveals fixed (hints that revealed answer text)
+- 12 P44 lazy hints expanded to 15+ characters
+- 14 P22c em-dashes removed from v2u10l8
+
+**Phase 3: Density Fixes**
+- v2u2l10: 15 to 18 steps (+3 quiz steps)
+- v2u9l8: 17 to 18 steps (+1 quiz step)
+
+**Phase 4: Dialogue Enrichment**
+810/835 A1-B1 teach cards enriched with A:/B: dialogues (97%). Content-aware pattern matching against 16 regex categories for contextually appropriate responses.
+
+**Phase 5: B2 Curriculum Build (U21-U30)**
+10 new units, 80 lessons, ~1,600+ steps:
+- U21: Formeel Schrijven (conditionals, opinions, formal letters)
+- U22: Nieuws & Media (advanced passive, indirect speech)
+- U23: Als Ik Kon... (hypotheticals, subjunctive)
+- U24: Academisch Nederlands (participials, cleft sentences)
+- U25: Op de Werkvloer (register, modals, business Dutch)
+- U26: Maatschappij & Cultuur (advanced conjunctions: doordat, zodat, mits, tenzij, naarmate)
+- U27: Gevorderde Gesprekken (discourse markers, hedging, phone etiquette)
+- U28: Literatuur & Uitdrukkingen (proverbs, idioms, figurative language)
+- U29: Debat & Argumentatie (counter-arguments, concession, persuasion)
+- U30: B2 Klaar! (NT2 prep, C1 preview)
+
+**Final Stats**: 30 v2 units, 244 lessons, 5,446 steps. 1,090/1,492 teach cards with dialogues (73%). 0 em-dashes. 0 P48 violations.
 
 ---
 

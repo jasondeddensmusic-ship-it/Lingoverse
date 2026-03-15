@@ -305,8 +305,22 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - **DENSITY UPLIFT COMPLETE (2026-03-15)**: Uplifted from avg 12.9 to avg 18.3. ~437 quiz steps added across 76 under-dense lessons. All 80 lessons now 18-20 steps.
   - **QUICK FIXES COMPLETE (2026-03-15)**: 1 P49 CEFR quiz replaced, 5 P22c em-dashes fixed, 11 critical P8 hint-reveals rewritten.
   - P48 scan: PASS (0 violations). P49 scan: PASS (0 violations).
-- 20 v2 units + 23 legacy units, 164 v2 lessons, ~3,551+ steps
-- **NEXT ACTION**: Dutch B2 curriculum (U21-U30+), then retroactive A1-A2 polish (D41/D42/D47/D53 standards).
+- **B2 (Units 21-30): COMPLETE (D101, 2026-03-15)**
+  - 10 units, 80 lessons, ~1,600+ steps, all 18+ per P43
+  - B2.1 (U21-U25): Formal writing, conditionals, news/media, hypotheticals, academic Dutch, workplace Dutch
+  - B2.2 (U26-U30): Society/conjunctions, discourse markers, literature/proverbs, debate/argumentation, NT2 prep
+  - Grammar: conditional types 1-3, subjunctive, advanced passive, participial constructions, cleft sentences, advanced conjunctions (doordat, zodat, mits, tenzij, naarmate, hoe...hoe), discourse markers, debate vocabulary
+  - 1,090/1,492 teach cards with A:/B: dialogues (73%)
+  - All purple themed (#7B5EE8). 0 em-dashes. 0 P48 violations.
+- **DUTCH QUALITY UPLIFT COMPLETE (D101, 2026-03-15)**: Full A1-B2 polish to Korean standard.
+  - Phase 0: Purple theming for all 30 v2 units
+  - Phase 1: P26 "How Dutch Works" roadmap tip in U1 L1
+  - Phase 2: 64 severe P8 hint-reveals fixed, 12 P44 lazy hints expanded
+  - Phase 3: 2 under-dense lessons uplifted to 18+ steps
+  - Phase 4: 810/835 A1-B1 teach cards enriched with dialogues (97%)
+  - Phase 5: 10 B2 units built (U21-U30, 80 lessons)
+- 30 v2 units + 23 legacy units, 244 v2 lessons, ~5,446 steps
+- **NEXT ACTION**: Quality audit (D92-style), then German A1 build.
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
@@ -364,7 +378,7 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
 1. **Korean** - A1-B2 PRODUCTION-READY. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). THE GOLD STANDARD. Next: C1 when Dutch catches up.
-2. **Dutch** - A1-B1 DONE + POLISHED (D99). Next: **Polish to Korean quality standard** (dialogue enrichment, quality audit), then B2 curriculum.
+2. **Dutch** - A1-B2 COMPLETE + POLISHED (D101). 30 units, 244 lessons, 5,446 steps. Dialogues 73%. Next: quality audit (D92-style), then German A1.
 3. **German** - 5 skeleton units. Next: full A1 build from scratch (after Dutch polish).
 4. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after German).
 5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after French).
@@ -642,11 +656,10 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 
 ### NEXT (Priority Order)
 
-1. **Dutch Polish to Korean Standard**
-   - Dutch A1-B1 has 164 lessons but lacks: dialogue enrichment, D92-level quality audit, retroactive D41/D42/D47/D53 standards
-   - Use Rule 9 workflow (sequential content + validator) for dialogue enrichment
-   - Target: same 847/1132 dialogue coverage ratio scaled to Dutch teach card count
-   - Then: Dutch B2 curriculum (U21-U30+)
+1. **Dutch Quality Audit (D92-style)**
+   - Dutch A1-B2 COMPLETE (D101). 30 units, 244 lessons, 5,446 steps, 73% dialogue coverage.
+   - Remaining: D92-level quality audit (P8 sweep, P34 verification, pipeline scan per unit)
+   - Retroactive D41/D42/D47/D53 standards for A1-A2 content
 
 2. **German A1 Build**
    - 5 skeleton units exist, below density standard
