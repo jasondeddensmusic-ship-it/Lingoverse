@@ -177,13 +177,17 @@ Complete B1 (U11-U20) audit across 14 commit rounds. Fixed: ~50 P8 hint-reveals,
 
 ## D93: A1-A2 Full Quality Audit (2026-03-15)
 
-Complete A1-A2 (U1-U10) audit against CEFR A1/A2, TOPIK I, and TTMIK L1-4. Verified: all 34 CEFR A1 grammar constructs, 17 vocabulary domains, 50 TTMIK items, 57 TOPIK I patterns. Gaps found and fixed across 4 commit rounds:
+Complete A1-A2 (U1-U10) audit against CEFR A1/A2, TOPIK I, and TTMIK L1-4. Verified: all 34 CEFR A1 grammar constructs, 17 vocabulary domains, 50 TTMIK items, 57 TOPIK I patterns. Gaps found and fixed across 6 commit rounds:
 - **Round 1** (bea78d3): 어떤, -(으)ㄹ 때, -는 중이다 teach cards + 3 pipeline fixes.
 - **Round 2** (5756746): 52 pipeline issues (P8/D90/P44) + -(으)ㄹ게요 TOPIK gap.
 - **Round 3** (6861a44): 화나다 (emotion vocab), 아무 (TTMIK L4 prefix), -(으)ㄹ 뻔하다 (TTMIK L4).
 - **Round 4** (59e3386): 5 color teach cards (빨간/파란/하얀/검은/노란) to fix tip that said "You know" colors never taught.
+- **Round 5** (e1602fe): -기 때문에 (formal "because"), -(으)ㄹ 수밖에 없다 ("can't help but") from TTMIK agent findings.
+- **Round 6**: 자기/자신 (reflexive pronoun "self") teach card added to U10L7. TTMIK L2-15 item, verified genuinely missing via grep (zero hits for 자신, only false positive 자기 = 자다+-기 nominalization).
 
 **Design decisions confirmed (not gaps)**: Past tense in A2 U7 (not A1), future tense in A2 U9, body parts in A2 U8, comparatives in B1 U12. Korean A1 focuses on particles + present tense; A2 adds tenses + conditions. This mirrors TTMIK and standard Korean pedagogy.
+
+**Deferred to B2 (not A1-A2 scope)**: 뿐 (formal "only"), 마저/조차 (emphatic "even"), -(으)ㄹ 정도로 (to the extent), 얼마든지 (as much as you want).
 
 ---
 
