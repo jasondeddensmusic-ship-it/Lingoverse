@@ -6442,6 +6442,10 @@ export default [
 {type:"mc",q:"Which register does Korean news use?",opts:["Written formal (-(으)며, -(으)므로, -에 의해)","Casual spoken (해요체)","Intimate (반말)","Mixed formal and casual"],ans:"Written formal (-(으)며, -(으)므로, -에 의해)",hint:"News is WRITTEN register. Different from everyday speech."},
 {type:"fb",s:"이 {1}는 큰 {2}을 받았으{3} {4}가 {5}하고 있습니다.\n(This incident received great attention, and police are investigating.)",a:["사건","관심","며","경찰","조사"],opts:["사건","관심","며","경찰","조사","사고","보도","고","정부","발표"],hint:"Event. Interest. Written 'and'. Law enforcement. Examine."},
 {type:"drag_fill",s:"{1}에 따르면 최근 {2}가 증가한 것으로 {3}.\n(According to reports, incidents have recently increased, it was revealed.)",blanks:{"1":"보도","2":"사건","3":"나타났다"},pool:["보도","사건","나타났다","통계","사고","알려졌다"],hint:"News report. Events. Revealed/shown."},
+
+{type:"fb",s:"오늘 뉴스{1} 보셨어요? 큰 사건{2} 있었{3}요.\n(Did you see today's news? There was a big incident.)",a:["를","이","어"],opts:["를","이","어","을","가","아","에","는"],hint:"Object. Subject. Past polite."},
+{type:"mc",q:"통계에 따르면 vs 보도에 따르면:\nA1 숫자 (numbers) relates to which?\n(Citing statistics vs news reports.)",opts:["통계 relates to 숫자 — both deal with numbers/data","보도 relates to 숫자","Neither relates","Both are identical"],ans:"통계 relates to 숫자 — both deal with numbers/data",hint:"통계 = statistics, involves numbers."},
+{type:"fb",s:"그 사고{1} 대{2} 조사{3} 진행 중이에요. 발표{4} 아직 안 했어요.\n(Investigation is in progress regarding that accident. Announcement hasn't been made yet.)",a:["에","해","가","를"],opts:["에","해","가","를","이","한","는","의"],hint:"About/regarding. About (대하다). Subject. Object."},
 ]},
 
 // ── L2: 원인 — 으로 인해 (Due To) ──
@@ -6460,6 +6464,15 @@ export default [
 {type:"mc",q:"다음 중 (으)로 인해를 쓸 수 없는 문장은?",opts:["제가 늦게 일어나서로 인해 지각했어요 (personal action as cause)","태풍으로 인해 항공편이 취소되었습니다 (external event)","사고로 인해 도로가 통제되었습니다 (accident)","감염병으로 인해 행사가 연기되었습니다 (disease)"],ans:"제가 늦게 일어나서로 인해 지각했어요 (personal action as cause)",hint:"으로 인해 needs EXTERNAL causes, not personal actions."},
 {type:"fb",s:"최근 {1}로 인한 {2}가 증가하고 있{3} {4}가 필요합니다.\n(Damage from recent earthquakes is increasing, and investigation is needed.) (news)",a:["지진","피해","으며","조사"],opts:["지진","피해","으며","조사","태풍","사건","고","발표"],hint:"Earthquake. Suffer-harm. Written 'and'. Systematic inquiry."},
 {type:"drag_fill",s:"{1}에 따르면 {2}로 인해 {3}만 원의 {4}가 발생했습니다.\n(According to reports, 100 million won in damage occurred due to the accident.)",blanks:{"1":"보도","2":"사고","3":"1억","4":"피해"},pool:["보도","사고","1억","피해","통계","사건","천","손실"],hint:"News coverage. Unexpected event. 100 million. Suffer-harm."},
+
+{type:"mc",q:"태풍으로 인해 비행기가 결항되었다.\nA2 비행기 was taught in which domain?\n(Due to typhoon, flights were cancelled.)",opts:["Travel/transport vocabulary (A2)","Food vocabulary","Academic vocabulary","Body parts"],ans:"Travel/transport vocabulary (A2)",hint:"A2 transportation words."},
+{type:"fb",s:"인구 감소{1} 인해 학교{2} 줄어들고 있다. 경제 성장{1} 인해 일자리{2} 늘어나고 있다.\n(Due to population decline, schools are decreasing. Due to economic growth, jobs are increasing.)",a:["로","가"],opts:["로","가","에","이","를","는","의","에서"],hint:"Formal cause (x2). Subject (x2)."},
+{type:"drag_fill",s:"-기 때문에: {1} register, {2} cause.\n-(으)로 인해: {3} register, {4} cause.\n(Register comparison.)",blanks:{"1":"any","2":"subjective or objective","3":"formal/written","4":"external/objective"},pool:["any","subjective or objective","formal/written","external/objective","casual","internal","spoken","personal"],hint:"때문에=flexible. 으로 인해=news/formal, external events."},
+{type:"fb",s:"코로나{1} 인해 많{2} 사람들{3} 재택근무{4} 했다.\n(Due to COVID, many people worked from home.)",a:["로","은","이","를"],opts:["로","은","이","를","에","는","가","의"],hint:"Formal cause. Many (modifier). Subject. Object."},
+
+{type:"fb",s:"폭우{1} 인해 도로{2} 침수되었다. 많{3} 차량{4} 피해{5} 입었다.\n(Due to heavy rain, roads were flooded. Many vehicles suffered damage.)",a:["로","가","은","이","를"],opts:["로","가","은","이","를","에","는","의","에서","도"],hint:"Formal cause. Subject. Many (modifier). Subject. Object."},
+{type:"mc",q:"-(으)로 인해 is ONLY used for external events/causes.\nWhich sentence is WRONG?\n(Constraint of the formal cause pattern.)",opts:["제가 피곤한 것으로 인해 — WRONG: personal feeling, not external","지진으로 인해 피해가 발생했다","코로나로 인해 학교가 문을 닫았다","폭설로 인해 교통이 마비되었다"],ans:"제가 피곤한 것으로 인해 — WRONG: personal feeling, not external",hint:"으로 인해 needs external causes: disasters, events, policies."},
+{type:"fb",s:"고령화{1} 인해 의료비{2} 증가하{3} 있다. 이{4} 심각{5} 문제다.\n(Due to aging population, medical costs are increasing. This is a serious problem.)",a:["로","가","고","는","한"],opts:["로","가","고","는","한","에","이","어","을","의"],hint:"Formal cause. Subject. Progressive. Topic. Modifier."},
 ]},
 
 // ── L3: 행위자 — 에 의해 (By) ──
@@ -6478,6 +6491,15 @@ export default [
 {type:"mc",q:"에 의하면 can mean 'according to'.\n보도에 의하면 = ?",opts:["According to reports","By the reports","Due to the reports","Through the reports"],ans:"According to reports",hint:"에 의하면 in this context = 'according to', not passive."},
 {type:"fb",s:"전문가{1} 의한 {2} 결과가 발표되었습니다.\n(Analysis results by experts were announced.)",a:["에","분석"],opts:["에","분석","로","조사","가","통계"],hint:"Agent particle. Detailed examination word."},
 {type:"drag_fill",s:"{1}로 인해 {2}가 발생했{3} {4}에 의해 {5}가 진행되고 있습니다.\n(Damage occurred due to the earthquake, and investigation is being conducted by the government.)",blanks:{"1":"지진","2":"피해","3":"으며","4":"정부","5":"조사"},pool:["지진","피해","으며","정부","조사","태풍","사건","고","경찰","보도"],hint:"Earthquake. Damage. Written 'and'. Government. Inquiry."},
+
+{type:"mc",q:"이 건물은 유명한 건축가에 의해 설계되었다.\n-에 의해 marks the AGENT in passive.\nA1 -이/가 marks?\n(This building was designed by a famous architect.)",opts:["-이/가 = subject marker (A1 basic particle)","이/가 = object","이/가 = location","이/가 = time"],ans:"-이/가 = subject marker (A1 basic particle)",hint:"A1 subject particle, different from passive agent."},
+{type:"fb",s:"이 법{1} 국회{2} 의해 통과되었다. 새 정책{1} 정부{2} 의해 발표되었다.\n(This law was passed by the National Assembly. New policy was announced by the government.)",a:["은","에"],opts:["은","에","이","를","는","의","가","에서"],hint:"Topic (x2). Passive agent (x2)."},
+{type:"mc",q:"-(으)로 인해 vs -에 의해:\n홍수로 인해 피해가 발생했다. (cause)\n대통령에 의해 발표되었다. (agent)\nKey difference?\n(Cause vs agent in formal Korean.)",opts:["로 인해 = cause/reason; 에 의해 = doer/agent","Same meaning","로 인해 = agent; 에 의해 = cause","Both mark cause"],ans:"로 인해 = cause/reason; 에 의해 = doer/agent",hint:"인해=because of event. 의해=done by person/org."},
+{type:"fb",s:"전문가{1} 의해 조사{2} 진행되었다. 그 결과{3} 의하면 안전하다.\n(The investigation was conducted by experts. According to the results, it is safe.)",a:["에","가","에"],opts:["에","가","에","를","이","의","는","에서"],hint:"Passive agent. Subject. According to."},
+{type:"drag_fill",s:"-(으)로 인해: {1} caused {2}.\n-에 의해: {3} did the action.\n-에 의하면: {4} the source.\n(Three formal patterns.)",blanks:{"1":"event/situation","2":"result","3":"person/organization","4":"according to"},pool:["event/situation","result","person/organization","according to","time","cause","thing","despite"],hint:"인해=cause. 의해=agent. 의하면=citation."},
+
+{type:"fb",s:"이 보고서{1} 전문가{2} 의해 작성되었다. A2 쓰다{3} 작성하다{4} 같{5} 뜻이에요.\n(This report was written by experts. A2 쓰다 and 작성하다 have similar meanings.)",a:["는","에","와","는","은"],opts:["는","에","와","는","은","이","를","가","의","도"],hint:"Topic. Passive agent. And/with. Topic. Same (modifier)."},
+{type:"mc",q:"에 의해 passive vs B1 -아/어지다 passive:\n전문가에 의해 분석되었다 (by experts).\n상황이 좋아졌어요 (situation improved).\nDifference?\n(Two passive constructions.)",opts:["에 의해: agent specified (who did it); 아/어지다: no agent needed","Same construction","에 의해 is casual","아/어지다 needs an agent"],ans:"에 의해: agent specified (who did it); 아/어지다: no agent needed",hint:"에 의해 tells you WHO. 아/어지다 just says it changed."},
 ]},
 
 // ── L4: 조건 — 에 따라 (Depending On / According To) ──
@@ -6495,6 +6517,16 @@ export default [
 {type:"drag_fill",s:"{1}에 따르면 {2}에 따라 {3}이 다{4} {5}가 필요합니다.\n(According to experts, treatment differs depending on symptoms, and investigation is needed.)",blanks:{"1":"전문가","2":"증상","3":"치료","4":"르며","5":"조사"},pool:["전문가","증상","치료","르며","조사","통계","결과","계획","고","발표"],hint:"Specialist. Symptoms. Treatment. Written differ + and. Inquiry."},
 {type:"mc",q:"에 따른 is the adjective form.\n상황에 따른 대응 means:",opts:["Response according to the situation","Response despite the situation","Response due to the situation","Response by the situation"],ans:"Response according to the situation",hint:"에 따른 + noun = noun that follows/matches X."},
 {type:"fb",s:"{1}에 의해 작성된 {2}에 따르면 {3}로 인한 {4}가 심각합니다.\n(According to a report written by experts, damage due to pollution is serious.)",a:["전문가","보고서","오염","피해"],opts:["전문가","보고서","오염","피해","경찰","기사","사고","사건"],hint:"Specialists. Written document. Contamination. Suffer-harm."},
+
+{type:"mc",q:"나라에 따라 문화가 다릅니다.\nA1 나라 means?\n(Culture differs depending on the country.)",opts:["나라 = country (A1 basic noun)","나라 = city","나라 = house","나라 = school"],ans:"나라 = country (A1 basic noun)",hint:"A1 geography vocabulary."},
+{type:"fb",s:"전문가{1} 따르면 경제{2} 회복될 것이다. 상황{3} 따라 계획{4} 바뀔 수 있다.\n(According to experts, economy will recover. Plans can change depending on the situation.)",a:["에","가","에","이"],opts:["에","가","에","이","를","는","의","에서"],hint:"According-to. Subject. Depending-on. Subject."},
+{type:"mc",q:"-에 따라 has THREE uses:\n1. Depending on (variation)\n2. According to (citation)\n3. In accordance with (compliance)\nWhich form is used for citing news?\n(Three uses of the same pattern.)",opts:["-에 따르면 (according to — citation form)","에 따라서 (depending on)","에 따른 (modifier form)","에 따라 (all three)"],ans:"-에 따르면 (according to — citation form)",hint:"따르면 = if you follow = according to."},
+{type:"fb",s:"보도{1} 따르면 사고{2} 원인{3} 조사 중이다. 날씨{1} 따라 일정{4} 변경될 수 있다.\n(According to reports, the cause of accident is under investigation. Schedule may change depending on weather.)",a:["에","의","이","이"],opts:["에","의","이","이","를","가","는","에서"],hint:"According-to / depending-on. Possessive. Subject. Subject."},
+{type:"drag_fill",s:"-에 따르면: {1} says X.\n-에 따라(서): {2} on factor.\n-에 따른: {3} form (noun modifier).\n(Three forms of 에 따라.)",blanks:{"1":"source","2":"depending","3":"adjective"},pool:["source","depending","adjective","cause","because","verb","agent","passive"],hint:"따르면=citation. 따라서=variation. 따른=modifier."},
+{type:"fb",s:"조사{1} 따르면 국민{2} 70%{3} 찬성했다. 연령{1} 따라 결과{4} 달랐다.\n(According to survey, 70% of citizens agreed. Results differed by age group.)",a:["에","의","가","가"],opts:["에","의","가","가","를","이","는","에서"],hint:"According-to. Possessive. Subject (70%). Subject."},
+{type:"mc",q:"뉴스에 따르면 내일 비가 온다고 합니다.\nB1 -다고 하다 means?\n(According to news, it is said it will rain tomorrow.)",opts:["-다고 하다 = indirect speech / it is said that (B1)","다고 = because","하다 = to do","다고 = even though"],ans:"-다고 하다 = indirect speech / it is said that (B1)",hint:"B1 reported speech pattern."},
+{type:"fb",s:"법{1} 따라 처리해야 합니다. 규정{1} 따{2} 행동은 처벌 대상이다.\n(Must handle according to law. Actions not following regulations are subject to punishment.)",a:["에","르지 않"],opts:["에","르지 않","를","는","의","에서","르는","은"],hint:"In-accordance-with. Not following (negative)."},
+{type:"mc",q:"전문가에 따르면 vs 전문가에 의하면:\nBoth cite experts. Difference?\n(Two citation patterns compared.)",opts:["따르면 = general citation; 의하면 = based on formal report/study","Same meaning","따르면 is more formal","의하면 is casual"],ans:"따르면 = general citation; 의하면 = based on formal report/study",hint:"따르면=says. 의하면=per their findings."},
 ]},
 
 // ── L5: 결과 — 것으로 나타났다 (It Was Found That) ──
@@ -6513,6 +6545,13 @@ export default [
 {type:"mc",q:"보시다시피 피해가 심각합니다.\n보시다시피 comes from:",opts:["보다 (to see) + 다시피 = as you see","보이다 (to appear) + 다시피","보도 (report) + 다시피","보살피다 (to care) + 다시피"],ans:"보다 (to see) + 다시피 = as you see",hint:"보다 → 보시다시피. Connecting to what listener can see."},
 {type:"fb",s:"{1}로 인해 경제가 악화된 것으로 {2}{3} {4}에 의해 {5}가 진행되고 있습니다.\n(It appears the economy worsened due to the pandemic, and investigation is being conducted by the government.)",a:["감염병","보이","며","정부","조사"],opts:["감염병","보이","며","정부","조사","태풍","나타났","고","경찰","발표"],hint:"Disease. Appears. Written 'and'. Government. Inquiry."},
 {type:"drag_fill",s:"{1}에 의하면 올해 출생률이 {2}한 것으로 {3} {4}다시피 심각한 문제입니다.\n(According to experts, it was found that the birth rate decreased this year. As you know, it is a serious problem.)",blanks:{"1":"전문가","2":"감소","3":"나타났습니다.","4":"아시"},pool:["전문가","감소","나타났습니다.","아시","통계","증가","알려졌습니다.","보시"],hint:"Specialists. Decrease. Found that + formal. Know + as."},
+
+{type:"mc",q:"조사 결과, 청소년의 80%가 스마트폰을 사용하는 것으로 나타났다.\nA1 사용하다 means?\n(Survey showed 80% of teens use smartphones.)",opts:["사용하다 = to use (A1 Sino-Korean verb)","사용하다 = to buy","사용하다 = to make","사용하다 = to sell"],ans:"사용하다 = to use (A1 Sino-Korean verb)",hint:"A1 basic verb from Sino-Korean 使用."},
+{type:"fb",s:"실험 결과 효과{1} 있{2} 것으로 나타났다. 다들 아시다시{3} 이 문제{4} 심각하다.\n(Experiment showed there is an effect. As you all know, this problem is serious.)",a:["가","는","피","는"],opts:["가","는","피","는","를","은","다","이"],hint:"Subject. Present modifier. As-you-know. Topic."},
+{type:"mc",q:"것으로 나타났다 vs 것으로 보인다 vs 것으로 알려졌다:\nWhich expresses the LEAST certainty?\n(Three news cliche patterns.)",opts:["보인다 (it appears/seems — least certain)","나타났다 (was revealed — certain)","알려졌다 (became known — certain)","All equal certainty"],ans:"보인다 (it appears/seems — least certain)",hint:"보이다 = to appear/seem. Less definitive."},
+{type:"fb",s:"관계자{1} 따르면 내년{2} 변화{3} 있{4} 것으로 보인다.\n(According to officials, it appears there will be changes next year.)",a:["에","에","가","을"],opts:["에","에","가","을","의","는","이","는"],hint:"According-to. Time-at. Subject. Future modifier."},
+{type:"drag_fill",s:"것으로 나타났다: {1} revealed by data.\n것으로 보인다: {2} but uncertain.\n것으로 알려졌다: {3} became public.\n(News certainty levels.)",blanks:{"1":"fact","2":"appears so","3":"information"},pool:["fact","appears so","information","opinion","rumor","denied","confirmed","false"],hint:"나타났다=shown. 보인다=seems. 알려졌다=known."},
+{type:"fb",s:"아시다시{1} 한국어{2} 어렵지만 재미있어요. 연구{3} 의하면 효과{4} 큰 것으로 나타났다.\n(As you know, Korean is hard but fun. According to research, the effect was shown to be big.)",a:["피","는","에","가"],opts:["피","는","에","가","다","를","의","이"],hint:"As-you-know. Topic. According-to. Subject."},
 ]},
 
 // ── L6: 추측 — 모양이다 vs 걸 보니 (Inference) ──
@@ -6530,6 +6569,14 @@ export default [
 {type:"drag_fill",s:"{1}에 따르면 {2}가 증가한 것으로 나타났{3} {4}을 입{5} 걸 보니 날씨가 추{6} 모양입니다.\n(According to statistics, it was found that sales increased. Judging by wearing coats, it seems the weather is cold.)",blanks:{"1":"통계","2":"매출","3":"으며","4":"코트","5":"는","6":"운"},pool:["통계","매출","으며","코트","는","운","보도","사건","고","우산","은","더운"],hint:"Data. Sales. Written 'and'. Outerwear. Present modifier. Cold adjective form."},
 {type:"mc",q:"기사에 의하면 실업률이 높아진 것으로 나타났습니다.\n걸 보니 경제가 어려운 모양이에요.\nHow many U23 patterns?",opts:["Four: 에 의하면, 것으로 나타났다, 걸 보니, 모양이다","Two: 에 의하면 + 나타났다","Three: 걸 보니 + 모양이다 + 나타났다","One: 모양이다 only"],ans:"Four: 에 의하면, 것으로 나타났다, 걸 보니, 모양이다",hint:"에 의하면 (according to) + 나타났다 (found) + 걸 보니 (judging by) + 모양이다 (seems)."},
 {type:"fb",s:"아시다시피 {1}이 심각하{2} {3}도 줄어든 것으로 {4}.\n(As you know, pollution is serious, and the population also seems to have decreased.)",a:["오염","며","인구","보인다"],opts:["오염","며","인구","보인다","피해","고","매출","나타났다"],hint:"Contamination. Written 'and'. People count. Appears that (news cliche)."},
+
+{type:"mc",q:"밖에 비가 오는 모양이에요.\nA2 밖에 means?\n(It seems to be raining outside.)",opts:["밖에 = outside (A2 location word)","밖에 = only","밖에 = inside","밖에 = above"],ans:"밖에 = outside (A2 location word)",hint:"A2 spatial vocabulary."},
+{type:"fb",s:"불{1} 꺼진 걸 보니 집에 없{2} 모양이에요. 차{3} 없{2} 걸 보니 나간 모양이에요.\n(Seeing lights are off, seems nobody's home. Seeing no car, seems they went out.)",a:["이","는","가"],opts:["이","는","가","을","은","의","에","를"],hint:"Subject. Present (seems). Subject."},
+{type:"mc",q:"모양이다 vs 것 같다 (B1):\nBoth mean 'it seems'. Difference?\n(Two inference patterns.)",opts:["모양이다: based on evidence you see; 것 같다: general opinion or guess","Same meaning","모양이다 is weaker","것 같다 requires evidence"],ans:"모양이다: based on evidence you see; 것 같다: general opinion or guess",hint:"모양 = appearance/shape. Based on what you observe."},
+{type:"fb",s:"표정{1} 보니까 화{2} 모양이에요. 맛있{3} 먹{4} 걸 보니 배고팠{2} 봐요.\n(Seeing the expression, seems angry. Seeing eating deliciously, seems was hungry.)",a:["을","난","게","는"],opts:["을","난","게","는","이","는","어","의"],hint:"Object. Seems (angry). Adverbial. Present modifier."},
+{type:"drag_fill",s:"모양이다: evidence-based {1}.\n걸 보니: {2} from observation.\n것 같다: general {3} (B1).\n나 보다: {4} inference (B1).\n(Four Korean inference patterns.)",blanks:{"1":"inference","2":"deduction","3":"guess","4":"mild"},pool:["inference","deduction","guess","mild","strong","certainty","opinion","fact"],hint:"모양=visual evidence. 걸 보니=from seeing. 것 같다=think. 나 보다=seems like."},
+{type:"fb",s:"요즘 바쁜 모양{1}에요. 연락{2} 안 하{3} 걸 보니 화{4} 모양이에요.\n(Seems busy these days. Judging by no contact, seems angry.)",a:["이","을","는","난"],opts:["이","을","는","난","가","이","어","은"],hint:"Seems. Object. Present modifier. Seems (angry)."},
+{type:"mc",q:"걸 보니(까) literally means?\n(Breaking down the inference pattern.)",opts:["Seeing the fact that... (걸 = 것을, 보니 = since I see)","Because I heard","Despite seeing","Without noticing"],ans:"Seeing the fact that... (걸 = 것을, 보니 = since I see)",hint:"걸 = 것을 (thing+object). 보니 = upon seeing."},
 ]},
 
 // ── L7: 경험을 전해요 (Sharing Experiences) ──
@@ -6548,6 +6595,13 @@ export default [
 {type:"mc",q:"뉴스에서 봤는데 실업률이 높아지고 있던데요.\n걸 보니 경제가 어려운 모양이에요.\nU23 patterns used:",opts:["Two: -던데요 (observation) + 걸 보니 + 모양이다 (inference)","One: -던데요 only","Three: -더라 + -던데 + 모양이다","Two: 걸 보니 + 나타났다"],ans:"Two: -던데요 (observation) + 걸 보니 + 모양이다 (inference)",hint:"-던데요 shares what was noticed. 걸 보니 + 모양이다 draws inference."},
 {type:"fb",s:"아시{1} 한국 뉴스는 {2}에 의해 보도되{3} 그 기사 읽어 봤는데 내용이 좋{4}\n(As you know, Korean news is reported by journalists. I read that article and the content was good, I found.)",a:["다시피","기자","며","더라고요."],opts:["다시피","기자","며","더라고요.","보니","전문가","고","던데요."],hint:"As you know. Reporter. Written 'and'. Firsthand experience report."},
 {type:"drag_fill",s:"그 {1}에 따르면 {2}로 인해 {3}가 늘어난 것으로 나타났{4} 저도 직접 가 봤는데 사람이 정말 많{5}\n(According to that article, it was found tourism increased due to the drama. I also went personally and there were many people, I noticed.)",blanks:{"1":"기사","2":"드라마","3":"관광객","4":"는데","5":"던데요."},pool:["기사","드라마","관광객","는데","던데요.","보도","영화","매출","으며","더라고요."],hint:"Article. TV series. Tourists. Connecting. Observation + implication."},
+
+{type:"mc",q:"어제 가 봤는데 정말 맛있더라고요.\nA2 -아/어 보다 means?\n(I went yesterday and it was really delicious.)",opts:["-아/어 보다 = to try doing (A2 experience)","보다 = to see","보다 = to compare","보다 = to send"],ans:"-아/어 보다 = to try doing (A2 experience)",hint:"A2 experience auxiliary verb."},
+{type:"fb",s:"직접 먹어 봤{1}데 맛{2} 없더라{3}요. 생각보{4} 별로였어요.\n(I tried eating it myself and it wasn't tasty. It was worse than expected.)",a:["는","이","고","다"],opts:["는","이","고","다","은","가","어","는"],hint:"Past observation. Subject. Firsthand report. Than-expected."},
+{type:"mc",q:"-더라고요 vs -던데요:\nBoth share firsthand experience.\n더라고요 = I found that X.\n던데요 = I noticed X, and... (implies follow-up).\nWhich invites the listener to respond?\n(Two experience-sharing patterns.)",opts:["던데요 invites response; 더라고요 is a statement","더라고요 invites response","Both invite response equally","Neither invites response"],ans:"던데요 invites response; 더라고요 is a statement",hint:"던데요 has an open-ended feel: and...?"},
+{type:"fb",s:"한국 음식{1} 정말 맵더라{2}요. 근데 맛있{3}데요, 한번 드셔 보세요.\n(Korean food was really spicy [I experienced]. But it was tasty, try it.)",a:["이","고","던"],opts:["이","고","던","은","어","는","가","다"],hint:"Subject. Firsthand (I found). Observation (and...)."},
+{type:"drag_fill",s:"-더라고요: I {1} found that.\n-던데요: I noticed, {2}...\n-더라: casual {3} form.\n(Experience-sharing patterns.)",blanks:{"1":"personally","2":"and","3":"firsthand"},pool:["personally","and","firsthand","supposedly","but","hearsay","formally","or"],hint:"더라고요=my finding. 던데요=my notice, implicit follow-up. 더라=casual ver."},
+{type:"fb",s:"서울{1} 가 봤{2}데 사람{3} 정말 많더라{4}요.\n(I went to Seoul and there were really a lot of people.)",a:["에","는","이","고"],opts:["에","는","이","고","을","은","가","어"],hint:"Location. Past observation. Subject. Firsthand report."},
 ]},
 
 // ── L8: 들은 이야기 (What I Heard — Hearsay) ──
@@ -6566,6 +6620,13 @@ export default [
 {type:"mc",q:"뉴스에서 경제가 회복된다더라.\n보도에 따르면 회복되고 있는 것으로 나타났습니다.\nSame info, different register:",opts:["First is casual hearsay, second is formal news writing","First is formal, second is casual","Both are formal","Both are casual"],ans:"First is casual hearsay, second is formal news writing",hint:"-다더라 is casual retelling. 것으로 나타났다 is news cliche."},
 {type:"fb",s:"저 사람이 {1}라더라. 그런데 직접 만나 보니 친절하{2}\n(I heard that person is an expert. But meeting them, they were kind.)",a:["전문가","던데요."],opts:["전문가","던데요.","기자","더라고요.","경찰","다더라."],hint:"Specialist. Personal observation + implication."},
 {type:"drag_fill",s:"{1}에 의하면 새 정책이 시행{2} 것으로 {3} 친구도 그렇{4} 정말{5}?\n(According to reports, the policy will be implemented. My friend said so too. Is it really true?)",blanks:{"1":"보도","2":"될","3":"알려졌습니다.","4":"다더라.","5":"다면서요"},pool:["보도","될","알려졌습니다.","다더라.","다면서요","통계","된","나타났습니다.","던데요.","더라고요"],hint:"News. Future. Was reported. Hearsay. Confirming hearsay."},
+
+{type:"mc",q:"그 식당 맛있다더라.\n-다더라 is hearsay. What's the source?\n(I heard that restaurant is good.)",opts:["Someone else told the speaker (secondhand info)","Speaker's own experience","News article","Written report"],ans:"Someone else told the speaker (secondhand info)",hint:"다더라 = they said / I heard from someone."},
+{type:"fb",s:"내일 비 온{1}더라. 진짜? 누{2} 그랬어?\n(I heard it's going to rain. Really? Who said that?)",a:["다","가"],opts:["다","가","는","이","어","를","에","의"],hint:"Hearsay. Subject (who?)."},
+{type:"mc",q:"-다더라 (hearsay) vs -더라고요 (firsthand):\n그 영화 재미있다더라. (heard from someone)\n그 영화 재미있더라고요. (I watched it myself)\nCritical difference?\n(Two reporting patterns.)",opts:["다더라: secondhand (someone told me); 더라고요: firsthand (I experienced)","Same meaning","다더라 is more formal","더라고요 is secondhand"],ans:"다더라: secondhand (someone told me); 더라고요: firsthand (I experienced)",hint:"다 in front = reported. No 다 = personal experience."},
+{type:"fb",s:"한국어 시험 어렵{1}면서요? 네, 저{2} 어렵더라{3}요.\n(I heard the Korean exam is hard? Yes, I found it hard [from experience].)",a:["다","도","고"],opts:["다","도","고","는","가","어","이","에"],hint:"Confirming hearsay. Also/too. Firsthand report."},
+{type:"drag_fill",s:"-다더라: {1} info, casual.\n-다면서(요): confirming {2}.\n-더라고요: {3} experience.\n-더라: casual {3} report.\n(Four reporting patterns.)",blanks:{"1":"secondhand","2":"hearsay","3":"firsthand"},pool:["secondhand","hearsay","firsthand","written","formal","thirdhand","guessed","opinion"],hint:"다더라=heard. 다면서=you heard? 더라고요=I saw. 더라=I saw (casual)."},
+{type:"fb",s:"요즘 그 드라마 재미있{1}면서요? 맞{2}요, 저{3} 봤{4}데 진짜 좋더라고요.\n(I hear that drama is fun? Right, I watched it and it was really good.)",a:["다","아","도","는"],opts:["다","아","도","는","는","어","가","은"],hint:"Confirming hearsay. Correct. Also/too. Past observation."},
 ]},
 
 // ── L9: 기사 구조 (Article Structure) ──
@@ -6584,6 +6645,15 @@ export default [
 {type:"match",pairs:[{nl:"제목",en:"headline"},{nl:"리드",en:"lead sentence"},{nl:"본문",en:"body paragraph"},{nl:"인용",en:"attributed quote"}]},
 {type:"mc",q:"직접 가 봤는데 미세먼지가 심하던데요.\n보도에 따르면 위험 수준인 것으로 나타났습니다.\nFirst sentence is ___; second is ___.",opts:["Personal observation; formal news writing","Both formal news","Both casual speech","Hearsay; personal experience"],ans:"Personal observation; formal news writing",hint:"-던데요 = personal observation. 것으로 나타났다 = news cliche."},
 {type:"drag_fill",s:"{1}: 서울 미세먼지 {2}\n{3}: 미세먼지 농도가 위험 수준인 것으로 {4}\n{5}: 중국발 오염{6} 인해 발생했{7} 시민 건강이 우려된다.",blanks:{"1":"제목","2":"비상","3":"리드","4":"나타났다.","5":"본문","6":"으로","7":"으며"},pool:["제목","비상","리드","나타났다.","본문","으로","으며","인용","경고","본문","알려졌다.","리드","에","고"],hint:"Headline. Emergency. Lead. Found that. Body. Due to. Written 'and'."},
+
+{type:"fb",s:"기사{1} 따르면 올해 경제{2} 성장할 것으로 보인다. 전문가{3} 의해 분석되었다.\n(According to the article, economy appears set to grow this year. Analyzed by experts.)",a:["에","가","에"],opts:["에","가","에","의","를","이","는","에서"],hint:"According-to. Subject. Passive agent."},
+{type:"mc",q:"A news article uses: 으로 인해, 에 의해, 에 따르면, 것으로 나타났다.\nWhich pattern would a CASUAL friend use instead of 으로 인해?\n(Formal news vs casual speech.)",opts:["때문에 (A2 casual equivalent)","에 의해","에 따르면","것으로 나타났다"],ans:"때문에 (A2 casual equivalent)",hint:"A2 때문에 is the everyday version of 으로 인해."},
+{type:"drag_fill",s:"Headline: short, {1} style.\nLead: who/what/when, uses {2}.\nBody: details, uses {3}.\nQuote: 다고 했다 or {4}.\n(Korean news structure.)",blanks:{"1":"noun-heavy","2":"것으로 나타났다","3":"에 따르면","4":"다면서"},pool:["noun-heavy","것으로 나타났다","에 따르면","다면서","verb-heavy","모양이다","때문에","더라고요"],hint:"Headlines omit verbs. Leads cite findings. Body cites sources. Quotes report speech."},
+{type:"fb",s:"제목{1} 보{2} 기사 내용{3} 예측할 수 있어요. 리드{1} 핵심 정보{4} 있어요.\n(You can predict article content by seeing the headline. The lead has core information.)",a:["을","면","을","가"],opts:["을","면","을","가","이","는","에","의"],hint:"Object. B1 conditional. Object. Subject."},
+
+{type:"fb",s:"제목{1} 짧{2} 명사형{3}로 쓴다. 리드{1} 핵심{4} 요약한다.\n(Headlines are written as short noun forms. Leads summarize the key points.)",a:["은","은","으","을"],opts:["은","은","으","을","이","는","가","의"],hint:"Topic (x2). As (form). Object."},
+{type:"mc",q:"Korean news headlines drop particles and verbs.\nFull: 정부가 새 정책을 발표했다.\nHeadline style?\n(How headlines abbreviate.)",opts:["정부, 새 정책 발표 (no particles, noun-ending)","정부가 새 정책을 발표했다 (same as full)","정부는 발표 (topic only)","새 정책 정부 (reversed)"],ans:"정부, 새 정책 발표 (no particles, noun-ending)",hint:"Headlines: drop 가/를/은, end with noun form."},
+{type:"fb",s:"인용문{1} 다고 했다 또{2} 다면서요 형태{3} 쓴다. 기사{4} 객관적{5}야 한다.\n(Quotes use the form 다고 했다 or 다면서요. Articles must be objective.)",a:["은","는","로","는","이어"],opts:["은","는","로","는","이어","이","를","가","의","에"],hint:"Topic. Or/also. As (form). Topic. Must-be."},
 ]},
 
 // ── L10: 종합 평가 (Unit Assessment) ──
@@ -6604,6 +6674,13 @@ export default [
 {type:"drag_fill",s:"그 {1}이 재미있{2} 직접 봤는데 정말 좋{3} 간{4}?\n(I heard that movie is fun. I watched it and it was really good. Are you going, I heard?)",blanks:{"1":"영화","2":"다더라.","3":"더라고요.","4":"다면서요"},pool:["영화","다더라.","더라고요.","다면서요","드라마","던데요.","더라.","다면서"],hint:"Film. Hearsay. Firsthand. Confirming hearsay."},
 {type:"mc",q:"다음 중 U23에서 배운 패턴이 아닌 것은?",opts:["-(으)ㄴ/는 반면에 (whereas — U22)","-(으)로 인해 (due to)","것으로 나타났다 (it was found that)","-(ㄴ/는)다더라 (I heard that)"],ans:"-(으)ㄴ/는 반면에 (whereas — U22)",hint:"반면에 is from U22 (debate). U23 focuses on news and reporting."},
 {type:"drag_fill",s:"{1}다시피 {2} 문제가 심각하{3} {4}에 따르면 {5}로 인한 건강 {6}가 증가한 것으로 {7}.\n(As you know, the environment problem is serious. According to experts, health damage from fine dust has increased, it was found.)",blanks:{"1":"아시","2":"환경","3":"며","4":"전문가","5":"미세먼지","6":"피해","7":"나타났습니다"},pool:["아시","환경","며","전문가","미세먼지","피해","나타났습니다","보시","경제","고","보도","태풍","사건","알려졌습니다"],hint:"Know-as. Environment. Written 'and'. Experts. Fine dust. Damage. Found."},
+
+{type:"fb",s:"조사{1} 따르면 젊은이{2} 70%{3} 온라인 뉴스{4} 본다고 한다.\n(According to survey, 70% of young people reportedly read online news.)",a:["에","의","가","를"],opts:["에","의","가","를","이","는","을","에서"],hint:"According-to. Possessive. Subject. Object."},
+{type:"mc",q:"Multi-pattern: 경기 침체로 인해 실업률이 높아진 것으로 나타났다.\nHow many B2 patterns?\n(Due to recession, unemployment was shown to have risen.)",opts:["2: 으로 인해 (formal cause) + 것으로 나타났다 (news cliche)","1 pattern","3 patterns","0 B2 patterns"],ans:"2: 으로 인해 (formal cause) + 것으로 나타났다 (news cliche)",hint:"Formal cause + news finding formula."},
+{type:"drag_fill",s:"Firsthand: -더라고요, {1}.\nSecondhand: -다더라, {2}.\nFormal citation: -에 따르면, {3}.\n(Sorting by evidence source.)",blanks:{"1":"-던데요","2":"-다면서요","3":"-에 의하면"},pool:["-던데요","-다면서요","-에 의하면","-것 같다","-나 보다","-모양이다"],hint:"Personal experience. Hearsay confirmation. Formal report."},
+
+{type:"fb",s:"보도{1} 따르면 사고{2} 원인{3} 과속{4} 인한 것으로 나타났다.\n(According to reports, the accident cause was shown to be due to speeding.)",a:["에","의","이","으로"],opts:["에","의","이","으로","를","가","는","에서"],hint:"According-to. Possessive. Subject. Formal cause."},
+{type:"mc",q:"Complete news sentence: ___에 따르면 청소년의 스마트폰 사용이 증가한 것으로 ___.\nFill both blanks.\n(According to ___, teen smartphone use was shown to have increased.)",opts:["조사 + 나타났다 (survey + was revealed)","뉴스 + 보인다","기사 + 알려졌다","전문가 + 모양이다"],ans:"조사 + 나타났다 (survey + was revealed)",hint:"Survey data + revealed finding = most natural news pairing."},
 ]},
 
 ]},
