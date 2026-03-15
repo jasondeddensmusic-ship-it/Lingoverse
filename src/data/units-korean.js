@@ -3145,7 +3145,6 @@ export default [
   {type:"mc",q:"Why do most tourists rent a car in Jeju?",opts:["Cars are very cheap","There is no subway system","Jeju is very small","Taxis don't exist"],ans:"There is no subway system",hint:"제주도 has no subway. 렌터카 or bus are the main options."},
   {type:"fb",s:"제주도에 ___봤어요?\n(Have you been to Jeju?)",a:"가",opts:["가","간","갈","갔"],hint:"-아/어 봤어요 pattern. 가다 → 가 봤어요."},
   {type:"fb",s:"지금 제주도에서 ___하고 있어요.\n(I am sightseeing in Jeju right now.)",a:"관광",opts:["관광","여행","출발","도착"],hint:"Visiting tourist spots and enjoying the scenery. Which word means sightseeing?"},
-  {type:"teach",kind:"word",nl:"숙소",en:"accommodation / lodging",phonetic:"suk-so",example:"숙소를 예약했어요.",exampleEn:"I booked accommodation.",note:"숙소 (宿所): accommodation.\nCOMPOUND: 숙 (stay overnight) + 소 (place).\n\nBroader than 호텔. Includes 게스트하우스, 민박."},
   {type:"teach",kind:"word",nl:"일정",en:"schedule / itinerary",phonetic:"il-jeong",example:"여행 일정을 만들었어요.",exampleEn:"I made a travel itinerary.",note:"일정 (日程): schedule, itinerary.\nCOMPOUND: 일 (day) + 정 (set/plan)."},
   {type:"match",pairs:[{nl:"제주도",en:"Jeju Island"},{nl:"바다",en:"sea"},{nl:"숙소",en:"accommodation"},{nl:"일정",en:"itinerary"}]},
   {type:"drag_fill",s:"제주도에 {1}로 가요. {2}를 예약하고 {3}을 만들었어요.\n(I go to Jeju by ___. I booked ___ and made an ___.)",blanks:{"1":"비행기","2":"숙소","3":"일정"},pool:["비행기","기차","숙소","호텔","일정","여권"],hint:"Think: flying, a place to stay, and a travel plan."},
@@ -3302,9 +3301,9 @@ export default [
   {type:"fb",s:"___고양이가 귀여워요.\n(The black cat is cute.)",a:"까만",opts:["까만","까매","까맣","까매요"],hint:"까맣다 ㅎ-irregular modifier: ㅎ drops, add ㄴ. What's the modifier form?"},
   {type:"match",pairs:[{nl:"노란",en:"yellow (modifier)"},{nl:"빨간",en:"red (modifier)"},{nl:"까만",en:"black (modifier)"},{nl:"파란",en:"blue (modifier)"}]},
   {type:"drag_fill",s:"{1} 하늘에 {2} 구름이 있어요. {3} 꽃이 예뻐요.\n(In the ___ sky, there are ___ clouds. The ___ flowers are pretty.)",blanks:{"1":"파란","2":"하얀","3":"노란"},pool:["파란","빨간","하얀","까만","노란","초록"],hint:"All ㅎ-irregular modifiers: sky, cloud, and flower colors."},
-  {type:"mc",q:"How many irregular families have you now learned?",opts:["Three","Four","Five","Six"],ans:"Five",hint:"ㄷ, ㅂ (U7) + ㄹ, 으 (U9) + ㅎ (now) = 5 families."},
+  {type:"mc",q:"까맣다 → 까매요, 노랗다 → 노래요.\nWhat happens to ㅎ in these words?",opts:["ㅎ drops before vowel endings","ㅎ changes to ㄹ","ㅎ stays the same","ㅎ becomes ㅂ"],ans:"ㅎ drops before vowel endings",hint:"In ㅎ-irregular adjectives, the ㅎ disappears when a vowel ending follows."},
 
-{type:"fb",s:"날씨가 {1} 산책하기 좋아요.\n(The weather is cool so it is nice for a walk.)",a:["선선해서"],opts:["선선해서","선선하면","선선한데","선선해도"],hint:"선선하다 is ㅎ-irregular. Connected form with -아/어서. Cool weather, so good for walking."},
+{type:"fb",s:"날씨가 {1} 산책하기 좋아요.\n(The weather is cool so it is nice for a walk.)",a:["선선해서"],opts:["선선해서","선선하면","선선한데","선선해도"],hint:"Cool weather, so good for walking. 선선하다 is regular 하다: stem + -아/어서 for cause."},
 {type:"mc",q:"이 노란 꽃이 정말 예쁘네요!\n(This yellow flower is really pretty!)",opts:["노랗다 → 노란 (ㅎ-irregular modifier)","노랗다 → 노랗은 (regular)","노랗다 → 노라은 (ㄹ drop)","노랗다 → 노래은 (vowel shift)"],ans:"노랗다 → 노란 (ㅎ-irregular modifier)",hint:"ㅎ-irregular adjectives: 노랗다 → 노란 (ㅎ drops, ㄴ modifier). Same as 빨갛다 → 빨간."},
 ]},
 
@@ -3571,7 +3570,7 @@ export default [
 {type:"drag_fill",s:"감기가 {1}. 다리는 아직 {2}.\n(The cold is getting ___. My leg is still ___.)",blanks:{"1":"나아요","2":"부어요"},pool:["나아요","부어요","낫아요","붓어요","지어요"],hint:"Both ㅅ-irregular: 낫다 and 붓다. ㅅ drops before vowels."},
 {type:"match",pairs:[{nl:"짓다 → 지어요",en:"build (ㅅ drops)"},{nl:"낫다 → 나아요",en:"heal (ㅅ drops)"},{nl:"붓다 → 부어요",en:"swell (ㅅ drops)"},{nl:"씻다 → 씻어요",en:"wash (regular)"}]},
 {type:"fb",s:"이야기를 {1}. 계속해 주세요.\n(___ the story. Please continue.)",a:"이어요",opts:["이어요","잇어요","잇아요","이세요"],hint:"Continue the story. 잇다 is ㅅ-irregular: ㅅ drops."},
-{type:"mc",q:"All 5 irregular families you've learned:",opts:["ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ","ㄷ, ㅂ, ㅎ, ㅅ, ㄹ","ㄱ, ㄴ, ㄷ, ㅂ, ㅅ","ㅂ, ㅅ, ㅈ, ㅎ, ㄹ"],ans:"ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ",hint:"U7: ㄷ+ㅂ, U9: ㄹ/으, U11: ㅎ, U12: ㅅ. One more left: 르."},
+{type:"mc",q:"짓다 → 지어요. What happened to ㅅ?",opts:["ㅅ drops completely before vowel endings","ㅅ changes to ㄹ","ㅅ doubles","ㅅ stays the same"],ans:"ㅅ drops completely before vowel endings",hint:"In ㅅ-irregular verbs, ㅅ disappears entirely before vowel endings."},
 
 {type:"fb",s:"빨래를 {1} 옷이 줄었어요.\n(After doing laundry, the clothes shrank.)",a:["했는데"],opts:["했는데","하면","해서","해도"],hint:"ㅅ-irregular: 줄다 is not ㅅ-irregular, but related vocab. -는데 for unexpected result."},
 {type:"mc",q:"이 집은 지은 지 오래됐지만 아직 괜찮아요.\n(This house was built a long time ago but it is still okay.)",opts:["짓다 → 지은 (ㅅ-irregular)","짓다 → 짓은 (regular)","짓다 → 지은 (ㄷ-irregular)","짓다 → 짓는 (regular)"],ans:"짓다 → 지은 (ㅅ-irregular)",hint:"ㅅ-irregular: 짓다 loses ㅅ before vowels. Past modifier: 지은."},
@@ -3877,7 +3876,7 @@ export default [
 {type:"mc",q:"Fill the conversation: A: 내일 시간 있어요? B: 있는데 왜요? A: 같이 등산 가기로 했거든요! B: 좋네요!",opts:["B uses -는데 (background), A uses -거든요 (new info), B uses -네요 (pleasant surprise)","All three use the same grammar","Only -는데 is used","Only -네요 is used"],ans:"B uses -는데 (background), A uses -거든요 (new info), B uses -네요 (pleasant surprise)",hint:"Three different connectors, each perfect for its role in the conversation."},
 {type:"drag_fill",s:"한국 문화는 {1} 표현이 많아요. 그래서 {2}가 중요하{3}.\n(Korean culture has many ___ expressions. So ___ is important___.)",blanks:{"1":"간접적인","2":"눈치","3":"거든요"},pool:["간접적인","눈치","거든요","네요","직접적인","분위기"],hint:"Korean culture has many indirect expressions. So, you see, 눈치 is important."},
 
-{type:"fb",s:"A: 왜 안 왔어요? B: 아파{1}.\n(A: Why did you not come? B: I was sick, you see.)",a:["서요"],opts:["서요","거든요","는데요","지만요"],hint:"Wait - actually -거든요 is more natural here for explaining reason to questioner."},
+{type:"fb",s:"A: 왜 안 왔어요? B: 아파{1}.\n(A: Why did you not come? B: Because I was sick.)",a:["서요"],opts:["서요","거든요","는데요","지만요"],hint:"Explaining the direct cause. The speaker gives a simple reason for not coming."},
 {type:"mc",q:"A: 오늘 같이 저녁 먹을까요? B: 좋아요! 어디에서 먹을까요?\n(A: Shall we have dinner together? B: Sure! Where shall we eat?)",opts:["-(으)ㄹ까요 (suggestion)","-자 (casual let us)","-(으)ㅂ시다 (formal)","-(으)ㄹ래요 (preference)"],ans:"-(으)ㄹ까요 (suggestion)",hint:"-(으)ㄹ까요 for making and responding to suggestions."},
 {type:"drag_fill",s:"A: 한국 음식 {1} 봤어요? B: 네, 김치찌개를 먹어 {2}.\n(A: Have you tried Korean food? B: Yes, I have tried kimchi stew.)",blanks:{"1":"먹어","2":"봤어요"},pool:["먹어","봤어요","먹는","봐요","먹고","볼 거예요"],hint:"-아/어 보다 (try doing): past tense 먹어 봤어요."},
 {type:"fb",s:"A: 왜 늦었어요? B: 버스가 안 {1}.\n(A: Why were you late? B: The bus did not come, you see.)",a:["왔거든요"],opts:["왔거든요","왔어요","오는데요","왔는데"],hint:"-거든요 explains the reason for being late."},
@@ -3899,7 +3898,7 @@ export default [
 {type:"mc",q:"한국에서 눈치가 없다 means:",opts:["Socially clueless","Very observant","Having good manners","Being too quiet"],ans:"Socially clueless",hint:"눈치가 없다 = no 눈치 = can't read social cues."},
 {type:"drag_fill",s:"A: 한국어 잘하시{1}!\nB: 한국에서 살았{2}. 3년 살았어요.\n(A: Oh, you speak Korean well___!\nB: You see, I lived in Korea___. I lived there 3 years.)",blanks:{"1":"네요","2":"거든요"},pool:["네요","거든요","군요","는데","어서"],hint:"A: Oh you speak well! (surprise) B: You see, I lived in Korea. (new info)"},
 {type:"fb",s:"이 카페는 좋{1} 커피가 비싸요.\n(This cafe is nice___ the coffee is expensive.)",a:"은데",opts:["은데","는데","인데","지만"],hint:"This cafe is nice but coffee is expensive. 좋다 adjective → (으)ㄴ데."},
-{type:"mc",q:"All 6 Korean irregular families in order:",opts:["ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ, 르","ㄱ, ㄴ, ㄷ, ㅂ, ㅅ, ㅈ","ㄷ, ㅂ, ㅅ, ㅈ, ㅎ, ㄹ","ㄱ, ㄷ, ㅂ, ㅎ, ㅅ, 르"],ans:"ㄷ, ㅂ, ㄹ/으, ㅎ, ㅅ, 르",hint:"U7: ㄷ+ㅂ. U9: ㄹ/으. U11: ㅎ. U12: ㅅ. U13: 르."},
+{type:"mc",q:"모르다 → 몰라요. What happens with 르-irregular verbs?",opts:["ㄹ doubles, ㅡ drops, then add 아/어요","르 changes to ㄹ","르 drops entirely","르 stays and adds 어요"],ans:"ㄹ doubles, ㅡ drops, then add 아/어요",hint:"르 splits: ㄹ goes to previous syllable (doubling it). ㅡ drops. Then vowel harmony applies."},
 {type:"mc",q:"그렇군요 vs 그렇네요. When someone TELLS you a fact, you say:",opts:["그렇군요 (I see, processing)","그렇네요 (Oh! surprise)","Both work the same","Neither is correct"],ans:"그렇군요\n(I see, processing)",hint:"-군요 for information received from others. -네요 for direct experience."},
 {type:"drag_fill",s:"서울하고 부산은 {1}. 음식도 다르고 {2}도 달라요.\n(Seoul and Busan are ___. The food is different and the ___ is different too.)",blanks:{"1":"달라요","2":"분위기"},pool:["달라요","다라요","분위기","눈치","빨라요"],hint:"Seoul and Busan are different. Food is different and atmosphere is different too."},
 {type:"mc",q:"Connector review: 비가 와요. {___} 우산 가져가세요.",opts:["그러니까 (so, emphasis)","그런데 (but)","그래도 (still)","그리고 (and)"],ans:"그러니까 (so, emphasis)",hint:"It's raining. So (that's why!) take an umbrella. Emphatic conclusion."},
