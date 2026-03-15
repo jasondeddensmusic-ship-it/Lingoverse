@@ -10139,7 +10139,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return ()=>{document.removeEventListener("pointerup",handleDragEnd);document.removeEventListener("touchend",handleDragEnd);};
   },[]);
   const total=steps.length;
-  const st=steps[si];
+  let st=steps[si];
+  // Auto-convert multi-blank fb to drag_fill (P48: fb only supports single blank {1})
+  if(st.type==="fb"&&/\{2\}/.test(st.s)){
+    const fbA=Array.isArray(st.a)?st.a:[st.a];
+    const autoBlanks={};
+    fbA.forEach((ans,i)=>{autoBlanks[String(i+1)]=ans;});
+    st={...st,type:"drag_fill",blanks:autoBlanks,pool:st.opts||fbA};
+  }
   const pct=((si)/total)*100;
   const totalEx=steps.filter(s=>["mc","tr","fb","match","conj","drag_fill"].includes(s.type)).length;
 
