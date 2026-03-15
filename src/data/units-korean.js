@@ -243,7 +243,7 @@ export default [
  // ── Step 17: Match — all four greetings ──
  {type:"match",pairs:[{nl:"안녕하세요",en:"Hello (polite)"},{nl:"안녕히 가세요",en:"Goodbye (to leaver)"},{nl:"안녕히 계세요",en:"Goodbye (to stayer)"},{nl:"안녕",en:"Hi / Bye (casual)"}]},
  // ── Step 18: MC  -  tests -다 tip ──
- {type:"mc",q:"In the dictionary, Korean verbs always end in:",opts:["-요","-세요","-다","-하"],ans:"-다",hint:"You learned this in the tip card. Dictionary form always ends in this."},
+ {type:"mc",q:"In the dictionary, Korean verbs always end in:",opts:["-요","-세요","-다","-하"],ans:"-다",hint:"All Korean verbs share the same dictionary ending. Which one?"},
  // ── Step 19: FB — both leaving ──
  {type:"fb",s:"Two friends part ways on the street. Both are leaving. They both say: ___",a:"안녕히 가세요",opts:["안녕히 가세요","안녕히 계세요","안녕하세요","안녕"],hint:"Both are GOING. Each wishes the other to 'go in peace.'"},
  // ── Step 20: MC — tests verb-last from tip ──
@@ -274,7 +274,7 @@ export default [
  {type:"mc",q:"저는 학생이에요. What is the verb in this sentence?",opts:["저","는","학생","이에요"],ans:"이에요",hint:"The verb is at the END of the sentence. What comes last?"},
  {type:"fb",s:"___는 학생이에요.\n(I am a student.)",a:"저",opts:["저","이","가","는"],hint:"The polite word for 'I' goes here."},
  {type:"match",pairs:[{nl:"저",en:"I / me (polite)"},{nl:"는 / 은",en:"topic marker"},{nl:"이에요",en:"am/is (after consonant)"},{nl:"예요",en:"am/is (after vowel)"}]},
- {type:"mc",q:"Korean has how many speech levels?",opts:["2","4","7","10"],ans:"7",hint:"You learned this in the 해요체 tip card!"},
+ {type:"mc",q:"Korean has how many speech levels?",opts:["2","4","7","10"],ans:"7",hint:"Korean has multiple levels of politeness, each with its own verb endings."},
  {type:"mc",q:"저는 엠마예요. Why 예요 and not 이에요?",opts:["엠마 is a foreign name","엠마 ends in a vowel (ㅏ)","엠마 is short","It doesn't matter"],ans:"엠마 ends in a vowel (ㅏ)",hint:"Check the last letter of the previous word."},
  {type:"match",pairs:[{nl:"저는 사라예요",en:"I am Sara"},{nl:"저는 학생이에요",en:"I am a student"},{nl:"저는 민수예요",en:"I am Minsu"},{nl:"저는 선생님이에요",en:"I am a teacher"}]},
  {type:"mc",q:"To introduce yourself, say your name then:",opts:["하세요","이에요 or 예요","있어요","없어요"],ans:"이에요 or 예요",hint:"Check what the word before it ends with."},
@@ -867,8 +867,9 @@ export default [
   {type:"teach",kind:"word",nl:"누구",en:"who",phonetic:"nu-gu",example:"A: 이 사람은 누구예요? B: 제 친구예요.",exampleEn:"A: Who is this person? B: It's my friend.",note:"누구: who.\n누구예요?: 'Who is it?'\n\nAs subject: 누가 (누구 + 이/가 → 누가).\n누가 있어요?: 'Who is here?'"},
   {type:"teach",kind:"word",nl:"뭐",en:"what",phonetic:"mwo",example:"A: 뭐 먹어요? B: 밥 먹어요.",exampleEn:"A: What are you eating? B: I'm eating rice.",note:"뭐: what (casual/spoken).\n뭐예요?: 'What is it?'\n\nFormal form: 무엇 (mu-eot).\nDaily speech: always 뭐."},
   {type:"teach",kind:"word",nl:"왜",en:"why",phonetic:"wae",example:"A: 왜 한국어를 배워요? B: 한국 음악이 좋아요.",exampleEn:"A: Why do you learn Korean? B: I like Korean music.",note:"왜: why.\n왜요?: 'Why?' (polite, standalone).\n\n왜 sits at the START of the clause."},
-  {type:"teach",kind:"word",nl:"어떻게",en:"how",phonetic:"eo-tteo-ke",example:"A: 어떻게 가요? B: 버스로 가요.",exampleEn:"A: How do you get there? B: By bus.",note:"어떻게: how.\n어떻게 해요?: 'How do you do it?'\n\nRelated: 어떤 = 'what kind of' (later lesson)."},
-  {type:"teach",kind:"word",nl:"언제",en:"when",phonetic:"eon-je",example:"A: 언제 와요? B: 내일 와요.",exampleEn:"A: When are you coming? B: Tomorrow.",note:"언제: when.\n언제요?: 'When?' (polite, standalone).\n\nYou now have the full set:\n어디, 누구, 뭐, 왜, 어떻게, 언제."},
+  {type:"teach",kind:"word",nl:"어떻게",en:"how",phonetic:"eo-tteo-ke",example:"A: 어떻게 가요? B: 버스로 가요.",exampleEn:"A: How do you get there? B: By bus.",note:"어떻게: how.\n어떻게 해요?: 'How do you do it?'\n\nSame root as 어떤 (what kind of), next card."},
+  {type:"teach",kind:"word",nl:"어떤",en:"what kind of / which",phonetic:"eo-tteon",example:"A: 어떤 음악 좋아해요? B: 한국 음악이요.",exampleEn:"A: What kind of music do you like? B: Korean music.",note:"어떤: what kind of / which.\nSame root as 어떻게 (how).\n\n어떤 음악? = what kind of music?\n어떤 사람? = what kind of person?",deepDive:{title:"어떤 vs 무슨",text:"Both translate as 'what kind of' but differ:\n\n무슨 요일이에요? = What day is it? (fixed set)\n어떤 음악 좋아해요? = What kind of music? (open choice)\n\n무슨: selecting from a known/limited set.\n어떤: asking about characteristics or preferences.\n\n무슨 색? = What color? (from a set)\n어떤 색? = What kind of color? (describe it)"}},
+  {type:"teach",kind:"word",nl:"언제",en:"when",phonetic:"eon-je",example:"A: 언제 와요? B: 내일 와요.",exampleEn:"A: When are you coming? B: Tomorrow.",note:"언제: when.\n언제요?: 'When?' (polite, standalone).\n\nFull question word set:\n어디, 누구, 뭐, 왜, 어떻게, 어떤, 언제."},
   {type:"mc",q:"이 사람은 누구예요? This question asks:",opts:["Where is this person?","Who is this person?","What is this person doing?","When is this person coming?"],ans:"Who is this person?",hint:"누구 = who"},
   {type:"mc",q:"왜 한국어를 배워요? means:",opts:["How do you learn Korean?","What do you learn?","Why do you learn Korean?","When do you learn Korean?"],ans:"Why do you learn Korean?",hint:"왜 = why"},
   {type:"mc",q:"어떻게 가요? means:",opts:["Where do you go?","Why do you go?","When do you go?","How do you get there?"],ans:"How do you get there?",hint:"어떻게 = how"},
@@ -877,8 +878,10 @@ export default [
   {type:"fb",s:"___ 집에 있어요?\n(Why are you at home?)",a:"왜",opts:["왜","뭐","누구","어떻게"],hint:"Asking for a reason"},
   {type:"fb",s:"___ 먹어요?\n(What are you eating?)",a:"뭐",opts:["뭐","왜","누구","언제"],hint:"Asking what someone is eating"},
   {type:"fb",s:"한국어를 ___ 배워요?\n(How do you study Korean?)",a:"어떻게",opts:["어떻게","어디","왜","뭐"],hint:"Asking about the method"},
-  {type:"match",pairs:[{nl:"누구",en:"who"},{nl:"왜",en:"why"},{nl:"어떻게",en:"how"},{nl:"언제",en:"when"}]},
-  {type:"match",pairs:[{nl:"뭐",en:"what"},{nl:"어디",en:"where"},{nl:"왜요?",en:"Why?"},{nl:"누구예요?",en:"Who is it?"}]},
+  {type:"mc",q:"어떤 음악 좋아해요? means:",opts:["How is the music?","What kind of music do you like?","Where is the music?","When do you listen to music?"],ans:"What kind of music do you like?",hint:"어떤 = what kind of. Asking about preferences."},
+  {type:"fb",s:"___ 영화 좋아해요?\n(What kind of movie do you like?)",a:"어떤",opts:["어떤","어떻게","무슨","뭐"],hint:"Asking about kind/type preference. Same root as 어떻게."},
+  {type:"match",pairs:[{nl:"누구",en:"who"},{nl:"왜",en:"why"},{nl:"어떻게",en:"how"},{nl:"어떤",en:"what kind of"}]},
+  {type:"match",pairs:[{nl:"뭐",en:"what"},{nl:"어디",en:"where"},{nl:"언제",en:"when"},{nl:"누구예요?",en:"Who is it?"}]},
   {type:"mc",q:"Korean questions compared to English:",opts:["Move the question word to the front","Flip subject and verb","Keep the same word order","Always add 요 at the start"],ans:"Keep the same word order",hint:"Korean swaps the unknown word for a question word, in place"},
   {type:"mc",q:"뭐 vs 무엇:",opts:["뭐 is formal, 무엇 is casual","They are unrelated words","뭐 is casual/spoken, 무엇 is formal","뭐 is old Korean, 무엇 is modern"],ans:"뭐 is casual/spoken, 무엇 is formal",hint:"Daily speech uses 뭐"},
   {type:"drag_fill",s:"A: {1} 사람은 {2}예요? B: 제 선생님이에요.",blanks:{"1":"이","2":"누구"},pool:["이","그","누구","뭐","왜"],hint:"A: Who is this person? B: It's my teacher."},
@@ -2639,6 +2642,9 @@ export default [
   {type:"mc",q:"일어나고 나서 씻어요 means:",opts:["Before waking up, I wash","After waking up, I wash","While waking up, I wash","I don't want to wash"],ans:"After waking up, I wash",hint:"-고 나서 = after doing. Wake up → then → wash."},
   {type:"mc",q:"공부하고 있어요  -  which tense?",opts:["Past (completed)","Future (planned)","Present progressive","Conditional (if)"],ans:"Present progressive",hint:"-고 있다 = is doing right now. 공부하고 있어요 = am studying (right now)."},
   {type:"fb",s:"지금 전화___ 있어요. 나중에 다시 전화할게요.\n(I'm on the phone right now. I'll call back later.)",a:"하고",opts:["하고","해서","하면","하지만"],hint:"-고 있다 = progressive. 전화... 있어요 = on the phone right now."},
+  {type:"teach",kind:"grammar",nl:"-는 중이다",en:"in the middle of doing",phonetic:"-neun jung-i-da",example:"지금 회의 중이에요.",exampleEn:"I'm in a meeting right now.",note:"-는 중이다: in the middle of (doing).\n\nVerb stem + 는 중이다.\n먹다 → 먹는 중이에요.\n\n회의 중: in a meeting (noun + 중).\n중 (中) = middle/during.",deepDive:{title:"-는 중이다 vs -고 있다",text:"Both mean 'doing right now' but differ:\n\n-고 있다: general progressive.\n공부하고 있어요 = I'm studying.\n\n-는 중이다: emphasizes 'in the middle of.'\n공부하는 중이에요 = I'm in the middle of studying.\n\n-는 중이다 feels slightly more formal.\nOften used to say 'I can't talk right now':\n회의 중이에요 = I'm in a meeting.\n수업 중이에요 = I'm in class.\n\nWith nouns, just use 중:\n회의 중 = during a meeting.\n수업 중 = during class.\n식사 중 = during a meal."}},
+  {type:"mc",q:"지금 공부하는 중이에요. This emphasizes:",opts:["I finished studying","I'm in the MIDDLE of studying","I will study soon","I want to study"],ans:"I'm in the MIDDLE of studying",hint:"-는 중이다 = in the middle of. Stronger than -고 있다."},
+  {type:"fb",s:"지금 회의 ___이에요. 나중에 전화할게요.\n(I'm in a meeting right now.)",a:"중",opts:["중","후","전","때"],hint:"중 (中) = middle. 회의 중 = in the middle of a meeting."},
 ]},
 
 // ═══ L7: ★ Irregular Batch 2: ㄹ/으 ═══
@@ -2668,7 +2674,7 @@ export default [
 // ═══ L8: -고 싶어하다 ═══
 {id:"kou9l8",title:"-고 싶어하다",icon:"👥",xp:20,board:true,steps:[
   {type:"intro",title:"Third Person Want  -  The Trap",desc:"-고 싶어하다\n→ (someone else) wants to\n\nThe third-person trap.",goals:["Understand why -고 싶다 is 1st person only","Learn -고 싶어하다 for 3rd person","See the 하다 suffix for external observation","The full treatment comes later"]},
-  {type:"teach",kind:"phrase",nl:"-고 싶다 (1st person)",en:"I want to...",example:"저는 한국에 가고 싶어요.",exampleEn:"I want to go to Korea.",note:"I want to (1st person).\n\nYou learned this in earlier.",deepDive:{title:"Using -고 싶다 (1st person)",text:"먹고 싶어요: I want to eat.\n가고 싶어요: I want to go.\n\nWhy is this 1ST PERSON ONLY?\nBecause -고 싶다 describes an INTERNAL feeling.\nYou can know YOUR feelings, but you can't directly state someone else's.\n\n저는 가고 싶어요. ✓ (I know my desire)\n그 사람은 가고 싶어요. ✗ (How do you know their desire?)"}},
+  {type:"teach",kind:"phrase",nl:"-고 싶다 (1st person)",en:"I want to...",example:"저는 한국에 가고 싶어요.",exampleEn:"I want to go to Korea.",note:"I want to (1st person).\n\nYou learned this earlier.",deepDive:{title:"Using -고 싶다 (1st person)",text:"먹고 싶어요: I want to eat.\n가고 싶어요: I want to go.\n\nWhy is this 1ST PERSON ONLY?\nBecause -고 싶다 describes an INTERNAL feeling.\nYou can know YOUR feelings, but you can't directly state someone else's.\n\n저는 가고 싶어요. ✓ (I know my desire)\n그 사람은 가고 싶어요. ✗ (How do you know their desire?)"}},
   {type:"teach",kind:"grammar",nl:"-고 싶어하다 (3rd person)",en:"he/she wants to...",example:"그 사람은 한국에 가고 싶어해요.",exampleEn:"That person wants to go to Korea.",note:"He/she wants to (3rd person).\n\n싶어하다: shows external OBSERVATION of someone's desire.",deepDive:{title:"-고 싶어하다 (3rd person)",text:"하다 suffix = 'shows/acts like' (external behavior).\n\n1st person: 가고 싶어요 (I feel I want to go)\n3rd person: 가고 싶어해요 (I observe they want to go)\n\n그 사람은 한국에 가고 싶어해요.\n= That person wants to go to Korea.\n(I can see/know this from their behavior.)"}},
   {type:"tip",title:"📋 The Internal/External Rule",text:"Korean distinguishes INTERNAL vs EXTERNAL feelings:\n\nINTERNAL (1st person)  -  I feel it:\n가고 싶어요 (I want to go)\n아파요 (I hurt)",deepDive:{title:"1st Person Feelings vs 3rd Person Observations",text:"좋아요 (I like it/it's good)\n\n\nEXTERNAL (3rd person)  -  I observe it:\n가고 싶어해요 (they want to go)\n아파해요 (they seem to be in pain)\n좋아해요 (they like it)\n\nThe -하다 suffix shifts from FEELING to OBSERVING.\n\n⚡ This gets a full exploration in a later lesson.\nThis is a deep topic  -  for now, just know the 3rd person rule.\nWhen you talk about someone ELSE's desires, add -하다.\n\n저는 커피를 좋아해요 is an exception:\n좋아하다 is ALREADY the externalized form.\nFor 1st person feelings: 커피가 좋아요."}},
   {type:"mc",q:"'I want to eat'  -  correct:",opts:["먹고 싶어요","먹고 싶어해요","먹고 싶었어요","먹고 싶어하다"],ans:"먹고 싶어요",hint:"1st person feelings → -고 싶어요 (internal)."},
@@ -2744,6 +2750,10 @@ export default [
   {type:"teach",kind:"grammar",nl:"-(으)ㄴ 후에",en:"after doing",phonetic:"-eun hu-e",example:"밥을 먹은 후에 커피를 마셔요.",exampleEn:"After eating, I drink coffee.",note:"After doing something.\n\nConsonant stem:\n→ add 은 후에\n\nVowel stem:\n→ add ㄴ 후에.\n\n먹다 → 먹은 후에 (after eating)\n가다 → 간 후에 (after going)\n하다 → 한 후에 (after doing)",deepDive:{title:"후 = After (Sino-Korean 後)",text:"후 (後) = after. Reusable morpheme:\n식후 = after eating (식 + 후)\n오후 = PM (午 noon + 後 after)\n\n-고 나서 vs -(으)ㄴ 후에:\n밥을 먹고 나서 = after eating (spoken)\n밥을 먹은 후에 = after eating (slightly formal)\nSame meaning. Different register."}},
   {type:"mc",q:"자기 전에 이를 닦아요 means:",opts:["After sleeping I brush teeth","Before sleeping I brush teeth","While sleeping I brush teeth","Instead of sleeping I brush teeth"],ans:"Before sleeping I brush teeth",hint:"-기 전에 = before doing"},
   {type:"fb",s:"출근하___ 전에 커피를 마셔요.\n(Before going to work, I drink coffee.)",a:"기",opts:["기","고","은","는"],hint:"-기 turns the verb into a noun → then 전에 (before)"},
+  {type:"teach",kind:"grammar",nl:"-(으)ㄹ 때",en:"when (doing)",phonetic:"-eul ttae",example:"학교에 갈 때 버스를 타요.",exampleEn:"When I go to school, I take the bus.",note:"When doing something.\n\nVowel stem: add ㄹ 때.\nConsonant stem: add 을 때.\n\n가다 → 갈 때 (when going)\n먹다 → 먹을 때 (when eating)\n하다 → 할 때 (when doing)",deepDive:{title:"때 = Time/When",text:"때: time, occasion.\n\nPresent/future: -(으)ㄹ 때\n갈 때 = when (I) go\n\nPast: -(으)ㄹ 때 + past verb\n학교에 갈 때 비가 왔어요.\n= When I was going to school, it rained.\n\n어렸을 때: when (I) was young.\n(어리다 + 었 + 을 때)\n\nThe trio is now complete:\n-기 전에 = before doing.\n-(으)ㄴ 후에 = after doing.\n-(으)ㄹ 때 = when doing."}},
+  {type:"mc",q:"학교에 갈 때 버스를 타요. 갈 때 means:",opts:["Before going","After going","When going","Instead of going"],ans:"When going",hint:"-(으)ㄹ 때 = when doing. 가다 → 갈 때."},
+  {type:"fb",s:"밥을 ___ 때 텔레비전을 봐요.\n(When I eat, I watch TV.)",a:"먹을",opts:["먹을","먹은","먹기","먹고"],hint:"먹다 has a consonant stem. Add 을 때 for 'when eating.'"},
+  {type:"mc",q:"The time trio: before, after, when =",opts:["-기 전에, -(으)ㄴ 후에, -(으)ㄹ 때","-고, -(으)ㄴ, -(으)ㄹ","-기, -은, -는","-면, -서, -때"],ans:"-기 전에, -(으)ㄴ 후에, -(으)ㄹ 때",hint:"Before = -기 전에. After = -(으)ㄴ 후에. When = -(으)ㄹ 때."},
 ]},
 
 // ═══ L2: Home Vocabulary ═══

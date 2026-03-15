@@ -96,6 +96,10 @@
 | D86 | String Editing Safety (CLAUDE.md only) | Agent Protocol | All |
 | D87 | Post-Verification Evidence Format (CLAUDE.md only) | Agent Protocol | All |
 | D88 | B1 Density Uplift: 106 Lessons to 20+ Steps | Content/Quality | Korean |
+| D89 | Engine Bug: MC ans/opts \n Mismatch | Engine/Quality | All |
+| D90 | Pattern-ID MC Reframe to Meaning Questions | Pipeline/Quality | All |
+| D91 | Two-Pass P8 Scanning Protocol | Agent Protocol | All |
+| D92 | B1 Full Quality Audit: 14 Rounds | Content/Quality | Korean |
 
 ---
 
@@ -105,7 +109,7 @@
 D41, D51, D58
 
 ### Anti-Leak / P8
-D3, D6, D24, D34b, D40, D67, D79
+D3, D6, D24, D34b, D40, D67, D79, D90, D91
 
 ### Keyboard Navigation
 D7, D16, D17, D19, D45, D52, D56
@@ -120,7 +124,7 @@ D32, D37
 D11, D35d, D69
 
 ### Korean Curriculum
-D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88
+D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92
 
 ### Korean Engine Features
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
@@ -129,10 +133,10 @@ D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
 D12, D23, D29, D30, D32, D34a-l
 
 ### Pipeline Rules
-D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79
+D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90
 
 ### Agent Protocol / Documentation
-D74, D80, D81, D82, D86, D87
+D74, D80, D81, D82, D86, D87, D91
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85
@@ -141,7 +145,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92
 
 ---
 
@@ -152,6 +156,23 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78
 - **D35a-h**: Session 35 block at line ~3707
 - **D36-D40**: Session 35+ block continuing from line ~3778
 - **D86-D87**: Defined in `CLAUDE.md` Agent Deployment Standards (Rules 5-6), not in lingoverse.jsx
+- **D89-D92**: From B1 Full Quality Audit (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+
+---
+
+## D89-D92: B1 Audit Decisions (2026-03-15)
+
+### D89: Engine Bug — MC ans/opts \n Mismatch
+LessonEngine uses strict `===` to compare selected option with `st.ans`. If `ans` contains `\n` but the corresponding option in `opts[]` uses a space (or vice versa), the quiz PERMANENTLY fails — the learner can never select the correct answer. **Rule**: NEVER use `\n` inside MC `ans` or `opts` strings. Use space or parentheses instead. Systematic scan found 6 instances across A1-B1; all fixed.
+
+### D90: Pattern-ID MC Reframe to Meaning Questions
+MC questions like "Which grammar pattern is used?" with options like `"-(으)면서 (simultaneous)"` are P8 violations when the hint explains the pattern. **Rule**: Reframe pattern-identification MCs to test MEANING or USAGE. Instead of "Which connector?", ask "What does this sentence describe?" with answer like "Two things happening at the same time." This tests comprehension, not label recall.
+
+### D91: Two-Pass P8 Scanning Protocol
+Single-pass P8 scans miss subtle leaks, especially single-particle answers (는, 기, 고) where the grammar pattern containing them appears in the hint. **Protocol**: (1) First pass: scan all fb/mc for exact answer substring in hint. (2) Second pass: re-scan with awareness of single-character answers and grammar pattern names. (3) Both passes must use different agents or independent reviews. B1 audit: Pass 1 found 26, Pass 2 found 11 more = 37 total.
+
+### D92: B1 Full Quality Audit — 14 Rounds
+Complete B1 (U11-U20) audit across 14 commit rounds. Fixed: ~50 P8 hint-reveals, 6 engine \n bugs, 5 P34 teach-before-test violations, ~15 missing translations, 3 pattern-ID MC reframes, 2 duplicate match sets, 1 misleading translation. All fixes verified by independent agent scans. Standard for future level audits.
 
 ---
 
