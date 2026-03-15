@@ -331,11 +331,11 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/KOREAN_B2_HANDOFF.md`** — **B2 BUILDER: START HERE.** Complete handoff briefing for building U21-U30. Grammar scope, unit structure, seeds, pipeline rules, quality standards.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. B2 design should follow this template.
 - **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — TOPIK/TTMIK gap plan (v2, code-verified). All 6 sprints EXECUTED. Use as reference for what was added and where.
-- **`docs/KOREAN_QUALITY_AUDIT.md`** — A1-A2 quality audit. 7 fix batches. Active TODO for remaining fixes.
-
-### Tier 3: Historical (preserved for reference, DO NOT use for active decisions)
-- **`docs/KOREAN_TOPIK_TTMIK_AUDIT.md`** — Raw TOPIK/TTMIK audit. Contains 25% false positives. SUPERSEDED by gap plan v2. Has correction notice at top.
-- **`docs/KOREAN_DENSITY_AUDIT.md`** — Historical A1-A2 density metrics. SUPERSEDED by quality audit.
+### Deleted (March 2026 cleanup)
+The following historical docs were deleted after their content was fully captured in D92/D93/D94 decisions and the gap plan:
+- ~~`KOREAN_DENSITY_AUDIT.md`~~ — Superseded by D88 density uplift + D92 audit.
+- ~~`KOREAN_TOPIK_TTMIK_AUDIT.md`~~ — Had 25% false positives. Superseded by gap plan v2.
+- ~~`KOREAN_QUALITY_AUDIT.md`~~ — All critical items addressed by D92 (14 rounds) + D93 (7 rounds).
 
 ---
 
@@ -374,7 +374,7 @@ Commit and push to `main`. GitHub Actions automatically builds and uploads to mi
 Every new Claude Code session MUST follow this sequence before writing any code:
 
 1. **Read CLAUDE.md** (this file). Understand current project state, active TODOs, and all pipeline rules.
-2. **Check the Documentation Hierarchy** (above). Know which docs are authoritative vs historical. Never treat Tier 3 docs as current truth.
+2. **Check the Documentation Hierarchy** (above). Know which docs are authoritative. Deleted historical docs are listed for reference only.
 3. **Read memory files** (`~/.claude/projects/.../memory/`). Check for owner preferences, past mistakes, and architectural decisions.
 4. **Before any audit or gap analysis**: Follow the Agent Deployment Standards below. Never compare external references against CLAUDE.md descriptions alone.
 5. **Before writing content**: Re-read the Pipeline Rules section. Every rule (P8, P24, P26, P34, P37, P43, P46) applies to every lesson in every language.
