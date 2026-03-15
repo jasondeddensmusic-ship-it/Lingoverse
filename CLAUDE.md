@@ -247,9 +247,14 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Dutch:
 - Foundations: COMPLETE (knowledge + 22 playthrough lessons + gate quiz)
-- A1-A2 (Units 1-10): COMPLETE (80 lessons)
-- B1 (Units 11-20): COMPLETE (80 lessons)
-- Retroactive polish needed: Apply D41/D42/D47/D53/D58 standards to all units
+- A1-A2 (Units 1-10): COMPLETE (80 lessons, avg 20+ steps)
+- B1 (Units 11-20): COMPLETE + DENSITY UPLIFT (D99) + QUALITY FIXES
+  - 80 lessons, 1,467 steps, all 18+ per P43 (avg 18.3)
+  - **DENSITY UPLIFT COMPLETE (2026-03-15)**: Uplifted from avg 12.9 to avg 18.3. ~437 quiz steps added across 76 under-dense lessons. All 80 lessons now 18-20 steps.
+  - **QUICK FIXES COMPLETE (2026-03-15)**: 1 P49 CEFR quiz replaced, 5 P22c em-dashes fixed, 11 critical P8 hint-reveals rewritten.
+  - P48 scan: PASS (0 violations). P49 scan: PASS (0 violations).
+- 20 v2 units + 23 legacy units, 164 v2 lessons, ~3,551+ steps
+- **NEXT ACTION**: Dutch B2 curriculum (U21-U30+), then retroactive A1-A2 polish (D41/D42/D47/D53 standards).
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
@@ -307,7 +312,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
 1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 density uplift COMPLETE (D96, avg 21.2). P48/P49 fixes COMPLETE (D98). Next: **B2 quality audit, then C1**.
-2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
+2. **Dutch** - A1-B1 DONE + POLISHED (D99). B1 density uplift complete (avg 18.3). Next: **B2 curriculum build**.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 5. **German** - 5 skeleton units. Next: full A1 build from scratch.

@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D99 | Dutch B1 Polish: Density Uplift + Quick Fixes | Content/Quality | Dutch |
 | D98 | P48/P49 Fix: 520 fb→drag_fill + 15 CEFR Purge | Quality Fix | Korean |
 | D97 | Content Quality Gate for Uplift/Batch Edits | Agent Protocol | All |
 | D96 | B2 Density Uplift (U21-U30) | Content/Quality | Korean |
@@ -136,7 +137,7 @@ D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
 
 ### Dutch Curriculum
-D12, D23, D29, D30, D32, D34a-l
+D12, D23, D29, D30, D32, D34a-l, D99
 
 ### Pipeline Rules
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
@@ -151,7 +152,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99
 
 ---
 
@@ -164,6 +165,7 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98
 - **D86-D87**: Defined in `CLAUDE.md` Agent Deployment Standards (Rules 5-6), not in lingoverse.jsx
 - **D89-D92**: From B1 Full Quality Audit (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D95-D98**: B2 density uplift cycle (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D99**: Dutch B1 polish (March 2026), defined in `DECISION_LOG.md`
 
 ---
 
@@ -233,6 +235,29 @@ Created Agent Rule 8 in response to D96 quality failures. **Rule**: After any ba
 - "B1에서 배운 문법을" → removed CEFR label, kept grammar-usage question
 
 **Verification**: `grep` confirms zero remaining CEFR labels in quiz `q`/`opts`/`ans` fields. Build passes. Engine runtime safety net also added (auto-convert any surviving multi-blank fb to drag_fill).
+
+## D99: Dutch B1 Polish — Density Uplift + Quick Fixes (2026-03-15)
+
+Complete Dutch B1 (U11-U20) polish pass. Three phases:
+
+**Phase 1: Quick Fixes**
+- 1 P49 violation fixed: U20L8 CEFR quiz ("What is your next Dutch level?" with A2/B1/B2/C1 options) replaced with grammar register question.
+- 5 P22c em-dash violations fixed in learner-facing `note:` and `title:` fields.
+- 11 critical P8 hint-reveals rewritten. Pattern: hints directly stated article gender ("Huis is a het-word"), demonstrative rules ("Man = de-word, hier = nearby"), or complete grammar formulas ("S = 't kofschip = -t"). All rewritten to guide without revealing.
+
+**Phase 2: Density Uplift**
+B1 units averaged 12.9 steps/lesson (76/80 lessons below P43 minimum of 18). Five parallel agents deployed in git worktrees, each handling 2 units:
+- U11-U12: +38 steps (past perfect, zou/zouden, banking vocab)
+- U13-U14: +89 steps (subordination, all 5 uses of 'er')
+- U15-U16: +95 steps (infinitives, verb clusters, passive voice)
+- U17-U18: +86 steps (housing, relative clauses, indirect speech)
+- U19-U20: +131 steps (participles, compounds, diminutives, consolidation)
+Total: ~437 new quiz steps across 76 lessons. All mc/fb/match/drag_fill types.
+
+**Phase 3: Quality Verification**
+Independent audit agent verified: 80/80 lessons at 18+ steps (avg 18.3). P48: 0 violations. P49: 0 violations. Build: passes.
+
+**Key difference from Korean D96 uplift**: Dutch B1 uplift followed Rule 7 (parallel agents with density monitoring) and Rule 8 (quality verification before commit). No P48/P49 violations introduced. No meta-curriculum leakage. No broken step types. Every new step tests vocabulary or grammar from its lesson's teach cards.
 
 ---
 
