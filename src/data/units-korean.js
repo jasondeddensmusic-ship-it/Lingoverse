@@ -6027,6 +6027,9 @@ export default [
 {type:"mc",q:"Which is correct for a resume?\n(Describing your strengths formally)",opts:["성실하며 책임감이 강합니다","성실하고 책임감이 강해요","성실해서 책임감이 강해요","성실하면 책임감이 강해요"],ans:"성실하며 책임감이 강합니다",hint:"Resumes use -(으)며 for 'and' plus formal -ㅂ니다 endings."},
 {type:"drag_fill",s:"이 회사는 급여가 {1} 복지가 {2}.\n(This company has high pay and good benefits.) (written)",blanks:{"1":"높으며","2":"좋습니다"},pool:["높으며","좋습니다","높고","좋아요","높아서","좋은데"],hint:"Written connector after consonant stem (높 + 으며). Formal ending."},
 {type:"mc",q:"노력하며 성장하고 싶습니다.\n(I want to work hard and grow.) (written)\nHow many constructs are layered here?",opts:["Three: -(으)며 + -고 싶다 + formal -ㅂ니다","Two: -(으)며 + formal ending","One: just formal style","Four: -(으)며 + -고 + 싶다 + -ㅂ니다"],ans:"Three: -(으)며 + -고 싶다 + formal -ㅂ니다",hint:"Written 'and' + desire pattern + formal sentence ending. Three layers."},
+
+{type:"fb",s:"이 제품{1} 가볍{2} 튼튼합니다. A2 -고 would be 가볍{3} 튼튼해요.\n(This product is light and sturdy. [formal vs casual])",a:["은","으며","고"],opts:["은","으며","고","이","며","는","을","에"],hint:"Topic. Written and. A2 casual and."},
+{type:"mc",q:"-(으)며 vs -고: both mean 'and'.\n보고서를 작성하며 발표를 준비했다. (formal)\n보고서를 작성하고 발표를 준비했어요. (casual)\nWhen to use 며?\n(Register difference.)",opts:["며 in formal writing: reports, resumes, news","며 in casual speech","Both are equally casual","고 is more formal"],ans:"며 in formal writing: reports, resumes, news",hint:"며 = written register. 고 = spoken register."},
 ]},
 
 // ── L3: 이유를 쓸 때 — -(으)므로 + -기에 ──
@@ -6049,6 +6052,10 @@ export default [
 {type:"fb",s:"능력이 뛰어나{1} 승진할 수 있었다.\n(Because ability was outstanding, promotion was possible.) (written)",a:"므로",opts:["므로","서","니까","면"],hint:"Written cause in a formal report. Outstanding ability led to promotion."},
 {type:"drag_fill",s:"이 분야에 {1}이 {2} 자신있게 {3}.\n(Because qualifications in this field are sufficient, I apply with confidence.) (written)",blanks:{"1":"자격","2":"충분하므로","3":"지원합니다"},pool:["자격","충분하므로","지원합니다","경력","충분해서","지원해요"],hint:"Credentials. Written 'because' with formal ending. Formal apply."},
 {type:"mc",q:"Cover letter ending: '귀사에 기여하고자 지원하며, 경력이 풍부하므로 적합하다고 생각합니다.'\nHow many B2 grammar patterns appear?",opts:["Three: -고자, -(으)며, -(으)므로","Two: -(으)며, -(으)므로","One: -(으)므로 only","Four: -고자, -(으)며, -(으)므로, -다고"],ans:"Three: -고자, -(으)며, -(으)므로",hint:"-고자 (intention), -(으)며 (written and), -(으)므로 (written because). Three new B2 connectors."},
+
+{type:"fb",s:"시간{1} 부족하{2}로 서두르겠습니다. A2 -니까 would be 부족하{3}까 서둘러요.\n(Since time is short, I will hurry. [formal vs casual])",a:["이","므","니"],opts:["이","므","니","을","며","까","가","에"],hint:"Subject. Written because. A2 spoken because."},
+{type:"mc",q:"-(으)므로 NEVER appears in casual speech.\nWhich context uses it?\n(Register constraint.)",opts:["Official documents, laws, formal announcements","Texting friends","Ordering food at a restaurant","Talking to family"],ans:"Official documents, laws, formal announcements",hint:"므로 is strictly formal written register."},
+{type:"fb",s:"경험{1} 풍부하{2}로 적합{3} 인재입니다. (cover letter)\n(Since experience is abundant, [I am] a suitable talent.)",a:["이","므","한"],opts:["이","므","한","을","며","하","가","는"],hint:"Subject. Written because. Suitable (modifier)."},
 ]},
 
 // ── L4: 목표를 말할 때 — -고자 [HARVEST] ──
@@ -6070,6 +6077,11 @@ export default [
 {type:"mc",q:"다양한 경험을 쌓고자 여러 분야에서 일했습니다.\n(I worked in various fields to gain diverse experience.)\nWhat B2 patterns appear?",opts:["Two: -고자 (formal purpose) + formal -ㅂ니다 ending","One: -고자 only","Three: -고자 + -며 + formal","Two: -고자 + -아/어서"],ans:"Two: -고자 (formal purpose) + formal -ㅂ니다 ending",hint:"-고자 (formal purpose) and 합쇼체 formal ending. Two layers."},
 {type:"fb",s:"우수한 {1}를 채용하{2} 합니다.\n(We intend to hire excellent talent.) (written)",a:["인재","고자"],opts:["인재","고자","경력","려고","연봉","해서"],hint:"Person-talent. Formal purpose connector."},
 {type:"drag_fill",s:"실력을 {1} 꾸준히 {2} 좋은 {3}가 되겠습니다.\n(I will steadily work hard to improve skills and become a good talent.) (written)",blanks:{"1":"향상시키고자","2":"노력하며","3":"인재"},pool:["향상시키고자","노력하며","인재","향상시키려고","노력해서","경력"],hint:"Formal purpose. Written 'and'. Person-talent word."},
+
+{type:"mc",q:"지원하고자 합니다.\nA2 -(으)려고 means the same but is?\n(I wish to apply. [formal intention])",opts:["-(으)려고 = same intention but casual/spoken register","려고 is more formal","Both are equally formal","고자 is casual"],ans:"-(으)려고 = same intention but casual/spoken register",hint:"A2 려고 = casual. B2 고자 = formal."},
+{type:"fb",s:"발전하{1}자 노력하겠습니다. 성장하{1}자 이 회사{2} 지원했습니다.\n(I will strive to develop. I applied to this company in order to grow.)",a:["고","에"],opts:["고","에","려","를","는","를","이","의"],hint:"Formal purpose. Target/direction."},
+{type:"drag_fill",s:"A2 -(으)려고: casual {1}.\nB1 -기 위해(서): formal {2}.\nB2 -고자: very formal {3}.\n(Intention patterns by register.)",blanks:{"1":"intention","2":"purpose","3":"written purpose"},pool:["intention","purpose","written purpose","desire","hope","command"],hint:"려고=daily. 위해=essays. 고자=cover letters/speeches."},
+{type:"fb",s:"더 나{1} 서비스{2} 제공하{3}자 합니다. 고객 만족{4} 위해 최선{4} 다하겠습니다.\n(We wish to provide better service. We will do our best for customer satisfaction.)",a:["은","를","고","을"],opts:["은","를","고","을","이","에","는","의"],hint:"Better (modifier). Object. Formal purpose. Object (x2)."},
 ]},
 
 // ── L5: 학생으로서 — -(으)로서 ──
@@ -6090,6 +6102,12 @@ export default [
 {type:"fb",s:"리더{1} 중요한 {2}을 했습니다.\n(As a leader, I played an important role.) (written)",a:["로서","역할"],opts:["로서","역할","로","책임","에서","결과"],hint:"Role marker after vowel. Act-divide compound."},
 {type:"mc",q:"이 분야의 전문가로서 기여하고자 합니다.\n(As an expert in this field, I intend to contribute.)\nB2 patterns used:",opts:["Two: -(으)로서 (role) + -고자 (formal purpose)","One: -(으)로서 only","Two: -(으)로서 + -(으)며","Three: -(으)로서 + -고자 + -(으)므로"],ans:"Two: -(으)로서 (role) + -고자 (formal purpose)",hint:"Role marker + formal purpose. Two B2 patterns from this unit."},
 {type:"drag_fill",s:"신입사원{1} 최선을 다하{2} {3} 발전에 기여하겠습니다.\n(As a new employee, I will do my best and contribute to the company's development.) (written)",blanks:{"1":"으로서","2":"며","3":"회사"},pool:["으로서","며","회사","으로","고","팀"],hint:"Role marker. Written 'and'. The organization you work for."},
+
+{type:"mc",q:"학생으로서 열심히 공부해야 해요.\nA1 학생 means?\n(As a student, you must study hard.)",opts:["학생 = student (A1 basic noun)","학생 = teacher","학생 = worker","학생 = doctor"],ans:"학생 = student (A1 basic noun)",hint:"A1 person/role vocabulary."},
+{type:"fb",s:"직원{1}로서 책임{2} 다하겠습니다. 한국인{1}로서 자랑스러{3}요.\n(As an employee, I will fulfill my responsibilities. As a Korean, I am proud.)",a:["으","을","워"],opts:["으","을","워","이","를","운","에","의"],hint:"As-a (role). Object. Adjective polite."},
+{type:"mc",q:"-(으)로서 (role) vs -(으)로 (means):\n선생님으로서 말씀드립니다. (As a teacher, I tell you.)\n이메일로 보내세요. (Send by email.)\nKey difference?\n(Role vs means.)",opts:["로서 = in the capacity of; 로 = by means of / using","Same meaning","로서 = using; 로 = role","Both mark role"],ans:"로서 = in the capacity of; 로 = by means of / using",hint:"로서 = what you ARE. 로 = what you USE."},
+{type:"fb",s:"부모{1}로서 아이{2} 교육{3} 신경 써야 해요. 리더{1}로서 결정{4} 내려야 해요.\n(As a parent, must care about children's education. As a leader, must make decisions.)",a:["으","의","에","을"],opts:["으","의","에","을","이","를","는","가"],hint:"As-a. Possessive. About/for. Object."},
+{type:"drag_fill",s:"-(으)로서: as a {1} (identity).\n-(으)로: by {2} of (tool/method).\nA1 에서: at/from {3}.\n(Three similar-sounding particles.)",blanks:{"1":"role","2":"means","3":"location"},pool:["role","means","location","time","cause","person"],hint:"로서=capacity. 로=instrument. 에서=place."},
 ]},
 
 // ── L6: 포함과 수단 — -을 통해(서), -을 비롯한 ──
@@ -6111,6 +6129,11 @@ export default [
 {type:"fb",s:"마케팅{1} 비롯한 다양한 분야에서 경력을 쌓았습니다.\n(I built experience in various fields including marketing.) (written)",a:"을",opts:["을","를","과","에"],hint:"Object marker before 비롯한. 마케팅 ends in a consonant."},
 {type:"drag_fill",s:"인턴 경험{1} 통해 {2} 능력을 키우{3} 성과를 거두었습니다.\n(Through intern experience, I developed practical skills and achieved results.) (written)",blanks:{"1":"을","2":"실무","3":"며"},pool:["을","실무","며","를","이론","고"],hint:"Object marker (consonant). Real-work compound. Written 'and'."},
 {type:"mc",q:"프로젝트를 비롯한 여러 경험을 통해 성장했습니다.\n(I grew through various experiences including projects.)\nB2 patterns:",opts:["Two: -을 비롯한 (including) + -을 통해 (through)","One: -을 통해 only","Three: -을 비롯한 + -을 통해 + -(으)며","Two: -을 통해 + -(으)므로"],ans:"Two: -을 비롯한 (including) + -을 통해 (through)",hint:"Both formal expressions in one sentence. Two B2 patterns."},
+
+{type:"fb",s:"인터넷{1} 통해 정보{2} 얻었어요. 한국{3} 비롯{4} 여러 나라에서 인기예요.\n(Got information through the internet. Popular in several countries including Korea.)",a:["을","를","을","한"],opts:["을","를","을","한","이","에","는","하"],hint:"Object (through). Object. Object (including). Modifier."},
+{type:"mc",q:"-을 통해(서) = through/via.\nB1 -(으)로 also means 'by means of'.\nDifference?\n(Two 'through' patterns.)",opts:["통해 = formal 'through a channel'; 로 = casual 'using'","Same meaning","통해 is casual","로 is more formal"],ans:"통해 = formal 'through a channel'; 로 = casual 'using'",hint:"통해=going through a process/channel. 로=simple means."},
+{type:"fb",s:"면접{1} 통해 능력{2} 평가합니다. 영어{3} 비롯{4} 여러 언어{5} 할 수 있어요.\n(We evaluate ability through interviews. I can speak several languages including English.)",a:["을","을","를","한","를"],opts:["을","을","를","한","를","이","에","는","하","의"],hint:"Object (through). Object. Object (including). Modifier. Object."},
+{type:"drag_fill",s:"-을 통해: {1} a process/channel.\n-을 비롯한: {2} X and others.\n-(으)로: {3} a tool/method.\n(Three formal patterns.)",blanks:{"1":"through","2":"including","3":"using"},pool:["through","including","using","despite","without","about"],hint:"통해=via. 비롯한=starting with. 로=by means of."},
 ]},
 
 // ── L7: 자기소개서 쓰기 — -ㄴ/는 한편 ──
@@ -6131,6 +6154,12 @@ export default [
 {type:"drag_fill",s:"{1}으로서 {2}을 다하{3} 회사 발전에 {4} 합니다.\n(As a new employee, I will fulfill my responsibilities and intend to contribute to the company's development.) (written)",blanks:{"1":"신입사원","2":"책임","3":"며","4":"기여하고자"},pool:["신입사원","책임","며","기여하고자","직원","역할","고","기여해서"],hint:"New employee (role). Duty-task. Written 'and'. Formal purpose + 합니다."},
 {type:"fb",s:"귀사에 기여하{1} 지원하{2} 풍부한 경력이 있{3} 적합하다고 생각합니다.\n(I apply to contribute to your company, and because I have rich experience, I believe I am suitable.) (written)",a:["고자","며","으므로"],opts:["고자","며","으므로","려고","고","어서"],hint:"Formal purpose. Written 'and'. Written 'because'."},
 {type:"mc",q:"How many U21 grammar patterns appear in:\n'전문가로서 기여하고자 실무 경험을 통해 역량을 키우며 성과를 거두었으므로 적합합니다.'",opts:["Five: 로서 + 고자 + 을 통해 + 며 + 므로","Three: 로서 + 며 + 므로","Four: 로서 + 고자 + 며 + 므로","Two: 로서 + 므로"],ans:"Five: 로서 + 고자 + 을 통해 + 며 + 므로",hint:"Role + purpose + through + written and + written because. Five B2 patterns in one sentence."},
+
+{type:"mc",q:"-ㄴ/는 한편 means 'while also / on the one hand'.\n공부하는 한편 아르바이트도 해요.\nA2 아르바이트 means?\n(While studying, I also work part-time.)",opts:["아르바이트 = part-time job (A2 loanword)","아르바이트 = vacation","아르바이트 = homework","아르바이트 = travel"],ans:"아르바이트 = part-time job (A2 loanword)",hint:"A2 German loanword for part-time work."},
+{type:"fb",s:"경험{1} 쌓{2} 한편 학업{3} 이어갔습니다. 실무{1} 배우{2} 한편 이론{3} 공부했습니다.\n(While building experience, continued academics. While learning practice, studied theory.)",a:["을","는","도"],opts:["을","는","도","이","은","에","를","의"],hint:"Object. Present modifier + 한편. Also."},
+{type:"mc",q:"Cover letter register: 며, 므로, 고자, 로서, 한편.\nAll are which register?\n(Five formal writing connectors.)",opts:["All formal/written register — never used in casual speech","All casual","Mixed register","Spoken only"],ans:"All formal/written register — never used in casual speech",hint:"These five patterns define B2 formal writing."},
+{type:"fb",s:"저{1} 성실하{2} 책임감{3} 강합니다. 팀원{4}로서 협력하{5}자 합니다.\n(I am diligent and have a strong sense of responsibility. As a team member, I wish to cooperate.)",a:["는","며","이","으","고"],opts:["는","며","이","으","고","을","에","는","의","를"],hint:"Topic. Written and. Subject. As-a. Formal purpose."},
+{type:"drag_fill",s:"Cover letter structure: intro + {1} + {2} + {3} + closing.\n(Standard self-introduction letter.)",blanks:{"1":"motivation (고자)","2":"qualifications (며/한편)","3":"role fit (로서)"},pool:["motivation (고자)","qualifications (며/한편)","role fit (로서)","salary request","vacation request","complaint"],hint:"Why applying. What you offer. How you fit."},
 ]},
 
 // ── L8: 면접 준비 (Interview Preparation) ──
@@ -6153,6 +6182,10 @@ export default [
 {type:"drag_fill",s:"{1}은 책임감이 강한 것이{2} {3}은 가끔 완벽주의적인 것입니다.\n(My strength is having a strong sense of responsibility, and my weakness is sometimes being perfectionist.)",blanks:{"1":"장점","2":"며","3":"단점"},pool:["장점","며","단점","포부","고","경력"],hint:"Long-point. Written 'and'. Short-point."},
 {type:"mc",q:"면접에서 합쇼체를 쓰는 이유는?\n(Why use 합쇼체 in interviews?)",opts:["It shows maximum respect to the interviewer","It is the only speech level","It is casual and friendly","Interviewers require it by law"],ans:"It shows maximum respect to the interviewer",hint:"합쇼체 is the highest everyday politeness level. Interviews demand it."},
 {type:"drag_fill",s:"다양한 프로젝트{1} 통해 {2}을 키우{3} 한편 외국어 {4}도 갖추었습니다.\n(Through various projects I developed competencies, while also acquiring foreign language skills.) (written)",blanks:{"1":"를","2":"역량","3":"는","4":"능력"},pool:["를","역량","는","능력","을","경력","며","실무"],hint:"Object marker. Power-measure. Present modifier for 한편. Ability word."},
+
+{type:"fb",s:"지원 동기{1} 말씀해 주시{2}습니까? 성장하{3}자 지원했습니다.\n(Could you tell us your motivation? I applied in order to grow.)",a:["를","겠","고"],opts:["를","겠","고","을","시","는","이","에"],hint:"Object. Humble-will. Formal purpose."},
+{type:"mc",q:"면접에서 합쇼체 is mandatory.\nB1 합쇼체 ending: -ㅂ니다/-습니다.\n해요체 ending: -아/어요.\nWhich is more formal?\n(Interview register.)",opts:["합쇼체 (-ㅂ니다) is the most formal spoken Korean","해요체 is more formal","Both are equal","Neither is formal"],ans:"합쇼체 (-ㅂ니다) is the most formal spoken Korean",hint:"합쇼체 = formal polite. Required in interviews."},
+{type:"fb",s:"최선{1} 다하겠습니다. 맡겨 주시{2} 후회하{3} 않으실 겁니다.\n(I will do my best. If you entrust me, you will not regret it.)",a:["을","면","지"],opts:["을","면","지","이","는","시","에","를"],hint:"Object (best). B1 conditional. Negation."},
 ]},
 
 // ── L9: 취업 문화 (Korean Work Culture) ──
@@ -6174,6 +6207,11 @@ export default [
 {type:"drag_fill",s:"{1} 경험을 통해 {2} 능력을 키우{3} 좋은 {4}을 찾겠습니다.\n(Through intern experience, I will develop practical skills and find a good workplace.) (written)",blanks:{"1":"인턴","2":"실무","3":"며","4":"직장"},pool:["인턴","실무","며","직장","공채","이론","고","회사"],hint:"Work experience type. Real-work. Written 'and'. Job-place."},
 {type:"mc",q:"MZ세대가 워라밸을 중시하는 이유는?\n(Why does the MZ generation value work-life balance?)",opts:["They prioritize personal life alongside career success","They do not want to work","They only care about salary","They prefer traditional work culture"],ans:"They prioritize personal life alongside career success",hint:"워라밸 = wanting both career AND personal fulfillment. Not avoiding work."},
 {type:"drag_fill",s:"{1}으로서 {2}을 다하{3} {4}도 중시하겠습니다.\n(As an employee, I will fulfill responsibilities while also valuing work-life balance.) (written)",blanks:{"1":"직원","2":"책임","3":"며","4":"워라밸"},pool:["직원","책임","며","워라밸","직장인","역할","고","스펙"],hint:"Employee role marker. Duty-task. Written 'and'. Work-life balance."},
+
+{type:"mc",q:"회식에서는 상사보다 먼저 먹으면 안 돼요.\nA2 먼저 means?\n(At company dinners, you shouldn't eat before the boss.)",opts:["먼저 = first / before (A2 time word)","먼저 = later","먼저 = together","먼저 = slowly"],ans:"먼저 = first / before (A2 time word)",hint:"A2 sequence/time vocabulary."},
+{type:"fb",s:"상사{1}게 존댓말{2} 써야 해요. 직급{3} 따라 호칭{4} 달라요.\n(Must use honorifics to superiors. Titles differ by position.)",a:["에","을","에","이"],opts:["에","을","에","이","를","는","가","의"],hint:"To-person. Object. Depending-on. Subject."},
+{type:"drag_fill",s:"Korean workplace: 회식 = company {1}. 상사 = {2}. 직급 = {3}. 존댓말 = {4}.\n(Work culture vocabulary.)",blanks:{"1":"dinner","2":"superior/boss","3":"rank/position","4":"honorific speech"},pool:["dinner","superior/boss","rank/position","honorific speech","party","colleague","salary","casual speech"],hint:"회식=dining together. 상사=above you. 직급=your level. 존댓말=polite form."},
+{type:"fb",s:"한국{1} 직장 문화{2} 위계적이에요. 선배{3}로서 후배{4} 도와야 해요.\n(Korean workplace culture is hierarchical. As a senior, you should help juniors.)",a:["의","는","로","를"],opts:["의","는","로","를","이","에","가","을"],hint:"Possessive. Topic. As-a (role). Object."},
 ]},
 
 // ── L10: 종합 평가 (Unit Assessment) ──
@@ -6196,6 +6234,10 @@ export default [
 {type:"drag_fill",s:"{1}으로서 기여하{2} {3} 경험{4} 통해 역량을 키우{5} 한편 자격증도 취득했습니다.\n(As a professional, I intend to contribute, and through diverse experience I developed competencies while also obtaining certifications.) (written)",blanks:{"1":"전문가","2":"고자","3":"다양한","4":"을","5":"는"},pool:["전문가","고자","다양한","을","는","직원","려고","여러","를","며"],hint:"Expert role. Formal purpose. Various (modifier). Object marker. Present modifier for 한편."},
 {type:"mc",q:"이 문장에 B2 문법이 몇 개 있어요?\n'실무 경험을 비롯한 다양한 역량을 갖추며 전문가로서 기여하고자 합니다.'\n(How many B2 patterns?)",opts:["Four: 비롯한, 며, 로서, 고자","Three: 비롯한, 며, 고자","Two: 며, 고자","Five: 비롯한, 며, 로서, 고자, 을 통해"],ans:"Four: 비롯한, 며, 로서, 고자",hint:"-을 비롯한 (including) + -(으)며 (written and) + -(으)로서 (role) + -고자 (purpose). Four patterns."},
 {type:"drag_fill",s:"인턴 경험{1} 통해 {2} 능력을 키웠{3} {4}이 풍부하{5} 적합합니다.\n(Through intern experience I developed practical skills, and because career experience is rich, I am suitable.) (written)",blanks:{"1":"을","2":"실무","3":"으며","4":"경력","5":"므로"},pool:["을","실무","으며","경력","므로","를","이론","고","이력서","서"],hint:"Object (consonant). Real-work. Written 'and' (consonant stem). Career experience. Written 'because' (vowel stem)."},
+
+{type:"fb",s:"경험{1} 풍부하{2} 열정적입니다. (cover letter)\n경험{3} 풍부하{4} 열정적이에요. (spoken)\n(Experienced and passionate. [formal vs casual])",a:["이","며","이","고"],opts:["이","며","이","고","을","므로","가","어"],hint:"Subject. Written-and. Subject. Casual-and."},
+{type:"mc",q:"Transform: 바쁘니까 못 가요. (casual)\n→ 바쁘므로 참석이 어렵습니다. (formal)\nHow many elements changed?\n(Casual to formal register transformation.)",opts:["3: 니까→므로, 못 가요→참석이 어렵습니다, casual→합쇼체","1 change","2 changes","4 changes"],ans:"3: 니까→므로, 못 가요→참석이 어렵습니다, casual→합쇼체",hint:"Cause connector + vocabulary + speech level all change."},
+{type:"drag_fill",s:"Casual → Formal:\n-고 → {1}. -니까 → {2}. -려고 → {3}. -(으)로 → {4}.\n(Register transformation pairs.)",blanks:{"1":"-(으)며","2":"-(으)므로","3":"-고자","4":"-(으)로서"},pool:["-(으)며","-(으)므로","-고자","-(으)로서","-(으)면","-지만","-는데","-거든요"],hint:"And→written and. Because→written because. Intend→formal intent. Means→as-a-role."},
 ]},
 
 ]},
