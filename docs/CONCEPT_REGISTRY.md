@@ -2,7 +2,7 @@
 
 > Machine-searchable index of all grammar patterns, vocabulary domains, and concept locations.
 > Check HERE before grepping data files. If a pattern is in this registry, it exists in the code.
-> Last updated: 2026-03-15 (U1-U20, ~816 teach cards, ~209 lessons)
+> Last updated: 2026-03-15 (U1-U20, ~830+ teach cards, ~209 lessons, post-D93 A1-A2 audit)
 
 ---
 
@@ -102,6 +102,7 @@
 | -(으)니까 | because/since (subjective) | U11 | teach (grammar) |
 | -지만 | but/however | U6 | tip, teach |
 | 때문에 | because of (noun) | U8 | teach (grammar) |
+| -기 때문에 | because of (verb form, formal) | U8 | teach (grammar) |
 | 그래서 | so/therefore | U7, U13 | teach (grammar) |
 | 그런데 | but/by the way/however | U13 | teach (grammar) |
 | 그러면 | then/in that case | U13 | teach (grammar) |
@@ -164,8 +165,12 @@
 | Noun modifiers (future) | -(으)ㄹ | U18 | tip |
 | -더라고요 | evidential (I noticed/found) | U19 | tip |
 | -나 보다 | it seems/I guess | U19 | teach (grammar) |
+| -(으)ㄹ 수밖에 없다 | can't help but / no choice | U17 | teach (grammar) |
+| -(으)ㄹ 뻔하다 | almost did / nearly happened | U20 | teach (grammar) |
 | 생각보다 | more than expected | U10 | teach (grammar) |
 | 것 같아요 | I think/it seems (softener) | U10 | tip |
+| 자기/자신 | self / oneself (reflexive) | U10 | teach (word) |
+| 아무 | any-/no- (prefix) | U13 | teach (word) |
 
 ### Speech Levels
 
@@ -194,7 +199,7 @@
 | Taste | U4 | 맛있다, 맛없다, 맵다, 달다, 짜다, 싱겁다, 쓰다 |
 | Family | U5 | 할아버지/할머니, 아버지/아빠, 어머니/엄마, 형/오빠/누나/언니 |
 | Adjectives | U5 | 크다, 작다, 귀엽다, 나쁘다, 많다, 적다, 빠르다, 느리다 |
-| Colors | U5 | 빨간색, 파란색, 노란색, 초록색, 하얀색, 검은색 |
+| Colors | U5 | 빨간, 파란, 하얀, 검은, 노란 (modifier forms, teach cards) + 색 forms in tip |
 | Transport | U6 | 지하철, 버스, 기차, KTX, 택시, 비행기, 자전거 |
 | Location/Direction | U6 | 위, 아래, 앞, 뒤, 옆, 안, 밖, 사이 |
 | Weather | U6 | 덥다, 춥다, 맑다, 흐리다 |
@@ -210,6 +215,7 @@
 | Health/Illness | U8 | 아프다, 감기, 병원, 약, 쉬다 |
 | Future/Plans | U9 | 내일, 다음 주, 이번 주말, 나중에, 언젠가 |
 | Daily Routines | U10 | 일어나다, 씻다, 출근하다, 퇴근하다, 일하다 |
+| Reflexive | U10 | 자기/자신 (self/oneself), 자기 소개 (self-introduction) |
 | Housing | U10 | 원룸, 오피스텔, 아파트 |
 
 ### U11-U20 (B1)

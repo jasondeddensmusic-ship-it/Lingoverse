@@ -9,7 +9,8 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
-| D93 | A1-A2 Full Quality Audit | Audit | Korean |
+| D94 | Korean B2 Curriculum Kickoff | Content/Architecture | Korean |
+| D93 | A1-A2 Full Quality Audit (7 rounds) | Audit | Korean |
 | D1 | Arabic: Diagram-First Intro Card | Content | Arabic |
 | D2 | Korean: No Full Sentences Before Script | Content | Korean |
 | D3 | Anti-Leak Validator | Engine | All |
@@ -125,7 +126,7 @@ D32, D37
 D11, D35d, D69
 
 ### Korean Curriculum
-D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92
+D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94
 
 ### Korean Engine Features
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
@@ -146,7 +147,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93
 
 ---
 
@@ -177,17 +178,33 @@ Complete B1 (U11-U20) audit across 14 commit rounds. Fixed: ~50 P8 hint-reveals,
 
 ## D93: A1-A2 Full Quality Audit (2026-03-15)
 
-Complete A1-A2 (U1-U10) audit against CEFR A1/A2, TOPIK I, and TTMIK L1-4. Verified: all 34 CEFR A1 grammar constructs, 17 vocabulary domains, 50 TTMIK items, 57 TOPIK I patterns. Gaps found and fixed across 6 commit rounds:
+Complete A1-A2 (U1-U10) audit against CEFR A1/A2, TOPIK I, and TTMIK L1-4. Verified: all 34 CEFR A1 grammar constructs, 17 vocabulary domains, 15 communicative functions, 57 TOPIK I patterns. Gaps found and fixed across 7 commit rounds:
 - **Round 1** (bea78d3): 어떤, -(으)ㄹ 때, -는 중이다 teach cards + 3 pipeline fixes.
 - **Round 2** (5756746): 52 pipeline issues (P8/D90/P44) + -(으)ㄹ게요 TOPIK gap.
 - **Round 3** (6861a44): 화나다 (emotion vocab), 아무 (TTMIK L4 prefix), -(으)ㄹ 뻔하다 (TTMIK L4).
 - **Round 4** (59e3386): 5 color teach cards (빨간/파란/하얀/검은/노란) to fix tip that said "You know" colors never taught.
 - **Round 5** (e1602fe): -기 때문에 (formal "because"), -(으)ㄹ 수밖에 없다 ("can't help but") from TTMIK agent findings.
-- **Round 6**: 자기/자신 (reflexive pronoun "self") teach card added to U10L7. TTMIK L2-15 item, verified genuinely missing via grep (zero hits for 자신, only false positive 자기 = 자다+-기 nominalization).
+- **Round 6** (8362d3c): 자기/자신 (reflexive pronoun "self") teach card added to U10L7. TTMIK L2-15 item, verified genuinely missing via grep.
+- **Round 7** (9e13237): 아래/밑, 앞, 뒤 (spatial position words) teach cards added to U6L4.2. CEFR agent found "8-position set" tip listed 8 words but only 4 had teach cards.
+
+**Final coverage**: CEFR A1 34/34, CEFR A1 Vocab 17/17, TOPIK I 57/57, TTMIK L1 30/30, L2 29/30, L3 20/20, L4 11/11.
 
 **Design decisions confirmed (not gaps)**: Past tense in A2 U7 (not A1), future tense in A2 U9, body parts in A2 U8, comparatives in B1 U12. Korean A1 focuses on particles + present tense; A2 adds tenses + conditions. This mirrors TTMIK and standard Korean pedagogy.
 
 **Deferred to B2 (not A1-A2 scope)**: 뿐 (formal "only"), 마저/조차 (emphatic "even"), -(으)ㄹ 정도로 (to the extent), 얼마든지 (as much as you want).
+
+## D94: Korean B2 Curriculum Kickoff (2026-03-15)
+
+Korean A1-B1 is fully audited and verified. B2 curriculum (U21-U30) begins. B2 targets TOPIK 4 / CEFR B2 / TTMIK L5-9. Key parameters:
+- **Units**: U21-U30 (10 units, continuing the v1 track)
+- **Target lessons**: ~100-120 (10-12 per unit)
+- **Target steps**: ~2,000-2,500 (20-25 per lesson per P43)
+- **Grammar scope**: Advanced connectors, formal written Korean, advanced honorifics, proverbs/idioms, passive/causative deepening, complex nominalization, TOPIK essay structure
+- **B2 seeds already planted in B1**: U20L10 deepDive previews -(으)ㄴ/는 반면에, -고자, -(으)ㄹ 뿐만 아니라, -는 바람에, -(으)ㄹ 정도로
+- **Items deferred from A1-A2 audit**: 뿐, 마저/조차, -(으)ㄹ 정도로, 얼마든지 — must be placed in B2
+- **Items deferred from B1 gap plan Tier 3**: -(으)ㄹ 뻔했다 (already added in A1-A2 audit round 3 to U20), -지요/-죠, -(이)라도, 대신에, -기는 하다
+- **Pipeline**: All rules P8-P56, D58, D89-D93 apply. P46 multi-construct density is MANDATORY. B2 should be stricter than B1.
+- **References**: TOPIK II (levels 3-4), TTMIK L5-9, Korean Grammar in Use Intermediate, Integrated Korean Intermediate 1-2
 
 ---
 

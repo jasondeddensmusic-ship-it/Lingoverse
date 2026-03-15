@@ -224,41 +224,30 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
-- A1 (Units 1-6): COMPLETE, all A1 gap items added (못, -지만, spatial words, adverbs, colors, connectors)
-- A2 (Units 7-10): COMPLETE (U7 Past Tense, U8 Health/Conditional, U9 Future/Speech Levels, U10 Daily Life/반말)
-- B1 (Units 11-20): COMPLETE + DENSITY UPLIFT DONE (106 lessons, 2,252 steps, all 20+ per P43)
-  - U11: Travel/KTX, progressive, ㅎ-irregular (12 lessons, avg 20.1 steps)
-  - U12: Hobbies, comparatives, ㅅ-irregular (11 lessons, avg 20.6 steps)
-  - U13: Connectors, -는데/-거든요/-네요, 르-irregular (11 lessons, avg 20.0 steps)
-  - U14: Workplace, obligation/permission/purpose (10 lessons, avg 20.0 steps)
-  - U15: Education, benefactive -아/어 주다, -게 되다 (10 lessons, avg 20.5 steps)
-  - U16: Internet/SNS, indirect speech, honorifics (9 lessons, avg 22.3 steps)
-  - U17: News, passive/causative, double past (11 lessons, avg 22.7 steps)
-  - U18: Food, -기 nominalization, noun modifiers (9 lessons, avg 23.1 steps)
-  - U19: Relationships, -더라고요 evidential, register switching (11 lessons, avg 20.0 steps)
-  - U20: Consolidation + B1 assessment (12 lessons, avg 23.3 steps)
-  - All 12 seed registry harvests complete
-- 20 units, ~209 lessons total (A1: 64+2, A2: 38+2, B1: 93+10), ~4,635 steps
-- **B1 density uplift (D88, 2026-03-15)**: All 106 B1 lessons upgraded from avg 14.3 to avg 21.2 steps. Was 64% critical (<15 steps), now 0% critical. ~967 new multi-construct quiz steps added per P46 (2+ grammar patterns per step from different units). Syntax validated: zero broken strings, balanced braces/brackets.
-- B1 quality audit (2026-03-14): 28 duplicate teach cards removed, ~250 translations added, 6 hint-reveal fixes.
-- A1-A2 quality audit: ~570 issues found (2026-03-14), see `docs/KOREAN_QUALITY_AUDIT.md`
-- A1 gap checklist: 34/34 items present. All 17 CEFR A1 domains covered.
+- A1 (Units 1-6): COMPLETE + FULLY AUDITED (D93). CEFR A1 34/34 grammar, 17/17 vocab domains, 15/15 communicative functions.
+- A2 (Units 7-10): COMPLETE + FULLY AUDITED (D93). TOPIK I 57/57, TTMIK L1-L4 90/92 (2 deferred to B2).
+- B1 (Units 11-20): COMPLETE + DENSITY UPLIFT (D88) + FULLY AUDITED (D92, 14 rounds).
+  - 106 lessons, 2,252 steps, all 20+ per P43 (avg 21.2)
+  - All 12 seed registry harvests complete. All 6 irregular verb families taught.
+  - 25+ grammar patterns, 200+ vocabulary words, 10 cultural anchors.
+- **A1-A2 Full Quality Audit (D93, 2026-03-15)**: 7 commit rounds. Verified against CEFR A1/A2, TOPIK I, TTMIK L1-4.
+  - Round 1: 어떤, -(으)ㄹ 때, -는 중이다 teach cards + 3 pipeline fixes.
+  - Round 2: 52 pipeline issues (P8/D90/P44) + -(으)ㄹ게요 TOPIK gap.
+  - Round 3: 화나다 (emotion vocab), 아무 (TTMIK L4 prefix), -(으)ㄹ 뻔하다 (TTMIK L4).
+  - Round 4: 5 color teach cards (빨간/파란/하얀/검은/노란).
+  - Round 5: -기 때문에, -(으)ㄹ 수밖에 없다 from TTMIK agent.
+  - Round 6: 자기/자신 (reflexive pronoun) in U10L7.
+  - Round 7: 아래/밑, 앞, 뒤 (spatial position words) in U6L4.2.
+  - Design decisions confirmed: Past tense in A2 U7, future in A2 U9, body parts in A2 U8, comparatives in B1 U12.
+  - Deferred to B2: 뿐, 마저/조차, -(으)ㄹ 정도로, 얼마든지.
+- **B1 Full Quality Audit (D92, 2026-03-15)**: 14 commit rounds. ~50 P8 fixes, 6 engine \n bugs, 5 P34 violations, ~15 translations, 3 D90 reframes.
 - **TOPIK/TTMIK gap plan: EXECUTED (2026-03-14)**. All 6 sprints complete. TTMIK L1-6 coverage ~90-95%.
-  - Sprint 1: A1 patch (question words, -만, 죄송합니다 in U2-U5)
-  - Sprint 2: A2 unlocks (-(으)ㄹ래요, -(으)ㄹ까요, -한테서 in U9-U10)
-  - Sprint 3: B1 connectors (-(으)ㄴ 후에, -(으)ㄴ 적이 있다, -자마자, -아/어도, -(으)려면)
-  - Sprint 4: B1 enrichment (-(으)러 가다, -아/어지다, -게, -다가, N밖에, -잖아요, -나 보다, -(으)ㅂ시다, narrative tense)
-  - Sprint 5: B1 density uplift (~30 multi-construct exercises added to U17-U20)
-  - Sprint 6: Vocabulary domain patches (animals, sports, school, clothing, degree adverbs)
-  - 14 new lessons, ~315 new steps. All Tier 1 (11) + Tier 2 (8) gaps filled.
-  - See `docs/KOREAN_CURRICULUM_GAP_PLAN.md` for full details.
-  - **Lesson learned (D80)**: Initial audit had 25% false-positive rate because agents compared references against CLAUDE.md descriptions instead of grep-ing actual code. All future audits MUST grep data files first.
-- **REMAINING B1 QUALITY ITEMS** (lower priority, not blocking B2):
-  - 37 P8 hint-reveals in B1: mostly grammar pattern names appearing in hints (e.g., answer is "-자마자" and hint explains what -자마자 means). Borderline, not egregious leaks. Pre-existing from original content.
-  - P44 lazy hints: 12 in A1/A2 content (none in B1 after density uplift).
-  - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text — not yet investigated.
-  - A1-A2 quality audit fixes (~570 issues) still pending.
-- **NEXT ACTION**: B2 curriculum planning (U21-U30). B1 is solid — density, gaps, and quality all addressed.
+- 20 units, ~209 lessons total, ~4,700+ steps (after all audit additions)
+- **REMAINING QUALITY ITEMS** (lower priority, not blocking B2):
+  - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
+  - P44 lazy hints: 12 in A1/A2 content.
+  - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
+- **NEXT ACTION**: B2 curriculum design and build (U21-U30). All A1-B1 audits COMPLETE.
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -277,7 +266,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B1 DONE + TOPIK/TTMIK gap plan DONE + B1 density uplift DONE (all 106 lessons 20+ steps). Next: B2 curriculum (U21-U30).
+1. **Korean** - A1-B1 FULLY AUDITED (D92+D93) + density uplift DONE. All CEFR/TOPIK/TTMIK verified. Next: **B2 curriculum (U21-U30)**.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
@@ -338,8 +327,9 @@ Every session should understand what each doc does and which ones are authoritat
 
 ### Tier 2: Active reference (current for their scope)
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable index of all Korean grammar patterns, vocabulary domains, and teach/tip locations. Check HERE before grepping data files. Updated per language.
-- **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D87+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
-- **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors.
+- **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D94+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
+- **`docs/KOREAN_B2_HANDOFF.md`** — **B2 BUILDER: START HERE.** Complete handoff briefing for building U21-U30. Grammar scope, unit structure, seeds, pipeline rules, quality standards.
+- **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. B2 design should follow this template.
 - **`docs/KOREAN_CURRICULUM_GAP_PLAN.md`** — TOPIK/TTMIK gap plan (v2, code-verified). All 6 sprints EXECUTED. Use as reference for what was added and where.
 - **`docs/KOREAN_QUALITY_AUDIT.md`** — A1-A2 quality audit. 7 fix batches. Active TODO for remaining fixes.
 
