@@ -8192,11 +8192,11 @@ function LearnPage({lang,baseLang="en",user,setUser,addXp,learnWord,showToast,ad
     const unitLessons=selUnit?.lessons||[];
     const curIdx=unitLessons.findIndex(l=>l.id===selLesson.id);
     const nextUnitLesson=curIdx>=0&&curIdx+1<unitLessons.length?unitLessons[curIdx+1]:null;
-    return <LessonEngine lesson={selLesson} baseLang={baseLang} lang={lang} addFlag={addFlag} unit={selUnit} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}
+    return <LessonErrorBoundary onBack={()=>setView("lesson")}><LessonEngine lesson={selLesson} baseLang={baseLang} lang={lang} addFlag={addFlag} unit={selUnit} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}
       onBack={()=>setView("lesson")}
       onComplete={()=>{completeLesson(selUnit,selLesson);}}
       onContinue={nextUnitLesson?()=>{completeLesson(selUnit,selLesson);setSelLesson(nextUnitLesson);}:null}
-    />;
+    /></LessonErrorBoundary>;
   }
   if(view==="lesson"&&selUnit) return <LessonList unit={selUnit} user={user} lang={lang} onBack={()=>{setView("map");setSelUnit(null);}} onStart={ls=>{setSelLesson(ls);setView("exercise");}}/>;
 
@@ -9237,7 +9237,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
       return null;
     };
     const nextLesson=getNextLesson();
-    return <LessonEngine
+    return <LessonErrorBoundary onBack={()=>{setRunning(false);setSelLesson(null);}}><LessonEngine
       lesson={selLesson}
       baseLang={baseLang}
       lang={lang}
@@ -9251,7 +9251,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
       onBack={()=>{setRunning(false);setSelLesson(null);}}
       onComplete={()=>{completeFpLesson(selLesson);}}
       onContinue={nextLesson?()=>{completeFpLesson(selLesson);setSelLesson(nextLesson);}:null}
-    />;
+    /></LessonErrorBoundary>;
   }
 
   // Lesson list for a stage
@@ -9752,6 +9752,23 @@ const ScoreCircle=({percentage,size=80})=>{
     </div>
   </div>;
 };
+
+class LessonErrorBoundary extends React.Component{
+  constructor(props){super(props);this.state={hasError:false,error:null};}
+  static getDerivedStateFromError(error){return{hasError:true,error};}
+  componentDidCatch(error,info){if(typeof console!=="undefined")console.error("[LessonEngine crash]",error,info);}
+  render(){
+    if(this.state.hasError){
+      return React.createElement("div",{style:{textAlign:"center",padding:40}},
+        React.createElement("h2",{style:{fontSize:22,fontWeight:700,marginBottom:12,color:"#7B5EE8"}},"Something went wrong"),
+        React.createElement("p",{style:{fontSize:15,color:"#888",marginBottom:20}},"The lesson encountered an error. Your progress is saved."),
+        React.createElement("button",{onClick:()=>{this.setState({hasError:false,error:null});if(this.props.onBack)this.props.onBack();},
+          style:{fontSize:15,padding:"12px 28px",borderRadius:14,fontWeight:700,cursor:"pointer",color:"white",border:"none",background:"#7B5EE8"}},"Back to lessons")
+      );
+    }
+    return this.props.children;
+  }
+}
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
   const dk=document.documentElement.classList.contains("dark");
@@ -11270,7 +11287,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   // ── LETTER / WORD / IDIOM cards ──
   // Helper: render letter examples with Hangul purple, operators gray
-  const showInContext = teachKind==="word"||teachKind==="idiom"||teachKind==="grammar"; // letters and info don't get "In Context"
+  const showInContext = teachKind==="word"||teachKind==="idiom"||teachKind==="grammar"||teachKind==="phrase"; // letters and info don't get "In Context"
   const isDialogueEx = /[AB]:\s/.test(st.example||""); // dialogue examples render as standalone iOS bubbles
   const showEmoji = teachKind==="word"||teachKind==="idiom"; // letters don't show emoji icon
   const isScript = /[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/.test(st.nl); // Korean/Arabic/CJK = script mode (NOT Latin diacritics like ë, ü, é)
