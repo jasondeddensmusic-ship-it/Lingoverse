@@ -6229,6 +6229,10 @@ export default [
 {type:"drag_fill",s:"{1}을 말하고 {2}를 제시하며 {3}을 내야 합니다.\n(You must state your opinion, present evidence, and reach a conclusion.)",blanks:{"1":"의견","2":"근거","3":"결론"},pool:["의견","근거","결론","주장","찬성","반대"],hint:"Personal view first. Supporting facts. Then wrap up."},
 {type:"mc",q:"악플 vs 선플 in Korean internet culture:\n(Malicious vs positive comments)",opts:["악 = evil, 선 = good: negative vs positive online comments","악 = strong, 선 = weak: different comment styles","Both mean the same thing","악 = anonymous, 선 = named"],ans:"악 = evil, 선 = good: negative vs positive online comments",hint:"악(evil/惡) + 플(reply). 선(good/善) + 플(reply). Korean internet culture."},
 {type:"drag_fill",s:"{1}하는 사람도 있고 {2}하는 사람도 있{3} {4}을 내기 어렵습니다.\n(Some agree and some oppose, and it is hard to reach a conclusion.)",blanks:{"1":"찬성","2":"반대","3":"어서","4":"결론"},pool:["찬성","반대","어서","결론","의견","주장","으며","근거"],hint:"Agreement. Opposition. Casual because. Tie-discuss word."},
+
+{type:"fb",s:"저{1} 찬성해요. 근거{2} 충분해요. 반대 의견{3} 있{4}세요?\n(I agree. The evidence is sufficient. Do you have an opposing opinion?)",a:["는","가","이","으"],opts:["는","가","이","으","를","는","도","에"],hint:"Topic (I). Subject. Subject. Honorific."},
+{type:"mc",q:"주장하다 vs 의견: one is a VERB, one is a NOUN.\n그의 주장은 틀려요.\n제 의견은 달라요.\nA1 은/는 marks?\n(Claim vs opinion.)",opts:["은/는 = topic marker (A1 basic particle)","은/는 = subject","은/는 = object","은/는 = location"],ans:"은/는 = topic marker (A1 basic particle)",hint:"A1 topic marker on both nouns."},
+{type:"fb",s:"이 문제{1} 대해 어떻{2} 생각하세요? 찬성{3} 반대{4}?\n(What do you think about this issue? For or against?)",a:["에","게","이에요","예요"],opts:["에","게","이에요","예요","를","는","인가요","인데요"],hint:"About/regarding. How. Copula. Copula."},
 ]},
 
 // ── L2: 반면에 (On the Other Hand) — HARVEST ──
@@ -6250,6 +6254,11 @@ export default [
 {type:"drag_fill",s:"{1}은 문법이 어렵{2} 반면에 {3}은 규칙적입니다.\n(Korean grammar is difficult, whereas pronunciation is regular.)",blanks:{"1":"한국어","2":"은","3":"발음"},pool:["한국어","은","발음","영어","는","문법"],hint:"The language. Descriptive modifier. The pronunciation word."},
 {type:"fb",s:"이 회사는 {1}이 좋{2} 반면에 {3}이 낮습니다.\n(This company has good benefits, whereas salary is low.)",a:["복지","은","연봉"],opts:["복지","은","연봉","스펙","는","경력"],hint:"Benefits/welfare. Descriptive modifier. Yearly pay."},
 {type:"mc",q:"경력이 풍부하며 역량이 뛰어난 반면에 자격증이 부족합니다.\nHow many B2 patterns?",opts:["Two: -(으)며 (written and) + 반면에 (whereas)","One: 반면에 only","Three: -(으)며 + 반면에 + -(으)므로","Two: -(으)며 + -(으)므로"],ans:"Two: -(으)며 (written and) + 반면에 (whereas)",hint:"Written 'and' lists two positives. 반면에 contrasts with the negative."},
+
+{type:"mc",q:"도시는 편리한 반면에 시골은 조용해요.\nA1 도시/시골 means?\n(City is convenient while countryside is quiet.)",opts:["도시 = city, 시골 = countryside (A1 place vocab)","도시 = school, 시골 = home","Both mean city","Both mean house"],ans:"도시 = city, 시골 = countryside (A1 place vocab)",hint:"A1 location vocabulary."},
+{type:"fb",s:"한국어{1} 문법{2} 어려{3} 반면에 발음{4} 규칙적이에요.\n(Korean grammar is difficult while pronunciation is regular.)",a:["는","이","운","은"],opts:["는","이","운","은","의","가","어","를"],hint:"Topic. Subject. Modifier (difficult). Topic (contrast)."},
+{type:"drag_fill",s:"반면에: A is X, {1} B is Y.\n-지만: A, {2} B. (simpler)\n-는데: A (background), {3} B.\n(Three contrast patterns by level.)",blanks:{"1":"on the other hand","2":"but","3":"and/but"},pool:["on the other hand","but","and/but","because","although","therefore"],hint:"반면에=formal contrast. 지만=A2 but. 는데=B1 background."},
+{type:"fb",s:"온라인 쇼핑{1} 편리한 반면{2} 직접 볼 수 없{3} 단점{4} 있어요.\n(Online shopping is convenient but has the disadvantage of not seeing items directly.)",a:["은","에","는","이"],opts:["은","에","는","이","이","의","을","가"],hint:"Topic. Contrast. Inability modifier. Subject."},
 ]},
 
 // ── L3: 하긴 하지만 — -기는 하다 [HARVEST] + -기는(요) ──
@@ -6270,6 +6279,12 @@ export default [
 {type:"fb",s:"경험이 많{1} 많은데 적합한 자격증이 없습니다.\n(Experience IS plentiful, but there are no suitable certifications.)",a:"긴",opts:["긴","기는","지만","은"],hint:"Shortened concessive: 많기는 → 많긴. Casual admission."},
 {type:"mc",q:"이 정책은 효과적이기는 하지만 비용이 너무 높은 반면에 대안은 저렴합니다.\nB2 patterns used:",opts:["Two: -기는 하지만 (concessive) + 반면에 (contrast)","One: -기는 하지만 only","Three: -기는 + 반면에 + -(으)며","Two: -기는 + -(으)므로"],ans:"Two: -기는 하지만 (concessive) + 반면에 (contrast)",hint:"Concessive admission + contrastive 'whereas'. Two B2 patterns."},
 {type:"drag_fill",s:"찬성하{1} 하지만 {2}가 더 필요한 {3} {4}도 고려해야 합니다.\n(I DO agree, but more evidence is needed and the opposing view should also be considered.)",blanks:{"1":"기는","2":"근거","3":"반면에","4":"반대 의견"},pool:["기는","근거","반면에","반대 의견","지만","결론","어서","찬성"],hint:"Concessive. Evidence word. Contrastive. Opposition opinion."},
+
+{type:"mc",q:"맛있기는 한데 너무 비싸요.\nB1 -는데 here means?\n(It IS tasty, but it's too expensive.)",opts:["-는데 = background/but (B1 contrast connector)","는데 = because","는데 = and then","는데 = so"],ans:"-는데 = background/but (B1 contrast connector)",hint:"B1 multi-purpose connector, here used for contrast."},
+{type:"fb",s:"좋{1}는 하지만 너무 멀어요. 예쁘{1}는 해{2} 비싸요.\n(It IS good, but too far. It IS pretty, but expensive.)",a:["기","요"],opts:["기","요","는","어","은","ㄴ","이","를"],hint:"Nominalization (concessive). Polite ending."},
+{type:"mc",q:"-기는 하다 shortened to -긴 하다:\n맛있긴 한데 = 맛있기는 한데.\nWhat does this concession do in debate?\n(Shortened concessive form.)",opts:["Acknowledges opponent's point before countering","Fully agrees","Fully disagrees","Changes the topic"],ans:"Acknowledges opponent's point before countering",hint:"Yes, BUT... A powerful debate strategy."},
+{type:"fb",s:"공부하{1}는 하는데 성적{2} 안 올라요. 운동하{1}는 하지만 살{3} 안 빠져요.\n(I DO study, but grades don't improve. I DO exercise, but don't lose weight.)",a:["기","이","이"],opts:["기","이","이","는","가","을","에","의"],hint:"Concessive nominalization (x2). Subject (x2)."},
+{type:"drag_fill",s:"-기는 하다: {1} then counter.\n-기는(요): dismissive {2}.\n-긴: {3} spoken form.\n(Three forms of the concessive.)",blanks:{"1":"acknowledge","2":"denial","3":"shortened"},pool:["acknowledge","denial","shortened","agree","question","formal"],hint:"하다=but... 기는요=pfft. 긴=casual."},
 ]},
 
 // ── L4: 뿐만 아니라 (Not Only But Also) — HARVEST + -는데다가 ──
@@ -6290,6 +6305,12 @@ export default [
 {type:"drag_fill",s:"비가 {1}데다가 길도 {2} 반면에 집은 {3}.\n(It's raining and on top of that the road is slippery, whereas home is warm.)",blanks:{"1":"오는","2":"미끄러운","3":"따뜻합니다"},pool:["오는","미끄러운","따뜻합니다","와서","미끄럽고","따뜻해요"],hint:"Action verb modifier. Descriptive modifier. Formal ending."},
 {type:"mc",q:"이 정책은 효과적이기는 하지만 비용이 높을 뿐만 아니라 시간도 오래 걸립니다.\nB2 patterns count:",opts:["Two: -기는 하지만 (concessive) + 뿐만 아니라 (not only)","One: 뿐만 아니라 only","Three: -기는 + 뿐만 아니라 + 반면에","Two: -기는 + -(으)며"],ans:"Two: -기는 하지만 (concessive) + 뿐만 아니라 (not only)",hint:"Admits effectiveness, then stacks two negatives with 'not only but also'."},
 {type:"fb",s:"주장이 논리적일 {1} 아니라 근거도 충분합니다.\n(Not only is the argument logical, but evidence is also sufficient.)",a:"뿐만",opts:["뿐만","반면에","때문에","데다가"],hint:"Not only... but also. Stacking strengths."},
+
+{type:"mc",q:"한국어뿐만 아니라 일본어도 배워요.\nA1 도 means?\n(I study not only Korean but also Japanese.)",opts:["도 = also/too (A1 particle)","도 = only","도 = but","도 = from"],ans:"도 = also/too (A1 particle)",hint:"A1 addition particle."},
+{type:"fb",s:"가격{1} 비쌀 뿐만 아니라 품질{2} 나빠요. 여기{3} 맛있{4}데다가 싸요.\n(Not only is the price expensive, but quality is bad too. This place is tasty AND cheap.)",a:["이","도","는","는"],opts:["이","도","는","는","을","가","이","에"],hint:"Subject. Also (not just that). Topic. In-addition."},
+{type:"mc",q:"뿐만 아니라 vs -는데다가:\nBoth mean 'not only... but also'.\n뿐만 아니라 is more {___}. 는데다가 is more {___}.\n(Register comparison.)",opts:["뿐만 아니라 = formal/written; 는데다가 = spoken/casual","Same register","Both formal","Both casual"],ans:"뿐만 아니라 = formal/written; 는데다가 = spoken/casual",hint:"뿐만 아니라 in essays; 는데다가 in conversation."},
+{type:"fb",s:"비{1} 올 뿐만 아니라 바람{2} 불어요. 날씨{3} 나쁜데다{4} 길{2} 미끄러워요.\n(Not only is it raining, but it's windy. Weather is bad AND the road is slippery.)",a:["가","도","가","가"],opts:["가","도","가","가","이","는","을","에"],hint:"Subject. Also. Subject. In-addition."},
+{type:"drag_fill",s:"뿐만 아니라: not only A, {1} also B.\n-는데다가: A, {2} B on top.\nB1 -고: A {3} B.\n(Adding information patterns.)",blanks:{"1":"but","2":"and additionally","3":"and"},pool:["but","and additionally","and","or","yet","because"],hint:"뿐만아니라=formal addition. 는데다가=piling on. 고=simple and."},
 ]},
 
 // ── L5: 가정과 양보 — -다고 해도, -다고 해서 ──
@@ -6310,6 +6331,12 @@ export default [
 {type:"mc",q:"이 주장이 맞기는 하지만, 그렇다고 해서 다 찬성할 수 있는 것은 아닙니다.\nB2 patterns:",opts:["Two: -기는 하지만 (concessive) + -다고 해서 (rejective)","One: -다고 해서 only","Three: -기는 + -다고 해서 + 반면에","Two: -기는 + -(으)며"],ans:"Two: -기는 하지만 (concessive) + -다고 해서 (rejective)",hint:"First admits the claim is correct, then rejects the conclusion."},
 {type:"drag_fill",s:"{1}다고 해서 다 {2} 것은 아니{3} {4}다고 해도 노력은 중요합니다.\n(Just because it's difficult doesn't mean it's all impossible, and even if results are bad, effort is important.)",blanks:{"1":"어렵","2":"불가능한","3":"며","4":"결과가 나쁘"},pool:["어렵","불가능한","며","결과가 나쁘","쉽","좋은","고","시간이 없"],hint:"Difficult. Impossible. Written 'and'. Bad results (concessive)."},
 {type:"fb",s:"반대 의견이 많{1} 해도 근거가 충분하{2} 주장을 바꿀 필요는 없습니다.\n(Even if opposing opinions are many, because evidence is sufficient, there is no need to change the argument.)",a:["다고","므로"],opts:["다고","므로","어서","기에","지만","며"],hint:"Even if (concessive). Written because (formal)."},
+
+{type:"mc",q:"아무리 바쁘다고 해도 밥은 먹어야 해요.\nB1 -아/어야 하다 means?\n(No matter how busy you say you are, you must eat.)",opts:["-아/어야 하다 = must / have to (B1 obligation)","해야 하다 = want to","해야 하다 = used to","해야 하다 = might"],ans:"-아/어야 하다 = must / have to (B1 obligation)",hint:"B1 obligation pattern."},
+{type:"fb",s:"비싸{1}고 해도 품질{2} 좋{3}면 사요. 싸{1}고 해{2} 나쁘면 안 사요.\n(Even if it's expensive, I buy if quality is good. Just because it's cheap doesn't mean I buy bad stuff.)",a:["다","이","으","서"],opts:["다","이","으","서","는","가","어","을"],hint:"Quotative. Subject. B1 conditional. Just-because."},
+{type:"mc",q:"-다고 해도 (even if) vs -다고 해서 (just because):\n비가 온다고 해도 갈 거예요. (Even if it rains, I'll go.)\n비가 온다고 해서 안 가요? (Just because it rains, you won't go?)\nKey nuance?\n(Two contrastive quotatives.)",opts:["해도: determined despite; 해서: questioning the reasoning","Same meaning","해도 is casual; 해서 is formal","해서 shows determination"],ans:"해도: determined despite; 해서: questioning the reasoning",hint:"해도=even if so. 해서=is that reason enough?"},
+{type:"fb",s:"유명하{1}고 해서 다 좋{2} 건 아니에요. 모른{3}고 해도 배울 수 있어요.\n(Just because it's famous doesn't mean it's all good. Even if you don't know, you can learn.)",a:["다","은","다"],opts:["다","은","다","는","을","이","어","는"],hint:"Quotative. Modifier (all-good thing). Quotative."},
+{type:"drag_fill",s:"-다고 해도: even if X, {1} anyway.\n-다고 해서: just because X, doesn't mean {2}.\nB1 -아/어도: {3} form of 'even if'.\n(Three concessive patterns.)",blanks:{"1":"I will act","2":"Y follows","3":"simpler"},pool:["I will act","Y follows","simpler","I won't act","Y is true","formal"],hint:"해도=determination. 해서=logic challenge. 아/어도=basic even-if."},
 ]},
 
 // ── L6: 그렇죠? — -죠/-지요 [HARVEST] + -고 말고 ──
@@ -6330,6 +6357,12 @@ export default [
 {type:"fb",s:"이 주장이 맞{1} 하지만 반대 의견도 들어 봐야 하{2}.\n(This claim IS correct, but we should also listen to opposing views, right?)",a:["기는","죠"],opts:["기는","죠","지만","요","어서","네"],hint:"Concessive admission. Tag question for agreement."},
 {type:"mc",q:"A: 토론에서 근거가 중요하죠?\nB: 중요하고 말고요! 근거 없는 주장은 의미가 없습니다.\nB2 patterns in B's response:",opts:["Two: -고 말고요 (emphatic) + formal ending","One: -고 말고요 only","Three: -고 말고 + -(으)며 + -(으)므로","Two: -고 말고 + -반면에"],ans:"Two: -고 말고요 (emphatic) + formal ending",hint:"Emphatic agreement followed by a formal statement supporting the point."},
 {type:"drag_fill",s:"찬성하{1} 하지만 {2}가 더 필요하{3}. 당연하{4}.\n(I DO agree, but more evidence is needed, right? Obviously.)",blanks:{"1":"기는","2":"근거","3":"죠","4":"죠"},pool:["기는","근거","죠","죠","지만","의견","요","요"],hint:"Concessive. Evidence. Tag question x2."},
+
+{type:"mc",q:"한국어 어렵죠?\nA2 -지요 means?\n(Korean is hard, right?)",opts:["-지요/-죠 = right? / isn't it? (A2 confirmation)","죠 = because","죠 = but","죠 = and"],ans:"-지요/-죠 = right? / isn't it? (A2 confirmation)",hint:"A2 seeking agreement/confirmation."},
+{type:"fb",s:"이게 맞{1}? 그렇{2} 말{3}요! 당연하{4}!\n(This is right, isn't it? Of course it is! Naturally!)",a:["죠","고","고","죠"],opts:["죠","고","말","죠","지","요","다","은"],hint:"Confirmation. And-then. Emphatic agreement. Confirmation."},
+{type:"mc",q:"-고 말고(요) means 'of course!' in debate.\nHow is it used?\n(Emphatic agreement pattern.)",opts:["Strong agreement: absolutely, you bet!","Disagreement","Question","Uncertainty"],ans:"Strong agreement: absolutely, you bet!",hint:"말고요 = and then some! Very emphatic."},
+{type:"fb",s:"환경 보호{1} 중요하{2}? 중요하{3} 말{3}요!\n(Environmental protection is important, right? Of course it's important!)",a:["가","죠","고"],opts:["가","죠","고","이","지","어","는","다"],hint:"Subject. Confirmation. Emphatic agreement."},
+{type:"drag_fill",s:"-죠: seeking {1}.\n-고 말고요: emphatic {2}.\n-잖아요: you {3}, right? (B1)\n(Three agreement-seeking patterns.)",blanks:{"1":"confirmation","2":"agreement","3":"know"},pool:["confirmation","agreement","know","question","denial","forgot"],hint:"죠=right? 고 말고요=absolutely! 잖아요=as you know."},
 ]},
 
 // ── L7: 대신에 (Instead) — HARVEST + -걸(요) ──
@@ -6350,6 +6383,12 @@ export default [
 {type:"fb",s:"이 의견이 더 합리적{1}요.\n(This opinion is more rational, you know.)",a:"인걸",opts:["인걸","이지만","이어서","이면"],hint:"Mild assertion with descriptive: 합리적이다 → 합리적인걸요."},
 {type:"mc",q:"이 정책이 좋기는 하지만 대신에 비용이 높은걸요.\nB2 patterns:",opts:["Three: -기는 하지만 + 대신에 + -걸요","Two: -기는 하지만 + 대신에","Two: -기는 하지만 + -걸요","One: -기는 하지만 only"],ans:"Three: -기는 하지만 + 대신에 + -걸요",hint:"Concessive admission + instead + mild assertion. Three patterns."},
 {type:"drag_fill",s:"찬성하{1} 하지만 {2} {3} 아니라 {4}도 고려해야 하{5}.\n(I DO agree, but not only evidence but also alternatives should be considered, you know.)",blanks:{"1":"기는","2":"근거","3":"뿐만","4":"대안","5":"는걸요"},pool:["기는","근거","뿐만","대안","는걸요","지만","의견","반면에","결론","죠"],hint:"Concessive. Evidence. Not only. Alternative. Mild assertion."},
+
+{type:"mc",q:"고기 대신에 두부를 먹어요.\nA1 를/을 marks?\n(I eat tofu instead of meat.)",opts:["를/을 = object marker (A1 particle)","를/을 = subject","를/을 = location","를/을 = topic"],ans:"를/을 = object marker (A1 particle)",hint:"A1 object particle."},
+{type:"fb",s:"커피 대신{1} 차{2} 마셔요. 버스 대신{1} 지하철{3} 타요.\n(I drink tea instead of coffee. I take the subway instead of bus.)",a:["에","를","을"],opts:["에","를","을","이","은","가","는","의"],hint:"Instead-of. Object (x2)."},
+{type:"mc",q:"-(으)ㄴ/는걸(요): mild surprise or counter-evidence.\n맛있는걸요! = But it IS tasty!\nUsed in debate to?\n(Counter-evidence pattern.)",opts:["Provide evidence that counters the other person's claim","Fully agree","Ask a question","Change the topic"],ans:"Provide evidence that counters the other person's claim",hint:"는걸요 = but look, actually...!"},
+{type:"fb",s:"비싸{1}고 하지만 품질{2} 좋{3}걸요. 반대{4} 대신에 대안{5} 제시하세요.\n(You say it's expensive but the quality IS good. Instead of opposing, suggest alternatives.)",a:["다","이","은","하는","을"],opts:["다","이","은","하는","을","는","가","어","의","를"],hint:"Quotative. Subject. Counter-evidence. Modifier. Object."},
+{type:"drag_fill",s:"대신에: A {1} B.\n-(으)ㄴ/는걸요: but actually {2}!\nB1 -지만: A, {3} B.\n(Three debate tools.)",blanks:{"1":"instead of","2":"it IS X","3":"but"},pool:["instead of","it IS X","but","because of","it ISN'T","and"],hint:"대신=substitute. 는걸요=counter-evidence. 지만=simple contrast."},
 ]},
 
 // ── L8: 시나리오 — -다거나, -다고 치다 ──
@@ -6370,6 +6409,12 @@ export default [
 {type:"drag_fill",s:"그 의견이 맞{1} 해도 결론이 다를 수 있{2} 맞{3} 치더라도 근거가 부족합니다.\n(Even if that opinion is right, the conclusion may differ, and even if we suppose it's correct, evidence is insufficient.)",blanks:{"1":"다고","2":"으며","3":"는다고"},pool:["다고","으며","는다고","어서","고","는데"],hint:"Even if. Written 'and' (consonant stem). Hypothetical suppose."},
 {type:"mc",q:"토론에서 '비싸다거나 불편하다거나 하는 의견이 있지만 효과적이기는 합니다.'\nB2 patterns:",opts:["Two: -다거나 (listing) + -기는 하다 (concessive)","One: -다거나 only","Three: -다거나 + -기는 + 반면에","Two: -다거나 + -반면에"],ans:"Two: -다거나 (listing) + -기는 하다 (concessive)",hint:"Lists objections, then concedes effectiveness. Two patterns."},
 {type:"drag_fill",s:"{1}하{2}거나 {3}하{2}거나 {4}을 정하세요.\n(Whether you agree or oppose, decide your position.)",blanks:{"1":"찬성","2":"다","3":"반대","4":"입장"},pool:["찬성","다","반대","입장","의견","어","주장","는"],hint:"Agreement. Listing marker. Opposition. Position/stance."},
+
+{type:"mc",q:"운동한다거나 독서한다거나 취미가 뭐예요?\nA2 취미 means?\n(Like exercising or reading, what are your hobbies?)",opts:["취미 = hobby (A2 personal interest vocab)","취미 = job","취미 = food","취미 = place"],ans:"취미 = hobby (A2 personal interest vocab)",hint:"A2 personal vocabulary."},
+{type:"fb",s:"영화{1} 본{2}거나 음악{3} 듣{2}거나 해요. 성공한{4}고 치{5} 그 다음은?\n(I watch movies or listen to music, things like that. Suppose you succeeded, then what?)",a:["를","다","을","다","면"],opts:["를","다","을","다","면","이","는","고","에","어"],hint:"Object. Listing. Object. Quotative-suppose. Then."},
+{type:"mc",q:"-다거나 lists examples like 'such as X or Y'.\n-다고 치다 means 'suppose that X'.\nBoth use -다 (quotative).\nB1 indirect speech -다고 is the base?\n(Quotative foundations.)",opts:["Yes: both build on B1 indirect speech quotative -다고","No: different base","Only 다거나 uses quotative","Only 다고 치다 uses quotative"],ans:"Yes: both build on B1 indirect speech quotative -다고",hint:"B1 -다고 하다 is the foundation for both patterns."},
+{type:"fb",s:"돈{1} 많{2}고 치자. 뭐 하고 싶어{3}? 여행간{2}거나 집{4} 산{2}거나?\n(Suppose you have a lot of money. What would you want to do? Like traveling or buying a house?)",a:["이","다","요","을"],opts:["이","다","요","을","를","는","어","이"],hint:"Subject. Quotative (x3). Polite. Object."},
+{type:"drag_fill",s:"-다거나: listing {1} examples.\n-다고 치다: {2} a hypothetical.\n-다고 해도: {3} if stated.\n(Three -다고 extensions.)",blanks:{"1":"representative","2":"supposing","3":"even"},pool:["representative","supposing","even","all","denying","because"],hint:"다거나=like X or Y. 다고 치다=let's say. 다고 해도=even if."},
 ]},
 
 // ── L9: 댓글 문화 (Comment Culture) ──
@@ -6390,6 +6435,12 @@ export default [
 {type:"drag_fill",s:"악플이 많{1}거나 {2}이 나쁘{1}거나 해도 {3}은 중요하{4}.\n(Even if there are many malicious comments or public opinion is bad, compromise is important, you know.)",blanks:{"1":"다","2":"여론","3":"타협","4":"은걸요"},pool:["다","여론","타협","은걸요","어","댓글","반대","죠"],hint:"Listing marker. Public opinion. Middle ground. Mild assertion."},
 {type:"mc",q:"이 단원에서 배운 문법을 모두 사용한 문장은?\n(Which uses ALL U22 patterns?)",opts:["의견이 다른 반면에 타협하기는 해야 하죠. 반대한다거나 무시한다거나 하면 안 됩니다.","의견이 달라요. 타협해야 해요.","반대해서 안 돼요. 찬성하세요.","의견이 다르지만 괜찮아요."],ans:"의견이 다른 반면에 타협하기는 해야 하죠. 반대한다거나 무시한다거나 하면 안 됩니다.",hint:"반면에 + -기는 하다 + -죠 + -다거나. Four B2 patterns in two sentences."},
 {type:"drag_fill",s:"{1}이 맞{2} 해도 {3}뿐만 아니라 {4}도 필요하{5}.\n(Even if the argument is correct, not only evidence but also compromise is needed, right?)",blanks:{"1":"주장","2":"다고","3":"근거","4":"타협","5":"죠"},pool:["주장","다고","근거","타협","죠","의견","어서","결론","대안","요"],hint:"Claim. Even if. Evidence. Compromise. Tag question."},
+
+{type:"mc",q:"댓글에 욕을 쓰면 안 돼요.\nA2 -(으)면 안 되다 means?\n(You shouldn't write insults in comments.)",opts:["-(으)면 안 되다 = must not / shouldn't (A2 prohibition)","안 되다 = cannot","안 되다 = don't want","안 되다 = will not"],ans:"-(으)면 안 되다 = must not / shouldn't (A2 prohibition)",hint:"A2 prohibition/shouldn't pattern."},
+{type:"fb",s:"댓글{1} 예의 바르{2} 써야 해요. 여론{3} 댓글{4} 의해 바뀌{5} 수 있어요.\n(Comments should be written politely. Public opinion can be changed by comments.)",a:["은","게","이","에","ㄹ"],opts:["은","게","이","에","ㄹ","을","는","가","의","로"],hint:"Topic. Adverbially. Subject. By (passive). Can."},
+{type:"mc",q:"타협이 필요해요 vs 타협할 수 없어요:\n타협 means?\n(Compromise is needed vs Cannot compromise.)",opts:["타협 = compromise (debate vocabulary)","타협 = argument","타협 = victory","타협 = opinion"],ans:"타협 = compromise (debate vocabulary)",hint:"Finding middle ground in disagreement."},
+{type:"fb",s:"서로 다{1} 의견{2} 존중해야 해요. 반대 의견이{3}고 해서 무시하{4} 안 돼요.\n(We must respect different opinions. Just because it's an opposing opinion doesn't mean we should ignore it.)",a:["른","을","라","면"],opts:["른","을","라","면","는","이","다","에"],hint:"Different (modifier). Object. Quotative-just-because. Shouldn't."},
+{type:"drag_fill",s:"Online debate vocab: 댓글 = {1}. 여론 = {2}. 타협 = {3}. 악플 = {4}.\n(Korean internet culture terms.)",blanks:{"1":"comment","2":"public opinion","3":"compromise","4":"hate comment"},pool:["comment","public opinion","compromise","hate comment","article","private opinion","victory","like"],hint:"댓글=reply. 여론=society thinks. 타협=meet in middle. 악플=toxic."},
 ]},
 
 // ── L10: 종합 평가 (Unit Assessment) ──
@@ -6409,6 +6460,13 @@ export default [
 {type:"drag_fill",s:"{1}이 맞{2} 해도 {3}가 부족할 {4} 아니라 {5}도 필요합니다.\n(Even if the argument is correct, not only is evidence insufficient but alternatives are also needed.)",blanks:{"1":"주장","2":"다고","3":"근거","4":"뿐만","5":"대안"},pool:["주장","다고","근거","뿐만","대안","의견","어서","결론","반면에","타협"],hint:"Claim. Even if. Evidence. Not only. Alternative."},
 {type:"mc",q:"다음 중 U22에서 배운 패턴이 아닌 것은?\n(Which is NOT a U22 pattern?)",opts:["-(으)므로 (written because)","-(으)ㄴ/는 반면에 (whereas)","-(으)ㄹ 뿐만 아니라 (not only)","-(ㄴ/는)다거나 (listing scenarios)"],ans:"-(으)므로 (written because)",hint:"-(으)므로 is from U21 (formal writing). U22 focuses on debate patterns."},
 {type:"drag_fill",s:"찬성하{1} 하지만 {2}한{3}거나 무시한{3}거나 하면 안 되{4} {5}을 찾{6}.\n(I DO agree, but opposing or ignoring is not okay, and we should find a compromise, right?)",blanks:{"1":"기는","2":"반대","3":"다","4":"며","5":"타협안","6":"아야 하죠"},pool:["기는","반대","다","며","타협안","아야 하죠","지만","찬성","어","고","대안","어요"],hint:"Concessive. Oppose. Listing marker. Written 'and'. Compromise proposal. Obligation + tag."},
+
+{type:"mc",q:"도시는 편리한 반면에 시골은 조용해요.\n반면에 is used for?\n(City is convenient while countryside is quiet.)",opts:["Contrasting two sides of an issue","Agreeing with both sides","Listing examples","Making a supposition"],ans:"Contrasting two sides of an issue",hint:"반면에 = on the other hand / while."},
+{type:"fb",s:"비싸{1}는 하지만 품질{2} 좋{3}요. 싸{4}고 해서 다 좋{5} 건 아니에요.\n(It IS expensive, but quality is good. Just because it's cheap doesn't mean it's all good.)",a:["기","이","아","다","은"],opts:["기","이","아","다","은","는","가","을","어","에"],hint:"Concessive. Subject. Polite. Quotative. Modifier."},
+{type:"drag_fill",s:"Concede: -기는 {1}. Counter: 대신에 {2}. Add: 뿐만 아니라 {3}. Suppose: -다고 {4}.\n(Four debate strategies.)",blanks:{"1":"하지만","2":"substitute","3":"also","4":"치다"},pool:["하지만","substitute","also","치다","그래서","oppose","only","하다"],hint:"Acknowledge+but. Replace. Not only. Let's say."},
+{type:"fb",s:"환경 문제{1} 대해 토론해 봅{2}다. 찬성 의견{3} 반대 의견{3} 모{4} 중요해요.\n(Let's debate about environmental issues. Both for and against opinions are all important.)",a:["에","시","도","두"],opts:["에","시","도","두","를","는","이","가"],hint:"About. Let's (honorific). Also (x2). All/both."},
+{type:"mc",q:"Multi-pattern: 비싸다고 해도 좋은 반면에 싼 건 품질이 나쁠 뿐만 아니라 오래 못 써요.\nHow many B2 debate patterns?\n(Even if expensive it's good, while cheap things not only have bad quality but don't last.)",opts:["3: -다고 해도 + 반면에 + 뿐만 아니라","1 pattern","2 patterns","4 patterns"],ans:"3: -다고 해도 + 반면에 + 뿐만 아니라",hint:"Even-if + on-the-other-hand + not-only."},
+{type:"fb",s:"운동한{1}거나 산책한{1}거나 건강{2} 위해 뭐든 하세요. 못 하{3}고 해도 시도{4} 중요해요.\n(Whether exercising or walking, do something for health. Even if you can't, trying is important.)",a:["다","을","ㄴ다","가"],opts:["다","을","ㄴ다","가","는","이","어","에"],hint:"Listing (x2). Object (for health). Even-if. Subject."},
 ]},
 
 ]},
