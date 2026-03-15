@@ -113,9 +113,9 @@ export default [
          {type:"teach",kind:"phrase",nl:"een boek",en:"a book",phonetic:"un book",cognate:{words:[{lang:"English",word:"book"},{lang:"German",word:"Buch"}],family:"germanic"},example:"Ik lees een boek.",exampleEn:"I'm reading a book.",note:"'Een' = a/an for ALL nouns.\nIt NEVER changes. That's the good news!"},
          {type:"teach",kind:"phrase",nl:"de kat",en:"the cat",phonetic:"duh kaht",cognate:{words:[{lang:"English",word:"cat"},{lang:"German",word:"Katze"}],family:"germanic"},example:"De kat slaapt.",exampleEn:"The cat sleeps.",note:"A de-word. Most animals use 'de'.\nException: 'het paard' (the horse)."},
 
-         {type:"mc",q:"Which article goes with 'huis'?",opts:["de","het","een","geen"],ans:"het",hint:"Het huis: a het-word"},
+         {type:"mc",q:"Which article goes with 'huis'?",opts:["de","het","een","geen"],ans:"het",hint:"Think back to the teach cards for house"},
          {type:"mc",q:"All plural nouns use:",opts:["de","het","een","No article"],ans:"de",hint:"De mannen, de huizen, de katten..."},
-         {type:"fb",s:"___ vrouw is aardig.",a:"De",opts:["De","Het","Een","Geen"],hint:"'The woman': vrouw is a de-word"},
+         {type:"fb",s:"___ vrouw is aardig.",a:"De",opts:["De","Het","Een","Geen"],hint:"Remember which article 'vrouw' used in the teach card"},
          {type:"mc",q:"'Een' is used for:",opts:["Only de-words","Only het-words","Both de and het words","Plural nouns"],ans:"Both de and het words",hint:"Een never changes!"},
          {type:"match",pairs:[{nl:"de man",en:"the man"},{nl:"het huis",en:"the house"},{nl:"de kat",en:"the cat"},{nl:"het kind",en:"the child"}]},
          {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","het","een","geen"],ans:"het",hint:"Het broodje, het meisje, het kopje..."},
@@ -502,8 +502,8 @@ export default [
          {type:"tip",title:"🔵🟡 De or Het?",text:"About 75% of Dutch nouns are de-words. Het-words include:\n\n\u2022 Words ending in -je (broodje, meisje, kopje)\n\u2022 Many two-syllable words starting with be-, ge-, ver-\n\u2022 And many others you simply learn by exposure\n\nThe best strategy: always learn the article WITH the noun. Say 'het huis', never just 'huis'.",deepDive:{title:"De and het: does it matter?",text:"Yes. Later, de and het affect:\n\n\u2022 Which demonstrative you use (dit/dat vs deze/die)\n\u2022 Which relative pronoun you use (dat vs die)\n\u2022 Adjective endings in some cases\n\nGetting articles wrong won't stop people from understanding you, but it marks you as a beginner. Building the instinct now saves pain later."}},
          {type:"mc",q:"What article goes with 'kind'?",opts:["het","de","een","geen"],ans:"het",hint:"Think about the teach card. Child = ?"},
          {type:"mc",q:"What does 'de vrouw' mean?",opts:["the woman","the man","the child","the city"],ans:"the woman",hint:"'Vrouw' sounds a bit like..."},
-         {type:"fb",s:"___ huis is groot.",a:"Het",opts:["Het","De","Een","Geen"],hint:"'Huis' is a het-word"},
-         {type:"fb",s:"___ man spreekt Nederlands.",a:"De",opts:["De","Het","Een","Dit"],hint:"'Man' is a de-word"},
+         {type:"fb",s:"___ huis is groot.",a:"Het",opts:["Het","De","Een","Geen"],hint:"What article did you learn with 'huis'?"},
+         {type:"fb",s:"___ man spreekt Nederlands.",a:"De",opts:["De","Het","Een","Dit"],hint:"What article did you learn with 'man'?"},
          {type:"match",mks:["noun_man","noun_child","noun_language","noun_house"]},
          {type:"match",mks:["noun_woman","noun_city","noun_country","noun_school"]},
        ]},
@@ -534,11 +534,11 @@ export default [
          {type:"teach",kind:"word",board:true,nl:"deze",en:"this / these (de-words, plurals, nearby)",phonetic:"DAY-zuh",example:"Deze man hier is een leraar.",exampleEn:"This man here is a teacher.",note:"For de-words + plurals nearby.\n'Deze huizen hier' = these houses here."},
          {type:"teach",kind:"word",board:true,nl:"die",en:"that / those (de-words, plurals, far away)",phonetic:"dee",example:"Die vrouw daar spreekt Frans.",exampleEn:"That woman there speaks French.",note:"For de-words + plurals farther away.\n'Die kinderen daar' = those children there.",also:"Later: 'die' also means 'who/that' in relative clauses."},
          {type:"tip",title:"👉 Two Uses of Demonstratives",text:"BEFORE A NOUN:\nhet-words nearby: dit huis hier\nhet-words far: dat huis daar\nde-words nearby: deze man hier\nde-words far: die man daar\nPlurals: same as de-words (deze/die)\n\nPOINTING AT SOMETHING:\nDit is het huis. Dat is de school.\nAlways dit/dat when pointing at things.\nNever 'deze is de school' or 'die is het huis'.",deepDive:{title:"Why always dit/dat for pointing?",text:"When you point at a thing and say 'this is...' or 'that is...', Dutch always uses dit or dat.\n\nIt does not matter if the noun is de or het:\nDit is de man. (pointing nearby)\nDat is de school. (pointing far)\nDit is het kind. (pointing nearby)\nDat is het huis. (pointing far)\n\nThink of 'Dit is...' and 'Dat is...' as fixed phrases for pointing.\n\n'Deze is...' and 'Die is...' are only used when choosing between people, not things."}},
-         {type:"mc",q:"Which pair goes with het-words?",opts:["deze / die","dit / die","dit / dat","deze / dat"],ans:"dit / dat",hint:"Het-words get their own pair"},
-         {type:"mc",q:"___ man hier is een leraar.",opts:["Dit","Dat","Deze","Die"],ans:"Deze",hint:"Man = de-word, hier = nearby"},
-         {type:"fb",s:"___ huis daar is klein.",a:"Dat",opts:["Dit","Deze","Dat","Die"],hint:"Huis = het-word, daar = far away"},
+         {type:"mc",q:"Which pair goes with het-words?",opts:["deze / die","dit / die","dit / dat","deze / dat"],ans:"dit / dat",hint:"Check the table: which pair is unique?"},
+         {type:"mc",q:"___ man hier is een leraar.",opts:["Dit","Dat","Deze","Die"],ans:"Deze",hint:"Two clues: the noun type AND the distance"},
+         {type:"fb",s:"___ huis daar is klein.",a:"Dat",opts:["Dit","Deze","Dat","Die"],hint:"Think about the article AND the distance word"},
          {type:"fb",s:"___ kinderen hier spreken Nederlands.",a:"Deze",opts:["Deze","Die","Dit","Dat"],hint:"Plural + hier = nearby"},
-         {type:"mc",q:"How do you say 'That man there is not here'?",opts:["Die man daar is niet hier","Deze man daar is niet hier","Dat man daar is niet hier","Dit man daar is niet hier"],ans:"Die man daar is niet hier",hint:"Man = de-word, daar = far away"},
+         {type:"mc",q:"How do you say 'That man there is not here'?",opts:["Die man daar is niet hier","Deze man daar is niet hier","Dat man daar is niet hier","Dit man daar is niet hier"],ans:"Die man daar is niet hier",hint:"What article does 'man' use? And is he close?"},
          {type:"fb",s:"___ is het kind hier.",a:"Dit",opts:["Dit","Deze","Die","Dat"],hint:"Pointing at something nearby: always dit"},
          {type:"fb",s:"___ is de school daar.",a:"Dat",opts:["Dat","Deze","Die","Dit"],hint:"Pointing at something far: always dat"},
          {type:"tip",title:"⚠️ A Common Mistake",text:"Dit is de school. (correct)\nDeze is de school. (wrong)\n\nWhen pointing at things, always use dit or dat.\nNever deze or die.\n\nDeze and die go BEFORE a noun:\nDeze school hier is groot. (correct)\n\nBut when pointing: Dit is... / Dat is... Always.",deepDive:{title:"When CAN you use deze/die alone?",text:"Only when choosing between people:\n'Welke man? Deze.' = Which man? This one.\n\nAt this stage, just remember the rule:\nPointing at things = dit/dat.\nBefore a noun = check de/het + hier/daar."}},
@@ -964,7 +964,7 @@ export default [
               {pronoun:"jullie",form:"willen",en:"you all want"},
               {pronoun:"zij / ze",form:"willen",en:"they want"},
             ]}
-          ],note:"Irregular! hij/zij wil (no -t). jij wilt OR jij wil — both correct.\nIn daily speech, 'jij wil' dominates. 'Jij wilt' sounds more formal.\nPlural = willen. Two forms to know: wil and willen."},
+          ],note:"Irregular! hij/zij wil (no -t). jij wilt OR jij wil: both correct.\nIn daily speech, 'jij wil' dominates. 'Jij wilt' sounds more formal.\nPlural = willen. Two forms to know: wil and willen."},
 
          {type:"tip",title:"📐 Modal Verb Word Order",text:"Modal verbs change the sentence structure.\nThe second verb moves to the END:\n\nWithout modal:\nIk drink koffie. = I drink coffee.\n\nWith modal:\nIk wil koffie drinken. = I want to drink coffee.\n\nThe pattern: subject + modal + object + INFINITIVE (at the end)\n\nIk wil brood eten. = I want to eat bread.\nHij wil water drinken. = He wants to drink water.\nWij willen kaas eten. = We want to eat cheese.\n\n⚠️ The infinitive goes to the VERY end.\nThis feels strange if you speak English,\nbut natural if you know German (same rule!)."},
 
@@ -1015,7 +1015,7 @@ export default [
               {pronoun:"jullie",form:"kunnen",en:"you all can"},
               {pronoun:"zij / ze",form:"kunnen",en:"they can"},
             ]}
-          ],note:"Irregular: hij/zij kan (no -t). jij kunt OR jij kan — both correct.\nSame pattern as willen: two forms (kan / kunnen)."},
+          ],note:"Irregular: hij/zij kan (no -t). jij kunt OR jij kan: both correct.\nSame pattern as willen: two forms (kan / kunnen)."},
 
          {type:"teach",kind:"word",nl:"mogen",en:"to be allowed to / may",phonetic:"MOH-gun",cognate:{words:[{lang:"English",word:"may / might"},{lang:"German",word:"mögen / dürfen"}],family:"germanic"},example:"Mag ik hier zitten?",exampleEn:"May I sit here?",note:"Modal verb #3. Permission = mogen.\nThis is the POLITE request verb.\n'Mag ik...?' = May I...? (very common)\nEnglish DOES have 'may' for permission  -  'May I sit here?'\nBut most English speakers now say 'Can I sit here?' instead.\nIn Dutch you cannot make that swap. 'Kan ik hier zitten?'\nwould sound like you're asking about physical ability,\nnot permission. Mogen stays mogen. Always."},
          {type:"teach",kind:"phrase",nl:"ik mag",en:"I may / I am allowed to",phonetic:"ik mag",example:"Ik mag hier niet roken.",exampleEn:"I am not allowed to smoke here.",note:"Short 'a'. The 'g' is the Dutch throat sound.\n'Mag niet' = not allowed. You'll hear this constantly."},
@@ -1202,7 +1202,7 @@ export default [
          {type:"tr",mk:"u4_how_much_cost",dir:"produce"},
          {type:"tr",mk:"u4_cheese_cheap_market",dir:"produce"},
        ]},
-       {id:"v2u4l8",title:"Borrel! — Unit 4 Review",icon:"🍻",xp:20,board:true,steps:[
+       {id:"v2u4l8",title:"Borrel! - Unit 4 Review",icon:"🍻",xp:20,board:true,steps:[
          {type:"intro",title:"Borrel!  -  Unit 4 Review",desc:"It's Friday afternoon. Time for the vrijdagmiddagborrel  -  the most Dutch social ritual there is. This review pulls together everything from Unit 4: ordering, modals, possessives, plurals, diminutives, and prices. All set at a borrel.",goals:["All 4 modal verbs in context","Possessives in social settings","Order food and drinks fluently","Dutch borrel culture"]},
 
          {type:"tip",title:"🇳🇱 De Borrel: Dutch Social Glue",text:"A borrel is an informal drinks gathering.\n\nThe vrijmibo (vrijdagmiddagborrel) = Friday afternoon drinks.\nThis is where Dutch colleagues become friends.\n\nWhat's at a borrel:\n• biertjes (beers  -  always diminutive, always casual)\n• wijn (wine)\n• bitterballen (deep-fried meat ragout balls  -  THE borrel snack)\n• kaasblokjes (little cheese cubes)\n• nootjes (nuts  -  another diminutive!)\n\nThe word 'borrel' itself means 'a drink' (informal).\n'Een borrel doen' = to have drinks.\n'Borrelen' = to socialise over drinks.\n\nProost! = Cheers! (always look people in the eye)"},
@@ -1289,8 +1289,8 @@ export default [
 
          {type:"tip",title:"🇳🇱 The Dutch House",text:"Dutch houses are... unique.\n\nSteep stairs: nearly vertical, notoriously narrow.\nMoving furniture? Use the hook (hijsbalk) on the roof peak\nand hoist it through the window.\n\nBig windows, NO curtains: the Dutch tradition of open windows\ncomes from Calvinist culture  -  'we have nothing to hide.'\nYou can see straight into people's living rooms. This is normal.\n\nRijtjeshuizen: row houses. The typical Dutch street is a long\nrow of attached houses, each narrow and tall (3-4 floors).\n\nThe tuin is small  -  often just a tiny patch behind the house.\nBut it will be perfect. The Dutch are champion gardeners.\n\n'Gezellig' lives in the woonkamer (living room).\nSmall, warm, filled with candles."},
 
-         {type:"mc",q:"'Ons huis' uses 'ons' because:",opts:["huis is a de-word","huis is a het-word","huis is plural","it's a rule for all possessives"],ans:"huis is a het-word",hint:"ons + het-word, onze + de-word"},
-         {type:"fb",s:"___ tuin is klein. (our)",a:"Onze",opts:["Onze","Ons","Ons'","Onzen"],hint:"Tuin is a de-word → onze"},
+         {type:"mc",q:"'Ons huis' uses 'ons' because:",opts:["huis is a de-word","huis is a het-word","huis is plural","it's a rule for all possessives"],ans:"huis is a het-word",hint:"Which article does 'huis' take? That determines the form"},
+         {type:"fb",s:"___ tuin is klein. (our)",a:"Onze",opts:["Onze","Ons","Ons'","Onzen"],hint:"What article does 'tuin' normally take?"},
          {type:"mc",q:"Which possessive is the ONLY one with two forms?",opts:["mijn","jouw","ons/onze","hun"],ans:"ons/onze",hint:"Every other possessive stays the same"},
          {type:"match",pairs:[{nl:"de keuken",en:"the kitchen"},{nl:"de kamer",en:"the room"},{nl:"het raam",en:"the window"},{nl:"de trap",en:"the stairs"}]},
          {type:"drag_fill",s:"{1} huis is groot. {2} kinderen zijn klein.",blanks:{"1":"Ons","2":"Hun"},pool:["Ons","Hun","Onze","Zijn"],hint:"OUR house (het-word). THEIR children."},
@@ -1495,7 +1495,7 @@ export default [
               {pronoun:"jullie",form:"gaan",en:"you all go"},
               {pronoun:"zij / ze",form:"gaan",en:"they go"},
             ]}
-          ],note:"ik ga (short). jij/hij gaat (long 'aa' + t). wij gaan.\nIn questions: 'Ga jij...?' — the -t drops as always."},
+          ],note:"ik ga (short). jij/hij gaat (long 'aa' + t). wij gaan.\nIn questions: 'Ga jij...?' the -t drops as always."},
 
          {type:"teach",kind:"word",nl:"naar",en:"to (direction)",phonetic:"nahr",example:"Ik ga naar Amsterdam.",exampleEn:"I go to Amsterdam.",note:"Direction = naar. 'I go TO the station.'\n'Naar' = towards a destination.\nDon't confuse with 'aan' (at/attached to)."},
          {type:"teach",kind:"word",nl:"van",en:"from / of",phonetic:"fan",cognate:{words:[{lang:"English",word:"from (different root)"},{lang:"German",word:"von"}],family:"germanic"},example:"Ik kom van het station.",exampleEn:"I come from the station.",note:"Two meanings: 'from' (origin) and 'of' (possession).\nvan het station = from the station.\nde fiets van mijn broer = my brother's bike."},
@@ -1755,7 +1755,7 @@ export default [
          {type:"mc",q:"'Betaald' has no ge- because:",opts:["It's irregular","be- is an unstressed prefix","It's a short verb","The Dutch forgot"],ans:"be- is an unstressed prefix",hint:"be-, ver-, ge-, her-, ont- skip ge-"},
          {type:"match",pairs:[{nl:"gekookt",en:"cooked"},{nl:"gewoond",en:"lived"},{nl:"gespeeld",en:"played"},{nl:"betaald",en:"paid"}]},
          {type:"drag_fill",s:"Ik heb rijst {1}. Wij hebben voetbal {2}.",blanks:{"1":"gekookt","2":"gespeeld"},pool:["gekookt","gespeeld","gekookt","gestopt"],hint:"I cooked rice. We played football."},
-         {type:"mc",q:"The stam of 'fietsen' is 'fiets'. S is in 't kofschip. So:",opts:["gefietsd","gefietst","gefiets","gefietsen"],ans:"gefietst",hint:"S = 't kofschip = -t"},
+         {type:"mc",q:"The stam of 'fietsen' is 'fiets'. S is in 't kofschip. So:",opts:["gefietsd","gefietst","gefiets","gefietsen"],ans:"gefietst",hint:"Check the last letter of the stam against the mnemonic"},
          {type:"fb",s:"Zij heeft haar huis ___. (sold)",a:"verkocht",opts:["verkocht","verkoopt","geverkocht","verkopen"],hint:"Irregular! No ge- + irregular form"},
          {type:"mc",q:"'Leven' → stam = 'leef'. F is in 't kofschip, so -t? No! Why?",opts:["The original consonant is V (le-ven), V is NOT in 't kofschip","F always gets -d","It's irregular","The rule doesn't apply to leven"],ans:"The original consonant is V (le-ven), V is NOT in 't kofschip",hint:"The V/Z trap: check the infinitive"},
          {type:"drag_fill",s:"Ik heb al {1}. Hij heeft {2} met roken.",blanks:{"1":"betaald","2":"gestopt"},pool:["betaald","gestopt","betalen","stoppen"],hint:"Already paid. Stopped smoking."},
@@ -2343,7 +2343,7 @@ export default [
               {pronoun:"jullie",form:"hadden",en:"you all had"},
               {pronoun:"zij / ze",form:"hadden",en:"they had"},
             ]}
-          ],note:"Two forms: had (singular) and hadden (plural).\nSame as English! was/were + had/hadden — you already know these."},
+          ],note:"Two forms: had (singular) and hadden (plural).\nSame as English! was/were + had/hadden, you already know these."},
 
          {type:"teach",kind:"word",nl:"toen",en:"then / when (in the past)",phonetic:"toon",cognate:{words:[{lang:"German",word:"dann / damals"}],family:"germanic"},example:"Toen was ik nog jong.",exampleEn:"Back then I was still young.",note:"'Toen' = then (past). NOT 'dan' (dan = then, future).\n'Toen ik jong was...' = When I was young...\nVery common in stories and 'vroeger' talk."},
          {type:"teach",kind:"word",nl:"nog",en:"still / yet",phonetic:"nog",example:"Ik was toen nog een kind.",exampleEn:"I was still a child back then.",note:"Tiny word, big meaning.\n'Nog niet' = not yet.\n'Nog steeds' = still (continuing)."},
@@ -4303,7 +4303,7 @@ VOCAB STATUS:
          {type:"mc",q:"PP of 'verbeteren' (inseparable prefix):",opts:["verbeterd","geverbeterd","verbetert","gebeterd"],ans:"verbeterd",hint:"Inseparable prefix = no ge-!"},
          {type:"drag_fill",s:"De {1} deur. Een {2} probleem.",blanks:{"1":"gesloten","2":"groeiend"},pool:["gesloten","groeiend","werkende","geschreven"],hint:"CLOSED door (past PP). GROWING problem (present PP)."},
          {type:"fb",s:"___ u zo vriendelijk willen zijn om mij te helpen?",a:"Zou",opts:["Zou","Kunt","Wilt","Bent"],hint:"Would you be so kind..."},
-         {type:"mc",q:"Congratulations! What is your next Dutch level?",opts:["A2","B1","B2","C1"],ans:"B2",hint:"After B1 comes B2!"},
+         {type:"mc",q:"'Zou u zo vriendelijk willen zijn...' Which register is this?",opts:["Very formal/polite","Casual","Informal written","Slang"],ans:"Very formal/polite",hint:"Zou + u = the most polite Dutch gets"},
 
          {type:"tip",title:"🔮 Wat Komt Er Hierna? (B2 Preview)",text:"At B2 you will learn:\n\n📖 Longer, more complex texts (newspaper editorials,\n   short stories, academic summaries)\n\n📐 More passive constructions (worden + past tenses)\n\n📐 Extended conditional (als...zou...hebben)\n\n📐 Subjunctive remnants (het zij zo, moge het lukken)\n\n📐 Academic register (wetenschappelijke teksten)\n\n📐 Idiomatic expressions (op de hoogte zijn,\n   aan de slag gaan, voor de hand liggen)\n\n📐 Nuanced opinion & argumentation\n\n📐 Literary Dutch (reading comprehension)\n\nBut that's for later.\nFor now: you are B1.\n\nJe hebt het gehaald. Gefeliciteerd! 🎉\n= You made it. Congratulations!\n\n🇳🇱 Tot ziens bij B2! 🇳🇱"},
        ]},
