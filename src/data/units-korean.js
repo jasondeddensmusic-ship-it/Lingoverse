@@ -3383,18 +3383,18 @@ export default [
   {type:"teach",kind:"grammar",nl:"-(으)ㄴ 적이 있다",en:"have done before / have experienced",example:"한국에 간 적이 있어요.",exampleEn:"I have been to Korea (before).",note:"-(으)ㄴ 적이 있다: have done before.\n\nConsonant: + 은 적이 있다.\nVowel: + ㄴ 적이 있다.\n하다 → 한 적이 있다."},
   {type:"teach",kind:"grammar",nl:"-(으)ㄴ 적이 없다",en:"have never done",example:"스키를 탄 적이 없어요.",exampleEn:"I have never skied.",note:"-(으)ㄴ 적이 없다: have never done.\n\nJust swap 있다 for 없다.\n없다 = don't have (the experience)."},
   {type:"mc",q:"한국에 간 적이 있어요 means:",opts:["I have been to Korea","I am going to Korea","I went to Korea yesterday","I want to go to Korea"],ans:"I have been to Korea",hint:"-(으)ㄴ 적이 있다 = have done before. Life experience, not specific trip."},
-  {type:"fb",s:"김치를 만{1} 적이 있어요?\n(Have you ever made kimchi?)",a:"든",opts:["든","드는","들","들어"],hint:"만들다 → 만든 적이 있다. ㄹ drops, add ㄴ."},
+  {type:"fb",s:"김치를 만{1} 적이 있어요?\n(Have you ever made kimchi?)",a:"든",opts:["든","드는","들","들어"],hint:"만들다: ㄹ drops before ㄴ. What's the past modifier form?"},
   {type:"mc",q:"스키를 탄 적이 없어요 means:",opts:["I have never skied","I don't want to ski","I can't ski","I skied before"],ans:"I have never skied",hint:"-(으)ㄴ 적이 없다 = have NEVER done. 없다 = don't have the experience."},
   {type:"teach",kind:"phrase",nl:"등산한 적이 있어요",en:"I have gone hiking before",example:"설악산에서 등산한 적이 있어요.",exampleEn:"I have hiked at Seoraksan before.",note:"등산하다 → 등산한 적이 있어요.\n하다 verbs: just add ㄴ 적이 있다."},
-  {type:"fb",s:"한국 드라마를 {1} 적이 있어요?\n(Have you ever watched a Korean drama?)",a:"본",opts:["본","보는","볼","봤"],hint:"보다 → 본 적이 있다. Vowel stem: add ㄴ."},
-  {type:"mc",q:"'I have never cooked Korean food.'\nWhich is correct?",opts:["한국 음식을 요리한 적이 없어요","한국 음식을 요리한 적이 있어요","한국 음식을 요리하는 적이 없어요","한국 음식을 요리할 적이 없어요"],ans:"한국 음식을 요리한 적이 없어요",hint:"Have NEVER = -(으)ㄴ 적이 없다. 요리하다 → 요리한 적이 없어요."},
+  {type:"fb",s:"한국 드라마를 {1} 적이 있어요?\n(Have you ever watched a Korean drama?)",a:"본",opts:["본","보는","볼","봤"],hint:"보다 has a vowel stem. Past modifier: stem + ㄴ."},
+  {type:"mc",q:"'I have never cooked Korean food.'\nWhich is correct?",opts:["한국 음식을 요리한 적이 없어요","한국 음식을 요리한 적이 있어요","한국 음식을 요리하는 적이 없어요","한국 음식을 요리할 적이 없어요"],ans:"한국 음식을 요리한 적이 없어요",hint:"Have NEVER = -(으)ㄴ 적이 없다. Which option uses the correct past modifier form?"},
   {type:"match",pairs:[{nl:"간 적이 있다",en:"have been (gone)"},{nl:"먹은 적이 있다",en:"have eaten"},{nl:"본 적이 있다",en:"have seen"},{nl:"한 적이 없다",en:"have never done"}]},
-  {type:"fb",s:"제주도에 {1} 적이 있어요. 정말 예뻤어요.\n(I have been to Jeju before. It was really pretty.)",a:"간",opts:["간","가는","갈","갔"],hint:"가다 → 간 적이 있다. Vowel stem: add ㄴ."},
+  {type:"fb",s:"제주도에 {1} 적이 있어요. 정말 예뻤어요.\n(I have been to Jeju before. It was really pretty.)",a:"간",opts:["간","가는","갈","갔"],hint:"가다 has a vowel stem. Past modifier: stem + ㄴ."},
   {type:"mc",q:"How do you ask 'Have you ever played a Korean game?'",opts:["한국 게임을 한 적이 있어요?","한국 게임을 하는 적이 있어요?","한국 게임을 할 적이 있어요?","한국 게임을 했어요?"],ans:"한국 게임을 한 적이 있어요?",hint:"하다 → 한 적이 있다. Past modifier + 적이 있다."},
-  {type:"fb",s:"사진을 {1} 적이 있어요? 취미로요.\n(Have you ever taken photos? As a hobby.)",a:"찍은",opts:["찍은","찍는","찍을","찍고"],hint:"찍다 → 찍은 적이 있다. Consonant stem: add 은."},
+  {type:"fb",s:"사진을 {1} 적이 있어요? 취미로요.\n(Have you ever taken photos? As a hobby.)",a:"찍은",opts:["찍은","찍는","찍을","찍고"],hint:"찍다 has a consonant stem. Past modifier: stem + 은."},
   {type:"mc",q:"A: 번지점프를 한 적이 있어요? B: 아니요, ____.",opts:["한 적이 없어요","할 적이 없어요","하는 적이 없어요","했어요"],ans:"한 적이 없어요",hint:"Negative answer: -(으)ㄴ 적이 없어요. Same form, swap 있다 → 없다."},
   {type:"drag_fill",s:"저는 한국 음식을 {1} 적이 있어요. 집에서 {2} 봤어요.\n(I have made Korean food before. I tried making it at home.)",blanks:{"1":"만든","2":"만들어"},pool:["만든","만들어","만드는","만들었","만들","봤어요"],hint:"만들다 → 만든 (past mod, ㄹ drops). 만들어 봤어요 (tried making)."},
-  {type:"fb",s:"외국에서 {1} 적이 있어요? 어디에서 살았어요?\n(Have you ever lived abroad? Where did you live?)",a:"산",opts:["산","사는","살","살았"],hint:"살다 → 산 적이 있다. ㄹ drops, add ㄴ."},
+  {type:"fb",s:"외국에서 {1} 적이 있어요? 어디에서 살았어요?\n(Have you ever lived abroad? Where did you live?)",a:"산",opts:["산","사는","살","살았"],hint:"살다: ㄹ drops before ㄴ. What's the past modifier form?"},
   {type:"drag_fill",s:"{1}에 {2} 적이 있어요. 도착{3} 후에 바로 맛집에 갔어요.\n(I have been to Busan before. After arriving, I went to a famous restaurant right away.)",blanks:{"1":"부산","2":"간","3":"한"},pool:["부산","간","한","가는","하는","서울"],hint:"부산에 간 적이 있어요. 도착한 후에 (after arriving) layers two B1 patterns."},
 
 {type:"fb",s:"이 노래를 들어 본 적이 {1}?\n(Have you ever heard this song?)",a:["있어요"],opts:["있어요","없어요","있었어요","없었어요"],hint:"-(으)ㄴ 적이 있다 = have experienced before. Question form."},
@@ -3471,7 +3471,7 @@ export default [
 {type:"mc",q:"-고 vs -(으)면서: '먹고 갔어요' vs '먹으면서 갔어요'. What's the difference?",opts:["First: ate then left. Second: ate while going.","Both mean the same thing","First is formal, second is casual","First is wrong"],ans:"First: ate then left. Second: ate while going.",hint:"-고 connects sequential actions. -(으)면서 connects simultaneous ones."},
 
 {type:"fb",s:"음악을 {1} 공부해요.\n(I study while listening to music.)",a:["들으면서"],opts:["들으면서","듣고","들어서","들으면"],hint:"Studying while listening. Two actions at the same time. 듣다 is ㄷ-irregular."},
-{type:"mc",q:"운동하면서 음악을 듣는 것을 좋아해요.\n(I like listening to music while exercising.)",opts:["-(으)면서 (simultaneous)","-고 (sequential)","-아/어서 (cause)","-는데 (background)"],ans:"-(으)면서 (simultaneous)",hint:"-(으)면서: two actions happening at the SAME time. Not sequential."},
+{type:"mc",q:"운동하면서 음악을 듣는 것을 좋아해요.\n(I like listening to music while exercising.)\nWhat does this sentence describe?",opts:["Two things happening at the same time","One thing causing another","One thing happening after another","An unexpected contrast"],ans:"Two things happening at the same time",hint:"Exercising AND listening: both happen together, not one after the other."},
 {type:"drag_fill",s:"커피를 {1} 신문을 {2}.\n(I read the newspaper while drinking coffee.)",blanks:{"1":"마시면서","2":"읽어요"},pool:["마시면서","읽어요","마시고","읽는데","마셔서","읽으면"],hint:"-(으)면서 for simultaneous actions: drinking and reading at same time."},
 {type:"match",pairs:[{nl:"먹으면서",en:"while eating"},{nl:"걸으면서",en:"while walking"},{nl:"운전하면서",en:"while driving"},{nl:"일하면서",en:"while working"}]},
 ]},
@@ -3554,7 +3554,7 @@ export default [
 // ── L8: ★ ㅅ 불규칙 HARVEST Batch 4 ──
 {id:"kou12l8",title:"★ ㅅ 불규칙",icon:"🔧",xp:24,board:true,steps:[
 {type:"intro",title:"ㅅ-Irregular Verbs",desc:"짓다\n→ to build\n\n짓 + 어요 = 지어요 (not 짓어요)\n\nThe ㅅ drops before vowel endings.\nBatch 4 of irregular families.",goals:["Understand ㅅ-irregular pattern","Conjugate 짓다, 낫다, 붓다, 잇다","Know when ㅅ drops","Compare with regular ㅅ stems"]},
-{type:"tip",title:"Irregular Family Progress",text:"You've learned 4 of 5 families:\n\n1. ㄷ-irregular (U7): ㄷ → ㄹ before vowels\n2. ㅂ-irregular (U7): ㅂ → 우 before vowels\n3. ㄹ/으-irregular (U9): special patterns\n4. ㅎ-irregular (U11): ㅎ drops, vowel changes\n\nNow: ㅅ-irregular\nㅅ drops completely before vowel endings.\n짓 + 어요 → 지어요",deepDive:"Regular vs ㅅ-irregular:\n\nRegular ㅅ: 씻다 (wash) → 씻어요\nThe ㅅ STAYS.\n\nIrregular ㅅ: 짓다 (build) → 지어요\nThe ㅅ DROPS.\n\nYou have to memorize which are irregular.\nMost common ㅅ-irregulars:\n짓다, 낫다, 붓다, 잇다, 젓다"},
+{type:"tip",title:"Irregular Family Progress",text:"You've learned 4 of 5 families:\n\n1. ㄷ-irregular (U7): ㄷ → ㄹ before vowels\n2. ㅂ-irregular (U7): ㅂ → 우 before vowels\n3. ㄹ/으-irregular (U9): special patterns\n4. ㅎ-irregular (U11): ㅎ drops, vowel changes\n\nNow: ㅅ-irregular\nㅅ drops completely before vowel endings.\n짓 + 어요 → 지어요",deepDive:"Regular vs ㅅ-irregular:\n\nRegular ㅅ: 씻다 (wash) → 씻어요\nThe ㅅ STAYS.\n\nIrregular ㅅ: 짓다 (build) → 지어요\nThe ㅅ DROPS.\n\nYou have to memorize which are irregular.\nMost common ㅅ-irregulars:\n짓다 (build), 낫다 (heal), 붓다 (swell),\n잇다 (connect), 젓다 (stir)"},
 {type:"teach",nl:"짓다",en:"to build, to make (name/house)",phonetic:"jit-da",note:"ㅅ-IRREGULAR.\n짓 + 어요 → 지어요 (ㅅ drops).\n집을 지어요 = I build a house.",kind:"verb",deepDive:"짓다 has multiple meanings:\n\n1. Build: 집을 짓다 (build a house)\n2. Name: 이름을 짓다 (name/create a name)\n3. Make (expression): 표정을 짓다\n4. Compose: 시를 짓다 (write a poem)\n\nAll use the same ㅅ-irregular pattern."},
 {type:"teach",nl:"낫다",en:"to get better, to heal",phonetic:"nat-da",note:"ㅅ-IRREGULAR.\n낫 + 아요 → 나아요 (ㅅ drops).\n감기가 나아요 = The cold gets better.",kind:"verb"},
 {type:"teach",nl:"붓다",en:"to swell, to pour",phonetic:"but-da",note:"ㅅ-IRREGULAR.\n붓 + 어요 → 부어요 (ㅅ drops).\n눈이 부어요 = My eyes are swollen.",kind:"verb"},
@@ -3572,7 +3572,7 @@ export default [
 {type:"fb",s:"이야기를 {1}. 계속해 주세요.\n(___ the story. Please continue.)",a:"이어요",opts:["이어요","잇어요","잇아요","이세요"],hint:"Continue the story. 잇다 is ㅅ-irregular: ㅅ drops."},
 {type:"mc",q:"짓다 → 지어요. What happened to ㅅ?",opts:["ㅅ drops completely before vowel endings","ㅅ changes to ㄹ","ㅅ doubles","ㅅ stays the same"],ans:"ㅅ drops completely before vowel endings",hint:"In ㅅ-irregular verbs, ㅅ disappears entirely before vowel endings."},
 
-{type:"fb",s:"빨래를 {1} 옷이 줄었어요.\n(After doing laundry, the clothes shrank.)",a:["했는데"],opts:["했는데","하면","해서","해도"],hint:"ㅅ-irregular: 줄다 is not ㅅ-irregular, but related vocab. -는데 for unexpected result."},
+{type:"fb",s:"빨래를 {1} 옷이 줄었어요.\n(I did laundry, but the clothes shrank.)",a:["했는데"],opts:["했는데","하면","해서","해도"],hint:"I did laundry BUT (unexpectedly) the clothes shrank. -는데 marks a surprising result."},
 {type:"mc",q:"이 집은 지은 지 오래됐지만 아직 괜찮아요.\n(This house was built a long time ago but it is still okay.)",opts:["짓다 → 지은 (ㅅ-irregular)","짓다 → 짓은 (regular)","짓다 → 지은 (ㄷ-irregular)","짓다 → 짓는 (regular)"],ans:"짓다 → 지은 (ㅅ-irregular)",hint:"ㅅ-irregular: 짓다 loses ㅅ before vowels. Past modifier: 지은."},
 ]},
 
