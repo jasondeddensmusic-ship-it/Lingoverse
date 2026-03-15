@@ -7174,6 +7174,10 @@ export default [
 {type:"mc",q:"콩 심은 데 콩 나고 팥 심은 데 팥 난다.\nThe closest English equivalent is:",opts:["You reap what you sow","An apple a day keeps the doctor away","The early bird catches the worm","Actions speak louder than words"],ans:"You reap what you sow",hint:"Plant X, harvest X. Consequences match actions."},
 {type:"drag_fill",s:"실수했어? {1}도 나무에서 {2}. 앞으로 {3} 말이 {4} {5} 말이 곱다는 걸 기억해.\n(Made a mistake? Even monkeys fall. Remember, kind words out = kind words back.)",blanks:{"1":"원숭이","2":"떨어진다","3":"가는","4":"고와야","5":"오는"},pool:["원숭이","떨어진다","가는","고와야","오는","호랑이","올라간다","오는","나빠야","가는"],hint:"Monkey. Falls. Going. Pretty/kind. Coming."},
 {type:"mc",q:"한국 속담의 주요 특징이 아닌 것은?",opts:["항상 4글자로 이루어져 있다 (Always 4 characters)","자연이나 일상에서 이미지를 가져온다 (Uses nature/daily imagery)","도덕적 또는 실용적 교훈을 준다 (Teaches moral/practical lessons)","복잡한 상황을 한 마디로 요약한다 (Summarizes complex situations)"],ans:"항상 4글자로 이루어져 있다 (Always 4 characters)",hint:"4 characters = 사자성어, not 속담. Proverbs vary in length."},
+
+{type:"mc",q:"가는 말이 고와야 오는 말이 곱다.\n이 속담에서 A1 particle 이/가는?\n(Kind words go out, kind words come back.)",opts:["말이 = speech (subject marker 이 from A1)","말을 = speech (object)","말에 = speech (location)","말의 = speech (possessive)"],ans:"말이 = speech (subject marker 이 from A1)",hint:"말이 = speech + subject marker. 이/가 from A1."},
+{type:"fb",s:"콩 심{1} 데 콩 나{2}, 팥 심{1} 데 팥 {3}다.\n(Plant beans, get beans. Plant red beans, get red beans.)",a:["은","고","난"],opts:["은","고","난","는","지만","는"],hint:"Past participle. And. Past participle + emerge."},
+{type:"mc",q:"서당 개 삼 년에 풍월을 읊는다.\n삼 년 uses which A1 time pattern?\n(Even a dog at a village school recites poetry after 3 years.)",opts:["Sino-Korean number + 년 (year): time duration from A1","Native Korean number","B1 pattern","Not a number"],ans:"Sino-Korean number + 년 (year): time duration from A1",hint:"삼 = 3. 년 = year. Sino-Korean counting from A1."},
 ]},
 // --- L2: 속담 깊이 (Proverbs Deep Dive) ---
 {id:"kou27l2",title:"속담 깊이",icon:"🔍",xp:20,board:true,steps:[
@@ -7193,6 +7197,12 @@ export default [
 {type:"drag_fill",s:"{1}이 반이니까 일단 시작해. 그리고 {2}도 제 말 하면 온다더니 마침 네가 왔네. {3}는 놈 위에 {4}는 놈 있으니까 겸손하자.\n(Starting is half, so just begin. Speak of the devil, here you are. Stay humble.)",blanks:{"1":"시작","2":"호랑이","3":"뛰","4":"나"},pool:["시작","호랑이","뛰","나","끝","원숭이","걸","가"],hint:"Start. Tiger. Run. Fly."},
 {type:"mc",q:"다음 중 겸손과 관련된 속담은?",opts:["뛰는 놈 위에 나는 놈 있다 (There's always someone above)","시작이 반이다 (Starting is half)","호랑이도 제 말 하면 온다 (Speak of the devil)","백문이 불여일견 (Seeing is believing)"],ans:"뛰는 놈 위에 나는 놈 있다 (There's always someone above)",hint:"Which one warns against arrogance?"},
 {type:"fb",s:"{1}는 놈 위에 나는 {2} 있다.\n(Above a runner, there's a ___)",a:["뛰","놈"],opts:["뛰","놈","걷","것","달리","사람"],hint:"Run. Person (casual/literary)."},
+
+{type:"mc",q:"시작이 반이다.\n이다 is from which level?\n(Starting is half the battle.)",opts:["A1 copula: 이다 (to be)","B1 grammar","B2 pattern","Not standard"],ans:"A1 copula: 이다 (to be)",hint:"이다 = is/to be. The first grammar point in A1."},
+{type:"fb",s:"호랑이{1} 제 말 하{2} 온다. 백문{3} 불여일견이다.\n(Speak of the tiger and it comes. Hearing 100 times is not as good as seeing once.)",a:["도","면","이"],opts:["도","면","이","는","고","을"],hint:"Also/even. Conditional. Subject."},
+{type:"mc",q:"세 살 버릇 여든까지 간다.\n-까지 is from?\n(A habit from age 3 goes to age 80.)",opts:["A1 particle: 까지 (until/up to)","B1 grammar","B2 pattern","Not a particle"],ans:"A1 particle: 까지 (until/up to)",hint:"까지 = until/up to. Basic A1 particle."},
+{type:"fb",s:"뛰{1} 놈 위에 나{2} 놈 있다. A1 particle 위에 = {3}.\n(Above the runner is a flyer. 위에 = ?)",a:["는","는","above/on top of"],opts:["는","는","above/on top of","은","은","below","ㄴ","ㄴ","beside"],hint:"Present modifier. Present modifier. Spatial: above."},
+{type:"drag_fill",s:"A1: 이다 = {1}. 까지 = {2}. 위에 = {3}.\nB2: 속담 = {4}.\n(Copula. Until. Above. Proverb.)",blanks:{"1":"to be","2":"until","3":"above","4":"proverb"},pool:["to be","until","above","proverb","to go","from","below","idiom"],hint:"Basic A1 patterns + B2 cultural concept."},
 ]},
 // --- L3: 사자성어 입문 (4-Character Idioms Intro) ---
 {id:"kou27l3",title:"사자성어 입문",icon:"🏛️",xp:20,board:true,steps:[
@@ -7212,6 +7222,13 @@ export default [
 {type:"mc",q:"우여곡절 끝에 드디어 졸업했어요.\n우여곡절 means:",opts:["After many difficulties and complications","With great joy and celebration","Quickly and efficiently","According to the original plan"],ans:"After many difficulties and complications",hint:"右餘曲折 = right-extra-bent-broken. A winding road."},
 {type:"drag_fill",s:"한국어 배우면서 친구도 사귀니 {1}이에요. {2} 끝에 드디어 실력이 늘었어요. 말 안 해도 통하는 {3}.\n(Two benefits. After twists and turns, improved. Heart-to-heart understanding.)",blanks:{"1":"일석이조","2":"우여곡절","3":"이심전심"},pool:["일석이조","우여곡절","이심전심","자업자득","시행착오","동문서답"],hint:"One-stone-two-birds. Twists-turns. Heart-transmit-heart."},
 {type:"mc",q:"다음 중 부정적인 뉘앙스가 가장 강한 사자성어는?",opts:["자업자득 (You brought it on yourself)","일석이조 (Two birds one stone)","이심전심 (Heart-to-heart)","시행착오 (Trial and error)"],ans:"자업자득 (You brought it on yourself)",hint:"Which one blames someone for their own bad result?"},
+
+{type:"mc",q:"일석이조 (一石二鳥).\n한자어 compound에서 일(一) = ?\n(Kill two birds with one stone.)",opts:["일 = one (Sino-Korean number from A1)","일 = day","일 = work","일 = first"],ans:"일 = one (Sino-Korean number from A1)",hint:"일 = 1. 석 = stone. 이 = 2. 조 = bird. A1 Sino-Korean numbers."},
+{type:"fb",s:"자업자득{1}에요. 자기{2} 한 일{3} 자기가 받는 거예요.\n(You reap what you sow. What you did, you receive.)",a:["이","가","을"],opts:["이","가","을","예","는","이"],hint:"Copula. Subject. Object. A1 particles in a B2 context."},
+{type:"mc",q:"시행착오 없이 성공하기는 어렵다.\n-기는 어렵다 recalls?\n(It is hard to succeed without trial and error.)",opts:["A2 -기 nominalization + B1 difficulty expression","B2 only","A1 only","Not standard"],ans:"A2 -기 nominalization + B1 difficulty expression",hint:"-기 = noun form (A2). 어렵다 = difficult. Combined evaluation."},
+
+{type:"fb",s:"우여곡절{1} 끝에 성공했어요. 이심전심{2}로 마음{3} 통했어요.\n(Succeeded after twists and turns. Hearts connected through telepathy.)",a:["의","으","이"],opts:["의","으","이","에","로","을"],hint:"Possessive. By-means. Subject."},
+{type:"mc",q:"일석이조 + 자업자득: both use A1 Sino-Korean numbers.\n일(1), 이(2), 자(自) recall?\n(One-stone-two-birds. Self-deed-self-gain.)",opts:["A1 Sino-Korean counting and basic hanja morphemes","B2 only","Not related to A1","A2 pattern"],ans:"A1 Sino-Korean counting and basic hanja morphemes",hint:"일=1, 이=2 from Sino-Korean. 자=self used in compounds."},
 ]},
 // --- L4: 사자성어 활용 (Using 4-Character Idioms) ---
 {id:"kou27l4",title:"사자성어 활용",icon:"📝",xp:20,board:true,steps:[
@@ -7230,6 +7247,14 @@ export default [
 {type:"drag_fill",s:"미리 준비하면 {1}이에요. 하지만 준비 없이 하면 {2}하다가 {3}이 되기 {4}이에요.\n(Prepare = no worry. Without prep, crash around and become a mess easily.)",blanks:{"1":"유비무환","2":"좌충우돌","3":"오합지졸","4":"십상"},pool:["유비무환","좌충우돌","오합지졸","십상","전화위복","동문서답","자업자득","마련"],hint:"Prepared-no-worry. Left-crash-right. Messy-group. Negative-tendency."},
 {type:"mc",q:"사자성어 10개를 배웠습니다.\n다음 중 '긍정적' 의미를 가진 것은?",opts:["전화위복 (Disaster became blessing)","자업자득 (Brought it on yourself)","좌충우돌 (Reckless action)","오합지졸 (Disorganized group)"],ans:"전화위복 (Disaster became blessing)",hint:"Which describes something bad becoming something good?"},
 {type:"match",pairs:[{nl:"일석이조",en:"Two benefits from one action"},{nl:"시행착오",en:"Trial and error"},{nl:"동문서답",en:"Completely off-topic answer"},{nl:"오합지졸",en:"Disorganized group"}]},
+
+{type:"mc",q:"전화위복 (轉禍爲福).\n화(禍) = disaster, 복(福) = ?\n(Turning disaster into...)",opts:["복 = blessing/fortune","복 = belly","복 = complex","복 = double"],ans:"복 = blessing/fortune",hint:"전(turn) + 화(disaster) + 위(become) + 복(blessing)."},
+{type:"fb",s:"유비무환{1}에요. 미리 준비{2}면 걱정{3} 없어요.\n(Preparedness averts disaster. If you prepare, no worries.)",a:["이","하","이"],opts:["이","하","이","예","해","을"],hint:"Copula. If-prepare. Subject: no worries."},
+{type:"mc",q:"동문서답 = 동(East) + 문(ask) + 서(West) + 답(answer).\n동/서 are from?\n(Asking east, answering west = irrelevant answer.)",opts:["A1 direction words: 동 (east), 서 (west)","B1 vocabulary","B2 only","Not taught before"],ans:"A1 direction words: 동 (east), 서 (west)",hint:"동 = east, 서 = west. Basic directions from A1."},
+{type:"fb",s:"좌충우돌하{1}서 결국 성공했어요. 우여곡절{2} 많았{3}만 잘 끝났어요.\n(After bumbling around, succeeded. Many twists but ended well.)",a:["아","이","지"],opts:["아","이","지","어","을","고"],hint:"Because/so. Subject. But (concessive)."},
+
+{type:"fb",s:"좌충우돌{1}서도 포기하{2} 않았어요. 결국 전화위복{3} 됐어요.\n(Did not give up despite bumbling. Became a blessing in disguise.)",a:["에","지","이"],opts:["에","지","이","에서","고","을"],hint:"In/from. Negation. Subject-became."},
+{type:"mc",q:"유비무환: 있을 유, 준비할 비, 없을 무, 걱정 환.\nA2 vocab 준비 and B1 vocab 걱정 appear in this 사자성어?\n(Preparedness. Worry.)",opts:["Yes: 준비 (prepare, A2) and 걱정 (worry, B1) are embedded in the hanja","No connection","B2 vocabulary only","A1 only"],ans:"Yes: 준비 (prepare, A2) and 걱정 (worry, B1) are embedded in the hanja",hint:"비=prepare (준비), 환=worry (걱정). Cross-level."},
 ]},
 // --- L5: -은/는커녕 (Let Alone) ---
 {id:"kou27l5",title:"커녕",icon:"🚫",xp:20,board:true,steps:[
@@ -7247,6 +7272,15 @@ export default [
 {type:"drag_fill",s:"승진{1}커녕 월급도 안 {2}. 감사{1}커녕 비판{3} 받았어요. 쉬{4}는커녕 더 {5} 일{6} 했어요.\n(Let alone promotion, no raise. Far from thanks, got criticism. Far from resting, worked more busily.)",blanks:{"1":"은","2":"올랐어요","3":"만","4":"기","5":"바쁘게","6":"만"},pool:["은","올랐어요","만","기","바쁘게","만","는","내렸어요","도","어서","천천히","을"],hint:"Topic. Didn't rise. Only. Nominalizer. Busily. Only."},
 {type:"fb",s:"이해하{1}는커녕 듣{2}도 안 했{3}.\n(Let alone understanding, didn't even listen.)",a:["기","기","어요"],opts:["기","기","어요","는","는","지요","기","지","습니다"],hint:"Nominalizer. Nominalizer + 도. Past polite."},
 {type:"mc",q:"은/는커녕 뒤에 항상 오는 것은?",opts:["부정적인 내용 + 도/조차/만 (Negative + even/only)","긍정적인 결과 (Positive result)","질문 (A question)","명령 (A command)"],ans:"부정적인 내용 + 도/조차/만 (Negative + even/only)",hint:"커녕 always leads to: not even [smaller thing]."},
+
+{type:"mc",q:"밥은커녕 물도 못 마셨어요.\nA1 particles 은/도 here?\n(Let alone rice, could not even drink water.)",opts:["은 = topic (on 밥) + 도 = even/also (on 물): A1 particles framing 커녕","은 and 도 are B2","Not particles","Only 은 is A1"],ans:"은 = topic (on 밥) + 도 = even/also (on 물): A1 particles framing 커녕",hint:"은커녕 = far from [topic]. 도 = even. Both A1 particles."},
+{type:"fb",s:"여행{1}커녕 집 밖{2}도 못 나갔{3}요.\n(Let alone travel, could not even go outside.)",a:["은","에","어"],opts:["은","에","어","을","을","았"],hint:"Topic + 커녕. Direction + even. Past polite."},
+{type:"mc",q:"도와주기는커녕 방해만 했어요.\n-기는커녕 uses -기 from?\n(Far from helping, only interfered.)",opts:["A2 -기 nominalization: 도와주기 = the act of helping","B1 pattern","Not nominalization","B2 only"],ans:"A2 -기 nominalization: 도와주기 = the act of helping",hint:"도와주다 → 도와주기 = helping (noun). -기 from A2."},
+{type:"fb",s:"감사{1}커녕 불평{2} 해요. 칭찬{1}커녕 비판{2} 받았어요.\n(Far from thanks, complains. Far from praise, received criticism.)",a:["는","만","은","만"],opts:["는","만","은","만","을","도","이","을"],hint:"Topic + 커녕. Only. Topic + 커녕. Only."},
+{type:"drag_fill",s:"A1: 은/는 = {1}. 도 = {2}. 만 = {3}.\nB2: 커녕 = {4}.\n(Topic. Even. Only. Let-alone.)",blanks:{"1":"topic","2":"even/also","3":"only","4":"let alone"},pool:["topic","even/also","only","let alone","subject","and","but","because"],hint:"A1 particles all support the B2 커녕 pattern."},
+
+{type:"fb",s:"쉬{1}커녕 더 바빠졌{2}요. 이해{3}커녕 관심{4} 없어요.\n(Far from resting, got busier. Far from understanding, no interest.)",a:["기는","어","는","도"],opts:["기는","어","는","도","는","았","은","을"],hint:"Nominalization+topic 커녕. Past-became. Topic 커녕. Even/also."},
+{type:"mc",q:"칭찬은커녕 비판만 받았어요.\nA1 particle 만 means?\n(Far from praise, only received criticism.)",opts:["만 = only (A1 limiting particle)","만 = also","만 = even","만 = but"],ans:"만 = only (A1 limiting particle)",hint:"만 = only. One of the first A1 particles."},
 ]},
 // --- L6: -(으)나 마나 vs -(으)ㄴ/는들 (No Use & Even If) ---
 {id:"kou27l6",title:"나 마나 vs 는들",icon:"🔄",xp:20,board:true,steps:[
@@ -7264,6 +7298,15 @@ export default [
 {type:"drag_fill",s:"설명하{1} 마나 안 들을 거야. 설명{2}들 이해 못 해. 어려{3}지라도 끝까지 하세요.\n(No use explaining. Even if explained, won't understand. Even if hard, finish it.)",blanks:{"1":"나","2":"한","3":"울"},pool:["나","한","울","는","하는","운"],hint:"Na-mana. Past-deul. Future-jirado."},
 {type:"fb",s:"비가 {1}지라도 가겠{2}. 우산이 있{3} 마나 이미 젖었{4}.\n(Even if it rains, I'll go. Umbrella or not, already wet.)",a:["올","습니다","으나","어요"],opts:["올","습니다","으나","어요","오는","어요","는","지요"],hint:"Future-concession. Formal ending. Or-not. Past polite."},
 {type:"mc",q:"다음 중 '포기하지 말라'는 뉘앙스가 있는 것은?",opts:["실패할지라도 도전하세요 (Even if fail, try)","말하나 마나예요 (No use talking)","노력한들 소용없어 (Even effort is useless)","가나 마나예요 (No point going)"],ans:"실패할지라도 도전하세요 (Even if fail, try)",hint:"Only ㄹ지라도 concedes but still encourages action."},
+
+{type:"mc",q:"말해 봐야 소용없어요 = 말하나 마나예요.\n-아/어 봐야 is from?\n(Even if you say it, useless = saying or not is the same.)",opts:["B1 -아/어 보다 (try doing) extended to futility","A1 pattern","B2 new","Not standard"],ans:"B1 -아/어 보다 (try doing) extended to futility",hint:"-아 봐야 = even if you try. From B1 -아 보다 (try)."},
+{type:"fb",s:"문{1} 잠그{2} 마나 도둑{3} 들어와요. 노력하{4} 마나예요.\n(Locking door or not, thieves come in. Effort or not, same.)",a:["을","나","이","나"],opts:["을","나","이","나","이","거나","은","거나"],hint:"Object. Or-not. Subject. Or-not."},
+{type:"mc",q:"포기하는들 달라지는 것이 없어요.\n-는들 sounds similar to -(으)면 but means?\n(Even if you give up, nothing changes.)",opts:["Even if (futile/concessive): the result stays the same regardless","If/when (neutral condition)","Because","While"],ans:"Even if (futile/concessive): the result stays the same regardless",hint:"-는들 = even if. Implies futility: doing X won't matter."},
+{type:"fb",s:"비{1} 오{2}들 운동{3} 해요. 아무리 노력하{2}들 소용없{4}요.\n(Even if it rains, I exercise. No matter how hard you try, useless.)",a:["가","는","을","어"],opts:["가","는","을","어","이","ㄴ","이","았"],hint:"Subject. Present + 는들. Object. Polite."},
+{type:"drag_fill",s:"나 마나 = doing or {1}. 는들 = even if (but {2}). ㄹ지라도 = even if (more {3}).\nA2: -(으)면 = {4}. B1: -아 보다 = {5}.\n(Not-doing. Futile. Formal. If. Try.)",blanks:{"1":"not, same result","2":"futile","3":"formal","4":"if/when","5":"try doing"},pool:["not, same result","futile","formal","if/when","try doing","because","while","must"],hint:"Three concession levels + their A2/B1 roots."},
+
+{type:"fb",s:"아무리 설명하{1}들 이해 못 해요. 가{2} 마나 같{3}요.\n(No matter how much you explain, they won't understand. Going or not, it's the same.)",a:["는","나","아"],opts:["는","나","아","ㄴ","거나","어"],hint:"Present + 는들. Or-not. Same-polite."},
+{type:"mc",q:"-(으)ㄹ지라도 포기하지 마세요.\n-지 마세요 is from?\n(Even if [X happens], do not give up.)",opts:["A2: -지 마세요 (do not / prohibition)","B1 only","B2 only","A1 only"],ans:"A2: -지 마세요 (do not / prohibition)",hint:"-지 마세요 = do not. A2 prohibition."},
 ]},
 // --- L7: -아/어 봤자 vs -아/어서라도 (Futile vs Determined) ---
 {id:"kou27l7",title:"봤자 vs 서라도",icon:"⚔️",xp:20,board:true,steps:[
@@ -7280,6 +7323,16 @@ export default [
 {type:"drag_fill",s:"혼자 해 {1} 시간만 낭비해요. 하지만 도움을 {2}서라도 끝낼 거예요. 포기하{3} 마나니까.\n(Alone = waste time. But even if I must ask for help, I'll finish. No use giving up anyway.)",blanks:{"1":"봤자","2":"빌려","3":"나"},pool:["봤자","빌려","나","봤어","빌어","는"],hint:"Futile-try. Borrow/ask. Na-mana."},
 {type:"fb",s:"돈이 없어{1} 봤자 해결 안 돼. 일해{2}라도 벌어야 해.\n(Complaining about no money is useless. Even if it means working, must earn.)",a:["도","서"],opts:["도","서","봤","기","는","면"],hint:"Even-so. Even-if-means."},
 {type:"mc",q:"밤을 새워서라도 끝낼 거예요.\n이 문장의 태도는?",opts:["강한 의지와 결심 (Strong will and determination)","포기 (Giving up)","무관심 (Indifference)","후회 (Regret)"],ans:"강한 의지와 결심 (Strong will and determination)",hint:"서라도 = I'll go to this extreme to achieve my goal."},
+
+{type:"mc",q:"울어 봤자 소용없어요.\nA1 particle 어 + B1 봐야:\n(Even if you cry, useless.)",opts:["울다 → 울어 (A1 vowel contraction) + 봤자 (B2 futility)","B2 only","A1 only","Not standard"],ans:"울다 → 울어 (A1 vowel contraction) + 봤자 (B2 futility)",hint:"울다 → 울어 = cry (A1 verb conjugation). 봤자 = even if you try."},
+{type:"fb",s:"빌려{1}라도 사{2} 싶어요. 걸어{1}라도 가{2} 합니다.\n(Want to buy even if I have to borrow. Must go even if I have to walk.)",a:["서","고","서","야"],opts:["서","고","서","야","도","고","도","지"],hint:"Even-if-by. Want-to. Even-if-by. Must."},
+{type:"mc",q:"봤자 = futility, 서라도 = determination.\nA1-B2 level map?\n(Even-if-try vs Even-if-I-must.)",opts:["Both use A2 -아/어 conjugation as base, extended to B2 concession","Both are A1","Both are B1","No A1/A2 roots"],ans:"Both use A2 -아/어 conjugation as base, extended to B2 concession",hint:"-아 봤자 and -아서라도 both build on basic -아/어 conjugation."},
+
+{type:"mc",q:"설명해 봤자 소용없어요.\n봤자 implies?\n(Even if you try explaining, useless.)",opts:["Futility: the action is pointless no matter what","Success if you try hard enough","Past experience","Future hope"],ans:"Futility: the action is pointless no matter what",hint:"봤자 = even if you try V-ing, it won't matter."},
+{type:"fb",s:"빌려{1}라도 {2}고 싶어요. 걸어{1}라도 가{3} 해요.\n(Want to buy even by borrowing. Must go even by walking.)",a:["서","사","야"],opts:["서","사","야","도","빌리","지"],hint:"Even-if-by. Buy. Must."},
+{type:"mc",q:"봤자 and 서라도 both end with -아/어.\nA2 -아/어 conjugation is the base for both?\n(Both patterns build on basic vowel harmony.)",opts:["Yes: both use A2 vowel harmony -아/어 as their foundation","No: different roots","Only 봤자 uses it","Only 서라도 uses it"],ans:"Yes: both use A2 vowel harmony -아/어 as their foundation",hint:"-아 봤자, -아서라도. Both use -아/어 vowel harmony from A2."},
+{type:"fb",s:"포기{1} 봤자 달라지{2} 거 없어요. 끝까지 해 {3}라도 최선{4} 다하세요.\n(Even if you give up, nothing changes. Do your best even if you must push through.)",a:["해","는","서","을"],opts:["해","는","서","을","하","ㄴ","도","이"],hint:"Do+봤자. That-which. Even-by. Object(best)."},
+{type:"drag_fill",s:"봤자: 울어 {1} = crying is {2}. 서라도: 빌려{3} = will do it even by {4}.\n(Crying useless. Will borrow if must.)",blanks:{"1":"봤자","2":"useless","3":"서라도","4":"borrowing"},pool:["봤자","useless","서라도","borrowing","봐야","useful","서도","lending"],hint:"Futility marker. Pointless. Determination marker. The means."},
 ]},
 // --- L8: -(ㄴ/는)다니!/라니! (Surprise/Reaction) ---
 {id:"kou27l8",title:"다니! / 라니!",icon:"😲",xp:20,board:true,steps:[
@@ -7296,6 +7349,16 @@ export default [
 {type:"drag_fill",s:"벌써 졸업이{1}! 시간이 빠르{2}. 취업 못 할 거{3}더니 좋은 회사에 들어{4}.\n(Already graduation?! Time flies! Said wouldn't get a job, but got into a good company.)",blanks:{"1":"라니","2":"다니","3":"라","4":"갔네"},pool:["라니","다니","라","갔네","다니","라니","라도","왔네"],hint:"Noun-surprise. Adjective-surprise. Noun-hearsay. Discovery."},
 {type:"fb",s:"혼자 {1}다니 대단해! 무섭{2}더니 용감하{3}.\n(Can't believe you went alone! Said scared, but brave.)",a:["갔","다","네"],opts:["갔","다","네","가는","다더","어요","간","라","지"],hint:"Past-surprise. Said-hearsay. Discovery."},
 {type:"mc",q:"다니와 다더니를 구별하세요.\n'놀랐다니' vs '놀랐다더니'의 차이는?",opts:["다니 = I'm surprised they were surprised / 다더니 = They said surprised, but (twist)","Same meaning, different formality","다니 = past / 다더니 = future","다니 = formal / 다더니 = casual"],ans:"다니 = I'm surprised they were surprised / 다더니 = They said surprised, but (twist)",hint:"다니 = my reaction. 다더니 = their claim + contradiction."},
+
+{type:"mc",q:"이렇게 비싸다니!\n-다니 comes from -다고 + 니?\n(I cannot believe it is this expensive!)",opts:["Yes: B1 indirect quote -다고 + surprise marker = 다니","A1 pattern","B2 only with no roots","Not a quotation"],ans:"Yes: B1 indirect quote -다고 + surprise marker = 다니",hint:"-다니 = -다고 하니 contracted. Quote + disbelief."},
+{type:"fb",s:"한국어{1} 쉽{2}니! 거짓말{3}라니! 놀{4}고 있{5}다니!\n(Korean is easy, really?! A lie, really?! Playing around, really?!)",a:["가","다","이","고","다"],opts:["가","다","이","고","다","을","는","을","어","는"],hint:"Subject. Statement-surprise. Copula-surprise. Progressive. Statement."},
+{type:"mc",q:"바쁘다더니 놀고 있어요?\n-더니 recalls B1 past observation. What is the twist?\n(You said you were busy but you are playing?)",opts:["Past claim (via hearsay) contradicts current reality","Agreement with past claim","Future prediction","No contradiction"],ans:"Past claim (via hearsay) contradicts current reality",hint:"-다더니 = they said X, but now Y (opposite). Twist."},
+{type:"fb",s:"공부하{1}더니 성적{2} 올랐어요. 맛없{1}더니 지금 잘 먹{3}요!\n(Said they studied, and grades went up. Said it was not tasty, but now eating well!)",a:["다","이","네"],opts:["다","이","네","는","을","어"],hint:"Hearsay-then. Subject. Surprise-observation."},
+{type:"drag_fill",s:"B1: -다고 = {1}. B2: -다니 = {2}. -다더니 = {3}.\nA1: 이/가 = {4}. A2: -고 있다 = {5}.\n(Quote. Surprise. Hearsay+twist. Subject. Progressive.)",blanks:{"1":"indirect quote","2":"surprise/disbelief","3":"hearsay + twist","4":"subject","5":"progressive"},pool:["indirect quote","surprise/disbelief","hearsay + twist","subject","progressive","object","past","command"],hint:"B1 quote → B2 extensions + A1/A2 basics."},
+
+{type:"fb",s:"합격했{1}니! 축하해요! 시험{2} 떨어졌{1}니, 어떻게 된 거예요?\n(You passed, really?! You failed, what happened?!)",a:["다","에","다"],opts:["다","에","다","는","을","다고"],hint:"Statement-surprise. Location/target. Statement-surprise."},
+{type:"mc",q:"맛없다더니 지금 잘 먹네요!\n-네요 ending is from?\n(Said it was bad but eating well now!)",opts:["A2 observation/surprise: -네요 (I notice that!)","B1 only","B2 only","A1 pattern"],ans:"A2 observation/surprise: -네요 (I notice that!)",hint:"-네요 = oh, I see! A2 surprise ending."},
+{type:"fb",s:"열심히 한{1}더니 성적{2} 올랐네{3}! 게으르{1}더니 결과{4} 안 좋{5}니!\n(Said they worked hard, grades rose! Said they were lazy, results bad!)",a:["다","이","요","가","다"],opts:["다","이","요","가","다","는","을","어","를","는"],hint:"Hearsay. Subject. Surprise. Subject. Statement-disbelief."},
 ]},
 // --- L9: 관용 표현 (Body-Part Idioms) ---
 {id:"kou27l9",title:"관용 표현",icon:"🫀",xp:20,board:true,steps:[
@@ -7319,6 +7382,10 @@ export default [
 {type:"fb",s:"그 사람은 {1}가 얇아서 뭐든 믿어. {2}이 가벼우니까 비밀도 못 지켜.\n(Gullible so believes everything. Loose tongue so can't keep secrets.)",a:["귀","입"],opts:["귀","입","눈","코","손","발"],hint:"Thin ears. Light mouth."},
 {type:"drag_fill",s:"{1}이 높아서 아무도 안 만나고, {2}이 넓어서 어디든 아는 사람이 있고, {3}이 커서 음식을 많이 만들어요.\n(High standards. Well-connected. Generous with food.)",blanks:{"1":"눈","2":"발","3":"손"},pool:["눈","발","손","귀","코","입"],hint:"Eye-high. Foot-wide. Hand-big."},
 {type:"mc",q:"배가 아프다의 비유적 의미는?",opts:["질투하다 / 부러워하다 (Jealous / envious)","배탈이 나다 (Stomachache)","슬프다 (Sad)","화나다 (Angry)"],ans:"질투하다 / 부러워하다 (Jealous / envious)",hint:"Stomach pain from envy. Someone else's success hurts."},
+
+{type:"mc",q:"눈이 높다 = standards are high.\n눈 is from which level?\n(Eyes are high = picky/high standards.)",opts:["A1 body part: 눈 (eye) — now in an idiom","B1 vocabulary","B2 vocabulary","Not taught before"],ans:"A1 body part: 눈 (eye) — now in an idiom",hint:"눈 = eye. Taught in A1 body parts. Now in B2 idiom."},
+{type:"fb",s:"{1}이 높은 사람{2} 결혼하기 어려{3}요.\n(People with high standards find it hard to marry.)",a:["눈","은","워"],opts:["눈","은","워","귀","이","어"],hint:"Eye (A1). Topic. Hard-to (irregular adj)."},
+{type:"mc",q:"배가 아프다 = jealous (literally: stomach hurts).\nA1 body part 배 + A2 -아프다 recalls?\n(Stomach hurts = feel jealous.)",opts:["A1 배 (stomach) + A2 아프다 (hurt/sick): basic words in B2 idiom","Both B2","Not body part related","B1 only"],ans:"A1 배 (stomach) + A2 아프다 (hurt/sick): basic words in B2 idiom",hint:"배 = stomach (A1). 아프다 = hurts (A2). Combined: jealousy idiom."},
 ]},
 // --- L10: 종합 평가 (Unit Assessment) ---
 {id:"kou27l10",title:"종합 평가",icon:"🏆",xp:25,board:true,steps:[
@@ -7337,6 +7404,12 @@ export default [
 {type:"match",pairs:[{nl:"눈이 높다",en:"High standards"},{nl:"배가 아프다",en:"Jealous"},{nl:"-은/는커녕",en:"Let alone / far from"},{nl:"시작이 반이다",en:"Starting is half the battle"}]},
 {type:"drag_fill",s:"취업{1}커녕 면접{2} 못 봤어요. 하지만 {3}업{3}득이라 생각하고, {4}을 먹고 다시 도전할 거예요. 빌려{5}라도 학원비를 마련하겠습니다.\n(Let alone job, couldn't even interview. But thinking 'reap what I sow,' I'll decide firmly and try again. Even borrowing, I'll prepare tuition.)",blanks:{"1":"은","2":"도","3":"자","4":"마음","5":"서"},pool:["은","도","자","마음","서","는","만","타","손","기"],hint:"Topic. Even. Self. Heart. Even-means."},
 {type:"mc",q:"U27에서 배운 패턴 중 가장 문어체인 것은?",opts:["-(으)ㄴ/는들 (even if — literary)","-(으)나 마나 (no use)","-(ㄴ/는)다니 (surprise!)","-아/어 봤자 (useless to try)"],ans:"-(으)ㄴ/는들 (even if — literary)",hint:"는들 is the most literary/written of these patterns."},
+
+{type:"mc",q:"밥은커녕 물도 못 마셨어요.\n커녕 + A1 particles 은/도:\n(Let alone rice, could not even drink water.)",opts:["은 (topic) + 커녕 + 도 (even): A1 particles frame B2 pattern","B2 only","A1 only","No particles involved"],ans:"은 (topic) + 커녕 + 도 (even): A1 particles frame B2 pattern",hint:"커녕 works with A1 particles 은/는 and 도."},
+{type:"fb",s:"시작{1} 반{2}다. 일석이조{3} 좋은 결과예요.\n(Starting is half. A two-birds-one-stone good result.)",a:["이","이","는"],opts:["이","이","는","의","예","이"],hint:"Subject. Copula-half. Topic."},
+{type:"mc",q:"울어 봤자 소용없고, 빌려서라도 해결해야 해요.\n봤자 vs 서라도 in one sentence?\n(Crying is useless, must solve even if borrowing.)",opts:["봤자 (futile action) + 서라도 (determined action) — contrast in one sentence","Same meaning","Both show futility","Both show determination"],ans:"봤자 (futile action) + 서라도 (determined action) — contrast in one sentence",hint:"봤자 = useless even if. 서라도 = will do it even if I must."},
+{type:"drag_fill",s:"속담: 가는 말이 {1}야 오는 말이 곱다. (Kind words beget kind words.)\n사자성어: 전화{2}복. (Disaster becomes blessing.)\n관용: {3}이 높다. (High standards.)",blanks:{"1":"고와","2":"위","3":"눈"},pool:["고와","위","눈","나빠","화","귀"],hint:"Must be nice. Become. Eye."},
+{type:"mc",q:"U27의 핵심 주제는?\n(Core theme of U27?)",opts:["속담, 사자성어, 관용 표현과 양보 패턴 (Proverbs, 4-char idioms, idioms & concession)","새로운 문법만 (Only new grammar)","발음 연습 (Pronunciation)","읽기만 (Reading only)"],ans:"속담, 사자성어, 관용 표현과 양보 패턴 (Proverbs, 4-char idioms, idioms & concession)",hint:"U27 = Korean cultural expressions and concession grammar."},
 ]},
 ]},
 
