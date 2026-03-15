@@ -246,20 +246,20 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 - **B1 Full Quality Audit (D92, 2026-03-15)**: 14 commit rounds. ~50 P8 fixes, 6 engine \n bugs, 5 P34 violations, ~15 translations, 3 D90 reframes.
 - **TOPIK/TTMIK gap plan: EXECUTED (2026-03-14)**. All 6 sprints complete. TTMIK L1-6 coverage ~90-95%.
 - 20 units, ~209 lessons total, ~4,700+ steps (after all audit additions)
-- **B2 (U21-U30): SKELETON COMMITTED, DENSITY UPLIFT PENDING.**
+- **B2 (U21-U30): COMPLETE + DENSITY UPLIFT (D95/D96).**
   - 10 units, 100 lessons, ~77 grammar patterns, 10 proverbs, 10 사자성어, 10 body idioms.
   - B2.1 (U21-U25): Formal writing, opinions, news, regret/hypotheticals, cause discrimination.
   - B2.2 (U26-U30): Habits, proverbs/idioms, comparison/degree, register mastery, TOPIK prep + C1 preview.
   - TOPIK II writing prep (51번/52번/53번). 4-register mastery. 8 C1 seeds planted.
-  - **DENSITY ISSUE (D95)**: Skeleton avg 13.8 steps/lesson (91/100 below P43 minimum of 18-20). Same pattern as B1 pre-D88. Requires D88-style density uplift pass (~400-500 additional quiz steps).
+  - **DENSITY UPLIFT COMPLETE (2026-03-15)**: All 100 lessons now 20-22 steps (avg 21.2). ~600 cross-level review steps added recycling A1-B1 grammar. Brace/bracket balanced. D89 clean. 0 low lessons.
   - P8 scan: 4 leaks found and fixed. P34 scan: PASS. board:true: 311/311.
-- 30 units, ~311 lessons total
+- 30 units, ~311 lessons total, ~6,900+ steps (after B2 uplift)
 - **REMAINING QUALITY ITEMS**:
-  - B2 density uplift (CRITICAL — must reach P43 minimum before B2 is production-ready).
   - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
   - P44 lazy hints: 12 in A1/A2 content.
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
-- **NEXT ACTION**: B2 density uplift (D88-style pass), then C1 curriculum or expansion to other languages.
+  - B2 content quality audit (P8/P34/P46 deep scan) — density is met but individual step quality not yet verified at D92 level.
+- **NEXT ACTION**: B2 quality audit (D92-style), then C1 curriculum or expansion to other languages.
 
 ### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
@@ -278,7 +278,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 skeleton committed, density uplift pending (D95). Next: **B2 density uplift, then C1**.
+1. **Korean** - A1-B2 COMPLETE. A1-B1 fully audited (D92+D93). B2 density uplift COMPLETE (D96, avg 21.2). Next: **B2 quality audit, then C1**.
 2. **Dutch** - A1-B1 DONE. Next: retroactive polish, then B2.
 3. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
 4. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1.
