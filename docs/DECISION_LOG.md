@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-15 (D1-D85 + D86-D87 in CLAUDE.md)
+> Last updated: 2026-03-15 (D1-D85 + D86-D88 in CLAUDE.md)
 
 ---
 
@@ -95,6 +95,7 @@
 | D85 | Streamlined Onboarding: Single Screen | Engine | All |
 | D86 | String Editing Safety (CLAUDE.md only) | Agent Protocol | All |
 | D87 | Post-Verification Evidence Format (CLAUDE.md only) | Agent Protocol | All |
+| D88 | B1 Density Uplift: 106 Lessons to 20+ Steps | Content/Quality | Korean |
 
 ---
 
@@ -119,7 +120,7 @@ D32, D37
 D11, D35d, D69
 
 ### Korean Curriculum
-D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77
+D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88
 
 ### Korean Engine Features
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84

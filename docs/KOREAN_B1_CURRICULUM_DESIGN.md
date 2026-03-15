@@ -296,9 +296,10 @@ Each unit is bracketed by comment headers:
 | Metric | Value |
 |--------|-------|
 | Total B1 units | 10 |
-| Total B1 lessons | 93 |
-| Total B1 steps | ~1,285 |
-| Average steps/lesson | 13.8 |
+| Total B1 lessons | 106 (93 original + 10 gap plan + 3 sub-lessons) |
+| Total B1 steps | 2,252 (after D88 density uplift) |
+| Average steps/lesson | 21.2 |
+| Critical lessons (<20 steps) | 0 (was 59/93 before uplift) |
 | Grammar patterns taught | 25+ |
 | Irregular families completed | 3 (6 total) |
 | Seed harvests completed | 12/12 |
@@ -306,4 +307,5 @@ Each unit is bracketed by comment headers:
 | Vocabulary words introduced | ~170 |
 | Post-audit issues found | 17 |
 | Post-audit issues fixed | 17 |
-| Final brace balance | 5975/5975 |
+| Density uplift date | 2026-03-15 (D88) |
+| File line count | ~5,920 |
