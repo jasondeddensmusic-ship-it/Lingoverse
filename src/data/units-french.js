@@ -4832,4 +4832,322 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 16 — Le conditionnel                                  ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:16,lang:"fr",track:"v1",title:"Le conditionnel",sub:"Conditional: Polite & Hypothetical",icon:"💫",level:"A2.8",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Polite requests ═══
+{id:"fre16l1",title:"Demandes polies",icon:"🎩",xp:15,board:true,steps:[
+  {type:"intro",title:"The conditional for politeness",desc:"The conditional is the 'would' tense. Its most common use is for polite requests: je voudrais (I would like) instead of je veux (I want). Same stem as futur simple + imparfait endings!",goals:["Form the conditional tense","Use je voudrais, j'aimerais politely","Make requests with the conditional"]},
+
+  {type:"tip",title:"Conditional formation",text:"STEM: same as futur simple\n(infinitive, or irregular stem)\n\nENDINGS: same as imparfait!\n-ais, -ais, -ait, -ions, -iez, -aient\n\nExamples:\nparler: je parlerais (I would speak)\navoir: j'aurais (I would have)\nêtre: je serais (I would be)\n\nThink: FUTURE STEM + PAST ENDINGS = conditional"},
+
+  {type:"teach",kind:"phrase",nl:"je voudrais",en:"I would like",phonetic:"zhuh voo-DRAY",example:"A: Bonjour, vous désirez?\nB: Je voudrais un café, s'il vous plaît.\nA: Un café, très bien!",exampleEn:"A: Hello, what would you like?\nB: I would like a coffee, please.\nA: A coffee, very well!",note:"Vouloir -> voudr- (future stem) + -ais.\nMuch politer than 'je veux' (I want).\nThe most common conditional form."},
+
+  {type:"teach",kind:"phrase",nl:"j'aimerais",en:"I would like / I'd love",phonetic:"zheh-muh-RAY",example:"A: Qu'est-ce que tu aimerais faire ce week-end?\nB: J'aimerais aller au cinéma.\nA: Bonne idée!",exampleEn:"A: What would you like to do this weekend?\nB: I'd like to go to the cinema.\nA: Good idea!",note:"Aimer -> aimer- (regular stem) + -ais.\nSofter than je veux or je vais.\nExpresses wishes politely."},
+
+  {type:"teach",kind:"phrase",nl:"pourriez-vous",en:"could you (formal)",phonetic:"poo-ree-AY VOO",example:"A: Pourriez-vous m'aider, s'il vous plaît?\nB: Bien sûr! Qu'est-ce qu'il vous faut?\nA: Je cherche la gare.",exampleEn:"A: Could you help me, please?\nB: Of course! What do you need?\nA: I'm looking for the train station.",note:"Pouvoir -> pourr- (future stem) + -iez.\nVery formal and polite.\nUsed with strangers and in professional settings."},
+
+  {type:"mc",q:"The conditional uses the same stem as:",opts:["Present tense","Imparfait","Futur simple","Passé composé"],ans:"Futur simple",hint:"Future stem + past (imparfait) endings = conditional."},
+
+  {type:"fb",s:"Je ___ un thé, s'il vous plaît. (vouloir, conditional)",a:"voudrais",opts:["voudrais","veux","voulais","voudrai"],hint:"I would like a tea. Polite request form."},
+
+  {type:"mc",q:"The conditional endings are the same as:",opts:["Futur simple","Imparfait","Passé composé","Present"],ans:"Imparfait",hint:"The endings -ais, -ais, -ait, -ions, -iez, -aient match this tense."},
+
+  {type:"fb",s:"Tu ___ m'aider? (pouvoir, conditional)",a:"pourrais",opts:["pourrais","peux","pouvais","pourras"],hint:"Could you help me? Polite with conditional."},
+
+  {type:"match",pairs:[{nl:"je voudrais",en:"I would like"},{nl:"j'aimerais",en:"I'd love"},{nl:"pourriez-vous",en:"could you (formal)"},{nl:"tu pourrais",en:"could you (informal)"}]},
+
+  {type:"mc",q:"'Je voudrais' vs 'je veux': which is more polite?",opts:["Je veux","Je voudrais","Both the same","Neither is polite"],ans:"Je voudrais",hint:"The conditional softens the demand into a polite request."},
+
+  {type:"fb",s:"Nous ___ réserver une table. (aimer, conditional)",a:"aimerions",opts:["aimerions","aimons","aimions","aimerons"],hint:"We would like to reserve a table. Aimer + -ions."},
+
+  {type:"mc",q:"'Pourriez-vous parler plus lentement?' is:",opts:["A command","A rude demand","A polite request","A question about ability"],ans:"A polite request",hint:"Could you speak more slowly? Conditional = polite."},
+
+  {type:"fb",s:"Il ___ voir le directeur. (vouloir, conditional)",a:"voudrait",opts:["voudrait","veut","voulait","voudra"],hint:"He would like to see the director. Third person conditional."},
+
+  {type:"match",pairs:[{nl:"je -ais",en:"I would..."},{nl:"tu -ais",en:"you would..."},{nl:"il/elle -ait",en:"he/she would..."},{nl:"nous -ions",en:"we would..."}]},
+
+  {type:"mc",q:"At a restaurant, which is correct?",opts:["Je veux la salade","Donne-moi la salade","Je voudrais la salade","La salade!"],ans:"Je voudrais la salade",hint:"Polite ordering uses the conditional form of vouloir."},
+
+  {type:"fb",s:"Vous ___ du dessert? (aimer, conditional)",a:"aimeriez",opts:["aimeriez","aimez","aimiez","aimerez"],hint:"Would you like some dessert? Polite question."},
+
+  {type:"mc",q:"Conditional = future stem + imparfait endings. For être:",opts:["Ser- + -ais = serais","Ét- + -ais = étais","Suis + -ais = suisais","Être + -ais = êtrais"],ans:"Ser- + -ais = serais",hint:"Future stem of être is ser-. Add conditional ending."},
+]},
+
+// ═══ L2: Irregular conditional stems ═══
+{id:"fre16l2",title:"Les irréguliers",icon:"⚡",xp:15,board:true,steps:[
+  {type:"intro",title:"Irregular conditional stems",desc:"Since conditional uses the same stems as futur simple, all the irregular future stems you learned also apply here. Good news: no new stems to memorize!",goals:["Apply irregular future stems to conditional","Conjugate être, avoir, aller, faire conditionally","Recognize conditional forms of common verbs"]},
+
+  {type:"tip",title:"Irregular stems (same as future!)",text:"être -> ser-: je serais (I would be)\navoir -> aur-: j'aurais (I would have)\naller -> ir-: j'irais (I would go)\nfaire -> fer-: je ferais (I would do)\nvoir -> verr-: je verrais (I would see)\npouvoir -> pourr-: je pourrais (I could)\nvouloir -> voudr-: je voudrais (I'd like)\nsavoir -> saur-: je saurais (I would know)\nvenir -> viendr-: je viendrais (I would come)\ndevoir -> devr-: je devrais (I should)"},
+
+  {type:"teach",kind:"phrase",nl:"je serais",en:"I would be",phonetic:"zhuh suh-RAY",example:"A: Si tu gagnais au loto, tu ferais quoi?\nB: Je serais tellement content!\nA: Moi aussi!",exampleEn:"A: If you won the lottery, what would you do?\nB: I would be so happy!\nA: Me too!",note:"Être conditional: ser- + -ais.\nSounds like futur (serai) but with -s.\nSerai (future) vs serais (conditional)."},
+
+  {type:"teach",kind:"phrase",nl:"je devrais",en:"I should / I ought to",phonetic:"zhuh duh-VRAY",example:"A: Tu manges beaucoup de fast-food.\nB: Je sais, je devrais manger mieux.\nA: On pourrait cuisiner ensemble!",exampleEn:"A: You eat a lot of fast food.\nB: I know, I should eat better.\nA: We could cook together!",note:"Devoir conditional = should.\nDevr- + -ais = devrais.\nVery common for advice and obligation."},
+
+  {type:"mc",q:"The irregular conditional stems are ___ the irregular future stems.",opts:["Different from","The same as","Opposite to","Unrelated to"],ans:"The same as",hint:"Learn the future stems once, use them for both tenses!"},
+
+  {type:"fb",s:"J'___ à ta place. (aller, conditional)",a:"irais",opts:["irais","allais","irai","vais"],hint:"I would go in your place. Aller -> ir- + -ais."},
+
+  {type:"mc",q:"'Il ___ beau demain.' (future) vs 'Il ___ beau si...' (conditional)",opts:["Fera / ferait","Ferait / fera","Fera / fera","Ferait / ferait"],ans:"Fera / ferait",hint:"Future: -a ending. Conditional: -ait ending."},
+
+  {type:"fb",s:"Nous ___ vous accompagner. (pouvoir, conditional)",a:"pourrions",opts:["pourrions","pouvons","pouvions","pourrons"],hint:"We could accompany you. Pourr- + -ions."},
+
+  {type:"match",pairs:[{nl:"je serais",en:"I would be"},{nl:"j'aurais",en:"I would have"},{nl:"j'irais",en:"I would go"},{nl:"je ferais",en:"I would do"}]},
+
+  {type:"mc",q:"'Tu devrais dormir plus.' means:",opts:["You must sleep more","You should sleep more","You will sleep more","You used to sleep more"],ans:"You should sleep more",hint:"Devoir in conditional = should (advice, not obligation)."},
+
+  {type:"fb",s:"Elle ___ contente de te voir. (être, conditional)",a:"serait",opts:["serait","est","était","sera"],hint:"She would be happy to see you. Ser- + -ait."},
+
+  {type:"mc",q:"How to distinguish future from conditional?",opts:["Different stems","Different endings: future -ai/-a vs conditional -ais/-ait","Different verbs","No difference"],ans:"Different endings: future -ai/-a vs conditional -ais/-ait",hint:"Je parlerai (future) vs je parlerais (conditional). The -s matters!"},
+
+  {type:"fb",s:"Ils ___ très surpris. (être, conditional)",a:"seraient",opts:["seraient","sont","étaient","seront"],hint:"They would be very surprised. Ser- + -aient."},
+
+  {type:"match",pairs:[{nl:"je verrais",en:"I would see"},{nl:"je saurais",en:"I would know"},{nl:"je viendrais",en:"I would come"},{nl:"je devrais",en:"I should"}]},
+
+  {type:"mc",q:"'Vous ___ nous dire la vérité.' (devoir, advice)",opts:["Devrez","Devriez","Devez","Deviez"],ans:"Devriez",hint:"You should tell us the truth. Advice = conditional."},
+
+  {type:"fb",s:"On ___ du temps si on partait plus tôt. (avoir, conditional)",a:"aurait",opts:["aurait","a","avait","aura"],hint:"We would have time if we left earlier. Aur- + -ait."},
+
+  {type:"mc",q:"Je devrais = I should. Je devrai = ___.",opts:["I should","I will have to","I had to","I used to have to"],ans:"I will have to",hint:"Devrai (future) = will have to. Devrais (conditional) = should."},
+
+  {type:"fb",s:"Tu ___ faire attention. (devoir, conditional: advice)",a:"devrais",opts:["devrais","dois","devais","devras"],hint:"You should be careful. Advice with conditional."},
+]},
+
+// ═══ L3: Si + imparfait ═══
+{id:"fre16l3",title:"Si + imparfait",icon:"🌈",xp:15,board:true,steps:[
+  {type:"intro",title:"If + imperfect = conditional",desc:"For hypothetical situations (things that aren't real but could be), use si + imparfait in the condition clause, and conditional in the result clause.",goals:["Form si + imparfait / conditional sentences","Express hypothetical situations","Distinguish from si + present / future"]},
+
+  {type:"tip",title:"Two si patterns",text:"REAL condition (likely):\nSi + PRESENT, FUTURE\nSi tu étudies, tu réussiras.\n(If you study, you will pass.)\n\nHYPOTHETICAL (unlikely/imaginary):\nSi + IMPARFAIT, CONDITIONAL\nSi j'avais de l'argent, j'achèterais une maison.\n(If I had money, I would buy a house.)\n\nThe imparfait after si makes it unreal.\nNEVER: si + conditional!"},
+
+  {type:"teach",kind:"phrase",nl:"Si j'avais de l'argent, j'achèterais une maison.",en:"If I had money, I would buy a house.",phonetic:"see zhah-VAY duh lar-ZHAHN zhash-tuh-RAY ewn may-ZON",example:"A: Si tu avais beaucoup d'argent, tu ferais quoi?\nB: Si j'avais de l'argent, j'achèterais une maison.\nA: Moi, je voyagerais!",exampleEn:"A: If you had a lot of money, what would you do?\nB: If I had money, I'd buy a house.\nA: Me, I'd travel!",note:"Si + imparfait (avais) = hypothetical condition.\nConditional (achèterais) = hypothetical result.\nThis is NOT reality. It's imagination."},
+
+  {type:"teach",kind:"phrase",nl:"Si j'étais toi, je partirais.",en:"If I were you, I would leave.",phonetic:"see zhay-TAY TWAH zhuh par-tee-RAY",example:"A: Je ne sais pas quoi faire.\nB: Si j'étais toi, je partirais en vacances.\nA: Tu as raison!",exampleEn:"A: I don't know what to do.\nB: If I were you, I'd go on vacation.\nA: You're right!",note:"Si j'étais toi = if I were you.\nClassic advice-giving pattern.\nImparfait of être + conditional."},
+
+  {type:"mc",q:"For HYPOTHETICAL situations, use:",opts:["Si + present / future","Si + imparfait / conditional","Si + conditional / present","Si + future / conditional"],ans:"Si + imparfait / conditional",hint:"Imaginary situations use imparfait in the si clause."},
+
+  {type:"fb",s:"Si j'___ le temps, je voyagerais. (avoir, imparfait)",a:"avais",opts:["avais","ai","aurais","aurai"],hint:"If I had time (but I don't). Hypothetical = imparfait after si."},
+
+  {type:"mc",q:"'Si + conditional' is:",opts:["Sometimes correct","Always correct","Never correct","Only in formal French"],ans:"Never correct",hint:"Si is NEVER followed by conditional. Use imparfait instead."},
+
+  {type:"fb",s:"Si tu ___ riche, que ferais-tu? (être, imparfait)",a:"étais",opts:["étais","es","serais","seras"],hint:"If you were rich. Hypothetical = imparfait after si."},
+
+  {type:"match",pairs:[{nl:"Si + present → future",en:"real/likely condition"},{nl:"Si + imparfait → conditional",en:"hypothetical/unlikely"},{nl:"Si j'avais...",en:"If I had... (but I don't)"},{nl:"...j'achèterais",en:"...I would buy"}]},
+
+  {type:"mc",q:"'Si j'étais toi, je ___.' (partir)",opts:["Pars","Partirais","Partirai","Partais"],ans:"Partirais",hint:"If I were you (hypothetical) = si + imparfait, result = conditional."},
+
+  {type:"fb",s:"Nous ___ en France si nous ___ des vacances. (aller / avoir)",a:["irions","avions"],opts:["irions","allons","avions","avons"],hint:"We'd go to France if we had vacation. Both hypothetical."},
+
+  {type:"mc",q:"'Si je parlais chinois...' This implies:",opts:["I speak Chinese","I'm learning Chinese","I don't speak Chinese","I will speak Chinese"],ans:"I don't speak Chinese",hint:"Si + imparfait = the situation is NOT real right now."},
+
+  {type:"fb",s:"Si elle ___ là, elle ___ contente. (être x2: impf. / cond.)",a:["était","serait"],opts:["était","est","serait","sera"],hint:"If she were here, she'd be happy. Both hypothetical."},
+
+  {type:"match",pairs:[{nl:"Si j'étais riche",en:"If I were rich"},{nl:"j'achèterais un yacht",en:"I would buy a yacht"},{nl:"Si tu pouvais voler",en:"If you could fly"},{nl:"où irais-tu?",en:"where would you go?"}]},
+
+  {type:"mc",q:"The difference: 'Si tu viens' (present) vs 'Si tu venais' (imparfait):",opts:["Same meaning","Present = likely, imparfait = unlikely","Imparfait = past","Present = polite"],ans:"Present = likely, imparfait = unlikely",hint:"Si + present = might happen. Si + imparfait = probably won't."},
+
+  {type:"fb",s:"Si on ___ invisibles, on ___ tout voir! (être / pouvoir)",a:["était","pourrait"],opts:["était","est","pourrait","pourra"],hint:"If we were invisible, we could see everything! Fantasy."},
+
+  {type:"mc",q:"'Si j'avais su...' (If I had known): this uses ___ after si.",opts:["Present","Imparfait","Plus-que-parfait","Conditional"],ans:"Plus-que-parfait",hint:"For past hypotheticals (B1+ topic), but the pattern is similar."},
+
+  {type:"fb",s:"Que ___-tu si tu ___ président? (faire / être)",a:["ferais","étais"],opts:["ferais","fais","étais","es"],hint:"What would you do if you were president? Imaginary."},
+]},
+
+// ═══ L4: Wishes and dreams ═══
+{id:"fre16l4",title:"Rêves et souhaits",icon:"✨",xp:15,board:true,steps:[
+  {type:"intro",title:"Expressing wishes and dreams",desc:"The conditional is perfect for expressing what you'd like, what you'd do, or what the world would look like. Practice dreaming in French!",goals:["Express wishes with the conditional","Talk about dream scenarios","Use je voudrais, j'aimerais for desires"]},
+
+  {type:"teach",kind:"phrase",nl:"J'aimerais vivre à la campagne.",en:"I would like to live in the countryside.",phonetic:"zheh-muh-RAY VEE-vruh ah lah kahm-PAN-yuh",example:"A: Tu aimes la ville?\nB: Pas vraiment. J'aimerais vivre à la campagne.\nA: C'est plus calme, c'est vrai.",exampleEn:"A: Do you like the city?\nB: Not really. I'd like to live in the countryside.\nA: It's calmer, that's true.",note:"J'aimerais + infinitive = I'd like to.\nExpresses a wish or desire.\nSofter and dreamier than je veux."},
+
+  {type:"teach",kind:"phrase",nl:"Ça serait formidable!",en:"That would be wonderful!",phonetic:"sah suh-RAY for-mee-DAH-bluh",example:"A: Et si on partait en vacances ensemble?\nB: Ça serait formidable!\nA: On pourrait aller en Grèce!",exampleEn:"A: What if we went on vacation together?\nB: That would be wonderful!\nA: We could go to Greece!",note:"Ça serait = that would be.\nConditional of être.\nExpresses enthusiasm about a hypothetical."},
+
+  {type:"mc",q:"'J'aimerais voyager autour du monde.' This expresses:",opts:["A plan","A command","A wish","A memory"],ans:"A wish",hint:"I would like to = wish/desire expressed with conditional."},
+
+  {type:"fb",s:"Ça ___ génial de te revoir! (être, conditional)",a:"serait",opts:["serait","est","était","sera"],hint:"It would be great to see you again! Hypothetical good news."},
+
+  {type:"mc",q:"'Je voudrais être astronaute.' Who might say this?",opts:["An astronaut","A child dreaming","A professor","A doctor"],ans:"A child dreaming",hint:"I would like to be = expressing a dream/wish."},
+
+  {type:"fb",s:"J'___ avoir un chien. (aimer, conditional)",a:"aimerais",opts:["aimerais","aime","aimais","aimerai"],hint:"I'd like to have a dog. Wish expressed politely."},
+
+  {type:"match",pairs:[{nl:"J'aimerais voyager",en:"I'd like to travel"},{nl:"Ça serait super",en:"That would be great"},{nl:"Je voudrais comprendre",en:"I'd like to understand"},{nl:"On pourrait essayer",en:"We could try"}]},
+
+  {type:"mc",q:"'On pourrait aller au cinéma?' is:",opts:["A demand","A polite suggestion","A past event","A future plan"],ans:"A polite suggestion",hint:"We could go = conditional for gentle suggestions."},
+
+  {type:"fb",s:"Je ___ en Italie si je le pouvais. (vivre, conditional)",a:"vivrais",opts:["vivrais","vis","vivais","vivrai"],hint:"I would live in Italy if I could. Dream scenario."},
+
+  {type:"mc",q:"Which expresses a dream about the future?",opts:["J'ai voyagé","Je voyage","Je voyageais","J'aimerais voyager"],ans:"J'aimerais voyager",hint:"I would like to travel = desire about something not yet real."},
+
+  {type:"fb",s:"Nous ___ apprendre le japonais. (aimer, conditional)",a:"aimerions",opts:["aimerions","aimons","aimions","aimerons"],hint:"We would like to learn Japanese. Group wish."},
+
+  {type:"match",pairs:[{nl:"Si j'avais le temps...",en:"If I had time..."},{nl:"...j'apprendrais le piano",en:"...I'd learn piano"},{nl:"Si c'était possible...",en:"If it were possible..."},{nl:"...je changerais le monde",en:"...I'd change the world"}]},
+
+  {type:"mc",q:"'Tu voudrais aller où en vacances?' asks about:",opts:["Past vacations","Current location","Dream destination","Future booking"],ans:"Dream destination",hint:"Where would you like to go? = asking about wishes."},
+
+  {type:"fb",s:"La vie ___ plus simple sans les voitures. (être, conditional)",a:"serait",opts:["serait","est","était","sera"],hint:"Life would be simpler without cars. Hypothetical statement."},
+
+  {type:"mc",q:"'J'adorerais apprendre à danser!' The -erais ending tells you:",opts:["Past tense","Present tense","Conditional","Future tense"],ans:"Conditional",hint:"Infinitive stem + -erais = 'would'. Which tense uses that?"},
+
+  {type:"fb",s:"Qu'est-ce que tu ___ si tu avais des superpouvoirs? (faire)",a:"ferais",opts:["ferais","fais","faisais","feras"],hint:"What would you do with superpowers? Imaginary scenario."},
+
+  {type:"mc",q:"The conditional is the tense of:",opts:["Certainty","Reality","Imagination and politeness","Past events"],ans:"Imagination and politeness",hint:"Would, could, should = softened reality or imagined scenarios."},
+]},
+
+// ═══ L5: Advice with devrais ═══
+{id:"fre16l5",title:"Donner des conseils",icon:"💡",xp:15,board:true,steps:[
+  {type:"intro",title:"Giving advice with the conditional",desc:"Devrais (should), pourrais (could), and il faudrait (one should) are essential for giving advice. The conditional makes advice gentle rather than pushy.",goals:["Give advice with tu devrais","Suggest alternatives with tu pourrais","Use il faudrait for general advice"]},
+
+  {type:"teach",kind:"phrase",nl:"Tu devrais te reposer.",en:"You should rest.",phonetic:"tew duh-VRAY tuh ruh-poh-ZAY",example:"A: Je suis tellement fatigué!\nB: Tu devrais te reposer ce week-end.\nA: Tu as raison.",exampleEn:"A: I'm so tired!\nB: You should rest this weekend.\nA: You're right.",note:"Tu devrais + infinitive = you should.\nDevoir conditional = gentle obligation.\nMuch softer than tu dois (you must)."},
+
+  {type:"teach",kind:"phrase",nl:"Il faudrait",en:"one should / it would be necessary",phonetic:"eel foh-DRAY",example:"A: La maison est en désordre.\nB: Il faudrait ranger ce week-end.\nA: D'accord, on s'y met samedi.",exampleEn:"A: The house is messy.\nB: We should tidy up this weekend.\nA: OK, let's do it Saturday.",note:"Falloir conditional = il faudrait.\nImpersonal: applies to everyone.\nFaudrait + infinitive = one should."},
+
+  {type:"mc",q:"'Tu devrais manger moins de sucre.' This is:",opts:["A command","Gentle advice","A question","A past event"],ans:"Gentle advice",hint:"You should = conditional of devoir = gentle, not forceful."},
+
+  {type:"fb",s:"Vous ___ voir un médecin. (devoir, conditional: advice)",a:"devriez",opts:["devriez","devez","deviez","devrez"],hint:"You should see a doctor. Polite advice with conditional."},
+
+  {type:"mc",q:"'Tu pourrais essayer le yoga.' This suggests:",opts:["You must do yoga","You could try yoga (suggestion)","You tried yoga","You will try yoga"],ans:"You could try yoga (suggestion)",hint:"Conditional of pouvoir = gentle suggestion, not obligation."},
+
+  {type:"fb",s:"Il ___ faire attention. (falloir, conditional)",a:"faudrait",opts:["faudrait","faut","fallait","faudra"],hint:"One should be careful. Impersonal conditional advice."},
+
+  {type:"match",pairs:[{nl:"tu devrais",en:"you should"},{nl:"tu pourrais",en:"you could"},{nl:"il faudrait",en:"one should"},{nl:"on pourrait",en:"we could"}]},
+
+  {type:"mc",q:"Which is the SOFTEST way to give advice?",opts:["Tu dois faire ça","Fais ça!","Tu pourrais faire ça","Il faut faire ça"],ans:"Tu pourrais faire ça",hint:"Could is softer than should, which is softer than must."},
+
+  {type:"fb",s:"Tu ___ dormir plus. (devoir, conditional)",a:"devrais",opts:["devrais","dois","devais","devras"],hint:"You should sleep more. Gentle health advice."},
+
+  {type:"mc",q:"'À ta place, je ___.' (in your place) What follows?",opts:["Present","Conditional","Future","Imparfait"],ans:"Conditional",hint:"In your place, I would... Which 'would' tense completes this?"},
+
+  {type:"fb",s:"On ___ partir plus tôt. (pouvoir, conditional: suggestion)",a:"pourrait",opts:["pourrait","peut","pouvait","pourra"],hint:"We could leave earlier. Gentle group suggestion."},
+
+  {type:"match",pairs:[{nl:"Tu devrais + inf.",en:"you should (advice)"},{nl:"Tu pourrais + inf.",en:"you could (suggestion)"},{nl:"Il faudrait + inf.",en:"one should (general)"},{nl:"À ta place, je...",en:"if I were you..."}]},
+
+  {type:"mc",q:"Giving health advice: 'Vous ___ boire plus d'eau.'",opts:["Devez","Devriez","Deviez","Devrez"],ans:"Devriez",hint:"You should drink more water. Polite medical advice."},
+
+  {type:"fb",s:"À ta place, je ___ le lui dire. (aller, conditional)",a:"n'irais pas",opts:["n'irais pas","ne vais pas","n'allais pas","n'irai pas"],hint:"In your place, I wouldn't go tell him. Hypothetical advice."},
+
+  {type:"mc",q:"'Il faudrait qu'on se voie bientôt.' means:",opts:["We must meet now","We should meet soon","We met recently","We will meet"],ans:"We should meet soon",hint:"Il faudrait = it would be good if. Gentle suggestion."},
+
+  {type:"fb",s:"Tu ___ essayer ce restaurant. (devoir, recommendation)",a:"devrais",opts:["devrais","dois","devais","devras"],hint:"You should try this restaurant. Recommendation."},
+
+  {type:"mc",q:"The conditional for advice is popular because it:",opts:["Sounds commanding","Leaves room for the person to decide","Is required by grammar","Is only formal"],ans:"Leaves room for the person to decide",hint:"Should/could = suggestions, not orders. Respectful."},
+]},
+
+// ═══ L6: Reported speech ═══
+{id:"fre16l6",title:"Le discours rapporté",icon:"💬",xp:15,board:true,steps:[
+  {type:"intro",title:"Reported speech with conditional",desc:"When reporting what someone said they WOULD do, or what they heard WOULD happen, French uses the conditional. This is called the 'conditional of reported speech'.",goals:["Report what someone said with conditional","Use 'il a dit qu'il ferait...' pattern","Distinguish reported future from conditional"]},
+
+  {type:"tip",title:"Reporting with conditional",text:"Direct: 'Je viendrai demain.' (I will come.)\nReported: Il a dit qu'il viendrait demain.\n(He said he would come.)\n\nDirect: 'Il fera beau.' (It will be nice.)\nReported: On m'a dit qu'il ferait beau.\n(They told me it would be nice.)\n\nWhen reporting future plans or predictions,\nthe future becomes conditional.\nFutur simple -> Conditionnel"},
+
+  {type:"teach",kind:"phrase",nl:"Il a dit qu'il viendrait.",en:"He said he would come.",phonetic:"eel ah DEE keel vee-EN-dray",example:"A: Pierre vient ce soir?\nB: Il a dit qu'il viendrait vers huit heures.\nA: D'accord, on l'attend.",exampleEn:"A: Is Pierre coming tonight?\nB: He said he would come around eight.\nA: OK, we'll wait for him.",note:"Direct speech: 'Je viendrai' (future).\nReported: qu'il viendrait (conditional).\nFuture -> conditional in reported speech."},
+
+  {type:"teach",kind:"phrase",nl:"On m'a dit que ce serait facile.",en:"They told me it would be easy.",phonetic:"on mah DEE kuh suh suh-RAY fah-SEEL",example:"A: Comment ça se passe?\nB: On m'a dit que ce serait facile, mais c'est dur!\nA: Courage!",exampleEn:"A: How's it going?\nB: They told me it would be easy, but it's hard!\nA: Hang in there!",note:"On m'a dit que = they told me that.\nSerait = conditional of être.\nReporting someone else's prediction."},
+
+  {type:"mc",q:"Direct: 'Je partirai.' Reported: 'Il a dit qu'il ___.'",opts:["Partira","Partirait","Part","Partait"],ans:"Partirait",hint:"When reporting, future becomes conditional."},
+
+  {type:"fb",s:"Elle a dit qu'elle ___ demain. (venir, reported future)",a:"viendrait",opts:["viendrait","vient","venait","viendra"],hint:"She said she would come. Future -> conditional in reporting."},
+
+  {type:"mc",q:"The conditional in reported speech replaces:",opts:["Present tense","Imparfait","Futur simple","Passé composé"],ans:"Futur simple",hint:"He said 'I WILL come' -> he said he WOULD come."},
+
+  {type:"fb",s:"Ils ont promis qu'ils ___ à l'heure. (être, reported)",a:"seraient",opts:["seraient","sont","étaient","seront"],hint:"They promised they would be on time. Reported promise."},
+
+  {type:"match",pairs:[{nl:"Il viendra (direct)",en:"Il a dit qu'il viendrait"},{nl:"Ce sera facile (direct)",en:"On m'a dit que ce serait facile"},{nl:"Je ferai (direct)",en:"Il a dit qu'il ferait"},{nl:"Nous irons (direct)",en:"Ils ont dit qu'ils iraient"}]},
+
+  {type:"mc",q:"'Le journal dit qu'il ___ demain.' (pleuvoir, news report)",opts:["Pleut","Pleuvra","Pleuvait","Pleuvrait"],ans:"Pleuvrait",hint:"News reporting unverified info uses conditional."},
+
+  {type:"fb",s:"On m'a expliqué que ce ___ long. (être, reported prediction)",a:"serait",opts:["serait","est","était","sera"],hint:"They explained it would be long. Reported prediction."},
+
+  {type:"mc",q:"The 'conditional of journalism' is used for:",opts:["Confirmed facts","Unverified or reported information","Past events","Commands"],ans:"Unverified or reported information",hint:"News says 'there WOULD be 10 victims' = not yet confirmed."},
+
+  {type:"fb",s:"Le président ___ en vacances, selon les médias. (être, journalistic)",a:"serait",opts:["serait","est","était","sera"],hint:"The president is reportedly on vacation. Unconfirmed report."},
+
+  {type:"match",pairs:[{nl:"Il a dit qu'il...",en:"He said he would..."},{nl:"On m'a promis que...",en:"They promised me that..."},{nl:"Selon les experts...",en:"According to experts..."},{nl:"D'après les médias...",en:"According to media..."}]},
+
+  {type:"mc",q:"In a news report: 'L'accident ___ trois blessés.' (faire)",opts:["Ferait","Fait","A fait","Faisait"],ans:"Ferait",hint:"The accident reportedly caused. Journalistic conditional."},
+
+  {type:"fb",s:"Ma mère a dit qu'elle ___ un gâteau. (faire, reported plan)",a:"ferait",opts:["ferait","fait","faisait","fera"],hint:"My mother said she would make a cake. Reported future plan."},
+
+  {type:"mc",q:"Summary: conditional in reported speech signals:",opts:["Direct quotation","Information coming from someone else","Present reality","A command"],ans:"Information coming from someone else",hint:"Would = reporting what someone said or what's been claimed."},
+
+  {type:"fb",s:"Le professeur a annoncé qu'il n'y ___ pas cours demain. (avoir)",a:"aurait",opts:["aurait","a","avait","aura"],hint:"The teacher announced there would be no class. Reported."},
+]},
+
+// ═══ L7: Conditional in context ═══
+{id:"fre16l7",title:"En contexte",icon:"🎬",xp:15,board:true,steps:[
+  {type:"intro",title:"The conditional in everyday life",desc:"Practice using the conditional in realistic situations: at restaurants, with friends, giving opinions, making suggestions, and expressing regrets.",goals:["Use conditional naturally in conversations","Mix politeness, hypotheticals, and advice","Build fluency with conditional forms"]},
+
+  {type:"teach",kind:"phrase",nl:"Ce serait possible de changer de table?",en:"Would it be possible to change tables?",phonetic:"suh suh-RAY poh-SEE-bluh duh shahn-ZHAY duh TAH-bluh",example:"A: Excusez-moi, ce serait possible de changer de table?\nB: Bien sûr, laquelle préférez-vous?\nA: Celle près de la fenêtre.",exampleEn:"A: Excuse me, would it be possible to change tables?\nB: Of course, which one would you prefer?\nA: The one near the window.",note:"Ce serait possible de + infinitive.\nVery polite request formula.\nUsed in restaurants, offices, shops."},
+
+  {type:"teach",kind:"phrase",nl:"Ça me ferait plaisir.",en:"That would make me happy. / I'd be delighted.",phonetic:"sah muh fuh-RAY play-ZEER",example:"A: Tu voudrais venir dîner chez nous samedi?\nB: Oh oui, ça me ferait plaisir!\nA: Super, à samedi alors!",exampleEn:"A: Would you like to come to dinner at our place Saturday?\nB: Oh yes, that would make me happy!\nA: Great, see you Saturday then!",note:"Faire plaisir = to make happy.\nConditional: ferait (would make).\nWarm, enthusiastic acceptance."},
+
+  {type:"mc",q:"At a restaurant: 'Je ___ la carte, s'il vous plaît.' (like to have)",opts:["Voudrais","Veux","Voulais","Voudrai"],ans:"Voudrais",hint:"Polite: I would like the menu, please."},
+
+  {type:"fb",s:"Ça ne te ___ pas de venir? (déranger, conditional: polite)",a:"dérangerait",opts:["dérangerait","dérange","dérangeait","dérangera"],hint:"Would it bother you to come? Polite question."},
+
+  {type:"mc",q:"Friend suggesting plans: 'On ___ aller à la plage demain?'",opts:["Pourrait","Peut","Pouvait","Pourra"],ans:"Pourrait",hint:"Could we go to the beach? Conditional suggestion."},
+
+  {type:"fb",s:"Ce ___ bien de se voir bientôt. (être, conditional wish)",a:"serait",opts:["serait","est","était","sera"],hint:"It would be nice to see each other soon. Wish."},
+
+  {type:"match",pairs:[{nl:"Je voudrais réserver",en:"polite request"},{nl:"On pourrait essayer",en:"gentle suggestion"},{nl:"Tu devrais goûter",en:"recommendation"},{nl:"Ça serait super",en:"enthusiasm"}]},
+
+  {type:"mc",q:"Expressing an opinion carefully: 'Je ___ que c'est une bonne idée.'",opts:["Dirais","Dis","Disais","Dirai"],ans:"Dirais",hint:"I would say = softened opinion with conditional."},
+
+  {type:"fb",s:"À votre place, je ___ un pull. (prendre, conditional: advice)",a:"prendrais",opts:["prendrais","prends","prenais","prendrai"],hint:"In your place, I'd take a sweater. Polite advice."},
+
+  {type:"mc",q:"'Il y aurait un bon film ce soir.' Where did you hear this?",opts:["You checked the schedule","Someone told you (reported)","You're in the cinema","You saw it yesterday"],ans:"Someone told you (reported)",hint:"Conditional = reported information. Il y aurait = reportedly there is."},
+
+  {type:"fb",s:"Tu ___ me passer le sel? (pouvoir, polite request)",a:"pourrais",opts:["pourrais","peux","pouvais","pourras"],hint:"Could you pass me the salt? Polite conditional."},
+
+  {type:"match",pairs:[{nl:"Je dirais que...",en:"I'd say that... (opinion)"},{nl:"Il paraîtrait que...",en:"Apparently... (reported)"},{nl:"Ce serait bien si...",en:"It would be good if..."},{nl:"Ça te dirait de...",en:"Would you fancy..."}]},
+
+  {type:"mc",q:"All these uses share one thing: the conditional expresses:",opts:["Certainty","Something not (yet) real","Past events","Commands"],ans:"Something not (yet) real",hint:"Wishes, hypotheticals, politeness, reports = all non-certain."},
+
+  {type:"fb",s:"Je ne ___ pas refuser! (pouvoir, polite expression)",a:"saurais",opts:["saurais","sais","savais","saurai"],hint:"I couldn't possibly refuse! Polite with savoir conditional."},
+
+  {type:"mc",q:"Which response is most natural for 'Tu veux venir?'",opts:["Oui, je veux","J'aimerais bien, oui!","Je voulais","Je voudrai"],ans:"J'aimerais bien, oui!",hint:"I'd love to! Conditional for enthusiastic, polite acceptance."},
+
+  {type:"fb",s:"Ça ___ sympa d'aller au concert ensemble. (être, conditional)",a:"serait",opts:["serait","est","était","sera"],hint:"It'd be nice to go to the concert together. Wish."},
+
+  {type:"mc",q:"The conditional is truly the tense of:",opts:["Facts","Dreams, politeness, and possibility","History","Schedules"],ans:"Dreams, politeness, and possibility",hint:"Everything that WOULD, COULD, or SHOULD be."},
+]},
+
+// ═══ L8: A2 review ═══
+{id:"fre16l8",title:"Bilan A2",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"A2 completion review",desc:"You've completed A2! Review the key grammar from U9-U16: passé composé, imparfait, PC vs imparfait, pronouns, future tenses, comparatives, and conditional.",goals:["Review all A2 grammar","Demonstrate mastery across tenses","Celebrate your progress!"]},
+
+  {type:"tip",title:"Your A2 toolkit",text:"PAST: passé composé (events) + imparfait (states/habits)\nPC vs imparfait: the critical distinction\n\nPRONOUNS: COD (le/la/les), COI (lui/leur), Y, EN\n\nFUTURE: futur proche (aller + inf.) + futur simple\nQuand + future. Si + present / future.\n\nCOMPARATIVES: plus/moins/aussi...que\nMeilleur (adj.) vs mieux (adv.)\n\nCONDITIONAL: future stem + imparfait endings\nPoliteness, hypotheticals, advice, reported speech"},
+
+  {type:"mc",q:"Tense review: 'Hier, il ___ beau.' (weather, past)",opts:["A fait","Faisait","Fait","Fera"],ans:"Faisait",hint:"Weather in the past = description = background tense."},
+
+  {type:"fb",s:"Je ___ au cinéma quand il m'a appelé. (aller, ongoing past)",a:"allais",opts:["allais","suis allé","vais","irai"],hint:"I was going to the cinema. Ongoing = imparfait."},
+
+  {type:"mc",q:"Pronouns: 'Tu as vu Marie?' -> 'Oui, je ___ ai vue.'",opts:["La","Le","Lui","Leur"],ans:"La",hint:"Marie = feminine direct object. Before auxiliary in PC."},
+
+  {type:"fb",s:"J'___ veux trois. (of the croissants: pronoun)",a:"en",opts:["en","y","les","le"],hint:"I want three of them. Quantity replacement pronoun."},
+
+  {type:"match",pairs:[{nl:"J'ai mangé",en:"I ate (PC, event)"},{nl:"Je mangeais",en:"I was eating (imparfait)"},{nl:"Je mangerai",en:"I will eat (future)"},{nl:"Je mangerais",en:"I would eat (conditional)"}]},
+
+  {type:"mc",q:"Future: 'Quand il ___, on sortira.' (arriver, after quand)",opts:["Arrive","Arrivera","Arriverait","Arrivait"],ans:"Arrivera",hint:"After quand, French uses future (not present like English)."},
+
+  {type:"fb",s:"Si j'___ le temps, je voyagerais. (avoir, hypothetical)",a:"avais",opts:["avais","ai","aurais","aurai"],hint:"If I had time. Hypothetical = imparfait after si."},
+
+  {type:"mc",q:"Comparatives: 'Ce gâteau est ___ que l'autre.' (better, adj.)",opts:["Mieux","Meilleur","Plus bon","Plus bien"],ans:"Meilleur",hint:"Better cake = adjective form. Irregular."},
+
+  {type:"fb",s:"C'est le ___ restaurant de la ville. (best, masc.)",a:"meilleur",opts:["meilleur","mieux","meilleure","plus bon"],hint:"The best restaurant. Superlative adjective."},
+
+  {type:"match",pairs:[{nl:"le / la / les",en:"COD pronouns"},{nl:"lui / leur",en:"COI pronouns"},{nl:"y",en:"there (à + place)"},{nl:"en",en:"of it (de + thing)"}]},
+
+  {type:"mc",q:"Conditional: 'Je ___ un café.' (would like, polite)",opts:["Veux","Voudrais","Voulais","Voudrai"],ans:"Voudrais",hint:"Polite request at a café. Conditional of vouloir."},
+
+  {type:"fb",s:"Tu ___ te reposer. (devoir, advice)",a:"devrais",opts:["devrais","dois","devais","devras"],hint:"You should rest. Conditional for gentle advice."},
+
+  {type:"mc",q:"Which sentence uses reported speech?",opts:["Il viendra demain","Il a dit qu'il viendrait","Il venait souvent","Il est venu hier"],ans:"Il a dit qu'il viendrait",hint:"He said he would come = future becomes conditional in reporting."},
+
+  {type:"fb",s:"Si + present -> ___, Si + imparfait -> ___.",a:["futur","conditionnel"],opts:["futur","conditionnel","présent","imparfait"],hint:"Two si patterns. Likely = which tense? Hypothetical = which tense?"},
+
+  {type:"mc",q:"You've completed A2! You can now:",opts:["Only say hello","Handle past, future, comparisons, and conditionals","Speak C2 French","Only read French"],ans:"Handle past, future, comparisons, and conditionals",hint:"Four tense systems + pronouns + comparisons. That's A2!"},
+
+  {type:"fb",s:"Félicitations! Tu ___ maintenant comprendre beaucoup de français! (pouvoir, conditional of encouragement)",a:"devrais",opts:["devrais","dois","devais","devras"],hint:"You should now understand a lot! Encouraging conditional."},
+]},
+]},
+
 ];
