@@ -1023,6 +1023,7 @@ const spanishUnits = [
 {type:"mc",q:"Which chore involves 'la ropa'?",opts:["Lavar la ropa","Pasar la aspiradora","Hacer la cama","Limpiar la cocina"],ans:"Lavar la ropa",hint:"Ropa = clothes. This chore involves washing them."},
 {type:"fb",s:"Tenemos que {1} la ropa los domingos.",a:"lavar",opts:["lavar","lavamos","lava","lavas"],hint:"After tener que, use the infinitive form."},
 {type:"mc",q:"What does 'Mi madre cocina todos los días' mean?",opts:["My mother cooks every day","My mother cleans every day","My mother washes every day","My mother works every day"],ans:"My mother cooks every day",hint:"Cocina comes from cocinar, related to la cocina (kitchen)."},
+{type:"fb",s:"Yo {1} los platos y mi hermana limpia la cocina.",a:"lavo",opts:["lavo","lavas","lava","lavamos"],hint:"I wash. First person singular of lavar."},
 ]},
 // L8: Mi Casa Ideal review — 18 steps
 {id:"esp6l8",title:"Mi Casa Ideal",icon:"🏡",xp:15,board:true,steps:[
