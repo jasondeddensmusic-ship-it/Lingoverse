@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German A1-B2 COMPLETE (D103, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). Arabic has early skeletons (5 units, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -38,7 +38,8 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~6,030 | All 43 Dutch units (20 v2 + 23 legacy) |
 | `units-korean.js` | ~8,700 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
-| `units-other.js` | ~500 | German (5) + Arabic (5) skeleton units |
+| `units-german.js` | ~7,188 | All 30 German units (A1-B2, v1) |
+| `units-other.js` | ~170 | Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,892 lines)
 
@@ -374,7 +375,19 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
 - **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, and dialogue-enriched. Next: C1 curriculum when Dutch catches up.
 
-### German: 5 early units (27 lessons), below density standard, needs Goethe-Institut A1 audit
+### German:
+- **A1-B2 COMPLETE (D103, 2026-03-16)**: Full build from scratch.
+  - Foundations: COMPLETE (FOUNDATIONS_BY_LANG 6 sections/25 items, FK_PLAYTHROUGH 6 stages/15 lessons, FK_GATE_QUIZ 5 tasks/35 items)
+  - 30 units (U1-U30), 240 lessons, 4,518 steps, avg 18.8 steps/lesson, all 18+
+  - A1 (U1-U8): Greetings, introductions, family, food, daily routine, home, directions, shopping
+  - A2 (U9-U16): Perfekt haben/sein, dative case, Wechselprapositionen, comparatives, Nebensatze, reflexive verbs, future/Konjunktiv II basics
+  - B1 (U17-U24): Prateritum, passive voice, relative clauses, genitive/n-Deklination, indirect speech, infinitive constructions, advanced connectors, work culture
+  - B2 (U25-U30): Advanced Konjunktiv II, participial constructions, advanced passive, discourse markers, proverbs/idioms, TestDaF/telc B2 prep
+  - 1,100/1,100 teach cards with A:/B: dialogues (100%)
+  - der/die/das article colors throughout (der=blue, die=coral, das=purple)
+  - Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240, density=all 18+
+  - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
+- **German is PRODUCTION-READY.** A1-B2 fully built and audited.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
 ### French: Infrastructure only (LANG_META, VOCAB entries, CULTURE_PACKS). No units, no foundations.
 ### Spanish: Infrastructure only (LANG_META, VOCAB entries). No units, no foundations.
@@ -393,7 +406,7 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
 1. **Korean** - A1-B2 PRODUCTION-READY. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). THE GOLD STANDARD. Next: C1 when Dutch catches up.
 2. **Dutch** - A1-B2 PRODUCTION-READY. Fully built (D101), audited (D102, 10 rounds). 30 units, 244 lessons, 5,446 steps. THE SECOND GOLD STANDARD.
-3. **German** - 5 skeleton units. Next: COMPLETE A1-B2 build from scratch using Goethe-Institut references. Apply all pipeline rules from day one (Rule 7 density, Rule 8 quality, Rule 9 sequential workflow).
+3. **German** - A1-B2 COMPLETE (D103). 30 units, 240 lessons, 4,518 steps. Foundations + gate quiz built. 100% dialogue coverage. Quality audit PASS.
 4. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after German).
 5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after French).
 
@@ -682,9 +695,22 @@ Dutch is PRODUCTION-READY. Every quality gate has been passed:
 
 **Dutch needs NO further work** until dialogue enrichment uplift (currently 73%, target 90%+) or A1-A2 retroactive standards pass.
 
-### NEXT: German COMPLETE A1-B2 Build (D103)
+### DONE (German A1-B2 = Third Gold Standard)
+German is PRODUCTION-READY. Built from scratch in D103:
 
-**THIS IS THE NEXT SESSION'S TASK.** Build complete German A1-B2 from scratch. DELETE the 5 skeleton units entirely. Treat German as a brand new language.
+| Milestone | Decision | Status |
+|-----------|----------|--------|
+| Foundations (knowledge + playthrough + gate quiz) | D103 | COMPLETE |
+| A1 curriculum (U1-U8) | D103 | COMPLETE |
+| A2 curriculum (U9-U16) | D103 | COMPLETE |
+| B1 curriculum (U17-U24) | D103 | COMPLETE |
+| B2 curriculum (U25-U30) | D103 | COMPLETE |
+| Quality audit (P48/P22c/P49/density) | D103 | PASS |
+| Dialogue enrichment | D103 | 1,100/1,100 (100%) |
+
+**German needs NO further work** until D92-style deep audit or C1 curriculum planning.
+
+### NEXT: French A1-B2 Build
 
 #### What EXISTS (infrastructure ready, DO NOT rebuild):
 | Component | File | Lines | Status |
