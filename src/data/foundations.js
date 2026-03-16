@@ -2053,5 +2053,74 @@ export const FK_GATE_QUIZ = {
       E:"Stage 5: Practice reading your first Arabic words.",
     },
   },
+  // ══════════════════════════════════════════════════════════════
+  // GERMAN GATE QUIZ — Test out of Foundations
+  // 5 tasks (A-E), 35 items, maps to German Playthrough stages
+  // Anti-leak compliant: no answer in question stem, P8 clean
+  // ══════════════════════════════════════════════════════════════
+  de:{
+    title:"German Foundations Gate Quiz",
+    desc:"Already know German pronunciation rules? Pass this quiz to skip Foundations.",
+    passCriteria:{AB:90,C:85,DE:80},
+    tasks:[
+      // ── Task A: Vowel & Umlaut Recognition (8 items) — maps to Stages 1-2 ──
+      {id:"gate_a",title:"Task A: Vowel and Umlaut Recognition",desc:"Identify the vowel or umlaut sound in each word.",type:"mc",category:"AB",items:[
+        {q:"What vowel sound is in 'Mann' (man)?",opts:["Short a","Long a","Umlaut a"],ans:"Short a"},
+        {q:"What vowel sound is in 'Bahn' (train)?",opts:["Short a","Long a","Umlaut a"],ans:"Long a"},
+        {q:"The umlaut in 'Bäcker' (baker) changes the vowel to…",opts:["a sound like in 'father'","e-like sound, brighter than a","u-like sound, rounded"],ans:"e-like sound, brighter than a"},
+        {q:"What vowel sound is in 'Hut' (hat)?",opts:["Short u","Long u","Umlaut u"],ans:"Short u"},
+        {q:"The umlaut in 'Mütter' (mothers) changes the vowel to…",opts:["rounded front sound, like French u","back of mouth u","plain short u"],ans:"rounded front sound, like French u"},
+        {q:"What vowel sound is in 'Boot' (boat)?",opts:["Short o","Long o","Umlaut o"],ans:"Long o"},
+        {q:"The umlaut in 'Töne' (tones) changes the vowel to…",opts:["plain short o","rounded front o, like French eu","back-of-mouth o"],ans:"rounded front o, like French eu"},
+        {q:"What vowel sound is in 'Bitte' (please)?",opts:["Short i","Long i","Short e"],ans:"Short i"},
+      ]},
+      // ── Task B: Consonant Decoding (8 items) — maps to Stage 3 ──
+      {id:"gate_b",title:"Task B: Consonant Decoding",desc:"Identify the sound each German consonant or cluster produces.",type:"mc",category:"AB",items:[
+        {q:"The letter z in German produces…",opts:["plain z as in zoo","ts sound as in bits","soft s as in measure"],ans:"ts sound as in bits"},
+        {q:"The letter w in German sounds like…",opts:["English w as in water","English v as in vase","English f as in fish"],ans:"English v as in vase"},
+        {q:"The letter v in German usually sounds like…",opts:["English v as in vase","English f as in fish","English w as in water"],ans:"English f as in fish"},
+        {q:"The cluster sch in German produces…",opts:["sk sound","sh sound as in show","s plus ch as in loch"],ans:"sh sound as in show"},
+        {q:"'sp' at the start of a German word sounds like…",opts:["sp as in English 'speak'","shp, with sh at the front","zp, with buzzing z"],ans:"shp, with sh at the front"},
+        {q:"The cluster st at the start of a German word sounds like…",opts:["st as in English 'stop'","sht, with sh at the front","zt, with buzzing z"],ans:"sht, with sh at the front"},
+        {q:"The letter combination ch after a front vowel (i, e) sounds like…",opts:["hard k sound","soft hissing sound, like h with friction","guttural back-of-throat sound"],ans:"soft hissing sound, like h with friction"},
+        {q:"The Eszett (ss) in German represents…",opts:["a double s sound","a soft z sound","a silent letter"],ans:"a double s sound"},
+      ]},
+      // ── Task C: Spelling and Capitalization (8 items) — maps to Stage 4 ──
+      {id:"gate_c",title:"Task C: Spelling and Capitalization",desc:"Apply German capitalization and spelling rules.",type:"mc",category:"C",items:[
+        {q:"In German, nouns are…",opts:["always lowercase","always capitalized","capitalized only at sentence start"],ans:"always capitalized"},
+        {q:"Which word is spelled correctly in German?",opts:["das haus","das Haus","Das haus"],ans:"das Haus"},
+        {q:"The word 'Donaudampfschiff' is an example of…",opts:["a loan word","a compound noun","a superlative form"],ans:"a compound noun"},
+        {q:"German compound nouns take their grammatical gender from…",opts:["the first part","the last part","the longest part"],ans:"the last part"},
+        {q:"The Eszett (ss) is used after…",opts:["a short vowel or diphthong","a long vowel or diphthong","any vowel at all"],ans:"a long vowel or diphthong"},
+        {q:"'Strasse' written with ss instead of ss signals that the preceding vowel is…",opts:["long","short","stressed"],ans:"short"},
+        {q:"The umlaut letters ä, ö, ü can be written without the dots as…",opts:["ae, oe, ue","a, o, u","ah, oh, uh"],ans:"ae, oe, ue"},
+        {q:"Which of these is written correctly?",opts:["Ich bin ein student.","Ich bin ein Student.","ich bin ein Student."],ans:"Ich bin ein Student."},
+      ]},
+      // ── Task D: Pronunciation Patterns (6 items) — maps to Stage 5 ──
+      {id:"gate_d",title:"Task D: Pronunciation Patterns",desc:"Identify stress, vowel length, and diphthong patterns.",type:"mc",category:"DE",items:[
+        {q:"In most German words, stress falls on…",opts:["the final syllable","the first syllable (root)","the middle syllable"],ans:"the first syllable (root)"},
+        {q:"A vowel followed by a double consonant is…",opts:["long","short","silent"],ans:"short"},
+        {q:"A vowel followed by a single consonant and then another vowel is…",opts:["short","long","silent"],ans:"long"},
+        {q:"The diphthong 'ei' in German sounds like…",opts:["ee as in feet","ay-ee glide as in eye","oy as in boy"],ans:"ay-ee glide as in eye"},
+        {q:"The diphthong 'eu' in German sounds like…",opts:["ay-oo blend","oy as in boy","ee-oo blend"],ans:"oy as in boy"},
+        {q:"A double vowel in German (aa, ee, oo) indicates…",opts:["stress on that syllable","a long vowel sound","two separate syllables"],ans:"a long vowel sound"},
+      ]},
+      // ── Task E: Grammar Awareness (5 items) — maps to Stage 6 ──
+      {id:"gate_e",title:"Task E: Grammar Awareness",desc:"Demonstrate awareness of German grammatical features.",type:"mc",category:"DE",items:[
+        {q:"German nouns have how many grammatical genders?",opts:["Two","Three","Four"],ans:"Three"},
+        {q:"The definite article for a masculine noun in German is…",opts:["die","das","der"],ans:"der"},
+        {q:"In a standard German statement, the verb must be…",opts:["the first word","the second element","the last word"],ans:"the second element"},
+        {q:"In a German subordinate clause introduced by 'weil' (because), the verb moves to…",opts:["the front","the second position","the end"],ans:"the end"},
+        {q:"German has how many main grammatical cases?",opts:["Two","Three","Four"],ans:"Four"},
+      ]},
+    ],
+    diagnosticRouting:{
+      A:"Stage 1-2: Practice identifying short and long vowels, and the three umlauts (ae, oe, ue).",
+      B:"Stage 3: Study consonant sounds including ch, z, w, v, sch, and sp/st clusters.",
+      C:"Stage 4: Study noun capitalization, compound nouns, and Eszett spelling rules.",
+      D:"Stage 5: Practice vowel length signals, word stress, and German diphthongs.",
+      E:"Stage 6: Review the three-gender system, V2 word order, and the case system.",
+    },
+  },
 };
 
