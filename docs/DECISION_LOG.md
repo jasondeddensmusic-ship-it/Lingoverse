@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-16 (D1-D106. D86+ in CLAUDE.md)
+> Last updated: 2026-03-16 (D1-D107. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D107 | Temp-File Agent Workflow for Curriculum Builds | Agent Protocol | All |
 | D106 | Agent Model Escalation Protocol (Opus over Sonnet) | Agent Protocol | All |
 | D105 | French A1-B2 Complete Curriculum Build | Content/Build | French |
 | D104 | Post-Build Structural Validation Protocol | Agent Protocol | All |
@@ -153,11 +154,14 @@ D103, D104
 ### French Curriculum
 D105
 
+### Spanish Curriculum
+D107
+
 ### Pipeline Rules
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
 
 ### Agent Protocol / Documentation
-D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106
+D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
 
 ### Content Enrichment Workflow
 D100, D105
@@ -188,6 +192,7 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D104**: Post-Build Structural Validation Protocol (March 2026), defined in `CLAUDE.md` Rule 10
 - **D105**: French A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D106**: Agent Model Escalation Protocol (March 2026), defined in `CLAUDE.md` Rule 11 and `DECISION_LOG.md`
+- **D107**: Temp-File Agent Workflow (March 2026), defined in `CLAUDE.md` Rule 12 and `DECISION_LOG.md`
 
 ---
 
@@ -385,6 +390,26 @@ Build used Opus 4.6 agents after Sonnet agents proved unreliable (stale, unrespo
 5. **Agent reliability is non-negotiable.** Every deployed agent must complete its task. Stale/unresponsive agents waste owner time and break sequential workflows (Rule 9). If an agent model cannot reliably complete a task type, that model is banned from that task type.
 
 **This is now permanent policy.** All future curriculum builds (Spanish, Arabic, expansion languages) MUST use Opus 4.6 for content generation agents.
+
+## D107: Temp-File Agent Workflow for Curriculum Builds (2026-03-16)
+
+**Problem**: During the Spanish A1-B2 build, three agent deployment strategies failed:
+1. **Worktree agents** branched from commits that predated `units-spanish.js`, so the file didn't exist in the worktree. Agents couldn't write to the target file. Failed 3 times.
+2. **Direct-write agents** (Opus) went stale after reading thousands of lines of context but never writing. One agent consumed 68KB of output reading files without producing any content.
+3. **Main-session manual writing** was functional but painfully slow, taking the main session's full attention for each unit.
+
+**Solution (codified as Rule 12 in Agent Deployment Standards)**:
+1. Content agents write to **temp files** (`/tmp/esp-uN.js`), NOT to the main units file.
+2. Each agent writes a self-contained unit as `module.exports = [{...unit object...}]`.
+3. The agent runs its own validation (step counts, P48, board:true, required fields).
+4. The **main session** validates independently, merges into the main file, runs full-file validation, builds, commits.
+5. Two agents can run in parallel (e.g., U7 + U8) since they write to separate temp files.
+6. A validation agent (Sonnet-tier) scans after merge for P8/P48/P49/P22c.
+7. **Worktrees are BANNED for curriculum builds.** They branch from committed state, which may not include the current session's work.
+
+**Key insight**: Separation of content generation (agent) from file management (main session) eliminates all three failure modes. Agents focus on writing quality content. Main session focuses on integration and validation.
+
+**Build status at D107**: Spanish A1 U1-U6 complete (48 lessons, 867 steps). Infrastructure complete. U7-U30 remaining.
 
 ---
 
