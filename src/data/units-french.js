@@ -2268,4 +2268,324 @@ export default [
 ]},
 ]},
 
+// ═══════════════════════════════════════════════
+//  UNIT 8 — Les courses
+//  Level: A1.8 | Lessons: 8 | Track: v1
+// ═══════════════════════════════════════════════
+
+{n:8,lang:"fr",track:"v1",title:"Les courses",sub:"Shopping & Clothing",icon:"🛍️",level:"A1.8",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Les vêtements ═══
+{id:"fre8l1",title:"Les vêtements",icon:"👕",xp:15,board:true,steps:[
+  {type:"intro",title:"Les vêtements: clothing",desc:"Learn the names of common clothing items in French. As always, every item has a gender. Pay attention to le/la/les.",goals:["Name 8 clothing items","Use correct articles","Describe what you're wearing"]},
+
+  {type:"teach",kind:"word",nl:"une chemise",en:"a shirt (button-up)",phonetic:"ewn shuh-MEEZ",example:"A: Tu portes quoi demain?\nB: Une chemise blanche.\nA: Pour le travail?",exampleEn:"A: What are you wearing tomorrow?\nB: A white shirt.\nA: For work?",note:"Feminine. Button-up/dress shirt.\nUn tee-shirt = a T-shirt (casual)."},
+
+  {type:"teach",kind:"word",nl:"un pantalon",en:"a pair of pants",phonetic:"uhn pahn-tah-LON",example:"A: Ce pantalon est trop grand!\nB: Tu fais quelle taille?\nA: Du 40.",exampleEn:"A: These pants are too big!\nB: What size are you?\nA: Size 40.",note:"Masculine. Always singular in French.\nUN pantalon (not des pantalons for one pair)."},
+
+  {type:"teach",kind:"word",nl:"une robe",en:"a dress",phonetic:"ewn ROB",example:"A: Quelle jolie robe!\nB: Merci, je l'ai achetée hier.\nA: Elle te va très bien.",exampleEn:"A: What a pretty dress!\nB: Thanks, I bought it yesterday.\nA: It suits you very well.",note:"Feminine. Une robe = a dress.\nUne robe de soirée = an evening dress."},
+
+  {type:"teach",kind:"word",nl:"des chaussures",en:"shoes",phonetic:"day shoh-SEWR",example:"A: J'ai besoin de chaussures.\nB: Des baskets ou des chaussures habillées?\nA: Des baskets.",exampleEn:"A: I need shoes.\nB: Sneakers or dress shoes?\nA: Sneakers.",note:"Feminine plural. Usually plural.\nDes baskets = sneakers.\nDes bottes = boots."},
+
+  {type:"teach",kind:"word",nl:"un manteau",en:"a coat",phonetic:"uhn mahn-TOH",example:"A: Il fait froid, prends un manteau!\nB: Mon manteau noir?\nA: Oui, le noir.",exampleEn:"A: It's cold, take a coat!\nB: My black coat?\nA: Yes, the black one.",note:"Masculine. Plural: des manteaux.\nUne veste = a jacket (lighter)."},
+
+  {type:"teach",kind:"word",nl:"une jupe",en:"a skirt",phonetic:"ewn ZHEWP",example:"A: Tu préfères la jupe ou le pantalon?\nB: La jupe, c'est plus élégant.\nA: Je suis d'accord.",exampleEn:"A: Do you prefer the skirt or the pants?\nB: The skirt, it's more elegant.\nA: I agree.",note:"Feminine. Une jupe courte = a short skirt.\nUne mini-jupe = a miniskirt."},
+
+  {type:"teach",kind:"word",nl:"un chapeau",en:"a hat",phonetic:"uhn shah-POH",example:"A: Il fait soleil!\nB: Mets un chapeau.\nA: Bonne idée.",exampleEn:"A: It's sunny!\nB: Put on a hat.\nA: Good idea.",note:"Masculine. Plural: des chapeaux.\nUne casquette = a cap."},
+
+  {type:"teach",kind:"phrase",nl:"porter",en:"to wear / to carry",phonetic:"por-TAY",example:"A: Qu'est-ce que tu portes?\nB: Je porte un pantalon et une chemise.\nA: C'est élégant!",exampleEn:"A: What are you wearing?\nB: I'm wearing pants and a shirt.\nA: That's elegant!",note:"Regular -er verb. Two meanings:\n1. To wear (clothing)\n2. To carry (objects)."},
+
+  {type:"match",pairs:[{nl:"une chemise",en:"a shirt"},{nl:"un pantalon",en:"pants"},{nl:"une robe",en:"a dress"},{nl:"des chaussures",en:"shoes"}]},
+
+  {type:"mc",q:"'Un pantalon' is singular in French even though English says 'pants' because:",opts:["French is wrong","It refers to one garment","It is plural","It is feminine"],ans:"It refers to one garment",hint:"French treats it as one item, using the singular article."},
+
+  {type:"fb",s:"Elle porte ___ robe rouge.",a:"une",opts:["une","un","des","la"],hint:"She wears A red dress. Feminine indefinite article."},
+
+  {type:"match",pairs:[{nl:"un manteau",en:"a coat"},{nl:"une jupe",en:"a skirt"},{nl:"un chapeau",en:"a hat"},{nl:"porter",en:"to wear"}]},
+
+  {type:"mc",q:"'Je porte un manteau' means:",opts:["I buy a coat","I wear a coat","I find a coat","I wash a coat"],ans:"I wear a coat",hint:"Porter = to wear when talking about clothing."},
+
+  {type:"fb",s:"Il fait froid, mets ___ manteau!",a:"un",opts:["un","une","le","la"],hint:"Put on A coat. Masculine indefinite article."},
+
+  {type:"mc",q:"'Des chaussures' uses 'des' because:",opts:["One shoe","Always singular","Always plural (shoes come in pairs)","It is masculine"],ans:"Always plural (shoes come in pairs)",hint:"Shoes, like in English, are typically referred to in pairs."},
+
+  {type:"fb",s:"Tu fais ___ taille? (What size are you?)",a:"quelle",opts:["quelle","quel","quelles","quels"],hint:"What size: ___ taille? Taille is feminine singular."},
+
+  {type:"mc",q:"The plural of 'un chapeau' is:",opts:["Des chapeaus","Des chapeaux","Des chapeaues","Des chapeauz"],ans:"Des chapeaux",hint:"Words ending in -eau form their plural with -eaux."},
+]},
+
+// ═══ L2: Les couleurs ═══
+{id:"fre8l2",title:"Les couleurs",icon:"🎨",xp:15,board:true,steps:[
+  {type:"intro",title:"Les couleurs",desc:"Colors in French are adjectives that agree with the noun's gender. Most add -e for feminine, but some are invariable.",goals:["Name 8 common colors","Know masculine/feminine forms","Place colors after the noun"]},
+
+  {type:"teach",kind:"word",nl:"rouge",en:"red",phonetic:"ROOZH",example:"A: Tu aimes cette robe?\nB: La rouge? Oui, elle est belle!\nA: Je la prends.",exampleEn:"A: Do you like this dress?\nB: The red one? Yes, it's beautiful!\nA: I'll take it.",note:"Same form for masculine and feminine.\nEnds in -e already, so no change needed."},
+
+  {type:"teach",kind:"word",nl:"bleu / bleue",en:"blue",phonetic:"BLUH",example:"A: Le ciel est bleu aujourd'hui.\nB: Et la mer est bleue aussi!\nA: Parfait pour la plage.",exampleEn:"A: The sky is blue today.\nB: And the sea is blue too!\nA: Perfect for the beach.",note:"Masculine: bleu. Feminine: bleue.\nAdd -e for feminine."},
+
+  {type:"teach",kind:"word",nl:"noir / noire",en:"black",phonetic:"NWAHR",example:"A: Tu portes toujours du noir.\nB: J'aime la couleur noire!\nA: C'est élégant.",exampleEn:"A: You always wear black.\nB: I like the color black!\nA: It's elegant.",note:"Masculine: noir. Feminine: noire.\nAdd -e for feminine."},
+
+  {type:"teach",kind:"word",nl:"blanc / blanche",en:"white",phonetic:"BLAHN / BLAHNSH",example:"A: Une chemise blanche, s'il vous plaît.\nB: Quelle taille?\nA: Du 40.",exampleEn:"A: A white shirt, please.\nB: What size?\nA: Size 40.",note:"Masculine: blanc. Feminine: blanche.\nIrregular feminine form."},
+
+  {type:"teach",kind:"word",nl:"vert / verte",en:"green",phonetic:"VEHR / VEHRT",example:"A: Tu aimes le vert?\nB: Oui, j'adore le vert!\nA: Un tee-shirt vert alors.",exampleEn:"A: Do you like green?\nB: Yes, I love green!\nA: A green T-shirt then.",note:"Masculine: vert (silent t).\nFeminine: verte (t is pronounced)."},
+
+  {type:"teach",kind:"word",nl:"jaune",en:"yellow",phonetic:"ZHOHN",example:"A: Cette jupe jaune est jolie.\nB: Oui, le jaune te va bien.\nA: Je l'essaie.",exampleEn:"A: This yellow skirt is pretty.\nB: Yes, yellow suits you.\nA: I'll try it on.",note:"Same form for masculine and feminine.\nAlready ends in -e."},
+
+  {type:"teach",kind:"word",nl:"gris / grise",en:"gray",phonetic:"GREE / GREEZ",example:"A: Il fait gris aujourd'hui.\nB: Oui, le ciel est tout gris.\nA: Typique!",exampleEn:"A: It's gray today.\nB: Yes, the sky is all gray.\nA: Typical!",note:"Masculine: gris. Feminine: grise.\nAlso means 'overcast' for weather."},
+
+  {type:"teach",kind:"word",nl:"marron",en:"brown",phonetic:"mah-RON",example:"A: J'aime tes chaussures.\nB: Les marron? Merci!\nA: Elles sont neuves?",exampleEn:"A: I like your shoes.\nB: The brown ones? Thanks!\nA: Are they new?",note:"Invariable: never changes form.\nUne veste marron, des yeux marron.\nFrom the word for chestnut."},
+
+  {type:"tip",title:"Color placement and agreement",text:"Colors go AFTER the noun in French:\nUne robe rouge (a red dress)\nUn pantalon noir (black pants)\n\nAgreement rules:\nMost: add -e for feminine, -s for plural\nSome: invariable (marron, orange)\nIrregular: blanc/blanche, long/longue\n\nEnds in -e already: no change (rouge, jaune)."},
+
+  {type:"match",pairs:[{nl:"rouge",en:"red"},{nl:"bleu",en:"blue"},{nl:"noir",en:"black"},{nl:"blanc",en:"white"}]},
+
+  {type:"mc",q:"Colors in French go:",opts:["Before the noun","After the noun","It doesn't matter","Before and after"],ans:"After the noun",hint:"Unlike English, French places most adjectives in this position."},
+
+  {type:"fb",s:"Elle porte une jupe ___. (black, feminine)",a:"noire",opts:["noire","noir","noirs","noires"],hint:"Black + feminine singular = add -e to the masculine form."},
+
+  {type:"match",pairs:[{nl:"vert",en:"green"},{nl:"jaune",en:"yellow"},{nl:"gris",en:"gray"},{nl:"marron",en:"brown"}]},
+
+  {type:"mc",q:"'Marron' is invariable, meaning:",opts:["It changes for feminine","It never changes form","It only works with masculine","It has no plural"],ans:"It never changes form",hint:"Some colors derived from nouns never add -e or -s."},
+
+  {type:"fb",s:"Un pantalon ___ et une chemise blanche.",a:"noir",opts:["noir","noire","noirs","noires"],hint:"Pantalon is masculine singular. No -e needed."},
+
+  {type:"mc",q:"'Blanc' becomes ___ in feminine:",opts:["Blance","Blanche","Blanque","Blanc"],ans:"Blanche",hint:"This color has an irregular feminine form (not just adding -e)."},
+
+  {type:"fb",s:"Des chaussures ___. (red, plural)",a:"rouges",opts:["rouges","rouge","rougee","rougees"],hint:"Red + plural. Rouge already has -e, just add -s."},
+]},
+
+// ═══ L3: Les nombres 20-100 ═══
+{id:"fre8l3",title:"Les nombres 20-100",icon:"🔢",xp:15,board:true,steps:[
+  {type:"intro",title:"Les nombres de 20 à 100",desc:"French numbers have quirks: 70 = soixante-dix (60+10), 80 = quatre-vingts (4x20), 90 = quatre-vingt-dix (4x20+10). This is the Belgian/Swiss system's rival!",goals:["Count from 20 to 100","Handle the 70/80/90 system","Use numbers for prices and addresses"]},
+
+  {type:"teach",kind:"word",nl:"vingt",en:"twenty (20)",phonetic:"VAN",example:"A: Ça coûte combien?\nB: Vingt euros.\nA: D'accord, voilà.",exampleEn:"A: How much does it cost?\nB: Twenty euros.\nA: OK, here you go.",note:"20. Final -t is normally silent.\nBut: vingt et un (21), the t links."},
+
+  {type:"teach",kind:"word",nl:"trente",en:"thirty (30)",phonetic:"TRAHNT",example:"A: Il y a combien d'élèves?\nB: Trente élèves dans la classe.\nA: C'est beaucoup!",exampleEn:"A: How many students are there?\nB: Thirty students in the class.\nA: That's a lot!",note:"30. Regular pattern.\n31 = trente et un.\n32 = trente-deux... etc."},
+
+  {type:"teach",kind:"word",nl:"quarante",en:"forty (40)",phonetic:"kah-RAHNT",example:"A: Tu as quel âge?\nB: J'ai quarante ans.\nA: Tu ne les fais pas!",exampleEn:"A: How old are you?\nB: I'm forty.\nA: You don't look it!",note:"40. Regular pattern continues.\n41 = quarante et un.\n45 = quarante-cinq."},
+
+  {type:"teach",kind:"word",nl:"cinquante",en:"fifty (50)",phonetic:"san-KAHNT",example:"A: Le loyer est de cinquante euros par semaine?\nB: Non, cinq cents euros par mois!\nA: Ah, c'est différent!",exampleEn:"A: The rent is fifty euros per week?\nB: No, five hundred euros per month!\nA: Ah, that's different!",note:"50. From cinq (5).\n51 = cinquante et un.\n55 = cinquante-cinq."},
+
+  {type:"teach",kind:"word",nl:"soixante",en:"sixty (60)",phonetic:"swah-SAHNT",example:"A: Soixante euros pour cette chemise?\nB: C'est la qualité française!\nA: Bon, je la prends.",exampleEn:"A: Sixty euros for this shirt?\nB: That's French quality!\nA: Fine, I'll take it.",note:"60. From six.\n61 = soixante et un.\n69 = soixante-neuf."},
+
+  {type:"tip",title:"The 70-80-90 system",text:"Here's where French gets creative:\n\n70 = soixante-dix (60 + 10)\n71 = soixante et onze (60 + 11)\n72 = soixante-douze (60 + 12)\n\n80 = quatre-vingts (4 x 20)\n81 = quatre-vingt-un (no 'et', no -s on vingts)\n\n90 = quatre-vingt-dix (4 x 20 + 10)\n91 = quatre-vingt-onze\n99 = quatre-vingt-dix-neuf\n\n100 = cent"},
+
+  {type:"teach",kind:"word",nl:"soixante-dix",en:"seventy (70)",phonetic:"swah-sahnt-DEES",example:"A: Combien?\nB: Soixante-dix euros.\nA: Soixante plus dix, oui!",exampleEn:"A: How much?\nB: Seventy euros.\nA: Sixty plus ten, yes!",note:"70 = 60 + 10. This is the standard French system.\nBelgium/Switzerland say septante."},
+
+  {type:"teach",kind:"word",nl:"quatre-vingts",en:"eighty (80)",phonetic:"KAH-truh VAN",example:"A: Mon grand-père a quatre-vingts ans.\nB: Quatre fois vingt!\nA: Il est en pleine forme.",exampleEn:"A: My grandfather is eighty.\nB: Four times twenty!\nA: He's in great shape.",note:"80 = 4 x 20. Note the -s on vingts.\nBut: 81 = quatre-vingt-un (no -s)."},
+
+  {type:"teach",kind:"word",nl:"cent",en:"one hundred (100)",phonetic:"SAHN",example:"A: Ça fait cent euros.\nB: Cent euros! C'est cher.\nA: C'est la qualité.",exampleEn:"A: That comes to a hundred euros.\nB: A hundred euros! That's expensive.\nA: It's quality.",note:"100. No article needed.\nDeux cents = 200 (with -s).\nDeux cent dix = 210 (no -s before another number)."},
+
+  {type:"match",pairs:[{nl:"vingt",en:"20"},{nl:"trente",en:"30"},{nl:"quarante",en:"40"},{nl:"cinquante",en:"50"}]},
+
+  {type:"mc",q:"70 in French is 'soixante-dix', which literally means:",opts:["Seven-ten","Seventy","Sixty-ten","Sixty plus seven"],ans:"Sixty-ten",hint:"Soixante = 60, dix = 10. Added together."},
+
+  {type:"fb",s:"Quatre-___ = 80.",a:"vingts",opts:["vingts","vingt","cents","dix"],hint:"4 x 20. Note: the final word has an -s when standing alone."},
+
+  {type:"match",pairs:[{nl:"soixante-dix",en:"70"},{nl:"quatre-vingts",en:"80"},{nl:"quatre-vingt-dix",en:"90"},{nl:"cent",en:"100"}]},
+
+  {type:"mc",q:"81 is 'quatre-vingt-UN' (no -s on vingt). Why?",opts:["It sounds better","Vingt drops -s before another number","81 is odd","It is a rule without reason"],ans:"Vingt drops -s before another number",hint:"Quatre-vingts (80) but quatre-vingt-un (81). The -s disappears when followed by more."},
+
+  {type:"fb",s:"Quatre-vingt-___ = 90.",a:"dix",opts:["dix","neuf","onze","vingt"],hint:"80 + 10 = 90. Which number means ten?"},
+
+  {type:"mc",q:"What is 75 in French?",opts:["Septante-cinq","Soixante-quinze","Soixante-cinq","Quatre-vingt-quinze"],ans:"Soixante-quinze",hint:"60 + 15 = 75. Quinze = 15."},
+
+  {type:"fb",s:"Ça coûte ___ euros. (100)",a:"cent",opts:["cent","cents","san","cen"],hint:"One hundred. No article, no -s for exactly 100."},
+]},
+
+// ═══ L4: Faire les courses ═══
+{id:"fre8l4",title:"Faire les courses",icon:"🛒",xp:15,board:true,steps:[
+  {type:"intro",title:"Faire les courses: shopping",desc:"Learn essential shopping phrases for French stores. How to ask prices, sizes, try things on, and complete a purchase.",goals:["Ask for prices","Request sizes","Use shopping phrases fluently"]},
+
+  {type:"teach",kind:"phrase",nl:"Combien ça coûte?",en:"How much does it cost?",phonetic:"kom-bee-AN sah KOOT",example:"A: Combien ça coûte, ce pantalon?\nB: Quarante-cinq euros.\nA: C'est un bon prix.",exampleEn:"A: How much do these pants cost?\nB: Forty-five euros.\nA: That's a good price.",note:"The essential price question.\nAlternatives: C'est combien?\nÇa fait combien?"},
+
+  {type:"teach",kind:"phrase",nl:"Je voudrais...",en:"I would like...",phonetic:"zhuh voo-DRAY",example:"A: Bonjour, je voudrais essayer cette robe.\nB: Bien sûr, quelle taille?\nA: Du 38.",exampleEn:"A: Hello, I would like to try on this dress.\nB: Of course, what size?\nA: Size 38.",note:"Polite way to ask for something.\nMore polite than je veux (I want).\nConditional of vouloir."},
+
+  {type:"teach",kind:"phrase",nl:"essayer",en:"to try on",phonetic:"eh-say-YAY",example:"A: Je peux essayer ce manteau?\nB: Oui, la cabine est là-bas.\nA: Merci!",exampleEn:"A: Can I try on this coat?\nB: Yes, the fitting room is over there.\nA: Thanks!",note:"Regular -er verb (with spelling change).\nLa cabine d'essayage = fitting room."},
+
+  {type:"teach",kind:"phrase",nl:"C'est trop cher",en:"It's too expensive",phonetic:"say troh SHEHR",example:"A: Cette veste coûte deux cents euros.\nB: C'est trop cher!\nA: Il y a des soldes la semaine prochaine.",exampleEn:"A: This jacket costs two hundred euros.\nB: That's too expensive!\nA: There are sales next week.",note:"Trop = too (much). Cher = expensive.\nFeminine: chère. Les soldes = sales."},
+
+  {type:"teach",kind:"phrase",nl:"Je le/la prends",en:"I'll take it",phonetic:"zhuh luh/lah PRAHN",example:"A: Le pantalon vous va bien.\nB: Oui, je le prends!\nA: Très bien, je vous emballe ça.",exampleEn:"A: The pants suit you well.\nB: Yes, I'll take them!\nA: Very well, I'll wrap that up.",note:"Le = it (masc.), la = it (fem.).\nJe le prends = I take it (masc.).\nJe la prends = I take it (fem.)."},
+
+  {type:"teach",kind:"phrase",nl:"payer",en:"to pay",phonetic:"pay-YAY",example:"A: Comment vous payez?\nB: Par carte, s'il vous plaît.\nA: Voilà, merci et bonne journée!",exampleEn:"A: How are you paying?\nB: By card, please.\nA: There you go, thanks and have a good day!",note:"Regular -er verb (spelling change: y->i).\nPayer par carte = pay by card.\nPayer en espèces = pay cash."},
+
+  {type:"mc",q:"'Combien ça coûte?' asks about:",opts:["The size","The color","The price","The material"],ans:"The price",hint:"Combien = how much. This question is about money."},
+
+  {type:"fb",s:"Je ___ essayer cette chemise.",a:"voudrais",opts:["voudrais","veux","vouloir","veut"],hint:"I would like: the polite conditional form."},
+
+  {type:"match",pairs:[{nl:"Combien ça coûte?",en:"How much?"},{nl:"Je voudrais",en:"I would like"},{nl:"essayer",en:"to try on"},{nl:"C'est trop cher",en:"Too expensive"}]},
+
+  {type:"mc",q:"'Je le prends' uses 'le' because:",opts:["It is polite","The item is masculine","The item is expensive","Le means 'this'"],ans:"The item is masculine",hint:"Le replaces a masculine noun. La would replace a feminine one."},
+
+  {type:"fb",s:"Comment vous ___? Par carte ou en espèces?",a:"payez",opts:["payez","payer","payons","payes"],hint:"How do you pay? Vous + which form of the verb?"},
+
+  {type:"mc",q:"'Les soldes' in France are:",opts:["Taxes","Sales / discounts","Returns","Receipts"],ans:"Sales / discounts",hint:"The period when shops reduce prices. Happens twice yearly."},
+
+  {type:"fb",s:"C'est ___ cher, je ne le prends pas.",a:"trop",opts:["trop","très","un peu","assez"],hint:"It's TOO expensive. Which word means 'too much'?"},
+
+  {type:"mc",q:"'La cabine d'essayage' is:",opts:["The cash register","The fitting room","The display window","The exit"],ans:"The fitting room",hint:"Essayage comes from essayer. Where do you try clothes on?"},
+
+  {type:"fb",s:"Cette robe me va bien. Je ___ prends!",a:"la",opts:["la","le","les","l'"],hint:"Robe is feminine. Which pronoun replaces a feminine noun?"},
+
+  {type:"mc",q:"'Payer en espèces' means to pay:",opts:["By card","By check","In cash","Online"],ans:"In cash",hint:"Espèces = species, but in money context = physical cash."},
+
+  {type:"fb",s:"Bonjour, ___ voudrais une jupe bleue.",a:"je",opts:["je","tu","il","nous"],hint:"I would like: first person subject pronoun."},
+]},
+
+// ═══ L5: Les démonstratifs ═══
+{id:"fre8l5",title:"Les démonstratifs",icon:"👆",xp:15,board:true,steps:[
+  {type:"intro",title:"Ce, cet, cette, ces: this/that/these/those",desc:"Demonstrative adjectives point at things: THIS shirt, THAT dress, THESE shoes. French has four forms based on gender and number.",goals:["Use ce (masc.), cette (fem.), ces (plural)","Know when to use cet (before vowel)","Point at items while shopping"]},
+
+  {type:"tip",title:"Demonstrative adjectives",text:"ce + masculine noun: ce pantalon (this/that pants)\ncet + masculine noun starting with vowel/h: cet homme\ncette + feminine noun: cette robe (this/that dress)\nces + any plural: ces chaussures (these/those shoes)\n\nFrench does not distinguish this/that.\nBoth = ce/cette/ces.\nTo specify: add -ci (this) or -là (that) after the noun."},
+
+  {type:"teach",kind:"word",nl:"ce",en:"this / that (masculine)",phonetic:"SUH",example:"A: Tu aimes ce manteau?\nB: Ce manteau noir? Oui!\nA: Il coûte cinquante euros.",exampleEn:"A: Do you like this coat?\nB: This black coat? Yes!\nA: It costs fifty euros.",note:"Before masculine nouns starting with consonant.\nCe pantalon, ce chapeau, ce magasin."},
+
+  {type:"teach",kind:"word",nl:"cet",en:"this / that (masc. before vowel)",phonetic:"SET",example:"A: Tu connais cet homme?\nB: Non, qui est-ce?\nA: C'est mon voisin.",exampleEn:"A: Do you know this man?\nB: No, who is he?\nA: He's my neighbor.",note:"Before masculine nouns starting with vowel or silent h.\nCet appartement, cet hôtel."},
+
+  {type:"teach",kind:"word",nl:"cette",en:"this / that (feminine)",phonetic:"SET",example:"A: Regarde cette robe!\nB: Elle est magnifique.\nA: Et pas chère!",exampleEn:"A: Look at this dress!\nB: It's magnificent.\nA: And not expensive!",note:"Before all feminine singular nouns.\nCette chemise, cette jupe, cette couleur."},
+
+  {type:"teach",kind:"word",nl:"ces",en:"these / those (plural)",phonetic:"SAY",example:"A: Ces chaussures sont jolies.\nB: Oui, mais ces chaussures sont chères.\nA: C'est vrai.",exampleEn:"A: These shoes are pretty.\nB: Yes, but these shoes are expensive.\nA: That's true.",note:"Before all plural nouns (masc. or fem.).\nCes pantalons, ces robes, ces couleurs."},
+
+  {type:"teach",kind:"phrase",nl:"ce...ci / ce...là",en:"this one here / that one there",phonetic:"see / lah",example:"A: Quelle robe? Cette robe-ci ou cette robe-là?\nB: Cette robe-ci, la bleue.\nA: Bon choix!",exampleEn:"A: Which dress? This one here or that one there?\nB: This one here, the blue one.\nA: Good choice!",note:"To distinguish this vs that:\n-ci = here (this)\n-là = there (that)\nAdded after the noun."},
+
+  {type:"mc",q:"Before a feminine noun, you use:",opts:["Ce","Cet","Cette","Ces"],ans:"Cette",hint:"Feminine singular always uses the same form, regardless of first letter."},
+
+  {type:"fb",s:"___ pantalon est trop grand.",a:"Ce",opts:["Ce","Cet","Cette","Ces"],hint:"Pantalon is masculine, starts with consonant."},
+
+  {type:"match",pairs:[{nl:"ce manteau",en:"this coat"},{nl:"cette robe",en:"this dress"},{nl:"ces chaussures",en:"these shoes"},{nl:"cet homme",en:"this man"}]},
+
+  {type:"mc",q:"'Cet' is used instead of 'ce' when:",opts:["The noun is feminine","The noun starts with a vowel or silent h","The noun is plural","The noun is long"],ans:"The noun starts with a vowel or silent h",hint:"Masculine before vowel/h uses a special form for pronunciation."},
+
+  {type:"fb",s:"___ chemise est très jolie.",a:"Cette",opts:["Cette","Ce","Cet","Ces"],hint:"Chemise is feminine singular. Which demonstrative?"},
+
+  {type:"mc",q:"To say 'THAT dress there' (pointing far), you add:",opts:["-ci after robe","-là after robe","-ici after robe","-bas after robe"],ans:"-là after robe",hint:"Là = there. Added to the noun to specify distance."},
+
+  {type:"fb",s:"___ chaussures sont en solde.",a:"Ces",opts:["Ces","Ce","Cette","Cet"],hint:"Shoes is plural. Which demonstrative for plural?"},
+
+  {type:"match",pairs:[{nl:"ce pantalon-ci",en:"these pants here"},{nl:"cette robe-là",en:"that dress there"},{nl:"ces chaussures-ci",en:"these shoes here"},{nl:"cet hôtel-là",en:"that hotel there"}]},
+
+  {type:"mc",q:"'Cet appartement' uses 'cet' because appartement is:",opts:["Feminine","Plural","Masculine starting with a vowel","Masculine starting with a consonant"],ans:"Masculine starting with a vowel",hint:"Appartement is masculine and begins with 'a' (a vowel)."},
+
+  {type:"fb",s:"Tu préfères ___ manteau-ci ou ___ manteau-là?",a:["ce","ce"],opts:["ce","cet","cette","ces"],hint:"Manteau is masculine, starts with consonant. Same form both times."},
+
+  {type:"mc",q:"French demonstratives (ce/cette/ces) cover:",opts:["Only 'this'","Only 'that'","Both 'this' and 'that'","Only 'these'"],ans:"Both 'this' and 'that'",hint:"French does not have separate words for this/that by default."},
+]},
+
+// ═══ L6: Les nombres 100-1000 ═══
+{id:"fre8l6",title:"100 à 1000",icon:"💯",xp:15,board:true,steps:[
+  {type:"intro",title:"Les nombres de 100 à 1000",desc:"Master large numbers for prices, addresses, and dates. French numbers above 100 follow a simpler pattern than 70-90.",goals:["Count in hundreds","Say numbers up to 1000","Use numbers for prices"]},
+
+  {type:"teach",kind:"word",nl:"cent",en:"one hundred (100)",phonetic:"SAHN",example:"A: Ça coûte cent euros.\nB: Cent exactement?\nA: Cent virgule cinquante.",exampleEn:"A: It costs 100 euros.\nB: Exactly 100?\nA: 100.50.",note:"100. No un before cent.\nDeux cents = 200 (with -s).\nDeux cent dix = 210 (no -s)."},
+
+  {type:"teach",kind:"word",nl:"deux cents",en:"two hundred (200)",phonetic:"duh SAHN",example:"A: Le loyer est de deux cents euros?\nB: Non, cinq cents!\nA: C'est cher...",exampleEn:"A: Is the rent 200 euros?\nB: No, 500!\nA: That's expensive...",note:"200. Cents gets -s when it ends the number.\nBut: deux cent dix (210) = no -s.\nRule: -s only if nothing follows."},
+
+  {type:"teach",kind:"word",nl:"mille",en:"one thousand (1000)",phonetic:"MEEL",example:"A: Cet appartement coûte mille euros par mois.\nB: Mille euros!\nA: C'est Paris...",exampleEn:"A: This apartment costs 1000 euros per month.\nB: A thousand euros!\nA: It's Paris...",note:"1000. Never takes -s.\nDeux mille = 2000 (no -s on mille).\nMille is invariable."},
+
+  {type:"tip",title:"Number patterns 100-1000",text:"100 = cent\n200 = deux cents (with -s)\n201 = deux cent un (no -s)\n300 = trois cents\n500 = cinq cents\n999 = neuf cent quatre-vingt-dix-neuf\n1000 = mille\n\nRule: cents takes -s ONLY at the end.\nMille NEVER takes -s."},
+
+  {type:"mc",q:"'Deux cents' has an -s, but 'deux cent dix' does not because:",opts:["210 is odd","The -s drops when another number follows","It is a mistake","Dix removes the -s"],ans:"The -s drops when another number follows",hint:"Cents gets -s only when it's the last number word."},
+
+  {type:"fb",s:"Cinq ___ euros. (500)",a:"cents",opts:["cents","cent","cen","centes"],hint:"500 ends on the hundreds. Does cent get an -s here?"},
+
+  {type:"mc",q:"'Mille' never takes -s. So 3000 is:",opts:["Trois milles","Trois mille","Troi mille","Trois mill"],ans:"Trois mille",hint:"Mille is invariable, unlike cent."},
+
+  {type:"fb",s:"Cet ordinateur coûte ___ euros. (1000)",a:"mille",opts:["mille","mill","cent","cents"],hint:"One thousand. The word that never changes."},
+
+  {type:"match",pairs:[{nl:"cent",en:"100"},{nl:"deux cents",en:"200"},{nl:"cinq cents",en:"500"},{nl:"mille",en:"1000"}]},
+
+  {type:"mc",q:"What is 350 in French?",opts:["Trois cents cinquante","Trois cent cinquante","Trois cinquante","Trente-cinq cent"],ans:"Trois cent cinquante",hint:"300 + 50. Since 50 follows, cent has no -s."},
+
+  {type:"fb",s:"Trois cent ___-cinq euros. (375)",a:"soixante",opts:["soixante","septante","soixante-dix","quarante"],hint:"75 = the 60-system. What base number starts the combo?"},
+
+  {type:"mc",q:"999 in French is:",opts:["Neuf cent quatre-vingt-dix-neuf","Neuf cents quatre-vingt-dix-neuf","Neuf cent neuf neuf","Neuf neuf neuf"],ans:"Neuf cent quatre-vingt-dix-neuf",hint:"900 + 90 + 9. No -s on cent because more follows."},
+
+  {type:"fb",s:"Cette voiture coûte dix ___ euros.",a:"mille",opts:["mille","milles","cent","cents"],hint:"10,000. The word for 1000. It never takes -s."},
+
+  {type:"mc",q:"How do you say 250 euros?",opts:["Deux cent cinquante","Deux cents cinquante","Vingt-cinq cent","Deux cinquante"],ans:"Deux cent cinquante",hint:"200 + 50. No -s on cent when more follows."},
+
+  {type:"fb",s:"Il y a ___ cent habitants dans ce village. (900)",a:"neuf",opts:["neuf","nouveau","huit","dix"],hint:"900 = ___ cent. Which number means nine?"},
+
+  {type:"mc",q:"A common French salary might be 'deux mille cinq cents euros'. That's:",opts:["250 euros","2,005 euros","2,500 euros","25,000 euros"],ans:"2,500 euros",hint:"Deux mille = 2000. Cinq cents = 500. Total?"},
+
+  {type:"fb",s:"Six ___ trente euros. (630)",a:"cent",opts:["cent","cents","mille","milles"],hint:"630 = six ___ trente. Another number follows."},
+]},
+
+// ═══ L7: Au magasin ═══
+{id:"fre8l7",title:"Au magasin",icon:"🏬",xp:15,board:true,steps:[
+  {type:"intro",title:"Au magasin: at the store",desc:"Practice complete shopping scenarios. Combine clothing, colors, numbers, demonstratives, and shopping phrases in real conversations.",goals:["Navigate a complete shopping scenario","Use all Unit 8 vocabulary together","Handle prices and payments"]},
+
+  {type:"teach",kind:"phrase",nl:"Quelle taille?",en:"What size?",phonetic:"kel TAHY",example:"A: Je voudrais cette chemise.\nB: Quelle taille, monsieur?\nA: Du 42.",exampleEn:"A: I'd like this shirt.\nB: What size, sir?\nA: Size 42.",note:"Taille = size (for clothes).\nPointure = size (for shoes).\nQuelle = which/what (fem.)."},
+
+  {type:"teach",kind:"phrase",nl:"Ça vous va?",en:"Does it suit you? / Does it fit?",phonetic:"sah voo VAH",example:"A: Ce pantalon, ça vous va?\nB: Oui, c'est parfait!\nA: Excellent choix.",exampleEn:"A: Do these pants fit you?\nB: Yes, it's perfect!\nA: Excellent choice.",note:"Va comes from aller.\nÇa te va? = informal version.\nUsed for both fit and style."},
+
+  {type:"teach",kind:"phrase",nl:"trop grand / trop petit",en:"too big / too small",phonetic:"troh GRAHN / troh puh-TEE",example:"A: Ce manteau est trop grand.\nB: Essayez la taille en dessous.\nA: D'accord.",exampleEn:"A: This coat is too big.\nB: Try the size below.\nA: OK.",note:"Trop + adjective = too + adjective.\nTrop grand, trop cher, trop long."},
+
+  {type:"teach",kind:"phrase",nl:"Ça fait combien?",en:"How much does that come to?",phonetic:"sah fay kom-bee-AN",example:"A: Ça fait combien en tout?\nB: Quatre-vingt-quinze euros.\nA: Voilà ma carte.",exampleEn:"A: How much does that come to in total?\nB: Ninety-five euros.\nA: Here's my card.",note:"At the register: total price question.\nÇa fait = that makes/comes to.\nEn tout = in total."},
+
+  {type:"mc",q:"'Ça vous va?' asks whether something:",opts:["Is expensive","Fits or suits you","Is available","Is on sale"],ans:"Fits or suits you",hint:"Va (from aller) here means to fit/suit someone."},
+
+  {type:"fb",s:"___ taille, s'il vous plaît?",a:"Quelle",opts:["Quelle","Quel","Quelles","Quels"],hint:"What size? Taille is feminine singular."},
+
+  {type:"match",pairs:[{nl:"Quelle taille?",en:"What size?"},{nl:"Ça vous va?",en:"Does it fit?"},{nl:"trop grand",en:"too big"},{nl:"Ça fait combien?",en:"How much total?"}]},
+
+  {type:"mc",q:"'Cette jupe est trop petite' means the skirt is:",opts:["Too big","Too expensive","Too small","Too long"],ans:"Too small",hint:"Trop = too. Petite = small (feminine form)."},
+
+  {type:"fb",s:"Ce pantalon est trop ___. Vous avez la taille au-dessus?",a:"petit",opts:["petit","grand","cher","noir"],hint:"The pants are too small. Need the next size UP."},
+
+  {type:"mc",q:"At the register, to ask the total you say:",opts:["Combien ça coûte?","Ça fait combien?","C'est combien la taille?","Vous avez combien?"],ans:"Ça fait combien?",hint:"Ça fait = that comes to. For the total at checkout."},
+
+  {type:"fb",s:"Ça ___ quatre-vingt-dix euros en tout.",a:"fait",opts:["fait","coûte","est","va"],hint:"That comes to 90 euros total. Which verb goes with ça?"},
+
+  {type:"match",pairs:[{nl:"payer par carte",en:"pay by card"},{nl:"payer en espèces",en:"pay cash"},{nl:"les soldes",en:"sales"},{nl:"la cabine d'essayage",en:"fitting room"}]},
+
+  {type:"mc",q:"A shop assistant asks 'Quelle pointure?' They want to know your:",opts:["Clothes size","Shoe size","Hat size","Glove size"],ans:"Shoe size",hint:"Pointure is specifically for footwear measurement."},
+
+  {type:"fb",s:"Je voudrais ___ cette veste en noir.",a:"essayer",opts:["essayer","acheter","payer","porter"],hint:"I would like to try on this jacket. Which verb?"},
+
+  {type:"mc",q:"You choose a shirt for 85 euros. In French, 85 is:",opts:["Quatre-vingt-cinq","Huitante-cinq","Soixante-vingt-cinq","Quatre-vingts-cinq"],ans:"Quatre-vingt-cinq",hint:"80 + 5. No -s on vingt because a number follows."},
+
+  {type:"fb",s:"Ces chaussures ___ plaisent beaucoup!",a:"me",opts:["me","te","se","nous"],hint:"These shoes please ME a lot. Which indirect pronoun?"},
+
+  {type:"mc",q:"After trying on clothes, to say 'I'll take it' for a feminine item:",opts:["Je le prends","Je la prends","Je les prends","Je prends"],ans:"Je la prends",hint:"Feminine items use the feminine direct object pronoun."},
+]},
+
+// ═══ L8: Révision Unit 8 ═══
+{id:"fre8l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 8 Review: A1 Finale",desc:"This is the final A1 unit! Review clothing, colors, numbers, demonstratives, and shopping. You now have survival French for any situation.",goals:["Review all A1.8 vocabulary","Test number skills 20-1000","Combine shopping scenarios"]},
+
+  {type:"mc",q:"'Un pantalon' in French is:",opts:["Plural","Singular","Feminine","Invariable"],ans:"Singular",hint:"French treats pants as one garment. Notice the article 'un'."},
+
+  {type:"fb",s:"Elle porte une robe ___. (white, fem.)",a:"blanche",opts:["blanche","blanc","blancs","blanches"],hint:"White + feminine singular. Irregular form: not just adding -e."},
+
+  {type:"match",pairs:[{nl:"une chemise",en:"a shirt"},{nl:"des chaussures",en:"shoes"},{nl:"un manteau",en:"a coat"},{nl:"une jupe",en:"a skirt"}]},
+
+  {type:"mc",q:"70 in French is:",opts:["Septante","Soixante-dix","Sept-dix","Soixante-sept"],ans:"Soixante-dix",hint:"60 + 10 = 70 in the standard French system."},
+
+  {type:"fb",s:"___ robe-là est trop chère.",a:"Cette",opts:["Cette","Ce","Cet","Ces"],hint:"That dress (there). Feminine demonstrative."},
+
+  {type:"mc",q:"'Deux cents' has -s, but 'deux cent un' does not because:",opts:["Un removes the -s","Cent loses -s when followed by another number","It is irregular","Both are correct"],ans:"Cent loses -s when followed by another number",hint:"The -s disappears when more number words come after."},
+
+  {type:"fb",s:"Ça coûte trois ___ cinquante euros. (350)",a:"cent",opts:["cent","cents","mille","milles"],hint:"300 + 50 = 350. The hundreds word, no -s when followed by more."},
+
+  {type:"match",pairs:[{nl:"rouge",en:"red"},{nl:"bleu",en:"blue"},{nl:"vert",en:"green"},{nl:"noir",en:"black"}]},
+
+  {type:"mc",q:"'Je voudrais essayer ce pantalon en bleu' combines:",opts:["Polite request + demonstrative + color","Command + article + size","Question + number + color","Greeting + clothing + price"],ans:"Polite request + demonstrative + color",hint:"Je voudrais (polite) + ce (demonstrative) + en bleu (color)."},
+
+  {type:"fb",s:"___ chaussures coûtent quatre-vingts euros.",a:"Ces",opts:["Ces","Ce","Cette","Cet"],hint:"These shoes. Plural demonstrative."},
+
+  {type:"mc",q:"At the cash register, 'Ça fait combien?' asks:",opts:["What size is it?","What color is it?","What is the total?","Where is it made?"],ans:"What is the total?",hint:"Ça fait = that comes to. Asking for the total price."},
+
+  {type:"fb",s:"Ce manteau est trop ___. Vous avez plus petit?",a:"grand",opts:["grand","petit","cher","noir"],hint:"This coat is too big. I need smaller."},
+
+  {type:"match",pairs:[{nl:"Combien ça coûte?",en:"How much?"},{nl:"Je voudrais",en:"I would like"},{nl:"essayer",en:"to try on"},{nl:"payer",en:"to pay"}]},
+
+  {type:"mc",q:"'Cet' is used before:",opts:["Feminine nouns","Plural nouns","Masculine nouns starting with a vowel","All nouns"],ans:"Masculine nouns starting with a vowel",hint:"Cet replaces ce for pronunciation before vowel/silent h."},
+
+  {type:"fb",s:"Quatre-vingt-___ euros, s'il vous plaît. (95)",a:"quinze",opts:["quinze","cinq","dix-cinq","quinz"],hint:"80 + 15 = 95. The word for fifteen."},
+
+  {type:"mc",q:"You've completed A1! Which skill is NOT part of A1 French?",opts:["Ordering food","Giving directions","Writing formal essays","Shopping for clothes"],ans:"Writing formal essays",hint:"Formal essay writing is a much higher level skill (B2+)."},
+
+  {type:"fb",s:"Merci beaucoup, ___ journée!",a:"bonne",opts:["bonne","bon","bonjour","bien"],hint:"Have a good day! Journée is feminine."},
+]},
+]},
+
 ];
