@@ -641,6 +641,53 @@ When performing large-scale content enrichment across multiple units (e.g., addi
 ### Why Rule 9 Exists
 In March 2026, Korean dialogue enrichment processed 30 units (1,132 teach cards) by deploying content agents sequentially with a validator agent after each batch. The sequential-with-validation pattern achieved zero defects across 454 card edits — no turn mismatches, no em-dashes, no build breaks. Previous batch operations (D96 density uplift) had deployed parallel agents without validation gates, producing 520+ broken steps. Rule 9 codifies the proven workflow: sequential content agents + parallel validators + cross-level final sweep.
 
+### Rule 10: Post-Build Structural Validation (D104)
+After completing a full curriculum build (all units for a language), run a structural validation script BEFORE the final commit. This catches errors that Vite/ESBuild do NOT catch (they compile fine but crash React at runtime).
+
+**The validation script MUST check:**
+1. **No undefined/null array elements.** Stray commas between units create sparse array holes. These crash React when reading `.n`, `.title`, `.lessons` on `undefined`. Iterate every element and assert non-null.
+2. **Unit ordering.** Units must be sequential by `n` (1, 2, 3, ..., 30). The engine displays units in array order with no sort. Scrambled order = scrambled learner experience.
+3. **Required fields on every MC step.** Every `type:"mc"` step MUST have `q`, `opts` (array), and `ans` (string matching one of opts). A missing `ans` crashes when the learner selects an answer.
+4. **Required fields on every fb step.** Every `type:"fb"` step MUST have `s`, `a`, and `opts`. No `{2}` or `{3}` in the `s` field (P48).
+5. **Required fields on every teach step.** Every `type:"teach"` step MUST have `nl` and `en`.
+6. **Required fields on every drag_fill step.** Every `type:"drag_fill"` step MUST have `s`, `blanks` (object), and `pool` (array).
+7. **Required fields on every match step.** Every `type:"match"` step MUST have `pairs` (array of objects with `nl` and `en`).
+8. **board:true on every lesson.** Zero exceptions for new content.
+9. **Lesson density.** Every lesson must have 18+ steps (P43).
+
+**Validation script template** (run with `node -e "..."` after build):
+```javascript
+const units = require('/tmp/test-lang.js'); // CJS-converted copy
+let issues = [];
+units.forEach((u, i) => {
+  if (!u) { issues.push('Index ' + i + ': UNDEFINED ELEMENT'); return; }
+  if (u.n !== i + 1) issues.push('Unit ' + u.n + ' at index ' + i + ': expected n=' + (i+1));
+  u.lessons.forEach(l => {
+    if (!l.board) issues.push(l.id + ': missing board:true');
+    if (l.steps.length < 18) issues.push(l.id + ': only ' + l.steps.length + ' steps');
+    l.steps.forEach((s, si) => {
+      if (s.type === 'mc' && !s.ans) issues.push(l.id + ' step ' + si + ': mc missing ans');
+      if (s.type === 'fb' && !s.a) issues.push(l.id + ' step ' + si + ': fb missing a');
+      if (s.type === 'fb' && s.s && s.s.includes('{2}')) issues.push(l.id + ' step ' + si + ': P48 fb multi-blank');
+      if (s.type === 'teach' && !s.nl) issues.push(l.id + ' step ' + si + ': teach missing nl');
+      if (s.type === 'teach' && !s.en) issues.push(l.id + ' step ' + si + ': teach missing en');
+      if (s.type === 'drag_fill' && !s.blanks) issues.push(l.id + ' step ' + si + ': drag_fill missing blanks');
+      if (s.type === 'match' && !s.pairs) issues.push(l.id + ' step ' + si + ': match missing pairs');
+    });
+  });
+});
+if (issues.length === 0) console.log('VALIDATION PASS: ' + units.length + ' units clean');
+else { console.log('VALIDATION FAIL: ' + issues.length + ' issues'); issues.forEach(i => console.log('  ' + i)); }
+```
+
+### Why Rule 10 Exists
+In March 2026, the German D103 build (30 units, 240 lessons, 4,518 steps) was deployed with 3 critical defects that caused a white screen crash:
+1. **3 stray commas** between units created `undefined` array elements (at indices 7, 11, 30 in a 33-element array that should have been 30)
+2. **3 MC steps missing `ans` field** (deu3l6 steps 11/15, deu7l7 step 15) that crashed on answer selection
+3. **Units scrambled** out of order (1,2,3,4,5,9,6,10,12,7...) because parallel build agents appended units non-sequentially
+
+Vite compiled the file without errors. The build passed. But React crashed at runtime when trying to read properties of `undefined` array elements. This class of structural defect is invisible to build tools and can only be caught by runtime-style validation. Rule 10 makes this validation mandatory before any curriculum is considered "complete."
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -707,6 +754,7 @@ German is PRODUCTION-READY. Built from scratch in D103:
 | B2 curriculum (U25-U30) | D103 | COMPLETE |
 | Quality audit (P48/P22c/P49/density) | D103 | PASS |
 | Dialogue enrichment | D103 | 1,100/1,100 (100%) |
+| Post-build validation fix | D104 | 3 undefined array elements, 3 missing MC ans, unit ordering |
 
 **German needs NO further work** until D92-style deep audit or C1 curriculum planning.
 
@@ -715,130 +763,130 @@ German is PRODUCTION-READY. Built from scratch in D103:
 #### What EXISTS (infrastructure ready, DO NOT rebuild):
 | Component | File | Lines | Status |
 |-----------|------|-------|--------|
-| LANG_META | `src/data/metadata.js` | ~298 | COMPLETE: scriptType, framework, ttsLocale:"de-DE", specialRules |
-| LANG_BLUEPRINT | `src/data/metadata.js` | ~331-343 | COMPLETE: 4-case system, V2 word order, 3-way gender, compounds |
-| CULTURE_PACKS | `src/data/metadata.js` | ~364 | COMPLETE: food, customs, cities, situations, politeness |
-| VOCAB pilot | `src/data/vocabulary.js` | ~1597-1600 | 4 lexemes only (gut, Haus, essen, trinken). Expand as units are built. |
-| Import/spread | `src/lingoverse.jsx` | lines 9, 8121 | WORKING: `import otherUnits` + `...otherUnits` in UNITS array |
+| LANG_META | `src/data/metadata.js` | ~300 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"fr-FR", specialRules:["nasal_vowels","liaison","silent_letters","accents","gendered_nouns"] |
+| LANG_BLUEPRINT | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation (see below) |
+| CULTURE_PACKS | `src/data/metadata.js` | ~367 | COMPLETE: food (croissant, baguette, crêpe, ratatouille, quiche), customs (la bise, apéro, long lunches, formal vous), places, situations, politeness |
+| ARTICLE_SYSTEMS | `src/data/vocabulary.js` | ~2433-2442 | COMPLETE: le (masculine, blue), la (feminine, coral), detect function handles l' elision |
+| FOUNDATIONS_BY_LANG["fr"] | `src/data/foundations.js` | ~1244-1262 | PARTIAL: Knowledge grid exists (1 section, 5 items: alphabet, accents, nasal vowels, key sounds, silent letters). Needs expansion to 4-6 sections. |
+| FK_PLAYTHROUGH["fr"] | `src/data/foundations.js` | ~2238 | EMPTY SHELL: `{name:"French Foundations Play",icon:"🇫🇷",blueprint:"latin_simple",stages:[]}` — stages must be built |
+| FK_GATE_QUIZ["fr"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
+| FK_SCHEMA_MAP | `src/data/metadata.js` | ~235 | COMPLETE: fr:"latin" |
+| VOCAB pilot | `src/data/vocabulary.js` | N/A | NO French lexemes. Expand as units are built. |
+| Import/spread | `src/lingoverse.jsx` | lines 9, ~8122 | NOT SET UP — needs new import + UNITS spread update |
 
 #### What MUST BE BUILT from scratch:
 | Component | File | Action |
 |-----------|------|--------|
-| FOUNDATIONS_BY_LANG["de"] | `src/data/foundations.js` | Build knowledge grid: alphabet, umlauts (ä/ö/ü), Eszett (ß), vowel length, consonant traps (ch, z, w, v). Dutch has 6 sections/24 items as benchmark. |
-| FK_PLAYTHROUGH["de"] | `src/data/foundations.js` | Build interactive playthrough: ~15-20 lessons covering pronunciation, umlauts, Eszett, consonant pronunciation (z=/ts/, w=/v/, v=/f/), diphthongs. Dutch has 22 lessons as benchmark. |
-| FK_GATE_QUIZ["de"] | `src/data/foundations.js` | Build pass/fail gate quiz to unlock Unit 1. Korean model as reference. |
-| German units (A1-B2) | `src/data/units-german.js` | NEW FILE. ~30 units, ~240 lessons, ~5,000+ steps. See curriculum plan below. |
-
-#### What MUST BE DELETED:
-- **All 5 skeleton German units** in `src/data/units-other.js` (lines 6-333). These are below standard, missing track values, have wrong field names, P22c violations. NUKE THEM.
-- After deletion, `units-other.js` contains only Arabic units. Update the file header comment accordingly.
-- Create `src/data/units-german.js` as a new file, following `units-dutch.js` pattern:
-  ```javascript
-  // src/data/units-german.js — German (lang:"de") curriculum units
-  export default [
-    // units go here
-  ];
-  ```
-- Update `src/lingoverse.jsx`:
-  - Add: `import germanUnits from './data/units-german.js';` (after line 9)
-  - Change UNITS spread (line ~8121): `const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...otherUnits];`
+| LANG_BLUEPRINT["fr"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (le/la), nasal vowels, liaison rules, silent letters, accent system (é/è/ê/ë/à/â/ù/û/ô/î/ï/ç), verb conjugation complexity (3 groups + irregulars), formal/informal (tu/vous). Follow de/nl blueprint format. |
+| FOUNDATIONS_BY_LANG["fr"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + accents, (2) Vowels: oral + nasal, (3) Consonants + liaison, (4) Silent letters + spelling, (5) Verb group preview, (6) Grammar awareness. Target: ~25 items. Dutch (6 sections/24 items) and German (6 sections/25 items) are benchmarks. |
+| FK_PLAYTHROUGH["fr"] | `src/data/foundations.js` | Build interactive playthrough: ~15-20 lessons covering pronunciation, accents (é/è/ê), nasal vowels (an/on/in/un), liaison, silent letters, R pronunciation, U vs OU. German (15 lessons) and Dutch (22 lessons) are benchmarks. |
+| FK_GATE_QUIZ["fr"] | `src/data/foundations.js` | Build pass/fail gate quiz to unlock Unit 1. 5 tasks, ~35 items. German model as reference. |
+| French units (A1-B2) | `src/data/units-french.js` | NEW FILE. ~28-30 units, ~224-240 lessons, ~4,500+ steps. See curriculum plan below. |
 
 #### Unit Structure (MUST follow this format):
 ```javascript
-{n:1,lang:"de",track:"v1",title:"Willkommen!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
-  {id:"deu1l1",title:"Hallo!",icon:"👋",xp:15,board:true,steps:[
-    {type:"intro",title:"Hallo!",desc:"...",goals:[...]},
-    {type:"teach",kind:"word",nl:"Hallo",en:"Hello",phonetic:"HAH-loh",example:"A: Hallo!\nB: Hallo! Wie geht's?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal greeting."},
+{n:1,lang:"fr",track:"v1",title:"Bienvenue!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
+  {id:"fre1l1",title:"Bonjour!",icon:"👋",xp:15,board:true,steps:[
+    {type:"intro",title:"Bonjour!",desc:"...",goals:[...]},
+    {type:"teach",kind:"word",nl:"Bonjour",en:"Hello / Good day",phonetic:"bon-ZHOOR",example:"A: Bonjour!\nB: Bonjour! Comment allez-vous?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal greeting. Always say Bonjour before any interaction."},
     // ... 18+ steps per lesson (P43)
   ]},
 ]}
 ```
-**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"de"`, lesson IDs as `deu{N}l{N}`.
-**NOTE**: The `nl` field is used for the TARGET language word (German), NOT literally "Nederlands". This is the engine convention across all languages.
+**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"fr"`, lesson IDs as `fre{N}l{N}`.
+**NOTE**: The `nl` field is used for the TARGET language word (French), NOT literally "Nederlands". This is the engine convention across all languages.
 
-#### German Curriculum Plan (~30 units):
+#### French Curriculum Plan (~28-30 units):
 
-**A1 (Units 1-8): Survival German** — Goethe-Institut A1 reference
-- U1: Greetings, goodbyes, formal/informal (du/Sie)
-- U2: Self-introduction, nationality, languages, numbers 0-20
-- U3: Family, possessives (mein/dein/sein/ihr), haben + sein
-- U4: Food & drink, ordering, articles (der/die/das) introduction
-- U5: Daily routine, time, separable verbs (aufstehen, anfangen)
-- U6: Home & rooms, furniture, es gibt + accusative case
-- U7: Directions, transport, modal verbs (können, müssen, wollen)
-- U8: Shopping, clothing, colors, numbers to 1000, accusative practice
+**A1 (Units 1-8): Survival French** — DELF A1 / Alliance Française reference
+- U1: Greetings, goodbyes, tu/vous distinction, essential politeness (s'il vous plaît, merci)
+- U2: Self-introduction, nationality, languages, numbers 0-20, être + avoir
+- U3: Family, possessives (mon/ma/mes, ton/ta/tes, son/sa/ses), descriptions
+- U4: Food & drink, au café, articles (le/la/les/un/une/des), partitive (du/de la)
+- U5: Daily routine, time, reflexive verbs (se lever, se coucher), -er verbs
+- U6: Home & rooms, furniture, il y a, prepositions of place
+- U7: Directions, transport, aller + à/au/aux, venir de, imperative
+- U8: Shopping, clothing, colors, numbers to 1000, demonstratives (ce/cet/cette/ces)
 
-**A2 (Units 9-16): Expanding** — Goethe-Institut A2 reference
-- U9: Past tense (Perfekt with haben), regular verbs, time expressions
-- U10: Past tense (Perfekt with sein), irregular verbs, travel
-- U11: Dative case introduction, prepositions (mit, zu, bei, nach, von)
-- U12: Wechselpräpositionen (in, an, auf, etc. + acc/dat), location vs direction
-- U13: Comparatives & superlatives, adjective declension (strong/weak)
-- U14: Nebensätze (weil, dass, wenn, ob), verb-final word order
-- U15: Reflexive verbs, daily routine advanced, health & body
-- U16: Future (werden), plans, Konjunktiv II basics (würde, hätte, wäre)
+**A2 (Units 9-16): Expanding** — DELF A2 reference
+- U9: Passé composé with avoir, regular + irregular past participles, time expressions
+- U10: Passé composé with être (movement verbs, Dr. & Mrs. Vandertramp), agreement
+- U11: Imparfait: formation, usage (descriptions, habits, ongoing past)
+- U12: Passé composé vs imparfait (the critical distinction), storytelling
+- U13: Pronouns (y, en, COD/COI), pronoun placement
+- U14: Future simple + futur proche (aller + infinitif), plans and predictions
+- U15: Comparatives & superlatives, adjective agreement and placement
+- U16: Conditional (je voudrais, si + imparfait), polite requests, hypotheticals
 
-**B1 (Units 17-24): Independent** — Goethe-Institut B1 / telc B1 reference
-- U17: Präteritum (narrative past), storytelling, als/wenn distinction
-- U18: Passive voice (werden + PP), news language, processes
-- U19: Relative clauses (der/die/das as relative pronouns), complex sentences
-- U20: Genitive case, formal writing, n-Deklination
-- U21: Indirect speech (Konjunktiv I basics), reported speech
-- U22: Infinitive constructions (um...zu, ohne...zu, statt...zu)
-- U23: Advanced connectors (obwohl, trotzdem, deshalb, außerdem, sowohl...als auch)
-- U24: German work culture, formal register, Bewerbung (applications)
+**B1 (Units 17-24): Independent** — DELF B1 reference
+- U17: Subjonctif présent introduction (il faut que, je veux que), regular verbs
+- U18: Subjonctif with irregular verbs (être, avoir, aller, faire, pouvoir, savoir)
+- U19: Relative pronouns (qui, que, dont, où), complex sentences
+- U20: Plus-que-parfait, sequencing past events, reported speech basics
+- U21: Passive voice (être + past participle), news language
+- U22: Gerund (en + present participle), tout en + gerund, cause/manner
+- U23: Advanced connectors (bien que + subj, malgré, en dépit de, d'ailleurs, en revanche)
+- U24: French work culture, formal register, lettre de motivation
 
-**B2 (Units 25-30): Proficient** — telc B2 / Goethe B2 reference
-- U25: Konjunktiv II advanced (irrealis, wishes, polite requests), als ob
-- U26: Participial constructions, nominalization, academic register
-- U27: Advanced passive (Zustandspassiv, Vorgangspassiv), sein vs werden passive
-- U28: Discourse markers, essay structure, formal argumentation
-- U29: Proverbs, idioms, figurative language, literary German
-- U30: TestDaF/telc B2 prep, comprehensive review, C1 preview
+**B2 (Units 25-30): Proficient** — DELF B2 / TCF reference
+- U25: Subjonctif passé + advanced subjunctive triggers (avant que, pour que, à condition que)
+- U26: Conditionnel passé, regrets, reproaches (si + plus-que-parfait)
+- U27: Nominalization, academic register, formal writing style
+- U28: Discourse markers, essay structure (dissertation), argumentation
+- U29: Proverbs, idioms, figurative language, literary French
+- U30: DELF B2/TCF prep, comprehensive review, C1 preview
 
-#### German-Specific Teaching Priorities:
-1. **der/die/das from day one.** Every noun teach card MUST include the article. Use color coding: der=blue, die=coral, das=gold (matching the 3-gender system). Define article colors in ARTICLE_COLORS in vocabulary.js if not already there.
-2. **Cases introduced gradually.** Nominative in A1, Accusative in A1 (U6-U8), Dative in A2 (U11-U12), Genitive in B1 (U20). Never dump all 4 at once.
-3. **V2 word order early.** Verb-second in main clauses from U1. Verb-final in subclauses from U14.
-4. **Separable verbs need special treatment.** aufstehen = auf|stehen. The prefix jumps to the end. Teach this explicitly in U5.
-5. **Cognates are a superpower.** English-German cognates should be flagged with the `cognate` field on teach cards. Germanic family = massive advantage for English speakers.
-6. **Compound nouns.** German compounds are limitless (Donaudampfschifffahrtsgesellschaft). Teach the decomposition pattern from A2 onward.
+#### French-Specific Teaching Priorities:
+1. **le/la from day one.** Every noun teach card MUST include the article. Use color coding: le=blue (masculine), la=coral (feminine). ARTICLE_SYSTEMS["fr"] already configured in vocabulary.js.
+2. **Elision and liaison early.** l'homme, l'école from U1. Liaison (les amis = /lez ami/) from U2. These are non-optional phonological rules, not advanced features.
+3. **Verb conjugation is the mountain.** French has 3 regular groups (-er, -ir, -re) plus extensive irregulars. Introduce -er verbs in A1, -ir/-re in A1-A2, irregular clusters progressively.
+4. **Nasal vowels need dedicated practice.** an/en (/ɑ̃/), on (/ɔ̃/), in/ain (/ɛ̃/), un (/œ̃/) are completely foreign to English speakers. Foundations must drill these.
+5. **Passé composé vs imparfait is THE A2 challenge.** Dedicate a full unit (U12) to the distinction. This is the single biggest source of errors for French learners.
+6. **Subjonctif needs gradual introduction.** Start with common triggers in B1 (il faut que, je veux que), expand to advanced triggers in B2. Never dump all triggers at once.
+7. **Cognates are abundant but treacherous.** English-French cognates (~40% vocabulary overlap) are a superpower, but faux amis (false friends) are everywhere. Flag both with `cognate` field.
+8. **Tu/vous is socially critical.** More complex than German du/Sie. Teach the social rules explicitly, not just the grammar.
 
 #### Build Workflow (MANDATORY):
-Follow the Korean playbook with the D102 audit workflow baked in:
+Follow the German D103 playbook with D104 validation lessons baked in:
 
-1. **Build foundations first** (FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ)
-2. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead
-3. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps for German). NEVER batch-build thin skeletons.
-4. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level before starting the next.
-5. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
-6. **Create `src/data/units-german.js`** as a new file immediately. Do NOT build in `units-other.js`.
-7. **Build with dialogues from day one** (A:/B: format on teach cards). Don't build bare cards for later enrichment.
-8. **Commit and push after each unit is complete.** Small commits, not megadumps.
+1. **Build LANG_BLUEPRINT first** — French has no blueprint yet. Must be created before any content.
+2. **Expand FOUNDATIONS_BY_LANG["fr"]** — Currently 1 section/5 items. Expand to 5-6 sections/~25 items.
+3. **Build FK_PLAYTHROUGH["fr"]** — Fill the empty stages array. ~15-20 lessons.
+4. **Build FK_GATE_QUIZ["fr"]** — 5 tasks, ~35 items.
+5. **Create `src/data/units-french.js`** as a new file immediately. Do NOT build in `units-other.js`.
+6. **Update imports in `src/lingoverse.jsx`**: Add `import frenchUnits from './data/units-french.js';` and add `...frenchUnits` to UNITS spread.
+7. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead.
+8. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
+9. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
+10. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
+11. **Rule 10 (D104): Post-build structural validation.** After ALL units are built, run the validation script (see below) to catch array holes, missing required fields, and unit ordering issues BEFORE committing.
+12. **Build with dialogues from day one** (A:/B: format on teach cards).
+13. **Commit and push after each unit is complete.** Small commits, not megadumps.
 
 #### Session Execution Plan (for the next agent):
-1. Delete German skeleton from `units-other.js` (lines 6-333)
-2. Create `src/data/units-german.js` with empty export
-3. Update imports in `src/lingoverse.jsx`
-4. Build FOUNDATIONS_BY_LANG["de"] in `src/data/foundations.js`
-5. Build FK_PLAYTHROUGH["de"] in `src/data/foundations.js`
-6. Build FK_GATE_QUIZ["de"] in `src/data/foundations.js`
+1. Build LANG_BLUEPRINT["fr"] in `src/data/metadata.js`
+2. Expand FOUNDATIONS_BY_LANG["fr"] in `src/data/foundations.js` (1 section → 5-6 sections)
+3. Build FK_PLAYTHROUGH["fr"] stages in `src/data/foundations.js`
+4. Build FK_GATE_QUIZ["fr"] in `src/data/foundations.js`
+5. Create `src/data/units-french.js` with empty export
+6. Update imports in `src/lingoverse.jsx`
 7. Build A1 units (U1-U8), quality audit after
 8. Build A2 units (U9-U16), quality audit after
 9. Build B1 units (U17-U24), quality audit after
 10. Build B2 units (U25-U30), quality audit after
-11. Final cross-level validation sweep
-12. Update CLAUDE.md with German build status
+11. **Run post-build structural validation** (Rule 10, D104)
+12. Final cross-level validation sweep
+13. Update CLAUDE.md with French build status
 
-### AFTER German (Priority Order)
+### AFTER French (Priority Order)
 
-2. **French A1-B2 Build**
-   - Infrastructure exists (LANG_META, VOCAB entries, CULTURE_PACKS)
-   - Needs: LANG_BLUEPRINT, foundations playthrough, gate quiz, then A1-B2 units
+1. **Spanish A1-B2 Build**
+   - Infrastructure exists (LANG_META, VOCAB entries, ARTICLE_SYSTEMS)
+   - Needs: LANG_BLUEPRINT, foundations, A1-B2 units
 
-3. **Spanish A1-B2 Build**
-   - Infrastructure exists (LANG_META, VOCAB entries)
-   - Same path as French: LANG_BLUEPRINT, foundations, A1-B2
+2. **Arabic A1-B2 Build** (when ready)
+   - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
+   - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum rebuild
 
 ### Workflow for All Future Content
 Every language expansion MUST follow the Korean playbook:
@@ -864,3 +912,4 @@ Every language expansion MUST follow the Korean playbook:
 10. **Density without quality is anti-pedagogy.** A step that meets count but teaches nothing is worse than no step. Every step must earn its place by teaching, testing, or reinforcing LANGUAGE. (D97)
 11. **Step type must match engine capability.** Before creating a step, verify the engine renderer actually supports the data shape. Multi-blank needs drag_fill, not fb. Check the code, not assumptions. (P48)
 12. **Sequential content + parallel validation = zero defects.** For large-scale content operations, never deploy parallel content agents on the same file. Work sequentially, validate after each batch, sweep across all units at the end. This workflow achieved 0 defects across 454 card edits. It is the gold standard. (D100, Rule 9)
+13. **Post-build structural validation is mandatory.** After building a complete curriculum, run the validation script to catch: (a) undefined/null array elements from stray commas, (b) missing required fields (especially MC `ans`), (c) unit ordering (must be sequential by `n`), (d) P48 multi-blank fb violations. The German D103 build shipped with 3 undefined array elements + 3 missing MC ans fields + scrambled unit order, causing a white screen crash. This class of error is invisible to build tools (Vite compiles fine) but crashes React at runtime. (D104, Rule 10)
