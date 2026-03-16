@@ -3584,173 +3584,335 @@ export default [
 ]},
 
 ]},
-{n:15,lang:"de",track:"v1",title:"Ich fühle mich gut!",sub:"Reflexive Verbs & Health",icon:"🏥",level:"A2.2",color:"#7B5EE8",lessons:[
-  {id:"deu15l1",title:"Reflexivpronomen",icon:"🪞",xp:20,board:true,steps:[
-    {type:"intro",title:"Reflexivpronomen",desc:"German reflexive pronouns change based on the subject. Learn mich, dich, sich, uns, euch, sich and how they work with verbs.",goals:["Learn all reflexive pronouns","Understand reflexive verb structure","Use sich with common verbs"]},
-    {type:"teach",kind:"word",nl:"sich",en:"oneself (reflexive pronoun)",phonetic:"zikh",example:"A: Was bedeutet 'sich'?\nB: Es zeigt, dass die Handlung auf die Person selbst zurückfällt.",exampleEn:"A: What does 'sich' mean?\nB: It shows that the action reflects back on the person.",note:"Third person reflexive pronoun, same for er/sie/es and sie (plural)."},
-    {type:"teach",kind:"word",nl:"mich",en:"myself (reflexive, ich)",phonetic:"mikh",example:"A: Wie sagst du das?\nB: Ich wasche mich jeden Morgen.",exampleEn:"A: How do you say that?\nB: I wash myself every morning.",note:"Reflexive pronoun for ich."},
-    {type:"teach",kind:"word",nl:"dich",en:"yourself (reflexive, du)",phonetic:"dikh",example:"A: Wann duschst du dich?\nB: Ich dusche mich morgens.",exampleEn:"A: When do you shower?\nB: I shower in the morning.",note:"Reflexive pronoun for du."},
-    {type:"tip",title:"Reflexive Pronouns: The Full Set",text:"ich = mich\ndu = dich\ner/sie/es = sich\nwir = uns\nihr = euch\nsie/Sie = sich\n\nThe pronoun goes right after the verb.",deepDive:"Reflexive verbs describe actions done to oneself. In German, many verbs MUST be reflexive that are not reflexive in English. For example, 'sich freuen' (to be happy) is always reflexive in German."},
-    {type:"teach",kind:"word",nl:"uns",en:"ourselves (reflexive, wir)",phonetic:"uns",example:"A: Treffen wir uns morgen?\nB: Ja, wir treffen uns um zehn Uhr.",exampleEn:"A: Shall we meet tomorrow?\nB: Yes, we'll meet at ten o'clock.",note:"Reflexive pronoun for wir."},
-    {type:"teach",kind:"word",nl:"euch",en:"yourselves (reflexive, ihr)",phonetic:"oykh",example:"A: Beeilt euch!\nB: Wir beeilen uns schon!",exampleEn:"A: Hurry up!\nB: We're already hurrying!",note:"Reflexive pronoun for ihr."},
-    {type:"teach",kind:"word",nl:"sich setzen",en:"to sit down",phonetic:"zikh ZET-sen",example:"A: Bitte setzen Sie sich.\nB: Danke, ich setze mich gern.",exampleEn:"A: Please sit down.\nB: Thank you, I'll gladly sit down.",note:"A common reflexive verb with sich."},
-    {type:"mc",q:"Which reflexive pronoun goes with 'ich'?",opts:["mich","dich","sich","uns"],ans:"mich",hint:"First person singular reflects back to 'me'."},
-    {type:"mc",q:"Which reflexive pronoun goes with 'er'?",opts:["sich","mich","dich","euch"],ans:"sich",hint:"Third person uses the same form for all genders."},
-    {type:"fb",s:"Ich wasche {1} jeden Morgen.",a:"mich",opts:["mich","dich","sich","uns"],hint:"The subject is ich, so the pronoun reflects back to ich."},
-    {type:"fb",s:"Du setzt {1} auf den Stuhl.",a:"dich",opts:["mich","dich","sich","euch"],hint:"The subject is du, what reflects back to du?"},
-    {type:"match",pairs:[{nl:"ich",en:"mich"},{nl:"du",en:"dich"},{nl:"er/sie/es",en:"sich"},{nl:"wir",en:"uns"},{nl:"ihr",en:"euch"}]},
-    {type:"fb",s:"Wir treffen {1} um drei Uhr.",a:"uns",opts:["uns","euch","sich","mich"],hint:"The subject is wir, so use the wir reflexive form."},
-    {type:"mc",q:"'Bitte setzen Sie ___.' Which pronoun completes this polite request?",opts:["sich","mich","dich","euch"],ans:"sich",hint:"Sie (formal) uses the same reflexive as third person."},
-    {type:"fb",s:"Beeilt {1}, Kinder!",a:"euch",opts:["euch","uns","sich","dich"],hint:"The speaker addresses Kinder with ihr."},
-    {type:"drag_fill",s:"Er wäscht {1} und sie wäscht {2} auch.",blanks:{"1":"sich","2":"sich"},pool:["sich","sich","mich","dich"],hint:"Both er and sie use the same reflexive pronoun."},
-    {type:"mc",q:"'Wir freuen ___ auf den Urlaub.' Which pronoun fits?",opts:["uns","sich","euch","mich"],ans:"uns",hint:"The subject is wir, so the reflexive must match."},
-    {type:"mc",q:"Which sentence is correct?",opts:["Ich setze mich hin.","Ich setze sich hin.","Ich setze dich hin.","Ich setze uns hin."],ans:"Ich setze mich hin.",hint:"The pronoun must match the subject ich."},
-    {type:"fb",s:"Die Kinder freuen {1} auf Weihnachten.",a:"sich",opts:["sich","uns","euch","mich"],hint:"Die Kinder is third person plural."},
-  ]},
-  {id:"deu15l2",title:"Morgenroutine",icon:"🌅",xp:20,board:true,steps:[
-    {type:"intro",title:"Morgenroutine",desc:"Learn reflexive verbs for daily morning routines: washing, getting dressed, combing your hair, and shaving.",goals:["Master morning routine reflexive verbs","Practice conjugation with reflexive pronouns","Build morning routine sentences"]},
-    {type:"teach",kind:"word",nl:"sich waschen",en:"to wash oneself",phonetic:"zikh VA-shen",example:"A: Wäschst du dich morgens oder abends?\nB: Ich wasche mich immer morgens.",exampleEn:"A: Do you wash in the morning or evening?\nB: I always wash in the morning.",note:"Irregular: du wäschst, er wäscht."},
-    {type:"teach",kind:"word",nl:"sich anziehen",en:"to get dressed",phonetic:"zikh AN-tsee-en",example:"A: Was ziehst du dir heute an?\nB: Ich ziehe mir eine Jeans und ein T-Shirt an.",exampleEn:"A: What are you wearing today?\nB: I'm putting on jeans and a T-shirt.",note:"Separable verb: an|ziehen. Prefix goes to the end."},
-    {type:"teach",kind:"word",nl:"sich kämmen",en:"to comb one's hair",phonetic:"zikh KEM-men",example:"A: Kämmst du dich jeden Tag?\nB: Ja, ich kämme mich nach dem Duschen.",exampleEn:"A: Do you comb your hair every day?\nB: Yes, I comb my hair after showering.",note:"Regular reflexive verb."},
-    {type:"teach",kind:"word",nl:"sich rasieren",en:"to shave",phonetic:"zikh rah-ZEER-en",example:"A: Rasierst du dich jeden Morgen?\nB: Nein, ich rasiere mich nur zweimal pro Woche.",exampleEn:"A: Do you shave every morning?\nB: No, I only shave twice a week.",note:"Regular reflexive verb."},
-    {type:"tip",title:"Separable Reflexive Verbs",text:"With separable verbs like sich anziehen:\nIch ziehe mich an.\nDu ziehst dich an.\nEr zieht sich an.\n\nThe reflexive pronoun stays in the middle, the prefix goes to the end.",deepDive:"In German, separable prefixes always go to the end of the sentence in main clauses. The reflexive pronoun sits after the conjugated verb stem, and the prefix lands at the very end."},
-    {type:"teach",kind:"word",nl:"sich duschen",en:"to shower",phonetic:"zikh DU-shen",example:"A: Duschst du dich morgens?\nB: Ja, ich dusche mich jeden Morgen kalt.",exampleEn:"A: Do you shower in the morning?\nB: Yes, I take a cold shower every morning.",note:"Regular reflexive verb."},
-    {type:"teach",kind:"word",nl:"sich die Zähne putzen",en:"to brush one's teeth",phonetic:"zikh dee TSAY-nuh PUTS-en",example:"A: Putzt du dir die Zähne vor dem Frühstück?\nB: Nein, ich putze mir die Zähne danach.",exampleEn:"A: Do you brush your teeth before breakfast?\nB: No, I brush my teeth after.",note:"Uses dative reflexive: mir, dir, sich (not mich/dich)."},
-    {type:"mc",q:"'Ich ___ mich jeden Morgen.' Which verb form fits for 'waschen'?",opts:["wasche","wäschst","wäscht","waschen"],ans:"wasche",hint:"Conjugate waschen for the ich form."},
-    {type:"fb",s:"Er {1} sich jeden Tag.",a:"rasiert",opts:["rasiert","rasiere","rasierst","rasieren"],hint:"Conjugate rasieren for er."},
-    {type:"mc",q:"'Du ___ dich an.' Which form of anziehen fits?",opts:["ziehst","ziehe","zieht","ziehen"],ans:"ziehst",hint:"Conjugate the stem ziehen for du."},
-    {type:"fb",s:"Wir {1} uns nach dem Sport.",a:"duschen",opts:["duschen","dusche","duscht","duschst"],hint:"Conjugate duschen for wir."},
-    {type:"match",pairs:[{nl:"sich waschen",en:"to wash oneself"},{nl:"sich anziehen",en:"to get dressed"},{nl:"sich kämmen",en:"to comb one's hair"},{nl:"sich rasieren",en:"to shave"},{nl:"sich duschen",en:"to shower"}]},
-    {type:"mc",q:"Which sentence correctly uses a separable reflexive verb?",opts:["Ich ziehe mich an.","Ich anziehe mich.","Ich mich ziehe an.","Ich ziehe an mich."],ans:"Ich ziehe mich an.",hint:"The prefix goes to the end, pronoun stays after the verb stem."},
-    {type:"fb",s:"Sie {1} sich die Haare jeden Morgen.",a:"kämmt",opts:["kämmt","kämme","kämmst","kämmen"],hint:"Conjugate kämmen for sie (she)."},
-    {type:"drag_fill",s:"Morgens {1} ich {2} und {3} mich an.",blanks:{"1":"dusche","2":"mich","3":"ziehe"},pool:["dusche","mich","ziehe","sich","dich"],hint:"First shower (dusche + mich), then get dressed (ziehe + an)."},
-    {type:"mc",q:"'Er putzt ___ die Zähne.' Which reflexive pronoun is correct here?",opts:["sich","mich","dich","uns"],ans:"sich",hint:"Zähne putzen uses the dative reflexive for er."},
-    {type:"fb",s:"Kämmst du {1} vor dem Frühstück?",a:"dich",opts:["dich","mich","sich","euch"],hint:"The subject is du, so the reflexive matches du."},
-    {type:"mc",q:"What is the correct word order? 'She gets dressed quickly.'",opts:["Sie zieht sich schnell an.","Sie sich zieht schnell an.","Sie anziehen sich schnell.","Sie zieht schnell sich an."],ans:"Sie zieht sich schnell an.",hint:"Reflexive pronoun after verb, adverb before the prefix."},
-  ]},
-  {id:"deu15l3",title:"Gefühle ausdrücken",icon:"😊",xp:20,board:true,steps:[
-    {type:"intro",title:"Gefühle ausdrücken",desc:"Express emotions with reflexive verbs: being happy, angry, bored, or describing how you feel.",goals:["Learn emotion reflexive verbs","Express feelings in German","Combine reflexive verbs with prepositions"]},
-    {type:"teach",kind:"word",nl:"sich freuen",en:"to be happy, to be glad",phonetic:"zikh FROY-en",example:"A: Freust du dich auf das Wochenende?\nB: Ja, ich freue mich sehr darauf!",exampleEn:"A: Are you looking forward to the weekend?\nB: Yes, I'm really looking forward to it!",note:"sich freuen auf = look forward to. sich freuen über = be happy about."},
-    {type:"teach",kind:"word",nl:"sich ärgern",en:"to be annoyed, to get angry",phonetic:"zikh AIR-gern",example:"A: Warum ärgerst du dich?\nB: Ich ärgere mich über den Regen.",exampleEn:"A: Why are you annoyed?\nB: I'm annoyed about the rain.",note:"sich ärgern über = to be annoyed about."},
-    {type:"teach",kind:"word",nl:"sich fühlen",en:"to feel",phonetic:"zikh FUE-len",example:"A: Wie fühlst du dich heute?\nB: Ich fühle mich ein bisschen müde.",exampleEn:"A: How do you feel today?\nB: I feel a bit tired.",note:"Used with adjectives: gut, schlecht, müde, krank."},
-    {type:"teach",kind:"word",nl:"sich langweilen",en:"to be bored",phonetic:"zikh LANG-vy-len",example:"A: Langweilst du dich?\nB: Ja, ich langweile mich total!",exampleEn:"A: Are you bored?\nB: Yes, I'm totally bored!",note:"Regular reflexive verb."},
-    {type:"tip",title:"Reflexive Verbs with Prepositions",text:"Many emotion reflexives need a preposition:\nsich freuen auf + acc = look forward to\nsich freuen über + acc = be happy about\nsich ärgern über + acc = be annoyed about\nsich interessieren für + acc = be interested in",deepDive:"These preposition combinations are fixed. You cannot swap them. 'sich freuen auf' always means looking forward to something future, while 'sich freuen über' means being happy about something that happened."},
-    {type:"teach",kind:"word",nl:"sich interessieren",en:"to be interested",phonetic:"zikh in-teh-reh-SEER-en",example:"A: Wofür interessierst du dich?\nB: Ich interessiere mich für Musik und Sport.",exampleEn:"A: What are you interested in?\nB: I'm interested in music and sports.",note:"sich interessieren für = to be interested in."},
-    {type:"teach",kind:"word",nl:"sich aufregen",en:"to get upset, to get worked up",phonetic:"zikh OWF-ray-gen",example:"A: Reg dich nicht auf!\nB: Ich versuche es, aber es ist schwer.",exampleEn:"A: Don't get upset!\nB: I'm trying, but it's hard.",note:"Separable: auf|regen. Reg dich nicht auf!"},
-    {type:"mc",q:"'Ich ___ mich auf die Ferien.' Which verb means 'looking forward to'?",opts:["freue","ärgere","langweile","fühle"],ans:"freue",hint:"Which emotion verb pairs with 'auf' for anticipation?"},
-    {type:"fb",s:"Er {1} sich über das schlechte Wetter.",a:"ärgert",opts:["ärgert","freut","fühlt","langweilt"],hint:"Being annoyed about something uses sich ärgern über."},
-    {type:"mc",q:"'Wie ___ du dich?' Which verb asks about someone's feelings?",opts:["fühlst","freust","ärgerst","langweilst"],ans:"fühlst",hint:"The general verb for describing your state or condition."},
-    {type:"fb",s:"Wir {1} uns für deutsche Kultur.",a:"interessieren",opts:["interessieren","ärgern","langweilen","freuen"],hint:"Being interested in something uses sich interessieren für."},
-    {type:"match",pairs:[{nl:"sich freuen auf",en:"to look forward to"},{nl:"sich ärgern über",en:"to be annoyed about"},{nl:"sich fühlen",en:"to feel"},{nl:"sich langweilen",en:"to be bored"},{nl:"sich interessieren für",en:"to be interested in"}]},
-    {type:"mc",q:"Which preposition follows 'sich ärgern'?",opts:["über","auf","für","mit"],ans:"über",hint:"Think about what you are annoyed ABOUT."},
-    {type:"fb",s:"Die Kinder {1} sich im Unterricht.",a:"langweilen",opts:["langweilen","freuen","ärgern","fühlen"],hint:"The children are experiencing boredom during class."},
-    {type:"drag_fill",s:"Ich {1} mich {2} das Geschenk.",blanks:{"1":"freue","2":"über"},pool:["freue","über","ärgere","auf","für"],hint:"Being happy ABOUT a gift that was received."},
-    {type:"mc",q:"'Reg ___ nicht ___!' How do you say 'Don't get upset!' to a friend?",opts:["dich ... auf","sich ... auf","mich ... auf","euch ... auf"],ans:"dich ... auf",hint:"Addressing du informally with the separable prefix."},
-    {type:"fb",s:"Sie fühlt {1} heute nicht gut.",a:"sich",opts:["sich","mich","dich","uns"],hint:"The subject is sie (she), so use the third person reflexive."},
-    {type:"mc",q:"Which sentence means 'I'm interested in history'?",opts:["Ich interessiere mich für Geschichte.","Ich interessiere mich über Geschichte.","Ich interessiere mich auf Geschichte.","Ich interessiere mich mit Geschichte."],ans:"Ich interessiere mich für Geschichte.",hint:"The fixed preposition for sich interessieren is not über or auf."},
-  ]},
-  {id:"deu15l4",title:"Körperteile I",icon:"💪",xp:20,board:true,steps:[
-    {type:"intro",title:"Körperteile I",desc:"Learn the first set of body parts in German: head, arm, leg, hand, foot, and back.",goals:["Learn 6 body parts with articles","Practice body part vocabulary in sentences","Combine body parts with health expressions"]},
-    {type:"teach",kind:"word",nl:"der Kopf",en:"head",phonetic:"KOPF",example:"A: Was hast du?\nB: Mein Kopf tut weh. Ich habe Kopfschmerzen.",exampleEn:"A: What's wrong?\nB: My head hurts. I have a headache.",note:"Masculine (der). Plural: die Köpfe."},
-    {type:"teach",kind:"word",nl:"der Arm",en:"arm",phonetic:"ARM",example:"A: Kannst du den Arm heben?\nB: Nein, mein Arm tut zu sehr weh.",exampleEn:"A: Can you lift your arm?\nB: No, my arm hurts too much.",note:"Masculine (der). Plural: die Arme."},
-    {type:"teach",kind:"word",nl:"das Bein",en:"leg",phonetic:"BINE",example:"A: Was ist passiert?\nB: Ich habe mir das Bein verletzt.",exampleEn:"A: What happened?\nB: I injured my leg.",note:"Neuter (das). Plural: die Beine."},
-    {type:"teach",kind:"word",nl:"die Hand",en:"hand",phonetic:"HANT",example:"A: Gib mir bitte die Hand.\nB: Hier, meine Hand. Schön dich kennenzulernen!",exampleEn:"A: Give me your hand please.\nB: Here, my hand. Nice to meet you!",note:"Feminine (die). Plural: die Hände."},
-    {type:"teach",kind:"word",nl:"der Fuß",en:"foot",phonetic:"FOOS",example:"A: Tut dein Fuß noch weh?\nB: Ja, mein Fuß ist geschwollen.",exampleEn:"A: Does your foot still hurt?\nB: Yes, my foot is swollen.",note:"Masculine (der). Plural: die Füße. Note the ß."},
-    {type:"teach",kind:"word",nl:"der Rücken",en:"back",phonetic:"RUE-ken",example:"A: Warum stehst du auf?\nB: Mein Rücken tut weh vom langen Sitzen.",exampleEn:"A: Why are you standing up?\nB: My back hurts from sitting for a long time.",note:"Masculine (der). Plural: die Rücken."},
-    {type:"tip",title:"Talking About Pain",text:"To say something hurts:\n[body part] + tut weh\nMein Kopf tut weh. = My head hurts.\nMein Arm tut weh. = My arm hurts.\n\nFor plural body parts:\nMeine Füße tun weh. = My feet hurt.",deepDive:"'Weh tun' is a separable verb meaning 'to hurt'. It conjugates: tut weh (singular subject), tun weh (plural subject). You can also say 'Mir tut der Kopf weh' with the dative 'mir' for emphasis."},
-    {type:"mc",q:"Which article goes with 'Kopf'?",opts:["der","die","das","ein"],ans:"der",hint:"Think about which gender category Kopf belongs to."},
-    {type:"mc",q:"Which article goes with 'Bein'?",opts:["das","der","die","ein"],ans:"das",hint:"Bein is not masculine or feminine."},
-    {type:"fb",s:"Mein {1} tut weh vom langen Sitzen.",a:"Rücken",opts:["Rücken","Kopf","Arm","Fuß"],hint:"Which body part hurts from sitting too long?"},
-    {type:"match",pairs:[{nl:"der Kopf",en:"head"},{nl:"der Arm",en:"arm"},{nl:"das Bein",en:"leg"},{nl:"die Hand",en:"hand"},{nl:"der Fuß",en:"foot"},{nl:"der Rücken",en:"back"}]},
-    {type:"mc",q:"How do you say 'My hand hurts'?",opts:["Meine Hand tut weh.","Mein Hand tut weh.","Meine Hand tun weh.","Meinen Hand tut weh."],ans:"Meine Hand tut weh.",hint:"Hand is feminine, so the possessive is meine."},
-    {type:"fb",s:"Gib mir bitte die {1}.",a:"Hand",opts:["Hand","Kopf","Bein","Fuß"],hint:"Which body part do you extend when greeting someone?"},
-    {type:"mc",q:"What is the plural of 'der Fuß'?",opts:["die Füße","die Fuße","die Füßen","die Fußen"],ans:"die Füße",hint:"The vowel changes with an umlaut in the plural."},
-    {type:"fb",s:"Ich habe mir das {1} verletzt.",a:"Bein",opts:["Bein","Hand","Kopf","Rücken"],hint:"Which neuter body part might you injure while running?"},
-    {type:"drag_fill",s:"Mein {1} und meine {2} tun weh.",blanks:{"1":"Arm","2":"Füße"},pool:["Arm","Füße","Bein","Kopf","Hand"],hint:"One masculine singular body part and one plural body part for walking."},
-    {type:"mc",q:"'Meine ___ tun weh.' Which body part uses 'tun' (plural)?",opts:["Füße","Kopf","Arm","Rücken"],ans:"Füße",hint:"Only one of these options is plural."},
-  ]},
-  {id:"deu15l5",title:"Körperteile II",icon:"👂",xp:20,board:true,steps:[
-    {type:"intro",title:"Körperteile II",desc:"Learn more body parts: stomach, tooth, eye, ear, nose, and mouth. Complete your body vocabulary!",goals:["Learn 6 more body parts with articles","Practice describing facial features","Combine all body parts in exercises"]},
-    {type:"teach",kind:"word",nl:"der Bauch",en:"stomach, belly",phonetic:"BOWKH",example:"A: Hast du Hunger?\nB: Ja, mein Bauch knurrt schon den ganzen Tag!",exampleEn:"A: Are you hungry?\nB: Yes, my stomach has been growling all day!",note:"Masculine (der). Plural: die Bäuche."},
-    {type:"teach",kind:"word",nl:"der Zahn",en:"tooth",phonetic:"TSAHN",example:"A: Tut der Zahn weh?\nB: Ja, ich muss zum Zahnarzt gehen.",exampleEn:"A: Does the tooth hurt?\nB: Yes, I need to go to the dentist.",note:"Masculine (der). Plural: die Zähne. Zahnarzt = dentist."},
-    {type:"teach",kind:"word",nl:"das Auge",en:"eye",phonetic:"OW-guh",example:"A: Welche Augenfarbe hast du?\nB: Ich habe braune Augen.",exampleEn:"A: What eye color do you have?\nB: I have brown eyes.",note:"Neuter (das). Plural: die Augen."},
-    {type:"teach",kind:"word",nl:"das Ohr",en:"ear",phonetic:"OHR",example:"A: Hörst du das?\nB: Nein, mein Ohr tut weh. Ich höre schlecht.",exampleEn:"A: Do you hear that?\nB: No, my ear hurts. I can't hear well.",note:"Neuter (das). Plural: die Ohren."},
-    {type:"teach",kind:"word",nl:"die Nase",en:"nose",phonetic:"NAH-zuh",example:"A: Was ist los?\nB: Meine Nase läuft. Ich glaube, ich bin erkältet.",exampleEn:"A: What's wrong?\nB: My nose is running. I think I have a cold.",note:"Feminine (die). Plural: die Nasen."},
-    {type:"teach",kind:"word",nl:"der Mund",en:"mouth",phonetic:"MOONT",example:"A: Bitte öffnen Sie den Mund.\nB: So? Ist alles in Ordnung?",exampleEn:"A: Please open your mouth.\nB: Like this? Is everything okay?",note:"Masculine (der). Plural: die Münder."},
-    {type:"tip",title:"Face Parts: Gender Patterns",text:"Masculine (der): Mund, Zahn, Kopf\nNeuter (das): Auge, Ohr\nFeminine (die): Nase\n\nPaired organs often use the plural:\ndie Augen, die Ohren, die Zähne.",deepDive:"There is no reliable rule for predicting gender of body parts. You must learn each noun with its article. A helpful pattern: many body parts that come in pairs use the plural form in everyday speech."},
-    {type:"mc",q:"Which article goes with 'Auge'?",opts:["das","der","die","dem"],ans:"das",hint:"Auge is a neuter noun."},
-    {type:"mc",q:"Which article goes with 'Nase'?",opts:["die","der","das","den"],ans:"die",hint:"Nase ends in -e, a common feminine ending."},
-    {type:"fb",s:"Mein {1} tut weh. Ich muss zum Zahnarzt.",a:"Zahn",opts:["Zahn","Mund","Bauch","Kopf"],hint:"Which body part requires a dentist (Zahnarzt)?"},
-    {type:"match",pairs:[{nl:"der Bauch",en:"stomach"},{nl:"der Zahn",en:"tooth"},{nl:"das Auge",en:"eye"},{nl:"das Ohr",en:"ear"},{nl:"die Nase",en:"nose"},{nl:"der Mund",en:"mouth"}]},
-    {type:"fb",s:"Ich habe braune {1}.",a:"Augen",opts:["Augen","Ohren","Nasen","Zähne"],hint:"Which paired feature do you describe with a color?"},
-    {type:"mc",q:"How do you say 'My nose is running'?",opts:["Meine Nase läuft.","Mein Nase läuft.","Meinen Nase läuft.","Meine Nase lauft."],ans:"Meine Nase läuft.",hint:"Nase is feminine, so the possessive takes the feminine form."},
-    {type:"fb",s:"Bitte öffnen Sie den {1}.",a:"Mund",opts:["Mund","Zahn","Bauch","Kopf"],hint:"A doctor asks you to open this to examine your throat."},
-    {type:"mc",q:"What is the plural of 'das Ohr'?",opts:["die Ohren","die Ohre","die Öhren","die Öhre"],ans:"die Ohren",hint:"The plural adds -en without an umlaut."},
-    {type:"drag_fill",s:"Meine {1} läuft und meine {2} tun weh.",blanks:{"1":"Nase","2":"Ohren"},pool:["Nase","Ohren","Mund","Auge","Zahn"],hint:"A runny one and a pair that hurts."},
-    {type:"mc",q:"Which body parts are neuter (das)?",opts:["Auge und Ohr","Mund und Nase","Zahn und Bauch","Kopf und Arm"],ans:"Auge und Ohr",hint:"Two sensory organs on your face share the same gender."},
-    {type:"fb",s:"Mein {1} knurrt. Ich habe Hunger.",a:"Bauch",opts:["Bauch","Mund","Kopf","Rücken"],hint:"Which body part growls when you are hungry?"},
-  ]},
-  {id:"deu15l6",title:"Beim Arzt",icon:"👩‍⚕️",xp:20,board:true,steps:[
-    {type:"intro",title:"Beim Arzt",desc:"Learn essential phrases for visiting the doctor in Germany: describing symptoms, answering the doctor's questions, and understanding instructions.",goals:["Learn key doctor visit phrases","Describe symptoms in German","Understand formal medical questions"]},
-    {type:"teach",kind:"phrase",nl:"Was fehlt Ihnen?",en:"What's wrong? (formal, doctor to patient)",phonetic:"vas FELT EE-nen",example:"A: Was fehlt Ihnen?\nB: Ich habe starke Kopfschmerzen und mir ist schwindelig.",exampleEn:"A: What's wrong?\nB: I have a bad headache and I feel dizzy.",note:"Formal way doctors ask patients what is wrong."},
-    {type:"teach",kind:"phrase",nl:"Ich habe Kopfschmerzen.",en:"I have a headache.",phonetic:"ikh HAH-buh KOPF-shmair-tsen",example:"A: Was fehlt Ihnen?\nB: Ich habe Kopfschmerzen seit gestern.",exampleEn:"A: What's wrong?\nB: I've had a headache since yesterday.",note:"Kopf + Schmerzen = head + pain. Same pattern for all body parts."},
-    {type:"teach",kind:"phrase",nl:"Mir ist schlecht.",en:"I feel nauseous.",phonetic:"meer ist SHLEKHT",example:"A: Geht es dir gut?\nB: Nein, mir ist schlecht. Ich glaube, ich muss mich hinlegen.",exampleEn:"A: Are you okay?\nB: No, I feel nauseous. I think I need to lie down.",note:"Dative construction: Mir ist + adjective."},
-    {type:"teach",kind:"phrase",nl:"Mir ist schwindelig.",en:"I feel dizzy.",phonetic:"meer ist SHVIN-duh-likh",example:"A: Was fehlt Ihnen?\nB: Mir ist schwindelig und ich sehe alles doppelt.",exampleEn:"A: What's wrong?\nB: I feel dizzy and I'm seeing double.",note:"Another dative construction with mir ist."},
-    {type:"tip",title:"The 'Mir ist' Construction",text:"German uses dative + sein for physical sensations:\nMir ist schlecht. = I feel nauseous.\nMir ist schwindelig. = I feel dizzy.\nMir ist kalt. = I feel cold.\nMir ist warm. = I feel warm.\n\nThe person feeling is in the dative (mir/dir/ihm/ihr).",deepDive:"This construction has no direct English equivalent. In English you say 'I feel cold' (subject + verb + adjective). In German, the person is the indirect object: 'To me it is cold.' This pattern is very common in everyday German."},
-    {type:"teach",kind:"phrase",nl:"Ich habe Bauchschmerzen.",en:"I have a stomachache.",phonetic:"ikh HAH-buh BOWKH-shmair-tsen",example:"A: Hast du etwas Schlechtes gegessen?\nB: Ich glaube ja. Ich habe Bauchschmerzen.",exampleEn:"A: Did you eat something bad?\nB: I think so. I have a stomachache.",note:"Bauch + Schmerzen = stomach + pain."},
-    {type:"teach",kind:"phrase",nl:"Wo tut es weh?",en:"Where does it hurt?",phonetic:"voh toot es VAY",example:"A: Wo tut es weh?\nB: Hier, am rechten Arm.",exampleEn:"A: Where does it hurt?\nB: Here, on the right arm.",note:"A common question from doctors."},
-    {type:"mc",q:"How does a doctor formally ask 'What's wrong?'",opts:["Was fehlt Ihnen?","Was fehlt dir?","Was hast du?","Wo tut es weh?"],ans:"Was fehlt Ihnen?",hint:"Doctors use the formal Sie form with patients."},
-    {type:"fb",s:"Ich habe {1} seit drei Tagen.",a:"Kopfschmerzen",opts:["Kopfschmerzen","Bauchschmerzen","Rückenschmerzen","Zahnschmerzen"],hint:"Pain in the head area lasting for three days."},
-    {type:"mc",q:"How do you say 'I feel nauseous' in German?",opts:["Mir ist schlecht.","Ich bin schlecht.","Mir ist gut.","Ich fühle schlecht."],ans:"Mir ist schlecht.",hint:"This uses the dative construction, not 'ich bin'."},
-    {type:"fb",s:"{1} ist schwindelig.",a:"Mir",opts:["Mir","Ich","Mich","Mein"],hint:"The person feeling dizzy is expressed in the dative case."},
-    {type:"match",pairs:[{nl:"Was fehlt Ihnen?",en:"What's wrong?"},{nl:"Mir ist schlecht.",en:"I feel nauseous."},{nl:"Kopfschmerzen",en:"headache"},{nl:"Wo tut es weh?",en:"Where does it hurt?"},{nl:"Mir ist schwindelig.",en:"I feel dizzy."}]},
-    {type:"mc",q:"How do you say 'I have a stomachache'?",opts:["Ich habe Bauchschmerzen.","Mir ist Bauch schlecht.","Mein Bauch ist schlecht.","Ich bin Bauchschmerzen."],ans:"Ich habe Bauchschmerzen.",hint:"Use 'Ich habe' + the compound noun for stomach pain."},
-    {type:"fb",s:"Wo tut es {1}?",a:"weh",opts:["weh","schlecht","gut","krank"],hint:"The doctor asks where the pain is located."},
-    {type:"drag_fill",s:"{1} fehlt {2}? Ich habe {3}.",blanks:{"1":"Was","2":"Ihnen","3":"Zahnschmerzen"},pool:["Was","Ihnen","Zahnschmerzen","Mir","schlecht"],hint:"Doctor's question with Sie-form, then the patient describes tooth pain."},
-    {type:"mc",q:"Which sentence uses the dative construction correctly?",opts:["Mir ist kalt.","Ich bin kalt.","Mich ist kalt.","Mein ist kalt."],ans:"Mir ist kalt.",hint:"Physical sensations use the dative form of ich."},
-    {type:"fb",s:"Ich habe {1} am rechten Bein.",a:"Schmerzen",opts:["Schmerzen","schlecht","weh","kalt"],hint:"A general word for pain in a specific location."},
-  ]},
-  {id:"deu15l7",title:"Krankheit & Medizin",icon:"💊",xp:20,board:true,steps:[
-    {type:"intro",title:"Krankheit & Medizin",desc:"Learn words for common illnesses, symptoms, and medicine. Talk about fever, colds, coughs, and visiting the doctor.",goals:["Learn illness vocabulary","Describe symptoms fluently","Talk about medicine and treatment"]},
-    {type:"teach",kind:"word",nl:"das Fieber",en:"fever",phonetic:"FEE-ber",example:"A: Hast du Fieber?\nB: Ja, ich habe 38 Grad Fieber.",exampleEn:"A: Do you have a fever?\nB: Yes, I have a 38-degree fever.",note:"Neuter (das). No plural in common use."},
-    {type:"teach",kind:"word",nl:"die Erkältung",en:"cold (illness)",phonetic:"air-KEL-tung",example:"A: Was hast du?\nB: Nur eine Erkältung. Nichts Schlimmes.",exampleEn:"A: What do you have?\nB: Just a cold. Nothing serious.",note:"Feminine (die). From 'kalt' (cold)."},
-    {type:"teach",kind:"word",nl:"der Husten",en:"cough",phonetic:"HOO-sten",example:"A: Seit wann hast du Husten?\nB: Seit einer Woche. Er wird nicht besser.",exampleEn:"A: How long have you had the cough?\nB: For a week. It's not getting better.",note:"Masculine (der). Also a verb: husten = to cough."},
-    {type:"teach",kind:"word",nl:"die Tablette",en:"tablet, pill",phonetic:"tah-BLET-uh",example:"A: Nehmen Sie diese Tabletten dreimal am Tag.\nB: Vor oder nach dem Essen?",exampleEn:"A: Take these tablets three times a day.\nB: Before or after eating?",note:"Feminine (die). Plural: die Tabletten."},
-    {type:"teach",kind:"word",nl:"der Arzt",en:"doctor (male)",phonetic:"ARTST",example:"A: Warst du beim Arzt?\nB: Ja, der Arzt hat gesagt, ich soll mich ausruhen.",exampleEn:"A: Did you go to the doctor?\nB: Yes, the doctor said I should rest.",note:"Masculine (der). Plural: die Ärzte."},
-    {type:"teach",kind:"word",nl:"die Ärztin",en:"doctor (female)",phonetic:"AIRTS-tin",example:"A: Wer ist deine Ärztin?\nB: Frau Dr. Müller. Sie ist sehr nett.",exampleEn:"A: Who is your doctor?\nB: Dr. Müller. She is very nice.",note:"Feminine (die). Plural: die Ärztinnen."},
-    {type:"tip",title:"Common Health Expressions",text:"Ich bin krank. = I am sick.\nIch bin erkältet. = I have a cold.\nIch habe Fieber. = I have a fever.\nIch muss zum Arzt. = I need to go to the doctor.\nGute Besserung! = Get well soon!",deepDive:"In Germany, you need a Krankmeldung (sick note) from your doctor if you miss more than three days of work. You call your employer on the first day and say 'Ich bin krank und kann heute nicht kommen.'"},
-    {type:"mc",q:"Which word means 'fever'?",opts:["das Fieber","der Husten","die Erkältung","die Tablette"],ans:"das Fieber",hint:"This neuter noun describes elevated body temperature."},
-    {type:"fb",s:"Ich habe eine {1}. Meine Nase läuft.",a:"Erkältung",opts:["Erkältung","Fieber","Husten","Tablette"],hint:"A common illness with a runny nose as a symptom."},
-    {type:"mc",q:"What is the feminine form of 'der Arzt'?",opts:["die Ärztin","die Arztin","die Arzt","die Ärzte"],ans:"die Ärztin",hint:"Add -in and umlaut to form the feminine."},
-    {type:"fb",s:"Nehmen Sie diese {1} dreimal am Tag.",a:"Tabletten",opts:["Tabletten","Fieber","Erkältung","Husten"],hint:"What does a doctor prescribe that you take three times daily?"},
-    {type:"match",pairs:[{nl:"das Fieber",en:"fever"},{nl:"die Erkältung",en:"cold"},{nl:"der Husten",en:"cough"},{nl:"die Tablette",en:"tablet"},{nl:"der Arzt",en:"doctor (m)"},{nl:"die Ärztin",en:"doctor (f)"}]},
-    {type:"mc",q:"How do you say 'Get well soon!' in German?",opts:["Gute Besserung!","Guten Tag!","Gute Reise!","Guten Appetit!"],ans:"Gute Besserung!",hint:"This wish uses the word for 'improvement'."},
-    {type:"fb",s:"Ich habe {1} seit drei Tagen.",a:"Husten",opts:["Husten","Fieber","Tablette","Arzt"],hint:"A symptom that makes you cough repeatedly."},
-    {type:"drag_fill",s:"Ich bin {1} und habe {2}. Ich muss zum {3}.",blanks:{"1":"krank","2":"Fieber","3":"Arzt"},pool:["krank","Fieber","Arzt","gut","Tablette","Ärztin"],hint:"Sick, a temperature, and need to visit a medical professional."},
-    {type:"mc",q:"Which sentence is correct?",opts:["Ich bin erkältet.","Ich habe erkältet.","Ich bin Erkältung.","Ich erkälte."],ans:"Ich bin erkältet.",hint:"This uses sein + past participle as an adjective."},
-    {type:"fb",s:"Warst du beim {1}?",a:"Arzt",opts:["Arzt","Fieber","Tablette","Husten"],hint:"The professional you visit when you are sick."},
-  ]},
-  {id:"deu15l8",title:"Alles zusammen!",icon:"🔄",xp:20,board:true,steps:[
-    {type:"intro",title:"Alles zusammen!",desc:"Review everything: reflexive verbs, body parts, health phrases, and doctor visits. Can you handle a complete health scenario in German?",goals:["Combine reflexive verbs with health vocabulary","Handle a full doctor visit conversation","Review all Unit 15 material"]},
-    {type:"mc",q:"'Ich ___ mich nicht gut.' Which reflexive verb describes your condition?",opts:["fühle","wasche","setze","anziehe"],ans:"fühle",hint:"Which verb expresses how you feel physically?"},
-    {type:"fb",s:"Morgens {1} ich mich und putze mir die Zähne.",a:"dusche",opts:["dusche","fühle","ärgere","freue"],hint:"A morning routine activity involving water."},
-    {type:"mc",q:"What does 'Mir ist schlecht' mean?",opts:["I feel nauseous.","I am bad.","It is bad for me.","I feel cold."],ans:"I feel nauseous.",hint:"This dative construction describes a physical sensation."},
-    {type:"drag_fill",s:"Mein {1} tut weh und ich habe {2}.",blanks:{"1":"Kopf","2":"Fieber"},pool:["Kopf","Fieber","mich","gut","Arzt"],hint:"A head that hurts plus an elevated temperature."},
-    {type:"fb",s:"Was {1} Ihnen?",a:"fehlt",opts:["fehlt","tut","ist","hat"],hint:"The formal way a doctor asks what is wrong."},
-    {type:"match",pairs:[{nl:"sich waschen",en:"to wash oneself"},{nl:"der Husten",en:"cough"},{nl:"die Tablette",en:"tablet"},{nl:"sich fühlen",en:"to feel"},{nl:"Mir ist schwindelig.",en:"I feel dizzy."}]},
-    {type:"mc",q:"Which reflexive pronoun completes: 'Wir fühlen ___ heute müde.'?",opts:["uns","sich","euch","mich"],ans:"uns",hint:"The subject is wir, so the reflexive must match."},
-    {type:"fb",s:"Du musst {1} beeilen, der Arzt wartet.",a:"dich",opts:["dich","mich","sich","uns"],hint:"Addressing someone with du requires the du reflexive."},
-    {type:"mc",q:"Which body part is neuter (das)?",opts:["das Auge","der Mund","die Nase","der Zahn"],ans:"das Auge",hint:"One sensory organ on the face is neuter."},
-    {type:"drag_fill",s:"Ich {1} mich über die gute Nachricht und {2} mich jetzt besser.",blanks:{"1":"freue","2":"fühle"},pool:["freue","fühle","ärgere","wasche","langweile"],hint:"Happy about good news and now feeling better."},
-    {type:"fb",s:"Gute {1}! Ich hoffe, du wirst bald gesund.",a:"Besserung",opts:["Besserung","Nacht","Reise","Morgen"],hint:"The German wish for someone who is sick."},
-    {type:"mc",q:"A doctor says 'Wo tut es weh?' What is the patient expected to do?",opts:["Point to or describe the painful area.","Name their medicine.","Give their insurance card.","Say their name."],ans:"Point to or describe the painful area.",hint:"The doctor is asking about the location of pain."},
-    {type:"fb",s:"Sie zieht {1} schnell an und geht zum Arzt.",a:"sich",opts:["sich","mich","dich","uns"],hint:"The subject is sie (she), third person reflexive."},
-    {type:"drag_fill",s:"Ich habe {1} und {2}. {3} ist schlecht.",blanks:{"1":"Kopfschmerzen","2":"Fieber","3":"Mir"},pool:["Kopfschmerzen","Fieber","Mir","Mich","Bauch"],hint:"A headache, a temperature, and feeling nauseous using the dative."},
-    {type:"mc",q:"Which sentence is correct?",opts:["Er kämmt sich die Haare.","Er kämmt mich die Haare.","Er kämmt sich der Haare.","Er sich kämmt die Haare."],ans:"Er kämmt sich die Haare.",hint:"Third person reflexive with the verb in V2 position."},
-    {type:"fb",s:"Nehmen Sie die {1} nach dem Essen.",a:"Tabletten",opts:["Tabletten","Fieber","Erkältung","Husten"],hint:"What does the doctor tell you to take after meals?"},
-    {type:"mc",q:"How do you say 'I'm interested in German culture'?",opts:["Ich interessiere mich für deutsche Kultur.","Ich interessiere mich über deutsche Kultur.","Ich interessiere mir für deutsche Kultur.","Ich interessiere sich für deutsche Kultur."],ans:"Ich interessiere mich für deutsche Kultur.",hint:"The fixed preposition is für, and ich uses mich."},
-    {type:"drag_fill",s:"Der Arzt fragt: Was {1} {2}? Der Patient sagt: Mein {3} tut {4}.",blanks:{"1":"fehlt","2":"Ihnen","3":"Rücken","4":"weh"},pool:["fehlt","Ihnen","Rücken","weh","ist","mir"],hint:"Doctor's formal question, then the patient describes back pain."},
-  ]},
+
+{n:15,lang:"de",track:"v1",title:"Ich fühle mich gut",sub:"Reflexive Verbs & Health",icon:"🏥",level:"A2.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Reflexivpronomen ═══
+{id:"deu15l1",title:"Reflexivpronomen",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Reflexivpronomen",desc:"Some verbs in German require a reflexive pronoun: an extra word that refers back to the subject. Ich wasche mich means I wash myself. Learning these pronouns unlocks a whole family of essential verbs.",goals:["All six reflexive pronouns (accusative)","sich waschen and sich freuen as anchor verbs","Sentence position of the reflexive pronoun"]},
+
+  {type:"tip",title:"What Is a Reflexive Verb?",text:"A reflexive verb uses a pronoun that points back at the subject:\n\nIch wasche mich. (I wash myself.)\nDu wäschst dich. (You wash yourself.)\nEr wäscht sich. (He washes himself.)\n\nThe extra pronoun (mich, dich, sich...) is the REFLEXIVE PRONOUN.\nIn German it comes right after the conjugated verb in most sentences.",deepDive:{title:"Accusative vs dative reflexive pronouns",text:"German has TWO sets of reflexive pronouns. The accusative set (mich, dich, sich, uns, euch, sich) is used when the reflexive pronoun is the DIRECT OBJECT of the verb.\n\nThe dative set (mir, dir, sich, uns, euch, sich) is used when the verb already has a direct object and the reflexive is the INDIRECT object. Example: Ich wasche mir die Hände. (I wash my hands for myself.) You will learn both in this unit."}},
+
+  {type:"teach",kind:"phrase",nl:"mich",en:"myself (accusative reflexive, ich)",phonetic:"mikh",example:"A: Wann wäschst du dich?\nB: Ich wasche mich jeden Morgen.\nA: Ich auch. Ich fühle mich dann frisch.\nB: Ja, mir auch!",exampleEn:"A: When do you wash yourself?\nB: I wash myself every morning.\nA: Me too. I feel fresh then.\nB: Yes, me too!",note:"Accusative reflexive pronoun for ich.\nUsed when ich is both subject and direct object."},
+
+  {type:"teach",kind:"phrase",nl:"dich",en:"yourself (accusative reflexive, du)",phonetic:"dikh",example:"A: Hast du dich heute geduscht?\nB: Ja, ich habe mich geduscht.\nA: Gut. Hast du dich auch rasiert?\nB: Natürlich!",exampleEn:"A: Did you shower today?\nB: Yes, I showered.\nA: Good. Did you shave too?\nB: Of course!",note:"Accusative reflexive pronoun for du.\nmich for ich, dich for du."},
+
+  {type:"teach",kind:"phrase",nl:"sich",en:"himself / herself / themselves (reflexive)",phonetic:"zikh",example:"A: Er freut sich auf das Konzert.\nB: Ich freue mich auch!\nA: Sie ärgert sich über den Regen.\nB: Das verstehe ich.",exampleEn:"A: He is looking forward to the concert.\nB: I am too!\nA: She is annoyed about the rain.\nB: I understand that.",note:"sich covers er, sie (she), es, sie (they), and Sie (formal you).\nOne form for all third-person and formal."},
+
+  {type:"verb_table",title:"Reflexivpronomen (Accusative)",label:"Accusative reflexive pronouns",groups:[{label:"Singular",rows:[["ich","mich"],["du","dich"],["er/sie/es","sich"]]},{label:"Plural",rows:[["wir","uns"],["ihr","euch"],["sie/Sie","sich"]]}],note:"mich and dich are unique. sich covers all third-person.\nuns and euch match the regular accusative pronouns."},
+
+  {type:"teach",kind:"phrase",nl:"uns",en:"ourselves (accusative reflexive, wir)",phonetic:"oons",example:"A: Wir treffen uns um drei.\nB: Gut! Wir freuen uns schon.\nA: Ich freue mich auch.\nB: Bis dann!",exampleEn:"A: We meet at three.\nB: Good! We are already looking forward to it.\nA: I am too.\nB: See you then!",note:"uns serves as both accusative reflexive AND dative reflexive for wir.\nAlso means 'each other' in reciprocal use."},
+
+  {type:"teach",kind:"phrase",nl:"euch",en:"yourselves (accusative reflexive, ihr)",phonetic:"oikh",example:"A: Habt ihr euch gut erholt?\nB: Ja, wir haben uns sehr erholt.\nA: Schön! Wir haben uns auch ausgeruht.\nB: Das ist wichtig.",exampleEn:"A: Did you all recover well?\nB: Yes, we rested very well.\nA: Great! We rested too.\nB: That is important.",note:"euch is both the accusative reflexive AND regular accusative for ihr.\nSame form, context makes it clear."},
+
+  {type:"teach",kind:"phrase",nl:"sich waschen",en:"to wash oneself",phonetic:"zikh VAH-shen",example:"A: Ich wasche mich schnell.\nB: Gut, ich wasche mich auch.\nA: Danach fühle ich mich sauber.\nB: Ja, ich auch!",exampleEn:"A: I will wash myself quickly.\nB: Good, I will wash myself too.\nA: Afterwards I feel clean.\nB: Yes, me too!",note:"sich waschen uses accusative reflexive.\nwaschen has a vowel change: ich wasche, du wäschst."},
+
+  {type:"teach",kind:"phrase",nl:"sich freuen",en:"to be happy / to look forward to",phonetic:"zikh FROI-en",example:"A: Freust du dich auf den Urlaub?\nB: Ja! Ich freue mich so sehr!\nA: Ich freue mich auch.\nB: Es wird toll!",exampleEn:"A: Are you looking forward to the holiday?\nB: Yes! I am so excited!\nA: I am looking forward to it too.\nB: It will be great!",note:"sich freuen auf = to look forward to (future event).\nsich freuen über = to be happy about (past event)."},
+
+  {type:"mc",q:"Ich wasche ___. (I wash myself.)",opts:["mich","dich","sich","uns"],ans:"mich",hint:"Which reflexive pronoun goes with ich?"},
+
+  {type:"mc",q:"Du wäschst ___. (You wash yourself.)",opts:["mich","dich","sich","euch"],ans:"dich",hint:"Which reflexive pronoun goes with du?"},
+
+  {type:"fb",s:"Er wäscht ___, bevor er frühstückt.",a:"sich",opts:["sich","mich","dich","uns"],hint:"Third person singular reflexive pronoun."},
+
+  {type:"mc",q:"Wir treffen ___. (We meet each other.)",opts:["mich","dich","sich","uns"],ans:"uns",hint:"Which reflexive pronoun goes with wir?"},
+
+  {type:"match",pairs:[{nl:"mich",en:"myself (ich)"},{nl:"dich",en:"yourself (du)"},{nl:"sich",en:"himself/herself (er/sie)"},{nl:"uns",en:"ourselves (wir)"}]},
+
+  {type:"mc",q:"Ich freue ___ auf das Wochenende.",opts:["dich","mich","sich","euch"],ans:"mich",hint:"Subject is ich. The reflexive matches the subject."},
+
+  {type:"fb",s:"Freust du ___ auf die Party?",a:"dich",opts:["dich","mich","sich","uns"],hint:"Subject is du. Which reflexive pronoun matches?"},
+
+  {type:"mc",q:"'sich' is used for which subjects?",opts:["ich and du only","wir and ihr only","er, sie, es, sie (they), and Sie (formal)","All persons equally"],ans:"er, sie, es, sie (they), and Sie (formal)",hint:"sich covers all third-person forms and formal Sie."},
+
+  {type:"mc",q:"Where does the reflexive pronoun sit in a main clause?",opts:["At the very beginning","At the very end","Directly after the conjugated verb","Before the subject"],ans:"Directly after the conjugated verb",hint:"In standard word order: subject + verb + reflexive pronoun."},
+]},
+
+// ═══ L2: Tägliche Reflexive ═══
+{id:"deu15l2",title:"Tägliche Reflexive",icon:"🚿",xp:20,board:true,steps:[
+  {type:"intro",title:"Tägliche Reflexive",desc:"Daily routines are full of reflexive verbs. Learn the verbs for showering, dressing, combing your hair, shaving, and putting on makeup. These are the verbs you need to describe every morning.",goals:["sich duschen, sich anziehen, sich kämmen","sich rasieren, sich schminken","Use all five in full sentences"]},
+
+  {type:"teach",kind:"phrase",nl:"sich duschen",en:"to shower",phonetic:"zikh DOO-shen",example:"A: Ich dusche mich jeden Morgen.\nB: Ich dusche mich lieber abends.\nA: Wirklich? Ich fühle mich morgens frischer.\nB: Ich auch nach dem Duschen.",exampleEn:"A: I shower every morning.\nB: I prefer to shower in the evenings.\nA: Really? I feel fresher in the mornings.\nB: Me too after showering.",note:"Regular reflexive verb. Akkusativ: ich dusche mich.\ndie Dusche = the shower (noun)."},
+
+  {type:"teach",kind:"phrase",nl:"sich anziehen",en:"to get dressed",phonetic:"zikh AN-tsee-en",example:"A: Ich ziehe mich schnell an.\nB: Ich ziehe mich auch an. Wir sind spät.\nA: Hast du dich schon angezogen?\nB: Fast fertig!",exampleEn:"A: I am getting dressed quickly.\nB: I am getting dressed too. We are late.\nA: Are you already dressed?\nB: Almost done!",note:"Separable reflexive verb: anziehen = to put on clothing.\nPartizip II: angezogen."},
+
+  {type:"tip",title:"Separable Reflexive Verbs",text:"Some reflexive verbs are ALSO separable. The prefix splits off and goes to the end:\n\nsich anziehen: Ich ziehe mich an. (prefix 'an' at end)\nsich ausziehen: Ich ziehe mich aus. (prefix 'aus' at end)\nsich umziehen: Ich ziehe mich um. (prefix 'um' at end)\n\nThe reflexive pronoun stays right after the main verb.",deepDive:{title:"Separable reflexive verbs in Perfekt",text:"In the Perfekt tense, separable reflexive verbs combine the ge- prefix with the rest:\n\nsich anziehen: Ich habe mich angezogen.\nsich ausziehen: Ich habe mich ausgezogen.\n\nThe ge- goes between the separable prefix and the stem: an+ge+zogen = angezogen."}},
+
+  {type:"teach",kind:"phrase",nl:"sich kämmen",en:"to comb one's hair",phonetic:"zikh KEM-men",example:"A: Kämmst du dich vor dem Spiegel?\nB: Ja, ich kämme mich immer.\nA: Ich kämme mich auch. Das dauert bei mir lange.\nB: Bei mir auch!",exampleEn:"A: Do you comb your hair in front of the mirror?\nB: Yes, I always comb my hair.\nA: I comb my hair too. It takes me a long time.\nB: Me too!",note:"Regular reflexive verb.\nder Kamm = the comb. der Spiegel = the mirror."},
+
+  {type:"teach",kind:"phrase",nl:"sich rasieren",en:"to shave",phonetic:"zikh rah-ZEER-en",example:"A: Rasierst du dich jeden Tag?\nB: Nein, ich rasiere mich jeden zweiten Tag.\nA: Ich rasiere mich jeden Morgen.\nB: Das ist viel Arbeit!",exampleEn:"A: Do you shave every day?\nB: No, I shave every other day.\nA: I shave every morning.\nB: That is a lot of work!",note:"Regular reflexive verb.\nder Rasierer = the razor."},
+
+  {type:"teach",kind:"phrase",nl:"sich schminken",en:"to put on makeup",phonetic:"zikh SHMINK-en",example:"A: Schminkt sie sich jeden Tag?\nB: Ja, sie schminkt sich immer.\nA: Ich schminke mich nicht so oft.\nB: Das ist auch gut so.",exampleEn:"A: Does she put on makeup every day?\nB: Yes, she always puts on makeup.\nA: I do not put on makeup so often.\nB: That is fine too.",note:"Regular reflexive verb.\ndie Schminke = makeup."},
+
+  {type:"teach",kind:"phrase",nl:"sich ausziehen",en:"to undress / to take off clothes",phonetic:"zikh OWS-tsee-en",example:"A: Ich ziehe mich aus und dusche dann.\nB: Ich auch. Erst ausziehen, dann duschen.\nA: Hast du dich schon ausgezogen?\nB: Ja, ich bin in der Dusche.",exampleEn:"A: I undress and then shower.\nB: Me too. First undress, then shower.\nA: Have you already undressed?\nB: Yes, I am in the shower.",note:"Separable reflexive: ich ziehe mich aus.\naus = off. Opposite of sich anziehen."},
+
+  {type:"verb_table",title:"Daily Reflexive Verbs: Ich Form",label:"First person singular",groups:[{label:"Morning routine",rows:[["sich duschen","ich dusche mich"],["sich anziehen","ich ziehe mich an"],["sich kämmen","ich kämme mich"],["sich rasieren","ich rasiere mich"],["sich schminken","ich schminke mich"]]}],note:"Note how sich anziehen and sich ausziehen split:\nthe prefix (an/aus) moves to the end of the sentence."},
+
+  {type:"mc",q:"Ich ___ mich jeden Morgen. (shower)",opts:["dusche","duscht","duschen","duschst"],ans:"dusche",hint:"First person singular of duschen."},
+
+  {type:"mc",q:"'Er zieht sich ___.' (He gets dressed.) Fill the separable prefix:",opts:["an","ab","auf","aus"],ans:"an",hint:"anziehen = to get dressed. The prefix is..."},
+
+  {type:"fb",s:"Ich ___ mich schnell an.",a:"ziehe",opts:["ziehe","zieht","anziehe","anziehen"],hint:"Separable verb: main verb conjugated at position 2, prefix at end."},
+
+  {type:"mc",q:"'Sie kämmt sich.' means:",opts:["She is showering.","She is combing her hair.","She is getting dressed.","She is shaving."],ans:"She is combing her hair.",hint:"kämmen = to comb."},
+
+  {type:"match",pairs:[{nl:"sich duschen",en:"to shower"},{nl:"sich anziehen",en:"to get dressed"},{nl:"sich kämmen",en:"to comb one's hair"},{nl:"sich rasieren",en:"to shave"}]},
+
+  {type:"fb",s:"Er ___ sich jeden zweiten Tag.",a:"rasiert",opts:["rasiert","schminkt","kämmt","duscht"],hint:"Third person singular of rasieren."},
+
+  {type:"mc",q:"'Ich ziehe mich aus.' means:",opts:["I get dressed.","I undress.","I go out.","I take a walk."],ans:"I undress.",hint:"ausziehen = to take off clothing. Opposite of anziehen."},
+
+  {type:"mc",q:"Which sentence has CORRECT word order for sich anziehen?",opts:["Ich anziehe mich.","Ich mich ziehe an.","Ich ziehe mich an.","Mich ich ziehe an."],ans:"Ich ziehe mich an.",hint:"Separable verb: conjugated main verb at position 2, reflexive after it, prefix at the end."},
+
+  {type:"drag_fill",s:"Morgens {1} ich mich, dann {2} ich mich {3}, dann {4} ich mich.",blanks:{"1":"dusche","2":"ziehe","3":"an","4":"kämme"},pool:["dusche","wasche","ziehe","zieht","an","aus","kämme","rasiere"],hint:"Morning routine in order: shower, get dressed, comb hair."},
+]},
+
+// ═══ L3: Gefühle & Reflexive ═══
+{id:"deu15l3",title:"Gefühle & Reflexive",icon:"😊",xp:20,board:true,steps:[
+  {type:"intro",title:"Gefühle & Reflexive",desc:"Many German verbs for emotions are reflexive. Learn to express joy, annoyance, and boredom using sich freuen, sich ärgern, and sich langweilen. The prepositions auf and über change the meaning of sich freuen.",goals:["sich freuen auf vs über","sich ärgern über","sich langweilen","Express feelings with reflexive verbs and prepositions"]},
+
+  {type:"teach",kind:"phrase",nl:"sich freuen auf",en:"to look forward to (future)",phonetic:"zikh FROI-en owf",example:"A: Freust du dich auf den Geburtstag?\nB: Ja! Ich freue mich riesig darauf.\nA: Ich freue mich auch sehr darauf.\nB: Es wird super!",exampleEn:"A: Are you looking forward to the birthday?\nB: Yes! I am hugely excited about it.\nA: I am very much looking forward to it too.\nB: It will be great!",note:"sich freuen AUF = anticipation of a FUTURE event.\nauf requires accusative: freue mich auf den Urlaub."},
+
+  {type:"teach",kind:"phrase",nl:"sich freuen über",en:"to be happy about (past/present)",phonetic:"zikh FROI-en ÜH-ber",example:"A: Ich freue mich über das Geschenk!\nB: Wirklich? Freust du dich wirklich darüber?\nA: Ja! Ich freue mich so sehr darüber.\nB: Das freut mich!",exampleEn:"A: I am so happy about the present!\nB: Really? Are you really happy about it?\nA: Yes! I am so pleased about it.\nB: I am glad!",note:"sich freuen ÜBER = happiness about something already received.\nüber requires accusative."},
+
+  {type:"tip",title:"auf vs über with sich freuen",text:"The preposition changes the TIME direction:\n\nsich freuen AUF = looking FORWARD to something (future)\nIch freue mich auf die Ferien. (I look forward to the holidays.)\n\nsich freuen ÜBER = being happy ABOUT something (past or current)\nIch freue mich über das Ergebnis. (I am happy about the result.)\n\nauf = arrow pointing to the future. über = reflecting on what happened.",deepDive:{title:"darauf and darüber",text:"When a preposition refers to a thing (not a person), German uses da-compounds:\n\nFreust du dich auf den Urlaub? Ja, ich freue mich darauf.\nFreust du dich über das Geschenk? Ja, ich freue mich darüber.\n\nda + auf = darauf. da + über = darüber. You will study these fully in B1."}},
+
+  {type:"teach",kind:"phrase",nl:"sich ärgern über",en:"to be annoyed about",phonetic:"zikh AIR-gern ÜH-ber",example:"A: Ärgerst du dich über den Regen?\nB: Ja, ich ärgere mich sehr darüber.\nA: Ich ärgere mich auch über das Wetter.\nB: Das Leben ist zu kurz!",exampleEn:"A: Are you annoyed about the rain?\nB: Yes, I am very annoyed about it.\nA: I am also annoyed about the weather.\nB: Life is too short!",note:"sich ärgern ÜBER + accusative.\nder Ärger = the annoyance. Das ärgert mich = That annoys me."},
+
+  {type:"teach",kind:"phrase",nl:"sich langweilen",en:"to be bored",phonetic:"zikh LANG-vai-len",example:"A: Langweilst du dich?\nB: Ja, ich langweile mich total.\nA: Warum langweilst du dich?\nB: Es gibt nichts zu tun.",exampleEn:"A: Are you bored?\nB: Yes, I am completely bored.\nA: Why are you bored?\nB: There is nothing to do.",note:"sich langweilen has no preposition.\ndie Langeweile = boredom. lang = long, Weile = while."},
+
+  {type:"teach",kind:"phrase",nl:"sich aufregen über",en:"to get upset about",phonetic:"zikh OWF-ray-gen ÜH-ber",example:"A: Regst du dich über das Ergebnis auf?\nB: Ja, ich rege mich sehr darüber auf.\nA: Reg dich nicht so auf!\nB: Ich kann nicht anders.",exampleEn:"A: Are you getting upset about the result?\nB: Yes, I am very upset about it.\nA: Do not get so worked up!\nB: I cannot help it.",note:"Separable reflexive: ich rege mich auf.\nStronger than sich ärgern."},
+
+  {type:"teach",kind:"phrase",nl:"sich wohlfühlen",en:"to feel comfortable / at home",phonetic:"zikh VOHL-füh-len",example:"A: Fühlst du dich hier wohl?\nB: Ja! Ich fühle mich sehr wohl hier.\nA: Das freut mich. Wir fühlen uns alle wohl.\nB: Ihr seid sehr nett!",exampleEn:"A: Do you feel comfortable here?\nB: Yes! I feel very comfortable here.\nA: I am glad. We all feel at home.\nB: You are all very nice!",note:"sich wohlfühlen = to feel well/comfortable (emotionally).\nWohl = well (state)."},
+
+  {type:"mc",q:"'Ich freue mich ___ das Konzert.' (looking forward to the concert next week)",opts:["über","von","aus","auf"],ans:"auf",hint:"Future anticipation: sich freuen auf."},
+
+  {type:"mc",q:"'Er freut sich ___ das Geschenk.' (He is happy about the present he just received.)",opts:["auf","an","über","für"],ans:"über",hint:"Happiness about something received: sich freuen über."},
+
+  {type:"fb",s:"Ich ___ mich über den Regen.",a:"ärgere",opts:["ärgere","freue","langweile","fühle"],hint:"Which reflexive verb means 'to be annoyed'?"},
+
+  {type:"mc",q:"'Sie langweilt sich.' means:",opts:["She is looking forward to something.","She is annoyed.","She is bored.","She is happy."],ans:"She is bored.",hint:"sich langweilen = to be bored."},
+
+  {type:"match",pairs:[{nl:"sich freuen auf",en:"to look forward to (future)"},{nl:"sich freuen über",en:"to be happy about (past)"},{nl:"sich ärgern über",en:"to be annoyed about"},{nl:"sich langweilen",en:"to be bored"}]},
+
+  {type:"mc",q:"Ich habe die Prüfung bestanden. Ich freue mich ___ das Ergebnis.",opts:["auf","durch","über","mit"],ans:"über",hint:"The exam result already happened. Happy ABOUT = über."},
+
+  {type:"fb",s:"Morgen ist das Konzert. Ich ___ mich so darauf!",a:"freue",opts:["freue","ärgere","langweile","fühle"],hint:"You are looking forward to a future event. Which verb?"},
+
+  {type:"mc",q:"Which sentence is WRONG?",opts:["Ich freue mich auf die Ferien nächste Woche.","Er ärgert sich über den Lärm.","Sie langweilt sich beim Film.","Wir freuen uns auf das schlechte Ergebnis von gestern."],ans:"Wir freuen uns auf das schlechte Ergebnis von gestern.",hint:"'auf' is for future anticipation. A past result cannot be anticipated."},
+
+  {type:"drag_fill",s:"Er {1} sich {2} den Stau, aber er {3} sich {4} das Wochenende.",blanks:{"1":"ärgert","2":"über","3":"freut","4":"auf"},pool:["ärgert","freut","langweilt","über","auf","um","von","für"],hint:"He is annoyed ABOUT the traffic but looks forward TO the weekend."},
+
+  {type:"mc",q:"'Wir fühlen uns hier wohl.' means:",opts:["We feel sick here.","We feel comfortable here.","We are bored here.","We are annoyed here."],ans:"We feel comfortable here.",hint:"sich wohlfühlen = to feel comfortable or at home."},
+]},
+
+// ═══ L4: Beim Arzt ═══
+{id:"deu15l4",title:"Beim Arzt",icon:"🩺",xp:20,board:true,steps:[
+  {type:"intro",title:"Beim Arzt",desc:"At the doctor you need to describe your symptoms clearly. Learn the core medical vocabulary: headache, fever, a cold, and how to say 'I have pain' and 'What is wrong with you?'",goals:["Kopfschmerzen, Fieber, Erkältung","Ich habe Schmerzen","Was fehlt Ihnen?","Describe symptoms at a doctor visit"]},
+
+  {type:"teach",kind:"word",nl:"die Erkältung",en:"the cold (illness)",phonetic:"dee er-KEL-toong",example:"A: Ich glaube, ich habe eine Erkältung.\nB: Oh nein! Seit wann?\nA: Seit gestern. Meine Nase läuft.\nB: Du solltest viel trinken.",exampleEn:"A: I think I have a cold.\nB: Oh no! Since when?\nA: Since yesterday. My nose is running.\nB: You should drink a lot.",note:"die Erkältung (feminine).\neine Erkältung haben = to have a cold."},
+
+  {type:"teach",kind:"word",nl:"das Fieber",en:"the fever",phonetic:"dahs FEE-ber",cognate:{words:[{lang:"English",word:"fever"}],family:"borrowed"},example:"A: Haben Sie Fieber?\nB: Ja, ich habe 38,5 Grad.\nA: Das ist Fieber. Bleiben Sie im Bett.\nB: Okay, danke Doktor.",exampleEn:"A: Do you have a fever?\nB: Yes, I have 38.5 degrees.\nA: That is a fever. Stay in bed.\nB: Okay, thank you Doctor.",note:"das Fieber (neuter). Fever starts at 38 degrees C.\nFieber messen = to take temperature."},
+
+  {type:"teach",kind:"word",nl:"die Kopfschmerzen",en:"the headache",phonetic:"dee KOPF-shmer-tsen",example:"A: Was fehlt Ihnen?\nB: Ich habe starke Kopfschmerzen.\nA: Seit wann?\nB: Seit heute Morgen.",exampleEn:"A: What is wrong with you?\nB: I have a bad headache.\nA: Since when?\nB: Since this morning.",note:"Kopf = head. Schmerzen = pains (always plural).\nKopfschmerzen haben = to have a headache."},
+
+  {type:"teach",kind:"word",nl:"die Bauchschmerzen",en:"the stomachache",phonetic:"dee BOWKH-shmer-tsen",example:"A: Haben Sie Bauchschmerzen?\nB: Ja, mein Bauch tut weh.\nA: Haben Sie etwas gegessen?\nB: Ja, vielleicht zu viel.",exampleEn:"A: Do you have a stomachache?\nB: Yes, my stomach hurts.\nA: Did you eat something?\nB: Yes, perhaps too much.",note:"Bauch = belly/stomach. Schmerzen = pains.\nAlways plural: die Bauchschmerzen.\nSame pattern: Halsschmerzen (throat), Rückenschmerzen (back)."},
+
+  {type:"teach",kind:"phrase",nl:"Ich habe Schmerzen",en:"I have pain",phonetic:"ikh HAH-beh SHMER-tsen",example:"A: Was fehlt Ihnen?\nB: Ich habe Schmerzen im Rücken.\nA: Seit wann haben Sie diese Schmerzen?\nB: Seit drei Tagen.",exampleEn:"A: What is wrong with you?\nB: I have pain in my back.\nA: Since when have you had this pain?\nB: For three days.",note:"Schmerzen = pains (plural noun).\nIch habe Schmerzen + im/in der + body part.\nSehr starke Schmerzen = very strong pain."},
+
+  {type:"teach",kind:"phrase",nl:"Was fehlt Ihnen?",en:"What is wrong with you? (formal)",phonetic:"vahs fehlt EE-nen",example:"A: Guten Morgen. Was fehlt Ihnen?\nB: Ich fühle mich nicht gut. Ich habe Fieber.\nA: Wie hoch ist das Fieber?\nB: 38 Grad.",exampleEn:"A: Good morning. What is wrong with you?\nB: I do not feel well. I have a fever.\nA: How high is the fever?\nB: 38 degrees.",note:"fehlen = to be missing/wrong. Ihnen = formal dative 'you'.\nInformal: Was fehlt dir?"},
+
+  {type:"teach",kind:"phrase",nl:"Wo tut es weh?",en:"Where does it hurt?",phonetic:"voh toot es vay",example:"A: Wo tut es weh?\nB: Hier, auf der rechten Seite.\nA: Tut es sehr weh?\nB: Ja, es tut sehr weh.",exampleEn:"A: Where does it hurt?\nB: Here, on the right side.\nA: Does it hurt a lot?\nB: Yes, it hurts a lot.",note:"wehtun = to hurt. es tut weh = it hurts.\nSeparable verb: weh is the prefix that goes to the end."},
+
+  {type:"tip",title:"Medical German: Key Patterns",text:"At the doctor you need three sentence patterns:\n\n1. Ich habe... + symptom\nIch habe Fieber. / Ich habe Kopfschmerzen.\n\n2. Mir tut... + body part + weh\nMir tut der Kopf weh. (My head hurts.)\n\n3. Ich fühle mich... + adjective\nIch fühle mich nicht gut. (I do not feel well.)",deepDive:{title:"Seit + dative: how long symptoms last",text:"Seit is a time preposition meaning 'since' or 'for'. It takes the DATIVE case.\n\nSeit + einem Tag = for a day\nSeit + einer Woche = for a week\nSeit + gestern = since yesterday\n\nIch habe seit zwei Tagen Kopfschmerzen.\n(I have had a headache for two days.)\n\nGerman uses PRESENT tense with seit where English uses the present perfect."}},
+
+  {type:"teach",kind:"phrase",nl:"Ich fühle mich nicht gut",en:"I do not feel well",phonetic:"ikh FÜH-le mikh nikht goot",example:"A: Wie geht es Ihnen?\nB: Ich fühle mich nicht gut.\nA: Was fehlt Ihnen?\nB: Ich habe Halsschmerzen und Fieber.",exampleEn:"A: How are you?\nB: I do not feel well.\nA: What is wrong with you?\nB: I have a sore throat and fever.",note:"sich fühlen = reflexive verb (accusative mich).\nIch fühle mich gut/schlecht/krank = I feel well/bad/sick."},
+
+  {type:"mc",q:"'Was fehlt Ihnen?' means:",opts:["How are you?","Where does it hurt?","What is wrong with you?","What do you need?"],ans:"What is wrong with you?",hint:"fehlen = to be missing/wrong. Ihnen = formal you."},
+
+  {type:"mc",q:"'Ich habe Kopfschmerzen.' What type of pain is this?",opts:["Stomachache","Back pain","Headache","Sore throat"],ans:"Headache",hint:"Kopf = head."},
+
+  {type:"fb",s:"Wo ___ es weh?",a:"tut",opts:["tut","macht","hat","ist"],hint:"Wehtun = to hurt. The form for 'es' in present tense."},
+
+  {type:"mc",q:"German fever starts at:",opts:["37 degrees C","37.5 degrees C","38 degrees C","39 degrees C"],ans:"38 degrees C",hint:"Standard German medical definition of Fieber."},
+
+  {type:"match",pairs:[{nl:"die Erkältung",en:"the cold (illness)"},{nl:"das Fieber",en:"the fever"},{nl:"die Kopfschmerzen",en:"the headache"},{nl:"die Bauchschmerzen",en:"the stomachache"}]},
+
+  {type:"mc",q:"'Ich fühle mich nicht gut.' uses which reflexive pronoun?",opts:["dich","mich","sich","uns"],ans:"mich",hint:"Subject is ich. The accusative reflexive for ich is..."},
+
+  {type:"fb",s:"Ich habe ___ im Bauch.",a:"Schmerzen",opts:["Schmerzen","Fieber","Erkältung","Husten"],hint:"The word for pain/pains in general."},
+
+  {type:"mc",q:"'Mir tut der Kopf weh.' means:",opts:["My head is fine.","My head hurts.","I have a fever.","My head is heavy."],ans:"My head hurts.",hint:"wehtun = to hurt. Mir = dative 'to me'. der Kopf = the head."},
+
+  {type:"mc",q:"'Seit zwei Tagen' means:",opts:["After two days","In two days","For two days","Two days ago"],ans:"For two days",hint:"Seit = since/for. It describes duration up to NOW."},
+]},
+
+// ═══ L5: Körperteile ═══
+{id:"deu15l5",title:"Körperteile",icon:"🦵",xp:20,board:true,steps:[
+  {type:"intro",title:"Körperteile",desc:"To describe symptoms and talk about health you need the body parts. Learn the key body parts with their articles: der Kopf, der Arm, das Bein, der Rücken, der Bauch, die Hand, and der Fuß.",goals:["8 core body parts with correct articles","Locate pain using body part + wehtun","Use body vocabulary in medical and daily contexts"]},
+
+  {type:"teach",kind:"word",nl:"der Kopf",en:"the head",phonetic:"dair KOPF",example:"A: Mir tut der Kopf weh.\nB: Hast du Kopfschmerzen?\nA: Ja, sehr starke.\nB: Du solltest eine Tablette nehmen.",exampleEn:"A: My head hurts.\nB: Do you have a headache?\nA: Yes, very bad ones.\nB: You should take a tablet.",note:"der Kopf (masculine). Plural: die Köpfe.\nKopfschmerzen = headache (compound)."},
+
+  {type:"teach",kind:"word",nl:"der Arm",en:"the arm",phonetic:"dair ARM",cognate:{words:[{lang:"English",word:"arm"},{lang:"Dutch",word:"arm"}],family:"germanic"},example:"A: Was ist mit deinem Arm?\nB: Mir tut der Arm weh. Ich habe ihn verletzt.\nA: Zeig mal! Geht das?\nB: Es geht so.",exampleEn:"A: What is wrong with your arm?\nB: My arm hurts. I injured it.\nA: Show me! Can you move it?\nB: It is okay.",note:"der Arm (masculine). Plural: die Arme.\nder Unterarm = forearm. der Oberarm = upper arm."},
+
+  {type:"teach",kind:"word",nl:"das Bein",en:"the leg",phonetic:"dahs BAIN",example:"A: Tut dir das Bein weh?\nB: Ja, ich bin gestürzt.\nA: Kannst du laufen?\nB: Nur ein bisschen.",exampleEn:"A: Does your leg hurt?\nB: Yes, I fell.\nA: Can you walk?\nB: Only a little.",note:"das Bein (neuter). Plural: die Beine.\ndas Knie = the knee. der Knöchel = the ankle."},
+
+  {type:"teach",kind:"word",nl:"der Rücken",en:"the back",phonetic:"dair RÜ-ken",example:"A: Mein Rücken tut weh.\nB: Ich habe auch Rückenschmerzen.\nA: Was machst du dagegen?\nB: Ich mache Yoga.",exampleEn:"A: My back hurts.\nB: I also have back pain.\nA: What do you do about it?\nB: I do yoga.",note:"der Rücken (masculine). Plural: die Rücken.\nRückenschmerzen = back pain."},
+
+  {type:"teach",kind:"word",nl:"der Bauch",en:"the stomach / belly",phonetic:"dair BOWKH",example:"A: Was fehlt dir?\nB: Mein Bauch tut weh.\nA: Hast du etwas Schlechtes gegessen?\nB: Vielleicht. Ich fühle mich nicht gut.",exampleEn:"A: What is wrong with you?\nB: My stomach hurts.\nA: Did you eat something bad?\nB: Perhaps. I do not feel well.",note:"der Bauch (masculine). Plural: die Bäuche.\nBauchschmerzen = stomachache."},
+
+  {type:"teach",kind:"word",nl:"die Hand",en:"the hand",phonetic:"dee HANT",cognate:{words:[{lang:"English",word:"hand"},{lang:"Dutch",word:"hand"}],family:"germanic"},example:"A: Mir tut die Hand weh.\nB: Welche Hand? Die linke oder die rechte?\nA: Die rechte.\nB: Zeig mir mal.",exampleEn:"A: My hand hurts.\nB: Which hand? The left or the right?\nA: The right one.\nB: Show me.",note:"die Hand (feminine). Plural: die Hände.\nder Finger = finger. der Daumen = thumb."},
+
+  {type:"teach",kind:"word",nl:"der Fuß",en:"the foot",phonetic:"dair FOOS",cognate:{words:[{lang:"English",word:"foot"},{lang:"Dutch",word:"voet"}],family:"germanic"},example:"A: Warum hinkst du?\nB: Mir tut der Fuß weh.\nA: Seit wann?\nB: Seit gestern beim Sport.",exampleEn:"A: Why are you limping?\nB: My foot hurts.\nA: Since when?\nB: Since yesterday during sport.",note:"der Fuß (masculine). Plural: die Füße.\ndie Zehe = toe. der Knöchel = ankle."},
+
+  {type:"teach",kind:"word",nl:"der Hals",en:"the throat / neck",phonetic:"dair HALS",example:"A: Ich habe Halsschmerzen.\nB: Tut dir der Hals weh?\nA: Ja, sehr. Ich kann kaum schlucken.\nB: Du solltest zum Arzt gehen.",exampleEn:"A: I have a sore throat.\nB: Does your throat hurt?\nA: Yes, very much. I can barely swallow.\nB: You should go to the doctor.",note:"der Hals (masculine). Means both throat and neck.\nHalsschmerzen = sore throat."},
+
+  {type:"tip",title:"'Mir tut X weh' vs 'Ich habe X-schmerzen'",text:"Two ways to say something hurts:\n\n1. Mir tut + body part (nominative) + weh\nMir tut der Kopf weh. (My head hurts.)\nMir tut die Hand weh. (My hand hurts.)\n\n2. Ich habe + compound -schmerzen word\nIch habe Kopfschmerzen. (I have a headache.)\nIch habe Rückenschmerzen. (I have back pain.)\n\nBoth are correct. -schmerzen compounds always use plural.",deepDive:{title:"Left and right with body parts",text:"German uses links (left) and rechts (right) as adverbs, or linke/rechte as adjectives:\n\ndie linke Hand (the left hand)\nder rechte Arm (the right arm)\ndas linke Bein (the left leg)\n\nNote: linke and rechte take adjective endings."}},
+
+  {type:"mc",q:"Which article is CORRECT for 'Bein'?",opts:["der Bein","die Bein","das Bein","einen Bein"],ans:"das Bein",hint:"Bein is a neuter noun."},
+
+  {type:"mc",q:"'Mir tut der Rücken weh.' means:",opts:["My back is fine.","My back hurts.","My back is stiff.","I have a fever."],ans:"My back hurts.",hint:"Wehtun = to hurt. der Rücken = the back."},
+
+  {type:"fb",s:"Ich habe ___ im Hals.",a:"Halsschmerzen",opts:["Halsschmerzen","Kopfschmerzen","Bauchschmerzen","Rückenschmerzen"],hint:"Hals = throat. Which -schmerzen compound?"},
+
+  {type:"match",pairs:[{nl:"der Kopf",en:"the head"},{nl:"der Rücken",en:"the back"},{nl:"die Hand",en:"the hand"},{nl:"der Fuß",en:"the foot"}]},
+
+  {type:"mc",q:"'Ich habe Bauchschmerzen.' The compound Bauchschmerzen is used in:",opts:["singular","plural","can be either","only with tun"],ans:"plural",hint:"-schmerzen compounds are always in plural form."},
+
+  {type:"mc",q:"Which sentence correctly says 'My leg hurts'?",opts:["Mir tut das Bein weh.","Mir tut der Bein weh.","Mir tut die Bein weh.","Das Bein tut mich weh."],ans:"Mir tut das Bein weh.",hint:"das Bein is neuter. In wehtun constructions, use the nominative article."},
+
+  {type:"fb",s:"___ tut mir der Arm weh. Ich kann ihn nicht heben.",a:"Seit gestern",opts:["Seit gestern","Vor morgen","Bis heute","In drei Tagen"],hint:"Since yesterday. Which German time phrase?"},
+
+  {type:"match",pairs:[{nl:"der Arm",en:"the arm"},{nl:"das Bein",en:"the leg"},{nl:"der Bauch",en:"the stomach"},{nl:"der Hals",en:"the throat/neck"}]},
+
+  {type:"mc",q:"'Halsschmerzen' tells us which body part hurts:",opts:["Head","Stomach","Throat/neck","Back"],ans:"Throat/neck",hint:"Hals = throat/neck."},
+]},
+
+// ═══ L6: sich fühlen ═══
+{id:"deu15l6",title:"sich fühlen",icon:"💊",xp:20,board:true,steps:[
+  {type:"intro",title:"sich fühlen",desc:"You know the doctor vocabulary and body parts. Now learn to describe exactly how you feel: tired, sick, healthy, fit, and worn out. sich fühlen with adjectives is the most flexible tool for expressing your state.",goals:["sich fühlen + müde, krank, gesund, fit, schlapp","Dative reflexive: mir with body ownership","Contrast accusative mich with dative mir"]},
+
+  {type:"teach",kind:"phrase",nl:"sich fühlen",en:"to feel (a state)",phonetic:"zikh FÜH-len",example:"A: Wie fühlst du dich heute?\nB: Ich fühle mich nicht so gut.\nA: Was ist los?\nB: Ich fühle mich müde und schlapp.",exampleEn:"A: How do you feel today?\nB: I do not feel so well.\nA: What is wrong?\nB: I feel tired and worn out.",note:"sich fühlen takes accusative reflexive.\nIch fühle mich + adjective = the standard health formula."},
+
+  {type:"teach",kind:"word",nl:"müde",en:"tired",phonetic:"MÜ-de",cognate:{words:[{lang:"Dutch",word:"moe"}],family:"germanic"},example:"A: Du siehst müde aus.\nB: Ja, ich fühle mich sehr müde.\nA: Hast du schlecht geschlafen?\nB: Ja, nur vier Stunden.",exampleEn:"A: You look tired.\nB: Yes, I feel very tired.\nA: Did you sleep badly?\nB: Yes, only four hours.",note:"Predicate adjective: no ending after fühlen.\nmüde = tired. todmüde = dead tired."},
+
+  {type:"teach",kind:"word",nl:"krank",en:"sick / ill",phonetic:"KRANK",example:"A: Ich bin krank.\nB: Was fehlt dir?\nA: Ich fühle mich krank. Ich habe Fieber.\nB: Du solltest im Bett bleiben.",exampleEn:"A: I am sick.\nB: What is wrong?\nA: I feel ill. I have a fever.\nB: You should stay in bed.",note:"krank = sick. Ich bin krank = I am sick (state).\nIch fühle mich krank = I feel sick."},
+
+  {type:"teach",kind:"word",nl:"gesund",en:"healthy / well",phonetic:"ge-ZOONT",example:"A: Bist du wieder gesund?\nB: Ja! Ich fühle mich wieder gesund.\nA: Super! Wie lange warst du krank?\nB: Nur drei Tage.",exampleEn:"A: Are you healthy again?\nB: Yes! I feel healthy again.\nA: Great! How long were you sick?\nB: Only three days.",note:"gesund = healthy/well. Opposite: krank.\ngesund werden = to get well."},
+
+  {type:"teach",kind:"word",nl:"fit",en:"fit / in good shape",phonetic:"FIT",cognate:{words:[{lang:"English",word:"fit"}],family:"borrowed"},example:"A: Du siehst fit aus!\nB: Danke! Ich fühle mich sehr fit.\nA: Was machst du?\nB: Ich gehe jeden Tag joggen.",exampleEn:"A: You look fit!\nB: Thanks! I feel very fit.\nA: What do you do?\nB: I go jogging every day.",note:"Borrowed from English. Informal.\nfit sein = to be in good shape."},
+
+  {type:"teach",kind:"word",nl:"schlapp",en:"worn out / listless",phonetic:"SHLAP",example:"A: Wie geht's?\nB: Ach, ich fühle mich so schlapp.\nA: Hast du genug geschlafen?\nB: Nein, das ist das Problem.",exampleEn:"A: How are you?\nB: Oh, I feel so worn out.\nA: Did you sleep enough?\nB: No, that is the problem.",note:"Typically after illness, overwork, or poor sleep.\nLess severe than krank."},
+
+  {type:"tip",title:"Accusative vs Dative Reflexive",text:"ACCUSATIVE reflexive (most common):\nIch fühle mich gut. (I feel well.)\nIch wasche mich. (I wash myself.)\n\nDATIVE reflexive (with a direct object):\nIch wasche mir die Hände. (I wash my hands.)\nIch putze mir die Zähne. (I brush my teeth.)\n\nRule: if the verb ALREADY has a direct object (die Hände, die Zähne), the reflexive switches to DATIVE: mir instead of mich.",deepDive:{title:"Dative reflexive pronoun table",text:"The dative reflexive pronouns:\n\nich: mir (instead of mich)\ndu: dir (instead of dich)\ner/sie/es: sich (same)\nwir: uns (same)\nihr: euch (same)\nsie/Sie: sich (same)\n\nOnly ich and du change: mich to mir, dich to dir."}},
+
+  {type:"teach",kind:"phrase",nl:"Ich putze mir die Zähne",en:"I brush my teeth",phonetic:"ikh PUT-se meer dee TSAY-ne",example:"A: Wann putzt du dir die Zähne?\nB: Morgens und abends.\nA: Ich putze mir auch zweimal die Zähne.\nB: Das ist wichtig!",exampleEn:"A: When do you brush your teeth?\nB: Morning and evening.\nA: I also brush my teeth twice a day.\nB: That is important!",note:"Dative reflexive: mir (not mich) because die Zähne is the direct object.\ndie Zähne = teeth (plural). der Zahn = tooth."},
+
+  {type:"teach",kind:"phrase",nl:"Ich wasche mir die Hände",en:"I wash my hands",phonetic:"ikh VAH-she meer dee HEN-de",example:"A: Hast du dir die Hände gewaschen?\nB: Ja, ich habe mir die Hände gewaschen.\nA: Gut. Komm zum Essen.\nB: Gleich!",exampleEn:"A: Have you washed your hands?\nB: Yes, I washed my hands.\nA: Good. Come to eat.\nB: Coming!",note:"Dative reflexive: mir because die Hände is the direct object.\ndie Hände = hands (plural of die Hand)."},
+
+  {type:"mc",q:"'Ich fühle ___ gut.' (I feel well.)",opts:["mir","dich","mich","sich"],ans:"mich",hint:"sich fühlen takes accusative reflexive. Subject = ich."},
+
+  {type:"mc",q:"'Er fühlt ___ krank.' (He feels sick.)",opts:["ihm","mich","dich","sich"],ans:"sich",hint:"Third person singular reflexive pronoun."},
+
+  {type:"fb",s:"Wie ___ du dich heute?",a:"fühlst",opts:["fühlst","fühlen","fühlt","gefühlt"],hint:"Second person singular present tense of sich fühlen."},
+
+  {type:"mc",q:"'Ich wasche mir die Hände.' Why is it 'mir' and not 'mich'?",opts:["Mir is always used with waschen","Die Hände is the direct object, so the reflexive is dative","Mir and mich are interchangeable here","Ich is in the dative case here"],ans:"Die Hände is the direct object, so the reflexive is dative",hint:"When the verb has its own direct object, the reflexive switches to dative."},
+
+  {type:"match",pairs:[{nl:"müde",en:"tired"},{nl:"krank",en:"sick"},{nl:"gesund",en:"healthy"},{nl:"schlapp",en:"worn out"}]},
+
+  {type:"mc",q:"Which sentence uses the DATIVE reflexive correctly?",opts:["Ich fühle mir gut.","Ich putze mir die Zähne.","Ich wasche mich die Hände.","Ich fühle mich die Zähne."],ans:"Ich putze mir die Zähne.",hint:"Dative reflexive is used when there is already a direct object in the sentence."},
+
+  {type:"fb",s:"Ich ___ mich nach dem Urlaub wieder fit.",a:"fühle",opts:["fühle","bin","werde","mache"],hint:"sich fühlen + adjective. Fill in the conjugated reflexive verb."},
+
+  {type:"mc",q:"'Ich wasche mir die Hände' vs 'Ich wasche mich': the key difference is:",opts:["No difference, both are correct","Mir = washing a specific body part, mich = washing the whole body","Mich is wrong after waschen","Mir is always used with body parts"],ans:"Mir = washing a specific body part, mich = washing the whole body",hint:"When a body part is named as direct object, use dative mir."},
+
+  {type:"drag_fill",s:"Ich {1} mich nicht gut. Ich {2} mich krank und {3}.",blanks:{"1":"fühle","2":"fühle","3":"schlapp"},pool:["fühle","fühlt","fühlst","krank","schlapp","müde","gesund","fit"],hint:"I feel unwell. I feel sick and worn out."},
+]},
+
+// ═══ L7: Ratschläge ═══
+{id:"deu15l7",title:"Ratschläge",icon:"💡",xp:20,board:true,steps:[
+  {type:"intro",title:"Ratschläge",desc:"Giving health advice in German requires modal verbs and key adverbs. Learn to say 'You should sleep more', 'You must rest', and 'You should exercise regularly'. Combine Sie sollten and Man muss for polished advice.",goals:["Sie sollten + infinitive (polite formal advice)","Man muss + infinitive (general necessity)","regelmäßig, genug schlafen, sich bewegen","Give and understand health advice"]},
+
+  {type:"teach",kind:"phrase",nl:"Sie sollten",en:"you should (formal advice)",phonetic:"zee ZOL-ten",example:"A: Was soll ich tun?\nB: Sie sollten viel trinken.\nA: Und noch etwas?\nB: Sie sollten im Bett bleiben.",exampleEn:"A: What should I do?\nB: You should drink a lot.\nA: And something else?\nB: You should stay in bed.",note:"Konjunktiv II of sollen. Polite advice in formal contexts.\nSie sollten + infinitive at the END of the sentence."},
+
+  {type:"teach",kind:"phrase",nl:"Man muss",en:"one must / you have to (general)",phonetic:"man MOOS",example:"A: Was muss man gegen Erkältung tun?\nB: Man muss viel ruhen.\nA: Und man muss genug schlafen.\nB: Ja, das ist wichtig.",exampleEn:"A: What must one do for a cold?\nB: One must rest a lot.\nA: And one must sleep enough.\nB: Yes, that is important.",note:"Man = one/you (general, impersonal).\nmuss = must (from müssen). Man muss gives universal advice."},
+
+  {type:"teach",kind:"word",nl:"regelmäßig",en:"regularly",phonetic:"RAY-gel-may-sig",example:"A: Du solltest regelmäßig Sport machen.\nB: Ja, ich weiß. Ich mache nicht regelmäßig Sport.\nA: Man muss regelmäßig schlafen.\nB: Das stimmt.",exampleEn:"A: You should exercise regularly.\nB: Yes, I know. I do not exercise regularly.\nA: One must sleep regularly.\nB: That is true.",note:"Adverb. regelmäßig = at regular intervals.\nUnregelmäßig = irregular. Regel = rule."},
+
+  {type:"teach",kind:"phrase",nl:"genug schlafen",en:"to sleep enough",phonetic:"ge-NOOK SHLAH-fen",example:"A: Ich fühle mich immer müde.\nB: Schläfst du genug?\nA: Nein, ich schlafe nicht genug.\nB: Man muss genug schlafen!",exampleEn:"A: I always feel tired.\nB: Do you sleep enough?\nA: No, I do not sleep enough.\nB: One must sleep enough!",note:"genug = enough. Follows the verb or the adjective.\nzu wenig schlafen = to sleep too little."},
+
+  {type:"teach",kind:"phrase",nl:"sich bewegen",en:"to exercise / to move",phonetic:"zikh be-VAY-gen",example:"A: Was empfehlen Sie?\nB: Sie sollten sich mehr bewegen.\nA: Wie viel?\nB: Dreißig Minuten am Tag.",exampleEn:"A: What do you recommend?\nB: You should exercise more.\nA: How much?\nB: Thirty minutes a day.",note:"sich bewegen = reflexive verb.\nbewegen = to move. sich bewegen = to exercise."},
+
+  {type:"teach",kind:"phrase",nl:"sich ausruhen",en:"to rest",phonetic:"zikh OWS-roo-en",example:"A: Wie lange bin ich krank?\nB: Sie sollten sich ausruhen.\nA: Wie lange soll ich mich ausruhen?\nB: Mindestens drei Tage.",exampleEn:"A: How long will I be sick?\nB: You should rest.\nA: How long should I rest?\nB: At least three days.",note:"Separable reflexive: ich ruhe mich aus.\ndie Ruhe = quiet/rest."},
+
+  {type:"teach",kind:"phrase",nl:"viel trinken",en:"to drink a lot",phonetic:"feel TRINK-en",example:"A: Was soll ich gegen Erkältung tun?\nB: Sie sollten viel trinken.\nA: Was am besten?\nB: Wasser oder Kräutertee.",exampleEn:"A: What should I do for a cold?\nB: You should drink a lot.\nA: What is best?\nB: Water or herbal tea.",note:"viel = a lot. Standard advice for illness.\nheißer Tee (hot tea), Hühnersuppe (chicken soup)."},
+
+  {type:"tip",title:"sollten vs müssen for Advice",text:"Two strengths of advice:\n\nSie sollten... = You should... (recommendation, polite)\nSie sollten mehr schlafen. (You should sleep more.)\n\nSie müssen... = You must... (stronger necessity)\nSie müssen sofort zum Arzt. (You must go to the doctor now.)\n\nMan muss... = One must... (general universal rule)\nMan muss viel Wasser trinken. (One must drink a lot of water.)",deepDive:{title:"Du solltest vs Sie sollten",text:"For informal advice (friends, family):\nDu solltest mehr schlafen.\nDu musst zum Arzt gehen.\n\nFor formal advice (doctor to patient):\nSie sollten sich ausruhen.\nSie müssen die Tabletten nehmen.\n\nThe verb form changes: du solltest / Sie sollten. The infinitive at the end stays the same."}},
+
+  {type:"teach",kind:"phrase",nl:"Du solltest",en:"you should (informal advice)",phonetic:"doo ZOL-test",example:"A: Du siehst krank aus.\nB: Ja, ich fühle mich nicht gut.\nA: Du solltest zum Arzt gehen.\nB: Du hast recht.",exampleEn:"A: You look sick.\nB: Yes, I do not feel well.\nA: You should go to the doctor.\nB: You are right.",note:"Du solltest = informal version of Sie sollten.\nUse with friends and family."},
+
+  {type:"mc",q:"'Sie sollten mehr Wasser trinken.' The infinitive (trinken) goes:",opts:["After Sie","After sollten immediately","At the end of the sentence","Before sollten"],ans:"At the end of the sentence",hint:"Modal verb rule: conjugated modal at position 2, infinitive at the END."},
+
+  {type:"mc",q:"'Man muss viel ruhen.' Man refers to:",opts:["A specific man","The doctor only","People in general","The patient only"],ans:"People in general",hint:"Man is the impersonal pronoun: 'one', 'you', 'people'."},
+
+  {type:"fb",s:"Sie ___ sich ausruhen.",a:"sollten",opts:["sollten","müssen","können","wollen"],hint:"Polite formal advice. Konjunktiv II of sollen."},
+
+  {type:"mc",q:"Which advice is the STRONGEST (obligation)?",opts:["Sie sollten mehr schlafen.","Man sollte gesund essen.","Sie müssen sofort ins Krankenhaus.","Du könntest spazieren gehen."],ans:"Sie müssen sofort ins Krankenhaus.",hint:"müssen = must. The strongest modal advice form."},
+
+  {type:"match",pairs:[{nl:"regelmäßig",en:"regularly"},{nl:"genug schlafen",en:"to sleep enough"},{nl:"sich bewegen",en:"to exercise"},{nl:"sich ausruhen",en:"to rest"}]},
+
+  {type:"fb",s:"Man ___ regelmäßig Sport machen.",a:"muss",opts:["muss","soll","kann","will"],hint:"General necessity: Man + which modal verb?"},
+
+  {type:"mc",q:"'Du solltest mehr schlafen.' This advice is for:",opts:["A stranger (formal)","A friend or family member (informal)","The speaker themselves","A group of people"],ans:"A friend or family member (informal)",hint:"Du is informal. Sie is formal."},
+
+  {type:"mc",q:"'Sie sollten sich ausruhen.' Where does sich go?",opts:["Before sollten","After sollten directly","At the end of the sentence","Before Sie"],ans:"After sollten directly",hint:"Modal + reflexive: sollten sich. Then other elements. Infinitive at end."},
+
+  {type:"drag_fill",s:"Sie {1} sich {2} und {3} genug {4}.",blanks:{"1":"sollten","2":"ausruhen","3":"schlafen","4":"genug"},pool:["sollten","müssen","ausruhen","bewegen","schlafen","trinken","genug","regelmäßig"],hint:"You should rest and sleep enough."},
+
+  {type:"mc",q:"Which is a COMPLETE health advice sentence?",opts:["Man regelmäßig Wasser.","Sie sollten viel Wasser trinken.","Wasser trinken sollten.","Viel Sie Wasser."],ans:"Sie sollten viel Wasser trinken.",hint:"Modal verb at position 2, infinitive at the end, subject at position 1."},
+]},
+
+// ═══ L8: Gesundheit Review ═══
+{id:"deu15l8",title:"Gesundheit Review",icon:"🌟",xp:25,board:true,steps:[
+  {type:"intro",title:"Gesundheit Review",desc:"Unit 15 complete! This review brings together all four topics: reflexive pronouns and verbs, daily routine reflexives, health and body vocabulary, and giving advice with sollten and müssen.",goals:["All six reflexive pronouns (accusative) and dative mir/dir","Daily reflexive verbs: sich duschen, sich anziehen, sich kämmen","Health: Erkältung, Fieber, Kopfschmerzen, body parts","Advice: Sie sollten + infinitive, Man muss + infinitive"]},
+
+  {type:"tip",title:"Unit 15 Summary",text:"Reflexive pronouns (accusative):\nmich, dich, sich, uns, euch, sich\n\nDative reflexive (with direct object): mir, dir, sich, uns, euch, sich\n\nDaily reflexive verbs:\nsich duschen, sich anziehen, sich kämmen, sich rasieren, sich schminken\n\nHealth vocab:\ndie Erkältung, das Fieber, die Kopfschmerzen, der Rücken, der Bauch, die Hand\n\nEmotional reflexives:\nsich freuen auf/über, sich ärgern über, sich langweilen\n\nAdvice:\nSie sollten + infinitive (polite)\nMan muss + infinitive (general)",deepDive:{title:"The dative reflexive in review",text:"The key to dative reflexive:\n\nAm I washing or brushing a specific body part?\nYES: use dative (mir, dir, sich)\nIch wasche mir die Hände.\nIch putze mir die Zähne.\n\nAm I just doing the action to myself generally?\nYES: use accusative (mich, dich, sich)\nIch wasche mich.\nIch fühle mich gut."}},
+
+  {type:"mc",q:"'Du wäschst ___.' (You wash yourself.)",opts:["mich","sich","dich","euch"],ans:"dich",hint:"Subject is du. Accusative reflexive for du."},
+
+  {type:"mc",q:"'Wir treffen ___.' (We meet each other.)",opts:["mich","dich","sich","uns"],ans:"uns",hint:"Subject is wir. Reflexive for wir."},
+
+  {type:"fb",s:"Ich ziehe mich ___, bevor ich frühstücke.",a:"an",opts:["an","aus","um","auf"],hint:"Separable verb anziehen: prefix goes to the end."},
+
+  {type:"mc",q:"'Ich freue mich ___ das Konzert nächste Woche.' (looking forward to)",opts:["über","von","auf","für"],ans:"auf",hint:"Future anticipation: sich freuen auf."},
+
+  {type:"mc",q:"'Er ärgert sich ___ den Stau.' (He is annoyed about the traffic.)",opts:["auf","mit","über","an"],ans:"über",hint:"sich ärgern über = to be annoyed about."},
+
+  {type:"match",pairs:[{nl:"sich duschen",en:"to shower"},{nl:"sich schminken",en:"to put on makeup"},{nl:"sich rasieren",en:"to shave"},{nl:"sich ausziehen",en:"to undress"}]},
+
+  {type:"mc",q:"'Was fehlt Ihnen?' is asking:",opts:["Where do you come from?","What is wrong with you?","What do you need to buy?","How do you feel generally?"],ans:"What is wrong with you?",hint:"fehlen = to be missing/wrong. A doctor's opening question."},
+
+  {type:"fb",s:"Ich habe ___. Mein Hals tut weh.",a:"Halsschmerzen",opts:["Halsschmerzen","Kopfschmerzen","Fieber","Erkältung"],hint:"Hals = throat. Which compound pain noun?"},
+
+  {type:"mc",q:"'Mir tut der Rücken weh.' Which body part hurts?",opts:["Head","Leg","Back","Stomach"],ans:"Back",hint:"der Rücken = the back."},
+
+  {type:"mc",q:"'Ich wasche mir die Hände.' Why is it 'mir' and not 'mich'?",opts:["Random exception","Die Hände is the direct object, so the reflexive is dative","Mir is always used with waschen","Ich changes to mir in formal sentences"],ans:"Die Hände is the direct object, so the reflexive is dative",hint:"Two objects: dative reflexive mir + accusative direct object die Hände."},
+
+  {type:"match",pairs:[{nl:"müde",en:"tired"},{nl:"gesund",en:"healthy"},{nl:"krank",en:"sick"},{nl:"schlapp",en:"worn out"}]},
+
+  {type:"mc",q:"'Sie sollten sich ausruhen.' The correct word order is:",opts:["sollten - sich - ausruhen (verb at end)","sich - sollten - ausruhen","ausruhen - sollten - sich","sollten - ausruhen - sich"],ans:"sollten - sich - ausruhen (verb at end)",hint:"Modal at position 2, reflexive after modal, infinitive at end."},
+
+  {type:"fb",s:"Man ___ regelmäßig Sport machen.",a:"muss",opts:["muss","soll","sollte","kann"],hint:"General universal necessity: Man + which modal?"},
+
+  {type:"mc",q:"'Du solltest mehr schlafen.' This uses which register?",opts:["Formal, for strangers","Informal, for friends and family","Formal written German only","Medical professional language only"],ans:"Informal, for friends and family",hint:"du = informal pronoun. Sie = formal."},
+
+  {type:"drag_fill",s:"Ich {1} mich nicht gut. Mir {2} der Kopf {3}. Ich {4} mich schon seit gestern schlapp.",blanks:{"1":"fühle","2":"tut","3":"weh","4":"fühle"},pool:["fühle","fühlt","fühlst","tut","macht","weh","gut","schlapp","krank"],hint:"I feel unwell. My head hurts. I have felt worn out since yesterday."},
+
+  {type:"mc",q:"Which sentence uses sich freuen CORRECTLY?",opts:["Ich freue mich auf das gestrige Konzert.","Ich freue mich über das tolle Geschenk.","Ich freue mich auf die schlechten Noten.","Ich freue mich über die Ferien nächsten Monat."],ans:"Ich freue mich über das tolle Geschenk.",hint:"über = happy about something already received. auf = looking forward to the future."},
+
+  {type:"mc",q:"'Ich putze mir die Zähne.' The reflexive pronoun mir is:",opts:["Accusative","Dative","Nominative","Genitive"],ans:"Dative",hint:"When there is a direct object (die Zähne), the reflexive switches to dative."},
+]},
+
 ]},
 {n:16,lang:"de",track:"v1",title:"Was wirst du machen?",sub:"Future & Konjunktiv II",icon:"🔮",level:"A2.2",color:"#7B5EE8",lessons:[
 {id:"deu16l1",title:"Werden: Das Zukunftsverb",icon:"🔮",xp:20,board:true,steps:[
