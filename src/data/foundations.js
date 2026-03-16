@@ -257,44 +257,254 @@ export const FOUNDATIONS_BY_LANG = {
   de:{
     name:"German Foundations",icon:"🇩🇪",
     sections:[
-      {id:"de_alphabet",title:"The German Alphabet",icon:"🔡",desc:"26 letters + Umlauts + Eszett",
+      // ══════════════════════════════════════════════════════════════
+      // GERMAN FOUNDATIONS KNOWLEDGE — Reference Library
+      // Manifesto Principle 12: grid-first, no meta, no tips,
+      // organized by lookup topic, consistent color = meaning.
+      // Color key: consonants=#2ECDAB, tricky sounds=#F5A623,
+      //            vowels=#E85D75, special=#4A8FE7, grammar=#7B5EE8
+      // ══════════════════════════════════════════════════════════════
+
+      // ─────────── 1. THE ALPHABET & SPECIAL CHARACTERS ───────────
+      {id:"de_alphabet",title:"The Alphabet & Special Characters",icon:"🔤",desc:"26 letters same as English + Ä, Ö, Ü, ß",
         items:[
-          {fk:"fk_alphabet_overview",title:"German letter grid",desc:"German uses A-Z plus 4 special characters: Ä, Ö, Ü, ß. The sounds differ from English — tap any letter!",
-            examples:[],
+          {fk:"fk_alphabet_overview",title:"The German alphabet",audio_id:null,
+            desc:"All 26 letters plus 4 special characters. The core alphabet is identical to English. The sounds are what differ.",
             grid:{cols:7,headers:["","","","","","",""],rows:[
-              {label:"Vowels",color:"#E85D75",cells:[{ch:"A",rom:"/aː/"},{ch:"E",rom:"/eː/"},{ch:"I",rom:"/iː/"},{ch:"O",rom:"/oː/"},{ch:"U",rom:"/uː/"},{ch:"",rom:""},{ch:"",rom:""}]},
-              {label:"Umlaut",color:"var(--purple-accent-text)",cells:[{ch:"Ä",rom:"/ɛ/"},{ch:"Ö",rom:"/ø/"},{ch:"Ü",rom:"/y/"},{ch:"ß",rom:"/s/"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""}]},
-              {label:"Tricky",color:"#F5A623",cells:[{ch:"W",rom:"/v/"},{ch:"V",rom:"/f/"},{ch:"J",rom:"/j/"},{ch:"Z",rom:"/ts/"},{ch:"S",rom:"/z/"},{ch:"R",rom:"/ʁ/"},{ch:"CH",rom:"/ç,x/"}]},
-              {label:"Same",color:"#2ECDAB",cells:[{ch:"B",rom:"/b/"},{ch:"D",rom:"/d/"},{ch:"F",rom:"/f/"},{ch:"G",rom:"/g/"},{ch:"H",rom:"/h/"},{ch:"K",rom:"/k/"},{ch:"L",rom:"/l/"}]},
-              {label:"More",color:"#4A8FE7",cells:[{ch:"M",rom:"/m/"},{ch:"N",rom:"/n/"},{ch:"P",rom:"/p/"},{ch:"T",rom:"/t/"},{ch:"C",rom:"/k,ts/"},{ch:"Q",rom:"/kv/"},{ch:"X",rom:"/ks/"}]},
+              {label:"Vowels",color:"#E85D75",cells:[{ch:"A",rom:"ah"},{ch:"E",rom:"ay"},{ch:"I",rom:"ee"},{ch:"O",rom:"oh"},{ch:"U",rom:"oo"},{ch:"",rom:""},{ch:"",rom:""}]},
+              {label:"Special",color:"#4A8FE7",cells:[{ch:"Ä",rom:"eh (like bed)"},{ch:"Ö",rom:"ur (rounded)"},{ch:"Ü",rom:"ee (rounded)"},{ch:"ß",rom:"sharp ss"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""}]},
+              {label:"Tricky",color:"#F5A623",cells:[{ch:"W",rom:"sounds like V"},{ch:"V",rom:"sounds like F"},{ch:"J",rom:"sounds like Y"},{ch:"Z",rom:"sounds like TS"},{ch:"S",rom:"often Z-sound"},{ch:"R",rom:"uvular/rolled"},{ch:"",rom:""}]},
+              {label:"Soft",color:"#2ECDAB",cells:[{ch:"B",rom:"b"},{ch:"D",rom:"d"},{ch:"F",rom:"f"},{ch:"G",rom:"g (hard)"},{ch:"H",rom:"h"},{ch:"K",rom:"k"},{ch:"L",rom:"l"}]},
+              {label:"More",color:"#2ECDAB",cells:[{ch:"M",rom:"m"},{ch:"N",rom:"n"},{ch:"P",rom:"p"},{ch:"T",rom:"t"},{ch:"C",rom:"k or ts"},{ch:"Q",rom:"kv-sound"},{ch:"X",rom:"ks"}]},
             ]}},
-          {fk:"fk_alphabet_overview",title:"Pronunciation traps",desc:"W sounds like English V. V sounds like English F. J sounds like English Y. Z sounds like /ts/. These catch EVERY English speaker.",
-            examples:["W→/v/: Wasser (water)","V→/f/: Vater (father)","J→/j/: ja (yes)","Z→/ts/: Zeit (time)"]},
-      ]},
-      {id:"de_umlauts",title:"Umlauts & ß",icon:"Ä",desc:"Special characters unique to German",
+          {fk:"fk_alphabet_overview",title:"The four English speaker traps",audio_id:null,
+            desc:"Four letters look familiar but sound completely different. These trip up every English speaker on day one.",
+            grid:{cols:3,headers:["Letter","German sound","English trap to avoid"],rows:[
+              {label:"W",color:"#F5A623",cells:[{ch:"W",rom:"w"},{ch:"V-sound: VAH-ser",rom:"Wasser = water"},{ch:"NOT like English W",rom:""}]},
+              {label:"V",color:"#F5A623",cells:[{ch:"V",rom:"v"},{ch:"F-sound: FAH-ter",rom:"Vater = father"},{ch:"NOT like English V",rom:""}]},
+              {label:"J",color:"#F5A623",cells:[{ch:"J",rom:"j"},{ch:"Y-sound: yah",rom:"ja = yes"},{ch:"NOT like English J",rom:""}]},
+              {label:"Z",color:"#F5A623",cells:[{ch:"Z",rom:"z"},{ch:"TS-sound: TSAYT",rom:"Zeit = time"},{ch:"NOT like English Z",rom:""}]},
+            ]}},
+          {fk:"fk_alphabet_overview",title:"German letter names",audio_id:null,
+            desc:"How to say each letter when spelling a word aloud. Useful at the post office, doctor, or hotel.",
+            grid:{cols:4,headers:["Letter","Name","Letter","Name"],rows:[
+              {label:"",color:"#E85D75",cells:[{ch:"A",rom:"ah"},{ch:"B",rom:"bay"},{ch:"C",rom:"tsay"},{ch:"D",rom:"day"}]},
+              {label:"",color:"#E85D75",cells:[{ch:"E",rom:"ay"},{ch:"F",rom:"eff"},{ch:"G",rom:"gay"},{ch:"H",rom:"hah"}]},
+              {label:"",color:"#4A8FE7",cells:[{ch:"I",rom:"ee"},{ch:"J",rom:"yot"},{ch:"K",rom:"kah"},{ch:"L",rom:"ell"}]},
+              {label:"",color:"#4A8FE7",cells:[{ch:"M",rom:"emm"},{ch:"N",rom:"enn"},{ch:"O",rom:"oh"},{ch:"P",rom:"pay"}]},
+              {label:"",color:"#2ECDAB",cells:[{ch:"Q",rom:"koo"},{ch:"R",rom:"err"},{ch:"S",rom:"ess"},{ch:"T",rom:"tay"}]},
+              {label:"",color:"#2ECDAB",cells:[{ch:"U",rom:"oo"},{ch:"V",rom:"fow"},{ch:"W",rom:"vay"},{ch:"X",rom:"iks"}]},
+              {label:"Special",color:"#7B5EE8",cells:[{ch:"Y",rom:"oopsilon"},{ch:"Z",rom:"tset"},{ch:"Ä",rom:"ah-umlaut"},{ch:"ß",rom:"ess-tset"}]},
+            ]}},
+        ]},
+
+      // ─────────── 2. VOWELS ───────────
+      {id:"de_vowels",title:"Vowels",icon:"🔊",desc:"Short/long pairs, umlauts, diphthongs",
         items:[
-          {fk:"fk_diacritics",title:"Ä ä → /ɛ/",desc:"Like 'e' in 'bed'. The two dots change A into a front vowel.",examples:["Mädchen (girl)","Häuser (houses)","Ärger (anger)"]},
-          {fk:"fk_diacritics",title:"Ö ö → /ø/",desc:"Round your lips for 'oh' and say 'ay'. No English equivalent.",examples:["schön (beautiful)","Öl (oil)","möchten (would like)"]},
-          {fk:"fk_diacritics",title:"Ü ü → /y/",desc:"Round your lips for 'oo' and say 'ee'. No English equivalent.",examples:["über (over)","Tür (door)","grün (green)"]},
-          {fk:"fk_diacritics",title:"ß (Eszett)",desc:"A sharp S sound /s/. Used after long vowels and diphthongs. Switzerland uses 'ss' instead.",examples:["Straße (street)","groß (big)","heißen (to be called)"]},
-      ]},
-      {id:"de_vowels",title:"Vowel Length",icon:"📏",desc:"Long vs short changes pronunciation",
+          {fk:"fk_vowel_grid",title:"Short vs long vowel pairs",audio_id:null,
+            desc:"Every German vowel has a short and a long version. Short vowels appear before double consonants or clusters. Long vowels appear before a single consonant or with a following silent H.",
+            grid:{cols:4,headers:["Short","Example","Long","Example"],rows:[
+              {label:"A",color:"#E85D75",cells:[{ch:"a (short)",rom:"like ah but clipped"},{ch:"Wasser, Mann, kalt",rom:"water, man, cold"},{ch:"a (long)",rom:"held ah sound"},{ch:"Name, Staat, Bahn",rom:"name, state, train"}]},
+              {label:"E",color:"#F5A623",cells:[{ch:"e (short)",rom:"like e in bed"},{ch:"Bett, essen, Geld",rom:"bed, eat, money"},{ch:"e (long)",rom:"like ay in say"},{ch:"Meer, lesen, Weg",rom:"sea, read, path"}]},
+              {label:"I",color:"#2ECDAB",cells:[{ch:"i (short)",rom:"like i in bit"},{ch:"mit, Bitte, Kind",rom:"with, please, child"},{ch:"ie (long)",rom:"like ee in see"},{ch:"Bier, Liebe, Brief",rom:"beer, love, letter"}]},
+              {label:"O",color:"#4A8FE7",cells:[{ch:"o (short)",rom:"like o in off"},{ch:"Post, Gott, kommen",rom:"mail, God, come"},{ch:"o (long)",rom:"pure oh sound"},{ch:"Sohn, Brot, groß",rom:"son, bread, big"}]},
+              {label:"U",color:"var(--purple-accent-text)",cells:[{ch:"u (short)",rom:"like u in put"},{ch:"Mutter, und, Hund",rom:"mother, and, dog"},{ch:"u (long)",rom:"pure oo sound"},{ch:"Uhr, gut, Stuhl",rom:"clock, good, chair"}]},
+            ]}},
+          {fk:"fk_diacritics",title:"The three umlauts: Ä, Ö, Ü",audio_id:null,
+            desc:"Umlauts are separate vowels, not decorated letters. Each has a short and long version. The two dots signal a different vowel sound.",
+            grid:{cols:4,headers:["Umlaut","Mouth position","Short example","Long example"],rows:[
+              {label:"Ä",color:"#E85D75",cells:[{ch:"Ä / ä",rom:"like e in bed"},{ch:"open jaw, spread lips",rom:""},{ch:"Männer",rom:"men (short)"},{ch:"Mädchen, spät",rom:"girl, late (long)"}]},
+              {label:"Ö",color:"#F5A623",cells:[{ch:"Ö / ö",rom:"no English match"},{ch:"say ay, round lips",rom:""},{ch:"öffnen",rom:"to open (short)"},{ch:"schön, hören",rom:"beautiful, hear (long)"}]},
+              {label:"Ü",color:"var(--purple-accent-text)",cells:[{ch:"Ü / ü",rom:"no English match"},{ch:"say ee, round lips",rom:""},{ch:"müssen",rom:"must (short)"},{ch:"über, grün",rom:"over, green (long)"}]},
+            ]}},
+          {fk:"fk_vowel_length",title:"Three signals that always mean long vowel",audio_id:null,
+            desc:"Three spelling patterns reliably signal a long vowel. No guessing needed once you recognize them.",
+            grid:{cols:3,headers:["Signal","Rule","Examples"],rows:[
+              {label:"Double vowel",color:"#2ECDAB",cells:[{ch:"aa, ee, oo",rom:"always long"},{ch:"doubled letter lengthens",rom:""},{ch:"Staat, Meer, Boot",rom:"state, sea, boat"}]},
+              {label:"Silent H",color:"#2ECDAB",cells:[{ch:"vowel + H",rom:"H is silent, vowel is long"},{ch:"H lengthens, not pronounced",rom:""},{ch:"Bahn, Uhr, Sohn",rom:"train, clock, son"}]},
+              {label:"IE",color:"#2ECDAB",cells:[{ch:"ie",rom:"always long ee-sound"},{ch:"standard long-I spelling",rom:""},{ch:"Liebe, Brief, vier",rom:"love, letter, four"}]},
+            ]}},
+          {fk:"fk_vowel_digraph",title:"Diphthongs: ei, au, eu/äu",audio_id:null,
+            desc:"German has three diphthongs. Each glides between two vowel positions in a single syllable.",
+            grid:{cols:3,headers:["Diphthong","Sound","Examples"],rows:[
+              {label:"ei",color:"#E85D75",cells:[{ch:"ei / ai",rom:"like English eye"},{ch:"AY-glide toward EE",rom:""},{ch:"mein, Eis, Kaiser, Mai",rom:"my, ice, emperor, May"}]},
+              {label:"au",color:"#F5A623",cells:[{ch:"au",rom:"like ow in now"},{ch:"AH-glide toward OO",rom:""},{ch:"Haus, auch, kaufen",rom:"house, also, buy"}]},
+              {label:"eu / äu",color:"#4A8FE7",cells:[{ch:"eu / äu",rom:"like oy in boy"},{ch:"OY-glide, same sound",rom:""},{ch:"neu, heute, Häuser",rom:"new, today, houses"}]},
+            ]}},
+          {fk:"fk_vowel_length",title:"ß vs ss: the short/long vowel rule",audio_id:null,
+            desc:"Both ß and ss spell an S-sound. The choice depends entirely on the vowel length before the sound.",
+            grid:{cols:3,headers:["Vowel before S-sound","Spelling","Examples"],rows:[
+              {label:"Long vowel",color:"#E85D75",cells:[{ch:"long vowel or diphthong",rom:""},{ch:"use ß",rom:""},{ch:"groß, Straße, heißen",rom:"big, street, be called"}]},
+              {label:"Short vowel",color:"#F5A623",cells:[{ch:"short vowel",rom:""},{ch:"use ss",rom:""},{ch:"essen, Wasser, müssen",rom:"eat, water, must"}]},
+              {label:"Switzerland",color:"#4A8FE7",cells:[{ch:"Swiss German and Liechtenstein",rom:""},{ch:"always ss, never ß",rom:""},{ch:"strasse, gross, heissen",rom:"Switzerland spellings"}]},
+            ]}},
+        ]},
+
+      // ─────────── 3. CONSONANTS ───────────
+      {id:"de_con_1",title:"Regular and Tricky Consonants",icon:"🗣",desc:"Regular consonants, the CH sounds, and final devoicing",
         items:[
-          {fk:"fk_vowel_length",title:"Long vowels",desc:"Doubled vowels (aa, ee, oo), vowels before single consonant, or vowels with silent H.",examples:["Staat (state) — aa","Meer (sea) — ee","Sohn (son) — oh before h"]},
-          {fk:"fk_vowel_length",title:"Short vowels",desc:"Before double consonants or consonant clusters.",examples:["Wasser (water) — ss","Bett (bed) — tt","Hund (dog) — nd"]},
-      ]},
-      {id:"de_hard_sounds",title:"Ich-Laut & Ach-Laut",icon:"🗣️",desc:"Two distinct CH sounds",
+          {fk:"fk_letter_sound",title:"Consonants: regular (same as English)",audio_id:null,
+            desc:"These consonants make the same sound as in English. No surprises.",
+            grid:{cols:6,headers:["","","","","",""],rows:[
+              {label:"Regular",color:"#2ECDAB",cells:[{ch:"b",rom:"b (bag)"},{ch:"d",rom:"d (dog)"},{ch:"f",rom:"f (fan)"},{ch:"h",rom:"h (hat)"},{ch:"k",rom:"k (kit)"},{ch:"l",rom:"l (land)"}]},
+              {label:"Regular",color:"#2ECDAB",cells:[{ch:"m",rom:"m (map)"},{ch:"n",rom:"n (no)"},{ch:"p",rom:"p (pan)"},{ch:"t",rom:"t (top)"},{ch:"ng",rom:"ng (sing)"},{ch:"",rom:""}]},
+            ]}},
+          {fk:"fk_letter_sound",title:"Consonants: tricky for English speakers",audio_id:null,
+            desc:"These look familiar but sound different in German.",
+            grid:{cols:3,headers:["Letter","German sound","Memory trick"],rows:[
+              {label:"W",color:"#F5A623",cells:[{ch:"w",rom:""},{ch:"V-sound: VAH-ser",rom:"Wasser = water"},{ch:"W = V in German",rom:""}]},
+              {label:"V",color:"#F5A623",cells:[{ch:"v",rom:""},{ch:"F-sound: FAH-ter",rom:"Vater = father"},{ch:"V = F in German",rom:""}]},
+              {label:"J",color:"#F5A623",cells:[{ch:"j",rom:""},{ch:"Y-sound: yah",rom:"ja = yes"},{ch:"J = Y in German",rom:""}]},
+              {label:"Z",color:"#F5A623",cells:[{ch:"z",rom:""},{ch:"TS-sound: TSAYT",rom:"Zeit = time"},{ch:"Z = TS in German",rom:""}]},
+              {label:"S (before vowel)",color:"#F5A623",cells:[{ch:"s",rom:"at start of syllable"},{ch:"Z-sound: ZON-uh",rom:"Sonne = sun"},{ch:"Only at syllable start",rom:""}]},
+              {label:"R",color:"#F5A623",cells:[{ch:"r",rom:""},{ch:"Uvular or rolled",rom:"varies by region"},{ch:"Back of throat, not English R",rom:""}]},
+            ]}},
+          {fk:"fk_consonant_special",title:"The two CH sounds: ich-Laut and ach-Laut",audio_id:null,
+            desc:"CH is the most important sound in German. There are two versions. The vowel before CH determines which to use.",
+            grid:{cols:4,headers:["Name","After which vowels","Sound description","Examples"],rows:[
+              {label:"ich-Laut",color:"#E85D75",cells:[{ch:"ich-Laut",rom:"soft CH"},{ch:"after e, i, ä, ö, ü, consonants",rom:""},{ch:"Hissing from front of mouth, like H in huge",rom:""},{ch:"ich, nicht, Milch, möchte",rom:"I, not, milk, would like"}]},
+              {label:"ach-Laut",color:"#F5A623",cells:[{ch:"ach-Laut",rom:"hard CH"},{ch:"after a, o, u, au",rom:""},{ch:"Raspy from back of throat, like Scottish loch",rom:""},{ch:"ach, Buch, auch, Nacht",rom:"oh, book, also, night"}]},
+            ]}},
+          {fk:"fk_phonology",title:"Final devoicing: voiced to voiceless at word end",audio_id:null,
+            desc:"At word ends, voiced consonants (b, d, g) become their voiceless partners (p, t, k). Spelling stays the same. Find a related form to confirm the real spelling.",
+            grid:{cols:3,headers:["You hear","Correct spelling","Proof form"],rows:[
+              {label:"b to p",color:"#4A8FE7",cells:[{ch:"DEEEP",rom:"voiceless at end"},{ch:"Dieb",rom:"thief"},{ch:"Diebe: b revealed",rom:"thieves"}]},
+              {label:"d to t",color:"#4A8FE7",cells:[{ch:"HOONT",rom:"voiceless at end"},{ch:"Hund",rom:"dog"},{ch:"Hunde: d revealed",rom:"dogs"}]},
+              {label:"g to k",color:"#4A8FE7",cells:[{ch:"TAHK",rom:"voiceless at end"},{ch:"Tag",rom:"day"},{ch:"Tage: g revealed",rom:"days"}]},
+              {label:"g to k",color:"#4A8FE7",cells:[{ch:"VEHK",rom:"voiceless at end"},{ch:"Weg",rom:"path"},{ch:"Wege: g revealed",rom:"paths"}]},
+            ]}},
+        ]},
+
+      {id:"de_con_2",title:"Digraphs, Clusters and SP/ST",icon:"🗣",desc:"SCH, SP/ST, CK, consonant clusters",
         items:[
-          {fk:"fk_consonant_special",title:"Ich-Laut /ç/",desc:"After front vowels (e, i, ö, ü) and consonants. A soft, hissing sound from the palate.",examples:["ich (I)","Milch (milk)","möchte (would like)"]},
-          {fk:"fk_consonant_special",title:"Ach-Laut /x/",desc:"After back vowels (a, o, u, au). Deeper, throatier — similar to Dutch G.",examples:["ach (oh)","Buch (book)","auch (also)"]},
-          {fk:"fk_consonant_special",title:"Auslautverhärtung",desc:"Voiced consonants (b, d, g) become voiceless (p, t, k) at the end of words or syllables.",examples:["Hund → /hunt/ (dog)","Tag → /tak/ (day)","Dieb → /diep/ (thief)"]},
-      ]},
-      {id:"de_stress",title:"Stress Patterns",icon:"🎯",desc:"Where to put emphasis",
+          {fk:"fk_digraph_consonant",title:"Consonant digraphs: SCH, NG, CK",audio_id:null,
+            desc:"Two or three letters that make one sound. Never split when dividing syllables.",
+            grid:{cols:4,headers:["Digraph","Sound","Examples","Note"],rows:[
+              {label:"sch",color:"#E85D75",cells:[{ch:"sch",rom:""},{ch:"sh-sound",rom:"like English sh"},{ch:"Schule, schön, Tisch",rom:"school, beautiful, table"},{ch:"never double",rom:""}]},
+              {label:"ng",color:"#E85D75",cells:[{ch:"ng",rom:""},{ch:"ng-sound",rom:"like English sing"},{ch:"singen, lang, Ring",rom:"sing, long, ring"},{ch:"never double",rom:""}]},
+              {label:"ck",color:"#E85D75",cells:[{ch:"ck",rom:""},{ch:"k-sound after short vowel",rom:"signals short vowel"},{ch:"Zucker, Glück, stecken",rom:"sugar, luck, stick"},{ch:"same role as double consonant",rom:""}]},
+              {label:"ph",color:"#4A8FE7",cells:[{ch:"ph",rom:""},{ch:"f-sound",rom:"loanwords only"},{ch:"Philosophie, Physik",rom:"philosophy, physics"},{ch:"loanwords only",rom:""}]},
+            ]}},
+          {fk:"fk_clusters",title:"SP and ST at the start of syllables",audio_id:null,
+            desc:"SP and ST at the start of a syllable are pronounced SHP and SHT. This rule applies even inside compound words at each syllable boundary.",
+            grid:{cols:3,headers:["Spelling","Pronunciation","Examples"],rows:[
+              {label:"sp-",color:"#F5A623",cells:[{ch:"sp (start of syllable)",rom:""},{ch:"shp-sound, NOT sp",rom:""},{ch:"spielen, Sport, sprechen",rom:"play, sport, speak"}]},
+              {label:"st-",color:"#F5A623",cells:[{ch:"st (start of syllable)",rom:""},{ch:"sht-sound, NOT st",rom:""},{ch:"stehen, Straße, verstehen",rom:"stand, street, understand"}]},
+              {label:"Compound",color:"#2ECDAB",cells:[{ch:"sp/st inside compounds",rom:""},{ch:"rule applies at each boundary",rom:""},{ch:"Hauptstadt: HOWPT-shtat",rom:"capital city"}]},
+            ]}},
+          {fk:"fk_clusters",title:"Common consonant clusters",audio_id:null,
+            desc:"German allows complex clusters at word boundaries. These stable combinations appear repeatedly in everyday vocabulary.",
+            grid:{cols:3,headers:["Cluster","Position","Examples"],rows:[
+              {label:"bl, br, fl, fr",color:"#2ECDAB",cells:[{ch:"bl, br, fl, fr",rom:"stop + liquid"},{ch:"word start",rom:""},{ch:"blau, bringen, fliegen, fragen",rom:"blue, bring, fly, ask"}]},
+              {label:"kl, kn, gl, gr",color:"#2ECDAB",cells:[{ch:"kl, kn, gl, gr",rom:"stop + liquid or nasal"},{ch:"word start",rom:""},{ch:"klein, Knie, Glas, grün",rom:"small, knee, glass, green"}]},
+              {label:"str, spr, schr",color:"#F5A623",cells:[{ch:"str, spr, schr",rom:"three-consonant onset"},{ch:"word start",rom:""},{ch:"Straße, sprechen, schreiben",rom:"street, speak, write"}]},
+              {label:"-cht, -nft",color:"#4A8FE7",cells:[{ch:"-cht, -nft, -rts",rom:"coda clusters"},{ch:"word end",rom:""},{ch:"Nacht, Zunft, Wirtshaus",rom:"night, guild, inn"}]},
+            ]}},
+        ]},
+
+      // ─────────── 4. SPELLING & WORD FORMATION ───────────
+      {id:"de_spelling",title:"Spelling and Word Formation",icon:"⚙",desc:"Noun capitalization, compound nouns, umlaut alternations",
         items:[
-          {fk:"fk_stress_pattern",title:"Default: first syllable",desc:"Most native German words stress the first syllable, just like Dutch.",examples:["Árbeit (work)","Fráge (question)","Hófnung (hope)"]},
-          {fk:"fk_stress_pattern",title:"Inseparable prefixes",desc:"be-, ge-, er-, ver-, zer-, ent-, emp- are NEVER stressed.",examples:["beGINnen (to begin)","erZÄHlen (to tell)","verSTEhen (to understand)"]},
-          {fk:"fk_stress_pattern",title:"Separable prefixes",desc:"Unlike inseparable ones, separable prefixes (an-, auf-, aus-, ein-, mit-, etc.) ARE stressed.",examples:["ÁNfangen (to start)","ÁUFstehen (to get up)","ÉINkaufen (to shop)"]},
-      ]},
+          {fk:"fk_spelling_rules",title:"ALL nouns are capitalized in German",audio_id:null,
+            desc:"Every noun, not just proper names, every common noun, is written with a capital first letter. This is one of German's most distinctive rules.",
+            grid:{cols:2,headers:["German (all nouns capitalized)","English (only proper nouns)"],rows:[
+              {label:"",color:"#7B5EE8",cells:[{ch:"Das Haus ist groß.",rom:""},{ch:"The house is big.",rom:""}]},
+              {label:"",color:"#7B5EE8",cells:[{ch:"Ein Hund läuft schnell.",rom:""},{ch:"A dog runs fast.",rom:""}]},
+              {label:"",color:"#7B5EE8",cells:[{ch:"Ich kaufe Brot und Milch.",rom:""},{ch:"I buy bread and milk.",rom:""}]},
+              {label:"Rule",color:"#F5A623",cells:[{ch:"Brot, Milch, Hund, Haus",rom:"all capitalized"},{ch:"bread, milk, dog, house",rom:"all lowercase in English"}]},
+            ]}},
+          {fk:"fk_spelling_rules",title:"Compound nouns: German stacks words",audio_id:null,
+            desc:"German builds new words by joining existing words without spaces. The last element determines the gender and meaning category. Earlier elements modify it.",
+            grid:{cols:3,headers:["Compound","Parts","Meaning"],rows:[
+              {label:"der",color:"#4A8FE7",cells:[{ch:"Bahnhof",rom:"der Bahnhof"},{ch:"Bahn (train) + Hof (yard)",rom:""},{ch:"train station",rom:""}]},
+              {label:"die",color:"#E85D75",cells:[{ch:"Handtasche",rom:"die Handtasche"},{ch:"Hand (hand) + Tasche (bag)",rom:""},{ch:"handbag",rom:""}]},
+              {label:"das",color:"#F5A623",cells:[{ch:"Schlafzimmer",rom:"das Schlafzimmer"},{ch:"Schlafen (sleep) + Zimmer (room)",rom:""},{ch:"bedroom",rom:""}]},
+              {label:"Rule",color:"#7B5EE8",cells:[{ch:"Last element = head word",rom:""},{ch:"Its gender = the compound's gender",rom:""},{ch:"das Zimmer: always das",rom:""}]},
+            ]}},
+          {fk:"fk_spelling_rules",title:"Umlaut alternations in plurals and verb forms",audio_id:null,
+            desc:"Many German words use umlauts in plural forms or verb conjugations. The stem vowel changes systematically. This is a pattern, not a random exception.",
+            grid:{cols:3,headers:["Base form","Changed form","Pattern"],rows:[
+              {label:"a to ä",color:"#E85D75",cells:[{ch:"Vater",rom:"father"},{ch:"Väter",rom:"fathers"},{ch:"a to ä in plural",rom:""}]},
+              {label:"u to ü",color:"var(--purple-accent-text)",cells:[{ch:"Mutter",rom:"mother"},{ch:"Mütter",rom:"mothers"},{ch:"u to ü in plural",rom:""}]},
+              {label:"au to äu",color:"#F5A623",cells:[{ch:"Haus",rom:"house"},{ch:"Häuser",rom:"houses"},{ch:"au to äu in plural",rom:""}]},
+              {label:"a to ä (verb)",color:"#E85D75",cells:[{ch:"fahren",rom:"to drive"},{ch:"du fährst / er fährt",rom:"you/he drives"},{ch:"a to ä in conjugation",rom:""}]},
+              {label:"a to ä (verb)",color:"#E85D75",cells:[{ch:"schlafen",rom:"to sleep"},{ch:"er schläft",rom:"he sleeps"},{ch:"a to ä in strong verb",rom:""}]},
+            ]}},
+          {fk:"fk_spelling_algorithm",title:"Spelling decision: ß or ss?",audio_id:null,
+            desc:"A step-by-step check for any German ss/ß spelling decision.",
+            grid:{cols:2,headers:["Step / Situation","Action"],rows:[
+              {label:"1",color:"#2ECDAB",cells:[{ch:"Identify the vowel before the S-sound",rom:""},{ch:"Is it long or short?",rom:""}]},
+              {label:"2",color:"#E85D75",cells:[{ch:"Long vowel or diphthong before the S-sound",rom:""},{ch:"Write ß: groß, Straße, heißen",rom:""}]},
+              {label:"3",color:"#F5A623",cells:[{ch:"Short vowel before the S-sound",rom:""},{ch:"Write ss: Wasser, essen, müssen",rom:""}]},
+              {label:"4",color:"#4A8FE7",cells:[{ch:"Writing in Switzerland or Liechtenstein",rom:""},{ch:"Always write ss, never ß",rom:""}]},
+              {label:"5",color:"#7B5EE8",cells:[{ch:"Not sure of vowel length?",rom:""},{ch:"Find a related form to check",rom:""}]},
+            ]}},
+        ]},
+
+      // ─────────── 5. STRESS & PRONUNCIATION ───────────
+      {id:"de_stress",title:"Stress and Pronunciation",icon:"🥁",desc:"Word stress rules, prefix stress, and vowel reduction",
+        items:[
+          {fk:"fk_prosody",title:"Stress rules: where emphasis falls",audio_id:null,
+            desc:"German word stress is mostly regular. Most native German words stress the first syllable. Prefixes and loanwords are the main exceptions.",
+            grid:{cols:3,headers:["Rule","Pattern","Examples"],rows:[
+              {label:"Default",color:"#2ECDAB",cells:[{ch:"First syllable",rom:"most native words"},{ch:"ÉR-ste Silbe",rom:""},{ch:"ÉSsen, WÁsser, HÁus",rom:"eat, water, house"}]},
+              {label:"Inseparable prefix",color:"#F5A623",cells:[{ch:"be-, ge-, er-, ver-, zer-, ent-",rom:"never stressed"},{ch:"stress falls on stem",rom:""},{ch:"beGINnen, verSTEhen, erZÄHlen",rom:"begin, understand, tell"}]},
+              {label:"Separable prefix",color:"#4A8FE7",cells:[{ch:"an-, auf-, aus-, ein-, mit-, ab-",rom:"always stressed"},{ch:"prefix carries the stress",rom:""},{ch:"ÁNfangen, ÁUFstehen, ÁBfahren",rom:"start, get up, depart"}]},
+              {label:"Loanword",color:"#7B5EE8",cells:[{ch:"Varies by origin",rom:"keeps original stress"},{ch:"often last syllable",rom:""},{ch:"banaNA, TelefON, KaffEE",rom:"banana, telephone, coffee"}]},
+            ]}},
+          {fk:"fk_prosody",title:"Unstressed endings reduce toward a weak sound",audio_id:null,
+            desc:"Stressed syllables are long and clear. Unstressed syllables, especially common endings, reduce to a short weak sound similar to the English schwa. Spelling never changes.",
+            grid:{cols:3,headers:["Ending","Stress","Examples"],rows:[
+              {label:"-e",color:"#9B9B9B",cells:[{ch:"-e",rom:"unstressed"},{ch:"weak eh-sound",rom:""},{ch:"Hose, lese, Liebe",rom:"trousers, I read, love"}]},
+              {label:"-en",color:"#9B9B9B",cells:[{ch:"-en",rom:"unstressed"},{ch:"weak n-syllable",rom:""},{ch:"lesen, kommen, Garten",rom:"read, come, garden"}]},
+              {label:"-er",color:"#9B9B9B",cells:[{ch:"-er",rom:"unstressed"},{ch:"weak uh-sound",rom:""},{ch:"Mutter, Wasser, Vater",rom:"mother, water, father"}]},
+              {label:"-el",color:"#9B9B9B",cells:[{ch:"-el",rom:"unstressed"},{ch:"weak l-syllable",rom:""},{ch:"Vogel, Schlüssel, Mantel",rom:"bird, key, coat"}]},
+            ]}},
+          {fk:"fk_prosody",title:"Glottal stop before vowel-initial syllables",audio_id:null,
+            desc:"German uses a small glottal stop (a brief closure in the throat) before syllables starting with a vowel. This keeps word and syllable boundaries clear.",
+            grid:{cols:3,headers:["Type","Description","Example"],rows:[
+              {label:"Word start",color:"#4A8FE7",cells:[{ch:"Vowel-initial word",rom:""},{ch:"tiny stop before the vowel",rom:""},{ch:"Apfel, Essen, Uhr",rom:"apple, food, clock"}]},
+              {label:"Compound",color:"#4A8FE7",cells:[{ch:"Second element starts with vowel",rom:""},{ch:"glottal stop at the join",rom:""},{ch:"Beamter, Vorort",rom:"officer, suburb"}]},
+            ]}},
+        ]},
+
+      // ─────────── 6. GRAMMAR PREVIEW ───────────
+      {id:"de_grammar",title:"Grammar Preview",icon:"📐",desc:"3 genders, 4 cases, V2 word order: the essentials before Unit 1",
+        items:[
+          {fk:"fk_grammar_preview",title:"Three grammatical genders: der, die, das",audio_id:null,
+            desc:"Every German noun has one of three genders: masculine (der), feminine (die), or neuter (das). Gender must be memorized with each noun. Article and adjective endings change based on gender.",
+            grid:{cols:3,headers:["Masculine (der)","Feminine (die)","Neuter (das)"],rows:[
+              {label:"People",color:"#7B5EE8",cells:[{ch:"der Mann",rom:"the man"},{ch:"die Frau",rom:"the woman"},{ch:"das Kind",rom:"the child"}]},
+              {label:"Things",color:"#7B5EE8",cells:[{ch:"der Tisch",rom:"the table"},{ch:"die Schule",rom:"the school"},{ch:"das Haus",rom:"the house"}]},
+              {label:"More",color:"#7B5EE8",cells:[{ch:"der Hund",rom:"the dog"},{ch:"die Stadt",rom:"the city"},{ch:"das Buch",rom:"the book"}]},
+              {label:"Learn as",color:"#F5A623",cells:[{ch:"der Tisch",rom:"NOT just Tisch"},{ch:"die Stadt",rom:"NOT just Stadt"},{ch:"Gender is part of the word",rom:""}]},
+            ]}},
+          {fk:"fk_grammar_preview",title:"Four grammatical cases: a preview",audio_id:null,
+            desc:"German has four cases. Cases show a noun's role in the sentence. They change article endings and sometimes noun forms. You will learn them step by step across the first 20 units.",
+            grid:{cols:4,headers:["Case","Role","English equivalent","Example"],rows:[
+              {label:"Nominative",color:"#2ECDAB",cells:[{ch:"Nominative",rom:"1st case"},{ch:"Subject: does the action",rom:""},{ch:"Der Mann schläft.",rom:"The man sleeps."}]},
+              {label:"Accusative",color:"#E85D75",cells:[{ch:"Accusative",rom:"4th case"},{ch:"Direct object: receives action",rom:""},{ch:"Ich sehe den Mann.",rom:"I see the man."}]},
+              {label:"Dative",color:"#4A8FE7",cells:[{ch:"Dative",rom:"3rd case"},{ch:"Indirect object: to/for whom",rom:""},{ch:"Ich gebe dem Mann Brot.",rom:"I give the man bread."}]},
+              {label:"Genitive",color:"#7B5EE8",cells:[{ch:"Genitive",rom:"2nd case"},{ch:"Possession: of whom",rom:""},{ch:"Das Buch des Mannes.",rom:"The man's book."}]},
+            ]}},
+          {fk:"fk_grammar_preview",title:"V2 word order: verb always in position 2",audio_id:null,
+            desc:"In German main clauses, the conjugated verb is ALWAYS in the second position. The first position can hold the subject, a time word, or any other element. In subordinate clauses, the verb moves to the end.",
+            grid:{cols:3,headers:["Position 1","Position 2 (verb)","Rest of sentence"],rows:[
+              {label:"Subject first",color:"#2ECDAB",cells:[{ch:"Ich",rom:"subject"},{ch:"esse",rom:"verb"},{ch:"Brot. (I eat bread.)",rom:""}]},
+              {label:"Time first",color:"#F5A623",cells:[{ch:"Morgen",rom:"tomorrow"},{ch:"esse",rom:"verb"},{ch:"ich Brot. (Tomorrow I eat bread.)",rom:""}]},
+              {label:"Object first",color:"#F5A623",cells:[{ch:"Brot",rom:"object"},{ch:"esse",rom:"verb"},{ch:"ich heute. (Bread I eat today.)",rom:""}]},
+              {label:"Sub-clause",color:"#E85D75",cells:[{ch:"...weil",rom:"because"},{ch:"verb moves to END",rom:"verb-final"},{ch:"...weil ich Brot esse.",rom:"...because I eat bread."}]},
+            ]}},
+          {fk:"fk_grammar_preview",title:"Article color code used throughout LingoVerse",audio_id:null,
+            desc:"Throughout the course, article colors appear consistently on noun teach cards to help you remember gender at a glance.",
+            grid:{cols:3,headers:["Article","Gender","Color used"],rows:[
+              {label:"der",color:"#4A8FE7",cells:[{ch:"der",rom:"masculine"},{ch:"Masculine",rom:""},{ch:"Blue: der Mann, der Tisch",rom:""}]},
+              {label:"die",color:"#E85D75",cells:[{ch:"die",rom:"feminine"},{ch:"Feminine",rom:""},{ch:"Coral: die Frau, die Stadt",rom:""}]},
+              {label:"das",color:"#F5A623",cells:[{ch:"das",rom:"neuter"},{ch:"Neuter",rom:""},{ch:"Gold: das Haus, das Kind",rom:""}]},
+              {label:"die (pl)",color:"#9B9B9B",cells:[{ch:"die",rom:"plural (all genders)"},{ch:"Plural: always die",rom:""},{ch:"die Männer, die Frauen, die Häuser",rom:""}]},
+            ]}},
+        ]},
+
     ]
   },
   // ── FUTURE HOOKS — real inventories for non-Latin scripts ──
