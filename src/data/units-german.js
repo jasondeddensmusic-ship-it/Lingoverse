@@ -424,7 +424,7 @@ export default [
 
   {type:"teach",kind:"phrase",nl:"er/sie hat",en:"he/she has",phonetic:"ehr/zee haht",example:"A: Hat Lisa einen Hund?\nB: Ja, sie hat einen kleinen Hund.\nA: Wie süß!",exampleEn:"A: Does Lisa have a dog?\nB: Yes, she has a small dog.\nA: How cute!",note:"er hat = he has. sie hat = she has.\nSame form for both. Stem: hat (irregular)."},
 
-  {type:"verb_table",title:"haben — to have",label:"Present tense conjugation",groups:[
+  {type:"verb_table",title:"haben: to have",label:"Present tense conjugation",groups:[
     {label:"Singular",rows:[
       {pronoun:"ich",form:"habe",note:"I have"},
       {pronoun:"du",form:"hast",note:"you have (informal)"},
@@ -661,6 +661,331 @@ export default [
   {type:"mc",q:"'Das Kaninchen' takes the article 'das' because:",opts:["All animals are neuter","It ends in -chen (always neuter)","It is plural","Random assignment"],ans:"It ends in -chen (always neuter)",hint:"Diminutive -chen/-lein = always neuter (das)."},
 
   {type:"mc",q:"Which sentence best introduces your mother's job?",opts:["Meine Mutter hat eine Lehrerin.","Meine Mutter ist eine Lehrerin.","Meine Mutter ist Lehrerin.","Meine Mutter wohnt Lehrerin."],ans:"Meine Mutter ist Lehrerin.",hint:"Sein + profession = no article."},
+]},
+
+]},
+
+// ══════════════════════════════════════════════════════════════════════════
+// UNIT 4: Essen & Trinken — Food, Drink & Ordering
+// ══════════════════════════════════════════════════════════════════════════
+{n:4,lang:"de",track:"v1",title:"Essen & Trinken",sub:"Food, Drink & Ordering",icon:"🍽️",level:"A1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Getränke ═══
+{id:"deu4l1",title:"Getränke",icon:"☕",xp:15,board:true,steps:[
+  {type:"intro",title:"Getränke",desc:"Drinks are the gateway to German café and social culture. Learn the most common beverages and you will be ordering confidently from your very first day.",goals:["6 core drinks","Masculine and neuter articles in context","Order a drink simply"]},
+
+  {type:"teach",kind:"word",nl:"der Kaffee",en:"the coffee",phonetic:"dehr KAH-feh",cognate:{words:[{lang:"English",word:"coffee"},{lang:"Dutch",word:"koffie"}],family:"borrowed"},example:"A: Möchten Sie etwas trinken?\nB: Ja, einen Kaffee bitte!\nA: Sofort.",exampleEn:"A: Would you like something to drink?\nB: Yes, a coffee please!\nA: Right away.",note:"Masculine: der Kaffee.\nDer becomes einen when ordering (accusative). You will learn this in U6."},
+
+  {type:"teach",kind:"word",nl:"der Tee",en:"the tea",phonetic:"dehr tay",cognate:{words:[{lang:"English",word:"tea"},{lang:"Dutch",word:"thee"}],family:"borrowed"},example:"A: Kaffee oder Tee?\nB: Tee, bitte. Ohne Milch.\nA: Gern!",exampleEn:"A: Coffee or tea?\nB: Tea, please. Without milk.\nA: Gladly!",note:"Masculine: der Tee.\nOhne = without. Ohne Milch = without milk."},
+
+  {type:"teach",kind:"word",nl:"das Wasser",en:"the water",phonetic:"dahs VAH-ser",cognate:{words:[{lang:"English",word:"water"},{lang:"Dutch",word:"water"}],family:"germanic"},example:"A: Was trinken Sie?\nB: Stilles Wasser, bitte.\nA: Mit oder ohne Kohlensäure?",exampleEn:"A: What are you drinking?\nB: Still water, please.\nA: With or without carbonation?",note:"Neuter: das Wasser.\nStilles Wasser = still water. Sprudelwasser = sparkling water."},
+
+  {type:"teach",kind:"word",nl:"der Saft",en:"the juice",phonetic:"dehr zahft",example:"A: Haben Sie Orangensaft?\nB: Ja! Ein Glas Saft?\nA: Bitte, danke.",exampleEn:"A: Do you have orange juice?\nB: Yes! A glass of juice?\nA: Please, thank you.",note:"Masculine: der Saft.\nOrangensaft = orange juice. Apfelsaft = apple juice."},
+
+  {type:"teach",kind:"word",nl:"das Bier",en:"the beer",phonetic:"dahs beer",cognate:{words:[{lang:"English",word:"beer"},{lang:"Dutch",word:"bier"}],family:"germanic"},example:"A: Ein Bier, bitte!\nB: Welches Bier möchten Sie?\nA: Ein Weizen, bitte.",exampleEn:"A: One beer, please!\nB: Which beer would you like?\nA: A wheat beer, please.",note:"Neuter: das Bier.\nGermany is famous for beer culture. Prost! = Cheers!"},
+
+  {type:"teach",kind:"word",nl:"der Wein",en:"the wine",phonetic:"dehr vyne",cognate:{words:[{lang:"English",word:"wine"},{lang:"Dutch",word:"wijn"}],family:"borrowed"},example:"A: Ein Glas Wein?\nB: Ja, Rotwein bitte!\nA: Und ich nehme Weißwein.",exampleEn:"A: A glass of wine?\nB: Yes, red wine please!\nA: And I will have white wine.",note:"Masculine: der Wein.\nRotwein = red wine. Weißwein = white wine."},
+
+  {type:"tip",title:"Drinks and Their Articles",text:"Memorize the article WITH every new noun. It is part of the word.\n\nder Kaffee (m)\nder Tee (m)\nder Saft (m)\nder Wein (m)\ndas Wasser (n)\ndas Bier (n)\n\nNo shortcut: every noun has a fixed gender. Learn it from the start.",deepDive:{title:"Why German has three genders",text:"German nouns are masculine (der), feminine (die), or neuter (das). These categories come from Proto-Germanic and are largely unpredictable in modern German.\n\nA few tendencies:\nNouns ending in -ung, -heit, -keit are usually die.\nNouns ending in -chen, -lein are always das.\nNouns ending in -er from verbs are usually der.\n\nBut drinks are a mixed bag: der Kaffee, das Bier. The best strategy: always learn der/die/das as part of the word, the way you learn spelling."}},
+
+  {type:"mc",q:"What is the article for Kaffee?",opts:["die","das","der","ein"],ans:"der",hint:"Kaffee is a masculine noun."},
+
+  {type:"mc",q:"What is the article for Wasser?",opts:["der","die","das","ein"],ans:"das",hint:"Wasser is a neuter noun."},
+
+  {type:"fb",s:"Ein Glas ___, bitte. (water)",a:"Wasser",opts:["Wasser","Kaffee","Bier","Tee"],hint:"The neuter drink that is not coffee or beer."},
+
+  {type:"mc",q:"Prost! is used when:",opts:["Ordering a drink","Finishing a drink","Toasting a drink","Spilling a drink"],ans:"Toasting a drink",hint:"The German equivalent of Cheers!"},
+
+  {type:"match",pairs:[{nl:"der Kaffee",en:"the coffee"},{nl:"der Tee",en:"the tea"},{nl:"das Wasser",en:"the water"},{nl:"der Saft",en:"the juice"}]},
+
+  {type:"mc",q:"Rotwein means:",opts:["White wine","Sparkling water","Red wine","Fruit juice"],ans:"Red wine",hint:"Rot = red. Wein = wine."},
+
+  {type:"fb",s:"___ Bier, bitte! (one beer, neuter article)",a:"Ein",opts:["Ein","Der","Das","Einen"],hint:"The neuter indefinite article for das Bier."},
+
+  {type:"mc",q:"Which two drinks share the article der?",opts:["Wasser and Bier","Kaffee and Tee","Tee and Bier","Wasser and Wein"],ans:"Kaffee and Tee",hint:"Both hot drinks are masculine."},
+
+  {type:"mc",q:"Stilles Wasser means:",opts:["Cold water","Sparkling water","Still water","Hot water"],ans:"Still water",hint:"Still = without bubbles, not carbonated."},
+
+  {type:"fb",s:"Kaffee ___ Tee? (coffee or tea?)",a:"oder",opts:["oder","und","mit","ohne"],hint:"The German word for or."},
+
+  {type:"mc",q:"Which drink is neuter (das)?",opts:["der Kaffee","der Saft","das Bier","der Wein"],ans:"das Bier",hint:"Check the article shown with each option."},
+]},
+
+// ═══ L2: Brot & Frühstück ═══
+{id:"deu4l2",title:"Brot & Frühstück",icon:"🍞",xp:15,board:true,steps:[
+  {type:"intro",title:"Brot & Frühstück",desc:"Breakfast in Germany is built around bread. Learn the key breakfast foods and their articles, and you will be ready for every Frühstück conversation.",goals:["6 breakfast foods","Feminine and neuter articles","Ask for breakfast items simply"]},
+
+  {type:"teach",kind:"word",nl:"das Brot",en:"the bread",phonetic:"dahs broht",cognate:{words:[{lang:"English",word:"bread"},{lang:"Dutch",word:"brood"}],family:"germanic"},example:"A: Möchtest du Brot zum Frühstück?\nB: Ja, mit Butter bitte!\nA: Hier, bitte.",exampleEn:"A: Would you like bread for breakfast?\nB: Yes, with butter please!\nA: Here you go.",note:"Neuter: das Brot.\nGerman bread culture is famous: 300+ varieties. Dark rye, sourdough, mixed grain."},
+
+  {type:"teach",kind:"word",nl:"die Butter",en:"the butter",phonetic:"dee BUT-ter",cognate:{words:[{lang:"English",word:"butter"},{lang:"Dutch",word:"boter"}],family:"germanic"},example:"A: Ist noch Butter im Kühlschrank?\nB: Ja, hier ist die Butter.\nA: Danke!",exampleEn:"A: Is there still butter in the fridge?\nB: Yes, here is the butter.\nA: Thanks!",note:"Feminine: die Butter.\nAlmost identical to English butter and Dutch boter."},
+
+  {type:"teach",kind:"word",nl:"das Ei",en:"the egg",phonetic:"dahs ay",cognate:{words:[{lang:"English",word:"egg"},{lang:"Dutch",word:"ei"}],family:"germanic"},example:"A: Wie möchtest du dein Ei?\nB: Weichgekocht, bitte.\nA: Drei Minuten?",exampleEn:"A: How would you like your egg?\nB: Soft-boiled, please.\nA: Three minutes?",note:"Neuter: das Ei. Plural: die Eier.\nWeichgekocht = soft-boiled. Hartgekocht = hard-boiled."},
+
+  {type:"teach",kind:"word",nl:"die Marmelade",en:"the jam",phonetic:"dee mar-meh-LAH-deh",cognate:{words:[{lang:"English",word:"marmalade"},{lang:"Dutch",word:"marmelade"}],family:"borrowed"},example:"A: Welche Marmelade möchtest du?\nB: Erdbeermarmelade, bitte!\nA: Hier ist sie.",exampleEn:"A: Which jam would you like?\nB: Strawberry jam, please!\nA: Here it is.",note:"Feminine: die Marmelade.\nIn German this covers ALL fruit jams, not just orange.\nErdbeer = strawberry."},
+
+  {type:"teach",kind:"word",nl:"das Brötchen",en:"the bread roll",phonetic:"dahs BRØT-khen",example:"A: Frische Brötchen!\nB: Toll! Ich nehme zwei.\nA: Bitte sehr.",exampleEn:"A: Fresh bread rolls!\nB: Great! I will take two.\nA: Here you go.",note:"Neuter: das Brötchen.\n-chen ending = always neuter (diminutive suffix).\nBrötchen = little Brot."},
+
+  {type:"teach",kind:"word",nl:"der Käse",en:"the cheese",phonetic:"dehr KAY-zeh",cognate:{words:[{lang:"English",word:"cheese"},{lang:"Dutch",word:"kaas"}],family:"germanic"},example:"A: Hast du Käse?\nB: Ja, Gouda und Emmentaler.\nA: Dann nehme ich Gouda.",exampleEn:"A: Do you have cheese?\nB: Yes, Gouda and Emmentaler.\nA: Then I will have Gouda.",note:"Masculine: der Käse.\nGermany produces 150+ types of cheese."},
+
+  {type:"tip",title:"The -chen Trick",text:"Words ending in -chen are ALWAYS neuter (das):\n\ndas Brötchen (bread roll) from Brot\ndas Mädchen (girl) from Magd\ndas Häuschen (little house) from Haus\n\nWhy? The -chen suffix is a diminutive. Diminutives in German are always neuter, without exception. One of the most reliable article rules you will learn.",deepDive:{title:"Diminutives across Germanic languages",text:"The -chen diminutive (das Brötchen, das Mädchen) is unique to German. Dutch uses -je (broodje, meisje), English once used -kin (napkin, lambkin) and -ling.\n\nAll Germanic diminutives make neuter nouns. The pattern survived in German because Standard German retained neuter assignment as a grammatical rule.\n\nBonus: -lein is another German diminutive (das Büchlein = little book), also always neuter."}},
+
+  {type:"mc",q:"What is the article for Brötchen?",opts:["der","die","das","ein"],ans:"das",hint:"The -chen ending is always neuter."},
+
+  {type:"mc",q:"What is the article for Butter?",opts:["der","das","die","ein"],ans:"die",hint:"Butter is feminine."},
+
+  {type:"fb",s:"Ich möchte ___ mit Butter. (bread)",a:"Brot",opts:["Brot","Käse","Ei","Marmelade"],hint:"The base German bread, neuter."},
+
+  {type:"mc",q:"Weichgekocht describes an egg that is:",opts:["Fried","Scrambled","Soft-boiled","Hard-boiled"],ans:"Soft-boiled",hint:"Weich = soft. Gekocht = cooked."},
+
+  {type:"match",pairs:[{nl:"das Brot",en:"the bread"},{nl:"die Butter",en:"the butter"},{nl:"das Ei",en:"the egg"},{nl:"der Käse",en:"the cheese"}]},
+
+  {type:"mc",q:"Erdbeermarmelade is:",opts:["Orange jam","Strawberry jam","Plum jam","Apricot jam"],ans:"Strawberry jam",hint:"Erdbeer = strawberry. Erde = earth, Beere = berry."},
+
+  {type:"fb",s:"Das ___ hat eine -chen Endung, also ist es Neutrum.",a:"Brötchen",opts:["Brötchen","Käse","Butter","Brot"],hint:"Which breakfast word ends in -chen?"},
+
+  {type:"mc",q:"Which breakfast food has a masculine article?",opts:["das Brot","die Butter","der Käse","das Ei"],ans:"der Käse",hint:"Find the word preceded by der."},
+
+  {type:"mc",q:"Frühstück means:",opts:["Lunch","Dinner","Breakfast","Brunch"],ans:"Breakfast",hint:"Früh = early. Stück = piece. The early meal."},
+
+  {type:"fb",s:"___ Ei, bitte. Weichgekocht. (one egg)",a:"Ein",opts:["Ein","Eine","Einen","Der"],hint:"Indefinite neuter article for das Ei."},
+]},
+
+// ═══ L3: der, die, das ═══
+{id:"deu4l3",title:"der, die, das",icon:"📚",xp:20,board:true,steps:[
+  {type:"intro",title:"der, die, das",desc:"Every German noun has a grammatical gender. Mastering articles is the single most important habit in German. This lesson gives you the rules, tricks, and strategies.",goals:["Definite articles: der, die, das","Gender signals and suffixes","Learning strategies for articles"]},
+
+  {type:"tip",title:"The Three German Articles",text:"German has three definite articles (the):\n\nder = masculine (m)\ndie = feminine (f)\ndas = neuter (n)\n\nEvery noun belongs to one category. This is GRAMMATICAL gender, not natural gender.\n\nColor code:\nder = blue\ndie = coral\ndas = purple\n\nAlways learn the article with the noun. Der Kaffee. Not just Kaffee.",deepDive:{title:"Why gender?",text:"Proto-Germanic had three genders, inherited from Proto-Indo-European. Most modern Germanic languages reduced this: English dropped all three, Dutch merged to two (de/het), Swedish/Danish use two (en/ett).\n\nGerman kept all three. This is one reason German is harder for English speakers than Dutch or Swedish.\n\nThe good news: you only need to assign the right article to the right noun. You do not need to understand WHY Mädchen (girl) is neuter or why Sonne (sun) is feminine. Just learn the word with its article every time."}},
+
+  {type:"tip",title:"Suffix Rules: Reliable Signals",text:"Some endings tell you the gender reliably:\n\nALWAYS die (feminine):\n-ung: die Zeitung, die Übung\n-heit/-keit: die Freiheit, die Möglichkeit\n-schaft: die Freundschaft\n-tion: die Nation, die Station\n-ei: die Bäckerei\n\nALWAYS das (neuter):\n-chen: das Brötchen, das Mädchen\n-lein: das Büchlein\n-um: das Museum\n\nOften der (masculine):\n-er (agent nouns): der Lehrer, der Fahrer",deepDive:{title:"The -tion rule and loanwords",text:"German borrowed thousands of words from Latin and French. Nouns ending in -tion (Station, Nation, Organisation) are ALL feminine (die).\n\nSimilarly:\n-tät (Qualität, Universität) = always die\n-ik (Musik, Physik) = usually die\n-ismus (Tourismus, Idealismus) = always der\n-ment (Instrument, Moment) = usually das\n\nKnowing these suffix rules handles a large proportion of technical and academic vocabulary without memorization."}},
+
+  {type:"teach",kind:"phrase",nl:"der (blau)",en:"masculine article",phonetic:"dehr",example:"A: Was ist das?\nB: Das ist der Kaffee. Der ist sehr gut!\nA: Ah, ein Kaffee für mich auch!",exampleEn:"A: What is that?\nB: That is the coffee. It is very good!\nA: Ah, a coffee for me too!",note:"Masculine nouns: der Kaffee, der Tee, der Saft, der Wein, der Käse.\nColor code: blue."},
+
+  {type:"teach",kind:"phrase",nl:"die (koralle)",en:"feminine article",phonetic:"dee",example:"A: Wo ist die Butter?\nB: Die Butter ist im Kühlschrank.\nA: Danke!",exampleEn:"A: Where is the butter?\nB: The butter is in the fridge.\nA: Thanks!",note:"Feminine nouns: die Butter, die Marmelade, die Suppe, die Kartoffel.\nColor code: coral."},
+
+  {type:"teach",kind:"phrase",nl:"das (lila)",en:"neuter article",phonetic:"dahs",example:"A: Das Brot ist frisch!\nB: Ja, das Brötchen auch.\nA: Und das Wasser?",exampleEn:"A: The bread is fresh!\nB: Yes, the bread roll too.\nA: And the water?",note:"Neuter nouns: das Brot, das Brötchen, das Ei, das Wasser, das Bier.\nColor code: purple."},
+
+  {type:"tip",title:"Learning Strategy: Learn Articles from Day One",text:"The proven strategy for German article mastery:\n\n1. Never learn a noun without its article.\nNot Kaffee. Always: der Kaffee.\n\n2. Use color coding in your notes.\nder = blue, die = coral/red, das = green/gold\n\n3. Group by article when reviewing.\nAll der words together. All die words together.\n\n4. Visualize: give each noun a color tag.\nEvery time you see Kaffee, see it in blue.\n\n5. Accept that some words are surprising.\nMädchen (girl) = das. Accept it and move on.",deepDive:{title:"What happens if you use the wrong article?",text:"Germans will ALWAYS understand you. Wrong articles do not cause misunderstanding.\n\nBut article errors are immediately noticeable, like subject-verb agreement errors in English ('he go' instead of 'he goes').\n\nAt A1-A2, focus on high-frequency nouns and get their articles right. At B1-B2, refine the rest.\n\nProfessional tip: when you truly cannot remember an article, use das as your fallback. German has more neuter nouns than most learners expect, and borrowings and nominalizations are often neuter."}},
+
+  {type:"mc",q:"Which article signals a FEMININE noun?",opts:["der","das","die","ein"],ans:"die",hint:"Three articles: der, die, das. Which is feminine?"},
+
+  {type:"mc",q:"die Zeitung ends in -ung. This suffix is always:",opts:["masculine","neuter","feminine","mixed"],ans:"feminine",hint:"The -ung suffix rule."},
+
+  {type:"fb",s:"___ Brötchen ist frisch. (-chen = always neuter)",a:"Das",opts:["Das","Der","Die","Ein"],hint:"Apply the -chen rule to find the article."},
+
+  {type:"mc",q:"das Mädchen (girl) is neuter because:",opts:["Girls are not gendered in German","It ends in -chen","It is a loanword","There is no rule"],ans:"It ends in -chen",hint:"The -chen diminutive suffix."},
+
+  {type:"match",pairs:[{nl:"der",en:"masculine article"},{nl:"die",en:"feminine article"},{nl:"das",en:"neuter article"},{nl:"-chen",en:"always neuter suffix"}]},
+
+  {type:"mc",q:"die Nation ends in -tion. This rule is useful because:",opts:["All -tion words are feminine","All -tion words are masculine","All -tion words are neuter","The rule only works sometimes"],ans:"All -tion words are feminine",hint:"Loanwords ending in -tion always take die."},
+
+  {type:"fb",s:"___ Butter ist im Kühlschrank. (butter, feminine)",a:"Die",opts:["Die","Der","Das","Eine"],hint:"The definite feminine article."},
+
+  {type:"mc",q:"The color code for der (masculine) in LingoVerse is:",opts:["coral","purple","gold","blue"],ans:"blue",hint:"der = blue, die = coral, das = purple."},
+
+  {type:"mc",q:"When you cannot remember an article, the safest fallback is:",opts:["der","die","das","ein"],ans:"das",hint:"Many borrowings and nominalizations are neuter."},
+
+  {type:"fb",s:"___ Kaffee, bitte. (masculine definite article)",a:"Der",opts:["Der","Die","Das","Ein"],hint:"Kaffee is masculine."},
+
+  {type:"mc",q:"Which suffix reliably signals a masculine (der) noun?",opts:["-ung","-keit","-er (from a verb)","-tion"],ans:"-er (from a verb)",hint:"Agent nouns ending in -er are usually masculine. Der Lehrer, der Fahrer."},
+]},
+
+// ═══ L4: Mittagessen ═══
+{id:"deu4l4",title:"Mittagessen",icon:"🍜",xp:15,board:true,steps:[
+  {type:"intro",title:"Mittagessen",desc:"Lunch is the main meal in many German-speaking countries. Learn the essential lunch foods and practice their articles.",goals:["6 lunch foods","Feminine and neuter articles in new words","Use food vocabulary naturally"]},
+
+  {type:"teach",kind:"word",nl:"die Suppe",en:"the soup",phonetic:"dee ZUP-eh",cognate:{words:[{lang:"English",word:"soup"},{lang:"Dutch",word:"soep"}],family:"borrowed"},example:"A: Was ist die Tagessuppe?\nB: Tomatensuppe!\nA: Sehr gut, die bitte.",exampleEn:"A: What is the soup of the day?\nB: Tomato soup!\nA: Very good, that one please.",note:"Feminine: die Suppe.\nTagessuppe = soup of the day. Tomatensuppe = tomato soup."},
+
+  {type:"teach",kind:"word",nl:"der Salat",en:"the salad",phonetic:"dehr zah-LAHT",cognate:{words:[{lang:"English",word:"salad"},{lang:"Dutch",word:"salade"}],family:"borrowed"},example:"A: Ich nehme einen gemischten Salat.\nB: Mit Dressing?\nA: Ja, Essig und Öl bitte.",exampleEn:"A: I will have a mixed salad.\nB: With dressing?\nA: Yes, vinegar and oil please.",note:"Masculine: der Salat.\nGemischter Salat = mixed salad. Essig = vinegar. Öl = oil."},
+
+  {type:"teach",kind:"word",nl:"das Fleisch",en:"the meat",phonetic:"dahs flysh",cognate:{words:[{lang:"English",word:"flesh"},{lang:"Dutch",word:"vlees"}],family:"germanic"},example:"A: Essen Sie Fleisch?\nB: Ja, aber kein Schweinefleisch.\nA: Wir haben Rindfleisch und Hühnchen.",exampleEn:"A: Do you eat meat?\nB: Yes, but no pork.\nA: We have beef and chicken.",note:"Neuter: das Fleisch.\nSchweinefleisch = pork (Schwein = pig).\nRindfleisch = beef (Rind = cattle)."},
+
+  {type:"teach",kind:"word",nl:"der Fisch",en:"the fish",phonetic:"dehr fish",cognate:{words:[{lang:"English",word:"fish"},{lang:"Dutch",word:"vis"}],family:"germanic"},example:"A: Haben Sie frischen Fisch?\nB: Ja! Lachs und Forelle.\nA: Lachs, bitte.",exampleEn:"A: Do you have fresh fish?\nB: Yes! Salmon and trout.\nA: Salmon, please.",note:"Masculine: der Fisch.\nLachs = salmon. Forelle = trout."},
+
+  {type:"teach",kind:"word",nl:"die Kartoffel",en:"the potato",phonetic:"dee kar-TOF-el",example:"A: Möchten Sie Kartoffeln oder Reis?\nB: Kartoffeln, bitte. Gekocht?\nA: Ja, mit Butter.",exampleEn:"A: Would you like potatoes or rice?\nB: Potatoes, please. Boiled?\nA: Yes, with butter.",note:"Feminine: die Kartoffel. Plural: Kartoffeln.\nA staple of German cuisine."},
+
+  {type:"teach",kind:"word",nl:"der Reis",en:"the rice",phonetic:"dehr ryes",cognate:{words:[{lang:"English",word:"rice"},{lang:"Dutch",word:"rijst"}],family:"borrowed"},example:"A: Kommt der Reis dazu?\nB: Ja, der Reis ist inklusive.\nA: Super!",exampleEn:"A: Does the rice come with it?\nB: Yes, the rice is included.\nA: Great!",note:"Masculine: der Reis.\nReis sounds very close to English rice.\nInklusive = included."},
+
+  {type:"tip",title:"Lunch Plate Patterns",text:"A typical German Mittagessen has three components:\n\nHauptgericht = main course (often Fleisch or Fisch)\nBeilage = side dish (Kartoffeln, Reis, Gemüse)\nNachtisch = dessert\n\nIn cafeterias (Kantine) and restaurants, you often choose:\nGericht 1 (vegetarian), Gericht 2 (meat), Gericht 3 (fish)\n\nKantine = company or school cafeteria. Mensa = university cafeteria.",deepDive:{title:"German lunch culture",text:"Traditionally, Mittagessen is the main hot meal of the day in Germany, eaten between 12 and 2 PM. Abendessen (dinner) is often a cold meal of bread, cheese, and cold cuts called Abendbrot (evening bread).\n\nThis differs from the English-speaking pattern where dinner is the main hot meal. When studying in Germany, expect the university Mensa to be packed from noon to 1:30 PM.\n\nKantine = company/school cafeteria. Mensa = university cafeteria. Both serve a rotating daily menu at low prices."}},
+
+  {type:"mc",q:"What is the article for Suppe?",opts:["der","das","die","ein"],ans:"die",hint:"Suppe is feminine."},
+
+  {type:"mc",q:"What is the article for Fleisch?",opts:["der","die","das","ein"],ans:"das",hint:"Fleisch is neuter."},
+
+  {type:"fb",s:"Ich nehme ___ Salat. (the salad, use accusative: der becomes den)",a:"den",opts:["den","die","das","der"],hint:"Masculine accusative: der becomes den after nehmen."},
+
+  {type:"mc",q:"Schweinefleisch means:",opts:["Beef","Pork","Chicken","Lamb"],ans:"Pork",hint:"Schwein = pig. Fleisch = meat."},
+
+  {type:"match",pairs:[{nl:"die Suppe",en:"the soup"},{nl:"der Salat",en:"the salad"},{nl:"das Fleisch",en:"the meat"},{nl:"der Fisch",en:"the fish"}]},
+
+  {type:"mc",q:"Beilage refers to:",opts:["The starter","The main course","A side dish","The dessert"],ans:"A side dish",hint:"Kartoffeln, Reis, and Gemüse are typical Beilagen."},
+
+  {type:"fb",s:"Möchten Sie ___ oder Reis? (potatoes)",a:"Kartoffeln",opts:["Kartoffeln","Suppe","Salat","Fleisch"],hint:"Plural of die Kartoffel."},
+
+  {type:"mc",q:"Which food is masculine (der)?",opts:["die Kartoffel","das Fleisch","der Fisch","die Suppe"],ans:"der Fisch",hint:"Check the article on each option."},
+
+  {type:"mc",q:"Nachtisch in a German meal context means:",opts:["Main course","Starter","Dessert","Side dish"],ans:"Dessert",hint:"Nach = after. Tisch = table. The after-table course."},
+
+  {type:"fb",s:"Lachs und Forelle sind Arten von ___.",a:"Fisch",opts:["Fisch","Fleisch","Suppe","Reis"],hint:"Salmon and trout are both types of..."},
+]},
+
+// ═══ L5: Im Restaurant ═══
+{id:"deu4l5",title:"Im Restaurant",icon:"🍴",xp:20,board:true,steps:[
+  {type:"intro",title:"Im Restaurant",desc:"Order food and drink, ask for the bill, and navigate a German restaurant with confidence. These phrases work in cafés, restaurants, and canteens.",goals:["Ich möchte and Ich hätte gern","Key restaurant phrases","Ask for the bill politely"]},
+
+  {type:"teach",kind:"phrase",nl:"Ich möchte...",en:"I would like...",phonetic:"ikh MØKH-teh",example:"A: Was darf es sein?\nB: Ich möchte eine Suppe, bitte.\nA: Sofort!",exampleEn:"A: What can I get you?\nB: I would like a soup, please.\nA: Right away!",note:"Möchte is the polite want form. More polite than ich will.\nIch will = I want (blunt, slightly demanding).\nIch möchte = I would like (standard polite)."},
+
+  {type:"teach",kind:"phrase",nl:"Ich hätte gern...",en:"I would gladly have...",phonetic:"ikh HET-eh gehrn",example:"A: Was hätten Sie gern?\nB: Ich hätte gern den Lachs.\nA: Ausgezeichnet!",exampleEn:"A: What would you like?\nB: I would gladly have the salmon.\nA: Excellent!",note:"More formal and elegant than Ich möchte.\nUsed in upscale restaurants.\nHätte = would have (Konjunktiv II). Gern = gladly."},
+
+  {type:"teach",kind:"phrase",nl:"Die Speisekarte, bitte",en:"The menu, please",phonetic:"dee SHPY-zeh-kar-teh BIT-teh",example:"A: Guten Abend! Willkommen.\nB: Danke! Die Speisekarte, bitte.\nA: Hier bitte!",exampleEn:"A: Good evening! Welcome.\nB: Thank you! The menu, please.\nA: Here you go!",note:"Speise = food. Karte = card or menu.\nDie Speisekarte = the menu (feminine)."},
+
+  {type:"teach",kind:"phrase",nl:"Was empfehlen Sie?",en:"What do you recommend?",phonetic:"vahs emp-FAY-len zee",example:"A: Was empfehlen Sie heute?\nB: Der Lachs ist sehr frisch!\nA: Dann nehme ich den Lachs.",exampleEn:"A: What do you recommend today?\nB: The salmon is very fresh!\nA: Then I will have the salmon.",note:"Empfehlen = to recommend.\nSie = formal you. A useful question in any restaurant."},
+
+  {type:"teach",kind:"phrase",nl:"Die Rechnung, bitte",en:"The bill, please",phonetic:"dee REKH-noong BIT-teh",example:"A: Entschuldigung! Die Rechnung, bitte.\nB: Sofort! Zusammen oder getrennt?\nA: Zusammen, bitte.",exampleEn:"A: Excuse me! The bill, please.\nB: Right away! Together or separate?\nA: Together, please.",note:"Rechnung = bill or invoice.\nDie Rechnung is feminine.\nZahlen, bitte! = Pay, please (very direct but used)."},
+
+  {type:"teach",kind:"phrase",nl:"Getrennt oder zusammen?",en:"Separate or together?",phonetic:"geh-TRENT OH-der tsoo-ZAH-men",example:"A: Die Rechnung, bitte!\nB: Getrennt oder zusammen?\nA: Getrennt, bitte.",exampleEn:"A: The bill, please!\nB: Separate or together?\nA: Separate, please.",note:"Common waiter question for groups.\nGetrennt = separate. Zusammen = together."},
+
+  {type:"teach",kind:"phrase",nl:"Das schmeckt sehr gut!",en:"That tastes very good!",phonetic:"dahs shMEKT zehr goot",example:"A: Wie ist das Essen?\nB: Das schmeckt sehr gut!\nA: Das freut mich!",exampleEn:"A: How is the food?\nB: That tastes very good!\nA: That makes me happy!",note:"Schmecken = to taste. Schmeckt = tastes (3rd person).\nA natural compliment for the cook or waiter."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin Vegetarier/Vegetarierin",en:"I am vegetarian",phonetic:"ikh bin veh-geh-TAR-ee-er",example:"A: Haben Sie vegetarische Gerichte?\nB: Ja! Ich bin Vegetarierin.\nA: Hier ist unsere vegetarische Karte.",exampleEn:"A: Do you have vegetarian dishes?\nB: Yes! I am vegetarian.\nA: Here is our vegetarian menu.",note:"Vegetarier = male form. Vegetarierin = female form.\nVegetarische Gerichte = vegetarian dishes."},
+
+  {type:"tip",title:"Restaurant Etiquette in Germany",text:"A few customs that differ from other countries:\n\n1. Seating: You seat yourself unless a sign says Bitte warten.\n2. Water: Not automatically free. Tap water is rarely served unless asked.\n3. Tipping: Round up or add 10%. Say the total when paying.\n4. Bill: Germans often split individually (Getrennt zahlen).\n5. Payment: Zahlen Sie bar oder mit Karte? (Cash or card?)",deepDive:{title:"Bar oder Karte? German payment culture",text:"Germany remains strongly cash-oriented compared to most of Western Europe. Many restaurants, bakeries, and small shops are Nur Bar (cash only).\n\nWhen paying, you tell the waiter the exact amount: Stimmt so (= keep the change). Or: Machen Sie 23 Euro (= make it 23 euros, the rest is a tip).\n\nThis direct approach with tipping is normal and not considered impolite."}},
+
+  {type:"mc",q:"The polite way to order in German is:",opts:["Ich will Kaffee","Ich möchte Kaffee, bitte","Gib mir Kaffee","Kaffee jetzt"],ans:"Ich möchte Kaffee, bitte",hint:"Möchte is the polite want form."},
+
+  {type:"mc",q:"Die Rechnung, bitte means:",opts:["A menu, please","The bill, please","The reservation, please","More water, please"],ans:"The bill, please",hint:"Rechnung = bill or invoice."},
+
+  {type:"fb",s:"___ empfehlen Sie? (What do you recommend?)",a:"Was",opts:["Was","Wie","Wer","Wo"],hint:"The question word for what."},
+
+  {type:"mc",q:"Ich hätte gern is used in:",opts:["Casual fast food orders","Upscale restaurant orders","Street market haggling","Supermarket self-checkout"],ans:"Upscale restaurant orders",hint:"Hätte = Konjunktiv II form. More elegant than möchte."},
+
+  {type:"match",pairs:[{nl:"Ich möchte...",en:"I would like..."},{nl:"Die Rechnung, bitte",en:"The bill, please"},{nl:"Was empfehlen Sie?",en:"What do you recommend?"},{nl:"Getrennt oder zusammen?",en:"Separate or together?"}]},
+
+  {type:"mc",q:"In Germany, water at a restaurant is typically:",opts:["Always free","Always sparkling","Not automatically free","Only served in summer"],ans:"Not automatically free",hint:"German restaurants charge for water. Tap water is rarely served free."},
+
+  {type:"fb",s:"Das ___ sehr gut! (That tastes very good!)",a:"schmeckt",opts:["schmeckt","ist","trinkt","hat"],hint:"The verb schmecken conjugated for 3rd person singular."},
+
+  {type:"mc",q:"Stimmt so when paying means:",opts:["That is correct change","Keep the change","Can I pay by card?","The bill is wrong"],ans:"Keep the change",hint:"German tipping custom: the waiter keeps the rest."},
+
+  {type:"mc",q:"Vegetarische Gerichte means:",opts:["Meat dishes","Seafood dishes","Vegetarian dishes","Daily specials"],ans:"Vegetarian dishes",hint:"Vegetarisch = vegetarian. Gerichte = dishes."},
+]},
+
+// ═══ L6: Obst & Gemüse ═══
+{id:"deu4l6",title:"Obst & Gemüse",icon:"🍎",xp:15,board:true,steps:[
+  {type:"intro",title:"Obst & Gemüse",desc:"Fruits and vegetables are essential vocabulary for shopping, cooking, and healthy eating. Learn five common ones with their articles.",goals:["5 fruits and vegetables","Articles for new nouns","Market and shopping vocabulary"]},
+
+  {type:"teach",kind:"word",nl:"der Apfel",en:"the apple",phonetic:"dehr AP-fel",cognate:{words:[{lang:"English",word:"apple"},{lang:"Dutch",word:"appel"}],family:"germanic"},example:"A: Wie viele Äpfel möchten Sie?\nB: Sechs Äpfel, bitte.\nA: Sehr gut!",exampleEn:"A: How many apples would you like?\nB: Six apples, please.\nA: Very good!",note:"Masculine: der Apfel. Plural: die Äpfel (umlaut!).\nÄpfel: common umlaut plural pattern."},
+
+  {type:"teach",kind:"word",nl:"die Banane",en:"the banana",phonetic:"dee bah-NAH-neh",cognate:{words:[{lang:"English",word:"banana"},{lang:"Dutch",word:"banaan"}],family:"borrowed"},example:"A: Ich kaufe zwei Bananen.\nB: Die sind sehr reif!\nA: Prima!",exampleEn:"A: I am buying two bananas.\nB: Those are very ripe!\nA: Great!",note:"Feminine: die Banane. Plural: Bananen.\nReif = ripe. Unreif = unripe."},
+
+  {type:"teach",kind:"word",nl:"die Tomate",en:"the tomato",phonetic:"dee toh-MAH-teh",cognate:{words:[{lang:"English",word:"tomato"},{lang:"Dutch",word:"tomaat"}],family:"borrowed"},example:"A: Haben Sie frische Tomaten?\nB: Ja! Diese hier sind toll.\nA: Ein Kilo, bitte.",exampleEn:"A: Do you have fresh tomatoes?\nB: Yes! These here are great.\nA: One kilo, please.",note:"Feminine: die Tomate. Plural: Tomaten.\nEin Kilo = one kilogram. Common market unit."},
+
+  {type:"teach",kind:"word",nl:"die Gurke",en:"the cucumber",phonetic:"dee GOOR-keh",example:"A: Frische Gurken!\nB: Zwei für einen Euro!\nA: Ich nehme vier, bitte.",exampleEn:"A: Fresh cucumbers!\nB: Two for one euro!\nA: I will take four, please.",note:"Feminine: die Gurke. Plural: Gurken.\nA common salad and snack vegetable."},
+
+  {type:"teach",kind:"word",nl:"die Zwiebel",en:"the onion",phonetic:"dee TSVEE-bel",example:"A: Brauchst du Zwiebeln?\nB: Ja, drei Zwiebeln bitte.\nA: Hier!",exampleEn:"A: Do you need onions?\nB: Yes, three onions please.\nA: Here!",note:"Feminine: die Zwiebel. Plural: Zwiebeln.\nBase of many German sauces and stews."},
+
+  {type:"tip",title:"Obst vs Gemüse",text:"Two important category words:\n\nObst = fruit (das Obst, neuter, uncountable)\nGemüse = vegetables (das Gemüse, neuter, uncountable)\n\nUse them when shopping:\nIch suche das Obst. = I am looking for the fruit section.\nHaben Sie frisches Gemüse? = Do you have fresh vegetables?\n\nNote: individual fruits use their own article (der Apfel, die Banane), but the category word Obst is always das.",deepDive:{title:"At the German Wochenmarkt",text:"Germany has vibrant weekly markets (Wochenmärkte) in almost every town and city, open on Saturday mornings (and often Wednesday).\n\nUseful phrases:\nWas kostet ein Kilo? = What does a kilo cost?\nIch hätte gern 500 Gramm. = I would like 500 grams.\nDas macht... Euro. = That comes to... euros.\nEinen schönen Tag! = Have a nice day!\n\nMarket German is fast and friendly."}},
+
+  {type:"mc",q:"What is the article for Apfel?",opts:["die","das","der","ein"],ans:"der",hint:"Apfel is masculine."},
+
+  {type:"mc",q:"What is the article for Tomate?",opts:["der","das","die","ein"],ans:"die",hint:"Tomate is feminine."},
+
+  {type:"fb",s:"Ich kaufe ___ Bananen. (two bananas)",a:"zwei",opts:["zwei","drei","vier","eins"],hint:"The number 2 in German."},
+
+  {type:"mc",q:"Das Gemüse refers to:",opts:["A single carrot","Vegetables as a category","A vegetable dish","A fruit salad"],ans:"Vegetables as a category",hint:"Gemüse is the collective word for all vegetables."},
+
+  {type:"match",pairs:[{nl:"der Apfel",en:"the apple"},{nl:"die Banane",en:"the banana"},{nl:"die Tomate",en:"the tomato"},{nl:"die Zwiebel",en:"the onion"}]},
+
+  {type:"mc",q:"Reif describes a banana that is:",opts:["Green and unripe","Yellow and ripe","Overripe and brown","Frozen"],ans:"Yellow and ripe",hint:"Reif = ripe. The opposite is unreif."},
+
+  {type:"fb",s:"___ Kilo Tomaten, bitte. (one kilo)",a:"Ein",opts:["Ein","Zwei","Drei","Vier"],hint:"The number 1 before a measurement."},
+
+  {type:"mc",q:"Which fruit or vegetable is MASCULINE (der)?",opts:["die Banane","die Gurke","der Apfel","die Tomate"],ans:"der Apfel",hint:"Check the article shown next to each word."},
+
+  {type:"mc",q:"A Wochenmarkt typically happens:",opts:["Every evening","On weekdays only","Once a week, often Saturday","Every day at noon"],ans:"Once a week, often Saturday",hint:"Wochen = week. Markt = market."},
+
+  {type:"fb",s:"Haben Sie frische ___? (cucumbers, plural)",a:"Gurken",opts:["Gurken","Äpfel","Bananen","Tomaten"],hint:"Plural of die Gurke."},
+
+  {type:"mc",q:"Which of these fruits and vegetables is FEMININE (die)?",opts:["der Apfel","die Tomate","das Gemüse","das Obst"],ans:"die Tomate",hint:"Check the article shown with each word."},
+]},
+
+// ═══ L7: Schmeckt gut! ═══
+{id:"deu4l7",title:"Schmeckt gut!",icon:"😋",xp:15,board:true,steps:[
+  {type:"intro",title:"Schmeckt gut!",desc:"How do you describe what you taste? Learn the German words for flavors and opinions about food, and start expressing preferences.",goals:["6 taste and opinion words","Schmeckt and gern patterns","Express food preferences"]},
+
+  {type:"teach",kind:"word",nl:"lecker",en:"delicious / yummy",phonetic:"LEK-er",example:"A: Wie ist die Suppe?\nB: Lecker! Sehr lecker!\nA: Das freut mich wirklich.",exampleEn:"A: How is the soup?\nB: Delicious! Very delicious!\nA: That really makes me happy.",note:"The most common positive food word in German.\nLecker alone = Yum! Very natural in any food context."},
+
+  {type:"teach",kind:"word",nl:"süß",en:"sweet",phonetic:"züss",example:"A: Ist der Kuchen süß?\nB: Ja, sehr süß! Magst du Süßes?\nA: Natürlich!",exampleEn:"A: Is the cake sweet?\nB: Yes, very sweet! Do you like sweet things?\nA: Of course!",note:"ü umlaut: round lips and say ee.\nSüß also means cute in casual speech.\nSüßigkeiten = sweets or candy."},
+
+  {type:"teach",kind:"word",nl:"salzig",en:"salty",phonetic:"ZAL-tsikh",example:"A: Wie sind die Chips?\nB: Zu salzig! Ich brauche Wasser.\nA: Hier!",exampleEn:"A: How are the chips?\nB: Too salty! I need water.\nA: Here!",note:"Salz = salt. Salzig = salty.\nZu salzig = too salty. Zu = too (excess)."},
+
+  {type:"teach",kind:"word",nl:"scharf",en:"spicy / hot",phonetic:"shahrf",example:"A: Ist das Curry scharf?\nB: Ja, sehr scharf! Magst du scharf?\nA: Ja, ich liebe scharfes Essen!",exampleEn:"A: Is the curry spicy?\nB: Yes, very spicy! Do you like spicy?\nA: Yes, I love spicy food!",note:"Scharf = sharp or spicy in food context.\nAlso: scharf = sharp (knife), keen (eye).\nContext makes meaning clear."},
+
+  {type:"teach",kind:"word",nl:"sauer",en:"sour / acidic",phonetic:"ZOW-er",cognate:{words:[{lang:"English",word:"sour"},{lang:"Dutch",word:"zuur"}],family:"germanic"},example:"A: Wie ist die Zitrone?\nB: Sauer! Sehr sauer.\nA: Das mag ich!",exampleEn:"A: How is the lemon?\nB: Sour! Very sour.\nA: I like that!",note:"Sauer = sour. Cognate with English sour.\nSauerkraut = sour cabbage (fermented). A German classic."},
+
+  {type:"teach",kind:"word",nl:"bitter",en:"bitter",phonetic:"BIT-ter",cognate:{words:[{lang:"English",word:"bitter"},{lang:"Dutch",word:"bitter"}],family:"germanic"},example:"A: Magst du dunkle Schokolade?\nB: Nein, sie ist zu bitter.\nA: Ich liebe es bitter!",exampleEn:"A: Do you like dark chocolate?\nB: No, it is too bitter.\nA: I love it bitter!",note:"Bitter is identical in English and German.\nDunkle Schokolade = dark chocolate."},
+
+  {type:"tip",title:"Schmeckt + Taste Description",text:"The key verb for food opinions:\n\nEs schmeckt gut. = It tastes good.\nEs schmeckt lecker. = It tastes delicious.\nEs schmeckt zu salzig. = It tastes too salty.\nEs schmeckt scharf. = It tastes spicy.\n\nPattern: Es schmeckt + adjective\n\nPersonal preference:\nIch mag süßes Essen. = I like sweet food.\nIch esse gern Fisch. = I like eating fish.\ngern with a verb = gladly = expressing liking.",deepDive:{title:"German food adjective patterns",text:"When an adjective follows a verb (predicate adjective), it does NOT change form:\nDas Essen ist lecker.\nDer Kuchen ist süß.\nDie Suppe ist salzig.\n\nWhen an adjective comes BEFORE a noun (attributive adjective), it DOES change:\nLeckeres Essen (neuter)\nSüßer Kuchen (masculine)\nSalzige Suppe (feminine)\n\nYou will study adjective endings formally in A2 and B1. For now, use the predicate form (after the verb). It always works in Es schmeckt... sentences."}},
+
+  {type:"teach",kind:"phrase",nl:"Schmeckt es dir?",en:"Does it taste good to you?",phonetic:"shMEKT es deer",example:"A: Schmeckt es dir?\nB: Ja! Sehr lecker!\nA: Wunderbar!",exampleEn:"A: Does it taste good to you?\nB: Yes! Very delicious!\nA: Wonderful!",note:"Schmeckt es dir? = casual.\nSchmeckt es Ihnen? = formal.\nDir = dative of du. Pattern from Unit 1: Wie geht es dir."},
+
+  {type:"mc",q:"The most common positive food word in German is:",opts:["gut","schön","lecker","nett"],ans:"lecker",hint:"The go-to word when food tastes good."},
+
+  {type:"mc",q:"Zu salzig means:",opts:["A little salty","Very salty","Too salty","Not salty"],ans:"Too salty",hint:"Zu + adjective = too + adjective."},
+
+  {type:"fb",s:"Es ___ sehr lecker! (It tastes very delicious!)",a:"schmeckt",opts:["schmeckt","ist","hat","mag"],hint:"The verb schmecken conjugated for es."},
+
+  {type:"mc",q:"Scharf in a food context means:",opts:["Cold","Sweet","Spicy","Sour"],ans:"Spicy",hint:"Also means sharp in other contexts."},
+
+  {type:"match",pairs:[{nl:"lecker",en:"delicious"},{nl:"süß",en:"sweet"},{nl:"salzig",en:"salty"},{nl:"scharf",en:"spicy"}]},
+
+  {type:"mc",q:"Sauerkraut literally means:",opts:["Sour cabbage","Spicy herb","Bitter greens","Sweet pickles"],ans:"Sour cabbage",hint:"Sauer = sour. Kraut = herb or cabbage."},
+
+  {type:"fb",s:"Ich esse gern ___. Das ist sehr lecker! (fish)",a:"Fisch",opts:["Fisch","Fleisch","Brot","Salat"],hint:"The masculine noun for fish, taught in L4."},
+
+  {type:"mc",q:"Ich esse gern Fisch means:",opts:["I must eat fish","I dislike fish","I like eating fish","I always eat fish"],ans:"I like eating fish",hint:"Gern with a verb = gladly = expressing liking."},
+
+  {type:"mc",q:"Schmeckt es Ihnen? is used when speaking to:",opts:["A child","A close friend","A formal adult","A classmate"],ans:"A formal adult",hint:"Ihnen is the formal dative of Sie."},
+
+  {type:"fb",s:"Dunkle Schokolade ist ___. (bitter)",a:"bitter",opts:["bitter","süß","lecker","salzig"],hint:"Dark chocolate has a characteristically bitter taste."},
+]},
+
+// ═══ L8: Essen Review ═══
+{id:"deu4l8",title:"Essen Review",icon:"🌟",xp:25,board:true,steps:[
+  {type:"intro",title:"Essen Review",desc:"You have completed Unit 4! This lesson brings together all the food, drink, articles, restaurant phrases, and taste vocabulary you have learned.",goals:["Review all U4 food and drink","Practice der/die/das in context","Combine ordering and taste expressions"]},
+
+  {type:"tip",title:"Unit 4 Summary",text:"You can now:\n\nDrinks: der Kaffee, der Tee, das Wasser, der Saft, das Bier, der Wein\nBreakfast: das Brot, die Butter, das Ei, die Marmelade, das Brötchen, der Käse\nLunch: die Suppe, der Salat, das Fleisch, der Fisch, die Kartoffel, der Reis\nFruits/Veg: der Apfel, die Banane, die Tomate, die Gurke, die Zwiebel\nTaste: lecker, süß, salzig, scharf, sauer, bitter\nOrder: Ich möchte, Ich hätte gern, Die Rechnung bitte\nArticles: der (m/blue), die (f/coral), das (n/purple)",deepDive:{title:"Your first German restaurant conversation",text:"You now have the full toolkit for ordering food in German:\n\nA: Guten Abend! Ich hätte gern die Speisekarte.\nB: Hier bitte!\nA: Danke. Ich möchte die Suppe und dann den Lachs.\nB: Sehr gut. Und zu trinken?\nA: Ein Wasser, bitte. Stilles Wasser.\nB: Natürlich!\n(after eating)\nA: Das hat sehr gut geschmeckt! Die Rechnung, bitte.\nB: Sofort! Zusammen oder getrennt?\nA: Zusammen, bitte.\n\nRead this out loud. Every word came from Unit 4."}},
+
+  {type:"mc",q:"What is the article for Bier?",opts:["der","die","das","ein"],ans:"das",hint:"Beer is neuter."},
+
+  {type:"mc",q:"What is the article for Suppe?",opts:["der","das","die","ein"],ans:"die",hint:"Soup is feminine."},
+
+  {type:"fb",s:"Ich ___ gern einen Kaffee. (I would like...)",a:"möchte",opts:["möchte","bin","habe","mache"],hint:"Polite ordering verb."},
+
+  {type:"mc",q:"The -chen suffix rule means das Brötchen is:",opts:["masculine","feminine","neuter","unpredictable"],ans:"neuter",hint:"-chen endings are ALWAYS neuter."},
+
+  {type:"match",pairs:[{nl:"lecker",en:"delicious"},{nl:"scharf",en:"spicy"},{nl:"sauer",en:"sour"},{nl:"bitter",en:"bitter"}]},
+
+  {type:"mc",q:"Die Rechnung, bitte is said when:",opts:["You want the menu","You arrive at the restaurant","You want to pay and leave","You need more water"],ans:"You want to pay and leave",hint:"Rechnung = bill."},
+
+  {type:"fb",s:"Der Salat ist frisch. Er schmeckt ___.",a:"gut",opts:["gut","salzig","scharf","sauer"],hint:"If it is fresh and good, it tastes..."},
+
+  {type:"mc",q:"Which food has a masculine article (der)?",opts:["das Fleisch","die Kartoffel","der Fisch","die Tomate"],ans:"der Fisch",hint:"Find the masculine article."},
+
+  {type:"mc",q:"Ich hätte gern is more formal than:",opts:["Ich will","Ich möchte","Bitte geben","Ich brauche"],ans:"Ich möchte",hint:"Hätte gern is the most polite ordering form."},
+
+  {type:"fb",s:"___ Apfel, bitte. (one apple, masculine accusative)",a:"Einen",opts:["Einen","Eine","Ein","Der"],hint:"Masculine accusative indefinite article: ein becomes einen."},
+
+  {type:"mc",q:"Obst and Gemüse both take the article:",opts:["der","die","das","kein"],ans:"das",hint:"Both category words are neuter."},
+
+  {type:"mc",q:"Zu süß means:",opts:["A little sweet","Too sweet","Not sweet","Very sweet"],ans:"Too sweet",hint:"Zu + adjective = too + adjective."},
+
+  {type:"match",pairs:[{nl:"das Brot",en:"the bread"},{nl:"der Reis",en:"the rice"},{nl:"das Ei",en:"the egg"},{nl:"die Butter",en:"the butter"}]},
+
+  {type:"mc",q:"Stimmt so when paying in a restaurant means:",opts:["That is correct, I need change","Keep the change","Can I pay by card?","The bill is wrong"],ans:"Keep the change",hint:"German tipping custom: tell the waiter to keep the rest."},
+
+  {type:"fb",s:"Haben Sie ___? Ich bin Vegetarierin. (vegetarian dishes)",a:"vegetarische Gerichte",opts:["vegetarische Gerichte","Fleischgerichte","Fischgerichte","Tagessuppe"],hint:"Asking for vegetarian options."},
+
+  {type:"mc",q:"Which drink pair both have der as their article?",opts:["Wasser und Bier","Kaffee und Tee","Bier und Saft","Tee und Wasser"],ans:"Kaffee und Tee",hint:"Both hot drinks from L1 were masculine."},
 ]},
 
 ]},
