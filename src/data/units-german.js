@@ -325,6 +325,338 @@ export default [
 
 ]},
 
+
+// ── UNIT 2: Ich bin... ──
+{n:2,lang:"de",track:"v1",title:"Ich bin...",sub:"Self-introduction & Nationality",icon:"\u{1F4DB}",level:"A1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Ich heiße... ═══
+{id:"deu2l1",title:"Ich hei\u00dfe...",icon:"\u{1F4DB}",xp:15,board:true,steps:[
+  {type:"intro",title:"Ich hei\u00dfe...",desc:"Time to introduce yourself in German! In this lesson you learn how to say your name, ask for someone else's name, and respond politely in a first meeting.",goals:["Say your name with Ich hei\u00dfe and Mein Name ist","Ask for a name formally and informally","Complete a mini self-introduction"]},
+
+  {type:"teach",kind:"phrase",nl:"Ich hei\u00dfe...",en:"My name is... / I am called...",phonetic:"ikh HY-suh",example:"A: Guten Tag! Ich hei\u00dfe Lena Brandt.\nB: Hallo! Ich hei\u00dfe Kai. Freut mich!\nA: Freut mich auch!",exampleEn:"A: Good day! My name is Lena Brandt.\nB: Hello! My name is Kai. Nice to meet you!\nA: Nice to meet you too!",note:"Ich hei\u00dfe = I am called. Most natural way to give your name in spoken German.",cognate:{words:[{lang:"English",word:"I am called"}],family:"germanic"}},
+
+  {type:"teach",kind:"phrase",nl:"Mein Name ist...",en:"My name is... (formal variant)",phonetic:"myn NAH-muh ist",example:"A: Darf ich fragen, wie Ihr Name ist?\nB: Mein Name ist Thomas M\u00fcller.\nA: Angenehm, Herr M\u00fcller.",exampleEn:"A: May I ask what your name is?\nB: My name is Thomas Mueller.\nA: Pleased to meet you, Mr. Mueller.",note:"Slightly more formal than Ich hei\u00dfe.\nUsed on forms, phone calls, and formal introductions."},
+
+  {type:"teach",kind:"phrase",nl:"Wie hei\u00dfen Sie?",en:"What is your name? (formal)",phonetic:"vee HY-suhn zee",example:"A: Entschuldigung, wie hei\u00dfen Sie?\nB: Ich hei\u00dfe Petra Wagner. Und Sie?\nA: Mein Name ist Bernd Koch.",exampleEn:"A: Excuse me, what is your name?\nB: My name is Petra Wagner. And you?\nA: My name is Bernd Koch.",note:"Formal register. Use with strangers, authority figures, and people older than you.\nSie = formal you (always capitalized)."},
+
+  {type:"teach",kind:"phrase",nl:"Wie hei\u00dft du?",en:"What is your name? (informal)",phonetic:"vee hysst doo",example:"A: Hey! Ich bin neu hier. Wie hei\u00dft du?\nB: Ich hei\u00dfe Jonas. Und du?\nA: Ich hei\u00dfe Emma. Nett, dich kennenzulernen!",exampleEn:"A: Hey! I am new here. What is your name?\nB: My name is Jonas. And you?\nA: My name is Emma. Nice to meet you!",note:"Informal register. Use with peers, children, and friends.\ndu = informal you (lowercase)."},
+
+  {type:"teach",kind:"phrase",nl:"Und Sie? / Und du?",en:"And you? (formal / informal)",phonetic:"oont zee / oont doo",example:"A: Mein Name ist Clara. Und Sie?\nB: Freut mich, Clara. Ich hei\u00dfe Dr. Weber.\nA: Guten Tag, Dr. Weber!",exampleEn:"A: My name is Clara. And you?\nB: Nice to meet you, Clara. My name is Dr. Weber.\nA: Good day, Dr. Weber!",note:"Used to bounce the question back.\nSie = formal, du = informal. Match the register of the conversation."},
+
+  {type:"teach",kind:"phrase",nl:"Freut mich!",en:"Nice to meet you!",phonetic:"froyt mikh",example:"A: Ich hei\u00dfe Sofia. Das ist mein Kollege Markus.\nB: Freut mich, Sofia!\nA: Freut mich auch, Markus.",exampleEn:"A: My name is Sofia. This is my colleague Markus.\nB: Nice to meet you, Sofia!\nA: Nice to meet you too, Markus.",note:"Literally: It pleases me.\nFreut mich auch = Nice to meet you too.\nAngenehm is a more formal alternative."},
+
+  {type:"tip",title:"hei\u00dfen: The Name Verb",text:"hei\u00dfen means 'to be called' and uses a special stem:\n\nich hei\u00dfe (I am called)\ndu hei\u00dft (you are called, informal)\nSie hei\u00dfen (you are called, formal)\ner/sie hei\u00dft (he/she is called)\n\nNote: du hei\u00dft has no extra -e because the stem ends in -\u00df.",deepDive:{title:"Why hei\u00dfen instead of haben?",text:"In German, you do not 'have' a name, you 'are called' one. This matches Dutch (heten), Swedish (heta), and even Old English 'to be hight'. The verb hei\u00dfen also means 'to mean': Was hei\u00dft das? (What does that mean?). One verb, two jobs."}},
+
+  {type:"mc",q:"How do you ask for someone's name informally?",opts:["Wie hei\u00dfen Sie?","Wie hei\u00dft du?","Mein Name ist?","Wie ist Ihr Name?"],ans:"Wie hei\u00dft du?",hint:"Informal = du register. Which option uses du?"},
+
+  {type:"mc",q:"Which phrase is the most formal way to give your name?",opts:["Ich bin...","Ich hei\u00dfe...","Mein Name ist...","Hi, ich bin..."],ans:"Mein Name ist...",hint:"One phrase is used on forms and official introductions."},
+
+  {type:"fb",s:"Guten Tag! Ich ___ Anna Schmidt.",a:"hei\u00dfe",opts:["hei\u00dfe","bin","habe","komme"],hint:"Which verb means 'to be called' in German?"},
+
+  {type:"fb",s:"___ hei\u00dfen Sie? Mein Name ist M\u00fcller.",a:"Wie",opts:["Wie","Was","Wer","Wo"],hint:"The question word for 'what (name)' in German."},
+
+  {type:"match",pairs:[{nl:"Ich hei\u00dfe...",en:"My name is..."},{nl:"Wie hei\u00dfen Sie?",en:"What is your name? (formal)"},{nl:"Wie hei\u00dft du?",en:"What is your name? (informal)"},{nl:"Freut mich!",en:"Nice to meet you!"}]},
+
+  {type:"mc",q:"Someone introduces themselves and holds out their hand. You respond:",opts:["Tsch\u00fcss!","Freut mich!","Guten Morgen!","Entschuldigung!"],ans:"Freut mich!",hint:"This phrase is the standard response when meeting someone for the first time."},
+
+  {type:"mc",q:"You are 25 and meet a new classmate your age. Which form do you use?",opts:["Wie hei\u00dfen Sie?","Wie ist Ihr Name?","Wie hei\u00dft du?","Mein Name ist..."],ans:"Wie hei\u00dft du?",hint:"Same age, informal setting. Which register is appropriate?"},
+
+  {type:"mc",q:"Which is the correct response to 'Ich hei\u00dfe Thomas. Und Sie?'",opts:["Tsch\u00fcss, Thomas!","Mein Name ist Anna. Freut mich!","Guten Morgen!","Entschuldigung!"],ans:"Mein Name ist Anna. Freut mich!",hint:"Give your name and the standard response for a first meeting."},
+
+  {type:"mc",q:"A new colleague at work introduces themselves. You ask their name:",opts:["Wie hei\u00dft du?","Hey, wie hei\u00dft du?","Wie hei\u00dfen Sie?","Hi du!"],ans:"Wie hei\u00dfen Sie?",hint:"Workplace context means formal register. Which option uses Sie?"},
+
+  {type:"drag_fill",s:"A: Guten Tag! {1} hei\u00dfe Claudia. {2} Sie?\nB: Freut mich! {3} Name ist Herr Becker.",blanks:{"1":"Ich","2":"Und","3":"Mein"},pool:["Ich","Und","Mein","Wie","Sie","Du"],hint:"First-person pronoun, the bounce-back word, then the possessive for 'my'."},
+]},
+
+// ═══ L2: Woher kommen Sie? ═══
+{id:"deu2l2",title:"Woher kommen Sie?",icon:"\ud83c\udf0d",xp:15,board:true,steps:[
+  {type:"intro",title:"Woher kommen Sie?",desc:"Where are you from? This lesson teaches important country names, how to ask where someone is from, and how to answer with Ich komme aus...",goals:["Ask where someone is from","Say your country of origin","Learn 8 key country names in German"]},
+
+  {type:"teach",kind:"phrase",nl:"Ich komme aus...",en:"I come from... / I am from...",phonetic:"ikh KOM-uh ows",example:"A: Woher kommen Sie?\nB: Ich komme aus Deutschland. Und Sie?\nA: Ich komme aus der T\u00fcrkei.",exampleEn:"A: Where are you from?\nB: I am from Germany. And you?\nA: I am from Turkey.",note:"komme aus = come from. aus = from/out of.\nMost countries: aus Deutschland. A few need the article: aus der T\u00fcrkei."},
+
+  {type:"teach",kind:"phrase",nl:"Woher kommen Sie?",en:"Where are you from? (formal)",phonetic:"VOH-her KOM-uhn zee",example:"A: Woher kommen Sie, wenn ich fragen darf?\nB: Ich komme aus Spanien. Und Sie?\nA: Aus England, aus London.",exampleEn:"A: Where are you from, if I may ask?\nB: I am from Spain. And you?\nA: From England, from London.",note:"Woher = from where. kommen = to come.\nFormal: Woher kommen Sie. Informal: Woher kommst du."},
+
+  {type:"teach",kind:"word",nl:"Deutschland",en:"Germany",phonetic:"DOYCH-lant",cognate:{words:[{lang:"English",word:"Dutch (historical root)"}],family:"germanic"},example:"A: Sind Sie aus Deutschland?\nB: Ja, ich bin aus M\u00fcnchen. Das ist in S\u00fcddeutschland.\nA: Sch\u00f6n! Ich kenne M\u00fcnchen gut.",exampleEn:"A: Are you from Germany?\nB: Yes, I am from Munich. That is in southern Germany.\nA: Nice! I know Munich well.",note:"Deutschland = Land of the Deutsche (Germans).\nOften shortened to DE on addresses and car stickers."},
+
+  {type:"teach",kind:"word",nl:"\u00d6sterreich",en:"Austria",phonetic:"OES-ter-ryekh",example:"A: Kommen Sie aus Deutschland?\nB: Nein, ich komme aus \u00d6sterreich, aus Wien.\nA: Ah, Wien ist wundersch\u00f6n!",exampleEn:"A: Are you from Germany?\nB: No, I am from Austria, from Vienna.\nA: Ah, Vienna is beautiful!",note:"Austria in German. Wien = Vienna.\nNote: in \u00d6sterreich (location), but aus \u00d6sterreich (origin)."},
+
+  {type:"teach",kind:"word",nl:"die Schweiz",en:"Switzerland",phonetic:"dee shvyts",example:"A: Woher kommen Sie?\nB: Ich komme aus der Schweiz, aus Z\u00fcrich.\nA: Sprechen Sie auch Franz\u00f6sisch?",exampleEn:"A: Where are you from?\nB: I am from Switzerland, from Zurich.\nA: Do you also speak French?",note:"Always uses the article: aus der Schweiz.\nSwitzerland has 4 official languages: German, French, Italian, Romansh."},
+
+  {type:"teach",kind:"word",nl:"England",en:"England / the UK",phonetic:"ENG-lant",cognate:{words:[{lang:"English",word:"England"}],family:"germanic"},example:"A: Sprechen Sie Englisch?\nB: Ja, ich komme aus England, aus London.\nA: Ihr Deutsch ist sehr gut!",exampleEn:"A: Do you speak English?\nB: Yes, I am from England, from London.\nA: Your German is very good!",note:"England is commonly used for the UK in everyday German speech.\nGro\u00dfbritannien = Great Britain (more precise)."},
+
+  {type:"teach",kind:"word",nl:"Frankreich",en:"France",phonetic:"FRANK-ryekh",example:"A: Kommen Sie aus Frankreich?\nB: Ja, aus Paris. Ich bin seit drei Jahren in Berlin.\nA: Wie gef\u00e4llt Ihnen Berlin?",exampleEn:"A: Are you from France?\nB: Yes, from Paris. I have been in Berlin for three years.\nA: How do you like Berlin?",note:"Frankreich = Land of the Franks.\nFranz\u00f6sisch = French language. Franzose/Franz\u00f6sin = French person."},
+
+  {type:"teach",kind:"word",nl:"die T\u00fcrkei",en:"Turkey",phonetic:"dee t\u00fcr-KY",example:"A: Woher kommen Sie urspr\u00fcnglich?\nB: Ich komme aus der T\u00fcrkei, aus Istanbul.\nA: Und wie lange wohnen Sie schon hier?",exampleEn:"A: Where are you originally from?\nB: I am from Turkey, from Istanbul.\nA: And how long have you been living here?",note:"die T\u00fcrkei needs the article: aus der T\u00fcrkei.\nA small group of countries always take an article in German."},
+
+  {type:"tip",title:"Countries with Articles",text:"Most German country names take NO article:\naus Deutschland, aus Frankreich, aus England\n\nA few always take the article:\naus der T\u00fcrkei (f), aus der Schweiz (f)\naus den USA (pl), aus dem Iran (m)\n\nWhen in doubt: no article is safe for most European countries.",deepDive:{title:"Why do some countries have articles?",text:"German uses articles with country names when the name is grammatically feminine or plural. Die T\u00fcrkei comes from an older phrase. Die Schweiz likely traces to the canton of Schwyz. The USA is plural (die Vereinigten Staaten = the United States). Memorize the article as part of the name when it applies."}},
+
+  {type:"mc",q:"How do you say 'I am from France'?",opts:["Ich bin aus Frankreich","Ich komme aus Frankreich","Ich hei\u00dfe aus Frankreich","Ich wohne aus Frankreich"],ans:"Ich komme aus Frankreich",hint:"The fixed phrase uses 'kommen aus', not another verb."},
+
+  {type:"mc",q:"Which country ALWAYS needs an article in 'Ich komme aus ___'?",opts:["Deutschland","England","Frankreich","die T\u00fcrkei"],ans:"die T\u00fcrkei",hint:"One of these countries keeps its article. Which one has 'die' in its German name?"},
+
+  {type:"fb",s:"Woher ___ Sie? Ich komme aus Spanien.",a:"kommen",opts:["kommen","kommt","kommst","bin"],hint:"Formal 'you' form of kommen."},
+
+  {type:"match",pairs:[{nl:"Deutschland",en:"Germany"},{nl:"\u00d6sterreich",en:"Austria"},{nl:"Frankreich",en:"France"},{nl:"die Schweiz",en:"Switzerland"}]},
+
+  {type:"mc",q:"'Woher' in German means:",opts:["Where to","Where from","How long","When"],ans:"Where from",hint:"wo = where, her = from (direction toward speaker)."},
+
+  {type:"mc",q:"You meet someone from Z\u00fcrich. They are from:",opts:["Deutschland","England","die Schweiz","\u00d6sterreich"],ans:"die Schweiz",hint:"Z\u00fcrich is the largest city in which German-speaking country?"},
+
+
+  {type:"mc",q:"Which sentence correctly asks where someone is from informally?",opts:["Woher kommen Sie?","Woher kommst du?","Woher kommt er?","Woher komme ich?"],ans:"Woher kommst du?",hint:"Informal = du register. The du form of kommen is..."},
+  {type:"drag_fill",s:"A: {1} kommen Sie?\nB: Ich komme {2} Deutschland. Und Sie?\nA: {3} komme aus \u00d6sterreich.",blanks:{"1":"Woher","2":"aus","3":"Ich"},pool:["Woher","Wer","aus","von","Ich","Du"],hint:"Question word for origin, the preposition, then the first-person pronoun."},
+]},
+
+// ═══ L3: Ich bin Student ═══
+{id:"deu2l3",title:"Ich bin Student",icon:"\ud83d\udcbc",xp:15,board:true,steps:[
+  {type:"intro",title:"Ich bin Student",desc:"What do you do? Learn how to say your profession in German using the verb sein (to be), and discover why German drops the article with job titles.",goals:["Say your profession with Ich bin...","Learn 8 common professions","Understand the no-article rule for jobs"]},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin...",en:"I am... (for professions)",phonetic:"ikh bin",example:"A: Was machen Sie beruflich?\nB: Ich bin Lehrerin. Und Sie?\nA: Ich bin Ingenieur.",exampleEn:"A: What do you do for work?\nB: I am a teacher. And you?\nA: I am an engineer.",note:"In German, NO article before professions: Ich bin Lehrer, not Ich bin ein Lehrer.\nThis is different from English!"},
+
+  {type:"teach",kind:"word",nl:"der Lehrer / die Lehrerin",en:"teacher (m/f)",phonetic:"der LAY-rer / dee LAY-rer-in",example:"A: Sind Sie Lehrer?\nB: Ja, ich bin Lehrer an einer Grundschule.\nA: Das ist ein sch\u00f6ner Beruf!",exampleEn:"A: Are you a teacher?\nB: Yes, I am a teacher at an elementary school.\nA: That is a nice profession!",note:"Most professions have -in for the female form.\nLehrer (m) vs Lehrerin (f)."},
+
+  {type:"teach",kind:"word",nl:"der Arzt / die \u00c4rztin",en:"doctor (m/f)",phonetic:"der ahrts / dee AIRTS-tin",example:"A: Meine Mutter ist \u00c4rztin.\nB: Interessant! Als was arbeitet sie?\nA: Sie ist Kinder\u00e4rztin in K\u00f6ln.",exampleEn:"A: My mother is a doctor.\nB: Interesting! What kind of doctor?\nA: She is a pediatrician in Cologne.",note:"Arzt = doctor (m). \u00c4rztin = doctor (f).\nNote the umlaut change: Arzt \u2192 \u00c4rztin."},
+
+  {type:"teach",kind:"word",nl:"der Student / die Studentin",en:"university student (m/f)",phonetic:"der shtu-DENT / dee shtu-DEN-tin",cognate:{words:[{lang:"English",word:"student"}],family:"latin"},example:"A: Was studierst du?\nB: Ich bin Student. Ich studiere Informatik.\nA: Ich bin auch Studentin!",exampleEn:"A: What do you study?\nB: I am a student. I study computer science.\nA: I am a student too!",note:"Student = university student only.\nSch\u00fcler = school pupil (different word)."},
+
+  {type:"teach",kind:"word",nl:"der Ingenieur / die Ingenieurin",en:"engineer (m/f)",phonetic:"der in-zheh-NYEUR",cognate:{words:[{lang:"English",word:"engineer"}],family:"latin"},example:"A: Ich habe geh\u00f6rt, Sie sind Ingenieur?\nB: Ja, Maschinenbauingenieur.\nA: Das klingt sehr interessant!",exampleEn:"A: I heard you are an engineer?\nB: Yes, mechanical engineer.\nA: That sounds very interesting!",note:"Borrowed from French. German pronunciation keeps the French stress.\nMaschinenbauingenieur = mechanical engineer."},
+
+  {type:"teach",kind:"word",nl:"der Verk\u00e4ufer / die Verk\u00e4uferin",en:"sales assistant (m/f)",phonetic:"der fer-KOY-fer",example:"A: Wo arbeiten Sie?\nB: Ich bin Verk\u00e4ufer in einem Supermarkt.\nA: Und m\u00f6gen Sie die Arbeit?",exampleEn:"A: Where do you work?\nB: I am a sales assistant in a supermarket.\nA: And do you like the work?",note:"Verkauf = sale. Verk\u00e4ufer = one who sells.\nVerk\u00e4uferin = female sales assistant."},
+
+  {type:"teach",kind:"word",nl:"der Programmierer / die Programmiererin",en:"programmer / software developer (m/f)",phonetic:"der pro-gra-MEER-er",cognate:{words:[{lang:"English",word:"programmer"}],family:"latin"},example:"A: Was machst du so?\nB: Ich bin Programmiererin bei einem Start-up.\nA: Arbeitest du mit Python oder JavaScript?",exampleEn:"A: What do you do?\nB: I am a programmer at a start-up.\nA: Do you work with Python or JavaScript?",note:"A direct loan word from English.\nVery common job title in modern Germany."},
+
+  {type:"teach",kind:"word",nl:"der Journalist / die Journalistin",en:"journalist (m/f)",phonetic:"der zhoor-nah-LIST",cognate:{words:[{lang:"English",word:"journalist"}],family:"latin"},example:"A: Ich habe Sie in der Zeitung gesehen.\nB: Ja, ich bin Journalist beim Tagesspiegel.\nA: Und wor\u00fcber schreiben Sie?",exampleEn:"A: I saw you in the newspaper.\nB: Yes, I am a journalist at Der Tagesspiegel.\nA: And what do you write about?",note:"International loan word. Nearly identical in English.\nJournalist (m) / Journalistin (f)."},
+
+  {type:"tip",title:"No Article with Professions",text:"German drops the article before professions:\n\nIch bin Lehrer. (NOT: Ich bin ein Lehrer)\nSie ist \u00c4rztin. (NOT: Sie ist eine \u00c4rztin)\nEr ist Student. (NOT: Er ist ein Student)\n\nException: if you add an adjective, the article returns:\nEr ist ein sehr guter Lehrer.",deepDive:{title:"Why no article with professions?",text:"Job titles after 'sein' classify the person rather than count them as objects. German omits the article for exactly this reason. The same happens with nationalities (Ich bin Deutsche) and religions. Once an adjective is added, the article returns because a full noun phrase is restored."}},
+
+  {type:"mc",q:"How do you correctly say 'I am a doctor' in German?",opts:["Ich bin ein Arzt","Ich bin Arzt","Ich habe Arzt","Ich bin der Arzt"],ans:"Ich bin Arzt",hint:"German drops the article before professions after 'sein'."},
+
+  {type:"mc",q:"What is the female form of 'Lehrer'?",opts:["Lehrerin","Lehrerfrau","Lehrerinnen","Lehrersfrau"],ans:"Lehrerin",hint:"Female profession forms in German add -in to the masculine form."},
+
+  {type:"fb",s:"Was machen Sie beruflich? Ich ___ Ingenieurin.",a:"bin",opts:["bin","hei\u00dfe","komme","habe"],hint:"Which verb links a subject to a profession in German?"},
+
+  {type:"match",pairs:[{nl:"der Arzt",en:"doctor (m)"},{nl:"die Studentin",en:"university student (f)"},{nl:"die Verk\u00e4uferin",en:"sales assistant (f)"},{nl:"der Journalist",en:"journalist (m)"}]},
+
+  {type:"mc",q:"Which sentence is correct German?",opts:["Ich bin ein Programmierer","Ich bin Programmierer","Ich bin der Programmierer","Ich habe Programmierer"],ans:"Ich bin Programmierer",hint:"Profession after 'sein' takes no article."},
+
+  {type:"mc",q:"What is the difference between Sch\u00fcler and Student?",opts:["Sch\u00fcler is university, Student is school","Sch\u00fcler is school pupil, Student is university student","They are identical in meaning","Sch\u00fcler is male, Student is female"],ans:"Sch\u00fcler is school pupil, Student is university student",hint:"German has precise vocabulary for different levels of education."},
+
+
+  {type:"mc",q:"Someone says 'Ich bin Journalistin.' What is her profession?",opts:["She is a teacher","She is a journalist","She is a programmer","She is an engineer"],ans:"She is a journalist",hint:"Journalistin is the female form of which profession?"},
+  {type:"drag_fill",s:"{1} bin Lehrerin. Ich komme {2} Deutschland und ich arbeite {3} einer Schule in Berlin.",blanks:{"1":"Ich","2":"aus","3":"an"},pool:["Ich","Sie","aus","von","an","in"],hint:"First-person pronoun, the 'from' preposition, then the preposition for working at a place."},
+]},
+
+// ═══ L4: sein - Full Conjugation ═══
+{id:"deu2l4",title:"sein: Full Conjugation",icon:"\ud83d\udd24",xp:20,board:true,steps:[
+  {type:"intro",title:"sein: Full Conjugation",desc:"The most important verb in German: sein (to be). It connects you to your identity, profession, nationality, and feelings. Master every form now.",goals:["All 6 forms of sein","Formal vs informal you","Use sein in sentences about yourself and others"]},
+
+  {type:"teach",kind:"word",nl:"sein",en:"to be",phonetic:"zyn",cognate:{words:[{lang:"English",word:"be / am / is / are"}],family:"germanic"},example:"A: Was ist das auf Deutsch?\nB: Das ist ein W\u00f6rterbuch.\nA: Und wer sind diese Leute?\nB: Das sind meine Kollegen.",exampleEn:"A: What is that in German?\nB: That is a dictionary.\nA: And who are these people?\nB: Those are my colleagues.",note:"sein is the most irregular verb in German.\nForms: bin, bist, ist, sind, seid, sind.\nThese forms appear in almost every sentence."},
+
+  {type:"verb_table",title:"sein \u2013 to be",label:"Present tense",groups:[
+    {label:"Singular",rows:[
+      {pronoun:"ich",form:"bin",en:"I am"},
+      {pronoun:"du",form:"bist",en:"you are (informal)"},
+      {pronoun:"er/sie/es",form:"ist",en:"he/she/it is"}
+    ]},
+    {label:"Plural",rows:[
+      {pronoun:"wir",form:"sind",en:"we are"},
+      {pronoun:"ihr",form:"seid",en:"you all are (informal plural)"},
+      {pronoun:"sie",form:"sind",en:"they are"}
+    ]},
+    {label:"Formal",rows:[
+      {pronoun:"Sie",form:"sind",en:"you are (formal)"}
+    ]}
+  ],note:"ich bin is unique. bist, ist, and seid have no parallels in English.\nSie sind (formal) and sie sind (they) share the same form. Context distinguishes them.",deepDive:{title:"Why is sein so irregular?",text:"'sein' merges three ancient Proto-Germanic verbs. The forms bin and bist come from *beun\u0105. The forms ist and sind come from *sin\u00fean\u0105. The past tense war comes from *wesan\u0105. English underwent the same merger: be, am, is, are, was, were all come from different root verbs. These verbs were so frequently used that speakers never replaced them, so their unusual forms survived into modern languages."}},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin m\u00fcde.",en:"I am tired.",phonetic:"ikh bin M\u00dc-duh",example:"A: Du siehst m\u00fcde aus.\nB: Ja, ich bin sehr m\u00fcde. Ich habe schlecht geschlafen.\nA: Ich auch. Ich bin total ersch\u00f6pft.",exampleEn:"A: You look tired.\nB: Yes, I am very tired. I slept badly.\nA: Me too. I am completely exhausted.",note:"bin + adjective = describe yourself.\nAdjectives after sein have NO ending change in this position."},
+
+  {type:"teach",kind:"phrase",nl:"Er ist Arzt. Sie ist \u00c4rztin.",en:"He is a doctor. She is a doctor.",phonetic:"air ist ahrts / zee ist AIRTS-tin",example:"A: Wer ist Ihr Vater?\nB: Er ist Arzt in Hamburg.\nA: Und Ihre Mutter?\nB: Sie ist Lehrerin.",exampleEn:"A: Who is your father?\nB: He is a doctor in Hamburg.\nA: And your mother?\nB: She is a teacher.",note:"er = he, sie = she. Both use ist.\nNo article before professions."},
+
+  {type:"teach",kind:"phrase",nl:"Wir sind aus Deutschland.",en:"We are from Germany.",phonetic:"veer zint ows DOYCH-lant",example:"A: Woher kommt ihr?\nB: Wir sind aus Deutschland, aus Frankfurt.\nA: Und sprecht ihr beide Deutsch?\nB: Ja, nat\u00fcrlich!",exampleEn:"A: Where are you all from?\nB: We are from Germany, from Frankfurt.\nA: And do you both speak German?\nB: Yes, of course!",note:"wir sind = we are.\nwir and sie (they) share the same form: sind."},
+
+  {type:"tip",title:"du / ihr / Sie: Three Ways to Say You",text:"German has three ways to address people:\n\ndu = one person, informal (friends, family, peers)\nihr = two or more people, informal (you all)\nSie = one or more people, formal (strangers, bosses, customers)\n\nVerb forms:\ndu bist, ihr seid, Sie sind",deepDive:{title:"When did German start using Sie as a formal pronoun?",text:"The formal Sie comes from 17th-century court culture. It was originally the third-person plural (sie = they) used as a distancing honorific, as if addressing royalty as a group. French went through a similar process with 'vous'. English once had 'thou' (informal) vs 'you' (formal) but eventually merged both into 'you'. German kept the distinction, which is why learning the register is important."}},
+
+  {type:"mc",q:"Fill in: Mein Bruder ___ Ingenieur.",opts:["bin","bist","ist","sind"],ans:"ist",hint:"Third-person singular of sein."},
+
+  {type:"mc",q:"Which form completes: Wir ___ aus \u00d6sterreich.",opts:["bin","bist","ist","sind"],ans:"sind",hint:"First-person plural of sein."},
+
+  {type:"mc",q:"How do you ask 'Are you tired?' formally to one person?",opts:["Bist du m\u00fcde?","Seid ihr m\u00fcde?","Sind Sie m\u00fcde?","Ist er m\u00fcde?"],ans:"Sind Sie m\u00fcde?",hint:"Formal singular 'you' uses the Sie form."},
+
+  {type:"fb",s:"___ ihr auch aus Frankfurt?",a:"Seid",opts:["Seid","Sind","Bist","Bin"],hint:"Informal plural 'you all' form of sein."},
+
+  {type:"match",pairs:[{nl:"ich bin",en:"I am"},{nl:"du bist",en:"you are (informal)"},{nl:"wir sind",en:"we are"},{nl:"Sie sind",en:"you are (formal)"}]},
+
+  {type:"mc",q:"'Ihr seid' means:",opts:["You are (formal singular)","They are","You all are (informal plural)","We are"],ans:"You all are (informal plural)",hint:"ihr = informal plural you."},
+
+
+  {type:"mc",q:"'Es ist kalt' (It is cold) uses which form of sein?",opts:["bin","bist","ist","sind"],ans:"ist",hint:"es = it. Third-person singular."},
+
+  {type:"mc",q:"Your friends are from Austria. You ask them: '___ ihr aus Wien?'",opts:["Bist","Bin","Ist","Seid"],ans:"Seid",hint:"Informal plural you = ihr. Which form of sein goes with ihr?"},
+
+  {type:"fb",s:"Ich ___ Studentin. Meine Freundin ___ auch Studentin.",a:"bin",opts:["bin","bist","ist","sind"],hint:"First-person singular of sein."},
+  {type:"drag_fill",s:"A: {1} Sie Lehrerin?\nB: Nein, ich {2} \u00c4rztin. Und Sie?\nA: Ich {3} Journalist.",blanks:{"1":"Sind","2":"bin","3":"bin"},pool:["Sind","Bist","Seid","bin","ist","bist"],hint:"Formal question form of sein, then first-person for two different speakers."},
+
+  {type:"mc",q:"Which sentence is grammatically correct?",opts:["Er sind Arzt","Sie ist \u00c4rztin","Wir ist m\u00fcde","Ich sind Student"],ans:"Sie ist \u00c4rztin",hint:"Match the subject and verb form. Only one pair is correct."},
+]},
+
+// ═══ L5: Sprachen ═══
+{id:"deu2l5",title:"Sprachen",icon:"\ud83d\udde3\ufe0f",xp:15,board:true,steps:[
+  {type:"intro",title:"Sprachen",desc:"Which languages do you speak? In this lesson you learn language names in German and how to use the verb sprechen (to speak) to talk about your language skills.",goals:["Name 7 languages in German","Conjugate sprechen (to speak)","Say which languages you speak"]},
+
+  {type:"teach",kind:"word",nl:"Deutsch",en:"German (language)",phonetic:"doych",example:"A: Sprechen Sie Deutsch?\nB: Ja, aber nicht so gut. Ich lerne gerade.\nA: Ihr Deutsch ist schon sehr gut!",exampleEn:"A: Do you speak German?\nB: Yes, but not that well. I am currently learning.\nA: Your German is already very good!",note:"Deutsch = the language. Deutschland = the country.\nDas Deutsche W\u00f6rterbuch = the German dictionary."},
+
+  {type:"teach",kind:"word",nl:"Englisch",en:"English (language)",phonetic:"ENG-lish",cognate:{words:[{lang:"English",word:"English"}],family:"germanic"},example:"A: Sprechen Sie Englisch?\nB: Ja, nat\u00fcrlich. Ich komme aus England.\nA: Und wie gut sprechen Sie Deutsch?\nB: Noch nicht so gut, aber ich \u00fcbe!",exampleEn:"A: Do you speak English?\nB: Yes, of course. I am from England.\nA: And how well do you speak German?\nB: Not that well yet, but I am practising!",note:"Englisch is a cognate. Nearly identical in pronunciation."},
+
+  {type:"teach",kind:"word",nl:"Franz\u00f6sisch",en:"French (language)",phonetic:"fran-ZOE-zish",example:"A: Welche Sprachen sprichst du?\nB: Ich spreche Deutsch und Franz\u00f6sisch.\nA: Franz\u00f6sisch ist eine sch\u00f6ne Sprache!",exampleEn:"A: Which languages do you speak?\nB: I speak German and French.\nA: French is a beautiful language!",note:"Frankreich = France. Franz\u00f6sisch = French (language).\nPattern: country \u2192 language with -(z)isch suffix."},
+
+  {type:"teach",kind:"word",nl:"Spanisch",en:"Spanish (language)",phonetic:"SHPAH-nish",cognate:{words:[{lang:"English",word:"Spanish"}],family:"latin"},example:"A: Lernst du noch Sprachen?\nB: Ja, ich lerne Spanisch. Ich m\u00f6chte nach Spanien reisen.\nA: Toll! Spanisch ist nicht so schwer.",exampleEn:"A: Are you learning any other languages?\nB: Yes, I am learning Spanish. I want to travel to Spain.\nA: Great! Spanish is not that difficult.",note:"Spanien = Spain. Spanisch = Spanish.\nThe -isch suffix turns country names into language adjectives."},
+
+  {type:"teach",kind:"word",nl:"T\u00fcrkisch",en:"Turkish (language)",phonetic:"T\u00dcR-kish",example:"A: Sprechen Sie T\u00fcrkisch?\nB: Ja, T\u00fcrkisch ist meine Muttersprache.\nA: Und wie viele Sprachen sprechen Sie?\nB: Drei: T\u00fcrkisch, Deutsch und ein bisschen Englisch.",exampleEn:"A: Do you speak Turkish?\nB: Yes, Turkish is my native language.\nA: Wow, and how many languages do you speak?\nB: Three: Turkish, German, and a little English.",note:"T\u00fcrkisch = Turkish. die T\u00fcrkei = Turkey.\nMuttersprache = mother tongue / native language."},
+
+  {type:"teach",kind:"word",nl:"Arabisch",en:"Arabic (language)",phonetic:"ah-RAH-bish",example:"A: Welche Sprachen sprechen Sie?\nB: Arabisch ist meine Muttersprache. Ich spreche auch Deutsch.\nA: Beeindruckend! Zwei Sprachen!",exampleEn:"A: Which languages do you speak?\nB: Arabic is my native language. I also speak German.\nA: Impressive! Two languages!",note:"Arabisch = Arabic. Arabien is the region.\nArabic is widely spoken among people with Middle Eastern heritage in Germany."},
+
+  {type:"teach",kind:"phrase",nl:"Ich spreche... / Ich lerne...",en:"I speak... / I am learning...",phonetic:"ikh SHPREH-khuh / ikh LER-nuh",example:"A: Welche Sprachen sprechen Sie?\nB: Ich spreche Deutsch und Englisch. Ich lerne auch Franz\u00f6sisch.\nA: Das ist toll! Mehrsprachigkeit ist ein gro\u00dfes Plus.",exampleEn:"A: Which languages do you speak?\nB: I speak German and English. I am also learning French.\nA: That is great! Multilingualism is a big plus.",note:"sprechen = to speak (acquired skill).\nlernen = to learn.\nIch spreche kein Spanisch = I do not speak Spanish."},
+
+  {type:"tip",title:"sprechen: A Strong Verb",text:"sprechen is a strong (irregular) verb. The stem vowel changes in the du and er/sie/es forms:\n\nich spreche\ndu sprichst (e \u2192 i)\ner/sie/es spricht (e \u2192 i)\nwir sprechen\nihr sprecht\nsie/Sie sprechen\n\nThis e\u2192i vowel shift appears in many German strong verbs.",deepDive:{title:"Strong vs Weak Verbs",text:"German verbs are divided into weak (regular) verbs that add endings only (-e, -st, -t, -en) and strong verbs that also change their stem vowel. The vowel change (Ablaut) is a very old Germanic feature, the same one that gives English 'speak/spoke', 'sing/sang', and 'run/ran'. German strong verbs preserved this pattern especially in the du and er/sie/es present tense forms."}},
+
+  {type:"mc",q:"How do you say 'I speak German and English'?",opts:["Ich spreche Deutsch und Englisch","Ich lerne Deutsch und Englisch","Ich bin Deutsch und Englisch","Ich hei\u00dfe Deutsch und Englisch"],ans:"Ich spreche Deutsch und Englisch",hint:"Which verb means 'to speak'?"},
+
+  {type:"mc",q:"The du-form of sprechen is:",opts:["sprechst","sprechen","sprichst","spr\u00e4chst"],ans:"sprichst",hint:"Strong verb: the vowel changes from e to i in the du form."},
+
+  {type:"fb",s:"Welche Sprachen ___ du? Ich spreche Arabisch und Deutsch.",a:"sprichst",opts:["sprichst","sprechen","sprecht","sprichtet"],hint:"The du form of a strong verb with e\u2192i vowel shift."},
+
+  {type:"match",pairs:[{nl:"Deutsch",en:"German"},{nl:"Franz\u00f6sisch",en:"French"},{nl:"Spanisch",en:"Spanish"},{nl:"T\u00fcrkisch",en:"Turkish"}]},
+
+  {type:"mc",q:"'Ich lerne Chinesisch' means:",opts:["I speak Chinese","I am learning Chinese","I teach Chinese","I like Chinese"],ans:"I am learning Chinese",hint:"lernen = to learn, not to speak."},
+
+  {type:"mc",q:"Which sentence is correct?",opts:["Ich sprechen Englisch","Ich spricht Englisch","Ich spreche Englisch","Ich sprichst Englisch"],ans:"Ich spreche Englisch",hint:"First-person singular of sprechen ends in -e."},
+
+
+  {type:"mc",q:"How do you say 'Do you speak Turkish?' formally?",opts:["Sprechen Sie Türkisch?","Sprichst du Türkisch?","Sprecht ihr Türkisch?","Spricht er Türkisch?"],ans:"Sprechen Sie Türkisch?",hint:"Formal you = Sie. Which sprechen form goes with Sie?"},
+
+  {type:"match",pairs:[{nl:"Englisch",en:"English"},{nl:"Arabisch",en:"Arabic"},{nl:"Ich lerne...",en:"I am learning..."},{nl:"Ich spreche...",en:"I speak..."}]},
+  {type:"drag_fill",s:"A: {1} Sprachen sprechen Sie?\nB: Ich {2} Deutsch und Englisch. Ich {3} gerade Spanisch.",blanks:{"1":"Welche","2":"spreche","3":"lerne"},pool:["Welche","Wer","spreche","sprichst","lerne","lernt"],hint:"Question word for 'which', first-person sprechen, then first-person lernen."},
+]},
+
+// ═══ L6: Zahlen 0-20 ═══
+{id:"deu2l6",title:"Zahlen 0-20",icon:"\ud83d\udd22",xp:15,board:true,steps:[
+  {type:"intro",title:"Zahlen 0-20",desc:"Numbers are everywhere: ages, phone numbers, prices, addresses. In this lesson you master 0-20 in German, including the tricky teens from 13 to 19.",goals:["Count from 0 to 20","Spot the -zehn pattern in the teens","Use numbers in real sentences"]},
+
+  {type:"teach",kind:"word",nl:"null, eins, zwei, drei",en:"zero, one, two, three",phonetic:"nool, ayns, tsvy, dry",cognate:{words:[{lang:"English",word:"null / one / two / three"}],family:"germanic"},example:"A: Was ist Ihre Handynummer?\nB: Null, eins, sieben, zwei, drei...\nA: Warten Sie, ich schreibe mit!",exampleEn:"A: What is your mobile number?\nB: Zero, one, seven, two, three...\nA: Wait, I am writing it down!",note:"eins = one when counting alone. ein = one before a noun.\nnull = zero (same as the English word null)."},
+
+  {type:"teach",kind:"word",nl:"vier, f\u00fcnf, sechs",en:"four, five, six",phonetic:"feer, f\u00fcnf, zeks",cognate:{words:[{lang:"English",word:"four / five / six"}],family:"germanic"},example:"A: Wie viele Kinder haben Sie?\nB: Ich habe vier Kinder: zwei S\u00f6hne und zwei T\u00f6chter.\nA: Vier Kinder! Das ist wunderbar.",exampleEn:"A: How many children do you have?\nB: I have four children: two sons and two daughters.\nA: Four children! That is wonderful.",note:"vier is a cognate with English four. f\u00fcnf with five. sechs with six.\nThe German \u00fc in f\u00fcnf = a rounded front vowel."},
+
+  {type:"teach",kind:"word",nl:"sieben, acht, neun, zehn",en:"seven, eight, nine, ten",phonetic:"ZEE-ben, akht, noyn, tsayn",cognate:{words:[{lang:"English",word:"seven / eight / nine / ten"}],family:"germanic"},example:"A: Wie sp\u00e4t ist es?\nB: Es ist neun Uhr zehn.\nA: Oh! Ich muss um acht Uhr beim Arzt sein.",exampleEn:"A: What time is it?\nB: It is nine ten.\nA: Oh! I have to be at the doctor's at eight o'clock.",note:"neun = nine, zehn = ten, acht = eight.\nAll strong Germanic cognates. zehn is the base for all teen numbers 13-19."},
+
+  {type:"teach",kind:"word",nl:"elf, zw\u00f6lf",en:"eleven, twelve",phonetic:"elf, tsvoelf",cognate:{words:[{lang:"English",word:"eleven / twelve"}],family:"germanic"},example:"A: Wann kommt der Zug?\nB: Um elf Uhr zw\u00f6lf.\nA: Zw\u00f6lf Minuten Versp\u00e4tung? Typisch!",exampleEn:"A: When does the train come?\nB: At eleven twelve.\nA: Twelve minutes late? Typical!",note:"elf and zw\u00f6lf are unique forms, just like eleven and twelve in English.\nThey do not follow the -zehn teen pattern."},
+
+  {type:"teach",kind:"word",nl:"dreizehn, vierzehn, f\u00fcnfzehn",en:"thirteen, fourteen, fifteen",phonetic:"DRY-tsayn, FEER-tsayn, F\u00dcNF-tsayn",example:"A: Wie alt ist deine Schwester?\nB: Sie ist dreizehn. Und dein Bruder?\nA: Er ist f\u00fcnfzehn.",exampleEn:"A: How old is your sister?\nB: She is thirteen. And your brother?\nA: He is fifteen.",note:"Pattern: number + zehn = -teen.\ndreizehn = drei + zehn. Just like English thirteen, fourteen, fifteen."},
+
+  {type:"teach",kind:"word",nl:"sechzehn, siebzehn, achtzehn, neunzehn, zwanzig",en:"sixteen, seventeen, eighteen, nineteen, twenty",phonetic:"ZEKH-tsayn, ZEEP-tsayn, AKHT-tsayn, NOYN-tsayn, TSVAN-tsikh",example:"A: Wie alt bist du?\nB: Ich bin achtzehn. Und du?\nA: Ich bin zwanzig. Ich habe am Samstag Geburtstag.",exampleEn:"A: How old are you?\nB: I am eighteen. And you?\nA: I am twenty. My birthday is on Saturday.",note:"sechzehn drops one c: sechs \u2192 sech.\nsiebzehn drops -en: sieben \u2192 sieb.\nzwanzig = twenty, a new word."},
+
+  {type:"tip",title:"The -zehn Teen Pattern",text:"German teens follow a clear rule:\n3 + zehn = dreizehn (13)\n4 + zehn = vierzehn (14)\n5 + zehn = f\u00fcnfzehn (15)\n6 + zehn = sechzehn (16): one letter dropped\n7 + zehn = siebzehn (17): shortened form\n8 + zehn = achtzehn (18)\n9 + zehn = neunzehn (19)\n\nJust like English -teen (three-teen = thirteen).",deepDive:{title:"Why do 16 and 17 have irregular shortenings?",text:"Sechzehn drops one 's' from sechs to avoid the awkward cluster *sechszehn. Siebzehn drops the '-en' from sieben for the same phonetic smoothing: *siebenzehn has one too many syllables. English went through similar smoothing: 'five-teen' became 'fifteen'. When similar sounds collide, languages tend to trim them down over generations."}},
+
+  {type:"mc",q:"What is 13 in German?",opts:["dreizehn","dreizig","dreihin","dreissig"],ans:"dreizehn",hint:"drei (3) + zehn (10) = ?"},
+
+  {type:"mc",q:"Which teen drops a letter compared to its base number?",opts:["dreizehn","vierzehn","sechzehn","neunzehn"],ans:"sechzehn",hint:"One teen is spelled differently from what you would expect. Which one?"},
+
+  {type:"fb",s:"Meine Tochter ist ___ Jahre alt. (fifteen)",a:"f\u00fcnfzehn",opts:["f\u00fcnfzehn","f\u00fcnfzig","f\u00fcnfzehnten","f\u00fcnfmal"],hint:"5 + zehn = ? Complete the teen number."},
+
+  {type:"match",pairs:[{nl:"acht",en:"eight"},{nl:"zw\u00f6lf",en:"twelve"},{nl:"neunzehn",en:"nineteen"},{nl:"zwanzig",en:"twenty"}]},
+
+  {type:"mc",q:"How do you count 17, 18, 19 in German?",opts:["siebenzehn, achtzehn, neunzehn","siebzehn, achtzehn, neunzehn","siebzehn, achzehn, neunzehn","siebzehn, achtzehn, neunzig"],ans:"siebzehn, achtzehn, neunzehn",hint:"17 = shortened sieb+zehn. 18 = acht+zehn. 19 = neun+zehn."},
+
+  {type:"mc",q:"'Ich bin zwanzig Jahre alt' means:",opts:["I am twelve years old","I am twenty years old","I am two years old","I am two hundred years old"],ans:"I am twenty years old",hint:"zwanzig = twenty. Jahre alt = years old."},
+
+
+  {type:"mc",q:"Which number is spelled correctly?",opts:["siebenzehn","siebzehn","sibenzehn","siebenzehn"],ans:"siebzehn",hint:"17 uses the shortened form of sieben. One letter group is dropped."},
+
+  {type:"fb",s:"Es ist ___ Uhr. (It is twelve o'clock.)",a:"zwölf",opts:["zwölf","elf","zehn","zwan"],hint:"The word for twelve in German."},
+
+  {type:"match",pairs:[{nl:"sieben",en:"seven"},{nl:"dreizehn",en:"thirteen"},{nl:"fünfzehn",en:"fifteen"},{nl:"achtzehn",en:"eighteen"}]},
+  {type:"drag_fill",s:"Meine Telefonnummer ist {1}-{2}-{3}.",blanks:{"1":"null","2":"achtzehn","3":"zwanzig"},pool:["null","eins","achtzehn","elf","zwanzig","dreizehn"],hint:"Zero, then eighteen, then twenty. Fill in the spelled-out numbers."},
+]},
+
+// ═══ L7: Wie alt bist du? ═══
+{id:"deu2l7",title:"Wie alt bist du?",icon:"\ud83c\udf82",xp:20,board:true,steps:[
+  {type:"intro",title:"Wie alt bist du?",desc:"Personal questions are the backbone of small talk. Learn how to ask and answer questions about age, where you live, and your phone number.",goals:["Ask and state your age","Say where you live","Give and ask for a phone number"]},
+
+  {type:"teach",kind:"phrase",nl:"Wie alt bist du?",en:"How old are you? (informal)",phonetic:"vee alt bist doo",example:"A: Wie alt bist du?\nB: Ich bin zweiundzwanzig. Und du?\nA: Ich bin zwanzig.",exampleEn:"A: How old are you?\nB: I am twenty-two. And you?\nA: I am twenty.",note:"Wie alt = how old. bist = are (du form of sein).\nFormal version: Wie alt sind Sie?"},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin ... Jahre alt.",en:"I am ... years old.",phonetic:"ikh bin ... YAH-ruh alt",example:"A: Wie alt ist Ihre Mutter?\nB: Sie ist achtundf\u00fcnfzig Jahre alt.\nA: Und Ihr Vater?\nB: Er ist zweiundneunzig.",exampleEn:"A: How old is your mother?\nB: She is fifty-eight years old.\nA: And your father?\nB: He is ninety-two.",note:"Jahre alt = years old. Jahre = plural of Jahr (year).\nAlt = old. After sein, no ending change on the adjective."},
+
+  {type:"teach",kind:"phrase",nl:"Wo wohnst du?",en:"Where do you live? (informal)",phonetic:"voh vohnst doo",example:"A: Wo wohnst du zurzeit?\nB: Ich wohne in Berlin, in Mitte.\nA: Sch\u00f6n! Und wie lange schon?\nB: Seit zwei Jahren.",exampleEn:"A: Where do you live at the moment?\nB: I live in Berlin, in Mitte.\nA: Nice! And for how long?\nB: For two years.",note:"wohnen = to live/reside (habitual).\nIch wohne in... = I live in...\nNo article needed before city names."},
+
+  {type:"teach",kind:"phrase",nl:"Ich wohne in...",en:"I live in...",phonetic:"ikh VOH-nuh in",example:"A: Kommen Sie aus M\u00fcnchen?\nB: Nein, ich komme aus Stuttgart, aber ich wohne jetzt in M\u00fcnchen.\nA: Und wie gef\u00e4llt Ihnen M\u00fcnchen?\nB: Sehr gut! Ich liebe diese Stadt.",exampleEn:"A: Are you from Munich?\nB: No, I am from Stuttgart, but I now live in Munich.\nA: And how do you like Munich?\nB: Very much! I love this city.",note:"wohnen = to live somewhere (habitual residence).\nDifferent from bleiben (to stay temporarily)."},
+
+  {type:"teach",kind:"phrase",nl:"Was ist deine Telefonnummer?",en:"What is your phone number? (informal)",phonetic:"vas ist DY-nuh teh-leh-FON-noom-er",example:"A: Darf ich deine Nummer haben?\nB: Klar! Meine Nummer ist null, eins, f\u00fcnf...\nA: Warte mal, ich speichere sie.",exampleEn:"A: May I have your number?\nB: Sure! My number is zero, one, five...\nA: Hang on, I am saving it.",note:"Telefonnummer = phone number.\ndeine = your (informal). Ihre = your (formal).\nNumbers are read digit by digit in German."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin verheiratet / ledig.",en:"I am married / single.",phonetic:"ikh bin fer-HY-ra-tet / LAY-dish",example:"A: Sind Sie verheiratet?\nB: Ja, ich bin seit zehn Jahren verheiratet. Wir haben zwei Kinder.\nA: Wie sch\u00f6n!\nB: Danke!",exampleEn:"A: Are you married?\nB: Yes, I have been married for ten years. We have two children.\nA: How lovely!\nB: Thank you!",note:"verheiratet = married. ledig = single (unmarried).\ngeschieden = divorced. verwitwet = widowed."},
+
+  {type:"teach",kind:"phrase",nl:"Haben Sie Kinder?",en:"Do you have children? (formal)",phonetic:"HAH-ben zee KIN-der",example:"A: Haben Sie Kinder?\nB: Ja, ich habe zwei Kinder: einen Sohn und eine Tochter.\nA: Wie alt sind sie?\nB: Mein Sohn ist sieben, meine Tochter ist vier.",exampleEn:"A: Do you have children?\nB: Yes, I have two children: a son and a daughter.\nA: How old are they?\nB: My son is seven, my daughter is four.",note:"haben = to have. Kinder = children (plural of Kind).\nSohn = son. Tochter = daughter."},
+
+  {type:"tip",title:"Compound Numbers Above 20",text:"German numbers above 20 are built units-first:\n\n21 = einundzwanzig (one and twenty)\n22 = zweiundzwanzig (two and twenty)\n35 = f\u00fcnfunddreizig (five and thirty)\n47 = siebenundvierzig (seven and forty)\n\nPattern: units + und + tens.\nAll written as one word.",deepDive:{title:"Why does German say 'one-and-twenty' instead of 'twenty-one'?",text:"Old English used the same structure: 'one and twenty' appears in Shakespeare and older texts. Most Germanic languages historically put the smaller number first. Modern English dropped this pattern, but German kept it strictly. This means that when hearing a spoken German number above 20, you hear the units digit BEFORE the tens digit, which requires mentally reordering. With practice this becomes automatic."}},
+
+  {type:"mc",q:"How do you ask someone's age informally?",opts:["Wie alt sind Sie?","Wie alt bist du?","Wie alt ist er?","Wie alt seid ihr?"],ans:"Wie alt bist du?",hint:"Informal singular 'you' uses the du/bist form."},
+
+  {type:"mc",q:"'Ich wohne in K\u00f6ln' means:",opts:["I come from Cologne","I live in Cologne","I am in Cologne right now","I was in Cologne"],ans:"I live in Cologne",hint:"wohnen = habitual residence, not a one-time visit."},
+
+  {type:"fb",s:"___ alt bist du? Ich bin neunzehn Jahre alt.",a:"Wie",opts:["Wie","Was","Wer","Wo"],hint:"The German question word for 'how' when asking about qualities or age."},
+
+  {type:"mc",q:"21 in German is:",opts:["zwanzigein","einzwanzig","einundzwanzig","zwanzigeins"],ans:"einundzwanzig",hint:"German puts units first: ein(s) + und + zwanzig."},
+
+  {type:"match",pairs:[{nl:"Wo wohnst du?",en:"Where do you live?"},{nl:"Ich bin ledig.",en:"I am single."},{nl:"Haben Sie Kinder?",en:"Do you have children?"},{nl:"Jahre alt",en:"years old"}]},
+
+  {type:"mc",q:"'Meine Nummer ist...' is used when:",opts:["Asking for someone's address","Giving your own phone number","Asking how old someone is","Saying where you are from"],ans:"Giving your own phone number",hint:"meine = my. Nummer = number. Whose information are you sharing?"},
+
+  {type:"mc",q:"Which question is in the formal register?",opts:["Wie alt bist du?","Wo wohnst du?","Haben Sie Kinder?","Was machst du?"],ans:"Haben Sie Kinder?",hint:"Look for the formal Sie form."},
+
+
+  {type:"mc",q:"How do you say 'We are twenty-five years old'?",opts:["Wir sind fünfundzwanzig Jahre alt","Wir sind zwanzigfünf Jahre alt","Wir haben fünfundzwanzig Jahre","Wir sind fünfundzwanzig alt"],ans:"Wir sind fünfundzwanzig Jahre alt",hint:"Units-first compound + Jahre alt with the correct sein form for wir."},
+  {type:"drag_fill",s:"A: {1} alt sind Sie?\nB: Ich bin {2} Jahre alt. Ich {3} in Hamburg.",blanks:{"1":"Wie","2":"siebenunddreizig","3":"wohne"},pool:["Wie","Was","siebenunddreizig","drei\u00dfig","wohne","wohnt"],hint:"Question word for age, the number 37, then first-person 'to live'."},
+]},
+
+// ═══ L8: Steckbrief ═══
+{id:"deu2l8",title:"Steckbrief",icon:"\ud83c\udf1f",xp:25,board:true,steps:[
+  {type:"intro",title:"Steckbrief",desc:"Steckbrief means personal profile. In this final lesson you put everything from Unit 2 together: name, age, origin, language, and profession. This is real German conversation.",goals:["Give a complete self-introduction","Understand someone else's introduction","Combine all Unit 2 vocabulary fluently"]},
+
+  {type:"teach",kind:"phrase",nl:"Ich m\u00f6chte mich vorstellen.",en:"I would like to introduce myself.",phonetic:"ikh MOEKH-tuh mikh FOR-shtel-uhn",example:"A: Darf ich mich vorstellen? Mein Name ist Julia Becker.\nB: Sehr erfreut, Frau Becker. Ich bin Klaus Hartmann.\nA: Freut mich, Herr Hartmann!",exampleEn:"A: May I introduce myself? My name is Julia Becker.\nB: Very pleased to meet you, Ms. Becker. I am Klaus Hartmann.\nA: Nice to meet you, Mr. Hartmann!",note:"m\u00f6chte = would like (polite form).\nsich vorstellen = to introduce oneself. Formal and polished."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin ... von Beruf.",en:"I am a ... by profession.",phonetic:"ikh bin ... fon buh-ROOF",example:"A: Was machen Sie beruflich?\nB: Ich bin \u00c4rztin von Beruf. Ich arbeite in einem Krankenhaus.\nA: Das ist ein sehr wichtiger Beruf.",exampleEn:"A: What do you do for work?\nB: I am a doctor by profession. I work in a hospital.\nA: That is a very important profession.",note:"von Beruf = by profession.\nAdds emphasis and formality to a job introduction.\nKrankenhaus = hospital."},
+
+  {type:"teach",kind:"phrase",nl:"Ich spreche ... flie\u00dfend.",en:"I speak ... fluently.",phonetic:"ikh SHPREH-khuh ... FLEE-zent",example:"A: Wie gut sprechen Sie Englisch?\nB: Ich spreche Englisch flie\u00dfend und Franz\u00f6sisch auf mittlerem Niveau.\nA: Beeindruckend! Ich spreche nur Deutsch.",exampleEn:"A: How well do you speak English?\nB: I speak English fluently and French at an intermediate level.\nA: Impressive! I only speak German.",note:"flie\u00dfend = fluently.\nein bisschen = a little.\nauf mittlerem Niveau = at intermediate level."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin seit ... in Deutschland.",en:"I have been in Germany for ...",phonetic:"ikh bin zyt ... in DOYCH-lant",example:"A: Wie lange sind Sie schon in Deutschland?\nB: Ich bin seit drei Jahren hier. Ich komme aus der T\u00fcrkei.\nA: Ihr Deutsch ist ausgezeichnet!",exampleEn:"A: How long have you been in Germany?\nB: I have been here for three years. I am from Turkey.\nA: Your German is excellent!",note:"seit + time period = for (a duration up to now).\nGerman uses present tense here where English uses present perfect."},
+
+  {type:"tip",title:"A Complete German Self-Introduction",text:"A full Steckbrief uses five building blocks:\n\n1. Name: Ich hei\u00dfe... / Mein Name ist...\n2. Origin: Ich komme aus...\n3. Residence: Ich wohne in...\n4. Profession: Ich bin... (von Beruf)\n5. Languages: Ich spreche...\n\nOptional: Ich bin ... Jahre alt. / Ich bin verheiratet / ledig.",deepDive:{title:"First impressions in German culture",text:"Germans tend to be more reserved in small talk than English speakers, but introductions follow clear social scripts. In formal contexts, people shake hands and use full names. Academic and professional titles (Dr., Prof.) are important and should be used. In informal settings, Hallo + first name + handshake is standard. First names are only used after explicitly switching to the du form, which requires one party to suggest it."}},
+
+  {type:"mc",q:"Which of these is NOT part of a standard German self-introduction?",opts:["Ich hei\u00dfe...","Ich komme aus...","Ich esse gern Pizza","Ich bin ... von Beruf"],ans:"Ich esse gern Pizza",hint:"Three are classic introduction elements. One is a food preference, not an introduction."},
+
+  {type:"mc",q:"'Ich bin seit zwei Jahren in Berlin' means:",opts:["I was in Berlin two years ago","I will be in Berlin in two years","I have been in Berlin for two years","I am going to Berlin in two years"],ans:"I have been in Berlin for two years",hint:"seit + present tense in German = duration up to now."},
+
+  {type:"fb",s:"Ich spreche Deutsch und Englisch ___. (fluently)",a:"flie\u00dfend",opts:["flie\u00dfend","schnell","gut","laut"],hint:"The adverb meaning 'fluently' in German."},
+
+  {type:"mc",q:"You hear: 'Ich bin Programmierer von Beruf, ich komme aus Spanien und ich wohne seit einem Jahr in Berlin.' This person:",opts:["Is a teacher from France","Is a programmer from Spain living in Berlin","Is an engineer from Spain visiting Berlin","Is a student from Germany working in Spain"],ans:"Is a programmer from Spain living in Berlin",hint:"Beruf = profession, Spanien = origin, wohnen + seit = residence duration."},
+
+  {type:"match",pairs:[{nl:"sich vorstellen",en:"to introduce oneself"},{nl:"flie\u00dfend",en:"fluently"},{nl:"von Beruf",en:"by profession"},{nl:"seit",en:"for (duration up to now)"}]},
+
+  {type:"mc",q:"How do you formally say 'I would like to introduce myself'?",opts:["Ich will vorstellen","Ich m\u00f6chte mich vorstellen","Ich kann vorstellen","Ich muss vorstellen"],ans:"Ich m\u00f6chte mich vorstellen",hint:"The polite modal for 'would like' + the reflexive pronoun."},
+
+  {type:"mc",q:"Which sentence is a correct formal introduction?",opts:["Ich bin Student, ich komme aus England und ich wohnt in M\u00fcnchen","Mein Name ist Paul Weber. Ich bin Ingenieur von Beruf und komme aus der Schweiz","Ich hei\u00dfe Stefan, ich sind Student, ich kommen aus Berlin","Meine Name ist Anna, ich bin aus Berlin"],ans:"Mein Name ist Paul Weber. Ich bin Ingenieur von Beruf und komme aus der Schweiz",hint:"Check every verb form. Only one sentence has all forms correct."},
+
+
+  {type:"mc",q:"Which element is missing from: 'Ich heiße Max. Ich komme aus England. Ich bin Journalist.'",opts:["Age","Where he lives","His native language","Nothing, it is complete"],ans:"Where he lives",hint:"A full Steckbrief has five parts: name, origin, residence, profession, languages. Which is missing?"},
+
+  {type:"fb",s:"Guten Tag! Mein Name ist Sabine. Ich ___ aus der Schweiz.",a:"komme",opts:["komme","bin","heiße","wohne"],hint:"The verb for 'come from' in the first-person singular."},
+
+  {type:"match",pairs:[{nl:"Ich möchte mich vorstellen.",en:"I would like to introduce myself."},{nl:"von Beruf",en:"by profession"},{nl:"Ich bin seit...",en:"I have been... for"},{nl:"Ich spreche fließend.",en:"I speak fluently."}]},
+  {type:"drag_fill",s:"Guten Tag! {1} Name ist Sandra Bauer. Ich {2} aus Deutschland und ich {3} in Wien. Ich {4} Journalistin von Beruf.",blanks:{"1":"Mein","2":"komme","3":"wohne","4":"bin"},pool:["Mein","Dein","komme","kommen","wohne","wohnt","bin","bist"],hint:"Possessive for 'my', then three first-person verbs: kommen, wohnen, sein."},
+
+  {type:"mc",q:"Someone says: 'Ich hei\u00dfe Yuki. Ich komme aus Japan und ich bin seit einem Jahr in Deutschland.' What is true?",opts:["Yuki speaks German fluently","Yuki is from Germany and learning Japanese","Yuki is from Japan and has been in Germany for one year","Yuki lives in Japan and visits Germany sometimes"],ans:"Yuki is from Japan and has been in Germany for one year",hint:"Ich komme aus = origin. seit einem Jahr = for one year."},
+]},
+
+]},
+
 // ══════════════════════════════════════════════════════════════════════════
 // UNIT 3: Meine Familie — Family & Possessives
 // ══════════════════════════════════════════════════════════════════════════
@@ -1506,6 +1838,663 @@ export default [
   {type:"mc",q:"Which Partizip II pair both come from strong verbs?",opts:["gemacht / telefoniert","geschrieben / getrunken","eingekauft / aufgeräumt","besucht / erzählt"],ans:"geschrieben / getrunken",hint:"Strong verbs use ge-STEM-en with a vowel change in the stem."},
 
   {type:"mc",q:"Was hast du am Wochenende gemacht? A natural, complete Perfekt answer is:",opts:["Ja, ich mache Sport gern.","Ich habe am Samstag eingekauft und am Sonntag Freunde besucht.","Ich werde nächste Woche kochen.","Am Wochenende ich schlafe lange."],ans:"Ich habe am Samstag eingekauft und am Sonntag Freunde besucht.",hint:"Uses Perfekt correctly with time expressions and two Partizip II forms."},
+]},
+
+]},
+
+
+// ══════════════════════════════════════════════════════════════════════════
+// UNIT 6: Meine Wohnung — Home, Rooms, Furniture, es gibt + Accusative
+// ══════════════════════════════════════════════════════════════════════════
+{n:6,lang:"de",track:"v1",title:"Meine Wohnung",sub:"Home, Rooms & es gibt",icon:"🏠",level:"A1.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Zimmer ═══
+{id:"deu6l1",title:"Zimmer",icon:"🏠",xp:15,board:true,steps:[
+  {type:"intro",title:"Zimmer",desc:"A German home has many rooms. Learn the names of each room so you can describe where you are, where things are, and what your home looks like.",goals:["6 core room words","der/die/das for each room","Describe your home"]},
+
+  {type:"teach",kind:"word",nl:"die Küche",en:"the kitchen",phonetic:"dee KÜ-che",example:"A: Wo bist du?\nB: Ich bin in der Küche.\nA: Machst du Frühstück?",exampleEn:"A: Where are you?\nB: I am in the kitchen.\nA: Are you making breakfast?",note:"die Küche (feminine).\nKüchenmaschine = kitchen machine (compound)."},
+
+  {type:"teach",kind:"word",nl:"das Schlafzimmer",en:"the bedroom",phonetic:"dahs SHLAHF-tsim-mer",cognate:{words:[{lang:"English",word:"sleep room (literal)"}],family:"germanic"},example:"A: Wo schläfst du?\nB: Ich schlafe im Schlafzimmer.\nA: Natürlich!",exampleEn:"A: Where do you sleep?\nB: I sleep in the bedroom.\nA: Of course!",note:"Schlaf = sleep. Zimmer = room.\ndas Schlafzimmer (neuter)."},
+
+  {type:"teach",kind:"word",nl:"das Badezimmer",en:"the bathroom",phonetic:"dahs BAH-de-tsim-mer",cognate:{words:[{lang:"English",word:"bathing room (literal)"}],family:"germanic"},example:"A: Kann ich das Badezimmer benutzen?\nB: Ja, die erste Tür links.\nA: Danke!",exampleEn:"A: Can I use the bathroom?\nB: Yes, the first door on the left.\nA: Thanks!",note:"Baden = to bathe. Zimmer = room.\ndas Badezimmer (neuter)."},
+
+  {type:"teach",kind:"word",nl:"das Wohnzimmer",en:"the living room",phonetic:"dahs VOHN-tsim-mer",cognate:{words:[{lang:"English",word:"living room (literal)"}],family:"germanic"},example:"A: Lass uns im Wohnzimmer sitzen.\nB: Gute Idee! Ich hole Tee.\nA: Super!",exampleEn:"A: Let us sit in the living room.\nB: Good idea! I will get tea.\nA: Great!",note:"Wohnen = to live/reside. Zimmer = room.\ndas Wohnzimmer (neuter)."},
+
+  {type:"teach",kind:"word",nl:"der Flur",en:"the hallway",phonetic:"dehr floor",example:"A: Deine Jacke hängt im Flur.\nB: Danke, ich habe sie gesucht!\nA: Ich habe sie dort gesehen.",exampleEn:"A: Your jacket is in the hallway.\nB: Thanks, I was looking for it!\nA: I saw it there.",note:"The entrance hall connecting all rooms.\nder Flur (masculine)."},
+
+  {type:"teach",kind:"word",nl:"das Arbeitszimmer",en:"the study / home office",phonetic:"dahs AR-baits-tsim-mer",example:"A: Wo ist Papa?\nB: Er ist im Arbeitszimmer.\nA: Er arbeitet schon wieder!",exampleEn:"A: Where is Dad?\nB: He is in the study.\nA: He is working again!",note:"Arbeit = work. Zimmer = room.\ndas Arbeitszimmer (neuter)."},
+
+  {type:"teach",kind:"word",nl:"der Keller",en:"the basement / cellar",phonetic:"dehr KEL-ler",cognate:{words:[{lang:"English",word:"cellar"}],family:"germanic"},example:"A: Wo sind die Getränke?\nB: Im Keller auf dem Regal.\nA: Ich hole welche.",exampleEn:"A: Where are the drinks?\nB: In the basement on the shelf.\nA: I will get some.",note:"der Keller (masculine).\nCommon in German houses for storage."},
+
+  {type:"tip",title:"Room Genders: A Pattern to Notice",text:"Most rooms are neuter (das) when they contain -zimmer:\n\ndas Schlafzimmer (bedroom)\ndas Badezimmer (bathroom)\ndas Wohnzimmer (living room)\ndas Arbeitszimmer (study)\n\nExceptions: die Küche (feminine), der Flur (masculine).\n\nRule: If the room name ends in -zimmer, it is almost always das.",deepDive:{title:"Why -zimmer rooms are neuter",text:"In German, compound nouns take the gender of their LAST component. Zimmer (room) is neuter: das Zimmer. So any compound ending in -zimmer inherits neuter gender.\n\nBadezimmer = Baden + Zimmer = das Zimmer = das Badezimmer\nSchlafzimmer = Schlafen + Zimmer = das Zimmer = das Schlafzimmer\n\nThis is the compound gender rule. You will use it thousands of times in German."}},
+
+  {type:"mc",q:"Which room article is WRONG?",opts:["die Küche","das Wohnzimmer","der Badezimmer","der Flur"],ans:"der Badezimmer",hint:"Badezimmer ends in -zimmer. What gender is das Zimmer?"},
+
+  {type:"mc",q:"You go to shower. You go to:",opts:["das Wohnzimmer","die Küche","das Badezimmer","der Flur"],ans:"das Badezimmer",hint:"Shower = bathing. Which room is for bathing?"},
+
+  {type:"fb",s:"Ich schlafe im ___zimmer.",a:"Schlaf",opts:["Schlaf","Wohn","Bade","Flur"],hint:"The room for sleeping. Schlaf = sleep."},
+
+  {type:"mc",q:"'Das Wohnzimmer' literally means:",opts:["The sleeping room","The washing room","The living room","The work room"],ans:"The living room",hint:"Wohnen = to live/reside."},
+
+  {type:"match",pairs:[{nl:"die Küche",en:"the kitchen"},{nl:"das Schlafzimmer",en:"the bedroom"},{nl:"das Wohnzimmer",en:"the living room"},{nl:"der Flur",en:"the hallway"}]},
+
+  {type:"mc",q:"A room ending in '-zimmer' is almost always:",opts:["masculine (der)","feminine (die)","neuter (das)","plural (die)"],ans:"neuter (das)",hint:"Compounds take the gender of their last part. das Zimmer."},
+
+  {type:"fb",s:"Wo ist das Bade___?",a:"zimmer",opts:["zimmer","raum","haus","flur"],hint:"Complete the compound: Bade + ___"},
+
+  {type:"mc",q:"Where would you store old boxes and bikes?",opts:["das Wohnzimmer","die Küche","der Flur","der Keller"],ans:"der Keller",hint:"Underground storage space in German homes."},
+
+  {type:"mc",q:"'Er ist im Arbeitszimmer' tells you he is:",opts:["Eating","Working or studying","Sleeping","In the hallway"],ans:"Working or studying",hint:"Arbeit = work. Arbeitszimmer = room for work."},
+]},
+
+// ═══ L2: Möbel ═══
+{id:"deu6l2",title:"Möbel",icon:"🛋️",xp:15,board:true,steps:[
+  {type:"intro",title:"Möbel",desc:"Every room has furniture. Learn the core pieces you will find in a German home, with their articles, so you can describe what is where.",goals:["8 furniture words with articles","der/die/das for each item","First furniture descriptions"]},
+
+  {type:"teach",kind:"word",nl:"der Tisch",en:"the table",phonetic:"dehr tish",cognate:{words:[{lang:"English",word:"dish (related root)"}],family:"germanic"},example:"A: Ist das Essen fertig?\nB: Ja! Leg es bitte auf den Tisch.\nA: Sofort!",exampleEn:"A: Is the food ready?\nB: Yes! Please put it on the table.\nA: Right away!",note:"der Tisch (masculine).\nEsstisch = dining table. Schreibtisch = writing desk."},
+
+  {type:"teach",kind:"word",nl:"der Stuhl",en:"the chair",phonetic:"dehr shtool",cognate:{words:[{lang:"English",word:"stool"}],family:"germanic"},example:"A: Nimm bitte Platz!\nB: Danke, wo soll ich sitzen?\nA: Auf dem Stuhl neben dem Fenster.",exampleEn:"A: Please have a seat!\nB: Thanks, where should I sit?\nA: On the chair next to the window.",note:"der Stuhl (masculine).\nPlural: die Stühle."},
+
+  {type:"teach",kind:"word",nl:"das Bett",en:"the bed",phonetic:"dahs bet",cognate:{words:[{lang:"English",word:"bed"}],family:"germanic"},example:"A: Ich bin so müde!\nB: Geh doch ins Bett.\nA: Gute Idee. Gute Nacht!",exampleEn:"A: I am so tired!\nB: Then go to bed.\nA: Good idea. Good night!",note:"das Bett (neuter).\nIns Bett gehen = to go to bed."},
+
+  {type:"teach",kind:"word",nl:"der Schrank",en:"the wardrobe / cabinet",phonetic:"dehr shrank",example:"A: Wo sind meine Jeans?\nB: Im Schrank, zweites Regal.\nA: Gefunden, danke!",exampleEn:"A: Where are my jeans?\nB: In the wardrobe, second shelf.\nA: Found them, thanks!",note:"der Schrank (masculine).\nKleiderschrank = wardrobe.\nKüchenschrank = kitchen cabinet."},
+
+  {type:"teach",kind:"word",nl:"das Sofa",en:"the sofa / couch",phonetic:"dahs ZOH-fah",cognate:{words:[{lang:"English",word:"sofa"}],family:"borrowed"},example:"A: Komm, setz dich aufs Sofa!\nB: Gerne, ich bin so müde.\nA: Ich auch. Lass uns einen Film gucken.",exampleEn:"A: Come, sit on the sofa!\nB: Sure, I am so tired.\nA: Me too. Let us watch a film.",note:"das Sofa (neuter).\nCouch (die Couch) also used in informal German."},
+
+  {type:"teach",kind:"word",nl:"die Lampe",en:"the lamp",phonetic:"dee LAM-pe",cognate:{words:[{lang:"English",word:"lamp"}],family:"borrowed"},example:"A: Es ist dunkel hier.\nB: Mach die Lampe an!\nA: Wo ist der Schalter?",exampleEn:"A: It is dark here.\nB: Turn on the lamp!\nA: Where is the switch?",note:"die Lampe (feminine).\nMach an = turn on (separable: anmachen).\nMach aus = turn off."},
+
+  {type:"teach",kind:"word",nl:"der Kühlschrank",en:"the refrigerator",phonetic:"dehr KÜHL-shrank",cognate:{words:[{lang:"English",word:"cool cabinet (literal)"}],family:"germanic"},example:"A: Haben wir noch Milch?\nB: Schau mal in den Kühlschrank.\nA: Ja, da ist noch eine Flasche.",exampleEn:"A: Do we still have milk?\nB: Have a look in the fridge.\nA: Yes, there is still a bottle.",note:"Kühl = cool. Schrank = cabinet.\nder Kühlschrank (masculine)."},
+
+  {type:"teach",kind:"word",nl:"das Regal",en:"the shelf / bookshelf",phonetic:"dahs reh-GAHL",example:"A: Wo sind meine Bücher?\nB: Im Regal neben der Tür.\nA: Ah, da sind sie!",exampleEn:"A: Where are my books?\nB: On the shelf next to the door.\nA: Ah, there they are!",note:"das Regal (neuter).\nBücherregal = bookshelf.\nPlural: die Regale."},
+
+  {type:"tip",title:"Furniture Articles: The Gender Spread",text:"Furniture genders are mixed, no single rule covers all:\n\nMasculine (der): Tisch, Stuhl, Schrank, Kühlschrank\nFeminine (die): Lampe\nNeuter (das): Bett, Sofa, Regal\n\nLearn each noun with its article from day one.\nIf you forget the article, you cannot use the word correctly in sentences.",deepDive:{title:"Compound nouns in furniture",text:"German builds specific furniture by combining words:\n\nSchreib + Tisch = Schreibtisch (writing desk)\nEss + Tisch = Esstisch (dining table)\nKleidung + Schrank = Kleiderschrank (wardrobe)\nKüchen + Schrank = Küchenschrank (kitchen cabinet)\nBücher + Regal = Bücherregal (bookshelf)\n\nThe last word (Grundwort) always determines the gender.\nSchreibtisch = der Tisch = der Schreibtisch."}},
+
+  {type:"mc",q:"Which furniture article is correct?",opts:["die Bett","der Sofa","die Lampe","das Stuhl"],ans:"die Lampe",hint:"Check the teach cards. Only one of these has the right article."},
+
+  {type:"mc",q:"Where do you store clothes?",opts:["das Regal","der Kühlschrank","der Schrank","das Bett"],ans:"der Schrank",hint:"Kleiderschrank = wardrobe."},
+
+  {type:"fb",s:"Ich lege das Buch auf das ___.",a:"Regal",opts:["Regal","Sofa","Bett","Stuhl"],hint:"Where do books go? Bücher + ___ = Bücherregal."},
+
+  {type:"match",pairs:[{nl:"der Tisch",en:"the table"},{nl:"das Bett",en:"the bed"},{nl:"der Schrank",en:"the wardrobe"},{nl:"die Lampe",en:"the lamp"}]},
+
+  {type:"mc",q:"'Der Kühlschrank' literally means:",opts:["The cold room","The cool cabinet","The food box","The ice machine"],ans:"The cool cabinet",hint:"Kühl = cool. Schrank = cabinet."},
+
+  {type:"fb",s:"Setz dich auf den ___!",a:"Stuhl",opts:["Stuhl","Tisch","Regal","Bett"],hint:"You sit ON it. What piece of furniture?"},
+
+  {type:"mc",q:"Which compound means writing desk?",opts:["Esstisch","Schreibtisch","Küchentisch","Couchtisch"],ans:"Schreibtisch",hint:"Schreiben = to write. Writing + table."},
+
+  {type:"mc",q:"'Mach die Lampe an!' means:",opts:["Break the lamp","Turn the lamp on","Move the lamp","Buy the lamp"],ans:"Turn the lamp on",hint:"Anmachen = to turn on (separable verb from Unit 5)."},
+
+  {type:"drag_fill",s:"Das {1} steht im Schlafzimmer. Auf dem {2} liegt ein Buch. Die {3} gibt Licht.",blanks:{"1":"Bett","2":"Regal","3":"Lampe"},pool:["Bett","Sofa","Regal","Tisch","Lampe","Kühlschrank","Stuhl"],hint:"Bedroom scene: what sleeps, what holds books, what gives light."},
+]},
+
+// ═══ L3: Es gibt ═══
+{id:"deu6l3",title:"Es gibt",icon:"🏡",xp:15,board:true,steps:[
+  {type:"intro",title:"Es gibt",desc:"'Es gibt' means 'there is' or 'there are'. It is one of the most useful sentences in German. You use it to describe what exists in a place, and it always triggers the accusative case.",goals:["Es gibt = there is / there are","Es gibt + accusative article","Es gibt keinen/keine/kein for negation"]},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt",en:"there is / there are",phonetic:"es gibt",example:"A: Was gibt es in der Küche?\nB: Es gibt einen Tisch und vier Stühle.\nA: Und ein Sofa?",exampleEn:"A: What is in the kitchen?\nB: There is a table and four chairs.\nA: And a sofa?",note:"Es gibt = it gives (literally).\nAlways followed by accusative case.\nWorks for singular AND plural."},
+
+  {type:"tip",title:"Es gibt + Accusative: The Rule",text:"After 'es gibt', nouns must be in the ACCUSATIVE case.\n\nIn A1, only masculine nouns change:\nder Tisch (nominative) becomes einen Tisch (accusative)\ndie Lampe stays eine Lampe\ndas Bett stays ein Bett\n\nSo: Es gibt einen Tisch. Es gibt eine Lampe. Es gibt ein Bett.",deepDive:{title:"Why accusative after es gibt?",text:"'Es gibt' takes an accusative object because it is a real verb sentence: Es = it, gibt = gives. The thing that is 'given' (the thing that exists) is always in accusative position.\n\nThis is the same reason that 'haben' takes accusative: 'Ich habe einen Tisch'. 'Es gibt einen Tisch' works by the same logic."}},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt einen Tisch.",en:"There is a table.",phonetic:"es gibt AY-nen tish",example:"A: Wie ist die Küche?\nB: Es gibt einen Tisch und zwei Stühle.\nA: Und einen Kühlschrank?",exampleEn:"A: What is the kitchen like?\nB: There is a table and two chairs.\nA: And a refrigerator?",note:"Einen = accusative of ein for masculine nouns.\nder Tisch (nominative) becomes einen Tisch."},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt eine Lampe.",en:"There is a lamp.",phonetic:"es gibt AY-ne LAM-pe",example:"A: Ist es dunkel im Zimmer?\nB: Nein, es gibt eine Lampe.\nA: Gut, dann kann ich lesen.",exampleEn:"A: Is it dark in the room?\nB: No, there is a lamp.\nA: Good, then I can read.",note:"Eine = accusative of eine for feminine nouns.\ndie Lampe stays eine Lampe. Feminine accusative indefinite = eine (no change!)."},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt ein Bett.",en:"There is a bed.",phonetic:"es gibt ain bet",example:"A: Kann ich bei dir schlafen?\nB: Ja! Es gibt ein Bett im Gästezimmer.\nA: Super, danke!",exampleEn:"A: Can I sleep at your place?\nB: Yes! There is a bed in the guest room.\nA: Great, thanks!",note:"Ein = accusative of ein for neuter nouns.\ndas Bett stays ein Bett. Neuter accusative indefinite = no change!"},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt keinen Schrank.",en:"There is no wardrobe.",phonetic:"es gibt KAY-nen shrank",example:"A: Wo kann ich meine Kleider hängen?\nB: Tut mir leid, es gibt keinen Schrank.\nA: Kein Problem, ich habe Taschen.",exampleEn:"A: Where can I hang my clothes?\nB: Sorry, there is no wardrobe.\nA: No problem, I have bags.",note:"Keinen = accusative negative for masculine nouns.\nkein follows the same pattern as ein:\nkeinen (masc. acc.), keine (fem.), kein (neut.)"},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt keine Lampe.",en:"There is no lamp.",phonetic:"es gibt KAY-ne LAM-pe",example:"A: Ist es hell im Keller?\nB: Nein, es gibt keine Lampe.\nA: Dann brauchen wir eine Taschenlampe.",exampleEn:"A: Is it bright in the basement?\nB: No, there is no lamp.\nA: Then we need a torch.",note:"Keine = accusative negative for feminine nouns.\ndie Lampe becomes keine Lampe."},
+
+  {type:"teach",kind:"phrase",nl:"Es gibt kein Bett.",en:"There is no bed.",phonetic:"es gibt kain bet",example:"A: Kann ich im Gästezimmer schlafen?\nB: Da gibt es kein Bett, leider.\nA: Dann schlafe ich auf dem Sofa.",exampleEn:"A: Can I sleep in the guest room?\nB: There is no bed there, unfortunately.\nA: Then I will sleep on the sofa.",note:"Kein = accusative negative for neuter nouns.\ndas Bett becomes kein Bett."},
+
+  {type:"tip",title:"Summary: Es gibt + (k)ein",text:"After es gibt, use the accusative indefinite article:\n\nMasculine: ein -> einen, kein -> keinen\nFeminine: eine -> eine (no change), keine -> keine\nNeuter: ein -> ein (no change), kein -> kein\n\nOnly MASCULINE nouns change: ein -> einen, kein -> keinen.\nFeminine and neuter stay the same in accusative indefinite!",deepDive:{title:"A preview of the full accusative system",text:"You are learning accusative in A1 through practical use: after haben and es gibt. The full accusative system also applies to:\n\n1. Definite articles: der -> den (masc.), die stays die, das stays das\n2. Pronouns: er -> ihn (him)\n3. Adjectives: guten Tisch, gute Lampe, gutes Bett\n\nYou will study the full definite accusative in L4 of this unit. For now, master einen/keine for es gibt."}},
+
+  {type:"mc",q:"'Es gibt ___ Stuhl.' What goes in the blank for an existing chair?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt triggers accusative. ein to einen."},
+
+  {type:"mc",q:"'Es gibt ___ Sofa in der Küche.' (There is no sofa in the kitchen.)",opts:["kein","keinen","keine","nicht"],ans:"kein",hint:"Sofa is neuter (das). Neuter negative accusative: kein."},
+
+  {type:"fb",s:"In meiner Wohnung gibt es ___ Badezimmer.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Badezimmer is neuter (das). Accusative indefinite for neuter."},
+
+  {type:"mc",q:"'Es gibt keine Küche.' What does this mean?",opts:["There is a kitchen","The kitchen is nice","There is no kitchen","The kitchen is big"],ans:"There is no kitchen",hint:"keine = no / not a. Küche is feminine."},
+
+  {type:"match",pairs:[{nl:"Es gibt einen Tisch.",en:"There is a table."},{nl:"Es gibt eine Lampe.",en:"There is a lamp."},{nl:"Es gibt kein Bett.",en:"There is no bed."},{nl:"Es gibt keinen Schrank.",en:"There is no wardrobe."}]},
+
+  {type:"mc",q:"Which form is correct? 'Es gibt ___ Lampe.'",opts:["eine","einen","ein","keinen"],ans:"eine",hint:"Lampe is feminine (die). Feminine accusative indefinite = eine."},
+
+  {type:"fb",s:"Es gibt ___ Regal im Wohnzimmer.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Regal is neuter (das). Accusative indefinite."},
+
+  {type:"mc",q:"Why does 'Es gibt' use accusative case?",opts:["Random rule","Because it is in a sentence with 'there'","Es gibt is a verb taking an object, like haben","Because rooms are always accusative"],ans:"Es gibt is a verb taking an object, like haben",hint:"Es gibt = it gives. The thing that exists is the object."},
+]},
+
+// ═══ L4: den Akkusativ ═══
+{id:"deu6l4",title:"den Akkusativ",icon:"📚",xp:15,board:true,steps:[
+  {type:"intro",title:"den Akkusativ",desc:"You have been using accusative since Unit 3 with 'haben'. Now name it, understand the full pattern, and practice it with the definite article. The key rule: only masculine nouns change.",goals:["der to den (masculine accusative)","die and das stay the same","Accusative in real sentences with common verbs"]},
+
+  {type:"tip",title:"The Accusative Case: Full Overview",text:"The accusative is the case of the DIRECT OBJECT: the thing being acted on.\n\nDefinite articles:\nder -> den (masculine)\ndie -> die (feminine, no change)\ndas -> das (neuter, no change)\n\nIndefinite articles:\nein -> einen (masculine)\neine -> eine (feminine, no change)\nein -> ein (neuter, no change)\n\nOnly masculine nouns change. That is the core rule.",deepDive:{title:"Why only masculine changes?",text:"In Old High German, all three genders had distinct accusative forms. Over centuries, the feminine and neuter accusative forms merged with the nominative. Only the masculine kept its distinct accusative: the -en ending (den, einen).\n\nThis is actually helpful: you only need to learn ONE change. If the noun is masculine, add -en to the article. If not, nothing changes."}},
+
+  {type:"teach",kind:"phrase",nl:"Ich sehe den Tisch.",en:"I see the table.",phonetic:"ich ZEY-e den tish",example:"A: Was siehst du?\nB: Ich sehe den Tisch und den Stuhl.\nA: Und das Regal?",exampleEn:"A: What do you see?\nB: I see the table and the chair.\nA: And the shelf?",note:"den = the (masculine accusative).\nder Tisch becomes den Tisch after sehen.\nSehen = to see."},
+
+  {type:"teach",kind:"phrase",nl:"Ich kaufe die Lampe.",en:"I am buying the lamp.",phonetic:"ich KOW-fe dee LAM-pe",example:"A: Was kaufst du?\nB: Ich kaufe die Lampe und das Sofa.\nA: Schöne Wahl!",exampleEn:"A: What are you buying?\nB: I am buying the lamp and the sofa.\nA: Good choice!",note:"die = the (feminine accusative).\ndie Lampe stays die Lampe. No change!\nKaufen = to buy."},
+
+  {type:"teach",kind:"phrase",nl:"Ich brauche das Bett.",en:"I need the bed.",phonetic:"ich BROW-che dahs bet",example:"A: Was brauchst du für das Schlafzimmer?\nB: Ich brauche das Bett und den Schrank.\nA: Okay, lass uns einkaufen.",exampleEn:"A: What do you need for the bedroom?\nB: I need the bed and the wardrobe.\nA: Okay, let us go shopping.",note:"das = the (neuter accusative).\ndas Bett stays das Bett. No change!\nBrauchen = to need."},
+
+  {type:"tip",title:"Haben + Accusative (You Already Know This!)",text:"You have been using accusative since Unit 3 with 'haben':\n\nIch habe einen Hund. (I have a dog.)\nIch habe eine Katze. (I have a cat.)\n\nWith the definite article:\nIch habe den Hund. (I have the dog.)\nIch habe die Katze. (I have the cat.)\n\nSame rules. Only masculine changes. You already know this pattern.",deepDive:{title:"Accusative triggers: which verbs use it?",text:"The accusative is used after transitive verbs. The most common A1 ones:\n\nhaben (to have): Ich habe einen Tisch.\nbrauchen (to need): Ich brauche den Schrank.\nkaufen (to buy): Ich kaufe das Sofa.\nsehen (to see): Ich sehe die Lampe.\nessen (to eat): Ich esse einen Apfel.\ntrinken (to drink): Ich trinke den Kaffee.\nes gibt: Es gibt einen Stuhl.\n\nNotice the pattern: something is DIRECTLY affected by the verb."}},
+
+  {type:"mc",q:"'Ich habe ___ Schrank.' (I have THE wardrobe.)",opts:["der","den","die","das"],ans:"den",hint:"Schrank is masculine (der). Accusative: der to den."},
+
+  {type:"mc",q:"'Ich kaufe ___ Lampe.' (I buy THE lamp.)",opts:["den","der","das","die"],ans:"die",hint:"Lampe is feminine (die). Feminine accusative: die stays die."},
+
+  {type:"fb",s:"Ich sehe ___ Tisch.",a:"den",opts:["den","der","die","das"],hint:"Tisch is masculine. Definite accusative for masculine."},
+
+  {type:"mc",q:"Which sentence uses accusative CORRECTLY?",opts:["Ich kaufe der Stuhl.","Ich kaufe den Stuhl.","Ich kaufe dem Stuhl.","Ich kaufe die Stuhl."],ans:"Ich kaufe den Stuhl.",hint:"Stuhl is masculine. Kaufen triggers accusative: der to den."},
+
+  {type:"match",pairs:[{nl:"Ich habe den Schrank.",en:"I have the wardrobe."},{nl:"Ich sehe die Lampe.",en:"I see the lamp."},{nl:"Ich brauche das Bett.",en:"I need the bed."},{nl:"Es gibt einen Tisch.",en:"There is a table."}]},
+
+  {type:"mc",q:"'das Sofa' in the accusative after 'ich kaufe' is:",opts:["den Sofa","dem Sofa","das Sofa","die Sofa"],ans:"das Sofa",hint:"Sofa is neuter. Neuter accusative: das stays das."},
+
+  {type:"fb",s:"Ich brauche ___ Kühlschrank.",a:"den",opts:["den","die","das","der"],hint:"Kühlschrank is masculine. Definite accusative."},
+
+  {type:"mc",q:"The accusative is used for the:",opts:["Subject (who acts)","Location of the action","Direct object (what is affected)","Time of the action"],ans:"Direct object (what is affected)",hint:"The accusative marks the thing being directly acted upon."},
+
+  {type:"mc",q:"Which nouns change article in the accusative?",opts:["All nouns","Feminine nouns only","Masculine nouns only","Neuter nouns only"],ans:"Masculine nouns only",hint:"Der to den. Die stays die. Das stays das."},
+
+  {type:"mc",q:"'Sie trinkt ___ Kaffee.' (She drinks THE coffee.)",opts:["der","den","die","das"],ans:"den",hint:"Kaffee is masculine (der Kaffee). Accusative: der to den."},
+
+  {type:"fb",s:"Wir kaufen ___ Schrank und ___ Sofa.",a:"den",opts:["den","das","die","dem"],hint:"Schrank is masculine, accusative. Focus on the first blank."},
+
+  {type:"drag_fill",s:"Ich habe {1} Tisch, {2} Lampe und {3} Bett.",blanks:{"1":"einen","2":"eine","3":"ein"},pool:["einen","eine","ein","der","die","das","kein"],hint:"Indefinite accusative: I have a table, a lamp, and a bed."},
+]},
+
+// ═══ L5: Farben ═══
+{id:"deu6l5",title:"Farben",icon:"🎨",xp:15,board:true,steps:[
+  {type:"intro",title:"Farben",desc:"Colors make your German vivid. Learn the core colors and how to use them to describe rooms and furniture. German adjectives before a noun must agree with the noun's gender.",goals:["8 core color words","Colors after sein (no ending needed)","Colors before a noun (intro to endings)"]},
+
+  {type:"teach",kind:"word",nl:"rot",en:"red",phonetic:"roht",cognate:{words:[{lang:"English",word:"red"}],family:"germanic"},example:"A: Welche Farbe hat das Sofa?\nB: Das Sofa ist rot.\nA: Schön! Rot passt gut zum Wohnzimmer.",exampleEn:"A: What color is the sofa?\nB: The sofa is red.\nA: Nice! Red goes well with the living room.",note:"rot = red.\nAfter sein: das Sofa ist rot. No ending needed."},
+
+  {type:"teach",kind:"word",nl:"blau",en:"blue",phonetic:"blow",cognate:{words:[{lang:"English",word:"blue"}],family:"germanic"},example:"A: Was für eine Farbe hat die Wand?\nB: Die Wand ist blau.\nA: Blau ist ruhig und schön!",exampleEn:"A: What color is the wall?\nB: The wall is blue.\nA: Blue is calm and beautiful!",note:"blau = blue.\nPredicate use (after sein): no ending."},
+
+  {type:"teach",kind:"word",nl:"grün",en:"green",phonetic:"grün",cognate:{words:[{lang:"English",word:"green"}],family:"germanic"},example:"A: Ich mag diese Lampe!\nB: Die grüne Lampe?\nA: Ja, sie ist wunderschön!",exampleEn:"A: I like this lamp!\nB: The green lamp?\nA: Yes, it is beautiful!",note:"grün = green.\nNote: die grüne Lampe has -e before feminine noun.\nMore adjective endings come in A2."},
+
+  {type:"teach",kind:"word",nl:"gelb",en:"yellow",phonetic:"gelb",cognate:{words:[{lang:"English",word:"yellow"}],family:"germanic"},example:"A: Welche Farbe magst du?\nB: Ich mag Gelb. Es ist fröhlich.\nA: Ich finde es zu hell.",exampleEn:"A: Which color do you like?\nB: I like yellow. It is cheerful.\nA: I find it too bright.",note:"gelb = yellow.\nAs a noun: das Gelb (the yellow)."},
+
+  {type:"teach",kind:"word",nl:"weiß",en:"white",phonetic:"vice",cognate:{words:[{lang:"English",word:"white"}],family:"germanic"},example:"A: Wie ist die Küche?\nB: Weiß und modern.\nA: Das mag ich! Weiß wirkt groß.",exampleEn:"A: What is the kitchen like?\nB: White and modern.\nA: I like that! White makes things look spacious.",note:"weiß = white. The ß = ss sound.\nweiße before feminine noun: die weiße Küche."},
+
+  {type:"teach",kind:"word",nl:"schwarz",en:"black",phonetic:"shvarts",cognate:{words:[{lang:"English",word:"black (Germanic root)"}],family:"germanic"},example:"A: Was für ein Tisch?\nB: Ein schwarzer Tisch aus Holz.\nA: Das klingt elegant!",exampleEn:"A: What kind of table?\nB: A black wooden table.\nA: That sounds elegant!",note:"schwarz = black.\nschwarzER before masculine noun (ein schwarzer Tisch).\nAdjective endings preview."},
+
+  {type:"teach",kind:"word",nl:"braun",en:"brown",phonetic:"brown",cognate:{words:[{lang:"English",word:"brown"}],family:"germanic"},example:"A: Welche Farbe hat der Schrank?\nB: Er ist braun.\nA: Holzfarben passen gut zusammen.",exampleEn:"A: What color is the wardrobe?\nB: It is brown.\nA: Wood colors go well together.",note:"braun = brown.\nTypical for wooden furniture."},
+
+  {type:"teach",kind:"word",nl:"orange",en:"orange",phonetic:"oh-RAHN-zhe",cognate:{words:[{lang:"English",word:"orange"}],family:"borrowed"},example:"A: Was denkst du über die Lampe?\nB: Die orange Lampe? Sie ist mutig!\nA: Ich finde sie lustig.",exampleEn:"A: What do you think about the lamp?\nB: The orange lamp? It is bold!\nA: I find it fun.",note:"orange = orange. Never takes adjective endings.\nBorrowed word, treated as indeclinable."},
+
+  {type:"tip",title:"Colors After sein: No Endings Needed",text:"When you describe color AFTER sein (to be), the adjective does not change:\n\nDer Tisch ist braun. (The table is brown.)\nDie Lampe ist grün. (The lamp is green.)\nDas Sofa ist rot. (The sofa is red.)\n\nThis is the PREDICATE position. No gender endings needed.\nThis is the easiest place to use adjectives!",deepDive:{title:"Colors BEFORE a noun: endings preview",text:"When a color comes BEFORE a noun, it must agree with the noun's gender. This is the ATTRIBUTIVE position:\n\nder rote Stuhl (the red chair): masculine, definite -e\ndie grüne Lampe (the green lamp): feminine, definite -e\ndas weiße Sofa (the white sofa): neuter, definite -e\n\nWith indefinite articles:\nein roter Stuhl: masculine, indefinite -er\neine grüne Lampe: feminine, indefinite -e\nein weißes Sofa: neuter, indefinite -es\n\nDo not worry about mastering all endings now. You will learn this fully in A2-B1."}},
+
+  {type:"mc",q:"'Das Sofa ist ___.' Which form is correct here?",opts:["roter","grünen","rot","rotes"],ans:"rot",hint:"After sein (predicate position), colors take NO ending."},
+
+  {type:"mc",q:"What color is typical for wooden furniture?",opts:["blau","rot","braun","weiß"],ans:"braun",hint:"Wood color = Holzfarbe = brown."},
+
+  {type:"fb",s:"Die Wand ist ___. Ich mag Blau sehr.",a:"blau",opts:["blau","blaue","blauer","blauen"],hint:"After ist (predicate): no adjective ending."},
+
+  {type:"match",pairs:[{nl:"rot",en:"red"},{nl:"weiß",en:"white"},{nl:"schwarz",en:"black"},{nl:"gelb",en:"yellow"}]},
+
+  {type:"mc",q:"Which color is borrowed and never changes form?",opts:["rot","grün","orange","braun"],ans:"orange",hint:"An exception: borrowed word, no adjective endings ever."},
+
+  {type:"mc",q:"'Ein ___ Tisch.' A black table: which form is correct?",opts:["schwarze","schwarz","schwarzer","schwarzes"],ans:"schwarzer",hint:"Tisch is masculine. Indefinite attributive masculine = -er ending."},
+
+  {type:"fb",s:"Der Stuhl ist ___. Er passt gut zur Küche.",a:"weiß",opts:["weiß","weiße","weißer","weißen"],hint:"After ist = predicate position. No ending."},
+
+  {type:"mc",q:"'Die grüne Lampe': why does the -e ending appear?",opts:["Green always ends in -e","The lamp is in the accusative","Grün gets -e before feminine nouns (definite)","All colors get -e"],ans:"Grün gets -e before feminine nouns (definite)",hint:"Attributive adjective before a definite feminine noun = -e."},
+
+  {type:"mc",q:"Which sentence is CORRECT?",opts:["Das Sofa ist roter.","Das Sofa ist rotes.","Das Sofa ist rot.","Das Sofa ist roten."],ans:"Das Sofa ist rot.",hint:"Predicate adjective after sein: no ending, ever."},
+]},
+
+// ═══ L6: Wo ist...? ═══
+{id:"deu6l6",title:"Wo ist...?",icon:"📍",xp:15,board:true,steps:[
+  {type:"intro",title:"Wo ist...?",desc:"Where is the lamp? Where is the table? German uses small prepositions to describe location precisely. These prepositions take the DATIVE case when expressing a fixed location.",goals:["6 location prepositions","Prepositions + dative for location","Masculine and neuter: dem. Feminine: der."]},
+
+  {type:"teach",kind:"phrase",nl:"in + dem = im",en:"in the (location)",phonetic:"im",example:"A: Wo ist das Buch?\nB: Es ist im Schlafzimmer.\nA: Auf dem Bett oder im Schrank?",exampleEn:"A: Where is the book?\nB: It is in the bedroom.\nA: On the bed or in the wardrobe?",note:"in + dem = im (contraction).\nUsed for location INSIDE a room or container.\ndas Zimmer -> im Zimmer."},
+
+  {type:"teach",kind:"phrase",nl:"auf dem / auf der",en:"on the (location)",phonetic:"owf daym / owf dehr",example:"A: Wo sind meine Schlüssel?\nB: Auf dem Tisch!\nA: Ah, danke!",exampleEn:"A: Where are my keys?\nB: On the table!\nA: Ah, thanks!",note:"auf = on.\nauf + dem (masc./neut. dative)\nauf + der (fem. dative)\nauf dem Tisch, auf der Kommode."},
+
+  {type:"teach",kind:"phrase",nl:"unter dem / unter der",en:"under the",phonetic:"OON-ter daym",example:"A: Hast du den Hund gesehen?\nB: Er schläft unter dem Tisch.\nA: Typisch!",exampleEn:"A: Have you seen the dog?\nB: He is sleeping under the table.\nA: Typical!",note:"unter = under, beneath.\nunter dem Tisch (masc.), unter dem Bett (neut.).\nunter der Küche (fem.)."},
+
+  {type:"teach",kind:"phrase",nl:"neben dem / neben der",en:"next to the",phonetic:"NAY-ben daym",example:"A: Wo steht die Lampe?\nB: Neben dem Sofa.\nA: Perfekt für Lesen!",exampleEn:"A: Where is the lamp?\nB: Next to the sofa.\nA: Perfect for reading!",note:"neben = next to, beside.\nneben dem Sofa (neut. dative)\nneben der Küche (fem. dative)"},
+
+  {type:"teach",kind:"phrase",nl:"vor dem / vor der",en:"in front of the",phonetic:"for daym",example:"A: Wo ist der Hund?\nB: Vor der Tür!\nA: Er will raus!",exampleEn:"A: Where is the dog?\nB: In front of the door!\nA: He wants to go out!",note:"vor = in front of.\nvor dem Tisch, vor der Tür.\nAlso means 'before' in time: vor zwei Stunden."},
+
+  {type:"teach",kind:"phrase",nl:"hinter dem / hinter der",en:"behind the",phonetic:"HIN-ter daym",example:"A: Wo hast du den Schlüssel versteckt?\nB: Hinter dem Schrank.\nA: Das ist ein gutes Versteck!",exampleEn:"A: Where did you hide the key?\nB: Behind the wardrobe.\nA: That is a good hiding spot!",note:"hinter = behind.\nhinter dem Stuhl (masc. dative)\nhinter der Küche (fem. dative)"},
+
+  {type:"tip",title:"Location Prepositions + Dative Case",text:"For LOCATION (Wo? = where?), these prepositions use DATIVE:\n\nMasculine: der -> dem (im Zimmer, auf dem Tisch)\nNeuter: das -> dem (im Bett, unter dem Sofa)\nFeminine: die -> der (auf der Lampe, vor der Tür)\n\nContractions: in + dem = im, an + dem = am\n\nDative tells you WHERE something IS. Accusative tells you WHERE something GOES.",deepDive:{title:"Wechselpräpositionen: a preview",text:"Prepositions like in, auf, unter, neben, vor, hinter are called 'Wechselpräpositionen' (two-way prepositions). They have two meanings:\n\nWo? (where?) = location = DATIVE\nWohin? (where to?) = direction = ACCUSATIVE\n\nDas Buch liegt auf dem Tisch. (Wo? Location. Dative.)\nIch lege das Buch auf den Tisch. (Wohin? Direction. Accusative.)\n\nYou will study this fully in A2 Unit 12."}},
+
+  {type:"mc",q:"'Das Buch liegt ___ Tisch.' (on the table: location)",opts:["auf der","auf dem","auf den","auf des"],ans:"auf dem",hint:"Tisch is masculine. Location = dative. der to dem."},
+
+  {type:"mc",q:"'Die Katze schläft ___ Sofa.' (under the sofa)",opts:["unter dem","unter der","unter den","unter des"],ans:"unter dem",hint:"Sofa is neuter (das). Dative: das to dem."},
+
+  {type:"fb",s:"Wo ist der Stuhl? Er steht ___ Tisch.",a:"neben dem",opts:["neben dem","neben der","neben den","neben die"],hint:"Next to the table. Tisch = masculine. Location = dative."},
+
+  {type:"match",pairs:[{nl:"im Schlafzimmer",en:"in the bedroom"},{nl:"auf dem Tisch",en:"on the table"},{nl:"unter dem Bett",en:"under the bed"},{nl:"neben der Tür",en:"next to the door"}]},
+
+  {type:"mc",q:"'in + dem' contracts to:",opts:["indem","imd","im","ind"],ans:"im",hint:"Standard German contraction of in + dem."},
+
+  {type:"mc",q:"Which case do location prepositions (Wo?) use?",opts:["Nominative","Accusative","Dative","Genitive"],ans:"Dative",hint:"Wo? (where?) = fixed location = dative. Wohin? (where to?) = accusative."},
+
+  {type:"fb",s:"Die Lampe steht ___ Sofa.",a:"neben dem",opts:["neben dem","neben der","vor den","unter die"],hint:"Next to the sofa. Sofa is neuter. Dative: das to dem."},
+
+  {type:"mc",q:"'Vor der Tür' means:",opts:["Behind the door","Next to the door","In front of the door","Under the door"],ans:"In front of the door",hint:"vor = in front of. Die Tür = door (feminine). Dative: die to der."},
+
+  {type:"mc",q:"The dative form of 'die Küche' after a preposition is:",opts:["der Küche","die Küche","dem Küche","den Küche"],ans:"der Küche",hint:"Feminine dative: die to der."},
+
+  {type:"drag_fill",s:"Das Buch liegt {1} Tisch. Die Lampe steht {2} Schrank. Der Hund schläft {3} Bett.",blanks:{"1":"auf dem","2":"neben dem","3":"unter dem"},pool:["auf dem","auf der","neben dem","neben der","unter dem","unter der","vor dem","hinter der"],hint:"Book on table, lamp next to wardrobe, dog under bed."},
+]},
+
+// ═══ L7: Meine Traumwohnung ═══
+{id:"deu6l7",title:"Meine Traumwohnung",icon:"✨",xp:20,board:true,steps:[
+  {type:"intro",title:"Meine Traumwohnung",desc:"Dream apartment time! Combine rooms, furniture, colors, es gibt, accusative, and location prepositions in rich descriptions. This is your first open-ended German production challenge.",goals:["Describe a room with furniture and colors","Use es gibt + accusative naturally","Combine location prepositions in descriptions"]},
+
+  {type:"tip",title:"Describing a Room: A Template",text:"Here is a framework for describing any room in German:\n\n1. Was für ein Zimmer? (What kind of room?)\n   Das ist mein Wohnzimmer.\n\n2. Es gibt... (What is there?)\n   Es gibt ein Sofa, einen Tisch und eine Lampe.\n\n3. Farben (Colors, after ist/sind):\n   Das Sofa ist grün. Die Lampe ist weiß.\n\n4. Wo ist was? (Where is what?)\n   Das Sofa steht vor dem Fenster.\n   Die Lampe steht neben dem Sofa.",deepDive:{title:"Full sample description",text:"Das ist mein Traumwohnzimmer. Es gibt ein großes Sofa und einen runden Tisch. Es gibt auch ein Bücherregal neben der Tür. Das Sofa ist blau, und der Tisch ist weiß. Die Lampe steht auf dem Tisch. Vor dem Sofa liegt ein roter Teppich. Es gibt keinen Fernseher, aber viele Bücher!\n\nTranslation: This is my dream living room. There is a large sofa and a round table. There is also a bookshelf next to the door. The sofa is blue, and the table is white. The lamp is on the table. In front of the sofa lies a red rug. There is no TV, but many books!"}},
+
+  {type:"teach",kind:"word",nl:"groß",en:"large / big",phonetic:"grohss",cognate:{words:[{lang:"English",word:"great (archaic: large)"}],family:"germanic"},example:"A: Wie ist dein Schlafzimmer?\nB: Es ist groß und hell.\nA: Hast du ein großes Bett?",exampleEn:"A: What is your bedroom like?\nB: It is large and bright.\nA: Do you have a large bed?",note:"groß = large/big. Predicate (after sein): no ending.\nhell = bright. dunkel = dark."},
+
+  {type:"teach",kind:"word",nl:"klein",en:"small",phonetic:"kline",cognate:{words:[{lang:"English",word:"clean (archaic small sense)"}],family:"germanic"},example:"A: Hast du ein Arbeitszimmer?\nB: Ja, aber es ist sehr klein.\nA: Klein aber fein!",exampleEn:"A: Do you have a study?\nB: Yes, but it is very small.\nA: Small but fine!",note:"klein = small.\nKlein aber fein = small but fine (common saying).\nAntonym: groß (large)."},
+
+  {type:"mc",q:"'Mein Traumschlafzimmer hat ein großes Bett.' What is 'ein' used for here?",opts:["Nominative subject","Dative location","Accusative object after haben","No specific reason"],ans:"Accusative object after haben",hint:"haben + object = accusative. Bett is neuter: ein stays ein."},
+
+  {type:"mc",q:"'Es gibt ___ Sofa in meiner Traumwohnung.' (a sofa exists)",opts:["einen","ein","eine","kein"],ans:"ein",hint:"Sofa is neuter (das). Es gibt + accusative: ein (no change)."},
+
+  {type:"fb",s:"Das Sofa ist ___. Ich liebe Blau!",a:"blau",opts:["blau","blaue","blauen","blauer"],hint:"After ist = predicate position. No adjective ending."},
+
+  {type:"mc",q:"'Die Lampe steht neben dem Tisch.' What case is 'dem Tisch'?",opts:["Nominative","Accusative","Dative","Genitive"],ans:"Dative",hint:"Neben + Wo? = dative. der Tisch to dem Tisch."},
+
+  {type:"mc",q:"You want to say 'There is no wardrobe in the room.' Which is correct?",opts:["Es gibt kein Schrank.","Es gibt keinen Schrank.","Es gibt keine Schrank.","Es gibt nicht Schrank."],ans:"Es gibt keinen Schrank.",hint:"Schrank is masculine. Negative accusative: kein to keinen."},
+
+  {type:"match",pairs:[{nl:"Es gibt ein Bett.",en:"There is a bed."},{nl:"Der Tisch ist weiß.",en:"The table is white."},{nl:"Die Lampe steht neben dem Sofa.",en:"The lamp is next to the sofa."},{nl:"Das Zimmer ist klein.",en:"The room is small."}]},
+
+  {type:"mc",q:"'Das Bücherregal' is neuter because:",opts:["All furniture is neuter","Books are always neuter","The last element -regal is neuter (das Regal)","Random assignment"],ans:"The last element -regal is neuter (das Regal)",hint:"Compound nouns: gender comes from the last word. das Regal to das Bücherregal."},
+
+  {type:"fb",s:"Es gibt ___ Kühlschrank in der Küche.",a:"einen",opts:["einen","ein","eine","keinen"],hint:"Indefinite accusative. Kühlschrank is masculine: ein to einen."},
+
+  {type:"mc",q:"'Das Sofa steht ___ dem Fenster.' (in front of the window)",opts:["neben","auf","vor","unter"],ans:"vor",hint:"In front of = vor. Das Fenster = the window."},
+
+  {type:"mc",q:"Which sentence correctly says the room is large?",opts:["Das Zimmer ist großer.","Das Zimmer ist großes.","Das Zimmer ist groß.","Das Zimmer ist großen."],ans:"Das Zimmer ist groß.",hint:"Predicate adjective after sein: no ending."},
+
+  {type:"fb",s:"Es gibt ___ Tisch in meiner Traumküche.",a:"einen",opts:["einen","ein","eine","keinen"],hint:"Traumküche = dream kitchen. Tisch is masculine. Es gibt + accusative."},
+
+  {type:"mc",q:"Which describes a bedroom in German?",opts:["Es gibt ein Bett und einen Schrank.","Der Tisch ist in der Küche.","Die Lampe steht im Badezimmer.","Es gibt keinen Flur."],ans:"Es gibt ein Bett und einen Schrank.",hint:"Bedroom furniture: Bett and Schrank. Which sentence matches?"},
+
+  {type:"match",pairs:[{nl:"groß",en:"large"},{nl:"klein",en:"small"},{nl:"hell",en:"bright"},{nl:"dunkel",en:"dark"}]},
+
+  {type:"drag_fill",s:"Mein Traumzimmer: Es gibt {1} Sofa und {2} Lampe. Das Sofa ist {3}. Die Lampe steht {4} Sofa.",blanks:{"1":"ein","2":"eine","3":"blau","4":"neben dem"},pool:["ein","einen","eine","blau","blaue","neben dem","neben der","auf dem","auf der"],hint:"Dream room: sofa + lamp, color, lamp position."},
+]},
+
+// ═══ L8: Wohnung Review ═══
+{id:"deu6l8",title:"Wohnung Review",icon:"🌟",xp:25,board:true,steps:[
+  {type:"intro",title:"Wohnung Review",desc:"Unit 6 complete! This review brings together everything: rooms, furniture, colors, es gibt + accusative, the accusative case full pattern, location prepositions + dative, and apartment descriptions.",goals:["All room and furniture vocabulary","Es gibt + accusative (einen/eine/ein, keinen/keine/kein)","Accusative: der to den, die stays die, das stays das","Location prepositions + dative"]},
+
+  {type:"tip",title:"Unit 6 Summary",text:"You can now:\n\nRooms: die Küche, das Schlafzimmer, das Badezimmer, das Wohnzimmer, der Flur, der Keller\nFurniture: der Tisch, der Stuhl, das Bett, der Schrank, das Sofa, die Lampe, der Kühlschrank, das Regal\nColors: rot, blau, grün, gelb, weiß, schwarz, braun, orange\nEs gibt: einen (masc.), eine (fem.), ein (neut.) and keinen/keine/kein\nAccusative: der to den, die stays die, das stays das\nLocation: im, auf dem/der, unter dem, neben dem/der, vor dem/der, hinter dem/der",deepDive:{title:"The accusative-dative connection",text:"You now use two cases in real sentences:\n\nACCUSATIVE (what is directly affected):\nIch kaufe den Stuhl. (buying the chair)\nEs gibt einen Tisch. (there is a table)\n\nDATIVE (location after Wo? prepositions):\nDas Buch liegt auf dem Tisch. (on the table)\nDie Lampe steht neben dem Sofa. (next to the sofa)\n\nNominative = subject (who does it)\nAccusative = direct object (what is done to)\nDative = indirect object or location\n\nYou are building the German case system one step at a time."}},
+
+  {type:"mc",q:"Which room article is CORRECT?",opts:["der Küche","das Flur","die Küche","das Badezimmer und der Wohnzimmer"],ans:"die Küche",hint:"Küche is feminine. Check: -zimmer compounds are neuter."},
+
+  {type:"mc",q:"'Es gibt ___ Stuhl.' What fills the blank?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt = accusative. ein to einen."},
+
+  {type:"fb",s:"Ich kaufe ___ Sofa für das Wohnzimmer.",a:"das",opts:["das","den","die","ein"],hint:"Kaufen triggers accusative. Sofa is neuter: das stays das."},
+
+  {type:"mc",q:"'Die Lampe steht auf ___ Tisch.' Location: dative.",opts:["der","den","dem","des"],ans:"dem",hint:"Tisch is masculine. Dative: der to dem."},
+
+  {type:"mc",q:"Which color takes NO adjective ending, even before a noun?",opts:["rot","blau","schwarz","orange"],ans:"orange",hint:"Borrowed word exception: orange is indeclinable."},
+
+  {type:"match",pairs:[{nl:"der Schrank",en:"the wardrobe"},{nl:"das Regal",en:"the shelf"},{nl:"die Lampe",en:"the lamp"},{nl:"der Kühlschrank",en:"the fridge"}]},
+
+  {type:"fb",s:"Das Buch liegt ___ dem Bett.",a:"auf",opts:["auf","unter","neben","vor"],hint:"The book is lying ON the bed. Which preposition?"},
+
+  {type:"mc",q:"'in + dem' contracts to 'im'. What does 'an + dem' contract to?",opts:["anm","am","ande","and"],ans:"am",hint:"an + dem = am. Like in + dem = im."},
+
+  {type:"mc",q:"'Ich brauche ___ Schrank.' (I need the wardrobe.)",opts:["der","den","die","dem"],ans:"den",hint:"Schrank is masculine. Accusative definite: der to den."},
+
+  {type:"fb",s:"Es gibt ___ Badezimmer in meiner Wohnung.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Badezimmer is neuter. Es gibt + accusative indefinite: ein (no change)."},
+
+  {type:"mc",q:"The dative of 'die Küche' is:",opts:["die Küche","der Küche","dem Küche","den Küche"],ans:"der Küche",hint:"Feminine dative: die to der."},
+
+  {type:"match",pairs:[{nl:"Es gibt keinen Stuhl.",en:"There is no chair."},{nl:"Das Sofa ist grün.",en:"The sofa is green."},{nl:"Die Lampe steht im Flur.",en:"The lamp is in the hallway."},{nl:"Ich habe den Schrank gesehen.",en:"I saw the wardrobe."}]},
+
+  {type:"mc",q:"Why does only masculine change in the accusative (der to den)?",opts:["Random rule from medieval times","Feminine and neuter accusative merged with nominative historically","All genders actually change","Masculine is always special in all languages"],ans:"Feminine and neuter accusative merged with nominative historically",hint:"Old High German had distinct forms for all genders. Feminine and neuter lost the distinction over time."},
+
+  {type:"fb",s:"Der Hund liegt ___ dem Sofa.",a:"unter",opts:["unter","auf","neben","vor"],hint:"The dog is lying UNDER the sofa."},
+
+  {type:"drag_fill",s:"Es gibt {1} Tisch und {2} Lampe. Der Tisch steht {3} Küche.",blanks:{"1":"einen","2":"eine","3":"im"},pool:["einen","ein","eine","im","in der","auf dem","auf der","neben dem"],hint:"Apartment description: table + lamp + location of table."},
+
+  {type:"mc",q:"'Das Schlafzimmer ist ___ und gemütlich.' (small and cozy)",opts:["kleiner","kleines","klein","kleine"],ans:"klein",hint:"Predicate adjective after ist: no ending needed."},
+]},
+
+]},
+
+,
+
+// ════════════════════════════════════════════════════════════════════════
+// UNIT 10: Ich bin gefahren — Perfekt with sein & Travel
+// ════════════════════════════════════════════════════════════════════════
+{n:10,lang:"de",track:"v1",title:"Ich bin gefahren",sub:"Past Tense (Perfekt with sein) & Travel",icon:"✈️",level:"A2.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Perfekt mit sein ═══
+{id:"deu10l1",title:"Perfekt mit sein",icon:"🚶",xp:20,board:true,steps:[
+  {type:"intro",title:"Perfekt mit sein",desc:"You already know Perfekt with haben. Now meet the second helper verb: sein. A special group of verbs use sein instead of haben to form the past tense.",goals:["Why some verbs use sein","4 core sein-Perfekt verbs","Build your first sein-Perfekt sentences"]},
+
+  {type:"tip",title:"Two Helpers: haben and sein",text:"In Perfekt, most verbs use haben as the helper:\nIch habe gegessen. (I ate.)\n\nBut a special group uses sein:\nIch bin gegangen. (I went.)\n\nThe Partizip II form itself does NOT change. Only the helper changes.",deepDive:{title:"Which verbs take sein?",text:"Two main groups take sein:\n1. Motion verbs that describe moving from A to B: gehen, fahren, fliegen, laufen, reisen.\n2. Change-of-state verbs: werden, einschlafen, aufwachen, sterben.\nPlus the verb bleiben (to stay) as a special case.\n\nAll other verbs use haben. When in doubt, ask: does this verb describe moving somewhere or changing state? If yes, try sein."}},
+
+  {type:"teach",kind:"word",nl:"gegangen (sein)",en:"went / have gone",phonetic:"ge-GANG-en",example:"A: Bist du zur Schule gegangen?\nB: Nein, ich bin zu Hause geblieben.\nA: Warum das denn?\nB: Ich war krank.",exampleEn:"A: Did you go to school?\nB: No, I stayed at home.\nA: Why?\nB: I was sick.",note:"gehen (to go) uses sein helper.\nPartizip: ge- + gang + -en."},
+
+  {type:"teach",kind:"word",nl:"gefahren (sein)",en:"drove / traveled",phonetic:"ge-FAH-ren",example:"A: Wohin seid ihr gefahren?\nB: Wir sind nach Berlin gefahren.\nA: Wie lange habt ihr gebraucht?\nB: Ungefähr zwei Stunden.",exampleEn:"A: Where did you drive to?\nB: We drove to Berlin.\nA: How long did it take?\nB: About two hours.",note:"fahren (to drive/travel) uses sein.\nPartizip: ge- + fahr + -en."},
+
+  {type:"teach",kind:"word",nl:"geflogen (sein)",en:"flew / have flown",phonetic:"ge-FLOH-gen",example:"A: Wie bist du nach Madrid gekommen?\nB: Ich bin geflogen.\nA: War der Flug lang?\nB: Nur drei Stunden.",exampleEn:"A: How did you get to Madrid?\nB: I flew.\nA: Was the flight long?\nB: Only three hours.",note:"fliegen (to fly) uses sein.\nPartizip: ge- + flog + -en. Irregular stem change."},
+
+  {type:"teach",kind:"word",nl:"gekommen (sein)",en:"came / have come",phonetic:"ge-KOM-en",example:"A: Wann bist du angekommen?\nB: Ich bin gestern Abend angekommen.\nA: Alles gut mit dem Zug?\nB: Ja, pünktlich!",exampleEn:"A: When did you arrive?\nB: I arrived yesterday evening.\nA: Was the train fine?\nB: Yes, on time!",note:"kommen (to come) uses sein.\nPartizip: ge- + komm + -en."},
+
+  {type:"verb_table",title:"Perfekt with sein: Full Conjugation",label:"Ich bin gegangen (I went)",groups:[{label:"Singular",rows:[["ich","bin gegangen","I went"],["du","bist gegangen","you went"],["er/sie/es","ist gegangen","he/she/it went"]]},{label:"Plural",rows:[["wir","sind gegangen","we went"],["ihr","seid gegangen","you all went"],["sie/Sie","sind gegangen","they / you (formal) went"]]}],note:"Only the sein helper conjugates. Gegangen never changes.",deepDive:{title:"Position of Partizip II",text:"In a main clause, the Partizip II goes to the END of the sentence. The helper sein stays in position 2:\n\nIch bin gestern nach Hamburg gefahren.\n(I drove to Hamburg yesterday.)\n\nTime, Manner, Place: the TMP rule still applies."}},
+
+  {type:"mc",q:"Ich ___ nach Berlin gefahren.",opts:["habe","bin","ist","haben"],ans:"bin",hint:"fahren is a motion verb. First person singular of sein."},
+
+  {type:"mc",q:"Er ___ nach Hause gegangen.",opts:["hat","haben","ist","sind"],ans:"ist",hint:"gehen is a motion verb. Third person singular of sein."},
+
+  {type:"fb",s:"Wir ___ nach Hamburg geflogen.",a:"sind",opts:["haben","sind","ist","seid"],hint:"fliegen takes sein. First person plural."},
+
+  {type:"mc",q:"Which Partizip II belongs to fliegen?",opts:["geflogen","gefliegt","geflieget","fliegend"],ans:"geflogen",hint:"fliegen is irregular: the stem changes from ie to o."},
+
+  {type:"mc",q:"'I drove to Munich.' Which is correct?",opts:["Ich habe nach München gefahren","Ich bin nach München gefahren","Ich bin nach München fahren","Ich habe nach München fahren"],ans:"Ich bin nach München gefahren",hint:"fahren uses sein. The Partizip goes to the end."},
+
+  {type:"fb",s:"Bist du zu Fuß ___?",a:"gegangen",opts:["gegangen","gefahren","geflogen","gekommen"],hint:"Zu Fuß = on foot. Which Partizip matches going on foot?"},
+
+  {type:"mc",q:"The Partizip II of kommen is:",opts:["gekommen","gekommt","gekomm","gekommt"],ans:"gekommen",hint:"ge- + irregular stem + -en is the pattern for strong verbs."},
+
+  {type:"match",pairs:[{nl:"bin gegangen",en:"went (I)"},{nl:"ist gefahren",en:"drove (he/she)"},{nl:"sind geflogen",en:"flew (we/they)"},{nl:"bist gekommen",en:"came (you)"}]},
+
+  {type:"mc",q:"Complete: Sie (formal) ___ um 9 Uhr angekommen.",opts:["haben","sind","ist","seid"],ans:"sind",hint:"Sie (formal) takes the same form as sie (they): sind."},
+
+  {type:"fb",s:"Ihr ___ mit dem Zug gefahren.",a:"seid",opts:["seid","sind","ist","habt"],hint:"ihr = you all. Conjugate sein for ihr."},
+
+  {type:"mc",q:"Ich bin nach Frankfurt ___.",opts:["gegangen haben","geflogen","fliegen","fliegst"],ans:"geflogen",hint:"Complete the Perfekt sentence. The Partizip goes last."},
+
+  {type:"mc",q:"In Perfekt with sein, the Partizip II:",opts:["Conjugates to match the subject","Stays the same no matter the subject","Uses -t ending always","Goes to position 2"],ans:"Stays the same no matter the subject",hint:"Only the helper verb (sein) changes form."},
+]},
+
+// ═══ L2: Bewegungsverben ═══
+{id:"deu10l2",title:"Bewegungsverben",icon:"🏃",xp:20,board:true,steps:[
+  {type:"intro",title:"Bewegungsverben",desc:"Motion verbs are the heart of the sein group. Today you learn 7 key movement verbs and their Partizip II forms. All of them travel with sein.",goals:["7 movement verbs with sein","Partizip II forms","Use movement verbs in past-tense sentences"]},
+
+  {type:"teach",kind:"word",nl:"laufen (ist gelaufen)",en:"to run / ran",phonetic:"LAU-fen, ge-LAU-fen",example:"A: Warum bist du so spät?\nB: Ich bin gelaufen, mein Bus war weg.\nA: Wie weit bist du gelaufen?\nB: Fast zwei Kilometer!",exampleEn:"A: Why are you so late?\nB: I ran, my bus was gone.\nA: How far did you run?\nB: Almost two kilometers!",note:"laufen = run or walk casually.\nPartizip: ge- + lauf + -en. Irregular vowel in present tense only."},
+
+  {type:"teach",kind:"word",nl:"schwimmen (ist geschwommen)",en:"to swim / swam",phonetic:"SHVIM-en, ge-SHVOM-en",example:"A: Was habt ihr am Meer gemacht?\nB: Wir sind viel geschwommen.\nA: War das Wasser kalt?\nB: Nein, super warm!",exampleEn:"A: What did you do at the sea?\nB: We swam a lot.\nA: Was the water cold?\nB: No, wonderfully warm!",note:"schwimmen: strong irregular.\nimm changes to omm in Partizip II."},
+
+  {type:"teach",kind:"word",nl:"reisen (ist gereist)",en:"to travel / traveled",phonetic:"RY-zen, ge-RYZT",example:"A: Wohin bist du diesen Sommer gereist?\nB: Ich bin durch Spanien gereist.\nA: Wie lange warst du weg?\nB: Drei Wochen.",exampleEn:"A: Where did you travel this summer?\nB: I traveled through Spain.\nA: How long were you away?\nB: Three weeks.",note:"reisen: regular weak verb.\nPartizip: ge- + reis + -t."},
+
+  {type:"teach",kind:"word",nl:"rennen (ist gerannt)",en:"to sprint / sprinted",phonetic:"REN-en, ge-RANT",example:"A: Du siehst erschöpft aus.\nB: Ich bin zum Bahnhof gerannt.\nA: Hast du den Zug erwischt?\nB: Ja, gerade noch!",exampleEn:"A: You look exhausted.\nB: I sprinted to the station.\nA: Did you catch the train?\nB: Yes, just barely!",note:"rennen: mixed irregular.\nPartizip: gerannt (NOT gerennt). Memorize this form."},
+
+  {type:"teach",kind:"word",nl:"klettern (ist geklettert)",en:"to climb / climbed",phonetic:"KLET-ern, ge-KLET-ert",example:"A: Was habt ihr in den Alpen gemacht?\nB: Wir sind auf einen Berg geklettert.\nA: War das schwierig?\nB: Ein bisschen, aber toll!",exampleEn:"A: What did you do in the Alps?\nB: We climbed a mountain.\nA: Was it difficult?\nB: A little, but great!",note:"klettern: weak verb with -ert ending.\nPartizip: ge- + kletter + -t."},
+
+  {type:"teach",kind:"word",nl:"springen (ist gesprungen)",en:"to jump / jumped",phonetic:"SHPRING-en, ge-SHPRUNG-en",example:"A: Was ist passiert?\nB: Ich bin ins Wasser gesprungen.\nA: Absichtlich?\nB: Nein, ich bin ausgerutscht!",exampleEn:"A: What happened?\nB: I jumped into the water.\nA: On purpose?\nB: No, I slipped!",note:"springen: strong irregular.\nPartizip: ge- + sprung + -en. Like ring/rang/rung in English."},
+
+  {type:"teach",kind:"word",nl:"wandern (ist gewandert)",en:"to hike / hiked",phonetic:"VAN-dern, ge-VAN-dert",example:"A: Wie war das Wochenende?\nB: Wir sind durch den Schwarzwald gewandert.\nA: Wie viele Kilometer?\nB: Ungefähr fünfzehn.",exampleEn:"A: How was the weekend?\nB: We hiked through the Black Forest.\nA: How many kilometers?\nB: About fifteen.",note:"wandern: regular weak verb.\nPartizip: ge- + wander + -t."},
+
+  {type:"verb_table",title:"Bewegungsverben: Partizip II",label:"Movement verbs + sein",groups:[{label:"Regular (-t ending)",rows:[["reisen","ist gereist","traveled"],["wandern","ist gewandert","hiked"],["klettern","ist geklettert","climbed"]]},{label:"Irregular (-en ending)",rows:[["laufen","ist gelaufen","ran"],["schwimmen","ist geschwommen","swam"],["springen","ist gesprungen","jumped"],["rennen","ist gerannt","sprinted"]]}],note:"When you see -en in Partizip II, the verb is usually irregular.",deepDive:{title:"laufen vs rennen",text:"Both describe movement on foot:\nlaufen = general running or walking at a moderate pace\nrennen = sprinting, urgent or fast running\n\nIn everyday speech laufen covers both. In sports contexts and emergencies, rennen implies speed and urgency."}},
+
+  {type:"mc",q:"The Partizip II of rennen is:",opts:["gerennt","gerannt","gerunnt","rennt"],ans:"gerannt",hint:"rennen is mixed irregular. The stem vowel changes to a."},
+
+  {type:"mc",q:"Wir ___ durch den Park gelaufen.",opts:["haben","sind","habt","hat"],ans:"sind",hint:"laufen is a motion verb. wir + sein."},
+
+  {type:"fb",s:"Sie ist den ganzen Tag ___.",a:"gewandert",opts:["gewandert","geschwommen","gelaufen","gereist"],hint:"All-day walking in nature: which verb means to hike?"},
+
+  {type:"mc",q:"Which verb has the Partizip II 'geschwommen'?",opts:["springen","laufen","schwimmen","rennen"],ans:"schwimmen",hint:"schwimmen: the stem vowel changes from i to o."},
+
+  {type:"match",pairs:[{nl:"ist gelaufen",en:"ran"},{nl:"ist gereist",en:"traveled"},{nl:"ist geschwommen",en:"swam"},{nl:"ist gewandert",en:"hiked"}]},
+
+  {type:"mc",q:"Er ist auf den Turm ___.",opts:["geklettert","gereist","gelaufen","geschwommen"],ans:"geklettert",hint:"Climbing something vertical: which motion verb fits?"},
+
+  {type:"fb",s:"Ich bin ins Wasser ___.",a:"gesprungen",opts:["gesprungen","geschwommen","gewandert","gerannt"],hint:"Jumping from above into water."},
+
+  {type:"mc",q:"Which Partizip II uses a -t ending (weak/regular)?",opts:["gelaufen","gesprungen","geschwommen","gereist"],ans:"gereist",hint:"Weak verbs end in -t. Strong verbs end in -en."},
+
+  {type:"mc",q:"Ich ___ letztes Jahr durch Frankreich gereist.",opts:["habe","bin","ist","sind"],ans:"bin",hint:"reisen is a motion verb. First person singular."},
+
+  {type:"mc",q:"'We hiked in the mountains.' Which is correct?",opts:["Wir haben in den Bergen gewandert","Wir sind in den Bergen gewandert","Wir sind in den Bergen wandern","Wir haben in den Bergen wandert"],ans:"Wir sind in den Bergen gewandert",hint:"wandern takes sein. Partizip at the end."},
+]},
+
+// ═══ L3: Zustandsverben ═══
+{id:"deu10l3",title:"Zustandsverben",icon:"😴",xp:20,board:true,steps:[
+  {type:"intro",title:"Zustandsverben",desc:"Motion verbs take sein. But there is a second group: change-of-state verbs. When something CHANGES or becomes something, sein is also the helper. Plus one special exception: bleiben.",goals:["Change-of-state verbs with sein","5 Partizip II forms","bleiben as a special exception"]},
+
+  {type:"tip",title:"Change of State = sein",text:"Motion verbs describe moving from A to B.\nChange-of-state verbs describe a transformation:\n\neinschlafen: awake BECOMES asleep\naufwachen: asleep BECOMES awake\nwerden: X BECOMES Y\nsterben: alive BECOMES dead\npassieren: something happens (changes occur)\n\nbleiben is the odd one: no motion, no change, but still uses sein.",deepDive:{title:"The logic behind sein",text:"The original idea: haben was for actions done to something (transitive), sein was for intransitive verbs of movement or change.\n\nModern German has exceptions, but the motion/change test catches about 90% of cases. If you are unsure, a German dictionary marks verbs as 'ist' or 'hat' next to the infinitive."}},
+
+  {type:"teach",kind:"word",nl:"einschlafen (ist eingeschlafen)",en:"to fall asleep / fell asleep",phonetic:"IN-shlah-fen, in-ge-SHLAH-fen",example:"A: Hast du gut geschlafen?\nB: Ich bin sofort eingeschlafen.\nA: Warst du so müde?\nB: Ja, nach dem langen Flug.",exampleEn:"A: Did you sleep well?\nB: I fell asleep immediately.\nA: Were you that tired?\nB: Yes, after the long flight.",note:"ein- is a separable prefix. ge- goes between prefix and stem.\nein + ge + schlafen = eingeschlafen."},
+
+  {type:"teach",kind:"word",nl:"aufwachen (ist aufgewacht)",en:"to wake up / woke up",phonetic:"OWF-vah-khen, owf-ge-VAKHT",example:"A: Wann bist du aufgewacht?\nB: Ich bin um sieben aufgewacht.\nA: Ohne Wecker?\nB: Ja, mein Körper kennt die Zeit.",exampleEn:"A: When did you wake up?\nB: I woke up at seven.\nA: Without an alarm?\nB: Yes, my body knows the time.",note:"auf- is a separable prefix.\nPartizip: auf + ge + wacht = aufgewacht."},
+
+  {type:"teach",kind:"word",nl:"werden (ist geworden)",en:"to become / became",phonetic:"VER-den, ge-VOR-den",example:"A: Was ist er geworden?\nB: Er ist Arzt geworden.\nA: Und seine Schwester?\nB: Sie ist Lehrerin geworden.",exampleEn:"A: What did he become?\nB: He became a doctor.\nA: And his sister?\nB: She became a teacher.",note:"werden: highly irregular Partizip.\nwerd- changes to word-. Core verb for Perfekt and future tense."},
+
+  {type:"teach",kind:"word",nl:"sterben (ist gestorben)",en:"to die / died",phonetic:"SHTER-ben, ge-SHTOR-ben",example:"A: Was ist mit dem alten Baum passiert?\nB: Er ist im Sturm gestorben.\nA: Schade, er war so alt.\nB: Ja, über hundert Jahre.",exampleEn:"A: What happened to the old tree?\nB: It died in the storm.\nA: Pity, it was so old.\nB: Yes, over a hundred years.",note:"sterben: strong irregular.\nPartizip: ge- + storb + -en."},
+
+  {type:"teach",kind:"word",nl:"passieren (ist passiert)",en:"to happen / happened",phonetic:"pa-SEER-en, pa-SEERT",example:"A: Was ist hier passiert?\nB: Ein Auto ist in die Mauer gefahren.\nA: Ist jemand verletzt?\nB: Nein, zum Glück nicht.",exampleEn:"A: What happened here?\nB: A car drove into the wall.\nA: Is anyone hurt?\nB: No, fortunately not.",note:"passieren: regular loanword.\nPartizip: ge- + passier + -t."},
+
+  {type:"teach",kind:"word",nl:"bleiben (ist geblieben)",en:"to stay / stayed",phonetic:"BLY-ben, ge-BLEE-ben",example:"A: Warum bist du nicht mitgekommen?\nB: Ich bin zu Hause geblieben.\nA: Warst du krank?\nB: Nein, ich wollte ausruhen.",exampleEn:"A: Why didn't you come along?\nB: I stayed at home.\nA: Were you sick?\nB: No, I wanted to rest.",note:"bleiben: no motion, no change, yet uses sein.\nMemorize this exception. Partizip: geblieben."},
+
+  {type:"verb_table",title:"Zustandsverben: Partizip II",label:"Change-of-state verbs + sein",groups:[{label:"Separable prefix verbs",rows:[["einschlafen","ist eingeschlafen","fell asleep"],["aufwachen","ist aufgewacht","woke up"]]},{label:"Irregular core verbs",rows:[["werden","ist geworden","became"],["sterben","ist gestorben","died"],["bleiben","ist geblieben","stayed"]]},{label:"Regular loanword",rows:[["passieren","ist passiert","happened"]]}],note:"Separable verbs insert ge- between prefix and stem.",deepDive:{title:"Separable prefix + ge- rule",text:"For separable verbs in Partizip II, the ge- is inserted between the prefix and the verb stem:\nein + schlafen becomes eingeschlafen\nauf + wachen becomes aufgewacht\nan + kommen becomes angekommen\n\nThis applies to all separable verbs, not just the state-change group."}},
+
+  {type:"mc",q:"Er ___ sofort eingeschlafen.",opts:["hat","haben","ist","sind"],ans:"ist",hint:"einschlafen is a change-of-state verb. Third person singular of sein."},
+
+  {type:"fb",s:"Was ___ mit dem Auto passiert?",a:"ist",opts:["ist","hat","sind","haben"],hint:"passieren is a change/event verb. Third person singular of sein."},
+
+  {type:"mc",q:"The Partizip II of werden is:",opts:["gewerdet","geworden","gewirdet","gewerden"],ans:"geworden",hint:"werden is highly irregular. The stem changes: werd becomes word."},
+
+  {type:"mc",q:"Ich bin lange ___.",opts:["geblieben","gebleiben","gebleibtet","gebliebt"],ans:"geblieben",hint:"bleiben: strong irregular. The -ie- diphthong stays in the Partizip."},
+
+  {type:"match",pairs:[{nl:"ist eingeschlafen",en:"fell asleep"},{nl:"ist aufgewacht",en:"woke up"},{nl:"ist geworden",en:"became"},{nl:"ist geblieben",en:"stayed"}]},
+
+  {type:"mc",q:"Which verb uses sein because it shows a change of state?",opts:["essen","kaufen","sterben","arbeiten"],ans:"sterben",hint:"Alive to dead is a change of state."},
+
+  {type:"fb",s:"Sie ist Ärztin ___.",a:"geworden",opts:["geworden","gewerdet","gewurd","gewird"],hint:"werden + sein: she became a doctor."},
+
+  {type:"mc",q:"aufwachen forms its Partizip II as:",opts:["aufgewacht","geaufwacht","aufwachtet","gewacht"],ans:"aufgewacht",hint:"Separable verb: prefix + ge + stem."},
+
+  {type:"mc",q:"'It happened very quickly.' Which is correct?",opts:["Es hat sehr schnell passiert","Es ist sehr schnell passiert","Es hat sehr schnell passieren","Es ist sehr schnell passieren"],ans:"Es ist sehr schnell passiert",hint:"passieren uses sein. Partizip at the end."},
+
+  {type:"mc",q:"bleiben uses sein because:",opts:["It is a motion verb","It is a regular verb","It is a special exception to memorize","It describes a physical action"],ans:"It is a special exception to memorize",hint:"bleiben has no motion and no change. It is just an irregular helper choice."},
+]},
+
+// ═══ L4: sein oder haben? ═══
+{id:"deu10l4",title:"sein oder haben?",icon:"⚖️",xp:20,board:true,steps:[
+  {type:"intro",title:"sein oder haben?",desc:"The big question in German Perfekt: do I use sein or haben? Today you master the decision tree and practise with mixed exercises combining both helpers.",goals:["Master the sein vs haben decision","Mixed Perfekt sentences","Distinguish tricky borderline cases"]},
+
+  {type:"tip",title:"The sein vs haben Decision Tree",text:"Ask three questions in order:\n\n1. Is it a MOTION verb (moving from A to B)?\n   YES: use sein\n   Examples: gehen, fahren, fliegen, laufen, rennen, reisen, klettern, springen, schwimmen, wandern\n\n2. Is it a CHANGE-OF-STATE verb?\n   YES: use sein\n   Examples: werden, sterben, einschlafen, aufwachen, passieren\n\n3. Special exception?\n   bleiben uses sein. sein itself uses sein.\n\nEverything else: use haben.",deepDive:{title:"Tricky edge cases",text:"fahren and schwimmen can sometimes take haben when the focus is on the activity and not the destination:\n'Ich habe Auto gefahren' (I drove a car, activity focus)\n'Ich bin nach Berlin gefahren' (I drove to Berlin, motion to a destination)\n\nFor A2 level, the simple rule covers almost everything: motion to a destination or change of state = sein."}},
+
+  {type:"teach",kind:"phrase",nl:"Ich habe gegessen.",en:"I ate / I have eaten.",phonetic:"ikh HA-be ge-ES-en",example:"A: Hast du schon gegessen?\nB: Ja, ich habe schon gegessen.\nA: Was hast du gegessen?\nB: Einen Salat und Brot.",exampleEn:"A: Have you eaten yet?\nB: Yes, I have already eaten.\nA: What did you eat?\nB: A salad and bread.",note:"essen = activity. No motion, no change. Takes haben."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin gefahren.",en:"I drove / I traveled.",phonetic:"ikh bin ge-FAH-ren",example:"A: Wie bist du nach Köln gekommen?\nB: Ich bin mit dem Auto gefahren.\nA: Lange Fahrt?\nB: Zwei Stunden ungefähr.",exampleEn:"A: How did you get to Cologne?\nB: I drove by car.\nA: Long drive?\nB: About two hours.",note:"fahren = motion to destination. Takes sein."},
+
+  {type:"teach",kind:"phrase",nl:"Ich habe geschlafen.",en:"I slept.",phonetic:"ikh HA-be ge-SHLAH-fen",example:"A: Wie hast du geschlafen?\nB: Ich habe gut geschlafen.\nA: Und wann bist du eingeschlafen?\nB: Gleich nach dem Film.",exampleEn:"A: How did you sleep?\nB: I slept well.\nA: And when did you fall asleep?\nB: Right after the movie.",note:"schlafen (to sleep) = activity. Takes haben.\neinschlafen (to fall asleep) = change of state. Takes sein."},
+
+  {type:"teach",kind:"phrase",nl:"Ich bin geblieben.",en:"I stayed.",phonetic:"ikh bin ge-BLEE-ben",example:"A: Warum bist du nicht mitgekommen?\nB: Ich bin im Hotel geblieben.\nA: Hast du ausgeruht?\nB: Ja, ich habe lange geschlafen.",exampleEn:"A: Why didn't you come?\nB: I stayed at the hotel.\nA: Did you rest?\nB: Yes, I slept for a long time.",note:"bleiben: special exception, takes sein.\nNote both sein and haben appear naturally in this conversation."},
+
+  {type:"mc",q:"'She read a book.' German Perfekt uses:",opts:["sein, it involves attention","haben, lesen is an activity","sein, it describes change","haben, it is a common exception"],ans:"haben, lesen is an activity",hint:"lesen: no motion, no change of state."},
+
+  {type:"mc",q:"Ich ___ zur Bibliothek gegangen.",opts:["habe","bin","hat","sind"],ans:"bin",hint:"gehen is a motion verb. First person singular of sein."},
+
+  {type:"fb",s:"Er ___ das Buch gelesen.",a:"hat",opts:["hat","ist","haben","sind"],hint:"lesen is an activity verb. Third person singular of haben."},
+
+  {type:"mc",q:"Which pair BOTH use haben in Perfekt?",opts:["fahren + gehen","essen + kaufen","kommen + fliegen","schlafen + einschlafen"],ans:"essen + kaufen",hint:"Look for verbs with no motion and no change of state."},
+
+  {type:"mc",q:"Sie ___ in Hamburg geblieben.",opts:["hat","haben","ist","sind"],ans:"ist",hint:"bleiben is a special exception: it always uses sein."},
+
+  {type:"drag_fill",s:"Wir {1} viel {2} und haben den ganzen Tag {3}.",blanks:{"1":"sind","2":"gewandert","3":"gegessen"},pool:["sind","haben","gewandert","gegessen","gefahren","gegangen"],hint:"One motion verb with sein, one activity verb with haben."},
+
+  {type:"mc",q:"'She fell asleep on the train.' Which helper?",opts:["hat","ist","haben","sind"],ans:"ist",hint:"einschlafen is a change of state: awake to asleep."},
+
+  {type:"mc",q:"'He worked all day.' German Perfekt helper:",opts:["sein, motion verb","sein, state change","haben, activity verb","haben, special exception"],ans:"haben, activity verb",hint:"arbeiten: no motion, no change of state."},
+
+  {type:"fb",s:"Was ___ hier passiert?",a:"ist",opts:["ist","hat","sind","haben"],hint:"passieren is a change/event verb. Third person singular."},
+
+  {type:"mc",q:"Which sentence is grammatically WRONG?",opts:["Ich bin nach Wien gefahren","Ich habe Pizza gegessen","Ich habe nach Wien gegangen","Ich bin eingeschlafen"],ans:"Ich habe nach Wien gegangen",hint:"gehen is a motion verb: it must take sein, not haben."},
+
+  {type:"match",pairs:[{nl:"bin geflogen",en:"flew (sein)"},{nl:"habe gekauft",en:"bought (haben)"},{nl:"ist geworden",en:"became (sein)"},{nl:"hat gearbeitet",en:"worked (haben)"}]},
+
+  {type:"mc",q:"The key question to decide sein or haben is:",opts:["Is the verb more than two syllables?","Is there motion to a destination or change of state?","Does the verb start with ge-?","Is the subject a person?"],ans:"Is there motion to a destination or change of state?",hint:"The decision tree always starts with motion or state change."},
+
+  {type:"mc",q:"Ich habe gut ___ (schlafen, activity).",opts:["geschlafen","eingeschlafen","geschläft","schlafe"],ans:"geschlafen",hint:"schlafen as an activity takes haben. Partizip: geschlafen."},
+]},
+
+// ═══ L5: Reiseziele ═══
+{id:"deu10l5",title:"Reiseziele",icon:"🗺️",xp:20,board:true,steps:[
+  {type:"intro",title:"Reiseziele",desc:"Where are you going? German has specific prepositions for different types of destinations. Today you master travel destinations and combine them with sein-Perfekt.",goals:["nach, in die, ans for destinations","Country and place names","Full travel sentences in Perfekt"]},
+
+  {type:"tip",title:"Destination Prepositions",text:"German uses different prepositions for different destinations:\n\nnach + country or city (no article): nach Deutschland, nach Berlin, nach Japan\nin die + feminine country: in die Schweiz, in die Türkei, in die USA\nan + das (body of water): ans Meer, ans Mittelmeer\nin die + mountains: in die Berge, in die Alpen\nin den + masculine area: in den Schwarzwald\n\nMost countries have NO article and take nach.",deepDive:{title:"Countries with articles",text:"Most German country names have no article, so they take nach:\nDeutschland, Frankreich, Japan, Italien.\n\nBut a few have definite articles and require in die or in den:\ndie Schweiz: in die Schweiz\ndie Türkei: in die Türkei\ndie USA: in die USA\nder Iran: in den Iran\ndie Niederlande: in die Niederlande\n\nIf a country has an article, nach is wrong. Use in die or in den."}},
+
+  {type:"teach",kind:"phrase",nl:"nach Deutschland",en:"to Germany",phonetic:"nakh DOYTSH-lant",example:"A: Wohin bist du gefahren?\nB: Ich bin nach Deutschland gefahren.\nA: Welche Stadt?\nB: Zuerst München, dann Berlin.",exampleEn:"A: Where did you travel?\nB: I traveled to Germany.\nA: Which city?\nB: First Munich, then Berlin.",note:"nach + country name with no article.\nDeutschland, Frankreich, Italien: all take nach."},
+
+  {type:"teach",kind:"phrase",nl:"in die Schweiz",en:"to Switzerland",phonetic:"in dee SHVITES",example:"A: Bist du schon mal in die Schweiz gereist?\nB: Ja, ich bin letztes Jahr dorthin gefahren.\nA: Hast du Ski gefahren?\nB: Natürlich, in den Alpen!",exampleEn:"A: Have you ever traveled to Switzerland?\nB: Yes, I traveled there last year.\nA: Did you ski?\nB: Of course, in the Alps!",note:"die Schweiz has a feminine article.\nSo: in die Schweiz, not nach Schweiz."},
+
+  {type:"teach",kind:"phrase",nl:"ans Meer",en:"to the sea / to the seaside",phonetic:"ans MAYR",example:"A: Was habt ihr im Urlaub gemacht?\nB: Wir sind ans Meer gefahren.\nA: Habt ihr viel geschwommen?\nB: Jeden Tag!",exampleEn:"A: What did you do on holiday?\nB: We went to the sea.\nA: Did you swim a lot?\nB: Every day!",note:"an + das Meer = ans Meer (contraction).\nUsed for seas, lakes, and rivers."},
+
+  {type:"teach",kind:"phrase",nl:"in die Berge",en:"to the mountains",phonetic:"in dee BER-ge",example:"A: Wohin bist du diesen Winter gefahren?\nB: Ich bin in die Berge gefahren.\nA: Welche Berge?\nB: Die Alpen, natürlich.",exampleEn:"A: Where did you go this winter?\nB: I went to the mountains.\nA: Which mountains?\nB: The Alps, of course.",note:"die Berge (plural). in die Berge = into the mountains."},
+
+  {type:"teach",kind:"phrase",nl:"in die Türkei",en:"to Turkey",phonetic:"in dee TUER-kye",example:"A: Bist du schon mal in die Türkei gereist?\nB: Ja, zweimal.\nA: Was hast du gesehen?\nB: Istanbul ist wunderschön.",exampleEn:"A: Have you ever traveled to Turkey?\nB: Yes, twice.\nA: What did you see?\nB: Istanbul is magnificent.",note:"die Türkei has a feminine article.\nTherefore: in die Türkei, not nach Türkei."},
+
+  {type:"teach",kind:"phrase",nl:"in den Urlaub fahren",en:"to go on holiday",phonetic:"in den URL-owb FAH-ren",example:"A: Wann seid ihr in den Urlaub gefahren?\nB: Im August, für zwei Wochen.\nA: War es schön?\nB: Traumhaft, wir kommen wieder.",exampleEn:"A: When did you go on holiday?\nB: In August, for two weeks.\nA: Was it nice?\nB: Wonderful, we will come back.",note:"der Urlaub = the holiday.\nIn den Urlaub fahren is the fixed expression for going on holiday."},
+
+  {type:"teach",kind:"word",nl:"das Ausland",en:"abroad / foreign country",phonetic:"OWS-lant",example:"A: Bist du viel im Ausland gewesen?\nB: Ja, ich reise gerne ins Ausland.\nA: Welches Land war am schönsten?\nB: Neuseeland war unglaublich.",exampleEn:"A: Have you been abroad much?\nB: Yes, I like traveling abroad.\nA: Which country was most beautiful?\nB: New Zealand was incredible.",note:"ins Ausland = in das Ausland (contraction).\nUsed for any destination outside your home country."},
+
+  {type:"mc",q:"You are traveling to France. You say: Ich bin ___ gefahren.",opts:["nach Frankreich","in die Frankreich","ans Frankreich","in Frankreich"],ans:"nach Frankreich",hint:"France has no article in German. Use nach."},
+
+  {type:"mc",q:"You went to Switzerland. Which is correct?",opts:["Ich bin nach Schweiz gefahren","Ich bin in der Schweiz gefahren","Ich bin in die Schweiz gefahren","Ich bin an die Schweiz gefahren"],ans:"Ich bin in die Schweiz gefahren",hint:"die Schweiz has the feminine article. Use in die."},
+
+  {type:"fb",s:"Wir sind ___ Meer gefahren.",a:"ans",opts:["ans","am","ins","zum"],hint:"an + das = ans. Used for sea destinations."},
+
+  {type:"mc",q:"'We went to the mountains.' Which is correct?",opts:["Wir sind nach Berge gefahren","Wir sind in die Berge gefahren","Wir sind ans Berge gefahren","Wir sind in den Berg gefahren"],ans:"Wir sind in die Berge gefahren",hint:"die Berge is plural. In die Berge is the standard phrase."},
+
+  {type:"match",pairs:[{nl:"nach Deutschland",en:"to Germany (no article)"},{nl:"in die Schweiz",en:"to Switzerland (fem. article)"},{nl:"ans Meer",en:"to the sea"},{nl:"in die Berge",en:"to the mountains"}]},
+
+  {type:"mc",q:"'I went on holiday.' Correct set phrase:",opts:["Ich bin in Urlaub gewesen","Ich bin in den Urlaub gefahren","Ich bin zum Urlaub gegangen","Ich bin nach Urlaub gereist"],ans:"Ich bin in den Urlaub gefahren",hint:"der Urlaub: the fixed phrase is in den Urlaub fahren."},
+
+  {type:"fb",s:"Ich bin letzten Sommer ins ___ gereist.",a:"Ausland",opts:["Ausland","Inland","Urlaub","Ausländer"],hint:"Traveling outside your home country."},
+
+  {type:"mc",q:"Which country uses 'in die' instead of 'nach'?",opts:["Deutschland","Japan","Italien","die Türkei"],ans:"die Türkei",hint:"Countries with a definite article use in die or in den, not nach."},
+
+  {type:"mc",q:"Complete: Sie ___ letztes Jahr in die USA ___.",opts:["ist, geflogen","hat, geflogen","ist, flogen","hat, geflogen haben"],ans:"ist, geflogen",hint:"fliegen takes sein. She flew to the USA."},
+
+  {type:"mc",q:"Ins Ausland means:",opts:["At home","In the countryside","Abroad","To the sea"],ans:"Abroad",hint:"Ausland = out-land, i.e. outside one's own country."},
+]},
+
+// ═══ L6: Im Hotel ═══
+{id:"deu10l6",title:"Im Hotel",icon:"🏨",xp:20,board:true,steps:[
+  {type:"intro",title:"Im Hotel",desc:"You have arrived at your destination. Now you need to check in, communicate with hotel staff, and find your room. Today: hotel vocabulary and using sein-Perfekt in travel contexts.",goals:["Hotel vocabulary with articles","Check in and check out phrases","Perfekt in real travel conversations"]},
+
+  {type:"teach",kind:"word",nl:"das Hotel",en:"the hotel",phonetic:"ho-TEL",example:"A: In welchem Hotel seid ihr geblieben?\nB: Wir sind in einem kleinen Hotel geblieben.\nA: War es schön?\nB: Sehr gemütlich!",exampleEn:"A: Which hotel did you stay in?\nB: We stayed in a small hotel.\nA: Was it nice?\nB: Very cozy!",note:"das Hotel (neuter).\ngeblieben (bleiben) = stayed. Uses sein."},
+
+  {type:"teach",kind:"word",nl:"die Rezeption",en:"the reception / front desk",phonetic:"re-tsep-TSEE-on",example:"A: Guten Abend! Ich bin Müller.\nB: Willkommen! Ich suche Ihre Reservierung.\nA: Hier ist die Bestätigung.\nB: Perfekt, Zimmer 14.",exampleEn:"A: Good evening! I am Müller.\nB: Welcome! I am looking for your reservation.\nA: Here is the confirmation.\nB: Perfect, room 14.",note:"die Rezeption (feminine). Formal front-desk term.\nAlso: der Empfang (reception area, more general)."},
+
+  {type:"teach",kind:"word",nl:"einchecken (ist eingecheckt)",en:"to check in / checked in",phonetic:"IN-che-ken, in-ge-CHEKT",example:"A: Wo habt ihr eingecheckt?\nB: Wir sind um drei Uhr eingecheckt.\nA: War es schnell?\nB: Ja, nur fünf Minuten.",exampleEn:"A: Where did you check in?\nB: We checked in at three o'clock.\nA: Was it quick?\nB: Yes, only five minutes.",note:"einchecken: separable loanword.\nPartizip: ein + ge + checkt = eingecheckt."},
+
+  {type:"teach",kind:"word",nl:"auschecken (ist ausgecheckt)",en:"to check out / checked out",phonetic:"OWS-che-ken, ows-ge-CHEKT",example:"A: Wann habt ihr ausgecheckt?\nB: Wir sind um elf Uhr ausgecheckt.\nA: War jemand an der Rezeption?\nB: Ja, die Dame war sehr freundlich.",exampleEn:"A: When did you check out?\nB: We checked out at eleven.\nA: Was anyone at reception?\nB: Yes, the lady was very friendly.",note:"aus- is the separable prefix.\nPartizip: aus + ge + checkt."},
+
+  {type:"teach",kind:"word",nl:"das Zimmer",en:"the room",phonetic:"TSIM-er",example:"A: Kann ich mein Zimmer sehen?\nB: Natürlich! Zimmer 205, zweiter Stock.\nA: Gibt es ein Badezimmer?\nB: Ja, mit Dusche und Badewanne.",exampleEn:"A: Can I see my room?\nB: Of course! Room 205, second floor.\nA: Is there a bathroom?\nB: Yes, with shower and bath.",note:"das Zimmer (neuter). Literally: the room.\ndas Badezimmer = bathroom. das Schlafzimmer = bedroom."},
+
+  {type:"teach",kind:"word",nl:"der Schlüssel",en:"the key",phonetic:"SHLUES-el",example:"A: Hier ist Ihr Schlüssel für Zimmer 14.\nB: Danke. Wo ist der Aufzug?\nA: Links neben der Rezeption.\nB: Vielen Dank!",exampleEn:"A: Here is your key for room 14.\nB: Thank you. Where is the elevator?\nA: Left of the reception.\nB: Many thanks!",note:"der Schlüssel (masculine).\ndie Schlüsselkarte = key card (modern hotels)."},
+
+  {type:"teach",kind:"word",nl:"die Reservierung",en:"the reservation / booking",phonetic:"re-zer-VEER-ung",example:"A: Ich habe eine Reservierung.\nB: Auf welchen Namen?\nA: Auf den Namen Weber.\nB: Einen Moment, ich suche.",exampleEn:"A: I have a reservation.\nB: Under what name?\nA: Under the name Weber.\nB: One moment, I am looking.",note:"die Reservierung (feminine).\nAlso: die Buchung (booking), common for online reservations."},
+
+  {type:"teach",kind:"word",nl:"das Frühstück",en:"the breakfast",phonetic:"FRUE-shtuek",example:"A: Ist das Frühstück inklusive?\nB: Ja, Frühstück ist von sieben bis zehn.\nA: Und wo ist das Restaurant?\nB: Im Erdgeschoss, links.",exampleEn:"A: Is breakfast included?\nB: Yes, breakfast is from seven to ten.\nA: And where is the restaurant?\nB: On the ground floor, to the left.",note:"das Frühstück (neuter). Früh = early. Stück = piece.\nAsking about breakfast is standard at check-in."},
+
+  {type:"mc",q:"'Where is the key?' In German:",opts:["Wo ist die Schlüssel?","Wo ist das Schlüssel?","Wo ist der Schlüssel?","Wo sind die Schlüssel?"],ans:"Wo ist der Schlüssel?",hint:"der Schlüssel is masculine singular."},
+
+  {type:"mc",q:"Sie ___ um 14 Uhr eingecheckt.",opts:["haben","sind","hat","ist"],ans:"ist",hint:"einchecken takes sein. Third person singular."},
+
+  {type:"fb",s:"Wir haben eine ___ auf den Namen Schmidt.",a:"Reservierung",opts:["Reservierung","Schlüssel","Zimmer","Rezeption"],hint:"Booking under a name at a hotel."},
+
+  {type:"mc",q:"'Is breakfast included?' In German:",opts:["Ist das Frühstück inklusive?","Ist die Frühstück inklusive?","Ist der Frühstück inklusive?","Sind das Frühstück inklusive?"],ans:"Ist das Frühstück inklusive?",hint:"das Frühstück is neuter."},
+
+  {type:"match",pairs:[{nl:"die Rezeption",en:"the front desk"},{nl:"der Schlüssel",en:"the key"},{nl:"das Zimmer",en:"the room"},{nl:"das Frühstück",en:"the breakfast"}]},
+
+  {type:"mc",q:"auschecken Partizip II is:",opts:["ausgecheckt","geausscheckt","auscheckte","ausgechecken"],ans:"ausgecheckt",hint:"Separable verb: aus + ge + checkt."},
+
+  {type:"fb",s:"Wo ist der ___? Ich kann mein Zimmer nicht öffnen.",a:"Schlüssel",opts:["Schlüssel","Zimmer","Aufzug","Frühstück"],hint:"You cannot open your door. What do you need?"},
+
+  {type:"mc",q:"Which sentence correctly describes checking in?",opts:["Ich habe um zwei Uhr eingecheckt","Ich bin um zwei Uhr eingecheckt","Ich habe um zwei Uhr eincheckt","Ich bin um zwei Uhr checken"],ans:"Ich bin um zwei Uhr eingecheckt",hint:"einchecken takes sein. Partizip: eingecheckt."},
+
+  {type:"mc",q:"'The reservation is under the name Hoffmann.' Correct form:",opts:["Die Reservierung ist auf dem Namen Hoffmann","Die Reservierung ist auf den Namen Hoffmann","Die Buchung ist nach Namen Hoffmann","Die Reservierung heißt Hoffmann"],ans:"Die Reservierung ist auf den Namen Hoffmann",hint:"auf + accusative for names: auf den Namen."},
+
+  {type:"mc",q:"das Schlafzimmer means:",opts:["The living room","The bathroom","The bedroom","The kitchen"],ans:"The bedroom",hint:"schlafen = to sleep. Schlafzimmer = sleep-room."},
+]},
+
+// ═══ L7: Urlaubsgeschichten ═══
+{id:"deu10l7",title:"Urlaubsgeschichten",icon:"📸",xp:20,board:true,steps:[
+  {type:"intro",title:"Urlaubsgeschichten",desc:"Holiday stories use BOTH haben and sein in Perfekt. Today you practise telling full travel stories by mixing motion verbs (sein) with activity verbs (haben) and sequencing events naturally.",goals:["Tell holiday stories in Perfekt","Mix sein and haben naturally","Use time words to sequence events"]},
+
+  {type:"tip",title:"Sequencing a Story in Perfekt",text:"German time words help you sequence events:\n\nzuerst = first\ndann = then\ndanach = after that\nam nächsten Tag = the next day\nschließlich = finally\n\nA good holiday story layers both helpers:\nWir sind nach Wien gefahren. (sein, motion)\nWir haben ein Konzert besucht. (haben, activity)\nAm nächsten Tag sind wir ins Museum gegangen. (sein, motion)",deepDive:{title:"Word order with time adverbs",text:"Time adverbs can go to position 1 or right after the verb:\n\nDann sind wir ins Kino gegangen. (dann in position 1)\nWir sind dann ins Kino gegangen. (dann after the verb)\n\nBoth are correct. Position 1 gives the time word more emphasis."}},
+
+  {type:"teach",kind:"phrase",nl:"Wir sind angekommen.",en:"We arrived.",phonetic:"veer zint AN-ge-kom-en",example:"A: Wann seid ihr angekommen?\nB: Wir sind am Freitagabend angekommen.\nA: War der Flug lang?\nB: Ja, neun Stunden!",exampleEn:"A: When did you arrive?\nB: We arrived on Friday evening.\nA: Was the flight long?\nB: Yes, nine hours!",note:"ankommen: separable verb (an + kommen).\nPartizip: an + ge + kommen = angekommen. Takes sein."},
+
+  {type:"teach",kind:"phrase",nl:"Wir haben das Museum besucht.",en:"We visited the museum.",phonetic:"veer HA-ben das moo-ZAY-um be-ZUCHT",example:"A: Was habt ihr in Wien gesehen?\nB: Wir haben das Kunsthistorische Museum besucht.\nA: Und danach?\nB: Wir sind durch die Altstadt spaziert.",exampleEn:"A: What did you see in Vienna?\nB: We visited the Art History Museum.\nA: And afterwards?\nB: We strolled through the old town.",note:"besuchen: takes haben (activity, no destination motion).\nPartizip: be- + such + -t = besucht."},
+
+  {type:"teach",kind:"phrase",nl:"Wir haben tolle Fotos gemacht.",en:"We took great photos.",phonetic:"veer HA-ben TOH-le FOH-tos ge-MAKHT",example:"A: Habt ihr viele Fotos gemacht?\nB: Ja, wir haben hunderte Fotos gemacht!\nA: Werde ich sie sehen?\nB: Natürlich, ich schicke dir alle.",exampleEn:"A: Did you take many photos?\nB: Yes, we took hundreds of photos!\nA: Will I see them?\nB: Of course, I will send you all of them.",note:"Fotos machen: activity verb, takes haben.\ngemacht is the Partizip of machen."},
+
+  {type:"teach",kind:"phrase",nl:"Wir sind spazieren gegangen.",en:"We went for a walk.",phonetic:"veer zint shpa-TSEER-en ge-GANG-en",example:"A: Was habt ihr am Sonntag gemacht?\nB: Wir sind spazieren gegangen.\nA: Wo entlang?\nB: Am See, es war wunderschön.",exampleEn:"A: What did you do on Sunday?\nB: We went for a walk.\nA: Where?\nB: Along the lake, it was beautiful.",note:"spazieren gehen: fixed two-word phrase.\nDescribes motion, uses sein. Partizip: spazieren gegangen."},
+
+  {type:"teach",kind:"phrase",nl:"Wir haben gut gegessen.",en:"We ate well.",phonetic:"veer HA-ben goot ge-ES-en",example:"A: Habt ihr lokale Küche probiert?\nB: Ja! Wir haben jeden Tag gut gegessen.\nA: Was war am besten?\nB: Die Sachertorte, natürlich!",exampleEn:"A: Did you try local food?\nB: Yes! We ate well every day.\nA: What was best?\nB: Sachertorte, of course!",note:"essen: activity verb, takes haben.\nPartizip: gegessen (strong irregular)."},
+
+  {type:"mc",q:"Which sentence uses the WRONG helper verb?",opts:["Wir sind nach Paris geflogen","Wir haben den Eiffelturm besucht","Wir ist spazieren gegangen","Wir haben gut gegessen"],ans:"Wir ist spazieren gegangen",hint:"spazieren gehen takes sein. wir needs sind, not ist."},
+
+  {type:"mc",q:"Wir ___ am Nachmittag ins Museum gegangen.",opts:["haben","sind","habt","seid"],ans:"sind",hint:"gehen is a motion verb. wir + sein."},
+
+  {type:"fb",s:"Zuerst ___ wir angekommen, dann haben wir eingecheckt.",a:"sind",opts:["sind","haben","ist","hat"],hint:"ankommen takes sein. First person plural."},
+
+  {type:"drag_fill",s:"Wir {1} nach München gefahren und {2} viel gegessen.",blanks:{"1":"sind","2":"haben"},pool:["sind","haben","ist","hat","seid","habt"],hint:"fahren takes sein, essen takes haben."},
+
+  {type:"mc",q:"'We visited the cathedral.' Which helper?",opts:["sein, it is a destination","haben, besuchen is an activity","sein, it involves movement","haben, it is irregular"],ans:"haben, besuchen is an activity",hint:"besuchen = to visit: no directional motion, it is an activity."},
+
+  {type:"mc",q:"Am nächsten Tag ___ wir in die Berge gewandert.",opts:["haben","sind","habt","seid"],ans:"sind",hint:"wandern is a motion verb. wir + sein."},
+
+  {type:"fb",s:"Wir haben tolle ___ gemacht.",a:"Fotos",opts:["Fotos","Reisen","Hotels","Flüge"],hint:"Taking pictures on holiday."},
+
+  {type:"mc",q:"Which sequence is grammatically CORRECT?",opts:["Zuerst sind wir geflogen, dann sind wir eingecheckt, danach sind wir spazieren gegangen.","Zuerst haben wir geflogen, dann haben wir eingecheckt, danach haben wir spazieren gegangen.","Zuerst sind wir geflogen, dann sind wir eingecheckt, danach haben wir spazieren gegangen.","Zuerst haben wir geflogen, dann sind wir eingecheckt, danach sind wir spazieren gegangen."],ans:"Zuerst sind wir geflogen, dann sind wir eingecheckt, danach sind wir spazieren gegangen.",hint:"fliegen = sein, einchecken = sein, spazieren gehen = sein."},
+
+  {type:"mc",q:"'I took many photos.' In Perfekt:",opts:["Ich bin viele Fotos gemacht","Ich habe viele Fotos gemacht","Ich bin viele Fotos machen","Ich habe viele Fotos gemachen"],ans:"Ich habe viele Fotos gemacht",hint:"Fotos machen is an activity. Takes haben."},
+
+  {type:"mc",q:"spazieren gehen Partizip II:",opts:["gespaziert gegangen","spaziert gegangen","spazieren gegangen","gegangen spazieren"],ans:"spazieren gegangen",hint:"spazieren stays as the infinitive. gegangen is the Partizip of gehen."},
+
+  {type:"mc",q:"'We arrived in Rome.' Which is correct?",opts:["Wir haben in Rom angekommen","Wir sind in Rom angekommen","Wir sind in Rom ankommen","Wir haben in Rom ankommen"],ans:"Wir sind in Rom angekommen",hint:"ankommen is a motion verb. Takes sein."},
+]},
+
+// ═══ L8: Perfekt komplett ═══
+{id:"deu10l8",title:"Perfekt komplett",icon:"🎓",xp:25,board:true,steps:[
+  {type:"intro",title:"Perfekt komplett",desc:"Unit 10 finale. Today you consolidate the full Perfekt system: sein vs haben decision, all irregular Partizip II forms, and building complex travel sentences.",goals:["Full sein vs haben review","Irregular Partizip II forms","Complex multi-verb Perfekt sentences"]},
+
+  {type:"tip",title:"Perfekt Mastery Summary",text:"The complete Perfekt system:\n\nFORMULA: haben/sein (position 2) + Partizip II (end)\n\nsein group (motion + state change):\ngehen, kommen, fahren, fliegen, laufen, rennen\nschwimmen, reisen, klettern, springen, wandern\nwerden, sterben, einschlafen, aufwachen, passieren, bleiben\n\nhaben group (everything else):\nessen, trinken, kaufen, lesen, arbeiten, besuchen\nschlafen, machen, sehen, hören, lernen, schreiben\n\nKey irregular Partizip II forms:\ngehen: gegangen | kommen: gekommen | fahren: gefahren\nfliegen: geflogen | laufen: gelaufen | schwimmen: geschwommen\nschreiben: geschrieben | lesen: gelesen | essen: gegessen",deepDive:{title:"Partizip II patterns",text:"Four patterns to recognize:\n1. Weak regular: ge + stem + t (kaufen: gekauft)\n2. Mixed irregular: ge + changed stem + t (rennen: gerannt, bringen: gebracht)\n3. Strong: ge + changed stem + en (fahren: gefahren, fliegen: geflogen)\n4. Separable: prefix + ge + stem + t or en (einchecken: eingecheckt, ankommen: angekommen)\n\nVerbs with inseparable prefixes (be-, ge-, er-, ver-) do NOT add ge-:\nbesuchen: besucht | verstehen: verstanden | erklären: erklärt"}},
+
+  {type:"verb_table",title:"Complete Partizip II Reference",label:"Key forms to memorize",groups:[{label:"sein group (motion)",rows:[["gehen","ist gegangen","went"],["kommen","ist gekommen","came"],["fahren","ist gefahren","drove/traveled"],["fliegen","ist geflogen","flew"],["laufen","ist gelaufen","ran"],["schwimmen","ist geschwommen","swam"]]},{label:"sein group (state change)",rows:[["werden","ist geworden","became"],["bleiben","ist geblieben","stayed"],["einschlafen","ist eingeschlafen","fell asleep"],["aufwachen","ist aufgewacht","woke up"]]},{label:"haben group (activities)",rows:[["essen","hat gegessen","ate"],["lesen","hat gelesen","read"],["schreiben","hat geschrieben","wrote"],["kaufen","hat gekauft","bought"],["besuchen","hat besucht","visited"]]}],note:"These are the highest-frequency verbs in German."},
+
+  {type:"mc",q:"Which Partizip II is WRONG?",opts:["gegangen","geflogen","geschwimmt","geblieben"],ans:"geschwimmt",hint:"schwimmen is a strong verb: the Partizip II is geschwommen, not geschwimmt."},
+
+  {type:"mc",q:"'She read the book.' Perfekt helper:",opts:["sein, lesen involves focus","haben, lesen is an activity","sein, reading changes the reader","haben, it is a vowel-change verb"],ans:"haben, lesen is an activity",hint:"lesen: no motion, no change of state."},
+
+  {type:"fb",s:"Ich ___ gestern Nacht sehr schlecht geschlafen.",a:"habe",opts:["habe","bin","hat","ist"],hint:"schlafen (sleeping, activity) takes haben."},
+
+  {type:"mc",q:"Wir ___ durch den Park gelaufen und ___ dann Kaffee getrunken.",opts:["sind / haben","haben / sind","ist / hat","sind / sind"],ans:"sind / haben",hint:"laufen = sein (motion). trinken = haben (activity)."},
+
+  {type:"drag_fill",s:"Er {1} nach Wien {2} und {3} das Kunstmuseum {4}.",blanks:{"1":"ist","2":"geflogen","3":"hat","4":"besucht"},pool:["ist","hat","geflogen","besucht","sind","haben","gefahren","gegangen"],hint:"fliegen uses sein (motion). besuchen uses haben (activity)."},
+
+  {type:"mc",q:"The Partizip II of schreiben is:",opts:["geschrieben","geschreibt","schreibt","geskrieben"],ans:"geschrieben",hint:"schreiben: strong verb. ei changes to ie in the Partizip."},
+
+  {type:"mc",q:"'We stayed in Munich for three days.' Correct sentence:",opts:["Wir haben drei Tage in München geblieben","Wir sind drei Tage in München geblieben","Wir sind drei Tage in München bleiben","Wir haben drei Tage in München bleiben"],ans:"Wir sind drei Tage in München geblieben",hint:"bleiben always takes sein. Partizip: geblieben."},
+
+  {type:"fb",s:"Was ___ hier passiert? Das Auto ist in die Mauer gefahren.",a:"ist",opts:["ist","hat","sind","haben"],hint:"passieren takes sein. Third person singular."},
+
+  {type:"mc",q:"Inseparable prefix verbs (be-, ver-, er-) form Partizip II:",opts:["With ge- at the start","Without ge-","With ge- after the prefix","With -t added to infinitive"],ans:"Without ge-",hint:"besuchen: besucht (no ge-). verstehen: verstanden (no ge-)."},
+
+  {type:"mc",q:"Which sentence contains a wrong helper?",opts:["Ich bin nach Hamburg gefahren","Er hat das Konzert besucht","Sie ist im Hotel geblieben","Wir haben nach Berlin gegangen"],ans:"Wir haben nach Berlin gegangen",hint:"gehen describes motion to a destination. It must take sein."},
+
+  {type:"match",pairs:[{nl:"ist gelaufen",en:"ran (sein)"},{nl:"hat gegessen",en:"ate (haben)"},{nl:"ist geworden",en:"became (sein)"},{nl:"hat gekauft",en:"bought (haben)"}]},
+
+  {type:"mc",q:"'I fell asleep immediately.' In Perfekt:",opts:["Ich habe sofort eingeschlafen","Ich bin sofort eingeschlafen","Ich bin sofort einschlaf","Ich habe sofort schlafen"],ans:"Ich bin sofort eingeschlafen",hint:"einschlafen = change of state. Takes sein. Partizip: eingeschlafen."},
+
+  {type:"drag_fill",s:"Wir {1} in die Schweiz {2}, {3} gewandert und {4} in einem Berghotel {5}.",blanks:{"1":"sind","2":"gefahren","3":"sind","4":"haben","5":"übernachtet"},pool:["sind","haben","gefahren","gewandert","übernachtet","gereist","gegessen"],hint:"fahren + wandern = sein. übernachten (to stay overnight) = haben."},
+
+  {type:"mc",q:"'I woke up at 6 AM.' Perfekt:",opts:["Ich habe um 6 Uhr aufgewacht","Ich bin um 6 Uhr aufgewacht","Ich bin um 6 Uhr aufwachen","Ich habe um 6 Uhr gewacht"],ans:"Ich bin um 6 Uhr aufgewacht",hint:"aufwachen = change of state. Takes sein. Partizip: aufgewacht."},
+
+  {type:"mc",q:"Complete: Wir ___ nach Salzburg gefahren, ___ Mozart's Geburtshaus besucht und ___ abends ins Konzert gegangen.",opts:["sind / haben / sind","haben / sind / haben","sind / sind / haben","haben / haben / sind"],ans:"sind / haben / sind",hint:"fahren = sein, besuchen = haben, gehen = sein."},
 ]},
 
 ]},
