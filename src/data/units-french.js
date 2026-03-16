@@ -340,4 +340,328 @@ export default [
 ]},
 ]},
 
+// ══════════════════════════════════════════════════════════════
+// UNIT 2: JE ME PRÉSENTE — Identity, Numbers, être & avoir
+// Nationalities, languages, numbers 0-20, être + avoir present tense
+// P26: être/avoir named as core verbs. Conjugation seeds planted.
+// ══════════════════════════════════════════════════════════════
+{n:2,lang:"fr",track:"v1",title:"Je me présente",sub:"Identity, Numbers & Core Verbs",icon:"🪪",level:"A1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Les nationalités ═══
+{id:"fre2l1",title:"Les nationalités",icon:"🌍",xp:15,board:true,steps:[
+  {type:"intro",title:"Les nationalités",desc:"Learn to say where you are from and ask others. French nationalities change form based on gender: the Agreement Web at work.",goals:["Say your nationality","Ask where someone is from","Understand masculine/feminine nationality forms"]},
+
+  {type:"teach",kind:"phrase",nl:"Je suis...",en:"I am...",phonetic:"zhuh SWEE",example:"A: Bonjour! Je suis français.\nB: Enchanté! Je suis anglaise.\nA: Vous habitez à Paris?",exampleEn:"A: Hello! I am French.\nB: Nice to meet you! I am English.\nA: Do you live in Paris?",note:"Je = I. Suis = am (from être).\nJe suis + nationality/adjective.\nThe most important verb in French: être (to be)."},
+
+  {type:"teach",kind:"word",nl:"français / française",en:"French (m/f)",phonetic:"fron-SAY / fron-SEZ",example:"A: Tu es français?\nB: Oui, je suis française. Et toi?\nA: Je suis américain.",exampleEn:"A: Are you French?\nB: Yes, I am French (f). And you?\nA: I am American.",note:"Masculine: français (no extra letter).\nFeminine: française (adds -e, changes pronunciation).\nThe -ais ending sounds like AY; -aise sounds like EZ."},
+
+  {type:"teach",kind:"word",nl:"anglais / anglaise",en:"English (m/f)",phonetic:"on-GLAY / on-GLEZ",example:"A: Vous êtes anglais?\nB: Non, je suis américaine.\nA: Ah, vous parlez bien français!",exampleEn:"A: Are you English?\nB: No, I am American (f).\nA: Ah, you speak French well!",note:"Same pattern as français/française.\nAnglais = from England specifically.\nFor British in general: britannique (same for m/f)."},
+
+  {type:"teach",kind:"word",nl:"américain / américaine",en:"American (m/f)",phonetic:"ah-may-ree-KAN / ah-may-ree-KEN",example:"A: D'où venez-vous?\nB: Je suis américain, de New York.\nA: J'adore New York!",exampleEn:"A: Where are you from?\nB: I am American, from New York.\nA: I love New York!",note:"Masculine: américain (nasal -ain ending).\nFeminine: américaine (adds -e, -aine sounds like KEN).\nNationalities are lowercase in French (not capitalized)."},
+
+  {type:"tip",title:"The Agreement Web: Nationalities",text:"French nationalities follow gender agreement:\n\nMasculine (he): français, anglais, américain\nFeminine (she): française, anglaise, américaine\n\nCommon pattern: add -e for feminine.\nSome change more: italien/italienne, allemand/allemande.\nSome are the same: belge, suisse, russe (already end in -e).\n\nRemember: nationalities are NOT capitalized in French.",deepDive:{title:"Why lowercase?",text:"In French, nationalities used as adjectives are always lowercase: je suis français, elle est anglaise.\n\nBut as nouns (the person), they capitalize: un Français, une Anglaise.\n\nThis is the opposite of English, where both are capitalized. For now, when using je suis + nationality, keep it lowercase."}},
+
+  {type:"teach",kind:"word",nl:"allemand / allemande",en:"German (m/f)",phonetic:"al-MON / al-MOND",example:"A: Il est allemand?\nB: Oui, il est de Berlin.\nA: Il parle français aussi?",exampleEn:"A: Is he German?\nB: Yes, he is from Berlin.\nA: Does he speak French too?",note:"Masculine: allemand (silent D at end).\nFeminine: allemande (the D is pronounced: MOND).\nAdding -e makes the final consonant audible."},
+
+  {type:"mc",q:"A woman says 'I am French'. She says:",opts:["Je suis français","Je suis française","Je suis francaise","Je suis franchaise"],ans:"Je suis française",hint:"Feminine form adds -e. The cedilla on ç is required."},
+
+  {type:"mc",q:"Nationalities in French are written:",opts:["Always capitalized","Always lowercase as adjectives","With only the first letter capitalized","In all caps"],ans:"Always lowercase as adjectives",hint:"Unlike English, adjective nationalities stay lowercase."},
+
+  {type:"fb",s:"Je suis ___. Je viens de Londres.",a:"anglais",opts:["anglais","français","américain","allemand"],hint:"From London means English. Masculine form."},
+
+  {type:"mc",q:"'Allemand' becomes 'allemande' in feminine. The D is now:",opts:["Still silent","Pronounced","Doubled","Removed"],ans:"Pronounced",hint:"Adding -e to feminine makes the final consonant audible."},
+
+  {type:"match",pairs:[{nl:"français/e",en:"French"},{nl:"anglais/e",en:"English"},{nl:"américain/e",en:"American"},{nl:"allemand/e",en:"German"}]},
+
+  {type:"mc",q:"Which nationality is the SAME for masculine and feminine?",opts:["français","américain","belge","anglais"],ans:"belge",hint:"Nationalities already ending in -e do not change."},
+
+  {type:"fb",s:"Elle est ___. Elle vient de Rome.",a:"italienne",opts:["italienne","italien","italiene","italie"],hint:"Italian woman: feminine form doubles the N and adds -e."},
+
+  {type:"mc",q:"'Je suis' uses the verb:",opts:["avoir (to have)","être (to be)","aller (to go)","faire (to do)"],ans:"être (to be)",hint:"I am = je suis. Suis comes from the verb to be."},
+
+  {type:"mc",q:"A man from the United States says:",opts:["Je suis américaine","Je suis américain","Je suis amérique","Je suis états-unien"],ans:"Je suis américain",hint:"Masculine nationality: no extra -e at the end."},
+
+  {type:"fb",s:"D'où ___-vous? Je suis de Paris.",a:"venez",opts:["venez","êtes","allez","avez"],hint:"Where do you come from? Formal you form of venir."},
+
+  {type:"mc",q:"In French, 'je suis anglaise' tells you the speaker is:",opts:["A man from England","A woman from England","Anyone from England","A French person"],ans:"A woman from England",hint:"The -e ending on anglaise signals feminine gender."},
+
+  {type:"mc",q:"'Suisse' (Swiss) in feminine is:",opts:["Suissesse","Suissaine","Suisse","Suissée"],ans:"Suisse",hint:"Already ends in -e, so it stays the same for both genders."},
+]},
+
+// ═══ L2: Les langues ═══
+{id:"fre2l2",title:"Les langues",icon:"💬",xp:15,board:true,steps:[
+  {type:"intro",title:"Les langues",desc:"Learn to talk about the languages you speak. In multilingual Europe, this is an everyday conversation topic.",goals:["Name 5 major languages","Say what languages you speak","Use parler (to speak) basics"]},
+
+  {type:"teach",kind:"word",nl:"le français",en:"French (the language)",phonetic:"luh fron-SAY",example:"A: Vous parlez français?\nB: Oui, je parle français et anglais.\nA: Très bien!",exampleEn:"A: Do you speak French?\nB: Yes, I speak French and English.\nA: Very good!",note:"le français = the French language (masculine).\nLanguage names are lowercase: le français, not le Français.\nAll language names are masculine in French."},
+
+  {type:"teach",kind:"word",nl:"l'anglais",en:"English (the language)",phonetic:"lon-GLAY",example:"A: Tu parles anglais?\nB: Oui, c'est ma langue maternelle.\nA: Tu as de la chance!",exampleEn:"A: Do you speak English?\nB: Yes, it's my mother tongue.\nA: You're lucky!",note:"l'anglais = le + anglais (elision before vowel).\nAll language names use le: le français, l'anglais, l'allemand.\nLangue maternelle = mother tongue."},
+
+  {type:"teach",kind:"phrase",nl:"Je parle...",en:"I speak...",phonetic:"zhuh PAHRL",example:"A: Quelles langues parlez-vous?\nB: Je parle anglais et un peu français.\nA: C'est très bien!",exampleEn:"A: What languages do you speak?\nB: I speak English and a little French.\nA: That's very good!",note:"Parler = to speak (regular -er verb).\nJe parle = I speak. No article needed after parler:\nJe parle français (not Je parle le français)."},
+
+  {type:"teach",kind:"word",nl:"l'espagnol",en:"Spanish (the language)",phonetic:"less-pah-NYOL",example:"A: Tu parles espagnol?\nB: Un peu. J'apprends depuis un an.\nA: C'est une belle langue!",exampleEn:"A: Do you speak Spanish?\nB: A little. I've been learning for a year.\nA: It's a beautiful language!",note:"l'espagnol = le + espagnol.\nSpanish is a Romance language like French.\nMany shared Latin roots make them partially mutually intelligible."},
+
+  {type:"teach",kind:"word",nl:"l'allemand",en:"German (the language)",phonetic:"lal-MON",example:"A: Elle parle allemand?\nB: Oui, elle est bilingue français-allemand.\nA: Impressionnant!",exampleEn:"A: Does she speak German?\nB: Yes, she is bilingual French-German.\nA: Impressive!",note:"l'allemand = le + allemand.\nNote: the language and the nationality use the same word.\nContext tells you which: Je parle allemand (language) vs Il est allemand (nationality)."},
+
+  {type:"teach",kind:"phrase",nl:"un peu",en:"a little",phonetic:"un PUH",example:"A: Vous parlez japonais?\nB: Un peu. Et vous?\nA: Non, pas du tout!",exampleEn:"A: Do you speak Japanese?\nB: A little. And you?\nA: No, not at all!",note:"Un = a/one. Peu = little.\nJe parle un peu français = I speak a little French.\nVery useful for being honest about your level!"},
+
+  {type:"tip",title:"Parler: Your First -er Verb",text:"Parler (to speak) is a regular -er verb. In French, about 90% of verbs end in -er and follow this pattern:\n\nJe parle (I speak)\nTu parles (you speak, casual)\nIl/Elle parle (he/she speaks)\n\nNotice: je parle and il parle sound identical!\nThe -e and -es endings are silent.\nYou will learn full conjugation in Unit 5.",deepDive:{title:"Why -er verbs matter",text:"French has 3 verb groups: -er (about 90%), -ir (about 10%), and -re (rare). Plus irregulars.\n\nBecause -er verbs are so common, mastering this pattern gives you access to hundreds of verbs: parler (speak), manger (eat), habiter (live), travailler (work), aimer (love/like), détester (hate).\n\nFor now, just notice the je/tu/il forms. Full conjugation comes in Unit 5."}},
+
+  {type:"mc",q:"All French language names are:",opts:["Feminine","Masculine","Neutral","It varies"],ans:"Masculine",hint:"Le français, l'anglais, l'espagnol: all use le."},
+
+  {type:"mc",q:"'Je parle un peu français' means:",opts:["I speak perfect French","I speak a little French","I don't speak French","I want to speak French"],ans:"I speak a little French",hint:"Un peu = a little. Honest about your level!"},
+
+  {type:"fb",s:"Je ___ anglais et français.",a:"parle",opts:["parle","parles","parlé","parler"],hint:"I speak: first person singular of the -er verb."},
+
+  {type:"mc",q:"After 'parler', language names use:",opts:["The article (Je parle le français)","No article (Je parle français)","A preposition (Je parle en français)","A possessive (Je parle mon français)"],ans:"No article (Je parle français)",hint:"Parler + language directly, no article needed."},
+
+  {type:"match",pairs:[{nl:"le français",en:"French"},{nl:"l'anglais",en:"English"},{nl:"l'espagnol",en:"Spanish"},{nl:"l'allemand",en:"German"}]},
+
+  {type:"mc",q:"'L'anglais' uses l' instead of le because:",opts:["It sounds better","anglais starts with a vowel sound","It is feminine","It is informal"],ans:"anglais starts with a vowel sound",hint:"Elision: le becomes l' before vowel sounds."},
+
+  {type:"fb",s:"Vous parlez ___? Non, pas du tout.",a:"japonais",opts:["japonais","japon","japonaise","le japon"],hint:"The language of Japan. Masculine, like all languages."},
+
+  {type:"mc",q:"'Je parle' and 'il parle' are pronounced:",opts:["Differently","Identically","Il parle is louder","Je parle is shorter"],ans:"Identically",hint:"The -e ending is silent in both. Same sound."},
+
+  {type:"mc",q:"About 90% of French verbs follow which pattern?",opts:["-ir verbs","-re verbs","-er verbs","Irregular verbs"],ans:"-er verbs",hint:"Parler is a model: the largest group of regular verbs."},
+
+  {type:"fb",s:"Tu parles ___ peu français?",a:"un",opts:["un","le","du","en"],hint:"A little: ___ peu. The indefinite article."},
+]},
+
+// ═══ L3: Les nombres 0-10 ═══
+{id:"fre2l3",title:"Les nombres 0-10",icon:"🔢",xp:15,board:true,steps:[
+  {type:"intro",title:"Les nombres 0-10",desc:"Numbers are essential for everyday life: phone numbers, prices, addresses. French numbers 0-10 are the foundation for the entire number system.",goals:["Count from 0 to 10","Pronounce each number correctly","Use numbers in simple contexts"]},
+
+  {type:"teach",kind:"word",nl:"zéro",en:"zero",phonetic:"zay-ROH",example:"A: Quel est le score?\nB: Zéro à zéro.\nA: Match nul!",exampleEn:"A: What's the score?\nB: Zero to zero.\nA: Draw!",note:"Cognate with English zero.\nUsed in phone numbers, scores, temperatures.\nLe zéro = masculine."},
+
+  {type:"teach",kind:"word",nl:"un / une",en:"one (m/f)",phonetic:"UH / EWN",example:"A: Combien de frères as-tu?\nB: J'ai un frère et une soeur.\nA: Moi aussi!",exampleEn:"A: How many brothers do you have?\nB: I have one brother and one sister.\nA: Me too!",note:"Un = one (masculine). Une = one (feminine).\nAlso the indefinite articles: un café, une bière.\nNasal vowel: un sounds like UH with nasal."},
+
+  {type:"teach",kind:"word",nl:"deux",en:"two",phonetic:"DUH",example:"A: Combien de langues parles-tu?\nB: Deux: français et anglais.\nA: C'est bien!",exampleEn:"A: How many languages do you speak?\nB: Two: French and English.\nA: That's good!",note:"Deux = two. The X is silent.\nBefore a vowel, the X links: deux amis (duhz ah-MEE).\nThis linking is called liaison."},
+
+  {type:"teach",kind:"word",nl:"trois",en:"three",phonetic:"TRWAH",example:"A: Trois cafés, s'il vous plaît.\nB: Tout de suite!\nA: Merci!",exampleEn:"A: Three coffees, please.\nB: Right away!\nA: Thank you!",note:"Trois = three. The S is silent.\nTrois has the OI vowel combination: sounds like WAH.\nLiaison before vowels: trois enfants (trwaz on-FON)."},
+
+  {type:"teach",kind:"word",nl:"quatre, cinq, six",en:"four, five, six",phonetic:"KATR, SANK, SEES",example:"A: Quatre plus cinq?\nB: Neuf!\nA: Et six plus trois?\nB: Neuf aussi!",exampleEn:"A: Four plus five?\nB: Nine!\nA: And six plus three?\nB: Nine too!",note:"Quatre: the R is uvular (back of throat).\nCinq: nasal vowel (in sound). Final Q pronounced.\nSix: S sound at end when alone. Silent before consonant."},
+
+  {type:"teach",kind:"word",nl:"sept, huit, neuf, dix",en:"seven, eight, nine, ten",phonetic:"SET, WEET, NUHF, DEES",example:"A: Il y a dix personnes ici.\nB: Non, neuf. Marie n'est pas là.\nA: Ah oui, c'est vrai.",exampleEn:"A: There are ten people here.\nB: No, nine. Marie is not here.\nA: Oh yes, that's true.",note:"Sept: the P is silent, T is pronounced.\nHuit: starts with the W sound. No liaison before it.\nNeuf: F is pronounced. Before vowels: neuf heures (nuhv UHR).\nDix: like six, S sound alone, silent before consonants."},
+
+  {type:"tip",title:"Silent Final Letters in Numbers",text:"French numbers show silent letter rules clearly:\n\nSilent final letter: deux (X), trois (S), six (X), dix (X)\nPronounced final letter: cinq (K), sept (T), neuf (F), huit (T)\n\nBefore vowels, silent letters can wake up (liaison):\ndeux amis = duhz ah-MEE\ntrois enfants = trwaz on-FON\nsix heures = seez UHR\n\nThis is liaison: silent consonants linking to the next vowel.",deepDive:{title:"Why are some letters silent?",text:"French evolved from Latin over 1,000 years. During this time, many final consonants stopped being pronounced, but the spelling stayed.\n\nLatin: sex > Old French: sis > Modern French: six (X silent)\nLatin: tres > Old French: treis > Modern French: trois (S silent)\n\nLiaison preserves the old pronunciation before vowels. It is a living fossil of medieval French pronunciation."}},
+
+  {type:"mc",q:"How do you say 'five' in French?",opts:["Quatre","Cinq","Six","Sept"],ans:"Cinq",hint:"Starts with a nasal vowel sound. Ends with a K sound."},
+
+  {type:"mc",q:"The X in 'deux' is:",opts:["Pronounced as KS","Pronounced as Z","Silent","Pronounced as S"],ans:"Silent",hint:"Most final consonants in French are not pronounced."},
+
+  {type:"fb",s:"___, deux, trois, quatre, cinq.",a:"Un",opts:["Un","Zéro","Dix","Neuf"],hint:"The first counting number in the sequence."},
+
+  {type:"match",pairs:[{nl:"trois",en:"three"},{nl:"sept",en:"seven"},{nl:"cinq",en:"five"},{nl:"huit",en:"eight"}]},
+
+  {type:"mc",q:"Before a vowel, 'six' is pronounced:",opts:["SEES","SEEZ","SEE","SEEKZ"],ans:"SEEZ",hint:"Liaison: the silent X wakes up as a Z before vowels."},
+
+  {type:"fb",s:"Quatre plus ___ font neuf.",a:"cinq",opts:["cinq","six","trois","deux"],hint:"4 + ? = 9. Which number completes the equation?"},
+
+  {type:"mc",q:"'Sept' has a silent letter. Which one?",opts:["S","E","P","T"],ans:"P",hint:"The letter between the E and T is not pronounced."},
+
+  {type:"mc",q:"'Un' becomes 'une' when counting:",opts:["Always","Before feminine nouns","Before vowels","Never"],ans:"Before feminine nouns",hint:"Gender agreement: un frère, une soeur."},
+
+  {type:"fb",s:"Dix moins trois font ___.",a:"sept",opts:["sept","six","huit","cinq"],hint:"10 minus 3 equals this number."},
+
+  {type:"mc",q:"The French R in 'quatre' is produced:",opts:["With the tongue tip","At the back of the throat","With the lips","Between the teeth"],ans:"At the back of the throat",hint:"The uvular R is a distinctive French sound."},
+]},
+
+// ═══ L4: Les nombres 11-20 ═══
+{id:"fre2l4",title:"Les nombres 11-20",icon:"🔢",xp:15,board:true,steps:[
+  {type:"intro",title:"Les nombres 11-20",desc:"Numbers 11-16 are irregular (you must memorize them). From 17-20, the system becomes logical. Master these and you can handle prices and ages.",goals:["Count from 11 to 20","Notice the pattern shift at 17","Use numbers for age and prices"]},
+
+  {type:"teach",kind:"word",nl:"onze, douze",en:"eleven, twelve",phonetic:"ONZ, DOOZ",example:"A: Quel âge as-tu?\nB: J'ai onze ans.\nA: Et ton frère?\nB: Il a douze ans.",exampleEn:"A: How old are you?\nB: I am eleven.\nA: And your brother?\nB: He is twelve.",note:"Onze = eleven. Douze = twelve.\nThese are unique forms, memorize them.\nNo liaison before onze: les onze (lay ONZ), not lez onze."},
+
+  {type:"teach",kind:"word",nl:"treize, quatorze, quinze, seize",en:"thirteen, fourteen, fifteen, sixteen",phonetic:"TREZ, kah-TORZ, KANZ, SEZ",example:"A: Combien ça coûte?\nB: Quinze euros.\nA: Et celui-là?\nB: Seize euros.",exampleEn:"A: How much does it cost?\nB: Fifteen euros.\nA: And that one?\nB: Sixteen euros.",note:"13-16 each have unique forms.\nPattern: they all end in a consonant sound.\nQuinze has the nasal vowel in (KANZ).\nSeize: EI sounds like EZ."},
+
+  {type:"teach",kind:"word",nl:"dix-sept, dix-huit, dix-neuf",en:"seventeen, eighteen, nineteen",phonetic:"dee-SET, deez-WEET, deez-NUHF",example:"A: Il y a dix-sept étudiants dans la classe.\nB: Non, dix-huit. J'ai oublié Marie.\nA: Ah oui!",exampleEn:"A: There are seventeen students in the class.\nB: No, eighteen. I forgot Marie.\nA: Oh yes!",note:"From 17: the system is logical! 10+7, 10+8, 10+9.\nDix-sept = ten-seven. Dix-huit = ten-eight.\nThe hyphen connects the two parts."},
+
+  {type:"teach",kind:"word",nl:"vingt",en:"twenty",phonetic:"VAN",example:"A: J'ai vingt ans aujourd'hui!\nB: Joyeux anniversaire!\nA: Merci beaucoup!",exampleEn:"A: I am twenty today!\nB: Happy birthday!\nA: Thank you very much!",note:"Vingt = twenty. The GT is silent.\nNasal vowel: VAN (the N nasalizes the vowel).\nBefore a vowel: vingt ans (vant ON) with liaison on T."},
+
+  {type:"tip",title:"The Number System: Two Halves",text:"French numbers 11-20 have two patterns:\n\n11-16: IRREGULAR (unique forms, must memorize)\nonze, douze, treize, quatorze, quinze, seize\n\n17-19: LOGICAL (dix + unit)\ndix-sept, dix-huit, dix-neuf\n\n20: vingt (new base number)\n\nThis split exists because 11-16 come from Old French/Latin compounds that fused into single words. 17-19 were formed later and kept the transparent dix + number structure.",deepDive:{title:"Why the irregularity?",text:"Latin had unique forms for 11-15 (undecim, duodecim, tredecim, quattuordecim, quindecim). French inherited these as onze, douze, treize, quatorze, quinze.\n\nSeize (16) was also unique in Old French. But 17-19 were formed analytically: dix-sept literally means ten-seven.\n\nThis pattern will repeat: French numbers get wild at 70 (soixante-dix = sixty-ten) and 90 (quatre-vingts-dix = four-twenties-ten). That comes in Unit 8."}},
+
+  {type:"teach",kind:"phrase",nl:"J'ai ... ans",en:"I am ... years old",phonetic:"zhay ... ON",example:"A: Quel âge avez-vous?\nB: J'ai trente ans.\nA: Vous ne les faites pas!",exampleEn:"A: How old are you?\nB: I am thirty years old.\nA: You don't look it!",note:"Literally: I have ... years.\nFrench uses avoir (to have) for age, not être (to be).\nJ'ai = I have. Ans = years. NEVER: Je suis vingt ans."},
+
+  {type:"mc",q:"Numbers 11-16 in French are:",opts:["Logical combinations of dix + number","Unique irregular forms","The same as English","Based on vingt"],ans:"Unique irregular forms",hint:"These six numbers must be memorized individually."},
+
+  {type:"mc",q:"'Dix-sept' means:",opts:["Sixteen","Seventeen","Seventy","Seven"],ans:"Seventeen",hint:"Dix (ten) + sept (seven) = ten-seven."},
+
+  {type:"fb",s:"J'ai ___ ans. (I am 15 years old.)",a:"quinze",opts:["quinze","cinq","quatorze","seize"],hint:"Fifteen: one of the irregular 11-16 numbers."},
+
+  {type:"match",pairs:[{nl:"onze",en:"eleven"},{nl:"quatorze",en:"fourteen"},{nl:"dix-huit",en:"eighteen"},{nl:"vingt",en:"twenty"}]},
+
+  {type:"mc",q:"French uses which verb for age?",opts:["être (to be)","avoir (to have)","aller (to go)","faire (to do)"],ans:"avoir (to have)",hint:"J'ai vingt ans = I HAVE twenty years."},
+
+  {type:"fb",s:"___, douze, treize, quatorze, quinze.",a:"Onze",opts:["Onze","Dix","Neuf","Seize"],hint:"The number that starts the irregular 11-16 sequence."},
+
+  {type:"mc",q:"The GT in 'vingt' is:",opts:["Pronounced fully","Only T is pronounced","Silent","Pronounced as a K"],ans:"Silent",hint:"Vingt sounds like VAN. The final letters are not spoken."},
+
+  {type:"mc",q:"'J'ai quinze ans' literally means:",opts:["I am fifteen years old","I have fifteen years","I have fifteen","Fifteen years old"],ans:"I have fifteen years",hint:"J'ai = I have. Ans = years. French counts age differently."},
+
+  {type:"fb",s:"Dix plus ___ font vingt.",a:"dix",opts:["dix","neuf","onze","cinq"],hint:"10 + ? = 20. What equals twenty?"},
+
+  {type:"mc",q:"Which number starts the 'logical' pattern (dix + unit)?",opts:["Onze (11)","Treize (13)","Seize (16)","Dix-sept (17)"],ans:"Dix-sept (17)",hint:"From 17 onwards, the structure is transparent."},
+
+  {type:"mc",q:"'Seize' (16) is the last number that is:",opts:["Even","Logical","Irregular","A teen number"],ans:"Irregular",hint:"After 16, the pattern switches to the transparent dix + unit."},
+]},
+
+// ═══ L5: Être: to be ═══
+{id:"fre2l5",title:"Être",icon:"📝",xp:15,board:true,steps:[
+  {type:"intro",title:"Être: to be",desc:"Être (to be) is THE most important French verb. It is also the most irregular. You already know 'je suis' from nationalities. Now learn the full present tense.",goals:["Conjugate être in present tense","Use être for identity and description","Recognize all 6 forms"]},
+
+  {type:"teach",kind:"word",nl:"je suis",en:"I am",phonetic:"zhuh SWEE",example:"A: Bonjour! Je suis Marie.\nB: Enchanté! Je suis Pierre.\nA: Je suis contente de vous rencontrer.",exampleEn:"A: Hello! I am Marie.\nB: Nice to meet you! I am Pierre.\nA: I am happy to meet you.",note:"Je = I. Suis = am.\nYou already know this from je suis français.\nUsed for identity, nationality, profession, feelings."},
+
+  {type:"teach",kind:"word",nl:"tu es",en:"you are (informal)",phonetic:"tew AY",example:"A: Tu es prêt?\nB: Oui, je suis prêt!\nA: Alors, on y va!",exampleEn:"A: Are you ready?\nB: Yes, I am ready!\nA: Then let's go!",note:"Tu = you (informal). Es = are.\nTu es + adjective: Tu es grand (You are tall).\nUsed with friends, family, children."},
+
+  {type:"teach",kind:"word",nl:"il est / elle est",en:"he is / she is",phonetic:"eel AY / el AY",example:"A: Où est Pierre?\nB: Il est au bureau.\nA: Et Marie?\nB: Elle est à la maison.",exampleEn:"A: Where is Pierre?\nB: He is at the office.\nA: And Marie?\nB: She is at home.",note:"Il = he. Elle = she. Est = is.\nIl est and elle est sound nearly identical.\nAlso: on est = we are (casual, very common)."},
+
+  {type:"teach",kind:"word",nl:"nous sommes",en:"we are",phonetic:"noo SOM",example:"A: Nous sommes en retard!\nB: Non, nous sommes à l'heure.\nA: Ah bon? Tant mieux!",exampleEn:"A: We are late!\nB: No, we are on time.\nA: Really? Good!",note:"Nous = we. Sommes = are.\nNous sommes is formal/written.\nIn speech, French often uses on est instead."},
+
+  {type:"teach",kind:"word",nl:"vous êtes",en:"you are (formal/plural)",phonetic:"vooz ET",example:"A: Vous êtes français?\nB: Oui, je suis français.\nA: Vous êtes de quelle ville?",exampleEn:"A: Are you French?\nB: Yes, I am French.\nA: Which city are you from?",note:"Vous = you (formal or plural). Êtes = are.\nThe circumflex on ê marks a historical S (Latin: estis).\nVous êtes: use for strangers AND groups."},
+
+  {type:"teach",kind:"word",nl:"ils sont / elles sont",en:"they are (m/f)",phonetic:"eel SON / el SON",example:"A: Où sont les enfants?\nB: Ils sont dans le jardin.\nA: Et les filles?\nB: Elles sont à l'école.",exampleEn:"A: Where are the children?\nB: They are in the garden.\nA: And the girls?\nB: They are at school.",note:"Ils = they (masculine or mixed). Elles = they (all feminine).\nSont = are.\nMixed group = always ils (even 99 women + 1 man)."},
+
+  {type:"tip",title:"Être: The Full Picture",text:"Here is the complete present tense:\n\nje suis (I am)\ntu es (you are, informal)\nil/elle/on est (he/she/one is)\nnous sommes (we are)\nvous êtes (you are, formal/plural)\nils/elles sont (they are)\n\nNotice: every form is different. No two forms sound alike.\nThis is why être is irregular: it does not follow any pattern.\nYou must memorize all six forms.",deepDive:{title:"Why is être so irregular?",text:"Être comes from Latin esse (to be). In every Romance language, this verb is maximally irregular: Spanish ser/estar, Italian essere, Portuguese ser.\n\nThe reason: to be is used so frequently that it resists regularization. High-frequency words preserve old forms because speakers never forget them.\n\nJe suis comes from Latin sum. Nous sommes from sumus. Vous êtes from estis (the S became the circumflex ê). Ils sont from sunt."}},
+
+  {type:"mc",q:"Complete: 'Nous ___ français.'",opts:["est","sommes","êtes","suis"],ans:"sommes",hint:"We are: the nous form of être."},
+
+  {type:"mc",q:"'Vous êtes' is used for:",opts:["Only formal singular","Only plural","Both formal singular AND plural","Only informal"],ans:"Both formal singular AND plural",hint:"Vous serves double duty: formal one person or any group."},
+
+  {type:"fb",s:"Tu ___ prêt? Oui, je suis prêt!",a:"es",opts:["es","est","suis","êtes"],hint:"Informal you are: the tu form of être."},
+
+  {type:"match",pairs:[{nl:"je suis",en:"I am"},{nl:"tu es",en:"you are (informal)"},{nl:"nous sommes",en:"we are"},{nl:"ils sont",en:"they are"}]},
+
+  {type:"mc",q:"A mixed group (men and women) uses:",opts:["Elles sont","Ils sont","On est","Nous sommes"],ans:"Ils sont",hint:"Any mixed group defaults to the masculine ils."},
+
+  {type:"fb",s:"Elle ___ française. Il ___ allemand.",a:"est",opts:["est","es","suis","sont"],hint:"He/she is: the same form for both il and elle."},
+
+  {type:"mc",q:"'On est' is the casual replacement for:",opts:["Je suis","Tu es","Nous sommes","Ils sont"],ans:"Nous sommes",hint:"In spoken French, on replaces nous for 'we'."},
+
+  {type:"mc",q:"The circumflex on 'êtes' (ê) marks:",opts:["A nasal vowel","A historical lost S","A feminine form","Emphasis"],ans:"A historical lost S",hint:"Latin estis became êtes. The hat replaces the S."},
+
+  {type:"mc",q:"How many DIFFERENT forms does être have in present tense?",opts:["Three","Four","Five","Six"],ans:"Six",hint:"Every person has a unique form. No repeats."},
+
+  {type:"fb",s:"Ils ___ à la maison.",a:"sont",opts:["sont","est","sommes","êtes"],hint:"They are: the ils/elles form of être."},
+]},
+
+// ═══ L6: Avoir: to have ═══
+{id:"fre2l6",title:"Avoir",icon:"📝",xp:15,board:true,steps:[
+  {type:"intro",title:"Avoir: to have",desc:"Avoir (to have) is the second most important French verb. You already know it from 'J'ai ... ans' (age). Now learn the full present tense and its many uses.",goals:["Conjugate avoir in present tense","Use avoir for age, possession, and expressions","Spot the j'ai/tu as/il a pattern"]},
+
+  {type:"teach",kind:"word",nl:"j'ai",en:"I have",phonetic:"ZHAY",example:"A: Tu as un animal?\nB: Oui, j'ai un chat.\nA: Comment s'appelle-t-il?",exampleEn:"A: Do you have a pet?\nB: Yes, I have a cat.\nA: What's his name?",note:"J'ai = je + ai (elision: je becomes j' before a vowel).\nYou know this from J'ai 20 ans (I am 20 years old).\nAvoir is used for age, hunger, thirst, and many expressions."},
+
+  {type:"teach",kind:"word",nl:"tu as",en:"you have (informal)",phonetic:"tew AH",example:"A: Tu as faim?\nB: Oui, j'ai très faim!\nA: On va manger alors!",exampleEn:"A: Are you hungry?\nB: Yes, I am very hungry!\nA: Let's go eat then!",note:"Tu = you (informal). As = have.\nTu as faim? = Are you hungry? (Literally: You have hunger?)\nFrench uses avoir for hunger, thirst, hot, cold."},
+
+  {type:"teach",kind:"word",nl:"il a / elle a",en:"he has / she has",phonetic:"eel AH / el AH",example:"A: Marie a un frère?\nB: Oui, elle a deux frères.\nA: Et un chien aussi!",exampleEn:"A: Does Marie have a brother?\nB: Yes, she has two brothers.\nA: And a dog too!",note:"Il/elle + a = he/she has.\nA = just one letter! The shortest verb form.\nOn a = we have (casual), same form as il/elle a."},
+
+  {type:"teach",kind:"word",nl:"nous avons",en:"we have",phonetic:"nooz ah-VON",example:"A: Nous avons un problème.\nB: Quel problème?\nA: Nous avons faim mais le restaurant est fermé!",exampleEn:"A: We have a problem.\nB: What problem?\nA: We are hungry but the restaurant is closed!",note:"Nous = we. Avons = have.\nLiaison: nous avons (nooz ah-VON).\nCasual: on a replaces nous avons in speech."},
+
+  {type:"teach",kind:"word",nl:"vous avez",en:"you have (formal/plural)",phonetic:"vooz ah-VAY",example:"A: Vous avez l'heure?\nB: Oui, il est trois heures.\nA: Merci beaucoup!",exampleEn:"A: Do you have the time?\nB: Yes, it is three o'clock.\nA: Thank you very much!",note:"Vous = you (formal/plural). Avez = have.\nVous avez l'heure? = a common way to ask the time.\nLiaison: vous avez (vooz ah-VAY)."},
+
+  {type:"teach",kind:"word",nl:"ils ont / elles ont",en:"they have",phonetic:"eelz ON / elz ON",example:"A: Les enfants ont faim?\nB: Oui, ils ont très faim.\nA: Je vais préparer le dîner.",exampleEn:"A: Are the children hungry?\nB: Yes, they are very hungry.\nA: I'll prepare dinner.",note:"Ils/elles + ont = they have.\nLiaison: ils ont (eelz ON).\nOnt sounds like the nasal ON. Do not confuse with sont (they are)."},
+
+  {type:"tip",title:"Avoir Expressions: French Uses Have Where English Uses Be",text:"French uses avoir (to have) for many states that English expresses with to be:\n\navoir faim = to be hungry (to have hunger)\navoir soif = to be thirsty (to have thirst)\navoir chaud = to be hot (to have heat)\navoir froid = to be cold (to have cold)\navoir peur = to be afraid (to have fear)\navoir raison = to be right (to have reason)\navoir tort = to be wrong (to have wrong)\navoir ... ans = to be ... years old (to have ... years)\n\nThink of it as: you POSSESS the sensation.",deepDive:{title:"Why avoir and not être?",text:"Latin used habere (to have) for many physical sensations. This passed into all Romance languages: Spanish tener hambre (to have hunger), Italian avere fame (to have hunger), French avoir faim.\n\nThe logic: hunger, thirst, and fear are things that happen TO you. You possess them temporarily. English is the odd one out by using to be for these states.\n\nThis will trip you up early. You will want to say 'Je suis faim' (I am hunger). Always use J'ai faim (I have hunger)."}},
+
+  {type:"mc",q:"Complete: 'J'___ vingt ans.'",opts:["ai","suis","est","as"],ans:"ai",hint:"Age uses avoir: I HAVE twenty years."},
+
+  {type:"mc",q:"'Tu as faim?' means:",opts:["Are you hungry?","You are eating?","Do you have food?","Are you cooking?"],ans:"Are you hungry?",hint:"Avoir faim = to be hungry. Literally: to have hunger."},
+
+  {type:"fb",s:"Elle ___ trois enfants.",a:"a",opts:["a","as","ai","est"],hint:"She has: the il/elle form of avoir. Just one letter."},
+
+  {type:"match",pairs:[{nl:"j'ai",en:"I have"},{nl:"tu as",en:"you have (informal)"},{nl:"nous avons",en:"we have"},{nl:"vous avez",en:"you have (formal)"}]},
+
+  {type:"mc",q:"'Ils ont' and 'ils sont' differ in that:",opts:["Ont = avoir (have), sont = être (be)","They mean the same thing","Ont is formal, sont is casual","Ont is plural, sont is singular"],ans:"Ont = avoir (have), sont = être (be)",hint:"Two different verbs: avoir vs être."},
+
+  {type:"fb",s:"Nous ___ un problème.",a:"avons",opts:["avons","sommes","avez","ont"],hint:"We have: the nous form of avoir."},
+
+  {type:"mc",q:"Which expression uses avoir (not être)?",opts:["I am French","I am tall","I am hungry","I am here"],ans:"I am hungry",hint:"Hunger is a possession in French: J'ai faim."},
+
+  {type:"mc",q:"'On a' in casual speech replaces:",opts:["J'ai","Tu as","Nous avons","Ils ont"],ans:"Nous avons",hint:"On replaces nous in casual spoken French."},
+
+  {type:"fb",s:"Vous ___ l'heure, s'il vous plaît?",a:"avez",opts:["avez","êtes","allez","avons"],hint:"Do you have the time? Formal you form of avoir."},
+
+  {type:"mc",q:"J'ai becomes j'ai (with apostrophe) because:",opts:["It looks better","je + ai: elision before a vowel","It is informal","It saves space"],ans:"je + ai: elision before a vowel",hint:"Elision: je loses its -e before the vowel sound of ai."},
+]},
+
+// ═══ L7: Premiers dialogues ═══
+{id:"fre2l7",title:"Premiers dialogues",icon:"💬",xp:15,board:true,steps:[
+  {type:"intro",title:"Premiers dialogues",desc:"Combine everything from Unit 2: introductions, nationality, languages, numbers, être, and avoir in real conversations.",goals:["Have a complete self-introduction","Ask and answer about nationality, age, and languages","Flow naturally through a dialogue"]},
+
+  {type:"teach",kind:"phrase",nl:"D'où venez-vous?",en:"Where do you come from? (formal)",phonetic:"doo vuh-NAY VOO",example:"A: D'où venez-vous?\nB: Je viens de Lyon.\nA: Ah, la ville des lumières!",exampleEn:"A: Where do you come from?\nB: I come from Lyon.\nA: Ah, the city of lights!",note:"D'où = from where. Venez = come (vous form of venir).\nCommon alternatives: Vous venez d'où? (same, less formal word order).\nCasual: Tu viens d'où?"},
+
+  {type:"teach",kind:"phrase",nl:"Je viens de...",en:"I come from...",phonetic:"zhuh vee-EN duh",example:"A: Tu viens d'où?\nB: Je viens de Madrid.\nA: Tu es espagnol alors?\nB: Oui!",exampleEn:"A: Where do you come from?\nB: I come from Madrid.\nA: You are Spanish then?\nB: Yes!",note:"Je viens = I come (from venir, irregular).\nDe = from. De + city: Je viens de Paris.\nDe + countries: varies (du, de, d', des)."},
+
+  {type:"teach",kind:"phrase",nl:"Quel âge avez-vous?",en:"How old are you? (formal)",phonetic:"kel AHZH ah-VAY VOO",example:"A: Quel âge avez-vous?\nB: J'ai vingt-cinq ans.\nA: Vous êtes jeune!",exampleEn:"A: How old are you?\nB: I am twenty-five.\nA: You are young!",note:"Quel = what. Âge = age. Avez-vous = do you have.\nLiterally: What age have you?\nCasual: Tu as quel âge?"},
+
+  {type:"teach",kind:"phrase",nl:"Quelle est votre profession?",en:"What is your profession? (formal)",phonetic:"kel ay votr proh-feh-SYON",example:"A: Quelle est votre profession?\nB: Je suis professeur.\nA: Ah, c'est intéressant!",exampleEn:"A: What is your profession?\nB: I am a teacher.\nA: Ah, that's interesting!",note:"Quelle = what (feminine, matching profession).\nVotre = your (formal).\nNote: no article before profession! Je suis professeur (not un professeur)."},
+
+  {type:"tip",title:"No Article Before Professions",text:"In French, when stating your profession with être, you drop the article:\n\nJe suis professeur (not: un professeur)\nElle est médecin (not: une médecin)\nIl est étudiant (not: un étudiant)\n\nBut with a modifier, the article returns:\nJe suis un bon professeur.\nElle est une excellente médecin.\n\nThis is different from English, where you always say: I am A teacher.",deepDive:{title:"When does the article return?",text:"The article-less pattern only works with bare professions after être:\n\nJe suis médecin. (I am a doctor.)\nElle est actrice. (She is an actress.)\n\nBut add any adjective and the article returns:\nJe suis un bon médecin. (I am a good doctor.)\nC'est un médecin. (He is a doctor. c'est always takes the article.)\n\nThis will feel strange at first. Practice until it becomes natural."}},
+
+  {type:"mc",q:"Complete the dialogue: 'D'où ___-vous?'",opts:["êtes","venez","avez","allez"],ans:"venez",hint:"Where do you come from? The formal form of venir."},
+
+  {type:"mc",q:"'Je suis professeur' has no article because:",opts:["It is informal","French drops articles before professions with être","Professeur is not a real noun","The article is optional"],ans:"French drops articles before professions with être",hint:"Bare professions after être: no un/une."},
+
+  {type:"fb",s:"Quel ___ avez-vous? J'ai trente ans.",a:"âge",opts:["âge","an","jour","nom"],hint:"What ___ do you have? Asking about years."},
+
+  {type:"mc",q:"'Tu viens d'où?' is the casual version of:",opts:["Quel âge as-tu?","D'où venez-vous?","Comment vous appelez-vous?","Où habites-tu?"],ans:"D'où venez-vous?",hint:"Same question (where from), casual word order with tu."},
+
+  {type:"match",pairs:[{nl:"D'où venez-vous?",en:"Where are you from?"},{nl:"Quel âge avez-vous?",en:"How old are you?"},{nl:"Je suis professeur",en:"I am a teacher"},{nl:"Je viens de Paris",en:"I come from Paris"}]},
+
+  {type:"mc",q:"Put this self-introduction in order: (1) J'ai 25 ans (2) Je m'appelle Sophie (3) Bonjour (4) Je suis française",opts:["3, 2, 4, 1","1, 2, 3, 4","2, 3, 1, 4","4, 3, 2, 1"],ans:"3, 2, 4, 1",hint:"Greet, name, nationality, age: the natural flow."},
+
+  {type:"fb",s:"Je suis ___. Je travaille à l'hôpital.",a:"médecin",opts:["médecin","un médecin","le médecin","de médecin"],hint:"No article before profession with être."},
+
+  {type:"mc",q:"Which uses avoir (not être)?",opts:["Je ___ français","Je ___ vingt ans","Je ___ à Paris","Je ___ grand"],ans:"Je ___ vingt ans",hint:"Age uses avoir: I HAVE twenty years."},
+
+  {type:"mc",q:"The casual way to ask someone's age is:",opts:["Quel âge avez-vous?","Tu as quel âge?","Combien d'âge?","Ton âge?"],ans:"Tu as quel âge?",hint:"Tu form: rearranged word order, more relaxed."},
+
+  {type:"fb",s:"Je ___ de Madrid. Je suis espagnol.",a:"viens",opts:["viens","suis","vais","ai"],hint:"I come from: first person of venir."},
+
+  {type:"mc",q:"A complete self-introduction includes:",opts:["Only your name","Name, nationality, age, profession","Only name and age","Just a greeting"],ans:"Name, nationality, age, profession",hint:"Cover all the basics: who you are, where from, what you do."},
+
+  {type:"fb",s:"Je ___ Sophie. Je suis française.",a:"m'appelle",opts:["m'appelle","suis","ai","appelle"],hint:"I call myself: the standard self-introduction."},
+]},
+
+// ═══ L8: Révision Unit 2 ═══
+{id:"fre2l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 2 Review",desc:"Review everything from Unit 2: nationalities, languages, numbers 0-20, être, avoir, and self-introduction dialogues.",goals:["Review nationality gender agreement","Test number knowledge","Combine être and avoir correctly"]},
+
+  {type:"mc",q:"A woman from Germany says:",opts:["Je suis allemand","Je suis allemande","Je suis Allemande","Je suis allemenade"],ans:"Je suis allemande",hint:"Feminine form: the silent D becomes pronounced with -e."},
+
+  {type:"fb",s:"Je ___ anglais et un peu français.",a:"parle",opts:["parle","suis","ai","parles"],hint:"I speak: first person singular of the -er verb for speaking."},
+
+  {type:"mc",q:"Douze + trois =",opts:["Treize","Quatorze","Quinze","Seize"],ans:"Quinze",hint:"12 + 3 = 15 in any language."},
+
+  {type:"match",pairs:[{nl:"treize",en:"thirteen"},{nl:"seize",en:"sixteen"},{nl:"dix-neuf",en:"nineteen"},{nl:"vingt",en:"twenty"}]},
+
+  {type:"mc",q:"'Nous sommes' is the nous form of:",opts:["avoir","être","aller","faire"],ans:"être",hint:"We are = nous sommes. The verb to be."},
+
+  {type:"fb",s:"Ils ___ trois enfants.",a:"ont",opts:["ont","sont","a","avons"],hint:"They have: the ils/elles form of avoir."},
+
+  {type:"mc",q:"'J'ai faim' means:",opts:["I am fine","I am hungry","I have food","I am eating"],ans:"I am hungry",hint:"Avoir faim = to be hungry. French uses have."},
+
+  {type:"mc",q:"French nationalities as adjectives are:",opts:["Always capitalized","Always lowercase","Capitalized only for countries","Random"],ans:"Always lowercase",hint:"Unlike English: je suis français, not Français."},
+
+  {type:"fb",s:"Tu ___ quel âge? J'ai dix-huit ans.",a:"as",opts:["as","es","ai","a"],hint:"You have: tu form of avoir. Age uses avoir."},
+
+  {type:"match",pairs:[{nl:"je suis",en:"I am"},{nl:"j'ai",en:"I have"},{nl:"tu es",en:"you are"},{nl:"tu as",en:"you have"}]},
+
+  {type:"mc",q:"'Je suis médecin' has no article because:",opts:["Médecin is not a noun","French drops articles before professions with être","It is a question","You must add un"],ans:"French drops articles before professions with être",hint:"Bare profession after être: no un/une needed."},
+
+  {type:"fb",s:"D'où ___-vous? Je viens de Berlin.",a:"venez",opts:["venez","êtes","avez","allez"],hint:"Where do you come from? Formal you form of venir."},
+
+  {type:"mc",q:"'Quatre' has which distinctive French sound?",opts:["Nasal vowel","Uvular R","Silent H","Liaison"],ans:"Uvular R",hint:"The R in quatre is produced at the back of the throat."},
+
+  {type:"mc",q:"Numbers 17-19 are called 'logical' because:",opts:["They are easy to spell","They combine dix + unit (dix-sept, dix-huit, dix-neuf)","They rhyme","They are even numbers"],ans:"They combine dix + unit (dix-sept, dix-huit, dix-neuf)",hint:"10 + 7, 10 + 8, 10 + 9: transparent structure."},
+
+  {type:"fb",s:"Elle ___ française. Elle vient de Marseille.",a:"est",opts:["est","a","as","suis"],hint:"She is: the il/elle form of être."},
+
+  {type:"mc",q:"Which is NOT an avoir expression?",opts:["J'ai faim","J'ai froid","J'ai peur","J'ai grand"],ans:"J'ai grand",hint:"Grand (tall/big) uses être, not avoir."},
+
+  {type:"mc",q:"All French language names are:",opts:["Feminine","Masculine","Neutral","It depends"],ans:"Masculine",hint:"Le français, l'anglais, l'espagnol: all use le."},
+
+  {type:"mc",q:"'On a' replaces which formal expression?",opts:["J'ai","Tu as","Nous avons","Ils ont"],ans:"Nous avons",hint:"On = casual we. It replaces the formal first person plural."},
+]},
+]},
+
 ];
