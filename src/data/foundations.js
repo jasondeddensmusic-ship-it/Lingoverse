@@ -1452,22 +1452,156 @@ export const FOUNDATIONS_BY_LANG = {
           examples:["knife /naɪf/ — silent k","write /raɪt/ — silent w","hopping (short o) vs hoping (long o)","nation /ˈneɪʃən/ — tion = /ʃən/"]},
       ]},
   ]},
-  // ── Spanish Foundations (Pipeline Step 2 — placeholder) ──
+  // ── Spanish Foundations ──
+  // ══════════════════════════════════════════════════════════════
+  // SPANISH FOUNDATIONS KNOWLEDGE — Reference Library
+  // 5 sections, ~25 items. Color key:
+  // vowels=#E85D75, consonants=#2ECDAB, tricky=#F5A623,
+  // special=#4A8FE7, grammar=#7B5EE8
+  // ══════════════════════════════════════════════════════════════
   es:{name:"Spanish Foundations",icon:"🇪🇸",sections:[
-    {id:"es_alphabet",title:"El Alfabeto Español",icon:"🔤",desc:"27 letters: the 26 Latin letters plus Ñ. Spanish spelling is very regular: what you see is what you say!",
+
+    // ─────────── 1. THE ALPHABET & SPECIAL CHARACTERS ───────────
+    {id:"es_alphabet",title:"El Alfabeto y Caracteres Especiales",icon:"🔤",desc:"27 letters: the 26 Latin letters plus Ñ. Spanish spelling is nearly phonetic.",
       items:[
-        {fk:"fk_alphabet_overview",title:"Spanish letter grid",desc:"Nearly perfect phonetic spelling. Every letter has a consistent sound. Ñ (/ɲ/) is its own letter, not an accent on N.",
+        {fk:"fk_alphabet_overview",title:"Spanish letter grid",desc:"Nearly perfect phonetic spelling. Every letter has a consistent sound. Ñ is its own letter, not an accent on N.",
           grid:{cols:9,headers:["","","","","","","","",""],rows:[
-            {label:"A–I",color:"#AA151B",cells:[{ch:"A",rom:"/a/"},{ch:"B",rom:"/be/"},{ch:"C",rom:"/θe/"},{ch:"D",rom:"/de/"},{ch:"E",rom:"/e/"},{ch:"F",rom:"/efe/"},{ch:"G",rom:"/xe/"},{ch:"H",rom:"/aʧe/"},{ch:"I",rom:"/i/"}]},
-            {label:"J–R",color:"#F1BF00",cells:[{ch:"J",rom:"/xota/"},{ch:"K",rom:"/ka/"},{ch:"L",rom:"/ele/"},{ch:"M",rom:"/eme/"},{ch:"N",rom:"/ene/"},{ch:"Ñ",rom:"/eɲe/"},{ch:"O",rom:"/o/"},{ch:"P",rom:"/pe/"},{ch:"Q",rom:"/ku/"}]},
-            {label:"R–Z",color:"#AA151B",cells:[{ch:"R",rom:"/ere/"},{ch:"S",rom:"/ese/"},{ch:"T",rom:"/te/"},{ch:"U",rom:"/u/"},{ch:"V",rom:"/ube/"},{ch:"W",rom:"/ube doble/"},{ch:"X",rom:"/ekis/"},{ch:"Y",rom:"/ye/"},{ch:"Z",rom:"/θeta/"}]},
+            {label:"A-I",color:"#AA151B",cells:[{ch:"A",rom:"ah"},{ch:"B",rom:"beh"},{ch:"C",rom:"seh"},{ch:"D",rom:"deh"},{ch:"E",rom:"eh"},{ch:"F",rom:"EH-feh"},{ch:"G",rom:"heh"},{ch:"H",rom:"AH-cheh"},{ch:"I",rom:"ee"}]},
+            {label:"J-R",color:"#F1BF00",cells:[{ch:"J",rom:"HO-tah"},{ch:"K",rom:"kah"},{ch:"L",rom:"EH-leh"},{ch:"M",rom:"EH-meh"},{ch:"N",rom:"EH-neh"},{ch:"Ñ",rom:"EH-nyeh"},{ch:"O",rom:"oh"},{ch:"P",rom:"peh"},{ch:"Q",rom:"koo"}]},
+            {label:"R-Z",color:"#AA151B",cells:[{ch:"R",rom:"EH-reh"},{ch:"S",rom:"EH-seh"},{ch:"T",rom:"teh"},{ch:"U",rom:"oo"},{ch:"V",rom:"oo-beh"},{ch:"W",rom:"DOH-bleh oo-beh"},{ch:"X",rom:"EH-kees"},{ch:"Y",rom:"yeh"},{ch:"Z",rom:"SEH-tah"}]},
           ]}},
-        {fk:"fk_accents",title:"Spanish accents & punctuation",desc:"Accent marks (á é í ó ú) show stress, not different sounds. ¿ and ¡ open questions and exclamations. Ü (güe/güi) means pronounce the U.",
-          examples:["¿Cómo estás? (How are you?)","¡Hola! (Hello!)","pingüino (penguin)"]},
-        {fk:"fk_phonology",title:"Key Spanish sounds",desc:"Spanish has only 5 pure vowel sounds (a e i o u), very consistent. RR is a trill. J is /x/ (like Scottish 'loch'). H is always silent. B and V sound identical.",
-          examples:["perro /pero/: trilled RR","jefe /xefe/: J=/x/","hola /ola/: H silent","beber = vever: B/V identical"]},
-        {fk:"fk_spelling_rules",title:"Spanish spelling rules",desc:"Spelling is almost perfectly phonetic. C before e/i = /θ/ (Spain) or /s/ (Latin America). G before e/i = /x/. QU before e/i = /k/. LL = /ʎ/ or /ʝ/.",
-          examples:["cena /θena/ or /sena/","gente /xente/","queso /keso/","llamar /ʎamar/ or /ʝamar/"]},
+        {fk:"fk_accents",title:"Accent marks and special punctuation",desc:"Accent marks (á é í ó ú) indicate stress, not different sounds. Diaeresis (ü) means 'pronounce the U'. Inverted marks (¿ ¡) open questions and exclamations.",
+          grid:{cols:3,headers:["Mark","Function","Examples"],rows:[
+            {label:"Acute accent",color:"#E85D75",cells:[{ch:"á é í ó ú",rom:""},{ch:"Shows non-default stress position",rom:""},{ch:"café, mamá, común, difícil",rom:""}]},
+            {label:"Diaeresis",color:"#F5A623",cells:[{ch:"ü",rom:""},{ch:"Pronounce U in güe/güi",rom:""},{ch:"pingüino, bilingüe, vergüenza",rom:""}]},
+            {label:"Inverted marks",color:"#4A8FE7",cells:[{ch:"¿ ¡",rom:""},{ch:"Open questions and exclamations",rom:""},{ch:"¿Cómo estás? ¡Hola!",rom:""}]},
+            {label:"Tilde on Ñ",color:"#7B5EE8",cells:[{ch:"ñ",rom:""},{ch:"Separate letter, not an accent on N",rom:""},{ch:"español, año, niño, señor",rom:""}]},
+          ]}},
+        {fk:"fk_alphabet_overview",title:"Letters that trap English speakers",desc:"H is always silent. B and V sound identical. J sounds like English H. G before e/i is the same as J.",
+          grid:{cols:3,headers:["Letter","Spanish sound","English trap to avoid"],rows:[
+            {label:"H",color:"#F5A623",cells:[{ch:"H",rom:"h"},{ch:"ALWAYS silent",rom:"hola = ola"},{ch:"NOT like English hat",rom:""}]},
+            {label:"J",color:"#F5A623",cells:[{ch:"J",rom:"j"},{ch:"Throaty H sound (like loch)",rom:"jefe = HEH-feh"},{ch:"NOT like English jump",rom:""}]},
+            {label:"B/V",color:"#F5A623",cells:[{ch:"B = V",rom:"b/v"},{ch:"Identical sound in Spanish",rom:"beber = vever"},{ch:"NOT different as in English",rom:""}]},
+            {label:"LL",color:"#F5A623",cells:[{ch:"LL",rom:"ll"},{ch:"Y sound (most regions)",rom:"llamar = ya-MAR"},{ch:"NOT like English L+L",rom:""}]},
+            {label:"RR",color:"#F5A623",cells:[{ch:"RR",rom:"rr"},{ch:"Trilled R (tongue vibrates)",rom:"perro = PEH-rro"},{ch:"NOT like English R",rom:""}]},
+          ]}},
+        {fk:"fk_spelling_rules",title:"C and G: two sounds each",desc:"C and G each have a hard and soft sound, determined by the vowel that follows. QU and GU are used to keep hard sounds before e/i.",
+          grid:{cols:3,headers:["Combo","Sound","Examples"],rows:[
+            {label:"C + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard C",rom:""},{ch:"K sound",rom:""},{ch:"casa, comer, cubo",rom:""}]},
+            {label:"C + e, i",color:"#E85D75",cells:[{ch:"Soft C",rom:""},{ch:"S sound (Latin Am) or TH (Spain)",rom:""},{ch:"cena, cinco, cielo",rom:""}]},
+            {label:"QU + e, i",color:"#4A8FE7",cells:[{ch:"QU",rom:""},{ch:"K sound (U is silent)",rom:""},{ch:"queso, aquí, quién",rom:""}]},
+            {label:"G + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard G",rom:""},{ch:"G as in go",rom:""},{ch:"gato, gordo, gusto",rom:""}]},
+            {label:"G + e, i",color:"#E85D75",cells:[{ch:"Soft G",rom:""},{ch:"Throaty H (same as J)",rom:""},{ch:"gente, girar",rom:""}]},
+            {label:"GU + e, i",color:"#4A8FE7",cells:[{ch:"GU",rom:""},{ch:"Hard G (U is silent)",rom:""},{ch:"guerra, guitarra, guía",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 2. VOWELS & DIPHTHONGS ───────────
+    {id:"es_vowels",title:"Vowels and Diphthongs",icon:"🔊",desc:"5 pure vowels (never reduced), diphthongs, and hiatus",
+      items:[
+        {fk:"fk_vowel_grid",title:"The five pure vowels",desc:"Spanish has exactly 5 vowel sounds. They NEVER change quality regardless of stress or position. This is much simpler than English (which has ~15).",
+          grid:{cols:3,headers:["Vowel","Sound","Examples"],rows:[
+            {label:"A",color:"#E85D75",cells:[{ch:"a",rom:"ah"},{ch:"Like English 'father', never like 'cat'",rom:""},{ch:"casa, hablar, mamá",rom:""}]},
+            {label:"E",color:"#F5A623",cells:[{ch:"e",rom:"eh"},{ch:"Like English 'bed', never silent",rom:""},{ch:"mesa, verde, comer",rom:""}]},
+            {label:"I",color:"#2ECDAB",cells:[{ch:"i",rom:"ee"},{ch:"Like English 'see', always short and crisp",rom:""},{ch:"sí, vivir, Chile",rom:""}]},
+            {label:"O",color:"#4A8FE7",cells:[{ch:"o",rom:"oh"},{ch:"Like English 'go' but without the glide",rom:""},{ch:"oro, como, todo",rom:""}]},
+            {label:"U",color:"#7B5EE8",cells:[{ch:"u",rom:"oo"},{ch:"Like English 'food', lips rounded",rom:""},{ch:"uno, uva, azul",rom:""}]},
+          ]}},
+        {fk:"fk_vowel_digraph",title:"Strong vs weak vowels",desc:"A, E, O are 'strong' vowels. I, U are 'weak' vowels. This distinction determines diphthongs, hiatus, and stress patterns.",
+          grid:{cols:3,headers:["Type","Vowels","Rule"],rows:[
+            {label:"Strong",color:"#E85D75",cells:[{ch:"A, E, O",rom:""},{ch:"Open, loud vowels",rom:""},{ch:"Two strong vowels = two syllables (hiatus)",rom:""}]},
+            {label:"Weak",color:"#4A8FE7",cells:[{ch:"I, U",rom:""},{ch:"Closed, quiet vowels",rom:""},{ch:"Strong + weak = one syllable (diphthong)",rom:""}]},
+          ]}},
+        {fk:"fk_vowel_digraph",title:"Common diphthongs",desc:"When a strong vowel (A, E, O) pairs with a weak vowel (I, U), they form a single syllable. Very common in Spanish.",
+          grid:{cols:3,headers:["Diphthong","Sound","Examples"],rows:[
+            {label:"AI/AY",color:"#E85D75",cells:[{ch:"ai / ay",rom:""},{ch:"Like English 'eye'",rom:""},{ch:"baile, hay, aire",rom:""}]},
+            {label:"EI/EY",color:"#F5A623",cells:[{ch:"ei / ey",rom:""},{ch:"Like English 'day'",rom:""},{ch:"seis, ley, reina",rom:""}]},
+            {label:"IE",color:"#2ECDAB",cells:[{ch:"ie",rom:""},{ch:"ee-EH (glides from weak to strong)",rom:""},{ch:"tiene, bien, siempre",rom:""}]},
+            {label:"UE",color:"#4A8FE7",cells:[{ch:"ue",rom:""},{ch:"oo-EH (very common in stem changes)",rom:""},{ch:"bueno, puerta, puede",rom:""}]},
+            {label:"UA",color:"#7B5EE8",cells:[{ch:"ua",rom:""},{ch:"oo-AH",rom:""},{ch:"agua, cuatro, cuando",rom:""}]},
+            {label:"OI/OY",color:"#E85D75",cells:[{ch:"oi / oy",rom:""},{ch:"Like English 'boy'",rom:""},{ch:"hoy, oigo, voy",rom:""}]},
+          ]}},
+        {fk:"fk_vowel_grid",title:"Vowel traps for English speakers",desc:"English reduces unstressed vowels to schwa. Spanish NEVER does this. Every vowel keeps its full sound.",
+          examples:["chocolate: English = CHAWK-lit, Spanish = cho-co-LA-teh (all vowels clear)","animal: English = AN-uh-muhl, Spanish = a-nee-MAL (no schwa)","hospital: English = HAHS-pit-uhl, Spanish = os-pee-TAL (all vowels pure)","banana: English = buh-NAN-uh, Spanish = ba-NA-na (three clear A sounds)"]},
+      ]},
+
+    // ─────────── 3. CONSONANT CHALLENGES ───────────
+    {id:"es_consonants",title:"Consonant Challenges",icon:"🗣️",desc:"Tricky consonant sounds: RR trill, D between vowels, and regional variation",
+      items:[
+        {fk:"fk_consonant_grid",title:"The RR trill vs single R",desc:"Single R is a quick tap (like the 'tt' in American 'butter'). Double RR is a full trill. Confusing them changes meanings!",
+          grid:{cols:3,headers:["Sound","Position","Examples"],rows:[
+            {label:"Single R tap",color:"#2ECDAB",cells:[{ch:"R between vowels",rom:""},{ch:"Quick tongue tap against ridge",rom:""},{ch:"pero (but), caro (expensive), para (for)",rom:""}]},
+            {label:"RR trill",color:"#E85D75",cells:[{ch:"RR between vowels",rom:""},{ch:"Multiple tongue vibrations",rom:""},{ch:"perro (dog), carro (car), parra (vine)",rom:""}]},
+            {label:"R = trill at start",color:"#F5A623",cells:[{ch:"R at word start",rom:""},{ch:"Always trilled like RR",rom:""},{ch:"rojo (red), rata (rat), río (river)",rom:""}]},
+            {label:"R = trill after N/L/S",color:"#4A8FE7",cells:[{ch:"R after n, l, s",rom:""},{ch:"Also trilled",rom:""},{ch:"Enrique, alrededor, Israel",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_grid",title:"D between vowels: the softening trap",desc:"D between vowels becomes very soft, almost like English 'th' in 'the'. At the end of words, it nearly disappears.",
+          examples:["cansado = can-SA-tho (d softens between vowels)","nada = NA-tha (d between vowels is very soft)","Madrid = ma-DRITH (final d is almost silent)","verdad = ver-DATH (final d barely pronounced)"]},
+        {fk:"fk_consonant_grid",title:"Regional consonant variation",desc:"Some consonants sound different depending on the region. Understanding this prevents confusion when hearing different Spanish speakers.",
+          grid:{cols:3,headers:["Feature","Spain","Latin America"],rows:[
+            {label:"Z, C+e/i",color:"#F5A623",cells:[{ch:"distincion",rom:""},{ch:"TH sound: zapato = tha-PA-to",rom:""},{ch:"S sound: zapato = sa-PA-to",rom:""}]},
+            {label:"LL",color:"#4A8FE7",cells:[{ch:"varies",rom:""},{ch:"LY sound (some regions)",rom:""},{ch:"Y sound: calle = CA-yeh",rom:""}]},
+            {label:"S at end",color:"#2ECDAB",cells:[{ch:"aspiration",rom:""},{ch:"Full S: estos = ES-tos",rom:""},{ch:"Often H or dropped: estos = EH-toh",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_grid",title:"Silent H and identical B/V",desc:"H is ALWAYS silent in Spanish, no exceptions. B and V are pronounced identically. These are non-negotiable rules.",
+          examples:["hola = OLA (H is silent)","hacer = a-SER (H is silent)","hombre = OM-breh (H is silent)","beso and vaso start with the SAME sound","burro and vuelta start with the SAME sound"]},
+      ]},
+
+    // ─────────── 4. STRESS RULES & ACCENT MARKS ───────────
+    {id:"es_stress",title:"Stress Rules and Accent Marks",icon:"📐",desc:"Predictable stress system: two simple rules + accent marks for exceptions",
+      items:[
+        {fk:"fk_stress_rules",title:"The two default stress rules",desc:"Spanish stress is 95% predictable from spelling. Rule 1: Words ending in vowel, N, or S have stress on the second-to-last syllable. Rule 2: Words ending in any other consonant have stress on the last syllable.",
+          grid:{cols:3,headers:["Ending","Default stress","Examples"],rows:[
+            {label:"Vowel, N, S",color:"#2ECDAB",cells:[{ch:"Palabras llanas",rom:""},{ch:"Stress on second-to-last syllable",rom:""},{ch:"CA-sa, ha-BLAN, CO-mes, li-BRO",rom:""}]},
+            {label:"Other consonant",color:"#E85D75",cells:[{ch:"Palabras agudas",rom:""},{ch:"Stress on last syllable",rom:""},{ch:"ha-BLAR, co-MER, ciu-DAD, es-pa-ÑOL",rom:""}]},
+          ]}},
+        {fk:"fk_stress_rules",title:"When accent marks appear",desc:"An accent mark (tilde) appears ONLY when the word breaks the default stress rules. If you see an accent, stress is NOT where the rules predict.",
+          grid:{cols:3,headers:["Pattern","Why the accent","Examples"],rows:[
+            {label:"Ends in vowel/N/S + last-syllable stress",color:"#F5A623",cells:[{ch:"Breaks Rule 1",rom:""},{ch:"Accent forces stress to last syllable",rom:""},{ch:"ca-FÉ, ma-MÁ, co-MÚN, tam-BIÉN",rom:""}]},
+            {label:"Ends in consonant + penultimate stress",color:"#4A8FE7",cells:[{ch:"Breaks Rule 2",rom:""},{ch:"Accent forces stress earlier",rom:""},{ch:"FÁ-cil, ÁR-bol, a-ZÚ-car, lá-PIZ",rom:""}]},
+            {label:"Third-to-last or earlier stress",color:"#7B5EE8",cells:[{ch:"Esdrújulas",rom:""},{ch:"Always have accent (always break rules)",rom:""},{ch:"MÚ-si-ca, te-LÉ-fo-no, mé-DI-co",rom:""}]},
+          ]}},
+        {fk:"fk_stress_rules",title:"Accent marks that distinguish meaning",desc:"Some word pairs are spelled identically except for the accent. The accent changes the meaning entirely.",
+          grid:{cols:3,headers:["With accent","Without accent","Difference"],rows:[
+            {label:"sí / si",color:"#E85D75",cells:[{ch:"sí",rom:""},{ch:"si",rom:""},{ch:"yes / if",rom:""}]},
+            {label:"él / el",color:"#F5A623",cells:[{ch:"él",rom:""},{ch:"el",rom:""},{ch:"he / the",rom:""}]},
+            {label:"tú / tu",color:"#4A8FE7",cells:[{ch:"tú",rom:""},{ch:"tu",rom:""},{ch:"you / your",rom:""}]},
+            {label:"más / mas",color:"#2ECDAB",cells:[{ch:"más",rom:""},{ch:"mas",rom:""},{ch:"more / but (literary)",rom:""}]},
+            {label:"qué / que",color:"#7B5EE8",cells:[{ch:"qué, cuándo, dónde",rom:""},{ch:"que, cuando, donde",rom:""},{ch:"question word / conjunction",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 5. GRAMMAR PREVIEW ───────────
+    {id:"es_grammar_preview",title:"Grammar at a Glance",icon:"📝",desc:"Key Spanish grammar concepts to recognize before diving into lessons",
+      items:[
+        {fk:"fk_grammar_preview",title:"Gender: el and la",desc:"Every Spanish noun is masculine (el) or feminine (la). Most nouns ending in -o are masculine, most ending in -a are feminine. But there are exceptions!",
+          grid:{cols:3,headers:["Gender","Article","Common patterns"],rows:[
+            {label:"Masculine",color:"#4A8FE7",cells:[{ch:"el",rom:""},{ch:"el libro, el gato, el sol",rom:""},{ch:"Most -o words, days, months, rivers, oceans",rom:""}]},
+            {label:"Feminine",color:"#E85D75",cells:[{ch:"la",rom:""},{ch:"la casa, la mesa, la luna",rom:""},{ch:"Most -a words, -cion, -dad, -tad, -tud",rom:""}]},
+            {label:"Exceptions",color:"#F5A623",cells:[{ch:"Watch out!",rom:""},{ch:"el día, el mapa, el problema",rom:""},{ch:"Some -a words are masculine (Greek origin)",rom:""}]},
+            {label:"Stressed a-",color:"#7B5EE8",cells:[{ch:"el + fem noun",rom:""},{ch:"el agua, el águila, el alma",rom:""},{ch:"Use 'el' before stressed a-/ha- (still feminine!)",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_preview",title:"Ser vs Estar: two verbs meaning 'to be'",desc:"The biggest challenge for English speakers. SER describes identity and permanent traits. ESTAR describes states, locations, and conditions.",
+          grid:{cols:3,headers:["Verb","Uses","Examples"],rows:[
+            {label:"SER",color:"#4A8FE7",cells:[{ch:"Identity, origin, time",rom:""},{ch:"Who/what something IS",rom:""},{ch:"Soy Juan. Es profesor. Son las tres.",rom:""}]},
+            {label:"SER",color:"#4A8FE7",cells:[{ch:"Personality, material",rom:""},{ch:"Permanent characteristics",rom:""},{ch:"Es inteligente. Es de madera.",rom:""}]},
+            {label:"ESTAR",color:"#2ECDAB",cells:[{ch:"Location, state",rom:""},{ch:"Where something is, how it feels",rom:""},{ch:"Estoy en casa. Estoy cansado.",rom:""}]},
+            {label:"ESTAR",color:"#2ECDAB",cells:[{ch:"Emotion, condition",rom:""},{ch:"Temporary states",rom:""},{ch:"Estoy feliz. Está enfermo.",rom:""}]},
+            {label:"Trap!",color:"#F5A623",cells:[{ch:"Same adjective, different verb",rom:""},{ch:"Changes meaning entirely!",rom:""},{ch:"Es aburrido (boring person) vs Está aburrido (bored)",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_preview",title:"Three verb groups: -AR, -ER, -IR",desc:"All Spanish verbs belong to one of three groups based on their infinitive ending. Each group has its own conjugation pattern.",
+          grid:{cols:3,headers:["Group","Infinitive ending","Example verbs"],rows:[
+            {label:"-AR verbs",color:"#E85D75",cells:[{ch:"-ar (largest group, ~80%)",rom:""},{ch:"hablar, comer, vivir",rom:""},{ch:"hablar (speak), trabajar (work), estudiar (study)",rom:""}]},
+            {label:"-ER verbs",color:"#F5A623",cells:[{ch:"-er",rom:""},{ch:"comer, beber, leer",rom:""},{ch:"comer (eat), beber (drink), aprender (learn)",rom:""}]},
+            {label:"-IR verbs",color:"#4A8FE7",cells:[{ch:"-ir",rom:""},{ch:"vivir, escribir, abrir",rom:""},{ch:"vivir (live), escribir (write), abrir (open)",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_preview",title:"Formal vs informal: Tu and Usted",desc:"Spanish has two ways to say 'you'. Getting it wrong is a social mistake. When in doubt, use usted.",
+          grid:{cols:3,headers:["Form","Use with","Verb form"],rows:[
+            {label:"Tú",color:"#2ECDAB",cells:[{ch:"Informal 'you'",rom:""},{ch:"Friends, family, children, peers",rom:""},{ch:"Tú hablas (you speak)",rom:""}]},
+            {label:"Usted (Ud.)",color:"#7B5EE8",cells:[{ch:"Formal 'you'",rom:""},{ch:"Strangers, elders, authority, business",rom:""},{ch:"Usted habla (you speak) - uses 3rd person!",rom:""}]},
+            {label:"Vosotros (Spain)",color:"#F5A623",cells:[{ch:"Informal plural 'you'",rom:""},{ch:"Spain only, NOT used in Latin America",rom:""},{ch:"Vosotros habláis (you all speak)",rom:""}]},
+            {label:"Ustedes (Uds.)",color:"#4A8FE7",cells:[{ch:"Plural 'you'",rom:""},{ch:"All of Latin America for any context",rom:""},{ch:"Ustedes hablan (you all speak)",rom:""}]},
+          ]}},
       ]},
   ]},
   // ── Romanian Foundations (Pipeline Step 2 — placeholder) ──
@@ -2580,7 +2714,145 @@ export const FK_PLAYTHROUGH = {
       ]},
   ]},
   en:{name:"English Foundations Play",icon:"🇬🇧",blueprint:"latin_simple",stages:[]},
-  es:{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]},
+  es:{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[
+    // ── STAGE 1: THE ALPHABET & Ñ ──
+    {id:"es_fp_s1",title:"The Spanish Alphabet",desc:"27 letters, Ñ, and the sounds that differ from English",icon:"🔤",
+      lessons:[
+        {id:"es_fp_s1_l1",title:"The Alphabet & Ñ",icon:"🔤",xp:15,board:true,steps:[
+          {type:"intro",title:"Welcome to Spanish Sounds!",desc:"Spanish is one of the most phonetic languages in the world. What you see is what you say! This lesson covers the alphabet and the special letter Ñ.",goals:["Know Spanish has 27 letters (26 + Ñ)","Recognize Ñ as a separate letter","Understand Spanish is nearly phonetic"]},
+          {type:"teach",kind:"info",nl:"El alfabeto",en:"The Spanish alphabet",phonetic:"el al-fa-BEH-to",example:"A: El alfabeto español tiene 27 letras.\nB: ¿Veintisiete? ¿No veintiséis?",exampleEn:"A: The Spanish alphabet has 27 letters.\nB: Twenty-seven? Not twenty-six?",note:"27 letters: the 26 Latin letters plus Ñ.\nÑ is NOT an accent on N. It is its own letter.\nIt comes after N in alphabetical order."},
+          {type:"teach",kind:"info",nl:"Ñ",en:"The letter eñe",phonetic:"EH-nyeh",example:"A: ¿Cómo se dice 'year' en español?\nB: Año. A-Ñ-O.",exampleEn:"A: How do you say 'year' in Spanish?\nB: Año. A-Ñ-O.",note:"Ñ sounds like NY in canyon or onion.\nespaÑol, niÑo, señor, año, mañana.\nAlways written with the tilde (~) above."},
+          {type:"mc",q:"How many letters does the Spanish alphabet have?",opts:["26","27","28","30"],ans:"27",hint:"One more than English, thanks to a unique letter."},
+          {type:"mc",q:"Ñ sounds like the NY in which English word?",opts:["Funny","Canyon","Money","Nancy"],ans:"Canyon",hint:"Think of the ny sound blended together."},
+          {type:"teach",kind:"info",nl:"H muda",en:"H is always silent",phonetic:"AH-cheh MOO-da",example:"A: ¿Cómo se pronuncia 'hola'?\nB: Se dice OLA. La H no suena.",exampleEn:"A: How do you pronounce 'hola'?\nB: You say OLA. The H has no sound.",note:"H is ALWAYS silent. No exceptions.\nhola = OLA, hombre = OM-breh, hacer = a-SER.\nNever pronounce the H in Spanish."},
+          {type:"mc",q:"The H in 'hombre' (man) is:",opts:["Pronounced like English H","Always silent","Sometimes silent","Pronounced as a breathy sound"],ans:"Always silent",hint:"Spanish H makes zero sound. Always."},
+          {type:"teach",kind:"info",nl:"B y V",en:"B and V sound identical",phonetic:"beh / oo-beh",example:"A: ¿'Beso' y 'vaso' empiezan con el mismo sonido?\nB: ¡Sí! B y V suenan igual.",exampleEn:"A: Do 'beso' and 'vaso' start with the same sound?\nB: Yes! B and V sound identical.",note:"B and V are the SAME sound in Spanish.\nSpanish speakers distinguish them by spelling only.\nbeber, vivir, boca, vino: all start the same way."},
+          {type:"mc",q:"In Spanish, B and V are:",opts:["Different sounds like in English","Identical in sound","Opposite sounds","Silent letters"],ans:"Identical in sound",hint:"Unlike English, these two letters share one sound."},
+          {type:"match",pairs:[{nl:"Ñ",en:"NY sound (canyon)"},{nl:"H",en:"Always silent"},{nl:"B/V",en:"Identical sounds"},{nl:"J",en:"Throaty H sound"}]},
+        ]},
+        {id:"es_fp_s1_l2",title:"Tricky Consonants",icon:"⚡",xp:15,board:true,steps:[
+          {type:"intro",title:"Consonants that trap English speakers",desc:"Several Spanish consonants look familiar but sound different from English. J, LL, RR, and the soft C/G are the main traps.",goals:["Know J sounds like a throaty H","Know LL sounds like Y","Understand C and G each have two sounds"]},
+          {type:"teach",kind:"info",nl:"J y G suave",en:"J and soft G: the throaty H sound",phonetic:"HO-ta / heh",example:"A: ¿Cómo suena la J en español?\nB: Como una H fuerte: jefe = HEH-feh.",exampleEn:"A: How does J sound in Spanish?\nB: Like a strong H: jefe = HEH-feh.",note:"J ALWAYS makes a throaty H sound (like Scottish loch).\nG before E or I makes the same sound.\njefe, gente, girar, jardín, general."},
+          {type:"teach",kind:"info",nl:"LL",en:"LL: the Y sound",phonetic:"EH-yeh",example:"A: ¿Cómo se pronuncia 'calle'?\nB: CA-yeh. La LL suena como Y.",exampleEn:"A: How do you pronounce 'calle'?\nB: CA-yeh. LL sounds like Y.",note:"LL is NOT L+L. It sounds like Y in most regions.\nllamar = ya-MAR, calle = CA-yeh, pollo = PO-yo.\nSome regions say it differently (Argentina: SH sound)."},
+          {type:"teach",kind:"info",nl:"C dura y suave",en:"C: two sounds depending on the vowel",phonetic:"seh",example:"A: ¿Por qué 'casa' y 'cena' suenan diferente?\nB: C antes de A,O,U = K. C antes de E,I = S.",exampleEn:"A: Why do 'casa' and 'cena' sound different?\nB: C before A,O,U = K. C before E,I = S.",note:"C + a, o, u = K sound: casa, comer, cubo.\nC + e, i = S sound: cena, cinco, cielo.\nIn Spain: C + e, i = TH sound (distincion)."},
+          {type:"mc",q:"J in 'jardín' (garden) sounds like:",opts:["English J in jump","Throaty H like in loch","English Y in yes","Silent"],ans:"Throaty H like in loch",hint:"Spanish J always makes a throaty, airy sound."},
+          {type:"mc",q:"LL in 'llamar' (to call) sounds like:",opts:["Two L sounds","Y as in yes","Silent","SH as in shoe"],ans:"Y as in yes",hint:"LL = Y sound in most Spanish dialects."},
+          {type:"mc",q:"C in 'cena' (dinner) sounds like:",opts:["K as in cat","S as in sun","CH as in church","G as in go"],ans:"S as in sun",hint:"C before E or I becomes soft (S sound)."},
+          {type:"mc",q:"G in 'gente' (people) sounds like:",opts:["G as in go","Throaty H (same as J)","Silent","S as in sun"],ans:"Throaty H (same as J)",hint:"G before E or I becomes soft, same as J."},
+          {type:"teach",kind:"info",nl:"QU y GU",en:"QU and GU: keeping hard sounds before E/I",phonetic:"koo / goo",example:"A: ¿Por qué 'queso' se escribe con QU?\nB: Para mantener el sonido K antes de E.",exampleEn:"A: Why is 'queso' spelled with QU?\nB: To keep the K sound before E.",note:"QU + e/i = K sound (U is silent): queso, aquí.\nGU + e/i = hard G (U is silent): guerra, guitarra.\nGÜ + e/i = G + OO (U pronounced): pingüino."},
+          {type:"mc",q:"The U in 'queso' (cheese) is:",opts:["Pronounced as OO","Silent","Pronounced as W","Optional"],ans:"Silent",hint:"In QU combinations, the U is never pronounced."},
+          {type:"match",pairs:[{nl:"J (jefe)",en:"Throaty H"},{nl:"LL (calle)",en:"Y sound"},{nl:"C + e/i (cinco)",en:"S sound"},{nl:"QU (queso)",en:"K sound (U silent)"}]},
+        ]},
+      ]},
+
+    // ── STAGE 2: VOWELS & PRONUNCIATION ──
+    {id:"es_fp_s2",title:"Vowels & Pronunciation",desc:"5 pure vowels, diphthongs, and the RR trill",icon:"🔊",
+      lessons:[
+        {id:"es_fp_s2_l1",title:"The Five Pure Vowels",icon:"🔊",xp:15,board:true,steps:[
+          {type:"intro",title:"Five vowels, five sounds, forever",desc:"Spanish has exactly 5 vowel sounds. Unlike English, they NEVER change quality. No schwa, no reduction, no surprises.",goals:["Know the 5 vowel sounds","Understand vowels never reduce","Recognize every vowel is always pronounced"]},
+          {type:"teach",kind:"info",nl:"A",en:"The vowel A",phonetic:"ah",example:"A: ¿Cómo suena la A en español?\nB: Siempre AH, como en 'father'.",exampleEn:"A: How does A sound in Spanish?\nB: Always AH, as in 'father'.",note:"Always AH. Never changes.\ncasa, hablar, banana: every A sounds the same.\nUnlike English where A has 5+ different sounds."},
+          {type:"teach",kind:"info",nl:"E",en:"The vowel E",phonetic:"eh",example:"A: ¿Y la E?\nB: Siempre EH, como en 'bed'.",exampleEn:"A: And the E?\nB: Always EH, as in 'bed'.",note:"Always EH. Never silent like English final E.\nmesa, verde, comer: every E is pronounced.\nchocolatE = cho-co-LA-teh (final E is said!)."},
+          {type:"teach",kind:"info",nl:"I",en:"The vowel I",phonetic:"ee",example:"A: ¿La I?\nB: Siempre EE, como en 'see'.",exampleEn:"A: The I?\nB: Always EE, as in 'see'.",note:"Always EE. Short and crisp.\nsí, vivir, Chile: consistent EE sound.\nNever like English I in 'it' or 'ice'."},
+          {type:"teach",kind:"info",nl:"O",en:"The vowel O",phonetic:"oh",example:"A: ¿La O?\nB: Siempre OH, sin deslizar como en inglés.",exampleEn:"A: The O?\nB: Always OH, without the English glide.",note:"Always OH. No glide at the end.\noro, como, todo: pure OH sound.\nEnglish 'go' glides to OOH. Spanish O stays pure."},
+          {type:"teach",kind:"info",nl:"U",en:"The vowel U",phonetic:"oo",example:"A: ¿Y la U?\nB: Siempre OO, como en 'food'.",exampleEn:"A: And the U?\nB: Always OO, as in 'food'.",note:"Always OO. Lips rounded.\nuno, uva, azul: consistent OO sound.\nNever like English U in 'up' or 'use'."},
+          {type:"mc",q:"The A in 'banana' in Spanish is pronounced:",opts:["Three different ways like English","Always the same AH sound","Silent at the end","Like the A in 'cat'"],ans:"Always the same AH sound",hint:"Each A makes the same pure AH. No schwa."},
+          {type:"mc",q:"The final E in 'chocolate' in Spanish is:",opts:["Silent like in English","Always pronounced as EH","Pronounced as AY","Optional"],ans:"Always pronounced as EH",hint:"Spanish never has silent vowels. Every E is said."},
+          {type:"mc",q:"How many distinct vowel sounds does Spanish have?",opts:["5","7","12","15"],ans:"5",hint:"One sound per vowel letter. Simple and consistent."},
+          {type:"match",pairs:[{nl:"A",en:"AH (father)"},{nl:"E",en:"EH (bed)"},{nl:"I",en:"EE (see)"},{nl:"O",en:"OH (go, no glide)"},{nl:"U",en:"OO (food)"}]},
+        ]},
+        {id:"es_fp_s2_l2",title:"Diphthongs & RR Trill",icon:"🗣️",xp:15,board:true,steps:[
+          {type:"intro",title:"Vowel combinations and the famous RR",desc:"When strong and weak vowels meet, they glide together in one syllable (diphthong). And the RR trill is the most iconic Spanish sound.",goals:["Know strong (A,E,O) vs weak (I,U) vowels","Recognize common diphthongs","Distinguish single R tap from RR trill"]},
+          {type:"teach",kind:"info",nl:"Diptongos",en:"Diphthongs: vowel glides",phonetic:"deep-TONG-gos",example:"A: ¿'Bueno' tiene una sílaba o dos para UE?\nB: Una. UE es un diptongo.",exampleEn:"A: Does 'bueno' have one or two syllables for UE?\nB: One. UE is a diphthong.",note:"Strong + weak or weak + weak = ONE syllable:\nbueno (UE), tiene (IE), cuando (UA), seis (EI).\nTwo strong vowels = TWO syllables:\nle-er, ca-er, po-e-ta (hiatus, not diphthong)."},
+          {type:"mc",q:"IE in 'tiene' (has) is:",opts:["Two separate syllables","One syllable (diphthong)","Silent","Three sounds"],ans:"One syllable (diphthong)",hint:"Strong E + weak I merge into one syllable."},
+          {type:"teach",kind:"info",nl:"R y RR",en:"Single R (tap) vs RR (trill)",phonetic:"EH-reh / EH-rreh",example:"A: ¿Cuál es la diferencia entre 'pero' y 'perro'?\nB: Pero = but (R suave). Perro = dog (RR fuerte).",exampleEn:"A: What is the difference between 'pero' and 'perro'?\nB: Pero = but (soft R). Perro = dog (strong RR).",note:"Single R between vowels = quick tongue tap.\nRR between vowels = rolled trill.\nR at word start = always trilled: rojo, río.\nMixing them changes meaning: pero/perro, caro/carro."},
+          {type:"mc",q:"'Pero' means 'but' and 'perro' means 'dog'. The difference is:",opts:["The vowel sound","Single R (tap) vs RR (trill)","Stress placement","The P sound"],ans:"Single R (tap) vs RR (trill)",hint:"One quick tap vs multiple tongue vibrations."},
+          {type:"mc",q:"R at the START of a word like 'rojo' (red) is:",opts:["A single tap","Always trilled like RR","Silent","Soft like English R"],ans:"Always trilled like RR",hint:"Word-initial R is always strong, never a gentle tap."},
+          {type:"mc",q:"Which vowel combination makes a diphthong (one syllable)?",opts:["A + E (two strong)","I + E (weak + strong)","O + A (two strong)","E + O (two strong)"],ans:"I + E (weak + strong)",hint:"Diphthongs need at least one weak vowel (I or U)."},
+          {type:"match",pairs:[{nl:"R between vowels (pero)",en:"Quick tongue tap"},{nl:"RR (perro)",en:"Rolled trill"},{nl:"R at word start (rojo)",en:"Trilled (like RR)"},{nl:"IE/UE/AI",en:"Diphthong (one syllable)"}]},
+        ]},
+      ]},
+
+    // ── STAGE 3: STRESS & ACCENT MARKS ──
+    {id:"es_fp_s3",title:"Stress & Accent Marks",desc:"The predictable stress system and when accents appear",icon:"📐",
+      lessons:[
+        {id:"es_fp_s3_l1",title:"Default Stress Rules",icon:"📐",xp:15,board:true,steps:[
+          {type:"intro",title:"Stress is predictable!",desc:"Spanish stress follows two simple rules that cover 95% of all words. Learn these rules and you can stress any new word correctly.",goals:["Apply Rule 1: vowel/N/S endings","Apply Rule 2: other consonant endings","Know that accents mark exceptions"]},
+          {type:"teach",kind:"info",nl:"Regla 1",en:"Rule 1: Vowel, N, or S ending",phonetic:"REH-gla OO-no",example:"A: ¿Dónde va el acento en 'casa'?\nB: En la penúltima sílaba: CA-sa.",exampleEn:"A: Where does the stress go in 'casa'?\nB: On the second-to-last syllable: CA-sa.",note:"Words ending in a VOWEL, N, or S:\nStress the second-to-last syllable.\nCA-sa, HA-blan, CO-mes, li-BRO, e-XA-men."},
+          {type:"teach",kind:"info",nl:"Regla 2",en:"Rule 2: Other consonant endings",phonetic:"REH-gla DOS",example:"A: ¿Y 'hablar'?\nB: Termina en R, así que el acento va al final: ha-BLAR.",exampleEn:"A: And 'hablar'?\nB: It ends in R, so stress goes on the last syllable: ha-BLAR.",note:"Words ending in any consonant EXCEPT N or S:\nStress the LAST syllable.\nha-BLAR, co-MER, ciu-DAD, es-pa-ÑOL, re-LOJ."},
+          {type:"mc",q:"Where is the stress in 'libro' (book)?",opts:["LI-bro (second-to-last)","li-BRO (last)","LI-BRO (both equal)","lib-RO"],ans:"LI-bro (second-to-last)",hint:"Ends in a vowel. Rule 1: stress second-to-last."},
+          {type:"mc",q:"Where is the stress in 'comer' (to eat)?",opts:["CO-mer (second-to-last)","co-MER (last)","CO-MER (both)","com-ER"],ans:"co-MER (last)",hint:"Ends in R (not vowel/N/S). Rule 2: stress last."},
+          {type:"mc",q:"Where is the stress in 'examen' (exam)?",opts:["e-xa-MEN","e-XA-men","EX-a-men","exa-MEN"],ans:"e-XA-men",hint:"Ends in N. Rule 1: stress second-to-last."},
+          {type:"mc",q:"Where is the stress in 'ciudad' (city)?",opts:["CIU-dad","ciu-DAD","ci-U-dad","CI-udad"],ans:"ciu-DAD",hint:"Ends in D (not vowel/N/S). Rule 2: stress last."},
+          {type:"teach",kind:"info",nl:"Tilde = excepción",en:"Accent marks signal exceptions",phonetic:"TEEL-deh",example:"A: ¿Por qué 'café' tiene acento?\nB: Porque termina en vocal pero el acento está al final. Rompe la regla.",exampleEn:"A: Why does 'café' have an accent mark?\nB: Because it ends in a vowel but stress is on the last syllable. It breaks the rule.",note:"An accent mark appears ONLY when the word breaks the default rules.\ncafé ends in a vowel but stresses the LAST syllable.\nlápiz ends in a consonant but stresses the SECOND-TO-LAST.\nIf you see an accent, the stress is NOT where rules predict."},
+          {type:"mc",q:"Why does 'mamá' have an accent mark?",opts:["It ends in a vowel but stress is on the last syllable, breaking Rule 1","All Spanish words have accents","The accent changes the vowel sound","It is a foreign word"],ans:"It ends in a vowel but stress is on the last syllable, breaking Rule 1",hint:"Vowel ending should mean penultimate stress. The accent overrides."},
+          {type:"mc",q:"'Fácil' (easy) has an accent because:",opts:["It ends in L but stress is on the second-to-last syllable","It ends in a vowel","All adjectives get accents","It has two syllables"],ans:"It ends in L but stress is on the second-to-last syllable",hint:"Consonant ending should stress the last syllable. The accent overrides."},
+          {type:"match",pairs:[{nl:"casa (vowel ending)",en:"CA-sa (Rule 1)"},{nl:"hablar (R ending)",en:"ha-BLAR (Rule 2)"},{nl:"café (accent mark)",en:"ca-FÉ (exception!)"},{nl:"examen (N ending)",en:"e-XA-men (Rule 1)"}]},
+        ]},
+        {id:"es_fp_s3_l2",title:"Meaning-Changing Accents",icon:"✨",xp:15,board:true,steps:[
+          {type:"intro",title:"Same spelling, different meaning",desc:"Some Spanish word pairs look identical except for the accent mark. The accent changes the meaning entirely. These are critical to recognize.",goals:["Know el vs él, tu vs tú, si vs sí","Know question words always have accents","Understand accents distinguish homophones"]},
+          {type:"teach",kind:"info",nl:"Acento diacrítico",en:"Accents that change meaning",phonetic:"dee-ah-KREE-tee-ko",example:"A: ¿'El' y 'él' son iguales?\nB: No. 'El' = the. 'Él' = he.",exampleEn:"A: Are 'el' and 'él' the same?\nB: No. 'El' = the. 'Él' = he.",note:"el = the (article). él = he (pronoun).\ntu = your. tú = you.\nsi = if. sí = yes.\nmas = but (literary). más = more.\nThe accent is the ONLY difference!"},
+          {type:"mc",q:"'Tu casa' means 'your house'. 'Tú' with an accent means:",opts:["Your","You","House","The"],ans:"You",hint:"Without accent = possessive. With accent = pronoun."},
+          {type:"mc",q:"'Si quieres' means 'if you want'. 'Sí' with an accent means:",opts:["If","Yes","But","No"],ans:"Yes",hint:"Without accent = if. With accent = affirmative."},
+          {type:"teach",kind:"info",nl:"Palabras interrogativas",en:"Question words always have accents",phonetic:"een-teh-rro-ga-TEE-vas",example:"A: ¿Qué es eso?\nB: Es un libro. Que interesante.",exampleEn:"A: What is that?\nB: It's a book. How interesting.",note:"When asking a question, these words get accents:\n¿Qué? (what), ¿Cuándo? (when), ¿Dónde? (where),\n¿Cómo? (how), ¿Por qué? (why), ¿Quién? (who).\nAs connectors (no question): que, cuando, donde."},
+          {type:"mc",q:"'¿Dónde estás?' uses an accent on 'dónde' because:",opts:["It is asking a question","All D words get accents","It ends in a vowel","It is a long word"],ans:"It is asking a question",hint:"Question words always carry an accent mark."},
+          {type:"mc",q:"In 'Sé que tú lo sabes' (I know that you know it), which word is a question word?",opts:["Sé","que","tú","None, there is no question"],ans:"None, there is no question",hint:"This is a statement. 'que' here means 'that', no accent."},
+          {type:"match",pairs:[{nl:"el (no accent)",en:"the (article)"},{nl:"él (accent)",en:"he (pronoun)"},{nl:"si (no accent)",en:"if"},{nl:"sí (accent)",en:"yes"}]},
+        ]},
+      ]},
+
+    // ── STAGE 4: SPELLING PATTERNS ──
+    {id:"es_fp_s4",title:"Spelling Patterns",desc:"Nearly phonetic spelling with a few key rules",icon:"📝",
+      lessons:[
+        {id:"es_fp_s4_l1",title:"Spelling-Sound Rules",icon:"📝",xp:15,board:true,steps:[
+          {type:"intro",title:"Spanish spelling is almost phonetic",desc:"Unlike English, Spanish spelling is very consistent. A few key rules govern everything. Learn these and you can spell any word you hear.",goals:["Know the C/QU/Z pattern","Know the G/GU/GÜ pattern","Understand inverted punctuation"]},
+          {type:"teach",kind:"info",nl:"C, QU, Z",en:"The K/S sound system",phonetic:"",example:"A: ¿Por qué 'casa' tiene C pero 'queso' tiene QU?\nB: Para mantener el sonido K antes de E.",exampleEn:"A: Why does 'casa' have C but 'queso' has QU?\nB: To keep the K sound before E.",note:"K sound before A,O,U: use C (casa, comer, cubo).\nK sound before E,I: use QU (queso, aquí).\nS sound before E,I: use C or Z (cena, zapato).\nS sound before A,O,U: use Z (zapato, zona, azul)."},
+          {type:"mc",q:"To spell the K sound before E, Spanish uses:",opts:["C","K","QU","CK"],ans:"QU",hint:"C before E would make an S sound, so QU is needed."},
+          {type:"teach",kind:"info",nl:"G, GU, GÜ",en:"The G sound system",phonetic:"",example:"A: ¿'Guerra' se escribe con GU?\nB: Sí, para tener G dura antes de E.",exampleEn:"A: Is 'guerra' spelled with GU?\nB: Yes, to have a hard G before E.",note:"Hard G before A,O,U: use G (gato, gordo, gusto).\nHard G before E,I: use GU (guerra, guitarra).\nG + OO before E,I: use GÜ (pingüino, bilingüe).\nSoft G (=J sound) before E,I: just G (gente, girar)."},
+          {type:"mc",q:"To spell a hard G sound before I, Spanish uses:",opts:["G alone","GU (U silent)","GÜ (U pronounced)","J"],ans:"GU (U silent)",hint:"G alone before I would make a J sound. GU keeps it hard."},
+          {type:"mc",q:"The Ü in 'pingüino' means:",opts:["The U is silent","Pronounce the U as OO","The word is foreign","The G is soft"],ans:"Pronounce the U as OO",hint:"The diaeresis tells you: say the U, do not skip it."},
+          {type:"teach",kind:"info",nl:"¿ y ¡",en:"Inverted punctuation",phonetic:"",example:"A: ¿Por qué hay dos signos de pregunta?\nB: Uno abre y otro cierra. Así sabes desde el principio que es pregunta.",exampleEn:"A: Why are there two question marks?\nB: One opens and one closes. So you know from the start it is a question.",note:"Spanish opens questions with ¿ and closes with ?.\nSame for exclamations: ¡ opens, ! closes.\n¿Cómo estás? ¡Qué bonito!\nThis is mandatory, not optional."},
+          {type:"mc",q:"Which is correctly punctuated?",opts:["Cómo estás?","¿Cómo estás?","¿Cómo estás","Como estas?"],ans:"¿Cómo estás?",hint:"Questions need BOTH opening ¿ and closing ? marks."},
+          {type:"match",pairs:[{nl:"K before E/I",en:"Use QU (queso)"},{nl:"Hard G before E/I",en:"Use GU (guerra)"},{nl:"S before A/O/U",en:"Use Z (zapato)"},{nl:"G+OO before E/I",en:"Use GÜ (pingüino)"}]},
+        ]},
+        {id:"es_fp_s4_l2",title:"D Between Vowels & Regional Variation",icon:"🌎",xp:15,board:true,steps:[
+          {type:"intro",title:"Sounds that shift by position and region",desc:"Some Spanish sounds change depending on where they appear in a word, and some vary by region. Understanding this prevents confusion.",goals:["Know D softens between vowels","Know Z/C distinction varies by region","Recognize key regional differences"]},
+          {type:"teach",kind:"info",nl:"D intervocálica",en:"D between vowels softens",phonetic:"",example:"A: ¿'Cansado' suena como 'cansatho'?\nB: Sí, la D entre vocales se suaviza mucho.",exampleEn:"A: Does 'cansado' sound like 'cansatho'?\nB: Yes, D between vowels softens a lot.",note:"D between vowels becomes very soft, almost TH.\ncansado = can-SA-tho, nada = NA-tha.\nFinal D nearly disappears: Madrid = ma-DRITH.\nThis is natural, not sloppy speech."},
+          {type:"mc",q:"The D in 'nada' (nothing) between vowels sounds:",opts:["Strong D like in English 'do'","Soft, almost like TH in 'the'","Silent","Like a T"],ans:"Soft, almost like TH in 'the'",hint:"Between vowels, D softens dramatically."},
+          {type:"teach",kind:"info",nl:"Seseo vs distinción",en:"S sound vs TH sound for Z/C",phonetic:"seh-SEH-oh / dees-teen-SYON",example:"A: ¿Es 'zapato' o 'thapato'?\nB: Depende del país. En España: thapato. En América: sapato.",exampleEn:"A: Is it 'zapato' or 'thapato'?\nB: Depends on the country. Spain: thapato. Americas: sapato.",note:"In Latin America: Z and C before E/I = S sound (seseo).\nIn central/northern Spain: Z and C before E/I = TH sound.\nBoth are correct! Neither is wrong.\nThis course defaults to Latin American pronunciation."},
+          {type:"mc",q:"In most of Latin America, Z in 'zapato' sounds like:",opts:["TH as in 'think'","S as in 'sun'","Z as in 'zoo'","SH as in 'shoe'"],ans:"S as in 'sun'",hint:"Latin America uses seseo: Z = S sound."},
+          {type:"mc",q:"Which pronunciation of 'cinco' is from Spain?",opts:["SEEN-ko","THINK-oh","SINK-oh","CHIN-ko"],ans:"THINK-oh",hint:"Spain uses distincion: C before I = TH sound."},
+          {type:"mc",q:"Is one regional pronunciation more correct than the other?",opts:["Yes, Spain is correct","Yes, Latin America is correct","No, both are equally valid","Only formal Spanish is correct"],ans:"No, both are equally valid",hint:"Both are standard. Neither is wrong or informal."},
+          {type:"match",pairs:[{nl:"D between vowels",en:"Softens to TH-like"},{nl:"Final D (Madrid)",en:"Nearly silent"},{nl:"Seseo (Latin America)",en:"Z = S sound"},{nl:"Distinción (Spain)",en:"Z = TH sound"}]},
+        ]},
+      ]},
+
+    // ── STAGE 5: GRAMMAR PREVIEW ──
+    {id:"es_fp_s5",title:"Grammar Preview",desc:"Gender, ser vs estar, and verb groups at a glance",icon:"📖",
+      lessons:[
+        {id:"es_fp_s5_l1",title:"Gender & Articles",icon:"📖",xp:15,board:true,steps:[
+          {type:"intro",title:"Every noun has a gender",desc:"In Spanish, every noun is masculine or feminine. You must learn the article (el/la) with every noun. Patterns help, but exceptions exist.",goals:["Know el = masculine, la = feminine","Know -o/-a patterns and exceptions","Understand articles are mandatory"]},
+          {type:"teach",kind:"info",nl:"El y La",en:"Masculine and feminine articles",phonetic:"el / la",example:"A: ¿Es 'libro' masculino o femenino?\nB: Masculino. EL libro.",exampleEn:"A: Is 'libro' masculine or feminine?\nB: Masculine. THE book (el).",note:"el = masculine: el libro, el gato, el sol.\nla = feminine: la casa, la mesa, la luna.\nPlural: los (m), las (f).\nAlways learn the article WITH the noun!"},
+          {type:"teach",kind:"info",nl:"Patrones",en:"Gender patterns",phonetic:"pa-TRO-nes",example:"A: ¿Cómo sé si es el o la?\nB: Casi siempre: -o = el, -a = la. Pero hay excepciones.",exampleEn:"A: How do I know if it is el or la?\nB: Almost always: -o = el, -a = la. But there are exceptions.",note:"Most -o words: masculine (el libro, el gato).\nMost -a words: feminine (la casa, la mesa).\nExceptions: el día, el mapa, el problema.\nEndings -ción, -dad, -tad: always feminine."},
+          {type:"mc",q:"'El problema' is masculine even though it ends in -a because:",opts:["It comes from Greek (words ending in -ema/-ama)","All long words are masculine","It starts with P","It is an exception with no reason"],ans:"It comes from Greek (words ending in -ema/-ama)",hint:"Greek-origin -ma words: problema, sistema, tema are masculine."},
+          {type:"mc",q:"A word ending in '-ción' like 'nación' is:",opts:["Masculine","Feminine","Could be either","Neutral"],ans:"Feminine",hint:"Words ending in -ción are always la."},
+          {type:"teach",kind:"info",nl:"El agua",en:"El before stressed A in feminine nouns",phonetic:"el AH-gwa",example:"A: ¿'Agua' es masculino?\nB: No, es femenino. Pero decimos EL agua por la A acentuada.",exampleEn:"A: Is 'agua' masculine?\nB: No, it is feminine. But we say EL agua because of the stressed A.",note:"Feminine nouns starting with stressed A use 'el':\nel agua (but LAS aguas), el águila, el alma.\nThe noun is STILL feminine! Adjectives agree feminine:\nel agua fría (not frío). This is purely phonetic."},
+          {type:"mc",q:"'El agua fría' uses 'el' because:",opts:["Agua is masculine","The stressed A after la would sound awkward","All liquid words use el","It is an irregular noun"],ans:"The stressed A after la would sound awkward",hint:"La + agua would blend. El agua is clearer. But agua stays feminine."},
+          {type:"match",pairs:[{nl:"-o ending (libro)",en:"Usually masculine (el)"},{nl:"-a ending (casa)",en:"Usually feminine (la)"},{nl:"-ción ending (nación)",en:"Always feminine (la)"},{nl:"el agua, el águila",en:"Feminine but uses 'el'"}]},
+        ]},
+        {id:"es_fp_s5_l2",title:"Ser, Estar & Verb Groups",icon:"🔑",xp:15,board:true,steps:[
+          {type:"intro",title:"Two verbs for 'to be' and three verb families",desc:"The biggest challenge in Spanish: SER and ESTAR both mean 'to be' but are NOT interchangeable. Plus, all verbs belong to one of three groups.",goals:["Know SER = identity, ESTAR = state","Know the three verb groups (-ar, -er, -ir)","Understand tú vs usted"]},
+          {type:"teach",kind:"info",nl:"Ser",en:"SER: identity, origin, personality",phonetic:"sehr",example:"A: ¿De dónde eres?\nB: Soy de México. Soy estudiante.",exampleEn:"A: Where are you from?\nB: I am from Mexico. I am a student.",note:"SER for WHO you are, WHERE you are from, WHAT you are:\nSoy Juan (identity). Soy de España (origin).\nEs profesor (profession). Son las tres (time).\nEs inteligente (personality trait)."},
+          {type:"teach",kind:"info",nl:"Estar",en:"ESTAR: location, state, emotion",phonetic:"es-TAR",example:"A: ¿Dónde estás?\nB: Estoy en casa. Estoy cansado.",exampleEn:"A: Where are you?\nB: I am at home. I am tired.",note:"ESTAR for WHERE you are, HOW you feel, current STATE:\nEstoy en Madrid (location). Estoy cansado (state).\nEstá enfermo (condition). Están contentos (emotion).\nTemporary situations, not permanent identity."},
+          {type:"mc",q:"'Soy profesor' (I am a teacher) uses SER because:",opts:["Teaching is a temporary state","It describes identity/profession","It describes a location","It describes an emotion"],ans:"It describes identity/profession",hint:"SER for who/what you ARE fundamentally."},
+          {type:"mc",q:"'Estoy cansado' (I am tired) uses ESTAR because:",opts:["Being tired is a permanent trait","It describes a temporary state","It describes nationality","It tells the time"],ans:"It describes a temporary state",hint:"ESTAR for how you feel RIGHT NOW."},
+          {type:"teach",kind:"info",nl:"Tres grupos verbales",en:"Three verb groups",phonetic:"tres GROO-pos ver-BA-les",example:"A: ¿Cuántos grupos de verbos hay?\nB: Tres: -ar, -er, -ir. Los verbos en -ar son los más comunes.",exampleEn:"A: How many verb groups are there?\nB: Three: -ar, -er, -ir. The -ar verbs are the most common.",note:"-AR verbs (~80%): hablar, trabajar, estudiar.\n-ER verbs: comer, beber, aprender.\n-IR verbs: vivir, escribir, abrir.\nEach group has its own conjugation endings.\nYou will learn these in the main lessons."},
+          {type:"mc",q:"Which verb group is by far the largest in Spanish?",opts:["-ar verbs","-er verbs","-ir verbs","Irregular verbs"],ans:"-ar verbs",hint:"About 80% of all Spanish verbs end in -ar."},
+          {type:"teach",kind:"info",nl:"Tú y usted",en:"Informal and formal 'you'",phonetic:"too / oos-TED",example:"A: ¿Cómo estás? (a un amigo)\nB: ¿Cómo está usted? (a un desconocido)",exampleEn:"A: How are you? (to a friend)\nB: How are you? (to a stranger, formal)",note:"Tú = informal (friends, family, children).\nUsted = formal (strangers, elders, authority).\nWhen in doubt, use USTED. It is always safe.\nUsted uses 3rd person verb forms (same as he/she)."},
+          {type:"mc",q:"When meeting an older stranger, you should use:",opts:["Tú (informal)","Usted (formal)","Either one","Neither"],ans:"Usted (formal)",hint:"When in doubt, formal is always the safe choice."},
+          {type:"match",pairs:[{nl:"SER",en:"Identity, origin, personality"},{nl:"ESTAR",en:"Location, state, emotion"},{nl:"Tú",en:"Informal you (friends)"},{nl:"Usted",en:"Formal you (strangers)"}]},
+        ]},
+      ]},
+  ]},
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
 };
@@ -2934,6 +3206,75 @@ export const FK_GATE_QUIZ = {
       C:"Stage 4: Study the CaReFuL rule, silent letters, elision, and silent E patterns.",
       D:"Stage 5: Practice word stress (always final), syllable rhythm, and spelling-to-sound rules.",
       E:"Stage 6: Review the two-gender system, the Agreement Web, and verb groups.",
+    },
+  },
+  // ══════════════════════════════════════════════════════════════
+  // SPANISH GATE QUIZ — Test out of Foundations
+  // 5 tasks (A-E), 35 items, maps to Spanish Playthrough stages
+  // Anti-leak compliant: no answer in question stem, P8 clean
+  // ══════════════════════════════════════════════════════════════
+  es:{
+    title:"Spanish Foundations Gate Quiz",
+    desc:"Already know Spanish pronunciation and spelling rules? Pass this quiz to skip Foundations.",
+    passCriteria:{AB:90,C:85,DE:80},
+    tasks:[
+      // ── Task A: Vowel & Consonant Recognition (8 items) — maps to Stages 1-2 ──
+      {id:"gate_a",title:"Task A: Sound Recognition",desc:"Identify Spanish vowel and consonant sounds.",type:"mc",category:"AB",items:[
+        {q:"How many distinct vowel sounds does Spanish have?",opts:["5","7","12","15"],ans:"5"},
+        {q:"The vowel A in Spanish always sounds like:",opts:["AH as in father","A as in cat","AY as in day"],ans:"AH as in father"},
+        {q:"H in Spanish is:",opts:["Pronounced like English H","Always silent","Sometimes silent"],ans:"Always silent"},
+        {q:"B and V in Spanish are:",opts:["Different sounds like English","Identical in pronunciation","B is hard, V is soft"],ans:"Identical in pronunciation"},
+        {q:"Ñ sounds like:",opts:["Regular N","NY as in canyon","Silent N","NG as in sing"],ans:"NY as in canyon"},
+        {q:"J in 'jefe' sounds like:",opts:["English J in jump","Throaty H like Scottish loch","English Y in yes","Silent"],ans:"Throaty H like Scottish loch"},
+        {q:"LL in 'calle' sounds like:",opts:["L+L as in English","Y as in yes","Silent","SH as in shoe"],ans:"Y as in yes"},
+        {q:"The final E in Spanish words is:",opts:["Always silent like in English","Always pronounced","Sometimes silent","Pronounced only in formal speech"],ans:"Always pronounced"},
+      ]},
+      // ── Task B: R/RR and Diphthongs (7 items) — maps to Stage 2 ──
+      {id:"gate_b",title:"Task B: R/RR and Vowel Combinations",desc:"Distinguish R tap from RR trill and identify diphthongs.",type:"mc",category:"AB",items:[
+        {q:"Single R between vowels in 'pero' (but) is:",opts:["A rolled trill","A quick tongue tap","Same as English R"],ans:"A quick tongue tap"},
+        {q:"RR in 'perro' (dog) is:",opts:["A quick tongue tap","A rolled trill","Two separate R sounds"],ans:"A rolled trill"},
+        {q:"R at the START of 'rojo' (red) is:",opts:["A gentle tap","Always trilled like RR","Silent","Like English R"],ans:"Always trilled like RR"},
+        {q:"'Bueno' has the vowel combination UE. This is:",opts:["Two separate syllables","One syllable (diphthong)","Three sounds"],ans:"One syllable (diphthong)"},
+        {q:"Strong vowels in Spanish are:",opts:["A, E, O","I, U","A, I, U"],ans:"A, E, O"},
+        {q:"Two strong vowels next to each other form:",opts:["A diphthong (one syllable)","Separate syllables (hiatus)","A silent vowel"],ans:"Separate syllables (hiatus)"},
+        {q:"Unstressed vowels in Spanish:",opts:["Reduce to schwa like English","Keep their full, pure sound","Are sometimes dropped"],ans:"Keep their full, pure sound"},
+      ]},
+      // ── Task C: Stress & Accent Rules (8 items) — maps to Stage 3 ──
+      {id:"gate_c",title:"Task C: Stress and Accent Marks",desc:"Apply the two stress rules and understand accent marks.",type:"mc",category:"C",items:[
+        {q:"Words ending in a vowel, N, or S are stressed on:",opts:["The last syllable","The second-to-last syllable","The first syllable"],ans:"The second-to-last syllable"},
+        {q:"Words ending in a consonant other than N or S are stressed on:",opts:["The second-to-last syllable","The last syllable","The third-to-last syllable"],ans:"The last syllable"},
+        {q:"Where is the stress in 'hablan' (they speak)?",opts:["ha-BLAN (last)","HA-blan (second-to-last)","HAB-lan (first)"],ans:"HA-blan (second-to-last)"},
+        {q:"Where is the stress in 'ciudad' (city)?",opts:["CIU-dad","ciu-DAD","CI-udad"],ans:"ciu-DAD"},
+        {q:"'Café' has an accent mark because:",opts:["It ends in a vowel but stresses the last syllable","All food words get accents","It is a foreign word"],ans:"It ends in a vowel but stresses the last syllable"},
+        {q:"'Fácil' (easy) has an accent mark because:",opts:["It ends in L but stresses the second-to-last syllable","All adjectives need accents","It has more than two syllables"],ans:"It ends in L but stresses the second-to-last syllable"},
+        {q:"'Tú' (you) vs 'tu' (your): the accent distinguishes:",opts:["Pronunciation","Meaning","Both are the same"],ans:"Meaning"},
+        {q:"Question words like '¿qué?' and '¿dónde?' always have:",opts:["No accent","An accent mark","Capital letters"],ans:"An accent mark"},
+      ]},
+      // ── Task D: Spelling Patterns (6 items) — maps to Stage 4 ──
+      {id:"gate_d",title:"Task D: Spelling Patterns",desc:"Apply Spanish spelling-sound rules.",type:"mc",category:"DE",items:[
+        {q:"To spell the K sound before E in Spanish, use:",opts:["C","K","QU","CK"],ans:"QU"},
+        {q:"To spell a hard G before I in Spanish, use:",opts:["G alone","GU (U silent)","GÜ","J"],ans:"GU (U silent)"},
+        {q:"The diaeresis in 'pingüino' means:",opts:["The U is silent","Pronounce the U","The G is soft"],ans:"Pronounce the U"},
+        {q:"Spanish questions use:",opts:["Only ? at the end","¿ at the start and ? at the end","Only ¿ at the start"],ans:"¿ at the start and ? at the end"},
+        {q:"C before A, O, U produces:",opts:["S sound","K sound","CH sound"],ans:"K sound"},
+        {q:"D between vowels in 'nada' becomes:",opts:["Stronger","Softer, almost TH-like","Silent"],ans:"Softer, almost TH-like"},
+      ]},
+      // ── Task E: Grammar Awareness (6 items) — maps to Stage 5 ──
+      {id:"gate_e",title:"Task E: Grammar Awareness",desc:"Demonstrate awareness of Spanish grammatical features.",type:"mc",category:"DE",items:[
+        {q:"Spanish nouns have how many grammatical genders?",opts:["One","Two","Three"],ans:"Two"},
+        {q:"Most nouns ending in -o are:",opts:["Feminine","Masculine","Neutral"],ans:"Masculine"},
+        {q:"SER is used for:",opts:["Location and temporary states","Identity, origin, and permanent traits","Actions happening right now"],ans:"Identity, origin, and permanent traits"},
+        {q:"ESTAR is used for:",opts:["Identity and profession","Location, state, and emotion","Time and dates"],ans:"Location, state, and emotion"},
+        {q:"The largest verb group in Spanish is:",opts:["-ar verbs","-er verbs","-ir verbs"],ans:"-ar verbs"},
+        {q:"When meeting a stranger, you should use:",opts:["Tú (informal)","Usted (formal)","Vosotros"],ans:"Usted (formal)"},
+      ]},
+    ],
+    diagnosticRouting:{
+      A:"Stages 1-2: Practice the alphabet, Ñ, H (silent), B/V, J, LL, and vowel sounds.",
+      B:"Stage 2: Study R vs RR, diphthongs (strong + weak vowels), and vowel purity.",
+      C:"Stage 3: Study the two default stress rules and when accent marks appear.",
+      D:"Stage 4: Practice C/QU/Z patterns, G/GU/GÜ patterns, and inverted punctuation.",
+      E:"Stage 5: Review el/la gender, ser vs estar, verb groups, and tú vs usted.",
     },
   },
 };

@@ -404,7 +404,26 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
 - **French is PRODUCTION-READY.** A1-B2 fully built. Next: D92-style deep quality audit or C1 planning.
-### Spanish: Infrastructure only (LANG_META, VOCAB entries). No units, no foundations.
+### Spanish:
+- **Infrastructure: COMPLETE** (D107, 2026-03-16)
+  - LANG_BLUEPRINT["es"]: COMPLETE (2-gender system, ser/estar, subjunctive, inverted punctuation, verb groups)
+  - CULTURE_PACKS["es"]: COMPLETE (food, customs, places, situations, politeness, taboos)
+  - ARTICLE_SYSTEMS["es"]: COMPLETE (el=blue masculine, la=coral feminine, detection for el/la/los/las)
+  - FOUNDATIONS_BY_LANG["es"]: COMPLETE (5 sections, ~25 items: alphabet, vowels, consonants, accents, grammar preview)
+  - FK_PLAYTHROUGH["es"]: COMPLETE (~12 lessons across 5 stages)
+  - FK_GATE_QUIZ["es"]: COMPLETE (5 tasks, ~35 items)
+  - units-spanish.js: CREATED, imported in lingoverse.jsx
+- **A1 U1-U6: COMPLETE** (48 lessons, 867 steps, all 18+ per P43, validation PASS, build PASS)
+  - U1: Greetings (hola, buenos dias, tu/usted, por favor/gracias)
+  - U2: Family (ser/estar basics, possessives, descriptions)
+  - U3: Numbers, Days, Colors (numbers 0-31, days of week, colors, adjective agreement)
+  - U4: Food & Restaurants (fruits, vegetables, drinks, meals, ordering, gustar, estar+food)
+  - U5: Daily Routine (reflexive verbs, -ar conjugation, time expressions, weekend activities)
+  - U6: Home & Rooms (rooms, furniture, -er/-ir verbs, hay vs estar, prepositions, household chores)
+  - All teach cards have A:/B: dialogues. el/la article colors throughout.
+- **A1 U7-U8: NOT STARTED** (Directions/Transport, Shopping/Clothing)
+- **A2-B2 (U9-U30): NOT STARTED**
+- Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
@@ -482,7 +501,10 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D100+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. Template for future level designs.
 
-### Tier 3: Completed reference (historical, preserved for context)
+### Tier 3: Active build reference (current builds in progress)
+- **`docs/SPANISH_AGENT_PROMPT.md`** — Spanish content generation agent briefing template. Used with Rule 12 (D107) temp-file workflow. Contains format spec, pipeline rules, curriculum plan, vocabulary taught so far (U1-U6).
+
+### Tier 4: Completed reference (historical, preserved for context)
 - **`docs/FRENCH_A1_B2_HANDOFF.md`** — French build handoff, D105 COMPLETE. Preserved for lessons learned (D106 agent model escalation).
 - **`docs/FRENCH_AGENT_PROMPT.md`** — French content generation instructions used during D105 build.
 
@@ -731,6 +753,50 @@ When deploying sub-agents for content generation and curriculum building:
 ### Why Rule 11 Exists
 In March 2026, the French A1-B2 build (D105) deployed Sonnet-tier sub-agents for curriculum content generation. Multiple agents became stale, unresponsive, or failed to complete their tasks, requiring repeated retries and manual owner intervention. The same tasks completed successfully and reliably when escalated to Opus 4.6. Content generation requires sustained coherence across thousands of lines, strict pipeline rule adherence (P8, P34, P43, P48, P49), language-specific accuracy (grammar, phonetics, cultural context), and exact structural format compliance. These demands exceed what smaller models can reliably deliver. This rule prevents future sessions from repeating the same costly trial-and-error pattern.
 
+### Rule 12: Temp-File Agent Workflow for Curriculum Builds (D107)
+When deploying sub-agents to build curriculum units, agents MUST write to temporary files, NOT directly to the main units file. The main session merges validated content into the target file.
+
+1. **Agents write to temp files.** Each content agent writes its unit(s) to a dedicated temp file (e.g., `/tmp/esp-u7.js`). The agent exports a valid JavaScript array fragment containing one or more complete unit objects. The agent NEVER touches the main `units-{lang}.js` file.
+
+2. **Temp file format.** The agent writes ONLY the unit object(s) as a JS array, wrapped in `module.exports = [...]`:
+   ```javascript
+   // /tmp/esp-u7.js
+   module.exports = [
+   {n:7,lang:"es",track:"v1",title:"...",sub:"...",icon:"...",level:"A1.4",color:"#7B5EE8",lessons:[
+     {id:"esp7l1",title:"...",icon:"...",xp:15,board:true,steps:[...]},
+     // ... 8 lessons, 18+ steps each
+   ]}
+   ];
+   ```
+
+3. **Agent self-validates before returning.** Each content agent runs the standard validation checks on its own temp file: step counts (18+), board:true, mc.ans, fb.a, P48, teach.nl/en. The agent reports PASS/FAIL with details.
+
+4. **Main session validates and merges.** The main session:
+   a. Reads the temp file and validates independently (never trust agent self-report alone)
+   b. Inserts the unit content into the main `units-{lang}.js` file before the closing `];`
+   c. Runs full-file validation (all units, not just the new one)
+   d. Runs `npx vite build` to verify compilation
+   e. Commits and pushes
+
+5. **Two agents max in parallel.** Deploy at most 2 content agents simultaneously (e.g., U7 agent + U8 agent). Each writes to its own temp file. No merge conflicts possible since they don't touch the main file.
+
+6. **Validation agent runs after merge.** After the main session merges both units, a validation agent (Sonnet-tier is fine) scans the full file for P8/P48/P49/P22c/density issues.
+
+7. **NO worktree isolation for curriculum builds.** Worktrees branch from the latest commit, which may not have the current session's uncommitted work. This caused repeated failures in the Spanish D107 build where worktree agents couldn't find `units-spanish.js`. Always use temp files instead.
+
+8. **Agent briefing template.** Every content agent MUST receive:
+   - The exact unit number(s) to build
+   - The curriculum plan for those units (from CLAUDE.md)
+   - The complete format spec (unit structure, lesson structure, step types)
+   - All pipeline rules (P8, P22c, P34, P43, P44, P48, P49)
+   - Language-specific rules (articles, phonetics, grammar notes)
+   - The temp file path to write to
+   - A sample unit from the existing file for format reference (first 50 lines of the current units file)
+   - The cumulative vocabulary context (what's been taught in prior units)
+
+### Why Rule 12 Exists
+In March 2026, the Spanish A1-B2 build (D107) attempted three different agent deployment strategies for curriculum content: (1) worktree-isolated agents that failed because worktrees branched from commits that predated the `units-spanish.js` file, (2) direct-write agents that went stale after reading thousands of lines but never writing, and (3) main-session manual writing that was too slow. The temp-file workflow solves all three problems: agents write to isolated temp files (no git conflicts, no worktree issues), the main session controls all merges (no stale agent writes), and agents can work in parallel on different temp files (fast). This pattern was identified as the correct approach during D107 and is now mandatory for all future curriculum builds.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -828,11 +894,11 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | LANG_META["es"] | `src/data/metadata.js` | ~301 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"es-ES", specialRules:["ñ","inverted_punctuation","gendered_nouns","ser_estar","subjunctive"] |
 | LANG_BLUEPRINT["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation |
 | CULTURE_PACKS["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built |
-| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | N/A | **MISSING** — must be built (el=masculine/blue, la=feminine/coral) |
+| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | ~2443 | COMPLETE: el (masculine/blue), la (feminine/coral), detect handles el/la/los/las |
 | FOUNDATIONS_BY_LANG["es"] | `src/data/foundations.js` | ~1456 | PARTIAL: 1 section (alphabet grid with 27 letters + Ñ). Needs expansion to 4-6 sections. |
 | FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | ~2583 | EMPTY SHELL: `{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]}` |
 | FK_GATE_QUIZ["es"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
-| FK_SCHEMA_MAP | `src/data/metadata.js` | N/A | Needs "es":"latin" entry |
+| FK_SCHEMA_MAP | `src/data/metadata.js` | ~235 | COMPLETE: es:"latin" already mapped |
 | VOCAB pilot | `src/data/vocabulary.js` | N/A | NO Spanish lexemes. Expand as units are built. |
 | Import/spread | `src/lingoverse.jsx` | N/A | NOT SET UP — needs new import + UNITS spread update |
 
@@ -841,7 +907,6 @@ French is PRODUCTION-READY. Built from scratch in D105:
 |-----------|------|--------|
 | LANG_BLUEPRINT["es"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (el/la), ser vs estar, subjunctive mood, inverted punctuation (¿¡), Ñ, verb conjugation (3 groups: -ar/-er/-ir + extensive irregulars including stem-changing), formal/informal (tú/usted/vosotros/ustedes), regional variation awareness (Spain vs Latin America). Follow fr/de/nl blueprint format. |
 | CULTURE_PACKS["es"] | `src/data/metadata.js` | Build cultural data: food (paella, tapas, tortilla, churros, gazpacho), customs (siesta, sobremesa, two surnames, late dinners), places (Madrid, Barcelona, Sevilla, México), situations, politeness notes, taboos. |
-| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | Build: el (masculine, blue), la (feminine, coral). Detect function must handle el/la/los/las and the masculine exception (el agua, el águila). |
 | FOUNDATIONS_BY_LANG["es"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + Ñ, (2) Vowels (5 pure vowels, diphthongs), (3) Consonants (RR trill, J/G, C/Z, LL, H silent), (4) Accent marks + stress rules, (5) Verb group preview (-ar/-er/-ir), (6) Grammar awareness (gender, ser/estar). Target: ~25 items. |
 | FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | Build interactive playthrough: ~12-15 lessons. Spanish pronunciation is very regular (nearly phonetic spelling), so foundations can be shorter than French/German. Focus: Ñ, RR trill, J, accent marks, stress rules, inverted punctuation. |
 | FK_GATE_QUIZ["es"] | `src/data/foundations.js` | Build pass/fail gate quiz. 5 tasks, ~35 items. |
@@ -901,7 +966,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 - U30: DELE B2/SIELE prep, comprehensive review, C1 preview
 
 #### Spanish-Specific Teaching Priorities:
-1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). Build ARTICLE_SYSTEMS["es"] in vocabulary.js.
+1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). ARTICLE_SYSTEMS["es"] already built in vocabulary.js.
 2. **Ser vs estar is THE fundamental challenge.** Both mean "to be" but are NOT interchangeable. Introduce both in A1 U2, dedicate examples throughout. This confusion persists into C1.
 3. **Verb conjugation is massive.** Spanish has 3 groups (-ar, -er, -ir) plus extensive stem-changing verbs (e→ie, o→ue, e→i) and irregulars. Introduce -ar in A1, -er/-ir in A1-A2, stem-changers progressively.
 4. **Spanish pronunciation is very regular.** Unlike French, spelling is nearly phonetic. Foundations can be shorter. Focus on: RR trill, J/G, Ñ, accent marks, stress rules.
@@ -913,30 +978,26 @@ French is PRODUCTION-READY. Built from scratch in D105:
 10. **Gustar-type verbs early.** The "backwards" construction (me gusta, te gusta) is alien to English speakers. Introduce in A1 U4 with food.
 
 #### Build Workflow (MANDATORY):
-Follow the French D105 playbook with D106 agent model requirements:
+Follow the D107 temp-file agent workflow with D106 agent model requirements:
 
 1. **Use Opus 4.6 agents for ALL content generation** (Rule 11, D106). Sonnet for validation only.
-2. **Build LANG_BLUEPRINT first** — Spanish has no blueprint yet.
-3. **Build CULTURE_PACKS["es"]** — Spanish has no culture pack yet.
-4. **Build ARTICLE_SYSTEMS["es"]** — Spanish has no article system yet.
-5. **Expand FOUNDATIONS_BY_LANG["es"]** — Currently 1 section. Expand to 5-6 sections/~25 items.
-6. **Build FK_PLAYTHROUGH["es"]** — Fill the empty stages array. ~12-15 lessons.
-7. **Build FK_GATE_QUIZ["es"]** — 5 tasks, ~35 items.
-8. **Create `src/data/units-spanish.js`** as a new file immediately. Do NOT build in `units-other.js`.
-9. **Update imports in `src/lingoverse.jsx`**: Add `import spanishUnits from './data/units-spanish.js';` and add `...spanishUnits` to UNITS spread.
-10. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead.
-11. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
-12. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
-13. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
-14. **Rule 10 (D104): Post-build structural validation.** Run validation script after ALL units built.
-15. **Build with dialogues from day one** (A:/B: format on teach cards).
+2. ~~**Phase 0 infrastructure**~~ — ALL COMPLETE. LANG_BLUEPRINT, CULTURE_PACKS, ARTICLE_SYSTEMS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ, units-spanish.js file, lingoverse.jsx imports. DO NOT rebuild.
+3. ~~**A1 U1-U6**~~ — COMPLETE. 48 lessons, 867 steps, all validated.
+4. **Resume at A1 U7-U8.** Then A2 (U9-U16), B1 (U17-U24), B2 (U25-U30).
+5. **Rule 12 (D107): Temp-file agent workflow.** Agents write units to `/tmp/esp-uN.js`. Main session validates and merges into `units-spanish.js`. NO worktrees. NO direct agent writes to main file. See Rule 12 in Agent Deployment Standards.
+6. **Two agents max in parallel.** Deploy U(N) agent + U(N+1) agent simultaneously. Each writes to own temp file. Main session merges both, validates, commits.
+7. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
+8. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
+9. **Rule 10 (D104): Post-build structural validation.** Run validation script after ALL units built.
+10. **Build with dialogues from day one** (A:/B: format on teach cards).
+11. **Commit and push after each pair of units.**
 16. **Commit and push after each unit is complete.**
 
 #### Session Execution Plan (for the next agent):
 1. Build LANG_BLUEPRINT["es"] in `src/data/metadata.js`
 2. Build CULTURE_PACKS["es"] in `src/data/metadata.js`
-3. Build ARTICLE_SYSTEMS["es"] in `src/data/vocabulary.js`
-4. Add FK_SCHEMA_MAP entry: es:"latin" in `src/data/metadata.js`
+3. ~~Build ARTICLE_SYSTEMS["es"]~~ — ALREADY EXISTS (vocabulary.js:2443)
+4. ~~Add FK_SCHEMA_MAP entry~~ — ALREADY EXISTS (metadata.js:235, es:"latin")
 5. Expand FOUNDATIONS_BY_LANG["es"] in `src/data/foundations.js` (1 section → 5-6 sections)
 6. Build FK_PLAYTHROUGH["es"] stages in `src/data/foundations.js`
 7. Build FK_GATE_QUIZ["es"] in `src/data/foundations.js`
