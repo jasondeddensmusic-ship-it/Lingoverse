@@ -1,4 +1,4 @@
-// src/data/units-german.js — German (lang:"de") curriculum units
+// src/data/units-german.js - German (lang:"de") curriculum units
 // A1-B2 complete curriculum, Goethe-Institut / CEFR aligned
 // Article colors: der=blue (#4A8FE7), die=coral (#E8475E), das=purple (#7B5EE8)
 
@@ -658,7 +658,7 @@ export default [
 ]},
 
 // ══════════════════════════════════════════════════════════════════════════
-// UNIT 3: Meine Familie — Family & Possessives
+// UNIT 3: Meine Familie - Family & Possessives
 // ══════════════════════════════════════════════════════════════════════════
 {n:3,lang:"de",track:"v1",title:"Meine Familie",sub:"Family & Possessives",icon:"👨‍👩‍👧‍👦",level:"A1.1",color:"#7B5EE8",lessons:[
 
@@ -998,7 +998,7 @@ export default [
 ]},
 
 // ══════════════════════════════════════════════════════════════════════════
-// UNIT 4: Essen & Trinken — Food, Drink & Ordering
+// UNIT 4: Essen & Trinken - Food, Drink & Ordering
 // ══════════════════════════════════════════════════════════════════════════
 {n:4,lang:"de",track:"v1",title:"Essen & Trinken",sub:"Food, Drink & Ordering",icon:"🍽️",level:"A1.1",color:"#7B5EE8",lessons:[
 
@@ -1323,7 +1323,7 @@ export default [
 ]},
 
 // ══════════════════════════════════════════════════════════════════════════
-// UNIT 5: Mein Tag — Daily Routine & Time
+// UNIT 5: Mein Tag - Daily Routine & Time
 // ══════════════════════════════════════════════════════════════════════════
 {n:5,lang:"de",track:"v1",title:"Mein Tag",sub:"Daily Routine & Time",icon:"⏰",level:"A1.1",color:"#7B5EE8",lessons:[
 
@@ -1844,7 +1844,7 @@ export default [
 
 
 // ══════════════════════════════════════════════════════════════════════════
-// UNIT 6: Meine Wohnung — Home, Rooms, Furniture, es gibt + Accusative
+// UNIT 6: Meine Wohnung - Home, Rooms, Furniture, es gibt + Accusative
 // ══════════════════════════════════════════════════════════════════════════
 {n:6,lang:"de",track:"v1",title:"Meine Wohnung",sub:"Home, Rooms & es gibt",icon:"🏠",level:"A1.2",color:"#7B5EE8",lessons:[
 
@@ -2169,7 +2169,7 @@ export default [
 ,
 
 // ════════════════════════════════════════════════════════════════════════
-// UNIT 10: Ich bin gefahren — Perfekt with sein & Travel
+// UNIT 10: Ich bin gefahren - Perfekt with sein & Travel
 // ════════════════════════════════════════════════════════════════════════
 {n:10,lang:"de",track:"v1",title:"Ich bin gefahren",sub:"Past Tense (Perfekt with sein) & Travel",icon:"✈️",level:"A2.1",color:"#7B5EE8",lessons:[
 
@@ -2847,7 +2847,7 @@ export default [
 
 
 // ══════════════════════════════════════════════════════════════
-// UNIT 7: Unterwegs — Directions, Transport & Modal Verbs A1.2
+// UNIT 7: Unterwegs - Directions, Transport & Modal Verbs A1.2
 // ══════════════════════════════════════════════════════════════
 {n:7,lang:"de",track:"v1",title:"Unterwegs",sub:"Directions, Transport & Modal Verbs",icon:"🚌",level:"A1.2",color:"#7B5EE8",lessons:[
 
@@ -2861,7 +2861,7 @@ export default [
   {type:"teach",kind:"word",nl:"das Fahrrad",en:"the bicycle",phonetic:"dahs FAR-raht",cognate:{words:[{lang:"English",word:"farrad (archaic fare-wheel)"},{lang:"Dutch",word:"fiets"}],family:"germanic"},example:"A: Ich nehme heute das Fahrrad.\nB: Gute Idee! Das Wetter ist schön.\nA: Ja, und es ist schneller als der Bus.",exampleEn:"A: I am taking the bicycle today.\nB: Good idea! The weather is nice.\nA: Yes, and it is faster than the bus.",note:"Neuter (das). Fahr = travel + Rad = wheel. Germany has excellent cycling infrastructure."},
   {type:"tip",title:"Mit + Vehicle = How You Travel",text:"To say how you travel, use:\nMit + dem/der + vehicle\n\nIch fahre mit dem Bus. (I travel by bus.)\nIch fahre mit dem Auto. (I travel by car.)\nIch fahre mit der U-Bahn. (I travel by U-Bahn.)\nIch fahre mit dem Fahrrad. (I ride the bike.)\n\nException: zu Fuß (on foot). No article, no mit.",deepDive:{title:"Why dative after mit?",text:"Mit is a dative preposition. The article that follows must be in dative form:\nder Bus (nominative) becomes dem Bus (dative).\ndie U-Bahn (nominative) becomes der U-Bahn (dative).\ndas Auto (nominative) becomes dem Auto (dative).\nYou will study dative fully in A2. For now, just learn the mit-phrases as fixed chunks."}},
   {type:"teach",kind:"phrase",nl:"zu Fuß",en:"on foot",phonetic:"tsoo FOOS",example:"A: Wie kommst du zur Schule?\nB: Ich gehe zu Fuß. Es sind nur fünf Minuten.\nA: Das ist praktisch!",exampleEn:"A: How do you get to school?\nB: I go on foot. It is only five minutes.\nA: That is practical!",note:"Fixed phrase. No article. Fuß = foot. zu Fuß gehen = to walk."},
-  {type:"verb_table",title:"fahren (to travel/drive) — present tense",label:"fahren",groups:[{label:"singular",rows:[["ich","fahre"],["du","fährst"],["er/sie/es","fährt"]]},{label:"plural",rows:[["wir","fahren"],["ihr","fahrt"],["Sie/sie","fahren"]]}],note:"fahren has a vowel change: a to ä in du/er forms. Common with all transport."},
+  {type:"verb_table",title:"fahren (to travel/drive)  - present tense",label:"fahren",groups:[{label:"singular",rows:[["ich","fahre"],["du","fährst"],["er/sie/es","fährt"]]},{label:"plural",rows:[["wir","fahren"],["ihr","fahrt"],["Sie/sie","fahren"]]}],note:"fahren has a vowel change: a to ä in du/er forms. Common with all transport."},
   {type:"mc",q:"'Die U-Bahn' means:",opts:["the tram","the bus","the underground/subway","the bicycle"],ans:"the underground/subway",hint:"U stands for Untergrund = underground."},
   {type:"mc",q:"'Das Fahrrad' means:",opts:["the car","the bicycle","the tram","the bus"],ans:"the bicycle",hint:"Fahr = travel. Rad = wheel."},
   {type:"fb",s:"Ich fahre mit ___ Bus in die Stadt.",a:"dem",opts:["dem","der","das","den"],hint:"Mit always takes dative. Der Bus becomes ___ Bus in dative."},
@@ -2903,7 +2903,7 @@ export default [
 {id:"deu7l3",title:"können",icon:"💪",xp:15,board:true,steps:[
   {type:"intro",title:"können",desc:"Can you speak German? Can you help me? Können is one of the most useful words in the language. It unlocks ability, possibility, and polite requests.",goals:["Full conjugation of können","Verb-to-end rule in modal sentences","Use können in real situations"]},
   {type:"tip",title:"Modal Verbs: The Big Pattern",text:"German has 6 modal verbs. Können is the first. They all share one critical rule:\n\nThe MAIN VERB goes to the END of the clause.\n\nIch kann Deutsch sprechen. (I can speak German.)\nKannst du mir helfen? (Can you help me?)\n\nModal verb = position 2. Main verb = LAST. Never forget this.",deepDive:{title:"Why does the verb go to the end?",text:"German is a verb-second (V2) language in main clauses. When a modal verb takes position 2, it pushes the main verb to the final position as an infinitive.\n\nSubject + Modal (pos.2) + ... + Infinitive (END)\nIch (subject) + kann (modal) + gut (adverb) + schwimmen (infinitive).\n\nThis applies to ALL modal verbs. Once you learn this pattern with können, müssen, wollen, dürfen, sollen, and möchten will all work the same way."}},
-  {type:"verb_table",title:"können (can / to be able to) — present tense",label:"können",groups:[{label:"singular",rows:[["ich","kann"],["du","kannst"],["er/sie/es","kann"]]},{label:"plural",rows:[["wir","können"],["ihr","könnt"],["Sie/sie","können"]]}],note:"Ich and er/sie/es share the same form 'kann'. No -e or -t ending in 1st/3rd singular. This is typical of all modal verbs."},
+  {type:"verb_table",title:"können (can / to be able to)  - present tense",label:"können",groups:[{label:"singular",rows:[["ich","kann"],["du","kannst"],["er/sie/es","kann"]]},{label:"plural",rows:[["wir","können"],["ihr","könnt"],["Sie/sie","können"]]}],note:"Ich and er/sie/es share the same form 'kann'. No -e or -t ending in 1st/3rd singular. This is typical of all modal verbs."},
   {type:"teach",kind:"phrase",nl:"Ich kann Deutsch sprechen.",en:"I can speak German.",phonetic:"Ich kan DOYch SHPREH-chen",example:"A: Sprechen Sie Englisch?\nB: Nein, aber ich kann ein bisschen Deutsch sprechen.\nA: Super! Wir sprechen dann Deutsch.",exampleEn:"A: Do you speak English?\nB: No, but I can speak a little German.\nA: Great! We will speak German then.",note:"Modal structure: kann (pos.2) + sprechen (end). sprechen is the infinitive at the END."},
   {type:"teach",kind:"phrase",nl:"Kannst du mir helfen?",en:"Can you help me?",phonetic:"KAN-st doo meer HEL-fen",example:"A: Kannst du mir helfen?\nB: Natürlich! Was brauchst du?\nA: Ich finde den Bahnhof nicht.",exampleEn:"A: Can you help me?\nB: Of course! What do you need?\nA: I cannot find the train station.",note:"Question form: modal moves to position 1. Main verb helfen stays at end. Mir = me (dative)."},
   {type:"teach",kind:"phrase",nl:"Ich kann nicht kommen.",en:"I cannot come.",phonetic:"Ich kan nicht KOM-en",example:"A: Kommst du heute Abend?\nB: Leider kann ich nicht kommen.\nA: Schade! Warum?\nB: Ich bin krank.",exampleEn:"A: Are you coming tonight?\nB: Unfortunately I cannot come.\nA: What a pity! Why?\nB: I am ill.",note:"Negation: nicht comes BEFORE the infinitive at the end. Leider = unfortunately."},
@@ -2925,8 +2925,8 @@ export default [
 // ═══ L4: müssen & wollen ═══
 {id:"deu7l4",title:"müssen & wollen",icon:"🎯",xp:15,board:true,steps:[
   {type:"intro",title:"müssen & wollen",desc:"Must and want. Two opposites, both essential. With müssen and wollen you can express obligation and desire. Same sentence structure as können.",goals:["Full conjugation of müssen and wollen","Distinguish must vs want","Build sentences with verb-at-end rule"]},
-  {type:"verb_table",title:"müssen (must / to have to) — present tense",label:"müssen",groups:[{label:"singular",rows:[["ich","muss"],["du","musst"],["er/sie/es","muss"]]},{label:"plural",rows:[["wir","müssen"],["ihr","müsst"],["Sie/sie","müssen"]]}],note:"Like können: ich/er share the same stem form 'muss'. No -e/-t in 1st/3rd singular. Umlaut in infinitive and plural."},
-  {type:"verb_table",title:"wollen (to want) — present tense",label:"wollen",groups:[{label:"singular",rows:[["ich","will"],["du","willst"],["er/sie/es","will"]]},{label:"plural",rows:[["wir","wollen"],["ihr","wollt"],["Sie/sie","wollen"]]}],note:"Wollen is irregular. Ich will looks like English 'will' but means WANT, not future! Wir wollen = we want."},
+  {type:"verb_table",title:"müssen (must / to have to)  - present tense",label:"müssen",groups:[{label:"singular",rows:[["ich","muss"],["du","musst"],["er/sie/es","muss"]]},{label:"plural",rows:[["wir","müssen"],["ihr","müsst"],["Sie/sie","müssen"]]}],note:"Like können: ich/er share the same stem form 'muss'. No -e/-t in 1st/3rd singular. Umlaut in infinitive and plural."},
+  {type:"verb_table",title:"wollen (to want)  - present tense",label:"wollen",groups:[{label:"singular",rows:[["ich","will"],["du","willst"],["er/sie/es","will"]]},{label:"plural",rows:[["wir","wollen"],["ihr","wollt"],["Sie/sie","wollen"]]}],note:"Wollen is irregular. Ich will looks like English 'will' but means WANT, not future! Wir wollen = we want."},
   {type:"tip",title:"müssen vs wollen: The Key Contrast",text:"müssen = must / have to (obligation or necessity)\nwollen = want to (desire or intention)\n\nIch muss arbeiten. (I must work. No choice.)\nIch will arbeiten. (I want to work. My desire.)\n\nBoth follow the SAME rule: main verb goes to the END.\nIch muss jetzt gehen. (I must go now.)\nIch will jetzt gehen. (I want to go now.)",deepDive:{title:"Warning: wollen vs werden (future)",text:"Do NOT confuse:\nIch will = I want (from wollen, present desire)\nIch werde = I will (future tense marker, from werden)\n\nIch will Arzt werden. = I want to become a doctor.\nIch werde Arzt werden. = I will become a doctor.\n\nYou will learn werden in Unit 16. For now: ich will = WANT, not future."}},
   {type:"teach",kind:"phrase",nl:"Ich muss jetzt gehen.",en:"I must go now.",phonetic:"Ich moos yetst GAY-en",example:"A: Bleibst du noch?\nB: Leider nicht. Ich muss jetzt gehen.\nA: Schade! Bis morgen.\nB: Bis morgen!",exampleEn:"A: Are you staying longer?\nB: Unfortunately not. I must go now.\nA: Pity! See you tomorrow.\nB: See you tomorrow!",note:"Muss (position 2) + gehen (end). Jetzt = now. Leider = unfortunately."},
   {type:"teach",kind:"phrase",nl:"Ich will Deutsch lernen.",en:"I want to learn German.",phonetic:"Ich vil DOYch LER-nen",example:"A: Warum lernst du Deutsch?\nB: Ich will in Deutschland arbeiten.\nA: Das ist ein guter Grund!\nB: Ja, und ich finde Deutsch toll.",exampleEn:"A: Why are you learning German?\nB: I want to work in Germany.\nA: That is a good reason!\nB: Yes, and I find German great.",note:"Will (position 2) + lernen (end). Common with plans and goals."},
@@ -2971,8 +2971,8 @@ export default [
 // ═══ L6: dürfen & sollen ═══
 {id:"deu7l6",title:"dürfen & sollen",icon:"📋",xp:15,board:true,steps:[
   {type:"intro",title:"dürfen & sollen",desc:"May you do this? Should you do that? dürfen and sollen complete the core modal verb set. They handle permission and obligation from an outside source.",goals:["Full conjugation of dürfen and sollen","Distinguish may vs should","Use in rules, permissions, and instructions"]},
-  {type:"verb_table",title:"dürfen (may / to be allowed to) — present tense",label:"dürfen",groups:[{label:"singular",rows:[["ich","darf"],["du","darfst"],["er/sie/es","darf"]]},{label:"plural",rows:[["wir","dürfen"],["ihr","dürft"],["Sie/sie","dürfen"]]}],note:"Ich/er share 'darf'. Same pattern as können (kann) and müssen (muss). Umlaut in infinitive and plural forms."},
-  {type:"verb_table",title:"sollen (should / to be supposed to) — present tense",label:"sollen",groups:[{label:"singular",rows:[["ich","soll"],["du","sollst"],["er/sie/es","soll"]]},{label:"plural",rows:[["wir","sollen"],["ihr","sollt"],["Sie/sie","sollen"]]}],note:"Sollen has NO umlaut and NO vowel change. Very regular for a modal verb. Soll = someone else's expectation."},
+  {type:"verb_table",title:"dürfen (may / to be allowed to)  - present tense",label:"dürfen",groups:[{label:"singular",rows:[["ich","darf"],["du","darfst"],["er/sie/es","darf"]]},{label:"plural",rows:[["wir","dürfen"],["ihr","dürft"],["Sie/sie","dürfen"]]}],note:"Ich/er share 'darf'. Same pattern as können (kann) and müssen (muss). Umlaut in infinitive and plural forms."},
+  {type:"verb_table",title:"sollen (should / to be supposed to)  - present tense",label:"sollen",groups:[{label:"singular",rows:[["ich","soll"],["du","sollst"],["er/sie/es","soll"]]},{label:"plural",rows:[["wir","sollen"],["ihr","sollt"],["Sie/sie","sollen"]]}],note:"Sollen has NO umlaut and NO vowel change. Very regular for a modal verb. Soll = someone else's expectation."},
   {type:"tip",title:"dürfen vs sollen: Who Sets the Rule?",text:"dürfen = permission (allowed or not allowed)\nSie dürfen hier parken. (You may park here.)\nSie dürfen nicht rauchen. (You may not smoke.)\n\nsollen = expectation from SOMEONE ELSE\nDu sollst jetzt schlafen. (You should sleep now. Mom said so.)\nIch soll um 9 Uhr da sein. (I am supposed to be there at 9. Someone told me.)\n\nBoth follow the verb-at-end rule:\nDu darfst hier nicht parken. (You may not park here.)\nEr soll morgen kommen. (He is supposed to come tomorrow.)",deepDive:{title:"dürfen nicht = must not (strong prohibition)",text:"Be careful: dürfen nicht is much stronger than müssen nicht.\n\ndürfen nicht = must not / not allowed to (prohibition)\nmüssen nicht = do not have to (no obligation)\n\nSie dürfen hier nicht rauchen. (You must not smoke here.)\nSie müssen hier nicht parken. (You do not have to park here.)\n\nThis distinction catches many learners off guard."}},
   {type:"teach",kind:"phrase",nl:"Darf ich hier sitzen?",en:"May I sit here?",phonetic:"darf ich HEER ZIT-sen",example:"A: Darf ich hier sitzen?\nB: Ja, natürlich! Der Platz ist frei.\nA: Danke schön!\nB: Bitte sehr.",exampleEn:"A: May I sit here?\nB: Yes, of course! The seat is free.\nA: Thank you very much!\nB: You are welcome.",note:"Darf ich = may I (1st person, polite request). Very common phrase."},
   {type:"teach",kind:"phrase",nl:"Hier dürfen Sie nicht parken.",en:"You may not park here.",phonetic:"HEER DUR-fen zee nicht PAR-ken",example:"A: Kann ich hier parken?\nB: Nein, hier dürfen Sie nicht parken.\nA: Wo kann ich dann parken?\nB: Dort hinten ist ein Parkplatz.",exampleEn:"A: Can I park here?\nB: No, you may not park here.\nA: Where can I park then?\nB: There is a car park in the back.",note:"Dürfen + nicht = prohibition. Sie = formal you. parken = to park."},
@@ -2988,7 +2988,7 @@ export default [
   {type:"drag_fill",s:"Er {1} nicht hier rauchen, aber er {2} draußen rauchen.",blanks:{"1":"darf","2":"darf"},pool:["darf","soll","muss","kann","dürfen","sollst"],hint:"He is not allowed to smoke inside, but he is allowed outside."},
   {type:"mc",q:"Your boss says you should come at 9. You report this with:",opts:["Ich muss um 9 kommen.","Ich will um 9 kommen.","Ich soll um 9 kommen.","Ich darf um 9 kommen."],ans:"Ich soll um 9 kommen.",hint:"Someone else's expectation = sollen. Not your desire (wollen) or necessity (müssen)."},
   {type:"mc",q:"Which sentence correctly says 'Children may not go there'?",opts:["Kinder müssen nicht dahin gehen.","Kinder dürfen nicht dahin gehen.","Kinder sollen nicht dahin gehen.","Kinder wollen nicht dahin gehen."],ans:"Kinder dürfen nicht dahin gehen.",hint:"Prohibition = dürfen nicht. Kinder = children."},
-  {type:"mc",q:"'Ihr sollt jetzt leise sein.' — who is most likely speaking?",opts:["A friend making a request","A person asking a favour","Someone in authority giving an instruction","The speakers themselves deciding"],ans:"Someone in authority giving an instruction",hint:"Sollen = instruction from an external source, not self-generated desire or ability."},
+  {type:"mc",q:"'Ihr sollt jetzt leise sein.'  - who is most likely speaking?",opts:["A friend making a request","A person asking a favour","Someone in authority giving an instruction","The speakers themselves deciding"],ans:"Someone in authority giving an instruction",hint:"Sollen = instruction from an external source, not self-generated desire or ability."},
 ]},
 
 // ═══ L7: Die Stadt ═══
@@ -3004,7 +3004,7 @@ export default [
   {type:"teach",kind:"word",nl:"die Polizei",en:"the police / police station",phonetic:"dee poh-lee-TSAI",example:"A: Mein Fahrrad ist weg!\nB: Du musst zur Polizei gehen.\nA: Wo ist die Polizei?\nB: Gehen Sie geradeaus, dann links.",exampleEn:"A: My bicycle is gone!\nB: You must go to the police.\nA: Where is the police station?\nB: Go straight ahead, then left.",note:"Feminine (die). Plural is also die Polizei. Zur Polizei gehen = to go to the police."},
   {type:"mc",q:"'Die Apotheke' is:",opts:["the hospital","the school","the pharmacy","the post office"],ans:"the pharmacy",hint:"In Germany, medications are only available there."},
   {type:"mc",q:"'Das Krankenhaus' means:",opts:["the school","the hospital","the bank","the town hall"],ans:"the hospital",hint:"Krank = sick. Haus = house."},
-  {type:"fb",s:"Ich muss zur ___ — ich brauche meine Medikamente.",a:"Apotheke",opts:["Apotheke","Post","Schule","Bank"],hint:"Where do you get medicine in Germany?"},
+  {type:"fb",s:"Ich muss zur ___  - ich brauche meine Medikamente.",a:"Apotheke",opts:["Apotheke","Post","Schule","Bank"],hint:"Where do you get medicine in Germany?"},
   {type:"match",pairs:[{nl:"die Post",en:"the post office"},{nl:"die Bank",en:"the bank"},{nl:"das Rathaus",en:"the town hall"},{nl:"die Polizei",en:"the police"}]},
   {type:"mc",q:"'Ich muss in den Supermarkt.' Which article case is 'den'?",opts:["Nominative masculine","Accusative masculine","Dative masculine","Genitive masculine"],ans:"Accusative masculine",hint:"Into a location = accusative. Der Supermarkt becomes in den Supermarkt."},
   {type:"fb",s:"Wo ist das ___? Ich muss ein Formular einreichen.",a:"Rathaus",opts:["Rathaus","Krankenhaus","Supermarkt","Schule"],hint:"Where do you go for official city documents and administration?"},
@@ -3226,12 +3226,12 @@ export default [
   {type:"mc",q:"Which modal verb expresses must / obligation?",opts:["können","wollen","müssen","dürfen"],ans:"müssen",hint:"Müssen = must / to have to. Covered in Unit 7."},
   {type:"match",pairs:[{nl:"Guten Morgen",en:"Good morning"},{nl:"Auf Wiedersehen",en:"Goodbye (formal)"},{nl:"Wie geht es Ihnen?",en:"How are you? (formal)"},{nl:"Bitte",en:"Please / You're welcome"}]},
   {type:"fb",s:"Können Sie mir helfen? Ich suche ___ Bahnhof.",a:"den",opts:["den","der","das","die"],hint:"Bahnhof is masculine. Masculine accusative definite article = den."},
-  {type:"mc",q:"What case do you encounter first in A2, building on A1 accusative?",opts:["Genitive case","Konjunktiv I","Dative case","Partizip II"],ans:"Dative case",hint:"After nominative and accusative, the next German case is dative. You will meet mir, dir, ihm, ihr in A2."},
+  {type:"mc",q:"After nominative and accusative, which case do you learn next in German?",opts:["Genitive case","Konjunktiv I","Dative case","Partizip II"],ans:"Dative case",hint:"After nominative and accusative, the next German case is dative. You will meet mir, dir, ihm, ihr soon."},
 ]},
 
 ]},
 // ══════════════════════════════════════════════════════════════════════════
-// UNIT 11 — A2.1 — Dative Case
+// UNIT 11 - A2.1 - Dative Case
 // ══════════════════════════════════════════════════════════════════════════
 
 {n:11,lang:"de",track:"v1",title:"Wem gehört das?",sub:"Dative Case & Prepositions",icon:"🎁",level:"A2.1",color:"#7B5EE8",lessons:[
@@ -6059,7 +6059,7 @@ export default [
     {type:"fb",s:"___ Kuchen schmeckt am besten.",a:"Omas",opts:["Omas","Oma's","Der Omas","Des Omas"],hint:"Grandma's cake tastes best. Oma + s, no apostrophe."},
   ]},
 
-// ═══ L3: Genitivpräpositionen I — wegen, trotz, während ═══
+// ═══ L3: Genitivpräpositionen I - wegen, trotz, während ═══
   {id:"deu20l3",title:"Wegen des Wetters",icon:"🌧️",xp:25,board:true,steps:[
     {type:"intro",title:"Wegen des Wetters",desc:"Certain prepositions demand the genitive case. The most common are wegen (because of), trotz (despite), and während (during). These are essential for B1 writing and formal speech.",goals:["wegen + genitive (because of)","trotz + genitive (despite)","während + genitive (during)","Combine with masculine, feminine, neuter, plural"]},
 
@@ -6085,7 +6085,7 @@ export default [
     {type:"drag_fill",s:"{1} {2} Erkältung geht er zur Arbeit.",blanks:{"1":"Trotz","2":"der"},pool:["Trotz","der","Wegen","des"],hint:"Despite the cold (illness) he goes to work."},
   ]},
 
-// ═══ L4: Genitivpräpositionen II — statt, innerhalb, außerhalb ═══
+// ═══ L4: Genitivpräpositionen II - statt, innerhalb, außerhalb ═══
   {id:"deu20l4",title:"Statt des Autos",icon:"🔄",xp:25,board:true,steps:[
     {type:"intro",title:"Statt des Autos",desc:"Three more genitive prepositions: statt/anstatt (instead of), innerhalb (within/inside of), and außerhalb (outside of). These are common in formal writing and official documents.",goals:["statt/anstatt + genitive (instead of)","innerhalb + genitive (within)","außerhalb + genitive (outside of)","Combine all six genitive prepositions"]},
 
@@ -6111,7 +6111,7 @@ export default [
     {type:"drag_fill",s:"{1} {2} Regens nehmen wir {3} des Autos das Fahrrad.",blanks:{"1":"Trotz","2":"des","3":"statt"},pool:["Trotz","des","statt","wegen"],hint:"Despite the rain we take the bike instead of the car."},
   ]},
 
-// ═══ L5: n-Deklination — Weak Masculine Nouns ═══
+// ═══ L5: n-Deklination - Weak Masculine Nouns ═══
   {id:"deu20l5",title:"Der Student, den Studenten",icon:"🎓",xp:25,board:true,steps:[
     {type:"intro",title:"Der Student, den Studenten",desc:"Some masculine nouns add -(e)n in ALL cases except nominative. These are called 'weak' or 'n-Deklination' nouns. Der Student, but den/dem/des Studenten. Once you know the pattern, you will recognize it everywhere.",goals:["n-Deklination pattern","Common n-Deklination nouns","Accusative, dative, and genitive forms","Recognize which nouns follow this pattern"]},
 
@@ -6137,7 +6137,7 @@ export default [
     {type:"mc",q:"Which group of endings signals n-Deklination?",opts:["-ung, -heit, -keit","-ent, -ant, -ist, -at","-chen, -lein, -ment","-schaft, -tion, -tät"],ans:"-ent, -ant, -ist, -at",hint:"Foreign masculine nouns ending in these suffixes follow n-Deklination"},
   ]},
 
-// ═══ L6: Formeller Brief I — Anrede & Eröffnung ═══
+// ═══ L6: Formeller Brief I - Anrede & Eröffnung ═══
   {id:"deu20l6",title:"Sehr geehrte Damen und Herren",icon:"✉️",xp:25,board:true,steps:[
     {type:"intro",title:"Sehr geehrte Damen und Herren",desc:"German formal letters follow strict conventions. The opening, the greeting, the date format, the subject line. Get them right and you sound professional. Get them wrong and your letter goes in the bin.",goals:["Sehr geehrte/r + name","Betreff (subject line)","Date format (Berlin, den 15. März 2026)","Formal opening sentences"]},
 
@@ -6162,7 +6162,7 @@ export default [
     {type:"fb",s:"Berlin, ___ 15. März 2026",a:"den",opts:["den","dem","der","das"],hint:"Accusative of time in the date format"},
   ]},
 
-// ═══ L7: Formeller Brief II — Inhalt & Schluss ═══
+// ═══ L7: Formeller Brief II - Inhalt & Schluss ═══
   {id:"deu20l7",title:"Mit freundlichen Grüßen",icon:"📮",xp:25,board:true,steps:[
     {type:"intro",title:"Mit freundlichen Grüßen",desc:"The body and closing of a formal letter. How to refer to previous contact, make polite requests, and close professionally. Every phrase here is standard in German business correspondence.",goals:["bezüglich + genitive (regarding)","Polite request phrases with würde/könnte","Standard closing: Mit freundlichen Grüßen","Formal email variants"]},
 
@@ -6188,7 +6188,7 @@ export default [
     {type:"drag_fill",s:"{1} freundlichen {2}",blanks:{"1":"Mit","2":"Grüßen"},pool:["Mit","Grüßen","Freundliche","Gruß"],hint:"The standard formal closing: with kind regards."},
   ]},
 
-// ═══ L8: Wiederholung — Genitive + n-Dekl + Formal Writing ═══
+// ═══ L8: Wiederholung - Genitive + n-Dekl + Formal Writing ═══
   {id:"deu20l8",title:"Alles zusammen",icon:"🔗",xp:25,board:true,steps:[
     {type:"intro",title:"Alles zusammen",desc:"Time to combine everything from this unit: genitive articles, genitive with names, genitive prepositions, n-Deklination, and formal letter writing. Every exercise layers multiple concepts together.",goals:["Combine genitive forms in sentences","Use genitive prepositions with n-Deklination nouns","Write formal letter phrases with genitive","Multi-construct B1 exercises"]},
 
@@ -6269,10 +6269,10 @@ export default [
 {id:"deu13l3",title:"Unregelmäßig",icon:"⚡",xp:18,board:true,steps:[
   {type:"intro",title:"Unregelmäßig",desc:"Four adjectives break the regular -er / -sten pattern. You already met them in L1 and L2. Now drill all three forms: base, comparative, superlative.",goals:["All three forms of gut, viel, gern, hoch","Use each in full sentences","Distinguish predicative vs attributive superlatives"]},
   {type:"tip",title:"The Big Four Irregular Comparisons",text:"These four must be memorized. They are the most frequent adjectives in German:\n\ngut (good) → besser → am besten\nviel (a lot) → mehr → am meisten\ngern (gladly) → lieber → am liebsten\nhoch (high) → höher → am höchsten\n\nAll four have no regular pattern. Learn them as vocabulary.",deepDive:{title:"Historical note on suppletive forms",text:"Gut/besser/am besten uses three different roots (suppletion), just like English good/better/best. Viel/mehr/am meisten and gern/lieber/am liebsten use the same root with strong vowel changes. Hoch/höher/am höchsten has a consonant change (ch to h) to make pronunciation easier. These forms froze before standard German was codified in the 17th century."}},
-  {type:"teach",kind:"phrase",nl:"gut — besser — am besten",en:"good — better — the best",phonetic:"goot — BES-er — am BES-ten",example:"A: Dein Kuchen ist gut!\nB: Danke! Meine Mutter backt besser.\nA: Aber dein Kuchen schmeckt am besten!",exampleEn:"A: Your cake is good!\nB: Thanks! My mother bakes better.\nA: But your cake tastes the best!",note:"All three forms in one dialogue.\nGut for neutral, besser in comparison, am besten for superlative."},
-  {type:"teach",kind:"phrase",nl:"viel — mehr — am meisten",en:"a lot — more — the most",phonetic:"feel — mayr — am MAI-sten",example:"A: Du lernst viel Deutsch!\nB: Ja, aber Lena lernt mehr als ich.\nA: Wirklich? Sie lernt am meisten in der Klasse.",exampleEn:"A: You study a lot of German!\nB: Yes, but Lena studies more than me.\nA: Really? She studies the most in the class.",note:"viel for neutral quantity.\nmehr for comparison (+ als).\nam meisten for the extreme."},
-  {type:"teach",kind:"phrase",nl:"gern — lieber — am liebsten",en:"gladly — preferably — most of all",phonetic:"gern — LEE-ber — am LEEP-sten",example:"A: Ich trinke gern Kaffee.\nB: Ich trinke lieber Tee als Kaffee.\nA: Aber am liebsten trinke ich Wasser.",exampleEn:"A: I like drinking coffee.\nB: I prefer tea to coffee.\nA: But most of all I like drinking water.",note:"gern = I like doing X.\nlieber = I prefer X over Y.\nam liebsten = X is my absolute favourite."},
-  {type:"teach",kind:"phrase",nl:"hoch — höher — am höchsten",en:"high — higher — the highest",phonetic:"hohkh — HÖ-er — am HÖ-ksten",example:"A: Der Eiffelturm ist hoch.\nB: Ja, aber der Burj Khalifa ist höher.\nA: Und welches Gebäude ist am höchsten?",exampleEn:"A: The Eiffel Tower is high.\nB: Yes, but the Burj Khalifa is higher.\nA: And which building is the highest?",note:"hoch → höher: ch becomes h before -er.\nhöher → am höchsten: the -ch returns."},
+  {type:"teach",kind:"phrase",nl:"gut  - besser  - am besten",en:"good  - better  - the best",phonetic:"goot  - BES-er  - am BES-ten",example:"A: Dein Kuchen ist gut!\nB: Danke! Meine Mutter backt besser.\nA: Aber dein Kuchen schmeckt am besten!",exampleEn:"A: Your cake is good!\nB: Thanks! My mother bakes better.\nA: But your cake tastes the best!",note:"All three forms in one dialogue.\nGut for neutral, besser in comparison, am besten for superlative."},
+  {type:"teach",kind:"phrase",nl:"viel  - mehr  - am meisten",en:"a lot  - more  - the most",phonetic:"feel  - mayr  - am MAI-sten",example:"A: Du lernst viel Deutsch!\nB: Ja, aber Lena lernt mehr als ich.\nA: Wirklich? Sie lernt am meisten in der Klasse.",exampleEn:"A: You study a lot of German!\nB: Yes, but Lena studies more than me.\nA: Really? She studies the most in the class.",note:"viel for neutral quantity.\nmehr for comparison (+ als).\nam meisten for the extreme."},
+  {type:"teach",kind:"phrase",nl:"gern  - lieber  - am liebsten",en:"gladly  - preferably  - most of all",phonetic:"gern  - LEE-ber  - am LEEP-sten",example:"A: Ich trinke gern Kaffee.\nB: Ich trinke lieber Tee als Kaffee.\nA: Aber am liebsten trinke ich Wasser.",exampleEn:"A: I like drinking coffee.\nB: I prefer tea to coffee.\nA: But most of all I like drinking water.",note:"gern = I like doing X.\nlieber = I prefer X over Y.\nam liebsten = X is my absolute favourite."},
+  {type:"teach",kind:"phrase",nl:"hoch  - höher  - am höchsten",en:"high  - higher  - the highest",phonetic:"hohkh  - HÖ-er  - am HÖ-ksten",example:"A: Der Eiffelturm ist hoch.\nB: Ja, aber der Burj Khalifa ist höher.\nA: Und welches Gebäude ist am höchsten?",exampleEn:"A: The Eiffel Tower is high.\nB: Yes, but the Burj Khalifa is higher.\nA: And which building is the highest?",note:"hoch → höher: ch becomes h before -er.\nhöher → am höchsten: the -ch returns."},
   {type:"mc",q:"Complete: 'Das Buch ist gut, das andere ist ___, aber dieses hier ist am besten.'",opts:["am besten auch","gutstem","besser","gut auch"],ans:"besser",hint:"Middle form in the gut/besser/am besten series."},
   {type:"fb",s:"Ich mag Sport, aber ich spiele ___ Tennis als Fußball.",a:"lieber",opts:["lieber","mehr","besser","gerner"],hint:"Prefer one activity over another: gern → lieber."},
   {type:"mc",q:"'The most' when talking about quantity of work: Maria arbeitet ___ in unserem Team.",opts:["am liebsten","am meisten","am besten","mehr"],ans:"am meisten",hint:"viel → mehr → am meisten. About quantity."},
@@ -6991,7 +6991,7 @@ export default [
 
 {n:14,lang:"de",track:"v1",title:"Weil ich müde bin",sub:"Subordinate Clauses",icon:"🔗",level:"A2.2",color:"#7B5EE8",lessons:[
 
-{id:"deu14l1",title:"Weil — Because",icon:"💡",xp:20,board:true,steps:[
+{id:"deu14l1",title:"Weil  - Because",icon:"💡",xp:20,board:true,steps:[
 {type:"intro",title:"Weil ich müde bin...",desc:"German has two kinds of sentences: the main clause (Hauptsatz) and the subordinate clause (Nebensatz). When you use weil (because), the verb moves to the END of that clause.",goals:["Learn weil + verb-final word order","Build because-sentences","Understand how two clauses connect"]},
 {type:"tip",title:"The Verb Jumps to the End",text:"In a normal sentence: Ich bin müde. (verb second)\nWith weil: ..., weil ich müde BIN. (verb last)\n\nThis is called verb-final order. It applies to ALL Nebensätze (subordinate clauses).\nThe comma before weil is MANDATORY.",deepDive:"This rule is one of the most systematic in German. Any word that triggers a Nebensatz (weil, dass, wenn, ob, obwohl...) sends the finite verb to the end. Finite means the conjugated verb, the one that agrees with the subject."},
 {type:"teach",kind:"word",nl:"weil",en:"because",phonetic:"vile",example:"A: Warum gehst du nicht mit?\nB: Weil ich keine Zeit habe.\nA: Schade!\nB: Vielleicht nächstes Mal.",exampleEn:"A: Why aren't you coming along?\nB: Because I don't have time.\nA: Too bad!\nB: Maybe next time.",note:"Conjunction. Sends verb to end of clause.\nComma before weil is mandatory."},
@@ -7016,7 +7016,7 @@ export default [
 {type:"mc",q:"Choose the correct sentence:",opts:["Ich schlafe nicht, weil ich nervös.","Ich schlafe nicht, weil nervös ich bin.","Ich schlafe nicht, weil ich nervös bin.","Weil ich nervös bin ich schlafe nicht."],ans:"Ich schlafe nicht, weil ich nervös bin.",hint:"Subject ich + adjective nervös + verb bin at the end. Comma before weil. Main clause has V2 order."},
 ]},
 
-{id:"deu14l2",title:"Dass — That Clauses",icon:"💬",xp:20,board:true,steps:[
+{id:"deu14l2",title:"Dass  - That Clauses",icon:"💬",xp:20,board:true,steps:[
 {type:"intro",title:"Ich glaube, dass...",desc:"dass (that) is used to report what you think, know, say, or believe. Like weil, dass sends the verb to the end.",goals:["Learn dass + verb-final order","Express beliefs and opinions","Use sagen/glauben/wissen with dass"]},
 {type:"teach",kind:"word",nl:"dass",en:"that (conjunction)",phonetic:"dahs",example:"A: Glaubst du, dass er kommt?\nB: Ich glaube, dass er heute kommt.\nA: Wirklich? Wann?\nB: Um drei Uhr, denke ich.",exampleEn:"A: Do you think that he is coming?\nB: I think that he is coming today.\nA: Really? When?\nB: At three o'clock, I think.",note:"Conjunction. Always triggers verb-final.\nMandatory comma before dass."},
 {type:"teach",kind:"phrase",nl:"Ich glaube, dass er kommt.",en:"I believe that he is coming.",phonetic:"ikh GLOW-beh, dahs air kommt",example:"A: Kommt Maria heute?\nB: Ich glaube, dass sie heute kommt.\nA: Hat sie angerufen?\nB: Nein, aber sie hat eine Nachricht geschickt.",exampleEn:"A: Is Maria coming today?\nB: I believe that she is coming today.\nA: Did she call?\nB: No, but she sent a message.",note:"Main clause: Ich glaube. dass-clause: verb at end."},
@@ -7041,7 +7041,7 @@ export default [
 {type:"mc",q:"'Er ___, dass er morgen nicht arbeiten kann.' Which verb fits grammatically in all cases?",opts:["sagt","glaubt","weiß","alle Optionen passen"],ans:"alle Optionen passen",hint:"sagt, glaubt, and weiß all grammatically work with dass-clause. The meaning changes (says vs. thinks vs. knows) but all are correct structures."},
 ]},
 
-{id:"deu14l3",title:"Wenn — If & When",icon:"🌧️",xp:20,board:true,steps:[
+{id:"deu14l3",title:"Wenn  - If & When",icon:"🌧️",xp:20,board:true,steps:[
 {type:"intro",title:"Wenn es regnet...",desc:"wenn has two meanings in German: IF (condition) and WHEN (repeated event or general situation). Both use verb-final word order, the same rule as weil and dass.",goals:["Learn wenn for conditions","Learn wenn for repeated when","Build if/when sentences"]},
 {type:"teach",kind:"word",nl:"wenn",en:"if / when (general/repeated)",phonetic:"ven",example:"A: Was machst du, wenn es regnet?\nB: Wenn es regnet, bleibe ich zu Hause.\nA: Ich auch!\nB: Wir schauen einen Film zusammen.",exampleEn:"A: What do you do when it rains?\nB: When it rains, I stay home.\nA: Me too!\nB: We will watch a film together.",note:"Two meanings: IF (condition) + WHEN (repeated).\nAlways verb-final. Comma mandatory."},
 {type:"teach",kind:"phrase",nl:"Wenn es regnet, bleibe ich zu Hause.",en:"When it rains, I stay home.",phonetic:"ven es RAYK-net, BLY-beh ikh tsoo HAU-zeh",example:"A: Du gehst doch immer spazieren, oder?\nB: Wenn es regnet, bleibe ich zu Hause.\nA: Und wenn die Sonne scheint?\nB: Dann gehe ich sofort raus!",exampleEn:"A: You always go for a walk, don't you?\nB: When it rains, I stay home.\nA: And when the sun shines?\nB: Then I go outside right away!",note:"wenn-clause first: main clause verb inverts.\ndann in the main clause is optional but natural."},
@@ -7064,7 +7064,7 @@ export default [
 {type:"fb",s:"Ich bin glücklich, ___ ich mit Freunden bin.",a:"wenn",opts:["wenn","weil","dass","ob"],hint:"General/habitual: I am happy WHEN I am with friends. Repeated situation = wenn."},
 ]},
 
-{id:"deu14l4",title:"Ob — Whether Clauses",icon:"❓",xp:20,board:true,steps:[
+{id:"deu14l4",title:"Ob  - Whether Clauses",icon:"❓",xp:20,board:true,steps:[
 {type:"intro",title:"Ich weiß nicht, ob...",desc:"ob means whether or if (indirect questions). Use it to express doubt, report questions, or say you don't know something. The verb always goes to the end.",goals:["Learn ob for indirect questions","Express uncertainty with ob","Report yes/no questions with ob"]},
 {type:"teach",kind:"word",nl:"ob",en:"whether / if (indirect question)",phonetic:"ohp",example:"A: Kommt er heute?\nB: Ich weiß nicht, ob er heute kommt.\nA: Hast du ihn gefragt?\nB: Ja, aber er hat nicht geantwortet.",exampleEn:"A: Is he coming today?\nB: I don't know whether he is coming today.\nA: Did you ask him?\nB: Yes, but he didn't answer.",note:"ob introduces indirect yes/no questions.\nComma before ob. Verb to the end."},
 {type:"teach",kind:"phrase",nl:"Ich weiß nicht, ob er kommt.",en:"I don't know whether he is coming.",phonetic:"ikh vice nikht, ohp air kommt",example:"A: Feiern wir heute?\nB: Ich weiß nicht, ob er kommt.\nA: Sollen wir auf ihn warten?\nB: Noch zehn Minuten.",exampleEn:"A: Are we celebrating today?\nB: I don't know whether he is coming.\nA: Should we wait for him?\nB: Ten more minutes.",note:"ich weiß nicht + ob is a very common pattern."},
@@ -7089,7 +7089,7 @@ export default [
 
 {id:"deu14l5",title:"Verb am Ende",icon:"🔚",xp:20,board:true,steps:[
 {type:"intro",title:"Das Verb kommt ans Ende!",desc:"You now know four conjunctions that trigger verb-final order: weil, dass, wenn, ob. This lesson is intensive practice. Every exercise trains your feel for where the verb goes.",goals:["Consolidate verb-final rule","Use all four conjunctions correctly","Build complex sentences fluently"]},
-{type:"tip",title:"The Four Verb-Final Triggers",text:"These four conjunctions all send the verb to the END:\n\nweil — because (reason)\ndass — that (thought/report)\nwenn — if/when (condition/habit)\nob — whether (indirect question)\n\nAll follow the same rule:\nSubject + ... + VERB (at the end of the clause)",deepDive:"Other subordinating conjunctions you will meet later (obwohl, als, bevor, nachdem, seitdem, damit, sodass...) all follow the same verb-final rule. Learning it with four conjunctions builds the habit. The rule is exceptionless for all Nebensätze."},
+{type:"tip",title:"The Four Verb-Final Triggers",text:"These four conjunctions all send the verb to the END:\n\nweil  - because (reason)\ndass  - that (thought/report)\nwenn  - if/when (condition/habit)\nob  - whether (indirect question)\n\nAll follow the same rule:\nSubject + ... + VERB (at the end of the clause)",deepDive:"Other subordinating conjunctions you will meet later (obwohl, als, bevor, nachdem, seitdem, damit, sodass...) all follow the same verb-final rule. Learning it with four conjunctions builds the habit. The rule is exceptionless for all Nebensätze."},
 {type:"mc",q:"'Ich bleibe zu Hause, ___ ich krank bin.' Which conjunction gives a reason?",opts:["wenn","ob","weil","dass"],ans:"weil",hint:"Giving a reason = weil. weil = because."},
 {type:"mc",q:"'Sie sagt, ___ er heute nicht kommt.' Which introduces reported speech?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"Reporting what she says = dass. Ich sage/glaube/weiß + dass."},
 {type:"mc",q:"'Ich weiß nicht, ___ er kommt.' Which introduces an indirect yes/no question?",opts:["weil","dass","wenn","ob"],ans:"ob",hint:"Indirect yes/no question = ob. Does he come or not?"},
@@ -7158,7 +7158,7 @@ export default [
 {type:"mc",q:"Choose the sentence where the main clause CORRECTLY inverts after a dass-clause:",opts:["Dass er kommt, ich glaube es.","Dass er kommt, glaube ich.","Dass er kommt glaubt ich.","Dass er kommt, ich es glaube."],ans:"Dass er kommt, glaube ich.",hint:"dass-clause first: main clause verb (glaube) immediately after the comma, then subject (ich)."},
 ]},
 
-{id:"deu14l8",title:"Nebensätze — Alles zusammen",icon:"🏆",xp:25,board:true,steps:[
+{id:"deu14l8",title:"Nebensätze  - Alles zusammen",icon:"🏆",xp:25,board:true,steps:[
 {type:"intro",title:"Alles zusammen!",desc:"Final review of all six subordinating conjunctions: weil, dass, wenn, ob, obwohl, and als. You will identify, build, correct, and produce complex sentences.",goals:["Consolidate all six conjunctions","Distinguish meaning and usage","Build multi-clause sentences with confidence"]},
 {type:"mc",q:"Which conjunction introduces a REASON?",opts:["ob","wenn","weil","dass"],ans:"weil",hint:"weil = because (reason/cause). Ich bleibe zu Hause, weil ich krank bin."},
 {type:"mc",q:"Which conjunction introduces a REPORTED THOUGHT or FACT?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"dass follows verbs of thinking, knowing, saying. Ich glaube, dass er kommt."},
@@ -7177,9 +7177,9 @@ export default [
 {type:"drag_fill",s:"{1} ich Zeit habe, {2} ich Musik und schlafe ich lange.",blanks:{"1":"Wenn","2":"höre"},pool:["Wenn","Weil","höre","hören","lese","lerne"],hint:"When I have time (habit): I listen to music AND sleep long. Two main clauses after the wenn-clause."},
 {type:"mc",q:"'Obwohl sie krank ___, ist sie zur Arbeit gegangen.' Fill in:",opts:["war","ist","sein","wäre"],ans:"war",hint:"Past tense in the obwohl-clause. Subject sie. Verb sein, Imperfekt for sie = war."},
 {type:"mc",q:"Identify the conjunction in: 'Er sagt, dass er keine Zeit hat.'",opts:["Er","sagt","dass","hat"],ans:"dass",hint:"dass is the subordinating conjunction introducing the reported clause."},
-{type:"match",pairs:[{nl:"weil — Ich bleibe, weil ich müde bin.",en:"because — I stay because I am tired."},{nl:"obwohl — Er geht, obwohl es regnet.",en:"although — He goes although it rains."},{nl:"als — Als ich jung war, wohnte ich hier.",en:"when (past) — When I was young, I lived here."},{nl:"ob — Ich weiß nicht, ob sie kommt.",en:"whether — I don't know whether she is coming."}]},
+{type:"match",pairs:[{nl:"weil  - Ich bleibe, weil ich müde bin.",en:"because  - I stay because I am tired."},{nl:"obwohl  - Er geht, obwohl es regnet.",en:"although  - He goes although it rains."},{nl:"als  - Als ich jung war, wohnte ich hier.",en:"when (past)  - When I was young, I lived here."},{nl:"ob  - Ich weiß nicht, ob sie kommt.",en:"whether  - I don't know whether she is coming."}]},
 {type:"mc",q:"Complete: 'Ich lerne Deutsch, ___ ich nach Berlin ziehen möchte.'",opts:["ob","als","weil","obwohl"],ans:"weil",hint:"Giving the motivation/reason for learning German. Reason = weil."},
-{type:"tip",title:"Your Nebensatz Toolkit",text:"You now have six subordinating conjunctions:\n\nweil — because (reason)\ndass — that (thought/fact/report)\nwenn — if / when (repeated or condition)\nob — whether (indirect yes/no question)\nobwohl — although (contrast)\nals — when (single past event)\n\nAll six: verb to the end. Comma before each one. When the Nebensatz comes first: invert the main clause.",deepDive:"B1 will add more: bevor (before), nachdem (after), seitdem (since), damit (so that), sodass (so that as result), während (while). They all follow the same verb-final rule you have already mastered."},
+{type:"tip",title:"Your Nebensatz Toolkit",text:"You now have six subordinating conjunctions:\n\nweil  - because (reason)\ndass  - that (thought/fact/report)\nwenn  - if / when (repeated or condition)\nob  - whether (indirect yes/no question)\nobwohl  - although (contrast)\nals  - when (single past event)\n\nAll six: verb to the end. Comma before each one. When the Nebensatz comes first: invert the main clause.",deepDive:"B1 will add more: bevor (before), nachdem (after), seitdem (since), damit (so that), sodass (so that as result), während (while). They all follow the same verb-final rule you have already mastered."},
 ]},
 
 ]},
