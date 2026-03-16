@@ -335,7 +335,7 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - de/het article audit: 55+ nouns verified, ZERO errors
   - Final scan: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80, duplicates=0
 - **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), and audited (D102).
-- **NEXT ACTION**: Complete German A1-B2 build from scratch.
+- **NEXT ACTION**: Dialogue enrichment uplift (73% → 90%+) or A1-A2 retroactive standards pass when prioritized.
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
@@ -389,13 +389,27 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
 - **German is PRODUCTION-READY.** A1-B2 fully built and audited.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
-### French: Infrastructure only (LANG_META, VOCAB entries, CULTURE_PACKS). No units, no foundations.
+### French:
+- **A1-B2 COMPLETE (D105, 2026-03-16)**: Full build from scratch.
+  - Foundations: COMPLETE (FOUNDATIONS_BY_LANG 5 sections/~25 items, FK_PLAYTHROUGH ~15 lessons, FK_GATE_QUIZ 5 tasks/~35 items)
+  - LANG_BLUEPRINT["fr"]: COMPLETE (2-gender system, nasal vowels, liaison, silent letters, accents, verb groups, tu/vous)
+  - 30 units (U1-U30), 240 lessons, 4,380 steps, avg 18.3 steps/lesson, all 18+
+  - A1 (U1-U8): Greetings, introductions, family, food, daily routine, home, directions, shopping
+  - A2 (U9-U16): Passé composé avoir/être, imparfait, PC vs imparfait, pronouns y/en/COD/COI, future, comparatives, conditional
+  - B1 (U17-U24): Subjonctif présent (regular + irregular), relative pronouns, plus-que-parfait, passive voice, gerund, advanced connectors, work culture
+  - B2 (U25-U30): Subjonctif passé, conditionnel passé, nominalization, discourse markers, proverbs/idioms, DELF B2/TCF prep + C1 preview
+  - 883/883 teach cards with A:/B: dialogues (100%)
+  - le/la article colors throughout (le=blue masculine, la=coral feminine)
+  - Quality scan: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
+  - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
+  - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
+- **French is PRODUCTION-READY.** A1-B2 fully built. Next: D92-style deep quality audit or C1 planning.
 ### Spanish: Infrastructure only (LANG_META, VOCAB entries). No units, no foundations.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
 - LANG_META: All 11 complete
-- LANG_BLUEPRINT: Only nl, de, ar populated. Others TODO.
+- LANG_BLUEPRINT: nl, de, ar, fr populated. es TODO.
 - SCRIPT_BLUEPRINTS: 7 scripts defined (hangul, kana, arabic, hanzi, cyrillic, latin_complex, latin_simple)
 
 ---
@@ -407,8 +421,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 1. **Korean** - A1-B2 PRODUCTION-READY. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). THE GOLD STANDARD. Next: C1 when Dutch catches up.
 2. **Dutch** - A1-B2 PRODUCTION-READY. Fully built (D101), audited (D102, 10 rounds). 30 units, 244 lessons, 5,446 steps. THE SECOND GOLD STANDARD.
 3. **German** - A1-B2 COMPLETE (D103). 30 units, 240 lessons, 4,518 steps. Foundations + gate quiz built. 100% dialogue coverage. Quality audit PASS.
-4. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after German).
-5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after French).
+4. **French** - A1-B2 COMPLETE (D105). 30 units, 240 lessons, 4,380 steps. Foundations + gate quiz built. 100% dialogue coverage. Quality scan PASS.
+5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1-B2 build.
 
 ### Phase 2: AI Integration
 - Proxy and backend for AI bot/chat integration
@@ -467,6 +481,10 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable index of all Korean grammar patterns, vocabulary domains, and teach/tip locations. Check HERE before grepping data files. Updated per language.
 - **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D100+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. Template for future level designs.
+
+### Tier 3: Completed reference (historical, preserved for context)
+- **`docs/FRENCH_A1_B2_HANDOFF.md`** — French build handoff, D105 COMPLETE. Preserved for lessons learned (D106 agent model escalation).
+- **`docs/FRENCH_AGENT_PROMPT.md`** — French content generation instructions used during D105 build.
 
 ### Deleted (March 2026 cleanup)
 All completed Korean work docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
@@ -688,6 +706,31 @@ In March 2026, the German D103 build (30 units, 240 lessons, 4,518 steps) was de
 
 Vite compiled the file without errors. The build passed. But React crashed at runtime when trying to read properties of `undefined` array elements. This class of structural defect is invisible to build tools and can only be caught by runtime-style validation. Rule 10 makes this validation mandatory before any curriculum is considered "complete."
 
+### Rule 11: Agent Model Escalation Protocol (D106)
+When deploying sub-agents for content generation and curriculum building:
+
+1. **Default to Opus 4.6 (`model:"opus"`) for ALL content generation agents.** Any agent tasked with building curriculum units, teach cards, quiz steps, or lessons MUST use Opus. Sonnet agents lack the sustained output quality, reliability, and pipeline rule adherence needed for large content tasks. This is non-negotiable.
+
+2. **Sonnet (`model:"sonnet"`) is acceptable ONLY for**:
+   - Validation agents (grep/count/structural checks)
+   - Search and exploration agents (finding files, reading code)
+   - Simple file edits (< 500 lines of output)
+   - Quick audits (P8/P48/P49 scans)
+
+3. **If a Sonnet agent fails, goes stale, or becomes unresponsive**: Do NOT retry with Sonnet. Escalate immediately to Opus 4.6. Document the failure.
+
+4. **For multi-unit curriculum builds (5+ units)**: Always use Opus 4.6 from the start. The cost of retrying after Sonnet failure (wasted time, stale agents, broken sequential workflows) far exceeds the cost of using Opus initially.
+
+5. **Agent reliability is non-negotiable.** Every deployed agent MUST complete its assigned task. Stale or unresponsive agents break Rule 9 sequential workflows, waste owner time, and risk data loss. If a model tier cannot reliably complete a task type, that model is permanently banned from that task type.
+
+6. **Model selection in Agent tool calls**: Use the `model` parameter explicitly:
+   - Content generation: `model:"opus"`
+   - Validation/search: `model:"sonnet"` (or omit for default)
+   - When in doubt: use `model:"opus"`
+
+### Why Rule 11 Exists
+In March 2026, the French A1-B2 build (D105) deployed Sonnet-tier sub-agents for curriculum content generation. Multiple agents became stale, unresponsive, or failed to complete their tasks, requiring repeated retries and manual owner intervention. The same tasks completed successfully and reliably when escalated to Opus 4.6. Content generation requires sustained coherence across thousands of lines, strict pipeline rule adherence (P8, P34, P43, P48, P49), language-specific accuracy (grammar, phonetics, cultural context), and exact structural format compliance. These demands exceed what smaller models can reliably deliver. This rule prevents future sessions from repeating the same costly trial-and-error pattern.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -758,135 +801,164 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **German needs NO further work** until D92-style deep audit or C1 curriculum planning.
 
-### NEXT: French A1-B2 Build
+### DONE (French A1-B2 = Fourth Gold Standard)
+French is PRODUCTION-READY. Built from scratch in D105:
+
+| Milestone | Decision | Status |
+|-----------|----------|--------|
+| LANG_BLUEPRINT["fr"] | D105 | COMPLETE |
+| Foundations (knowledge + playthrough + gate quiz) | D105 | COMPLETE |
+| A1 curriculum (U1-U8) | D105 | COMPLETE |
+| A2 curriculum (U9-U16) | D105 | COMPLETE |
+| B1 curriculum (U17-U24) | D105 | COMPLETE |
+| B2 curriculum (U25-U30) | D105 | COMPLETE |
+| Quality scan (P48/P22c/P49/density/board:true) | D105 | PASS |
+| Dialogue enrichment | D105 | 883/883 (100%) |
+| Agent model escalation protocol | D106 | Opus 4.6 mandatory for content agents |
+
+**French needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
+
+### NEXT: Spanish A1-B2 Build
 
 #### What EXISTS (infrastructure ready, DO NOT rebuild):
 | Component | File | Lines | Status |
 |-----------|------|-------|--------|
-| LANG_META | `src/data/metadata.js` | ~300 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"fr-FR", specialRules:["nasal_vowels","liaison","silent_letters","accents","gendered_nouns"] |
-| LANG_BLUEPRINT | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation (see below) |
-| CULTURE_PACKS | `src/data/metadata.js` | ~367 | COMPLETE: food (croissant, baguette, crêpe, ratatouille, quiche), customs (la bise, apéro, long lunches, formal vous), places, situations, politeness |
-| ARTICLE_SYSTEMS | `src/data/vocabulary.js` | ~2433-2442 | COMPLETE: le (masculine, blue), la (feminine, coral), detect function handles l' elision |
-| FOUNDATIONS_BY_LANG["fr"] | `src/data/foundations.js` | ~1244-1262 | PARTIAL: Knowledge grid exists (1 section, 5 items: alphabet, accents, nasal vowels, key sounds, silent letters). Needs expansion to 4-6 sections. |
-| FK_PLAYTHROUGH["fr"] | `src/data/foundations.js` | ~2238 | EMPTY SHELL: `{name:"French Foundations Play",icon:"🇫🇷",blueprint:"latin_simple",stages:[]}` — stages must be built |
-| FK_GATE_QUIZ["fr"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
-| FK_SCHEMA_MAP | `src/data/metadata.js` | ~235 | COMPLETE: fr:"latin" |
-| VOCAB pilot | `src/data/vocabulary.js` | N/A | NO French lexemes. Expand as units are built. |
-| Import/spread | `src/lingoverse.jsx` | lines 9, ~8122 | NOT SET UP — needs new import + UNITS spread update |
+| LANGUAGES entry | `src/data/metadata.js` | ~137 | COMPLETE: code:"es", name:"Spanish", flag:"🇪🇸", native:"Español", greeting, welcomeBack |
+| BASE_LANGUAGES | `src/data/metadata.js` | ~149 | COMPLETE: Spanish as available source language |
+| LANG_META["es"] | `src/data/metadata.js` | ~301 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"es-ES", specialRules:["ñ","inverted_punctuation","gendered_nouns","ser_estar","subjunctive"] |
+| LANG_BLUEPRINT["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation |
+| CULTURE_PACKS["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built |
+| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | N/A | **MISSING** — must be built (el=masculine/blue, la=feminine/coral) |
+| FOUNDATIONS_BY_LANG["es"] | `src/data/foundations.js` | ~1456 | PARTIAL: 1 section (alphabet grid with 27 letters + Ñ). Needs expansion to 4-6 sections. |
+| FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | ~2583 | EMPTY SHELL: `{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]}` |
+| FK_GATE_QUIZ["es"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
+| FK_SCHEMA_MAP | `src/data/metadata.js` | N/A | Needs "es":"latin" entry |
+| VOCAB pilot | `src/data/vocabulary.js` | N/A | NO Spanish lexemes. Expand as units are built. |
+| Import/spread | `src/lingoverse.jsx` | N/A | NOT SET UP — needs new import + UNITS spread update |
 
 #### What MUST BE BUILT from scratch:
 | Component | File | Action |
 |-----------|------|--------|
-| LANG_BLUEPRINT["fr"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (le/la), nasal vowels, liaison rules, silent letters, accent system (é/è/ê/ë/à/â/ù/û/ô/î/ï/ç), verb conjugation complexity (3 groups + irregulars), formal/informal (tu/vous). Follow de/nl blueprint format. |
-| FOUNDATIONS_BY_LANG["fr"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + accents, (2) Vowels: oral + nasal, (3) Consonants + liaison, (4) Silent letters + spelling, (5) Verb group preview, (6) Grammar awareness. Target: ~25 items. Dutch (6 sections/24 items) and German (6 sections/25 items) are benchmarks. |
-| FK_PLAYTHROUGH["fr"] | `src/data/foundations.js` | Build interactive playthrough: ~15-20 lessons covering pronunciation, accents (é/è/ê), nasal vowels (an/on/in/un), liaison, silent letters, R pronunciation, U vs OU. German (15 lessons) and Dutch (22 lessons) are benchmarks. |
-| FK_GATE_QUIZ["fr"] | `src/data/foundations.js` | Build pass/fail gate quiz to unlock Unit 1. 5 tasks, ~35 items. German model as reference. |
-| French units (A1-B2) | `src/data/units-french.js` | NEW FILE. ~28-30 units, ~224-240 lessons, ~4,500+ steps. See curriculum plan below. |
+| LANG_BLUEPRINT["es"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (el/la), ser vs estar, subjunctive mood, inverted punctuation (¿¡), Ñ, verb conjugation (3 groups: -ar/-er/-ir + extensive irregulars including stem-changing), formal/informal (tú/usted/vosotros/ustedes), regional variation awareness (Spain vs Latin America). Follow fr/de/nl blueprint format. |
+| CULTURE_PACKS["es"] | `src/data/metadata.js` | Build cultural data: food (paella, tapas, tortilla, churros, gazpacho), customs (siesta, sobremesa, two surnames, late dinners), places (Madrid, Barcelona, Sevilla, México), situations, politeness notes, taboos. |
+| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | Build: el (masculine, blue), la (feminine, coral). Detect function must handle el/la/los/las and the masculine exception (el agua, el águila). |
+| FOUNDATIONS_BY_LANG["es"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + Ñ, (2) Vowels (5 pure vowels, diphthongs), (3) Consonants (RR trill, J/G, C/Z, LL, H silent), (4) Accent marks + stress rules, (5) Verb group preview (-ar/-er/-ir), (6) Grammar awareness (gender, ser/estar). Target: ~25 items. |
+| FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | Build interactive playthrough: ~12-15 lessons. Spanish pronunciation is very regular (nearly phonetic spelling), so foundations can be shorter than French/German. Focus: Ñ, RR trill, J, accent marks, stress rules, inverted punctuation. |
+| FK_GATE_QUIZ["es"] | `src/data/foundations.js` | Build pass/fail gate quiz. 5 tasks, ~35 items. |
+| Spanish units (A1-B2) | `src/data/units-spanish.js` | NEW FILE. ~28-30 units, ~224-240 lessons, ~4,500+ steps. |
 
 #### Unit Structure (MUST follow this format):
 ```javascript
-{n:1,lang:"fr",track:"v1",title:"Bienvenue!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
-  {id:"fre1l1",title:"Bonjour!",icon:"👋",xp:15,board:true,steps:[
-    {type:"intro",title:"Bonjour!",desc:"...",goals:[...]},
-    {type:"teach",kind:"word",nl:"Bonjour",en:"Hello / Good day",phonetic:"bon-ZHOOR",example:"A: Bonjour!\nB: Bonjour! Comment allez-vous?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal greeting. Always say Bonjour before any interaction."},
+{n:1,lang:"es",track:"v1",title:"¡Hola!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
+  {id:"esp1l1",title:"¡Buenos días!",icon:"👋",xp:15,board:true,steps:[
+    {type:"intro",title:"¡Buenos días!",desc:"...",goals:[...]},
+    {type:"teach",kind:"word",nl:"Hola",en:"Hello",phonetic:"OH-la",example:"A: ¡Hola!\nB: ¡Hola! ¿Qué tal?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal Spanish greeting. Works any time of day."},
     // ... 18+ steps per lesson (P43)
   ]},
 ]}
 ```
-**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"fr"`, lesson IDs as `fre{N}l{N}`.
-**NOTE**: The `nl` field is used for the TARGET language word (French), NOT literally "Nederlands". This is the engine convention across all languages.
+**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"es"`, lesson IDs as `esp{N}l{N}`.
+**NOTE**: The `nl` field is used for the TARGET language word (Spanish), NOT literally "Nederlands". This is the engine convention across all languages.
 
-#### French Curriculum Plan (~28-30 units):
+#### Spanish Curriculum Plan (~28-30 units):
 
-**A1 (Units 1-8): Survival French** — DELF A1 / Alliance Française reference
-- U1: Greetings, goodbyes, tu/vous distinction, essential politeness (s'il vous plaît, merci)
-- U2: Self-introduction, nationality, languages, numbers 0-20, être + avoir
-- U3: Family, possessives (mon/ma/mes, ton/ta/tes, son/sa/ses), descriptions
-- U4: Food & drink, au café, articles (le/la/les/un/une/des), partitive (du/de la)
-- U5: Daily routine, time, reflexive verbs (se lever, se coucher), -er verbs
-- U6: Home & rooms, furniture, il y a, prepositions of place
-- U7: Directions, transport, aller + à/au/aux, venir de, imperative
-- U8: Shopping, clothing, colors, numbers to 1000, demonstratives (ce/cet/cette/ces)
+**A1 (Units 1-8): Survival Spanish** — DELE A1 / Instituto Cervantes reference
+- U1: Greetings, goodbyes, tú/usted distinction, essential politeness (por favor, gracias)
+- U2: Self-introduction, nationality, languages, numbers 0-20, ser + estar basics
+- U3: Family, possessives (mi/tu/su/nuestro), descriptions with ser + adjectives
+- U4: Food & drink, en el restaurante, articles (el/la/los/las/un/una/unos/unas), gustar
+- U5: Daily routine, time, reflexive verbs (levantarse, acostarse), -ar verbs present
+- U6: Home & rooms, furniture, hay, prepositions of place, -er/-ir verbs present
+- U7: Directions, transport, ir + a, venir de, imperative (tú form)
+- U8: Shopping, clothing, colors, numbers to 1000, demonstratives (este/ese/aquel)
 
-**A2 (Units 9-16): Expanding** — DELF A2 reference
-- U9: Passé composé with avoir, regular + irregular past participles, time expressions
-- U10: Passé composé with être (movement verbs, Dr. & Mrs. Vandertramp), agreement
-- U11: Imparfait: formation, usage (descriptions, habits, ongoing past)
-- U12: Passé composé vs imparfait (the critical distinction), storytelling
-- U13: Pronouns (y, en, COD/COI), pronoun placement
-- U14: Future simple + futur proche (aller + infinitif), plans and predictions
-- U15: Comparatives & superlatives, adjective agreement and placement
-- U16: Conditional (je voudrais, si + imparfait), polite requests, hypotheticals
+**A2 (Units 9-16): Expanding** — DELE A2 reference
+- U9: Pretérito indefinido (regular), time expressions (ayer, la semana pasada)
+- U10: Pretérito indefinido (irregular: ser/ir, tener, hacer, estar, poder, poner, decir)
+- U11: Pretérito imperfecto: formation, usage (descriptions, habits, ongoing past)
+- U12: Indefinido vs imperfecto (the critical distinction), storytelling
+- U13: Object pronouns (lo/la/le/les, me/te/nos), pronoun placement, a personal
+- U14: Future simple + ir + a + infinitivo, plans and predictions
+- U15: Comparatives & superlatives, adjective agreement (gender + number), placement
+- U16: Conditional (me gustaría, si + imperfecto), polite requests, hypotheticals
 
-**B1 (Units 17-24): Independent** — DELF B1 reference
-- U17: Subjonctif présent introduction (il faut que, je veux que), regular verbs
-- U18: Subjonctif with irregular verbs (être, avoir, aller, faire, pouvoir, savoir)
-- U19: Relative pronouns (qui, que, dont, où), complex sentences
-- U20: Plus-que-parfait, sequencing past events, reported speech basics
-- U21: Passive voice (être + past participle), news language
-- U22: Gerund (en + present participle), tout en + gerund, cause/manner
-- U23: Advanced connectors (bien que + subj, malgré, en dépit de, d'ailleurs, en revanche)
-- U24: French work culture, formal register, lettre de motivation
+**B1 (Units 17-24): Independent** — DELE B1 reference
+- U17: Presente de subjuntivo introduction (quiero que, es necesario que), regular verbs
+- U18: Subjuntivo with irregular verbs (ser, estar, ir, haber, saber, dar)
+- U19: Relative pronouns (que, quien, donde, cual), complex sentences
+- U20: Pretérito pluscuamperfecto, sequencing past events, reported speech basics
+- U21: Passive voice (ser + past participle), se pasiva, news language
+- U22: Gerundio (estar + gerundio), progressive tenses, cause/manner
+- U23: Advanced connectors (aunque + subjuntivo, a pesar de, sin embargo, no obstante)
+- U24: Spanish work culture, formal register, carta de presentación
 
-**B2 (Units 25-30): Proficient** — DELF B2 / TCF reference
-- U25: Subjonctif passé + advanced subjunctive triggers (avant que, pour que, à condition que)
-- U26: Conditionnel passé, regrets, reproaches (si + plus-que-parfait)
-- U27: Nominalization, academic register, formal writing style
-- U28: Discourse markers, essay structure (dissertation), argumentation
-- U29: Proverbs, idioms, figurative language, literary French
-- U30: DELF B2/TCF prep, comprehensive review, C1 preview
+**B2 (Units 25-30): Proficient** — DELE B2 / SIELE reference
+- U25: Subjuntivo imperfecto + advanced triggers (para que, antes de que, a menos que)
+- U26: Condicional compuesto, regrets, reproaches (si + pluscuamperfecto)
+- U27: Nominalization, academic register, formal writing
+- U28: Discourse markers, essay structure, argumentation (por un lado/por otro lado)
+- U29: Refranes, modismos, figurative language, literary Spanish
+- U30: DELE B2/SIELE prep, comprehensive review, C1 preview
 
-#### French-Specific Teaching Priorities:
-1. **le/la from day one.** Every noun teach card MUST include the article. Use color coding: le=blue (masculine), la=coral (feminine). ARTICLE_SYSTEMS["fr"] already configured in vocabulary.js.
-2. **Elision and liaison early.** l'homme, l'école from U1. Liaison (les amis = /lez ami/) from U2. These are non-optional phonological rules, not advanced features.
-3. **Verb conjugation is the mountain.** French has 3 regular groups (-er, -ir, -re) plus extensive irregulars. Introduce -er verbs in A1, -ir/-re in A1-A2, irregular clusters progressively.
-4. **Nasal vowels need dedicated practice.** an/en (/ɑ̃/), on (/ɔ̃/), in/ain (/ɛ̃/), un (/œ̃/) are completely foreign to English speakers. Foundations must drill these.
-5. **Passé composé vs imparfait is THE A2 challenge.** Dedicate a full unit (U12) to the distinction. This is the single biggest source of errors for French learners.
-6. **Subjonctif needs gradual introduction.** Start with common triggers in B1 (il faut que, je veux que), expand to advanced triggers in B2. Never dump all triggers at once.
-7. **Cognates are abundant but treacherous.** English-French cognates (~40% vocabulary overlap) are a superpower, but faux amis (false friends) are everywhere. Flag both with `cognate` field.
-8. **Tu/vous is socially critical.** More complex than German du/Sie. Teach the social rules explicitly, not just the grammar.
+#### Spanish-Specific Teaching Priorities:
+1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). Build ARTICLE_SYSTEMS["es"] in vocabulary.js.
+2. **Ser vs estar is THE fundamental challenge.** Both mean "to be" but are NOT interchangeable. Introduce both in A1 U2, dedicate examples throughout. This confusion persists into C1.
+3. **Verb conjugation is massive.** Spanish has 3 groups (-ar, -er, -ir) plus extensive stem-changing verbs (e→ie, o→ue, e→i) and irregulars. Introduce -ar in A1, -er/-ir in A1-A2, stem-changers progressively.
+4. **Spanish pronunciation is very regular.** Unlike French, spelling is nearly phonetic. Foundations can be shorter. Focus on: RR trill, J/G, Ñ, accent marks, stress rules.
+5. **Indefinido vs imperfecto is THE A2 challenge.** Same as French PC vs imparfait. Dedicate U12 to the distinction.
+6. **Subjuntivo needs gradual introduction.** Even more important than in French. Start with common triggers in B1, expand in B2. Spanish uses subjunctive far more than French.
+7. **Cognates with English are very abundant** (~30-40% overlap via Latin roots). Flag cognates AND false friends (embarazada ≠ embarrassed, etc.) with `cognate` field.
+8. **Regional variation matters.** Spain (vosotros, z=/θ/) vs Latin America (ustedes, z=/s/). Default to neutral Latin American pronunciation, note Spain differences. Don't teach vosotros actively until B1+.
+9. **Inverted punctuation (¿¡) from day one.** This is non-optional and uniquely Spanish.
+10. **Gustar-type verbs early.** The "backwards" construction (me gusta, te gusta) is alien to English speakers. Introduce in A1 U4 with food.
 
 #### Build Workflow (MANDATORY):
-Follow the German D103 playbook with D104 validation lessons baked in:
+Follow the French D105 playbook with D106 agent model requirements:
 
-1. **Build LANG_BLUEPRINT first** — French has no blueprint yet. Must be created before any content.
-2. **Expand FOUNDATIONS_BY_LANG["fr"]** — Currently 1 section/5 items. Expand to 5-6 sections/~25 items.
-3. **Build FK_PLAYTHROUGH["fr"]** — Fill the empty stages array. ~15-20 lessons.
-4. **Build FK_GATE_QUIZ["fr"]** — 5 tasks, ~35 items.
-5. **Create `src/data/units-french.js`** as a new file immediately. Do NOT build in `units-other.js`.
-6. **Update imports in `src/lingoverse.jsx`**: Add `import frenchUnits from './data/units-french.js';` and add `...frenchUnits` to UNITS spread.
-7. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead.
-8. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
-9. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
-10. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
-11. **Rule 10 (D104): Post-build structural validation.** After ALL units are built, run the validation script (see below) to catch array holes, missing required fields, and unit ordering issues BEFORE committing.
-12. **Build with dialogues from day one** (A:/B: format on teach cards).
-13. **Commit and push after each unit is complete.** Small commits, not megadumps.
+1. **Use Opus 4.6 agents for ALL content generation** (Rule 11, D106). Sonnet for validation only.
+2. **Build LANG_BLUEPRINT first** — Spanish has no blueprint yet.
+3. **Build CULTURE_PACKS["es"]** — Spanish has no culture pack yet.
+4. **Build ARTICLE_SYSTEMS["es"]** — Spanish has no article system yet.
+5. **Expand FOUNDATIONS_BY_LANG["es"]** — Currently 1 section. Expand to 5-6 sections/~25 items.
+6. **Build FK_PLAYTHROUGH["es"]** — Fill the empty stages array. ~12-15 lessons.
+7. **Build FK_GATE_QUIZ["es"]** — 5 tasks, ~35 items.
+8. **Create `src/data/units-spanish.js`** as a new file immediately. Do NOT build in `units-other.js`.
+9. **Update imports in `src/lingoverse.jsx`**: Add `import spanishUnits from './data/units-spanish.js';` and add `...spanishUnits` to UNITS spread.
+10. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead.
+11. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
+12. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
+13. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
+14. **Rule 10 (D104): Post-build structural validation.** Run validation script after ALL units built.
+15. **Build with dialogues from day one** (A:/B: format on teach cards).
+16. **Commit and push after each unit is complete.**
 
 #### Session Execution Plan (for the next agent):
-1. Build LANG_BLUEPRINT["fr"] in `src/data/metadata.js`
-2. Expand FOUNDATIONS_BY_LANG["fr"] in `src/data/foundations.js` (1 section → 5-6 sections)
-3. Build FK_PLAYTHROUGH["fr"] stages in `src/data/foundations.js`
-4. Build FK_GATE_QUIZ["fr"] in `src/data/foundations.js`
-5. Create `src/data/units-french.js` with empty export
-6. Update imports in `src/lingoverse.jsx`
-7. Build A1 units (U1-U8), quality audit after
-8. Build A2 units (U9-U16), quality audit after
-9. Build B1 units (U17-U24), quality audit after
-10. Build B2 units (U25-U30), quality audit after
-11. **Run post-build structural validation** (Rule 10, D104)
-12. Final cross-level validation sweep
-13. Update CLAUDE.md with French build status
+1. Build LANG_BLUEPRINT["es"] in `src/data/metadata.js`
+2. Build CULTURE_PACKS["es"] in `src/data/metadata.js`
+3. Build ARTICLE_SYSTEMS["es"] in `src/data/vocabulary.js`
+4. Add FK_SCHEMA_MAP entry: es:"latin" in `src/data/metadata.js`
+5. Expand FOUNDATIONS_BY_LANG["es"] in `src/data/foundations.js` (1 section → 5-6 sections)
+6. Build FK_PLAYTHROUGH["es"] stages in `src/data/foundations.js`
+7. Build FK_GATE_QUIZ["es"] in `src/data/foundations.js`
+8. Create `src/data/units-spanish.js` with empty export
+9. Update imports in `src/lingoverse.jsx`
+10. Build A1 units (U1-U8) with Opus 4.6 agents, quality audit after
+11. Build A2 units (U9-U16) with Opus 4.6 agents, quality audit after
+12. Build B1 units (U17-U24) with Opus 4.6 agents, quality audit after
+13. Build B2 units (U25-U30) with Opus 4.6 agents, quality audit after
+14. **Run post-build structural validation** (Rule 10, D104)
+15. Final cross-level validation sweep
+16. Update CLAUDE.md with Spanish build status
 
-### AFTER French (Priority Order)
+### AFTER Spanish (Priority Order)
 
-1. **Spanish A1-B2 Build**
-   - Infrastructure exists (LANG_META, VOCAB entries, ARTICLE_SYSTEMS)
-   - Needs: LANG_BLUEPRINT, foundations, A1-B2 units
-
-2. **Arabic A1-B2 Build** (when ready)
+1. **Arabic A1-B2 Build** (when ready)
    - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
    - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum rebuild
+
+2. **Deep Quality Audits** (D92-style) for German and French
+   - Both passed quality scans but have not had the multi-round deep audit treatment
+   - Korean (D92/D93) and Dutch (D102) set the audit standard
 
 ### Workflow for All Future Content
 Every language expansion MUST follow the Korean playbook:
@@ -913,3 +985,4 @@ Every language expansion MUST follow the Korean playbook:
 11. **Step type must match engine capability.** Before creating a step, verify the engine renderer actually supports the data shape. Multi-blank needs drag_fill, not fb. Check the code, not assumptions. (P48)
 12. **Sequential content + parallel validation = zero defects.** For large-scale content operations, never deploy parallel content agents on the same file. Work sequentially, validate after each batch, sweep across all units at the end. This workflow achieved 0 defects across 454 card edits. It is the gold standard. (D100, Rule 9)
 13. **Post-build structural validation is mandatory.** After building a complete curriculum, run the validation script to catch: (a) undefined/null array elements from stray commas, (b) missing required fields (especially MC `ans`), (c) unit ordering (must be sequential by `n`), (d) P48 multi-blank fb violations. The German D103 build shipped with 3 undefined array elements + 3 missing MC ans fields + scrambled unit order, causing a white screen crash. This class of error is invisible to build tools (Vite compiles fine) but crashes React at runtime. (D104, Rule 10)
+14. **Use Opus 4.6 for content generation, always.** Sonnet agents go stale, become unresponsive, and fail to complete large content tasks. Content generation (building units, teach cards, quiz steps) MUST use `model:"opus"`. Sonnet is fine for validation, search, and small edits. Do not waste time retrying failed Sonnet agents — escalate to Opus immediately. (D106, Rule 11)

@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-15 (D1-D101. D86+ in CLAUDE.md)
+> Last updated: 2026-03-16 (D1-D106. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,11 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D106 | Agent Model Escalation Protocol (Opus over Sonnet) | Agent Protocol | All |
+| D105 | French A1-B2 Complete Curriculum Build | Content/Build | French |
+| D104 | Post-Build Structural Validation Protocol | Agent Protocol | All |
+| D103 | German A1-B2 Complete Build | Content/Build | German |
+| D102 | Dutch B2 Quality Audit (10 rounds) | Audit/Quality | Dutch |
 | D101 | Dutch Quality Uplift to Korean Standard | Content/Quality | Dutch |
 | D100 | Korean Dialogue Enrichment + Sequential Workflow | Content/Workflow | Korean/All |
 | D99 | Dutch B1 Polish: Density Uplift + Quick Fixes | Content/Quality | Dutch |
@@ -140,16 +145,22 @@ D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94
 D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
 
 ### Dutch Curriculum
-D12, D23, D29, D30, D32, D34a-l, D99, D101
+D12, D23, D29, D30, D32, D34a-l, D99, D101, D102
+
+### German Curriculum
+D103, D104
+
+### French Curriculum
+D105
 
 ### Pipeline Rules
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
 
 ### Agent Protocol / Documentation
-D74, D80, D81, D82, D86, D87, D91, D95, D97, D100
+D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106
 
 ### Content Enrichment Workflow
-D100
+D100, D105
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85
@@ -158,7 +169,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101, D102, D103, D104, D105
 
 ---
 
@@ -172,6 +183,11 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D89-D92**: From B1 Full Quality Audit (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D95-D98**: B2 density uplift cycle (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D99**: Dutch B1 polish (March 2026), defined in `DECISION_LOG.md`
+- **D102**: Dutch B2 Quality Audit (March 2026), defined in `CLAUDE.md`
+- **D103**: German A1-B2 Complete Build (March 2026), defined in `CLAUDE.md`
+- **D104**: Post-Build Structural Validation Protocol (March 2026), defined in `CLAUDE.md` Rule 10
+- **D105**: French A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D106**: Agent Model Escalation Protocol (March 2026), defined in `CLAUDE.md` Rule 11 and `DECISION_LOG.md`
 
 ---
 
@@ -303,6 +319,72 @@ Added "How Dutch Works: A Roadmap" tip to U1 L1, naming all 9 core Dutch constru
 - U30: B2 Klaar! (NT2 prep, C1 preview)
 
 **Final Stats**: 30 v2 units, 244 lessons, 5,446 steps. 1,090/1,492 teach cards with dialogues (73%). 0 em-dashes. 0 P48 violations.
+
+---
+
+## D102: Dutch B2 Quality Audit (2026-03-16)
+
+D92-style deep audit of Dutch B2 (U21-U30), 10 rounds, 10 commits:
+- Rounds 1-2: 93 severe P8 hint-reveals fixed
+- Round 3: 7 P49 CEFR labels removed
+- Round 4: 3 under-dense lessons uplifted to 18+ steps
+- Round 5: P8 pattern leaks + MC option length equalization
+- Round 6: 6 duplicate MC questions replaced
+- Round 7: 2 P49 intro titles fixed
+- Round 8: 154 CAPS hint-reveals rewritten
+- Round 9: 1 visual leak, 1 P48 fix, 8 U30 hint-reveals
+- Round 10: 5 P34 teach-before-test violations fixed
+- de/het article audit: 55+ nouns verified, ZERO errors
+- Final: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80
+
+## D103: German A1-B2 Complete Build (2026-03-16)
+
+Full German curriculum built from scratch:
+- Foundations: 6 sections/25 items knowledge grid, 6 stages/15 playthrough lessons, 5 tasks/35 items gate quiz
+- 30 units (U1-U30), 240 lessons, 4,518 steps, avg 18.8 steps/lesson
+- A1 (U1-U8), A2 (U9-U16), B1 (U17-U24), B2 (U25-U30)
+- 1,100/1,100 teach cards with dialogues (100%)
+- der/die/das article colors (der=blue, die=coral, das=purple)
+- Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240
+
+## D104: Post-Build Structural Validation Protocol (2026-03-16)
+
+Created after German D103 shipped with 3 critical defects causing white screen crash:
+1. 3 stray commas creating undefined array elements
+2. 3 MC steps missing `ans` field
+3. Units scrambled out of order
+
+All invisible to Vite (valid JS, compiles fine) but crash React at runtime. Rule 10 mandates a validation script checking: no undefined elements, sequential unit ordering, required fields on all step types, board:true, density. See CLAUDE.md Rule 10 for full script template.
+
+## D105: French A1-B2 Complete Build (2026-03-16)
+
+Full French curriculum built from scratch following D103/D104 playbook:
+- LANG_BLUEPRINT["fr"] created in metadata.js
+- FOUNDATIONS_BY_LANG["fr"] expanded to 5 sections/~25 items
+- FK_PLAYTHROUGH["fr"] built with ~15 lessons
+- FK_GATE_QUIZ["fr"] built with 5 tasks/~35 items
+- 30 units (U1-U30), 240 lessons, 4,380 steps, avg 18.3 steps/lesson
+- 883/883 teach cards with A:/B: dialogues (100%)
+- le/la article colors (le=blue masculine, la=coral feminine)
+- Quality scan: P48=0, P22c=0, P49=0 (2 DELF B2 exam name refs, not meta-curriculum), board:true=240/240, unit ordering=PASS
+- Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
+
+Build used Opus 4.6 agents after Sonnet agents proved unreliable (stale, unresponsive, failing to complete). See D106.
+
+## D106: Agent Model Escalation Protocol (2026-03-16)
+
+**Problem**: During the French A1-B2 build, Sonnet-tier sub-agents frequently became stale, unresponsive, or failed to complete their assigned tasks. This caused delays and required manual intervention from the owner.
+
+**Root cause**: Large content generation tasks (building 8+ units with 18+ steps per lesson) exceed the reliable capacity of smaller models. The content requires: (a) sustained coherence across 1,000+ lines, (b) strict pipeline rule adherence (P8, P34, P43, P48, P49), (c) language-specific accuracy (grammar, phonetics, cultural context), and (d) structural format compliance (exact JSON-like JS object format).
+
+**Rule (codified as Rule 11 in Agent Deployment Standards)**:
+1. **Default to Opus 4.6 for content generation agents.** Any agent tasked with building curriculum units (teach cards, quiz steps, lessons) MUST use `model:"opus"`. Sonnet agents lack the sustained output quality and reliability needed for these tasks.
+2. **Sonnet remains acceptable for**: validation agents (grep/count checks), search/exploration agents, simple file edits, and tasks under ~500 lines of output.
+3. **If a Sonnet agent fails or goes stale**: Do NOT retry with Sonnet. Escalate immediately to Opus 4.6. Document the failure in the session.
+4. **For multi-unit builds**: Always use Opus 4.6 from the start. The cost of retrying with Opus after Sonnet failure exceeds the cost of using Opus initially.
+5. **Agent reliability is non-negotiable.** Every deployed agent must complete its task. Stale/unresponsive agents waste owner time and break sequential workflows (Rule 9). If an agent model cannot reliably complete a task type, that model is banned from that task type.
+
+**This is now permanent policy.** All future curriculum builds (Spanish, Arabic, expansion languages) MUST use Opus 4.6 for content generation agents.
 
 ---
 
