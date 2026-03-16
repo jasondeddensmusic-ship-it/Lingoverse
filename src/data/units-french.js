@@ -1306,4 +1306,326 @@ export default [
 ]},
 ]},
 
+// ══════════════════════════════════════════════════════════════
+// UNIT 5: LA ROUTINE QUOTIDIENNE - Daily Routine, Time & -er Verbs
+// -er verb conjugation (full present), reflexive verbs, telling time
+// P26: -er conjugation pattern formally named and drilled
+// ══════════════════════════════════════════════════════════════
+{n:5,lang:"fr",track:"v1",title:"La routine quotidienne",sub:"Daily Routine, Time & -er Verbs",icon:"⏰",level:"A1.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Les verbes en -er ═══
+{id:"fre5l1",title:"Les verbes en -er",icon:"📝",xp:15,board:true,steps:[
+  {type:"intro",title:"Les verbes en -er",desc:"About 90% of French verbs follow the -er pattern. Learn this ONE pattern and you unlock hundreds of verbs. Parler was the preview. Now master the full system.",goals:["Conjugate -er verbs in all 6 persons","Recognize the silent endings","Apply the pattern to new verbs"]},
+
+  {type:"teach",kind:"word",nl:"parler",en:"to speak",phonetic:"par-LAY",example:"A: Tu parles français?\nB: Oui, je parle français et anglais.\nA: Nous parlons aussi espagnol!",exampleEn:"A: Do you speak French?\nB: Yes, I speak French and English.\nA: We also speak Spanish!",note:"The model -er verb. Remove -er, add endings:\nje parle, tu parles, il/elle parle\nnous parlons, vous parlez, ils/elles parlent\nNote: je, tu, il, ils forms all sound the SAME!"},
+
+  {type:"tip",title:"The -er Verb Pattern: One Pattern, Hundreds of Verbs",text:"-er verb conjugation (present tense):\n\nje + stem + e (I)\ntu + stem + es (you, informal)\nil/elle/on + stem + e (he/she/one)\nnous + stem + ons (we)\nvous + stem + ez (you, formal/plural)\nils/elles + stem + ent (they)\n\nThe stem = verb minus -er: parler > parl-\n\nCRITICAL: je, tu, il, ils endings (-e, -es, -e, -ent) are ALL SILENT.\nOnly nous (-ons) and vous (-ez) have audible endings.\nSo parle, parles, parle, parlent all sound like PAHRL.",deepDive:{title:"Why are so many endings silent?",text:"Old French pronounced all these endings. Over centuries, final unstressed syllables eroded.\n\nLatin: parlo, parlas, parlat, parlant\nOld French: parle, parles, parle, parlent (all pronounced)\nModern French: parle, parles, parle, parlent (all sound the same: PAHRL)\n\nThis is why French spelling looks so different from pronunciation. The spelling preserves medieval forms that the spoken language has simplified.\n\nFor learners: you hear 4 forms (je/tu/il/ils = same, nous, vous, on). Writing has 6 forms."}},
+
+  {type:"teach",kind:"word",nl:"habiter",en:"to live (somewhere)",phonetic:"ah-bee-TAY",example:"A: Où habites-tu?\nB: J'habite à Paris.\nA: Et tes parents?\nB: Ils habitent à Lyon.",exampleEn:"A: Where do you live?\nB: I live in Paris.\nA: And your parents?\nB: They live in Lyon.",note:"Habiter = to live (at a place). Regular -er verb.\nJ'habite (elision: je + habite).\nHabiter à + city: J'habite à Paris."},
+
+  {type:"teach",kind:"word",nl:"travailler",en:"to work",phonetic:"trah-vah-YAY",example:"A: Tu travailles où?\nB: Je travaille dans un bureau.\nA: Et ta femme?\nB: Elle travaille à l'hôpital.",exampleEn:"A: Where do you work?\nB: I work in an office.\nA: And your wife?\nB: She works at the hospital.",note:"Travailler = to work. Regular -er verb.\nJe travaille, tu travailles, il travaille.\nThe -aille sounds like AH-yuh."},
+
+  {type:"teach",kind:"word",nl:"manger",en:"to eat",phonetic:"mon-ZHAY",example:"A: Qu'est-ce que tu manges?\nB: Je mange une salade.\nA: Nous mangeons au restaurant ce soir.",exampleEn:"A: What are you eating?\nB: I am eating a salad.\nA: We are eating at the restaurant tonight.",note:"Manger = to eat. Almost regular -er verb.\nSmall exception: nous mangEONS (keep the E to preserve the ZH sound).\nJe mange, tu manges, nous mangeons."},
+
+  {type:"teach",kind:"word",nl:"regarder",en:"to watch / to look at",phonetic:"ruh-gar-DAY",example:"A: Tu regardes quoi?\nB: Je regarde un film.\nA: C'est bien?\nB: Oui, c'est super!",exampleEn:"A: What are you watching?\nB: I am watching a movie.\nA: Is it good?\nB: Yes, it's great!",note:"Regarder = to watch/look at. Regular -er verb.\nJe regarde la télé = I watch TV.\nRegarder needs a direct object, no preposition."},
+
+  {type:"mc",q:"In 'parler', the stem is:",opts:["par","parl","parle","parler"],ans:"parl",hint:"Remove -er from the infinitive to get the stem."},
+
+  {type:"mc",q:"'Je parle' and 'ils parlent' sound:",opts:["Different","Identical","Similar","Ils is louder"],ans:"Identical",hint:"The -e and -ent endings are both silent."},
+
+  {type:"fb",s:"Tu ___  à Paris? (to live)",a:"habites",opts:["habites","habite","habitez","habitent"],hint:"You live (informal): stem + es ending."},
+
+  {type:"mc",q:"The ONLY two -er endings you can HEAR are:",opts:["-e and -es","-ons and -ez","-e and -ent","-ons and -ent"],ans:"-ons and -ez",hint:"Nous parlONS, vous parlEZ. The rest are silent."},
+
+  {type:"match",pairs:[{nl:"je parle",en:"I speak"},{nl:"nous parlons",en:"we speak"},{nl:"vous parlez",en:"you speak (formal)"},{nl:"ils parlent",en:"they speak"}]},
+
+  {type:"mc",q:"'Nous mangeons' keeps the E because:",opts:["It is formal","Without E, the G would sound like GUH","Manger is irregular","It is plural"],ans:"Without E, the G would sound like GUH",hint:"The E keeps the soft ZH sound before -ons."},
+
+  {type:"fb",s:"Elle ___ dans un hôpital. (to work)",a:"travaille",opts:["travaille","travailles","travaillent","travailler"],hint:"She works: third person singular, stem + e."},
+
+  {type:"mc",q:"How many DIFFERENT sounds does a regular -er verb have in present tense?",opts:["Six","Four","Three","Two"],ans:"Three",hint:"je/tu/il/ils = same, nous = different, vous = different."},
+
+  {type:"fb",s:"Nous ___ la télé le soir. (to watch)",a:"regardons",opts:["regardons","regarde","regardez","regardent"],hint:"We watch: nous + stem + ons."},
+
+  {type:"mc",q:"To conjugate any -er verb, you:",opts:["Add -er to the subject","Remove -er and add the person ending","Change the first letter","Add -ment"],ans:"Remove -er and add the person ending",hint:"Infinitive minus -er = stem. Stem + ending = conjugated."},
+
+  {type:"fb",s:"Elles ___ la radio tous les matins. (to listen)",a:"écoutent",opts:["écoutent","écoute","écoutons","écoutez"],hint:"They (feminine) listen: third person plural -er ending."},
+]},
+
+// ═══ L2: L'heure ═══
+{id:"fre5l2",title:"L'heure",icon:"🕐",xp:15,board:true,steps:[
+  {type:"intro",title:"L'heure",desc:"Learn to tell time in French. France uses the 24-hour clock officially, but 12-hour is common in speech.",goals:["Ask and tell the time","Use 24-hour and 12-hour formats","Say half, quarter, and minutes"]},
+
+  {type:"teach",kind:"phrase",nl:"Quelle heure est-il?",en:"What time is it?",phonetic:"kel UHR ay-TEEL",example:"A: Quelle heure est-il?\nB: Il est trois heures.\nA: Merci!",exampleEn:"A: What time is it?\nB: It is three o'clock.\nA: Thank you!",note:"The formal way to ask the time.\nIl est + number + heure(s) = It is ... o'clock.\nAlternative: Vous avez l'heure? (Do you have the time?)"},
+
+  {type:"teach",kind:"phrase",nl:"Il est ... heure(s)",en:"It is ... o'clock",phonetic:"eel ay ... UHR",example:"A: Il est quelle heure?\nB: Il est huit heures.\nA: Déjà? Je suis en retard!",exampleEn:"A: What time is it?\nB: It is eight o'clock.\nA: Already? I am late!",note:"Il est une heure = It is one o'clock (singular: heure).\nIl est deux heures = It is two (plural: heures).\nIl est midi = It is noon. Il est minuit = It is midnight."},
+
+  {type:"teach",kind:"phrase",nl:"... et demie / ... et quart / ... moins le quart",en:"... half past / ... quarter past / ... quarter to",phonetic:"ay duh-MEE / ay KAHR / mwan luh KAHR",example:"A: Il est quelle heure?\nB: Il est deux heures et demie.\nA: Et le cours commence à trois heures moins le quart?",exampleEn:"A: What time is it?\nB: It is half past two.\nA: And the class starts at quarter to three?",note:"Et demie = and half (2:30).\nEt quart = and quarter (2:15).\nMoins le quart = minus the quarter (2:45).\nFor minutes: Il est deux heures vingt (2:20)."},
+
+  {type:"teach",kind:"phrase",nl:"à ... heure(s)",en:"at ... o'clock",phonetic:"ah ... UHR",example:"A: Tu te lèves à quelle heure?\nB: Je me lève à sept heures.\nA: C'est tôt!",exampleEn:"A: What time do you get up?\nB: I get up at seven.\nA: That's early!",note:"À = at (for time).\nÀ sept heures = at seven o'clock.\nÀ midi = at noon. À minuit = at midnight."},
+
+  {type:"tip",title:"12-Hour vs 24-Hour",text:"Official French time is 24-hour (like military time):\n\n13h00 = 1 PM. 15h30 = 3:30 PM. 20h00 = 8 PM.\n\nIn conversation, 12-hour is common:\nIl est trois heures (could be 3 AM or 3 PM).\nContext or du matin/de l'après-midi/du soir clarifies.\n\nKey times:\nMidi = noon (12:00). Minuit = midnight (00:00).\nThese replace douze heures.",deepDive:{title:"Du matin, de l'après-midi, du soir",text:"To specify AM/PM in 12-hour format:\n\ndu matin = in the morning (AM)\nde l'après-midi = in the afternoon (PM)\ndu soir = in the evening (PM)\n\nIl est trois heures du matin = 3 AM.\nIl est trois heures de l'après-midi = 3 PM.\nIl est huit heures du soir = 8 PM.\n\nIn 24-hour format, these are unnecessary: 15h00 is already unambiguous."}},
+
+  {type:"teach",kind:"word",nl:"tôt / tard",en:"early / late",phonetic:"TOH / TAHR",example:"A: Tu te couches tôt ou tard?\nB: Assez tard. Vers minuit.\nA: C'est tard!",exampleEn:"A: Do you go to bed early or late?\nB: Quite late. Around midnight.\nA: That's late!",note:"Tôt = early. Tard = late.\nC'est tôt! = That's early! C'est tard! = That's late!\nTrop tôt = too early. Trop tard = too late."},
+
+  {type:"mc",q:"'Il est trois heures et demie' means:",opts:["3:15","3:30","3:45","3:00"],ans:"3:30",hint:"Et demie = and half. Half past three."},
+
+  {type:"mc",q:"'Midi' means:",opts:["Midnight","Noon","Midday meal","Middle"],ans:"Noon",hint:"Midi = 12:00 PM. Minuit = 12:00 AM."},
+
+  {type:"fb",s:"Il est deux heures ___ le quart. (quarter to)",a:"moins",opts:["moins","et","plus","avec"],hint:"Quarter TO: subtract from the next hour."},
+
+  {type:"mc",q:"In 24-hour time, 15h30 is:",opts:["3:30 AM","3:30 PM","5:30 PM","1:30 PM"],ans:"3:30 PM",hint:"15 minus 12 = 3. So 3:30 in the afternoon."},
+
+  {type:"match",pairs:[{nl:"et demie",en:"half past"},{nl:"et quart",en:"quarter past"},{nl:"moins le quart",en:"quarter to"},{nl:"midi",en:"noon"}]},
+
+  {type:"mc",q:"'À sept heures' means:",opts:["At seven o'clock","Seven hours ago","For seven hours","Since seven"],ans:"At seven o'clock",hint:"À = at (for time). À sept heures = at 7:00."},
+
+  {type:"fb",s:"Quelle ___ est-il? Il est neuf heures.",a:"heure",opts:["heure","heures","temps","fois"],hint:"What time is it? The singular form in the question."},
+
+  {type:"mc",q:"'Il est une heure' uses singular 'heure' because:",opts:["It is informal","One is singular","Heure is always singular","It is morning"],ans:"One is singular",hint:"Une heure (1 o'clock) is singular. All others are plural."},
+
+  {type:"fb",s:"Il est huit heures du ___. (8 AM)",a:"matin",opts:["matin","soir","midi","nuit"],hint:"Eight o'clock in the morning."},
+
+  {type:"mc",q:"'Trop tard' means:",opts:["Very early","Too late","A little late","On time"],ans:"Too late",hint:"Trop = too much. Tard = late. Combined meaning?"},
+
+  {type:"fb",s:"Il est ___ heures vingt. (5:20)",a:"cinq",opts:["cinq","six","sept","quatre"],hint:"The number five in French."},
+]},
+
+// ═══ L3: Les verbes réfléchis ═══
+{id:"fre5l3",title:"Les verbes réfléchis",icon:"🪞",xp:15,board:true,steps:[
+  {type:"intro",title:"Les verbes réfléchis",desc:"Reflexive verbs describe actions you do to YOURSELF: wash yourself, wake yourself up. French uses them much more than English.",goals:["Understand se + verb pattern","Use 4 daily routine reflexive verbs","Conjugate reflexive verbs correctly"]},
+
+  {type:"teach",kind:"word",nl:"se lever",en:"to get up (to raise oneself)",phonetic:"suh luh-VAY",example:"A: Tu te lèves à quelle heure?\nB: Je me lève à sept heures.\nA: C'est tôt! Moi, je me lève à neuf heures.",exampleEn:"A: What time do you get up?\nB: I get up at seven.\nA: That's early! Me, I get up at nine.",note:"Se lever = to get up (reflexive).\nJe ME lève. Tu TE lèves. Il/Elle SE lève.\nThe reflexive pronoun (me/te/se) comes BEFORE the verb."},
+
+  {type:"teach",kind:"word",nl:"se coucher",en:"to go to bed (to lay oneself down)",phonetic:"suh koo-SHAY",example:"A: Tu te couches à quelle heure?\nB: Je me couche à onze heures.\nA: Et les enfants?\nB: Ils se couchent à huit heures.",exampleEn:"A: What time do you go to bed?\nB: I go to bed at eleven.\nA: And the children?\nB: They go to bed at eight.",note:"Se coucher = to go to bed (reflexive).\nJe me couche. Tu te couches. Ils se couchent.\nSame pattern as se lever: me/te/se before verb."},
+
+  {type:"teach",kind:"word",nl:"se réveiller",en:"to wake up",phonetic:"suh ray-vay-YAY",example:"A: Tu te réveilles facilement?\nB: Non, je me réveille difficilement.\nA: Moi, je me réveille avec une alarme.",exampleEn:"A: Do you wake up easily?\nB: No, I wake up with difficulty.\nA: Me, I wake up with an alarm.",note:"Se réveiller = to wake up (reflexive).\nJe me réveille. Tu te réveilles.\nThe verb part conjugates normally (-er pattern)."},
+
+  {type:"teach",kind:"word",nl:"se laver",en:"to wash oneself",phonetic:"suh lah-VAY",example:"A: Tu te laves le matin ou le soir?\nB: Je me lave le matin.\nA: Avant ou après le petit déjeuner?",exampleEn:"A: Do you wash in the morning or evening?\nB: I wash in the morning.\nA: Before or after breakfast?",note:"Se laver = to wash (oneself) (reflexive).\nJe me lave. Tu te laves. Elle se lave.\nSe laver les mains = to wash one's hands."},
+
+  {type:"tip",title:"How Reflexive Verbs Work",text:"Reflexive verbs have TWO parts:\n1. A reflexive pronoun (me, te, se, nous, vous, se)\n2. The verb (conjugated normally)\n\nje ME lève (I get up = I raise myself)\ntu TE lèves (you get up)\nil/elle SE lève (he/she gets up)\nnous NOUS levons (we get up)\nvous VOUS levez (you get up)\nils/elles SE lèvent (they get up)\n\nThe pronoun matches the subject and goes BEFORE the verb.\nThe verb part follows normal -er conjugation.",deepDive:{title:"Why so many reflexive verbs in French?",text:"French uses reflexive verbs for many actions that English expresses differently:\n\nse lever = to get up (raise yourself)\nse coucher = to go to bed (lay yourself down)\nse laver = to wash (wash yourself)\nse réveiller = to wake up (wake yourself)\nse brosser les dents = to brush your teeth (brush yourself the teeth)\nse maquiller = to put on makeup (make yourself up)\ns'habiller = to get dressed (dress yourself)\n\nIn English, the yourself is usually implied. In French, it is explicit. This reflects a grammatical tradition from Latin where the reflexive was standard for self-directed actions."}},
+
+  {type:"teach",kind:"phrase",nl:"le matin / le soir",en:"in the morning / in the evening",phonetic:"luh mah-TAN / luh SWAHR",example:"A: Tu te laves le matin ou le soir?\nB: Le matin. Et je me brosse les dents le matin et le soir.\nA: Bonne hygiène!",exampleEn:"A: Do you wash in the morning or the evening?\nB: In the morning. And I brush my teeth morning and evening.\nA: Good hygiene!",note:"Le matin = in the morning. Le soir = in the evening.\nFrench uses le + time of day (no preposition: NOT dans le matin).\nL'après-midi = in the afternoon."},
+
+  {type:"mc",q:"In 'je me lève', the 'me' is:",opts:["An article","A reflexive pronoun (myself)","A possessive","A preposition"],ans:"A reflexive pronoun (myself)",hint:"Me = myself. The action reflects back to the subject."},
+
+  {type:"mc",q:"Reflexive pronouns go:",opts:["After the verb","Before the verb","After the subject","At the end"],ans:"Before the verb",hint:"Je ME lève. Tu TE couches. The pronoun is between subject and verb."},
+
+  {type:"fb",s:"Tu ___ lèves à quelle heure?",a:"te",opts:["te","me","se","nous"],hint:"You (informal) get up: which reflexive pronoun?"},
+
+  {type:"mc",q:"'Ils se couchent' means:",opts:["They wake up","They go to bed","They wash","They eat"],ans:"They go to bed",hint:"Se coucher = the reflexive for ending the day. What does it mean?"},
+
+  {type:"match",pairs:[{nl:"se lever",en:"to get up"},{nl:"se coucher",en:"to go to bed"},{nl:"se réveiller",en:"to wake up"},{nl:"se laver",en:"to wash oneself"}]},
+
+  {type:"mc",q:"The verb part of a reflexive -er verb conjugates:",opts:["Differently from regular -er verbs","Normally, following the -er pattern","With special reflexive endings","Without any endings"],ans:"Normally, following the -er pattern",hint:"The verb conjugates normally. Only the pronoun is added."},
+
+  {type:"fb",s:"Elle ___ lave les mains avant de manger.",a:"se",opts:["se","me","te","nous"],hint:"She washes: third person reflexive pronoun."},
+
+  {type:"mc",q:"'Le matin' means 'in the morning' without any preposition because:",opts:["It is informal","French uses le + time of day","Matin is special","Le replaces dans"],ans:"French uses le + time of day",hint:"Le matin, le soir, l'après-midi: definite article for time periods."},
+
+  {type:"fb",s:"Je me ___ à six heures et demie. (to wake up)",a:"réveille",opts:["réveille","lève","couche","lave"],hint:"I wake up: the reflexive verb for coming out of sleep."},
+
+  {type:"mc",q:"The nous form of 'se lever' is:",opts:["Nous nous levons","Nous se levons","Nous levons nous","On se lève"],ans:"Nous nous levons",hint:"Nous + NOUS (reflexive pronoun) + levons."},
+
+  {type:"fb",s:"Tu ___ habilles vite le matin. (yourself)",a:"t'",opts:["t'","se","me","nous"],hint:"Second person reflexive before a vowel: elided form."},
+]},
+
+// ═══ L4: Ma journée ═══
+{id:"fre5l4",title:"Ma journée",icon:"🌅",xp:15,board:true,steps:[
+  {type:"intro",title:"Ma journée",desc:"Describe a typical day from morning to night. Combine time, reflexive verbs, and -er verbs into a flowing daily narrative.",goals:["Describe a full daily routine","Use time expressions naturally","Sequence actions with puis, ensuite, après"]},
+
+  {type:"teach",kind:"phrase",nl:"D'abord... puis... ensuite... enfin",en:"First... then... next... finally",phonetic:"dah-BOR... PWEE... on-SWEET... on-FAN",example:"A: Qu'est-ce que tu fais le matin?\nB: D'abord, je me réveille. Puis, je me lève. Ensuite, je me lave.\nA: Et après?\nB: Enfin, je prends le petit déjeuner.",exampleEn:"A: What do you do in the morning?\nB: First, I wake up. Then, I get up. Next, I wash.\nA: And after?\nB: Finally, I have breakfast.",note:"Sequence words for describing routines:\nD'abord = first. Puis = then. Ensuite = next. Enfin = finally.\nAprès = after. Avant = before."},
+
+  {type:"teach",kind:"word",nl:"prendre",en:"to take / to have (food/drink)",phonetic:"PRONDR",example:"A: Tu prends quoi au petit déjeuner?\nB: Je prends un café et un croissant.\nA: Moi, je prends du thé.",exampleEn:"A: What do you have for breakfast?\nB: I have a coffee and a croissant.\nA: Me, I have tea.",note:"Prendre = to take/have (irregular verb!).\nJe prends, tu prends, il prend (no S!)\nNous prenons, vous prenez, ils prennent.\nUsed for meals: prendre le petit déjeuner = to have breakfast."},
+
+  {type:"teach",kind:"word",nl:"aller",en:"to go",phonetic:"ah-LAY",example:"A: Tu vas au travail à quelle heure?\nB: Je vais au travail à huit heures.\nA: Tu y vas comment?\nB: J'y vais en métro.",exampleEn:"A: What time do you go to work?\nB: I go to work at eight.\nA: How do you get there?\nB: I go by metro.",note:"Aller = to go (highly irregular!).\nJe vais, tu vas, il va\nNous allons, vous allez, ils vont.\nAller + à = go to: je vais au travail."},
+
+  {type:"teach",kind:"phrase",nl:"faire (du sport / la cuisine)",en:"to do (sport / cooking)",phonetic:"FEHR",example:"A: Tu fais du sport?\nB: Oui, je fais du sport le soir.\nA: Et tu fais la cuisine aussi?\nB: Oui, j'adore faire la cuisine!",exampleEn:"A: Do you do sport?\nB: Yes, I do sport in the evening.\nA: And you cook too?\nB: Yes, I love cooking!",note:"Faire = to do/make (irregular).\nJe fais, tu fais, il fait\nNous faisons, vous faites, ils font.\nFaire du sport = to exercise. Faire la cuisine = to cook."},
+
+  {type:"tip",title:"A Model Daily Routine",text:"A typical French daily routine:\n\nLe matin:\nJe me réveille à sept heures.\nJe me lève et je me lave.\nJe prends le petit déjeuner.\nJe vais au travail à huit heures.\n\nL'après-midi:\nJe déjeune à midi.\nJe travaille jusqu'à cinq heures.\n\nLe soir:\nJe rentre à la maison à six heures.\nJe fais la cuisine.\nJe dîne à sept heures et demie.\nJe regarde la télé.\nJe me couche à onze heures.",deepDive:{title:"Irregular verbs in daily routine",text:"Daily routine uses several irregular verbs:\n\nPrendre (to take/have): je prends, tu prends, il prend\nAller (to go): je vais, tu vas, il va\nFaire (to do/make): je fais, tu fais, il fait\n\nThese three irregulars are among the most common French verbs. Memorize their present tense forms. They appear in almost every conversation about daily life.\n\nRegular -er verbs in routine: travailler, déjeuner, dîner, regarder, rentrer (to come home)."}},
+
+  {type:"teach",kind:"word",nl:"rentrer",en:"to come home / to return",phonetic:"ron-TRAY",example:"A: Tu rentres à quelle heure?\nB: Je rentre à six heures.\nA: C'est tôt!",exampleEn:"A: What time do you come home?\nB: I come home at six.\nA: That's early!",note:"Rentrer = to come home / to go back. Regular -er verb.\nJe rentre à la maison = I come home.\nIl rentre du travail = He comes back from work."},
+
+  {type:"mc",q:"The correct sequence is:",opts:["Ensuite, d'abord, puis, enfin","D'abord, puis, ensuite, enfin","Enfin, d'abord, ensuite, puis","Puis, enfin, d'abord, ensuite"],ans:"D'abord, puis, ensuite, enfin",hint:"First, then, next, finally: the logical order."},
+
+  {type:"mc",q:"'Je prends le petit déjeuner' uses prendre because:",opts:["Prendre means to eat","French uses prendre (to take/have) for meals","Prendre means to cook","It is informal"],ans:"French uses prendre (to take/have) for meals",hint:"Prendre le petit déjeuner = to have breakfast."},
+
+  {type:"fb",s:"Je ___ au travail à huit heures. (to go)",a:"vais",opts:["vais","vas","va","aller"],hint:"I go: first person singular of aller."},
+
+  {type:"mc",q:"'Faire du sport' means:",opts:["To watch sport","To do sport / to exercise","To like sport","To play a sport"],ans:"To do sport / to exercise",hint:"Faire = to do. Du sport = some sport."},
+
+  {type:"match",pairs:[{nl:"se réveiller",en:"to wake up"},{nl:"prendre le petit déjeuner",en:"to have breakfast"},{nl:"aller au travail",en:"to go to work"},{nl:"rentrer à la maison",en:"to come home"}]},
+
+  {type:"mc",q:"Which verbs are IRREGULAR?",opts:["Habiter, travailler, regarder","Prendre, aller, faire","Se lever, se coucher, se laver","Parler, manger, rentrer"],ans:"Prendre, aller, faire",hint:"These three do not follow the -er pattern."},
+
+  {type:"fb",s:"Elle ___ la cuisine tous les soirs. (to do/make)",a:"fait",opts:["fait","fais","faire","font"],hint:"She does/makes: third person singular of faire."},
+
+  {type:"mc",q:"'Je rentre à la maison' means:",opts:["I leave the house","I come home","I clean the house","I build a house"],ans:"I come home",hint:"Rentrer = to come back/home. Regular -er verb."},
+
+  {type:"fb",s:"D'abord je me lève, ___ je me lave.",a:"puis",opts:["puis","enfin","d'abord","avant"],hint:"First I get up, THEN I wash. Second in the sequence."},
+
+  {type:"mc",q:"In 'nous prenons', the conjugation is irregular because:",opts:["Prendre does not follow the -er pattern","Nous is special","Prenons sounds better","It is a reflexive verb"],ans:"Prendre does not follow the -er pattern",hint:"Prendre is an -re verb with its own irregular forms."},
+
+  {type:"fb",s:"Le soir, elle ___ couche à vingt-deux heures.",a:"se",opts:["se","me","te","nous"],hint:"She goes to bed: third person reflexive pronoun."},
+]},
+
+// ═══ L5: Les jours de la semaine ═══
+{id:"fre5l5",title:"Les jours de la semaine",icon:"📅",xp:15,board:true,steps:[
+  {type:"intro",title:"Les jours de la semaine",desc:"Learn the days of the week. In France, the week starts on Monday (lundi), not Sunday. Days are never capitalized.",goals:["Name all 7 days","Know that days are lowercase and masculine","Use le + day for habitual actions"]},
+
+  {type:"teach",kind:"word",nl:"lundi, mardi, mercredi",en:"Monday, Tuesday, Wednesday",phonetic:"lun-DEE, mar-DEE, mehr-kruh-DEE",example:"A: Tu travailles lundi?\nB: Oui, je travaille lundi et mardi.\nA: Et mercredi?\nB: Mercredi, je suis libre!",exampleEn:"A: Do you work Monday?\nB: Yes, I work Monday and Tuesday.\nA: And Wednesday?\nB: Wednesday, I am free!",note:"Lundi, mardi, mercredi = Mon, Tue, Wed.\nAlways lowercase in French (not capitalized).\nAll masculine: le lundi = on Mondays (habitual)."},
+
+  {type:"teach",kind:"word",nl:"jeudi, vendredi",en:"Thursday, Friday",phonetic:"zhuh-DEE, von-druh-DEE",example:"A: Le cours est jeudi ou vendredi?\nB: Jeudi. Et vendredi, on fait la fête!\nA: Super!",exampleEn:"A: Is the class Thursday or Friday?\nB: Thursday. And Friday, we party!\nA: Great!",note:"Jeudi = Thursday. Vendredi = Friday.\nJeudi comes from Jupiter (Jovis dies).\nVendredi from Venus (Veneris dies)."},
+
+  {type:"teach",kind:"word",nl:"samedi, dimanche",en:"Saturday, Sunday",phonetic:"sam-DEE, dee-MONSH",example:"A: Qu'est-ce que tu fais le week-end?\nB: Samedi, je fais du sport. Dimanche, je me repose.\nA: Bon week-end!",exampleEn:"A: What do you do on the weekend?\nB: Saturday, I exercise. Sunday, I rest.\nA: Have a good weekend!",note:"Samedi = Saturday. Dimanche = Sunday.\nLe week-end = the weekend (borrowed from English).\nFrench week starts Monday, ends Sunday."},
+
+  {type:"tip",title:"Le lundi vs Lundi",text:"Critical difference:\n\nLundi = this Monday / on Monday (specific, once)\nLe lundi = on Mondays (every Monday, habitual)\n\nJe travaille lundi. = I work this Monday.\nJe travaille le lundi. = I work on Mondays (every week).\n\nThe definite article le makes it habitual.\nThis pattern works for all time expressions:\nLe matin = every morning. Le soir = every evening.",deepDive:{title:"Origins of French day names",text:"French days come from Latin/Roman gods and planets:\n\nLundi = Moon day (Latin: Lunae dies, English: Monday)\nMardi = Mars day (Latin: Martis dies, English: Tuesday)\nMercredi = Mercury day (Latin: Mercurii dies)\nJeudi = Jupiter day (Latin: Jovis dies, English: Thursday from Thor)\nVendredi = Venus day (Latin: Veneris dies, English: Friday from Freya)\nSamedi = Saturn day (Latin: Saturni dies, English: Saturday)\nDimanche = Lord's day (Latin: Dominica dies, English: Sunday)\n\nNotice: English replaced most Roman gods with Norse equivalents, but French kept the Latin."}},
+
+  {type:"teach",kind:"phrase",nl:"le week-end",en:"the weekend",phonetic:"luh week-END",example:"A: Tu fais quoi le week-end?\nB: Le week-end, je me repose.\nA: Moi, je fais du sport le samedi.",exampleEn:"A: What do you do on weekends?\nB: On weekends, I rest.\nA: Me, I exercise on Saturdays.",note:"Le week-end = the weekend (English loanword!).\nBon week-end! = Have a good weekend!\nLe week-end = habitual. Ce week-end = this weekend."},
+
+  {type:"mc",q:"French days of the week are:",opts:["Always capitalized","Never capitalized","Capitalized at sentence start only","Capitalized on calendars"],ans:"Never capitalized",hint:"Lundi, mardi, mercredi: always lowercase."},
+
+  {type:"mc",q:"'Le lundi' vs 'lundi' means:",opts:["Formal vs casual","Every Monday vs this Monday","Past vs present","Morning vs evening"],ans:"Every Monday vs this Monday",hint:"Le + day = habitual. Day alone = specific occasion."},
+
+  {type:"fb",s:"Je travaille ___ et mardi. (this Monday)",a:"lundi",opts:["lundi","le lundi","un lundi","au lundi"],hint:"This specific Monday, not every Monday."},
+
+  {type:"mc",q:"In France, the week starts on:",opts:["Sunday","Monday","Saturday","It varies"],ans:"Monday",hint:"French week: lundi to dimanche (Mon to Sun)."},
+
+  {type:"match",pairs:[{nl:"lundi",en:"Monday"},{nl:"mercredi",en:"Wednesday"},{nl:"vendredi",en:"Friday"},{nl:"dimanche",en:"Sunday"}]},
+
+  {type:"mc",q:"'Mardi' comes from the planet/god:",opts:["Moon","Mars","Mercury","Jupiter"],ans:"Mars",hint:"Mardi comes from the Latin Martis dies. Which Roman god?"},
+
+  {type:"fb",s:"___ samedi, je fais du sport. (every Saturday)",a:"Le",opts:["Le","Ce","Un","En"],hint:"Habitual: LE + day = every Saturday."},
+
+  {type:"mc",q:"'Le week-end' is an English word borrowed into French:",opts:["True","False","Only in Canada","Only in informal speech"],ans:"True",hint:"French borrowed week-end directly from English."},
+
+  {type:"mc",q:"'Bon week-end!' is said:",opts:["Monday morning","Friday/Saturday when parting","Sunday night","Any day"],ans:"Friday/Saturday when parting",hint:"Wishing someone a good weekend as you part."},
+
+  {type:"fb",s:"Qu'est-ce que tu fais ___ dimanche? (this Sunday)",a:"ce",opts:["ce","le","un","du"],hint:"This specific Sunday: demonstrative + day."},
+
+  {type:"mc",q:"All French day names are:",opts:["Feminine","Masculine","Neutral","Mixed"],ans:"Masculine",hint:"Le lundi, le mardi: notice the article that precedes them."},
+
+  {type:"fb",s:"Le ___ est le premier jour de la semaine en France.",a:"lundi",opts:["lundi","dimanche","samedi","mardi"],hint:"In France, the week starts on this day, not Sunday."},
+]},
+
+// ═══ L6: La négation ═══
+{id:"fre5l6",title:"La négation",icon:"🚫",xp:15,board:true,steps:[
+  {type:"intro",title:"La négation: ne...pas",desc:"French negation wraps around the verb: ne BEFORE, pas AFTER. This sandwich pattern is essential and affects articles too.",goals:["Use ne...pas for negation","Handle elision (n'...pas before vowels)","Know partitive becomes de after negation"]},
+
+  {type:"teach",kind:"phrase",nl:"ne ... pas",en:"not",phonetic:"nuh ... PAH",example:"A: Tu parles chinois?\nB: Non, je ne parle pas chinois.\nA: Et japonais?\nB: Non, je ne parle pas japonais non plus.",exampleEn:"A: Do you speak Chinese?\nB: No, I do not speak Chinese.\nA: And Japanese?\nB: No, I do not speak Japanese either.",note:"Ne ... pas = not. Wraps around the verb:\nJe ne parle pas. Tu ne manges pas. Il ne travaille pas.\nNe goes BEFORE the verb. Pas goes AFTER."},
+
+  {type:"teach",kind:"phrase",nl:"n' ... pas (before vowels)",en:"not (before vowels)",phonetic:"n ... PAH",example:"A: Tu n'aimes pas le fromage?\nB: Non, je n'aime pas le fromage.\nA: C'est dommage!",exampleEn:"A: You don't like cheese?\nB: No, I don't like cheese.\nA: That's a shame!",note:"Before vowel sounds, ne becomes n':\nJe n'aime pas. Il n'habite pas. Elle n'est pas.\nElision: ne + aime = n'aime."},
+
+  {type:"teach",kind:"phrase",nl:"ne ... pas de",en:"not any (negation + partitive)",phonetic:"nuh ... PAH duh",example:"A: Tu as du lait?\nB: Non, je n'ai pas de lait.\nA: Et du pain?\nB: Non, je n'ai pas de pain non plus.",exampleEn:"A: Do you have milk?\nB: No, I don't have any milk.\nA: And bread?\nB: No, I don't have any bread either.",note:"After ne...pas, partitive articles become DE:\nJ'ai du lait > Je n'ai pas DE lait.\nJ'ai de la soupe > Je n'ai pas DE soupe.\nIl y a des pommes > Il n'y a pas DE pommes."},
+
+  {type:"tip",title:"The Negation Sandwich",text:"French negation always has two parts:\n\nSubject + NE + verb + PAS + rest\nJe NE parle PAS français.\nTu NE manges PAS de viande.\nIl N'habite PAS à Paris.\n\nBefore vowels, ne becomes n':\nJe N'aime PAS. Elle N'est PAS.\n\nCRITICAL: In spoken French, ne is often dropped!\nJe parle pas. (spoken)\nJe ne parle pas. (written/formal)\n\nAlways write ne. In speech, you will hear it dropped.",deepDive:{title:"Other negation words",text:"Ne...pas is the basic negation. French has others:\n\nne...plus = no longer (Je ne travaille plus = I no longer work)\nne...jamais = never (Je ne mange jamais de viande = I never eat meat)\nne...rien = nothing (Je ne vois rien = I see nothing)\nne...personne = nobody (Je ne connais personne = I know nobody)\n\nThey all follow the same sandwich pattern: ne + verb + negation word.\nYou will learn these in A2."}},
+
+  {type:"teach",kind:"phrase",nl:"Ce n'est pas...",en:"It is not...",phonetic:"suh nay PAH",example:"A: C'est du café?\nB: Non, ce n'est pas du café. C'est du thé.\nA: Ah, pardon!",exampleEn:"A: Is that coffee?\nB: No, it is not coffee. It's tea.\nA: Ah, sorry!",note:"Ce n'est pas = It is not.\nC'est + affirmative = C'est bon. (It's good.)\nCe n'est pas + negative = Ce n'est pas bon. (It's not good.)"},
+
+  {type:"mc",q:"'Je ne parle pas français' has negation:",opts:["Only before the verb","Only after the verb","Wrapped around the verb (ne...pas)","At the end"],ans:"Wrapped around the verb (ne...pas)",hint:"The sandwich: ne before, pas after the verb."},
+
+  {type:"mc",q:"Before vowels, 'ne' becomes:",opts:["Non","Pas","N'","Nul"],ans:"N'",hint:"Elision: ne + vowel = n'. Je n'aime pas."},
+
+  {type:"fb",s:"Je ___ mange pas de viande.",a:"ne",opts:["ne","n'","pas","non"],hint:"The first half of the negation sandwich, before the verb."},
+
+  {type:"mc",q:"'J'ai du lait' in negative becomes:",opts:["Je n'ai pas du lait","Je n'ai pas de lait","Je n'ai pas le lait","Je n'ai du lait pas"],ans:"Je n'ai pas de lait",hint:"Partitive becomes de/d' after ne...pas."},
+
+  {type:"match",pairs:[{nl:"Je parle",en:"I speak"},{nl:"Je ne parle pas",en:"I do not speak"},{nl:"J'aime",en:"I like"},{nl:"Je n'aime pas",en:"I do not like"}]},
+
+  {type:"mc",q:"In spoken French, 'ne' is often:",opts:["Emphasized","Dropped","Doubled","Replaced by pas"],ans:"Dropped",hint:"Spoken: je parle pas. Written: je ne parle pas."},
+
+  {type:"fb",s:"Il n'y a pas ___ pain. (no bread)",a:"de",opts:["de","du","le","un"],hint:"After ne...pas, partitive becomes just de."},
+
+  {type:"mc",q:"'Ce n'est pas bon' means:",opts:["It is very good","It is not good","It is not bad","It is okay"],ans:"It is not good",hint:"Ce n'est pas = it is not. Bon = good."},
+
+  {type:"fb",s:"Elle ___ habite pas à Paris.",a:"n'",opts:["n'","ne","ni","non"],hint:"Before a vowel (habite), ne becomes n'."},
+
+  {type:"mc",q:"Which negative sentence is correct?",opts:["Je pas parle","Je ne pas parle","Je ne parle pas","Pas je ne parle"],ans:"Je ne parle pas",hint:"Subject + ne + verb + pas. Always this order."},
+
+  {type:"mc",q:"'Il n'y a pas de pommes' means:",opts:["There are some apples","There are no apples","There are the apples","Apples are not here"],ans:"There are no apples",hint:"Il n'y a pas de = there are no / there aren't any."},
+
+  {type:"fb",s:"Elle ___ aime pas le café.",a:"n'",opts:["n'","ne","ni","pas"],hint:"Before a vowel, ne becomes the elided form."},
+]},
+
+// ═══ L7: Ma semaine typique ═══
+{id:"fre5l7",title:"Ma semaine typique",icon:"📋",xp:15,board:true,steps:[
+  {type:"intro",title:"Ma semaine typique",desc:"Describe your typical week combining everything: days, times, routine verbs, negation. This is where all Unit 5 skills connect.",goals:["Describe a typical week day by day","Use time expressions fluently","Combine positive and negative statements"]},
+
+  {type:"teach",kind:"phrase",nl:"tous les jours",en:"every day",phonetic:"too lay ZHOOR",example:"A: Tu fais du sport?\nB: Oui, je fais du sport tous les jours.\nA: Impressionnant!",exampleEn:"A: Do you exercise?\nB: Yes, I exercise every day.\nA: Impressive!",note:"Tous les jours = every day (literally: all the days).\nTous = all. Les jours = the days.\nTous les matins = every morning. Tous les soirs = every evening."},
+
+  {type:"teach",kind:"phrase",nl:"souvent / parfois / rarement",en:"often / sometimes / rarely",phonetic:"soo-VON / par-FWAH / rar-MON",example:"A: Tu cuisines souvent?\nB: Parfois. Je mange souvent au restaurant.\nA: Et tu fais du sport?\nB: Rarement, malheureusement!",exampleEn:"A: Do you cook often?\nB: Sometimes. I often eat at restaurants.\nA: And do you exercise?\nB: Rarely, unfortunately!",note:"Frequency adverbs go AFTER the verb:\nJe mange souvent au restaurant.\nJe fais rarement du sport.\nJe travaille parfois le samedi."},
+
+  {type:"teach",kind:"phrase",nl:"de ... à ...",en:"from ... to ...",phonetic:"duh ... ah",example:"A: Tu travailles de quelle heure à quelle heure?\nB: Je travaille de neuf heures à cinq heures.\nA: C'est une journée normale.",exampleEn:"A: What hours do you work?\nB: I work from nine to five.\nA: That's a normal day.",note:"De ... à ... = from ... to ... (for time ranges).\nDe neuf heures à cinq heures = from 9 to 5.\nDu lundi au vendredi = from Monday to Friday."},
+
+  {type:"tip",title:"Weekly Routine Template",text:"A model weekly description:\n\nLe lundi, je travaille de neuf heures à cinq heures.\nLe mardi, je fais du sport après le travail.\nLe mercredi, je ne travaille pas. Je fais les courses.\nLe jeudi, je travaille et je dîne avec des amis.\nLe vendredi, je rentre tôt. C'est le week-end!\nLe samedi, je me lève tard et je fais du sport.\nLe dimanche, je me repose.\n\nKey patterns:\nLe + day = habitual (every week)\nVerb + time = when\nNe...pas = what you don't do",deepDive:{title:"Faire les courses vs faire du shopping",text:"Faire les courses = to do grocery shopping (essential, weekly errands)\nFaire du shopping = to go shopping (leisure, clothes, fun)\n\nFrench distinguishes between necessity shopping (les courses) and pleasure shopping (du shopping).\n\nJe fais les courses le samedi. = I do groceries on Saturday.\nJe fais du shopping le samedi. = I go shopping on Saturday.\n\nLes courses is more common in daily routine descriptions."}},
+
+  {type:"mc",q:"Frequency adverbs in French go:",opts:["Before the verb","After the verb","At the beginning","At the end"],ans:"After the verb",hint:"Je mange SOUVENT. Je travaille RAREMENT."},
+
+  {type:"mc",q:"'Tous les jours' means:",opts:["Some days","Every day","All day long","Any day"],ans:"Every day",hint:"Tous = all. Les jours = the days. All the days."},
+
+  {type:"fb",s:"Je travaille ___ neuf heures à cinq heures.",a:"de",opts:["de","à","en","du"],hint:"From nine to five: the first preposition."},
+
+  {type:"mc",q:"'Le mercredi, je ne travaille pas' means:",opts:["I worked last Wednesday","I never work on Wednesdays","This Wednesday I'm free","Wednesday is a holiday"],ans:"I never work on Wednesdays",hint:"Le + day = habitual. Ne...pas = negation."},
+
+  {type:"match",pairs:[{nl:"tous les jours",en:"every day"},{nl:"souvent",en:"often"},{nl:"parfois",en:"sometimes"},{nl:"rarement",en:"rarely"}]},
+
+  {type:"mc",q:"'Du lundi au vendredi' means:",opts:["On Monday and Friday","From Monday to Friday","Monday or Friday","Between Monday and Friday"],ans:"From Monday to Friday",hint:"Du (de + le) ... au (à + le): from ... to."},
+
+  {type:"fb",s:"Je fais ___ du sport. (rarely)",a:"rarement",opts:["rarement","souvent","parfois","jamais"],hint:"Frequency adverb: almost never."},
+
+  {type:"mc",q:"'Faire les courses' means:",opts:["Run a race","Do grocery shopping","Take a course","Go to school"],ans:"Do grocery shopping",hint:"Les courses = errands/groceries. Essential shopping."},
+
+  {type:"fb",s:"Je me lève ___ le dimanche. (late)",a:"tard",opts:["tard","tôt","vite","bien"],hint:"On Sundays I get up ___. Sleeping in!"},
+
+  {type:"mc",q:"In 'Je mange souvent au restaurant', souvent goes:",opts:["Before je","Before mange","After mange","At the end"],ans:"After mange",hint:"Frequency adverbs follow the verb directly."},
+
+  {type:"mc",q:"'Tous les matins' means:",opts:["This morning","Every morning","All morning","Some mornings"],ans:"Every morning",hint:"Tous les = every/all. Matins = mornings."},
+
+  {type:"fb",s:"___ les jours, je me réveille à sept heures.",a:"Tous",opts:["Tous","Tout","Toute","Toutes"],hint:"Every day: ___ les jours. Masculine plural."},
+
+  {type:"mc",q:"'Faire la grasse matinée' means:",opts:["To cook breakfast","To sleep in","To do morning exercises","To skip breakfast"],ans:"To sleep in",hint:"Grasse matinée = a 'fat morning'. A lazy morning in bed."},
+]},
+
+// ═══ L8: Révision Unit 5 ═══
+{id:"fre5l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 5 Review",desc:"Review all of Unit 5: -er verbs, time, reflexive verbs, daily routine, days of the week, negation, and weekly descriptions.",goals:["Review -er conjugation","Test time expressions","Combine routine vocabulary with negation"]},
+
+  {type:"mc",q:"The -er verb stem of 'travailler' is:",opts:["trav","travail","travaill","travailler"],ans:"travaill",hint:"Remove -er from the infinitive to get the stem."},
+
+  {type:"fb",s:"Il est trois heures et ___. (3:30)",a:"demie",opts:["demie","quart","dix","midi"],hint:"Half past: the word for half."},
+
+  {type:"mc",q:"Reflexive pronouns go:",opts:["After the verb","Before the verb","After the subject","Nowhere specific"],ans:"Before the verb",hint:"Je ME lève. Tu TE couches. Notice where ME and TE sit."},
+
+  {type:"match",pairs:[{nl:"se lever",en:"to get up"},{nl:"se coucher",en:"to go to bed"},{nl:"se laver",en:"to wash oneself"},{nl:"se réveiller",en:"to wake up"}]},
+
+  {type:"mc",q:"'Je vais au travail' uses which irregular verb?",opts:["Être","Avoir","Aller","Faire"],ans:"Aller",hint:"'Vais' is the je form. Which infinitive does it come from?"},
+
+  {type:"fb",s:"Je ne ___ pas de viande.",a:"mange",opts:["mange","manges","manger","mangez"],hint:"I do not eat: ne + verb + pas."},
+
+  {type:"mc",q:"French days of the week are:",opts:["Capitalized","Lowercase","Feminine","Irregular"],ans:"Lowercase",hint:"Unlike English, French does not capitalize these."},
+
+  {type:"mc",q:"'Le lundi' means:",opts:["This Monday","Last Monday","Every Monday","Next Monday"],ans:"Every Monday",hint:"Le + day = habitual, every week."},
+
+  {type:"fb",s:"Elle ___ lève à sept heures. (reflexive)",a:"se",opts:["se","me","te","nous"],hint:"She gets up: third person reflexive pronoun."},
+
+  {type:"match",pairs:[{nl:"lundi",en:"Monday"},{nl:"jeudi",en:"Thursday"},{nl:"samedi",en:"Saturday"},{nl:"dimanche",en:"Sunday"}]},
+
+  {type:"mc",q:"After 'ne...pas', partitive articles become:",opts:["Le/la","Du/de la","De/d'","Un/une"],ans:"De/d'",hint:"Negation strips partitive to just de."},
+
+  {type:"fb",s:"Je fais du sport ___ les jours.",a:"tous",opts:["tous","tout","toute","chaque"],hint:"Every day: ___ les jours."},
+
+  {type:"mc",q:"Frequency adverbs go:",opts:["Before the subject","Before the verb","After the verb","At the end"],ans:"After the verb",hint:"Je mange SOUVENT. Je travaille RAREMENT."},
+
+  {type:"mc",q:"'Il est midi' means:",opts:["It is midnight","It is noon","It is midday meal","It is twelve hours"],ans:"It is noon",hint:"Midi = 12:00 PM. Minuit = 12:00 AM."},
+
+  {type:"fb",s:"Je travaille ___ neuf heures à cinq heures.",a:"de",opts:["de","à","en","du"],hint:"From nine to five: from = de."},
+
+  {type:"mc",q:"In spoken French, which part of negation is often dropped?",opts:["Pas","Ne","Both","Neither"],ans:"Ne",hint:"Spoken: je parle pas. Written: je ne parle pas."},
+
+  {type:"mc",q:"'Prendre le petit déjeuner' means:",opts:["To take breakfast away","To have breakfast","To make breakfast","To skip breakfast"],ans:"To have breakfast",hint:"Prendre = to take/have. Used for meals."},
+
+  {type:"fb",s:"D'abord je me réveille, ___ je me lève.",a:"puis",opts:["puis","enfin","avant","d'abord"],hint:"First I wake up, THEN I get up. The second sequencer."},
+]},
+]},
+
 ];
