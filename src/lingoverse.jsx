@@ -7,6 +7,7 @@ import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAME
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
+import frenchUnits from './data/units-french.js';
 import otherUnits from './data/units-other.js';
 
 // In-memory storage fallback (localStorage not available in sandbox)
@@ -8119,7 +8120,7 @@ function Onboarding({onComplete}){
 
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
-const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...otherUnits];
+const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...otherUnits];
 
 // ── DEV GUARD (deferred): Check UNITS lang codes against LANGUAGES + FK coverage ──
 try{

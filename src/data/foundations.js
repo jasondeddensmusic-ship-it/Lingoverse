@@ -1242,22 +1242,196 @@ export const FOUNDATIONS_BY_LANG = {
   ]},
   // ── French Foundations (Pipeline Step 2 — placeholder) ──
   fr:{name:"French Foundations",icon:"🇫🇷",sections:[
-    {id:"fr_alphabet",title:"The French Alphabet",icon:"🔤",desc:"26 letters plus accent marks: é è ê ë, à â, ù û, ô, î ï, ç. Accents change pronunciation!",
+    // ══════════════════════════════════════════════════════════════
+    // FRENCH FOUNDATIONS KNOWLEDGE — Reference Library
+    // 6 sections, ~25 items. Color key:
+    // vowels=#E85D75, consonants=#2ECDAB, tricky=#F5A623,
+    // special=#4A8FE7, grammar=#7B5EE8
+    // ══════════════════════════════════════════════════════════════
+
+    // ─────────── 1. THE ALPHABET & SPECIAL CHARACTERS ───────────
+    {id:"fr_alphabet",title:"The Alphabet & Special Characters",icon:"🔤",desc:"26 letters plus accent marks and cedilla. Accents change pronunciation and meaning.",
       items:[
-        {fk:"fk_alphabet_overview",title:"French letter grid",desc:"Same 26 Latin letters as English — but French adds accent marks and has very different pronunciation rules.",
+        {fk:"fk_alphabet_overview",title:"French letter grid",audio_id:null,
+          desc:"Same 26 Latin letters as English. French adds accent marks (é, è, ê, ë, à, â, ù, û, ô, î, ï) and cedilla (ç). Letter names differ from English.",
           grid:{cols:9,headers:["","","","","","","","",""],rows:[
-            {label:"A–I",color:"#002395",cells:[{ch:"A",rom:"/a/"},{ch:"B",rom:"/be/"},{ch:"C",rom:"/se/"},{ch:"D",rom:"/de/"},{ch:"E",rom:"/ə/"},{ch:"F",rom:"/ɛf/"},{ch:"G",rom:"/ʒe/"},{ch:"H",rom:"/aʃ/"},{ch:"I",rom:"/i/"}]},
-            {label:"J–R",color:"#ED2939",cells:[{ch:"J",rom:"/ʒi/"},{ch:"K",rom:"/ka/"},{ch:"L",rom:"/ɛl/"},{ch:"M",rom:"/ɛm/"},{ch:"N",rom:"/ɛn/"},{ch:"O",rom:"/o/"},{ch:"P",rom:"/pe/"},{ch:"Q",rom:"/ky/"},{ch:"R",rom:"/ɛʁ/"}]},
-            {label:"S–Z",color:"#002395",cells:[{ch:"S",rom:"/ɛs/"},{ch:"T",rom:"/te/"},{ch:"U",rom:"/y/"},{ch:"V",rom:"/ve/"},{ch:"W",rom:"/dubləve/"},{ch:"X",rom:"/iks/"},{ch:"Y",rom:"/igʁɛk/"},{ch:"Z",rom:"/zɛd/"},{ch:"",rom:""}]},
+            {label:"A-I",color:"#002395",cells:[{ch:"A",rom:"ah"},{ch:"B",rom:"bay"},{ch:"C",rom:"say"},{ch:"D",rom:"day"},{ch:"E",rom:"uh"},{ch:"F",rom:"eff"},{ch:"G",rom:"zhay"},{ch:"H",rom:"ahsh"},{ch:"I",rom:"ee"}]},
+            {label:"J-R",color:"#ED2939",cells:[{ch:"J",rom:"zhee"},{ch:"K",rom:"kah"},{ch:"L",rom:"ell"},{ch:"M",rom:"emm"},{ch:"N",rom:"enn"},{ch:"O",rom:"oh"},{ch:"P",rom:"pay"},{ch:"Q",rom:"kew"},{ch:"R",rom:"air"}]},
+            {label:"S-Z",color:"#002395",cells:[{ch:"S",rom:"ess"},{ch:"T",rom:"tay"},{ch:"U",rom:"ew"},{ch:"V",rom:"vay"},{ch:"W",rom:"doo-bluh-vay"},{ch:"X",rom:"eeks"},{ch:"Y",rom:"ee-grek"},{ch:"Z",rom:"zed"},{ch:"",rom:""}]},
           ]}},
-        {fk:"fk_accents",title:"French accents",desc:"é (acute) = /e/, è (grave) = /ɛ/, ê (circumflex) = /ɛ/, ë (diaeresis) = separate vowel, ç (cedilla) = /s/ before a/o/u.",
-          examples:["café (coffee)","crème (cream)","être (to be)","Noël (Christmas)","français (French)"]},
-        {fk:"fk_nasal_vowels",title:"Nasal vowels",desc:"French has nasal vowels not found in English: an/en = /ɑ̃/, on = /ɔ̃/, in/ain = /ɛ̃/, un = /œ̃/. The 'n' is not pronounced — it nasalizes the vowel.",
-          examples:["restaurant /ʁɛstoʁɑ̃/","bon /bɔ̃/","vin /vɛ̃/","un /œ̃/"]},
-        {fk:"fk_phonology",title:"Key French sounds",desc:"R is uvular (/ʁ/), U is rounded (/y/, like German ü), silent final consonants are the norm. Liaison: a normally-silent final consonant is pronounced when the next word starts with a vowel.",
-          examples:["rouge /ʁuʒ/ (red) — uvular R","tu /ty/ (you) — rounded U","les amis /le.z‿a.mi/ — liaison: s becomes /z/","petit ami /pə.ti.t‿a.mi/ — liaison: t pronounced"]},
-        {fk:"fk_spelling_rules",title:"Silent letters & spelling patterns",desc:"Most final consonants are silent (except C, R, F, L — 'CaReFuL'). E at the end of a word is usually silent. Double letters rarely change pronunciation. H is always silent.",
-          examples:["petit /pəti/ — t silent","parler /paʁle/ — r silent at end","homme /ɔm/ — h silent","belle /bɛl/ — e silent, l pronounced (CaReFuL rule)"]},
+        {fk:"fk_accents",title:"The five accent marks",audio_id:null,
+          desc:"French uses 5 diacritical marks. Each one changes pronunciation or distinguishes homophones.",
+          grid:{cols:3,headers:["Accent","Effect","Examples"],rows:[
+            {label:"Acute",color:"#E85D75",cells:[{ch:"é (accent aigu)",rom:""},{ch:"Closed e sound: ay",rom:""},{ch:"café, étudiant, été",rom:""}]},
+            {label:"Grave",color:"#F5A623",cells:[{ch:"è, à, ù (accent grave)",rom:""},{ch:"Open e (eh), or distinguishes words",rom:""},{ch:"crème, père, là, où",rom:""}]},
+            {label:"Circumflex",color:"#4A8FE7",cells:[{ch:"ê, â, î, ô, û (accent circonflexe)",rom:""},{ch:"Historical marker, can affect sound",rom:""},{ch:"être, hôtel, fête, île",rom:""}]},
+            {label:"Diaeresis",color:"#2ECDAB",cells:[{ch:"ë, ï, ü (tréma)",rom:""},{ch:"Pronounce both vowels separately",rom:""},{ch:"Noël, naïf, Saül",rom:""}]},
+            {label:"Cedilla",color:"#7B5EE8",cells:[{ch:"ç (cédille)",rom:""},{ch:"Forces S sound before a, o, u",rom:""},{ch:"français, garçon, reçu",rom:""}]},
+          ]}},
+        {fk:"fk_alphabet_overview",title:"Letters that trap English speakers",audio_id:null,
+          desc:"Several French letters look like English but sound different. H is always silent. R is from the throat.",
+          grid:{cols:3,headers:["Letter","French sound","English trap to avoid"],rows:[
+            {label:"H",color:"#F5A623",cells:[{ch:"H",rom:"h"},{ch:"ALWAYS silent",rom:"homme = omm"},{ch:"NOT like English hat",rom:""}]},
+            {label:"R",color:"#F5A623",cells:[{ch:"R",rom:"r"},{ch:"Uvular, from back of throat",rom:"rouge = roozh"},{ch:"NOT like English run",rom:""}]},
+            {label:"U",color:"#F5A623",cells:[{ch:"U",rom:"u"},{ch:"Rounded: say ee with round lips",rom:"tu = tew"},{ch:"NOT like English oo",rom:""}]},
+            {label:"J",color:"#F5A623",cells:[{ch:"J",rom:"j"},{ch:"ZH sound: like s in pleasure",rom:"je = zhuh"},{ch:"NOT like English jump",rom:""}]},
+            {label:"G (before e,i)",color:"#F5A623",cells:[{ch:"G",rom:"g"},{ch:"ZH sound before e and i",rom:"manger = mahn-ZHAY"},{ch:"NOT like English get",rom:""}]},
+          ]}},
+        {fk:"fk_alphabet_overview",title:"C and G: two sounds each",audio_id:null,
+          desc:"C and G each have a hard and soft sound, determined by the vowel that follows.",
+          grid:{cols:3,headers:["Letter + following vowel","Sound","Examples"],rows:[
+            {label:"C + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard C",rom:""},{ch:"K sound",rom:""},{ch:"café, comment, culture",rom:""}]},
+            {label:"C + e, i",color:"#E85D75",cells:[{ch:"Soft C",rom:""},{ch:"S sound",rom:""},{ch:"centre, cinéma, merci",rom:""}]},
+            {label:"G + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard G",rom:""},{ch:"G sound as in go",rom:""},{ch:"gare, gomme, aigu",rom:""}]},
+            {label:"G + e, i",color:"#E85D75",cells:[{ch:"Soft G",rom:""},{ch:"ZH sound",rom:""},{ch:"manger, fragile, rouge",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 2. VOWELS: ORAL & NASAL ───────────
+    {id:"fr_vowels",title:"Vowels: Oral & Nasal",icon:"🔊",desc:"Oral vowels, nasal vowels, and the tricky U vs OU distinction",
+      items:[
+        {fk:"fk_vowel_grid",title:"The oral vowel system",audio_id:null,
+          desc:"French has more vowel sounds than English. The key ones: open vs closed E, open vs closed O, and the rounded U.",
+          grid:{cols:3,headers:["Vowel","Sound","Examples"],rows:[
+            {label:"a / à / â",color:"#E85D75",cells:[{ch:"a",rom:"ah"},{ch:"Open ah as in father",rom:""},{ch:"chat, table, là, pâte",rom:""}]},
+            {label:"é / er / ez",color:"#F5A623",cells:[{ch:"é",rom:"ay"},{ch:"Closed ay as in say",rom:""},{ch:"café, parler, allez",rom:""}]},
+            {label:"è / ê / ai / ei",color:"#4A8FE7",cells:[{ch:"è",rom:"eh"},{ch:"Open eh as in bed",rom:""},{ch:"mère, fête, lait, neige",rom:""}]},
+            {label:"i / î / y",color:"#2ECDAB",cells:[{ch:"i",rom:"ee"},{ch:"Like ee in see",rom:""},{ch:"ici, île, stylo",rom:""}]},
+            {label:"o / ô / au / eau",color:"#E85D75",cells:[{ch:"o",rom:"oh"},{ch:"Closed oh",rom:""},{ch:"mot, hôtel, auto, beau",rom:""}]},
+            {label:"ou",color:"#F5A623",cells:[{ch:"ou",rom:"oo"},{ch:"Like oo in food",rom:""},{ch:"vous, toujours, rouge",rom:""}]},
+            {label:"u / û",color:"#7B5EE8",cells:[{ch:"u",rom:"ew"},{ch:"Say ee with rounded lips. NOT oo.",rom:""},{ch:"tu, rue, lune, sûr",rom:""}]},
+          ]}},
+        {fk:"fk_nasal_vowels",title:"The four nasal vowels",audio_id:null,
+          desc:"French nasal vowels are completely foreign to English speakers. The N or M is NOT pronounced. Instead, the vowel vibrates in the nose.",
+          grid:{cols:4,headers:["Nasal","Spelling patterns","Sound description","Examples"],rows:[
+            {label:"an/en",color:"#E85D75",cells:[{ch:"an, am, en, em",rom:""},{ch:"ah nasalized through nose",rom:"like ahng without the g"},{ch:"dans, chambre, enfant, temps",rom:""}]},
+            {label:"on",color:"#F5A623",cells:[{ch:"on, om",rom:""},{ch:"oh nasalized through nose",rom:"like ong without the g"},{ch:"bon, nom, maison, pont",rom:""}]},
+            {label:"in",color:"#4A8FE7",cells:[{ch:"in, im, ain, ein, yn",rom:""},{ch:"eh nasalized through nose",rom:"like ang without the g"},{ch:"vin, simple, pain, plein",rom:""}]},
+            {label:"un",color:"#7B5EE8",cells:[{ch:"un, um",rom:""},{ch:"uh nasalized (merging with in)",rom:"like ung without the g"},{ch:"un, brun, parfum",rom:""}]},
+          ]}},
+        {fk:"fk_vowel_grid",title:"U vs OU: the critical distinction",audio_id:null,
+          desc:"U and OU are completely different sounds in French. Mixing them changes the meaning of words.",
+          grid:{cols:3,headers:["Sound","Mouth position","Minimal pairs"],rows:[
+            {label:"U (tu)",color:"#7B5EE8",cells:[{ch:"u",rom:"ew"},{ch:"Say ee, then round lips tightly",rom:""},{ch:"tu (you), rue (street), vu (seen), dessus (above)",rom:""}]},
+            {label:"OU (tout)",color:"#F5A623",cells:[{ch:"ou",rom:"oo"},{ch:"Like oo in food. Lips round, tongue back",rom:""},{ch:"tout (all), roue (wheel), vous (you formal), dessous (below)",rom:""}]},
+            {label:"Contrast",color:"#E85D75",cells:[{ch:"u vs ou",rom:""},{ch:"tu vs tout, rue vs roue, vu vs vous, dessus vs dessous",rom:""},{ch:"Wrong vowel = different word!",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 3. CONSONANTS & LIAISON ───────────
+    {id:"fr_consonants",title:"Consonants & Liaison",icon:"🗣",desc:"The French R, liaison rules, and consonant combinations",
+      items:[
+        {fk:"fk_consonant_special",title:"The French R",audio_id:null,
+          desc:"French R is uvular: produced at the back of the throat by vibrating the uvula. It sounds like a gentle gargle.",
+          grid:{cols:3,headers:["Position","Sound","Examples"],rows:[
+            {label:"Word start",color:"#F5A623",cells:[{ch:"R initial",rom:""},{ch:"Clear uvular friction",rom:""},{ch:"rouge, rue, regarder",rom:""}]},
+            {label:"After consonant",color:"#2ECDAB",cells:[{ch:"R in cluster",rom:""},{ch:"Blended with preceding consonant",rom:""},{ch:"trois, grand, prendre",rom:""}]},
+            {label:"Word end",color:"#E85D75",cells:[{ch:"R final",rom:""},{ch:"Soft, almost whispered",rom:""},{ch:"amour, manger, voir",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_special",title:"Liaison: connecting words",audio_id:null,
+          desc:"When a word ending in a normally-silent consonant is followed by a word starting with a vowel, the consonant is pronounced. This links the words.",
+          grid:{cols:3,headers:["Type","Rule","Examples"],rows:[
+            {label:"Mandatory",color:"#E85D75",cells:[{ch:"Must liaison",rom:""},{ch:"Article + noun, pronoun + verb, number + noun, adjective + noun",rom:""},{ch:"les amis (lez-ah-MEE), nous avons (nooz-ah-VON), deux enfants (duhz-on-FON)",rom:""}]},
+            {label:"Optional",color:"#F5A623",cells:[{ch:"May liaison",rom:""},{ch:"After certain verbs, after pas",rom:""},{ch:"je suis allé (zhuh sweez-ah-LAY), pas encore (pahz-on-KOR)",rom:""}]},
+            {label:"Forbidden",color:"#4A8FE7",cells:[{ch:"Never liaison",rom:""},{ch:"After et, before h aspiré, after singular nouns",rom:""},{ch:"et il (ay eel, NOT ez-eel), les haricots (lay ah-ree-KOH)",rom:""}]},
+          ]}},
+        {fk:"fk_letter_sound",title:"Common consonant combinations",audio_id:null,
+          desc:"French consonant clusters: ch, gn, qu, ph, th, and double letters.",
+          grid:{cols:3,headers:["Combo","Sound","Examples"],rows:[
+            {label:"ch",color:"#2ECDAB",cells:[{ch:"ch",rom:""},{ch:"SH sound (not K like English)",rom:""},{ch:"chat, chose, chercher",rom:""}]},
+            {label:"gn",color:"#2ECDAB",cells:[{ch:"gn",rom:""},{ch:"NY sound (like Spanish n with tilde)",rom:""},{ch:"montagne, gagner, signe",rom:""}]},
+            {label:"qu",color:"#2ECDAB",cells:[{ch:"qu",rom:""},{ch:"K sound (u is silent)",rom:""},{ch:"que, quand, quatre",rom:""}]},
+            {label:"ph",color:"#2ECDAB",cells:[{ch:"ph",rom:""},{ch:"F sound (same as English)",rom:""},{ch:"pharmacie, photo, éléphant",rom:""}]},
+            {label:"th",color:"#F5A623",cells:[{ch:"th",rom:""},{ch:"T sound (NOT English th)",rom:""},{ch:"thé, théâtre, sympathique",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 4. SILENT LETTERS & SPELLING PATTERNS ───────────
+    {id:"fr_silent",title:"Silent Letters & Spelling",icon:"🔇",desc:"The CaReFuL rule, silent E, silent H, and spelling patterns",
+      items:[
+        {fk:"fk_spelling_rules",title:"The CaReFuL rule",audio_id:null,
+          desc:"Most final consonants in French are SILENT. The exceptions are C, R, F, L. Mnemonic: CaReFuL.",
+          grid:{cols:3,headers:["Letter","Rule","Examples"],rows:[
+            {label:"C",color:"#2ECDAB",cells:[{ch:"Final C",rom:""},{ch:"Usually pronounced",rom:""},{ch:"avec, sac, parc (but blanc, estomac: silent)",rom:""}]},
+            {label:"R",color:"#2ECDAB",cells:[{ch:"Final R",rom:""},{ch:"Usually pronounced",rom:""},{ch:"amour, voir, car (but parler, manger: silent in -er verbs)",rom:""}]},
+            {label:"F",color:"#2ECDAB",cells:[{ch:"Final F",rom:""},{ch:"Usually pronounced",rom:""},{ch:"actif, bref, chef",rom:""}]},
+            {label:"L",color:"#2ECDAB",cells:[{ch:"Final L",rom:""},{ch:"Usually pronounced",rom:""},{ch:"animal, sel, hotel",rom:""}]},
+            {label:"Others",color:"#F5A623",cells:[{ch:"Final D, T, S, X, Z, P",rom:""},{ch:"Almost always SILENT",rom:""},{ch:"petit, dans, deux, riz, trop",rom:""}]},
+          ]}},
+        {fk:"fk_spelling_rules",title:"Silent E (e muet)",audio_id:null,
+          desc:"E at the end of a word is usually silent. It serves to signal gender (feminine) or modify the preceding consonant.",
+          grid:{cols:3,headers:["Pattern","Effect","Examples"],rows:[
+            {label:"Final -e",color:"#E85D75",cells:[{ch:"-e at word end",rom:""},{ch:"Silent. Makes preceding consonant audible.",rom:""},{ch:"grande (grond), petite (puh-TEET), belle (bell)",rom:""}]},
+            {label:"-ent (3rd pl.)",color:"#F5A623",cells:[{ch:"-ent verb ending",rom:""},{ch:"Completely silent. Key trap!",rom:""},{ch:"ils parlent (eel PARL), elles mangent (ell MONZH)",rom:""}]},
+            {label:"-es plural",color:"#4A8FE7",cells:[{ch:"-es noun plural",rom:""},{ch:"Silent. Plural is invisible in speech.",rom:""},{ch:"les tables (lay TABL), les pommes (lay POM)",rom:""}]},
+          ]}},
+        {fk:"fk_spelling_rules",title:"Silent H and H aspiré",audio_id:null,
+          desc:"H is ALWAYS silent in French. But there are two types: H muet (allows liaison and elision) and H aspiré (blocks them).",
+          grid:{cols:3,headers:["Type","Behavior","Examples"],rows:[
+            {label:"H muet",color:"#2ECDAB",cells:[{ch:"Silent H (most words)",rom:""},{ch:"Elision and liaison happen normally",rom:""},{ch:"l'homme, l'heure, les hommes (lez-OMM)",rom:""}]},
+            {label:"H aspiré",color:"#F5A623",cells:[{ch:"Aspirated H (some words)",rom:""},{ch:"No elision, no liaison. Still silent!",rom:""},{ch:"le héros, les haricots (lay ah-ree-KOH)",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 5. THE ACCENT SYSTEM ───────────
+    {id:"fr_accents",title:"The Accent System",icon:"✨",desc:"When and why French uses accent marks",
+      items:[
+        {fk:"fk_accents",title:"Accent aigu (é): the most common",audio_id:null,
+          desc:"The accent aigu only appears on E. It always produces a closed AY sound. It is the most frequent accent in French.",
+          grid:{cols:3,headers:["Pattern","Usage","Examples"],rows:[
+            {label:"Past participle -é",color:"#E85D75",cells:[{ch:"-é",rom:"ay"},{ch:"Past participle of -er verbs",rom:""},{ch:"parlé, mangé, regardé",rom:""}]},
+            {label:"Word start",color:"#F5A623",cells:[{ch:"é-",rom:"ay"},{ch:"Common at start of words",rom:""},{ch:"étudiant, école, été",rom:""}]},
+            {label:"Mid-word",color:"#4A8FE7",cells:[{ch:"-é-",rom:"ay"},{ch:"Clear ay sound",rom:""},{ch:"téléphone, général, répéter",rom:""}]},
+          ]}},
+        {fk:"fk_accents",title:"Accent grave (è, à, ù)",audio_id:null,
+          desc:"On E: open EH sound. On A and U: distinguishes homophones (meaning only, no sound change).",
+          grid:{cols:3,headers:["Letter","Effect","Examples"],rows:[
+            {label:"è",color:"#E85D75",cells:[{ch:"è",rom:"eh"},{ch:"Open EH as in bed",rom:""},{ch:"mère, père, frère, problème",rom:""}]},
+            {label:"à",color:"#F5A623",cells:[{ch:"à",rom:"ah"},{ch:"Distinguishes: à (at/to) vs a (has)",rom:""},{ch:"à la maison, il va à Paris",rom:""}]},
+            {label:"ù",color:"#4A8FE7",cells:[{ch:"ù",rom:"oo"},{ch:"Only in one word: où (where) vs ou (or)",rom:""},{ch:"Où est la gare? vs café ou thé",rom:""}]},
+          ]}},
+        {fk:"fk_accents",title:"Circumflex, diaeresis, cedilla",audio_id:null,
+          desc:"Circumflex marks historical lost S. Diaeresis separates vowels. Cedilla forces soft C.",
+          grid:{cols:3,headers:["Mark","Purpose","Examples"],rows:[
+            {label:"Circumflex ˆ",color:"#7B5EE8",cells:[{ch:"ê, â, î, ô, û",rom:""},{ch:"Historical: often where an S was lost. Can affect sound on ô.",rom:""},{ch:"hôtel (hostel), fête (feast), île (isle), hôpital (hospital)",rom:""}]},
+            {label:"Diaeresis ¨",color:"#F5A623",cells:[{ch:"ë, ï, ü",rom:""},{ch:"Forces separate pronunciation of adjacent vowels.",rom:""},{ch:"Noël (no-ELL), naïf (nah-EEF)",rom:""}]},
+            {label:"Cedilla ç",color:"#E85D75",cells:[{ch:"ç",rom:""},{ch:"Makes C soft (S sound) before a, o, u. Without it, C would be hard (K).",rom:""},{ch:"français, garçon, reçu, leçon",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 6. GRAMMAR PREVIEW ───────────
+    {id:"fr_grammar",title:"Grammar Preview",icon:"🏗️",desc:"Gender, articles, verb groups, and the Agreement Web",
+      items:[
+        {fk:"fk_grammar_overview",title:"Two genders: le and la",audio_id:null,
+          desc:"Every French noun is either masculine (le) or feminine (la). Before vowels, both become l'. Gender must be memorized with each noun.",
+          grid:{cols:3,headers:["Gender","Article","Examples"],rows:[
+            {label:"Masculine",color:"#4A8FE7",cells:[{ch:"le (blue)",rom:""},{ch:"le livre, le chat, le soleil, le garçon",rom:""},{ch:"le often before consonant, l' before vowel",rom:""}]},
+            {label:"Feminine",color:"#E85D75",cells:[{ch:"la (coral)",rom:""},{ch:"la maison, la table, la lune, la fille",rom:""},{ch:"la often before consonant, l' before vowel",rom:""}]},
+            {label:"Elision",color:"#F5A623",cells:[{ch:"l'",rom:""},{ch:"l'homme (m), l'école (f), l'enfant",rom:""},{ch:"Gender hidden! Must memorize.",rom:""}]},
+            {label:"Plural",color:"#2ECDAB",cells:[{ch:"les",rom:""},{ch:"les livres, les maisons, les enfants",rom:""},{ch:"Same article for both genders in plural",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_overview",title:"The Agreement Web: French's central metaphor",audio_id:null,
+          desc:"In French, everything agrees with everything: adjectives with nouns, past participles with subjects, pronouns with verbs. This web connects all parts of a sentence.",
+          grid:{cols:3,headers:["Agreement type","Rule","Example"],rows:[
+            {label:"Adjective",color:"#E85D75",cells:[{ch:"adj + noun",rom:""},{ch:"Adjective matches gender and number",rom:""},{ch:"un grand livre, une grande maison",rom:""}]},
+            {label:"Past participle",color:"#F5A623",cells:[{ch:"pp + subject (etre)",rom:""},{ch:"With etre verbs, participle matches subject",rom:""},{ch:"elle est allée, ils sont partis",rom:""}]},
+            {label:"Article",color:"#4A8FE7",cells:[{ch:"article + noun",rom:""},{ch:"Article matches gender and number",rom:""},{ch:"le/la/les, un/une/des",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_overview",title:"Three verb groups + irregulars",audio_id:null,
+          desc:"French verbs fall into three regular groups plus a set of common irregulars. Group 1 covers 90% of all verbs.",
+          grid:{cols:3,headers:["Group","Ending","Examples"],rows:[
+            {label:"Group 1",color:"#2ECDAB",cells:[{ch:"-er verbs (90%)",rom:""},{ch:"parler, manger, regarder, aimer",rom:""},{ch:"Most regular. Learn this pattern first.",rom:""}]},
+            {label:"Group 2",color:"#4A8FE7",cells:[{ch:"-ir verbs (with -iss-)",rom:""},{ch:"finir, choisir, remplir, grandir",rom:""},{ch:"Regular: stem + -iss- in plural forms",rom:""}]},
+            {label:"Group 3",color:"#F5A623",cells:[{ch:"-re and irregular -ir",rom:""},{ch:"vendre, prendre, partir, dormir",rom:""},{ch:"Less predictable. Learn individually.",rom:""}]},
+            {label:"Key irregulars",color:"#E85D75",cells:[{ch:"Most common verbs",rom:""},{ch:"etre, avoir, aller, faire, pouvoir, vouloir",rom:""},{ch:"Memorize these. They appear constantly.",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_overview",title:"Tu vs Vous: the social compass",audio_id:null,
+          desc:"Tu is informal (one person you know). Vous is formal (strangers, elders) AND all plurals. The choice carries social weight.",
+          grid:{cols:3,headers:["Pronoun","Use with","Social rule"],rows:[
+            {label:"tu",color:"#2ECDAB",cells:[{ch:"tu (informal)",rom:""},{ch:"Friends, family, children, peers",rom:""},{ch:"Wait until offered. Using tu too early is rude.",rom:""}]},
+            {label:"vous (formal)",color:"#7B5EE8",cells:[{ch:"vous (formal singular)",rom:""},{ch:"Strangers, elders, professionals",rom:""},{ch:"Default in any new interaction. Safe choice.",rom:""}]},
+            {label:"vous (plural)",color:"#4A8FE7",cells:[{ch:"vous (all plurals)",rom:""},{ch:"Any group of 2+ people",rom:""},{ch:"Always vous for groups, regardless of familiarity.",rom:""}]},
+          ]}},
       ]},
   ]},
   // ── English Foundations (Pipeline Step 2 — placeholder) ──
@@ -2235,7 +2409,176 @@ export const FK_PLAYTHROUGH = {
   ]},
   ja:{name:"Learn Kana & Kanji",icon:"🇯🇵",blueprint:"kana",stages:[]},
   zh:{name:"Learn Pinyin & Characters",icon:"🇨🇳",blueprint:"hanzi",stages:[]},
-  fr:{name:"French Foundations Play",icon:"🇫🇷",blueprint:"latin_simple",stages:[]},
+  fr:{name:"French Foundations Play",icon:"🇫🇷",blueprint:"latin_simple",stages:[
+    // ══════════════════════════════════════════════════════════════
+    // FRENCH FOUNDATIONS PLAYTHROUGH
+    // 6 stages, 15 lessons. Covers alphabet, accents, vowels (oral
+    // + nasal), consonants, liaison, silent letters, spelling, and
+    // grammar preview (gender + Agreement Web).
+    // P8 compliant, no IPA slashes, no em-dashes, board:true all.
+    // ══════════════════════════════════════════════════════════════
+
+    // ── STAGE 1: THE ALPHABET & ACCENTS ──
+    {id:"fr_fp_s1",title:"The Alphabet & Accents",desc:"French uses 26 letters plus 5 accent marks and cedilla",icon:"🔤",
+      lessons:[
+        {id:"fr_fp_s1_l1",title:"The French Alphabet",icon:"🔤",xp:15,board:true,steps:[
+          {type:"intro",title:"The French Alphabet",desc:"French uses the same 26 letters as English, but many sound different. Plus, French adds accent marks that change pronunciation and meaning.",goals:["Know the 26 base letters","Spot letters that sound different from English","Meet the accent marks"]},
+          {type:"teach",kind:"info",nl:"L'alphabet français",en:"The French alphabet",phonetic:"lal-fah-BAY fron-SAY",example:"A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",exampleEn:"26 base letters, same as English. But H is always silent, R is from the throat, and U sounds like no English vowel.",note:"French letter names are different from English.\nA = ah, B = bay, C = say, D = day, E = uh.\nLearning the names helps with spelling aloud."},
+          {type:"teach",kind:"info",nl:"Les pièges",en:"Letters that trap English speakers",phonetic:"lay pee-EZGH",example:"H is silent: homme = omm. R is uvular: rouge = roozh. U is rounded: tu = tew. J = ZH sound: je = zhuh.",exampleEn:"Four letters you must retrain your ears and mouth for",note:"H: always silent, never pronounced.\nR: from back of throat, not like English R.\nU: say ee with rounded lips, NOT oo.\nJ: like the s in pleasure."},
+          {type:"mc",q:"In French, the letter H is:",opts:["Pronounced like English H","Always silent","Pronounced only at word start","Optional"],ans:"Always silent",hint:"French H has no sound at all."},
+          {type:"mc",q:"The French R is produced:",opts:["With the tip of the tongue","At the back of the throat","With the lips","Same as English R"],ans:"At the back of the throat",hint:"French R is uvular, like a gentle gargle."},
+          {type:"mc",q:"French U sounds like:",opts:["English oo in food","English uh in cup","Say ee with rounded lips","English ew in new"],ans:"Say ee with rounded lips",hint:"Position tongue for ee, then round your lips tightly."},
+          {type:"mc",q:"French J sounds like:",opts:["English J in jump","ZH, like the s in pleasure","Y, like in yes","Silent"],ans:"ZH, like the s in pleasure",hint:"Je (I) is pronounced zhuh, not juh."},
+        ]},
+        {id:"fr_fp_s1_l2",title:"Accent Marks",icon:"✨",xp:15,board:true,steps:[
+          {type:"intro",title:"Five accent marks",desc:"French uses five diacritical marks: accent aigu (é), accent grave (è, à, ù), circumflex (ê, â, î, ô, û), diaeresis (ë, ï), and cedilla (ç). Each one matters.",goals:["Recognize all 5 accent types","Know what each accent does","See how accents change meaning"]},
+          {type:"teach",kind:"info",nl:"L'accent aigu: é",en:"Acute accent: always on E, always AY sound",phonetic:"lak-SON ay-GEW",example:"A: Tu as mangé?\nB: Oui, j'ai mangé au café.",exampleEn:"A: Did you eat?\nB: Yes, I ate at the café.",note:"é always sounds like ay in say.\nMost common accent in French.\nAppears in past participles: parlé, mangé, regardé."},
+          {type:"teach",kind:"info",nl:"L'accent grave: è, à, ù",en:"Grave accent: open E, or distinguishes words",phonetic:"lak-SON grahv",example:"A: Où est ta mère?\nB: Elle est à la maison.",exampleEn:"A: Where is your mother?\nB: She is at home.",note:"è = open EH sound (mère, père, frère).\nà = distinguishes: à (to/at) vs a (has).\nù = only in où (where) vs ou (or)."},
+          {type:"teach",kind:"info",nl:"La cédille: ç",en:"Cedilla: forces soft C before a, o, u",phonetic:"lah say-DEE-yuh",example:"A: Tu parles français?\nB: Oui, le garçon aussi!",exampleEn:"A: Do you speak French?\nB: Yes, the boy too!",note:"Without cedilla, C before a/o/u = K sound.\nWith cedilla: ça, garçon, leçon, reçu all have S sound.\nç never appears before e or i (C is already soft there)."},
+          {type:"mc",q:"é always produces which sound?",opts:["Open EH as in bed","Closed AY as in say","Silent","OO as in food"],ans:"Closed AY as in say",hint:"The accent aigu always makes E sound like ay."},
+          {type:"mc",q:"What is the difference between 'a' and 'à' in French?",opts:["No difference at all","a = has, à = to/at","a = to, à = has","à is formal, a is informal"],ans:"a = has, à = to/at",hint:"The accent grave distinguishes these two homophones."},
+          {type:"mc",q:"In 'garçon', the cedilla on the C makes it sound like:",opts:["K","S","SH","CH"],ans:"S",hint:"Cedilla forces a soft S sound before a, o, u."},
+          {type:"mc",q:"The circumflex (ˆ) in 'hôtel' historically marks:",opts:["A longer vowel","A lost letter S (hostel)","A silent letter","An emphasis mark"],ans:"A lost letter S (hostel)",hint:"Many circumflexes trace to an old S that dropped out."},
+          {type:"match",pairs:[{nl:"é",en:"closed AY sound"},{nl:"è",en:"open EH sound"},{nl:"ç",en:"S sound before a/o/u"},{nl:"ê",en:"historical lost S"}]},
+        ]},
+      ]},
+
+    // ── STAGE 2: VOWELS ──
+    {id:"fr_fp_s2",title:"Vowels: Oral & Nasal",desc:"French vowels, the U vs OU trap, and the four nasal vowels",icon:"🔊",
+      lessons:[
+        {id:"fr_fp_s2_l1",title:"Oral Vowels",icon:"🔊",xp:15,board:true,steps:[
+          {type:"intro",title:"French has more vowel sounds than English",desc:"French distinguishes open and closed E, open and closed O, and has the rounded U that does not exist in English. Getting these right is essential.",goals:["Distinguish open and closed E","Know U vs OU","Recognize the main vowel spellings"]},
+          {type:"teach",kind:"info",nl:"é vs è",en:"Closed E vs Open E",phonetic:"ay vs eh",example:"A: Tu préfères le café ou le thé?\nB: Je préfère le thé avec du lait.",exampleEn:"A: Do you prefer coffee or tea?\nB: I prefer tea with milk.",note:"é = closed, like ay in say (café, été).\nè = open, like e in bed (mère, père).\nThis distinction matters for meaning and grammar."},
+          {type:"teach",kind:"info",nl:"U vs OU",en:"The critical vowel distinction",phonetic:"ew vs oo",example:"A: Tu vas tout droit dans la rue?\nB: Oui, tout droit, puis à gauche.",exampleEn:"A: You go straight down the street?\nB: Yes, straight, then left.",note:"U (tu, rue): say ee with rounded lips.\nOU (tout, vous): like oo in food.\nMixing them changes meaning: tu (you) vs tout (all)."},
+          {type:"teach",kind:"info",nl:"O sounds: o, ô, au, eau",en:"Multiple spellings for the O sound",phonetic:"oh",example:"A: C'est un beau château!\nB: Oui, le mot juste!",exampleEn:"A: It's a beautiful castle!\nB: Yes, exactly the right word!",note:"All produce similar OH sounds:\no in mot (word), ô in hôtel,\nau in auto, eau in beau.\neau is the most distinctly French spelling."},
+          {type:"mc",q:"'tu' and 'tout' differ in which vowel?",opts:["tu has U (ew), tout has OU (oo)","Both have the same vowel","tu has OU, tout has U","Neither has a vowel"],ans:"tu has U (ew), tout has OU (oo)",hint:"U = ee with rounded lips. OU = oo as in food."},
+          {type:"mc",q:"The letter combination 'eau' sounds like:",opts:["ee-ah-oo","oh","ee-ow","aw"],ans:"oh",hint:"eau, au, and ô all produce the same closed O sound."},
+          {type:"mc",q:"'mère' (mother) has which type of E?",opts:["Closed E (ay)","Open E (eh)","Nasal E","Silent E"],ans:"Open E (eh)",hint:"The accent grave on è signals an open EH sound."},
+          {type:"match",pairs:[{nl:"é (café)",en:"closed AY"},{nl:"è (mère)",en:"open EH"},{nl:"u (tu)",en:"rounded EW"},{nl:"ou (vous)",en:"OO as in food"}]},
+        ]},
+        {id:"fr_fp_s2_l2",title:"Nasal Vowels",icon:"👃",xp:15,board:true,steps:[
+          {type:"intro",title:"Four vowels that vibrate in the nose",desc:"When a vowel is followed by N or M (and no vowel after), the vowel nasalizes. The N/M is NOT pronounced. This is completely foreign to English speakers.",goals:["Recognize the 4 nasal vowels by spelling","Know the N/M is not pronounced","Practice minimal pairs"]},
+          {type:"teach",kind:"info",nl:"an / en",en:"First nasal: ah through the nose",phonetic:"on (like ong without the g)",example:"A: L'enfant mange dans la chambre.\nB: Depuis quand?",exampleEn:"A: The child eats in the bedroom.\nB: Since when?",note:"Spellings: an, am, en, em.\nDo NOT pronounce the N or M!\nThe vowel vibrates in the nasal cavity.\nExamples: dans, chambre, enfant, temps."},
+          {type:"teach",kind:"info",nl:"on",en:"Second nasal: oh through the nose",phonetic:"on (like ong without the g)",example:"A: Ton nom, c'est quoi?\nB: Mon nom, c'est Simon.",exampleEn:"A: What is your name?\nB: My name is Simon.",note:"Spellings: on, om.\nExamples: bon, nom, maison, pont, bombe.\nThe O nasalizes. The N/M disappears."},
+          {type:"teach",kind:"info",nl:"in / ain",en:"Third nasal: eh through the nose",phonetic:"an (like ang without the g)",example:"A: Tu veux du pain ou du vin?\nB: Du vin, s'il te plaît.",exampleEn:"A: Do you want bread or wine?\nB: Wine, please.",note:"Spellings: in, im, ain, ein, yn.\nExamples: vin, simple, pain, plein.\nThis nasal is brighter than an/en."},
+          {type:"teach",kind:"info",nl:"un",en:"Fourth nasal: uh through the nose",phonetic:"un (like ung without the g)",example:"A: Tu as un parfum?\nB: Oui, un brun foncé.",exampleEn:"A: Do you have a perfume?\nB: Yes, a dark brown one.",note:"Spellings: un, um.\nExamples: un, brun, parfum.\nIn modern French, many speakers merge un with in.\nBut the distinction still exists in careful speech."},
+          {type:"mc",q:"In 'enfant', the letters E-N produce:",opts:["The sounds eh then n separately","A nasal vowel (no N pronounced)","A silent syllable","An emphasis on the N"],ans:"A nasal vowel (no N pronounced)",hint:"Vowel + N/M before a consonant = nasal vowel. N disappears."},
+          {type:"mc",q:"'bon' (good) contains which nasal vowel?",opts:["an/en nasal","on nasal","in nasal","un nasal"],ans:"on nasal",hint:"The letters O + N before a consonant or word end = on nasal."},
+          {type:"mc",q:"'pain' (bread) contains which nasal vowel?",opts:["an/en nasal","on nasal","in/ain nasal","un nasal"],ans:"in/ain nasal",hint:"The letters A-I-N produce the in/ain nasal."},
+          {type:"mc",q:"When does a vowel + N/M NOT nasalize?",opts:["When another vowel follows the N/M","When the word is short","When the word is a verb","It always nasalizes"],ans:"When another vowel follows the N/M",hint:"bonne = bon-nuh (not nasal). bon = nasal. The following vowel breaks it."},
+          {type:"match",pairs:[{nl:"an/en (dans)",en:"nasalized AH"},{nl:"on (bon)",en:"nasalized OH"},{nl:"in/ain (vin)",en:"nasalized EH"},{nl:"un (brun)",en:"nasalized UH"}]},
+        ]},
+      ]},
+
+    // ── STAGE 3: CONSONANTS & LIAISON ──
+    {id:"fr_fp_s3",title:"Consonants & Liaison",desc:"The French R, CH, liaison rules, and consonant traps",icon:"🧩",
+      lessons:[
+        {id:"fr_fp_s3_l1",title:"The French R and CH",icon:"🔗",xp:15,board:true,steps:[
+          {type:"intro",title:"Two sounds that define French",desc:"The French R is uvular (from the throat) and CH always says SH. Neither sounds like English. Mastering these two sounds will transform your French.",goals:["Produce the uvular R","Know CH = SH always","Handle R in different positions"]},
+          {type:"teach",kind:"info",nl:"Le R français",en:"The French R: uvular",phonetic:"like a gentle gargle",example:"A: Tu regardes le restaurant rouge?\nB: Oui, c'est le restaurant de Pierre.",exampleEn:"A: Are you looking at the red restaurant?\nB: Yes, it is Pierre's restaurant.",note:"Made at the back of the throat. The uvula vibrates.\nNot rolled (that is Spanish/Italian R).\nNot from the tongue tip (that is English R).\nPractice: gargle gently, then add a vowel."},
+          {type:"teach",kind:"info",nl:"CH = SH",en:"CH always makes the SH sound",phonetic:"sh as in shoe",example:"A: Le chat cherche un chocolat.\nB: Les chats adorent le chocolat!",exampleEn:"A: The cat is looking for a chocolate.\nB: Cats love chocolate!",note:"NEVER like English CH in chair.\nAlways SH: chat = shah, chose = shohz.\nThis is one of the easiest French rules: ch = sh, always."},
+          {type:"teach",kind:"info",nl:"GN = NY",en:"GN makes the NY sound",phonetic:"ny as in canyon",example:"A: La montagne est magnifique!\nB: C'est la campagne française.",exampleEn:"A: The mountain is magnificent!\nB: It is the French countryside.",note:"Like Spanish n with tilde, or English ny in canyon.\nmontagne = mon-TAH-nyuh.\nchampagne, signe, gagner all use this sound."},
+          {type:"mc",q:"French CH in 'chat' (cat) sounds like:",opts:["CH as in chair","SH as in shoe","K as in cat","S as in city"],ans:"SH as in shoe",hint:"French CH is always the SH sound."},
+          {type:"mc",q:"The French R is best described as:",opts:["Rolled with the tongue tip","Made at the back of the throat","Identical to English R","Always silent"],ans:"Made at the back of the throat",hint:"French R is uvular: throat vibration, not tongue."},
+          {type:"mc",q:"GN in 'montagne' sounds like:",opts:["G then N separately","NY as in canyon","Just N","NG as in sing"],ans:"NY as in canyon",hint:"GN is a single sound: the NY combination."},
+          {type:"match",pairs:[{nl:"R",en:"uvular (throat)"},{nl:"CH",en:"SH sound"},{nl:"GN",en:"NY sound"},{nl:"QU",en:"K sound (u silent)"}]},
+        ]},
+        {id:"fr_fp_s3_l2",title:"Liaison",icon:"🔗",xp:15,board:true,steps:[
+          {type:"intro",title:"When silent consonants wake up",desc:"Liaison is one of the most distinctive features of French. A normally-silent final consonant is pronounced when the next word starts with a vowel. This connects words together.",goals:["Know when liaison is mandatory","Know when liaison is forbidden","Handle the most common liaisons"]},
+          {type:"teach",kind:"info",nl:"Liaison obligatoire",en:"Mandatory liaison",phonetic:"lee-ay-ZON ob-lee-gah-TWAHR",example:"les amis = lez-ah-MEE\nnous avons = nooz-ah-VON\ndeux enfants = duhz-on-FON",exampleEn:"The friends, we have, two children: silent consonants wake up before vowels",note:"Required between:\n1. Article + noun: les amis, un enfant\n2. Pronoun + verb: nous avons, ils ont\n3. Number + noun: deux amis, trois ans\n4. Adjective + noun: petit ami, grand homme"},
+          {type:"teach",kind:"info",nl:"Liaison interdite",en:"Forbidden liaison",phonetic:"lee-ay-ZON an-tair-DEET",example:"et il (ay eel, never ez-eel)\nles / haricots (lay ah-ree-KOH)",exampleEn:"After 'et' and before 'h aspiré': never link",note:"NEVER liaison after et (and).\nNEVER liaison before h aspiré words.\nNEVER liaison after a singular noun.\nThese are strict rules, not preferences."},
+          {type:"teach",kind:"info",nl:"Comment ça sonne",en:"How liaison consonants sound",phonetic:"koh-MON sah SONN",example:"S/X → Z sound: les amis (lez), deux amis (duhz)\nD → T sound: grand ami (gron-tah-MEE)\nN → N sound: un ami (uhn-ah-MEE)",exampleEn:"The consonant in liaison often changes sound",note:"S and X both become Z in liaison.\nD becomes T in liaison.\nN stays N.\nThese sound changes are consistent."},
+          {type:"mc",q:"In 'les amis' (the friends), the S in 'les' is:",opts:["Silent as usual","Pronounced as Z because of liaison","Pronounced as S","Dropped entirely"],ans:"Pronounced as Z because of liaison",hint:"S in liaison always becomes a Z sound."},
+          {type:"mc",q:"Liaison after 'et' (and) is:",opts:["Mandatory","Optional","Forbidden","Depends on the word"],ans:"Forbidden",hint:"Et never triggers liaison. et il = ay eel."},
+          {type:"mc",q:"In 'un ami' (a friend), the N in 'un' is:",opts:["Silent","Pronounced as N (liaison)","Pronounced as M","Dropped"],ans:"Pronounced as N (liaison)",hint:"The nasal vowel resolves, and the N connects to the next vowel."},
+          {type:"mc",q:"Which triggers mandatory liaison?",opts:["Noun + adjective","Verb + verb","Article + noun starting with vowel","Et + any word"],ans:"Article + noun starting with vowel",hint:"Articles always link to following vowel-initial nouns."},
+        ]},
+        {id:"fr_fp_s3_l3",title:"Consonant Traps",icon:"⚡",xp:15,board:true,steps:[
+          {type:"intro",title:"Letters that deceive English speakers",desc:"Several French consonant patterns look like English but sound different. TH says T. G before E/I says ZH. QU says K.",goals:["Know TH = T in French","Know G has two sounds","Handle QU and PH"]},
+          {type:"teach",kind:"info",nl:"TH = T",en:"TH is just a T sound",phonetic:"t",example:"le thé (tay), le théâtre (tay-AH-truh), sympathique (san-pah-TEEK)",exampleEn:"French TH is NEVER the English th sound (as in the or think)",note:"No tongue between teeth. Just plain T.\nthé = tay (not thee). théâtre = tay-ah-truh.\nThis is one of the simplest rules."},
+          {type:"teach",kind:"info",nl:"G: hard and soft",en:"G before a/o/u = hard. G before e/i = ZH.",phonetic:"g or zh",example:"Hard: gare (station), gomme (eraser), aigu (sharp)\nSoft: manger (to eat), fragile, rouge (red)",exampleEn:"The vowel after G determines its sound",note:"Hard G (before a, o, u): like English go.\nSoft G (before e, i): ZH sound, like s in pleasure.\nSame rule as C: vowel after determines hard or soft."},
+          {type:"teach",kind:"info",nl:"QU = K",en:"QU always sounds like K (U is silent)",phonetic:"k",example:"que (kuh), quand (kon), quatre (KAH-truh), pourquoi (poor-KWAH)",exampleEn:"The U after Q is always silent in French",note:"Never say kwuh. Just k.\nque = kuh. quand = kon. qui = kee.\nException: in some words like aquarium, both letters sound."},
+          {type:"mc",q:"French TH in 'thé' (tea) sounds like:",opts:["English TH in think","English TH in the","Just T","Just H"],ans:"Just T",hint:"French TH = plain T. No tongue between teeth."},
+          {type:"mc",q:"G in 'manger' (to eat) sounds like:",opts:["Hard G as in go","ZH as in pleasure","Silent","J as in jump"],ans:"ZH as in pleasure",hint:"G before E = soft G = ZH sound."},
+          {type:"mc",q:"QU in 'quatre' (four) sounds like:",opts:["KW as in queen","K only (U silent)","GW","Just Q alone"],ans:"K only (U silent)",hint:"QU = K in French. The U is always silent."},
+          {type:"mc",q:"PH in 'pharmacie' sounds like:",opts:["P then H","F (same as English)","PH blended","Silent"],ans:"F (same as English)",hint:"PH = F in French, just like in English."},
+        ]},
+      ]},
+
+    // ── STAGE 4: SILENT LETTERS & SPELLING ──
+    {id:"fr_fp_s4",title:"Silent Letters & Spelling",desc:"The CaReFuL rule, silent E, and spelling patterns",icon:"🔇",
+      lessons:[
+        {id:"fr_fp_s4_l1",title:"Silent Final Consonants",icon:"🔇",xp:15,board:true,steps:[
+          {type:"intro",title:"Most final consonants are silent",desc:"French spelling preserves many letters that are no longer pronounced. The mnemonic CaReFuL helps: C, R, F, L are usually pronounced at word end. Most others are silent.",goals:["Apply the CaReFuL rule","Know the major exceptions","Handle silent -ent in verbs"]},
+          {type:"teach",kind:"info",nl:"La règle CaReFuL",en:"The CaReFuL rule: C, R, F, L are usually pronounced",phonetic:"kah-ruh-FUL",example:"C: avec, sac. R: amour, voir. F: actif, bref. L: animal, sel.\nSilent: petit (t), dans (s), deux (x), riz (z), trop (p).",exampleEn:"CaReFuL consonants are pronounced. Most others are silent at word end.",note:"CaReFuL = C, R, F, L: usually pronounced.\nD, T, S, X, Z, P at word end: usually silent.\nExceptions exist: blanc (C silent), parler (R silent in -er verbs)."},
+          {type:"teach",kind:"info",nl:"-ent verbal",en:"The verb ending -ent is ALWAYS silent",phonetic:"silent!",example:"ils parlent = eel PARL (not par-LONT)\nelles mangent = ell MONZH (not mon-ZHONT)",exampleEn:"The third person plural -ent ending is completely silent",note:"This is the biggest spelling trap in French.\nils parlent looks like it should rhyme with parent.\nIt does NOT. The -ent is 100% silent on verbs.\nNon-verbs: moment, lent, argent DO pronounce the -ent."},
+          {type:"mc",q:"The T in 'petit' (small) is:",opts:["Pronounced","Silent","Sometimes pronounced","Depends on accent"],ans:"Silent",hint:"Final T is not in CaReFuL. It is silent."},
+          {type:"mc",q:"The R in 'amour' (love) is:",opts:["Silent","Pronounced","Optional","Depends on region"],ans:"Pronounced",hint:"R is in CaReFuL. Final R is usually pronounced."},
+          {type:"mc",q:"In 'ils parlent' (they speak), the -ent is:",opts:["Pronounced as ONT","Pronounced as ENT","Completely silent","Pronounced as ON"],ans:"Completely silent",hint:"Verb ending -ent is always silent. ils parlent = eel PARL."},
+          {type:"mc",q:"Which mnemonic helps remember which final consonants are usually pronounced?",opts:["CaReFuL: C, R, F, L","SToP: S, T, P","VoWeL: V, W, L","BReaD: B, R, D"],ans:"CaReFuL: C, R, F, L",hint:"C, R, F, L = the four consonants usually pronounced at word end."},
+          {type:"match",pairs:[{nl:"Final C (avec)",en:"Pronounced"},{nl:"Final T (petit)",en:"Silent"},{nl:"Final F (actif)",en:"Pronounced"},{nl:"Final S (dans)",en:"Silent"}]},
+        ]},
+        {id:"fr_fp_s4_l2",title:"Silent E and Elision",icon:"📝",xp:15,board:true,steps:[
+          {type:"intro",title:"Silent E and the l' contraction",desc:"E at the end of a word is usually silent. When le or la precedes a vowel, they contract to l'. This is called elision, and it is mandatory.",goals:["Know final E is usually silent","Understand mandatory elision","Handle l', j', n', d', s'"]},
+          {type:"teach",kind:"info",nl:"Le E muet",en:"Silent E at word end",phonetic:"uh mew-AY",example:"grande = grond (not gron-DUH)\ntable = TAH-bluh (barely audible)\nrouge = roozh",exampleEn:"Final E is silent or barely whispered. But it makes the preceding consonant audible.",note:"Without the final E, the consonant would be silent:\ngrand = gron (D silent). grande = grond (D audible).\nFinal E signals feminine gender in many words."},
+          {type:"teach",kind:"info",nl:"L'élision",en:"Elision: le/la become l' before vowels",phonetic:"lay-lee-ZYON",example:"le + homme = l'homme\nla + école = l'école\nje + ai = j'ai\nne + ai = n'ai",exampleEn:"When certain short words meet a vowel, they drop their vowel and merge",note:"Mandatory for: le, la, je, me, te, se, ne, de, que.\nle homme is WRONG. l'homme is correct.\nla école is WRONG. l'école is correct.\nThis is not optional. It is a strict rule."},
+          {type:"mc",q:"'la école' in French is:",opts:["Correct as written","Wrong: must be l'école","Wrong: must be le école","Optional either way"],ans:"Wrong: must be l'école",hint:"Elision before vowels is mandatory. la + vowel = l'."},
+          {type:"mc",q:"In 'grande' (big, feminine), the final E is:",opts:["Pronounced clearly as AY","Silent, but makes the D audible","Completely meaningless","Pronounced as EE"],ans:"Silent, but makes the D audible",hint:"Final E is silent but reveals the preceding consonant."},
+          {type:"mc",q:"'je ai' in French must become:",opts:["je ai (two words)","j'ai (elision)","ji (shortened)","jai (no apostrophe)"],ans:"j'ai (elision)",hint:"Je drops its E before a vowel. Mandatory elision."},
+          {type:"mc",q:"Elision in French is:",opts:["Optional for style","Mandatory before vowel-initial words","Only in formal speech","Only in writing"],ans:"Mandatory before vowel-initial words",hint:"French requires elision. It is never optional."},
+        ]},
+      ]},
+
+    // ── STAGE 5: PRONUNCIATION PATTERNS ──
+    {id:"fr_fp_s5",title:"Pronunciation Patterns",desc:"Word stress, rhythm, and common spelling-to-sound rules",icon:"🎵",
+      lessons:[
+        {id:"fr_fp_s5_l1",title:"Stress & Rhythm",icon:"💬",xp:15,board:true,steps:[
+          {type:"intro",title:"French stress always falls on the last syllable",desc:"Unlike English (which stresses various syllables), French ALWAYS stresses the final syllable of a word or phrase. This gives French its distinctive flowing rhythm.",goals:["Know stress is always final","Understand syllable-timed rhythm","Contrast with English stress patterns"]},
+          {type:"teach",kind:"info",nl:"L'accent tonique",en:"Stress on the last syllable",phonetic:"lak-SON toh-NEEK",example:"pa-RLEH (parler), res-toh-RON (restaurant), u-nee-vair-see-TAY (université)",exampleEn:"Stress always falls on the LAST syllable, no exceptions",note:"This is one of the simplest French rules.\nEvery word: stress the last syllable.\nIn a phrase, stress the last syllable of the last word.\nEnglish speakers must resist stressing earlier syllables."},
+          {type:"teach",kind:"info",nl:"Le rythme syllabique",en:"Syllable-timed rhythm",phonetic:"luh REETM see-lah-BEEK",example:"English: I WANT to GO to the STORE (stress-timed).\nFrench: je-veux-al-ler-au-ma-ga-ZIN (syllable-timed).",exampleEn:"English bounces between stressed and unstressed. French flows evenly.",note:"French gives roughly equal time to each syllable.\nEnglish rushes through unstressed syllables.\nThis is why French sounds smooth and even."},
+          {type:"mc",q:"In French, word stress falls on:",opts:["The first syllable","The second syllable","The last syllable","It varies by word"],ans:"The last syllable",hint:"French stress is always final. No exceptions."},
+          {type:"mc",q:"'restaurant' in French is stressed as:",opts:["RES-toh-ron","res-TOH-ron","res-toh-RON","res-toh-ron (no stress)"],ans:"res-toh-RON",hint:"Last syllable is always stressed in French."},
+          {type:"mc",q:"French rhythm is described as:",opts:["Stress-timed like English","Syllable-timed: even flow","Random timing","Monotone with no rhythm"],ans:"Syllable-timed: even flow",hint:"Each syllable gets roughly equal time, creating a flowing sound."},
+          {type:"mc",q:"An English speaker learning French should focus on:",opts:["Stressing the first syllable more","Giving each syllable equal weight","Speaking faster","Adding more pauses"],ans:"Giving each syllable equal weight",hint:"French does not rush or skip syllables like English does."},
+        ]},
+        {id:"fr_fp_s5_l2",title:"Spelling-to-Sound Rules",icon:"📐",xp:15,board:true,steps:[
+          {type:"intro",title:"French spelling is more regular than English",desc:"While French has many silent letters, the spelling-to-sound rules are actually quite consistent. Once you learn the patterns, you can pronounce almost any word.",goals:["Know the -tion, -ment, -eur patterns","Handle -ille and -aille","Recognize common endings"]},
+          {type:"teach",kind:"info",nl:"-tion = -SYON",en:"-tion ending always says SYON",phonetic:"SYON",example:"nation (nah-SYON), situation (see-tew-ah-SYON), attention (ah-ton-SYON)",exampleEn:"Every -tion word ends in SYON, never SHUN like English",note:"This is highly regular. Hundreds of words follow this.\nEnglish -tion = SHUN. French -tion = SYON.\nThe T becomes an S sound before the -ion."},
+          {type:"teach",kind:"info",nl:"-ment = -MON",en:"-ment ending says MON (nasal)",phonetic:"mon",example:"exactement (eg-zak-tuh-MON), vraiment (vreh-MON), moment (moh-MON)",exampleEn:"The -ment ending is a nasal MON, not MENT as in English",note:"-ment at word end = nasal MON.\nThe E before the nasal disappears into it.\nHundreds of adverbs end this way."},
+          {type:"teach",kind:"info",nl:"-eur = -UR",en:"-eur ending: open vowel + R",phonetic:"ur",example:"docteur (dok-TUR), professeur (pro-feh-SUR), couleur (koo-LUR)",exampleEn:"French -eur ending: like English 'ur' in fur",note:"Very common ending for professions and abstract nouns.\nMasculine: le docteur, le professeur.\nFeminine forms often end in -euse: chanteuse, danseuse."},
+          {type:"mc",q:"French -tion is pronounced:",opts:["SHUN like English","SYON","TYON","TION with all letters"],ans:"SYON",hint:"French -tion = SYON. The T becomes S before -ion."},
+          {type:"mc",q:"French -ment in 'exactement' sounds like:",opts:["MENT as in English","MON (nasal)","MONT","MONG"],ans:"MON (nasal)",hint:"The -ment ending nasalizes to MON."},
+          {type:"mc",q:"'-ille' in 'fille' (girl) sounds like:",opts:["ILL as in English pill","EE-yuh","ILL-eh","EEL"],ans:"EE-yuh",hint:"-ille usually produces a Y sound: fille = FEE-yuh."},
+          {type:"mc",q:"French spelling-to-sound rules are:",opts:["Completely random","More regular than English once you learn the patterns","Identical to English","Impossible to learn"],ans:"More regular than English once you learn the patterns",hint:"French has more silent letters but more consistent rules."},
+        ]},
+      ]},
+
+    // ── STAGE 6: GRAMMAR PREVIEW ──
+    {id:"fr_fp_s6",title:"Grammar Preview",desc:"Two genders, the Agreement Web, and verb groups",icon:"🏗️",
+      lessons:[
+        {id:"fr_fp_s6_l1",title:"Two Genders: le and la",icon:"🎭",xp:20,board:true,steps:[
+          {type:"intro",title:"Every French noun has a gender",desc:"French has two grammatical genders: masculine (le) and feminine (la). Gender affects articles, adjectives, and agreement. Before vowels, both become l'. Color-coding: le = blue, la = coral.",goals:["Know the two genders: le and la","Know gender affects the whole sentence","Accept that gender must be learned with each noun"]},
+          {type:"teach",kind:"info",nl:"le (masculin)",en:"masculine article",phonetic:"luh",example:"A: Qu'est-ce que c'est?\nB: C'est le livre.",exampleEn:"A: What is it?\nB: It is the book.",note:"le marks masculine nouns. Color: blue.\nSome patterns help: -age, -ment endings are often masculine.\nBut many nouns have unpredictable gender. Learn it with each word."},
+          {type:"teach",kind:"info",nl:"la (féminin)",en:"feminine article",phonetic:"lah",example:"A: Tu vois la maison?\nB: Oui, c'est la maison de Marie.",exampleEn:"A: Do you see the house?\nB: Yes, it is Marie's house.",note:"la marks feminine nouns. Color: coral.\nPatterns: -tion, -ité, -ence, -ure endings are almost always feminine.\nla is also used for specific feminine people: la fille, la mère."},
+          {type:"teach",kind:"info",nl:"l' (élision)",en:"Before vowels: gender hidden!",phonetic:"l",example:"l'homme (masculine), l'école (feminine), l'enfant (masculine)",exampleEn:"Before vowels, le and la both become l'. You cannot hear the gender!",note:"This is why you MUST memorize gender.\nIs l'arbre masculine or feminine? (masculine: le arbre = l'arbre)\nIs l'eau masculine or feminine? (feminine: la eau = l'eau)\nYou only know from memory."},
+          {type:"tip",title:"Learn le/la with every noun",text:"Never learn a noun without its article.\nNot just: livre. Always: le livre.\nNot just: maison. Always: la maison.\nThe article is part of the vocabulary item.\n\nPhonetic patterns help:\n-age = usually le (le voyage, le fromage)\n-ment = usually le (le moment, le gouvernement)\n-tion = usually la (la nation, la situation)\n-ité = usually la (la cité, la qualité)",deepDive:{title:"Why does French have gender?",text:"French evolved from Latin, which had three genders (masculine, feminine, neuter). Latin's neuter merged into masculine over centuries. The result: two genders with historical but not logical assignments.\n\nKnowing this helps: gender is a fossil, not a meaning system. Le soleil (sun, masculine) and la lune (moon, feminine) are arbitrary. In German, it is the opposite: die Sonne (sun, feminine) and der Mond (moon, masculine)."}},
+          {type:"mc",q:"How many grammatical genders does French have?",opts:["One: no gender","Two: masculine and feminine","Three: masculine, feminine, neuter","Four genders"],ans:"Two: masculine and feminine",hint:"le (masculine) and la (feminine). That is it."},
+          {type:"mc",q:"Before a vowel, le and la both become:",opts:["les","l'","un","de"],ans:"l'",hint:"Elision hides the gender before vowel-initial words."},
+          {type:"mc",q:"Nouns ending in -tion are almost always:",opts:["Masculine (le)","Feminine (la)","Either gender","Neuter"],ans:"Feminine (la)",hint:"-tion endings: la nation, la situation, la tradition."},
+          {type:"mc",q:"Best practice when learning a new French noun:",opts:["Learn the word alone first","Learn the article with the noun from day one","Only learn articles for feminine nouns","Guess from context"],ans:"Learn the article with the noun from day one",hint:"The article is part of the word. Always learn le/la together with the noun."},
+        ]},
+        {id:"fr_fp_s6_l2",title:"The Agreement Web",icon:"🕸️",xp:20,board:true,steps:[
+          {type:"intro",title:"Everything agrees with everything",desc:"French's central metaphor is the Agreement Web. Adjectives agree with nouns in gender and number. Past participles agree with subjects. Articles match nouns. Every part of the sentence is connected.",goals:["Understand adjective agreement","See how agreement creates a web","Know this affects speaking and writing"]},
+          {type:"teach",kind:"info",nl:"L'accord de l'adjectif",en:"Adjective agreement: gender and number",phonetic:"lah-KOR duh lad-zhek-TEEF",example:"un grand livre (m.sg.), une grande maison (f.sg.)\nde grands livres (m.pl.), de grandes maisons (f.pl.)",exampleEn:"The adjective changes form to match the noun's gender and number",note:"Masculine singular: grand (base form).\nFeminine: add -e: grande.\nPlural: add -s: grands / grandes.\nThe ending changes are often silent in speech!"},
+          {type:"teach",kind:"info",nl:"L'accord du participe passé",en:"Past participle agreement with etre",phonetic:"lah-KOR dew par-tee-SEEP pah-SAY",example:"Il est allé. (m.sg.)\nElle est allée. (f.sg. +e)\nIls sont allés. (m.pl. +s)\nElles sont allées. (f.pl. +es)",exampleEn:"With etre verbs, the past participle matches the subject",note:"This applies ONLY with etre as the helper verb.\nWith avoir, no agreement (usually).\nThe extra letters are often silent in speech:\nallé, allée, allés, allées all sound the same!"},
+          {type:"tip",title:"The Agreement Web: French's core pattern",text:"In French, grammar creates a web of connections:\n\n1. Article agrees with noun: le livre, la table\n2. Adjective agrees with noun: grand livre, grande table\n3. Past participle agrees with subject (etre): il est parti, elle est partie\n4. Pronoun agrees with referent: il le voit, elle la voit\n\nThis web is the heartbeat of French grammar. Every sentence is a small agreement puzzle.",deepDive:{title:"Why so much agreement?",text:"Latin had extensive agreement systems, and French inherited them. While English dropped most of its endings (Old English had them too), French kept them.\n\nThe good news: many agreement changes are SILENT in spoken French. Grand, grande, grands, grandes all sound nearly identical. So agreement matters more in writing than in speech.\n\nThe practical takeaway: learn to hear the base word. The written agreements will come with practice."}},
+          {type:"mc",q:"The feminine form of 'grand' (big) is:",opts:["grand","grande","grands","grander"],ans:"grande",hint:"Add -e for feminine in most French adjectives."},
+          {type:"mc",q:"In 'Elle est allée', the extra -e on allée indicates:",opts:["Past tense","Feminine subject","Plural","A question"],ans:"Feminine subject",hint:"With etre, the past participle agrees with the subject's gender."},
+          {type:"mc",q:"French adjective agreement changes are often:",opts:["Loud and clear in speech","Silent in speech, visible in writing","Only in formal French","Optional"],ans:"Silent in speech, visible in writing",hint:"Grand/grande/grands/grandes often sound identical."},
+          {type:"mc",q:"The Agreement Web means:",opts:["Only verbs change form","Articles, adjectives, and participles all match the noun","Only written French has agreement","Agreement is optional"],ans:"Articles, adjectives, and participles all match the noun",hint:"Everything connects to the noun's gender and number."},
+        ]},
+      ]},
+  ]},
   en:{name:"English Foundations Play",icon:"🇬🇧",blueprint:"latin_simple",stages:[]},
   es:{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]},
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
@@ -2522,6 +2865,75 @@ export const FK_GATE_QUIZ = {
       C:"Stage 4: Study noun capitalization, compound nouns, and Eszett spelling rules.",
       D:"Stage 5: Practice vowel length signals, word stress, and German diphthongs.",
       E:"Stage 6: Review the three-gender system, V2 word order, and the case system.",
+    },
+  },
+  // ══════════════════════════════════════════════════════════════
+  // FRENCH GATE QUIZ — Test out of Foundations
+  // 5 tasks (A-E), 35 items, maps to French Playthrough stages
+  // Anti-leak compliant: no answer in question stem, P8 clean
+  // ══════════════════════════════════════════════════════════════
+  fr:{
+    title:"French Foundations Gate Quiz",
+    desc:"Already know French pronunciation rules? Pass this quiz to skip Foundations.",
+    passCriteria:{AB:90,C:85,DE:80},
+    tasks:[
+      // ── Task A: Vowel & Accent Recognition (8 items) — maps to Stages 1-2 ──
+      {id:"gate_a",title:"Task A: Vowel and Accent Recognition",desc:"Identify French vowel sounds and accent effects.",type:"mc",category:"AB",items:[
+        {q:"The accent in 'café' (é) produces which sound?",opts:["Open EH as in bed","Closed AY as in say","Silent"],ans:"Closed AY as in say"},
+        {q:"The accent in 'mère' (è) produces which sound?",opts:["Closed AY as in say","Open EH as in bed","OO as in food"],ans:"Open EH as in bed"},
+        {q:"French U in 'tu' sounds like:",opts:["OO as in food","EE with rounded lips","UH as in cup"],ans:"EE with rounded lips"},
+        {q:"French OU in 'vous' sounds like:",opts:["EE with rounded lips","OO as in food","OH as in boat"],ans:"OO as in food"},
+        {q:"The cedilla in 'garçon' makes the C sound like:",opts:["K","S","SH"],ans:"S"},
+        {q:"'eau' in 'beau' (beautiful) sounds like:",opts:["EE-AH-OO","OH","OW as in cow"],ans:"OH"},
+        {q:"The nasal vowel in 'bon' is produced by:",opts:["Pronouncing the N clearly","Nasalizing the O without saying N","Doubling the vowel sound"],ans:"Nasalizing the O without saying N"},
+        {q:"'an' and 'en' in French represent:",opts:["Two different sounds","The same nasal vowel","Two separate syllables"],ans:"The same nasal vowel"},
+      ]},
+      // ── Task B: Nasal Vowel & Liaison (7 items) — maps to Stages 2-3 ──
+      {id:"gate_b",title:"Task B: Nasal Vowels and Liaison",desc:"Identify nasal vowels and liaison behavior.",type:"mc",category:"AB",items:[
+        {q:"In 'enfant', the letters E-N produce:",opts:["E then N separately","A nasal vowel (N not pronounced)","A silent syllable"],ans:"A nasal vowel (N not pronounced)"},
+        {q:"'pain' (bread) contains which nasal vowel?",opts:["an/en nasal","on nasal","in/ain nasal"],ans:"in/ain nasal"},
+        {q:"A vowel + N/M does NOT nasalize when:",opts:["The word is short","Another vowel follows the N/M","The word is a verb"],ans:"Another vowel follows the N/M"},
+        {q:"In 'les amis', the S in 'les' is:",opts:["Silent as usual","Pronounced as Z (liaison)","Pronounced as S"],ans:"Pronounced as Z (liaison)"},
+        {q:"Liaison after 'et' (and) is:",opts:["Mandatory","Optional","Forbidden"],ans:"Forbidden"},
+        {q:"Mandatory liaison occurs between:",opts:["Any two words","Article and vowel-initial noun","Verb and verb","After et"],ans:"Article and vowel-initial noun"},
+        {q:"In liaison, a final S or X sounds like:",opts:["S","Z","SH"],ans:"Z"},
+      ]},
+      // ── Task C: Silent Letters & Spelling (8 items) — maps to Stage 4 ──
+      {id:"gate_c",title:"Task C: Silent Letters and Spelling",desc:"Apply the CaReFuL rule and silent letter patterns.",type:"mc",category:"C",items:[
+        {q:"The CaReFuL rule means these final consonants are usually pronounced:",opts:["C, R, F, L","S, T, P","D, G, B"],ans:"C, R, F, L"},
+        {q:"The final T in 'petit' (small) is:",opts:["Pronounced","Silent","Sometimes pronounced"],ans:"Silent"},
+        {q:"The final R in 'amour' (love) is:",opts:["Silent","Pronounced","Optional"],ans:"Pronounced"},
+        {q:"In 'ils parlent' (they speak), the -ent ending is:",opts:["Pronounced as ONT","Completely silent","Pronounced as ENT"],ans:"Completely silent"},
+        {q:"'la + école' must become:",opts:["la école","l'école","le école"],ans:"l'école"},
+        {q:"Final E in 'grande' serves to:",opts:["Add a syllable","Make the preceding D audible","Change the vowel sound"],ans:"Make the preceding D audible"},
+        {q:"French H is:",opts:["Pronounced like English H","Always silent","Sometimes pronounced"],ans:"Always silent"},
+        {q:"H aspiré blocks:",opts:["Nothing","Elision and liaison","Pronunciation of the next letter"],ans:"Elision and liaison"},
+      ]},
+      // ── Task D: Pronunciation Patterns (6 items) — maps to Stage 5 ──
+      {id:"gate_d",title:"Task D: Pronunciation Patterns",desc:"Identify stress, rhythm, and spelling-to-sound patterns.",type:"mc",category:"DE",items:[
+        {q:"In French, word stress falls on:",opts:["The first syllable","The last syllable","The penultimate syllable"],ans:"The last syllable"},
+        {q:"French -tion (as in 'nation') is pronounced:",opts:["SHUN like English","SYON","TYON"],ans:"SYON"},
+        {q:"French -ment (as in 'exactement') ends with:",opts:["MENT as in English","MON (nasal)","MONG"],ans:"MON (nasal)"},
+        {q:"French CH in 'chat' sounds like:",opts:["CH as in chair","SH as in shoe","K as in cat"],ans:"SH as in shoe"},
+        {q:"French TH in 'thé' sounds like:",opts:["TH as in think","Just T","SH as in shoe"],ans:"Just T"},
+        {q:"French rhythm is best described as:",opts:["Stress-timed like English","Syllable-timed with even flow","Free rhythm with no pattern"],ans:"Syllable-timed with even flow"},
+      ]},
+      // ── Task E: Grammar Awareness (6 items) — maps to Stage 6 ──
+      {id:"gate_e",title:"Task E: Grammar Awareness",desc:"Demonstrate awareness of French grammatical features.",type:"mc",category:"DE",items:[
+        {q:"French nouns have how many grammatical genders?",opts:["One","Two","Three"],ans:"Two"},
+        {q:"Before a vowel, 'le' and 'la' both become:",opts:["les","l'","un"],ans:"l'"},
+        {q:"The feminine form of 'grand' (big) is:",opts:["grand","grande","grands"],ans:"grande"},
+        {q:"In 'Elle est allée', the extra -e on 'allée' signals:",opts:["Past tense","Feminine subject","Plural"],ans:"Feminine subject"},
+        {q:"The most common French verb group is:",opts:["-er verbs (Group 1)","Irregular verbs","-ir verbs (Group 2)"],ans:"-er verbs (Group 1)"},
+        {q:"'Vous' is used for:",opts:["Formal singular and all plurals","Only plural groups","Only formal situations"],ans:"Formal singular and all plurals"},
+      ]},
+    ],
+    diagnosticRouting:{
+      A:"Stages 1-2: Practice accent marks, oral vowels, and the U vs OU distinction.",
+      B:"Stages 2-3: Study nasal vowels, liaison rules, and consonant sounds (R, CH, GN).",
+      C:"Stage 4: Study the CaReFuL rule, silent letters, elision, and silent E patterns.",
+      D:"Stage 5: Practice word stress (always final), syllable rhythm, and spelling-to-sound rules.",
+      E:"Stage 6: Review the two-gender system, the Agreement Web, and verb groups.",
     },
   },
 };
