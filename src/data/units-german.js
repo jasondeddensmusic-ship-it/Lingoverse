@@ -1180,4 +1180,334 @@ export default [
 
 ]},
 
+{n:9,lang:"de",track:"v1",title:"Was hast du gemacht?",sub:"Past Tense (Perfekt with haben)",icon:"⏮️",level:"A2.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Was ist Perfekt? ═══
+{id:"deu9l1",title:"Was ist Perfekt?",icon:"⏮️",xp:20,board:true,steps:[
+  {type:"intro",title:"Was ist Perfekt?",desc:"German uses Perfekt to talk about things that happened in the past. It is the most common past tense in spoken German. You need two things: the helper verb haben and a Partizip II.",goals:["Understand the Perfekt structure","Learn haben as the helper verb","Form your first Partizip II: gemacht"]},
+
+  {type:"tip",title:"The Perfekt Formula",text:"Perfekt = haben (position 2) + Partizip II (sentence end)\n\nIch habe Kaffee gemacht.\nDu hast Hausaufgaben gemacht.\nEr hat Fußball gespielt.\n\nTwo verbs. haben is conjugated. Partizip II goes to the END.",deepDive:{title:"Why two verbs?",text:"German Perfekt is a compound tense. It works like English 'I have made' but is used where English often uses the simple past: 'I made' and 'I have made' are both Ich habe gemacht in German.\n\nIn spoken German, Perfekt is used for nearly all past events. Written German also uses Präteritum (simple past), which you will study in B1. For now, Perfekt is all you need to talk about the past."}},
+
+  {type:"teach",kind:"phrase",nl:"ich habe ... gemacht",en:"I made / I did",phonetic:"ikh HAH-beh ... ge-MAKHT",example:"A: Was hast du gestern gemacht?\nB: Ich habe Pizza gemacht.\nA: Lecker! Ich habe auch gekocht.\nB: Was hast du gekocht?",exampleEn:"A: What did you do yesterday?\nB: I made pizza.\nA: Delicious! I cooked too.\nB: What did you cook?",note:"machen = to make/do. Partizip II: gemacht.\nge + mach + t is the pattern for regular verbs."},
+
+  {type:"verb_table",title:"haben - Perfekt Helper",label:"haben (present tense)",groups:[{label:"Singular",rows:[["ich","habe"],["du","hast"],["er/sie/es","hat"]]},{label:"Plural",rows:[["wir","haben"],["ihr","habt"],["sie/Sie","haben"]]}],note:"haben conjugation in present tense = Perfekt helper.\nThe Partizip II always goes to the END of the sentence."},
+
+  {type:"teach",kind:"phrase",nl:"du hast ... gemacht",en:"you did / you made (informal)",phonetic:"doo hast ... ge-MAKHT",example:"A: Du hast das sehr gut gemacht!\nB: Danke! Ich habe lange geübt.\nA: Das sieht man.\nB: Ich übe jeden Tag.",exampleEn:"A: You did that very well!\nB: Thanks! I practised for a long time.\nA: It shows.\nB: I practise every day.",note:"du hast is the 2nd person singular.\nSame Partizip II: gemacht."},
+
+  {type:"teach",kind:"phrase",nl:"er/sie hat ... gemacht",en:"he/she did / made",phonetic:"air/zee hat ... ge-MAKHT",example:"A: Hat er das Frühstück gemacht?\nB: Ja, er hat Eier gemacht.\nA: Und sie? Was hat sie gemacht?\nB: Sie hat Kaffee gemacht.",exampleEn:"A: Did he make breakfast?\nB: Yes, he made eggs.\nA: And her? What did she make?\nB: She made coffee.",note:"3rd person singular = hat.\nSame Partizip II for all persons."},
+
+  {type:"teach",kind:"phrase",nl:"wir haben ... gemacht",en:"we did / made",phonetic:"veer HAH-ben ... ge-MAKHT",example:"A: Was habt ihr am Wochenende gemacht?\nB: Wir haben ein Picknick gemacht!\nA: Super! Wir haben auch etwas gemacht.\nB: Was habt ihr gemacht?",exampleEn:"A: What did you all do at the weekend?\nB: We had a picnic!\nA: Great! We did something too.\nB: What did you all do?",note:"wir haben, ihr habt, sie haben.\nPlural forms use haben just as in present."},
+
+  {type:"tip",title:"Word Order Rule: Partizip II to the End",text:"In a main clause, Partizip II is ALWAYS the last element:\n\nIch habe gestern Pizza gemacht.\n(I made pizza yesterday.)\n\nEr hat am Morgen Kaffee gemacht.\n(He made coffee in the morning.)\n\nTime words and other phrases go in the middle. Partizip II stays at the end.",deepDive:{title:"What about questions?",text:"In a yes/no question, haben moves to position 1, Partizip II stays at the end:\n\nHast du Pizza gemacht? (Did you make pizza?)\nHat er Kaffee gemacht? (Did he make coffee?)\n\nIn a W-question, haben stays at position 2:\nWas hast du gemacht? (What did you do?)"}},
+
+  {type:"mc",q:"Ich ___ Pizza gemacht. Which form of haben fits?",opts:["habe","hast","hat","haben"],ans:"habe",hint:"First person singular of haben."},
+
+  {type:"mc",q:"In Ich habe Kaffee gemacht, where does gemacht sit?",opts:["After Ich","After habe","After Kaffee at the end","Before Kaffee"],ans:"After Kaffee at the end",hint:"Partizip II always goes to the end of the main clause."},
+
+  {type:"fb",s:"Du ___ sehr gut gekocht. (Perfekt of haben, du-form)",a:"hast",opts:["hast","habe","hat","habt"],hint:"Du + haben: the second person singular form."},
+
+  {type:"mc",q:"Was hast du gemacht? means:",opts:["What are you doing?","What did you do?","What will you do?","What do you like to do?"],ans:"What did you do?",hint:"Hast + gemacht signals past tense."},
+
+  {type:"mc",q:"Er ___ Fußball gespielt. Complete the Perfekt sentence.",opts:["habe","hast","hat","haben"],ans:"hat",hint:"Third person singular of haben."},
+
+  {type:"fb",s:"Wir ___ ein Picknick gemacht.",a:"haben",opts:["haben","habt","hast","hat"],hint:"Wir = first person plural form of haben."},
+
+  {type:"mc",q:"Habt ihr das gemacht? is asking:",opts:["Can you all do this?","Did you all do this?","Will you all do this?","Are you all doing this?"],ans:"Did you all do this?",hint:"Habt is past-tense helper for ihr."},
+
+  {type:"mc",q:"Which sentence has CORRECT Perfekt word order?",opts:["Ich gemacht habe Pizza.","Ich habe Pizza gemacht.","Habe ich gemacht Pizza.","Pizza ich habe gemacht."],ans:"Ich habe Pizza gemacht.",hint:"haben at position 2, Partizip II at the end."},
+
+  {type:"fb",s:"Sie (she) ___ gestern viel gemacht.",a:"hat",opts:["hat","hast","habe","haben"],hint:"She = 3rd person singular of haben."},
+
+  {type:"mc",q:"The Perfekt tense uses which helper verb (most action verbs)?",opts:["sein","werden","wollen","haben"],ans:"haben",hint:"Most action verbs use haben as the Perfekt helper."},
+]},
+
+// ═══ L2: Regelmäßige Verben ═══
+{id:"deu9l2",title:"Regelmäßige Verben",icon:"✅",xp:20,board:true,steps:[
+  {type:"intro",title:"Regelmäßige Verben",desc:"Regular verbs form their Partizip II with a simple formula: ge + STEM + t. Learn the five most useful regular verbs and their past forms.",goals:["Master the ge-STEM-t formula","Learn gemacht, gekocht, gespielt, gelernt, gearbeitet","Use regular Partizip II in Perfekt sentences"]},
+
+  {type:"tip",title:"Regular Partizip II: ge + STEM + t",text:"Regular verbs follow one rule:\n\nge + verb stem + t\n\nmachen (stem: mach) = gemacht\nkochen (stem: koch) = gekocht\nspielen (stem: spiel) = gespielt\nlernen (stem: lern) = gelernt\narbeiten (stem: arbeit) = gearbeitet\n\nIf the stem ends in -t or -d, add -et instead: gearbeitet.",deepDive:{title:"Why gearbeitet and not gearbeit?",text:"When a verb stem ends in a consonant cluster that is hard to pronounce (like arbeit-), German inserts an -e- before the -t ending: arbeiten = gearbeitet.\n\nThe same rule applies to verbs like warten (to wait) = gewartet, and reden (to talk) = geredet.\n\nThis is purely for pronunciation. You will recognise this pattern once you hear it a few times."}},
+
+  {type:"teach",kind:"word",nl:"gemacht",en:"made / done (Partizip II of machen)",phonetic:"ge-MAKHT",example:"A: Hast du das allein gemacht?\nB: Ja, ich habe alles allein gemacht.\nA: Respekt! Das hast du gut gemacht.\nB: Danke, ich habe viel geübt.",exampleEn:"A: Did you do that alone?\nB: Yes, I did everything alone.\nA: Respect! You did that well.\nB: Thanks, I practised a lot.",note:"machen = to do/make. Stem: mach. Partizip II: gemacht.\nUsed for almost any doing action."},
+
+  {type:"teach",kind:"word",nl:"gekocht",en:"cooked (Partizip II of kochen)",phonetic:"ge-KOKHT",example:"A: Wer hat heute gekocht?\nB: Ich habe Pasta gekocht.\nA: Lecker! Ich habe gestern auch gekocht.\nB: Was hast du gekocht?",exampleEn:"A: Who cooked today?\nB: I cooked pasta.\nA: Delicious! I cooked yesterday too.\nB: What did you cook?",note:"kochen = to cook. Stem: koch. Partizip II: gekocht.\nge + koch + t = gekocht."},
+
+  {type:"teach",kind:"word",nl:"gespielt",en:"played (Partizip II of spielen)",phonetic:"ge-SHPEELT",example:"A: Hast du heute Fußball gespielt?\nB: Nein, ich habe Gitarre gespielt.\nA: Oh! Ich habe Tennis gespielt.\nB: Wir haben verschiedene Sachen gespielt.",exampleEn:"A: Did you play football today?\nB: No, I played guitar.\nA: Oh! I played tennis.\nB: We played different things.",note:"spielen = to play. Stem: spiel. Partizip II: gespielt.\nWorks for sports, instruments, and games."},
+
+  {type:"teach",kind:"word",nl:"gelernt",en:"learned / studied (Partizip II of lernen)",phonetic:"ge-LERNT",example:"A: Was habt ihr heute gelernt?\nB: Wir haben Perfekt gelernt!\nA: Gut! Ich habe auch Deutsch gelernt.\nB: Wir lernen jeden Tag etwas Neues.",exampleEn:"A: What did you all learn today?\nB: We learned Perfekt!\nA: Good! I studied German too.\nB: We learn something new every day.",note:"lernen = to learn. Stem: lern. Partizip II: gelernt.\nAlso means to study for a test."},
+
+  {type:"teach",kind:"word",nl:"gearbeitet",en:"worked (Partizip II of arbeiten)",phonetic:"ge-AR-bi-tet",example:"A: Hast du heute gearbeitet?\nB: Ja, ich habe acht Stunden gearbeitet.\nA: Das ist viel! Ich habe nur vier Stunden gearbeitet.\nB: Morgen arbeite ich weniger.",exampleEn:"A: Did you work today?\nB: Yes, I worked eight hours.\nA: That is a lot! I only worked four hours.\nB: Tomorrow I will work less.",note:"arbeiten = to work. Stem: arbeit. Partizip II: gearbeitet.\nStem ends in -t, so: ge + arbeit + et = gearbeitet."},
+
+  {type:"verb_table",title:"Regular Partizip II Patterns",label:"ge + STEM + t",groups:[{label:"Regular -t",rows:[["machen","gemacht"],["kochen","gekocht"],["spielen","gespielt"],["lernen","gelernt"]]},{label:"Stem ends -t or -d (add -et)",rows:[["arbeiten","gearbeitet"],["warten","gewartet"],["reden","geredet"]]}],note:"The -et ending is added when the stem ends in -t or -d.\nThis makes the Partizip II easier to pronounce."},
+
+  {type:"mc",q:"What is the Partizip II of lernen?",opts:["gelearnt","gelernt","lernte","lerniert"],ans:"gelernt",hint:"ge + stem + t: ge + lern + t = gelernt."},
+
+  {type:"mc",q:"What is the Partizip II of arbeiten?",opts:["gearbeitt","gearbeit","gearbeitet","arbeitete"],ans:"gearbeitet",hint:"Stem ends in -t, so add -et not just -t."},
+
+  {type:"fb",s:"Ich habe gestern Gitarre ___. (played)",a:"gespielt",opts:["gespielt","spielte","gespiele","gespieltet"],hint:"spielen: ge + spiel + t = gespielt."},
+
+  {type:"mc",q:"Wir haben Pizza gekocht means:",opts:["We are cooking pizza","We cooked pizza","We will cook pizza","We like pizza"],ans:"We cooked pizza",hint:"Haben + gekocht = Perfekt past tense."},
+
+  {type:"fb",s:"Sie hat acht Stunden ___. (worked)",a:"gearbeitet",opts:["gearbeitet","gearbeitete","gearbeit","arbeitete"],hint:"arbeiten: stem ends in -t, so ge + arbeit + et."},
+
+  {type:"mc",q:"Which verb does NOT follow the regular ge-STEM-t pattern?",opts:["machen","kochen","spielen","trinken"],ans:"trinken",hint:"trinken is a strong verb with a vowel change in Partizip II."},
+
+  {type:"mc",q:"Ich habe Deutsch gelernt. The Partizip II is at:",opts:["Position 1","Position 2","After Deutsch","At the very end"],ans:"At the very end",hint:"Partizip II always closes the Perfekt sentence."},
+
+  {type:"match",pairs:[{nl:"gemacht",en:"made/done"},{nl:"gekocht",en:"cooked"},{nl:"gespielt",en:"played"},{nl:"gelernt",en:"learned"}]},
+
+  {type:"mc",q:"To say 'she worked', you say:",opts:["Sie hat gearbeitet.","Sie hast gearbeitet.","Sie haben gearbeitet.","Sie habe gearbeitet."],ans:"Sie hat gearbeitet.",hint:"3rd person singular of haben is hat."},
+
+  {type:"fb",s:"Hast du heute ___? (cooked)",a:"gekocht",opts:["gekocht","kochen","kochte","kochiert"],hint:"kochen: ge + koch + t = gekocht."},
+
+  {type:"mc",q:"What is TRUE about regular Partizip II forms?",opts:["They all begin with ge- and end in -en","They all begin with ge- and end in -t or -et","They change the vowel in the stem","They use a different ending for each person"],ans:"They all begin with ge- and end in -t or -et",hint:"ge-STEM-t or ge-STEM-et for stems ending in -t or -d."},
+]},
+
+// ═══ L3: Unregelmäßige Verben ═══
+{id:"deu9l3",title:"Unregelmäßige Verben",icon:"⚡",xp:20,board:true,steps:[
+  {type:"intro",title:"Unregelmäßige Verben",desc:"Irregular verbs do not follow the ge-STEM-t rule. Instead, they use ge-STEM-en and often change the vowel in the stem. These are the most common verbs, so they must be memorised.",goals:["Understand ge-STEM-en as the irregular pattern","Learn: geschrieben, getrunken, gegessen, gelesen, genommen","Use irregular Partizip II in Perfekt sentences"]},
+
+  {type:"tip",title:"Irregular Partizip II: ge + (new stem) + en",text:"Strong (irregular) verbs use ge + changed stem + en:\n\nschreiben (to write) = geschrieben\ntrinken (to drink) = getrunken\nessen (to eat) = gegessen\nlesen (to read) = gelesen\nnehmen (to take) = genommen\n\nThe stem vowel often changes. These must be learned as vocabulary items.",deepDive:{title:"Why do these verbs change?",text:"These are Germanic strong verbs, a pattern inherited from Old Germanic. The vowel change (called ablaut) is how they mark the past tense. English has the same system: sing/sang/sung, drink/drank/drunk, write/wrote/written.\n\nYou have already encountered strong verbs in separable and other units. German strong Partizip II forms often correspond to Dutch cognates: geschrieben = geschreven, getrunken = gedronken, gegessen = gegeten."}},
+
+  {type:"teach",kind:"word",nl:"geschrieben",en:"written (Partizip II of schreiben)",phonetic:"ge-SHREE-ben",example:"A: Hast du die E-Mail geschrieben?\nB: Ja, ich habe sie geschrieben.\nA: Gut! Ich habe auch einen Brief geschrieben.\nB: An wen hast du geschrieben?",exampleEn:"A: Did you write the email?\nB: Yes, I wrote it.\nA: Good! I also wrote a letter.\nB: To whom did you write?",note:"schreiben = to write. Vowel change: ei becomes ie.\nge + schrieb + en = geschrieben."},
+
+  {type:"teach",kind:"word",nl:"getrunken",en:"drunk (Partizip II of trinken)",phonetic:"ge-TROON-ken",example:"A: Was hast du getrunken?\nB: Ich habe Kaffee getrunken.\nA: Ich habe Tee getrunken.\nB: Hast du auch Wasser getrunken?",exampleEn:"A: What did you drink?\nB: I drank coffee.\nA: I drank tea.\nB: Did you drink water too?",note:"trinken = to drink. Vowel change: i becomes u.\nge + trunk + en = getrunken."},
+
+  {type:"teach",kind:"word",nl:"gegessen",en:"eaten (Partizip II of essen)",phonetic:"ge-GES-sen",example:"A: Hast du schon gegessen?\nB: Ja, ich habe Suppe gegessen.\nA: Ich habe noch nicht gegessen.\nB: Ich habe Pizza gegessen. Sie war lecker!",exampleEn:"A: Have you eaten already?\nB: Yes, I ate soup.\nA: I have not eaten yet.\nB: I ate pizza. It was delicious!",note:"essen = to eat. Vowel change: e becomes e with double s.\nge + gess + en = gegessen."},
+
+  {type:"teach",kind:"word",nl:"gelesen",en:"read (Partizip II of lesen)",phonetic:"ge-LAY-zen",example:"A: Was hast du gelesen?\nB: Ich habe ein Buch gelesen.\nA: Ich habe die Zeitung gelesen.\nB: Ich habe auch Nachrichten gelesen.",exampleEn:"A: What did you read?\nB: I read a book.\nA: I read the newspaper.\nB: I also read the news.",note:"lesen = to read. Strong verb: vowel length shifts.\nge + les + en = gelesen."},
+
+  {type:"teach",kind:"word",nl:"genommen",en:"taken (Partizip II of nehmen)",phonetic:"ge-NOM-men",example:"A: Hast du das Taxi genommen?\nB: Nein, ich habe den Bus genommen.\nA: Ich habe das Fahrrad genommen.\nB: Wir haben verschiedene Wege genommen.",exampleEn:"A: Did you take the taxi?\nB: No, I took the bus.\nA: I took the bicycle.\nB: We took different routes.",note:"nehmen = to take. Vowel change: e becomes o.\nge + nomm + en = genommen."},
+
+  {type:"verb_table",title:"Irregular Partizip II Forms",label:"ge + changed stem + en",groups:[{label:"Key strong verbs",rows:[["schreiben","geschrieben"],["trinken","getrunken"],["essen","gegessen"],["lesen","gelesen"],["nehmen","genommen"]]}],note:"These Partizip II forms end in -en, not -t.\nThe stem vowel changes. Memorise as vocabulary."},
+
+  {type:"mc",q:"What is the Partizip II of trinken?",opts:["getrinkt","getrunken","trinkiert","getrank"],ans:"getrunken",hint:"i becomes u: ge + trunk + en."},
+
+  {type:"mc",q:"What is the Partizip II of essen?",opts:["gegessen","geessen","geesst","essiert"],ans:"gegessen",hint:"ge + gess + en (double s in the Partizip II)."},
+
+  {type:"fb",s:"Hast du das Buch ___? (read, Partizip II)",a:"gelesen",opts:["gelesen","geleest","gelest","geliest"],hint:"lesen: ge + les + en = gelesen."},
+
+  {type:"mc",q:"Ich habe den Bus genommen means:",opts:["I will take the bus","I am taking the bus","I took the bus","I need to take the bus"],ans:"I took the bus",hint:"Habe + genommen = Perfekt past."},
+
+  {type:"mc",q:"Which ending do IRREGULAR Partizip II forms use?",opts:["-t","-et","-en","-iert"],ans:"-en",hint:"Strong verbs end in -en, not -t."},
+
+  {type:"fb",s:"Er hat einen Brief ___. (schreiben)",a:"geschrieben",opts:["geschrieben","schriebte","schreiben","geschriebt"],hint:"schreiben: ei becomes ie. ge + schrieb + en."},
+
+  {type:"mc",q:"Was hast du gegessen? asks about:",opts:["What you will eat","What you are eating","What you ate","What you cooked"],ans:"What you ate",hint:"Hast + gegessen = past tense of essen."},
+
+  {type:"match",pairs:[{nl:"geschrieben",en:"written"},{nl:"getrunken",en:"drunk"},{nl:"gegessen",en:"eaten"},{nl:"genommen",en:"taken"}]},
+
+  {type:"mc",q:"Which verb has a REGULAR Partizip II with -t?",opts:["schreiben","trinken","machen","nehmen"],ans:"machen",hint:"Regular verbs use ge-STEM-t; the others are strong verbs."},
+
+  {type:"fb",s:"Sie hat Kaffee ___. (trinken)",a:"getrunken",opts:["getrunken","getrinkt","trinkiert","trinkete"],hint:"trinken: i becomes u. ge + trunk + en."},
+
+  {type:"mc",q:"Which PAIR correctly links verb and Partizip II?",opts:["lesen = gelesst","lesen = gelesen","lesen = gelest","lesen = geliest"],ans:"lesen = gelesen",hint:"ge + les + en = gelesen."},
+
+  {type:"mc",q:"Ich habe das Taxi genommen is in which tense?",opts:["Present","Future","Past (Perfekt)","Imperative"],ans:"Past (Perfekt)",hint:"Habe + Partizip II = Perfekt structure."},
+]},
+
+// ═══ L4: Trennbare im Perfekt ═══
+{id:"deu9l4",title:"Trennbare im Perfekt",icon:"✂️",xp:20,board:true,steps:[
+  {type:"intro",title:"Trennbare im Perfekt",desc:"You already know separable verbs: the prefix goes to the end in present tense. In Perfekt, the ge- is inserted BETWEEN the prefix and the stem. eingekauft, not ge-eingekauft!",goals:["Form Partizip II of separable verbs","Learn: eingekauft, aufgeräumt, angefangen, mitgebracht","Avoid the common ge-prefix error"]},
+
+  {type:"tip",title:"Separable Verbs in Perfekt",text:"Separable verbs insert ge- between prefix and stem:\n\neinkaufen (to shop) = eingekauft (prefix + ge + stem + t)\naufräumen (to tidy up) = aufgeräumt\nanfangen (to begin) = angefangen\nmitbringen (to bring along) = mitgebracht\n\nFormula: PREFIX + ge + STEM + t/en\n\nNOT: ge + prefix + stem.",deepDive:{title:"Why does ge- go in the middle?",text:"Separable verbs are treated as one word in Partizip II, but the stress falls on the prefix. Since ge- needs to attach to the stressed syllable, it slots in between prefix and stem.\n\nThink of it like einkaufen becoming ein-ge-kauf-t. The prefix ein keeps its place; ge- slides into the gap. This is the same reason the prefix goes to the end in present tense: the verb's stress structure stays intact."}},
+
+  {type:"teach",kind:"word",nl:"eingekauft",en:"shopped (Partizip II of einkaufen)",phonetic:"EYN-ge-kowft",example:"A: Hast du heute eingekauft?\nB: Ja, ich habe viel eingekauft.\nA: Ich habe auch eingekauft.\nB: Was hast du eingekauft?",exampleEn:"A: Did you go shopping today?\nB: Yes, I bought a lot.\nA: I shopped too.\nB: What did you buy?",note:"einkaufen = to shop. Separable: ein + kaufen.\nPartizip II: ein + ge + kauf + t = eingekauft."},
+
+  {type:"teach",kind:"word",nl:"aufgeräumt",en:"tidied up (Partizip II of aufräumen)",phonetic:"OWF-ge-roymt",example:"A: Hast du dein Zimmer aufgeräumt?\nB: Ja, ich habe alles aufgeräumt.\nA: Gut! Ich habe auch aufgeräumt.\nB: Das Zimmer ist jetzt sauber.",exampleEn:"A: Did you tidy your room?\nB: Yes, I tidied everything up.\nA: Good! I tidied up too.\nB: The room is clean now.",note:"aufräumen = to tidy up. Prefix: auf.\nauf + ge + räum + t = aufgeräumt."},
+
+  {type:"teach",kind:"word",nl:"angefangen",en:"started / begun (Partizip II of anfangen)",phonetic:"AN-ge-fang-en",example:"A: Wann hast du angefangen?\nB: Ich habe um neun Uhr angefangen.\nA: Gut. Ich habe früher angefangen.\nB: Wann hast du angefangen?",exampleEn:"A: When did you start?\nB: I started at nine o'clock.\nA: Good. I started earlier.\nB: When did you start?",note:"anfangen = to begin/start. Prefix: an.\nan + ge + fang + en = angefangen. (strong verb: fang)"},
+
+  {type:"teach",kind:"word",nl:"mitgebracht",en:"brought along (Partizip II of mitbringen)",phonetic:"MIT-ge-brahkt",example:"A: Hast du Wein mitgebracht?\nB: Ja, ich habe zwei Flaschen mitgebracht.\nA: Super! Ich habe Käse mitgebracht.\nB: Perfekt, wir haben alles mitgebracht.",exampleEn:"A: Did you bring wine?\nB: Yes, I brought two bottles.\nA: Great! I brought cheese.\nB: Perfect, we brought everything.",note:"mitbringen = to bring along. Prefix: mit.\nmit + ge + brach + t = mitgebracht. (irregular stem: brach)"},
+
+  {type:"verb_table",title:"Separable Verbs: Partizip II",label:"PREFIX + ge + STEM + t/en",groups:[{label:"Separable Partizip II",rows:[["einkaufen","eingekauft"],["aufräumen","aufgeräumt"],["anfangen","angefangen"],["mitbringen","mitgebracht"],["aufstehen","aufgestanden"],["anrufen","angerufen"]]}],note:"ge- goes BETWEEN prefix and stem.\nStrong separable verbs (like anfangen) use -en ending."},
+
+  {type:"mc",q:"What is the Partizip II of einkaufen?",opts:["geeingekauft","eingekauft","einkaufte","eingekaufte"],ans:"eingekauft",hint:"Prefix ein + ge + stem kauf + t = eingekauft."},
+
+  {type:"mc",q:"What is the Partizip II of aufräumen?",opts:["aufgeräumt","geaufräumt","aufräumte","aufgeräumte"],ans:"aufgeräumt",hint:"Prefix auf + ge + stem räum + t = aufgeräumt."},
+
+  {type:"fb",s:"Ich habe früh ___. (anfangen, Partizip II)",a:"angefangen",opts:["angefangen","angefangt","angefängte","geangefangen"],hint:"anfangen is strong: an + ge + fang + en."},
+
+  {type:"mc",q:"Where does ge- go in separable verb Partizip II?",opts:["Before the prefix","After the whole verb","Between prefix and stem","At the very end"],ans:"Between prefix and stem",hint:"PREFIX + ge + STEM + t/en"},
+
+  {type:"fb",s:"Hast du Essen ___? (mitbringen, Partizip II)",a:"mitgebracht",opts:["mitgebracht","mitbrachte","gemitbracht","mitgebringt"],hint:"mitbringen is irregular: mit + ge + brach + t."},
+
+  {type:"mc",q:"Ich habe aufgeräumt means:",opts:["I am tidying up","I tidied up","I will tidy up","I have to tidy up"],ans:"I tidied up",hint:"Habe + aufgeräumt = Perfekt past."},
+
+  {type:"mc",q:"Which Partizip II is WRONG?",opts:["eingekauft","aufgeräumt","angefangen","geaufgestanden"],ans:"geaufgestanden",hint:"ge- goes between prefix and stem, never before the prefix."},
+
+  {type:"match",pairs:[{nl:"eingekauft",en:"shopped"},{nl:"aufgeräumt",en:"tidied up"},{nl:"angefangen",en:"started"},{nl:"mitgebracht",en:"brought along"}]},
+
+  {type:"mc",q:"angefangen is the Partizip II of:",opts:["aufräumen","anfangen","einkaufen","mitbringen"],ans:"anfangen",hint:"an + ge + fang + en. The stem fang comes from anfangen."},
+
+  {type:"fb",s:"Wir haben viel ___. (einkaufen, Partizip II)",a:"eingekauft",opts:["eingekauft","gekauft","eingekaufte","geeingekauft"],hint:"ein + ge + kauf + t = eingekauft."},
+
+  {type:"mc",q:"The Partizip II of anrufen (to call) is:",opts:["gerufen","angerufen","angerufft","gerufte"],ans:"angerufen",hint:"Prefix an + ge + stem ruf + en (strong verb)."},
+
+  {type:"mc",q:"Hast du Wein mitgebracht? is asking:",opts:["Will you bring wine?","Are you bringing wine?","Did you bring wine?","Do you want wine?"],ans:"Did you bring wine?",hint:"Hast + mitgebracht = Perfekt past."},
+]},
+
+// ═══ L5: Verben ohne ge- ═══
+{id:"deu9l5",title:"Verben ohne ge-",icon:"🚫",xp:20,board:true,steps:[
+  {type:"intro",title:"Verben ohne ge-",desc:"Two groups of verbs do NOT add ge- in Partizip II. Verbs ending in -ieren (telefoniert, studiert) and verbs with inseparable prefixes (besucht, erzählt, verstanden).",goals:["Recognise -ieren verbs: no ge- prefix","Learn inseparable prefixes: be-, er-, ver-, zer-","Practise: telefoniert, studiert, besucht, erzählt, verstanden"]},
+
+  {type:"tip",title:"Two Groups Without ge-",text:"Group 1: Verbs ending in -ieren\nThese are international loanwords.\ntelefonieren = telefoniert (not ge-telefoniert)\nstudieren = studiert\nfotografieren = fotografiert\n\nGroup 2: Inseparable prefix verbs\nPrefixes be-, er-, ver-, ent-, ge-, zer-\nbesuchen = besucht (not gebesucht)\nverstehen = verstanden\nerzählen = erzählt\n\nNo ge-. Ever. For these two groups.",deepDive:{title:"Why no ge-?",text:"-ieren verbs end in a stressed syllable (-IER-), so adding ge- before it would create two unstressed syllables at the start, which German phonology avoids. The -iert ending itself signals the past.\n\nInseparable prefix verbs (be-, er-, ver-, ent-, ge-, zer-) already start with an unstressed prefix that cannot be split. The verb is not separable, so there is no gap to insert ge- into. If the prefix is inseparable, there is no ge-."}},
+
+  {type:"teach",kind:"word",nl:"telefoniert",en:"called / phoned (Partizip II of telefonieren)",phonetic:"teh-leh-foh-NEERT",cognate:{words:[{lang:"English",word:"telephoned"},{lang:"Dutch",word:"getelefoneerd"}],family:"borrowed"},example:"A: Hast du mit deiner Mutter telefoniert?\nB: Ja, ich habe eine Stunde telefoniert.\nA: Lang! Ich habe auch telefoniert.\nB: Mit wem hast du telefoniert?",exampleEn:"A: Did you call your mother?\nB: Yes, I talked for an hour.\nA: Long! I called too.\nB: Who did you call?",note:"telefonieren ends in -ieren. No ge-.\ntelefoniert is the full Partizip II."},
+
+  {type:"teach",kind:"word",nl:"studiert",en:"studied (Partizip II of studieren)",phonetic:"shtoo-DEERT",cognate:{words:[{lang:"English",word:"studied"},{lang:"Dutch",word:"gestudeerd"}],family:"borrowed"},example:"A: Was hast du studiert?\nB: Ich habe Medizin studiert.\nA: Toll! Ich habe Informatik studiert.\nB: Wir haben verschiedene Fächer studiert.",exampleEn:"A: What did you study?\nB: I studied medicine.\nA: Great! I studied computer science.\nB: We studied different subjects.",note:"studieren ends in -ieren. No ge-.\nstudiert is the full Partizip II. Used for university study."},
+
+  {type:"teach",kind:"word",nl:"besucht",en:"visited (Partizip II of besuchen)",phonetic:"be-ZOOKHT",example:"A: Hast du das Museum besucht?\nB: Ja, ich habe es gestern besucht.\nA: Ich habe meine Oma besucht.\nB: Wir haben verschiedene Orte besucht.",exampleEn:"A: Did you visit the museum?\nB: Yes, I visited it yesterday.\nA: I visited my grandmother.\nB: We visited different places.",note:"besuchen = to visit. Prefix: be- (inseparable).\nNo ge-: besucht (not: gebesucht)."},
+
+  {type:"teach",kind:"word",nl:"erzählt",en:"told / narrated (Partizip II of erzählen)",phonetic:"er-TSAILT",example:"A: Was hast du erzählt?\nB: Ich habe eine Geschichte erzählt.\nA: Hast du die Wahrheit erzählt?\nB: Ja, ich habe alles erzählt.",exampleEn:"A: What did you tell?\nB: I told a story.\nA: Did you tell the truth?\nB: Yes, I told everything.",note:"erzählen = to tell/narrate. Prefix: er- (inseparable).\nNo ge-: erzählt (not: geerzählt)."},
+
+  {type:"teach",kind:"word",nl:"verstanden",en:"understood (Partizip II of verstehen)",phonetic:"fer-SHTAN-den",example:"A: Hast du das verstanden?\nB: Ja, ich habe alles verstanden.\nA: Gut! Ich habe es nicht sofort verstanden.\nB: Der Lehrer hat es gut erklärt.",exampleEn:"A: Did you understand that?\nB: Yes, I understood everything.\nA: Good! I did not understand it right away.\nB: The teacher explained it well.",note:"verstehen = to understand. Prefix: ver- (inseparable).\nStrong verb: ver + stand + en = verstanden. No ge-."},
+
+  {type:"verb_table",title:"Verbs Without ge- in Partizip II",label:"No ge- for these groups",groups:[{label:"-ieren verbs (no ge-)",rows:[["telefonieren","telefoniert"],["studieren","studiert"],["fotografieren","fotografiert"],["reparieren","repariert"]]},{label:"Inseparable prefix verbs (no ge-)",rows:[["besuchen","besucht"],["erzählen","erzählt"],["verstehen","verstanden"],["erklären","erklärt"]]}],note:"Neither group uses ge-.\nInseparable prefixes: be-, er-, ver-, ent-, ge-, zer-."},
+
+  {type:"mc",q:"What is the Partizip II of telefonieren?",opts:["getelefoniert","telefonierte","telefoniert","telefonieret"],ans:"telefoniert",hint:"-ieren verbs never add ge-."},
+
+  {type:"mc",q:"What is the Partizip II of besuchen?",opts:["gebesucht","besucht","besuchte","besuchiert"],ans:"besucht",hint:"be- is an inseparable prefix. No ge-."},
+
+  {type:"fb",s:"Hast du das ___? (verstehen, Partizip II)",a:"verstanden",opts:["verstanden","verstant","gestandenes","geverstanden"],hint:"ver- is inseparable. Strong verb: ver + stand + en."},
+
+  {type:"mc",q:"Which verb DOES use ge- in its Partizip II?",opts:["telefonieren","besuchen","kochen","erzählen"],ans:"kochen",hint:"Regular verb with no special prefix or -ieren ending."},
+
+  {type:"fb",s:"Sie hat Medizin ___. (studieren, Partizip II)",a:"studiert",opts:["studiert","gestudiert","studieret","studiertet"],hint:"-ieren ending: no ge-. Just studiert."},
+
+  {type:"mc",q:"Ich habe eine Geschichte erzählt means:",opts:["I am telling a story","I told a story","I will tell a story","I must tell a story"],ans:"I told a story",hint:"Habe + erzählt = Perfekt past."},
+
+  {type:"mc",q:"Which prefix is inseparable?",opts:["ein-","auf-","mit-","ver-"],ans:"ver-",hint:"be-, er-, ver-, ent-, ge-, zer- are inseparable."},
+
+  {type:"match",pairs:[{nl:"telefoniert",en:"phoned"},{nl:"besucht",en:"visited"},{nl:"erzählt",en:"told"},{nl:"verstanden",en:"understood"}]},
+
+  {type:"mc",q:"fotografieren Partizip II is:",opts:["gefotografiert","fotografierte","fotografiert","fotografieret"],ans:"fotografiert",hint:"-ieren ending: no ge- ever."},
+
+  {type:"fb",s:"Er hat den Fehler ___. (erklären, Partizip II)",a:"erklärt",opts:["erklärt","geerklart","erklärte","erklärien"],hint:"erklären: er- is inseparable. No ge-. Regular ending: erklärt."},
+
+  {type:"mc",q:"Hast du das Museum besucht? Has no ge- because:",opts:["Museum is a neuter noun","besuchen ends in -ieren","be- is an inseparable prefix","It is an irregular verb"],ans:"be- is an inseparable prefix",hint:"Inseparable prefix verbs skip ge-."},
+]},
+
+// ═══ L6: Zeitausdrücke ═══
+{id:"deu9l6",title:"Zeitausdrücke",icon:"📅",xp:20,board:true,steps:[
+  {type:"intro",title:"Zeitausdrücke",desc:"Time expressions anchor your Perfekt sentences to specific moments: yesterday, last week, two days ago. Learn the key time words and how to position them in a Perfekt sentence.",goals:["Learn: gestern, letzte Woche, vor zwei Tagen, letzten Monat","Understand time expression position in the sentence","Combine time expressions with Perfekt"]},
+
+  {type:"tip",title:"Time Expressions in Perfekt Sentences",text:"Time expressions usually go after haben (position 3) or at the start:\n\nIch habe gestern gekocht.\nGestern habe ich gekocht. (emphasis on gestern)\n\nCommon positions:\nStart of sentence = emphatic\nAfter haben = neutral\nPartizip II is ALWAYS last.\n\nTime expressions never push Partizip II from the end.",deepDive:{title:"Temporal adverbs in German",text:"German word order follows the TeKaMoLo rule for the middle field:\nTemporal (when) - Kausal (why) - Modal (how) - Lokal (where)\n\nTime expressions come first in the middle field, right after the conjugated verb. This means time comes before place:\n\nIch habe gestern in Berlin gearbeitet.\n(I worked in Berlin yesterday.)\nnot: Ich habe in Berlin gestern gearbeitet."}},
+
+  {type:"teach",kind:"word",nl:"gestern",en:"yesterday",phonetic:"GES-tern",cognate:{words:[{lang:"English",word:"yester- (yesterday)"},{lang:"Dutch",word:"gisteren"}],family:"germanic"},example:"A: Was hast du gestern gemacht?\nB: Ich habe gestern eingekauft.\nA: Ich habe gestern auch eingekauft.\nB: Wir haben das Gleiche gemacht!",exampleEn:"A: What did you do yesterday?\nB: I went shopping yesterday.\nA: I went shopping yesterday too.\nB: We did the same thing!",note:"Most common time expression with Perfekt.\ngestern can open the sentence or follow haben."},
+
+  {type:"teach",kind:"phrase",nl:"letzte Woche",en:"last week",phonetic:"LETS-te VO-khe",example:"A: Hast du letzte Woche gearbeitet?\nB: Ja, ich habe letzte Woche viel gearbeitet.\nA: Ich habe letzte Woche Urlaub gemacht.\nB: Schön! Wohin bist du gefahren?",exampleEn:"A: Did you work last week?\nB: Yes, I worked a lot last week.\nA: I went on holiday last week.\nB: Nice! Where did you go?",note:"letzte = last (feminine, accusative).\nWoche = week (die Woche). Common time frame."},
+
+  {type:"teach",kind:"phrase",nl:"vor zwei Tagen",en:"two days ago",phonetic:"for tsvay TAH-gen",example:"A: Wann hast du angerufen?\nB: Ich habe vor zwei Tagen angerufen.\nA: Ich habe das vor drei Tagen gemacht.\nB: Ich habe vor einem Tag angefangen.",exampleEn:"A: When did you call?\nB: I called two days ago.\nA: I did that three days ago.\nB: I started one day ago.",note:"vor + [time] = [time] ago.\nvor einem Tag (one day ago), vor einer Woche (one week ago)."},
+
+  {type:"teach",kind:"phrase",nl:"letzten Monat",en:"last month",phonetic:"LETS-ten MOH-nat",example:"A: Hast du letzten Monat viel gelernt?\nB: Ja, ich habe letzten Monat Deutsch gelernt.\nA: Ich habe letzten Monat ein Buch gelesen.\nB: Was hast du gelesen?",exampleEn:"A: Did you study a lot last month?\nB: Yes, I studied German last month.\nA: I read a book last month.\nB: What did you read?",note:"letzten = last (masculine, accusative).\nMonat = month (der Monat). letzten Monat = last month."},
+
+  {type:"teach",kind:"phrase",nl:"letztes Jahr",en:"last year",phonetic:"LETS-tes YAHR",example:"A: Was hast du letztes Jahr gemacht?\nB: Ich habe letztes Jahr studiert.\nA: Ich habe letztes Jahr gearbeitet.\nB: Wir haben letztes Jahr viel erlebt.",exampleEn:"A: What did you do last year?\nB: I studied last year.\nA: I worked last year.\nB: We experienced a lot last year.",note:"letztes = last (neuter, accusative).\nJahr = year (das Jahr). letztes Jahr = last year."},
+
+  {type:"teach",kind:"phrase",nl:"am Wochenende",en:"at the weekend",phonetic:"am VO-khen-en-de",example:"A: Was hast du am Wochenende gemacht?\nB: Ich habe am Wochenende Sport gemacht.\nA: Ich habe am Wochenende Freunde besucht.\nB: Das klingt schön!",exampleEn:"A: What did you do at the weekend?\nB: I did sport at the weekend.\nA: I visited friends at the weekend.\nB: That sounds nice!",note:"am Wochenende = at the weekend.\ndas Wochenende. am = an + dem (dative)."},
+
+  {type:"mc",q:"Where does gestern typically go in a Perfekt sentence?",opts:["Always before Partizip II","Always at the very start","After haben or at the sentence start","After Partizip II"],ans:"After haben or at the sentence start",hint:"Time expressions go after haben or at the start for emphasis."},
+
+  {type:"mc",q:"vor drei Tagen means:",opts:["in three days","for three days","three days ago","since three days"],ans:"three days ago",hint:"vor + time period = that period ago."},
+
+  {type:"fb",s:"Ich habe ___ viel gearbeitet. (last week)",a:"letzte Woche",opts:["letzte Woche","letzten Monat","gestern","vor einem Jahr"],hint:"The feminine noun Woche takes letzte in accusative."},
+
+  {type:"mc",q:"In Ich habe letzten Monat Deutsch gelernt, the time expression is:",opts:["Deutsch","gelernt","letzten Monat","habe"],ans:"letzten Monat",hint:"letzten Monat = last month = the time expression."},
+
+  {type:"fb",s:"Was hast du ___ gemacht? (at the weekend)",a:"am Wochenende",opts:["am Wochenende","an das Wochenende","im Wochenende","das Wochenende"],hint:"Wochenende uses am (an + dem) in this expression."},
+
+  {type:"mc",q:"Gestern habe ich gekocht versus Ich habe gestern gekocht. The difference is:",opts:["Grammatical correctness","Tense","Emphasis on gestern in the first","Meaning of the verb"],ans:"Emphasis on gestern in the first",hint:"Moving the time expression to the start creates emphasis."},
+
+  {type:"mc",q:"Which time expression uses accusative masculine ending -en?",opts:["letzte Woche","letztes Jahr","letzten Monat","gestern"],ans:"letzten Monat",hint:"Monat = der Monat (masculine). Accusative masculine ending is -en."},
+
+  {type:"match",pairs:[{nl:"gestern",en:"yesterday"},{nl:"letzte Woche",en:"last week"},{nl:"vor zwei Tagen",en:"two days ago"},{nl:"letzten Monat",en:"last month"}]},
+
+  {type:"mc",q:"letztes Jahr uses neuter -es because:",opts:["Jahr ends in -r","Jahr = das Jahr (neuter noun)","All time words use neuter","letztes is always neuter"],ans:"Jahr = das Jahr (neuter noun)",hint:"The adjective ending matches the gender of the noun."},
+
+  {type:"fb",s:"___ habe ich Freunde besucht. (yesterday, emphatic)",a:"Gestern",opts:["Gestern","Letzte Woche","Vor drei Tagen","Letzten Monat"],hint:"gestern = yesterday. At the start for emphasis."},
+
+  {type:"mc",q:"vor einer Woche means:",opts:["next week","this week","one week ago","in one week"],ans:"one week ago",hint:"vor + time = that period ago. Einer Woche = one week."},
+]},
+
+// ═══ L7: Was hast du am Wochenende gemacht? ═══
+{id:"deu9l7",title:"Was hast du am Wochenende gemacht?",icon:"📖",xp:20,board:true,steps:[
+  {type:"intro",title:"Was hast du am Wochenende gemacht?",desc:"Put it all together. Regular verbs, irregular verbs, separable verbs, -ieren verbs, inseparable prefixes, and time expressions. Tell a full weekend story in Perfekt.",goals:["Combine all Partizip II types in one story","Use time expressions naturally","Produce a full weekend narrative in Perfekt"]},
+
+  {type:"tip",title:"A Complete Weekend Story",text:"Ich habe am Samstag lange geschlafen.\nDann habe ich eingekauft.\nIch habe Pasta gekocht und gegessen.\nAm Abend habe ich einen Film gesehen.\nAm Sonntag habe ich Freunde besucht.\nWir haben Kaffee getrunken und erzählt.\n\nEvery sentence uses haben + Partizip II.\nTime words: am Samstag, dann, am Abend, am Sonntag.",deepDive:{title:"Two new strong Partizip II forms",text:"geschlafen: schlafen (to sleep) is a strong verb. Partizip II = geschlafen. The vowel a stays a, but the -en ending signals the strong class.\n\ngesehen: sehen (to see/watch) is also strong. Partizip II = gesehen. Vowel e stays e.\n\nBoth follow ge + stem + en. Both are very common and worth memorising now."}},
+
+  {type:"teach",kind:"word",nl:"geschlafen",en:"slept (Partizip II of schlafen)",phonetic:"ge-SHLAH-fen",example:"A: Hast du gut geschlafen?\nB: Ja, ich habe lange geschlafen.\nA: Ich habe nur sechs Stunden geschlafen.\nB: Ich habe acht Stunden geschlafen.",exampleEn:"A: Did you sleep well?\nB: Yes, I slept a long time.\nA: I only slept six hours.\nB: I slept eight hours.",note:"schlafen = to sleep. Strong: ge + schlaf + en.\nVowel does not change. Partizip II: geschlafen."},
+
+  {type:"teach",kind:"word",nl:"gesehen",en:"seen / watched (Partizip II of sehen)",phonetic:"ge-ZAY-en",example:"A: Hast du den Film gesehen?\nB: Ja, ich habe ihn gestern gesehen.\nA: Ich habe ihn noch nicht gesehen.\nB: Du musst ihn sehen! Er ist sehr gut.",exampleEn:"A: Did you see the film?\nB: Yes, I watched it yesterday.\nA: I have not seen it yet.\nB: You must see it! It is very good.",note:"sehen = to see/watch. Strong: ge + seh + en.\nPartizip II: gesehen."},
+
+  {type:"mc",q:"Which Partizip II is from a separable verb?",opts:["gemacht","getrunken","aufgeräumt","telefoniert"],ans:"aufgeräumt",hint:"Separable verbs insert ge- between prefix and stem."},
+
+  {type:"mc",q:"Which Partizip II comes from an -ieren verb?",opts:["gekocht","geschrieben","telefoniert","genommen"],ans:"telefoniert",hint:"-ieren verbs never add ge-."},
+
+  {type:"fb",s:"Ich habe am Wochenende lange ___. (schlafen)",a:"geschlafen",opts:["geschlafen","geschlaft","schlief","geschläft"],hint:"schlafen is strong: ge + schlaf + en."},
+
+  {type:"mc",q:"Was hast du am Wochenende gemacht? To answer naturally, you use:",opts:["Present tense only","Perfekt with haben","Future tense","Modal verb only"],ans:"Perfekt with haben",hint:"Reporting past weekend activities uses Perfekt."},
+
+  {type:"drag_fill",s:"Ich {1} am Samstag {2} und dann Pasta {3}.",blanks:{"1":"habe","2":"eingekauft","3":"gekocht"},pool:["habe","hat","eingekauft","kochen","gekocht","kaufen"],hint:"Helper verb haben + two Partizip II forms."},
+
+  {type:"mc",q:"Er hat einen Film gesehen. gesehen is:",opts:["Regular ge-STEM-t form","Irregular ge-STEM-en form (strong verb)","An inseparable prefix verb","An -ieren verb"],ans:"Irregular ge-STEM-en form (strong verb)",hint:"sehen = strong verb. ge + seh + en = gesehen."},
+
+  {type:"fb",s:"Wir haben Kaffee getrunken und Geschichten ___. (erzählen)",a:"erzählt",opts:["erzählt","erzählen","geerzählt","erzählte"],hint:"erzählen: er- is inseparable. No ge-. Regular ending: -t."},
+
+  {type:"mc",q:"Ich habe Freunde besucht. besucht has no ge- because:",opts:["Freunde is plural","besuchen is an -ieren verb","be- is an inseparable prefix","besuchen is a separable verb"],ans:"be- is an inseparable prefix",hint:"be-, er-, ver-, ent-, ge-, zer- are inseparable. No ge- added."},
+
+  {type:"drag_fill",s:"Sie hat gestern {1} und dann ihren Bruder {2}.",blanks:{"1":"eingekauft","2":"besucht"},pool:["eingekauft","eingekaufte","besucht","besuchen","gekauft","besuchte"],hint:"Separable verb (ein-) and inseparable prefix verb (be-)."},
+
+  {type:"mc",q:"Which sentence has correct Perfekt word order?",opts:["Gestern ich gemacht habe Sport.","Ich habe gestern Sport gemacht.","Ich gestern Sport habe gemacht.","Sport habe gestern ich gemacht."],ans:"Ich habe gestern Sport gemacht.",hint:"haben at position 2, time word after haben, Partizip II at end."},
+
+  {type:"mc",q:"Du hast am Abend ferngesehen. The Partizip II is from:",opts:["sehen","fernsehen (separable)","gesehen as strong only","ferngeseh"],ans:"fernsehen (separable)",hint:"fernsehen: prefix fern + ge + seh + en = ferngesehen."},
+
+  {type:"fb",s:"Was ___ du am Wochenende gemacht?",a:"hast",opts:["hast","habe","haben","hat"],hint:"Du-form of haben = hast. W-question: hast moves to position 2."},
+
+  {type:"mc",q:"To say I photographed the city (fotografieren):",opts:["Ich habe die Stadt gefotografiert.","Ich habe die Stadt fotografiert.","Ich habe die Stadt fotografiet.","Ich habe die Stadt fotografie."],ans:"Ich habe die Stadt fotografiert.",hint:"-ieren verbs: no ge-. Partizip II = fotografiert."},
+
+  {type:"mc",q:"Am Sonntag habe ich Freunde besucht. Which element comes first for emphasis?",opts:["Freunde (object)","habe (helper verb)","Am Sonntag (time expression)","besucht (Partizip II)"],ans:"Am Sonntag (time expression)",hint:"Fronting the time expression creates emphasis on when."},
+]},
+
+// ═══ L8: Perfekt Review ═══
+{id:"deu9l8",title:"Perfekt Review",icon:"🌟",xp:25,board:true,steps:[
+  {type:"intro",title:"Perfekt Review",desc:"Unit 9 complete! You now know all four Partizip II patterns: regular ge-STEM-t, irregular ge-STEM-en, separable PREFIX-ge-STEM-t/en, and verbs without ge-. This review brings them all together.",goals:["Distinguish all four Partizip II patterns","Use time expressions with Perfekt","Produce Perfekt sentences fluently"]},
+
+  {type:"tip",title:"Unit 9: The Complete Partizip II Map",text:"Pattern 1: ge + STEM + t (regular)\nmachen = gemacht, kochen = gekocht\n\nPattern 2: ge + (new stem) + en (strong)\nschreiben = geschrieben, trinken = getrunken\n\nPattern 3: PREFIX + ge + STEM + t/en (separable)\neinkaufen = eingekauft, anfangen = angefangen\n\nPattern 4: no ge- (-ieren or inseparable prefix)\nbesuchen = besucht, studieren = studiert\n\nHelper: haben. Partizip II always at the END.",deepDive:{title:"How to identify which pattern to use",text:"Step 1: Is the verb an -ieren verb? No ge-.\nStep 2: Does the verb have an inseparable prefix (be-, er-, ver-, ent-, ge-, zer-)? No ge-.\nStep 3: Does the verb have a separable prefix (auf-, ein-, mit-, an-)? Use PREFIX + ge + STEM.\nStep 4: Is it a strong verb with a vowel change? Use ge + (new stem) + en.\nStep 5: None of the above? Use ge + STEM + t.\n\nWith practice, you will feel the pattern immediately."}},
+
+  {type:"mc",q:"What is the Partizip II of spielen?",opts:["gespielt","gespielrt","spielierte","gespieltet"],ans:"gespielt",hint:"Regular: ge + spiel + t = gespielt."},
+
+  {type:"mc",q:"What is the Partizip II of schreiben?",opts:["geschrieben","geschriebte","schriebiert","geschriebt"],ans:"geschrieben",hint:"Strong: ei becomes ie. ge + schrieb + en."},
+
+  {type:"mc",q:"What is the Partizip II of aufräumen?",opts:["geaufräumt","aufräumte","aufgeräumt","aufräumt"],ans:"aufgeräumt",hint:"Separable: auf + ge + räum + t = aufgeräumt."},
+
+  {type:"mc",q:"What is the Partizip II of besuchen?",opts:["besucht","gebesucht","besuchte","besuchiert"],ans:"besucht",hint:"be- is inseparable. No ge-. Regular stem: besucht."},
+
+  {type:"mc",q:"What is the Partizip II of studieren?",opts:["gestudiert","studierte","studiert","studieret"],ans:"studiert",hint:"-ieren ending: no ge-. Just studiert."},
+
+  {type:"fb",s:"Ich habe letzte Woche viel ___. (arbeiten)",a:"gearbeitet",opts:["gearbeitet","gearbeit","arbeitete","gearbeitete"],hint:"arbeiten: stem ends in -t, so ge + arbeit + et."},
+
+  {type:"fb",s:"Hast du das Buch ___? (lesen)",a:"gelesen",opts:["gelesen","geleest","gelest","geliest"],hint:"lesen: strong verb. ge + les + en = gelesen."},
+
+  {type:"drag_fill",s:"Ich {1} gestern {2} und dann einen Brief {3}.",blanks:{"1":"habe","2":"eingekauft","3":"geschrieben"},pool:["habe","hat","eingekauft","einkaufte","geschrieben","geschrieb","gekauft"],hint:"haben + separable Partizip II + strong irregular Partizip II."},
+
+  {type:"mc",q:"Which sentence uses the WRONG form?",opts:["Ich habe Kaffee getrunken.","Er hat Musik gehört.","Sie habe das Museum gebesucht.","Wir haben viel gelernt."],ans:"Sie habe das Museum gebesucht.",hint:"Two errors: habe wrong for sie, and gebesucht wrong (be- inseparable, no ge-)."},
+
+  {type:"mc",q:"Wir haben letzten Monat viel erlebt. erlebt has no ge- because:",opts:["-leben ends in -en","er- is an inseparable prefix","it is an -ieren verb","leben is irregular"],ans:"er- is an inseparable prefix",hint:"erleben: er- is inseparable. No ge-."},
+
+  {type:"fb",s:"Hast du die E-Mail ___? (schreiben)",a:"geschrieben",opts:["geschrieben","geschriebte","schrieben","geschriebt"],hint:"schreiben: strong. ei changes to ie. ge + schrieb + en."},
+
+  {type:"mc",q:"Du hast vor drei Tagen angerufen means:",opts:["You will call in three days","You called three days ago","You are calling in three days","You called for three days"],ans:"You called three days ago",hint:"vor + drei Tagen = three days ago. Perfekt = past."},
+
+  {type:"match",pairs:[{nl:"gemacht",en:"made/done"},{nl:"geschrieben",en:"written"},{nl:"eingekauft",en:"shopped"},{nl:"telefoniert",en:"phoned"}]},
+
+  {type:"mc",q:"In Ich habe gestern viel gegessen, gegessen sits at:",opts:["Position 1","Position 2","After gestern","At the end"],ans:"At the end",hint:"Partizip II is always the last element in a main clause."},
+
+  {type:"drag_fill",s:"Sie {1} letztes Jahr Informatik {2} und viele Freunde {3}.",blanks:{"1":"hat","2":"studiert","3":"besucht"},pool:["hat","habe","studiert","gestudiert","besucht","gebesucht","lernt"],hint:"-ieren verb and inseparable prefix verb. Both have no ge-."},
+
+  {type:"mc",q:"Which Partizip II pair both come from strong verbs?",opts:["gemacht / telefoniert","geschrieben / getrunken","eingekauft / aufgeräumt","besucht / erzählt"],ans:"geschrieben / getrunken",hint:"Strong verbs use ge-STEM-en with a vowel change in the stem."},
+
+  {type:"mc",q:"Was hast du am Wochenende gemacht? A natural, complete Perfekt answer is:",opts:["Ja, ich mache Sport gern.","Ich habe am Samstag eingekauft und am Sonntag Freunde besucht.","Ich werde nächste Woche kochen.","Am Wochenende ich schlafe lange."],ans:"Ich habe am Samstag eingekauft und am Sonntag Freunde besucht.",hint:"Uses Perfekt correctly with time expressions and two Partizip II forms."},
+]},
+
+]},
+
 ];
