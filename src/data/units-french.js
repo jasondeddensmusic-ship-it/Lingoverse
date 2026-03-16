@@ -4506,4 +4506,330 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 15 — Comparatifs et superlatifs                       ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:15,lang:"fr",track:"v1",title:"Comparatifs et superlatifs",sub:"Comparing & Ranking",icon:"📊",level:"A2.7",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Plus...que (more...than) ═══
+{id:"fre15l1",title:"Plus...que",icon:"⬆️",xp:15,board:true,steps:[
+  {type:"intro",title:"More...than: comparatives with plus",desc:"To say something is MORE than something else, French uses plus + adjective + que. This is the most common comparative structure.",goals:["Form comparatives with plus...que","Use adjective agreement in comparatives","Compare people and things"]},
+
+  {type:"tip",title:"Comparative formation",text:"plus + ADJECTIVE + que = more...than\n\nParis est plus grand que Lyon.\n(Paris is bigger than Lyon.)\n\nElle est plus intelligente que lui.\n(She is smarter than him.)\n\nThe adjective still agrees with the subject!\nMasculine: plus grand que\nFeminine: plus grande que\nPlural: plus grands/grandes que"},
+
+  {type:"teach",kind:"phrase",nl:"plus grand que",en:"bigger/taller than",phonetic:"plew GRAHN kuh",example:"A: Paris ou Lyon, quelle ville est plus grande?\nB: Paris est plus grand que Lyon.\nA: Beaucoup plus grand!",exampleEn:"A: Paris or Lyon, which city is bigger?\nB: Paris is bigger than Lyon.\nA: Much bigger!",note:"Plus + adjective + que = more...than.\nGrand agrees with the subject (Paris = masc.).\nQue = than."},
+
+  {type:"teach",kind:"phrase",nl:"moins cher que",en:"cheaper than / less expensive than",phonetic:"mwan SHAIR kuh",example:"A: Le bus ou le taxi?\nB: Le bus est moins cher que le taxi.\nA: Mais le taxi est plus rapide!",exampleEn:"A: The bus or the taxi?\nB: The bus is cheaper than the taxi.\nA: But the taxi is faster!",note:"Moins + adjective + que = less...than.\nMoins = less (opposite of plus).\nCher = expensive."},
+
+  {type:"teach",kind:"phrase",nl:"aussi rapide que",en:"as fast as",phonetic:"oh-SEE rah-PEED kuh",example:"A: Le TGV est rapide!\nB: Oui, il est presque aussi rapide que l'avion.\nA: C'est impressionnant.",exampleEn:"A: The TGV is fast!\nB: Yes, it's almost as fast as the plane.\nA: That's impressive.",note:"Aussi + adjective + que = as...as.\nAussi = equally / as.\nUsed for equal comparisons."},
+
+  {type:"mc",q:"'Marie est ___ grande ___ Pierre.' (taller than)",opts:["plus / que","moins / que","aussi / que","plus / de"],ans:"plus / que",hint:"More + adjective + than = which structure?"},
+
+  {type:"fb",s:"Le français est ___ difficile que l'anglais. (more)",a:"plus",opts:["plus","moins","aussi","très"],hint:"French is harder than English. More + adjective + que."},
+
+  {type:"mc",q:"In 'Elle est plus intelligente que lui', why -e on intelligente?",opts:["Because of plus","Because elle is feminine","Because of que","Random"],ans:"Because elle is feminine",hint:"The adjective agrees with the subject, not with what's compared."},
+
+  {type:"fb",s:"Ce film est ___ intéressant que l'autre. (less)",a:"moins",opts:["moins","plus","aussi","très"],hint:"This film is less interesting. Less + adjective + que."},
+
+  {type:"match",pairs:[{nl:"plus...que",en:"more...than"},{nl:"moins...que",en:"less...than"},{nl:"aussi...que",en:"as...as"},{nl:"que",en:"than / as"}]},
+
+  {type:"mc",q:"'Mon frère est plus ___ que moi.' (âgé, with agreement)",opts:["Âgé","Âgée","Âgés","Âgées"],ans:"Âgé",hint:"Mon frère = masculine singular. Adjective agrees with brother."},
+
+  {type:"fb",s:"Ma soeur est ___ sportive ___ moi. (as...as)",a:["aussi","que"],opts:["aussi","plus","que","de"],hint:"My sister is as athletic as me. Equal comparison."},
+
+  {type:"mc",q:"Negative comparison: 'Il n'est pas aussi grand que toi' means:",opts:["He's taller than you","He's not as tall as you","He's the tallest","He's the shortest"],ans:"He's not as tall as you",hint:"Not + as...as = negative equality comparison."},
+
+  {type:"fb",s:"Les pommes sont ___ chères ___ les fraises. (less...than)",a:["moins","que"],opts:["moins","plus","que","de"],hint:"Apples are cheaper than strawberries. Less expensive."},
+
+  {type:"match",pairs:[{nl:"plus grand que",en:"bigger than"},{nl:"moins cher que",en:"cheaper than"},{nl:"aussi rapide que",en:"as fast as"},{nl:"pas aussi bon que",en:"not as good as"}]},
+
+  {type:"mc",q:"To emphasize: 'beaucoup plus grand' means:",opts:["A little bigger","Much bigger","Not bigger","The biggest"],ans:"Much bigger",hint:"Beaucoup reinforces the comparison = much more."},
+
+  {type:"fb",s:"Cette ville est beaucoup ___ belle ___ la mienne. (more...than)",a:["plus","que"],opts:["plus","moins","que","de"],hint:"This city is much ___ beautiful. Beaucoup reinforces the comparison."},
+
+  {type:"mc",q:"Which modifiers work with comparatives?",opts:["Only beaucoup","Beaucoup, un peu, bien","Only très","No modifiers allowed"],ans:"Beaucoup, un peu, bien",hint:"Much more, a little more, way more = all valid."},
+]},
+
+// ═══ L2: Meilleur & mieux ═══
+{id:"fre15l2",title:"Meilleur et mieux",icon:"🏅",xp:15,board:true,steps:[
+  {type:"intro",title:"Better and best: the irregular comparatives",desc:"French has irregular comparatives for 'good' and 'well'. Bon -> meilleur (better, adjective). Bien -> mieux (better, adverb). This is a critical distinction!",goals:["Use meilleur for adjectives (bon)","Use mieux for adverbs (bien)","Distinguish adjective from adverb usage"]},
+
+  {type:"tip",title:"Bon vs bien comparatives",text:"BON (good) -> MEILLEUR (better) -> LE MEILLEUR (best)\nAdjective: modifies a NOUN\nCe gâteau est meilleur que l'autre.\n(This cake is better than the other.)\n\nBIEN (well) -> MIEUX (better) -> LE MIEUX (best)\nAdverb: modifies a VERB\nElle chante mieux que moi.\n(She sings better than me.)\n\nNEVER say: plus bon or plus bien!\nThese are ALWAYS irregular."},
+
+  {type:"teach",kind:"word",nl:"meilleur(e)",en:"better (adjective)",phonetic:"may-YUHR",example:"A: Tu as goûté le gâteau au chocolat?\nB: Oui! Il est meilleur que celui à la vanille.\nA: Je suis d'accord.",exampleEn:"A: Did you try the chocolate cake?\nB: Yes! It's better than the vanilla one.\nA: I agree.",note:"Meilleur = better (adjective).\nAgrees: meilleur/meilleure/meilleurs/meilleures.\nNEVER say 'plus bon'."},
+
+  {type:"teach",kind:"word",nl:"mieux",en:"better (adverb)",phonetic:"mee-UH",example:"A: Tu joues bien au tennis?\nB: Non, mon frère joue mieux que moi.\nA: Il joue depuis longtemps?",exampleEn:"A: Do you play tennis well?\nB: No, my brother plays better than me.\nA: Has he played for long?",note:"Mieux = better (adverb).\nModifies a VERB: il joue mieux.\nNEVER say 'plus bien'. Invariable."},
+
+  {type:"mc",q:"'Ce restaurant est ___ que l'autre.' (better, adj.)",opts:["Mieux","Meilleur","Plus bon","Plus bien"],ans:"Meilleur",hint:"Modifying a noun/subject (restaurant) = adjective form."},
+
+  {type:"fb",s:"Elle parle français ___ que moi. (better, adverb)",a:"mieux",opts:["mieux","meilleur","plus bien","plus bon"],hint:"She speaks better (how she speaks = adverb)."},
+
+  {type:"mc",q:"Which is NEVER correct in French?",opts:["Meilleur que","Mieux que","Plus bon que","Aussi bon que"],ans:"Plus bon que",hint:"Good/well have irregular comparatives. Never use plus with bon."},
+
+  {type:"fb",s:"Ce vin est ___ que le vin d'hier. (better, adj.)",a:"meilleur",opts:["meilleur","mieux","plus bon","plus bien"],hint:"The wine is better. Describes the wine (noun) = adjective."},
+
+  {type:"match",pairs:[{nl:"bon -> meilleur",en:"good -> better (adj.)"},{nl:"bien -> mieux",en:"well -> better (adv.)"},{nl:"le meilleur",en:"the best (adj.)"},{nl:"le mieux",en:"the best (adv.)"}]},
+
+  {type:"mc",q:"'Il cuisine ___ que moi.' (better, how he cooks)",opts:["Meilleur","Mieux","Plus bon","Meilleure"],ans:"Mieux",hint:"How someone does something = adverb. Cooks better."},
+
+  {type:"fb",s:"C'est la ___ idée! (best, feminine adj.)",a:"meilleure",opts:["meilleure","mieux","meilleur","plus bonne"],hint:"The best idea! Idea = feminine noun = feminine adjective."},
+
+  {type:"mc",q:"'Le mieux' vs 'le meilleur': le mieux modifies a ___.",opts:["Noun","Verb","Adjective","Preposition"],ans:"Verb",hint:"Le mieux describes HOW something is done. It modifies actions."},
+
+  {type:"fb",s:"C'est ___ comme ça. (better this way, adverb)",a:"mieux",opts:["mieux","meilleur","bon","bien"],hint:"It's better this way. Describes the situation = adverb."},
+
+  {type:"match",pairs:[{nl:"meilleur gâteau",en:"better cake (adj.+noun)"},{nl:"chanter mieux",en:"sing better (verb+adv.)"},{nl:"la meilleure amie",en:"the best friend (adj.)"},{nl:"le mieux possible",en:"the best possible (adv.)"}]},
+
+  {type:"mc",q:"'Mauvais' (bad) also has an irregular comparative: ___.",opts:["Plus mauvais or pire","Mieux","Moindre","Plus mal"],ans:"Plus mauvais or pire",hint:"Bad -> worse. French accepts both regular and irregular forms."},
+
+  {type:"fb",s:"Ses notes sont ___ que les miennes. (better, adj. plural fem.)",a:"meilleures",opts:["meilleures","mieux","meilleurs","meilleur"],hint:"Her grades are better. Grades (notes) = feminine plural."},
+
+  {type:"mc",q:"Quick test: 'Tu te sens ___?' (better, how you feel)",opts:["Meilleur","Mieux","Plus bon","Meilleure"],ans:"Mieux",hint:"How you feel = adverb. Se sentir + which irregular form?"},
+
+  {type:"fb",s:"C'est le ___ restaurant de la ville. (best, masc.)",a:"meilleur",opts:["meilleur","mieux","meilleure","meilleurs"],hint:"The best restaurant. Restaurant = masc. singular."},
+]},
+
+// ═══ L3: Superlatives ═══
+{id:"fre15l3",title:"Les superlatifs",icon:"🥇",xp:15,board:true,steps:[
+  {type:"intro",title:"The most, the least, the best",desc:"Superlatives rank something as the MOST or LEAST in a group. French uses le/la/les plus/moins + adjective. Placement follows normal adjective rules.",goals:["Form superlatives with le/la/les plus/moins","Handle BAGS adjectives in superlatives","Use de (not dans) after superlatives"]},
+
+  {type:"tip",title:"Superlative formation",text:"le/la/les + plus/moins + adjective + de\n\nParis est la plus grande ville de France.\n(Paris is the biggest city in France.)\n\nC'est le moins cher du magasin.\n(It's the cheapest in the store.)\n\nAfter superlatives: DE (not dans!)\nle plus grand DE la classe (not dans)\nla meilleure DE toutes (not dans)\n\nBAGS adjectives: superlative goes BEFORE noun\nle plus beau jour (the most beautiful day)\n\nOther adjectives: superlative goes AFTER noun\nle livre le plus intéressant"},
+
+  {type:"teach",kind:"phrase",nl:"le plus grand",en:"the biggest / the tallest",phonetic:"luh plew GRAHN",example:"A: C'est la plus grande ville de France?\nB: Oui, Paris est la plus grande!\nA: Et la deuxième?",exampleEn:"A: Is this the biggest city in France?\nB: Yes, Paris is the biggest!\nA: And the second?",note:"Le/la + plus + adjective = superlative.\nGrand is a BAGS adjective: before noun.\nLa plus grande ville (not la ville la plus grande)."},
+
+  {type:"teach",kind:"phrase",nl:"le livre le plus intéressant",en:"the most interesting book",phonetic:"luh LEE-vruh luh plew an-tay-reh-SAHN",example:"A: Quel livre tu recommandes?\nB: C'est le livre le plus intéressant que j'ai lu.\nA: Je vais l'acheter!",exampleEn:"A: Which book do you recommend?\nB: It's the most interesting book I've read.\nA: I'll buy it!",note:"Non-BAGS adjective: superlative AFTER noun.\nLe livre LE PLUS intéressant.\nThe article appears twice!"},
+
+  {type:"mc",q:"'C'est ___ restaurant de la ville.' (the best)",opts:["Le meilleur","Le plus bon","Le mieux","Le bien"],ans:"Le meilleur",hint:"Best (adjective) = irregular superlative. Never plus bon."},
+
+  {type:"fb",s:"Paris est la ville ___ ___ peuplée de France. (the most)",a:["la","plus"],opts:["la","le","plus","moins"],hint:"The most populated. Feminine article + superlative marker."},
+
+  {type:"mc",q:"After a superlative, use ___ (not 'dans'):",opts:["De","Dans","À","En"],ans:"De",hint:"Le plus grand DE la classe. Always de after superlatives."},
+
+  {type:"fb",s:"C'est le film ___ ___ drôle de l'année. (the least)",a:["le","moins"],opts:["le","la","moins","plus"],hint:"The least funny film. Le + opposite of 'the most' marker."},
+
+  {type:"match",pairs:[{nl:"le plus grand",en:"the biggest"},{nl:"la moins chère",en:"the cheapest (f.)"},{nl:"le meilleur",en:"the best"},{nl:"les plus beaux",en:"the most beautiful (pl.)"}]},
+
+  {type:"mc",q:"BAGS adjective superlative: 'la ___ belle robe' (the most beautiful)",opts:["La plus","Plus la","La moins","Robe la plus"],ans:"La plus",hint:"BAGS adjectives go BEFORE the noun, even in superlatives."},
+
+  {type:"fb",s:"C'est ___ ___ beau jour de ma vie! (the most)",a:["le","plus"],opts:["le","la","plus","moins"],hint:"The most beautiful day. Beau = BAGS adjective, before noun."},
+
+  {type:"mc",q:"Non-BAGS: 'le plat ___.' (the most delicious)",opts:["Le plus délicieux","Le plus délicieux plat","Plus délicieux le","Délicieux le plus"],ans:"Le plus délicieux",hint:"Non-BAGS adjective: superlative comes AFTER the noun, with article repeated."},
+
+  {type:"fb",s:"Ce sont les étudiants ___ ___ sérieux de l'école. (the most)",a:["les","plus"],opts:["les","le","plus","moins"],hint:"The most serious students. Plural article + superlative marker."},
+
+  {type:"match",pairs:[{nl:"le plus beau (BAGS)",en:"before noun"},{nl:"le plus intéressant",en:"after noun"},{nl:"de France",en:"in France (after superl.)"},{nl:"du monde",en:"in the world"}]},
+
+  {type:"mc",q:"'Elle est la fille la plus ___ de la classe.' (intelligent, fem.)",opts:["Intelligent","Intelligente","Intelligents","Intelligentes"],ans:"Intelligente",hint:"Fille = feminine. Adjective must agree."},
+
+  {type:"fb",s:"C'est le pays ___ ___ visité du monde. (the most)",a:["le","plus"],opts:["le","la","plus","moins"],hint:"The most visited country in the world."},
+
+  {type:"mc",q:"Which superlative is irregular?",opts:["Le plus grand","Le plus petit","Le meilleur","Le plus cher"],ans:"Le meilleur",hint:"Bon has an irregular superlative. Never say 'le plus bon'."},
+
+  {type:"fb",s:"C'est la ___ chanson de l'album. (best, fem.)",a:"meilleure",opts:["meilleure","mieux","meilleur","plus bonne"],hint:"The best song. Chanson = feminine."},
+]},
+
+// ═══ L4: Comparing quantities ═══
+{id:"fre15l4",title:"Comparer les quantités",icon:"⚖️",xp:15,board:true,steps:[
+  {type:"intro",title:"Comparing quantities: more, less, as much",desc:"Besides comparing qualities (plus grand), you can compare quantities: plus de, moins de, autant de. These work with nouns and verbs.",goals:["Use plus de / moins de / autant de + noun","Compare verb actions (il travaille plus)","Use comparative adverbs"]},
+
+  {type:"tip",title:"Quantity comparisons",text:"With NOUNS:\nplus de + noun + que = more...than\nmoins de + noun + que = fewer/less...than\nautant de + noun + que = as much/many...as\n\nJ'ai plus de livres que toi.\n(I have more books than you.)\n\nWith VERBS:\nverb + plus/moins/autant + que\nIl travaille plus que moi.\n(He works more than me.)\n\nNote: plus DE (not plus des)!\nAutant (not aussi) for quantities."},
+
+  {type:"teach",kind:"phrase",nl:"plus de livres que",en:"more books than",phonetic:"plew duh LEE-vruh kuh",example:"A: Tu as beaucoup de livres!\nB: Oui, j'ai plus de livres que mon frère.\nA: Tu lis beaucoup?",exampleEn:"A: You have a lot of books!\nB: Yes, I have more books than my brother.\nA: Do you read a lot?",note:"Plus de + noun + que = more...than.\nDe (not des) after plus/moins.\nJ'ai plus DE livres."},
+
+  {type:"teach",kind:"phrase",nl:"autant de temps que",en:"as much time as",phonetic:"oh-TAHN duh TAHN kuh",example:"A: Tu as le temps de venir?\nB: Je n'ai pas autant de temps que toi.\nA: Même une heure?",exampleEn:"A: Do you have time to come?\nB: I don't have as much time as you.\nA: Even an hour?",note:"Autant de + noun + que = as much/many...as.\nAutant for quantities (not aussi).\nAussi is for adjectives only."},
+
+  {type:"mc",q:"'J'ai ___ argent ___ toi.' (less money than)",opts:["Moins d' / que","Moins / que","Plus d' / que","Autant d' / que"],ans:"Moins d' / que",hint:"Less + noun + than. Note: d' before vowel (argent)."},
+
+  {type:"fb",s:"Il y a ___ de touristes en hiver ___ en été. (fewer...than)",a:["moins","qu'"],opts:["moins","plus","qu'","que"],hint:"Fewer tourists in winter than in summer."},
+
+  {type:"mc",q:"'Il mange ___ que moi.' (more, with verb)",opts:["Plus","Plus de","Aussi","Autant de"],ans:"Plus",hint:"With a verb, no 'de' needed. He eats more than me."},
+
+  {type:"fb",s:"Elle gagne ___ d'argent ___ son mari. (as much...as)",a:["autant","que"],opts:["autant","aussi","que","de"],hint:"She earns as much money as her husband. Equal quantity word."},
+
+  {type:"match",pairs:[{nl:"plus de (+ noun)",en:"more"},{nl:"moins de (+ noun)",en:"fewer/less"},{nl:"autant de (+ noun)",en:"as much/many"},{nl:"plus (+ verb)",en:"more (action)"}]},
+
+  {type:"mc",q:"Why 'plus DE' and not 'plus DES' before nouns?",opts:["Grammar rule: after plus/moins, always de","It's a mistake","Only in formal French","Both are correct"],ans:"Grammar rule: after plus/moins, always de",hint:"Like negation (pas de), quantity comparisons use de."},
+
+  {type:"fb",s:"Nous avons ___ de chance ___ eux. (more...than)",a:["plus","que"],opts:["plus","moins","que","de"],hint:"We have more luck than them."},
+
+  {type:"mc",q:"'Elle travaille autant ___ lui.' (verb comparison)",opts:["Que","De","Comme","À"],ans:"Que",hint:"She works as much as him. Verb + autant + que."},
+
+  {type:"fb",s:"Il y a ___ de restaurants ici ___ à Paris. (fewer...than)",a:["moins","qu'"],opts:["moins","plus","qu'","que"],hint:"Fewer restaurants here than in Paris."},
+
+  {type:"match",pairs:[{nl:"aussi grand que",en:"as tall as (adj.)"},{nl:"autant de livres que",en:"as many books as (noun)"},{nl:"travaille autant que",en:"works as much as (verb)"},{nl:"plus de temps que",en:"more time than (noun)"}]},
+
+  {type:"mc",q:"'De plus en plus' means:",opts:["Less and less","More and more","As much as","The most"],ans:"More and more",hint:"De plus en plus chaud = hotter and hotter. Progressive."},
+
+  {type:"fb",s:"De ___ en ___, les gens travaillent à la maison. (more and more)",a:["plus","plus"],opts:["plus","moins","en","de"],hint:"More and more people work from home. Progressive increase."},
+
+  {type:"mc",q:"'De moins en moins' is the opposite: ___.",opts:["More and more","Less and less","As much as","The least"],ans:"Less and less",hint:"De moins en moins = progressively decreasing."},
+
+  {type:"fb",s:"Il fait de ___ en ___ froid. (more and more)",a:["plus","plus"],opts:["plus","moins","en","de"],hint:"It's getting colder and colder. Progressive change."},
+]},
+
+// ═══ L5: Comparing verbs and adverbs ═══
+{id:"fre15l5",title:"Comparer les actions",icon:"🏃",xp:15,board:true,steps:[
+  {type:"intro",title:"Comparing actions and manner",desc:"Compare how people DO things using comparative adverbs: plus vite, moins souvent, aussi bien. Plus special patterns like de plus en plus.",goals:["Compare actions with adverb comparatives","Use plus/moins/aussi with adverbs","Express progressive change"]},
+
+  {type:"teach",kind:"phrase",nl:"plus vite que",en:"faster than",phonetic:"plew VEET kuh",example:"A: Qui court plus vite?\nB: Pierre court plus vite que moi.\nA: Il s'entraîne beaucoup!",exampleEn:"A: Who runs faster?\nB: Pierre runs faster than me.\nA: He trains a lot!",note:"Plus + adverb + que = comparative.\nVite = quickly/fast (adverb).\nAdverbs are invariable (no agreement)."},
+
+  {type:"teach",kind:"phrase",nl:"moins souvent que",en:"less often than",phonetic:"mwan soo-VAHN kuh",example:"A: Tu vas souvent au cinéma?\nB: Je vais moins souvent qu'avant.\nA: Moi aussi!",exampleEn:"A: Do you go to the cinema often?\nB: I go less often than before.\nA: Me too!",note:"Moins + adverb + que.\nSouvent = often.\nQu'avant = than before (elision)."},
+
+  {type:"mc",q:"'Elle parle ___ lentement ___ lui.' (more slowly than)",opts:["Plus / que","Moins / que","Aussi / que","Mieux / que"],ans:"Plus / que",hint:"More slowly = plus + adverb + que."},
+
+  {type:"fb",s:"Il conduit ___ prudemment que son père. (less)",a:"moins",opts:["moins","plus","aussi","mieux"],hint:"He drives less carefully than his father."},
+
+  {type:"mc",q:"Adverbs in comparatives are:",opts:["Variable (agree with subject)","Invariable (no agreement)","Only masculine","Only plural"],ans:"Invariable (no agreement)",hint:"Adverbs never change form. Plus vite, not plus vites."},
+
+  {type:"fb",s:"Tu apprends ___ vite ___ moi! (as...as)",a:["aussi","que"],opts:["aussi","autant","que","de"],hint:"You learn as fast as me. Equal comparison for how you learn."},
+
+  {type:"match",pairs:[{nl:"plus vite",en:"faster"},{nl:"moins souvent",en:"less often"},{nl:"aussi bien",en:"as well"},{nl:"mieux",en:"better (adverb)"}]},
+
+  {type:"mc",q:"For adverbs, equal comparison uses:",opts:["Autant","Aussi","Le même","Pareil"],ans:"Aussi",hint:"Equal comparison for adverbs, not the quantity word."},
+
+  {type:"fb",s:"Elle chante ___ que sa soeur. (better, adverb)",a:"mieux",opts:["mieux","meilleur","plus bien","plus bon"],hint:"She sings better. How she sings = adverb. Irregular."},
+
+  {type:"mc",q:"'Il travaille de plus en plus ___.' (hard)",opts:["Dur","Dure","Durement","Durs"],ans:"Dur",hint:"Travailler dur = to work hard. De plus en plus dur."},
+
+  {type:"fb",s:"Je comprends de ___ en ___ le français. (better and better)",a:["mieux","mieux"],opts:["mieux","meilleur","en","de"],hint:"I understand French better and better. Progressive."},
+
+  {type:"match",pairs:[{nl:"de plus en plus vite",en:"faster and faster"},{nl:"de moins en moins souvent",en:"less and less often"},{nl:"de mieux en mieux",en:"better and better"},{nl:"de pire en pire",en:"worse and worse"}]},
+
+  {type:"mc",q:"'Plus...plus...' pattern: 'Plus je lis, plus j'apprends.' means:",opts:["The more I read, the more I learn","I read more and learn more","I read plus I learn","I read or I learn"],ans:"The more I read, the more I learn",hint:"Plus...plus = the more...the more. Correlation pattern."},
+
+  {type:"fb",s:"___ on travaille, ___ on réussit. (the more...the more)",a:["Plus","plus"],opts:["Plus","Moins","plus","moins"],hint:"The more we work, the more we succeed."},
+
+  {type:"mc",q:"'Moins on dort, moins on ___.' (be in form)",opts:["Est en forme","A la forme","Fait la forme","Va la forme"],ans:"Est en forme",hint:"The less we sleep, the less fit we are."},
+
+  {type:"fb",s:"Il parle ___ en ___ bien français. (better and better)",a:["de","mieux"],opts:["de","mieux","plus","en"],hint:"He speaks French better and better. De + ___ + en + ___."},
+
+  {type:"mc",q:"Summary: for adjectives use plus/aussi, for quantities use plus de/autant de, for adverbs use:",opts:["Plus de / autant de","Plus / aussi","Meilleur / mieux","All the same"],ans:"Plus / aussi",hint:"Same structure as adjectives: plus + adverb + que."},
+
+  {type:"fb",s:"Elle arrive toujours ___ tôt ___ les autres. (earlier than)",a:["plus","que"],opts:["plus","moins","que","de"],hint:"She always arrives earlier than the others. Tôt = early."},
+]},
+
+// ═══ L6: Practical comparisons ═══
+{id:"fre15l6",title:"En pratique",icon:"🌍",xp:15,board:true,steps:[
+  {type:"intro",title:"Comparing in everyday life",desc:"Practice comparisons in real contexts: cities, food, weather, people, activities. Mix all comparative and superlative structures you've learned.",goals:["Compare cities, food, and activities naturally","Use superlatives for recommendations","Mix all comparison types fluently"]},
+
+  {type:"teach",kind:"phrase",nl:"Le métro est plus rapide que le bus.",en:"The metro is faster than the bus.",phonetic:"luh may-TROH ay plew rah-PEED kuh luh BEWS",example:"A: Comment tu vas au travail?\nB: Je prends le métro. Il est plus rapide que le bus.\nA: Et moins cher que le taxi!",exampleEn:"A: How do you get to work?\nB: I take the metro. It's faster than the bus.\nA: And cheaper than a taxi!",note:"Comparing transportation.\nPlus rapide que = faster than.\nNatural everyday comparison."},
+
+  {type:"teach",kind:"phrase",nl:"C'est le meilleur café du quartier.",en:"It's the best café in the neighborhood.",phonetic:"say luh may-YUHR kah-FAY dew kar-tee-AY",example:"A: On va où prendre un café?\nB: C'est le meilleur café du quartier.\nA: Allons-y alors!",exampleEn:"A: Where shall we go for coffee?\nB: It's the best café in the neighborhood.\nA: Let's go then!",note:"Superlative recommendation.\nLe meilleur + noun + de.\nDu quartier = in the neighborhood."},
+
+  {type:"mc",q:"Comparing cities: 'Lyon est ___ que Marseille.' (calmer)",opts:["Plus calme","Moins calme","Aussi calme","Le plus calme"],ans:"Plus calme",hint:"Lyon is calmer = more calm + que."},
+
+  {type:"fb",s:"Ce restaurant est ___ ___ restaurant de la rue. (the best)",a:["le","meilleur"],opts:["le","la","meilleur","mieux"],hint:"The best restaurant on the street. Superlative."},
+
+  {type:"mc",q:"Weather: 'Il fait ___ chaud en été ___ en hiver.' (more...than)",opts:["Plus / qu'","Moins / qu'","Aussi / qu'","Le plus / qu'"],ans:"Plus / qu'",hint:"It's hotter in summer than in winter."},
+
+  {type:"fb",s:"La France a ___ d'habitants ___ l'Allemagne. (fewer...than)",a:["moins","que"],opts:["moins","plus","que","de"],hint:"France has fewer inhabitants than Germany."},
+
+  {type:"match",pairs:[{nl:"Le TGV est le plus rapide",en:"superlative"},{nl:"Le bus est moins cher",en:"comparative (less)"},{nl:"Le vélo est aussi écologique",en:"comparative (equal)"},{nl:"La voiture est la plus pratique",en:"superlative"}]},
+
+  {type:"mc",q:"Food: 'Le vin français est ___ que le vin italien.' (as good as)",opts:["Aussi bon","Plus meilleur","Aussi meilleur","Autant bon"],ans:"Aussi bon",hint:"As good as = aussi + adjective (bon) + que."},
+
+  {type:"fb",s:"C'est la ___ pizza que j'ai mangée. (best, fem.)",a:"meilleure",opts:["meilleure","mieux","meilleur","plus bonne"],hint:"The best pizza. Pizza = feminine."},
+
+  {type:"mc",q:"'Paris est la ville la plus visitée ___.' (in the world)",opts:["Du monde","Dans le monde","Au monde","En monde"],ans:"Du monde",hint:"After superlatives: preposition de + article. In the world = ?"},
+
+  {type:"fb",s:"Il fait ___ froid à Lille ___ à Nice. (more...than)",a:["plus","qu'"],opts:["plus","moins","qu'","que"],hint:"It's colder in Lille than in Nice."},
+
+  {type:"match",pairs:[{nl:"le moins cher",en:"the cheapest"},{nl:"le plus populaire",en:"the most popular"},{nl:"la meilleure qualité",en:"the best quality"},{nl:"le pire choix",en:"the worst choice"}]},
+
+  {type:"mc",q:"Recommending: 'C'est ___ restaurant que je connaisse.' (the best)",opts:["Le meilleur","Le mieux","Le plus bon","Le plus meilleur"],ans:"Le meilleur",hint:"The best + noun = irregular superlative adjective."},
+
+  {type:"fb",s:"Ce film est beaucoup ___ intéressant ___ l'autre. (more...than)",a:["plus","que"],opts:["plus","moins","que","de"],hint:"Much ___ interesting. Beaucoup reinforces the comparison word."},
+
+  {type:"mc",q:"'L'hiver à Paris est ___ que l'hiver à Moscou.' (less cold)",opts:["Moins froid","Plus froid","Aussi froid","Le plus froid"],ans:"Moins froid",hint:"Less cold = moins + adjective + que."},
+
+  {type:"fb",s:"C'est le jour ___ ___ long de l'année. (the longest)",a:["le","plus"],opts:["le","la","plus","moins"],hint:"The longest day of the year. Superlative."},
+
+  {type:"mc",q:"Which comparison is most natural for a recommendation?",opts:["C'est plus bon","C'est le meilleur","C'est plus meilleur","C'est le plus bon"],ans:"C'est le meilleur",hint:"For recommendations, the superlative form of bon is standard."},
+
+  {type:"fb",s:"Je n'ai jamais mangé ___ bonne glace! (such good, as good)",a:"d'aussi",opts:["d'aussi","de plus","de moins","la plus"],hint:"I've never eaten such good ice cream! Jamais + de + equal marker."},
+]},
+
+// ═══ L7: Comparison expressions ═══
+{id:"fre15l7",title:"Expressions comparatives",icon:"💬",xp:15,board:true,steps:[
+  {type:"intro",title:"Common comparison expressions",desc:"French has many fixed expressions using comparisons. Learn the most useful ones for daily conversation: comme, pareil, le même, plutôt, etc.",goals:["Use comme for similes","Express sameness with le même/pareil","Use plutôt for preferences"]},
+
+  {type:"teach",kind:"phrase",nl:"comme",en:"like / as",phonetic:"kohm",example:"A: Il est comment, ton nouveau voisin?\nB: Il est grand comme un arbre!\nA: Vraiment si grand?",exampleEn:"A: What's your new neighbor like?\nB: He's tall like a tree!\nA: Really that tall?",note:"Comme = like / as.\nUsed for similes and comparisons.\nGrand comme = as tall as / tall like."},
+
+  {type:"teach",kind:"phrase",nl:"le même / la même",en:"the same",phonetic:"luh MEM / lah MEM",example:"A: Tu as le même téléphone que moi!\nB: Oui, la même marque et la même couleur.\nA: On a les mêmes goûts!",exampleEn:"A: You have the same phone as me!\nB: Yes, the same brand and the same color.\nA: We have the same tastes!",note:"Le même (masc.) / la même (fem.) = the same.\nAlways followed by que (not de).\nPlural: les mêmes."},
+
+  {type:"teach",kind:"phrase",nl:"plutôt",en:"rather / instead",phonetic:"plew-TOH",example:"A: Tu veux du thé ou du café?\nB: Plutôt du thé, s'il te plaît.\nA: Avec du sucre?",exampleEn:"A: Do you want tea or coffee?\nB: Rather tea, please.\nA: With sugar?",note:"Plutôt = rather / instead.\nUsed to express preference.\nPlutôt que = rather than."},
+
+  {type:"mc",q:"'Elle est belle comme ___.' (a flower)",opts:["une fleur","la fleur","des fleurs","en fleur"],ans:"une fleur",hint:"Beautiful like a flower. Comme + noun for similes."},
+
+  {type:"fb",s:"J'ai ___ ___ robe que toi! (the same)",a:["la","même"],opts:["la","le","même","mêmes"],hint:"I have the same dress as you! Robe = feminine."},
+
+  {type:"mc",q:"'C'est ___ que tu penses.' (not the same thing)",opts:["Pas la même chose","Pas pareil","Différent","All are possible"],ans:"All are possible",hint:"All three express that things are different."},
+
+  {type:"fb",s:"Je préfère ___ rester à la maison. (rather)",a:"plutôt",opts:["plutôt","aussi","plus","moins"],hint:"I'd rather stay home. Preference expression."},
+
+  {type:"match",pairs:[{nl:"comme",en:"like / as"},{nl:"le même...que",en:"the same...as"},{nl:"plutôt",en:"rather"},{nl:"pareil",en:"the same / identical"}]},
+
+  {type:"mc",q:"'Faites comme chez vous!' means:",opts:["Do it at home","Make yourself at home","It's the same as home","Go home"],ans:"Make yourself at home",hint:"A welcoming expression: act as if you were at your place."},
+
+  {type:"fb",s:"C'est ___ qu'avant. (the same as)",a:"pareil",opts:["pareil","même","comme","aussi"],hint:"It's the same as before. Which word means 'identical'?"},
+
+  {type:"mc",q:"'Tel père, tel fils' is a comparison expression meaning:",opts:["Like father, like son","Such father, such son","The father and the son","My father, my son"],ans:"Like father, like son",hint:"A proverb about resemblance between generations."},
+
+  {type:"fb",s:"Il est ___ qu'un enfant! (like, simile)",a:"comme",opts:["comme","pareil","même","aussi"],hint:"He's ___ a child! Which word creates a simile?"},
+
+  {type:"match",pairs:[{nl:"plutôt que",en:"rather than"},{nl:"de même",en:"likewise"},{nl:"comme ci, comme ça",en:"so-so"},{nl:"tout de même",en:"all the same / still"}]},
+
+  {type:"mc",q:"'Comme ci, comme ça' means:",opts:["Very good","Very bad","So-so / not great","Like this, like that"],ans:"So-so / not great",hint:"A common response to 'How are you?' meaning neither good nor bad."},
+
+  {type:"fb",s:"Je voudrais ___ un café ___ un gâteau. (rather...than)",a:["plutôt","qu'"],opts:["plutôt","aussi","qu'","que"],hint:"I'd rather have coffee than cake. Preference."},
+
+  {type:"mc",q:"'Tout comme son père' means:",opts:["Everything like his father","Just like his father","All compared to his father","Too much like his father"],ans:"Just like his father",hint:"Tout comme = just like / exactly like."},
+
+  {type:"fb",s:"Nous avons les ___ goûts. (same, plural)",a:"mêmes",opts:["mêmes","même","pareils","comme"],hint:"We have the same tastes. Plural article + which sameness word?"},
+
+  {type:"mc",q:"Which expression means 'it's all the same to me' (I don't mind)?",opts:["C'est la même chose","C'est pareil","Ça m'est égal","C'est comme"],ans:"Ça m'est égal",hint:"Equal to me = I don't have a preference."},
+]},
+
+// ═══ L8: Review ═══
+{id:"fre15l8",title:"Révision",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"Comparatives & superlatives mastery",desc:"Final review of all comparison structures: plus/moins/aussi, meilleur/mieux, superlatives, quantity comparisons, and expressions.",goals:["Choose the right comparison structure","Handle all irregular forms","Use comparisons naturally in context"]},
+
+  {type:"tip",title:"Complete comparison toolkit",text:"ADJECTIVES: plus/moins/aussi + adj. + que\nBON: meilleur (never plus bon!)\n\nADVERBS: plus/moins/aussi + adv. + que\nBIEN: mieux (never plus bien!)\n\nQUANTITIES: plus de/moins de/autant de + noun + que\nVERBS: verb + plus/moins/autant + que\n\nSUPERLATIVES: le/la/les + plus/moins + adj. + de\nBon: le meilleur. Bien: le mieux.\n\nEXPRESSIONS: comme, le même...que,\nplutôt, de plus en plus"},
+
+  {type:"mc",q:"'Ce gâteau est ___ que l'autre.' (better)",opts:["Plus bon","Meilleur","Mieux","Plus bien"],ans:"Meilleur",hint:"Better (adjective for noun) = irregular form."},
+
+  {type:"fb",s:"Elle danse ___ que moi. (better, adverb)",a:"mieux",opts:["mieux","meilleur","plus bien","plus bon"],hint:"She dances better. How she dances = adverb."},
+
+  {type:"mc",q:"'J'ai ___ livres ___ toi.' (more...than, quantity)",opts:["Plus de / que","Plus / que","Plus des / que","Aussi / que"],ans:"Plus de / que",hint:"More + noun = plus DE. Never plus des."},
+
+  {type:"fb",s:"C'est le ___ film de l'année. (best, masc.)",a:"meilleur",opts:["meilleur","mieux","meilleure","plus bon"],hint:"The best film. Superlative adjective."},
+
+  {type:"match",pairs:[{nl:"meilleur",en:"better (adj.)"},{nl:"mieux",en:"better (adv.)"},{nl:"le meilleur",en:"the best (adj.)"},{nl:"le mieux",en:"the best (adv.)"}]},
+
+  {type:"mc",q:"Superlative placement for non-BAGS: 'la ville la plus ___'",opts:["Grande (before noun)","Intéressante (after noun)","Both work","Neither"],ans:"Intéressante (after noun)",hint:"Non-BAGS adjectives: article-noun-article-plus-adjective."},
+
+  {type:"fb",s:"Il fait de ___ en ___ chaud. (hotter and hotter)",a:["plus","plus"],opts:["plus","moins","en","de"],hint:"It's getting hotter and hotter. Progressive change."},
+
+  {type:"mc",q:"'Autant de' is used with ___, 'aussi' with ___.",opts:["Nouns / adjectives-adverbs","Verbs / nouns","Adjectives / nouns","Adverbs / verbs"],ans:"Nouns / adjectives-adverbs",hint:"Autant de livres que (noun). Aussi grand que (adjective)."},
+
+  {type:"fb",s:"___ je travaille, ___ je suis fatigué. (the more...the more)",a:["Plus","plus"],opts:["Plus","Moins","plus","moins"],hint:"The more I work, the more tired I am. Correlation."},
+
+  {type:"match",pairs:[{nl:"plus grand que",en:"comparative (more)"},{nl:"moins cher que",en:"comparative (less)"},{nl:"le plus beau",en:"superlative (most)"},{nl:"aussi rapide que",en:"comparative (equal)"}]},
+
+  {type:"mc",q:"After a superlative, the preposition is always:",opts:["Dans","De","À","En"],ans:"De",hint:"Le plus grand DE la classe. Le meilleur DU monde."},
+
+  {type:"fb",s:"C'est la ___ ___ belle ville ___ France. (the most beautiful in)",a:["la","plus","de"],opts:["la","plus","de","dans"],hint:"The most beautiful city in France. Superlative + de."},
+
+  {type:"mc",q:"'Comme ci, comme ça' is used when something is:",opts:["Excellent","Terrible","Neither good nor bad","The best"],ans:"Neither good nor bad",hint:"So-so. A neutral response about quality."},
+
+  {type:"fb",s:"Ce restaurant est ___ bon ___ l'autre. (as good as)",a:["aussi","que"],opts:["aussi","autant","que","de"],hint:"As good as. Adjective equality, not the quantity word."},
+
+  {type:"mc",q:"You've mastered French comparisons! The trickiest part is:",opts:["Plus/moins","Meilleur vs mieux","Superlative placement","All of the above"],ans:"Meilleur vs mieux",hint:"Adjective vs adverb is the most common source of errors."},
+
+  {type:"fb",s:"C'est le ___ jour ___ ma vie! (most beautiful, of)",a:["plus beau","de"],opts:["plus beau","plus belle","de","dans"],hint:"The most beautiful day of my life! BAGS = before noun."},
+
+  {type:"mc",q:"Final: 'La Tour Eiffel est ___ monument ___ de Paris.'",opts:["Le plus célèbre","La plus célèbre","Le moins célèbre","Les plus célèbres"],ans:"Le plus célèbre",hint:"Monument = masculine. The most famous monument in Paris."},
+]},
+]},
+
 ];
