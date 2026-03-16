@@ -367,7 +367,23 @@ export const LANG_BLUEPRINT = {
     culturalContext: "Politesse culture. La bise. Apéro. Long lunches. L'Académie française. Formal vous with strangers. Bonjour before any interaction.",
     learningRisks: ["Ignoring gender from day one","Pronouncing silent letters","Skipping nasal vowel training","Confusing passé composé and imparfait","Faux amis (false cognates)"],
   },
-  // TODO: Add blueprints for es, ro, en, ko, ja, zh, ru as content is built
+  es: {
+    scriptType: "latin",
+    writingSystem: {type:"alphabetic",direction:"ltr",caseSystem:true,diacritics:["acute_á_é_í_ó_ú","diaeresis_ü","tilde_ñ","inverted_punctuation_¿¡"]},
+    phonology: {vowelSystem:"5_pure_vowels_no_reduction",consonantNotes:"rr_trill_r_tap_j_velar_fricative_h_silent_b_v_same_sound_d_fricative_between_vowels",stress:"penultimate_default_accent_marks_override",traps:["rr_trill","j_/x/","h_always_silent","b_v_identical","d_between_vowels","c_before_e_i","g_before_e_i","ll_/ʝ/","ñ_/ɲ/"]},
+    morphology: {type:"fusional",verbGroups:["ar_group1_largest","er_group2","ir_group3"],stemChanging:["e_to_ie","o_to_ue","e_to_i"],gender:true,plurals:["-s_after_vowel","-es_after_consonant","irregular"],diminutives:"-ito/-ita/-cito/-cita",augmentatives:"-ón/-ona/-azo/-aza"},
+    grammarOrder: "SVO",
+    genderSystem: {type:"masculine_feminine",articles:{m:"el",f:"la"},adjInflection:true,adjPlacement:"usually_after_noun_some_before",predictability:"high_o_masculine_a_feminine_with_exceptions"},
+    articleSystem: {definite:["el","la","los","las"],indefinite:["un","una","unos","unas"],notes:"El used before stressed a-/ha- feminine nouns: el agua, el águila. Contractions: a+el=al, de+el=del."},
+    formalitySystem: {levels:["informal_tú","formal_usted","plural_informal_vosotros_Spain","plural_formal_ustedes"],notes:"Latin America uses ustedes for all plurals (no vosotros). Usted takes 3rd person verb forms. Tú/usted choice is socially important. Default to usted with strangers."},
+    serEstar: {ser:"identity_origin_time_material_personality_permanent_traits",estar:"location_state_emotion_condition_result_temporary_states",overlap:"some_adjectives_change_meaning: ser aburrido (boring person) vs estar aburrido (bored right now)"},
+    difficultyProfile: {forEnglish:"moderate",hardest:["ser_vs_estar","subjunctive_mood","indefinido_vs_imperfecto","gendered_nouns","verb_conjugation_extent","object_pronoun_placement"],easiest:["phonetic_spelling","30_40_pct_cognates","SVO_word_order","5_pure_vowels","predictable_stress"]},
+    culturalContext: "Family centrality. Sobremesa (lingering after meals). Late schedules. Regional pride (Spain/Mexico/Argentina all distinct). Two surnames system. Tuteo vs ustedeo varies by country.",
+    learningRisks: ["Confusing ser and estar","Ignoring gender from day one","Translating English progressive to Spanish progressive","False cognates (embarazada, éxito, sensible)","Avoiding subjunctive","Using vosotros in Latin American context"],
+    coreConstructs: ["SVO word order","el/la gender system","ser vs estar (two 'to be' verbs)","verb conjugation (-ar/-er/-ir groups)","tú vs usted formality","gustar-type backwards verbs"],
+    functionWords: ["y (and)","o (or)","pero (but)","también (also)","no (not)","sí (yes)","en (in/on)","de (of/from)","a (to)","con (with)","por (for/by)","para (for/to)"]
+  },
+  // TODO: Add blueprints for ro, en, ko, ja, zh, ru as content is built
 };
 
 // ── CULTURE_PACKS: Per-language cultural data (Pipeline Step 3) ──
@@ -378,7 +394,9 @@ export const CULTURE_PACKS = {
   ar: {food:["hummus","falafel","shawarma","fattoush","knafeh"],customs:["hospitality","right_hand_eating","tea_coffee_ritual","greeting_with_peace"],places:["Damascus","Beirut","Cairo","Amman"],beginnerSituations:["greeting_with_salam","ordering_at_restaurant","introducing_yourself","asking_for_help"],politenessNotes:["'Inshallah' is common and polite","Use formal pronouns with elders"],tabooOrPitfalls:["Left hand considered unclean for eating","Shoes off indoors"]},
   // ── French Culture Pack (Batch 7 — parity prep) ──
   fr: {food:["croissant","baguette","crêpe","ratatouille","quiche"],customs:["la_bise","apéro","long_lunches","formal_vous"],places:["Paris","Lyon","Marseille","Bordeaux"],beginnerSituations:["ordering_at_boulangerie","café_terrace","asking_directions","introducing_yourself"],politenessNotes:["Always say 'Bonjour' before any interaction","Use 'vous' with strangers, 'tu' with friends/children"],tabooOrPitfalls:["Don't skip the greeting","Don't assume English is spoken","Tipping is included in the bill"]},
-  // TODO: Add culture packs for es, ro, en, ko, ja, zh, ru as those languages are built
+  // ── Spanish Culture Pack ──
+  es: {food:["paella","tapas","tortilla_española","churros","gazpacho","jamón_ibérico","empanadas"],customs:["siesta","sobremesa","two_surnames","late_dinners_9pm","paseo_evening_walk","fiestas_patronales"],places:["Madrid","Barcelona","Sevilla","México_City","Buenos_Aires","Bogotá"],beginnerSituations:["ordering_tapas","asking_directions","introducing_yourself","at_mercado","café_con_leche"],politenessNotes:["Use 'usted' with strangers and elders","Use 'tú' with friends and children","In Latin America 'ustedes' replaces 'vosotros'","Say 'por favor' and 'gracias' always"],tabooOrPitfalls:["Don't confuse ser and estar","Don't use vosotros in Latin America","embarazada means pregnant not embarrassed","éxito means success not exit","sensible means sensitive not sensible"]},
+  // TODO: Add culture packs for ro, en, ko, ja, zh, ru as those languages are built
 };
 
 // ── UNIT_TEMPLATES: Standard A1 survival unit structure (Pipeline Step 4) ──

@@ -828,11 +828,11 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | LANG_META["es"] | `src/data/metadata.js` | ~301 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"es-ES", specialRules:["ñ","inverted_punctuation","gendered_nouns","ser_estar","subjunctive"] |
 | LANG_BLUEPRINT["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation |
 | CULTURE_PACKS["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built |
-| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | N/A | **MISSING** — must be built (el=masculine/blue, la=feminine/coral) |
+| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | ~2443 | COMPLETE: el (masculine/blue), la (feminine/coral), detect handles el/la/los/las |
 | FOUNDATIONS_BY_LANG["es"] | `src/data/foundations.js` | ~1456 | PARTIAL: 1 section (alphabet grid with 27 letters + Ñ). Needs expansion to 4-6 sections. |
 | FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | ~2583 | EMPTY SHELL: `{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]}` |
 | FK_GATE_QUIZ["es"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
-| FK_SCHEMA_MAP | `src/data/metadata.js` | N/A | Needs "es":"latin" entry |
+| FK_SCHEMA_MAP | `src/data/metadata.js` | ~235 | COMPLETE: es:"latin" already mapped |
 | VOCAB pilot | `src/data/vocabulary.js` | N/A | NO Spanish lexemes. Expand as units are built. |
 | Import/spread | `src/lingoverse.jsx` | N/A | NOT SET UP — needs new import + UNITS spread update |
 
@@ -841,7 +841,6 @@ French is PRODUCTION-READY. Built from scratch in D105:
 |-----------|------|--------|
 | LANG_BLUEPRINT["es"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (el/la), ser vs estar, subjunctive mood, inverted punctuation (¿¡), Ñ, verb conjugation (3 groups: -ar/-er/-ir + extensive irregulars including stem-changing), formal/informal (tú/usted/vosotros/ustedes), regional variation awareness (Spain vs Latin America). Follow fr/de/nl blueprint format. |
 | CULTURE_PACKS["es"] | `src/data/metadata.js` | Build cultural data: food (paella, tapas, tortilla, churros, gazpacho), customs (siesta, sobremesa, two surnames, late dinners), places (Madrid, Barcelona, Sevilla, México), situations, politeness notes, taboos. |
-| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | Build: el (masculine, blue), la (feminine, coral). Detect function must handle el/la/los/las and the masculine exception (el agua, el águila). |
 | FOUNDATIONS_BY_LANG["es"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + Ñ, (2) Vowels (5 pure vowels, diphthongs), (3) Consonants (RR trill, J/G, C/Z, LL, H silent), (4) Accent marks + stress rules, (5) Verb group preview (-ar/-er/-ir), (6) Grammar awareness (gender, ser/estar). Target: ~25 items. |
 | FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | Build interactive playthrough: ~12-15 lessons. Spanish pronunciation is very regular (nearly phonetic spelling), so foundations can be shorter than French/German. Focus: Ñ, RR trill, J, accent marks, stress rules, inverted punctuation. |
 | FK_GATE_QUIZ["es"] | `src/data/foundations.js` | Build pass/fail gate quiz. 5 tasks, ~35 items. |
@@ -901,7 +900,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 - U30: DELE B2/SIELE prep, comprehensive review, C1 preview
 
 #### Spanish-Specific Teaching Priorities:
-1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). Build ARTICLE_SYSTEMS["es"] in vocabulary.js.
+1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). ARTICLE_SYSTEMS["es"] already built in vocabulary.js.
 2. **Ser vs estar is THE fundamental challenge.** Both mean "to be" but are NOT interchangeable. Introduce both in A1 U2, dedicate examples throughout. This confusion persists into C1.
 3. **Verb conjugation is massive.** Spanish has 3 groups (-ar, -er, -ir) plus extensive stem-changing verbs (e→ie, o→ue, e→i) and irregulars. Introduce -ar in A1, -er/-ir in A1-A2, stem-changers progressively.
 4. **Spanish pronunciation is very regular.** Unlike French, spelling is nearly phonetic. Foundations can be shorter. Focus on: RR trill, J/G, Ñ, accent marks, stress rules.
@@ -918,7 +917,7 @@ Follow the French D105 playbook with D106 agent model requirements:
 1. **Use Opus 4.6 agents for ALL content generation** (Rule 11, D106). Sonnet for validation only.
 2. **Build LANG_BLUEPRINT first** — Spanish has no blueprint yet.
 3. **Build CULTURE_PACKS["es"]** — Spanish has no culture pack yet.
-4. **Build ARTICLE_SYSTEMS["es"]** — Spanish has no article system yet.
+4. ~~**Build ARTICLE_SYSTEMS["es"]**~~ — ALREADY EXISTS (vocabulary.js:2443). el=blue, la=coral, detect handles el/la/los/las.
 5. **Expand FOUNDATIONS_BY_LANG["es"]** — Currently 1 section. Expand to 5-6 sections/~25 items.
 6. **Build FK_PLAYTHROUGH["es"]** — Fill the empty stages array. ~12-15 lessons.
 7. **Build FK_GATE_QUIZ["es"]** — 5 tasks, ~35 items.
@@ -935,8 +934,8 @@ Follow the French D105 playbook with D106 agent model requirements:
 #### Session Execution Plan (for the next agent):
 1. Build LANG_BLUEPRINT["es"] in `src/data/metadata.js`
 2. Build CULTURE_PACKS["es"] in `src/data/metadata.js`
-3. Build ARTICLE_SYSTEMS["es"] in `src/data/vocabulary.js`
-4. Add FK_SCHEMA_MAP entry: es:"latin" in `src/data/metadata.js`
+3. ~~Build ARTICLE_SYSTEMS["es"]~~ — ALREADY EXISTS (vocabulary.js:2443)
+4. ~~Add FK_SCHEMA_MAP entry~~ — ALREADY EXISTS (metadata.js:235, es:"latin")
 5. Expand FOUNDATIONS_BY_LANG["es"] in `src/data/foundations.js` (1 section → 5-6 sections)
 6. Build FK_PLAYTHROUGH["es"] stages in `src/data/foundations.js`
 7. Build FK_GATE_QUIZ["es"] in `src/data/foundations.js`
