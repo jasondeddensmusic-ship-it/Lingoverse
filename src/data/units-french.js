@@ -5474,4 +5474,326 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 18 — Les pronoms relatifs                             ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:18,lang:"fr",track:"v1",title:"Les pronoms relatifs",sub:"Relative Pronouns: qui, que, dont, où",icon:"🔗",level:"B1.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Qui (subject) ═══
+{id:"fre18l1",title:"Qui (sujet)",icon:"👤",xp:15,board:true,steps:[
+  {type:"intro",title:"Qui: the subject relative pronoun",desc:"Qui replaces the SUBJECT of the relative clause. It means 'who' (for people) or 'which/that' (for things). It's followed directly by a verb.",goals:["Use qui for subject relative clauses","Connect two sentences with qui","Distinguish qui from que"]},
+
+  {type:"tip",title:"Qui = subject of the clause",text:"QUI replaces the SUBJECT:\n\nL'homme parle. L'homme est mon voisin.\n-> L'homme QUI parle est mon voisin.\n(The man WHO speaks is my neighbor.)\n\nLe livre est sur la table. Le livre est intéressant.\n-> Le livre QUI est sur la table est intéressant.\n(The book THAT is on the table is interesting.)\n\nQUI + VERB (no subject between them)\nQui never changes form (people or things)."},
+
+  {type:"teach",kind:"phrase",nl:"L'homme qui parle est mon professeur.",en:"The man who speaks is my teacher.",phonetic:"lohm KEE PARL ay mon proh-feh-SUHR",example:"A: Tu connais l'homme qui parle?\nB: Oui, c'est l'homme qui parle est mon professeur.\nA: Il a l'air sympa!",exampleEn:"A: Do you know the man who is speaking?\nB: Yes, the man who is speaking is my teacher.\nA: He seems nice!",note:"Qui replaces the subject (l'homme).\nQui + verb directly (no pronoun needed).\nWorks for people AND things."},
+
+  {type:"teach",kind:"phrase",nl:"La voiture qui est rouge est à moi.",en:"The car that is red is mine.",phonetic:"lah vwah-TEWR kee ay ROOZH",example:"A: Quelle voiture est à toi?\nB: La voiture qui est rouge est à moi.\nA: Elle est belle!",exampleEn:"A: Which car is yours?\nB: The car that is red is mine.\nA: It's beautiful!",note:"Qui for things = which/that.\nLa voiture qui est rouge (that IS red).\nQui = subject of 'est rouge'."},
+
+  {type:"mc",q:"'La fille ___ chante est ma soeur.' (subject)",opts:["Que","Qui","Dont","Où"],ans:"Qui",hint:"The girl WHO sings. She is the subject of 'sings'."},
+
+  {type:"fb",s:"Le chat ___ dort sur le canapé est à Marie. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The cat that is sleeping. Subject of the relative clause."},
+
+  {type:"mc",q:"After 'qui', the next word is usually:",opts:["A noun","A verb","Another pronoun","A preposition"],ans:"A verb",hint:"Qui replaces the subject, so the verb follows directly."},
+
+  {type:"fb",s:"Les étudiants ___ étudient beaucoup réussissent. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The students who study a lot succeed. Subject of 'study'."},
+
+  {type:"match",pairs:[{nl:"L'homme qui parle",en:"The man who speaks"},{nl:"Le livre qui est là",en:"The book that is there"},{nl:"La femme qui chante",en:"The woman who sings"},{nl:"Les enfants qui jouent",en:"The children who play"}]},
+
+  {type:"mc",q:"'J'ai un ami ___ habite à Paris.' (subject: lives)",opts:["Que","Qui","Dont","Où"],ans:"Qui",hint:"An ami WHO lives. He is the subject of 'lives in Paris'."},
+
+  {type:"fb",s:"C'est le film ___ a gagné le prix. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The film that won the prize. Subject of 'won'."},
+
+  {type:"mc",q:"Qui can refer to:",opts:["Only people","Only things","Both people and things","Neither"],ans:"Both people and things",hint:"L'homme qui parle AND le livre qui est là."},
+
+  {type:"fb",s:"Les gens ___ habitent ici sont sympathiques. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The people who live here. Subject of 'live'."},
+
+  {type:"match",pairs:[{nl:"qui + verb",en:"subject (who/that)"},{nl:"L'homme qui court",en:"The man who runs"},{nl:"La maison qui brûle",en:"The house that burns"},{nl:"Les oiseaux qui chantent",en:"The birds that sing"}]},
+
+  {type:"mc",q:"'C'est Marie ___ m'a dit ça.' (subject: told me)",opts:["Que","Qui","Dont","Où"],ans:"Qui",hint:"It's Marie WHO told me. Marie = subject of 'told'."},
+
+  {type:"fb",s:"Je cherche quelqu'un ___ parle anglais. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"I'm looking for someone who speaks English."},
+
+  {type:"mc",q:"Quick test: does the relative clause need a subject after the pronoun?",opts:["Yes, always","No, qui IS the subject","Sometimes","Only with people"],ans:"No, qui IS the subject",hint:"Qui replaces the subject, so the verb follows directly."},
+
+  {type:"fb",s:"Voilà le bus ___ va à la gare. (subject: goes)",a:"qui",opts:["qui","que","dont","où"],hint:"There's the bus that goes to the station."},
+]},
+
+// ═══ L2: Que (direct object) ═══
+{id:"fre18l2",title:"Que (objet direct)",icon:"🎯",xp:15,board:true,steps:[
+  {type:"intro",title:"Que: the direct object relative pronoun",desc:"Que replaces the DIRECT OBJECT of the relative clause. It means 'whom/that/which'. It's followed by a subject + verb (not directly by a verb like qui).",goals:["Use que for object relative clauses","Distinguish que from qui","Handle que + subject + verb pattern"]},
+
+  {type:"tip",title:"Que = object of the clause",text:"QUE replaces the DIRECT OBJECT:\n\nJe regarde le film. Tu as recommandé le film.\n-> Le film QUE tu as recommandé est super.\n(The film THAT you recommended is great.)\n\nQUE + SUBJECT + VERB\n(que tu as, que je vois, qu'elle mange)\n\nBefore a vowel: que -> qu'\nL'homme qu'elle aime. (The man she loves.)\n\nKey: QUI + verb vs QUE + subject + verb"},
+
+  {type:"teach",kind:"phrase",nl:"Le livre que je lis est intéressant.",en:"The book that I'm reading is interesting.",phonetic:"luh LEE-vruh kuh zhuh LEE",example:"A: Qu'est-ce que tu lis?\nB: Le livre que je lis est intéressant.\nA: C'est quel auteur?",exampleEn:"A: What are you reading?\nB: The book I'm reading is interesting.\nA: Which author is it?",note:"Que = direct object (le livre).\nQue je lis (que + subject + verb).\nI am reading THE BOOK = object."},
+
+  {type:"teach",kind:"phrase",nl:"La personne qu'il a rencontrée",en:"The person (whom) he met",phonetic:"lah pair-SOHN keel ah rahn-kohn-TRAY",example:"A: Qui est cette femme?\nB: C'est la personne qu'il a rencontrée hier.\nA: Elle a l'air sympathique.",exampleEn:"A: Who is this woman?\nB: She's the person he met yesterday.\nA: She seems nice.",note:"Qu' before a vowel (il).\nNote: in PC, past participle agrees\nwith the preceding direct object!\nRencontrée = feminine (la personne)."},
+
+  {type:"mc",q:"'Le gâteau ___ tu as fait est délicieux.' (object)",opts:["Qui","Que","Dont","Où"],ans:"Que",hint:"The cake THAT you made. 'Le gâteau' is the object of 'tu as fait'."},
+
+  {type:"fb",s:"La chanson ___ j'écoute est belle. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The song THAT I listen to. Object of the relative clause."},
+
+  {type:"mc",q:"After 'que', the next word is:",opts:["A verb directly","A subject (then a verb)","A preposition","An adjective"],ans:"A subject (then a verb)",hint:"Que + subject + verb. The clause still needs its own subject."},
+
+  {type:"fb",s:"Les amis ___ j'ai invités sont arrivés. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The friends THAT I invited. Object of 'invited'."},
+
+  {type:"match",pairs:[{nl:"qui + verb",en:"subject pronoun"},{nl:"que + subject + verb",en:"object pronoun"},{nl:"L'homme qui parle",en:"The man who speaks"},{nl:"L'homme que je vois",en:"The man I see"}]},
+
+  {type:"mc",q:"'Qu'' is used before:",opts:["Consonants","Vowels","Nothing","Plurals"],ans:"Vowels",hint:"Que + il = qu'il. Que + elle = qu'elle. Elision before letters like a, e, i, o, u types."},
+
+  {type:"fb",s:"C'est la robe ___ elle a achetée. (object)",a:"qu'",opts:["qu'","que","qui","dont"],hint:"The dress THAT she bought. Que before 'elle' = qu'."},
+
+  {type:"mc",q:"In English, 'that' can be omitted: 'The book I read.' In French:",opts:["Que can also be omitted","Que can NEVER be omitted","Only in informal French","Only in questions"],ans:"Que can NEVER be omitted",hint:"Le livre que je lis. You MUST include que in French."},
+
+  {type:"fb",s:"Le professeur ___ nous avons est excellent. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The teacher we have. Object of 'we have'."},
+
+  {type:"match",pairs:[{nl:"La fille qui chante",en:"who sings (subject)"},{nl:"La fille que je vois",en:"whom I see (object)"},{nl:"Le film qui est bon",en:"that is good (subject)"},{nl:"Le film que tu aimes",en:"that you like (object)"}]},
+
+  {type:"mc",q:"Test: 'L'homme ___ je connais.' Subject or object?",opts:["Subject -> qui","Object -> que","Either","Neither"],ans:"Object -> que",hint:"I know HIM. L'homme is the object of 'je connais'."},
+
+  {type:"fb",s:"Les fleurs ___ tu m'as offertes sont magnifiques. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The flowers you gave me. Object of 'offered'."},
+
+  {type:"mc",q:"Quick rule: if there's already a subject after the pronoun, use:",opts:["Qui","Que","Dont","Où"],ans:"Que",hint:"Que + subject + verb. If the verb needs a subject, use que."},
+
+  {type:"fb",s:"C'est le meilleur repas ___ j'aie mangé! (object)",a:"que",opts:["que","qui","dont","où"],hint:"The best meal I've ever eaten. Object of 'eaten'."},
+]},
+
+// ═══ L3: Dont (of which / whose) ═══
+{id:"fre18l3",title:"Dont",icon:"📎",xp:15,board:true,steps:[
+  {type:"intro",title:"Dont: of which, whose, about which",desc:"Dont replaces 'de + noun' in the relative clause. It covers 'whose' (possession), 'of which', 'about which', and verbs that use 'de' (parler de, avoir besoin de).",goals:["Use dont for de-expressions","Express possession with dont","Use dont with parler de, avoir besoin de"]},
+
+  {type:"tip",title:"Dont = de + noun",text:"DONT replaces anything with DE:\n\n1. Possession (whose):\nL'homme. La fille DE l'homme est belle.\n-> L'homme DONT la fille est belle.\n(The man whose daughter is beautiful.)\n\n2. Verbs with DE:\nJe parle DE ce film.\n-> Le film DONT je parle.\n(The film I'm talking about.)\n\n3. Expressions with DE:\nJ'ai besoin DE ce livre.\n-> Le livre DONT j'ai besoin.\n(The book I need.)"},
+
+  {type:"teach",kind:"phrase",nl:"Le film dont je parle",en:"The film I'm talking about",phonetic:"luh FEELM dohn zhuh PARL",example:"A: Quel film tu recommandes?\nB: Le film dont je parle s'appelle 'Amélie'.\nA: Ah oui, c'est un classique!",exampleEn:"A: Which film do you recommend?\nB: The film I'm talking about is called 'Amélie'.\nA: Oh yes, it's a classic!",note:"Parler DE -> dont.\nLe film DONT je parle.\nDont replaces 'de ce film'."},
+
+  {type:"teach",kind:"phrase",nl:"L'homme dont la femme est médecin",en:"The man whose wife is a doctor",phonetic:"lohm DOHN lah FAHM ay mayd-SAN",example:"A: Tu connais Pierre?\nB: C'est l'homme dont la femme est médecin.\nA: Oui, elle travaille à l'hôpital.",exampleEn:"A: Do you know Pierre?\nB: He's the man whose wife is a doctor.\nA: Yes, she works at the hospital.",note:"Dont for possession = whose.\nL'homme dont LA FEMME...\nNote: article stays after dont."},
+
+  {type:"mc",q:"'Le livre ___ j'ai besoin est à la bibliothèque.' (need = avoir besoin DE)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Avoir besoin DE -> which pronoun replaces a de-expression?"},
+
+  {type:"fb",s:"C'est la femme ___ le fils est acteur. (whose)",a:"dont",opts:["dont","qui","que","où"],hint:"The woman whose son is an actor. Possession requires the de-pronoun."},
+
+  {type:"mc",q:"Dont is used when the original sentence contains:",opts:["À + noun","De + noun","Sur + noun","Avec + noun"],ans:"De + noun",hint:"Which preposition triggers this relative pronoun? Think about what it replaces."},
+
+  {type:"fb",s:"L'histoire ___ il parle est vraie. (parler de)",a:"dont",opts:["dont","qui","que","où"],hint:"The story he's talking about. Parler de -> which pronoun handles de?"},
+
+  {type:"match",pairs:[{nl:"parler de -> dont",en:"talk about"},{nl:"avoir besoin de -> dont",en:"need"},{nl:"avoir peur de -> dont",en:"be afraid of"},{nl:"s'occuper de -> dont",en:"take care of"}]},
+
+  {type:"mc",q:"'L'enfant ___ la mère est professeur.' (whose mother)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Whose = possession = de-relationship. Which pronoun expresses belonging?"},
+
+  {type:"fb",s:"C'est le projet ___ je suis fier. (être fier de)",a:"dont",opts:["dont","qui","que","où"],hint:"The project I'm proud of. Être fier de -> which pronoun for de-verbs?"},
+
+  {type:"mc",q:"Which verbs/expressions use dont?",opts:["Only parler de","Only avoir besoin de","Any verb or expression requiring 'de'","Only possession"],ans:"Any verb or expression requiring 'de'",hint:"This pronoun covers ALL de-constructions: verbs, expressions, possession."},
+
+  {type:"fb",s:"Le pays ___ elle rêve est le Japon. (rêver de)",a:"dont",opts:["dont","qui","que","où"],hint:"The country she dreams of. Rêver de -> which pronoun for de-verbs?"},
+
+  {type:"match",pairs:[{nl:"Le film dont je parle",en:"about which I speak"},{nl:"L'homme dont la femme...",en:"whose wife..."},{nl:"Le livre dont j'ai besoin",en:"which I need"},{nl:"La chose dont j'ai peur",en:"which I fear"}]},
+
+  {type:"mc",q:"'C'est tout ce ___ j'ai besoin.' (everything I need)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Everything THAT I need. Avoir besoin de -> ce + the pronoun for de-verbs."},
+
+  {type:"fb",s:"La maison ___ le jardin est grand se trouve ici. (whose garden)",a:"dont",opts:["dont","qui","que","où"],hint:"The house whose garden is big. Possession needs the de-pronoun."},
+
+  {type:"mc",q:"Dont is often tricky because English uses different words:",opts:["True: whose, about which, of which","False: English always uses 'whose'","False: dont is rare","True: dont has no English equivalent"],ans:"True: whose, about which, of which",hint:"English varies (whose, about which, of which). French uses one single pronoun for all de-cases."},
+
+  {type:"fb",s:"C'est quelque chose ___ je me souviens. (se souvenir de)",a:"dont",opts:["dont","qui","que","où"],hint:"Something I remember. Se souvenir de -> which pronoun for de-verbs?"},
+]},
+
+// ═══ L4: Où (where / when) ═══
+{id:"fre18l4",title:"Où (lieu et temps)",icon:"📍",xp:15,board:true,steps:[
+  {type:"intro",title:"Où: where and when in relative clauses",desc:"Où replaces a place or time expression in the relative clause. It means 'where' (place) or 'when' (time). Much simpler than it sounds!",goals:["Use où for place relative clauses","Use où for time expressions","Distinguish où from the other pronouns"]},
+
+  {type:"tip",title:"Où = where / when",text:"PLACE:\nLa ville. J'habite dans cette ville.\n-> La ville OÙ j'habite.\n(The city WHERE I live.)\n\nTIME:\nLe jour. Il est arrivé ce jour-là.\n-> Le jour OÙ il est arrivé.\n(The day WHEN he arrived.)\n\nOù replaces: dans, à, sur + place\nOù replaces: time expressions (le jour, le moment, l'année...)"},
+
+  {type:"teach",kind:"phrase",nl:"La ville où j'habite",en:"The city where I live",phonetic:"lah VEEL oo zhah-BEET",example:"A: Tu habites où?\nB: La ville où j'habite est petite mais jolie.\nA: Comment elle s'appelle?",exampleEn:"A: Where do you live?\nB: The city where I live is small but pretty.\nA: What's it called?",note:"Où replaces the place (dans cette ville).\nLa ville OÙ j'habite = where I live.\nVery common in everyday French."},
+
+  {type:"teach",kind:"phrase",nl:"Le jour où je t'ai rencontré",en:"The day when I met you",phonetic:"luh ZHOOR oo zhuh tay rahn-kohn-TRAY",example:"A: Tu te souviens du jour où on s'est rencontrés?\nB: Le jour où je t'ai rencontré, il pleuvait!\nA: C'est vrai! Sous la pluie!",exampleEn:"A: Do you remember the day we met?\nB: The day I met you, it was raining!\nA: That's true! In the rain!",note:"Où for time = when.\nLe jour OÙ = the day when.\nAlso: le moment où, l'année où."},
+
+  {type:"mc",q:"'Le restaurant ___ nous avons mangé était super.' (place)",opts:["Qui","Que","Dont","Où"],ans:"Où",hint:"The restaurant WHERE we ate. Place = which pronoun?"},
+
+  {type:"fb",s:"C'est l'endroit ___ j'ai grandi. (place: where)",a:"où",opts:["où","qui","que","dont"],hint:"The place where I grew up."},
+
+  {type:"mc",q:"'Le moment ___ il est parti.' (time)",opts:["Qui","Que","Dont","Où"],ans:"Où",hint:"The moment WHEN he left. Time expression."},
+
+  {type:"fb",s:"L'année ___ il est né était 1990. (time: when)",a:"où",opts:["où","qui","que","dont"],hint:"The year when he was born. Time = which pronoun?"},
+
+  {type:"match",pairs:[{nl:"la ville où j'habite",en:"where I live (place)"},{nl:"le jour où il est venu",en:"when he came (time)"},{nl:"l'endroit où nous sommes",en:"where we are"},{nl:"le moment où j'ai compris",en:"when I understood"}]},
+
+  {type:"mc",q:"Où replaces expressions with:",opts:["De + noun","À/dans/sur + place, or time expressions","Only à + place","Only time"],ans:"À/dans/sur + place, or time expressions",hint:"Both place (where) and time (when) use the same pronoun."},
+
+  {type:"fb",s:"Le pays ___ elle est née est la France. (place)",a:"où",opts:["où","qui","que","dont"],hint:"The country where she was born."},
+
+  {type:"mc",q:"'Le café ___ tu vas souvent est fermé.' (place: go to)",opts:["Qui","Que","Dont","Où"],ans:"Où",hint:"The café WHERE you often go. Place."},
+
+  {type:"fb",s:"C'est la semaine ___ tout a changé. (time)",a:"où",opts:["où","qui","que","dont"],hint:"The week when everything changed. Time."},
+
+  {type:"match",pairs:[{nl:"le magasin où j'achète",en:"the store where I buy"},{nl:"l'heure où il part",en:"the time when he leaves"},{nl:"la maison où j'habite",en:"the house where I live"},{nl:"l'époque où j'étais jeune",en:"the time when I was young"}]},
+
+  {type:"mc",q:"Can 'quand' replace 'où' for time?",opts:["Yes, always","No, in relative clauses use où, not quand","Sometimes","Only in formal French"],ans:"No, in relative clauses use où, not quand",hint:"Le jour OÙ (not le jour quand). Quand is for questions/conjunctions."},
+
+  {type:"fb",s:"La rue ___ il habite est calme. (place)",a:"où",opts:["où","qui","que","dont"],hint:"The street where he lives. Place."},
+
+  {type:"mc",q:"D'où = from where. 'La ville ___ je viens.'",opts:["Où","D'où","De où","Dont"],ans:"D'où",hint:"The city FROM WHERE I come. De fuses with the location-marking pronoun."},
+
+  {type:"fb",s:"C'est le soir ___ nous nous sommes rencontrés. (time)",a:"où",opts:["où","qui","que","dont"],hint:"The evening when we met. Time expression."},
+]},
+
+// ═══ L5: Choosing the right pronoun ═══
+{id:"fre18l5",title:"Quel pronom choisir?",icon:"🧭",xp:15,board:true,steps:[
+  {type:"intro",title:"Choosing the right relative pronoun",desc:"The four relative pronouns each have a clear role: qui (subject), que (object), dont (de-construction), où (place/time). Master the decision process.",goals:["Apply the decision flowchart","Handle tricky cases","Build complex sentences with the right pronoun"]},
+
+  {type:"tip",title:"Decision flowchart",text:"Ask about the role in the relative clause:\n\n1. Is it the SUBJECT? -> QUI\n   (qui + verb)\n\n2. Is it the DIRECT OBJECT? -> QUE\n   (que + subject + verb)\n\n3. Does it replace DE + something? -> DONT\n   (parler de, besoin de, whose)\n\n4. Is it a PLACE or TIME? -> OÙ\n   (where/when)\n\nTrick: look at what follows!\nQUI + verb = subject\nQUE + subject + verb = object"},
+
+  {type:"mc",q:"'L'homme ___ je connais.' What role does l'homme play?",opts:["Subject -> qui","Direct object -> que","De-expression -> dont","Place -> où"],ans:"Direct object -> que",hint:"I know HIM. He is the object of 'je connais'."},
+
+  {type:"fb",s:"La femme ___ travaille ici est ma collègue. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The woman WHO works here. She is the subject."},
+
+  {type:"mc",q:"'Le restaurant ___ nous avons mangé.' Role of restaurant?",opts:["Subject","Object","Place","De-expression"],ans:"Place",hint:"We ate AT the restaurant. It names a location, not a subject or object."},
+
+  {type:"fb",s:"Le film ___ tu parles est bon. (parler de)",a:"dont",opts:["dont","qui","que","où"],hint:"The film you're talking about. Parler de -> which pronoun for de-verbs?"},
+
+  {type:"match",pairs:[{nl:"qui + verb",en:"subject"},{nl:"que + subject + verb",en:"object"},{nl:"dont",en:"de + something"},{nl:"où",en:"place or time"}]},
+
+  {type:"mc",q:"'Le moment ___ j'ai compris...' (time expression)",opts:["Qui","Que","Dont","Où"],ans:"Où",hint:"The moment WHEN I understood. Time."},
+
+  {type:"fb",s:"Les personnes ___ j'ai invitées sont arrivées. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The people I invited. Object of 'invited'."},
+
+  {type:"mc",q:"'L'enfant ___ les parents sont absents.' (whose parents)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Whose parents = de-relationship = possession."},
+
+  {type:"fb",s:"C'est le pays ___ je rêve de visiter. (subject of rêve? No, place!)",a:"que",opts:["que","qui","dont","où"],hint:"The country I dream of visiting. Object of 'visiter'."},
+
+  {type:"match",pairs:[{nl:"La fille qui chante",en:"who sings (subject)"},{nl:"La fille que je vois",en:"whom I see (object)"},{nl:"La fille dont je parle",en:"about whom I speak"},{nl:"La ville où je vis",en:"where I live"}]},
+
+  {type:"mc",q:"'C'est ce ___ j'aime.' (what I like = the thing THAT I like)",opts:["Que","Qui","Dont","Où"],ans:"Que",hint:"Ce que = what (thing I like). Object."},
+
+  {type:"fb",s:"L'école ___ j'ai étudié était excellente. (place)",a:"où",opts:["où","qui","que","dont"],hint:"The school WHERE I studied. Place."},
+
+  {type:"mc",q:"Tricky: 'L'homme ___ est venu.' vs 'L'homme ___ j'ai vu.'",opts:["Both qui","Both que","qui / que","que / qui"],ans:"qui / que",hint:"Who came (subject) vs whom I saw (object)."},
+
+  {type:"fb",s:"C'est tout ce ___ tu as besoin. (need = avoir besoin de)",a:"dont",opts:["dont","que","qui","où"],hint:"Everything you need. Avoir besoin de -> the pronoun for de-verbs."},
+
+  {type:"mc",q:"Ce qui = what (subject), ce que = what (object), ce dont = ___.",opts:["What (de-expression)","Where","When","Why"],ans:"What (de-expression)",hint:"The third ce-form covers de-constructions like avoir besoin de."},
+
+  {type:"fb",s:"La raison pour ___ il est parti est mystérieuse. (for which)",a:"laquelle",opts:["laquelle","qui","que","dont"],hint:"The reason FOR WHICH he left. Pour + the gender-agreeing pronoun (fem.)."},
+
+  {type:"mc",q:"You now have four tools for building complex sentences:",opts:["Only qui","Qui and que","Qui, que, dont, où","Qui, que, dont, où, lequel"],ans:"Qui, que, dont, où, lequel",hint:"Five actually: the four basic ones plus the variable-form preposition pronoun."},
+]},
+
+// ═══ L6: Ce qui, ce que, ce dont ═══
+{id:"fre18l6",title:"Ce qui, ce que, ce dont",icon:"💭",xp:15,board:true,steps:[
+  {type:"intro",title:"What: ce qui, ce que, ce dont",desc:"When the antecedent is vague ('what', 'the thing that'), French uses ce qui (subject), ce que (object), ce dont (de-expression). These are essential for fluent speech.",goals:["Use ce qui for 'what' (subject)","Use ce que for 'what' (object)","Use ce dont for 'what' (de-expression)"]},
+
+  {type:"tip",title:"Ce qui / ce que / ce dont",text:"CE QUI = what (subject of relative clause)\nCe qui est important, c'est la santé.\n(WHAT is important is health.)\n\nCE QUE = what (object of relative clause)\nJe ne sais pas ce que tu veux.\n(I don't know WHAT you want.)\n\nCE DONT = what (de-expression)\nC'est ce dont j'ai besoin.\n(That's WHAT I need.)\n\nRule: same as qui/que/dont but with 'ce' for vague/general things."},
+
+  {type:"teach",kind:"phrase",nl:"Ce qui m'intéresse, c'est...",en:"What interests me is...",phonetic:"suh KEE man-tay-RESS say",example:"A: Qu'est-ce qui t'intéresse?\nB: Ce qui m'intéresse, c'est la musique.\nA: Tu joues d'un instrument?",exampleEn:"A: What interests you?\nB: What interests me is music.\nA: Do you play an instrument?",note:"Ce qui = what (subject).\nCe qui m'intéresse = what interests me.\nCe qui + verb (subject role)."},
+
+  {type:"teach",kind:"phrase",nl:"Je ne sais pas ce que tu veux.",en:"I don't know what you want.",phonetic:"zhuh nuh SAY pah suh kuh tew VUH",example:"A: Je ne sais pas ce que tu veux pour ton anniversaire.\nB: Surprise-moi!\nA: D'accord!",exampleEn:"A: I don't know what you want for your birthday.\nB: Surprise me!\nA: OK!",note:"Ce que = what (object).\nCe que tu veux = what you want.\nCe que + subject + verb."},
+
+  {type:"mc",q:"'___ est important, c'est d'essayer.' (what = subject)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce qui",hint:"What IS important. Subject of 'is important'."},
+
+  {type:"fb",s:"Dis-moi ___ ___ tu penses. (what you think, object)",a:["ce","que"],opts:["ce","que","qui","dont"],hint:"Tell me what you think. Object: ce que + subject + verb."},
+
+  {type:"mc",q:"'C'est ___ j'ai besoin.' (what I need, de-expression)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce dont",hint:"Avoir besoin DE -> ce + the pronoun that handles de-expressions."},
+
+  {type:"fb",s:"Je comprends ___ ___ se passe. (what is happening, subject)",a:["ce","qui"],opts:["ce","qui","que","dont"],hint:"I understand what's happening. Subject = ce + subject-pronoun."},
+
+  {type:"match",pairs:[{nl:"ce qui + verb",en:"what (subject)"},{nl:"ce que + subject + verb",en:"what (object)"},{nl:"ce dont + subject + verb",en:"what (de-expr.)"},{nl:"tout ce que",en:"everything that"}]},
+
+  {type:"mc",q:"'Tu sais ___ me rend heureux?' (what makes me happy, subject)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce qui",hint:"What MAKES me happy. The subject form: ce + subject-pronoun + verb."},
+
+  {type:"fb",s:"C'est exactement ___ ___ j'ai peur. (what I fear, de)",a:["ce","dont"],opts:["ce","dont","qui","que"],hint:"Exactly what I'm afraid of. Avoir peur de -> ce + de-pronoun."},
+
+  {type:"mc",q:"'Fais ___ tu veux.' (what you want, object)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce que",hint:"Do what you want. Object: what you want."},
+
+  {type:"fb",s:"Tout ___ ___ brille n'est pas or. (all that glitters, subject)",a:["ce","qui"],opts:["ce","qui","que","dont"],hint:"All that glitters is not gold. Subject: glitters."},
+
+  {type:"match",pairs:[{nl:"ce qui est beau",en:"what is beautiful"},{nl:"ce que je veux",en:"what I want"},{nl:"ce dont j'ai envie",en:"what I feel like"},{nl:"ce que tu dis",en:"what you say"}]},
+
+  {type:"mc",q:"'Je ne comprends pas ___ tu dis.' (what you say, object)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce que",hint:"I don't understand what you're saying. Object."},
+
+  {type:"fb",s:"___ ___ m'énerve, c'est le bruit. (what annoys me, subject)",a:["Ce","qui"],opts:["Ce","qui","que","dont"],hint:"What annoys me is noise. Subject of 'annoys'."},
+
+  {type:"mc",q:"Ce qui, ce que, ce dont follow the same logic as:",opts:["Qui, que, dont (just with 'ce' added)","Completely different rules","Qui and que only","None of the above"],ans:"Qui, que, dont (just with 'ce' added)",hint:"Same subject/object/de rules. 'Ce' adds the 'what' meaning."},
+
+  {type:"fb",s:"Raconte-moi ___ ___ s'est passé. (what happened, subject)",a:["ce","qui"],opts:["ce","qui","que","dont"],hint:"Tell me what happened. Subject of 'happened'."},
+]},
+
+// ═══ L7: Building complex sentences ═══
+{id:"fre18l7",title:"Phrases complexes",icon:"🏗️",xp:15,board:true,steps:[
+  {type:"intro",title:"Building complex sentences",desc:"Combine relative pronouns with everything you've learned to build sophisticated French sentences. Multiple clauses, nested structures, and natural flow.",goals:["Build multi-clause sentences","Combine relative pronouns with tenses","Write naturally complex French"]},
+
+  {type:"teach",kind:"phrase",nl:"La femme que j'ai rencontrée hier, qui travaille à la banque, est très sympa.",en:"The woman I met yesterday, who works at the bank, is very nice.",phonetic:"lah FAHM kuh zhay rahn-kohn-TRAY ee-AIR kee trah-VIE ah lah BAHNK ay tray SAN-pah",example:"A: Tu connais cette femme?\nB: C'est la femme que j'ai rencontrée hier. Elle travaille à la banque.\nA: Elle a l'air sympa!",exampleEn:"A: Do you know that woman?\nB: She's the woman I met yesterday. She works at the bank.\nA: She seems nice!",note:"Two relative clauses in one sentence.\nQue = object (I met her).\nQui = subject (she works)."},
+
+  {type:"teach",kind:"phrase",nl:"C'est la raison pour laquelle je suis ici.",en:"That's the reason I'm here.",phonetic:"say lah ray-ZON poor lah-KEL zhuh swee ee-SEE",example:"A: Pourquoi tu es venu?\nB: C'est la raison pour laquelle je suis ici.\nA: Explique-moi!",exampleEn:"A: Why did you come?\nB: That's the reason I'm here.\nA: Explain to me!",note:"Pour + laquelle (for which).\nUsed with prepositions that aren't de.\nLaquelle = feminine (la raison)."},
+
+  {type:"mc",q:"'L'ami ___ je t'ai parlé ___ habite à Lyon.' (about whom / who)",opts:["dont / qui","que / qui","dont / que","qui / que"],ans:"dont / qui",hint:"Parler de -> de-pronoun. Habite (subject) -> subject-pronoun."},
+
+  {type:"fb",s:"Le village ___ je suis né est très petit. (place)",a:"où",opts:["où","qui","que","dont"],hint:"The village where I was born. Place."},
+
+  {type:"mc",q:"'C'est le film ___ m'a le plus touché ___ j'ai vu cette année.'",opts:["qui / que","que / qui","dont / que","où / qui"],ans:"qui / que",hint:"The film that touched me (subject) that I saw (object)."},
+
+  {type:"fb",s:"La maison ___ les murs sont blancs est à vendre. (whose walls)",a:"dont",opts:["dont","qui","que","où"],hint:"The house whose walls are white. Possession = de-pronoun."},
+
+  {type:"match",pairs:[{nl:"La ville où je vis",en:"place"},{nl:"L'ami que j'ai vu",en:"object"},{nl:"Le projet dont je parle",en:"de-expression"},{nl:"La fille qui chante",en:"subject"}]},
+
+  {type:"mc",q:"For prepositions other than 'de' (pour, avec, sur), use:",opts:["Dont","Où","Lequel/laquelle","Qui only"],ans:"Lequel/laquelle",hint:"La raison pour ___. L'outil avec ___. The gender-agreeing pronoun."},
+
+  {type:"fb",s:"Tout ___ ___ il a dit est vrai. (everything that, object)",a:["ce","qu'"],opts:["ce","qu'","qui","dont"],hint:"Everything he said is true. Object (he said it)."},
+
+  {type:"mc",q:"'La personne avec ___ je travaille est compétente.'",opts:["Qui","Que","Laquelle","Dont"],ans:"Laquelle",hint:"With whom = avec + which? The preposition needs the variable-form pronoun (fem.)."},
+
+  {type:"fb",s:"Le jour ___ tout a changé était un mardi. (time)",a:"où",opts:["où","qui","que","dont"],hint:"The day when everything changed. Time."},
+
+  {type:"match",pairs:[{nl:"pour lequel/laquelle",en:"for which"},{nl:"avec lequel/laquelle",en:"with which"},{nl:"sur lequel/laquelle",en:"on which"},{nl:"dans lequel/laquelle",en:"in which"}]},
+
+  {type:"mc",q:"'C'est quelque chose ___ je suis très fier.' (de-expr.)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Être fier DE -> the pronoun that replaces de-expressions."},
+
+  {type:"fb",s:"L'hôtel ___ ___ nous avons dormi était confortable. (in which)",a:["dans","lequel"],opts:["dans","lequel","où","que"],hint:"The hotel in which we slept. Preposition + gender-agreeing pronoun."},
+
+  {type:"mc",q:"Où can often replace dans lequel/dans laquelle:",opts:["Never","Yes, for places","Only in formal French","Only for time"],ans:"Yes, for places",hint:"L'hôtel OÙ nous avons dormi = l'hôtel dans lequel..."},
+
+  {type:"fb",s:"La musique ___ j'écoute me rend heureux. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The music I listen to. Object of 'listen to'."},
+
+  {type:"mc",q:"Complex sentences with relative pronouns make your French sound:",opts:["More childish","More natural and sophisticated","More confusing","More English"],ans:"More natural and sophisticated",hint:"Connecting ideas smoothly = mature language."},
+]},
+
+// ═══ L8: Review ═══
+{id:"fre18l8",title:"Révision",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"Relative pronouns mastery",desc:"Final review of qui, que, dont, où, ce qui, ce que, ce dont, and lequel. Test your ability to choose the right pronoun every time.",goals:["Choose correctly every time","Build complex sentences","Handle all pronoun types"]},
+
+  {type:"tip",title:"Complete reference",text:"QUI: subject (qui + verb)\nQUE: direct object (que + subj. + verb)\nDONT: de-expression (parler de, besoin de, whose)\nOÙ: place or time (where/when)\n\nCE QUI: what (subject)\nCE QUE: what (object)\nCE DONT: what (de-expression)\n\nLEQUEL: after prepositions (pour, avec, sur...)\nForms: lequel, laquelle, lesquels, lesquelles"},
+
+  {type:"mc",q:"'L'homme ___ parle fort est mon oncle.' (subject)",opts:["Qui","Que","Dont","Où"],ans:"Qui",hint:"WHO speaks. Subject of the relative clause."},
+
+  {type:"fb",s:"La chanson ___ tu chantes est jolie. (object)",a:"que",opts:["que","qui","dont","où"],hint:"The song you're singing. Object of 'sing'."},
+
+  {type:"mc",q:"'Le livre ___ j'ai besoin est épuisé.' (de-expression)",opts:["Qui","Que","Dont","Où"],ans:"Dont",hint:"Avoir besoin de -> the pronoun for de-expressions."},
+
+  {type:"fb",s:"La ville ___ il est né est petite. (place)",a:"où",opts:["où","qui","que","dont"],hint:"The city where he was born. Place."},
+
+  {type:"match",pairs:[{nl:"qui",en:"subject (who/that)"},{nl:"que",en:"object (whom/that)"},{nl:"dont",en:"whose/of which"},{nl:"où",en:"where/when"}]},
+
+  {type:"mc",q:"'___ m'énerve, c'est l'injustice.' (what annoys me, subject)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce qui",hint:"What annoys me. Subject of the clause = ce + subject-pronoun."},
+
+  {type:"fb",s:"Dis-moi ___ ___ tu as fait. (what, object)",a:["ce","que"],opts:["ce","que","qui","dont"],hint:"Tell me what you did. Object = ce que."},
+
+  {type:"mc",q:"'C'est la raison ___ il est parti.' (de-expression: reason)",opts:["Qui","Que","Dont","Pour laquelle"],ans:"Pour laquelle",hint:"The reason FOR WHICH. Pour + laquelle."},
+
+  {type:"fb",s:"Le moment ___ j'ai compris était magique. (time)",a:"où",opts:["où","qui","que","dont"],hint:"The moment when I understood. Time."},
+
+  {type:"match",pairs:[{nl:"ce qui",en:"what (subject)"},{nl:"ce que",en:"what (object)"},{nl:"ce dont",en:"what (de-expr.)"},{nl:"lequel",en:"after prepositions"}]},
+
+  {type:"mc",q:"'Tout ___ brille n'est pas or.' (subject: shines)",opts:["Ce qui","Ce que","Ce dont","Ce où"],ans:"Ce qui",hint:"All that SHINES. Subject of 'shines'."},
+
+  {type:"fb",s:"La personne ___ le chien aboie est le facteur. (whose dog)",a:"dont",opts:["dont","qui","que","où"],hint:"The person whose dog barks. Possession = the de-pronoun."},
+
+  {type:"mc",q:"Quick test: 'Le film ___j'ai vu.' Subject or object?",opts:["Subject -> qui","Object -> que","De-expression -> dont","Place -> où"],ans:"Object -> que",hint:"I saw THE FILM. Film is the object."},
+
+  {type:"fb",s:"___ ___ j'ai envie, c'est de voyager. (what I feel like, de)",a:["Ce","dont"],opts:["Ce","dont","qui","que"],hint:"What I feel like. Avoir envie de -> ce + the de-pronoun."},
+
+  {type:"mc",q:"You've mastered relative pronouns! They let you:",opts:["Only describe people","Build complex, connected sentences","Only ask questions","Only write formally"],ans:"Build complex, connected sentences",hint:"Connecting ideas = fluent, sophisticated French."},
+
+  {type:"fb",s:"C'est le professeur ___ m'a appris le français. (subject)",a:"qui",opts:["qui","que","dont","où"],hint:"The teacher who taught me French. Subject."},
+
+  {type:"mc",q:"How many relative pronoun types do you now know?",opts:["Two","Four basic + ce forms + lequel","Only three","One"],ans:"Four basic + ce forms + lequel",hint:"Qui, que, dont, où + ce qui/que/dont + lequel family."},
+]},
+]},
+
 ];
