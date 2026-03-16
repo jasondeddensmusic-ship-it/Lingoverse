@@ -682,24 +682,137 @@ Dutch is PRODUCTION-READY. Every quality gate has been passed:
 
 **Dutch needs NO further work** until dialogue enrichment uplift (currently 73%, target 90%+) or A1-A2 retroactive standards pass.
 
-### NEXT (Priority Order)
+### NEXT: German COMPLETE A1-B2 Build (D103)
 
-1. **German COMPLETE A1-B2 Build**
-   - 5 skeleton units exist in `units-other.js`, below density standard. DELETE and rebuild from scratch.
-   - Full A1-B2 build using Goethe-Institut A1/B1 + telc B2 references
-   - Apply all pipeline rules from day one: Rule 7 density enforcement, Rule 8 quality gates, Rule 9 sequential workflow
-   - German-specific: der/die/das article system (3 genders + plural), case system (nominative/accusative/dative/genitive), Konjunktiv II, separable/inseparable prefixes
-   - Estimate: ~30 units (A1: 6-8, A2: 6-8, B1: 8-10, B2: 8-10). Germanic family = cognate-heavy for English speakers.
-   - File: Start in `units-other.js`, move to `units-german.js` once 5+ real units exist
-   - Foundations needed: LANG_BLUEPRINT (partially exists), FK_PLAYTHROUGH, FK_GATE_QUIZ
+**THIS IS THE NEXT SESSION'S TASK.** Build complete German A1-B2 from scratch. DELETE the 5 skeleton units entirely. Treat German as a brand new language.
 
-2. **French A1 Build**
+#### What EXISTS (infrastructure ready, DO NOT rebuild):
+| Component | File | Lines | Status |
+|-----------|------|-------|--------|
+| LANG_META | `src/data/metadata.js` | ~298 | COMPLETE: scriptType, framework, ttsLocale:"de-DE", specialRules |
+| LANG_BLUEPRINT | `src/data/metadata.js` | ~331-343 | COMPLETE: 4-case system, V2 word order, 3-way gender, compounds |
+| CULTURE_PACKS | `src/data/metadata.js` | ~364 | COMPLETE: food, customs, cities, situations, politeness |
+| VOCAB pilot | `src/data/vocabulary.js` | ~1597-1600 | 4 lexemes only (gut, Haus, essen, trinken). Expand as units are built. |
+| Import/spread | `src/lingoverse.jsx` | lines 9, 8121 | WORKING: `import otherUnits` + `...otherUnits` in UNITS array |
+
+#### What MUST BE BUILT from scratch:
+| Component | File | Action |
+|-----------|------|--------|
+| FOUNDATIONS_BY_LANG["de"] | `src/data/foundations.js` | Build knowledge grid: alphabet, umlauts (ä/ö/ü), Eszett (ß), vowel length, consonant traps (ch, z, w, v). Dutch has 6 sections/24 items as benchmark. |
+| FK_PLAYTHROUGH["de"] | `src/data/foundations.js` | Build interactive playthrough: ~15-20 lessons covering pronunciation, umlauts, Eszett, consonant pronunciation (z=/ts/, w=/v/, v=/f/), diphthongs. Dutch has 22 lessons as benchmark. |
+| FK_GATE_QUIZ["de"] | `src/data/foundations.js` | Build pass/fail gate quiz to unlock Unit 1. Korean model as reference. |
+| German units (A1-B2) | `src/data/units-german.js` | NEW FILE. ~30 units, ~240 lessons, ~5,000+ steps. See curriculum plan below. |
+
+#### What MUST BE DELETED:
+- **All 5 skeleton German units** in `src/data/units-other.js` (lines 6-333). These are below standard, missing track values, have wrong field names, P22c violations. NUKE THEM.
+- After deletion, `units-other.js` contains only Arabic units. Update the file header comment accordingly.
+- Create `src/data/units-german.js` as a new file, following `units-dutch.js` pattern:
+  ```javascript
+  // src/data/units-german.js — German (lang:"de") curriculum units
+  export default [
+    // units go here
+  ];
+  ```
+- Update `src/lingoverse.jsx`:
+  - Add: `import germanUnits from './data/units-german.js';` (after line 9)
+  - Change UNITS spread (line ~8121): `const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...otherUnits];`
+
+#### Unit Structure (MUST follow this format):
+```javascript
+{n:1,lang:"de",track:"v1",title:"Willkommen!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
+  {id:"deu1l1",title:"Hallo!",icon:"👋",xp:15,board:true,steps:[
+    {type:"intro",title:"Hallo!",desc:"...",goals:[...]},
+    {type:"teach",kind:"word",nl:"Hallo",en:"Hello",phonetic:"HAH-loh",example:"A: Hallo!\nB: Hallo! Wie geht's?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal greeting."},
+    // ... 18+ steps per lesson (P43)
+  ]},
+]}
+```
+**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"de"`, lesson IDs as `deu{N}l{N}`.
+**NOTE**: The `nl` field is used for the TARGET language word (German), NOT literally "Nederlands". This is the engine convention across all languages.
+
+#### German Curriculum Plan (~30 units):
+
+**A1 (Units 1-8): Survival German** — Goethe-Institut A1 reference
+- U1: Greetings, goodbyes, formal/informal (du/Sie)
+- U2: Self-introduction, nationality, languages, numbers 0-20
+- U3: Family, possessives (mein/dein/sein/ihr), haben + sein
+- U4: Food & drink, ordering, articles (der/die/das) introduction
+- U5: Daily routine, time, separable verbs (aufstehen, anfangen)
+- U6: Home & rooms, furniture, es gibt + accusative case
+- U7: Directions, transport, modal verbs (können, müssen, wollen)
+- U8: Shopping, clothing, colors, numbers to 1000, accusative practice
+
+**A2 (Units 9-16): Expanding** — Goethe-Institut A2 reference
+- U9: Past tense (Perfekt with haben), regular verbs, time expressions
+- U10: Past tense (Perfekt with sein), irregular verbs, travel
+- U11: Dative case introduction, prepositions (mit, zu, bei, nach, von)
+- U12: Wechselpräpositionen (in, an, auf, etc. + acc/dat), location vs direction
+- U13: Comparatives & superlatives, adjective declension (strong/weak)
+- U14: Nebensätze (weil, dass, wenn, ob), verb-final word order
+- U15: Reflexive verbs, daily routine advanced, health & body
+- U16: Future (werden), plans, Konjunktiv II basics (würde, hätte, wäre)
+
+**B1 (Units 17-24): Independent** — Goethe-Institut B1 / telc B1 reference
+- U17: Präteritum (narrative past), storytelling, als/wenn distinction
+- U18: Passive voice (werden + PP), news language, processes
+- U19: Relative clauses (der/die/das as relative pronouns), complex sentences
+- U20: Genitive case, formal writing, n-Deklination
+- U21: Indirect speech (Konjunktiv I basics), reported speech
+- U22: Infinitive constructions (um...zu, ohne...zu, statt...zu)
+- U23: Advanced connectors (obwohl, trotzdem, deshalb, außerdem, sowohl...als auch)
+- U24: German work culture, formal register, Bewerbung (applications)
+
+**B2 (Units 25-30): Proficient** — telc B2 / Goethe B2 reference
+- U25: Konjunktiv II advanced (irrealis, wishes, polite requests), als ob
+- U26: Participial constructions, nominalization, academic register
+- U27: Advanced passive (Zustandspassiv, Vorgangspassiv), sein vs werden passive
+- U28: Discourse markers, essay structure, formal argumentation
+- U29: Proverbs, idioms, figurative language, literary German
+- U30: TestDaF/telc B2 prep, comprehensive review, C1 preview
+
+#### German-Specific Teaching Priorities:
+1. **der/die/das from day one.** Every noun teach card MUST include the article. Use color coding: der=blue, die=coral, das=gold (matching the 3-gender system). Define article colors in ARTICLE_COLORS in vocabulary.js if not already there.
+2. **Cases introduced gradually.** Nominative in A1, Accusative in A1 (U6-U8), Dative in A2 (U11-U12), Genitive in B1 (U20). Never dump all 4 at once.
+3. **V2 word order early.** Verb-second in main clauses from U1. Verb-final in subclauses from U14.
+4. **Separable verbs need special treatment.** aufstehen = auf|stehen. The prefix jumps to the end. Teach this explicitly in U5.
+5. **Cognates are a superpower.** English-German cognates should be flagged with the `cognate` field on teach cards. Germanic family = massive advantage for English speakers.
+6. **Compound nouns.** German compounds are limitless (Donaudampfschifffahrtsgesellschaft). Teach the decomposition pattern from A2 onward.
+
+#### Build Workflow (MANDATORY):
+Follow the Korean playbook with the D102 audit workflow baked in:
+
+1. **Build foundations first** (FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ)
+2. **Build units level by level** (A1 → A2 → B1 → B2), never skip ahead
+3. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps for German). NEVER batch-build thin skeletons.
+4. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level before starting the next.
+5. **Rule 9: Sequential content agents + parallel validators.** One content agent per unit batch, validator after each.
+6. **Create `src/data/units-german.js`** as a new file immediately. Do NOT build in `units-other.js`.
+7. **Build with dialogues from day one** (A:/B: format on teach cards). Don't build bare cards for later enrichment.
+8. **Commit and push after each unit is complete.** Small commits, not megadumps.
+
+#### Session Execution Plan (for the next agent):
+1. Delete German skeleton from `units-other.js` (lines 6-333)
+2. Create `src/data/units-german.js` with empty export
+3. Update imports in `src/lingoverse.jsx`
+4. Build FOUNDATIONS_BY_LANG["de"] in `src/data/foundations.js`
+5. Build FK_PLAYTHROUGH["de"] in `src/data/foundations.js`
+6. Build FK_GATE_QUIZ["de"] in `src/data/foundations.js`
+7. Build A1 units (U1-U8), quality audit after
+8. Build A2 units (U9-U16), quality audit after
+9. Build B1 units (U17-U24), quality audit after
+10. Build B2 units (U25-U30), quality audit after
+11. Final cross-level validation sweep
+12. Update CLAUDE.md with German build status
+
+### AFTER German (Priority Order)
+
+2. **French A1-B2 Build**
    - Infrastructure exists (LANG_META, VOCAB entries, CULTURE_PACKS)
-   - Needs: LANG_BLUEPRINT, foundations playthrough, gate quiz, then A1 units
+   - Needs: LANG_BLUEPRINT, foundations playthrough, gate quiz, then A1-B2 units
 
-3. **Spanish A1 Build**
+3. **Spanish A1-B2 Build**
    - Infrastructure exists (LANG_META, VOCAB entries)
-   - Same path as French: LANG_BLUEPRINT, foundations, A1
+   - Same path as French: LANG_BLUEPRINT, foundations, A1-B2
 
 ### Workflow for All Future Content
 Every language expansion MUST follow the Korean playbook:
