@@ -2908,4 +2908,326 @@ export default [
 ]},
 ]},
 
+// ═══════════════════════════════════════════════
+//  UNIT 10 — Le passé composé (être)
+//  Level: A2.2 | Lessons: 8 | Track: v1
+// ═══════════════════════════════════════════════
+
+{n:10,lang:"fr",track:"v1",title:"Le passé composé (être)",sub:"Past with être & Agreement",icon:"🚶",level:"A2.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Être au passé composé ═══
+{id:"fre10l1",title:"Être au passé",icon:"🔀",xp:15,board:true,steps:[
+  {type:"intro",title:"Passé composé with être",desc:"Some verbs use être instead of avoir as the helper. These are mostly verbs of movement or state change. With être, the past participle AGREES with the subject.",goals:["Know why some verbs use être","Understand participle agreement","Learn the first être verbs"]},
+
+  {type:"tip",title:"Avoir vs être: the key difference",text:"AVOIR: most verbs. Participle never changes.\nJ'ai mangé. Elle a mangé. (same form)\n\nÊTRE: movement/state change verbs.\nParticiple AGREES with subject (like an adjective).\nJe suis allé. (masculine)\nJe suis allée. (feminine)\nIls sont allés. (masc. plural)\nElles sont allées. (fem. plural)"},
+
+  {type:"teach",kind:"phrase",nl:"je suis allé(e)",en:"I went",phonetic:"zhuh swee ah-LAY",example:"A: Tu es allé où hier?\nB: Je suis allé au cinéma.\nA: Tu as aimé le film?",exampleEn:"A: Where did you go yesterday?\nB: I went to the cinema.\nA: Did you like the movie?",note:"Aller uses être. Je suis = I am.\nMale speaker: allé. Female: allée.\nThe -e is for feminine agreement."},
+
+  {type:"teach",kind:"phrase",nl:"elle est arrivée",en:"she arrived",phonetic:"el ay tah-ree-VAY",example:"A: Marie est arrivée?\nB: Oui, elle est arrivée il y a cinq minutes.\nA: Parfait!",exampleEn:"A: Has Marie arrived?\nB: Yes, she arrived five minutes ago.\nA: Perfect!",note:"Arriver uses être.\nElle = feminine, so arrivée has -ée.\nMasculine: il est arrivé (no extra -e)."},
+
+  {type:"teach",kind:"phrase",nl:"il est parti",en:"he left / he departed",phonetic:"eel ay par-TEE",example:"A: Pierre est là?\nB: Non, il est parti à huit heures.\nA: Dommage!",exampleEn:"A: Is Pierre here?\nB: No, he left at eight.\nA: Too bad!",note:"Partir uses être.\nIl = masculine: parti.\nElle est partie (feminine: add -e)."},
+
+  {type:"teach",kind:"phrase",nl:"nous sommes restés",en:"we stayed",phonetic:"noo som res-TAY",example:"A: Vous êtes sortis hier soir?\nB: Non, nous sommes restés à la maison.\nA: C'était bien quand même?",exampleEn:"A: Did you go out last night?\nB: No, we stayed at home.\nA: Was it nice anyway?",note:"Rester uses être.\nNous (mixed/masc.) = restés (-s for plural).\nNous (all fem.) = restées."},
+
+  {type:"mc",q:"With être verbs, the past participle:",opts:["Never changes","Agrees with the subject","Agrees with the object","Always ends in -é"],ans:"Agrees with the subject",hint:"Like an adjective: it matches gender and number of the subject."},
+
+  {type:"fb",s:"Elle ___ allée au marché.",a:"est",opts:["est","a","ai","sont"],hint:"She went. Aller uses which helper verb?"},
+
+  {type:"mc",q:"'Il est arrivé' vs 'Elle est arrivée': the difference is:",opts:["Different verbs","Different tenses","Gender agreement on participle","Different meanings"],ans:"Gender agreement on participle",hint:"Feminine adds -e to the participle. The verb is the same."},
+
+  {type:"fb",s:"Nous ___ restés à la maison.",a:"sommes",opts:["sommes","avons","êtes","sont"],hint:"We stayed. Which form of être for nous?"},
+
+  {type:"match",pairs:[{nl:"je suis allé(e)",en:"I went"},{nl:"elle est arrivée",en:"she arrived"},{nl:"il est parti",en:"he left"},{nl:"nous sommes restés",en:"we stayed"}]},
+
+  {type:"mc",q:"Why does 'je suis allée' have an extra -e?",opts:["It is plural","The speaker is feminine","It is formal","It is a question"],ans:"The speaker is feminine",hint:"With être, the participle matches the subject's gender."},
+
+  {type:"fb",s:"Il est ___ à neuf heures. (to leave)",a:"parti",opts:["parti","partie","partis","parties"],hint:"He left. Masculine singular: no extra letters."},
+
+  {type:"mc",q:"Which helper verb does 'aller' use?",opts:["Avoir","Être","Both","Neither"],ans:"Être",hint:"Aller is a movement verb. Movement verbs use this helper."},
+
+  {type:"fb",s:"Elles ___ arrivées en retard.",a:"sont",opts:["sont","ont","sommes","êtes"],hint:"They (f.) arrived. Elles + which form of être?"},
+
+  {type:"match",pairs:[{nl:"je suis",en:"I am (helper)"},{nl:"tu es",en:"you are (helper)"},{nl:"il/elle est",en:"he/she is (helper)"},{nl:"ils/elles sont",en:"they are (helper)"}]},
+
+  {type:"mc",q:"'Nous sommes partis' means:",opts:["We left","We arrived","We stayed","We went"],ans:"We left",hint:"Partir = to leave. Sommes + participle = past with être."},
+
+  {type:"fb",s:"Tu ___ allé(e) au cinéma hier?",a:"es",opts:["es","est","as","ai"],hint:"You (informal) went? Tu + which form of être?"},
+]},
+
+// ═══ L2: Les verbes de mouvement ═══
+{id:"fre10l2",title:"DR MRS VANDERTRAMP",icon:"🚪",xp:15,board:true,steps:[
+  {type:"intro",title:"The être verbs: DR MRS VANDERTRAMP",desc:"There's a famous mnemonic for the verbs that use être: DR MRS VANDERTRAMP. Each letter stands for a verb of movement or state change.",goals:["Learn the mnemonic","Know all major être verbs","Use them in passé composé"]},
+
+  {type:"tip",title:"DR MRS VANDERTRAMP",text:"D: Devenir (to become)\nR: Revenir (to come back)\nM: Mourir (to die)\nR: Retourner (to return)\nS: Sortir (to go out)\nV: Venir (to come)\nA: Aller (to go)\nN: Naître (to be born)\nD: Descendre (to go down)\nE: Entrer (to enter)\nR: Rentrer (to come home)\nT: Tomber (to fall)\nR: Rester (to stay)\nA: Arriver (to arrive)\nM: Monter (to go up)\nP: Partir (to leave)\n\nAll use ÊTRE in passé composé."},
+
+  {type:"teach",kind:"word",nl:"venir",en:"to come (past: venu)",phonetic:"vuh-NEER (vuh-NEW)",example:"A: Marie est venue hier?\nB: Oui, elle est venue avec Pierre.\nA: Ils sont restés longtemps?",exampleEn:"A: Did Marie come yesterday?\nB: Yes, she came with Pierre.\nA: Did they stay long?",note:"Venu/venue/venus/venues.\nIrregular participle.\nDevenir -> devenu, revenir -> revenu."},
+
+  {type:"teach",kind:"word",nl:"sortir",en:"to go out (past: sorti)",phonetic:"sor-TEER (sor-TEE)",example:"A: Tu es sorti ce week-end?\nB: Oui, je suis sorti samedi soir.\nA: Tu es allé où?",exampleEn:"A: Did you go out this weekend?\nB: Yes, I went out Saturday night.\nA: Where did you go?",note:"Sorti/sortie/sortis/sorties.\nRegular -ir participle (-i).\nOpposite: entrer."},
+
+  {type:"teach",kind:"word",nl:"entrer",en:"to enter (past: entré)",phonetic:"ahn-TRAY (ahn-TRAY)",example:"A: Il est entré dans le magasin?\nB: Oui, il est entré il y a dix minutes.\nA: Il cherche quoi?",exampleEn:"A: Did he enter the shop?\nB: Yes, he entered ten minutes ago.\nA: What is he looking for?",note:"Entré/entrée/entrés/entrées.\nRegular -er participle (-é).\nOpposite: sortir."},
+
+  {type:"teach",kind:"word",nl:"monter",en:"to go up (past: monté)",phonetic:"mon-TAY",example:"A: Tu es montée à pied?\nB: Oui, je suis montée par l'escalier.\nA: Cinq étages!",exampleEn:"A: Did you walk up?\nB: Yes, I went up by the stairs.\nA: Five floors!",note:"Monté/montée/montés/montées.\nRegular -er participle.\nOpposite: descendre."},
+
+  {type:"teach",kind:"word",nl:"descendre",en:"to go down (past: descendu)",phonetic:"day-SAHN-druh (day-sahn-DEW)",example:"A: Tu es descendu au sous-sol?\nB: Oui, je suis descendu chercher du vin.\nA: Bonne idée!",exampleEn:"A: Did you go down to the basement?\nB: Yes, I went down to get some wine.\nA: Good idea!",note:"Descendu/descendue/descendus/descendues.\nRegular -re participle (-u)."},
+
+  {type:"teach",kind:"word",nl:"tomber",en:"to fall (past: tombé)",phonetic:"tom-BAY",example:"A: Qu'est-ce qui s'est passé?\nB: Je suis tombé dans la rue!\nA: Tu vas bien?",exampleEn:"A: What happened?\nB: I fell in the street!\nA: Are you OK?",note:"Tombé/tombée/tombés/tombées.\nRegular -er participle.\nAlways uses être."},
+
+  {type:"teach",kind:"word",nl:"naître",en:"to be born (past: né)",phonetic:"NEH-truh (NAY)",example:"A: Où est-ce que tu es né?\nB: Je suis né à Lyon.\nA: Et tu habites à Paris maintenant?",exampleEn:"A: Where were you born?\nB: I was born in Lyon.\nA: And you live in Paris now?",note:"Né/née/nés/nées.\nIrregular participle.\nOpposite: mourir (to die) -> mort."},
+
+  {type:"match",pairs:[{nl:"aller -> allé",en:"to go"},{nl:"venir -> venu",en:"to come"},{nl:"partir -> parti",en:"to leave"},{nl:"arriver -> arrivé",en:"to arrive"}]},
+
+  {type:"mc",q:"DR MRS VANDERTRAMP verbs all share:",opts:["The same conjugation","They use être in passé composé","They are regular","They describe food"],ans:"They use être in passé composé",hint:"This mnemonic groups verbs by their helper verb choice."},
+
+  {type:"fb",s:"Elle est ___ hier soir. (to come)",a:"venue",opts:["venue","venu","venus","venir"],hint:"She came. Feminine singular: add -e to the participle."},
+
+  {type:"match",pairs:[{nl:"sortir -> sorti",en:"to go out"},{nl:"entrer -> entré",en:"to enter"},{nl:"monter -> monté",en:"to go up"},{nl:"descendre -> descendu",en:"to go down"}]},
+
+  {type:"mc",q:"'Je suis né à Paris' means:",opts:["I went to Paris","I was born in Paris","I live in Paris","I came from Paris"],ans:"I was born in Paris",hint:"Né = born. One of the être verbs in the mnemonic."},
+
+  {type:"fb",s:"Il est ___ dans l'escalier! (to fall)",a:"tombé",opts:["tombé","tombée","tomber","tombés"],hint:"He fell. Masculine singular: standard -er participle."},
+
+  {type:"mc",q:"The opposite pairs are: monter/descendre, entrer/sortir, and:",opts:["Naître/mourir","Aller/venir","Arriver/partir","All of these"],ans:"All of these",hint:"Many être verbs come in opposite pairs of movement."},
+
+  {type:"fb",s:"Nous sommes ___ à l'hôtel. (to go up, masc. pl.)",a:"montés",opts:["montés","monté","montée","montées"],hint:"We went up. Nous (masc. plural): add -s."},
+
+  {type:"mc",q:"How many être verbs does DR MRS VANDERTRAMP contain?",opts:["10","14","16","20"],ans:"16",hint:"Count each letter in the mnemonic. Each represents one verb."},
+]},
+
+// ═══ L3: L'accord du participe ═══
+{id:"fre10l3",title:"L'accord du participe",icon:"✅",xp:15,board:true,steps:[
+  {type:"intro",title:"Agreement of the past participle",desc:"With être, the participle agrees with the subject like an adjective: add -e for feminine, -s for plural, -es for feminine plural.",goals:["Add -e for feminine subjects","Add -s for plural subjects","Combine both: -es for feminine plural"]},
+
+  {type:"tip",title:"Agreement rules",text:"Masculine singular: allé\nFeminine singular: allée (+e)\nMasculine plural: allés (+s)\nFeminine plural: allées (+es)\n\nMixed group (m+f): use masculine plural (allés)\nThis only applies to ÊTRE verbs.\nAVOIR verbs: NO agreement with subject."},
+
+  {type:"teach",kind:"phrase",nl:"elle est sortie",en:"she went out",phonetic:"el ay sor-TEE",example:"A: Où est Sophie?\nB: Elle est sortie.\nA: Elle est sortie avec qui?",exampleEn:"A: Where is Sophie?\nB: She went out.\nA: Who did she go out with?",note:"Feminine: sortie (add -e).\nThe -e makes the final consonant audible:\nsorti (ee) vs sortie (ee, same in this case)."},
+
+  {type:"teach",kind:"phrase",nl:"ils sont partis",en:"they (m.) left",phonetic:"eel son par-TEE",example:"A: Les garçons sont là?\nB: Non, ils sont partis.\nA: Ils sont partis quand?",exampleEn:"A: Are the boys here?\nB: No, they left.\nA: When did they leave?",note:"Masculine plural: partis (add -s).\nFor mixed groups (boys+girls), still use -s (masc. pl.)."},
+
+  {type:"teach",kind:"phrase",nl:"elles sont venues",en:"they (f.) came",phonetic:"el son vuh-NEW",example:"A: Les filles sont venues?\nB: Oui, elles sont venues à midi.\nA: Toutes les trois?",exampleEn:"A: Did the girls come?\nB: Yes, they came at noon.\nA: All three?",note:"Feminine plural: venues (add -es).\nVenu -> venue (fem.) -> venues (fem. pl.)."},
+
+  {type:"mc",q:"'Elle est arrivé' is wrong because:",opts:["Arriver uses avoir","The participle needs -e for feminine","Est is wrong","The meaning is wrong"],ans:"The participle needs -e for feminine",hint:"With être, feminine subjects require the -e ending."},
+
+  {type:"fb",s:"Marie est ___. (to arrive, fem.)",a:"arrivée",opts:["arrivée","arrivé","arrivés","arrivées"],hint:"She arrived. Feminine singular: -ée ending."},
+
+  {type:"match",pairs:[{nl:"il est parti",en:"he left"},{nl:"elle est partie",en:"she left"},{nl:"ils sont partis",en:"they (m.) left"},{nl:"elles sont parties",en:"they (f.) left"}]},
+
+  {type:"mc",q:"For a group of 5 women and 1 man, you use:",opts:["Feminine plural","Masculine plural","Feminine singular","Both forms"],ans:"Masculine plural",hint:"Mixed gender groups always use the masculine form in French."},
+
+  {type:"fb",s:"Elles sont ___ à la maison. (to stay, fem. pl.)",a:"restées",opts:["restées","resté","restés","restée"],hint:"They (f.) stayed. Feminine plural: -ées."},
+
+  {type:"mc",q:"Which is correct for a female speaker?",opts:["Je suis allé","Je suis allée","Je suis allés","Je suis allées"],ans:"Je suis allée",hint:"Female = feminine singular. Add one -e."},
+
+  {type:"fb",s:"Les garçons sont ___ hier soir. (to go out, masc. pl.)",a:"sortis",opts:["sortis","sorti","sortie","sorties"],hint:"The boys went out. Masculine plural: add -s."},
+
+  {type:"match",pairs:[{nl:"née",en:"born (f.)"},{nl:"nés",en:"born (m. pl.)"},{nl:"venues",en:"came (f. pl.)"},{nl:"descendue",en:"went down (f.)"}]},
+
+  {type:"mc",q:"'Nous sommes arrivés' (with -s) tells us the group is:",opts:["All female","All male or mixed","Exactly two people","Speaking formally"],ans:"All male or mixed",hint:"-és ending: masculine plural. Could include only men or a combination."},
+
+  {type:"fb",s:"Sophie et Marie sont ___ au café. (to go)",a:"allées",opts:["allées","allé","allés","allée"],hint:"Two females went. Feminine plural: -ées."},
+
+  {type:"mc",q:"With AVOIR, 'elles ont mangé' has no agreement. With ÊTRE, agreement is:",opts:["Optional","Mandatory","Only in writing","Only formal"],ans:"Mandatory",hint:"Être verbs ALWAYS require participle agreement. No exceptions."},
+
+  {type:"fb",s:"Pierre et Jean sont ___ à Paris. (to be born, masc. pl.)",a:"nés",opts:["nés","né","née","nées"],hint:"Two males were born. Masculine plural: add -s."},
+
+  {type:"mc",q:"The participle 'tombée' is:",opts:["Masculine singular","Feminine singular","Masculine plural","Feminine plural"],ans:"Feminine singular",hint:"Base form tombé + one -e. What gender/number does that extra -e indicate?"},
+]},
+
+// ═══ L4: Raconter une histoire ═══
+{id:"fre10l4",title:"Raconter une histoire",icon:"📖",xp:15,board:true,steps:[
+  {type:"intro",title:"Telling a story with être verbs",desc:"Combine être verbs to tell a story: I went out, I went to, I arrived, I came home. Sequence past events naturally.",goals:["Chain multiple être verbs in a story","Use time markers between events","Tell a complete past narrative"]},
+
+  {type:"teach",kind:"phrase",nl:"D'abord... puis... enfin...",en:"First... then... finally...",phonetic:"dah-BOR... PWEE... ahn-FAN",example:"A: Raconte ton samedi!\nB: D'abord, je suis allé au marché. Puis je suis rentré. Enfin, je suis sorti avec des amis.\nA: Belle journée!",exampleEn:"A: Tell me about your Saturday!\nB: First, I went to the market. Then I came home. Finally, I went out with friends.\nA: Nice day!",note:"Sequencing words for narratives.\nD'abord = first\nPuis/ensuite = then\nEnfin = finally."},
+
+  {type:"teach",kind:"word",nl:"rentrer",en:"to come home (past: rentré)",phonetic:"rahn-TRAY",example:"A: À quelle heure tu es rentré?\nB: Je suis rentré à minuit!\nA: C'est tard!",exampleEn:"A: What time did you come home?\nB: I came home at midnight!\nA: That's late!",note:"Rentrer = to return home.\nRentré/rentrée/rentrés/rentrées.\nRegular -er participle. Uses être."},
+
+  {type:"teach",kind:"word",nl:"retourner",en:"to go back / return (past: retourné)",phonetic:"ruh-toor-NAY",example:"A: Tu es retourné au restaurant?\nB: Oui, je suis retourné hier.\nA: C'était toujours bon?",exampleEn:"A: Did you go back to the restaurant?\nB: Yes, I went back yesterday.\nA: Was it still good?",note:"Retourner = to return to a place.\nDifferent from rentrer (return home).\nUses être."},
+
+  {type:"mc",q:"'D'abord je suis sorti, puis je suis allé au parc.' This tells a:",opts:["Future plan","Story in sequence","Question","Command"],ans:"Story in sequence",hint:"D'abord... puis... chains past events in order."},
+
+  {type:"fb",s:"Je suis ___ à la maison à dix heures. (to come home)",a:"rentré",opts:["rentré","rentrée","rentrés","retourné"],hint:"I (male) came home. Masculine singular of the participle."},
+
+  {type:"match",pairs:[{nl:"d'abord",en:"first"},{nl:"puis / ensuite",en:"then"},{nl:"enfin",en:"finally"},{nl:"après",en:"after"}]},
+
+  {type:"mc",q:"'Elle est sortie, puis elle est allée au café, enfin elle est rentrée.' How many events?",opts:["One","Two","Three","Four"],ans:"Three",hint:"Count the past participles: sortie, allée, rentrée. Each one is a separate event."},
+
+  {type:"fb",s:"Samedi, je suis ___ au musée. (to go, masc.)",a:"allé",opts:["allé","allée","allés","aller"],hint:"I went. Male speaker: no extra letters on the participle."},
+
+  {type:"mc",q:"'Rentrer' and 'retourner' both mean 'to return', but:",opts:["They are identical","Rentrer = home specifically","Retourner = home specifically","They use avoir"],ans:"Rentrer = home specifically",hint:"One means specifically returning to your home."},
+
+  {type:"fb",s:"D'abord elle est ___, puis elle est partie. (to arrive, fem.)",a:"arrivée",opts:["arrivée","arrivé","arrivés","arrivées"],hint:"First she arrived. Feminine: -ée ending."},
+
+  {type:"match",pairs:[{nl:"je suis sorti",en:"I went out"},{nl:"je suis allé",en:"I went"},{nl:"je suis arrivé",en:"I arrived"},{nl:"je suis rentré",en:"I came home"}]},
+
+  {type:"mc",q:"In a story using être verbs, each participle must:",opts:["Stay the same","Agree with the subject each time","Change randomly","Use avoir sometimes"],ans:"Agree with the subject each time",hint:"Every être participle in the story must match the subject."},
+
+  {type:"fb",s:"Les filles sont ___ au parc, puis elles sont rentrées. (to go, fem. pl.)",a:"allées",opts:["allées","allé","allés","allée"],hint:"The girls went. Feminine plural: -ées."},
+
+  {type:"mc",q:"'Je suis retourné en France' means:",opts:["I returned to France","I went home to France","I was born in France","I stayed in France"],ans:"I returned to France",hint:"Retourner = to go back to a place (not necessarily home)."},
+
+  {type:"fb",s:"Nous sommes sortis, ___ nous sommes allés au restaurant.",a:"puis",opts:["puis","d'abord","enfin","avant"],hint:"We went out, THEN we went to the restaurant. Which sequencer?"},
+
+  {type:"mc",q:"A female narrator would say:",opts:["Je suis parti","Je suis partie","Je suis partis","Je suis parties"],ans:"Je suis partie",hint:"Female speaker = feminine singular. Add -e to parti."},
+
+  {type:"fb",s:"Enfin, nous sommes ___ à la maison. (to come home, masc. pl.)",a:"rentrés",opts:["rentrés","rentré","rentrée","rentrées"],hint:"Finally, we came home. Nous (masc. plural): -és."},
+]},
+
+// ═══ L5: Les pronominaux au passé ═══
+{id:"fre10l5",title:"Les pronominaux au passé",icon:"🪞",xp:15,board:true,steps:[
+  {type:"intro",title:"Reflexive verbs in passé composé",desc:"Reflexive verbs (se lever, se coucher) ALWAYS use être in passé composé. The reflexive pronoun goes before être. Agreement with the subject applies.",goals:["Form passé composé of reflexive verbs","Place pronouns correctly","Apply agreement rules"]},
+
+  {type:"tip",title:"Reflexive passé composé pattern",text:"Subject + reflexive pronoun + ÊTRE + participle\n\nje me suis levé(e) = I got up\ntu t'es lavé(e) = you washed\nil s'est habillé = he got dressed\nelle s'est couchée = she went to bed\nnous nous sommes levés = we got up\nils se sont réveillés = they woke up\n\nReflexive pronoun BEFORE être.\nParticiple agrees with subject."},
+
+  {type:"teach",kind:"phrase",nl:"je me suis levé(e)",en:"I got up",phonetic:"zhuh muh swee luh-VAY",example:"A: Tu t'es levé à quelle heure?\nB: Je me suis levé à sept heures.\nA: C'est tôt!",exampleEn:"A: What time did you get up?\nB: I got up at seven.\nA: That's early!",note:"Me + suis + levé (m.) / levée (f.).\nThe reflexive pronoun comes before être."},
+
+  {type:"teach",kind:"phrase",nl:"elle s'est couchée",en:"she went to bed",phonetic:"el say koo-SHAY",example:"A: Marie s'est couchée tôt?\nB: Oui, elle s'est couchée à neuf heures.\nA: Elle était fatiguée.",exampleEn:"A: Did Marie go to bed early?\nB: Yes, she went to bed at nine.\nA: She was tired.",note:"S' + est + couchée (fem. agreement).\nSe becomes s' before vowel (est)."},
+
+  {type:"teach",kind:"phrase",nl:"ils se sont réveillés",en:"they woke up",phonetic:"eel suh son ray-vay-YAY",example:"A: Les enfants se sont réveillés?\nB: Oui, ils se sont réveillés à six heures.\nA: C'est trop tôt!",exampleEn:"A: Did the kids wake up?\nB: Yes, they woke up at six.\nA: That's too early!",note:"Se + sont + réveillés (masc. pl.).\nSe stays as se before consonant."},
+
+  {type:"mc",q:"Reflexive verbs in passé composé use:",opts:["Avoir","Être","Both","Neither"],ans:"Être",hint:"ALL reflexive verbs use this helper. No exceptions."},
+
+  {type:"fb",s:"Je me ___ levé à huit heures.",a:"suis",opts:["suis","ai","suis","est"],hint:"I got up. Reflexive uses which helper verb?"},
+
+  {type:"match",pairs:[{nl:"je me suis levé",en:"I got up"},{nl:"tu t'es lavé",en:"you washed"},{nl:"il s'est habillé",en:"he got dressed"},{nl:"elle s'est couchée",en:"she went to bed"}]},
+
+  {type:"mc",q:"In 'elle s'est couchée', the -ée shows:",opts:["Past tense","Feminine agreement","Plural","Formal speech"],ans:"Feminine agreement",hint:"With être, the participle matches the subject's gender."},
+
+  {type:"fb",s:"Tu t'___ réveillé(e) tôt?",a:"es",opts:["es","est","as","ai"],hint:"You woke up? Tu + which form of être?"},
+
+  {type:"mc",q:"The reflexive pronoun in passé composé goes:",opts:["After être","After the participle","Before être","Before the subject"],ans:"Before être",hint:"Subject + pronoun + être + participle. Pronoun is between subject and helper."},
+
+  {type:"fb",s:"Nous nous ___ habillés rapidement.",a:"sommes",opts:["sommes","avons","êtes","sont"],hint:"We got dressed. Nous + which form of être?"},
+
+  {type:"match",pairs:[{nl:"nous nous sommes levés",en:"we got up"},{nl:"vous vous êtes lavé(s)",en:"you washed"},{nl:"ils se sont habillés",en:"they got dressed"},{nl:"elles se sont couchées",en:"they (f.) went to bed"}]},
+
+  {type:"mc",q:"'Les filles se sont lavées' has -ées because:",opts:["Laver is feminine","The subject is feminine plural","Se makes it feminine","It sounds better"],ans:"The subject is feminine plural",hint:"Elles (fem. pl.) = -ées on the participle."},
+
+  {type:"fb",s:"Elle s'est ___ à dix heures. (to go to bed, fem.)",a:"couchée",opts:["couchée","couché","couchés","couchées"],hint:"She went to bed. Feminine singular: standard -ée agreement."},
+
+  {type:"mc",q:"Correct order for 'we got up':",opts:["Nous suis nous levés","Nous nous sommes levés","Nous levés nous sommes","Sommes nous nous levés"],ans:"Nous nous sommes levés",hint:"Subject + reflexive pronoun + être + participle."},
+
+  {type:"fb",s:"Il s'___ réveillé très tard.",a:"est",opts:["est","a","ai","sont"],hint:"He woke up. Il + which form of être?"},
+
+  {type:"mc",q:"Which uses être? 'J'ai mangé' or 'Je me suis levé'?",opts:["J'ai mangé","Je me suis levé","Both","Neither"],ans:"Je me suis levé",hint:"The reflexive one. All reflexives use the same helper."},
+]},
+
+// ═══ L6: Avoir ou être? ═══
+{id:"fre10l6",title:"Avoir ou être?",icon:"⚖️",xp:15,board:true,steps:[
+  {type:"intro",title:"Choosing avoir or être",desc:"The big decision: which helper verb? Most verbs use avoir. Être is for: (1) DR MRS VANDERTRAMP verbs, (2) all reflexive verbs. Practice choosing correctly.",goals:["Choose the correct helper verb","Distinguish avoir vs être verbs","Handle mixed sentences"]},
+
+  {type:"tip",title:"The decision tree",text:"Is it a reflexive verb (se + verb)?\n-> YES: use ÊTRE\n\nIs it a DR MRS VANDERTRAMP verb?\n-> YES: use ÊTRE\n\nEverything else?\n-> Use AVOIR\n\nRemember: ÊTRE verbs require agreement.\nAVOIR verbs: no agreement with subject."},
+
+  {type:"mc",q:"'Manger' uses:",opts:["Être","Avoir","Both","It depends"],ans:"Avoir",hint:"Eating is not movement or state change, and not reflexive."},
+
+  {type:"fb",s:"Elle ___ allée au cinéma. (to go = être verb)",a:"est",opts:["est","a","ai","sont"],hint:"Aller is a movement verb. It uses which helper?"},
+
+  {type:"mc",q:"'Se lever' uses:",opts:["Avoir","Être","Both","Neither"],ans:"Être",hint:"All reflexive verbs follow the same rule for helper choice."},
+
+  {type:"fb",s:"Nous ___ mangé au restaurant.",a:"avons",opts:["avons","sommes","êtes","ont"],hint:"We ate. Manger is not reflexive or movement."},
+
+  {type:"match",pairs:[{nl:"j'ai mangé",en:"avoir verb"},{nl:"je suis allé",en:"être (movement)"},{nl:"je me suis levé",en:"être (reflexive)"},{nl:"j'ai vu",en:"avoir verb"}]},
+
+  {type:"mc",q:"'Descendre' uses être because it describes:",opts:["An action","A feeling","Movement/direction change","An opinion"],ans:"Movement/direction change",hint:"Going down = a change in position/direction."},
+
+  {type:"fb",s:"Tu ___ arrivé(e) quand?",a:"es",opts:["es","as","est","ai"],hint:"When did you arrive? Arriver = movement verb."},
+
+  {type:"mc",q:"'Il a lu un livre. Il est sorti.' Which uses avoir?",opts:["Il a lu","Il est sorti","Both","Neither"],ans:"Il a lu",hint:"Lire (to read) is not movement, not reflexive. Standard verb."},
+
+  {type:"fb",s:"Elles se ___ lavées ce matin.",a:"sont",opts:["sont","ont","sommes","êtes"],hint:"They washed. Reflexive verb: which helper?"},
+
+  {type:"match",pairs:[{nl:"avoir: manger",en:"j'ai mangé"},{nl:"être: partir",en:"je suis parti"},{nl:"avoir: finir",en:"j'ai fini"},{nl:"être: se coucher",en:"je me suis couché"}]},
+
+  {type:"mc",q:"'J'ai descendu les valises' uses avoir. Why?",opts:["Descendre always uses avoir","When descendre has a direct object, it uses avoir","It is a mistake","Valises changes the helper"],ans:"When descendre has a direct object, it uses avoir",hint:"Some être verbs switch to avoir when they have a direct object."},
+
+  {type:"fb",s:"Il ___ parti à neuf heures.",a:"est",opts:["est","a","ai","sont"],hint:"He left. Partir = movement verb."},
+
+  {type:"mc",q:"Choose: 'Nous ___ regardé un film.'",opts:["Sommes","Avons","Êtes","Sont"],ans:"Avons",hint:"Regarder is not reflexive or movement. Standard verb."},
+
+  {type:"fb",s:"Je me suis ___ à sept heures. (to wake up, masc.)",a:"réveillé",opts:["réveillé","réveillée","réveillés","réveiller"],hint:"I (male) woke up. Masculine singular: no extra letters."},
+
+  {type:"mc",q:"Quick check: 'Faire' uses:",opts:["Être","Avoir","Both","Depends on subject"],ans:"Avoir",hint:"Faire (to do/make) is not in DR MRS VANDERTRAMP."},
+
+  {type:"fb",s:"Elle ___ venue avec son ami.",a:"est",opts:["est","a","ai","sont"],hint:"She came. Venir = movement/arrival verb."},
+
+  {type:"mc",q:"How many verbs use être (not counting reflexives)?",opts:["About 5","About 16","About 50","All -er verbs"],ans:"About 16",hint:"The DR MRS VANDERTRAMP list. A limited, memorizable set."},
+]},
+
+// ═══ L7: Un week-end passé ═══
+{id:"fre10l7",title:"Un week-end passé",icon:"🌅",xp:15,board:true,steps:[
+  {type:"intro",title:"Describing a past weekend",desc:"Combine avoir and être verbs to describe a full weekend. Mix movement verbs, regular activities, reflexive verbs, and time expressions.",goals:["Use both avoir and être in one narrative","Mix reflexive and non-reflexive verbs","Tell a complete weekend story"]},
+
+  {type:"teach",kind:"phrase",nl:"Ce week-end, j'ai...",en:"This weekend, I...",phonetic:"suh week-END zhay",example:"A: Qu'est-ce que tu as fait ce week-end?\nB: Samedi, j'ai fait les courses et je suis allé au parc.\nA: Et dimanche?",exampleEn:"A: What did you do this weekend?\nB: Saturday, I did grocery shopping and went to the park.\nA: And Sunday?",note:"Weekend stories mix avoir and être naturally.\nJ'ai fait (avoir) + je suis allé (être)."},
+
+  {type:"teach",kind:"phrase",nl:"je suis resté(e) à la maison",en:"I stayed home",phonetic:"zhuh swee res-TAY ah lah may-ZON",example:"A: Tu es sorti dimanche?\nB: Non, je suis resté à la maison.\nA: Tu as regardé la télé?",exampleEn:"A: Did you go out Sunday?\nB: No, I stayed home.\nA: Did you watch TV?",note:"Rester = to stay. Uses être.\nÀ la maison = at home.\nCommon weekend activity!"},
+
+  {type:"mc",q:"In 'J'ai mangé et je suis sorti', which verb uses avoir?",opts:["Mangé","Sorti","Both","Neither"],ans:"Mangé",hint:"Manger = eating (standard verb). Sortir = going out (movement)."},
+
+  {type:"fb",s:"Samedi matin, je me suis ___ à neuf heures. (to wake up, masc.)",a:"réveillé",opts:["réveillé","réveillée","réveillés","réveiller"],hint:"I (male) woke up. Reflexive, masculine singular."},
+
+  {type:"match",pairs:[{nl:"j'ai fait les courses",en:"I did the shopping"},{nl:"je suis allé au parc",en:"I went to the park"},{nl:"je me suis couché tard",en:"I went to bed late"},{nl:"j'ai regardé un film",en:"I watched a movie"}]},
+
+  {type:"mc",q:"'Elle s'est levée, elle a pris son café, et elle est sortie.' How many être verbs?",opts:["One","Two","Three","None"],ans:"Two",hint:"Se lever (reflexive = être) and sortir (movement = être). Prendre uses avoir."},
+
+  {type:"fb",s:"Dimanche, nous ___ allés au restaurant.",a:"sommes",opts:["sommes","avons","êtes","sont"],hint:"We went. Aller = movement verb, uses which helper?"},
+
+  {type:"mc",q:"Choose the correct version:",opts:["J'ai sorti avec des amis","Je suis sorti avec des amis","Je sortir avec des amis","J'ai été sorti"],ans:"Je suis sorti avec des amis",hint:"Sortir = movement verb. Which helper does it need?"},
+
+  {type:"fb",s:"J'ai ___ un bon livre samedi après-midi. (to read)",a:"lu",opts:["lu","vu","li","lire"],hint:"I read a good book. Irregular participle of lire."},
+
+  {type:"match",pairs:[{nl:"je suis resté(e)",en:"I stayed"},{nl:"je suis rentré(e)",en:"I came home"},{nl:"j'ai cuisiné",en:"I cooked"},{nl:"j'ai téléphoné",en:"I called"}]},
+
+  {type:"mc",q:"A female narrator says 'Je suis _____ au cinéma.' Fill in:",opts:["allé","allée","allés","allées"],ans:"allée",hint:"Female speaker + singular = feminine singular agreement."},
+
+  {type:"fb",s:"Le soir, nous avons ___ au restaurant. (to eat)",a:"mangé",opts:["mangé","mangés","mangée","manger"],hint:"We ate. Manger uses avoir. With avoir: no agreement."},
+
+  {type:"mc",q:"Which sentence mixes avoir and être correctly?",opts:["J'ai allé et j'ai mangé","Je suis mangé et je suis allé","J'ai mangé et je suis allé","Je suis mangé et j'ai allé"],ans:"J'ai mangé et je suis allé",hint:"Manger = avoir. Aller = être. Each uses its own helper."},
+
+  {type:"fb",s:"Elles sont ___ à la plage dimanche. (to go, fem. pl.)",a:"allées",opts:["allées","allé","allés","allée"],hint:"They (f.) went. Feminine plural: -ées."},
+
+  {type:"mc",q:"In 'Je me suis levé, j'ai mangé, et je suis parti', avoir is used for:",opts:["Se lever","Manger","Partir","All three"],ans:"Manger",hint:"The only non-movement, non-reflexive verb in the sequence."},
+
+  {type:"fb",s:"Il a ___ du sport et il est allé à la piscine. (to do)",a:"fait",opts:["fait","faire","fais","faite"],hint:"He did sport. Irregular participle of faire."},
+
+  {type:"mc",q:"A complete weekend story should use:",opts:["Only avoir verbs","Only être verbs","A natural mix of both","No verbs"],ans:"A natural mix of both",hint:"Real stories naturally combine activities (avoir) with movements (être)."},
+]},
+
+// ═══ L8: Révision Unit 10 ═══
+{id:"fre10l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 10 Review",desc:"Review passé composé with être: movement verbs, agreement, reflexives, and the avoir/être choice. You now have the complete French past tense system.",goals:["Review all être verb forms","Test agreement rules","Master avoir vs être choice"]},
+
+  {type:"mc",q:"DR MRS VANDERTRAMP verbs use:",opts:["Avoir","Être","Both","Neither"],ans:"Être",hint:"This mnemonic lists all the movement/state change verbs."},
+
+  {type:"fb",s:"Elle est ___ à Paris. (to go, fem.)",a:"allée",opts:["allée","allé","allés","allées"],hint:"She went. Feminine singular: -ée."},
+
+  {type:"match",pairs:[{nl:"je suis allé(e)",en:"I went"},{nl:"il est parti",en:"he left"},{nl:"elle est arrivée",en:"she arrived"},{nl:"nous sommes restés",en:"we stayed"}]},
+
+  {type:"mc",q:"With être, the participle agrees with:",opts:["The object","The helper verb","The subject","Nothing"],ans:"The subject",hint:"Like an adjective, it matches gender and number of who performs the action."},
+
+  {type:"fb",s:"Ils se ___ levés à sept heures.",a:"sont",opts:["sont","ont","sommes","êtes"],hint:"They got up. Reflexive verb: which helper?"},
+
+  {type:"mc",q:"'J'ai mangé et je suis sorti.' Why different helpers?",opts:["It's a mistake","Manger=avoir, sortir=être","First verb=avoir, second=être always","Random choice"],ans:"Manger=avoir, sortir=être",hint:"Each verb has its own fixed helper. Movement = être, rest = avoir."},
+
+  {type:"fb",s:"Marie est ___ hier soir. (to come, fem.)",a:"venue",opts:["venue","venu","venus","venues"],hint:"She came. Feminine singular of the irregular participle."},
+
+  {type:"match",pairs:[{nl:"avoir: manger",en:"j'ai mangé"},{nl:"être: partir",en:"je suis parti"},{nl:"être: se lever",en:"je me suis levé"},{nl:"avoir: voir",en:"j'ai vu"}]},
+
+  {type:"mc",q:"A group of 3 women: 'Elles sont ___'",opts:["partis","partie","parties","parti"],ans:"parties",hint:"Feminine plural: -ies (parti + e + s)."},
+
+  {type:"fb",s:"Nous ___ arrivés en retard. (we, masc.)",a:"sommes",opts:["sommes","avons","êtes","sont"],hint:"We arrived. Arriver = être verb."},
+
+  {type:"mc",q:"Reflexive verbs in passé composé:",opts:["Sometimes use avoir","Always use être","Use both","Don't exist in past"],ans:"Always use être",hint:"Every single reflexive verb. No exceptions."},
+
+  {type:"fb",s:"Je me suis ___ à minuit. (to go to bed, fem.)",a:"couchée",opts:["couchée","couché","couchés","couchées"],hint:"I (female) went to bed. Feminine singular: -ée."},
+
+  {type:"match",pairs:[{nl:"tombé",en:"fell (m.)"},{nl:"tombée",en:"fell (f.)"},{nl:"tombés",en:"fell (m.pl.)"},{nl:"tombées",en:"fell (f.pl.)"}]},
+
+  {type:"mc",q:"Choose: 'Vous ___ voyagé en France?'",opts:["Êtes","Avez","Sommes","Ont"],ans:"Avez",hint:"Voyager is not movement (DR MRS) or reflexive. Standard verb."},
+
+  {type:"fb",s:"Les enfants se sont ___ à six heures. (to wake up, masc. pl.)",a:"réveillés",opts:["réveillés","réveillé","réveillée","réveillées"],hint:"The children woke up. Masculine plural: -és."},
+
+  {type:"mc",q:"You now know passé composé with avoir AND être. What percentage of verbs use avoir?",opts:["About 10%","About 50%","About 90%","All of them"],ans:"About 90%",hint:"Être verbs are a small, memorizable group. The vast majority use the other helper."},
+
+  {type:"fb",s:"Hier, j'ai ___ mes devoirs et je suis sorti. (to do)",a:"fait",opts:["fait","faire","fais","faite"],hint:"I did my homework. Irregular participle of faire."},
+]},
+]},
+
 ];
