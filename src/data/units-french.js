@@ -5150,4 +5150,328 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 17 — Le subjonctif présent (introduction)             ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:17,lang:"fr",track:"v1",title:"Le subjonctif",sub:"Subjunctive: Wishes & Necessity",icon:"🌀",level:"B1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: What is the subjunctive? ═══
+{id:"fre17l1",title:"Qu'est-ce que le subjonctif?",icon:"❓",xp:15,board:true,steps:[
+  {type:"intro",title:"Introducing the subjunctive",desc:"The subjunctive is a verb MOOD (not a tense). It's used after expressions of necessity, desire, emotion, and doubt. It follows 'que' and expresses things that aren't factual.",goals:["Understand what the subjunctive is","Know when it's triggered","Learn the most common triggers"]},
+
+  {type:"tip",title:"The subjunctive mood",text:"The subjunctive is used after:\n\n1. NECESSITY: il faut que, il est nécessaire que\n2. DESIRE: je veux que, je souhaite que\n3. EMOTION: je suis content que, j'ai peur que\n4. DOUBT: je doute que, il est possible que\n\nPattern: TRIGGER + que + SUBJUNCTIVE\nIl faut que tu viennes.\n(It is necessary that you come.)\n\nThe subjunctive is NOT a tense.\nIt's a way of looking at the action as\nnon-factual, wished, or uncertain."},
+
+  {type:"teach",kind:"phrase",nl:"Il faut que",en:"it is necessary that / one must",phonetic:"eel FOH kuh",example:"A: Il faut que je parte maintenant.\nB: Déjà? Il est tôt!\nA: Oui, mais j'ai un rendez-vous.",exampleEn:"A: I have to leave now.\nB: Already? It's early!\nA: Yes, but I have an appointment.",note:"Most common subjunctive trigger.\nIl faut que + subjunctive verb.\nExpresses necessity or obligation."},
+
+  {type:"teach",kind:"phrase",nl:"Je veux que",en:"I want (someone) to",phonetic:"zhuh VUH kuh",example:"A: Je veux que tu sois heureux.\nB: C'est gentil de dire ça.\nA: C'est sincère!",exampleEn:"A: I want you to be happy.\nB: That's kind to say.\nA: I mean it!",note:"Vouloir que + subjunctive.\nTwo different subjects required!\nJe veux manger (same subject = infinitive).\nJe veux que TU manges (different = subj.)."},
+
+  {type:"teach",kind:"phrase",nl:"Je suis content que",en:"I'm happy that",phonetic:"zhuh swee kohn-TAHN kuh",example:"A: Marie a réussi son examen!\nB: Je suis content qu'elle ait réussi.\nA: Moi aussi!",exampleEn:"A: Marie passed her exam!\nB: I'm glad she passed.\nA: Me too!",note:"Emotion + que = subjunctive.\nOther emotions: triste que, surpris que,\nfurieux que, déçu que."},
+
+  {type:"mc",q:"The subjunctive is triggered by expressions of:",opts:["Certainty and facts","Necessity, desire, emotion, doubt","Past events","Future plans"],ans:"Necessity, desire, emotion, doubt",hint:"Non-factual attitudes toward the action trigger this mood."},
+
+  {type:"fb",s:"Il faut ___ tu partes. (that)",a:"que",opts:["que","qui","quoi","quand"],hint:"It's necessary THAT you leave. Que links trigger to subjunctive."},
+
+  {type:"mc",q:"Why 'Je veux manger' but 'Je veux que tu manges'?",opts:["Both use subjunctive","Same subject = infinitive, different subjects = que + subj.","It's random","Only formal French needs que"],ans:"Same subject = infinitive, different subjects = que + subj.",hint:"If I want ME to eat = infinitive. If I want YOU to eat = que + subj."},
+
+  {type:"fb",s:"Je suis triste ___ elle parte. (that)",a:"qu'",opts:["qu'","que","qui","quoi"],hint:"I'm sad that she's leaving. Que before vowel = qu'."},
+
+  {type:"match",pairs:[{nl:"il faut que",en:"necessity"},{nl:"je veux que",en:"desire"},{nl:"je suis content que",en:"emotion"},{nl:"je doute que",en:"doubt"}]},
+
+  {type:"mc",q:"The subjunctive is a:",opts:["Tense (like future)","Mood (way of viewing the action)","Style choice","Formal register only"],ans:"Mood (way of viewing the action)",hint:"It expresses non-factual attitudes, not when something happened."},
+
+  {type:"fb",s:"Il est nécessaire ___ nous partions. (that)",a:"que",opts:["que","qui","quoi","quand"],hint:"It's necessary that we leave. Necessity trigger."},
+
+  {type:"mc",q:"Which does NOT trigger the subjunctive?",opts:["Il faut que","Je pense que (certainty)","Je veux que","J'ai peur que"],ans:"Je pense que (certainty)",hint:"Thinking (belief/certainty) uses indicative, not subjunctive."},
+
+  {type:"fb",s:"Je souhaite ___ tu réussisses. (that)",a:"que",opts:["que","qui","quoi","quand"],hint:"I wish that you succeed. Desire triggers subjunctive."},
+
+  {type:"match",pairs:[{nl:"il faut que je parte",en:"I must leave"},{nl:"je veux que tu viennes",en:"I want you to come"},{nl:"il est possible qu'il pleuve",en:"it's possible it rains"},{nl:"je suis surpris qu'elle sache",en:"I'm surprised she knows"}]},
+
+  {type:"mc",q:"'Il est important que tout le monde ___.' (comprendre, subj.)",opts:["Comprend","Comprenne","Comprendra","Comprendrait"],ans:"Comprenne",hint:"Important que = necessity trigger. Subjunctive form needed."},
+
+  {type:"fb",s:"Il est possible ___ il vienne demain. (that)",a:"qu'",opts:["qu'","que","qui","quoi"],hint:"It's possible that he comes. Possibility = doubt trigger."},
+
+  {type:"mc",q:"Quick rule: after 'que' following a trigger expression, use:",opts:["Indicative","Conditional","Subjunctive","Infinitive"],ans:"Subjunctive",hint:"After a trigger expression + que, which mood follows?"},
+]},
+
+// ═══ L2: Formation ═══
+{id:"fre17l2",title:"La formation",icon:"🔨",xp:15,board:true,steps:[
+  {type:"intro",title:"Forming the subjunctive",desc:"The present subjunctive of most verbs uses the ils/elles present stem + special endings. For nous and vous, it uses the imparfait stem. It's easier than it looks!",goals:["Form regular subjunctive","Learn the subjunctive endings","Apply the ils/elles stem rule"]},
+
+  {type:"tip",title:"Subjunctive formation",text:"Step 1: Take ILS/ELLES present form\nStep 2: Drop -ent\nStep 3: Add subjunctive endings:\n\nque je -e\nque tu -es\nqu'il/elle -e\nque nous -ions\nque vous -iez\nqu'ils/elles -ent\n\nparler: ils parlent -> parl-\nque je parle, que tu parles, qu'il parle\nque nous parlions, que vous parliez\nqu'ils parlent\n\nNOUS/VOUS use imparfait-like forms!"},
+
+  {type:"teach",kind:"phrase",nl:"que je parle",en:"that I speak (subj.)",phonetic:"kuh zhuh PARL",example:"A: Il faut que je parle au directeur.\nB: Tu veux que je vienne avec toi?\nA: Oui, s'il te plaît!",exampleEn:"A: I need to speak to the director.\nB: Do you want me to come with you?\nA: Yes, please!",note:"Parler: ils parlent -> stem parl-\nQue je parle (subj. ending: -e).\nLooks like present but IS subjunctive."},
+
+  {type:"teach",kind:"phrase",nl:"que tu finisses",en:"that you finish (subj.)",phonetic:"kuh tew fee-NEES",example:"A: Il faut que tu finisses tes devoirs.\nB: Je sais, je sais!\nA: Avant de jouer!",exampleEn:"A: You need to finish your homework.\nB: I know, I know!\nA: Before playing!",note:"Finir: ils finissent -> stem finiss-\nQue tu finisses (subj. ending: -es).\nNote double -ss- from ils form."},
+
+  {type:"mc",q:"To form the subjunctive stem, take the ___ present form and drop -ent:",opts:["Je","Nous","Ils/elles","Tu"],ans:"Ils/elles",hint:"The third person plural present is the starting point."},
+
+  {type:"fb",s:"Il faut que je ___ ce livre. (lire: ils lisent -> lis-)",a:"lise",opts:["lise","lis","lisais","lirai"],hint:"I must read this book. Stem lis- + ending -e."},
+
+  {type:"mc",q:"The subjunctive endings for je, tu, il are:",opts:["-e, -es, -e","-s, -s, -t","-ai, -as, -a","-ais, -ais, -ait"],ans:"-e, -es, -e",hint:"Similar to -er verb present endings but applied to ALL verbs."},
+
+  {type:"fb",s:"Il faut que nous ___ plus vite. (marcher: subjunctive)",a:"marchions",opts:["marchions","marchons","marchions","marcherons"],hint:"We must walk faster. Nous subjunctive looks like imparfait."},
+
+  {type:"match",pairs:[{nl:"que je -e",en:"that I..."},{nl:"que tu -es",en:"that you..."},{nl:"qu'il -e",en:"that he..."},{nl:"que nous -ions",en:"that we..."}]},
+
+  {type:"mc",q:"For nous/vous, the subjunctive forms look like:",opts:["Present tense","Imparfait","Future","Conditional"],ans:"Imparfait",hint:"The nous/vous forms look identical to which past tense?"},
+
+  {type:"fb",s:"Je veux que tu ___ la porte. (ouvrir: ils ouvrent -> ouvr-)",a:"ouvres",opts:["ouvres","ouvres","ouvris","ouvriras"],hint:"I want you to open the door. Stem ouvr- + -es."},
+
+  {type:"mc",q:"Subjunctive of vendre: ils vendent -> vend-. Que je ___?",opts:["Vende","Vends","Vendais","Vendrai"],ans:"Vende",hint:"Stem vend- plus the je ending for this mood."},
+
+  {type:"fb",s:"Il est important que vous ___ à l'heure. (venir: subj.)",a:"veniez",opts:["veniez","venez","veniez","viendrez"],hint:"You must come on time. Vous subjunctive: stem + -iez."},
+
+  {type:"match",pairs:[{nl:"que vous -iez",en:"that you (pl.)..."},{nl:"qu'ils -ent",en:"that they..."},{nl:"parler -> parl-",en:"que je parle"},{nl:"finir -> finiss-",en:"que je finisse"}]},
+
+  {type:"mc",q:"Many -er verb subjunctive forms look identical to:",opts:["Their present indicative","Their imparfait","Their future","Their passé composé"],ans:"Their present indicative",hint:"Que je parle = present AND subjunctive. Context tells them apart."},
+
+  {type:"fb",s:"Il faut que tu ___ tes amis. (appeler: ils appellent -> appell-)",a:"appelles",opts:["appelles","appeles","appelais","appelleras"],hint:"You must call your friends. Note the double -ll-."},
+
+  {type:"mc",q:"To verify: 'que nous parlions' - is this subjunctive or imparfait?",opts:["Always subjunctive","Always imparfait","Depends on context (both look the same)","Neither"],ans:"Depends on context (both look the same)",hint:"The forms are identical. Only context distinguishes them."},
+
+  {type:"fb",s:"Il est nécessaire que je ___ tôt. (partir: ils partent -> part-)",a:"parte",opts:["parte","pars","partais","partirai"],hint:"I must leave early. Stem part- + -e."},
+]},
+
+// ═══ L3: Irregular subjunctive ═══
+{id:"fre17l3",title:"Les irréguliers",icon:"⚡",xp:15,board:true,steps:[
+  {type:"intro",title:"Irregular subjunctive forms",desc:"The most common verbs have irregular subjunctive stems. The good news: there are only about 10 truly irregular ones, and you'll use them constantly.",goals:["Learn être, avoir, aller, faire subjunctive","Learn pouvoir, savoir, vouloir subjunctive","Recognize irregular patterns"]},
+
+  {type:"tip",title:"Key irregular subjunctives",text:"ÊTRE: que je sois, que tu sois, qu'il soit,\nque nous soyons, que vous soyez, qu'ils soient\n\nAVOIR: que j'aie, que tu aies, qu'il ait,\nque nous ayons, que vous ayez, qu'ils aient\n\nALLER: que j'aille, que tu ailles, qu'il aille,\nque nous allions, que vous alliez, qu'ils aillent\n\nFAIRE: que je fasse, que tu fasses, qu'il fasse,\nque nous fassions, que vous fassiez, qu'ils fassent\n\nPOUVOIR: que je puisse\nSAVOIR: que je sache\nVOULOIR: que je veuille"},
+
+  {type:"teach",kind:"phrase",nl:"que je sois",en:"that I be (subj.)",phonetic:"kuh zhuh SWAH",example:"A: Il faut que je sois à la gare à midi.\nB: Tu veux que je te conduise?\nA: Ce serait gentil!",exampleEn:"A: I need to be at the station at noon.\nB: Do you want me to drive you?\nA: That would be kind!",note:"Être subjunctive: completely irregular.\nQue je sois, tu sois, il soit.\nNous soyons, vous soyez, ils soient."},
+
+  {type:"teach",kind:"phrase",nl:"que j'aie",en:"that I have (subj.)",phonetic:"kuh ZHAY",example:"A: Il faut que j'aie mon passeport.\nB: Tu l'as vérifié?\nA: Non, je vais vérifier!",exampleEn:"A: I need to have my passport.\nB: Have you checked?\nA: No, I'll check!",note:"Avoir subjunctive: irregular.\nQue j'aie, tu aies, il ait.\nNous ayons, vous ayez, ils aient."},
+
+  {type:"teach",kind:"phrase",nl:"que je fasse",en:"that I do/make (subj.)",phonetic:"kuh zhuh FAHS",example:"A: Il faut que je fasse les courses.\nB: Tu veux que je vienne avec toi?\nA: Oui, allons-y!",exampleEn:"A: I need to do the shopping.\nB: Do you want me to come with you?\nA: Yes, let's go!",note:"Faire subjunctive: que je fasse.\nCompletely different from present (fais).\nQue nous fassions, qu'ils fassent."},
+
+  {type:"mc",q:"Subjunctive of être: 'Il faut que tu ___.'",opts:["Es","Sois","Seras","Étais"],ans:"Sois",hint:"Être is completely irregular in the subjunctive."},
+
+  {type:"fb",s:"Il faut que j'___ le temps. (avoir, subj.)",a:"aie",opts:["aie","ai","aies","avais"],hint:"I must have time. Avoir subjunctive je form."},
+
+  {type:"mc",q:"'Je veux qu'il ___ ses devoirs.' (faire)",opts:["Fait","Fasse","Fera","Faisait"],ans:"Fasse",hint:"Faire is completely irregular in this mood. Think fass-."},
+
+  {type:"fb",s:"Il est important que nous ___ patients. (être, subj.)",a:"soyons",opts:["soyons","sommes","étions","serons"],hint:"We must be patient. Être nous form in subjunctive."},
+
+  {type:"match",pairs:[{nl:"que je sois",en:"that I be"},{nl:"que j'aie",en:"that I have"},{nl:"que j'aille",en:"that I go"},{nl:"que je fasse",en:"that I do/make"}]},
+
+  {type:"mc",q:"Subjunctive of aller: 'Il faut que j'___.'",opts:["Vais","Aille","Irai","Allais"],ans:"Aille",hint:"Aller has a unique subjunctive stem: aill-."},
+
+  {type:"fb",s:"Je veux que tu ___ la vérité. (savoir, subj.)",a:"saches",opts:["saches","sais","savais","sauras"],hint:"I want you to know the truth. Savoir -> que je sache."},
+
+  {type:"mc",q:"Subjunctive of pouvoir: 'Il faut que je ___.'",opts:["Peux","Puisse","Pouvais","Pourrai"],ans:"Puisse",hint:"Pouvoir has an irregular stem puiss- in this mood."},
+
+  {type:"fb",s:"Il faut qu'ils ___ à la réunion. (aller, subj.)",a:"aillent",opts:["aillent","vont","allaient","iront"],hint:"They must go to the meeting. Aller ils subj. form."},
+
+  {type:"match",pairs:[{nl:"que je puisse",en:"that I can"},{nl:"que je sache",en:"that I know"},{nl:"que je veuille",en:"that I want"},{nl:"que nous allions",en:"that we go"}]},
+
+  {type:"mc",q:"'Il est essentiel qu'elle ___ là.' (être, subj.)",opts:["Est","Soit","Sera","Était"],ans:"Soit",hint:"Être is completely irregular. Third person singular = ?"},
+
+  {type:"fb",s:"Je souhaite que vous ___ heureux. (être, subj.)",a:"soyez",opts:["soyez","êtes","étiez","serez"],hint:"I wish you to be happy. Être vous form."},
+
+  {type:"mc",q:"How many truly irregular subjunctive verbs are there?",opts:["About 50","About 10","About 3","All verbs are irregular"],ans:"About 10",hint:"Most verbs follow the regular ils- stem rule. Only ~10 are fully irregular."},
+
+  {type:"fb",s:"Il faut que tu ___ y aller. (pouvoir, subj.)",a:"puisses",opts:["puisses","peux","pouvais","pourras"],hint:"You must be able to go. Pouvoir tu form."},
+]},
+
+// ═══ L4: Common triggers ═══
+{id:"fre17l4",title:"Les déclencheurs",icon:"🎯",xp:15,board:true,steps:[
+  {type:"intro",title:"Common subjunctive triggers",desc:"Master the most frequent expressions that require the subjunctive. Group them by category: necessity, desire, emotion, doubt, and judgment.",goals:["Memorize key trigger expressions","Categorize triggers by type","Use triggers naturally in sentences"]},
+
+  {type:"tip",title:"Trigger categories",text:"NECESSITY:\nil faut que, il est nécessaire que,\nil est important que, il est essentiel que\n\nDESIRE:\nje veux que, je souhaite que,\nj'aimerais que, je préfère que\n\nEMOTION:\nje suis content/triste/surpris que,\nj'ai peur que, je regrette que\n\nDOUBT/POSSIBILITY:\nje doute que, il est possible que,\nil se peut que, bien que (although)\n\nJUDGMENT:\nil est normal que, il vaut mieux que,\nc'est dommage que"},
+
+  {type:"teach",kind:"phrase",nl:"J'aimerais que tu viennes.",en:"I would like you to come.",phonetic:"zheh-muh-RAY kuh tew vee-EN",example:"A: J'aimerais que tu viennes à ma fête.\nB: Avec plaisir! C'est quand?\nA: Samedi prochain!",exampleEn:"A: I'd like you to come to my party.\nB: With pleasure! When is it?\nA: Next Saturday!",note:"Aimer (conditional) + que + subjunctive.\nPolite way to express a wish.\nViennes = subjunctive of venir."},
+
+  {type:"teach",kind:"phrase",nl:"J'ai peur que",en:"I'm afraid that",phonetic:"zhay PUHR kuh",example:"A: J'ai peur qu'il pleuve demain.\nB: Regarde la météo!\nA: Elle dit qu'il fera beau.",exampleEn:"A: I'm afraid it might rain tomorrow.\nB: Check the forecast!\nA: It says it'll be nice.",note:"Avoir peur que + subjunctive.\nExpresses fear about an uncertain event.\nPleuve = subjunctive of pleuvoir."},
+
+  {type:"mc",q:"Which triggers the subjunctive?",opts:["Je sais que","Je pense que","Il faut que","Je crois que"],ans:"Il faut que",hint:"Certainty (sais, pense, crois) = indicative. Necessity = subjunctive."},
+
+  {type:"fb",s:"Je souhaite ___ tu réussisses. (that)",a:"que",opts:["que","qui","quand","quoi"],hint:"I wish that you succeed. Desire triggers subjunctive."},
+
+  {type:"mc",q:"'Bien que' (although) requires:",opts:["Indicative","Subjunctive","Conditional","Infinitive"],ans:"Subjunctive",hint:"Bien qu'il soit fatigué... = although he is tired."},
+
+  {type:"fb",s:"C'est dommage ___ tu ne puisses pas venir. (that)",a:"que",opts:["que","qui","quand","quoi"],hint:"It's a shame that you can't come. Judgment trigger."},
+
+  {type:"match",pairs:[{nl:"il faut que",en:"necessity"},{nl:"j'ai peur que",en:"emotion (fear)"},{nl:"il est possible que",en:"doubt"},{nl:"c'est dommage que",en:"judgment"}]},
+
+  {type:"mc",q:"'Il vaut mieux que tu ___.' (partir) Best = vaut mieux que.",opts:["Pars","Partes","Partais","Partiras"],ans:"Partes",hint:"Il vaut mieux que = judgment trigger. Subjunctive of partir."},
+
+  {type:"fb",s:"Je regrette ___ elle soit malade. (that)",a:"que",opts:["que","qui","quand","quoi"],hint:"I regret that she is sick. Emotion trigger."},
+
+  {type:"mc",q:"'Je pense que' vs 'je ne pense pas que': which takes subjunctive?",opts:["Both","Neither","Only je pense que","Only je ne pense pas que"],ans:"Only je ne pense pas que",hint:"Negative doubt triggers subjunctive. Positive certainty = indicative."},
+
+  {type:"fb",s:"Il se peut ___ il arrive en retard. (that)",a:"qu'",opts:["qu'","que","qui","quoi"],hint:"It may be that he arrives late. Possibility = doubt trigger."},
+
+  {type:"match",pairs:[{nl:"je veux que",en:"→ subjunctive"},{nl:"je sais que",en:"→ indicative"},{nl:"je doute que",en:"→ subjunctive"},{nl:"je crois que",en:"→ indicative"}]},
+
+  {type:"mc",q:"'Pour que' (so that) requires:",opts:["Indicative","Subjunctive","Conditional","Present"],ans:"Subjunctive",hint:"Je travaille pour que tu sois fier. Purpose requires which mood?"},
+
+  {type:"fb",s:"Il est normal ___ tu sois fatigué après le sport. (that)",a:"que",opts:["que","qui","quand","quoi"],hint:"It's normal that you're tired. Judgment triggers subjunctive."},
+
+  {type:"mc",q:"Key insight: the subjunctive appears after expressions where the action is:",opts:["Certain and factual","Uncertain, wished, or judged","Past","Future"],ans:"Uncertain, wished, or judged",hint:"If it's a fact, use indicative. If it's uncertain/wished, use subjunctive."},
+
+  {type:"fb",s:"Je préfère ___ nous restions ici. (that)",a:"que",opts:["que","qui","quand","quoi"],hint:"I prefer that we stay here. Preference = desire trigger."},
+
+  {type:"mc",q:"Summary: after trigger + que, the verb mood is:",opts:["Always indicative","Always subjunctive","Always conditional","Depends on the trigger"],ans:"Always subjunctive",hint:"The trigger expressions listed all require subjunctive after que."},
+]},
+
+// ═══ L5: Practice with il faut que ═══
+{id:"fre17l5",title:"Il faut que...",icon:"📋",xp:15,board:true,steps:[
+  {type:"intro",title:"Mastering il faut que",desc:"Il faut que is BY FAR the most common subjunctive trigger. Practice using it with regular and irregular verbs to express necessity and obligation.",goals:["Use il faut que fluently","Combine with regular verbs","Combine with irregular être/avoir/aller/faire"]},
+
+  {type:"teach",kind:"phrase",nl:"Il faut que je fasse attention.",en:"I must pay attention.",phonetic:"eel FOH kuh zhuh FAHS ah-tahn-see-ON",example:"A: La route est dangereuse ici.\nB: Oui, il faut que je fasse attention.\nA: Surtout la nuit!",exampleEn:"A: The road is dangerous here.\nB: Yes, I must be careful.\nA: Especially at night!",note:"Faire attention = to be careful/pay attention.\nFasse = subjunctive of faire.\nVery common daily expression."},
+
+  {type:"teach",kind:"phrase",nl:"Il faut que nous partions.",en:"We must leave.",phonetic:"eel FOH kuh noo par-tee-ON",example:"A: Quelle heure est-il?\nB: Neuf heures! Il faut que nous partions!\nA: On va être en retard!",exampleEn:"A: What time is it?\nB: Nine o'clock! We must leave!\nA: We're going to be late!",note:"Partir subjunctive: que je parte,\nque nous partions.\nNous/vous forms resemble imparfait."},
+
+  {type:"mc",q:"'Il faut que tu ___ tes légumes.' (manger)",opts:["Manges","Mange","Mangeras","Mangeais"],ans:"Manges",hint:"Tu form of subjunctive: stem + -es."},
+
+  {type:"fb",s:"Il faut que j'___ à la banque. (aller, subj.)",a:"aille",opts:["aille","vais","allais","irai"],hint:"I must go to the bank. Aller subjunctive: irregular."},
+
+  {type:"mc",q:"'Il faut que vous ___ prêts.' (être, subj.)",opts:["Êtes","Soyez","Étiez","Serez"],ans:"Soyez",hint:"Be ready! Être vous subjunctive form."},
+
+  {type:"fb",s:"Il faut que nous ___ un taxi. (prendre, subj.)",a:"prenions",opts:["prenions","prenons","prenions","prendrons"],hint:"We must take a taxi. Prendre nous subjunctive."},
+
+  {type:"match",pairs:[{nl:"il faut que je sois",en:"I must be"},{nl:"il faut que j'aie",en:"I must have"},{nl:"il faut que j'aille",en:"I must go"},{nl:"il faut que je fasse",en:"I must do"}]},
+
+  {type:"mc",q:"'Il faut qu'elle ___ ses devoirs.' (finir)",opts:["Finit","Finisse","Finira","Finissait"],ans:"Finisse",hint:"Second group verb (-ir). Take the ils present form, drop -ent, add -e."},
+
+  {type:"fb",s:"Il faut que tu ___ la vérité. (dire, subj.)",a:"dises",opts:["dises","dis","disais","diras"],hint:"You must tell the truth. Dire subjunctive: que je dise."},
+
+  {type:"mc",q:"Il faut que + infinitive (without que) is also possible when:",opts:["Always","Never","When there's no specific subject","Only in formal French"],ans:"When there's no specific subject",hint:"Il faut partir (general) vs il faut que TU partes (specific)."},
+
+  {type:"fb",s:"Il faut que je ___ la vaisselle. (faire, subj.)",a:"fasse",opts:["fasse","fais","faisais","ferai"],hint:"I must do the dishes. Faire subjunctive."},
+
+  {type:"match",pairs:[{nl:"il faut manger",en:"one must eat (general)"},{nl:"il faut que je mange",en:"I must eat (specific)"},{nl:"il faut partir",en:"one must leave"},{nl:"il faut que tu partes",en:"you must leave"}]},
+
+  {type:"mc",q:"'Il ne faut pas que tu ___ en retard.' (être)",opts:["Es","Sois","Seras","Étais"],ans:"Sois",hint:"You must not be late. Negative il faut que still uses subjunctive."},
+
+  {type:"fb",s:"Il faut qu'ils ___ plus d'efforts. (faire, subj. ils)",a:"fassent",opts:["fassent","font","faisaient","feront"],hint:"They must make more effort. Faire ils subjunctive."},
+
+  {type:"mc",q:"Which is more natural in spoken French?",opts:["Il faut que je parte","Il faut partir","Both are equally common","Neither is common"],ans:"Both are equally common",hint:"With a specific subject, que + subj. Without, infinitive. Both natural."},
+
+  {type:"fb",s:"Il faut que vous ___ patience. (avoir, subj.)",a:"ayez",opts:["ayez","avez","aviez","aurez"],hint:"You must have patience. Avoir vous subjunctive."},
+
+  {type:"mc",q:"Summary: il faut que is used so often because:",opts:["French people are polite","Necessity is a daily need in communication","It sounds fancy","It's only in textbooks"],ans:"Necessity is a daily need in communication",hint:"I must, you must, we must = constant daily expressions."},
+]},
+
+// ═══ L6: Emotion triggers ═══
+{id:"fre17l6",title:"Les émotions",icon:"❤️",xp:15,board:true,steps:[
+  {type:"intro",title:"Subjunctive after emotions",desc:"When you express how you FEEL about something someone else does, use the subjunctive. Happy that, sad that, surprised that, afraid that...",goals:["Use subjunctive after emotion expressions","Express joy, sadness, surprise, fear","Build natural emotional sentences"]},
+
+  {type:"teach",kind:"phrase",nl:"Je suis surpris qu'il soit là.",en:"I'm surprised he's here.",phonetic:"zhuh swee sewr-PREE keel SWAH lah",example:"A: Regarde! Pierre est là!\nB: Je suis surpris qu'il soit là. Il est malade, non?\nA: Il va mieux, apparemment.",exampleEn:"A: Look! Pierre is here!\nB: I'm surprised he's here. He's sick, right?\nA: He's better, apparently.",note:"Être surpris que + subjunctive.\nSoit = subjunctive of être.\nEmotional reaction about someone else's action."},
+
+  {type:"teach",kind:"phrase",nl:"J'ai peur qu'il pleuve.",en:"I'm afraid it might rain.",phonetic:"zhay PUHR keel PLUHV",example:"A: On fait un pique-nique demain?\nB: J'ai peur qu'il pleuve.\nA: On peut toujours manger à l'intérieur!",exampleEn:"A: Shall we have a picnic tomorrow?\nB: I'm afraid it might rain.\nA: We can always eat inside!",note:"Avoir peur que + subjunctive.\nPleuve = subjunctive of pleuvoir.\nExpresses fear about uncertain event."},
+
+  {type:"mc",q:"'Je suis content qu'elle ___ là.' (être, subj.)",opts:["Est","Soit","Sera","Était"],ans:"Soit",hint:"Happy that = emotion trigger. Être subjunctive."},
+
+  {type:"fb",s:"Je suis triste qu'il ___ partir. (devoir, subj.)",a:"doive",opts:["doive","doit","devait","devra"],hint:"I'm sad he has to leave. Emotion + que + subjunctive."},
+
+  {type:"mc",q:"'J'ai peur que nous ___ en retard.' (être, subj.)",opts:["Sommes","Soyons","Étions","Serons"],ans:"Soyons",hint:"I'm afraid we might be late. Fear about uncertain event."},
+
+  {type:"fb",s:"Je suis heureux que tu ___ réussi. (avoir, subj.)",a:"aies",opts:["aies","as","avais","auras"],hint:"I'm happy you succeeded. Emotion. Avoir subj. tu form."},
+
+  {type:"match",pairs:[{nl:"je suis content que",en:"I'm happy that"},{nl:"je suis triste que",en:"I'm sad that"},{nl:"je suis surpris que",en:"I'm surprised that"},{nl:"j'ai peur que",en:"I'm afraid that"}]},
+
+  {type:"mc",q:"'Je regrette qu'elle ne ___ pas venir.' (pouvoir, subj.)",opts:["Peut","Puisse","Pouvait","Pourra"],ans:"Puisse",hint:"I regret she can't come. Pouvoir subjunctive."},
+
+  {type:"fb",s:"C'est dommage que vous ne ___ pas rester. (pouvoir, subj.)",a:"puissiez",opts:["puissiez","pouvez","pouviez","pourrez"],hint:"It's a shame you can't stay. Judgment + emotion."},
+
+  {type:"mc",q:"'Je suis furieux qu'il ___ ça!' (faire, subj.)",opts:["Fait","Fasse","Fera","Faisait"],ans:"Fasse",hint:"I'm furious that he does that! Anger = emotion trigger."},
+
+  {type:"fb",s:"Nous sommes déçus que l'équipe ___ perdu. (avoir, subj.)",a:"ait",opts:["ait","a","avait","aura"],hint:"We're disappointed the team lost. Avoir il subj."},
+
+  {type:"match",pairs:[{nl:"je regrette que",en:"I regret that"},{nl:"c'est dommage que",en:"it's a shame that"},{nl:"je suis furieux que",en:"I'm furious that"},{nl:"je suis déçu que",en:"I'm disappointed that"}]},
+
+  {type:"mc",q:"Notice: the emotion is in the MAIN clause, the subjunctive is in the ___ clause.",opts:["Main","Que-clause","Both","Neither"],ans:"Que-clause",hint:"The emotion is in the main part. The mood appears in which part?"},
+
+  {type:"fb",s:"Je suis étonné qu'il ne ___ pas. (savoir, subj.)",a:"sache",opts:["sache","sait","savait","saura"],hint:"I'm astonished he doesn't know. Surprise emotion."},
+
+  {type:"mc",q:"Does the subjunctive change the MEANING or just the GRAMMAR?",opts:["It changes meaning completely","It signals attitude (non-factual)","It's just grammar, no meaning","It's optional"],ans:"It signals attitude (non-factual)",hint:"The subjunctive tells you the speaker views the action through emotion/judgment."},
+
+  {type:"fb",s:"Elles sont ravies que tu ___ là. (être, subj.)",a:"sois",opts:["sois","es","étais","seras"],hint:"They're delighted you're here. Joy emotion."},
+
+  {type:"mc",q:"Key: emotions about YOUR OWN actions use ___, about OTHERS' actions use ___.",opts:["Indicative / subjunctive","Subjunctive / indicative","Infinitive / subjunctive","Subjunctive / infinitive"],ans:"Infinitive / subjunctive",hint:"Je suis content de venir (myself). Je suis content que tu viennes (you)."},
+]},
+
+// ═══ L7: Subjunctive vs indicative ═══
+{id:"fre17l7",title:"Subjonctif ou indicatif?",icon:"🔀",xp:15,board:true,steps:[
+  {type:"intro",title:"Choosing between subjunctive and indicative",desc:"The trickiest part: some expressions take subjunctive, others take indicative. The key is whether the main clause expresses certainty (indicative) or non-certainty (subjunctive).",goals:["Distinguish subjunctive from indicative triggers","Handle tricky cases (penser, croire, espérer)","Apply the certainty test"]},
+
+  {type:"tip",title:"The certainty test",text:"INDICATIVE (certainty/fact):\nje sais que, je pense que, je crois que,\nil est certain que, il est vrai que,\nj'espère que, il paraît que\n\nSUBJUNCTIVE (non-certainty):\nil faut que, je veux que, je doute que,\nil est possible que, bien que,\npour que, avant que, sans que\n\nTRICKY: je ne pense pas que + SUBJUNCTIVE\n(negating certainty = doubt = subjunctive)"},
+
+  {type:"teach",kind:"phrase",nl:"Je pense qu'il a raison.",en:"I think he's right. (indicative)",phonetic:"zhuh PAHNS keel ah ray-ZON",example:"A: Tu crois qu'il a raison?\nB: Oui, je pense qu'il a raison.\nA: Moi, je ne suis pas sûr.",exampleEn:"A: Do you think he's right?\nB: Yes, I think he's right.\nA: Me, I'm not sure.",note:"Je pense que = I think (certainty).\nUses INDICATIVE (a raison).\nThe speaker is expressing belief, not doubt."},
+
+  {type:"teach",kind:"phrase",nl:"Je ne pense pas qu'il ait raison.",en:"I don't think he's right. (subjunctive)",phonetic:"zhuh nuh PAHNS pah keel AY ray-ZON",example:"A: Marc dit que c'est facile.\nB: Je ne pense pas qu'il ait raison.\nA: Moi non plus.",exampleEn:"A: Marc says it's easy.\nB: I don't think he's right.\nA: Me neither.",note:"Je ne pense PAS que = doubt.\nUses SUBJUNCTIVE (ait).\nNegating certainty creates doubt."},
+
+  {type:"mc",q:"'Je sais qu'elle ___ malade.' (être) Certainty:",opts:["Soit","Est","Serait","Fût"],ans:"Est",hint:"I know = certainty = indicative. Standard present tense."},
+
+  {type:"fb",s:"Je doute qu'il ___ la vérité. (savoir, subj.)",a:"sache",opts:["sache","sait","savait","saura"],hint:"I doubt he knows. Doubt = non-certainty = subjunctive."},
+
+  {type:"mc",q:"'J'espère que tu ___ bien.' (aller) Espérer takes:",opts:["Subjunctive","Indicative","Conditional","Either"],ans:"Indicative",hint:"Espérer (to hope) is special: it takes the factual mood despite being a wish."},
+
+  {type:"fb",s:"Il est vrai qu'il ___ intelligent. (être, indicative)",a:"est",opts:["est","soit","serait","fût"],hint:"It's true that he is smart. Truth = certainty = indicative."},
+
+  {type:"match",pairs:[{nl:"je sais que + indicatif",en:"certainty"},{nl:"je doute que + subjonctif",en:"doubt"},{nl:"j'espère que + indicatif",en:"hope (special!)"},{nl:"je ne crois pas que + subj.",en:"negated belief"}]},
+
+  {type:"mc",q:"'Bien que' (although) takes:",opts:["Indicative","Subjunctive","Conditional","Present only"],ans:"Subjunctive",hint:"Bien qu'il soit fatigué, il travaille. A concessive conjunction."},
+
+  {type:"fb",s:"Je crois qu'elle ___ la réponse. (connaître, certainty)",a:"connaît",opts:["connaît","connaisse","connaissait","connaîtra"],hint:"I believe she knows. Belief = certainty = indicative."},
+
+  {type:"mc",q:"'Croyez-vous qu'il ___ vrai?' (être) Question format:",opts:["Est (indicative)","Soit (subjunctive)","Serait (conditional)","Both est and soit are possible"],ans:"Both est and soit are possible",hint:"Questions with croire can take either. Subjunctive emphasizes doubt."},
+
+  {type:"fb",s:"Bien qu'il ___ fatigué, il continue. (être, subj.)",a:"soit",opts:["soit","est","était","serait"],hint:"Although he's tired, he continues. Bien que = subjunctive."},
+
+  {type:"match",pairs:[{nl:"avant que + subj.",en:"before"},{nl:"après que + indic.",en:"after (traditionally)"},{nl:"pour que + subj.",en:"so that"},{nl:"parce que + indic.",en:"because"}]},
+
+  {type:"mc",q:"'Avant que tu ___' vs 'Après que tu ___': which takes subjunctive?",opts:["Both","Neither","Avant que","Après que"],ans:"Avant que",hint:"Before = event hasn't happened yet = uncertain = subjunctive."},
+
+  {type:"fb",s:"Pour qu'il ___ comprendre, parle lentement. (pouvoir, subj.)",a:"puisse",opts:["puisse","peut","pouvait","pourra"],hint:"So that he can understand. Purpose = subjunctive."},
+
+  {type:"mc",q:"The subjunctive test: 'Is the action factual and certain?'",opts:["Yes = subjunctive","No = subjunctive","Always subjunctive","Never subjunctive"],ans:"No = subjunctive",hint:"Not certain? Not factual? Wished? Doubted? = subjunctive."},
+
+  {type:"fb",s:"Sans que tu ___ sache, j'ai préparé une surprise. (le, subj.)",a:"le",opts:["le","la","les","lui"],hint:"Without you knowing, I prepared a surprise. Sans que + subj."},
+
+  {type:"mc",q:"Summary: the subjunctive appears when the speaker's attitude is:",opts:["Factual and neutral","Non-factual: wishing, doubting, judging, feeling","Always in the past","Only in formal writing"],ans:"Non-factual: wishing, doubting, judging, feeling",hint:"Subjunctive = the mood of subjectivity. Indicative = the mood of facts."},
+]},
+
+// ═══ L8: B1 launch review ═══
+{id:"fre17l8",title:"Bienvenue au B1!",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"Welcome to B1: subjunctive mastery",desc:"Review the subjunctive: formation, triggers, irregular forms, and the certainty test. You now have a powerful new grammatical tool!",goals:["Review all subjunctive rules","Handle regular and irregular forms","Choose between subjunctive and indicative"]},
+
+  {type:"tip",title:"Subjunctive quick reference",text:"FORMATION: ils present stem + -e, -es, -e, -ions, -iez, -ent\nIRREGULARS: être (sois), avoir (aie), aller (aille),\nfaire (fasse), pouvoir (puisse), savoir (sache)\n\nTRIGGERS: necessity, desire, emotion, doubt, judgment\nKey: il faut que, je veux que, je suis content que,\nje doute que, bien que, pour que, avant que\n\nNOT subjunctive: je sais que, je pense que,\nj'espère que, il est certain que, parce que\n\nNEGATED certainty -> subjunctive:\nje ne pense pas que, je ne crois pas que"},
+
+  {type:"mc",q:"'Il faut que je ___ mes devoirs.' (faire)",opts:["Fais","Fasse","Ferai","Faisais"],ans:"Fasse",hint:"Necessity trigger. Faire has an irregular stem fass- in this mood."},
+
+  {type:"fb",s:"Je suis content que tu ___ là. (être, subj.)",a:"sois",opts:["sois","es","étais","seras"],hint:"I'm happy you're here. Emotion trigger."},
+
+  {type:"mc",q:"'Je pense qu'il ___ raison.' (avoir) Certainty:",opts:["Ait","A","Avait","Aura"],ans:"A",hint:"I think = certainty = indicative."},
+
+  {type:"fb",s:"Bien qu'il ___ tard, elle continue de travailler. (être, subj.)",a:"soit",opts:["soit","est","était","serait"],hint:"Although it's late. Bien que = subjunctive trigger."},
+
+  {type:"match",pairs:[{nl:"il faut que je sois",en:"I must be"},{nl:"il faut que j'aie",en:"I must have"},{nl:"il faut que j'aille",en:"I must go"},{nl:"il faut que je fasse",en:"I must do"}]},
+
+  {type:"mc",q:"'J'espère qu'il ___ beau.' (faire) Espérer:",opts:["Fasse","Fera","Ferait","Fait"],ans:"Fera",hint:"Espérer is special: takes indicative (often future), not subjunctive."},
+
+  {type:"fb",s:"Je ne crois pas qu'il ___ venir. (pouvoir, subj.)",a:"puisse",opts:["puisse","peut","pouvait","pourra"],hint:"I don't believe he can come. Negated belief = subjunctive."},
+
+  {type:"mc",q:"Subjunctive formation: take the ___ present form, drop ___, add subj. endings.",opts:["Ils / -ent","Je / -e","Nous / -ons","Tu / -es"],ans:"Ils / -ent",hint:"The third person plural present is always the starting point."},
+
+  {type:"fb",s:"Pour que tu ___ comprendre. (pouvoir, subj.)",a:"puisses",opts:["puisses","peux","pouvais","pourras"],hint:"So that you can understand. Purpose = subjunctive."},
+
+  {type:"match",pairs:[{nl:"certainty = indicative",en:"je sais que, je crois que"},{nl:"doubt = subjunctive",en:"je doute que"},{nl:"emotion = subjunctive",en:"je suis triste que"},{nl:"necessity = subjunctive",en:"il faut que"}]},
+
+  {type:"mc",q:"You now control how many French verb moods?",opts:["One","Two (indicative + subjunctive)","Three (+ conditional)","Four (+ imperative)"],ans:"Four (+ imperative)",hint:"Indicative, subjunctive, conditional, and imperative!"},
+
+  {type:"fb",s:"Je veux que vous ___ fiers de votre français! (être, subj.)",a:"soyez",opts:["soyez","êtes","étiez","serez"],hint:"I want you to be proud of your French! Desire trigger."},
+
+  {type:"mc",q:"The subjunctive will become natural through:",opts:["Memorizing rules only","Practice and exposure to real French","Avoiding it","Using it randomly"],ans:"Practice and exposure to real French",hint:"Rules help, but real fluency comes from hearing and using it."},
+
+  {type:"fb",s:"Il faut que je ___ du subjonctif! (to practice, subj.)",a:"m'entraîne",opts:["m'entraîne","m'entraîne","m'entraînais","m'entraînerai"],hint:"I must practice the subjunctive! S'entraîner subj."},
+
+  {type:"mc",q:"B1 has begun! The subjunctive opens up expressing:",opts:["Only facts","Wishes, fears, necessities, doubts, and judgments","Only past events","Only polite requests"],ans:"Wishes, fears, necessities, doubts, and judgments",hint:"A whole new dimension of expression. Welcome to B1!"},
+
+  {type:"fb",s:"Il est important que vous ___ tous les jours. (étudier, subj.)",a:"étudiiez",opts:["étudiiez","étudiez","étudiez","étudierez"],hint:"It's important that you study every day. Keep going!"},
+]},
+]},
+
 ];
