@@ -5497,6 +5497,7 @@ VOCAB STATUS:
          {type:"drag_fill",s:"Het {1} boek was goed. De {2} tekst is lang.",blanks:{"1":"geschreven","2":"te lezen"},pool:["geschreven","te lezen","schrijvende","gelezen"],hint:"The written book (past PP). The text to be read (te-construction)."},
          {type:"mc",q:"'De gepubliceerde resultaten' uses a:",opts:["te-construction","Present participle","Past participle as adjective","Regular adjective"],ans:"Past participle as adjective",hint:"ge- prefix = past participle. Published = already done."},
          {type:"match",pairs:[{nl:"te lezen",en:"to be read"},{nl:"te verwachten",en:"to be expected"},{nl:"te nemen",en:"to be taken"},{nl:"te trekken",en:"to be drawn"}]},
+         {type:"fb",s:"Het ___ bedrag moet voor vrijdag worden overgemaakt.",a:"te betalen",opts:["te betalen","betaald","betalende","betaalde"],hint:"te + infinitive: the amount that must be paid"},
        ]},
 
 // ═══ L4: Cleft Sentences & Advanced Relatives ═══
@@ -5546,6 +5547,8 @@ VOCAB STATUS:
          {type:"mc",q:"The abstract recommends:",opts:["More homework","Earlier lecture times","Later lecture times and sleep education","Mandatory naps"],ans:"Later lecture times and sleep education",hint:"Latere collegetijden en voorlichting"},
          {type:"drag_fill",s:"Het is het aantal uren slaap {1} correleert met het geheugen. Studenten {2} de slaaptijd laag was, scoorden lager.",blanks:{"1":"dat","2":"waarvan"},pool:["dat","waarvan","die","hetgeen"],hint:"Het aantal = het-word (dat). Students of which (waarvan)."},
          {type:"match",pairs:[{nl:"het slaaptekort",en:"sleep deprivation"},{nl:"de studieprestaties",en:"study performance"},{nl:"de slaaphygiene",en:"sleep hygiene"},{nl:"de tentamencijfers",en:"exam grades"}]},
+         {type:"mc",q:"In the abstract, 'de te verwachten uitkomst' means:",opts:["The unexpected outcome","The expected outcome","The studied outcome","The published outcome"],ans:"The expected outcome",hint:"te + verwachten = to be expected (obligation/future)"},
+         {type:"fb",s:"Universiteiten moeten slaaphygiene actief ___.",a:"bevorderen",opts:["bevorderen","vermijden","verminderen","vergeten"],hint:"To actively promote or encourage something positive"},
        ]},
 
 // ═══ L6: Writing Structured Paragraphs ═══
@@ -5571,6 +5574,7 @@ VOCAB STATUS:
          {type:"fb",s:"De methode is betrouwbaar. ___ is zij eenvoudig.",a:"Bovendien",opts:["Bovendien","Desalniettemin","Daarentegen","Derhalve"],hint:"Adding another positive point: moreover"},
          {type:"drag_fill",s:"Het bewijs is sterk. {1} concluderen wij dat slaap cruciaal is. {2} zijn er ook beperkingen.",blanks:{"1":"Derhalve","2":"Desalniettemin"},pool:["Derhalve","Desalniettemin","Bovendien","Daarentegen"],hint:"Therefore we conclude. Nevertheless there are limitations."},
          {type:"match",pairs:[{nl:"topiczin",en:"topic sentence"},{nl:"onderbouwing",en:"evidence/support"},{nl:"analyse",en:"analysis"},{nl:"derhalve",en:"therefore (formal)"}]},
+         {type:"fb",s:"Slaaptekort is een probleem. ___ moeten universiteiten actie ondernemen.",a:"Derhalve",opts:["Derhalve","Desalniettemin","Daarentegen","Bovendien"],hint:"The formal connector for therefore/consequently"},
        ]},
 
 // ═══ L7: Dutch University Culture ═══
