@@ -7131,5 +7131,319 @@ export default [
 {type:"mc",q:"Which sentence is grammatically INCORRECT?",opts:["Si j'avais su, j'aurais agi","Si j'aurais su, j'aurais agi","J'aurais voulu comprendre","Il aurait fallu prévenir"],ans:"Si j'aurais su, j'aurais agi",hint:"One fundamental rule governs what can follow the word si in French conditionals."},
 {type:"fb",s:"D'après le journal, le gouvernement {1} décidé de reporter les élections.",a:["aurait"],opts:["aurait","avait","a","aura"],hint:"A newspaper reporting unconfirmed political news uses this form."}
 ]}
+]},
+{n:27,lang:"fr",track:"v1",title:"La Nominalisation",sub:"Academic register and formal writing",icon:"📝",level:"B2.3",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Verb→noun transformation (-tion/-ation, -ment) ═══
+{id:"fre27l1",title:"Du verbe au nom: -tion et -ment",icon:"🔄",xp:15,board:true,steps:[
+{type:"intro",title:"Du verbe au nom: -tion et -ment",desc:"French formal writing prefers nouns over verbs. Learn the two most common verb-to-noun suffixes: -tion/-ation and -ment.",goals:["Transform -er verbs into -tion/-ation nouns","Transform verbs into -ment nouns","Recognize when nominalisation improves register","Identify the correct article for each noun"]},
+
+{type:"tip",title:"What Is Nominalisation?",text:"Nominalisation turns verbs and adjectives into nouns.\n\nInformal: Le gouvernement a décidé de réformer l'éducation.\nFormal: La décision du gouvernement de réformer l'éducation...\n\n'a décidé' (verb) became 'la décision' (noun).\n\nThis is the backbone of academic and administrative French.",deepDive:{title:"Why nouns instead of verbs?",text:"Formal French favors noun phrases because they pack more information into fewer clauses. A single noun phrase can replace an entire subordinate clause. This makes sentences denser but more precise. Academic papers, legal documents, news articles, and business reports all rely heavily on nominalisation. Mastering it is the difference between conversational French and professional French."}},
+
+{type:"teach",kind:"word",nl:"la création",en:"the creation",phonetic:"lah kray-ah-SYOHN",example:"A: Comment avance le projet?\nB: La création du site web est presque terminée.\nA: Et la création du logo?\nB: On attend encore les propositions.\nA: La création artistique prend du temps.",exampleEn:"A: How is the project going?\nB: The creation of the website is almost finished.\nA: And the creation of the logo?\nB: We are still waiting for proposals.\nA: Artistic creation takes time.",note:"Créer (to create) becomes la création.\nFeminine noun. -tion suffix = always feminine."},
+
+{type:"teach",kind:"word",nl:"la décision",en:"the decision",phonetic:"lah day-see-ZYOHN",example:"A: Qui a pris cette décision?\nB: La décision vient de la direction.\nA: C'est une décision importante.\nB: Oui, la décision affecte tout le service.\nA: On devrait discuter de cette décision en équipe.",exampleEn:"A: Who made this decision?\nB: The decision comes from management.\nA: It's an important decision.\nB: Yes, the decision affects the whole department.\nA: We should discuss this decision as a team.",note:"Décider (to decide) becomes la décision.\nAll -tion nouns are feminine: la."},
+
+{type:"teach",kind:"word",nl:"l'organisation (f.)",en:"the organization",phonetic:"lor-gah-nee-zah-SYOHN",example:"A: L'organisation de la conférence se passe bien?\nB: Oui, l'organisation est presque finalisée.\nA: Qui s'occupe de l'organisation logistique?\nB: Marie gère toute l'organisation.\nA: Son sens de l'organisation est impressionnant.",exampleEn:"A: Is the organization of the conference going well?\nB: Yes, the organization is nearly finalized.\nA: Who handles the logistical organization?\nB: Marie manages all the organization.\nA: Her sense of organization is impressive.",note:"Organiser becomes l'organisation.\nElision: la organisation becomes l'organisation."},
+
+{type:"teach",kind:"word",nl:"le développement",en:"the development",phonetic:"luh day-vlop-MAHN",example:"A: Le développement de cette application prend combien de temps?\nB: Le développement dure environ six mois.\nA: Et le développement des tests?\nB: C'est inclus dans le développement global.\nA: Le développement durable est aussi une priorité.",exampleEn:"A: How long does the development of this app take?\nB: The development lasts about six months.\nA: And the development of tests?\nB: That's included in the overall development.\nA: Sustainable development is also a priority.",note:"Développer becomes le développement.\n-ment suffix = usually masculine: le."},
+
+{type:"teach",kind:"word",nl:"le changement",en:"the change",phonetic:"luh shahnzh-MAHN",example:"A: Il y a eu un changement de programme.\nB: Quel genre de changement?\nA: Un changement d'horaire important.\nB: Le changement est effectif immédiatement?\nA: Oui, le changement prend effet demain.",exampleEn:"A: There has been a change of program.\nB: What kind of change?\nA: An important schedule change.\nB: Is the change effective immediately?\nA: Yes, the change takes effect tomorrow.",note:"Changer becomes le changement.\nMasculine noun with -ment suffix."},
+
+{type:"teach",kind:"word",nl:"l'amélioration (f.)",en:"the improvement",phonetic:"lah-may-lyor-ah-SYOHN",example:"A: On constate une amélioration des résultats.\nB: L'amélioration est significative?\nA: Oui, l'amélioration atteint 15 pour cent.\nB: L'amélioration continue?\nA: On espère que l'amélioration sera durable.",exampleEn:"A: We notice an improvement in results.\nB: Is the improvement significant?\nA: Yes, the improvement reaches 15 percent.\nB: Is the improvement continuing?\nA: We hope the improvement will be lasting.",note:"Améliorer becomes l'amélioration.\nFeminine: -tion suffix."},
+
+{type:"tip",title:"The Gender Rule for -tion and -ment",text:"Two simple rules:\n\n1. All -tion / -ation / -sion nouns are FEMININE: la\n   la création, la décision, l'organisation\n\n2. Most -ment nouns are MASCULINE: le\n   le développement, le changement, le mouvement\n\nThese two suffixes cover about 60% of all nominalisations in French.",deepDive:{title:"Exceptions to -ment = masculine?",text:"The rule is highly reliable. Very rare exceptions exist in archaic or technical language, but for practical purposes, you can treat -ment as always masculine. Similarly, -tion is 100% feminine with zero exceptions in modern French. When in doubt about the gender of a nominalised word, the suffix tells you."}},
+
+{type:"mc",q:"Créer becomes which noun?",opts:["le créament","la création","le crétion","la créance"],ans:"la création",hint:"The -er verb drops its ending and gains a common feminine suffix."},
+
+{type:"mc",q:"Which suffix makes masculine nouns from verbs?",opts:["-tion","-ment","-ité","-eur"],ans:"-ment",hint:"Think of le développement, le changement, le mouvement."},
+
+{type:"fb",s:"Le {1} de stratégie a surpris tout le monde.",a:["changement"],opts:["changement","changetion","changer","changé"],hint:"Changer becomes a masculine noun with a specific suffix."},
+
+{type:"mc",q:"'L'organisation du festival a pris trois mois.' What is the verb form of the underlined noun?",opts:["organiser","organir","organisationner","organisé"],ans:"organiser",hint:"Remove the suffix to find the original verb infinitive."},
+
+{type:"fb",s:"L'{1} des conditions de travail est une priorité.",a:["amélioration"],opts:["amélioration","améliorement","amélioriser","amélioré"],hint:"Améliorer takes the feminine suffix, not the masculine one."},
+
+{type:"drag_fill",s:"La {1} de nouveaux emplois favorise le {2} économique.",blanks:{"1":"création","2":"développement"},pool:["création","changement","développement","créer","développer"],hint:"First blank: from créer (feminine suffix). Second blank: from développer (masculine suffix)."},
+
+{type:"match",pairs:[{nl:"créer",en:"la création"},{nl:"décider",en:"la décision"},{nl:"développer",en:"le développement"},{nl:"changer",en:"le changement"}]},
+
+{type:"mc",q:"'Nous avons amélioré le service.' In formal writing, this becomes:",opts:["L'amélioration du service a été réalisée","Le améliorement du service est fait","La améliorant du service continue","L'améliorer du service est bon"],ans:"L'amélioration du service a été réalisée",hint:"The verb becomes a feminine noun, and the sentence restructures around it."},
+
+{type:"fb",s:"La {1} de cette loi a provoqué un débat national.",a:["création"],opts:["création","créament","créer","créée"],hint:"From créer. The feminine suffix produces a common formal noun."},
+
+{type:"drag_fill",s:"Le {1} du personnel a permis une meilleure {2} du travail.",blanks:{"1":"changement","2":"organisation"},pool:["changement","organisation","changer","organiser","changé"],hint:"First: masculine noun from changer. Second: feminine noun from organiser."}
+]},
+
+// ═══ L2: Adjective→noun transformation (-ité, -eur, -esse) ═══
+{id:"fre27l2",title:"De l'adjectif au nom: -ité, -eur, -esse",icon:"✨",xp:15,board:true,steps:[
+{type:"intro",title:"De l'adjectif au nom: -ité, -eur, -esse",desc:"Adjectives also transform into nouns. Learn the three key suffixes: -ité (quality), -eur (abstract quality), and -esse (state/quality).",goals:["Transform adjectives into -ité nouns","Transform adjectives into -eur nouns","Transform adjectives into -esse nouns","Use these nouns in formal contexts"]},
+
+{type:"teach",kind:"word",nl:"la possibilité",en:"the possibility",phonetic:"lah poh-see-bee-lee-TAY",example:"A: Est-ce qu'il y a une possibilité de report?\nB: La possibilité existe, mais elle est limitée.\nA: Quelle est la possibilité la plus réaliste?\nB: La possibilité d'un report d'une semaine.\nA: Explorons cette possibilité ensemble.",exampleEn:"A: Is there a possibility of postponement?\nB: The possibility exists, but it is limited.\nA: What is the most realistic possibility?\nB: The possibility of a one-week postponement.\nA: Let's explore this possibility together.",note:"Possible becomes la possibilité.\n-ité suffix = always feminine."},
+
+{type:"teach",kind:"word",nl:"la responsabilité",en:"the responsibility",phonetic:"lah res-pon-sah-bee-lee-TAY",example:"A: Qui a la responsabilité de ce dossier?\nB: La responsabilité incombe au directeur.\nA: C'est une lourde responsabilité.\nB: Oui, la responsabilité implique beaucoup de travail.\nA: Chacun doit assumer sa responsabilité.",exampleEn:"A: Who has responsibility for this file?\nB: The responsibility falls on the director.\nA: It's a heavy responsibility.\nB: Yes, the responsibility involves a lot of work.\nA: Everyone must assume their responsibility.",note:"Responsable becomes la responsabilité.\nFeminine: -ité suffix."},
+
+{type:"teach",kind:"word",nl:"la grandeur",en:"the greatness / grandeur",phonetic:"lah grahn-DUHR",example:"A: La grandeur de ce monument est impressionnante.\nB: Oui, la grandeur reflète l'ambition du roi.\nA: La grandeur de la France à cette époque...\nB: La grandeur n'est pas seulement physique.\nA: Tu parles de la grandeur d'esprit?",exampleEn:"A: The grandeur of this monument is impressive.\nB: Yes, the grandeur reflects the king's ambition.\nA: The greatness of France at that time...\nB: Greatness is not only physical.\nA: You mean greatness of spirit?",note:"Grand becomes la grandeur.\n-eur from adjectives = feminine.\nCognate: English 'grandeur' from French."},
+
+{type:"teach",kind:"word",nl:"la douceur",en:"the softness / gentleness",phonetic:"lah doo-SUHR",example:"A: J'apprécie la douceur de ce tissu.\nB: La douceur est sa qualité principale.\nA: Et la douceur de sa voix...\nB: Oui, la douceur caractérise bien cette personne.\nA: La douceur n'est pas de la faiblesse.",exampleEn:"A: I appreciate the softness of this fabric.\nB: Softness is its main quality.\nA: And the gentleness of her voice...\nB: Yes, gentleness characterizes this person well.\nA: Gentleness is not weakness.",note:"Doux (soft/gentle) becomes la douceur.\nFeminine noun."},
+
+{type:"teach",kind:"word",nl:"la tristesse",en:"the sadness",phonetic:"lah trees-TES",example:"A: On sent une grande tristesse dans ce roman.\nB: La tristesse du personnage est palpable.\nA: D'où vient cette tristesse?\nB: La tristesse naît de la solitude.\nA: La tristesse peut aussi inspirer de belles oeuvres.",exampleEn:"A: You can feel a great sadness in this novel.\nB: The character's sadness is palpable.\nA: Where does this sadness come from?\nB: Sadness is born from loneliness.\nA: Sadness can also inspire beautiful works.",note:"Triste becomes la tristesse.\n-esse suffix = always feminine."},
+
+{type:"teach",kind:"word",nl:"la richesse",en:"the wealth / richness",phonetic:"lah ree-SHES",example:"A: La richesse culturelle de cette région est exceptionnelle.\nB: Oui, la richesse du patrimoine attire les touristes.\nA: La richesse ne se mesure pas qu'en argent.\nB: La richesse des échanges humains compte aussi.\nA: Bien dit. La richesse est multiforme.",exampleEn:"A: The cultural richness of this region is exceptional.\nB: Yes, the richness of the heritage attracts tourists.\nA: Wealth is not measured only in money.\nB: The richness of human exchanges counts too.\nA: Well said. Richness is multifaceted.",note:"Riche becomes la richesse.\n-esse suffix = feminine."},
+
+{type:"tip",title:"Three Suffixes, One Gender",text:"All three adjective-to-noun suffixes produce FEMININE nouns:\n\n-ité: possible → la possibilité, responsable → la responsabilité\n-eur: grand → la grandeur, doux → la douceur\n-esse: triste → la tristesse, riche → la richesse\n\nMemory trick: adjective qualities are abstract, and abstract quality nouns in French are almost always feminine.",deepDive:{title:"The -eur trap: agent vs quality",text:"-eur has two different uses in French:\n\n1. From adjectives (quality): la grandeur, la douceur, la lenteur. These are FEMININE.\n2. From verbs (agent/doer): le chanteur (singer), le danseur (dancer). These are MASCULINE.\n\nThe difference: quality nouns describe a state (the softness), agent nouns describe a person who does something (the singer). Context and the base word (adjective vs verb) tell you which is which."}},
+
+{type:"mc",q:"Possible becomes which noun?",opts:["le possiblement","la possibilité","la possiblesse","le possibileur"],ans:"la possibilité",hint:"The adjective takes a common feminine suffix that also appears in English."},
+
+{type:"mc",q:"All -ité, -eur (from adjectives), and -esse nouns are:",opts:["Masculine","Feminine","Sometimes masculine, sometimes feminine","Neutral"],ans:"Feminine",hint:"Abstract quality nouns from adjectives share one consistent grammatical property."},
+
+{type:"fb",s:"La {1} de ce projet repose sur le directeur.",a:["responsabilité"],opts:["responsabilité","responsablement","responsablesse","responsable"],hint:"From responsable. Uses the suffix that also appears in English 'responsibility'."},
+
+{type:"match",pairs:[{nl:"triste",en:"la tristesse"},{nl:"grand",en:"la grandeur"},{nl:"possible",en:"la possibilité"},{nl:"riche",en:"la richesse"}]},
+
+{type:"fb",s:"La {1} de cette musique me touche profondément.",a:["douceur"],opts:["douceur","doucité","doucesse","doucement"],hint:"From doux/douce. The suffix indicates an abstract quality, not an adverb."},
+
+{type:"mc",q:"'La lenteur du processus inquiète les citoyens.' Lenteur comes from:",opts:["lent (slow)","lenter (to slow)","lentir (to slow down)","lente (feminine of slow)"],ans:"lent (slow)",hint:"This noun describes the quality of being slow, derived from the adjective."},
+
+{type:"drag_fill",s:"La {1} de la nature et la {2} de ses paysages attirent les visiteurs.",blanks:{"1":"richesse","2":"grandeur"},pool:["richesse","grandeur","tristesse","riche","grand"],hint:"First: quality of being riche. Second: quality of being grand."},
+
+{type:"mc",q:"Which transformation is INCORRECT?",opts:["triste → la tristeur","riche → la richesse","grand → la grandeur","possible → la possibilité"],ans:"triste → la tristeur",hint:"Each adjective has one correct suffix. Triste does not use -eur."},
+
+{type:"fb",s:"La {1} culturelle de la France est mondialement reconnue.",a:["richesse"],opts:["richesse","richeur","richité","richement"],hint:"From riche. Uses the same suffix as tristesse."},
+
+{type:"drag_fill",s:"La {1} de cette décision et la {2} de la réussir inquiètent l'équipe.",blanks:{"1":"responsabilité","2":"possibilité"},pool:["responsabilité","possibilité","responsablesse","grandeur","tristesse"],hint:"Both come from adjectives (responsable, possible) and share the same suffix."}
+]},
+
+// ═══ L3: Using nominalisation in formal writing ═══
+{id:"fre27l3",title:"Nominaliser pour formaliser",icon:"📄",xp:15,board:true,steps:[
+{type:"intro",title:"Nominaliser pour formaliser",desc:"Transform everyday sentences into formal register by replacing verb phrases with noun phrases. This is the core skill of academic French writing.",goals:["Convert verb clauses to noun phrases","Use 'de + noun' constructions","Restructure sentences around nouns","Recognize formal vs informal register"]},
+
+{type:"teach",kind:"phrase",nl:"La décision du gouvernement",en:"The government's decision",phonetic:"lah day-see-ZYOHN doo goo-vern-MAHN",example:"A: Le gouvernement a décidé d'augmenter les impôts.\nB: Comment dire cela de manière plus formelle?\nA: La décision du gouvernement d'augmenter les impôts...\nB: C'est beaucoup plus soutenu.\nA: Exactement, le nom remplace le verbe.",exampleEn:"A: The government decided to raise taxes.\nB: How do you say that more formally?\nA: The government's decision to raise taxes...\nB: That's much more formal.\nA: Exactly, the noun replaces the verb.",note:"Informal: Le gouvernement a décidé.\nFormal: La décision du gouvernement.\nThe verb becomes a noun, the subject becomes a complement with de/du."},
+
+{type:"teach",kind:"phrase",nl:"L'augmentation des prix",en:"The increase in prices",phonetic:"lohg-mahn-tah-SYOHN day PREE",example:"A: Les prix ont augmenté de 5 pour cent.\nB: En langage formel?\nA: L'augmentation des prix atteint 5 pour cent.\nB: Le verbe disparaît complètement!\nA: Oui, c'est le principe de la nominalisation.",exampleEn:"A: Prices increased by 5 percent.\nB: In formal language?\nA: The increase in prices reaches 5 percent.\nB: The verb disappears completely!\nA: Yes, that is the principle of nominalisation.",note:"Augmenter becomes l'augmentation.\ndes prix = of the prices (de + les = des)."},
+
+{type:"teach",kind:"phrase",nl:"La réduction des coûts",en:"The reduction in costs",phonetic:"lah ray-dook-SYOHN day KOO",example:"A: L'entreprise veut réduire ses coûts.\nB: Dans un rapport, on écrirait:\nA: La réduction des coûts constitue un objectif prioritaire.\nB: C'est plus professionnel.\nA: La nominalisation donne un ton officiel.",exampleEn:"A: The company wants to reduce its costs.\nB: In a report, one would write:\nA: The reduction in costs constitutes a priority objective.\nB: That's more professional.\nA: Nominalisation gives an official tone.",note:"Réduire becomes la réduction.\nInformal: réduire les coûts.\nFormal: la réduction des coûts."},
+
+{type:"teach",kind:"phrase",nl:"La suppression de postes",en:"The elimination of positions",phonetic:"lah soo-preh-SYOHN duh POHST",example:"A: L'usine va supprimer deux cents postes.\nB: Le journal titre:\nA: La suppression de deux cents postes à l'usine.\nB: Le titre est un nom, pas une phrase complète.\nA: Les titres de journaux adorent la nominalisation.",exampleEn:"A: The factory will eliminate two hundred positions.\nB: The newspaper headline reads:\nA: The elimination of two hundred positions at the factory.\nB: The headline is a noun, not a complete sentence.\nA: Newspaper headlines love nominalisation.",note:"Supprimer becomes la suppression.\nNews headlines frequently use nominalised forms."},
+
+{type:"tip",title:"The Transformation Pattern",text:"Informal → Formal conversion follows a pattern:\n\n1. Find the main verb (décider, augmenter, réduire)\n2. Turn it into a noun (la décision, l'augmentation, la réduction)\n3. The subject becomes 'de + noun' (du gouvernement, des prix)\n4. Restructure the sentence around the new noun\n\nExample:\nLes employés participent activement.\n→ La participation active des employés...",deepDive:{title:"When NOT to nominalise",text:"Not every sentence benefits from nominalisation. Overuse creates dense, hard-to-read prose. Guidelines:\n\nGood: key actions in topic sentences, headlines, abstracts, formal conclusions.\nBad: every sentence in a paragraph, conversational contexts, instructions meant to be clear and direct.\n\nAcademic writing typically nominalisas 30-40% of main verbs. Going higher makes text impenetrable even for native speakers."}},
+
+{type:"mc",q:"'Les étudiants participent au projet.' The formal version begins with:",opts:["La participation des étudiants au projet","Le participement des étudiants","Les participants des étudiants","La participante des étudiants"],ans:"La participation des étudiants au projet",hint:"The verb becomes a feminine -tion noun, the subject becomes a de-complement."},
+
+{type:"fb",s:"L'{1} des prix inquiète les consommateurs.",a:["augmentation"],opts:["augmentation","augmenter","augmenté","augmentement"],hint:"From augmenter. Uses the standard feminine verb-to-noun suffix."},
+
+{type:"mc",q:"In formal French, 'L'entreprise a réduit ses effectifs' becomes:",opts:["La réduction des effectifs de l'entreprise","L'entreprise a fait la réduction","Le réduisement des effectifs","La réduite des effectifs"],ans:"La réduction des effectifs de l'entreprise",hint:"The verb transforms to a noun, and the subject moves to a de-phrase."},
+
+{type:"drag_fill",s:"La {1} de ce problème nécessite la {2} de tous les services.",blanks:{"1":"résolution","2":"collaboration"},pool:["résolution","collaboration","résoudre","collaborer","résolument"],hint:"First: from résoudre (to resolve). Second: from collaborer (to collaborate). Both feminine."},
+
+{type:"fb",s:"La {1} de postes a provoqué une grève.",a:["suppression"],opts:["suppression","supprimer","supprimement","supprimation"],hint:"From supprimer. The correct suffix creates a feminine noun."},
+
+{type:"mc",q:"Which sentence is MORE formal?",opts:["On a constaté que les résultats s'améliorent","L'amélioration des résultats a été constatée","Les résultats vont mieux maintenant","Ça s'améliore, les résultats"],ans:"L'amélioration des résultats a été constatée",hint:"The most formal version replaces active verbs with noun phrases and passive constructions."},
+
+{type:"match",pairs:[{nl:"Le gouvernement a décidé",en:"La décision du gouvernement"},{nl:"Les prix ont augmenté",en:"L'augmentation des prix"},{nl:"L'entreprise a réduit",en:"La réduction par l'entreprise"},{nl:"On a supprimé des postes",en:"La suppression de postes"}]},
+
+{type:"drag_fill",s:"La {1} du directeur a conduit à la {2} du projet.",blanks:{"1":"décision","2":"réorganisation"},pool:["décision","réorganisation","décider","réorganiser","décisionnement"],hint:"First: from décider. Second: from réorganiser. Both use the feminine suffix."},
+
+{type:"mc",q:"'La consommation d'énergie a diminué.' What was the informal version?",opts:["On consomme moins d'énergie","La consomme d'énergie diminue","L'énergie consomme moins","Consommer l'énergie diminue"],ans:"On consomme moins d'énergie",hint:"Reverse the process: replace the noun with its source verb in a natural sentence."},
+
+{type:"fb",s:"La {1} active des citoyens renforce la démocratie.",a:["participation"],opts:["participation","participer","participant","participement"],hint:"From participer. Standard feminine suffix for verb-to-noun conversion."},
+
+{type:"mc",q:"A newspaper headline reads: 'Fermeture de l'usine Renault.' In everyday speech, this means:",opts:["L'usine Renault va fermer","La fermeture veut l'usine","Renault fermeture l'usine","On fermeture l'usine"],ans:"L'usine Renault va fermer",hint:"Turn the headline noun back into a verb for the spoken version."},
+{type:"fb",s:"La {1} des prix inquiète les consommateurs.",a:["hausse"],opts:["hausse","augmenter","monter","croissance"],hint:"The noun form meaning 'rise/increase', often used in economics and headlines."}
+]},
+
+// ═══ L4: Academic vocabulary ═══
+{id:"fre27l4",title:"Le vocabulaire académique",icon:"🎓",xp:15,board:true,steps:[
+{type:"intro",title:"Le vocabulaire académique",desc:"Master essential academic nouns used in essays, research papers, and formal presentations. These words are the building blocks of French intellectual discourse.",goals:["Learn 6 core academic nouns","Use them in research contexts","Combine them in formal sentences","Distinguish similar academic terms"]},
+
+{type:"teach",kind:"word",nl:"une hypothèse",en:"a hypothesis",phonetic:"oon ee-poh-TEZ",example:"A: Quelle est votre hypothèse de recherche?\nB: Notre hypothèse est que le stress affecte la mémoire.\nA: Comment allez-vous vérifier cette hypothèse?\nB: Nous allons tester l'hypothèse avec un groupe témoin.\nA: Une hypothèse solide est la base de toute recherche.",exampleEn:"A: What is your research hypothesis?\nB: Our hypothesis is that stress affects memory.\nA: How will you verify this hypothesis?\nB: We will test the hypothesis with a control group.\nA: A solid hypothesis is the foundation of all research.",note:"Feminine noun. Cognate with English 'hypothesis'.\nPlural: des hypothèses."},
+
+{type:"teach",kind:"word",nl:"une analyse",en:"an analysis",phonetic:"oon ah-nah-LEEZ",example:"A: L'analyse des données est terminée.\nB: Quels sont les résultats de l'analyse?\nA: L'analyse révèle une tendance inquiétante.\nB: Il faudra approfondir cette analyse.\nA: Oui, une analyse complémentaire s'impose.",exampleEn:"A: The analysis of the data is complete.\nB: What are the results of the analysis?\nA: The analysis reveals a worrying trend.\nB: We will need to deepen this analysis.\nA: Yes, a complementary analysis is necessary.",note:"Feminine noun. From analyser (to analyze).\nCognate: English 'analysis'."},
+
+{type:"teach",kind:"word",nl:"une conclusion",en:"a conclusion",phonetic:"oon kon-kloo-ZYOHN",example:"A: Quelle conclusion tirez-vous de cette étude?\nB: La conclusion principale est claire.\nA: Pouvez-vous résumer la conclusion?\nB: En conclusion, le traitement est efficace.\nA: C'est une conclusion encourageante.",exampleEn:"A: What conclusion do you draw from this study?\nB: The main conclusion is clear.\nA: Can you summarize the conclusion?\nB: In conclusion, the treatment is effective.\nA: That is an encouraging conclusion.",note:"Feminine noun. From conclure (to conclude).\nEn conclusion = in conclusion (essay transition)."},
+
+{type:"teach",kind:"word",nl:"une méthodologie",en:"a methodology",phonetic:"oon may-toh-doh-loh-ZHEE",example:"A: Décrivez votre méthodologie de recherche.\nB: Notre méthodologie repose sur des entretiens.\nA: La méthodologie est-elle reproductible?\nB: Oui, la méthodologie a été validée.\nA: Une bonne méthodologie garantit des résultats fiables.",exampleEn:"A: Describe your research methodology.\nB: Our methodology is based on interviews.\nA: Is the methodology reproducible?\nB: Yes, the methodology has been validated.\nA: A good methodology guarantees reliable results.",note:"Feminine noun. From méthode (method) + -logie.\nUsed in academic papers to describe research approach."},
+
+{type:"teach",kind:"word",nl:"une problématique",en:"a research question / problematic",phonetic:"oon proh-blay-mah-TEEK",example:"A: Quelle est la problématique de votre mémoire?\nB: La problématique porte sur l'inégalité scolaire.\nA: C'est une problématique importante.\nB: Oui, cette problématique touche toute la société.\nA: Comment abordez-vous cette problématique?",exampleEn:"A: What is the research question of your thesis?\nB: The research question concerns educational inequality.\nA: It is an important research question.\nB: Yes, this issue affects all of society.\nA: How do you approach this question?",note:"Feminine noun. NOT the same as 'un problème' (a problem).\nLa problématique = the central research question or framework."},
+
+{type:"teach",kind:"word",nl:"un corpus",en:"a corpus / body of work",phonetic:"uhn kor-POOS",example:"A: Sur quel corpus travaillez-vous?\nB: Notre corpus comprend deux cents articles.\nA: Le corpus est-il suffisant?\nB: Oui, le corpus couvre la période 2020 à 2025.\nA: Un corpus large renforce la validité de l'étude.",exampleEn:"A: What corpus are you working on?\nB: Our corpus includes two hundred articles.\nA: Is the corpus sufficient?\nB: Yes, the corpus covers the period 2020 to 2025.\nA: A large corpus strengthens the validity of the study.",note:"Masculine noun. Latin origin.\nUn corpus = a collection of texts or data for analysis."},
+
+{type:"tip",title:"Academic French Structure",text:"A French academic paper follows this structure:\n\n1. La problématique: the central question\n2. L'hypothèse: what you think the answer is\n3. La méthodologie: how you will test it\n4. L'analyse: examining the data\n5. La conclusion: what you found\n\nEvery section name is a nominalised form. Academic French IS nominalisation.",deepDive:{title:"French vs English academic writing",text:"French academic writing is more formal than English. Where English might write 'We found that stress affects memory,' French prefers 'L'analyse des données a révélé un impact significatif du stress sur la mémoire.' The noun-heavy style is not just preferred but expected. Professors will mark down papers written in conversational French. This is why mastering nominalisation is essential for anyone studying in French."}},
+
+{type:"mc",q:"La problématique refers to:",opts:["A simple problem to fix","The central research question or framework","A list of problems","A problematic student"],ans:"The central research question or framework",hint:"In academic French, this term has a specific meaning beyond everyday 'problem'."},
+
+{type:"fb",s:"Notre {1} repose sur des entretiens qualitatifs.",a:["méthodologie"],opts:["méthodologie","méthode","méthodique","méthodiquement"],hint:"The academic term for research approach, not just 'method'."},
+
+{type:"mc",q:"Which word describes the collection of texts a researcher analyzes?",opts:["un corpus","une analyse","une hypothèse","une conclusion"],ans:"un corpus",hint:"Latin-origin term for a body of data or texts used in research."},
+
+{type:"fb",s:"L'{1} des résultats confirme notre hypothèse.",a:["analyse"],opts:["analyse","analysement","analyser","analytique"],hint:"The feminine noun derived from the verb 'to examine data'. Ends in -yse."},
+
+{type:"match",pairs:[{nl:"une hypothèse",en:"a testable prediction"},{nl:"une méthodologie",en:"the research approach"},{nl:"une problématique",en:"the central research question"},{nl:"une conclusion",en:"the final findings"}]},
+
+{type:"drag_fill",s:"L'{1} porte sur l'impact du numérique, et notre {2} est testée par des enquêtes.",blanks:{"1":"problématique","2":"hypothèse"},pool:["problématique","hypothèse","méthodologie","conclusion","corpus"],hint:"First: the research question. Second: the testable prediction."},
+
+{type:"mc",q:"'En conclusion, les données confirment l'hypothèse initiale.' This sentence belongs in which part of a paper?",opts:["The introduction","The methodology section","The final section of the paper","The bibliography"],ans:"The final section of the paper",hint:"The phrase 'en conclusion' signals the wrapping-up of findings."},
+
+{type:"fb",s:"Le {1} étudié comprend trois cents articles scientifiques.",a:["corpus"],opts:["corpus","analyse","problème","contenu"],hint:"The Latin-origin academic term for the body of texts being studied."},
+
+{type:"drag_fill",s:"L'{1} des données par notre {2} a produit une {3} surprenante.",blanks:{"1":"analyse","2":"méthodologie","3":"conclusion"},pool:["analyse","méthodologie","conclusion","hypothèse","problématique"],hint:"Examining data, using a research approach, yielding a final finding."},
+
+{type:"mc",q:"Which is the correct order for an academic paper?",opts:["Conclusion, analyse, méthodologie, hypothèse","Problématique, hypothèse, méthodologie, analyse, conclusion","Analyse, conclusion, problématique, hypothèse","Méthodologie, problématique, conclusion, analyse"],ans:"Problématique, hypothèse, méthodologie, analyse, conclusion",hint:"Start with the question, predict, design the method, examine, then conclude."}
+]},
+
+// ═══ L5: Formal writing structures ═══
+{id:"fre27l5",title:"Les tournures formelles",icon:"🖋️",xp:15,board:true,steps:[
+{type:"intro",title:"Les tournures formelles",desc:"Master fixed formal expressions that elevate your writing to academic and administrative register: il convient de, il s'avère que, force est de constater.",goals:["Use il convient de + infinitive","Use il s'avère que + indicative","Use force est de constater","Combine formal turns with nominalisation"]},
+
+{type:"teach",kind:"phrase",nl:"Il convient de",en:"It is appropriate to / One should",phonetic:"eel kon-VYEHN duh",example:"A: Comment introduire une recommandation dans un rapport?\nB: On utilise 'il convient de' suivi de l'infinitif.\nA: Par exemple?\nB: Il convient de prendre des mesures immédiates.\nA: C'est beaucoup plus formel que 'on devrait'.",exampleEn:"A: How do you introduce a recommendation in a report?\nB: You use 'il convient de' followed by the infinitive.\nA: For example?\nB: It is appropriate to take immediate measures.\nA: That's much more formal than 'we should'.",note:"Very formal. Used in reports, legal texts, recommendations.\nAlways followed by an infinitive verb.\nAvoid in conversation: sounds stiff."},
+
+{type:"teach",kind:"phrase",nl:"Il s'avère que",en:"It turns out that / It proves to be the case that",phonetic:"eel sah-VEHR kuh",example:"A: Que montrent les résultats?\nB: Il s'avère que notre hypothèse était correcte.\nA: C'est une formulation très académique.\nB: Oui, il s'avère que ce registre impressionne les jurys.\nA: Il s'avère que la nominalisation est partout!",exampleEn:"A: What do the results show?\nB: It turns out that our hypothesis was correct.\nA: That's a very academic formulation.\nB: Yes, it turns out that this register impresses juries.\nA: It turns out that nominalisation is everywhere!",note:"Formal way to present findings or discoveries.\nFollowed by que + indicative clause.\nLess dramatic than 'en fait' (actually)."},
+
+{type:"teach",kind:"phrase",nl:"Force est de constater",en:"One must acknowledge / We cannot but observe",phonetic:"fors eh duh kon-stah-TAY",example:"A: Comment exprimer une évidence désagréable?\nB: On dit: force est de constater que...\nA: Par exemple?\nB: Force est de constater que les inégalités persistent.\nA: C'est une tournure très puissante.",exampleEn:"A: How do you express an unpleasant fact?\nB: You say: force est de constater que...\nA: For example?\nB: One must acknowledge that inequalities persist.\nA: That is a very powerful turn of phrase.",note:"Extremely formal. Used when stating an undeniable truth.\nOften introduces negative or concerning observations.\nLiteral: 'force is to observe' (one is forced to observe)."},
+
+{type:"teach",kind:"phrase",nl:"Il est à noter que",en:"It should be noted that",phonetic:"eel eh tah noh-TAY kuh",example:"A: Comment signaler un point important dans un rapport?\nB: Il est à noter que les délais ont été respectés.\nA: C'est plus neutre que 'il faut souligner'.\nB: Exactement. Il est à noter que cette formule est courante.\nA: On la trouve dans tous les rapports officiels.",exampleEn:"A: How do you flag an important point in a report?\nB: It should be noted that the deadlines were met.\nA: That is more neutral than 'it must be emphasized'.\nB: Exactly. It should be noted that this formula is common.\nA: You find it in all official reports.",note:"Used to draw attention to a specific point in formal writing.\nNeutral tone, neither positive nor negative.\nCommon in business and government reports."},
+
+{type:"teach",kind:"phrase",nl:"Il importe de",en:"It is important to",phonetic:"eel ehn-PORT duh",example:"A: Comment dire que quelque chose est important formellement?\nB: Il importe de distinguer les causes et les conséquences.\nA: C'est plus soutenu que 'c'est important de'?\nB: Beaucoup plus. Il importe de choisir le bon registre.\nA: Il importe de bien maîtriser ces tournures.",exampleEn:"A: How do you say something is important formally?\nB: It is important to distinguish causes and consequences.\nA: Is that more formal than 'c'est important de'?\nB: Much more. It is important to choose the right register.\nA: It is important to master these turns of phrase well.",note:"Formal alternative to 'c'est important de'.\nFollowed by infinitive. Used in academic and legal writing."},
+
+{type:"tip",title:"Formal Turns: When to Use Them",text:"These expressions belong in:\n- Academic papers and theses\n- Official reports and memos\n- Legal documents\n- Formal presentations\n\nThey do NOT belong in:\n- Emails to friends\n- Casual conversation\n- Social media posts\n\nUsing them in the wrong context sounds pretentious or comical.",deepDive:{title:"Register awareness in French",text:"French has a stronger register system than English. What sounds slightly formal in English ('It should be noted that...') is completely normal in French formal writing. Conversely, using casual French in a professional report is a serious social misstep. The formal turns in this lesson are not decorative: they are expected and necessary in their contexts. French employers, professors, and administrators notice immediately when someone lacks these formulations."}},
+
+{type:"mc",q:"'Il convient de revoir notre stratégie.' This means:",opts:["It is convenient to review our strategy","It is appropriate to review our strategy","The convention is to review our strategy","He agrees to review our strategy"],ans:"It is appropriate to review our strategy",hint:"Convenir means to be suitable, not 'to be convenient' in this context."},
+
+{type:"fb",s:"Il {1} que les résultats dépassent nos attentes.",a:["s'avère"],opts:["s'avère","convient","importe","faut"],hint:"The formal expression meaning 'it turns out that' or 'it proves to be'."},
+
+{type:"mc",q:"Which expression introduces an undeniable observation?",opts:["Il convient de","Il s'avère que","Force est de constater","Il est à noter que"],ans:"Force est de constater",hint:"The strongest of these expressions, used when a fact cannot be denied."},
+
+{type:"fb",s:"Il {1} de prendre en compte tous les facteurs avant de décider.",a:["convient"],opts:["convient","s'avère","force","importe"],hint:"The formal way to say 'one should' in a recommendation."},
+
+{type:"mc",q:"'Il est à noter que le budget a été respecté.' This expression is:",opts:["Strongly negative","Neutral, drawing attention to a point","Extremely formal and rare","Informal and casual"],ans:"Neutral, drawing attention to a point",hint:"This formula flags information without judging it positively or negatively."},
+
+{type:"drag_fill",s:"{1} est de constater que les inégalités {2} malgré les réformes.",blanks:{"1":"Force","2":"persistent"},pool:["Force","Il","persistent","persiste","disparaissent"],hint:"The fixed formal expression uses a specific opening word and observes an ongoing problem."},
+
+{type:"match",pairs:[{nl:"Il convient de",en:"It is appropriate to"},{nl:"Il s'avère que",en:"It turns out that"},{nl:"Force est de constater",en:"One must acknowledge"},{nl:"Il importe de",en:"It is important to"}]},
+
+{type:"fb",s:"Il {1} de souligner que ces résultats sont préliminaires.",a:["importe"],opts:["importe","convient","s'avère","force"],hint:"The formal way to say 'it is important to' in academic writing."},
+
+{type:"mc",q:"In a formal report, you want to say 'We should act now.' Which is most appropriate?",opts:["On devrait agir maintenant","Il convient d'agir dans les plus brefs délais","Faut qu'on bouge","Il faut faire quelque chose vite"],ans:"Il convient d'agir dans les plus brefs délais",hint:"Formal reports require impersonal constructions, not 'on' or 'faut'."},
+
+{type:"drag_fill",s:"Il {1} que la situation est plus complexe qu'il n'y paraît. Il {2} d'approfondir l'analyse.",blanks:{"1":"s'avère","2":"convient"},pool:["s'avère","convient","importe","force","faut"],hint:"First: presenting a discovery. Second: making a recommendation."},
+{type:"fb",s:"Force est de {1} que les résultats sont décevants.",a:["constater"],opts:["constater","dire","croire","penser"],hint:"The formal expression meaning 'one must observe/acknowledge'. Infinitive after de."}
+]},
+
+// ═══ L6: Impersonal constructions ═══
+{id:"fre27l6",title:"Les constructions impersonnelles",icon:"🏛️",xp:15,board:true,steps:[
+{type:"intro",title:"Les constructions impersonnelles",desc:"Impersonal constructions remove the actor and focus on the action or observation. Essential for formal, objective writing.",goals:["Use il est nécessaire de + infinitive","Use il est essentiel que + subjunctive","Use on constate que + indicative","Distinguish infinitive vs subjunctive triggers"]},
+
+{type:"teach",kind:"phrase",nl:"Il est nécessaire de",en:"It is necessary to",phonetic:"eel eh nay-seh-SAIR duh",example:"A: Comment formuler une obligation dans un rapport?\nB: Il est nécessaire de respecter les délais.\nA: Pourquoi pas 'il faut'?\nB: 'Il est nécessaire de' est plus soutenu.\nA: Il est nécessaire de maîtriser les deux registres.",exampleEn:"A: How do you formulate an obligation in a report?\nB: It is necessary to respect the deadlines.\nA: Why not 'il faut'?\nB: 'Il est nécessaire de' is more formal.\nA: It is necessary to master both registers.",note:"Formal upgrade of 'il faut'.\nFollowed by de + infinitive when no specific subject.\nUsed in recommendations and conclusions."},
+
+{type:"teach",kind:"phrase",nl:"Il est essentiel que",en:"It is essential that",phonetic:"eel eh eh-sahn-SYEL kuh",example:"A: Comment insister sur un point crucial?\nB: Il est essentiel que chacun comprenne les enjeux.\nA: Pourquoi le subjonctif après?\nB: Parce que 'il est essentiel que' exprime une nécessité.\nA: Il est essentiel que les étudiants le sachent.",exampleEn:"A: How do you insist on a crucial point?\nB: It is essential that everyone understands the stakes.\nA: Why the subjunctive after?\nB: Because 'il est essentiel que' expresses a necessity.\nA: It is essential that students know this.",note:"Followed by que + SUBJUNCTIVE.\nThe subjunctive is required after expressions of necessity.\nil est essentiel que + subject + verb (subj.)"},
+
+{type:"teach",kind:"phrase",nl:"On constate que",en:"One observes that / It is observed that",phonetic:"ohn kon-STAT kuh",example:"A: Comment présenter un résultat de manière objective?\nB: On constate que le taux de chômage a baissé.\nA: Pourquoi 'on' et pas 'nous'?\nB: 'On constate' est impersonnel, plus objectif.\nA: On constate que cette tournure est très courante.",exampleEn:"A: How do you present a result objectively?\nB: One observes that the unemployment rate has dropped.\nA: Why 'on' and not 'nous'?\nB: 'On constate' is impersonal, more objective.\nA: One observes that this turn of phrase is very common.",note:"'On' used impersonally = 'one' or 'it is observed'.\nFollowed by que + indicative (stating facts).\nVery common in research papers."},
+
+{type:"teach",kind:"phrase",nl:"Il apparaît que",en:"It appears that",phonetic:"eel ah-pah-REH kuh",example:"A: Comment nuancer une observation?\nB: Il apparaît que les causes sont multiples.\nA: C'est moins affirmatif que 'il est clair que'?\nB: Exactement. Il apparaît que la réalité est complexe.\nA: Une bonne formule pour les conclusions prudentes.",exampleEn:"A: How do you nuance an observation?\nB: It appears that the causes are multiple.\nA: Is that less assertive than 'it is clear that'?\nB: Exactly. It appears that reality is complex.\nA: A good formula for cautious conclusions.",note:"Formal and slightly tentative.\nUsed when presenting findings that are likely but not certain.\nFollowed by que + indicative."},
+
+{type:"teach",kind:"phrase",nl:"Il est souhaitable que",en:"It is desirable that",phonetic:"eel eh sweh-tah-BLUH kuh",example:"A: Comment faire une suggestion polie dans un rapport?\nB: Il est souhaitable que les mesures soient prises rapidement.\nA: C'est plus doux que 'il est nécessaire'?\nB: Oui, c'est une recommandation, pas une obligation.\nA: Il est souhaitable que tout le monde en soit informé.",exampleEn:"A: How do you make a polite suggestion in a report?\nB: It is desirable that the measures be taken quickly.\nA: Is that softer than 'it is necessary'?\nB: Yes, it is a recommendation, not an obligation.\nA: It is desirable that everyone be informed.",note:"Softer than 'nécessaire'. A formal recommendation.\nFollowed by que + SUBJUNCTIVE (expressing wish/desire).\nCommon in official recommendations."},
+
+{type:"tip",title:"Infinitive vs Subjunctive After Impersonals",text:"Two patterns:\n\n1. il est + adj + DE + infinitive (no specific subject):\n   Il est nécessaire de vérifier. (general statement)\n\n2. il est + adj + QUE + subjunctive (specific subject):\n   Il est nécessaire que vous vérifiiez. (you must verify)\n\nThe key: when there is a specific person doing the action, use que + subjunctive. When the statement is general, use de + infinitive.",deepDive:{title:"Common subjunctive triggers in formal writing",text:"Many impersonal expressions trigger the subjunctive:\n\nNecessity: il est nécessaire que, il est essentiel que, il est indispensable que\nDesirability: il est souhaitable que, il est préférable que\nPossibility: il est possible que, il se peut que\nJudgment: il est important que, il est normal que\n\nExpressions of certainty take the indicative: il est clair que, il est évident que, on constate que."}},
+
+{type:"mc",q:"'Il est essentiel que chacun participe.' Why is 'participe' in the subjunctive?",opts:["Because the sentence is negative","Because 'il est essentiel que' expresses necessity","Because 'participer' is irregular","Because 'on' is the subject"],ans:"Because 'il est essentiel que' expresses necessity",hint:"Expressions of necessity and judgment trigger a specific verb mood."},
+
+{type:"fb",s:"Il est {1} de revoir les procédures de sécurité.",a:["nécessaire"],opts:["nécessaire","constaté","apparu","observé"],hint:"The formal way to express that something must be done. Followed by de + infinitive."},
+
+{type:"mc",q:"Which expression takes the INDICATIVE, not the subjunctive?",opts:["Il est essentiel que","Il est souhaitable que","On constate que","Il est nécessaire que"],ans:"On constate que",hint:"This expression presents observed facts, not wishes or necessities."},
+
+{type:"fb",s:"On {1} que les résultats varient selon la région.",a:["constate"],opts:["constate","souhaite","essentialise","nécessite"],hint:"The impersonal way to present an observed fact in academic writing."},
+
+{type:"drag_fill",s:"Il est {1} que les mesures {2} prises avant la fin du mois.",blanks:{"1":"souhaitable","2":"soient"},pool:["souhaitable","nécessaire","soient","sont","seront"],hint:"A soft recommendation (not obligation) requires a specific verb mood."},
+
+{type:"mc",q:"'Il est nécessaire de comprendre' vs 'Il est nécessaire que vous compreniez.' What is the difference?",opts:["No difference, both are identical","The first is general, the second targets 'you' specifically","The first is informal, the second formal","The first is past, the second present"],ans:"The first is general, the second targets 'you' specifically",hint:"De + infinitive is general. Que + subjunctive names a specific actor."},
+
+{type:"match",pairs:[{nl:"Il est nécessaire de",en:"General obligation (+ infinitive)"},{nl:"Il est essentiel que",en:"Specific necessity (+ subjunctive)"},{nl:"On constate que",en:"Observed fact (+ indicative)"},{nl:"Il apparaît que",en:"Tentative finding (+ indicative)"}]},
+
+{type:"fb",s:"Il {1} que les causes du problème sont multiples.",a:["apparaît"],opts:["apparaît","essentiel","constate","nécessaire"],hint:"A tentative, nuanced way to present findings that seem likely."},
+
+{type:"drag_fill",s:"Il est {1} que chaque employé {2} les nouvelles procédures avant lundi.",blanks:{"1":"essentiel","2":"connaisse"},pool:["essentiel","nécessaire","connaisse","connaît","connaîtra"],hint:"A strong necessity statement with a specific subject triggers subjunctive."},
+
+{type:"mc",q:"In an academic conclusion, which combination is most appropriate?",opts:["On constate que les résultats confirment l'hypothèse. Il convient de poursuivre la recherche.","Les résultats sont bons. Il faut continuer.","Ça marche bien. On devrait en faire plus.","J'ai trouvé que ça marchait. Faudrait continuer."],ans:"On constate que les résultats confirment l'hypothèse. Il convient de poursuivre la recherche.",hint:"The most formal option uses impersonal constructions and academic vocabulary."},
+{type:"fb",s:"Il est {1} que tous les participants soient informés.",a:["essentiel"],opts:["essentiel","essentiellement","essence","important"],hint:"The adjective meaning 'essential/critical', used in impersonal il est ___ que + subjonctif."}
+]},
+
+// ═══ L7: Complex noun phrases and academic sentence building ═══
+{id:"fre27l7",title:"Construire des phrases académiques",icon:"🏗️",xp:15,board:true,steps:[
+{type:"intro",title:"Construire des phrases académiques",desc:"Combine nominalisation, formal expressions, and academic vocabulary to build complete academic sentences and paragraphs.",goals:["Stack multiple nominalisations in one sentence","Combine formal turns with academic nouns","Build topic sentences for academic paragraphs","Restructure informal text into formal register"]},
+
+{type:"teach",kind:"phrase",nl:"La mise en oeuvre",en:"The implementation",phonetic:"lah meez ahn OOVR",example:"A: Le gouvernement a mis en oeuvre un nouveau programme.\nB: En style formel?\nA: La mise en oeuvre du nouveau programme a débuté.\nB: La mise en oeuvre est souvent plus difficile que la planification.\nA: La mise en oeuvre nécessite des ressources considérables.",exampleEn:"A: The government implemented a new program.\nB: In formal style?\nA: The implementation of the new program has begun.\nB: Implementation is often harder than planning.\nA: Implementation requires considerable resources.",note:"Mettre en oeuvre (to implement) becomes la mise en oeuvre.\nVery common in policy and business writing.\nFeminine noun phrase."},
+
+{type:"teach",kind:"phrase",nl:"La prise en compte",en:"The consideration / taking into account",phonetic:"lah preez ahn KOHNT",example:"A: Il faut prendre en compte les besoins des employés.\nB: Formellement:\nA: La prise en compte des besoins des employés est primordiale.\nB: C'est une phrase qu'on trouve dans tous les rapports.\nA: La prise en compte de tous les facteurs est essentielle.",exampleEn:"A: We must take into account the needs of employees.\nB: Formally:\nA: The consideration of employee needs is paramount.\nB: That is a sentence found in every report.\nA: Taking all factors into account is essential.",note:"Prendre en compte becomes la prise en compte.\nVery frequent in formal writing and administration.\nAlways followed by de + noun."},
+
+{type:"teach",kind:"phrase",nl:"La remise en question",en:"The questioning / calling into question",phonetic:"lah ruh-meez ahn kes-TYOHN",example:"A: Faut-il remettre en question cette approche?\nB: La remise en question de nos méthodes est saine.\nA: Une remise en question régulière favorise l'innovation.\nB: Sans remise en question, pas de progrès.\nA: La remise en question est un signe de maturité intellectuelle.",exampleEn:"A: Should we question this approach?\nB: The questioning of our methods is healthy.\nA: Regular questioning promotes innovation.\nB: Without questioning, no progress.\nA: Questioning is a sign of intellectual maturity.",note:"Remettre en question becomes la remise en question.\nIntellectual and academic concept.\nPositive in French: questioning = critical thinking."},
+
+{type:"teach",kind:"phrase",nl:"Dans le cadre de",en:"Within the framework of / As part of",phonetic:"dahn luh KAHDR duh",example:"A: Comment situer une action dans son contexte?\nB: On dit: dans le cadre de cette étude.\nA: Dans le cadre de notre projet, nous avons...\nB: C'est indispensable dans l'écriture académique.\nA: Dans le cadre de ce cours, vous apprendrez cinq formules.",exampleEn:"A: How do you situate an action in its context?\nB: You say: within the framework of this study.\nA: As part of our project, we have...\nB: It is indispensable in academic writing.\nA: As part of this course, you will learn five formulas.",note:"Fixed prepositional phrase. Extremely common in formal French.\nSets the context for what follows.\nAlternatives: dans le contexte de, au sein de."},
+
+{type:"tip",title:"Building Academic Sentences",text:"Formula for a strong academic topic sentence:\n\nContext + Nominalised Action + Formal Turn + Observation\n\nDans le cadre de cette étude, l'analyse des données révèle que...\n(Context: dans le cadre de)\n(Nominalisation: l'analyse des données)\n(Formal turn: révèle que)\n\nStack these elements and you produce professional French.",deepDive:{title:"Sentence length in academic French",text:"French academic sentences are longer than English ones. A typical topic sentence in a French essay is 25-40 words. This is not a flaw: it reflects the noun-phrase-heavy style that packs context, action, and observation into a single syntactic unit. English academic writing values shorter sentences. French values completeness. Neither is wrong, but you must adapt to the target language's norms."}},
+
+{type:"mc",q:"'La mise en oeuvre du plan a été retardée.' What is the informal version?",opts:["On a retardé le plan à mettre en oeuvre","On n'a pas encore mis le plan en oeuvre à temps","Le plan a été retardé","Ils n'ont pas mis en oeuvre le plan à temps"],ans:"Ils n'ont pas mis en oeuvre le plan à temps",hint:"Reverse the nominalisation: the noun phrase becomes a verb phrase with a subject."},
+
+{type:"fb",s:"La {1} en compte de l'environnement est devenue une priorité.",a:["prise"],opts:["prise","mise","remise","prise"],hint:"From prendre en compte. The first word of this three-word noun phrase."},
+
+{type:"mc",q:"'Dans le cadre de notre recherche' means:",opts:["In the frame of our research (literal)","As part of our research","In the card of our research","During the square of our research"],ans:"As part of our research",hint:"This is a fixed prepositional phrase that sets the context."},
+
+{type:"fb",s:"La {1} en question de nos certitudes est nécessaire.",a:["remise"],opts:["remise","mise","prise","remis"],hint:"From remettre en question. The noun that means 'questioning' or 'challenging'."},
+
+{type:"drag_fill",s:"Dans le {1} de cette étude, la {2} en oeuvre du protocole a été évaluée.",blanks:{"1":"cadre","2":"mise"},pool:["cadre","mise","prise","remise","contexte"],hint:"First: the framing word in the fixed expression. Second: from mettre en oeuvre."},
+
+{type:"mc",q:"Which sentence best combines nominalisation with a formal turn?",opts:["Force est de constater que la mise en oeuvre du projet rencontre des obstacles","Le projet a des problèmes quand on le met en oeuvre","C'est dur de faire le projet comme prévu","Force est que le projet ne va pas bien"],ans:"Force est de constater que la mise en oeuvre du projet rencontre des obstacles",hint:"The best answer layers a formal expression with a nominalised verb phrase."},
+
+{type:"match",pairs:[{nl:"la mise en oeuvre",en:"the implementation"},{nl:"la prise en compte",en:"the consideration"},{nl:"la remise en question",en:"the questioning"},{nl:"dans le cadre de",en:"within the framework of"}]},
+
+{type:"drag_fill",s:"La {1} en compte des besoins individuels favorise la {2} des résultats.",blanks:{"1":"prise","2":"amélioration"},pool:["prise","remise","amélioration","augmentation","mise"],hint:"First: from prendre en compte. Second: from améliorer (positive change in results)."},
+
+{type:"fb",s:"Dans le {1} de cette réforme, il convient de revoir les procédures.",a:["cadre"],opts:["cadre","cas","contexte","cours"],hint:"The specific word used in the fixed academic prepositional phrase."},
+
+{type:"mc",q:"Transform: 'Nous devons questionner nos méthodes pour améliorer les résultats.'",opts:["La remise en question de nos méthodes favorisera l'amélioration des résultats","On doit questionner pour améliorer","Les méthodes questionnées améliorent","Il faut remise en question des méthodes pour l'amélioration"],ans:"La remise en question de nos méthodes favorisera l'amélioration des résultats",hint:"Both verbs become nouns, creating a dense but precise formal sentence."},
+{type:"fb",s:"L'objectif principal de cette étude est l'{1} de l'impact environnemental.",a:["évaluation"],opts:["évaluation","évaluer","évaluement","évaluant"],hint:"The -tion noun derived from the verb meaning 'to evaluate/assess'."},
+{type:"mc",q:"Which sentence uses the most complex academic noun phrase?",opts:["La mise en oeuvre progressive de la réforme éducative","On va faire la réforme petit à petit","La réforme sera progressive","Il faut réformer l'éducation progressivement"],ans:"La mise en oeuvre progressive de la réforme éducative",hint:"The most academic version stacks multiple nominalisations in a single phrase."}
+]},
+
+// ═══ L8: Comprehensive review ═══
+{id:"fre27l8",title:"Révision: la nominalisation complète",icon:"🎯",xp:15,board:true,steps:[
+{type:"intro",title:"Révision: la nominalisation complète",desc:"Put everything together: verb-to-noun, adjective-to-noun, formal expressions, impersonal constructions, and academic sentence building.",goals:["Transform any verb or adjective into its noun form","Select the correct formal expression for context","Build complete academic paragraphs","Distinguish register levels accurately"]},
+
+{type:"mc",q:"Développer becomes:",opts:["la développation","le développement","la développesse","le développeur"],ans:"le développement",hint:"This verb uses the masculine suffix, not the feminine one."},
+
+{type:"fb",s:"La {1} de cette étude porte sur l'impact des réseaux sociaux.",a:["problématique"],opts:["problématique","problème","analyse","possibilité"],hint:"The academic term for the central research question, not just 'a problem'."},
+
+{type:"mc",q:"Which suffix ALWAYS produces feminine nouns?",opts:["-ment","-eur (from verbs)","-tion","-eur (from adjectives) and -tion"],ans:"-eur (from adjectives) and -tion",hint:"Two different suffixes both consistently produce the same grammatical gender."},
+
+{type:"fb",s:"Il {1} de prendre des mesures immédiates pour résoudre ce problème.",a:["convient"],opts:["convient","s'avère","apparaît","constate"],hint:"The formal expression for making a recommendation, followed by de + infinitive."},
+
+{type:"drag_fill",s:"L'{1} des données confirme notre {2} initiale.",blanks:{"1":"analyse","2":"hypothèse"},pool:["analyse","hypothèse","conclusion","méthodologie","problématique"],hint:"First: the process of examining data. Second: the initial prediction being tested."},
+
+{type:"mc",q:"'Force est de constater que la situation se dégrade.' This expression is used to:",opts:["Make a polite suggestion","Present an undeniable negative observation","Express a personal opinion","Ask a research question"],ans:"Present an undeniable negative observation",hint:"This is the strongest formal expression, used for facts that cannot be avoided."},
+
+{type:"match",pairs:[{nl:"créer → la création",en:"-tion (feminine)"},{nl:"changer → le changement",en:"-ment (masculine)"},{nl:"triste → la tristesse",en:"-esse (feminine)"},{nl:"possible → la possibilité",en:"-ité (feminine)"}]},
+
+{type:"fb",s:"Il est {1} que chaque participant comprenne les enjeux.",a:["essentiel"],opts:["essentiel","constaté","apparu","noté"],hint:"The formal way to say something is crucially important. Triggers subjunctive."},
+
+{type:"mc",q:"Which sentence is in the HIGHEST register?",opts:["On devrait faire quelque chose","Il faut agir maintenant","Il convient de prendre des mesures dans les plus brefs délais","Il faudrait qu'on fasse un truc"],ans:"Il convient de prendre des mesures dans les plus brefs délais",hint:"The most elevated option uses a formal impersonal expression with precise formal vocabulary."},
+
+{type:"drag_fill",s:"Dans le {1} de notre recherche, la {2} en oeuvre du protocole a permis l'{3} des résultats.",blanks:{"1":"cadre","2":"mise","3":"amélioration"},pool:["cadre","mise","amélioration","prise","remise"],hint:"Context phrase, then implementation noun, then the positive change noun."},
+
+{type:"fb",s:"La {1} des coûts constitue un objectif prioritaire pour l'entreprise.",a:["réduction"],opts:["réduction","réduire","réductement","réduite"],hint:"From réduire. The standard feminine verb-to-noun form."},
+
+{type:"mc",q:"Transform: 'Les chercheurs ont observé que le stress augmente.' Choose the most academic version.",opts:["Il a été observé par les chercheurs que le stress augmente","L'observation des chercheurs révèle une augmentation du stress","Les chercheurs, ils ont vu que le stress monte","On a observé le stress qui augmente"],ans:"L'observation des chercheurs révèle une augmentation du stress",hint:"The most academic version nominalisas both the action of observing and the action of increasing."},
+
+{type:"drag_fill",s:"Il {1} que la {2} de postes a entraîné une baisse de la {3}.",blanks:{"1":"s'avère","2":"suppression","3":"productivité"},pool:["s'avère","suppression","productivité","apparaît","augmentation"],hint:"First: formal 'it turns out'. Second: from supprimer. Third: quality noun from productif."},
+
+{type:"match",pairs:[{nl:"Il convient de",en:"Formal recommendation"},{nl:"On constate que",en:"Observed fact"},{nl:"Force est de constater",en:"Undeniable truth"},{nl:"Il est souhaitable que",en:"Soft recommendation"}]},
+
+{type:"fb",s:"La {1} en question de nos méthodes favorise l'innovation.",a:["remise"],opts:["remise","mise","prise","pose"],hint:"The noun phrase from remettre en question, meaning intellectual questioning."},
+
+{type:"mc",q:"You are writing an academic conclusion. Which opening is best?",opts:["En conclusion, on constate que l'hypothèse initiale est confirmée par l'analyse des données.","Bon, au final, ça marche comme on pensait.","Pour finir, c'est vrai ce qu'on disait au début.","La conclusion c'est que notre idée était bonne."],ans:"En conclusion, on constate que l'hypothèse initiale est confirmée par l'analyse des données.",hint:"The academic option uses formal vocabulary, impersonal constructions, and nominalisation."},
+
+{type:"drag_fill",s:"Il est {1} que la {2} des résultats {3} avant la publication.",blanks:{"1":"nécessaire","2":"vérification","3":"soit faite"},pool:["nécessaire","vérification","soit faite","essentiel","est faite"],hint:"Obligation + nominalised action + subjunctive because of the necessity expression."},
+
+{type:"mc",q:"Which pair shows correct verb→noun AND adjective→noun transformation?",opts:["organiser → l'organisation, triste → la tristesse","organiser → l'organisement, triste → la tristeur","organiser → l'organisateur, triste → le triste","organiser → l'organise, triste → la tristité"],ans:"organiser → l'organisation, triste → la tristesse",hint:"The verb takes a feminine -tion suffix, the adjective takes a feminine -esse suffix."}
+]}
+
 ]}
 ];
