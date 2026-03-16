@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B1 COMPLETE + POLISHED (20 v2 units, ~164 lessons, density uplift D99). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German and Arabic have early skeletons (5 units each, below density standard). French and Spanish have infrastructure but no content yet.
 
 ---
 
@@ -185,7 +185,8 @@ The full Manifesto lives in `src/lingoverse.jsx` (lines ~14-314). Key principles
 The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent decisions:
 - **D99**: Dutch B1 density uplift + quick fixes
 - **D100**: Korean dialogue enrichment (Rule 9 workflow, 847/1132 cards)
-- **D101+**: Dutch quality uplift to Korean standard (this session)
+- **D101**: Dutch quality uplift to Korean standard (B2 build, A1-B1 polish)
+- **D102**: Dutch B2 quality audit (10 rounds, ~255 P8 fixes, 5 P34 fixes, de/het audit PASS)
 
 ---
 
@@ -320,7 +321,20 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Phase 4: 810/835 A1-B1 teach cards enriched with dialogues (97%)
   - Phase 5: 10 B2 units built (U21-U30, 80 lessons)
 - 30 v2 units + 23 legacy units, 244 v2 lessons, ~5,446 steps
-- **NEXT ACTION**: Quality audit (D92-style), then German A1 build.
+- **DUTCH B2 QUALITY AUDIT COMPLETE (D102, 2026-03-16)**: D92-style audit, 10 rounds, 10 commits.
+  - Round 1-2: 93 severe P8 hint-reveals fixed (answer words appearing in hints)
+  - Round 3: 7 P49 CEFR labels removed from learner-facing content
+  - Round 4: 3 under-dense lessons uplifted to 18+ steps
+  - Round 5: P8 pattern leaks fixed + MC option length equalization
+  - Round 6: 6 duplicate MC questions replaced with unique content
+  - Round 7: 2 P49 intro titles fixed ("Wat Betekent B2?" → "Wat Kun Je Nu?")
+  - Round 8: 154 CAPS hint-reveals rewritten (English translations in hints)
+  - Round 9: 1 visual leak, 1 P48 fb→drag_fill content error, 8 U30 hint-reveals
+  - Round 10: 5 P34 teach-before-test violations fixed (quiz words without teach cards)
+  - de/het article audit: 55+ nouns verified, ZERO errors
+  - Final scan: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80, duplicates=0
+- **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), and audited (D102).
+- **NEXT ACTION**: Complete German A1-B2 build from scratch.
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
@@ -378,8 +392,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
 1. **Korean** - A1-B2 PRODUCTION-READY. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). THE GOLD STANDARD. Next: C1 when Dutch catches up.
-2. **Dutch** - A1-B2 COMPLETE + POLISHED (D101). 30 units, 244 lessons, 5,446 steps. Dialogues 73%. Next: quality audit (D92-style), then German A1.
-3. **German** - 5 skeleton units. Next: full A1 build from scratch (after Dutch polish).
+2. **Dutch** - A1-B2 PRODUCTION-READY. Fully built (D101), audited (D102, 10 rounds). 30 units, 244 lessons, 5,446 steps. THE SECOND GOLD STANDARD.
+3. **German** - 5 skeleton units. Next: COMPLETE A1-B2 build from scratch using Goethe-Institut references. Apply all pipeline rules from day one (Rule 7 density, Rule 8 quality, Rule 9 sequential workflow).
 4. **French** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after German).
 5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1 (after French).
 
@@ -654,23 +668,36 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 
 **Korean needs NO further work** until C1 curriculum is planned (after Dutch catches up).
 
+### DONE (Dutch A1-B2 = Second Gold Standard)
+Dutch is PRODUCTION-READY. Every quality gate has been passed:
+
+| Milestone | Decision | Status |
+|-----------|----------|--------|
+| A1-B1 curriculum (U1-U20) | D99 | COMPLETE + density uplifted |
+| B2 curriculum (U21-U30) | D101 | COMPLETE (10 units, 80 lessons) |
+| A1-B2 quality polish | D101 | Full polish to Korean standard |
+| B2 quality audit | D102 | 10 rounds, ~255 P8 fixes, 5 P34 fixes |
+| de/het article audit | D102 | 55+ nouns verified, 0 errors |
+| All pipeline scans | D102 | P48=0, P22c=0, P44=0, P49=0 |
+
+**Dutch needs NO further work** until dialogue enrichment uplift (currently 73%, target 90%+) or A1-A2 retroactive standards pass.
+
 ### NEXT (Priority Order)
 
-1. **Dutch Quality Audit (D92-style)**
-   - Dutch A1-B2 COMPLETE (D101). 30 units, 244 lessons, 5,446 steps, 73% dialogue coverage.
-   - Remaining: D92-level quality audit (P8 sweep, P34 verification, pipeline scan per unit)
-   - Retroactive D41/D42/D47/D53 standards for A1-A2 content
+1. **German COMPLETE A1-B2 Build**
+   - 5 skeleton units exist in `units-other.js`, below density standard. DELETE and rebuild from scratch.
+   - Full A1-B2 build using Goethe-Institut A1/B1 + telc B2 references
+   - Apply all pipeline rules from day one: Rule 7 density enforcement, Rule 8 quality gates, Rule 9 sequential workflow
+   - German-specific: der/die/das article system (3 genders + plural), case system (nominative/accusative/dative/genitive), Konjunktiv II, separable/inseparable prefixes
+   - Estimate: ~30 units (A1: 6-8, A2: 6-8, B1: 8-10, B2: 8-10). Germanic family = cognate-heavy for English speakers.
+   - File: Start in `units-other.js`, move to `units-german.js` once 5+ real units exist
+   - Foundations needed: LANG_BLUEPRINT (partially exists), FK_PLAYTHROUGH, FK_GATE_QUIZ
 
-2. **German A1 Build**
-   - 5 skeleton units exist, below density standard
-   - Full rebuild from scratch using Goethe-Institut A1 reference
-   - Apply all pipeline rules from day one (P43 density during build, not after)
-
-3. **French A1 Build**
+2. **French A1 Build**
    - Infrastructure exists (LANG_META, VOCAB entries, CULTURE_PACKS)
    - Needs: LANG_BLUEPRINT, foundations playthrough, gate quiz, then A1 units
 
-4. **Spanish A1 Build**
+3. **Spanish A1 Build**
    - Infrastructure exists (LANG_META, VOCAB entries)
    - Same path as French: LANG_BLUEPRINT, foundations, A1
 
