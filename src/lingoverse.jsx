@@ -6,6 +6,7 @@ import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/founda
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
+import germanUnits from './data/units-german.js';
 import otherUnits from './data/units-other.js';
 
 // In-memory storage fallback (localStorage not available in sandbox)
@@ -8118,7 +8119,7 @@ function Onboarding({onComplete}){
 
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
-const UNITS = [...dutchUnits, ...koreanUnits, ...otherUnits];
+const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...otherUnits];
 
 // ── DEV GUARD (deferred): Check UNITS lang codes against LANGUAGES + FK coverage ──
 try{
