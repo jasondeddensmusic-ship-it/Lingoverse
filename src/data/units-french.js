@@ -3868,4 +3868,324 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 13 — Les pronoms                                      ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:13,lang:"fr",track:"v1",title:"Les pronoms",sub:"Object Pronouns, Y & En",icon:"🔀",level:"A2.5",color:"#7B5EE8",lessons:[
+
+// ═══ L1: COD (direct object pronouns) ═══
+{id:"fre13l1",title:"Les pronoms COD",icon:"🎯",xp:15,board:true,steps:[
+  {type:"intro",title:"Direct object pronouns",desc:"Direct object pronouns replace the thing or person receiving the action directly. Instead of repeating the noun, French uses le, la, les, me, te, nous, vous.",goals:["Understand what a direct object is","Learn the COD pronouns","Place them before the verb"]},
+
+  {type:"tip",title:"COD pronouns",text:"COD = complément d'objet direct\n\nme (m') = me\nte (t') = you\nle (l') = him/it (masc.)\nla (l') = her/it (fem.)\nnous = us\nvous = you (pl./formal)\nles = them\n\nPlacement: BEFORE the conjugated verb.\nTu manges la pomme. -> Tu la manges.\nJe vois Pierre. -> Je le vois.\n\nBefore vowels: le/la become l'.\nJe l'aime. (I love him/her.)"},
+
+  {type:"teach",kind:"word",nl:"le",en:"him / it (masculine)",phonetic:"luh",example:"A: Tu vois le chat?\nB: Oui, je le vois!\nA: Il est mignon, non?",exampleEn:"A: Do you see the cat?\nB: Yes, I see it!\nA: It's cute, right?",note:"Le replaces a masculine noun.\nTu vois le chat -> Tu le vois.\nPlaced BEFORE the verb."},
+
+  {type:"teach",kind:"word",nl:"la",en:"her / it (feminine)",phonetic:"lah",example:"A: Tu connais cette chanson?\nB: Oui, je la connais bien!\nA: C'est ma préférée aussi.",exampleEn:"A: Do you know this song?\nB: Yes, I know it well!\nA: It's my favorite too.",note:"La replaces a feminine noun.\nTu connais la chanson -> Tu la connais.\nBefore a vowel: la becomes l'."},
+
+  {type:"teach",kind:"word",nl:"les",en:"them",phonetic:"lay",example:"A: Tu as vu mes clés?\nB: Oui, je les ai vues sur la table.\nA: Merci!",exampleEn:"A: Have you seen my keys?\nB: Yes, I saw them on the table.\nA: Thanks!",note:"Les replaces any plural noun.\nTu vois les enfants -> Tu les vois.\nSame form for masculine and feminine."},
+
+  {type:"mc",q:"'Tu manges la pizza?' -> 'Oui, je ___ mange.'",opts:["le","la","les","lui"],ans:"la",hint:"La pizza is feminine singular. Which pronoun replaces it?"},
+
+  {type:"fb",s:"Je ___ vois tous les jours. (him)",a:"le",opts:["le","la","les","lui"],hint:"I see him every day. Masculine singular direct object."},
+
+  {type:"mc",q:"Where does the COD pronoun go?",opts:["After the verb","Before the conjugated verb","At the end of the sentence","Before the subject"],ans:"Before the conjugated verb",hint:"Je la mange, tu le vois, nous les aimons."},
+
+  {type:"fb",s:"Tu ___ connais? (her)",a:"la",opts:["la","le","les","lui"],hint:"Do you know her? Feminine singular direct object."},
+
+  {type:"match",pairs:[{nl:"le",en:"him/it (masc.)"},{nl:"la",en:"her/it (fem.)"},{nl:"les",en:"them"},{nl:"l'",en:"him/her (before vowel)"}]},
+
+  {type:"mc",q:"'J'aime Marie.' -> 'Je ___.'",opts:["l'aime","la aime","lui aime","les aime"],ans:"l'aime",hint:"When the verb starts with a vowel, the pronoun contracts."},
+
+  {type:"fb",s:"Nous ___ regardons ce soir. (the film, masc.)",a:"le",opts:["le","la","les","lui"],hint:"We're watching it tonight. Le film = masculine."},
+
+  {type:"mc",q:"'Tu achètes les croissants?' -> 'Oui, je ___ achète.'",opts:["le","la","les","lui"],ans:"les",hint:"Les croissants = plural. Which pronoun for plural?"},
+
+  {type:"fb",s:"Elle ___ invite à la fête. (us)",a:"nous",opts:["nous","vous","les","leur"],hint:"She's inviting us to the party."},
+
+  {type:"match",pairs:[{nl:"me",en:"me"},{nl:"te",en:"you"},{nl:"nous",en:"us"},{nl:"vous",en:"you (pl./formal)"}]},
+
+  {type:"mc",q:"In the negative: 'Je ne ___ vois pas.' (him)",opts:["le","la","les","lui"],ans:"le",hint:"Ne + pronoun + verb + pas. The pronoun stays before the verb."},
+
+  {type:"fb",s:"Il ne ___ comprend pas. (them)",a:"les",opts:["les","le","la","leur"],hint:"He doesn't understand them. Pronoun between ne and the verb."},
+
+  {type:"mc",q:"In passé composé: 'Je l'ai vu.' The pronoun goes before:",opts:["The past participle","The auxiliary (avoir/être)","The subject","The end"],ans:"The auxiliary (avoir/être)",hint:"Je l'ai vu. The pronoun goes before ai, not before vu."},
+]},
+
+// ═══ L2: COI (indirect object pronouns) ═══
+{id:"fre13l2",title:"Les pronoms COI",icon:"📨",xp:15,board:true,steps:[
+  {type:"intro",title:"Indirect object pronouns",desc:"Indirect object pronouns replace the person TO WHOM or FOR WHOM something is done. French uses me, te, lui, nous, vous, leur. They replace 'à + person'.",goals:["Distinguish direct from indirect objects","Learn COI pronouns","Use lui and leur correctly"]},
+
+  {type:"tip",title:"COI pronouns",text:"COI = complément d'objet indirect\nReplace: à + person\n\nme (m') = to me\nte (t') = to you\nlui = to him / to her\nnous = to us\nvous = to you (pl./formal)\nleur = to them\n\nJe parle à Pierre. -> Je lui parle.\nJ'écris à mes parents. -> Je leur écris.\n\nNOTE: lui = to him OR to her!\nleur = to them (no -s, never leurs)"},
+
+  {type:"teach",kind:"word",nl:"lui",en:"to him / to her",phonetic:"lwee",example:"A: Tu parles à Marie?\nB: Oui, je lui parle souvent.\nA: Tu lui dis bonjour de ma part!",exampleEn:"A: Do you talk to Marie?\nB: Yes, I often talk to her.\nA: Say hello to her from me!",note:"Lui = to him OR to her.\nReplaces à + person (singular).\nJe parle à Marie -> Je lui parle."},
+
+  {type:"teach",kind:"word",nl:"leur",en:"to them",phonetic:"luhr",example:"A: Tu téléphones à tes parents?\nB: Oui, je leur téléphone chaque semaine.\nA: C'est bien!",exampleEn:"A: Do you call your parents?\nB: Yes, I call them every week.\nA: That's good!",note:"Leur = to them (plural).\nNever add -s (not 'leurs').\nJ'écris à mes amis -> Je leur écris."},
+
+  {type:"mc",q:"'Je parle à Marc.' -> 'Je ___ parle.'",opts:["le","la","lui","leur"],ans:"lui",hint:"Parler à + person = indirect. Singular = which pronoun?"},
+
+  {type:"fb",s:"Elle ___ a envoyé un message. (to him)",a:"lui",opts:["lui","leur","le","la"],hint:"She sent a message to him. A + person = indirect."},
+
+  {type:"mc",q:"How do you say 'I write to them'?",opts:["Je les écris","Je leur écris","Je leurs écris","Je lui écris"],ans:"Je leur écris",hint:"To them = indirect plural. Never add -s to this pronoun."},
+
+  {type:"fb",s:"Nous ___ donnons le cadeau. (to her)",a:"lui",opts:["lui","leur","la","le"],hint:"We give the gift to her. To + person = indirect."},
+
+  {type:"match",pairs:[{nl:"lui (singular)",en:"to him / to her"},{nl:"leur (plural)",en:"to them"},{nl:"me",en:"to me"},{nl:"te",en:"to you"}]},
+
+  {type:"mc",q:"'Je ___ téléphone.' (to my parents)",opts:["Les","Leur","Leurs","Lui"],ans:"Leur",hint:"To my parents (plural) = which indirect pronoun?"},
+
+  {type:"fb",s:"Tu ___ as demandé? (to her)",a:"lui",opts:["lui","leur","la","le"],hint:"Did you ask her? Demander à = takes indirect object."},
+
+  {type:"tip",title:"COD vs COI: how to tell",text:"COD answers: WHAT? / WHOM? (no preposition)\nJe vois Marie. (I see WHOM? Marie.)\n-> Je la vois.\n\nCOI answers: TO WHOM? (à + person)\nJe parle à Marie. (I speak TO WHOM? To Marie.)\n-> Je lui parle.\n\nCommon COI verbs:\nparler à, téléphoner à, écrire à,\ndonner à, dire à, demander à,\nrépondre à, envoyer à, montrer à"},
+
+  {type:"mc",q:"'Je vois Pierre' uses COD. 'Je parle à Pierre' uses COI. Why?",opts:["Both are direct","Vois has no preposition, parle has 'à'","Both use 'à'","It depends on the time"],ans:"Vois has no preposition, parle has 'à'",hint:"Direct = no preposition. Indirect = à before the person."},
+
+  {type:"fb",s:"Je ___ ai dit la vérité. (to them)",a:"leur",opts:["leur","lui","les","la"],hint:"I told them the truth. Dire à = indirect object."},
+
+  {type:"match",pairs:[{nl:"Je le vois",en:"I see HIM (COD)"},{nl:"Je lui parle",en:"I speak TO HIM (COI)"},{nl:"Je les invite",en:"I invite THEM (COD)"},{nl:"Je leur écris",en:"I write TO THEM (COI)"}]},
+
+  {type:"mc",q:"'Elle montre la photo à ses amis.' Replace 'à ses amis':",opts:["Elle les montre la photo","Elle leur montre la photo","Elle lui montre la photo","Elle la montre ses amis"],ans:"Elle leur montre la photo",hint:"To her friends (plural) = which indirect pronoun?"},
+
+  {type:"fb",s:"Il ___ répond toujours vite. (to me)",a:"me",opts:["me","lui","le","leur"],hint:"He always answers me quickly. Répondre à = indirect."},
+
+  {type:"mc",q:"In 'Je lui donne le livre', 'lui' could mean:",opts:["Only 'to him'","Only 'to her'","Either 'to him' or 'to her'","'to them'"],ans:"Either 'to him' or 'to her'",hint:"This pronoun is gender-neutral for indirect singular."},
+]},
+
+// ═══ L3: Y (there / to it) ═══
+{id:"fre13l3",title:"Le pronom Y",icon:"📍",xp:15,board:true,steps:[
+  {type:"intro",title:"The pronoun Y",desc:"Y replaces 'à + place' or 'à + thing' (not a person). It usually means 'there' or 'to it'. It's one of the most common words in spoken French.",goals:["Understand what Y replaces","Use Y for places","Use Y with expressions"]},
+
+  {type:"tip",title:"Y = there / to it",text:"Y replaces:\n1. à + PLACE: J'habite à Paris. -> J'y habite.\n2. à + THING: Je pense à mon travail. -> J'y pense.\n3. Other prepositions of place:\n   dans, sur, chez, en + place -> y\n\nPlacement: BEFORE the conjugated verb.\nTu vas au cinéma? -> Tu y vas?\n\nNOTE: Y never replaces à + PERSON.\nJe pense à Marie -> Je pense à elle (not j'y pense)."},
+
+  {type:"teach",kind:"word",nl:"y",en:"there / to it",phonetic:"ee",example:"A: Tu vas au supermarché?\nB: Oui, j'y vais maintenant.\nA: Tu peux acheter du lait?",exampleEn:"A: Are you going to the supermarket?\nB: Yes, I'm going there now.\nA: Can you buy some milk?",note:"Y replaces the place.\nTu vas au supermarché -> Tu y vas.\nPlaced before the conjugated verb."},
+
+  {type:"teach",kind:"phrase",nl:"J'y suis, j'y reste.",en:"I'm here, I'm staying here.",phonetic:"zhee SWEE zhee REST",example:"A: Tu ne veux pas déménager?\nB: Non! J'y suis, j'y reste!\nA: Tu aimes vraiment cette ville!",exampleEn:"A: Don't you want to move?\nB: No! I'm here, I'm staying here!\nA: You really love this city!",note:"Famous French expression.\nBoth y = in this place.\nMeaning: I'm not going anywhere!"},
+
+  {type:"mc",q:"'Tu habites à Lyon?' -> 'Oui, j'___ habite.'",opts:["y","en","le","la"],ans:"y",hint:"Replacing a place (à Lyon) = which pronoun?"},
+
+  {type:"fb",s:"Nous ___ allons demain. (to the beach)",a:"y",opts:["y","en","le","la"],hint:"We're going there tomorrow. Place pronoun."},
+
+  {type:"mc",q:"'Elle pense à son travail.' -> 'Elle ___ pense.'",opts:["Y","En","Le","La"],ans:"Y",hint:"Replacing à + thing (not a person). Which pronoun?"},
+
+  {type:"fb",s:"Tu ___ es allé hier? (to the cinema)",a:"y",opts:["y","en","le","la"],hint:"Did you go there yesterday? Place replacement."},
+
+  {type:"match",pairs:[{nl:"à Paris -> y",en:"there (place)"},{nl:"au bureau -> y",en:"there (place)"},{nl:"à mon travail -> y",en:"to it (thing)"},{nl:"dans le jardin -> y",en:"there (place)"}]},
+
+  {type:"mc",q:"Y can NOT replace:",opts:["à + place","à + thing","à + person","dans + place"],ans:"à + person",hint:"For people, use lui/leur or stressed pronouns (à elle, à eux)."},
+
+  {type:"fb",s:"J'___ pense souvent. (to my vacation)",a:"y",opts:["y","en","lui","la"],hint:"I think about it often. A + thing = which pronoun?"},
+
+  {type:"mc",q:"'Il y a du lait?' What does 'y' represent here?",opts:["A specific place","It's part of a fixed expression","A person","A thing"],ans:"It's part of a fixed expression",hint:"Il y a = there is/are. A fixed expression where y has no separate meaning."},
+
+  {type:"fb",s:"Les enfants ___ jouent tous les jours. (in the park)",a:"y",opts:["y","en","les","le"],hint:"The children play there every day. Place pronoun."},
+
+  {type:"match",pairs:[{nl:"Je vais au café",en:"J'y vais"},{nl:"Tu restes chez toi",en:"Tu y restes"},{nl:"Elle travaille en France",en:"Elle y travaille"},{nl:"Nous pensons à ça",en:"Nous y pensons"}]},
+
+  {type:"mc",q:"In passé composé: 'J'y suis allé.' Y goes before:",opts:["The past participle","The auxiliary verb","The subject","The end"],ans:"The auxiliary verb",hint:"Same rule as COD/COI: pronoun before the conjugated verb."},
+
+  {type:"fb",s:"Vous ___ êtes déjà allés? (to this restaurant)",a:"y",opts:["y","en","le","la"],hint:"Have you been there already? Place replacement."},
+
+  {type:"mc",q:"'On y va!' is a common expression meaning:",opts:["We leave it","Let's go!","We see it","It's there"],ans:"Let's go!",hint:"Literally: one goes there. An everyday way to rally the group."},
+
+  {type:"fb",s:"Je ne ___ comprends rien. (to this problem)",a:"y",opts:["y","en","le","la"],hint:"I don't understand anything about it. A + abstract thing."},
+]},
+
+// ═══ L4: En (of it / some) ═══
+{id:"fre13l4",title:"Le pronom en",icon:"🧩",xp:15,board:true,steps:[
+  {type:"intro",title:"The pronoun EN",desc:"En replaces 'de + something' or a quantity expression. It usually means 'of it', 'some', or 'any'. Essential for talking about quantities.",goals:["Understand what EN replaces","Use EN for quantities","Use EN with de + noun expressions"]},
+
+  {type:"tip",title:"En = of it / some",text:"EN replaces:\n1. du/de la/des + noun (partitive):\nTu veux du café? -> Tu en veux?\n\n2. de + noun (after expressions):\nJ'ai besoin de repos. -> J'en ai besoin.\n\n3. Number/quantity + noun:\nJ'ai trois chats. -> J'en ai trois.\n(Keep the number, replace the noun!)\n\n4. Expressions with de:\navoir besoin de, avoir peur de,\nparler de, venir de\n\nPlacement: BEFORE the conjugated verb."},
+
+  {type:"teach",kind:"word",nl:"en",en:"of it / some / any",phonetic:"ahn",example:"A: Tu veux du chocolat?\nB: Oui, j'en veux bien!\nA: Il y en a dans le placard.",exampleEn:"A: Do you want some chocolate?\nB: Yes, I'd like some!\nA: There's some in the cupboard.",note:"En replaces du/de la/des + noun.\nDu chocolat -> en.\nPlaced before the verb."},
+
+  {type:"teach",kind:"phrase",nl:"J'en ai trois.",en:"I have three (of them).",phonetic:"zhahn ay TRWAH",example:"A: Tu as des frères et soeurs?\nB: J'en ai trois: deux frères et une soeur.\nA: C'est une grande famille!",exampleEn:"A: Do you have brothers and sisters?\nB: I have three: two brothers and one sister.\nA: It's a big family!",note:"With quantities, keep the number.\nJ'ai trois chats -> J'en ai trois.\nThe noun disappears, the number stays."},
+
+  {type:"mc",q:"'Tu veux du café?' -> 'Oui, j'___ veux.'",opts:["y","en","le","la"],ans:"en",hint:"Du + noun (partitive) = which pronoun replaces it?"},
+
+  {type:"fb",s:"J'___ ai acheté deux. (of the books)",a:"en",opts:["en","y","les","le"],hint:"I bought two of them. Quantity + en."},
+
+  {type:"mc",q:"'Elle a besoin de vacances.' -> 'Elle ___ a besoin.'",opts:["Y","En","Les","La"],ans:"En",hint:"Avoir besoin DE + noun = de expression. Which pronoun?"},
+
+  {type:"fb",s:"Tu ___ veux combien? (of the apples)",a:"en",opts:["en","y","les","le"],hint:"How many do you want? Partitive/quantity = en."},
+
+  {type:"match",pairs:[{nl:"du pain -> en",en:"some (partitive)"},{nl:"trois livres -> en...trois",en:"quantity"},{nl:"de l'eau -> en",en:"some (partitive)"},{nl:"besoin de repos -> en",en:"de expression"}]},
+
+  {type:"mc",q:"'J'ai deux soeurs.' -> 'J'en ai ___.'",opts:["Deux","Les","Elles","Leur"],ans:"Deux",hint:"With numbers, keep the quantity word. The noun becomes en."},
+
+  {type:"fb",s:"Il n'___ a plus. (of milk)",a:"en",opts:["en","y","le","la"],hint:"There isn't any more. Il n'y en a plus = there is none left."},
+
+  {type:"mc",q:"When do you keep the number with en?",opts:["Never","Always when a number is specified","Only with one","Only in negatives"],ans:"Always when a number is specified",hint:"J'en ai trois. J'en veux deux. The number stays."},
+
+  {type:"fb",s:"Nous ___ avons parlé hier. (about the problem)",a:"en",opts:["en","y","le","la"],hint:"We talked about it yesterday. Parler de = en."},
+
+  {type:"match",pairs:[{nl:"Tu veux du thé?",en:"Tu en veux?"},{nl:"J'ai cinq livres",en:"J'en ai cinq"},{nl:"Elle parle de son voyage",en:"Elle en parle"},{nl:"Il y a des pommes",en:"Il y en a"}]},
+
+  {type:"mc",q:"In the negative: 'Je n'___ veux pas.' (of cake)",opts:["Y","En","Le","La"],ans:"En",hint:"Ne + en + verb + pas. Same placement as other pronouns."},
+
+  {type:"fb",s:"J'___ viens! (from there / from that place)",a:"en",opts:["en","y","le","la"],hint:"I'm coming from there! Venir de = en for places."},
+
+  {type:"mc",q:"Y vs en: Y replaces ___, en replaces ___.",opts:["à + place/thing, de + thing/quantity","de + thing, à + place","person, place","place, person"],ans:"à + place/thing, de + thing/quantity",hint:"Y = à, en = de. That's the core distinction."},
+
+  {type:"fb",s:"Vous ___ avez beaucoup? (of money)",a:"en",opts:["en","y","le","la"],hint:"Do you have a lot of it? Quantity expression = en."},
+]},
+
+// ═══ L5: Pronoun placement ═══
+{id:"fre13l5",title:"La place des pronoms",icon:"📐",xp:15,board:true,steps:[
+  {type:"intro",title:"Where do pronouns go?",desc:"Pronoun placement changes in different sentence structures: present, passé composé, negative, imperative, and infinitive constructions. Master the placement rules.",goals:["Place pronouns correctly in all tenses","Handle negation with pronouns","Place pronouns with infinitives"]},
+
+  {type:"tip",title:"Placement rules",text:"1. PRESENT: before conjugated verb\nJe le vois. Je lui parle.\n\n2. PASSÉ COMPOSÉ: before auxiliary\nJe l'ai vu. Je lui ai parlé.\n\n3. NEGATIVE: ne + pronoun + verb + pas\nJe ne le vois pas.\n\n4. INFINITIVE: before the infinitive\nJe vais le voir. (not: Je le vais voir.)\nJe peux lui parler.\n\n5. IMPERATIVE (affirmative): after verb\nRegarde-le! Parle-lui!\nIMPERATIVE (negative): before verb\nNe le regarde pas!"},
+
+  {type:"teach",kind:"phrase",nl:"Je vais le faire.",en:"I'm going to do it.",phonetic:"zhuh vay luh FAIR",example:"A: Tu peux laver la vaisselle?\nB: Oui, je vais le faire après le dîner.\nA: Promis?",exampleEn:"A: Can you wash the dishes?\nB: Yes, I'm going to do it after dinner.\nA: Promise?",note:"With infinitive: pronoun before infinitive.\nJe vais + le + faire.\nNOT: Je le vais faire."},
+
+  {type:"teach",kind:"phrase",nl:"Donne-le-moi!",en:"Give it to me!",phonetic:"dohn luh MWAH",example:"A: C'est mon livre!\nB: Non, c'est le mien!\nA: Donne-le-moi!",exampleEn:"A: It's my book!\nB: No, it's mine!\nA: Give it to me!",note:"Affirmative imperative: verb + pronouns.\nWith hyphens: Donne-le-moi.\nOrder: COD before COI after verb."},
+
+  {type:"mc",q:"'Je peux ___ parler.' (to her) Where does lui go?",opts:["Before peux","Before parler","After parler","Before je"],ans:"Before parler",hint:"With two verbs, the pronoun goes before the one it relates to."},
+
+  {type:"fb",s:"Elle va ___ acheter. (it, masc.)",a:"le",opts:["le","la","les","lui"],hint:"She's going to buy it. Before the infinitive."},
+
+  {type:"mc",q:"Negative: 'Je ___ vois ___.' (ne...pas, him)",opts:["ne le / pas","le ne / pas","ne / le pas","ne / pas le"],ans:"ne le / pas",hint:"Ne + pronoun + verb + pas."},
+
+  {type:"fb",s:"Je ne ___ comprends pas. (her)",a:"la",opts:["la","le","les","lui"],hint:"I don't understand her. Ne + pronoun + verb + pas."},
+
+  {type:"match",pairs:[{nl:"Je le vois",en:"present: before verb"},{nl:"Je l'ai vu",en:"PC: before auxiliary"},{nl:"Je vais le voir",en:"infinitive: before infinitive"},{nl:"Regarde-le!",en:"imperative: after verb"}]},
+
+  {type:"mc",q:"Passé composé: 'Je ___ vu hier.' (them, masc.)",opts:["Les ai","Ai les","Les avais","Avais les"],ans:"Les ai",hint:"In PC, the pronoun goes before the auxiliary."},
+
+  {type:"fb",s:"Nous allons ___ téléphoner. (to them)",a:"leur",opts:["leur","les","lui","la"],hint:"We're going to call them. Téléphoner à = indirect."},
+
+  {type:"mc",q:"Negative imperative: 'Ne ___ regarde ___!' (him)",opts:["le / pas","pas / le","regarde le / pas","le regarde / pas"],ans:"le / pas",hint:"Negative imperative = same as regular negative: before verb."},
+
+  {type:"fb",s:"Ne ___ parle pas de ça! (to me)",a:"me",opts:["me","moi","lui","te"],hint:"Don't talk to me about that! Negative imperative: pronoun before verb."},
+
+  {type:"match",pairs:[{nl:"Parle-lui!",en:"Talk to him/her! (affirm.)"},{nl:"Ne lui parle pas!",en:"Don't talk to him/her!"},{nl:"Donne-les!",en:"Give them! (affirm.)"},{nl:"Ne les donne pas!",en:"Don't give them!"}]},
+
+  {type:"mc",q:"'Aide-___!' (me, affirmative imperative)",opts:["Moi","Me","Je","Mon"],ans:"Moi",hint:"After affirmative imperative, me becomes moi."},
+
+  {type:"fb",s:"Tu peux ___ aider? (me)",a:"m'",opts:["m'","me","moi","mon"],hint:"Can you help me? Before infinitive starting with vowel."},
+
+  {type:"mc",q:"Which is correct?",opts:["Je le peux faire","Je peux le faire","Le je peux faire","Je peux faire le"],ans:"Je peux le faire",hint:"Pronoun goes directly before the infinitive it belongs to."},
+
+  {type:"fb",s:"Ne ___ oublie pas! (it, fem.)",a:"l'",opts:["l'","la","le","les"],hint:"Don't forget it! Before vowel, la becomes l'."},
+]},
+
+// ═══ L6: Double pronouns ═══
+{id:"fre13l6",title:"Les doubles pronoms",icon:"🔗",xp:15,board:true,steps:[
+  {type:"intro",title:"Two pronouns together",desc:"Sometimes you need TWO pronouns in one sentence. French has a strict order for combining them. This is one of the trickiest parts of French grammar!",goals:["Learn the double pronoun order","Combine COD + COI","Use y and en with other pronouns"]},
+
+  {type:"tip",title:"Double pronoun order",text:"When two pronouns appear together, they follow this order:\n\nme/te/se/nous/vous + le/la/les + lui/leur + y + en\n\n1 -> 2 -> 3 -> 4 -> 5\n\nExamples:\nIl me le donne. (He gives it to me.)\nJe le lui ai dit. (I told it to him.)\nIl y en a. (There is some.)\n\nNote: me/te/nous/vous BEFORE le/la/les\nBut le/la/les BEFORE lui/leur\nY and en always come last."},
+
+  {type:"teach",kind:"phrase",nl:"Il me le donne.",en:"He gives it to me.",phonetic:"eel muh luh DOHN",example:"A: Qui a le livre?\nB: Pierre. Il me le donne demain.\nA: D'accord!",exampleEn:"A: Who has the book?\nB: Pierre. He's giving it to me tomorrow.\nA: OK!",note:"Two pronouns: me (to me) + le (it).\nOrder: me before le.\nBoth before the verb."},
+
+  {type:"teach",kind:"phrase",nl:"Je le lui ai dit.",en:"I told it to him/her.",phonetic:"zhuh luh lwee ay DEE",example:"A: Tu as dit la vérité à Marc?\nB: Oui, je le lui ai dit hier.\nA: Comment il a réagi?",exampleEn:"A: Did you tell Marc the truth?\nB: Yes, I told it to him yesterday.\nA: How did he react?",note:"Two pronouns: le (it) + lui (to him).\nOrder: le before lui.\nIn PC: both before the auxiliary."},
+
+  {type:"mc",q:"'Il donne le livre à moi.' With pronouns: 'Il ___ donne.'",opts:["me le","le me","me la","la me"],ans:"me le",hint:"Me/te/nous/vous come BEFORE le/la/les."},
+
+  {type:"fb",s:"Elle ___ ___ a expliqué. (it to us, fem.)",a:["nous","l'"],opts:["nous","l'","lui","la"],hint:"She explained it to us. First person plural COI + elided COD."},
+
+  {type:"mc",q:"'Je donne les clés à Pierre.' -> 'Je ___ donne.'",opts:["les lui","lui les","le lui","lui le"],ans:"les lui",hint:"Le/la/les come BEFORE lui/leur."},
+
+  {type:"fb",s:"Tu ___ ___ as montré? (it to them, masc.)",a:["le","leur"],opts:["le","leur","lui","les"],hint:"Did you show it to them? COD before COI (plural indirect)."},
+
+  {type:"match",pairs:[{nl:"me le",en:"it to me"},{nl:"te la",en:"it (f.) to you"},{nl:"le lui",en:"it to him/her"},{nl:"les leur",en:"them to them"}]},
+
+  {type:"mc",q:"'Il y en a.' How many pronouns are there?",opts:["One","Two","Three","None"],ans:"Two",hint:"Y + en = two pronouns. Il y en a = there is some."},
+
+  {type:"fb",s:"Il ___ ___ a beaucoup. (there / of them)",a:["y","en"],opts:["y","en","le","la"],hint:"There are many of them. Y before en."},
+
+  {type:"mc",q:"In the double pronoun order, which group comes FIRST?",opts:["le/la/les","lui/leur","me/te/se/nous/vous","y/en"],ans:"me/te/se/nous/vous",hint:"Personal pronouns (me, te, etc.) go before object pronouns."},
+
+  {type:"fb",s:"Je ___ ___ envoie demain. (it to you, masc.)",a:["te","le"],opts:["te","le","lui","la"],hint:"I'm sending it to you tomorrow. Te before le."},
+
+  {type:"match",pairs:[{nl:"1: me/te/se/nous/vous",en:"first position"},{nl:"2: le/la/les",en:"second position"},{nl:"3: lui/leur",en:"third position"},{nl:"4: y, 5: en",en:"last positions"}]},
+
+  {type:"mc",q:"'Elle me les a donnés.' Identify the pronouns:",opts:["me = COD, les = COI","me = COI (to me), les = COD (them)","Both COD","Both COI"],ans:"me = COI (to me), les = COD (them)",hint:"She gave THEM (COD) TO ME (COI)."},
+
+  {type:"fb",s:"Ne ___ ___ donne pas! (it to him, masc.)",a:["le","lui"],opts:["le","lui","la","leur"],hint:"Don't give it to him! Negative: ne + pronouns + verb + pas."},
+
+  {type:"mc",q:"Double pronouns are placed:",opts:["Both after the verb","Both before the conjugated verb","One before, one after","It varies"],ans:"Both before the conjugated verb",hint:"All pronouns cluster before the conjugated verb (or infinitive)."},
+
+  {type:"fb",s:"Tu peux ___ ___ prêter? (it to me, fem.)",a:["me","la"],opts:["me","la","lui","le"],hint:"Can you lend it to me? Me before la, both before infinitive."},
+]},
+
+// ═══ L7: Practice with real situations ═══
+{id:"fre13l7",title:"En situation",icon:"🎬",xp:15,board:true,steps:[
+  {type:"intro",title:"Pronouns in real life",desc:"Practice using all the pronouns you've learned in realistic everyday situations: at a restaurant, shopping, with friends, at work.",goals:["Apply pronouns naturally in context","Switch between COD, COI, y, and en","Build fluency with pronoun placement"]},
+
+  {type:"teach",kind:"phrase",nl:"Je m'en occupe.",en:"I'll take care of it.",phonetic:"zhuh mahn oh-KEWP",example:"A: Qui va réserver le restaurant?\nB: Je m'en occupe!\nA: Merci, c'est gentil.",exampleEn:"A: Who's going to book the restaurant?\nB: I'll take care of it!\nA: Thanks, that's kind.",note:"S'occuper de = to take care of.\nEn replaces 'de + the thing'.\nVery common in daily French."},
+
+  {type:"teach",kind:"phrase",nl:"Ça te dit?",en:"Does that appeal to you? / Sound good?",phonetic:"sah tuh DEE",example:"A: On va au cinéma ce soir? Ça te dit?\nB: Oui, ça me dit bien!\nA: Super, on y va à 20 heures.",exampleEn:"A: Shall we go to the cinema tonight? Sound good?\nB: Yes, sounds good to me!\nA: Great, let's go at 8 PM.",note:"Dire à quelqu'un = informal expression.\nTe = to you (COI).\nResponse: Ça me dit = sounds good to me."},
+
+  {type:"mc",q:"At a café: 'Tu prends du sucre?' -> 'Oui, j'___ prends.'",opts:["Y","En","Le","La"],ans:"En",hint:"Du sucre (partitive) = which pronoun?"},
+
+  {type:"fb",s:"Le serveur ___ apporte le menu. (to us)",a:"nous",opts:["nous","les","leur","en"],hint:"The waiter brings us the menu. Apporter à = indirect."},
+
+  {type:"mc",q:"Shopping: 'Vous avez cette robe en bleu?' -> 'Je vais ___.'",opts:["Y regarder","En regarder","Le regarder","La regarder"],ans:"La regarder",hint:"Cette robe (feminine) = direct object. Before the infinitive."},
+
+  {type:"fb",s:"J'___ ai acheté trois. (of the croissants)",a:"en",opts:["en","y","les","le"],hint:"I bought three (of them). Quantity = en + number."},
+
+  {type:"match",pairs:[{nl:"Tu en veux?",en:"Do you want some?"},{nl:"Je m'en occupe",en:"I'll handle it"},{nl:"On y va?",en:"Shall we go?"},{nl:"Ça te dit?",en:"Sound good?"}]},
+
+  {type:"mc",q:"Friend: 'Tu penses à tes vacances?' -> 'Oui, j'___ pense tout le temps!'",opts:["Y","En","Le","La"],ans:"Y",hint:"Penser à + thing = which pronoun?"},
+
+  {type:"fb",s:"Tu ___ as parlé? (to the boss)",a:"lui",opts:["lui","le","leur","en"],hint:"Did you talk to the boss? Parler à + person = indirect."},
+
+  {type:"mc",q:"'Il y a du lait?' -> 'Non, il n'___ a plus.'",opts:["Y en","En y","Y","En"],ans:"Y en",hint:"Il y a: y stays, en replaces du lait."},
+
+  {type:"fb",s:"Je ne ___ connais pas. (them, the neighbors)",a:"les",opts:["les","leur","le","en"],hint:"I don't know them. Connaître = direct object."},
+
+  {type:"match",pairs:[{nl:"Je lui écris",en:"I write to him/her"},{nl:"J'y vais",en:"I'm going there"},{nl:"J'en veux",en:"I want some"},{nl:"Je les vois",en:"I see them"}]},
+
+  {type:"mc",q:"At work: 'Tu as envoyé le rapport au directeur?' -> 'Oui, je ___ ai envoyé.'",opts:["Le lui","Lui le","Le la","La lui"],ans:"Le lui",hint:"Le (the report, COD) + lui (to the director, COI)."},
+
+  {type:"fb",s:"Elle va ___ téléphoner ce soir. (to you, informal)",a:"te",opts:["te","toi","tu","vous"],hint:"She's going to call you tonight. Téléphoner à = indirect."},
+
+  {type:"mc",q:"Which is the most natural response to 'Tu veux du gâteau?'",opts:["Oui, je le veux","Oui, j'en veux bien","Oui, je veux","Oui, j'y veux"],ans:"Oui, j'en veux bien",hint:"Du gâteau (partitive) needs the pronoun that replaces de."},
+
+  {type:"fb",s:"Dis-___ la vérité! (to me, affirmative imperative)",a:"moi",opts:["moi","me","mon","ma"],hint:"Tell me the truth! After affirmative imperative, me becomes moi."},
+
+  {type:"mc",q:"Summary: mastering pronouns means replacing nouns to make French sound:",opts:["Longer and more formal","Shorter and more natural","More complicated","More English-like"],ans:"Shorter and more natural",hint:"Pronouns avoid repetition. That's their entire purpose."},
+]},
+
+// ═══ L8: Comprehensive review ═══
+{id:"fre13l8",title:"Révision des pronoms",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"Pronoun mastery review",desc:"Comprehensive review of all pronoun types: COD (le/la/les), COI (lui/leur), Y, EN, placement rules, and double pronouns. Test yourself!",goals:["Distinguish all pronoun types","Place pronouns in any sentence structure","Handle tricky combinations"]},
+
+  {type:"tip",title:"Quick reference",text:"COD: le, la, les (+ me, te, nous, vous)\nReplace: direct object (no preposition)\n\nCOI: lui, leur (+ me, te, nous, vous)\nReplace: à + person\n\nY: replace à + place/thing (not person)\n\nEN: replace de + thing, partitive, quantity\n\nOrder: me/te/se/nous/vous > le/la/les > lui/leur > y > en\n\nPlacement: before conjugated verb (or infinitive)"},
+
+  {type:"mc",q:"'Tu vois la tour Eiffel?' -> 'Oui, je ___ vois!'",opts:["Le","La","Les","Y"],ans:"La",hint:"La tour Eiffel = feminine singular direct object."},
+
+  {type:"fb",s:"Il ___ a donné des fleurs. (to her)",a:"lui",opts:["lui","la","leur","en"],hint:"He gave her flowers. Donner à = indirect object."},
+
+  {type:"mc",q:"'Tu vas à Paris?' -> 'Oui, j'___ vais demain.'",opts:["Y","En","Le","La"],ans:"Y",hint:"À + place = which pronoun?"},
+
+  {type:"fb",s:"J'___ ai mangé trois. (of the macarons)",a:"en",opts:["en","y","les","le"],hint:"I ate three of them. Quantity = en + number."},
+
+  {type:"match",pairs:[{nl:"COD: le/la/les",en:"direct object"},{nl:"COI: lui/leur",en:"à + person"},{nl:"Y",en:"à + place/thing"},{nl:"EN",en:"de + thing/quantity"}]},
+
+  {type:"mc",q:"'Je ___ ___ ai montré.' (it to her, the photo)",opts:["La lui","Lui la","La leur","Le lui"],ans:"La lui",hint:"La (the photo, COD) before lui (to her, COI)."},
+
+  {type:"fb",s:"Ne ___ touche pas! (it, masc.)",a:"le",opts:["le","la","les","lui"],hint:"Don't touch it! Negative: ne + pronoun + verb + pas."},
+
+  {type:"mc",q:"With infinitive: 'Je veux ___ voir.' (them)",opts:["Les","Leur","Les les","Leur les"],ans:"Les",hint:"Pronoun goes before the infinitive. I want to see them."},
+
+  {type:"fb",s:"Nous ___ pensons souvent. (about our trip)",a:"y",opts:["y","en","le","la"],hint:"We think about it often. Penser à + thing = which pronoun?"},
+
+  {type:"match",pairs:[{nl:"Regarde-le!",en:"Look at it! (imperative)"},{nl:"Ne le regarde pas!",en:"Don't look at it!"},{nl:"Je vais le voir",en:"I'm going to see him"},{nl:"Je l'ai vu",en:"I saw him (PC)"}]},
+
+  {type:"mc",q:"'Tu as besoin de repos?' -> 'Oui, j'___ ai besoin.'",opts:["Y","En","Le","La"],ans:"En",hint:"Avoir besoin DE = de expression. Which pronoun?"},
+
+  {type:"fb",s:"Elle va ___ ___ envoyer. (it to us, the email)",a:["nous","le"],opts:["nous","le","lui","la"],hint:"She's going to send it to us. First person plural before masc. COD."},
+
+  {type:"mc",q:"'Il y en a beaucoup.' This sentence has ___ pronoun(s).",opts:["One","Two","Three","None"],ans:"Two",hint:"Y + en = two pronouns in il y en a."},
+
+  {type:"fb",s:"Parle-___! (to him, affirmative imperative)",a:"lui",opts:["lui","le","il","leur"],hint:"Talk to him! Affirmative imperative: pronoun after verb."},
+
+  {type:"mc",q:"The hardest part of French pronouns is:",opts:["Knowing which pronoun to use","Knowing where to place them","Both choosing and placing","None of the above"],ans:"Both choosing and placing",hint:"You must pick the right pronoun AND put it in the right spot."},
+
+  {type:"fb",s:"Je ne ___ ai pas dit. (to them)",a:"leur",opts:["leur","les","lui","en"],hint:"I didn't tell them. Dire à = indirect. Negative PC placement."},
+
+  {type:"mc",q:"You've mastered French pronouns! They make speech:",opts:["Longer","Shorter and more fluid","More confusing","More formal only"],ans:"Shorter and more fluid",hint:"No more repeating nouns. That's the power of pronouns!"},
+]},
+]},
+
 ];
