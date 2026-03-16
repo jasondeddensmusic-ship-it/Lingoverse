@@ -354,7 +354,20 @@ export const LANG_BLUEPRINT = {
     culturalContext: "Hospitality culture. Call-and-response greetings. Religious/cultural phrases embedded in daily speech. MSA vs dialect continuum.",
     learningRisks: ["Overwhelmed by script","Ignoring short vowels","MSA vs dialect confusion","Romanization dependency","Neglecting listening practice"],
   },
-  // TODO: Add blueprints for fr, es, ro, en, ko, ja, zh, ru as content is built
+  fr: {
+    scriptType: "latin",
+    writingSystem: {type:"alphabetic",direction:"ltr",caseSystem:true,diacritics:["acute_é","grave_è_à_ù","circumflex_ê_â_î_ô_û","diaeresis_ë_ï_ü","cedilla_ç"]},
+    phonology: {vowelSystem:"oral_and_nasal",nasalVowels:["an_en_/ɑ̃/","on_/ɔ̃/","in_ain_/ɛ̃/","un_/œ̃/"],consonantNotes:"liaison_mandatory_optional_forbidden,final_consonants_mostly_silent,uvular_R",stress:"always_final_syllable",traps:["nasal_vowels","liaison","silent_letters","R_uvular","U_vs_OU","é_vs_è_vs_ê"]},
+    morphology: {type:"fusional",verbGroups:["er_group1_90pct","ir_group2_iss","re_group3","irregulars_être_avoir_aller_faire"],gender:true,plurals:["-s_silent","-x_silent","-aux_from_al","irregular"],elision:"mandatory_before_vowels"},
+    grammarOrder: "SVO",
+    genderSystem: {type:"masculine_feminine",articles:{m:"le",f:"la"},adjInflection:true,adjPlacement:"usually_after_noun_some_before"},
+    articleSystem: {definite:["le","la","les"],indefinite:["un","une","des"],partitive:["du","de_la","des"],notes:"Elision before vowels: le/la become l'. Partitive articles required for uncountable nouns."},
+    formalitySystem: {levels:["informal_tu","formal_vous"],notes:"Vous is both formal singular AND all plurals. Tu/vous choice is socially critical. Start with vous for strangers. The switch to tu (tutoiement) must be offered, not assumed."},
+    difficultyProfile: {forEnglish:"moderate",hardest:["gendered_nouns","nasal_vowels","passé_composé_vs_imparfait","subjunctive","liaison","silent_letters"],easiest:["40pct_cognate_overlap","SVO_word_order","latin_script","shared_vocabulary"]},
+    culturalContext: "Politesse culture. La bise. Apéro. Long lunches. L'Académie française. Formal vous with strangers. Bonjour before any interaction.",
+    learningRisks: ["Ignoring gender from day one","Pronouncing silent letters","Skipping nasal vowel training","Confusing passé composé and imparfait","Faux amis (false cognates)"],
+  },
+  // TODO: Add blueprints for es, ro, en, ko, ja, zh, ru as content is built
 };
 
 // ── CULTURE_PACKS: Per-language cultural data (Pipeline Step 3) ──
