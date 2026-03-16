@@ -984,4 +984,326 @@ export default [
 ]},
 ]},
 
+// ══════════════════════════════════════════════════════════════
+// UNIT 4: À TABLE! - Food, Drink & the Article System
+// Articles (le/la/les, un/une/des), partitive (du/de la/de l')
+// P26: Article system formally taught. Partitive introduced.
+// ══════════════════════════════════════════════════════════════
+{n:4,lang:"fr",track:"v1",title:"À table!",sub:"Food, Drink & Articles",icon:"🍽️",level:"A1.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Au petit déjeuner ═══
+{id:"fre4l1",title:"Au petit déjeuner",icon:"🥐",xp:15,board:true,steps:[
+  {type:"intro",title:"Au petit déjeuner",desc:"Learn breakfast vocabulary and discover how French articles work. Every noun needs an article: le, la, les, un, une, or des.",goals:["Name 6 breakfast items","Use le/la/les (definite articles)","Use un/une/des (indefinite articles)"]},
+
+  {type:"teach",kind:"word",nl:"le croissant",en:"the croissant",phonetic:"luh kwah-SON",cognate:{words:[{lang:"English",word:"croissant (crescent)"}],family:"romance"},example:"A: Tu veux un croissant?\nB: Oui, je voudrais un croissant au beurre.\nA: Excellent choix!",exampleEn:"A: Do you want a croissant?\nB: Yes, I would like a butter croissant.\nA: Excellent choice!",note:"Le croissant = the croissant (masculine).\nLiterally means crescent (moon shape).\nUn croissant = a croissant (indefinite)."},
+
+  {type:"teach",kind:"word",nl:"la baguette",en:"the baguette (French bread)",phonetic:"lah bah-GET",example:"A: Tu as acheté du pain?\nB: Oui, j'ai une baguette fraîche.\nA: Parfait pour le petit déjeuner!",exampleEn:"A: Did you buy bread?\nB: Yes, I have a fresh baguette.\nA: Perfect for breakfast!",note:"La baguette = the baguette (feminine).\nLiterally means stick/wand.\nUne baguette = a baguette (indefinite feminine)."},
+
+  {type:"teach",kind:"word",nl:"le café",en:"the coffee",phonetic:"luh kah-FAY",cognate:{words:[{lang:"English",word:"café"}],family:"romance"},example:"A: Un café, s'il vous plaît.\nB: Noir ou avec du lait?\nA: Avec du lait, merci.",exampleEn:"A: A coffee, please.\nB: Black or with milk?\nA: With milk, thank you.",note:"Le café = the coffee (masculine).\nAlso means the café (the place).\nUn café = a coffee. Du café = some coffee (partitive)."},
+
+  {type:"teach",kind:"word",nl:"le thé",en:"the tea",phonetic:"luh TAY",example:"A: Café ou thé?\nB: Du thé, s'il vous plaît.\nA: Avec du sucre?\nB: Non, merci. Nature.",exampleEn:"A: Coffee or tea?\nB: Tea, please.\nA: With sugar?\nB: No, thanks. Plain.",note:"Le thé = the tea (masculine).\nCognate with English tea (both from Chinese cha/te).\nDu thé = some tea (partitive article)."},
+
+  {type:"teach",kind:"word",nl:"le beurre",en:"the butter",phonetic:"luh BUHR",example:"A: Tu veux du beurre sur ta tartine?\nB: Oui, du beurre et de la confiture.\nA: Bon appétit!",exampleEn:"A: Do you want butter on your toast?\nB: Yes, butter and jam.\nA: Enjoy!",note:"Le beurre = the butter (masculine).\nCognate with English butter (from Germanic).\nDu beurre = some butter (you don't eat ALL the butter)."},
+
+  {type:"teach",kind:"word",nl:"la confiture",en:"the jam",phonetic:"lah kon-fee-TEWR",example:"A: Quelle confiture préfères-tu?\nB: La confiture de fraises!\nA: Moi aussi, c'est la meilleure.",exampleEn:"A: Which jam do you prefer?\nB: Strawberry jam!\nA: Me too, it's the best.",note:"La confiture = the jam (feminine).\nDe la confiture = some jam (partitive feminine).\nConfiture de fraises = strawberry jam."},
+
+  {type:"tip",title:"Le, La, Les: Definite Articles",text:"French has THREE definite articles (the):\n\nle = the (masculine singular): le café, le croissant\nla = the (feminine singular): la baguette, la confiture\nles = the (plural, both genders): les croissants, les baguettes\n\nBefore vowels: le/la become l': l'eau (the water), l'orange\n\nFrench uses definite articles MORE than English:\nJ'aime le café. (I like coffee. Not: I like THE coffee.)\nLe lait est bon. (Milk is good. Not: THE milk is good.)\n\nIn French, general statements need le/la/les.",deepDive:{title:"Why articles for general statements?",text:"In English: I like coffee. Coffee is good. (no article)\nIn French: J'aime le café. Le café est bon. (article required)\n\nFrench requires the definite article when speaking about things in general. This is because French grammar treats every noun as needing a determiner. A bare noun (without any article) is grammatically incomplete.\n\nThis takes practice. Whenever you make a general statement about something, add le/la/les."}},
+
+  {type:"mc",q:"'Le croissant' uses le because croissant is:",opts:["Feminine","Masculine","Plural","Uncountable"],ans:"Masculine",hint:"Le signals the noun belongs to this gender category."},
+
+  {type:"mc",q:"Before a vowel, le/la become:",opts:["les","un","l'","de"],ans:"l'",hint:"Elision: le/la drop their vowel before another vowel."},
+
+  {type:"fb",s:"Je voudrais ___ baguette, s'il vous plaît.",a:"une",opts:["une","un","la","le"],hint:"A baguette (indefinite). Feminine noun."},
+
+  {type:"mc",q:"'J'aime le café' means 'I like coffee' in general. The le is needed because:",opts:["It is formal","French requires articles for general statements","Le is optional","Coffee is masculine"],ans:"French requires articles for general statements",hint:"French nouns always need a determiner, even in general."},
+
+  {type:"match",pairs:[{nl:"le croissant",en:"the croissant (m)"},{nl:"la baguette",en:"the baguette (f)"},{nl:"le café",en:"the coffee (m)"},{nl:"la confiture",en:"the jam (f)"}]},
+
+  {type:"mc",q:"The plural of 'le croissant' is:",opts:["La croissants","Les croissants","Des croissants","Le croissants"],ans:"Les croissants",hint:"Les = the (plural). Works for both genders."},
+
+  {type:"fb",s:"___ thé ou du café?",a:"Du",opts:["Du","Le","Un","De"],hint:"Some tea: the partitive article for masculine nouns."},
+
+  {type:"mc",q:"'Du beurre' means:",opts:["The butter","A butter","Some butter","No butter"],ans:"Some butter",hint:"Du = de + le = some (partitive, masculine)."},
+
+  {type:"mc",q:"Which article pair is for indefinite (a/an)?",opts:["le/la","un/une","du/de la","les/des"],ans:"un/une",hint:"Un = a (masculine). Une = a (feminine)."},
+
+  {type:"fb",s:"Je voudrais ___ café et un croissant.",a:"un",opts:["un","le","du","de"],hint:"Ordering one specific coffee at a café."},
+]},
+
+// ═══ L2: Les articles partitifs ═══
+{id:"fre4l2",title:"Les articles partitifs",icon:"🧈",xp:15,board:true,steps:[
+  {type:"intro",title:"Les articles partitifs",desc:"French has a special article type: the partitive. It means some or a portion of. English often skips it, but French requires it.",goals:["Understand du/de la/de l'/des","Know when to use partitive vs definite","Use partitive in food contexts"]},
+
+  {type:"teach",kind:"word",nl:"du (= de + le)",en:"some (masculine)",phonetic:"DEW",example:"A: Tu veux du fromage?\nB: Oui, du fromage et du pain.\nA: Bon appétit!",exampleEn:"A: Do you want some cheese?\nB: Yes, some cheese and some bread.\nA: Enjoy!",note:"Du = de + le (contraction). Some (masculine).\nUsed for uncountable or partial quantities:\ndu pain (some bread), du lait (some milk)."},
+
+  {type:"teach",kind:"word",nl:"de la",en:"some (feminine)",phonetic:"duh LAH",example:"A: Tu veux de la salade?\nB: Oui, de la salade et de la soupe.\nA: C'est sain!",exampleEn:"A: Do you want some salad?\nB: Yes, some salad and some soup.\nA: That's healthy!",note:"De la = some (feminine singular).\nDe la confiture (some jam), de la viande (some meat).\nBefore a vowel: de l' (de l'eau = some water)."},
+
+  {type:"teach",kind:"word",nl:"de l'",en:"some (before vowels)",phonetic:"duh L",example:"A: Tu veux de l'eau?\nB: Oui, de l'eau s'il vous plaît.\nA: Plate ou gazeuse?",exampleEn:"A: Do you want some water?\nB: Yes, some water please.\nA: Still or sparkling?",note:"De l' = some (before vowels, any gender).\nDe l'eau (some water, feminine).\nDe l'orange jus (some orange juice, masculine).\nElision: de la/du cannot stand before vowels."},
+
+  {type:"teach",kind:"word",nl:"des",en:"some (plural)",phonetic:"DAY",example:"A: Tu veux des fruits?\nB: Oui, des pommes et des bananes.\nA: C'est bon pour la santé!",exampleEn:"A: Do you want some fruit?\nB: Yes, some apples and some bananas.\nA: It's good for health!",note:"Des = some (plural, both genders).\nDes pommes (some apples), des croissants (some croissants).\nDes is also the indefinite plural article (a/some)."},
+
+  {type:"tip",title:"When to Use Each Article Type",text:"Three article families, three purposes:\n\n1. DEFINITE (le/la/les): THE specific thing, or things in GENERAL\n   J'aime le chocolat. (I like chocolate in general.)\n\n2. INDEFINITE (un/une/des): A/AN, unspecified countable thing\n   Je voudrais un croissant. (I want a croissant, any one.)\n\n3. PARTITIVE (du/de la/de l'): SOME, a portion of uncountable\n   Je veux du café. (I want some coffee, not all of it.)\n\nKey test: can you count it?\nYes (1 croissant, 2 croissants) = un/une/des\nNo (you can't count bread/water/milk) = du/de la/de l'",deepDive:{title:"Partitive after negation",text:"After ne...pas, ALL partitive articles become de/d':\n\nJe veux du café. > Je ne veux pas de café.\nJ'ai de la confiture. > Je n'ai pas de confiture.\nIl y a des pommes. > Il n'y a pas de pommes.\n\nThis is a critical rule. In negative sentences, du/de la/des ALL become just de (or d' before vowels).\n\nYou will practice this in Unit 5 with negation."}},
+
+  {type:"teach",kind:"word",nl:"le fromage",en:"the cheese",phonetic:"luh froh-MAHZH",example:"A: Tu aimes le fromage?\nB: J'adore le fromage! Surtout le camembert.\nA: Moi, je préfère le brie.",exampleEn:"A: Do you like cheese?\nB: I love cheese! Especially camembert.\nA: Me, I prefer brie.",note:"Le fromage = the cheese (masculine).\nDu fromage = some cheese (partitive).\nFrance has over 400 types of cheese!"},
+
+  {type:"teach",kind:"word",nl:"le pain",en:"the bread",phonetic:"luh PAN",example:"A: Tu veux du pain?\nB: Oui, du pain avec du beurre.\nA: Voilà!",exampleEn:"A: Do you want some bread?\nB: Yes, some bread with butter.\nA: Here you go!",note:"Le pain = the bread (masculine). Nasal vowel: PAN.\nDu pain = some bread.\nFrench bread culture: fresh bread daily is the norm."},
+
+  {type:"mc",q:"'Du fromage' uses du because:",opts:["Fromage is feminine","You want ALL the cheese","You want SOME cheese (partitive, masculine)","Du is always used with food"],ans:"You want SOME cheese (partitive, masculine)",hint:"Partitive for a portion. Du = de + le (masculine)."},
+
+  {type:"mc",q:"'De la salade' uses de la because:",opts:["Salade is masculine","You want some (partitive, feminine)","De la is formal","Salade is plural"],ans:"You want some (partitive, feminine)",hint:"Partitive feminine: de la + feminine noun."},
+
+  {type:"fb",s:"Tu veux ___ eau? (some water)",a:"de l'",opts:["de l'","du","de la","des"],hint:"Some water: eau starts with a vowel, so elision applies."},
+
+  {type:"mc",q:"Can you count bread? If not, which article?",opts:["Un pain (indefinite)","Du pain (partitive)","Le pain (definite)","Des pains (plural)"],ans:"Du pain (partitive)",hint:"Bread is uncountable. Use the partitive: some bread."},
+
+  {type:"match",pairs:[{nl:"du café",en:"some coffee (m)"},{nl:"de la confiture",en:"some jam (f)"},{nl:"de l'eau",en:"some water"},{nl:"des fruits",en:"some fruits"}]},
+
+  {type:"mc",q:"'J'aime le chocolat' vs 'Je veux du chocolat'. The difference is:",opts:["No difference","Le = in general, du = some right now","Le is formal, du is casual","Le is singular, du is plural"],ans:"Le = in general, du = some right now",hint:"Definite = general category. Partitive = specific portion."},
+
+  {type:"fb",s:"Je voudrais ___ croissants, s'il vous plaît. (some)",a:"des",opts:["des","les","du","de la"],hint:"Some croissants: plural partitive/indefinite."},
+
+  {type:"mc",q:"Which article family is used for a PORTION of something uncountable?",opts:["Definite (le/la/les)","Indefinite (un/une/des)","Partitive (du/de la/de l')","No article needed"],ans:"Partitive (du/de la/de l')",hint:"The partitive exists specifically for uncountable portions."},
+
+  {type:"fb",s:"J'adore ___ fromage français. (cheese in general)",a:"le",opts:["le","du","un","de"],hint:"General statement about cheese: definite article."},
+
+  {type:"mc",q:"After 'ne...pas', partitive articles become:",opts:["Du/de la","Le/la","De/d'","Un/une"],ans:"De/d'",hint:"Negation strips the partitive down to just de."},
+]},
+
+// ═══ L3: Les repas ═══
+{id:"fre4l3",title:"Les repas",icon:"🍽️",xp:15,board:true,steps:[
+  {type:"intro",title:"Les repas",desc:"Learn the three meals of the day and more food vocabulary. French meal culture is structured: petit déjeuner, déjeuner, dîner.",goals:["Name the three meals","Learn 6 more food items","Use articles correctly with food"]},
+
+  {type:"teach",kind:"phrase",nl:"le petit déjeuner",en:"breakfast",phonetic:"luh puh-TEE day-zhuh-NAY",example:"A: Tu prends quoi au petit déjeuner?\nB: Du café et un croissant.\nA: C'est classique!",exampleEn:"A: What do you have for breakfast?\nB: Coffee and a croissant.\nA: That's classic!",note:"Le petit déjeuner = breakfast. Literally: the little lunch.\nPetit = small. Déjeuner = lunch (see next card).\nFrench breakfast is light: bread, butter, jam, coffee."},
+
+  {type:"teach",kind:"phrase",nl:"le déjeuner",en:"lunch",phonetic:"luh day-zhuh-NAY",example:"A: On déjeune ensemble?\nB: Oui! À quelle heure?\nA: À midi et demi.",exampleEn:"A: Shall we have lunch together?\nB: Yes! At what time?\nA: At half past noon.",note:"Le déjeuner = lunch (masculine).\nAlso a verb: déjeuner = to have lunch.\nFrench lunch is the main meal: entrée, plat, dessert."},
+
+  {type:"teach",kind:"phrase",nl:"le dîner",en:"dinner",phonetic:"luh dee-NAY",example:"A: Qu'est-ce qu'on mange pour le dîner?\nB: De la soupe et du poulet.\nA: Parfait!",exampleEn:"A: What are we eating for dinner?\nB: Soup and chicken.\nA: Perfect!",note:"Le dîner = dinner (masculine).\nAlso a verb: dîner = to have dinner.\nFrench dinner is typically 7:30-8:30 PM. Later than English speakers expect."},
+
+  {type:"teach",kind:"word",nl:"la viande",en:"the meat",phonetic:"lah vee-OND",example:"A: Tu manges de la viande?\nB: Oui, du poulet et du boeuf.\nA: Moi, je suis végétarien.",exampleEn:"A: Do you eat meat?\nB: Yes, chicken and beef.\nA: Me, I am vegetarian.",note:"La viande = the meat (feminine).\nDe la viande = some meat (partitive feminine).\nDu poulet = some chicken. Du boeuf = some beef."},
+
+  {type:"teach",kind:"word",nl:"le poisson",en:"the fish",phonetic:"luh pwah-SON",example:"A: Tu préfères la viande ou le poisson?\nB: Le poisson! J'adore le saumon.\nA: Moi aussi.",exampleEn:"A: Do you prefer meat or fish?\nB: Fish! I love salmon.\nA: Me too.",note:"Le poisson = the fish (masculine).\nDu poisson = some fish (partitive).\nDo NOT confuse with poison (same spelling in English but different word in French)."},
+
+  {type:"teach",kind:"word",nl:"les légumes",en:"the vegetables",phonetic:"lay lay-GEWM",example:"A: Tu manges des légumes?\nB: Oui, des carottes et des haricots verts.\nA: C'est bon pour la santé!",exampleEn:"A: Do you eat vegetables?\nB: Yes, carrots and green beans.\nA: It's good for health!",note:"Les légumes = the vegetables (masculine plural).\nDes légumes = some vegetables.\nCarotte, tomate, salade: most vegetable names are feminine."},
+
+  {type:"tip",title:"French Meal Culture",text:"French meals follow a structure:\n\nPetit déjeuner (7-9 AM): Light. Coffee, bread, butter, jam, croissant.\nDéjeuner (12-2 PM): Main meal. Often entrée + plat + dessert.\nDîner (7:30-9 PM): Lighter than lunch. Soup, salad, simple dish.\n\nKey cultural notes:\n1. Lunch is sacred. Many French people take 1-2 hours.\n2. Snacking between meals is uncommon (goûter for children at 4 PM).\n3. Bread is always on the table. Always.\n4. Water is free at restaurants (une carafe d'eau).",deepDive:{title:"Entrée, plat, dessert",text:"A traditional French meal has courses:\n\nl'entrée = the starter (not the main course like in American English!)\nle plat (principal) = the main course\nle dessert = dessert\n\nSometimes also: le fromage (cheese course, before dessert).\n\nThe French apéritif (apéro) is a pre-meal drink with snacks. It is a social ritual, not just a drink."}},
+
+  {type:"mc",q:"'Le petit déjeuner' literally means:",opts:["The morning meal","The little lunch","The first meal","The breakfast plate"],ans:"The little lunch",hint:"Petit = small. Déjeuner = the midday meal. Combined meaning?"},
+
+  {type:"mc",q:"French lunch is typically:",opts:["Light, like breakfast","The main meal of the day","Skipped","Only snacks"],ans:"The main meal of the day",hint:"Déjeuner is the big meal. Dinner is lighter."},
+
+  {type:"fb",s:"Tu manges de ___ viande? (some meat, feminine)",a:"la",opts:["la","le","l'","du"],hint:"Some meat: partitive feminine. De + la."},
+
+  {type:"mc",q:"'Des légumes' means:",opts:["The vegetables","A vegetable","Some vegetables","No vegetables"],ans:"Some vegetables",hint:"Des = some (plural partitive/indefinite)."},
+
+  {type:"match",pairs:[{nl:"le petit déjeuner",en:"breakfast"},{nl:"le déjeuner",en:"lunch"},{nl:"le dîner",en:"dinner"},{nl:"les légumes",en:"vegetables"}]},
+
+  {type:"mc",q:"'J'aime le poisson.' This means:",opts:["I want some fish now","I like fish in general","I am eating fish","The fish is here"],ans:"I like fish in general",hint:"Le + noun in general statements = definite article."},
+
+  {type:"fb",s:"Qu'est-ce qu'on mange pour le ___? De la soupe.",a:"dîner",opts:["dîner","déjeuner","petit déjeuner","goûter"],hint:"The evening meal, typically 7:30-9 PM."},
+
+  {type:"mc",q:"In French restaurants, free water is called:",opts:["De l'eau plate","Une carafe d'eau","De l'eau gazeuse","Un verre d'eau"],ans:"Une carafe d'eau",hint:"A carafe of water: free tap water at any restaurant."},
+
+  {type:"mc",q:"French 'entrée' means:",opts:["Main course (like American English)","Starter/appetizer","Dessert","Exit"],ans:"Starter/appetizer",hint:"False friend! French entrée = starter, not main course."},
+
+  {type:"fb",s:"Tu manges ___ poisson? (some fish)",a:"du",opts:["du","le","un","de la"],hint:"Some fish: partitive for a masculine uncountable noun."},
+]},
+
+// ═══ L4: Les boissons ═══
+{id:"fre4l4",title:"Les boissons",icon:"🥤",xp:15,board:true,steps:[
+  {type:"intro",title:"Les boissons",desc:"Learn drink vocabulary and practice ordering. Drinks are a perfect context for partitive articles: you always want SOME of a drink, not ALL of it.",goals:["Name 6 common drinks","Order drinks at a café","Use partitive articles with drinks"]},
+
+  {type:"teach",kind:"word",nl:"l'eau",en:"the water",phonetic:"LOH",example:"A: De l'eau, s'il vous plaît.\nB: Plate ou gazeuse?\nA: Plate, merci.",exampleEn:"A: Some water, please.\nB: Still or sparkling?\nA: Still, thank you.",note:"L'eau = the water (feminine: la eau = l'eau).\nDe l'eau = some water (partitive).\nEau plate = still water. Eau gazeuse = sparkling water."},
+
+  {type:"teach",kind:"word",nl:"le jus d'orange",en:"the orange juice",phonetic:"luh ZHEW doh-RONZH",example:"A: Un jus d'orange, s'il vous plaît.\nB: Grand ou petit?\nA: Grand, merci!",exampleEn:"A: An orange juice, please.\nB: Large or small?\nA: Large, thanks!",note:"Le jus = the juice (masculine). D'orange = of orange.\nDu jus d'orange = some orange juice.\nJus de pomme = apple juice. Jus de raisin = grape juice."},
+
+  {type:"teach",kind:"word",nl:"le lait",en:"the milk",phonetic:"luh LAY",example:"A: Tu veux du lait dans ton café?\nB: Oui, un peu de lait.\nA: Et du sucre?",exampleEn:"A: Do you want milk in your coffee?\nB: Yes, a little milk.\nA: And sugar?",note:"Le lait = the milk (masculine).\nDu lait = some milk (partitive).\nUn peu de lait = a little milk."},
+
+  {type:"teach",kind:"word",nl:"le vin",en:"the wine",phonetic:"luh VAN",example:"A: Un verre de vin, s'il vous plaît.\nB: Rouge ou blanc?\nA: Rouge, merci.",exampleEn:"A: A glass of wine, please.\nB: Red or white?\nA: Red, thank you.",note:"Le vin = the wine (masculine). Nasal vowel: VAN.\nDu vin = some wine.\nVin rouge = red wine. Vin blanc = white wine."},
+
+  {type:"teach",kind:"word",nl:"la bière",en:"the beer",phonetic:"lah bee-EHR",example:"A: Une bière, s'il vous plaît.\nB: Pression ou bouteille?\nA: Pression!",exampleEn:"A: A beer, please.\nB: Draft or bottle?\nA: Draft!",note:"La bière = the beer (feminine).\nUne bière = a beer (countable: one glass/bottle).\nDe la bière = some beer (partitive, uncountable)."},
+
+  {type:"teach",kind:"phrase",nl:"Je voudrais un/une...",en:"I would like a...",phonetic:"zhuh voo-DRAY",example:"A: Bonjour! Vous désirez?\nB: Je voudrais un café et un croissant.\nA: Tout de suite!",exampleEn:"A: Hello! What would you like?\nB: I would like a coffee and a croissant.\nA: Right away!",note:"Je voudrais = I would like (polite ordering).\nUn/une for countable items: un café, une bière.\nDu/de la for portions: du vin, de la soupe."},
+
+  {type:"tip",title:"Ordering Drinks: Countable vs Uncountable",text:"When ordering, choose the right article:\n\nCountable (a specific unit):\nUn café (a coffee = one cup)\nUne bière (a beer = one glass/bottle)\nUn jus d'orange (one orange juice)\n\nUncountable (some/a portion):\nDu vin (some wine)\nDe l'eau (some water)\nDu lait (some milk)\n\nAt a café, you usually order countable units:\nJe voudrais un café et une bière.\n\nAt home, you ask for portions:\nTu veux du café? Du lait?",deepDive:{title:"Un café vs du café",text:"Both are correct but mean different things:\n\nUn café = one coffee (at a café, ordering a cup)\nDu café = some coffee (at home, offering from the pot)\n\nThis distinction applies to all drinks:\nUne bière (ordering one) vs de la bière (offering from a bottle)\nUn jus (ordering one) vs du jus (pouring from a carton)\n\nContext tells you which to use. At restaurants: un/une. At home: du/de la."}},
+
+  {type:"mc",q:"At a café, you order 'one coffee' with:",opts:["Du café","Le café","Un café","De café"],ans:"Un café",hint:"Ordering a specific unit at a café: indefinite article."},
+
+  {type:"mc",q:"At home, you offer 'some coffee' with:",opts:["Un café","Le café","Du café","De café"],ans:"Du café",hint:"Offering a portion at home: partitive article."},
+
+  {type:"fb",s:"Je voudrais ___ bière, s'il vous plaît.",a:"une",opts:["une","un","de la","la"],hint:"Ordering one beer at a café: feminine indefinite."},
+
+  {type:"mc",q:"'L'eau' is feminine. Some water is:",opts:["Du eau","De l'eau","De la eau","D'eau"],ans:"De l'eau",hint:"Elision before vowels: de la becomes de l'."},
+
+  {type:"match",pairs:[{nl:"le vin",en:"wine (m)"},{nl:"la bière",en:"beer (f)"},{nl:"l'eau",en:"water (f)"},{nl:"le lait",en:"milk (m)"}]},
+
+  {type:"mc",q:"'Vin rouge' means:",opts:["White wine","Red wine","Rosé wine","Sweet wine"],ans:"Red wine",hint:"Rouge = the color of roses and fire."},
+
+  {type:"fb",s:"___ vin ou de la bière? (some wine)",a:"Du",opts:["Du","De la","Le","Un"],hint:"Some wine: partitive masculine (de + le = du)."},
+
+  {type:"mc",q:"'Eau plate' vs 'eau gazeuse' means:",opts:["Hot vs cold","Still vs sparkling","Tap vs bottled","Fresh vs old"],ans:"Still vs sparkling",hint:"Plate = flat/still. Gazeuse = carbonated/sparkling."},
+
+  {type:"mc",q:"Why 'un jus d'orange' (not du jus d'orange) at a café?",opts:["Jus is masculine","You are ordering one specific drink","D'orange makes it countable","It sounds more polite"],ans:"You are ordering one specific drink",hint:"At cafés, you order countable units: one juice."},
+
+  {type:"fb",s:"___ lait dans ton café? (some milk)",a:"Du",opts:["Du","Le","Un","De la"],hint:"Some milk: partitive for a masculine noun."},
+]},
+
+// ═══ L5: Les fruits et légumes ═══
+{id:"fre4l5",title:"Les fruits et légumes",icon:"🍎",xp:15,board:true,steps:[
+  {type:"intro",title:"Les fruits et légumes",desc:"Learn fruit and vegetable names. Notice: most fruit names are feminine (la pomme, la banane) while most vegetable names vary.",goals:["Name 6 fruits and vegetables","Practice gender with food nouns","Use des for plurals"]},
+
+  {type:"teach",kind:"word",nl:"la pomme",en:"the apple",phonetic:"lah POM",example:"A: Tu veux une pomme?\nB: Oui, j'adore les pommes!\nA: Rouge ou verte?",exampleEn:"A: Do you want an apple?\nB: Yes, I love apples!\nA: Red or green?",note:"La pomme = the apple (feminine).\nUne pomme = an apple. Des pommes = some apples.\nPomme de terre = potato (literally: apple of earth)."},
+
+  {type:"teach",kind:"word",nl:"la banane",en:"the banana",phonetic:"lah bah-NAHN",example:"A: Il y a des bananes?\nB: Oui, il y a trois bananes.\nA: J'en prends une.",exampleEn:"A: Are there bananas?\nB: Yes, there are three bananas.\nA: I'll take one.",note:"La banane = the banana (feminine).\nCognate with English banana.\nDes bananes = some bananas."},
+
+  {type:"teach",kind:"word",nl:"la tomate",en:"the tomato",phonetic:"lah toh-MAHT",example:"A: Tu aimes les tomates?\nB: Oui, surtout en salade.\nA: Avec de la mozzarella!",exampleEn:"A: Do you like tomatoes?\nB: Yes, especially in salad.\nA: With mozzarella!",note:"La tomate = the tomato (feminine).\nCognate with English tomato.\nFrench fruits and vegetables ending in -e are usually feminine."},
+
+  {type:"teach",kind:"word",nl:"la carotte",en:"the carrot",phonetic:"lah kah-ROT",example:"A: Des carottes dans la soupe?\nB: Oui, des carottes et des pommes de terre.\nA: Délicieux!",exampleEn:"A: Carrots in the soup?\nB: Yes, carrots and potatoes.\nA: Delicious!",note:"La carotte = the carrot (feminine).\nCognate with English carrot.\nDes carottes = some carrots."},
+
+  {type:"teach",kind:"word",nl:"l'orange",en:"the orange",phonetic:"loh-RONZH",example:"A: Tu veux une orange?\nB: Non merci, je préfère du jus d'orange.\nA: D'accord!",exampleEn:"A: Do you want an orange?\nB: No thanks, I prefer orange juice.\nA: Okay!",note:"L'orange = the orange (feminine: la orange = l'orange).\nUne orange = an orange. Des oranges = some oranges.\nJus d'orange = orange juice (juice of orange)."},
+
+  {type:"teach",kind:"phrase",nl:"Il y a...",en:"There is... / There are...",phonetic:"eel ee AH",example:"A: Qu'est-ce qu'il y a dans le frigo?\nB: Il y a du fromage, des tomates et du lait.\nA: Parfait pour une salade!",exampleEn:"A: What is in the fridge?\nB: There is cheese, tomatoes, and milk.\nA: Perfect for a salad!",note:"Il y a = there is / there are.\nWorks for both singular and plural.\nVery common in everyday French.\nQuestion: Qu'est-ce qu'il y a? (What is there?)"},
+
+  {type:"tip",title:"Gender Patterns in Food Words",text:"Helpful tendencies (not absolute rules):\n\nMost fruits ending in -e are feminine:\nla pomme, la banane, la tomate, la fraise, l'orange\n\nExceptions: le concombre (cucumber), le pamplemousse (grapefruit)\n\nMeat and dairy tend to be masculine:\nle poulet, le boeuf, le fromage, le beurre, le lait\n\nDrinks are mostly masculine:\nle café, le thé, le vin, le jus\nException: la bière, l'eau\n\nAlways learn the article with the word!",deepDive:{title:"Why gender seems random",text:"French noun gender comes from Latin. Some follow patterns (words from Latin feminine = French feminine), but many changed over time or were borrowed from other languages.\n\nThe only reliable strategy: memorize the article with every noun. Say le fromage, never just fromage. Say la pomme, never just pomme.\n\nOver time, you will develop intuition. Words ending in -tion, -sion, -ée, -ie are almost always feminine. Words ending in -ment, -age, -eau are almost always masculine."}},
+
+  {type:"mc",q:"'La pomme' is feminine. 'Une pomme' means:",opts:["The apple","An apple","Some apple","Apples"],ans:"An apple",hint:"Une = a/an (indefinite feminine singular)."},
+
+  {type:"mc",q:"Most French fruit names ending in -e are:",opts:["Masculine","Feminine","Neutral","Plural"],ans:"Feminine",hint:"La pomme, la banane, la tomate, l'orange: notice the pattern."},
+
+  {type:"fb",s:"Il y ___ des tomates dans le frigo.",a:"a",opts:["a","est","sont","ont"],hint:"There are: il y ___. The impersonal expression."},
+
+  {type:"mc",q:"'Il y a' works for:",opts:["Only singular","Only plural","Both singular and plural","Only feminine"],ans:"Both singular and plural",hint:"Il y a un chat. Il y a des chats. Both correct."},
+
+  {type:"match",pairs:[{nl:"la pomme",en:"apple (f)"},{nl:"la tomate",en:"tomato (f)"},{nl:"l'orange",en:"orange (f)"},{nl:"la carotte",en:"carrot (f)"}]},
+
+  {type:"mc",q:"'Des bananes' uses des because:",opts:["Banane is masculine","It means THE bananas","It means SOME bananas (plural)","Des is always used"],ans:"It means SOME bananas (plural)",hint:"Des = some (plural indefinite/partitive)."},
+
+  {type:"fb",s:"___ y a du fromage et des carottes.",a:"Il",opts:["Il","Elle","C'est","On"],hint:"There is/are: the impersonal subject."},
+
+  {type:"mc",q:"'Pomme de terre' literally means:",opts:["Potato","Apple of earth","Ground fruit","Earthen apple"],ans:"Apple of earth",hint:"Pomme = apple. De = of. Terre = earth/ground."},
+
+  {type:"mc",q:"Words ending in -tion are almost always:",opts:["Masculine","Feminine","Plural","Irregular"],ans:"Feminine",hint:"La nation, la situation, la confiture: notice the la pattern."},
+
+  {type:"fb",s:"___ y a des tomates et des carottes dans le frigo.",a:"Il",opts:["Il","Elle","C'est","On"],hint:"There is/are: the impersonal subject pronoun."},
+]},
+
+// ═══ L6: Commander au restaurant ═══
+{id:"fre4l6",title:"Commander au restaurant",icon:"🍽️",xp:15,board:true,steps:[
+  {type:"intro",title:"Commander au restaurant",desc:"Put it all together: ordering a complete meal at a French restaurant. Use articles, food vocabulary, and polite expressions.",goals:["Order a complete meal in French","Handle waiter interactions","Use correct articles in ordering"]},
+
+  {type:"teach",kind:"phrase",nl:"Qu'est-ce que vous désirez?",en:"What would you like? (waiter asking)",phonetic:"kes-kuh voo day-zee-RAY",example:"A: Bonjour! Qu'est-ce que vous désirez?\nB: Je voudrais le menu du jour, s'il vous plaît.\nA: Tout de suite!",exampleEn:"A: Hello! What would you like?\nB: I would like the daily special, please.\nA: Right away!",note:"Qu'est-ce que = what (question phrase).\nVous désirez = you desire/want (formal).\nCommon waiter greeting in restaurants."},
+
+  {type:"teach",kind:"phrase",nl:"Comme entrée / Comme plat / Comme dessert",en:"For starter / For main / For dessert",phonetic:"kom on-TRAY / kom PLAH / kom deh-SEHR",example:"A: Qu'est-ce que vous prenez?\nB: Comme entrée, de la soupe. Comme plat, du poisson.\nA: Et comme dessert?\nB: Une tarte aux pommes.",exampleEn:"A: What will you have?\nB: For starter, soup. For main, fish.\nA: And for dessert?\nB: An apple tart.",note:"Comme = as/for (in this context).\nUse comme to structure your order by course.\nEntrée = starter. Plat = main course. Dessert = dessert."},
+
+  {type:"teach",kind:"phrase",nl:"C'est délicieux!",en:"It's delicious!",phonetic:"say day-lee-SYUH",cognate:{words:[{lang:"English",word:"delicious"}],family:"romance"},example:"A: Comment est le poisson?\nB: C'est délicieux! Vraiment excellent.\nA: Tant mieux!",exampleEn:"A: How is the fish?\nB: It's delicious! Really excellent.\nA: Great!",note:"C'est + adjective for food reactions.\nC'est bon! (It's good!). C'est délicieux! (It's delicious!)\nC'est excellent! (It's excellent!). C'est parfait! (It's perfect!)"},
+
+  {type:"teach",kind:"phrase",nl:"L'addition, s'il vous plaît",en:"The check, please",phonetic:"lah-dee-SYON seel voo PLAY",example:"A: L'addition, s'il vous plaît.\nB: Voilà. Ça fait vingt-cinq euros.\nA: Voici. Merci, au revoir!",exampleEn:"A: The check, please.\nB: Here you are. That's twenty-five euros.\nA: Here you go. Thank you, goodbye!",note:"Review from Unit 1 in a fuller context.\nCa fait + price = That comes to / That's.\nService is included (service compris) in France."},
+
+  {type:"tip",title:"Restaurant Flow: The Complete Script",text:"A full French restaurant interaction:\n\n1. Enter: Bonjour!\n2. Waiter: Bonjour! Vous avez réservé?\n3. You: Oui / Non, une table pour deux.\n4. Waiter: Qu'est-ce que vous désirez?\n5. You: Comme entrée... Comme plat... Comme dessert...\n6. During meal: C'est délicieux!\n7. End: L'addition, s'il vous plaît.\n8. Waiter: Voilà. Ça fait X euros.\n9. You: Merci! Au revoir! Bonne soirée!\n10. Waiter: Bonne soirée!",deepDive:{title:"Tipping in France",text:"In France, service is included in the price by law (service compris). You are NOT expected to tip 15-20% like in the US.\n\nHowever, it is nice to leave small change (a few euros) for good service. This is called un pourboire.\n\nSaying merci when paying can signal you do not want change back. If you want change, say l'addition, s'il vous plaît and wait."}},
+
+  {type:"mc",q:"The waiter asks 'Qu'est-ce que vous désirez?' You respond with:",opts:["Bonjour","Je voudrais...","Merci","L'addition"],ans:"Je voudrais...",hint:"The polite ordering formula: I would like."},
+
+  {type:"mc",q:"To order by course, you use:",opts:["Comme entrée, comme plat, comme dessert","Un, deux, trois","S'il vous plaît for each","Menu numéro un"],ans:"Comme entrée, comme plat, comme dessert",hint:"Comme = for/as. Structure your order by course."},
+
+  {type:"fb",s:"Comme ___, de la soupe à l'oignon.",a:"entrée",opts:["entrée","plat","dessert","boisson"],hint:"For starter: the first course of the meal."},
+
+  {type:"mc",q:"'Ça fait vingt euros' means:",opts:["That makes twenty euros","Twenty euros is expensive","I have twenty euros","Twenty euros please"],ans:"That makes twenty euros",hint:"Ça fait + amount = that comes to / that's the total."},
+
+  {type:"match",pairs:[{nl:"l'entrée",en:"the starter"},{nl:"le plat",en:"the main course"},{nl:"le dessert",en:"the dessert"},{nl:"l'addition",en:"the check/bill"}]},
+
+  {type:"mc",q:"Tipping in France is:",opts:["Required at 20%","Included in the price (service compris)","Considered rude","Only for excellent service"],ans:"Included in the price (service compris)",hint:"Service is included by law. Extra tips are nice but optional."},
+
+  {type:"fb",s:"C'est ___! Le poisson est excellent.",a:"délicieux",opts:["délicieux","mauvais","froid","cher"],hint:"Delicious! A positive food reaction."},
+
+  {type:"mc",q:"'Entrée' in French means:",opts:["Main course","Starter/appetizer","Entrance fee","Side dish"],ans:"Starter/appetizer",hint:"False friend with American English. French entrée = starter."},
+
+  {type:"mc",q:"After the meal, you say:",opts:["Bonjour!","Je voudrais commander","L'addition, s'il vous plaît","Comme entrée..."],ans:"L'addition, s'il vous plaît",hint:"The check please: the standard end-of-meal request."},
+
+  {type:"fb",s:"Une table pour ___, s'il vous plaît. (two people)",a:"deux",opts:["deux","un","trois","quatre"],hint:"A table for two: the number of diners."},
+
+  {type:"mc",q:"The correct order of a French meal is:",opts:["Plat, entrée, dessert","Entrée, plat, dessert","Dessert, plat, entrée","Entrée, dessert, plat"],ans:"Entrée, plat, dessert",hint:"Starter first, main course second, sweet at the end."},
+
+  {type:"fb",s:"___ fait vingt euros. (That comes to)",a:"Ça",opts:["Ça","Il","C'est","Ce"],hint:"That makes / that comes to: the impersonal subject."},
+]},
+
+// ═══ L7: Aimer et détester ═══
+{id:"fre4l7",title:"Aimer et détester",icon:"❤️",xp:15,board:true,steps:[
+  {type:"intro",title:"Aimer et détester",desc:"Express food preferences. Learn to say what you like, love, prefer, and hate. These verbs take the DEFINITE article for general statements.",goals:["Use aimer, adorer, préférer, détester","Remember: preference verbs + le/la/les","Express food likes and dislikes"]},
+
+  {type:"teach",kind:"word",nl:"aimer",en:"to like / to love",phonetic:"ay-MAY",example:"A: Tu aimes le fromage?\nB: Oui, j'aime le fromage!\nA: Quel fromage préfères-tu?",exampleEn:"A: Do you like cheese?\nB: Yes, I like cheese!\nA: What cheese do you prefer?",note:"Aimer = to like (things) / to love (people).\nJ'aime le café = I like coffee.\nJ'aime Marie = I love Marie.\nAlways + le/la/les for general preferences."},
+
+  {type:"teach",kind:"word",nl:"adorer",en:"to love / to adore",phonetic:"ah-doh-RAY",example:"A: Tu aimes le chocolat?\nB: J'adore le chocolat! C'est ma passion.\nA: Moi aussi!",exampleEn:"A: Do you like chocolate?\nB: I LOVE chocolate! It's my passion.\nA: Me too!",note:"Adorer = to love/adore (stronger than aimer for things).\nJ'adore le chocolat = I LOVE chocolate.\nFor things: adorer > aimer in intensity.\nFor people: aimer is love, adorer is adore."},
+
+  {type:"teach",kind:"word",nl:"préférer",en:"to prefer",phonetic:"pray-fay-RAY",example:"A: Café ou thé?\nB: Je préfère le thé.\nA: Avec du sucre?\nB: Non, nature.",exampleEn:"A: Coffee or tea?\nB: I prefer tea.\nA: With sugar?\nB: No, plain.",note:"Préférer = to prefer.\nJe préfère = I prefer. Note the accent change.\nJe préfère le thé au café = I prefer tea to coffee.\nAu = à + le (to the)."},
+
+  {type:"teach",kind:"word",nl:"détester",en:"to hate / to detest",phonetic:"day-tess-TAY",example:"A: Tu aimes les épinards?\nB: Non, je déteste les épinards!\nA: Même en salade?\nB: Même en salade!",exampleEn:"A: Do you like spinach?\nB: No, I hate spinach!\nA: Even in salad?\nB: Even in salad!",note:"Détester = to hate (for things). Cognate with detest.\nJe déteste les épinards = I hate spinach.\nAlways + le/la/les for general dislikes."},
+
+  {type:"tip",title:"Preference Verbs Always Use le/la/les",text:"When expressing general likes/dislikes, ALWAYS use the definite article:\n\nJ'aime LE fromage. (I like cheese.)\nJ'adore LA pizza. (I love pizza.)\nJe déteste LES épinards. (I hate spinach.)\nJe préfère LE thé. (I prefer tea.)\n\nNEVER: J'aime fromage. J'adore pizza.\nThe definite article is REQUIRED after preference verbs.\n\nThis is different from du/de la (partitive):\nJe veux du fromage. (I want some cheese. = right now)\nJ'aime le fromage. (I like cheese. = in general)",deepDive:{title:"The preference scale",text:"From most positive to most negative:\n\nadorer > aimer bien > aimer > ne pas détester > ne pas aimer > détester\n\nJ'adore = I love it\nJ'aime bien = I quite like it (milder than aimer)\nJ'aime = I like it\nJe n'aime pas = I don't like it\nJe déteste = I hate it\n\nNote: aimer bien is WEAKER than aimer. This is counterintuitive! Adding bien actually reduces the intensity."}},
+
+  {type:"teach",kind:"phrase",nl:"Moi aussi / Moi non plus",en:"Me too / Me neither",phonetic:"mwah oh-SEE / mwah non PLEW",example:"A: J'adore le chocolat!\nB: Moi aussi!\nA: Je déteste les escargots.\nB: Moi non plus!",exampleEn:"A: I love chocolate!\nB: Me too!\nA: I hate snails.\nB: Me neither!",note:"Moi aussi = me too (after positive statement).\nMoi non plus = me neither (after negative statement).\nVery common in food conversations!"},
+
+  {type:"mc",q:"'J'aime le fromage' needs 'le' because:",opts:["Fromage is masculine","Preference verbs require the definite article for general statements","Le sounds better","It is formal"],ans:"Preference verbs require the definite article for general statements",hint:"Aimer/adorer/détester + le/la/les for general preferences."},
+
+  {type:"mc",q:"Which is STRONGER: aimer or adorer?",opts:["Aimer","Adorer","They are equal","Depends on context"],ans:"Adorer",hint:"One means to LOVE, the other to like. Which is more intense?"},
+
+  {type:"fb",s:"Je ___ le chocolat! C'est ma passion.",a:"adore",opts:["adore","aime","déteste","préfère"],hint:"I LOVE chocolate. The strongest positive preference."},
+
+  {type:"mc",q:"Someone says 'J'adore la pizza.' You agree. You say:",opts:["Moi non plus","Moi aussi","Moi non","De rien"],ans:"Moi aussi",hint:"Me too: agreement after a positive statement."},
+
+  {type:"match",pairs:[{nl:"aimer",en:"to like"},{nl:"adorer",en:"to love/adore"},{nl:"préférer",en:"to prefer"},{nl:"détester",en:"to hate"}]},
+
+  {type:"mc",q:"'Aimer bien' is surprisingly:",opts:["Stronger than aimer","Weaker than aimer","Equal to aimer","Only for people"],ans:"Weaker than aimer",hint:"Adding bien reduces the intensity. Counterintuitive!"},
+
+  {type:"fb",s:"Je ___ les épinards. Je ne les mange jamais!",a:"déteste",opts:["déteste","aime","adore","préfère"],hint:"I hate spinach. The strongest negative preference."},
+
+  {type:"mc",q:"Which is WRONG?",opts:["J'aime le café","J'aime café","J'adore la pizza","Je déteste les tomates"],ans:"J'aime café",hint:"Missing article! Preference verbs NEED le/la/les."},
+
+  {type:"mc",q:"Someone says 'Je déteste le poisson.' You agree. You say:",opts:["Moi aussi","Moi non plus","Moi oui","De rien"],ans:"Moi non plus",hint:"Me neither: agreement after a negative statement."},
+
+  {type:"fb",s:"Je ___ le thé au café. (I prefer tea to coffee.)",a:"préfère",opts:["préfère","aime","adore","veux"],hint:"I prefer: expressing a choice between two options."},
+
+  {type:"mc",q:"Which verb pattern is WRONG?",opts:["J'aime le fromage","J'adore la pizza","Je déteste fromage","Je préfère le vin"],ans:"Je déteste fromage",hint:"One option is missing the required definite article."},
+]},
+
+// ═══ L8: Révision Unit 4 ═══
+{id:"fre4l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 4 Review",desc:"Review all of Unit 4: food vocabulary, the three article types, partitive articles, ordering at restaurants, and expressing preferences.",goals:["Review all article types","Test food vocabulary","Combine ordering and preference expressions"]},
+
+  {type:"mc",q:"The three French article families are:",opts:["Le/la, un/une, du/de la","Le/la, mon/ma, ce/cette","Un/une, le/la, il/elle","Du/de la, son/sa, au/à la"],ans:"Le/la, un/une, du/de la",hint:"Definite, indefinite, partitive: three systems."},
+
+  {type:"fb",s:"Tu veux ___ pain? (some bread)",a:"du",opts:["du","le","un","de"],hint:"Some bread: partitive masculine (de + le)."},
+
+  {type:"mc",q:"At a café, you order 'one coffee' with:",opts:["Du café","Un café","Le café","De café"],ans:"Un café",hint:"Ordering a specific unit: indefinite article."},
+
+  {type:"match",pairs:[{nl:"le petit déjeuner",en:"breakfast"},{nl:"le déjeuner",en:"lunch"},{nl:"le dîner",en:"dinner"},{nl:"l'addition",en:"the check"}]},
+
+  {type:"mc",q:"'J'adore le fromage' uses le because:",opts:["Fromage is uncountable","General preference: definite article required","Le is formal","Fromage is masculine"],ans:"General preference: definite article required",hint:"Preference verbs + le/la/les for general statements."},
+
+  {type:"fb",s:"Comme ___, du poisson grillé.",a:"plat",opts:["plat","entrée","dessert","boisson"],hint:"For main course: the middle course of a meal."},
+
+  {type:"mc",q:"'De la soupe' uses de la because:",opts:["Soupe is masculine","You want ALL the soup","Some soup (partitive feminine)","Soupe is plural"],ans:"Some soup (partitive feminine)",hint:"Partitive feminine: a portion of uncountable soup."},
+
+  {type:"mc",q:"Most French fruit names ending in -e are:",opts:["Masculine","Feminine","Neutral","Irregular"],ans:"Feminine",hint:"La pomme, la banane, la tomate, l'orange."},
+
+  {type:"fb",s:"Il y ___ des légumes dans le frigo.",a:"a",opts:["a","est","ont","sont"],hint:"There are: the impersonal il y ___ expression."},
+
+  {type:"mc",q:"Someone says 'Je déteste les escargots.' You agree. You say:",opts:["Moi aussi","Moi non plus","Oui","Non"],ans:"Moi non plus",hint:"Me neither: agreeing with a negative statement."},
+
+  {type:"match",pairs:[{nl:"du fromage",en:"some cheese"},{nl:"de la viande",en:"some meat"},{nl:"de l'eau",en:"some water"},{nl:"des fruits",en:"some fruits"}]},
+
+  {type:"fb",s:"Je ___ le thé. C'est chaud et bon.",a:"aime",opts:["aime","veux","prends","bois"],hint:"I like tea: general preference verb."},
+
+  {type:"mc",q:"After ne...pas, partitive articles become:",opts:["Le/la","Du/de la","De/d'","Un/une"],ans:"De/d'",hint:"Negation strips partitive to just de."},
+
+  {type:"mc",q:"'Eau plate' means:",opts:["Sparkling water","Still water","Hot water","Cold water"],ans:"Still water",hint:"Plate = flat/still. No bubbles."},
+
+  {type:"fb",s:"C'est ___! Le poulet est excellent.",a:"délicieux",opts:["délicieux","mauvais","froid","cher"],hint:"Delicious! A positive food reaction."},
+
+  {type:"mc",q:"'Ça fait quinze euros' means:",opts:["Fifteen euros please","That comes to fifteen euros","I have fifteen euros","Fifteen is a lot"],ans:"That comes to fifteen euros",hint:"Ça fait + price = the total amount."},
+
+  {type:"mc",q:"In France, tipping at restaurants is:",opts:["Required at 15%","Included in the price","Considered rude","For takeout only"],ans:"Included in the price",hint:"Service compris: service charge is built into prices."},
+
+  {type:"mc",q:"'Aimer bien' is _____ than 'aimer':",opts:["Stronger","Weaker","The same","Only for food"],ans:"Weaker",hint:"Counterintuitive: adding bien reduces intensity."},
+]},
+]},
+
 ];
