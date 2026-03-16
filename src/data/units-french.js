@@ -3230,4 +3230,324 @@ export default [
 ]},
 ]},
 
+// ═══════════════════════════════════════════════
+//  UNIT 11 — L'imparfait
+//  Level: A2.3 | Lessons: 8 | Track: v1
+// ═══════════════════════════════════════════════
+
+{n:11,lang:"fr",track:"v1",title:"L'imparfait",sub:"Imperfect Tense",icon:"🌫️",level:"A2.3",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Qu'est-ce que l'imparfait? ═══
+{id:"fre11l1",title:"L'imparfait",icon:"🌫️",xp:15,board:true,steps:[
+  {type:"intro",title:"L'imparfait: the other past tense",desc:"The imparfait describes ongoing, habitual, or background actions in the past. While passé composé tells WHAT happened, imparfait tells what WAS happening or USED to happen.",goals:["Understand when to use imparfait","Distinguish from passé composé","Form the imparfait stem"]},
+
+  {type:"tip",title:"Imparfait vs passé composé",text:"PASSÉ COMPOSÉ: completed, specific events\nJ'ai mangé une pizza. (I ate a pizza.)\n\nIMPARFAIT: ongoing, habitual, descriptive\nJe mangeais toujours des pizzas. (I always used to eat pizzas.)\nIl faisait beau. (The weather was nice.)\n\nThink of imparfait as the 'background' tense.\nPassé composé is the 'event' tense."},
+
+  {type:"teach",kind:"phrase",nl:"je mangeais",en:"I was eating / I used to eat",phonetic:"zhuh mahn-ZHAY",example:"A: Tu mangeais souvent au restaurant avant?\nB: Oui, je mangeais au restaurant tous les jours.\nA: Et maintenant?",exampleEn:"A: Did you used to eat at restaurants often?\nB: Yes, I used to eat at restaurants every day.\nA: And now?",note:"Imparfait of manger.\nStem: mange- (nous form minus -ons).\nEnding: -ais (je)."},
+
+  {type:"tip",title:"How to form the imparfait",text:"Take the NOUS form of present tense.\nRemove -ons to get the stem.\nAdd imparfait endings:\n\nje: -ais\ntu: -ais\nil/elle/on: -ait\nnous: -ions\nvous: -iez\nils/elles: -aient\n\nExample: manger -> nous mangeons -> mange-\nje mangeais, tu mangeais, il mangeait...\n\nONLY exception: être (stem = ét-)."},
+
+  {type:"teach",kind:"phrase",nl:"il faisait beau",en:"the weather was nice",phonetic:"eel fuh-ZAY BOH",example:"A: Il faisait beau hier?\nB: Oui, il faisait très beau.\nA: Dommage, j'ai travaillé!",exampleEn:"A: Was the weather nice yesterday?\nB: Yes, it was very nice.\nA: Too bad, I worked!",note:"Faisait = imparfait of faire.\nStem: fais- (nous faisons -> fais-).\nIl faisait = it was doing / it was (weather)."},
+
+  {type:"teach",kind:"phrase",nl:"nous habitions",en:"we used to live",phonetic:"nooz ah-bee-tee-ON",example:"A: Vous habitiez où avant?\nB: Nous habitions à Lyon.\nA: Vous aimez mieux Paris?",exampleEn:"A: Where did you used to live?\nB: We used to live in Lyon.\nA: Do you prefer Paris?",note:"Habitions = imparfait of habiter.\nStem: habit- (nous habitons -> habit-).\nNous ending: -ions."},
+
+  {type:"mc",q:"The imparfait is used for:",opts:["Completed events","Ongoing or habitual past actions","Future plans","Commands"],ans:"Ongoing or habitual past actions",hint:"What WAS happening or what you USED to do regularly."},
+
+  {type:"fb",s:"Je mange___ toujours au café. (imparfait ending for je)",a:"ais",opts:["ais","ait","ions","aient"],hint:"First person singular imparfait ending."},
+
+  {type:"mc",q:"To form the imparfait stem, you take the ___ form and remove -ons:",opts:["Je","Tu","Nous","Ils"],ans:"Nous",hint:"The first person plural present tense form is the starting point."},
+
+  {type:"fb",s:"Il fais___ beau hier. (imparfait ending for il)",a:"ait",opts:["ait","ais","ions","aient"],hint:"Third person singular imparfait ending."},
+
+  {type:"match",pairs:[{nl:"je -ais",en:"I was..."},{nl:"tu -ais",en:"you were..."},{nl:"il -ait",en:"he was..."},{nl:"nous -ions",en:"we were..."}]},
+
+  {type:"mc",q:"The ONLY verb with an irregular imparfait stem is:",opts:["Avoir","Aller","Être","Faire"],ans:"Être",hint:"All other verbs use the regular nous-minus-ons stem."},
+
+  {type:"fb",s:"Nous habit___ à Lyon avant.",a:"ions",opts:["ions","iez","ais","aient"],hint:"We used to live: nous + which imparfait ending?"},
+
+  {type:"match",pairs:[{nl:"vous -iez",en:"you were..."},{nl:"ils -aient",en:"they were..."},{nl:"elles -aient",en:"they (f.) were..."},{nl:"on -ait",en:"one/we was/were..."}]},
+
+  {type:"mc",q:"'Je mangeais' can mean:",opts:["Only 'I was eating'","Only 'I used to eat'","Both 'I was eating' and 'I used to eat'","I will eat"],ans:"Both 'I was eating' and 'I used to eat'",hint:"The imparfait covers both ongoing and habitual meanings."},
+
+  {type:"fb",s:"Ils mang___ au restaurant tous les vendredis.",a:"eaient",opts:["eaient","eais","eait","eions"],hint:"They used to eat: ils + which imparfait ending?"},
+
+  {type:"mc",q:"'Il faisait beau' describes:",opts:["A specific weather event","The background weather condition","Tomorrow's weather","A weather command"],ans:"The background weather condition",hint:"Imparfait for descriptions = background/setting information."},
+
+  {type:"fb",s:"Tu parl___ français quand tu étais petit? (imparfait ending for tu)",a:"ais",opts:["ais","ait","ions","aient"],hint:"Second person singular shares its ending with je."},
+]},
+
+// ═══ L2: La formation ═══
+{id:"fre11l2",title:"La formation",icon:"🔨",xp:15,board:true,steps:[
+  {type:"intro",title:"Forming the imparfait",desc:"Practice forming the imparfait for different verb groups. The stem always comes from the nous present form. The only exception is être (stem: ét-).",goals:["Form imparfait for -er, -ir, -re verbs","Use the être exception (ét-)","Conjugate confidently for all persons"]},
+
+  {type:"teach",kind:"phrase",nl:"j'étais",en:"I was",phonetic:"zhay-TAY",example:"A: Tu étais où hier soir?\nB: J'étais chez moi.\nA: Tu étais malade?",exampleEn:"A: Where were you last night?\nB: I was at home.\nA: Were you sick?",note:"Être has an irregular stem: ét-.\nj'étais, tu étais, il était,\nnous étions, vous étiez, ils étaient."},
+
+  {type:"teach",kind:"phrase",nl:"tu avais",en:"you had / you used to have",phonetic:"tew ah-VAY",example:"A: Tu avais un chien avant?\nB: Oui, j'avais un petit chien.\nA: Il s'appelait comment?",exampleEn:"A: Did you used to have a dog?\nB: Yes, I had a little dog.\nA: What was its name?",note:"Avoir: nous avons -> av-.\nj'avais, tu avais, il avait,\nnous avions, vous aviez, ils avaient.\nRegular stem!"},
+
+  {type:"teach",kind:"phrase",nl:"elle finissait",en:"she was finishing / she used to finish",phonetic:"el fee-nee-SAY",example:"A: Elle finissait toujours ses devoirs?\nB: Oui, elle finissait avant le dîner.\nA: Quelle bonne élève!",exampleEn:"A: Did she always finish her homework?\nB: Yes, she used to finish before dinner.\nA: What a good student!",note:"Finir: nous finissons -> finiss-.\nThe -iss- extends to all forms.\nj'finissais, tu finissais, il finissait..."},
+
+  {type:"teach",kind:"phrase",nl:"ils vendaient",en:"they used to sell",phonetic:"eel vahn-DAY",example:"A: Ils vendaient quoi avant?\nB: Ils vendaient des vêtements.\nA: Et maintenant?",exampleEn:"A: What did they used to sell?\nB: They used to sell clothes.\nA: And now?",note:"Vendre: nous vendons -> vend-.\nils vendaient.\nRegular -re verb stem."},
+
+  {type:"mc",q:"Être is the only exception. Its imparfait stem is:",opts:["Êt-","Ét-","Ét","Étai-"],ans:"Ét-",hint:"Not from nous sommes (irregular). Special stem with accent."},
+
+  {type:"fb",s:"J'___ fatigué hier soir.",a:"étais",opts:["étais","était","suis","ai"],hint:"I was tired. Imparfait of être, first person."},
+
+  {type:"match",pairs:[{nl:"j'étais",en:"I was"},{nl:"tu étais",en:"you were"},{nl:"il était",en:"he was"},{nl:"nous étions",en:"we were"}]},
+
+  {type:"mc",q:"For finir, the imparfait stem is finiss- because:",opts:["It's irregular","Nous finissons -> finiss-","It sounds better","The -iss- is always added"],ans:"Nous finissons -> finiss-",hint:"Take the nous present form. Remove -ons. That's the stem."},
+
+  {type:"fb",s:"Tu av___ quel âge en 2010?",a:"ais",opts:["ais","ait","aient","ions"],hint:"You were how old? Tu + which imparfait ending?"},
+
+  {type:"mc",q:"The imparfait endings je and tu are:",opts:["Different","Identical: -ais","Similar: -ais/-ait","Identical: -ait"],ans:"Identical: -ais",hint:"Both je and tu share the exact same ending in imparfait."},
+
+  {type:"fb",s:"Elle finiss___ toujours avant les autres.",a:"ait",opts:["ait","ais","ions","aient"],hint:"She used to finish. Il/elle/on ending?"},
+
+  {type:"match",pairs:[{nl:"ils étaient",en:"they were"},{nl:"vous étiez",en:"you were (formal)"},{nl:"elles avaient",en:"they (f.) had"},{nl:"on était",en:"one/we was/were"}]},
+
+  {type:"mc",q:"The nous and vous imparfait endings are:",opts:["-ais / -ait","-ions / -iez","-ions / -aient","-ais / -iez"],ans:"-ions / -iez",hint:"These two forms share the -i- sound in their endings."},
+
+  {type:"fb",s:"Nous ___ étudiants à Paris. (to be)",a:"étions",opts:["étions","étiez","étaient","étais"],hint:"We were students. Nous + être imparfait."},
+
+  {type:"mc",q:"'Ils vendaient' and 'elles vendaient' are:",opts:["Different forms","Identical forms","Wrong grammar","Future tense"],ans:"Identical forms",hint:"Both ils and elles use the same -aient ending."},
+
+  {type:"fb",s:"Vous ___ souvent au parc? (to go, imparfait)",a:"alliez",opts:["alliez","allions","allaient","allais"],hint:"Did you used to go? Vous + stem (all-) + -iez."},
+
+  {type:"mc",q:"Which verb group keeps -iss- in the imparfait stem?",opts:["-er verbs","-ir verbs (like finir)","-re verbs","All groups"],ans:"-ir verbs (like finir)",hint:"Nous finissons -> finiss-. The -iss- pattern is characteristic."},
+]},
+
+// ═══ L3: Descriptions au passé ═══
+{id:"fre11l3",title:"Descriptions au passé",icon:"🖼️",xp:15,board:true,steps:[
+  {type:"intro",title:"Describing the past with imparfait",desc:"Imparfait is THE tense for descriptions: what things looked like, how people felt, what the weather was like. It paints the background picture.",goals:["Describe past weather","Describe past emotions and states","Set the scene for a story"]},
+
+  {type:"teach",kind:"phrase",nl:"il faisait froid",en:"it was cold",phonetic:"eel fuh-ZAY FRWAH",example:"A: Il faisait quel temps?\nB: Il faisait froid et il pleuvait.\nA: Pas très agréable!",exampleEn:"A: What was the weather like?\nB: It was cold and it was raining.\nA: Not very pleasant!",note:"Weather in the past = imparfait.\nIl faisait + weather adjective.\nIl pleuvait = it was raining."},
+
+  {type:"teach",kind:"phrase",nl:"j'avais faim",en:"I was hungry",phonetic:"zhah-VAY FAN",example:"A: Tu avais faim?\nB: Oui, j'avais très faim!\nA: Tu as mangé quoi?",exampleEn:"A: Were you hungry?\nB: Yes, I was very hungry!\nA: What did you eat?",note:"Physical states in past = imparfait.\nJ'avais faim = I was hungry.\nJ'avais soif = I was thirsty."},
+
+  {type:"teach",kind:"phrase",nl:"elle était contente",en:"she was happy",phonetic:"el ay-TAY kon-TAHNT",example:"A: Marie était contente?\nB: Oui, elle était très contente du cadeau.\nA: Tant mieux!",exampleEn:"A: Was Marie happy?\nB: Yes, she was very happy with the gift.\nA: Good!",note:"Emotions in past = imparfait.\nIl/elle était + adjective.\nDescribes how someone FELT (state, not event)."},
+
+  {type:"teach",kind:"phrase",nl:"il y avait",en:"there was / there were",phonetic:"eel ee ah-VAY",example:"A: Il y avait beaucoup de monde?\nB: Oui, il y avait au moins cent personnes!\nA: C'était bondé!",exampleEn:"A: Were there a lot of people?\nB: Yes, there were at least a hundred people!\nA: It was packed!",note:"Il y a (present) -> il y avait (imparfait).\nDescribes what existed as background."},
+
+  {type:"mc",q:"Past weather uses imparfait because weather is:",opts:["An event","A background description","A completed action","A question"],ans:"A background description",hint:"Weather sets the scene. It's not an event but a condition."},
+
+  {type:"fb",s:"Il fais___ beau et chaud.",a:"ait",opts:["ait","ais","ions","aient"],hint:"It was nice and hot. Il + imparfait ending."},
+
+  {type:"match",pairs:[{nl:"il faisait froid",en:"it was cold"},{nl:"il faisait chaud",en:"it was hot"},{nl:"il pleuvait",en:"it was raining"},{nl:"il neigeait",en:"it was snowing"}]},
+
+  {type:"mc",q:"'J'avais faim' uses imparfait because hunger is:",opts:["An event","A state/condition","A completed action","A future plan"],ans:"A state/condition",hint:"Being hungry describes how you felt, not what you did."},
+
+  {type:"fb",s:"Il y ___ beaucoup de monde au marché.",a:"avait",opts:["avait","a","avais","avaient"],hint:"There were many people. Il y + imparfait of avoir."},
+
+  {type:"mc",q:"'C'était magnifique' means:",opts:["It will be magnificent","It's magnificent","It was magnificent","Be magnificent!"],ans:"It was magnificent",hint:"C'était = it was. Imparfait of être for descriptions."},
+
+  {type:"fb",s:"Elle ___ fatiguée après le travail.",a:"était",opts:["était","étais","a été","est"],hint:"She was tired. Feminine description in the past."},
+
+  {type:"match",pairs:[{nl:"j'avais faim",en:"I was hungry"},{nl:"j'avais soif",en:"I was thirsty"},{nl:"j'avais peur",en:"I was afraid"},{nl:"j'avais froid",en:"I was cold"}]},
+
+  {type:"mc",q:"Which sentence paints a background picture?",opts:["J'ai mangé une pizza","Je mangeais quand il est arrivé","J'ai fini mon travail","Je suis allé au cinéma"],ans:"Je mangeais quand il est arrivé",hint:"I WAS eating (ongoing background) when he arrived (event)."},
+
+  {type:"fb",s:"C'___ une belle journée.",a:"était",opts:["était","a été","est","étais"],hint:"It was a beautiful day. Background description = imparfait."},
+
+  {type:"mc",q:"'Il y avait' is the imparfait of:",opts:["Il y a eu","Il y a","Il y aura","Il y est"],ans:"Il y a",hint:"There is/are (present) becomes there was/were (imparfait)."},
+
+  {type:"fb",s:"Les enfants ___ contents de voir leurs grands-parents.",a:"étaient",opts:["étaient","étais","était","ont été"],hint:"The children were happy. Ils/elles + être imparfait."},
+
+  {type:"mc",q:"Setting a scene: 'Il faisait beau, les oiseaux chantaient, et les enfants jouaient.' All verbs are in:",opts:["Passé composé","Imparfait","Present","Future"],ans:"Imparfait",hint:"All background descriptions painting a picture of the past."},
+]},
+
+// ═══ L4: Les habitudes ═══
+{id:"fre11l4",title:"Les habitudes",icon:"🔁",xp:15,board:true,steps:[
+  {type:"intro",title:"Past habits with imparfait",desc:"The imparfait is perfect for 'used to' and 'would always'. Describe routines, habits, and repeated actions from the past.",goals:["Express past habits with imparfait","Use frequency words (toujours, souvent, etc.)","Describe childhood routines"]},
+
+  {type:"teach",kind:"phrase",nl:"Quand j'étais petit(e)...",en:"When I was little...",phonetic:"kahn zhay-TAY puh-TEE",example:"A: Quand tu étais petit, tu aimais quoi?\nB: Quand j'étais petit, j'adorais le chocolat.\nA: Et maintenant?",exampleEn:"A: When you were little, what did you like?\nB: When I was little, I loved chocolate.\nA: And now?",note:"Classic imparfait opener for childhood memories.\nPetit (masc.) / petite (fem.).\nTriggers imparfait for all following verbs."},
+
+  {type:"teach",kind:"phrase",nl:"on allait toujours",en:"we always used to go",phonetic:"on ah-LAY too-ZHOOR",example:"A: Vous alliez en vacances?\nB: Oui, on allait toujours à la mer.\nA: C'était bien!",exampleEn:"A: Did you used to go on vacation?\nB: Yes, we always used to go to the sea.\nA: That was nice!",note:"On allait = we used to go.\nToujours = always.\nHabitual action = imparfait."},
+
+  {type:"teach",kind:"word",nl:"souvent",en:"often",phonetic:"soo-VAHN",example:"A: Tu allais souvent au cinéma?\nB: Oui, j'allais souvent au cinéma le samedi.\nA: Quel genre de films?",exampleEn:"A: Did you often go to the cinema?\nB: Yes, I often went to the cinema on Saturdays.\nA: What kind of movies?",note:"Frequency word that triggers imparfait.\nSouvent = often, frequently.\nOther triggers: toujours, chaque jour, d'habitude."},
+
+  {type:"teach",kind:"phrase",nl:"d'habitude",en:"usually / normally",phonetic:"dah-bee-TEWD",example:"A: D'habitude, tu mangeais à quelle heure?\nB: D'habitude, je mangeais à midi.\nA: Et le soir?",exampleEn:"A: Usually, what time did you eat?\nB: Usually, I ate at noon.\nA: And in the evening?",note:"D'habitude = usually, normally.\nStrong imparfait trigger.\nSignals a repeated routine."},
+
+  {type:"mc",q:"'Quand j'étais petit' triggers imparfait because it describes:",opts:["A specific event","A habitual/ongoing past time","The future","A command"],ans:"A habitual/ongoing past time",hint:"Childhood = a period of time with repeated habits and states."},
+
+  {type:"fb",s:"Quand j'étais petit, je ___ au parc tous les jours. (to go)",a:"allais",opts:["allais","suis allé","vais","irai"],hint:"I used to go. Habitual past action."},
+
+  {type:"match",pairs:[{nl:"toujours",en:"always"},{nl:"souvent",en:"often"},{nl:"d'habitude",en:"usually"},{nl:"chaque jour",en:"every day"}]},
+
+  {type:"mc",q:"'Je mangeais' vs 'J'ai mangé'. Which describes a habit?",opts:["J'ai mangé","Je mangeais","Both","Neither"],ans:"Je mangeais",hint:"The imparfait form describes what you used to do repeatedly."},
+
+  {type:"fb",s:"D'habitude, on ___ la télé le soir. (to watch)",a:"regardait",opts:["regardait","a regardé","regarde","regardera"],hint:"Usually, we used to watch. Habitual past = imparfait."},
+
+  {type:"mc",q:"Which sentence describes a past habit?",opts:["J'ai mangé une pizza","Je mange des pizzas","Je mangeais des pizzas tous les jours","Je vais manger une pizza"],ans:"Je mangeais des pizzas tous les jours",hint:"'Every day' + imparfait = habitual past action."},
+
+  {type:"fb",s:"Les enfants ___ dans le jardin chaque après-midi. (to play)",a:"jouaient",opts:["jouaient","ont joué","jouent","joueront"],hint:"The children used to play. Habitual action, they/elles form."},
+
+  {type:"match",pairs:[{nl:"je mangeais",en:"I used to eat"},{nl:"j'allais",en:"I used to go"},{nl:"je regardais",en:"I used to watch"},{nl:"je dormais",en:"I used to sleep"}]},
+
+  {type:"mc",q:"'Tous les étés, nous allions à la plage' uses imparfait because:",opts:["It happened once","It was a repeated action every summer","It's happening now","It will happen"],ans:"It was a repeated action every summer",hint:"Tous les étés = every summer. Repeated = habitual past."},
+
+  {type:"fb",s:"Ma grand-mère ___ toujours des gâteaux. (to make)",a:"faisait",opts:["faisait","a fait","fait","fera"],hint:"My grandmother always used to make. Habitual action."},
+
+  {type:"mc",q:"Imparfait signal words include all EXCEPT:",opts:["Toujours","Souvent","Hier à 15h","D'habitude"],ans:"Hier à 15h",hint:"A specific time yesterday points to a completed event (passé composé)."},
+
+  {type:"fb",s:"Quand j'___ petit, j'adorais les dinosaures.",a:"étais",opts:["étais","ai été","suis","serai"],hint:"When I was little. Être in the imparfait."},
+
+  {type:"mc",q:"'Avant, je prenais le bus. Maintenant, je prends le métro.' The imparfait shows:",opts:["Current habit","A past habit that changed","A future plan","A command"],ans:"A past habit that changed",hint:"Avant (before) + imparfait = a habit that no longer exists."},
+]},
+
+// ═══ L5: Être à l'imparfait ═══
+{id:"fre11l5",title:"Être à l'imparfait",icon:"🔤",xp:15,board:true,steps:[
+  {type:"intro",title:"Être in the imparfait",desc:"Être is the most important imparfait verb. It appears in descriptions (c'était), states (j'étais fatigué), and age expressions (j'avais 10 ans). Master all its forms.",goals:["Conjugate être in imparfait for all persons","Use c'était for descriptions","Describe past states and conditions"]},
+
+  {type:"teach",kind:"phrase",nl:"c'était",en:"it was",phonetic:"say-TAY",example:"A: Le restaurant était bien?\nB: Oui, c'était excellent!\nA: On y retourne?",exampleEn:"A: Was the restaurant good?\nB: Yes, it was excellent!\nA: Shall we go back?",note:"C'était = it was. THE most common imparfait.\nC'était bien = it was good.\nC'était nul = it was terrible."},
+
+  {type:"teach",kind:"phrase",nl:"j'avais dix ans",en:"I was ten years old",phonetic:"zhah-VAY deez AHN",example:"A: Tu avais quel âge en 2010?\nB: J'avais dix ans.\nA: Tu te souviens?",exampleEn:"A: How old were you in 2010?\nB: I was ten.\nA: Do you remember?",note:"Age in the past = avoir + age + ans.\nImparfait because age is a state.\nJ'avais 20 ans quand... is very common."},
+
+  {type:"teach",kind:"phrase",nl:"il/elle s'appelait",en:"his/her name was",phonetic:"eel/el sah-PLAY",example:"A: Comment s'appelait ton professeur?\nB: Il s'appelait Monsieur Dupont.\nA: Il était sévère?",exampleEn:"A: What was your teacher's name?\nB: His name was Mr. Dupont.\nA: Was he strict?",note:"S'appeler in imparfait.\nIl s'appelait = his name was.\nUsed for past introductions."},
+
+  {type:"mc",q:"'C'était bien' is used to describe:",opts:["A future event","A past experience","A current state","A command"],ans:"A past experience",hint:"C'était = it was. For describing past experiences."},
+
+  {type:"fb",s:"J'___ vingt ans quand j'ai commencé l'université.",a:"avais",opts:["avais","ai eu","ai","aurai"],hint:"I was twenty. Age in the past uses avoir + imparfait."},
+
+  {type:"match",pairs:[{nl:"j'étais",en:"I was"},{nl:"c'était",en:"it was"},{nl:"j'avais ... ans",en:"I was ... years old"},{nl:"il s'appelait",en:"his name was"}]},
+
+  {type:"mc",q:"For age in the past, French uses:",opts:["Être + age","Avoir + age (imparfait)","Aller + age","Faire + age"],ans:"Avoir + age (imparfait)",hint:"J'avais dix ans, not j'étais dix ans. French 'has' years."},
+
+  {type:"fb",s:"C'___ une belle soirée.",a:"était",opts:["était","est","a été","étais"],hint:"It was a beautiful evening. Third person imparfait."},
+
+  {type:"mc",q:"'Comment s'appelait ton chien?' asks about:",opts:["The dog's age","The dog's color","The dog's name","The dog's breed"],ans:"The dog's name",hint:"S'appeler = to be called/named. Past tense for a former pet."},
+
+  {type:"fb",s:"Elle s'appel___ Sophie quand elle était petite.",a:"ait",opts:["ait","ais","ions","aient"],hint:"Her name was Sophie. Il/elle + imparfait ending."},
+
+  {type:"match",pairs:[{nl:"c'était bien",en:"it was good"},{nl:"c'était nul",en:"it was terrible"},{nl:"c'était amusant",en:"it was fun"},{nl:"c'était difficile",en:"it was difficult"}]},
+
+  {type:"mc",q:"Which uses imparfait correctly?",opts:["C'est magnifique","C'était magnifique","C'a été magnifique","Ça sera magnifique"],ans:"C'était magnifique",hint:"For past descriptions/evaluations, use the imparfait of être."},
+
+  {type:"fb",s:"Nous ___ très contents de vous voir.",a:"étions",opts:["étions","sommes","avons été","serons"],hint:"We were very happy to see you. Nous + être imparfait."},
+
+  {type:"mc",q:"'Les rues étaient vides' means:",opts:["The streets are empty","The streets were empty","The streets will be empty","Empty the streets"],ans:"The streets were empty",hint:"Étaient = imparfait of être, ils/elles form. Past description."},
+
+  {type:"fb",s:"Vous ___ où en 2015?",a:"étiez",opts:["étiez","étiez","êtes","avez été"],hint:"Where were you in 2015? Vous + être imparfait."},
+
+  {type:"mc",q:"'J'avais 5 ans et je m'appelais Coco.' This describes:",opts:["Current facts","Past states and identities","Future plans","Commands"],ans:"Past states and identities",hint:"Age and name in the past = imparfait. States, not events."},
+
+  {type:"fb",s:"Ils ___ fatigués après le voyage.",a:"étaient",opts:["étaient","sont","ont été","étais"],hint:"They were tired. Ils + être imparfait."},
+]},
+
+// ═══ L6: L'imparfait et le passé composé ensemble ═══
+{id:"fre11l6",title:"Imparfait + passé composé",icon:"⚡",xp:15,board:true,steps:[
+  {type:"intro",title:"Using both past tenses together",desc:"In real French, imparfait and passé composé work TOGETHER. The imparfait sets the scene (background), the passé composé tells what happened (event).",goals:["Combine both tenses in one sentence","Use quand/pendant que patterns","Recognize background vs event"]},
+
+  {type:"tip",title:"The movie analogy",text:"Think of it like a movie scene:\n\nIMPARFAIT = the camera showing the setting\nIl faisait beau. Les gens marchaient.\n(It was nice. People were walking.)\n\nPASSÉ COMPOSÉ = the action that happens\nSoudain, il a commencé à pleuvoir!\n(Suddenly, it started to rain!)\n\nBackground + Event = French storytelling."},
+
+  {type:"teach",kind:"phrase",nl:"Je dormais quand le téléphone a sonné.",en:"I was sleeping when the phone rang.",phonetic:"zhuh dor-MAY kahn luh tay-lay-FON ah soh-NAY",example:"A: Tu as répondu au téléphone?\nB: Non, je dormais quand il a sonné.\nA: Tu dormais déjà à dix heures?",exampleEn:"A: Did you answer the phone?\nB: No, I was sleeping when it rang.\nA: You were already sleeping at ten?",note:"Classic pattern:\nIMPARFAIT (ongoing) + QUAND + PASSÉ COMPOSÉ (event).\nI WAS doing X when Y HAPPENED."},
+
+  {type:"teach",kind:"phrase",nl:"Pendant qu'il pleuvait, j'ai lu un livre.",en:"While it was raining, I read a book.",phonetic:"pahn-DAHN keel pluh-VAY zhay lew uhn LEE-vruh",example:"A: Tu as fait quoi pendant la pluie?\nB: Pendant qu'il pleuvait, j'ai lu un livre.\nA: C'était un bon livre?",exampleEn:"A: What did you do during the rain?\nB: While it was raining, I read a book.\nA: Was it a good book?",note:"Pendant que + imparfait = while something was ongoing.\nMain clause = passé composé (the event)."},
+
+  {type:"mc",q:"'Je mangeais quand il est arrivé.' The imparfait describes:",opts:["The arrival","The ongoing eating","A future meal","A habit"],ans:"The ongoing eating",hint:"I WAS eating (background) when he arrived (event)."},
+
+  {type:"fb",s:"Il ___ quand nous sommes sortis. (to rain, imparfait)",a:"pleuvait",opts:["pleuvait","a plu","pleut","pleuvra"],hint:"It was raining when we went out. Ongoing weather = imparfait."},
+
+  {type:"match",pairs:[{nl:"Je dormais (background)",en:"I was sleeping"},{nl:"le téléphone a sonné (event)",en:"the phone rang"},{nl:"Il pleuvait (background)",en:"it was raining"},{nl:"j'ai pris un taxi (event)",en:"I took a taxi"}]},
+
+  {type:"mc",q:"In 'Pendant qu'elle travaillait, il a préparé le dîner', who did the event?",opts:["Elle","Il","Both","Neither"],ans:"Il",hint:"Il a préparé (passé composé) = the event. Elle travaillait = the background."},
+
+  {type:"fb",s:"Je ___ la télé quand tu as appelé. (to watch, imparfait)",a:"regardais",opts:["regardais","ai regardé","regarde","regarderai"],hint:"I was watching TV when you called. Ongoing action."},
+
+  {type:"mc",q:"Which sentence combines both tenses correctly?",opts:["Je mangeais et je dormais","J'ai mangé et j'ai dormi","Je mangeais quand il est arrivé","Je mange quand il arrive"],ans:"Je mangeais quand il est arrivé",hint:"Background (imparfait) + event (passé composé) in one sentence."},
+
+  {type:"fb",s:"Les enfants ___ quand la mère est rentrée. (to play, imparfait)",a:"jouaient",opts:["jouaient","ont joué","jouent","joueront"],hint:"The children were playing when mom came home. Ongoing action."},
+
+  {type:"match",pairs:[{nl:"quand",en:"when (+ event)"},{nl:"pendant que",en:"while (+ background)"},{nl:"soudain",en:"suddenly (+ event)"},{nl:"il faisait beau",en:"it was nice (background)"}]},
+
+  {type:"mc",q:"'Soudain' (suddenly) usually introduces:",opts:["Imparfait","Passé composé","Present","Future"],ans:"Passé composé",hint:"Suddenly = a specific, sudden event. Events use the completed tense."},
+
+  {type:"fb",s:"Il faisait beau. Soudain, il ___ à pleuvoir. (to start, PC)",a:"a commencé",opts:["a commencé","commençait","commence","commencera"],hint:"It was nice. Suddenly, it started to rain. Sudden event."},
+
+  {type:"mc",q:"'C'était dimanche. Il faisait beau. J'ai décidé de sortir.' Which is the event?",opts:["C'était dimanche","Il faisait beau","J'ai décidé de sortir","All three"],ans:"J'ai décidé de sortir",hint:"The decision is the event. The day and weather are background."},
+
+  {type:"fb",s:"Nous ___ dans la rue quand nous avons vu Pierre. (to walk, imparfait)",a:"marchions",opts:["marchions","avons marché","marchons","marcherons"],hint:"We were walking when we saw Pierre. Ongoing background action."},
+
+  {type:"mc",q:"Summary: imparfait = ___, passé composé = ___.",opts:["Event, background","Background, event","Both events","Both backgrounds"],ans:"Background, event",hint:"Imparfait paints the scene, passé composé tells what happened."},
+
+  {type:"fb",s:"Elle ___ quand je suis arrivé. (to sing, imparfait)",a:"chantait",opts:["chantait","a chanté","chante","chantera"],hint:"She was singing when I arrived. Ongoing background action."},
+]},
+
+// ═══ L7: Quand j'étais jeune ═══
+{id:"fre11l7",title:"Quand j'étais jeune",icon:"👶",xp:15,board:true,steps:[
+  {type:"intro",title:"When I was young: childhood memories",desc:"Practice telling extended stories about the past using imparfait for habits and descriptions, and passé composé for specific events. Share childhood memories.",goals:["Tell a childhood story","Mix descriptions, habits, and events","Use extended narrative in French"]},
+
+  {type:"teach",kind:"phrase",nl:"Quand j'étais jeune...",en:"When I was young...",phonetic:"kahn zhay-TAY ZHUHN",example:"A: Quand j'étais jeune, j'habitais à la campagne.\nB: C'était comment?\nA: C'était calme et on jouait dehors tous les jours.",exampleEn:"A: When I was young, I lived in the countryside.\nB: What was it like?\nA: It was quiet and we played outside every day.",note:"Classic story opener.\nEverything after uses imparfait\n(for ongoing states) or passé composé (for events)."},
+
+  {type:"teach",kind:"phrase",nl:"un jour",en:"one day",phonetic:"uhn ZHOOR",example:"A: Un jour, j'ai trouvé un chat dans le jardin.\nB: Tu l'as gardé?\nA: Oui, il est resté avec nous dix ans!",exampleEn:"A: One day, I found a cat in the garden.\nB: Did you keep it?\nA: Yes, it stayed with us ten years!",note:"'Un jour' introduces a specific event\nwithin a habitual narrative.\nSwitches from imparfait to passé composé."},
+
+  {type:"mc",q:"'Quand j'étais jeune, j'aimais...' continues with:",opts:["Passé composé","Imparfait","Present","Future"],ans:"Imparfait",hint:"After 'quand j'étais jeune', habitual verbs stay in the same tense."},
+
+  {type:"fb",s:"Quand j'___ jeune, j'adorais la natation.",a:"étais",opts:["étais","ai été","suis","serai"],hint:"When I was young. Être in the imparfait."},
+
+  {type:"match",pairs:[{nl:"j'habitais à la campagne",en:"I used to live in the country"},{nl:"on jouait dehors",en:"we used to play outside"},{nl:"c'était calme",en:"it was quiet"},{nl:"il faisait toujours beau",en:"it was always nice"}]},
+
+  {type:"mc",q:"'Un jour, j'ai trouvé...' switches to passé composé because:",opts:["It describes a habit","It describes weather","It's a specific, one-time event","It describes a feeling"],ans:"It's a specific, one-time event",hint:"Un jour = one day. A specific moment breaks the habitual pattern."},
+
+  {type:"fb",s:"On ___ au foot tous les samedis. (to play, imparfait)",a:"jouait",opts:["jouait","a joué","joue","jouera"],hint:"We used to play soccer every Saturday. Habitual action."},
+
+  {type:"mc",q:"In a childhood story, descriptions and habits use:",opts:["Passé composé","Imparfait","Present","Conditional"],ans:"Imparfait",hint:"The 'background' tense for ongoing states and repeated actions."},
+
+  {type:"fb",s:"Un jour, j'___ rencontré mon meilleur ami. (to meet, PC)",a:"ai",opts:["ai","avais","étais","suis"],hint:"One day, I met my best friend. Specific event = passé composé."},
+
+  {type:"match",pairs:[{nl:"un jour (event trigger)",en:"one day"},{nl:"soudain (event trigger)",en:"suddenly"},{nl:"toujours (habit trigger)",en:"always"},{nl:"chaque été (habit trigger)",en:"every summer"}]},
+
+  {type:"mc",q:"'Ma grand-mère habitait à Nice. Elle faisait toujours des crêpes.' Both verbs are imparfait because:",opts:["They are events","They describe habits and states","They happened once","They are future"],ans:"They describe habits and states",hint:"Where she lived (state) and what she always made (habit)."},
+
+  {type:"fb",s:"Mon père ___ toujours des histoires avant de dormir. (to tell, imparfait)",a:"racontait",opts:["racontait","a raconté","raconte","racontera"],hint:"My father always used to tell stories. Habitual action."},
+
+  {type:"mc",q:"Pick the correct mix: 'Il pleuvait et soudain le soleil ___.'",opts:["Brillait (imparfait)","A brillé (passé composé)","Brille (present)","Brillera (future)"],ans:"A brillé (passé composé)",hint:"Soudain = suddenly. Triggers a specific event in the completed tense."},
+
+  {type:"fb",s:"Quand j'étais petit, nous ___ à la mer chaque été. (to go, imparfait)",a:"allions",opts:["allions","sommes allés","allons","irons"],hint:"We used to go to the sea every summer. Habitual."},
+
+  {type:"mc",q:"Complete the story logically: 'Il faisait beau. Les enfants jouaient. Soudain, ___.'",opts:["Il faisait froid (imparfait)","Les oiseaux chantaient (imparfait)","Un chien a aboyé (passé composé)","C'était calme (imparfait)"],ans:"Un chien a aboyé (passé composé)",hint:"After soudain, you need a specific event to break the scene."},
+
+  {type:"fb",s:"C'___ le plus beau jour de ma vie!",a:"était",opts:["était","est","a été","sera"],hint:"It was the most beautiful day. Past evaluation = imparfait."},
+
+  {type:"mc",q:"The imparfait is sometimes called the 'background' or 'movie camera' tense because:",opts:["It records events","It shows the ongoing scene before action happens","It plays music","It is used in movies"],ans:"It shows the ongoing scene before action happens",hint:"Like a camera panning across a scene before something happens."},
+]},
+
+// ═══ L8: Révision Unit 11 ═══
+{id:"fre11l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 11 Review",desc:"Review the imparfait: formation, descriptions, habits, être exception, and combined use with passé composé. You now have both French past tenses.",goals:["Review imparfait formation","Test habit vs event distinction","Combine both past tenses"]},
+
+  {type:"mc",q:"The imparfait stem comes from:",opts:["The infinitive","The je present form","The nous present form minus -ons","The ils form"],ans:"The nous present form minus -ons",hint:"Take nous form, remove the ending. That's your stem."},
+
+  {type:"fb",s:"J'___ content de te voir hier.",a:"étais",opts:["étais","ai été","suis","serai"],hint:"I was happy. State in the past = être imparfait."},
+
+  {type:"match",pairs:[{nl:"-ais (je/tu)",en:"1st/2nd singular"},{nl:"-ait (il/elle/on)",en:"3rd singular"},{nl:"-ions (nous)",en:"1st plural"},{nl:"-aient (ils/elles)",en:"3rd plural"}]},
+
+  {type:"mc",q:"'Il faisait beau et les oiseaux chantaient' is:",opts:["Two events","A description/scene","Two commands","A question"],ans:"A description/scene",hint:"Weather + ongoing action = background/scene painting."},
+
+  {type:"fb",s:"Quand j'étais petit, je ___ au parc tous les jours. (to go)",a:"allais",opts:["allais","suis allé","vais","irai"],hint:"I used to go. Habitual past action = imparfait."},
+
+  {type:"mc",q:"Which signals passé composé (not imparfait)?",opts:["Toujours","D'habitude","Soudain","Chaque jour"],ans:"Soudain",hint:"Suddenly = a specific event breaking the background."},
+
+  {type:"fb",s:"Il pleuv___ quand je suis sorti.",a:"ait",opts:["ait","ais","ions","aient"],hint:"It was raining when I went out. Il + imparfait ending."},
+
+  {type:"match",pairs:[{nl:"c'était bien",en:"it was good"},{nl:"j'avais faim",en:"I was hungry"},{nl:"il y avait",en:"there was/were"},{nl:"il faisait froid",en:"it was cold"}]},
+
+  {type:"mc",q:"'Je mangeais quand il est arrivé.' The passé composé verb is:",opts:["Mangeais","Est arrivé","Both","Neither"],ans:"Est arrivé",hint:"The arrival is the specific event that interrupted the background."},
+
+  {type:"fb",s:"Nous ___ souvent au cinéma le samedi. (to go, imparfait)",a:"allions",opts:["allions","sommes allés","allons","irons"],hint:"We often used to go. Habitual action, nous form."},
+
+  {type:"mc",q:"The only verb with an irregular imparfait stem is:",opts:["Avoir","Faire","Aller","Être"],ans:"Être",hint:"Stem = ét-. All other verbs use nous-minus-ons regularly."},
+
+  {type:"fb",s:"Les enfants ___ dehors quand il a commencé à pleuvoir. (to play)",a:"jouaient",opts:["jouaient","ont joué","jouent","joueront"],hint:"The children were playing. Ongoing background action."},
+
+  {type:"match",pairs:[{nl:"imparfait: habit",en:"je mangeais toujours..."},{nl:"imparfait: description",en:"il faisait beau"},{nl:"PC: event",en:"j'ai mangé une pizza"},{nl:"PC: soudain",en:"soudain, il a plu"}]},
+
+  {type:"mc",q:"Which correctly combines both tenses?",opts:["J'ai mangé et j'ai dormi","Je mangeais et je dormais","Il pleuvait quand j'ai quitté la maison","Il a plu quand j'ai quitté"],ans:"Il pleuvait quand j'ai quitté la maison",hint:"Background (imparfait) + event (passé composé) = correct combo."},
+
+  {type:"fb",s:"C'___ un dimanche. Il faisait beau.",a:"était",opts:["était","est","a été","étais"],hint:"It was a Sunday. Background description = imparfait."},
+
+  {type:"mc",q:"You now know both French past tenses. What's the key distinction?",opts:["Formal vs informal","Background/habit vs completed event","Written vs spoken","Old vs new French"],ans:"Background/habit vs completed event",hint:"Imparfait = ongoing/habitual. Passé composé = completed/specific."},
+
+  {type:"fb",s:"Quand j'étais jeune, j'___ le chocolat. (to love)",a:"adorais",opts:["adorais","ai adoré","adore","adorerai"],hint:"When I was young, I used to love. Childhood habit."},
+]},
+]},
+
 ];
