@@ -1948,4 +1948,324 @@ export default [
 ]},
 ]},
 
+// ═══════════════════════════════════════════════
+//  UNIT 7 — En ville
+//  Level: A1.7 | Lessons: 8 | Track: v1
+// ═══════════════════════════════════════════════
+
+{n:7,lang:"fr",track:"v1",title:"En ville",sub:"Directions & Transport",icon:"🗺️",level:"A1.7",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Les lieux en ville ═══
+{id:"fre7l1",title:"Les lieux en ville",icon:"🏪",xp:15,board:true,steps:[
+  {type:"intro",title:"Les lieux en ville",desc:"Learn the key places you find in a French town. Every place has a gender and uses a specific preposition (à la, au, à l').",goals:["Name 8 common city places","Use correct articles","Know basic prepositions for places"]},
+
+  {type:"teach",kind:"word",nl:"la boulangerie",en:"the bakery",phonetic:"lah boo-lahnzh-REE",example:"A: Où est la boulangerie?\nB: Au coin de la rue.\nA: Ils ont des croissants?",exampleEn:"A: Where is the bakery?\nB: On the corner of the street.\nA: Do they have croissants?",note:"Feminine. French people visit daily.\nle boulanger / la boulangère = baker."},
+
+  {type:"teach",kind:"word",nl:"la pharmacie",en:"the pharmacy",phonetic:"lah far-mah-SEE",example:"A: Je suis malade.\nB: Va à la pharmacie!\nA: Bonne idée.",exampleEn:"A: I'm sick.\nB: Go to the pharmacy!\nA: Good idea.",note:"Feminine. Green cross sign.\nPharmacies also give medical advice in France."},
+
+  {type:"teach",kind:"word",nl:"le supermarché",en:"the supermarket",phonetic:"luh sew-pehr-mar-SHAY",example:"A: Il faut acheter du pain.\nB: On va au supermarché?\nA: Ou à la boulangerie!",exampleEn:"A: We need to buy bread.\nB: Shall we go to the supermarket?\nA: Or to the bakery!",note:"Masculine. Au supermarché = to/at the supermarket.\nAu = à + le (contraction)."},
+
+  {type:"teach",kind:"word",nl:"la gare",en:"the train station",phonetic:"lah GAHR",example:"A: Le train part à quelle heure?\nB: À dix heures, à la gare du Nord.\nA: On y va!",exampleEn:"A: What time does the train leave?\nB: At ten, at Gare du Nord.\nA: Let's go!",note:"Feminine. À la gare = at the station.\nLa gare routière = bus station."},
+
+  {type:"teach",kind:"word",nl:"l'hôpital",en:"the hospital",phonetic:"loh-pee-TAL",example:"A: C'est urgent!\nB: On va à l'hôpital.\nA: Vite!",exampleEn:"A: It's urgent!\nB: We're going to the hospital.\nA: Hurry!",note:"Masculine (un hôpital). Elided article.\nÀ l'hôpital = at/to the hospital."},
+
+  {type:"teach",kind:"word",nl:"la poste",en:"the post office",phonetic:"lah POST",example:"A: Je dois envoyer une lettre.\nB: La poste est dans la rue principale.\nA: Elle ferme à quelle heure?",exampleEn:"A: I need to send a letter.\nB: The post office is on the main street.\nA: What time does it close?",note:"Feminine. À la poste = at the post office.\nAlso: le bureau de poste."},
+
+  {type:"teach",kind:"word",nl:"le parc",en:"the park",phonetic:"luh PARK",example:"A: Il fait beau aujourd'hui!\nB: On va au parc?\nA: Oui, les enfants adorent le parc.",exampleEn:"A: The weather is nice today!\nB: Shall we go to the park?\nA: Yes, the kids love the park.",note:"Masculine. Au parc = to/at the park.\nCognate with English."},
+
+  {type:"teach",kind:"word",nl:"la banque",en:"the bank",phonetic:"lah BAHNK",example:"A: Je dois retirer de l'argent.\nB: Il y a une banque en face.\nA: Parfait, merci!",exampleEn:"A: I need to withdraw money.\nB: There is a bank across the street.\nA: Perfect, thanks!",note:"Feminine. À la banque = at the bank.\nCognate with English."},
+
+  {type:"tip",title:"À + article contractions",text:"Going TO a place: à + article\n\nà + le = au (masculine)\nà + la = à la (feminine, no change)\nà + l' = à l' (before vowel)\nà + les = aux (plural)\n\nJe vais AU supermarché.\nJe vais À LA boulangerie.\nJe vais À L'hôpital.\nJe vais AUX toilettes."},
+
+  {type:"match",pairs:[{nl:"la boulangerie",en:"the bakery"},{nl:"la pharmacie",en:"the pharmacy"},{nl:"le supermarché",en:"the supermarket"},{nl:"la gare",en:"the train station"}]},
+
+  {type:"mc",q:"'Au supermarché' is a contraction of:",opts:["À le supermarché","À la supermarché","De le supermarché","À les supermarché"],ans:"À le supermarché",hint:"Au always comes from à + a masculine article."},
+
+  {type:"fb",s:"Je vais ___ boulangerie acheter du pain.",a:"à la",opts:["à la","au","à l'","aux"],hint:"Boulangerie is feminine. No contraction with feminine."},
+
+  {type:"match",pairs:[{nl:"l'hôpital",en:"the hospital"},{nl:"la poste",en:"the post office"},{nl:"le parc",en:"the park"},{nl:"la banque",en:"the bank"}]},
+
+  {type:"mc",q:"'L'hôpital' uses l' because:",opts:["It is feminine","It starts with a vowel sound","It is plural","It is informal"],ans:"It starts with a vowel sound",hint:"The h is silent, so le becomes l' before the vowel sound."},
+
+  {type:"fb",s:"On va ___ parc cet après-midi.",a:"au",opts:["au","à la","à l'","aux"],hint:"Parc is masculine. À + le = ?"},
+
+  {type:"mc",q:"Where do you buy bread daily in France?",opts:["Au supermarché","À la banque","À la boulangerie","À la pharmacie"],ans:"À la boulangerie",hint:"This shop is visited daily by many French people."},
+
+  {type:"fb",s:"Il y a ___ pharmacie à côté de la poste.",a:"une",opts:["une","un","la","le"],hint:"There is A pharmacy. Indefinite, feminine article."},
+]},
+
+// ═══ L2: Aller + à ═══
+{id:"fre7l2",title:"Aller + à",icon:"🚶",xp:15,board:true,steps:[
+  {type:"intro",title:"Aller + à: going places",desc:"The verb 'aller' (to go) is irregular but essential. Combined with 'à', it lets you say where you're going.",goals:["Conjugate aller in present tense","Combine aller + à/au/à la","Say where you are going"]},
+
+  {type:"teach",kind:"word",nl:"aller",en:"to go",phonetic:"ah-LAY",example:"A: Tu vas où?\nB: Je vais au travail.\nA: À pied ou en bus?",exampleEn:"A: Where are you going?\nB: I'm going to work.\nA: On foot or by bus?",note:"Irregular verb. One of the most used.\nje vais, tu vas, il/elle va,\nnous allons, vous allez, ils/elles vont."},
+
+  {type:"tip",title:"Aller: full conjugation",text:"je vais = I go\ntu vas = you go (informal)\nil/elle/on va = he/she/one goes\nnous allons = we go\nvous allez = you go (formal/plural)\nils/elles vont = they go\n\nAll forms are irregular.\nAllez is also used for 'let's go!': Allez!"},
+
+  {type:"teach",kind:"phrase",nl:"je vais au travail",en:"I'm going to work",phonetic:"zhuh vay oh trah-VAHY",example:"A: Tu pars déjà?\nB: Oui, je vais au travail.\nA: Bonne journée!",exampleEn:"A: Are you leaving already?\nB: Yes, I'm going to work.\nA: Have a good day!",note:"Aller + au (masculine place).\nAu travail = to work."},
+
+  {type:"teach",kind:"phrase",nl:"venir de",en:"to come from",phonetic:"vuh-NEER duh",example:"A: Tu viens d'où?\nB: Je viens de la gare.\nA: Le train était à l'heure?",exampleEn:"A: Where are you coming from?\nB: I'm coming from the station.\nA: Was the train on time?",note:"Venir = to come (irregular).\nje viens, tu viens, il vient,\nnous venons, vous venez, ils viennent.\nDe + le = du. De + la = de la."},
+
+  {type:"mc",q:"The 'ils' form of aller is:",opts:["Vont","Allent","Vais","Allez"],ans:"Vont",hint:"All forms of this verb are irregular. The plural they form starts with v."},
+
+  {type:"fb",s:"Nous ___ au cinéma ce soir.",a:"allons",opts:["allons","allez","allent","vont"],hint:"We go: nous + which form of aller?"},
+
+  {type:"match",pairs:[{nl:"je vais",en:"I go"},{nl:"tu vas",en:"you go"},{nl:"il va",en:"he goes"},{nl:"nous allons",en:"we go"}]},
+
+  {type:"mc",q:"'Elle va à la poste' means:",opts:["She comes from the post office","She is at the post office","She is going to the post office","She works at the post office"],ans:"She is going to the post office",hint:"Va = goes. À la = to the (feminine place)."},
+
+  {type:"fb",s:"Tu ___ où ce matin?",a:"vas",opts:["vas","vais","va","allez"],hint:"You go (informal): tu + which form?"},
+
+  {type:"mc",q:"'Je viens de la gare' means:",opts:["I'm going to the station","I'm coming from the station","I live at the station","I work at the station"],ans:"I'm coming from the station",hint:"Venir de = to come FROM a place."},
+
+  {type:"fb",s:"Ils ___ au supermarché tous les samedis.",a:"vont",opts:["vont","allons","allez","va"],hint:"They go: ils + which irregular form?"},
+
+  {type:"match",pairs:[{nl:"vous allez",en:"you go (formal)"},{nl:"ils vont",en:"they go (m.)"},{nl:"elles vont",en:"they go (f.)"},{nl:"on va",en:"one goes / we go"}]},
+
+  {type:"mc",q:"'Venir de + le' contracts to:",opts:["Venir de le","Venir du","Venir del","Venir des"],ans:"Venir du",hint:"De + le always contracts to a two-letter word."},
+
+  {type:"fb",s:"Elle vient ___ la pharmacie.",a:"de",opts:["de","du","à","au"],hint:"She comes from the pharmacy. Feminine: no contraction."},
+
+  {type:"mc",q:"'On va au cinéma?' is an invitation meaning:",opts:["The cinema is open","Shall we go to the cinema?","I came from the cinema","The cinema is far"],ans:"Shall we go to the cinema?",hint:"On va + place = shall we go to / let's go to."},
+
+  {type:"fb",s:"Vous ___ à l'hôpital?",a:"allez",opts:["allez","allons","vont","vas"],hint:"You (formal/plural) go: vous + which form?"},
+
+  {type:"mc",q:"'On va au cinéma' uses 'on' which conjugates like:",opts:["Je","Tu","Il/elle","Nous"],ans:"Il/elle",hint:"On takes third person singular, same as he/she."},
+]},
+
+// ═══ L3: Les transports ═══
+{id:"fre7l3",title:"Les transports",icon:"🚌",xp:15,board:true,steps:[
+  {type:"intro",title:"Les transports",desc:"Learn how to talk about transportation in French. Each mode of transport uses a specific preposition: en, à, or par.",goals:["Name common modes of transport","Use en/à for transport","Talk about how you travel"]},
+
+  {type:"teach",kind:"word",nl:"le bus",en:"the bus",phonetic:"luh BEWS",example:"A: Tu prends le bus?\nB: Oui, le bus numéro 5.\nA: Il passe toutes les dix minutes.",exampleEn:"A: Do you take the bus?\nB: Yes, bus number 5.\nA: It comes every ten minutes.",note:"Masculine. En bus = by bus.\nPrendre le bus = to take the bus."},
+
+  {type:"teach",kind:"word",nl:"le métro",en:"the metro / subway",phonetic:"luh may-TROH",example:"A: Comment tu vas au travail?\nB: En métro, c'est rapide.\nA: Quelle ligne?",exampleEn:"A: How do you get to work?\nB: By metro, it's fast.\nA: Which line?",note:"Masculine. En métro = by metro.\nParis has 16 metro lines."},
+
+  {type:"teach",kind:"word",nl:"le train",en:"the train",phonetic:"luh TRAN",example:"A: On prend le train pour Lyon?\nB: Oui, le TGV est rapide.\nA: Combien de temps?",exampleEn:"A: Shall we take the train to Lyon?\nB: Yes, the TGV is fast.\nA: How long?",note:"Masculine. En train = by train.\nTGV = Train à Grande Vitesse (high-speed)."},
+
+  {type:"teach",kind:"word",nl:"le vélo",en:"the bicycle",phonetic:"luh vay-LOH",example:"A: Tu fais du vélo?\nB: Oui, je vais au travail à vélo.\nA: C'est bon pour la santé!",exampleEn:"A: Do you cycle?\nB: Yes, I go to work by bike.\nA: It's good for your health!",note:"Masculine. À vélo = by bike.\nNote: en voiture BUT à vélo/à pied."},
+
+  {type:"teach",kind:"phrase",nl:"à pied",en:"on foot / walking",phonetic:"ah pee-AY",example:"A: La boulangerie est loin?\nB: Non, cinq minutes à pied.\nA: Parfait, j'y vais à pied.",exampleEn:"A: Is the bakery far?\nB: No, five minutes on foot.\nA: Perfect, I'll walk.",note:"On foot, by walking.\nAlways à pied, never en pied."},
+
+  {type:"teach",kind:"word",nl:"la voiture",en:"the car",phonetic:"lah vwah-TEWR",example:"A: On y va comment?\nB: En voiture, c'est plus rapide.\nA: D'accord, tu conduis!",exampleEn:"A: How do we get there?\nB: By car, it's faster.\nA: OK, you drive!",note:"Feminine. En voiture = by car.\nConduire = to drive."},
+
+  {type:"tip",title:"Transport prepositions",text:"EN + enclosed vehicle:\nen bus, en train, en métro, en voiture, en avion\n\nÀ + open/body transport:\nà pied (on foot), à vélo (by bike)\n\nThis is the rule: if you're INSIDE it, use en.\nIf you're ON it or using your body, use à."},
+
+  {type:"match",pairs:[{nl:"le bus",en:"the bus"},{nl:"le métro",en:"the metro"},{nl:"le train",en:"the train"},{nl:"la voiture",en:"the car"}]},
+
+  {type:"mc",q:"You use 'en' for transport when you are:",opts:["Walking","On a bicycle","Inside the vehicle","Running"],ans:"Inside the vehicle",hint:"En = enclosed. If you sit inside, use this preposition."},
+
+  {type:"fb",s:"Je vais au travail ___ métro.",a:"en",opts:["en","à","par","dans"],hint:"Metro is an enclosed vehicle. Which preposition?"},
+
+  {type:"mc",q:"'À vélo' uses 'à' because:",opts:["Vélo is masculine","You sit on it, not inside it","It is fast","It is small"],ans:"You sit on it, not inside it",hint:"Open/body-powered transport uses a different preposition than enclosed vehicles."},
+
+  {type:"fb",s:"La gare est à cinq minutes ___ pied.",a:"à",opts:["à","en","de","par"],hint:"On foot always uses this short preposition."},
+
+  {type:"match",pairs:[{nl:"en voiture",en:"by car"},{nl:"en bus",en:"by bus"},{nl:"à vélo",en:"by bike"},{nl:"à pied",en:"on foot"}]},
+
+  {type:"mc",q:"'Prendre le bus' means:",opts:["To buy a bus","To drive a bus","To take the bus","To wait for the bus"],ans:"To take the bus",hint:"Prendre + transport = to take that mode of transport."},
+
+  {type:"fb",s:"Elle va à l'école ___ voiture.",a:"en",opts:["en","à","par","dans"],hint:"Car is enclosed. Which transport preposition?"},
+
+  {type:"mc",q:"The TGV is France's:",opts:["City bus system","Metro line","High-speed train","Highway"],ans:"High-speed train",hint:"Train à Grande Vitesse. France is famous for this rail network."},
+
+  {type:"fb",s:"Nous prenons ___ train pour aller à Lyon.",a:"le",opts:["le","la","un","en"],hint:"We take THE train. Which masculine definite article?"},
+]},
+
+// ═══ L4: Demander son chemin ═══
+{id:"fre7l4",title:"Demander son chemin",icon:"🧭",xp:15,board:true,steps:[
+  {type:"intro",title:"Demander son chemin: asking for directions",desc:"Learn to ask for and give directions in French. This is one of the most practical survival skills for any traveler.",goals:["Ask where something is","Understand basic direction words","Give simple directions"]},
+
+  {type:"teach",kind:"phrase",nl:"Où est...?",en:"Where is...?",phonetic:"oo AY",example:"A: Excusez-moi, où est la gare?\nB: Tout droit, puis à gauche.\nA: Merci beaucoup!",exampleEn:"A: Excuse me, where is the station?\nB: Straight ahead, then left.\nA: Thank you very much!",note:"The basic question for directions.\nOù est + la/le/l' + place."},
+
+  {type:"teach",kind:"phrase",nl:"tout droit",en:"straight ahead",phonetic:"too DRWAH",example:"A: Pour aller à la poste?\nB: Continuez tout droit.\nA: C'est loin?",exampleEn:"A: How do I get to the post office?\nB: Continue straight ahead.\nA: Is it far?",note:"Literally: all straight.\nThe most common direction instruction."},
+
+  {type:"teach",kind:"phrase",nl:"à gauche",en:"to the left",phonetic:"ah GOHSH",example:"A: Je tourne où?\nB: À gauche, après le feu.\nA: Le feu rouge?",exampleEn:"A: Where do I turn?\nB: Left, after the traffic light.\nA: The red light?",note:"Left. Tournez à gauche = turn left.\nLe feu = traffic light."},
+
+  {type:"teach",kind:"phrase",nl:"à droite",en:"to the right",phonetic:"ah DRWAHT",example:"A: Et ensuite?\nB: Tournez à droite.\nA: D'accord.",exampleEn:"A: And then?\nB: Turn right.\nA: OK.",note:"Right. Tournez à droite = turn right.\nDroite also means 'straight' in other contexts."},
+
+  {type:"teach",kind:"phrase",nl:"tournez",en:"turn (formal command)",phonetic:"toor-NAY",example:"A: Pour aller à la banque?\nB: Tournez à droite au carrefour.\nA: Au premier carrefour?",exampleEn:"A: How do I get to the bank?\nB: Turn right at the intersection.\nA: At the first intersection?",note:"Imperative (command) form of tourner.\nVous form: tournez. Tu form: tourne."},
+
+  {type:"teach",kind:"phrase",nl:"continuez",en:"continue (formal command)",phonetic:"kon-tee-new-AY",example:"A: C'est loin d'ici?\nB: Non, continuez tout droit, c'est à deux minutes.\nA: Super, merci!",exampleEn:"A: Is it far from here?\nB: No, continue straight, it's two minutes away.\nA: Great, thanks!",note:"Imperative of continuer.\nContinuez tout droit = keep going straight."},
+
+  {type:"teach",kind:"phrase",nl:"en face de",en:"across from / opposite",phonetic:"ahn fas duh",example:"A: La pharmacie est où?\nB: En face de la boulangerie.\nA: Ah oui, je la vois!",exampleEn:"A: Where is the pharmacy?\nB: Across from the bakery.\nA: Oh yes, I see it!",note:"Directly opposite.\nYou learned this in Unit 6 for rooms.\nSame usage for city locations."},
+
+  {type:"teach",kind:"phrase",nl:"à côté de",en:"next to",phonetic:"ah koh-TAY duh",example:"A: Le parc est où?\nB: À côté de l'école.\nA: Merci!",exampleEn:"A: Where is the park?\nB: Next to the school.\nA: Thanks!",note:"Right beside. Reviewed from Unit 6.\nÀ côté du = à côté de + le."},
+
+  {type:"match",pairs:[{nl:"tout droit",en:"straight ahead"},{nl:"à gauche",en:"to the left"},{nl:"à droite",en:"to the right"},{nl:"tournez",en:"turn"}]},
+
+  {type:"mc",q:"'Tournez à gauche' means:",opts:["Go straight","Turn left","Turn right","Go back"],ans:"Turn left",hint:"Gauche = left side. Tournez = turn command."},
+
+  {type:"fb",s:"Excusez-moi, ___ est la gare?",a:"où",opts:["où","qui","quand","comment"],hint:"The question word for location: ___?"},
+
+  {type:"mc",q:"To tell someone to keep going forward, you say:",opts:["Tournez à gauche","Revenez","Continuez tout droit","Arrêtez"],ans:"Continuez tout droit",hint:"Continue + the phrase meaning 'straight ahead'."},
+
+  {type:"fb",s:"La banque est ___ face de la poste.",a:"en",opts:["en","à","de","au"],hint:"Across from: ___ face de. First word of this preposition."},
+
+  {type:"match",pairs:[{nl:"continuez",en:"continue"},{nl:"en face de",en:"across from"},{nl:"à côté de",en:"next to"},{nl:"Où est...?",en:"Where is...?"}]},
+
+  {type:"mc",q:"Which gives directions to go right then straight?",opts:["Tout droit puis à gauche","À droite puis tout droit","En face puis à côté","À gauche puis à droite"],ans:"À droite puis tout droit",hint:"First right, then the phrase for straight ahead."},
+
+  {type:"fb",s:"___ à droite au carrefour. (Turn)",a:"Tournez",opts:["Tournez","Continuez","Allez","Prenez"],hint:"The formal command form of 'to turn'."},
+
+  {type:"mc",q:"'C'est à cinq minutes à pied' means:",opts:["It costs five minutes","It opens at five","It's five minutes away on foot","It closes at five"],ans:"It's five minutes away on foot",hint:"C'est à + time + à pied = distance by walking."},
+]},
+
+// ═══ L5: L'impératif ═══
+{id:"fre7l5",title:"L'impératif",icon:"📢",xp:15,board:true,steps:[
+  {type:"intro",title:"L'impératif: giving commands",desc:"The imperative is the command form. French uses three forms: tu (informal), vous (formal), and nous (let's). For -er verbs, the tu form drops the final -s.",goals:["Form commands with tu, vous, nous","Know the -er verb tu exception","Use imperative for directions and instructions"]},
+
+  {type:"tip",title:"Imperative formation",text:"For most verbs, imperative = present tense without the subject:\n\nTu form: Regarde! (Look!) Note: -er verbs DROP the -s.\nVous form: Regardez! (Look!)\nNous form: Regardons! (Let's look!)\n\nImportant: -er tu form: tu regardes -> Regarde!\n(Not Regardes. The -s is dropped.)"},
+
+  {type:"teach",kind:"phrase",nl:"Regarde!",en:"Look! (informal)",phonetic:"ruh-GARD",example:"A: Regarde cette maison!\nB: Elle est magnifique!\nA: Oui, avec un grand jardin.",exampleEn:"A: Look at that house!\nB: It's magnificent!\nA: Yes, with a big garden.",note:"Tu imperative of regarder.\n-er verb: the -s from tu regardes is dropped."},
+
+  {type:"teach",kind:"phrase",nl:"Prenez la première rue",en:"Take the first street (formal)",phonetic:"pruh-NAY lah pruh-mee-EHR rew",example:"A: Pour aller au parc?\nB: Prenez la première rue à gauche.\nA: Merci!",exampleEn:"A: How do I get to the park?\nB: Take the first street on the left.\nA: Thanks!",note:"Vous imperative of prendre.\nPrendre is irregular: prenez."},
+
+  {type:"teach",kind:"phrase",nl:"Allons-y!",en:"Let's go!",phonetic:"ah-LON-zee",example:"A: Tout le monde est prêt?\nB: Oui!\nA: Allons-y!",exampleEn:"A: Is everyone ready?\nB: Yes!\nA: Let's go!",note:"Nous imperative of aller + y (there).\nVery common expression.\nAllez-y! = Go ahead! (vous form)."},
+
+  {type:"teach",kind:"phrase",nl:"Ne tourne pas!",en:"Don't turn! (informal)",phonetic:"nuh TOORN pah",example:"A: Je tourne ici?\nB: Non, ne tourne pas! Continue tout droit.\nA: D'accord.",exampleEn:"A: Do I turn here?\nB: No, don't turn! Keep going straight.\nA: OK.",note:"Negative imperative: ne + verb + pas.\nSame ne...pas sandwich as statements."},
+
+  {type:"mc",q:"For -er verbs, the tu imperative:",opts:["Adds an -s","Drops the -s","Stays the same","Adds -ez"],ans:"Drops the -s",hint:"Tu regardes -> Regarde! Something is removed."},
+
+  {type:"fb",s:"___ la deuxième rue à droite. (Take, formal)",a:"Prenez",opts:["Prenez","Prends","Prend","Prennent"],hint:"Formal/vous command of prendre."},
+
+  {type:"mc",q:"'Allons-y!' means:",opts:["Go away!","Let's go!","I'm going!","You go!"],ans:"Let's go!",hint:"Nous imperative = let's. Y = there."},
+
+  {type:"match",pairs:[{nl:"Regarde!",en:"Look! (informal)"},{nl:"Regardez!",en:"Look! (formal)"},{nl:"Regardons!",en:"Let's look!"},{nl:"Ne regarde pas!",en:"Don't look!"}]},
+
+  {type:"fb",s:"___ tout droit! (Continue, informal)",a:"Continue",opts:["Continue","Continues","Continuez","Continuons"],hint:"Informal command: keep going straight. -er verbs: no -s in tu form."},
+
+  {type:"mc",q:"The negative imperative 'Ne tournez pas' means:",opts:["Turn now","Don't turn","Turn left","Let's turn"],ans:"Don't turn",hint:"Ne...pas wraps around the verb in commands too."},
+
+  {type:"fb",s:"___-y! (Let's go)",a:"Allons",opts:["Allons","Allez","Allent","Va"],hint:"Nous form of aller, before -y."},
+
+  {type:"match",pairs:[{nl:"Tournez!",en:"Turn! (formal)"},{nl:"Continuez!",en:"Continue!"},{nl:"Prenez!",en:"Take!"},{nl:"Allez!",en:"Go!"}]},
+
+  {type:"mc",q:"'Mange ta soupe!' is in which imperative form?",opts:["Tu","Vous","Nous","Il"],ans:"Tu",hint:"Mange (not manges) with -s dropped. Who is being addressed?"},
+
+  {type:"fb",s:"Ne ___ pas à gauche, va tout droit!",a:"tourne",opts:["tourne","tournes","tournez","tournons"],hint:"Negative informal command: don't change direction! No -s in this form."},
+
+  {type:"mc",q:"Which is correct formal imperative?",opts:["Regardes la carte!","Regarde la carte!","Regardez la carte!","Regardons la carte!"],ans:"Regardez la carte!",hint:"Formal commands use the vous form of the verb."},
+
+  {type:"fb",s:"___ du café! (Let's have / drink)",a:"Prenons",opts:["Prenons","Prenez","Prends","Prend"],hint:"Let's have: nous imperative of prendre."},
+]},
+
+// ═══ L6: Se déplacer en ville ═══
+{id:"fre7l6",title:"Se déplacer en ville",icon:"🚏",xp:15,board:true,steps:[
+  {type:"intro",title:"Se déplacer en ville: getting around",desc:"Combine transport, directions, and places to navigate a French city. Practice buying tickets, asking for help, and describing routes.",goals:["Buy transport tickets","Combine directions with transport","Navigate practical city scenarios"]},
+
+  {type:"teach",kind:"phrase",nl:"un billet",en:"a ticket",phonetic:"uhn bee-YAY",example:"A: Un billet pour Lyon, s'il vous plaît.\nB: Aller simple ou aller-retour?\nA: Aller-retour.",exampleEn:"A: A ticket to Lyon, please.\nB: One way or round trip?\nA: Round trip.",note:"Masculine. For trains and long-distance.\nUn ticket = for metro/bus."},
+
+  {type:"teach",kind:"phrase",nl:"un aller-retour",en:"a round trip (ticket)",phonetic:"uhn ah-LAY ruh-TOOR",example:"A: Un aller-retour pour Marseille.\nB: En première ou deuxième classe?\nA: Deuxième classe.",exampleEn:"A: A round trip to Marseille.\nB: First or second class?\nA: Second class.",note:"Round trip ticket.\nUn aller simple = one-way ticket."},
+
+  {type:"teach",kind:"phrase",nl:"C'est loin?",en:"Is it far?",phonetic:"say LWAN",example:"A: C'est loin, la gare?\nB: Non, à dix minutes en bus.\nA: Quel bus?",exampleEn:"A: Is the station far?\nB: No, ten minutes by bus.\nA: Which bus?",note:"Essential question for navigation.\nLoin = far. Près = near."},
+
+  {type:"teach",kind:"word",nl:"la rue",en:"the street",phonetic:"lah REW",example:"A: C'est dans quelle rue?\nB: Rue Victor Hugo.\nA: Je connais cette rue.",exampleEn:"A: On which street is it?\nB: Victor Hugo Street.\nA: I know that street.",note:"Feminine. La rue = the street.\nFrench streets are named after famous people."},
+
+  {type:"teach",kind:"word",nl:"le carrefour",en:"the intersection / crossroads",phonetic:"luh kar-FOOR",example:"A: Je tourne où?\nB: Au prochain carrefour.\nA: À gauche ou à droite?",exampleEn:"A: Where do I turn?\nB: At the next intersection.\nA: Left or right?",note:"Masculine. Where streets cross.\nAlso the name of a supermarket chain."},
+
+  {type:"mc",q:"'Un aller-retour' is:",opts:["A one-way ticket","A round trip ticket","A bus pass","A platform number"],ans:"A round trip ticket",hint:"Aller = go, retour = return. Both directions."},
+
+  {type:"fb",s:"Un ___ pour Paris, s'il vous plaît.",a:"billet",opts:["billet","ticket","carte","voyage"],hint:"A ___ for Paris. The word for a train ticket."},
+
+  {type:"match",pairs:[{nl:"un billet",en:"a ticket"},{nl:"un aller-retour",en:"a round trip"},{nl:"la rue",en:"the street"},{nl:"le carrefour",en:"the intersection"}]},
+
+  {type:"mc",q:"'C'est loin?' asks about:",opts:["The time","The distance","The price","The name"],ans:"The distance",hint:"Loin = far. This question asks how far something is."},
+
+  {type:"fb",s:"Tournez au prochain ___.",a:"carrefour",opts:["carrefour","rue","parc","gare"],hint:"Turn at the next intersection. Masculine noun."},
+
+  {type:"mc",q:"For metro/bus you buy 'un ticket'. For trains you buy:",opts:["Un ticket","Un billet","Une carte","Un pass"],ans:"Un billet",hint:"Long-distance travel uses a different word than short-distance."},
+
+  {type:"fb",s:"C'est ___, la boulangerie?",a:"loin",opts:["loin","près","ici","là"],hint:"Is the bakery far? Which word means 'far'?"},
+
+  {type:"match",pairs:[{nl:"C'est loin?",en:"Is it far?"},{nl:"C'est près",en:"It's near"},{nl:"un aller simple",en:"a one-way ticket"},{nl:"la première rue",en:"the first street"}]},
+
+  {type:"mc",q:"'Prenez la deuxième rue à gauche' means:",opts:["Take the second street on the left","Take the left bus","Turn right at the second light","Go straight on the second road"],ans:"Take the second street on the left",hint:"Deuxième = second. Rue = street. À gauche = on the left."},
+
+  {type:"fb",s:"La pharmacie est dans la ___ principale.",a:"rue",opts:["rue","maison","pièce","gare"],hint:"The pharmacy is on the main ___. Feminine word for street."},
+
+  {type:"mc",q:"If someone says 'C'est à cinq minutes à pied', you should:",opts:["Take the metro","Walk there","Drive there","Take the bus"],ans:"Walk there",hint:"Five minutes on foot is very close. No vehicle needed."},
+
+  {type:"fb",s:"Je prends ___ bus numéro 12.",a:"le",opts:["le","la","un","en"],hint:"I take THE bus. Masculine definite article for a specific bus."},
+]},
+
+// ═══ L7: Explorer la ville ═══
+{id:"fre7l7",title:"Explorer la ville",icon:"🏛️",xp:15,board:true,steps:[
+  {type:"intro",title:"Explorer la ville",desc:"Put it all together: navigate a city, combine places with transport and directions. Build confidence for real-world French navigation.",goals:["Give multi-step directions","Combine all Unit 7 vocabulary","Handle complex navigation scenarios"]},
+
+  {type:"teach",kind:"word",nl:"le musée",en:"the museum",phonetic:"luh mew-ZAY",example:"A: On visite le musée aujourd'hui?\nB: Oui, le Musée d'Orsay!\nA: J'adore l'impressionnisme.",exampleEn:"A: Shall we visit the museum today?\nB: Yes, the Musée d'Orsay!\nA: I love Impressionism.",note:"Masculine. Au musée = at/to the museum.\nFrance has world-famous museums."},
+
+  {type:"teach",kind:"word",nl:"l'église",en:"the church",phonetic:"lay-GLEEZ",example:"A: Qu'est-ce que c'est, ce bâtiment?\nB: C'est une église.\nA: Elle est très ancienne.",exampleEn:"A: What is that building?\nB: It's a church.\nA: It's very old.",note:"Feminine (une église). Elided article.\nLa cathédrale = the cathedral."},
+
+  {type:"teach",kind:"word",nl:"la place",en:"the square / plaza",phonetic:"lah PLAS",example:"A: On se retrouve où?\nB: Sur la place, devant la fontaine.\nA: À quelle heure?",exampleEn:"A: Where shall we meet?\nB: At the square, in front of the fountain.\nA: What time?",note:"Feminine. City square or plaza.\nLa Place de la Concorde, La Place du Marché."},
+
+  {type:"teach",kind:"phrase",nl:"Pour aller à...?",en:"How do I get to...?",phonetic:"poor ah-LAY ah",example:"A: Pour aller au musée?\nB: Prenez le métro, ligne 12.\nA: Et après?",exampleEn:"A: How do I get to the museum?\nB: Take the metro, line 12.\nA: And then?",note:"Polite way to ask for directions.\nLiterally: In order to go to...?"},
+
+  {type:"teach",kind:"phrase",nl:"C'est tout près",en:"It's very close / nearby",phonetic:"say too PREH",example:"A: C'est loin, le parc?\nB: Non, c'est tout près, à deux minutes.\nA: Parfait!",exampleEn:"A: Is the park far?\nB: No, it's very close, two minutes away.\nA: Perfect!",note:"Tout = very (intensifier here).\nPrès = near. Opposite: loin."},
+
+  {type:"mc",q:"'Pour aller au musée?' is asking:",opts:["Where is the museum?","How do I get to the museum?","Is the museum open?","How much is the museum?"],ans:"How do I get to the museum?",hint:"Pour aller à = how to get to. A polite direction request."},
+
+  {type:"fb",s:"Excusez-moi, pour aller ___ la place?",a:"à",opts:["à","au","de","en"],hint:"Place is feminine. À + la = no contraction."},
+
+  {type:"match",pairs:[{nl:"le musée",en:"the museum"},{nl:"l'église",en:"the church"},{nl:"la place",en:"the square"},{nl:"C'est tout près",en:"It's very close"}]},
+
+  {type:"mc",q:"Someone asks 'C'est loin?' and you answer 'Non, c'est tout près.' This means:",opts:["It's very far","It's quite far","It's very close","It's closed"],ans:"It's very close",hint:"Tout = very. Près = near/close. Combined?"},
+
+  {type:"fb",s:"On visite ___ musée cet après-midi.",a:"le",opts:["le","la","un","au"],hint:"We're visiting THE museum. Masculine definite article."},
+
+  {type:"mc",q:"Complete the directions: 'Continuez tout droit, puis ___ à gauche au carrefour.'",opts:["Allez","Tournez","Prenez","Regardez"],ans:"Tournez",hint:"After going straight, you need to change direction at the intersection."},
+
+  {type:"fb",s:"L'église est ___ face du musée.",a:"en",opts:["en","à","de","au"],hint:"The church is across from the museum. First word of the preposition."},
+
+  {type:"match",pairs:[{nl:"Pour aller à...?",en:"How do I get to...?"},{nl:"C'est loin?",en:"Is it far?"},{nl:"Tournez à droite",en:"Turn right"},{nl:"Tout droit",en:"Straight ahead"}]},
+
+  {type:"mc",q:"Best way to say 'Take the metro to the museum':",opts:["Allons au métro au musée","Prenez le métro pour aller au musée","En métro dans le musée","Le métro va le musée"],ans:"Prenez le métro pour aller au musée",hint:"Take the metro + in order to go to + the museum."},
+
+  {type:"fb",s:"La cathédrale est sur la ___ principale.",a:"place",opts:["place","rue","gare","maison"],hint:"The cathedral is on the main square. Feminine noun."},
+
+  {type:"mc",q:"You need to explain: 'Go straight, turn right, the park is next to the church.' In French:",opts:["Tout droit, tournez à droite, le parc est à côté de l'église","À droite tout droit, l'église à côté le parc","Continuez à droite, tout droit le parc l'église","Tournez tout droit, à droite l'église du parc"],ans:"Tout droit, tournez à droite, le parc est à côté de l'église",hint:"Step by step: straight, turn right, then location description."},
+
+  {type:"fb",s:"Pour aller ___ la gare, prenez le bus numéro 5.",a:"à",opts:["à","au","de","en"],hint:"To get to the station. Gare is feminine: à + la = no contraction."},
+]},
+
+// ═══ L8: Révision Unit 7 ═══
+{id:"fre7l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 7 Review",desc:"Review all of Unit 7: city places, aller + à, transport, directions, imperative, and navigation. Get ready to explore any French city!",goals:["Review city vocabulary","Test transport prepositions","Combine directions fluently"]},
+
+  {type:"mc",q:"'À la boulangerie' uses 'à la' because:",opts:["Boulangerie is masculine","Boulangerie is feminine","Boulangerie starts with a vowel","Boulangerie is plural"],ans:"Boulangerie is feminine",hint:"Feminine nouns keep à la (no contraction)."},
+
+  {type:"fb",s:"Nous ___ au supermarché en voiture.",a:"allons",opts:["allons","allez","vont","va"],hint:"We go: nous + which form of aller?"},
+
+  {type:"match",pairs:[{nl:"la boulangerie",en:"the bakery"},{nl:"la gare",en:"the station"},{nl:"la banque",en:"the bank"},{nl:"le supermarché",en:"the supermarket"}]},
+
+  {type:"mc",q:"En bus, en train, en voiture. But:",opts:["En vélo","À vélo","Au vélo","Sur vélo"],ans:"À vélo",hint:"Open transport uses a different preposition than enclosed."},
+
+  {type:"fb",s:"___ tout droit puis tournez à gauche.",a:"Continuez",opts:["Continuez","Tournez","Prenez","Allez"],hint:"Keep going forward. Formal command of continuer."},
+
+  {type:"mc",q:"The -er verb tu imperative of 'manger' is:",opts:["Manges!","Mange!","Mangez!","Mangeons!"],ans:"Mange!",hint:"For -er verbs, the tu command drops something from the normal form."},
+
+  {type:"fb",s:"C'est ___, le musée? Non, c'est tout près.",a:"loin",opts:["loin","près","ici","là"],hint:"Is the museum far? The question word for distance."},
+
+  {type:"match",pairs:[{nl:"en bus",en:"by bus"},{nl:"à pied",en:"on foot"},{nl:"en voiture",en:"by car"},{nl:"à vélo",en:"by bike"}]},
+
+  {type:"mc",q:"'Un aller-retour pour Marseille' is:",opts:["A one-way ticket","A round trip ticket","A bus pass","A city map"],ans:"A round trip ticket",hint:"Aller = go, retour = return. A ticket for both directions."},
+
+  {type:"fb",s:"Pour aller ___ musée, prenez le métro.",a:"au",opts:["au","à la","à l'","aux"],hint:"Musée is masculine. À + le = ?"},
+
+  {type:"mc",q:"'Allons-y!' means:",opts:["Let's go!","Go away!","Stop here!","Turn around!"],ans:"Let's go!",hint:"Nous imperative of aller + y (there)."},
+
+  {type:"fb",s:"La pharmacie est en face ___ la poste.",a:"de",opts:["de","du","à","au"],hint:"Across from. Poste is feminine: no contraction with de."},
+
+  {type:"match",pairs:[{nl:"tout droit",en:"straight ahead"},{nl:"à gauche",en:"to the left"},{nl:"à droite",en:"to the right"},{nl:"le carrefour",en:"the intersection"}]},
+
+  {type:"mc",q:"'Prenez la première rue à droite' gives you:",opts:["A bus route","A walking direction","A metro line","A ticket price"],ans:"A walking direction",hint:"Take the first street on the right. This is navigation."},
+
+  {type:"fb",s:"Il y a une banque ___ côté de l'hôpital.",a:"à",opts:["à","en","de","du"],hint:"Next to: ___ côté de. First word of this preposition."},
+
+  {type:"mc",q:"To ask 'How do I get to the church?', say:",opts:["Où est l'église?","Pour aller à l'église?","C'est l'église?","L'église est loin?"],ans:"Pour aller à l'église?",hint:"Pour aller à = how to get to. The polite direction question."},
+
+  {type:"fb",s:"On prend ___ bus ou le métro?",a:"le",opts:["le","la","en","un"],hint:"Shall we take THE bus? Definite masculine article."},
+]},
+]},
+
 ];
