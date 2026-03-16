@@ -3550,4 +3550,322 @@ export default [
 ]},
 ]},
 
+// ╔═══════════════════════════════════════════════════════════════╗
+// ║  UNIT 12 — Passé composé vs imparfait                       ║
+// ╚═══════════════════════════════════════════════════════════════╝
+{n:12,lang:"fr",track:"v1",title:"PC vs imparfait",sub:"The Critical Distinction",icon:"⚖️",level:"A2.4",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Signal Words ═══
+{id:"fre12l1",title:"Les mots-signaux",icon:"🚦",xp:15,board:true,steps:[
+  {type:"intro",title:"Signal words for each tense",desc:"Certain words and expressions naturally pair with passé composé or imparfait. Learning to spot these signals makes choosing the right tense much easier.",goals:["Identify PC signal words","Identify imparfait signal words","Choose tenses based on context clues"]},
+
+  {type:"tip",title:"Tense signals",text:"PASSÉ COMPOSÉ signals:\nsoudain (suddenly)\ntout à coup (all of a sudden)\nhier (yesterday)\nlundi dernier (last Monday)\nune fois (once, one time)\n\nIMPARFAIT signals:\ntoujours (always)\nsouvent (often)\nd'habitude (usually)\nchaque jour (every day)\nquand j'étais petit (when I was little)"},
+
+  {type:"teach",kind:"phrase",nl:"soudain",en:"suddenly",phonetic:"soo-DAN",example:"A: Qu'est-ce qui s'est passé?\nB: Soudain, il a commencé à pleuvoir.\nA: Et vous étiez dehors?",exampleEn:"A: What happened?\nB: Suddenly, it started to rain.\nA: And you were outside?",note:"Signals a sudden event.\nAlmost always followed by passé composé."},
+
+  {type:"teach",kind:"phrase",nl:"d'habitude",en:"usually",phonetic:"dah-bee-TEWD",example:"A: Tu fais quoi le samedi?\nB: D'habitude, je faisais du sport.\nA: Et maintenant?",exampleEn:"A: What do you do on Saturdays?\nB: Usually, I used to do sports.\nA: And now?",note:"Signals habitual action.\nNaturally pairs with imparfait."},
+
+  {type:"teach",kind:"phrase",nl:"tout à coup",en:"all of a sudden",phonetic:"too tah KOO",example:"A: Tout à coup, le chat a sauté sur la table!\nB: Vraiment? Et après?\nA: Il a renversé mon café!",exampleEn:"A: All of a sudden, the cat jumped on the table!\nB: Really? And then?\nA: He knocked over my coffee!",note:"Like soudain but more dramatic.\nAlways signals a sudden event (PC)."},
+
+  {type:"teach",kind:"phrase",nl:"chaque jour",en:"every day",phonetic:"shahk ZHOOR",example:"A: Tu allais souvent à la plage?\nB: Oui, chaque jour en été!\nA: Quelle chance!",exampleEn:"A: Did you go to the beach often?\nB: Yes, every day in summer!\nA: How lucky!",note:"Chaque + time = repeated habit.\nSignals imparfait."},
+
+  {type:"mc",q:"'Soudain, elle ___.' Which tense fits?",opts:["Imparfait","Passé composé","Present","Future"],ans:"Passé composé",hint:"A sudden event needs the completed tense."},
+
+  {type:"fb",s:"D'habitude, je ___ à huit heures. (to get up, imparfait)",a:"me levais",opts:["me levais","me suis levé","me lève","me lèverai"],hint:"Usually I used to get up. Habitual = ongoing past."},
+
+  {type:"mc",q:"Which word signals imparfait?",opts:["Soudain","Hier matin","Souvent","Une fois"],ans:"Souvent",hint:"Which word suggests something happened regularly, not once?"},
+
+  {type:"fb",s:"Tout à coup, il ___ un bruit. (to hear, PC)",a:"a entendu",opts:["a entendu","entendait","entend","entendra"],hint:"All of a sudden, he heard a noise. Sudden = specific event."},
+
+  {type:"match",pairs:[{nl:"soudain",en:"→ passé composé"},{nl:"d'habitude",en:"→ imparfait"},{nl:"tout à coup",en:"→ passé composé"},{nl:"chaque été",en:"→ imparfait"}]},
+
+  {type:"mc",q:"'Chaque matin, elle ___ du café.' Which tense?",opts:["Passé composé","Imparfait","Present","Conditional"],ans:"Imparfait",hint:"Every morning = repeated habit in the past."},
+
+  {type:"fb",s:"Hier, il ___ très froid. (to be, imparfait for weather)",a:"faisait",opts:["faisait","a fait","fait","fera"],hint:"Yesterday it was very cold. Weather description = background."},
+
+  {type:"mc",q:"'Une fois, j'ai vu un ours dans la forêt.' Why passé composé?",opts:["It was habitual","It was a one-time specific event","It was background","It was ongoing"],ans:"It was a one-time specific event",hint:"Une fois (one time) = single, completed event."},
+
+  {type:"fb",s:"___, nous allions à la mer. (every summer)",a:"Chaque été",opts:["Chaque été","Hier","Soudain","Une fois"],hint:"Which expression signals a yearly habit?"},
+
+  {type:"match",pairs:[{nl:"toujours",en:"→ imparfait"},{nl:"lundi dernier",en:"→ passé composé"},{nl:"souvent",en:"→ imparfait"},{nl:"ce jour-là",en:"→ passé composé"}]},
+
+  {type:"mc",q:"Complete: 'Hier soir, je ___ quand soudain le téléphone ___.'",opts:["lisais / a sonné","ai lu / sonnait","lis / sonne","lirai / sonnera"],ans:"lisais / a sonné",hint:"Background action (reading) interrupted by sudden event (phone)."},
+
+  {type:"fb",s:"Quand j'étais petit, je ___ toujours au parc. (to play)",a:"jouais",opts:["jouais","ai joué","joue","jouerai"],hint:"When I was little, I always used to play. Childhood habit."},
+]},
+
+// ═══ L2: Actions vs descriptions ═══
+{id:"fre12l2",title:"Actions ou descriptions?",icon:"🎭",xp:15,board:true,steps:[
+  {type:"intro",title:"Actions vs descriptions",desc:"Passé composé tells WHAT HAPPENED (actions). Imparfait tells WHAT THINGS WERE LIKE (descriptions). This lesson drills the distinction between events and states.",goals:["Distinguish events from states","Use PC for completed actions","Use imparfait for descriptions and states"]},
+
+  {type:"tip",title:"Actions vs states",text:"PASSÉ COMPOSÉ = ACTIONS (what happened)\nJ'ai mangé. (I ate.)\nElle est partie. (She left.)\nIl a plu. (It rained.)\n\nIMPARFAIT = STATES (what things were like)\nJ'avais faim. (I was hungry.)\nElle était fatiguée. (She was tired.)\nIl faisait froid. (It was cold.)\n\nStates = être, avoir, feelings, weather, time, age.\nActions = specific things that happened."},
+
+  {type:"teach",kind:"phrase",nl:"J'avais faim.",en:"I was hungry.",phonetic:"zhah-VAY fan",example:"A: Pourquoi tu as mangé autant?\nB: J'avais très faim!\nA: Tu n'avais pas déjeuné?",exampleEn:"A: Why did you eat so much?\nB: I was very hungry!\nA: You hadn't had lunch?",note:"Avoir faim = to be hungry.\nStates/feelings = imparfait.\nJ'avais = imparfait of avoir."},
+
+  {type:"teach",kind:"phrase",nl:"Elle était fatiguée.",en:"She was tired.",phonetic:"el ay-TAY fah-tee-GAY",example:"A: Marie est sortie hier soir?\nB: Non, elle était fatiguée.\nA: Elle travaille trop!",exampleEn:"A: Did Marie go out last night?\nB: No, she was tired.\nA: She works too much!",note:"Describing a state = imparfait.\nÉtait = imparfait of être.\nFatiguée: extra -e for feminine."},
+
+  {type:"teach",kind:"phrase",nl:"Il a commencé à pleuvoir.",en:"It started to rain.",phonetic:"eel ah koh-mahn-SAY ah pluh-VWAR",example:"A: Il faisait beau ce matin.\nB: Oui, mais il a commencé à pleuvoir à midi.\nA: C'est dommage!",exampleEn:"A: The weather was nice this morning.\nB: Yes, but it started to rain at noon.\nA: That's too bad!",note:"Starting/stopping = an event.\nEvents use passé composé.\nCommencer à + infinitif."},
+
+  {type:"mc",q:"'Elle ___ triste.' (describing her state) Which tense?",opts:["A été","Était","Est","Sera"],ans:"Était",hint:"Describing how someone felt = state = background tense."},
+
+  {type:"fb",s:"Il ___ dix heures quand je suis arrivé. (to be, time)",a:"était",opts:["était","a été","est","sera"],hint:"It was ten o'clock. Telling time in the past = state."},
+
+  {type:"mc",q:"Which is a STATE (imparfait)?",opts:["J'ai mangé une pomme","Je suis parti à midi","J'avais soif","J'ai trouvé mes clés"],ans:"J'avais soif",hint:"Being thirsty is not an action. It describes how you felt."},
+
+  {type:"fb",s:"Nous ___ contents de te voir. (to be, state)",a:"étions",opts:["étions","avons été","sommes","serons"],hint:"We were happy to see you. Emotional state = background."},
+
+  {type:"match",pairs:[{nl:"J'ai mangé",en:"ACTION (PC)"},{nl:"J'avais faim",en:"STATE (imparfait)"},{nl:"Elle est partie",en:"ACTION (PC)"},{nl:"Il faisait froid",en:"STATE (imparfait)"}]},
+
+  {type:"mc",q:"'Il ___ 20 ans quand il ___ en France.' (age + arrived)",opts:["avait / est arrivé","a eu / arrivait","avait / arrivait","a eu / est arrivé"],ans:"avait / est arrivé",hint:"Age = description (background tense). Arriving = event (completed)."},
+
+  {type:"fb",s:"J'___ 15 ans en 2010. (to have, age)",a:"avais",opts:["avais","ai eu","ai","aurai"],hint:"I was 15 in 2010. Age = state = background tense."},
+
+  {type:"mc",q:"Weather in the past is typically:",opts:["Passé composé","Imparfait","Present","Conditional"],ans:"Imparfait",hint:"Weather sets the scene. It describes what conditions WERE like."},
+
+  {type:"fb",s:"Elle ___ les yeux bleus et les cheveux blonds. (to have, description)",a:"avait",opts:["avait","a eu","a","aura"],hint:"She had blue eyes. Physical description = state."},
+
+  {type:"match",pairs:[{nl:"Il faisait beau",en:"weather (imparfait)"},{nl:"J'avais 10 ans",en:"age (imparfait)"},{nl:"Elle a téléphoné",en:"action (PC)"},{nl:"Il était minuit",en:"time (imparfait)"}]},
+
+  {type:"mc",q:"'Le restaurant ___ fermé.' (description of state)",opts:["A été","Était","Est","Sera"],ans:"Était",hint:"The restaurant's state of being closed = background."},
+
+  {type:"fb",s:"Ils ___ beaucoup de travail ce jour-là. (to have, state)",a:"avaient",opts:["avaient","ont eu","ont","auront"],hint:"They had a lot of work. Describing the situation = state."},
+
+  {type:"mc",q:"Sort: 'J'ai acheté un gâteau parce que j'avais faim.'",opts:["Both PC","Both imparfait","PC then imparfait","Imparfait then PC"],ans:"PC then imparfait",hint:"Bought (event) + was hungry (state explaining why)."},
+]},
+
+// ═══ L3: Storytelling ═══
+{id:"fre12l3",title:"Raconter une histoire",icon:"📖",xp:15,board:true,steps:[
+  {type:"intro",title:"Telling stories in French",desc:"French storytelling naturally combines both tenses. The imparfait sets the scene, the passé composé moves the story forward. Practice building narratives.",goals:["Build a narrative with both tenses","Set scenes with imparfait","Move action forward with PC"]},
+
+  {type:"tip",title:"Story structure",text:"A French story follows a pattern:\n\n1. SETTING (imparfait):\nC'était un samedi. Il faisait beau.\nLes gens se promenaient.\n\n2. EVENT (passé composé):\nSoudain, un chien a traversé la rue.\n\n3. REACTION (both):\nJ'ai eu peur (event) parce qu'il était\nénorme (description).\n\n4. RESULT (passé composé):\nFinalement, le chien est parti."},
+
+  {type:"teach",kind:"phrase",nl:"C'était un beau jour d'été.",en:"It was a beautiful summer day.",phonetic:"say-TAY uhn boh zhoor day-TAY",example:"A: Raconte-moi tes vacances!\nB: C'était un beau jour d'été. Le soleil brillait.\nA: Ça commence bien!",exampleEn:"A: Tell me about your vacation!\nB: It was a beautiful summer day. The sun was shining.\nA: Good start!",note:"Classic story opening.\nC'était = it was (imparfait of être).\nSets the scene for the story."},
+
+  {type:"teach",kind:"phrase",nl:"Tout le monde s'amusait.",en:"Everyone was having fun.",phonetic:"too luh MOHND sah-mew-ZAY",example:"A: Comment était la fête?\nB: Tout le monde s'amusait.\nA: Et toi aussi?\nB: Oui, je dansais et je chantais!",exampleEn:"A: How was the party?\nB: Everyone was having fun.\nA: You too?\nB: Yes, I was dancing and singing!",note:"S'amuser = to have fun.\nImparfait because it describes the scene.\nTout le monde = everyone (takes il/elle form)."},
+
+  {type:"teach",kind:"phrase",nl:"Finalement, tout s'est bien terminé.",en:"Finally, everything ended well.",phonetic:"fee-nahl-MAHN too say bee-EN tair-mee-NAY",example:"A: Et après l'accident?\nB: Les pompiers sont arrivés vite.\nA: Finalement, tout s'est bien terminé?",exampleEn:"A: And after the accident?\nB: The firefighters arrived quickly.\nA: In the end, everything ended well?",note:"Finalement = finally (story conclusion).\nSe terminer = to end (reflexive).\nPC because it's the concluding event."},
+
+  {type:"mc",q:"A story opening like 'C'était dimanche. Il pleuvait.' uses:",opts:["Passé composé","Imparfait","Both","Neither"],ans:"Imparfait",hint:"Scene-setting at the start of a story uses the background tense."},
+
+  {type:"fb",s:"C'___ une nuit sombre et froide. (to be, setting)",a:"était",opts:["était","a été","est","sera"],hint:"It was a dark and cold night. Classic scene-setting opening."},
+
+  {type:"mc",q:"Which sentence moves the story FORWARD?",opts:["Il faisait beau","Les oiseaux chantaient","Soudain, le téléphone a sonné","Elle portait une robe rouge"],ans:"Soudain, le téléphone a sonné",hint:"Which one is an event that changes the situation?"},
+
+  {type:"fb",s:"Les enfants ___ dans le jardin quand le père ___ arrivé. (to play / to be, PC)",a:["jouaient","est"],opts:["jouaient","ont joué","est","a"],hint:"Children were playing (scene) when father arrived (event)."},
+
+  {type:"match",pairs:[{nl:"Il faisait beau",en:"scene (imparfait)"},{nl:"Un homme a crié",en:"event (PC)"},{nl:"Les gens marchaient",en:"scene (imparfait)"},{nl:"Elle a trouvé un chat",en:"event (PC)"}]},
+
+  {type:"mc",q:"In 'J'avais peur parce que la maison était vide', both verbs are imparfait because:",opts:["Both are events","Both describe states/feelings","Both are habits","Both are future"],ans:"Both describe states/feelings",hint:"Fear = feeling. Empty house = description. Both are states."},
+
+  {type:"fb",s:"Soudain, un homme ___ dans le restaurant. (to enter, PC)",a:"est entré",opts:["est entré","entrait","entre","entrera"],hint:"Suddenly, a man entered. Sudden event in a story."},
+
+  {type:"mc",q:"Put in order: 'Il ___ (pleuvoir). J'___ (oublier) mon parapluie.'",opts:["pleuvait / ai oublié","a plu / oubliais","pleuvait / oubliais","a plu / ai oublié"],ans:"pleuvait / ai oublié",hint:"Rain was happening (scene) + I forgot (realized, specific event)."},
+
+  {type:"fb",s:"Tout le monde ___ quand la musique s'est arrêtée. (to dance)",a:"dansait",opts:["dansait","a dansé","danse","dansera"],hint:"Everyone was dancing when the music stopped. Ongoing scene."},
+
+  {type:"match",pairs:[{nl:"C'était samedi",en:"setting"},{nl:"Soudain, un bruit",en:"disruption"},{nl:"J'ai eu peur",en:"reaction"},{nl:"Finalement, tout va bien",en:"conclusion"}]},
+
+  {type:"mc",q:"'Quand je suis sorti, il ne pleuvait plus.' The imparfait here describes:",opts:["My action of going out","The weather condition at that moment","A future forecast","A completed rain event"],ans:"The weather condition at that moment",hint:"What was the weather doing at the moment of going out?"},
+
+  {type:"fb",s:"Elle ___ une chanson quand quelqu'un ___ frappé à la porte. (to sing / to have, PC)",a:["chantait","a"],opts:["chantait","a chanté","a","est"],hint:"She was singing (scene) when someone knocked (event)."},
+
+  {type:"mc",q:"A good French story alternates between:",opts:["Only passé composé","Only imparfait","Imparfait scenes and PC events","Present and future"],ans:"Imparfait scenes and PC events",hint:"Background + events = natural storytelling rhythm."},
+]},
+
+// ═══ L4: Interrupted actions ═══
+{id:"fre12l4",title:"Actions interrompues",icon:"✂️",xp:15,board:true,steps:[
+  {type:"intro",title:"Interrupted actions",desc:"One of the most common patterns: an ongoing action (imparfait) gets interrupted by a sudden event (passé composé). Master the 'quand' and 'pendant que' patterns.",goals:["Use quand + PC for interruptions","Use pendant que + imparfait for background","Combine interrupted action patterns fluently"]},
+
+  {type:"tip",title:"Interruption patterns",text:"Pattern 1: QUAND interruption\nJe dormais QUAND le réveil a sonné.\n(ongoing + WHEN + event)\n\nPattern 2: PENDANT QUE background\nPendant que je cuisinais, il a téléphoné.\n(WHILE + ongoing + event)\n\nPattern 3: Double background\nPendant que je lisais, il regardait la télé.\n(WHILE + ongoing + ongoing)\nBoth imparfait = two simultaneous states."},
+
+  {type:"teach",kind:"phrase",nl:"Je cuisinais quand il est rentré.",en:"I was cooking when he came home.",phonetic:"zhuh kwee-zee-NAY kahn eel ay rahn-TRAY",example:"A: Tu faisais quoi quand Pierre est rentré?\nB: Je cuisinais quand il est rentré.\nA: Il t'a aidé?",exampleEn:"A: What were you doing when Pierre came home?\nB: I was cooking when he came home.\nA: Did he help you?",note:"Classic interruption:\nOngoing (cuisinais) + quand + event (est rentré).\nCuisinais = imparfait of cuisiner."},
+
+  {type:"teach",kind:"phrase",nl:"Pendant que nous mangions, il a commencé à neiger.",en:"While we were eating, it started to snow.",phonetic:"pahn-DAHN kuh noo mahn-ZHEE-ON",example:"A: Il a neigé hier?\nB: Oui! Pendant que nous mangions, il a commencé à neiger.\nA: C'était beau?",exampleEn:"A: Did it snow yesterday?\nB: Yes! While we were eating, it started to snow.\nA: Was it beautiful?",note:"Pendant que + imparfait = while.\nMangions = imparfait of manger (nous).\nThe snow starting = sudden event (PC)."},
+
+  {type:"mc",q:"'Je ___ quand quelqu'un a frappé.' (to read)",opts:["lisais","ai lu","lis","lirai"],ans:"lisais",hint:"I was reading (ongoing) when someone knocked (event)."},
+
+  {type:"fb",s:"Elle ___ quand le bus est arrivé. (to wait)",a:"attendait",opts:["attendait","a attendu","attend","attendra"],hint:"She was waiting when the bus arrived. Ongoing action interrupted."},
+
+  {type:"mc",q:"In 'Pendant que tu dormais, j'ai fait les courses', who did the event?",opts:["Tu","Je","Both","Neither"],ans:"Je",hint:"J'ai fait (PC) = the event. Tu dormais = the background."},
+
+  {type:"fb",s:"Pendant qu'il ___, elle a préparé le repas. (to work)",a:"travaillait",opts:["travaillait","a travaillé","travaille","travaillera"],hint:"While he was working, she prepared the meal. Ongoing background."},
+
+  {type:"match",pairs:[{nl:"Je dormais",en:"ongoing (imparfait)"},{nl:"le téléphone a sonné",en:"interruption (PC)"},{nl:"Pendant que tu lisais",en:"ongoing background"},{nl:"j'ai fait le ménage",en:"event during it"}]},
+
+  {type:"mc",q:"'Pendant que je lisais, il lisait aussi.' Both imparfait because:",opts:["Both are interrupted","Both are events","Both are simultaneous states","One interrupts the other"],ans:"Both are simultaneous states",hint:"Two people doing things at the same time = two backgrounds."},
+
+  {type:"fb",s:"Je me ___ quand j'ai entendu un bruit. (to shower, imparfait)",a:"douchais",opts:["douchais","suis douché","douche","doucherai"],hint:"I was showering when I heard a noise. Se doucher = reflexive."},
+
+  {type:"mc",q:"Which is correct for interrupted action?",opts:["J'ai mangé quand il arrivait","Je mangeais quand il est arrivé","J'ai mangé quand il est arrivé","Je mangeais quand il arrivait"],ans:"Je mangeais quand il est arrivé",hint:"Ongoing (eating) interrupted by event (arrival)."},
+
+  {type:"fb",s:"Les élèves ___ quand le professeur est entré. (to talk)",a:"parlaient",opts:["parlaient","ont parlé","parlent","parleront"],hint:"The students were talking when the teacher entered. Ongoing scene."},
+
+  {type:"match",pairs:[{nl:"quand + PC",en:"when (interruption)"},{nl:"pendant que + imparfait",en:"while (background)"},{nl:"soudain + PC",en:"suddenly (event)"},{nl:"imparfait + imparfait",en:"two simultaneous states"}]},
+
+  {type:"mc",q:"'Il ___ le journal quand sa femme est rentrée.'",opts:["a lu","lisait","lit","lira"],ans:"lisait",hint:"He was reading (ongoing) when his wife came home (event)."},
+
+  {type:"fb",s:"Pendant que nous ___ en voiture, il a commencé à pleuvoir. (to drive)",a:"roulions",opts:["roulions","avons roulé","roulons","roulerons"],hint:"While we were driving, it started to rain. Nous = -ions."},
+
+  {type:"mc",q:"Double background: 'Il ___ et elle ___.' (to sleep / to read)",opts:["a dormi / a lu","dormait / lisait","a dormi / lisait","dormait / a lu"],ans:"dormait / lisait",hint:"Two simultaneous ongoing states = both use the background tense."},
+
+  {type:"fb",s:"Je ___ la vaisselle quand le verre s'est cassé. (to do)",a:"faisais",opts:["faisais","ai fait","fais","ferai"],hint:"I was doing the dishes when the glass broke. Ongoing interrupted."},
+]},
+
+// ═══ L5: Reasons and emotions ═══
+{id:"fre12l5",title:"Raisons et émotions",icon:"💭",xp:15,board:true,steps:[
+  {type:"intro",title:"Reasons and emotions in the past",desc:"When explaining WHY something happened, the reason is usually imparfait (a state) and the result is passé composé (an action). Emotions and mental states always use imparfait.",goals:["Use imparfait for reasons and feelings","Use PC for resulting actions","Build cause-effect sentences"]},
+
+  {type:"tip",title:"Because + state",text:"The pattern: ACTION (PC) + parce que/car + STATE (imparfait)\n\nJ'ai mis un pull parce qu'il faisait froid.\n(I put on a sweater because it was cold.)\n\nElle a pleuré parce qu'elle était triste.\n(She cried because she was sad.)\n\nThe action HAPPENED (PC).\nThe reason EXISTED as a state (imparfait)."},
+
+  {type:"teach",kind:"phrase",nl:"J'ai pris un taxi parce que j'étais en retard.",en:"I took a taxi because I was late.",phonetic:"zhay pree uhn tak-SEE pars kuh zhay-TAY ahn ruh-TAR",example:"A: Tu es venu en taxi?\nB: Oui, j'ai pris un taxi parce que j'étais en retard.\nA: Ça arrive!",exampleEn:"A: You came by taxi?\nB: Yes, I took a taxi because I was late.\nA: It happens!",note:"Action (j'ai pris = PC) + reason (j'étais = imparfait).\nÊtre en retard = to be late."},
+
+  {type:"teach",kind:"phrase",nl:"Elle était contente parce qu'elle a réussi.",en:"She was happy because she passed.",phonetic:"el ay-TAY kohn-TAHNT pars kel ah ray-ew-SEE",example:"A: Marie a l'air contente!\nB: Oui, elle était contente parce qu'elle a réussi son examen.\nA: Bravo!",exampleEn:"A: Marie looks happy!\nB: Yes, she was happy because she passed her exam.\nA: Well done!",note:"Sometimes the state (contente) is the result\nof an event (a réussi).\nBoth patterns exist in cause-effect."},
+
+  {type:"teach",kind:"phrase",nl:"J'avais peur.",en:"I was afraid.",phonetic:"zhah-VAY puhr",example:"A: Tu n'es pas monté dans le manège?\nB: Non, j'avais trop peur.\nA: Ce n'est pas grave!",exampleEn:"A: You didn't go on the ride?\nB: No, I was too scared.\nA: It's not a big deal!",note:"Avoir peur = to be afraid.\nEmotions/feelings = imparfait.\nJ'avais = imparfait of avoir."},
+
+  {type:"mc",q:"'J'ai mangé parce que j'___ faim.' Which tense for the reason?",opts:["Ai eu","Avais","Ai","Aurai"],ans:"Avais",hint:"Hunger was the existing state (background) that caused the action."},
+
+  {type:"fb",s:"Il ___ fatigué, alors il s'est couché. (to be, reason)",a:"était",opts:["était","a été","est","sera"],hint:"He was tired (state), so he went to bed (action)."},
+
+  {type:"mc",q:"Which sentence correctly links action + reason?",opts:["J'ai couru parce que j'avais peur","J'ai couru parce que j'ai eu peur","Je courais parce que j'avais peur","Je courais parce que j'ai eu peur"],ans:"J'ai couru parce que j'avais peur",hint:"Running = specific action (PC). Being afraid = state (background)."},
+
+  {type:"fb",s:"Nous ___ contents quand il a annoncé la nouvelle. (to be, emotion)",a:"étions",opts:["étions","avons été","sommes","serons"],hint:"We were happy when he announced the news. Emotional state."},
+
+  {type:"match",pairs:[{nl:"j'ai pleuré",en:"ACTION (PC)"},{nl:"j'étais triste",en:"REASON/STATE (imparfait)"},{nl:"elle a ri",en:"ACTION (PC)"},{nl:"c'était drôle",en:"REASON/STATE (imparfait)"}]},
+
+  {type:"mc",q:"'Elle a acheté un manteau parce qu'elle ___ froid.'",opts:["A eu","Avait","A","Aura"],ans:"Avait",hint:"She was cold (existing state) = reason for buying."},
+
+  {type:"fb",s:"Je ne ___ pas contente quand il a dit ça. (to be, emotion)",a:"n'étais",opts:["n'étais","n'ai été","ne suis","ne serai"],hint:"I was not happy when he said that. Emotional state."},
+
+  {type:"mc",q:"Mental states like 'savoir', 'croire', 'penser' in the past are usually:",opts:["Passé composé","Imparfait","Present","Future"],ans:"Imparfait",hint:"Knowing, believing, thinking = ongoing mental states."},
+
+  {type:"fb",s:"Il ne ___ pas que c'était si loin. (to know, mental state)",a:"savait",opts:["savait","a su","sait","saura"],hint:"He didn't know it was so far. Knowledge = mental state."},
+
+  {type:"match",pairs:[{nl:"j'avais faim",en:"→ j'ai mangé"},{nl:"il faisait froid",en:"→ j'ai mis un pull"},{nl:"elle était malade",en:"→ elle est restée"},{nl:"nous étions fatigués",en:"→ nous avons dormi"}]},
+
+  {type:"mc",q:"'Il ___ qu'elle ___ à Paris.' (to think / to live)",opts:["pensait / habitait","a pensé / a habité","pensait / a habité","a pensé / habitait"],ans:"pensait / habitait",hint:"Both are states: he thought (mental state) she lived (ongoing)."},
+
+  {type:"fb",s:"Ils ne ___ pas au restaurant parce qu'ils n'___ pas d'argent. (to go / to have)",a:["sont allés","avaient"],opts:["sont allés","allaient","avaient","ont eu"],hint:"They didn't go (event) because they didn't have money (state)."},
+
+  {type:"mc",q:"After learning reasons/emotions: states explain ___, events show ___.",opts:["What / why","Why / what","How / when","When / how"],ans:"Why / what",hint:"States tell you WHY (reason). Events tell you WHAT happened."},
+]},
+
+// ═══ L6: Changed states ═══
+{id:"fre12l6",title:"Changement d'état",icon:"🔄",xp:15,board:true,steps:[
+  {type:"intro",title:"When states CHANGE",desc:"Some verbs change meaning depending on the tense! Savoir, connaître, pouvoir, and vouloir have different nuances in PC vs imparfait. PC = the moment of change.",goals:["Understand meaning shifts by tense","Use savoir/connaître correctly in both tenses","Distinguish ongoing states from sudden realizations"]},
+
+  {type:"tip",title:"Meaning shifts",text:"Some verbs change nuance by tense:\n\nsavoir:\nimparfait: je savais = I knew (ongoing)\nPC: j'ai su = I found out (moment of learning)\n\nconnaître:\nimparfait: je connaissais = I knew (person)\nPC: j'ai connu = I met (first time)\n\npouvoir:\nimparfait: je pouvais = I could (ability)\nPC: j'ai pu = I managed to (succeeded)\n\nvouloir:\nimparfait: je voulais = I wanted (ongoing)\nPC: j'ai voulu = I decided/tried to"},
+
+  {type:"teach",kind:"phrase",nl:"J'ai su la vérité.",en:"I found out the truth.",phonetic:"zhay sew lah vay-ree-TAY",example:"A: Tu savais qu'il partait?\nB: Non! J'ai su la vérité hier soir.\nA: C'était un choc?",exampleEn:"A: Did you know he was leaving?\nB: No! I found out the truth last night.\nA: Was it a shock?",note:"Savoir in PC = moment of discovery.\nJ'ai su = I found out / I learned.\nVs je savais = I knew (already)."},
+
+  {type:"teach",kind:"phrase",nl:"J'ai connu Marie en 2015.",en:"I met Marie in 2015.",phonetic:"zhay koh-NEW mah-REE",example:"A: Tu connais Marie depuis longtemps?\nB: Oui, j'ai connu Marie en 2015.\nA: Dix ans déjà!",exampleEn:"A: Have you known Marie for a long time?\nB: Yes, I met Marie in 2015.\nA: Ten years already!",note:"Connaître in PC = to meet (first encounter).\nJ'ai connu = I met.\nVs je connaissais = I knew (familiarity)."},
+
+  {type:"mc",q:"'Je savais' vs 'j'ai su': which means 'I found out'?",opts:["Je savais","J'ai su","Je sais","Je saurai"],ans:"J'ai su",hint:"The completed tense captures the moment of discovery."},
+
+  {type:"fb",s:"Elle ___ la vérité hier. (savoir = found out, PC)",a:"a su",opts:["a su","savait","sait","saura"],hint:"She found out the truth yesterday. Moment of learning."},
+
+  {type:"mc",q:"'Je connaissais Paul' means:",opts:["I met Paul (first time)","I knew Paul (familiarity)","I will know Paul","I know Paul now"],ans:"I knew Paul (familiarity)",hint:"Background tense = ongoing state of knowing someone."},
+
+  {type:"fb",s:"Nous ___ Pierre à l'université. (connaître = met, PC)",a:"avons connu",opts:["avons connu","connaissions","connaissons","connaîtrons"],hint:"We met Pierre at university. First encounter = event."},
+
+  {type:"match",pairs:[{nl:"je savais",en:"I knew (ongoing)"},{nl:"j'ai su",en:"I found out"},{nl:"je connaissais",en:"I knew (person)"},{nl:"j'ai connu",en:"I met (first time)"}]},
+
+  {type:"mc",q:"'Il ___ nager' (he could swim, ongoing ability):",opts:["A pu","Pouvait","Peut","Pourra"],ans:"Pouvait",hint:"An ongoing ability = state = background tense."},
+
+  {type:"fb",s:"Finalement, j'___ ouvrir la porte. (pouvoir = managed to, PC)",a:"ai pu",opts:["ai pu","pouvais","peux","pourrai"],hint:"Finally, I managed to open the door. Success = event."},
+
+  {type:"mc",q:"'Elle voulait partir' vs 'elle a voulu partir': which implies she tried?",opts:["Elle voulait","Elle a voulu","Both","Neither"],ans:"Elle a voulu",hint:"The completed tense implies taking action on the desire."},
+
+  {type:"fb",s:"Il ___ être médecin quand il était jeune. (vouloir = wanted, ongoing)",a:"voulait",opts:["voulait","a voulu","veut","voudra"],hint:"He wanted to be a doctor. Ongoing childhood dream."},
+
+  {type:"match",pairs:[{nl:"je pouvais",en:"I could (ability)"},{nl:"j'ai pu",en:"I managed to"},{nl:"je voulais",en:"I wanted (ongoing)"},{nl:"j'ai voulu",en:"I decided/tried to"}]},
+
+  {type:"mc",q:"'Quand j'ai su la nouvelle, j'étais choqué.' The PC expresses:",opts:["An ongoing state","The moment of learning","A habitual action","A future plan"],ans:"The moment of learning",hint:"Finding out = the instant you learned. State of shock = background."},
+
+  {type:"fb",s:"Elle ne ___ pas qu'il était marié. (savoir = knew, ongoing)",a:"savait",opts:["savait","a su","sait","saura"],hint:"She didn't know he was married. Ongoing state of not knowing."},
+
+  {type:"mc",q:"Summary: PC of savoir/connaître/pouvoir/vouloir emphasizes:",opts:["The ongoing state","The moment of change","The habitual action","The future possibility"],ans:"The moment of change",hint:"PC captures when the state SHIFTED: found out, met, managed, decided."},
+
+  {type:"fb",s:"Il ___ conduire mais il n'___ jamais conduit en ville. (pouvoir, ongoing / avoir, PC)",a:["pouvait","avait"],opts:["pouvait","a pu","avait","a eu"],hint:"He could drive (ongoing ability) but had never driven in the city."},
+]},
+
+// ═══ L7: Duration and repetition ═══
+{id:"fre12l7",title:"Durée et répétition",icon:"🔁",xp:15,board:true,steps:[
+  {type:"intro",title:"Duration and repetition",desc:"Pendant + time expression uses passé composé (bounded duration). Habitual time markers use imparfait. Learn to distinguish bounded vs unbounded past.",goals:["Use pendant + PC for bounded duration","Use imparfait for unbounded repetition","Choose tenses for time expressions"]},
+
+  {type:"tip",title:"Bounded vs unbounded",text:"BOUNDED (PC): has a clear endpoint\nJ'ai habité à Paris pendant 5 ans.\n(I lived in Paris for 5 years.)\nJ'ai attendu pendant 2 heures.\n(I waited for 2 hours.)\n\nUNBOUNDED (imparfait): no clear endpoint\nJ'habitais à Paris. (I was living in Paris.)\nJe l'attendais. (I was waiting for him.)\n\nPendant + specific time = bounded (PC).\nNo time limit stated = unbounded (imparfait)."},
+
+  {type:"teach",kind:"phrase",nl:"J'ai habité à Paris pendant cinq ans.",en:"I lived in Paris for five years.",phonetic:"zhay ah-bee-TAY ah pah-REE pahn-DAHN sank ahn",example:"A: Tu as vécu à Paris?\nB: Oui, j'ai habité à Paris pendant cinq ans.\nA: Tu y retournes parfois?",exampleEn:"A: Did you live in Paris?\nB: Yes, I lived in Paris for five years.\nA: Do you go back sometimes?",note:"Pendant + time = bounded duration.\nThe 5 years have a start and end.\nPC because the period is completed."},
+
+  {type:"teach",kind:"phrase",nl:"Tous les étés, nous allions à la mer.",en:"Every summer, we used to go to the sea.",phonetic:"too lay zay-TAY nooz ah-lee-ON ah lah MAIR",example:"A: Tu aimais la plage quand tu étais petit?\nB: Oui! Tous les étés, nous allions à la mer.\nA: C'étaient de bons souvenirs!",exampleEn:"A: Did you like the beach when you were little?\nB: Yes! Every summer, we used to go to the sea.\nA: Those were good memories!",note:"Tous les + time = repeated habit.\nAllions = imparfait of aller (nous).\nNo specific endpoint = unbounded."},
+
+  {type:"mc",q:"'J'ai travaillé pendant trois heures.' Why PC?",opts:["It was habitual","It has a specific time boundary","It was ongoing","It was interrupted"],ans:"It has a specific time boundary",hint:"Three hours = bounded period with an endpoint."},
+
+  {type:"fb",s:"Nous ___ là pendant deux semaines. (to stay, bounded)",a:"sommes restés",opts:["sommes restés","restions","restons","resterons"],hint:"We stayed there for two weeks. Bounded period = completed."},
+
+  {type:"mc",q:"'Tous les jours, elle ___ du piano.' (habitual)",opts:["A joué","Jouait","Joue","Jouera"],ans:"Jouait",hint:"Every day = repeated habit without a stated endpoint."},
+
+  {type:"fb",s:"Chaque été, ils ___ à la campagne. (to go, habitual)",a:"allaient",opts:["allaient","sont allés","vont","iront"],hint:"Every summer, they used to go. Habitual = unbounded."},
+
+  {type:"match",pairs:[{nl:"pendant 3 ans",en:"bounded → PC"},{nl:"tous les jours",en:"repeated → imparfait"},{nl:"pendant une heure",en:"bounded → PC"},{nl:"chaque matin",en:"repeated → imparfait"}]},
+
+  {type:"mc",q:"'De 2010 à 2015, j'___ en Allemagne.' Bounded period:",opts:["Habitais","Ai habité","Habite","Habiterai"],ans:"Ai habité",hint:"2010 to 2015 = clear start and end = bounded duration."},
+
+  {type:"fb",s:"Le samedi, on ___ au marché. (to go, habitual)",a:"allait",opts:["allait","est allé","va","ira"],hint:"On Saturdays, we used to go. Regular habit."},
+
+  {type:"mc",q:"Which is UNBOUNDED?",opts:["J'ai vécu là pendant 2 ans","J'ai attendu 30 minutes","On allait souvent au cinéma","Il a plu toute la journée"],ans:"On allait souvent au cinéma",hint:"Often = no specific time limit. A regular occurrence."},
+
+  {type:"fb",s:"Elle ___ le piano pendant dix ans. (to study, bounded)",a:"a étudié",opts:["a étudié","étudiait","étudie","étudiera"],hint:"She studied piano for ten years. Bounded with endpoint."},
+
+  {type:"match",pairs:[{nl:"souvent",en:"repeated (imparfait)"},{nl:"pendant 6 mois",en:"bounded (PC)"},{nl:"chaque week-end",en:"repeated (imparfait)"},{nl:"de mars à juin",en:"bounded (PC)"}]},
+
+  {type:"mc",q:"'Avant, je ___ beaucoup. Mais l'année dernière, j'___ complètement.' (to smoke / to stop)",opts:["fumais / ai arrêté","ai fumé / arrêtais","fumais / arrêtais","ai fumé / ai arrêté"],ans:"fumais / ai arrêté",hint:"Habitual smoking (no endpoint) vs. the moment of quitting (event)."},
+
+  {type:"fb",s:"Autrefois, les gens ___ des lettres. (to write, habitual past)",a:"écrivaient",opts:["écrivaient","ont écrit","écrivent","écriront"],hint:"In the old days, people used to write letters. Habitual."},
+
+  {type:"mc",q:"Summary: pendant + specific time →",opts:["Imparfait","Passé composé","Present","Either tense"],ans:"Passé composé",hint:"A specific duration = bounded = completed period."},
+
+  {type:"fb",s:"Chaque dimanche, ma grand-mère ___ un gâteau. (to make)",a:"faisait",opts:["faisait","a fait","fait","fera"],hint:"Every Sunday, my grandmother used to make a cake. Habit."},
+]},
+
+// ═══ L8: Comprehensive practice ═══
+{id:"fre12l8",title:"Pratique complète",icon:"🏆",xp:15,board:true,steps:[
+  {type:"intro",title:"Mastering the distinction",desc:"Comprehensive practice combining all the patterns: signal words, actions vs states, storytelling, interrupted actions, reasons, changed states, and duration.",goals:["Choose tenses fluently in any context","Build complex past narratives","Handle tricky cases with confidence"]},
+
+  {type:"tip",title:"Decision flowchart",text:"When choosing PC or imparfait, ask:\n\n1. Is it a STATE? (weather, emotion, description, age, time)\n   YES = imparfait\n\n2. Is it a HABIT with no clear endpoint?\n   YES = imparfait\n\n3. Did it HAPPEN once, at a specific time?\n   YES = passé composé\n\n4. Is it BOUNDED (pendant + time)?\n   YES = passé composé\n\n5. Does the verb CHANGE MEANING? (savoir, connaître...)\n   Ongoing state = imparfait\n   Moment of change = passé composé"},
+
+  {type:"mc",q:"'Hier, il ___ beau et les oiseaux ___.' (weather + description)",opts:["a fait / ont chanté","faisait / chantaient","a fait / chantaient","faisait / ont chanté"],ans:"faisait / chantaient",hint:"Weather + ongoing activity = two background descriptions."},
+
+  {type:"fb",s:"Soudain, le chien ___ dans la maison. (to enter, event)",a:"est entré",opts:["est entré","entrait","entre","entrera"],hint:"Suddenly = a specific, sudden event. Which tense for events?"},
+
+  {type:"mc",q:"'Je ___ un taxi parce que le bus ne ___ pas.' (take / come)",opts:["ai pris / venait","prenais / est venu","ai pris / est venu","prenais / venait"],ans:"ai pris / venait",hint:"Took a taxi (action) because bus wasn't coming (ongoing state/reason)."},
+
+  {type:"fb",s:"Elle ___ la nouvelle et elle ___ très surprise. (to learn / to be)",a:["a appris","était"],opts:["a appris","apprenait","était","a été"],hint:"She found out (moment) and was surprised (state)."},
+
+  {type:"match",pairs:[{nl:"Il pleuvait",en:"background (imparfait)"},{nl:"J'ai pris mon parapluie",en:"action (PC)"},{nl:"J'étais en retard",en:"state (imparfait)"},{nl:"J'ai couru",en:"action (PC)"}]},
+
+  {type:"mc",q:"'Pendant 10 ans, elle ___ professeur.' (bounded career)",opts:["Était","A été","Est","Sera"],ans:"A été",hint:"Ten years = bounded period with start and end."},
+
+  {type:"fb",s:"Quand j'___ 18 ans, j'___ à l'université. (have, age / enter, event)",a:["avais","suis entré"],opts:["avais","ai eu","suis entré","entrais"],hint:"I was 18 (age = state) when I entered (event)."},
+
+  {type:"mc",q:"'Avant, il ne ___ pas nager. Un jour, il ___ des cours.'",opts:["pouvait / a pris","a pu / prenait","savait / a pris","pouvait / prenait"],ans:"savait / a pris",hint:"Didn't know how (ongoing) + decided to take lessons (event)."},
+
+  {type:"fb",s:"Tous les soirs, nous ___ ensemble et nous ___ de notre journée. (eat / talk, habits)",a:["mangions","parlions"],opts:["mangions","avons mangé","parlions","avons parlé"],hint:"Every evening, we used to eat and talk. Two regular habits."},
+
+  {type:"match",pairs:[{nl:"J'ai su",en:"I found out"},{nl:"Je savais",en:"I knew (ongoing)"},{nl:"J'ai connu",en:"I met"},{nl:"Je connaissais",en:"I knew (person)"}]},
+
+  {type:"mc",q:"Complete the story: 'C'___ dimanche. Il ___ beau. J'___ de sortir.'",opts:["était / faisait / ai décidé","a été / a fait / ai décidé","était / faisait / décidais","a été / a fait / décidais"],ans:"était / faisait / ai décidé",hint:"Day + weather = scene setting. Decision = the event."},
+
+  {type:"fb",s:"Les enfants ___ quand il ___ à pleuvoir. (play, ongoing / start, event)",a:["jouaient","a commencé"],opts:["jouaient","ont joué","a commencé","commençait"],hint:"Kids were playing (scene) when rain started (sudden event)."},
+
+  {type:"mc",q:"Which is the trickiest case?",opts:["Weather = imparfait (always)","Emotions = imparfait (always)","Pendant + time = PC (bounded)","'J'ai su' = found out (change of state)"],ans:"'J'ai su' = found out (change of state)",hint:"State verbs changing meaning in PC is the most nuanced pattern."},
+
+  {type:"fb",s:"Il ___ tard et je ___ fatigué, alors je ___ couché. (be, time / be, state / go, event)",a:["était","étais","me suis"],opts:["était","a été","étais","me suis"],hint:"Late (time) + tired (state) + went to bed (action)."},
+
+  {type:"mc",q:"You've mastered the PC vs imparfait distinction! The key is recognizing:",opts:["Only signal words","Only verb forms","Context: events vs states/backgrounds","Only time expressions"],ans:"Context: events vs states/backgrounds",hint:"It's about understanding what role each verb plays in the story."},
+
+  {type:"fb",s:"C'___ le plus beau jour de ma vie quand j'___ obtenu mon diplôme. (be / have)",a:["était","ai"],opts:["était","a été","ai","avais"],hint:"It was the best day (state/description) when I got my diploma (event)."},
+]},
+]},
+
 ];
