@@ -5404,7 +5404,7 @@ VOCAB STATUS:
          {type:"fb",s:"Als ik het had ___, zou ik het anders hebben gedaan.",a:"geweten",opts:["geweten","weten","wist","kennen"],hint:"Past participle of 'weten'"},
          {type:"drag_fill",s:"{1} de beste winnen! {2} de koning!",blanks:{"1":"Moge","2":"Leve"},pool:["Moge","Leve","Zal","Kan"],hint:"MAY the best one win! Long LIVE the king!"},
          {type:"match",pairs:[{nl:"had moeten",en:"should have"},{nl:"had kunnen",en:"could have"},{nl:"had willen",en:"had wanted to"},{nl:"had beter kunnen",en:"better off doing"}]},
-         {type:"mc",q:"'Als het ware' means:",opts:["If it was","As it were / so to speak","If it could be","Was it true"],ans:"As it were / so to speak",hint:"A subjunctive fossil used to soften statements"},
+         {type:"mc",q:"'Moge de beste winnen!' uses which grammatical form?",opts:["Regular present tense","A subjunctive remnant","Past perfect","Conditional type 2"],ans:"A subjunctive remnant",hint:"An ancient verb form surviving only in fixed phrases"},
          {type:"fb",s:"___ ik maar beter opgelet op school!",a:"Had",opts:["Had","Heb","Was","Ben"],hint:"Past regret: ___ ik maar (which auxiliary?)"},
          {type:"mc",q:"In conditional type 3, the als-clause uses:",opts:["Present tense","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"Had + past participle for unreal past"},
          {type:"drag_fill",s:"Ik {1} moeten bellen. Ik {2} kunnen helpen.",blanks:{"1":"had","2":"had"},pool:["had","had","heb","heb"],hint:"I should have. I could have. Both use 'had'."},
@@ -5932,7 +5932,7 @@ VOCAB STATUS:
 {type:"drag_fill",s:"{1} de overheid maatregelen neemt, {2} het probleem niet opgelost, {3} de oorzaken dieper liggen.",blanks:{1:"Hoewel",2:"wordt",3:"doordat"},pool:["Hoewel","wordt","doordat","mits","tenzij"],hint:"Although measures are taken, the problem isn't solved, because the causes run deeper."},
 {type:"mc",q:"'Ofschoon' is een formeel synoniem van welk woord?",opts:["hoewel","mits","tenzij","zodat"],ans:"hoewel",hint:"Both express concession (although/even though)."},
 {type:"fb",s:"Je krijgt korting, {1} je een studentenkaart hebt.",a:"mits",opts:["mits","tenzij","hoewel","doordat"],hint:"The discount requires meeting a condition."},
-{type:"mc",q:"Welke zin is correct?",opts:["Tenzij je een paraplu meeneemt, word je nat.","Mits je een paraplu meeneemt, word je nat.","Hoewel je een paraplu meeneemt, word je nat.","Doordat je een paraplu meeneemt, word je nat."],ans:"Tenzij je een paraplu meeneemt, word je nat.",hint:"Without the umbrella, you get wet. The umbrella is the exception."},
+{type:"mc",q:"'Mits het droog blijft, gaan we picknicken.' What does 'mits' express?",opts:["A negative condition (unless)","A positive condition (provided that)","A contrast (although)","A cause (because)"],ans:"A positive condition (provided that)",hint:"Mits = on the condition that something positive happens"},
 {type:"fb",s:"{1} ik het er niet mee eens ben, respecteer ik je mening.",a:"Hoewel",opts:["Hoewel","Mits","Doordat","Zodat"],hint:"Acknowledging disagreement while showing respect."},
 {type:"mc",q:"'We gaan door, tenzij er onvoldoende aanmeldingen zijn.' What would cancel the event?",opts:["Not enough registrations","Good weather","Too many registrations","A positive condition"],ans:"Not enough registrations",hint:"Tenzij introduces the exception that would stop the plan."},
 ]},
@@ -6092,7 +6092,7 @@ VOCAB STATUS:
 
 // ═══ L3: Meningen Geven ═══
 {id:"v2u27l3",title:"Meningen Geven",icon:"🗣️",xp:20,board:true,steps:[
-  {type:"intro",title:"Meningen Geven",desc:"Beyond 'ik vind': formal opinion expressions for essays, meetings, and debates. 'Naar mijn mening', 'wat mij betreft', and 'ik ben van mening dat' elevate your Dutch to B2 level.",goals:["naar mijn mening (in my opinion)","wat mij betreft (as far as I'm concerned)","ik ben van mening dat (I am of the opinion that)","meines Erachtens (in my view, very formal)"]},
+  {type:"intro",title:"Meningen Geven",desc:"Beyond 'ik vind': formal opinion expressions for essays, meetings, and debates. 'Naar mijn mening', 'wat mij betreft', and 'ik ben van mening dat' elevate your Dutch to an advanced level.",goals:["naar mijn mening (in my opinion)","wat mij betreft (as far as I'm concerned)","ik ben van mening dat (I am of the opinion that)","meines Erachtens (in my view, very formal)"]},
   {type:"teach",kind:"phrase",nl:"naar mijn mening",en:"in my opinion",phonetic:"nahr mine MAY-ning",example:"A: Wat vind je van het klimaatbeleid?\nB: Naar mijn mening is het niet ambitieus genoeg.\nA: Waarom niet?\nB: Naar mijn mening moeten we sneller handelen.\nA: Daar kan ik me in vinden.",exampleEn:"A: What do you think of climate policy?\nB: In my opinion, it's not ambitious enough.\nA: Why not?\nB: In my opinion, we need to act faster.\nA: I can agree with that.",note:"Formal opinion phrase.\nAlternatives: 'volgens mij' (casual),\n'naar mijn idee' (neutral).\n'De mening' = the opinion."},
   {type:"teach",kind:"phrase",nl:"wat mij betreft",en:"as far as I'm concerned",phonetic:"vat may buh-TREFT",example:"A: Zullen we het plan aanpassen?\nB: Wat mij betreft wel.\nA: Wat mij betreft moeten we meer investeren.\nB: Wat mij betreft is dat de beste optie.\nA: Dan zijn we het eens!",exampleEn:"A: Shall we adjust the plan?\nB: As far as I'm concerned, yes.\nA: As far as I'm concerned, we need to invest more.\nB: As far as I'm concerned, that's the best option.\nA: Then we agree!",note:"Personal standpoint phrase.\n'Wat hem/haar betreft' = as far as he/she is concerned.\n'Wat betreft' alone = regarding/concerning.\nVery common in meetings and debates."},
   {type:"teach",kind:"phrase",nl:"ik ben van mening dat",en:"I am of the opinion that",phonetic:"ik ben van MAY-ning dat",example:"A: Wat is jouw standpunt?\nB: Ik ben van mening dat we meer moeten doen.\nA: Kun je dat toelichten?\nB: Ik ben van mening dat het onderwijs prioriteit moet zijn.\nA: Dat is een duidelijk standpunt.",exampleEn:"A: What is your position?\nB: I am of the opinion that we should do more.\nA: Can you elaborate?\nB: I am of the opinion that education should be a priority.\nA: That's a clear position.",note:"Very formal opinion expression.\nUsed in essays, formal debates, letters.\n'Van mening zijn dat...' = to be of the opinion that...\nFollowed by a subordinate clause."},
@@ -6213,7 +6213,7 @@ VOCAB STATUS:
   {type:"mc",q:"'Al met al was het een goede dag.' This means:",opts:["Not at all it was good","All in all it was a good day","At the end of the day","After all the problems"],ans:"All in all it was a good day",hint:"Al met al = taking everything together"},
   {type:"fb",s:"Ik _____ of dat realistisch is.",a:"betwijfel",opts:["betwijfel","geloof","weet","denk"],hint:"I DOUBT whether that's realistic"},
   {type:"drag_fill",s:"Am Telefon: 'Met {1} spreek ik?' Antwoord: 'U spreekt {2} De Vries.'",blanks:{"1":"wie","2":"met"},pool:["wie","met","wat","van"],hint:"WHO am I speaking with? You're speaking WITH De Vries."},
-  {type:"mc",q:"The difference between 'tenslotte' and 'ten slotte' is:",opts:["tenslotte = after all, ten slotte = lastly","No difference","tenslotte = lastly, ten slotte = after all","Both mean the same thing"],ans:"tenslotte = after all, ten slotte = lastly",hint:"One word = justification. Two words = final point in list."},
+  {type:"mc",q:"'Kortom' at the start of a conclusion means:",opts:["However","In short / in brief","For example","On the other hand"],ans:"In short / in brief",hint:"A concise summary connector that wraps up an argument"},
   {type:"fb",s:"_____ dan ook, we moeten een besluit nemen.",a:"Hoe",opts:["Hoe","Al","Per","Ten"],hint:"IN ANY CASE, we must make a decision"},
   {type:"match",pairs:[{nl:"naar mijn mening",en:"in my opinion"},{nl:"wat mij betreft",en:"as far as I'm concerned"},{nl:"dat klopt deels",en:"that's partly true"},{nl:"om eerlijk te zijn",en:"to be honest"}]},
   {type:"mc",q:"'Mag ik u doorverbinden met mijn collega?' You would hear this:",opts:["In a restaurant","On the phone","At a party","In a classroom"],ans:"On the phone",hint:"Doorverbinden = to transfer a phone call"},
@@ -6391,7 +6391,7 @@ VOCAB STATUS:
   {type:"match",pairs:[{nl:"door de zure appel bijten",en:"to tough it out"},{nl:"van een mug een olifant",en:"to exaggerate"},{nl:"met de noorderzon",en:"to vanish"},{nl:"door de vingers zien",en:"to turn a blind eye"}]},
   {type:"mc",q:"A metaphor is different from a simile because:",opts:["It uses 'als'","It has no comparison word like 'als/zoals'","It's always negative","It's only in poetry"],ans:"It has no comparison word like 'als/zoals'",hint:"Metaphor: direct. Simile: with connector."},
   {type:"fb",s:"'Niet slecht' als compliment is een _____.",a:"understatement",opts:["understatement","overdrijving","metafoor","vergelijking"],hint:"Saying LESS than you mean"},
-  {type:"mc",q:"'De Grote Drie' of Dutch literature are:",opts:["Reve, Mulisch, Hermans","Claus, Nooteboom, Wolkers","Anne Frank, Spinoza, Erasmus","Three bookstores in Amsterdam"],ans:"Reve, Mulisch, Hermans",hint:"The three giants of 20th-century Dutch literature"},
+  {type:"mc",q:"'Wie de schoen past, trekke hem aan' is best translated as:",opts:["Try new shoes before buying","If the shoe fits, wear it","Shoes are expensive in the Netherlands","Walking is good exercise"],ans:"If the shoe fits, wear it",hint:"A proverb about accepting criticism that applies to you"},
   {type:"fb",s:"De _____ van het verhaal is verrassend. Ik had het niet verwacht.",a:"ontknoping",opts:["ontknoping","spanning","recensie","metafoor"],hint:"The RESOLUTION of the story is surprising"},
   {type:"drag_fill",s:"'{1} west, thuis best.' 'Wie het {2} lacht, lacht het best.'",blanks:{"1":"Oost","2":"laatst"},pool:["Oost","laatst","niet","goed"],hint:"EAST west, home best. Who laughs LAST..."},
   {type:"mc",q:"'De spanning bouwt op' in a book means:",opts:["The voltage increases","The tension builds","The pages increase","The price goes up"],ans:"The tension builds",hint:"Spanning = tension/suspense in literary context"},
@@ -6534,7 +6534,7 @@ VOCAB STATUS:
   {type:"fb",s:"Het is niet zwart-wit. Het is _____ dan dat.",a:"genuanceerder",opts:["genuanceerder","eenvoudiger","sneller","duurder"],hint:"It's MORE NUANCED than that"},
   {type:"drag_fill",s:"{1} is onderwijs belangrijk. {2} kost het veel geld. Het {3} ervan af hoe je investeert.",blanks:{"1":"Enerzijds","2":"Anderzijds","3":"hangt"},pool:["Enerzijds","Anderzijds","hangt","staat"],hint:"ON ONE HAND important. ON THE OTHER expensive. It DEPENDS."},
   {type:"mc",q:"'Tot op zekere hoogte' means:",opts:["To a certain height","To a certain extent","Completely","Not at all"],ans:"To a certain extent",hint:"Hoogte = height/extent. Partially true."},
-  {type:"mc",q:"'Tot op zekere hoogte' means:",opts:["To the highest point","To a certain extent","Completely","Not at all"],ans:"To a certain extent",hint:"Hoogte = height/extent. Partially true."},
+  {type:"mc",q:"'Enerzijds... anderzijds...' is used to:",opts:["Give an example","Present two contrasting sides","Express strong agreement","Ask a rhetorical question"],ans:"Present two contrasting sides",hint:"On the one hand... on the other hand..."},
   {type:"fb",s:"Is het goed of slecht? Het is _____ dan dat.",a:"genuanceerder",opts:["genuanceerder","eenvoudiger","beter","slechter"],hint:"It's MORE NUANCED than good or bad"},
   {type:"mc",q:"Dutch debate culture values nuance because:",opts:["It avoids conflict","It shows intellectual maturity","It's easier","It's required by law"],ans:"It shows intellectual maturity",hint:"Seeing multiple sides = mature thinking"},
   {type:"fb",s:"Het _____ ervan af welk perspectief je kiest.",a:"hangt",opts:["hangt","gaat","staat","komt"],hint:"It DEPENDS on which perspective you choose"},
@@ -6564,7 +6564,7 @@ VOCAB STATUS:
 
 // ═══ L8: Het Grote Debat ═══
 {id:"v2u29l8",title:"Het Grote Debat",icon:"🏆",xp:35,board:true,steps:[
-  {type:"intro",title:"Het Grote Debat",desc:"Final comprehensive review of Unit 29 and all B2 argumentation skills. Every question requires combining multiple debate techniques: thesis, evidence, concession, counter, and conclusion.",goals:["Master all debate vocabulary","Combine all argumentation techniques","Apply to real Dutch topics","Advanced argumentation assessment"]},
+  {type:"intro",title:"Het Grote Debat",desc:"Final comprehensive review of Unit 29 and all advanced argumentation skills. Every question requires combining multiple debate techniques: thesis, evidence, concession, counter, and conclusion.",goals:["Master all debate vocabulary","Combine all argumentation techniques","Apply to real Dutch topics","Advanced argumentation assessment"]},
   {type:"mc",q:"A strong 'betoog' opens with:",opts:["The conclusion","A compelling introduction with thesis","A counter-argument","An apology"],ans:"A compelling introduction with thesis",hint:"Inleiding + stelling = strong opening"},
   {type:"fb",s:"Kun je je stelling _____? Geef feiten en bronnen.",a:"onderbouwen",opts:["onderbouwen","weerleggen","herhalen","vergeten"],hint:"Can you SUPPORT your thesis?"},
   {type:"mc",q:"'Weliswaar is het duur, maar het is noodzakelijk.' This is:",opts:["Pure agreement","Pure disagreement","Concession with counter","A question"],ans:"Concession with counter",hint:"Admittedly X, but Y"},
@@ -6587,7 +6587,7 @@ VOCAB STATUS:
 
 ]},
 
-{n:30,lang:"nl",track:"v2",title:"B2 Klaar!",sub:"NT2 Prep & C1 Preview",icon:"🎓",level:"B2.2",color:"#7B5EE8",lessons:[
+{n:30,lang:"nl",track:"v2",title:"Klaar!",sub:"NT2 Prep & C1 Preview",icon:"🎓",level:"B2.2",color:"#7B5EE8",lessons:[
 
 // ═══ L1: Examenvocabulaire ═══
   {id:"v2u30l1",title:"Examenvocabulaire",icon:"📝",xp:20,board:true,steps:[
@@ -6756,9 +6756,9 @@ VOCAB STATUS:
     {type:"match",pairs:[{nl:"de sleutelwoorden",en:"the keywords"},{nl:"de tijdsdruk",en:"the time pressure"},{nl:"de inleiding",en:"the introduction"},{nl:"de conclusie",en:"the conclusion"}]},
   ]},
 
-// ═══ L7: Wat Betekent B2? ═══
-  {id:"v2u30l7",title:"Wat Betekent B2?",icon:"🌍",xp:20,board:true,steps:[
-    {type:"intro",title:"Wat Betekent B2?",desc:"What can you actually DO at this level? This lesson connects your grammar knowledge to real-world Dutch situations. From reading newspapers to giving presentations, from debating to writing reports. You are B2.",goals:["Understand what you can do at this level","Apply grammar to real situations","Demonstrate functional competence","Self-assessment across all skills"]},
+// ═══ L7: Wat Kun Je Nu? ═══
+  {id:"v2u30l7",title:"Wat Kun Je Nu?",icon:"🌍",xp:20,board:true,steps:[
+    {type:"intro",title:"Wat Kun Je Nu?",desc:"What can you actually DO at this level? This lesson connects your grammar knowledge to real-world Dutch situations. From reading newspapers to giving presentations, from debating to writing reports. You are ready.",goals:["Understand what you can do at this level","Apply grammar to real situations","Demonstrate functional competence","Self-assessment across all skills"]},
 
     {type:"tip",title:"🌍 Wat Kun Je Nu?",text:"At this level, you can:\n\n📖 LEZEN:\nKranten, tijdschriften, en rapporten begrijpen.\nAcademische teksten met wat moeite volgen.\n\n👂 LUISTEREN:\nNieuwsuitzendingen en documentaires volgen.\nLezingen en presentaties begrijpen.\n\n✍️ SCHRIJVEN:\nFormele brieven en rapporten schrijven.\nArgumenten helder opbouwen.\nSamenvattingen maken.\n\n🗣️ SPREKEN:\nDeelnemen aan discussies en debatten.\nPresentaties geven over bekende onderwerpen.\nMeningen onderbouwen met argumenten.\n\nDit is het NT2 Programma II niveau.\nJe kunt studeren aan een Nederlandse universiteit.\nJe kunt werken in een Nederlandstalige omgeving.",deepDive:{title:"The Dutch certification landscape",text:"NT2 Staatsexamen:\nThe official Dutch language exam for non-native speakers.\nProgramma I = practical/vocational professions.\nProgramma II = higher education/university admission.\n\nInburgeringsexamen:\nRequired for permanent residence/citizenship.\nLower level than NT2.\n\nCNaVT:\nCertificaat Nederlands als Vreemde Taal.\nInternational Dutch certificate.\nFive levels, from beginner to advanced.\n\nWith your current knowledge, you are well-prepared\nfor NT2 Programma II and the highest CNaVT levels."}},
 
@@ -6780,9 +6780,9 @@ VOCAB STATUS:
     {type:"match",pairs:[{nl:"deelnemen aan discussies",en:"participate in discussions"},{nl:"presentaties geven",en:"give presentations"},{nl:"meningen onderbouwen",en:"support opinions"},{nl:"samenvattingen maken",en:"make summaries"}]},
   ]},
 
-// ═══ L8: 🎉 B2 Klaar! ═══
-  {id:"v2u30l8",title:"B2 Klaar!",icon:"🏆",xp:25,board:true,steps:[
-    {type:"intro",title:"B2 Klaar!",desc:"Je hebt het gehaald! From 'Hallo' to academic discourse, from 'Ik ben...' to 'Desalniettemin zou gesteld kunnen worden dat...' This is your Grand Finale. Twenty mixed questions covering everything from A1 to B2. Prove that you are ready.",goals:["Celebrate your B2 achievement","20 comprehensive mixed review questions","Grammar from all levels combined","Your complete Dutch journey in one lesson"]},
+// ═══ L8: 🎉 Klaar! ═══
+  {id:"v2u30l8",title:"Klaar!",icon:"🏆",xp:25,board:true,steps:[
+    {type:"intro",title:"Klaar!",desc:"Je hebt het gehaald! From 'Hallo' to academic discourse, from 'Ik ben...' to 'Desalniettemin zou gesteld kunnen worden dat...' This is your Grand Finale. Twenty mixed questions covering everything you have learned. Prove that you are ready.",goals:["Celebrate your achievement","20 comprehensive mixed review questions","Grammar from all levels combined","Your complete Dutch journey in one lesson"]},
 
     {type:"mc",q:"'Wij ___ blij.'",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which auxiliary do motion/state verbs take in perfect tense?"},
     {type:"fb",s:"Ik ___ een student.",a:"ben",opts:["ben","bent","is","zijn"],hint:"First person singular of 'zijn'"},
@@ -6796,7 +6796,7 @@ VOCAB STATUS:
     {type:"mc",q:"PP of 'ontdekken' (inseparable prefix):",opts:["ontdekt","geontdekt","ontdekte","geontdekken"],ans:"ontdekt",hint:"Inseparable prefixes: no ge-!"},
     {type:"drag_fill",s:"Zij zei {1} zij morgen zou {2}.",blanks:{"1":"dat","2":"komen"},pool:["dat","komen","of","ging"],hint:"She said THAT she would come tomorrow (indirect speech)."},
     {type:"fb",s:"De ___ bevolking werkt hard. (working: present participle)",a:"werkende",opts:["werkende","gewerkte","werkend","werkde"],hint:"Present participle as adjective: werkend + e"},
-    {type:"mc",q:"'Desalniettemin' means:",opts:["Therefore","Because","Nevertheless","Meanwhile"],ans:"Nevertheless",hint:"Des-al-niet-te-min = despite everything"},
+    {type:"mc",q:"'Derhalve' is the formal equivalent of:",opts:["maar toch","daarom","desondanks","bovendien"],ans:"daarom",hint:"The everyday word for 'therefore'"},
     {type:"fb",s:"Over een jaar zal ik het examen hebben ___. (passed)",a:"gehaald",opts:["gehaald","halen","gehaalt","halend"],hint:"Future perfect: zal + hebben + PP"},
     {type:"match",pairs:[{nl:"hallo",en:"hello"},{nl:"hoewel",en:"although"},{nl:"desalniettemin",en:"nevertheless"},{nl:"derhalve",en:"therefore"}]},
     {type:"mc",q:"In 'het boek dat ik heb gelezen', why 'dat'?",opts:["Boek is a de-word","Boek is a het-word","Boek is plural","Dat always replaces nouns"],ans:"Boek is a het-word",hint:"Het-words use 'dat', de-words use 'die'"},
