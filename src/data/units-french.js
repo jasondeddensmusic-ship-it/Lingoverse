@@ -2588,4 +2588,324 @@ export default [
 ]},
 ]},
 
+// ═══════════════════════════════════════════════
+//  UNIT 9 — Le passé composé (avoir)
+//  Level: A2.1 | Lessons: 8 | Track: v1
+// ═══════════════════════════════════════════════
+
+{n:9,lang:"fr",track:"v1",title:"Le passé composé",sub:"Past Tense with avoir",icon:"⏮️",level:"A2.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Le passé composé ═══
+{id:"fre9l1",title:"Le passé composé",icon:"⏮️",xp:15,board:true,steps:[
+  {type:"intro",title:"Le passé composé: talking about the past",desc:"The passé composé is THE past tense for completed actions. It has two parts: a helper verb (avoir or être) + a past participle. Most verbs use avoir.",goals:["Understand the two-part structure","Form basic past participles","Say what you did yesterday"]},
+
+  {type:"tip",title:"How it works",text:"Subject + AVOIR (conjugated) + past participle\n\nJ'ai mangé = I ate / I have eaten\nTu as parlé = You spoke\nIl a regardé = He watched\n\nAvoir does the heavy lifting.\nThe past participle carries the meaning.\nThis is the #1 past tense in spoken French."},
+
+  {type:"teach",kind:"phrase",nl:"j'ai mangé",en:"I ate / I have eaten",phonetic:"zhay mahn-ZHAY",example:"A: Tu as mangé?\nB: Oui, j'ai mangé une pizza.\nA: À quelle heure?",exampleEn:"A: Did you eat?\nB: Yes, I ate a pizza.\nA: At what time?",note:"J'ai = je + ai (elision before vowel).\nMangé = past participle of manger.\n-er verbs: remove -er, add -é."},
+
+  {type:"teach",kind:"phrase",nl:"tu as parlé",en:"you spoke / you have spoken",phonetic:"tew ah par-LAY",example:"A: Tu as parlé au professeur?\nB: Oui, j'ai parlé avec lui.\nA: Et alors?",exampleEn:"A: Did you talk to the teacher?\nB: Yes, I talked with him.\nA: And?",note:"Tu as = you have (informal).\nParlé = past participle of parler.\nSame -é pattern as mangé."},
+
+  {type:"teach",kind:"phrase",nl:"il a regardé",en:"he watched / he has watched",phonetic:"eel ah ruh-gar-DAY",example:"A: Il a regardé le match?\nB: Oui, il a regardé toute la soirée!\nA: Et le résultat?",exampleEn:"A: Did he watch the game?\nB: Yes, he watched all evening!\nA: And the result?",note:"Il a = he has.\nRegardé = past participle of regarder.\nAll -er verbs follow this pattern."},
+
+  {type:"teach",kind:"phrase",nl:"nous avons travaillé",en:"we worked",phonetic:"nooz ah-VON trah-vah-YAY",example:"A: Vous avez travaillé hier?\nB: Oui, nous avons travaillé toute la journée.\nA: Vous êtes fatigués!",exampleEn:"A: Did you work yesterday?\nB: Yes, we worked all day.\nA: You must be tired!",note:"Nous avons = we have.\nTravaillé = worked.\nThe avoir part changes, the participle stays the same."},
+
+  {type:"teach",kind:"phrase",nl:"ils ont écouté",en:"they listened",phonetic:"eelz ont ay-koo-TAY",example:"A: Les étudiants ont écouté?\nB: Oui, ils ont bien écouté.\nA: Parfait!",exampleEn:"A: Did the students listen?\nB: Yes, they listened well.\nA: Perfect!",note:"Ils ont = they have.\nÉcouté = listened.\nWith avoir, the participle NEVER changes for gender/number."},
+
+  {type:"mc",q:"The passé composé is formed with:",opts:["Just a past participle","Être + participle always","Avoir + past participle (usually)","A special verb ending"],ans:"Avoir + past participle (usually)",hint:"Two parts: a conjugated helper + the main verb's past form."},
+
+  {type:"fb",s:"J'___ mangé une pizza hier.",a:"ai",opts:["ai","as","a","ont"],hint:"I have: je + which form of avoir?"},
+
+  {type:"match",pairs:[{nl:"j'ai mangé",en:"I ate"},{nl:"tu as parlé",en:"you spoke"},{nl:"il a regardé",en:"he watched"},{nl:"nous avons travaillé",en:"we worked"}]},
+
+  {type:"mc",q:"For -er verbs, the past participle ends in:",opts:["-é","-i","-u","-is"],ans:"-é",hint:"Manger -> mangé. Parler -> parlé. What ending do they share?"},
+
+  {type:"fb",s:"Elle ___ regardé un film.",a:"a",opts:["a","ai","as","ont"],hint:"She has: elle + which form of avoir?"},
+
+  {type:"mc",q:"In 'nous avons travaillé', what changes for different subjects?",opts:["The past participle","The helper verb avoir","Both parts","Nothing"],ans:"The helper verb avoir",hint:"Avoir is conjugated for the subject. The participle stays the same."},
+
+  {type:"fb",s:"Ils ___ écouté la musique.",a:"ont",opts:["ont","avons","avez","a"],hint:"They have: ils + which form of avoir?"},
+
+  {type:"match",pairs:[{nl:"j'ai",en:"I have"},{nl:"tu as",en:"you have"},{nl:"il/elle a",en:"he/she has"},{nl:"ils/elles ont",en:"they have"}]},
+
+  {type:"mc",q:"'Vous avez dansé' means:",opts:["You will dance","You are dancing","You danced","You dance"],ans:"You danced",hint:"Avez + participle = completed past action."},
+
+  {type:"fb",s:"Tu ___ regardé la télé hier soir?",a:"as",opts:["as","ai","a","avez"],hint:"You (informal) have: tu + which form?"},
+
+  {type:"mc",q:"Which is a correct passé composé sentence?",opts:["Je mangé hier","J'ai mangé hier","J'ai manger hier","Je suis mangé"],ans:"J'ai mangé hier",hint:"Helper + correct participle. Not infinitive, not alone."},
+]},
+
+// ═══ L2: Participes réguliers ═══
+{id:"fre9l2",title:"Participes réguliers",icon:"📝",xp:15,board:true,steps:[
+  {type:"intro",title:"Les participes passés réguliers",desc:"Three regular patterns for past participles: -er verbs end in -é, -ir verbs in -i, -re verbs in -u. Master these and you can form most past tenses.",goals:["Convert -er verbs to -é participles","Convert -ir verbs to -i participles","Convert -re verbs to -u participles"]},
+
+  {type:"tip",title:"Three regular patterns",text:"-er verbs: drop -er, add -é\nmanger -> mangé, parler -> parlé\n\n-ir verbs: drop -ir, add -i\nfinir -> fini, choisir -> choisi\n\n-re verbs: drop -re, add -u\nvendre -> vendu, attendre -> attendu\n\nThese three patterns cover hundreds of verbs."},
+
+  {type:"teach",kind:"word",nl:"fini",en:"finished (past participle)",phonetic:"fee-NEE",example:"A: Tu as fini tes devoirs?\nB: Oui, j'ai fini il y a une heure.\nA: Bravo!",exampleEn:"A: Did you finish your homework?\nB: Yes, I finished an hour ago.\nA: Well done!",note:"From finir (to finish). -ir -> -i.\nJ'ai fini = I finished."},
+
+  {type:"teach",kind:"word",nl:"choisi",en:"chosen (past participle)",phonetic:"shwah-ZEE",example:"A: Tu as choisi un restaurant?\nB: Oui, j'ai choisi le restaurant italien.\nA: Bonne idée!",exampleEn:"A: Did you choose a restaurant?\nB: Yes, I chose the Italian restaurant.\nA: Good idea!",note:"From choisir (to choose). -ir -> -i.\nJ'ai choisi = I chose."},
+
+  {type:"teach",kind:"word",nl:"vendu",en:"sold (past participle)",phonetic:"vahn-DEW",example:"A: Tu as vendu ta voiture?\nB: Oui, j'ai vendu ma vieille voiture.\nA: Pour combien?",exampleEn:"A: Did you sell your car?\nB: Yes, I sold my old car.\nA: For how much?",note:"From vendre (to sell). -re -> -u.\nJ'ai vendu = I sold."},
+
+  {type:"teach",kind:"word",nl:"attendu",en:"waited (past participle)",phonetic:"ah-tahn-DEW",example:"A: Vous avez attendu longtemps?\nB: Oui, nous avons attendu une heure!\nA: C'est long.",exampleEn:"A: Did you wait long?\nB: Yes, we waited an hour!\nA: That's long.",note:"From attendre (to wait). -re -> -u.\nJ'ai attendu = I waited."},
+
+  {type:"teach",kind:"word",nl:"répondu",en:"answered (past participle)",phonetic:"ray-pon-DEW",example:"A: Il a répondu à ton message?\nB: Non, il n'a pas encore répondu.\nA: Appelle-le!",exampleEn:"A: Did he answer your message?\nB: No, he hasn't answered yet.\nA: Call him!",note:"From répondre (to answer). -re -> -u.\nRépondre à = to answer (something)."},
+
+  {type:"mc",q:"The past participle of 'parler' (to speak) is:",opts:["Parlé","Parli","Parlu","Parlée"],ans:"Parlé",hint:"-er verbs always form participles with the same ending."},
+
+  {type:"fb",s:"J'ai ___ mes devoirs. (to finish)",a:"fini",opts:["fini","finir","finé","finu"],hint:"Second group verb (-ir). Drop the last two letters and add -i."},
+
+  {type:"match",pairs:[{nl:"-er -> -é",en:"mangé, parlé"},{nl:"-ir -> -i",en:"fini, choisi"},{nl:"-re -> -u",en:"vendu, attendu"}]},
+
+  {type:"mc",q:"'Attendre' becomes which past participle?",opts:["Attendé","Attendi","Attendu","Attendré"],ans:"Attendu",hint:"-re verbs drop -re and add a specific vowel ending."},
+
+  {type:"fb",s:"Elle a ___ une robe bleue. (to choose)",a:"choisi",opts:["choisi","choisé","choisu","choisir"],hint:"Choose: an -ir verb. What ending replaces -ir?"},
+
+  {type:"mc",q:"Which set shows ALL correct participles?",opts:["mangé, fini, vendu","mangé, fini, vendé","mangé, finié, vendu","mangé, finir, vendre"],ans:"mangé, fini, vendu",hint:"Each verb group has its own pattern: -é, -i, -u."},
+
+  {type:"fb",s:"Nous avons ___ la maison l'année dernière. (to sell)",a:"vendu",opts:["vendu","vendé","vendi","vendre"],hint:"Sell is an -re verb. -re -> which ending?"},
+
+  {type:"match",pairs:[{nl:"j'ai fini",en:"I finished"},{nl:"tu as choisi",en:"you chose"},{nl:"il a vendu",en:"he sold"},{nl:"elle a répondu",en:"she answered"}]},
+
+  {type:"mc",q:"'Répondre' -> 'répondu'. This follows the pattern of:",opts:["-er verbs","-ir verbs","-re verbs","Irregular verbs"],ans:"-re verbs",hint:"Répondre ends in -re, so it follows that group's rule."},
+
+  {type:"fb",s:"Tu as ___ au téléphone? (to answer)",a:"répondu",opts:["répondu","répondé","répondi","répondre"],hint:"Answer is an -re verb. -re becomes -u."},
+
+  {type:"mc",q:"How many regular past participle patterns are there?",opts:["One","Two","Three","Four"],ans:"Three",hint:"One for each verb group: -er, -ir, -re."},
+]},
+
+// ═══ L3: Avoir au passé (full conjugation) ═══
+{id:"fre9l3",title:"Avoir au passé",icon:"🔄",xp:15,board:true,steps:[
+  {type:"intro",title:"Full passé composé conjugation with avoir",desc:"Practice the complete conjugation pattern. Remember: avoir changes for each person, the past participle stays the same.",goals:["Conjugate passé composé for all persons","Choose correct avoir form quickly","Build fluency with all subjects"]},
+
+  {type:"tip",title:"Complete avoir conjugation in passé composé",text:"j'ai mangé = I ate\ntu as mangé = you ate\nil/elle/on a mangé = he/she/one ate\nnous avons mangé = we ate\nvous avez mangé = you ate (formal/pl)\nils/elles ont mangé = they ate\n\nOnly avoir changes. The participle is fixed."},
+
+  {type:"teach",kind:"phrase",nl:"vous avez voyagé",en:"you traveled",phonetic:"vooz ah-VAY vwah-yah-ZHAY",example:"A: Vous avez voyagé cet été?\nB: Oui, nous avons voyagé en Espagne.\nA: C'était bien?",exampleEn:"A: Did you travel this summer?\nB: Yes, we traveled to Spain.\nA: Was it nice?",note:"Vous avez = you have (formal/plural).\nVoyagé = traveled (regular -er)."},
+
+  {type:"teach",kind:"phrase",nl:"on a dîné",en:"we had dinner",phonetic:"on ah dee-NAY",example:"A: On a dîné au restaurant hier.\nB: Quel restaurant?\nA: Le petit italien en face de la gare.",exampleEn:"A: We had dinner at the restaurant yesterday.\nB: Which restaurant?\nA: The little Italian one across from the station.",note:"On = we (informal, very common).\nOn a = on + a (third person singular)."},
+
+  {type:"teach",kind:"phrase",nl:"elles ont dansé",en:"they (f.) danced",phonetic:"elz ont dahn-SAY",example:"A: Les filles ont dansé toute la nuit!\nB: Elles ont dansé jusqu'à quelle heure?\nA: Jusqu'à trois heures du matin!",exampleEn:"A: The girls danced all night!\nB: They danced until what time?\nA: Until three in the morning!",note:"Elles ont = they (feminine) have.\nWith avoir, the participle stays unchanged\nregardless of subject gender."},
+
+  {type:"mc",q:"In passé composé with avoir, the past participle:",opts:["Changes for feminine","Changes for plural","Never changes","Sometimes changes"],ans:"Never changes",hint:"With avoir, the participle form is fixed for all subjects."},
+
+  {type:"fb",s:"J'___ travaillé hier.",a:"ai",opts:["ai","as","a","avons"],hint:"I have: first person singular of avoir."},
+
+  {type:"mc",q:"'On a dîné' uses 'a' because 'on' conjugates like:",opts:["Je","Nous","Il/elle","Vous"],ans:"Il/elle",hint:"On takes third person singular, same as he/she."},
+
+  {type:"fb",s:"Nous ___ regardé un film ensemble.",a:"avons",opts:["avons","avez","ont","ai"],hint:"We have: nous + which form?"},
+
+  {type:"match",pairs:[{nl:"j'ai parlé",en:"I spoke"},{nl:"tu as dansé",en:"you danced"},{nl:"nous avons mangé",en:"we ate"},{nl:"vous avez voyagé",en:"you traveled"}]},
+
+  {type:"fb",s:"Elles ___ chanté une chanson.",a:"ont",opts:["ont","avons","avez","a"],hint:"They (f.) have: elles + which form?"},
+
+  {type:"mc",q:"Which is correct?",opts:["Elle a mangée","Elle a mangé","Elle a manger","Elle ai mangé"],ans:"Elle a mangé",hint:"With avoir, the participle does NOT agree with the subject."},
+
+  {type:"fb",s:"Tu ___ fini ton café?",a:"as",opts:["as","ai","a","avez"],hint:"You (informal) have: tu + which form?"},
+
+  {type:"match",pairs:[{nl:"il a choisi",en:"he chose"},{nl:"elle a fini",en:"she finished"},{nl:"on a vendu",en:"we sold"},{nl:"ils ont attendu",en:"they waited"}]},
+
+  {type:"mc",q:"'Nous avons voyagé en France' is in which tense?",opts:["Present","Future","Passé composé","Imparfait"],ans:"Passé composé",hint:"Avons (avoir) + voyagé (participle) = compound past."},
+
+  {type:"fb",s:"Il ___ acheté un nouveau téléphone.",a:"a",opts:["a","ai","as","ont"],hint:"He has: il + which form of avoir?"},
+
+  {type:"mc",q:"Why does 'on' use 'a' and not 'avons'?",opts:["On is informal","On conjugates like il/elle","On is plural","On means I"],ans:"On conjugates like il/elle",hint:"Despite meaning 'we' informally, on is grammatically third person."},
+
+  {type:"fb",s:"Vous ___ aimé le spectacle?",a:"avez",opts:["avez","avons","ont","as"],hint:"You (formal/plural) have: vous + which form?"},
+]},
+
+// ═══ L4: Participes irréguliers ═══
+{id:"fre9l4",title:"Participes irréguliers",icon:"⚡",xp:15,board:true,steps:[
+  {type:"intro",title:"Les participes passés irréguliers",desc:"Many common verbs have irregular past participles that don't follow the -é/-i/-u pattern. These must be memorized, but they're used so often you'll learn them fast.",goals:["Learn 10 key irregular participles","Use them in passé composé sentences","Recognize patterns among irregulars"]},
+
+  {type:"teach",kind:"word",nl:"fait",en:"done / made (past participle)",phonetic:"FEH",example:"A: Qu'est-ce que tu as fait hier?\nB: J'ai fait du sport.\nA: Quel sport?",exampleEn:"A: What did you do yesterday?\nB: I did some sport.\nA: Which sport?",note:"From faire (to do/make).\nJ'ai fait = I did/made.\nOne of the most used participles."},
+
+  {type:"teach",kind:"word",nl:"pris",en:"taken (past participle)",phonetic:"PREE",example:"A: Tu as pris le métro?\nB: Non, j'ai pris le bus.\nA: C'est plus rapide.",exampleEn:"A: Did you take the metro?\nB: No, I took the bus.\nA: That's faster.",note:"From prendre (to take).\nJ'ai pris = I took.\nAlso: appris (learned), compris (understood)."},
+
+  {type:"teach",kind:"word",nl:"bu",en:"drunk (past participle)",phonetic:"BEW",example:"A: Tu as bu du café?\nB: Oui, j'ai bu trois cafés!\nA: C'est trop!",exampleEn:"A: Did you drink coffee?\nB: Yes, I drank three coffees!\nA: That's too much!",note:"From boire (to drink).\nJ'ai bu = I drank.\nShort and simple."},
+
+  {type:"teach",kind:"word",nl:"vu",en:"seen (past participle)",phonetic:"VEW",example:"A: Tu as vu le nouveau film?\nB: Oui, j'ai vu le film hier.\nA: Il est bien?",exampleEn:"A: Did you see the new movie?\nB: Yes, I saw the movie yesterday.\nA: Is it good?",note:"From voir (to see).\nJ'ai vu = I saw.\nAnother short, common participle."},
+
+  {type:"teach",kind:"word",nl:"eu",en:"had (past participle)",phonetic:"EW",example:"A: Tu as eu des problèmes?\nB: Non, je n'ai pas eu de problèmes.\nA: Tant mieux!",exampleEn:"A: Did you have problems?\nB: No, I didn't have any problems.\nA: Good!",note:"From avoir (to have).\nJ'ai eu = I had.\nAvoir having its own participle!"},
+
+  {type:"teach",kind:"word",nl:"dit",en:"said / told (past participle)",phonetic:"DEE",example:"A: Qu'est-ce qu'il a dit?\nB: Il a dit oui!\nA: Vraiment?",exampleEn:"A: What did he say?\nB: He said yes!\nA: Really?",note:"From dire (to say/tell).\nJ'ai dit = I said.\nIl m'a dit = he told me."},
+
+  {type:"teach",kind:"word",nl:"écrit",en:"written (past participle)",phonetic:"ay-KREE",example:"A: Tu as écrit à Marie?\nB: Oui, j'ai écrit un e-mail.\nA: Elle a répondu?",exampleEn:"A: Did you write to Marie?\nB: Yes, I wrote an email.\nA: Did she reply?",note:"From écrire (to write).\nJ'ai écrit = I wrote."},
+
+  {type:"teach",kind:"word",nl:"lu",en:"read (past participle)",phonetic:"LEW",example:"A: Tu as lu ce livre?\nB: Oui, j'ai lu tout le livre en un jour.\nA: Il est intéressant?",exampleEn:"A: Did you read this book?\nB: Yes, I read the whole book in one day.\nA: Is it interesting?",note:"From lire (to read).\nJ'ai lu = I read (past).\nAnother short -u participle."},
+
+  {type:"match",pairs:[{nl:"fait",en:"done/made"},{nl:"pris",en:"taken"},{nl:"bu",en:"drunk"},{nl:"vu",en:"seen"}]},
+
+  {type:"mc",q:"The past participle of 'faire' is:",opts:["Faisé","Fai","Fait","Fairu"],ans:"Fait",hint:"One of the most common irregular participles. Short and unique."},
+
+  {type:"fb",s:"J'ai ___ un bon livre cette semaine. (to read)",a:"lu",opts:["lu","lire","li","lué"],hint:"Read (past). From lire. A short two-letter participle."},
+
+  {type:"match",pairs:[{nl:"eu",en:"had"},{nl:"dit",en:"said"},{nl:"écrit",en:"written"},{nl:"lu",en:"read"}]},
+
+  {type:"mc",q:"'J'ai pris le bus' means:",opts:["I will take the bus","I'm taking the bus","I took the bus","I take the bus"],ans:"I took the bus",hint:"Ai + participle = completed past action."},
+
+  {type:"fb",s:"Qu'est-ce que tu as ___? (to do/make)",a:"fait",opts:["fait","faire","fais","faité"],hint:"What did you do? The irregular participle of faire."},
+
+  {type:"mc",q:"'Boire' (to drink) has the past participle:",opts:["Boi","Boiré","Bu","Bué"],ans:"Bu",hint:"Very short, just two letters. Irregular."},
+
+  {type:"fb",s:"Elle a ___ un message. (to write)",a:"écrit",opts:["écrit","écrire","écri","écrivé"],hint:"She wrote a message. From écrire."},
+
+  {type:"mc",q:"Which pair is correct?",opts:["Voir -> vu, lire -> lu","Voir -> vi, lire -> li","Voir -> voiru, lire -> liré","Voir -> voi, lire -> lir"],ans:"Voir -> vu, lire -> lu",hint:"Both are short -u participles from common verbs."},
+]},
+
+// ═══ L5: Hier et avant-hier ═══
+{id:"fre9l5",title:"Hier et avant-hier",icon:"📅",xp:15,board:true,steps:[
+  {type:"intro",title:"Time expressions for the past",desc:"To use passé composé naturally, you need time markers: yesterday, last week, two days ago. These words tell the listener WHEN it happened.",goals:["Use hier, avant-hier, la semaine dernière","Learn il y a + time period","Place time expressions in sentences"]},
+
+  {type:"teach",kind:"word",nl:"hier",en:"yesterday",phonetic:"ee-EHR",example:"A: Tu as travaillé hier?\nB: Non, hier c'était dimanche!\nA: Ah oui, c'est vrai.",exampleEn:"A: Did you work yesterday?\nB: No, yesterday was Sunday!\nA: Oh right, true.",note:"Yesterday. Most common past time word.\nHier soir = yesterday evening.\nHier matin = yesterday morning."},
+
+  {type:"teach",kind:"word",nl:"avant-hier",en:"the day before yesterday",phonetic:"ah-vahn-tee-EHR",example:"A: Quand est-ce que tu l'as vu?\nB: Avant-hier, au supermarché.\nA: Ah, il y a deux jours.",exampleEn:"A: When did you see him?\nB: The day before yesterday, at the supermarket.\nA: Ah, two days ago.",note:"The day before yesterday.\nAvant = before + hier = yesterday."},
+
+  {type:"teach",kind:"phrase",nl:"la semaine dernière",en:"last week",phonetic:"lah suh-MEN dehr-nee-EHR",example:"A: Tu as vu Marie?\nB: Oui, la semaine dernière.\nA: Comment va-t-elle?",exampleEn:"A: Did you see Marie?\nB: Yes, last week.\nA: How is she?",note:"Last week. Dernière = last (feminine).\nLe mois dernier = last month.\nL'année dernière = last year."},
+
+  {type:"teach",kind:"phrase",nl:"il y a + time",en:"ago",phonetic:"eel ee ah",example:"A: Tu as déménagé quand?\nB: Il y a trois mois.\nA: Tu aimes ton nouvel appartement?",exampleEn:"A: When did you move?\nB: Three months ago.\nA: Do you like your new apartment?",note:"Il y a + duration = ago.\nIl y a deux jours = two days ago.\nIl y a un an = a year ago.\nSame 'il y a' as 'there is'!"},
+
+  {type:"teach",kind:"phrase",nl:"ce matin",en:"this morning",phonetic:"suh mah-TAN",example:"A: Tu as pris le bus ce matin?\nB: Non, j'ai marché.\nA: Il fait beau!",exampleEn:"A: Did you take the bus this morning?\nB: No, I walked.\nA: The weather is nice!",note:"This morning. Can be past (already happened today).\nCet après-midi = this afternoon.\nCe soir = this evening (future/past)."},
+
+  {type:"mc",q:"'Il y a trois jours' means:",opts:["In three days","Three days ago","For three days","After three days"],ans:"Three days ago",hint:"Il y a + time = ago. Looking backward."},
+
+  {type:"fb",s:"J'ai mangé au restaurant ___. (yesterday)",a:"hier",opts:["hier","demain","aujourd'hui","avant-hier"],hint:"The most common word for the day before today."},
+
+  {type:"match",pairs:[{nl:"hier",en:"yesterday"},{nl:"avant-hier",en:"day before yesterday"},{nl:"la semaine dernière",en:"last week"},{nl:"il y a deux jours",en:"two days ago"}]},
+
+  {type:"mc",q:"'L'année dernière, j'ai voyagé en Italie' uses 'dernière' because:",opts:["It sounds better","Année is feminine","It is plural","It is past tense"],ans:"Année is feminine",hint:"Dernier (masc.) / dernière (fem.) agrees with the noun."},
+
+  {type:"fb",s:"Il y ___ une semaine, j'ai commencé un nouveau travail.",a:"a",opts:["a","y","est","ai"],hint:"One week ago. Il y ___ + time = ago."},
+
+  {type:"mc",q:"Which correctly places the time expression?",opts:["J'ai hier mangé","Hier mangé j'ai","J'ai mangé hier","Hier j'ai mangé"],ans:"J'ai mangé hier",hint:"Time expressions usually go at the end, but can also start the sentence."},
+
+  {type:"fb",s:"___ matin, j'ai pris le métro.",a:"Ce",opts:["Ce","Cette","Hier","Le"],hint:"This morning. Masculine demonstrative + matin."},
+
+  {type:"match",pairs:[{nl:"hier soir",en:"yesterday evening"},{nl:"hier matin",en:"yesterday morning"},{nl:"ce matin",en:"this morning"},{nl:"le mois dernier",en:"last month"}]},
+
+  {type:"mc",q:"'Il y a' for time (ago) is the same phrase as:",opts:["He went","It is cold","There is/are","He has"],ans:"There is/are",hint:"Same three words, different meaning in time contexts."},
+
+  {type:"fb",s:"Nous avons déménagé il y a trois ___.",a:"mois",opts:["mois","ans","semaines","jours"],hint:"We moved three months ago. What word means months?"},
+
+  {type:"mc",q:"To say 'two hours ago':",opts:["Avant deux heures","Il y a deux heures","Deux heures passé","Hier deux heures"],ans:"Il y a deux heures",hint:"Il y a + time period = ago. Always this structure."},
+
+  {type:"fb",s:"La semaine ___, j'ai visité Paris.",a:"dernière",opts:["dernière","dernier","passée","avant"],hint:"Last week. Semaine is feminine, so the adjective must match."},
+]},
+
+// ═══ L6: Le négatif au passé ═══
+{id:"fre9l6",title:"Le négatif au passé",icon:"🚫",xp:15,board:true,steps:[
+  {type:"intro",title:"Negation in passé composé",desc:"To say you DIDN'T do something: ne goes before avoir, pas goes after avoir (before the participle). The ne...pas wraps around avoir.",goals:["Form negative passé composé","Place ne...pas correctly around avoir","Handle elision with je/il/elle"]},
+
+  {type:"tip",title:"Negative passé composé structure",text:"Subject + NE + avoir + PAS + past participle\n\nJe n'ai pas mangé = I didn't eat\nTu n'as pas fini = You didn't finish\nIl n'a pas vu = He didn't see\nNous n'avons pas compris = We didn't understand\n\nne...pas wraps around AVOIR, not the participle.\nArticles after pas become de/d'."},
+
+  {type:"teach",kind:"phrase",nl:"je n'ai pas mangé",en:"I didn't eat",phonetic:"zhuh nay pah mahn-ZHAY",example:"A: Tu as mangé?\nB: Non, je n'ai pas mangé.\nA: Tu as faim?",exampleEn:"A: Did you eat?\nB: No, I didn't eat.\nA: Are you hungry?",note:"Ne + ai + pas + participle.\nN' before ai (elision before vowel)."},
+
+  {type:"teach",kind:"phrase",nl:"il n'a pas compris",en:"he didn't understand",phonetic:"eel nah pah kom-PREE",example:"A: Il a compris l'exercice?\nB: Non, il n'a pas compris.\nA: Je vais lui expliquer.",exampleEn:"A: Did he understand the exercise?\nB: No, he didn't understand.\nA: I'll explain it to him.",note:"Compris = understood (from comprendre).\nNegation sandwich around a."},
+
+  {type:"teach",kind:"phrase",nl:"nous n'avons pas vu",en:"we didn't see",phonetic:"noo nah-VON pah VEW",example:"A: Vous avez vu le match?\nB: Non, nous n'avons pas vu le match.\nA: Dommage!",exampleEn:"A: Did you see the game?\nB: No, we didn't see the game.\nA: Too bad!",note:"N' before avons.\nPas comes right after avons.\nVu is the participle of voir."},
+
+  {type:"mc",q:"In negative passé composé, ne...pas wraps around:",opts:["The past participle","The subject","The helper verb avoir","The whole sentence"],ans:"The helper verb avoir",hint:"Ne goes BEFORE avoir, pas goes AFTER avoir."},
+
+  {type:"fb",s:"Je n'ai ___ mangé ce matin.",a:"pas",opts:["pas","ne","plus","rien"],hint:"I didn't eat. The second part of negation goes after avoir."},
+
+  {type:"mc",q:"'Elle n'a pas fini' means:",opts:["She finished","She will finish","She didn't finish","She is finishing"],ans:"She didn't finish",hint:"N'a pas + participle = didn't + verb."},
+
+  {type:"fb",s:"Tu ___ as pas regardé le film?",a:"n'",opts:["n'","ne","ni","na"],hint:"You didn't watch? Before 'as' (vowel), ne becomes..."},
+
+  {type:"match",pairs:[{nl:"je n'ai pas mangé",en:"I didn't eat"},{nl:"tu n'as pas vu",en:"you didn't see"},{nl:"il n'a pas dit",en:"he didn't say"},{nl:"nous n'avons pas lu",en:"we didn't read"}]},
+
+  {type:"mc",q:"'Ils n'ont pas aimé le film' means:",opts:["They loved the film","They didn't like the film","They haven't seen the film","They like films"],ans:"They didn't like the film",hint:"N'ont pas + participle = didn't + verb."},
+
+  {type:"fb",s:"Nous n'avons pas ___ de pizza. (to eat)",a:"mangé",opts:["mangé","manger","mange","mangeais"],hint:"We didn't eat pizza. The past participle of manger."},
+
+  {type:"mc",q:"In spoken French, which part of negation is often dropped?",opts:["Pas","Ne","The participle","Avoir"],ans:"Ne",hint:"J'ai pas mangé is very common in casual speech."},
+
+  {type:"fb",s:"Elle n'___ pas compris la question.",a:"a",opts:["a","ai","as","ont"],hint:"She didn't understand. Elle + which form of avoir?"},
+
+  {type:"match",pairs:[{nl:"je n'ai pas bu",en:"I didn't drink"},{nl:"elle n'a pas écrit",en:"she didn't write"},{nl:"ils n'ont pas fait",en:"they didn't do"},{nl:"vous n'avez pas pris",en:"you didn't take"}]},
+
+  {type:"mc",q:"After 'pas', articles change. 'Je n'ai pas mangé DE pain' uses 'de' because:",opts:["Pain is masculine","Negation changes articles to de","De sounds better","It is a question"],ans:"Negation changes articles to de",hint:"Same rule as present tense: after pas, un/une/du/de la become de."},
+
+  {type:"fb",s:"Vous n'___ pas voyagé cet été?",a:"avez",opts:["avez","avons","ont","as"],hint:"You (formal) didn't travel? Vous + which form?"},
+
+  {type:"mc",q:"Which sentence is grammatically correct?",opts:["Je n'ai mangé pas","Je ne pas ai mangé","Je n'ai pas mangé","Je pas n'ai mangé"],ans:"Je n'ai pas mangé",hint:"ne/n' before avoir, pas after avoir. Fixed order."},
+]},
+
+// ═══ L7: Questions au passé ═══
+{id:"fre9l7",title:"Questions au passé",icon:"❓",xp:15,board:true,steps:[
+  {type:"intro",title:"Questions au passé composé",desc:"Ask about the past: Did you eat? What did you do? Where did you go? The question patterns from present tense work the same way with passé composé.",goals:["Form yes/no questions about the past","Use question words with passé composé","Ask and answer fluently about past events"]},
+
+  {type:"teach",kind:"phrase",nl:"Est-ce que tu as mangé?",en:"Did you eat?",phonetic:"es kuh tew ah mahn-ZHAY",example:"A: Est-ce que tu as mangé?\nB: Oui, j'ai mangé il y a une heure.\nA: Parfait.",exampleEn:"A: Did you eat?\nB: Yes, I ate an hour ago.\nA: Perfect.",note:"Est-ce que + subject + avoir + participle?\nSame est-ce que as present tense.\nJust add passé composé after it."},
+
+  {type:"teach",kind:"phrase",nl:"Qu'est-ce que tu as fait?",en:"What did you do?",phonetic:"kes kuh tew ah FEH",example:"A: Qu'est-ce que tu as fait ce week-end?\nB: J'ai visité un musée.\nA: Lequel?",exampleEn:"A: What did you do this weekend?\nB: I visited a museum.\nA: Which one?",note:"Qu'est-ce que = what.\nQu'est-ce que + passé composé = what did you...?\nThe most common past question."},
+
+  {type:"teach",kind:"phrase",nl:"Où est-ce que tu as dormi?",en:"Where did you sleep?",phonetic:"oo es kuh tew ah dor-MEE",example:"A: Où est-ce que tu as dormi?\nB: J'ai dormi chez un ami.\nA: C'était bien?",exampleEn:"A: Where did you sleep?\nB: I slept at a friend's place.\nA: Was it nice?",note:"Où = where.\nOù + est-ce que + passé composé.\nDormi = slept (from dormir, -ir -> -i)."},
+
+  {type:"teach",kind:"phrase",nl:"Quand est-ce que tu as commencé?",en:"When did you start?",phonetic:"kahn es kuh tew ah koh-mahn-SAY",example:"A: Quand est-ce que tu as commencé le français?\nB: J'ai commencé il y a six mois.\nA: Ton français est déjà bon!",exampleEn:"A: When did you start French?\nB: I started six months ago.\nA: Your French is already good!",note:"Quand = when.\nCommencé = started (regular -er).\nQuand + est-ce que works for past too."},
+
+  {type:"tip",title:"Question patterns in passé composé",text:"Yes/no: Est-ce que tu as mangé?\nIntonation only: Tu as mangé? (rising voice)\n\nWith question words:\nQu'est-ce que tu as fait? = What did you do?\nOù est-ce que tu as mangé? = Where did you eat?\nQuand est-ce que tu as fini? = When did you finish?\nComment est-ce que tu as trouvé? = How did you find?\nPourquoi est-ce que tu as dit ça? = Why did you say that?"},
+
+  {type:"mc",q:"'Qu'est-ce que tu as fait?' asks:",opts:["Where did you go?","What did you do?","When did you finish?","How did you do?"],ans:"What did you do?",hint:"Qu'est-ce que = what. The most common past question."},
+
+  {type:"fb",s:"___-ce que tu as mangé?",a:"Est",opts:["Est","Et","Qu'est","Où"],hint:"Did you eat? The yes/no question starter."},
+
+  {type:"match",pairs:[{nl:"Qu'est-ce que",en:"What"},{nl:"Où est-ce que",en:"Where"},{nl:"Quand est-ce que",en:"When"},{nl:"Pourquoi est-ce que",en:"Why"}]},
+
+  {type:"mc",q:"To ask 'Where did you eat?', you say:",opts:["Où tu as mangé?","Où est-ce que tu as mangé?","Tu as mangé où est-ce que?","Est-ce que où tu as mangé?"],ans:"Où est-ce que tu as mangé?",hint:"Question word + est-ce que + subject + passé composé."},
+
+  {type:"fb",s:"Qu'est-ce que vous avez ___ hier soir? (to do)",a:"fait",opts:["fait","faire","fais","faites"],hint:"What did you do? Irregular past participle of faire."},
+
+  {type:"mc",q:"'Tu as aimé le film?' is a question formed by:",opts:["Adding est-ce que","Using rising intonation","Inverting subject and verb","Adding quand"],ans:"Using rising intonation",hint:"Same as a statement, but your voice goes up at the end."},
+
+  {type:"fb",s:"___ est-ce que tu as dormi? Chez un ami?",a:"Où",opts:["Où","Quand","Comment","Pourquoi"],hint:"___did you sleep? At a friend's? Asking about location."},
+
+  {type:"match",pairs:[{nl:"Tu as mangé?",en:"Did you eat? (intonation)"},{nl:"Est-ce que tu as mangé?",en:"Did you eat? (formal)"},{nl:"Qu'est-ce que tu as mangé?",en:"What did you eat?"},{nl:"Où est-ce que tu as mangé?",en:"Where did you eat?"}]},
+
+  {type:"mc",q:"'Pourquoi est-ce que tu as dit ça?' asks:",opts:["What did you say?","When did you say it?","Why did you say that?","How did you say it?"],ans:"Why did you say that?",hint:"Pourquoi = why. Ça = that."},
+
+  {type:"fb",s:"___ est-ce que tu as commencé le français?",a:"Quand",opts:["Quand","Où","Comment","Qu'est-ce que"],hint:"___ did you start French? Asking about time."},
+
+  {type:"mc",q:"Which response fits 'Qu'est-ce que tu as fait ce week-end?'",opts:["Oui, j'ai fait","J'ai visité un musée","Hier soir","Au restaurant"],ans:"J'ai visité un musée",hint:"The question asks WHAT you did. Answer with an activity."},
+
+  {type:"fb",s:"Comment est-ce que tu ___ trouvé le film?",a:"as",opts:["as","ai","a","avez"],hint:"How did you find the movie? Tu + which form of avoir?"},
+]},
+
+// ═══ L8: Révision Unit 9 ═══
+{id:"fre9l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 9 Review",desc:"Review the passé composé with avoir: regular and irregular participles, negation, time expressions, and questions. This is the foundation of French past tense.",goals:["Review all passé composé forms","Test irregular participles","Combine negation and questions"]},
+
+  {type:"mc",q:"The passé composé is formed with:",opts:["Subject + participle","Subject + avoir + participle","Subject + être + infinitive","Subject + verb + -é"],ans:"Subject + avoir + participle",hint:"Two parts: a conjugated helper + the past form of the verb."},
+
+  {type:"fb",s:"J'ai ___ un bon film hier. (to see)",a:"vu",opts:["vu","voir","vois","voyé"],hint:"Irregular participle of voir. Short, two letters."},
+
+  {type:"match",pairs:[{nl:"mangé",en:"eaten (-er)"},{nl:"fini",en:"finished (-ir)"},{nl:"vendu",en:"sold (-re)"},{nl:"fait",en:"done (irreg.)"}]},
+
+  {type:"mc",q:"'Il n'a pas compris' means:",opts:["He understood","He will understand","He didn't understand","He understands"],ans:"He didn't understand",hint:"N'a pas + participle = didn't + verb."},
+
+  {type:"fb",s:"Nous n'avons ___ mangé au restaurant.",a:"pas",opts:["pas","ne","plus","rien"],hint:"We didn't eat at the restaurant. Second negation word."},
+
+  {type:"mc",q:"'Il y a deux semaines' means:",opts:["In two weeks","Two weeks ago","For two weeks","Every two weeks"],ans:"Two weeks ago",hint:"Il y a + time = ago. Looking backward."},
+
+  {type:"fb",s:"Qu'est-ce que tu as ___ ce week-end? (to do)",a:"fait",opts:["fait","faire","fais","faité"],hint:"What did you do? The irregular participle of faire."},
+
+  {type:"match",pairs:[{nl:"pris",en:"taken"},{nl:"bu",en:"drunk"},{nl:"dit",en:"said"},{nl:"écrit",en:"written"}]},
+
+  {type:"mc",q:"With avoir, the past participle:",opts:["Agrees with the subject","Never changes","Agrees with the object","Changes for tense"],ans:"Never changes",hint:"Unlike être verbs, avoir participles stay the same for all subjects."},
+
+  {type:"fb",s:"Elle a ___ trois livres la semaine dernière. (to read)",a:"lu",opts:["lu","lire","lué","li"],hint:"She read three books. From lire: short irregular participle."},
+
+  {type:"mc",q:"To ask 'What did you eat?':",opts:["Qu'est-ce que tu as mangé?","Tu as mangé quoi est-ce?","Mangé tu as qu'est-ce que?","Est-ce que qu'est tu as mangé?"],ans:"Qu'est-ce que tu as mangé?",hint:"Question word + subject + passé composé. Standard order."},
+
+  {type:"fb",s:"Hier, j'ai ___ un café et un croissant. (to take/have)",a:"pris",opts:["pris","prendre","prendé","prendu"],hint:"I had a coffee. From prendre: irregular participle."},
+
+  {type:"match",pairs:[{nl:"hier",en:"yesterday"},{nl:"la semaine dernière",en:"last week"},{nl:"il y a un mois",en:"a month ago"},{nl:"avant-hier",en:"day before yesterday"}]},
+
+  {type:"mc",q:"'Vous n'avez pas voyagé cet été?' expects:",opts:["A location","A yes or no answer","A time","A name"],ans:"A yes or no answer",hint:"Est-ce que (even without the words) + negation = expecting yes/no."},
+
+  {type:"fb",s:"___ est-ce que vous avez visité?",a:"Qu'",opts:["Qu'","Où","Quand","Comment"],hint:"What did you visit? The question word for 'what'."},
+
+  {type:"mc",q:"Which shows correct negation?",opts:["Je n'ai pas bu","Je ne pas ai bu","Je n'ai bu pas","Pas je n'ai bu"],ans:"Je n'ai pas bu",hint:"ne/n' before avoir, pas after avoir. Always this order."},
+
+  {type:"fb",s:"Elles ont ___ toute la nuit. (to dance)",a:"dansé",opts:["dansé","danser","dansée","dansés"],hint:"They danced. Regular -er past participle. With avoir: no agreement."},
+]},
+]},
+
 ];
