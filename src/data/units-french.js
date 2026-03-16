@@ -664,4 +664,324 @@ export default [
 ]},
 ]},
 
+// ══════════════════════════════════════════════════════════════
+// UNIT 3: LA FAMILLE - Family, Possessives & the Agreement Web
+// Possessives (mon/ma/mes, ton/ta/tes, son/sa/ses), descriptions
+// P26: Agreement Web formally named and taught
+// ══════════════════════════════════════════════════════════════
+{n:3,lang:"fr",track:"v1",title:"La famille",sub:"Family, Possessives & Descriptions",icon:"👨‍👩‍👧‍👦",level:"A1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: La famille proche ═══
+{id:"fre3l1",title:"La famille proche",icon:"👨‍👩‍👧‍👦",xp:15,board:true,steps:[
+  {type:"intro",title:"La famille proche",desc:"Learn the core family vocabulary. Every noun has a gender, and family words come in natural pairs: le père / la mère, le frère / la soeur.",goals:["Name 8 core family members","Notice masculine/feminine pairs","Use le/la articles with family nouns"]},
+
+  {type:"teach",kind:"word",nl:"le père",en:"the father",phonetic:"luh PEHR",example:"A: Comment s'appelle ton père?\nB: Mon père s'appelle Jean.\nA: Il est sympa?",exampleEn:"A: What is your father's name?\nB: My father's name is Jean.\nA: Is he nice?",note:"Le père = the father (masculine: le).\nPère sounds like English PAIR.\nInformal: papa (same as English papa/daddy)."},
+
+  {type:"teach",kind:"word",nl:"la mère",en:"the mother",phonetic:"lah MEHR",example:"A: Ta mère est française?\nB: Oui, ma mère est française.\nA: Et ton père?",exampleEn:"A: Is your mother French?\nB: Yes, my mother is French.\nA: And your father?",note:"La mère = the mother (feminine: la).\nMère sounds like English MARE.\nInformal: maman (same as English mama)."},
+
+  {type:"teach",kind:"word",nl:"le frère",en:"the brother",phonetic:"luh FREHR",example:"A: Tu as des frères?\nB: J'ai un frère. Il a quinze ans.\nA: Il est plus jeune que toi?",exampleEn:"A: Do you have brothers?\nB: I have one brother. He is fifteen.\nA: Is he younger than you?",note:"Le frère = the brother (masculine).\nThe accent grave (è) makes the E say EH.\nDes frères = brothers (plural, the S is silent)."},
+
+  {type:"teach",kind:"word",nl:"la soeur",en:"the sister",phonetic:"lah SUHR",example:"A: Et des soeurs?\nB: J'ai deux soeurs. Elles sont grandes.\nA: Une grande famille!",exampleEn:"A: And sisters?\nB: I have two sisters. They are tall.\nA: A big family!",note:"La soeur = the sister (feminine).\nThe OE combination sounds like UH.\nDes soeurs = sisters (plural)."},
+
+  {type:"teach",kind:"word",nl:"le fils / la fille",en:"the son / the daughter",phonetic:"luh FEES / lah FEE-yuh",example:"A: Vous avez des enfants?\nB: Oui, j'ai un fils et une fille.\nA: Quel âge ont-ils?",exampleEn:"A: Do you have children?\nB: Yes, I have a son and a daughter.\nA: How old are they?",note:"Le fils = the son. The L is silent! Sounds like FEES.\nLa fille = the daughter. Also means girl.\nLes enfants = the children (masculine plural, even if mixed)."},
+
+  {type:"teach",kind:"word",nl:"le mari / la femme",en:"the husband / the wife",phonetic:"luh mah-REE / lah FAHM",example:"A: Je vous présente ma femme, Sophie.\nB: Enchanté, Sophie!\nA: Et voici mon mari, Pierre.",exampleEn:"A: Let me introduce my wife, Sophie.\nB: Nice to meet you, Sophie!\nA: And here is my husband, Pierre.",note:"Le mari = the husband (masculine).\nLa femme = the wife AND the woman (context tells you which).\nModern alternative: l'époux / l'épouse (spouse, more formal)."},
+
+  {type:"tip",title:"Le or La? Gender is Built Into Family",text:"Family words come in natural gender pairs:\n\nle père (father) / la mère (mother)\nle frère (brother) / la soeur (sister)\nle fils (son) / la fille (daughter)\nle mari (husband) / la femme (wife)\n\nFor these, gender is biological AND grammatical.\nBut most French nouns have grammatical gender with no biological reason: le livre (book, masc), la table (table, fem).\n\nAlways learn the article WITH the noun: never just mère, always la mère.",deepDive:{title:"Why learn the article?",text:"In French, you cannot use a noun correctly without knowing its gender. The article (le/la), the adjective form, and the pronoun all depend on gender.\n\nle grand frère (the big brother) vs la grande soeur (the big sister)\nmon père (my father) vs ma mère (my mother)\nil est... (he is) vs elle est... (she is)\n\nIf you learn words without their articles, you will struggle with agreement forever. Start right: always le or la."}},
+
+  {type:"mc",q:"'La soeur' means:",opts:["The brother","The sister","The mother","The daughter"],ans:"The sister",hint:"La signals feminine. Soeur is the female sibling."},
+
+  {type:"mc",q:"The L in 'fils' (son) is:",opts:["Pronounced","Silent","Doubled","Nasal"],ans:"Silent",hint:"Fils sounds like FEES. The L disappears."},
+
+  {type:"fb",s:"J'ai un ___ et une soeur.",a:"frère",opts:["frère","père","fils","mari"],hint:"One male sibling and one female sibling."},
+
+  {type:"mc",q:"'La femme' can mean both:",opts:["Wife and sister","Mother and wife","Wife and woman","Daughter and wife"],ans:"Wife and woman",hint:"Context tells you which meaning applies."},
+
+  {type:"match",pairs:[{nl:"le père",en:"the father"},{nl:"la mère",en:"the mother"},{nl:"le frère",en:"the brother"},{nl:"la soeur",en:"the sister"}]},
+
+  {type:"mc",q:"Why should you always learn 'le/la' with every noun?",opts:["It sounds formal","Gender affects articles, adjectives, and pronouns","It is optional","Teachers require it"],ans:"Gender affects articles, adjectives, and pronouns",hint:"The article determines how everything else agrees."},
+
+  {type:"fb",s:"Vous avez des enfants? Oui, j'ai un ___ et une fille.",a:"fils",opts:["fils","frère","père","ami"],hint:"One male child: the word for son."},
+
+  {type:"mc",q:"'Les enfants' (the children) uses 'les' because:",opts:["It is feminine","It is plural","It is formal","It is masculine"],ans:"It is plural",hint:"Les = the (plural). Works for both masculine and feminine."},
+
+  {type:"mc",q:"The informal word for 'mother' is:",opts:["Mère","Femme","Maman","Madame"],ans:"Maman",hint:"Like English mama/mommy. Used in families."},
+
+  {type:"fb",s:"J'ai un ___ et deux soeurs.",a:"frère",opts:["frère","fils","père","ami"],hint:"One male sibling: the word for brother."},
+]},
+
+// ═══ L2: Les possessifs ═══
+{id:"fre3l2",title:"Les possessifs",icon:"🏷️",xp:15,board:true,steps:[
+  {type:"intro",title:"Les possessifs",desc:"My, your, his/her: French possessives agree with the THING OWNED, not the owner. This is the biggest source of confusion for English speakers.",goals:["Use mon/ma/mes (my)","Use ton/ta/tes (your, casual)","Understand: possessive matches the noun, not the person"]},
+
+  {type:"teach",kind:"word",nl:"mon / ma / mes",en:"my (m/f/plural)",phonetic:"MON / MAH / MAY",example:"A: C'est ton chien?\nB: Oui, c'est mon chien.\nA: Et ta maison est grande?\nB: Ma maison est petite mais mes enfants l'adorent.",exampleEn:"A: Is that your dog?\nB: Yes, it's my dog.\nA: And your house is big?\nB: My house is small but my children love it.",note:"Mon = my (before masculine nouns): mon père, mon frère.\nMa = my (before feminine nouns): ma mère, ma soeur.\nMes = my (before ALL plurals): mes parents, mes soeurs."},
+
+  {type:"teach",kind:"word",nl:"ton / ta / tes",en:"your (m/f/plural, informal)",phonetic:"TON / TAH / TAY",example:"A: Comment s'appelle ton père?\nB: Mon père s'appelle Marc.\nA: Et ta mère?\nB: Ma mère s'appelle Claire.",exampleEn:"A: What is your father's name?\nB: My father's name is Marc.\nA: And your mother?\nB: My mother's name is Claire.",note:"Ton = your (before masculine nouns): ton père.\nTa = your (before feminine nouns): ta mère.\nTes = your (before ALL plurals): tes parents.\nThese are the tu forms. Formal = votre/vos."},
+
+  {type:"teach",kind:"word",nl:"son / sa / ses",en:"his, her, its (m/f/plural)",phonetic:"SON / SAH / SAY",example:"A: Marie aime son travail.\nB: Et son mari?\nA: Son mari aime sa voiture!\nB: Et ses enfants?",exampleEn:"A: Marie loves her job.\nB: And her husband?\nA: Her husband loves his car!\nB: And their children?",note:"CRITICAL: son/sa/ses match the NOUN, not the owner.\nSon père = his father OR her father.\nSa mère = his mother OR her mother.\nFrench does not distinguish his from her!"},
+
+  {type:"tip",title:"The Great Confusion: Son = His AND Her",text:"English: his father / her father (we know the owner's gender).\nFrench: son père / son père (we only know the NOUN is masculine).\n\nMarie aime son père. = Marie loves her father.\nPierre aime son père. = Pierre loves his father.\n\nBoth use SON because père is masculine.\nThe possessive matches the THING, not the PERSON.\n\nThis will feel wrong. Practice until it clicks.",deepDive:{title:"Why does French work this way?",text:"Latin possessives agreed with the possessed noun, not the possessor. French inherited this system.\n\nThe logic: the possessive is an adjective modifying the noun. Like all French adjectives, it agrees with the noun it modifies, not with something else in the sentence.\n\nThis is the Agreement Web: everything connected to a noun matches that noun's gender and number.\n\nSpanish (su), Italian (suo/sua), and Portuguese (seu/sua) all work the same way."}},
+
+  {type:"teach",kind:"word",nl:"mon amie (not ma amie)",en:"my friend (feminine, before vowel)",phonetic:"mon ah-MEE",example:"A: Tu connais Sophie?\nB: Oui, c'est mon amie.\nA: Elle est sympa!",exampleEn:"A: Do you know Sophie?\nB: Yes, she is my friend.\nA: She is nice!",note:"EXCEPTION: before feminine nouns starting with a vowel,\nuse MON instead of MA for pronunciation.\nMon amie (not ma amie). Mon école (not ma école).\nThis avoids two vowel sounds colliding."},
+
+  {type:"teach",kind:"word",nl:"votre / vos",en:"your (formal/plural)",phonetic:"VOTR / VOH",example:"A: Votre nom, s'il vous plaît?\nB: Dupont. Et votre profession?\nA: Je suis médecin. Vos enfants vont bien?",exampleEn:"A: Your name, please?\nB: Dupont. And your profession?\nA: I am a doctor. Are your children well?",note:"Votre = your (singular, formal): votre père, votre mère.\nVos = your (plural, formal): vos parents, vos enfants.\nVotre works for BOTH masculine and feminine singular."},
+
+  {type:"mc",q:"'Ma soeur' means my sister. Why 'ma' and not 'mon'?",opts:["I am female","Soeur is feminine","Ma sounds better","It is informal"],ans:"Soeur is feminine",hint:"The possessive matches the noun's gender, not yours."},
+
+  {type:"mc",q:"Marie talks about her father. She says:",opts:["Sa père","Son père","Son père (because Marie is female)","Mon père"],ans:"Son père",hint:"Père is masculine, so it takes son. The owner's gender does not matter."},
+
+  {type:"fb",s:"Comment s'appelle ___ mère? Ma mère s'appelle Claire.",a:"ta",opts:["ta","ton","tes","votre"],hint:"Your (casual) before a feminine noun."},
+
+  {type:"mc",q:"Why do we say 'mon amie' instead of 'ma amie'?",opts:["Amie is masculine","To avoid two vowels colliding","It is more formal","Mon is always correct"],ans:"To avoid two vowels colliding",hint:"Ma + vowel sound is hard to pronounce. Mon replaces ma."},
+
+  {type:"match",pairs:[{nl:"mon/ma/mes",en:"my"},{nl:"ton/ta/tes",en:"your (informal)"},{nl:"son/sa/ses",en:"his/her"},{nl:"votre/vos",en:"your (formal)"}]},
+
+  {type:"mc",q:"'Ses parents' means:",opts:["Only his parents","Only her parents","His OR her parents","Your parents"],ans:"His OR her parents",hint:"Ses matches the plural noun. Owner could be he or she."},
+
+  {type:"fb",s:"___ enfants sont à l'école. (formal: your children)",a:"Vos",opts:["Vos","Votre","Tes","Mes"],hint:"Formal your before a plural noun."},
+
+  {type:"mc",q:"'Ton père' uses ton because:",opts:["You are male","Père is masculine","Ton is always for family","It is plural"],ans:"Père is masculine",hint:"The possessive matches the noun, not the speaker."},
+
+  {type:"mc",q:"Which is the correct set for 'my'?",opts:["mon, ma, mes","mon, mon, mon","le, la, les","un, une, des"],ans:"mon, ma, mes",hint:"Three forms: masculine, feminine, plural."},
+
+  {type:"fb",s:"Pierre aime ___ voiture. (his car, la voiture)",a:"sa",opts:["sa","son","ses","la"],hint:"His car: voiture is feminine, so the possessive is feminine."},
+
+  {type:"mc",q:"'Votre maison' uses votre (not vos) because:",opts:["Maison is masculine","Maison is singular","Votre is more formal","It is a question"],ans:"Maison is singular",hint:"Votre = formal singular. Vos = formal plural."},
+]},
+
+// ═══ L3: Décrire les gens ═══
+{id:"fre3l3",title:"Décrire les gens",icon:"🎨",xp:15,board:true,steps:[
+  {type:"intro",title:"Décrire les gens",desc:"Describe people using adjectives. In French, most adjectives come AFTER the noun and must agree in gender and number. This is the Agreement Web.",goals:["Use 6 common adjectives","Place adjectives correctly (after the noun)","Make adjectives agree with gender"]},
+
+  {type:"teach",kind:"word",nl:"grand / grande",en:"tall, big (m/f)",phonetic:"GRON / GROND",example:"A: Ton frère est grand?\nB: Oui, il est très grand.\nA: Et ta soeur?\nB: Elle est grande aussi.",exampleEn:"A: Is your brother tall?\nB: Yes, he is very tall.\nA: And your sister?\nB: She is tall too.",note:"Grand = tall/big (masculine). Grande = feminine.\nThe D is silent in grand (GRON).\nThe D is pronounced in grande (GROND).\nThis is the same pattern as allemand/allemande."},
+
+  {type:"teach",kind:"word",nl:"petit / petite",en:"small, short (m/f)",phonetic:"puh-TEE / puh-TEET",example:"A: Ta fille est petite?\nB: Oui, elle est petite. Elle a trois ans.\nA: Comme c'est mignon!",exampleEn:"A: Is your daughter small?\nB: Yes, she is small. She is three.\nA: How cute!",note:"Petit = small (masculine). Petite = feminine.\nThe T is silent in petit (puh-TEE).\nThe T is pronounced in petite (puh-TEET).\nAgreement Web: silent letter becomes audible with -e."},
+
+  {type:"teach",kind:"word",nl:"jeune",en:"young",phonetic:"ZHUHN",example:"A: Elle est jeune?\nB: Oui, elle est très jeune. Elle a vingt ans.\nA: C'est jeune!",exampleEn:"A: Is she young?\nB: Yes, she is very young. She is twenty.\nA: That's young!",note:"Jeune = young. Same form for masculine AND feminine.\nAlready ends in -e, so no change needed.\nLike belge, suisse, and other adjectives ending in -e."},
+
+  {type:"teach",kind:"word",nl:"gentil / gentille",en:"nice, kind (m/f)",phonetic:"zhon-TEE / zhon-TEE-yuh",example:"A: Ton père est gentil?\nB: Oui, il est très gentil.\nA: Et ta mère?\nB: Elle est gentille aussi!",exampleEn:"A: Is your father nice?\nB: Yes, he is very nice.\nA: And your mother?\nB: She is nice too!",note:"Gentil = nice (masculine). Gentille = feminine.\nPronunciation changes: TEE becomes TEE-yuh.\nThe double L + E creates a Y sound."},
+
+  {type:"teach",kind:"word",nl:"sympa",en:"nice, cool (informal)",phonetic:"sam-PAH",example:"A: Tes parents sont sympas?\nB: Oui, ils sont très sympas!\nA: Tu as de la chance.",exampleEn:"A: Are your parents nice?\nB: Yes, they are very nice!\nA: You are lucky.",note:"Sympa = short for sympathique. Very common in speech.\nSame form for masculine and feminine: il est sympa, elle est sympa.\nPlural: sympas (add S, still silent)."},
+
+  {type:"tip",title:"The Agreement Web: Adjectives",text:"French adjectives must AGREE with the noun in gender and number:\n\nMasculine singular: Il est grand.\nFeminine singular: Elle est grande. (+e)\nMasculine plural: Ils sont grands. (+s)\nFeminine plural: Elles sont grandes. (+es)\n\nPattern: +e for feminine, +s for plural, +es for feminine plural.\nException: adjectives already ending in -e (jeune, sympa) do not add another -e.\n\nThe Agreement Web connects nouns, articles, possessives, AND adjectives. Everything must match.",deepDive:{title:"Why is this called the Agreement Web?",text:"In English, adjectives never change: a tall man, a tall woman, tall men, tall women.\n\nIn French, the adjective is caught in a web of agreement. It must match:\n1. The gender of the noun (masculine or feminine)\n2. The number of the noun (singular or plural)\n\nThis web extends to articles (le/la/les), possessives (mon/ma/mes), and demonstratives (ce/cette/ces). Everything orbits the noun.\n\nOnce you internalize this, French grammar clicks into place."}},
+
+  {type:"mc",q:"'Elle est grande' uses grande (not grand) because:",opts:["Grande is more polite","Elle is feminine, so the adjective adds -e","Grande sounds better","It is plural"],ans:"Elle is feminine, so the adjective adds -e",hint:"Agreement Web: adjective matches the subject's gender."},
+
+  {type:"mc",q:"Which adjective does NOT change for feminine?",opts:["Grand","Petit","Jeune","Gentil"],ans:"Jeune",hint:"Already ends in -e. No extra -e needed."},
+
+  {type:"fb",s:"Ma soeur est ___. Elle a cinq ans. (small, feminine)",a:"petite",opts:["petite","petit","grande","grand"],hint:"Small/short, feminine form. The T becomes audible."},
+
+  {type:"mc",q:"To make an adjective plural, you usually add:",opts:["-e","-s","-es","-ment"],ans:"-s",hint:"Plural marker for adjectives: silent S."},
+
+  {type:"match",pairs:[{nl:"grand/grande",en:"tall/big"},{nl:"petit/petite",en:"small/short"},{nl:"gentil/gentille",en:"nice/kind"},{nl:"jeune",en:"young"}]},
+
+  {type:"mc",q:"In 'grand', the D is silent. In 'grande', the D is:",opts:["Still silent","Pronounced","Doubled","Nasal"],ans:"Pronounced",hint:"Adding -e makes the final consonant audible."},
+
+  {type:"fb",s:"Mes parents sont très ___. (nice, plural, informal)",a:"sympas",opts:["sympas","sympa","gentils","gentil"],hint:"Informal nice, plural form. Add -s."},
+
+  {type:"mc",q:"'Gentil' becomes 'gentille' in feminine. The sound changes to:",opts:["zhon-TEE","zhon-TEE-yuh","zhon-TEEL","zhon-TIL"],ans:"zhon-TEE-yuh",hint:"Double L + E creates a Y sound in pronunciation."},
+
+  {type:"mc",q:"The Agreement Web connects a noun to its:",opts:["Only its article","Only its adjective","Articles, possessives, and adjectives","Only its verb"],ans:"Articles, possessives, and adjectives",hint:"Everything orbiting the noun must match its gender and number."},
+
+  {type:"fb",s:"Ils sont ___ et gentils. (tall, masculine plural)",a:"grands",opts:["grands","grand","grandes","grande"],hint:"Tall in masculine plural: base + s."},
+
+  {type:"mc",q:"'Sympa' is the same for masculine and feminine because:",opts:["It is informal","It already ends in -a","It is short for sympathique","It is an exception"],ans:"It is short for sympathique",hint:"Abbreviated adjectives often have one form for both genders."},
+]},
+
+// ═══ L4: La famille étendue ═══
+{id:"fre3l4",title:"La famille étendue",icon:"👴",xp:15,board:true,steps:[
+  {type:"intro",title:"La famille étendue",desc:"Expand your family vocabulary with grandparents, uncle, aunt, cousin. These words follow the same gender patterns you already know.",goals:["Name extended family members","Use possessives with extended family","Describe family relationships"]},
+
+  {type:"teach",kind:"word",nl:"le grand-père",en:"the grandfather",phonetic:"luh gron-PEHR",example:"A: Ton grand-père est français?\nB: Oui, mon grand-père est de Bordeaux.\nA: Il a quel âge?",exampleEn:"A: Is your grandfather French?\nB: Yes, my grandfather is from Bordeaux.\nA: How old is he?",note:"Le grand-père = the grandfather (masculine).\nGrand = big/great. Père = father.\nPlural: les grands-parents = the grandparents."},
+
+  {type:"teach",kind:"word",nl:"la grand-mère",en:"the grandmother",phonetic:"lah gron-MEHR",example:"A: Ta grand-mère cuisine bien?\nB: Ma grand-mère fait le meilleur gâteau!\nA: J'adore les gâteaux!",exampleEn:"A: Does your grandmother cook well?\nB: My grandmother makes the best cake!\nA: I love cakes!",note:"La grand-mère = the grandmother (feminine).\nNote: grand does NOT become grande here.\nThis is a fixed compound: grand-mère, not grande-mère."},
+
+  {type:"teach",kind:"word",nl:"l'oncle / la tante",en:"the uncle / the aunt",phonetic:"LONKL / lah TONT",example:"A: Tu as un oncle?\nB: J'ai deux oncles et trois tantes.\nA: Une grande famille!",exampleEn:"A: Do you have an uncle?\nB: I have two uncles and three aunts.\nA: A big family!",note:"L'oncle = le + oncle (elision before vowel). Masculine.\nLa tante = the aunt (feminine).\nOncle is a cognate with English uncle."},
+
+  {type:"teach",kind:"word",nl:"le cousin / la cousine",en:"the cousin (m/f)",phonetic:"luh koo-ZAN / lah koo-ZEEN",example:"A: Ta cousine habite à Paris?\nB: Oui, ma cousine est étudiante à Paris.\nA: C'est bien!",exampleEn:"A: Does your cousin live in Paris?\nB: Yes, my cousin is a student in Paris.\nA: That's nice!",note:"Le cousin = male cousin. La cousine = female cousin.\nCognate with English cousin.\nThe -in/-ine ending follows the pattern: nasal in masculine, clear EEN in feminine."},
+
+  {type:"teach",kind:"phrase",nl:"Il/Elle est...",en:"He/She is...",phonetic:"eel AY / el AY",example:"A: Comment est ton oncle?\nB: Il est grand et gentil.\nA: Et ta tante?\nB: Elle est petite et sympa.",exampleEn:"A: What is your uncle like?\nB: He is tall and kind.\nA: And your aunt?\nB: She is short and nice.",note:"Use il est / elle est + adjective for descriptions.\nThe adjective must agree with il (masculine) or elle (feminine).\nIl est grand. Elle est grande. The Agreement Web!"},
+
+  {type:"tip",title:"Describing Family Members",text:"Combine what you know:\n\nMon père est grand et gentil.\nMa mère est petite et sympa.\nMes grands-parents sont vieux mais actifs.\n\nAlways match:\n1. Possessive to the noun (mon/ma/mes)\n2. Adjective to the subject (grand/grande)\n3. Article to the noun (le/la/les)\n\nAll three threads of the Agreement Web.",deepDive:{title:"Mais and Et",text:"Two essential connectors:\n\nEt = and. Il est grand et gentil.\nMais = but. Elle est petite mais forte.\n\nMais introduces a contrast. Et joins similar ideas.\nBoth are extremely common in descriptions.\n\nYou can chain multiple adjectives:\nIl est grand, gentil et sympa.\nElle est petite mais forte et intelligente."}},
+
+  {type:"mc",q:"'La grand-mère' uses 'grand' (not 'grande') because:",opts:["Grand-mère is a fixed compound word","Grand is always masculine","Mère is masculine","It is informal"],ans:"Grand-mère is a fixed compound word",hint:"Compound words sometimes freeze adjective forms."},
+
+  {type:"mc",q:"'Ma cousine' refers to:",opts:["A male cousin","A female cousin","Any cousin","A grandparent"],ans:"A female cousin",hint:"Cousine is the feminine form. La cousine = female cousin."},
+
+  {type:"fb",s:"Mon ___  habite à Lyon. (uncle)",a:"oncle",opts:["oncle","tante","cousin","père"],hint:"The male sibling of your parent."},
+
+  {type:"mc",q:"'L'oncle' uses l' because:",opts:["Oncle is feminine","Oncle starts with a vowel","It is more formal","Oncle is plural"],ans:"Oncle starts with a vowel",hint:"Elision: le becomes l' before vowel sounds."},
+
+  {type:"match",pairs:[{nl:"le grand-père",en:"the grandfather"},{nl:"la grand-mère",en:"the grandmother"},{nl:"l'oncle",en:"the uncle"},{nl:"la tante",en:"the aunt"}]},
+
+  {type:"mc",q:"To describe your aunt, you say 'Elle est...' The adjective must be:",opts:["Masculine","Feminine","Plural","Neutral"],ans:"Feminine",hint:"Elle = she. Adjectives must match the subject's gender."},
+
+  {type:"fb",s:"Ma tante est ___ et sympa. (tall, feminine)",a:"grande",opts:["grande","grand","grands","petit"],hint:"Tall in feminine: the D becomes pronounced with the -e."},
+
+  {type:"mc",q:"'Mais' in 'petit mais fort' means:",opts:["And","But","Or","Also"],ans:"But",hint:"Mais introduces a contrast: small BUT strong."},
+
+  {type:"mc",q:"Les grands-parents includes:",opts:["Only grandfathers","Only grandmothers","Both grandfather and grandmother","Parents and grandparents"],ans:"Both grandfather and grandmother",hint:"The plural form covers both grandparents."},
+
+  {type:"fb",s:"Mon ___ est américain. Ma cousine est française.",a:"cousin",opts:["cousin","cousine","oncle","frère"],hint:"Male relative of the same generation. Masculine form."},
+
+  {type:"mc",q:"'Mes grands-parents sont gentils.' Why gentils (not gentilles)?",opts:["Masculine plural for mixed groups","Grands-parents is masculine","Gentils sounds better","It is always gentils"],ans:"Masculine plural for mixed groups",hint:"Mixed gender groups default to masculine in French."},
+]},
+
+// ═══ L5: C'est + Il est ═══
+{id:"fre3l5",title:"C'est vs Il est",icon:"💡",xp:15,board:true,steps:[
+  {type:"intro",title:"C'est vs Il est",desc:"French has two ways to say 'it is' or 'he is': c'est and il est. They are NOT interchangeable. This distinction trips up every learner.",goals:["Know when to use c'est vs il est","Use c'est for identification","Use il est for description"]},
+
+  {type:"teach",kind:"phrase",nl:"C'est...",en:"This is... / It is... / He is...",phonetic:"SAY",example:"A: Qui est cet homme?\nB: C'est mon père.\nA: C'est un homme gentil.",exampleEn:"A: Who is that man?\nB: That is my father.\nA: He is a kind man.",note:"C'est = ce + est (this/it is).\nUse for identification: C'est Pierre. C'est mon ami.\nUse before un/une/des: C'est un professeur. C'est une fille."},
+
+  {type:"teach",kind:"phrase",nl:"Il est... / Elle est...",en:"He is... / She is...",phonetic:"eel AY / el AY",example:"A: Ton frère, comment est-il?\nB: Il est grand. Il est sympa.\nA: Il est français?",exampleEn:"A: Your brother, what is he like?\nB: He is tall. He is nice.\nA: Is he French?",note:"Il/Elle est + adjective for descriptions.\nIl est grand (He is tall). Elle est française (She is French).\nNEVER: Il est un professeur. Always: C'est un professeur."},
+
+  {type:"tip",title:"C'est vs Il est: The Rule",text:"Simple rule:\n\nC'est + noun (with article): C'est un ami. C'est ma soeur.\nIl/Elle est + adjective (alone): Il est grand. Elle est française.\n\nC'est = identification (who/what is it?)\nIl/Elle est = description (what is he/she like?)\n\nC'est mon père. Il est grand et gentil.\nC'est ma mère. Elle est petite et sympa.\n\nNever mix them: NEVER say 'Il est un ami' or 'C'est grand'.",deepDive:{title:"Why two systems?",text:"C'est treats the subject as a thing to be identified. You point at it and label it.\nIl est treats the subject as already identified. You describe its qualities.\n\nThink of it as:\nC'est = WHO is it? WHAT is it? (labeling)\nIl est = What is he LIKE? (describing)\n\nThis distinction does not exist in English, which uses 'it is' and 'he is' more freely. In French, the grammar is strict."}},
+
+  {type:"teach",kind:"phrase",nl:"C'est + adjective (reactions)",en:"It is + adjective (for general reactions)",phonetic:"SAY + adj",example:"A: Le film est bien?\nB: C'est génial!\nA: C'est intéressant?\nB: C'est très intéressant!",exampleEn:"A: Is the movie good?\nB: It's great!\nA: Is it interesting?\nB: It's very interesting!",note:"Exception: c'est + adjective for general reactions (no specific person).\nC'est bien! (It's good!). C'est super! (It's great!).\nC'est beau! (It's beautiful!). C'est intéressant! (It's interesting!)\nThese react to a situation, not describe a person."},
+
+  {type:"teach",kind:"word",nl:"intelligent / intelligente",en:"intelligent, smart (m/f)",phonetic:"an-teh-lee-ZHON / an-teh-lee-ZHONT",example:"A: Ta fille est intelligente?\nB: Oui, elle est très intelligente.\nA: C'est bien!",exampleEn:"A: Is your daughter smart?\nB: Yes, she is very smart.\nA: That's good!",note:"Intelligent = masculine. Intelligente = feminine.\nSame pattern: silent T in masculine, pronounced T in feminine.\nCognate with English intelligent."},
+
+  {type:"teach",kind:"word",nl:"amusant / amusante",en:"funny, entertaining (m/f)",phonetic:"ah-mew-ZON / ah-mew-ZONT",example:"A: Ton oncle est amusant?\nB: Oui, il est très amusant! Il raconte des blagues.\nA: C'est sympa!",exampleEn:"A: Is your uncle funny?\nB: Yes, he is very funny! He tells jokes.\nA: That's nice!",note:"Amusant = masculine. Amusante = feminine.\nNasal ending in masculine (ZON). T pronounced in feminine (ZONT).\nCognate with English amusing."},
+
+  {type:"mc",q:"'C'est mon père.' This uses c'est because:",opts:["C'est is always correct","It identifies someone (c'est + noun)","Mon père is masculine","It is a question"],ans:"It identifies someone (c'est + noun)",hint:"C'est + noun with article for identification."},
+
+  {type:"mc",q:"'___ grand.' Fill in with il est or c'est:",opts:["C'est","Il est","Ce sont","Ils sont"],ans:"Il est",hint:"Adjective alone (no noun after) = il/elle est."},
+
+  {type:"fb",s:"___ un bon professeur. (This is/He is)",a:"C'est",opts:["C'est","Il est","Elle est","Ce sont"],hint:"Before un/une + noun = identification form."},
+
+  {type:"mc",q:"'C'est intéressant!' is used for:",opts:["Describing a person","A general reaction to a situation","Identifying someone","Asking a question"],ans:"A general reaction to a situation",hint:"C'est + adjective for reactions (not about a specific person)."},
+
+  {type:"match",pairs:[{nl:"C'est mon frère",en:"This is my brother"},{nl:"Il est grand",en:"He is tall"},{nl:"C'est un ami",en:"He is a friend"},{nl:"Elle est française",en:"She is French"}]},
+
+  {type:"mc",q:"Which is WRONG?",opts:["C'est mon père","Il est grand","Il est un professeur","C'est un professeur"],ans:"Il est un professeur",hint:"Never il/elle est + un/une. Always c'est + un/une."},
+
+  {type:"fb",s:"Ma mère? ___ est petite et gentille.",a:"Elle",opts:["Elle","C'est","Il","Ce"],hint:"Describing a person already identified: pronoun + est + adjective."},
+
+  {type:"mc",q:"'Intelligente' sounds different from 'intelligent' because:",opts:["Extra syllable","The final T is now pronounced","The N changes","The accent shifts"],ans:"The final T is now pronounced",hint:"Adding -e makes the silent T audible."},
+
+  {type:"mc",q:"You see a beautiful sunset. You say:",opts:["Il est beau","Elle est belle","C'est beau!","Ils sont beaux"],ans:"C'est beau!",hint:"General reaction to a situation: c'est + adjective."},
+
+  {type:"fb",s:"Ton cousin est ___. Il raconte des histoires drôles. (funny, masculine)",a:"amusant",opts:["amusant","amusante","amusé","amuser"],hint:"Funny in masculine: the T is silent."},
+
+  {type:"mc",q:"'C'est mon frère. Il est grand.' Which pattern is each?",opts:["Both c'est","Both il est","C'est = identification, Il est = description","C'est = description, Il est = identification"],ans:"C'est = identification, Il est = description",hint:"C'est labels who it is. Il est describes qualities."},
+]},
+
+// ═══ L6: Parler de sa famille ═══
+{id:"fre3l6",title:"Parler de sa famille",icon:"🗣️",xp:15,board:true,steps:[
+  {type:"intro",title:"Parler de sa famille",desc:"Practice talking about your family in complete sentences. Combine possessives, être, avoir, and adjectives in natural descriptions.",goals:["Describe your family in full sentences","Combine possessives + être/avoir + adjectives","Handle follow-up questions about family"]},
+
+  {type:"teach",kind:"phrase",nl:"J'ai ... frères et ... soeurs",en:"I have ... brothers and ... sisters",phonetic:"zhay ... FREHR ay ... SUHR",example:"A: Tu as des frères et soeurs?\nB: J'ai deux frères et une soeur.\nA: Tu es l'aîné?\nB: Non, je suis le plus jeune.",exampleEn:"A: Do you have brothers and sisters?\nB: I have two brothers and one sister.\nA: Are you the eldest?\nB: No, I am the youngest.",note:"Des frères et soeurs = brothers and sisters.\nThis is the standard question about siblings.\nDes = some (indefinite plural article)."},
+
+  {type:"teach",kind:"phrase",nl:"Il/Elle s'appelle...",en:"His/Her name is... (He/She is called...)",phonetic:"eel sah-PELL / el sah-PELL",example:"A: Comment s'appelle ton frère?\nB: Il s'appelle Thomas.\nA: Et ta soeur?\nB: Elle s'appelle Marie.",exampleEn:"A: What is your brother's name?\nB: His name is Thomas.\nA: And your sister?\nB: Her name is Marie.",note:"Il s'appelle = he calls himself.\nElle s'appelle = she calls herself.\nSame verb as je m'appelle, different person."},
+
+  {type:"teach",kind:"phrase",nl:"Il/Elle a ... ans",en:"He/She is ... years old",phonetic:"eel AH ... ON / el AH ... ON",example:"A: Ta soeur a quel âge?\nB: Elle a dix-sept ans.\nA: Elle est au lycée alors?",exampleEn:"A: How old is your sister?\nB: She is seventeen.\nA: She is in high school then?",note:"He/She has ... years = age expression.\nRemember: French uses AVOIR for age.\nIl a 10 ans (He is 10). Elle a 20 ans (She is 20)."},
+
+  {type:"teach",kind:"phrase",nl:"Nous sommes ... dans la famille",en:"There are ... of us in the family",phonetic:"noo som ... don lah fah-MEE-yuh",example:"A: Vous êtes combien dans la famille?\nB: Nous sommes cinq: mes parents, mes deux frères, et moi.\nA: C'est une grande famille!",exampleEn:"A: How many are you in the family?\nB: We are five: my parents, my two brothers, and me.\nA: That's a big family!",note:"Nous sommes cinq = We are five.\nDans la famille = in the family.\nCommon question: Vous êtes combien? (How many are you?)"},
+
+  {type:"tip",title:"A Complete Family Description",text:"Here is a model description:\n\nNous sommes quatre dans ma famille.\nMon père s'appelle Jean. Il a cinquante ans. Il est grand et gentil.\nMa mère s'appelle Claire. Elle a quarante-huit ans. Elle est petite et intelligente.\nJ'ai un frère. Il s'appelle Thomas. Il a quinze ans. Il est amusant.\n\nPattern for each person:\n1. Name (il/elle s'appelle)\n2. Age (il/elle a ... ans)\n3. Description (il/elle est + adjectives)",deepDive:{title:"Cinquante and quarante",text:"Preview of larger numbers:\nQuarante = 40. Cinquante = 50. Soixante = 60.\n\nThese come in Unit 8. For now, just recognize them in family descriptions. French ages past 20 will use these numbers.\n\nThe full number system has some surprises: 70 = soixante-dix (60+10), 80 = quatre-vingts (4x20), 90 = quatre-vingt-dix (4x20+10). That is a Unit 8 adventure."}},
+
+  {type:"mc",q:"To ask about siblings, you say:",opts:["Vous avez des enfants?","Tu as des frères et soeurs?","Comment s'appelle ta mère?","Quel âge as-tu?"],ans:"Tu as des frères et soeurs?",hint:"Brothers and sisters: the standard sibling question."},
+
+  {type:"mc",q:"'Elle s'appelle Marie' means:",opts:["She is Marie","She calls herself Marie","Marie is calling","She likes Marie"],ans:"She calls herself Marie",hint:"Same structure as je m'appelle, but third person."},
+
+  {type:"fb",s:"Mon frère ___ Thomas. Il a quinze ans.",a:"s'appelle",opts:["s'appelle","est","a","appelle"],hint:"His name is Thomas: he calls himself."},
+
+  {type:"mc",q:"'Nous sommes cinq dans la famille' means:",opts:["We have five families","There are five of us in the family","We are five years old","Five families are here"],ans:"There are five of us in the family",hint:"Nous sommes + number + dans la famille."},
+
+  {type:"match",pairs:[{nl:"Il s'appelle Pierre",en:"His name is Pierre"},{nl:"Elle a vingt ans",en:"She is twenty"},{nl:"Il est gentil",en:"He is kind"},{nl:"Nous sommes quatre",en:"There are four of us"}]},
+
+  {type:"mc",q:"The pattern for describing a family member is:",opts:["Age, name, description","Name, description, age","Name, age, description","Description, age, name"],ans:"Name, age, description",hint:"S'appelle, a ... ans, est + adjective. Natural flow."},
+
+  {type:"fb",s:"Ma soeur ___ dix-huit ans. Elle est étudiante.",a:"a",opts:["a","est","s'appelle","fait"],hint:"She HAS eighteen years. Age uses avoir."},
+
+  {type:"mc",q:"'Des frères et soeurs' uses 'des' because:",opts:["Des is formal","Des is the indefinite plural article","Des means many","Des is masculine"],ans:"Des is the indefinite plural article",hint:"Des = some. Used before plural nouns in questions with avoir."},
+
+  {type:"fb",s:"Vous êtes ___ dans la famille? Nous sommes six.",a:"combien",opts:["combien","comment","quoi","qui"],hint:"How many: the question word for quantity."},
+
+  {type:"mc",q:"In the model description, which verb is used for age?",opts:["Être","Avoir","Aller","Appeler"],ans:"Avoir",hint:"Il/Elle a ... ans. Age = having years."},
+
+  {type:"mc",q:"When describing a male family member, adjectives are:",opts:["Always feminine","Masculine form","Always plural","Unchanged"],ans:"Masculine form",hint:"Il est grand, gentil, amusant. Agreement Web: masculine."},
+
+  {type:"fb",s:"Nous sommes ___ dans ma famille: mes parents, mon frère et moi.",a:"quatre",opts:["quatre","trois","cinq","deux"],hint:"Parents (2) + brother (1) + me (1) = this number."},
+]},
+
+// ═══ L7: Les adjectifs BAGS ═══
+{id:"fre3l7",title:"Les adjectifs BAGS",icon:"📏",xp:15,board:true,steps:[
+  {type:"intro",title:"Avant le nom: les adjectifs BAGS",desc:"Most French adjectives come AFTER the noun. But a small group comes BEFORE. They follow the BAGS pattern: Beauty, Age, Goodness, Size.",goals:["Know the BAGS adjectives (before the noun)","Place adjectives correctly","Handle beau/belle, vieux/vieille, nouveau/nouvelle"]},
+
+  {type:"teach",kind:"word",nl:"beau / belle",en:"beautiful, handsome (m/f)",phonetic:"BOH / BEL",example:"A: C'est une belle maison!\nB: Merci! Mon mari est un bel homme aussi.\nA: Oui, c'est vrai!",exampleEn:"A: That's a beautiful house!\nB: Thanks! My husband is a handsome man too.\nA: Yes, that's true!",note:"Beau = masculine. Belle = feminine.\nSpecial form before masculine vowels: un bel homme (not beau homme).\nBAGS adjective: goes BEFORE the noun. Une belle maison."},
+
+  {type:"teach",kind:"word",nl:"vieux / vieille",en:"old (m/f)",phonetic:"vyuh / vee-AY-yuh",example:"A: Ton grand-père est vieux?\nB: Oui, c'est un vieil homme de quatre-vingts ans.\nA: Il est en forme?",exampleEn:"A: Is your grandfather old?\nB: Yes, he is an old man of eighty.\nA: Is he in good shape?",note:"Vieux = masculine. Vieille = feminine.\nSpecial form before masculine vowels: un vieil homme.\nBAGS adjective: goes BEFORE the noun. Un vieux livre."},
+
+  {type:"teach",kind:"word",nl:"nouveau / nouvelle",en:"new (m/f)",phonetic:"noo-VOH / noo-VEL",example:"A: C'est ta nouvelle voiture?\nB: Oui! Et j'ai un nouvel appartement aussi.\nA: Tout est nouveau!",exampleEn:"A: Is that your new car?\nB: Yes! And I have a new apartment too.\nA: Everything is new!",note:"Nouveau = masculine. Nouvelle = feminine.\nSpecial form before masculine vowels: un nouvel ami.\nBAGS adjective: goes BEFORE the noun. Un nouveau livre."},
+
+  {type:"teach",kind:"word",nl:"bon / bonne",en:"good (m/f)",phonetic:"BON / BON",example:"A: C'est un bon restaurant?\nB: Oui, c'est un très bon restaurant.\nA: Et la nourriture?\nB: Une bonne pizza!",exampleEn:"A: Is it a good restaurant?\nB: Yes, it's a very good restaurant.\nA: And the food?\nB: A good pizza!",note:"You know this from Bonjour and Bonne nuit!\nBon = masculine. Bonne = feminine (doubles the N).\nBAGS: Un bon livre. Une bonne idée."},
+
+  {type:"tip",title:"BAGS: Adjectives That Go BEFORE the Noun",text:"Most French adjectives go AFTER: une maison grande, un homme intelligent.\nBut BAGS adjectives go BEFORE:\n\nB = Beauty: beau/belle (beautiful)\nA = Age: vieux/vieille (old), jeune (young), nouveau/nouvelle (new)\nG = Goodness: bon/bonne (good), mauvais (bad), gentil (nice)\nS = Size: grand (big), petit (small), gros (fat), long (long)\n\nUne belle maison (a beautiful house)\nUn vieux livre (an old book)\nUn bon ami (a good friend)\nUn petit chat (a small cat)\n\nThese are all very common, high-frequency adjectives.",deepDive:{title:"The special masculine vowel forms",text:"Three BAGS adjectives have a special form before masculine nouns starting with a vowel:\n\nbeau > bel: un bel homme (a handsome man)\nvieux > vieil: un vieil ami (an old friend)\nnouveau > nouvel: un nouvel appartement (a new apartment)\n\nThese exist purely for pronunciation: beau homme would create an awkward gap between two vowel sounds. Bel homme flows smoothly.\n\nFeminine forms (belle, vieille, nouvelle) do not change before vowels."}},
+
+  {type:"mc",q:"'Une belle maison' puts belle BEFORE maison because:",opts:["Maison is feminine","Belle is a BAGS adjective (Beauty)","It sounds better","Belle is short"],ans:"Belle is a BAGS adjective (Beauty)",hint:"BAGS adjectives go before the noun."},
+
+  {type:"mc",q:"'Un bel homme' uses bel (not beau) because:",opts:["Homme is feminine","Homme starts with a vowel sound","Bel is more formal","Beau is for objects only"],ans:"Homme starts with a vowel sound",hint:"Special form before masculine vowels for smooth pronunciation."},
+
+  {type:"fb",s:"C'est un ___ restaurant! La nourriture est excellente.",a:"bon",opts:["bon","bonne","bien","beau"],hint:"A good restaurant. Masculine BAGS adjective before noun."},
+
+  {type:"mc",q:"Where does 'intelligent' go?",opts:["Before the noun (BAGS)","After the noun","It depends on gender","Either position"],ans:"After the noun",hint:"Intelligent is not in BAGS. Regular adjectives go after."},
+
+  {type:"match",pairs:[{nl:"une belle fille",en:"a beautiful girl"},{nl:"un vieux livre",en:"an old book"},{nl:"un bon ami",en:"a good friend"},{nl:"une petite maison",en:"a small house"}]},
+
+  {type:"mc",q:"Which is correct?",opts:["Un homme grand et intelligent","Un grand et intelligent homme","Un intelligent homme grand","Grand un homme intelligent"],ans:"Un homme grand et intelligent",hint:"Grand (BAGS, before) can also go after. Intelligent always goes after."},
+
+  {type:"fb",s:"C'est une ___ idée! (new, feminine)",a:"nouvelle",opts:["nouvelle","nouveau","nouvel","nouveaux"],hint:"New in feminine before a noun. BAGS placement."},
+
+  {type:"mc",q:"'Vieux' becomes 'vieille' in feminine. They sound:",opts:["The same","Completely different","Similar with minor change","Vieille is silent"],ans:"Completely different",hint:"vyuh vs vee-AY-yuh. Very different pronunciations."},
+
+  {type:"mc",q:"BAGS stands for:",opts:["Basic Adjective Grammar Structure","Beauty, Age, Goodness, Size","Before After Grammar Syntax","Big And Good Small"],ans:"Beauty, Age, Goodness, Size",hint:"The four categories of adjectives that go before the noun."},
+
+  {type:"fb",s:"Mon grand-père est un ___ homme. (old, before masculine vowel)",a:"vieil",opts:["vieil","vieux","vieille","vieill"],hint:"Special masculine form before a vowel sound."},
+
+  {type:"mc",q:"'Un nouveau livre' but 'un nouvel ami' because:",opts:["Ami is feminine","Ami starts with a vowel sound","Livre is masculine","Nouveau is for objects"],ans:"Ami starts with a vowel sound",hint:"Special form before masculine vowels for pronunciation."},
+
+  {type:"fb",s:"C'est une ___ fille. Elle a trois ans. (small, BAGS placement)",a:"petite",opts:["petite","petit","grande","belle"],hint:"Small before a feminine noun. Size is a BAGS category."},
+]},
+
+// ═══ L8: Révision Unit 3 ═══
+{id:"fre3l8",title:"Révision",icon:"🔄",xp:20,board:true,steps:[
+  {type:"intro",title:"Unit 3 Review",desc:"Review all of Unit 3: family vocabulary, possessives, descriptions, c'est vs il est, and BAGS adjectives.",goals:["Review family vocabulary","Test possessive agreement","Combine descriptions with BAGS placement"]},
+
+  {type:"mc",q:"'Mon frère' uses mon because:",opts:["I am male","Frère is masculine","Mon is always for family","Frère starts with F"],ans:"Frère is masculine",hint:"Possessive matches the noun, not the speaker."},
+
+  {type:"fb",s:"___ soeur s'appelle Marie. (my, feminine)",a:"Ma",opts:["Ma","Mon","Mes","Sa"],hint:"My before a feminine noun: the feminine possessive."},
+
+  {type:"mc",q:"Pierre parle de sa mère. 'Sa' means:",opts:["Only his","Only her","His OR her","Their"],ans:"His OR her",hint:"Sa matches mère (feminine). The owner could be male or female."},
+
+  {type:"match",pairs:[{nl:"le grand-père",en:"grandfather"},{nl:"la tante",en:"aunt"},{nl:"le cousin",en:"male cousin"},{nl:"la fille",en:"daughter"}]},
+
+  {type:"mc",q:"'Elle est grande' vs 'C'est une grande fille'. Both are correct because:",opts:["They mean different things","Elle est + adjective, c'est + noun phrase","They are interchangeable","Only the first is correct"],ans:"Elle est + adjective, c'est + noun phrase",hint:"Two correct patterns for two different structures."},
+
+  {type:"fb",s:"C'est un ___ homme. (handsome, before masculine vowel)",a:"bel",opts:["bel","beau","belle","bels"],hint:"Special BAGS form before masculine vowels."},
+
+  {type:"mc",q:"'Mon amie' uses mon (not ma) because:",opts:["Amie is masculine","To avoid two vowel sounds colliding","Mon is always correct","Amie is informal"],ans:"To avoid two vowel sounds colliding",hint:"Ma + vowel = hard to pronounce. Mon replaces ma."},
+
+  {type:"mc",q:"Which adjective goes BEFORE the noun?",opts:["Intelligent","Amusant","Petit","Français"],ans:"Petit",hint:"Size is one of the BAGS categories."},
+
+  {type:"fb",s:"Mes grands-parents sont ___ mais actifs. (old, masculine plural)",a:"vieux",opts:["vieux","vieille","vieilles","vieil"],hint:"Old in masculine plural: same as singular for this adjective."},
+
+  {type:"mc",q:"'Nous sommes six dans la famille' means:",opts:["We have six families","There are six of us","We are six years old","Six is the family number"],ans:"There are six of us",hint:"Nous sommes + number = we are this many."},
+
+  {type:"match",pairs:[{nl:"beau/belle",en:"beautiful"},{nl:"vieux/vieille",en:"old"},{nl:"nouveau/nouvelle",en:"new"},{nl:"bon/bonne",en:"good"}]},
+
+  {type:"fb",s:"C'est une ___ maison avec un ___ jardin. (beautiful, big)",a:"belle",opts:["belle","beau","bel","beaux"],hint:"Beautiful before a feminine noun."},
+
+  {type:"mc",q:"'Il est grand. C'est un bon père.' This mixing of il est and c'est is:",opts:["Wrong","Correct: il est + adjective, c'est + noun","Only formal","Only casual"],ans:"Correct: il est + adjective, c'est + noun",hint:"Each pattern used correctly in its own context."},
+
+  {type:"mc",q:"Family descriptions follow which pattern?",opts:["Description, name, age","Name, age, description","Age, description, name","Name, description, age"],ans:"Name, age, description",hint:"S'appelle, a ... ans, est + adjectives."},
+
+  {type:"fb",s:"Elle a dix-sept ___. Elle est étudiante.",a:"ans",opts:["ans","an","âge","année"],hint:"She has seventeen ___. The word for years in age."},
+
+  {type:"mc",q:"'Il est un professeur' is:",opts:["Correct","Incorrect: should be 'C'est un professeur'","Formal","Casual"],ans:"Incorrect: should be 'C'est un professeur'",hint:"Never il/elle est + un/une. Always c'est + un/une."},
+
+  {type:"mc",q:"In French, adjectives must agree with the noun in:",opts:["Only gender","Only number","Gender and number","Nothing"],ans:"Gender and number",hint:"The Agreement Web: both gender (+e) and number (+s)."},
+]},
+]},
+
 ];
