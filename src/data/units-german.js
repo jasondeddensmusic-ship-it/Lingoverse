@@ -2499,4 +2499,544 @@ export default [
 
 ]},
 
+{n:12,lang:"de",track:"v1",title:"Wo oder Wohin?",sub:"Two-Way Prepositions",icon:"📍",level:"A2.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Wechselpräpositionen ═══
+{id:"deu12l1",title:"Wechselpräpositionen",icon:"📍",xp:20,board:true,steps:[
+  {type:"intro",title:"Wechselpräpositionen",desc:"Nine German prepositions can take DATIVE or ACCUSATIVE depending on whether you are describing a LOCATION (where?) or a DIRECTION (where to?). This is the core of German spatial language.",goals:["Learn the 9 two-way prepositions","Understand the Wo/Wohin contrast","Start building spatial sentences"]},
+
+  {type:"tip",title:"The Core Rule",text:"Nine prepositions switch case:\n\nin, an, auf, über, unter, vor, hinter, neben, zwischen\n\nWo? (where, location) = DATIVE\nWohin? (where to, direction) = ACCUSATIVE\n\nStatic = dative. Moving into = accusative.",deepDive:{title:"Why two cases for one preposition?",text:"German preserves a distinction English lost. 'The book is ON the table' (static) versus 'Put the book ON the table' (movement onto). English uses on for both. German uses different case endings to keep them apart: in + dative = already inside, in + accusative = going into."}},
+
+  {type:"teach",kind:"word",nl:"in",en:"in / into",phonetic:"in",example:"A: Wo ist dein Buch?\nB: Es ist in der Tasche.\nA: Und wo legst du es?\nB: Ich lege es in die Tasche.",exampleEn:"A: Where is your book?\nB: It is in the bag.\nA: And where do you put it?\nB: I put it into the bag.",note:"in + dative = location inside.\nin + accusative = movement into."},
+
+  {type:"teach",kind:"word",nl:"an",en:"at / on (vertical surface)",phonetic:"an",example:"A: Hängt das Bild an der Wand?\nB: Nein, ich hänge es gerade an die Wand.\nA: Super, da sieht es gut aus!",exampleEn:"A: Is the picture on the wall?\nB: No, I am just hanging it on the wall.\nA: Great, it looks good there!",note:"an + dative = at, attached to surface.\nan + accusative = movement onto/up to."},
+
+  {type:"teach",kind:"word",nl:"auf",en:"on (horizontal surface)",phonetic:"owf",example:"A: Liegt mein Schlüssel auf dem Tisch?\nB: Nein, du hast ihn auf den Stuhl gelegt.\nA: Ach so!",exampleEn:"A: Is my key on the table?\nB: No, you put it on the chair.\nA: Ah, I see!",note:"auf + dative = resting on top.\nauf + accusative = placed onto."},
+
+  {type:"teach",kind:"word",nl:"über",en:"over / above",phonetic:"YU-ber",example:"A: Die Lampe hängt über dem Tisch.\nB: Kannst du sie über den Stuhl hängen?\nA: Ja, kein Problem.",exampleEn:"A: The lamp hangs above the table.\nB: Can you hang it above the chair?\nA: Yes, no problem.",note:"über + dative = hovering above.\nüber + accusative = moved to above."},
+
+  {type:"teach",kind:"word",nl:"unter",en:"under / below",phonetic:"UN-ter",example:"A: Ist die Katze unter dem Bett?\nB: Ja! Und sie legt sich immer unter den Tisch.\nA: Typisch Katze.",exampleEn:"A: Is the cat under the bed?\nB: Yes! And she always lies under the table.\nA: Typical cat.",note:"unter + dative = located below.\nunter + accusative = movement to under."},
+
+  {type:"teach",kind:"word",nl:"vor",en:"in front of / before",phonetic:"for",example:"A: Wo treffen wir uns?\nB: Vor dem Kino.\nA: Okay, ich gehe jetzt vor das Kino.",exampleEn:"A: Where do we meet?\nB: In front of the cinema.\nA: Okay, I am going in front of the cinema now.",note:"vor + dative = in front of (location).\nvor + accusative = movement to in front of."},
+
+  {type:"teach",kind:"word",nl:"hinter",en:"behind",phonetic:"HIN-ter",example:"A: Das Auto steht hinter dem Haus.\nB: Ich fahre es hinter die Garage.\nA: Ja, da ist mehr Platz.",exampleEn:"A: The car is behind the house.\nB: I will drive it behind the garage.\nA: Yes, there is more space there.",note:"hinter + dative = located behind.\nhinter + accusative = movement to behind."},
+
+  {type:"teach",kind:"word",nl:"neben",en:"next to / beside",phonetic:"NAY-ben",example:"A: Setz dich neben mich!\nB: Ich sitze schon neben dir.\nA: Oh, ich habe dich nicht gesehen!",exampleEn:"A: Sit next to me!\nB: I am already sitting next to you.\nA: Oh, I did not see you!",note:"neben + dative = beside (location).\nneben + accusative = movement next to."},
+
+  {type:"teach",kind:"word",nl:"zwischen",en:"between",phonetic:"TSVI-shen",example:"A: Das Café ist zwischen der Bank und dem Hotel.\nB: Ich stelle mein Fahrrad zwischen die Autos.\nA: Da ist ein Fahrradständer!",exampleEn:"A: The cafe is between the bank and the hotel.\nB: I will put my bike between the cars.\nA: There is a bike rack there!",note:"zwischen + dative = between two things (location).\nzwischen + accusative = placed between."},
+
+  {type:"tip",title:"Quick Memory Aid",text:"Ask yourself:\n\nWo? = WHERE is it? Describes a STATE. Use DATIVE.\nWohin? = WHERE TO? Describes MOVEMENT. Use ACCUSATIVE.\n\nDative = sitting still.\nAccusative = on the move.",deepDive:{title:"Static vs dynamic: the universal test",text:"When in doubt, ask: is there movement CHANGING position? If something is already there, it is dative. If something is being moved to a new location, it is accusative. This rule is reliable at A2 level for all nine Wechselpräpositionen."}},
+
+  {type:"mc",q:"Which question word signals DATIVE with a Wechselpräposition?",opts:["Wohin?","Woher?","Wo?","Wann?"],ans:"Wo?",hint:"Static location uses which question word?"},
+
+  {type:"mc",q:"Which question word signals ACCUSATIVE with a Wechselpräposition?",opts:["Wo?","Wann?","Woher?","Wohin?"],ans:"Wohin?",hint:"Direction or movement uses which question word?"},
+
+  {type:"mc",q:"How many Wechselpräpositionen are there?",opts:["5","7","9","11"],ans:"9",hint:"in, an, auf, über, unter, vor, hinter, neben, zwischen"},
+
+  {type:"match",pairs:[{nl:"in",en:"in / into"},{nl:"an",en:"at / on vertical"},{nl:"auf",en:"on horizontal"},{nl:"über",en:"over / above"}]},
+
+  {type:"match",pairs:[{nl:"unter",en:"under / below"},{nl:"vor",en:"in front of"},{nl:"hinter",en:"behind"},{nl:"zwischen",en:"between"}]},
+
+  {type:"mc",q:"'Das Buch liegt AUF dem Tisch.' This sentence expresses:",opts:["Direction - accusative","Location - dative","Always accusative with auf","Depends on the noun"],ans:"Location - dative",hint:"Liegt = is lying (static). Wo liegt es?"},
+
+  {type:"mc",q:"'Ich lege das Buch AUF den Tisch.' This sentence expresses:",opts:["Location - dative","Direction - accusative","Always dative with auf","Depends on the verb"],ans:"Direction - accusative",hint:"Lege = I place (movement into position). Wohin lege ich es?"},
+
+  {type:"fb",s:"Wo? Dativ. Wohin? ___.",a:"Akkusativ",opts:["Akkusativ","Nominativ","Genitiv","Dativ"],hint:"Movement into a position triggers which case in German?"},
+]},
+
+// ═══ L2: Wo? + Dativ ═══
+{id:"deu12l2",title:"Wo? + Dativ",icon:"📌",xp:20,board:true,steps:[
+  {type:"intro",title:"Wo? + Dativ",desc:"When answering 'where is something?', all nine two-way prepositions take DATIVE. Let's practice the dative article forms with der, die, das nouns and build real location sentences.",goals:["Form dative phrases with all 9 prepositions","Use dem, der correctly","Build natural location sentences"]},
+
+  {type:"tip",title:"Dative Articles for Wo?",text:"When Wo? triggers dative:\n\nder Tisch (m) → auf DEM Tisch\ndie Wand (f) → an DER Wand\ndas Bett (n) → unter DEM Bett\ndie Bücher (pl) → zwischen DEN Büchern\n\nMasculine and neuter: dem.\nFeminine: der.\nPlural: den + noun adds -n ending.",deepDive:{title:"Why does plural add -n?",text:"In dative plural, nouns gain an -n suffix: die Bücher becomes den Büchern, die Autos becomes den Autos. This -n addition in dative plural is consistent across ALL nouns in German."}},
+
+  {type:"teach",kind:"phrase",nl:"auf dem Tisch",en:"on the table",phonetic:"owf daym TISH",example:"A: Wo ist mein Handy?\nB: Es liegt auf dem Tisch.\nA: Danke! Ich sehe es.\nB: Es liegt neben dem Laptop.",exampleEn:"A: Where is my phone?\nB: It is lying on the table.\nA: Thanks! I see it.\nB: It is next to the laptop.",note:"der Tisch = masculine.\nauf + dem = masculine dative."},
+
+  {type:"teach",kind:"phrase",nl:"in der Küche",en:"in the kitchen",phonetic:"in dair KYU-khe",example:"A: Wo bist du?\nB: Ich bin in der Küche.\nA: Was machst du in der Küche?\nB: Ich koche Abendessen.",exampleEn:"A: Where are you?\nB: I am in the kitchen.\nA: What are you doing in the kitchen?\nB: I am cooking dinner.",note:"die Küche = feminine.\nin + der = feminine dative."},
+
+  {type:"teach",kind:"phrase",nl:"im Zimmer",en:"in the room",phonetic:"im TSIM-mer",example:"A: Wo ist Lukas?\nB: Er ist in seinem Zimmer.\nA: Schon wieder im Zimmer?\nB: Er lernt für die Prüfung.",exampleEn:"A: Where is Lukas?\nB: He is in his room.\nA: In the room again?\nB: He is studying for the exam.",note:"das Zimmer = neuter.\nim = in + dem (contraction). Covered fully in L6."},
+
+  {type:"teach",kind:"phrase",nl:"an der Wand",en:"on the wall",phonetic:"an dair VANT",example:"A: Wo hängt das Foto?\nB: An der Wand, neben dem Fenster.\nA: Das sieht schön aus!\nB: Danke, ich habe es selbst gemacht.",exampleEn:"A: Where does the photo hang?\nB: On the wall, next to the window.\nA: That looks nice!\nB: Thanks, I made it myself.",note:"die Wand = feminine.\nan + der = feminine dative."},
+
+  {type:"teach",kind:"phrase",nl:"vor dem Haus",en:"in front of the house",phonetic:"for daym HOWS",example:"A: Wo parkt ihr Auto?\nB: Immer vor dem Haus.\nA: Und im Sommer?\nB: Auch vor dem Haus, wir haben keine Garage.",exampleEn:"A: Where do you park your car?\nB: Always in front of the house.\nA: And in summer?\nB: Also in front of the house, we have no garage.",note:"das Haus = neuter.\nvor + dem = neuter dative."},
+
+  {type:"teach",kind:"phrase",nl:"hinter der Schule",en:"behind the school",phonetic:"HIN-ter dair SHOO-le",example:"A: Wo ist der Sportplatz?\nB: Hinter der Schule.\nA: Und die Turnhalle?\nB: Die ist neben der Schule.",exampleEn:"A: Where is the sports field?\nB: Behind the school.\nA: And the gym?\nB: That is next to the school.",note:"die Schule = feminine.\nhinter + der = feminine dative."},
+
+  {type:"teach",kind:"phrase",nl:"zwischen dem Sofa und dem Tisch",en:"between the sofa and the table",phonetic:"TSVI-shen daym ZO-fa unt daym TISH",example:"A: Wo ist die Fernbedienung?\nB: Zwischen dem Sofa und dem Tisch.\nA: Schon wieder!\nB: Das passiert immer.",exampleEn:"A: Where is the remote control?\nB: Between the sofa and the table.\nA: Again!\nB: That always happens.",note:"zwischen takes dative for BOTH nouns when answering Wo?."},
+
+  {type:"tip",title:"Dative Summary Table",text:"der (m): auf dem Tisch, vor dem Haus, hinter dem Baum\ndie (f): in der Küche, an der Wand, vor der Schule\ndas (n): im Zimmer (in + dem), auf dem Bett\nPlural: zwischen den Stühlen, neben den Büchern\n\nKey: m and n both use DEM. f uses DER."},
+
+  {type:"mc",q:"'Das Buch liegt ___ Regal.' (das Regal = shelf, location in):",opts:["in der","im","auf der","in die"],ans:"im",hint:"das Regal is neuter. in + dem = im. Location = dative."},
+
+  {type:"mc",q:"'Die Katze schläft ___ Sofa.' (das Sofa, on top, location):",opts:["auf der","auf dem","auf das","auf den"],ans:"auf dem",hint:"das Sofa = neuter. auf + dative = auf dem."},
+
+  {type:"fb",s:"Das Bild hängt an ___ Wand.",a:"der",opts:["der","dem","den","die"],hint:"die Wand is feminine. Dative feminine = ?"},
+
+  {type:"mc",q:"'Die Kinder spielen ___ Garten.' (der Garten = garden, in, location):",opts:["in dem","in der","in das","im"],ans:"im",hint:"der Garten is masculine. in + dem = im."},
+
+  {type:"match",pairs:[{nl:"auf dem Tisch",en:"on the table (neut)"},{nl:"an der Wand",en:"on the wall (fem)"},{nl:"vor dem Haus",en:"in front of the house (neut)"},{nl:"in der Küche",en:"in the kitchen (fem)"}]},
+
+  {type:"mc",q:"'Die Schlüssel liegen ___ Tisch.' (der Tisch, under, location):",opts:["unter der","unter dem","unter den","unter das"],ans:"unter dem",hint:"der Tisch is masculine. Dative masculine = dem."},
+
+  {type:"drag_fill",s:"Die Lampe hängt {1} dem Tisch, und die Katze liegt {2} dem Sofa.",blanks:{"1":"über","2":"auf"},pool:["über","unter","auf","in","vor","an"],hint:"Lamp above the table, cat lying on the sofa."},
+
+  {type:"mc",q:"'Er steht ___ der Spüle.' (die Spüle = sink, beside, location):",opts:["auf","neben","über","zwischen"],ans:"neben",hint:"Next to the sink. Which preposition means beside?"},
+
+  {type:"fb",s:"Die Schuhe stehen vor ___ Tür.",a:"der",opts:["der","dem","den","die"],hint:"die Tür is feminine. Dative feminine = ?"},
+
+  {type:"mc",q:"'Die Bücher stehen zwischen ___ Lampe und ___ Vase.' Both feminine (die). Dative:",opts:["die / die","der / der","dem / dem","den / den"],ans:"der / der",hint:"zwischen + dative. Feminine dative = der for both nouns."},
+]},
+
+// ═══ L3: Wohin? + Akkusativ ═══
+{id:"deu12l3",title:"Wohin? + Akkusativ",icon:"➡️",xp:20,board:true,steps:[
+  {type:"intro",title:"Wohin? + Akkusativ",desc:"When something or someone MOVES to a new position, the two-way prepositions take ACCUSATIVE. A new set of article forms applies. Let's master them.",goals:["Form accusative phrases for direction","Use den, die, das correctly","Build movement sentences with Wechselpräpositionen"]},
+
+  {type:"tip",title:"Accusative Articles for Wohin?",text:"When Wohin? triggers accusative:\n\nder Tisch (m) → auf DEN Tisch\ndie Wand (f) → an DIE Wand\ndas Bett (n) → unter DAS Bett\ndie Stühle (pl) → zwischen DIE Stühle\n\nMasculine CHANGES: der → den.\nFeminine and neuter: same as nominative.\nPlural: die (same as nominative).",deepDive:{title:"Why does only masculine change in accusative?",text:"Proto-Germanic had more distinctions that eroded in most genders. Masculine is the only gender that still shows a difference between nominative (der/ein) and accusative (den/einen). Feminine and neuter look the same in both cases. This is why masculine is 'the hard one': it is the only gender that truly inflects in accusative."}},
+
+  {type:"teach",kind:"phrase",nl:"auf den Tisch",en:"onto the table",phonetic:"owf dayn TISH",example:"A: Wohin legst du das Buch?\nB: Ich lege es auf den Tisch.\nA: Und die Zeitung?\nB: Die lege ich auch auf den Tisch.",exampleEn:"A: Where are you putting the book?\nB: I am putting it on the table.\nA: And the newspaper?\nB: I am putting that on the table too.",note:"der Tisch = masculine.\nauf + accusative = auf DEN."},
+
+  {type:"teach",kind:"phrase",nl:"in die Küche",en:"into the kitchen",phonetic:"in dee KYU-khe",example:"A: Wohin gehst du?\nB: Ich gehe in die Küche.\nA: Was machst du dort?\nB: Ich hole etwas zu trinken.",exampleEn:"A: Where are you going?\nB: I am going into the kitchen.\nA: What are you doing there?\nB: I am getting something to drink.",note:"die Küche = feminine.\nin + accusative feminine = in DIE.\nFeminine accusative = same as nominative."},
+
+  {type:"teach",kind:"phrase",nl:"ins Zimmer",en:"into the room",phonetic:"ins TSIM-mer",example:"A: Wohin läuft das Kind?\nB: Es läuft ins Zimmer.\nA: Warum so schnell?\nB: Es hat sein Spielzeug vergessen.",exampleEn:"A: Where is the child running?\nB: It is running into the room.\nA: Why so fast?\nB: It forgot its toy.",note:"das Zimmer = neuter.\nins = in + das (contraction).\nNeuter accusative = same as nominative."},
+
+  {type:"teach",kind:"phrase",nl:"an die Wand",en:"onto the wall",phonetic:"an dee VANT",example:"A: Wohin hängst du das Poster?\nB: Ich hänge es an die Wand.\nA: Welche Wand?\nB: An die Wand neben dem Fenster.",exampleEn:"A: Where are you hanging the poster?\nB: I am hanging it on the wall.\nA: Which wall?\nB: On the wall next to the window.",note:"die Wand = feminine.\nan + accusative = an DIE Wand.\nhängen here = to hang (transitive, movement)."},
+
+  {type:"teach",kind:"phrase",nl:"vor das Haus",en:"in front of the house (direction)",phonetic:"for das HOWS",example:"A: Wohin fährst du das Auto?\nB: Ich fahre es vor das Haus.\nA: Warum nicht in die Garage?\nB: Die ist voll.",exampleEn:"A: Where are you driving the car?\nB: I am driving it in front of the house.\nA: Why not into the garage?\nB: It is full.",note:"das Haus = neuter.\nvor + accusative neuter = vor DAS.\nNeuter accusative = same as nominative."},
+
+  {type:"teach",kind:"phrase",nl:"hinter die Schule",en:"behind the school (direction)",phonetic:"HIN-ter dee SHOO-le",example:"A: Wohin geht ihr nach dem Unterricht?\nB: Wir gehen hinter die Schule.\nA: Was macht ihr dort?\nB: Wir spielen Fußball.",exampleEn:"A: Where do you go after class?\nB: We go behind the school.\nA: What do you do there?\nB: We play football.",note:"die Schule = feminine.\nhinter + accusative = hinter DIE."},
+
+  {type:"teach",kind:"phrase",nl:"unter den Tisch",en:"under the table (direction)",phonetic:"UN-ter dayn TISH",example:"A: Wohin ist die Katze gegangen?\nB: Sie ist unter den Tisch gelaufen.\nA: Immer dasselbe!\nB: Sie hat Angst vor dem Staubsauger.",exampleEn:"A: Where did the cat go?\nB: It ran under the table.\nA: Always the same!\nB: It is afraid of the vacuum cleaner.",note:"der Tisch = masculine.\nunter + accusative masculine = unter DEN."},
+
+  {type:"tip",title:"Dative vs Accusative: Side by Side",text:"Wo? (dative) vs Wohin? (accusative):\n\nDas Buch liegt auf dem Tisch. (dative)\nIch lege das Buch auf den Tisch. (accusative)\n\nDie Lampe hängt an der Wand. (dative)\nIch hänge die Lampe an die Wand. (accusative)\n\nOnly masculine changes: dem → den."},
+
+  {type:"mc",q:"'Ich hänge das Bild ___ Wand.' (direction, die Wand = wall):",opts:["an die","an der","an dem","ans"],ans:"an die",hint:"die Wand is feminine. Wohin = accusative. Feminine accusative = die."},
+
+  {type:"mc",q:"'Ich stelle die Vase ___ Tisch.' (direction, der Tisch = table):",opts:["auf der","auf dem","auf den","auf das"],ans:"auf den",hint:"der Tisch = masculine. Wohin = accusative. Masculine accusative = den."},
+
+  {type:"fb",s:"Das Kind läuft in ___ Garten.",a:"den",opts:["den","dem","der","das"],hint:"der Garten = masculine. Movement into = accusative. Masculine accusative = ?"},
+
+  {type:"mc",q:"'Die Katze springt ___ Sofa.' (direction, das Sofa = sofa, onto):",opts:["auf das","auf dem","auf der","auf den"],ans:"auf das",hint:"das Sofa = neuter. Wohin = accusative. Neuter accusative = das."},
+
+  {type:"match",pairs:[{nl:"auf den Tisch legen",en:"to put on the table (m)"},{nl:"an die Wand hängen",en:"to hang on the wall (f)"},{nl:"ins Zimmer laufen",en:"to run into the room (n)"},{nl:"vor das Haus fahren",en:"to drive in front of the house (n)"}]},
+
+  {type:"mc",q:"Which article CHANGES between nominative and accusative?",opts:["die (feminine)","das (neuter)","die (plural)","der → den (masculine)"],ans:"der → den (masculine)",hint:"Only one gender has a different accusative form. Which one?"},
+
+  {type:"drag_fill",s:"Ich lege das Buch {1} den Rucksack und stelle die Tasse {2} den Tisch.",blanks:{"1":"in","2":"auf"},pool:["in","an","auf","vor","hinter","unter"],hint:"Book goes inside the backpack, cup goes on top of the table."},
+
+  {type:"mc",q:"'Er setzt sich ___ Sofa.' (direction, das Sofa, accusative, onto):",opts:["auf dem","auf das","auf den","auf die"],ans:"auf das",hint:"das Sofa = neuter. Movement to = accusative. Neuter accusative = das."},
+
+  {type:"fb",s:"Ich gehe heute Abend in ___ Kino.",a:"das",opts:["das","dem","der","den"],hint:"das Kino = neuter. Into the cinema = movement = accusative. Neuter accusative = ?"},
+
+  {type:"mc",q:"'Wir fahren ___ Stadt.' (direction, die Stadt = city, into):",opts:["in die","in der","ins","in das"],ans:"in die",hint:"die Stadt = feminine. Accusative feminine = die. No contraction for feminine."},
+]},
+
+// ═══ L4: stehen/stellen, liegen/legen ═══
+{id:"deu12l4",title:"stehen/stellen, liegen/legen",icon:"🪑",xp:20,board:true,steps:[
+  {type:"intro",title:"stehen/stellen, liegen/legen",desc:"German distinguishes WHERE something IS from WHERE you PUT it. stehen (standing still) vs stellen (placing upright). liegen (lying flat) vs legen (placing flat). This pairs perfectly with Dative and Accusative.",goals:["Master stehen vs stellen","Master liegen vs legen","Connect verb choice to Wo/Wohin"]},
+
+  {type:"tip",title:"The Verb Pair Logic",text:"Two pairs, one logic:\n\nstehen = to stand (location, already there) + DATIVE\nstellen = to place upright (action, movement) + ACCUSATIVE\n\nliegen = to lie flat (location, already there) + DATIVE\nlegen = to lay flat (action, movement) + ACCUSATIVE\n\nState verb = dative. Action verb = accusative.",deepDive:{title:"Why does German have these pairs?",text:"Proto-Germanic distinguished strong intransitive verbs (liegen, stehen, sitzen, hängen) from their weak causative counterparts (legen = to cause to lie, stellen = to cause to stand). English lost most of these: 'lay' vs 'lie' is the only survivor, and native speakers frequently confuse them. German preserves the full system."}},
+
+  {type:"teach",kind:"word",nl:"stehen",en:"to stand (location)",phonetic:"SHTAY-en",example:"A: Wo steht der Kühlschrank?\nB: Er steht in der Küche, neben dem Herd.\nA: Und das Regal?\nB: Das steht an der Wand.",exampleEn:"A: Where does the fridge stand?\nB: It stands in the kitchen, next to the stove.\nA: And the shelf?\nB: That stands against the wall.",note:"stehen = static position, upright.\nAlways with dative (Wo?)."},
+
+  {type:"teach",kind:"word",nl:"stellen",en:"to place / put upright",phonetic:"SHTEH-len",example:"A: Wohin stellst du die Flasche?\nB: Ich stelle sie in den Kühlschrank.\nA: Und das Glas?\nB: Das stelle ich auf den Tisch.",exampleEn:"A: Where are you putting the bottle?\nB: I am putting it in the fridge.\nA: And the glass?\nB: I am putting that on the table.",note:"stellen = action, placing upright.\nAlways with accusative (Wohin?)."},
+
+  {type:"teach",kind:"word",nl:"liegen",en:"to lie / be lying flat",phonetic:"LEE-gen",example:"A: Wo liegt meine Brille?\nB: Sie liegt auf dem Tisch.\nA: Nein, sie liegt neben dem Buch.\nB: Oh, stimmt!",exampleEn:"A: Where are my glasses?\nB: They are lying on the table.\nA: No, they are lying next to the book.\nB: Oh, right!",note:"liegen = flat, static position.\nAlways with dative (Wo?)."},
+
+  {type:"teach",kind:"word",nl:"legen",en:"to lay / place flat",phonetic:"LAY-gen",example:"A: Wohin legst du das Handtuch?\nB: Ich lege es auf das Bett.\nA: Und die Zeitung?\nB: Die lege ich auf den Stuhl.",exampleEn:"A: Where are you putting the towel?\nB: I am laying it on the bed.\nA: And the newspaper?\nB: I am laying that on the chair.",note:"legen = action, placing flat.\nAlways with accusative (Wohin?)."},
+
+  {type:"tip",title:"Quick Test: stehen/stellen vs liegen/legen",text:"Is the object UPRIGHT (bottle, vase, lamp) or FLAT (book, paper, clothes)?\n\nUpright: stehen / stellen\nFlat: liegen / legen\n\nThen: LOCATION (already there) or ACTION (you move it)?\n\nLocation: stehen / liegen + dative\nAction: stellen / legen + accusative"},
+
+  {type:"mc",q:"'Das Buch ___ auf dem Tisch.' (already lying flat, state):",opts:["stellt","legt","liegt","steht"],ans:"liegt",hint:"Book already lying flat on the table. State verb for flat objects."},
+
+  {type:"mc",q:"'Ich ___ das Buch auf den Tisch.' (placing flat, action):",opts:["liege","stehe","lege","stelle"],ans:"lege",hint:"You are placing something flat. Action verb for flat objects."},
+
+  {type:"mc",q:"'Die Flasche ___ im Kühlschrank.' (upright, already inside, state):",opts:["liegt","legt","steht","stellt"],ans:"steht",hint:"Bottle standing upright inside the fridge. State verb for upright."},
+
+  {type:"mc",q:"'Ich ___ die Flasche in den Kühlschrank.' (placing upright, action):",opts:["stehe","lege","liege","stelle"],ans:"stelle",hint:"You are placing something upright. Action verb for upright."},
+
+  {type:"fb",s:"Das Handy ___ auf dem Tisch.",a:"liegt",opts:["liegt","legt","steht","stellt"],hint:"Phone lying flat, already there. State verb for flat objects."},
+
+  {type:"fb",s:"Ich ___ das Handy auf den Tisch.",a:"lege",opts:["lege","liege","stelle","stehe"],hint:"I am placing the phone flat. Action verb for flat objects."},
+
+  {type:"mc",q:"'Wo ___ die Bücher? Sie ___ im Regal.' Choose the correct verb for both blanks:",opts:["legen / liegen","liegen / stehen","stehen / stehen","liegen / liegen"],ans:"liegen / liegen",hint:"Books lying flat in the shelf. State verb for flat objects fills both blanks."},
+
+  {type:"drag_fill",s:"{1} die Vase auf dem Tisch? Nein, ich {2} sie auf das Regal.",blanks:{"1":"Steht","2":"stelle"},pool:["Steht","Stellt","Liegt","stelle","lege","stehe"],hint:"Vase = upright. First: is it there already (state)? Second: I am moving it (action)."},
+
+  {type:"mc",q:"'Ich lege die Jacke auf ___.' (das Bett = bed, neuter, accusative):",opts:["dem Bett","der Bett","den Bett","das Bett"],ans:"das Bett",hint:"legen = action = accusative. das Bett = neuter. Neuter accusative = das."},
+
+  {type:"mc",q:"'Die Jacke liegt auf ___.' (das Bett = bed, neuter, dative):",opts:["das Bett","der Bett","den Bett","dem Bett"],ans:"dem Bett",hint:"liegen = state = dative. das Bett neuter dative = dem."},
+
+  {type:"match",pairs:[{nl:"stehen + Dativ",en:"to stand (location)"},{nl:"stellen + Akkusativ",en:"to place upright (action)"},{nl:"liegen + Dativ",en:"to lie flat (location)"},{nl:"legen + Akkusativ",en:"to lay flat (action)"}]},
+
+  {type:"mc",q:"Error check: 'Ich stehe das Buch auf den Tisch.' What is wrong?",opts:["The case is wrong","stehe should be stelle","The preposition is wrong","Nothing is wrong"],ans:"stehe should be stelle",hint:"stehe = I stand (intransitive, cannot take an object). To place something = which verb?"},
+
+  {type:"drag_fill",s:"Das Handtuch {1} am Haken, und ich {2} die Seife neben das Waschbecken.",blanks:{"1":"hängt","2":"lege"},pool:["hängt","hänge","lege","liege","steht","stelle"],hint:"Towel hanging on hook (state), soap being placed flat beside sink (action)."},
+]},
+
+// ═══ L5: hängen, setzen, sitzen ═══
+{id:"deu12l5",title:"hängen, setzen, sitzen",icon:"🪞",xp:20,board:true,steps:[
+  {type:"intro",title:"hängen, setzen, sitzen",desc:"Three more positional verb pairs: hängen (hang state vs hang action), sitzen (sitting) vs setzen (to sit down), plus the reflexive sich setzen. These complete the core set of placement verbs.",goals:["Use hängen state vs action","Use sitzen vs setzen","Use sich setzen (reflexive)"]},
+
+  {type:"teach",kind:"word",nl:"hängen (intransitiv)",en:"to hang / be hanging (state)",phonetic:"HENG-en",example:"A: Wo hängt das Bild?\nB: Es hängt an der Wand über dem Sofa.\nA: Es hängt sehr schief!\nB: Ich richte es gerade.",exampleEn:"A: Where does the picture hang?\nB: It hangs on the wall above the sofa.\nA: It is hanging very crooked!\nB: I will straighten it.",note:"hängen (intransitive) = state.\nEs hängt an der Wand = it is hanging there.\nWith dative (Wo?)."},
+
+  {type:"teach",kind:"word",nl:"hängen (transitiv)",en:"to hang / put up (action)",phonetic:"HENG-en",example:"A: Wohin hängst du die Jacke?\nB: Ich hänge sie an den Haken.\nA: Und den Mantel?\nB: Den hänge ich in den Schrank.",exampleEn:"A: Where are you hanging the jacket?\nB: I am hanging it on the hook.\nA: And the coat?\nB: I am hanging that in the wardrobe.",note:"hängen (transitive) = action.\nIch hänge es an den Haken.\nWith accusative (Wohin?).\nSame spelling, different grammar!"},
+
+  {type:"tip",title:"Two hängens: One Word, Two Functions",text:"hängen (intransitive) = to be hanging (state):\nDas Bild hängt an der Wand. (dative)\n\nhängen (transitive) = to hang up (action):\nIch hänge das Bild an die Wand. (accusative)\n\nTest: if there is a direct object being moved, it is the action version. If the subject itself is simply there, it is the state version.",deepDive:{title:"Strong vs weak forms of hängen",text:"The intransitive hängen is a strong verb: hing / gehangen (past forms). The transitive action hängen is weak: hängte / gehängt. So 'Das Bild hat an der Wand gehangen' (state past) vs 'Ich habe das Bild an die Wand gehängt' (action past). The past tense forms help you tell them apart."}},
+
+  {type:"teach",kind:"word",nl:"sitzen",en:"to sit / be sitting",phonetic:"ZIT-sen",example:"A: Wo sitzt du?\nB: Ich sitze am Fenster.\nA: Sitzt du gern am Fenster?\nB: Ja, ich liebe den Ausblick.",exampleEn:"A: Where are you sitting?\nB: I am sitting by the window.\nA: Do you like sitting by the window?\nB: Yes, I love the view.",note:"sitzen = state, already seated.\nWith dative (Wo?).\nIrregular: ich sitze, du sitzt, er sitzt."},
+
+  {type:"teach",kind:"word",nl:"sich setzen",en:"to sit down (reflexive)",phonetic:"zikh ZET-sen",example:"A: Setzen Sie sich bitte!\nB: Danke, ich setze mich hier.\nA: Möchten Sie Kaffee?\nB: Ja, gern.",exampleEn:"A: Please sit down!\nB: Thank you, I will sit here.\nA: Would you like coffee?\nB: Yes, please.",note:"sich setzen = action of sitting down.\nAlways reflexive: ich setze mich, du setzt dich.\nWith accusative (Wohin?): Sie setzt sich auf den Stuhl."},
+
+  {type:"teach",kind:"word",nl:"setzen",en:"to place / set (something)",phonetic:"ZET-sen",example:"A: Wohin setzt du das Kind?\nB: Ich setze es auf den Stuhl.\nA: Es kann noch nicht alleine sitzen.\nB: Stimmt, ich halte es fest.",exampleEn:"A: Where are you placing the child?\nB: I am putting it on the chair.\nA: It cannot sit alone yet.\nB: True, I am holding it steady.",note:"setzen (transitive) = to place/seat something.\nWith accusative.\nContrast: sitzen = state, setzen = action."},
+
+  {type:"mc",q:"'Das Kind sitzt ___ Stuhl.' (der Stuhl = chair, location):",opts:["auf den","auf dem","auf der","auf das"],ans:"auf dem",hint:"sitzen = state = dative. der Stuhl = masculine. Dative masculine = dem."},
+
+  {type:"mc",q:"'Das Kind setzt sich ___ Stuhl.' (direction, sitting down):",opts:["auf dem","auf der","auf den","auf das"],ans:"auf den",hint:"sich setzen = movement = accusative. der Stuhl = masculine. Accusative masculine = den."},
+
+  {type:"mc",q:"'Das Bild hängt ___ Wand.' (die Wand, state/location):",opts:["an die","an das","an den","an der"],ans:"an der",hint:"hängen (state) = dative. die Wand = feminine. Dative feminine = der."},
+
+  {type:"mc",q:"'Ich hänge das Bild ___ Wand.' (direction, placing it there):",opts:["an der","an dem","an die","ans"],ans:"an die",hint:"hängen (action) = accusative. die Wand = feminine. Accusative feminine = die."},
+
+  {type:"fb",s:"Ich ___ mich auf das Sofa.",a:"setze",opts:["setze","sitze","stehe","liege"],hint:"I am sitting DOWN (action). Which reflexive verb?"},
+
+  {type:"fb",s:"Ich ___ schon auf dem Sofa.",a:"sitze",opts:["sitze","setze","stehe","lege"],hint:"I am already seated (state). Which verb?"},
+
+  {type:"match",pairs:[{nl:"sitzen + Dativ",en:"to be sitting (state)"},{nl:"sich setzen + Akkusativ",en:"to sit down (action)"},{nl:"hängen intrans. + Dativ",en:"to be hanging (state)"},{nl:"hängen trans. + Akkusativ",en:"to hang up (action)"}]},
+
+  {type:"mc",q:"'Setzen Sie sich!' means:",opts:["Please stand up","Please sit down","Where are you sitting?","Do you want to sit?"],ans:"Please sit down",hint:"Setzen Sie sich = formal imperative of sich setzen."},
+
+  {type:"drag_fill",s:"Das Handtuch {1} am Haken. Ich {2} meine Jacke an den Haken.",blanks:{"1":"hängt","2":"hänge"},pool:["hängt","hänge","hängen","liegt","lege","steht"],hint:"Towel is there already (state). I am placing my jacket (action)."},
+
+  {type:"mc",q:"'Wo sitzt der Chef?' He is at his desk. Which is correct?",opts:["Er sitzt an seinem Schreibtisch.","Er setzt sich an seinen Schreibtisch.","Er sitzt an seinen Schreibtisch.","Er setzt sich an seinem Schreibtisch."],ans:"Er sitzt an seinem Schreibtisch.",hint:"sitzt = state = dative. seinem Schreibtisch = dative of sein Schreibtisch."},
+
+  {type:"mc",q:"'Wohin setzt du das Baby?' Choose the correct answer:",opts:["Ich setze es auf dem Stuhl.","Ich sitze es auf den Stuhl.","Ich setze es auf den Stuhl.","Ich sitze es auf dem Stuhl."],ans:"Ich setze es auf den Stuhl.",hint:"setzen (transitive) + accusative. der Stuhl masculine → den."},
+
+  {type:"tip",title:"The Full Positional Verb System",text:"State (Wo? + dative):\nstehen, liegen, sitzen, hängen (intrans.)\n\nAction (Wohin? + accusative):\nstellen, legen, setzen / sich setzen, hängen (trans.)\n\nMemory key: the action verb takes a direct object (something is being moved). The state verb just describes where something already is."},
+]},
+
+// ═══ L6: Contractions ═══
+{id:"deu12l6",title:"Contractions: im, ins, am, ans",icon:"🔗",xp:20,board:true,steps:[
+  {type:"intro",title:"Contractions: im, ins, am, ans",desc:"German regularly contracts 'in dem', 'in das', 'an dem', and 'an das' into single words: im, ins, am, ans. These contractions are mandatory in most contexts. Let's learn them all.",goals:["Use im, ins, am, ans correctly","Know when contractions are mandatory","Apply contractions to real sentences"]},
+
+  {type:"tip",title:"The Core Four Contractions",text:"in + dem = im (dative, location)\nin + das = ins (accusative, direction)\nan + dem = am (dative, location)\nan + das = ans (accusative, direction)\n\nThese are NOT optional in normal speech.\nim Zimmer, ins Kino, am Bahnhof, ans Meer.",deepDive:{title:"Are there more contractions in German?",text:"Yes. The full list includes: im, ins, am, ans, aufs (auf + das), vors (vor + das), hinters (hinter + das), unters (unter + das), übers (über + das). The an/in group is most common. For A2, master im, ins, am, ans first."}},
+
+  {type:"teach",kind:"phrase",nl:"im (in + dem)",en:"in the (dative, location)",phonetic:"im",example:"A: Wo bist du?\nB: Ich bin im Supermarkt.\nA: Wie lange bist du noch im Supermarkt?\nB: Nur noch zehn Minuten.",exampleEn:"A: Where are you?\nB: I am in the supermarket.\nA: How much longer are you in the supermarket?\nB: Only ten more minutes.",note:"im = in + dem.\nUsed with masculine and neuter nouns in dative.\nim Supermarkt (der), im Zimmer (das)."},
+
+  {type:"teach",kind:"phrase",nl:"ins (in + das)",en:"into the (accusative, direction)",phonetic:"ins",example:"A: Wohin gehst du?\nB: Ich gehe ins Kino.\nA: Welchen Film schaust du?\nB: Den neuen Actionfilm.",exampleEn:"A: Where are you going?\nB: I am going to the cinema.\nA: Which film are you watching?\nB: The new action film.",note:"ins = in + das.\nUsed with neuter nouns in accusative (direction).\nins Kino (das), ins Büro (das), ins Bett (das)."},
+
+  {type:"teach",kind:"phrase",nl:"am (an + dem)",en:"at the / on the (dative, location)",phonetic:"am",example:"A: Wo treffen wir uns?\nB: Am Bahnhof, vor dem Haupteingang.\nA: Um wie viel Uhr?\nB: Um halb drei.",exampleEn:"A: Where shall we meet?\nB: At the station, in front of the main entrance.\nA: What time?\nB: At half past two.",note:"am = an + dem.\nUsed with masculine and neuter nouns in dative.\nAlso used for time: am Montag, am Abend."},
+
+  {type:"teach",kind:"phrase",nl:"ans (an + das)",en:"to the (accusative, direction)",phonetic:"ans",example:"A: Wohin fahren wir?\nB: Ans Meer!\nA: Toll! Ich freue mich so.\nB: Wir fahren ans Meer jedes Jahr.",exampleEn:"A: Where are we driving?\nB: To the sea!\nA: Great! I am so excited.\nB: We drive to the sea every year.",note:"ans = an + das.\nUsed with neuter nouns in accusative.\nans Meer (das), ans Fenster (das), ans Telefon (das)."},
+
+  {type:"tip",title:"Feminine Has NO Contraction",text:"in die Küche, an die Wand, in die Schule, an die Tür.\n\nFeminine (die) has no contracted form.\nOnly masculine/neuter in dative get im/am.\nOnly neuter in accusative gets ins/ans.\n\nFeminine accusative: always 'in die', 'an die' in full.",deepDive:{title:"Why no feminine contraction?",text:"Masculine and neuter share 'dem' in the dative, which contracts easily to 'im/am'. Feminine has 'der' in the dative. 'in der' does not contract because 'inder' would be ambiguous. The system is not perfectly symmetrical but follows the path of least resistance in spoken German."}},
+
+  {type:"teach",kind:"phrase",nl:"aufs (auf + das)",en:"onto the (neuter, accusative)",phonetic:"owfs",example:"A: Wohin gehst du?\nB: Aufs Dach! Ich repariere etwas.\nA: Sei vorsichtig!\nB: Keine Sorge, ich passe auf.",exampleEn:"A: Where are you going?\nB: Onto the roof! I am fixing something.\nA: Be careful!\nB: No worries, I will be careful.",note:"aufs = auf + das.\nLess mandatory than im/ins/am/ans.\nCommon with: aufs Bett, aufs Land, aufs Dach."},
+
+  {type:"mc",q:"'Ich gehe ___ Kino.' (das Kino, direction into):",opts:["in dem","im","ins","in die"],ans:"ins",hint:"in + das (neuter, accusative) = ?"},
+
+  {type:"mc",q:"'Er ist ___ Büro.' (das Büro, location inside):",opts:["ins","in das","im","in die"],ans:"im",hint:"in + dem (neuter, dative) = ?"},
+
+  {type:"mc",q:"'Wir fahren ___ Meer.' (das Meer, direction toward):",opts:["am","ans","im","an das"],ans:"ans",hint:"an + das (neuter, accusative) = ?"},
+
+  {type:"mc",q:"'Das Konzert ist ___ Samstag.' Which contraction is used with days?",opts:["im","ans","ins","am"],ans:"am",hint:"an + dem for days and times. Which contraction?"},
+
+  {type:"fb",s:"Sie sitzt ___ Fenster und schaut raus.",a:"am",opts:["am","ans","im","ins"],hint:"an + dem (dative, location at the window) = ?"},
+
+  {type:"mc",q:"'Ich gehe ___ Schule.' (die Schule, direction, feminine):",opts:["ins","im","in die","in der"],ans:"in die",hint:"die Schule is feminine. Feminine has NO contraction. Accusative feminine = die."},
+
+  {type:"match",pairs:[{nl:"im",en:"in + dem (m/n dative)"},{nl:"ins",en:"in + das (n accusative)"},{nl:"am",en:"an + dem (m/n dative)"},{nl:"ans",en:"an + das (n accusative)"}]},
+
+  {type:"mc",q:"'Ich hänge den Mantel ___ Haken.' (der Haken = hook, direction, masculine):",opts:["am","ans","an den","an dem"],ans:"an den",hint:"der Haken is MASCULINE. Accusative masculine = den. No contraction exists for an + den."},
+
+  {type:"drag_fill",s:"Morgens gehe ich {1} Bäckerei, dann fahre ich {2} Büro.",blanks:{"1":"in die","2":"ins"},pool:["in die","ins","im","an die","am","ans"],hint:"Bäckerei = die (feminine, no contraction). Büro = das (neuter, contraction applies)."},
+
+  {type:"mc",q:"Which of these is non-standard in modern spoken German?",opts:["im Supermarkt","ins Kino","am Bahnhof","in dem Zimmer"],ans:"in dem Zimmer",hint:"When a contraction exists (im, ins, am, ans), using the full form sounds unnatural."},
+
+  {type:"mc",q:"'Er geht ___ Bett.' (das Bett, direction into bed):",opts:["im","am","ans","ins"],ans:"ins",hint:"in + das (neuter accusative) = ?"},
+
+  {type:"mc",q:"'Er liegt ___ Bett.' (das Bett, location in bed):",opts:["ins","ans","im","am"],ans:"im",hint:"in + dem (neuter dative) = ?"},
+]},
+
+// ═══ L7: Mein Zimmer beschreiben ═══
+{id:"deu12l7",title:"Mein Zimmer beschreiben",icon:"🛋️",xp:20,board:true,steps:[
+  {type:"intro",title:"Mein Zimmer beschreiben",desc:"Time to use everything. Describe where things ARE in a room (Wo? + dative) and where you PUT things (Wohin? + accusative). All nine prepositions, positional verbs, and contractions come together here.",goals:["Describe room layout using all 9 prepositions","Combine state and action verbs","Use contractions naturally in room descriptions"]},
+
+  {type:"teach",kind:"phrase",nl:"das Zimmer einrichten",en:"to furnish / arrange a room",phonetic:"das TSIM-mer ain-RIKH-ten",example:"A: Wie richtest du dein Zimmer ein?\nB: Ich stelle das Bett an die Wand.\nA: Und den Schreibtisch?\nB: Den stelle ich vor das Fenster.",exampleEn:"A: How are you arranging your room?\nB: I am putting the bed against the wall.\nA: And the desk?\nB: I am putting that in front of the window.",note:"einrichten = to furnish, arrange.\nSeparable: richte... ein."},
+
+  {type:"teach",kind:"word",nl:"der Schreibtisch",en:"the desk",phonetic:"dair SHRAIP-tish",example:"A: Wo steht dein Schreibtisch?\nB: Er steht vor dem Fenster.\nA: Und die Lampe?\nB: Die hängt über dem Schreibtisch.",exampleEn:"A: Where does your desk stand?\nB: It stands in front of the window.\nA: And the lamp?\nB: It hangs above the desk.",note:"der Schreibtisch (masculine).\nSchreib (writing) + Tisch (table) = writing table."},
+
+  {type:"teach",kind:"word",nl:"das Regal",en:"the shelf / bookcase",phonetic:"das ray-GAHL",example:"A: Wo stehen deine Bücher?\nB: Sie stehen im Regal.\nA: Wo steht das Regal?\nB: Es steht zwischen dem Schreibtisch und dem Bett.",exampleEn:"A: Where are your books?\nB: They are in the bookcase.\nA: Where does the bookcase stand?\nB: It stands between the desk and the bed.",note:"das Regal (neuter).\nim Regal = in the bookcase. Note: in, not auf, for shelves."},
+
+  {type:"teach",kind:"word",nl:"der Kleiderschrank",en:"the wardrobe",phonetic:"dair KLAI-der-shrank",example:"A: Wo hängen deine Jacken?\nB: Im Kleiderschrank, neben meinen Hemden.\nA: Und deine Schuhe?\nB: Die stehen vor dem Kleiderschrank.",exampleEn:"A: Where do your jackets hang?\nB: In the wardrobe, next to my shirts.\nA: And your shoes?\nB: They stand in front of the wardrobe.",note:"der Kleiderschrank (masculine).\nKleider (clothes) + Schrank (cabinet)."},
+
+  {type:"teach",kind:"word",nl:"das Fenster",en:"the window",phonetic:"das FENS-ter",example:"A: Wo sitzt du am liebsten?\nB: Am Fenster, natürlich!\nA: Was siehst du durchs Fenster?\nB: Den Garten und die Straße.",exampleEn:"A: Where do you like sitting most?\nB: By the window, of course!\nA: What do you see through the window?\nB: The garden and the street.",note:"das Fenster (neuter).\nans Fenster = toward the window (accusative).\nam Fenster = at the window (dative)."},
+
+  {type:"teach",kind:"phrase",nl:"Das Bett steht an der Wand.",en:"The bed stands against the wall.",phonetic:"das BET shtayt an dair VANT",example:"A: Wie ist dein Zimmer eingerichtet?\nB: Das Bett steht an der Wand, und der Schreibtisch steht vor dem Fenster.\nA: Und das Regal?\nB: Das Regal steht neben der Tür.",exampleEn:"A: How is your room arranged?\nB: The bed stands against the wall, and the desk stands in front of the window.\nA: And the bookcase?\nB: The bookcase stands next to the door.",note:"Full sentence combining stehen + dative location."},
+
+  {type:"mc",q:"'Das Bett steht ___ Wand.' (die Wand, location, against):",opts:["an die","an der","an dem","an das"],ans:"an der",hint:"stehen = state = dative. die Wand = feminine dative = der."},
+
+  {type:"mc",q:"'Ich stelle den Stuhl ___ Tisch.' (der Tisch, direction, next to):",opts:["neben dem","neben den","neben der","neben das"],ans:"neben den",hint:"stellen = action = accusative. der Tisch = masculine accusative = den."},
+
+  {type:"mc",q:"'Die Lampe hängt ___ Schreibtisch.' (der Schreibtisch, above, location):",opts:["über den","über die","über dem","übers"],ans:"über dem",hint:"hängen (state) = dative. der Schreibtisch = masculine dative = dem."},
+
+  {type:"fb",s:"Die Bücher stehen ___ Regal.",a:"im",opts:["im","ins","am","ans"],hint:"in + dem (das Regal, neuter, dative location) = ?"},
+
+  {type:"drag_fill",s:"{1} steht das Sofa? Es steht {2} der Wand, {3} dem Fernseher.",blanks:{"1":"Wo","2":"an","3":"vor"},pool:["Wo","Wohin","an","auf","vor","unter"],hint:"First: location question word. Then: against the wall, in front of the TV."},
+
+  {type:"mc",q:"'Ich hänge die Lampe ___ Tisch.' (der Tisch, direction, over):",opts:["über dem","über den","übers","über die"],ans:"über den",hint:"hängen (action) = accusative. der Tisch = masculine accusative = den."},
+
+  {type:"mc",q:"'Das Poster hängt ___ Bett.' (das Bett, above, location):",opts:["über das","über dem","über den","über der"],ans:"über dem",hint:"hängen (state) = dative. das Bett = neuter dative = dem."},
+
+  {type:"mc",q:"'Ich lege das Kissen ___ Sofa.' (das Sofa, onto, direction):",opts:["auf dem","auf der","auf den","auf das"],ans:"auf das",hint:"legen = action = accusative. das Sofa = neuter accusative = das."},
+
+  {type:"drag_fill",s:"Ich stelle den Schreibtisch {1} das Fenster und lege das Buch {2} den Tisch.",blanks:{"1":"vor","2":"auf"},pool:["vor","hinter","auf","unter","an","neben"],hint:"Desk in front of the window, book on top of the table."},
+
+  {type:"match",pairs:[{nl:"Das Bett steht an der Wand.",en:"The bed is against the wall."},{nl:"Ich stelle das Bett an die Wand.",en:"I put the bed against the wall."},{nl:"Das Regal steht neben der Tür.",en:"The shelf is next to the door."},{nl:"Ich stelle das Regal neben die Tür.",en:"I put the shelf next to the door."}]},
+
+  {type:"mc",q:"'Zwischen dem Sofa und dem Tisch liegt der Teppich.' Where is the rug?",opts:["On the sofa","On the table","Between the sofa and table","Under the table"],ans:"Between the sofa and table",hint:"zwischen = between. Dative = location."},
+
+  {type:"mc",q:"'Der Spiegel hängt über ___.' (das Waschbecken = sink, neuter, location above):",opts:["dem Waschbecken","das Waschbecken","den Waschbecken","der Waschbecken"],ans:"dem Waschbecken",hint:"hängen (state) = dative. das Waschbecken = neuter dative = dem."},
+
+  {type:"mc",q:"'Ich stelle die Pflanze ___ Fenster.' (das Fenster, next to, direction):",opts:["neben dem","neben das","neben den","neben der"],ans:"neben das",hint:"stellen = action = accusative. das Fenster = neuter accusative = das."},
+]},
+
+// ═══ L8: Wechselpräp Review ═══
+{id:"deu12l8",title:"Wechselpräp Review",icon:"🔁",xp:20,board:true,steps:[
+  {type:"intro",title:"Wechselpräp Review",desc:"Final review of everything in Unit 12: all nine two-way prepositions, Wo vs Wohin, dative vs accusative, positional verb pairs, and contractions. Mixed practice from all angles.",goals:["Distinguish Wo and Wohin reliably","Apply all 9 Wechselpräpositionen","Use stehen/stellen, liegen/legen, sitzen/setzen, hängen correctly","Use contractions naturally"]},
+
+  {type:"tip",title:"Unit 12 Complete Summary",text:"Nine Wechselpräpositionen:\nin, an, auf, über, unter, vor, hinter, neben, zwischen\n\nWo? + DATIVE: dem (m/n), der (f), den (pl)\nWohin? + ACCUSATIVE: den (m), die (f), das (n)\n\nState verbs (Wo + dative): stehen, liegen, sitzen, hängen (intrans.)\nAction verbs (Wohin + acc.): stellen, legen, setzen, hängen (trans.)\n\nContractions: im, ins, am, ans"},
+
+  {type:"mc",q:"'Das Glas steht auf dem Tisch.' Is this Wo? or Wohin?",opts:["Wohin, accusative","Wo, dative","Wohin, dative","Wo, accusative"],ans:"Wo, dative",hint:"Steht = state verb. Wo? = dative."},
+
+  {type:"mc",q:"'Ich stelle das Glas auf den Tisch.' Is this Wo? or Wohin?",opts:["Wo, dative","Wohin, dative","Wo, accusative","Wohin, accusative"],ans:"Wohin, accusative",hint:"Stelle = action verb. Wohin? = accusative."},
+
+  {type:"mc",q:"'Die Katze liegt ___ Sofa.' (das Sofa, under, location):",opts:["unter das","unter den","unter dem","unter der"],ans:"unter dem",hint:"liegen = state = dative. das Sofa = neuter dative = dem."},
+
+  {type:"mc",q:"'Die Katze läuft ___ Sofa.' (das Sofa, under, direction):",opts:["unter dem","unter der","unter das","unter den"],ans:"unter das",hint:"läuft = movement = accusative. das Sofa = neuter accusative = das."},
+
+  {type:"fb",s:"Ich gehe ___ Supermarkt.",a:"in den",opts:["in den","im","in dem","ins"],hint:"der Supermarkt = masculine. Direction = accusative. Masculine accusative = den. No contraction for masc. acc."},
+
+  {type:"fb",s:"Ich bin ___ Supermarkt.",a:"im",opts:["im","ins","in den","in dem"],hint:"der Supermarkt = masculine. Location = dative. in + dem = ?"},
+
+  {type:"mc",q:"'The lamp is above the table.' Correct German sentence:",opts:["Die Lampe hängt über den Tisch.","Die Lampe hängt über dem Tisch.","Die Lampe hänge über dem Tisch.","Die Lampe hängt über der Tisch."],ans:"Die Lampe hängt über dem Tisch.",hint:"State = dative. der Tisch = masculine dative = dem."},
+
+  {type:"mc",q:"'I am hanging the lamp above the table.' Correct German sentence:",opts:["Ich hänge die Lampe über dem Tisch.","Ich hänge die Lampe über den Tisch.","Ich hänge die Lampe über der Tisch.","Ich hänge die Lampe über das Tisch."],ans:"Ich hänge die Lampe über den Tisch.",hint:"Action = accusative. der Tisch = masculine accusative = den."},
+
+  {type:"match",pairs:[{nl:"im Zimmer",en:"in + dem: neuter dative"},{nl:"ins Kino",en:"in + das: neuter accusative"},{nl:"am Bahnhof",en:"an + dem: masc/neut dative"},{nl:"ans Meer",en:"an + das: neuter accusative"}]},
+
+  {type:"mc",q:"'Das Buch stellt auf dem Tisch.' What is wrong here?",opts:["auf is wrong","dem is wrong","stellt is wrong, should be steht","Das is wrong"],ans:"stellt is wrong, should be steht",hint:"stellen = action verb (transitive). For 'the book is there', use stehen (state)."},
+
+  {type:"drag_fill",s:"Das Bild {1} an der Wand, aber ich {2} es über den Schreibtisch.",blanks:{"1":"hängt","2":"hänge"},pool:["hängt","hänge","liegt","lege","steht","stelle"],hint:"First: picture is hanging (state). Second: I am moving it to a new position (action)."},
+
+  {type:"mc",q:"'Sie setzt sich ___ Fenster.' (das Fenster, direction to sit by):",opts:["am","an das","ans","an dem"],ans:"ans",hint:"sich setzen = action = accusative. an + das (neuter) = ?"},
+
+  {type:"mc",q:"'Sie sitzt ___ Fenster.' (das Fenster, state, sitting by):",opts:["ans","an das","am","an die"],ans:"am",hint:"sitzen = state = dative. an + dem (neuter) = ?"},
+
+  {type:"drag_fill",s:"Wo liegt das Buch? Es liegt {1} dem Tisch, {2} dem Regal.",blanks:{"1":"auf","2":"neben"},pool:["auf","unter","neben","vor","hinter","zwischen"],hint:"The book is lying ON the table, NEXT TO the shelf."},
+
+  {type:"mc",q:"'Ich lege die Zeitung zwischen die Stühle.' Which case is used here?",opts:["zwischen + dative plural","zwischen + accusative plural","in + dative neuter","an + accusative feminine"],ans:"zwischen + accusative plural",hint:"legen = action = accusative. die Stühle = plural accusative = die."},
+
+  {type:"mc",q:"'Hinter ___ Haus gibt es einen Garten.' (das Haus, location behind):",opts:["das","den","dem","der"],ans:"dem",hint:"gibt es = there is (state/location). hinter + dative. das Haus = neuter dative = dem."},
+
+  {type:"fb",s:"Das Sofa steht vor ___ Fernseher.",a:"dem",opts:["dem","den","der","das"],hint:"der Fernseher = masculine. vor + dative (state). Masculine dative = ?"},
+
+  {type:"mc",q:"'Sie stellen die Stühle vor ___ Bühne.' (die Bühne = stage, direction):",opts:["der","dem","die","das"],ans:"die",hint:"stellen = action = accusative. die Bühne = feminine. Feminine accusative = die."},
+]},
+
+]},
+
+
+// ══════════════════════════════════════════════════════════════
+// UNIT 7: Unterwegs — Directions, Transport & Modal Verbs A1.2
+// ══════════════════════════════════════════════════════════════
+{n:7,lang:"de",track:"v1",title:"Unterwegs",sub:"Directions, Transport & Modal Verbs",icon:"🚌",level:"A1.2",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Verkehrsmittel ═══
+{id:"deu7l1",title:"Verkehrsmittel",icon:"🚌",xp:15,board:true,steps:[
+  {type:"intro",title:"Verkehrsmittel",desc:"How do you get around in Germany? By bus, by bike, or on foot? In this lesson you learn the core transport words that will carry you through every city.",goals:["6 transport nouns with articles","Say how you travel: mit + vehicle","Understand zu Fuß (on foot)"]},
+  {type:"teach",kind:"word",nl:"der Bus",en:"the bus",phonetic:"der BOOS",example:"A: Nimmst du den Bus?\nB: Ja, der Bus fährt alle zehn Minuten.\nA: Perfekt!",exampleEn:"A: Are you taking the bus?\nB: Yes, the bus runs every ten minutes.\nA: Perfect!",note:"Masculine (der). Regular public transport in every German city."},
+  {type:"teach",kind:"word",nl:"die U-Bahn",en:"the underground / subway",phonetic:"dee OO-bahn",example:"A: Wo ist die U-Bahn?\nB: Die U-Bahn ist da drüben.\nA: Danke!",exampleEn:"A: Where is the subway?\nB: The subway is over there.\nA: Thanks!",note:"Feminine (die). U = Untergrund (underground). Major German cities have extensive U-Bahn networks."},
+  {type:"teach",kind:"word",nl:"die Straßenbahn",en:"the tram",phonetic:"dee SHTRAH-sen-bahn",example:"A: Fährt hier eine Straßenbahn?\nB: Ja, die Linie 4 kommt gleich.\nA: Gut, ich nehme die Straßenbahn.",exampleEn:"A: Does a tram run here?\nB: Yes, line 4 is coming soon.\nA: Good, I will take the tram.",note:"Feminine (die). Straße = street + Bahn = rail/path. Common in cities like Freiburg, Dresden, and Frankfurt."},
+  {type:"teach",kind:"word",nl:"das Auto",en:"the car",phonetic:"dahs OW-toh",cognate:{words:[{lang:"English",word:"automobile"},{lang:"Dutch",word:"auto"}],family:"germanic"},example:"A: Hast du ein Auto?\nB: Ja, aber ich nehme oft den Bus.\nA: Warum?\nB: Parken ist zu teuer.",exampleEn:"A: Do you have a car?\nB: Yes, but I often take the bus.\nA: Why?\nB: Parking is too expensive.",note:"Neuter (das). Short for Automobil. Germany is famous for its car culture and the Autobahn."},
+  {type:"teach",kind:"word",nl:"das Fahrrad",en:"the bicycle",phonetic:"dahs FAR-raht",cognate:{words:[{lang:"English",word:"farrad (archaic fare-wheel)"},{lang:"Dutch",word:"fiets"}],family:"germanic"},example:"A: Ich nehme heute das Fahrrad.\nB: Gute Idee! Das Wetter ist schön.\nA: Ja, und es ist schneller als der Bus.",exampleEn:"A: I am taking the bicycle today.\nB: Good idea! The weather is nice.\nA: Yes, and it is faster than the bus.",note:"Neuter (das). Fahr = travel + Rad = wheel. Germany has excellent cycling infrastructure."},
+  {type:"tip",title:"Mit + Vehicle = How You Travel",text:"To say how you travel, use:\nMit + dem/der + vehicle\n\nIch fahre mit dem Bus. (I travel by bus.)\nIch fahre mit dem Auto. (I travel by car.)\nIch fahre mit der U-Bahn. (I travel by U-Bahn.)\nIch fahre mit dem Fahrrad. (I ride the bike.)\n\nException: zu Fuß (on foot). No article, no mit.",deepDive:{title:"Why dative after mit?",text:"Mit is a dative preposition. The article that follows must be in dative form:\nder Bus (nominative) becomes dem Bus (dative).\ndie U-Bahn (nominative) becomes der U-Bahn (dative).\ndas Auto (nominative) becomes dem Auto (dative).\nYou will study dative fully in A2. For now, just learn the mit-phrases as fixed chunks."}},
+  {type:"teach",kind:"phrase",nl:"zu Fuß",en:"on foot",phonetic:"tsoo FOOS",example:"A: Wie kommst du zur Schule?\nB: Ich gehe zu Fuß. Es sind nur fünf Minuten.\nA: Das ist praktisch!",exampleEn:"A: How do you get to school?\nB: I go on foot. It is only five minutes.\nA: That is practical!",note:"Fixed phrase. No article. Fuß = foot. zu Fuß gehen = to walk."},
+  {type:"verb_table",title:"fahren (to travel/drive) — present tense",label:"fahren",groups:[{label:"singular",rows:[["ich","fahre"],["du","fährst"],["er/sie/es","fährt"]]},{label:"plural",rows:[["wir","fahren"],["ihr","fahrt"],["Sie/sie","fahren"]]}],note:"fahren has a vowel change: a to ä in du/er forms. Common with all transport."},
+  {type:"mc",q:"'Die U-Bahn' means:",opts:["the tram","the bus","the underground/subway","the bicycle"],ans:"the underground/subway",hint:"U stands for Untergrund = underground."},
+  {type:"mc",q:"'Das Fahrrad' means:",opts:["the car","the bicycle","the tram","the bus"],ans:"the bicycle",hint:"Fahr = travel. Rad = wheel."},
+  {type:"fb",s:"Ich fahre mit ___ Bus in die Stadt.",a:"dem",opts:["dem","der","das","den"],hint:"Mit always takes dative. Der Bus becomes ___ Bus in dative."},
+  {type:"mc",q:"Which phrase means 'on foot' in German?",opts:["mit dem Fuß","zu Fuß","auf Fuß","per Fuß"],ans:"zu Fuß",hint:"A fixed phrase. No article used here."},
+  {type:"match",pairs:[{nl:"der Bus",en:"the bus"},{nl:"die U-Bahn",en:"the subway"},{nl:"das Auto",en:"the car"},{nl:"das Fahrrad",en:"the bicycle"}]},
+  {type:"mc",q:"Which sentence says 'I travel by tram'?",opts:["Ich fahre zu Fuß.","Ich fahre mit dem Auto.","Ich fahre mit der Straßenbahn.","Ich nehme den Bus."],ans:"Ich fahre mit der Straßenbahn.",hint:"Straßenbahn is feminine. Mit + dative feminine = mit der."},
+  {type:"fb",s:"___ Straßenbahn fährt um acht Uhr.",a:"Die",opts:["Die","Der","Das","Den"],hint:"What article does Straßenbahn take? Nominative subject position."},
+  {type:"mc",q:"'Du fährst' is the du-form of which verb?",opts:["fahren","finden","fallen","fragen"],ans:"fahren",hint:"Du form has an umlaut vowel change: a becomes ä."},
+  {type:"drag_fill",s:"Ich gehe {1} Fuß, aber mein Vater fährt mit {2} Auto.",blanks:{"1":"zu","2":"dem"},pool:["zu","mit","dem","der","das","nach","ein"],hint:"Two transport phrases in one sentence."},
+  {type:"mc",q:"Which article does Bus take?",opts:["die","das","der","keine"],ans:"der",hint:"Der Bus. Masculine."},
+  {type:"mc",q:"Complete: 'Ich fahre mit ___ U-Bahn.'",opts:["dem","der","das","den"],ans:"der",hint:"Die U-Bahn is feminine. Mit + dative feminine = mit der."},
+]},
+
+// ═══ L2: Wohin gehst du? ═══
+{id:"deu7l2",title:"Wohin gehst du?",icon:"🗺️",xp:15,board:true,steps:[
+  {type:"intro",title:"Wohin gehst du?",desc:"Someone asks for directions. Can you help? Left, right, straight ahead, traffic light, crossing. These five words will get you through any German city.",goals:["Core direction words","Describe a route step by step","Understand and give simple directions"]},
+  {type:"teach",kind:"word",nl:"links",en:"left",phonetic:"links",cognate:{words:[{lang:"English",word:"links (archaic)"},{lang:"Dutch",word:"links"}],family:"germanic"},example:"A: Wo ist die Post?\nB: Gehen Sie links. Dann die erste Straße.\nA: Links, verstanden. Danke!",exampleEn:"A: Where is the post office?\nB: Go left. Then the first street.\nA: Left, understood. Thank you!",note:"Direction word. No article. Links is also used for 'on the left side'."},
+  {type:"teach",kind:"word",nl:"rechts",en:"right",phonetic:"rechts",cognate:{words:[{lang:"English",word:"right"},{lang:"Dutch",word:"rechts"}],family:"germanic"},example:"A: Wie komme ich zum Bahnhof?\nB: Gehen Sie hier rechts, dann geradeaus.\nA: Rechts, dann geradeaus. Danke!",exampleEn:"A: How do I get to the station?\nB: Go right here, then straight ahead.\nA: Right, then straight ahead. Thanks!",note:"Direction word. No article. Rechts also means 'on the right side'."},
+  {type:"teach",kind:"word",nl:"geradeaus",en:"straight ahead",phonetic:"ge-rah-de-OWS",example:"A: Ist die Apotheke weit?\nB: Nein, gehen Sie einfach geradeaus.\nA: Wie viele Minuten?\nB: Etwa drei Minuten.",exampleEn:"A: Is the pharmacy far?\nB: No, just go straight ahead.\nA: How many minutes?\nB: About three minutes.",note:"One word. Gerade = straight + aus = out/ahead. Very common in directions."},
+  {type:"teach",kind:"word",nl:"die Kreuzung",en:"the intersection / crossroads",phonetic:"dee KROY-tsoong",example:"A: Wo muss ich abbiegen?\nB: An der Kreuzung rechts.\nA: An der Kreuzung rechts, gut.\nB: Genau!",exampleEn:"A: Where do I need to turn?\nB: Right at the intersection.\nA: Right at the intersection, good.\nB: Exactly!",note:"Feminine (die). Kreuz = cross. An der Kreuzung = at the intersection."},
+  {type:"teach",kind:"word",nl:"die Ampel",en:"the traffic light",phonetic:"dee AHM-pel",example:"A: Wie weit ist es noch?\nB: Bis zur Ampel, dann links.\nA: Bis zur Ampel links.\nB: Richtig, dann sehen Sie es schon.",exampleEn:"A: How far is it?\nB: To the traffic light, then left.\nA: To the traffic light, then left.\nB: Right, then you will see it.",note:"Feminine (die). An der Ampel = at the traffic light. Bis zur Ampel = up to the traffic light."},
+  {type:"tip",title:"Giving Directions: The Formula",text:"German directions follow a simple pattern:\n\nGehen Sie + direction + preposition phrase\n\nGehen Sie links. (Go left.)\nGehen Sie geradeaus. (Go straight ahead.)\nGehen Sie bis zur Ampel. (Go to the traffic light.)\nBiegen Sie rechts ab. (Turn right.)\n\nGehen Sie = formal you go. Geh = informal.",deepDive:{title:"abbiegen: a separable verb for turning",text:"Abbiegen (to turn) is a separable verb:\nIch biege rechts ab. (I turn right.)\nBiegen Sie hier links ab. (Turn left here.)\nThe prefix ab jumps to the end. You learned separable verbs in Unit 5 with aufstehen and anfangen. The same rule applies here."}},
+  {type:"teach",kind:"word",nl:"die Straße",en:"the street",phonetic:"dee SHTRAH-se",cognate:{words:[{lang:"English",word:"street"},{lang:"Dutch",word:"straat"}],family:"germanic"},example:"A: In welcher Straße wohnt er?\nB: In der Hauptstraße Nummer zwölf.\nA: Hauptstraße zwölf, danke.",exampleEn:"A: Which street does he live on?\nB: On Hauptstraße, number twelve.\nA: Hauptstraße twelve, thanks.",note:"Feminine (die). Haupt|straße = main street. German street names are compound nouns."},
+  {type:"mc",q:"'Geradeaus' means:",opts:["turn right","turn left","straight ahead","at the corner"],ans:"straight ahead",hint:"Gerade = straight. Aus = ahead/out."},
+  {type:"mc",q:"'An der Kreuzung rechts' means:",opts:["straight ahead at the light","right at the intersection","left at the crossing","go to the street"],ans:"right at the intersection",hint:"Kreuzung = intersection. Rechts = right."},
+  {type:"fb",s:"Gehen Sie ___, dann an der Ampel rechts.",a:"geradeaus",opts:["geradeaus","links","rechts","weit"],hint:"First go straight, then turn right at the light."},
+  {type:"mc",q:"'Die Ampel' means:",opts:["the intersection","the street","the traffic light","the corner"],ans:"the traffic light",hint:"Common sight at any German city crossing."},
+  {type:"match",pairs:[{nl:"links",en:"left"},{nl:"rechts",en:"right"},{nl:"geradeaus",en:"straight ahead"},{nl:"die Kreuzung",en:"the intersection"}]},
+  {type:"mc",q:"She should turn right at the traffic light. Which answer is correct?",opts:["An der Ampel links.","Geradeaus immer.","An der Ampel rechts.","Die Kreuzung links."],ans:"An der Ampel rechts.",hint:"Rechts = right. Ampel = traffic light."},
+  {type:"fb",s:"Gehen Sie bis zur ___, dann links.",a:"Ampel",opts:["Ampel","Kreuzung","Straße","Fahrrad"],hint:"You go until the traffic light, then turn left."},
+  {type:"mc",q:"Which article does 'Kreuzung' take?",opts:["der","die","das","keine"],ans:"die",hint:"Die Kreuzung. Feminine."},
+  {type:"drag_fill",s:"Gehen Sie {1} und dann an der {2} rechts.",blanks:{"1":"geradeaus","2":"Ampel"},pool:["geradeaus","links","Ampel","Kreuzung","rechts","Straße"],hint:"Straight first, then right at the traffic light."},
+  {type:"mc",q:"'Biegen Sie rechts ab' contains which type of verb?",opts:["modal verb","reflexive verb","separable verb","irregular verb"],ans:"separable verb",hint:"The prefix ab jumps to the end. You saw this pattern with aufstehen in Unit 5."},
+  {type:"mc",q:"Someone says: 'Die erste Straße links.' This means:",opts:["The first street on the right","Straight ahead on the first street","The first street on the left","Turn at the traffic light"],ans:"The first street on the left",hint:"Links = left. Erste = first."},
+  {type:"mc",q:"You want to ask 'Where is the train station?' formally. You say:",opts:["Wo ist der Bahnhof?","Wo ist die Bahnhof?","Wie komme ich der Bahnhof?","Wohin ist der Bahnhof?"],ans:"Wo ist der Bahnhof?",hint:"Bahnhof is masculine. Wo ist = where is."},
+]},
+
+// ═══ L3: können ═══
+{id:"deu7l3",title:"können",icon:"💪",xp:15,board:true,steps:[
+  {type:"intro",title:"können",desc:"Can you speak German? Can you help me? Können is one of the most useful words in the language. It unlocks ability, possibility, and polite requests.",goals:["Full conjugation of können","Verb-to-end rule in modal sentences","Use können in real situations"]},
+  {type:"tip",title:"Modal Verbs: The Big Pattern",text:"German has 6 modal verbs. Können is the first. They all share one critical rule:\n\nThe MAIN VERB goes to the END of the clause.\n\nIch kann Deutsch sprechen. (I can speak German.)\nKannst du mir helfen? (Can you help me?)\n\nModal verb = position 2. Main verb = LAST. Never forget this.",deepDive:{title:"Why does the verb go to the end?",text:"German is a verb-second (V2) language in main clauses. When a modal verb takes position 2, it pushes the main verb to the final position as an infinitive.\n\nSubject + Modal (pos.2) + ... + Infinitive (END)\nIch (subject) + kann (modal) + gut (adverb) + schwimmen (infinitive).\n\nThis applies to ALL modal verbs. Once you learn this pattern with können, müssen, wollen, dürfen, sollen, and möchten will all work the same way."}},
+  {type:"verb_table",title:"können (can / to be able to) — present tense",label:"können",groups:[{label:"singular",rows:[["ich","kann"],["du","kannst"],["er/sie/es","kann"]]},{label:"plural",rows:[["wir","können"],["ihr","könnt"],["Sie/sie","können"]]}],note:"Ich and er/sie/es share the same form 'kann'. No -e or -t ending in 1st/3rd singular. This is typical of all modal verbs."},
+  {type:"teach",kind:"phrase",nl:"Ich kann Deutsch sprechen.",en:"I can speak German.",phonetic:"Ich kan DOYch SHPREH-chen",example:"A: Sprechen Sie Englisch?\nB: Nein, aber ich kann ein bisschen Deutsch sprechen.\nA: Super! Wir sprechen dann Deutsch.",exampleEn:"A: Do you speak English?\nB: No, but I can speak a little German.\nA: Great! We will speak German then.",note:"Modal structure: kann (pos.2) + sprechen (end). sprechen is the infinitive at the END."},
+  {type:"teach",kind:"phrase",nl:"Kannst du mir helfen?",en:"Can you help me?",phonetic:"KAN-st doo meer HEL-fen",example:"A: Kannst du mir helfen?\nB: Natürlich! Was brauchst du?\nA: Ich finde den Bahnhof nicht.",exampleEn:"A: Can you help me?\nB: Of course! What do you need?\nA: I cannot find the train station.",note:"Question form: modal moves to position 1. Main verb helfen stays at end. Mir = me (dative)."},
+  {type:"teach",kind:"phrase",nl:"Ich kann nicht kommen.",en:"I cannot come.",phonetic:"Ich kan nicht KOM-en",example:"A: Kommst du heute Abend?\nB: Leider kann ich nicht kommen.\nA: Schade! Warum?\nB: Ich bin krank.",exampleEn:"A: Are you coming tonight?\nB: Unfortunately I cannot come.\nA: What a pity! Why?\nB: I am ill.",note:"Negation: nicht comes BEFORE the infinitive at the end. Leider = unfortunately."},
+  {type:"teach",kind:"phrase",nl:"Wir können das machen.",en:"We can do that.",phonetic:"veer KEN-nen dahs MAH-chen",example:"A: Ist das möglich?\nB: Ja, wir können das machen.\nA: Wunderbar!\nB: Kein Problem.",exampleEn:"A: Is that possible?\nB: Yes, we can do that.\nA: Wonderful!\nB: No problem.",note:"Wir + können + ... + machen (end). machen = to do/make. Very common phrase."},
+  {type:"mc",q:"'Können' in 'Ich kann schwimmen' means:",opts:["I must swim","I can swim","I want to swim","I should swim"],ans:"I can swim",hint:"Können = can / to be able to."},
+  {type:"mc",q:"Where does the main verb go in a modal sentence?",opts:["Position 1","Position 2","Right after the modal","At the END"],ans:"At the END",hint:"Modal takes position 2, pushing the infinitive to the end of the clause."},
+  {type:"fb",s:"Ich kann gut ___ spielen.",a:"Gitarre",opts:["Gitarre","Noten","Musik","spielen"],hint:"What can you play? Place the instrument here, not the verb spielen."},
+  {type:"mc",q:"Which sentence is grammatically correct?",opts:["Ich kann sprechen Deutsch.","Deutsch sprechen ich kann.","Ich kann Deutsch sprechen.","Ich kann Deutsch sprechen gut."],ans:"Ich kann Deutsch sprechen.",hint:"Modal at position 2, main verb at the end. Standard sentence word order."},
+  {type:"mc",q:"'Kannst du Klavier spielen?' means:",opts:["Do you want to play piano?","Can you play piano?","Do you play piano now?","Are you learning piano?"],ans:"Can you play piano?",hint:"Kannst du = can you (informal). Klavier = piano."},
+  {type:"fb",s:"___ du mir bitte helfen?",a:"Kannst",opts:["Kannst","Kann","Können","Könnt"],hint:"Informal you + können, asking for help. Which form fits du?"},
+  {type:"match",pairs:[{nl:"ich kann",en:"I can"},{nl:"du kannst",en:"you can"},{nl:"er/sie kann",en:"he/she can"},{nl:"wir können",en:"we can"}]},
+  {type:"mc",q:"In 'Ich kann nicht kommen.' where is 'nicht'?",opts:["After ich","Before kann","Before kommen (the infinitive)","After kommen"],ans:"Before kommen (the infinitive)",hint:"Nicht comes just before the final infinitive in modal sentences."},
+  {type:"drag_fill",s:"Wir {1} heute nicht {2}. Es ist zu spät.",blanks:{"1":"können","2":"kommen"},pool:["können","kann","kommen","gehen","nicht","wir"],hint:"We cannot come today. Two blanks in one modal sentence."},
+  {type:"mc",q:"Which form is correct for 'ihr' (you all)?",opts:["können","kann","kannst","könnt"],ans:"könnt",hint:"Ihr takes the -t ending: ihr könnt."},
+  {type:"mc",q:"'Sie können morgen kommen.' translates as:",opts:["They must come tomorrow.","You/They can come tomorrow.","You should come tomorrow.","Can they come tomorrow?"],ans:"You/They can come tomorrow.",hint:"Sie können = you (formal) can OR they can. Infinitive kommen at the end."},
+  {type:"mc",q:"Which question asks 'Can you speak German?' informally?",opts:["Sprichst du Deutsch?","Kannst du Deutsch sprechen?","Willst du Deutsch sprechen?","Können Sie Deutsch?"],ans:"Kannst du Deutsch sprechen?",hint:"Kannst du = can you (informal). sprechen at the end."},
+]},
+
+// ═══ L4: müssen & wollen ═══
+{id:"deu7l4",title:"müssen & wollen",icon:"🎯",xp:15,board:true,steps:[
+  {type:"intro",title:"müssen & wollen",desc:"Must and want. Two opposites, both essential. With müssen and wollen you can express obligation and desire. Same sentence structure as können.",goals:["Full conjugation of müssen and wollen","Distinguish must vs want","Build sentences with verb-at-end rule"]},
+  {type:"verb_table",title:"müssen (must / to have to) — present tense",label:"müssen",groups:[{label:"singular",rows:[["ich","muss"],["du","musst"],["er/sie/es","muss"]]},{label:"plural",rows:[["wir","müssen"],["ihr","müsst"],["Sie/sie","müssen"]]}],note:"Like können: ich/er share the same stem form 'muss'. No -e/-t in 1st/3rd singular. Umlaut in infinitive and plural."},
+  {type:"verb_table",title:"wollen (to want) — present tense",label:"wollen",groups:[{label:"singular",rows:[["ich","will"],["du","willst"],["er/sie/es","will"]]},{label:"plural",rows:[["wir","wollen"],["ihr","wollt"],["Sie/sie","wollen"]]}],note:"Wollen is irregular. Ich will looks like English 'will' but means WANT, not future! Wir wollen = we want."},
+  {type:"tip",title:"müssen vs wollen: The Key Contrast",text:"müssen = must / have to (obligation or necessity)\nwollen = want to (desire or intention)\n\nIch muss arbeiten. (I must work. No choice.)\nIch will arbeiten. (I want to work. My desire.)\n\nBoth follow the SAME rule: main verb goes to the END.\nIch muss jetzt gehen. (I must go now.)\nIch will jetzt gehen. (I want to go now.)",deepDive:{title:"Warning: wollen vs werden (future)",text:"Do NOT confuse:\nIch will = I want (from wollen, present desire)\nIch werde = I will (future tense marker, from werden)\n\nIch will Arzt werden. = I want to become a doctor.\nIch werde Arzt werden. = I will become a doctor.\n\nYou will learn werden in Unit 16. For now: ich will = WANT, not future."}},
+  {type:"teach",kind:"phrase",nl:"Ich muss jetzt gehen.",en:"I must go now.",phonetic:"Ich moos yetst GAY-en",example:"A: Bleibst du noch?\nB: Leider nicht. Ich muss jetzt gehen.\nA: Schade! Bis morgen.\nB: Bis morgen!",exampleEn:"A: Are you staying longer?\nB: Unfortunately not. I must go now.\nA: Pity! See you tomorrow.\nB: See you tomorrow!",note:"Muss (position 2) + gehen (end). Jetzt = now. Leider = unfortunately."},
+  {type:"teach",kind:"phrase",nl:"Ich will Deutsch lernen.",en:"I want to learn German.",phonetic:"Ich vil DOYch LER-nen",example:"A: Warum lernst du Deutsch?\nB: Ich will in Deutschland arbeiten.\nA: Das ist ein guter Grund!\nB: Ja, und ich finde Deutsch toll.",exampleEn:"A: Why are you learning German?\nB: I want to work in Germany.\nA: That is a good reason!\nB: Yes, and I find German great.",note:"Will (position 2) + lernen (end). Common with plans and goals."},
+  {type:"teach",kind:"phrase",nl:"Was willst du essen?",en:"What do you want to eat?",phonetic:"vahs vilsT doo ES-sen",example:"A: Was willst du essen?\nB: Ich will eine Pizza.\nA: Und ich will einen Salat.\nB: Gut, wir bestellen das.",exampleEn:"A: What do you want to eat?\nB: I want a pizza.\nA: And I want a salad.\nB: Good, we will order that.",note:"Willst du (question form) = modal in position 1. essen = to eat (infinitive at end)."},
+  {type:"teach",kind:"phrase",nl:"Wir müssen den Bus nehmen.",en:"We must take the bus.",phonetic:"veer MU-ssen den BOOS NAY-men",example:"A: Haben wir ein Auto?\nB: Nein, wir müssen den Bus nehmen.\nA: Wann fährt er?\nB: In zehn Minuten.",exampleEn:"A: Do we have a car?\nB: No, we must take the bus.\nA: When does it leave?\nB: In ten minutes.",note:"Müssen (position 2) + nehmen (end). nehmen = to take. Den Bus = accusative masculine."},
+  {type:"mc",q:"'Ich will' means:",opts:["I will (future)","I must","I want","I can"],ans:"I want",hint:"Wollen = desire/intention. NOT the English future 'will'."},
+  {type:"mc",q:"'Er muss arbeiten.' means:",opts:["He wants to work.","He can work.","He must work.","He is working."],ans:"He must work.",hint:"Muss comes from müssen = must/have to."},
+  {type:"fb",s:"Ich ___ jetzt nach Hause gehen.",a:"muss",opts:["muss","will","kann","musst"],hint:"'I must go home now.' Which form of müssen goes with ich?"},
+  {type:"mc",q:"Which sentence correctly says 'We want to travel to Berlin'?",opts:["Wir wollen nach Berlin fahren.","Wir wollen fahren nach Berlin.","Wir wollen nach Berlin gefahren.","Wollen wir Berlin nach fahren."],ans:"Wir wollen nach Berlin fahren.",hint:"Modal at position 2. Infinitive fahren at the END."},
+  {type:"mc",q:"'Willst du kommen?' means:",opts:["Must you come?","Can you come?","Do you want to come?","Should you come?"],ans:"Do you want to come?",hint:"Willst = wollen (2nd person singular). Modal in position 1 = question."},
+  {type:"match",pairs:[{nl:"ich muss",en:"I must"},{nl:"du willst",en:"you want"},{nl:"er will",en:"he wants"},{nl:"wir müssen",en:"we must"}]},
+  {type:"fb",s:"Was ___ du nach der Schule machen?",a:"willst",opts:["willst","musst","kannst","wollt"],hint:"'What do you WANT to do after school?' Informal you + wollen."},
+  {type:"drag_fill",s:"Ich {1} heute arbeiten, aber ich {2} lieber schlafen.",blanks:{"1":"muss","2":"will"},pool:["muss","will","kann","musst","willst","wollen"],hint:"I must work today, but I want to sleep instead."},
+  {type:"mc",q:"In 'Du musst früh aufstehen.' where is the main verb?",opts:["Position 1","Position 2","After Du","At the end"],ans:"At the end",hint:"Musst = position 2. Aufstehen goes to the END. Also a separable verb."},
+  {type:"mc",q:"Which sentence is WRONG?",opts:["Ich muss arbeiten.","Wir wollen essen.","Er will schlafen gehen.","Ich muss gehen jetzt."],ans:"Ich muss gehen jetzt.",hint:"Jetzt should come before gehen, not after. The infinitive must be LAST."},
+  {type:"mc",q:"'Wir wollen einen Film sehen.' means:",opts:["We must watch a film.","We can watch a film.","We want to watch a film.","We are watching a film."],ans:"We want to watch a film.",hint:"Wollen = want. sehen = see/watch. Infinitive at the end."},
+]},
+
+// ═══ L5: Am Bahnhof ═══
+{id:"deu7l5",title:"Am Bahnhof",icon:"🚉",xp:15,board:true,steps:[
+  {type:"intro",title:"Am Bahnhof",desc:"The German train station is a world of its own. Announcements, departure boards, ticket windows. You need the right words to get on the right train.",goals:["Train station vocabulary","Buy a ticket and ask about departures","Read departure board basics"]},
+  {type:"teach",kind:"word",nl:"der Bahnhof",en:"the train station",phonetic:"der BAHN-hof",cognate:{words:[{lang:"English",word:"station"},{lang:"Dutch",word:"station"}],family:"germanic"},example:"A: Entschuldigung, wie komme ich zum Bahnhof?\nB: Gehen Sie geradeaus, dann rechts.\nA: Danke!\nB: Kein Problem.",exampleEn:"A: Excuse me, how do I get to the train station?\nB: Go straight ahead, then right.\nA: Thank you!\nB: No problem.",note:"Masculine (der). Bahn = railway + Hof = yard/court. Zum Bahnhof = to the train station (dative)."},
+  {type:"teach",kind:"word",nl:"der Zug",en:"the train",phonetic:"der TSOOK",example:"A: Wann kommt der Zug?\nB: Der Zug kommt um 14:30 an.\nA: Gleis drei?\nB: Ja, Gleis drei.",exampleEn:"A: When does the train arrive?\nB: The train arrives at 14:30.\nA: Platform three?\nB: Yes, platform three.",note:"Masculine (der). Common in travel sentences. Züge = plural."},
+  {type:"teach",kind:"word",nl:"die Fahrkarte",en:"the ticket",phonetic:"dee FAR-kar-teh",example:"A: Ich brauche eine Fahrkarte nach München.\nB: Einfach oder hin und zurück?\nA: Hin und zurück, bitte.\nB: Das kostet 48 Euro.",exampleEn:"A: I need a ticket to Munich.\nB: One way or return?\nA: Return, please.\nB: That costs 48 euros.",note:"Feminine (die). Fahr = travel + Karte = card/ticket. Einfach = one way. Hin und zurück = return."},
+  {type:"teach",kind:"word",nl:"der Fahrplan",en:"the timetable",phonetic:"der FAR-plahn",example:"A: Haben Sie den Fahrplan?\nB: Ja, hier. Der nächste Zug fährt um 15 Uhr.\nA: Wie lange dauert die Fahrt?\nB: Ungefähr zwei Stunden.",exampleEn:"A: Do you have the timetable?\nB: Yes, here. The next train leaves at 15:00.\nA: How long does the journey take?\nB: About two hours.",note:"Masculine (der). Fahr = travel + Plan = plan. Found on display boards and apps."},
+  {type:"teach",kind:"word",nl:"das Gleis",en:"the platform / track",phonetic:"dahs GLYS",example:"A: Von welchem Gleis fährt der Zug?\nB: Gleis vier.\nA: Gleis vier, danke!\nB: Aber schnell, er fährt in zwei Minuten ab.",exampleEn:"A: Which platform does the train leave from?\nB: Platform four.\nA: Platform four, thanks!\nB: But hurry, it leaves in two minutes.",note:"Neuter (das). The numbered platform where the train arrives and departs. Von Gleis + number."},
+  {type:"teach",kind:"phrase",nl:"Einmal nach Hamburg, bitte.",en:"One ticket to Hamburg, please.",phonetic:"INE-mahl nach HAM-boorg BIT-teh",example:"A: Guten Tag! Einmal nach Hamburg, bitte.\nB: Einfach oder hin und zurück?\nA: Einfach, bitte.\nB: Das macht 32 Euro.",exampleEn:"A: Good day! One ticket to Hamburg, please.\nB: One way or return?\nA: One way, please.\nB: That is 32 euros.",note:"Standard ticket-window phrase. Einmal = one time/one ticket. Nach + city = to a city."},
+  {type:"tip",title:"Wann fährt der Zug ab?",text:"Key questions at the train station:\n\nWann fährt der Zug ab? (When does the train depart?)\nVon welchem Gleis? (From which platform?)\nWie lange dauert die Fahrt? (How long is the journey?)\nMuss ich umsteigen? (Do I need to change trains?)\n\nNote: abfahren is a separable verb. Ab- jumps to the end.\nDer Zug fährt um 16 Uhr ab.",deepDive:{title:"umsteigen: transfer and change trains",text:"Umsteigen = to change trains/transfer. Another separable verb:\nIch muss umsteigen. (I have to change trains.)\nSteigen Sie in Köln um. (Change in Cologne.)\nThe prefix um- jumps to the end. All German separable prefixes (ab-, auf-, an-, um-) behave this way."}},
+  {type:"mc",q:"'Die Fahrkarte' means:",opts:["the platform","the timetable","the ticket","the train"],ans:"the ticket",hint:"Fahr = travel. Karte = card/ticket."},
+  {type:"mc",q:"'Von welchem Gleis fährt der Zug?' asks:",opts:["When does the train leave?","How much does the ticket cost?","Which platform does the train leave from?","Where does the train go?"],ans:"Which platform does the train leave from?",hint:"Gleis = platform. Von welchem = from which."},
+  {type:"fb",s:"Einmal nach Berlin, ___!",a:"bitte",opts:["bitte","danke","Gleis","Zug"],hint:"Complete the standard ticket request with the polite word."},
+  {type:"mc",q:"'Der Fahrplan' is:",opts:["the train","the ticket","the timetable","the platform"],ans:"the timetable",hint:"Plan = plan/schedule. Fahr = travel."},
+  {type:"match",pairs:[{nl:"der Zug",en:"the train"},{nl:"das Gleis",en:"the platform"},{nl:"die Fahrkarte",en:"the ticket"},{nl:"der Bahnhof",en:"the train station"}]},
+  {type:"mc",q:"'Muss ich umsteigen?' means:",opts:["Must I buy a ticket?","Do I need to change trains?","Can I take the tram?","Where is the platform?"],ans:"Do I need to change trains?",hint:"Umsteigen = to transfer/change trains."},
+  {type:"fb",s:"Der Zug fährt von ___ drei ab.",a:"Gleis",opts:["Gleis","Bahn","Zug","Bahnhof"],hint:"The train departs from platform three."},
+  {type:"mc",q:"'Hin und zurück' means:",opts:["One way","Return (round trip)","First class","Departure time"],ans:"Return (round trip)",hint:"Hin = there. Zurück = back. Together: there and back."},
+  {type:"drag_fill",s:"Ich brauche eine {1} nach Köln. Wann fährt der {2} ab?",blanks:{"1":"Fahrkarte","2":"Zug"},pool:["Fahrkarte","Fahrplan","Zug","Gleis","Bahnhof","Bahn"],hint:"I need a ticket to Cologne. When does the train depart?"},
+  {type:"mc",q:"'Abfahren' is which type of verb?",opts:["modal verb","reflexive verb","separable verb","auxiliary verb only"],ans:"separable verb",hint:"The prefix ab- separates and goes to the end: fährt... ab."},
+  {type:"mc",q:"'Wie lange dauert die Fahrt?' is asking:",opts:["When does the journey start?","How long is the journey?","How much does the journey cost?","Where does the journey end?"],ans:"How long is the journey?",hint:"Wie lange = how long. dauert = lasts."},
+]},
+
+// ═══ L6: dürfen & sollen ═══
+{id:"deu7l6",title:"dürfen & sollen",icon:"📋",xp:15,board:true,steps:[
+  {type:"intro",title:"dürfen & sollen",desc:"May you do this? Should you do that? dürfen and sollen complete the core modal verb set. They handle permission and obligation from an outside source.",goals:["Full conjugation of dürfen and sollen","Distinguish may vs should","Use in rules, permissions, and instructions"]},
+  {type:"verb_table",title:"dürfen (may / to be allowed to) — present tense",label:"dürfen",groups:[{label:"singular",rows:[["ich","darf"],["du","darfst"],["er/sie/es","darf"]]},{label:"plural",rows:[["wir","dürfen"],["ihr","dürft"],["Sie/sie","dürfen"]]}],note:"Ich/er share 'darf'. Same pattern as können (kann) and müssen (muss). Umlaut in infinitive and plural forms."},
+  {type:"verb_table",title:"sollen (should / to be supposed to) — present tense",label:"sollen",groups:[{label:"singular",rows:[["ich","soll"],["du","sollst"],["er/sie/es","soll"]]},{label:"plural",rows:[["wir","sollen"],["ihr","sollt"],["Sie/sie","sollen"]]}],note:"Sollen has NO umlaut and NO vowel change. Very regular for a modal verb. Soll = someone else's expectation."},
+  {type:"tip",title:"dürfen vs sollen: Who Sets the Rule?",text:"dürfen = permission (allowed or not allowed)\nSie dürfen hier parken. (You may park here.)\nSie dürfen nicht rauchen. (You may not smoke.)\n\nsollen = expectation from SOMEONE ELSE\nDu sollst jetzt schlafen. (You should sleep now. Mom said so.)\nIch soll um 9 Uhr da sein. (I am supposed to be there at 9. Someone told me.)\n\nBoth follow the verb-at-end rule:\nDu darfst hier nicht parken. (You may not park here.)\nEr soll morgen kommen. (He is supposed to come tomorrow.)",deepDive:{title:"dürfen nicht = must not (strong prohibition)",text:"Be careful: dürfen nicht is much stronger than müssen nicht.\n\ndürfen nicht = must not / not allowed to (prohibition)\nmüssen nicht = do not have to (no obligation)\n\nSie dürfen hier nicht rauchen. (You must not smoke here.)\nSie müssen hier nicht parken. (You do not have to park here.)\n\nThis distinction catches many learners off guard."}},
+  {type:"teach",kind:"phrase",nl:"Darf ich hier sitzen?",en:"May I sit here?",phonetic:"darf ich HEER ZIT-sen",example:"A: Darf ich hier sitzen?\nB: Ja, natürlich! Der Platz ist frei.\nA: Danke schön!\nB: Bitte sehr.",exampleEn:"A: May I sit here?\nB: Yes, of course! The seat is free.\nA: Thank you very much!\nB: You are welcome.",note:"Darf ich = may I (1st person, polite request). Very common phrase."},
+  {type:"teach",kind:"phrase",nl:"Hier dürfen Sie nicht parken.",en:"You may not park here.",phonetic:"HEER DUR-fen zee nicht PAR-ken",example:"A: Kann ich hier parken?\nB: Nein, hier dürfen Sie nicht parken.\nA: Wo kann ich dann parken?\nB: Dort hinten ist ein Parkplatz.",exampleEn:"A: Can I park here?\nB: No, you may not park here.\nA: Where can I park then?\nB: There is a car park in the back.",note:"Dürfen + nicht = prohibition. Sie = formal you. parken = to park."},
+  {type:"teach",kind:"phrase",nl:"Ich soll um 8 Uhr da sein.",en:"I am supposed to be there at 8.",phonetic:"Ich zol oom AHCHT oor da ZINE",example:"A: Wann kommst du?\nB: Ich soll um 8 Uhr da sein.\nA: Wer hat das gesagt?\nB: Mein Chef.",exampleEn:"A: When are you coming?\nB: I am supposed to be there at 8.\nA: Who said that?\nB: My boss.",note:"Sollen describes an expectation set by SOMEONE ELSE. Da sein = to be there."},
+  {type:"teach",kind:"phrase",nl:"Du sollst nicht lügen.",en:"You shall not lie.",phonetic:"doo zolst nicht LU-gen",example:"A: Ist das wahr?\nB: Ja! Du sollst nicht lügen.\nA: Das weiß ich.\nB: Dann sei ehrlich!",exampleEn:"A: Is that true?\nB: Yes! You shall not lie.\nA: I know that.\nB: Then be honest!",note:"Classic sollen construction. Lügen = to lie. A moral or parental expectation."},
+  {type:"mc",q:"'Darf ich das machen?' means:",opts:["Must I do that?","Should I do that?","May I do that?","Can I do that?"],ans:"May I do that?",hint:"Dürfen = to be allowed to, permission."},
+  {type:"mc",q:"'Hier dürfen Sie nicht rauchen.' means:",opts:["You do not have to smoke here.","You should not smoke here.","You must not smoke here (not allowed).","You cannot smoke here (physically impossible)."],ans:"You must not smoke here (not allowed).",hint:"Dürfen nicht = strong prohibition. Not allowed. Not just 'do not have to'."},
+  {type:"fb",s:"Du ___ jetzt dein Zimmer aufräumen.",a:"sollst",opts:["sollst","darfst","kannst","musst"],hint:"Someone ELSE (like a parent) told you to tidy your room. That is sollen."},
+  {type:"mc",q:"Which is the correct 'ich' form of dürfen?",opts:["dürfe","dürft","darf","darfst"],ans:"darf",hint:"Like kann and muss: no ending on ich form. ich darf."},
+  {type:"match",pairs:[{nl:"ich darf",en:"I may"},{nl:"du darfst",en:"you may"},{nl:"ich soll",en:"I should"},{nl:"du sollst",en:"you should"}]},
+  {type:"mc",q:"'Müssen nicht' vs 'dürfen nicht': what is the difference?",opts:["No difference, both mean must not","müssen nicht = do not have to. dürfen nicht = must not (prohibited)","müssen nicht = prohibited. dürfen nicht = do not have to","Both mean should not"],ans:"müssen nicht = do not have to. dürfen nicht = must not (prohibited)",hint:"dürfen nicht is a prohibition. müssen nicht is absence of obligation."},
+  {type:"fb",s:"___ ich bitte das Fenster öffnen?",a:"Darf",opts:["Darf","Soll","Muss","Kann"],hint:"Asking for permission politely: 'May I open the window?'"},
+  {type:"drag_fill",s:"Er {1} nicht hier rauchen, aber er {2} draußen rauchen.",blanks:{"1":"darf","2":"darf"},pool:["darf","soll","muss","kann","dürfen","sollst"],hint:"He is not allowed to smoke inside, but he is allowed outside."},
+  {type:"mc",q:"Your boss says you should come at 9. You report this with:",opts:["Ich muss um 9 kommen.","Ich will um 9 kommen.","Ich soll um 9 kommen.","Ich darf um 9 kommen."],ans:"Ich soll um 9 kommen.",hint:"Someone else's expectation = sollen. Not your desire (wollen) or necessity (müssen)."},
+  {type:"mc",q:"Which sentence correctly says 'Children may not go there'?",opts:["Kinder müssen nicht dahin gehen.","Kinder dürfen nicht dahin gehen.","Kinder sollen nicht dahin gehen.","Kinder wollen nicht dahin gehen."],ans:"Kinder dürfen nicht dahin gehen.",hint:"Prohibition = dürfen nicht. Kinder = children."},
+  {type:"mc",q:"'Ihr sollt jetzt leise sein.' — who is most likely speaking?",opts:["A friend making a request","A person asking a favour","Someone in authority giving an instruction","The speakers themselves deciding"],ans:"Someone in authority giving an instruction",hint:"Sollen = instruction from an external source, not self-generated desire or ability."},
+]},
+
+// ═══ L7: Die Stadt ═══
+{id:"deu7l7",title:"Die Stadt",icon:"🏙️",xp:15,board:true,steps:[
+  {type:"intro",title:"Die Stadt",desc:"Every German city has the same essential buildings. Post office, bank, pharmacy, hospital, school. You need these words to navigate everyday life.",goals:["8 essential city place nouns","Ask where places are using modal verbs","Combine directions with city vocabulary"]},
+  {type:"teach",kind:"word",nl:"die Post",en:"the post office",phonetic:"dee POST",cognate:{words:[{lang:"English",word:"post"},{lang:"Dutch",word:"postkantoor"}],family:"germanic"},example:"A: Wo ist die Post?\nB: Die Post ist in der Hauptstraße.\nA: Ist sie weit?\nB: Nein, nur fünf Minuten zu Fuß.",exampleEn:"A: Where is the post office?\nB: The post office is on the main street.\nA: Is it far?\nB: No, only five minutes on foot.",note:"Feminine (die). Also called das Postamt (formal). Zur Post gehen = to go to the post office."},
+  {type:"teach",kind:"word",nl:"die Bank",en:"the bank",phonetic:"dee BANK",cognate:{words:[{lang:"English",word:"bank"},{lang:"Dutch",word:"bank"}],family:"borrowed"},example:"A: Ich muss zur Bank.\nB: Warum?\nA: Ich muss Geld abheben.\nB: Die Bank ist gleich um die Ecke.",exampleEn:"A: I need to go to the bank.\nB: Why?\nA: I need to withdraw money.\nB: The bank is right around the corner.",note:"Feminine (die). Zur Bank gehen = to go to the bank. Geld abheben = to withdraw money."},
+  {type:"teach",kind:"word",nl:"die Apotheke",en:"the pharmacy / chemist",phonetic:"dee ah-poh-TAY-keh",example:"A: Wo kann ich Aspirin kaufen?\nB: In der Apotheke.\nA: Wo ist die nächste Apotheke?\nB: Dort drüben, neben der Post.",exampleEn:"A: Where can I buy aspirin?\nB: At the pharmacy.\nA: Where is the nearest pharmacy?\nB: Over there, next to the post office.",note:"Feminine (die). In Germany, medications are ONLY available in pharmacies, not supermarkets."},
+  {type:"teach",kind:"word",nl:"das Krankenhaus",en:"the hospital",phonetic:"dahs KRAN-ken-hows",example:"A: Wo bringt man jemanden hin, wenn er krank ist?\nB: Ins Krankenhaus.\nA: Wie weit ist das Krankenhaus?\nB: Etwa zehn Minuten mit dem Auto.",exampleEn:"A: Where do you take someone when they are ill?\nB: To the hospital.\nA: How far is the hospital?\nB: About ten minutes by car.",note:"Neuter (das). Krank = sick + Haus = house. Ins Krankenhaus = to the hospital (accusative)."},
+  {type:"teach",kind:"word",nl:"die Schule",en:"the school",phonetic:"dee SHOO-leh",cognate:{words:[{lang:"English",word:"school"},{lang:"Dutch",word:"school"}],family:"borrowed"},example:"A: Wo ist deine Schule?\nB: Meine Schule ist in der Mitte der Stadt.\nA: Gehst du zu Fuß?\nB: Nein, ich fahre mit dem Bus.",exampleEn:"A: Where is your school?\nB: My school is in the middle of the city.\nA: Do you go on foot?\nB: No, I go by bus.",note:"Feminine (die). Zur Schule gehen = to go to school. In die Schule gehen = to go into the building."},
+  {type:"teach",kind:"word",nl:"das Rathaus",en:"the town hall",phonetic:"dahs RAHT-hows",example:"A: Ich muss ein Formular einreichen.\nB: Das machst du auf dem Rathaus.\nA: Wann ist das Rathaus offen?\nB: Von 8 bis 16 Uhr.",exampleEn:"A: I need to submit a form.\nB: You do that at the town hall.\nA: When is the town hall open?\nB: From 8 to 16:00.",note:"Neuter (das). Rat = council + Haus = house. Every German city has one. Important for administrative tasks."},
+  {type:"teach",kind:"word",nl:"der Supermarkt",en:"the supermarket",phonetic:"der ZOO-per-markt",cognate:{words:[{lang:"English",word:"supermarket"},{lang:"Dutch",word:"supermarkt"}],family:"borrowed"},example:"A: Wollen wir einkaufen gehen?\nB: Ja, ich muss in den Supermarkt.\nA: Welchen nimmst du?\nB: Ich gehe zum Rewe.",exampleEn:"A: Shall we go shopping?\nB: Yes, I need to go to the supermarket.\nA: Which one are you going to?\nB: I am going to Rewe.",note:"Masculine (der). In den Supermarkt = into the supermarket (accusative). Einkaufen gehen = to go shopping."},
+  {type:"teach",kind:"word",nl:"die Polizei",en:"the police / police station",phonetic:"dee poh-lee-TSAI",example:"A: Mein Fahrrad ist weg!\nB: Du musst zur Polizei gehen.\nA: Wo ist die Polizei?\nB: Gehen Sie geradeaus, dann links.",exampleEn:"A: My bicycle is gone!\nB: You must go to the police.\nA: Where is the police station?\nB: Go straight ahead, then left.",note:"Feminine (die). Plural is also die Polizei. Zur Polizei gehen = to go to the police."},
+  {type:"mc",q:"'Die Apotheke' is:",opts:["the hospital","the school","the pharmacy","the post office"],ans:"the pharmacy",hint:"In Germany, medications are only available there."},
+  {type:"mc",q:"'Das Krankenhaus' means:",opts:["the school","the hospital","the bank","the town hall"],ans:"the hospital",hint:"Krank = sick. Haus = house."},
+  {type:"fb",s:"Ich muss zur ___ — ich brauche meine Medikamente.",a:"Apotheke",opts:["Apotheke","Post","Schule","Bank"],hint:"Where do you get medicine in Germany?"},
+  {type:"match",pairs:[{nl:"die Post",en:"the post office"},{nl:"die Bank",en:"the bank"},{nl:"das Rathaus",en:"the town hall"},{nl:"die Polizei",en:"the police"}]},
+  {type:"mc",q:"'Ich muss in den Supermarkt.' Which article case is 'den'?",opts:["Nominative masculine","Accusative masculine","Dative masculine","Genitive masculine"],ans:"Accusative masculine",hint:"Into a location = accusative. Der Supermarkt becomes in den Supermarkt."},
+  {type:"fb",s:"Wo ist das ___? Ich muss ein Formular einreichen.",a:"Rathaus",opts:["Rathaus","Krankenhaus","Supermarkt","Schule"],hint:"Where do you go for official city documents and administration?"},
+  {type:"mc",q:"'Mein Fahrrad ist weg. Ich muss zur ___.'",opts:["Post","Apotheke","Polizei","Bank"],hint:"If something is stolen or missing, you report it here."},
+  {type:"drag_fill",s:"Ich {1} zur Apotheke gehen, aber ich {2} erst zur Bank.",blanks:{"1":"muss","2":"muss"},pool:["muss","will","kann","darf","soll","müssen"],hint:"I must go to the pharmacy, but I must first go to the bank."},
+  {type:"mc",q:"Which sentence combines a city place with a modal verb correctly?",opts:["Ich muss Krankenhaus gehen.","Ich muss ins Krankenhaus gehen.","Ich muss das Krankenhaus gehen.","Ins muss ich Krankenhaus gehen."],ans:"Ich muss ins Krankenhaus gehen.",hint:"Ins = in + das (accusative). Muss at position 2. gehen at the END."},
+  {type:"mc",q:"'Zur Schule gehen' vs 'in die Schule gehen': which describes going INTO the building?",opts:["Zur Schule gehen","In die Schule gehen","Both mean the same","Neither is correct"],ans:"In die Schule gehen",hint:"In die = into (accusative). Zur = to the (dative). Direction uses accusative."},
+]},
+
+// ═══ L8: Unterwegs Review ═══
+{id:"deu7l8",title:"Unterwegs Review",icon:"🗺️",xp:20,board:true,steps:[
+  {type:"intro",title:"Unterwegs Review",desc:"You have covered transport, directions, six modal verbs, the train station, and city places. Now it all comes together. This review tests real-world use across all topics.",goals:["Use all 6 modal verbs correctly","Navigate with transport and direction vocabulary","Combine city places with modal sentences"]},
+  {type:"tip",title:"The 6 Modal Verbs at a Glance",text:"You now know all 6 core German modal verbs:\n\nkönnen = can (ability/possibility)\nmüssen = must (necessity/obligation)\nwollen = want (desire/intention)\ndürfen = may (permission)\nsollen = should (external expectation)\nmöchten = would like (polite wish, A2)\n\nAll share the same rule: MAIN VERB goes to the END.\nIch kann ... sprechen.\nIch muss ... gehen.\nIch will ... lernen.",deepDive:{title:"Modal verb sentence frame",text:"The core frame for all modals:\n\nSubject + Modal (pos.2) + [middle field] + Infinitive (END)\n\nIch (S) + kann (modal) + gut Deutsch (middle) + sprechen (end).\nWir (S) + müssen (modal) + jetzt (middle) + gehen (end).\nDu (S) + darfst (modal) + hier nicht (middle) + rauchen (end).\n\nNotice: negation (nicht), adverbs (jetzt, gut), and objects all go in the middle field. The infinitive is always LAST."}},
+  {type:"mc",q:"Which modal verb expresses permission?",opts:["müssen","wollen","dürfen","sollen"],ans:"dürfen",hint:"May / to be allowed to = dürfen."},
+  {type:"mc",q:"Which modal verb expresses an expectation from SOMEONE ELSE?",opts:["wollen","können","dürfen","sollen"],ans:"sollen",hint:"Your boss says you should be there at 9 = sollen."},
+  {type:"fb",s:"Ich ___ mit dem Bus oder mit der U-Bahn fahren.",a:"kann",opts:["kann","will","muss","darf"],hint:"'I can travel by bus or by subway.' Expressing ability or option."},
+  {type:"mc",q:"Complete: 'Wir ___ jetzt nach Hause gehen. Es ist spät.'",opts:["wollen","können","müssen","dürfen"],ans:"müssen",hint:"It is late = obligation/necessity. Must = müssen."},
+  {type:"mc",q:"'Hier dürfen Sie nicht fotografieren.' This sign means:",opts:["Photography is recommended here.","Photography is allowed here.","Photography is not permitted here.","You do not have to photograph here."],ans:"Photography is not permitted here.",hint:"Dürfen nicht = prohibition."},
+  {type:"drag_fill",s:"Er {1} den Bus nehmen, weil er kein Auto {2}.",blanks:{"1":"muss","2":"hat"},pool:["muss","will","hat","haben","nehmen","kann","darf"],hint:"He must take the bus because he has no car."},
+  {type:"mc",q:"At the train station, 'das Gleis' refers to:",opts:["the ticket","the timetable","the platform/track","the departure hall"],ans:"the platform/track",hint:"Von Gleis 3 = from platform 3."},
+  {type:"fb",s:"Einmal nach Frankfurt, ___, hin und zurück.",a:"bitte",opts:["bitte","danke","gern","ja"],hint:"Standard polite ending to a ticket request."},
+  {type:"mc",q:"'Geradeaus' means:",opts:["to the right","to the left","straight ahead","around the corner"],ans:"straight ahead",hint:"Gerade = straight. Aus = out/ahead."},
+  {type:"mc",q:"'Ich muss zur Apotheke.' What does this tell us about the speaker?",opts:["They want to go (desire)","They need to go (necessity)","They are allowed to go (permission)","They were told to go (external order)"],ans:"They need to go (necessity)",hint:"Müssen = necessity/must."},
+  {type:"match",pairs:[{nl:"können",en:"can"},{nl:"müssen",en:"must"},{nl:"wollen",en:"want"},{nl:"dürfen",en:"may (permission)"}]},
+  {type:"mc",q:"Which sentence correctly says 'I want to take the subway'?",opts:["Ich will U-Bahn nehmen die.","Ich will die U-Bahn nehmen.","Die will ich U-Bahn nehmen.","Ich nehme die U-Bahn wollen."],ans:"Ich will die U-Bahn nehmen.",hint:"Modal at position 2. Infinitive nehmen at the END. Article before noun."},
+  {type:"fb",s:"Gehen Sie bis zur ___, dann biegen Sie rechts ab.",a:"Ampel",opts:["Ampel","Kreuzung","Straße","Post"],hint:"Go until the traffic light, then turn right."},
+  {type:"drag_fill",s:"Ich {1} hier nicht parken. Es {2} verboten.",blanks:{"1":"darf","2":"ist"},pool:["darf","muss","soll","ist","hat","sein","kann"],hint:"I may not park here. It is forbidden."},
+  {type:"mc",q:"'Das Krankenhaus' is grammatically:",opts:["masculine","feminine","neuter","plural"],ans:"neuter",hint:"Das = neuter article. Das Krankenhaus."},
+  {type:"mc",q:"Someone says: 'Du sollst mehr Wasser trinken.' Who most likely said this?",opts:["A stranger on the street","A friend making small talk","A doctor or parent giving advice","The speaker to themselves"],ans:"A doctor or parent giving advice",hint:"Sollen reflects an expectation set by an EXTERNAL authority figure."},
+  {type:"mc",q:"Which transport option uses 'mit dem' (dative masculine)?",opts:["mit der U-Bahn","mit der Straßenbahn","mit dem Bus","zu Fuß"],ans:"mit dem Bus",hint:"Der Bus is masculine. Dative of der = dem. Mit dem Bus."},
+  {type:"mc",q:"To say 'Can you help me?' informally, you say:",opts:["Können Sie mir helfen?","Kannst du mir helfen?","Darf ich dir helfen?","Willst du mir helfen?"],ans:"Kannst du mir helfen?",hint:"Du = informal. Können = can. helfen = to help at the end."},
+]},
+
+]},
 ];
