@@ -1,14 +1,38 @@
-# French A1-B2 Build Handoff (D105)
+# French A1-B2 Build Handoff (D105) — COMPLETED
 
 > **Date**: 2026-03-16
 > **Predecessor**: German D103/D104 (30 units, 240 lessons, 4,518 steps)
-> **Target**: French A1-B2 complete curriculum in `src/data/units-french.js`
+> **Status**: **COMPLETE** — French A1-B2 fully built and deployed.
+> **Result**: 30 units, 240 lessons, 4,380 steps, 883/883 teach cards with dialogues (100%)
+> **Agent model**: Opus 4.6 (Sonnet agents failed repeatedly — see D106)
 
 ---
 
-## What This Document Is
+## BUILD COMPLETE
 
-This is the handoff document for the next Claude Code agent session that will build the French A1-B2 curriculum from scratch. It contains everything the agent needs: what exists, what must be built, the exact execution plan, and the lessons learned from previous builds that MUST be applied.
+French A1-B2 curriculum has been fully built and verified:
+- LANG_BLUEPRINT["fr"]: COMPLETE
+- Foundations (knowledge + playthrough + gate quiz): COMPLETE
+- 30 units (U1-U30), 240 lessons, 4,380 steps: COMPLETE
+- Quality scan: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS
+- Dialogue enrichment: 883/883 (100%)
+- Build: PASSES (Vite)
+
+**Key lesson learned (D106)**: Sonnet-tier agents consistently went stale or became unresponsive during large content generation. Opus 4.6 agents completed all tasks reliably. Rule 11 now mandates Opus 4.6 for all future content generation.
+
+**Next language**: Spanish A1-B2. See CLAUDE.md handoff section.
+
+---
+
+## Original Handoff Document (Historical Reference)
+
+The original planning content below is preserved for reference.
+
+---
+
+## What This Document Was
+
+This was the handoff document for building the French A1-B2 curriculum from scratch. It contained: what existed, what needed to be built, the execution plan, and lessons learned from previous builds.
 
 ---
 
