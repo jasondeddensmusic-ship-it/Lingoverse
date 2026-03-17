@@ -1051,7 +1051,7 @@ const spanishUnits = [
 // UNIT 7: ¿Dónde Está? — Directions & Transport (A1.4)
 // 8 lessons, 18+ steps each
 // ══════════════════════════════════════════════════════════════
-{n:7,lang:"es",track:"v1",title:"¿Dónde Está?",sub:"Directions & Transport",icon:"🗺️",level:"A1.4",color:"#7B5EE8",lessons:[
+{n:7,lang:"es",track:"v1",title:"¿Dónde Está?",sub:"Directions & Transport",icon:"🗺️",level:"A1.3",color:"#7B5EE8",lessons:[
   {id:"esp7l1",title:"Lugares de la Ciudad",icon:"🏙️",xp:15,board:true,steps:[
     {type:"intro",title:"Lugares de la Ciudad",desc:"Learn the names of important places you will find in any Spanish-speaking city.",goals:["Name 8 common city places","Use estar to locate places","Ask where places are"]},
     {type:"teach",kind:"word",nl:"el banco",en:"the bank",phonetic:"el BAN-koh",example:"A: ¿Dónde está el banco?\nB: El banco está en la calle Mayor.\nA: Gracias, señor.",exampleEn:"A: Where is the bank?\nB: The bank is on Main Street.\nA: Thank you, sir.",note:"Where you go for money. Not a bench (that is el banquete)."},
@@ -1219,7 +1219,7 @@ const spanishUnits = [
 // UNIT 8: De Compras — Shopping & Clothing (A1.4)
 // 8 lessons, 18+ steps each
 // ══════════════════════════════════════════════════════════════
-{n:8,lang:"es",track:"v1",title:"De Compras",sub:"Shopping & Clothing",icon:"🛍️",level:"A1.4",color:"#7B5EE8",lessons:[
+{n:8,lang:"es",track:"v1",title:"De Compras",sub:"Shopping & Clothing",icon:"🛍️",level:"A1.3",color:"#7B5EE8",lessons:[
 {id:"esp8l1",title:"La Ropa I",icon:"👔",xp:15,board:true,steps:[
 {type:"intro",title:"La Ropa I",desc:"Learn your first clothing words in Spanish. Every noun comes with its article: el (masculine) or la (feminine).",goals:["Learn 8 clothing items with articles","Practice gender agreement","Use clothing words in simple sentences"]},
 {type:"teach",kind:"word",nl:"la camisa",en:"shirt",phonetic:"ka-MEE-sa",example:"A: ¿Te gusta esta camisa?\nB: Sí, es muy bonita.",exampleEn:"A: Do you like this shirt?\nB: Yes, it's very pretty.",note:"Feminine noun. La camisa can be formal or casual."},
