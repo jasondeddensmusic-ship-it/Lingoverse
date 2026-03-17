@@ -161,7 +161,7 @@ export const CEFR_LEVELS = [
   {id:"B2.1",band:"B2",label:"Upper-Intermediate",color:"#E8475E",desc:"Complex argument and nuance"},
   {id:"B2.2",band:"B2",label:"Upper-Intermediate",color:"#E8475E",desc:"Professional and academic register"},
 ];
-export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LEVELS.find(l=>l.band===levelId)||CEFR_LEVELS[0];
+export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LEVELS.find(l=>l.band===levelId)||(levelId&&CEFR_LEVELS.find(l=>levelId.startsWith(l.band+'.')))||CEFR_LEVELS[0];
 export const getCefrBandColor=(band)=>({A1:"#2ECDA7",A2:"#4A8FE7",B1:"#7B5EE8",B2:"#E8475E",C1:"#F5A623",C2:"#E74A8F"}[band]||"#888");
 
 // ── FOUNDATION KEYS (FK) — Pre-Curriculum Knowledge Layer ──
