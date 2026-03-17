@@ -6008,8 +6008,8 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-bar{padding:11px 14px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,rgba(123,94,232,0.08)0%,rgba(123,94,232,0.03)100%);border-bottom:1.5px solid rgba(123,94,232,0.12);flex-shrink:0;}
 :root.dark .sp-bar{background:linear-gradient(180deg,rgba(123,94,232,0.22)0%,rgba(123,94,232,0.1)100%);border-bottom-color:rgba(160,140,255,0.22);}
 .sp-body{overflow-y:auto;flex:1;}
-.sp-card{margin:14px;border-radius:16px;background:linear-gradient(180deg,#fff 0%,#fafafe 50%,#f5f4fb 100%);border:1.5px solid rgba(123,94,232,0.1);border-left:4px solid #7B5EE8;box-shadow:0 3px 12px rgba(0,0,0,0.06),inset 0 2px 0 rgba(255,255,255,0.9);}
-:root.dark .sp-card{background:var(--card-bg);border-color:rgba(160,140,255,0.2);border-left-color:#7B5EE8;}
+.sp-card{padding:14px 16px;}
+:root.dark .sp-card{}
 .sp-word{text-align:center;padding:22px 18px 4px;font-size:28px;font-weight:800;color:#7B5EE8;font-family:'Quicksand','DM Sans',system-ui,sans-serif;line-height:1.2;}
 .sp-phon{text-align:center;font-size:13px;color:var(--gray-400);font-weight:600;padding:2px 14px 4px;}
 .sp-trans{text-align:center;font-size:16px;font-weight:700;color:#2ECDA7;padding:0 14px 14px;}
@@ -13117,9 +13117,8 @@ export default function App(){
                 {/* Main word card */}
                 <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.55)",borderLeft:"4px solid #7B5EE8",boxShadow:"0 4px 20px rgba(0,0,0,0.05)",overflow:"hidden",marginBottom:14}}>
                   {/* Label strip */}
-                  <div style={{background:"linear-gradient(135deg,rgba(123,94,232,0.06),rgba(46,205,167,0.04))",padding:"10px 18px 8px",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                  <div style={{background:"linear-gradient(135deg,rgba(123,94,232,0.06),rgba(46,205,167,0.04))",padding:"10px 18px 8px"}}>
                     <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"#7B5EE8"}}>{lbl}</span>
-                    {s.phonetic&&<span style={{fontSize:12,fontWeight:600,color:"rgba(123,94,232,0.55)",fontStyle:"italic"}}>{s.phonetic}</span>}
                   </div>
                   {/* Article chip + word */}
                   <div style={{textAlign:"center",padding:"14px 24px 6px"}}>
@@ -13222,7 +13221,6 @@ export default function App(){
           <div className="sp-ov" onClick={()=>setPreviewResult(null)}>
             <div className="sp-wrap" onClick={e=>e.stopPropagation()}>
               <div className="sp-bar">
-                <span style={{fontSize:18,flexShrink:0}}>{unit.icon||"📚"}</span>
                 <div style={{flex:1,minWidth:0}}>
                   <div style={{fontSize:11.5,fontWeight:800,color:"var(--gray-700)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>U{unit.n} · {unit.title}</div>
                   <div style={{fontSize:10.5,fontWeight:600,color:"var(--gray-500)",marginTop:1,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{lesson.title} · Step {si+1}{lesson.steps?" of "+lesson.steps.length:""}</div>
