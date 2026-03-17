@@ -18,7 +18,9 @@ D109 deployed 12 agents, found 694 issues, and was marked COMPLETE. But it misse
 | B1   | 10     | 10    | **7**  | **8**  | **8**   |
 | B2   | 10     | 10    | **6**  | **6**  | **6**   |
 
-The gold standards (Korean/Dutch) use **6-4-10-10**. The newer languages are **front-loaded** with A-level content (16 units) and **starved** at B-level (12-13 units). The owner spotted this in 30 seconds. The audit agents never checked it.
+The newer languages appear **front-loaded** with A-level content (16 units) and potentially **underserved** at B-level (12-13 units). The owner spotted the distribution imbalance in 30 seconds. The audit agents never checked it.
+
+**CRITICAL CORRECTION (D111):** Korean/Dutch 6-4-10-10 is NOT a "gold standard" to copy. There is no universal ideal distribution. Every language has different grammar complexity and concept density at each CEFR level. German might legitimately need 8 A1 units (4 cases, 3 genders, separable verbs). French might need 7 A2 units (14+ tenses, liaison/elision). The question is not "does this match Korean?" but "does this serve THIS language's learners?" Korean and Dutch must also be audited with the same rigor — their distributions may also need adjustment. P54 demands: catalogue concepts first, determine unit count from concepts, never from a template.
 
 D109 also never verified strict teach-before-use (P52): whether every quiz word traces to a prior dedicated teach card (not just "does a teach card exist somewhere").
 
@@ -171,7 +173,7 @@ Most of these were covered by D109 and should still PASS. But verify — D109 is
 
 3. **P8 Anti-Leak Agent (Sonnet OK)**: Spot-check mc/fb hints across all levels. This agent handles checklist item 2.
 
-**Do NOT try to audit all 5 languages simultaneously.** Process one language at a time. Korean and Dutch (gold standards) are verification-only. German, French, and Spanish need active fixes.
+**Do NOT try to audit all 5 languages simultaneously.** Process one language at a time. **ALL 5 languages get the same audit depth** — Korean and Dutch are NOT exempt. Their distributions must be verified against their own language requirements, not assumed correct because they were built first.
 
 ### Sizing:
 - Each agent handles ONE language, ONE aspect
