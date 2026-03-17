@@ -460,19 +460,119 @@ Six A2-level vocabulary domains were identified as gaps across all languages:
 - Some agents hit context limits and required completion agents for remaining lessons
 - All 30 lessons verified via grep and structural validation
 
-### Cumulative D112 Progress (Sessions 1-3)
+### Cumulative D112 Progress (Sessions 1-4)
 | Session | Scope | Lessons | Steps | Teach Cards |
 |---------|-------|---------|-------|-------------|
 | 1 | A1 critical gaps (months, body parts) | 11 | ~230 | ~130 |
 | 2 | A1 domains (colors, clothing, directions, emotions) | 18 | ~407 | ~200 |
 | 3 | A2 domains (animals, professions, health, nature, transport, tech) | 30 | ~740 | ~350 |
-| **Total** | | **59** | **~1,377** | **~680** |
+| 4 | B1 domains (workplace, education, media, abstract, legal, feelings) | 30 | ~683 | ~360 |
+| **Total** | | **89** | **~2,060** | **~1,040** |
 
 ### Updated Per-Level Vocabulary Estimates
 | Level | Korean | Dutch (v2) | German | French | Spanish |
 |-------|--------|------------|--------|--------|---------|
 | A1 | ~409 | ~424 | ~437 | ~363 | ~417 |
 | A2 | ~285 | ~247 | ~383 | ~224 | ~357 |
-| B1 | 305 | 265 | 301 | 220 | 258 |
+| B1 | ~375 | ~335 | ~371 | ~290 | ~328 |
 | B2 | 236 | 249 | 226 | 199 | 207 |
-| **Total** | **~1,235** | **~1,185** | **~1,347** | **~1,006** | **~1,239** |
+| **Total** | **~1,305** | **~1,255** | **~1,417** | **~1,076** | **~1,309** |
+
+---
+
+## SESSION 4 RESULTS (2026-03-17)
+
+### Scope: B1 Vocabulary Domain Expansion (6 domains x 5 languages = 30 lessons)
+
+Six B1-level vocabulary domains added across all languages:
+1. **Workplace/Office** (meetings, reports, emails, deadlines, colleagues, departments)
+2. **Education/School** (exams, subjects, grades, graduation, scholarships, lectures)
+3. **Media/News** (articles, journalists, broadcasts, social media, opinions, newspapers)
+4. **Abstract Concepts** (experience, opportunity, success, failure, development, knowledge)
+5. **Legal/Financial** (contracts, insurance, taxes, loans, savings, rent, receipts)
+6. **Expanded Feelings** (frustrated, confident, disappointed, impressed, confused, grateful)
+
+### Lessons Added Per Language
+
+**Korean** (6 lessons in units-korean.js, B1 units U13-U19):
+| ID | Domain | Steps | Teach Cards | Unit |
+|----|--------|-------|-------------|------|
+| kou13l10b | Expanded Feelings | 23 | 12 | U13 (B1.1) |
+| kou14l10b | Workplace/Office | 24 | 12 | U14 (B1.1) |
+| kou15l10b | Education/School | 22 | 12 | U15 (B1.1) |
+| kou17l10b | Media/News | 22 | 12 | U17 (B1.2) |
+| kou18l10b | Abstract Concepts | 22 | 12 | U18 (B1.2) |
+| kou19l10b | Legal/Financial | 22 | 12 | U19 (B1.2) |
+
+**Dutch** (6 lessons in units-dutch.js, B1 units v2u11-v2u19):
+| ID | Domain | Steps | Teach Cards | Unit |
+|----|--------|-------|-------------|------|
+| v2u11l8b | Workplace/Office | 23 | 12 | v2u11 (B1.1) |
+| v2u12l8b | Legal/Financial | 21 | 12 | v2u12 (B1.1) |
+| v2u13l8b | Expanded Feelings | 22 | 12 | v2u13 (B1.1) |
+| v2u15l8b | Education/School | 21 | 12 | v2u15 (B1.1) |
+| v2u18l8b | Media/News | 21 | 12 | v2u18 (B1.2) |
+| v2u19l8b | Abstract Concepts | 21 | 12 | v2u19 (B1.2) |
+
+**German** (6 lessons in units-german.js, B1 units U17-U24):
+| ID | Domain | Steps | Teach Cards | Unit |
+|----|--------|-------|-------------|------|
+| deu17l8b | Education/School | 23 | 12 | U17 (B1.1) |
+| deu18l8b | Media/News | 22 | 12 | U18 (B1.1) |
+| deu19l8b | Abstract Concepts | 23 | 12 | U19 (B1.1) |
+| deu20l8b | Legal/Financial | 23 | 12 | U20 (B1.2) |
+| deu23l8b | Expanded Feelings | 24 | 12 | U23 (B1.2) |
+| deu24l8b | Workplace/Office | 25 | 12 | U24 (B1.2) |
+
+**French** (6 lessons in units-french.js, B1 units U17-U24):
+| ID | Domain | Steps | Teach Cards | Unit |
+|----|--------|-------|-------------|------|
+| fre17l8b | Education/School | 23 | 12 | U17 (B1.1) |
+| fre19l8b | Abstract Concepts | 23 | 12 | U19 (B1.2) |
+| fre20l8b | Legal/Financial | 23 | 12 | U20 (B1.3) |
+| fre21l8b | Media/News | 22 | 12 | U21 (B1.5) |
+| fre23l8b | Expanded Feelings | 24 | 12 | U23 (B1.7) |
+| fre24l8b | Workplace/Office | 25 | 12 | U24 (B1.8) |
+
+**Spanish** (6 lessons in units-spanish.js, B1 units U17-U24):
+| ID | Domain | Steps | Teach Cards | Unit |
+|----|--------|-------|-------------|------|
+| esp17l8b | Education/School | 23 | 12 | U17 (B1.1) |
+| esp19l8b | Abstract Concepts | 23 | 12 | U19 (B1.2) |
+| esp20l8b | Legal/Financial | 23 | 12 | U20 (B1.2) |
+| esp21l8b | Media/News | 22 | 12 | U21 (B1.3) |
+| esp23l8b | Expanded Feelings | 23 | 12 | U23 (B1.4) |
+| esp24l8b | Workplace/Office | 25 | 12 | U24 (B1.4) |
+
+### Session 4 Totals
+- **30 new lessons** across 5 languages
+- **~683 new steps** (Korean 135, Dutch 129, German 140, Spanish 139, French 140)
+- **~360 new teach cards** with language-specific features:
+  - Korean: Sino-Korean COMPOUND breakdowns, phonetics, A:/B: dialogues (4-5 exchanges)
+  - Dutch: de/het articles, cognate fields, A:/B: dialogues
+  - German: der/die/das articles, compound breakdowns, gender notes (m./f./n.), A:/B: dialogues
+  - French: le/la articles, masculine/feminine forms, accent marks, A:/B: dialogues
+  - Spanish: el/la articles, m/f profession forms, Latin American variants, A:/B: dialogues
+- **Validation**: P48=0, P22c=0, P49=0, board:true=30/30, brackets balanced across all files
+
+### Workflow Notes
+- 5 parallel Opus agents deployed (one per language) per Rule 11/12
+- Temp file workflow per Rule 12: agents wrote to /tmp/{lang}-b1-vocab.js, main session merged
+- French minified file handled via Python injection script (brace-counting approach)
+- Bracket mismatch found post-merge (]; from temp file wrapper leaked into unit files), fixed by targeted removal
+- All files verified: bracket/brace balance PASS for all 5 languages
+
+### Updated Lesson Counts
+| Language | Before S4 | After S4 | New Lessons |
+|----------|-----------|----------|-------------|
+| Korean | 324 | 330 | +6 |
+| Dutch (v2) | 255 | 261 | +6 |
+| German | 252 | 258 | +6 |
+| French | 252 | 258 | +6 |
+| Spanish | 251 | 257 | +6 |
+
+### Next Sessions Needed
+- **Session 5**: B2 vocabulary expansion (6 domains: academic, debate, literature, economics, law, register pairs)
+- **Sessions 6-8**: Additional A1-B2 vocabulary to close the remaining ~14,000 word gap
+- **Sessions 9-13**: Grammar completeness verification per language
+- **Session 14**: Communicative functions mapping and final P53 verification

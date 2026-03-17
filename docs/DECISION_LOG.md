@@ -621,6 +621,19 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
 - Remaining gap: Still ~15,000-17,000 words needed for certification-grade (P55). B1-B2 domains untouched.
 - Next session: B1 vocabulary expansion
 
+**Session 4 (2026-03-17)**: B1 vocabulary domain expansion across all 5 languages.
+- 30 new lessons added (6 per language): workplace/office, education/school, media/news, abstract concepts, legal/financial, expanded feelings
+- ~683 new steps total (Korean 135, Dutch 129, German 140, Spanish 139, French 140)
+- ~360 new teach cards with language-specific features (articles, compounds, Sino-Korean breakdowns, gender notes, dialogues)
+- Placement: Korean B1 U13-U19, Dutch v2u11-v2u19, German U17-U24, French U17-U24, Spanish U17-U24
+- Validation: 30/30 PASS. P48=0, P49=0, P22c=0, board:true=30/30, all brackets balanced
+- 5 parallel Opus agents deployed (one per language) per Rule 11/12, temp file workflow per Rule 12
+- French minified file handled via Python injection script
+- Updated lesson counts: Korean 330, Dutch 261, German 258, French 258, Spanish 257
+- Cumulative D112 S1-S4: 89 lessons, ~2,060 steps, ~1,040 teach cards
+- B1 vocab estimates updated: Korean ~375, Dutch ~335, German ~371, French ~290, Spanish ~328
+- Next session: B2 vocabulary expansion or grammar completeness verification
+
 **Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
 
 ---
