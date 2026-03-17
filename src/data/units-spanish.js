@@ -3842,8 +3842,7 @@ const spanishUnits = [
 {type:"drag_fill",s:"{1} de que {2} la tormenta, los ninos ya se {3} {4} a dormir.",blanks:{"1":"Antes","2":"empezara","3":"habian","4":"ido"},pool:["Antes","empezara","habian","ido","Despues","empezo","habia","ir"],hint:"Before the storm started (subjunctive) + the children had gone (pluscuamperfecto)."},
 {type:"mc",q:"In a narrative: 'Era una noche oscura. Todo estaba en silencio. De repente, ___ un grito.' Which fits?",opts:["se oyo","se oia","se habia oido","se oye"],ans:"se oyo",hint:"A sudden event breaking into a described scene uses which past tense?"},
 {type:"fb",s:"El abuelo nos conto que de joven {1} vivido en muchos paises.",a:["habia"],opts:["habia","ha","habias","habian"],hint:"The grandfather (third person singular) recounting his past experience."}
-]}
-]}
+]},
 {id:"esp20l8b",title:"Ley y Finanzas: Vocabulario",icon:"⚖️",xp:20,board:true,steps:[
 {type:"intro",title:"Legal & Financial Vocabulary",desc:"Vocabulario básico de leyes y finanzas.\nLearn essential legal and financial terms in Spanish.",goals:["Learn 12 legal/financial words","Practice with articles (el/la)","Use finance vocabulary in daily contexts"]},
 {type:"teach",nl:"el contrato",en:"the contract",example:"A: ¿Ya firmaste el contrato?\nB: Todavía no. Quiero leerlo bien primero.\nA: Buena idea. Siempre hay que leer la letra pequeña.\nB: Sí, voy a revisarlo con calma.",exampleEn:"A: Did you already sign the contract?\nB: Not yet. I want to read it carefully first.\nA: Good idea. You should always read the fine print.\nB: Yes, I'll review it calmly.",note:"el contrato (m.)\nfirmar un contrato = to sign a contract.\nla letra pequeña = the fine print.",kind:"noun"},
@@ -3868,8 +3867,8 @@ const spanishUnits = [
 {type:"fb",s:"La nueva {1} prohíbe fumar en los parques públicos.",a:["ley"],opts:["ley","multa","cuenta","factura"],hint:"An official rule that everyone in a country must follow."},
 {type:"mc",q:"¿Me puede dar el ___, por favor? Lo necesito para la empresa.",opts:["recibo","sueldo","banco","interés"],ans:"recibo",hint:"A paper proving you paid for something."},
 {type:"match",pairs:[{nl:"el alquiler",en:"rent"},{nl:"los ahorros",en:"savings"},{nl:"el interés",en:"interest"},{nl:"la ley",en:"law"},{nl:"el sueldo",en:"salary"}]}
+]}
 ]},
-,
 // ══════════════════════════════════════════════════════════════
 // UNIT 21: En Las Noticias — Passive Voice (B1.3)
 // ══════════════════════════════════════════════════════════════
@@ -4618,7 +4617,6 @@ const spanishUnits = [
 {type:"drag_fill",s:"{1} mi punto de vista, necesitamos cambiar la estrategia. No estoy de {2} con el plan actual. {3} que hay mejores opciones.",blanks:{"1":"Desde","2":"acuerdo","3":"Considero"},pool:["Desde","acuerdo","Considero","En","parte","Creo"],hint:"A perspective marker, disagreement, and a formal belief in a professional discussion."},
 {type:"mc",q:"You want to ask a colleague about their work environment. You say:",opts:["¿Cómo es el sueldo?","¿Cómo es el ambiente laboral?","¿Cómo es la carta de presentación?","¿Cómo es el currículum?"],ans:"¿Cómo es el ambiente laboral?",hint:"The phrase asking about the overall feeling and culture of the workplace."},
 ]},
-]}
 {id:"esp24l8b",title:"En la Oficina: Vocabulario",icon:"🏢",xp:20,board:true,steps:[
 {type:"intro",title:"Office Vocabulary",desc:"Palabras esenciales para el entorno laboral.\nLearn key workplace and office vocabulary in Spanish.",goals:["Learn 12 workplace words with articles","Practice office vocabulary in dialogues","Use work vocabulary in context"]},
 {type:"teach",nl:"la reunión",en:"the meeting",example:"A: ¿Tienes una reunión hoy?\nB: Sí, a las dos con el equipo.\nA: ¿En qué sala?\nB: En la sala de conferencias del tercer piso.",exampleEn:"A: Do you have a meeting today?\nB: Yes, at two with the team.\nA: In which room?\nB: In the conference room on the third floor.",note:"la reunión (f.)\nAlso: la junta (Latin America).",kind:"noun"},
@@ -4645,8 +4643,8 @@ const spanishUnits = [
 {type:"match",pairs:[{nl:"el plazo",en:"deadline"},{nl:"el proyecto",en:"project"},{nl:"el jefe",en:"boss"},{nl:"la oficina",en:"office"},{nl:"el correo electrónico",en:"email"}]},
 {type:"mc",q:"Necesitamos terminar el ___ antes del lunes.",opts:["proyecto","sueldo","colega","departamento"],ans:"proyecto",hint:"A planned piece of work with a specific goal."},
 {type:"fb",s:"La {1} tiene más de 200 empleados en tres países.",a:["empresa"],opts:["empresa","oficina","reunión","solicitud"],hint:"The organization where people work together."}
+]}
 ]},
-,
 // ══════════════════════════════════════════════════════════════
 // UNIT 25: Si Hubiera Sabido — Subjuntivo Imperfecto (B2.1)
 // ══════════════════════════════════════════════════════════════
