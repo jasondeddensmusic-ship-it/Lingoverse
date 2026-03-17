@@ -29,20 +29,42 @@ Every language in LingoVerse must achieve **certification-grade vocabulary compl
 
 1. **Official exam vocabulary lists are the MINIMUM.** Every word on the official vocabulary list for TOPIK I/II, NT2, Goethe A1-B2, DELF A1-B2, and DELE A1-B2 must have a dedicated teach card in the curriculum. Not "most words." Not "the important ones." ALL of them.
 
-2. **Official word counts by level (approximate targets)**:
-   - **A1**: ~800-1,000 active vocabulary words
-   - **A2**: ~1,500-2,000 active vocabulary words (cumulative ~2,500-3,000)
-   - **B1**: ~3,000-3,500 active vocabulary words (cumulative ~5,500-6,500)
-   - **B2**: ~4,000-5,000 active vocabulary words (cumulative ~9,500-11,500)
+2. **Official word counts by level (researched March 2026)**:
 
-   These are GENERAL CEFR benchmarks. Each language's official exam may specify different numbers. The official exam number ALWAYS takes precedence over the general benchmark.
+   **General CEFR benchmarks (Milton 2010, cross-language research)**:
+   - A1: ~500-1,000 word families
+   - A2: ~1,500-2,500 word families
+   - B1: ~2,500-3,250 word families
+   - B2: ~3,250-3,750 word families (some sources say up to 5,000)
+
+   **Per-language official counts**:
+
+   | Language | Source | A1 | A2 | B1 | B2 |
+   |----------|--------|-----|-----|------|------|
+   | Korean | NIKL graded list (6,000 total) | ~1,000 | ~2,000 | ~3,000-4,000 | ~5,000-6,000 |
+   | Korean | TOPIK prep lists | - | 1,671-1,850 (TOPIK I total) | - | +2,662 (TOPIK II additional) |
+   | Dutch | Estimates (no single official list) | ~500-1,000 | ~2,000-3,000 | ~3,000-5,000 | ~5,000-8,000 |
+   | German | Goethe Wortlisten (PRECISE) | **650** | **1,300** | **2,400** | ~3,500-5,000 |
+   | French | Referentiel series | ~500-600 | ~1,000-1,200 | ~2,000-2,500 | ~4,000-5,000 |
+   | Spanish | PCIC estimates | ~500-900 | ~1,000-1,500 | ~2,000-2,500 | ~3,000-4,000 |
+
+   **Only German has truly precise, officially published word counts** (650/1,300/2,400 for A1/A2/B1). All others provide thematic inventories or curriculum frameworks. The official exam number ALWAYS takes precedence over general benchmarks.
+
+   **Key sources for obtaining word lists**:
+   - Korean NIKL: korean.go.kr (한국어 학습용 어휘 목록, ~6,000 graded words in 3 tiers)
+   - Korean TOPIK prep: learning-korean.com (1,671 TOPIK I / 2,662 TOPIK II community-compiled)
+   - German Goethe: goethe.de exam preparation section (downloadable PDFs)
+   - Spanish PCIC: cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/ (freely available online)
+   - French Referentiel: Editions Didier (Niveau A1/A2/B1/B2 pour le francais, paywalled books)
+   - Dutch: No single official list. Use NT2 Basiswoordenlijst + Inburgeringsexamen materials
+   - Routledge Frequency Dictionaries: 5,000 most frequent words per language (available for all 5 languages, covers ~95% of everyday use)
 
 3. **Per-language official vocabulary sources (MANDATORY cross-reference)**:
-   - **Korean**: TOPIK vocabulary list (6,000+ words for TOPIK II), National Institute of Korean Language frequency lists, TTMIK vocabulary by level
-   - **Dutch**: NT2 Basiswoordenlijst (~4,000 words), Inburgeringsexamen word lists, Nederlandse Taalunie CEFR lists
-   - **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400, B2: ~4,000+), Profile Deutsch word lists
-   - **French**: DELF vocabulary lists by level, Français Fondamental, Référentiel de l'Alliance Française, Éditions Didier word lists
-   - **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (A1-B2), DELE preparation vocabulary lists, Aula Internacional word lists
+   - **Korean**: NIKL 한국어 학습용 어휘 목록 (~6,000 words in 3 grades), TOPIK prep lists (1,671 TOPIK I + 2,662 TOPIK II), TTMIK vocabulary by level, Routledge Frequency Dictionary of Korean
+   - **Dutch**: NT2 Basiswoordenlijst (~2,000-3,000 words), Inburgeringsexamen word lists, Routledge Frequency Dictionary of Dutch
+   - **German**: Goethe-Institut Wortliste PDFs (A1: 650, A2: 1,300, B1: 2,400), Profile Deutsch, Routledge Frequency Dictionary of German
+   - **French**: Referentiel pour le francais series (Editions Didier), Francais Fondamental, Routledge Frequency Dictionary of French
+   - **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (cvc.cervantes.es, freely available), DELE prep materials, Routledge Frequency Dictionary of Spanish
 
 4. **Vocabulary domains that MUST be complete at each level**:
 
@@ -260,20 +282,20 @@ This is the work that has NEVER been done. For each of the 5 languages:
 
 Obtain or reconstruct the official vocabulary list for each certification exam level. Sources:
 
-| Language | Exam | Vocabulary List Source |
-|----------|------|----------------------|
-| Korean | TOPIK I (A1-A2) | TOPIK official vocabulary (~3,500 words) |
-| Korean | TOPIK II (B1-B2) | TOPIK official vocabulary (~6,000+ words) |
-| Dutch | NT2 A2/Inburgering | Basiswoordenlijst (~4,000 words) |
-| Dutch | NT2 B1-B2 | NT2 Staatsexamen vocabulary |
-| German | Goethe A1 | Goethe-Wortliste A1 (~650 words) |
-| German | Goethe A2 | Goethe-Wortliste A2 (~1,300 words) |
-| German | Goethe B1 | Goethe-Wortliste B1 (~2,400 words) |
-| German | Goethe B2 | Goethe-Wortliste B2 (~4,000+ words) |
-| French | DELF A1-A2 | CIEP/FEI reference vocabulary |
-| French | DELF B1-B2 | CIEP/FEI reference vocabulary |
-| Spanish | DELE A1-A2 | PCIC Nociones especificas A1-A2 |
-| Spanish | DELE B1-B2 | PCIC Nociones especificas B1-B2 |
+| Language | Exam | Vocabulary List Source | Approx Words |
+|----------|------|----------------------|--------------|
+| Korean | TOPIK I (A1-A2) | NIKL Grade A + TOPIK prep lists | ~1,671-2,000 |
+| Korean | TOPIK II (B1-B2) | NIKL Grades B-C + TOPIK II prep | +2,662-4,000 |
+| Dutch | NT2 A2/Inburgering | Basiswoordenlijst | ~2,000-3,000 |
+| Dutch | NT2 B1-B2 | NT2 Staatsexamen vocabulary | ~5,000-8,000 cumulative |
+| German | Goethe A1 | Goethe-Wortliste A1 (PDF) | **650 (precise)** |
+| German | Goethe A2 | Goethe-Wortliste A2 (PDF) | **1,300 (precise)** |
+| German | Goethe B1 | Goethe-Wortliste B1 (PDF) | **2,400 (precise)** |
+| German | Goethe B2 | No official list; use Profile Deutsch + frequency | ~3,500-5,000 |
+| French | DELF A1-B1 | Referentiel pour le francais (Didier) | ~500/1,200/2,500 |
+| French | DELF B2 | Referentiel B2 | ~4,000-5,000 cumulative |
+| Spanish | DELE A1-A2 | PCIC Nociones especificas (free online) | ~500-900/1,000-1,500 |
+| Spanish | DELE B1-B2 | PCIC Nociones especificas (free online) | ~2,000-2,500/3,000-4,000 |
 
 ### Step 2: Extract current vocabulary from units files
 
