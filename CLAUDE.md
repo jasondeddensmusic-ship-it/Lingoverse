@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German A1-B2 COMPLETE (D103, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). French A1-B2 COMPLETE (D105, 30 units, 240 lessons, 4,380 steps, 100% dialogue coverage). Spanish A1-B2 COMPLETE (D108, 30 units, 240 lessons, 4,363 steps, A:/B: dialogues on all teach cards). Arabic has early skeletons (5 units, below density standard).
+**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED + CROSS-AUDITED (30 units, ~311 lessons, 855/1132 teach cards with A:/B: dialogues, D109 audit PASS). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~4,580 steps, D102+D109 audit PASS). German A1-B2 COMPLETE + CROSS-AUDITED (D103+D109, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). French A1-B2 COMPLETE + CROSS-AUDITED (D105+D109, 30 units, 240 lessons, 4,380 steps, 100% dialogue coverage). Spanish A1-B2 COMPLETE + CROSS-AUDITED (D108+D109, 30 units, 240 lessons, 4,363 steps, A:/B: dialogues on all teach cards). Arabic has early skeletons (5 units, below density standard).
 
 ---
 
@@ -336,8 +336,9 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Round 10: 5 P34 teach-before-test violations fixed (quiz words without teach cards)
   - de/het article audit: 55+ nouns verified, ZERO errors
   - Final scan: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80, duplicates=0
-- **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), and audited (D102).
-- **NEXT ACTION**: Dialogue enrichment uplift (73% → 90%+) or A1-A2 retroactive standards pass when prioritized.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 311 P8 hint-reveals fixed (54 mc + 134 fb + 123 additional). 1 critical mc ans mismatch fixed (v2u25l7). CEFR grammar 68/69 PASS (only B2 dienen te missing: LOW priority). Dialogue coverage: 97.7% (1,080/1,105).
+- **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), audited (D102), and cross-audited (D109).
+- **NEXT ACTION**: Dialogue enrichment uplift (97.7% → 100%) or A1-A2 retroactive standards pass when prioritized.
 
 ### Korean:
 - Foundations: COMPLETE (knowledge + 25 playthrough lessons + gate quiz)
@@ -375,7 +376,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
   - P44 lazy hints: 12 in A1/A2 content.
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
-- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, and dialogue-enriched. Next: C1 curriculum when Dutch catches up.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: Full 5-language audit. 178 em-dashes fixed, 3 critical mc ans mismatches fixed (kou4l8, kou9l8), 3 P49 CEFR labels removed, 12 severe P8 hint-reveals rewritten. CEFR grammar coverage: 64/64 FULL PASS.
+- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, dialogue-enriched, and cross-audited (D109). Next: C1 curriculum when Dutch catches up.
 
 ### German:
 - **A1-B2 COMPLETE (D103, 2026-03-16)**: Full build from scratch.
@@ -389,7 +391,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - der/die/das article colors throughout (der=blue, die=coral, das=purple)
   - Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
-- **German is PRODUCTION-READY.** A1-B2 fully built and audited.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 157 P8 hint-reveals fixed. CEFR grammar PASS with 1 moderate gap (A2 imperative mood: no dedicated lesson). P22c=0, P49=0.
+- **German is PRODUCTION-READY.** A1-B2 fully built, audited, and cross-audited (D109). Next: D92-style deep audit or A2 imperative lesson addition.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
 ### French:
 - **A1-B2 COMPLETE (D105, 2026-03-16)**: Full build from scratch.
@@ -405,7 +408,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Quality scan: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
-- **French is PRODUCTION-READY.** A1-B2 fully built. Next: D92-style deep quality audit or C1 planning.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 15 P8 hint-reveals fixed, 2 P49 CEFR labels removed. CEFR grammar PASS with minor vocab gaps (weather, months, health). verb_table underused (5 across 240 lessons).
+- **French is PRODUCTION-READY.** A1-B2 fully built and cross-audited (D109). Next: D92-style deep quality audit or C1 planning.
 ### Spanish:
 - **A1-B2 COMPLETE (D108, 2026-03-17)**: Full build using D107 temp-file agent workflow + D106 Opus 4.6 agents.
   - Infrastructure: COMPLETE (LANG_BLUEPRINT, CULTURE_PACKS, ARTICLE_SYSTEMS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ)
@@ -417,7 +421,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - All teach cards have A:/B: dialogues. el/la article colors throughout (el=blue, la=coral).
   - Quality validation PASS: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
-- **Spanish is PRODUCTION-READY.** A1-B2 fully built and validated. Next: D92-style deep quality audit.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 23 P8 hint-reveals fixed, 1 P49 CEFR label removed. CEFR grammar PASS with 2 vocab gaps (A1 body parts: MODERATE, A2 animals: LOW).
+- **Spanish is PRODUCTION-READY.** A1-B2 fully built, validated, and cross-audited (D109). Next: D92-style deep quality audit.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
@@ -827,6 +832,7 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 | Dialogue enrichment | D100 | 847/1132 teach cards with A:/B: dialogues |
 | TOPIK/TTMIK gap coverage | D93 | 6 sprints, ~90-95% coverage |
 | Engine bug fixes | D100 | showInContext, null guard, error boundary |
+| Cross-language audit | D109 | 178 em-dashes fixed, 3 P49 removed, 12 P8 severe fixed, CEFR 64/64 |
 
 **Korean needs NO further work** until C1 curriculum is planned (after Dutch catches up).
 
@@ -841,8 +847,9 @@ Dutch is PRODUCTION-READY. Every quality gate has been passed:
 | B2 quality audit | D102 | 10 rounds, ~255 P8 fixes, 5 P34 fixes |
 | de/het article audit | D102 | 55+ nouns verified, 0 errors |
 | All pipeline scans | D102 | P48=0, P22c=0, P44=0, P49=0 |
+| Cross-language audit | D109 | 311 P8 fixed, 1 mc ans fixed, CEFR 68/69, dialogues 97.7% |
 
-**Dutch needs NO further work** until dialogue enrichment uplift (currently 73%, target 90%+) or A1-A2 retroactive standards pass.
+**Dutch needs NO further work** until dialogue enrichment uplift (currently 97.7%, target 100%) or A1-A2 retroactive standards pass.
 
 ### DONE (German A1-B2 = Third Gold Standard)
 German is PRODUCTION-READY. Built from scratch in D103:
@@ -857,8 +864,9 @@ German is PRODUCTION-READY. Built from scratch in D103:
 | Quality audit (P48/P22c/P49/density) | D103 | PASS |
 | Dialogue enrichment | D103 | 1,100/1,100 (100%) |
 | Post-build validation fix | D104 | 3 undefined array elements, 3 missing MC ans, unit ordering |
+| Cross-language audit | D109 | 157 P8 fixed, CEFR PASS (1 moderate gap: A2 imperative) |
 
-**German needs NO further work** until D92-style deep audit or C1 curriculum planning.
+**German needs NO further work** until D92-style deep audit or A2 imperative lesson addition.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -874,6 +882,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | Quality scan (P48/P22c/P49/density/board:true) | D105 | PASS |
 | Dialogue enrichment | D105 | 883/883 (100%) |
 | Agent model escalation protocol | D106 | Opus 4.6 mandatory for content agents |
+| Cross-language audit | D109 | 15 P8 fixed, 2 P49 removed, CEFR PASS (3 minor vocab gaps) |
 
 **French needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
 
@@ -893,6 +902,7 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | Quality validation (P48/P22c/P49/density/board:true) | D108 | PASS |
 | Dialogue enrichment | D108 | All teach cards have A:/B: dialogues |
 | Temp-file agent workflow | D107 | Gold standard for future builds |
+| Cross-language audit | D109 | 23 P8 fixed, 1 P49 removed, CEFR PASS (2 vocab gaps) |
 
 **Spanish needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
 ### NEXT PRIORITIES (Post Phase 1 Content)
