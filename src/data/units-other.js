@@ -4,7 +4,7 @@
 export default [
 
 // ━━━━━━━━━━ ARABIC UNITS ━━━━━━━━━━
-{n:1,lang:"ar",title:"!أهلا وسهلا",desc:"Your first words in Arabic — greetings, peace, and the most beautiful language ritual.",
+{n:1,lang:"ar",title:"!أهلا وسهلا",desc:"Your first words in Arabic: greetings, peace, and the most beautiful language ritual.",
 level:"A1.1",objectives:["ok_greet_formal","ok_greet_informal","ok_say_goodbye","ok_polite_phrases"],emoji:"🇸🇦",cat:"basics",icon:"☮️",color:"#2E8B57",sub:"Greetings & Peace",
 lessons:[
   {id:"ar_u1l1",title:"السلام عليكم 🕌",xp:20,steps:[
@@ -33,9 +33,9 @@ lessons:[
     {type:"tr",mk:"polite_thanks",dir:"produce"},
   ]},
 ],
-deepDive:{title:"🇸🇦 The Arabic Greeting Ritual",body:"Arabic greetings are far more than politeness — they're a deeply embedded social ritual.\n\n'السلام عليكم' (Peace be upon you) is used by 1.8 billion people worldwide. The obligatory reply 'وعليكم السلام' creates an exchange of mutual blessing.\n\nThe phrase 'أهلا وسهلا' means 'you are among family and can be at ease'. This captures the essence of Arab hospitality: strangers are treated as family.\n\n'إن شاء الله' (God willing) is said about anything future. 'الحمد لله' (Praise be to God) is said about anything good. These phrases are cultural, not just religious."}
+deepDive:{title:"🇸🇦 The Arabic Greeting Ritual",body:"Arabic greetings are far more than politeness. They're a deeply embedded social ritual.\n\n'السلام عليكم' (Peace be upon you) is used by 1.8 billion people worldwide. The obligatory reply 'وعليكم السلام' creates an exchange of mutual blessing.\n\nThe phrase 'أهلا وسهلا' means 'you are among family and can be at ease'. This captures the essence of Arab hospitality: strangers are treated as family.\n\n'إن شاء الله' (God willing) is said about anything future. 'الحمد لله' (Praise be to God) is said about anything good. These phrases are cultural, not just religious."}
 },
-{n:2,lang:"ar",title:"من أنا؟",desc:"Talk about yourself — your name, where you're from, and basic self-introduction.",
+{n:2,lang:"ar",title:"من أنا؟",desc:"Talk about yourself: your name, where you're from, and basic self-introduction.",
 level:"A1.1",objectives:["ok_introduce_self","ok_how_are_you"],emoji:"🪪",cat:"basics",icon:"📛",color:"#D4A017",sub:"Self-introduction",
 lessons:[
   {id:"ar_u2l1",title:"اسمي... 📛",xp:20,steps:[
@@ -63,9 +63,9 @@ lessons:[
     {type:"tr",mk:"ar_sorry",dir:"comprehend"},
   ]},
 ],
-deepDive:{title:"🇸🇦 Arabic Without 'To Be'",body:"One of Arabic's most elegant features is the absence of 'to be' in present tense.\n\nEnglish: 'The book IS red' (3 words)\nArabic: الكتاب أحمر (2 words, literally 'the-book red')\n\nThe root system is Arabic's superpower. Root ع-ل-م means 'knowledge': عِلم (science), عالَم (world), عالِم (scholar), مُعَلِّم (teacher), تَعَلَّمَ (to learn) — all from three letters."}
+deepDive:{title:"🇸🇦 Arabic Without 'To Be'",body:"One of Arabic's most elegant features is the absence of 'to be' in present tense.\n\nEnglish: 'The book IS red' (3 words)\nArabic: الكتاب أحمر (2 words, literally 'the-book red')\n\nThe root system is Arabic's superpower. Root ع-ل-م means 'knowledge': عِلم (science), عالَم (world), عالِم (scholar), مُعَلِّم (teacher), تَعَلَّمَ (to learn). All from three letters."}
 },
-{n:3,lang:"ar",title:"الأرقام",desc:"Count from 1 to 10 in Arabic — essential for shopping, taxis, and everyday life.",
+{n:3,lang:"ar",title:"الأرقام",desc:"Count from 1 to 10 in Arabic: essential for shopping, taxis, and everyday life.",
 level:"A1.1",objectives:["ok_count_basic"],emoji:"🔢",cat:"basics",icon:"🔢",color:"#4169E1",sub:"Numbers 1-10",
 lessons:[
   {id:"ar_u3l1",title:"واحد اثنان ثلاثة 🔢",xp:20,steps:[
@@ -91,10 +91,10 @@ lessons:[
     {type:"tr",mk:"ar_num_10",dir:"produce"},
   ]},
 ],
-deepDive:{title:"🔢 How Arabic Gave Us Numbers",body:"The numerals 0-9 traveled from India → Arabic scholars → Europe. Al-Khwarizmi refined the Hindu number system and introduced zero (صفر — sifr) to the world.\n\n'Zero' comes from Arabic 'صفر'.\n'Algebra' comes from Arabic 'الجبر'.\n'Algorithm' comes from al-Khwarizmi's name.\n\nNumbers are ALWAYS read left-to-right, even though Arabic text reads right-to-left!"}
+deepDive:{title:"🔢 How Arabic Gave Us Numbers",body:"The numerals 0-9 traveled from India → Arabic scholars → Europe. Al-Khwarizmi refined the Hindu number system and introduced zero, sifr (صفر), to the world.\n\n'Zero' comes from Arabic 'صفر'.\n'Algebra' comes from Arabic 'الجبر'.\n'Algorithm' comes from al-Khwarizmi's name.\n\nNumbers are ALWAYS read left-to-right, even though Arabic text reads right-to-left!"}
 },
 // ── Arabic Unit 4: Food & Drink ──
-{n:4,lang:"ar",title:"الأكل والشرب",desc:"Order food and drink in Arabic — from the coffee ritual to street food culture.",
+{n:4,lang:"ar",title:"الأكل والشرب",desc:"Order food and drink in Arabic: from the coffee ritual to street food culture.",
 level:"A1.2",objectives:["ok_order_food","ok_restaurant","ok_use_prices"],emoji:"☕",cat:"food",icon:"🍽️",color:"#D4A017",sub:"Food & Café Culture",
 lessons:[
   {id:"ar_u4l1",title:"قهوة وشاي ☕",xp:25,steps:[
@@ -125,10 +125,10 @@ lessons:[
     {type:"tr",mk:"ar_the_bill",dir:"produce"},
   ]},
 ],
-deepDive:{title:"🍽️ Arab Cuisine",body:"Arab cuisine reflects centuries of trade, geography, and hospitality traditions.\n\nThe word 'coffee' (English) comes from Arabic 'قهوة' (qahwa). The word 'sugar' comes from Arabic 'سكر' (sukkar). 'Lemon' from 'ليمون' (laymoon).\n\nMezze (مزة) is the tradition of small shared dishes before the main meal — hummus, falafel, tabbouleh, fattoush. Eating is always communal.\n\nThe phrase 'صحتين' (sahtayn = 'two healths') is said to someone eating, like 'bon appétit'."}
+deepDive:{title:"🍽️ Arab Cuisine",body:"Arab cuisine reflects centuries of trade, geography, and hospitality traditions.\n\nThe word 'coffee' (English) comes from Arabic 'قهوة' (qahwa). The word 'sugar' comes from Arabic 'سكر' (sukkar). 'Lemon' from 'ليمون' (laymoon).\n\nMezze (مزة) is the tradition of small shared dishes before the main meal: hummus, falafel, tabbouleh, fattoush. Eating is always communal.\n\nThe phrase 'صحتين' (sahtayn = 'two healths') is said to someone eating, like 'bon appétit'."}
 },
 // ── Arabic Unit 5: Family ──
-{n:5,lang:"ar",title:"عائلتي",desc:"Talk about your family — parents, siblings, and children. Family is everything in Arab culture.",
+{n:5,lang:"ar",title:"عائلتي",desc:"Talk about your family: parents, siblings, and children. Family is everything in Arab culture.",
 level:"A1.2",objectives:["ok_introduce_self","ok_describe_family"],emoji:"👨‍👩‍👧‍👦",cat:"family",icon:"👨‍👩‍👧‍👦",color:"#8B4513",sub:"My Family",
 lessons:[
   {id:"ar_u5l1",title:"أبي وأمي 👨‍👩‍👧",xp:25,steps:[
@@ -160,7 +160,7 @@ lessons:[
     {type:"tr",mk:"ar_father",dir:"produce"},
   ]},
 ],
-deepDive:{title:"👨‍👩‍👧‍👦 Family & Names in Arabic",body:"Arabic names often tell a family story:\n\nأبو (Abu) = 'father of' — men are often called by their eldest son's name: Abu Mohammed = 'Father of Mohammed'\nأم (Umm) = 'mother of' — same pattern: Umm Khalid = 'Mother of Khalid'\nابن/بن (Ibn/Bin) = 'son of' — used in full names: Mohammed bin Salman = 'Mohammed son of Salman'\n\nThe Arabic word for 'family' (عائلة) shares a root with 'support' (عال) — family means those who support you.\n\nPro tip: If someone tells you 'أنا أبو خالد' (I'm Abu Khalid), calling them by this name shows cultural respect!"}
+deepDive:{title:"👨‍👩‍👧‍👦 Family & Names in Arabic",body:"Arabic names often tell a family story:\n\nأبو (Abu) = 'father of'. Men are often called by their eldest son's name: Abu Mohammed = 'Father of Mohammed'\nأم (Umm) = 'mother of'. Same pattern: Umm Khalid = 'Mother of Khalid'\nابن/بن (Ibn/Bin) = 'son of'. Used in full names: Mohammed bin Salman = 'Mohammed son of Salman'\n\nThe Arabic word for 'family' (عائلة) shares a root with 'support' (عال): family means those who support you.\n\nPro tip: If someone tells you 'أنا أبو خالد' (I'm Abu Khalid), calling them by this name shows cultural respect!"}
 },
 
 

@@ -308,7 +308,7 @@ export default [
 
   {type:"mc",q:"You want to politely decline an offer. You say:",opts:["Doch, danke","Nein, danke","Ja, bitte","Genau, bitte"],ans:"Nein, danke",hint:"No followed by thank you is the polite formula."},
 
-  {type:"fb",s:"Wie ___ es Ihnen? (formal: How are you?)",a:"geht",opts:["geht","bist","sind","haben"],hint:"The verb in 'Wie geht es Ihnen' is..."},
+  {type:"fb",s:"Wie ___ es Ihnen? (formal: How are you?)",a:"geht",opts:["geht","bist","sind","haben"],hint:"Think about the common greeting phrase. Which verb fits with es?"},
 
   {type:"mc",q:"'Bis morgen' literally means:",opts:["Good morning","Until tomorrow","See you soon","Goodbye"],ans:"Until tomorrow",hint:"A common farewell meaning see you the next day."},
 
@@ -790,7 +790,7 @@ export default [
 
   {type:"mc",q:"Which form of 'haben' goes with 'er'?",opts:["habe","haben","hat","habt"],ans:"hat",hint:"Third person singular is also irregular."},
 
-  {type:"fb",s:"Wir ___ drei Kinder.",a:"haben",opts:["haben","habt","habe","hat"],hint:"We = wir. Which haben form goes with wir?"},
+  {type:"fb",s:"Wir ___ drei Kinder.",a:"haben",opts:["haben","habt","habe","hat"],hint:"We = wir. Which conjugation of this verb matches wir?"},
 
   {type:"mc",q:"Complete: '___ du einen Bruder?'",opts:["Haben","Hast","Hat","Habt"],ans:"Hast",hint:"Question with du: invert subject and verb."},
 
@@ -825,7 +825,7 @@ export default [
 
   {type:"mc",q:"Complete: 'Das ist ___ Vater.' (his father)",opts:["seine","sein","seinen","seiner"],ans:"sein",hint:"Vater is masculine (der). No -e ending in nominative."},
 
-  {type:"fb",s:"Ist das ___ Bruder? (your brother, informal)",a:"dein",opts:["dein","deine","mein","sein"],hint:"dein = your (informal). Bruder is masculine."},
+  {type:"fb",s:"Ist das ___ Bruder? (your brother, informal)",a:"dein",opts:["dein","deine","mein","sein"],hint:"Bruder is masculine. What is the informal word for your?"},
 
   {type:"mc",q:"'Das ist ihre Schwester.' means:",opts:["That is my sister","That is your sister","That is his sister","That is her sister"],ans:"That is her sister",hint:"ihre = her (feminine noun, die Schwester)."},
 
@@ -880,7 +880,7 @@ export default [
 
   {type:"mc",q:"You have no siblings. You say:",opts:["Ich habe keine Geschwister.","Ich habe Geschwister.","Ich bin kein Kind.","Ich habe null."],ans:"Ich habe keine Geschwister.",hint:"kein/keine = none/not a. Keine before plural nouns."},
 
-  {type:"fb",s:"Ich habe ___ Bruder und zwei Schwestern.",a:"einen",opts:["einen","ein","eine","einer"],hint:"Einen = one (masculine accusative). Bruder is masculine."},
+  {type:"fb",s:"Ich habe ___ Bruder und zwei Schwestern.",a:"einen",opts:["einen","ein","eine","einer"],hint:"Bruder is masculine. Think about accusative case for masculine nouns."},
 
   {type:"mc",q:"Which is the correct plural of 'das Kind'?",opts:["die Kinds","die Kindes","die Kinder","die Kinden"],ans:"die Kinder",hint:"Kind adds -er for plural: this word (also heard in the correct form)."},
 ]},
@@ -905,11 +905,11 @@ export default [
 
   {type:"mc",q:"What does 'das Haustier' literally mean?",opts:["Garden animal","Forest animal","House animal","Outdoor animal"],ans:"House animal",hint:"Combine Haus + Tier into one compound noun."},
 
-  {type:"mc",q:"Which article goes with 'Katze'?",opts:["der","das","die","den"],ans:"die",hint:"Die Katze is feminine."},
+  {type:"mc",q:"Which article goes with 'Katze'?",opts:["der","das","die","den"],ans:"die",hint:"Katze is a feminine noun. Which article matches?"},
 
-  {type:"fb",s:"Ich habe ___ Hund. Er heißt Bello.",a:"einen",opts:["einen","eine","ein","der"],hint:"Hund is masculine (der). After haben: einen (accusative)."},
+  {type:"fb",s:"Ich habe ___ Hund. Er heißt Bello.",a:"einen",opts:["einen","eine","ein","der"],hint:"Hund is masculine. After haben, what happens to the indefinite article?"},
 
-  {type:"mc",q:"Complete: 'Ich habe ___ Kaninchen.'",opts:["ein","einen","eine","das"],ans:"ein",hint:"Kaninchen is neuter (das). Neuter accusative = ein."},
+  {type:"mc",q:"Complete: 'Ich habe ___ Kaninchen.'",opts:["ein","einen","eine","das"],ans:"ein",hint:"Kaninchen is neuter. Neuter indefinite articles stay the same in accusative."},
 
   {type:"match",pairs:[{nl:"der Hund",en:"the dog"},{nl:"die Katze",en:"the cat"},{nl:"der Vogel",en:"the bird"},{nl:"das Kaninchen",en:"the rabbit"}]},
 
@@ -917,7 +917,7 @@ export default [
 
   {type:"fb",s:"Hast du ein ___? (Do you have a pet?)",a:"Haustier",opts:["Haustier","Hund","Katze","Fisch"],hint:"The general word for pet in German."},
 
-  {type:"mc",q:"Ich habe ___ Katze. (a cat)",opts:["einen","ein","eine","der"],ans:"eine",hint:"Katze is feminine. Feminine accusative = eine."},
+  {type:"mc",q:"Ich habe ___ Katze. (a cat)",opts:["einen","ein","eine","der"],ans:"eine",hint:"Katze is feminine. What is the feminine indefinite article in accusative?"},
 
   {type:"mc",q:"The plural of 'der Vogel' is:",opts:["die Vogels","die Vögel","die Vogeln","die Vögeln"],ans:"die Vögel",hint:"Umlaut change: o becomes ö. No ending added."},
 
@@ -944,7 +944,7 @@ export default [
 
   {type:"mc",q:"'Das ist meine Schwester.' uses 'meine' because:",opts:["Schwester is masculine","Schwester starts with S","Schwester is feminine (die)","It comes after 'das'"],ans:"Schwester is feminine (die)",hint:"meine before this word nouns and plurals."},
 
-  {type:"fb",s:"Mein Vater ___ 50 Jahre alt.",a:"ist",opts:["ist","hat","sind","habe"],hint:"Er/Sie ist X Jahre alt. Which verb form?"},
+  {type:"fb",s:"Mein Vater ___ 50 Jahre alt.",a:"ist",opts:["ist","hat","sind","habe"],hint:"The subject is er/sie/es. Which form of sein matches third person singular?"},
 
   {type:"mc",q:"Correct German: 'She is a teacher.'",opts:["Sie ist eine Lehrerin.","Sie ist Lehrerin.","Sie hat Lehrerin.","Sie sind Lehrerin."],ans:"Sie ist Lehrerin.",hint:"No article after sein before a profession in German."},
 
@@ -973,9 +973,9 @@ export default [
 
   {type:"mc",q:"'Meine Schwester ist Ärztin.' What is wrong with 'Sie ist eine Ärztin'?",opts:["Nothing is wrong","German does not use sie","No article before professions after sein","Ärztin needs der"],ans:"No article before professions after sein",hint:"the correct form ist (sein), this word take no this word in German."},
 
-  {type:"mc",q:"Which form of haben goes with 'ihr'?",opts:["haben","habe","hat","habt"],ans:"habt",hint:"Ihr habt = you all have. Not haben like wir."},
+  {type:"mc",q:"Which form of haben goes with 'ihr'?",opts:["haben","habe","hat","habt"],ans:"habt",hint:"Think about the ihr conjugation. It differs from the wir form."},
 
-  {type:"fb",s:"Das ist ___ Opa. Er ist 75 Jahre alt.",a:"mein",opts:["mein","meine","sein","ihr"],hint:"Opa is masculine (der Opa). My = mein before der-words."},
+  {type:"fb",s:"Das ist ___ Opa. Er ist 75 Jahre alt.",a:"mein",opts:["mein","meine","sein","ihr"],hint:"Opa is masculine. Which possessive pronoun means my before masculine nouns?"},
 
   {type:"mc",q:"Plural of 'der Bruder' is:",opts:["die Bruder","die Brüder","die Bruders","die Brüdern"],ans:"die Brüder",hint:"Umlaut: u to ü. Family noun plurals often change internally."},
 
@@ -983,11 +983,11 @@ export default [
 
   {type:"match",pairs:[{nl:"die Geschwister",en:"the siblings"},{nl:"das Haustier",en:"the pet"},{nl:"der Onkel",en:"the uncle"},{nl:"die Cousine",en:"the cousin (female)"}]},
 
-  {type:"fb",s:"Meine Tante ___ zwei Kinder.",a:"hat",opts:["hat","haben","habe","habt"],hint:"Meine Tante = she. er/sie/es hat."},
+  {type:"fb",s:"Meine Tante ___ zwei Kinder.",a:"hat",opts:["hat","haben","habe","habt"],hint:"Meine Tante = she. Think about the er/sie/es conjugation of haben."},
 
   {type:"mc",q:"'Sie ist meine Cousine.' The 'Sie' here refers to:",opts:["A formal you","They (plural)","She (singular)","It"],ans:"She (singular)",hint:"Context: talking about a female cousin. Sie = she."},
 
-  {type:"mc",q:"Which ending does the possessive take before 'die Mutter'?",opts:["-n","-en","-e","no ending"],ans:"-e",hint:"Before feminine nouns: mein-e, dein-e, sein-e, ihr-e."},
+  {type:"mc",q:"Which ending does the possessive take before 'die Mutter'?",opts:["-n","-en","-e","no ending"],ans:"-e",hint:"Before feminine nouns, possessives always take the same ending. What is it?"},
 
   {type:"drag_fill",s:"Hast du {1}? Ich habe {2} Katze und {3} Hund.",blanks:{"1":"Haustiere","2":"eine","3":"einen"},pool:["Haustiere","Haustier","eine","einen","ein","einen","der"],hint:"Asking about pets, then describing two pets."},
 
@@ -997,7 +997,7 @@ export default [
 
   {type:"match",pairs:[{nl:"ich habe",en:"I have"},{nl:"du hast",en:"you have"},{nl:"er/sie hat",en:"he/she has"},{nl:"wir haben",en:"we have"}]},
 
-  {type:"fb",s:"Das ist ___ Bruder Felix. Er ___ 19 Jahre alt.",a:"mein",opts:["mein","meine","ein","einen"],hint:"Bruder is masculine. My = mein. (First blank only)"},
+  {type:"fb",s:"Das ist ___ Bruder Felix. Er ___ 19 Jahre alt.",a:"mein",opts:["mein","meine","ein","einen"],hint:"Bruder is masculine. What possessive means my? (First blank only)"},
 
   {type:"mc",q:"'Das Kaninchen' takes the article 'das' because:",opts:["All animals are neuter","It ends in -chen (always neuter)","It is plural","Random assignment"],ans:"It ends in -chen (always neuter)",hint:"Diminutive -chen/-lein = this word the correct form (das)."},
 
@@ -1112,7 +1112,7 @@ export default [
 
   {type:"tip",title:"Learning Strategy: Learn Articles from Day One",text:"The proven strategy for German article mastery:\n\n1. Never learn a noun without its article.\nNot Kaffee. Always: der Kaffee.\n\n2. Use color coding in your notes.\nder = blue, die = coral/red, das = green/gold\n\n3. Group by article when reviewing.\nAll der words together. All die words together.\n\n4. Visualize: give each noun a color tag.\nEvery time you see Kaffee, see it in blue.\n\n5. Accept that some words are surprising.\nMädchen (girl) = das. Accept it and move on.",deepDive:{title:"What happens if you use the wrong article?",text:"Germans will ALWAYS understand you. Wrong articles do not cause misunderstanding.\n\nBut article errors are immediately noticeable, like subject-verb agreement errors in English ('he go' instead of 'he goes').\n\nAt A1-A2, focus on high-frequency nouns and get their articles right. At B1-B2, refine the rest.\n\nProfessional tip: when you truly cannot remember an article, use das as your fallback. German has more neuter nouns than most learners expect, and borrowings and nominalizations are often neuter."}},
 
-  {type:"mc",q:"Which article signals a FEMININE noun?",opts:["der","das","die","ein"],ans:"die",hint:"Three articles: der, die, das. Which is feminine?"},
+  {type:"mc",q:"Which article signals a FEMININE noun?",opts:["der","das","die","ein"],ans:"die",hint:"Of the three German definite articles, which one is feminine?"},
 
   {type:"mc",q:"die Zeitung ends in -ung. This suffix is always:",opts:["masculine","neuter","feminine","mixed"],ans:"feminine",hint:"The -ung suffix rule."},
 
@@ -1126,7 +1126,7 @@ export default [
 
   {type:"fb",s:"___ Butter ist im Kühlschrank. (butter, feminine)",a:"Die",opts:["Die","Der","Das","Eine"],hint:"The definite feminine article."},
 
-  {type:"mc",q:"The color code for der (masculine) in LingoVerse is:",opts:["coral","purple","gold","blue"],ans:"blue",hint:"der = blue, die = coral, das = purple."},
+  {type:"mc",q:"The color code for der (masculine) in LingoVerse is:",opts:["coral","purple","gold","blue"],ans:"blue",hint:"Think about how LingoVerse color-codes masculine nouns."},
 
   {type:"mc",q:"When you cannot remember an article, the safest fallback is:",opts:["der","die","das","ein"],ans:"das",hint:"Many borrowings and nominalizations are neuter."},
 
@@ -1157,7 +1157,7 @@ export default [
 
   {type:"mc",q:"What is the article for Fleisch?",opts:["der","die","das","ein"],ans:"das",hint:"Fleisch is neuter."},
 
-  {type:"fb",s:"Ich nehme ___ Salat. (the salad, use accusative: der becomes den)",a:"den",opts:["den","die","das","der"],hint:"Masculine accusative: der becomes den after nehmen."},
+  {type:"fb",s:"Ich nehme ___ Salat. (the salad, use accusative: der becomes den)",a:"den",opts:["den","die","das","der"],hint:"Masculine nouns change their definite article in accusative case."},
 
   {type:"mc",q:"Schweinefleisch means:",opts:["Beef","Pork","Chicken","Lamb"],ans:"Pork",hint:"Schwein = pig. Fleisch = meat."},
 
@@ -1410,9 +1410,9 @@ export default [
   {type:"mc",q:"'Ich rufe meine Mutter an.' The object 'meine Mutter' comes before 'an' because:",opts:["Objects go between verb and prefix","An is an adjective here","The verb is irregular","Meine Mutter is the subject"],ans:"Objects go between verb and prefix",hint:"In separable verb sentences, this word fill the space before the the correct form."},
   {type:"drag_fill",s:"Der Unterricht {1} um neun Uhr {2}. Wann {3} ihr mit der Hausaufgabe {4}?",blanks:{"1":"fängt","2":"an","3":"hört","4":"auf"},pool:["fängt","an","hört","auf","fangen","stehen"],hint:"Two separable verbs: anfangen and aufhören. Each prefix goes last."},
   {type:"mc",q:"To say 'I am going shopping' (action in progress), you say:",opts:["Ich kaufe ein.","Ich gehe einkaufen.","Ich einkaufe.","Ich kaufe gehe ein."],ans:"Ich gehe einkaufen.",hint:"Gehen + infinitive = going to do something. Infinitive stays whole."},
-  {type:"fb",s:"Kommst du ___? Wir gehen jetzt los.",a:"mit",opts:["mit","an","auf","ein"],hint:"Which prefix means along/with? From mitkommen."},
+  {type:"fb",s:"Kommst du ___? Wir gehen jetzt los.",a:"mit",opts:["mit","an","auf","ein"],hint:"Which separable prefix from kommen means to come along?"},
   {type:"mc",q:"In 'Er fährt um zehn Uhr ab', the word 'ab' is:",opts:["An adjective meaning gone","The separable prefix of abfahren","A preposition meaning from","An adverb meaning off"],ans:"The separable prefix of abfahren",hint:"Think: to depart. The this word ab detaches to end position."},
-  {type:"mc",q:"Which prefix means 'to stop' when added to hören?",opts:["an","ein","auf","ab"],ans:"auf",hint:"Aufhören = to stop. Auf + hören."},
+  {type:"mc",q:"Which prefix means 'to stop' when added to hören?",opts:["an","ein","auf","ab"],ans:"auf",hint:"Which separable prefix creates the verb meaning to stop?"},
 ]},
 
 // ═══ L4: Am Nachmittag ═══
@@ -1428,7 +1428,7 @@ export default [
   {type:"teach",kind:"word",nl:"spazieren gehen",en:"to go for a walk",phonetic:"shpa-TSEE-ren GAY-en",example:"A: Was machst du nach der Arbeit?\nB: Ich gehe spazieren.\nA: Das ist gut für den Kopf!",exampleEn:"A: What do you do after work?\nB: I go for a walk.\nA: That is good for the mind!",note:"Gehen + infinitive. Ich gehe spazieren.\nCommon afternoon and evening activity in Germany."},
   {type:"mc",q:"'Ich arbeite bis fünf Uhr.' 'Bis' means:",opts:["from","at","until","for"],ans:"until",hint:"Bis. Common with time expressions."},
   {type:"mc",q:"Hausaufgaben always appears in which grammatical form?",opts:["Singular","Plural","Both forms","Only with machen"],ans:"Plural",hint:"Aufgaben is already this word (tasks). Hausaufgaben is always the correct form."},
-  {type:"fb",s:"Zuerst ___ ich Mittagessen, danach mache ich Hausaufgaben.",a:"esse",opts:["esse","essen","koche","isst"],hint:"Essen is irregular: ich esse (I eat)."},
+  {type:"fb",s:"Zuerst ___ ich Mittagessen, danach mache ich Hausaufgaben.",a:"esse",opts:["esse","essen","koche","isst"],hint:"This verb has a stem change in first person. Think about the e-to-e pattern."},
   {type:"mc",q:"Which verb means 'to study at university' in German?",opts:["lernen","arbeiten","studieren","wissen"],ans:"studieren",hint:"Lernen = school learning. this word = university study."},
   {type:"match",pairs:[{nl:"arbeiten",en:"to work"},{nl:"lernen",en:"to learn"},{nl:"die Pause",en:"the break"},{nl:"spazieren gehen",en:"to go for a walk"}]},
   {type:"mc",q:"'Dann' and 'danach' both mean then/afterwards but:",opts:["They are completely interchangeable","Danach emphasizes after a completed event","Dann is more formal","Danach is only for morning use"],ans:"Danach emphasizes after a completed event",hint:"Dann = sequence in plan. Think about the meaning a finished action."},
@@ -1451,9 +1451,9 @@ export default [
   {type:"teach",kind:"word",nl:"aufräumen",en:"to tidy up",phonetic:"OWF-roy-men",example:"A: Kannst du bitte aufräumen?\nB: Ja, ich räume gleich auf.\nA: Danke!",exampleEn:"A: Can you tidy up please?\nB: Yes, I will tidy up in a moment.\nA: Thank you!",note:"SEPARABLE: auf + räumen.\nIch räume auf. (auf to end)\nRäumen = to clear. Aufräumen = to tidy up."},
   {type:"mc",q:"'Ich sehe fern.' The word 'fern' appears at the end because:",opts:["Fern is an adjective","Fernsehen is a separable verb","Fern means television","German sentences end with adverbs"],ans:"Fernsehen is a separable verb",hint:"Fern-sehen: fern is the this word prefix."},
   {type:"mc",q:"'Du liest.' This means:",opts:["I read","He reads","You read (informal)","We read"],ans:"You read (informal)",hint:"Du = this word you. Lesen is stem-changing: du liest."},
-  {type:"fb",s:"Jeden Abend ___ ich ein Buch oder sehe ich fern.",a:"lese",opts:["lese","liest","sehe","koche"],hint:"First activity: reading. Lesen is stem-changing. Ich form = lese."},
+  {type:"fb",s:"Jeden Abend ___ ich ein Buch oder sehe ich fern.",a:"lese",opts:["lese","liest","sehe","koche"],hint:"First activity: reading. This verb has a stem change in first person singular."},
   {type:"match",pairs:[{nl:"kochen",en:"to cook"},{nl:"fernsehen",en:"to watch TV"},{nl:"lesen",en:"to read"},{nl:"aufräumen",en:"to tidy up"}]},
-  {type:"mc",q:"'Ins Bett gehen': 'ins' is a contraction of:",opts:["in + das","in + dem","an + das","auf + das"],ans:"in + das",hint:"Ins = in + das (into the). Das Bett is neuter."},
+  {type:"mc",q:"'Ins Bett gehen': 'ins' is a contraction of:",opts:["in + das","in + dem","an + das","auf + das"],ans:"in + das",hint:"This is a contraction of a preposition plus a neuter article."},
   {type:"drag_fill",s:"Am Abend {1} ich, dann {2} ich fern, und um elf Uhr {3} ich ins Bett.",blanks:{"1":"koche","2":"sehe","3":"gehe"},pool:["koche","kochst","sehe","sehen","gehe","geht"],hint:"Three evening activities: cook, watch TV, go to bed."},
   {type:"mc",q:"Traditional German Abendbrot typically includes:",opts:["Hot soup and potatoes","Pasta with sauce","Bread, cold cuts, and cheese","Pizza"],ans:"Bread, cold cuts, and cheese",hint:"Abendbrot = cold evening this word with toppings."},
   {type:"fb",s:"Wie ___ du dich nach der Arbeit? (How do you relax?)",a:"entspannst",opts:["entspannst","entspannen","arbeitest","lernst"],hint:"Sich entspannen: du form = this word dich."},
@@ -1510,7 +1510,7 @@ export default [
 {id:"deu5l8",title:"Mein Tag: Review",icon:"🔁",xp:20,board:true,steps:[
   {type:"intro",title:"Mein Tag: Review",desc:"Time to consolidate everything from Unit 5. Time-telling, daily routine verbs, separable verbs, days of the week, and full schedule descriptions all come together here.",goals:["Consolidate all Unit 5 vocabulary","Use time + day + activity combinations","Apply separable verb rules correctly","Build fluency in describing your day"]},
   {type:"tip",title:"Unit 5 Summary",text:"What you have learned:\n\nTime: Wie spät ist es? Es ist... Uhr, halb, Viertel vor/nach.\nMorning: aufstehen, duschen, frühstücken, sich anziehen.\nSeparable verbs: prefix to end in main clause.\nAfternoon: arbeiten, lernen, Mittagessen, Pause.\nEvening: kochen, fernsehen, lesen, ins Bett gehen.\nDays: Montag bis Sonntag, am + Wochentag.\nSchedule: V2 + time expressions, dann/danach."},
-  {type:"mc",q:"Es ist halb zehn. In English this is:",opts:["10:30","9:30","9:00","10:00"],ans:"9:30",hint:"Halb counts toward the NEXT hour. Halb zehn = halfway to ten = 9:30."},
+  {type:"mc",q:"Es ist halb zehn. In English this is:",opts:["10:30","9:30","9:00","10:00"],ans:"9:30",hint:"Halb counts toward the NEXT hour. Halb zehn = halfway to ten."},
   {type:"mc",q:"'Ich stehe um sieben auf.' Where does auf go when you add a time?",opts:["Ich stehe auf um sieben.","Ich stehe um sieben auf.","Ich aufstehe um sieben.","Auf stehe ich um sieben."],ans:"Ich stehe um sieben auf.",hint:"Prefix at end. Time expression fills the middle of the sentence."},
   {type:"fb",s:"Wann ___ der Kurs ___? Er ___ um neun an.",a:"fängt",opts:["fängt","fangen","beginnt","fange"],hint:"Anfangen separable: conjugated form for er/sie/es. (First blank only)"},
   {type:"mc",q:"Viertel vor zwölf is:",opts:["12:15","11:45","12:45","11:15"],ans:"11:45",hint:"Vor = before/to. Fifteen minutes before twelve."},
@@ -1521,11 +1521,11 @@ export default [
   {type:"fb",s:"___ Donnerstag lerne ich Deutsch.",a:"Jeden",opts:["Jeden","Am","Den","Einem"],hint:"Every Thursday = the correct form Donnerstag. Accusative of jeder."},
   {type:"mc",q:"What does 'In der Woche' mean?",opts:["In the weekend","During the working week","On any given day","At the end of the week"],ans:"During the working week",hint:"Woche = week. In der Woche = Mon-Fri, the this word days."},
   {type:"drag_fill",s:"Am Abend {1} ich, dann {2} ich fern, und um elf {3} ich ins Bett.",blanks:{"1":"koche","2":"sehe","3":"gehe"},pool:["koche","kochst","sehe","sehen","gehe","geht"],hint:"Evening: cook, watch TV, go to bed. Two separable verbs."},
-  {type:"mc",q:"'Ich rufe dich an.' What is the separable prefix here?",opts:["ich","rufe","dich","an"],ans:"an",hint:"Anrufen = to phone. The prefix an detaches to end position."},
+  {type:"mc",q:"'Ich rufe dich an.' What is the separable prefix here?",opts:["ich","rufe","dich","an"],ans:"an",hint:"The verb for phoning is separable. Which prefix detaches to the clause end?"},
   {type:"mc",q:"Which sentence uses V2 word order correctly?",opts:["Dann ich esse Mittagessen.","Dann esse ich Mittagessen.","Ich dann esse Mittagessen.","Esse dann ich Mittagessen."],ans:"Dann esse ich Mittagessen.",hint:"V2: time/connector first, verb second, subject third."},
   {type:"match",pairs:[{nl:"meistens",en:"usually"},{nl:"jeden Tag",en:"every day"},{nl:"das Wochenende",en:"the weekend"},{nl:"danach",en:"afterwards"}]},
   {type:"mc",q:"German shops are typically closed on Sunday because:",opts:["There is no customer demand","It is legally required as a day of rest","All workers attend church","Only Bavarian shops close"],ans:"It is legally required as a day of rest",hint:"Gesetzlicher Ruhetag. Law and long-standing cultural tradition."},
-  {type:"fb",s:"Ich höre heute um fünf Uhr mit der Arbeit ___.",a:"auf",opts:["auf","an","aus","ab"],hint:"Aufhören = to stop/finish. Which prefix?"},
+  {type:"fb",s:"Ich höre heute um fünf Uhr mit der Arbeit ___.",a:"auf",opts:["auf","an","aus","ab"],hint:"The verb meaning to stop/finish is separable. Which prefix detaches?"},
   {type:"mc",q:"To say 'I am going shopping' (as an activity you are heading to do), you say:",opts:["Ich kaufe ein.","Ich gehe einkaufen.","Ich einkaufe.","Kaufe ich ein."],ans:"Ich gehe einkaufen.",hint:"Gehen + infinitive = going to do. Infinitive stays unsplit."},
 ]},
 
@@ -1640,9 +1640,9 @@ export default [
 
   {type:"tip",title:"Summary: Es gibt + (k)ein",text:"After es gibt, use the accusative indefinite article:\n\nMasculine: ein -> einen, kein -> keinen\nFeminine: eine -> eine (no change), keine -> keine\nNeuter: ein -> ein (no change), kein -> kein\n\nOnly MASCULINE nouns change: ein -> einen, kein -> keinen.\nFeminine and neuter stay the same in accusative indefinite!",deepDive:{title:"A preview of the full accusative system",text:"You are learning accusative in A1 through practical use: after haben and es gibt. The full accusative system also applies to:\n\n1. Definite articles: der -> den (masc.), die stays die, das stays das\n2. Pronouns: er -> ihn (him)\n3. Adjectives: guten Tisch, gute Lampe, gutes Bett\n\nYou will study the full definite accusative in L4 of this unit. For now, master einen/keine for es gibt."}},
 
-  {type:"mc",q:"'Es gibt ___ Stuhl.' What goes in the blank for an existing chair?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt triggers accusative. ein to einen."},
+  {type:"mc",q:"'Es gibt ___ Stuhl.' What goes in the blank for an existing chair?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt triggers accusative. How does the indefinite article change?"},
 
-  {type:"mc",q:"'Es gibt ___ Sofa in der Küche.' (There is no sofa in the kitchen.)",opts:["kein","keinen","keine","nicht"],ans:"kein",hint:"Sofa is neuter (das). Neuter negative accusative: kein."},
+  {type:"mc",q:"'Es gibt ___ Sofa in der Küche.' (There is no sofa in the kitchen.)",opts:["kein","keinen","keine","nicht"],ans:"kein",hint:"Sofa is neuter. How do you negate a neuter noun in accusative?"},
 
   {type:"fb",s:"In meiner Wohnung gibt es ___ Badezimmer.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Badezimmer is neuter (das). Accusative indefinite for neuter."},
 
@@ -1650,7 +1650,7 @@ export default [
 
   {type:"match",pairs:[{nl:"Es gibt einen Tisch.",en:"There is a table."},{nl:"Es gibt eine Lampe.",en:"There is a lamp."},{nl:"Es gibt kein Bett.",en:"There is no bed."},{nl:"Es gibt keinen Schrank.",en:"There is no wardrobe."}]},
 
-  {type:"mc",q:"Which form is correct? 'Es gibt ___ Lampe.'",opts:["eine","einen","ein","keinen"],ans:"eine",hint:"Lampe is feminine (die). Feminine accusative indefinite = eine."},
+  {type:"mc",q:"Which form is correct? 'Es gibt ___ Lampe.'",opts:["eine","einen","ein","keinen"],ans:"eine",hint:"Lampe is feminine. What is the feminine indefinite article in accusative?"},
 
   {type:"fb",s:"Es gibt ___ Regal im Wohnzimmer.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Regal is neuter (das). Accusative indefinite."},
 
@@ -1671,9 +1671,9 @@ export default [
 
   {type:"tip",title:"Haben + Accusative (You Already Know This!)",text:"You have been using accusative since Unit 3 with 'haben':\n\nIch habe einen Hund. (I have a dog.)\nIch habe eine Katze. (I have a cat.)\n\nWith the definite article:\nIch habe den Hund. (I have the dog.)\nIch habe die Katze. (I have the cat.)\n\nSame rules. Only masculine changes. You already know this pattern.",deepDive:{title:"Accusative triggers: which verbs use it?",text:"The accusative is used after transitive verbs. The most common A1 ones:\n\nhaben (to have): Ich habe einen Tisch.\nbrauchen (to need): Ich brauche den Schrank.\nkaufen (to buy): Ich kaufe das Sofa.\nsehen (to see): Ich sehe die Lampe.\nessen (to eat): Ich esse einen Apfel.\ntrinken (to drink): Ich trinke den Kaffee.\nes gibt: Es gibt einen Stuhl.\n\nNotice the pattern: something is DIRECTLY affected by the verb."}},
 
-  {type:"mc",q:"'Ich habe ___ Schrank.' (I have THE wardrobe.)",opts:["der","den","die","das"],ans:"den",hint:"Schrank is masculine (der). Accusative: der to den."},
+  {type:"mc",q:"'Ich habe ___ Schrank.' (I have THE wardrobe.)",opts:["der","den","die","das"],ans:"den",hint:"Schrank is masculine. Masculine definite articles change in accusative."},
 
-  {type:"mc",q:"'Ich kaufe ___ Lampe.' (I buy THE lamp.)",opts:["den","der","das","die"],ans:"die",hint:"Lampe is feminine (die). Feminine accusative: die stays die."},
+  {type:"mc",q:"'Ich kaufe ___ Lampe.' (I buy THE lamp.)",opts:["den","der","das","die"],ans:"die",hint:"Lampe is feminine. Feminine definite articles stay unchanged in accusative."},
 
   {type:"fb",s:"Ich sehe ___ Tisch.",a:"den",opts:["den","der","die","das"],hint:"Tisch is masculine. Definite accusative for masculine."},
 
@@ -1689,7 +1689,7 @@ export default [
 
   {type:"mc",q:"Which nouns change article in the accusative?",opts:["All nouns","Feminine nouns only","Masculine nouns only","Neuter nouns only"],ans:"Masculine nouns only",hint:"Der to den. Die stays die. Das stays das."},
 
-  {type:"mc",q:"'Sie trinkt ___ Kaffee.' (She drinks THE coffee.)",opts:["der","den","die","das"],ans:"den",hint:"Kaffee is masculine (der Kaffee). Accusative: der to den."},
+  {type:"mc",q:"'Sie trinkt ___ Kaffee.' (She drinks THE coffee.)",opts:["der","den","die","das"],ans:"den",hint:"Kaffee is masculine. Think about the accusative form of the masculine article."},
 
   {type:"fb",s:"Wir kaufen ___ Schrank und ___ Sofa.",a:"den",opts:["den","das","die","dem"],hint:"Schrank is masculine, accusative. Focus on the first blank."},
 
@@ -1788,7 +1788,7 @@ export default [
 
   {type:"mc",q:"'Mein Traumschlafzimmer hat ein großes Bett.' What is 'ein' used for here?",opts:["Nominative subject","Dative location","Accusative object after haben","No specific reason"],ans:"Accusative object after haben",hint:"haben + Think about the meaning. Bett is neuter: ein stays ein."},
 
-  {type:"mc",q:"'Es gibt ___ Sofa in meiner Traumwohnung.' (a sofa exists)",opts:["einen","ein","eine","kein"],ans:"ein",hint:"Sofa is neuter (das). Es gibt + accusative: ein (no change)."},
+  {type:"mc",q:"'Es gibt ___ Sofa in meiner Traumwohnung.' (a sofa exists)",opts:["einen","ein","eine","kein"],ans:"ein",hint:"Sofa is neuter. Neuter indefinite articles stay the same in accusative."},
 
   {type:"fb",s:"Das Sofa ist ___. Ich liebe Blau!",a:"blau",opts:["blau","blaue","blauen","blauer"],hint:"After ist = predicate position. No adjective ending."},
 
@@ -1800,9 +1800,9 @@ export default [
 
   {type:"mc",q:"'Das Bücherregal' is neuter because:",opts:["All furniture is neuter","Books are always neuter","The last element -regal is neuter (das Regal)","Random assignment"],ans:"The last element -regal is neuter (das Regal)",hint:"Compound nouns: gender comes from the last word. das this word to das Bücherthe correct form."},
 
-  {type:"fb",s:"Es gibt ___ Kühlschrank in der Küche.",a:"einen",opts:["einen","ein","eine","keinen"],hint:"Indefinite accusative. Kühlschrank is masculine: ein to einen."},
+  {type:"fb",s:"Es gibt ___ Kühlschrank in der Küche.",a:"einen",opts:["einen","ein","eine","keinen"],hint:"Indefinite accusative. Kühlschrank is masculine. How does the article change?"},
 
-  {type:"mc",q:"'Das Sofa steht ___ dem Fenster.' (in front of the window)",opts:["neben","auf","vor","unter"],ans:"vor",hint:"In front of = vor. Das Fenster = the window."},
+  {type:"mc",q:"'Das Sofa steht ___ dem Fenster.' (in front of the window)",opts:["neben","auf","vor","unter"],ans:"vor",hint:"Which two-way preposition means in front of?"},
 
   {type:"mc",q:"Which sentence correctly says the room is large?",opts:["Das Zimmer ist großer.","Das Zimmer ist großes.","Das Zimmer ist groß.","Das Zimmer ist großen."],ans:"Das Zimmer ist groß.",hint:"Predicate adjective after sein: no ending."},
 
@@ -1823,11 +1823,11 @@ export default [
 
   {type:"mc",q:"Which room article is CORRECT?",opts:["der Küche","das Flur","die Küche","das Badezimmer und der Wohnzimmer"],ans:"die Küche",hint:"the correct form is feminine. Check: -zimmer compounds are neuter."},
 
-  {type:"mc",q:"'Es gibt ___ Stuhl.' What fills the blank?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt = accusative. ein to einen."},
+  {type:"mc",q:"'Es gibt ___ Stuhl.' What fills the blank?",opts:["der","ein","einen","einem"],ans:"einen",hint:"Stuhl is masculine. Es gibt requires accusative. What happens to the article?"},
 
-  {type:"fb",s:"Ich kaufe ___ Sofa für das Wohnzimmer.",a:"das",opts:["das","den","die","ein"],hint:"Kaufen triggers accusative. Sofa is neuter: das stays das."},
+  {type:"fb",s:"Ich kaufe ___ Sofa für das Wohnzimmer.",a:"das",opts:["das","den","die","ein"],hint:"Kaufen triggers accusative. Sofa is neuter. Neuter articles are unchanged in accusative."},
 
-  {type:"mc",q:"'Die Lampe steht auf ___ Tisch.' Location: dative.",opts:["der","den","dem","des"],ans:"dem",hint:"Tisch is masculine. Dative: der to dem."},
+  {type:"mc",q:"'Die Lampe steht auf ___ Tisch.' Location: dative.",opts:["der","den","dem","des"],ans:"dem",hint:"Tisch is masculine. Masculine articles change form in dative case."},
 
   {type:"mc",q:"Which color takes NO adjective ending, even before a noun?",opts:["rot","blau","schwarz","orange"],ans:"orange",hint:"Borrowed word exception: this word is indeclinable."},
 
@@ -1835,11 +1835,11 @@ export default [
 
   {type:"fb",s:"Das Buch liegt ___ dem Bett.",a:"auf",opts:["auf","unter","neben","vor"],hint:"The book is lying ON the bed. Which preposition?"},
 
-  {type:"mc",q:"'in + dem' contracts to 'im'. What does 'an + dem' contract to?",opts:["anm","am","ande","and"],ans:"am",hint:"an + dem = am. Like in + dem = im."},
+  {type:"mc",q:"'in + dem' contracts to 'im'. What does 'an + dem' contract to?",opts:["anm","am","ande","and"],ans:"am",hint:"Contractions follow a pattern: preposition + dative article merge into one word."},
 
-  {type:"mc",q:"'Ich brauche ___ Schrank.' (I need the wardrobe.)",opts:["der","den","die","dem"],ans:"den",hint:"Schrank is masculine. Accusative definite: der to den."},
+  {type:"mc",q:"'Ich brauche ___ Schrank.' (I need the wardrobe.)",opts:["der","den","die","dem"],ans:"den",hint:"Schrank is masculine. What is the accusative form of the masculine definite article?"},
 
-  {type:"fb",s:"Es gibt ___ Badezimmer in meiner Wohnung.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Badezimmer is neuter. Es gibt + accusative indefinite: ein (no change)."},
+  {type:"fb",s:"Es gibt ___ Badezimmer in meiner Wohnung.",a:"ein",opts:["ein","eine","einen","kein"],hint:"Badezimmer is neuter. Neuter indefinite articles stay the same in accusative."},
 
   {type:"mc",q:"The dative of 'die Küche' is:",opts:["die Küche","der Küche","dem Küche","den Küche"],ans:"der Küche",hint:"Feminine dative: die to der."},
 
@@ -1887,8 +1887,8 @@ export default [
   {type:"fb",s:"___ Straßenbahn fährt um acht Uhr.",a:"Die",opts:["Die","Der","Das","Den"],hint:"What article does Straßenbahn take? Nominative subject position."},
   {type:"mc",q:"'Du fährst' is the du-form of which verb?",opts:["fahren","finden","fallen","fragen"],ans:"fahren",hint:"Du form has an umlaut vowel change: a becomes ä."},
   {type:"drag_fill",s:"Ich gehe {1} Fuß, aber mein Vater fährt mit {2} Auto.",blanks:{"1":"zu","2":"dem"},pool:["zu","mit","dem","der","das","nach","ein"],hint:"Two transport phrases in one sentence."},
-  {type:"mc",q:"Which article does Bus take?",opts:["die","das","der","keine"],ans:"der",hint:"Der Bus. Masculine."},
-  {type:"mc",q:"Complete: 'Ich fahre mit ___ U-Bahn.'",opts:["dem","der","das","den"],ans:"der",hint:"Die U-Bahn is feminine. Mit + dative feminine = mit der."},
+  {type:"mc",q:"Which article does Bus take?",opts:["die","das","der","keine"],ans:"der",hint:"Bus is a masculine noun. Which definite article fits?"},
+  {type:"mc",q:"Complete: 'Ich fahre mit ___ U-Bahn.'",opts:["dem","der","das","den"],ans:"der",hint:"U-Bahn is feminine. What happens to feminine articles after mit (dative)?"},
 ]},
 
 // ═══ L2: Wohin gehst du? ═══
@@ -1908,7 +1908,7 @@ export default [
   {type:"match",pairs:[{nl:"links",en:"left"},{nl:"rechts",en:"right"},{nl:"geradeaus",en:"straight ahead"},{nl:"die Kreuzung",en:"the intersection"}]},
   {type:"mc",q:"She should turn right at the traffic light. Which answer is correct?",opts:["An der Ampel links.","Geradeaus immer.","An der Ampel rechts.","Die Kreuzung links."],ans:"An der Ampel rechts.",hint:"Think: right. this word = traffic light."},
   {type:"fb",s:"Gehen Sie bis zur ___, dann links.",a:"Ampel",opts:["Ampel","Kreuzung","Straße","Fahrrad"],hint:"You go until the traffic light, then turn left."},
-  {type:"mc",q:"Which article does 'Kreuzung' take?",opts:["der","die","das","keine"],ans:"die",hint:"Die Kreuzung. Feminine."},
+  {type:"mc",q:"Which article does 'Kreuzung' take?",opts:["der","die","das","keine"],ans:"die",hint:"Kreuzung is feminine. Which definite article fits?"},
   {type:"drag_fill",s:"Gehen Sie {1} und dann an der {2} rechts.",blanks:{"1":"geradeaus","2":"Ampel"},pool:["geradeaus","links","Ampel","Kreuzung","rechts","Straße"],hint:"Straight first, then right at the traffic light."},
   {type:"mc",q:"'Biegen Sie rechts ab' contains which type of verb?",opts:["modal verb","reflexive verb","separable verb","irregular verb"],ans:"separable verb",hint:"The prefix ab jumps to the end. You saw this pattern with aufstehen in Unit 5."},
   {type:"mc",q:"Someone says: 'Die erste Straße links.' This means:",opts:["The first street on the right","Straight ahead on the first street","The first street on the left","Turn at the traffic light"],ans:"The first street on the left",hint:"Links = left. Erste."},
@@ -1997,7 +1997,7 @@ export default [
   {type:"mc",q:"'Darf ich das machen?' means:",opts:["Must I do that?","Should I do that?","May I do that?","Can I do that?"],ans:"May I do that?",hint:"Dürfen = to be allowed to, permission."},
   {type:"mc",q:"'Hier dürfen Sie nicht rauchen.' means:",opts:["You do not have to smoke here.","You should not smoke here.","You must not smoke here (not allowed).","You cannot smoke here (physically impossible)."],ans:"You must not smoke here (not allowed).",hint:"Dürfen nicht = strong prohibition. Not the correct form. Not just 'do not have to'."},
   {type:"fb",s:"Du ___ jetzt dein Zimmer aufräumen.",a:"sollst",opts:["sollst","darfst","kannst","musst"],hint:"Someone ELSE (like a parent) told you to tidy your room. That is sollen."},
-  {type:"mc",q:"Which is the correct 'ich' form of dürfen?",opts:["dürfe","dürft","darf","darfst"],ans:"darf",hint:"Like kann and muss: no ending on ich form. ich darf."},
+  {type:"mc",q:"Which is the correct 'ich' form of dürfen?",opts:["dürfe","dürft","darf","darfst"],ans:"darf",hint:"Like kann and muss: modal verbs have no ending on the ich form."},
   {type:"match",pairs:[{nl:"ich darf",en:"I may"},{nl:"du darfst",en:"you may"},{nl:"ich soll",en:"I should"},{nl:"du sollst",en:"you should"}]},
   {type:"mc",q:"'Müssen nicht' vs 'dürfen nicht': what is the difference?",opts:["No difference, both mean must not","müssen nicht = do not have to. dürfen nicht = must not (prohibited)","müssen nicht = prohibited. dürfen nicht = do not have to","Both mean should not"],ans:"müssen nicht = do not have to. dürfen nicht = must not (prohibited)",hint:"the correct form nicht is a prohibition. this word nicht is absence of obligation."},
   {type:"fb",s:"___ ich bitte das Fenster öffnen?",a:"Darf",opts:["Darf","Soll","Muss","Kann"],hint:"Asking for permission politely: 'May I open the window?'"},
@@ -2050,7 +2050,7 @@ export default [
   {type:"drag_fill",s:"Ich {1} hier nicht parken. Es {2} verboten.",blanks:{"1":"darf","2":"ist"},pool:["darf","muss","soll","ist","hat","sein","kann"],hint:"I may not park here. It is forbidden."},
   {type:"mc",q:"'Das Krankenhaus' is grammatically:",opts:["masculine","feminine","neuter","plural"],ans:"neuter",hint:"Das = this word article. Das Krankenhaus."},
   {type:"mc",q:"Someone says: 'Du sollst mehr Wasser trinken.' Who most likely said this?",opts:["A stranger on the street","A friend making small talk","A doctor or parent giving advice","The speaker to themselves"],ans:"A doctor or parent giving advice",hint:"Sollen reflects an expectation set by an EXTERNAL authority figure."},
-  {type:"mc",q:"Which transport option uses 'mit dem' (dative masculine)?",opts:["mit der U-Bahn","mit der Straßenbahn","mit dem Bus","zu Fuß"],ans:"mit dem Bus",hint:"Der Bus is masculine. Dative of der = dem. Mit dem Bus."},
+  {type:"mc",q:"Which transport option uses 'mit dem' (dative masculine)?",opts:["mit der U-Bahn","mit der Straßenbahn","mit dem Bus","zu Fuß"],ans:"mit dem Bus",hint:"Bus is masculine. The preposition mit requires dative case."},
   {type:"mc",q:"To say 'Can you help me?' informally, you say:",opts:["Können Sie mir helfen?","Kannst du mir helfen?","Darf ich dir helfen?","Willst du mir helfen?"],ans:"Kannst du mir helfen?",hint:"Du = informal. Können = can. this word = to help at the end."},
 ]},
 
@@ -2099,7 +2099,7 @@ export default [
   {type:"mc",q:"Kann ich das anprobieren? What does the customer want?",opts:["Buy the item immediately","Try the item on","Ask the price","Return the item"],ans:"Try the item on",hint:"Anprobieren = to try on clothing."},
   {type:"match",pairs:[{nl:"das Hemd",en:"the shirt"},{nl:"die Hose",en:"the trousers"},{nl:"der Mantel",en:"the coat"},{nl:"das Kleid",en:"the dress"}]},
   {type:"fb",s:"Was kosten ___ Schuhe?",a:"die",opts:["die","der","das","den"],hint:"Schuhe is plural. Plural definite article is always..."},
-  {type:"mc",q:"Which article goes with Pullover?",opts:["die","das","der","keine"],ans:"der",hint:"Pullover is masculine. Masculine article = der."},
+  {type:"mc",q:"Which article goes with Pullover?",opts:["die","das","der","keine"],ans:"der",hint:"Pullover is masculine. Which definite article goes with masculine nouns?"},
   {type:"mc",q:"Welche Größe haben Sie? asks about:",opts:["The colour you want","Your clothing size","The price of an item","Whether you want a bag"],ans:"Your clothing size",hint:"What word means size? Think of groß + noun ending."},
   {type:"fb",s:"A: Haben Sie ___ Kleid in Größe S? B: Ja, natürlich.",a:"ein",opts:["ein","einen","eine","das"],hint:"Kleid is neuter. Neuter accusative indefinite article = ?"},
 ]},
@@ -2227,20 +2227,20 @@ export default [
   {type:"fb",s:"Ich ___ aus Deutschland.",a:"komme",opts:["komme","bin","habe","wohne"],hint:"the correct form aus = to come from. Ich this word aus..."},
   {type:"mc",q:"Which sentence correctly uses haben?",opts:["Ich habe müde.","Ich habe zwei Schwestern.","Ich habe kalt.","Ich habe groß."],ans:"Ich habe zwei Schwestern.",hint:"Haben = to have. It takes a direct object, something you possess."},
   {type:"mc",q:"Mein Vater arbeitet in Hamburg. What does mein indicate?",opts:["Formal address","Possessive: my","Plural of Mann","Past tense marker"],ans:"Possessive: my",hint:"Mein/meine/mein = my. this word pronoun agreeing with the noun's gender."},
-  {type:"fb",s:"Ich ___ gern Kaffee.",a:"mag",opts:["mag","möchte","kann","will"],hint:"Mögen in present tense: ich mag = I like."},
-  {type:"mc",q:"What time is halb vier in German?",opts:["4:00","4:30","3:30","3:45"],ans:"3:30",hint:"German: halb vier = half TO four = 3:30. Halfway to four."},
+  {type:"fb",s:"Ich ___ gern Kaffee.",a:"mag",opts:["mag","möchte","kann","will"],hint:"Mögen in present tense: think about the ich form of this modal verb."},
+  {type:"mc",q:"What time is halb vier in German?",opts:["4:00","4:30","3:30","3:45"],ans:"3:30",hint:"In German, halb counts toward the NEXT hour. Halb vier = halfway to four."},
   {type:"mc",q:"Ich stehe um sieben Uhr auf. Which word is the separable prefix?",opts:["stehe","Uhr","auf","um"],ans:"auf",hint:"Separable verbs split: the prefix goes to the END of the main clause."},
-  {type:"fb",s:"Das Wohnzimmer ___ im Erdgeschoss.",a:"ist",opts:["ist","hat","gibt","steht"],hint:"Sein (to be) describes location. Ich bin, du bist, er/sie/es the correct form."},
+  {type:"fb",s:"Das Wohnzimmer ___ im Erdgeschoss.",a:"ist",opts:["ist","hat","gibt","steht"],hint:"Sein (to be) describes location. Think about the third person singular form."},
   {type:"mc",q:"Es gibt einen Supermarkt in der Nähe. What does es gibt mean?",opts:["I want","There is / there are","He has","It gives"],ans:"There is / there are",hint:"Es gibt + accusative = this word is/are. Covered in Unit 6."},
   {type:"mc",q:"Gehen Sie geradeaus, dann links. What does geradeaus mean?",opts:["Turn left","Turn right","Straight ahead","Go back"],ans:"Straight ahead",hint:"Consider the grammar rule and pick the form that fits the sentence structure."},
   {type:"fb",s:"Der Rock kostet ___. (35 euros)",a:"fünfunddreißig Euro",opts:["fünfunddreißig Euro","dreißigfünf Euro","fünfdreißig Euro","fünfundzwanzig Euro"],hint:"35 = fünf (5) + und + dreißig (30). Ones-and-tens order."},
-  {type:"mc",q:"Which article is correct: ___ Hemd ist weiß.",opts:["Der","Die","Das","Den"],ans:"Das",hint:"Hemd (shirt) is neuter. Neuter nominative article = das."},
+  {type:"mc",q:"Which article is correct: ___ Hemd ist weiß.",opts:["Der","Die","Das","Den"],ans:"Das",hint:"Hemd (shirt) is neuter. Which article goes with neuter nouns in nominative?"},
   {type:"mc",q:"Was kostet das? is asking about:",opts:["The color of an item","The size of an item","The price of an item","The material of an item"],ans:"The price of an item",hint:"Kosten = to cost. Was kostet = what does... cost?"},
   {type:"fb",s:"___ Jacke gefällt mir sehr.",a:"Diese",opts:["Diese","Dieser","Dieses","Diesen"],hint:"Jacke is feminine (die). Feminine demonstrative = ?"},
   {type:"mc",q:"Ich hätte gern ein Kilo Äpfel. The form hätte is:",opts:["Indicative present of haben","Imperative of haben","Konjunktiv II of haben","Future of haben"],ans:"Konjunktiv II of haben",hint:"Hätte = subjunctive of haben. Used for polite requests."},
   {type:"mc",q:"Which modal verb expresses must / obligation?",opts:["können","wollen","müssen","dürfen"],ans:"müssen",hint:"Think: must / to have to. Covered in Unit 7."},
   {type:"match",pairs:[{nl:"Guten Morgen",en:"Good morning"},{nl:"Auf Wiedersehen",en:"Goodbye (formal)"},{nl:"Wie geht es Ihnen?",en:"How are you? (formal)"},{nl:"Bitte",en:"Please / You're welcome"}]},
-  {type:"fb",s:"Können Sie mir helfen? Ich suche ___ Bahnhof.",a:"den",opts:["den","der","das","die"],hint:"Bahnhof is masculine. Masculine accusative definite article = den."},
+  {type:"fb",s:"Können Sie mir helfen? Ich suche ___ Bahnhof.",a:"den",opts:["den","der","das","die"],hint:"Bahnhof is masculine. Think about what happens to masculine articles in accusative."},
   {type:"mc",q:"After nominative and accusative, which case do you learn next in German?",opts:["Genitive case","Konjunktiv I","Dative case","Partizip II"],ans:"Dative case",hint:"After nominative and accusative, the next German case is the correct form. You will meet mir, dir, ihm, ihr soon."},
 ]},
 
@@ -2269,7 +2269,7 @@ export default [
 
   {type:"tip",title:"Word Order Rule: Partizip II to the End",text:"In a main clause, Partizip II is ALWAYS the last element:\n\nIch habe gestern Pizza gemacht.\n(I made pizza yesterday.)\n\nEr hat am Morgen Kaffee gemacht.\n(He made coffee in the morning.)\n\nTime words and other phrases go in the middle. Partizip II stays at the end.",deepDive:{title:"What about questions?",text:"In a yes/no question, haben moves to position 1, Partizip II stays at the end:\n\nHast du Pizza gemacht? (Did you make pizza?)\nHat er Kaffee gemacht? (Did he make coffee?)\n\nIn a W-question, haben stays at position 2:\nWas hast du gemacht? (What did you do?)"}},
 
-  {type:"mc",q:"Ich ___ Pizza gemacht. Which form of haben fits?",opts:["habe","hast","hat","haben"],ans:"habe",hint:"First person singular of haben."},
+  {type:"mc",q:"Ich ___ Pizza gemacht. Which form of haben fits?",opts:["habe","hast","hat","haben"],ans:"habe",hint:"First person singular of the helper verb for Perfekt."},
 
   {type:"mc",q:"In Ich habe Kaffee gemacht, where does gemacht sit?",opts:["After Ich","After habe","After Kaffee at the end","Before Kaffee"],ans:"After Kaffee at the end",hint:"Partizip II always goes to the end of the main clause."},
 
@@ -2279,7 +2279,7 @@ export default [
 
   {type:"mc",q:"Er ___ Fußball gespielt. Complete the Perfekt sentence.",opts:["habe","hast","hat","haben"],ans:"hat",hint:"Third person singular of haben."},
 
-  {type:"fb",s:"Wir ___ ein Picknick gemacht.",a:"haben",opts:["haben","habt","hast","hat"],hint:"Wir = first person plural form of haben."},
+  {type:"fb",s:"Wir ___ ein Picknick gemacht.",a:"haben",opts:["haben","habt","hast","hat"],hint:"Wir = first person plural. Which conjugation of the helper verb fits?"},
 
   {type:"mc",q:"Habt ihr das gemacht? is asking:",opts:["Can you all do this?","Did you all do this?","Will you all do this?","Are you all doing this?"],ans:"Did you all do this?",hint:"Habt is past-tense helper for ihr."},
 
@@ -2287,7 +2287,7 @@ export default [
 
   {type:"fb",s:"Sie (she) ___ gestern viel gemacht.",a:"hat",opts:["hat","hast","habe","haben"],hint:"She = 3rd person singular of haben."},
 
-  {type:"mc",q:"The Perfekt tense uses which helper verb (most action verbs)?",opts:["sein","werden","wollen","haben"],ans:"haben",hint:"Most action verbs use haben as the Perfekt helper."},
+  {type:"mc",q:"The Perfekt tense uses which helper verb (most action verbs)?",opts:["sein","werden","wollen","haben"],ans:"haben",hint:"Most action verbs use which helper verb in Perfekt tense?"},
 ]},
 
 // ═══ L2: Regelmäßige Verben ═══
@@ -2357,7 +2357,7 @@ export default [
 
   {type:"mc",q:"Ich habe den Bus genommen means:",opts:["I will take the bus","I am taking the bus","I took the bus","I need to take the bus"],ans:"I took the bus",hint:"Habe + genommen = Perfekt past."},
 
-  {type:"mc",q:"Which ending do IRREGULAR Partizip II forms use?",opts:["-t","-et","-en","-iert"],ans:"-en",hint:"Strong verbs end in -en, not -t."},
+  {type:"mc",q:"Which ending do IRREGULAR Partizip II forms use?",opts:["-t","-et","-en","-iert"],ans:"-en",hint:"Strong (irregular) verbs use a different ending than weak verbs, which end in -t."},
 
   {type:"fb",s:"Er hat einen Brief ___. (schreiben)",a:"geschrieben",opts:["geschrieben","schriebte","schreiben","geschriebt"],hint:"schreiben: ei becomes ie. ge + schrieb + en."},
 
@@ -2445,7 +2445,7 @@ export default [
 
   {type:"mc",q:"Ich habe eine Geschichte erzählt means:",opts:["I am telling a story","I told a story","I will tell a story","I must tell a story"],ans:"I told a story",hint:"Habe + erzählt = Perfekt past."},
 
-  {type:"mc",q:"Which prefix is inseparable?",opts:["ein-","auf-","mit-","ver-"],ans:"ver-",hint:"be-, er-, ver-, ent-, ge-, zer- are inseparable."},
+  {type:"mc",q:"Which prefix is inseparable?",opts:["ein-","auf-","mit-","ver-"],ans:"ver-",hint:"Think about which prefixes never separate from the verb stem."},
 
   {type:"match",pairs:[{nl:"telefoniert",en:"phoned"},{nl:"besucht",en:"visited"},{nl:"erzählt",en:"told"},{nl:"verstanden",en:"understood"}]},
 
@@ -2529,7 +2529,7 @@ export default [
 
   {type:"mc",q:"Du hast am Abend ferngesehen. The Partizip II is from:",opts:["sehen","fernsehen (separable)","gesehen as strong only","ferngeseh"],ans:"fernsehen (separable)",hint:"the correct form: prefix fern + ge + seh + en = ferngesehen."},
 
-  {type:"fb",s:"Was ___ du am Wochenende gemacht?",a:"hast",opts:["hast","habe","haben","hat"],hint:"Du-form of haben = hast. W-question: hast moves to position 2."},
+  {type:"fb",s:"Was ___ du am Wochenende gemacht?",a:"hast",opts:["hast","habe","haben","hat"],hint:"Think about the du conjugation of the helper verb. In W-questions, it moves to position 2."},
 
   {type:"mc",q:"To say I photographed the city (fotografieren):",opts:["Ich habe die Stadt gefotografiert.","Ich habe die Stadt fotografiert.","Ich habe die Stadt fotografiet.","Ich habe die Stadt fotografie."],ans:"Ich habe die Stadt fotografiert.",hint:"-ieren verbs: no ge-. Partizip II."},
 
@@ -2622,7 +2622,7 @@ export default [
 
   {type:"match",pairs:[{nl:"bin gegangen",en:"went (I)"},{nl:"ist gefahren",en:"drove (he/she)"},{nl:"sind geflogen",en:"flew (we/they)"},{nl:"bist gekommen",en:"came (you)"}]},
 
-  {type:"mc",q:"Complete: Sie (formal) ___ um 9 Uhr angekommen.",opts:["haben","sind","ist","seid"],ans:"sind",hint:"Sie (formal) takes the same form as sie (they): sind."},
+  {type:"mc",q:"Complete: Sie (formal) ___ um 9 Uhr angekommen.",opts:["haben","sind","ist","seid"],ans:"sind",hint:"Sie (formal) conjugates the same way as sie (plural). Which form of sein fits?"},
 
   {type:"fb",s:"Ihr ___ mit dem Zug gefahren.",a:"seid",opts:["seid","sind","ist","habt"],hint:"ihr = you all. Conjugate sein for ihr."},
 
@@ -2778,7 +2778,7 @@ export default [
 
   {type:"mc",q:"You went to Switzerland. Which is correct?",opts:["Ich bin nach Schweiz gefahren","Ich bin in der Schweiz gefahren","Ich bin in die Schweiz gefahren","Ich bin an die Schweiz gefahren"],ans:"Ich bin in die Schweiz gefahren",hint:"die this word has the feminine article. Use in die."},
 
-  {type:"fb",s:"Wir sind ___ Meer gefahren.",a:"ans",opts:["ans","am","ins","zum"],hint:"an + das = ans. Used for sea destinations."},
+  {type:"fb",s:"Wir sind ___ Meer gefahren.",a:"ans",opts:["ans","am","ins","zum"],hint:"This is a contraction of a preposition plus a neuter article. Used for sea destinations."},
 
   {type:"mc",q:"'We went to the mountains.' Which is correct?",opts:["Wir sind nach Berge gefahren","Wir sind in die Berge gefahren","Wir sind ans Berge gefahren","Wir sind in den Berg gefahren"],ans:"Wir sind in die Berge gefahren",hint:"die this word is plural. In die this word is the standard phrase."},
 
@@ -2887,7 +2887,7 @@ export default [
 
   {type:"mc",q:"'She read the book.' Perfekt helper:",opts:["sein, lesen involves focus","haben, lesen is an activity","sein, reading changes the reader","haben, it is a vowel-change verb"],ans:"haben, lesen is an activity",hint:"the correct form: no motion, no change of state."},
 
-  {type:"fb",s:"Ich ___ gestern Nacht sehr schlecht geschlafen.",a:"habe",opts:["habe","bin","hat","ist"],hint:"schlafen (sleeping, activity) takes haben."},
+  {type:"fb",s:"Ich ___ gestern Nacht sehr schlecht geschlafen.",a:"habe",opts:["habe","bin","hat","ist"],hint:"Schlafen describes an activity. Activity verbs take which Perfekt helper?"},
 
   {type:"mc",q:"Wir ___ durch den Park gelaufen und ___ dann Kaffee getrunken.",opts:["sind / haben","haben / sind","ist / hat","sind / sind"],ans:"sind / haben",hint:"laufen = sein (motion). trinken = haben (activity)."},
 
@@ -3034,21 +3034,21 @@ export default [
 
   {type:"teach",kind:"word",nl:"ihnen / Ihnen",en:"to them / to you (formal, dat.)",phonetic:"EE-nen",example:"A: Soll ich Ihnen die Rechnung schicken?\nB: Ja, schicken Sie sie mir per E-Mail, bitte.\nA: Natürlich, Herr Weber. Ich schicke sie Ihnen sofort.",exampleEn:"A: Should I send you the invoice?\nB: Yes, please send it to me by email.\nA: Of course, Mr. Weber. I will send it to you right away.",note:"ihnen (lowercase) = to them\nIhnen (capital) = to you (formal)\nCapitalization is the only difference in writing."},
 
-  {type:"mc",q:"'Ich helfe ___ (her)'.",opts:["sie","ihr","ihre","ihm"],ans:"ihr",hint:"Dative of sie (she) = ihr (to her)."},
+  {type:"mc",q:"'Ich helfe ___ (her)'.",opts:["sie","ihr","ihre","ihm"],ans:"ihr",hint:"What is the dative pronoun for sie (she)?"},
 
-  {type:"mc",q:"'Kannst du ___ helfen?' (me)",opts:["ich","mich","mir","mein"],ans:"mir",hint:"Dative of ich = mir."},
+  {type:"mc",q:"'Kannst du ___ helfen?' (me)",opts:["ich","mich","mir","mein"],ans:"mir",hint:"What is the dative pronoun for ich?"},
 
-  {type:"fb",s:"Er gibt ___ ein Buch. (him)",a:"ihm",opts:["ihm","ihn","er","seiner"],hint:"Dative of er = ihm. The book goes to him."},
+  {type:"fb",s:"Er gibt ___ ein Buch. (him)",a:"ihm",opts:["ihm","ihn","er","seiner"],hint:"What is the dative pronoun for er? The book goes to that person."},
 
-  {type:"mc",q:"'Ich schreibe ___ eine E-Mail.' (you, formal)",opts:["Sie","Ihnen","euch","dir"],ans:"Ihnen",hint:"Formal dative is Ihnen with capital I."},
+  {type:"mc",q:"'Ich schreibe ___ eine E-Mail.' (you, formal)",opts:["Sie","Ihnen","euch","dir"],ans:"Ihnen",hint:"The formal dative pronoun is capitalized. Think about the Sie-form."},
 
   {type:"mc",q:"Which pronoun is BOTH accusative and dative?",opts:["mir","ihm","uns","ihr"],ans:"uns",hint:"This pronoun does double duty in wir forms."},
 
   {type:"drag_fill",s:"Sie dankt {1} für das Geschenk. Wir schreiben {2} einen Brief.",blanks:{"1":"ihm","2":"ihr"},pool:["ihm","ihr","ihnen","uns","mir","dir"],hint:"She thanks him. We write to her."},
 
-  {type:"mc",q:"'Das gefällt mir nicht.' 'Mir' is:",opts:["to me","me (accusative)","my","of me"],ans:"to me",hint:"Gefallen takes dative. Mir = to me or for me."},
+  {type:"mc",q:"'Das gefällt mir nicht.' 'Mir' is:",opts:["to me","me (accusative)","my","of me"],ans:"to me",hint:"Gefallen takes dative. Think about what mir means in English."},
 
-  {type:"fb",s:"Kannst du ___ die Adresse geben? (us)",a:"uns",opts:["uns","wir","euch","ihr"],hint:"Dative of wir = uns."},
+  {type:"fb",s:"Kannst du ___ die Adresse geben? (us)",a:"uns",opts:["uns","wir","euch","ihr"],hint:"What is the dative pronoun for wir?"},
 
   {type:"mc",q:"'Ich bringe euch etwas mit.' Who is 'euch'?",opts:["One formal person","Me","You all (informal plural)","Him"],ans:"You all (informal plural)",hint:"Euch is dative of ihr (this concept you the correct form)."},
 
@@ -3077,11 +3077,11 @@ export default [
 
   {type:"teach",kind:"phrase",nl:"nach Hause",en:"(going) home",phonetic:"nahkh HOW-ze",example:"A: Wann gehst du nach Hause?\nB: Ich gehe nach dem Essen nach Hause.\nA: Ich fahre auch bald nach Hause.",exampleEn:"A: When are you going home?\nB: I am going home after the meal.\nA: I am also going home soon.",note:"nach Hause = going home (direction, movement)\nzu Hause = at home (location, being there)\nAfter motion verbs, use nach Hause."},
 
-  {type:"mc",q:"'Ich fahre ___ dem Bus.' (by bus)",opts:["zu","bei","nach","mit"],ans:"mit",hint:"Mit + dative = with or by means of."},
+  {type:"mc",q:"'Ich fahre ___ dem Bus.' (by bus)",opts:["zu","bei","nach","mit"],ans:"mit",hint:"Which preposition means with or by means of, and always takes dative?"},
 
-  {type:"mc",q:"'Sie wohnt ___ ihrer Tante.' (at her aunt's place)",opts:["zu","mit","bei","nach"],ans:"bei",hint:"Bei + person = at someone's place."},
+  {type:"mc",q:"'Sie wohnt ___ ihrer Tante.' (at her aunt's place)",opts:["zu","mit","bei","nach"],ans:"bei",hint:"Which dative preposition means at someone's place?"},
 
-  {type:"fb",s:"Ich fahre ___ Deutschland im Sommer.",a:"nach",opts:["nach","zu","bei","mit"],hint:"Countries without article use nach for travel."},
+  {type:"fb",s:"Ich fahre ___ Deutschland im Sommer.",a:"nach",opts:["nach","zu","bei","mit"],hint:"Countries without an article use which preposition for travel destinations?"},
 
   {type:"mc",q:"Zu Hause means:",opts:["Going home","To the house","At home","From home"],ans:"At home",hint:"Location, not direction. Where you are, not where you go."},
 
@@ -3132,7 +3132,7 @@ export default [
 
   {type:"mc",q:"With 'seit', which verb tense is used for an ongoing action?",opts:["Past tense (Perfekt)","Future tense","Present tense","Imperfect (Präteritum)"],ans:"Present tense",hint:"Seit = still ongoing. The action has not ended."},
 
-  {type:"fb",s:"Er kommt gerade ___ dem Büro. Er ist müde.",a:"von",opts:["von","aus","seit","bei"],hint:"Just coming from a place he was at: von + dative."},
+  {type:"fb",s:"Er kommt gerade ___ dem Büro. Er ist müde.",a:"von",opts:["von","aus","seit","bei"],hint:"He is just coming FROM a place. Which preposition expresses origin?"},
 
   {type:"mc",q:"'Ich komme aus dem Iran.' Why 'dem' here?",opts:["Iran is feminine","Iran has the article der, dative = dem","Iran is always neuter","dem is used after aus for all countries"],ans:"Iran has the article der, dative = dem",hint:"Only countries WITH an this word need a this word the correct form after aus."},
 
@@ -3159,11 +3159,11 @@ export default [
 
   {type:"teach",kind:"phrase",nl:"Ich gebe es ihm.",en:"I give it to him.",phonetic:"ich GAY-be es eem",example:"A: Hast du das Paket noch?\nB: Ja, ich gebe es ihm morgen.\nA: Gut, er wartet schon darauf.\nB: Ich vergesse es nicht.",exampleEn:"A: Do you still have the package?\nB: Yes, I will give it to him tomorrow.\nA: Good, he is already waiting for it.\nB: I will not forget it.",note:"Two pronouns: accusative (es) before dative (ihm).\nes = the package (acc.), ihm = to him (dat.).\nOrder: VERB + ACC pronoun + DAT pronoun."},
 
-  {type:"mc",q:"'Ich schenke ___ ein Buch.' (her)",opts:["sie","ihrer","ihr","ihrem"],ans:"ihr",hint:"Schenken takes dative for the person. Dative of sie = ihr."},
+  {type:"mc",q:"'Ich schenke ___ ein Buch.' (her)",opts:["sie","ihrer","ihr","ihrem"],ans:"ihr",hint:"Schenken takes dative for the recipient. What is the dative form of sie (she)?"},
 
-  {type:"mc",q:"'Ich zeige ___ die Stadt.' (you, informal)",opts:["du","dich","dir","dein"],ans:"dir",hint:"Dative of du = dir. Zeigen takes dative for the person."},
+  {type:"mc",q:"'Ich zeige ___ die Stadt.' (you, informal)",opts:["du","dich","dir","dein"],ans:"dir",hint:"Zeigen takes dative for the person shown to. What is the dative of du?"},
 
-  {type:"fb",s:"Sie bringt ___ eine Tasse Tee. (me)",a:"mir",opts:["mir","mich","ich","mein"],hint:"Dative of ich = mir. She brings tea to me."},
+  {type:"fb",s:"Sie bringt ___ eine Tasse Tee. (me)",a:"mir",opts:["mir","mich","ich","mein"],hint:"She brings tea to the speaker. What dative pronoun means to me?"},
 
   {type:"mc",q:"Correct word order with two noun objects:",opts:["Ich gebe einen Apfel dem Kind.","Ich gebe dem Kind einen Apfel.","Ich gebe dem Kind ein Apfel.","Ich gebe der Kind einen Apfel."],ans:"Ich gebe dem Kind einen Apfel.",hint:"Standard order: verb + dative + accusative."},
 
@@ -3204,7 +3204,7 @@ export default [
 
   {type:"mc",q:"'Was wünschst du dir?' What does 'dir' show here?",opts:["Accusative of du","Dative reflexive: for yourself","Possessive: your wish","Nominative subject"],ans:"Dative reflexive: for yourself",hint:"Sich wünschen = to wish for oneself. Dir is the this word the correct form."},
 
-  {type:"fb",s:"Ich schenke ___ eine Geburtstagskarte. (her)",a:"ihr",opts:["ihr","sie","ihrem","deren"],hint:"Dative of sie = ihr. Schenken takes dative for the person."},
+  {type:"fb",s:"Ich schenke ___ eine Geburtstagskarte. (her)",a:"ihr",opts:["ihr","sie","ihrem","deren"],hint:"Schenken takes dative for the person receiving. What is the dative of sie?"},
 
   {type:"mc",q:"'Das Geschenk gefällt mir sehr.' What does this mean?",opts:["I want the gift very much","I gave the gift","I like the gift very much","I need the gift"],ans:"I like the gift very much",hint:"Gefallen + dative = to please or to like. Mir = to me."},
 
@@ -3212,7 +3212,7 @@ export default [
 
   {type:"mc",q:"Which sentence says 'I am bringing him a birthday gift'?",opts:["Ich bringe ihm ein Geschenk zum Geburtstag.","Ich bringe ihn ein Geschenk zum Geburtstag.","Ich schenke ihn ein Geschenk.","Ich gebe sein Geschenk."],ans:"Ich bringe ihm ein Geschenk zum Geburtstag.",hint:"the correct form: ihm (dative) + ein this word (accusative)."},
 
-  {type:"fb",s:"Herzlichen Glückwunsch ___ Geburtstag!",a:"zum",opts:["zum","zur","dem","zur"],hint:"Geburtstag is masculine. Zu + dem = zum."},
+  {type:"fb",s:"Herzlichen Glückwunsch ___ Geburtstag!",a:"zum",opts:["zum","zur","dem","zur"],hint:"Geburtstag is masculine. The preposition zu contracts with the dative article."},
 
   {type:"mc",q:"'Die Party gefällt uns sehr.' Who likes the party?",opts:["She likes the party","I like the party","We like the party","They like the party"],ans:"We like the party",hint:"Uns = dative of wir (we). Gefällt uns = we like it."},
 
@@ -3237,7 +3237,7 @@ export default [
 
   {type:"fb",s:"Ich helfe ___ Bruder. (my, masculine dative)",a:"meinem",opts:["meinem","meinen","meine","mein"],hint:"Masculine dative: mein becomes the correct form."},
 
-  {type:"mc",q:"Dative pronoun for 'ich' is:",opts:["mich","ich","mein","mir"],ans:"mir",hint:"Nominative: ich. Accusative: mich. Dative: mir."},
+  {type:"mc",q:"Dative pronoun for 'ich' is:",opts:["mich","ich","mein","mir"],ans:"mir",hint:"Nominative: ich. Accusative: mich. What is the dative form?"},
 
   {type:"mc",q:"Which preposition expresses ongoing duration from past to present?",opts:["mit","von","seit","nach"],ans:"seit",hint:"Ongoing from a past point to now: the correct form drei Jahren."},
 
@@ -3253,7 +3253,7 @@ export default [
 
   {type:"drag_fill",s:"{1} gehört dieses Buch? Es gehört {2} Schwester.",blanks:{"1":"Wem","2":"meiner"},pool:["Wem","Was","Wen","meiner","meinem","meine"],hint:"Whose is the book? It belongs to my feminine sister."},
 
-  {type:"mc",q:"'Ich wohne beim Bäcker.' 'Beim' contracts from:",opts:["bei + dem","bei + das","bei + ein","be + ihm"],ans:"bei + dem",hint:"Beim = bei + dem. Bäcker is masculine."},
+  {type:"mc",q:"'Ich wohne beim Bäcker.' 'Beim' contracts from:",opts:["bei + dem","bei + das","bei + ein","be + ihm"],ans:"bei + dem",hint:"Beim is a contraction. Think about which preposition + dative article combine here."},
 
   {type:"mc",q:"Which sentence correctly says 'I am sending her a letter'?",opts:["Ich schicke sie einen Brief.","Ich schicke ihr einen Brief.","Ich schicke eine Brief ihr.","Ich schicke ihrem einen Brief."],ans:"Ich schicke ihr einen Brief.",hint:"the correct form: ihr (dat., to her) + einen this word (acc.)."},
 
@@ -3337,13 +3337,13 @@ export default [
 
   {type:"tip",title:"Dative Summary Table",text:"der (m): auf dem Tisch, vor dem Haus, hinter dem Baum\ndie (f): in der Küche, an der Wand, vor der Schule\ndas (n): im Zimmer (in + dem), auf dem Bett\nPlural: zwischen den Stühlen, neben den Büchern\n\nKey: m and n both use DEM. f uses DER."},
 
-  {type:"mc",q:"'Das Buch liegt ___ Regal.' (das Regal = shelf, location in):",opts:["in der","im","auf der","in die"],ans:"im",hint:"das Regal is neuter. in + dem = im. Location = dative."},
+  {type:"mc",q:"'Das Buch liegt ___ Regal.' (das Regal = shelf, location in):",opts:["in der","im","auf der","in die"],ans:"im",hint:"Regal is neuter. Location uses dative. Preposition in contracts with the dative article."},
 
-  {type:"mc",q:"'Die Katze schläft ___ Sofa.' (das Sofa, on top, location):",opts:["auf der","auf dem","auf das","auf den"],ans:"auf dem",hint:"das Sofa = neuter. auf + dative = auf dem."},
+  {type:"mc",q:"'Die Katze schläft ___ Sofa.' (das Sofa, on top, location):",opts:["auf der","auf dem","auf das","auf den"],ans:"auf dem",hint:"Sofa is neuter. Sleeping on it = location = dative. Think: preposition + dative article."},
 
   {type:"fb",s:"Das Bild hängt an ___ Wand.",a:"der",opts:["der","dem","den","die"],hint:"die Wand is feminine. Dative feminine = ?"},
 
-  {type:"mc",q:"'Die Kinder spielen ___ Garten.' (der Garten = garden, in, location):",opts:["in dem","in der","in das","im"],ans:"im",hint:"der Garten is masculine. in + dem = im."},
+  {type:"mc",q:"'Die Kinder spielen ___ Garten.' (der Garten = garden, in, location):",opts:["in dem","in der","in das","im"],ans:"im",hint:"Garten is masculine. Location = dative. The preposition in contracts with the dative article."},
 
   {type:"match",pairs:[{nl:"auf dem Tisch",en:"on the table (neut)"},{nl:"an der Wand",en:"on the wall (fem)"},{nl:"vor dem Haus",en:"in front of the house (neut)"},{nl:"in der Küche",en:"in the kitchen (fem)"}]},
 
@@ -3396,7 +3396,7 @@ export default [
 
   {type:"mc",q:"'Er setzt sich ___ Sofa.' (direction, das Sofa, accusative, onto):",opts:["auf dem","auf das","auf den","auf die"],ans:"auf das",hint:"das Sofa = neuter. Movement to = accusative. Neuter accusative = das."},
 
-  {type:"fb",s:"Ich gehe heute Abend in ___ Kino.",a:"das",opts:["das","dem","der","den"],hint:"das Kino = neuter. Into the cinema = movement = accusative. Neuter accusative = ?"},
+  {type:"fb",s:"Ich gehe heute Abend in ___ Kino.",a:"das",opts:["das","dem","der","den"],hint:"Kino is neuter. Going INTO = movement = accusative. Neuter accusative article stays the same."},
 
   {type:"mc",q:"'Wir fahren ___ Stadt.' (direction, die Stadt = city, into):",opts:["in die","in der","ins","in das"],ans:"in die",hint:"die Stadt = feminine. Accusative feminine = die. No contraction for feminine."},
 ]},
@@ -3433,7 +3433,7 @@ export default [
 
   {type:"drag_fill",s:"{1} die Vase auf dem Tisch? Nein, ich {2} sie auf das Regal.",blanks:{"1":"Steht","2":"stelle"},pool:["Steht","Stellt","Liegt","stelle","lege","stehe"],hint:"Vase = upright. First: is it there already (state)? Second: I am moving it (action)."},
 
-  {type:"mc",q:"'Ich lege die Jacke auf ___.' (das Bett = bed, neuter, accusative):",opts:["dem Bett","der Bett","den Bett","das Bett"],ans:"das Bett",hint:"legen = action = accusative. das Bett = neuter. Neuter accusative = das."},
+  {type:"mc",q:"'Ich lege die Jacke auf ___.' (das Bett = bed, neuter, accusative):",opts:["dem Bett","der Bett","den Bett","das Bett"],ans:"das Bett",hint:"Legen = action = accusative. Bett is neuter. Neuter accusative article stays unchanged."},
 
   {type:"mc",q:"'Die Jacke liegt auf ___.' (das Bett = bed, neuter, dative):",opts:["das Bett","der Bett","den Bett","dem Bett"],ans:"dem Bett",hint:"liegen = state = dative. das Bett neuter dative = dem."},
 
@@ -3607,11 +3607,11 @@ export default [
 
   {type:"mc",q:"'Ich lege die Zeitung zwischen die Stühle.' Which case is used here?",opts:["zwischen + dative plural","zwischen + accusative plural","in + dative neuter","an + accusative feminine"],ans:"zwischen + accusative plural",hint:"legen = action. die Stühle = this word Think: die."},
 
-  {type:"mc",q:"'Hinter ___ Haus gibt es einen Garten.' (das Haus, location behind):",opts:["das","den","dem","der"],ans:"dem",hint:"gibt es = there is (state/location). hinter + dative. das Haus = neuter dative = dem."},
+  {type:"mc",q:"'Hinter ___ Haus gibt es einen Garten.' (das Haus, location behind):",opts:["das","den","dem","der"],ans:"dem",hint:"There is = state/location. Hinter + dative. Haus is neuter. What is the neuter dative article?"},
 
   {type:"fb",s:"Das Sofa steht vor ___ Fernseher.",a:"dem",opts:["dem","den","der","das"],hint:"der Fernseher = masculine. vor + dative (state). Masculine dative = ?"},
 
-  {type:"mc",q:"'Sie stellen die Stühle vor ___ Bühne.' (die Bühne = stage, direction):",opts:["der","dem","die","das"],ans:"die",hint:"stellen = action = accusative. die Bühne = feminine. Feminine accusative = die."},
+  {type:"mc",q:"'Sie stellen die Stühle vor ___ Bühne.' (die Bühne = stage, direction):",opts:["der","dem","die","das"],ans:"die",hint:"Stellen = action = accusative. Bühne is feminine. Feminine accusative articles stay unchanged."},
 ]},
 
 ]},
@@ -3709,7 +3709,7 @@ export default [
   {type:"mc",q:"To emphasize 'exactly as tall as', you use:",opts:["so groß als","genauso groß wie","am größten","nicht so groß wie"],ans:"genauso groß wie",hint:"Think: exactly as. Stronger than just so...wie."},
   {type:"mc",q:"'This coat is not as expensive as that one.' In German:",opts:["teurer als","genauso teuer wie","nicht so teuer wie","weniger teuer"],ans:"nicht so teuer wie",hint:"Negative equality: nicht so + adjective + wie."},
   {type:"match",pairs:[{nl:"so groß wie",en:"as big as"},{nl:"nicht so teuer wie",en:"not as expensive as"},{nl:"genauso gut wie",en:"just as good as"},{nl:"fast so alt wie",en:"almost as old as"}]},
-  {type:"mc",q:"'Das Fahrrad ist schneller ___ das Auto.' Which word fills the blank?",opts:["wie","als","so","genauso"],ans:"als",hint:"Comparative (-er) always takes als, never wie."},
+  {type:"mc",q:"'Das Fahrrad ist schneller ___ das Auto.' Which word fills the blank?",opts:["wie","als","so","genauso"],ans:"als",hint:"Comparatives with -er always take a specific comparison word, never wie."},
   {type:"drag_fill",s:"Die neue Schule ist {1} groß {2} die alte, aber {3} so modern {4} das neue Gymnasium.",blanks:{"1":"so","2":"wie","3":"nicht","4":"wie"},pool:["so","wie","nicht","als","genauso","mehr"],hint:"Equality: so...wie. Negative equality: nicht so...wie."},
   {type:"mc",q:"'He is almost as tall as his father.' In German:",opts:["Er ist groß als sein Vater.","Er ist fast so groß wie sein Vater.","Er ist genauso groß wie sein Vater.","Er ist nicht so groß wie sein Vater."],ans:"Er ist fast so groß wie sein Vater.",hint:"Almost as = fast so + adjective + wie."},
   {type:"mc",q:"Which sentence uses als CORRECTLY?",opts:["Er ist so alt als ich.","Sie ist schneller als er.","Das ist genauso teuer als jenes.","Fast so gut als gestern."],ans:"Sie ist schneller als er.",hint:"Als always follows a comparative (-er), not after so...wie."},
@@ -3756,7 +3756,7 @@ export default [
   {type:"match",pairs:[{nl:"der gute Kaffee",en:"the good coffee (m.nom.)"},{nl:"die frische Milch",en:"the fresh milk (f.nom.)"},{nl:"das kalte Wasser",en:"the cold water (n.nom.)"},{nl:"den guten Kaffee",en:"the good coffee (m.acc.)"}]},
   {type:"mc",q:"'Ich lese den ___ Roman.' (long)",opts:["lange","langer","langen","langes"],ans:"langen",hint:"Accusative masculine after den: weak declension = -en."},
   {type:"drag_fill",s:"Die {1} Lehrerin erklärt dem Schüler den {2} Text.",blanks:{"1":"nette","2":"schwierigen"},pool:["nette","netter","schwierigen","schwierige","schwieriger"],hint:"Die Lehrerin = feminine nom. after die: -e. Den Text = masculine acc. after den: -en."},
-  {type:"mc",q:"What is the adjective ending in 'die kleinen Kinder'?",opts:["-e","-er","-en","-es"],ans:"-en",hint:"Plural after die: always -en in weak declension."},
+  {type:"mc",q:"What is the adjective ending in 'die kleinen Kinder'?",opts:["-e","-er","-en","-es"],ans:"-en",hint:"Plural nouns after the definite article always take the same adjective ending in weak declension."},
   {type:"mc",q:"Strong vs weak: which is correct when no article is present?",opts:["gute Kaffee","guten Kaffee","guter Kaffee","gutem Kaffee"],ans:"guter Kaffee",hint:"No article = strong declension. Masculine nominative: -er."},
   {type:"fb",s:"Er kauft den ___ Computer.",a:"neuen",opts:["neue","neuer","neuen","neues"],hint:"After den (masculine accusative): weak declension = -en."},
   {type:"mc",q:"'Das ist der ___ Film.' (best)",opts:["bester","bestem","beste","besten"],ans:"beste",hint:"After der (masculine nominative): weak declension = -e."},
@@ -3792,7 +3792,7 @@ export default [
   {type:"tip",title:"Unit 13 Summary",text:"Everything you have learned:\n\nCOMPARATIVE: adjective + er + als\ngroß → größer als, gut → besser als, viel → mehr als\n\nSUPERLATIVE (predicative): am + adjective + sten\nSUPERLATIVE (attributive): der/die/das + adjective + ste\n\nEQUALITY: so + adjective + wie\ngenauso + adjective + wie (stronger)\nnicht so + adjective + wie (negative)\n\nADJECTIVE DECLENSION (no article, strong): -er (m), -e (f), -es (n)\nADJECTIVE DECLENSION (with article, weak): -e (nom.) or -en (acc. masc. + all other positions)"},
   {type:"mc",q:"'This city is bigger than that one.' In German:",opts:["Diese Stadt ist so groß wie jene.","Diese Stadt ist am größten.","Diese Stadt ist größer als jene.","Diese Stadt ist größer wie jene."],ans:"Diese Stadt ist größer als jene.",hint:"Comparative: this word + als. Never wie in comparatives."},
   {type:"mc",q:"'The best restaurant in town' uses which form?",opts:["das beste Restaurant","am besten Restaurant","das besten Restaurant","das bester Restaurant"],ans:"das beste Restaurant",hint:"Attributive superlative: das + adjective + ste. Neuter: -e."},
-  {type:"fb",s:"Ich trinke Kaffee ___, aber ich trinke Tee noch lieber.",a:"gern",opts:["gern","lieber","am liebsten","besser"],hint:"Neutral preference, no comparison yet. gern = I like doing X."},
+  {type:"fb",s:"Ich trinke Kaffee ___, aber ich trinke Tee noch lieber.",a:"gern",opts:["gern","lieber","am liebsten","besser"],hint:"This expresses a neutral preference with no comparison. Think about the basic adverb for liking."},
   {type:"mc",q:"Equality comparison: 'just as expensive as'",opts:["teurer als","so teuer als","genauso teuer wie","nicht so teuer wie"],ans:"genauso teuer wie",hint:"the correct form + base adjective + wie = exactly as... as."},
   {type:"match",pairs:[{nl:"besser als",en:"better than"},{nl:"am besten",en:"the best"},{nl:"genauso gut wie",en:"just as good as"},{nl:"nicht so gut wie",en:"not as good as"}]},
   {type:"mc",q:"'Good coffee' with no article (nominative) is:",opts:["gute Kaffee","guter Kaffee","gutes Kaffee","guten Kaffee"],ans:"guter Kaffee",hint:"No article = strong declension. Masculine nominative = -er."},
@@ -3823,16 +3823,16 @@ export default [
 {type:"teach",kind:"word",nl:"draußen",en:"outside",phonetic:"DRAU-sen",example:"A: Spielen die Kinder draußen?\nB: Ja, weil das Wetter schön ist.\nA: Super!\nB: Sie kommen um sechs zurück.",exampleEn:"A: Are the children playing outside?\nB: Yes, because the weather is nice.\nA: Great!\nB: They are coming back at six.",note:"Adverb of place. Opposite: drinnen (inside)."},
 {type:"teach",kind:"phrase",nl:"Ich lerne Deutsch, weil ich Deutschland liebe.",en:"I am learning German because I love Germany.",phonetic:"ikh LAIR-neh DOYTCH, vile ikh DOYTCH-land LEE-beh",example:"A: Warum lernst du Deutsch?\nB: Weil ich Deutschland liebe!\nA: Das ist ein guter Grund.\nB: Und weil die Sprache so interessant ist.",exampleEn:"A: Why are you learning German?\nB: Because I love Germany!\nA: That is a good reason.\nB: And because the language is so interesting.",note:"A classic example. liebe = present tense of lieben."},
 {type:"mc",q:"In a weil-clause, where does the verb go?",opts:["Position 1","Position 2","After the subject","At the end"],ans:"At the end",hint:"Verb-final is the rule for ALL Nebensätze. weil sends the verb to the last position."},
-{type:"fb",s:"Ich esse nicht, weil ich keinen Hunger ___.",a:"habe",opts:["habe","bin","ist","hat"],hint:"Subject is ich. habe is the correct form of haben. Verb goes to the end of the weil-clause."},
+{type:"fb",s:"Ich esse nicht, weil ich keinen Hunger ___.",a:"habe",opts:["habe","bin","ist","hat"],hint:"Subject is ich. Think about the ich-form of the helper verb. It goes to the end of the subordinate clause."},
 {type:"mc",q:"Which sentence is correct?",opts:["Weil ich müde bin ich bleibe zu Hause.","Ich bleibe zu Hause weil ich müde bin.","Ich bleibe zu Hause, weil ich müde bin.","Ich bleibe zu Hause, weil bin ich müde."],ans:"Ich bleibe zu Hause, weil ich müde bin.",hint:"Comma before weil. Verb bin at the end of the weil-clause. V2 in the main clause."},
-{type:"fb",s:"Sie geht früh schlafen, weil sie sehr müde ___.",a:"ist",opts:["ist","bin","bist","sind"],hint:"Subject is sie (she). The correct form of sein for sie is ist. Verb goes to the END."},
-{type:"mc",q:"'Er arbeitet nicht, weil er krank ___.' Fill in the blank.",opts:["ist","sein","sind","war"],ans:"ist",hint:"Subject er, present tense. The finite verb ist goes at the end of the weil-clause."},
-{type:"fb",s:"Wir bleiben drinnen, weil das Wetter so schlecht ___.",a:"ist",opts:["ist","war","sein","sind"],hint:"Subject das Wetter. Verb sein, present tense for das Wetter = ist. Verb-final in the weil-clause."},
+{type:"fb",s:"Sie geht früh schlafen, weil sie sehr müde ___.",a:"ist",opts:["ist","bin","bist","sind"],hint:"Subject is sie (she). Think about the third person singular of sein. Verb goes to the END."},
+{type:"mc",q:"'Er arbeitet nicht, weil er krank ___.' Fill in the blank.",opts:["ist","sein","sind","war"],ans:"ist",hint:"Subject er, present tense. The finite verb of sein goes at the end of subordinate clauses."},
+{type:"fb",s:"Wir bleiben drinnen, weil das Wetter so schlecht ___.",a:"ist",opts:["ist","war","sein","sind"],hint:"Subject is das Wetter (third person singular). Verb sein, present tense. Verb-final in subordinate clause."},
 {type:"mc",q:"Warum lernst du Deutsch? A correct weil-answer is:",opts:["Weil ich lerne Deutsch gern.","Weil ich Deutschland mag.","Weil, ich Deutschland interessant finde.","Weil ich Deutsch möchte lernen."],ans:"Weil ich Deutschland mag.",hint:"Verb mag is at the end of the clause. No comma needed after weil at start of clause."},
-{type:"mc",q:"'Ich trinke Kaffee, ___ ich müde bin.' Which conjunction fits?",opts:["dass","ob","weil","wenn"],ans:"weil",hint:"You are giving a reason/cause. weil = because. The others have different meanings."},
+{type:"mc",q:"'Ich trinke Kaffee, ___ ich müde bin.' Which conjunction fits?",opts:["dass","ob","weil","wenn"],ans:"weil",hint:"You are giving a reason/cause. Which conjunction means because?"},
 {type:"fb",s:"Ich gehe nicht raus, weil es so stark ___.",a:"regnet",opts:["regnet","regnen","regnete","hat"],hint:"es this word = it rains. Verb this word goes to the end of the weil-clause. stark regnen = to rain heavily."},
 {type:"match",pairs:[{nl:"weil",en:"because"},{nl:"müde",en:"tired"},{nl:"krank",en:"sick"},{nl:"draußen",en:"outside"}]},
-{type:"mc",q:"'Ich lerne Deutsch, ___ es eine wichtige Sprache ist.' Best conjunction:",opts:["ob","weil","wenn","dass"],ans:"weil",hint:"Giving the reason why you learn German. Reason = weil."},
+{type:"mc",q:"'Ich lerne Deutsch, ___ es eine wichtige Sprache ist.' Best conjunction:",opts:["ob","weil","wenn","dass"],ans:"weil",hint:"Giving the reason why you learn German. Which conjunction expresses a cause?"},
 {type:"tip",title:"weil at the Start vs. in the Middle",text:"weil can start the sentence OR come in the middle.\n\nMiddle: Ich bleibe zu Hause, weil ich krank bin.\nStart: Weil ich krank bin, bleibe ich zu Hause.\n\nWhen the weil-clause comes FIRST, the main clause verb comes immediately after the comma.",deepDive:"This is verb inversion in the main clause. When something other than the subject comes in Position 1 (here: the entire weil-clause), the subject and verb swap. Bleibe ich, not ich bleibe."},
 {type:"mc",q:"'Weil ich krank bin, ___ ich zu Hause.' Fill in correctly:",opts:["ich bleibe","bleibe ich","bleibe","ich bleibe aber"],ans:"bleibe ich",hint:"weil-clause is in Position 1. So main clause inverts: verb first, then subject."},
 {type:"mc",q:"Choose the correct sentence:",opts:["Ich schlafe nicht, weil ich nervös.","Ich schlafe nicht, weil nervös ich bin.","Ich schlafe nicht, weil ich nervös bin.","Weil ich nervös bin ich schlafe nicht."],ans:"Ich schlafe nicht, weil ich nervös bin.",hint:"Subject ich + adjective this word + verb bin at the end. Comma before weil. Main clause has V2 order."},
@@ -3847,16 +3847,16 @@ export default [
 {type:"teach",kind:"phrase",nl:"Ich weiß, dass du recht hast.",en:"I know that you are right.",phonetic:"ikh vice, dahs doo rekht hahst",example:"A: Du hast recht, oder?\nB: Ich weiß, dass du recht hast.\nA: Dann sind wir einig.\nB: Ja, das freut mich.",exampleEn:"A: You are right, aren't you?\nB: I know that you are right.\nA: Then we agree.\nB: Yes, that makes me happy.",note:"recht haben = to be right. hast goes to end of dass-clause."},
 {type:"teach",kind:"word",nl:"sagen",en:"to say",phonetic:"ZAH-gen",example:"A: Was sagt er?\nB: Er sagt, dass er müde ist.\nA: Schon wieder!\nB: Er arbeitet zu viel.",exampleEn:"A: What does he say?\nB: He says that he is tired.\nA: Again!\nB: He works too much.",note:"Regular verb. sagen, dass + verb-final is very common."},
 {type:"mc",q:"In a dass-clause, the verb goes:",opts:["To position 1","To position 2","After dass directly","To the end"],ans:"To the end",hint:"dass, like weil, is a subordinating conjunction. It always pushes the verb to the very end."},
-{type:"fb",s:"Ich weiß, dass er heute ___ kommt.",a:"nicht",opts:["nicht","kein","nein","nichts"],hint:"Er kommt nicht. In the dass-clause, nicht comes just before the final verb."},
+{type:"fb",s:"Ich weiß, dass er heute ___ kommt.",a:"nicht",opts:["nicht","kein","nein","nichts"],hint:"The negation word comes just before the final verb in subordinate clauses."},
 {type:"mc",q:"'Sie sagt, dass sie morgen ___.' Which verb form fits?",opts:["kommt","kommen","kam","kommst"],ans:"kommt",hint:"Subject is sie. Present tense of kommen for sie is the correct form. Sits at the end."},
-{type:"fb",s:"Ich glaube, dass das Essen hier sehr gut ___.",a:"ist",opts:["ist","sein","sind","war"],hint:"Subject is das Essen. Verb sein for das Essen = ist. Goes to the end."},
+{type:"fb",s:"Ich glaube, dass das Essen hier sehr gut ___.",a:"ist",opts:["ist","sein","sind","war"],hint:"Subject is das Essen (third person singular). Verb sein goes to the end of the clause."},
 {type:"mc",q:"Which sentence uses dass correctly?",opts:["Ich glaube dass er kommt.","Ich glaube, dass kommt er.","Ich glaube, dass er kommt.","Ich glaube, dass er kommt ist."],ans:"Ich glaube, dass er kommt.",hint:"Comma before dass. Subject + all other words + verb at the END."},
 {type:"fb",s:"Er sagt, dass du morgen ___ kannst.",a:"kommen",opts:["kommen","kommt","kam","kommend"],hint:"Modal kannst governs infinitive the correct form. In a Nebensatz with a modal: infinitive + modal at end. this word before kannst."},
-{type:"mc",q:"'Ich weiß, ___ du recht hast.' What goes in the blank?",opts:["weil","wenn","ob","dass"],ans:"dass",hint:"I know THAT you are right = Ich weiß, dass... dass introduces a factual that-clause."},
-{type:"fb",s:"Sie glaubt, dass er sehr nett ___.",a:"ist",opts:["ist","sind","sein","bist"],hint:"Subject er, verb sein, present tense. Form for er = ist. Verb-final in dass-clause."},
+{type:"mc",q:"'Ich weiß, ___ du recht hast.' What goes in the blank?",opts:["weil","wenn","ob","dass"],ans:"dass",hint:"I know THAT you are right. Which conjunction introduces a factual that-clause?"},
+{type:"fb",s:"Sie glaubt, dass er sehr nett ___.",a:"ist",opts:["ist","sind","sein","bist"],hint:"Subject er, verb sein, present tense. Third person singular. Verb-final in subordinate clause."},
 {type:"match",pairs:[{nl:"glauben",en:"to believe/think"},{nl:"wissen",en:"to know (a fact)"},{nl:"sagen",en:"to say"},{nl:"dass",en:"that (conjunction)"}]},
 {type:"mc",q:"Ich denke, dass er Hunger hat. denken here expresses:",opts:["A command","A reason","An opinion or thought","A condition"],ans:"An opinion or thought",hint:"denken = to think. Ich denke, dass... = I think that... This introduces an the correct form."},
-{type:"mc",q:"'Ich höre, dass das Konzert schön ___.' Verb:",opts:["ist","sein","war","sind"],ans:"ist",hint:"Subject das Konzert. Present tense ist. Verb-final."},
+{type:"mc",q:"'Ich höre, dass das Konzert schön ___.' Verb:",opts:["ist","sein","war","sind"],ans:"ist",hint:"Subject is das Konzert. Present tense of sein, third person singular. Verb-final."},
 {type:"tip",title:"glauben vs. wissen",text:"glauben = to believe/think (your opinion, not 100% sure)\nwissen = to know (a confirmed fact)\n\nIch glaube, dass es regnet. (I think it is raining)\nIch weiß, dass es regnet. (I know it is raining, the forecast confirmed it)",deepDive:"In academic and formal German, wissen implies certainty. glauben, denken, meinen all express opinion or assumption and take dass-clauses in exactly the same way."},
 {type:"mc",q:"'Ich ___, dass er krank ist.' Choose the verb that expresses certainty:",opts:["glaube","denke","weiß","meine"],ans:"weiß",hint:"wissen = to know (certain fact). glauben/denken/meinen = opinion. Only wissen expresses confirmed knowledge."},
 {type:"fb",s:"Ich weiß nicht, ob er kommt. Ich ___, dass er heute Arbeit hat.",a:"glaube",opts:["glaube","weiß","sehe","sage"],hint:"You are expressing a belief, not a confirmed fact. ich this word = I think/believe."},
@@ -3870,20 +3870,20 @@ export default [
 {type:"teach",kind:"word",nl:"regnen",en:"to rain",phonetic:"RAYK-nen",example:"A: Wie ist das Wetter?\nB: Es regnet den ganzen Tag.\nA: Wirklich? Kein Sport heute?\nB: Wenn es so stark regnet, nein.",exampleEn:"A: How is the weather?\nB: It is raining all day.\nA: Really? No sport today?\nB: When it rains this hard, no.",note:"Impersonal verb: es regnet. es = dummy subject."},
 {type:"teach",kind:"phrase",nl:"Wenn ich Zeit habe, lese ich.",en:"When I have time, I read.",phonetic:"ven ikh tsayt HAH-beh, LAY-zeh ikh",example:"A: Liest du viel?\nB: Wenn ich Zeit habe, lese ich gern.\nA: Was liest du?\nB: Meistens Romane oder Sachbücher.",exampleEn:"A: Do you read a lot?\nB: When I have time, I like to read.\nA: What do you read?\nB: Mostly novels or non-fiction.",note:"Habitual action with wenn. lese ich = verb inversion in main clause."},
 {type:"teach",kind:"word",nl:"die Zeit",en:"the time",phonetic:"dee tsayt",example:"A: Hast du heute Abend Zeit?\nB: Wenn ich früh fertig bin, habe ich Zeit.\nA: Super!\nB: Ich rufe dich an.",exampleEn:"A: Do you have time this evening?\nB: If I finish early, I have time.\nA: Great!\nB: I will call you.",note:"die Zeit (no plural in this sense). Zeit haben = to have time."},
-{type:"mc",q:"'___ ich müde bin, gehe ich früh schlafen.' Which word fits?",opts:["Weil","Wenn","Dass","Ob"],ans:"Wenn",hint:"Wenn = if/when. This is a conditional/habitual: when I am tired, I go to bed early."},
+{type:"mc",q:"'___ ich müde bin, gehe ich früh schlafen.' Which word fits?",opts:["Weil","Wenn","Dass","Ob"],ans:"Wenn",hint:"This is a conditional/habitual clause: when I am tired, I go to bed early. Which conjunction fits?"},
 {type:"fb",s:"Wenn es schneit, ___ wir Ski fahren.",a:"können",opts:["können","müssen","haben","sein"],hint:"The modal this word (can) fits the idea of being able to ski. It belongs in the main clause with V2 order after the wenn-clause."},
 {type:"mc",q:"Which sentence uses wenn correctly?",opts:["Wenn ich Zeit, gehe ich aus.","Ich gehe aus, wenn ich Zeit.","Wenn ich Zeit habe, gehe ich aus.","Wenn ich gehe, habe Zeit aus."],ans:"Wenn ich Zeit habe, gehe ich aus.",hint:"Verb habe is at end of wenn-clause. Main clause inverts: gehe ich."},
 {type:"teach",kind:"phrase",nl:"Wenn ich Hunger habe, esse ich etwas.",en:"When I am hungry, I eat something.",phonetic:"ven ikh HOON-ger HAH-beh, ES-seh ikh ET-vahs",example:"A: Wann isst du?\nB: Wenn ich Hunger habe, esse ich etwas.\nA: Und wenn du keinen Hunger hast?\nB: Dann trinke ich nur Wasser.",exampleEn:"A: When do you eat?\nB: When I am hungry, I eat something.\nA: And when you are not hungry?\nB: Then I only drink water.",note:"etwas = something. Habitual action."},
-{type:"fb",s:"Wenn das Wetter schön ___, gehen wir spazieren.",a:"ist",opts:["ist","war","sein","sind"],hint:"Subject: das Wetter. Verb sein, present tense for das Wetter = ist. Goes to end of wenn-clause."},
-{type:"mc",q:"'Ich rufe dich an, ___ ich zu Hause bin.' Best conjunction:",opts:["weil","dass","wenn","ob"],ans:"wenn",hint:"Calling when I am at home = IF/WHEN condition. wenn fits."},
+{type:"fb",s:"Wenn das Wetter schön ___, gehen wir spazieren.",a:"ist",opts:["ist","war","sein","sind"],hint:"Subject: das Wetter (third person singular). Verb sein, present tense. Goes to end of subordinate clause."},
+{type:"mc",q:"'Ich rufe dich an, ___ ich zu Hause bin.' Best conjunction:",opts:["weil","dass","wenn","ob"],ans:"wenn",hint:"Calling when I am at home = a conditional/habitual situation. Which conjunction fits?"},
 {type:"mc",q:"The difference between wenn and als in German is:",opts:["wenn is formal, als is informal","wenn = if/when (repeated/future), als = when (single past event)","wenn is only used for conditions, als only for time","They are fully interchangeable"],ans:"wenn = if/when (repeated/future), als = when (single past event)",hint:"wenn covers this word this concepts and conditions. als covers a this word completed past the correct form."},
 {type:"drag_fill",s:"Wenn ich Zeit habe, {1} ich Musik oder {2} ich ein Buch.",blanks:{"1":"höre","2":"lese"},pool:["höre","hören","lese","lernen","schlafe"],hint:"Free time habits: listen to music or read a book. Main clause inverts after wenn-clause. Two coordinated main clauses."},
 {type:"mc",q:"'Wenn du lernst, ___ du die Prüfung.' Fill in:",opts:["bestehst","bestehen","bestehe","besteht"],ans:"bestehst",hint:"Subject du. Present tense of bestehen (to pass) for du."},
 {type:"fb",s:"___ ich krank bin, gehe ich nicht in die Arbeit.",a:"Wenn",opts:["Wenn","Weil","Dass","Ob"],hint:"Condition/habit: if/when I am sick, I don't go to work. Start with the conjunction."},
 {type:"match",pairs:[{nl:"wenn",en:"if / when (general)"},{nl:"regnen",en:"to rain"},{nl:"die Zeit",en:"the time"},{nl:"etwas",en:"something"}]},
-{type:"mc",q:"Ich schlafe gut, wenn ich ___ bin. Which adjective fits?",opts:["krank","müde","klein","jung"],ans:"müde",hint:"Sleeping well = when you are tired. müde = tired. Natural German sentence."},
+{type:"mc",q:"Ich schlafe gut, wenn ich ___ bin. Which adjective fits?",opts:["krank","müde","klein","jung"],ans:"müde",hint:"Sleeping well = when you are tired. Which adjective describes being tired?"},
 {type:"mc",q:"'Wenn es ___, gehen wir nicht schwimmen.' Fill in correctly:",opts:["regnen","regnet","regnest","geregnet"],ans:"regnet",hint:"Subject es. Present tense of regnen for es. Verb at end of wenn-clause."},
-{type:"fb",s:"Ich bin glücklich, ___ ich mit Freunden bin.",a:"wenn",opts:["wenn","weil","dass","ob"],hint:"General/habitual: I am happy WHEN I am with friends. Repeated situation = wenn."},
+{type:"fb",s:"Ich bin glücklich, ___ ich mit Freunden bin.",a:"wenn",opts:["wenn","weil","dass","ob"],hint:"General/habitual: I am happy WHEN I am with friends. Repeated situations need which conjunction?"},
 ]},
 
 {id:"deu14l4",title:"Ob  - Whether Clauses",icon:"❓",xp:20,board:true,steps:[
@@ -3897,31 +3897,31 @@ export default [
 {type:"mc",q:"'Weißt du, ob sie ___ kommt?' Fill in:",opts:["morgen","morgend","morgens","morgenlich"],ans:"morgen",hint:"Think: tomorrow. It is a common time adverb."},
 {type:"teach",kind:"phrase",nl:"Ich bin nicht sicher, ob das richtig ist.",en:"I am not sure whether that is correct.",phonetic:"ikh bin nikht ZIKH-er, ohp dahs RIKH-tikh ist",example:"A: Ist das die richtige Straße?\nB: Ich bin nicht sicher, ob das richtig ist.\nA: Schauen wir auf die Karte.\nB: Gute Idee.",exampleEn:"A: Is this the right street?\nB: I am not sure whether that is correct.\nA: Let's look at the map.\nB: Good idea.",note:"nicht sicher sein, ob = to be unsure whether."},
 {type:"mc",q:"Which sentence uses ob correctly?",opts:["Ich weiß, ob er kommt nicht.","Ich weiß nicht ob er kommt.","Ich weiß nicht, ob er kommt.","Ich weiß nicht, ob kommt er."],ans:"Ich weiß nicht, ob er kommt.",hint:"Comma before ob. Subject er before verb the correct form. Verb at the END of the ob-clause."},
-{type:"fb",s:"Er fragt, ob wir heute ___ haben.",a:"Zeit",opts:["Zeit","Hunger","Durst","Spaß"],hint:"fragen, ob wir Zeit haben = ask whether we have time. Zeit haben = to have time."},
-{type:"mc",q:"'Sie fragt, ___ ich mitkommen kann.' Fill in:",opts:["dass","weil","ob","wenn"],ans:"ob",hint:"She is asking a yes/no question indirectly: can I come along? Indirect yes/no = ob."},
+{type:"fb",s:"Er fragt, ob wir heute ___ haben.",a:"Zeit",opts:["Zeit","Hunger","Durst","Spaß"],hint:"The question is about having time. Which noun completes the expression for having time?"},
+{type:"mc",q:"'Sie fragt, ___ ich mitkommen kann.' Fill in:",opts:["dass","weil","ob","wenn"],ans:"ob",hint:"She is asking a yes/no question indirectly: can I come along? Which conjunction introduces indirect yes/no questions?"},
 {type:"drag_fill",s:"Ich weiß nicht, {1} der Bus heute {2} oder {3}.",blanks:{"1":"ob","2":"kommt","3":"nicht"},pool:["ob","dass","weil","kommt","kommen","nicht","nein"],hint:"I don't know WHETHER the bus comes or not. ob + verb at end. nicht at the very end."},
 {type:"mc",q:"What is the difference between ob and wenn?",opts:["ob = repeated when, wenn = single past event","ob = whether (indirect question), wenn = if/when (condition or repeated event)","ob = formal, wenn = informal","They mean exactly the same thing"],ans:"ob = whether (indirect question), wenn = if/when (condition or repeated event)",hint:"ob is for yes/no this word this concepts. wenn is for the correct form. Ich frage, ob... vs. Wenn es regnet..."},
-{type:"fb",s:"Ich bin gespannt, ___ er die Prüfung besteht.",a:"ob",opts:["ob","weil","dass","wenn"],hint:"gespannt sein, ob = to be curious whether. This is an indirect yes/no question."},
+{type:"fb",s:"Ich bin gespannt, ___ er die Prüfung besteht.",a:"ob",opts:["ob","weil","dass","wenn"],hint:"Gespannt sein + conjunction = to be curious whether. This is an indirect yes/no question."},
 {type:"mc",q:"'Ich weiß nicht, ___ er krank ___.' Which pair fills both blanks?",opts:["ob / sein","dass / ist","ob / ist","weil / ist"],ans:"ob / ist",hint:"ob introduces the indirect question. ist is the verb (er, sein to ist) at the end."},
 {type:"match",pairs:[{nl:"ob",en:"whether (indirect question)"},{nl:"fragen",en:"to ask"},{nl:"sicher",en:"sure / certain"},{nl:"stimmen",en:"to be correct / to be true"}]},
 {type:"tip",title:"Three Ways to Use If",text:"German has two words for if:\n\nwenn = if (condition, repeated event)\nSie kommt, wenn sie Zeit hat.\n\nob = whether (indirect yes/no question)\nIch weiß nicht, ob sie Zeit hat.\n\nThe test: can you replace if with whether in English? If yes, use ob. If not, use wenn.",deepDive:"English uses if for both meanings, which causes confusion for learners. In German, the distinction is mandatory. Ich weiß nicht, wenn... is a grammar error. You must use ob for indirect questions."},
-{type:"mc",q:"'Ich frage, ___ du morgen kommst.' ob or wenn?",opts:["wenn","ob","weil","dass"],ans:"ob",hint:"This is an indirect question: I am asking WHETHER you are coming. Use ob, not wenn."},
+{type:"mc",q:"'Ich frage, ___ du morgen kommst.' ob or wenn?",opts:["wenn","ob","weil","dass"],ans:"ob",hint:"This is an indirect question: I am asking WHETHER you are coming. Not the habitual conjunction."},
 {type:"mc",q:"Complete: 'Er möchte wissen, ___ du heute Zeit ___.'",opts:["ob / hast","wenn / hast","dass / hast","ob / haben"],ans:"ob / hast",hint:"Indirect yes/no question = ob. Subject du, verb haben, present tense for du = hast. Verb-final."},
 ]},
 
 {id:"deu14l5",title:"Verb am Ende",icon:"🔚",xp:20,board:true,steps:[
 {type:"intro",title:"Das Verb kommt ans Ende!",desc:"You now know four conjunctions that trigger verb-final order: weil, dass, wenn, ob. This lesson is intensive practice. Every exercise trains your feel for where the verb goes.",goals:["Consolidate verb-final rule","Use all four conjunctions correctly","Build complex sentences fluently"]},
 {type:"tip",title:"The Four Verb-Final Triggers",text:"These four conjunctions all send the verb to the END:\n\nweil  - because (reason)\ndass  - that (thought/report)\nwenn  - if/when (condition/habit)\nob  - whether (indirect question)\n\nAll follow the same rule:\nSubject + ... + VERB (at the end of the clause)",deepDive:"Other subordinating conjunctions you will meet later (obwohl, als, bevor, nachdem, seitdem, damit, sodass...) all follow the same verb-final rule. Learning it with four conjunctions builds the habit. The rule is exceptionless for all Nebensätze."},
-{type:"mc",q:"'Ich bleibe zu Hause, ___ ich krank bin.' Which conjunction gives a reason?",opts:["wenn","ob","weil","dass"],ans:"weil",hint:"Giving a reason = weil. weil = because."},
-{type:"mc",q:"'Sie sagt, ___ er heute nicht kommt.' Which introduces reported speech?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"Reporting what she says = dass. Ich sage/glaube/weiß + dass."},
-{type:"mc",q:"'Ich weiß nicht, ___ er kommt.' Which introduces an indirect yes/no question?",opts:["weil","dass","wenn","ob"],ans:"ob",hint:"Indirect yes/no question = ob. Does he come or not?"},
-{type:"mc",q:"'___ ich Hunger habe, esse ich.' Which conjunction suits habitual action?",opts:["Ob","Dass","Weil","Wenn"],ans:"Wenn",hint:"Habitual event: when I am hungry, I eat. wenn = when/if (repeated)."},
-{type:"fb",s:"Ich glaube, dass er morgen ___ kommt.",a:"nicht",opts:["nicht","kein","nein","nie"],hint:"nicht negates a verb in a Nebensatz. It comes directly before the final verb: nicht kommt."},
+{type:"mc",q:"'Ich bleibe zu Hause, ___ ich krank bin.' Which conjunction gives a reason?",opts:["wenn","ob","weil","dass"],ans:"weil",hint:"Giving a reason. Which conjunction means because in German?"},
+{type:"mc",q:"'Sie sagt, ___ er heute nicht kommt.' Which introduces reported speech?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"Reporting what she says. Which conjunction introduces reported facts or beliefs?"},
+{type:"mc",q:"'Ich weiß nicht, ___ er kommt.' Which introduces an indirect yes/no question?",opts:["weil","dass","wenn","ob"],ans:"ob",hint:"This is an indirect yes/no question. Does he come or not? Which conjunction fits?"},
+{type:"mc",q:"'___ ich Hunger habe, esse ich.' Which conjunction suits habitual action?",opts:["Ob","Dass","Weil","Wenn"],ans:"Wenn",hint:"Habitual event: when I am hungry, I eat. Which conjunction fits repeated conditions?"},
+{type:"fb",s:"Ich glaube, dass er morgen ___ kommt.",a:"nicht",opts:["nicht","kein","nein","nie"],hint:"The negation word comes directly before the final verb in a subordinate clause."},
 {type:"mc",q:"Which sentence has the verb in the WRONG position?",opts:["Ich bleibe, weil es regnet.","Er sagt, dass sie kommt.","Ich weiß nicht, ob er morgen kommt.","Ich glaube, dass kommt er morgen."],ans:"Ich glaube, dass kommt er morgen.",hint:"In a dass-clause, the subject must come before the verb. Correct: dass er this word the correct form."},
 {type:"drag_fill",s:"Wir bleiben drinnen, {1} das Wetter so schlecht {2}, und weil wir keine {3} mehr haben.",blanks:{"1":"weil","2":"ist","3":"Zeit"},pool:["weil","wenn","ist","sein","Zeit","Hunger","Geld"],hint:"Two weil-clauses. First: because weather is so bad (ist at end). Second: because no more time."},
 {type:"mc",q:"'Sie fragt, ob ich ___ möchte.' Fill in correctly:",opts:["mitgehen","mitgehst","mitgehe","gehe mit"],ans:"mitgehen",hint:"ob-clause: möchte governs infinitive the correct form. Infinitive goes to end with the modal."},
 {type:"fb",s:"Er weiß nicht, ob er heute Abend ___ kann.",a:"kommen",opts:["kommen","kommt","kam","gekommen"],hint:"Modal kann governs infinitive this concept. In a Nebensatz with a modal: infinitive + modal at the very end. Fill in the correct form."},
-{type:"mc",q:"'Wenn du Zeit ___, komm vorbei!' Fill in:",opts:["hast","haben","hat","habe"],ans:"hast",hint:"Subject du. Verb haben, present tense for du = hast. Verb-final in wenn-clause."},
+{type:"mc",q:"'Wenn du Zeit ___, komm vorbei!' Fill in:",opts:["hast","haben","hat","habe"],ans:"hast",hint:"Subject du. Verb haben, present tense. Think about the du-form. Verb-final in subordinate clause."},
 {type:"mc",q:"'Ich frage mich, ob er ___ weiß.' Fill in with a noun:",opts:["die Antwort","das Antwort","den Antwort","dem Antwort"],ans:"die Antwort",hint:"die this word (feminine). die is the article for feminine nouns. weiß governs accusative here."},
 {type:"drag_fill",s:"Ich glaube, {1} er müde {2}, weil er gestern sehr lang {3} hat.",blanks:{"1":"dass","2":"ist","3":"gearbeitet"},pool:["dass","ob","ist","sein","gearbeitet","gearbeiten","arbeitet"],hint:"I believe (dass) he is tired (ist at end), because he worked long yesterday (gearbeitet at end of weil-clause)."},
 {type:"mc",q:"In a Nebensatz with a modal verb (können, müssen, wollen), the order at the end is:",opts:["modal + infinitive","infinitive + modal","modal alone","infinitive alone"],ans:"infinitive + modal",hint:"In a Nebensatz: ...the correct form + this word (at the very end). Example: weil er kommen kann. The this word is the LAST element."},
@@ -3940,21 +3940,21 @@ export default [
 {type:"teach",kind:"word",nl:"trotzdem",en:"nevertheless / still (adverb)",phonetic:"TROTS-dem",example:"A: Es ist kalt draußen.\nB: Ich gehe trotzdem raus.\nA: Du bist verrückt!\nB: Bewegung ist wichtig.",exampleEn:"A: It is cold outside.\nB: I am going out nevertheless.\nA: You are crazy!\nB: Exercise is important.",note:"trotzdem is an adverb, not a conjunction.\ntrotzdem: V2 word order. obwohl: verb-final.\nSame meaning, different grammar."},
 {type:"teach",kind:"word",nl:"als",en:"when (single past event)",phonetic:"ahls",example:"A: Wann hast du Ski fahren gelernt?\nB: Als ich zehn Jahre alt war.\nA: So jung!\nB: Mein Vater hat mir alles beigebracht.",exampleEn:"A: When did you learn to ski?\nB: When I was ten years old.\nA: So young!\nB: My father taught me everything.",note:"als = when (single completed past event).\nNEVER use als for repeated/habitual events."},
 {type:"teach",kind:"phrase",nl:"Als ich jung war, wohnte ich in Berlin.",en:"When I was young, I lived in Berlin.",phonetic:"ahls ikh yoong vahr, VOHN-teh ikh in Ber-LIN",example:"A: Wo bist du aufgewachsen?\nB: Als ich jung war, wohnte ich in Berlin.\nA: Und danach?\nB: Wir sind nach München gezogen.",exampleEn:"A: Where did you grow up?\nB: When I was young, I lived in Berlin.\nA: And afterwards?\nB: We moved to Munich.",note:"als + past. Single period in the past.\nMain clause uses Imperfekt or Perfekt."},
-{type:"mc",q:"'Obwohl er müde ___, arbeitet er weiter.' Fill in:",opts:["ist","sein","war","hat"],ans:"ist",hint:"Present tense. Subject er. Verb sein for er = ist. Verb-final in obwohl-clause."},
+{type:"mc",q:"'Obwohl er müde ___, arbeitet er weiter.' Fill in:",opts:["ist","sein","war","hat"],ans:"ist",hint:"Present tense. Subject er. Third person singular of sein. Verb-final in subordinate clause."},
 {type:"fb",s:"___ ich krank war, bin ich in die Schule gegangen.",a:"Obwohl",opts:["Obwohl","Als","Weil","Wenn"],hint:"Going to school DESPITE being sick = contrast. this word = although/even though."},
-{type:"mc",q:"Which conjunction describes a SINGLE past event?",opts:["wenn","ob","weil","als"],ans:"als",hint:"als = when (one specific time in the past). wenn = when (repeated/habitual). This distinction is critical in German."},
-{type:"mc",q:"'___ ich ein Kind war, spielte ich viel draußen.' Fill in:",opts:["Wenn","Als","Ob","Obwohl"],ans:"Als",hint:"Being a child = one period in life (single past). Use als. wenn would imply a repeated condition."},
+{type:"mc",q:"Which conjunction describes a SINGLE past event?",opts:["wenn","ob","weil","als"],ans:"als",hint:"One conjunction is for a single past event, the other for repeated/habitual situations. This distinction is critical in German."},
+{type:"mc",q:"'___ ich ein Kind war, spielte ich viel draußen.' Fill in:",opts:["Wenn","Als","Ob","Obwohl"],ans:"Als",hint:"Being a child = one period in life (single past). Not the repeated/habitual conjunction."},
 {type:"fb",s:"Obwohl es spät ist, ___ er noch immer.",a:"arbeitet",opts:["arbeitet","arbeite","arbeitest","arbeiten"],hint:"Subject er. Present tense of arbeiten for er. Main clause with V2 after the obwohl-clause."},
 {type:"mc",q:"What is the difference between trotzdem and obwohl?",opts:["trotzdem is more formal","trotzdem is an adverb (V2), obwohl is a conjunction (verb-final)","trotzdem goes at the end, obwohl at the start","They are interchangeable"],ans:"trotzdem is an adverb (V2), obwohl is a conjunction (verb-final)",hint:"Consider the grammar rule and pick the form that fits the sentence structure."},
 {type:"drag_fill",s:"Als ich jung {1}, hatte ich immer Angst vor Hunden, obwohl ich heute {2} {3}.",blanks:{"1":"war","2":"einen","3":"habe"},pool:["war","wäre","einen","ein","habe","bin","hatte"],hint:"When I was young (past single event), I had fear of dogs, although I have one today (contrast)."},
 {type:"mc",q:"'Obwohl er kein Geld hat, ___ er viel ein.' Correct main clause verb:",opts:["kauft","kaufen","kaufe","kaufst"],ans:"kauft",hint:"obwohl-clause is first. Main clause inverts: this word (verb for er) + er (subject). Separable: the correct form...ein."},
-{type:"mc",q:"'___ wir jung waren, spielten wir jeden Tag Fußball.' Fill in:",opts:["Als","Wenn","Obwohl","Ob"],ans:"Als",hint:"Childhood as a single period in the past. als = when (single past). wenn would mean every individual time."},
+{type:"mc",q:"'___ wir jung waren, spielten wir jeden Tag Fußball.' Fill in:",opts:["Als","Wenn","Obwohl","Ob"],ans:"Als",hint:"Childhood as a single period in the past. Which conjunction is for one-time past events?"},
 {type:"fb",s:"Er ist müde, ___ er schläft nicht.",a:"obwohl",opts:["obwohl","weil","wenn","als"],hint:"Contrast: he is tired, BUT he does not sleep. Contrast = this word (although)."},
 {type:"match",pairs:[{nl:"obwohl",en:"although / even though"},{nl:"trotzdem",en:"nevertheless (adverb)"},{nl:"als",en:"when (single past event)"},{nl:"wenn",en:"if / when (repeated / general)"}]},
 {type:"mc",q:"Choose the correct sentence for 'although I am sick, I am working':",opts:["Ich arbeite, weil ich krank bin.","Obwohl ich krank bin, arbeite ich.","Wenn ich krank bin, arbeite ich.","Ich arbeite, obwohl krank bin ich."],ans:"Obwohl ich krank bin, arbeite ich.",hint:"Contrast. Verb bin at end of the correct form-clause. Main clause inverts: this word ich."},
-{type:"mc",q:"'Als ich das gehört ___, war ich überrascht.'",opts:["habe","haben","hat","bin"],ans:"habe",hint:"Perfekt of hören = habe gehört. Subject ich. habe goes to the end of the als-clause."},
+{type:"mc",q:"'Als ich das gehört ___, war ich überrascht.'",opts:["habe","haben","hat","bin"],ans:"habe",hint:"Perfekt of hören uses a helper verb. Subject ich, first person singular. The helper goes to the end of the subordinate clause."},
 {type:"mc",q:"'___ er müde ist, arbeitet er weiter.' Which conjunction fits best?",opts:["Weil","Obwohl","Als","Wenn"],ans:"Obwohl",hint:"He works DESPITE being tired. Contrast."},
-{type:"fb",s:"Obwohl es kalt ___, gehen wir spazieren.",a:"ist",opts:["ist","war","sein","sind"],hint:"Present tense. Subject es. Verb sein for es = ist. Verb-final in obwohl-clause."},
+{type:"fb",s:"Obwohl es kalt ___, gehen wir spazieren.",a:"ist",opts:["ist","war","sein","sind"],hint:"Present tense. Subject es. Third person singular of sein. Verb-final in subordinate clause."},
 ]},
 
 {id:"deu14l7",title:"Hauptsatz + Nebensatz",icon:"🔀",xp:20,board:true,steps:[
@@ -3962,45 +3962,45 @@ export default [
 {type:"tip",title:"Two Orders, One Rule",text:"Order A: Main clause + subordinate clause\nIch bleibe zu Hause, weil ich krank bin.\n\nOrder B: Subordinate clause + main clause\nWeil ich krank bin, bleibe ich zu Hause.\n\nIn Order B, the VERB of the main clause comes IMMEDIATELY after the comma. The subject follows.",deepDive:"The rule is the same as for any fronted adverb: Heute gehe ich spazieren. When an entire subordinate clause occupies Position 1, the verb still sits at Position 2 of the overall sentence. Since the subordinate clause fills Position 1, Position 2 belongs to the main verb, and the subject moves to Position 3."},
 {type:"mc",q:"'Weil ich müde bin, ___ ich früh ins Bett.' Fill in the main clause correctly:",opts:["ich gehe","gehe ich","ich gehen","gehen"],ans:"gehe ich",hint:"subordinate clause is first. Main clause inverts: verb gehe before subject ich."},
 {type:"mc",q:"'Wenn es regnet, ___ wir drinnen.' Fill in:",opts:["wir bleiben","bleiben wir","wir bleiben sind","bleiben"],ans:"bleiben wir",hint:"subordinate-first order. Main clause: verb first (the correct form), then subject (wir)."},
-{type:"fb",s:"Dass er krank ist, ___ mir leid.",a:"tut",opts:["tut","tue","tun","macht"],hint:"Es tut mir leid = I am sorry. dass-clause first: tut follows. tut = present tense of tun for er/es."},
-{type:"mc",q:"'Obwohl er arbeitet, ___ er wenig Geld.' Fill in:",opts:["er hat","hat er","hat","er habe"],ans:"hat er",hint:"obwohl-clause first. Main clause inverts: hat er. V2 in main clause."},
+{type:"fb",s:"Dass er krank ist, ___ mir leid.",a:"tut",opts:["tut","tue","tun","macht"],hint:"Es ___ mir leid = I am sorry. The dass-clause comes first, then the main clause verb follows."},
+{type:"mc",q:"'Obwohl er arbeitet, ___ er wenig Geld.' Fill in:",opts:["er hat","hat er","hat","er habe"],ans:"hat er",hint:"Obwohl-clause comes first. Main clause inverts: verb before subject. V2 rule applies."},
 {type:"drag_fill",s:"Weil wir keine Zeit haben, {1} wir heute nicht {2}.",blanks:{"1":"können","2":"kommen"},pool:["können","können wir","kommen","kamen","gehen","bleiben"],hint:"Because we have no time, we cannot come today. können + infinitive kommen in main clause. Inversion after weil-clause."},
 {type:"mc",q:"'Als ich jung war, ___ ich sehr viel.' Fill in naturally:",opts:["ich gespielt habe","habe gespielt ich","habe ich gespielt","ich habe gespielt"],ans:"habe ich gespielt",hint:"als-clause first: main clause inverts. habe = auxiliary, ich = subject, this word = Partizip II at end."},
 {type:"teach",kind:"phrase",nl:"Wenn du kommst, freue ich mich.",en:"When you come, I am pleased.",phonetic:"ven doo kommst, FROY-eh ikh mikh",example:"A: Soll ich vorbeikommen?\nB: Ja! Wenn du kommst, freue ich mich.\nA: Dann bin ich um fünf da.\nB: Super, ich mache was zu essen.",exampleEn:"A: Should I come over?\nB: Yes! When you come, I am pleased.\nA: Then I will be there at five.\nB: Great, I will make something to eat.",note:"sich freuen = to be pleased/happy. Verb-inversion in main clause."},
 {type:"mc",q:"'Ob er kommt oder nicht, ___ mir egal.' Fill in the main clause:",opts:["ist es mir","es ist","ist","ist es"],ans:"ist es mir",hint:"ob-clause first. Main clause: ist (verb) + es mir (it is all the same to me). Es ist mir egal."},
-{type:"fb",s:"Weil er so freundlich ist, ___ ich ihn sehr.",a:"mag",opts:["mag","möge","möchte","magst"],hint:"mögen = to like. ich mag = I like. Main clause after weil-clause: V2 word order. mag is the finite verb."},
+{type:"fb",s:"Weil er so freundlich ist, ___ ich ihn sehr.",a:"mag",opts:["mag","möge","möchte","magst"],hint:"Mögen = to like. Think about the ich-form. Main clause after subordinate clause: V2 word order."},
 {type:"mc",q:"Which sentence has CORRECT word order throughout?",opts:["Wenn ich Zeit habe, ich lese.","Weil er krank ist gehe ich nicht.","Obwohl es regnet, gehe ich spazieren.","Als ich jung war ich wohnte in Hamburg."],ans:"Obwohl es regnet, gehe ich spazieren.",hint:"Comma after the correct form-clause. Main clause inverts: gehe ich. All other options have errors."},
 {type:"drag_fill",s:"Dass sie so krank {1}, {2} ich sehr.",blanks:{"1":"ist","2":"bedauere"},pool:["ist","sind","bedauere","bedauert","glaube","sage"],hint:"That she is so sick (ist at end of dass-clause), I regret very much. bedauern = to regret. Inversion: bedauere ich."},
 {type:"mc",q:"'Wenn du das sagst, ___ ich es.' Fill in:",opts:["ich glaube","glaube ich","glaube","glaubst du"],ans:"glaube ich",hint:"subordinate-first: main clause inverts. this word (verb) + ich (subject)."},
 {type:"mc",q:"'Als wir Kinder ___, spielten wir immer draußen.' Fill in:",opts:["waren","sind","wären","haben"],ans:"waren",hint:"Als-clause with past. Subject wir. Verb sein, Imperfekt for wir. Verb-final in als-clause."},
-{type:"fb",s:"Obwohl er kein Geld hat, ___ er glücklich.",a:"ist",opts:["ist","bin","bist","sind"],hint:"Subject er in main clause. Verb sein for er = ist. Main clause after obwohl-clause: V2 order."},
+{type:"fb",s:"Obwohl er kein Geld hat, ___ er glücklich.",a:"ist",opts:["ist","bin","bist","sind"],hint:"Subject er in main clause. Verb sein, third person singular. Main clause after subordinate clause: V2 order."},
 {type:"match",pairs:[{nl:"Weil ich krank bin, ...",en:"Because I am sick, ..."},{nl:"Wenn es regnet, ...",en:"When it rains, ..."},{nl:"Obwohl er müde ist, ...",en:"Although he is tired, ..."},{nl:"Als ich jung war, ...",en:"When I was young, ..."}]},
 {type:"mc",q:"'Weil das Wetter schön ist, ___ wir heute im Park.' Best main clause:",opts:["wir essen","essen wir","essen","wir essend"],ans:"essen wir",hint:"weil-clause first. Main clause inverts: this word (verb) + wir (subject). We are eating in the park."},
-{type:"mc",q:"'Ob das stimmt, ___ ich nicht.' Fill in the main clause:",opts:["ich weiß","weiß ich","weiß","wissen"],ans:"weiß ich",hint:"ob-clause first. Main clause inverts: weiß (verb) + ich (subject). weiß ich nicht = I don't know."},
+{type:"mc",q:"'Ob das stimmt, ___ ich nicht.' Fill in the main clause:",opts:["ich weiß","weiß ich","weiß","wissen"],ans:"weiß ich",hint:"Ob-clause comes first. Main clause inverts: verb + subject. Think: I don't know = Ich ___ ___ nicht."},
 {type:"mc",q:"Choose the sentence where the main clause CORRECTLY inverts after a dass-clause:",opts:["Dass er kommt, ich glaube es.","Dass er kommt, glaube ich.","Dass er kommt glaubt ich.","Dass er kommt, ich es glaube."],ans:"Dass er kommt, glaube ich.",hint:"dass-clause first: main clause verb (the correct form) immediately after the comma, then subject (ich)."},
 ]},
 
 {id:"deu14l8",title:"Nebensätze  - Alles zusammen",icon:"🏆",xp:25,board:true,steps:[
 {type:"intro",title:"Alles zusammen!",desc:"Final review of all six subordinating conjunctions: weil, dass, wenn, ob, obwohl, and als. You will identify, build, correct, and produce complex sentences.",goals:["Consolidate all six conjunctions","Distinguish meaning and usage","Build multi-clause sentences with confidence"]},
-{type:"mc",q:"Which conjunction introduces a REASON?",opts:["ob","wenn","weil","dass"],ans:"weil",hint:"weil = because (reason/cause). Ich bleibe zu Hause, weil ich krank bin."},
-{type:"mc",q:"Which conjunction introduces a REPORTED THOUGHT or FACT?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"dass follows verbs of thinking, knowing, saying. Ich glaube, dass er kommt."},
-{type:"mc",q:"Which conjunction introduces an INDIRECT YES/NO QUESTION?",opts:["weil","wenn","dass","ob"],ans:"ob",hint:"ob = whether. Ich weiß nicht, ob er kommt."},
+{type:"mc",q:"Which conjunction introduces a REASON?",opts:["ob","wenn","weil","dass"],ans:"weil",hint:"Which conjunction expresses a reason or cause? Think: because."},
+{type:"mc",q:"Which conjunction introduces a REPORTED THOUGHT or FACT?",opts:["ob","weil","wenn","dass"],ans:"dass",hint:"Which conjunction follows verbs of thinking, knowing, and saying?"},
+{type:"mc",q:"Which conjunction introduces an INDIRECT YES/NO QUESTION?",opts:["weil","wenn","dass","ob"],ans:"ob",hint:"Which conjunction means whether and introduces indirect yes/no questions?"},
 {type:"mc",q:"Which conjunction introduces CONTRAST (although)?",opts:["weil","wenn","ob","obwohl"],ans:"obwohl",hint:"Think: although / even though. Contrast: doing something despite an obstacle."},
-{type:"mc",q:"Which conjunction is used for a SINGLE PAST EVENT (when)?",opts:["wenn","ob","als","obwohl"],ans:"als",hint:"als = when (single past). wenn = when (repeated/habitual). Als ich jung war..."},
-{type:"fb",s:"Ich bleibe zu Hause, ___ ich krank bin.",a:"weil",opts:["weil","dass","ob","obwohl"],hint:"Giving the reason for staying home. Reason = weil (because)."},
-{type:"fb",s:"Ich weiß, ___ du recht hast.",a:"dass",opts:["dass","ob","weil","wenn"],hint:"I know THAT you are right. Reporting a fact = dass."},
-{type:"fb",s:"Ich frage mich, ___ er heute kommt.",a:"ob",opts:["ob","dass","weil","wenn"],hint:"I wonder WHETHER he is coming today. Indirect yes/no = ob."},
-{type:"fb",s:"___ ich jung war, lebte ich in Köln.",a:"Als",opts:["Als","Wenn","Weil","Obwohl"],hint:"Single past period (youth). als = when (single past event)."},
+{type:"mc",q:"Which conjunction is used for a SINGLE PAST EVENT (when)?",opts:["wenn","ob","als","obwohl"],ans:"als",hint:"Which conjunction is for a single past event? Not the repeated/habitual one."},
+{type:"fb",s:"Ich bleibe zu Hause, ___ ich krank bin.",a:"weil",opts:["weil","dass","ob","obwohl"],hint:"Giving the reason for staying home. Which conjunction means because?"},
+{type:"fb",s:"Ich weiß, ___ du recht hast.",a:"dass",opts:["dass","ob","weil","wenn"],hint:"I know THAT you are right. Which conjunction introduces reported facts?"},
+{type:"fb",s:"Ich frage mich, ___ er heute kommt.",a:"ob",opts:["ob","dass","weil","wenn"],hint:"I wonder WHETHER he is coming today. Which conjunction introduces this?"},
+{type:"fb",s:"___ ich jung war, lebte ich in Köln.",a:"Als",opts:["Als","Wenn","Weil","Obwohl"],hint:"Single past period (youth). Which conjunction is for one-time past events?"},
 {type:"fb",s:"Er arbeitet weiter, ___ er müde ist.",a:"obwohl",opts:["obwohl","weil","wenn","dass"],hint:"Contrast: he works despite being tired. Contrast = this word (although)."},
 {type:"mc",q:"'Weil es regnet, ___ ich zu Hause.' Correct main clause:",opts:["ich bleibe","bleibe ich","bleibe","ich bleiben"],ans:"bleibe ich",hint:"subordinate-first: inversion in main clause. this word (verb) + ich (subject)."},
 {type:"drag_fill",s:"Ich glaube, {1} er morgen nicht {2}, weil er krank {3}.",blanks:{"1":"dass","2":"kommt","3":"ist"},pool:["dass","ob","kommt","kommen","ist","sein"],hint:"I believe (dass) he will not come tomorrow (kommt at end), because he is sick (ist at end)."},
 {type:"mc",q:"Which sentence is WRONG?",opts:["Obwohl er arm ist, ist er glücklich.","Ich weiß nicht, ob sie kommt.","Weil ich müde bin, schlafe ich.","Ich glaube, dass kommt er morgen."],ans:"Ich glaube, dass kommt er morgen.",hint:"In a dass-clause, the subject must come before the verb. Correct: dass er this word the correct form."},
 {type:"mc",q:"'Als ich das gehört habe, ___ ich sehr überrascht.' Fill in:",opts:["war ich","ich war","ist es","ich bin"],ans:"war ich",hint:"als-clause first. Main clause inverts. war (verb) + ich (subject). Past: war = was."},
 {type:"drag_fill",s:"{1} ich Zeit habe, {2} ich Musik und schlafe ich lange.",blanks:{"1":"Wenn","2":"höre"},pool:["Wenn","Weil","höre","hören","lese","lerne"],hint:"When I have time (habit): I listen to music AND sleep long. Two main clauses after the wenn-clause."},
-{type:"mc",q:"'Obwohl sie krank ___, ist sie zur Arbeit gegangen.' Fill in:",opts:["war","ist","sein","wäre"],ans:"war",hint:"Past tense in the obwohl-clause. Subject sie. Verb sein, Imperfekt for sie = war."},
-{type:"mc",q:"Identify the conjunction in: 'Er sagt, dass er keine Zeit hat.'",opts:["Er","sagt","dass","hat"],ans:"dass",hint:"dass is the subordinating conjunction introducing the reported clause."},
+{type:"mc",q:"'Obwohl sie krank ___, ist sie zur Arbeit gegangen.' Fill in:",opts:["war","ist","sein","wäre"],ans:"war",hint:"Past tense in the obwohl-clause. Subject sie. Think about the Imperfekt of sein for third person."},
+{type:"mc",q:"Identify the conjunction in: 'Er sagt, dass er keine Zeit hat.'",opts:["Er","sagt","dass","hat"],ans:"dass",hint:"Which subordinating conjunction introduces the reported clause here?"},
 {type:"match",pairs:[{nl:"weil  - Ich bleibe, weil ich müde bin.",en:"because  - I stay because I am tired."},{nl:"obwohl  - Er geht, obwohl es regnet.",en:"although  - He goes although it rains."},{nl:"als  - Als ich jung war, wohnte ich hier.",en:"when (past)  - When I was young, I lived here."},{nl:"ob  - Ich weiß nicht, ob sie kommt.",en:"whether  - I don't know whether she is coming."}]},
-{type:"mc",q:"Complete: 'Ich lerne Deutsch, ___ ich nach Berlin ziehen möchte.'",opts:["ob","als","weil","obwohl"],ans:"weil",hint:"Giving the motivation/reason for learning German. Reason = weil."},
+{type:"mc",q:"Complete: 'Ich lerne Deutsch, ___ ich nach Berlin ziehen möchte.'",opts:["ob","als","weil","obwohl"],ans:"weil",hint:"Giving the motivation/reason for learning German. Which conjunction means because?"},
 {type:"tip",title:"Your Nebensatz Toolkit",text:"You now have six subordinating conjunctions:\n\nweil  - because (reason)\ndass  - that (thought/fact/report)\nwenn  - if / when (repeated or condition)\nob  - whether (indirect yes/no question)\nobwohl  - although (contrast)\nals  - when (single past event)\n\nAll six: verb to the end. Comma before each one. When the Nebensatz comes first: invert the main clause.",deepDive:"B1 will add more: bevor (before), nachdem (after), seitdem (since), damit (so that), sodass (so that as result), während (while). They all follow the same verb-final rule you have already mastered."},
 ]},
 
@@ -4071,7 +4071,7 @@ export default [
 
   {type:"mc",q:"Ich ___ mich jeden Morgen. (shower)",opts:["dusche","duscht","duschen","duschst"],ans:"dusche",hint:"First person singular of the correct form."},
 
-  {type:"mc",q:"'Er zieht sich ___.' (He gets dressed.) Fill the separable prefix:",opts:["an","ab","auf","aus"],ans:"an",hint:"anziehen = to get dressed. The prefix is..."},
+  {type:"mc",q:"'Er zieht sich ___.' (He gets dressed.) Fill the separable prefix:",opts:["an","ab","auf","aus"],ans:"an",hint:"The separable verb for getting dressed. Which prefix detaches to the end?"},
 
   {type:"fb",s:"Ich ___ mich schnell an.",a:"ziehe",opts:["ziehe","zieht","anziehe","anziehen"],hint:"Separable verb: main verb conjugated at position 2, prefix at end."},
 
@@ -4106,9 +4106,9 @@ export default [
 
   {type:"teach",kind:"phrase",nl:"sich wohlfühlen",en:"to feel comfortable / at home",phonetic:"zikh VOHL-füh-len",example:"A: Fühlst du dich hier wohl?\nB: Ja! Ich fühle mich sehr wohl hier.\nA: Das freut mich. Wir fühlen uns alle wohl.\nB: Ihr seid sehr nett!",exampleEn:"A: Do you feel comfortable here?\nB: Yes! I feel very comfortable here.\nA: I am glad. We all feel at home.\nB: You are all very nice!",note:"sich wohlfühlen = to feel well/comfortable (emotionally).\nWohl = well (state)."},
 
-  {type:"mc",q:"'Ich freue mich ___ das Konzert.' (looking forward to the concert next week)",opts:["über","von","aus","auf"],ans:"auf",hint:"Future anticipation: sich freuen auf."},
+  {type:"mc",q:"'Ich freue mich ___ das Konzert.' (looking forward to the concert next week)",opts:["über","von","aus","auf"],ans:"auf",hint:"Future anticipation: sich freuen + which preposition?"},
 
-  {type:"mc",q:"'Er freut sich ___ das Geschenk.' (He is happy about the present he just received.)",opts:["auf","an","über","für"],ans:"über",hint:"Happiness about something received: sich freuen über."},
+  {type:"mc",q:"'Er freut sich ___ das Geschenk.' (He is happy about the present he just received.)",opts:["auf","an","über","für"],ans:"über",hint:"Happiness about something already received. Which preposition follows sich freuen?"},
 
   {type:"fb",s:"Ich ___ mich über den Regen.",a:"ärgere",opts:["ärgere","freue","langweile","fühle"],hint:"Which reflexive verb means 'to be annoyed'?"},
 
@@ -4116,7 +4116,7 @@ export default [
 
   {type:"match",pairs:[{nl:"sich freuen auf",en:"to look forward to (future)"},{nl:"sich freuen über",en:"to be happy about (past)"},{nl:"sich ärgern über",en:"to be annoyed about"},{nl:"sich langweilen",en:"to be bored"}]},
 
-  {type:"mc",q:"Ich habe die Prüfung bestanden. Ich freue mich ___ das Ergebnis.",opts:["auf","durch","über","mit"],ans:"über",hint:"The exam result already happened. Happy ABOUT = über."},
+  {type:"mc",q:"Ich habe die Prüfung bestanden. Ich freue mich ___ das Ergebnis.",opts:["auf","durch","über","mit"],ans:"über",hint:"The exam result already happened. Which preposition expresses happiness about a past event?"},
 
   {type:"fb",s:"Morgen ist das Konzert. Ich ___ mich so darauf!",a:"freue",opts:["freue","ärgere","langweile","fühle"],hint:"You are looking forward to a future event. Which verb?"},
 
@@ -4303,11 +4303,11 @@ export default [
 
   {type:"mc",q:"'Wir treffen ___.' (We meet each other.)",opts:["mich","dich","sich","uns"],ans:"uns",hint:"Subject is wir. Reflexive for wir."},
 
-  {type:"fb",s:"Ich ziehe mich ___, bevor ich frühstücke.",a:"an",opts:["an","aus","um","auf"],hint:"Separable verb anziehen: prefix goes to the end."},
+  {type:"fb",s:"Ich ziehe mich ___, bevor ich frühstücke.",a:"an",opts:["an","aus","um","auf"],hint:"The separable verb for getting dressed. The prefix goes to the end."},
 
-  {type:"mc",q:"'Ich freue mich ___ das Konzert nächste Woche.' (looking forward to)",opts:["über","von","auf","für"],ans:"auf",hint:"Future anticipation: sich freuen auf."},
+  {type:"mc",q:"'Ich freue mich ___ das Konzert nächste Woche.' (looking forward to)",opts:["über","von","auf","für"],ans:"auf",hint:"Future anticipation: sich freuen + which preposition?"},
 
-  {type:"mc",q:"'Er ärgert sich ___ den Stau.' (He is annoyed about the traffic.)",opts:["auf","mit","über","an"],ans:"über",hint:"sich ärgern über = to be annoyed about."},
+  {type:"mc",q:"'Er ärgert sich ___ den Stau.' (He is annoyed about the traffic.)",opts:["auf","mit","über","an"],ans:"über",hint:"To be annoyed about something. Which preposition follows sich ärgern?"},
 
   {type:"match",pairs:[{nl:"sich duschen",en:"to shower"},{nl:"sich schminken",en:"to put on makeup"},{nl:"sich rasieren",en:"to shave"},{nl:"sich ausziehen",en:"to undress"}]},
 
@@ -4315,7 +4315,7 @@ export default [
 
   {type:"fb",s:"Ich habe ___. Mein Hals tut weh.",a:"Halsschmerzen",opts:["Halsschmerzen","Kopfschmerzen","Fieber","Erkältung"],hint:"Hals = throat. Which compound pain noun?"},
 
-  {type:"mc",q:"'Mir tut der Rücken weh.' Which body part hurts?",opts:["Head","Leg","Back","Stomach"],ans:"Back",hint:"der Rücken = the back."},
+  {type:"mc",q:"'Mir tut der Rücken weh.' Which body part hurts?",opts:["Head","Leg","Back","Stomach"],ans:"Back",hint:"Think about what Rücken means in English."},
 
   {type:"mc",q:"'Ich wasche mir die Hände.' Why is it 'mir' and not 'mich'?",opts:["Random exception","Die Hände is the direct object, so the reflexive is dative","Mir is always used with waschen","Ich changes to mir in formal sentences"],ans:"Die Hände is the direct object, so the reflexive is dative",hint:"Consider the grammar rule and pick the form that fits the sentence structure."},
 
@@ -4348,7 +4348,7 @@ export default [
 {type:"teach",kind:"word",nl:"ihr werdet",en:"you all will",phonetic:"eer VEHR-det",example:"A: Wann kommt ihr?\nB: Wir werden um acht da sein.",exampleEn:"A: When are you coming?\nB: We will be there at eight.",note:"Informal plural second person."},
 {type:"tip",title:"Future Tense Word Order",text:"werden is conjugated and sits in position 2.\nThe infinitive goes to the END of the sentence.\n\nIch werde morgen nach Berlin fahren.\n(I will tomorrow to Berlin drive.)\n\nThe infinitive is always last, no matter how long the sentence.",deepDive:"This bracket structure (conjugated verb in position 2, infinitive at the end) is called the Satzklammer. It applies to all compound verb forms in German, not just the future tense."},
 {type:"mc",q:"Which form completes: '__ wirst morgen arbeiten.'?",opts:["Du","Er","Wir","Ich"],ans:"Du",hint:"Look at the verb ending: wirst matches which pronoun?"},
-{type:"fb",s:"Ich {1} morgen nach Hamburg fahren.",a:["werde"],opts:["werde","wirst","wird","werden"],hint:"First person singular of werden starts with wer..."},
+{type:"fb",s:"Ich {1} morgen nach Hamburg fahren.",a:["werde"],opts:["werde","wirst","wird","werden"],hint:"First person singular of the future helper verb. Starts with wer..."},
 {type:"mc",q:"'Sie wird ein Buch lesen.' means:",opts:["She will read a book.","She reads a book.","She read a book.","She is reading a book."],ans:"She will read a book.",hint:"wird + infinitive at the end signals future tense."},
 {type:"fb",s:"Wir {1} am Samstag Tennis spielen.",a:["werden"],opts:["werden","werde","wird","werdet"],hint:"First person plural matches the infinitive form."},
 {type:"match",pairs:[{nl:"ich werde",en:"I will"},{nl:"du wirst",en:"you will"},{nl:"er wird",en:"he will"},{nl:"wir werden",en:"we will"},{nl:"ihr werdet",en:"you all will"}]},
@@ -4371,7 +4371,7 @@ export default [
 {type:"mc",q:"'Ich werde naechstes Jahr nach Japan reisen.' means:",opts:["I will travel to Japan next year.","I traveled to Japan last year.","I am traveling to Japan now.","I want to travel to Japan."],ans:"I will travel to Japan next year.",hint:"werde + infinitive at the end signals a future plan."},
 {type:"fb",s:"Was {1} du morgen machen?",a:["wirst"],opts:["wirst","werde","wird","werden"],hint:"Asking 'you' informally requires the du form of werden."},
 {type:"mc",q:"Which sentence uses werden for a future plan?",opts:["Ich werde morgen kochen.","Ich koche gern.","Ich habe gestern gekocht.","Ich koche jeden Tag."],ans:"Ich werde morgen kochen.",hint:"Look for the correct form + infinitive together in the sentence."},
-{type:"fb",s:"Wir {1} naechste Woche unsere Freunde besuchen.",a:["werden"],opts:["werden","werde","wird","werdet"],hint:"Wir takes the base form of werden."},
+{type:"fb",s:"Wir {1} naechste Woche unsere Freunde besuchen.",a:["werden"],opts:["werden","werde","wird","werdet"],hint:"Wir takes the base (infinitive) form of the future helper verb."},
 {type:"match",pairs:[{nl:"morgen",en:"tomorrow"},{nl:"naechste Woche",en:"next week"},{nl:"bald",en:"soon"},{nl:"spaeter",en:"later"},{nl:"naechstes Jahr",en:"next year"}]},
 {type:"drag_fill",s:"Meine Schwester {1} bald nach London {2}.",blanks:{"1":"wird","2":"reisen"},pool:["wird","reisen","werde","reist","werden"],hint:"My sister (third person) will travel to London soon."},
 {type:"mc",q:"How would you ask 'When will you visit us?'",opts:["Wann wirst du uns besuchen?","Wann besuchst du uns?","Wann hast du uns besucht?","Wann willst du uns besuchen?"],ans:"Wann wirst du uns besuchen?",hint:"Use werden + infinitive for the future tense question."},
@@ -4410,7 +4410,7 @@ export default [
 {type:"mc",q:"'Ich wuerde gern nach Japan reisen.' expresses:",opts:["A wish or desire","A definite plan","A past event","A prediction"],ans:"A wish or desire",hint:"wuerde + gern signals something you would like to do."},
 {type:"fb",s:"Was {1} du an meiner Stelle machen?",a:["wuerdest"],opts:["wuerdest","wuerde","wuerden","wuerdet"],hint:"Asking 'you' informally needs the du form of wuerde."},
 {type:"mc",q:"Which sentence is hypothetical (not real)?",opts:["Ich wuerde gern in Paris leben.","Ich werde nach Paris fahren.","Ich fahre nach Paris.","Ich bin in Paris."],ans:"Ich wuerde gern in Paris leben.",hint:"the correct form signals something imagined, not a real plan."},
-{type:"fb",s:"Er {1} gern mehr Sport machen.",a:["wuerde"],opts:["wuerde","wuerdest","wuerden","wird"],hint:"He would like to do more sport. Third person singular of wuerde."},
+{type:"fb",s:"Er {1} gern mehr Sport machen.",a:["wuerde"],opts:["wuerde","wuerdest","wuerden","wird"],hint:"He would like to do more sport. Think about the third person singular subjunctive form."},
 {type:"match",pairs:[{nl:"ich wuerde",en:"I would"},{nl:"du wuerdest",en:"you would"},{nl:"wir wuerden",en:"we would"},{nl:"Ich wuerde gern...",en:"I would like to..."},{nl:"An deiner Stelle",en:"In your place"}]},
 {type:"drag_fill",s:"{1} deiner Stelle {2} ich den Arzt {3}.",blanks:{"1":"An","2":"wuerde","3":"besuchen"},pool:["An","wuerde","besuchen","werde","wird"],hint:"In your place I would visit the doctor."},
 {type:"mc",q:"How do you say 'We would travel to Spain'?",opts:["Wir wuerden nach Spanien reisen.","Wir werden nach Spanien reisen.","Wir wuerde nach Spanien reisen.","Wir reisen nach Spanien."],ans:"Wir wuerden nach Spanien reisen.",hint:"We = wir, which takes this word (not wuerde)."},
@@ -4842,7 +4842,7 @@ export default [
 {type:"fb",s:"Der Kuchen {1} gebacken.",a:["wird"],opts:["wird","wirst","werde","werden"],hint:"The subject is 'der Kuchen', third person singular."},
 {type:"mc",q:"'Die Zeitung wird gelesen.' What is the subject of this passive sentence?",opts:["Die Zeitung","gelesen","wird","der Leser"],ans:"Die Zeitung",hint:"In passive, the thing receiving the action becomes the subject."},
 {type:"teach",kind:"word",nl:"gelesen",en:"read (past participle)",phonetic:"geh-LAY-zen",example:"A: Wird die Zeitung noch gelesen?\nB: Ja, sie wird jeden Morgen gelesen.",exampleEn:"A: Is the newspaper still being read?\nB: Yes, it is read every morning.",note:"Past participle of lesen. Irregular: ge- + root change + -en."},
-{type:"fb",s:"Die E-Mails {1} jeden Tag geschickt.",a:["werden"],opts:["werden","wird","werde","werdet"],hint:"Die E-Mails is plural, so werden must match."},
+{type:"fb",s:"Die E-Mails {1} jeden Tag geschickt.",a:["werden"],opts:["werden","wird","werde","werdet"],hint:"E-Mails is plural. The passive helper verb must match the plural subject."},
 {type:"mc",q:"What does 'Das Auto wird repariert' mean?",opts:["The car is being repaired.","The car repairs itself.","The car was repaired.","Someone repairs the car."],ans:"The car is being repaired.",hint:"Wird + past participle = present tense passive."},
 {type:"match",pairs:[{nl:"Das Haus wird gebaut.",en:"The house is being built."},{nl:"Der Brief wird geschrieben.",en:"The letter is being written."},{nl:"Das Essen wird gekocht.",en:"The food is being cooked."},{nl:"Die Tür wird geöffnet.",en:"The door is being opened."}]},
 {type:"teach",kind:"word",nl:"geöffnet",en:"opened (past participle)",phonetic:"geh-ERF-net",example:"A: Ist das Geschäft offen?\nB: Ja, die Tür wird gerade geöffnet.",exampleEn:"A: Is the shop open?\nB: Yes, the door is being opened right now.",note:"Past participle of öffnen. Regular: ge- + stem + -et (extra e after -n)."},
@@ -4866,7 +4866,7 @@ export default [
 {type:"match",pairs:[{nl:"repariert",en:"repaired"},{nl:"verkauft",en:"sold"},{nl:"bezahlt",en:"paid"},{nl:"eingeladen",en:"invited"},{nl:"geputzt",en:"cleaned"}]},
 {type:"teach",kind:"word",nl:"geputzt",en:"cleaned (past participle)",phonetic:"geh-PUTST",example:"A: Sieht die Wohnung gut aus?\nB: Ja, sie wird jede Woche geputzt.",exampleEn:"A: Does the apartment look good?\nB: Yes, it is cleaned every week.",note:"Past participle of putzen. Regular: ge- + stem + -t."},
 {type:"drag_fill",s:"Die Pakete {1} jeden Tag {2}.",blanks:{"1":"werden","2":"geliefert"},pool:["werden","wird","geliefert","liefern","geliefern"],hint:"Pakete is plural. The past participle of liefern is regular with ge-."},
-{type:"mc",q:"Complete: 'Die Hausaufgaben ___ von den Schülern gemacht.'",opts:["werden","wird","werde","wurde"],ans:"werden",hint:"Die Hausaufgaben is plural. Present tense passive needs plural werden."},
+{type:"mc",q:"Complete: 'Die Hausaufgaben ___ von den Schülern gemacht.'",opts:["werden","wird","werde","wurde"],ans:"werden",hint:"Hausaufgaben is plural. Present tense passive needs the plural form of the helper verb."},
 {type:"fb",s:"Das Essen {1} im Restaurant serviert.",a:["wird"],opts:["wird","werden","werde","werdet"],hint:"Das Essen is singular neuter."},
 {type:"drag_fill",s:"Jeden Morgen {1} die Zeitung {2}.",blanks:{"1":"wird","2":"gelesen"},pool:["wird","werden","gelesen","lesen","gelest"],hint:"Die Zeitung is singular. Past participle of lesen is irregular."},
 {type:"mc",q:"Which is correct passive? 'The children are being picked up.'",opts:["Die Kinder werden abgeholt.","Die Kinder wird abgeholt.","Die Kinder werden abholen.","Die Kinder abgeholt werden."],ans:"Die Kinder werden abgeholt.",hint:"Plural subject = werden. Separable verb: this word stays together as participle."},
@@ -4900,15 +4900,15 @@ export default [
 {type:"teach",kind:"word",nl:"gemalt",en:"painted (past participle)",phonetic:"geh-MAHLT",example:"A: Wer hat das Bild gemalt?\nB: Das Bild wurde von Picasso gemalt.",exampleEn:"A: Who painted the picture?\nB: The picture was painted by Picasso.",note:"Past participle of malen. Regular: ge- + stem + -t."},
 {type:"teach",kind:"word",nl:"untersucht",en:"examined (past participle)",phonetic:"oon-ter-ZOOKHT",example:"A: Warst du beim Arzt?\nB: Ja, ich wurde von der Ärztin untersucht.",exampleEn:"A: Were you at the doctor?\nB: Yes, I was examined by the doctor.",note:"Past participle of untersuchen. No ge- (inseparable prefix unter-)."},
 {type:"mc",q:"'Die Torte wird von der Bäckerin gebacken.' Who is the agent?",opts:["die Bäckerin","die Torte","gebacken","von"],ans:"die Bäckerin",hint:"The agent follows 'von'. Who performs the action?"},
-{type:"fb",s:"Das Lied wird von {1} Sängerin gesungen.",a:["der"],opts:["der","die","dem","den"],hint:"Von triggers dative. Die Sängerin (feminine) becomes der in dative."},
+{type:"fb",s:"Das Lied wird von {1} Sängerin gesungen.",a:["der"],opts:["der","die","dem","den"],hint:"Von triggers dative. Sängerin is feminine. How does the feminine article change in dative?"},
 {type:"mc",q:"Which preposition introduces the agent in German passive?",opts:["von","mit","für","bei"],ans:"von",hint:"The doer of the action is introduced by this two-letter preposition."},
 {type:"teach",kind:"word",nl:"entdeckt",en:"discovered (past participle)",phonetic:"ent-DEKT",example:"A: Wer hat Amerika entdeckt?\nB: Amerika wurde von Kolumbus entdeckt.",exampleEn:"A: Who discovered America?\nB: America was discovered by Columbus.",note:"Past participle of entdecken. No ge- (inseparable prefix ent-)."},
 {type:"drag_fill",s:"Das Problem wurde {1} {2} Ingenieur gelöst.",blanks:{"1":"von","2":"dem"},pool:["von","dem","der","den","für"],hint:"Von + dative. Der Ingenieur (masculine) becomes dem in dative."},
-{type:"fb",s:"Die Kinder werden von {1} Eltern abgeholt.",a:["den"],opts:["den","dem","der","die"],hint:"Von + dative plural. Die Eltern becomes den Eltern in dative."},
+{type:"fb",s:"Die Kinder werden von {1} Eltern abgeholt.",a:["den"],opts:["den","dem","der","die"],hint:"Von + dative plural. How does the plural article change in dative case?"},
 {type:"match",pairs:[{nl:"von dem Lehrer",en:"by the teacher (m)"},{nl:"von der Lehrerin",en:"by the teacher (f)"},{nl:"von dem Kind",en:"by the child"},{nl:"von den Schülern",en:"by the students"}]},
 {type:"mc",q:"Transform: 'Der Arzt untersucht den Patienten.' to passive with agent.",opts:["Der Patient wird von dem Arzt untersucht.","Den Patienten wird von dem Arzt untersucht.","Der Patient wurde von dem Arzt untersucht.","Der Patient wird von der Arzt untersucht."],ans:"Der Patient wird von dem Arzt untersucht.",hint:"Object becomes subject (nominative). Von + dative for the agent. Present tense stays present."},
 {type:"drag_fill",s:"Die E-Mail {1} von {2} Chefin {3}.",blanks:{"1":"wurde","2":"der","3":"geschrieben"},pool:["wurde","der","geschrieben","dem","wird","schreiben"],hint:"Past tense passive (wurde). Die Chefin is feminine dative = der. Past participle at the end."},
-{type:"fb",s:"Das Tor wurde von {1} Spieler geschossen.",a:["dem"],opts:["dem","der","den","das"],hint:"Von + dative. Der Spieler (masculine) becomes dem in dative."},
+{type:"fb",s:"Das Tor wurde von {1} Spieler geschossen.",a:["dem"],opts:["dem","der","den","das"],hint:"Von + dative. Spieler is masculine. How does the masculine article change in dative?"},
 {type:"mc",q:"'Das Essen wird gekocht.' vs 'Das Essen wird von meiner Mutter gekocht.' What is the difference?",opts:["The second names who is cooking","The second is past tense","The first is not passive","The second is active voice"],ans:"The second names who is cooking",hint:"Adding von + agent tells us WHO performs the action."},
 {type:"drag_fill",s:"Der Film {1} von {2} Regisseur {3}.",blanks:{"1":"wird","2":"einem","3":"gedreht"},pool:["wird","einem","gedreht","einen","wurde","drehen"],hint:"Present passive. Ein Regisseur (masculine) in dative = einem. Past participle of drehen."}
 ]},
@@ -5137,7 +5137,7 @@ export default [
   {type:"mc",q:"'Nichts, ___ er sagt, stimmt.' Fill in:",opts:["das","der","was","die"],ans:"was",hint:"After nichts, always use this special relative pronoun"},
   {type:"fb",s:"Alles, {1} du brauchst, ist hier.",a:"was",opts:["was","das","die","der"],hint:"After alles, the relative pronoun is always..."},
   {type:"mc",q:"'Das Schoenste, ___ ich je gesehen habe, war der Sonnenuntergang.'",opts:["das","der","was","die"],ans:"was",hint:"After neuter superlatives like 'das Schoenste', use..."},
-  {type:"fb",s:"Es gibt etwas, {1} ich dir sagen muss.",a:"was",opts:["was","das","die","der"],hint:"After etwas, the pronoun is always the same one"},
+  {type:"fb",s:"Es gibt etwas, {1} ich dir sagen muss.",a:"was",opts:["was","das","die","der"],hint:"After indefinite pronouns, a specific relative pronoun is always used."},
   {type:"match",pairs:[{nl:"alles, was...",en:"everything that..."},{nl:"nichts, was...",en:"nothing that..."},{nl:"etwas, was...",en:"something that..."},{nl:"das Beste, was...",en:"the best that..."}]},
   {type:"mc",q:"'Sie hat gewonnen, ___ uns alle freut.' What does 'was' refer to?",opts:["sie","gewonnen","The entire situation","uns"],ans:"The entire situation",hint:"When 'was' follows a complete clause, it refers to the whole thing"},
   {type:"fb",s:"Vieles, {1} er erzaehlt, klingt unglaublich.",a:"was",opts:["was","das","die","der"],hint:"After vieles, use the same pronoun as after alles and nichts"},
@@ -5158,7 +5158,7 @@ export default [
 
   {type:"tip",title:"'wo' vs 'in dem/der/das'",text:"Both are correct for places:\n\nFormal/written: die Stadt, in der ich lebe.\nInformal/spoken: die Stadt, wo ich lebe.\n\n'wo' compounds for direction:\nwohin = to where (movement toward)\nwoher = from where (origin)\n\nRule of thumb:\n- Writing/exams: prefer 'in dem/der'\n- Speaking: 'wo' is perfectly fine\n- For direction: wohin/woher are used everywhere",deepDive:{title:"wo-compounds with other prepositions",text:"In advanced German, you can combine 'wo' with other prepositions (like 'da-compounds' you may have seen):\n\nworan = at/on what (an + wo)\nworauf = on what (auf + wo)\nworueber = about what (ueber + wo)\nwomit = with what (mit + wo)\n\nDas, woran ich denke... = That which I'm thinking about.\nDas, worauf ich mich freue... = That which I'm looking forward to.\n\nThese are more common in writing. In speech, people often use 'was' + preposition or restructure the sentence entirely."}},
 
-  {type:"mc",q:"'Das Hotel, ___ wir uebernachten, ist zentral.'",opts:["wo","was","der","wer"],ans:"wo",hint:"Hotel is a place. For places, you can use this word meaning 'where'."},
+  {type:"mc",q:"'Das Hotel, ___ wir uebernachten, ist zentral.'",opts:["wo","was","der","wer"],ans:"wo",hint:"Hotel is a place. For locations, which relative pronoun replaces a preposition?"},
   {type:"fb",s:"Die Schule, {1} ich Deutsch lerne, ist gut.",a:"wo",opts:["wo","was","der","die"],hint:"Schule is a place. The relative pronoun for places is..."},
   {type:"mc",q:"'Das Land, ___ er faehrt, ist weit weg.' (direction = going TO)",opts:["wo","wohin","woher","woran"],ans:"wohin",hint:"Movement toward a destination uses wo + hin"},
   {type:"fb",s:"Die Stadt, {1} sie kommt, ist Berlin.",a:"woher",opts:["woher","wohin","wo","woran"],hint:"Origin, coming FROM a place = wo + ?"},
@@ -5166,10 +5166,10 @@ export default [
   {type:"mc",q:"Which is more formal?",opts:["Die Stadt, wo ich wohne.","Die Stadt, in der ich wohne.","Die Stadt, hier ich wohne.","Die Stadt, woher ich wohne."],ans:"Die Stadt, in der ich wohne.",hint:"'in der' is the formal written form, 'wo' is the spoken alternative"},
   {type:"fb",s:"Der Park, {1} die Kinder spielen, ist gross.",a:"wo",opts:["wo","was","wer","wohin"],hint:"Park is a place where children play (location, not direction)"},
   {type:"drag_fill",s:"Das Dorf, {1} ich aufgewachsen bin, ist klein. Die Stadt, {2} ich jetzt ziehe, ist gross.",blanks:{"1":"wo","2":"wohin"},pool:["wo","wohin","woher","was"],hint:"First is location (grew up there), second is direction (moving to)"},
-  {type:"mc",q:"'Das Buero, ___ ich arbeite, hat grosse Fenster.'",opts:["wo","wohin","woher","was"],ans:"wo",hint:"Buero is a place of work. Location = ?"},
+  {type:"mc",q:"'Das Buero, ___ ich arbeite, hat grosse Fenster.'",opts:["wo","wohin","woher","was"],ans:"wo",hint:"Buero is a place. Which relative pronoun is used for locations?"},
   {type:"mc",q:"Can 'wo' replace 'in dem' for 'das Haus, in dem ich wohne'?",opts:["No, never","Yes, in spoken German","Only in questions","Only for feminine nouns"],ans:"Yes, in spoken German",hint:"'wo' is the informal this word alternative to 'in dem/der'"},
   {type:"fb",s:"Der Laden, {1} sie einkauft, hat gute Preise.",a:"wo",opts:["wo","wohin","was","wer"],hint:"A shop is a place. She shops THERE (location)."},
-  {type:"mc",q:"'Das Krankenhaus, ___ mein Bruder arbeitet, ist modern.'",opts:["wo","wohin","woher","was"],ans:"wo",hint:"Krankenhaus is a place. He works THERE (location, not direction)."},
+  {type:"mc",q:"'Das Krankenhaus, ___ mein Bruder arbeitet, ist modern.'",opts:["wo","wohin","woher","was"],ans:"wo",hint:"Krankenhaus is a place. He is THERE (location, not direction). Which relative pronoun?"},
 ]},
 
 // ═══ L8: Review, All Types Combined ═══
@@ -5266,11 +5266,11 @@ export default [
     {type:"mc",q:"'Wegen des Wetters bleiben wir zu Hause.' Wegen requires:",opts:["Nominative","Accusative","Dative","Genitive"],ans:"Genitive",hint:"Wegen is one of the this word prepositions"},
     {type:"fb",s:"Trotz ___ Kälte gehen wir spazieren.",a:"der",opts:["der","die","des","dem"],hint:"Feminine genitive article for die Kälte"},
     {type:"mc",q:"'Während des Unterrichts' means:",opts:["After the lesson","Before the lesson","During the lesson","Instead of the lesson"],ans:"During the lesson",hint:"Which conjunction expresses simultaneous time?"},
-    {type:"fb",s:"Wegen ___ Regens fällt das Spiel aus.",a:"des",opts:["des","dem","der","den"],hint:"Masculine genitive: der Regen becomes des Regens"},
+    {type:"fb",s:"Wegen ___ Regens fällt das Spiel aus.",a:"des",opts:["des","dem","der","den"],hint:"Masculine genitive: Regen is masculine. How does the masculine article change in genitive?"},
     {type:"match",pairs:[{nl:"wegen",en:"because of"},{nl:"trotz",en:"despite"},{nl:"während",en:"during"},{nl:"des Wetters",en:"of the weather"}]},
     {type:"drag_fill",s:"{1} {2} Staus kommen wir zu spät.",blanks:{"1":"Wegen","2":"des"},pool:["Wegen","des","Trotz","dem"],hint:"Because of the traffic jam we arrive late."},
     {type:"mc",q:"Which is correct? 'Despite the heat':",opts:["Trotz die Hitze","Trotz der Hitze","Trotz dem Hitze","Trotz des Hitze"],ans:"Trotz der Hitze",hint:"Feminine genitive: die becomes der, no noun ending"},
-    {type:"fb",s:"Während ___ Spiels darf man nicht telefonieren.",a:"des",opts:["des","dem","der","das"],hint:"Neuter genitive: das Spiel becomes des Spiels"},
+    {type:"fb",s:"Während ___ Spiels darf man nicht telefonieren.",a:"des",opts:["des","dem","der","das"],hint:"Neuter genitive: Spiel is neuter. How does the neuter article change in genitive?"},
     {type:"drag_fill",s:"{1} der {2} hat sie die Prüfung bestanden.",blanks:{"1":"Trotz","2":"Schwierigkeiten"},pool:["Trotz","Schwierigkeiten","Wegen","Während"],hint:"Despite the difficulties she passed the exam."},
     {type:"mc",q:"'Wegen der Probleme' uses 'der' because:",opts:["Probleme is feminine","Probleme is dative","Probleme is plural genitive","Probleme is accusative"],ans:"Probleme is plural genitive",hint:"All this word the correct form use the article der"},
     {type:"fb",s:"___ des Konzerts war es sehr laut.",a:"Während",opts:["Während","Wegen","Trotz","Statt"],hint:"During the concert it was very loud."},
@@ -5292,11 +5292,11 @@ export default [
     {type:"mc",q:"'Statt des Autos nehme ich das Fahrrad.' Statt means:",opts:["Because of","During","Instead of","Despite"],ans:"Instead of",hint:"Taking the bike this word of the car"},
     {type:"fb",s:"___ der Stadt wohnen wir auf dem Land.",a:"Außerhalb",opts:["Außerhalb","Innerhalb","Während","Trotz"],hint:"We live outside of the city."},
     {type:"mc",q:"Which pair are opposites?",opts:["wegen / trotz","statt / während","innerhalb / außerhalb","trotz / statt"],ans:"innerhalb / außerhalb",hint:"Inside vs outside"},
-    {type:"fb",s:"Statt ___ Kaffees trinke ich Tee.",a:"des",opts:["des","dem","der","den"],hint:"Masculine genitive: der Kaffee becomes des Kaffees"},
+    {type:"fb",s:"Statt ___ Kaffees trinke ich Tee.",a:"des",opts:["des","dem","der","den"],hint:"Masculine genitive: Kaffee is masculine. What is the genitive form of the masculine article?"},
     {type:"match",pairs:[{nl:"statt",en:"instead of"},{nl:"innerhalb",en:"within"},{nl:"außerhalb",en:"outside of"},{nl:"anstatt",en:"instead of (formal)"}]},
     {type:"drag_fill",s:"{1} {2} Gebäudes ist Rauchen verboten.",blanks:{"1":"Innerhalb","2":"des"},pool:["Innerhalb","des","Außerhalb","dem"],hint:"Inside the building, smoking is forbidden."},
     {type:"mc",q:"'Innerhalb der Frist antworten' means:",opts:["After the deadline, respond","Respond within the deadline","Respond outside the deadline","Despite the deadline, respond"],ans:"Respond within the deadline",hint:"Which preposition expresses being inside a boundary?"},
-    {type:"fb",s:"Anstatt ___ Suppe nehme ich den Salat.",a:"der",opts:["der","die","des","dem"],hint:"Feminine genitive: die Suppe becomes der Suppe"},
+    {type:"fb",s:"Anstatt ___ Suppe nehme ich den Salat.",a:"der",opts:["der","die","des","dem"],hint:"Feminine genitive: Suppe is feminine. How does the feminine article change in genitive?"},
     {type:"drag_fill",s:"{1} der Arbeitszeit darf man nicht privat telefonieren. {2} der Pause schon.",blanks:{"1":"Während","2":"Außerhalb"},pool:["Während","Außerhalb","Innerhalb","Trotz"],hint:"During work hours no private calls. Outside the break, yes."},
     {type:"mc",q:"Which sentence correctly uses statt?",opts:["Statt dem Auto nehme ich den Bus.","Statt des Autos nehme ich den Bus.","Statt das Auto nehme ich den Bus.","Statt den Auto nehme ich den Bus."],ans:"Statt des Autos nehme ich den Bus.",hint:"this concept requires genitive: des the correct form"},
     {type:"fb",s:"___ des Semesters gibt es viele Prüfungen.",a:"Innerhalb",opts:["Innerhalb","Außerhalb","Wegen","Statt"],hint:"Within the semester there are many exams."},
@@ -5387,17 +5387,17 @@ export default [
     {type:"tip",title:"🔗 Unit 20 Review Map",text:"What you learned in this unit:\n\n1. Genitive articles: des/der/des/der\n2. Noun endings: masc/neut add -(e)s\n3. Names: Peters, Annas, Thomas' (apostrophe for s/z/x)\n4. Six prepositions: wegen, trotz, während, statt, innerhalb, außerhalb\n5. n-Deklination: der Student becomes des Studenten\n6. Formal letters: Sehr geehrte/r, Betreff, bezüglich, Mit freundlichen Grüßen\n\nNow combine them all!"},
 
     {type:"mc",q:"'Trotz des Regens ging der Student zur Vorlesung.' This sentence contains:",opts:["One genitive structure","Two genitive structures","Three genitive structures","No genitive structures"],ans:"Two genitive structures",hint:"Trotz des Regens (the correct form prep) and der Student (nom, but follows n-Dekl in other cases)"},
-    {type:"fb",s:"Wegen ___ schlechten Wetters bleiben wir zu Hause.",a:"des",opts:["des","dem","der","den"],hint:"Neuter genitive: das Wetter becomes des Wetters"},
+    {type:"fb",s:"Wegen ___ schlechten Wetters bleiben wir zu Hause.",a:"des",opts:["des","dem","der","den"],hint:"Neuter genitive: Wetter is neuter. What is the genitive form of the neuter article?"},
     {type:"drag_fill",s:"Bezüglich {1} Anfrage {2} Studenten möchte ich Ihnen antworten.",blanks:{"1":"der","2":"des"},pool:["der","des","die","dem"],hint:"Regarding the inquiry of the student: two genitives."},
     {type:"mc",q:"Which sentence correctly combines n-Deklination with genitive?",opts:["Die Note des Students ist gut.","Die Note des Studenten ist gut.","Die Note dem Studenten ist gut.","Die Note den Studenten ist gut."],ans:"Die Note des Studenten ist gut.",hint:"N-Deklination in genitive: des the correct form, not des Students"},
     {type:"fb",s:"Statt ___ Studenten hat der Kollege die Aufgabe übernommen.",a:"des",opts:["des","dem","der","den"],hint:"Instead of the student: statt + genitive of n-Dekl noun"},
     {type:"drag_fill",s:"Sehr {1} Herr Dr. Weber, bezüglich {2} Stellenanzeige bewerbe ich mich.",blanks:{"1":"geehrter","2":"Ihrer"},pool:["geehrter","Ihrer","geehrte","Ihren"],hint:"Dear Mr. Dr. Weber, regarding your job posting I apply."},
     {type:"mc",q:"'Während des Semesters arbeitet Peters Kollege fleißig.' How many genitive structures?",opts:["One","Two","Three","None"],ans:"Two",hint:"Während des Semesters (prep) + Peters Kollege (name genitive)"},
-    {type:"fb",s:"Innerhalb ___ Firma gibt es viele Studenten und Praktikanten.",a:"der",opts:["der","des","die","dem"],hint:"Feminine genitive: die Firma becomes der Firma"},
+    {type:"fb",s:"Innerhalb ___ Firma gibt es viele Studenten und Praktikanten.",a:"der",opts:["der","des","die","dem"],hint:"Feminine genitive: Firma is feminine. How does the feminine article change in genitive?"},
     {type:"match",pairs:[{nl:"Bezüglich Ihrer Anfrage",en:"Regarding your inquiry"},{nl:"trotz des Regens",en:"despite the rain"},{nl:"des Studenten",en:"of the student"},{nl:"Mit freundlichen Grüßen",en:"Yours sincerely"}]},
     {type:"drag_fill",s:"Ich möchte {1} bitten, mir die Unterlagen {2} Studenten zu schicken.",blanks:{"1":"Sie","2":"des"},pool:["Sie","des","Ihnen","dem"],hint:"I would like to ask you to send me the student's documents."},
     {type:"mc",q:"In a formal letter, 'Annas Lebenslauf liegt in der Anlage' uses:",opts:["Article genitive","Name genitive","Dative","Accusative"],ans:"Name genitive",hint:"Annas = Anna's, simple -s this word with a name"},
-    {type:"fb",s:"Außerhalb ___ Arbeitszeit erreichen Sie den ___ nicht.",a:"der",opts:["der","des","die","dem"],hint:"Feminine genitive: die Arbeitszeit becomes der Arbeitszeit"},
+    {type:"fb",s:"Außerhalb ___ Arbeitszeit erreichen Sie den ___ nicht.",a:"der",opts:["der","des","die","dem"],hint:"Feminine genitive: Arbeitszeit is feminine. What is the genitive form of the feminine article?"},
     {type:"drag_fill",s:"{1} {2} Schwierigkeiten hat die Arbeit {3} Kollegen gute Ergebnisse gebracht.",blanks:{"1":"Trotz","2":"der","3":"des"},pool:["Trotz","der","des","Wegen"],hint:"Despite the difficulties, the colleague's work brought good results."},
     {type:"mc",q:"Which formal closing is standard in German business letters?",opts:["Tschüss","Bis bald","Mit freundlichen Grüßen","Liebe Grüße"],ans:"Mit freundlichen Grüßen",hint:"The universal standard formal closing"},
     {type:"fb",s:"___ geehrte Damen und Herren, hiermit bewerbe ich mich.",a:"Sehr",opts:["Sehr","Liebe","Guten","Beste"],hint:"The first word of the formal letter greeting"},
@@ -5427,9 +5427,9 @@ export default [
 
   {type:"mc",q:"\"Ich bin müde.\" becomes in indirect speech:",opts:["Er sagte, er sei müde.","Er sagte, er ist müde.","Er sagte, ich bin müde.","Er sagte, er war müde."],ans:"Er sagte, er sei müde.",hint:"Konjunktiv I of sein, and pronouns shift"},
   {type:"mc",q:"Which word sends the verb to the end of the clause?",opts:["oder","und","dass","aber"],ans:"dass",hint:"This conjunction changes word order"},
-  {type:"fb",s:"Er sagte, er {1} krank.",a:"sei",opts:["sei","ist","war","bin"],hint:"Konjunktiv I form of sein for er"},
+  {type:"fb",s:"Er sagte, er {1} krank.",a:"sei",opts:["sei","ist","war","bin"],hint:"Konjunktiv I of the to-be verb, er form."},
   {type:"mc",q:"In indirect speech, 'ich' in the original quote becomes:",opts:["ich","du","er/sie","wir"],ans:"er/sie",hint:"The person being quoted becomes third person"},
-  {type:"fb",s:"Sie meinte, sie {1} keine Zeit.",a:"habe",opts:["habe","hat","hatte","haben"],hint:"Konjunktiv I form of haben for sie"},
+  {type:"fb",s:"Sie meinte, sie {1} keine Zeit.",a:"habe",opts:["habe","hat","hatte","haben"],hint:"Konjunktiv I of the to-have verb, sie form."},
   {type:"match",pairs:[{nl:"direkte Rede",en:"direct speech"},{nl:"indirekte Rede",en:"indirect speech"},{nl:"sagen",en:"to say"},{nl:"dass",en:"that (conjunction)"}]},
   {type:"mc",q:"'Er sagte, dass er krank ___.' Which form and position?",opts:["sei (end)","ist (end)","sei (second)","war (second)"],ans:"sei (end)",hint:"After dass, verb goes to the end in Konjunktiv I"},
   {type:"fb",s:"Sie sagte, {1} sie morgen komme.",a:"dass",opts:["dass","weil","ob","wenn"],hint:"Conjunction meaning 'that' for reported speech"},
@@ -5479,7 +5479,7 @@ export default [
    deepDive:{title:"Why 'habe' and not 'hat'?",text:"Konjunktiv I is built from the infinitive stem:\n\nhaben → hab- → ich habe, du habest, er habe\n\nThe indicative er hat drops letters from the stem. Konjunktiv I keeps the full stem and adds -e. This is why er habe looks different from er hat, which makes it perfect for signaling indirect speech.\n\nThe -e ending is the signature of Konjunktiv I."}},
 
   {type:"mc",q:"'Die Firma ___ erfolgreich.' (reportedly) Which Konj. I of sein?",opts:["sei","ist","war","wäre"],ans:"sei",hint:"Third person singular, the reported speech mood"},
-  {type:"fb",s:"Er sagte, er {1} ein neues Auto.",a:"habe",opts:["habe","hat","hatte","hätte"],hint:"Konjunktiv I of haben for er"},
+  {type:"fb",s:"Er sagte, er {1} ein neues Auto.",a:"habe",opts:["habe","hat","hatte","hätte"],hint:"Konjunktiv I of the to-have verb, er form."},
   {type:"mc",q:"Why do we use 'hätten' instead of 'haben' for 'sie' (they) in Konj. I?",opts:["hätten sounds better","haben (Konj. I) looks the same as indicative","hätten is more formal","haben is incorrect"],ans:"haben (Konj. I) looks the same as indicative",hint:"When Konj. I and this word are identical..."},
   {type:"fb",s:"Die Experten sagten, die Ergebnisse {1} positiv.",a:"seien",opts:["seien","sind","waren","wären"],hint:"Plural Konjunktiv I of sein"},
   {type:"match",pairs:[{nl:"er sei",en:"he is (reported)"},{nl:"er habe",en:"he has (reported)"},{nl:"sie seien",en:"they are (reported)"},{nl:"sie hätten",en:"they have (reported, Konj. II)"}]},
@@ -5549,7 +5549,7 @@ export default [
   {type:"match",pairs:[{nl:"er könne",en:"he can (reported)"},{nl:"er wolle",en:"he wants (reported)"},{nl:"er müsse",en:"he must (reported)"},{nl:"er solle",en:"he should (reported)"}]},
   {type:"drag_fill",s:"Er sagte, er {1} nicht kommen, weil er noch {2}.",blanks:{"1":"könne","2":"arbeiten müsse"},pool:["könne","arbeiten müsse","kann","arbeiten muss","wolle"],hint:"Two modals in Konj. I: 'can' and 'must work'"},
   {type:"mc",q:"Modal verbs in Konj. I keep the umlaut from the infinitive. Which pair is correct?",opts:["dürfen → er dürfe","dürfen → er durfe","dürfen → er darfe","dürfen → er dürfte"],ans:"dürfen → er dürfe",hint:"The umlaut from this word stays in the Konj. I stem"},
-  {type:"fb",s:"Die Chefin bat, man {1} pünktlich sein.",a:"möge",opts:["möge","mag","möchte","mögen"],hint:"Very formal Konjunktiv I of mögen"},
+  {type:"fb",s:"Die Chefin bat, man {1} pünktlich sein.",a:"möge",opts:["möge","mag","möchte","mögen"],hint:"Very formal Konjunktiv I of the modal verb meaning to like/may."},
   {type:"mc",q:"'Sie sagten, sie ___ das nicht.' (want, reported, plural)",opts:["wollten","wollen","wolle","wolltest"],ans:"wollten",hint:"Plural form where Konj. I equals indicative, so switch mood"},
   {type:"drag_fill",s:"Er sagte, er {1} helfen, aber er {2} erst sein Auto reparieren.",blanks:{"1":"wolle","2":"müsse"},pool:["wolle","müsse","will","muss","könne","solle"],hint:"Two modals in Konj. I: want and must"},
 ]},
@@ -5640,10 +5640,10 @@ export default [
   {type:"teach",kind:"phrase",nl:"Sie sagten: \"Wir haben Zeit.\" → Sie sagten, sie hätten Zeit.",en:"Direct to indirect: Konj. II needed",phonetic:"zee ZAHG-ten zee HET-ten tsayt",example:"A: Und wenn Konj. I gleich ist wie Indikativ?\nB: Dann Konj. II! Sie sagten, sie hätten Zeit.\nA: Weil 'sie haben' gleich wäre.",exampleEn:"A: And when Konj. I is the same as indicative?\nB: Then Konj. II! They said they had time.\nA: Because 'sie haben' would be identical.",note:"wir haben (Konj. I) = indicative.\nSubstitute with Konj. II: hätten."},
 
   {type:"mc",q:"Transform: 'Ich kann schwimmen.' (Er sagte, er ___)",opts:["könne schwimmen","kann schwimmen","konnte schwimmen","schwimmen könne"],ans:"könne schwimmen",hint:"Konjunktiv I of the correct form for er"},
-  {type:"fb",s:"Er sagte: \"Ich muss arbeiten.\" → Er sagte, er {1} arbeiten.",a:"müsse",opts:["müsse","muss","musste","müsste"],hint:"Konjunktiv I of müssen for er"},
+  {type:"fb",s:"Er sagte: \"Ich muss arbeiten.\" → Er sagte, er {1} arbeiten.",a:"müsse",opts:["müsse","muss","musste","müsste"],hint:"Konjunktiv I of the must-verb, er form."},
   {type:"drag_fill",s:"Die Lehrerin sagte, die Schüler {1} fleißig und {2} gute Fortschritte.",blanks:{"1":"seien","2":"machten"},pool:["seien","machten","sind","machen","wären","hätten"],hint:"Plural Konj. I of sein, then Konj. II (machen plural = indicative)"},
   {type:"mc",q:"Transform: 'Wir wollen das Projekt abschließen.' (Sie sagten, sie ___)",opts:["wollten das Projekt abschließen","wolle das Projekt abschließen","wollen das Projekt abschließen","das Projekt abschließen wollten"],ans:"wollten das Projekt abschließen",hint:"sie wollen (Konj. I) = indicative, use Konj. II: the correct form"},
-  {type:"fb",s:"Laut der Regierung {1} die Wirtschaft stabil.",a:"sei",opts:["sei","ist","war","wäre"],hint:"Konjunktiv I of sein, news language with 'laut'"},
+  {type:"fb",s:"Laut der Regierung {1} die Wirtschaft stabil.",a:"sei",opts:["sei","ist","war","wäre"],hint:"Konjunktiv I of the to-be verb, used in news language after laut."},
   {type:"mc",q:"Which reporting verb implies SKEPTICISM?",opts:["sagen","erklären","betonen","behaupten"],ans:"behaupten",hint:"The reporter doubts the claim"},
   {type:"drag_fill",s:"{1} Angaben der Polizei {2} der Verdächtige in Richtung Süden {3}.",blanks:{"1":"Nach","2":"sei","3":"geflohen"},pool:["Nach","sei","geflohen","ist","Laut","geflogen"],hint:"News phrase + Konj. I of sein + past participle"},
   {type:"match",pairs:[{nl:"er sei müde",en:"he is tired (reported)"},{nl:"sie hätten Zeit",en:"they have time (reported)"},{nl:"er könne kommen",en:"he can come (reported)"},{nl:"sie wolle gehen",en:"she wants to go (reported)"}]},
@@ -5742,7 +5742,7 @@ export default [
   {type:"mc",q:"Er hat das Restaurant verlassen, ohne zu ___.",opts:["bezahlen","bezahlt","bezahlte","bezahle"],ans:"bezahlen",hint:"After zu, always the infinitive"},
   {type:"mc",q:"What does 'ohne...zu' express?",opts:["Purpose","Without doing something","Because of something","Instead of something"],ans:"Without doing something",hint:"This preposition negates an action and pairs with zu + infinitive."},
   {type:"fb",s:"Sie hat den Vertrag unterschrieben, ___ ihn zu lesen.",a:"ohne",opts:["ohne","um","statt","weil"],hint:"She signed the contract WITHOUT reading it"},
-  {type:"fb",s:"Er hat geantwortet, ohne ___ zu denken.",a:"nach",opts:["nach","vor","um","über"],hint:"nachdenken is a separable verb: nach + denken"},
+  {type:"fb",s:"Er hat geantwortet, ohne ___ zu denken.",a:"nach",opts:["nach","vor","um","über"],hint:"Think about the separable verb for to think about/reflect. Which prefix detaches?"},
   {type:"match",pairs:[{nl:"ohne zu fragen",en:"without asking"},{nl:"ohne zu wissen",en:"without knowing"},{nl:"ohne zu bezahlen",en:"without paying"},{nl:"ohne zu schlafen",en:"without sleeping"}]},
   {type:"mc",q:"Sie hat das Haus verlassen, ohne ein Wort zu sagen.\nWhat did she do?",opts:["Left the house without saying a word","Left the house to say a word","Stayed in the house without words","Said a word and left"],ans:"Left the house without saying a word",hint:"ohne...zu = this word doing"},
   {type:"drag_fill",s:"Er ist losgefahren, {1} auf mich {2} {3}.",blanks:{"1":"ohne","2":"zu","3":"warten"},pool:["ohne","zu","warten","um","gewartet"],hint:"He drove off without waiting for me"},
@@ -6015,7 +6015,7 @@ export default [
   {type:"match",pairs:[{nl:"außerdem",en:"moreover (everyday)"},{nl:"zudem",en:"moreover (formal)"},{nl:"darüber hinaus",en:"furthermore (essay)"},{nl:"auch",en:"also (simple)"}]},
   {type:"mc",q:"Er ist intelligent. ___ ist er fleißig.",opts:["Außerdem","Trotzdem","Deshalb","Obwohl"],ans:"Außerdem",hint:"Adding a second positive quality"},
   {type:"drag_fill",s:"Die Wohnung ist zentral. {1} {2} sie {3}.",blanks:{"1":"Außerdem","2":"ist","3":"günstig"},pool:["Außerdem","ist","günstig","Trotzdem","hat","teuer"],hint:"The apartment is central. Moreover, it is affordable."},
-  {type:"fb",s:"Das Buch ist spannend. Darüber hinaus ___ es lehrreich.",a:"ist",opts:["ist","hat","sind","haben"],hint:"The book (das Buch) is singular: es + ist"},
+  {type:"fb",s:"Das Buch ist spannend. Darüber hinaus ___ es lehrreich.",a:"ist",opts:["ist","hat","sind","haben"],hint:"The book is singular. Which form of sein matches es (third person singular)?"},
   {type:"mc",q:"Which sentence adds information?",opts:["Trotzdem fahre ich.","Deshalb fahre ich.","Außerdem fahre ich.","Obwohl ich fahre."],ans:"Außerdem fahre ich.",hint:"Adding a new fact, not showing cause or contrast"},
   {type:"drag_fill",s:"Ich lerne Deutsch. {1} {2} ich {3} Spanisch.",blanks:{"1":"Zudem","2":"lerne","3":"auch"},pool:["Zudem","lerne","auch","Deshalb","spreche","kein"],hint:"I learn German. In addition, I also learn Spanish."},
   {type:"mc",q:"Die Arbeit macht Spaß. ___ verdiene ich gut.",opts:["Außerdem","Trotzdem","Obwohl","Weil"],ans:"Außerdem",hint:"Good pay is an ADDITIONAL benefit of the job"},
@@ -6212,13 +6212,13 @@ export default [
     {type:"fb",s:"Erzählen Sie etwas über {1}.",a:["sich"],opts:["sich","mich","Ihnen","uns"],hint:"The reflexive pronoun for Sie-form: tell us about yourself."},
     {type:"mc",q:"A: Warum möchten Sie bei uns arbeiten?\nB: ___ Firma hat einen sehr guten Ruf.",opts:["Ihre","Deine","Meine","Unsere"],ans:"Ihre",hint:"Your (formal) company. Sie-form possessive."},
     {type:"match",pairs:[{nl:"die Stärke",en:"the strength"},{nl:"die Schwäche",en:"the weakness"},{nl:"die Erfahrung",en:"the experience"},{nl:"das Vorstellungsgespräch",en:"the job interview"}]},
-    {type:"fb",s:"Ich {1} fünf Jahre Erfahrung in Marketing mit.",a:["bringe"],opts:["bringe","habe","bin","mache"],hint:"Mitbringen is a separable verb: ich bringe... mit."},
+    {type:"fb",s:"Ich {1} fünf Jahre Erfahrung in Marketing mit.",a:["bringe"],opts:["bringe","habe","bin","mache"],hint:"The separable verb meaning to bring along. Think about the ich conjugation with prefix detached."},
     {type:"mc",q:"What is the opposite of 'die Stärke'?",opts:["die Schwäche","die Erfahrung","die Bewerbung","die Stelle"],ans:"die Schwäche",hint:"Strength vs. weakness. Both are commonly discussed in interviews."},
     {type:"drag_fill",s:"Was sind {1} größten {2}?",blanks:{"1":"Ihre","2":"Stärken"},pool:["Ihre","Stärken","deine","Schwäche"],hint:"The formal way to ask about someone's greatest strengths."},
     {type:"mc",q:"When should you switch from Sie to du in a German interview?",opts:["Only when the interviewer explicitly offers it","After the first five minutes","When you feel comfortable","Never, always use Sie"],ans:"Only when the interviewer explicitly offers it",hint:"The transition to du must be offered by the higher-ranking person."},
     {type:"fb",s:"Warum {1} Sie bei uns arbeiten?",a:["möchten"],opts:["möchten","wollen","können","müssen"],hint:"The polite form of 'want'. Used in formal questions."},
     {type:"drag_fill",s:"{1} Sie etwas über {2}.",blanks:{"1":"Erzählen","2":"sich"},pool:["Erzählen","sich","Sagen","mich"],hint:"The standard opening request: Tell us about yourself."},
-    {type:"mc",q:"A: Ich bringe Erfahrung in Projektmanagement ___.\nWhich word completes this separable verb?",opts:["mit","an","auf","aus"],ans:"mit",hint:"Mitbringen: the prefix mit goes to the end of the clause."}
+    {type:"mc",q:"A: Ich bringe Erfahrung in Projektmanagement ___.\nWhich word completes this separable verb?",opts:["mit","an","auf","aus"],ans:"mit",hint:"The verb meaning to bring along is separable. The prefix goes to the end of the clause."}
   ]},
   {id:"deu24l5",title:"Vertrag und Gehalt",icon:"📋",xp:25,board:true,steps:[
     {type:"intro",title:"Vertrag und Gehalt",desc:"You got the job! Now let's talk about contracts, salary, probation periods, and vacation days. Essential vocabulary for your working life in Germany.",goals:["Understand contract terminology","Discuss salary and benefits","Know your rights as an employee"]},
@@ -6361,12 +6361,12 @@ export default [
 {type:"match",pairs:[{nl:"wäre gegangen",en:"would have gone"},{nl:"wäre gekommen",en:"would have come"},{nl:"wäre geblieben",en:"would have stayed"},{nl:"wäre geworden",en:"would have become"}]},
 {type:"drag_fill",s:"Er {1} gern länger {2}, aber er musste nach Hause. Sie {3} auch {4}, wenn sie Zeit gehabt hätte.",blanks:{"1":"wäre","2":"geblieben","3":"wäre","4":"gekommen"},pool:["wäre","geblieben","wäre","gekommen","hätte","gegangen"],hint:"Would have stayed (sein verb). Would have come (sein verb)"},
 {type:"mc",q:"'Was wäre passiert, wenn...?' Which auxiliary is correct?",opts:["wäre (passieren uses sein)","hätte (passieren uses haben)","würde (future form)","wurde (passive form)"],ans:"wäre (passieren uses sein)",hint:"the correct form uses sein in Perfekt: es ist passiert. So Konj II: es wäre passiert"},
-{type:"fb",s:"Es {1} schön gewesen, wenn du gekommen wärst.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"It would have been nice. sein in Konj II past = wäre ... gewesen"},
+{type:"fb",s:"Es {1} schön gewesen, wenn du gekommen wärst.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"It would have been nice. Think about the Konjunktiv II form of sein."},
 {type:"mc",q:"Which sentence is correct?",opts:["Ich wäre fast eingeschlafen.","Ich hätte fast eingeschlafen.","Ich würde fast eingeschlafen.","Ich bin fast eingeschlafen hätte."],ans:"Ich wäre fast eingeschlafen.",hint:"Einschlafen is a change-of-state verb using sein. I almost would have fallen asleep"},
 {type:"drag_fill",s:"Ohne deine Hilfe {1} ich nie Arzt {2}. Ich {3} aufgegeben, wenn du nicht {4} {5}.",blanks:{"1":"wäre","2":"geworden","3":"hätte","4":"gekommen","5":"wärst"},pool:["wäre","geworden","hätte","gekommen","wärst","hätte","worden","hättest"],hint:"Would have become (sein). Would have given up (haben). Had come (sein, du-form)"},
 {type:"fb",s:"Wenn wir früher losgefahren {1}, wären wir pünktlich angekommen.",a:"wären",opts:["wären","hätten","würden","sind"],hint:"losfahren uses sein. If we had left earlier. Partizip + this word at subclause end"},
 {type:"mc",q:"'Sie wäre fast gefallen.' Which auxiliary and why?",opts:["wäre, because fallen uses sein","hätte, because fallen uses haben","würde, because it is future","wurde, because it is passive"],ans:"wäre, because fallen uses sein",hint:"Consider the grammar rule and pick the form that fits the sentence structure."},
-{type:"mc",q:"Complete: 'Wenn das Wetter besser gewesen ___, wären wir gewandert.'",opts:["wäre","hätte","würde","ist"],ans:"wäre",hint:"sein in Konj II past = wäre. gewesen wäre = would have been. Weather clause uses sein"},
+{type:"mc",q:"Complete: 'Wenn das Wetter besser gewesen ___, wären wir gewandert.'",opts:["wäre","hätte","würde","ist"],ans:"wäre",hint:"Sein in Konjunktiv II past. The weather clause uses sein. Think about its subjunctive form."},
 ]},
 
 {id:"deu25l4",title:"Irreale Bedingungssätze",icon:"🔀",xp:30,board:true,steps:[
@@ -6380,11 +6380,11 @@ export default [
 {type:"mc",q:"Which sentence is past irrealis?",opts:["Wenn ich gekommen wäre, hätte ich dich gesehen.","Wenn ich käme, würde ich dich sehen.","Wenn ich komme, sehe ich dich.","Wenn ich kam, sah ich dich."],ans:"Wenn ich gekommen wäre, hätte ich dich gesehen.",hint:"Look for the correct form/wäre + Partizip II in both clauses. That signals the unreal past"},
 {type:"drag_fill",s:"Wenn er früher {1} {2}, {3} er den Zug nicht {4}.",blanks:{"1":"aufgestanden","2":"wäre","3":"hätte","4":"verpasst"},pool:["aufgestanden","wäre","hätte","verpasst","aufstehen","ist","hat","verpassen"],hint:"If he had gotten up earlier (sein verb), he would not have missed (haben verb) the train"},
 {type:"mc",q:"'Wenn ich reich wäre, ___ ich ein Haus.' Fill in:",opts:["kaufte / würde kaufen","kaufe","habe gekauft","werde kaufen"],ans:"kaufte / würde kaufen",hint:"Present irrealis main clause. Either strong Konj II (the correct form) or this word + Inf"},
-{type:"fb",s:"Wenn sie gekommen {1}, hätten wir zusammen gefeiert.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"If she had come. kommen uses sein, so unreal past = wäre + gekommen"},
+{type:"fb",s:"Wenn sie gekommen {1}, hätten wir zusammen gefeiert.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"If she had come. Kommen uses sein as its helper. Think about sein in Konjunktiv II."},
 {type:"match",pairs:[{nl:"Wenn ich Zeit hätte...",en:"If I had time... (present)"},{nl:"Wenn ich Zeit gehabt hätte...",en:"If I had had time... (past)"},{nl:"...würde ich kommen.",en:"...I would come. (present)"},{nl:"...wäre ich gekommen.",en:"...I would have come. (past)"}]},
 {type:"mc",q:"In 'Wenn ich damals studiert hätte, wäre ich jetzt Ärztin', what type of conditional is this?",opts:["Mixed: past condition, present result","Pure past irrealis","Pure present irrealis","Real conditional"],ans:"Mixed: past condition, present result",hint:"damals (back then) = past in wenn-clause. jetzt (now) = this word in main clause"},
 {type:"drag_fill",s:"Wenn ich Deutsch gelernt {1}, {2} ich jetzt in Berlin {3}.",blanks:{"1":"hätte","2":"würde","3":"leben"},pool:["hätte","würde","leben","wäre","hätte","gelebt"],hint:"Past condition (had learned). Present result (would live). Mixed conditional"},
-{type:"fb",s:"Wenn es nicht so kalt {1}, würden wir im Park spazieren gehen.",a:"wäre",opts:["wäre","hätte","ist","würde"],hint:"Present irrealis. If it weren't so cold. sein in Konj II = wäre"},
+{type:"fb",s:"Wenn es nicht so kalt {1}, würden wir im Park spazieren gehen.",a:"wäre",opts:["wäre","hätte","ist","würde"],hint:"Present irrealis. If it were not so cold. Think about sein in Konjunktiv II."},
 {type:"mc",q:"Which sentence is a present irrealis conditional?",opts:["Wenn ich fliegen könnte, wäre ich glücklich.","Wenn ich geflogen wäre, hätte ich dich besucht.","Wenn es regnet, bleibe ich zu Hause.","Wenn ich fliegen werde, kaufe ich ein Ticket."],ans:"Wenn ich fliegen könnte, wäre ich glücklich.",hint:"Simple Konj II forms (the correct form, wäre) without Partizip II = present unreal situation"},
 {type:"drag_fill",s:"Wenn sie den Job {1} {2}, {3} sie jetzt in München {4}.",blanks:{"1":"bekommen","2":"hätte","3":"würde","4":"wohnen"},pool:["bekommen","hätte","würde","wohnen","bekommt","hat","wird","wohnt"],hint:"Past condition (had gotten, PP + aux). Present result (would live). Mixed conditional"},
 {type:"mc",q:"'Wenn er mehr übte, würde er besser spielen.' Present or past irrealis?",opts:["Present irrealis (not practicing enough now)","Past irrealis (did not practice then)","Real condition (he does practice)","Future plan (will practice soon)"],ans:"Present irrealis (not practicing enough now)",hint:"Simple Konj II (übte, würde) without Partizip II. He does NOT practice this word right now"},
@@ -6398,7 +6398,7 @@ export default [
 {type:"teach",kind:"phrase",nl:"Wäre ich bloß zu Hause geblieben!",en:"If only I had stayed home!",phonetic:"VAY-ruh ish bloss tsoo HOW-zuh guh-BLEE-ben",example:"A: Das Konzert war schrecklich.\nB: Wäre ich bloß zu Hause geblieben!\nA: So schlimm?\nB: Die Band hat nur falsch gespielt.",exampleEn:"A: The concert was terrible.\nB: If only I had stayed home!\nA: That bad?\nB: The band only played wrong notes.",note:"Wäre + bloß/doch nur + PP.\nbleiben uses sein, so wäre.\nbloß = nur = only (emphasis particles)."},
 {type:"tip",title:"Wish and Regret Patterns",text:"Present wishes:\nIch wünschte, ich hätte/wäre/könnte...\n(I wish I had/were/could...)\n\nPast regrets:\nHätte ich doch nur + PP!\nWäre ich doch nur + PP!\nWenn ich doch nur + PP + hätte/wäre!\n\ndoch, nur, bloß add emotional emphasis.\nAll three particles mean the same thing here.",deepDive:"Subtle differences:\nIch wünschte = formal, calm wish\nHätte ich doch nur = emotional regret\nWenn ich doch nur = slightly softer regret\n\nYou can combine: Ich wünschte, ich hätte doch nur besser aufgepasst!\n(I wish I had only paid better attention!)"},
 {type:"mc",q:"'Ich wünschte, ich könnte fliegen' expresses:",opts:["A present wish (I wish I could fly)","A past regret","A future plan","A real ability"],ans:"A present wish (I wish I could fly)",hint:"Ich wünschte + Konj II simple forms = this word wish about something unreal now"},
-{type:"fb",s:"Hätte ich {1} nur mehr gelernt!",a:"doch",opts:["doch","dass","weil","ob"],hint:"Emphasis particle in wish/regret sentences. doch/nur/bloß add emotional weight"},
+{type:"fb",s:"Hätte ich {1} nur mehr gelernt!",a:"doch",opts:["doch","dass","weil","ob"],hint:"Emphasis particle in wish/regret sentences. Which modal particle adds emotional weight here?"},
 {type:"mc",q:"Which expresses past regret?",opts:["Wäre ich bloß zu Hause geblieben!","Ich wünschte, ich wäre zu Hause.","Ich bleibe zu Hause.","Ich bin zu Hause geblieben."],ans:"Wäre ich bloß zu Hause geblieben!",hint:"Look for wäre/hätte + bloß/doch + Partizip II. That combination signals past regret"},
 {type:"match",pairs:[{nl:"Ich wünschte, ich hätte...",en:"I wish I had... (present wish)"},{nl:"Hätte ich doch nur...",en:"If only I had... (past regret)"},{nl:"Wäre ich bloß...",en:"If only I had been/gone..."},{nl:"Wenn ich doch nur...",en:"If only I... (softer regret)"}]},
 {type:"drag_fill",s:"{1} ich {2} nur früher {3}! Dann hätte ich den Zug nicht verpasst.",blanks:{"1":"Wäre","2":"doch","3":"aufgestanden"},pool:["Wäre","doch","aufgestanden","Hätte","bloß","gestanden"],hint:"sein verb (aufstehen). Emphasis particle. Past participle of aufstehen"},
@@ -6419,11 +6419,11 @@ export default [
 {type:"teach",kind:"grammar",nl:"Er spricht, als wäre er Experte.",en:"He speaks as if he were an expert.",phonetic:"ehr shprisht, als VAY-ruh ehr eks-PAIR-tuh",example:"A: Hör dir das an! Er spricht über Physik.\nB: Ja, er spricht, als wäre er Professor.\nA: Ist er denn Professor?\nB: Nein, er arbeitet im Supermarkt!",exampleEn:"A: Listen to that! He's talking about physics.\nB: Yes, he speaks as if he were a professor.\nA: Is he a professor then?\nB: No, he works at the supermarket!",note:"als + Konj II (WITHOUT ob) = same meaning.\nBut: verb comes RIGHT AFTER als.\nals wäre er = as if he were.\nMore elegant, common in formal speech."},
 {type:"tip",title:"als ob vs als (without ob)",text:"Both mean 'as if':\n\nals ob + ... + verb at END:\nEr tut, als ob er müde wäre.\n\nals + verb immediately:\nEr tut, als wäre er müde.\n\nSame meaning. als (without ob) is more elegant.\nBoth ALWAYS require Konjunktiv II.",deepDive:"Common verbs before als ob:\ntun, als ob = to act as if\naussehen, als ob = to look as if\nklingen, als ob = to sound as if\nsich fühlen, als ob = to feel as if\nscheinen, als ob = to seem as if\nsich verhalten, als ob = to behave as if\n\nAll describe APPEARANCES, not facts."},
 {type:"mc",q:"'Er tut, als ob er alles wüsste' means:",opts:["He acts as if he knew everything","He knows everything","He will know everything","He acts because he knows everything"],ans:"He acts as if he knew everything",hint:"als ob + Konj II describes an appearance, not reality. He ACTS as if, but may not actually know"},
-{type:"fb",s:"Sie sieht aus, als ob sie krank {1}.",a:"wäre",opts:["wäre","ist","war","wird"],hint:"als ob always requires Konjunktiv II. sein → wäre. She looks as if she were sick"},
+{type:"fb",s:"Sie sieht aus, als ob sie krank {1}.",a:"wäre",opts:["wäre","ist","war","wird"],hint:"Als ob always requires Konjunktiv II. Think about the subjunctive of sein."},
 {type:"mc",q:"Which is the correct word order after 'als' (without ob)?",opts:["als wäre er müde (verb right after als)","als er müde wäre (verb at end)","als ob wäre er müde","als er wäre müde"],ans:"als wäre er müde (verb right after als)",hint:"Without ob, the verb comes directly this word als. With ob, verb goes to the end"},
 {type:"drag_fill",s:"Es klingt, als {1} es gleich {2} {3}.",blanks:{"1":"ob","2":"regnen","3":"würde"},pool:["ob","regnen","würde","wenn","regnet","wird"],hint:"as if. Infinitive. würde at end (als ob clause = verb final)"},
 {type:"match",pairs:[{nl:"Er tut, als ob...",en:"He acts as if..."},{nl:"Sie sieht aus, als ob...",en:"She looks as if..."},{nl:"Es klingt, als ob...",en:"It sounds as if..."},{nl:"Er spricht, als wäre er...",en:"He speaks as if he were..."}]},
-{type:"fb",s:"Er spricht, als {1} er ein Experte.",a:"wäre",opts:["wäre","ob","ist","sei"],hint:"als without ob: verb comes right after als. sein in Konj II = wäre"},
+{type:"fb",s:"Er spricht, als {1} er ein Experte.",a:"wäre",opts:["wäre","ob","ist","sei"],hint:"Without ob: verb comes right after the conjunction. Think about sein in Konjunktiv II."},
 {type:"mc",q:"'Sie verhält sich, als ob nichts passiert wäre.' What happened?",opts:["Something DID happen, but she acts normal","Nothing happened","She is waiting for something to happen","She caused something to happen"],ans:"Something DID happen, but she acts normal",hint:"als ob = as if (appearance vs reality). passiert wäre = had this concepted (past). She pretends nothing the correct form"},
 {type:"mc",q:"Which verb CANNOT come before als ob?",opts:["haben (to have)","aussehen (to look)","klingen (to sound)","sich fühlen (to feel)"],ans:"haben (to have)",hint:"als ob follows verbs of perception/appearance: look, sound, feel, seem, act. Not possession verbs"},
 {type:"drag_fill",s:"Sie tut, als {1} sie mich nicht {2}. Er sieht aus, als {3} er die ganze Nacht nicht {4} {5}.",blanks:{"1":"ob","2":"kennte","3":"ob","4":"geschlafen","5":"hätte"},pool:["ob","kennte","ob","geschlafen","hätte","wenn","kennt","hat","schlafen","wäre"],hint:"as if. Would know (Konj II). as if. Past participle. hätte at end"},
@@ -6466,7 +6466,7 @@ export default [
 {type:"mc",q:"'Sie sieht aus, als wäre sie müde.' What does 'als' replace here?",opts:["als ob (without ob, verb right after als)","als (when, temporal)","als (than, comparison)","als (as, role)"],ans:"als ob (without ob, verb right after als)",hint:"als + immediate verb = shortened als ob. More elegant form, same meaning"},
 {type:"drag_fill",s:"{1} Sie so freundlich, mir zu helfen? Es {2} mir sehr recht. Ich {3} da nämlich eine Frage.",blanks:{"1":"Wären","2":"wäre","3":"hätte"},pool:["Wären","wäre","hätte","Sind","ist","habe"],hint:"Would you be (polite). Would be (agreement). Would have (softener)"},
 {type:"mc",q:"'Wäre ich bloß zu Hause geblieben!' Why wäre, not hätte?",opts:["bleiben uses sein in Perfekt, so wäre in Konj II past","It sounds more elegant","hätte is only for haben","wäre is always used for regret"],ans:"bleiben uses sein in Perfekt, so wäre in Konj II past",hint:"Same rule as this concept: verbs that use sein (motion, change, the correct form) use wäre in Konj II past"},
-{type:"fb",s:"Es {1} schön gewesen, wenn du gekommen wärst.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"It would have been nice. sein → wäre. gewesen = past participle of sein"},
+{type:"fb",s:"Es {1} schön gewesen, wenn du gekommen wärst.",a:"wäre",opts:["wäre","hätte","würde","ist"],hint:"It would have been nice. Think about sein in Konjunktiv II for the helper."},
 {type:"drag_fill",s:"Ich {1}, ich hätte mehr Zeit. {2} ich {3} nur früher angefangen! Es ist, als {4} die Zeit {5}.",blanks:{"1":"wünschte","2":"Hätte","3":"doch","4":"ob","5":"fliegen würde"},pool:["wünschte","Hätte","doch","ob","fliegen würde","wünsche","Habe","bloß","wenn","fliegt"],hint:"I wish (Konj II). If only (regret). Emphasis. as if. would fly (als ob + würde)"},
 {type:"mc",q:"In formal German, 'Ich wäre Ihnen sehr dankbar' means:",opts:["I would be very grateful to you","I am very grateful to you","I was very grateful to you","I will be very grateful to you"],ans:"I would be very grateful to you",hint:"wäre = Konj II of sein. Used in formal requests to sound polite and non-demanding"},
 {type:"mc",q:"Which sentence correctly uses mixed conditional (past cause, present result)?",opts:["Wenn ich studiert hätte, wäre ich jetzt Ärztin.","Wenn ich studiere, bin ich Ärztin.","Wenn ich studiert habe, war ich Ärztin.","Wenn ich studieren würde, werde ich Ärztin."],ans:"Wenn ich studiert hätte, wäre ich jetzt Ärztin.",hint:"Consider the grammar rule and pick the form that fits the sentence structure."},
@@ -6894,7 +6894,7 @@ export default [
     {type:"mc",q:"Which sentence means 'The problem should have been solved earlier'?",opts:["Das Problem hätte früher gelöst werden sollen.","Das Problem wurde früher gelöst.","Das Problem ist früher gelöst worden.","Das Problem lässt sich früher lösen."],ans:"Das Problem hätte früher gelöst werden sollen.",hint:"Konjunktiv II past passive: this word + PP + werden + the correct form."},
     {type:"fb",s:"In diesem Restaurant {1} man hervorragend essen.",a:"kann",opts:["kann","lässt","wird","ist"],hint:"In this restaurant one can eat excellently. Man + modal."},
     {type:"drag_fill",s:"Die Ergebnisse {1} den Teilnehmern per E-Mail {2}.",blanks:{"1":"werden","2":"mitgeteilt"},pool:["werden","mitgeteilt","bekommen","sind","lassen","teilen"],hint:"The results are communicated to the participants by email. Werden-Passiv."},
-    {type:"mc",q:"For a job ad: 'Gute Deutschkenntnisse ___ vorausgesetzt.' Which is best?",opts:["werden","sind","lassen","man"],ans:"werden",hint:"Job ads use werden-Passiv for requirements: are expected/required."},
+    {type:"mc",q:"For a job ad: 'Gute Deutschkenntnisse ___ vorausgesetzt.' Which is best?",opts:["werden","sind","lassen","man"],ans:"werden",hint:"Job ads use passive voice for requirements. Which helper verb forms the passive?"},
     {type:"fb",s:"Die Ware {1} gestern geliefert worden.",a:"ist",opts:["ist","hat","wird","wurde"],hint:"The goods have been delivered. Perfekt passive: which auxiliary + PP + worden?"},
     {type:"drag_fill",s:"Er {1} das Gehalt pünktlich {2} {3}.",blanks:{"1":"hat","2":"überwiesen","3":"bekommen"},pool:["hat","überwiesen","bekommen","wurde","worden","wird"],hint:"He got his salary transferred on time. Perfekt of bekommen-Passiv."},
     {type:"mc",q:"Which registers prefer which form? Match: academic paper = ?, casual chat = ?, business email = ?",opts:["academic = werden-Passiv, casual = man/kriegen, business = sich lassen","academic = man, casual = werden, business = bekommen","academic = -bar, casual = sein+zu, business = man","academic = bekommen, casual = werden, business = sein+zu"],ans:"academic = werden-Passiv, casual = man/kriegen, business = sich lassen",hint:"Formal writing uses werden. this word speech uses man and this concept. this word likes sich the correct form."},
