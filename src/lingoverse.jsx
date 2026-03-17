@@ -13050,7 +13050,7 @@ export default function App(){
           <div className="sf-panel">
             <div className="sf-hdr">
               <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke="rgba(130,115,175,0.65)" strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-              <input className="sf-inp" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
+              <input className="sf-inp" autoFocus placeholder="" value={searchQuery}
                 onChange={e=>setSearchQuery(e.target.value)}
                 onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
               />
@@ -13058,7 +13058,7 @@ export default function App(){
             </div>
             {q.length>=2&&<div className="sf-cnt">{results.length===0?"No results":results.length>=80?"80+ — refine to narrow":`${results.length} result${results.length===1?"":"s"}`}</div>}
             <div className="sf-list">
-              {q.length<2&&<div className="sf-empty">Search lessons, teach cards, grammar tips, and quiz steps.</div>}
+              {q.length<2&&<div className="sf-empty"/>}
               {q.length>=2&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
               {results.map((r,i)=>{
                 const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
