@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-17 (D1-D108. D86+ in CLAUDE.md)
+> Last updated: 2026-03-17 (D1-D109. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D109 | Cross-Language Audit: All 5 Languages | Audit/Quality | All |
 | D108 | Spanish A1-B2 Complete Curriculum Build | Content/Build | Spanish |
 | D107 | Temp-File Agent Workflow for Curriculum Builds | Agent Protocol | All |
 | D106 | Agent Model Escalation Protocol (Opus over Sonnet) | Agent Protocol | All |
@@ -416,6 +417,34 @@ Build used Opus 4.6 agents after Sonnet agents proved unreliable (stale, unrespo
 ---
 
 ## Notes
+
+## D109: Cross-Language Audit: All 5 Languages (2026-03-17)
+
+Full structural, pipeline, and CEFR audit across all 5 production languages (Korean, Dutch, German, French, Spanish). 12 parallel agents deployed for concurrent audit and fix operations.
+
+**Fixes applied (694 total):**
+- 178 em-dashes (P22c) replaced in Korean content strings
+- 10 em-dashes replaced in Arabic content strings
+- 311 P8 hint-reveals fixed in Dutch (mc + fb)
+- 157 P8 hint-reveals fixed in German
+- 23 P8 hint-reveals fixed in Spanish
+- 15 P8 hint-reveals fixed in French
+- 12 severe P8 hint-reveals rewritten in Korean
+- 3 critical mc ans mismatches fixed (Korean kou4l8, kou9l8; Dutch v2u25l7)
+- 6 P49 CEFR labels removed from learner-facing quiz content (Spanish 1, French 2, Korean 3)
+
+**CEFR grammar coverage:**
+- Korean: 64/64 constructs FULL PASS
+- Dutch: 68/69 (98.6%), only B2 dienen te missing (LOW)
+- German: PASS with 1 moderate gap (A2 imperative mood)
+- French: PASS with 3 minor vocab gaps (weather, months, health)
+- Spanish: PASS with 2 vocab gaps (A1 body parts MODERATE, A2 animals LOW)
+
+**Infrastructure:** 5/5 languages PASS all checks (LANG_META, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ, ARTICLE_SYSTEMS, imports, UNITS assembly).
+
+**Full audit report:** `docs/FULL_AUDIT_REPORT.md`
+
+---
 
 ## D108: Spanish A1-B2 Complete Curriculum Build (2026-03-17)
 
