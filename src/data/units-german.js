@@ -1562,6 +1562,60 @@ export default [
 ]},
 
 // ═══ L8: Mein Tag Review ═══
+// ═══ Emotions (D112 A1 vocab gap) ═══
+{id:"deu5l8c",title:"Gefühle",icon:"😊",xp:20,board:true,steps:[
+  {type:"intro",title:"Gefühle",desc:"How do you feel? Happy, sad, tired, excited? German has rich emotion vocabulary. Some emotions use 'sein' (to be), others use special constructions like 'Angst haben' (to have fear). Learn to express your feelings naturally.",goals:["14 emotion words and phrases","sein + adjective for most emotions","Angst haben and Mir ist... patterns"]},
+
+  {type:"teach",kind:"word",nl:"glücklich",en:"happy",cognate:{words:[{lang:"English",word:"lucky (related)"}],family:"germanic"},example:"A: Wie fühlst du dich heute?\nB: Ich bin sehr glücklich!\nA: Das freut mich!",exampleEn:"A: How do you feel today?\nB: I am very happy!\nA: That makes me glad!",note:"glücklich = happy.\nIch bin glücklich = I am happy.\nAlso means lucky: Du bist glücklich! (You are lucky!)"},
+
+  {type:"teach",kind:"word",nl:"froh",en:"glad / pleased",example:"A: Ich bin froh, dass du da bist.\nB: Ich auch! Es ist schön hier.\nA: Komm, wir gehen rein.",exampleEn:"A: I am glad that you are here.\nB: Me too! It is nice here.\nA: Come, let us go inside.",note:"froh = glad, pleased.\nSimilar to glücklich but often for specific reasons.\nIch bin froh = I am glad (about something)."},
+
+  {type:"teach",kind:"word",nl:"traurig",en:"sad",example:"A: Warum bist du traurig?\nB: Mein Hund ist krank.\nA: Oh nein, das tut mir leid!",exampleEn:"A: Why are you sad?\nB: My dog is sick.\nA: Oh no, I am sorry!",note:"traurig = sad.\nIch bin traurig = I am sad.\nDas ist traurig = That is sad."},
+
+  {type:"teach",kind:"word",nl:"wütend",en:"angry / furious",example:"A: Der Chef ist wütend.\nB: Warum? Was ist passiert?\nA: Die Arbeit ist nicht fertig.",exampleEn:"A: The boss is angry.\nB: Why? What happened?\nA: The work is not finished.",note:"wütend = angry, furious.\nStronger than böse.\nIch bin wütend auf dich = I am angry at you."},
+
+  {type:"teach",kind:"word",nl:"böse",en:"angry / cross / naughty",cognate:{words:[{lang:"Dutch",word:"boos"}],family:"germanic"},example:"A: Bist du böse auf mich?\nB: Nein, nur ein bisschen enttäuscht.\nA: Es tut mir leid.",exampleEn:"A: Are you angry with me?\nB: No, just a little disappointed.\nA: I am sorry.",note:"böse = angry (milder), cross, naughty.\nUsed with children: Sei nicht böse! (Do not be naughty!)\nböse auf + person = angry at someone."},
+
+  {type:"teach",kind:"word",nl:"müde",en:"tired",cognate:{words:[{lang:"Dutch",word:"moe"}],family:"germanic"},example:"A: Du siehst müde aus.\nB: Ja, ich habe schlecht geschlafen.\nA: Geh früh ins Bett heute!",exampleEn:"A: You look tired.\nB: Yes, I slept badly.\nA: Go to bed early today!",note:"müde = tired.\nIch bin müde = I am tired.\nUsed every day: very common word."},
+
+  {type:"teach",kind:"word",nl:"hungrig",en:"hungry",cognate:{words:[{lang:"English",word:"hungry"}],family:"germanic"},example:"A: Bist du hungrig?\nB: Ja, sehr! Wann essen wir?\nA: In zehn Minuten.",exampleEn:"A: Are you hungry?\nB: Yes, very! When do we eat?\nA: In ten minutes.",note:"hungrig = hungry.\nAlternative: Ich habe Hunger (I have hunger).\nBoth forms are equally common."},
+
+  {type:"teach",kind:"phrase",nl:"Angst haben",en:"to be afraid / scared",example:"A: Hast du Angst vor Spinnen?\nB: Ja, ich habe große Angst!\nA: Keine Sorge, hier gibt es keine.",exampleEn:"A: Are you afraid of spiders?\nB: Yes, I am very afraid!\nA: Do not worry, there are none here.",note:"Angst haben = to have fear (= to be scared).\nIch habe Angst = I am afraid.\nAngst vor + noun = afraid of something."},
+
+  {type:"teach",kind:"word",nl:"nervös",en:"nervous",cognate:{words:[{lang:"English",word:"nervous"},{lang:"French",word:"nerveux"}],family:"borrowed"},example:"A: Bist du nervös vor der Prüfung?\nB: Ja, sehr nervös!\nA: Du schaffst das!",exampleEn:"A: Are you nervous before the exam?\nB: Yes, very nervous!\nA: You will manage it!",note:"nervös = nervous.\nIch bin nervös = I am nervous.\nBorrowed from French/Latin."},
+
+  {type:"teach",kind:"word",nl:"stolz",en:"proud",example:"A: Ich bin stolz auf dich!\nB: Danke, das bedeutet mir viel.\nA: Du hast hart gearbeitet.",exampleEn:"A: I am proud of you!\nB: Thank you, that means a lot to me.\nA: You worked hard.",note:"stolz = proud.\nstolz auf + person/thing = proud of.\nIch bin stolz auf mein Kind = I am proud of my child."},
+
+  {type:"teach",kind:"word",nl:"überrascht",en:"surprised",example:"A: Überraschung!\nB: Oh! Ich bin total überrascht!\nA: Alles Gute zum Geburtstag!",exampleEn:"A: Surprise!\nB: Oh! I am totally surprised!\nA: Happy birthday!",note:"überrascht = surprised.\nFrom überraschen (to surprise).\ndie Überraschung = the surprise."},
+
+  {type:"teach",kind:"word",nl:"gelangweilt",en:"bored",example:"A: Was machst du?\nB: Nichts. Ich bin gelangweilt.\nA: Komm, wir gehen spazieren!",exampleEn:"A: What are you doing?\nB: Nothing. I am bored.\nA: Come, let us go for a walk!",note:"gelangweilt = bored.\nAlternative: Mir ist langweilig (I feel bored).\nBoth are common."},
+
+  {type:"teach",kind:"word",nl:"besorgt",en:"worried / concerned",example:"A: Du siehst besorgt aus.\nB: Ja, meine Mutter ist im Krankenhaus.\nA: Oh, ich hoffe, es geht ihr bald besser.",exampleEn:"A: You look worried.\nB: Yes, my mother is in the hospital.\nA: Oh, I hope she gets better soon.",note:"besorgt = worried, concerned.\nbesorgt über/um + thing/person.\nIch bin besorgt um dich = I am worried about you."},
+
+  {type:"teach",kind:"word",nl:"aufgeregt",en:"excited",example:"A: Morgen fliegen wir nach Spanien!\nB: Ich bin so aufgeregt!\nA: Ich auch! Ich kann nicht schlafen!",exampleEn:"A: Tomorrow we fly to Spain!\nB: I am so excited!\nA: Me too! I cannot sleep!",note:"aufgeregt = excited.\nCan also mean agitated (context matters).\nIch bin aufgeregt = I am excited."},
+
+  {type:"tip",title:"Two Ways to Express Feelings",text:"German uses two patterns for emotions:\n\n1. sein + adjective (most emotions):\nIch bin glücklich. (I am happy.)\nEr ist traurig. (He is sad.)\n\n2. haben + noun (some emotions):\nIch habe Angst. (I am afraid. Literally: I have fear.)\nIch habe Hunger. (I am hungry. Literally: I have hunger.)\n\nA third pattern uses mir ist + adjective:\nMir ist langweilig. (I am bored.)\nMir ist kalt. (I am cold.)",deepDive:{title:"Mir ist langweilig vs Ich bin gelangweilt",text:"Both express boredom, but the structure is different:\n\nMir ist langweilig = to me it is boring (impersonal, the situation is boring)\nIch bin gelangweilt = I am bored (personal, I feel bored)\n\nSimilar pairs exist:\nMir ist kalt = I feel cold (the situation)\nIch bin kalt = I am a cold person (personality, rarely used this way!)\n\nThe mir ist pattern is very common in everyday German and worth mastering."}},
+
+  {type:"mc",q:"How do you say 'I am afraid' in German?",opts:["Ich bin Angst.","Ich habe Angst.","Ich mache Angst.","Ich bin ängstlich."],ans:"Ich habe Angst.",hint:"German uses haben (to have) with Angst, not sein (to be)."},
+
+  {type:"mc",q:"'Ich bin stolz auf dich' means:",opts:["I am angry at you","I am worried about you","I am proud of you","I am surprised by you"],ans:"I am proud of you",hint:"stolz = proud. auf dich = of you."},
+
+  {type:"fb",s:"Warum bist du so ___? Was ist passiert?",a:"traurig",opts:["traurig","glücklich","stolz","hungrig"],hint:"The person seems upset. Something bad happened."},
+
+  {type:"match",pairs:[{nl:"glücklich",en:"happy"},{nl:"traurig",en:"sad"},{nl:"müde",en:"tired"},{nl:"nervös",en:"nervous"}]},
+
+  {type:"mc",q:"Which TWO words both mean 'angry'?",opts:["müde und hungrig","wütend und böse","stolz und froh","nervös und besorgt"],ans:"wütend und böse",hint:"One is stronger (furious), the other milder (cross)."},
+
+  {type:"fb",s:"Morgen ist die Prüfung. Ich bin sehr ___!",a:"nervös",opts:["nervös","müde","hungrig","stolz"],hint:"The feeling before an important test."},
+
+  {type:"mc",q:"'Mir ist langweilig' means:",opts:["I am boring","I am bored","I have boredom","I feel long"],ans:"I am bored",hint:"Mir ist + adjective: impersonal construction for feelings."},
+
+  {type:"mc",q:"Which emotion uses 'haben' instead of 'sein'?",opts:["traurig","glücklich","Angst","aufgeregt"],ans:"Angst",hint:"Ich habe ___, not Ich bin ___ for this feeling."},
+
+  {type:"drag_fill",s:"Sie ist {1} und er ist {2}.",blanks:{"1":"glücklich","2":"traurig"},pool:["glücklich","traurig","Angst","langweilig"],hint:"She feels positive, he feels negative. Both use sein + adjective."},
+
+  {type:"match",pairs:[{nl:"überrascht",en:"surprised"},{nl:"gelangweilt",en:"bored"},{nl:"besorgt",en:"worried"},{nl:"aufgeregt",en:"excited"}]},
+]},
 {id:"deu5l8",title:"Mein Tag: Review",icon:"🔁",xp:20,board:true,steps:[
   {type:"intro",title:"Mein Tag: Review",desc:"Time to consolidate everything from Unit 5. Time-telling, daily routine verbs, separable verbs, days of the week, and full schedule descriptions all come together here.",goals:["Consolidate all Unit 5 vocabulary","Use time + day + activity combinations","Apply separable verb rules correctly","Build fluency in describing your day"]},
   {type:"tip",title:"Unit 5 Summary",text:"What you have learned:\n\nTime: Wie spät ist es? Es ist... Uhr, halb, Viertel vor/nach.\nMorning: aufstehen, duschen, frühstücken, sich anziehen.\nSeparable verbs: prefix to end in main clause.\nAfternoon: arbeiten, lernen, Mittagessen, Pause.\nEvening: kochen, fernsehen, lesen, ins Bett gehen.\nDays: Montag bis Sonntag, am + Wochentag.\nSchedule: V2 + time expressions, dann/danach."},
@@ -1871,6 +1925,50 @@ export default [
 ]},
 
 // ═══ L8: Wohnung Review ═══
+// ═══ Extended Colors (D112 A1 vocab gap) ═══
+{id:"deu6l8b",title:"Mehr Farben",icon:"🎨",xp:20,board:true,steps:[
+  {type:"intro",title:"Mehr Farben",desc:"You already know rot, blau, grün, gelb, weiß, schwarz, braun, and orange. Now learn the remaining everyday colors: pink, purple, and grey. Together with the tip about color adjective endings, you will be able to describe anything.",goals:["3 new color words: rosa, lila, grau","Predicative vs attributive adjective rule","Describe rooms and objects with all colors"]},
+
+  {type:"teach",kind:"word",nl:"rosa",en:"pink",cognate:{words:[{lang:"English",word:"rose"},{lang:"French",word:"rose"}],family:"borrowed"},example:"A: Welche Farbe hat das Kissen?\nB: Das Kissen ist rosa.\nA: Rosa passt gut zum weißen Sofa!",exampleEn:"A: What color is the pillow?\nB: The pillow is pink.\nA: Pink goes well with the white sofa!",note:"rosa = pink.\nLike orange: borrowed word, indeclinable.\nNever takes adjective endings."},
+
+  {type:"teach",kind:"word",nl:"lila",en:"purple / violet",cognate:{words:[{lang:"English",word:"lilac"}],family:"borrowed"},example:"A: Magst du die Blumen?\nB: Ja, lila Blumen sind schön!\nA: Ich kaufe sie für das Wohnzimmer.",exampleEn:"A: Do you like the flowers?\nB: Yes, purple flowers are pretty!\nA: I will buy them for the living room.",note:"lila = purple/violet.\nAlso indeclinable like rosa and orange.\nNo adjective endings, ever."},
+
+  {type:"teach",kind:"word",nl:"grau",en:"grey",cognate:{words:[{lang:"English",word:"grey/gray"}],family:"germanic"},example:"A: Wie ist das Wetter heute?\nB: Grau und kalt.\nA: Typisch Norddeutschland!",exampleEn:"A: How is the weather today?\nB: Grey and cold.\nA: Typical Northern Germany!",note:"grau = grey.\nUnlike rosa/lila: grau DOES take endings.\nder graue Himmel = the grey sky."},
+
+  {type:"teach",kind:"word",nl:"die Farbe",en:"the color",example:"A: Was ist deine Lieblingsfarbe?\nB: Meine Lieblingsfarbe ist Blau.\nA: Blau ist auch meine Lieblingsfarbe!",exampleEn:"A: What is your favorite color?\nB: My favorite color is blue.\nA: Blue is also my favorite color!",note:"die Farbe = the color (feminine).\nPlural: die Farben.\nLieblingsfarbe = favorite color."},
+
+  {type:"teach",kind:"word",nl:"bunt",en:"colorful",cognate:{words:[{lang:"Dutch",word:"bont"}],family:"germanic"},example:"A: Wie findest du das Bild?\nB: Es ist sehr bunt!\nA: Ja, viele Farben zusammen.",exampleEn:"A: How do you find the painting?\nB: It is very colorful!\nA: Yes, many colors together.",note:"bunt = colorful, multicolored.\nDas bunte Bild = the colorful painting.\nUseful for describing art, clothes, rooms."},
+
+  {type:"teach",kind:"word",nl:"hell",en:"light (color)",cognate:{words:[{lang:"English",word:"bright"}],family:"germanic"},example:"A: Welches Blau magst du?\nB: Ich mag hellblau.\nA: Hellblau ist ruhig und freundlich.",exampleEn:"A: Which blue do you like?\nB: I like light blue.\nA: Light blue is calm and friendly.",note:"hell = light, bright.\nhellblau = light blue. hellgrün = light green.\nCombine hell + any color for the lighter shade."},
+
+  {type:"teach",kind:"word",nl:"dunkel",en:"dark (color)",cognate:{words:[{lang:"English",word:"dark (related)"}],family:"germanic"},example:"A: Der Teppich ist dunkelrot.\nB: Ja, fast wie Wein!\nA: Dunkelrot passt gut zum Holzboden.",exampleEn:"A: The carpet is dark red.\nB: Yes, almost like wine!\nA: Dark red goes well with the wood floor.",note:"dunkel = dark.\ndunkelblau = dark blue. dunkelgrün = dark green.\nCombine dunkel + any color for the darker shade."},
+
+  {type:"tip",title:"Predicative vs Attributive Colors",text:"German color adjectives follow two rules:\n\n1. AFTER sein (predicative): no ending\nDas Auto ist rot. (The car is red.)\nDie Wand ist grau. (The wall is grey.)\n\n2. BEFORE a noun (attributive): ending required\nder graue Himmel (the grey sky)\neine lila Blume (a purple flower)\n\nException: rosa, lila, orange NEVER take endings.\nThey are borrowed words and stay unchanged.",deepDive:{title:"Why are rosa, lila, orange indeclinable?",text:"These three words were borrowed into German from other languages (Latin/French). German normally requires adjective endings before nouns, but borrowed color words resist this system.\n\nFormally correct: die rosa Blume, die lila Jacke, die orange Lampe.\nColloquially you may hear: die rosane Blume, die lilane Jacke. These forms are gaining acceptance in spoken German but are not standard."}},
+
+  {type:"mc",q:"Which of these colors NEVER takes adjective endings?",opts:["grau","rot","lila","blau"],ans:"lila",hint:"Borrowed color words are indeclinable in German."},
+
+  {type:"mc",q:"'Das Kissen ist ___.' The pillow is pink.",opts:["rosaes","rosa","rosane","rosem"],ans:"rosa",hint:"Predicate position after sein: no ending. This borrowed word never changes."},
+
+  {type:"fb",s:"Der Himmel ist heute ___. Es regnet bald.",a:"grau",opts:["grau","graue","grauer","grauen"],hint:"After ist: predicate position means no ending."},
+
+  {type:"mc",q:"How do you say 'dark blue' in German?",opts:["blaudunkel","schwarzblau","dunkelblau","tiefeblau"],ans:"dunkelblau",hint:"German puts the modifier first: dark + blue."},
+
+  {type:"match",pairs:[{nl:"rosa",en:"pink"},{nl:"lila",en:"purple"},{nl:"grau",en:"grey"},{nl:"bunt",en:"colorful"}]},
+
+  {type:"mc",q:"'Meine Lieblingsfarbe ist ___.' I like green best.",opts:["Grün","Grüne","Grüner","Grünes"],ans:"Grün",hint:"After ist: predicate. As a noun: capitalized, no ending."},
+
+  {type:"fb",s:"Ich mag ___ Blumen. Sie sind hübsch!",a:"lila",opts:["lila","lilaen","lilaer","lilaes"],hint:"This borrowed color word never changes form."},
+
+  {type:"mc",q:"How do you say 'light green'?",opts:["grünhell","hellgrün","leichtgrün","grünlicht"],ans:"hellgrün",hint:"Modifier comes first: light + green = hell + grün."},
+
+  {type:"mc",q:"Which sentence is CORRECT?",opts:["Die graue Katze schläft.","Die grau Katze schläft.","Die grauen Katze schläft.","Die graues Katze schläft."],ans:"Die graue Katze schläft.",hint:"Feminine noun with definite article: adjective takes -e."},
+
+  {type:"fb",s:"Das Zimmer ist sehr ___. Viele Farben!",a:"bunt",opts:["bunt","bunte","bunter","buntes"],hint:"After ist: predicate position. No ending needed."},
+
+  {type:"drag_fill",s:"Ich mag {1} Wände und {2} Möbel.",blanks:{"1":"weiße","2":"graue"},pool:["weiße","graue","weißen","grauen"],hint:"Both adjectives need the correct ending before plural nouns."},
+
+  {type:"mc",q:"What does 'dunkelrot' mean?",opts:["Light red","Dark red","Very red","Red room"],ans:"Dark red",hint:"dunkel = dark. Combined with a color for darker shades."},
+]},
 {id:"deu6l8",title:"Wohnung Review",icon:"🌟",xp:25,board:true,steps:[
   {type:"intro",title:"Wohnung Review",desc:"Unit 6 complete! This review brings together everything: rooms, furniture, colors, es gibt + accusative, the accusative case full pattern, location prepositions + dative, and apartment descriptions.",goals:["All room and furniture vocabulary","Es gibt + accusative (einen/eine/ein, keinen/keine/kein)","Accusative: der to den, die stays die, das stays das","Location prepositions + dative"]},
 
@@ -2086,6 +2184,50 @@ export default [
 ]},
 
 // ═══ L8: Unterwegs Review ═══
+// ═══ Cardinal Directions (D112 A1 vocab gap) ═══
+{id:"deu7l8b",title:"Himmelsrichtungen",icon:"🧭",xp:20,board:true,steps:[
+  {type:"intro",title:"Himmelsrichtungen",desc:"North, south, east, west: these words are essential for maps, travel, and understanding where things are in Germany. Learn the four cardinal directions and how Germans build place names with them.",goals:["4 cardinal directions with articles","Direction adjectives: nördlich, südlich, etc.","Compound place names: Norddeutschland, Osteuropa"]},
+
+  {type:"teach",kind:"word",nl:"der Norden",en:"the north",cognate:{words:[{lang:"English",word:"north"},{lang:"Dutch",word:"noorden"}],family:"germanic"},example:"A: Wo liegt Hamburg?\nB: Hamburg liegt im Norden von Deutschland.\nA: Stimmt, ganz oben an der Küste!",exampleEn:"A: Where is Hamburg located?\nB: Hamburg is in the north of Germany.\nA: Right, all the way up on the coast!",note:"der Norden = the north (masculine).\nim Norden = in the north.\nHamburg, Bremen, Kiel are in the north."},
+
+  {type:"teach",kind:"word",nl:"der Süden",en:"the south",cognate:{words:[{lang:"English",word:"south"},{lang:"Dutch",word:"zuiden"}],family:"germanic"},example:"A: München liegt im Süden.\nB: Ja, in Bayern. Da sind die Alpen!\nA: Im Süden ist es wärmer.",exampleEn:"A: Munich is in the south.\nB: Yes, in Bavaria. The Alps are there!\nA: It is warmer in the south.",note:"der Süden = the south (masculine).\nim Süden = in the south.\nBavaria and Baden-Württemberg are in the south."},
+
+  {type:"teach",kind:"word",nl:"der Osten",en:"the east",cognate:{words:[{lang:"English",word:"east"},{lang:"Dutch",word:"oosten"}],family:"germanic"},example:"A: Berlin liegt im Osten, oder?\nB: Ja, im Osten von Deutschland.\nA: Dresden auch!",exampleEn:"A: Berlin is in the east, right?\nB: Yes, in the east of Germany.\nA: Dresden too!",note:"der Osten = the east (masculine).\nim Osten = in the east.\nHistorical: Ostdeutschland = East Germany (DDR)."},
+
+  {type:"teach",kind:"word",nl:"der Westen",en:"the west",cognate:{words:[{lang:"English",word:"west"},{lang:"Dutch",word:"westen"}],family:"germanic"},example:"A: Köln liegt im Westen.\nB: Ja, am Rhein. Nahe der Grenze zu Belgien.\nA: Im Westen regnet es oft!",exampleEn:"A: Cologne is in the west.\nB: Yes, on the Rhine. Near the Belgian border.\nA: It rains a lot in the west!",note:"der Westen = the west (masculine).\nim Westen = in the west.\nNordrhein-Westfalen is in the west."},
+
+  {type:"teach",kind:"word",nl:"nördlich",en:"northern / to the north",example:"A: Wo liegt Dänemark?\nB: Nördlich von Deutschland.\nA: Genau, nördlich der Grenze.",exampleEn:"A: Where is Denmark?\nB: North of Germany.\nA: Exactly, north of the border.",note:"nördlich = northern, to the north of.\nnördlich von + city/country.\nAlso used as adjective: der nördliche Teil."},
+
+  {type:"teach",kind:"word",nl:"südlich",en:"southern / to the south",example:"A: Wo liegt Österreich?\nB: Südlich von Deutschland.\nA: Ja, hinter den Alpen.",exampleEn:"A: Where is Austria?\nB: South of Germany.\nA: Yes, behind the Alps.",note:"südlich = southern, to the south of.\nsüdlich von + city/country.\nder südliche Teil = the southern part."},
+
+  {type:"teach",kind:"word",nl:"östlich",en:"eastern / to the east",example:"A: Wo liegt Polen?\nB: Östlich von Deutschland.\nA: Richtig, die Grenze ist an der Oder.",exampleEn:"A: Where is Poland?\nB: East of Germany.\nA: Right, the border is at the Oder river.",note:"östlich = eastern, to the east of.\nöstlich von + city/country.\nOsteuropa = Eastern Europe."},
+
+  {type:"teach",kind:"word",nl:"westlich",en:"western / to the west",example:"A: Wo liegt Frankreich?\nB: Westlich von Deutschland.\nA: Ja, am Rhein ist die Grenze.",exampleEn:"A: Where is France?\nB: West of Germany.\nA: Yes, the border is at the Rhine.",note:"westlich = western, to the west of.\nwestlich von + city/country.\nWesteuropa = Western Europe."},
+
+  {type:"tip",title:"Building Compound Place Names",text:"German builds geographic names by combining direction + place:\n\nNord + Deutschland = Norddeutschland (Northern Germany)\nSüd + Deutschland = Süddeutschland (Southern Germany)\nOst + Europa = Osteuropa (Eastern Europe)\nWest + Europa = Westeuropa (Western Europe)\n\nFamous compound: Nordrhein-Westfalen (North Rhine-Westphalia).\nThis is Germany's most populated state, in the west.",deepDive:{title:"Ost und West: A divided history",text:"From 1949 to 1990, Germany was divided into two countries:\n\nBRD (Bundesrepublik Deutschland) in the west.\nDDR (Deutsche Demokratische Republik) in the east.\n\nDie Berliner Mauer (the Berlin Wall) divided Berlin itself. It fell on November 9, 1989.\n\nToday, people still say Ostdeutschland and Westdeutschland, but Germany is one country since 1990. The terms describe regions, not political borders."}},
+
+  {type:"mc",q:"Hamburg liegt im ___ von Deutschland.",opts:["Süden","Osten","Norden","Westen"],ans:"Norden",hint:"Hamburg is on the coast, at the top of the German map."},
+
+  {type:"mc",q:"Where is Munich (München)?",opts:["im Norden","im Osten","im Westen","im Süden"],ans:"im Süden",hint:"Bavaria is at the bottom of the map, near the Alps."},
+
+  {type:"fb",s:"Dänemark liegt ___ von Deutschland.",a:"nördlich",opts:["nördlich","südlich","östlich","westlich"],hint:"Denmark is above Germany on the map."},
+
+  {type:"match",pairs:[{nl:"der Norden",en:"the north"},{nl:"der Süden",en:"the south"},{nl:"der Osten",en:"the east"},{nl:"der Westen",en:"the west"}]},
+
+  {type:"mc",q:"What does 'Norddeutschland' mean?",opts:["Northern Germany","North Pole","New Germany","Next to Germany"],ans:"Northern Germany",hint:"Nord + Deutschland = a compound word."},
+
+  {type:"fb",s:"Frankreich liegt ___ von Deutschland.",a:"westlich",opts:["westlich","östlich","nördlich","südlich"],hint:"France is to the left on the map of Europe."},
+
+  {type:"mc",q:"Which German state name contains TWO direction words?",opts:["Bayern","Sachsen","Nordrhein-Westfalen","Brandenburg"],ans:"Nordrhein-Westfalen",hint:"Look for both Nord and West in one name."},
+
+  {type:"mc",q:"'Osteuropa' means:",opts:["Old Europe","Eastern Europe","Austrian Europe","Outer Europe"],ans:"Eastern Europe",hint:"Ost = east. Europa = Europe. Combine the two meanings."},
+
+  {type:"fb",s:"Polen liegt ___ von Deutschland.",a:"östlich",opts:["östlich","westlich","südlich","nördlich"],hint:"Poland is to the right on the map of Europe."},
+
+  {type:"mc",q:"Die Berliner Mauer teilte Berlin in Ost und West. When did it fall?",opts:["1945","1961","1989","2001"],ans:"1989",hint:"A famous event in November of that year changed Europe."},
+
+  {type:"drag_fill",s:"München liegt im {1} und Hamburg liegt im {2}.",blanks:{"1":"Süden","2":"Norden"},pool:["Süden","Norden","Osten","Westen"],hint:"Munich is in the south, Hamburg is in the north of Germany."},
+]},
 {id:"deu7l8",title:"Unterwegs Review",icon:"🗺️",xp:20,board:true,steps:[
   {type:"intro",title:"Unterwegs Review",desc:"You have covered transport, directions, six modal verbs, the train station, and city places. Now it all comes together. This review tests real-world use across all topics.",goals:["Use all 6 modal verbs correctly","Navigate with transport and direction vocabulary","Combine city places with modal sentences"]},
   {type:"tip",title:"The 6 Modal Verbs at a Glance",text:"You now know all 6 core German modal verbs:\n\nkönnen = can (ability/possibility)\nmüssen = must (necessity/obligation)\nwollen = want (desire/intention)\ndürfen = may (permission)\nsollen = should (external expectation)\nmöchten = would like (polite wish, A2)\n\nAll share the same rule: MAIN VERB goes to the END.\nIch kann ... sprechen.\nIch muss ... gehen.\nIch will ... lernen.",deepDive:{title:"Modal verb sentence frame",text:"The core frame for all modals:\n\nSubject + Modal (pos.2) + [middle field] + Infinitive (END)\n\nIch (S) + kann (modal) + gut Deutsch (middle) + sprechen (end).\nWir (S) + müssen (modal) + jetzt (middle) + gehen (end).\nDu (S) + darfst (modal) + hier nicht (middle) + rauchen (end).\n\nNotice: negation (nicht), adverbs (jetzt, gut), and objects all go in the middle field. The infinitive is always LAST."}},
@@ -2274,6 +2416,58 @@ export default [
   {type:"mc",q:"Ein halbes Kilo means:",opts:["Half a kilogram (500g)","One and a half kilos","A hundred grams","Two kilos"],ans:"Half a kilogram (500g)",hint:"halb = half. Ein halbes Kilo = 500g."},
 ]},
 
+// ═══ Clothing (D112 A1 vocab gap) ═══
+{id:"deu8l8b",title:"Kleidung",icon:"👔",xp:20,board:true,steps:[
+  {type:"intro",title:"Kleidung",desc:"Clothes shopping in Germany? You need to know what things are called. German clothing nouns have articles (der, die, das) and many have irregular plurals. Learn the essentials for getting dressed and going shopping.",goals:["14 clothing items with articles","Common plurals for clothes","Shopping phrases for clothing stores"]},
+
+  {type:"teach",kind:"word",nl:"das Hemd",en:"the shirt",cognate:{words:[{lang:"English",word:"shirt (related)"}],family:"germanic"},example:"A: Welches Hemd trägst du heute?\nB: Das blaue Hemd. Es ist mein Lieblingshemd.\nA: Es steht dir gut!",exampleEn:"A: Which shirt are you wearing today?\nB: The blue shirt. It is my favorite shirt.\nA: It suits you well!",note:"das Hemd = the shirt (neuter).\nPlural: die Hemden.\nUsually a button-up/dress shirt."},
+
+  {type:"teach",kind:"word",nl:"das T-Shirt",en:"the T-shirt",example:"A: Ist es heute warm genug für ein T-Shirt?\nB: Ja, 25 Grad! Nimm das weiße.\nA: Gute Idee!",exampleEn:"A: Is it warm enough for a T-shirt today?\nB: Yes, 25 degrees! Take the white one.\nA: Good idea!",note:"das T-Shirt = the T-shirt (neuter).\nPlural: die T-Shirts.\nBorrowed from English. Pronounced like English."},
+
+  {type:"teach",kind:"word",nl:"die Hose",en:"the pants / trousers",example:"A: Ich brauche eine neue Hose.\nB: Welche Farbe?\nA: Dunkelblau, bitte.",exampleEn:"A: I need new pants.\nB: Which color?\nA: Dark blue, please.",note:"die Hose = the pants (feminine, singular!).\nPlural: die Hosen.\nGerman uses singular for one pair of pants."},
+
+  {type:"teach",kind:"word",nl:"die Schuhe",en:"the shoes",example:"A: Schöne Schuhe! Wo hast du die gekauft?\nB: Im Schuhgeschäft in der Stadtmitte.\nA: Die passen perfekt zu deiner Jacke.",exampleEn:"A: Nice shoes! Where did you buy them?\nB: In the shoe shop in the city center.\nA: They match your jacket perfectly.",note:"der Schuh = the shoe (masculine, singular).\ndie Schuhe = the shoes (plural).\nAlmost always used in plural."},
+
+  {type:"teach",kind:"word",nl:"das Kleid",en:"the dress",cognate:{words:[{lang:"Dutch",word:"kleed"}],family:"germanic"},example:"A: Das Kleid ist wunderschön!\nB: Danke! Es ist neu.\nA: Welche Größe trägst du?",exampleEn:"A: The dress is beautiful!\nB: Thanks! It is new.\nA: What size do you wear?",note:"das Kleid = the dress (neuter).\nPlural: die Kleider.\ndie Kleidung = clothing (collective noun)."},
+
+  {type:"teach",kind:"word",nl:"die Jacke",en:"the jacket",cognate:{words:[{lang:"English",word:"jacket"},{lang:"French",word:"jaquette"}],family:"borrowed"},example:"A: Nimm eine Jacke mit! Es wird kalt.\nB: Welche Jacke?\nA: Die schwarze. Die ist warm genug.",exampleEn:"A: Take a jacket! It will be cold.\nB: Which jacket?\nA: The black one. It is warm enough.",note:"die Jacke = the jacket (feminine).\nPlural: die Jacken.\nLighter than der Mantel (coat)."},
+
+  {type:"teach",kind:"word",nl:"der Mantel",en:"the coat",cognate:{words:[{lang:"English",word:"mantle"}],family:"germanic"},example:"A: Im Winter brauche ich einen warmen Mantel.\nB: Hast du den grauen Mantel gesehen?\nA: Ja, der ist perfekt!",exampleEn:"A: In winter I need a warm coat.\nB: Have you seen the grey coat?\nA: Yes, that one is perfect!",note:"der Mantel = the coat (masculine).\nPlural: die Mäntel (umlaut!).\nHeavier and warmer than die Jacke."},
+
+  {type:"teach",kind:"word",nl:"der Pullover",en:"the sweater / pullover",cognate:{words:[{lang:"English",word:"pullover"}],family:"borrowed"},example:"A: Der Pullover ist sehr weich!\nB: Ja, er ist aus Wolle.\nA: Wolle hält warm.",exampleEn:"A: The sweater is very soft!\nB: Yes, it is made of wool.\nA: Wool keeps you warm.",note:"der Pullover = the sweater (masculine).\nPlural: die Pullover (no change!).\nOften shortened to Pulli in casual speech."},
+
+  {type:"teach",kind:"word",nl:"die Socken",en:"the socks",example:"A: Wo sind meine Socken?\nB: In der Schublade.\nA: Ich finde nur eine Socke!",exampleEn:"A: Where are my socks?\nB: In the drawer.\nA: I can only find one sock!",note:"die Socke = the sock (feminine, singular).\ndie Socken = the socks (plural).\nUsually used in plural."},
+
+  {type:"teach",kind:"word",nl:"der Rock",en:"the skirt",example:"A: Der Rock ist zu kurz.\nB: Nein, die Länge ist perfekt!\nA: Hast du eine andere Größe?",exampleEn:"A: The skirt is too short.\nB: No, the length is perfect!\nA: Do you have another size?",note:"der Rock = the skirt (masculine!).\nPlural: die Röcke (umlaut!).\nFalse friend: Rock in English = Fels in German."},
+
+  {type:"teach",kind:"word",nl:"der Schal",en:"the scarf",example:"A: Es ist windig. Nimm einen Schal mit!\nB: Den roten oder den blauen?\nA: Den roten, der ist wärmer.",exampleEn:"A: It is windy. Take a scarf!\nB: The red one or the blue one?\nA: The red one, it is warmer.",note:"der Schal = the scarf (masculine).\nPlural: die Schals.\nWarm accessory for cold German winters."},
+
+  {type:"teach",kind:"word",nl:"der Gürtel",en:"the belt",example:"A: Diese Hose ist zu weit.\nB: Brauchst du einen Gürtel?\nA: Ja, den braunen bitte.",exampleEn:"A: These pants are too loose.\nB: Do you need a belt?\nA: Yes, the brown one please.",note:"der Gürtel = the belt (masculine).\nPlural: die Gürtel (no change).\nAlso means zone: der Sicherheitsgürtel = seatbelt."},
+
+  {type:"teach",kind:"word",nl:"die Stiefel",en:"the boots",example:"A: Im Herbst trage ich immer Stiefel.\nB: Welche Stiefel?\nA: Die schwarzen Lederstiefel.",exampleEn:"A: In autumn I always wear boots.\nB: Which boots?\nA: The black leather boots.",note:"der Stiefel = the boot (masculine, singular).\ndie Stiefel = the boots (plural, no change).\nCommon compound: Winterstiefel, Regenstiefel."},
+
+  {type:"teach",kind:"word",nl:"die Handschuhe",en:"the gloves",example:"A: Vergiss deine Handschuhe nicht!\nB: Danke, es ist minus 5 Grad.\nA: Ohne Handschuhe ist es zu kalt.",exampleEn:"A: Do not forget your gloves!\nB: Thanks, it is minus 5 degrees.\nA: Without gloves it is too cold.",note:"der Handschuh = the glove (masculine).\nLiterally: Hand + Schuh = hand shoe!\ndie Handschuhe = the gloves (plural)."},
+
+  {type:"tip",title:"Clothing Plurals: Three Patterns",text:"German clothing plurals follow common patterns:\n\n1. Add -n or -en: die Hose -> die Hosen, die Socke -> die Socken\n2. Umlaut + -e: der Rock -> die Röcke, der Mantel -> die Mäntel\n3. No change: der Pullover -> die Pullover, der Stiefel -> die Stiefel\n\nTip: Many masculine nouns with -el or -er keep their plural unchanged.",deepDive:{title:"Shopping for clothes in Germany",text:"In German clothing stores, sizes follow EU standards:\n\nDE women: 34, 36, 38, 40, 42 (approx US 4, 6, 8, 10, 12)\nDE men: 46, 48, 50, 52, 54\nShoe sizes: EU 36-46 (different from US/UK)\n\nUseful phrases:\nHaben Sie das in Größe 40? (Do you have this in size 40?)\nKann ich das anprobieren? (Can I try this on?)\nDie Umkleidekabine ist dort. (The fitting room is over there.)"}},
+
+  {type:"mc",q:"What is the German word for 'coat'?",opts:["die Jacke","der Mantel","der Pullover","das Hemd"],ans:"der Mantel",hint:"Heavier outerwear for cold weather. Cognate of 'mantle'."},
+
+  {type:"mc",q:"'der Rock' in German means:",opts:["rock music","the skirt","the coat","the belt"],ans:"the skirt",hint:"This is a false friend. It looks like English rock but means something different."},
+
+  {type:"fb",s:"Im Winter trage ich einen warmen ___ und Handschuhe.",a:"Mantel",opts:["Mantel","Hose","Hemd","Rock"],hint:"Heavy outerwear needed for cold winter days."},
+
+  {type:"match",pairs:[{nl:"das Hemd",en:"the shirt"},{nl:"die Hose",en:"the pants"},{nl:"der Rock",en:"the skirt"},{nl:"die Jacke",en:"the jacket"}]},
+
+  {type:"mc",q:"What does 'Handschuh' literally mean?",opts:["Hand shoe","Hand cover","Warm hand","Finger hat"],ans:"Hand shoe",hint:"Break the compound: Hand + Schuh."},
+
+  {type:"mc",q:"Which plural uses an umlaut?",opts:["die Hemden","die Socken","die Mäntel","die Pullover"],ans:"die Mäntel",hint:"Mantel becomes Mäntel. The a changes to ä."},
+
+  {type:"fb",s:"Schöne ___! Wo hast du die gekauft?",a:"Schuhe",opts:["Schuhe","Hose","Kleid","Mantel"],hint:"These come in pairs and you wear them on your feet."},
+
+  {type:"drag_fill",s:"Ich brauche {1}, {2} und einen {3}.",blanks:{"1":"eine Hose","2":"Schuhe","3":"Gürtel"},pool:["eine Hose","Schuhe","einen Gürtel","ein Kleid","Gürtel"],hint:"Fill in the clothing items: pants, shoes, and a belt."},
+
+  {type:"mc",q:"Which sentence is CORRECT?",opts:["Ich trage eine Pullover.","Ich trage einen Pullover.","Ich trage ein Pullover.","Ich trage der Pullover."],ans:"Ich trage einen Pullover.",hint:"Pullover is masculine. Accusative: einen + masculine noun."},
+]},
 {id:"deu8l8",title:"A1 Abschluss",icon:"🎓",xp:25,board:true,steps:[
   {type:"intro",title:"A1 Abschluss",desc:"You have completed A1 German! This final lesson reviews everything from Units 1-8: greetings, grammar, daily life, and vocabulary.",goals:["Review all A1 grammar patterns across Units 1-8","Consolidate key vocabulary","Prepare for A2"]},
   {type:"tip",title:"Was du auf A1 kannst",text:"You can now:\nGreet and say goodbye (U1)\nIntroduce yourself, say your nationality (U2)\nTalk about family and possessives (U3)\nOrder food and drinks (U4)\nDescribe your daily routine and time (U5)\nDescribe your home (U6)\nAsk for and give directions (U7)\nShop for clothes and use numbers to 1000 (U8)\nCore grammar: sein, haben, modals, accusative, articles, separable verbs, dieser/diese/dieses."},
