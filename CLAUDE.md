@@ -202,6 +202,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D110**: CEFR distribution audit + anti-cramming doctrine + P34 deep enforcement + P51-P54 + Rule 13
 - **D111**: Partial structural audit (sub-level label fixes, automated scans). INCOMPLETE: did not verify vocabulary/grammar completeness.
 - **D112**: Certification-grade audit mandate. P55-P58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
+- **D113**: Two units-spanish.js syntax fixes + CEFR tab grouping bug fix (getCefrInfo band-prefix fallback). Rule 16 created.
 
 ---
 
@@ -975,6 +976,21 @@ Sampling (checking 10% and extrapolating) is NEVER acceptable for vocabulary or 
 ### Why Rule 15 Exists
 D111 ran "automated scans" that checked structural properties (step types, em-dashes, density) but never checked vocabulary completeness because "it would take too long." The entire vocabulary of a language file can be extracted and compared against a word list in seconds with a script. The audit was incomplete not because the task was hard but because nobody wrote the script. Rule 15 makes full verification the default and sampling the exception.
 
+### Rule 16: CEFR Tab Verification After Any New Sub-Level (D113) — MANDATORY
+Whenever a new sub-level ID is introduced in any units file (e.g. units or lessons at A1.3, B1.4, A2.6), verify in the browser that those units appear in the correct CEFR tab on the unit map BEFORE committing.
+
+**Background**: `CEFR_LEVELS` in `src/data/metadata.js` originally only defined sub-levels `.1` and `.2`. `getCefrInfo()` fell back to `CEFR_LEVELS[0]` (A1.1) for any unknown sub-level, dumping all `.3+` units into the A1 tab. D112 sessions introduced sub-levels up to `.8` in French and `.4` in Spanish without anyone noticing. D113 added a band-prefix fallback to `getCefrInfo()` that handles any sub-level automatically — but someone still needs to verify the result in the browser.
+
+**What to check**: After adding any unit or lesson with a sub-level not previously used, open the unit map and confirm the unit appears in the correct A1/A2/B1/B2 tab. If it appears in the wrong tab, `getCefrInfo()` has broken — check `src/data/metadata.js`.
+
+**Do NOT revert or simplify `getCefrInfo()`**. The band-prefix fallback is load-bearing for all sub-levels beyond `.2`. The current implementation:
+```js
+export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LEVELS.find(l=>l.band===levelId)||(levelId&&CEFR_LEVELS.find(l=>levelId.startsWith(l.band+'.')))||CEFR_LEVELS[0];
+```
+
+### Why Rule 16 Exists
+D112 Sessions 1-4 added sub-levels up to A1.3, A2.8, B1.8, B2.6 across French and Spanish. No session verified the unit map after adding them. The bug was invisible in the data (the `level` field was correct on every unit) but broke the UI (units appeared in the wrong tab). The owner spotted it from a screenshot. A 30-second browser check per session would have caught this immediately.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -1108,7 +1124,9 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 
 **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (esp17l8b, 23), abstract (esp19l8b, 23), legal (esp20l8b, 23), media (esp21l8b, 22), feelings (esp23l8b, 23), workplace (esp24l8b, 25). 257 lessons total. Total teach cards: ~1,062+.
 
-**Spanish needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
+**D113 BUG FIXES (2026-03-17)**: Two syntax errors fixed: esp20l8b and esp24l8b were inserted after their unit's closing `]}` instead of inside the lessons array. Also fixed: CEFR tab grouping bug where all sub-levels beyond .2 (B1.3, A2.4, etc.) were falling back to A1 tab due to getCefrInfo() missing a band-prefix fallback. Both bugs affected production. See D113 in DECISION_LOG.md.
+
+**Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES — D112 CERTIFICATION-GRADE AUDIT (IMMEDIATE)
 
 **This is a multi-session project.** Each session focuses on ONE language and completes ALL 15 P53 checklist items.
@@ -1175,3 +1193,4 @@ Every language expansion MUST follow this workflow:
 22. **Communicative functions are as important as grammar.** CEFR tests what learners can DO, not just what they know. Every communicative function at each level (introduce self, express opinions, negotiate, write essays) must map to practice lessons. (P58, D112)
 23. **No sampling for completeness audits.** When checking vocabulary or grammar completeness, check EVERY item — not a sample. Scripts can compare full lists in seconds. Sampling is only acceptable for P8 leak checks (requires human judgment). (Rule 15, D112)
 24. **Every claim needs an official source.** "I think this word is B1" is not evidence. "Goethe-Wortliste B1, page 23" is evidence. Uncited vocabulary/grammar claims in audits are REJECTED. (Rule 14, D112)
+25. **After adding any new sub-level, verify the unit map in the browser.** `getCefrInfo()` now handles sub-levels beyond `.2` via band-prefix fallback, but visually confirm units appear in the correct CEFR tab before committing. Never revert or simplify `getCefrInfo()` — the band-prefix fallback is load-bearing. (Rule 16, D113)

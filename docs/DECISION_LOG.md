@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-17 (D1-D112. D86+ in CLAUDE.md)
+> Last updated: 2026-03-17 (D1-D113. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D113 | CEFR Tab Grouping Bug Fix + units-spanish.js Syntax Fixes | Engine Fix | All |
 | D112 | Certification-Grade Vocabulary & Grammar Audit Mandate | Architecture/Pipeline/Audit | All |
 | D111 | Partial Structural Audit (Sub-Level Fixes Only) — INCOMPLETE | Audit | All |
 | D110 | CEFR Distribution Audit + Anti-Cramming Doctrine + P34 Deep Enforcement | Architecture/Pipeline/Audit | All |
@@ -543,6 +544,42 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
 **Why D111 is INCOMPLETE**: The owner identified that the audit was still structural-only. It checked labels and patterns but never opened an official vocabulary list and compared it word-by-word against the teach cards. The fundamental question "does a learner who completes LingoVerse have all the vocabulary they need to pass the official exam?" was never answered. This triggered D112.
 
 **Status**: INCOMPLETE. Superseded by D112.
+
+---
+
+## D113: CEFR Tab Grouping Bug Fix + units-spanish.js Syntax Fixes (2026-03-17)
+
+**Problems found after D112 Session 4 deployment:**
+
+**Bug 1 — units-spanish.js syntax errors (2 occurrences)**
+D112 Session 4 inserted two new lessons (`esp20l8b` and `esp24l8b`) AFTER their respective unit's closing `]}` instead of INSIDE the lessons array. This created floating lesson objects outside any unit, causing a JS syntax error that broke the GitHub Actions build. The site failed to deploy.
+
+Root cause: The content agent appended new lessons after the unit-closing brackets instead of before them. The build failed with "Expected ',' got '{'" at line 3847.
+
+Fix: Removed the premature unit closings before `esp20l8b` and `esp24l8b`. Both lessons are now correctly nested inside their unit's lessons arrays. Two stray commas also removed.
+
+**Bug 2 — CEFR tab grouping: units with sub-levels .3+ appeared in wrong tab (ALL languages)**
+`CEFR_LEVELS` in `src/data/metadata.js` only defined sub-level entries up to `.2` (A1.1, A1.2, A2.1, A2.2, B1.1, B1.2, B2.1, B2.2). The `getCefrInfo()` function had three fallbacks: (1) exact id match, (2) exact band match, (3) hard fallback to `CEFR_LEVELS[0]` (A1.1).
+
+D112 sessions added curriculum with sub-levels beyond `.2` — Spanish has up to A1.3, A2.4, B1.4. French has A1.3, A2.1-A2.8, B1.1-B1.8, B2.1-B2.6. Any unit with a sub-level beyond `.2` hit the hard fallback and was dumped into the A1 tab. In production, B1 units were visually appearing inside the A2 or A1 tab sections. The sub-level label on the card was correct (e.g. "B1.3") but the containing tab was wrong.
+
+Fix: Added a third fallback to `getCefrInfo()` — if no exact id match and no exact band match, check whether the levelId starts with any known band prefix + '.'. So "B1.3" matches band "B1", "A2.4" matches "A2", etc. This is future-proof: sub-levels .5, .6, .7, .8 and any future values work automatically.
+
+```js
+// Before (broken for .3+):
+export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LEVELS.find(l=>l.band===levelId)||CEFR_LEVELS[0];
+
+// After (fixed, future-proof):
+export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LEVELS.find(l=>l.band===levelId)||(levelId&&CEFR_LEVELS.find(l=>levelId.startsWith(l.band+'.')))||CEFR_LEVELS[0];
+```
+
+**Affected languages**: Spanish and French most severely (many sub-levels beyond .2). German, Korean, Dutch were unaffected (all use only .1 and .2).
+
+**New pipeline rule added**: See Rule 16 in CLAUDE.md — whenever a new sub-level ID is introduced in any units file, the developer must verify the unit map renders that unit in the correct CEFR tab in the browser before committing.
+
+**Files changed**:
+- `src/data/metadata.js` — `getCefrInfo()` fix (1 line)
+- `src/data/units-spanish.js` — 2 syntax fixes (5 lines total)
 
 ---
 
