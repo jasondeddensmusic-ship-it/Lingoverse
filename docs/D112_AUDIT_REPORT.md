@@ -197,6 +197,54 @@ These domains are missing across ALL 5 languages and are A1 essentials:
 
 ---
 
+## OFFICIAL SOURCE VERIFICATION (Rule 14)
+
+Research completed 2026-03-17. Key findings that CORRECT previous CLAUDE.md assumptions:
+
+### Korean
+- **NIKL 한국어 학습용 어휘 목록**: 5,965 words in 3 grades (A=982, B=2,111, C=2,872). Official, downloadable from korean.go.kr.
+- **TOPIK I vocabulary**: ~1,671 words (academic compilation from learning-korean.com, NOT official NIIED publication).
+- **TOPIK II vocabulary**: ~3,900 words total (from koreantopik.com, citing NIIED past exams).
+- **TOPIK grammar**: ~100 beginner patterns + ~90 intermediate patterns (academic analysis of 17 TOPIK tests, NOT official NIIED list).
+- **CORRECTION**: No single "official TOPIK grammar list" exists. Commonly cited lists are derived from exam paper analysis.
+
+### German
+- **Goethe A1 Wortliste**: ~650 words. Official PDF confirmed.
+- **Goethe A2 Wortliste**: ~1,300 words. Official PDF confirmed (Hueber, 2016).
+- **Goethe B1 Wortliste**: ~2,400 words. Official PDF confirmed (joint Goethe/Freiburg/OSD).
+- **CORRECTION**: No official Goethe B2 Wortliste exists. Best proxy: Aspekte neu B2 or Sicher! B2 textbook lists.
+- **Grammar**: No standalone grammar inventory per level. Grammar expectations embedded in Prufungsziele documents.
+
+### French
+- **CORRECTION**: No official DELF vocabulary lists exist. CIEP/France Education International does NOT publish word-count-based lists.
+- **Best proxy**: Eaquals Core Inventory for French (2015), jointly published by Eaquals, CIEP, Eurocentres, CASLT.
+- **Referentiel de l'Alliance Francaise**: Exists as paid books (CLE International). Contains vocabulary inventories but no published word counts.
+- **Estimated vocabulary**: A1 ~500-600, A2 ~1,000-1,200, B1 ~2,000-2,500, B2 ~4,000-5,000 (teaching consensus, NOT official).
+
+### Spanish
+- **PCIC (Plan Curricular del Instituto Cervantes)**: Freely available online at cvc.cervantes.es. Contains vocabulary per domain (20 Nociones Especificas) per CEFR level A1-C2.
+- **PCIC Grammar**: Complete grammar inventory per level, freely accessible. THIS IS THE BEST OFFICIAL SOURCE of any of the 5 languages.
+- **CORRECTION**: PCIC does NOT publish total word counts per level. Totals require manual tallying across 20 domains.
+
+### Dutch
+- **CORRECTION**: No "NT2 Basiswoordenlijst (~4,000 words)" exists as claimed in CLAUDE.md. The actual NT2 vocabulary framework is:
+  - *A Frequency Dictionary of Dutch* (Routledge, 2014): 5,000 most frequent words
+  - CvTE Aanvullende Woordenlijst (~200-250 supplementary words, published 2023)
+  - Programma I (B1): Core + General lists only. Programma II (B2): All 6 frequency lists.
+- **NT2 Vocabulary Test**: Measures knowledge of 7,000 word families.
+- **Grammar**: No official standalone grammar inventory found.
+
+### Impact on D112 Targets
+
+The "official exam requirement" numbers in the Executive Summary are ESTIMATES, not verified counts:
+- Korean: NIKL 5,965 is official. TOPIK-specific ~3,900 is academic compilation.
+- German: A1-B1 totals (~4,350) are official. B2 (~1,500 additional) is estimated.
+- French: ALL numbers are estimates. No official source provides totals.
+- Spanish: PCIC is official but provides domain-organized lists, not totals.
+- Dutch: Frequency Dictionary 5,000 is the actual framework, not "NT2 Basiswoordenlijst 4,000."
+
+---
+
 ## NEXT SESSIONS NEEDED
 
 This audit reveals that achieving full certification-grade vocabulary (P55) requires adding approximately **3,000-4,500 new teach cards per language**, totaling **~17,000 new teach cards across all 5 languages**. This is a multi-session, multi-week project.
