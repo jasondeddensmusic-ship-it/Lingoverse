@@ -13038,7 +13038,9 @@ export default function App(){
       {showSearch&&(()=>{
         const SL={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
         const q=searchQuery.trim();
-        const results=q.length>=2?searchUnits(q,lang):[];
+        const nonLatin=/[\u1100-\u11FF\uAC00-\uD7AF\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0400-\u04FF]/.test(q);
+        const minLen=nonLatin?1:2;
+        const results=q.length>=minLen?searchUnits(q,lang):[];
         const snip=(text)=>{
           if(!text||!q)return"";
           const idx=text.toLowerCase().indexOf(q.toLowerCase());
@@ -13056,10 +13058,10 @@ export default function App(){
               />
               {searchQuery&&<span className="sf-clr" onClick={()=>setSearchQuery("")}>✕</span>}
             </div>
-            {q.length>=2&&<div className="sf-cnt">{results.length===0?"No results":results.length>=80?"80+ — refine to narrow":`${results.length} result${results.length===1?"":"s"}`}</div>}
+            {q.length>=minLen&&<div className="sf-cnt">{results.length===0?"No results":results.length>=80?"80+ — refine to narrow":`${results.length} result${results.length===1?"":"s"}`}</div>}
             <div className="sf-list">
-              {q.length<2&&<div className="sf-empty"/>}
-              {q.length>=2&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
+              {q.length<minLen&&<div className="sf-empty"/>}
+              {q.length>=minLen&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
               {results.map((r,i)=>{
                 const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
                 const band=(r.unit.level||"xx").slice(0,2).toLowerCase().replace(".","");
