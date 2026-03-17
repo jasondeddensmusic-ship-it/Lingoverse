@@ -183,14 +183,38 @@ Units and lessons must reflect the actual complexity of the language, not a pred
 
 | Language | Structural complexity vs Dutch | Minimum unit count |
 |----------|-------------------------------|-------------------|
-| Dutch | Baseline | 20 units (done) |
+| Dutch | Baseline | 20 units (done, 30 with B2) |
 | German | Higher (case system, verb-final subordinate clauses, separable verbs) | 20+ units |
 | French | Similar to Dutch | 20 units |
 | Spanish | Similar, plus ser/estar complexity, subjunctive | 20 units |
-| Korean | Higher than Dutch (honorifics, agglutinative morphology, 5 irregular families, evidentiality) | **20 units** (corrected) |
+| Korean | Higher than Dutch (honorifics, agglutinative morphology, 5 irregular families, evidentiality) | **30 units** (A1-B2 complete) |
 | Arabic | Highest among launch languages (diglossia, trilateral roots, dual/broken plural, VSO order, case system, gender agreement on all adjectives) | **24+ units recommended** |
 
 **Rule:** When in doubt, add lessons. A learner who finishes a longer course having truly internalized the language is worth more than a learner who rushed through a shorter course and retained nothing. This product is not competing on shortest time to completion. It is competing on deepest comprehension.
+
+## The Anti-Cramming Doctrine (P54, D110) — THE MOST IMPORTANT CONTENT RULE
+
+This doctrine supersedes and strengthens the Unit Count Doctrine above. Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet.
+
+**The core principle:** Approach each language open-mindedly. FIRST catalogue ALL concepts that CEFR requires at each level for this specific language. THEN cross-reference against established language learning models, textbooks, and official exam frameworks. THEN determine how many units and lessons are needed. THEN build. Never start with "30 units, 8 lessons each" and work backwards.
+
+**CEFR Distribution Rules (P51):**
+- B1+B2 combined must NEVER have fewer units than A1+A2 combined. Advanced levels are where real learning depth lives.
+- Gold standard distribution (Korean/Dutch): 6 A1 + 4 A2 + 10 B1 + 10 B2 = 30 units. This is NOT mandatory for all languages, but deviations must be justified by the language's specific needs.
+- Sub-level labels must be consistent within each language (no gaps like A1.1 -> A1.4 skipping A1.2/A1.3).
+
+**The violation that created this doctrine (D110):**
+In March 2026, German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) were all built with a mechanical template that front-loaded A-level content and compressed B-level content. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection. Twelve audit agents running for hours did not. This is now the most important content rule in the entire pipeline.
+
+## Strict Teach-Before-Use (P52)
+
+Tightening of P34. "Taught" means the word has its OWN dedicated teach card.
+
+- A word appearing ONLY in another card's `example` field does NOT count as taught vocabulary. The learner has no card to review.
+- A word mentioned ONLY in a `deepDive` does NOT count as taught vocabulary.
+- Every word in any quiz step must trace to a prior dedicated teach card in the same or earlier unit.
+- If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`.
+- The field names `nl` (target) and `en` (source) are legacy Dutch-English naming. Future rename to `tgt`/`src` tracked as scaling blocker #6.
 
 ---
 

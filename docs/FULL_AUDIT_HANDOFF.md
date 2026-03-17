@@ -1,171 +1,183 @@
-# Full Curriculum Audit Handoff — All 5 Languages
+# Full Curriculum Audit Handoff — D111: Structural + Deep Audit
 
 > **Date**: 2026-03-17
-> **Predecessor**: D108 (Spanish A1-B2 COMPLETE). Phase 1 Content is DONE. All 5 launch languages built.
-> **Goal**: Verify EVERY language is CEFR-correct, pipeline-compliant, and pedagogically complete.
-> **STATUS: AUDIT COMPLETE (D109, 2026-03-17)**. Full results in `docs/FULL_AUDIT_REPORT.md`. 694 fixes applied across all languages. All 5 languages PASS structural, CEFR, and pipeline checks. Minor vocab gaps documented for future deep audits.
+> **Predecessor**: D109 (Cross-Language Audit — RETROACTIVELY INCOMPLETE per D110). D110 (CEFR Distribution Audit + Anti-Cramming Doctrine).
+> **Goal**: Fix CEFR distribution across German/French/Spanish. Deep P52 teach-before-use verification across ALL 5 languages. Full P53 completeness checklist.
+> **STATUS: PENDING**. This audit has NOT been started. D109 is INCOMPLETE. D111 is the corrective audit.
+
+---
+
+## WHY THIS AUDIT EXISTS (D110)
+
+D109 deployed 12 agents, found 694 issues, and was marked COMPLETE. But it missed a fundamental structural flaw:
+
+| CEFR | Korean | Dutch | German | French | Spanish |
+|------|--------|-------|--------|--------|---------|
+| A1   | 6      | 6     | **8**  | **8**  | **8**   |
+| A2   | 4      | 4     | **8**  | **8**  | **8**   |
+| B1   | 10     | 10    | **7**  | **8**  | **8**   |
+| B2   | 10     | 10    | **6**  | **6**  | **6**   |
+
+The gold standards (Korean/Dutch) use **6-4-10-10**. The newer languages are **front-loaded** with A-level content (16 units) and **starved** at B-level (12-13 units). The owner spotted this in 30 seconds. The audit agents never checked it.
+
+D109 also never verified strict teach-before-use (P52): whether every quiz word traces to a prior dedicated teach card (not just "does a teach card exist somewhere").
 
 ---
 
 ## CRITICAL PHILOSOPHY — READ BEFORE AUDITING
 
+### P54: The Anti-Cramming Doctrine (THE MOST IMPORTANT RULE)
+
+Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet.
+
+- If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units.
+- If a language only needs 10 units, it gets 10 units.
+- The number of units per CEFR level is determined by the CONCEPTS that need to be taught at that level, compared against established language learning models, textbooks, and official exam frameworks. NOT by a template.
+- Every grammar construct deserves the space it needs. A concept that gets a full unit in a textbook does not get squeezed into one lesson.
+- Agents must approach each language OPEN-MINDEDLY: first catalogue ALL concepts CEFR requires at each level, THEN determine how many units/lessons are needed, THEN assess the current state.
+- Every language is different. Every language deserves its own lesson-count, unit-count, breadth and depth. Source language proximity matters.
+
+### P52: Strict Teach-Before-Use (NON-NEGOTIABLE)
+
+"Taught" means the word has its OWN dedicated teach card with target-language and source-language fields.
+
+- A word appearing ONLY in another card's `example` field does NOT count as taught.
+- A word mentioned ONLY in a `deepDive` does NOT count as taught.
+- A word used ONLY in a `tip` text does NOT count as taught.
+- Every word in any quiz step (mc, fb, drag_fill, tr, match) must trace to a prior dedicated teach card.
+- If a teach card's example sentence uses an untaught word, that word MUST be explained in the `note` or `deepDive` field.
+
 ### Languages are NOT locked to rigid formats.
-The current builds used 30 units / 8 lessons per unit / 18+ steps as a baseline. **That baseline is a FLOOR, not a ceiling.** Every language needs the time and space to get ALL constructs and nuances across properly. Consider:
 
-- **Korean already has more lessons** (~311 vs 240 for others) because it needs them (agglutinative morphology, honorific system, Sino-Korean compounds).
-- **If a language needs 35 units for B2, it gets 35 units.** If a unit needs 10 lessons instead of 8, it gets 10.
-- **Nothing should feel crammed.** If a CEFR-required grammar construct is squeezed into a single teach card inside a lesson about something else, that's a FAIL. Major grammar gets dedicated lessons.
-- **18 steps is a minimum, not a target.** Complex grammar (German cases, French subjunctive, Spanish ser/estar deep dive) may need 22-25 steps per lesson. Build what the content needs.
+The current builds used 30 units / 8 lessons per unit / 18+ steps as a baseline. **That baseline is a FLOOR, not a ceiling.** Every language needs the time and space to get ALL constructs and nuances across properly.
 
-### Vocabulary MUST have full teach cards.
-This is NON-NEGOTIABLE:
-
-- **A word taught only in an example sentence of a DIFFERENT word's teach card does NOT count as taught vocabulary.** The learner has no card to review, no explicit exposure, no quiz on that specific word.
-- **A word mentioned only in a deepDive (optional "more info" section) does NOT count as taught vocabulary.** DeepDives are for curious learners. The core path must stand alone.
-- **Every vocabulary item that appears in ANY quiz (mc, fb, drag_fill, match, tr) MUST have its own dedicated teach card FIRST (P34).** No exceptions.
-- **If the audit finds vocabulary used in quizzes without a prior teach card, that is a P34 violation that MUST be fixed**, either by adding a teach card before the quiz, or by replacing the quiz word with one that has been taught.
-
-### The audit standard is Korean (D92/D93 + D102 for Dutch).
-Korean went through 14 audit rounds (D92) + 7 more (D93) + a full TOPIK/TTMIK gap analysis. Dutch went through 10 audit rounds (D102). German, French, and Spanish have only had surface-level quality scans. They need the DEEP treatment now.
+- **Korean already has more lessons** (~311 vs 240 for others) because it needs them.
+- **If a language needs 35 units for B2, it gets 35 units.**
+- **Nothing should feel crammed.** If a CEFR-required grammar construct is squeezed into a single teach card inside a lesson about something else, that's a FAIL.
+- **18 steps is a minimum, not a target.** Complex grammar may need 22-25 steps per lesson.
 
 ---
 
-## WHAT TO AUDIT — PER LANGUAGE
+## P53: AUDIT COMPLETENESS CHECKLIST — ALL 9 ITEMS MUST PASS
 
-Run these checks for **each** of the 5 languages (Korean, Dutch, German, French, Spanish):
+Every language must PASS all 9 items. Missing ANY = audit INCOMPLETE.
 
-### 1. STRUCTURAL VALIDATION (automated — run Node.js script)
-Use the Rule 10 (D104) validation script template from CLAUDE.md:
-- No undefined/null array elements
-- Unit ordering sequential (n:1 through n:30)
-- All lessons have board:true
-- All lessons meet density minimum (Korean: 20+, others: 18+)
-- All mc steps have ans matching one of opts
-- All fb steps have a field, no {2}/{3} in s field (P48)
-- All teach steps have nl and en
-- All drag_fill steps have blanks object and pool array
-- All match steps have pairs array
-
-### 2. CEFR GRAMMAR COVERAGE — THE REAL AUDIT
-For each language, verify against the official CEFR grammar inventory AND the relevant national exam framework:
-
-| Language | CEFR reference | National exam | Additional reference |
-|----------|---------------|---------------|---------------------|
-| Korean | CEFR A1-B2 | TOPIK I+II | TTMIK Levels 1-9 |
-| Dutch | CEFR A1-B2 | NT2 (inburgering) | — |
-| German | CEFR A1-B2 | Goethe-Zertifikat / telc | — |
-| French | CEFR A1-B2 | DELF / TCF | — |
-| Spanish | CEFR A1-B2 | DELE / SIELE | Instituto Cervantes Plan Curricular |
-
-**For each grammar construct**: grep the actual units file. Evidence = grep output. "I read the file" is NOT evidence (Rule 6).
-
-#### CEFR A1 Grammar (ALL languages must cover):
-- Basic sentence structure (SVO/SOV/V2 as appropriate)
-- Present tense (regular + key irregulars)
-- Articles / determiners
-- Negation
-- Basic question formation
-- Possessives
-- Basic prepositions (location, time)
-- Numbers (0-100+)
-- Time expressions
-- Basic adjectives (agreement if applicable)
-- Personal pronouns
-- Demonstratives
-- There is/are (il y a, hay, es gibt, er is/zijn, 있다/없다)
-
-#### CEFR A2 Grammar (ALL languages):
-- Past tense(s) — at least one past form fully taught
-- Future expression — at least one future form
-- Comparatives and superlatives
-- Object pronouns (where applicable)
-- Reflexive verbs (where applicable)
-- Basic subordinate clauses (because, when, if, that)
-- Modal verbs / modal expressions
-- Imperative mood
-- Irregular verb patterns (key irregulars for the language)
-
-#### CEFR B1 Grammar (ALL languages):
-- All past tenses for the language (perfective vs imperfective distinction)
-- Passive voice
-- Conditional mood
-- Relative clauses
-- Indirect/reported speech
-- Subjunctive/similar mood (if applicable: French, Spanish, German Konjunktiv)
-- Advanced connectors (although, despite, in order to, unless)
-- Infinitive constructions
-- Nominalization basics
-
-#### CEFR B2 Grammar (ALL languages):
-- Advanced subjunctive/conditional (past forms)
-- Complex sentence structures (participial, cleft, inversion)
-- Discourse markers and hedging
-- Formal vs informal register distinction
-- Academic/professional writing patterns
-- National exam preparation content
-- Advanced passive alternatives
-- Proverbs/idioms/figurative language
-
-### 3. VOCABULARY COVERAGE AUDIT
-For each language at each CEFR level, verify these CORE vocabulary domains have dedicated teach cards (not just mentions in examples):
-
-**A1 domains**: Greetings, family, numbers, colors, food/drink, daily routine, home/rooms, body parts, weather, clothing, transport, days/months
-**A2 domains**: Shopping, travel, health/body, hobbies, work/jobs, animals, emotions, restaurant, directions, school/education
-**B1 domains**: Media/news, environment, technology, culture, society, relationships, opinions, workplace, formal correspondence
-**B2 domains**: Politics, economics, science, art/literature, philosophy, debate/argumentation, academic writing, professional contexts
-
-**For each domain**: Count the number of dedicated teach cards. If a domain has fewer than 5 teach cards across the entire curriculum, flag it.
-
-### 4. PIPELINE RULE COMPLIANCE
-- **P8 (Anti-Leak)**: Sample 10 mc steps per level per language. Check hint doesn't reveal answer. Check option lengths balanced.
-- **P22c (No Em-Dashes)**: Grep for — in all content
-- **P34 (Teach Before Test)**: Sample 10 quiz steps per language. Verify every tested word has a prior teach card.
-- **P44 (No Lazy Hints)**: Grep for hints shorter than 15 characters
-- **P48 (Step Type)**: Automated in structural script
-- **P49 (No CEFR in Learner Content)**: Grep for A1/A2/B1/B2/C1/C2 in q/opts/ans fields
-
-### 5. POLYGLOT VISION ALIGNMENT
-For each language, verify:
-- **Structural metaphor present**: Korean=Train, Dutch=Slot, German=Frame, French=Agreement Web, Spanish=Conjugation Tower
-- **LEGO Principle (P24)**: Compound words decomposed on first appearance
-- **Cultural anchors**: At least 1 per unit, connected to grammar
-- **Show Before Name (P26)**: Major grammar seeded before formal introduction
-- **Reframe cards**: Every "scary" concept gets a reframe (cases, gender, subjunctive, etc.)
-- **Article colors consistent**: de=blue/het=gold (Dutch), der=blue/die=coral/das=purple (German), le=blue/la=coral (French), el=blue/la=coral (Spanish)
-
-### 6. CROSS-LANGUAGE CONSISTENCY
-- All languages have: LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ
-- All use color:"#7B5EE8" (purple)
-- All use board:true on every lesson
-- All use A:/B: dialogue format in teach card examples
-- Lesson ID formats are language-specific and consistent
+| # | Check | What to verify |
+|---|-------|---------------|
+| 1 | **CEFR Distribution (P51)** | Unit-to-CEFR-level mapping is pedagogically sound. B1+B2 >= A1+A2. Sub-level labels consistent. |
+| 2 | **P8 Anti-Leak (all 5 types)** | Visual, script, hint, pattern, position leaks. Sample 10+ mc/fb per level per language. |
+| 3 | **P52 Strict Teach-Before-Use** | Every quiz word traces to a prior dedicated teach card. NOT sampling — full verification for deep audit. |
+| 4 | **P48 Step Type Correctness** | fb = single blank only. Multi-blank = drag_fill with blanks object. Automated grep. |
+| 5 | **P49 No Meta-Curriculum** | No CEFR labels in learner-facing q/opts/ans. Automated grep. |
+| 6 | **P22c No Em-Dashes** | Zero em-dashes in any content string. Automated grep. |
+| 7 | **Density (P43)** | Every lesson meets language minimum (Korean: 20+, others: 18+). Automated script. |
+| 8 | **board:true** | Every lesson has board:true. Automated script. |
+| 9 | **Sub-level Label Consistency** | No gaps or jumps in sub-level labels (A1.1 -> A1.4 skipping A1.2/A1.3 = fail). |
 
 ---
 
-## HOW TO RUN THE AUDIT
+## PHASE 1: CEFR DISTRIBUTION FIX (German, French, Spanish)
 
-### Agent deployment strategy:
-1. **One language at a time.** Don't try to audit all 5 simultaneously — agents will go stale.
-2. **Per language, deploy 2-3 focused agents** (not one massive agent):
-   - Agent 1: Structural validation + P48/P49/P22c (automated scans)
-   - Agent 2: CEFR grammar coverage (grep-based verification)
-   - Agent 3: Vocabulary domain coverage + P8/P34 spot checks
-3. **Use Sonnet for automated scans**, Opus only if judgment calls are needed.
-4. **Collect all results in a single audit report file** per language.
+### Step 1: Catalogue what each language ACTUALLY needs per level
 
-### Agent sizing:
-- Each agent should handle ONE language, ONE aspect.
-- Do NOT ask a single agent to read an 8,000-line file AND do CEFR analysis AND pipeline checks. It will go stale.
-- Structural validation scripts run in seconds — use Bash, not agents.
+For each of German, French, Spanish:
+1. List ALL CEFR grammar constructs required at A1, A2, B1, B2
+2. Cross-reference against the official exam framework (Goethe/DELE/DELF)
+3. Cross-reference against major textbooks (Dreyer & Schmitt / Aula / Grammaire progressive)
+4. Determine how many units and lessons each level ACTUALLY needs
+5. Compare current distribution with the concept-driven distribution
 
-### Reporting:
-Create audit reports at `/tmp/audit-{lang}.md`. Compile into a summary at the end.
+### Step 2: Decide — relabel or restructure?
 
-### If gaps are found:
-1. **Grammar gaps**: Flag with exact CEFR reference and severity (critical = tested on national exam, important = CEFR required, nice-to-have = enrichment)
-2. **Vocabulary gaps**: Flag with domain and minimum cards needed
-3. **Pipeline violations**: Fix immediately if < 10 items. Plan a fix session if > 10.
-4. **If a language needs more units/lessons**: Document exactly what's missing and propose the expansion. Don't cram — add units. The architecture supports any number of units.
+Two options:
+- **Relabel**: If the content is correct but the `level` field values are wrong (e.g., a unit labeled A1.4 actually teaches A2 content), relabel.
+- **Restructure**: If the content itself is misallocated (too much beginner, too little advanced), restructure. This may mean moving content between units or adding new units.
+
+The owner's guidance: "If we need 50 units, SO BE IT. If we only need 10 units, SO BE IT." Follow P54.
+
+### Step 3: Implement the fix
+
+- Update `level` fields on all affected units
+- Verify the fix passes P51 (B1+B2 >= A1+A2, sub-levels consistent)
+- Run structural validation script (Rule 10)
+- Build and verify
+
+---
+
+## PHASE 2: DEEP P52 TEACH-BEFORE-USE VERIFICATION (All 5 languages)
+
+### For each language:
+
+1. **Extract all quiz words.** For every mc/fb/drag_fill/match/tr step, extract all target-language words that the learner must know to answer correctly.
+
+2. **For each quiz word, verify a prior teach card exists.** The teach card must:
+   - Have the word in its `nl` (target) field as the primary entry
+   - Appear BEFORE the quiz step in lesson ordering (same unit earlier lesson, or earlier unit)
+   - NOT just be in another card's `example` field
+
+3. **Flag violations.** For each P52 violation:
+   - The quiz step ID (e.g., deu5l3 step 12)
+   - The word that's untaught
+   - Whether the fix is: (a) add a teach card, or (b) replace the quiz word with a taught word
+
+4. **Fix violations.** Either add teach cards or replace quiz words. Never leave a P52 violation unfixed.
+
+### Methodology:
+
+This is a LARGE task. For each language (~240 lessons, ~4,000+ steps), the agent must:
+- Parse all quiz steps (mc, fb, drag_fill, match, tr)
+- Extract tested words
+- Build a cumulative "taught vocabulary" list by scanning teach cards in lesson order
+- Check each quiz word against the cumulative list
+
+Use automated scripts where possible. Manual spot-checking is insufficient for a deep audit.
+
+---
+
+## PHASE 3: REMAINING P53 CHECKLIST ITEMS
+
+Run all remaining items from the P53 checklist:
+- P8 anti-leak spot checks (10+ per level per language)
+- P48 automated scan
+- P49 automated scan
+- P22c automated scan
+- Density automated script
+- board:true automated script
+- Sub-level label consistency check
+
+Most of these were covered by D109 and should still PASS. But verify — D109 is INCOMPLETE and cannot be trusted without re-verification.
+
+---
+
+## AGENT DEPLOYMENT STRATEGY (Rule 13 — NON-NEGOTIABLE)
+
+### Every audit agent MUST receive in its prompt:
+
+1. **The complete Pipeline Rules** from CLAUDE.md (P8 through P54) — verbatim or as a comprehensive summary with all rule numbers
+2. **The P53 audit completeness checklist** (all 9 items, copy from above)
+3. **The P54 anti-cramming doctrine** (full text, not summary)
+4. **The D110 CEFR distribution flaw** as a cautionary example
+5. **Explicit instruction**: "Validate CEFR distribution FIRST before any content-level checks"
+6. **The language's specific references** (exam framework, textbooks, teaching platforms)
+7. **The exact file paths** to search
+
+### Agent structure:
+
+**Per language, deploy 3 focused agents:**
+
+1. **Structural Agent (Sonnet OK)**: P51 CEFR distribution + P48/P49/P22c automated scans + density + board:true + sub-level labels. This agent handles checklist items 1, 4, 5, 6, 7, 8, 9.
+
+2. **P52 Teach-Before-Use Agent (Opus required)**: Deep vocabulary extraction from quiz steps, cumulative teach card tracking, violation flagging. This agent handles checklist item 3. This is the most compute-intensive task and MUST use Opus.
+
+3. **P8 Anti-Leak Agent (Sonnet OK)**: Spot-check mc/fb hints across all levels. This agent handles checklist item 2.
+
+**Do NOT try to audit all 5 languages simultaneously.** Process one language at a time. Korean and Dutch (gold standards) are verification-only. German, French, and Spanish need active fixes.
+
+### Sizing:
+- Each agent handles ONE language, ONE aspect
+- Do NOT ask one agent to read an 8,000-line file AND do CEFR analysis AND pipeline checks
+- Structural validation scripts run in seconds — use Bash, not agents
+- P52 deep verification is the bottleneck — allocate Opus for this
 
 ---
 
@@ -189,10 +201,10 @@ Also check:
 ## REFERENCE DOCS
 
 Read CLAUDE.md FIRST (single source of truth). Then:
-- `docs/LINGOVERSE_MASTER_BIBLE.md` — full philosophy, per-language standards
-- `docs/POLYGLOT_PIPELINE_STANDARDS.md` — five pillars, pipeline rules, per-language curriculum standards
+- `docs/LINGOVERSE_MASTER_BIBLE.md` — full philosophy, per-language standards, official reference requirements
+- `docs/POLYGLOT_PIPELINE_STANDARDS.md` — five pillars, pipeline rules, per-language curriculum standards, anti-cramming Pillar 6
 - `docs/CONCEPT_REGISTRY.md` — Korean grammar/vocab index (machine-searchable)
-- `docs/DECISION_LOG.md` — all D-numbers (D1-D108)
+- `docs/DECISION_LOG.md` — all D-numbers (D1-D110)
 - `docs/KOREAN_B1_CURRICULUM_DESIGN.md` — B1 design template
 
 ---
@@ -200,10 +212,28 @@ Read CLAUDE.md FIRST (single source of truth). Then:
 ## SUCCESS CRITERIA
 
 The audit is COMPLETE when:
-1. Every language has a structural validation PASS (zero issues) -- **DONE (D109)**
-2. Every CEFR grammar construct A1-B2 is verified as present with grep evidence -- **DONE (D109): Korean 64/64, Dutch 68/69, German PASS, French PASS, Spanish PASS**
-3. Every core vocabulary domain has dedicated teach cards (not just example mentions) -- **DONE with documented gaps: Spanish body parts (MODERATE), German imperative (MODERATE), French weather/months/health (LOW)**
-4. Pipeline scans (P8/P22c/P34/P44/P48/P49) show zero violations -- **DONE (D109): 694 fixes applied. P48=0, P49=0, P22c=0 across all languages**
-5. Polyglot vision elements are verified present (metaphors, LEGO, cultural anchors, seeds) -- **DONE (D109): All structural metaphors present, article colors correct, unit colors purple**
-6. Any gaps are documented with severity and proposed fix -- **DONE: See FULL_AUDIT_REPORT.md recommendations**
-7. If fixes require adding units/lessons — the expansion is planned, not crammed into existing structures -- **N/A: No gaps severe enough to require new units**
+
+1. **P51 CEFR distribution**: German, French, and Spanish have been relabeled or restructured so that the distribution is pedagogically justified and B1+B2 >= A1+A2. The fix has been documented with reasoning.
+
+2. **P52 teach-before-use**: Every quiz word in every language traces to a prior dedicated teach card. Zero P52 violations remain. Evidence: automated verification script output.
+
+3. **P53 full checklist**: All 9 items PASS for all 5 languages. Each item has explicit PASS/FAIL status in the audit report.
+
+4. **P54 compliance**: No evidence of cramming. If a language needs more units, the expansion is planned (not crammed). If units need content moved, the restructuring is documented.
+
+5. **All fixes committed and pushed.** Code changes verified with build pass.
+
+6. **CLAUDE.md updated** with D111 status and any new decisions.
+
+7. **DECISION_LOG.md updated** with D111 entry.
+
+---
+
+## WHAT D109 GOT RIGHT (preserve these)
+
+D109 was not worthless — it caught real issues:
+- 694 content fixes (P8, P22c, P49, mc ans mismatches)
+- CEFR grammar coverage verification with grep evidence
+- Infrastructure validation across all 5 languages
+
+These results are preserved. D111 adds the STRUCTURAL layer that D109 missed and deepens the P34->P52 verification.

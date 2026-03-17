@@ -1,6 +1,6 @@
 # LINGOVERSE — POLYGLOT VISION & PIPELINE STANDARDS
 ## For All Languages · All Agents · All Sessions
-## Version 2.1 | 2026-03-17
+## Version 3.0 | 2026-03-17 | D110: Anti-Cramming Doctrine + P51-P54 + Pillar 6
 
 ---
 
@@ -79,7 +79,7 @@ Examples:
 - French gender: Because all nouns in Latin had gender, and French evolved from Latin. The gender is a historical fossil — but knowing it lets you predict adjective agreement.
 - Arabic VSO order: Because in Classical Arabic, the verb carried so much information (person, gender, number) that the subject was often predictable from the verb alone. The verb comes first because it often contains the whole sentence.
 
-### Pillar 5: Reframe Every Hard Thing
+### Pillar 5: Reframe Every Hard Thing (unchanged)
 Every language's "scary" concepts have a logical structure. The curriculum's job is to find that logic and present it as a feature, not a bug.
 
 | Language | "Scary" concept | The reframe |
@@ -94,6 +94,53 @@ Every language's "scary" concepts have a logical structure. The curriculum's job
 | Spanish | Subjunctive | "Doubt, desire, emotion, and hypotheticals. The mood of the unreal." |
 | Arabic | Script | "28 letters, all consonants. Vowels are context. Once you know the 28, you can read anything." |
 | Arabic | Broken plurals | "They follow patterns. There are 30+ plural patterns but frequency-ranked, only 10 cover most words." |
+
+### Pillar 6: Anti-Cramming Doctrine (P54, D110) — THE MOST IMPORTANT CONTENT RULE
+
+Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of LingoVerse's polyglot vision.
+
+**The doctrine:**
+- If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units and 400 lessons. If it only needs 10 units, it gets 10 units.
+- The number of units per CEFR level is determined by the CONCEPTS that need to be taught at that level, compared against established language learning models (textbooks, official exam frameworks, major teaching platforms). NOT by a template copied from another language.
+- Every grammar construct deserves the space it needs. A concept that gets a full unit in a textbook does not get squeezed into one lesson. A concept that's a single lesson in a textbook does not get inflated into a unit.
+- Agents must approach each language open-mindedly: FIRST catalogue ALL concepts that CEFR requires at each level for this specific language, THEN determine how many units and lessons are needed to teach them properly, THEN build. Never start with "30 units, 8 lessons each" and work backwards.
+- 18 steps is a FLOOR, not a target. Complex grammar may need 25-30 steps. Simple vocabulary may need exactly 18. Build what the content needs.
+- NEVER add filler to reach a count. NEVER compress to fit a quota. The learner's comprehension is the only metric.
+- Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
+
+**The violation that created this pillar:**
+In March 2026, German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 CEFR distribution template. The gold standards (Korean/Dutch) use 6-4-10-10. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection in seconds. Twelve audit agents running for hours did not. This pillar ensures that unit counts and CEFR distributions are always concept-driven, never template-driven.
+
+### CEFR Distribution Rules (P51)
+
+Every audit and every build MUST validate the unit-to-CEFR-level mapping:
+1. B1+B2 combined must NEVER have fewer units than A1+A2 combined (advanced levels are where real learning depth lives)
+2. Distribution must be justified per language based on that language's actual complexity at each CEFR level
+3. Sub-level labels must be consistent within each language (no gaps, no jumps)
+4. Compare against gold standards (Korean: 6-4-10-10, Dutch: 6-4-10-10) and explain deviations
+
+### Strict Teach-Before-Use (P52)
+
+"Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons):
+- A word appearing ONLY in another card's `example` field does NOT count as taught
+- A word mentioned ONLY in a `deepDive` does NOT count as taught
+- Every quiz word must trace to a prior dedicated teach card
+- If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`
+
+### Audit Completeness (P53)
+
+Every cross-language audit MUST pass ALL 9 checks:
+1. CEFR distribution (P51)
+2. P8 all 5 leak types
+3. P52 strict teach-before-use
+4. P48 step type correctness
+5. P49 no meta-curriculum
+6. P22c no em-dashes
+7. Density per lesson (P43)
+8. board:true
+9. Sub-level label consistency
+
+Missing ANY = audit INCOMPLETE. An audit that passes 8 of 9 is NOT a PASS.
 
 ---
 

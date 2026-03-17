@@ -183,13 +183,19 @@ The full Manifesto lives in `src/lingoverse.jsx` (lines ~14-314). Key principles
 | P48 | Step Type Match | fb = single blank, drag_fill = multi-blank |
 | P49 | No Meta-Curriculum | CEFR labels never in learner-facing content |
 | P50 | Recycling Quality | Test USAGE, not classification |
+| P51 | CEFR Distribution Validation | Every audit must validate unit-to-CEFR-level mapping. B1+B2 >= A1+A2. |
+| P52 | Strict Teach-Before-Use | "Taught" = own dedicated teach card. Example-only != taught. (P34 tightening) |
+| P53 | Audit Completeness Checklist | 9-point checklist. Missing any = audit INCOMPLETE. |
+| P54 | Anti-Cramming Doctrine | Content serves the LANGUAGE, not a spreadsheet. Never cram, never pad. |
 
 ### Decision Log Reference
-The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent decisions:
+The full Decision Log with D1-D110 is in `docs/DECISION_LOG.md`. Key recent decisions:
 - **D99**: Dutch B1 density uplift + quick fixes
 - **D100**: Korean dialogue enrichment (Rule 9 workflow, 847/1132 cards)
 - **D101**: Dutch quality uplift to Korean standard (B2 build, A1-B1 polish)
 - **D102**: Dutch B2 quality audit (10 rounds, ~255 P8 fixes, 5 P34 fixes, de/het audit PASS)
+- **D109**: Cross-language audit (RETROACTIVELY INCOMPLETE per D110 — missed CEFR distribution)
+- **D110**: CEFR distribution audit + anti-cramming doctrine + P34 deep enforcement + P51-P54 + Rule 13
 
 ---
 
@@ -251,6 +257,47 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 
 ### Build-Time Quality Enforcement:
 - **P47**: Step density must be validated PER LESSON DURING BUILD, not after. Every lesson must meet P43 minimums before the builder moves to the next lesson. Batch-building thin skeletons for later uplift is a known anti-pattern that has caused two costly uplift passes (D88 for B1, D95 for B2). See Agent Rule 7 for enforcement details.
+
+### CEFR Distribution Validation (P51) — NON-NEGOTIABLE:
+- **P51**: Every audit and every build MUST validate the unit-to-CEFR-level mapping. Specifically:
+  - The `level` field on every unit must be checked against the language's intended distribution AND compared with gold standard languages (Korean: 6-4-10-10, Dutch: 6-4-10-10).
+  - B1+B2 combined must NEVER have fewer units than A1+A2 combined. Advanced levels are where real learning depth lives. Front-loading beginner content while starving advanced content is pedagogically backwards.
+  - Distribution must be justified per language based on that language's actual complexity at each CEFR level, not mechanically applied from a template.
+  - The sub-level labels (A1.1, A1.2, B1.1, etc.) must be consistent within each language. No gaps, no jumps (e.g., A1.1 -> A1.4 skipping A1.2/A1.3 is a red flag).
+  - **D110 flaw**: German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) all violate this. The gold standards (Korean/Dutch) use 6-4-10-10. The newer languages have 16 A-level units and only 12-13 B-level units. This was missed by D109.
+
+### Strict Teach-Before-Use (P52) — NON-NEGOTIABLE:
+- **P52**: Tightening of P34. "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons — see scaling blocker #6). Specifically:
+  - A word appearing ONLY in another card's `example` or `exampleEn` field does NOT count as taught vocabulary. The learner has no card to review, no explicit exposure.
+  - A word mentioned ONLY in a `deepDive` (optional advanced section) does NOT count as taught vocabulary.
+  - A word used ONLY in a `tip` text does NOT count as taught vocabulary.
+  - Every single word used in any quiz step (mc, fb, drag_fill, tr, match) must trace back to a prior dedicated teach card in the same unit or an earlier unit.
+  - If a teach card's example sentence uses a word that hasn't been taught yet, that word MUST be explained in the teach card's `note` or `deepDive` field. Unexplained words in examples are invisible vocabulary gaps.
+  - The P37 cognate exception remains narrow: exempt ONLY if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+
+### Audit Completeness Checklist (P53) — NON-NEGOTIABLE:
+- **P53**: Every cross-language audit MUST check ALL of the following. Missing ANY = audit INCOMPLETE:
+  1. CEFR level distribution per unit (P51)
+  2. P8 all 5 leak types (visual, script, hint, pattern, position)
+  3. P52 strict teach-before-use with grep verification
+  4. P48 step type correctness (fb = single blank, drag_fill = multi-blank)
+  5. P49 no CEFR labels in learner-facing content
+  6. P22c no em-dashes in any content string
+  7. Density per lesson (P43 minimums met)
+  8. board:true on every lesson
+  9. Sub-level label consistency (no gaps, no jumps)
+  - An audit that passes 8 of 9 checks is NOT a PASS. All 9 must pass.
+
+### Anti-Cramming Doctrine (P54) — THE MOST IMPORTANT CONTENT RULE:
+- **P54**: Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of LingoVerse's polyglot vision. Specifically:
+  - If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units and 400 lessons. If it only needs 10 units, it gets 10 units.
+  - The number of units per CEFR level is determined by the CONCEPTS that need to be taught at that level, compared against established language learning models (textbooks, official exam frameworks, major teaching platforms). NOT by a template copied from another language.
+  - Every grammar construct deserves the space it needs. A concept that gets a full unit in a textbook does not get squeezed into one lesson. A concept that's a single lesson in a textbook does not get inflated into a unit.
+  - Agents must approach each language open-mindedly: FIRST catalogue ALL concepts that CEFR requires at each level for this specific language, THEN determine how many units and lessons are needed to teach them properly, THEN build. Never start with "30 units, 8 lessons each" and work backwards.
+  - 18 steps is a FLOOR, not a target. Complex grammar (German cases, French subjunctive, Spanish ser/estar) may need 25-30 steps. Simple vocabulary may need exactly 18. Build what the content needs.
+  - NEVER add filler to reach a count. NEVER compress to fit a quota. The learner's comprehension is the only metric.
+  - Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
+  - **This rule exists because**: German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 template that front-loaded A-level content and compressed B-level content. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection. The agents did not.
 
 ### Engine Rules:
 - **P30**: NO React hooks inside if(st.type===) renderer blocks. EVER.
@@ -392,7 +439,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 157 P8 hint-reveals fixed. CEFR grammar PASS with 1 moderate gap (A2 imperative mood: no dedicated lesson). P22c=0, P49=0.
-- **German is PRODUCTION-READY.** A1-B2 fully built, audited, and cross-audited (D109). Next: D92-style deep audit or A2 imperative lesson addition.
+- **CEFR DISTRIBUTION FLAG (D110)**: German has 8-8-7-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B-level content is compressed. Needs relabeling or restructuring in D111 audit.
+- **German is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
 ### French:
 - **A1-B2 COMPLETE (D105, 2026-03-16)**: Full build from scratch.
@@ -409,7 +457,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 15 P8 hint-reveals fixed, 2 P49 CEFR labels removed. CEFR grammar PASS with minor vocab gaps (weather, months, health). verb_table underused (5 across 240 lessons).
-- **French is PRODUCTION-READY.** A1-B2 fully built and cross-audited (D109). Next: D92-style deep quality audit or C1 planning.
+- **CEFR DISTRIBUTION FLAG (D110)**: French has 8-8-8-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B2 is compressed (6 units vs 10). Needs relabeling or restructuring in D111 audit.
+- **French is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Spanish:
 - **A1-B2 COMPLETE (D108, 2026-03-17)**: Full build using D107 temp-file agent workflow + D106 Opus 4.6 agents.
   - Infrastructure: COMPLETE (LANG_BLUEPRINT, CULTURE_PACKS, ARTICLE_SYSTEMS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ)
@@ -422,7 +471,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Quality validation PASS: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 23 P8 hint-reveals fixed, 1 P49 CEFR label removed. CEFR grammar PASS with 2 vocab gaps (A1 body parts: MODERATE, A2 animals: LOW).
-- **Spanish is PRODUCTION-READY.** A1-B2 fully built, validated, and cross-audited (D109). Next: D92-style deep quality audit.
+- **CEFR DISTRIBUTION FLAG (D110)**: Spanish has 8-8-8-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B2 is compressed (6 units vs 10). Needs relabeling or restructuring in D111 audit.
+- **Spanish is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
@@ -459,6 +509,8 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
 4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
+6. **nl/en field naming** (D110): All teach cards across ALL languages use `nl` for target-language word and `en` for source-language translation. These are hardcoded Dutch-English vestiges. Future rename: `nl` -> `tgt` (or `target`), `en` -> `src` (or `source`). Thousands of occurrences across all units files + engine renderers. Own decision when multi-source architecture is built.
+7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions that don't match gold standards (Korean/Dutch: 6-4-10-10). Requires relabeling or restructuring. See P51.
 
 ---
 
@@ -795,6 +847,22 @@ When deploying sub-agents to build curriculum units, agents MUST write to tempor
 ### Why Rule 12 Exists
 In March 2026, the Spanish A1-B2 build (D107) attempted three different agent deployment strategies for curriculum content: (1) worktree-isolated agents that failed because worktrees branched from commits that predated the `units-spanish.js` file, (2) direct-write agents that went stale after reading thousands of lines but never writing, and (3) main-session manual writing that was too slow. The temp-file workflow solves all three problems: agents write to isolated temp files (no git conflicts, no worktree issues), the main session controls all merges (no stale agent writes), and agents can work in parallel on different temp files (fast). This pattern was identified as the correct approach during D107 and is now mandatory for all future curriculum builds.
 
+### Rule 13: Full-Context Audit Agents (D110) — NON-NEGOTIABLE
+Every audit agent MUST receive FULL pipeline context in its prompt. An agent that audits without complete rules produces the exact class of error D109 produced: checking details while missing structure.
+
+1. **Every audit agent's prompt MUST include**: (a) the complete Pipeline Rules section from CLAUDE.md (P8 through P54, verbatim or summarized with all rule numbers), (b) the P53 audit completeness checklist (all 9 points), (c) the anti-cramming doctrine (P54), (d) the D110 CEFR distribution flaw as a cautionary example, (e) explicit instruction to validate CEFR distribution FIRST before any content-level checks.
+
+2. **Audit agents must validate STRUCTURE before CONTENT.** The first thing any audit agent checks is: Are the units assigned to the correct CEFR levels? Is the distribution pedagogically sound? Does it match or have justified deviation from the gold standards? Only AFTER structural validation passes does the agent proceed to content-level checks (P8, P34/P52, P48, P49, etc.).
+
+3. **Audit agents must cross-reference external standards.** For every language, the agent must compare the curriculum against established textbooks, official exam frameworks (TOPIK, DELE, DELF, Goethe, NT2), and major teaching platforms. The question is not "does this content exist?" but "does this content exist at the right level with the right depth compared to how real language courses teach it?"
+
+4. **Deep P52 (teach-before-use) verification.** Agents must not just check "does a teach card exist somewhere" — they must verify that EVERY word in EVERY quiz step has a prior dedicated teach card. Sampling is not sufficient for P52. For a full audit, every quiz step must be checked. For spot-check audits, sample at least 20 quiz steps per unit.
+
+5. **The agent's final report MUST include a P53 checklist with PASS/FAIL for each of the 9 items.** If any item is FAIL, the audit is INCOMPLETE. The agent must clearly state this.
+
+### Why Rule 13 Exists
+In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had fundamentally wrong CEFR distributions (8-8-7-6 or 8-8-8-6 instead of the gold standard 6-4-10-10). The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the 9 P53 checklist items.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -866,7 +934,7 @@ German is PRODUCTION-READY. Built from scratch in D103:
 | Post-build validation fix | D104 | 3 undefined array elements, 3 missing MC ans, unit ordering |
 | Cross-language audit | D109 | 157 P8 fixed, CEFR PASS (1 moderate gap: A2 imperative) |
 
-**German needs NO further work** until D92-style deep audit or A2 imperative lesson addition.
+**German needs D111 audit.** CEFR distribution flagged (D110): 8-8-7-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -884,7 +952,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | Agent model escalation protocol | D106 | Opus 4.6 mandatory for content agents |
 | Cross-language audit | D109 | 15 P8 fixed, 2 P49 removed, CEFR PASS (3 minor vocab gaps) |
 
-**French needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
+**French needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
 ### DONE (Spanish A1-B2 = Fifth Gold Standard)
 Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 (content):
@@ -904,24 +972,34 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | Temp-file agent workflow | D107 | Gold standard for future builds |
 | Cross-language audit | D109 | 23 P8 fixed, 1 P49 removed, CEFR PASS (2 vocab gaps) |
 
-**Spanish needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
+**Spanish needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES (Post Phase 1 Content)
 
-1. **Arabic A1-B2 Build** (when ready)
+1. **D111: Full Structural + Deep Audit** (IMMEDIATE PRIORITY)
+   - CEFR distribution fix for German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) — relabel or restructure to match gold standard principles (P51)
+   - Deep P52 strict teach-before-use verification for ALL 5 languages — every quiz word must trace to a prior teach card
+   - Full P53 checklist for all 5 languages — all 9 items must PASS
+   - Agents receive full pipeline context per Rule 13
+
+2. **Arabic A1-B2 Build** (when ready)
    - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
    - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum rebuild
+   - MUST follow P54 anti-cramming doctrine — catalogue concepts first, determine unit count from concepts
 
-2. **Deep Quality Audits** (D92-style) for German, French, and Spanish
+3. **Deep Quality Audits** (D92-style) for German, French, and Spanish
    - All three passed quality scans but have not had the multi-round deep audit treatment
    - Korean (D92/D93) and Dutch (D102) set the audit standard
+   - Must include P52 strict teach-before-use, not just P34 sampling
 
 ### Workflow for All Future Content
 Every language expansion MUST follow the Korean playbook:
-1. Build foundations (knowledge + playthrough + gate quiz)
-2. Build A1-B2 with Rule 7 density enforcement (never batch-build skeletons)
-3. Quality audit per level (D92-style: P8, P34, P44, pipeline sweep)
-4. Dialogue enrichment with Rule 9 sequential workflow
-5. Final cross-level validation
+1. **Catalogue first, build second (P54).** Before writing a single lesson, catalogue ALL concepts CEFR requires at each level for this language, cross-referenced against official exams and major textbooks. Determine unit count and distribution from the concepts, not from a template.
+2. Build foundations (knowledge + playthrough + gate quiz)
+3. Build A1-B2 with Rule 7 density enforcement (never batch-build skeletons)
+4. Validate CEFR distribution (P51) before proceeding to quality audit
+5. Quality audit per level (D92-style: P8, P52 strict teach-before-use, P44, full P53 checklist)
+6. Dialogue enrichment with Rule 9 sequential workflow
+7. Final cross-level validation with P53 completeness checklist — all 9 items PASS
 
 ---
 
@@ -941,3 +1019,7 @@ Every language expansion MUST follow the Korean playbook:
 12. **Sequential content + parallel validation = zero defects.** For large-scale content operations, never deploy parallel content agents on the same file. Work sequentially, validate after each batch, sweep across all units at the end. This workflow achieved 0 defects across 454 card edits. It is the gold standard. (D100, Rule 9)
 13. **Post-build structural validation is mandatory.** After building a complete curriculum, run the validation script to catch: (a) undefined/null array elements from stray commas, (b) missing required fields (especially MC `ans`), (c) unit ordering (must be sequential by `n`), (d) P48 multi-blank fb violations. The German D103 build shipped with 3 undefined array elements + 3 missing MC ans fields + scrambled unit order, causing a white screen crash. This class of error is invisible to build tools (Vite compiles fine) but crashes React at runtime. (D104, Rule 10)
 14. **Use Opus 4.6 for content generation, always.** Sonnet agents go stale, become unresponsive, and fail to complete large content tasks. Content generation (building units, teach cards, quiz steps) MUST use `model:"opus"`. Sonnet is fine for validation, search, and small edits. Do not waste time retrying failed Sonnet agents — escalate to Opus immediately. (D106, Rule 11)
+15. **Never cram, never pad.** The curriculum exists to serve the LANGUAGE, not a spreadsheet. If 50 units are needed, build 50. If 10 suffice, build 10. Determine unit count from the concepts that need teaching, compared against real textbooks and exam frameworks. Never start with a unit count and work backwards. Every language deserves its own shape. (P54, D110)
+16. **Structure before content, always.** Before checking whether a teach card has a typo, check whether the unit it's in is at the right CEFR level. Before checking P8 leaks, check whether the CEFR distribution makes pedagogical sense. An audit that misses structural problems but catches 700 content issues is a failed audit. (P51, P53, D110, Rule 13)
+17. **"Taught" means its own teach card.** A word appearing in another card's example sentence is NOT taught vocabulary. A word in a deepDive is NOT taught. A word in a tip is NOT taught. Every quiz word must trace to a prior dedicated teach card. No exceptions beyond the narrow P37 cognate rule. (P52, D110)
+18. **Audit agents need full context.** Every audit agent gets the complete pipeline rules, the P53 checklist, the anti-cramming doctrine, and explicit instruction to check structure first. An agent without full rules produces the errors D109 produced. (Rule 13, D110)

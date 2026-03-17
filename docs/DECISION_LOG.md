@@ -9,7 +9,8 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
-| D109 | Cross-Language Audit: All 5 Languages | Audit/Quality | All |
+| D110 | CEFR Distribution Audit + Anti-Cramming Doctrine + P34 Deep Enforcement | Architecture/Pipeline/Audit | All |
+| D109 | Cross-Language Audit: All 5 Languages (RETROACTIVELY INCOMPLETE — see D110) | Audit/Quality | All |
 | D108 | Spanish A1-B2 Complete Curriculum Build | Content/Build | Spanish |
 | D107 | Temp-File Agent Workflow for Curriculum Builds | Agent Protocol | All |
 | D106 | Agent Model Escalation Protocol (Opus over Sonnet) | Agent Protocol | All |
@@ -160,7 +161,10 @@ D105
 D107, D108
 
 ### Pipeline Rules
-D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
+D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97, D110
+
+### CEFR Distribution / Anti-Cramming
+D110
 
 ### Agent Protocol / Documentation
 D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
@@ -169,13 +173,13 @@ D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
 D100, D105, D108
 
 ### Architecture / Scaling
-D4, D5, D9, D12, D82, D83, D85
+D4, D5, D9, D12, D82, D83, D85, D110
 
 ### Onboarding
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101, D102, D103, D104, D105, D108
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101, D102, D103, D104, D105, D108, D110
 
 ---
 
@@ -196,6 +200,8 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D106**: Agent Model Escalation Protocol (March 2026), defined in `CLAUDE.md` Rule 11 and `DECISION_LOG.md`
 - **D107**: Temp-File Agent Workflow (March 2026), defined in `CLAUDE.md` Rule 12 and `DECISION_LOG.md`
 - **D108**: Spanish A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D109**: Cross-Language Audit (March 2026), retroactively INCOMPLETE per D110. Defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D110**: CEFR Distribution Audit + Anti-Cramming Doctrine (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 
 ---
 
@@ -418,7 +424,7 @@ Build used Opus 4.6 agents after Sonnet agents proved unreliable (stale, unrespo
 
 ## Notes
 
-## D109: Cross-Language Audit: All 5 Languages (2026-03-17)
+## D109: Cross-Language Audit: All 5 Languages (2026-03-17) — RETROACTIVELY INCOMPLETE (see D110)
 
 Full structural, pipeline, and CEFR audit across all 5 production languages (Korean, Dutch, German, French, Spanish). 12 parallel agents deployed for concurrent audit and fix operations.
 
@@ -470,6 +476,54 @@ Build used D107 temp-file agent workflow: Opus 4.6 agents wrote units to /tmp/es
 ---
 
 ## Notes
+
+## D110: CEFR Distribution Audit + Anti-Cramming Doctrine + P34 Deep Enforcement (2026-03-17)
+
+**Problem**: D109 cross-language audit was marked COMPLETE but missed a fundamental structural flaw: the CEFR level distribution across languages is inconsistent and pedagogically wrong. The audit checked grammar coverage, P8 leaks, and pipeline compliance but never validated whether units were assigned to the correct CEFR levels or whether the distribution made pedagogical sense.
+
+**The flaw discovered by the owner:**
+
+| CEFR | Korean | Dutch | German | French | Spanish |
+|------|--------|-------|--------|--------|---------|
+| A1   | 6      | 6     | **8**  | **8**  | **8**   |
+| A2   | 4      | 4     | **8**  | **8**  | **8**   |
+| B1   | 10     | 10    | **7**  | **8**  | **8**   |
+| B2   | 10     | 10    | **6**  | **6**  | **6**   |
+
+Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are front-loaded with A-level content (16 units at A1+A2) and starved at B1+B2 (12-13 units). This means advanced grammar (where real learning depth lives) gets compressed into fewer units while beginner content is spread thin across too many. This is the exact opposite of what pedagogy demands.
+
+**Root cause**: The D103/D105/D108 builds used a mechanical 8-8-8-6 or 8-8-7-6 split without comparing against the established gold standard distribution. No audit (including D109) checked whether CEFR level labels on units were pedagogically appropriate. The agents validated that grammar EXISTS but not that it's at the RIGHT level with the RIGHT amount of space.
+
+**D109 is retroactively marked INCOMPLETE.** It caught content-level issues (P8, P22c, P49) but missed structural-level issues (CEFR distribution, deep P34 verification). A new audit (D111) is required.
+
+**New Pipeline Rules created:**
+
+1. **P51: CEFR Distribution Validation** (NON-NEGOTIABLE). Every audit MUST validate the unit-to-CEFR-level mapping. The `level` field on every unit must be checked against: (a) the language's intended distribution, (b) comparison with gold standard languages, (c) pedagogical justification. B1+B2 must NEVER have fewer combined units than A1+A2 combined. Advanced levels are where real learning depth lives. Distribution must be justified per language, not mechanically applied.
+
+2. **P52: Strict Teach-Before-Use** (P34 tightening, NON-NEGOTIABLE). "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons). A word appearing ONLY in another card's `example` field does NOT count as taught. A word mentioned ONLY in a `deepDive` does NOT count as taught. Every single word used in any quiz step (mc, fb, drag_fill, tr, match) must trace back to a prior dedicated teach card in the same unit or an earlier unit. The P37 cognate exception remains narrow: exempt ONLY if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+
+3. **P53: Audit Completeness Checklist** (NON-NEGOTIABLE). Every cross-language audit MUST check ALL of: (a) CEFR level distribution per unit, (b) P8 all 5 leak types, (c) P52 teach-before-use with grep verification, (d) P48 step type correctness, (e) P49 no meta-curriculum, (f) P22c no em-dashes, (g) density per lesson, (h) board:true, (i) sub-level label consistency. Missing ANY of these categories = audit INCOMPLETE. An audit that passes 8 of 9 checks is not a PASS.
+
+4. **P54: Anti-Cramming Doctrine** (THE MOST IMPORTANT CONTENT RULE). Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. Specifically:
+   - If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units and 400 lessons.
+   - If a language only needs 10 units and 80 lessons, it gets 10 units and 80 lessons.
+   - The number of units per CEFR level is determined by the CONCEPTS that need to be taught at that level, compared against established language learning models, textbooks, and official exam frameworks. NOT by a template.
+   - Every grammar construct deserves the space it needs. A concept that gets a full unit in a textbook does not get squeezed into one lesson. A concept that's a single lesson in a textbook does not get inflated into a unit.
+   - The agent must approach each language open-mindedly: first catalogue ALL concepts that CEFR requires at each level for this specific language, THEN determine how many units and lessons are needed to teach them properly, THEN build.
+   - 18 steps is a FLOOR, not a target. Complex grammar may need 25-30 steps. Simple vocabulary may need exactly 18. Build what the content needs.
+   - NEVER add filler to reach a count. NEVER compress to fit a quota. The learner's comprehension is the only metric that matters.
+
+**New Agent Rule created:**
+
+5. **Rule 13: Full-Context Audit Agents** (NON-NEGOTIABLE). Every audit agent MUST receive in its prompt: (a) the complete Pipeline Rules section from CLAUDE.md (P8 through P54), (b) the complete decision log entries relevant to the language being audited, (c) the full P53 audit completeness checklist, (d) explicit instruction to validate CEFR distribution FIRST before any content-level checks, (e) the anti-cramming doctrine (P54) so the agent never "fixes" distribution by cramming content into fewer units. Agents that audit without full pipeline context produce the exact class of error D109 produced: checking details while missing structure.
+
+**Future cleanup tracked:**
+
+6. **nl/en field naming** (scaling blocker). All teach cards across ALL languages use `nl` for the target-language word and `en` for the source-language translation. These field names are hardcoded Dutch-English vestiges from when the app was Dutch-only. Future rename: `nl` -> `tgt`, `en` -> `src` (or similar). This is a massive rename (thousands of occurrences across all units files + engine renderers) that should be its own decision when the multi-source architecture is built. Tracked here. Not blocking current work.
+
+**Why D110 exists**: The owner discovered the CEFR distribution flaw by visual inspection. An audit that costs hours of compute time but misses something a human spots in 30 seconds is a failed audit. D110 ensures future audits check STRUCTURE before CONTENT, validate distribution before details, and never mark an audit COMPLETE without the full P53 checklist.
+
+---
 
 - D33 does not exist (numbering gap between session-level and main decisions)
 - D34a-l and D35a-h use sub-letter notation for session-level fixes
