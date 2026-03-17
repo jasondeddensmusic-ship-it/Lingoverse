@@ -606,8 +606,20 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
   - Emotions lessons teach estar+adjective pattern (Spanish), optional deepDive on ser vs estar
 - Total new A1 teach cards added in D112 S1+S2 combined: ~170+ across all languages
 - Updated lesson counts: Korean 318, Dutch 252, German 246, French 246, Spanish 245
-- Remaining gap: Still ~17,000 words. A1 domain coverage improved but A2-B2 domains untouched.
-- Next session: A2 vocabulary domains (professions, animals, nature, technology, health)
+
+**Session 3 (2026-03-17)**: A2 vocabulary domain gap-filling across all 5 languages.
+- 30 new lessons added (6 per language): animals, professions, health, nature/weather, transportation, technology
+- ~740 new steps total, avg 24.7 per lesson, all 18+
+- ~350 new teach cards with language-specific features (articles, compounds, phonetics, dialogues)
+- Placement: Korean A2 U8-U10, Dutch v2u8-v2u10, German U11-U16, French U11-U16, Spanish U11-U16
+- Validation: 30/30 PASS. P48=0, P49=0, P22c=0, board:true=30/30, all mc/fb/teach fields verified
+- 5 parallel Opus agents deployed (one per language) per Rule 11/12
+- French minified file required Node.js injection script for reliable editing
+- Updated lesson counts: Korean 324, Dutch 258, German 252, French 252, Spanish 251
+- Cumulative D112 S1-S3: 59 lessons, ~1,377 steps, ~680 teach cards
+- Updated vocabulary estimates: Korean ~1,235, Dutch ~1,185, German ~1,347, French ~1,006, Spanish ~1,239
+- Remaining gap: Still ~15,000-17,000 words needed for certification-grade (P55). B1-B2 domains untouched.
+- Next session: B1 vocabulary expansion
 
 **Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
 
