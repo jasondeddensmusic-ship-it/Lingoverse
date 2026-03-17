@@ -5968,12 +5968,12 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 }
 
 /* ── CURRICULUM SEARCH FLOAT (D113 v2 — compound bubble style) ── */
-.sf-panel{position:fixed;right:14px;top:190px;z-index:9998;width:min(360px,calc(100vw - 28px));max-height:calc(100vh - 220px);display:flex;flex-direction:column;border-radius:20px;background:linear-gradient(180deg,rgba(200,190,255,0.58)0%,rgba(218,210,255,0.42)50%,rgba(232,228,255,0.28)100%);border:1.5px solid rgba(180,165,240,0.55);box-shadow:0 8px 32px rgba(123,94,232,0.13),0 0 14px rgba(180,165,240,0.18),inset 0 2px 0 rgba(255,255,255,0.88),inset 0 -3px 0 rgba(123,94,232,0.06);overflow:hidden;}
-.sf-panel::before{content:'';position:absolute;top:0;left:5%;right:5%;height:40%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.65)0%,rgba(255,255,255,0.12)60%,transparent 100%);pointer-events:none;z-index:0;}
-:root.dark .sf-panel{background:linear-gradient(180deg,rgba(123,94,232,0.28)0%,rgba(100,80,200,0.18)45%,rgba(75,58,170,0.1)100%);border-color:rgba(160,140,255,0.35);box-shadow:0 8px 32px rgba(0,0,0,0.38),0 0 16px rgba(123,94,232,0.22),inset 0 2px 0 rgba(255,255,255,0.1),inset 0 -3px 0 rgba(0,0,0,0.16);}
-:root.dark .sf-panel::before{background:linear-gradient(180deg,rgba(255,255,255,0.08)0%,rgba(255,255,255,0.01)60%,transparent 100%);}
-.sf-hdr{padding:11px 13px;display:flex;align-items:center;gap:9px;background:rgba(255,255,255,0.52);border-bottom:1px solid rgba(180,165,240,0.38);border-radius:20px 20px 0 0;flex-shrink:0;position:relative;z-index:1;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
-:root.dark .sf-hdr{background:rgba(22,18,52,0.62);border-bottom-color:rgba(123,94,232,0.3);}
+.sf-panel{position:fixed;right:14px;top:190px;z-index:9998;width:min(360px,calc(100vw - 28px));max-height:calc(100vh - 220px);display:flex;flex-direction:column;border-radius:20px;background:linear-gradient(180deg,rgba(196,182,255,0.96)0%,rgba(210,200,255,0.93)45%,rgba(220,213,255,0.9)100%);border:1.5px solid rgba(165,148,238,0.7);box-shadow:0 8px 32px rgba(123,94,232,0.18),0 0 16px rgba(165,148,238,0.25),inset 0 2px 0 rgba(255,255,255,0.82),inset 0 -3px 0 rgba(110,85,200,0.1);overflow:hidden;}
+.sf-panel::before{content:'';position:absolute;top:0;left:5%;right:5%;height:42%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.68)0%,rgba(255,255,255,0.14)60%,transparent 100%);pointer-events:none;z-index:0;}
+:root.dark .sf-panel{background:linear-gradient(180deg,rgba(123,94,232,0.55)0%,rgba(100,78,205,0.42)45%,rgba(80,60,180,0.32)100%);border-color:rgba(160,140,255,0.5);box-shadow:0 8px 32px rgba(0,0,0,0.4),0 0 18px rgba(123,94,232,0.3),inset 0 2px 0 rgba(255,255,255,0.13),inset 0 -3px 0 rgba(0,0,0,0.18);}
+:root.dark .sf-panel::before{background:linear-gradient(180deg,rgba(255,255,255,0.1)0%,rgba(255,255,255,0.01)60%,transparent 100%);}
+.sf-hdr{padding:11px 13px;display:flex;align-items:center;gap:9px;background:rgba(255,255,255,0.22);border-bottom:1px solid rgba(165,148,238,0.35);border-radius:20px 20px 0 0;flex-shrink:0;position:relative;z-index:1;}
+:root.dark .sf-hdr{background:rgba(255,255,255,0.07);border-bottom-color:rgba(160,140,255,0.28);}
 .sf-inp{flex:1;border:none;outline:none;background:transparent;font-size:14px;font-family:'Nunito','DM Sans',system-ui,sans-serif;font-weight:600;color:var(--gray-800);caret-color:#7B5EE8;min-width:0;}
 .sf-inp::placeholder{color:rgba(150,140,180,0.75);font-weight:500;}
 .sf-clr{cursor:pointer;font-size:11px;color:rgba(110,95,165,0.65);flex-shrink:0;padding:2px 7px;border-radius:6px;background:rgba(180,165,240,0.22);font-weight:700;transition:background .12s;}
