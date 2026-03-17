@@ -8245,11 +8245,19 @@ if(typeof window!=="undefined"&&window.__lingoDevGuardLangCodes){
 
 // ━━━━━━━━━━ LEARN PAGE — CURRICULUM UI ━━━━━━━━━━
 
-function LearnPage({lang,baseLang="en",user,setUser,addXp,learnWord,showToast,addFlag}){
+function LearnPage({lang,baseLang="en",user,setUser,addXp,learnWord,showToast,addFlag,jumpTo,clearJumpTo}){
   const dk=document.documentElement.classList.contains("dark");
   const [view,setView]=useState("map"); // map | lesson | exercise
   const [selUnit,setSelUnit]=useState(null);
   const [selLesson,setSelLesson]=useState(null);
+  // Handle jump-to-lesson from curriculum search
+  useEffect(()=>{
+    if(!jumpTo)return;
+    setSelUnit(jumpTo.unit);
+    setSelLesson(jumpTo.lesson);
+    setView("exercise");
+    if(clearJumpTo)clearJumpTo();
+  },[jumpTo]);
   const [chapterNav,setChapterNav]=useState("select"); // lifted from UnitMap
   const [fkSection,setFkSection]=useState(null); // lifted from UnitMap — FK section drill-down
   const [fkMode,setFkMode]=useState("select"); // "select" | "reference" | "playthrough" | "gatequiz" — FK multi-track system
@@ -12832,6 +12840,7 @@ export default function App(){
     setFlags(prev=>[...prev,f]);
   }; // Default to Dutch now!
   const [page,setPage]=useState("home");
+  const [jumpTo,setJumpTo]=useState(null); // {unit,lesson} — triggers LearnPage to open that lesson directly
   const [toast,setToast]=useState(null);
   const [pops,setPops]=useState([]);
   const [user,setUser]=useState({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set()});
@@ -13055,10 +13064,12 @@ export default function App(){
                     <div className="sf-ico">{r.unit.icon||"📚"}</div>
                     <div className="sf-body">
                       <div className="sf-ttl">U{r.unit.n} · {r.unit.title}</div>
-                      <div className="sf-meta">
+                      <div className="sf-meta" style={{marginTop:3}}>
                         <span className="stag stag-cefr">{r.unit.level}</span>
                         <span className="stag stag-type">{SL[r.step.type]||r.step.type}</span>
-                        <span style={{opacity:.65,fontSize:10}}>{r.lesson.title}</span>
+                      </div>
+                      <div style={{fontSize:10.5,color:"var(--gray-500)",marginTop:2,fontWeight:600,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
+                        {r.lesson.title} · Step {r.si+1}
                       </div>
                       {hit&&<div className="sf-snip">{snip(hit)}</div>}
                     </div>
@@ -13125,14 +13136,24 @@ export default function App(){
               <div className="sp-bar">
                 <span style={{fontSize:18,flexShrink:0}}>{unit.icon||"📚"}</span>
                 <div style={{flex:1,minWidth:0}}>
-                  <div style={{fontSize:12,fontWeight:700,color:"var(--gray-700)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>U{unit.n} · {unit.title} — {lesson.title}</div>
-                  <div style={{display:"flex",gap:4,marginTop:3,flexWrap:"wrap"}}>
+                  <div style={{fontSize:11.5,fontWeight:800,color:"var(--gray-700)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>U{unit.n} · {unit.title}</div>
+                  <div style={{fontSize:10.5,fontWeight:600,color:"var(--gray-500)",marginTop:1,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{lesson.title} · Step {si+1}{lesson.steps?" of "+lesson.steps.length:""}</div>
+                  <div style={{display:"flex",gap:4,marginTop:4,flexWrap:"wrap",alignItems:"center"}}>
                     <span className="stag stag-cefr">{unit.level}</span>
                     <span className="stag stag-type">{SL[s.type]||s.type}</span>
-                    <span className="stag stag-prev">preview · step {si+1}</span>
+                    <span className="stag stag-prev">preview</span>
                   </div>
                 </div>
                 <button className="sp-xbtn" onClick={()=>setPreviewResult(null)}>✕</button>
+              </div>
+              {/* Jump to Lesson button */}
+              <div style={{padding:"10px 14px 0",flexShrink:0}}>
+                <button onClick={()=>{setJumpTo({unit,lesson});setPage("learn");setPreviewResult(null);setShowSearch(false);setSearchQuery("");}}
+                  style={{width:"100%",padding:"9px 14px",borderRadius:12,background:"linear-gradient(135deg,#7B5EE8,#6545C8)",color:"#fff",border:"none",cursor:"pointer",fontSize:13,fontWeight:800,letterSpacing:".2px",boxShadow:"0 3px 10px rgba(123,94,232,0.35),inset 0 2px 0 rgba(255,255,255,0.25)",display:"flex",alignItems:"center",justifyContent:"center",gap:7,transition:"all .15s"}}
+                  onMouseEnter={e=>{e.currentTarget.style.background="linear-gradient(135deg,#8B6EF8,#7555D8)";e.currentTarget.style.boxShadow="0 5px 14px rgba(123,94,232,0.45),inset 0 2px 0 rgba(255,255,255,0.25)";}}
+                  onMouseLeave={e=>{e.currentTarget.style.background="linear-gradient(135deg,#7B5EE8,#6545C8)";e.currentTarget.style.boxShadow="0 3px 10px rgba(123,94,232,0.35),inset 0 2px 0 rgba(255,255,255,0.25)";}}>
+                  <span style={{fontSize:14}}>▶</span> Jump to Lesson
+                </button>
               </div>
               <div className="sp-body">
                 <div className="sp-card">{renderCard()}</div>
@@ -13146,7 +13167,7 @@ export default function App(){
           <NavBar/>
           <div className="main">
             {page==="home"&&<Home user={user} setPage={setPage} lang={lang} baseLang={baseLang}/>}
-            {page==="learn"&&<LearnPage lang={lang} baseLang={baseLang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag}/>}
+            {page==="learn"&&<LearnPage lang={lang} baseLang={baseLang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag} jumpTo={jumpTo} clearJumpTo={()=>setJumpTo(null)}/>}
             {page==="vocabulary"&&<VocabularyPage lang={lang} user={user} showToast={showToast} baseLang={baseLang}/>}
             {page==="flashcards"&&<Flashcards lang={lang} baseLang={baseLang} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}/>}
             {page==="curriculum"&&<div className="anim" style={{textAlign:"center",padding:"60px 20px"}}><AppIcon name="brain" size={72}/><h2 style={{fontSize:24,fontWeight:800,color:"var(--gray-800)",marginTop:16,marginBottom:8,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>Personal Curriculum</h2><p style={{color:"var(--gray-400)",fontSize:14,lineHeight:1.6,maxWidth:320,margin:"0 auto 24px"}}>Your AI-powered personalized learning path is being developed. It will adapt to your strengths, weaknesses, and learning style.</p><div style={{display:"inline-block",padding:"10px 24px",borderRadius:16,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",color:"white",fontWeight:700,fontSize:13,boxShadow:"0 4px 16px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>Coming Soon</div></div>}
