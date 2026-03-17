@@ -13085,16 +13085,104 @@ export default function App(){
         const {unit,lesson,si,step:s}=previewResult;
         const SL={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
         const renderCard=()=>{
-          if(s.type==="teach") return(
-            <>
-              <div className="sp-word">{s.nl}</div>
-              {s.phonetic&&<div className="sp-phon">{s.phonetic}</div>}
-              <div className="sp-trans">{s.en}</div>
-              {s.kind&&<div className="sp-kind">{s.kind}</div>}
-              {(s.example||s.exampleEn)&&<div className="sp-ex">{s.example&&<div className="sp-ex-tgt">{s.example}</div>}{s.exampleEn&&<div className="sp-ex-src">{s.exampleEn}</div>}</div>}
-              {s.note&&<div className="sp-note">{s.note}</div>}
-            </>
-          );
+          if(s.type==="teach"){
+            const tLang=unit.lang||"nl";
+            const dk=darkMode;
+            const art=getArticle(s.nl,tLang);
+            const c=ARTICLE_COLORS[art]||{pill:"rgba(123,94,232,0.1)",pillText:"#7B5EE8"};
+            const kind=s.kind||"word";
+            const lbl=kind==="letter"?"NEW LETTER":kind==="info"?"CONCEPT":kind==="idiom"?"NEW EXPRESSION":kind==="grammar"?"GRAMMAR PATTERN":kind==="phrase"?"KEY PHRASE":"NEW WORD";
+            const isScript=/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/.test(s.nl||"");
+            const artWord=art!=="none"&&!isScript?s.nl.split(/\s(.+)/):null;
+            const nlSz=kind==="letter"?64:isScript?48:36;
+            const nlColor=isScript?"#7B5EE8":"var(--gray-800)";
+            const isDialEx=/[AB]:\s/.test(s.example||"");
+            const capStr=t=>t?t.charAt(0).toUpperCase()+t.slice(1):t;
+            const bubSt={
+              background:dk
+                ?"linear-gradient(180deg,rgba(123,94,232,0.22)0%,rgba(100,80,200,0.14)40%,rgba(80,60,180,0.08)100%)"
+                :"linear-gradient(180deg,rgba(200,190,255,0.45)0%,rgba(220,210,255,0.3)50%,rgba(235,230,255,0.18)100%)",
+              borderRadius:20,padding:"14px 18px",position:"relative",overflow:"hidden",
+              border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",
+              boxShadow:dk
+                ?"0 6px 20px rgba(0,0,0,0.3),0 0 14px rgba(123,94,232,0.2),inset 0 2px 0 rgba(255,255,255,0.07),inset 0 -3px 0 rgba(0,0,0,0.12)"
+                :"0 6px 24px rgba(123,94,232,0.1),0 0 12px rgba(180,165,240,0.15),inset 0 2px 0 rgba(255,255,255,0.75),inset 0 -3px 0 rgba(123,94,232,0.05)"};
+            const gArc={position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",
+              background:dk
+                ?"linear-gradient(180deg,rgba(255,255,255,0.07)0%,rgba(255,255,255,0.01)60%,transparent 100%)"
+                :"linear-gradient(180deg,rgba(255,255,255,0.55)0%,rgba(255,255,255,0.1)60%,transparent 100%)",
+              pointerEvents:"none",zIndex:1};
+            return(
+              <>
+                {/* Main word card */}
+                <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.55)",borderLeft:"4px solid #7B5EE8",boxShadow:"0 4px 20px rgba(0,0,0,0.05)",overflow:"hidden",marginBottom:14}}>
+                  {/* Label strip */}
+                  <div style={{background:"linear-gradient(135deg,rgba(123,94,232,0.06),rgba(46,205,167,0.04))",padding:"10px 18px 8px",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                    <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"#7B5EE8"}}>{lbl}</span>
+                    {s.phonetic&&<span style={{fontSize:12,fontWeight:600,color:"rgba(123,94,232,0.55)",fontStyle:"italic"}}>{s.phonetic}</span>}
+                  </div>
+                  {/* Article chip + word */}
+                  <div style={{textAlign:"center",padding:"14px 24px 6px"}}>
+                    {art!=="none"&&<div style={{marginBottom:4}}><span style={{fontSize:11,fontWeight:800,color:c.pillText,background:c.pill,borderRadius:6,padding:"2px 10px",letterSpacing:1}}>{art.toUpperCase()}</span></div>}
+                    <div style={{marginBottom:4}}>
+                      {artWord&&artWord[1]?(
+                        <span style={{fontSize:nlSz,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
+                          <span style={{color:c.pillText}}>{capStr(artWord[0])}</span>{" "}
+                          <span style={{color:"var(--gray-800)"}}>{artWord[1]}</span>
+                        </span>
+                      ):(
+                        <span style={{fontSize:nlSz,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{capStr(s.nl)}</span>
+                      )}
+                    </div>
+                  </div>
+                  {/* Translation — teal */}
+                  <div style={{textAlign:"center",paddingBottom:14}}>
+                    <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{capStr(s.en)}</span>
+                  </div>
+                </div>
+                {/* Example — dialogue bubbles or single bubble */}
+                {s.example&&(()=>{
+                  const ex=s.example;const exEn=s.exampleEn||"";
+                  if(isDialEx){
+                    const turns=ex.split(/(?=[AB]:\s)/).filter(Boolean);
+                    const turnsEn=exEn.split(/(?=[AB]:\s)/).filter(Boolean);
+                    return <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:14}}>
+                      {turns.map((turn,ti)=>{
+                        const isA=turn.trim().startsWith("A:");
+                        const content=turn.replace(/^[AB]:\s*/,"").trim();
+                        const enC=(turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
+                        return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:28,paddingRight:isA?28:0}}>
+                          <div style={{...bubSt,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}>
+                            <div style={gArc}/>
+                            <div style={{position:"relative",zIndex:2}}>
+                              <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4}}>{content}</div>
+                              {enC&&<div style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{enC}</div>}
+                            </div>
+                          </div>
+                        </div>;
+                      })}
+                    </div>;
+                  }
+                  return <div style={{...bubSt,marginBottom:14}}>
+                    <div style={gArc}/>
+                    <div style={{position:"relative",zIndex:2}}>
+                      <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5}}>{ex}</div>
+                      {exEn&&<div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{exEn}</div>}
+                    </div>
+                  </div>;
+                })()}
+                {/* Note card */}
+                {s.note&&<div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:10}}>
+                  {s.note.split(/\\n|\n/).map((line,li)=>{
+                    if(!line.trim()) return <div key={li} style={{height:6}}/>;
+                    if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>•</span><span>{line.slice(1).trim()}</span></div>;
+                    if(line.startsWith("⚡")||line.startsWith("⚠️")) return <div key={li} style={{fontSize:14,color:"var(--gray-700)",fontWeight:600,padding:"3px 0",lineHeight:1.6}}>{line}</div>;
+                    return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{line}</div>;
+                  })}
+                </div>}
+              </>
+            );
+          }
           if(s.type==="tip") return(
             <>
               {s.title&&<div className="sp-tip-ttl">💡 {s.title}</div>}
