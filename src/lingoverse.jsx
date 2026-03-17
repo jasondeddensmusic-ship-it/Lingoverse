@@ -5967,30 +5967,33 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
   .topnav-item { padding: 8px 10px; }
 }
 
-/* ── CURRICULUM SEARCH FLOAT (D113) ── */
-.sf-panel{position:fixed;right:14px;top:190px;z-index:9998;width:min(360px,calc(100vw - 28px));max-height:calc(100vh - 220px);display:flex;flex-direction:column;border-radius:20px;background:var(--card-bg);border:1.5px solid rgba(123,94,232,0.22);box-shadow:0 16px 48px rgba(123,94,232,0.18),0 4px 16px rgba(0,0,0,0.1),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04);overflow:hidden;}
-:root.dark .sf-panel{border-color:rgba(160,140,255,0.3);box-shadow:0 16px 48px rgba(0,0,0,0.45),0 4px 16px rgba(123,94,232,0.32),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -2px 0 rgba(0,0,0,0.25);}
-.sf-hdr{padding:11px 13px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,rgba(255,255,255,0.97)0%,rgba(248,246,255,0.91)100%);border-bottom:1.5px solid rgba(123,94,232,0.1);border-radius:20px 20px 0 0;flex-shrink:0;}
-:root.dark .sf-hdr{background:linear-gradient(180deg,rgba(48,42,92,0.99)0%,rgba(38,34,74,0.97)100%);border-bottom-color:rgba(160,140,255,0.15);}
+/* ── CURRICULUM SEARCH FLOAT (D113 v2 — compound bubble style) ── */
+.sf-panel{position:fixed;right:14px;top:190px;z-index:9998;width:min(360px,calc(100vw - 28px));max-height:calc(100vh - 220px);display:flex;flex-direction:column;border-radius:20px;background:linear-gradient(180deg,rgba(200,190,255,0.58)0%,rgba(218,210,255,0.42)50%,rgba(232,228,255,0.28)100%);border:1.5px solid rgba(180,165,240,0.55);box-shadow:0 8px 32px rgba(123,94,232,0.13),0 0 14px rgba(180,165,240,0.18),inset 0 2px 0 rgba(255,255,255,0.88),inset 0 -3px 0 rgba(123,94,232,0.06);overflow:hidden;}
+.sf-panel::before{content:'';position:absolute;top:0;left:5%;right:5%;height:40%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.65)0%,rgba(255,255,255,0.12)60%,transparent 100%);pointer-events:none;z-index:0;}
+:root.dark .sf-panel{background:linear-gradient(180deg,rgba(123,94,232,0.28)0%,rgba(100,80,200,0.18)45%,rgba(75,58,170,0.1)100%);border-color:rgba(160,140,255,0.35);box-shadow:0 8px 32px rgba(0,0,0,0.38),0 0 16px rgba(123,94,232,0.22),inset 0 2px 0 rgba(255,255,255,0.1),inset 0 -3px 0 rgba(0,0,0,0.16);}
+:root.dark .sf-panel::before{background:linear-gradient(180deg,rgba(255,255,255,0.08)0%,rgba(255,255,255,0.01)60%,transparent 100%);}
+.sf-hdr{padding:11px 13px;display:flex;align-items:center;gap:9px;background:rgba(255,255,255,0.52);border-bottom:1px solid rgba(180,165,240,0.38);border-radius:20px 20px 0 0;flex-shrink:0;position:relative;z-index:1;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
+:root.dark .sf-hdr{background:rgba(22,18,52,0.62);border-bottom-color:rgba(123,94,232,0.3);}
 .sf-inp{flex:1;border:none;outline:none;background:transparent;font-size:14px;font-family:'Nunito','DM Sans',system-ui,sans-serif;font-weight:600;color:var(--gray-800);caret-color:#7B5EE8;min-width:0;}
-.sf-inp::placeholder{color:var(--gray-300);font-weight:500;}
-.sf-clr{cursor:pointer;font-size:11px;color:var(--gray-400);flex-shrink:0;padding:2px 7px;border-radius:6px;background:var(--gray-100);font-weight:700;transition:background .12s;}
-.sf-clr:hover{background:var(--gray-200);}:root.dark .sf-clr{background:rgba(255,255,255,0.09);}:root.dark .sf-clr:hover{background:rgba(255,255,255,0.16);}
-.sf-cnt{padding:5px 13px;font-size:10px;font-weight:800;color:var(--gray-400);background:var(--gray-50);border-bottom:1px solid var(--gray-100);letter-spacing:.4px;text-transform:uppercase;flex-shrink:0;}
-:root.dark .sf-cnt{background:rgba(22,20,48,0.7);border-bottom-color:rgba(255,255,255,0.06);}
-.sf-list{overflow-y:auto;flex:1;}
-.sf-row{display:flex;align-items:flex-start;gap:9px;padding:9px 13px;border-bottom:1px solid var(--gray-100);cursor:pointer;transition:background .12s;}
-.sf-row:last-child{border-bottom:none;}
-.sf-row:hover{background:linear-gradient(90deg,rgba(123,94,232,0.08)0%,transparent 100%);}
-:root.dark .sf-row{border-bottom-color:rgba(255,255,255,0.06);}
-:root.dark .sf-row:hover{background:linear-gradient(90deg,rgba(123,94,232,0.18)0%,transparent 100%);}
-.sf-ico{font-size:17px;flex-shrink:0;width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(123,94,232,0.11),rgba(123,94,232,0.05));}
-.sf-body{flex:1;min-width:0;}
-.sf-ttl{font-size:12px;font-weight:700;color:var(--gray-700);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.sf-meta{font-size:10.5px;color:var(--gray-400);margin-top:2px;display:flex;align-items:center;gap:3px;flex-wrap:wrap;}
-.sf-snip{font-size:11px;color:#7B5EE8;margin-top:3px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sf-inp::placeholder{color:rgba(150,140,180,0.75);font-weight:500;}
+.sf-clr{cursor:pointer;font-size:11px;color:rgba(110,95,165,0.65);flex-shrink:0;padding:2px 7px;border-radius:6px;background:rgba(180,165,240,0.22);font-weight:700;transition:background .12s;}
+.sf-clr:hover{background:rgba(180,165,240,0.4);}:root.dark .sf-clr{background:rgba(160,140,255,0.16);}:root.dark .sf-clr:hover{background:rgba(160,140,255,0.3);}
+.sf-cnt{padding:4px 12px;font-size:9.5px;font-weight:800;color:rgba(110,95,175,0.7);letter-spacing:.5px;text-transform:uppercase;flex-shrink:0;position:relative;z-index:1;}
+:root.dark .sf-cnt{color:rgba(180,160,255,0.6);}
+.sf-list{overflow-y:auto;flex:1;position:relative;z-index:1;padding:4px 8px 8px;}
+.sf-row{margin:4px 0;border-radius:13px;background:var(--card-bg);border:1.5px solid rgba(220,215,238,0.85);border-left:3px solid #7B5EE8;box-shadow:0 2px 8px rgba(123,94,232,0.06),inset 0 1px 0 rgba(255,255,255,0.95);cursor:pointer;transition:all .13s;padding:9px 11px;}
+.sf-row:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(123,94,232,0.13),inset 0 1px 0 rgba(255,255,255,0.95);border-color:rgba(180,165,240,0.75);}
+:root.dark .sf-row{background:rgba(28,24,62,0.94);border-color:rgba(100,88,158,0.42);border-left-color:#7B5EE8;box-shadow:0 2px 8px rgba(0,0,0,0.22),inset 0 1px 0 rgba(255,255,255,0.07);}
+:root.dark .sf-row:hover{box-shadow:0 5px 14px rgba(123,94,232,0.24),inset 0 1px 0 rgba(255,255,255,0.07);border-color:rgba(160,140,255,0.5);}
+.sf-ttl{font-size:12px;font-weight:700;color:var(--gray-700);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.sf-sub{font-size:10.5px;color:var(--gray-500);margin-top:2px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.sf-snip{font-size:10.5px;color:#7B5EE8;margin-top:3px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 :root.dark .sf-snip{color:#B09DF8;}
-.sf-empty{padding:26px 13px;text-align:center;color:var(--gray-400);font-size:12.5px;font-weight:500;line-height:1.7;}
+.sf-empty{padding:16px 12px;text-align:center;color:rgba(110,95,175,0.55);font-size:12px;font-weight:600;line-height:1.6;position:relative;z-index:1;}
+/* CEFR solid band blocks */
+.sf-band{display:inline-flex;align-items:center;justify-content:center;min-width:24px;padding:0 5px;height:17px;border-radius:4px;font-size:9.5px;font-weight:900;color:#fff;letter-spacing:.3px;}
+.sf-band-a1{background:#3CC98A;}.sf-band-a2{background:#2ECDA7;}.sf-band-b1{background:#4A8FE7;}.sf-band-b2{background:#7B5EE8;}.sf-band-c1{background:#E8960A;}.sf-band-xx{background:#999;}
+/* shared mini-tags (step preview modal) */
 .stag{display:inline-block;padding:2px 7px;border-radius:14px;font-size:10px;font-weight:800;letter-spacing:.3px;}
 .stag-cefr{background:linear-gradient(135deg,rgba(123,94,232,0.14),rgba(123,94,232,0.07));color:#7B5EE8;border:1px solid rgba(123,94,232,0.2);}
 :root.dark .stag-cefr{background:rgba(123,94,232,0.24);color:#C0AEFF;border-color:rgba(123,94,232,0.34);}
@@ -13016,7 +13019,7 @@ export default function App(){
       </button>
       {/* Search floating button — below dark mode toggle */}
       <button data-search-btn onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})} title="Search curriculum (Ctrl+F)" style={{position:"fixed",top:144,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:showSearch?(darkMode?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(123,94,232,0.4)"):(darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD"),background:showSearch?(darkMode?"rgba(123,94,232,0.35)":"rgba(123,94,232,0.1)"):(darkMode?"rgba(30,31,56,0.6)":"#F0F0F5"),display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:showSearch?"0 4px 14px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.1)":(darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)"),...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
-        <span style={{fontSize:14,lineHeight:1,color:showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788"),transition:"color .2s"}}>🔍</span>
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke={showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788")} strokeWidth="2.2" strokeLinecap="round" style={{transition:"stroke .2s",flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
       </button>
       {/* Ctrl+D Reset Modal */}
       {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} onClick={()=>setShowResetModal(false)}>
@@ -13046,7 +13049,7 @@ export default function App(){
         return(
           <div className="sf-panel">
             <div className="sf-hdr">
-              <span style={{fontSize:14,opacity:.4,flexShrink:0,lineHeight:1}}>🔍</span>
+              <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke="rgba(130,115,175,0.65)" strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
               <input className="sf-inp" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
                 onChange={e=>setSearchQuery(e.target.value)}
                 onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
@@ -13055,24 +13058,21 @@ export default function App(){
             </div>
             {q.length>=2&&<div className="sf-cnt">{results.length===0?"No results":results.length>=80?"80+ — refine to narrow":`${results.length} result${results.length===1?"":"s"}`}</div>}
             <div className="sf-list">
-              {q.length<2&&<div className="sf-empty"><div style={{fontSize:24,marginBottom:8}}>🔍</div>Type 2+ characters to search all units, lessons, and teach cards.<div style={{fontSize:10.5,opacity:.55,marginTop:5}}>Ctrl+F · Esc</div></div>}
+              {q.length<2&&<div className="sf-empty">Search lessons, teach cards, grammar tips, and quiz steps.</div>}
               {q.length>=2&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
               {results.map((r,i)=>{
                 const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
+                const band=(r.unit.level||"xx").slice(0,2).toLowerCase().replace(".","");
+                const lNum=(r.unit.lessons||[]).findIndex(l=>l.id===r.lesson.id)+1;
                 return(
                   <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)}>
-                    <div className="sf-ico">{r.unit.icon||"📚"}</div>
-                    <div className="sf-body">
-                      <div className="sf-ttl">U{r.unit.n} · {r.unit.title}</div>
-                      <div className="sf-meta" style={{marginTop:3}}>
-                        <span className="stag stag-cefr">{r.unit.level}</span>
-                        <span className="stag stag-type">{SL[r.step.type]||r.step.type}</span>
-                      </div>
-                      <div style={{fontSize:10.5,color:"var(--gray-500)",marginTop:2,fontWeight:600,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                        {r.lesson.title} · Step {r.si+1}
-                      </div>
-                      {hit&&<div className="sf-snip">{snip(hit)}</div>}
+                    <div style={{display:"flex",alignItems:"center",gap:5,marginBottom:4}}>
+                      <span className={`sf-band sf-band-${band}`}>{(r.unit.level||"").slice(0,2)}</span>
+                      <span className="stag stag-type" style={{fontSize:9,padding:"1px 6px"}}>{SL[r.step.type]||r.step.type}</span>
                     </div>
+                    <div className="sf-ttl">U{r.unit.n} · {r.unit.title}</div>
+                    <div className="sf-sub">L{lNum>0?lNum:"?"} · {r.lesson.title} · Step {r.si+1}</div>
+                    {hit&&<div className="sf-snip">{snip(hit)}</div>}
                   </div>
                 );
               })}
