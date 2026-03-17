@@ -5967,38 +5967,75 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
   .topnav-item { padding: 8px 10px; }
 }
 
-/* ── CURRICULUM SEARCH MODAL (D113) ── */
-.search-overlay { position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:10000;display:flex;align-items:flex-start;justify-content:center;padding-top:80px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px); }
-.search-panel { width:min(640px,94vw);max-height:calc(100vh - 140px);display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:var(--card-bg);border:1.5px solid var(--card-border);box-shadow:0 24px 72px rgba(0,0,0,0.18),0 8px 24px rgba(123,94,232,0.12),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04); }
-:root.dark .search-panel { box-shadow:0 24px 72px rgba(0,0,0,0.55),0 8px 24px rgba(123,94,232,0.28),inset 0 2px 0 rgba(255,255,255,0.13),inset 0 -2px 0 rgba(0,0,0,0.28);border:1.5px solid rgba(255,255,255,0.1); }
-.search-header { padding:16px 18px 12px;border-bottom:1.5px solid var(--gray-100);display:flex;align-items:center;gap:10px;background:linear-gradient(180deg,rgba(255,255,255,0.92)0%,rgba(248,246,255,0.82)100%);flex-shrink:0; }
-:root.dark .search-header { background:linear-gradient(180deg,rgba(48,42,88,0.97)0%,rgba(38,34,72,0.93)100%);border-bottom-color:rgba(255,255,255,0.08); }
-.search-input { flex:1;border:none;outline:none;background:transparent;font-size:17px;font-family:'Nunito','DM Sans',system-ui,sans-serif;font-weight:600;color:var(--gray-800);caret-color:#7B5EE8;min-width:0; }
-.search-input::placeholder { color:var(--gray-300);font-weight:500; }
-.search-count { padding:7px 18px;font-size:11px;font-weight:700;color:var(--gray-400);background:var(--gray-50);border-bottom:1px solid var(--gray-100);letter-spacing:.3px;text-transform:uppercase;flex-shrink:0; }
-:root.dark .search-count { background:rgba(22,20,48,0.7);border-bottom-color:rgba(255,255,255,0.06); }
-.search-results { overflow-y:auto;flex:1; }
-.search-result-row { display:flex;align-items:flex-start;gap:12px;padding:12px 18px;border-bottom:1px solid var(--gray-100);cursor:default;transition:background .12s; }
-.search-result-row:hover { background:linear-gradient(90deg,rgba(123,94,232,0.07)0%,transparent 100%); }
-:root.dark .search-result-row { border-bottom-color:rgba(255,255,255,0.06); }
-:root.dark .search-result-row:hover { background:linear-gradient(90deg,rgba(123,94,232,0.16)0%,transparent 100%); }
-.search-result-icon { font-size:20px;flex-shrink:0;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(123,94,232,0.13),rgba(123,94,232,0.06));margin-top:1px; }
-.search-result-body { flex:1;min-width:0; }
-.search-result-title { font-size:13px;font-weight:700;color:var(--gray-700);white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
-.search-result-sub { font-size:11.5px;color:var(--gray-400);margin-top:3px;display:flex;align-items:center;gap:0;flex-wrap:wrap; }
-.search-result-match { font-size:12px;color:#7B5EE8;margin-top:5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.5; }
-:root.dark .search-result-match { color:#B09DF8; }
-.search-tag { display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:800;margin-right:5px;letter-spacing:.3px; }
-.search-tag-cefr { background:linear-gradient(135deg,rgba(123,94,232,0.14),rgba(123,94,232,0.07));color:#7B5EE8;border:1px solid rgba(123,94,232,0.2); }
-:root.dark .search-tag-cefr { background:rgba(123,94,232,0.22);color:#C0AEFF;border-color:rgba(123,94,232,0.32); }
-.search-tag-type { background:linear-gradient(135deg,rgba(46,205,167,0.14),rgba(46,205,167,0.07));color:#0D7D5C;border:1px solid rgba(46,205,167,0.22); }
-:root.dark .search-tag-type { background:rgba(46,205,167,0.18);color:#70DFC0;border-color:rgba(46,205,167,0.28); }
-.search-empty { padding:44px 20px;text-align:center;color:var(--gray-400);font-size:14px;font-weight:500;line-height:1.6; }
-.search-clear { cursor:pointer;font-size:12px;color:var(--gray-400);flex-shrink:0;padding:3px 8px;border-radius:6px;background:var(--gray-100);transition:background .12s;font-weight:600; }
-.search-clear:hover { background:var(--gray-200); }
-:root.dark .search-clear { background:rgba(255,255,255,0.08); }
-:root.dark .search-clear:hover { background:rgba(255,255,255,0.14); }
-@media(max-width:700px) { .search-overlay { padding-top:56px; } .search-panel { max-height:calc(100vh - 80px); } }
+/* ── CURRICULUM SEARCH FLOAT (D113) ── */
+.sf-panel{position:fixed;right:14px;top:190px;z-index:9998;width:min(360px,calc(100vw - 28px));max-height:calc(100vh - 220px);display:flex;flex-direction:column;border-radius:20px;background:var(--card-bg);border:1.5px solid rgba(123,94,232,0.22);box-shadow:0 16px 48px rgba(123,94,232,0.18),0 4px 16px rgba(0,0,0,0.1),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04);overflow:hidden;}
+:root.dark .sf-panel{border-color:rgba(160,140,255,0.3);box-shadow:0 16px 48px rgba(0,0,0,0.45),0 4px 16px rgba(123,94,232,0.32),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -2px 0 rgba(0,0,0,0.25);}
+.sf-hdr{padding:11px 13px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,rgba(255,255,255,0.97)0%,rgba(248,246,255,0.91)100%);border-bottom:1.5px solid rgba(123,94,232,0.1);border-radius:20px 20px 0 0;flex-shrink:0;}
+:root.dark .sf-hdr{background:linear-gradient(180deg,rgba(48,42,92,0.99)0%,rgba(38,34,74,0.97)100%);border-bottom-color:rgba(160,140,255,0.15);}
+.sf-inp{flex:1;border:none;outline:none;background:transparent;font-size:14px;font-family:'Nunito','DM Sans',system-ui,sans-serif;font-weight:600;color:var(--gray-800);caret-color:#7B5EE8;min-width:0;}
+.sf-inp::placeholder{color:var(--gray-300);font-weight:500;}
+.sf-clr{cursor:pointer;font-size:11px;color:var(--gray-400);flex-shrink:0;padding:2px 7px;border-radius:6px;background:var(--gray-100);font-weight:700;transition:background .12s;}
+.sf-clr:hover{background:var(--gray-200);}:root.dark .sf-clr{background:rgba(255,255,255,0.09);}:root.dark .sf-clr:hover{background:rgba(255,255,255,0.16);}
+.sf-cnt{padding:5px 13px;font-size:10px;font-weight:800;color:var(--gray-400);background:var(--gray-50);border-bottom:1px solid var(--gray-100);letter-spacing:.4px;text-transform:uppercase;flex-shrink:0;}
+:root.dark .sf-cnt{background:rgba(22,20,48,0.7);border-bottom-color:rgba(255,255,255,0.06);}
+.sf-list{overflow-y:auto;flex:1;}
+.sf-row{display:flex;align-items:flex-start;gap:9px;padding:9px 13px;border-bottom:1px solid var(--gray-100);cursor:pointer;transition:background .12s;}
+.sf-row:last-child{border-bottom:none;}
+.sf-row:hover{background:linear-gradient(90deg,rgba(123,94,232,0.08)0%,transparent 100%);}
+:root.dark .sf-row{border-bottom-color:rgba(255,255,255,0.06);}
+:root.dark .sf-row:hover{background:linear-gradient(90deg,rgba(123,94,232,0.18)0%,transparent 100%);}
+.sf-ico{font-size:17px;flex-shrink:0;width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(123,94,232,0.11),rgba(123,94,232,0.05));}
+.sf-body{flex:1;min-width:0;}
+.sf-ttl{font-size:12px;font-weight:700;color:var(--gray-700);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sf-meta{font-size:10.5px;color:var(--gray-400);margin-top:2px;display:flex;align-items:center;gap:3px;flex-wrap:wrap;}
+.sf-snip{font-size:11px;color:#7B5EE8;margin-top:3px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+:root.dark .sf-snip{color:#B09DF8;}
+.sf-empty{padding:26px 13px;text-align:center;color:var(--gray-400);font-size:12.5px;font-weight:500;line-height:1.7;}
+.stag{display:inline-block;padding:2px 7px;border-radius:14px;font-size:10px;font-weight:800;letter-spacing:.3px;}
+.stag-cefr{background:linear-gradient(135deg,rgba(123,94,232,0.14),rgba(123,94,232,0.07));color:#7B5EE8;border:1px solid rgba(123,94,232,0.2);}
+:root.dark .stag-cefr{background:rgba(123,94,232,0.24);color:#C0AEFF;border-color:rgba(123,94,232,0.34);}
+.stag-type{background:linear-gradient(135deg,rgba(46,205,167,0.14),rgba(46,205,167,0.07));color:#0D7D5C;border:1px solid rgba(46,205,167,0.2);}
+:root.dark .stag-type{background:rgba(46,205,167,0.18);color:#70DFC0;border-color:rgba(46,205,167,0.28);}
+.stag-prev{background:rgba(245,166,35,0.12);color:#8a5800;border:1px solid rgba(245,166,35,0.25);font-size:9px;}
+:root.dark .stag-prev{background:rgba(245,166,35,0.18);color:#F5C040;border-color:rgba(245,166,35,0.3);}
+/* ── STEP PREVIEW MODAL ── */
+.sp-ov{position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:10001;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);}
+.sp-wrap{width:min(460px,94vw);max-height:calc(100vh - 60px);display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:var(--card-bg);border:1.5px solid var(--card-border);box-shadow:0 24px 72px rgba(0,0,0,0.18),0 8px 24px rgba(123,94,232,0.14),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04);}
+:root.dark .sp-wrap{box-shadow:0 24px 72px rgba(0,0,0,0.55),0 8px 24px rgba(123,94,232,0.28),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -2px 0 rgba(0,0,0,0.28);border-color:rgba(255,255,255,0.1);}
+.sp-bar{padding:11px 14px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,rgba(123,94,232,0.08)0%,rgba(123,94,232,0.03)100%);border-bottom:1.5px solid rgba(123,94,232,0.12);flex-shrink:0;}
+:root.dark .sp-bar{background:linear-gradient(180deg,rgba(123,94,232,0.22)0%,rgba(123,94,232,0.1)100%);border-bottom-color:rgba(160,140,255,0.22);}
+.sp-body{overflow-y:auto;flex:1;}
+.sp-card{margin:14px;border-radius:16px;background:linear-gradient(180deg,#fff 0%,#fafafe 50%,#f5f4fb 100%);border:1.5px solid rgba(123,94,232,0.1);border-left:4px solid #7B5EE8;box-shadow:0 3px 12px rgba(0,0,0,0.06),inset 0 2px 0 rgba(255,255,255,0.9);}
+:root.dark .sp-card{background:var(--card-bg);border-color:rgba(160,140,255,0.2);border-left-color:#7B5EE8;}
+.sp-word{text-align:center;padding:22px 18px 4px;font-size:28px;font-weight:800;color:#7B5EE8;font-family:'Quicksand','DM Sans',system-ui,sans-serif;line-height:1.2;}
+.sp-phon{text-align:center;font-size:13px;color:var(--gray-400);font-weight:600;padding:2px 14px 4px;}
+.sp-trans{text-align:center;font-size:16px;font-weight:700;color:#2ECDA7;padding:0 14px 14px;}
+.sp-kind{text-align:center;padding-bottom:8px;font-size:10.5px;color:var(--gray-400);font-weight:700;text-transform:uppercase;letter-spacing:.6px;}
+.sp-ex{margin:0 12px 12px;background:rgba(123,94,232,0.05);border-radius:11px;padding:10px 12px;border-left:3px solid rgba(123,94,232,0.28);}
+.sp-ex-tgt{font-size:14px;font-weight:700;color:var(--gray-700);margin-bottom:3px;}
+.sp-ex-src{font-size:12.5px;color:#2ECDA7;font-weight:600;}
+.sp-note{margin:0 12px 14px;font-size:12px;color:var(--gray-500);line-height:1.5;padding:9px 11px;background:var(--gray-50);border-radius:9px;}
+.sp-q{padding:16px 16px 10px;font-size:14.5px;font-weight:700;color:var(--gray-700);line-height:1.4;}
+.sp-opt{display:flex;align-items:center;gap:8px;margin:5px 12px;padding:10px 12px;border-radius:11px;font-size:13px;font-weight:600;border:1.5px solid var(--gray-200);color:var(--gray-600);background:var(--gray-50);}
+.sp-opt.correct{background:linear-gradient(135deg,rgba(46,205,167,0.12),rgba(46,205,167,0.05));border-color:rgba(46,205,167,0.35);color:#0D7D5C;}
+:root.dark .sp-opt{background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.1);color:var(--gray-400);}
+:root.dark .sp-opt.correct{background:rgba(46,205,167,0.18);border-color:rgba(46,205,167,0.32);color:#70DFC0;}
+.sp-tip-ttl{padding:16px 16px 6px;font-size:15px;font-weight:800;color:#7B5EE8;}
+.sp-tip-txt{padding:0 16px 16px;font-size:13px;color:var(--gray-600);line-height:1.65;white-space:pre-wrap;}
+.sp-pair-row{display:flex;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid var(--gray-100);}
+.sp-pair-row:last-child{border-bottom:none;margin-bottom:8px;}
+.sp-pair-tgt{font-size:14px;font-weight:700;color:#7B5EE8;flex:1;}
+.sp-pair-src{font-size:13px;color:#2ECDA7;font-weight:600;flex:1;text-align:right;}
+.sp-fb-sent{padding:16px 16px 8px;font-size:14.5px;font-weight:600;color:var(--gray-700);line-height:1.5;}
+.sp-fb-ans{display:inline-block;background:linear-gradient(135deg,rgba(46,205,167,0.14),rgba(46,205,167,0.06));border:1.5px solid rgba(46,205,167,0.35);border-radius:7px;padding:1px 9px;color:#0D7D5C;font-weight:700;font-size:14px;margin:0 2px;}
+:root.dark .sp-fb-ans{background:rgba(46,205,167,0.2);border-color:rgba(46,205,167,0.35);color:#70DFC0;}
+.sp-intro-title{padding:20px 16px 6px;font-size:17px;font-weight:800;color:#7B5EE8;text-align:center;}
+.sp-intro-desc{padding:0 16px 14px;font-size:13px;color:var(--gray-600);text-align:center;line-height:1.6;}
+.sp-goal{display:flex;align-items:center;gap:8px;padding:5px 16px;font-size:13px;color:var(--gray-700);font-weight:600;}
+.sp-xbtn{flex-shrink:0;background:none;border:1.5px solid var(--gray-200);border-radius:8px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--gray-400);font-size:12px;font-weight:700;transition:all .15s;}
+.sp-xbtn:hover{background:var(--gray-100);color:var(--gray-600);}
+:root.dark .sp-xbtn{border-color:rgba(255,255,255,0.15);}:root.dark .sp-xbtn:hover{background:rgba(255,255,255,0.1);}
+@media(max-width:700px){.sf-panel{right:10px;top:186px;width:calc(100vw - 20px);}.sp-wrap{max-height:calc(100vh - 40px);}}
 `;
 
 
@@ -12802,6 +12839,7 @@ export default function App(){
   const [darkMode,setDarkMode]=useState(false);
   const [showSearch,setShowSearch]=useState(false);
   const [searchQuery,setSearchQuery]=useState("");
+  const [previewResult,setPreviewResult]=useState(null);
 
   // ── Dark mode: set class synchronously so children read correct dk ──
   document.documentElement.classList.toggle("dark",darkMode);
@@ -12826,6 +12864,18 @@ export default function App(){
     };
     window.addEventListener("keydown",handler);
     return()=>window.removeEventListener("keydown",handler);
+  },[showSearch]);
+
+  // ── Close search float on click outside the panel or its toggle button ──
+  useEffect(()=>{
+    if(!showSearch)return;
+    const handler=(e)=>{
+      if(!e.target.closest('.sf-panel')&&!e.target.closest('[data-search-btn]')){
+        setShowSearch(false);setSearchQuery("");
+      }
+    };
+    document.addEventListener('mousedown',handler);
+    return()=>document.removeEventListener('mousedown',handler);
   },[showSearch]);
 
   // ── Global arrow-key navigation (Decision 11) ──
@@ -12956,7 +13006,7 @@ export default function App(){
         <span style={{fontSize:15,lineHeight:1,color:darkMode?"#D0D0E2":"#777788",transition:"color .2s"}}>{darkMode?"☀":"☽"}</span>
       </button>
       {/* Search floating button — below dark mode toggle */}
-      <button onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})} title="Search curriculum (Ctrl+F)" style={{position:"fixed",top:144,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:showSearch?(darkMode?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(123,94,232,0.4)"):(darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD"),background:showSearch?(darkMode?"rgba(123,94,232,0.35)":"rgba(123,94,232,0.1)"):(darkMode?"rgba(30,31,56,0.6)":"#F0F0F5"),display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:showSearch?"0 4px 14px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.1)":(darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)"),...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
+      <button data-search-btn onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})} title="Search curriculum (Ctrl+F)" style={{position:"fixed",top:144,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:showSearch?(darkMode?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(123,94,232,0.4)"):(darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD"),background:showSearch?(darkMode?"rgba(123,94,232,0.35)":"rgba(123,94,232,0.1)"):(darkMode?"rgba(30,31,56,0.6)":"#F0F0F5"),display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:showSearch?"0 4px 14px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.1)":(darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)"),...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
         <span style={{fontSize:14,lineHeight:1,color:showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788"),transition:"color .2s"}}>🔍</span>
       </button>
       {/* Ctrl+D Reset Modal */}
@@ -12972,68 +13022,120 @@ export default function App(){
           <p style={{fontSize:11,color:"var(--gray-300)",marginTop:16}}>Press Y to confirm, N to cancel</p>
         </div>
       </div>}
-      {/* Curriculum Search Modal (D113) */}
+      {/* Curriculum Search Float Panel (D113) */}
       {showSearch&&(()=>{
-        const STEP_LABELS={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag & fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
+        const SL={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
         const q=searchQuery.trim();
         const results=q.length>=2?searchUnits(q,lang):[];
-        const highlight=(text)=>{
-          if(!text||!q)return text||"";
+        const snip=(text)=>{
+          if(!text||!q)return"";
           const idx=text.toLowerCase().indexOf(q.toLowerCase());
-          if(idx<0)return text.slice(0,80)+(text.length>80?"…":"");
-          const start=Math.max(0,idx-30);
-          const end=Math.min(text.length,idx+q.length+55);
-          return(start>0?"…":"")+text.slice(start,end)+(end<text.length?"…":"");
+          if(idx<0)return text.slice(0,55)+(text.length>55?"…":"");
+          const s=Math.max(0,idx-18),e=Math.min(text.length,idx+q.length+36);
+          return(s>0?"…":"")+text.slice(s,e)+(e<text.length?"…":"");
         };
         return(
-          <div className="search-overlay" onClick={()=>{setShowSearch(false);setSearchQuery("");}}>
-            <div className="search-panel" onClick={e=>e.stopPropagation()}>
-              <div className="search-header">
-                <span style={{fontSize:17,opacity:.45,flexShrink:0,lineHeight:1}}>🔍</span>
-                <input
-                  className="search-input"
-                  autoFocus
-                  placeholder="Search any word, grammar, or phrase…"
-                  value={searchQuery}
-                  onChange={e=>setSearchQuery(e.target.value)}
-                  onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
-                />
-                {searchQuery&&<span className="search-clear" onClick={()=>setSearchQuery("")}>✕</span>}
-              </div>
-              {q.length>=2&&(
-                <div className="search-count">
-                  {results.length===0?`No results for "${q}"`:results.length>=80?`80+ matches — type more to narrow`:`${results.length} result${results.length===1?"":"s"}`}
-                </div>
-              )}
-              <div className="search-results">
-                {q.length<2&&(
-                  <div className="search-empty">
-                    <div style={{fontSize:32,marginBottom:12}}>🔍</div>
-                    Type 2+ characters to search across all units, lessons, and teach cards.<br/>
-                    <span style={{fontSize:12,opacity:.6,marginTop:8,display:"block"}}>Ctrl+F to open · Esc to close</span>
-                  </div>
-                )}
-                {q.length>=2&&results.length===0&&(
-                  <div className="search-empty">No results found for "{q}"</div>
-                )}
-                {results.map((r,i)=>{
-                  const matchText=[r.step.nl,r.step.en,r.step.example,r.step.exampleEn,r.step.q,r.step.text,r.step.s,r.step.note,r.step.title]
-                    .find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
-                  return(
-                    <div key={i} className="search-result-row">
-                      <div className="search-result-icon">{r.unit.icon||"📚"}</div>
-                      <div className="search-result-body">
-                        <div className="search-result-title">U{r.unit.n} · {r.unit.title} — {r.lesson.title}</div>
-                        <div className="search-result-sub">
-                          <span className="search-tag search-tag-cefr">{r.unit.level}</span>
-                          <span className="search-tag search-tag-type">{STEP_LABELS[r.step.type]||r.step.type}</span>
-                          <span style={{marginLeft:2}}>step {r.si+1}</span>
-                        </div>
-                        {matchText&&<div className="search-result-match">{highlight(matchText)}</div>}
+          <div className="sf-panel">
+            <div className="sf-hdr">
+              <span style={{fontSize:14,opacity:.4,flexShrink:0,lineHeight:1}}>🔍</span>
+              <input className="sf-inp" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
+                onChange={e=>setSearchQuery(e.target.value)}
+                onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
+              />
+              {searchQuery&&<span className="sf-clr" onClick={()=>setSearchQuery("")}>✕</span>}
+            </div>
+            {q.length>=2&&<div className="sf-cnt">{results.length===0?"No results":results.length>=80?"80+ — refine to narrow":`${results.length} result${results.length===1?"":"s"}`}</div>}
+            <div className="sf-list">
+              {q.length<2&&<div className="sf-empty"><div style={{fontSize:24,marginBottom:8}}>🔍</div>Type 2+ characters to search all units, lessons, and teach cards.<div style={{fontSize:10.5,opacity:.55,marginTop:5}}>Ctrl+F · Esc</div></div>}
+              {q.length>=2&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
+              {results.map((r,i)=>{
+                const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
+                return(
+                  <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)}>
+                    <div className="sf-ico">{r.unit.icon||"📚"}</div>
+                    <div className="sf-body">
+                      <div className="sf-ttl">U{r.unit.n} · {r.unit.title}</div>
+                      <div className="sf-meta">
+                        <span className="stag stag-cefr">{r.unit.level}</span>
+                        <span className="stag stag-type">{SL[r.step.type]||r.step.type}</span>
+                        <span style={{opacity:.65,fontSize:10}}>{r.lesson.title}</span>
                       </div>
+                      {hit&&<div className="sf-snip">{snip(hit)}</div>}
                     </div>
-                  );
-                })}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })()}
+      {/* Step Preview Modal — renders the actual card in isolation */}
+      {previewResult&&(()=>{
+        const {unit,lesson,si,step:s}=previewResult;
+        const SL={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
+        const renderCard=()=>{
+          if(s.type==="teach") return(
+            <>
+              <div className="sp-word">{s.nl}</div>
+              {s.phonetic&&<div className="sp-phon">{s.phonetic}</div>}
+              <div className="sp-trans">{s.en}</div>
+              {s.kind&&<div className="sp-kind">{s.kind}</div>}
+              {(s.example||s.exampleEn)&&<div className="sp-ex">{s.example&&<div className="sp-ex-tgt">{s.example}</div>}{s.exampleEn&&<div className="sp-ex-src">{s.exampleEn}</div>}</div>}
+              {s.note&&<div className="sp-note">{s.note}</div>}
+            </>
+          );
+          if(s.type==="tip") return(
+            <>
+              {s.title&&<div className="sp-tip-ttl">💡 {s.title}</div>}
+              {s.text&&<div className="sp-tip-txt">{s.text}</div>}
+            </>
+          );
+          if(s.type==="mc") return(
+            <>
+              <div className="sp-q">{s.q}</div>
+              {(s.opts||[]).map((o,i)=><div key={i} className={`sp-opt${o===s.ans?" correct":""}`}>{o===s.ans&&<span style={{marginRight:6,fontSize:11}}>✓</span>}{o}</div>)}
+              <div style={{height:12}}/>
+            </>
+          );
+          if(s.type==="fb"||s.type==="drag_fill"){
+            const blanks=s.blanks||{1:s.a||"…"};
+            let tpl=s.s||"";
+            Object.keys(blanks).forEach(k=>{tpl=tpl.replace(new RegExp(`\\{${k}\\}`,"g"),`|||${blanks[k]}|||`);});
+            const parts=tpl.split("|||");
+            return(<><div className="sp-fb-sent">{parts.map((p,i)=>i%2===1?<span key={i} className="sp-fb-ans">{p}</span>:<span key={i}>{p}</span>)}</div><div style={{height:12}}/></>);
+          }
+          if(s.type==="match") return(
+            <div style={{paddingTop:10}}>
+              {(s.pairs||[]).map((p,i)=><div key={i} className="sp-pair-row"><div className="sp-pair-tgt">{p.nl}</div><div style={{color:"var(--gray-300)",fontSize:14}}>⟷</div><div className="sp-pair-src">{p.en}</div></div>)}
+            </div>
+          );
+          if(s.type==="intro") return(
+            <>
+              <div className="sp-intro-title">{s.title||lesson.title}</div>
+              {s.desc&&<div className="sp-intro-desc">{s.desc}</div>}
+              {(s.goals||[]).map((g,i)=><div key={i} className="sp-goal"><span>✦</span>{g}</div>)}
+              <div style={{height:14}}/>
+            </>
+          );
+          return(<div style={{padding:"16px",fontSize:13,color:"var(--gray-500)"}}>{s.title&&<div style={{fontWeight:700,color:"var(--gray-700)",marginBottom:8}}>{s.title}</div>}{s.q&&<div style={{marginBottom:8,fontWeight:600}}>{s.q}</div>}{s.text&&<div style={{lineHeight:1.6}}>{s.text}</div>}{s.s&&<div style={{fontWeight:600,color:"var(--gray-700)"}}>{s.s}</div>}<div style={{height:12}}/></div>);
+        };
+        return(
+          <div className="sp-ov" onClick={()=>setPreviewResult(null)}>
+            <div className="sp-wrap" onClick={e=>e.stopPropagation()}>
+              <div className="sp-bar">
+                <span style={{fontSize:18,flexShrink:0}}>{unit.icon||"📚"}</span>
+                <div style={{flex:1,minWidth:0}}>
+                  <div style={{fontSize:12,fontWeight:700,color:"var(--gray-700)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>U{unit.n} · {unit.title} — {lesson.title}</div>
+                  <div style={{display:"flex",gap:4,marginTop:3,flexWrap:"wrap"}}>
+                    <span className="stag stag-cefr">{unit.level}</span>
+                    <span className="stag stag-type">{SL[s.type]||s.type}</span>
+                    <span className="stag stag-prev">preview · step {si+1}</span>
+                  </div>
+                </div>
+                <button className="sp-xbtn" onClick={()=>setPreviewResult(null)}>✕</button>
+              </div>
+              <div className="sp-body">
+                <div className="sp-card">{renderCard()}</div>
               </div>
             </div>
           </div>
