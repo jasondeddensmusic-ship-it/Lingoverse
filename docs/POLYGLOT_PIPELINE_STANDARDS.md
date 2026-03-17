@@ -1,6 +1,6 @@
 # LINGOVERSE — POLYGLOT VISION & PIPELINE STANDARDS
 ## For All Languages · All Agents · All Sessions
-## Version 3.0 | 2026-03-17 | D110: Anti-Cramming Doctrine + P51-P54 + Pillar 6
+## Version 4.0 | 2026-03-17 | D112: Certification-Grade Standards + P55-P58 + Pillars 7-10
 
 ---
 
@@ -127,20 +127,48 @@ Every audit and every build MUST validate the unit-to-CEFR-level mapping:
 - Every quiz word must trace to a prior dedicated teach card
 - If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`
 
-### Audit Completeness (P53)
+### Audit Completeness (P53) — EXPANDED TO 15 ITEMS (D112)
 
-Every cross-language audit MUST pass ALL 9 checks:
+Every cross-language audit MUST pass ALL 15 checks:
 1. CEFR distribution (P51)
-2. P8 all 5 leak types
-3. P52 strict teach-before-use
+2. P8 all 5 leak types (20+ samples per level per language)
+3. P52 strict teach-before-use (FULL automated verification)
 4. P48 step type correctness
 5. P49 no meta-curriculum
 6. P22c no em-dashes
 7. Density per lesson (P43)
 8. board:true
 9. Sub-level label consistency
+10. P55 vocabulary completeness (ALL official exam vocabulary as teach cards)
+11. P57 grammar completeness (ALL official exam grammar taught + practiced + recycled)
+12. P58 communicative functions coverage
+13. Synonym coverage from official lists
+14. P56 unit count adequacy (concept-driven, not template)
+15. Exam simulation readiness (learner could pass official exam using only LingoVerse)
 
-Missing ANY = audit INCOMPLETE. An audit that passes 8 of 9 is NOT a PASS.
+Missing ANY = audit INCOMPLETE. An audit that passes 14 of 15 is NOT a PASS.
+
+### Pillar 7: Vocabulary Completeness (P55, D112) — CERTIFICATION-GRADE
+
+Every language must achieve certification-grade vocabulary completeness. Every word on the official certification exam vocabulary list at each CEFR level must have a dedicated teach card.
+
+**Official sources per language**: TOPIK vocabulary (Korean), NT2 Basiswoordenlijst (Dutch), Goethe-Wortliste (German), DELF vocabulary (French), PCIC Nociones especificas (Spanish).
+
+**Verification**: Automated script compares official list against extracted teach card `nl:` fields. Zero gaps = PASS.
+
+**Why this pillar exists (D112)**: No previous audit verified actual vocabulary against official exam lists. The question "does every word on the TOPIK vocabulary list have a teach card?" was never asked.
+
+### Pillar 8: Concept-Driven Unit Sizing (P56, D112)
+
+Unit count follows from concept cataloguing, never templates. FSI Category V languages (Korean, 2,200 hours) should NOT have the same unit count as Category I languages (Spanish, 600 hours) by default. Korean A2 with 4 units is flagged for expansion.
+
+### Pillar 9: Zero Grammar Gaps (P57, D112)
+
+Every grammar construct on official exam lists must be taught (teach/tip card), practiced (3+ quiz steps), and recycled (2+ later lessons). Full grammar inventory tables required per language per level. Zero gaps.
+
+### Pillar 10: Communicative Functions (P58, D112)
+
+CEFR defines what learners can DO (introduce self, express opinions, write essays). Every communicative function at each level must map to practice lessons. Grammar and vocabulary without communicative practice is incomplete.
 
 ---
 
