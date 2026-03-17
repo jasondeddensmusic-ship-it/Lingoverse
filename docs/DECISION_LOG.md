@@ -577,6 +577,19 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
 
 **Handoff document**: `docs/FULL_AUDIT_HANDOFF.md` rewritten as D112 comprehensive certification audit guide.
 
+**Session 1 execution (2026-03-17):**
+- Extracted vocabulary from all 5 languages: Korean 1,132 teach cards, Dutch 1,105, German 1,100, French 883, Spanish ~870
+- Compared against official exam requirements (TOPIK 6,000+, NT2 4,000, Goethe 4,000+, DELF 3,500+, DELE 3,500+)
+- Identified critical A1 domain gaps across all languages: months, body parts, clothing, emotions
+- Built and inserted 11 new lessons + 8 inline teach cards:
+  - Korean: 4 lessons (months kou3l8b/24 steps, clothing kou6l6b/24 steps, body kou8l1.3/18 steps, emotions kou5l7b/18 steps)
+  - Dutch: 1 lesson (body v2u8l1b/18 steps) + 8 month teach cards in existing lesson
+  - German: 2 lessons (months deu5l6b/26 steps, body deu15l5b/23 steps)
+  - French: 2 lessons (months fre5l8b/27 steps, body fre3l8b/20 steps)
+  - Spanish: 2 lessons (months esp3l4b/22 steps, body esp5l8b/20 steps)
+- Structural audit P53 items 1-9: ALL PASS across all 5 languages
+- Remaining: ~17,000 words total gap across all languages (multi-session project)
+
 **Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
 
 ---

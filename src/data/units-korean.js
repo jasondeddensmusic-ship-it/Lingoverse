@@ -1129,6 +1129,34 @@ export default [
   {type:"mc",q:"'생일 축하해요' is used for:",opts:["Any celebration","Only for adults","Any birthday","Only for children"],ans:"Any birthday",hint:"생일 축하해요 = Happy birthday (any age)"},
 ]},
 
+// ═══ L8b: 월 (Months of the Year) ═══
+{id:"kou3l8b",title:"일월-십이월 (Months)",icon:"📅",xp:20,board:true,steps:[
+  {type:"intro",title:"12 Months in Korean",desc:"일월 → January\n\nAll months = Sino-Korean number + 월.\nYou already know the numbers. Now add 월!",goals:["Name all 12 months","Use months in date sentences","Know the irregular pronunciations"]},
+  {type:"tip",title:"The Simplest System",text:"Korean months = Sino-Korean number + 월 (month).\n\n1월 = 일월 = January\n2월 = 이월 = February\n...\n12월 = 십이월 = December\n\nYou already know 일 through 십이. Just add 월!",deepDive:{title:"Why This Is Easy",text:"Unlike English (January, February... all different words), Korean months are pure math.\n일(1) + 월(month) = January.\nNo memorization needed beyond the numbers you already know."}},
+  {type:"teach",kind:"word",nl:"일월",en:"January",phonetic:"il-wol",example:"A: 일월에 뭐 해요? B: 새해 계획을 세워요.",exampleEn:"A: What do you do in January? B: I make New Year plans.",note:"일(1) + 월(month) = January.\n새해: New Year."},
+  {type:"teach",kind:"word",nl:"이월",en:"February",phonetic:"i-wol",example:"A: 이월은 며칠까지 있어요? B: 보통 이십팔일이에요.",exampleEn:"A: How many days does February have? B: Usually 28 days.",note:"이(2) + 월(month) = February."},
+  {type:"teach",kind:"word",nl:"삼월",en:"March",phonetic:"sam-wol",example:"A: 삼월에 벚꽃이 펴요? B: 네, 삼월 말에 펴요.",exampleEn:"A: Do cherry blossoms bloom in March? B: Yes, they bloom in late March.",note:"삼(3) + 월(month) = March."},
+  {type:"teach",kind:"word",nl:"사월",en:"April",phonetic:"sa-wol",example:"A: 사월에 날씨가 어때요? B: 따뜻해요.",exampleEn:"A: How is the weather in April? B: It's warm.",note:"사(4) + 월(month) = April."},
+  {type:"teach",kind:"word",nl:"오월",en:"May",phonetic:"o-wol",example:"A: 오월에 무슨 날이 있어요? B: 어린이날이 있어요.",exampleEn:"A: What holiday is in May? B: Children's Day.",note:"오(5) + 월(month) = May.\n어린이날: Children's Day (May 5th)."},
+  {type:"mc",q:"삼월은 몇 번째 달이에요?\n(March is which month?)",opts:["1st month","2nd month","3rd month","4th month"],ans:"3rd month",hint:"삼 = 3. 삼월 = 3rd month"},
+  {type:"teach",kind:"word",nl:"유월",en:"June",phonetic:"yu-wol",example:"A: 유월에 뭐 해요? B: 장마가 시작돼요.",exampleEn:"A: What happens in June? B: The rainy season starts.",note:"IRREGULAR: 육월 → 유월 (the ㄱ drops!).\n장마: rainy season (monsoon)."},
+  {type:"teach",kind:"word",nl:"칠월",en:"July",phonetic:"chil-wol",example:"A: 칠월에 날씨가 어때요? B: 아주 더워요.",exampleEn:"A: How is the weather in July? B: It's very hot.",note:"칠(7) + 월(month) = July."},
+  {type:"teach",kind:"word",nl:"팔월",en:"August",phonetic:"pal-wol",example:"A: 팔월에 뭐 해요? B: 여름 휴가를 가요.",exampleEn:"A: What do you do in August? B: I go on summer vacation.",note:"팔(8) + 월(month) = August.\n여름 휴가: summer vacation."},
+  {type:"mc",q:"유월 is irregular because:",opts:["육 changes to 유 before 월","오 changes to 유","칠 drops a letter","It uses native Korean"],ans:"육 changes to 유 before 월",hint:"육월 sounds awkward. The ㄱ drops: 유월."},
+  {type:"teach",kind:"word",nl:"구월",en:"September",phonetic:"gu-wol",example:"A: 구월에 학교가 시작해요? B: 네, 이 학기에요.",exampleEn:"A: Does school start in September? B: Yes, this semester.",note:"구(9) + 월(month) = September."},
+  {type:"teach",kind:"word",nl:"시월",en:"October",phonetic:"si-wol",example:"A: 시월에 뭐 하고 싶어요? B: 단풍을 보고 싶어요.",exampleEn:"A: What do you want to do in October? B: I want to see the autumn leaves.",note:"IRREGULAR: 십월 → 시월 (the ㅂ drops!).\n단풍: autumn leaves."},
+  {type:"teach",kind:"word",nl:"십일월",en:"November",phonetic:"sib-il-wol",example:"A: 수능이 언제예요? B: 십일월이에요.",exampleEn:"A: When is the college entrance exam? B: It's in November.",note:"십일(11) + 월(month) = November.\n수능: Korean SAT (CSAT)."},
+  {type:"teach",kind:"word",nl:"십이월",en:"December",phonetic:"sib-i-wol",example:"A: 십이월에 뭐 해요? B: 크리스마스를 즐겨요.",exampleEn:"A: What do you do in December? B: I enjoy Christmas.",note:"십이(12) + 월(month) = December."},
+  {type:"mc",q:"시월 is irregular because:",opts:["십 changes to 시 before 월","The ㅂ in 십 drops","It uses a different number","It's a native Korean word"],ans:"The ㅂ in 십 drops",hint:"십월 → 시월. The ㅂ disappears for easier pronunciation."},
+  {type:"mc",q:"Korean has two irregular months. They are:",opts:["유월 and 시월","일월 and 이월","오월 and 구월","칠월 and 팔월"],ans:"유월 and 시월",hint:"6월 and 10월 have pronunciation changes"},
+  {type:"fb",s:"벚꽃은 ___에 펴요.\n(Cherry blossoms bloom in March.)",a:"삼월",opts:["삼월","사월","오월","이월"],hint:"March = 3rd month"},
+  {type:"fb",s:"여름 휴가는 보통 ___에 가요.\n(Summer vacation is usually in August.)",a:"팔월",opts:["팔월","칠월","유월","구월"],hint:"August = 8th month"},
+  {type:"match",pairs:[{nl:"일월",en:"January"},{nl:"삼월",en:"March"},{nl:"유월",en:"June"},{nl:"시월",en:"October"}]},
+  {type:"match",pairs:[{nl:"사월",en:"April"},{nl:"칠월",en:"July"},{nl:"십일월",en:"November"},{nl:"십이월",en:"December"}]},
+  {type:"drag_fill",s:"제 생일은 {1} {2}일이에요.",blanks:{"1":"팔월","2":"십오"},pool:["팔월","칠월","십오","이십"],hint:"My birthday is August 15th"},
+  {type:"mc",q:"수능 is in which month?",opts:["시월 (October)","십일월 (November)","십이월 (December)","구월 (September)"],ans:"십일월 (November)",hint:"Korea's college entrance exam is in November"},
+]},
+
 // ═══ L9: 요일 (Days of the Week) ═══
 {id:"kou3l9",title:"요일 (Days of the Week)",icon:"📆",xp:20,board:true,steps:[
   {type:"intro",title:"Monday Through Sunday",desc:"월요일\n→ Monday\n\nEvery day = element (e.g. 화 fire) + 요일.",goals:["Name all 7 days","Decompose each day name","Ask and say what day it is"]},
@@ -1620,6 +1648,28 @@ export default [
   {type:"teach",kind:"word",nl:"마음",en:"heart / mind / feelings",phonetic:"ma-eum",example:"A: 그 사람이 어때요? B: 마음이 따뜻해요.",exampleEn:"A: What is that person like? B: They are warm-hearted.",note:"마음: heart/mind/feelings.\n\nPure Korean word (not Sino-Korean).",deepDive:{title:"마음 in Korean Culture",text:"마음이 따뜻해요: warm-hearted.\n마음이 아파요: my heart hurts.\n마음에 들다: to like (lit: enter the heart).\n\n정 (deep bond) lives in the 마음.\n한국인의 마음: the Korean heart."}},
 ]},
 
+// ═══ L7b: More Emotions ═══
+{id:"kou5l7b",title:"감정 더 배우기 (More Emotions)",icon:"😊",xp:18,board:true,steps:[
+  {type:"intro",title:"Expanding Your Emotion Vocabulary",desc:"지루하다 → to be bored\n놀라다 → to be surprised\n신나다 → to be excited\n\nBeyond happy/sad/angry.",goals:["Learn 6 more emotion words","Use them in natural sentences","Express how you feel about situations"]},
+  {type:"teach",kind:"word",nl:"지루하다 → 지루해요",en:"to be bored / boring",phonetic:"ji-ru-ha-da",example:"A: 이 수업이 어때요? B: 좀 지루해요.",exampleEn:"A: How is this class? B: It's a bit boring.",note:"지루하다: bored/boring.\n지루해요: am bored / is boring.\n하다 verb: 지루 + 하다."},
+  {type:"teach",kind:"word",nl:"놀라다 → 놀라요",en:"to be surprised",phonetic:"nol-la-da",example:"A: 생일 파티에 놀랐어요? B: 네, 정말 놀랐어요!",exampleEn:"A: Were you surprised at the birthday party? B: Yes, I was really surprised!",note:"놀라다: to be surprised.\n놀랐어요: was surprised (past).\n깜짝 놀라다: to be startled."},
+  {type:"teach",kind:"word",nl:"신나다 → 신나요",en:"to be excited / thrilled",phonetic:"sin-na-da",example:"A: 내일 여행이에요! B: 정말 신나요!",exampleEn:"A: Tomorrow is the trip! B: I'm so excited!",note:"신나다: to be excited/thrilled.\n신나요: am excited.\n신나는 음악: exciting music."},
+  {type:"mc",q:"수업이 지루해요 means:",opts:["The class is boring","The class is exciting","The class is scary","The class is fun"],ans:"The class is boring",hint:"지루하다 = bored/boring. Opposite of exciting."},
+  {type:"teach",kind:"word",nl:"자랑스럽다 → 자랑스러워요",en:"to be proud",phonetic:"ja-rang-seu-reop-da",example:"A: 시험에 합격했어요! B: 정말 자랑스러워요!",exampleEn:"A: I passed the exam! B: I'm really proud!",note:"자랑스럽다: to be proud.\nㅂ-irregular: ㅂ → 워.\n자랑스럽다 → 자랑스러워요.\n자랑하다: to brag/boast."},
+  {type:"teach",kind:"word",nl:"부끄럽다 → 부끄러워요",en:"to be embarrassed / shy",phonetic:"bu-kkeu-reop-da",example:"A: 왜 얼굴이 빨개요? B: 부끄러워요...",exampleEn:"A: Why is your face red? B: I'm embarrassed...",note:"부끄럽다: embarrassed/shy.\nㅂ-irregular: ㅂ → 워.\n부끄럽다 → 부끄러워요."},
+  {type:"teach",kind:"word",nl:"실망하다 → 실망해요",en:"to be disappointed",phonetic:"sil-mang-ha-da",example:"A: 시험 결과가 나빴어요. B: 실망했어요?",exampleEn:"A: The exam results were bad. B: Were you disappointed?",note:"실망하다: to be disappointed.\nCOMPOUND: 실(lose/失) + 망(hope/望).\nLose-hope = disappointment."},
+  {type:"mc",q:"신나요 means:",opts:["I'm excited","I'm bored","I'm angry","I'm scared"],ans:"I'm excited",hint:"신나다 = excited/thrilled. Used for positive excitement."},
+  {type:"mc",q:"자랑스럽다 and 부끄럽다 are both:",opts:["ㅂ-irregular verbs","Regular verbs","하다 verbs","으-irregular verbs"],ans:"ㅂ-irregular verbs",hint:"Both end in ㅂ다 and change: ㅂ → 워"},
+  {type:"fb",s:"내일 여행이에요! 정말 ___요!\n(Tomorrow is the trip! I'm so excited!)",a:"신나",opts:["신나","지루해","놀라","슬퍼"],hint:"Positive emotion for looking forward to something"},
+  {type:"fb",s:"시험에 합격해서 정말 ___요.\n(I passed the exam, so I'm really proud.)",a:"자랑스러워",opts:["자랑스러워","부끄러워","실망해","지루해"],hint:"The positive feeling when you achieve something"},
+  {type:"match",pairs:[{nl:"지루하다",en:"bored/boring"},{nl:"놀라다",en:"surprised"},{nl:"신나다",en:"excited"},{nl:"자랑스럽다",en:"proud"}]},
+  {type:"match",pairs:[{nl:"부끄럽다",en:"embarrassed"},{nl:"실망하다",en:"disappointed"},{nl:"행복하다",en:"happy"},{nl:"슬프다",en:"sad"}]},
+  {type:"drag_fill",s:"시험에 합격해서 {1}. 하지만 친구는 떨어져서 {2}.",blanks:{"1":"신나요","2":"실망했어요"},pool:["신나요","실망했어요","지루해요","놀랐어요"],hint:"I'm excited about passing. But my friend failed, so they're disappointed."},
+  {type:"mc",q:"부끄러워요 means:",opts:["I'm embarrassed","I'm bored","I'm excited","I'm proud"],ans:"I'm embarrassed",hint:"부끄럽다 = embarrassed/shy. ㅂ-irregular → 부끄러워요"},
+  {type:"mc",q:"실망 is a Sino-Korean compound meaning:",opts:["lose + hope","fail + test","lose + face","sad + feeling"],ans:"lose + hope",hint:"실(失) = lose, 망(望) = hope. Losing hope = disappointment"},
+  {type:"fb",s:"깜짝 ___어요!\n(I was startled!)",a:"놀랐",opts:["놀랐","신났","지루했","실망했"],hint:"깜짝 = sudden surprise. Which emotion word?"},
+]},
+
 // ═══ L8: Review & Quiz ═══
 {id:"kou5l8",title:"Review and Quiz",icon:"📝",xp:30,board:true,steps:[
   {type:"intro",title:"Review & Quiz",desc:"Review: family, adjectives, particles, modifiers, culture.",goals:["Verify particle system mastery","Test family vocabulary","Confirm adjective verb understanding"]},
@@ -1839,6 +1889,34 @@ export default [
   {type:"mc",q:"비가 와요 means:",opts:["It is snowing","It is raining","It is sunny","It is windy"],ans:"It is raining",hint:"비 = rain, 오다 = to come → rain is coming = it is raining"},
   {type:"mc",q:"날마다 = 매일. 마다 means:",opts:["Every/each","Only","Also","But"],ans:"Every/each",hint:"마다 = every/each. 날마다 = every day."},
   {type:"mc",q:"아주 좋아요 means:",opts:["Very good","A little good","Not good","Too good"],ans:"Very good",hint:"아주 = very/extremely."},
+]},
+
+// ═══ L6b: Clothing Vocabulary ═══
+{id:"kou6l6b",title:"옷 (Clothing)",icon:"👔",xp:20,board:true,steps:[
+  {type:"intro",title:"Korean Clothing Vocabulary",desc:"셔츠, 모자, 양말, 가방...\n\nKorean uses DIFFERENT verbs for wearing different items!\n입다: clothes\n신다: shoes/socks\n쓰다: hats\n끼다: gloves/rings",goals:["Learn 15+ clothing items","Use the correct 'wear' verb for each","Describe what people are wearing"]},
+  {type:"tip",title:"Five 'Wear' Verbs",text:"입다: clothes on torso (shirts, pants, dresses)\n신다: footwear (shoes, socks, boots)\n쓰다: headwear (hats, caps, glasses)\n끼다: hand items (gloves, rings)\n하다: accessories (ties, scarves, earrings)\n\nThis lesson teaches clothing items AND which verb goes with each.",deepDive:{title:"Why Five Verbs?",text:"Korean cares about WHERE on the body:\nTorso = 입다\nFeet = 신다\nHead = 쓰다\nHands = 끼다\nAccessories = 하다\n\nEnglish just says 'wear' for everything."}},
+  {type:"teach",kind:"word",nl:"셔츠",en:"shirt",phonetic:"syeo-cheu",example:"A: 오늘 뭐 입어요? B: 하얀 셔츠를 입어요.",exampleEn:"A: What are you wearing today? B: I'm wearing a white shirt.",note:"셔츠: shirt (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"모자",en:"hat / cap",phonetic:"mo-ja",example:"A: 밖에 해가 강해요. B: 모자를 쓰세요!",exampleEn:"A: The sun is strong outside. B: Wear a hat!",note:"모자: hat/cap.\nUse 쓰다 (head verb).\n\n쓰다 has THREE meanings:\n1. to write\n2. to use\n3. to wear (on head)"},
+  {type:"teach",kind:"word",nl:"양말",en:"socks",phonetic:"yang-mal",example:"A: 양말을 신었어요? B: 네, 하얀 양말을 신었어요.",exampleEn:"A: Did you put on socks? B: Yes, I put on white socks.",note:"양말: socks.\nUse 신다 (feet verb)."},
+  {type:"teach",kind:"word",nl:"코트",en:"coat",phonetic:"ko-teu",example:"A: 밖에 추워요. B: 코트를 입으세요.",exampleEn:"A: It's cold outside. B: Put on a coat.",note:"코트: coat (from English).\nUse 입다 (torso verb)."},
+  {type:"mc",q:"모자를 ___요.\n(I wear a hat.)",opts:["입어","쓸","써","신어"],ans:"써",hint:"Hat goes on your head. Head verb = 쓰다 → 써요"},
+  {type:"teach",kind:"word",nl:"재킷",en:"jacket",phonetic:"jae-kit",example:"A: 재킷 색깔이 예뻐요! B: 감사합니다. 새 재킷이에요.",exampleEn:"A: Your jacket color is pretty! B: Thank you. It's a new jacket.",note:"재킷: jacket (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"스웨터",en:"sweater",phonetic:"seu-we-teo",example:"A: 오늘 좀 쌀쌀해요. B: 스웨터를 입으세요.",exampleEn:"A: It's a bit chilly today. B: Wear a sweater.",note:"스웨터: sweater (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"원피스",en:"dress",phonetic:"won-pi-seu",example:"A: 원피스를 입었어요? B: 네, 파란 원피스예요.",exampleEn:"A: Are you wearing a dress? B: Yes, it's a blue dress.",note:"원피스: dress (from English 'one-piece').\nUse 입다 (torso verb)."},
+  {type:"mc",q:"양말을 ___요.\n(I put on socks.)",opts:["입어","써","신어","끼"],ans:"신어",hint:"Socks go on your feet. Feet verb = 신다 → 신어요"},
+  {type:"teach",kind:"word",nl:"목도리",en:"scarf / muffler",phonetic:"mok-do-ri",example:"A: 목도리를 해요? B: 네, 겨울에 항상 해요.",exampleEn:"A: Do you wear a scarf? B: Yes, I always wear one in winter.",note:"목도리: scarf/muffler.\n목(neck) + 도리(wrap).\nUse 하다 (accessory verb)."},
+  {type:"teach",kind:"word",nl:"장갑",en:"gloves",phonetic:"jang-gap",example:"A: 손이 차가워요! B: 장갑을 끼세요.",exampleEn:"A: My hands are cold! B: Put on gloves.",note:"장갑: gloves.\nUse 끼다 (hand verb)."},
+  {type:"teach",kind:"word",nl:"가방",en:"bag",phonetic:"ga-bang",example:"A: 가방이 무거워요? B: 네, 책이 많아요.",exampleEn:"A: Is your bag heavy? B: Yes, there are many books.",note:"가방: bag/backpack.\nCommon compound: 책가방 (book bag)."},
+  {type:"mc",q:"장갑을 ___요.\n(I put on gloves.)",opts:["입어","끼","써","신어"],ans:"끼",hint:"Gloves go on your hands. Hand verb = 끼다"},
+  {type:"teach",kind:"word",nl:"안경",en:"glasses",phonetic:"an-gyeong",example:"A: 안경을 써요? B: 네, 눈이 나빠요.",exampleEn:"A: Do you wear glasses? B: Yes, my eyesight is bad.",note:"안경: glasses.\nCOMPOUND: 안(eye/眼) + 경(mirror/鏡).\nUse 쓰다 (head verb)."},
+  {type:"teach",kind:"word",nl:"구두",en:"dress shoes / formal shoes",phonetic:"gu-du",example:"A: 구두를 신어요? B: 네, 회사에 갈 때 신어요.",exampleEn:"A: Do you wear dress shoes? B: Yes, when I go to the office.",note:"구두: formal/dress shoes.\nUse 신다 (feet verb)."},
+  {type:"teach",kind:"word",nl:"운동화",en:"sneakers / athletic shoes",phonetic:"un-dong-hwa",example:"A: 운동화를 좋아해요? B: 네, 편해요.",exampleEn:"A: Do you like sneakers? B: Yes, they're comfortable.",note:"운동화: sneakers/athletic shoes.\nCOMPOUND: 운동(exercise) + 화(shoes).\nUse 신다 (feet verb)."},
+  {type:"fb",s:"추워요. ___를 입으세요.\n(It's cold. Put on a coat.)",a:"코트",opts:["코트","모자","양말","안경"],hint:"A coat covers your torso against the cold"},
+  {type:"fb",s:"눈이 나빠요. ___을 쓰세요.\n(My eyesight is bad. Wear glasses.)",a:"안경",opts:["안경","모자","장갑","목도리"],hint:"Something you put on your face to see better"},
+  {type:"match",pairs:[{nl:"셔츠 → 입다",en:"shirt → torso verb"},{nl:"모자 → 쓰다",en:"hat → head verb"},{nl:"양말 → 신다",en:"socks → feet verb"},{nl:"장갑 → 끼다",en:"gloves → hand verb"}]},
+  {type:"match",pairs:[{nl:"구두",en:"dress shoes"},{nl:"운동화",en:"sneakers"},{nl:"원피스",en:"dress"},{nl:"목도리",en:"scarf"}]},
+  {type:"drag_fill",s:"겨울에 {1}를 입고, {2}을 끼고, {3}를 해요.",blanks:{"1":"코트","2":"장갑","3":"목도리"},pool:["코트","장갑","목도리","모자","양말"],hint:"In winter: coat (torso), gloves (hands), scarf (accessory)"},
+  {type:"mc",q:"Which verb goes with 안경?",opts:["쓰다 (head verb)","입다 (torso verb)","신다 (feet verb)","끼다 (hand verb)"],ans:"쓰다 (head verb)",hint:"Glasses go on your face/head area"},
 ]},
 
 // ═══ L7: Compound Blitz + Culture ═══
@@ -2277,6 +2355,28 @@ export default [
   {type:"match",pairs:[{nl:"어깨",en:"shoulder"},{nl:"허리",en:"lower back"},{nl:"목",en:"throat/neck"},{nl:"등",en:"back"}]},
   {type:"drag_fill",s:"{1}가 아프고 {2}도 아파요. 감기인 것 같아요.",blanks:{"1":"목","2":"머리"},pool:["목","머리","손","발","배"],hint:"My throat hurts and my head hurts too. I think it's a cold."},
   {type:"mc",q:"눈 can mean both:",opts:["Eye and snow","Eye and ear","Nose and mouth","Head and hair"],ans:"Eye and snow",hint:"눈물 = ___-water = tears (body part). 눈이 와요 = ___ is falling (weather)."},
+]},
+
+// ═══ L1.3: Body Parts Expansion ═══
+{id:"kou8l1.3",title:"More Body Parts",icon:"🦵",xp:18,board:true,steps:[
+  {type:"intro",title:"Face, Fingers, and More",desc:"얼굴 → face\n손가락 → finger\n무릎 → knee\n\nExpanding your body vocabulary for the doctor's office.",goals:["Learn 8 additional body parts","Use them in health sentences","Complete your A1 body parts set"]},
+  {type:"teach",kind:"word",nl:"얼굴",en:"face",phonetic:"eol-gul",example:"A: 얼굴이 빨개요! B: 네, 좀 부끄러워요.",exampleEn:"A: Your face is red! B: Yes, I'm a bit embarrassed.",note:"얼굴: face.\n얼굴이 빨갛다: face is red."},
+  {type:"teach",kind:"word",nl:"이",en:"tooth / teeth",phonetic:"i",example:"A: 이가 아파요. B: 치과에 가세요.",exampleEn:"A: My tooth hurts. B: Go to the dentist.",note:"이: tooth/teeth.\n치과: dentist (dental clinic).\nCOMPOUND: 치(tooth/齒) + 과(department/科)."},
+  {type:"teach",kind:"word",nl:"손가락",en:"finger",phonetic:"son-ga-rak",example:"A: 손가락을 다쳤어요? B: 네, 칼로 베었어요.",exampleEn:"A: Did you hurt your finger? B: Yes, I cut it with a knife.",note:"손가락: finger.\nCOMPOUND: 손(hand) + 가락(stick/digit).\n발가락: toe (발 + 가락)."},
+  {type:"teach",kind:"word",nl:"무릎",en:"knee",phonetic:"mu-reup",example:"A: 무릎이 아파요. B: 계단을 많이 올라갔어요?",exampleEn:"A: My knee hurts. B: Did you climb a lot of stairs?",note:"무릎: knee.\n무릎이 아프다: my knee hurts."},
+  {type:"mc",q:"이가 아파요 means:",opts:["My tooth hurts","My eye hurts","My ear hurts","My stomach hurts"],ans:"My tooth hurts",hint:"이 = tooth. 치과 = dental clinic"},
+  {type:"teach",kind:"word",nl:"심장",en:"heart (organ)",phonetic:"sim-jang",example:"A: 심장이 빨리 뛰어요. B: 운동을 많이 했어요?",exampleEn:"A: My heart is beating fast. B: Did you exercise a lot?",note:"심장: heart (the organ).\nCOMPOUND: 심(heart/心) + 장(organ/臟).\n마음: heart (emotions). Different word!"},
+  {type:"teach",kind:"word",nl:"머리카락",en:"hair (on head)",phonetic:"meo-ri-ka-rak",example:"A: 머리카락이 길어요. B: 네, 자르고 싶어요.",exampleEn:"A: Your hair is long. B: Yes, I want to cut it.",note:"머리카락: hair (on head).\nCOMPOUND: 머리(head) + 카락(strand).\n머리를 자르다: to cut hair."},
+  {type:"teach",kind:"word",nl:"발가락",en:"toe",phonetic:"bal-ga-rak",example:"A: 발가락을 부딪쳤어요! B: 아야! 괜찮아요?",exampleEn:"A: I stubbed my toe! B: Ouch! Are you okay?",note:"발가락: toe.\nCOMPOUND: 발(foot) + 가락(digit).\nSame pattern as 손가락 (finger)."},
+  {type:"teach",kind:"word",nl:"가슴",en:"chest / breast",phonetic:"ga-seum",example:"A: 가슴이 답답해요. B: 깊이 숨을 쉬세요.",exampleEn:"A: My chest feels tight. B: Take a deep breath.",note:"가슴: chest/breast.\n가슴이 답답하다: chest feels tight/stuffy.\n가슴이 아프다: heartache (emotional too)."},
+  {type:"mc",q:"손가락 and 발가락 share the element:",opts:["가락 (digit/stick)","손 (hand)","발 (foot)","락 (fall)"],ans:"가락 (digit/stick)",hint:"손 + 가락 = finger. 발 + 가락 = toe. 가락 = the digit"},
+  {type:"mc",q:"심장 vs 마음: what's the difference?",opts:["심장 = physical heart, 마음 = emotional heart","Both mean the same","심장 = emotional, 마음 = physical","Neither means heart"],ans:"심장 = physical heart, 마음 = emotional heart",hint:"심장 is the organ. 마음 is feelings."},
+  {type:"fb",s:"___이 아파요. 치과에 가야 돼요.\n(My tooth hurts. I need to go to the dentist.)",a:"이",opts:["이","코","귀","눈"],hint:"치과 = dental clinic. What body part goes to the dentist?"},
+  {type:"fb",s:"___이 빨리 뛰어요.\n(My heart is beating fast.)",a:"심장",opts:["심장","머리","배","가슴"],hint:"The organ that pumps blood"},
+  {type:"match",pairs:[{nl:"얼굴",en:"face"},{nl:"손가락",en:"finger"},{nl:"무릎",en:"knee"},{nl:"심장",en:"heart (organ)"}]},
+  {type:"match",pairs:[{nl:"머리카락",en:"hair"},{nl:"발가락",en:"toe"},{nl:"이",en:"tooth"},{nl:"가슴",en:"chest"}]},
+  {type:"drag_fill",s:"{1}이 아프고 {2}도 아파요.",blanks:{"1":"무릎","2":"허리"},pool:["무릎","허리","손가락","얼굴"],hint:"My knee hurts and my lower back hurts too"},
+  {type:"mc",q:"머리카락을 자르다 means:",opts:["to cut hair","to wash hair","to brush hair","to grow hair"],ans:"to cut hair",hint:"자르다 = to cut. 머리카락 = hair on head"},
 ]},
 
 // ═══ L2: 아프다 + Subject Particle ═══

@@ -458,6 +458,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - de/het article audit: 55+ nouns verified, ZERO errors
   - Final scan: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80, duplicates=0
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 311 P8 hint-reveals fixed (54 mc + 134 fb + 123 additional). 1 critical mc ans mismatch fixed (v2u25l7). CEFR grammar 68/69 PASS (only B2 dienen te missing: LOW priority). Dialogue coverage: 97.7% (1,080/1,105).
+- **D112 SESSION 1 (2026-03-17)**: 1 new body parts lesson (v2u8l1b, 18 steps) + 8 month teach cards added to existing v2u3l6. Total teach cards: ~1,113+.
 - **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), audited (D102), and cross-audited (D109).
 - **NEXT ACTION**: Dialogue enrichment uplift (97.7% → 100%) or A1-A2 retroactive standards pass when prioritized.
 
@@ -498,7 +499,8 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - P44 lazy hints: 12 in A1/A2 content.
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: Full 5-language audit. 178 em-dashes fixed, 3 critical mc ans mismatches fixed (kou4l8, kou9l8), 3 P49 CEFR labels removed, 12 severe P8 hint-reveals rewritten. CEFR grammar coverage: 64/64 FULL PASS.
-- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, dialogue-enriched, and cross-audited (D109). Next: C1 curriculum when Dutch catches up.
+- **D112 SESSION 1 (2026-03-17)**: 4 new A1 vocab gap lessons added: months (kou3l8b, 24 steps), clothing (kou6l6b, 24 steps), body parts (kou8l1.3, 18 steps), emotions (kou5l7b, 18 steps). Total teach cards: ~1,200+.
+- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, dialogue-enriched, and cross-audited (D109). D112 vocab gap fixes in progress. Next: C1 curriculum when Dutch catches up.
 
 ### German:
 - **A1-B2 COMPLETE (D103, 2026-03-16)**: Full build from scratch.
@@ -1038,6 +1040,8 @@ German is PRODUCTION-READY. Built from scratch in D103:
 | Post-build validation fix | D104 | 3 undefined array elements, 3 missing MC ans, unit ordering |
 | Cross-language audit | D109 | 157 P8 fixed, CEFR PASS (1 moderate gap: A2 imperative) |
 
+**D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (deu5l6b, 26 steps), body parts (deu15l5b, 23 steps). Total teach cards: ~1,118+.
+
 **German needs D111 audit.** CEFR distribution flagged (D110): 8-8-7-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
@@ -1055,6 +1059,8 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | Dialogue enrichment | D105 | 883/883 (100%) |
 | Agent model escalation protocol | D106 | Opus 4.6 mandatory for content agents |
 | Cross-language audit | D109 | 15 P8 fixed, 2 P49 removed, CEFR PASS (3 minor vocab gaps) |
+
+**D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (fre5l8b, 27 steps), body parts (fre3l8b, 20 steps). Total teach cards: ~899+.
 
 **French needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
@@ -1075,6 +1081,8 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | Dialogue enrichment | D108 | All teach cards have A:/B: dialogues |
 | Temp-file agent workflow | D107 | Gold standard for future builds |
 | Cross-language audit | D109 | 23 P8 fixed, 1 P49 removed, CEFR PASS (2 vocab gaps) |
+
+**D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (esp3l4b, 22 steps), body parts (esp5l8b, 20 steps). Total teach cards: ~890+.
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES — D112 CERTIFICATION-GRADE AUDIT (IMMEDIATE)

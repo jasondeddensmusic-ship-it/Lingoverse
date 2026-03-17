@@ -1484,6 +1484,61 @@ export default [
   {type:"mc",q:"'Sonnabend' is a regional name used in Eastern Germany for:",opts:["Sunday","Saturday","Friday","Monday"],ans:"Saturday",hint:"Sonne (sun) + Abend (evening). Alternative to Samstag."},
 ]},
 
+// ═══ L6b: Monate & Jahreszeiten ═══
+{id:"deu5l6b",title:"Monate & Jahreszeiten",icon:"📅",xp:20,board:true,steps:[
+  {type:"intro",title:"Monate & Jahreszeiten",desc:"You know the days of the week. Now learn the twelve months and four seasons so you can talk about birthdays, holidays, weather, and plans throughout the year.",goals:["All 12 months with correct articles","4 seasons: Frühling, Sommer, Herbst, Winter","Use im + month/season for time expressions","Talk about birthdays and seasonal activities"]},
+
+  {type:"teach",kind:"word",nl:"der Januar",en:"January",phonetic:"YAH-noo-ar",cognate:{words:[{lang:"English",word:"January"},{lang:"Dutch",word:"januari"}],family:"borrowed"},example:"A: Wann hast du Geburtstag?\nB: Im Januar.\nA: Im Januar ist es kalt!",exampleEn:"A: When is your birthday?\nB: In January.\nA: In January it is cold!",note:"All months are masculine: der Januar.\nim Januar = in January (im = in + dem)."},
+
+  {type:"teach",kind:"word",nl:"der Februar",en:"February",phonetic:"FAY-broo-ar",cognate:{words:[{lang:"English",word:"February"},{lang:"Dutch",word:"februari"}],family:"borrowed"},example:"A: Der Februar ist kurz.\nB: Ja, nur 28 Tage!\nA: Oder 29 im Schaltjahr.",exampleEn:"A: February is short.\nB: Yes, only 28 days!\nA: Or 29 in a leap year.",note:"der Februar. Shortest month.\nSchaltjahr = leap year."},
+
+  {type:"teach",kind:"word",nl:"der März",en:"March",phonetic:"MERTS",cognate:{words:[{lang:"English",word:"March"},{lang:"Dutch",word:"maart"}],family:"borrowed"},example:"A: Im März wird es wärmer.\nB: Ja, der Frühling kommt!\nA: Endlich!",exampleEn:"A: In March it gets warmer.\nB: Yes, spring is coming!\nA: Finally!",note:"der März. Named after Mars (Roman god).\nNote the umlaut: ä in März."},
+
+  {type:"tip",title:"All Twelve Months",text:"All months are masculine (der) and use im for 'in':\n\nJanuar, Februar, März\nApril, Mai, Juni\nJuli, August, September\nOktober, November, Dezember\n\nim Januar = in January\nim Dezember = in December\n\nMost German months look similar to English.\nThey are easy to recognize as cognates.",deepDive:{title:"Why im and not in?",text:"im is a contraction of in + dem (dative).\n\nSince all months are masculine (der), the dative form is dem.\nin + dem = im.\n\nThis is the same im you use for rooms (im Wohnzimmer) and times (im Sommer).\n\nYou never say 'in Januar' or 'in der Januar'. Always: im Januar."}},
+
+  {type:"teach",kind:"word",nl:"der April",en:"April",phonetic:"ah-PRIL",cognate:{words:[{lang:"English",word:"April"},{lang:"Dutch",word:"april"}],family:"borrowed"},example:"A: April, April!\nB: Was? Du machst Spaß!\nA: Ja, heute ist der erste April!",exampleEn:"A: April fool!\nB: What? You are joking!\nA: Yes, today is the first of April!",note:"der April. April, April! = April fool!\nDer erste April = April 1st (pranks)."},
+
+  {type:"teach",kind:"word",nl:"der Mai",en:"May",phonetic:"MY",cognate:{words:[{lang:"English",word:"May"},{lang:"Dutch",word:"mei"}],family:"borrowed"},example:"A: Der Mai ist wunderschön.\nB: Ja, alles blüht!\nA: Mein Lieblingsmonat.",exampleEn:"A: May is beautiful.\nB: Yes, everything is blooming!\nA: My favourite month.",note:"der Mai. Short and sweet.\nder Maibaum = maypole (Bavarian tradition)."},
+
+  {type:"teach",kind:"word",nl:"der Juni",en:"June",phonetic:"YOO-nee",cognate:{words:[{lang:"English",word:"June"},{lang:"Dutch",word:"juni"}],family:"borrowed"},example:"A: Im Juni beginnen die Sommerferien.\nB: Endlich! Sechs Wochen frei.\nA: Was machst du?",exampleEn:"A: In June the summer holidays begin.\nB: Finally! Six weeks off.\nA: What are you doing?",note:"der Juni. Start of summer holidays in many German states.\nSommerferien = summer holidays."},
+
+  {type:"teach",kind:"word",nl:"der Dezember",en:"December",phonetic:"day-TSEM-ber",cognate:{words:[{lang:"English",word:"December"},{lang:"Dutch",word:"december"}],family:"borrowed"},example:"A: Im Dezember feiern wir Weihnachten.\nB: Hast du schon Geschenke gekauft?\nA: Noch nicht!",exampleEn:"A: In December we celebrate Christmas.\nB: Have you bought presents yet?\nA: Not yet!",note:"der Dezember. Weihnachten = Christmas.\nder Adventskalender = advent calendar."},
+
+  {type:"teach",kind:"word",nl:"der Frühling",en:"spring",phonetic:"FRÜL-ing",example:"A: Magst du den Frühling?\nB: Ja! Die Blumen blühen und es wird warm.\nA: Im Frühling gehe ich gern spazieren.",exampleEn:"A: Do you like spring?\nB: Yes! The flowers bloom and it gets warm.\nA: In spring I like to go for walks.",note:"der Frühling (masculine).\nim Frühling = in spring.\nAlso called: das Frühjahr (formal)."},
+
+  {type:"teach",kind:"word",nl:"der Sommer",en:"summer",phonetic:"ZOM-er",cognate:{words:[{lang:"English",word:"summer"},{lang:"Dutch",word:"zomer"}],family:"germanic"},example:"A: Was machst du im Sommer?\nB: Ich fahre ans Meer.\nA: Schön! Ich bleibe zu Hause.",exampleEn:"A: What do you do in summer?\nB: I go to the sea.\nA: Nice! I stay at home.",note:"der Sommer (masculine).\nim Sommer = in summer.\nSommerferien = summer holidays."},
+
+  {type:"teach",kind:"word",nl:"der Herbst",en:"autumn / fall",phonetic:"HERPST",example:"A: Im Herbst werden die Blätter bunt.\nB: Ja, rot, gelb und orange.\nA: Herbst ist meine Lieblingsjahreszeit.",exampleEn:"A: In autumn the leaves turn colourful.\nB: Yes, red, yellow and orange.\nA: Autumn is my favourite season.",note:"der Herbst (masculine).\nim Herbst = in autumn.\ndie Blätter = the leaves."},
+
+  {type:"teach",kind:"word",nl:"der Winter",en:"winter",phonetic:"VIN-ter",cognate:{words:[{lang:"English",word:"winter"},{lang:"Dutch",word:"winter"}],family:"germanic"},example:"A: Im Winter schneit es oft.\nB: Ja, ich mag den Schnee!\nA: Ich auch. Aber es ist kalt.",exampleEn:"A: In winter it often snows.\nB: Yes, I like the snow!\nA: Me too. But it is cold.",note:"der Winter (masculine).\nim Winter = in winter.\nder Schnee = snow."},
+
+  {type:"tip",title:"Seasons and im",text:"All four seasons are masculine (der):\n\nder Frühling (spring)\nder Sommer (summer)\nder Herbst (autumn)\nder Winter (winter)\n\nUse im for all:\nim Frühling, im Sommer, im Herbst, im Winter.\n\nTo ask: Welche Jahreszeit magst du?\n(Which season do you like?)\ndie Jahreszeit = the season."},
+
+  {type:"mc",q:"Which article do ALL German months take?",opts:["die","das","der","ein"],ans:"der",hint:"Like the days of the week, months share one article."},
+
+  {type:"mc",q:"'Im März' means:",opts:["on March","in March","at March","during March day"],ans:"in March",hint:"im = in + dem. Standard pattern for months and seasons."},
+
+  {type:"fb",s:"Ich habe {1} Juli Geburtstag.",a:"im",opts:["im","am","in","um"],hint:"Months use which contraction for 'in'?"},
+
+  {type:"match",pairs:[{nl:"der Frühling",en:"spring"},{nl:"der Sommer",en:"summer"},{nl:"der Herbst",en:"autumn"},{nl:"der Winter",en:"winter"}]},
+
+  {type:"mc",q:"Which month is the shortest?",opts:["der Januar","der Februar","der März","der April"],ans:"der Februar",hint:"Only 28 or 29 days."},
+
+  {type:"fb",s:"{1} Dezember feiern wir Weihnachten.",a:"Im",opts:["Im","Am","Um","Zum"],hint:"December uses the same time preposition as all months."},
+
+  {type:"mc",q:"'April, April!' is the German equivalent of:",opts:["Happy New Year","April Fools","Happy Easter","Good luck"],ans:"April Fools",hint:"Said on the first of April when playing a prank."},
+
+  {type:"match",pairs:[{nl:"Januar",en:"January"},{nl:"Juni",en:"June"},{nl:"September",en:"September"},{nl:"Dezember",en:"December"}]},
+
+  {type:"mc",q:"Which season comes after der Herbst?",opts:["der Frühling","der Sommer","der Winter","der Herbst again"],ans:"der Winter",hint:"After the leaves fall, what comes next?"},
+
+  {type:"drag_fill",s:"{1} Frühling blühen die Blumen. {2} Sommer fahren wir ans Meer. {3} Winter schneit es.",blanks:{"1":"Im","2":"Im","3":"Im"},pool:["Im","Am","Um","Im","Im"],hint:"All three blanks need the same contraction: in + dem."},
+
+  {type:"fb",s:"Welche {1} magst du am liebsten?",a:"Jahreszeit",opts:["Jahreszeit","Monat","Woche","Stunde"],hint:"The word for season. Literally: year-time."},
+
+  {type:"mc",q:"The German word for 'summer holidays' is:",opts:["Sommerferien","Sommertage","Sommerzeit","Sommernacht"],ans:"Sommerferien",hint:"Sommer + the word for holidays or vacation."},
+]},
+
 // ═══ L7: Mein Tagesablauf ═══
 {id:"deu5l7",title:"Mein Tagesablauf",icon:"📋",xp:15,board:true,steps:[
   {type:"intro",title:"Mein Tagesablauf",desc:"Putting it all together: time + days + activities. Describe a full daily schedule by combining everything from this unit.",goals:["Describe a full day morning to evening","Combine time expressions with activities","Use separable verbs naturally in context","Talk about your weekly schedule"]},
@@ -4207,6 +4262,55 @@ export default [
   {type:"match",pairs:[{nl:"der Arm",en:"the arm"},{nl:"das Bein",en:"the leg"},{nl:"der Bauch",en:"the stomach"},{nl:"der Hals",en:"the throat/neck"}]},
 
   {type:"mc",q:"'Halsschmerzen' tells us which body part hurts:",opts:["Head","Stomach","Throat/neck","Back"],ans:"Throat/neck",hint:"Which body part connects your head to your shoulders?"},
+]},
+
+// ═══ L5b: Mehr Körperteile ═══
+{id:"deu15l5b",title:"Mehr Körperteile",icon:"👁️",xp:20,board:true,steps:[
+  {type:"intro",title:"Mehr Körperteile",desc:"You know the core body parts: Kopf, Arm, Bein, Rücken, Bauch, Hand, Fuß, Hals. Now expand with the face and joints: Auge, Nase, Mund, Zahn, Schulter, Knie, and Herz. These are essential for describing pain and visiting the doctor.",goals:["7 new body parts with correct articles","Face vocabulary: Auge, Nase, Mund, Zahn","Joint and organ: Schulter, Knie, Herz","Use wehtun and -schmerzen with new vocabulary"]},
+
+  {type:"teach",kind:"word",nl:"das Auge",en:"the eye",phonetic:"dahs OW-geh",cognate:{words:[{lang:"English",word:"eye"},{lang:"Dutch",word:"het oog"}],family:"germanic"},example:"A: Mir tut das Auge weh.\nB: Welches Auge? Das linke oder das rechte?\nA: Das linke.\nB: Du solltest zum Augenarzt gehen.",exampleEn:"A: My eye hurts.\nB: Which eye? The left or the right?\nA: The left one.\nB: You should go to the eye doctor.",note:"das Auge (neuter). Plural: die Augen.\nder Augenarzt = eye doctor."},
+
+  {type:"teach",kind:"word",nl:"die Nase",en:"the nose",phonetic:"dee NAH-zeh",cognate:{words:[{lang:"English",word:"nose"},{lang:"Dutch",word:"de neus"}],family:"germanic"},example:"A: Meine Nase läuft.\nB: Hast du eine Erkältung?\nA: Ja, seit gestern.\nB: Gute Besserung!",exampleEn:"A: My nose is running.\nB: Do you have a cold?\nA: Yes, since yesterday.\nB: Get well soon!",note:"die Nase (feminine). Plural: die Nasen.\nDie Nase läuft = the nose is running."},
+
+  {type:"teach",kind:"word",nl:"der Mund",en:"the mouth",phonetic:"dehr MOONT",cognate:{words:[{lang:"English",word:"mouth"},{lang:"Dutch",word:"de mond"}],family:"germanic"},example:"A: Machen Sie bitte den Mund auf.\nB: So?\nA: Ja, ich sehe den Hals. Sieht gut aus.",exampleEn:"A: Please open your mouth.\nB: Like this?\nA: Yes, I can see the throat. Looks good.",note:"der Mund (masculine). Plural: die Münder.\nDen Mund aufmachen = to open one's mouth."},
+
+  {type:"teach",kind:"word",nl:"der Zahn",en:"the tooth",phonetic:"dehr TSAHN",cognate:{words:[{lang:"English",word:"tooth"},{lang:"Dutch",word:"de tand"}],family:"germanic"},example:"A: Mir tut der Zahn weh.\nB: Seit wann?\nA: Seit drei Tagen.\nB: Geh zum Zahnarzt!",exampleEn:"A: My tooth hurts.\nB: Since when?\nA: For three days.\nB: Go to the dentist!",note:"der Zahn (masculine). Plural: die Zähne.\nder Zahnarzt = dentist.\nZahnschmerzen = toothache."},
+
+  {type:"teach",kind:"word",nl:"die Schulter",en:"the shoulder",phonetic:"dee SHOOL-ter",cognate:{words:[{lang:"English",word:"shoulder"},{lang:"Dutch",word:"de schouder"}],family:"germanic"},example:"A: Mir tut die Schulter weh.\nB: Die linke oder die rechte?\nA: Die rechte. Ich kann den Arm kaum heben.",exampleEn:"A: My shoulder hurts.\nB: The left or the right?\nA: The right one. I can barely lift my arm.",note:"die Schulter (feminine). Plural: die Schultern.\nSchulterschmerzen = shoulder pain."},
+
+  {type:"teach",kind:"word",nl:"das Knie",en:"the knee",phonetic:"dahs K-NEE",cognate:{words:[{lang:"English",word:"knee"},{lang:"Dutch",word:"de knie"}],family:"germanic"},example:"A: Mein Knie tut weh.\nB: Was ist passiert?\nA: Ich bin beim Joggen gestürzt.\nB: Kannst du laufen?",exampleEn:"A: My knee hurts.\nB: What happened?\nA: I fell while jogging.\nB: Can you walk?",note:"das Knie (neuter). Plural: die Knie.\nThe K is silent in English but pronounced in German."},
+
+  {type:"teach",kind:"word",nl:"das Herz",en:"the heart",phonetic:"dahs HERTS",cognate:{words:[{lang:"English",word:"heart"},{lang:"Dutch",word:"het hart"}],family:"germanic"},example:"A: Das Herz ist das wichtigste Organ.\nB: Stimmt. Es pumpt das Blut durch den Körper.\nA: Mein Herz schlägt schnell nach dem Sport.",exampleEn:"A: The heart is the most important organ.\nB: True. It pumps blood through the body.\nA: My heart beats fast after exercise.",note:"das Herz (neuter). Plural: die Herzen.\nHerzschmerzen = heart pain.\nvon Herzen = from the heart (sincerely)."},
+
+  {type:"tip",title:"Face Parts Summary",text:"The face (das Gesicht) has these key parts:\n\ndas Auge (neuter) = eye. Plural: die Augen.\ndie Nase (feminine) = nose.\nder Mund (masculine) = mouth.\nder Zahn (masculine) = tooth. Plural: die Zähne.\ndas Ohr (neuter) = ear. Plural: die Ohren.\n\nThree different articles for face parts.\nLearn the article WITH the noun.",deepDive:{title:"Compound nouns with body parts",text:"German loves compounds with body parts:\n\nder Augenarzt = eye doctor (Auge + Arzt)\nder Zahnarzt = dentist (Zahn + Arzt)\ndie Zahnbürste = toothbrush (Zahn + Bürste)\ndie Zahnpasta = toothpaste (Zahn + Pasta)\ndie Nasenspitze = tip of the nose (Nase + Spitze)\ndie Schultertasche = shoulder bag (Schulter + Tasche)\n\nThe last word determines the article."}},
+
+  {type:"mc",q:"Which article is correct for 'Auge'?",opts:["der Auge","die Auge","das Auge","ein Auge"],ans:"das Auge",hint:"Auge is a neuter noun."},
+
+  {type:"mc",q:"'Mir tut der Zahn weh.' means:",opts:["My tooth is clean.","My tooth hurts.","I lost a tooth.","My teeth are white."],ans:"My tooth hurts.",hint:"wehtun = to hurt. der Zahn = the tooth."},
+
+  {type:"fb",s:"Ich habe ___. Ich muss zum Zahnarzt.",a:"Zahnschmerzen",opts:["Zahnschmerzen","Kopfschmerzen","Bauchschmerzen","Rückenschmerzen"],hint:"Zahn = tooth. Which compound pain word?"},
+
+  {type:"match",pairs:[{nl:"das Auge",en:"the eye"},{nl:"die Nase",en:"the nose"},{nl:"der Mund",en:"the mouth"},{nl:"der Zahn",en:"the tooth"}]},
+
+  {type:"mc",q:"The plural of 'das Auge' is:",opts:["die Auge","die Augen","die Auges","das Augen"],ans:"die Augen",hint:"Add -n to get the plural form."},
+
+  {type:"fb",s:"Machen Sie bitte den {1} auf. Ich möchte den Hals sehen.",a:"Mund",opts:["Mund","Zahn","Nase","Auge"],hint:"The doctor asks you to open this body part to see your throat."},
+
+  {type:"mc",q:"'Die Nase läuft' means:",opts:["My nose is bleeding.","My nose is running.","My nose is broken.","My nose is red."],ans:"My nose is running.",hint:"Laufen here means to run (as in liquid flowing out)."},
+
+  {type:"match",pairs:[{nl:"die Schulter",en:"the shoulder"},{nl:"das Knie",en:"the knee"},{nl:"das Herz",en:"the heart"},{nl:"der Kopf",en:"the head"}]},
+
+  {type:"mc",q:"Which body part is neuter (das)?",opts:["der Zahn","die Schulter","das Knie","der Mund"],ans:"das Knie",hint:"Two syllables, related to the English word 'knee'."},
+
+  {type:"fb",s:"Mein {1} tut weh. Ich bin beim Joggen gestürzt.",a:"Knie",opts:["Knie","Schulter","Herz","Mund"],hint:"The joint between your thigh and lower leg."},
+
+  {type:"mc",q:"'Herzschmerzen' refers to pain in the:",opts:["head","stomach","heart","shoulder"],ans:"heart",hint:"Herz = heart. The -schmerzen compound pattern."},
+
+  {type:"drag_fill",s:"Mir tut {1} Schulter weh und {2} Knie auch. Ich gehe zum {3}.",blanks:{"1":"die","2":"das","3":"Arzt"},pool:["die","das","der","Arzt","Zahnarzt"],hint:"Schulter is feminine, Knie is neuter. You visit the doctor."},
+
+  {type:"mc",q:"To say 'I have a toothache', you say:",opts:["Ich habe Zahnschmerzen.","Mir tut die Zähne weh.","Mein Zahn ist krank.","Ich bin Zahnschmerz."],ans:"Ich habe Zahnschmerzen.",hint:"The -schmerzen compound with haben is the standard formula."},
+
+  {type:"fb",s:"Das {1} ist das wichtigste Organ im Körper.",a:"Herz",opts:["Herz","Auge","Knie","Ohr"],hint:"This organ pumps blood through your body."},
 ]},
 
 // ═══ L6: sich fühlen ═══
