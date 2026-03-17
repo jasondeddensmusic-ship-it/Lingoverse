@@ -5966,6 +5966,39 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
   .topnav-item span:not(.icon) { display: none; }
   .topnav-item { padding: 8px 10px; }
 }
+
+/* ── CURRICULUM SEARCH MODAL (D113) ── */
+.search-overlay { position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:10000;display:flex;align-items:flex-start;justify-content:center;padding-top:80px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px); }
+.search-panel { width:min(640px,94vw);max-height:calc(100vh - 140px);display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:var(--card-bg);border:1.5px solid var(--card-border);box-shadow:0 24px 72px rgba(0,0,0,0.18),0 8px 24px rgba(123,94,232,0.12),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04); }
+:root.dark .search-panel { box-shadow:0 24px 72px rgba(0,0,0,0.55),0 8px 24px rgba(123,94,232,0.28),inset 0 2px 0 rgba(255,255,255,0.13),inset 0 -2px 0 rgba(0,0,0,0.28);border:1.5px solid rgba(255,255,255,0.1); }
+.search-header { padding:16px 18px 12px;border-bottom:1.5px solid var(--gray-100);display:flex;align-items:center;gap:10px;background:linear-gradient(180deg,rgba(255,255,255,0.92)0%,rgba(248,246,255,0.82)100%);flex-shrink:0; }
+:root.dark .search-header { background:linear-gradient(180deg,rgba(48,42,88,0.97)0%,rgba(38,34,72,0.93)100%);border-bottom-color:rgba(255,255,255,0.08); }
+.search-input { flex:1;border:none;outline:none;background:transparent;font-size:17px;font-family:'Nunito','DM Sans',system-ui,sans-serif;font-weight:600;color:var(--gray-800);caret-color:#7B5EE8;min-width:0; }
+.search-input::placeholder { color:var(--gray-300);font-weight:500; }
+.search-count { padding:7px 18px;font-size:11px;font-weight:700;color:var(--gray-400);background:var(--gray-50);border-bottom:1px solid var(--gray-100);letter-spacing:.3px;text-transform:uppercase;flex-shrink:0; }
+:root.dark .search-count { background:rgba(22,20,48,0.7);border-bottom-color:rgba(255,255,255,0.06); }
+.search-results { overflow-y:auto;flex:1; }
+.search-result-row { display:flex;align-items:flex-start;gap:12px;padding:12px 18px;border-bottom:1px solid var(--gray-100);cursor:default;transition:background .12s; }
+.search-result-row:hover { background:linear-gradient(90deg,rgba(123,94,232,0.07)0%,transparent 100%); }
+:root.dark .search-result-row { border-bottom-color:rgba(255,255,255,0.06); }
+:root.dark .search-result-row:hover { background:linear-gradient(90deg,rgba(123,94,232,0.16)0%,transparent 100%); }
+.search-result-icon { font-size:20px;flex-shrink:0;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(123,94,232,0.13),rgba(123,94,232,0.06));margin-top:1px; }
+.search-result-body { flex:1;min-width:0; }
+.search-result-title { font-size:13px;font-weight:700;color:var(--gray-700);white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+.search-result-sub { font-size:11.5px;color:var(--gray-400);margin-top:3px;display:flex;align-items:center;gap:0;flex-wrap:wrap; }
+.search-result-match { font-size:12px;color:#7B5EE8;margin-top:5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.5; }
+:root.dark .search-result-match { color:#B09DF8; }
+.search-tag { display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:800;margin-right:5px;letter-spacing:.3px; }
+.search-tag-cefr { background:linear-gradient(135deg,rgba(123,94,232,0.14),rgba(123,94,232,0.07));color:#7B5EE8;border:1px solid rgba(123,94,232,0.2); }
+:root.dark .search-tag-cefr { background:rgba(123,94,232,0.22);color:#C0AEFF;border-color:rgba(123,94,232,0.32); }
+.search-tag-type { background:linear-gradient(135deg,rgba(46,205,167,0.14),rgba(46,205,167,0.07));color:#0D7D5C;border:1px solid rgba(46,205,167,0.22); }
+:root.dark .search-tag-type { background:rgba(46,205,167,0.18);color:#70DFC0;border-color:rgba(46,205,167,0.28); }
+.search-empty { padding:44px 20px;text-align:center;color:var(--gray-400);font-size:14px;font-weight:500;line-height:1.6; }
+.search-clear { cursor:pointer;font-size:12px;color:var(--gray-400);flex-shrink:0;padding:3px 8px;border-radius:6px;background:var(--gray-100);transition:background .12s;font-weight:600; }
+.search-clear:hover { background:var(--gray-200); }
+:root.dark .search-clear { background:rgba(255,255,255,0.08); }
+:root.dark .search-clear:hover { background:rgba(255,255,255,0.14); }
+@media(max-width:700px) { .search-overlay { padding-top:56px; } .search-panel { max-height:calc(100vh - 80px); } }
 `;
 
 
@@ -8122,6 +8155,34 @@ function Onboarding({onComplete}){
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
 const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits];
+
+// ── CURRICULUM SEARCH (D113) ──
+// Searches all units for the active language. Returns up to 80 results.
+// Checks nl/en/note/example/exampleEn/q/text/title/s/opts/pairs/a fields.
+function searchUnits(query,lang){
+  if(!query||query.trim().length<2)return[];
+  const q=query.toLowerCase().trim();
+  const results=[];
+  const langUnits=UNITS.filter(u=>u.lang===lang);
+  for(const unit of langUnits){
+    for(const lesson of(unit.lessons||[])){
+      for(let si=0;si<(lesson.steps||[]).length;si++){
+        const s=lesson.steps[si];
+        const texts=[
+          s.nl,s.en,s.note,s.example,s.exampleEn,s.q,s.text,s.title,s.s,s.desc,
+          ...(s.opts||[]),
+          ...(s.pairs||[]).flatMap(p=>[p.nl,p.en]),
+          ...(Array.isArray(s.a)?s.a:[s.a||''])
+        ].filter(t=>typeof t==='string');
+        if(texts.some(t=>t.toLowerCase().includes(q))){
+          results.push({unit,lesson,si,step:s});
+          if(results.length>=80)return results;
+        }
+      }
+    }
+  }
+  return results;
+}
 
 // ── DEV GUARD (deferred): Check UNITS lang codes against LANGUAGES + FK coverage ──
 try{
@@ -12739,6 +12800,8 @@ export default function App(){
   const [user,setUser]=useState({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set()});
   const [showResetModal,setShowResetModal]=useState(false);
   const [darkMode,setDarkMode]=useState(false);
+  const [showSearch,setShowSearch]=useState(false);
+  const [searchQuery,setSearchQuery]=useState("");
 
   // ── Dark mode: set class synchronously so children read correct dk ──
   document.documentElement.classList.toggle("dark",darkMode);
@@ -12751,6 +12814,19 @@ export default function App(){
     window.addEventListener("keydown",handler);
     return ()=>window.removeEventListener("keydown",handler);
   },[]);
+
+  // ── Ctrl+F: open/close curriculum search ──
+  useEffect(()=>{
+    const handler=(e)=>{
+      if((e.ctrlKey||e.metaKey)&&e.key==="f"&&!document.querySelector("[data-kb-owner]")){
+        e.preventDefault();
+        setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;});
+      }
+      if(e.key==="Escape"&&showSearch){setShowSearch(false);setSearchQuery("");}
+    };
+    window.addEventListener("keydown",handler);
+    return()=>window.removeEventListener("keydown",handler);
+  },[showSearch]);
 
   // ── Global arrow-key navigation (Decision 11) ──
   // Active on all pages. data-kb-owner markers disable during LessonEngine.
@@ -12879,6 +12955,10 @@ export default function App(){
       <button onClick={()=>setDarkMode(d=>!d)} title="Toggle dark mode (Ctrl+N)" style={{position:"fixed",top:100,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD",background:darkMode?"rgba(30,31,56,0.6)":"#F0F0F5",display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)",...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
         <span style={{fontSize:15,lineHeight:1,color:darkMode?"#D0D0E2":"#777788",transition:"color .2s"}}>{darkMode?"☀":"☽"}</span>
       </button>
+      {/* Search floating button — below dark mode toggle */}
+      <button onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})} title="Search curriculum (Ctrl+F)" style={{position:"fixed",top:144,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:showSearch?(darkMode?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(123,94,232,0.4)"):(darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD"),background:showSearch?(darkMode?"rgba(123,94,232,0.35)":"rgba(123,94,232,0.1)"):(darkMode?"rgba(30,31,56,0.6)":"#F0F0F5"),display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:showSearch?"0 4px 14px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.1)":(darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)"),...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
+        <span style={{fontSize:14,lineHeight:1,color:showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788"),transition:"color .2s"}}>🔍</span>
+      </button>
       {/* Ctrl+D Reset Modal */}
       {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} onClick={()=>setShowResetModal(false)}>
         <div onClick={e=>e.stopPropagation()} style={{background:"var(--card-bg)",borderRadius:24,padding:"36px 40px",maxWidth:360,textAlign:"center",boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
@@ -12892,6 +12972,73 @@ export default function App(){
           <p style={{fontSize:11,color:"var(--gray-300)",marginTop:16}}>Press Y to confirm, N to cancel</p>
         </div>
       </div>}
+      {/* Curriculum Search Modal (D113) */}
+      {showSearch&&(()=>{
+        const STEP_LABELS={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag & fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
+        const q=searchQuery.trim();
+        const results=q.length>=2?searchUnits(q,lang):[];
+        const highlight=(text)=>{
+          if(!text||!q)return text||"";
+          const idx=text.toLowerCase().indexOf(q.toLowerCase());
+          if(idx<0)return text.slice(0,80)+(text.length>80?"…":"");
+          const start=Math.max(0,idx-30);
+          const end=Math.min(text.length,idx+q.length+55);
+          return(start>0?"…":"")+text.slice(start,end)+(end<text.length?"…":"");
+        };
+        return(
+          <div className="search-overlay" onClick={()=>{setShowSearch(false);setSearchQuery("");}}>
+            <div className="search-panel" onClick={e=>e.stopPropagation()}>
+              <div className="search-header">
+                <span style={{fontSize:17,opacity:.45,flexShrink:0,lineHeight:1}}>🔍</span>
+                <input
+                  className="search-input"
+                  autoFocus
+                  placeholder="Search any word, grammar, or phrase…"
+                  value={searchQuery}
+                  onChange={e=>setSearchQuery(e.target.value)}
+                  onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
+                />
+                {searchQuery&&<span className="search-clear" onClick={()=>setSearchQuery("")}>✕</span>}
+              </div>
+              {q.length>=2&&(
+                <div className="search-count">
+                  {results.length===0?`No results for "${q}"`:results.length>=80?`80+ matches — type more to narrow`:`${results.length} result${results.length===1?"":"s"}`}
+                </div>
+              )}
+              <div className="search-results">
+                {q.length<2&&(
+                  <div className="search-empty">
+                    <div style={{fontSize:32,marginBottom:12}}>🔍</div>
+                    Type 2+ characters to search across all units, lessons, and teach cards.<br/>
+                    <span style={{fontSize:12,opacity:.6,marginTop:8,display:"block"}}>Ctrl+F to open · Esc to close</span>
+                  </div>
+                )}
+                {q.length>=2&&results.length===0&&(
+                  <div className="search-empty">No results found for "{q}"</div>
+                )}
+                {results.map((r,i)=>{
+                  const matchText=[r.step.nl,r.step.en,r.step.example,r.step.exampleEn,r.step.q,r.step.text,r.step.s,r.step.note,r.step.title]
+                    .find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
+                  return(
+                    <div key={i} className="search-result-row">
+                      <div className="search-result-icon">{r.unit.icon||"📚"}</div>
+                      <div className="search-result-body">
+                        <div className="search-result-title">U{r.unit.n} · {r.unit.title} — {r.lesson.title}</div>
+                        <div className="search-result-sub">
+                          <span className="search-tag search-tag-cefr">{r.unit.level}</span>
+                          <span className="search-tag search-tag-type">{STEP_LABELS[r.step.type]||r.step.type}</span>
+                          <span style={{marginLeft:2}}>step {r.si+1}</span>
+                        </div>
+                        {matchText&&<div className="search-result-match">{highlight(matchText)}</div>}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        );
+      })()}
       {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
         <>
           <NavBar/>
