@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-17 (D1-D109. D86+ in CLAUDE.md)
+> Last updated: 2026-03-17 (D1-D112. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,8 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D112 | Certification-Grade Vocabulary & Grammar Audit Mandate | Architecture/Pipeline/Audit | All |
+| D111 | Partial Structural Audit (Sub-Level Fixes Only) — INCOMPLETE | Audit | All |
 | D110 | CEFR Distribution Audit + Anti-Cramming Doctrine + P34 Deep Enforcement | Architecture/Pipeline/Audit | All |
 | D109 | Cross-Language Audit: All 5 Languages (RETROACTIVELY INCOMPLETE — see D110) | Audit/Quality | All |
 | D108 | Spanish A1-B2 Complete Curriculum Build | Content/Build | Spanish |
@@ -522,6 +524,60 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
 6. **nl/en field naming** (scaling blocker). All teach cards across ALL languages use `nl` for the target-language word and `en` for the source-language translation. These field names are hardcoded Dutch-English vestiges from when the app was Dutch-only. Future rename: `nl` -> `tgt`, `en` -> `src` (or similar). This is a massive rename (thousands of occurrences across all units files + engine renderers) that should be its own decision when the multi-source architecture is built. Tracked here. Not blocking current work.
 
 **Why D110 exists**: The owner discovered the CEFR distribution flaw by visual inspection. An audit that costs hours of compute time but misses something a human spots in 30 seconds is a failed audit. D110 ensures future audits check STRUCTURE before CONTENT, validate distribution before details, and never mark an audit COMPLETE without the full P53 checklist.
+
+---
+
+## D111: Partial Structural Audit (Sub-Level Fixes Only) (2026-03-17)
+
+**Problem**: D110 flagged CEFR distribution issues and created P51-P54. D111 was supposed to be the corrective audit, but it only completed partial structural work.
+
+**What D111 did:**
+- Fixed sub-level label inconsistencies across German, French, and Spanish (gaps/jumps in A1.1, A1.2, etc.)
+- Ran automated P48, P49, P22c, density, and board:true scans across all 5 languages (all PASS)
+- Researched CEFR grammar requirements for German, French, and Spanish via web sources
+- Did NOT verify actual vocabulary completeness against official exam lists
+- Did NOT produce grammar inventory tables
+- Did NOT verify communicative function coverage
+- Did NOT re-evaluate unit counts with concept catalogues
+
+**Why D111 is INCOMPLETE**: The owner identified that the audit was still structural-only. It checked labels and patterns but never opened an official vocabulary list and compared it word-by-word against the teach cards. The fundamental question "does a learner who completes LingoVerse have all the vocabulary they need to pass the official exam?" was never answered. This triggered D112.
+
+**Status**: INCOMPLETE. Superseded by D112.
+
+---
+
+## D112: Certification-Grade Vocabulary & Grammar Audit Mandate (2026-03-17)
+
+**Problem**: All previous audits (D92, D93, D102, D109, D110, D111) checked structural properties of the curriculum: step types, leak patterns, density counts, sub-level labels, CEFR distribution. None of them ever verified the ACTUAL CONTENT against official certification exam requirements. The question "does every word on the TOPIK/Goethe/DELF/DELE/NT2 vocabulary list have a teach card?" has never been asked, let alone answered.
+
+**The owner's mandate**: "We need ALL vocabulary complete for ALL languages and certified official levels per country/language. We cannot miss a single synonym. Not a single construct, not a single WORD that a proper school curriculum would possess."
+
+**What D112 changes:**
+
+1. **New principle P55: Vocabulary Completeness Doctrine.** Every language must achieve certification-grade vocabulary completeness. Every word on the official certification exam vocabulary list at each CEFR level must have a dedicated teach card. Verified by automated comparison against official word lists. Zero gaps.
+
+2. **New principle P56: Concept-Driven Unit Sizing.** Unit count determined by concept catalogue, not templates. FSI language difficulty category must affect unit count. A Category V language (Korean, 2,200 hours) with the same unit count as a Category I language (Spanish, 600 hours) is automatically suspicious. Korean A2 with 4 units flagged for expansion.
+
+3. **New principle P57: Zero Grammar Gaps.** Every grammar construct on official exam lists must be taught (teach/tip card), practiced (3+ quiz steps), and recycled (2+ later lessons). Full grammar inventory table required. Zero gaps.
+
+4. **New principle P58: Communicative Functions Coverage.** All CEFR communicative functions at each level must be covered with practice lessons. Grammar and vocabulary alone do not guarantee communicative competence.
+
+5. **P53 expanded from 9 to 15 items.** New items: vocabulary completeness (P55), grammar completeness (P57), communicative functions (P58), synonym coverage, unit count adequacy (P56), exam simulation readiness.
+
+6. **New Rule 14: Official Source Verification.** Every vocabulary/grammar claim must cite the official source. Uncited claims rejected.
+
+7. **New Rule 15: No Sampling for Completeness Audits.** Full automated comparison, not sampling. Check EVERY word, EVERY construct.
+
+**Specific flags raised:**
+- Korean A2 (4 units): Almost certainly needs expansion. FSI Category V language, particle deepening + past/future tense + progressive + counters + connectors + honorifics + Sino-Korean layer = too much for 32 lessons.
+- German/French/Spanish B2 (6 units each): Likely needs expansion for advanced grammar depth.
+- ALL 5 languages: Vocabulary completeness against official exam lists never verified.
+
+**Audit scope**: Multi-session project. One language per session. All 15 P53 items per language. Korean first (most complex, sets template), then Dutch, German, French, Spanish.
+
+**Handoff document**: `docs/FULL_AUDIT_HANDOFF.md` rewritten as D112 comprehensive certification audit guide.
+
+**Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
 
 ---
 

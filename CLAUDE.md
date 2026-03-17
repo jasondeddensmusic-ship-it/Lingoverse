@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED + CROSS-AUDITED (30 units, ~311 lessons, 855/1132 teach cards with A:/B: dialogues, D109 audit PASS). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~4,580 steps, D102+D109 audit PASS). German A1-B2 COMPLETE + CROSS-AUDITED (D103+D109, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). French A1-B2 COMPLETE + CROSS-AUDITED (D105+D109, 30 units, 240 lessons, 4,380 steps, 100% dialogue coverage). Spanish A1-B2 COMPLETE + CROSS-AUDITED (D108+D109, 30 units, 240 lessons, 4,363 steps, A:/B: dialogues on all teach cards). Arabic has early skeletons (5 units, below density standard).
+**Current state**: All 5 launch languages have A1-B2 content built and structurally audited. HOWEVER: no language has been verified for CERTIFICATION-GRADE vocabulary completeness (P55), grammar completeness (P57), or communicative function coverage (P58). D112 audit is the immediate next priority. Korean (30 units, ~311 lessons). Dutch (30 v2 units, 244 lessons). German (30 units, 240 lessons). French (30 units, 240 lessons). Spanish (30 units, 240 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (P56).
 
 ---
 
@@ -187,15 +187,21 @@ The full Manifesto lives in `src/lingoverse.jsx` (lines ~14-314). Key principles
 | P52 | Strict Teach-Before-Use | "Taught" = own dedicated teach card. Example-only != taught. (P34 tightening) |
 | P53 | Audit Completeness Checklist | 9-point checklist. Missing any = audit INCOMPLETE. |
 | P54 | Anti-Cramming Doctrine | Content serves the LANGUAGE, not a spreadsheet. Never cram, never pad. |
+| P55 | Vocabulary Completeness | ALL official exam vocabulary must have dedicated teach cards. Zero gaps. Certification-grade. |
+| P56 | Concept-Driven Unit Sizing | Unit count determined by concept catalogue, not templates. FSI difficulty matters. |
+| P57 | Zero Grammar Gaps | ALL official exam grammar constructs taught, practiced (3+ quiz steps), and recycled. |
+| P58 | Communicative Functions | ALL CEFR communicative functions at each level covered with practice lessons. |
 
 ### Decision Log Reference
-The full Decision Log with D1-D110 is in `docs/DECISION_LOG.md`. Key recent decisions:
+The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent decisions:
 - **D99**: Dutch B1 density uplift + quick fixes
 - **D100**: Korean dialogue enrichment (Rule 9 workflow, 847/1132 cards)
 - **D101**: Dutch quality uplift to Korean standard (B2 build, A1-B1 polish)
 - **D102**: Dutch B2 quality audit (10 rounds, ~255 P8 fixes, 5 P34 fixes, de/het audit PASS)
 - **D109**: Cross-language audit (RETROACTIVELY INCOMPLETE per D110 — missed CEFR distribution)
 - **D110**: CEFR distribution audit + anti-cramming doctrine + P34 deep enforcement + P51-P54 + Rule 13
+- **D111**: Partial structural audit (sub-level label fixes, automated scans). INCOMPLETE: did not verify vocabulary/grammar completeness.
+- **D112**: Certification-grade audit mandate. P55-P58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
 
 ---
 
@@ -298,6 +304,74 @@ The full Decision Log with D1-D110 is in `docs/DECISION_LOG.md`. Key recent deci
   - NEVER add filler to reach a count. NEVER compress to fit a quota. The learner's comprehension is the only metric.
   - Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
   - **This rule exists because**: German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 template that front-loaded A-level content and compressed B-level content. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection. The agents did not.
+
+### Vocabulary Completeness Doctrine (P55) — NON-NEGOTIABLE:
+- **P55**: Every language must achieve CERTIFICATION-GRADE vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam (TOPIK/NT2/Goethe/DELF/DELE). Specifically:
+  - Every word on the official vocabulary list for the certification exam at each CEFR level MUST have a dedicated teach card. Not "most words." ALL of them.
+  - Official vocabulary sources are MANDATORY cross-references:
+    - **Korean**: TOPIK vocabulary list (6,000+ words for TOPIK II), National Institute of Korean Language frequency lists
+    - **Dutch**: NT2 Basiswoordenlijst (~4,000 words), Inburgeringsexamen word lists
+    - **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400, B2: ~4,000+)
+    - **French**: DELF vocabulary lists by level, Referentiel de l'Alliance Francaise
+    - **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (A1-B2)
+  - Vocabulary domains MUST be complete at each level. At A1: ALL greetings, ALL numbers (0-1000+), ALL days/months/seasons, ALL basic colors, COMPLETE family tree, COMPLETE body parts, 30+ food/drink items, 15+ clothing items, ALL rooms + 5+ items per room, ALL directions, ALL weather terms, 10+ emotions, 15+ daily routine verbs, 20+ adjective pairs, ALL time expressions, ALL question words.
+  - Every synonym on the official list gets its own teach card. If the exam lists both formal and informal equivalents, BOTH are taught.
+  - Function words (prepositions, conjunctions, articles, pronouns, particles) at each CEFR level ALL need dedicated teach cards.
+  - **Verification**: Automated script compares official word list against extracted teach card `nl:` fields. Any word on the official list without a teach card is a GAP. Zero gaps = PASS.
+  - **This rule exists because**: No previous audit ever verified actual vocabulary against official exam lists. The question was always "does content exist?" — never "is EVERY required word taught?"
+
+### Concept-Driven Unit Sizing (P56) — NON-NEGOTIABLE:
+- **P56**: The number of units per CEFR level is determined by cataloguing concepts, NOT by applying any template. This SUPERSEDES any previous distribution pattern (including the 6-4-10-10 pattern). Specifically:
+  - Process: (1) Catalogue ALL grammar constructs at this level from official exams, (2) Catalogue ALL vocabulary domains, (3) Catalogue ALL communicative functions, (4) Group into natural teaching units, (5) Estimate lessons per unit, (6) The resulting count IS the count.
+  - FSI language difficulty MUST affect unit count:
+    - Category I (Dutch, Spanish, French): ~600-750 class hours to B2. Simpler morphology, cognate-rich.
+    - Category II (German): ~900 class hours. Case system, gender agreement, word order complexity.
+    - Category IV-V (Korean, Arabic, Japanese, Chinese): ~2,200 class hours. Non-Latin script, fundamentally different grammar, honorific systems.
+  - **A Category V language with the same unit count as a Category I language is AUTOMATICALLY SUSPICIOUS.** Korean having 30 units while Spanish also has 30 units needs explicit justification. If the justification is "we used the same template" — that's a P54 violation.
+  - Korean A2 with 4 units is flagged: particle deepening, past/future tense, progressive, counters, connectors, honorific expansion, Sino-Korean layer, verb conjugation irregulars — this is substantial content for 4 units.
+  - **This rule exists because**: All 5 languages ended up with ~30 units despite vastly different complexity. Korean (2,200 hours) and Spanish (600 hours) should NOT have the same unit count by default.
+
+### Zero Grammar Gaps (P57) — NON-NEGOTIABLE:
+- **P57**: Every grammar construct on official certification exam lists MUST be explicitly taught, practiced, and recycled. Specifically:
+  - "Taught" = dedicated teach card or tip card explaining the rule
+  - "Practiced" = at least 3 quiz steps (mc, fb, drag_fill, or tr) testing this construct
+  - "Recycled" = appears in at least 2 later lessons at the same or higher level
+  - Official grammar sources per language:
+    - **Korean**: TOPIK grammar patterns list (300+ for TOPIK II), Korean Grammar in Use series
+    - **Dutch**: NT2 grammar requirements, Basisgrammatica, Dutch: An Essential Grammar
+    - **German**: Goethe-Institut grammar inventory by level, Dreyer & Schmitt
+    - **French**: DELF grammar inventory by level, Grammaire progressive du francais
+    - **Spanish**: PCIC grammar inventory (Gramatica A1-B2), Nueva gramatica
+  - Every audit must produce a COMPLETE grammar inventory table mapping each official construct to its unit, teach card ID, and quiz step count. Any construct with zero quiz steps = GAP.
+  - **This rule exists because**: Previous audits checked "does major grammar exist?" but never verified exhaustive coverage against official lists. Constructs that are "minor" in one reference may be critical on the exam.
+
+### Communicative Functions Coverage (P58) — NON-NEGOTIABLE:
+- **P58**: CEFR defines communicative functions — what learners can DO with the language. These are testable on exams and must all be covered. Specifically:
+  - A1 functions (ALL languages): introduce self/others, ask/answer personal questions, describe people/places/things, express likes/dislikes, ask/give directions, order food, make purchases, tell time, describe daily routine, make appointments, write simple messages, fill in forms.
+  - A2 functions: describe past events, express plans, give/follow instructions, make comparisons, express agreement/disagreement, describe health issues, handle basic travel, write short informal letters.
+  - B1 functions: express/justify opinions, narrate stories, handle most travel situations, write formal/informal letters, summarize information, express conditions/hypotheses, give advice.
+  - B2 functions: present detailed arguments, negotiate/persuade, speculate about causes/consequences, discuss abstract topics, write reports/essays, adapt register, handle professional interactions, discuss current events.
+  - Each function must map to specific lessons with practice. A function without practice lessons = GAP.
+  - **This rule exists because**: Grammar and vocabulary coverage alone do not guarantee communicative competence. A learner who knows all grammar but cannot "express opinions" (B1 function) will fail the speaking/writing sections of official exams.
+
+### Expanded Audit Completeness Checklist (P53 update) — NOW 15 ITEMS:
+- **P53 (updated)**: The audit completeness checklist is expanded from 9 to 15 items to include certification-grade requirements:
+  1. CEFR level distribution per unit (P51)
+  2. P8 all 5 leak types (20+ samples per level per language)
+  3. P52 strict teach-before-use (FULL automated verification, not sampling)
+  4. P48 step type correctness
+  5. P49 no CEFR labels in learner-facing content
+  6. P22c no em-dashes
+  7. Density per lesson (P43 minimums)
+  8. board:true on every lesson
+  9. Sub-level label consistency
+  10. P55 vocabulary completeness (ALL official exam vocabulary as teach cards)
+  11. P57 grammar completeness (ALL official exam grammar taught and practiced)
+  12. P58 communicative functions coverage
+  13. Synonym coverage from official lists
+  14. P56 unit count adequacy (concept-driven, not template)
+  15. Exam simulation readiness (learner could pass official exam using only LingoVerse)
+  - ALL 15 items must PASS. Missing ANY = audit INCOMPLETE.
 
 ### Engine Rules:
 - **P30**: NO React hooks inside if(st.type===) renderer blocks. EVER.
@@ -510,7 +584,9 @@ The full Decision Log with D1-D110 is in `docs/DECISION_LOG.md`. Key recent deci
 4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
 6. **nl/en field naming** (D110): All teach cards across ALL languages use `nl` for target-language word and `en` for source-language translation. These are hardcoded Dutch-English vestiges. Future rename: `nl` -> `tgt` (or `target`), `en` -> `src` (or `source`). Thousands of occurrences across all units files + engine renderers. Own decision when multi-source architecture is built.
-7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions that don't match gold standards (Korean/Dutch: 6-4-10-10). Requires relabeling or restructuring. See P51.
+7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions. ALL 5 languages need concept-driven re-evaluation (P56). Korean A2 (4 units for Category V language) also flagged.
+8. **Vocabulary completeness NOT verified** (D112): No language has been verified against official exam vocabulary lists (TOPIK/NT2/Goethe/DELF/DELE). The number of teach cards per language is unknown relative to the number REQUIRED by certification exams. This is the #1 content blocker. See P55.
+9. **Grammar completeness NOT verified** (D112): No language has a complete grammar inventory table mapping every official exam grammar construct to teach cards and quiz steps. See P57.
 
 ---
 
@@ -861,7 +937,35 @@ Every audit agent MUST receive FULL pipeline context in its prompt. An agent tha
 5. **The agent's final report MUST include a P53 checklist with PASS/FAIL for each of the 9 items.** If any item is FAIL, the audit is INCOMPLETE. The agent must clearly state this.
 
 ### Why Rule 13 Exists
-In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had fundamentally wrong CEFR distributions (8-8-7-6 or 8-8-8-6 instead of the gold standard 6-4-10-10). The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the 9 P53 checklist items.
+In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had fundamentally wrong CEFR distributions (8-8-7-6 or 8-8-8-6 instead of the gold standard 6-4-10-10). The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the P53 checklist items.
+
+### Rule 14: Official Source Verification (D112) — NON-NEGOTIABLE
+Every vocabulary or grammar claim in an audit MUST cite the official source. Uncited claims are REJECTED.
+
+1. **Every vocabulary gap claim must include**: the official source name (e.g., "Goethe-Wortliste B1"), the specific word, and ideally the page/section reference. "I think this word is B1 level" is NOT evidence. "Goethe-Wortliste B1, Wortliste page 23: 'Erfahrung'" IS evidence.
+
+2. **Every grammar coverage claim must include**: the official grammar inventory source, the specific construct name as listed in that source, and the CEFR level assigned by that source.
+
+3. **Web sources are acceptable** when official PDFs are not freely available, but must be from authoritative sites: Instituto Cervantes, Goethe-Institut, CIEP/France Education International, TOPIK official, or established textbook publishers. Blog posts and forum opinions are NOT sources.
+
+4. **When official lists are paywalled or unavailable**, use the best available proxy: textbook vocabulary indices, exam preparation book word lists, or multiple established teaching platform concordance. Document which proxy was used and why.
+
+### Why Rule 14 Exists
+Previous audits made claims like "CEFR grammar PASS" without ever consulting the official grammar inventory for the language. A grammar audit that does not reference the Goethe-Institut grammar inventory (for German) or the PCIC grammar inventory (for Spanish) is not an audit — it's guesswork. Rule 14 ensures every audit claim is traceable to an authoritative source.
+
+### Rule 15: No Sampling for Completeness Audits (D112) — NON-NEGOTIABLE
+Sampling (checking 10% and extrapolating) is NEVER acceptable for vocabulary or grammar completeness verification.
+
+1. **For P55 vocabulary completeness**: Check EVERY word on the official list against the teach cards. This is automated (script compares two lists). There is no reason to sample when a script can check everything.
+
+2. **For P57 grammar completeness**: Check EVERY construct on the official grammar inventory. Produce the full inventory table. No "spot-check 20 constructs and assume the rest are fine."
+
+3. **For P52 teach-before-use**: Check EVERY quiz step, not a sample. This is automated (script extracts quiz words and checks against cumulative teach list). Sampling caught 5 P34 violations in D102; full verification would have caught all of them in one pass.
+
+4. **Sampling IS acceptable for**: P8 anti-leak checks (human judgment required per step, full automation impractical), communicative function mapping (requires pedagogical judgment).
+
+### Why Rule 15 Exists
+D111 ran "automated scans" that checked structural properties (step types, em-dashes, density) but never checked vocabulary completeness because "it would take too long." The entire vocabulary of a language file can be extracted and compared against a word list in seconds with a script. The audit was incomplete not because the task was hard but because nobody wrote the script. Rule 15 makes full verification the default and sampling the exception.
 
 ---
 
@@ -973,33 +1077,43 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | Cross-language audit | D109 | 23 P8 fixed, 1 P49 removed, CEFR PASS (2 vocab gaps) |
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
-### NEXT PRIORITIES (Post Phase 1 Content)
+### NEXT PRIORITIES — D112 CERTIFICATION-GRADE AUDIT (IMMEDIATE)
 
-1. **D111: Full Structural + Deep Audit** (IMMEDIATE PRIORITY)
-   - CEFR distribution fix for German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) — relabel or restructure to match gold standard principles (P51)
-   - Deep P52 strict teach-before-use verification for ALL 5 languages — every quiz word must trace to a prior teach card
-   - Full P53 checklist for all 5 languages — all 9 items must PASS
-   - Agents receive full pipeline context per Rule 13
+**This is a multi-session project.** Each session focuses on ONE language and completes ALL 15 P53 checklist items.
 
-2. **Arabic A1-B2 Build** (when ready)
+1. **D112: Certification-Grade Vocabulary & Grammar Audit** (IMMEDIATE PRIORITY)
+   - **Phase 1**: Vocabulary gap analysis. For each language, obtain official exam vocabulary list, extract current teach card vocabulary, compare. Produce gap report. Fix ALL gaps.
+   - **Phase 2**: Grammar gap analysis. For each language, produce complete grammar inventory table from official exam grammar lists. Verify every construct is taught + practiced + recycled. Fix ALL gaps.
+   - **Phase 3**: Unit count re-evaluation. Every language's unit count must be justified by concept catalogue, not template. Korean A2 (4 units for Category V language) flagged for expansion. German/French/Spanish B2 (6 units each) flagged for expansion.
+   - **Phase 4**: Communicative functions mapping. Verify ALL CEFR communicative functions covered.
+   - **Phase 5**: Full 15-item P53 checklist re-verification.
+   - Session order: Korean first (most complex, sets template), then Dutch, German, French, Spanish.
+   - ALL 5 languages audited to same depth. No language is "exempt" because it was built first.
+   - Agents receive full pipeline context per Rule 13. Opus for content generation per Rule 11. Official source citation per Rule 14. No sampling per Rule 15.
+
+2. **Arabic A1-B2 Build** (after D112 completes)
    - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
-   - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum rebuild
-   - MUST follow P54 anti-cramming doctrine — catalogue concepts first, determine unit count from concepts
+   - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum build
+   - MUST follow P54 anti-cramming doctrine + P55 vocabulary completeness + P56 concept-driven sizing from day one
+   - Arabic is the FIRST language to be built under the certification-grade standard
 
 3. **Deep Quality Audits** (D92-style) for German, French, and Spanish
    - All three passed quality scans but have not had the multi-round deep audit treatment
    - Korean (D92/D93) and Dutch (D102) set the audit standard
-   - Must include P52 strict teach-before-use, not just P34 sampling
+   - These audits are INCLUDED in D112 scope, not separate
 
 ### Workflow for All Future Content
-Every language expansion MUST follow the Korean playbook:
-1. **Catalogue first, build second (P54).** Before writing a single lesson, catalogue ALL concepts CEFR requires at each level for this language, cross-referenced against official exams and major textbooks. Determine unit count and distribution from the concepts, not from a template.
-2. Build foundations (knowledge + playthrough + gate quiz)
-3. Build A1-B2 with Rule 7 density enforcement (never batch-build skeletons)
-4. Validate CEFR distribution (P51) before proceeding to quality audit
-5. Quality audit per level (D92-style: P8, P52 strict teach-before-use, P44, full P53 checklist)
-6. Dialogue enrichment with Rule 9 sequential workflow
-7. Final cross-level validation with P53 completeness checklist — all 9 items PASS
+Every language expansion MUST follow this workflow:
+1. **Obtain official vocabulary and grammar lists.** Before writing anything, get the complete official word list and grammar inventory for the target certification exam at each CEFR level. These are the REQUIREMENTS.
+2. **Catalogue all concepts (P54, P56).** Organize vocabulary by domain, grammar by construct, communicative functions by CEFR level. Determine unit count and distribution from the concepts, not from any template.
+3. Build foundations (knowledge + playthrough + gate quiz)
+4. Build A1-B2 with Rule 7 density enforcement (never batch-build skeletons)
+5. **Vocabulary completeness check (P55).** After building, run automated comparison against official word list. Fix ALL gaps before proceeding.
+6. **Grammar completeness check (P57).** Produce grammar inventory table. Fix ALL gaps.
+7. Quality audit per level (D92-style: P8, P52, P44, P48, P49)
+8. Dialogue enrichment with Rule 9 sequential workflow
+9. **Full 15-item P53 checklist.** ALL items must PASS. No exceptions.
+10. **Certification readiness review.** A domain expert confirms exam preparedness.
 
 ---
 
@@ -1023,3 +1137,9 @@ Every language expansion MUST follow the Korean playbook:
 16. **Structure before content, always.** Before checking whether a teach card has a typo, check whether the unit it's in is at the right CEFR level. Before checking P8 leaks, check whether the CEFR distribution makes pedagogical sense. An audit that misses structural problems but catches 700 content issues is a failed audit. (P51, P53, D110, Rule 13)
 17. **"Taught" means its own teach card.** A word appearing in another card's example sentence is NOT taught vocabulary. A word in a deepDive is NOT taught. A word in a tip is NOT taught. Every quiz word must trace to a prior dedicated teach card. No exceptions beyond the narrow P37 cognate rule. (P52, D110)
 18. **Audit agents need full context.** Every audit agent gets the complete pipeline rules, the P53 checklist, the anti-cramming doctrine, and explicit instruction to check structure first. An agent without full rules produces the errors D109 produced. (Rule 13, D110)
+19. **Certification-grade means EVERY word on the official exam list.** Not "most." Not "the important ones." ALL of them. A learner completing LingoVerse must be able to pass TOPIK/NT2/Goethe/DELF/DELE at each level. Vocabulary completeness is verified by automated comparison against official word lists. Zero gaps. (P55, D112)
+20. **Unit count follows from concepts, never from templates.** A Category V language (Korean, 2,200 class hours) with the same unit count as a Category I language (Spanish, 600 hours) is automatically suspicious. Catalogue ALL required concepts first, THEN determine units. Korean A2 with 4 units needs re-evaluation. (P56, D112)
+21. **Every grammar construct on the official exam list must be taught, practiced, and recycled.** "Taught" = teach/tip card. "Practiced" = 3+ quiz steps. "Recycled" = 2+ later lessons. Full grammar inventory tables required. Zero gaps. (P57, D112)
+22. **Communicative functions are as important as grammar.** CEFR tests what learners can DO, not just what they know. Every communicative function at each level (introduce self, express opinions, negotiate, write essays) must map to practice lessons. (P58, D112)
+23. **No sampling for completeness audits.** When checking vocabulary or grammar completeness, check EVERY item — not a sample. Scripts can compare full lists in seconds. Sampling is only acceptable for P8 leak checks (requires human judgment). (Rule 15, D112)
+24. **Every claim needs an official source.** "I think this word is B1" is not evidence. "Goethe-Wortliste B1, page 23" is evidence. Uncited vocabulary/grammar claims in audits are REJECTED. (Rule 14, D112)

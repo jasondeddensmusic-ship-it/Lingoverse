@@ -1,6 +1,6 @@
 # LINGOVERSE MASTER BIBLE
 ## Vision · Pipeline · Language Standards · Agent Rules
-## Version 2.0 | 2026-03-06 | Supersedes all previous vision documents
+## Version 3.0 | 2026-03-17 | D112 Certification-Grade Standards Added (P55-P58)
 
 ---
 
@@ -215,6 +215,49 @@ Tightening of P34. "Taught" means the word has its OWN dedicated teach card.
 - Every word in any quiz step must trace to a prior dedicated teach card in the same or earlier unit.
 - If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`.
 - The field names `nl` (target) and `en` (source) are legacy Dutch-English naming. Future rename to `tgt`/`src` tracked as scaling blocker #6.
+
+## Vocabulary Completeness Doctrine (P55, D112) — CERTIFICATION-GRADE STANDARD
+
+Every language must achieve certification-grade vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam at each level.
+
+**The standard**: Every word on the official vocabulary list for the language's certification exam at each CEFR level MUST have a dedicated teach card. Not "most words." Not "the important ones." ALL of them.
+
+**Official vocabulary sources (MANDATORY cross-reference per language)**:
+- **Korean**: TOPIK vocabulary list (6,000+ words for TOPIK II), National Institute of Korean Language frequency lists, TTMIK vocabulary by level
+- **Dutch**: NT2 Basiswoordenlijst (~4,000 words), Inburgeringsexamen word lists, Nederlandse Taalunie CEFR lists
+- **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400, B2: ~4,000+), Profile Deutsch
+- **French**: DELF vocabulary lists, Referentiel de l'Alliance Francaise, Editions Didier word lists
+- **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (A1-B2), DELE preparation vocabulary
+
+**Vocabulary domain completeness requirements**:
+- At A1: ALL greetings (not just 3-4), ALL numbers (0-1000+ with ordinals), ALL days/months/seasons (COMPLETE sets), ALL basic colors, COMPLETE family tree (parents through in-laws), COMPLETE body parts, 30+ food/drink items, 15+ clothing items, ALL rooms + 5+ items per room, ALL directions, ALL weather terms, 10+ emotions, 15+ daily routine verbs, 20+ adjective pairs, ALL time expressions, ALL question words.
+- At A2: Health/illness, shopping/money, hobbies (15+), professions (20+), animals (15+), nature, technology basics, travel vocabulary.
+- At B1: Work/professional, education, media, society, abstract concepts, expanded emotions, COMPLETE connectors/discourse markers.
+- At B2: Academic/formal, debate/argumentation, literature/arts, economics basics, law/rights, 20+ idioms, 10+ proverbs, register-specific vocabulary.
+
+**Every synonym on the official list gets its own teach card.** Function words (prepositions, conjunctions, articles, pronouns, particles) at each level ALL need dedicated teach cards.
+
+**Verification**: Automated script compares official word list against extracted teach card vocabulary. Zero gaps = PASS.
+
+**Why this exists (D112)**: No previous audit ever verified actual vocabulary against official exam lists. The question was always "does content exist?" never "is EVERY required word taught?" A learner who masters grammar but encounters unknown vocabulary on the exam loses confidence in the platform.
+
+## Concept-Driven Unit Sizing (P56, D112)
+
+Unit count is determined by cataloguing concepts, NOT by applying templates. FSI language difficulty MUST affect expectations.
+
+- **Category I** (Dutch, Spanish, French): ~600-750 class hours to B2.
+- **Category II** (German): ~900 class hours.
+- **Category IV-V** (Korean, Arabic, Japanese, Chinese): ~2,200 class hours.
+
+**A Category V language with the same unit count as a Category I language is AUTOMATICALLY SUSPICIOUS.** Korean having 30 units while Spanish also has 30 units needs explicit justification beyond "we used the same template."
+
+## Zero Grammar Gaps (P57, D112)
+
+Every grammar construct on official exam lists must be: (1) taught (teach/tip card), (2) practiced (3+ quiz steps), (3) recycled (2+ later lessons). Audits must produce COMPLETE grammar inventory tables. Zero gaps.
+
+## Communicative Functions Coverage (P58, D112)
+
+CEFR tests what learners can DO. Every communicative function at each level (A1: introduce self, order food, tell time; B1: express opinions, narrate stories; B2: present arguments, negotiate, write essays) must map to practice lessons. A function without practice = GAP.
 
 ---
 
