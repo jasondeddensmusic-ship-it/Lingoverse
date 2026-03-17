@@ -4289,6 +4289,32 @@ export default [
 ]},
 
 ]},
+{id:"kou13l10b",title:"감정 표현",icon:"💭",xp:20,board:true,steps:[
+{type:"intro",title:"Expanded Feelings & Opinions",desc:"다양한 감정과 기분을 표현하는 단어\n\nLearn to express a wider range of feelings and emotions in Korean.",goals:["Learn 12 emotion words","Express complex feelings","Use feelings in context"]},
+{type:"teach",nl:"답답하다",en:"to feel frustrated, stifled",phonetic:"dap-dap-ha-da",example:"A: 왜 그렇게 답답해 보여요?\nB: 일이 안 풀려서요.\nA: 무슨 일인데요?\nB: 프로젝트가 계속 늦어지고 있어요.",exampleEn:"A: Why do you look so frustrated?\nB: Because things aren't working out.\nA: What's going on?\nB: The project keeps getting delayed.",note:"Describes a feeling of being stuck or unable to breathe.\nCan be physical (stuffy room) or emotional (frustration).",kind:"adjective"},
+{type:"teach",nl:"자신감",en:"confidence, self-confidence",phonetic:"ja-sin-gam",example:"A: 요즘 자신감이 생겼어요.\nB: 왜요? 무슨 일이 있었어요?\nA: 한국어 시험에 합격했거든요.\nB: 당연히 자신감이 생기죠!",exampleEn:"A: I've gained confidence lately.\nB: Why? What happened?\nA: I passed the Korean exam.\nB: Of course you'd feel confident!",note:"COMPOUND: 자(self/自) + 신(trust/信) + 감(feeling/感).\n자신감이 있다 = to have confidence.\n자신감이 없다 = to lack confidence.",kind:"noun"},
+{type:"teach",nl:"실망하다",en:"to be disappointed",phonetic:"sil-mang-ha-da",example:"A: 시험 결과에 실망했어요.\nB: 점수가 낮았어요?\nA: 네, 생각보다 훨씬 낮았어요.\nB: 다음에 더 잘할 수 있어요.",exampleEn:"A: I was disappointed with the exam results.\nB: Was the score low?\nA: Yes, much lower than I expected.\nB: You can do better next time.",note:"COMPOUND: 실(lose/失) + 망(hope/望).\nLiterally: losing hope.\n실망스럽다 = disappointing (for things).",kind:"verb"},
+{type:"teach",nl:"감동하다",en:"to be moved, impressed",phonetic:"gam-dong-ha-da",example:"A: 그 영화 봤어요?\nB: 네, 정말 감동했어요.\nA: 어떤 장면이 제일 감동적이었어요?\nB: 마지막 장면이요.",exampleEn:"A: Did you watch that movie?\nB: Yes, I was really moved.\nA: Which scene was the most moving?\nB: The last scene.",note:"COMPOUND: 감(feel/感) + 동(move/動).\n감동적이다 = to be moving, touching.",kind:"verb"},
+{type:"mc",q:"슬픈 영화를 보고 마음이 울렸어요. 이 감정은?",opts:["감동","실망","답답함","긴장"],ans:"감동",hint:"A warm feeling when something touches your heart."},
+{type:"teach",nl:"혼란스럽다",en:"to be confused",phonetic:"hon-ran-seu-reop-da",example:"A: 설명이 혼란스러워요.\nB: 어떤 부분이요?\nA: 전부 다요.\nB: 천천히 다시 설명해 줄게요.",exampleEn:"A: The explanation is confusing.\nB: Which part?\nA: All of it.\nB: I'll explain it slowly again.",note:"COMPOUND: 혼(mix/混) + 란(disorder/亂).\n혼란 = confusion (noun).\n-스럽다 = adjective-making suffix.",kind:"adjective"},
+{type:"teach",nl:"후회하다",en:"to regret",phonetic:"hu-hoe-ha-da",example:"A: 그때 더 열심히 할걸 그랬어요.\nB: 후회하고 있어요?\nA: 네, 정말 후회해요.\nB: 지금부터라도 열심히 하면 돼요.",exampleEn:"A: I should have worked harder then.\nB: Are you regretting it?\nA: Yes, I really regret it.\nB: It's okay if you work hard from now on.",note:"COMPOUND: 후(after/後) + 회(look back/悔).\n후회 = regret (noun).",kind:"verb"},
+{type:"teach",nl:"기대하다",en:"to look forward to, to expect",phonetic:"gi-dae-ha-da",example:"A: 여행을 기대하고 있어요?\nB: 네, 정말 기대돼요!\nA: 어디로 가요?\nB: 제주도로 가요.",exampleEn:"A: Are you looking forward to the trip?\nB: Yes, I'm really looking forward to it!\nA: Where are you going?\nB: We're going to Jeju Island.",note:"COMPOUND: 기(expect/期) + 대(wait/待).\n기대되다 = to be exciting, anticipated.",kind:"verb"},
+{type:"teach",nl:"불안하다",en:"to be anxious, uneasy",phonetic:"bur-an-ha-da",example:"A: 면접 때문에 불안해요.\nB: 준비 많이 했잖아요.\nA: 그래도 걱정이에요.\nB: 잘 할 수 있을 거예요.",exampleEn:"A: I'm anxious about the interview.\nB: You've prepared a lot though.\nA: I'm still worried.\nB: You'll do well.",note:"COMPOUND: 불(not/不) + 안(peace/安).\nLiterally: not peaceful.\n불안감 = anxiety (noun).",kind:"adjective"},
+{type:"fb",s:"시험 전에 {1}해서 잠을 못 잤어요.",a:["불안"],opts:["불안","감동","기대","만족"],hint:"A nervous, unsettled feeling before something important."},
+{type:"teach",nl:"만족하다",en:"to be satisfied",phonetic:"man-jok-ha-da",example:"A: 새 집에 만족해요?\nB: 네, 아주 만족해요.\nA: 어떤 점이 제일 좋아요?\nB: 조용하고 넓어서 좋아요.",exampleEn:"A: Are you satisfied with the new place?\nB: Yes, very satisfied.\nA: What do you like the most?\nB: It's quiet and spacious.",note:"COMPOUND: 만(full/滿) + 족(enough/足).\n만족스럽다 = satisfying.\n불만 = dissatisfaction.",kind:"verb"},
+{type:"teach",nl:"긴장하다",en:"to be nervous, tense",phonetic:"gin-jang-ha-da",example:"A: 발표 때문에 긴장돼요.\nB: 심호흡을 해 보세요.\nA: 사람들 앞에 서면 긴장해요.\nB: 연습하면 괜찮아질 거예요.",exampleEn:"A: I'm nervous about the presentation.\nB: Try taking a deep breath.\nA: I get nervous in front of people.\nB: It'll get better with practice.",note:"COMPOUND: 긴(tight/緊) + 장(stretch/張).\n긴장을 풀다 = to relax, ease tension.",kind:"verb"},
+{type:"teach",nl:"부러워하다",en:"to be envious, to envy",phonetic:"bu-reo-wo-ha-da",example:"A: 친구가 해외에서 일해요.\nB: 부러워요?\nA: 네, 정말 부러워요.\nB: 당신도 기회가 올 거예요.",exampleEn:"A: My friend works overseas.\nB: Are you envious?\nA: Yes, I'm really envious.\nB: Your opportunity will come too.",note:"From 부럽다 (to be envious).\n부러워하다 adds the 'feeling it actively' nuance.\n부러움 = envy (noun).",kind:"verb"},
+{type:"teach",nl:"감사하다",en:"to be grateful, thankful",phonetic:"gam-sa-ha-da",example:"A: 도와줘서 정말 감사해요.\nB: 별말씀을요.\nA: 덕분에 일이 잘 끝났어요.\nB: 다음에도 도와줄게요.",exampleEn:"A: Thank you so much for helping.\nB: Don't mention it.\nA: Thanks to you, the work went well.\nB: I'll help again next time.",note:"COMPOUND: 감(feel/感) + 사(thank/謝).\nMore formal than 고맙다.\n감사합니다 = standard polite thank you.",kind:"verb"},
+{type:"mc",q:"도움을 받고 고마운 마음이 들 때 느끼는 감정은?",opts:["감사","부러움","긴장","후회"],ans:"감사",hint:"The feeling of thankfulness."},
+{type:"match",pairs:[{nl:"답답하다",en:"frustrated"},{nl:"실망하다",en:"disappointed"},{nl:"감동하다",en:"moved/impressed"},{nl:"후회하다",en:"to regret"},{nl:"기대하다",en:"to look forward to"}]},
+{type:"fb",s:"친구의 성공을 보면 {1} 때도 있어요.",a:["부러울"],opts:["부러울","감사할","답답할","만족할"],hint:"Wishing you had what someone else has."},
+{type:"mc",q:"발표 전에 떨리고 불편한 기분은?",opts:["긴장","감동","만족","기대"],ans:"긴장",hint:"That tense, shaky feeling before performing."},
+{type:"drag_fill",s:"결과에 {1}하지 말고 다음을 {2}하세요.",blanks:{"1":"실망","2":"기대"},pool:["실망","기대","후회","감사"],hint:"Do not feel let down. Instead, look forward."},
+{type:"match",pairs:[{nl:"불안하다",en:"anxious"},{nl:"만족하다",en:"satisfied"},{nl:"긴장하다",en:"nervous"},{nl:"부러워하다",en:"envious"},{nl:"감사하다",en:"grateful"}]},
+{type:"mc",q:"새 집이 넓고 좋아서 행복한 기분은?",opts:["만족","긴장","혼란","후회"],ans:"만족",hint:"Content and happy with what you have."},
+{type:"fb",s:"그때 그렇게 하지 않은 것을 {1}해요.",a:["후회"],opts:["후회","감동","기대","만족"],hint:"Looking back and wishing you had acted differently."}
+]}
+,
 
 // ═══════════════════════════════════════════════════════════
 // UNIT 14 — 해야 돼요 (Obligation & Purpose) — B1.2
@@ -4549,6 +4575,33 @@ export default [
 ]},
 
 ]},
+{id:"kou14l10b",title:"직장 어휘",icon:"🏢",xp:20,board:true,steps:[
+{type:"intro",title:"Workplace Vocabulary",desc:"직장에서 자주 쓰는 단어\n\nLearn essential workplace and office vocabulary used in everyday Korean work life.",goals:["Learn 12 workplace words","Practice using them in work situations","Understand Sino-Korean compound structure"]},
+{type:"teach",nl:"회의",en:"meeting",phonetic:"hoe-ui",example:"A: 내일 회의가 몇 시에 있어요?\nB: 오전 10시에 있어요.\nA: 어디에서 해요?\nB: 3층 회의실에서요.",exampleEn:"A: What time is the meeting tomorrow?\nB: It's at 10 AM.\nA: Where is it?\nB: In the 3rd floor meeting room.",note:"COMPOUND: 회(meet/會) + 의(discuss/議).\n회의실 = meeting room.",kind:"noun"},
+{type:"teach",nl:"보고서",en:"report",phonetic:"bo-go-seo",example:"A: 보고서 다 썼어요?\nB: 아직 쓰고 있어요.\nA: 마감이 언제예요?\nB: 내일 오후까지요.",exampleEn:"A: Did you finish writing the report?\nB: I'm still writing it.\nA: When is the deadline?\nB: By tomorrow afternoon.",note:"COMPOUND: 보(report/報) + 고(inform/告) + 서(document/書).",kind:"noun"},
+{type:"teach",nl:"이메일",en:"email",phonetic:"i-me-il",example:"A: 이메일 확인했어요?\nB: 네, 방금 봤어요.\nA: 답장 보내야 해요.\nB: 지금 바로 보낼게요.",exampleEn:"A: Did you check the email?\nB: Yes, I just saw it.\nA: You need to send a reply.\nB: I'll send it right now.",note:"Loanword from English.\n이메일을 보내다 = to send an email.\n이메일을 확인하다 = to check email.",kind:"noun"},
+{type:"teach",nl:"마감",en:"deadline",phonetic:"ma-gam",example:"A: 이번 프로젝트 마감이 언제예요?\nB: 다음 주 금요일이에요.\nA: 시간이 별로 없네요.\nB: 네, 서둘러야 해요.",exampleEn:"A: When is the deadline for this project?\nB: Next Friday.\nA: We don't have much time.\nB: No, we need to hurry.",note:"COMPOUND: 마(close/磨) + 감(feel/感).\nUsed for work deadlines, application deadlines.",kind:"noun"},
+{type:"mc",q:"'마감' means:",opts:["Deadline","Meeting","Report","Department"],ans:"Deadline",hint:"Think about time pressure at work."},
+{type:"teach",nl:"동료",en:"colleague",phonetic:"dong-ryo",example:"A: 새 동료가 왔어요?\nB: 네, 오늘 첫 출근이에요.\nA: 어느 부서예요?\nB: 우리 부서에 왔어요.",exampleEn:"A: Did the new colleague come?\nB: Yes, today is their first day.\nA: Which department?\nB: They joined our department.",note:"COMPOUND: 동(same/同) + 료(companion/僚).\nSame rank coworkers.",kind:"noun"},
+{type:"teach",nl:"상사",en:"boss, supervisor",phonetic:"sang-sa",example:"A: 상사한테 보고했어요?\nB: 아직이요. 지금 하려고요.\nA: 빨리 하는 게 좋겠어요.\nB: 네, 알겠어요.",exampleEn:"A: Did you report to the boss?\nB: Not yet. I'm about to.\nA: It would be good to do it quickly.\nB: Yes, understood.",note:"COMPOUND: 상(above/上) + 사(person/士).\nMore formal than 사장님 (company president).",kind:"noun"},
+{type:"teach",nl:"부서",en:"department",phonetic:"bu-seo",example:"A: 어느 부서에서 일해요?\nB: 마케팅 부서에요.\nA: 사람이 많아요?\nB: 네, 20명 정도 있어요.",exampleEn:"A: Which department do you work in?\nB: The marketing department.\nA: Are there many people?\nB: Yes, about 20.",note:"COMPOUND: 부(part/部) + 서(place/署).",kind:"noun"},
+{type:"fb",s:"이번 프로젝트 {1}이 다음 주예요.",a:["마감"],opts:["마감","회의","동료","부서"],hint:"The time limit for finishing work."},
+{type:"teach",nl:"출근",en:"going to work, commuting to work",phonetic:"chul-geun",example:"A: 몇 시에 출근해요?\nB: 보통 8시에 출근해요.\nA: 일찍 출근하네요.\nB: 네, 길이 막혀서 일찍 나가요.",exampleEn:"A: What time do you go to work?\nB: I usually go at 8.\nA: You go to work early.\nB: Yes, because traffic is bad, I leave early.",note:"COMPOUND: 출(go out/出) + 근(work/勤).\nOpposite: 퇴근 (leaving work).",kind:"noun"},
+{type:"teach",nl:"퇴근",en:"leaving work, getting off work",phonetic:"toe-geun",example:"A: 오늘 몇 시에 퇴근해요?\nB: 6시에 퇴근할 거예요.\nA: 퇴근하고 뭐 해요?\nB: 운동하러 갈 거예요.",exampleEn:"A: What time are you leaving work today?\nB: I'll leave at 6.\nA: What do you do after work?\nB: I'm going to go exercise.",note:"COMPOUND: 퇴(retreat/退) + 근(work/勤).\nOpposite: 출근 (going to work).",kind:"noun"},
+{type:"teach",nl:"야근",en:"overtime, working late",phonetic:"ya-geun",example:"A: 오늘도 야근이에요?\nB: 네, 마감 때문에요.\nA: 힘들겠어요.\nB: 내일은 일찍 퇴근할 거예요.",exampleEn:"A: Are you working overtime again today?\nB: Yes, because of the deadline.\nA: That must be tough.\nB: Tomorrow I'll leave work early.",note:"COMPOUND: 야(night/夜) + 근(work/勤).\nVery common in Korean work culture.",kind:"noun"},
+{type:"teach",nl:"프로젝트",en:"project",phonetic:"peu-ro-jek-teu",example:"A: 새 프로젝트 시작했어요?\nB: 네, 이번 주부터요.\nA: 동료들이랑 같이 해요?\nB: 네, 4명이서 하고 있어요.",exampleEn:"A: Did you start the new project?\nB: Yes, from this week.\nA: Are you doing it with colleagues?\nB: Yes, four of us are working on it.",note:"Loanword from English.\nUsed widely in Korean workplaces.",kind:"noun"},
+{type:"mc",q:"보통 아침에 하는 것은 '출근', 저녁에 하는 것은?",opts:["퇴근","야근","마감","회의"],ans:"퇴근",hint:"The opposite of arriving at work."},
+{type:"match",pairs:[{nl:"회의",en:"meeting"},{nl:"보고서",en:"report"},{nl:"동료",en:"colleague"},{nl:"상사",en:"boss"},{nl:"부서",en:"department"}]},
+{type:"fb",s:"오늘도 밤늦게까지 {1}해야 해요.",a:["야근"],opts:["야근","출근","퇴근","회의"],hint:"Working past regular hours into the night."},
+{type:"mc",q:"회사에서 같이 일하는 사람은?",opts:["동료","상사","마감","보고서"],ans:"동료",hint:"Someone at the same level who works with you."},
+{type:"drag_fill",s:"{1}을 쓰고 {2}한테 보냈어요.",blanks:{"1":"보고서","2":"상사"},pool:["보고서","상사","마감","동료"],hint:"You write this document and send it to your superior."},
+{type:"mc",q:"회의를 하는 방을 뭐라고 해요?",opts:["회의실","부서","사무실","교실"],ans:"회의실",hint:"The room specifically for discussions."},
+{type:"fb",s:"이메일 {1}했어요?",a:["확인"],opts:["확인","출근","퇴근","마감"],hint:"To check or verify something you received."},
+{type:"mc",q:"회사에서 나보다 높은 사람은?",opts:["상사","동료","마감","프로젝트"],ans:"상사",hint:"Someone ranked above you at work."},
+{type:"match",pairs:[{nl:"출근",en:"going to work"},{nl:"퇴근",en:"leaving work"},{nl:"야근",en:"overtime"},{nl:"마감",en:"deadline"},{nl:"이메일",en:"email"}]},
+{type:"mc",q:"다음 중 회사에서 쓰는 문서는?",opts:["보고서","졸업","경험","계약"],ans:"보고서",hint:"A written document about work results."}
+]},
+// Lesson 2: Education/School (kou15l10b),
 
 // ═══════════════════════════════════════════════════════════
 // UNIT 15 — 도와 주세요 (Benefactive & Change) — B1.2
@@ -4816,6 +4869,31 @@ export default [
 ]},
 
 ]},
+{id:"kou15l10b",title:"학교와 교육",icon:"🎓",xp:20,board:true,steps:[
+{type:"intro",title:"Education Vocabulary",desc:"학교와 교육에서 쓰는 단어\n\nLearn vocabulary related to school, university, and academic life in Korea.",goals:["Learn 12 education words","Practice in academic contexts","Understand school-related compounds"]},
+{type:"teach",nl:"시험",en:"exam, test",phonetic:"si-heom",example:"A: 다음 주에 시험이 있어요?\nB: 네, 중간고사예요.\nA: 많이 공부했어요?\nB: 아직 좀 더 해야 해요.",exampleEn:"A: Is there an exam next week?\nB: Yes, it's the midterm.\nA: Have you studied a lot?\nB: I still need to study more.",note:"COMPOUND: 시(test/試) + 험(verify/驗).\n중간고사 = midterm, 기말고사 = final exam.",kind:"noun"},
+{type:"teach",nl:"과목",en:"subject (academic)",phonetic:"gwa-mok",example:"A: 이번 학기에 몇 과목 들어요?\nB: 다섯 과목이요.\nA: 어떤 과목이 제일 좋아요?\nB: 한국어 과목이 제일 재미있어요.",exampleEn:"A: How many subjects are you taking this semester?\nB: Five subjects.\nA: Which subject do you like the most?\nB: Korean class is the most interesting.",note:"COMPOUND: 과(section/科) + 목(category/目).",kind:"noun"},
+{type:"teach",nl:"성적",en:"grades, academic results",phonetic:"seong-jeok",example:"A: 이번 시험 성적이 어때요?\nB: 생각보다 좋았어요.\nA: 부모님이 기뻐하시겠어요.\nB: 네, 정말 기뻐하셨어요.",exampleEn:"A: How were your exam grades?\nB: Better than I expected.\nA: Your parents must be happy.\nB: Yes, they were really happy.",note:"COMPOUND: 성(accomplish/成) + 적(record/績).\n성적표 = report card.",kind:"noun"},
+{type:"teach",nl:"졸업",en:"graduation",phonetic:"jol-eop",example:"A: 언제 졸업해요?\nB: 내년 2월에 졸업해요.\nA: 졸업하고 뭐 할 거예요?\nB: 취직하려고요.",exampleEn:"A: When do you graduate?\nB: I graduate next February.\nA: What will you do after graduation?\nB: I'm going to get a job.",note:"COMPOUND: 졸(finish/卒) + 업(work/業).\n졸업식 = graduation ceremony.",kind:"noun"},
+{type:"mc",q:"학교를 다 끝내고 나가는 것은?",opts:["졸업","입학","시험","과목"],ans:"졸업",hint:"The ceremony at the end of your studies."},
+{type:"teach",nl:"입학",en:"enrollment, admission",phonetic:"ip-hak",example:"A: 아들이 올해 입학해요?\nB: 네, 초등학교에 입학해요.\nA: 벌써 그렇게 컸어요?\nB: 네, 시간이 빠르죠?",exampleEn:"A: Is your son enrolling this year?\nB: Yes, he's entering elementary school.\nA: He's already that big?\nB: Yes, time flies, right?",note:"COMPOUND: 입(enter/入) + 학(study/學).\nOpposite of 졸업 (graduation).",kind:"noun"},
+{type:"teach",nl:"장학금",en:"scholarship",phonetic:"jang-hak-geum",example:"A: 장학금을 받았어요?\nB: 네, 성적이 좋아서 받았어요.\nA: 축하해요! 얼마예요?\nB: 등록금 절반이에요.",exampleEn:"A: Did you receive a scholarship?\nB: Yes, I got it because my grades were good.\nA: Congratulations! How much?\nB: Half of the tuition.",note:"COMPOUND: 장(encourage/獎) + 학(study/學) + 금(money/金).",kind:"noun"},
+{type:"teach",nl:"과제",en:"assignment, homework",phonetic:"gwa-je",example:"A: 과제 다 했어요?\nB: 아니요, 아직 반밖에 안 했어요.\nA: 마감이 내일인데요.\nB: 알아요, 오늘 밤에 끝낼 거예요.",exampleEn:"A: Did you finish the assignment?\nB: No, I've only done half.\nA: The deadline is tomorrow though.\nB: I know, I'll finish it tonight.",note:"COMPOUND: 과(task/課) + 제(topic/題).\nSimilar to 숙제 (homework) but more formal.",kind:"noun"},
+{type:"fb",s:"성적이 좋아서 {1}을 받았어요.",a:["장학금"],opts:["장학금","과제","시험","졸업"],hint:"Financial support for good students."},
+{type:"teach",nl:"학기",en:"semester",phonetic:"hak-gi",example:"A: 이번 학기에 뭐 배워요?\nB: 한국어하고 수학을 배워요.\nA: 다음 학기 계획은요?\nB: 과학도 추가하려고요.",exampleEn:"A: What are you learning this semester?\nB: I'm learning Korean and math.\nA: What about next semester?\nB: I'm planning to add science too.",note:"COMPOUND: 학(study/學) + 기(period/期).\n1학기 = first semester, 2학기 = second semester.",kind:"noun"},
+{type:"teach",nl:"교수",en:"professor",phonetic:"gyo-su",example:"A: 그 교수님 수업 어때요?\nB: 설명을 잘 해 주셔요.\nA: 과제가 많아요?\nB: 네, 좀 많은 편이에요.",exampleEn:"A: How is that professor's class?\nB: They explain things well.\nA: Is there a lot of homework?\nB: Yes, it's on the heavier side.",note:"COMPOUND: 교(teach/教) + 수(grant/授).\nAlways use 교수님 (with honorific) when addressing.",kind:"noun"},
+{type:"teach",nl:"강의",en:"lecture",phonetic:"gang-ui",example:"A: 오늘 강의가 몇 개 있어요?\nB: 세 개 있어요.\nA: 마지막 강의가 몇 시예요?\nB: 4시에 끝나요.",exampleEn:"A: How many lectures do you have today?\nB: I have three.\nA: What time does the last lecture end?\nB: It ends at 4.",note:"COMPOUND: 강(lecture/講) + 의(meaning/義).\n강의실 = lecture room.",kind:"noun"},
+{type:"teach",nl:"대학교",en:"university",phonetic:"dae-hak-gyo",example:"A: 어느 대학교에 다녀요?\nB: 서울대학교에 다녀요.\nA: 전공이 뭐예요?\nB: 경영학이에요.",exampleEn:"A: Which university do you attend?\nB: I attend Seoul National University.\nA: What's your major?\nB: Business administration.",note:"COMPOUND: 대(big/大) + 학(study/學) + 교(school/校).\nShortened: 대학.",kind:"noun"},
+{type:"mc",q:"대학교에서 가르치는 사람은?",opts:["교수","학기","과목","성적"],ans:"교수",hint:"The person who stands at the front of the lecture hall."},
+{type:"match",pairs:[{nl:"시험",en:"exam"},{nl:"과제",en:"assignment"},{nl:"성적",en:"grades"},{nl:"강의",en:"lecture"},{nl:"장학금",en:"scholarship"}]},
+{type:"fb",s:"이번 {1}에 다섯 과목을 들어요.",a:["학기"],opts:["학기","강의","시험","과제"],hint:"A half-year period of study at school."},
+{type:"mc",q:"학교에 처음 들어가는 것은?",opts:["입학","졸업","시험","과제"],ans:"입학",hint:"The beginning of your school journey."},
+{type:"drag_fill",s:"{1}을 보고 {2}이 나왔어요.",blanks:{"1":"시험","2":"성적"},pool:["시험","성적","강의","과제"],hint:"First you take the test, then you get results."},
+{type:"match",pairs:[{nl:"입학",en:"enrollment"},{nl:"졸업",en:"graduation"},{nl:"교수",en:"professor"},{nl:"대학교",en:"university"},{nl:"학기",en:"semester"}]},
+{type:"mc",q:"교수님이 교실에서 하는 것은?",opts:["강의","과제","졸업","입학"],ans:"강의",hint:"What a professor delivers to students."},
+{type:"fb",s:"다음 달에 대학교를 {1}해요.",a:["졸업"],opts:["졸업","입학","시험","강의"],hint:"Finishing all your studies and leaving school."}
+]},
+// Lesson 3: Media/News (kou17l10b),
 
 // ═══════════════════════════════════════════════════════════
 // UNIT 16 — 뭐라고 했어요? (Indirect Speech) — B1.2
@@ -5394,6 +5472,31 @@ export default [
 {type:"drag_fill",s:"한국 드라마를 보{1} 한국어에 관심이 생겼어요. 한국어{2} 공부 안 해요. 드라마를 보면 볼{3} 실력이 늘{4}.\n(While watching K-dramas, I got interested. I study nothing but Korean. The more I watch, the more my skills improve.)",blanks:{"1":"다가","2":"밖에","3":"수록","4":"더라고요"},pool:["다가","밖에","수록","더라고요","면서","만","거든요","네요"],hint:"Interrupted action + nothing but + the more + I found that. Four patterns."},
 ]},
 ]},
+{id:"kou17l10b",title:"미디어와 뉴스",icon:"📰",xp:20,board:true,steps:[
+{type:"intro",title:"Media & News Vocabulary",desc:"미디어와 뉴스 관련 단어\n\nLearn vocabulary for discussing news, media, and current events in Korean.",goals:["Learn 12 media-related words","Discuss news topics","Express opinions about media"]},
+{type:"teach",nl:"기사",en:"article (news)",phonetic:"gi-sa",example:"A: 이 기사 읽었어요?\nB: 아니요, 무슨 내용이에요?\nA: 한국 경제에 대한 기사예요.\nB: 나중에 읽어 볼게요.",exampleEn:"A: Did you read this article?\nB: No, what is it about?\nA: It's an article about the Korean economy.\nB: I'll read it later.",note:"COMPOUND: 기(record/記) + 사(matter/事).\nAlso means 'knight' in different context (騎士).",kind:"noun"},
+{type:"teach",nl:"기자",en:"reporter, journalist",phonetic:"gi-ja",example:"A: 기자가 인터뷰를 요청했어요.\nB: 무슨 인터뷰예요?\nA: 우리 회사 프로젝트에 대해서요.\nB: 상사한테 먼저 물어봐야 해요.",exampleEn:"A: A reporter requested an interview.\nB: What kind of interview?\nA: About our company's project.\nB: We need to ask the boss first.",note:"COMPOUND: 기(record/記) + 자(person/者).\nRelated: 기사 (article).",kind:"noun"},
+{type:"teach",nl:"방송",en:"broadcast",phonetic:"bang-song",example:"A: 어제 방송 봤어요?\nB: 무슨 방송이요?\nA: 한국 요리 프로그램이요.\nB: 아, 그거 재미있다고 들었어요.",exampleEn:"A: Did you watch the broadcast yesterday?\nB: Which broadcast?\nA: The Korean cooking program.\nB: Ah, I heard it's interesting.",note:"COMPOUND: 방(release/放) + 송(send/送).\n방송국 = broadcasting station.",kind:"noun"},
+{type:"teach",nl:"뉴스",en:"news",phonetic:"nyu-seu",example:"A: 오늘 뉴스 봤어요?\nB: 네, 아침에 봤어요.\nA: 무슨 내용이 있었어요?\nB: 날씨 관련 뉴스가 많았어요.",exampleEn:"A: Did you watch the news today?\nB: Yes, I watched it in the morning.\nA: What was in the news?\nB: There was a lot of weather-related news.",note:"Loanword from English.\n뉴스를 보다 = to watch the news.\n뉴스를 듣다 = to listen to the news.",kind:"noun"},
+{type:"mc",q:"뉴스에서 글을 쓰는 사람은?",opts:["기자","방송","광고","신문"],ans:"기자",hint:"The person who writes articles for media."},
+{type:"teach",nl:"인터넷",en:"internet",phonetic:"in-teo-net",example:"A: 인터넷이 안 돼요.\nB: 와이파이 문제인 것 같아요.\nA: 어떻게 하면 좋을까요?\nB: 라우터를 껐다가 켜 보세요.",exampleEn:"A: The internet isn't working.\nB: I think it's a Wi-Fi problem.\nA: What should we do?\nB: Try turning the router off and on.",note:"Loanword from English.\n인터넷을 하다 = to use the internet.",kind:"noun"},
+{type:"teach",nl:"소셜 미디어",en:"social media",phonetic:"so-syeol mi-di-eo",example:"A: 소셜 미디어 자주 해요?\nB: 네, 매일 확인해요.\nA: 어떤 걸 제일 많이 써요?\nB: 인스타그램을 제일 많이 써요.",exampleEn:"A: Do you use social media often?\nB: Yes, I check it every day.\nA: Which one do you use the most?\nB: I use Instagram the most.",note:"Loanword from English.\nAlso called SNS (에스엔에스) in Korean.",kind:"noun"},
+{type:"teach",nl:"광고",en:"advertisement",phonetic:"gwang-go",example:"A: 이 광고 봤어요?\nB: 네, 정말 재미있었어요.\nA: 뭘 광고하는 거예요?\nB: 새로 나온 스마트폰이에요.",exampleEn:"A: Did you see this ad?\nB: Yes, it was really fun.\nA: What is it advertising?\nB: It's a new smartphone.",note:"COMPOUND: 광(wide/廣) + 고(inform/告).\n광고하다 = to advertise.",kind:"noun"},
+{type:"teach",nl:"의견",en:"opinion",phonetic:"ui-gyeon",example:"A: 이 문제에 대해 의견이 있어요?\nB: 네, 저는 반대예요.\nA: 왜 반대해요?\nB: 효과가 없을 것 같아서요.",exampleEn:"A: Do you have an opinion on this issue?\nB: Yes, I'm against it.\nA: Why are you against it?\nB: Because I don't think it will be effective.",note:"COMPOUND: 의(meaning/意) + 견(see/見).\n의견을 말하다 = to state an opinion.",kind:"noun"},
+{type:"fb",s:"텔레비전에서 제품을 {1}했어요.",a:["광고"],opts:["광고","방송","기사","뉴스"],hint:"Promoting a product to the public."},
+{type:"teach",nl:"정보",en:"information",phonetic:"jeong-bo",example:"A: 이 정보가 맞아요?\nB: 인터넷에서 찾았어요.\nA: 출처가 어디예요?\nB: 정부 웹사이트에서요.",exampleEn:"A: Is this information correct?\nB: I found it on the internet.\nA: What's the source?\nB: From a government website.",note:"COMPOUND: 정(correct/情) + 보(report/報).",kind:"noun"},
+{type:"teach",nl:"사건",en:"incident, event (news)",phonetic:"sa-geon",example:"A: 어제 큰 사건이 있었어요.\nB: 무슨 사건이요?\nA: 교통사고가 났어요.\nB: 다친 사람이 있어요?",exampleEn:"A: There was a big incident yesterday.\nB: What incident?\nA: There was a traffic accident.\nB: Was anyone hurt?",note:"COMPOUND: 사(matter/事) + 건(case/件).\nUsed for newsworthy events.",kind:"noun"},
+{type:"teach",nl:"신문",en:"newspaper",phonetic:"sin-mun",example:"A: 아직도 신문을 읽어요?\nB: 네, 매일 아침에 읽어요.\nA: 인터넷 뉴스가 더 빠르잖아요.\nB: 그래도 신문이 더 자세해요.",exampleEn:"A: Do you still read the newspaper?\nB: Yes, I read it every morning.\nA: Internet news is faster though.\nB: Still, newspapers are more detailed.",note:"COMPOUND: 신(new/新) + 문(hear/聞).\n신문사 = newspaper company.",kind:"noun"},
+{type:"teach",nl:"영상",en:"video",phonetic:"yeong-sang",example:"A: 이 영상 봤어요?\nB: 아니요, 뭐예요?\nA: 한국어 공부 영상이에요.\nB: 링크 보내 주세요.",exampleEn:"A: Have you seen this video?\nB: No, what is it?\nA: It's a Korean study video.\nB: Please send me the link.",note:"COMPOUND: 영(shadow/映) + 상(image/像).\nUsed for online videos, clips.",kind:"noun"},
+{type:"mc",q:"종이로 된 뉴스를 읽는 것은?",opts:["신문","기사","방송","영상"],ans:"신문",hint:"A physical paper delivered to your door."},
+{type:"match",pairs:[{nl:"기사",en:"article"},{nl:"기자",en:"reporter"},{nl:"광고",en:"advertisement"},{nl:"의견",en:"opinion"},{nl:"정보",en:"information"}]},
+{type:"drag_fill",s:"{1}에서 재미있는 {2}을 봤어요.",blanks:{"1":"인터넷","2":"영상"},pool:["인터넷","영상","신문","기자"],hint:"You watch clips online."},
+{type:"fb",s:"어제 큰 {1}이 뉴스에 나왔어요.",a:["사건"],opts:["사건","의견","정보","광고"],hint:"A newsworthy happening or occurrence."},
+{type:"mc",q:"텔레비전에서 프로그램을 보여 주는 것은?",opts:["방송","신문","기사","영상"],ans:"방송",hint:"Sending programs through TV or radio."},
+{type:"match",pairs:[{nl:"뉴스",en:"news"},{nl:"신문",en:"newspaper"},{nl:"사건",en:"incident"},{nl:"영상",en:"video"},{nl:"소셜 미디어",en:"social media"}]},
+{type:"mc",q:"인터넷에서 다른 사람들의 글이나 사진을 보는 곳은?",opts:["소셜 미디어","신문","방송","광고"],ans:"소셜 미디어",hint:"Instagram, Twitter, and similar platforms."}
+]},
+// Lesson 4: Abstract Concepts (kou18l10b),
 
 // ═══════════════════════════════════════════════════════════
 // UNIT 18 — 먹는 것을 좋아해요 (Nominalization & Modifiers) — B1.2
@@ -5658,6 +5761,31 @@ export default [
 ]},
 
 ]},
+{id:"kou18l10b",title:"추상적 개념",icon:"💡",xp:20,board:true,steps:[
+{type:"intro",title:"Abstract Concepts",desc:"추상적인 개념을 나타내는 단어\n\nLearn vocabulary for expressing abstract ideas like success, failure, opportunity, and change.",goals:["Learn 12 abstract nouns","Use them in meaningful sentences","Understand their Sino-Korean roots"]},
+{type:"teach",nl:"경험",en:"experience",phonetic:"gyeong-heom",example:"A: 해외 경험이 있어요?\nB: 네, 일본에서 1년 살았어요.\nA: 좋은 경험이었어요?\nB: 네, 정말 많이 배웠어요.",exampleEn:"A: Do you have experience abroad?\nB: Yes, I lived in Japan for a year.\nA: Was it a good experience?\nB: Yes, I learned a lot.",note:"COMPOUND: 경(pass through/經) + 험(test/驗).\n경험하다 = to experience.",kind:"noun"},
+{type:"teach",nl:"기회",en:"opportunity",phonetic:"gi-hoe",example:"A: 좋은 기회가 생겼어요.\nB: 무슨 기회예요?\nA: 외국 회사에서 일할 수 있어요.\nB: 꼭 도전해 보세요!",exampleEn:"A: A good opportunity came up.\nB: What kind of opportunity?\nA: I can work at a foreign company.\nB: You should definitely try!",note:"COMPOUND: 기(opportunity/機) + 회(meet/會).\n기회를 놓치다 = to miss an opportunity.",kind:"noun"},
+{type:"teach",nl:"성공",en:"success",phonetic:"seong-gong",example:"A: 사업이 성공했어요?\nB: 네, 드디어 성공했어요.\nA: 비결이 뭐예요?\nB: 노력하고 포기하지 않은 거예요.",exampleEn:"A: Was the business a success?\nB: Yes, it finally succeeded.\nA: What's the secret?\nB: Working hard and not giving up.",note:"COMPOUND: 성(accomplish/成) + 공(merit/功).\nOpposite: 실패 (failure).",kind:"noun"},
+{type:"teach",nl:"실패",en:"failure",phonetic:"sil-pae",example:"A: 시험에 실패했어요.\nB: 괜찮아요. 다시 도전하면 돼요.\nA: 너무 실망했어요.\nB: 실패는 성공의 어머니예요.",exampleEn:"A: I failed the exam.\nB: It's okay. You can try again.\nA: I'm so disappointed.\nB: Failure is the mother of success.",note:"COMPOUND: 실(lose/失) + 패(defeat/敗).\n실패하다 = to fail. Opposite: 성공.",kind:"noun"},
+{type:"mc",q:"'성공'의 반대말은?",opts:["실패","기회","노력","경험"],ans:"실패",hint:"The opposite of achieving your goal."},
+{type:"teach",nl:"발전",en:"development, progress",phonetic:"bal-jeon",example:"A: 한국어가 많이 발전했어요.\nB: 정말요? 어떻게 공부했어요?\nA: 매일 드라마를 봤어요.\nB: 좋은 방법이네요.",exampleEn:"A: Your Korean has improved a lot.\nB: Really? How did you study?\nA: I watched dramas every day.\nB: That's a good method.",note:"COMPOUND: 발(emit/發) + 전(unfold/展).\n발전하다 = to develop, progress.",kind:"noun"},
+{type:"teach",nl:"지식",en:"knowledge",phonetic:"ji-sik",example:"A: 이 분야에 대한 지식이 있어요?\nB: 조금밖에 없어요.\nA: 책을 읽으면 도움이 될 거예요.\nB: 추천해 줄 수 있어요?",exampleEn:"A: Do you have knowledge in this field?\nB: Only a little.\nA: Reading books will help.\nB: Can you recommend some?",note:"COMPOUND: 지(know/知) + 식(recognize/識).",kind:"noun"},
+{type:"teach",nl:"목표",en:"goal, objective",phonetic:"mok-pyo",example:"A: 올해 목표가 뭐예요?\nB: 한국어 시험에 합격하는 거예요.\nA: 좋은 목표네요.\nB: 열심히 할 거예요.",exampleEn:"A: What's your goal for this year?\nB: Passing the Korean exam.\nA: That's a good goal.\nB: I'm going to work hard.",note:"COMPOUND: 목(eye/目) + 표(mark/標).\n목표를 세우다 = to set a goal.",kind:"noun"},
+{type:"teach",nl:"노력",en:"effort",phonetic:"no-ryeok",example:"A: 성공하려면 노력이 필요해요.\nB: 맞아요. 쉬운 길은 없어요.\nA: 매일 조금씩 하는 게 중요해요.\nB: 저도 그렇게 할게요.",exampleEn:"A: Effort is needed to succeed.\nB: That's right. There's no easy way.\nA: Doing a little every day is important.\nB: I'll do that too.",note:"COMPOUND: 노(labor/努) + 력(power/力).\n노력하다 = to make an effort.",kind:"noun"},
+{type:"fb",s:"매일 {1}하면 반드시 성공할 수 있어요.",a:["노력"],opts:["노력","실패","기회","결과"],hint:"Putting in consistent hard work."},
+{type:"teach",nl:"결과",en:"result, outcome",phonetic:"gyeol-gwa",example:"A: 시험 결과가 나왔어요?\nB: 네, 합격했어요!\nA: 노력한 결과네요.\nB: 감사해요.",exampleEn:"A: Did the test results come out?\nB: Yes, I passed!\nA: That's the result of your effort.\nB: Thank you.",note:"COMPOUND: 결(tie/結) + 과(fruit/果).\nUsed for exam results, outcomes of actions.",kind:"noun"},
+{type:"teach",nl:"변화",en:"change",phonetic:"byeon-hwa",example:"A: 최근에 큰 변화가 있었어요?\nB: 네, 회사를 옮겼어요.\nA: 새 회사는 어때요?\nB: 아직 적응 중이에요.",exampleEn:"A: Have there been any big changes recently?\nB: Yes, I changed companies.\nA: How is the new company?\nB: I'm still adjusting.",note:"COMPOUND: 변(change/變) + 화(transform/化).\n변화하다 = to change.",kind:"noun"},
+{type:"teach",nl:"문제",en:"problem",phonetic:"mun-je",example:"A: 무슨 문제가 있어요?\nB: 컴퓨터가 안 돼요.\nA: 언제부터 안 됐어요?\nB: 오늘 아침부터요.",exampleEn:"A: What's the problem?\nB: The computer isn't working.\nA: Since when hasn't it worked?\nB: Since this morning.",note:"COMPOUND: 문(ask/問) + 제(topic/題).\nAlso means 'question' (on a test).",kind:"noun"},
+{type:"teach",nl:"해결",en:"solution, resolution",phonetic:"hae-gyeol",example:"A: 문제를 해결했어요?\nB: 네, 드디어 방법을 찾았어요.\nA: 어떻게 해결했어요?\nB: 전문가한테 물어봤어요.",exampleEn:"A: Did you solve the problem?\nB: Yes, I finally found a way.\nA: How did you solve it?\nB: I asked an expert.",note:"COMPOUND: 해(untie/解) + 결(tie/決).\n해결하다 = to solve, resolve.",kind:"noun"},
+{type:"mc",q:"문제가 있으면 뭘 해야 해요?",opts:["해결","실패","변화","경험"],ans:"해결",hint:"Finding the answer to a problem."},
+{type:"match",pairs:[{nl:"성공",en:"success"},{nl:"실패",en:"failure"},{nl:"노력",en:"effort"},{nl:"결과",en:"result"},{nl:"목표",en:"goal"}]},
+{type:"drag_fill",s:"{1}을 세우고 {2}하면 좋은 {3}가 나와요.",blanks:{"1":"목표","2":"노력","3":"결과"},pool:["목표","노력","결과","실패","변화"],hint:"Set your aim, work hard, and get outcomes."},
+{type:"fb",s:"좋은 {1}가 생겨서 도전할 거예요.",a:["기회"],opts:["기회","문제","변화","해결"],hint:"A chance that opens up for you."},
+{type:"mc",q:"새로운 것을 직접 하면서 배우는 것은?",opts:["경험","지식","성공","문제"],ans:"경험",hint:"Learning by doing, not just reading."},
+{type:"match",pairs:[{nl:"기회",en:"opportunity"},{nl:"발전",en:"development"},{nl:"지식",en:"knowledge"},{nl:"변화",en:"change"},{nl:"해결",en:"solution"}]},
+{type:"mc",q:"책을 많이 읽으면 무엇이 늘어나요?",opts:["지식","기회","변화","결과"],ans:"지식",hint:"What you gain from studying and reading."}
+]},
+// Lesson 5: Legal/Financial (kou19l10b),
 
 // ═══════════════════════════════════════════════════════════
 // UNIT 19 — 한국에서 산 지 1년 (Evidential & Complex) — B1.2
@@ -5941,6 +6069,31 @@ export default [
 ]},
 
 ]},
+{id:"kou19l10b",title:"법과 금융",icon:"⚖️",xp:20,board:true,steps:[
+{type:"intro",title:"Legal & Financial Basics",desc:"법과 금융에서 쓰는 기본 단어\n\nLearn essential legal and financial vocabulary for everyday life in Korea.",goals:["Learn 12 legal/financial terms","Handle basic financial situations","Understand contract and banking words"]},
+{type:"teach",nl:"계약",en:"contract",phonetic:"gye-yak",example:"A: 계약서를 읽어 봤어요?\nB: 네, 다 읽었어요.\nA: 문제 없어요?\nB: 네, 서명할게요.",exampleEn:"A: Did you read the contract?\nB: Yes, I read it all.\nA: No problems?\nB: No, I'll sign it.",note:"COMPOUND: 계(count/契) + 약(promise/約).\n계약서 = contract document.\n계약하다 = to sign a contract.",kind:"noun"},
+{type:"teach",nl:"보험",en:"insurance",phonetic:"bo-heom",example:"A: 보험에 들었어요?\nB: 네, 건강 보험이 있어요.\nA: 자동차 보험도 있어요?\nB: 네, 둘 다 있어요.",exampleEn:"A: Do you have insurance?\nB: Yes, I have health insurance.\nA: Do you have car insurance too?\nB: Yes, I have both.",note:"COMPOUND: 보(protect/保) + 험(danger/險).\n건강 보험 = health insurance.",kind:"noun"},
+{type:"teach",nl:"세금",en:"tax",phonetic:"se-geum",example:"A: 세금을 언제 내야 해요?\nB: 5월까지 내야 해요.\nA: 얼마나 내야 해요?\nB: 소득에 따라 달라요.",exampleEn:"A: When do you have to pay taxes?\nB: By May.\nA: How much do you have to pay?\nB: It depends on income.",note:"COMPOUND: 세(tax/稅) + 금(money/金).\n소득세 = income tax.",kind:"noun"},
+{type:"teach",nl:"은행",en:"bank",phonetic:"eun-haeng",example:"A: 은행에 가야 해요.\nB: 무슨 일이요?\nA: 통장을 만들려고요.\nB: 신분증 가져가세요.",exampleEn:"A: I need to go to the bank.\nB: For what?\nA: I want to open an account.\nB: Bring your ID.",note:"COMPOUND: 은(silver/銀) + 행(go/行).\n은행 계좌 = bank account.",kind:"noun"},
+{type:"mc",q:"돈을 맡기거나 빌리는 곳은?",opts:["은행","세금","보험","계약"],ans:"은행",hint:"A financial institution where you keep money."},
+{type:"teach",nl:"월세",en:"monthly rent",phonetic:"wol-se",example:"A: 월세가 얼마예요?\nB: 한 달에 50만 원이에요.\nA: 보증금은요?\nB: 500만 원이에요.",exampleEn:"A: How much is the monthly rent?\nB: 500,000 won per month.\nA: What about the deposit?\nB: It's 5,000,000 won.",note:"COMPOUND: 월(month/月) + 세(rent/稅).\nKorean rental system: 전세 (key money) vs 월세 (monthly rent).",kind:"noun"},
+{type:"teach",nl:"대출",en:"loan",phonetic:"dae-chul",example:"A: 집을 사려면 대출을 받아야 해요.\nB: 이자가 얼마예요?\nA: 3%쯤이래요.\nB: 생각보다 높지 않네요.",exampleEn:"A: To buy a house, I need to get a loan.\nB: What's the interest rate?\nA: They say about 3%.\nB: That's not as high as I thought.",note:"COMPOUND: 대(substitute/貸) + 출(exit/出).\n대출을 받다 = to get a loan.",kind:"noun"},
+{type:"teach",nl:"저축",en:"savings",phonetic:"jeo-chuk",example:"A: 저축을 얼마나 하고 있어요?\nB: 매달 월급의 20%를 저축해요.\nA: 목표가 있어요?\nB: 네, 여행 자금을 모으고 있어요.",exampleEn:"A: How much are you saving?\nB: I save 20% of my salary every month.\nA: Do you have a goal?\nB: Yes, I'm saving up for travel.",note:"COMPOUND: 저(store/貯) + 축(accumulate/蓄).\n저축하다 = to save money.",kind:"noun"},
+{type:"teach",nl:"이자",en:"interest (financial)",phonetic:"i-ja",example:"A: 이 통장의 이자가 얼마예요?\nB: 연 2%예요.\nA: 좀 낮지 않아요?\nB: 요즘은 다 비슷해요.",exampleEn:"A: What's the interest on this account?\nB: 2% annually.\nA: Isn't that a bit low?\nB: These days they're all similar.",note:"COMPOUND: 이(profit/利) + 자(child/子).\nUsed for both savings interest and loan interest.",kind:"noun"},
+{type:"fb",s:"은행에서 {1}을 받아서 집을 샀어요.",a:["대출"],opts:["대출","저축","이자","월세"],hint:"Borrowing money from a bank."},
+{type:"teach",nl:"벌금",en:"fine, penalty",phonetic:"beol-geum",example:"A: 주차 위반으로 벌금을 냈어요.\nB: 얼마였어요?\nA: 4만 원이었어요.\nB: 다음부터 조심하세요.",exampleEn:"A: I paid a fine for a parking violation.\nB: How much was it?\nA: It was 40,000 won.\nB: Be careful next time.",note:"COMPOUND: 벌(punish/罰) + 금(money/金).\n벌금을 내다 = to pay a fine.",kind:"noun"},
+{type:"teach",nl:"법률",en:"law",phonetic:"beop-ryul",example:"A: 이건 법률로 정해져 있어요.\nB: 무슨 법률이요?\nA: 소비자 보호법이요.\nB: 그러면 돈을 돌려받을 수 있어요?",exampleEn:"A: This is set by law.\nB: What law?\nA: The consumer protection law.\nB: Then can I get a refund?",note:"COMPOUND: 법(law/法) + 률(rule/律).\n법률가 = lawyer.",kind:"noun"},
+{type:"teach",nl:"급여",en:"salary, wages",phonetic:"geup-yeo",example:"A: 급여를 언제 받아요?\nB: 매달 25일에 받아요.\nA: 급여에 만족해요?\nB: 좀 더 올랐으면 좋겠어요.",exampleEn:"A: When do you get your salary?\nB: I get it on the 25th every month.\nA: Are you satisfied with your salary?\nB: I wish it were a bit higher.",note:"COMPOUND: 급(provide/給) + 여(give/與).\nSimilar to 월급 (monthly pay).",kind:"noun"},
+{type:"teach",nl:"영수증",en:"receipt",phonetic:"yeong-su-jeung",example:"A: 영수증 드릴까요?\nB: 네, 주세요.\nA: 여기 있어요.\nB: 감사합니다.",exampleEn:"A: Shall I give you a receipt?\nB: Yes, please.\nA: Here you go.\nB: Thank you.",note:"COMPOUND: 영(receive/領) + 수(receive/收) + 증(proof/證).\nKeep for tax purposes or returns.",kind:"noun"},
+{type:"mc",q:"물건을 사고 받는 종이는?",opts:["영수증","계약","벌금","세금"],ans:"영수증",hint:"Paper proof of your purchase."},
+{type:"match",pairs:[{nl:"계약",en:"contract"},{nl:"보험",en:"insurance"},{nl:"세금",en:"tax"},{nl:"대출",en:"loan"},{nl:"저축",en:"savings"}]},
+{type:"fb",s:"매달 25일에 {1}를 받아요.",a:["급여"],opts:["급여","벌금","이자","월세"],hint:"The money your employer pays you."},
+{type:"mc",q:"규칙을 어기면 내야 하는 돈은?",opts:["벌금","월세","이자","세금"],ans:"벌금",hint:"A monetary punishment for breaking rules."},
+{type:"drag_fill",s:"매달 {1}를 내고 {2}도 해야 해요.",blanks:{"1":"월세","2":"저축"},pool:["월세","저축","벌금","계약"],hint:"You pay housing costs and also put money aside."},
+{type:"match",pairs:[{nl:"이자",en:"interest"},{nl:"벌금",en:"fine"},{nl:"법률",en:"law"},{nl:"급여",en:"salary"},{nl:"영수증",en:"receipt"}]},
+{type:"mc",q:"나라에서 모든 사람이 내야 하는 돈은?",opts:["세금","벌금","이자","월세"],ans:"세금",hint:"Everyone pays this to the government."}
+]},
+// Lesson 6: Expanded Feelings/Opinions (kou13l10b),
 
 
 // ═══════════════════════════════════════════════════════════

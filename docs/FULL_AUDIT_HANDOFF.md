@@ -428,8 +428,9 @@ Realistic scope: This is a multi-session project. Each session should focus on O
 - **Session 1 (COMPLETE, 2026-03-17)**: Cross-language vocabulary extraction + gap analysis. 11 new A1 lessons (months, body parts) across all 5 languages. Official source research (Rule 14). P53 items 1-9 checked.
 - **Session 2 (COMPLETE, 2026-03-17)**: 18 new A1 vocab gap lessons (extended colors, clothing, cardinal directions, emotions) across all 5 languages. 407 steps total. All validated.
 - **Session 3 (COMPLETE, 2026-03-17)**: 30 new A2 vocab gap lessons (animals, professions, health, nature/weather, transportation, technology) across all 5 languages. ~740 steps total. All 30/30 validated PASS.
-- **Session 4 (NEXT)**: B1 vocabulary expansion across all 5 languages. Domains: media/news, abstract concepts, expanded feelings, workplace, education, legal/financial.
-- **Sessions 5-8**: B1-B2 vocabulary expansion continued + grammar completeness.
+- **Session 4 (COMPLETE, 2026-03-17)**: 30 new B1 vocab domain lessons (workplace, education, media, abstract concepts, legal/financial, expanded feelings) across all 5 languages. ~683 steps total. All 30/30 validated PASS. Updated lesson counts: Korean 330, Dutch 261, German 258, French 258, Spanish 257.
+- **Session 5 (NEXT)**: B2 vocabulary expansion across all 5 languages. Domains: academic, debate, literature, economics, law, register pairs.
+- **Sessions 6-8**: Additional A1-B2 vocabulary to close remaining ~14,000 word gap + grammar completeness.
 - **Sessions 9-13**: Grammar completeness verification and gap-filling per language.
 - **Session 14**: Communicative functions mapping and final P53 verification.
 

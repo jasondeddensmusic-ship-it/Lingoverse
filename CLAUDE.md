@@ -444,7 +444,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - Phase 3: 2 under-dense lessons uplifted to 18+ steps
   - Phase 4: 810/835 A1-B1 teach cards enriched with dialogues (97%)
   - Phase 5: 10 B2 units built (U21-U30, 80 lessons)
-- 30 v2 units + 23 legacy units, 252 v2 lessons, ~5,535 steps
+- 30 v2 units + 23 legacy units, 261 v2 lessons, ~5,664 steps
 - **DUTCH B2 QUALITY AUDIT COMPLETE (D102, 2026-03-16)**: D92-style audit, 10 rounds, 10 commits.
   - Round 1-2: 93 severe P8 hint-reveals fixed (answer words appearing in hints)
   - Round 3: 7 P49 CEFR labels removed from learner-facing content
@@ -461,6 +461,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D112 SESSION 1 (2026-03-17)**: 1 new body parts lesson (v2u8l1b, 18 steps) + 8 month teach cards added to existing v2u3l6. Total teach cards: ~1,113+.
 - **D112 SESSION 2 (2026-03-17)**: 4 new A1 vocab gap lessons: colors (v2u5l8b, 23 steps, 11 colors with de/het), clothing (v2u6l8b, 24 steps, 12 items), directions (v2u6l8c, 21 steps, 4 cardinal), emotions (v2u5l8c, 21 steps, 8 extended). 252 v2 lessons total. Total teach cards: ~1,160+.
 - **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (v2u8l8b, 22 steps), health (v2u8l8c, 20 steps), professions (v2u9l8b, 22 steps), transportation (v2u9l8c, 21 steps), nature/weather (v2u10l8b, 20 steps), technology (v2u10l8c, 20 steps). 258 v2 lessons total. Total teach cards: ~1,228+.
+- **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: workplace (v2u11l8b, 23), legal (v2u12l8b, 21), feelings (v2u13l8b, 22), education (v2u15l8b, 21), media (v2u18l8b, 21), abstract (v2u19l8b, 21). 261 v2 lessons total. Total teach cards: ~1,300+.
 - **Dutch is PRODUCTION-READY.** A1-B2 fully built, polished (D101), audited (D102), and cross-audited (D109).
 - **NEXT ACTION**: Dialogue enrichment uplift (97.7% → 100%) or A1-A2 retroactive standards pass when prioritized.
 
@@ -495,7 +496,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **P48 FIX COMPLETE (D98, 2026-03-15)**: All 520 multi-blank `fb` steps converted to `drag_fill` with proper `blanks:{}` objects. Distribution: U18(1), U21(21), U22(29), U23(56), U24(67), U25(67), U26(69), U27(44), U28(52), U29(56), U30(58). Zero remaining P48 violations.
 - **P49 FIX COMPLETE (D98, 2026-03-15)**: 15 CEFR meta-curriculum quiz steps rewritten. Removed all A1/A2/B1/B2/C1 labels from learner-facing quiz `q`, `opts`, and `ans` fields. Replaced with grammar-usage questions. Zero remaining P49 violations in quiz content.
 - **DIALOGUE ENRICHMENT COMPLETE (D100, 2026-03-15)**: 847/1132 teach cards now have A:/B: dialogue examples rendered as iOS-style chat bubbles. Coverage by level: A1 97.8%, A2 86.8%, B1 52.1%, B2 58.9%. ~285 cards correctly excluded (COMPOUND/hanja morpheme cards, pure number/counter cards, standalone particles get single-sentence examples). Dialogue length scales by CEFR: A1 2-3 exchanges, A2 3-4, B1 4-5, B2 5+. Zero turn-count mismatches across all 30 units. Engine bug fixes: `showInContext` gate extended for `kind:"phrase"`, null guard on done-screen transition, LessonErrorBoundary added.
-- 30 units, ~318 lessons total, ~6,963+ steps (after B2 uplift + D112 S1/S2)
+- 30 units, ~330 lessons total, ~7,098+ steps (after B2 uplift + D112 S1-S4)
 - **REMAINING QUALITY ITEMS**:
   - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
   - P44 lazy hints: 12 in A1/A2 content.
@@ -504,6 +505,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D112 SESSION 1 (2026-03-17)**: 4 new A1 vocab gap lessons added: months (kou3l8b, 24 steps), clothing (kou6l6b, 24 steps), body parts (kou8l1.3, 18 steps), emotions (kou5l7b, 18 steps). Total teach cards: ~1,200+.
 - **D112 SESSION 2 (2026-03-17)**: 3 new A1 vocab gap lessons: extended colors (kou5l7c, 22 steps, 7 colors), more clothing (kou6l6c, 21 steps, 8 items), cardinal directions (kou6l6d, 20 steps, 동서남북). 318 lessons total. Total teach cards: ~1,225+.
 - **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (kou8l9b, 20 steps), health (kou8l9c, 20 steps), professions (kou9l9b, 22 steps), transportation (kou9l9c, 21 steps), nature/weather (kou10l10b, 20 steps), technology (kou10l10c, 20 steps). 324 lessons total. Total teach cards: ~1,295+.
+- **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: feelings (kou13l10b, 23), workplace (kou14l10b, 24), education (kou15l10b, 22), media (kou17l10b, 22), abstract (kou18l10b, 22), legal (kou19l10b, 22). 330 lessons total. Total teach cards: ~1,367+.
 - **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, dialogue-enriched, and cross-audited (D109). D112 vocab gap fixes in progress. Next: C1 curriculum when Dutch catches up.
 
 ### German:
@@ -566,11 +568,11 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 
 ### Phase 1: Content (Current)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 324 lessons, ~7,086 steps. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). D112 S1-S3: +13 vocab lessons (7 A1 + 6 A2). THE GOLD STANDARD. Next: C1 when Dutch catches up.
-2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 258 lessons, ~5,660 steps. Fully built (D101), audited (D102, 10 rounds). D112 S1-S3: +11 vocab lessons (5 A1 + 6 A2). THE SECOND GOLD STANDARD.
-3. **German** - A1-B2 COMPLETE (D103). 30 units, 252 lessons, ~4,736 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S3: +12 vocab lessons (6 A1 + 6 A2). Quality audit PASS.
-4. **French** - A1-B2 COMPLETE (D105). 30 units, 252 lessons, ~4,594 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S3: +12 vocab lessons (6 A1 + 6 A2). Quality scan PASS.
-5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 251 lessons, ~4,558 steps. Foundations + gate quiz built. A:/B: dialogues on all teach cards. D112 S1-S3: +11 vocab lessons (5 A1 + 6 A2). Quality validation PASS.
+1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, ~7,221 steps. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). D112 S1-S4: +19 vocab lessons (7 A1 + 6 A2 + 6 B1). THE GOLD STANDARD. Next: C1 when Dutch catches up.
+2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, ~5,789 steps. Fully built (D101), audited (D102, 10 rounds). D112 S1-S4: +17 vocab lessons (5 A1 + 6 A2 + 6 B1). THE SECOND GOLD STANDARD.
+3. **German** - A1-B2 COMPLETE (D103). 30 units, 258 lessons, ~4,876 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S4: +18 vocab lessons (6 A1 + 6 A2 + 6 B1). Quality audit PASS.
+4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, ~4,734 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S4: +18 vocab lessons (6 A1 + 6 A2 + 6 B1). Quality scan PASS.
+5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 257 lessons, ~4,697 steps. Foundations + gate quiz built. A:/B: dialogues on all teach cards. D112 S1-S4: +17 vocab lessons (5 A1 + 6 A2 + 6 B1). Quality validation PASS.
 
 ### Phase 2: AI Integration
 - Proxy and backend for AI bot/chat integration
@@ -1050,6 +1052,8 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (deu11l8b, 22 steps), professions (deu12l8b, 22 steps), health (deu13l8b, 20 steps), nature/weather (deu14l8b, 20 steps), transportation (deu15l8b, 21 steps), technology (deu16l8b, 20 steps). 252 lessons total. Total teach cards: ~1,225+.
 
+**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (deu17l8b, 23), media (deu18l8b, 22), abstract (deu19l8b, 23), legal (deu20l8b, 23), feelings (deu23l8b, 24), workplace (deu24l8b, 25). 258 lessons total. Total teach cards: ~1,297+.
+
 **German needs D111 audit.** CEFR distribution flagged (D110): 8-8-7-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
@@ -1073,6 +1077,8 @@ French is PRODUCTION-READY. Built from scratch in D105:
 **D112 SESSION 2 (2026-03-17)**: 4 new A1 vocab gap lessons: extended colors (fre8l2b, 22 steps, rose/violet/orange + gender agreement), clothing (fre8l8b, 21 steps, 7 items with le/la), directions (fre7l8b, 20 steps, 4 cardinal + prepositions), emotions (fre5l8c, 28 steps, 14 items with masc/fem forms). 246 lessons total. Total teach cards: ~935+.
 
 **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (fre11l8b, 23 steps), professions (fre12l8b, 21 steps), health (fre13l8b, 19 steps), nature/weather (fre14l8b, 20 steps), transportation (fre15l8b, 21 steps), technology (fre16l8b, 19 steps). 252 lessons total. Total teach cards: ~1,005+.
+
+**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (fre17l8b, 23), abstract (fre19l8b, 23), legal (fre20l8b, 23), media (fre21l8b, 22), feelings (fre23l8b, 24), workplace (fre24l8b, 25). 258 lessons total. Total teach cards: ~1,077+.
 
 **French needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
@@ -1099,6 +1105,8 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 **D112 SESSION 2 (2026-03-17)**: 3 new A1 vocab gap lessons: extended colors + gender (esp3l8b, 21 steps, violeta + agreement rules), cardinal directions (esp7l8b, 22 steps, 4 directions + geography), emotions (esp5l8c, 27 steps, 13 emotions with estar + adjective). 245 lessons total. Total teach cards: ~920+.
 
 **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (esp11l8b, 22 steps), professions (esp12l8b, 22 steps), health (esp13l8b, 20 steps), nature/weather (esp14l8b, 20 steps), transportation (esp15l8b, 21 steps), technology (esp16l8b, 20 steps). 251 lessons total. Total teach cards: ~990+.
+
+**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (esp17l8b, 23), abstract (esp19l8b, 23), legal (esp20l8b, 23), media (esp21l8b, 22), feelings (esp23l8b, 23), workplace (esp24l8b, 25). 257 lessons total. Total teach cards: ~1,062+.
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES — D112 CERTIFICATION-GRADE AUDIT (IMMEDIATE)
