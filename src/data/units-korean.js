@@ -1670,6 +1670,36 @@ export default [
   {type:"fb",s:"깜짝 ___어요!\n(I was startled!)",a:"놀랐",opts:["놀랐","신났","지루했","실망했"],hint:"깜짝 = sudden surprise. Which emotion word?"},
 ]},
 
+// ═══════════════════════════════════════════════════
+// LESSON: Colors (kou5l7c) — Unit 5, A1.2
+// Teaches: 초록색, 주황색, 갈색, 분홍색, 보라색, 회색
+// Already taught in D93: 빨간, 파란, 하얀, 검은, 노란
+// ═══════════════════════════════════════════════════
+{id:"kou5l7c",title:"색깔 더 배우기 (More Colors)",icon:"🎨",xp:20,board:true,steps:[
+  {type:"intro",title:"Expanding Your Color Palette",desc:"초록색 / 주황색 / 갈색\n\nSix new colors plus the 색 pattern.",goals:["Learn 6 new color words","Understand the 색 (color) suffix pattern","Describe things using colors","Combine colors with objects you already know"]},
+  {type:"tip",title:"Korean Color System",text:"Korean has TWO types of color words:\n\n1. Pure Korean adjective colors:\n빨갛다 → 빨간 (red)\n파랗다 → 파란 (blue)\n하얗다 → 하얀 (white)\n검다 → 검은 (black)\n노랗다 → 노란 (yellow)\n\n2. Color NOUN + 색 (color):\n초록 + 색 = 초록색 (green)\n분홍 + 색 = 분홍색 (pink)\n\nGroup 1 goes directly before nouns.\nGroup 2 needs 의 or 색 before nouns.",deepDive:{title:"Which Type to Use?",text:"The 5 basic colors (빨간, 파란, etc.) have special adjective forms from ㅎ-irregular verbs.\n\nOther colors use the 색 noun pattern:\n초록색 가방 = green bag\n분홍색 꽃 = pink flower\n\nYou can also say 빨간색, 파란색, etc. Both forms work for the basic 5."}},
+  {type:"teach",kind:"word",nl:"색 / 색깔",en:"color",phonetic:"saek / saek-kkal",example:"A: 무슨 색을 좋아해요? B: 초록색을 좋아해요.",exampleEn:"A: What color do you like? B: I like green.",note:"색: color (in compounds).\n색깔: color (standalone word).\n무슨 색?: What color?"},
+  {type:"teach",kind:"word",nl:"초록색 / 초록",en:"green",phonetic:"cho-rok-saek",example:"A: 나무가 예뻐요! B: 네, 초록색 나무가 정말 예뻐요.",exampleEn:"A: The trees are pretty! B: Yes, the green trees are really pretty.",note:"초록색: green (color).\n초록: green (short form).\n초록색 나무 = green tree.\n초록 사과 = green apple."},
+  {type:"teach",kind:"word",nl:"주황색",en:"orange (color)",phonetic:"ju-hwang-saek",example:"A: 저 꽃이 무슨 색이에요? B: 주황색이에요.",exampleEn:"A: What color is that flower? B: It's orange.",note:"주황색: orange color.\nSINO-KOREAN: 주(vermillion) + 황(yellow).\nBetween red and yellow = orange."},
+  {type:"teach",kind:"word",nl:"갈색",en:"brown",phonetic:"gal-saek",example:"A: 가방이 무슨 색이에요? B: 갈색이에요.",exampleEn:"A: What color is the bag? B: It's brown.",note:"갈색: brown.\nSINO-KOREAN: 갈(brown/autumn) + 색.\n갈색 머리 = brown hair.\n갈색 가방 = brown bag."},
+  {type:"mc",q:"초록색 means:",opts:["green","orange","brown","pink"],ans:"green",hint:"Think of trees and grass. 초록 is a nature color."},
+  {type:"teach",kind:"word",nl:"분홍색",en:"pink",phonetic:"bun-hong-saek",example:"A: 이 치마 예뻐요? B: 네! 분홍색이 잘 어울려요.",exampleEn:"A: Is this skirt pretty? B: Yes! Pink suits you well.",note:"분홍색: pink.\nSINO-KOREAN: 분(powder) + 홍(red).\nPowder-red = pink."},
+  {type:"teach",kind:"word",nl:"보라색",en:"purple",phonetic:"bo-ra-saek",example:"A: 무슨 색 모자를 살 거예요? B: 보라색 모자요.",exampleEn:"A: What color hat will you buy? B: A purple hat.",note:"보라색: purple.\n보라 + 색.\n보라색 꽃 = purple flower."},
+  {type:"teach",kind:"word",nl:"회색",en:"grey",phonetic:"hoe-saek",example:"A: 오늘 하늘이 무슨 색이에요? B: 회색이에요. 비가 올 것 같아요.",exampleEn:"A: What color is the sky today? B: It's grey. I think it will rain.",note:"회색: grey.\nSINO-KOREAN: 회(ash/灰) + 색.\nAsh-color = grey.\n회색 하늘 = grey sky."},
+  {type:"mc",q:"갈색 가방 means:",opts:["brown bag","green bag","grey bag","orange bag"],ans:"brown bag",hint:"갈색 = a color associated with earth and autumn leaves."},
+  {type:"mc",q:"분홍색 is made from which two characters?",opts:["분 (powder) + 홍 (red)","분 (minute) + 홍 (wide)","분 (part) + 홍 (flood)","분 (anger) + 홍 (red)"],ans:"분 (powder) + 홍 (red)",hint:"Powder-red creates a lighter, softer shade of red."},
+  {type:"fb",s:"나무가 ___이에요.\n(The tree is green.)",a:"초록색",opts:["초록색","갈색","회색","보라색"],hint:"Trees and leaves are this color in spring and summer."},
+  {type:"fb",s:"하늘이 ___이에요. 비가 와요.\n(The sky is grey. It's raining.)",a:"회색",opts:["회색","파란색","갈색","주황색"],hint:"회 means ash. What color is ash?"},
+  {type:"match",pairs:[{nl:"초록색",en:"green"},{nl:"주황색",en:"orange"},{nl:"갈색",en:"brown"},{nl:"분홍색",en:"pink"}]},
+  {type:"match",pairs:[{nl:"보라색",en:"purple"},{nl:"회색",en:"grey"},{nl:"빨간",en:"red"},{nl:"노란",en:"yellow"}]},
+  {type:"mc",q:"무슨 색을 좋아해요?\nWhich is a correct answer?",opts:["보라색을 좋아해요","보라색을 좋아하다","보라색 좋아","보라색은 색이에요"],ans:"보라색을 좋아해요",hint:"Answer needs the polite 해요 ending with the object particle 을."},
+  {type:"fb",s:"___색 꽃이 예뻐요.\n(The purple flower is pretty.)",a:"보라",opts:["보라","분홍","회","갈"],hint:"This color is between red and blue."},
+  {type:"drag_fill",s:"저는 {1} 사과와 {2} 바나나를 좋아해요.",blanks:{"1":"빨간","2":"노란"},pool:["빨간","노란","회색","보라색","초록색"],hint:"Apples are typically this color, and bananas are this color."},
+  {type:"mc",q:"Which color uses the 분 (powder) + 홍 (red) pattern?",opts:["분홍색 (pink)","주황색 (orange)","갈색 (brown)","회색 (grey)"],ans:"분홍색 (pink)",hint:"Powder mixed with red makes a softer, lighter red."},
+  {type:"drag_fill",s:"하늘이 {1}이에요. 나무는 {2}이에요. 꽃은 {3}이에요.",blanks:{"1":"파란색","2":"초록색","3":"분홍색"},pool:["파란색","초록색","분홍색","갈색","회색","주황색"],hint:"Sky color, tree color, flower color."},
+  {type:"fb",s:"___색 고양이가 있어요.\n(There is a brown cat.)",a:"갈",opts:["갈","회","보라","초록"],hint:"This color sounds like autumn. 갈 = brown/autumn."},
+]},
+
 // ═══ L8: Review & Quiz ═══
 {id:"kou5l8",title:"Review and Quiz",icon:"📝",xp:30,board:true,steps:[
   {type:"intro",title:"Review & Quiz",desc:"Review: family, adjectives, particles, modifiers, culture.",goals:["Verify particle system mastery","Test family vocabulary","Confirm adjective verb understanding"]},
@@ -1917,6 +1947,61 @@ export default [
   {type:"match",pairs:[{nl:"구두",en:"dress shoes"},{nl:"운동화",en:"sneakers"},{nl:"원피스",en:"dress"},{nl:"목도리",en:"scarf"}]},
   {type:"drag_fill",s:"겨울에 {1}를 입고, {2}을 끼고, {3}를 해요.",blanks:{"1":"코트","2":"장갑","3":"목도리"},pool:["코트","장갑","목도리","모자","양말"],hint:"In winter: coat (torso), gloves (hands), scarf (accessory)"},
   {type:"mc",q:"Which verb goes with 안경?",opts:["쓰다 (head verb)","입다 (torso verb)","신다 (feet verb)","끼다 (hand verb)"],ans:"쓰다 (head verb)",hint:"Glasses go on your face/head area"},
+]},
+
+// ═══════════════════════════════════════════════════
+// LESSON: More Clothing (kou6l6c) — Unit 6, A1.2
+// Teaches: 바지, 티셔츠, 청바지, 반바지, 부츠, 벨트/허리띠, 넥타이, 정장
+// ═══════════════════════════════════════════════════
+{id:"kou6l6c",title:"옷 더 배우기 (More Clothing)",icon:"👗",xp:20,board:true,steps:[
+  {type:"intro",title:"Expanding Your Wardrobe Vocabulary",desc:"바지, 티셔츠, 청바지...\n\nMore clothing items, including Konglish words and native Korean words.",goals:["Learn 8 more clothing items","Spot Konglish (English loan) words","Use the correct wear verbs from the previous lesson","Describe outfits"]},
+  {type:"tip",title:"Konglish vs Native Korean Clothing Words",text:"Many Korean clothing words come from English:\n\n티셔츠 (T-shirt) from 'T-shirt'\n부츠 (boots) from 'boots'\n벨트 (belt) from 'belt'\n\nBut key items are native Korean:\n바지: pants (pure Korean)\n청바지: jeans (청 blue + 바지 pants)\n정장: formal suit (Sino-Korean)\n\nKonglish words use Korean pronunciation rules.",deepDive:{title:"How Konglish Works",text:"English sounds are adapted to Korean syllable rules:\n\nboot → 부츠 (bu-cheu)\nbelt → 벨트 (bel-teu)\nT-shirt → 티셔츠 (ti-syeo-cheu)\n\nKorean syllables always end in a consonant or vowel.\nNo consonant clusters like 'lts' in 'belts'.\nSo extra vowels are added: 벨트 (bel-teu)."}},
+  {type:"teach",kind:"word",nl:"바지",en:"pants / trousers",phonetic:"ba-ji",example:"A: 오늘 뭐 입어요? B: 검은 바지를 입어요.",exampleEn:"A: What are you wearing today? B: I'm wearing black pants.",note:"바지: pants (pure Korean).\nUse 입다 (torso/body verb).\n검은 바지 = black pants."},
+  {type:"teach",kind:"word",nl:"티셔츠",en:"T-shirt",phonetic:"ti-syeo-cheu",example:"A: 여름에 뭐 입어요? B: 보통 티셔츠를 입어요.",exampleEn:"A: What do you wear in summer? B: I usually wear T-shirts.",note:"티셔츠: T-shirt (Konglish).\nUse 입다 (torso verb).\n하얀 티셔츠 = white T-shirt."},
+  {type:"teach",kind:"word",nl:"청바지",en:"jeans",phonetic:"cheong-ba-ji",example:"A: 청바지를 자주 입어요? B: 네, 매일 입어요!",exampleEn:"A: Do you wear jeans often? B: Yes, I wear them every day!",note:"청바지: jeans.\nCOMPOUND: 청(blue) + 바지(pants).\nBlue pants = jeans."},
+  {type:"mc",q:"청바지 = 청 + 바지. 청 means:",opts:["blue","cloth","long","cotton"],ans:"blue",hint:"청 is a Sino-Korean character meaning blue/green. Blue + pants = jeans."},
+  {type:"teach",kind:"word",nl:"반바지",en:"shorts",phonetic:"ban-ba-ji",example:"A: 여름에 반바지를 입어요? B: 네, 더울 때 반바지를 입어요.",exampleEn:"A: Do you wear shorts in summer? B: Yes, I wear shorts when it's hot.",note:"반바지: shorts.\nCOMPOUND: 반(half) + 바지(pants).\nHalf-pants = shorts."},
+  {type:"teach",kind:"word",nl:"부츠",en:"boots",phonetic:"bu-cheu",example:"A: 비가 와요! B: 부츠를 신으세요.",exampleEn:"A: It's raining! B: Wear boots.",note:"부츠: boots (Konglish).\nUse 신다 (feet verb).\n겨울 부츠 = winter boots."},
+  {type:"mc",q:"부츠를 ___요.\n(I wear boots.)",opts:["신어","입어","써","끼"],ans:"신어",hint:"Boots go on your feet. Which verb is for footwear?"},
+  {type:"teach",kind:"word",nl:"벨트 / 허리띠",en:"belt",phonetic:"bel-teu / heo-ri-tti",example:"A: 바지가 커요? B: 네, 벨트를 해요.",exampleEn:"A: Are your pants big? B: Yes, I wear a belt.",note:"벨트: belt (Konglish).\n허리띠: belt (native Korean).\n허리(waist) + 띠(band).\nUse 하다 (accessory verb)."},
+  {type:"teach",kind:"word",nl:"넥타이",en:"necktie / tie",phonetic:"nek-ta-i",example:"A: 회사에 넥타이를 해요? B: 네, 매일 넥타이를 해요.",exampleEn:"A: Do you wear a tie to work? B: Yes, I wear a tie every day.",note:"넥타이: necktie (Konglish).\nUse 하다 (accessory verb).\n넥타이를 매다 also works."},
+  {type:"teach",kind:"word",nl:"정장",en:"formal suit",phonetic:"jeong-jang",example:"A: 내일 뭐 입어요? B: 면접이 있어서 정장을 입어요.",exampleEn:"A: What are you wearing tomorrow? B: I have an interview so I'm wearing a suit.",note:"정장: formal suit.\nSINO-KOREAN: 정(proper) + 장(outfit).\nUse 입다 (torso verb)."},
+  {type:"mc",q:"반바지 means:",opts:["shorts","long pants","jeans","skirt"],ans:"shorts",hint:"반 means half. Half-pants = something shorter than full pants."},
+  {type:"fb",s:"비가 와요. ___를 신으세요.\n(It's raining. Wear boots.)",a:"부츠",opts:["부츠","구두","운동화","양말"],hint:"Rain footwear. A Konglish word from English."},
+  {type:"fb",s:"회사에 ___를 입어요.\n(I wear a formal suit to the office.)",a:"정장",opts:["정장","청바지","반바지","티셔츠"],hint:"A proper, formal outfit for business settings."},
+  {type:"match",pairs:[{nl:"바지",en:"pants"},{nl:"청바지",en:"jeans"},{nl:"반바지",en:"shorts"},{nl:"정장",en:"formal suit"}]},
+  {type:"match",pairs:[{nl:"티셔츠",en:"T-shirt"},{nl:"부츠",en:"boots"},{nl:"벨트",en:"belt"},{nl:"넥타이",en:"necktie"}]},
+  {type:"mc",q:"넥타이를 ___요.\n(I wear a tie.)",opts:["해","입어","써","신어"],ans:"해",hint:"Ties are accessories. Accessories use the 하다 verb."},
+  {type:"drag_fill",s:"여름에 {1}와 {2}를 입어요. 겨울에 {3}를 입어요.",blanks:{"1":"티셔츠","2":"반바지","3":"코트"},pool:["티셔츠","반바지","코트","정장","부츠","벨트"],hint:"Summer: light top + short pants. Winter: heavy outer layer."},
+  {type:"fb",s:"___를 자주 입어요. 편해요.\n(I often wear jeans. They're comfortable.)",a:"청바지",opts:["청바지","정장","반바지","넥타이"],hint:"Blue + pants = a casual everyday clothing item."},
+  {type:"mc",q:"Which is a Konglish word?",opts:["부츠 (boots)","바지 (pants)","청바지 (jeans)","정장 (suit)"],ans:"부츠 (boots)",hint:"This word comes directly from English pronunciation adapted to Korean."},
+]},
+
+// ═══════════════════════════════════════════════════
+// LESSON: Cardinal Directions (kou6l6d) — Unit 6, A1.2
+// Teaches: 동, 서, 남, 북, 동쪽/서쪽/남쪽/북쪽, compound place names
+// ═══════════════════════════════════════════════════
+{id:"kou6l6d",title:"방향: 동서남북 (Cardinal Directions)",icon:"🧭",xp:20,board:true,steps:[
+  {type:"intro",title:"North, South, East, West in Korean",desc:"동 / 서 / 남 / 북\n→ east / west / south / north\n\nCompass directions and famous Korean place names.",goals:["Learn the four cardinal directions","Understand the 쪽 suffix for direction","Recognize directions in Korean place names","Know the Korean compass order: 동서남북"]},
+  {type:"tip",title:"Korean Compass Order: 동서남북",text:"Korean says directions differently from English:\n\nEnglish: North, South, East, West (NSEW)\nKorean: 동서남북 = East, West, South, North\n\nEast comes first because in Korean culture the sun rising in the east has special importance.\n\nAll four are Sino-Korean characters:\n동(東): east\n서(西): west\n남(南): south\n북(北): north",deepDive:{title:"Why East First?",text:"In traditional Korean (and East Asian) compass systems, East is the primary direction.\n\nThe sun rises in the East.\n동 appears in many important compounds:\n동해: East Sea (Sea of Japan)\n동대문: East Gate\n\nKorean maps traditionally placed East at the top, not North."}},
+  {type:"teach",kind:"word",nl:"동 / 동쪽",en:"east",phonetic:"dong / dong-jjok",example:"A: 해가 어디에서 떠요? B: 동쪽에서 떠요.",exampleEn:"A: Where does the sun rise? B: It rises in the east.",note:"동(東): east.\n동쪽: east side/direction.\n쪽 = side/direction suffix.\n동해 = East Sea."},
+  {type:"teach",kind:"word",nl:"서 / 서쪽",en:"west",phonetic:"seo / seo-jjok",example:"A: 해가 어디에서 져요? B: 서쪽에서 져요.",exampleEn:"A: Where does the sun set? B: It sets in the west.",note:"서(西): west.\n서쪽: west side/direction.\n서울: capital city.\n서해: West Sea (Yellow Sea)."},
+  {type:"teach",kind:"word",nl:"남 / 남쪽",en:"south",phonetic:"nam / nam-jjok",example:"A: 제주도가 어디에 있어요? B: 한국 남쪽에 있어요.",exampleEn:"A: Where is Jeju Island? B: It's in the south of Korea.",note:"남(南): south.\n남쪽: south side/direction.\n남산: South Mountain (서울).\n남해: South Sea."},
+  {type:"teach",kind:"word",nl:"북 / 북쪽",en:"north",phonetic:"buk / buk-jjok",example:"A: 겨울에 북쪽이 추워요? B: 네, 아주 추워요.",exampleEn:"A: Is it cold in the north in winter? B: Yes, it's very cold.",note:"북(北): north.\n북쪽: north side/direction.\n북한: North Korea.\n북해: North Sea."},
+  {type:"mc",q:"해가 동쪽에서 떠요. What does this mean?",opts:["The sun rises in the east","The sun sets in the west","The sun is in the south","The sun is in the north"],ans:"The sun rises in the east",hint:"동 = east, 해 = sun. Where does the sun come up?"},
+  {type:"mc",q:"Korean compass order is:",opts:["동서남북 (E-W-S-N)","북남동서 (N-S-E-W)","남북동서 (S-N-E-W)","서동남북 (W-E-S-N)"],ans:"동서남북 (E-W-S-N)",hint:"East comes first in Korean culture. The sun rises there."},
+  {type:"tip",title:"Directions in Korean Place Names",text:"Many famous Korean places contain compass characters:\n\n동대문: East Great Gate (동 + 대 + 문)\n남대문: South Great Gate (남 + 대 + 문)\n남산: South Mountain (남 + 산)\n북한산: North Han Mountain\n서울: capital city (historically linked to 서)\n\nKnowing 동서남북 helps you read Korean maps and place names.",deepDive:{title:"Seoul's Four Gates",text:"Old Seoul was a walled city with gates at each compass point:\n\n동대문 (East Gate): Heunginjimun\n서대문 (West Gate): Donuimun\n남대문 (South Gate): Sungnyemun\n북대문 (North Gate): Sukjeongmun\n\nToday 동대문 and 남대문 are famous shopping districts."}},
+  {type:"teach",kind:"word",nl:"동대문",en:"East Gate (Dongdaemun)",phonetic:"dong-dae-mun",example:"A: 동대문에 가요? B: 네, 쇼핑하러 가요!",exampleEn:"A: Are you going to Dongdaemun? B: Yes, I'm going shopping!",note:"동대문: East Great Gate.\nCOMPOUND: 동(east) + 대(great) + 문(gate).\nFamous Seoul shopping district."},
+  {type:"teach",kind:"word",nl:"남산",en:"South Mountain (Namsan)",phonetic:"nam-san",example:"A: 남산에 가 봤어요? B: 네, 남산타워가 예뻐요!",exampleEn:"A: Have you been to Namsan? B: Yes, Namsan Tower is pretty!",note:"남산: South Mountain.\nCOMPOUND: 남(south) + 산(mountain).\n남산타워 = N Seoul Tower."},
+  {type:"mc",q:"남대문 = 남 + 대 + 문. 문 means:",opts:["gate / door","mountain","river","road"],ans:"gate / door",hint:"대문 means great gate. 문 is used for doors and gates."},
+  {type:"fb",s:"제주도는 한국 ___에 있어요.\n(Jeju Island is in the south of Korea.)",a:"남쪽",opts:["남쪽","북쪽","동쪽","서쪽"],hint:"Jeju is Korea's southernmost island."},
+  {type:"fb",s:"___에서 해가 떠요.\n(The sun rises in the east.)",a:"동쪽",opts:["동쪽","서쪽","남쪽","북쪽"],hint:"The sun rises where? The first direction in 동서남북."},
+  {type:"match",pairs:[{nl:"동쪽",en:"east"},{nl:"서쪽",en:"west"},{nl:"남쪽",en:"south"},{nl:"북쪽",en:"north"}]},
+  {type:"match",pairs:[{nl:"동대문",en:"East Gate"},{nl:"남산",en:"South Mountain"},{nl:"북한",en:"North Korea"},{nl:"서해",en:"West Sea"}]},
+  {type:"drag_fill",s:"해가 {1}에서 떠서 {2}에서 져요.",blanks:{"1":"동쪽","2":"서쪽"},pool:["동쪽","서쪽","남쪽","북쪽"],hint:"The sun rises in one direction and sets in the opposite."},
+  {type:"mc",q:"남산타워 is on which mountain?",opts:["남산 (South Mountain)","북한산 (North Han Mountain)","동대문 (East Gate area)","서울산 (Seoul Mountain)"],ans:"남산 (South Mountain)",hint:"남산 = 남 (south) + 산 (mountain). The famous tower is there."},
+  {type:"fb",s:"겨울에 ___이 아주 추워요.\n(In winter, the north is very cold.)",a:"북쪽",opts:["북쪽","남쪽","동쪽","서쪽"],hint:"The direction opposite to south. 북 = north."},
+  {type:"mc",q:"동대문 = 동 + 대 + 문. 동 means:",opts:["east","west","great","gate"],ans:"east",hint:"The first character in the Korean compass order 동서남북."},
 ]},
 
 // ═══ L7: Compound Blitz + Culture ═══

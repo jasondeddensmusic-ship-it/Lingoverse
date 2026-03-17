@@ -245,12 +245,89 @@ The "official exam requirement" numbers in the Executive Summary are ESTIMATES, 
 
 ---
 
+## SESSION 2 RESULTS (2026-03-17)
+
+### 18 new A1 vocabulary gap lessons added across all 5 languages
+
+**Total: 18 lessons, 407 steps**
+
+#### Korean (3 new lessons, 63 steps)
+| Lesson | ID | Unit | Steps | Vocabulary |
+|--------|-----|------|-------|-----------|
+| 색깔 더 배우기 (More Colors) | kou5l7c | U5 (A1.2) | 22 | 초록색, 주황색, 갈색, 분홍색, 보라색, 회색, 색/색깔 |
+| 옷 더 배우기 (More Clothing) | kou6l6c | U6 (A1.2) | 21 | 바지, 티셔츠, 청바지, 반바지, 부츠, 벨트/허리띠, 넥타이, 정장 |
+| 방향: 동서남북 (Cardinal Directions) | kou6l6d | U6 (A1.2) | 20 | 동/동쪽, 서/서쪽, 남/남쪽, 북/북쪽, 동대문, 남산 |
+
+#### Dutch (4 new lessons, 89 steps)
+| Lesson | ID | Unit | Steps | Vocabulary |
+|--------|-----|------|-------|-----------|
+| Kleuren (Colors) | v2u5l8b | U5 (A1.2) | 23 | rood, blauw, groen, geel, wit, zwart, oranje, bruin, roze, paars, grijs |
+| Kleding (Clothing) | v2u6l8b | U6 (A1.2) | 24 | shirt, broek, schoenen, jurk, jas, sokken, trui, sjaal, handschoenen, riem, rok, laarzen |
+| Windrichtingen (Directions) | v2u6l8c | U6 (A1.2) | 21 | noorden, zuiden, oosten, westen + compass rose |
+| Meer Gevoelens (Emotions) | v2u5l8c | U5 (A1.2) | 21 | zenuwachtig, trots, verrast, verveeld, bezorgd, opgewonden, verlegen, eenzaam |
+
+#### German (4 new lessons, 93 steps)
+| Lesson | ID | Unit | Steps | Vocabulary |
+|--------|-----|------|-------|-----------|
+| Mehr Farben (Ext Colors) | deu6l8b | U6 (A1.2) | 21 | orange, braun, rosa, lila/violett, grau |
+| Kleidung (Clothing) | deu8l8b | U8 (A1.2) | 25 | Hemd, T-Shirt, Hose, Schuhe, Kleid, Jacke, Mantel, Socken, Pullover, Schal, Handschuhe, Gürtel, Rock, Stiefel |
+| Himmelsrichtungen (Directions) | deu7l8b | U7 (A1.2) | 21 | Norden, Süden, Osten, Westen + geography |
+| Gefühle (Emotions) | deu5l8c | U5 (A1.1) | 26 | glücklich, traurig, wütend, müde, hungrig, ängstlich, nervös, stolz, überrascht, gelangweilt, besorgt, aufgeregt, verlegen, einsam |
+
+#### French (4 new lessons, 91 steps)
+| Lesson | ID | Unit | Steps | Vocabulary |
+|--------|-----|------|-------|-----------|
+| Plus de Couleurs (Ext Colors) | fre8l2b | U8 (A1.3) | 22 | rose, violet/violette, orange + gender agreement review |
+| Plus de Vêtements (Clothing) | fre8l8b | U8 (A1.3) | 21 | veste, chaussettes, pull, écharpe, gants, ceinture, bottes |
+| Les Points Cardinaux (Directions) | fre7l8b | U7 (A1.3) | 20 | nord, sud, est, ouest + geographic prepositions |
+| Les Émotions (Emotions) | fre5l8c | U5 (A1.2) | 28 | heureux/heureuse, triste, fâché, fatigué, content, avoir peur, nerveux, fier, surpris, ennuyé, inquiet, excité, gêné, seul |
+
+#### Spanish (3 new lessons, 70 steps)
+| Lesson | ID | Unit | Steps | Vocabulary |
+|--------|-----|------|-------|-----------|
+| Los Colores y el Género (Ext Colors) | esp3l8b | U3 (A1.1) | 21 | naranja, marrón, rosa, morado/violeta, gris + gender agreement |
+| Las Direcciones Cardinales (Directions) | esp7l8b | U7 (A1.3) | 22 | norte, sur, este, oeste + geographic expressions |
+| Los Sentimientos (Emotions) | esp5l8c | U5 (A1.2) | 27 | feliz, triste, enfadado, cansado, asustado, nervioso, orgulloso, sorprendido, aburrido, preocupado, emocionado, avergonzado, solo |
+
+### Validation Results
+- Build: PASS (Vite compiled successfully)
+- P48 (step types): PASS across all 18 lessons
+- P8 (anti-leak): Agents validated no leaks
+- board:true: PASS on all 18 lessons
+- Density: All lessons 20-28 steps (minimum 18)
+
+### Updated A1 Domain Coverage
+
+| Domain | Korean | Dutch | German | French | Spanish |
+|--------|--------|-------|--------|--------|---------|
+| Colors (basic) | 5 (S1: D93) | 11 (S2) | 6 (D103) | 8 (D105) | 6 (D108) |
+| Colors (extended) | +6 (S2) | included | +5 (S2) | +3 (S2) | +5 (S2) |
+| Clothing | 15+ (S1+S2) | 12 (S2) | 14 (S2) | 14 (D105+S2) | 13 (D108) |
+| Directions (cardinal) | 4+places (S2) | 4 (S2) | 4+geo (S2) | 4 (S2) | 4 (S2) |
+| Emotions (basic+ext) | 10 (S1) | 14 (S2) | 14 (S2) | 14 (S2) | 13 (S2) |
+| Months | 12 (S1) | 8 (S1) | 12 (S1) | 12 (S1) | 12 (S1) |
+| Body parts | added (S1) | added (S1) | added (S1) | added (S1) | added (S1) |
+
+### Updated Lesson Counts
+
+| Language | Before S2 | After S2 | New Lessons |
+|----------|-----------|----------|-------------|
+| Korean | 315 | 318 | +3 |
+| Dutch (v2) | 248 | 252 | +4 |
+| German | 242 | 246 | +4 |
+| French | 242 | 246 | +4 |
+| Spanish | 242 | 245 | +3 |
+
+---
+
 ## NEXT SESSIONS NEEDED
 
 This audit reveals that achieving full certification-grade vocabulary (P55) requires adding approximately **3,000-4,500 new teach cards per language**, totaling **~17,000 new teach cards across all 5 languages**. This is a multi-session, multi-week project.
 
 ### Recommended session plan:
-1. **Session 1 (THIS SESSION)**: Audit extraction, gap analysis, structural fixes, initial vocabulary additions for most critical A1 domains across all languages
-2. **Sessions 2-6**: One session per language, focused on building missing vocabulary by domain
-3. **Sessions 7-11**: Grammar completeness verification and gap-filling per language
-4. **Session 12**: Communicative functions mapping and final P53 verification
+1. **Session 1 (COMPLETE)**: Audit extraction, gap analysis, structural fixes, initial vocabulary additions for most critical A1 domains (months, body parts)
+2. **Session 2 (COMPLETE)**: A1 vocabulary gap filling: extended colors, clothing, cardinal directions, emotions across all 5 languages (18 lessons, 407 steps)
+3. **Session 3**: A2 vocabulary domains: professions, animals, nature, technology, health across all 5 languages
+4. **Sessions 4-8**: B1-B2 vocabulary expansion per language
+5. **Sessions 9-13**: Grammar completeness verification and gap-filling per language
+6. **Session 14**: Communicative functions mapping and final P53 verification
