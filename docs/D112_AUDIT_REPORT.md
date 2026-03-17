@@ -320,6 +320,49 @@ The "official exam requirement" numbers in the Executive Summary are ESTIMATES, 
 
 ---
 
+## FLAWS FOUND & LESSONS LEARNED (Sessions 1-2)
+
+### Flaw 1: Massive vocabulary gap (20-31% coverage)
+The single biggest finding of D112. All 5 languages have only 20-31% of the vocabulary needed for certification-grade completeness. This was INVISIBLE to all previous audits (D92-D111) because they checked structural properties (step types, density, labels) but never compared actual teach card vocabulary against official exam word lists. The curriculum "looks complete" but is missing ~70-80% of required vocabulary.
+
+### Flaw 2: Official source myths in CLAUDE.md
+Multiple claims in CLAUDE.md about official vocabulary sources were WRONG:
+- "NT2 Basiswoordenlijst (~4,000 words)" does NOT exist as a single published list
+- "TOPIK official vocabulary list (6,000+)" is actually an academic compilation, not NIIED-published
+- "DELF vocabulary lists by level" do NOT exist. CIEP/France Education International publishes NO word-count-based vocabulary lists
+- "Goethe B2 Wortliste" does NOT exist as an official publication (A1-B1 only)
+- Only the PCIC (Spanish) and NIKL (Korean) are truly official, freely accessible vocabulary frameworks
+This was caught in Session 1 by Rule 14 official source verification and corrected in the audit report.
+
+### Flaw 3: Template-based unit distribution
+German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) all used a mechanical template for CEFR level distribution instead of concept-driven sizing (P56). This front-loads A-level content while compressing B-level content. Flagged in D110 but not yet fixed. Korean A2 with only 4 units for a Category V language also flagged.
+
+### Flaw 4: A1 domain coverage gaps universal across all languages
+7 critical A1 vocabulary domains were missing or incomplete across ALL 5 languages simultaneously:
+1. Extended colors (brown, pink, purple, grey, orange)
+2. Clothing items (socks, sweater, scarf, gloves)
+3. Cardinal directions (north, south, east, west)
+4. Extended emotions (bored, excited, worried, proud)
+5. Individual months (some languages only had partial coverage)
+6. Body parts expansion (tooth, finger, knee, shoulder)
+7. Individual numbers (teens, tens)
+This suggests the original builds for all languages used similar templates that omitted these domains.
+
+### Flaw 5: French sub-level labels non-standard
+French uses A2.1-A2.8, B1.1-B1.8 sub-level notation, which is inconsistent with all other languages (A2.1-A2.2, B1.1-B1.2). Flagged for review.
+
+### Flaw 6: French has fewest teach cards
+French has only 870 unique teach cards vs German's 1,207. French also has the fewest verb_table steps (5 vs German's 38). This suggests French content may be thinner despite similar lesson counts.
+
+### Lesson: Cross-language gap analysis is more efficient than per-language
+Sessions 1-2 worked across ALL 5 languages simultaneously for A1 gaps. This was more efficient than per-language deep dives because:
+- The same A1 domains were missing everywhere (shared template gap)
+- Building the same domain in 5 languages in parallel enables format consistency
+- Agents can work on different languages simultaneously
+Future sessions should continue cross-language for A2+ domain gaps before switching to per-language deep dives for grammar.
+
+---
+
 ## NEXT SESSIONS NEEDED
 
 This audit reveals that achieving full certification-grade vocabulary (P55) requires adding approximately **3,000-4,500 new teach cards per language**, totaling **~17,000 new teach cards across all 5 languages**. This is a multi-session, multi-week project.
