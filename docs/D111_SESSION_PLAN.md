@@ -78,6 +78,43 @@ For EACH of the 5 languages (not just German/French/Spanish):
 
 ---
 
+## Phase 1 Results (COMPLETED 2026-03-17)
+
+### Distribution Verdicts
+
+| Language | Distribution | Verdict | Reasoning |
+|----------|-------------|---------|-----------|
+| **Korean** | 6-4-10-10 | CORRECT | Light A-level grammar (no cases/gender), heavy B-level (indirect speech 4 forms, passive 4 forms, honorifics, 사자성어) |
+| **Dutch** | 6-4-10-10 | CORRECT | Light A-level (2 genders, simple morphology), heavy B-level ("er" 5 uses, passive, conditional, NT2 prep) |
+| **German** | 8-8-8-6 | CORRECT | Heavy A-level (4 cases, 3 genders, separable verbs, Perfekt haben/sein), B2 is refinement (Partizipialattribute, Zustandspassiv covered) |
+| **French** | 8-8-8-6 | CORRECT | Heavy A-level (3 verb groups, le/la articles, PC/imparfait distinction), subjunctive starts B1, B2 is refinement |
+| **Spanish** | 8-8-8-6 | CORRECT | Heavy A-level (ser/estar, indefinido/imperfecto distinction, reflexives), subjuntivo starts B1, B2 is refinement |
+
+**Key insight:** German/French/Spanish have heavier A-level grammar loads than Korean/Dutch. The 4-case system (German), passé composé/imparfait distinction (French), and pretérito/imperfecto distinction (Spanish) all require dedicated A2 units. This justifies more A-level units. The previous D110 alarm was based on template comparison, not per-language analysis.
+
+### P53 Automated Scan Results
+
+| Check | Korean | Dutch | German | French | Spanish |
+|-------|--------|-------|--------|--------|---------|
+| P48 | PASS | PASS | PASS | PASS | PASS |
+| P22c content | PASS | PASS | PASS | PASS | PASS |
+| P49 | PASS | PASS | PASS | PASS | PASS |
+| Density | 34 low (A1-A2) | PASS | PASS | PASS | PASS |
+| board:true | PASS | PASS | PASS | PASS | PASS |
+| Sub-levels | FIXED | PASS | PASS | FIXED | FIXED |
+
+### Fixes Applied
+
+1. **Korean B1 sub-levels**: U12-U15 "B1" → "B1.1", U16-U20 "B1" → "B1.2" (9 units)
+2. **French A1 sub-levels**: U6 "A1.6" → "A1.3", U7 "A1.7" → "A1.3", U8 "A1.8" → "A1.3"
+3. **Spanish A1 sub-levels**: U7-U8 "A1.4" → "A1.3"
+
+### Flagged for Future Work (not D111 scope)
+
+- Korean A1-A2 density: 34 lessons under 20-step P43 minimum (pre-density-standard content, mostly U2-U6). Future uplift when prioritized.
+
+---
+
 ## Phase 2: Deep P52 Teach-Before-Use Verification (All 5 Languages)
 
 For EACH language:
