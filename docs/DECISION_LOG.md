@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-16 (D1-D107. D86+ in CLAUDE.md)
+> Last updated: 2026-03-17 (D1-D108. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D108 | Spanish A1-B2 Complete Curriculum Build | Content/Build | Spanish |
 | D107 | Temp-File Agent Workflow for Curriculum Builds | Agent Protocol | All |
 | D106 | Agent Model Escalation Protocol (Opus over Sonnet) | Agent Protocol | All |
 | D105 | French A1-B2 Complete Curriculum Build | Content/Build | French |
@@ -155,7 +156,7 @@ D103, D104
 D105
 
 ### Spanish Curriculum
-D107
+D107, D108
 
 ### Pipeline Rules
 D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
@@ -164,7 +165,7 @@ D3, D14, D23, D24, D25, D40, D58, D67, D68, D70, D71, D78, D79, D89, D90, D97
 D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
 
 ### Content Enrichment Workflow
-D100, D105
+D100, D105, D108
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85
@@ -173,7 +174,7 @@ D4, D5, D9, D12, D82, D83, D85
 D83, D85
 
 ### Content Quality
-D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101, D102, D103, D104, D105
+D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, D101, D102, D103, D104, D105, D108
 
 ---
 
@@ -193,6 +194,7 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D105**: French A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D106**: Agent Model Escalation Protocol (March 2026), defined in `CLAUDE.md` Rule 11 and `DECISION_LOG.md`
 - **D107**: Temp-File Agent Workflow (March 2026), defined in `CLAUDE.md` Rule 12 and `DECISION_LOG.md`
+- **D108**: Spanish A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 
 ---
 
@@ -410,6 +412,31 @@ Build used Opus 4.6 agents after Sonnet agents proved unreliable (stale, unrespo
 **Key insight**: Separation of content generation (agent) from file management (main session) eliminates all three failure modes. Agents focus on writing quality content. Main session focuses on integration and validation.
 
 **Build status at D107**: Spanish A1 U1-U6 complete (48 lessons, 867 steps). Infrastructure complete. U7-U30 remaining.
+
+---
+
+## Notes
+
+## D108: Spanish A1-B2 Complete Curriculum Build (2026-03-17)
+
+Full Spanish curriculum built from scratch following D107 temp-file agent workflow + D106 Opus 4.6 agents:
+- LANG_BLUEPRINT["es"] created in metadata.js (2-gender system, ser/estar, subjunctive, verb groups, inverted punctuation)
+- CULTURE_PACKS["es"] created in metadata.js (food, customs, places, situations)
+- FOUNDATIONS_BY_LANG["es"] expanded to 5 sections/~25 items
+- FK_PLAYTHROUGH["es"] built with ~12 lessons across 5 stages
+- FK_GATE_QUIZ["es"] built with 5 tasks/~35 items
+- 30 units (U1-U30), 240 lessons, 4,363 steps, avg 18.2 steps/lesson
+- A1 (U1-U8): Greetings, family, numbers/days/colors, food, daily routine, home, directions, shopping
+- A2 (U9-U16): Preterito indefinido (regular + irregular), imperfecto, indefinido vs imperfecto, object pronouns, future simple, comparatives, conditional
+- B1 (U17-U24): Subjuntivo presente (regular + irregular), relative pronouns, pluscuamperfecto/reported speech, passive voice, gerundio, advanced connectors, work culture
+- B2 (U25-U30): Subjuntivo imperfecto, condicional compuesto, nominalization, discourse markers, proverbs/idioms, DELE B2/SIELE prep + C1 preview
+- All teach cards have A:/B: dialogues. el/la article colors (el=blue, la=coral).
+- Quality validation: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
+- Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
+
+Build used D107 temp-file agent workflow: Opus 4.6 agents wrote units to /tmp/esp-uN.js, main session validated and merged into units-spanish.js. Multiple agents went stale during B2 build (U22, U27x2, U30), requiring direct main-session builds. All units validated with structural validation script (Rule 10) before final commit.
+
+**Phase 1 Content is now COMPLETE.** All 5 launch languages (Korean, Dutch, German, French, Spanish) have full A1-B2 curricula.
 
 ---
 

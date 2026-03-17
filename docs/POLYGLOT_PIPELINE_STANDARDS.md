@@ -1,6 +1,6 @@
 # LINGOVERSE — POLYGLOT VISION & PIPELINE STANDARDS
 ## For All Languages · All Agents · All Sessions
-## Version 2.0 | 2026-03-06
+## Version 2.1 | 2026-03-17
 
 ---
 
@@ -348,7 +348,7 @@ Dutch is the anchor course. It is the most complete. However:
 
 ## 🇩🇪 German — Special Considerations
 
-German A1 must be audited against Goethe-Institut A1 standards before A2 begins. The current German content (5 units, 12.4 steps/lesson) is below standard on both coverage and density.
+German A1-B2 COMPLETE (D103, 30 units, 240 lessons, 4,518 steps). The following rules were applied during the build and remain active for future audits/C1 expansion.
 
 **German curriculum non-negotiables:**
 
@@ -374,7 +374,7 @@ German A1 must be audited against Goethe-Institut A1 standards before A2 begins.
 
 ## 🇫🇷 French — Special Considerations
 
-French has zero content currently. Build from scratch, cross-referencing DELF A1 before finalizing any unit.
+French A1-B2 COMPLETE (D105, 30 units, 240 lessons, 4,380 steps). The following rules were applied during the build and remain active for future audits/C1 expansion.
 
 **French curriculum non-negotiables:**
 
@@ -399,7 +399,7 @@ French has zero content currently. Build from scratch, cross-referencing DELF A1
 
 ## 🇪🇸 Spanish — Special Considerations
 
-Spanish has zero content currently. Build from scratch, cross-referencing DELE A1 before finalizing any unit.
+Spanish A1-B2 COMPLETE (D108, 30 units, 240 lessons, 4,363 steps). The following rules were applied during the build and remain active for future audits/C1 expansion.
 
 **Spanish curriculum non-negotiables:**
 
@@ -535,7 +535,7 @@ Every unit must have at least one cultural anchor. It must answer:
 
 # PART 6: THE RETROACTIVE POLISH COMMITMENT
 
-When all launch curricula are written (after French and Spanish A1 are complete), before going to Phase 2 (JSON migration), every existing course receives retroactive polish:
+All 5 launch curricula are now COMPLETE (Korean, Dutch, German, French, Spanish A1-B2). Before going to Phase 2 (JSON migration), the following polish items remain:
 
 **Dutch v2 (164 lessons):**
 - Apply new card design standards (D41, D42, D47, D53, D58)
@@ -552,12 +552,20 @@ When all launch curricula are written (after French and Spanish A1 are complete)
 - Then apply card design standards
 - Bring density to minimum 18 steps/lesson for U5–U6
 
-**German U1–U5 (19 lessons):**
-- Full audit against Goethe A1
-- Rebuild any lesson below 16 steps/lesson
-- Add missing A1 grammar items
+**German (240 lessons):**
+- D92-style deep quality audit (not yet done, only quality scan pass)
+- der/die/das article verification across all units
 
-**Arabic U1–U5 (10 lessons):**
+**French (240 lessons):**
+- D92-style deep quality audit (not yet done, only quality scan pass)
+- le/la article verification across all units
+
+**Spanish (240 lessons):**
+- D92-style deep quality audit (not yet done, only structural validation pass)
+- el/la article verification across all units
+
+**Arabic U1-U5 (10 lessons):**
+- Full rebuild needed (skeleton content only)
 - Full audit against CEFR A1 for Arabic
 - Verify RTL rendering on all new cards
 - Add trilateral root annotations to all vocabulary

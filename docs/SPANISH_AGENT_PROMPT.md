@@ -1,7 +1,10 @@
 # Spanish A1-B2 Content Agent Prompt
 
-> This document provides the exact briefing for content generation agents building Spanish curriculum units.
-> Used with Rule 12 (D107): agents write to temp files, main session merges.
+> **STATUS: BUILD COMPLETE (D108, 2026-03-17).** All 30 units built, validated, and merged into `units-spanish.js`.
+> 240 lessons, 4,363 steps, all 18+ per P43, all validated PASS.
+> This document is preserved for reference and future C1 expansion.
+>
+> Originally used with Rule 12 (D107): agents write to temp files, main session merges.
 
 ---
 

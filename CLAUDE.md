@@ -11,7 +11,7 @@ LingoVerse is a self-contained multilingual language learning platform built wit
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German A1-B2 COMPLETE (D103, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). Arabic has early skeletons (5 units, below density standard). French and Spanish have infrastructure but no content yet.
+**Current state**: Korean A1-B2 COMPLETE + DIALOGUE-ENRICHED (30 units, ~311 lessons, 847/1132 teach cards with A:/B: dialogues). Dutch A1-B2 COMPLETE + FULLY AUDITED (30 v2 units, 244 lessons, ~5,446 steps, D102 quality audit PASS). German A1-B2 COMPLETE (D103, 30 units, 240 lessons, 4,518 steps, 100% dialogue coverage). French A1-B2 COMPLETE (D105, 30 units, 240 lessons, 4,380 steps, 100% dialogue coverage). Spanish A1-B2 COMPLETE (D108, 30 units, 240 lessons, 4,363 steps, A:/B: dialogues on all teach cards). Arabic has early skeletons (5 units, below density standard).
 
 ---
 
@@ -38,7 +38,9 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
 | `units-dutch.js` | ~6,030 | All 43 Dutch units (20 v2 + 23 legacy) |
 | `units-korean.js` | ~8,700 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
-| `units-german.js` | ~7,188 | All 30 German units (A1-B2, v1) |
+| `units-german.js` | ~7,407 | All 30 German units (A1-B2, v1) |
+| `units-french.js` | ~1.3MB | All 30 French units (A1-B2, v1, minified) |
+| `units-spanish.js` | ~5,262 | All 30 Spanish units (A1-B2, v1) |
 | `units-other.js` | ~170 | Arabic (5) skeleton units |
 
 ### Engine (`src/lingoverse.jsx`, ~12,892 lines)
@@ -405,30 +407,22 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
 - **French is PRODUCTION-READY.** A1-B2 fully built. Next: D92-style deep quality audit or C1 planning.
 ### Spanish:
-- **Infrastructure: COMPLETE** (D107, 2026-03-16)
-  - LANG_BLUEPRINT["es"]: COMPLETE (2-gender system, ser/estar, subjunctive, inverted punctuation, verb groups)
-  - CULTURE_PACKS["es"]: COMPLETE (food, customs, places, situations, politeness, taboos)
-  - ARTICLE_SYSTEMS["es"]: COMPLETE (el=blue masculine, la=coral feminine, detection for el/la/los/las)
-  - FOUNDATIONS_BY_LANG["es"]: COMPLETE (5 sections, ~25 items: alphabet, vowels, consonants, accents, grammar preview)
-  - FK_PLAYTHROUGH["es"]: COMPLETE (~12 lessons across 5 stages)
-  - FK_GATE_QUIZ["es"]: COMPLETE (5 tasks, ~35 items)
-  - units-spanish.js: CREATED, imported in lingoverse.jsx
-- **A1 U1-U6: COMPLETE** (48 lessons, 867 steps, all 18+ per P43, validation PASS, build PASS)
-  - U1: Greetings (hola, buenos dias, tu/usted, por favor/gracias)
-  - U2: Family (ser/estar basics, possessives, descriptions)
-  - U3: Numbers, Days, Colors (numbers 0-31, days of week, colors, adjective agreement)
-  - U4: Food & Restaurants (fruits, vegetables, drinks, meals, ordering, gustar, estar+food)
-  - U5: Daily Routine (reflexive verbs, -ar conjugation, time expressions, weekend activities)
-  - U6: Home & Rooms (rooms, furniture, -er/-ir verbs, hay vs estar, prepositions, household chores)
-  - All teach cards have A:/B: dialogues. el/la article colors throughout.
-- **A1 U7-U8: NOT STARTED** (Directions/Transport, Shopping/Clothing)
-- **A2-B2 (U9-U30): NOT STARTED**
-- Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
+- **A1-B2 COMPLETE (D108, 2026-03-17)**: Full build using D107 temp-file agent workflow + D106 Opus 4.6 agents.
+  - Infrastructure: COMPLETE (LANG_BLUEPRINT, CULTURE_PACKS, ARTICLE_SYSTEMS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ)
+  - 30 units (U1-U30), 240 lessons, 4,363 steps, avg 18.2 steps/lesson, all 18+
+  - A1 (U1-U8): Greetings, family, numbers/days/colors, food, daily routine, home, directions, shopping
+  - A2 (U9-U16): Preterito indefinido (regular + irregular), imperfecto, indefinido vs imperfecto, object pronouns, future simple, comparatives/superlatives, conditional
+  - B1 (U17-U24): Subjuntivo presente (regular + irregular), relative pronouns, pluscuamperfecto/reported speech, passive voice, gerundio/progressive, advanced connectors, work culture
+  - B2 (U25-U30): Subjuntivo imperfecto, condicional compuesto, nominalization, discourse markers, proverbs/idioms, DELE B2/SIELE prep + C1 preview
+  - All teach cards have A:/B: dialogues. el/la article colors throughout (el=blue, la=coral).
+  - Quality validation PASS: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
+  - Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
+- **Spanish is PRODUCTION-READY.** A1-B2 fully built and validated. Next: D92-style deep quality audit.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
 - LANG_META: All 11 complete
-- LANG_BLUEPRINT: nl, de, ar, fr populated. es TODO.
+- LANG_BLUEPRINT: nl, de, ar, fr, es populated.
 - SCRIPT_BLUEPRINTS: 7 scripts defined (hangul, kana, arabic, hanzi, cyrillic, latin_complex, latin_simple)
 
 ---
@@ -441,7 +435,7 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 2. **Dutch** - A1-B2 PRODUCTION-READY. Fully built (D101), audited (D102, 10 rounds). 30 units, 244 lessons, 5,446 steps. THE SECOND GOLD STANDARD.
 3. **German** - A1-B2 COMPLETE (D103). 30 units, 240 lessons, 4,518 steps. Foundations + gate quiz built. 100% dialogue coverage. Quality audit PASS.
 4. **French** - A1-B2 COMPLETE (D105). 30 units, 240 lessons, 4,380 steps. Foundations + gate quiz built. 100% dialogue coverage. Quality scan PASS.
-5. **Spanish** - Infrastructure exists. Next: LANG_BLUEPRINT, foundations, A1-B2 build.
+5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 240 lessons, 4,363 steps. Foundations + gate quiz built. A:/B: dialogues on all teach cards. Quality validation PASS.
 
 ### Phase 2: AI Integration
 - Proxy and backend for AI bot/chat integration
@@ -456,7 +450,7 @@ The full Decision Log with D1-D100+ is in `docs/DECISION_LOG.md`. Key recent dec
 
 ### Known Scaling Blockers (must fix before Phase 1 expansion):
 1. KOREAN_DICT hardcoded in engine (~line 10384) - extract to per-language module
-2. LANG_BLUEPRINT incomplete - need fr/es before building those curricula
+2. ~~LANG_BLUEPRINT incomplete~~ RESOLVED: All 5 launch languages have LANG_BLUEPRINT
 3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
 4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
@@ -884,141 +878,32 @@ French is PRODUCTION-READY. Built from scratch in D105:
 
 **French needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
 
-### NEXT: Spanish A1-B2 Build
+### DONE (Spanish A1-B2 = Fifth Gold Standard)
+Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 (content):
 
-#### What EXISTS (infrastructure ready, DO NOT rebuild):
-| Component | File | Lines | Status |
-|-----------|------|-------|--------|
-| LANGUAGES entry | `src/data/metadata.js` | ~137 | COMPLETE: code:"es", name:"Spanish", flag:"🇪🇸", native:"Español", greeting, welcomeBack |
-| BASE_LANGUAGES | `src/data/metadata.js` | ~149 | COMPLETE: Spanish as available source language |
-| LANG_META["es"] | `src/data/metadata.js` | ~301 | COMPLETE: scriptType:"latin", framework:"CEFR", ttsLocale:"es-ES", specialRules:["ñ","inverted_punctuation","gendered_nouns","ser_estar","subjunctive"] |
-| LANG_BLUEPRINT["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built before content generation |
-| CULTURE_PACKS["es"] | `src/data/metadata.js` | N/A | **MISSING** — must be built |
-| ARTICLE_SYSTEMS["es"] | `src/data/vocabulary.js` | ~2443 | COMPLETE: el (masculine/blue), la (feminine/coral), detect handles el/la/los/las |
-| FOUNDATIONS_BY_LANG["es"] | `src/data/foundations.js` | ~1456 | PARTIAL: 1 section (alphabet grid with 27 letters + Ñ). Needs expansion to 4-6 sections. |
-| FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | ~2583 | EMPTY SHELL: `{name:"Spanish Foundations Play",icon:"🇪🇸",blueprint:"latin_simple",stages:[]}` |
-| FK_GATE_QUIZ["es"] | `src/data/foundations.js` | N/A | **MISSING** — must be built |
-| FK_SCHEMA_MAP | `src/data/metadata.js` | ~235 | COMPLETE: es:"latin" already mapped |
-| VOCAB pilot | `src/data/vocabulary.js` | N/A | NO Spanish lexemes. Expand as units are built. |
-| Import/spread | `src/lingoverse.jsx` | N/A | NOT SET UP — needs new import + UNITS spread update |
+| Milestone | Decision | Status |
+|-----------|----------|--------|
+| LANG_BLUEPRINT["es"] | D107 | COMPLETE |
+| CULTURE_PACKS["es"] | D107 | COMPLETE |
+| ARTICLE_SYSTEMS["es"] | D107 | COMPLETE (el=blue, la=coral) |
+| Foundations (knowledge + playthrough + gate quiz) | D107 | COMPLETE |
+| A1 curriculum (U1-U8) | D107/D108 | COMPLETE |
+| A2 curriculum (U9-U16) | D108 | COMPLETE |
+| B1 curriculum (U17-U24) | D108 | COMPLETE |
+| B2 curriculum (U25-U30) | D108 | COMPLETE |
+| Quality validation (P48/P22c/P49/density/board:true) | D108 | PASS |
+| Dialogue enrichment | D108 | All teach cards have A:/B: dialogues |
+| Temp-file agent workflow | D107 | Gold standard for future builds |
 
-#### What MUST BE BUILT from scratch:
-| Component | File | Action |
-|-----------|------|--------|
-| LANG_BLUEPRINT["es"] | `src/data/metadata.js` | Build linguistic DNA: 2-gender system (el/la), ser vs estar, subjunctive mood, inverted punctuation (¿¡), Ñ, verb conjugation (3 groups: -ar/-er/-ir + extensive irregulars including stem-changing), formal/informal (tú/usted/vosotros/ustedes), regional variation awareness (Spain vs Latin America). Follow fr/de/nl blueprint format. |
-| CULTURE_PACKS["es"] | `src/data/metadata.js` | Build cultural data: food (paella, tapas, tortilla, churros, gazpacho), customs (siesta, sobremesa, two surnames, late dinners), places (Madrid, Barcelona, Sevilla, México), situations, politeness notes, taboos. |
-| FOUNDATIONS_BY_LANG["es"] expansion | `src/data/foundations.js` | Expand from 1 section to 5-6 sections: (1) Alphabet + Ñ, (2) Vowels (5 pure vowels, diphthongs), (3) Consonants (RR trill, J/G, C/Z, LL, H silent), (4) Accent marks + stress rules, (5) Verb group preview (-ar/-er/-ir), (6) Grammar awareness (gender, ser/estar). Target: ~25 items. |
-| FK_PLAYTHROUGH["es"] | `src/data/foundations.js` | Build interactive playthrough: ~12-15 lessons. Spanish pronunciation is very regular (nearly phonetic spelling), so foundations can be shorter than French/German. Focus: Ñ, RR trill, J, accent marks, stress rules, inverted punctuation. |
-| FK_GATE_QUIZ["es"] | `src/data/foundations.js` | Build pass/fail gate quiz. 5 tasks, ~35 items. |
-| Spanish units (A1-B2) | `src/data/units-spanish.js` | NEW FILE. ~28-30 units, ~224-240 lessons, ~4,500+ steps. |
-
-#### Unit Structure (MUST follow this format):
-```javascript
-{n:1,lang:"es",track:"v1",title:"¡Hola!",sub:"Greetings & Goodbyes",icon:"👋",level:"A1.1",color:"#7B5EE8",lessons:[
-  {id:"esp1l1",title:"¡Buenos días!",icon:"👋",xp:15,board:true,steps:[
-    {type:"intro",title:"¡Buenos días!",desc:"...",goals:[...]},
-    {type:"teach",kind:"word",nl:"Hola",en:"Hello",phonetic:"OH-la",example:"A: ¡Hola!\nB: ¡Hola! ¿Qué tal?",exampleEn:"A: Hello!\nB: Hello! How are you?",note:"Universal Spanish greeting. Works any time of day."},
-    // ... 18+ steps per lesson (P43)
-  ]},
-]}
-```
-**CRITICAL fields**: `track:"v1"`, `color:"#7B5EE8"`, `board:true` on every lesson, `lang:"es"`, lesson IDs as `esp{N}l{N}`.
-**NOTE**: The `nl` field is used for the TARGET language word (Spanish), NOT literally "Nederlands". This is the engine convention across all languages.
-
-#### Spanish Curriculum Plan (~28-30 units):
-
-**A1 (Units 1-8): Survival Spanish** — DELE A1 / Instituto Cervantes reference
-- U1: Greetings, goodbyes, tú/usted distinction, essential politeness (por favor, gracias)
-- U2: Self-introduction, nationality, languages, numbers 0-20, ser + estar basics
-- U3: Family, possessives (mi/tu/su/nuestro), descriptions with ser + adjectives
-- U4: Food & drink, en el restaurante, articles (el/la/los/las/un/una/unos/unas), gustar
-- U5: Daily routine, time, reflexive verbs (levantarse, acostarse), -ar verbs present
-- U6: Home & rooms, furniture, hay, prepositions of place, -er/-ir verbs present
-- U7: Directions, transport, ir + a, venir de, imperative (tú form)
-- U8: Shopping, clothing, colors, numbers to 1000, demonstratives (este/ese/aquel)
-
-**A2 (Units 9-16): Expanding** — DELE A2 reference
-- U9: Pretérito indefinido (regular), time expressions (ayer, la semana pasada)
-- U10: Pretérito indefinido (irregular: ser/ir, tener, hacer, estar, poder, poner, decir)
-- U11: Pretérito imperfecto: formation, usage (descriptions, habits, ongoing past)
-- U12: Indefinido vs imperfecto (the critical distinction), storytelling
-- U13: Object pronouns (lo/la/le/les, me/te/nos), pronoun placement, a personal
-- U14: Future simple + ir + a + infinitivo, plans and predictions
-- U15: Comparatives & superlatives, adjective agreement (gender + number), placement
-- U16: Conditional (me gustaría, si + imperfecto), polite requests, hypotheticals
-
-**B1 (Units 17-24): Independent** — DELE B1 reference
-- U17: Presente de subjuntivo introduction (quiero que, es necesario que), regular verbs
-- U18: Subjuntivo with irregular verbs (ser, estar, ir, haber, saber, dar)
-- U19: Relative pronouns (que, quien, donde, cual), complex sentences
-- U20: Pretérito pluscuamperfecto, sequencing past events, reported speech basics
-- U21: Passive voice (ser + past participle), se pasiva, news language
-- U22: Gerundio (estar + gerundio), progressive tenses, cause/manner
-- U23: Advanced connectors (aunque + subjuntivo, a pesar de, sin embargo, no obstante)
-- U24: Spanish work culture, formal register, carta de presentación
-
-**B2 (Units 25-30): Proficient** — DELE B2 / SIELE reference
-- U25: Subjuntivo imperfecto + advanced triggers (para que, antes de que, a menos que)
-- U26: Condicional compuesto, regrets, reproaches (si + pluscuamperfecto)
-- U27: Nominalization, academic register, formal writing
-- U28: Discourse markers, essay structure, argumentation (por un lado/por otro lado)
-- U29: Refranes, modismos, figurative language, literary Spanish
-- U30: DELE B2/SIELE prep, comprehensive review, C1 preview
-
-#### Spanish-Specific Teaching Priorities:
-1. **el/la from day one.** Every noun teach card MUST include the article. Use color coding: el=blue (masculine), la=coral (feminine). ARTICLE_SYSTEMS["es"] already built in vocabulary.js.
-2. **Ser vs estar is THE fundamental challenge.** Both mean "to be" but are NOT interchangeable. Introduce both in A1 U2, dedicate examples throughout. This confusion persists into C1.
-3. **Verb conjugation is massive.** Spanish has 3 groups (-ar, -er, -ir) plus extensive stem-changing verbs (e→ie, o→ue, e→i) and irregulars. Introduce -ar in A1, -er/-ir in A1-A2, stem-changers progressively.
-4. **Spanish pronunciation is very regular.** Unlike French, spelling is nearly phonetic. Foundations can be shorter. Focus on: RR trill, J/G, Ñ, accent marks, stress rules.
-5. **Indefinido vs imperfecto is THE A2 challenge.** Same as French PC vs imparfait. Dedicate U12 to the distinction.
-6. **Subjuntivo needs gradual introduction.** Even more important than in French. Start with common triggers in B1, expand in B2. Spanish uses subjunctive far more than French.
-7. **Cognates with English are very abundant** (~30-40% overlap via Latin roots). Flag cognates AND false friends (embarazada ≠ embarrassed, etc.) with `cognate` field.
-8. **Regional variation matters.** Spain (vosotros, z=/θ/) vs Latin America (ustedes, z=/s/). Default to neutral Latin American pronunciation, note Spain differences. Don't teach vosotros actively until B1+.
-9. **Inverted punctuation (¿¡) from day one.** This is non-optional and uniquely Spanish.
-10. **Gustar-type verbs early.** The "backwards" construction (me gusta, te gusta) is alien to English speakers. Introduce in A1 U4 with food.
-
-#### Build Workflow (MANDATORY):
-Follow the D107 temp-file agent workflow with D106 agent model requirements:
-
-1. **Use Opus 4.6 agents for ALL content generation** (Rule 11, D106). Sonnet for validation only.
-2. ~~**Phase 0 infrastructure**~~ — ALL COMPLETE. LANG_BLUEPRINT, CULTURE_PACKS, ARTICLE_SYSTEMS, FOUNDATIONS, FK_PLAYTHROUGH, FK_GATE_QUIZ, units-spanish.js file, lingoverse.jsx imports. DO NOT rebuild.
-3. ~~**A1 U1-U6**~~ — COMPLETE. 48 lessons, 867 steps, all validated.
-4. **Resume at A1 U7-U8.** Then A2 (U9-U16), B1 (U17-U24), B2 (U25-U30).
-5. **Rule 12 (D107): Temp-file agent workflow.** Agents write units to `/tmp/esp-uN.js`. Main session validates and merges into `units-spanish.js`. NO worktrees. NO direct agent writes to main file. See Rule 12 in Agent Deployment Standards.
-6. **Two agents max in parallel.** Deploy U(N) agent + U(N+1) agent simultaneously. Each writes to own temp file. Main session merges both, validates, commits.
-7. **Rule 7: Enforce density PER LESSON as you build** (18-20+ steps). NEVER batch-build thin skeletons.
-8. **Rule 8: Quality gate after each level.** Run P8/P34/P44/P48/P49 scan after completing each level.
-9. **Rule 10 (D104): Post-build structural validation.** Run validation script after ALL units built.
-10. **Build with dialogues from day one** (A:/B: format on teach cards).
-11. **Commit and push after each pair of units.**
-16. **Commit and push after each unit is complete.**
-
-#### Session Execution Plan (for the next agent):
-1. Build LANG_BLUEPRINT["es"] in `src/data/metadata.js`
-2. Build CULTURE_PACKS["es"] in `src/data/metadata.js`
-3. ~~Build ARTICLE_SYSTEMS["es"]~~ — ALREADY EXISTS (vocabulary.js:2443)
-4. ~~Add FK_SCHEMA_MAP entry~~ — ALREADY EXISTS (metadata.js:235, es:"latin")
-5. Expand FOUNDATIONS_BY_LANG["es"] in `src/data/foundations.js` (1 section → 5-6 sections)
-6. Build FK_PLAYTHROUGH["es"] stages in `src/data/foundations.js`
-7. Build FK_GATE_QUIZ["es"] in `src/data/foundations.js`
-8. Create `src/data/units-spanish.js` with empty export
-9. Update imports in `src/lingoverse.jsx`
-10. Build A1 units (U1-U8) with Opus 4.6 agents, quality audit after
-11. Build A2 units (U9-U16) with Opus 4.6 agents, quality audit after
-12. Build B1 units (U17-U24) with Opus 4.6 agents, quality audit after
-13. Build B2 units (U25-U30) with Opus 4.6 agents, quality audit after
-14. **Run post-build structural validation** (Rule 10, D104)
-15. Final cross-level validation sweep
-16. Update CLAUDE.md with Spanish build status
-
-### AFTER Spanish (Priority Order)
+**Spanish needs NO further work** until D92-style deep quality audit or C1 curriculum planning.
+### NEXT PRIORITIES (Post Phase 1 Content)
 
 1. **Arabic A1-B2 Build** (when ready)
    - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
    - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum rebuild
 
-2. **Deep Quality Audits** (D92-style) for German and French
-   - Both passed quality scans but have not had the multi-round deep audit treatment
+2. **Deep Quality Audits** (D92-style) for German, French, and Spanish
+   - All three passed quality scans but have not had the multi-round deep audit treatment
    - Korean (D92/D93) and Dutch (D102) set the audit standard
 
 ### Workflow for All Future Content
