@@ -495,15 +495,14 @@ Every session should understand what each doc does and which ones are authoritat
 - **`docs/DECISION_LOG.md`** — Structured index of all D-numbers (D1-D100+) with topic index. Find decisions by topic without scrolling 12K+ lines of engine code.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Complete B1 design: seed harvests, grammar sequencing, cultural anchors. Template for future level designs.
 
-### Tier 3: Active build reference (current builds in progress)
-- **`docs/SPANISH_AGENT_PROMPT.md`** — Spanish content generation agent briefing template. Used with Rule 12 (D107) temp-file workflow. Contains format spec, pipeline rules, curriculum plan, vocabulary taught so far (U1-U6).
-
-### Tier 4: Completed reference (historical, preserved for context)
-- **`docs/FRENCH_A1_B2_HANDOFF.md`** — French build handoff, D105 COMPLETE. Preserved for lessons learned (D106 agent model escalation).
-- **`docs/FRENCH_AGENT_PROMPT.md`** — French content generation instructions used during D105 build.
+### Tier 3: Active build reference (current work in progress)
+- **`docs/FULL_AUDIT_HANDOFF.md`** — Full curriculum audit handoff for all 5 languages. CEFR coverage, pipeline compliance, polyglot vision verification. Use this to continue the audit in a new session.
 
 ### Deleted (March 2026 cleanup)
-All completed Korean work docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
+All completed build docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
+- ~~`docs/SPANISH_AGENT_PROMPT.md`~~ — Spanish build COMPLETE (D108). Format spec and workflow captured in CLAUDE.md Rule 12.
+- ~~`docs/FRENCH_A1_B2_HANDOFF.md`~~ — French build COMPLETE (D105). Lessons learned captured in D106.
+- ~~`docs/FRENCH_AGENT_PROMPT.md`~~ — French build COMPLETE (D105). Format spec captured in CLAUDE.md.
 - ~~`KOREAN_B2_HANDOFF.md`~~ — B2 build COMPLETE + density-uplifted + P48/P49 clean + dialogue-enriched (D94-D100).
 - ~~`KOREAN_B2_DENSITY_UPLIFT_HANDOFF.md`~~ — Density uplift COMPLETE (D96). All 100 lessons 20+ steps.
 - ~~`KOREAN_CURRICULUM_GAP_PLAN.md`~~ — All 6 TOPIK/TTMIK sprints EXECUTED (D93).
