@@ -424,12 +424,13 @@ After vocabulary/grammar gaps are fixed and unit counts adjusted, re-run ALL str
 
 Realistic scope: This is a multi-session project. Each session should focus on ONE language and complete ALL 15 checklist items for that language before moving to the next.
 
-### Suggested session order:
-1. **Session 1: Korean** (most complex, gold standard, sets the template)
-2. **Session 2: Dutch** (second gold standard, validates the template)
-3. **Session 3: German** (most grammar-dense European language)
-4. **Session 4: French** (similar structure to Spanish, do first)
-5. **Session 5: Spanish** (last, benefits from all learnings)
+### Session progress:
+- **Session 1 (COMPLETE, 2026-03-17)**: Cross-language vocabulary extraction + gap analysis. 11 new A1 lessons (months, body parts) across all 5 languages. Official source research (Rule 14). P53 items 1-9 checked.
+- **Session 2 (COMPLETE, 2026-03-17)**: 18 new A1 vocab gap lessons (extended colors, clothing, cardinal directions, emotions) across all 5 languages. 407 steps total. All validated.
+- **Session 3 (NEXT)**: A2 vocabulary domains: professions, animals, nature, technology, health across all 5 languages.
+- **Sessions 4-8**: B1-B2 vocabulary expansion per language.
+- **Sessions 9-13**: Grammar completeness verification and gap-filling per language.
+- **Session 14**: Communicative functions mapping and final P53 verification.
 
 ### Per-session workflow:
 
@@ -481,11 +482,11 @@ The audit for each language is COMPLETE when:
 
 | Language | Units file | Lines | Units | Lessons | Steps |
 |----------|-----------|-------|-------|---------|-------|
-| Korean | `src/data/units-korean.js` | ~8,700 | 30 | ~311 | ~6,900+ |
-| Dutch | `src/data/units-dutch.js` | ~8,091 | 43 (30 v2 + 23 legacy) | 244 v2 | ~5,446 |
-| German | `src/data/units-german.js` | ~7,407 | 30 | 240 | ~4,518 |
-| French | `src/data/units-french.js` | ~1.3MB (minified) | 30 | 240 | ~4,380 |
-| Spanish | `src/data/units-spanish.js` | ~5,262 | 30 | 240 | ~4,363 |
+| Korean | `src/data/units-korean.js` | ~9,000 | 30 | 318 | ~6,963+ |
+| Dutch | `src/data/units-dutch.js` | ~8,400 | 43 (30 v2 + 23 legacy) | 252 v2 | ~5,535 |
+| German | `src/data/units-german.js` | ~7,900 | 30 | 246 | ~4,611 |
+| French | `src/data/units-french.js` | ~1.3MB (minified) | 30 | 246 | ~4,471 |
+| Spanish | `src/data/units-spanish.js` | ~5,500 | 30 | 245 | ~4,433 |
 
 Infrastructure:
 - `src/data/metadata.js` — LANG_META, LANG_BLUEPRINT, CULTURE_PACKS
