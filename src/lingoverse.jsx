@@ -6005,9 +6005,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-ov{position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:10001;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);}
 .sp-wrap{width:min(460px,94vw);max-height:calc(100vh - 60px);display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:var(--card-bg);border:1.5px solid var(--card-border);box-shadow:0 24px 72px rgba(0,0,0,0.18),0 8px 24px rgba(123,94,232,0.14),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04);}
 :root.dark .sp-wrap{box-shadow:0 24px 72px rgba(0,0,0,0.55),0 8px 24px rgba(123,94,232,0.28),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -2px 0 rgba(0,0,0,0.28);border-color:rgba(255,255,255,0.1);}
-.sp-bar{padding:14px 16px 12px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);position:relative;overflow:hidden;flex-shrink:0;box-shadow:inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.12);}
-.sp-bar::before{content:'';position:absolute;top:0;left:5%;right:5%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.55)0%,rgba(255,255,255,0.15)40%,rgba(255,255,255,0)100%);pointer-events:none;z-index:0;}
-:root.dark .sp-bar{background:linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%);box-shadow:inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -3px 0 rgba(0,0,0,0.18);}
+.sp-bar{padding:10px 14px;display:flex;align-items:center;gap:6px;background:linear-gradient(180deg,#EDE8FF 0%,#E5DFFF 55%,#DDD6FF 100%);position:relative;overflow:hidden;flex-shrink:0;border-bottom:1px solid rgba(123,94,232,0.1);}
+.sp-bar::before{content:'';position:absolute;top:0;left:5%;right:5%;height:48%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.72)0%,rgba(255,255,255,0.18)50%,rgba(255,255,255,0)100%);pointer-events:none;z-index:0;}
+:root.dark .sp-bar{background:linear-gradient(180deg,rgba(130,100,240,0.38)0%,rgba(100,78,200,0.28)100%);border-bottom-color:rgba(160,140,255,0.2);}
 .sp-body{overflow-y:auto;flex:1;}
 .sp-card{padding:14px 16px;}
 :root.dark .sp-card{}
@@ -6036,9 +6036,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-intro-title{padding:20px 16px 6px;font-size:17px;font-weight:800;color:#7B5EE8;text-align:center;}
 .sp-intro-desc{padding:0 16px 14px;font-size:13px;color:var(--gray-600);text-align:center;line-height:1.6;}
 .sp-goal{display:flex;align-items:center;gap:8px;padding:5px 16px;font-size:13px;color:var(--gray-700);font-weight:600;}
-.sp-xbtn{flex-shrink:0;background:rgba(255,255,255,0.18);border:1.5px solid rgba(255,255,255,0.32);border-radius:8px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.9);font-size:12px;font-weight:700;transition:all .15s;position:relative;z-index:1;}
-.sp-xbtn:hover{background:rgba(255,255,255,0.3);color:#fff;}
-:root.dark .sp-xbtn{background:rgba(255,255,255,0.14);border-color:rgba(255,255,255,0.22);}:root.dark .sp-xbtn:hover{background:rgba(255,255,255,0.26);}
+.sp-xbtn{flex-shrink:0;background:rgba(123,94,232,0.12);border:1.5px solid rgba(123,94,232,0.2);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#7B5EE8;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;margin-left:auto;}
+.sp-xbtn:hover{background:rgba(123,94,232,0.22);color:#5840B8;}
+:root.dark .sp-xbtn{background:rgba(180,160,255,0.15);border-color:rgba(180,160,255,0.25);color:#C0AEFF;}:root.dark .sp-xbtn:hover{background:rgba(180,160,255,0.28);}
 @media(max-width:700px){.sf-panel{right:10px;top:186px;width:calc(100vw - 20px);}.sp-wrap{max-height:calc(100vh - 40px);}}
 `;
 
@@ -13226,16 +13226,17 @@ export default function App(){
           <div className="sp-ov" onClick={()=>setPreviewResult(null)}>
             <div className="sp-wrap" onClick={e=>e.stopPropagation()}>
               <div className="sp-bar">
-                <div style={{flex:1,minWidth:0}}>
-                  {(()=>{const lNum=(unit.lessons||[]).findIndex(l=>l.id===lesson.id)+1;const band=(unit.level||"xx").slice(0,2).toLowerCase().replace(".","");return(<>
-                  <div style={{fontSize:12,fontWeight:800,color:"rgba(255,255,255,0.95)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",position:"relative",zIndex:1}}>U{unit.n} · {unit.title}</div>
-                  <div style={{fontSize:10.5,fontWeight:600,color:"rgba(255,255,255,0.72)",marginTop:2,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",position:"relative",zIndex:1}}>L{lNum>0?lNum:"?"} · {lesson.title} · Step {si+1}{lesson.steps?" of "+lesson.steps.length:""}</div>
-                  <div style={{display:"flex",gap:5,marginTop:6,flexWrap:"wrap",alignItems:"center",position:"relative",zIndex:1}}>
-                    <span className={`sf-band sf-band-${band}`}>{(unit.level||"").slice(0,2)}</span>
-                    <span style={{fontSize:9.5,fontWeight:700,color:"rgba(255,255,255,0.88)",background:"rgba(255,255,255,0.18)",borderRadius:5,padding:"2px 7px",letterSpacing:.3}}>{SL[s.type]||s.type}</span>
-                  </div>
-                  </>);})()}
-                </div>
+                {(()=>{
+                  const lNum=(unit.lessons||[]).findIndex(l=>l.id===lesson.id)+1;
+                  const band=(unit.level||"xx").slice(0,2).toLowerCase().replace(".","");
+                  const blk={display:"inline-flex",alignItems:"center",justifyContent:"center",background:"linear-gradient(180deg,#9B7AE8 0%,#7B5EE8 55%,#6040C8 100%)",color:"#fff",borderRadius:5,fontSize:8.5,fontWeight:900,padding:"0 6px",height:17,letterSpacing:.4,position:"relative",zIndex:1,boxShadow:"0 2px 6px rgba(123,94,232,0.35),inset 0 1px 0 rgba(255,255,255,0.35)"};
+                  return(<>
+                    <span className={`sf-band sf-band-${band}`} style={{height:17,minWidth:22,fontSize:8.5,borderRadius:5,position:"relative",zIndex:1,boxShadow:"0 2px 6px rgba(0,0,0,0.15),inset 0 1px 0 rgba(255,255,255,0.35)"}}>{(unit.level||"").slice(0,2)}</span>
+                    <span style={blk}>U{unit.n}</span>
+                    <span style={blk}>L{lNum>0?lNum:"?"}</span>
+                    <span style={blk}>S{si+1}</span>
+                  </>);
+                })()}
                 <button className="sp-xbtn" onClick={()=>setPreviewResult(null)}>✕</button>
               </div>
               {/* Jump to Lesson button */}
