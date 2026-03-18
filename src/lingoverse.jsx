@@ -6058,9 +6058,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-wrap.vr-fs .vr-inp-bar{padding:10px 16px 20px;}
 .vr-wrap.vr-fs .vr-qr{padding:0 16px;}
 .vr-hdr{user-select:none;}
-.vr-hdr{padding:12px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(123,94,232,0.12);position:absolute;top:0;left:0;right:0;z-index:10;overflow:hidden;backdrop-filter:blur(16px) saturate(1.5);-webkit-backdrop-filter:blur(16px) saturate(1.5);background:linear-gradient(180deg,rgba(237,232,255,0.90) 0%,rgba(229,223,255,0.84) 55%,rgba(221,214,255,0.78) 100%);transition:padding 0.45s cubic-bezier(0.4,0,0.2,1);}
-.vr-hdr::before{content:'';position:absolute;top:0;left:5%;right:5%;height:48%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.18),transparent);pointer-events:none;}
-:root.dark .vr-hdr{background:linear-gradient(180deg,rgba(55,40,120,0.90) 0%,rgba(42,30,100,0.84) 55%,rgba(32,22,82,0.78) 100%);}
+.vr-hdr{padding:12px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(123,94,232,0.12);position:absolute;top:0;left:0;right:0;z-index:10;overflow:hidden;backdrop-filter:blur(20px) saturate(1.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);background:linear-gradient(180deg,rgba(237,232,255,0.62) 0%,rgba(229,223,255,0.54) 55%,rgba(221,214,255,0.46) 100%);transition:padding 0.45s cubic-bezier(0.4,0,0.2,1);}
+.vr-hdr::before{content:'';position:absolute;top:0;left:5%;right:5%;height:48%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.12),transparent);pointer-events:none;}
+:root.dark .vr-hdr{background:linear-gradient(180deg,rgba(55,40,120,0.62) 0%,rgba(42,30,100,0.54) 55%,rgba(32,22,82,0.46) 100%);}
 .vr-hdr-info{flex:1;position:relative;z-index:1;}
 .vr-hdr-name{font-family:Quicksand,sans-serif;font-weight:800;font-size:15px;color:#5038A0;line-height:1.2;}
 :root.dark .vr-hdr-name{color:#C8BBFF;}
@@ -6088,8 +6088,6 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 :root.dark .vr-inp-bar{background:linear-gradient(180deg,rgba(60,45,120,0.3)0%,rgba(45,35,100,0.2)100%);border-top-color:rgba(120,100,200,0.2);}
 .vr-send{width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(123,94,232,0.45),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);flex-shrink:0;transition:opacity .15s,filter .15s;position:relative;overflow:hidden;}.vr-send::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-send:hover:not(:disabled){filter:brightness(1.1);}
 .vr-send:disabled{opacity:.4;cursor:default;}
-.vr-fade-top{position:absolute;top:51px;left:0;right:0;height:18px;pointer-events:none;z-index:9;background:linear-gradient(to bottom,rgba(221,214,255,0.78) 0%,transparent 100%);}
-:root.dark .vr-fade-top{background:linear-gradient(to bottom,rgba(32,22,82,0.78) 0%,transparent 100%);}
 .vr-rz{position:absolute;width:22px;height:22px;z-index:20;opacity:0;transition:opacity 0.18s;}.vr-rz:hover{opacity:1;}
 .vr-rz-se{bottom:0;right:0;cursor:se-resize;}.vr-rz-sw{bottom:0;left:0;cursor:sw-resize;}.vr-rz-ne{top:0;right:0;cursor:ne-resize;}.vr-rz-nw{top:0;left:0;cursor:nw-resize;}
 .vr-rz::before{content:'';position:absolute;border-style:solid;border-color:rgba(123,94,232,0.55);transition:border-color 0.15s;}
@@ -13318,7 +13316,6 @@ export default function App(){
         <div className="vr-rz vr-rz-sw" onMouseDown={e=>onVrCornerMouseDown('sw',e)}/>
         <div className="vr-rz vr-rz-ne" onMouseDown={e=>onVrCornerMouseDown('ne',e)}/>
         <div className="vr-rz vr-rz-nw" onMouseDown={e=>onVrCornerMouseDown('nw',e)}/>
-        <div className="vr-fade-top" aria-hidden="true"/>
         <div className="vr-msgs" ref={vScrollRef}>
           <div className="vr-ai">Hey, I'm Verumius 😊 What do you need?</div>
           {vMsgs.length===0&&vrSource==="fab"&&<div className="vr-qr">
