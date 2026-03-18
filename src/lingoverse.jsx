@@ -6051,8 +6051,14 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vl-ibtn:hover{background:rgba(235,228,255,0.9);border-color:rgba(123,94,232,0.3);box-shadow:0 3px 10px rgba(123,94,232,0.1);}
 .vl-ibtn.on{background:rgba(123,94,232,0.1);border-color:rgba(123,94,232,0.4);box-shadow:0 3px 12px rgba(123,94,232,0.18);}
 :root.dark .vl-ibtn{background:rgba(30,24,60,0.8);border-color:rgba(120,100,220,0.2);}:root.dark .vl-ibtn:hover{background:rgba(50,40,90,0.85);}:root.dark .vl-ibtn.on{background:rgba(123,94,232,0.28);border-color:rgba(160,140,255,0.5);}
-.vr-wrap{position:fixed;right:70px;bottom:24px;width:316px;max-height:72vh;background:var(--card-bg);border-radius:20px;box-shadow:0 16px 52px rgba(0,0,0,0.16),0 0 0 1.5px rgba(123,94,232,0.13);z-index:9999;display:flex;flex-direction:column;overflow:hidden;}
+.vr-wrap{position:fixed;right:70px;bottom:24px;width:316px;max-height:72vh;background:var(--card-bg);border-radius:20px;box-shadow:0 16px 52px rgba(0,0,0,0.16),0 0 0 1.5px rgba(123,94,232,0.13);z-index:9998;display:flex;flex-direction:column;overflow:hidden;transition:all 0.42s cubic-bezier(0.34,1.56,0.64,1);will-change:transform,width,height,border-radius;}
 :root.dark .vr-wrap{background:rgba(18,14,48,0.98);box-shadow:0 16px 52px rgba(0,0,0,0.5),0 0 0 1.5px rgba(123,94,232,0.35);}
+.vr-wrap.vr-fs{z-index:9999;box-shadow:none;}
+.vr-wrap.vr-fs .vr-msgs{padding:20px clamp(16px,calc(50vw - 340px),120px);}
+.vr-wrap.vr-fs .vr-ai,.vr-wrap.vr-fs .vr-user{max-width:min(680px,88%);}
+.vr-wrap.vr-fs .vr-inp-bar{padding:12px clamp(16px,calc(50vw - 340px),120px) 20px;}
+.vr-wrap.vr-fs .vr-qr{padding:0 clamp(16px,calc(50vw - 340px),120px);}
+.vr-hdr{user-select:none;}
 .vr-hdr{padding:12px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(123,94,232,0.09);flex-shrink:0;background:linear-gradient(180deg,#EDE8FF 0%,#E5DFFF 55%,#DDD6FF 100%);position:relative;overflow:hidden;}
 .vr-hdr::before{content:'';position:absolute;top:0;left:5%;right:5%;height:48%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.18),transparent);pointer-events:none;}
 :root.dark .vr-hdr{background:linear-gradient(180deg,rgba(70,50,150,0.85),rgba(50,38,120,0.75));}
@@ -13022,7 +13028,42 @@ export default function App(){
   const [vInput,setVInput]=useState("");
   const [vLoading,setVLoading]=useState(false);
   const vScrollRef=useRef(null);
+  const vrPanelRef=useRef(null);
+  const vrDragInfo=useRef(null);
+  const [vrPos,setVrPos]=useState(null);
+  const [vrFullscreen,setVrFullscreen]=useState(false);
+  const [vrDragging,setVrDragging]=useState(false);
   useEffect(()=>{if(vScrollRef.current)vScrollRef.current.scrollTo({top:vScrollRef.current.scrollHeight,behavior:"smooth"});},[vMsgs,vLoading]);
+  const onVrHdrMouseDown=(e)=>{
+    if(vrFullscreen||e.target.closest('.vr-hdr-btns'))return;
+    e.preventDefault();
+    const panel=vrPanelRef.current;if(!panel)return;
+    const rect=panel.getBoundingClientRect();
+    vrDragInfo.current={startMouseX:e.clientX,startMouseY:e.clientY,startPanelX:rect.left,startPanelY:rect.top};
+    setVrDragging(true);
+    const onMove=(e2)=>{
+      const d=vrDragInfo.current;if(!d)return;
+      const nx=d.startPanelX+(e2.clientX-d.startMouseX);
+      const ny=d.startPanelY+(e2.clientY-d.startMouseY);
+      const p=vrPanelRef.current;
+      if(p){p.style.left=nx+'px';p.style.top=ny+'px';p.style.right='auto';p.style.bottom='auto';p.style.transition='none';}
+      d.lastX=nx;d.lastY=ny;
+    };
+    const onUp=()=>{
+      const d=vrDragInfo.current;
+      if(d){setVrPos({x:d.lastX??d.startPanelX,y:d.lastY??d.startPanelY});const p=vrPanelRef.current;if(p)p.style.transition='';}
+      vrDragInfo.current=null;setVrDragging(false);
+      window.removeEventListener('mousemove',onMove);window.removeEventListener('mouseup',onUp);
+    };
+    window.addEventListener('mousemove',onMove);window.addEventListener('mouseup',onUp);
+  };
+  const goVrFullscreen=()=>{
+    const panel=vrPanelRef.current;if(!panel)return;
+    const rect=panel.getBoundingClientRect();
+    setVrPos({x:rect.left,y:rect.top});
+    requestAnimationFrame(()=>requestAnimationFrame(()=>setVrFullscreen(true)));
+  };
+  const exitVrFullscreen=()=>setVrFullscreen(false);
   const sendToVerumius=async(text)=>{
     const content=(text||vInput).trim();
     if(!content||vLoading)return;
@@ -13201,17 +13242,22 @@ export default function App(){
     <>
       <style>{CSS}</style>
       {/* Verumius chat panel */}
-      {showVerumius&&<div className="vr-wrap">
-        <div className="vr-hdr">
-          <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0}}/>
-          <div className="vr-hdr-info">
+      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:0,left:0,right:"auto",bottom:"auto",width:"100vw",height:"100dvh",maxHeight:"100dvh",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto",transition:vrDragging?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)"}:{}}>
+        <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
+          <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0,pointerEvents:"none"}}/>
+          <div className="vr-hdr-info" style={{pointerEvents:"none"}}>
             <div className="vr-hdr-name">Verumius</div>
             <div className="vr-hdr-sub">VerumLingua AI tutor</div>
           </div>
           <div className="vr-hdr-btns">
             <button className="vr-hbtn" title="Save to profile (coming soon)">＋</button>
+            <button className="vr-hbtn" title={vrFullscreen?"Minimize":"Fullscreen"} onClick={vrFullscreen?exitVrFullscreen:goVrFullscreen}>
+              {vrFullscreen
+                ?<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 1v3H1M6 1v3h3M4 9V6H1M6 9V6h3"/></svg>
+                :<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M1 4V1h3M9 4V1H6M1 6v3h3M9 6v3H6"/></svg>}
+            </button>
             <button className="vr-hbtn" title="New conversation" onClick={()=>{setVMsgs([]);setVInput("");}}>↺</button>
-            <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
+            <button className="vr-xbtn" onClick={()=>{setVrFullscreen(false);setShowVerumius(false);}}>✕</button>
           </div>
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
