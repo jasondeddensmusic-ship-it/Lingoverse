@@ -13067,16 +13067,19 @@ export default function App(){
               {q.length>=minLen&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
               {results.map((r,i)=>{
                 const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
-                const band=(r.unit.level||"xx").slice(0,2).toLowerCase().replace(".","");
                 const lNum=(r.unit.lessons||[]).findIndex(l=>l.id===r.lesson.id)+1;
+                const blk={display:"inline-flex",alignItems:"center",justifyContent:"center",background:"linear-gradient(180deg,#9B7AE8 0%,#7B5EE8 55%,#6040C8 100%)",color:"#fff",borderRadius:5,fontSize:8,fontWeight:900,padding:"0 5px",height:15,letterSpacing:.3,flexShrink:0,boxShadow:"0 2px 5px rgba(123,94,232,0.28),inset 0 1px 0 rgba(255,255,255,0.38)"};
                 return(
                   <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)}>
-                    <div style={{display:"flex",alignItems:"center",gap:5,marginBottom:4}}>
-                      <span className={`sf-band sf-band-${band}`}>{(r.unit.level||"").slice(0,2)}</span>
-                      <span className="stag stag-type" style={{fontSize:9,padding:"1px 6px"}}>{SL[r.step.type]||r.step.type}</span>
+                    <div style={{display:"flex",alignItems:"center",gap:4,marginBottom:5}}>
+                      <span style={blk}>{(r.unit.level||"").slice(0,2)}</span>
+                      <span style={blk}>U{r.unit.n}</span>
+                      <span style={blk}>L{lNum>0?lNum:"?"}</span>
+                      <span style={blk}>S{r.si+1}</span>
+                      <span style={{...blk,background:"linear-gradient(180deg,rgba(123,94,232,0.18)0%,rgba(100,70,200,0.12)100%)",color:"#7B5EE8",boxShadow:"none",border:"1px solid rgba(123,94,232,0.2)"}}>{SL[r.step.type]||r.step.type}</span>
                     </div>
-                    <div className="sf-ttl">U{r.unit.n} · {r.unit.title}</div>
-                    <div className="sf-sub">L{lNum>0?lNum:"?"} · {r.lesson.title} · Step {r.si+1}</div>
+                    <div className="sf-ttl">{r.unit.title}</div>
+                    <div className="sf-sub">{r.lesson.title} · Step {r.si+1}</div>
                     {hit&&<div className="sf-snip">{snip(hit)}</div>}
                   </div>
                 );
