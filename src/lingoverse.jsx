@@ -6005,8 +6005,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-ov{position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:10001;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);}
 .sp-wrap{width:min(460px,94vw);max-height:calc(100vh - 60px);display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:var(--card-bg);border:1.5px solid var(--card-border);box-shadow:0 24px 72px rgba(0,0,0,0.18),0 8px 24px rgba(123,94,232,0.14),inset 0 2px 0 rgba(255,255,255,0.92),inset 0 -2px 0 rgba(0,0,0,0.04);}
 :root.dark .sp-wrap{box-shadow:0 24px 72px rgba(0,0,0,0.55),0 8px 24px rgba(123,94,232,0.28),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -2px 0 rgba(0,0,0,0.28);border-color:rgba(255,255,255,0.1);}
-.sp-bar{padding:11px 14px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,rgba(123,94,232,0.08)0%,rgba(123,94,232,0.03)100%);border-bottom:1.5px solid rgba(123,94,232,0.12);flex-shrink:0;}
-:root.dark .sp-bar{background:linear-gradient(180deg,rgba(123,94,232,0.22)0%,rgba(123,94,232,0.1)100%);border-bottom-color:rgba(160,140,255,0.22);}
+.sp-bar{padding:14px 16px 12px;display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);position:relative;overflow:hidden;flex-shrink:0;box-shadow:inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.12);}
+.sp-bar::before{content:'';position:absolute;top:0;left:5%;right:5%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.55)0%,rgba(255,255,255,0.15)40%,rgba(255,255,255,0)100%);pointer-events:none;z-index:0;}
+:root.dark .sp-bar{background:linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%);box-shadow:inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -3px 0 rgba(0,0,0,0.18);}
 .sp-body{overflow-y:auto;flex:1;}
 .sp-card{padding:14px 16px;}
 :root.dark .sp-card{}
@@ -6035,9 +6036,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-intro-title{padding:20px 16px 6px;font-size:17px;font-weight:800;color:#7B5EE8;text-align:center;}
 .sp-intro-desc{padding:0 16px 14px;font-size:13px;color:var(--gray-600);text-align:center;line-height:1.6;}
 .sp-goal{display:flex;align-items:center;gap:8px;padding:5px 16px;font-size:13px;color:var(--gray-700);font-weight:600;}
-.sp-xbtn{flex-shrink:0;background:none;border:1.5px solid var(--gray-200);border-radius:8px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--gray-400);font-size:12px;font-weight:700;transition:all .15s;}
-.sp-xbtn:hover{background:var(--gray-100);color:var(--gray-600);}
-:root.dark .sp-xbtn{border-color:rgba(255,255,255,0.15);}:root.dark .sp-xbtn:hover{background:rgba(255,255,255,0.1);}
+.sp-xbtn{flex-shrink:0;background:rgba(255,255,255,0.18);border:1.5px solid rgba(255,255,255,0.32);border-radius:8px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.9);font-size:12px;font-weight:700;transition:all .15s;position:relative;z-index:1;}
+.sp-xbtn:hover{background:rgba(255,255,255,0.3);color:#fff;}
+:root.dark .sp-xbtn{background:rgba(255,255,255,0.14);border-color:rgba(255,255,255,0.22);}:root.dark .sp-xbtn:hover{background:rgba(255,255,255,0.26);}
 @media(max-width:700px){.sf-panel{right:10px;top:186px;width:calc(100vw - 20px);}.sp-wrap{max-height:calc(100vh - 40px);}}
 `;
 
@@ -13226,23 +13227,22 @@ export default function App(){
             <div className="sp-wrap" onClick={e=>e.stopPropagation()}>
               <div className="sp-bar">
                 <div style={{flex:1,minWidth:0}}>
-                  <div style={{fontSize:11.5,fontWeight:800,color:"var(--gray-700)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>U{unit.n} · {unit.title}</div>
-                  <div style={{fontSize:10.5,fontWeight:600,color:"var(--gray-500)",marginTop:1,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{lesson.title} · Step {si+1}{lesson.steps?" of "+lesson.steps.length:""}</div>
-                  <div style={{display:"flex",gap:4,marginTop:4,flexWrap:"wrap",alignItems:"center"}}>
-                    <span className="stag stag-cefr">{unit.level}</span>
-                    <span className="stag stag-type">{SL[s.type]||s.type}</span>
-                    <span className="stag stag-prev">preview</span>
+                  {(()=>{const lNum=(unit.lessons||[]).findIndex(l=>l.id===lesson.id)+1;const band=(unit.level||"xx").slice(0,2).toLowerCase().replace(".","");return(<>
+                  <div style={{fontSize:12,fontWeight:800,color:"rgba(255,255,255,0.95)",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",position:"relative",zIndex:1}}>U{unit.n} · {unit.title}</div>
+                  <div style={{fontSize:10.5,fontWeight:600,color:"rgba(255,255,255,0.72)",marginTop:2,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",position:"relative",zIndex:1}}>L{lNum>0?lNum:"?"} · {lesson.title} · Step {si+1}{lesson.steps?" of "+lesson.steps.length:""}</div>
+                  <div style={{display:"flex",gap:5,marginTop:6,flexWrap:"wrap",alignItems:"center",position:"relative",zIndex:1}}>
+                    <span className={`sf-band sf-band-${band}`}>{(unit.level||"").slice(0,2)}</span>
+                    <span style={{fontSize:9.5,fontWeight:700,color:"rgba(255,255,255,0.88)",background:"rgba(255,255,255,0.18)",borderRadius:5,padding:"2px 7px",letterSpacing:.3}}>{SL[s.type]||s.type}</span>
                   </div>
+                  </>);})()}
                 </div>
                 <button className="sp-xbtn" onClick={()=>setPreviewResult(null)}>✕</button>
               </div>
               {/* Jump to Lesson button */}
-              <div style={{padding:"10px 14px 0",flexShrink:0}}>
-                <button onClick={()=>{setJumpTo({unit,lesson});setPage("learn");setPreviewResult(null);setShowSearch(false);setSearchQuery("");}}
-                  style={{width:"100%",padding:"9px 14px",borderRadius:12,background:"linear-gradient(135deg,#7B5EE8,#6545C8)",color:"#fff",border:"none",cursor:"pointer",fontSize:13,fontWeight:800,letterSpacing:".2px",boxShadow:"0 3px 10px rgba(123,94,232,0.35),inset 0 2px 0 rgba(255,255,255,0.25)",display:"flex",alignItems:"center",justifyContent:"center",gap:7,transition:"all .15s"}}
-                  onMouseEnter={e=>{e.currentTarget.style.background="linear-gradient(135deg,#8B6EF8,#7555D8)";e.currentTarget.style.boxShadow="0 5px 14px rgba(123,94,232,0.45),inset 0 2px 0 rgba(255,255,255,0.25)";}}
-                  onMouseLeave={e=>{e.currentTarget.style.background="linear-gradient(135deg,#7B5EE8,#6545C8)";e.currentTarget.style.boxShadow="0 3px 10px rgba(123,94,232,0.35),inset 0 2px 0 rgba(255,255,255,0.25)";}}>
-                  <span style={{fontSize:14}}>▶</span> Jump to Lesson
+              <div style={{padding:"12px 14px 4px",flexShrink:0}}>
+                <button className="btn btn-purple" style={{width:"100%",borderRadius:16,fontSize:14}}
+                  onClick={()=>{setJumpTo({unit,lesson});setPage("learn");setPreviewResult(null);setShowSearch(false);setSearchQuery("");}}>
+                  ▶ Jump to Lesson
                 </button>
               </div>
               <div className="sp-body">
