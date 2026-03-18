@@ -6071,6 +6071,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 @keyframes vrb{0%,80%,100%{transform:translateY(0);opacity:.6}40%{transform:translateY(-5px);opacity:1}}
 @keyframes vr-pop-l{0%{opacity:0;transform:scale(0.5) translateY(12px);}65%{transform:scale(1.04) translateY(-2px);}100%{opacity:1;transform:scale(1) translateY(0);}}
 @keyframes vr-pop-r{0%{opacity:0;transform:scale(0.5) translateY(12px);}65%{transform:scale(1.04) translateY(-2px);}100%{opacity:1;transform:scale(1) translateY(0);}}
+.vr-qr{display:flex;flex-direction:column;gap:6px;margin-top:2px;align-self:flex-start;max-width:86%;}
+.vr-qr-btn{padding:7px 14px;border-radius:20px;border:1.5px solid rgba(123,94,232,0.28);background:rgba(200,190,255,0.15);color:#5038A0;font-size:12px;font-family:Nunito,sans-serif;font-weight:700;cursor:pointer;text-align:left;transition:all .15s;transform-origin:bottom left;animation:vr-pop-l 0.3s cubic-bezier(0.34,1.56,0.64,1) both;}.vr-qr-btn:hover{background:rgba(200,190,255,0.3);border-color:rgba(123,94,232,0.5);transform:scale(1.02);}
+:root.dark .vr-qr-btn{background:rgba(80,60,160,0.2);border-color:rgba(140,120,220,0.3);color:#C0B0FF;}
 .vr-inp-bar{padding:10px 12px;border-top:1px solid rgba(180,165,240,0.25);display:flex;gap:8px;align-items:center;flex-shrink:0;background:linear-gradient(180deg,rgba(210,200,255,0.18)0%,rgba(225,218,255,0.1)100%);}
 .vr-inp{flex:1;padding:9px 14px;border-radius:20px;border:1.5px solid rgba(180,165,240,0.4);font-size:13px;font-family:Nunito,sans-serif;outline:none;background:linear-gradient(180deg,rgba(200,190,255,0.38)0%,rgba(220,210,255,0.22)50%,rgba(235,230,255,0.14)100%);color:#5038A0;font-weight:600;transition:border-color .15s,box-shadow .15s;box-shadow:inset 0 2px 0 rgba(255,255,255,0.6),inset 0 -1px 0 rgba(123,94,232,0.06);}.vr-inp::placeholder{color:rgba(100,78,180,0.45);font-weight:500;}.vr-inp:focus{border-color:rgba(140,120,230,0.65);box-shadow:0 0 0 3px rgba(123,94,232,0.1),inset 0 2px 0 rgba(255,255,255,0.6);}
 :root.dark .vr-inp{background:linear-gradient(180deg,rgba(70,50,140,0.5)0%,rgba(55,40,120,0.35)100%);border-color:rgba(140,120,220,0.35);color:#C8BBFF;box-shadow:inset 0 2px 0 rgba(255,255,255,0.08);}.vr-inp::placeholder{color:rgba(180,160,255,0.4);}
@@ -12968,11 +12971,12 @@ export default function App(){
   const [vLoading,setVLoading]=useState(false);
   const vScrollRef=useRef(null);
   useEffect(()=>{if(vScrollRef.current)vScrollRef.current.scrollTop=vScrollRef.current.scrollHeight;},[vMsgs,vLoading]);
-  const sendToVerumius=async()=>{
-    if(!vInput.trim()||vLoading)return;
-    const msg={role:"user",content:vInput.trim()};
+  const sendToVerumius=async(text)=>{
+    const content=(text||vInput).trim();
+    if(!content||vLoading)return;
+    const msg={role:"user",content};
     const next=[...vMsgs,msg];
-    setVMsgs(next);setVInput("");setVLoading(true);
+    setVMsgs(next);if(!text)setVInput("");setVLoading(true);
     try{
       const ctx={page,lang,langName:LANG_META[lang]?.name||lang,unitN:jumpTo?.unit?.n,unitTitle:jumpTo?.unit?.title,lessonTitle:jumpTo?.lesson?.title};
       const r=await fetch("https://verumlingua-ai.xqkv62nnqq.workers.dev",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:next,context:ctx})});
@@ -13155,7 +13159,11 @@ export default function App(){
           <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
-          <div className="vr-ai">Is there something on this screen you don't understand?</div>
+          <div className="vr-ai">Hi, I'm Verumius 😊 Your personal tutor on VerumLingua. Ask me anything about what you see on screen, or any language question you have.</div>
+          {vMsgs.length===0&&<div className="vr-qr">
+            <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a question about something on this screen.")}>Ask about this screen</button>
+            <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a language question.")}>Ask any question</button>
+          </div>}
           {vMsgs.map((m,i)=><div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"}>{m.content}</div>)}
           {vLoading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
         </div>
