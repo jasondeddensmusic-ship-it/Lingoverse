@@ -6096,6 +6096,13 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-rz-ne::before{top:5px;right:5px;width:8px;height:8px;border-width:2px 2px 0 0;}
 .vr-rz-nw::before{top:5px;left:5px;width:8px;height:8px;border-width:2px 0 0 2px;}
 .vr-rz:hover::before{border-color:rgba(123,94,232,0.9);}
+@keyframes vr-inflate{0%{transform:scale(0.84);}50%{transform:scale(1.07);}76%{transform:scale(0.97);}100%{transform:scale(1.0);}}
+.vr-edge{position:absolute;z-index:19;touch-action:none;-webkit-tap-highlight-color:transparent;}
+.vr-edge-n{top:0;left:14px;right:14px;height:7px;cursor:n-resize;}
+.vr-edge-s{bottom:0;left:14px;right:14px;height:7px;cursor:s-resize;}
+.vr-edge-w{top:14px;bottom:14px;left:0;width:7px;cursor:w-resize;}
+.vr-edge-e{top:14px;bottom:14px;right:0;width:7px;cursor:e-resize;}
+.vr-wrap:not(.vr-fs) .vr-edge:hover,.vr-wrap:not(.vr-fs) .vr-edge:active{background:rgba(123,94,232,0.14);border-radius:4px;}
 @media(max-width:700px){.vr-wrap{right:10px;bottom:10px;width:calc(100vw - 20px);height:420px;}.vl-tab{top:auto;bottom:120px;transform:none;}}
 `;
 
@@ -13041,6 +13048,7 @@ export default function App(){
   const [vrSize,setVrSize]=useState({width:316,height:480});
   const [vrFullscreen,setVrFullscreen]=useState(false);
   const [vrDragging,setVrDragging]=useState(false);
+  const [vrExiting,setVrExiting]=useState(false);
   const [vrSource,setVrSource]=useState("fab"); // "fab"=side panel small, "nav"=topnav fullscreen
   useEffect(()=>{const t=setTimeout(()=>{if(vScrollRef.current)vScrollRef.current.scrollTo({top:vScrollRef.current.scrollHeight,behavior:"smooth"});},55);return()=>clearTimeout(t);},[vMsgs,vLoading]);
   const onVrHdrMouseDown=(e)=>{
@@ -13073,13 +13081,14 @@ export default function App(){
     requestAnimationFrame(()=>requestAnimationFrame(()=>setVrFullscreen(true)));
   };
   const exitVrFullscreen=()=>{
-    // Pin destination as explicit left/top so transition interpolates cleanly (not right→left jump)
+    // Snap to final position at target size — no width/height transition (avoids text reflow).
+    // Then run bubblegum inflate animation on transform:scale only.
     const x=window.innerWidth-70-vrSize.width;
     const y=window.innerHeight-24-vrSize.height;
     setVrPos({x,y});
     setVrFullscreen(false);
-    // After spring animation settles, release position back to CSS anchoring
-    setTimeout(()=>setVrPos(null),520);
+    setVrExiting(true);
+    setTimeout(()=>{setVrExiting(false);setVrPos(null);},580);
   };
   const onVrCornerMouseDown=(corner,e)=>{
     e.preventDefault();e.stopPropagation();
@@ -13108,6 +13117,37 @@ export default function App(){
       panel.style.transition='';
     };
     window.addEventListener('mousemove',onMove);window.addEventListener('mouseup',onUp);
+  };
+  const onVrEdgePointerDown=(edge,e)=>{
+    e.preventDefault();e.stopPropagation();
+    if(vrFullscreen)return;
+    const panel=vrPanelRef.current;if(!panel)return;
+    const rect=panel.getBoundingClientRect();
+    const sx=e.touches?e.touches[0].clientX:e.clientX;
+    const sy=e.touches?e.touches[0].clientY:e.clientY;
+    const sw=rect.width,sh=rect.height,sl=rect.left,st=rect.top;
+    const onMove=(ev)=>{
+      const cx=ev.touches?ev.touches[0].clientX:ev.clientX;
+      const cy=ev.touches?ev.touches[0].clientY:ev.clientY;
+      const dx=cx-sx,dy=cy-sy;
+      let nw=sw,nh=sh,nl=sl,nt=st;
+      if(edge==='s')nh=sh+dy;
+      else if(edge==='n'){nh=sh-dy;nt=st+dy;}
+      else if(edge==='e')nw=sw+dx;
+      else{nw=sw-dx;nl=sl+dx;}
+      nw=Math.max(260,Math.min(680,nw));
+      nh=Math.max(320,Math.min(window.innerHeight*0.9,nh));
+      panel.style.transition='none';panel.style.width=nw+'px';panel.style.height=nh+'px';
+      panel.style.left=nl+'px';panel.style.top=nt+'px';panel.style.right='auto';panel.style.bottom='auto';
+    };
+    const onUp=()=>{
+      window.removeEventListener('mousemove',onMove);window.removeEventListener('mouseup',onUp);
+      window.removeEventListener('touchmove',onMove);window.removeEventListener('touchend',onUp);
+      const r=panel.getBoundingClientRect();
+      setVrSize({width:r.width,height:r.height});setVrPos({x:r.left,y:r.top});panel.style.transition='';
+    };
+    window.addEventListener('mousemove',onMove);window.addEventListener('mouseup',onUp);
+    window.addEventListener('touchmove',onMove,{passive:false});window.addEventListener('touchend',onUp);
   };
   const sendToVerumius=async(text)=>{
     const content=(text||vInput).trim();
@@ -13293,7 +13333,7 @@ export default function App(){
     <>
       <style>{CSS}</style>
       {/* Verumius chat panel */}
-      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)"}}>
+      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)",animation:vrExiting?"vr-inflate 0.52s cubic-bezier(0.22,1,0.36,1) forwards":""}}>
         <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
           <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0,pointerEvents:"none"}}/>
           <div className="vr-hdr-info" style={{pointerEvents:"none"}}>
@@ -13316,6 +13356,11 @@ export default function App(){
         <div className="vr-rz vr-rz-sw" onMouseDown={e=>onVrCornerMouseDown('sw',e)}/>
         <div className="vr-rz vr-rz-ne" onMouseDown={e=>onVrCornerMouseDown('ne',e)}/>
         <div className="vr-rz vr-rz-nw" onMouseDown={e=>onVrCornerMouseDown('nw',e)}/>
+        {/* Edge resize zones — drag or touch any edge to resize */}
+        <div className="vr-edge vr-edge-n" onMouseDown={e=>onVrEdgePointerDown('n',e)} onTouchStart={e=>onVrEdgePointerDown('n',e)}/>
+        <div className="vr-edge vr-edge-s" onMouseDown={e=>onVrEdgePointerDown('s',e)} onTouchStart={e=>onVrEdgePointerDown('s',e)}/>
+        <div className="vr-edge vr-edge-w" onMouseDown={e=>onVrEdgePointerDown('w',e)} onTouchStart={e=>onVrEdgePointerDown('w',e)}/>
+        <div className="vr-edge vr-edge-e" onMouseDown={e=>onVrEdgePointerDown('e',e)} onTouchStart={e=>onVrEdgePointerDown('e',e)}/>
         <div className="vr-msgs" ref={vScrollRef}>
           <div className="vr-ai">Hey, I'm Verumius 😊 What do you need?</div>
           {vMsgs.length===0&&vrSource==="fab"&&<div className="vr-qr">
