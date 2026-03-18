@@ -6061,7 +6061,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 :root.dark .vr-hdr-name{color:#C8BBFF;}
 .vr-hdr-sub{font-size:10px;font-weight:600;color:rgba(100,80,180,0.65);letter-spacing:.3px;}
 :root.dark .vr-hdr-sub{color:rgba(180,160,255,0.55);}
-.vr-xbtn{flex-shrink:0;background:rgba(123,94,232,0.12);border:1.5px solid rgba(123,94,232,0.2);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#7B5EE8;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;}.vr-xbtn:hover{background:rgba(123,94,232,0.22);}:root.dark .vr-xbtn{color:#C0AEFF;background:rgba(123,94,232,0.2);}
+.vr-xbtn{flex-shrink:0;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 3px 8px rgba(123,94,232,0.4),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);}.vr-xbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-xbtn:hover{filter:brightness(1.1);}
 .vr-msgs{flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:10px;min-height:100px;}
 .vr-ai{align-self:flex-start;max-width:86%;background:var(--card-bg);border:1.5px solid rgba(123,94,232,0.1);border-bottom-left-radius:4px;border-radius:18px;padding:9px 13px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:var(--gray-700);box-shadow:0 2px 8px rgba(0,0,0,0.06);}
 :root.dark .vr-ai{background:rgba(38,30,80,0.9);border-color:rgba(120,100,220,0.25);color:#CCC4E8;}
@@ -6072,7 +6072,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-inp-bar{padding:10px 12px;border-top:1px solid rgba(123,94,232,0.08);display:flex;gap:8px;align-items:center;flex-shrink:0;}
 .vr-inp{flex:1;padding:9px 14px;border-radius:20px;border:1.5px solid rgba(123,94,232,0.18);font-size:13px;font-family:Nunito,sans-serif;outline:none;background:var(--bg-page,#F8F8FC);color:var(--gray-800);transition:border-color .15s;}.vr-inp:focus{border-color:rgba(123,94,232,0.45);}
 :root.dark .vr-inp{background:rgba(28,22,60,0.85);border-color:rgba(120,100,220,0.25);color:#D8D0F0;}
-.vr-send{width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#9B7AE8,#7B5EE8);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(123,94,232,0.3);flex-shrink:0;transition:opacity .15s;}
+.vr-send{width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(123,94,232,0.45),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);flex-shrink:0;transition:opacity .15s,filter .15s;position:relative;overflow:hidden;}.vr-send::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-send:hover:not(:disabled){filter:brightness(1.1);}
 .vr-send:disabled{opacity:.4;cursor:default;}
 @media(max-width:700px){.vr-wrap{right:10px;bottom:10px;width:calc(100vw - 20px);max-height:80vh;}.vl-tab{top:auto;bottom:120px;transform:none;}}
 `;
@@ -10121,6 +10121,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   },[matchSel.nl,matchSel.en,focusIdx]);
   useEffect(()=>{
     const handler=(e)=>{
+      // Block all keys when typing in Verumius or search overlay (Escape still works)
+      if(document.activeElement?.closest('.vr-wrap,.sf-panel')&&document.activeElement?.tagName==='INPUT'){
+        return;
+      }
       if(done)return;
       if(showResume)return; // Resume dialog handles its own input
       const st=steps[si];
@@ -12970,8 +12974,9 @@ export default function App(){
       const ctx={page,lang,langName:LANG_META[lang]?.name||lang,unitN:jumpTo?.unit?.n,unitTitle:jumpTo?.unit?.title,lessonTitle:jumpTo?.lesson?.title};
       const r=await fetch("https://verumlingua-ai.xqkv62nnqq.workers.dev",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:next,context:ctx})});
       const d=await r.json();
-      setVMsgs(m=>[...m,{role:"assistant",content:d.content?.[0]?.text||"Sorry, something went wrong."}]);
-    }catch{setVMsgs(m=>[...m,{role:"assistant",content:"Connection error. Please try again."}]);}
+      const reply=d.content?.[0]?.text||(d.error?.message?`Error: ${d.error.message}`:"Sorry, something went wrong.");
+      setVMsgs(m=>[...m,{role:"assistant",content:reply}]);
+    }catch(err){setVMsgs(m=>[...m,{role:"assistant",content:`Connection error: ${err.message}`}]);}
     setVLoading(false);
   };
 
