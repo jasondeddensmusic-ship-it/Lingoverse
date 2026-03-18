@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 
 // ── Data module imports (extracted from this file for modularity) ──
-import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS } from './data/metadata.js';
+import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
+import { LANG_DICT, mergeKoreanDict, lookupWord, getTaughtWords } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -7829,7 +7830,24 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
 // ━━━━━━━━━━ VOCABULARY PAGE (Dictionary-style, A1-C2) ━━━━━━━━━━
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
-  const vocab=VOCAB[lang]||[];
+  // Use LANG_DICT as primary source, fall back to VOCAB for languages without dictionary
+  const dictVocab=useMemo(()=>{
+    const dict=LANG_DICT[lang];
+    if(!dict||Object.keys(dict).length===0) return null;
+    return Object.values(dict).map(e=>({
+      word: e.display || e.word,
+      translation: e.en,
+      category: e.kind || "general",
+      level: e.level || "A1",
+      phonetic: e.phonetic || null,
+      article: e.article || null,
+      example: e.example || null,
+      exampleTranslation: e.exampleEn || null,
+      cognate: e.cognate || null,
+      lessonId: e.lessonId || null,
+    }));
+  },[lang]);
+  const vocab=dictVocab||(VOCAB[lang]||[]);
   const [search,setSearch]=useState("");
   const [expanded,setExpanded]=useState(null);
   const [openLevels,setOpenLevels]=useState({A1:true});
@@ -7857,7 +7875,14 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
   const filtered=useMemo(()=>vocab.filter(w=>{
     if(vocabTab==="learned"&&!isWordLearned(w.word))return false;
-    if(search&&!w.word.toLowerCase().includes(search.toLowerCase())&&!w.translation.toLowerCase().includes(search.toLowerCase()))return false;
+    if(search){
+      const s=search.toLowerCase();
+      const matchWord=w.word.toLowerCase().includes(s);
+      const matchTrans=(w.translation||"").toLowerCase().includes(s);
+      const matchPhonetic=(w.phonetic||"").toLowerCase().includes(s);
+      const matchArticle=w.article?(w.article+" "+w.word).toLowerCase().includes(s):false;
+      if(!matchWord&&!matchTrans&&!matchPhonetic&&!matchArticle) return false;
+    }
     return true;
   }),[vocab,search,vocabTab,user?.lw?.size]);
 
@@ -9284,7 +9309,7 @@ function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass}
       {/* Question */}
       <div className="card anim" style={{padding:"28px 24px",textAlign:"center",marginBottom:16,position:"relative"}}>
         {addFlag&&<div style={{position:"absolute",top:8,right:8}}><FlagButton lessonId={`gate_${lang}_${currentTask.id}`} stepIndex={itemIdx} stepData={currentItem} addFlag={addFlag}/></div>}
-        <div style={{fontSize:16,fontWeight:700,color:"var(--gray-700)",lineHeight:1.5,marginBottom:24}}>{currentItem.q.split(/([^\u0000-\u007F]+)/g).map((part,pi)=>/[\u0600-\u06FF\u3130-\u318F\uAC00-\uD7AF\u3040-\u309F\u30A0-\u30FF]/.test(part)?<span key={pi} style={{fontSize:36,fontWeight:800,color:"var(--purple-accent-text)",display:"inline-block",margin:"8px 4px",lineHeight:1.2}}>{part}</span>:<span key={pi}>{part}</span>)}</div>
+        <div style={{fontSize:16,fontWeight:700,color:"var(--gray-700)",lineHeight:1.5,marginBottom:24}}>{currentItem.q.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g).map((part,pi)=>/[\u0600-\u06FF\u3130-\u318F\uAC00-\uD7AF\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF\u0400-\u04FF]/.test(part)?<span key={pi} style={{fontSize:36,fontWeight:800,color:"var(--purple-accent-text)",display:"inline-block",margin:"8px 4px",lineHeight:1.2}}>{part}</span>:<span key={pi}>{part}</span>)}</div>
         <div style={{display:"flex",flexDirection:"column",gap:10}}>
           {(()=>{
             const isShort=currentItem.opts.every(o=>o.length<=20);
@@ -9406,8 +9431,8 @@ const renderNavTitle=(icon,title,baseFontSize)=>{
   const hasScriptIcon=icon&&/[^\u0000-\u007F]/.test(icon);
   const iconDupes=hasScriptIcon&&title&&title.trim().startsWith(icon);
   const scaledSize=Math.round(baseFontSize*1.3);
-  const parts=(title||"").split(/([^\u0000-\u007F]+)/g);
-  return <>{!iconDupes&&icon&&<span>{icon} </span>}{parts.map((seg,i)=>/[^\u0000-\u007F]/.test(seg)?<span key={i} style={{fontSize:scaledSize,fontWeight:800,color:"var(--purple-accent-text)",lineHeight:1}}>{seg}</span>:<span key={i}>{seg}</span>)}</>;
+  const parts=(title||"").split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g);
+  return <>{!iconDupes&&icon&&<span>{icon} </span>}{parts.map((seg,i)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(seg)?<span key={i} style={{fontSize:scaledSize,fontWeight:800,color:"var(--purple-accent-text)",lineHeight:1}}>{seg}</span>:<span key={i}>{seg}</span>)}</>;
 };
 
 function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,addFlag,baseLang="en",onBack}){
@@ -10039,6 +10064,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const [doneFocus,setDoneFocus]=useState(0);
   const [showResume,setShowResume]=useState(false);
   const [wordBubble,setWordBubble]=React.useState(null);
+  const [miniWordPopup,setMiniWordPopup]=React.useState(null);
+  // Grammar colorizer toggle: ON by default for A1-A2, OFF for B1+
+  const lessonLevel=(lesson?.steps?.[0]?.level)||"A1";
+  const [grammarHl,setGrammarHl]=React.useState(()=>{
+    try { const v=localStorage.getItem("vl_grammar_hl"); if(v!==null) return v==="true"; } catch(e){}
+    return /^A[12]/.test(lessonLevel);
+  });
+  React.useEffect(()=>{try{localStorage.setItem("vl_grammar_hl",grammarHl?"true":"false");}catch(e){}},[grammarHl]);
 
   // ── Lesson Resume — save progress, offer continue on re-enter ──
   const progressKey=`lv_progress_${lessonId}`;
@@ -10618,7 +10651,22 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <svg width={18} height={18} viewBox="0 0 24 24" fill="none" style={{position:"relative",zIndex:1}}><path d="M18 6L6 18M6 6l12 12" stroke={dk?"rgba(220,215,240,0.85)":"#777"} strokeWidth={3} strokeLinecap="round"/></svg>
         </button>
         <span className="hd" style={{fontSize:13,fontWeight:700,color:"var(--gray-400)"}}>{renderNavTitle(lesson.icon,lesson.title,13)}</span>
-        <span style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{si+1}/{total}</span>
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          {/* Grammar colorizer toggle */}
+          <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?"Grammar Colors ON (click to toggle off)":"Grammar Colors OFF (click to toggle on)"} style={{
+            width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
+            display:"flex",alignItems:"center",justifyContent:"center",
+            fontSize:14,transition:"all .15s",
+            background:grammarHl
+              ?(dk?"linear-gradient(180deg,rgba(123,94,232,0.3),rgba(80,60,180,0.2))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))")
+              :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+            boxShadow:grammarHl
+              ?(dk?"0 0 8px rgba(123,94,232,0.3),inset 0 1px 0 rgba(255,255,255,0.1)":"0 2px 8px rgba(123,94,232,0.15),inset 0 1px 0 rgba(255,255,255,0.9)")
+              :"none",
+            color:grammarHl?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+          }} onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>Aa</button>
+          <span style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{si+1}/{total}</span>
+        </div>
       </div>
       <div className="xpbar" style={{height:22,borderRadius:12,position:"relative",boxShadow:"inset 0 3px 6px rgba(0,0,0,0.12), 0 1px 0 rgba(255,255,255,0.7)"}}><div className="xpbar-fill" style={{width:`${clamp(pct,3,100)}%`,borderRadius:12,boxShadow:`0 0 14px rgba(123,94,232,0.5), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -2px 0 rgba(0,0,0,0.12)`}}/><div style={{position:"absolute",inset:0,display:"flex",alignItems:"center",justifyContent:"center",fontSize:11,fontWeight:800,color:pct>50?"white":"var(--purple-accent-text)",textShadow:pct>50?"0 1px 3px rgba(0,0,0,0.4)":"none",letterSpacing:0.5}}>{clamp(Math.round(pct),0,100)}%</div></div>
     
@@ -10859,6 +10907,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     "도서관": {base:"library",morph:"도서(圖書/books) + 관(館/building)  -  Sino-Korean",particle:"에 가요 / 에서 공부해요",uses:[{k:"도서관에서 공부해요.",e:"I study at the library."},{k:"도서관이 어디예요?",e:"Where is the library?"},{k:"도서관에 책이 많아요.",e:"There are many books in the library."}],note:"관(館) = public building. 관 reappears in: 미술관 (art museum), 박물관 (museum), 체육관 (gym).",level:"A1"},
   };
 
+  // Merge hand-crafted Korean entries into universal LANG_DICT
+  React.useMemo(() => mergeKoreanDict(KOREAN_DICT), []);
+
   // ════════════════════════════════════════════════════════════
   // KOREAN WORD TOKENIZER — splits Korean text into dictionary-lookupable tokens
   // Strategy: split on spaces, then try stripping known particles from each token
@@ -10947,6 +10998,134 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   };
 
   // ════════════════════════════════════════════════════════════
+  // UNIVERSAL TOKENIZER — dispatches to language-specific tokenizers
+  // Returns array of token objects with unified shape for all languages
+  // ════════════════════════════════════════════════════════════
+  const tokenize = (text, tLang) => {
+    if (!text || typeof text !== "string") return [{ word: text, key: text, isTarget: false, inDict: false }];
+    const cfg = LANG_TOKENIZER[tLang];
+    if (!cfg) return [{ word: text, key: text, isTarget: false, inDict: false }];
+
+    // Korean: delegate to existing tokenizeKorean
+    if (tLang === "ko") {
+      return tokenizeKorean(text).map(t => ({
+        word: t.word,
+        key: t.key,
+        isTarget: t.isKorean,
+        article: null,
+        particle: t.particle || null,
+        inDict: t.isKorean && !t.noEntry,
+        kind: (LANG_DICT.ko && LANG_DICT.ko[t.key]) ? LANG_DICT.ko[t.key].kind : null,
+        isTaught: (LANG_DICT.ko && LANG_DICT.ko[t.key]) ? !!LANG_DICT.ko[t.key].lessonId : false,
+      }));
+    }
+
+    // European languages (nl, de, fr, es)
+    const dict = LANG_DICT[tLang] || {};
+    const articles = cfg.articles || [];
+    const contractions = cfg.contractions || {};
+    const tokens = [];
+
+    // Split on whitespace, preserving spaces and punctuation
+    const parts = text.split(/(\s+)/);
+
+    for (let i = 0; i < parts.length; i++) {
+      const raw = parts[i];
+      if (!raw || /^\s+$/.test(raw)) {
+        tokens.push({ word: raw, key: raw, isTarget: false, inDict: false });
+        continue;
+      }
+
+      // Strip trailing punctuation for lookup
+      const punctMatch = raw.match(/^(.+?)([.,!?;:'"»«\u00BB\u00AB\u201C\u201D\u2018\u2019\u00BF\u00A1]+)$/);
+      const cleanWord = punctMatch ? punctMatch[1] : raw;
+      const trailingPunct = punctMatch ? punctMatch[2] : "";
+
+      // Check if it's a target-language word (contains Latin letters with possible diacritics)
+      const isTarget = cfg.scriptRange.test(cleanWord);
+      if (!isTarget) {
+        tokens.push({ word: raw, key: raw, isTarget: false, inDict: false });
+        continue;
+      }
+
+      const lower = cleanWord.toLowerCase();
+
+      // Check contractions (French: l'homme → l' + homme)
+      let contractionKey = null;
+      for (const [cForm] of Object.entries(contractions)) {
+        if (lower.startsWith(cForm) && cleanWord.length > cForm.length) {
+          contractionKey = cForm;
+          break;
+        }
+      }
+
+      if (contractionKey) {
+        const rest = cleanWord.slice(contractionKey.length);
+        const restLower = rest.toLowerCase();
+        // Push the contraction part
+        tokens.push({
+          word: contractionKey, key: contractionKey, isTarget: true,
+          article: contractionKey, particle: null, inDict: false,
+          kind: "grammar", isTaught: false, isGrammar: true,
+          grammarType: "contraction"
+        });
+        // Push the word part
+        const entry = dict[restLower];
+        tokens.push({
+          word: rest + trailingPunct, key: restLower, isTarget: true,
+          article: null, particle: null,
+          inDict: !!entry, kind: entry ? entry.kind : null,
+          isTaught: entry ? !!entry.lessonId : false,
+        });
+        continue;
+      }
+
+      // Check if it's an article
+      const isArticle = articles.includes(lower);
+      if (isArticle) {
+        // Look ahead: next non-space token is the noun
+        tokens.push({
+          word: raw, key: lower, isTarget: true,
+          article: lower, particle: null, inDict: false,
+          kind: "grammar", isTaught: false, isGrammar: true,
+          grammarType: "article"
+        });
+        continue;
+      }
+
+      // Check grammar markers (prepositions, conjunctions, pronouns)
+      let isGrammarWord = false;
+      if (cfg.grammarColors) {
+        for (const [cat, catDef] of Object.entries(cfg.grammarColors)) {
+          if (catDef.match.includes(lower)) {
+            isGrammarWord = true;
+            tokens.push({
+              word: raw, key: lower, isTarget: true,
+              article: null, particle: null, inDict: false,
+              kind: "grammar", isTaught: false, isGrammar: true,
+              grammarType: cat, grammarLabel: catDef.label,
+              grammarColor: catDef.color, grammarColorDk: catDef.dk,
+            });
+            break;
+          }
+        }
+      }
+      if (isGrammarWord) continue;
+
+      // Regular word lookup
+      const entry = dict[lower];
+      tokens.push({
+        word: raw, key: lower, isTarget: true,
+        article: null, particle: null,
+        inDict: !!entry, kind: entry ? entry.kind : null,
+        isTaught: entry ? !!entry.lessonId : false,
+      });
+    }
+
+    return tokens;
+  };
+
+  // ════════════════════════════════════════════════════════════
   // WORD BUBBLE COMPONENT — glossy candy style, portal-style positioning
   // ════════════════════════════════════════════════════════════
   // ═══ WORD BUBBLE ═══
@@ -10963,31 +11142,59 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // ── bubbleHl: tokenize, make EVERY Korean token tappable ──
     const bubbleHl=(text,fz=16)=>{
       if(!text||typeof text!=="string") return <span style={{color:dk?"rgba(210,200,255,0.75)":"var(--gray-500)",fontSize:fz}}>{text}</span>;
-      if(!/[\uAC00-\uD7AF]/.test(text)){
-        return <span style={{color:dk?"rgba(210,200,255,0.8)":"var(--gray-600)",fontSize:fz,fontWeight:500}}>{text}</span>;
+      // For Korean: use existing tokenizeKorean + KOREAN_DICT
+      if(/[\uAC00-\uD7AF]/.test(text)){
+        const toks=tokenizeKorean(text);
+        return <>{toks.map((tok,ti)=>{
+          if(!tok.isKorean) return <span key={ti} style={{color:dk?"rgba(200,188,255,0.7)":"var(--gray-500)",fontSize:fz}}>{tok.word}</span>;
+          const dictEntry=KOREAN_DICT[tok.key];
+          const isKnown=!!dictEntry;
+          const useEntry=dictEntry||{
+            base:"Entry coming soon",morph:tok.word+" — not yet catalogued",particle:null,
+            uses:[{k:tok.word,e:"(full entry coming in a future update)"}],
+            note:"Every Korean word will eventually be in LingoVerse.",level:"?"
+          };
+          return(
+            <span key={ti}
+              onClick={e=>{e.stopPropagation();navTo(useEntry,tok.word,tok.stem||tok.word,tok.particle);}}
+              style={{
+                fontSize:fz,fontWeight:900,display:"inline-block",cursor:"pointer",lineHeight:1.35,
+                color:isKnown?(dk?"#C8B8FF":"#7050D8"):(dk?"#5EEAC8":"#0D7D5C"),
+                borderBottom:isKnown
+                  ?(dk?"2px solid rgba(168,144,255,0.6)":"2px solid rgba(112,80,216,0.35)")
+                  :(dk?"2px solid rgba(94,234,200,0.55)":"2px solid rgba(13,125,92,0.3)"),
+                paddingBottom:1,borderRadius:2,transition:"all .1s",
+              }}
+              onMouseEnter={e=>{e.currentTarget.style.background=isKnown?(dk?"rgba(168,144,255,0.15)":"rgba(112,80,216,0.08)"):(dk?"rgba(94,234,200,0.15)":"rgba(13,125,92,0.08)");}}
+              onMouseLeave={e=>{e.currentTarget.style.background="transparent";}}
+            >{tok.word}</span>
+          );
+        })}</>;
       }
-      const toks=tokenizeKorean(text);
+      // For all other languages: use universal tokenizer
+      const toks=tokenize(text, lang);
+      if(!toks||toks.length===0) return <span style={{color:dk?"rgba(210,200,255,0.8)":"var(--gray-600)",fontSize:fz,fontWeight:500}}>{text}</span>;
+      const dict=LANG_DICT[lang]||{};
       return <>{toks.map((tok,ti)=>{
-        if(!tok.isKorean) return <span key={ti} style={{color:dk?"rgba(200,188,255,0.7)":"var(--gray-500)",fontSize:fz}}>{tok.word}</span>;
-        const dictEntry=KOREAN_DICT[tok.key];
-        const isKnown=!!dictEntry;
-        const useEntry=dictEntry||{
-          base:"Entry coming soon",morph:tok.word+" — not yet catalogued",particle:null,
-          uses:[{k:tok.word,e:"(full entry coming in a future update)"}],
-          note:"Every Korean word will eventually be in LingoVerse.",level:"?"
-        };
+        if(!tok.isTarget) return <span key={ti} style={{color:dk?"rgba(200,188,255,0.7)":"var(--gray-500)",fontSize:fz}}>{tok.word}</span>;
+        const entry=dict[tok.key];
+        const isKnown=!!entry;
         return(
           <span key={ti}
-            onClick={e=>{e.stopPropagation();navTo(useEntry,tok.word,tok.stem||tok.word,tok.particle);}}
+            onClick={isKnown?e=>{e.stopPropagation();navTo({
+              base:entry.en,morph:entry.note||null,
+              particle:entry.article?entry.article+" "+entry.word:null,
+              uses:entry.example?[{k:entry.example,e:entry.exampleEn||""}]:[],
+              note:entry.cognate||null,level:entry.level,
+            },tok.word,tok.word,null);}:undefined}
             style={{
-              fontSize:fz,fontWeight:900,display:"inline-block",cursor:"pointer",lineHeight:1.35,
-              color:isKnown?(dk?"#C8B8FF":"#7050D8"):(dk?"#5EEAC8":"#0D7D5C"),
-              borderBottom:isKnown
-                ?(dk?"2px solid rgba(168,144,255,0.6)":"2px solid rgba(112,80,216,0.35)")
-                :(dk?"2px solid rgba(94,234,200,0.55)":"2px solid rgba(13,125,92,0.3)"),
-              paddingBottom:1,borderRadius:2,transition:"all .1s",
+              fontSize:fz,fontWeight:isKnown?900:500,display:"inline-block",
+              cursor:isKnown?"pointer":"default",lineHeight:1.35,
+              color:isKnown?(dk?"#C8B8FF":"#7050D8"):(dk?"rgba(210,200,255,0.8)":"var(--gray-600)"),
+              borderBottom:isKnown?(dk?"2px solid rgba(168,144,255,0.6)":"2px solid rgba(112,80,216,0.35)"):"none",
+              paddingBottom:isKnown?1:0,borderRadius:2,transition:"all .1s",
             }}
-            onMouseEnter={e=>{e.currentTarget.style.background=isKnown?(dk?"rgba(168,144,255,0.15)":"rgba(112,80,216,0.08)"):(dk?"rgba(94,234,200,0.15)":"rgba(13,125,92,0.08)");}}
+            onMouseEnter={e=>{if(isKnown)e.currentTarget.style.background=dk?"rgba(168,144,255,0.15)":"rgba(112,80,216,0.08)";}}
             onMouseLeave={e=>{e.currentTarget.style.background="transparent";}}
           >{tok.word}</span>
         );
@@ -11218,6 +11425,191 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     });
   };
 
+  // ════════════════════════════════════════════════════════════
+  // UNIVERSAL HIGHLIGHTER — replaces koreanHl/smartHl conditionals
+  // Handles all languages: clickable taught words, gold untaught nouns,
+  // grammar colorizer, and smartHl fallback for non-target text.
+  // ════════════════════════════════════════════════════════════
+  const universalHl = (text, tLang, opts = {}) => {
+    if (!text || typeof text !== "string") return text;
+    const effectiveLang = tLang || lang;
+
+    // Korean: delegate to existing koreanHl (preserves all existing behavior)
+    if (effectiveLang === "ko") return koreanHl(text);
+
+    // No tokenizer config for this language: fall back to smartHl
+    if (!LANG_TOKENIZER[effectiveLang]) return smartHl(text);
+
+    // Check if text has any target-language characters
+    const hasTargetScript = LANG_TOKENIZER[effectiveLang].scriptRange.test(text);
+    if (!hasTargetScript) return smartHl(text);
+
+    const tokens = tokenize(text, effectiveLang);
+    const dict = LANG_DICT[effectiveLang] || {};
+
+    return tokens.map((tok, ti) => {
+      // Whitespace
+      if (!tok.isTarget && (!tok.word || /^\s+$/.test(tok.word))) return <span key={ti}>{tok.word}</span>;
+
+      // Non-target text (English translations, punctuation)
+      if (!tok.isTarget) return <span key={ti}>{tok.word}</span>;
+
+      // Grammar markers (articles, prepositions, conjunctions, pronouns)
+      if (tok.isGrammar && grammarHl) {
+        const gColor = tok.grammarColor || (tok.grammarType === "article" ? "#4A8FE7" : "#2ECDA7");
+        const gColorDk = tok.grammarColorDk || gColor;
+        return <span key={ti} style={{
+          color: dk ? gColorDk : gColor,
+          fontWeight: 700,
+          borderRadius: 3,
+          transition: "all .1s",
+        }} title={tok.grammarLabel || tok.grammarType}>{tok.word}</span>;
+      }
+
+      // Taught word (in dictionary with lessonId) → purple, dashed underline, clickable
+      if (tok.inDict && tok.isTaught) {
+        const entry = dict[tok.key];
+        return <span key={ti}
+          onClick={(e) => {
+            e.stopPropagation();
+            setWordBubble({
+              key: tok.key, word: tok.word, stem: null, particle: null,
+              entry: {
+                base: entry.en,
+                morph: entry.note || null,
+                particle: entry.article ? entry.article + " " + entry.word : null,
+                uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
+                note: entry.cognate || null,
+                level: entry.level,
+              }
+            });
+          }}
+          style={{
+            color: "var(--purple-accent-text)",
+            fontWeight: 700,
+            cursor: "pointer",
+            borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.5)" : "1.5px dashed rgba(112,80,216,0.4)",
+            paddingBottom: 1,
+            transition: "all .1s",
+            borderRadius: 2,
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(168,144,255,0.12)" : "rgba(112,80,216,0.07)"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+        >{tok.word}</span>;
+      }
+
+      // Untaught pure NOUN (not verb, not idiom, not phrase) → GOLD highlight, clickable
+      if (tok.inDict && !tok.isTaught && tok.kind === "noun") {
+        const entry = dict[tok.key];
+        return <span key={ti}
+          onClick={(e) => {
+            e.stopPropagation();
+            setMiniWordPopup({
+              word: entry.display || tok.word,
+              en: entry.en,
+              article: entry.article,
+              level: entry.level,
+              example: entry.example,
+              exampleEn: entry.exampleEn,
+              lang: effectiveLang,
+            });
+          }}
+          style={{
+            color: dk ? "#F5C040" : "#E8960A",
+            fontWeight: 700,
+            cursor: "pointer",
+            borderBottom: dk ? "1.5px solid rgba(245,192,64,0.5)" : "1.5px solid rgba(232,150,10,0.4)",
+            paddingBottom: 1,
+            transition: "all .1s",
+            borderRadius: 2,
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(232,150,10,0.12)" : "rgba(232,150,10,0.07)"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+        >{tok.word}</span>;
+      }
+
+      // Default: regular target-language text
+      return <span key={ti}>{tok.word}</span>;
+    });
+  };
+
+  // ── MiniWordPopup — compact popup for gold-highlighted untaught nouns ──
+  const MiniWordPopup = miniWordPopup ? (
+    <div style={{
+      position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:10000,
+      display:"flex",alignItems:"center",justifyContent:"center",
+      background:"rgba(0,0,0,0.4)",backdropFilter:"blur(4px)",
+    }} onClick={()=>setMiniWordPopup(null)}>
+      <div onClick={e=>e.stopPropagation()} style={{
+        background:dk
+          ?"linear-gradient(180deg,rgba(38,28,72,0.98),rgba(30,22,58,0.98))"
+          :"linear-gradient(180deg,rgba(255,255,255,0.99),rgba(250,245,255,0.99))",
+        borderRadius:24,padding:"24px 28px",maxWidth:320,width:"90%",
+        boxShadow:dk
+          ?"0 24px 80px rgba(0,0,0,0.7),0 0 0 1px rgba(232,150,10,0.3),inset 0 1px 0 rgba(255,255,255,0.08)"
+          :"0 24px 80px rgba(0,0,0,0.15),0 0 0 1px rgba(232,150,10,0.2),inset 0 2px 0 rgba(255,255,255,0.9)",
+        position:"relative",
+      }}>
+        {/* Close button */}
+        <button onClick={()=>setMiniWordPopup(null)} style={{
+          position:"absolute",top:12,right:12,background:"none",border:"none",cursor:"pointer",
+          fontSize:18,color:dk?"rgba(200,184,255,0.45)":"rgba(112,80,216,0.3)",
+        }}>✕</button>
+
+        {/* Article badge */}
+        {miniWordPopup.article && (() => {
+          const sys = ARTICLE_SYSTEMS[miniWordPopup.lang];
+          const artColor = sys?.colors?.[miniWordPopup.article];
+          return <span style={{
+            display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
+            background:artColor?.bg||"linear-gradient(135deg,#E8960A,#D4880C)",
+            color:"white",borderRadius:8,padding:"2px 10px",marginBottom:8,
+            boxShadow:"0 2px 8px "+(artColor?.shadow||"rgba(232,150,10,0.3)"),
+          }}>{miniWordPopup.article}</span>;
+        })()}
+
+        {/* Word */}
+        <div style={{
+          fontSize:36,fontWeight:900,lineHeight:1.1,
+          color:dk?"#F5C040":"#E8960A",marginBottom:4,
+        }}>{miniWordPopup.word}</div>
+
+        {/* Translation */}
+        <div style={{
+          fontSize:18,fontWeight:700,color:dk?"rgba(240,234,255,0.94)":"#1A0B50",
+          marginBottom:8,
+        }}>{miniWordPopup.en}</div>
+
+        {/* Level */}
+        <span style={{
+          display:"inline-block",fontSize:10,fontWeight:700,letterSpacing:1.5,
+          color:dk?"rgba(245,192,64,0.8)":"#D4880C",
+          background:dk?"rgba(232,150,10,0.15)":"rgba(232,150,10,0.1)",
+          border:dk?"1px solid rgba(232,150,10,0.25)":"1px solid rgba(232,150,10,0.2)",
+          borderRadius:6,padding:"2px 8px",marginBottom:12,
+        }}>{miniWordPopup.level}</span>
+
+        {/* Example if available */}
+        {miniWordPopup.example && <div style={{
+          marginTop:12,padding:"12px 14px",
+          background:dk?"rgba(232,150,10,0.08)":"rgba(232,150,10,0.05)",
+          border:dk?"1px solid rgba(232,150,10,0.2)":"1px solid rgba(232,150,10,0.12)",
+          borderRadius:14,
+        }}>
+          <div style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.9)":"var(--gray-700)",lineHeight:1.5}}>{miniWordPopup.example}</div>
+          {miniWordPopup.exampleEn && <div style={{fontSize:12,color:dk?"rgba(200,190,255,0.6)":"var(--gray-500)",marginTop:4}}>{miniWordPopup.exampleEn}</div>}
+        </div>}
+
+        {/* New word indicator */}
+        <div style={{
+          marginTop:14,textAlign:"center",fontSize:11,fontWeight:700,
+          color:dk?"rgba(245,192,64,0.6)":"rgba(232,150,10,0.5)",
+          letterSpacing:1,textTransform:"uppercase",
+        }}>New vocabulary</div>
+      </div>
+    </div>
+  ) : null;
+
   // ── Score Circle — animated percentage ring for lesson done screen ──
 
 
@@ -11237,9 +11629,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   const smartHl=(text)=>{
     if(!text||typeof text!=="string") return text;
-    const parts=text.split(/([^\u0000-\u007F]+)/g);
+    const parts=text.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g);
     return parts.map((seg,si)=>{
-      if(/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF]/.test(seg))
+      if(/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(seg))
         return <span key={si} style={{fontSize:22,fontWeight:800,color:"var(--purple-accent-text)",lineHeight:1.2}}>{seg}</span>;
       const tokens=seg.split(/((?:'[a-zA-Z]{2,12}')|\b(?:RIGHT|LEFT|TOP|BOTTOM|BELOW|ABOVE|UP|DOWN|HORIZONTAL|VERTICAL|ONLY|NEVER|ALWAYS|NOT|SILENT|INITIAL|INSIDE|ZERO|MUST)\b)/g);
       return tokens.map((tok,ti)=>{
@@ -11284,7 +11676,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       const trimmed=part.trim();
       if(trimmed==="+"||trimmed==="="||trimmed==="→")
         return <span key={i} style={{fontSize:16,fontWeight:500,color:"var(--gray-400)",margin:"0 4px"}}>{trimmed}</span>;
-      if(/[^\u0000-\u007F]/.test(trimmed))
+      if(/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(trimmed))
         return <span key={i} style={{fontSize:22,fontWeight:800,color:"var(--purple-accent-text)"}}>{trimmed}</span>;
       if(trimmed)
         return <span key={i} style={{fontSize:14,fontWeight:600,color:"var(--gray-500)"}}>{trimmed}</span>;
@@ -11317,6 +11709,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     <div className="anim" key={si}>
       <ProgressBar/>
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <div style={{maxWidth:460,margin:"0 auto"}}>
         {/* Board-style intro card — matches teach card visual language */}
         <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden",marginBottom:16,...glass}}>
@@ -11346,7 +11739,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   i+=2;continue;
                 }
                 if(!ln.trim()){o.push(<div key={i} style={{height:14}}/>);i++;continue;}
-                o.push(<p key={i} style={{fontSize:14,color:"var(--purple-accent-text)",fontWeight:600,lineHeight:1.6,margin:"4px 0"}}>{ln.split(/([^\u0000-\u007F]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF]/.test(p)?<span key={pi} style={{fontSize:18,fontWeight:800}}>{p}</span>:<span key={pi}>{p}</span>)}</p>);
+                o.push(<p key={i} style={{fontSize:14,color:"var(--purple-accent-text)",fontWeight:600,lineHeight:1.6,margin:"4px 0"}}>{ln.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(p)?<span key={pi} style={{fontSize:18,fontWeight:800}}>{p}</span>:<span key={pi}>{p}</span>)}</p>);
                 i++;
               }
               return o;
@@ -11356,7 +11749,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {/* Goals — clean rows with green bullets */}
           {st.goals&&st.goals.length>0&&<div style={{borderTop:"1.5px solid var(--gray-100)",padding:"14px 22px"}}>
             <div style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)",marginBottom:10}}>{t("le_in_this_lesson",baseLang)}</div>
-            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800,fontSize:12}}>▸</span><span>{smartHl(g)}</span></div>)}
+            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800,fontSize:12}}>▸</span><span>{universalHl(g, lang)}</span></div>)}
           </div>}
         </div>
 
@@ -11398,7 +11791,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         })()}
         <div style={{background:"var(--blue-pale)",borderRadius:"var(--radius)",padding:"18px 24px",display:"inline-block",textAlign:"left",border:"2px solid var(--blue-light)"}}>
           <div style={{fontSize:12,fontWeight:700,color:"var(--blue)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8}}>{t("le_in_this_lesson",baseLang)}</div>
-          {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"4px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800}}>✓</span>{g.split(/([^\u0000-\u007F]+)/g).map((part,pi)=>/[\u0600-\u06FF\u3130-\u318F\uAC00-\uD7AF]/.test(part)?<span key={pi} style={{fontSize:20,fontWeight:800,color:"var(--purple-accent-text)"}}>{part}</span>:<span key={pi}>{part}</span>)}</div>)}
+          {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"4px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800}}>✓</span>{g.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g).map((part,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(part)?<span key={pi} style={{fontSize:20,fontWeight:800,color:"var(--purple-accent-text)"}}>{part}</span>:<span key={pi}>{part}</span>)}</div>)}
         </div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:12,marginTop:28}}>
           {si>0&&<NavArrow onClick={goBack} isBack/>}
@@ -11414,7 +11807,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     if(!v)return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto",padding:32,background:"#fee",borderRadius:16,textAlign:"center"}}><div style={{fontSize:48}}>⚠️</div><div style={{fontSize:20,fontWeight:"bold",color:"#dc2626",marginTop:12}}>Vocab Not Found</div><div style={{fontSize:14,color:"#64748b",marginTop:8}}>ID: <code>{st.id}</code></div><button onClick={next}className="btn-primary"style={{marginTop:20,width:"100%"}}>Continue</button></div></div>);
     const w=toTeach(v);
     const isNew=!user.lw.has(w.nl);
-    return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto"}}>{isNew&&<div style={{background:"linear-gradient(135deg, var(--gold), #E8960A)",borderRadius:24,padding:"3px",marginBottom:20,boxShadow:"0 6px 24px rgba(245,166,35,0.25)"}}><div style={{background:"var(--gold)",borderRadius:"22px 22px 0 0",padding:"8px 0",textAlign:"center"}}><span style={{color:"white",fontSize:12,fontWeight:800,textTransform:"uppercase",letterSpacing:3}}>✨ New Word ✨</span></div><div style={{background:"var(--card-bg)",borderRadius:"0 0 21px 21px",overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:-15,right:-15,width:60,height:60,borderRadius:"50%",background:"rgba(74,143,231,0.06)"}}/><div style={{position:"absolute",bottom:20,left:-10,width:40,height:40,borderRadius:"50%",background:"rgba(46,205,167,0.06)"}}/><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:34,height:34,borderRadius:10,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,cursor:"pointer",transition:"all .15s",backdropFilter:"blur(4px)"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={16}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:80,height:80,borderRadius:22,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:36,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",padding:"18px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:12,fontWeight:800,borderRadius:10,padding:"3px 14px",textTransform:"uppercase",letterSpacing:1.5}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:18,padding:"12px 32px",boxShadow:`0 4px 16px ${c.shadow}`,marginBottom:10}}><span className="hd"style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:20}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:14,padding:"8px 24px",boxShadow:"0 3px 12px rgba(46,205,167,0.25)"}}><span style={{fontSize:18,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"16px 22px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:14,padding:"12px 16px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}>💬 In context</div><div style={{fontSize:15,color:"var(--gray-800)",fontWeight:600,marginBottom:3,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{/[\uAC00-\uD7AF]/.test(w.example||"")?koreanHl(w.example):<span>"{w.example}"</span>}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div><div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div></div>}{!isNew&&<div style={{background:"var(--card-bg)",borderRadius:24,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 4px 16px rgba(0,0,0,0.04)",marginBottom:20,overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:30,height:30,borderRadius:8,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,cursor:"pointer",transition:"all .15s"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:72,height:72,borderRadius:20,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:32,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",paddingTop:w.img?12:24}}><span style={{display:"inline-block",background:"var(--gray-200)",color:"var(--gray-500)",fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,padding:"4px 14px",borderRadius:16}}>Review</span></div><div style={{textAlign:"center",padding:"14px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:11,fontWeight:700,borderRadius:8,padding:"2px 10px",textTransform:"uppercase",letterSpacing:1}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:16,padding:"10px 28px",boxShadow:`0 3px 12px ${c.shadow}`,marginBottom:8}}><span className="hd"style={{fontSize:30,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:12,padding:"3px 14px",fontSize:13,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:16}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:12,padding:"6px 20px",boxShadow:"0 2px 10px rgba(46,205,167,0.2)"}}><span style={{fontSize:16,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"14px 20px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:12,padding:"10px 14px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:10,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:5}}>💬 In context</div><div style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,marginBottom:2,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{/[\uAC00-\uD7AF]/.test(w.example||"")?koreanHl(w.example):<span>"{w.example}"</span>}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={13}showToast={showToast}/></div><div style={{fontSize:12,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div>}{w.note&&<div style={{background:dk?"var(--gold-bg)":"linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)",borderRadius:16,padding:"14px 20px",marginBottom:20,boxShadow:"0 2px 12px rgba(245,166,35,0.15)"}}><div style={{fontSize:11,fontWeight:800,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Note</div><div style={{fontSize:14,color:"var(--gray-700)",lineHeight:1.6}}>{w.note}</div></div>}<button onClick={()=>{if(!user.lw.has(w.nl)){setUser(u=>({...u,lw:new Set([...u.lw,w.nl])}));}next();}}className="btn-primary"style={{width:"100%"}}>Continue</button></div></div>);
+    return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto"}}>{isNew&&<div style={{background:"linear-gradient(135deg, var(--gold), #E8960A)",borderRadius:24,padding:"3px",marginBottom:20,boxShadow:"0 6px 24px rgba(245,166,35,0.25)"}}><div style={{background:"var(--gold)",borderRadius:"22px 22px 0 0",padding:"8px 0",textAlign:"center"}}><span style={{color:"white",fontSize:12,fontWeight:800,textTransform:"uppercase",letterSpacing:3}}>✨ New Word ✨</span></div><div style={{background:"var(--card-bg)",borderRadius:"0 0 21px 21px",overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:-15,right:-15,width:60,height:60,borderRadius:"50%",background:"rgba(74,143,231,0.06)"}}/><div style={{position:"absolute",bottom:20,left:-10,width:40,height:40,borderRadius:"50%",background:"rgba(46,205,167,0.06)"}}/><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:34,height:34,borderRadius:10,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,cursor:"pointer",transition:"all .15s",backdropFilter:"blur(4px)"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={16}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:80,height:80,borderRadius:22,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:36,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",padding:"18px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:12,fontWeight:800,borderRadius:10,padding:"3px 14px",textTransform:"uppercase",letterSpacing:1.5}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:18,padding:"12px 32px",boxShadow:`0 4px 16px ${c.shadow}`,marginBottom:10}}><span className="hd"style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:20}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:14,padding:"8px 24px",boxShadow:"0 3px 12px rgba(46,205,167,0.25)"}}><span style={{fontSize:18,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"16px 22px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:14,padding:"12px 16px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}>💬 In context</div><div style={{fontSize:15,color:"var(--gray-800)",fontWeight:600,marginBottom:3,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang)}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div><div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div></div>}{!isNew&&<div style={{background:"var(--card-bg)",borderRadius:24,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 4px 16px rgba(0,0,0,0.04)",marginBottom:20,overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:30,height:30,borderRadius:8,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,cursor:"pointer",transition:"all .15s"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:72,height:72,borderRadius:20,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:32,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",paddingTop:w.img?12:24}}><span style={{display:"inline-block",background:"var(--gray-200)",color:"var(--gray-500)",fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,padding:"4px 14px",borderRadius:16}}>Review</span></div><div style={{textAlign:"center",padding:"14px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:11,fontWeight:700,borderRadius:8,padding:"2px 10px",textTransform:"uppercase",letterSpacing:1}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:16,padding:"10px 28px",boxShadow:`0 3px 12px ${c.shadow}`,marginBottom:8}}><span className="hd"style={{fontSize:30,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:12,padding:"3px 14px",fontSize:13,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:16}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:12,padding:"6px 20px",boxShadow:"0 2px 10px rgba(46,205,167,0.2)"}}><span style={{fontSize:16,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"14px 20px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:12,padding:"10px 14px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:10,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:5}}>💬 In context</div><div style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,marginBottom:2,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang)}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={13}showToast={showToast}/></div><div style={{fontSize:12,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div>}{w.note&&<div style={{background:dk?"var(--gold-bg)":"linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)",borderRadius:16,padding:"14px 20px",marginBottom:20,boxShadow:"0 2px 12px rgba(245,166,35,0.15)"}}><div style={{fontSize:11,fontWeight:800,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Note</div><div style={{fontSize:14,color:"var(--gray-700)",lineHeight:1.6}}>{w.note}</div></div>}<button onClick={()=>{if(!user.lw.has(w.nl)){setUser(u=>({...u,lw:new Set([...u.lw,w.nl])}));}next();}}className="btn-primary"style={{width:"100%"}}>Continue</button></div></div>);
   }
 
   // ═══ TEACH — Multi-kind card (word / letter / info / idiom) ═══
@@ -11439,7 +11832,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {/* nl — big centered, serif */}
           <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
             <h3 style={{fontSize:42,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",margin:0,lineHeight:1.2}}>
-              {/[\uAC00-\uD7AF]/.test(st.nl||"")?koreanHl(st.nl):st.nl.split(/([^\u0000-\u007F]+)/g).map((part,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF]/.test(part)?<span key={pi} style={{fontSize:48,color:"var(--purple-accent-text)"}}>{part}</span>:<span key={pi}>{part}</span>)}
+              {universalHl(st.nl, lang)}
             </h3>
           </div>
           {/* Translation */}
@@ -11558,13 +11951,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   if(st.type==="teach" && boardMode) {
     const art=getArticle(st.nl,lang);const c=ARTICLE_COLORS[art];
     const accentColor=isNew?"#7B5EE8":"var(--gray-300)";
-    const noteHl=(text)=>{
-      if(!text||typeof text!=="string") return text;
-      if(/[\uAC00-\uD7AF]/.test(text)) return koreanHl(text);
-      return smartHl(text);
-    };
-    // Highlight Hangul/Arabic in example text at larger size
-    const exHl=t=>/[\uAC00-\uD7AF]/.test(t)?koreanHl(t):t.split(/([^\u0000-\u007F]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF]/.test(p)?<span key={pi} style={{fontSize:26,fontWeight:800,color:"var(--purple-accent-text)"}}>{p}</span>:<span key={pi}>{p}</span>);
+    const noteHl=(text)=>universalHl(text, lang);
+    const exHl=(t)=>universalHl(t, lang);
     // Letter size: single Hangul jamo/syllable gets extra large
     const nlSize = teachKind==="letter" ? 64 : isScript ? 48 : 36;
     // Force purple for non-ASCII letters, otherwise noun stays dark, article gets color
@@ -11574,6 +11962,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return(
     <div className="anim" key={si}>
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:460,margin:"0 auto"}}>
 
@@ -11604,7 +11993,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   <span style={{color:"var(--gray-800)"}}>{artWord[1]}</span>
                 </span>
               ) : (
-                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{/[\uAC00-\uD7AF]/.test(st.nl||"")?st.nl.split(/([/→+= ]+)/).map((seg,si)=>/^[/→+= ]+$/.test(seg)?<span key={si} style={{fontSize:Math.round(nlSize*0.4),fontWeight:400,color:"var(--gray-300)",margin:"0 2px",verticalAlign:"middle"}}>{seg.trim()}</span>:/[\uAC00-\uD7AF]/.test(seg)?koreanHl(seg):<span key={si} style={{fontSize:Math.round(nlSize*0.7),color:"var(--gray-500)"}}>{seg}</span>):cap(st.nl)}</span>
+                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{universalHl(st.nl, lang)}</span>
               )}
             </div>
           </div>
@@ -11691,7 +12080,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     <div style={glossArc}/>
                     <div style={{position:"relative",zIndex:2}}>
                       <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
-                        {/[\uAC00-\uD7AF]/.test(content)?koreanHl(content):<span>{content}</span>}
+                        {universalHl(content, lang)}
                         <SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
                       </div>
                       {enC&&<div style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{enC}</div>}
@@ -11705,7 +12094,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             <div style={glossArc}/>
             <div style={{position:"relative",zIndex:2}}>
               <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
-                {/[\uAC00-\uD7AF]/.test(ex)?koreanHl(ex):<span>{ex}</span>}
+                {universalHl(ex, lang)}
                 <SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
               </div>
               {exEn&&<div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{exEn}</div>}
@@ -12007,19 +12396,19 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               {turns.map((turn,ti)=>{const isA=turn.trim().startsWith("A:");const content=turn.replace(/^[AB]:\s*/,"").trim();const enC=(turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
                 return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
                   <div style={{...bS,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}><div style={gA}/><div style={{position:"relative",zIndex:2}}>
-                    <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{/[\uAC00-\uD7AF]/.test(content)?koreanHl(content):<span>{content}</span>}<SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
+                    <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(content, lang)}<SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
                     {enC&&<div style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{enC}</div>}
                   </div></div></div>;})}
             </div>;
           }
           return <div style={{...bS,marginBottom:16}}><div style={gA}/><div style={{position:"relative",zIndex:2}}>
-            <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{/[\uAC00-\uD7AF]/.test(ex)?koreanHl(ex):<span>{ex}</span>}<SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
+            <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(ex, lang)}<SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
             {exEn&&<div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{exEn}</div>}
           </div></div>;
         })()}
         {st.note&&(teachKind==="letter"?
           <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderRadius:20,padding:"18px 22px",marginBottom:20}}>
-            <div style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.7}}>{/[\uAC00-\uD7AF]/.test(st.note||"")?koreanHl(st.note):st.note.split(/([^\u0000-\u007F]+)/g).map((part,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF]/.test(part)?<span key={pi} style={{fontSize:22,fontWeight:800,color:"var(--purple-accent-text)",margin:"0 2px"}}>{part}</span>:<span key={pi}>{part}</span>)}</div>
+            <div style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.7}}>{universalHl(st.note, lang)}</div>
           </div>
         :<div style={{
             background:dk?"linear-gradient(155deg,rgba(58,36,130,0.35),rgba(44,26,105,0.25))":"linear-gradient(155deg,rgba(240,234,255,0.9),rgba(228,216,255,0.8))",
@@ -12036,8 +12425,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>
             <div style={{fontSize:15,lineHeight:1.75,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.note.split(/\\n|\n/).map((line,li)=>{
               if(!line.trim()) return <div key={li} style={{height:5}}/>;
-              if(line.startsWith("⚠️")) return <div key={li} style={{color:dk?"rgba(94,234,200,0.9)":"#0D7D5C",fontWeight:700,margin:"3px 0"}}>{/[\uAC00-\uD7AF]/.test(line)?koreanHl(line):line}</div>;
-              return <div key={li}>{/[\uAC00-\uD7AF]/.test(line)?koreanHl(line):line}</div>;
+              if(line.startsWith("⚠️")) return <div key={li} style={{color:dk?"rgba(94,234,200,0.9)":"#0D7D5C",fontWeight:700,margin:"3px 0"}}>{universalHl(line, lang)}</div>;
+              return <div key={li}>{universalHl(line, lang)}</div>;
             })}</div>
           </div>
         </div>)}
@@ -12182,6 +12571,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     <div className="anim" key={si}>
       <ProgressBar/>
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <div style={{maxWidth:500,margin:"0 auto"}}>
         <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden",...glass}}>
           <div style={{padding:"18px 24px 12px"}}>
@@ -12209,7 +12599,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               })}
             </div>}
             {st.text&&(()=>{
-              const hl=(text)=>(/[\uAC00-\uD7AF]/.test(text||"")?koreanHl(text):smartHl(text));
+              const hl=(text)=>universalHl(text, lang);
               const isTranslationCard=st.title&&/vertal/i.test(st.title);
               // ── Pair-card pre-pass: group Korean line + → English line into pairs ──
               const rawLines=st.text.split(/\\n|\n/);
@@ -12369,7 +12759,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_choose_correct",baseLang)}</div>
           {(()=>{const{korean:mcKo,english:mcEn}=splitKoEn(st.q||"");return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
-            {/[\uAC00-\uD7AF]/.test(mcKo)?koreanHl(mcKo):smartHl(mcKo)}
+            {universalHl(mcKo, lang)}
           </div>{renderEnglishBelow(mcEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
@@ -12392,7 +12782,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           </div>;
         })()}
         {!answered&&<div style={{textAlign:"center",marginTop:10,fontSize:11,color:"var(--gray-300)"}}>Arrow keys navigate · Space select</div>}
-        {answered&&<div style={{textAlign:"center",marginTop:14,fontSize:14,fontWeight:700,color:selOpt===st.ans?"var(--teal-dark)":"var(--coral)"}}>{selOpt===st.ans?t("le_correct",baseLang):<span>{t("le_not_quite",baseLang)} — {t("le_answer_is",baseLang)}: {/[^\u0000-\u007F]/.test(st.ans)?<span style={{fontSize:17,fontWeight:800,color:"var(--purple-accent-text)"}}>{st.ans}</span>:st.ans}</span>}</div>}
+        {answered&&<div style={{textAlign:"center",marginTop:14,fontSize:14,fontWeight:700,color:selOpt===st.ans?"var(--teal-dark)":"var(--coral)"}}>{selOpt===st.ans?t("le_correct",baseLang):<span>{t("le_not_quite",baseLang)} — {t("le_answer_is",baseLang)}: {/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(st.ans)?<span style={{fontSize:17,fontWeight:800,color:"var(--purple-accent-text)"}}>{st.ans}</span>:st.ans}</span>}</div>}
         {answered&&<ContinueButton onClick={goNext} correct={selOpt===st.ans} baseLang={baseLang} spaceRef={continueRef} onBack={goBack} canGoBack={si>0}/>}
       </div>
     </div>
@@ -12533,7 +12923,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
           {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
-            {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{/[\uAC00-\uD7AF]/.test(part)?koreanHl(part):smartHl(part)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
+            {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{universalHl(part, lang)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
           </div>{renderEnglishBelow(fbEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
@@ -12744,7 +13134,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   {isWrongSlot&&<span style={{display:"block",fontSize:11,color:"var(--teal-dark)",fontWeight:600}}>{st.blanks[slotKey]}</span>}
                 </span>;
               }
-              return <span key={i}>{/[\uAC00-\uD7AF]/.test(part)?koreanHl(part):part}</span>;
+              return <span key={i}>{universalHl(part, lang)}</span>;
             })}
           </div>
           {renderEnglishBelow(dfEn,true)}
@@ -12855,7 +13245,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return <div key={i} data-match-nl={i} data-match-side="nl" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
                 onClick={()=>{if(!d){UISounds.click();handleMatch("nl",w);}}}
                 onPointerDown={(e)=>{if(d)return;e.preventDefault();matchDragRef.current={active:true,side:"nl",val:w,startEl:e.currentTarget};e.currentTarget.setPointerCapture&&e.currentTarget.releasePointerCapture(e.pointerId);handleMatch("nl",w);const container=matchContainerRef.current;if(!container)return;const rect=container.getBoundingClientRect();const elR=e.currentTarget.getBoundingClientRect();setMatchPendingLine({x1:elR.right-rect.left,y1:elR.top+elR.height/2-rect.top,x2:e.clientX-rect.left,y2:e.clientY-rect.top});}}
-                onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i);}}}>{/[\uAC00-\uD7AF]/.test(w)?koreanHl(w):cap(w)}{d&&" ✓"}</div>;})}
+                onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i);}}}>{universalHl(w, lang)}{d&&" ✓"}</div>;})}
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:8}}>
             <div style={{fontSize:11,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>{BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"}</div>
@@ -12942,7 +13332,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     );
   }
 
-  return <div className="anim"><ProgressBar/>{wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}<div className="card" style={{textAlign:"center",padding:24}}><p>Unknown step</p><button className="btn" onClick={goNext} style={{background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:700,border:"1.5px solid rgba(255,255,255,0.25)",cursor:"pointer",borderRadius:16,boxShadow:dk?"0 0 20px rgba(150,120,255,0.45), 0 0 44px rgba(123,94,232,0.2), 0 4px 16px rgba(123,94,232,0.4), inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -2px 0 rgba(0,0,0,0.2)":"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -3px 0 rgba(0,0,0,0.12)"}}>{t("le_skip",baseLang)}</button></div></div>;
+  return <div className="anim"><ProgressBar/>{wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}<div className="card" style={{textAlign:"center",padding:24}}><p>Unknown step</p><button className="btn" onClick={goNext} style={{background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:700,border:"1.5px solid rgba(255,255,255,0.25)",cursor:"pointer",borderRadius:16,boxShadow:dk?"0 0 20px rgba(150,120,255,0.45), 0 0 44px rgba(123,94,232,0.2), 0 4px 16px rgba(123,94,232,0.4), inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -2px 0 rgba(0,0,0,0.2)":"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -3px 0 rgba(0,0,0,0.12)"}}>{t("le_skip",baseLang)}</button></div></div>;
 }
 
 // ━━━━━━━━━━ MAIN APP (updated with Learn page) ━━━━━━━━━━
@@ -13634,7 +14025,7 @@ export default function App(){
                 {(s.desc.split(/\\n|\n/)).map((ln,i)=>{
                   const hk=/[\uAC00-\uD7AF\u3130-\u318F]/.test(ln.trim());
                   if(!ln.trim()) return <div key={i} style={{height:10}}/>;
-                  return <p key={i} style={{fontSize:13,color:"var(--purple-accent-text)",fontWeight:600,lineHeight:1.6,margin:"3px 0"}}>{ln.split(/([^\u0000-\u007F]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF]/.test(p)?<span key={pi} style={{fontSize:16,fontWeight:800}}>{p}</span>:<span key={pi}>{p}</span>)}</p>;
+                  return <p key={i} style={{fontSize:13,color:"var(--purple-accent-text)",fontWeight:600,lineHeight:1.6,margin:"3px 0"}}>{ln.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(p)?<span key={pi} style={{fontSize:16,fontWeight:800}}>{p}</span>:<span key={pi}>{p}</span>)}</p>;
                 })}
               </div>}
               {/* Goals */}
