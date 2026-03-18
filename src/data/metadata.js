@@ -470,3 +470,98 @@ export const SCRIPT_BLUEPRINTS = {
   latin_simple:  ["orientation","accent_rules","pronunciation_traps","spelling_patterns"],
 };
 
+// ── Universal Tokenizer Configuration ──
+// Per-language tokenizer config: script detection, word boundaries, particles/articles,
+// contraction handling, and grammar colorizer color maps.
+// grammarColors: toggle-able color-coded grammar highlighting for pattern recognition.
+// Each category has: match[] (lowercase tokens), color (light), dk (dark), label (tooltip).
+export const LANG_TOKENIZER = {
+  ko: {
+    scriptRange: /[\uAC00-\uD7AF]/,
+    wordBoundary: "space",
+    particles: ["에서","으로","이에요","예요","부터","까지","처럼","같이","보다","한테","한테서","에게","에게서","마다","만큼","밖에","조차","마저","이나","나","도","만","은","는","이","가","을","를","에","의","와","과","하고","랑","이랑"],
+    conjugationMap: {
+      "있어요":"있다","없어요":"없다","해요":"하다","가요":"가다","와요":"오다",
+      "먹어요":"먹다","마셔요":"마시다","봐요":"보다","들어요":"듣다","살아요":"살다",
+      "알아요":"알다","몰라요":"모르다","좋아요":"좋다","싫어요":"싫다","커요":"크다",
+      "작아요":"작다","예뻐요":"예쁘다","무거워요":"무겁다","가벼워요":"가볍다",
+      "했어요":"하다","갔어요":"가다","왔어요":"오다","먹었어요":"먹다","봤어요":"보다",
+      "할 거예요":"하다","갈 거예요":"가다","올 거예요":"오다",
+      "하고 있어요":"하다","가고 있어요":"가다","먹고 있어요":"먹다",
+      "합니다":"하다","갑니다":"가다","옵니다":"오다","먹습니다":"먹다",
+      "해":"하다","가":"가다","와":"오다","먹어":"먹다","봐":"보다",
+      "하세요":"하다","가세요":"가다","오세요":"오다","드세요":"들다",
+      "하겠습니다":"하다","되겠습니다":"되다"
+    },
+    grammarColors: {
+      topic:    { match:["은","는"], color:"#4A8FE7", dk:"#7AB8FF", label:"Topic marker" },
+      subject:  { match:["이","가"], color:"#2ECDA7", dk:"#50E0C0", label:"Subject marker" },
+      object:   { match:["을","를"], color:"#E8475E", dk:"#F58888", label:"Object marker" },
+      location: { match:["에","에서"], color:"#E8960A", dk:"#F5C040", label:"Location" },
+      direction:{ match:["으로","로"], color:"#9B7AE8", dk:"#B8A8FA", label:"Direction" },
+      possessive:{ match:["의"], color:"#C084FC", dk:"#D4A8FF", label:"Possessive" },
+      connector:{ match:["와","과","하고","랑","이랑"], color:"#F59E0B", dk:"#FCD34D", label:"And/with" },
+      comparison:{ match:["보다"], color:"#EC4899", dk:"#F472B6", label:"Comparison" },
+    }
+  },
+  nl: {
+    scriptRange: /[a-zA-Z\u00C0-\u024F]/,
+    wordBoundary: "space",
+    articles: ["de","het","een"],
+    grammarColors: {
+      article_de:  { match:["de"],  color:"#4A8FE7", dk:"#7AB8FF", label:"de (common)" },
+      article_het: { match:["het"], color:"#E8960A", dk:"#F5C040", label:"het (neuter)" },
+      article_een: { match:["een"], color:"#94A3B8", dk:"#CBD5E1", label:"een (indefinite)" },
+      preposition: { match:["in","op","aan","met","van","voor","na","uit","bij","naar","over","onder","tussen","door","om","tegen","zonder","tijdens","vanaf","tot","binnen","buiten"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction: { match:["en","maar","of","want","dus","omdat","dat","als","toen","terwijl","hoewel","zodat","doordat","tenzij","mits","naarmate"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:     { match:["ik","jij","je","hij","zij","ze","het","wij","we","jullie","u","mij","me","hem","haar","ons","hen","hun"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+    }
+  },
+  de: {
+    scriptRange: /[a-zA-Z\u00C0-\u024F]/,
+    wordBoundary: "space",
+    articles: ["der","die","das","den","dem","des","ein","eine","einem","einen","einer","eines"],
+    grammarColors: {
+      article_der: { match:["der"], color:"#4A8FE7", dk:"#7AB8FF", label:"der (masc nom)" },
+      article_die: { match:["die"], color:"#E8475E", dk:"#F58888", label:"die (fem/pl)" },
+      article_das: { match:["das"], color:"#7B5EE8", dk:"#A890FF", label:"das (neut)" },
+      article_den: { match:["den"], color:"#3B82F6", dk:"#60A5FA", label:"den (masc acc)" },
+      article_dem: { match:["dem"], color:"#6366F1", dk:"#818CF8", label:"dem (dat)" },
+      article_des: { match:["des"], color:"#8B5CF6", dk:"#A78BFA", label:"des (gen)" },
+      preposition:  { match:["in","an","auf","mit","von","für","nach","zu","aus","bei","über","unter","zwischen","neben","vor","hinter","seit","bis","gegen","ohne","um","durch","während","wegen","trotz","statt"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction:  { match:["und","aber","oder","denn","sondern","weil","dass","wenn","als","ob","obwohl","damit","bevor","nachdem","während","sobald","falls"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:      { match:["ich","du","er","sie","es","wir","ihr","Sie","mich","dich","ihn","uns","euch","mir","dir","ihm","ihnen","Ihnen"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+    }
+  },
+  fr: {
+    scriptRange: /[a-zA-Z\u00C0-\u024F]/,
+    wordBoundary: "space",
+    articles: ["le","la","les","l'","un","une","des","du","au","aux","de la","de l'"],
+    contractions: {"l'":["le","la"],"d'":"de","qu'":"que","n'":"ne","j'":"je","s'":"se","c'":"ce","m'":"me","t'":"te"},
+    grammarColors: {
+      article_le:  { match:["le"], color:"#4A8FE7", dk:"#7AB8FF", label:"le (masc)" },
+      article_la:  { match:["la"], color:"#E8475E", dk:"#F58888", label:"la (fem)" },
+      article_les: { match:["les"], color:"#6366F1", dk:"#818CF8", label:"les (plural)" },
+      article_un:  { match:["un","une"], color:"#94A3B8", dk:"#CBD5E1", label:"Indefinite" },
+      preposition: { match:["à","de","en","dans","sur","sous","avec","pour","par","chez","vers","entre","contre","devant","derrière","depuis","pendant","sans","selon"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction: { match:["et","mais","ou","donc","car","ni","parce que","puisque","quand","lorsque","si","bien que","quoique","afin que","pour que"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:     { match:["je","tu","il","elle","on","nous","vous","ils","elles","me","te","se","lui","leur","y","en","moi","toi"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+    }
+  },
+  es: {
+    scriptRange: /[a-zA-Z\u00C0-\u024F\u00F1\u00D1]/,
+    wordBoundary: "space",
+    articles: ["el","la","los","las","un","una","unos","unas","al","del"],
+    contractions: {"al":"a el","del":"de el"},
+    grammarColors: {
+      article_el:  { match:["el"], color:"#4A8FE7", dk:"#7AB8FF", label:"el (masc)" },
+      article_la:  { match:["la"], color:"#E8475E", dk:"#F58888", label:"la (fem)" },
+      article_los: { match:["los"], color:"#3B82F6", dk:"#60A5FA", label:"los (masc pl)" },
+      article_las: { match:["las"], color:"#F472B6", dk:"#F9A8D4", label:"las (fem pl)" },
+      preposition: { match:["a","de","en","con","por","para","sin","sobre","entre","hacia","hasta","desde","durante","según","contra","ante","bajo","tras"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction: { match:["y","e","pero","sino","o","u","porque","que","cuando","si","aunque","mientras","como","donde","ni","ya que","puesto que"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:     { match:["yo","tú","él","ella","usted","nosotros","nosotras","vosotros","vosotras","ellos","ellas","ustedes","me","te","se","nos","os","lo","la","le","les"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+    }
+  }
+};
+
