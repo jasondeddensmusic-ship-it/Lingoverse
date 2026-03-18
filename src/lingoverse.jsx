@@ -8214,7 +8214,7 @@ function _romanize(text){
 // Normalize search string: strip diacritics + collapse Korean romanization variants
 function _normS(s){
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
-    .replace(/young|yoong/g,'yeong').replace(/yung|yeng/g,'yeong')
+    .replace(/young|yoong/g,'yeong').replace(/yung/g,'yeong')
     .replace(/yong(?=[^aeiou]|$)/g,'yeong')
     .replace(/eu/g,'eo').replace(/uh(?=[^a-z]|$)/g,'eo').replace(/oo/g,'u');
 }
