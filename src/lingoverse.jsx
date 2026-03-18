@@ -6096,7 +6096,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-rz-ne::before{top:5px;right:5px;width:8px;height:8px;border-width:2px 2px 0 0;}
 .vr-rz-nw::before{top:5px;left:5px;width:8px;height:8px;border-width:2px 0 0 2px;}
 .vr-rz:hover::before{border-color:rgba(123,94,232,0.9);}
-@keyframes vr-inflate{0%{transform:scale(1.68);}44%{transform:scale(0.94);}70%{transform:scale(1.04);}100%{transform:scale(1.0);}}
+@keyframes vr-inflate{0%{transform:scale(1.62);border-radius:2px;}26%{transform:scale(1.04) scaleX(0.87);border-radius:11px;}50%{transform:scale(0.94);border-radius:20px;}73%{transform:scale(1.04);border-radius:20px;}100%{transform:scale(1.0);border-radius:20px;}}
 .vr-edge{position:absolute;z-index:19;touch-action:none;-webkit-tap-highlight-color:transparent;}
 .vr-edge-n{top:0;left:14px;right:14px;height:7px;cursor:n-resize;}
 .vr-edge-s{bottom:0;left:14px;right:14px;height:7px;cursor:s-resize;}
@@ -13333,7 +13333,7 @@ export default function App(){
     <>
       <style>{CSS}</style>
       {/* Verumius chat panel */}
-      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)",animation:vrExiting?"vr-inflate 0.56s cubic-bezier(0.25,1,0.38,1) forwards":""}}>
+      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)",animation:vrExiting?"vr-inflate 0.46s cubic-bezier(0,0,0.3,1) forwards":""}}>
         <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
           <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0,pointerEvents:"none"}}/>
           <div className="vr-hdr-info" style={{pointerEvents:"none"}}>
