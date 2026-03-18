@@ -13033,6 +13033,7 @@ export default function App(){
   const [vrPos,setVrPos]=useState(null);
   const [vrFullscreen,setVrFullscreen]=useState(false);
   const [vrDragging,setVrDragging]=useState(false);
+  const [vrSource,setVrSource]=useState("fab"); // "fab"=side panel small, "nav"=topnav fullscreen
   useEffect(()=>{const t=setTimeout(()=>{if(vScrollRef.current)vScrollRef.current.scrollTo({top:vScrollRef.current.scrollHeight,behavior:"smooth"});},55);return()=>clearTimeout(t);},[vMsgs,vLoading]);
   const onVrHdrMouseDown=(e)=>{
     if(vrFullscreen||e.target.closest('.vr-hdr-btns'))return;
@@ -13230,7 +13231,7 @@ export default function App(){
             <span style={{marginRight:6,display:"inline-flex"}}><CountryFlag code={lang} size={22}/></span>
             <span className="topnav-logo" style={{fontSize:20}}>LingoVerse</span>
           </div>
-          <div className={`topnav-item ${showVerumius?"active":""}`} onClick={()=>setShowVerumius(v=>!v)} style={{flex:1,justifyContent:"center"}}>
+          <div className={`topnav-item ${showVerumius&&vrFullscreen?"active":""}`} onClick={()=>{if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}else{setVrSource("nav");setVrPos(null);setVrFullscreen(true);setShowVerumius(true);}}} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="robot" size={28}/></span><span>{t("nav_chat",baseLang)}</span>
           </div>
         </div>
@@ -13242,7 +13243,7 @@ export default function App(){
     <>
       <style>{CSS}</style>
       {/* Verumius chat panel */}
-      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:0,left:0,right:"auto",bottom:"auto",width:"100vw",height:"100dvh",maxHeight:"100dvh",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto",transition:vrDragging?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)"}:{}}>
+      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto",transition:vrDragging?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)"}:{}}>
         <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
           <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0,pointerEvents:"none"}}/>
           <div className="vr-hdr-info" style={{pointerEvents:"none"}}>
@@ -13253,8 +13254,8 @@ export default function App(){
             <button className="vr-hbtn" title="Save to profile (coming soon)">＋</button>
             <button className="vr-hbtn" title={vrFullscreen?"Minimize":"Fullscreen"} onClick={vrFullscreen?exitVrFullscreen:goVrFullscreen}>
               {vrFullscreen
-                ?<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 2L5 5L2 5M7 2L7 5L10 5M5 10L5 7L2 7M7 10L7 7L10 7"/></svg>
-                :<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 5L2 2L5 2M7 2L10 2L10 5M2 7L2 10L5 10M7 10L10 10L10 7"/></svg>}
+                ?<svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 1L5 5L1 5M9 1L9 5L13 5M5 13L5 9L1 9M9 13L9 9L13 9"/></svg>
+                :<svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M1 5L1 1L5 1M9 1L13 1L13 5M1 9L1 13L5 13M9 13L13 13L13 9"/></svg>}
             </button>
             <button className="vr-hbtn" title="New conversation" onClick={()=>{setVMsgs([]);setVInput("");}}>↺</button>
             <button className="vr-xbtn" onClick={()=>{setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}}>✕</button>
@@ -13262,7 +13263,7 @@ export default function App(){
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
           <div className="vr-ai">Hey, I'm Verumius 😊 What do you need?</div>
-          {vMsgs.length===0&&<div className="vr-qr">
+          {vMsgs.length===0&&vrSource==="fab"&&<div className="vr-qr">
             <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a question about something on this screen.")}>Ask about this screen</button>
             <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a language question.")}>Ask any question</button>
           </div>}
@@ -13290,7 +13291,7 @@ export default function App(){
           <button data-search-btn className={"vl-ibtn"+(showSearch?" on":"")} title="Search (Ctrl+F)" onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})}>
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke={showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788")} strokeWidth="2.2" strokeLinecap="round"><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
           </button>
-          <button className={"vl-ibtn"+(showVerumius?" on":"")} title="Ask Verumius" onClick={()=>setShowVerumius(v=>!v)}>
+          <button className={"vl-ibtn"+(showVerumius?" on":"")} title="Ask Verumius" onClick={()=>{setVrSource("fab");setVrFullscreen(false);setShowVerumius(v=>!v);}}>
             <AppIcon name="robot" size={20}/>
           </button>
         </div>}
