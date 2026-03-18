@@ -13213,12 +13213,30 @@ export default function App(){
             </div>
           );
           if(s.type==="intro") return(
-            <>
-              <div className="sp-intro-title">{s.title||lesson.title}</div>
-              {s.desc&&<div className="sp-intro-desc">{s.desc}</div>}
-              {(s.goals||[]).map((g,i)=><div key={i} className="sp-goal"><span>✦</span>{g}</div>)}
-              <div style={{height:14}}/>
-            </>
+            <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden"}}>
+              {/* Top strip */}
+              <div style={{background:"linear-gradient(135deg,rgba(123,94,232,0.06),rgba(46,205,167,0.04))",padding:"14px 22px 12px",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                <span style={{fontSize:28}}>{lesson.icon||"📖"}</span>
+                <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)"}}>Lesson</span>
+              </div>
+              {/* Title */}
+              <div style={{textAlign:"center",padding:"14px 24px 6px"}}>
+                <h2 style={{fontSize:22,fontWeight:800,color:"var(--gray-800)",lineHeight:1.2,fontFamily:"'Quicksand',system-ui,sans-serif",margin:0}}>{s.title||lesson.title}</h2>
+              </div>
+              {/* Desc */}
+              {s.desc&&<div style={{textAlign:"center",padding:"4px 20px 14px"}}>
+                {(s.desc.split(/\\n|\n/)).map((ln,i)=>{
+                  const hk=/[\uAC00-\uD7AF\u3130-\u318F]/.test(ln.trim());
+                  if(!ln.trim()) return <div key={i} style={{height:10}}/>;
+                  return <p key={i} style={{fontSize:13,color:"var(--purple-accent-text)",fontWeight:600,lineHeight:1.6,margin:"3px 0"}}>{ln.split(/([^\u0000-\u007F]+)/g).map((p,pi)=>/[\u3130-\u318F\uAC00-\uD7AF]/.test(p)?<span key={pi} style={{fontSize:16,fontWeight:800}}>{p}</span>:<span key={pi}>{p}</span>)}</p>;
+                })}
+              </div>}
+              {/* Goals */}
+              {s.goals&&s.goals.length>0&&<div style={{borderTop:"1.5px solid var(--gray-100)",padding:"12px 22px 14px"}}>
+                <div style={{fontSize:9.5,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)",marginBottom:8}}>In this lesson</div>
+                {s.goals.map((g,i)=><div key={i} style={{fontSize:13,color:"var(--teal-text)",fontWeight:600,padding:"4px 0",display:"flex",alignItems:"center",gap:8}}><span style={{color:"var(--teal-text)",fontWeight:800,fontSize:11}}>▸</span><span>{g}</span></div>)}
+              </div>}
+            </div>
           );
           return(<div style={{padding:"16px",fontSize:13,color:"var(--gray-500)"}}>{s.title&&<div style={{fontWeight:700,color:"var(--gray-700)",marginBottom:8}}>{s.title}</div>}{s.q&&<div style={{marginBottom:8,fontWeight:600}}>{s.q}</div>}{s.text&&<div style={{lineHeight:1.6}}>{s.text}</div>}{s.s&&<div style={{fontWeight:600,color:"var(--gray-700)"}}>{s.s}</div>}<div style={{height:12}}/></div>);
         };
@@ -13231,7 +13249,7 @@ export default function App(){
                   const band=(unit.level||"xx").slice(0,2).toLowerCase().replace(".","");
                   const blk={display:"inline-flex",alignItems:"center",justifyContent:"center",background:"linear-gradient(180deg,#9B7AE8 0%,#7B5EE8 55%,#6040C8 100%)",color:"#fff",borderRadius:5,fontSize:8.5,fontWeight:900,padding:"0 6px",height:17,letterSpacing:.4,position:"relative",zIndex:1,boxShadow:"0 2px 6px rgba(123,94,232,0.35),inset 0 1px 0 rgba(255,255,255,0.35)"};
                   return(<>
-                    <span className={`sf-band sf-band-${band}`} style={{height:17,minWidth:22,fontSize:8.5,borderRadius:5,position:"relative",zIndex:1,boxShadow:"0 2px 6px rgba(0,0,0,0.15),inset 0 1px 0 rgba(255,255,255,0.35)"}}>{(unit.level||"").slice(0,2)}</span>
+                    <span style={blk}>{(unit.level||"").slice(0,2)}</span>
                     <span style={blk}>U{unit.n}</span>
                     <span style={blk}>L{lNum>0?lNum:"?"}</span>
                     <span style={blk}>S{si+1}</span>
