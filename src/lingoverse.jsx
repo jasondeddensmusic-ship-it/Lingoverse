@@ -6061,7 +6061,10 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 :root.dark .vr-hdr-name{color:#C8BBFF;}
 .vr-hdr-sub{font-size:10px;font-weight:600;color:rgba(100,80,180,0.65);letter-spacing:.3px;}
 :root.dark .vr-hdr-sub{color:rgba(180,160,255,0.55);}
-.vr-xbtn{flex-shrink:0;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 3px 8px rgba(123,94,232,0.4),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);}.vr-xbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-xbtn:hover{filter:brightness(1.1);}
+.vr-hdr-btns{display:flex;align-items:center;gap:5px;flex-shrink:0;margin-left:auto;}
+.vr-hbtn{background:linear-gradient(180deg,rgba(200,190,255,0.5)0%,rgba(175,160,240,0.4)50%,rgba(155,140,225,0.35)100%);border:1px solid rgba(180,165,240,0.45);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#5038A0;font-size:13px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 2px 6px rgba(123,94,232,0.18),inset 0 2px 0 rgba(255,255,255,0.5),inset 0 -1px 0 rgba(123,94,232,0.1);}.vr-hbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.45),transparent);pointer-events:none;}.vr-hbtn:hover{filter:brightness(1.08);transform:scale(1.05);}
+:root.dark .vr-hbtn{background:linear-gradient(180deg,rgba(90,70,170,0.5)0%,rgba(70,55,150,0.4)100%);border-color:rgba(140,120,220,0.35);color:#C0AEFF;}
+.vr-xbtn{background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 3px 8px rgba(123,94,232,0.4),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);}.vr-xbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-xbtn:hover{filter:brightness(1.1);}
 .vr-msgs{flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:10px;min-height:100px;}
 .vr-ai{align-self:flex-start;max-width:86%;background:linear-gradient(180deg,rgba(200,190,255,0.45)0%,rgba(220,210,255,0.3)50%,rgba(235,230,255,0.18)100%);border:1.5px solid rgba(180,165,240,0.4);border-radius:20px 20px 20px 4px;padding:11px 15px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:#5038A0;box-shadow:0 6px 24px rgba(123,94,232,0.1),0 0 12px rgba(180,165,240,0.15),inset 0 2px 0 rgba(255,255,255,0.75),inset 0 -3px 0 rgba(123,94,232,0.05);position:relative;overflow:hidden;transform-origin:bottom left;animation:vr-pop-l 0.3s cubic-bezier(0.34,1.56,0.64,1) both;}.vr-ai::before{content:'';position:absolute;top:0;left:5%;right:5%;height:42%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.55)0%,rgba(255,255,255,0.1)60%,transparent 100%);pointer-events:none;}
 :root.dark .vr-ai{background:linear-gradient(180deg,rgba(80,60,160,0.55)0%,rgba(60,45,130,0.4)50%,rgba(45,35,110,0.25)100%);border-color:rgba(140,120,220,0.35);color:#C8BBFF;box-shadow:0 6px 24px rgba(0,0,0,0.2),0 0 12px rgba(120,100,200,0.15),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -3px 0 rgba(0,0,0,0.1);}
@@ -10033,6 +10036,17 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   useEffect(()=>{
     if(si>0&&!done){try{_memStore[progressKey]=JSON.stringify({si,score});}catch(e){}}
   },[si,done]);
+  // Expose current step to Verumius AI context
+  useEffect(()=>{
+    const st=steps[si];
+    if(st){
+      // Strip answer fields so Verumius can't cheat for the learner
+      const safe={...st};
+      delete safe.a; delete safe.ans; delete safe.blanks;
+      window.vr_step={step:safe,si,total:steps.length,lessonId,lessonTitle:lesson?.title,lang};
+    }
+    return()=>{window.vr_step=null;};
+  },[si,lessonId]);
   // Clear progress on completion
   const doneFiredRef=useRef(false);
   useEffect(()=>{
@@ -12978,7 +12992,7 @@ export default function App(){
     const next=[...vMsgs,msg];
     setVMsgs(next);if(!text)setVInput("");setVLoading(true);
     try{
-      const ctx={page,lang,langName:LANG_META[lang]?.name||lang,unitN:jumpTo?.unit?.n,unitTitle:jumpTo?.unit?.title,lessonTitle:jumpTo?.lesson?.title};
+      const ctx={page,lang,langName:LANG_META[lang]?.name||lang,unitN:jumpTo?.unit?.n,unitTitle:jumpTo?.unit?.title,lessonTitle:jumpTo?.lesson?.title,currentStep:window.vr_step||null};
       const r=await fetch("https://verumlingua-ai.xqkv62nnqq.workers.dev",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:next,context:ctx})});
       const d=await r.json();
       const reply=d.content?.[0]?.text||(d.error?.message?`Error: ${d.error.message}`:"Sorry, something went wrong.");
@@ -13156,7 +13170,11 @@ export default function App(){
             <div className="vr-hdr-name">Verumius</div>
             <div className="vr-hdr-sub">VerumLingua AI tutor</div>
           </div>
-          <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
+          <div className="vr-hdr-btns">
+            <button className="vr-hbtn" title="Save to profile (coming soon)">＋</button>
+            <button className="vr-hbtn" title="New conversation" onClick={()=>{setVMsgs([]);setVInput("");}}>↺</button>
+            <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
+          </div>
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
           <div className="vr-ai">Hi, I'm Verumius 😊 Your personal tutor on VerumLingua. Ask me anything about what you see on screen, or any language question you have.</div>
