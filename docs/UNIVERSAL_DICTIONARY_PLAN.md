@@ -1,28 +1,78 @@
 # Universal Word Dictionary & Grammar Colorizer — Handoff
 
-> **Status**: Batches 1-7 IMPLEMENTED (2026-03-18). Merged to main. NOT YET VISUALLY TESTED.
-> **Commit**: `daee5f8` on main. Cloudflare Workers accidental merge reverted in `fe1ab14`.
+> **Status**: Batches 1-7 code written (2026-03-18). Owner-tested 2026-03-19. Multiple issues found. Phase 2 required.
+> **Commit**: `daee5f8` on main. Cloudflare Workers accidental merge reverted in `fe1ab14`. Handoff doc updated in `bf1ae28`.
 
-## What Was Built
+## What Was Built (Phase 1 - Code on main)
 
-Expanded the Korean-only word dictionary system (KOREAN_DICT, tokenizeKorean, koreanHl, WordBubble) into a universal system for ALL 5 languages (ko, nl, de, fr, es):
-- Gold-highlighted (#E8960A) untaught NOUNS in example sentences/dialogues (clickable -> dictionary popup)
-- VERBS, IDIOMS, SET EXPRESSIONS, and PHRASES always get dedicated teach cards (never gold-highlight). ONLY pure nouns get gold.
-- DeepDives never count as exposure
-- Universal tokenizer per language family (articles, particles, case markers, contractions)
-- Toggle-able grammar colorizer (articles, particles, prepositions, conjunctions, pronouns)
-- WordBubble expanded to all languages
-- VocabularyPage connected to auto-generated dictionary
-- smartHl accent bug FIXED (Latin diacritics no longer treated as non-Latin script)
+- `src/data/dictionary.js` (NEW, 173 lines): Auto-builds LANG_DICT from teach cards
+- `src/data/metadata.js` (+95 lines): LANG_TOKENIZER config for ko/nl/de/fr/es
+- `src/lingoverse.jsx` (+505/-57 lines): tokenize(), universalHl(), MiniWordPopup, grammar toggle, VocabularyPage, accent bug fix (11 locations)
 
-## Files Modified/Created
+## Owner Testing Results (2026-03-19)
 
-| File | Change |
-|------|--------|
-| `src/data/dictionary.js` | NEW (173 lines): Auto-builds LANG_DICT from teach cards at module load |
-| `src/data/metadata.js` | +95 lines: LANG_TOKENIZER config for all 5 languages (after line 478) |
-| `src/lingoverse.jsx` | +505/-57 lines: tokenize, universalHl, MiniWordPopup, grammar toggle, VocabularyPage, accent fix |
-| `docs/UNIVERSAL_DICTIONARY_PLAN.md` | This file |
+### Working
+- Accent bug FIXED: French "Les pieces" title renders e-grave correctly
+- Korean WordBubble: opens correctly with full info when clicking Korean words
+- Aa toggle button: visible in lesson toolbar
+- Search bar: "cafe" finds "cafe" (comfort input intact)
+- Grammar colorizer: SOME colors appear when toggled
+
+### NOT Working / Needs Rework
+- **Gold noun highlights NOT showing.** Zero gold anywhere in example sentences.
+- **Grammar colors WRONG.** Articles getting generic blue for both masc AND fem. Should keep gender colors (le=blue, la=coral). Not all words mapped to colors.
+- **Dashed underlines missing** on most target-language words in examples. Owner wants EVERY target-language word clickable.
+- **WordBubble "peekhole" bug**: expanded popup creates ugly square window surrounded by white. Needs smooth full overlay.
+- **MiniWordPopup**: never appears (gold highlights not triggering, so popup has nothing to show)
+
+## Phase 2: What Needs To Be Built (NEXT SESSION)
+
+### Critical Design Decisions (owner-confirmed 2026-03-19)
+
+**1. Dictionary scope: EVERY word.**
+Every single word in the target language that appears anywhere in the curriculum must have a dictionary entry and be clickable with dashed underline. Nouns, verbs, adjectives, adverbs, prepositions, conjunctions, articles, pronouns, particles. Nothing excluded. If dictionary.js doesn't have it, it needs to be added.
+
+**2. Grammar colorizer color rules:**
+- Every individual word type gets its own distinct color (fine-grained, not just broad categories)
+- Articles KEEP their gender colors from teach cards (le=blue/masc, la=coral/fem, der=blue, die=coral, das=purple, de=blue, het=gold)
+- Prepositions, conjunctions, pronouns, adverbs each get distinct colors
+- Subject pronouns vs object pronouns = different colors if possible
+
+**3. Purple toggle rule (NON-NEGOTIABLE):**
+- Toggle ON: translations (English/source text) turn PURPLE. NO target-language word is ever purple.
+- Toggle OFF: everything returns to current default styling.
+- Purple = VerumLingua accent color, shifted to non-content text when grammar colors active.
+
+**4. Popup architecture:**
+- Clicking ANY word: MINI popup first (word, translation, part of speech, level badge)
+- Tap to expand: FULL WordBubble with TABS (Overview, Examples, Grammar, Related)
+- Full info available in tabs: word, translation, article/gender, conjugation (verbs), plural form, examples, related words, level, pronunciation
+- ALL in VerumLingua candy gloss style
+- FIX the peekhole bug on expanded WordBubble
+
+**5. Mobile-first:**
+- Mobile site is currently glitchy
+- All new UI must work on iPhone (375px) AND desktop
+- Popups: bottom-sheet on mobile, centered modal on desktop
+- Smooth, swift, clean transitions. iOS old-school candy gloss aesthetic.
+
+### Phase 2 Build Order
+
+1. **Fix gold highlights** - debug why universalHl() isn't rendering gold on untaught nouns in examples
+2. **Fix grammar colors** - articles use gender colors, not generic. Remap LANG_TOKENIZER grammarColors.
+3. **Purple toggle rule** - when grammarHl=true, wrap translations in purple. No target word purple.
+4. **Dictionary completeness** - extract ALL words from examples/dialogues/quizzes, not just teach cards. Every word gets an entry.
+5. **Every word clickable** - dashed underline on ALL target-language words in examples
+6. **Mini popup redesign** - compact bottom-sheet on mobile, modal on desktop
+7. **Full WordBubble tabs** - Overview/Examples/Grammar/Related tabs. Fix peekhole layout bug.
+8. **Color legend popup** - info icon on Aa button showing color meanings per language
+
+### Future Phases (plan now, build later)
+
+- **Navigation restructure**: Bottom nav for mobile, top nav for PC. Profile / Home / Chat (Verumius). Under Home: Learn Path, Vocab, Grammar, Idioms, Personal, Quiz Yourself.
+- **Personal Curriculum tab** (replaces Flashcards): Saved cards, custom quizzes, chat logs, AI-generated lessons, community lessons.
+- **Verumius AI integration**: Lesson generation via Claude API + Cloudflare Workers. 2-3 narrowing questions, CEFR-aware, saves to Personal section + shared database.
+- **Site rebrand**: Name is still "LingoVerse" on site. Needs to be "VerumLingua" everywhere.
 
 ## Key Line Numbers in lingoverse.jsx
 
@@ -39,76 +89,7 @@ Expanded the Korean-only word dictionary system (KOREAN_DICT, tokenizeKorean, ko
 | `MiniWordPopup` | ~11537 | Gold-themed compact popup for untaught nouns |
 | VocabularyPage `dictVocab` | ~7834 | LANG_DICT as primary data source |
 
-## Batch Details
-
-### Batch 1: smartHl Accent Bug Fix (DONE)
-Changed 11 rendering locations from `/([^\u0000-\u007F]+)/g` to script-specific regex that only splits on actual non-Latin scripts (Hangul, Arabic, CJK, Japanese, Cyrillic). Kept leak validator regex unchanged (it correctly needs to detect ALL non-ASCII).
-
-### Batch 2: Data Architecture (DONE)
-- **LANG_TOKENIZER** in metadata.js: Per-language config with articles, particles, contractions, grammarColors for ko/nl/de/fr/es
-- **dictionary.js**: Auto-builder that iterates ALL teach cards across all units files, detects articles via ARTICLE_SYSTEMS, classifies noun/verb/phrase, builds keyed dictionary. Korean entries get merged with hand-crafted KOREAN_DICT overrides.
-
-### Batch 3: Universal Tokenizer (DONE)
-- `tokenize(text, lang)` dispatcher in lingoverse.jsx
-- Korean path: wraps existing tokenizeKorean
-- European path: handles articles, contractions, punctuation, dictionary lookups
-- Unified token format: `{text, key, isTarget, article, particle, inDict, entry, kind, isTaught, isGrammar, grammarCategory, grammarColor}`
-
-### Batch 4: Universal Highlighting (DONE)
-- `universalHl(text, lang)` replaces ALL 18+ koreanHl/smartHl conditional call sites
-- Logic: taught word -> purple clickable (WordBubble), untaught noun -> GOLD clickable (MiniWordPopup), grammar marker (when toggle ON) -> colored per grammarColors, else -> smartHl fallback
-- `MiniWordPopup` component: compact gold-themed popup for untaught nouns
-
-### Batch 5: Grammar Colorizer Toggle (DONE)
-- `grammarHl` state persisted in localStorage (`vl_grammar_hl`)
-- Default: ON for A1-A2, OFF for B1+
-- Toggle button ("Aa") in lesson toolbar ProgressBar
-- Grammar tokens colored per LANG_TOKENIZER[lang].grammarColors when ON
-
-### Batch 6: WordBubble Expansion (DONE)
-- `bubbleHl` in WordBubble handles all languages (Korean preserved, European added)
-- Article badge support via ARTICLE_SYSTEMS colors
-- Dictionary entries from LANG_DICT
-
-### Batch 7: VocabularyPage Connection (DONE)
-- Uses LANG_DICT as primary data source (falls back to VOCAB)
-- Enhanced search: matches word, translation, phonetic, article+word
-- Word entries show article, level, kind, example
-
-## What's NOT Done Yet
-
-### Priority 1: Visual Testing (BLOCKING)
-Code is on main but has NOT been browser-tested. The next session MUST open lingoverse.nl and verify:
-1. French lesson (e.g. "Les pieces"): e-grave renders inline, NOT purple-highlighted separately
-2. Korean lesson: dictionary + WordBubble work identically to before (no regression)
-3. Grammar toggle "Aa" button: visible in lesson toolbar, ON/OFF toggles grammar colors
-4. Gold noun highlights: untaught nouns in examples show gold, clicking opens MiniWordPopup
-5. MiniWordPopup: displays word, article badge, translation, level, close button works
-6. VocabularyPage: shows LANG_DICT words per language, search works across word/translation/phonetic
-7. Search bar comfort input: typing "cafe" still finds "cafe" (diacritic normalization intact)
-8. Dutch/German/Spanish lessons: no visual regressions in teach cards, tips, quizzes
-9. Dark mode: all new elements (grammar colors, gold highlights, MiniWordPopup) look correct
-
-If ANY of these fail, the fix is in universalHl() (~line 11433) or tokenize() (~line 11004). The smartHl() and koreanHl() functions are preserved as fallbacks.
-
-### Priority 2: Gold Color Overlap
-Dutch het-article (#E8960A) and untaught noun gold (#E8960A) are the same color when grammar colorizer is ON. Options:
-- Use a slightly different shade for untaught nouns (e.g. #D4880C amber)
-- Use dotted underline for het-article vs solid underline for untaught nouns
-- Accept it (different visual contexts: grammar color = text color, untaught = text + solid underline)
-
-### Priority 3: Color Legend Popup
-Long-press or info icon next to grammar toggle "Aa" button. Shows current language's grammar categories with color swatches:
-- Korean: "Topic (blue), Subject (teal), Object (coral)..."
-- Dutch: "de (blue), het (gold), Prepositions (teal)..."
-- Data source: LANG_TOKENIZER[lang].grammarColors in metadata.js
-
-### Stretch Goals
-- **Dissect view**: Compound word splitting in WordBubble (Korean morph field exists, Germanic compound splitting basic)
-- **Lesson-end vocab summary**: 2x2 grid of new vocab encountered during lesson
-- **Synonym support**: Multiple dictionary entries linking to same meaning
-
-## Architecture Notes
+## Architecture
 
 ### Token Flow
 ```
@@ -128,10 +109,4 @@ units-*.js teach cards -> buildLangDict() -> LANG_DICT[lang]
                                                |
                                     lookupWord(word, lang)
 ```
-
-### Grammar Colorizer Categories (per language)
-- **Korean**: topic(blue), subject(teal), object(coral), location(gold), direction(purple), possessive(pink), connector(orange), comparison(cyan)
-- **Dutch**: de(blue), het(gold), een(teal), preposition(green), conjunction(purple), pronoun(pink)
-- **German**: der(blue), die(coral), das(purple), den(teal), dem(green), des(orange), preposition(green), conjunction(purple), pronoun(pink)
-- **French**: le(blue), la(coral), les(teal), un(green), preposition(green), conjunction(purple), pronoun(pink)
-- **Spanish**: el(blue), la(coral), los(teal), las(pink), preposition(green), conjunction(purple), pronoun(pink)
+NOTE: dictionary.js currently only extracts teach card words. Phase 2 must expand to extract ALL words from example sentences, dialogues, quiz sentences, notes.
