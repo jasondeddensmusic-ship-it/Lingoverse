@@ -13093,9 +13093,12 @@ export default function App(){
         const {unit,lesson,si,step:s}=previewResult;
         const SL={teach:"word card",tip:"tip",mc:"multiple choice",fb:"fill blank",drag_fill:"drag fill",match:"match",verb_table:"verb table",tr:"translation",intro:"intro"};
         const renderCard=()=>{
+          const dk=darkMode;
+          // Shared compound bubble — matches actual quiz question card
+          const qBubSt={background:dk?"linear-gradient(180deg,rgba(123,94,232,0.22)0%,rgba(100,80,200,0.14)40%,rgba(80,60,180,0.08)100%)":"linear-gradient(180deg,rgba(200,190,255,0.45)0%,rgba(220,210,255,0.3)50%,rgba(235,230,255,0.18)100%)",borderRadius:22,padding:"20px 22px",marginBottom:14,textAlign:"center",position:"relative",overflow:"hidden",border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3),inset 0 2px 0 rgba(255,255,255,0.07),inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1),inset 0 2px 0 rgba(255,255,255,0.75),inset 0 -3px 0 rgba(123,94,232,0.05)"};
+          const qArc=<div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.01),transparent)":"linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.1),transparent)",pointerEvents:"none",zIndex:1}}/>;
           if(s.type==="teach"){
             const tLang=unit.lang||"nl";
-            const dk=darkMode;
             const art=getArticle(s.nl,tLang);
             const c=ARTICLE_COLORS[art]||{pill:"rgba(123,94,232,0.1)",pillText:"#7B5EE8"};
             const kind=s.kind||"word";
@@ -13191,28 +13194,49 @@ export default function App(){
             );
           }
           if(s.type==="tip") return(
-            <>
-              {s.title&&<div className="sp-tip-ttl">💡 {s.title}</div>}
-              {s.text&&<div className="sp-tip-txt">{s.text}</div>}
-            </>
+            <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden"}}>
+              <div style={{padding:"16px 22px 10px"}}>
+                <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:s.title?10:0,fontWeight:700,display:"flex",alignItems:"center",gap:6}}>💡 Good to know</div>
+                {s.title&&<h3 style={{fontSize:17,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand',system-ui,sans-serif",margin:0,lineHeight:1.35}}>{s.title}</h3>}
+              </div>
+              {s.text&&<div style={{padding:"0 22px 20px",fontSize:14,color:"var(--gray-600)",lineHeight:1.65,whiteSpace:"pre-wrap",fontFamily:"'Nunito',system-ui,sans-serif"}}>{s.text}</div>}
+            </div>
           );
           if(s.type==="mc") return(
             <>
-              <div className="sp-q">{s.q}</div>
-              {(s.opts||[]).map((o,i)=><div key={i} className={`sp-opt${o===s.ans?" correct":""}`}>{o===s.ans&&<span style={{marginRight:6,fontSize:11}}>✓</span>}{o}</div>)}
-              <div style={{height:12}}/>
+              <div style={{...qBubSt}}>
+                {qArc}
+                <div style={{position:"relative",zIndex:2}}>
+                  <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito',system-ui,sans-serif"}}>Choose the correct answer</div>
+                  <div style={{fontSize:16,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito',system-ui,sans-serif",color:"var(--gray-800)"}}>{s.q}</div>
+                </div>
+              </div>
+              <div style={{display:"grid",gridTemplateColumns:"1fr",gap:8,marginBottom:8}}>
+                {(s.opts||[]).map((o,i)=><div key={i} className={`quiz-opt${o===s.ans?" correct":""}`} style={{pointerEvents:"none",cursor:"default"}}><div className="quiz-letter">{"ABCD"[i]}</div>{o}</div>)}
+              </div>
             </>
           );
           if(s.type==="fb"||s.type==="drag_fill"){
-            const blanks=s.blanks||{1:s.a||"…"};
+            const blanks=s.blanks||{1:Array.isArray(s.a)?s.a[0]:(s.a||"…")};
             let tpl=s.s||"";
             Object.keys(blanks).forEach(k=>{tpl=tpl.replace(new RegExp(`\\{${k}\\}`,"g"),`|||${blanks[k]}|||`);});
             const parts=tpl.split("|||");
-            return(<><div className="sp-fb-sent">{parts.map((p,i)=>i%2===1?<span key={i} className="sp-fb-ans">{p}</span>:<span key={i}>{p}</span>)}</div><div style={{height:12}}/></>);
+            return(
+              <div style={{...qBubSt}}>
+                {qArc}
+                <div style={{position:"relative",zIndex:2}}>
+                  <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito',system-ui,sans-serif"}}>Fill in the blank</div>
+                  <div style={{fontSize:16,fontWeight:600,lineHeight:1.8,fontFamily:"'Nunito',system-ui,sans-serif",color:"var(--gray-800)"}}>
+                    {parts.map((p,i)=>i%2===1?<span key={i} style={{display:"inline-block",borderBottom:"3px solid var(--purple-accent)",color:"var(--teal-dark)",fontWeight:800,padding:"0 3px",margin:"0 2px"}}>{p}</span>:<span key={i}>{p}</span>)}
+                  </div>
+                </div>
+              </div>
+            );
           }
           if(s.type==="match") return(
-            <div style={{paddingTop:10}}>
-              {(s.pairs||[]).map((p,i)=><div key={i} className="sp-pair-row"><div className="sp-pair-tgt">{p.nl}</div><div style={{color:"var(--gray-300)",fontSize:14}}>⟷</div><div className="sp-pair-src">{p.en}</div></div>)}
+            <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden"}}>
+              <div style={{padding:"14px 20px 8px",color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,fontWeight:700}}>Match the pairs</div>
+              {(s.pairs||[]).map((p,i)=><div key={i} style={{display:"flex",alignItems:"center",padding:"10px 20px",borderTop:"1px solid var(--gray-100)",gap:12}}><div style={{flex:1,fontSize:15,fontWeight:700,color:"var(--purple-accent-text)"}}>{p.nl}</div><div style={{color:"var(--gray-300)",fontSize:13,flexShrink:0}}>⟷</div><div style={{flex:1,fontSize:14,color:"var(--teal-text)",fontWeight:600,textAlign:"right"}}>{p.en}</div></div>)}
             </div>
           );
           if(s.type==="intro") return(
