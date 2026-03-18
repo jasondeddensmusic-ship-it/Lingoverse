@@ -1,10 +1,11 @@
-# Universal Word Dictionary & Grammar Colorizer — Implementation Plan
+# Universal Word Dictionary & Grammar Colorizer — Handoff
 
-> **Status**: Batches 1-7 IMPLEMENTED (2026-03-18). Remaining: build validation, visual testing, color legend popup, dissect view.
+> **Status**: Batches 1-7 IMPLEMENTED (2026-03-18). Merged to main. NOT YET VISUALLY TESTED.
+> **Commit**: `daee5f8` on main. Cloudflare Workers accidental merge reverted in `fe1ab14`.
 
-## Overview
+## What Was Built
 
-Expanded the Korean-only word dictionary system (KOREAN_DICT, tokenizeKorean, koreanHl, WordBubble) into a universal system for ALL 5 languages with:
+Expanded the Korean-only word dictionary system (KOREAN_DICT, tokenizeKorean, koreanHl, WordBubble) into a universal system for ALL 5 languages (ko, nl, de, fr, es):
 - Gold-highlighted (#E8960A) untaught NOUNS in example sentences/dialogues (clickable -> dictionary popup)
 - VERBS, IDIOMS, SET EXPRESSIONS, and PHRASES always get dedicated teach cards (never gold-highlight). ONLY pure nouns get gold.
 - DeepDives never count as exposure
@@ -12,14 +13,31 @@ Expanded the Korean-only word dictionary system (KOREAN_DICT, tokenizeKorean, ko
 - Toggle-able grammar colorizer (articles, particles, prepositions, conjunctions, pronouns)
 - WordBubble expanded to all languages
 - VocabularyPage connected to auto-generated dictionary
+- smartHl accent bug FIXED (Latin diacritics no longer treated as non-Latin script)
 
 ## Files Modified/Created
 
 | File | Change |
 |------|--------|
-| `src/data/dictionary.js` | NEW: Auto-builds LANG_DICT from teach cards at module load |
-| `src/data/metadata.js` | Added LANG_TOKENIZER config for all 5 languages |
-| `src/lingoverse.jsx` | Fixed accent bug, added tokenize/universalHl/MiniWordPopup, replaced all call sites, grammar toggle, VocabularyPage |
+| `src/data/dictionary.js` | NEW (173 lines): Auto-builds LANG_DICT from teach cards at module load |
+| `src/data/metadata.js` | +95 lines: LANG_TOKENIZER config for all 5 languages (after line 478) |
+| `src/lingoverse.jsx` | +505/-57 lines: tokenize, universalHl, MiniWordPopup, grammar toggle, VocabularyPage, accent fix |
+| `docs/UNIVERSAL_DICTIONARY_PLAN.md` | This file |
+
+## Key Line Numbers in lingoverse.jsx
+
+| What | Line | Notes |
+|------|------|-------|
+| `grammarHl` state | ~10070 | useState with localStorage persistence |
+| Grammar toggle button | ~10656 | "Aa" button in ProgressBar toolbar |
+| `KOREAN_DICT` | ~10734 | Hand-crafted 157-entry Korean dict (unchanged) |
+| `mergeKoreanDict` call | ~10911 | useMemo merging KOREAN_DICT into LANG_DICT |
+| `tokenize()` | ~11004 | Universal tokenizer dispatcher |
+| `bubbleHl()` | ~11143 | WordBubble highlighting (now all languages) |
+| `koreanHl()` | ~11393 | Korean-specific highlighter (unchanged, called by universalHl) |
+| `universalHl()` | ~11433 | Main highlight function replacing all old call sites |
+| `MiniWordPopup` | ~11537 | Gold-themed compact popup for untaught nouns |
+| VocabularyPage `dictVocab` | ~7834 | LANG_DICT as primary data source |
 
 ## Batch Details
 
@@ -57,24 +75,38 @@ Changed 11 rendering locations from `/([^\u0000-\u007F]+)/g` to script-specific 
 - Enhanced search: matches word, translation, phonetic, article+word
 - Word entries show article, level, kind, example
 
-## Remaining Items
+## What's NOT Done Yet
 
-### Must Do
-- **Build validation**: Run `npx vite build` to verify compilation (Node.js was not available in previous session)
-- **Visual testing**: Load each language in browser, verify no regressions
-  - French "Les pieces" lesson: e-grave should render inline, not purple
-  - Korean dictionary: must work identically to before
-  - Grammar toggle: verify ON/OFF works per language
-  - Gold noun highlights: verify clickable, MiniWordPopup displays
-  - Search bar: verify "cafe" still finds "cafe" (comfort search unaffected)
+### Priority 1: Visual Testing (BLOCKING)
+Code is on main but has NOT been browser-tested. The next session MUST open lingoverse.nl and verify:
+1. French lesson (e.g. "Les pieces"): e-grave renders inline, NOT purple-highlighted separately
+2. Korean lesson: dictionary + WordBubble work identically to before (no regression)
+3. Grammar toggle "Aa" button: visible in lesson toolbar, ON/OFF toggles grammar colors
+4. Gold noun highlights: untaught nouns in examples show gold, clicking opens MiniWordPopup
+5. MiniWordPopup: displays word, article badge, translation, level, close button works
+6. VocabularyPage: shows LANG_DICT words per language, search works across word/translation/phonetic
+7. Search bar comfort input: typing "cafe" still finds "cafe" (diacritic normalization intact)
+8. Dutch/German/Spanish lessons: no visual regressions in teach cards, tips, quizzes
+9. Dark mode: all new elements (grammar colors, gold highlights, MiniWordPopup) look correct
 
-### Should Do
-- **Gold color overlap resolution**: Dutch het-article (#E8960A) and untaught noun gold (#E8960A) conflict when grammar colorizer ON. Options: different gold shade for nouns, or different visual treatment (dotted vs solid underline)
-- **Color legend popup**: Long-press or info icon on grammar toggle showing current language's grammar categories with color swatches
+If ANY of these fail, the fix is in universalHl() (~line 11433) or tokenize() (~line 11004). The smartHl() and koreanHl() functions are preserved as fallbacks.
 
-### Stretch
+### Priority 2: Gold Color Overlap
+Dutch het-article (#E8960A) and untaught noun gold (#E8960A) are the same color when grammar colorizer is ON. Options:
+- Use a slightly different shade for untaught nouns (e.g. #D4880C amber)
+- Use dotted underline for het-article vs solid underline for untaught nouns
+- Accept it (different visual contexts: grammar color = text color, untaught = text + solid underline)
+
+### Priority 3: Color Legend Popup
+Long-press or info icon next to grammar toggle "Aa" button. Shows current language's grammar categories with color swatches:
+- Korean: "Topic (blue), Subject (teal), Object (coral)..."
+- Dutch: "de (blue), het (gold), Prepositions (teal)..."
+- Data source: LANG_TOKENIZER[lang].grammarColors in metadata.js
+
+### Stretch Goals
 - **Dissect view**: Compound word splitting in WordBubble (Korean morph field exists, Germanic compound splitting basic)
 - **Lesson-end vocab summary**: 2x2 grid of new vocab encountered during lesson
+- **Synonym support**: Multiple dictionary entries linking to same meaning
 
 ## Architecture Notes
 
