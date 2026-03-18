@@ -6609,6 +6609,12 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
   // ── Keyboard navigation (matches lesson engine exactly) ──
   useEffect(()=>{
     const handler=e=>{
+      // Block all keys (except Escape) when an overlay input is focused
+      const inOverlay=document.activeElement?.closest('.vr-wrap,.sf-panel');
+      if(inOverlay&&document.activeElement?.tagName==='INPUT'){
+        if(e.key==='Escape')return; // let Escape through to close the overlay
+        return;
+      }
       // Start screen: Space starts quiz
       if(!started){
         if(e.key===" "){e.preventDefault();startQuiz();}
@@ -12989,10 +12995,11 @@ export default function App(){
         setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;});
       }
       if(e.key==="Escape"&&showSearch){setShowSearch(false);setSearchQuery("");}
+      if(e.key==="Escape"&&showVerumius){setShowVerumius(false);}
     };
     window.addEventListener("keydown",handler);
     return()=>window.removeEventListener("keydown",handler);
-  },[showSearch]);
+  },[showSearch,showVerumius]);
 
   // ── Close search float on click outside the panel or its toggle button ──
   useEffect(()=>{
@@ -13145,7 +13152,10 @@ export default function App(){
         </div>
         <div className="vr-inp-bar">
           <input className="vr-inp" value={vInput} onChange={e=>setVInput(e.target.value)}
-            onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendToVerumius();}}}
+            onKeyDown={e=>{
+              if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendToVerumius();}
+              if(e.key==="Escape"){e.preventDefault();setShowVerumius(false);}
+            }}
             placeholder="Ask Verumius…"/>
           <button className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius}>
             <svg width="13" height="13" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
