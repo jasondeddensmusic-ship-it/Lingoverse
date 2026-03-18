@@ -6065,7 +6065,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-hbtn{background:linear-gradient(180deg,rgba(200,190,255,0.5)0%,rgba(175,160,240,0.4)50%,rgba(155,140,225,0.35)100%);border:1px solid rgba(180,165,240,0.45);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#5038A0;font-size:13px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 2px 6px rgba(123,94,232,0.18),inset 0 2px 0 rgba(255,255,255,0.5),inset 0 -1px 0 rgba(123,94,232,0.1);}.vr-hbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.45),transparent);pointer-events:none;}.vr-hbtn:hover{filter:brightness(1.08);transform:scale(1.05);}
 :root.dark .vr-hbtn{background:linear-gradient(180deg,rgba(90,70,170,0.5)0%,rgba(70,55,150,0.4)100%);border-color:rgba(140,120,220,0.35);color:#C0AEFF;}
 .vr-xbtn{background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;overflow:hidden;box-shadow:0 3px 8px rgba(123,94,232,0.4),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);}.vr-xbtn::after{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}.vr-xbtn:hover{filter:brightness(1.1);}
-.vr-msgs{flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:10px;min-height:100px;}
+.vr-msgs{flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:10px;min-height:100px;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;}.vr-msgs::-webkit-scrollbar{width:3px;}.vr-msgs::-webkit-scrollbar-track{background:transparent;}.vr-msgs::-webkit-scrollbar-thumb{background:rgba(123,94,232,0.22);border-radius:4px;}.vr-msgs::-webkit-scrollbar-thumb:hover{background:rgba(123,94,232,0.45);}
 .vr-ai{align-self:flex-start;max-width:86%;background:linear-gradient(180deg,rgba(200,190,255,0.45)0%,rgba(220,210,255,0.3)50%,rgba(235,230,255,0.18)100%);border:1.5px solid rgba(180,165,240,0.4);border-radius:20px 20px 20px 4px;padding:11px 15px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:#5038A0;box-shadow:0 6px 24px rgba(123,94,232,0.1),0 0 12px rgba(180,165,240,0.15),inset 0 2px 0 rgba(255,255,255,0.75),inset 0 -3px 0 rgba(123,94,232,0.05);position:relative;overflow:hidden;transform-origin:bottom left;animation:vr-pop-l 0.3s cubic-bezier(0.34,1.56,0.64,1) both;}.vr-ai::before{content:'';position:absolute;top:0;left:5%;right:5%;height:42%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.55)0%,rgba(255,255,255,0.1)60%,transparent 100%);pointer-events:none;}
 :root.dark .vr-ai{background:linear-gradient(180deg,rgba(80,60,160,0.55)0%,rgba(60,45,130,0.4)50%,rgba(45,35,110,0.25)100%);border-color:rgba(140,120,220,0.35);color:#C8BBFF;box-shadow:0 6px 24px rgba(0,0,0,0.2),0 0 12px rgba(120,100,200,0.15),inset 0 2px 0 rgba(255,255,255,0.12),inset 0 -3px 0 rgba(0,0,0,0.1);}
 .vr-user{align-self:flex-end;max-width:86%;background:linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%);border:1px solid rgba(255,255,255,0.18);border-radius:20px 20px 4px 20px;padding:11px 15px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:#fff;box-shadow:0 4px 14px rgba(123,94,232,0.4),inset 0 2px 0 rgba(255,255,255,0.35),inset 0 -2px 0 rgba(0,0,0,0.15);position:relative;overflow:hidden;transform-origin:bottom right;animation:vr-pop-r 0.3s cubic-bezier(0.34,1.56,0.64,1) both;}.vr-user::before{content:'';position:absolute;top:0;left:8%;right:8%;height:45%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.4),transparent);pointer-events:none;}
@@ -12954,6 +12954,44 @@ function DevGate({onAccess}){
   );
 }
 
+// ── Verumius markdown renderer ──
+// Renders **bold**, *italic*, - bullet lines, blank-line spacing
+function renderVrText(text){
+  if(!text)return text;
+  const parseInline=(str)=>{
+    const out=[];let rem=str;let k=0;
+    const rx=/\*\*(.+?)\*\*|\*(.+?)\*/g;let m;let last=0;
+    while((m=rx.exec(rem))!==null){
+      if(m.index>last)out.push(rem.slice(last,m.index));
+      if(m[1]!==undefined)out.push(<strong key={k++} style={{fontWeight:800}}>{m[1]}</strong>);
+      else out.push(<em key={k++} style={{fontStyle:"italic"}}>{m[2]}</em>);
+      last=m.index+m[0].length;
+    }
+    if(last<rem.length)out.push(rem.slice(last));
+    return out.length===0?str:out;
+  };
+  const lines=text.split('\n');
+  const result=[];let bullets=[];let rk=0;
+  const flushBullets=()=>{
+    if(!bullets.length)return;
+    result.push(<ul key={rk++} style={{margin:"5px 0",padding:0,display:"flex",flexDirection:"column",gap:3}}>
+      {bullets.map((b,i)=><li key={i} style={{display:"flex",gap:7,listStyle:"none",lineHeight:1.5}}>
+        <span style={{color:"#9B7AE8",fontWeight:900,flexShrink:0,fontSize:11,marginTop:2}}>●</span>
+        <span>{parseInline(b)}</span>
+      </li>)}
+    </ul>);
+    bullets=[];
+  };
+  for(const line of lines){
+    const t=line.trim();
+    if(/^[-•]\s/.test(t)){bullets.push(t.slice(2).trim());}
+    else if(/^\d+\.\s/.test(t)){bullets.push(t.replace(/^\d+\.\s/,'').trim());}
+    else{flushBullets();if(t){result.push(<div key={rk++} style={{lineHeight:1.6}}>{parseInline(t)}</div>);}else if(result.length){result.push(<div key={rk++} style={{height:4}}/>);}}
+  }
+  flushBullets();
+  return result;
+}
+
 export default function App(){
   const [devAccess,setDevAccess]=useState(()=>{try{return sessionStorage.getItem("lingoverse:dev")==="1";}catch(e){return false;}});
   const [ob,setOb]=useState(false);
@@ -12984,7 +13022,7 @@ export default function App(){
   const [vInput,setVInput]=useState("");
   const [vLoading,setVLoading]=useState(false);
   const vScrollRef=useRef(null);
-  useEffect(()=>{if(vScrollRef.current)vScrollRef.current.scrollTop=vScrollRef.current.scrollHeight;},[vMsgs,vLoading]);
+  useEffect(()=>{if(vScrollRef.current)vScrollRef.current.scrollTo({top:vScrollRef.current.scrollHeight,behavior:"smooth"});},[vMsgs,vLoading]);
   const sendToVerumius=async(text)=>{
     const content=(text||vInput).trim();
     if(!content||vLoading)return;
@@ -13182,7 +13220,7 @@ export default function App(){
             <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a question about something on this screen.")}>Ask about this screen</button>
             <button className="vr-qr-btn" onClick={()=>sendToVerumius("I have a language question.")}>Ask any question</button>
           </div>}
-          {vMsgs.map((m,i)=><div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"}>{m.content}</div>)}
+          {vMsgs.map((m,i)=><div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"}>{m.role==="assistant"?renderVrText(m.content):m.content}</div>)}
           {vLoading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
         </div>
         <div className="vr-inp-bar">
