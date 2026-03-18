@@ -13063,7 +13063,7 @@ export default function App(){
     setVrPos({x:rect.left,y:rect.top});
     requestAnimationFrame(()=>requestAnimationFrame(()=>setVrFullscreen(true)));
   };
-  const exitVrFullscreen=()=>setVrFullscreen(false);
+  const exitVrFullscreen=()=>{setVrFullscreen(false);setVrPos(null);};
   const sendToVerumius=async(text)=>{
     const content=(text||vInput).trim();
     if(!content||vLoading)return;
@@ -13230,7 +13230,7 @@ export default function App(){
             <span style={{marginRight:6,display:"inline-flex"}}><CountryFlag code={lang} size={22}/></span>
             <span className="topnav-logo" style={{fontSize:20}}>LingoVerse</span>
           </div>
-          <div className={`topnav-item ${page==="chat"?"active":""}`} onClick={()=>setPage("chat")} style={{flex:1,justifyContent:"center"}}>
+          <div className={`topnav-item ${showVerumius?"active":""}`} onClick={()=>setShowVerumius(v=>!v)} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="robot" size={28}/></span><span>{t("nav_chat",baseLang)}</span>
           </div>
         </div>
@@ -13253,11 +13253,11 @@ export default function App(){
             <button className="vr-hbtn" title="Save to profile (coming soon)">＋</button>
             <button className="vr-hbtn" title={vrFullscreen?"Minimize":"Fullscreen"} onClick={vrFullscreen?exitVrFullscreen:goVrFullscreen}>
               {vrFullscreen
-                ?<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 1v3H1M6 1v3h3M4 9V6H1M6 9V6h3"/></svg>
-                :<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M1 4V1h3M9 4V1H6M1 6v3h3M9 6v3H6"/></svg>}
+                ?<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 2L5 5L2 5M7 2L7 5L10 5M5 10L5 7L2 7M7 10L7 7L10 7"/></svg>
+                :<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 5L2 2L5 2M7 2L10 2L10 5M2 7L2 10L5 10M7 10L10 10L10 7"/></svg>}
             </button>
             <button className="vr-hbtn" title="New conversation" onClick={()=>{setVMsgs([]);setVInput("");}}>↺</button>
-            <button className="vr-xbtn" onClick={()=>{setVrFullscreen(false);setShowVerumius(false);}}>✕</button>
+            <button className="vr-xbtn" onClick={()=>{setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}}>✕</button>
           </div>
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
