@@ -13054,7 +13054,7 @@ export default function App(){
           <div className="sf-panel">
             <div className="sf-hdr">
               <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke="rgba(130,115,175,0.65)" strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-              <input className="sf-inp" autoFocus placeholder={(LANGUAGES.find(l=>l.code===baseLang)||{name:"English"}).name} value={searchQuery}
+              <input className="sf-inp" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
                 onChange={e=>setSearchQuery(e.target.value)}
                 onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
               />
