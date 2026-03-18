@@ -12960,7 +12960,7 @@ export default function App(){
   const [previewResult,setPreviewResult]=useState(null);
   const [showTools,setShowTools]=useState(false);
   const [showVerumius,setShowVerumius]=useState(false);
-  const [vMsgs,setVMsgs]=useState([{role:"assistant",content:"Is there something on this screen you don't understand?"}]);
+  const [vMsgs,setVMsgs]=useState([]); // greeting is hardcoded UI, not sent to API
   const [vInput,setVInput]=useState("");
   const [vLoading,setVLoading]=useState(false);
   const vScrollRef=useRef(null);
@@ -13152,6 +13152,7 @@ export default function App(){
           <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
         </div>
         <div className="vr-msgs" ref={vScrollRef}>
+          <div className="vr-ai">Is there something on this screen you don't understand?</div>
           {vMsgs.map((m,i)=><div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"}>{m.content}</div>)}
           {vLoading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
         </div>
