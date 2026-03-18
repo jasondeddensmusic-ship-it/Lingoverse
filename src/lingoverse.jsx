@@ -8198,27 +8198,83 @@ function Onboarding({onComplete}){
 const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits];
 
 // ── CURRICULUM SEARCH (D113) ──
+// Korean romanization tables (Revised Romanization of Korean)
+const _INITS=['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h'];
+const _MEDS=['a','ae','ya','yae','eo','e','yeo','ye','o','wa','wae','oe','yo','u','wo','we','wi','yu','eu','ui','i'];
+const _FINS=['','g','kk','gs','n','nj','nh','d','l','lg','lm','lb','ls','lt','lp','lh','m','b','bs','s','ss','ng','j','ch','k','t','p','h'];
+function _romSyl(ch){
+  const code=ch.charCodeAt(0)-0xAC00;
+  if(code<0||code>11171)return ch;
+  const fin=code%28;const med=Math.floor(code/28)%21;const ini=Math.floor(code/28/21);
+  return _INITS[ini]+_MEDS[med]+_FINS[fin];
+}
+function _romanize(text){
+  return[...(text||'')].map(ch=>{const c=ch.charCodeAt(0);return c>=0xAC00&&c<=0xD7A3?_romSyl(ch):ch;}).join('');
+}
+// Normalize search string: strip diacritics + collapse Korean romanization variants
+function _normS(s){
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
+    .replace(/young|yoong/g,'yeong').replace(/yung|yeng/g,'yeong')
+    .replace(/yong(?=[^aeiou]|$)/g,'yeong')
+    .replace(/eu/g,'eo').replace(/uh(?=[^a-z]|$)/g,'eo').replace(/oo/g,'u');
+}
+// Find verbatim hit in text (after normalization / romanization). Returns {pre,match,post} or null.
+function _findHit(rawText,normQ){
+  if(!rawText||!normQ)return null;
+  // Try direct normalized match first (covers Latin, diacritics, Korean hangul typed directly)
+  const normT=_normS(rawText);
+  let idx=normT.indexOf(normQ);
+  if(idx!==-1){
+    return{pre:rawText.slice(0,idx),match:rawText.slice(idx,idx+normQ.length),post:rawText.slice(idx+normQ.length)};
+  }
+  // Try romanized Korean match — map normQ back to syllable positions
+  const romT=_normS(_romanize(rawText));
+  idx=romT.indexOf(normQ);
+  if(idx!==-1){
+    // Map character position in romT back to rawText syllables (approx: 1 syllable = 1 char in rawText)
+    // Build a char→rawIndex map
+    let romIdx=0;const map=[];
+    for(let ri=0;ri<rawText.length;ri++){
+      const c=rawText.charCodeAt(ri);
+      const chunk=c>=0xAC00&&c<=0xD7A3?_romSyl(rawText[ri]):_normS(rawText[ri]);
+      for(let ci=0;ci<chunk.length;ci++){map.push(ri);}romIdx+=chunk.length;
+    }
+    const rawStart=map[idx]??0;
+    const rawEnd=(map[idx+normQ.length-1]??map[map.length-1]??0)+1;
+    return{pre:rawText.slice(0,rawStart),match:rawText.slice(rawStart,rawEnd),post:rawText.slice(rawEnd)};
+  }
+  return null;
+}
 // Searches all units for the active language. Returns up to 80 results.
-// Checks nl/en/note/example/exampleEn/q/text/title/s/opts/pairs/a fields.
 function searchUnits(query,lang){
   if(!query)return[];
-  const q=query.toLowerCase().trim();
-  const nonLatin=/[\u1100-\u11FF\uAC00-\uD7AF\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0400-\u04FF]/.test(q);
-  if(q.length<(nonLatin?1:2))return[];
+  const raw=query.trim();
+  const normQ=_normS(raw);
+  const nonLatin=/[\u1100-\u11FF\uAC00-\uD7AF\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0400-\u04FF]/.test(raw);
+  if(normQ.length<(nonLatin?1:2))return[];
   const results=[];
   const langUnits=UNITS.filter(u=>u.lang===lang);
+  const PRIO=['nl','en','example','exampleEn','q','text','s','note','title','desc'];
   for(const unit of langUnits){
     for(const lesson of(unit.lessons||[])){
       for(let si=0;si<(lesson.steps||[]).length;si++){
         const s=lesson.steps[si];
-        const texts=[
-          s.nl,s.en,s.note,s.example,s.exampleEn,s.q,s.text,s.title,s.s,s.desc,
-          ...(s.opts||[]),
-          ...(s.pairs||[]).flatMap(p=>[p.nl,p.en]),
-          ...(Array.isArray(s.a)?s.a:[s.a||''])
-        ].filter(t=>typeof t==='string');
-        if(texts.some(t=>t.toLowerCase().includes(q))){
-          results.push({unit,lesson,si,step:s});
+        let hitText=null;
+        for(const field of PRIO){
+          const val=s[field];
+          if(typeof val==='string'&&_findHit(val,normQ)){hitText=val;break;}
+        }
+        // Also check opts, pairs, a arrays
+        if(!hitText){
+          const extras=[
+            ...(s.opts||[]),
+            ...(s.pairs||[]).flatMap(p=>[p.nl,p.en]),
+            ...(Array.isArray(s.a)?s.a:[s.a||''])
+          ].filter(t=>typeof t==='string');
+          hitText=extras.find(t=>_findHit(t,normQ))||null;
+        }
+        if(hitText){
+          results.push({unit,lesson,si,step:s,hitText,normQ});
           if(results.length>=80)return results;
         }
       }
@@ -13066,21 +13122,25 @@ export default function App(){
               {q.length<minLen&&<div className="sf-empty"/>}
               {q.length>=minLen&&results.length===0&&<div className="sf-empty">No results for "{q}"</div>}
               {results.map((r,i)=>{
-                const hit=[r.step.nl,r.step.en,r.step.example,r.step.q,r.step.text,r.step.s].find(t=>typeof t==="string"&&t.toLowerCase().includes(q.toLowerCase()))||"";
                 const lNum=(r.unit.lessons||[]).findIndex(l=>l.id===r.lesson.id)+1;
                 const blk={display:"inline-flex",alignItems:"center",justifyContent:"center",background:"linear-gradient(180deg,#9B7AE8 0%,#7B5EE8 55%,#6040C8 100%)",color:"#fff",borderRadius:5,fontSize:8,fontWeight:900,padding:"0 5px",height:15,letterSpacing:.3,flexShrink:0,boxShadow:"0 2px 5px rgba(123,94,232,0.28),inset 0 1px 0 rgba(255,255,255,0.38)"};
+                const ht=r.hitText?_findHit(r.hitText,r.normQ):null;
                 return(
-                  <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)}>
-                    <div style={{display:"flex",alignItems:"center",gap:4,marginBottom:5}}>
-                      <span style={blk}>{(r.unit.level||"").slice(0,2)}</span>
-                      <span style={blk}>U{r.unit.n}</span>
-                      <span style={blk}>L{lNum>0?lNum:"?"}</span>
-                      <span style={blk}>S{r.si+1}</span>
-                      <span style={{...blk,background:"linear-gradient(180deg,rgba(123,94,232,0.18)0%,rgba(100,70,200,0.12)100%)",color:"#7B5EE8",boxShadow:"none",border:"1px solid rgba(123,94,232,0.2)"}}>{SL[r.step.type]||r.step.type}</span>
+                  <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)} style={{display:"flex",alignItems:"center",gap:8}}>
+                    <div style={{flex:1,minWidth:0}}>
+                      <div style={{display:"flex",alignItems:"center",gap:4,marginBottom:4}}>
+                        <span style={blk}>{(r.unit.level||"").slice(0,2)}</span>
+                        <span style={blk}>U{r.unit.n}</span>
+                        <span style={blk}>L{lNum>0?lNum:"?"}</span>
+                        <span style={blk}>S{r.si+1}</span>
+                      </div>
+                      <div className="sf-ttl">{r.lesson.title}</div>
                     </div>
-                    <div className="sf-ttl">{r.unit.title}</div>
-                    <div className="sf-sub">{r.lesson.title} · Step {r.si+1}</div>
-                    {hit&&<div className="sf-snip">{snip(hit)}</div>}
+                    {ht&&<div style={{flexShrink:0,maxWidth:"52%",textAlign:"right",lineHeight:1.2}}>
+                      <span style={{fontSize:10,fontWeight:600,color:"rgba(123,94,232,0.45)"}}>{ht.pre}</span>
+                      <span style={{fontSize:14,fontWeight:800,color:"#7B5EE8"}}>{ht.match}</span>
+                      <span style={{fontSize:10,fontWeight:600,color:"rgba(123,94,232,0.45)"}}>{ht.post}</span>
+                    </div>}
                   </div>
                 );
               })}
