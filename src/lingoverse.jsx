@@ -6040,6 +6040,41 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .sp-xbtn:hover{background:rgba(123,94,232,0.22);color:#5840B8;}
 :root.dark .sp-xbtn{background:rgba(180,160,255,0.15);border-color:rgba(180,160,255,0.25);color:#C0AEFF;}:root.dark .sp-xbtn:hover{background:rgba(180,160,255,0.28);}
 @media(max-width:700px){.sf-panel{right:10px;top:186px;width:calc(100vw - 20px);}.sp-wrap{max-height:calc(100vh - 40px);}}
+.vl-tab{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:9997;display:flex;align-items:stretch;}
+.vl-tab-handle{width:18px;background:var(--card-bg);border-radius:8px 0 0 8px;border:1px solid rgba(123,94,232,0.13);border-right:none;box-shadow:-3px 0 12px rgba(0,0,0,0.08);cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:10px 0;transition:background .15s;}
+.vl-tab-handle:hover{background:rgba(235,228,255,0.95);}
+:root.dark .vl-tab-handle{background:rgba(30,24,60,0.92);border-color:rgba(120,100,220,0.25);}:root.dark .vl-tab-handle:hover{background:rgba(50,40,90,0.9);}
+.vl-tab-dot{width:3px;height:3px;border-radius:50%;background:rgba(123,94,232,0.4);}
+.vl-panel{display:flex;flex-direction:column;gap:8px;padding:10px 8px;background:var(--card-bg);border-radius:12px 0 0 12px;border:1px solid rgba(123,94,232,0.1);border-right:none;box-shadow:-4px 0 20px rgba(0,0,0,0.08);}
+:root.dark .vl-panel{background:rgba(25,20,56,0.95);border-color:rgba(120,100,220,0.2);}
+.vl-ibtn{width:34px;height:34px;border-radius:10px;border:1.5px solid rgba(123,94,232,0.15);background:var(--card-bg);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .15s;box-shadow:0 2px 6px rgba(0,0,0,0.05);}
+.vl-ibtn:hover{background:rgba(235,228,255,0.9);border-color:rgba(123,94,232,0.3);box-shadow:0 3px 10px rgba(123,94,232,0.1);}
+.vl-ibtn.on{background:rgba(123,94,232,0.1);border-color:rgba(123,94,232,0.4);box-shadow:0 3px 12px rgba(123,94,232,0.18);}
+:root.dark .vl-ibtn{background:rgba(30,24,60,0.8);border-color:rgba(120,100,220,0.2);}:root.dark .vl-ibtn:hover{background:rgba(50,40,90,0.85);}:root.dark .vl-ibtn.on{background:rgba(123,94,232,0.28);border-color:rgba(160,140,255,0.5);}
+.vr-wrap{position:fixed;right:70px;bottom:24px;width:316px;max-height:72vh;background:var(--card-bg);border-radius:20px;box-shadow:0 16px 52px rgba(0,0,0,0.16),0 0 0 1.5px rgba(123,94,232,0.13);z-index:9999;display:flex;flex-direction:column;overflow:hidden;}
+:root.dark .vr-wrap{background:rgba(18,14,48,0.98);box-shadow:0 16px 52px rgba(0,0,0,0.5),0 0 0 1.5px rgba(123,94,232,0.35);}
+.vr-hdr{padding:12px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(123,94,232,0.09);flex-shrink:0;background:linear-gradient(180deg,#EDE8FF 0%,#E5DFFF 55%,#DDD6FF 100%);position:relative;overflow:hidden;}
+.vr-hdr::before{content:'';position:absolute;top:0;left:5%;right:5%;height:48%;border-radius:0 0 50% 50%;background:linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.18),transparent);pointer-events:none;}
+:root.dark .vr-hdr{background:linear-gradient(180deg,rgba(70,50,150,0.85),rgba(50,38,120,0.75));}
+.vr-hdr-info{flex:1;position:relative;z-index:1;}
+.vr-hdr-name{font-family:Quicksand,sans-serif;font-weight:800;font-size:15px;color:#5038A0;line-height:1.2;}
+:root.dark .vr-hdr-name{color:#C8BBFF;}
+.vr-hdr-sub{font-size:10px;font-weight:600;color:rgba(100,80,180,0.65);letter-spacing:.3px;}
+:root.dark .vr-hdr-sub{color:rgba(180,160,255,0.55);}
+.vr-xbtn{flex-shrink:0;background:rgba(123,94,232,0.12);border:1.5px solid rgba(123,94,232,0.2);border-radius:8px;width:24px;height:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#7B5EE8;font-size:11px;font-weight:700;transition:all .15s;position:relative;z-index:1;}.vr-xbtn:hover{background:rgba(123,94,232,0.22);}:root.dark .vr-xbtn{color:#C0AEFF;background:rgba(123,94,232,0.2);}
+.vr-msgs{flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:10px;min-height:100px;}
+.vr-ai{align-self:flex-start;max-width:86%;background:var(--card-bg);border:1.5px solid rgba(123,94,232,0.1);border-bottom-left-radius:4px;border-radius:18px;padding:9px 13px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:var(--gray-700);box-shadow:0 2px 8px rgba(0,0,0,0.06);}
+:root.dark .vr-ai{background:rgba(38,30,80,0.9);border-color:rgba(120,100,220,0.25);color:#CCC4E8;}
+.vr-user{align-self:flex-end;max-width:86%;background:linear-gradient(180deg,#9B7AE8,#7B5EE8);border-bottom-right-radius:4px;border-radius:18px;padding:9px 13px;font-size:13px;line-height:1.55;font-family:Nunito,sans-serif;color:#fff;box-shadow:0 3px 10px rgba(123,94,232,0.28);}
+.vr-typing{align-self:flex-start;display:flex;gap:5px;padding:11px 15px;background:var(--card-bg);border:1.5px solid rgba(123,94,232,0.1);border-radius:18px;border-bottom-left-radius:4px;}
+.vr-dot{width:6px;height:6px;border-radius:50%;background:rgba(123,94,232,0.45);animation:vrb 1.2s infinite ease-in-out;}.vr-dot:nth-child(2){animation-delay:.2s;}.vr-dot:nth-child(3){animation-delay:.4s;}
+@keyframes vrb{0%,80%,100%{transform:translateY(0);opacity:.6}40%{transform:translateY(-5px);opacity:1}}
+.vr-inp-bar{padding:10px 12px;border-top:1px solid rgba(123,94,232,0.08);display:flex;gap:8px;align-items:center;flex-shrink:0;}
+.vr-inp{flex:1;padding:9px 14px;border-radius:20px;border:1.5px solid rgba(123,94,232,0.18);font-size:13px;font-family:Nunito,sans-serif;outline:none;background:var(--bg-page,#F8F8FC);color:var(--gray-800);transition:border-color .15s;}.vr-inp:focus{border-color:rgba(123,94,232,0.45);}
+:root.dark .vr-inp{background:rgba(28,22,60,0.85);border-color:rgba(120,100,220,0.25);color:#D8D0F0;}
+.vr-send{width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#9B7AE8,#7B5EE8);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(123,94,232,0.3);flex-shrink:0;transition:opacity .15s;}
+.vr-send:disabled{opacity:.4;cursor:default;}
+@media(max-width:700px){.vr-wrap{right:10px;bottom:10px;width:calc(100vw - 20px);max-height:80vh;}.vl-tab{top:auto;bottom:120px;transform:none;}}
 `;
 
 
@@ -12913,6 +12948,26 @@ export default function App(){
   const [showSearch,setShowSearch]=useState(false);
   const [searchQuery,setSearchQuery]=useState("");
   const [previewResult,setPreviewResult]=useState(null);
+  const [showTools,setShowTools]=useState(false);
+  const [showVerumius,setShowVerumius]=useState(false);
+  const [vMsgs,setVMsgs]=useState([{role:"assistant",content:"Is there something on this screen you don't understand?"}]);
+  const [vInput,setVInput]=useState("");
+  const [vLoading,setVLoading]=useState(false);
+  const vScrollRef=useRef(null);
+  useEffect(()=>{if(vScrollRef.current)vScrollRef.current.scrollTop=vScrollRef.current.scrollHeight;},[vMsgs,vLoading]);
+  const sendToVerumius=async()=>{
+    if(!vInput.trim()||vLoading)return;
+    const msg={role:"user",content:vInput.trim()};
+    const next=[...vMsgs,msg];
+    setVMsgs(next);setVInput("");setVLoading(true);
+    try{
+      const ctx={page,lang,langName:LANG_META[lang]?.name||lang,unitN:jumpTo?.unit?.n,unitTitle:jumpTo?.unit?.title,lessonTitle:jumpTo?.lesson?.title};
+      const r=await fetch("https://verumlingua-ai.xqkv62nnqq.workers.dev",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:next,context:ctx})});
+      const d=await r.json();
+      setVMsgs(m=>[...m,{role:"assistant",content:d.content?.[0]?.text||"Sorry, something went wrong."}]);
+    }catch{setVMsgs(m=>[...m,{role:"assistant",content:"Connection error. Please try again."}]);}
+    setVLoading(false);
+  };
 
   // ── Dark mode: set class synchronously so children read correct dk ──
   document.documentElement.classList.toggle("dark",darkMode);
@@ -13074,14 +13129,46 @@ export default function App(){
   return(
     <>
       <style>{CSS}</style>
-      {/* Dark mode floating toggle — top-right, grey minimalist */}
-      <button onClick={()=>setDarkMode(d=>!d)} title="Toggle dark mode (Ctrl+N)" style={{position:"fixed",top:100,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD",background:darkMode?"rgba(30,31,56,0.6)":"#F0F0F5",display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)",...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
-        <span style={{fontSize:15,lineHeight:1,color:darkMode?"#D0D0E2":"#777788",transition:"color .2s"}}>{darkMode?"☀":"☽"}</span>
-      </button>
-      {/* Search floating button — below dark mode toggle */}
-      <button data-search-btn onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})} title="Search curriculum (Ctrl+F)" style={{position:"fixed",top:144,right:14,zIndex:9998,width:34,height:34,borderRadius:10,border:showSearch?(darkMode?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(123,94,232,0.4)"):(darkMode?"1.5px solid rgba(255,255,255,0.1)":"1.5px solid #D0D0DD"),background:showSearch?(darkMode?"rgba(123,94,232,0.35)":"rgba(123,94,232,0.1)"):(darkMode?"rgba(30,31,56,0.6)":"#F0F0F5"),display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"all .2s",boxShadow:showSearch?"0 4px 14px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.1)":(darkMode?"0 4px 12px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.1)":"0 2px 8px rgba(0,0,0,0.06)"),...(darkMode?{backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)"}:{})}}>
-        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke={showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788")} strokeWidth="2.2" strokeLinecap="round" style={{transition:"stroke .2s",flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-      </button>
+      {/* Verumius chat panel */}
+      {showVerumius&&<div className="vr-wrap">
+        <div className="vr-hdr">
+          <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0}}/>
+          <div className="vr-hdr-info">
+            <div className="vr-hdr-name">Verumius</div>
+            <div className="vr-hdr-sub">VerumLingua AI tutor</div>
+          </div>
+          <button className="vr-xbtn" onClick={()=>setShowVerumius(false)}>✕</button>
+        </div>
+        <div className="vr-msgs" ref={vScrollRef}>
+          {vMsgs.map((m,i)=><div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"}>{m.content}</div>)}
+          {vLoading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
+        </div>
+        <div className="vr-inp-bar">
+          <input className="vr-inp" value={vInput} onChange={e=>setVInput(e.target.value)}
+            onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendToVerumius();}}}
+            placeholder="Ask Verumius…"/>
+          <button className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius}>
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
+          </button>
+        </div>
+      </div>}
+      {/* File-cabinet tools tab — dark mode + search + Verumius */}
+      <div className="vl-tab">
+        {showTools&&<div className="vl-panel">
+          <button className={"vl-ibtn"+(darkMode?" on":"")} title="Dark mode (Ctrl+N)" onClick={()=>setDarkMode(d=>!d)}>
+            <span style={{fontSize:14,lineHeight:1,color:darkMode?"#C0AEFF":"#777788"}}>{darkMode?"☀":"☽"}</span>
+          </button>
+          <button data-search-btn className={"vl-ibtn"+(showSearch?" on":"")} title="Search (Ctrl+F)" onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})}>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke={showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788")} strokeWidth="2.2" strokeLinecap="round"><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
+          </button>
+          <button className={"vl-ibtn"+(showVerumius?" on":"")} title="Ask Verumius" onClick={()=>setShowVerumius(v=>!v)}>
+            <AppIcon name="robot" size={20}/>
+          </button>
+        </div>}
+        <div className="vl-tab-handle" onClick={()=>setShowTools(t=>!t)}>
+          <div className="vl-tab-dot"/><div className="vl-tab-dot"/><div className="vl-tab-dot"/>
+        </div>
+      </div>
       {/* Ctrl+D Reset Modal */}
       {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} onClick={()=>setShowResetModal(false)}>
         <div onClick={e=>e.stopPropagation()} style={{background:"var(--card-bg)",borderRadius:24,padding:"36px 40px",maxWidth:360,textAlign:"center",boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
