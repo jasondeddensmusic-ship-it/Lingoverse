@@ -8214,9 +8214,11 @@ function _romanize(text){
 // Normalize search string: strip diacritics + collapse Korean romanization variants
 function _normS(s){
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
-    .replace(/young|yoong/g,'yeong').replace(/yung/g,'yeong')
-    .replace(/yong(?=[^aeiou]|$)/g,'yeong')
-    .replace(/eu/g,'eo').replace(/uh(?=[^a-z]|$)/g,'eo').replace(/oo/g,'u');
+    .replace(/oo/g,'u')                       // yoong→yung (oo=u variant), before yeong rules
+    .replace(/young/g,'yeong')                // common English spelling of 영
+    .replace(/yung/g,'yeong')                 // yung→yeong (user: yung=영 variant); also catches yoong after oo→u
+    .replace(/yong(?=[^aeiou]|$)/g,'yeong')   // yong→yeong when not before vowel
+    .replace(/eu/g,'eo').replace(/uh(?=[^a-z]|$)/g,'eo');
 }
 // Find verbatim hit in text (after normalization / romanization). Returns {pre,match,post} or null.
 function _findHit(rawText,normQ){
