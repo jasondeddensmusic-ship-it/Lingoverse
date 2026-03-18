@@ -8200,8 +8200,10 @@ const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ..
 // Searches all units for the active language. Returns up to 80 results.
 // Checks nl/en/note/example/exampleEn/q/text/title/s/opts/pairs/a fields.
 function searchUnits(query,lang){
-  if(!query||query.trim().length<2)return[];
+  if(!query)return[];
   const q=query.toLowerCase().trim();
+  const nonLatin=/[\u1100-\u11FF\uAC00-\uD7AF\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0400-\u04FF]/.test(q);
+  if(q.length<(nonLatin?1:2))return[];
   const results=[];
   const langUnits=UNITS.filter(u=>u.lang===lang);
   for(const unit of langUnits){
