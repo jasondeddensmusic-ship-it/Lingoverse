@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor } from './data/dictionary.js';
+import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -10089,6 +10089,20 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   },[langPacks,activePackId]);
   React.useEffect(()=>{try{localStorage.setItem("vl_grammar_pack_v3",JSON.stringify(allPackSelections));}catch(e){}},[allPackSelections]);
   const selectPack=(packId)=>setAllPackSelections(prev=>({...prev,[effectiveLang]:packId}));
+  // Per-language disabled categories within a pack: { de: ["noun","adverb"], ... }
+  const [disabledCats,setDisabledCats]=React.useState(()=>{
+    try{const v=localStorage.getItem("vl_grammar_disabled_v1");if(v)return JSON.parse(v);}catch(e){}
+    return {};
+  });
+  React.useEffect(()=>{try{localStorage.setItem("vl_grammar_disabled_v1",JSON.stringify(disabledCats));}catch(e){}},[disabledCats]);
+  const langDisabled = disabledCats[effectiveLang] || [];
+  const toggleCatDisabled=(key)=>setDisabledCats(prev=>{
+    const cur=prev[effectiveLang]||[];
+    const next=cur.includes(key)?cur.filter(k=>k!==key):[...cur,key];
+    return {...prev,[effectiveLang]:next};
+  });
+  const [expandedLegend,setExpandedLegend]=React.useState(null);
+  const [grammarEditMode,setGrammarEditMode]=React.useState(false);
 
   // ── Lesson Resume — save progress, offer continue on re-enter ──
   const progressKey=`lv_progress_${lessonId}`;
@@ -10685,69 +10699,108 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.7)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
             {langPacks.label} Grammar Colors
           </div>
-          {/* Tab strip */}
+          {/* Tab strip — .btn-purple candy pills */}
           <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
             {langPacks.packs.map(pack=>{
               const isActive=pack.id===activePackId;
               const isP=!!pack.placeholder;
-              return <button key={pack.id} onClick={()=>!isP&&selectPack(pack.id)} disabled={isP} style={{
-                display:"inline-flex",alignItems:"center",gap:7,padding:"10px 20px",borderRadius:16,
+              return <button key={pack.id} onClick={()=>{if(!isP){selectPack(pack.id);setExpandedLegend(null);setGrammarEditMode(false);}}} disabled={isP} style={{
+                display:"inline-flex",alignItems:"center",gap:7,padding:"9px 18px",borderRadius:16,
                 fontSize:12,fontWeight:800,cursor:isP?"default":"pointer",
-                transition:"all .25s cubic-bezier(.4,0,.2,1)",fontFamily:"inherit",
-                minHeight:42,opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
+                transition:"all .2s",fontFamily:"inherit",border:"none",
+                opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
                 background:isActive
                   ?(dk
-                    ?"linear-gradient(160deg, rgba(58,36,130,0.98) 0%, rgba(44,26,105,0.98) 45%, rgba(32,18,82,0.99) 100%)"
-                    :"linear-gradient(160deg, rgba(246,242,255,0.99) 0%, rgba(235,226,255,0.99) 55%, rgba(225,214,255,0.99) 100%)")
+                    ?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)"
+                    :"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)")
                   :(dk
                     ?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)"
                     :"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
-                border:isActive
-                  ?(dk?"1.5px solid rgba(168,144,255,0.35)":"1.5px solid rgba(168,144,255,0.45)")
-                  :(dk?"1px solid rgba(168,144,255,0.25)":"1px solid rgba(168,144,255,0.3)"),
-                color:isActive?(dk?"#FFFFFF":"#5B3DC4"):(dk?"rgba(200,184,255,0.9)":"#7050D8"),
-                textShadow:isActive&&dk?"0 1px 2px rgba(0,0,0,0.3)":"none",
+                color:isActive?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
+                textShadow:isActive?"0 1px 2px rgba(0,0,0,0.2)":"none",
                 boxShadow:isActive
                   ?(dk
-                    ?"0 0 0 1px rgba(168,144,255,0.08), 0 8px 24px rgba(0,0,0,0.5), inset 0 1.5px 0 rgba(255,255,255,0.14), inset 0 -2px 0 rgba(0,0,0,0.22)"
-                    :"0 0 0 1px rgba(255,255,255,0.85), 0 8px 24px rgba(60,24,160,0.15), inset 0 2px 0 rgba(255,255,255,0.98), inset 0 -3px 0 rgba(112,80,216,0.08)")
+                    ?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)"
+                    :"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)")
                   :(dk
-                    ?"inset 0 1px 0 rgba(255,255,255,0.1)"
-                    :"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"),
+                    ?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)"
+                    :"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
               }}>
-                {/* Tab gloss arc */}
-                {isActive&&<span style={{position:"absolute",top:0,left:"4%",right:"4%",height:"40%",
-                  background:dk
-                    ?"linear-gradient(180deg, rgba(255,255,255,0.11) 0%, rgba(255,255,255,0.03) 55%, transparent 100%)"
-                    :"linear-gradient(180deg, rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.22) 50%, transparent 100%)",
+                {/* Shine overlay — .btn::after pattern */}
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
+                  background:isActive
+                    ?"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"
+                    :"linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%)",
                   borderRadius:"0 0 50% 50%",pointerEvents:"none",
-                }}/>}
+                }}/>
                 <span style={{fontSize:14,fontWeight:900,lineHeight:1,position:"relative",zIndex:1}}>{pack.icon}</span>
                 <span style={{position:"relative",zIndex:1}}>{pack.label}</span>
                 {isP&&<span style={{fontSize:9,opacity:0.6,marginLeft:2,position:"relative",zIndex:1}}>soon</span>}
               </button>;
             })}
           </div>
-          {/* Active pack legend — .sf-row style card inside frosted panel */}
-          {activePack&&<div style={{
-            padding:"14px 16px",borderRadius:13,position:"relative",overflow:"hidden",
-            background:dk?"rgba(28,24,62,0.94)":"var(--card-bg)",
-            border:dk?"1.5px solid rgba(100,88,158,0.42)":"1.5px solid rgba(220,215,238,0.85)",
-            borderLeft:dk?"3px solid #7B5EE8":"3px solid #7B5EE8",
-            boxShadow:dk
-              ?"0 2px 8px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)"
-              :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.95)",
-            zIndex:2,
-          }}>
-            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:12,lineHeight:1.4}}>{activePack.desc}</div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:14}}>
-              {activePack.legend.map(item=><div key={item.label} style={{display:"flex",alignItems:"center",gap:8}}>
-                <span style={{width:14,height:14,borderRadius:7,display:"inline-block",flexShrink:0,position:"relative",
-                  background:`radial-gradient(circle at 30% 25%,${dk?item.color+"FF":item.color+"EE"},${item.color}CC,${item.color}88)`,
-                  boxShadow:`0 0 12px ${item.color}66,0 2px 6px ${item.color}44,inset 0 2px 0 rgba(255,255,255,0.5),inset 0 -1px 0 rgba(0,0,0,0.15)`,
-                }}/>
-                <span style={{fontSize:12,fontWeight:700,color:dk?"rgba(255,255,255,0.65)":"rgba(60,40,120,0.65)"}}>{item.label}</span>
-              </div>)}
+          {/* Active pack legend — colored candy pills */}
+          {activePack&&<div style={{position:"relative",zIndex:2}}>
+            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:10,lineHeight:1.4}}>{activePack.desc}</div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:8}}>
+              {activePack.legend.map(item=>{
+                const isOff = item.key && langDisabled.includes(item.key);
+                return <button key={item.label} onClick={()=>{
+                  if(grammarEditMode && item.key){toggleCatDisabled(item.key);}
+                  else{setExpandedLegend(expandedLegend===item.label?null:item.label);}
+                }} style={{
+                  display:"inline-flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:14,
+                  fontSize:11,fontWeight:800,cursor:"pointer",border:"none",fontFamily:"inherit",
+                  position:"relative",overflow:"hidden",transition:"all .2s",letterSpacing:0.3,
+                  background:pillGradient(item.color),
+                  color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.25)",
+                  opacity:isOff?0.3:1,
+                  boxShadow:`0 4px 12px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`,
+                }}>
+                  {/* Pill shine overlay */}
+                  <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",
+                    background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",
+                    borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                  }}/>
+                  <span style={{position:"relative",zIndex:1}}>{item.label}</span>
+                  {grammarEditMode&&<span style={{position:"relative",zIndex:1,width:14,height:14,borderRadius:7,marginLeft:2,
+                    border:"2px solid rgba(255,255,255,0.7)",display:"flex",alignItems:"center",justifyContent:"center",
+                    background:isOff?"transparent":"rgba(255,255,255,0.3)",fontSize:9,lineHeight:1,
+                  }}>{isOff?"":"✓"}</span>}
+                </button>;
+              })}
+            </div>
+            {/* Expanded explanation card */}
+            {expandedLegend&&!grammarEditMode&&(()=>{
+              const item = activePack.legend.find(l=>l.label===expandedLegend);
+              if(!item||!item.desc) return null;
+              return <div style={{
+                marginTop:10,padding:"10px 14px",borderRadius:13,
+                background:dk?"rgba(28,24,62,0.94)":"var(--card-bg)",
+                border:dk?"1.5px solid rgba(100,88,158,0.42)":"1.5px solid rgba(220,215,238,0.85)",
+                borderLeft:`3px solid ${item.color}`,
+                boxShadow:dk
+                  ?"0 2px 8px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)"
+                  :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.95)",
+                fontSize:12,fontWeight:600,lineHeight:1.5,
+                color:dk?"rgba(255,255,255,0.7)":"rgba(60,40,120,0.7)",
+              }}>
+                <span style={{fontWeight:800,color:item.color}}>{item.label}</span>{" "}{item.desc}
+              </div>;
+            })()}
+            {/* Edit toggle */}
+            <div style={{display:"flex",justifyContent:"flex-end",marginTop:10}}>
+              <button onClick={()=>{setGrammarEditMode(!grammarEditMode);setExpandedLegend(null);}} style={{
+                background:"none",border:"none",cursor:"pointer",fontFamily:"inherit",
+                fontSize:11,fontWeight:700,letterSpacing:0.3,
+                color:grammarEditMode?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"rgba(80,60,140,0.4)"),
+                display:"flex",alignItems:"center",gap:4,padding:"4px 8px",borderRadius:8,
+                transition:"all .15s",
+                background:grammarEditMode?(dk?"rgba(123,94,232,0.15)":"rgba(123,94,232,0.08)"):"transparent",
+              }}>
+                <span style={{fontSize:13}}>{grammarEditMode?"✓":"✏️"}</span>
+                {grammarEditMode?"Done":"Edit"}
+              </button>
             </div>
           </div>}
         </div>;
@@ -11725,7 +11778,24 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
       // ── GRAMMAR TOGGLE ON: use active pack's color map ──
       if (grammarHl && activePack) {
-        const resolved = resolvePackColor(entry, activePack, dk);
+        let resolved = resolvePackColor(entry, activePack, dk);
+        // Check if this POS category is disabled by user
+        if (resolved && langDisabled.length > 0 && entry.pos) {
+          const p = entry.pos;
+          const catDisabled = langDisabled.some(k=>
+            (k==="verb"&&p==="verb")||(k==="adjective"&&p==="adjective")||
+            (k==="adverb"&&(p==="adverb"||p==="pronoun"||p.startsWith("pronoun_")||p==="demonstrative"))||
+            (k==="noun"&&p==="noun")||
+            (k==="structure"&&(p==="preposition"||p==="conjunction"||p.startsWith("article")||p==="interjection"||p==="number"||p==="counter"||p==="negation"||p==="question"||p.startsWith("particle_")))||
+            (k==="m"&&(p.endsWith("_m")))||(k==="f"&&(p.endsWith("_f")))||
+            (k==="n"&&(p.endsWith("_n")||p.endsWith("_het")))||(k==="c"&&(p.endsWith("_c")))||
+            (k==="indef"&&(p.endsWith("_indef")))||(k==="pl"&&(p.endsWith("_pl")))||
+            (k==="topic"&&p==="particle_topic")||(k==="subj"&&p==="particle_subj")||
+            (k==="obj"&&p==="particle_obj")||(k==="loc"&&(p==="particle_loc"||p==="particle_dir"))||
+            (k==="conn"&&(p==="particle_conn"||p==="particle_comp"||p==="particle_poss"||p==="particle_other"))
+          );
+          if (catDisabled) resolved = null;
+        }
         if (resolved && resolved.understripe) {
           wordStyle = {
             color: resolved.color, fontWeight: 700, cursor: "pointer",
