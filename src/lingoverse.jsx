@@ -7847,14 +7847,33 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   },[lang]);
   const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
 
-  // ── Grammar pack resolution ──
-  const langPacks=GRAMMAR_PACKS[lang];
-  const storedPackId=typeof localStorage!=="undefined"?localStorage.getItem("activePack_"+lang):null;
+  // ── Grammar pack resolution (mirrors lesson engine exactly) ──
+  const langPacks=GRAMMAR_PACKS[lang]||null;
+  const [allPackSelections,setAllPackSelections]=useState(()=>{
+    try{const v=localStorage.getItem("vl_grammar_pack_v3");if(v)return JSON.parse(v);}catch(e){}
+    return {};
+  });
+  const activePackId=allPackSelections[lang]||(langPacks?.defaultPack)||null;
   const activePack=useMemo(()=>{
     if(!langPacks)return null;
-    const found=langPacks.packs.find(p=>p.id===storedPackId&&!p.placeholder);
-    return found||langPacks.packs.find(p=>p.id===langPacks.defaultPack)||langPacks.packs[0];
-  },[lang,storedPackId]);
+    return langPacks.packs.find(pk=>pk.id===activePackId)||langPacks.packs[0]||null;
+  },[langPacks,activePackId]);
+  useEffect(()=>{try{localStorage.setItem("vl_grammar_pack_v3",JSON.stringify(allPackSelections));}catch(e){}},[allPackSelections]);
+  const selectPack=(packId)=>setAllPackSelections(prev=>({...prev,[lang]:packId}));
+  // Per-language disabled categories
+  const [disabledCats,setDisabledCats]=useState(()=>{
+    try{const v=localStorage.getItem("vl_grammar_disabled_v1");if(v)return JSON.parse(v);}catch(e){}
+    return {};
+  });
+  useEffect(()=>{try{localStorage.setItem("vl_grammar_disabled_v1",JSON.stringify(disabledCats));}catch(e){}},[disabledCats]);
+  const langDisabled=disabledCats[lang]||[];
+  const toggleCatDisabled=(key)=>setDisabledCats(prev=>{
+    const cur=prev[lang]||[];
+    const next=cur.includes(key)?cur.filter(k=>k!==key):[...cur,key];
+    return {...prev,[lang]:next};
+  });
+  const [expandedLegend,setExpandedLegend]=useState(null);
+  const [grammarEditMode,setGrammarEditMode]=useState(false);
   // Grammar colorizer: React state synced with localStorage (same key as lesson engine)
   const [grammarHl,setGrammarHl]=useState(()=>{
     try{const v=localStorage.getItem("vl_grammar_hl");if(v!==null)return v==="true";}catch(e){}
@@ -7883,7 +7902,23 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ── Helpers ──
   const getWordColor=(entry)=>{
     if(!grammarHl||!activePack)return null;
-    const resolved=resolvePackColor(entry,activePack,dk);
+    let resolved=resolvePackColor(entry,activePack,dk);
+    if(resolved&&langDisabled.length>0&&entry.pos){
+      const p=entry.pos;
+      const catOff=langDisabled.some(k=>
+        (k==="verb"&&p==="verb")||(k==="adjective"&&p==="adjective")||
+        (k==="adverb"&&(p==="adverb"||p==="pronoun"||p.startsWith("pronoun_")||p==="demonstrative"))||
+        (k==="noun"&&p==="noun")||
+        (k==="structure"&&(p==="preposition"||p==="conjunction"||p.startsWith("article")||p==="interjection"||p==="number"||p==="counter"||p==="negation"||p==="question"||p.startsWith("particle_")))||
+        (k==="m"&&p.endsWith("_m"))||(k==="f"&&p.endsWith("_f"))||
+        (k==="n"&&(p.endsWith("_n")||p.endsWith("_het")))||(k==="c"&&p.endsWith("_c"))||
+        (k==="indef"&&p.endsWith("_indef"))||(k==="pl"&&p.endsWith("_pl"))||
+        (k==="topic"&&p==="particle_topic")||(k==="subj"&&p==="particle_subj")||
+        (k==="obj"&&p==="particle_obj")||(k==="loc"&&(p==="particle_loc"||p==="particle_dir"))||
+        (k==="conn"&&(p==="particle_conn"||p==="particle_comp"||p==="particle_poss"||p==="particle_other"))
+      );
+      if(catOff) resolved=null;
+    }
     return resolved?resolved.color:null;
   };
   const posLabel=(pos)=>{if(!pos)return "";const base=pos.includes("_")?pos.split("_")[0]:pos;return cap(base);};
@@ -8172,6 +8207,148 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <span style={{flex:1}}/>
           <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
         </div>
+
+        {/* Grammar settings panel — copied from lesson engine, VerumLingua candy gloss */}
+        {showGrammarSettings&&grammarHl&&isMobile&&<div onClick={()=>setShowGrammarSettings(false)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
+        {showGrammarSettings&&grammarHl&&(()=>{
+          if(!langPacks) return <div style={{marginTop:8,padding:"12px 14px",borderRadius:14,background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",fontSize:12,color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)",marginBottom:14}}>No grammar packs available for this language yet.</div>;
+          return <div style={{
+            marginBottom:14,
+            padding:isMobile?"22px 18px 30px":"18px 20px",
+            borderRadius:isMobile?"24px 24px 0 0":20,
+            background:dk
+              ?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)"
+              :"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",
+            border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",
+            boxShadow:dk
+              ?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)"
+              :"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",
+            position:isMobile?"fixed":"relative",
+            bottom:isMobile?0:undefined,left:isMobile?0:undefined,right:isMobile?0:undefined,
+            zIndex:isMobile?9999:undefined,
+            maxHeight:isMobile?"75vh":"auto",overflowY:"auto",overflow:"hidden",
+            WebkitOverflowScrolling:"touch",
+          }}>
+            {/* Candy gloss arc */}
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",
+              background:dk
+                ?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+                :"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",
+              pointerEvents:"none",borderRadius:"0 0 50% 50%",zIndex:1,
+            }}/>
+            {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.5)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
+            <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.7)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
+              {langPacks.label} Grammar Colors
+            </div>
+            {/* Tab strip — candy pills */}
+            <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
+              {langPacks.packs.map(pack=>{
+                const isActive=pack.id===activePackId;
+                const isP=!!pack.placeholder;
+                return <button key={pack.id} onClick={()=>{if(!isP){selectPack(pack.id);setExpandedLegend(null);setGrammarEditMode(false);}}} disabled={isP} style={{
+                  display:"inline-flex",alignItems:"center",gap:7,padding:"9px 18px",borderRadius:16,
+                  fontSize:12,fontWeight:800,cursor:isP?"default":"pointer",
+                  transition:"all .2s",fontFamily:"inherit",border:"none",
+                  opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
+                  background:isActive
+                    ?(dk
+                      ?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)"
+                      :"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)")
+                    :(dk
+                      ?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)"
+                      :"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
+                  color:isActive?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
+                  textShadow:isActive?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                  boxShadow:isActive
+                    ?(dk
+                      ?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)"
+                      :"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)")
+                    :(dk
+                      ?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)"
+                      :"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+                }}>
+                  <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
+                    background:isActive
+                      ?"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"
+                      :"linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%)",
+                    borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                  }}/>
+                  <span style={{fontSize:14,fontWeight:900,lineHeight:1,position:"relative",zIndex:1}}>{pack.icon}</span>
+                  <span style={{position:"relative",zIndex:1}}>{pack.label}</span>
+                  {isP&&<span style={{fontSize:9,opacity:0.6,marginLeft:2,position:"relative",zIndex:1}}>soon</span>}
+                </button>;
+              })}
+            </div>
+            {/* Active pack legend — colored candy pills */}
+            {activePack&&<div style={{position:"relative",zIndex:2}}>
+              <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:10,lineHeight:1.4}}>{activePack.desc}</div>
+              <div style={{display:"flex",flexWrap:"wrap",gap:8}}>
+                {activePack.legend.map(item=>{
+                  const isOff=item.key&&langDisabled.includes(item.key);
+                  const restSh=`0 4px 12px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+                  const glowSh=`0 0 28px ${item.color}88, 0 0 48px ${item.color}33, 0 8px 20px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+                  return <button key={item.label} onClick={()=>{
+                    if(grammarEditMode&&item.key){toggleCatDisabled(item.key);}
+                    else{setExpandedLegend(expandedLegend===item.label?null:item.label);}
+                  }}
+                  onMouseEnter={e=>{if(!isOff){e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowSh;}}}
+                  onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restSh;}}
+                  style={{
+                    display:"inline-flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:14,
+                    fontSize:11,fontWeight:800,cursor:"pointer",border:"none",fontFamily:"inherit",
+                    position:"relative",overflow:"hidden",transition:"all .2s",letterSpacing:0.3,
+                    background:pillGradient(item.color),
+                    color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.25)",
+                    opacity:isOff?0.3:1,
+                    boxShadow:restSh,
+                  }}>
+                    <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",
+                      background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",
+                      borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                    }}/>
+                    <span style={{position:"relative",zIndex:1}}>{item.label}</span>
+                    {grammarEditMode&&<span style={{position:"relative",zIndex:1,width:14,height:14,borderRadius:7,marginLeft:2,
+                      border:"2px solid rgba(255,255,255,0.7)",display:"flex",alignItems:"center",justifyContent:"center",
+                      background:isOff?"transparent":"rgba(255,255,255,0.3)",fontSize:9,lineHeight:1,
+                    }}>{isOff?"":"✓"}</span>}
+                  </button>;
+                })}
+              </div>
+              {/* Expanded explanation card */}
+              {expandedLegend&&!grammarEditMode&&(()=>{
+                const item=activePack.legend.find(l=>l.label===expandedLegend);
+                if(!item||!item.desc) return null;
+                return <div style={{
+                  marginTop:10,padding:"10px 14px",borderRadius:13,
+                  background:dk?"rgba(28,24,62,0.94)":"var(--card-bg)",
+                  border:dk?"1.5px solid rgba(100,88,158,0.42)":"1.5px solid rgba(220,215,238,0.85)",
+                  borderLeft:`3px solid ${item.color}`,
+                  boxShadow:dk
+                    ?"0 2px 8px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)"
+                    :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.95)",
+                  fontSize:12,fontWeight:600,lineHeight:1.5,
+                  color:dk?"rgba(255,255,255,0.7)":"rgba(60,40,120,0.7)",
+                }}>
+                  <span style={{fontWeight:800,color:item.color}}>{item.label}</span>{" "}{item.desc}
+                </div>;
+              })()}
+              {/* Edit toggle */}
+              <div style={{display:"flex",justifyContent:"flex-end",marginTop:10}}>
+                <button onClick={()=>{setGrammarEditMode(!grammarEditMode);setExpandedLegend(null);}} style={{
+                  background:grammarEditMode?(dk?"rgba(123,94,232,0.15)":"rgba(123,94,232,0.08)"):"transparent",
+                  border:"none",cursor:"pointer",fontFamily:"inherit",
+                  fontSize:11,fontWeight:700,letterSpacing:0.3,
+                  color:grammarEditMode?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"rgba(80,60,140,0.4)"),
+                  display:"flex",alignItems:"center",gap:4,padding:"4px 8px",borderRadius:8,
+                  transition:"all .15s",
+                }}>
+                  <span style={{fontSize:13}}>{grammarEditMode?"✓":"✏️"}</span>
+                  {grammarEditMode?"Done":"Edit"}
+                </button>
+              </div>
+            </div>}
+          </div>;
+        })()}
 
         {/* Filter panel — frosted glass sf-panel style */}
         {filterOpen&&<div className="anim" style={{marginBottom:16,padding:16,borderRadius:20,position:"relative",overflow:"hidden",background:panelBg,border:panelBorder,boxShadow:panelShadow}}>
