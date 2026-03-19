@@ -7942,7 +7942,12 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const panelBorder=dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)";
   const panelShadow=dk?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)";
   const glossArc=dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)";
+  const neonSh="0 0 10px rgba(255,255,255,0.8), 0 0 30px rgba(255,255,255,0.4), 0 0 60px rgba(200,180,255,0.3), 0 2px 4px rgba(0,0,0,0.5)";
+  const subNeon="0 0 8px rgba(255,255,255,0.5), 0 0 20px rgba(200,180,255,0.25), 0 1px 3px rgba(0,0,0,0.6)";
   const txtSh="0 2px 12px rgba(0,0,0,0.5), 0 0 20px rgba(0,0,0,0.25), 0 1px 3px rgba(0,0,0,0.4)";
+  // CSS chevron arrow (← arrows banned like em-dashes)
+  const chevronL=<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{marginRight:3,verticalAlign:"middle"}}><polyline points="7,1 3,5 7,9"/></svg>;
+  const chevronR=<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:3,verticalAlign:"middle"}}><polyline points="3,1 7,5 3,9"/></svg>;
 
   const tabStyle=(isActive)=>({
     display:"inline-flex",alignItems:"center",gap:6,padding:isMobile?"10px 16px":"10px 22px",borderRadius:16,
@@ -8008,9 +8013,11 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const hasActiveFilters=filterPOS.size>0||filterLevel.size>0||filterGender.size>0||filterTaughtOnly;
 
   const chipStyle=(active)=>({
-    padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .2s",
-    background:active?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
-    color:active?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+    padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+    background:active?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+    color:active?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+    textShadow:active?"0 1px 2px rgba(0,0,0,0.2)":"none",
+    boxShadow:active?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
   });
 
   // ═══════════════════════════════════════════════════════════
@@ -8038,50 +8045,91 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       {/* SEARCH MODE                                            */}
       {/* ═══════════════════════════════════════════════════════ */}
       {mode==="search"&&<div>
-        {/* Search bar */}
-        <div style={{position:"relative",marginBottom:10}}>
-          <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search words or translations..." style={{
-            width:"100%",boxSizing:"border-box",padding:"14px 18px 14px 44px",borderRadius:16,fontSize:15,fontWeight:600,fontFamily:"Nunito, sans-serif",
-            background:dk?"rgba(30,30,46,0.8)":"white",
-            border:dk?"2px solid rgba(160,140,255,0.3)":"2px solid rgba(165,148,238,0.4)",
-            color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",
-            boxShadow:dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 12px rgba(123,94,232,0.15)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 12px rgba(165,148,238,0.1)",
-            outline:"none",transition:"all .2s",
-          }}
-          onFocus={e=>{e.target.style.borderColor=dk?"rgba(160,140,255,0.6)":"#7B5EE8";e.target.style.boxShadow=dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 20px rgba(123,94,232,0.3)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 20px rgba(123,94,232,0.2)";}}
-          onBlur={e=>{e.target.style.borderColor=dk?"rgba(160,140,255,0.3)":"rgba(165,148,238,0.4)";e.target.style.boxShadow=dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 12px rgba(123,94,232,0.15)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 12px rgba(165,148,238,0.1)";}}
-          />
-          <span style={{position:"absolute",left:16,top:"50%",transform:"translateY(-50%)",fontSize:16,opacity:0.4,pointerEvents:"none"}}>&#128269;</span>
-          {search&&<button onClick={()=>{setSearch("");searchRef.current?.focus();}} style={{position:"absolute",right:14,top:"50%",transform:"translateY(-50%)",background:"none",border:"none",fontSize:16,cursor:"pointer",color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",padding:4}}>&#10005;</button>}
+        {/* Search bar — sf-panel style frosted glass */}
+        <div style={{position:"relative",borderRadius:20,overflow:"hidden",marginBottom:10,background:panelBg,border:panelBorder,boxShadow:panelShadow}}>
+          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+          <div style={{display:"flex",alignItems:"center",gap:9,padding:"11px 13px",background:dk?"rgba(255,255,255,0.07)":"rgba(255,255,255,0.22)",borderRadius:20,position:"relative",zIndex:1}}>
+            <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke={dk?"rgba(200,184,255,0.65)":"rgba(130,115,175,0.65)"} strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
+            <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search any word or phrase\u2026" style={{flex:1,border:"none",outline:"none",background:"transparent",fontSize:14,fontFamily:"'Nunito','DM Sans',system-ui,sans-serif",fontWeight:600,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",caretColor:"#7B5EE8",minWidth:0}}/>
+            {search&&<span onClick={()=>{setSearch("");searchRef.current?.focus();}} style={{cursor:"pointer",fontSize:14,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.75)",padding:"0 4px"}}>&#10005;</span>}
+          </div>
         </div>
 
-        {/* Filter button */}
+        {/* Filter bar + count */}
         <div style={{display:"flex",gap:8,marginBottom:14,alignItems:"center"}}>
-          <button onClick={()=>setFilterOpen(p=>!p)} style={{
-            padding:"6px 14px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .2s",
-            background:filterOpen||hasActiveFilters?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
-            color:filterOpen||hasActiveFilters?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
-          }}>Filters {hasActiveFilters?"*":""}</button>
-          {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}} style={{padding:"4px 10px",borderRadius:8,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:dk?"rgba(245,101,101,0.15)":"rgba(245,101,101,0.08)",color:"#F56565",fontFamily:"inherit"}}>Clear all</button>}
+          <button onClick={()=>setFilterOpen(p=>!p)}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+            style={{
+              padding:"7px 16px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:800,transition:"all .25s",position:"relative",overflow:"hidden",
+              background:filterOpen||hasActiveFilters?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
+              color:filterOpen||hasActiveFilters?"white":(dk?"rgba(200,184,255,0.7)":"#7050D8"),
+              textShadow:filterOpen||hasActiveFilters?"0 1px 2px rgba(0,0,0,0.2)":"none",
+              boxShadow:filterOpen||hasActiveFilters?"0 4px 14px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)":(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+            }}>
+            <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:filterOpen||hasActiveFilters?"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 40%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+            <span style={{position:"relative",zIndex:1}}>Filters {hasActiveFilters?"*":""}</span>
+          </button>
+          {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}
+            style={{padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontSize:10,fontWeight:800,background:dk?"rgba(245,101,101,0.2)":"rgba(245,101,101,0.1)",color:"#F56565",fontFamily:"inherit",transition:"all .2s"}}>Clear all</button>}
           <span style={{flex:1}}/>
           <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
         </div>
 
-        {/* Filter panel */}
-        {filterOpen&&<div className="anim" style={{marginBottom:16,padding:14,borderRadius:16,background:dk?"rgba(30,30,46,0.7)":"rgba(248,245,255,0.9)",border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.1)"}}>
-          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Part of Speech</div>
-          <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
-            {posTypes.map(p=><button key={p} onClick={()=>toggleFilter(filterPOS,setFilterPOS,p)} style={chipStyle(filterPOS.has(p))}>{cap(p)}</button>)}
+        {/* Filter panel — frosted glass sf-panel style */}
+        {filterOpen&&<div className="anim" style={{marginBottom:16,padding:16,borderRadius:20,position:"relative",overflow:"hidden",background:panelBg,border:panelBorder,boxShadow:panelShadow}}>
+          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+          <div style={{position:"relative",zIndex:1}}>
+            <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Part of Speech</div>
+            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
+              {posTypes.map(p=><button key={p} onClick={()=>toggleFilter(filterPOS,setFilterPOS,p)}
+                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+                style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+                  background:filterPOS.has(p)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+                  color:filterPOS.has(p)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+                  textShadow:filterPOS.has(p)?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                  boxShadow:filterPOS.has(p)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+                }}>{cap(p)}</button>)}
+            </div>
+            {activeGenders.length>0&&<>
+              <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Gender</div>
+              <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
+                {activeGenders.map(g=><button key={g} onClick={()=>toggleFilter(filterGender,setFilterGender,g)}
+                  onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+                  onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+                  style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+                    background:filterGender.has(g)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+                    color:filterGender.has(g)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+                    textShadow:filterGender.has(g)?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                    boxShadow:filterGender.has(g)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+                  }}>{genderLabels[g]||g}</button>)}
+              </div>
+            </>}
+            <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Level</div>
+            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
+              {activeLevels.map(lv=><button key={lv} onClick={()=>toggleFilter(filterLevel,setFilterLevel,lv)}
+                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+                style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+                  background:filterLevel.has(lv)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+                  color:filterLevel.has(lv)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+                  textShadow:filterLevel.has(lv)?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                  boxShadow:filterLevel.has(lv)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+                }}>{lv}</button>)}
+            </div>
+            <button onClick={()=>setFilterTaughtOnly(p=>!p)}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+              style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+                background:filterTaughtOnly?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+                color:filterTaughtOnly?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+                textShadow:filterTaughtOnly?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                boxShadow:filterTaughtOnly?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+              }}>Taught only</button>
           </div>
-          {activeGenders.length>0&&<><div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Gender</div>
-          <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
-            {activeGenders.map(g=><button key={g} onClick={()=>toggleFilter(filterGender,setFilterGender,g)} style={chipStyle(filterGender.has(g))}>{genderLabels[g]||g}</button>)}
-          </div></>}
-          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Level</div>
-          <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
-            {activeLevels.map(lv=><button key={lv} onClick={()=>toggleFilter(filterLevel,setFilterLevel,lv)} style={chipStyle(filterLevel.has(lv))}>{lv}</button>)}
-          </div>
-          <button onClick={()=>setFilterTaughtOnly(p=>!p)} style={chipStyle(filterTaughtOnly)}>Taught only</button>
         </div>}
 
         {/* Word list */}
@@ -8128,7 +8176,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
               style={{padding:"8px 16px",borderRadius:14,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,position:"relative",overflow:"hidden",transition:"all .2s",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"}}>
               <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-              <span style={{position:"relative",zIndex:1}}>&#8592; Back</span>
+              <span style={{position:"relative",zIndex:1,display:"inline-flex",alignItems:"center"}}>{chevronL} Back</span>
             </button>
             <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}</span>
           </div>
@@ -8160,7 +8208,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
               style={{padding:"8px 16px",borderRadius:14,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,position:"relative",overflow:"hidden",transition:"all .2s",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"}}>
               <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-              <span style={{position:"relative",zIndex:1}}>&#8592; {browsePath[0]}</span>
+              <span style={{position:"relative",zIndex:1,display:"inline-flex",alignItems:"center"}}>{chevronL} {browsePath[0]}</span>
             </button>
             <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}{browsePath[1]}</span>
             <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{browseWords.length} word{browseWords.length!==1?"s":""}</span>
@@ -8181,11 +8229,16 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <button onClick={()=>setReviewLevel(null)} style={chipStyle(!reviewLevel)}>All</button>
           {cefrLevels.map(lv=><button key={lv} onClick={()=>setReviewLevel(reviewLevel===lv?null:lv)} style={chipStyle(reviewLevel===lv)}>{lv}</button>)}
           <span style={{width:1,height:20,background:dk?"rgba(255,255,255,0.1)":"rgba(123,94,232,0.15)",margin:"0 4px"}}/>
-          <button onClick={()=>setReviewShuffled(p=>!p)} style={{
-            padding:"5px 14px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
-            background:reviewShuffled?(dk?"rgba(46,205,167,0.2)":"rgba(46,205,167,0.1)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
-            color:reviewShuffled?(dk?"#69F0AE":"#2ECDA7"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),transition:"all .2s",
-          }}>Shuffle</button>
+          <button onClick={()=>setReviewShuffled(p=>!p)}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+            style={{
+              padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
+              background:reviewShuffled?(dk?"linear-gradient(180deg,#5FE8C0 0%,#2ECDA7 50%,#1AB090 100%)":"linear-gradient(180deg,#69F0CE 0%,#2ECDA7 50%,#1AB090 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
+              color:reviewShuffled?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
+              textShadow:reviewShuffled?"0 1px 2px rgba(0,0,0,0.2)":"none",
+              boxShadow:reviewShuffled?"0 3px 10px rgba(46,205,167,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+            }}>Shuffle</button>
         </div>
 
         {reviewWords.length===0?
@@ -8215,26 +8268,26 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                 <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
 
                 {!reviewFlipped?
-                  /* ── Front: just the word + speaker ── */
+                  /* ── Front: just the word + speaker — NEON WHITE ── */
                   <div style={{position:"relative",zIndex:1}}>
-                    <div style={{fontSize:isMobile?28:36,fontWeight:900,color:"white",textShadow:txtSh,marginBottom:8,fontFamily:"Quicksand, sans-serif"}}>
+                    <div style={{fontSize:isMobile?28:36,fontWeight:900,color:"#fff",textShadow:neonSh,marginBottom:8,fontFamily:"Quicksand, sans-serif"}}>
                       {card.display||card.word}
                     </div>
                     <SpeakerButton text={card.word} lang={ttsLocale} size={20} showToast={showToast}/>
-                    <div style={{fontSize:12,color:"rgba(255,255,255,0.5)",marginTop:16,fontWeight:600,textShadow:txtSh}}>Tap to reveal</div>
+                    <div style={{fontSize:12,color:"rgba(255,255,255,0.6)",marginTop:16,fontWeight:700,textShadow:subNeon}}>Tap to reveal</div>
                   </div>
                 :
-                  /* ── Back: translation + details ── */
+                  /* ── Back: translation NEON WHITE, details strong readable ── */
                   <div style={{position:"relative",zIndex:1}}>
-                    <div style={{fontSize:11,fontWeight:700,color:"rgba(255,255,255,0.55)",marginBottom:6,letterSpacing:1,textTransform:"uppercase",textShadow:txtSh}}>{card.display||card.word}</div>
-                    <div style={{fontSize:isMobile?24:30,fontWeight:800,color:"white",textShadow:txtSh,marginBottom:12,fontFamily:"Quicksand, sans-serif"}}>{card.en}</div>
+                    <div style={{fontSize:12,fontWeight:800,color:"#fff",marginBottom:6,letterSpacing:1,textTransform:"uppercase",textShadow:neonSh}}>{card.display||card.word}</div>
+                    <div style={{fontSize:isMobile?24:30,fontWeight:900,color:"#fff",textShadow:neonSh,marginBottom:12,fontFamily:"Quicksand, sans-serif"}}>{card.en}</div>
                     <div style={{display:"flex",gap:6,justifyContent:"center",flexWrap:"wrap",marginBottom:10}}>
-                      {card.level&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:"rgba(255,255,255,0.2)",textShadow:txtSh,letterSpacing:0.3}}>{(card.level||"A1").substring(0,2)}</span>}
-                      <span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:700,color:"white",background:"rgba(255,255,255,0.15)",textShadow:txtSh,letterSpacing:0.5,textTransform:"uppercase"}}>{posLabel(card.pos)}</span>
+                      {card.level&&<span style={{display:"inline-block",padding:"3px 10px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:"rgba(255,255,255,0.25)",textShadow:subNeon,letterSpacing:0.3,backdropFilter:"blur(4px)"}}>{(card.level||"A1").substring(0,2)}</span>}
+                      <span style={{display:"inline-block",padding:"3px 10px",borderRadius:8,fontSize:10,fontWeight:700,color:"white",background:"rgba(255,255,255,0.2)",textShadow:subNeon,letterSpacing:0.5,textTransform:"uppercase",backdropFilter:"blur(4px)"}}>{posLabel(card.pos)}</span>
                     </div>
-                    {card.phonetic&&<div style={{fontSize:13,color:"rgba(255,255,255,0.65)",marginBottom:8,textShadow:txtSh}}>/{card.phonetic}/</div>}
-                    {card.example&&<div style={{fontSize:13,color:"rgba(255,255,255,0.75)",fontStyle:"italic",maxWidth:400,lineHeight:1.5,textShadow:txtSh}}>{card.example}</div>}
-                    {card.exampleEn&&<div style={{fontSize:12,color:"rgba(255,255,255,0.5)",marginTop:4,textShadow:txtSh}}>{card.exampleEn}</div>}
+                    {card.phonetic&&<div style={{fontSize:13,fontWeight:700,color:"#fff",marginBottom:8,textShadow:subNeon}}>/{card.phonetic}/</div>}
+                    {card.example&&<div style={{fontSize:13,fontWeight:700,color:"rgba(30,20,60,0.85)",fontStyle:"italic",maxWidth:400,lineHeight:1.5,background:"rgba(255,255,255,0.35)",borderRadius:12,padding:"8px 12px",backdropFilter:"blur(4px)"}}>{card.example}</div>}
+                    {card.exampleEn&&<div style={{fontSize:12,fontWeight:600,color:"rgba(30,20,60,0.7)",marginTop:4,fontStyle:"italic"}}>{card.exampleEn}</div>}
                   </div>
                 }
               </div>;
@@ -8254,7 +8307,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                   boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)",
                 }}>
                 <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-                <span style={{position:"relative",zIndex:1}}>&#8592; Prev</span>
+                <span style={{position:"relative",zIndex:1,display:"inline-flex",alignItems:"center"}}>{chevronL} Prev</span>
               </button>
               <button onClick={(e)=>{e.stopPropagation();setReviewFlipped(false);setReviewIndex(p=>Math.min(reviewWords.length-1,p+1));}}
                 disabled={reviewIndex>=reviewWords.length-1}
@@ -8268,7 +8321,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                   boxShadow:"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",
                 }}>
                 <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-                <span style={{position:"relative",zIndex:1}}>Next &#8594;</span>
+                <span style={{position:"relative",zIndex:1,display:"inline-flex",alignItems:"center"}}>Next {chevronR}</span>
               </button>
             </div>
           </div>
