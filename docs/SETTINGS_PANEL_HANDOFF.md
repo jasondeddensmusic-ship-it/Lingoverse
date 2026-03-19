@@ -210,6 +210,25 @@ export const GRAMMAR_SETTINGS = {
 
 ---
 
+## Flags and Risks (READ THESE)
+
+**Flag 1: CEFR word lists availability.**
+The official vocab lists for TOPIK (Korean) and Goethe-Institut (German) are relatively accessible online. NT2 (Dutch), DELF (French), and DELE (Spanish) lists are harder to get in clean, machine-readable format. Some are paywalled or only available in textbook appendices. Plan for: multiple research sessions, possible manual curation from multiple sources, and using textbook word indices as proxies where official lists are unavailable. This is step 2 and it blocks the curriculum restructure (step 8).
+
+**Flag 2: Korean lemma reverse lookup is a real NLP problem.**
+Korean is agglutinative: "먹었어요" = 먹(eat) + 었(past) + 어요(polite). Stripping particles AND conjugation endings to get back to "먹다" requires morphological analysis, not just string matching. The existing `tokenizeKorean` handles some particle stripping but not full deconjugation. German/French/Spanish/Dutch are easier (conjugation tables are finite and regular-ish). For Korean, consider: (a) building explicit conjugation tables for common verbs, (b) using suffix-stripping heuristics, or (c) accepting that some forms won't resolve and showing "did you mean...?" suggestions. This affects the search bar (step 4) and dictionary (step 2).
+
+**Flag 3: Curriculum restructure scope is massive.**
+5 languages x ~250 lessons each = ~1,250 lessons to reformat. Even with content salvage, every lesson needs: new 2-bubble card format, fun info section on every card, story arc per unit, interleaved flow. Estimate: 5-10 sessions PER LANGUAGE for full restructure. That's 25-50 sessions for all 5 languages. The prototype (steps 5-6, ONE language) will reveal the real pace.
+
+**Flag 4: The settings panel can be built NOW without word lists.**
+The settings panel (step 3) only needs the category STRUCTURE per language (which articles exist, which particles exist), not the actual word data. So steps 2 and 3 CAN overlap. The handoff doc has everything needed to build the settings panel independently.
+
+**Flag 5: Understripe rendering has CSS limitations.**
+CSS `text-decoration` supports underlines with color, but "understripe" (a colored line under text representing a DIFFERENT dimension than the text color) is tricky. Options: `border-bottom` (works but affects layout), `box-shadow inset` (no layout shift but limited), or `background-image linear-gradient` at the bottom (most flexible). Needs prototyping to find what looks good and performs well, especially on mobile.
+
+---
+
 ## Definition of Done
 
 - [ ] Settings panel shows ONLY categories relevant to current language
