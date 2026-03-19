@@ -3,8 +3,10 @@
 > **Rehaul Step 3** (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 5)
 > Step 1: D114 docs update (COMPLETE)
 > Step 2: Download complete CEFR word lists for all 5 languages (foundation for dictionary + curriculum)
-> **This step**: Language-specific settings panel redesign
+> **This step**: Language-specific settings panel redesign — **V1 COMPLETE (2026-03-19)**
 > Next step after this: Vocab page redesign (Step 4)
+>
+> **Commit**: PR #67 merged to main. `GRAMMAR_SETTINGS` in dictionary.js + per-language panel in lingoverse.jsx.
 
 ---
 
@@ -231,18 +233,43 @@ CSS `text-decoration` supports underlines with color, but "understripe" (a color
 
 ## Definition of Done
 
-- [ ] Settings panel shows ONLY categories relevant to current language
-- [ ] German shows: der/die/das articles, 4 cases, standard word types
-- [ ] Korean shows: 4 particle types, 3 honorific levels, verbs/adjectives/numbers
-- [ ] Dutch shows: de/het articles, standard word types
-- [ ] French shows: le/la/les articles, standard word types
-- [ ] Spanish shows: el/la/los-las articles, standard word types
-- [ ] Understripe function dropdown works (gender vs case vs word type)
-- [ ] Preset buttons work per language
-- [ ] Mobile: bottom sheet slides up with drag handle
-- [ ] Desktop: floating panel below gear icon
-- [ ] Dark mode renders correctly
-- [ ] Filters persist in localStorage per language
-- [ ] universalHl() respects per-language filter selections
-- [ ] VerumLingua candy gloss styling applied
-- [ ] Color legend shows what each color means
+- [x] Settings panel shows ONLY categories relevant to current language
+- [x] German shows: der/die/das articles, 4 cases, standard word types
+- [x] Korean shows: 7 particle types, verbs/adjectives/numbers/negation/question
+- [x] Dutch shows: de/het articles, standard word types
+- [x] French shows: le/la/les articles, standard word types
+- [x] Spanish shows: el/la/los-las articles, standard word types
+- [ ] Understripe function dropdown works (gender vs case vs word type) — **DEFERRED: needs prototyping**
+- [x] Preset buttons work per language
+- [x] Mobile: bottom sheet slides up with drag handle + backdrop blur
+- [x] Desktop: floating panel below gear icon
+- [x] Dark mode renders correctly (all colors have light+dark variants in GRAMMAR_SETTINGS)
+- [x] Filters persist in localStorage per language (new key: vl_grammar_filters_v2)
+- [x] universalHl() respects per-language filter selections (langPosFilterMap)
+- [x] VerumLingua candy gloss styling applied (gradient bg, glow shadows, glass effect)
+- [x] Color legend shows what each color means ("?" button)
+
+## What Was Built (V1 — PR #67, 2026-03-19)
+
+**dictionary.js**:
+- `GRAMMAR_SETTINGS` — per-language config with groups, items, posKeys, colors, darkColors, presets
+- `getDefaultFilters(lang)` — returns all-ON filter object for a language
+- `buildPosFilterMap(lang)` — maps POS keys to filter IDs for universalHl
+- `getFilterColor(lang, filterId, isDark)` — color lookup for settings panel dots
+
+**lingoverse.jsx**:
+- `allGrammarFilters` state (per-language, localStorage `vl_grammar_filters_v2`)
+- `grammarFilters` memo (current language's filters with defaults)
+- `langPosFilterMap` memo (from `buildPosFilterMap`)
+- Language-specific settings panel with grouped toggles, presets, color legend
+- Mobile bottom sheet (fixed position, backdrop blur overlay, drag handle)
+- universalHl() uses `langPosFilterMap` instead of hardcoded posFilterMap
+
+## Known Gaps / What V2 Needs
+
+1. **Korean honorific levels NOT in GRAMMAR_SETTINGS.** Vision doc mentions 해요체/합쇼체/반말 toggles. These require detecting speech level from verb endings, which is a morphological analysis problem. Deferred.
+2. **German case toggles exist but have empty posKeys.** No word in WORD_DB has case POS tags. Case detection requires syntactic parsing. Toggles are placeholder UI for when case-aware tagging is added.
+3. **Understripe function dropdown** not built. Needs prototyping (CSS `border-bottom` vs `background-image gradient`). Deferred.
+4. **Bold/dotted underline/italics** visual controls from vision doc Section 5.2 not built. Deferred to V2.
+5. **Full settings page in profile section** not built. Only in-lesson quick access exists. Deferred.
+6. **Korean `koreanHl()` does NOT check grammarFilters** for particle colors. It has its own coloring logic. Full integration needs koreanHl to use the per-language filter system.

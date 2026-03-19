@@ -206,6 +206,8 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D111**: Partial structural audit (sub-level label fixes, automated scans). INCOMPLETE: did not verify vocabulary/grammar completeness.
 - **D112**: Certification-grade audit mandate. P55-P58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
 - **D113**: Two units-spanish.js syntax fixes + CEFR tab grouping bug fix (getCefrInfo band-prefix fallback). Rule 16 created.
+- **D114**: Platform rehaul vision document + docs update. Complete design spec for curriculum restructure, word card redesign, story system, settings panel, vocab page. Build order established.
+- **D115**: Settings panel redesign V1. Language-specific grammar filters (GRAMMAR_SETTINGS), per-language filter persistence, mobile bottom sheet, VerumLingua candy gloss styling. PR #67 merged.
 
 ---
 
@@ -574,7 +576,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8:
 1. **Update CLAUDE.md and all docs** to match the vision (D114 — DONE)
 2. **Download complete CEFR word lists** for all 5 languages — foundation for dictionary AND curriculum
-3. **Language-specific settings panel** — full grammar visualization per language
+3. **Language-specific settings panel** (D115 — V1 DONE, PR #67). Known gaps: understripe, bold/italic/dotted, profile page, koreanHl integration.
 4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch
 5. **New word card format** — 2-bubble examples + fun info bottom (prototype ONE language)
 6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language)
@@ -1150,8 +1152,8 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 
 **The platform rehaul is the immediate priority.** The full design spec is in `docs/VERUMLINGUA_REHAUL_VISION.md`. Build order:
 
-1. **D114: Update docs to match vision** (THIS SESSION) — CLAUDE.md, Master Bible, Pipeline Standards
-2. **Language-specific settings panel** — redesign with full grammar visualization per language (German cases, Korean particles, etc.), VerumLingua bubble style, two access points (in-lesson + full settings page)
+1. **D114: Update docs to match vision** — CLAUDE.md, Master Bible, Pipeline Standards **(DONE)**
+2. **D115: Language-specific settings panel V1** — per-language grammar filters, VerumLingua bubble style, mobile bottom sheet, desktop floating panel **(DONE 2026-03-19, PR #67)**. Known gaps: understripe dropdown, bold/italic/dotted controls, full settings page in profile, Korean koreanHl integration. See `docs/SETTINGS_PANEL_HANDOFF.md`.
 3. **Vocab page redesign** — search + categories + review modes, strip quiz data, build from scratch
 4. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (ONE language)
 5. **Story dialogue system prototype** — protagonist setup, episode format (ONE language)
