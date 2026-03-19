@@ -265,6 +265,20 @@ CSS `text-decoration` supports underlines with color, but "understripe" (a color
 - Mobile bottom sheet (fixed position, backdrop blur overlay, drag handle)
 - universalHl() uses `langPosFilterMap` instead of hardcoded posFilterMap
 
+## V1.1 Polish (PR #69, 2026-03-19)
+
+- **Removed gold "new word" inline highlight.** The gold bubble wrapping words in lesson text was misfiring on English words and is being replaced by the curriculum restructure. The "NEW WORD" corner badge on teach cards is KEPT.
+- **Removed `newWords` toggle** from GRAMMAR_SETTINGS (all 5 languages) and all `full` presets.
+- **Removed `isGoldBubble`** flag, gold hover logic, and mini-popup "new word" badge from universalHl().
+- **Restyled entire settings panel** to proper VerumLingua candy gloss aesthetic:
+  - Frosted glass panel background (`backdrop-filter: blur(20px)`)
+  - Rounded pill-shaped chips (`borderRadius: 20`) with multi-stop gradient fills
+  - Radial gradient color dots with inner glow when active
+  - Stronger backdrop blur on mobile overlay (8px vs 2px)
+  - Premium preset buttons with hover glow
+  - Rounded drag handle on mobile (24px top corners)
+  - Better visual hierarchy with improved spacing and typography
+
 ## Known Gaps / What V2 Needs
 
 1. **Korean honorific levels NOT in GRAMMAR_SETTINGS.** Vision doc mentions 해요체/합쇼체/반말 toggles. These require detecting speech level from verb endings, which is a morphological analysis problem. Deferred.
@@ -273,3 +287,12 @@ CSS `text-decoration` supports underlines with color, but "understripe" (a color
 4. **Bold/dotted underline/italics** visual controls from vision doc Section 5.2 not built. Deferred to V2.
 5. **Full settings page in profile section** not built. Only in-lesson quick access exists. Deferred.
 6. **Korean `koreanHl()` does NOT check grammarFilters** for particle colors. It has its own coloring logic. Full integration needs koreanHl to use the per-language filter system.
+7. **POS sub-category coverage.** Every word in the new curriculum needs granular POS sub-tags (particle_topic vs particle_subj, article_m vs article_f, etc.) for the grammar toggles to work at full specificity. Partially done in WORD_DB. Must be completed during curriculum restructure (step 8).
+
+---
+
+## Coordination Note for Parallel Sessions
+
+**Step 2 (CEFR word lists)** may be running in a separate mobile session. That session is doing RESEARCH ONLY — downloading and saving official vocabulary/grammar lists to `docs/` and `src/data/`. It does NOT modify `lingoverse.jsx` or `dictionary.js`.
+
+**Step 4 (Vocab page redesign)** is the next CODE step and will be done in a desktop session. It builds on the GRAMMAR_SETTINGS and WORD_DB infrastructure from steps 2-3. No conflict between the two sessions — they touch different files.

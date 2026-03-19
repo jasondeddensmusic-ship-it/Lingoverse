@@ -10672,92 +10672,114 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <span style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{si+1}/{total}</span>
         </div>
       </div>
-      {/* Grammar settings panel — language-specific */}
-      {showGrammarSettings&&grammarHl&&typeof window!=="undefined"&&window.innerWidth<600&&<div onClick={()=>setShowGrammarSettings(false)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:"rgba(0,0,0,0.35)",zIndex:9998,backdropFilter:"blur(2px)",WebkitBackdropFilter:"blur(2px)"}}/>}
+      {/* Grammar settings panel — language-specific, VerumLingua candy gloss */}
+      {showGrammarSettings&&grammarHl&&typeof window!=="undefined"&&window.innerWidth<600&&<div onClick={()=>setShowGrammarSettings(false)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
       {showGrammarSettings&&grammarHl&&(()=>{
         if(!langSettings) return <div style={{marginTop:8,padding:"12px 14px",borderRadius:14,background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",fontSize:12,color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)"}}>No grammar settings available for this language yet.</div>;
         const chipStyle=(active,color)=>({
-          display:"inline-flex",alignItems:"center",gap:5,padding:"6px 12px",borderRadius:10,
-          fontSize:12,fontWeight:600,cursor:"pointer",transition:"all .2s",border:"none",fontFamily:"inherit",
-          minHeight:34,
+          display:"inline-flex",alignItems:"center",gap:6,padding:"7px 14px",borderRadius:20,
+          fontSize:12,fontWeight:700,cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",border:"none",fontFamily:"inherit",
+          minHeight:36,
           background:active
-            ?(dk?`linear-gradient(180deg,${color}28,${color}15)`:`linear-gradient(180deg,${color}20,${color}10)`)
-            :(dk?"rgba(255,255,255,0.04)":"rgba(0,0,0,0.03)"),
-          color:active?color:(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+            ?(dk
+              ?`linear-gradient(180deg,${color}35 0%,${color}22 40%,${color}15 70%,${color}0A 100%)`
+              :`linear-gradient(180deg,${color}28 0%,${color}18 30%,${color}10 60%,${color}06 100%)`)
+            :(dk?"rgba(255,255,255,0.05)":"rgba(240,238,250,0.7)"),
+          color:active?color:(dk?"rgba(255,255,255,0.35)":"rgba(140,130,170,0.6)"),
           boxShadow:active
-            ?`0 0 0 1.5px ${color}55,0 2px 8px ${color}15`
-            :"0 0 0 1px "+(dk?"rgba(255,255,255,0.08)":"rgba(0,0,0,0.08)"),
+            ?dk
+              ?`0 0 0 1.5px ${color}44,0 4px 12px ${color}20,inset 0 1px 0 rgba(255,255,255,0.06)`
+              :`0 0 0 1.5px ${color}33,0 4px 14px ${color}12,inset 0 1px 0 rgba(255,255,255,0.95),inset 0 -1px 0 ${color}08`
+            :dk
+              ?"0 0 0 1px rgba(255,255,255,0.06),inset 0 1px 0 rgba(255,255,255,0.03)"
+              :"0 0 0 1px rgba(123,94,232,0.06),inset 0 1px 0 rgba(255,255,255,0.9),inset 0 -1px 0 rgba(0,0,0,0.02)",
+          opacity:active?1:0.75,
         });
-        const dot=(c)=><span style={{width:8,height:8,borderRadius:4,background:c,display:"inline-block",flexShrink:0,boxShadow:`0 0 4px ${c}66`}}/>;
+        const dot=(c,active)=><span style={{width:9,height:9,borderRadius:5,display:"inline-block",flexShrink:0,transition:"all .25s",
+          background:active?`radial-gradient(circle at 35% 35%,${c}FF,${c}CC)`:c+"55",
+          boxShadow:active?`0 0 6px ${c}66,inset 0 1px 0 rgba(255,255,255,0.4)`:"none",
+        }}/>;
         const presetBtn=(label,presetKey)=><button onClick={()=>setPreset(presetKey)} style={{
-          padding:"5px 12px",borderRadius:8,border:"none",cursor:"pointer",fontFamily:"inherit",
-          fontSize:11,fontWeight:700,transition:"all .2s",
-          background:dk?"linear-gradient(180deg,rgba(70,68,100,0.6),rgba(50,48,78,0.4))":"linear-gradient(180deg,rgba(255,255,255,0.95),rgba(240,238,248,0.9))",
-          color:dk?"rgba(255,255,255,0.55)":"var(--gray-500)",
-          boxShadow:dk?"0 2px 6px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)":"0 2px 6px rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.9)",
-        }} onMouseEnter={e=>{e.currentTarget.style.background=dk?"linear-gradient(180deg,rgba(123,94,232,0.25),rgba(80,60,180,0.15))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))";e.currentTarget.style.color=dk?"#B8A8FA":"#7B5EE8";}}
-        onMouseLeave={e=>{e.currentTarget.style.background=dk?"linear-gradient(180deg,rgba(70,68,100,0.6),rgba(50,48,78,0.4))":"linear-gradient(180deg,rgba(255,255,255,0.95),rgba(240,238,248,0.9))";e.currentTarget.style.color=dk?"rgba(255,255,255,0.55)":"var(--gray-500)";}}>{label}</button>;
+          padding:"7px 16px",borderRadius:20,border:"none",cursor:"pointer",fontFamily:"inherit",
+          fontSize:11,fontWeight:800,letterSpacing:0.3,transition:"all .25s cubic-bezier(.4,0,.2,1)",
+          background:dk
+            ?"linear-gradient(180deg,rgba(80,70,120,0.7) 0%,rgba(60,52,95,0.5) 50%,rgba(45,40,75,0.35) 100%)"
+            :"linear-gradient(180deg,rgba(255,255,255,0.98) 0%,rgba(248,244,255,0.95) 40%,rgba(240,236,252,0.9) 100%)",
+          color:dk?"rgba(200,190,240,0.7)":"rgba(100,80,160,0.6)",
+          boxShadow:dk
+            ?"0 3px 10px rgba(0,0,0,0.35),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -1px 0 rgba(0,0,0,0.15)"
+            :"0 2px 8px rgba(123,94,232,0.08),inset 0 1px 0 rgba(255,255,255,0.95),inset 0 -1px 0 rgba(123,94,232,0.04)",
+        }} onMouseEnter={e=>{e.currentTarget.style.background=dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(90,70,180,0.2))":"linear-gradient(180deg,rgba(245,240,255,0.98),rgba(230,222,252,0.95))";e.currentTarget.style.color=dk?"#B8A8FA":"#7B5EE8";e.currentTarget.style.boxShadow=dk?"0 4px 14px rgba(123,94,232,0.25),inset 0 1px 0 rgba(255,255,255,0.12)":"0 4px 16px rgba(123,94,232,0.15),inset 0 1px 0 rgba(255,255,255,0.95)";}}
+        onMouseLeave={e=>{e.currentTarget.style.background=dk?"linear-gradient(180deg,rgba(80,70,120,0.7),rgba(60,52,95,0.5),rgba(45,40,75,0.35))":"linear-gradient(180deg,rgba(255,255,255,0.98),rgba(248,244,255,0.95),rgba(240,236,252,0.9))";e.currentTarget.style.color=dk?"rgba(200,190,240,0.7)":"rgba(100,80,160,0.6)";e.currentTarget.style.boxShadow=dk?"0 3px 10px rgba(0,0,0,0.35),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -1px 0 rgba(0,0,0,0.15)":"0 2px 8px rgba(123,94,232,0.08),inset 0 1px 0 rgba(255,255,255,0.95),inset 0 -1px 0 rgba(123,94,232,0.04)";}}>{label}</button>;
         const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
         return <div style={{
           marginTop:8,marginBottom:4,
-          padding:isMobile?"16px 14px 20px":"14px 16px",
-          borderRadius:isMobile?"18px 18px 0 0":16,
+          padding:isMobile?"20px 16px 28px":"16px 18px",
+          borderRadius:isMobile?"24px 24px 0 0":22,
           background:dk
-            ?"linear-gradient(180deg,rgba(35,33,58,0.98),rgba(28,26,48,0.96))"
-            :"linear-gradient(180deg,rgba(255,255,255,0.99),rgba(248,246,255,0.97))",
-          border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.08)",
+            ?"linear-gradient(180deg,rgba(40,36,65,0.97) 0%,rgba(32,28,55,0.96) 40%,rgba(25,22,45,0.95) 100%)"
+            :"linear-gradient(180deg,rgba(255,255,255,0.98) 0%,rgba(252,250,255,0.96) 40%,rgba(248,245,255,0.94) 100%)",
+          border:dk?"1px solid rgba(123,94,232,0.18)":"1px solid rgba(123,94,232,0.1)",
           boxShadow:dk
-            ?"0 8px 32px rgba(0,0,0,0.5),0 0 0 1px rgba(123,94,232,0.1),inset 0 1px 0 rgba(255,255,255,0.04)"
-            :"0 8px 28px rgba(123,94,232,0.08),0 0 0 1px rgba(123,94,232,0.06),inset 0 1px 0 rgba(255,255,255,0.9)",
+            ?"0 -4px 40px rgba(0,0,0,0.5),0 0 0 1px rgba(123,94,232,0.12),inset 0 1px 0 rgba(255,255,255,0.05)"
+            :"0 -4px 40px rgba(123,94,232,0.06),0 8px 32px rgba(0,0,0,0.04),0 0 0 1px rgba(123,94,232,0.06),inset 0 1px 0 rgba(255,255,255,0.95)",
+          backdropFilter:"blur(20px)",WebkitBackdropFilter:"blur(20px)",
           position:isMobile?"fixed":"relative",
           bottom:isMobile?0:undefined,left:isMobile?0:undefined,right:isMobile?0:undefined,
           zIndex:isMobile?9999:undefined,
-          maxHeight:isMobile?"70vh":400,overflowY:"auto",
+          maxHeight:isMobile?"75vh":420,overflowY:"auto",
           WebkitOverflowScrolling:"touch",
         }}>
           {/* Drag handle for mobile */}
-          {isMobile&&<div style={{width:36,height:4,borderRadius:2,background:dk?"rgba(255,255,255,0.2)":"rgba(0,0,0,0.15)",margin:"0 auto 12px"}}/>}
+          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.15)":"rgba(123,94,232,0.15)",margin:"0 auto 16px"}}/>}
           {/* Header */}
-          <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
-            <div style={{fontSize:12,fontWeight:800,color:dk?"rgba(255,255,255,0.5)":"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>
+          <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:14}}>
+            <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.65)":"rgba(80,60,140,0.55)",textTransform:"uppercase",letterSpacing:1.2}}>
               {langSettings.label} Grammar Colors
             </div>
             <button onClick={()=>setShowColorLegend(!showColorLegend)} title="Color legend" style={{
-              width:24,height:24,borderRadius:6,border:"none",cursor:"pointer",
+              width:28,height:28,borderRadius:14,border:"none",cursor:"pointer",
               display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,
-              background:showColorLegend?(dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.08)"):"transparent",
-              color:dk?"rgba(255,255,255,0.4)":"var(--gray-400)",transition:"all .15s",
+              background:showColorLegend
+                ?(dk?"linear-gradient(180deg,rgba(123,94,232,0.3),rgba(90,70,180,0.15))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(225,218,252,0.9))")
+                :(dk?"rgba(255,255,255,0.05)":"rgba(123,94,232,0.04)"),
+              color:showColorLegend?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"rgba(123,94,232,0.3)"),
+              boxShadow:showColorLegend?(dk?"0 2px 8px rgba(123,94,232,0.2)":"0 2px 8px rgba(123,94,232,0.1)"):"none",
+              transition:"all .2s",
             }}>?</button>
           </div>
           {/* Color legend */}
           {showColorLegend&&<div style={{
-            marginBottom:12,padding:"10px 12px",borderRadius:10,fontSize:11,lineHeight:1.6,
-            background:dk?"rgba(123,94,232,0.08)":"rgba(123,94,232,0.04)",
-            border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)",
-            color:dk?"rgba(255,255,255,0.6)":"var(--gray-500)",
+            marginBottom:14,padding:"12px 14px",borderRadius:16,fontSize:12,lineHeight:1.7,
+            background:dk
+              ?"linear-gradient(180deg,rgba(123,94,232,0.1),rgba(80,60,160,0.06))"
+              :"linear-gradient(180deg,rgba(245,240,255,0.9),rgba(238,232,252,0.7))",
+            border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.08)",
+            color:dk?"rgba(255,255,255,0.65)":"rgba(80,60,140,0.6)",
+            boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.04)":"inset 0 1px 0 rgba(255,255,255,0.8)",
           }}>
-            <div style={{fontWeight:700,marginBottom:4,color:dk?"#B8A8FA":"#7B5EE8"}}>How it works</div>
+            <div style={{fontWeight:800,marginBottom:6,color:dk?"#B8A8FA":"#7B5EE8",fontSize:13}}>How it works</div>
             <div>Toggle categories to color-code grammar in lessons.</div>
-            <div style={{marginTop:4}}>Colored text = grammar category. Gold glow = new word. Understripe = noun gender.</div>
-            <div style={{marginTop:4,fontStyle:"italic"}}>English translations turn purple when colors are on.</div>
+            <div style={{marginTop:3}}>Colored text = grammar category. Understripe = noun gender.</div>
+            <div style={{marginTop:3,fontStyle:"italic",opacity:0.8}}>English translations turn purple when colors are on.</div>
           </div>}
           {/* Groups */}
-          {langSettings.groups.map(group=><div key={group.id} style={{marginBottom:10}}>
-            <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(255,255,255,0.3)":"var(--gray-300)",textTransform:"uppercase",letterSpacing:0.6,marginBottom:5}}>{group.label}</div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:6}}>
+          {langSettings.groups.map(group=><div key={group.id} style={{marginBottom:14}}>
+            <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(200,190,240,0.35)":"rgba(100,80,160,0.35)",textTransform:"uppercase",letterSpacing:1,marginBottom:7}}>{group.label}</div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:7}}>
               {group.items.map(item=>{
                 const isActive=grammarFilters[item.id]!==false;
                 const clr=dk?item.darkColor:item.color;
                 return <button key={item.id} onClick={()=>toggleFilter(item.id)} style={chipStyle(isActive,clr)}>
-                  {dot(clr)}{item.label}
+                  {dot(clr,isActive)}{item.label}
                 </button>;
               })}
             </div>
           </div>)}
           {/* Presets */}
-          <div style={{borderTop:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(0,0,0,0.05)",paddingTop:10,marginTop:4}}>
-            <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(255,255,255,0.3)":"var(--gray-300)",textTransform:"uppercase",letterSpacing:0.6,marginBottom:6}}>Quick Presets</div>
-            <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
+          <div style={{borderTop:dk?"1px solid rgba(123,94,232,0.1)":"1px solid rgba(123,94,232,0.06)",paddingTop:14,marginTop:6}}>
+            <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(200,190,240,0.35)":"rgba(100,80,160,0.35)",textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>Quick Presets</div>
+            <div style={{display:"flex",gap:8,flexWrap:"wrap"}}>
               {Object.keys(langSettings.presets).map(pk=>{
                 const labels={gender:"Gender only",content:"Content words",full:"Everything",none:"None",particles:"Particles only"};
                 return <React.Fragment key={pk}>{presetBtn(labels[pk]||pk,pk)}</React.Fragment>;
@@ -11609,7 +11631,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // No more context-free tokenizer guessing. Every word is looked up
   // in WORD_DB for its POS, then colored accordingly.
   // Grammar toggle ON: POS colors per color map + gender understripes
-  // Grammar toggle OFF: only NEW WORDS in gold bubbles + all words clickable
+  // Grammar toggle OFF: all words clickable, no color highlighting
   // ════════════════════════════════════════════════════════════
   const universalHl = (text, tLang, opts = {}) => {
     if (!text || typeof text !== "string") return text;
@@ -11754,26 +11776,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         // Effective color: POS color for most words, gender color for nouns
         const effectiveColor = posEnabled ? ((entry.pos === "noun" && nounEnabled && genderUColor) ? genderUColor : posColor) : null;
 
-        if (wordIsNew && grammarFilters.newWords !== false) {
-          // NEW WORD GOLD BUBBLE — candy gloss VerumLingua style
-          wordStyle = {
-            color: effectiveColor || (dk ? "#F5C040" : "#D4880C"),
-            fontWeight: 800,
-            cursor: "pointer",
-            background: dk
-              ? "linear-gradient(180deg, rgba(245,192,64,0.18) 0%, rgba(232,150,10,0.10) 50%, rgba(212,136,12,0.06) 100%)"
-              : "linear-gradient(180deg, rgba(255,243,199,0.95) 0%, rgba(253,230,138,0.7) 50%, rgba(245,192,64,0.25) 100%)",
-            border: dk ? "1.5px solid rgba(245,192,64,0.4)" : "1.5px solid rgba(232,150,10,0.35)",
-            borderRadius: 8,
-            padding: "1px 6px",
-            boxShadow: dk
-              ? "0 2px 8px rgba(232,150,10,0.2), inset 0 1px 0 rgba(255,255,255,0.08)"
-              : "0 2px 8px rgba(232,150,10,0.15), inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(232,150,10,0.1)",
-            display: "inline-block",
-            transition: "all .15s",
-            position: "relative",
-          };
-        } else if (entry.pos === "noun" && genderUColor && nounEnabled) {
+        if (entry.pos === "noun" && genderUColor && nounEnabled) {
           // Nouns: gender color text + solid gender understripe
           wordStyle = {
             color: genderUColor,
@@ -11811,13 +11814,12 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         };
       }
 
-      const isGoldBubble = grammarHl && wordIsNew && grammarFilters.newWords !== false;
       spans.push(
         <span key={contractionPart ? i+"w" : i}
           onClick={clickHandler}
           style={wordStyle}
-          onMouseEnter={(e) => { if(grammarHl) e.currentTarget.style.background = isGoldBubble ? (dk?"rgba(232,150,10,0.25)":"rgba(253,230,138,0.9)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
-          onMouseLeave={(e) => { if(grammarHl) e.currentTarget.style.background = isGoldBubble ? (dk?"rgba(245,192,64,0.18)":"rgba(255,243,199,0.95)") : "transparent"; }}
+          onMouseEnter={(e) => { if(grammarHl) e.currentTarget.style.background = dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"; }}
+          onMouseLeave={(e) => { if(grammarHl) e.currentTarget.style.background = "transparent"; }}
         >{mainWord}</span>
       );
 
@@ -11871,13 +11873,6 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             border:"1px solid "+badgeColor+"44",
           }}>{label}</span>;
         })()}
-        {/* New word indicator */}
-        {miniWordPopup.isNewWord && <span style={{
-          display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
-          background:dk?"rgba(232,150,10,0.15)":"rgba(232,150,10,0.1)",
-          color:dk?"#F5C040":"#E8960A",borderRadius:8,padding:"2px 10px",marginBottom:8,marginLeft:6,
-          border:dk?"1px solid rgba(232,150,10,0.3)":"1px solid rgba(232,150,10,0.2)",
-        }}>new word</span>}
 
         {/* Word */}
         <div style={{
@@ -11931,7 +11926,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           marginTop:14,textAlign:"center",fontSize:11,fontWeight:700,
           color:dk?"rgba(200,190,255,0.4)":"rgba(112,80,216,0.35)",
           letterSpacing:1,textTransform:"uppercase",
-        }}>{miniWordPopup.isNewWord ? "New word" : miniWordPopup.isUnknown ? "Not yet in dictionary" : miniWordPopup.en ? "Tap for full entry" : "Dictionary entry"}</div>
+        }}>{miniWordPopup.isUnknown ? "Not yet in dictionary" : miniWordPopup.en ? "Tap for full entry" : "Dictionary entry"}</div>
       </div>
     </div>
   ) : null;
