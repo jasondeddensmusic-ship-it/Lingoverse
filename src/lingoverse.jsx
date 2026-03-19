@@ -7827,224 +7827,518 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
   );
 }
 
-// ━━━━━━━━━━ VOCABULARY PAGE (Dictionary-style, A1-C2) ━━━━━━━━━━
+// ━━━━━━━━━━ VOCABULARY PAGE (Redesigned: Search / Browse / Review) ━━━━━━━━━━
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
-  // Use LANG_DICT as primary source, fall back to VOCAB for languages without dictionary
-  const dictVocab=useMemo(()=>{
-    const dict=LANG_DICT[lang];
-    if(!dict||Object.keys(dict).length===0) return null;
-    return Object.values(dict).map(e=>({
-      word: e.display || e.word,
-      translation: e.en,
-      category: e.kind || "general",
-      level: e.level || "A1",
-      phonetic: e.phonetic || null,
-      article: e.article || null,
-      example: e.example || null,
-      exampleTranslation: e.exampleEn || null,
-      cognate: e.cognate || null,
-      lessonId: e.lessonId || null,
-    }));
+  const dk=document.documentElement.classList.contains("dark");
+  const isMobile=typeof window!=="undefined"&&window.innerWidth<600;
+
+  // ── Data: all words from WORD_DB for this language ──
+  const allWords=useMemo(()=>{
+    const db=WORD_DB[lang];
+    if(!db||Object.keys(db).length===0) return [];
+    return Object.values(db).filter(e=>e.pos!=="unknown");
   },[lang]);
-  const vocab=dictVocab||(VOCAB[lang]||[]);
+  const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
+
+  // ── Grammar pack resolution ──
+  const langPacks=GRAMMAR_PACKS[lang];
+  const storedPackId=typeof localStorage!=="undefined"?localStorage.getItem("activePack_"+lang):null;
+  const activePack=useMemo(()=>{
+    if(!langPacks)return null;
+    const found=langPacks.packs.find(p=>p.id===storedPackId&&!p.placeholder);
+    return found||langPacks.packs.find(p=>p.id===langPacks.defaultPack)||langPacks.packs[0];
+  },[lang,storedPackId]);
+  const grammarHl=typeof localStorage!=="undefined"&&localStorage.getItem("grammarHl")==="true";
+
+  // ── State ──
+  const [mode,setMode]=useState("search");
   const [search,setSearch]=useState("");
   const [expanded,setExpanded]=useState(null);
-  const [openLevels,setOpenLevels]=useState({A1:true});
-  const [openCats,setOpenCats]=useState({});
-  const [view,setView]=useState("levels"); // levels | all | misc
-  const [vocabTab,setVocabTab]=useState("all"); // all | learned
-  const isWordLearned=(w)=>user&&user.lw&&user.lw.has(w);
-  const learnedCount=vocab.filter(w=>isWordLearned(w.word)).length;
+  const [selectedPOS,setSelectedPOS]=useState(null);
+  const [browseLevel,setBrowseLevel]=useState(null);
+  const [reviewIndex,setReviewIndex]=useState(0);
+  const [reviewFlipped,setReviewFlipped]=useState(false);
+  const [reviewLevel,setReviewLevel]=useState(null);
+  const [reviewShuffled,setReviewShuffled]=useState(false);
+  const [reviewWords,setReviewWords]=useState([]);
+  const searchRef=useRef(null);
 
-  const levelMeta={
-    A1:{icon:"🌱",label:t("level_beginner",baseLang),color:"var(--teal)",bg:"var(--teal-light)",dark:"var(--teal-dark)",desc:t("vocab_essential",baseLang)},
-    A2:{icon:"📗",label:t("level_elementary",baseLang),color:"var(--blue)",bg:"var(--blue-light)",dark:"var(--blue)",desc:t("vocab_building",baseLang)},
-    B1:{icon:"📘",label:t("level_intermediate",baseLang),color:"var(--gold)",bg:"var(--gold-light)",dark:"var(--gold-dark)",desc:t("vocab_opinions",baseLang)},
-    B2:{icon:"📕",label:t("level_upper_int",baseLang),color:"var(--purple-accent-text)",bg:"var(--purple-flat)",dark:"#5B3DBF",desc:t("vocab_complex",baseLang)},
-    C1:{icon:"🎓",label:t("level_advanced",baseLang),color:"var(--coral)",bg:"var(--coral-light)",dark:"#B83030",desc:t("vocab_professional",baseLang)},
-    C2:{icon:"👑",label:t("level_mastery",baseLang),color:"var(--gray-600)",bg:"var(--gray-100)",dark:"var(--gray-700)",desc:t("vocab_native",baseLang)}
-  };
-  const levels=["A1","A2","B1","B2","C1","C2"];
+  // ── POS category config ──
+  const posCategories=[
+    {id:"noun",label:"Nouns",icon:"N",color:"#2979FF",desc:"Things, people, places"},
+    {id:"verb",label:"Verbs",icon:"V",color:"#00C853",desc:"Actions and states"},
+    {id:"adjective",label:"Adjectives",icon:"A",color:"#FF6D00",desc:"Descriptions and qualities"},
+    {id:"adverb",label:"Adverbs",icon:"D",color:"#FF1744",desc:"How, when, where"},
+    {id:"pronoun",label:"Pronouns",icon:"P",color:"#FF1744",desc:"He, she, they, this"},
+    {id:"preposition",label:"Prepositions",icon:"Pr",color:"#C6A700",desc:"In, on, at, with"},
+    {id:"conjunction",label:"Conjunctions",icon:"C",color:"#C6A700",desc:"And, but, because"},
+    {id:"article",label:"Articles",icon:"Ar",color:"#0091FF",desc:"The, a, an"},
+  ];
+  // Korean-specific: particles instead of articles/prepositions
+  const posForLang=useMemo(()=>{
+    if(lang==="ko") return [
+      {id:"noun",label:"Nouns",icon:"N",color:"#2979FF",desc:"Things, people, places"},
+      {id:"verb",label:"Verbs",icon:"V",color:"#00C853",desc:"Actions and states"},
+      {id:"adjective",label:"Adjectives",icon:"A",color:"#FF6D00",desc:"Descriptions and qualities"},
+      {id:"adverb",label:"Adverbs",icon:"D",color:"#FF1744",desc:"How, when, where"},
+      {id:"pronoun",label:"Pronouns",icon:"P",color:"#FF1744",desc:"He, she, they, this"},
+      {id:"particle",label:"Particles",icon:"Pt",color:"#C6A700",desc:"Topic, subject, object markers"},
+    ];
+    return posCategories;
+  },[lang]);
 
-  const numOrder={"nul":0,"een":1,"één":1,"twee":2,"drie":3,"vier":4,"vijf":5,"zes":6,"zeven":7,"acht":8,"negen":9,"tien":10,"elf":11,"twaalf":12,"dertien":13,"veertien":14,"vijftien":15,"zestien":16,"zeventien":17,"achttien":18,"negentien":19,"twintig":20,"dertig":30,"veertig":40,"vijftig":50,"zestig":60,"zeventig":70,"tachtig":80,"negentig":90,"honderd":100,"duizend":1000,"miljoen":1000000};
-  const sortWords=(words,cat)=>{
-    if(cat==="numbers") return [...words].sort((a,b)=>(numOrder[a.word.toLowerCase()]??999)-(numOrder[b.word.toLowerCase()]??999));
-    return [...words].sort((a,b)=>a.word.localeCompare(b.word));
-  };
+  // ── Level config ──
+  const cefrLevels=["A1","A2","B1","B2"];
+  const levelColors={A1:"#2ECDA7",A2:"#4A8FE7",B1:"#F5A623",B2:"#7B5EE8"};
 
-  const filtered=useMemo(()=>vocab.filter(w=>{
-    if(vocabTab==="learned"&&!isWordLearned(w.word))return false;
-    if(search){
-      const s=search.toLowerCase();
-      const matchWord=w.word.toLowerCase().includes(s);
-      const matchTrans=(w.translation||"").toLowerCase().includes(s);
-      const matchPhonetic=(w.phonetic||"").toLowerCase().includes(s);
-      const matchArticle=w.article?(w.article+" "+w.word).toLowerCase().includes(s):false;
-      if(!matchWord&&!matchTrans&&!matchPhonetic&&!matchArticle) return false;
-    }
-    return true;
-  }),[vocab,search,vocabTab,user?.lw?.size]);
+  // ── Search filtering ──
+  const searchResults=useMemo(()=>{
+    if(!search||search.length<1) return [];
+    const s=search.toLowerCase();
+    return allWords.filter(e=>{
+      const w=(e.word||"").toLowerCase();
+      const d=(e.display||"").toLowerCase();
+      const en=(e.en||"").toLowerCase();
+      const ph=(e.phonetic||"").toLowerCase();
+      return w.includes(s)||d.includes(s)||en.includes(s)||ph.includes(s);
+    }).sort((a,b)=>{
+      // Exact matches first, then starts-with, then contains
+      const aW=a.word.toLowerCase(),bW=b.word.toLowerCase();
+      if(aW===s&&bW!==s)return -1;
+      if(bW===s&&aW!==s)return 1;
+      if(aW.startsWith(s)&&!bW.startsWith(s))return -1;
+      if(bW.startsWith(s)&&!aW.startsWith(s))return 1;
+      return aW.localeCompare(bW);
+    }).slice(0,100);
+  },[allWords,search]);
 
-  // Group: level → category → words
-  const grouped=useMemo(()=>{
-    const result={};
-    filtered.forEach(w=>{
-      const lv=(w.level||"A1").substring(0,2);
-      const cat=w.category||"general";
-      if(!result[lv])result[lv]={};
-      if(!result[lv][cat])result[lv][cat]=[];
-      result[lv][cat].push(w);
+  // ── Browse: words by POS ──
+  const browseWords=useMemo(()=>{
+    if(!selectedPOS)return [];
+    let words=allWords.filter(e=>{
+      // Match POS: handle sub-types (article_m, particle_subj, etc.)
+      if(e.pos===selectedPOS)return true;
+      if(e.pos&&e.pos.startsWith(selectedPOS+"_"))return true;
+      return false;
     });
-    return result;
-  },[filtered]);
+    if(browseLevel) words=words.filter(e=>(e.level||"A1").startsWith(browseLevel));
+    return words.sort((a,b)=>(a.word||"").localeCompare(b.word||""));
+  },[allWords,selectedPOS,browseLevel]);
 
-  const toggleLevel=lv=>setOpenLevels(p=>({...p,[lv]:!p[lv]}));
-  const toggleCat=(lv,cat)=>{const k=lv+":"+cat;setOpenCats(p=>({...p,[k]:!p[k]}));};
-  const totalFiltered=filtered.length;
-  const catIcons={nouns:"📦",verbs:"⚡",adjectives:"🎨",adverbs:"💨",phrases:"💬",greetings:"👋",numbers:"🔢",pronouns:"👤",prepositions:"📍",conjunctions:"🔗",questions:"❓",expressions:"🗣️",exclamation:"❗",general:"📋"};
-  const miscCats=["numbers","greetings","pronouns","prepositions","conjunctions","questions","exclamation","expressions"];
+  // ── Browse: POS counts ──
+  const posCounts=useMemo(()=>{
+    const counts={};
+    allWords.forEach(e=>{
+      const base=e.pos?(e.pos.includes("_")?e.pos.split("_")[0]:e.pos):"unknown";
+      counts[base]=(counts[base]||0)+1;
+    });
+    return counts;
+  },[allWords]);
 
-  // Shared word row renderer
-  const WordRow=({w,wKey})=>{
-    const art=w.article;
-    const artColor=art==="de"?ARTICLE_COLORS.de:art==="het"?ARTICLE_COLORS.het:null;
-    const isExp=expanded===wKey;
-    const learned=isWordLearned(w.word);
-    const lxId=getLexeme(lang,w.word);
-    const lx=lxId?LEXEMES[lxId]:null;
+  // ── Review: init words when level changes ──
+  useEffect(()=>{
+    let pool=taughtWords;
+    if(reviewLevel) pool=pool.filter(e=>(e.level||"A1").startsWith(reviewLevel));
+    if(reviewShuffled){
+      const arr=[...pool];
+      for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}
+      pool=arr;
+    }
+    setReviewWords(pool);
+    setReviewIndex(0);
+    setReviewFlipped(false);
+  },[taughtWords,reviewLevel,reviewShuffled]);
+
+  // ── Helper: get word color from active grammar pack ──
+  const getWordColor=(entry)=>{
+    if(!grammarHl||!activePack)return null;
+    const resolved=resolvePackColor(entry,activePack,dk);
+    return resolved?resolved.color:null;
+  };
+
+  // ── Helper: POS display label ──
+  const posLabel=(pos)=>{
+    if(!pos)return "";
+    const base=pos.includes("_")?pos.split("_")[0]:pos;
+    return cap(base);
+  };
+
+  // ── Helper: POS color from posCategories ──
+  const posColor=(pos)=>{
+    if(!pos)return "#808080";
+    const base=pos.includes("_")?pos.split("_")[0]:pos;
+    const cat=posForLang.find(c=>c.id===base);
+    return cat?cat.color:"#808080";
+  };
+
+  // ── Shared: candy tab style ──
+  const tabStyle=(isActive)=>({
+    display:"inline-flex",alignItems:"center",gap:6,padding:isMobile?"10px 16px":"10px 22px",borderRadius:16,
+    fontSize:12,fontWeight:800,cursor:"pointer",transition:"all .25s",border:"none",fontFamily:"inherit",
+    position:"relative",overflow:"hidden",letterSpacing:0.3,
+    background:isActive
+      ?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)")
+      :(dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
+    color:isActive?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
+    textShadow:isActive?"0 1px 2px rgba(0,0,0,0.2)":"none",
+    boxShadow:isActive
+      ?(dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)")
+      :(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+  });
+
+  // ── Shared: frosted glass panel style ──
+  const panelBg=dk
+    ?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)"
+    :"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)";
+  const panelBorder=dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)";
+  const panelShadow=dk
+    ?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)"
+    :"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)";
+  const glossArc=dk
+    ?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+    :"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)";
+
+  // ── Shared: sf-row card style ──
+  const cardStyle=(isExp)=>({
+    borderRadius:14,overflow:"hidden",marginBottom:6,transition:"all .2s",
+    background:dk?"rgba(30,30,46,0.8)":"white",
+    borderLeft:isExp?"3px solid #7B5EE8":"3px solid transparent",
+    boxShadow:isExp
+      ?(dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.12), inset 0 1px 0 rgba(255,255,255,0.95)")
+      :(dk?"0 1px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.04)":"0 1px 4px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.95)"),
+  });
+
+  // ── Shared: level chip ──
+  const LevelChip=({lv,small})=>{
+    const c=levelColors[lv]||"#808080";
+    return <span style={{display:"inline-block",padding:small?"1px 6px":"2px 8px",borderRadius:8,fontSize:small?9:10,fontWeight:800,color:"white",background:pillGradient(c),letterSpacing:0.3}}>{lv}</span>;
+  };
+
+  // ── Shared: POS pill ──
+  const PosPill=({pos,small})=>{
+    const c=posColor(pos);
+    const restSh=`0 3px 8px ${c}55, inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)`;
+    return <span style={{display:"inline-flex",alignItems:"center",padding:small?"2px 7px":"3px 10px",borderRadius:10,fontSize:small?9:10,fontWeight:800,color:"white",background:pillGradient(c),boxShadow:restSh,letterSpacing:0.3,position:"relative",overflow:"hidden"}}>
+      <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+      <span style={{position:"relative",zIndex:1}}>{posLabel(pos)}</span>
+    </span>;
+  };
+
+  // ── Shared: word detail expansion ──
+  const WordDetail=({entry})=>{
+    const ttsLocale=LANG_META[lang]?.ttsLocale||"en-US";
+    const artEntry=entry.article;
+    const artColors=artEntry?ARTICLE_COLORS[artEntry]:null;
     return(
-      <div style={{borderRadius:10,border:`1px solid ${isExp?"var(--blue)":learned?"var(--teal)":"transparent"}`,marginBottom:2,transition:"all .15s"}}>
-        <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"8px 10px",cursor:"pointer",borderRadius:10,background:isExp?"var(--blue-pale)":learned?"rgba(46,205,167,0.04)":"transparent"}}>
-          {learned&&<span style={{fontSize:12,flexShrink:0}}>✅</span>}
-          {artColor&&<span style={{display:"inline-block",padding:"1px 6px",borderRadius:6,background:artColor.pill,fontSize:9,fontWeight:800,color:artColor.pillText}}>{art}</span>}
-          <span style={{fontWeight:600,color:"var(--gray-800)",fontSize:14}}>{cap(w.word)}</span>
-          <span style={{color:"var(--gray-300)"}}>—</span>
-          <span style={{color:"var(--gray-500)",fontSize:13,flex:1}}>{cap(w.translation)}</span>
-          <SpeakerButton text={w.word} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
+      <div className="anim" style={{padding:"10px 14px 14px"}}>
+        <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:8}}>
+          {entry.phonetic&&<span style={{display:"inline-block",background:dk?"rgba(74,143,231,0.15)":"rgba(74,143,231,0.08)",borderRadius:8,padding:"2px 10px",fontSize:12,color:dk?"#82B1FF":"#2979FF",fontWeight:600}}>/{entry.phonetic}/</span>}
+          {entry.level&&<LevelChip lv={(entry.level||"A1").substring(0,2)} small/>}
+          <PosPill pos={entry.pos} small/>
+          {artColors&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,background:artColors.pill||artColors,fontSize:10,fontWeight:800,color:artColors.pillText||"white"}}>{artEntry}</span>}
         </div>
-        {isExp&&<div className="anim" style={{padding:"4px 10px 10px"}}>
-          {w.phonetic&&<span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:8,padding:"2px 10px",fontSize:12,color:"var(--blue)",fontWeight:600,marginBottom:6}}>/{w.phonetic}/</span>}
-          {w.level&&<span style={{display:"inline-block",marginLeft:6,padding:"2px 8px",borderRadius:6,background:"var(--gray-100)",fontSize:10,fontWeight:700,color:"var(--gray-500)"}}>{w.level}</span>}
-          {lx&&lx.forms&&lx.forms.length>0&&<div style={{marginTop:6,display:"flex",flexWrap:"wrap",gap:4}}>
-            <span style={{fontSize:10,color:"var(--gray-400)",fontWeight:600}}>Forms:</span>
-            {lx.forms.map((f,fi)=><span key={fi} style={{fontSize:11,padding:"1px 6px",borderRadius:4,background:"var(--gray-100)",color:"var(--gray-500)"}}>{f}</span>)}
-          </div>}
-          {w.example&&<div style={{background:"var(--gold-bg-light)",borderRadius:10,padding:"10px 12px",border:"1px solid rgba(245,166,35,0.1)",marginTop:4}}>
-            <div style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,display:"flex",alignItems:"center",gap:6}}>
-              <span>"{w.example}"</span>
-              <SpeakerButton text={w.example} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={12} showToast={showToast}/>
-            </div>
-            {w.exampleEn&&<div style={{fontSize:12,color:"var(--gray-400)",fontStyle:"italic",marginTop:2}}>"{w.exampleEn}"</div>}
-          </div>}
+        {entry.note&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",marginBottom:6,lineHeight:1.4}}>{entry.note}</div>}
+        {entry.example&&<div style={{background:dk?"rgba(245,166,35,0.08)":"rgba(245,166,35,0.05)",borderRadius:12,padding:"10px 14px",border:dk?"1px solid rgba(245,166,35,0.15)":"1px solid rgba(245,166,35,0.1)",marginBottom:6}}>
+          <div style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,display:"flex",alignItems:"center",gap:6}}>
+            <span>{entry.example}</span>
+            <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
+          </div>
+          {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontStyle:"italic",marginTop:3}}>{entry.exampleEn}</div>}
         </div>}
+        {entry.cognate&&<div style={{fontSize:11,color:dk?"rgba(46,205,167,0.8)":"#2ECDA7",fontWeight:600}}>{entry.cognate}</div>}
       </div>
     );
   };
 
+  // ── Shared: word row ──
+  const WordRow=({entry,wKey})=>{
+    const isExp=expanded===wKey;
+    const wColor=getWordColor(entry);
+    const ttsLocale=LANG_META[lang]?.ttsLocale||"en-US";
+    return(
+      <div style={cardStyle(isExp)}>
+        <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"10px 14px",cursor:"pointer"}}>
+          <PosPill pos={entry.pos} small/>
+          <span style={{fontWeight:700,color:wColor||(dk?"rgba(255,255,255,0.9)":"var(--gray-800)"),fontSize:14,flex:1}}>{entry.display||entry.word}</span>
+          <span style={{color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontSize:13,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{entry.en}</span>
+          <SpeakerButton text={entry.word} lang={ttsLocale} size={13} showToast={showToast}/>
+        </div>
+        {isExp&&<WordDetail entry={entry}/>}
+      </div>
+    );
+  };
+
+  // ═══════════════════════════════════════════════════════════
+  // RENDER
+  // ═══════════════════════════════════════════════════════════
   return(
-    <div className="anim">
-      <div style={{textAlign:"center",marginBottom:24}}>
-        <div style={{fontSize:36,marginBottom:8}}>📖</div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6}}>Vocabulary</h2>
-        <p style={{color:"var(--gray-400)",fontSize:14}}>{vocab.length} {t("vocab_across_levels",baseLang)} {levels.filter(l=>grouped[l]).length} {t("vocab_levels",baseLang)}</p>
+    <div className="anim" style={{maxWidth:700,margin:"0 auto"}}>
+      {/* ── Header ── */}
+      <div style={{textAlign:"center",marginBottom:20}}>
+        <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4,fontFamily:"Quicksand, sans-serif"}}>Vocabulary</h2>
+        <p style={{color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontSize:13}}>{allWords.length} words across {cefrLevels.filter(lv=>allWords.some(w=>(w.level||"").startsWith(lv))).length} levels</p>
       </div>
 
-      {/* View mode tabs */}
-      <div style={{display:"flex",gap:0,marginBottom:16,borderRadius:14,overflow:"hidden",border:"2px solid var(--gray-200)"}}>
-        {[{id:"levels",label:"📊 "+t("vocab_tab_level",baseLang)},{id:"all",label:"🔤 "+t("vocab_tab_all",baseLang)},{id:"misc",label:"🔢 "+t("vocab_tab_special",baseLang)}].map(t=>(
-          <button key={t.id} onClick={()=>{setView(t.id);setExpanded(null);}} style={{flex:1,padding:"10px 0",border:"none",cursor:"pointer",fontWeight:700,fontSize:12,fontFamily:"inherit",background:view===t.id?"var(--blue)":"var(--white)",color:view===t.id?"white":"var(--gray-500)",transition:"all .15s"}}>{t.label}</button>
+      {/* ── Mode tabs ── */}
+      <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:20,flexWrap:"wrap"}}>
+        {[{id:"search",label:"Search",icon:"🔍"},{id:"browse",label:"Browse",icon:"📂"},{id:"review",label:"Review",icon:"🃏"}].map(tab=>(
+          <button key={tab.id} onClick={()=>{setMode(tab.id);setExpanded(null);setSelectedPOS(null);}} style={tabStyle(mode===tab.id)}>
+            <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:mode===tab.id?"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+            <span style={{position:"relative",zIndex:1,fontSize:14}}>{tab.icon}</span>
+            <span style={{position:"relative",zIndex:1}}>{tab.label}</span>
+          </button>
         ))}
       </div>
 
-      {/* Learned/All toggle */}
-      <div style={{display:"inline-flex",background:"var(--gray-100)",borderRadius:12,padding:3,marginBottom:12}}>
-        {[["all","All"],["learned",`Learned (${learnedCount})`]].map(([k,label])=>(
-          <button key={k} onClick={()=>setVocabTab(k)} style={{padding:"7px 16px",borderRadius:10,fontSize:12,fontWeight:700,border:"none",cursor:"pointer",transition:"all 0.2s",background:vocabTab===k?"var(--white)":"transparent",color:vocabTab===k?"var(--gray-800)":"var(--gray-400)",boxShadow:vocabTab===k?"0 1px 4px rgba(0,0,0,0.08)":"none"}}>{label}</button>
-        ))}
-      </div>
+      {/* ═══════════════════════════════════════════════════════ */}
+      {/* SEARCH MODE                                            */}
+      {/* ═══════════════════════════════════════════════════════ */}
+      {mode==="search"&&<div>
+        {/* Search bar */}
+        <div style={{position:"relative",marginBottom:16}}>
+          <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search words or translations..." style={{
+            width:"100%",boxSizing:"border-box",padding:"14px 18px 14px 44px",borderRadius:16,fontSize:15,fontWeight:600,fontFamily:"Nunito, sans-serif",
+            background:dk?"rgba(30,30,46,0.8)":"white",
+            border:dk?"2px solid rgba(160,140,255,0.3)":"2px solid rgba(165,148,238,0.4)",
+            color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",
+            boxShadow:dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 12px rgba(123,94,232,0.15)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 12px rgba(165,148,238,0.1)",
+            outline:"none",transition:"all .2s",
+          }}
+          onFocus={e=>{e.target.style.borderColor=dk?"rgba(160,140,255,0.6)":"#7B5EE8";e.target.style.boxShadow=dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 20px rgba(123,94,232,0.3)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 20px rgba(123,94,232,0.2)";}}
+          onBlur={e=>{e.target.style.borderColor=dk?"rgba(160,140,255,0.3)":"rgba(165,148,238,0.4)";e.target.style.boxShadow=dk?"inset 0 2px 4px rgba(0,0,0,0.2), 0 0 12px rgba(123,94,232,0.15)":"inset 0 2px 4px rgba(123,94,232,0.06), 0 0 12px rgba(165,148,238,0.1)";}}
+          />
+          <span style={{position:"absolute",left:16,top:"50%",transform:"translateY(-50%)",fontSize:16,opacity:0.4,pointerEvents:"none"}}>🔍</span>
+          {search&&<button onClick={()=>{setSearch("");searchRef.current?.focus();}} style={{position:"absolute",right:14,top:"50%",transform:"translateY(-50%)",background:"none",border:"none",fontSize:16,cursor:"pointer",color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",padding:4}}>✕</button>}
+        </div>
 
-      <input className="chat-input" value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="🔍 Search words..." style={{marginBottom:16,fontSize:15,padding:12}}/>
-
-      {search&&<div style={{textAlign:"center",fontSize:12,color:"var(--gray-400)",marginBottom:12}}>{totalFiltered} results for "{search}"</div>}
-
-      {/* ═══ ALL A-Z VIEW ═══ */}
-      {view==="all"&&<div style={{display:"grid",gap:2}}>
-        {[...filtered].sort((a,b)=>a.word.localeCompare(b.word)).map((w,i)=><WordRow key={i} w={w} wKey={"all:"+i}/>)}
-        {totalFiltered===0&&<div style={{textAlign:"center",color:"var(--gray-400)",fontSize:14,padding:32}}>No words found</div>}
-      </div>}
-
-      {/* ═══ SPECIAL / MISC VIEW ═══ */}
-      {view==="misc"&&<div>
-        {miscCats.map(cat=>{
-          const words=sortWords(filtered.filter(w=>w.category===cat),cat);
-          if(words.length===0)return null;
-          const icon=catIcons[cat]||"📋";
-          const catOpen=openCats["misc:"+cat]!==false;
-          return(
-            <div key={cat} style={{marginBottom:10,borderRadius:16,border:"1.5px solid rgba(255,255,255,0.55)",overflow:"hidden",background:"var(--card-bg)"}}>
-              <div onClick={()=>{const k="misc:"+cat;setOpenCats(p=>({...p,[k]:!p[k]}));}} style={{display:"flex",alignItems:"center",gap:10,padding:"12px 16px",cursor:"pointer",background:"var(--gray-50)"}}>
-                <span style={{fontSize:18}}>{icon}</span>
-                <span style={{flex:1,fontSize:14,fontWeight:700,color:"var(--gray-600)",textTransform:"capitalize"}}>{cat}</span>
-                <span style={{fontSize:11,fontWeight:600,color:"var(--gray-400)",background:"var(--gray-100)",borderRadius:10,padding:"2px 10px"}}>{words.length}</span>
-                <span style={{fontSize:12,color:"var(--gray-300)",transition:"transform .2s",transform:catOpen?"rotate(180deg)":"none"}}>⌄</span>
-              </div>
-              {catOpen&&<div style={{padding:"4px 8px 8px"}}>
-                {words.map((w,i)=><WordRow key={i} w={w} wKey={"misc:"+cat+":"+i}/>)}
-              </div>}
-            </div>
-          );
-        })}
-      </div>}
-
-      {/* ═══ LEVELS VIEW (default) ═══ */}
-      {view==="levels"&&levels.map(lv=>{
-        const cats=grouped[lv];
-        if(!cats)return null;
-        const meta=levelMeta[lv]||levelMeta.A1;
-        const wordCount=Object.values(cats).reduce((s,ws)=>s+ws.length,0);
-        const catKeys=Object.keys(cats).sort();
-        const isOpen=openLevels[lv];
-
-        return(
-          <div key={lv} style={{marginBottom:16,borderRadius:20,overflow:"hidden",border:`2px solid ${isOpen?meta.color:"var(--gray-100)"}`,background:"var(--card-bg)",transition:"all .2s"}}>
-            <div onClick={()=>toggleLevel(lv)} style={{display:"flex",alignItems:"center",gap:14,padding:"16px 20px",cursor:"pointer",background:isOpen?meta.bg:"var(--white)",transition:"all .2s"}}>
-              <div style={{width:44,height:44,borderRadius:14,background:isOpen?meta.color:"var(--gray-200)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:isOpen?`0 4px 14px ${meta.color}40`:"none",transition:"all .2s"}}><BrandIcon name={meta.icon} size={22}/></div>
-              <div style={{flex:1}}>
-                <div style={{display:"flex",alignItems:"center",gap:8}}>
-                  <span style={{fontSize:18,fontWeight:800,color:isOpen?meta.dark:"var(--gray-600)"}}>{lv}</span>
-                  <span style={{fontSize:13,fontWeight:600,color:isOpen?meta.dark:"var(--gray-400)"}}>{meta.label}</span>
-                </div>
-                <div style={{fontSize:11,color:isOpen?meta.dark:"var(--gray-400)",opacity:0.7,marginTop:1}}>{meta.desc} · {wordCount} {t("prof_words",baseLang)} · {catKeys.length} {t("vocab_categories",baseLang)}</div>
-              </div>
-              <span style={{fontSize:16,color:isOpen?meta.dark:"var(--gray-300)",transition:"transform .2s",transform:isOpen?"rotate(180deg)":"none"}}>⌄</span>
-            </div>
-
-            {isOpen&&<div style={{padding:"8px 12px 12px"}}>
-              {catKeys.map(cat=>{
-                const words=sortWords(cats[cat],cat);
-                const catKey=lv+":"+cat;
-                const catOpen=openCats[catKey]!==false;
-                const icon=catIcons[cat]||"📋";
-                return(
-                  <div key={cat} style={{marginBottom:8,borderRadius:14,border:"1.5px solid rgba(255,255,255,0.55)",overflow:"hidden"}}>
-                    <div onClick={()=>toggleCat(lv,cat)} style={{display:"flex",alignItems:"center",gap:10,padding:"10px 14px",cursor:"pointer",background:"var(--gray-50)"}}>
-                      <span style={{fontSize:16}}>{icon}</span>
-                      <span style={{flex:1,fontSize:13,fontWeight:700,color:"var(--gray-600)",textTransform:"capitalize"}}>{cat}</span>
-                      <span style={{fontSize:11,fontWeight:600,color:"var(--gray-400)",background:"var(--gray-100)",borderRadius:10,padding:"2px 8px"}}>{words.length}</span>
-                      <span style={{fontSize:12,color:"var(--gray-300)",transition:"transform .2s",transform:catOpen?"rotate(180deg)":"none"}}>⌄</span>
-                    </div>
-                    {catOpen&&<div style={{padding:"4px 6px 6px"}}>
-                      {words.map((w,i)=><WordRow key={i} w={w} wKey={lv+":"+cat+":"+i}/>)}
-                    </div>}
-                  </div>
-                );
-              })}
-            </div>}
+        {/* Results */}
+        {search&&<div>
+          <div style={{fontSize:12,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:10,fontWeight:600}}>{searchResults.length} result{searchResults.length!==1?"s":""}</div>
+          {searchResults.length===0&&<div style={{textAlign:"center",padding:40,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>
+            <div style={{fontSize:32,marginBottom:8}}>🔎</div>
+            <div style={{fontSize:14,fontWeight:600}}>No words found</div>
+            <div style={{fontSize:12,marginTop:4}}>Try a different spelling or translation</div>
+          </div>}
+          <div style={{display:"grid",gap:4}}>
+            {searchResults.map((e,i)=><WordRow key={e.word+":"+i} entry={e} wKey={"s:"+e.word+":"+i}/>)}
           </div>
-        );
-      })}
-      {totalFiltered===0&&<div style={{textAlign:"center",color:"var(--gray-400)",fontSize:14,padding:32}}>No words found</div>}
+        </div>}
+
+        {/* Empty state: show level overview when no search */}
+        {!search&&<div>
+          <div style={{textAlign:"center",padding:"24px 0 16px",color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>
+            <div style={{fontSize:40,marginBottom:8}}>📖</div>
+            <div style={{fontSize:14,fontWeight:600,marginBottom:4}}>Type to search the dictionary</div>
+            <div style={{fontSize:12}}>Search in {LANG_META[lang]?.name||lang} or English</div>
+          </div>
+          {/* Quick stats */}
+          <div style={{display:"flex",gap:8,justifyContent:"center",flexWrap:"wrap",marginTop:12}}>
+            {cefrLevels.map(lv=>{
+              const count=allWords.filter(w=>(w.level||"").startsWith(lv)).length;
+              if(!count)return null;
+              return <div key={lv} style={{display:"flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:12,background:dk?"rgba(30,30,46,0.6)":"rgba(248,245,255,0.8)",border:dk?"1px solid rgba(160,140,255,0.15)":"1px solid rgba(165,148,238,0.2)"}}>
+                <LevelChip lv={lv} small/>
+                <span style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.6)":"var(--gray-500)"}}>{count}</span>
+              </div>;
+            })}
+          </div>
+        </div>}
+      </div>}
+
+      {/* ═══════════════════════════════════════════════════════ */}
+      {/* BROWSE MODE                                            */}
+      {/* ═══════════════════════════════════════════════════════ */}
+      {mode==="browse"&&<div>
+        {!selectedPOS?
+          /* ── Category grid ── */
+          <div style={{display:"grid",gridTemplateColumns:isMobile?"1fr 1fr":"1fr 1fr 1fr",gap:10}}>
+            {posForLang.map(cat=>{
+              const count=posCounts[cat.id]||0;
+              if(!count)return null;
+              const restSh=`0 4px 14px ${cat.color}44, inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -3px 0 rgba(0,0,0,0.12)`;
+              const glowSh=`0 0 28px ${cat.color}66, 0 0 48px ${cat.color}22, 0 8px 20px ${cat.color}55, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+              return <button key={cat.id}
+                onClick={()=>{setSelectedPOS(cat.id);setBrowseLevel(null);setExpanded(null);}}
+                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.05) translateY(-3px)";e.currentTarget.style.filter="brightness(1.12)";e.currentTarget.style.boxShadow=glowSh;}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restSh;}}
+                style={{
+                  padding:"20px 14px",borderRadius:18,border:"none",cursor:"pointer",fontFamily:"inherit",
+                  background:pillGradient(cat.color),color:"white",textAlign:"center",
+                  position:"relative",overflow:"hidden",transition:"all .25s",boxShadow:restSh,
+                }}>
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.08) 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+                <div style={{position:"relative",zIndex:1}}>
+                  <div style={{fontSize:28,fontWeight:900,marginBottom:4,textShadow:"0 2px 4px rgba(0,0,0,0.2)"}}>{cat.icon}</div>
+                  <div style={{fontSize:13,fontWeight:800,textShadow:"0 1px 2px rgba(0,0,0,0.2)",letterSpacing:0.3}}>{cat.label}</div>
+                  <div style={{fontSize:10,opacity:0.8,marginTop:2}}>{count} words</div>
+                </div>
+              </button>;
+            })}
+          </div>
+        :
+          /* ── Word list for selected POS ── */
+          <div>
+            {/* Back + title */}
+            <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:14}}>
+              <button onClick={()=>{setSelectedPOS(null);setExpanded(null);setBrowseLevel(null);}}
+                style={{padding:"8px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,
+                  background:dk?"rgba(255,255,255,0.08)":"rgba(240,234,255,0.8)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",
+                  boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(0,0,0,0.04)",
+                  transition:"all .2s"}}>
+                ← Back
+              </button>
+              <PosPill pos={selectedPOS}/>
+              <span style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.8)":"var(--gray-700)"}}>{browseWords.length} words</span>
+            </div>
+
+            {/* Level filter chips */}
+            <div style={{display:"flex",gap:6,marginBottom:14,flexWrap:"wrap"}}>
+              <button onClick={()=>setBrowseLevel(null)} style={{
+                padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
+                background:!browseLevel?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+                color:!browseLevel?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+                transition:"all .2s",
+              }}>All</button>
+              {cefrLevels.map(lv=>{
+                const active=browseLevel===lv;
+                return <button key={lv} onClick={()=>setBrowseLevel(active?null:lv)} style={{
+                  padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
+                  background:active?pillGradient(levelColors[lv]):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+                  color:active?"white":(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+                  boxShadow:active?`0 2px 8px ${levelColors[lv]}44`:"none",
+                  transition:"all .2s",
+                }}>{lv}</button>;
+              })}
+            </div>
+
+            {/* Word pills flow */}
+            {browseWords.length===0&&<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words at this level</div>}
+            <div style={{display:"grid",gap:4}}>
+              {browseWords.map((e,i)=><WordRow key={e.word+":"+i} entry={e} wKey={"b:"+e.word+":"+i}/>)}
+            </div>
+          </div>
+        }
+      </div>}
+
+      {/* ═══════════════════════════════════════════════════════ */}
+      {/* REVIEW MODE                                            */}
+      {/* ═══════════════════════════════════════════════════════ */}
+      {mode==="review"&&<div>
+        {/* Level filter + shuffle controls */}
+        <div style={{display:"flex",gap:6,marginBottom:16,flexWrap:"wrap",alignItems:"center",justifyContent:"center"}}>
+          <button onClick={()=>setReviewLevel(null)} style={{
+            padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
+            background:!reviewLevel?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+            color:!reviewLevel?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+          }}>All</button>
+          {cefrLevels.map(lv=>{
+            const active=reviewLevel===lv;
+            return <button key={lv} onClick={()=>setReviewLevel(active?null:lv)} style={{
+              padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
+              background:active?pillGradient(levelColors[lv]):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+              color:active?"white":(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+              boxShadow:active?`0 2px 8px ${levelColors[lv]}44`:"none",
+            }}>{lv}</button>;
+          })}
+          <span style={{width:1,height:20,background:dk?"rgba(255,255,255,0.1)":"rgba(123,94,232,0.15)",margin:"0 4px"}}/>
+          <button onClick={()=>setReviewShuffled(p=>!p)} style={{
+            padding:"5px 14px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,
+            background:reviewShuffled?(dk?"rgba(46,205,167,0.2)":"rgba(46,205,167,0.1)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+            color:reviewShuffled?(dk?"#69F0AE":"#2ECDA7"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+          }}>🔀 Shuffle</button>
+        </div>
+
+        {reviewWords.length===0?
+          <div style={{textAlign:"center",padding:40,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>
+            <div style={{fontSize:40,marginBottom:8}}>📚</div>
+            <div style={{fontSize:14,fontWeight:600}}>No taught words yet</div>
+            <div style={{fontSize:12,marginTop:4}}>Complete lessons to unlock review cards</div>
+          </div>
+        :
+          <div>
+            {/* Progress */}
+            <div style={{textAlign:"center",marginBottom:14}}>
+              <span style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)"}}>{reviewIndex+1} / {reviewWords.length}</span>
+              {/* Progress bar */}
+              <div style={{height:3,borderRadius:2,background:dk?"rgba(255,255,255,0.06)":"rgba(123,94,232,0.08)",marginTop:6,overflow:"hidden"}}>
+                <div style={{height:"100%",borderRadius:2,background:"linear-gradient(90deg, #7B5EE8, #2ECDA7)",width:((reviewIndex+1)/reviewWords.length*100)+"%",transition:"width .3s"}}/>
+              </div>
+            </div>
+
+            {/* Flashcard */}
+            {(()=>{
+              const card=reviewWords[reviewIndex];
+              if(!card)return null;
+              const wColor=getWordColor(card);
+              const ttsLocale=LANG_META[lang]?.ttsLocale||"en-US";
+              return <div onClick={()=>setReviewFlipped(p=>!p)} style={{
+                cursor:"pointer",position:"relative",overflow:"hidden",borderRadius:22,padding:isMobile?"32px 24px":"40px 32px",
+                minHeight:isMobile?220:260,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",
+                background:panelBg,border:panelBorder,boxShadow:panelShadow,transition:"all .3s",
+                transform:reviewFlipped?"":"",
+              }}>
+                {/* Gloss arc */}
+                <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+
+                {!reviewFlipped?
+                  /* ── Front: word ── */
+                  <div style={{position:"relative",zIndex:1}}>
+                    <div style={{display:"flex",justifyContent:"center",gap:8,marginBottom:12}}>
+                      <PosPill pos={card.pos}/>
+                      {card.level&&<LevelChip lv={(card.level||"A1").substring(0,2)}/>}
+                    </div>
+                    <div style={{fontSize:isMobile?28:36,fontWeight:900,color:wColor||"white",textShadow:"0 2px 8px rgba(0,0,0,0.15)",marginBottom:8,fontFamily:"Quicksand, sans-serif"}}>{card.display||card.word}</div>
+                    <SpeakerButton text={card.word} lang={ttsLocale} size={20} showToast={showToast}/>
+                    <div style={{fontSize:12,color:dk?"rgba(255,255,255,0.4)":"rgba(123,94,232,0.5)",marginTop:16,fontWeight:600}}>Tap to reveal</div>
+                  </div>
+                :
+                  /* ── Back: translation + example ── */
+                  <div style={{position:"relative",zIndex:1}}>
+                    <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.4)":"rgba(123,94,232,0.5)",marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>{card.display||card.word}</div>
+                    <div style={{fontSize:isMobile?24:30,fontWeight:800,color:"white",textShadow:"0 2px 6px rgba(0,0,0,0.15)",marginBottom:12,fontFamily:"Quicksand, sans-serif"}}>{card.en}</div>
+                    {card.phonetic&&<div style={{fontSize:13,color:dk?"rgba(255,255,255,0.5)":"rgba(255,255,255,0.7)",marginBottom:8}}>/{card.phonetic}/</div>}
+                    {card.example&&<div style={{fontSize:13,color:dk?"rgba(255,255,255,0.6)":"rgba(255,255,255,0.75)",fontStyle:"italic",maxWidth:400,lineHeight:1.5}}>"{card.example}"</div>}
+                    {card.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(255,255,255,0.35)":"rgba(255,255,255,0.5)",marginTop:4}}>"{card.exampleEn}"</div>}
+                  </div>
+                }
+              </div>;
+            })()}
+
+            {/* Navigation buttons */}
+            <div style={{display:"flex",gap:10,justifyContent:"center",marginTop:16}}>
+              <button onClick={(e)=>{e.stopPropagation();setReviewFlipped(false);setReviewIndex(p=>Math.max(0,p-1));}}
+                disabled={reviewIndex===0}
+                onMouseEnter={e=>{if(reviewIndex>0){e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";}}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+                style={{
+                  padding:"10px 24px",borderRadius:14,border:"none",cursor:reviewIndex===0?"default":"pointer",fontFamily:"inherit",fontSize:13,fontWeight:800,
+                  opacity:reviewIndex===0?0.3:1,position:"relative",overflow:"hidden",transition:"all .25s",
+                  background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",
+                  color:dk?"rgba(200,184,255,0.9)":"#7050D8",
+                  boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)",
+                }}>
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+                <span style={{position:"relative",zIndex:1}}>← Prev</span>
+              </button>
+              <button onClick={(e)=>{e.stopPropagation();setReviewFlipped(false);setReviewIndex(p=>Math.min(reviewWords.length-1,p+1));}}
+                disabled={reviewIndex>=reviewWords.length-1}
+                onMouseEnter={e=>{if(reviewIndex<reviewWords.length-1){e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";}}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+                style={{
+                  padding:"10px 24px",borderRadius:14,border:"none",cursor:reviewIndex>=reviewWords.length-1?"default":"pointer",fontFamily:"inherit",fontSize:13,fontWeight:800,
+                  opacity:reviewIndex>=reviewWords.length-1?0.3:1,position:"relative",overflow:"hidden",transition:"all .25s",
+                  background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",
+                  color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.2)",
+                  boxShadow:"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",
+                }}>
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+                <span style={{position:"relative",zIndex:1}}>Next →</span>
+              </button>
+            </div>
+          </div>
+        }
+      </div>}
     </div>
   );
 }
