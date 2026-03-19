@@ -10745,17 +10745,22 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             <div style={{display:"flex",flexWrap:"wrap",gap:8}}>
               {activePack.legend.map(item=>{
                 const isOff = item.key && langDisabled.includes(item.key);
+                const restSh=`0 4px 12px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+                const glowSh=`0 0 28px ${item.color}88, 0 0 48px ${item.color}33, 0 8px 20px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)`;
                 return <button key={item.label} onClick={()=>{
                   if(grammarEditMode && item.key){toggleCatDisabled(item.key);}
                   else{setExpandedLegend(expandedLegend===item.label?null:item.label);}
-                }} style={{
+                }}
+                onMouseEnter={e=>{if(!isOff){e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowSh;}}}
+                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restSh;}}
+                style={{
                   display:"inline-flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:14,
                   fontSize:11,fontWeight:800,cursor:"pointer",border:"none",fontFamily:"inherit",
                   position:"relative",overflow:"hidden",transition:"all .2s",letterSpacing:0.3,
                   background:pillGradient(item.color),
                   color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.25)",
                   opacity:isOff?0.3:1,
-                  boxShadow:`0 4px 12px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`,
+                  boxShadow:restSh,
                 }}>
                   {/* Pill shine overlay */}
                   <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",
