@@ -10106,10 +10106,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     if(done&&!doneFiredRef.current){
       doneFiredRef.current=true;
       try{delete _memStore[progressKey];}catch(e){}
-      UISounds.celebrate();
+      try{UISounds.celebrate();}catch(e){}
       addXp(lesson.xp);
       showToast(`Lesson complete! +${lesson.xp} XP`,"🎉");
-      if(onComplete)onComplete();
+      try{if(onComplete)onComplete();}catch(e){console.error("onComplete error:",e);}
     }
     if(!done)doneFiredRef.current=false;
   },[done]);
@@ -11371,7 +11371,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
             {/* ── USAGE EXAMPLES — each sentence its own compound-style bubble ── */}
             <div style={{display:"flex",flexDirection:"column",gap:10}}>
-              {entry.uses.map((u,i)=>(
+              {(entry.uses||[]).map((u,i)=>(
                 <div key={i} style={{
                   background:dk
                     ?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"
@@ -11465,6 +11465,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ════════════════════════════════════════════════════════════
   const universalHl = (text, tLang, opts = {}) => {
     if (!text || typeof text !== "string") return text;
+    try {
     const effectiveLang = tLang || lang;
 
     // Korean: delegate to existing koreanHl (preserves all existing behavior)
@@ -11531,7 +11532,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
           >{contractionPart}</span>);
         } else {
-          spans.push(<span key={i+"c"} style={{cursor:"pointer",borderBottom:dk?"1.5px dashed rgba(200,190,255,0.25)":"1.5px dashed rgba(112,80,216,0.2)",paddingBottom:1,borderRadius:2}}
+          spans.push(<span key={i+"c"} style={{cursor:"pointer",transition:"all .1s"}}
             onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
           >{contractionPart}</span>);
         }
@@ -11592,67 +11593,75 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         };
       }
 
-      // ── NEW WORD GOLD BUBBLE — candy gloss VerumLingua style ──
-      if (wordIsNew) {
-        wordStyle = {
-          color: dk ? "#F5C040" : "#D4880C",
-          fontWeight: 800,
-          cursor: "pointer",
-          background: dk
-            ? "linear-gradient(180deg, rgba(245,192,64,0.18) 0%, rgba(232,150,10,0.10) 50%, rgba(212,136,12,0.06) 100%)"
-            : "linear-gradient(180deg, rgba(255,243,199,0.95) 0%, rgba(253,230,138,0.7) 50%, rgba(245,192,64,0.25) 100%)",
-          border: dk ? "1.5px solid rgba(245,192,64,0.4)" : "1.5px solid rgba(232,150,10,0.35)",
-          borderRadius: 8,
-          padding: "1px 6px",
-          boxShadow: dk
-            ? "0 2px 8px rgba(232,150,10,0.2), inset 0 1px 0 rgba(255,255,255,0.08)"
-            : "0 2px 8px rgba(232,150,10,0.15), inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(232,150,10,0.1)",
-          display: "inline-block",
-          transition: "all .15s",
-          position: "relative",
-        };
-        // If grammar toggle ON and we have a POS color, use it as text color inside the gold bubble
-        if (grammarHl && posColor) {
-          wordStyle.color = posColor;
+      // ── GRAMMAR TOGGLE ON ──
+      if (grammarHl) {
+        // Effective color: POS color for most words, gender color for nouns
+        const effectiveColor = (entry.pos === "noun" && genderUColor) ? genderUColor : posColor;
+
+        if (wordIsNew) {
+          // NEW WORD GOLD BUBBLE — candy gloss VerumLingua style
+          wordStyle = {
+            color: effectiveColor || (dk ? "#F5C040" : "#D4880C"),
+            fontWeight: 800,
+            cursor: "pointer",
+            background: dk
+              ? "linear-gradient(180deg, rgba(245,192,64,0.18) 0%, rgba(232,150,10,0.10) 50%, rgba(212,136,12,0.06) 100%)"
+              : "linear-gradient(180deg, rgba(255,243,199,0.95) 0%, rgba(253,230,138,0.7) 50%, rgba(245,192,64,0.25) 100%)",
+            border: dk ? "1.5px solid rgba(245,192,64,0.4)" : "1.5px solid rgba(232,150,10,0.35)",
+            borderRadius: 8,
+            padding: "1px 6px",
+            boxShadow: dk
+              ? "0 2px 8px rgba(232,150,10,0.2), inset 0 1px 0 rgba(255,255,255,0.08)"
+              : "0 2px 8px rgba(232,150,10,0.15), inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(232,150,10,0.1)",
+            display: "inline-block",
+            transition: "all .15s",
+            position: "relative",
+          };
+        } else if (entry.pos === "noun" && genderUColor) {
+          // Nouns: gender color text + solid gender understripe
+          wordStyle = {
+            color: genderUColor,
+            fontWeight: 700,
+            cursor: "pointer",
+            borderBottom: "2.5px solid " + genderUColor,
+            paddingBottom: 1,
+            borderRadius: 3,
+            display: "inline",
+            transition: "all .15s",
+          };
+        } else if (effectiveColor) {
+          // All other POS: colored text + subtle dashed underline
+          wordStyle = {
+            color: effectiveColor,
+            fontWeight: 700,
+            cursor: "pointer",
+            borderBottom: "1.5px dashed " + effectiveColor + "44",
+            paddingBottom: 1,
+            borderRadius: 3,
+            display: "inline",
+            transition: "all .15s",
+          };
+        } else {
+          // Known word but no color assigned — just clickable
+          wordStyle = { cursor: "pointer", display: "inline", transition: "all .15s" };
         }
       }
-      // ── GRAMMAR TOGGLE ON: POS-based colors ──
-      else if (grammarHl && posColor) {
-        wordStyle = {
-          color: posColor,
-          fontWeight: 700,
-          cursor: "pointer",
-          borderBottom: "1.5px dashed " + posColor + "44",
-          paddingBottom: 1,
-          borderRadius: 3,
-          display: "inline",
-          transition: "all .15s",
-        };
-        // Nouns: gender color text + gender understripe
-        if (entry.pos === "noun" && genderUColor) {
-          wordStyle.color = genderUColor;
-          wordStyle.borderBottom = "2.5px solid " + genderUColor;
-        }
-      }
-      // ── GRAMMAR TOGGLE OFF: subtle clickable, no colors ──
+      // ── GRAMMAR TOGGLE OFF: truly invisible, just clickable ──
       else {
         wordStyle = {
           cursor: "pointer",
-          borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.2)" : "1.5px dashed rgba(112,80,216,0.15)",
-          paddingBottom: 1,
-          borderRadius: 2,
           display: "inline",
           transition: "all .15s",
         };
-        if (entry.taught) wordStyle.fontWeight = 600;
       }
 
+      const isGoldBubble = grammarHl && wordIsNew;
       spans.push(
         <span key={contractionPart ? i+"w" : i}
           onClick={clickHandler}
           style={wordStyle}
-          onMouseEnter={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.25)":"rgba(253,230,138,0.9)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
-          onMouseLeave={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(245,192,64,0.18)":"rgba(255,243,199,0.95)") : "transparent"; }}
+          onMouseEnter={(e) => { if(grammarHl) e.currentTarget.style.background = isGoldBubble ? (dk?"rgba(232,150,10,0.25)":"rgba(253,230,138,0.9)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
+          onMouseLeave={(e) => { if(grammarHl) e.currentTarget.style.background = isGoldBubble ? (dk?"rgba(245,192,64,0.18)":"rgba(255,243,199,0.95)") : "transparent"; }}
         >{mainWord}</span>
       );
 
@@ -11663,6 +11672,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     }
 
     return <>{spans}</>;
+    } catch(e) { console.error("universalHl error:",e); return text; }
   };
 
   // ── MiniWordPopup — compact popup for gold-highlighted untaught nouns ──
@@ -11720,9 +11730,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             const pos = miniWordPopup.pos || miniWordPopup.grammarType;
             if (pos) {
               const pc = POS_COLORS[pos];
-              if (pc) return dk ? pc.dark : pc.light;
+              const c = pc ? (dk ? pc.dark : pc.light) : null;
+              if (c) return c;
             }
-            return dk ? "#F5C040" : "#E8960A";
+            return dk ? "#A890FF" : "#7B5EE8";
           })(),
           marginBottom:4,
         }}>{miniWordPopup.word}</div>
