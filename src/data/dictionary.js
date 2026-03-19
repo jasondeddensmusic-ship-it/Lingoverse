@@ -597,6 +597,240 @@ export function getTaughtWords(lang, upToLessonId) {
   return taught;
 }
 
+// ── GRAMMAR_SETTINGS: Per-language settings panel configuration ──
+// Each language defines which toggle categories to show and their colors.
+// The settings panel renders ONLY the groups/items relevant to the current language.
+// posKeys: which POS_COLORS keys this toggle controls in universalHl()
+
+export const GRAMMAR_SETTINGS = {
+  de: {
+    label: "German",
+    groups: [
+      { id: "articles", label: "Article Gender", items: [
+        { id: "article_m", label: "der (masculine)", color: "#4A8FE7", darkColor: "#7AB8FF", posKeys: ["article_m"] },
+        { id: "article_f", label: "die (feminine)", color: "#E8475E", darkColor: "#F58888", posKeys: ["article_f"] },
+        { id: "article_n", label: "das (neuter)", color: "#7B5EE8", darkColor: "#A890FF", posKeys: ["article_n"] },
+        { id: "article_indef", label: "ein/eine (indefinite)", color: "#94A3B8", darkColor: "#CBD5E1", posKeys: ["article_indef"] },
+      ]},
+      { id: "cases", label: "Case Markers", items: [
+        { id: "case_nom", label: "Nominativ", color: "#22C55E", darkColor: "#4ADE80", posKeys: [] },
+        { id: "case_akk", label: "Akkusativ", color: "#F97316", darkColor: "#FB923C", posKeys: [] },
+        { id: "case_dat", label: "Dativ", color: "#A855F7", darkColor: "#C084FC", posKeys: [] },
+        { id: "case_gen", label: "Genitiv", color: "#EC4899", darkColor: "#F472B6", posKeys: [] },
+      ]},
+      { id: "nouns", label: "Nouns", items: [
+        { id: "nouns", label: "Nouns (gender understripe)", color: "#7B5EE8", darkColor: "#A890FF", posKeys: ["noun"] },
+      ]},
+      { id: "verbs", label: "Verbs", items: [
+        { id: "verbs", label: "Verbs", color: "#2ECDA7", darkColor: "#50E0C0", posKeys: ["verb"] },
+      ]},
+      { id: "descriptors", label: "Descriptors", items: [
+        { id: "adjectives", label: "Adjectives", color: "#F59E0B", darkColor: "#FCD34D", posKeys: ["adjective"] },
+        { id: "adverbs", label: "Adverbs", color: "#FB923C", darkColor: "#FDBA74", posKeys: ["adverb"] },
+      ]},
+      { id: "structure", label: "Structure Words", items: [
+        { id: "prepositions", label: "Prepositions", color: "#6366F1", darkColor: "#818CF8", posKeys: ["preposition"] },
+        { id: "conjunctions", label: "Conjunctions", color: "#8B5CF6", darkColor: "#A78BFA", posKeys: ["conjunction"] },
+        { id: "pronouns", label: "Pronouns", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["pronoun","pronoun_subj","pronoun_obj","pronoun_poss"] },
+        { id: "numbers", label: "Numbers", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["number","counter"] },
+      ]},
+      { id: "special", label: "Special", items: [
+        { id: "newWords", label: "New words (gold)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["new_word"] },
+      ]},
+    ],
+    presets: {
+      gender: ["article_m","article_f","article_n","article_indef","nouns"],
+      content: ["article_m","article_f","article_n","nouns","verbs","adjectives","adverbs"],
+      full: ["article_m","article_f","article_n","article_indef","nouns","verbs","adjectives","adverbs","prepositions","conjunctions","pronouns","numbers","newWords"],
+      none: [],
+    },
+  },
+  ko: {
+    label: "Korean",
+    groups: [
+      { id: "particles", label: "Particles", items: [
+        { id: "particle_topic", label: "Topic (은/는)", color: "#6366F1", darkColor: "#818CF8", posKeys: ["particle_topic"] },
+        { id: "particle_subj", label: "Subject (이/가)", color: "#8B5CF6", darkColor: "#A78BFA", posKeys: ["particle_subj"] },
+        { id: "particle_obj", label: "Object (을/를)", color: "#A855F7", darkColor: "#C084FC", posKeys: ["particle_obj"] },
+        { id: "particle_loc", label: "Location (에/에서)", color: "#EC4899", darkColor: "#F472B6", posKeys: ["particle_loc"] },
+        { id: "particle_dir", label: "Direction (으로/로)", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["particle_dir"] },
+        { id: "particle_conn", label: "Connector (과/와/하고)", color: "#FB7185", darkColor: "#FCA5A5", posKeys: ["particle_conn"] },
+        { id: "particle_poss", label: "Possessive (의)", color: "#F43F5E", darkColor: "#FB7185", posKeys: ["particle_poss"] },
+      ]},
+      { id: "verbs", label: "Verbs", items: [
+        { id: "verbs", label: "Verbs", color: "#2ECDA7", darkColor: "#50E0C0", posKeys: ["verb"] },
+      ]},
+      { id: "descriptors", label: "Descriptors", items: [
+        { id: "adjectives", label: "Adjectives", color: "#F59E0B", darkColor: "#FCD34D", posKeys: ["adjective"] },
+        { id: "adverbs", label: "Adverbs", color: "#FB923C", darkColor: "#FDBA74", posKeys: ["adverb"] },
+      ]},
+      { id: "structure", label: "Structure Words", items: [
+        { id: "pronouns", label: "Pronouns", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["pronoun","pronoun_subj","pronoun_obj","pronoun_poss"] },
+        { id: "numbers", label: "Numbers/Counters", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["number","counter"] },
+        { id: "negation", label: "Negation (안/못)", color: "#EF4444", darkColor: "#F87171", posKeys: ["negation"] },
+        { id: "question", label: "Question (뭐/어디)", color: "#14B8A6", darkColor: "#2DD4BF", posKeys: ["question"] },
+      ]},
+      { id: "special", label: "Special", items: [
+        { id: "newWords", label: "New words (gold)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["new_word"] },
+      ]},
+    ],
+    presets: {
+      particles: ["particle_topic","particle_subj","particle_obj","particle_loc","particle_dir","particle_conn","particle_poss"],
+      content: ["verbs","adjectives","adverbs","particle_topic","particle_subj","particle_obj"],
+      full: ["particle_topic","particle_subj","particle_obj","particle_loc","particle_dir","particle_conn","particle_poss","verbs","adjectives","adverbs","pronouns","numbers","negation","question","newWords"],
+      none: [],
+    },
+  },
+  nl: {
+    label: "Dutch",
+    groups: [
+      { id: "articles", label: "Article Gender", items: [
+        { id: "article_c", label: "de (common)", color: "#4A8FE7", darkColor: "#7AB8FF", posKeys: ["article_c","article_m"] },
+        { id: "article_het", label: "het (neuter)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["article_het","article_n"] },
+        { id: "article_indef", label: "een (indefinite)", color: "#94A3B8", darkColor: "#CBD5E1", posKeys: ["article_indef"] },
+      ]},
+      { id: "nouns", label: "Nouns", items: [
+        { id: "nouns", label: "Nouns (gender understripe)", color: "#7B5EE8", darkColor: "#A890FF", posKeys: ["noun"] },
+      ]},
+      { id: "verbs", label: "Verbs", items: [
+        { id: "verbs", label: "Verbs", color: "#2ECDA7", darkColor: "#50E0C0", posKeys: ["verb"] },
+      ]},
+      { id: "descriptors", label: "Descriptors", items: [
+        { id: "adjectives", label: "Adjectives", color: "#F59E0B", darkColor: "#FCD34D", posKeys: ["adjective"] },
+        { id: "adverbs", label: "Adverbs", color: "#FB923C", darkColor: "#FDBA74", posKeys: ["adverb"] },
+      ]},
+      { id: "structure", label: "Structure Words", items: [
+        { id: "prepositions", label: "Prepositions", color: "#6366F1", darkColor: "#818CF8", posKeys: ["preposition"] },
+        { id: "conjunctions", label: "Conjunctions", color: "#8B5CF6", darkColor: "#A78BFA", posKeys: ["conjunction"] },
+        { id: "pronouns", label: "Pronouns", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["pronoun","pronoun_subj","pronoun_obj","pronoun_poss"] },
+        { id: "numbers", label: "Numbers", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["number","counter"] },
+      ]},
+      { id: "special", label: "Special", items: [
+        { id: "newWords", label: "New words (gold)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["new_word"] },
+      ]},
+    ],
+    presets: {
+      gender: ["article_c","article_het","article_indef","nouns"],
+      content: ["article_c","article_het","nouns","verbs","adjectives","adverbs"],
+      full: ["article_c","article_het","article_indef","nouns","verbs","adjectives","adverbs","prepositions","conjunctions","pronouns","numbers","newWords"],
+      none: [],
+    },
+  },
+  fr: {
+    label: "French",
+    groups: [
+      { id: "articles", label: "Article Gender", items: [
+        { id: "article_m", label: "le (masculine)", color: "#4A8FE7", darkColor: "#7AB8FF", posKeys: ["article_m"] },
+        { id: "article_f", label: "la (feminine)", color: "#E8475E", darkColor: "#F58888", posKeys: ["article_f"] },
+        { id: "article_pl", label: "les (plural)", color: "#6366F1", darkColor: "#818CF8", posKeys: ["article_pl"] },
+        { id: "article_indef", label: "un/une/des", color: "#94A3B8", darkColor: "#CBD5E1", posKeys: ["article_indef"] },
+      ]},
+      { id: "nouns", label: "Nouns", items: [
+        { id: "nouns", label: "Nouns (gender understripe)", color: "#7B5EE8", darkColor: "#A890FF", posKeys: ["noun"] },
+      ]},
+      { id: "verbs", label: "Verbs", items: [
+        { id: "verbs", label: "Verbs", color: "#2ECDA7", darkColor: "#50E0C0", posKeys: ["verb"] },
+      ]},
+      { id: "descriptors", label: "Descriptors", items: [
+        { id: "adjectives", label: "Adjectives", color: "#F59E0B", darkColor: "#FCD34D", posKeys: ["adjective"] },
+        { id: "adverbs", label: "Adverbs", color: "#FB923C", darkColor: "#FDBA74", posKeys: ["adverb"] },
+      ]},
+      { id: "structure", label: "Structure Words", items: [
+        { id: "prepositions", label: "Prepositions", color: "#6366F1", darkColor: "#818CF8", posKeys: ["preposition"] },
+        { id: "conjunctions", label: "Conjunctions", color: "#8B5CF6", darkColor: "#A78BFA", posKeys: ["conjunction"] },
+        { id: "pronouns", label: "Pronouns", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["pronoun","pronoun_subj","pronoun_obj","pronoun_poss"] },
+        { id: "numbers", label: "Numbers", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["number","counter"] },
+      ]},
+      { id: "special", label: "Special", items: [
+        { id: "newWords", label: "New words (gold)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["new_word"] },
+      ]},
+    ],
+    presets: {
+      gender: ["article_m","article_f","article_pl","article_indef","nouns"],
+      content: ["article_m","article_f","nouns","verbs","adjectives","adverbs"],
+      full: ["article_m","article_f","article_pl","article_indef","nouns","verbs","adjectives","adverbs","prepositions","conjunctions","pronouns","numbers","newWords"],
+      none: [],
+    },
+  },
+  es: {
+    label: "Spanish",
+    groups: [
+      { id: "articles", label: "Article Gender", items: [
+        { id: "article_m", label: "el (masculine)", color: "#4A8FE7", darkColor: "#7AB8FF", posKeys: ["article_m"] },
+        { id: "article_f", label: "la (feminine)", color: "#E8475E", darkColor: "#F58888", posKeys: ["article_f"] },
+        { id: "article_pl", label: "los/las (plural)", color: "#6366F1", darkColor: "#818CF8", posKeys: ["article_pl"] },
+        { id: "article_indef", label: "un/una/unos/unas", color: "#94A3B8", darkColor: "#CBD5E1", posKeys: ["article_indef"] },
+      ]},
+      { id: "nouns", label: "Nouns", items: [
+        { id: "nouns", label: "Nouns (gender understripe)", color: "#7B5EE8", darkColor: "#A890FF", posKeys: ["noun"] },
+      ]},
+      { id: "verbs", label: "Verbs", items: [
+        { id: "verbs", label: "Verbs", color: "#2ECDA7", darkColor: "#50E0C0", posKeys: ["verb"] },
+      ]},
+      { id: "descriptors", label: "Descriptors", items: [
+        { id: "adjectives", label: "Adjectives", color: "#F59E0B", darkColor: "#FCD34D", posKeys: ["adjective"] },
+        { id: "adverbs", label: "Adverbs", color: "#FB923C", darkColor: "#FDBA74", posKeys: ["adverb"] },
+      ]},
+      { id: "structure", label: "Structure Words", items: [
+        { id: "prepositions", label: "Prepositions", color: "#6366F1", darkColor: "#818CF8", posKeys: ["preposition"] },
+        { id: "conjunctions", label: "Conjunctions", color: "#8B5CF6", darkColor: "#A78BFA", posKeys: ["conjunction"] },
+        { id: "pronouns", label: "Pronouns", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["pronoun","pronoun_subj","pronoun_obj","pronoun_poss"] },
+        { id: "numbers", label: "Numbers", color: "#F472B6", darkColor: "#FDA4AF", posKeys: ["number","counter"] },
+      ]},
+      { id: "special", label: "Special", items: [
+        { id: "newWords", label: "New words (gold)", color: "#E8960A", darkColor: "#F5C040", posKeys: ["new_word"] },
+      ]},
+    ],
+    presets: {
+      gender: ["article_m","article_f","article_pl","article_indef","nouns"],
+      content: ["article_m","article_f","nouns","verbs","adjectives","adverbs"],
+      full: ["article_m","article_f","article_pl","article_indef","nouns","verbs","adjectives","adverbs","prepositions","conjunctions","pronouns","numbers","newWords"],
+      none: [],
+    },
+  },
+};
+
+// Helper: get default filters for a language (all ON)
+export function getDefaultFilters(lang) {
+  const settings = GRAMMAR_SETTINGS[lang];
+  if (!settings) return {};
+  const filters = {};
+  for (const group of settings.groups) {
+    for (const item of group.items) {
+      filters[item.id] = true;
+    }
+  }
+  return filters;
+}
+
+// Helper: build posKey->filterId reverse map for universalHl
+export function buildPosFilterMap(lang) {
+  const settings = GRAMMAR_SETTINGS[lang];
+  if (!settings) return {};
+  const map = {}; // posKey -> [filterId1, filterId2, ...]
+  for (const group of settings.groups) {
+    for (const item of group.items) {
+      for (const pk of (item.posKeys || [])) {
+        if (!map[pk]) map[pk] = [];
+        map[pk].push(item.id);
+      }
+    }
+  }
+  return map;
+}
+
+// Helper: get color for a filter item (used by settings panel for color dots)
+export function getFilterColor(lang, filterId, isDark) {
+  const settings = GRAMMAR_SETTINGS[lang];
+  if (!settings) return null;
+  for (const group of settings.groups) {
+    for (const item of group.items) {
+      if (item.id === filterId) return isDark ? item.darkColor : item.color;
+    }
+  }
+  return null;
+}
+
 // ── Stats (for dev/debug) ──
 export function getWordDBStats() {
   const stats = {};
