@@ -7905,14 +7905,18 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     let resolved=resolvePackColor(entry,activePack,dk);
     if(resolved&&langDisabled.length>0&&entry.pos){
       const p=entry.pos;
+      const g=entry.gender||"";
       const catOff=langDisabled.some(k=>
         (k==="verb"&&p==="verb")||(k==="adjective"&&p==="adjective")||
         (k==="adverb"&&(p==="adverb"||p==="pronoun"||p.startsWith("pronoun_")||p==="demonstrative"))||
-        (k==="noun"&&p==="noun")||
+        (k==="noun"&&p==="noun"&&!g)||
         (k==="structure"&&(p==="preposition"||p==="conjunction"||p.startsWith("article")||p==="interjection"||p==="number"||p==="counter"||p==="negation"||p==="question"||p.startsWith("particle_")))||
-        (k==="m"&&p.endsWith("_m"))||(k==="f"&&p.endsWith("_f"))||
-        (k==="n"&&(p.endsWith("_n")||p.endsWith("_het")))||(k==="c"&&p.endsWith("_c"))||
-        (k==="indef"&&p.endsWith("_indef"))||(k==="pl"&&p.endsWith("_pl"))||
+        (k==="m"&&(p.endsWith("_m")||(g==="m"&&(p==="noun"||p==="adjective"||p.startsWith("article")))))||
+        (k==="f"&&(p.endsWith("_f")||(g==="f"&&(p==="noun"||p==="adjective"||p.startsWith("article")))))||
+        (k==="n"&&(p.endsWith("_n")||p.endsWith("_het")||(g==="n"&&(p==="noun"||p==="adjective"||p.startsWith("article")))))||
+        (k==="c"&&(p.endsWith("_c")||(g==="c"&&(p==="noun"||p==="adjective"))))||
+        (k==="indef"&&(p.endsWith("_indef")||(g==="indef"&&p.startsWith("article"))))||
+        (k==="pl"&&(p.endsWith("_pl")||(g==="pl"&&(p==="noun"||p==="adjective"))))||
         (k==="topic"&&p==="particle_topic")||(k==="subj"&&p==="particle_subj")||
         (k==="obj"&&p==="particle_obj")||(k==="loc"&&(p==="particle_loc"||p==="particle_dir"))||
         (k==="conn"&&(p==="particle_conn"||p==="particle_comp"||p==="particle_poss"||p==="particle_other"))
