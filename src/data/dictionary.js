@@ -31,42 +31,55 @@ const FUNCTION_WORD_LISTS = {
   ko: FUNCTION_WORDS_KO,
 };
 
-// ── POS Color Map (21 categories) ──
-// Each POS maps to light/dark text colors + optional understripe
+// ── POS Color Map (5 primary color families) ──
+// 1. GENDER: blue(m/c), coral(f), purple(n), gold(het), indigo(pl)
+// 2. VERBS: teal
+// 3. DESCRIPTORS: amber (adjectives + adverbs)
+// 4. STRUCTURE: indigo (prepositions, conjunctions, particles)
+// 5. OTHER: light pink (pronouns, numbers, interjections)
+// Nouns get gender color via GENDER_COLORS (not from this map)
 export const POS_COLORS = {
+  // 1. GENDER — per-gender article colors
   "article":          { light: "#4A8FE7", dark: "#7AB8FF" },
-  "article_m":        { light: "#4A8FE7", dark: "#7AB8FF" },  // masculine
-  "article_f":        { light: "#E8475E", dark: "#F58888" },  // feminine
-  "article_n":        { light: "#7B5EE8", dark: "#A890FF" },  // neuter
-  "article_c":        { light: "#4A8FE7", dark: "#7AB8FF" },  // common (Dutch de)
-  "article_het":      { light: "#E8960A", dark: "#F5C040" },  // Dutch het
-  "article_indef":    { light: "#94A3B8", dark: "#CBD5E1" },  // indefinite
-  "article_pl":       { light: "#6366F1", dark: "#818CF8" },  // plural
-  "noun":             { light: null, dark: null, understripe: true },  // text = default, understripe = gender color
+  "article_m":        { light: "#4A8FE7", dark: "#7AB8FF" },
+  "article_f":        { light: "#E8475E", dark: "#F58888" },
+  "article_n":        { light: "#7B5EE8", dark: "#A890FF" },
+  "article_c":        { light: "#4A8FE7", dark: "#7AB8FF" },
+  "article_het":      { light: "#E8960A", dark: "#F5C040" },
+  "article_indef":    { light: "#94A3B8", dark: "#CBD5E1" },
+  "article_pl":       { light: "#6366F1", dark: "#818CF8" },
+  // NOUN — text = gender color via GENDER_COLORS, understripe = gender color
+  "noun":             { light: null, dark: null, understripe: true },
+  // 2. VERBS — teal
   "verb":             { light: "#2ECDA7", dark: "#50E0C0" },
+  // 3. DESCRIPTORS — amber
   "adjective":        { light: "#F59E0B", dark: "#FCD34D" },
-  "adverb":           { light: "#EC4899", dark: "#F472B6" },
+  "adverb":           { light: "#F59E0B", dark: "#FCD34D" },
+  // 4. STRUCTURE — indigo
   "preposition":      { light: "#6366F1", dark: "#818CF8" },
-  "conjunction":      { light: "#8B5CF6", dark: "#A78BFA" },
-  "pronoun_subj":     { light: "#D97706", dark: "#F59E0B" },
-  "pronoun_obj":      { light: "#B45309", dark: "#D97706" },
-  "pronoun_poss":     { light: "#92400E", dark: "#B45309" },
-  "pronoun":          { light: "#D97706", dark: "#F59E0B" },  // generic pronoun fallback
-  "particle_topic":   { light: "#2ECDA7", dark: "#50E0C0" },  // Korean particles
-  "particle_subj":    { light: "#4A8FE7", dark: "#7AB8FF" },
-  "particle_obj":     { light: "#E8475E", dark: "#F58888" },
+  "conjunction":      { light: "#6366F1", dark: "#818CF8" },
+  // 5. OTHER — light pink
+  "pronoun_subj":     { light: "#F472B6", dark: "#FDA4AF" },
+  "pronoun_obj":      { light: "#F472B6", dark: "#FDA4AF" },
+  "pronoun_poss":     { light: "#F472B6", dark: "#FDA4AF" },
+  "pronoun":          { light: "#F472B6", dark: "#FDA4AF" },
+  "number":           { light: "#F472B6", dark: "#FDA4AF" },
+  "interjection":     { light: "#F472B6", dark: "#FDA4AF" },
+  "counter":          { light: "#F472B6", dark: "#FDA4AF" },
+  "negation":         { light: "#F472B6", dark: "#FDA4AF" },
+  "question":         { light: "#F472B6", dark: "#FDA4AF" },
+  "demonstrative":    { light: "#F472B6", dark: "#FDA4AF" },
+  // Korean particles — structure (indigo)
+  "particle_topic":   { light: "#6366F1", dark: "#818CF8" },
+  "particle_subj":    { light: "#6366F1", dark: "#818CF8" },
+  "particle_obj":     { light: "#6366F1", dark: "#818CF8" },
   "particle_loc":     { light: "#6366F1", dark: "#818CF8" },
-  "particle_dir":     { light: "#8B5CF6", dark: "#A78BFA" },
-  "particle_conn":    { light: "#EC4899", dark: "#F472B6" },
-  "particle_comp":    { light: "#F59E0B", dark: "#FCD34D" },
-  "particle_poss":    { light: "#92400E", dark: "#B45309" },
-  "particle_other":   { light: "#94A3B8", dark: "#CBD5E1" },
-  "number":           { light: "#06B6D4", dark: "#22D3EE" },
-  "interjection":     { light: "#F43F5E", dark: "#FB7185" },
-  "counter":          { light: "#06B6D4", dark: "#22D3EE" },  // Korean counters
-  "negation":         { light: "#F43F5E", dark: "#FB7185" },
-  "question":         { light: "#D97706", dark: "#F59E0B" },
-  "demonstrative":    { light: "#D97706", dark: "#F59E0B" },
+  "particle_dir":     { light: "#6366F1", dark: "#818CF8" },
+  "particle_conn":    { light: "#6366F1", dark: "#818CF8" },
+  "particle_comp":    { light: "#6366F1", dark: "#818CF8" },
+  "particle_poss":    { light: "#6366F1", dark: "#818CF8" },
+  "particle_other":   { light: "#6366F1", dark: "#818CF8" },
+  // Special
   "new_word":         { light: "#E8960A", dark: "#F5C040", bubble: true },
   "unknown":          { light: "#94A3B8", dark: "#94A3B8" },
 };
