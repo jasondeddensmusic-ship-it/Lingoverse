@@ -7827,7 +7827,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
   );
 }
 
-// ━━━━━━━━━━ VOCABULARY PAGE V3 (Search / Browse / Review) ━━━━━━━━━━
+// ━━━━━━━━━━ VOCABULARY PAGE V5 (Search / Browse / Review) ━━━━━━━━━━
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
@@ -7959,47 +7959,54 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     boxShadow:isActive?(dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"):(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
   });
 
-  // ── Word row: display field already includes article (e.g. "der Hund"), color the article part ──
+  // ── Word row V5: frosted glass cards, grammar-toggle colors, no phonetics ──
   const WordRow=({entry,wKey})=>{
     const isExp=expanded===wKey;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
-    const artColors=artEntry?ARTICLE_COLORS[artEntry]:null;
+    const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
     const disp=entry.display||entry.word||"";
-    // Color just the article prefix if display starts with it
+    // When grammarHl ON: color article prefix + whole word gets grammar color. When OFF: default styling.
     let artSpan=null,wordPart=disp;
-    if(artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
+    if(grammarHl&&artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
       artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
       wordPart=disp.substring(artEntry.length);
     }
+    // Translation color: grammarHl ON = purple, OFF = muted
+    const transColor=grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)");
+    // Candy pill helper for expanded badges
+    const badgePill=(hex,label)=>(<span style={{display:"inline-block",padding:"3px 10px",borderRadius:10,fontSize:10,fontWeight:800,color:"white",letterSpacing:0.3,textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",overflow:"hidden",background:dk?`linear-gradient(180deg,${hex}cc 0%,${hex} 50%,${hex}bb 100%)`:`linear-gradient(180deg,${hex}dd 0%,${hex} 55%,${hex}aa 100%)`,boxShadow:`0 2px 8px ${hex}44, inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)`}}>{label}</span>);
     return(
-      <div style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .2s",background:dk?"rgba(30,30,46,0.85)":"white",borderLeft:isExp?"4px solid #7B5EE8":"4px solid "+(dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.15)"),boxShadow:isExp?(dk?"0 4px 20px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06)":"0 4px 20px rgba(123,94,232,0.12), inset 0 1px 0 rgba(255,255,255,0.95)"):(dk?"0 1px 4px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.04)":"0 1px 4px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.95)")}}>
-        <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"12px 16px",cursor:"pointer"}}>
+      <div style={{borderRadius:18,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",background:dk?"linear-gradient(180deg, rgba(123,94,232,0.35) 0%, rgba(100,78,205,0.25) 45%, rgba(80,60,180,0.18) 100%)":"linear-gradient(180deg, rgba(210,200,255,0.7) 0%, rgba(220,213,255,0.55) 45%, rgba(230,225,255,0.45) 100%)",border:dk?"1px solid rgba(160,140,255,0.3)":"1px solid rgba(165,148,238,0.4)",borderLeft:isExp?(dk?"4px solid #A488F0":"4px solid #7B5EE8"):(dk?"4px solid rgba(160,140,255,0.3)":"4px solid rgba(165,148,238,0.4)"),boxShadow:isExp?(dk?"0 4px 20px rgba(0,0,0,0.3), 0 0 12px rgba(123,94,232,0.2), inset 0 1px 0 rgba(255,255,255,0.1)":"0 4px 20px rgba(123,94,232,0.15), 0 0 10px rgba(165,148,238,0.12), inset 0 1px 0 rgba(255,255,255,0.7)"):(dk?"0 1px 6px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06)":"0 1px 6px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.7)")}}>
+        <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"12px 16px",cursor:"pointer",position:"relative"}}>
           <div style={{flex:1,minWidth:0}}>
             <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>
               {artSpan}{wordPart}
             </span>
           </div>
-          <span style={{color:"#2ECDA7",fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en}</span>
+          <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en}</span>
           <SpeakerButton text={entry.word} lang={ttsLocale} size={13} showToast={showToast}/>
         </div>
-        {isExp&&<div className="anim" style={{padding:"4px 16px 14px",borderTop:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)"}}>
-          <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:8}}>
-            {entry.phonetic&&<span style={{display:"inline-block",background:dk?"rgba(74,143,231,0.15)":"rgba(74,143,231,0.08)",borderRadius:8,padding:"2px 10px",fontSize:12,color:dk?"#82B1FF":"#2979FF",fontWeight:600}}>/{entry.phonetic}/</span>}
-            {entry.level&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:pillGradient("#7B5EE8"),letterSpacing:0.3}}>{(entry.level||"A1").substring(0,2)}</span>}
-            <span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",background:dk?"rgba(255,255,255,0.06)":"rgba(123,94,232,0.06)",letterSpacing:0.5,textTransform:"uppercase"}}>{posLabel(entry.pos)}</span>
-            {artColors&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,background:artColors.pill,fontSize:10,fontWeight:800,color:artColors.pillText}}>{artEntry}</span>}
-            {entry.gender&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",background:dk?"rgba(255,255,255,0.04)":"rgba(0,0,0,0.03)"}}>{genderLabels[entry.gender]||entry.gender}</span>}
+        {isExp&&<div className="anim" style={{padding:"8px 16px 14px",borderTop:dk?"1px solid rgba(160,140,255,0.2)":"1px solid rgba(165,148,238,0.25)"}}>
+          {/* Badge row: candy gradient pills */}
+          <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:10}}>
+            {entry.level&&badgePill("#7B5EE8",(entry.level||"A1").substring(0,2))}
+            {badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
+            {artColors&&badgePill(artColors.pillText||"#7B5EE8",artEntry)}
+            {entry.gender&&badgePill("#6040C0",genderLabels[entry.gender]||entry.gender)}
           </div>
-          {entry.note&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",marginBottom:6,lineHeight:1.4}}>{entry.note}</div>}
-          {entry.example&&<div style={{background:dk?"rgba(245,166,35,0.08)":"rgba(245,166,35,0.05)",borderRadius:14,padding:"10px 14px",border:dk?"1px solid rgba(245,166,35,0.15)":"1px solid rgba(245,166,35,0.1)",marginBottom:6}}>
-            <div style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,display:"flex",alignItems:"center",gap:6}}>
-              <span>{entry.example}</span>
+          {/* Note */}
+          {entry.note&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.7)",marginBottom:8,lineHeight:1.5,fontWeight:600}}>{entry.note}</div>}
+          {/* Example — frosted glass bubble, NOT orange */}
+          {entry.example&&<div style={{borderRadius:14,padding:"10px 14px",marginBottom:6,position:"relative",overflow:"hidden",background:dk?"rgba(255,255,255,0.06)":"rgba(255,255,255,0.45)",border:dk?"1px solid rgba(160,140,255,0.15)":"1px solid rgba(165,148,238,0.2)",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.8)"}}>
+            <div style={{display:"flex",alignItems:"center",gap:6}}>
+              <span style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1}}>{entry.example}</span>
               <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
             </div>
-            {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontStyle:"italic",marginTop:3}}>{entry.exampleEn}</div>}
+            {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:4}}>{entry.exampleEn}</div>}
           </div>}
-          {entry.cognate&&<div style={{fontSize:11,color:dk?"rgba(46,205,167,0.8)":"#2ECDA7",fontWeight:600}}>{entry.cognate}</div>}
+          {/* Cognate */}
+          {entry.cognate&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:4}}>{entry.cognate}</div>}
         </div>}
       </div>
     );
@@ -8012,13 +8019,15 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const activeGenders=useMemo(()=>{const s=new Set();allWords.forEach(e=>{if(e.gender)s.add(e.gender);});return ["m","f","n","c","pl"].filter(g=>s.has(g));},[allWords]);
   const hasActiveFilters=filterPOS.size>0||filterLevel.size>0||filterGender.size>0||filterTaughtOnly;
 
-  const chipStyle=(active)=>({
-    padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
-    background:active?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
-    color:active?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
-    textShadow:active?"0 1px 2px rgba(0,0,0,0.2)":"none",
-    boxShadow:active?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
+  // Candy chip with full gloss arc — used for review level pills and anywhere chipStyle is called
+  const candyChip=(active)=>({
+    padding:"7px 16px",borderRadius:14,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:800,transition:"all .25s",position:"relative",overflow:"hidden",
+    background:active?(dk?"linear-gradient(180deg,#D4C8FF 0%,#C0AEF8 8%,#A488F0 20%,#8B6AE4 38%,#7B5EE8 52%,#6545C8 72%,#5840B8 88%,#4A2BA6 100%)":"linear-gradient(180deg,#C8BAFF 0%,#B8A8FA 10%,#9B7AE8 25%,#7B5EE8 55%,#6545C8 80%,#5840B8 92%,#4A2BA6 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.13) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
+    color:active?"white":(dk?"rgba(200,184,255,0.8)":"#6040C0"),
+    textShadow:active?"0 1px 3px rgba(0,0,0,0.3)":"none",
+    boxShadow:active?(dk?"0 0 16px rgba(123,94,232,0.45), 0 4px 14px rgba(85,53,181,0.4), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 0 14px rgba(123,94,232,0.35), 0 4px 14px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)"):(dk?"inset 0 1px 0 rgba(255,255,255,0.12), 0 2px 6px rgba(0,0,0,0.18)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.18)"),
   });
+  const chipStyle=candyChip;
 
   // ═══════════════════════════════════════════════════════════
   // RENDER
@@ -8050,7 +8059,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
           <div style={{display:"flex",alignItems:"center",gap:9,padding:"11px 13px",background:dk?"rgba(255,255,255,0.07)":"rgba(255,255,255,0.22)",borderRadius:20,position:"relative",zIndex:1}}>
             <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke={dk?"rgba(200,184,255,0.65)":"rgba(130,115,175,0.65)"} strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-            <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search any word or phrase\u2026" style={{flex:1,border:"none",outline:"none",background:"transparent",fontSize:14,fontFamily:"'Nunito','DM Sans',system-ui,sans-serif",fontWeight:600,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",caretColor:"#7B5EE8",minWidth:0}}/>
+            <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search any word or phrase..." style={{flex:1,border:"none",outline:"none",background:"transparent",fontSize:14,fontFamily:"'Nunito','DM Sans',system-ui,sans-serif",fontWeight:600,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",caretColor:"#7B5EE8",minWidth:0}}/>
             {search&&<span onClick={()=>{setSearch("");searchRef.current?.focus();}} style={{cursor:"pointer",fontSize:14,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.75)",padding:"0 4px"}}>&#10005;</span>}
           </div>
         </div>
@@ -8071,9 +8080,9 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             <span style={{position:"relative",zIndex:1}}>Filters {hasActiveFilters?"*":""}</span>
           </button>
           {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}}
-            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";}}
-            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}
-            style={{padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontSize:10,fontWeight:800,background:dk?"rgba(245,101,101,0.2)":"rgba(245,101,101,0.1)",color:"#F56565",fontFamily:"inherit",transition:"all .2s"}}>Clear all</button>}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.background=dk?"linear-gradient(180deg,#FF6B6B 0%,#F56565 50%,#D04444 100%)":"linear-gradient(180deg,#FF8080 0%,#F56565 50%,#D04444 100%)";e.currentTarget.style.color="white";e.currentTarget.style.boxShadow="0 3px 10px rgba(245,101,101,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)";e.currentTarget.style.textShadow="0 1px 2px rgba(0,0,0,0.2)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.background=dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)";e.currentTarget.style.color=dk?"rgba(200,184,255,0.7)":"#6040C0";e.currentTarget.style.boxShadow=dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)";e.currentTarget.style.textShadow="none";}}
+            style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontSize:10,fontWeight:800,fontFamily:"inherit",transition:"all .25s",position:"relative",overflow:"hidden",background:dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)",color:dk?"rgba(200,184,255,0.7)":"#6040C0",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"}}>Clear all</button>}
           <span style={{flex:1}}/>
           <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
         </div>
@@ -8085,14 +8094,9 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Part of Speech</div>
             <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
               {posTypes.map(p=><button key={p} onClick={()=>toggleFilter(filterPOS,setFilterPOS,p)}
-                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-1px)";e.currentTarget.style.filter="brightness(1.15)";}}
                 onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
-                style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
-                  background:filterPOS.has(p)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
-                  color:filterPOS.has(p)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
-                  textShadow:filterPOS.has(p)?"0 1px 2px rgba(0,0,0,0.2)":"none",
-                  boxShadow:filterPOS.has(p)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
-                }}>{cap(p)}</button>)}
+                style={candyChip(filterPOS.has(p))}>{cap(p)}</button>)}
             </div>
             {activeGenders.length>0&&<>
               <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Gender</div>
@@ -8100,35 +8104,20 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                 {activeGenders.map(g=><button key={g} onClick={()=>toggleFilter(filterGender,setFilterGender,g)}
                   onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
                   onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
-                  style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
-                    background:filterGender.has(g)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
-                    color:filterGender.has(g)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
-                    textShadow:filterGender.has(g)?"0 1px 2px rgba(0,0,0,0.2)":"none",
-                    boxShadow:filterGender.has(g)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
-                  }}>{genderLabels[g]||g}</button>)}
+                  style={candyChip(filterGender.has(g))}>{genderLabels[g]||g}</button>)}
               </div>
             </>}
             <div style={{fontSize:10,fontWeight:800,color:dk?"rgba(255,255,255,0.6)":"rgba(100,80,180,0.65)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Level</div>
             <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
               {activeLevels.map(lv=><button key={lv} onClick={()=>toggleFilter(filterLevel,setFilterLevel,lv)}
-                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
+                onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-1px)";e.currentTarget.style.filter="brightness(1.15)";}}
                 onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
-                style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
-                  background:filterLevel.has(lv)?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
-                  color:filterLevel.has(lv)?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
-                  textShadow:filterLevel.has(lv)?"0 1px 2px rgba(0,0,0,0.2)":"none",
-                  boxShadow:filterLevel.has(lv)?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
-                }}>{lv}</button>)}
+                style={candyChip(filterLevel.has(lv))}>{lv}</button>)}
             </div>
             <button onClick={()=>setFilterTaughtOnly(p=>!p)}
               onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
               onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
-              style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .25s",position:"relative",overflow:"hidden",
-                background:filterTaughtOnly?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)"),
-                color:filterTaughtOnly?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0"),
-                textShadow:filterTaughtOnly?"0 1px 2px rgba(0,0,0,0.2)":"none",
-                boxShadow:filterTaughtOnly?"0 3px 10px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":(dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"),
-              }}>Taught only</button>
+              style={candyChip(filterTaughtOnly)}>Taught only</button>
           </div>
         </div>}
 
@@ -8285,7 +8274,6 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                       {card.level&&<span style={{display:"inline-block",padding:"3px 10px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:"rgba(255,255,255,0.25)",textShadow:subNeon,letterSpacing:0.3,backdropFilter:"blur(4px)"}}>{(card.level||"A1").substring(0,2)}</span>}
                       <span style={{display:"inline-block",padding:"3px 10px",borderRadius:8,fontSize:10,fontWeight:700,color:"white",background:"rgba(255,255,255,0.2)",textShadow:subNeon,letterSpacing:0.5,textTransform:"uppercase",backdropFilter:"blur(4px)"}}>{posLabel(card.pos)}</span>
                     </div>
-                    {card.phonetic&&<div style={{fontSize:13,fontWeight:700,color:"#fff",marginBottom:8,textShadow:subNeon}}>/{card.phonetic}/</div>}
                     {card.example&&<div style={{fontSize:13,fontWeight:700,color:"rgba(30,20,60,0.85)",fontStyle:"italic",maxWidth:400,lineHeight:1.5,background:"rgba(255,255,255,0.35)",borderRadius:12,padding:"8px 12px",backdropFilter:"blur(4px)"}}>{card.example}</div>}
                     {card.exampleEn&&<div style={{fontSize:12,fontWeight:600,color:"rgba(30,20,60,0.7)",marginTop:4,fontStyle:"italic"}}>{card.exampleEn}</div>}
                   </div>
