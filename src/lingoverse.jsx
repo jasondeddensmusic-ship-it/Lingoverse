@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { LANG_DICT, mergeKoreanDict, lookupWord, getTaughtWords } from './data/dictionary.js';
+import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -11457,9 +11457,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   };
 
   // ════════════════════════════════════════════════════════════
-  // UNIVERSAL HIGHLIGHTER — replaces koreanHl/smartHl conditionals
-  // Handles all languages: clickable taught words, gold untaught nouns,
-  // grammar colorizer, and smartHl fallback for non-target text.
+  // UNIVERSAL HIGHLIGHTER V2 — POS-based coloring from WORD_DB
+  // No more context-free tokenizer guessing. Every word is looked up
+  // in WORD_DB for its POS, then colored accordingly.
+  // Grammar toggle ON: POS colors per color map + gender understripes
+  // Grammar toggle OFF: only NEW WORDS in gold bubbles + all words clickable
   // ════════════════════════════════════════════════════════════
   const universalHl = (text, tLang, opts = {}) => {
     if (!text || typeof text !== "string") return text;
@@ -11475,196 +11477,182 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     const hasTargetScript = LANG_TOKENIZER[effectiveLang].scriptRange.test(text);
     if (!hasTargetScript) return smartHl(text);
 
-    const tokens = tokenize(text, effectiveLang);
-    const dict = LANG_DICT[effectiveLang] || {};
+    const dict = WORD_DB[effectiveLang] || {};
+    const cfg = LANG_TOKENIZER[effectiveLang];
 
-    // Track previous token for noun-after-article detection + gender color propagation
-    let prevIsArticle = false;
-    let prevArticleColor = null;
-    let prevArticleColorDk = null;
+    // Simple tokenizer: split on whitespace, handle punctuation, look up in WORD_DB
+    const parts = text.split(/(\s+)/);
+    const spans = [];
 
-    return tokens.map((tok, ti) => {
-      // Whitespace — preserve article state across spaces
-      if (!tok.isTarget && (!tok.word || /^\s+$/.test(tok.word))) return <span key={ti}>{tok.word}</span>;
+    for (let i = 0; i < parts.length; i++) {
+      const raw = parts[i];
+      if (!raw) continue;
 
-      // Non-target text (English translations, punctuation)
-      // When grammar toggle ON: translations turn PURPLE
-      if (!tok.isTarget) {
-        prevIsArticle = false; prevArticleColor = null; prevArticleColorDk = null;
-        if (grammarHl && tok.word && !/^[\s.,!?;:'"()\-]+$/.test(tok.word)) {
-          return <span key={ti} style={{color:dk?"#A890FF":"#7B5EE8",fontWeight:600}}>{tok.word}</span>;
+      // Whitespace
+      if (/^\s+$/.test(raw)) { spans.push(<span key={i}>{raw}</span>); continue; }
+
+      // Strip trailing punctuation for lookup
+      const punctMatch = raw.match(/^(.+?)([.,!?;:'"»«\u00BB\u00AB\u201C\u201D\u2018\u2019\u00BF\u00A1)(\]]+)$/);
+      const cleanWord = punctMatch ? punctMatch[1] : raw;
+      const trailingPunct = punctMatch ? punctMatch[2] : "";
+
+      // Check if it's a target-language word
+      const isTarget = cfg.scriptRange.test(cleanWord);
+      if (!isTarget) {
+        // Non-target (English, punctuation)
+        // When grammar toggle ON: English translations turn PURPLE
+        if (grammarHl && cleanWord && !/^[\s.,!?;:'"()\-]+$/.test(cleanWord)) {
+          spans.push(<span key={i} style={{color:dk?"#A890FF":"#7B5EE8",fontWeight:600}}>{raw}</span>);
+        } else {
+          spans.push(<span key={i}>{raw}</span>);
         }
-        return <span key={ti}>{tok.word}</span>;
+        continue;
       }
 
-      // Track article state for gold detection + gender understripe
-      const afterArticle = prevIsArticle;
-      const genderColor = prevArticleColor;
-      const genderColorDk = prevArticleColorDk;
-      if (tok.isGrammar && (tok.grammarType === "article" || (tok.grammarType === "contraction" && tok.article))) {
-        prevIsArticle = true;
-        prevArticleColor = tok.grammarColor;
-        prevArticleColorDk = tok.grammarColorDk;
-      } else if (/^\s+$/.test(tok.word || "")) {
-        // keep state across whitespace
+      // Handle French-style prefix contractions (l', d', j', etc.)
+      const contractions = cfg.contractions || {};
+      const lower = cleanWord.toLowerCase();
+      let contractionPart = null;
+      let mainWord = cleanWord;
+      for (const cForm of Object.keys(contractions)) {
+        if (cForm.endsWith("'") && lower.startsWith(cForm) && cleanWord.length > cForm.length) {
+          contractionPart = cleanWord.slice(0, cForm.length);
+          mainWord = cleanWord.slice(cForm.length);
+          break;
+        }
+      }
+
+      // Render contraction prefix if present
+      if (contractionPart) {
+        const cEntry = dict[contractionPart.toLowerCase()];
+        const cColor = cEntry ? getPosColor(cEntry, dk) : null;
+        if (cColor && grammarHl) {
+          spans.push(<span key={i+"c"} style={{color:cColor,fontWeight:700,cursor:"pointer",transition:"all .1s"}}
+            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
+          >{contractionPart}</span>);
+        } else {
+          spans.push(<span key={i+"c"} style={{cursor:"pointer",borderBottom:dk?"1.5px dashed rgba(200,190,255,0.25)":"1.5px dashed rgba(112,80,216,0.2)",paddingBottom:1,borderRadius:2}}
+            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
+          >{contractionPart}</span>);
+        }
+      }
+
+      // Look up main word in WORD_DB
+      const wordKey = mainWord.toLowerCase();
+      const entry = dict[wordKey] || null;
+      const wordIsNew = isNewWord(wordKey, effectiveLang, lessonId);
+      const posColor = entry ? getPosColor(entry, dk) : null;
+      const genderUColor = (entry && entry.pos === "noun" && entry.gender) ? getGenderColor(entry, dk) : null;
+
+      // Build style based on state
+      let wordStyle = {};
+      let clickHandler = null;
+
+      // Click handler: opens popup/WordBubble
+      if (entry && entry.taught) {
+        // Taught word → open full WordBubble
+        clickHandler = (e) => {
+          e.stopPropagation();
+          setWordBubble({
+            key: wordKey, word: mainWord, stem: null, particle: null,
+            entry: {
+              base: entry.en,
+              morph: entry.note || null,
+              particle: entry.article ? entry.article + " " + entry.word : null,
+              uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
+              note: entry.cognate || null,
+              level: entry.level,
+            }
+          });
+        };
       } else {
-        prevIsArticle = false;
-        prevArticleColor = null;
-        prevArticleColorDk = null;
-      }
-
-      // Grammar markers (articles, prepositions, conjunctions, pronouns)
-      if (tok.isGrammar && grammarHl) {
-        const gColor = tok.grammarColor || (tok.grammarType === "article" ? "#4A8FE7" : "#2ECDA7");
-        const gColorDk = tok.grammarColorDk || gColor;
-        return <span key={ti} style={{
-          color: dk ? gColorDk : gColor,
-          fontWeight: 700,
-          cursor: "pointer",
-          borderBottom: "1.5px dashed " + (dk ? gColorDk : gColor) + "44",
-          paddingBottom: 1,
-          borderRadius: 3,
-          transition: "all .1s",
-        }} title={tok.grammarLabel || tok.grammarType}
-        onClick={(e) => {
+        // Untaught or unknown word → open mini popup
+        clickHandler = (e) => {
           e.stopPropagation();
           setMiniWordPopup({
-            word: tok.word,
-            en: tok.grammarLabel || tok.grammarType,
-            article: null,
-            level: null,
-            example: null,
-            exampleEn: null,
+            word: mainWord,
+            en: entry ? entry.en : null,
+            pos: entry ? entry.pos : null,
+            article: entry ? entry.article : null,
+            level: entry ? entry.level : null,
+            example: entry ? entry.example : null,
+            exampleEn: entry ? entry.exampleEn : null,
             lang: effectiveLang,
-            isGrammar: true,
-            grammarType: tok.grammarType,
+            isUnknown: !entry,
+            isNewWord: wordIsNew,
           });
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(168,144,255,0.12)" : "rgba(112,80,216,0.07)"; }}
-        onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-        >{tok.word}</span>;
+        };
       }
 
-      // Grammar words when toggle OFF → still clickable with subtle dashed underline
-      if (tok.isGrammar && !grammarHl) {
-        return <span key={ti} style={{
+      // ── NEW WORD GOLD BUBBLE (always shows, regardless of grammar toggle) ──
+      if (wordIsNew) {
+        wordStyle = {
+          color: dk ? "#F5C040" : "#E8960A",
+          fontWeight: 700,
+          cursor: "pointer",
+          background: dk ? "rgba(232,150,10,0.12)" : "rgba(232,150,10,0.08)",
+          border: dk ? "1.5px solid rgba(232,150,10,0.35)" : "1.5px solid rgba(232,150,10,0.3)",
+          borderRadius: 6,
+          padding: "1px 4px",
+          boxShadow: "0 1px 3px rgba(232,150,10,0.15)",
+          display: "inline-block",
+          transition: "all .1s",
+        };
+        // If grammar toggle ON and we have a POS color, use it instead of gold text
+        if (grammarHl && posColor) {
+          wordStyle.color = posColor;
+        }
+      }
+      // ── GRAMMAR TOGGLE ON: POS-based colors ──
+      else if (grammarHl && posColor) {
+        wordStyle = {
+          color: posColor,
+          fontWeight: 700,
+          cursor: "pointer",
+          borderBottom: "1.5px dashed " + posColor + "44",
+          paddingBottom: 1,
+          borderRadius: 3,
+          display: "inline",
+          transition: "all .1s",
+        };
+        // Nouns get gender understripe instead of POS dashed border
+        if (entry && entry.pos === "noun" && genderUColor) {
+          wordStyle.color = dk ? "rgba(240,234,255,0.95)" : "var(--gray-800)"; // nouns use default text
+          wordStyle.borderBottom = "2.5px solid " + genderUColor;
+        }
+      }
+      // ── GRAMMAR TOGGLE OFF: default appearance, clickable ──
+      else {
+        wordStyle = {
           cursor: "pointer",
           borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.25)" : "1.5px dashed rgba(112,80,216,0.2)",
           paddingBottom: 1,
-          transition: "all .1s",
           borderRadius: 2,
-        }}
-        onClick={(e) => {
-          e.stopPropagation();
-          setMiniWordPopup({
-            word: tok.word,
-            en: tok.grammarLabel || tok.grammarType,
-            article: null, level: null, example: null, exampleEn: null,
-            lang: effectiveLang, isGrammar: true, grammarType: tok.grammarType,
-          });
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(168,144,255,0.08)" : "rgba(112,80,216,0.05)"; }}
-        onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-        >{tok.word}</span>;
-      }
-
-      // Word in dictionary → purple, dashed underline, clickable (opens WordBubble)
-      // If following article with grammarHl ON, add gender color understripe
-      if (tok.inDict) {
-        const entry = dict[tok.key];
-        const hasGenderStripe = afterArticle && grammarHl && genderColor;
-        const underColor = hasGenderStripe ? (dk ? genderColorDk : genderColor) : null;
-        return <span key={ti}
-          onClick={(e) => {
-            e.stopPropagation();
-            setWordBubble({
-              key: tok.key, word: tok.word, stem: null, particle: null,
-              entry: {
-                base: entry.en,
-                morph: entry.note || null,
-                particle: entry.article ? entry.article + " " + entry.word : null,
-                uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
-                note: entry.cognate || null,
-                level: entry.level,
-              }
-            });
-          }}
-          style={{
-            color: grammarHl ? (dk ? "rgba(240,234,255,0.95)" : "var(--gray-800)") : "var(--purple-accent-text)",
-            fontWeight: 700,
-            cursor: "pointer",
-            borderBottom: hasGenderStripe
-              ? "2.5px solid " + underColor
-              : (dk ? "1.5px dashed rgba(200,190,255,0.5)" : "1.5px dashed rgba(112,80,216,0.4)"),
-            paddingBottom: 1,
-            transition: "all .1s",
-            borderRadius: 2,
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(168,144,255,0.12)" : "rgba(112,80,216,0.07)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-        >{tok.word}</span>;
-      }
-
-      // Unknown word after article → likely noun → GOLD highlight + gender understripe, clickable
-      if (afterArticle) {
-        const hasGenderStripe = grammarHl && genderColor;
-        const underColor = hasGenderStripe ? (dk ? genderColorDk : genderColor) : null;
-        return <span key={ti}
-          onClick={(e) => {
-            e.stopPropagation();
-            setMiniWordPopup({
-              word: tok.word,
-              en: null,
-              article: null,
-              level: null,
-              example: null,
-              exampleEn: null,
-              lang: effectiveLang,
-              isUnknown: true,
-            });
-          }}
-          style={{
-            color: dk ? "#F5C040" : "#E8960A",
-            fontWeight: 700,
-            cursor: "pointer",
-            borderBottom: hasGenderStripe
-              ? "2.5px solid " + underColor
-              : (dk ? "1.5px solid rgba(245,192,64,0.5)" : "1.5px solid rgba(232,150,10,0.4)"),
-            paddingBottom: 1,
-            transition: "all .1s",
-            borderRadius: 2,
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(232,150,10,0.12)" : "rgba(232,150,10,0.07)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-        >{tok.word}</span>;
-      }
-
-      // All other target-language words → dashed underline, clickable (basic popup)
-      return <span key={ti}
-        onClick={(e) => {
-          e.stopPropagation();
-          setMiniWordPopup({
-            word: tok.word,
-            en: null,
-            article: null,
-            level: null,
-            example: null,
-            exampleEn: null,
-            lang: effectiveLang,
-            isUnknown: true,
-          });
-        }}
-        style={{
-          cursor: "pointer",
-          borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.3)" : "1.5px dashed rgba(112,80,216,0.25)",
-          paddingBottom: 1,
+          display: "inline",
           transition: "all .1s",
-          borderRadius: 2,
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.background = dk ? "rgba(168,144,255,0.08)" : "rgba(112,80,216,0.05)"; }}
-        onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-      >{tok.word}</span>;
-    });
+        };
+        // Taught words get slightly bolder
+        if (entry && entry.taught) {
+          wordStyle.fontWeight = 600;
+        }
+      }
+
+      spans.push(
+        <span key={contractionPart ? i+"w" : i}
+          onClick={clickHandler}
+          style={wordStyle}
+          onMouseEnter={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.2)":"rgba(232,150,10,0.12)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.12)":"rgba(232,150,10,0.08)") : "transparent"; }}
+        >{mainWord}</span>
+      );
+
+      // Trailing punctuation
+      if (trailingPunct) {
+        spans.push(<span key={i+"p"}>{trailingPunct}</span>);
+      }
+    }
+
+    return <>{spans}</>;
   };
 
   // ── MiniWordPopup — compact popup for gold-highlighted untaught nouns ──
@@ -11690,41 +11678,42 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           fontSize:18,color:dk?"rgba(200,184,255,0.45)":"rgba(112,80,216,0.3)",
         }}>✕</button>
 
-        {/* Type badge (grammar type or article) */}
-        {miniWordPopup.isGrammar ? (
-          <span style={{
-            display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
-            background:"linear-gradient(135deg,#7B5EE8,#6341C7)",
-            color:"white",borderRadius:8,padding:"2px 10px",marginBottom:8,
-            boxShadow:"0 2px 8px rgba(123,94,232,0.3)",
-          }}>{miniWordPopup.grammarType || "grammar"}</span>
-        ) : miniWordPopup.article ? (() => {
-          const sys = ARTICLE_SYSTEMS[miniWordPopup.lang];
-          const artColor = sys?.colors?.[miniWordPopup.article];
+        {/* Type badge — POS from WORD_DB */}
+        {(() => {
+          const pos = miniWordPopup.pos || miniWordPopup.grammarType || (miniWordPopup.isUnknown ? "unknown" : null);
+          if (!pos) return null;
+          const posColors = POS_COLORS[pos] || POS_COLORS["unknown"];
+          const badgeColor = (dk ? posColors?.dark : posColors?.light) || "#7B5EE8";
+          const label = pos.replace(/_/g," ").replace(/^article [mfnc]$/, (m) => {
+            const g = m.split(" ")[1];
+            return g==="m"?"article (masc)":g==="f"?"article (fem)":g==="n"?"article (neut)":g==="c"?"article (common)":"article";
+          });
           return <span style={{
             display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
-            background:artColor?.bg||"linear-gradient(135deg,#E8960A,#D4880C)",
-            color:"white",borderRadius:8,padding:"2px 10px",marginBottom:8,
-            boxShadow:"0 2px 8px "+(artColor?.shadow||"rgba(232,150,10,0.3)"),
-          }}>{miniWordPopup.article}</span>;
-        })() : miniWordPopup.isUnknown ? (
-          <span style={{
-            display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
-            background:dk?"rgba(200,190,255,0.15)":"rgba(112,80,216,0.1)",
-            color:dk?"rgba(200,190,255,0.7)":"rgba(112,80,216,0.6)",
-            borderRadius:8,padding:"2px 10px",marginBottom:8,
-            border:dk?"1px solid rgba(200,190,255,0.2)":"1px solid rgba(112,80,216,0.15)",
-          }}>word</span>
-        ) : null}
+            background:dk?badgeColor+"22":badgeColor+"18",
+            color:badgeColor,borderRadius:8,padding:"2px 10px",marginBottom:8,
+            border:"1px solid "+badgeColor+"44",
+          }}>{label}</span>;
+        })()}
+        {/* New word indicator */}
+        {miniWordPopup.isNewWord && <span style={{
+          display:"inline-block",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.5,
+          background:dk?"rgba(232,150,10,0.15)":"rgba(232,150,10,0.1)",
+          color:dk?"#F5C040":"#E8960A",borderRadius:8,padding:"2px 10px",marginBottom:8,marginLeft:6,
+          border:dk?"1px solid rgba(232,150,10,0.3)":"1px solid rgba(232,150,10,0.2)",
+        }}>new word</span>}
 
         {/* Word */}
         <div style={{
           fontSize:36,fontWeight:900,lineHeight:1.1,
-          color: miniWordPopup.isGrammar
-            ? (dk?"#A890FF":"#7B5EE8")
-            : miniWordPopup.isUnknown
-              ? (dk?"#F5C040":"#E8960A")
-              : (dk?"#F5C040":"#E8960A"),
+          color: (() => {
+            const pos = miniWordPopup.pos || miniWordPopup.grammarType;
+            if (pos) {
+              const pc = POS_COLORS[pos];
+              if (pc) return dk ? pc.dark : pc.light;
+            }
+            return dk ? "#F5C040" : "#E8960A";
+          })(),
           marginBottom:4,
         }}>{miniWordPopup.word}</div>
 
@@ -11765,7 +11754,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           marginTop:14,textAlign:"center",fontSize:11,fontWeight:700,
           color:dk?"rgba(200,190,255,0.4)":"rgba(112,80,216,0.35)",
           letterSpacing:1,textTransform:"uppercase",
-        }}>{miniWordPopup.isGrammar ? "Grammar word" : miniWordPopup.isUnknown ? "Tap to learn more" : "New vocabulary"}</div>
+        }}>{miniWordPopup.isNewWord ? "New word" : miniWordPopup.isUnknown ? "Not yet in dictionary" : miniWordPopup.en ? "Tap for full entry" : "Dictionary entry"}</div>
       </div>
     </div>
   ) : null;
