@@ -115,26 +115,23 @@ text → split on whitespace → for each word:
 
 ## Build Phases
 
-### Phase B1: Function Word Lists (THIS SESSION)
-Create `src/data/wordlists/function-words-{de,fr,nl,es,ko}.js`
-~200-500 entries each with full POS tags.
+### Phase B1: Function Word Lists — COMPLETE
+Created `src/data/wordlists/function-words-{de,fr,nl,es,ko}.js`. ~200-500 entries each with full POS tags.
 
-### Phase B2: Enhanced Dictionary Builder
-Rewrite `dictionary.js` → merge 3 sources into WORD_DB.
-Build WORD_INTRO_MAP.
+### Phase B2: Enhanced Dictionary Builder — COMPLETE
+Rewrote `dictionary.js` with 3-source merge into WORD_DB. Built WORD_INTRO_MAP. Exports: `WORD_DB`, `WORD_INTRO_MAP`, `lookupWord`, `isNewWord`, `getTaughtWords`.
 
-### Phase B3: universalHl() Rewrite
-POS-based coloring from WORD_DB. Remove context-free guessing.
-Gold bubble for new words. Gender understripes.
+### Phase B3: universalHl() Rewrite — COMPLETE
+POS-based coloring from WORD_DB. Gold bubble for new words. Gender understripes for nouns. All 5 languages supported.
 
-### Phase B4: Toggle & Settings UI
-Aa + gear. Filter checkboxes. Presets. localStorage persistence.
+### Phase B4: Toggle & Settings UI — V1 COMPLETE (2026-03-19)
+Language-specific `GRAMMAR_SETTINGS` config per language. Per-language `grammarFilters` with localStorage persistence (`vl_grammar_filters_v2`). Mobile bottom sheet + desktop floating panel. Preset buttons. Color legend. See `docs/SETTINGS_PANEL_HANDOFF.md` for V1 details and V2 gaps.
 
-### Phase B5: Popup Redesign
+### Phase B5: Popup Redesign — NOT STARTED
 BottomSheet (mobile) / Modal (desktop). Tabbed WordBubble. Fix peekhole.
 
-### Phase B6: Color Legend
-Info icon showing color meanings per language.
+### Phase B6: Color Legend — COMPLETE (2026-03-19)
+"?" button on settings panel showing color meanings. Built as part of Phase B4.
 
 ## Files
 

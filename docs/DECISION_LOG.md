@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D115 | Settings Panel Redesign V1: Language-Specific Grammar Filters | Engine/UI/Architecture | All |
 | D114 | Platform Rehaul Vision + Docs Update | Architecture/Vision | All |
 | D113 | CEFR Tab Grouping Bug Fix + units-spanish.js Syntax Fixes | Engine Fix | All |
 | D112 | Certification-Grade Vocabulary & Grammar Audit Mandate | Architecture/Pipeline/Audit | All |
@@ -138,7 +139,7 @@ D3, D6, D24, D34b, D40, D67, D79, D90, D91
 D7, D16, D17, D19, D45, D52, D56
 
 ### UI / Visual Design
-D10, D11, D13, D15, D18, D20, D21, D22, D31, D35a-h, D36, D38, D42, D47, D53, D60, D61
+D10, D11, D13, D15, D18, D20, D21, D22, D31, D35a-h, D36, D38, D42, D47, D53, D60, D61, D115
 
 ### Dark Mode
 D32, D37
@@ -176,6 +177,9 @@ D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
 ### Content Enrichment Workflow
 D100, D105, D108
 
+### Settings Panel / Grammar Visualization
+D115
+
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85, D110
 
@@ -206,6 +210,7 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D108**: Spanish A1-B2 Complete Build (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D109**: Cross-Language Audit (March 2026), retroactively INCOMPLETE per D110. Defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D110**: CEFR Distribution Audit + Anti-Cramming Doctrine (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D115**: Settings Panel Redesign V1 (March 2026), defined in `CLAUDE.md`, `DECISION_LOG.md`, and `docs/SETTINGS_PANEL_HANDOFF.md`
 
 ---
 
@@ -714,6 +719,55 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 - Next session: B2 vocabulary expansion or grammar completeness verification
 
 **Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
+
+---
+
+## D115: Settings Panel Redesign V1 (2026-03-19)
+
+**Rehaul Step 3** (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 5). Language-specific grammar filter settings panel with VerumLingua candy gloss aesthetic.
+
+### What Was Built
+
+**Data layer (`src/data/dictionary.js`):**
+- `GRAMMAR_SETTINGS` export: per-language config (de, ko, nl, fr, es) with groups, items, posKeys, colors, darkColors, presets
+- `getDefaultFilters(lang)`: returns all-ON filter object for a language
+- `buildPosFilterMap(lang)`: maps POS keys to filter IDs for universalHl lookup
+- `getFilterColor(lang, filterId, isDark)`: color lookup for settings panel dots
+
+**Engine (`src/lingoverse.jsx`):**
+- `allGrammarFilters` state: per-language object stored in localStorage `vl_grammar_filters_v2`
+- `grammarFilters` memo: current language's filters with defaults fallback
+- `langPosFilterMap` memo: from `buildPosFilterMap(effectiveLang)`
+- Language-specific settings panel with grouped toggles, color dots, presets, color legend
+- Mobile bottom sheet: fixed position, backdrop blur overlay, drag handle, tap-outside-to-close
+- Desktop floating panel below gear icon
+- `universalHl()` updated: uses `langPosFilterMap` instead of hardcoded `posFilterMap`
+- All stale `grammarFilters.gender`/`.nouns`/`.newWords` references updated
+
+### Language-Specific Categories
+
+| Language | Article/Gender Group | Special Groups | Standard Groups |
+|----------|---------------------|----------------|-----------------|
+| German | der(blue)/die(coral)/das(purple)/ein(gray) + 4 cases (Nom/Akk/Dat/Gen) | None | nouns, verbs, adj, adv, prep, conj, pron, numbers |
+| Korean | None | 7 particle types (topic/subject/object/location/direction/instrumental/possessive) | verbs, adj, numbers, negation, question |
+| Dutch | de(blue)/het(gold) | None | nouns, verbs, adj, adv, prep, conj, pron, numbers |
+| French | le(blue)/la(coral)/les(indigo) | None | nouns, verbs, adj, adv, prep, conj, pron, numbers |
+| Spanish | el(blue)/la(coral)/los-las(indigo) | None | nouns, verbs, adj, adv, prep, conj, pron, numbers |
+
+### Design Decisions
+- New localStorage key `vl_grammar_filters_v2` avoids parsing errors from old flat format
+- German case toggles have empty `posKeys: []` (case detection requires syntactic parsing, deferred)
+- Korean `koreanHl()` has separate particle coloring that does NOT yet check grammarFilters (deferred)
+- VerumLingua candy gloss styling: gradient backgrounds, glow shadows, glass effect on dark mode
+- Color legend accessible via "?" button on panel header
+
+### Known Gaps (V2 scope)
+1. Korean honorific levels (requires morphological analysis of verb endings)
+2. German case posKeys (requires syntactic parsing)
+3. Understripe function dropdown (needs CSS prototyping)
+4. Bold/dotted underline/italics visual controls
+5. Full settings page in profile section
+6. Korean `koreanHl()` integration with grammarFilters
 
 ---
 
