@@ -1,12 +1,14 @@
-# LINGOVERSE MASTER BIBLE
+# VERUMLINGUA MASTER BIBLE
 ## Vision · Pipeline · Language Standards · Agent Rules
-## Version 3.0 | 2026-03-17 | D112 Certification-Grade Standards Added (P55-P58)
+## Version 4.0 | 2026-03-19 | Platform Rehaul Vision Added (D114)
 
 ---
 
 # ⚠️ READ THIS FIRST — FOR ALL AI AGENTS
 
-This document is the single source of truth for LingoVerse. Before touching any file, any language, any lesson — read this document. Every section exists because a mistake was made, caught, and codified. The pipeline rules are not aesthetic preferences. They are scars.
+> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (2-bubble dialogues), story system, settings panel, vocab page, and curriculum structure. When this Bible and the vision doc conflict on card format, lesson types, or UI design, **the vision doc wins**.
+
+This document is the single source of truth for VerumLingua's philosophy, language standards, and pipeline rules. Before touching any file, any language, any lesson — read this document. Every section exists because a mistake was made, caught, and codified. The pipeline rules are not aesthetic preferences. They are scars.
 
 **The most important rule in this entire document:**
 > Every language is its own entity. It must be built to its own official standards, with its own reference materials, treated with the respect its complexity demands. Never copy-paste pedagogy from one language to another. Never assume what works for Dutch works for Korean. Never assume what works for Korean works for Arabic.
@@ -15,9 +17,9 @@ This document is the single source of truth for LingoVerse. Before touching any 
 
 # PART 1: THE VISION
 
-## What LingoVerse Is
+## What VerumLingua Is
 
-LingoVerse is a polyglot-built, pedagogy-first language learning platform. It is designed by someone who speaks multiple European and Asian languages and has encoded that lived acquisition experience into curriculum architecture.
+VerumLingua (formerly LingoVerse) is a polyglot-built, pedagogy-first language learning platform. It is designed by someone who speaks multiple European and Asian languages and has encoded that lived acquisition experience into curriculum architecture.
 
 The product teaches the **system** of a language, not the surface. A learner who completes a LingoVerse course can **generate** sentences they have never seen — not just recall ones they have memorized. This is the fundamental difference between this product and every phrase-first app.
 

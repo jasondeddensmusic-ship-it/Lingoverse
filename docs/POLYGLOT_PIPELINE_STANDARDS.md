@@ -1,6 +1,8 @@
-# LINGOVERSE — POLYGLOT VISION & PIPELINE STANDARDS
+# VERUMLINGUA — POLYGLOT VISION & PIPELINE STANDARDS
 ## For All Languages · All Agents · All Sessions
-## Version 4.0 | 2026-03-17 | D112: Certification-Grade Standards + P55-P58 + Pillars 7-10
+## Version 5.0 | 2026-03-19 | Platform Rehaul Vision (D114) + D112 Standards
+
+> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (2-bubble dialogues + fun info), new lesson types (vocab, story, grammar, quiz, review), interleaved lesson flow, and language-specific settings. When this document and the vision doc conflict, **the vision doc wins**.
 
 ---
 
@@ -8,7 +10,7 @@
 
 ## What This Platform Is Actually Doing
 
-Most language apps teach you to repeat phrases until they stick. LingoVerse does something different: it teaches you how the language **thinks**, so you can generate language you have never seen before.
+Most language apps teach you to repeat phrases until they stick. VerumLingua does something different: it teaches you how the language **thinks**, so you can generate language you have never seen before.
 
 The founder is a polyglot with multiple European and Asian languages. This curriculum encodes that lived experience. **The faster you internalize the underlying system, the faster you stop memorizing and start generating.**
 
@@ -28,7 +30,7 @@ This is how experienced language learners actually acquire:
 5. GENERATION   → Learner produces forms never seen before
 ```
 
-The P26 spiral replicates this. Steps 1–3 happen across multiple units. Step 4 is the harvest lesson. Step 5 is what sets LingoVerse learners apart from phrase-app learners.
+The P26 spiral replicates this. Steps 1–3 happen across multiple units. Step 4 is the harvest lesson. Step 5 is what sets VerumLingua learners apart from phrase-app learners.
 
 **The failure mode to avoid:** Jumping from Step 1 directly to Step 4. Naming grammar before it has been felt. This produces learners who know the rule but can't use it. This is what textbooks do. This is what we do not do.
 
@@ -308,13 +310,15 @@ Rules:
 ```
 Goals: 3 items, each a concrete thing learner will be able to do.
 
-### teach steps
+### teach steps (CURRENT format — will change per rehaul vision)
 ```javascript
 {type:"teach", nl:"[target word/phrase]", en:"[English]", phonetic:"[romanization or IPA]",
  example:"[Target language sentence]", exampleEn:"[English translation]",
  note:"[Structured note — see D58]"}
 ```
 Required fields: nl, en, example, exampleEn, note. Phonetic: required for A1-A2, optional A2+ (based on language romanization phase-out rules).
+
+> **REHAUL NOTE (2026-03-19)**: The new card format (vision doc Section 2) changes `example`/`exampleEn` to a 2-bubble dialogue (A: sender, B: receiver, exactly 2 lines). A "fun info" section (etymology, cultural note, or memory hook) is MANDATORY on every card. The `nl`/`en` fields will be renamed to `target`/`source`. See `docs/VERUMLINGUA_REHAUL_VISION.md` Section 2 for the complete spec.
 
 ### tip steps
 ```javascript
