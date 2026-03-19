@@ -7898,7 +7898,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         return aW.localeCompare(bW);
       });
     }
-    return pool.slice(0,200);
+    return pool;
   },[allWords,search,filterPOS,filterLevel,filterGender,filterTaughtOnly]);
 
   // ── Browse: available letters (A-Z and language-specific like umlauts) ──
@@ -7949,14 +7949,15 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const chevronL=<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{marginRight:3,verticalAlign:"middle"}}><polyline points="7,1 3,5 7,9"/></svg>;
   const chevronR=<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:3,verticalAlign:"middle"}}><polyline points="3,1 7,5 3,9"/></svg>;
 
+  // Maximum candy gloss tab style — matches btn-purple / candyBtn standard
   const tabStyle=(isActive)=>({
-    display:"inline-flex",alignItems:"center",gap:6,padding:isMobile?"10px 16px":"10px 22px",borderRadius:16,
-    fontSize:12,fontWeight:800,cursor:"pointer",transition:"all .25s",border:"none",fontFamily:"inherit",
-    position:"relative",overflow:"hidden",letterSpacing:0.3,
-    background:isActive?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
-    color:isActive?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
-    textShadow:isActive?"0 1px 2px rgba(0,0,0,0.2)":"none",
-    boxShadow:isActive?(dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"):(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+    display:"inline-flex",alignItems:"center",gap:6,padding:isMobile?"12px 20px":"12px 26px",borderRadius:18,
+    fontSize:13,fontWeight:900,cursor:"pointer",transition:"all .3s cubic-bezier(.4,0,.2,1)",border:"none",fontFamily:"Quicksand, sans-serif",
+    position:"relative",overflow:"hidden",letterSpacing:0.4,
+    background:isActive?(dk?"linear-gradient(180deg,#E8DEFF 0%,#D4C8FF 4%,#C0AEF8 10%,#A488F0 22%,#8B6AE4 38%,#7B5EE8 52%,#6F4FD8 62%,#6545C8 72%,#5840B8 84%,#4A2BA6 92%,#3D1F8C 100%)":"linear-gradient(180deg,#DDD0FF 0%,#C8BAFF 6%,#B8A8FA 14%,#A488F0 24%,#9B7AE8 34%,#7B5EE8 52%,#6F4FD8 64%,#6545C8 76%,#5840B8 88%,#4A2BA6 96%,#3D1F8C 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)"),
+    color:isActive?"white":(dk?"rgba(200,184,255,0.95)":"#6030C0"),
+    textShadow:isActive?"0 1px 3px rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.15)":"none",
+    boxShadow:isActive?(dk?"0 0 24px rgba(123,94,232,0.6), 0 6px 20px rgba(85,53,181,0.55), 0 2px 6px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -4px 0 rgba(0,0,0,0.22)":"0 0 20px rgba(123,94,232,0.5), 0 6px 20px rgba(123,94,232,0.4), 0 2px 6px rgba(0,0,0,0.12), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.18)"):(dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), 0 1px 3px rgba(0,0,0,0.06), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"),
   });
 
   // ── Compound bubble style — matches Korean compound word / dialogue bubbles exactly ──
@@ -8108,8 +8109,11 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       {/* ── Mode tabs ── */}
       <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:20,flexWrap:"wrap"}}>
         {[{id:"search",label:"Search"},{id:"browse",label:"Browse"},{id:"review",label:"Review"}].map(tab=>(
-          <button key={tab.id} onClick={()=>{setMode(tab.id);setExpanded(null);setBrowsePath([]);}} style={tabStyle(mode===tab.id)}>
-            <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:mode===tab.id?"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+          <button key={tab.id} onClick={()=>{setMode(tab.id);setExpanded(null);setBrowsePath([]);}}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow=mode===tab.id?"0 0 32px rgba(123,94,232,0.7), 0 8px 24px rgba(85,53,181,0.6), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)":"0 0 20px rgba(123,94,232,0.3), 0 6px 18px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.9), inset 0 -3px 0 rgba(0,0,0,0.08)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
+            style={tabStyle(mode===tab.id)}>
+            <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:mode===tab.id?"linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.25) 35%, rgba(255,255,255,0.05) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
             <span style={{position:"relative",zIndex:1}}>{tab.label}</span>
           </button>
         ))}
@@ -8132,22 +8136,25 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         {/* Filter bar + count */}
         <div style={{display:"flex",gap:8,marginBottom:14,alignItems:"center"}}>
           <button onClick={()=>setFilterOpen(p=>!p)}
-            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.filter="brightness(1.1)";}}
-            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow="0 0 28px rgba(123,94,232,0.6), 0 8px 22px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
             style={{
-              padding:"7px 16px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:800,transition:"all .25s",position:"relative",overflow:"hidden",
-              background:filterOpen||hasActiveFilters?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
-              color:filterOpen||hasActiveFilters?"white":(dk?"rgba(200,184,255,0.7)":"#7050D8"),
-              textShadow:filterOpen||hasActiveFilters?"0 1px 2px rgba(0,0,0,0.2)":"none",
-              boxShadow:filterOpen||hasActiveFilters?"0 4px 14px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)":(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+              padding:"8px 18px",borderRadius:16,border:"none",cursor:"pointer",fontFamily:"Quicksand, sans-serif",fontSize:12,fontWeight:900,transition:"all .3s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden",letterSpacing:0.3,
+              background:filterOpen||hasActiveFilters?(dk?"linear-gradient(180deg,#E8DEFF 0%,#D4C8FF 4%,#C0AEF8 10%,#A488F0 22%,#8B6AE4 38%,#7B5EE8 52%,#6545C8 72%,#5840B8 88%,#4A2BA6 100%)":"linear-gradient(180deg,#DDD0FF 0%,#C8BAFF 6%,#B8A8FA 14%,#9B7AE8 30%,#7B5EE8 52%,#6545C8 76%,#5840B8 90%,#4A2BA6 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)"),
+              color:filterOpen||hasActiveFilters?"white":(dk?"rgba(200,184,255,0.95)":"#6030C0"),
+              textShadow:filterOpen||hasActiveFilters?"0 1px 3px rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.15)":"none",
+              boxShadow:filterOpen||hasActiveFilters?(dk?"0 0 24px rgba(123,94,232,0.6), 0 6px 20px rgba(85,53,181,0.55), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -4px 0 rgba(0,0,0,0.22)":"0 0 20px rgba(123,94,232,0.5), 0 6px 20px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.18)"):(dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"),
             }}>
-            <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:filterOpen||hasActiveFilters?"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 40%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+            <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:filterOpen||hasActiveFilters?"linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.25) 35%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
             <span style={{position:"relative",zIndex:1}}>Filters {hasActiveFilters?"*":""}</span>
           </button>
           {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}}
-            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06)";e.currentTarget.style.background=dk?"linear-gradient(180deg,#FF6B6B 0%,#F56565 50%,#D04444 100%)":"linear-gradient(180deg,#FF8080 0%,#F56565 50%,#D04444 100%)";e.currentTarget.style.color="white";e.currentTarget.style.boxShadow="0 3px 10px rgba(245,101,101,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)";e.currentTarget.style.textShadow="0 1px 2px rgba(0,0,0,0.2)";}}
-            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.background=dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)";e.currentTarget.style.color=dk?"rgba(200,184,255,0.7)":"#6040C0";e.currentTarget.style.boxShadow=dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)";e.currentTarget.style.textShadow="none";}}
-            style={{padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontSize:10,fontWeight:800,fontFamily:"inherit",transition:"all .25s",position:"relative",overflow:"hidden",background:dk?"rgba(255,255,255,0.1)":"rgba(255,255,255,0.65)",color:dk?"rgba(200,184,255,0.7)":"#6040C0",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 4px rgba(0,0,0,0.15)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(112,80,216,0.08)"}}>Clear all</button>}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.background=dk?"linear-gradient(180deg,#FFB0B0 0%,#FF8888 8%,#FF6B6B 20%,#F56565 38%,#E04848 55%,#D04444 72%,#B83333 88%,#A02828 100%)":"linear-gradient(180deg,#FFA8A8 0%,#FF8888 10%,#FF6B6B 22%,#F56565 40%,#E04848 58%,#D04444 75%,#B83333 90%,#A02828 100%)";e.currentTarget.style.color="white";e.currentTarget.style.boxShadow="0 0 24px rgba(245,101,101,0.55), 0 6px 20px rgba(220,60,60,0.45), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";e.currentTarget.style.textShadow="0 1px 3px rgba(0,0,0,0.3), 0 0 8px rgba(255,255,255,0.15)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.background=dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)";e.currentTarget.style.color=dk?"rgba(200,184,255,0.95)":"#6030C0";e.currentTarget.style.boxShadow=dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)";e.currentTarget.style.textShadow="none";}}
+            style={{padding:"8px 18px",borderRadius:16,border:"none",cursor:"pointer",fontSize:11,fontWeight:900,fontFamily:"Quicksand, sans-serif",transition:"all .3s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden",letterSpacing:0.3,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)",color:dk?"rgba(200,184,255,0.95)":"#6030C0",boxShadow:dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"}}>
+            <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
+            <span style={{position:"relative",zIndex:1}}>Clear all</span>
+          </button>}
           <span style={{flex:1}}/>
           <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
         </div>
