@@ -145,7 +145,7 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 | `intro` | Lesson intro | title, desc, goals[] |
 | `teach` | Word/concept card | nl, en, phonetic, example, exampleEn, note, kind, cognate, also, fRef, diagram, hanja |
 | `tip` | Grammar/culture card | title, text, deepDive |
-| `verb_table` | Conjugation grid | title, label, groups[], note, deepDive |
+| `verb_table` | Conjugation grid | title, label, groups[], note, deepDive. Groups support 3 row formats: `rows:[{pronoun,form,en}]` (preferred), `rows:[["pronoun","form","en?"]]` (array-of-arrays), `forms:["string"]` (simple list). Renderer normalizes all. Groups may use `label` or `header`. |
 | `mc` | Multiple choice | q, opts[], ans, hint |
 | `fb` | Fill-in-blank | s, a, opts[], hint |
 | `match` | Matching pairs | pairs: [{nl, en}] |
@@ -1125,6 +1125,8 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (deu17l8b, 23), media (deu18l8b, 22), abstract (deu19l8b, 23), legal (deu20l8b, 23), feelings (deu23l8b, 24), workplace (deu24l8b, 25). 258 lessons total. Total teach cards: ~1,297+.
 
+**verb_table crash fix (2026-03-19)**: 28 German verb_tables used array-of-arrays row format instead of object format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
+
 **German needs D111 audit.** CEFR distribution flagged (D110): 8-8-7-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
@@ -1180,6 +1182,8 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (esp17l8b, 23), abstract (esp19l8b, 23), legal (esp20l8b, 23), media (esp21l8b, 22), feelings (esp23l8b, 23), workplace (esp24l8b, 25). 257 lessons total. Total teach cards: ~1,062+.
 
 **D113 BUG FIXES (2026-03-17)**: Two syntax errors fixed: esp20l8b and esp24l8b were inserted after their unit's closing `]}` instead of inside the lessons array. Also fixed: CEFR tab grouping bug where all sub-levels beyond .2 (B1.3, A2.4, etc.) were falling back to A1 tab due to getCefrInfo() missing a band-prefix fallback. Both bugs affected production. See D113 in DECISION_LOG.md.
+
+**verb_table crash fix (2026-03-19)**: 31 Spanish verb_tables used array-of-arrays row format + 1 used forms[] format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES — PLATFORM REHAUL (2026-03-19)
