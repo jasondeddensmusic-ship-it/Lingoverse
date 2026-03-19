@@ -1,12 +1,10 @@
 # Universal Word Dictionary & Grammar Color System — Complete Redesign
 
-> **SUPERSEDED (2026-03-19)**: This document is superseded by `docs/VERUMLINGUA_REHAUL_VISION.md` (D114). The Phase 1 dictionary code (gold bubbles, universalHl, MiniWordPopup) is live but buggy. The complete platform rehaul vision defines the new dictionary, color system, settings panel, and card format. Refer to the vision doc for all future work.
+> **PARTIALLY SUPERSEDED (2026-03-19)**: The UI/UX portions of this plan (gold bubble treatment, MiniWordPopup, generic settings panel) are superseded by `docs/VERUMLINGUA_REHAUL_VISION.md` (D114). However, the **technical infrastructure** (WORD_DB architecture, function word lists, WORD_INTRO_MAP, dictionary builder merge logic, universalHl rewrite to lookup-based) is still the active build spec. The vision doc defines WHAT the experience should be; this doc defines HOW to build the dictionary engine underneath it.
 >
-> This document is kept for historical reference. Do NOT use it as a build spec.
->
-> **Previous status**: Phase 1 code on main has bugs. Phase 2 was planned but superseded by broader rehaul.
+> **Phase 1 code on main**: Live but buggy. Gold highlights on wrong words, crashes on word click, popup peekhole.
 > **Previous commit**: `38089bd` on main (partial fixes, still broken).
-> **Plan file**: `.claude/plans/serialized-giggling-dongarra.md` (also superseded)
+> **Plan file**: `.claude/plans/serialized-giggling-dongarra.md`
 
 ## Why Redesign Was Needed
 

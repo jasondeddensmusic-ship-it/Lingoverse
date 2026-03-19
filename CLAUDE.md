@@ -654,8 +654,8 @@ Every session should understand what each doc does and which ones are authoritat
 ### Tier 3: Active build reference (current work in progress)
 - **`docs/FULL_AUDIT_HANDOFF.md`** — Full curriculum audit handoff for all 5 languages. CEFR coverage, pipeline compliance, polyglot vision verification. Use this to continue the audit in a new session.
 
-### Superseded (still on disk, referenced by vision doc)
-- **`docs/UNIVERSAL_DICTIONARY_PLAN.md`** — Phase 1 dictionary plan. SUPERSEDED by `VERUMLINGUA_REHAUL_VISION.md`. The Phase 1 code (gold bubbles, universalHl, MiniWordPopup) is live but buggy and scheduled for complete rewrite per the vision doc.
+### Partially superseded (technical spec still active)
+- **`docs/UNIVERSAL_DICTIONARY_PLAN.md`** — Dictionary technical infrastructure plan. UI/UX portions (gold bubbles, MiniWordPopup, generic settings) superseded by vision doc. Technical infrastructure (WORD_DB, function word lists, WORD_INTRO_MAP, universalHl rewrite) is still the active build spec.
 
 ### Deleted (March 2026 cleanup)
 All completed build docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
