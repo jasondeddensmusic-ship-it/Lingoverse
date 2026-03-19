@@ -1,8 +1,10 @@
 # Settings Panel Redesign — Session Handoff
 
-> **Rehaul Step 2** (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 5)
-> Previous step: D114 docs update (COMPLETE)
-> Next step after this: Vocab page redesign (Step 3)
+> **Rehaul Step 3** (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 5)
+> Step 1: D114 docs update (COMPLETE)
+> Step 2: Download complete CEFR word lists for all 5 languages (foundation for dictionary + curriculum)
+> **This step**: Language-specific settings panel redesign
+> Next step after this: Vocab page redesign (Step 4)
 
 ---
 

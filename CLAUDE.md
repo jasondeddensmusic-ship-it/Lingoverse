@@ -572,17 +572,19 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 
 ### Platform Rehaul (ACTIVE — 2026-03-19)
 The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8:
-1. **Update CLAUDE.md and all docs** to match the vision (D114 — THIS SESSION)
-2. **Language-specific settings panel** — full grammar visualization per language
-3. **Vocab page redesign** — search + categories + review, built from scratch
-4. **New word card format** — 2-bubble examples + fun info bottom (prototype ONE language)
-5. **Story dialogue system** — protagonist setup, episode format (prototype ONE language)
-6. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
-7. **Curriculum restructure** — rewrite units to new format, one language at a time
-8. **Content salvage** — export and redistribute old dialogue content
-9. **Full platform sweep** — apply new standards across all 5 languages
+1. **Update CLAUDE.md and all docs** to match the vision (D114 — DONE)
+2. **Download complete CEFR word lists** for all 5 languages — foundation for dictionary AND curriculum
+3. **Language-specific settings panel** — full grammar visualization per language
+4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch
+5. **New word card format** — 2-bubble examples + fun info bottom (prototype ONE language)
+6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language)
+7. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
+8. **Curriculum restructure** — rebuild from CEFR word lists. Every word taught. New lesson format.
+9. **Content salvage** — export and redistribute old dialogue content
+10. **Full platform sweep** — apply new standards across all 5 languages
 
 Each step is its own session. No step starts until the previous is solid.
+**CEFR word lists (step 2) are the single source of truth.** Dictionary and curriculum both built from them.
 
 ### Content Status (Phase 1 — COMPLETE for current format)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):

@@ -241,18 +241,46 @@ Languages WITHOUT articles/particles/honorifics do NOT show those categories. Ze
 
 ## 6. Vocab Page Overhaul
 
-### 6.1 Three Modes in One Page
+### 6.1 Dictionary Foundation: Complete CEFR Word Lists (CRITICAL)
+
+**Before building ANYTHING, download complete official CEFR vocabulary lists per language.** These lists ARE the dictionary. Everything else is built from them.
+
+- **Korean**: TOPIK vocabulary list (6,000+ words for TOPIK II), National Institute frequency lists
+- **Dutch**: NT2 Basiswoordenlijst (~4,000 words), Inburgeringsexamen lists
+- **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400, B2: ~4,000+)
+- **French**: DELF vocabulary lists by level, Referentiel de l'Alliance Francaise
+- **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (A1-B2)
+
+These lists define EVERY word the platform must know. The dictionary AND the curriculum are both built FROM these lists. The CEFR word lists are the single source of truth: the dictionary contains them all, and the curriculum ensures every word is taught through vocab lessons, story dialogues, or grammar lessons. Teach cards are a subset of the dictionary. The dictionary is the complete set.
+
+### 6.2 Lemma-Only Display (BASE FORMS)
+
+**The dictionary and vocab page show ONLY the base form (lemma) of each word:**
+- **Verbs**: infinitive only (sehen, manger, hablar, kijken, 보다)
+- **Nouns**: singular nominative with article (das Buch, le livre, el libro, het boek)
+- **Adjectives**: base form, not declined (nett, grand, bonito, leuk)
+
+**Clicking a word opens the full entry with tabs:**
+- **Tab 1: Overview** — word, translation, article/gender, pronunciation, CEFR level, fun info
+- **Tab 2: Forms** — ALL conjugations (verbs), declensions (nouns), agreement forms (adjectives). Complete paradigm tables.
+- **Tab 3: Examples** — every example sentence containing this word from the curriculum
+- **Tab 4: Grammar** — usage rules, irregular patterns, common mistakes
+- **Tab 5: Related** — synonyms, antonyms, cognates, word family, Sino-Korean morphemes
+
+This means: the browse/search view is CLEAN (one entry per word, base form only). ALL the depth is inside the expanded entry. A learner searching "sehen" finds ONE entry, clicks it, and sees: sehe, siehst, sieht, sehen, seht, sehen + Perfekt (hat gesehen) + Prateritum (sah) + Konjunktiv II (sahe) etc. in the Forms tab.
+
+### 6.3 Three Modes in One Page
 
 **Search mode (dictionary):**
 - Search bar at top (accepts source AND target language, romanization for non-Latin)
-- Results: word + POS badge + translation + level badge
-- Click to expand full card (example, etymology, audio placeholder)
+- Results: lemma + POS badge + translation + level badge (BASE FORM ONLY)
+- Click to expand full entry with tabs (forms, examples, grammar, related)
 - Filter by: level, category, learned/unlearned
 
 **Browse mode (visual categories):**
 - Words organized by category (food, family, travel, emotions, etc.)
 - Grid layout with category icons
-- Tap category to see all words
+- Tap category to see all words in base form
 - Discovery-oriented exploration
 
 **Review mode (spaced repetition):**
@@ -261,7 +289,7 @@ Languages WITHOUT articles/particles/honorifics do NOT show those categories. Ze
 - Built-in flashcard quiz mode
 - Practice tool, not reference
 
-### 6.2 Data Cleanup
+### 6.4 Data Cleanup
 
 - Strip ALL quiz data from vocab display (no options, hints, answers)
 - Remove em-dashes from display
@@ -303,17 +331,20 @@ Mechanical find-and-replace with validation. New code (new lesson formats, new c
 
 After this document is approved:
 
-1. **Update CLAUDE.md and all docs** to match this vision. Delete contradicting instructions.
-2. **Language-specific settings panel** — redesign with full grammar visualization per language
-3. **Vocab page redesign** — search + categories + review, built from scratch
-4. **New word card format** — 2-bubble examples + fun info bottom (prototype in ONE language)
-5. **Story dialogue system** — protagonist setup, episode format (prototype in ONE language)
-6. **`nl`/`en` --> `target`/`source` rename** — dedicated session, mechanical
-7. **Curriculum restructure** — rewrite units to new format, one language at a time
-8. **Content salvage** — export and redistribute old dialogue content
-9. **Full platform sweep** — apply new standards across all 5 languages
+1. **Update CLAUDE.md and all docs** to match this vision. Delete contradicting instructions. **(D114 — DONE)**
+2. **Download complete CEFR word lists** for all 5 languages. These are the foundation for BOTH the dictionary AND the curriculum. No building without them. (See Section 6.1)
+3. **Language-specific settings panel** — redesign with full grammar visualization per language
+4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch
+5. **New word card format** — 2-bubble examples + fun info bottom (prototype in ONE language)
+6. **Story dialogue system** — protagonist setup, episode format (prototype in ONE language)
+7. **`nl`/`en` --> `target`/`source` rename** — dedicated session, mechanical
+8. **Curriculum restructure** — rebuild units from CEFR word lists. Every word on the list gets taught. New lesson format (vocab, story, grammar, quiz, review). One language at a time.
+9. **Content salvage** — export and redistribute old dialogue content
+10. **Full platform sweep** — apply new standards across all 5 languages
 
 Each step is its own session or set of sessions. No step starts until the previous is solid.
+
+**The CEFR word lists (step 2) are the single source of truth for vocabulary.** The dictionary is built from them. The curriculum is built from them. Gap detection is automated: compare the list against dictionary entries and teach cards. Zero gaps.
 
 ---
 
