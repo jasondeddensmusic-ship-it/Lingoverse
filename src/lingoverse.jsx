@@ -7827,7 +7827,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
   );
 }
 
-// ━━━━━━━━━━ VOCABULARY PAGE V2 (Search / Browse / Review) ━━━━━━━━━━
+// ━━━━━━━━━━ VOCABULARY PAGE V3 (Search / Browse / Review) ━━━━━━━━━━
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
@@ -7837,7 +7837,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const allWords=useMemo(()=>{
     const db=WORD_DB[lang];
     if(!db||Object.keys(db).length===0) return [];
-    return Object.values(db).filter(e=>e.pos!=="unknown").sort((a,b)=>(a.word||"").localeCompare(b.word||""));
+    return Object.values(db).filter(e=>e.pos!=="unknown").sort((a,b)=>(a.display||a.word||"").localeCompare(b.display||b.word||""));
   },[lang]);
   const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
 
@@ -7858,6 +7858,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const [filterOpen,setFilterOpen]=useState(false);
   const [filterPOS,setFilterPOS]=useState(new Set());
   const [filterLevel,setFilterLevel]=useState(new Set());
+  const [filterGender,setFilterGender]=useState(new Set());
   const [filterTaughtOnly,setFilterTaughtOnly]=useState(false);
   const [browsePath,setBrowsePath]=useState([]);
   const [reviewIndex,setReviewIndex]=useState(0);
@@ -7876,13 +7877,15 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const posLabel=(pos)=>{if(!pos)return "";const base=pos.includes("_")?pos.split("_")[0]:pos;return cap(base);};
   const cefrLevels=["A1","A2","B1","B2"];
   const ttsLocale=LANG_META[lang]?.ttsLocale||"en-US";
+  const genderLabels={m:"Masculine",f:"Feminine",n:"Neuter",c:"Common",pl:"Plural"};
 
-  // ── Search + filter ──
+  // ── Search + filter (with gender) ──
   const filteredWords=useMemo(()=>{
     let pool=allWords;
     if(filterTaughtOnly) pool=pool.filter(e=>e.taught);
     if(filterPOS.size>0) pool=pool.filter(e=>{const base=e.pos?(e.pos.includes("_")?e.pos.split("_")[0]:e.pos):"";return filterPOS.has(base);});
     if(filterLevel.size>0) pool=pool.filter(e=>{const lv=(e.level||"A1").substring(0,2);return filterLevel.has(lv);});
+    if(filterGender.size>0) pool=pool.filter(e=>e.gender&&filterGender.has(e.gender));
     if(search){
       const s=search.toLowerCase();
       pool=pool.filter(e=>{
@@ -7896,13 +7899,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       });
     }
     return pool.slice(0,200);
-  },[allWords,search,filterPOS,filterLevel,filterTaughtOnly]);
+  },[allWords,search,filterPOS,filterLevel,filterGender,filterTaughtOnly]);
 
-  // ── Browse: available letters ──
+  // ── Browse: available letters (A-Z and language-specific like umlauts) ──
   const browseLetters=useMemo(()=>{
     const set=new Set();
-    allWords.forEach(e=>{const c=(e.word||"")[0];if(c)set.add(c.toUpperCase());});
-    return [...set].sort();
+    allWords.forEach(e=>{const c=(e.display||e.word||"")[0];if(c&&/\p{L}/u.test(c))set.add(c.toUpperCase());});
+    return [...set].sort((a,b)=>a.localeCompare(b));
   },[allWords]);
 
   const browseTwoLetters=useMemo(()=>{
@@ -7910,16 +7913,16 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const prefix=browsePath[0].toLowerCase();
     const set=new Set();
     allWords.forEach(e=>{
-      const w=(e.word||"").toLowerCase();
+      const w=(e.display||e.word||"").toLowerCase();
       if(w.startsWith(prefix)&&w.length>=2) set.add(w.substring(0,2));
     });
-    return [...set].sort().map(s=>s.charAt(0).toUpperCase()+s.charAt(1));
+    return [...set].sort((a,b)=>a.localeCompare(b)).map(s=>s.charAt(0).toUpperCase()+s.charAt(1));
   },[allWords,browsePath]);
 
   const browseWords=useMemo(()=>{
     if(browsePath.length!==2)return [];
-    const prefix=browsePath.join("").toLowerCase();
-    return allWords.filter(e=>(e.word||"").toLowerCase().startsWith(prefix));
+    const prefix=(browsePath[0]+browsePath[1]).toLowerCase();
+    return allWords.filter(e=>(e.display||e.word||"").toLowerCase().startsWith(prefix));
   },[allWords,browsePath]);
 
   // ── Review: init ──
@@ -7939,6 +7942,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const panelBorder=dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)";
   const panelShadow=dk?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)";
   const glossArc=dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)";
+  const txtSh="0 2px 12px rgba(0,0,0,0.5), 0 0 20px rgba(0,0,0,0.25), 0 1px 3px rgba(0,0,0,0.4)";
 
   const tabStyle=(isActive)=>({
     display:"inline-flex",alignItems:"center",gap:6,padding:isMobile?"10px 16px":"10px 22px",borderRadius:16,
@@ -7950,21 +7954,25 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     boxShadow:isActive?(dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"):(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
   });
 
-  // ── Word row (teach-card style: 22px radius, 4px purple left border, white bg) ──
+  // ── Word row: display field already includes article (e.g. "der Hund"), color the article part ──
   const WordRow=({entry,wKey})=>{
     const isExp=expanded===wKey;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
     const artColors=artEntry?ARTICLE_COLORS[artEntry]:null;
-    const displayWord=entry.display||entry.word;
-    // Article prefix in gender color, word in dark
-    const artPrefix=artEntry&&artColors?<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800,marginRight:4}}>{artEntry}</span>:null;
+    const disp=entry.display||entry.word||"";
+    // Color just the article prefix if display starts with it
+    let artSpan=null,wordPart=disp;
+    if(artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
+      artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
+      wordPart=disp.substring(artEntry.length);
+    }
     return(
       <div style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .2s",background:dk?"rgba(30,30,46,0.85)":"white",borderLeft:isExp?"4px solid #7B5EE8":"4px solid "+(dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.15)"),boxShadow:isExp?(dk?"0 4px 20px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06)":"0 4px 20px rgba(123,94,232,0.12), inset 0 1px 0 rgba(255,255,255,0.95)"):(dk?"0 1px 4px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.04)":"0 1px 4px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.95)")}}>
         <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"12px 16px",cursor:"pointer"}}>
           <div style={{flex:1,minWidth:0}}>
             <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>
-              {artPrefix}{displayWord}
+              {artSpan}{wordPart}
             </span>
           </div>
           <span style={{color:"#2ECDA7",fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en}</span>
@@ -7976,6 +7984,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {entry.level&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:pillGradient("#7B5EE8"),letterSpacing:0.3}}>{(entry.level||"A1").substring(0,2)}</span>}
             <span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",background:dk?"rgba(255,255,255,0.06)":"rgba(123,94,232,0.06)",letterSpacing:0.5,textTransform:"uppercase"}}>{posLabel(entry.pos)}</span>
             {artColors&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,background:artColors.pill,fontSize:10,fontWeight:800,color:artColors.pillText}}>{artEntry}</span>}
+            {entry.gender&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",background:dk?"rgba(255,255,255,0.04)":"rgba(0,0,0,0.03)"}}>{genderLabels[entry.gender]||entry.gender}</span>}
           </div>
           {entry.note&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",marginBottom:6,lineHeight:1.4}}>{entry.note}</div>}
           {entry.example&&<div style={{background:dk?"rgba(245,166,35,0.08)":"rgba(245,166,35,0.05)",borderRadius:14,padding:"10px 14px",border:dk?"1px solid rgba(245,166,35,0.15)":"1px solid rgba(245,166,35,0.1)",marginBottom:6}}>
@@ -7991,27 +8000,15 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     );
   };
 
-  // ── Filter toggle helpers ──
+  // ── Filter helpers ──
   const toggleFilter=(set,setter,val)=>{const n=new Set(set);if(n.has(val))n.delete(val);else n.add(val);setter(n);};
   const posTypes=useMemo(()=>{const s=new Set();allWords.forEach(e=>{const b=e.pos?(e.pos.includes("_")?e.pos.split("_")[0]:e.pos):"";if(b&&b!=="unknown")s.add(b);});return [...s].sort();},[allWords]);
   const activeLevels=useMemo(()=>{const s=new Set();allWords.forEach(e=>{const l=(e.level||"A1").substring(0,2);s.add(l);});return cefrLevels.filter(l=>s.has(l));},[allWords]);
-  const hasActiveFilters=filterPOS.size>0||filterLevel.size>0||filterTaughtOnly;
+  const activeGenders=useMemo(()=>{const s=new Set();allWords.forEach(e=>{if(e.gender)s.add(e.gender);});return ["m","f","n","c","pl"].filter(g=>s.has(g));},[allWords]);
+  const hasActiveFilters=filterPOS.size>0||filterLevel.size>0||filterGender.size>0||filterTaughtOnly;
 
-  // ── Pill style for browse (subtle purple chat-bubble) ──
-  const browsePill=(isActive)=>({
-    display:"inline-flex",alignItems:"center",justifyContent:"center",
-    padding:isMobile?"10px 14px":"10px 18px",borderRadius:14,
-    fontSize:isMobile?14:15,fontWeight:700,cursor:"pointer",transition:"all .2s",border:"none",fontFamily:"Quicksand, sans-serif",
-    background:isActive?(dk?"rgba(123,94,232,0.25)":"rgba(123,94,232,0.1)"):(dk?"rgba(255,255,255,0.06)":"rgba(248,245,255,0.9)"),
-    color:isActive?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.7)":"var(--gray-600)"),
-    border:isActive?(dk?"1px solid rgba(123,94,232,0.4)":"1px solid rgba(123,94,232,0.25)"):(dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(123,94,232,0.12)"),
-    boxShadow:dk?"0 1px 3px rgba(0,0,0,0.15)":"0 1px 3px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.9)",
-    minWidth:isMobile?42:48,
-  });
-
-  // ── Filter chip style ──
-  const chipStyle=(active,accent)=>({
-    padding:"5px 12px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .2s",
+  const chipStyle=(active)=>({
+    padding:"6px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:700,transition:"all .2s",
     background:active?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
     color:active?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
   });
@@ -8065,24 +8062,26 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             background:filterOpen||hasActiveFilters?(dk?"rgba(123,94,232,0.3)":"rgba(123,94,232,0.12)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
             color:filterOpen||hasActiveFilters?(dk?"#D4C8FF":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
           }}>Filters {hasActiveFilters?"*":""}</button>
-          {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterTaughtOnly(false);}} style={{padding:"4px 10px",borderRadius:8,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:dk?"rgba(245,101,101,0.15)":"rgba(245,101,101,0.08)",color:"#F56565",fontFamily:"inherit"}}>Clear</button>}
+          {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}} style={{padding:"4px 10px",borderRadius:8,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:dk?"rgba(245,101,101,0.15)":"rgba(245,101,101,0.08)",color:"#F56565",fontFamily:"inherit"}}>Clear all</button>}
           <span style={{flex:1}}/>
           <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
         </div>
 
-        {/* Filter panel (slide-down) */}
+        {/* Filter panel */}
         {filterOpen&&<div className="anim" style={{marginBottom:16,padding:14,borderRadius:16,background:dk?"rgba(30,30,46,0.7)":"rgba(248,245,255,0.9)",border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.1)"}}>
           <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Part of Speech</div>
           <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
             {posTypes.map(p=><button key={p} onClick={()=>toggleFilter(filterPOS,setFilterPOS,p)} style={chipStyle(filterPOS.has(p))}>{cap(p)}</button>)}
           </div>
+          {activeGenders.length>0&&<><div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Gender</div>
+          <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
+            {activeGenders.map(g=><button key={g} onClick={()=>toggleFilter(filterGender,setFilterGender,g)} style={chipStyle(filterGender.has(g))}>{genderLabels[g]||g}</button>)}
+          </div></>}
           <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:6,textTransform:"uppercase",letterSpacing:0.5}}>Level</div>
           <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:12}}>
             {activeLevels.map(lv=><button key={lv} onClick={()=>toggleFilter(filterLevel,setFilterLevel,lv)} style={chipStyle(filterLevel.has(lv))}>{lv}</button>)}
           </div>
-          <div style={{display:"flex",gap:8,alignItems:"center"}}>
-            <button onClick={()=>setFilterTaughtOnly(p=>!p)} style={chipStyle(filterTaughtOnly)}>Taught only</button>
-          </div>
+          <button onClick={()=>setFilterTaughtOnly(p=>!p)} style={chipStyle(filterTaughtOnly)}>Taught only</button>
         </div>}
 
         {/* Word list */}
@@ -8096,31 +8095,59 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       </div>}
 
       {/* ═══════════════════════════════════════════════════════ */}
-      {/* BROWSE MODE (Alphabetical drill-down)                  */}
+      {/* BROWSE MODE (Alphabetical drill-down with candy pills) */}
       {/* ═══════════════════════════════════════════════════════ */}
       {mode==="browse"&&<div>
-        {/* Level 1: Single letters */}
+        {/* Level 1: Single letters — candy gradient pills */}
         {browsePath.length===0&&<div>
-          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:12,textAlign:"center"}}>Choose a starting letter</div>
-          <div style={{display:"flex",flexWrap:"wrap",gap:8,justifyContent:"center"}}>
-            {browseLetters.map(l=><button key={l} onClick={()=>setBrowsePath([l])} style={browsePill(false)}>
-              {l}
+          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:14,textAlign:"center"}}>Choose a starting letter</div>
+          <div style={{display:"flex",flexWrap:"wrap",gap:10,justifyContent:"center"}}>
+            {browseLetters.map(l=><button key={l} onClick={()=>setBrowsePath([l])}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow="0 0 24px rgba(123,94,232,0.5), 0 8px 20px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=dk?"0 4px 12px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 14px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)";}}
+              style={{
+                display:"inline-flex",alignItems:"center",justifyContent:"center",
+                width:isMobile?48:54,height:isMobile?48:54,borderRadius:16,border:"none",cursor:"pointer",
+                fontFamily:"Quicksand, sans-serif",fontSize:isMobile?18:20,fontWeight:900,
+                color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.2)",
+                background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",
+                boxShadow:dk?"0 4px 12px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 14px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)",
+                position:"relative",overflow:"hidden",transition:"all .25s",
+              }}>
+              <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"44%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.12) 55%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
+              <span style={{position:"relative",zIndex:1}}>{l}</span>
             </button>)}
           </div>
         </div>}
 
-        {/* Level 2: Two-letter combos */}
+        {/* Level 2: Two-letter combos — same candy pills */}
         {browsePath.length===1&&<div>
           <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:14}}>
-            <button onClick={()=>setBrowsePath([])} style={{padding:"8px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,background:dk?"rgba(255,255,255,0.08)":"rgba(240,234,255,0.8)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(0,0,0,0.04)",transition:"all .2s"}}>
-              &#8592; Back
+            <button onClick={()=>setBrowsePath([])}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.05)";e.currentTarget.style.filter="brightness(1.1)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+              style={{padding:"8px 16px",borderRadius:14,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,position:"relative",overflow:"hidden",transition:"all .2s",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"}}>
+              <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+              <span style={{position:"relative",zIndex:1}}>&#8592; Back</span>
             </button>
-            <span style={{fontSize:18,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}</span>
+            <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}</span>
           </div>
           {browseTwoLetters.length===0?<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words starting with {browsePath[0]}</div>
-          :<div style={{display:"flex",flexWrap:"wrap",gap:8,justifyContent:"center"}}>
-            {browseTwoLetters.map(tl=><button key={tl} onClick={()=>setBrowsePath([browsePath[0],tl.charAt(1)])} style={browsePill(false)}>
-              {tl}
+          :<div style={{display:"flex",flexWrap:"wrap",gap:10,justifyContent:"center"}}>
+            {browseTwoLetters.map(tl=><button key={tl} onClick={()=>setBrowsePath([browsePath[0],tl.charAt(1)])}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow="0 0 24px rgba(123,94,232,0.5), 0 8px 20px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=dk?"0 4px 12px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 14px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)";}}
+              style={{
+                display:"inline-flex",alignItems:"center",justifyContent:"center",
+                padding:isMobile?"10px 16px":"10px 20px",borderRadius:14,border:"none",cursor:"pointer",
+                fontFamily:"Quicksand, sans-serif",fontSize:isMobile?14:15,fontWeight:800,
+                color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.2)",
+                background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",
+                boxShadow:dk?"0 4px 12px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 14px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)",
+                position:"relative",overflow:"hidden",transition:"all .25s",minWidth:isMobile?52:60,
+              }}>
+              <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"44%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.12) 55%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
+              <span style={{position:"relative",zIndex:1}}>{tl}</span>
             </button>)}
           </div>}
         </div>}
@@ -8128,10 +8155,14 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         {/* Level 3: Word list */}
         {browsePath.length===2&&<div>
           <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:14}}>
-            <button onClick={()=>setBrowsePath([browsePath[0]])} style={{padding:"8px 14px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,background:dk?"rgba(255,255,255,0.08)":"rgba(240,234,255,0.8)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 4px rgba(0,0,0,0.04)",transition:"all .2s"}}>
-              &#8592; {browsePath[0]}
+            <button onClick={()=>setBrowsePath([browsePath[0]])}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.05)";e.currentTarget.style.filter="brightness(1.1)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+              style={{padding:"8px 16px",borderRadius:14,border:"none",cursor:"pointer",fontFamily:"inherit",fontWeight:800,fontSize:12,position:"relative",overflow:"hidden",transition:"all .2s",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",color:dk?"rgba(200,184,255,0.8)":"#7050D8",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"}}>
+              <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+              <span style={{position:"relative",zIndex:1}}>&#8592; {browsePath[0]}</span>
             </button>
-            <span style={{fontSize:18,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}{browsePath[1]}</span>
+            <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}{browsePath[1]}</span>
             <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{browseWords.length} word{browseWords.length!==1?"s":""}</span>
           </div>
           {browseWords.length===0?<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words found</div>
@@ -8176,9 +8207,6 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {(()=>{
               const card=reviewWords[reviewIndex];
               if(!card)return null;
-              const artEntry=card.article;
-              const artColors=artEntry?ARTICLE_COLORS[artEntry]:null;
-              const txtSh="0 2px 8px rgba(0,0,0,0.35), 0 0 16px rgba(0,0,0,0.15)";
               return <div onClick={()=>setReviewFlipped(p=>!p)} style={{
                 cursor:"pointer",position:"relative",overflow:"hidden",borderRadius:22,padding:isMobile?"32px 24px":"40px 32px",
                 minHeight:isMobile?220:260,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",
@@ -8190,24 +8218,23 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                   /* ── Front: just the word + speaker ── */
                   <div style={{position:"relative",zIndex:1}}>
                     <div style={{fontSize:isMobile?28:36,fontWeight:900,color:"white",textShadow:txtSh,marginBottom:8,fontFamily:"Quicksand, sans-serif"}}>
-                      {artEntry&&artColors&&<span style={{color:artColors.pillText||"white",marginRight:6}}>{artEntry}</span>}
                       {card.display||card.word}
                     </div>
                     <SpeakerButton text={card.word} lang={ttsLocale} size={20} showToast={showToast}/>
-                    <div style={{fontSize:12,color:dk?"rgba(255,255,255,0.4)":"rgba(255,255,255,0.6)",marginTop:16,fontWeight:600,textShadow:txtSh}}>Tap to reveal</div>
+                    <div style={{fontSize:12,color:"rgba(255,255,255,0.5)",marginTop:16,fontWeight:600,textShadow:txtSh}}>Tap to reveal</div>
                   </div>
                 :
                   /* ── Back: translation + details ── */
                   <div style={{position:"relative",zIndex:1}}>
-                    <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(255,255,255,0.65)",marginBottom:6,letterSpacing:1,textTransform:"uppercase",textShadow:txtSh}}>{card.display||card.word}</div>
+                    <div style={{fontSize:11,fontWeight:700,color:"rgba(255,255,255,0.55)",marginBottom:6,letterSpacing:1,textTransform:"uppercase",textShadow:txtSh}}>{card.display||card.word}</div>
                     <div style={{fontSize:isMobile?24:30,fontWeight:800,color:"white",textShadow:txtSh,marginBottom:12,fontFamily:"Quicksand, sans-serif"}}>{card.en}</div>
                     <div style={{display:"flex",gap:6,justifyContent:"center",flexWrap:"wrap",marginBottom:10}}>
-                      {card.level&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:"rgba(255,255,255,0.2)",letterSpacing:0.3}}>{(card.level||"A1").substring(0,2)}</span>}
-                      <span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:700,color:"white",background:"rgba(255,255,255,0.15)",letterSpacing:0.5,textTransform:"uppercase"}}>{posLabel(card.pos)}</span>
+                      {card.level&&<span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:800,color:"white",background:"rgba(255,255,255,0.2)",textShadow:txtSh,letterSpacing:0.3}}>{(card.level||"A1").substring(0,2)}</span>}
+                      <span style={{display:"inline-block",padding:"2px 8px",borderRadius:8,fontSize:10,fontWeight:700,color:"white",background:"rgba(255,255,255,0.15)",textShadow:txtSh,letterSpacing:0.5,textTransform:"uppercase"}}>{posLabel(card.pos)}</span>
                     </div>
-                    {card.phonetic&&<div style={{fontSize:13,color:"rgba(255,255,255,0.6)",marginBottom:8,textShadow:txtSh}}>/{card.phonetic}/</div>}
-                    {card.example&&<div style={{fontSize:13,color:"rgba(255,255,255,0.7)",fontStyle:"italic",maxWidth:400,lineHeight:1.5,textShadow:txtSh}}>{card.example}</div>}
-                    {card.exampleEn&&<div style={{fontSize:12,color:"rgba(255,255,255,0.45)",marginTop:4,textShadow:txtSh}}>{card.exampleEn}</div>}
+                    {card.phonetic&&<div style={{fontSize:13,color:"rgba(255,255,255,0.65)",marginBottom:8,textShadow:txtSh}}>/{card.phonetic}/</div>}
+                    {card.example&&<div style={{fontSize:13,color:"rgba(255,255,255,0.75)",fontStyle:"italic",maxWidth:400,lineHeight:1.5,textShadow:txtSh}}>{card.example}</div>}
+                    {card.exampleEn&&<div style={{fontSize:12,color:"rgba(255,255,255,0.5)",marginTop:4,textShadow:txtSh}}>{card.exampleEn}</div>}
                   </div>
                 }
               </div>;
