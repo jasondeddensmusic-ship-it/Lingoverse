@@ -207,7 +207,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D112**: Certification-grade audit mandate. P55-P58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
 - **D113**: Two units-spanish.js syntax fixes + CEFR tab grouping bug fix (getCefrInfo band-prefix fallback). Rule 16 created.
 - **D114**: Platform rehaul vision document + docs update. Complete design spec for curriculum restructure, word card redesign, story system, settings panel, vocab page. Build order established.
-- **D115**: Settings panel redesign V1. Language-specific grammar filters (GRAMMAR_SETTINGS), per-language filter persistence, mobile bottom sheet, VerumLingua candy gloss styling. PR #67 merged.
+- **D115**: Settings panel V1-V3. Tabbed GRAMMAR_PACKS, candy pill legend with click-to-explain and edit mode, frosted glass container (.sf-panel standard), high-contrast Word Type colors (acid green/hot orange/hot pink/electric blue/vivid yellow), high-contrast Gender colors (vivid blue/crimson/amber/teal/bronze, zero grey/purple). `pillGradient(hex)` helper. Per-language category disable. Design system standard established.
 
 ---
 
@@ -388,14 +388,47 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 
 ## Design System
 
-### Colors:
-- Purple #7B5EE8 — UI accent, focus, selection, board card left accent, ALL unit theme colors
-- Teal #2ECDA7 — English translations, correct answers, word emphasis (logical use only)
-- Gold #E8960A — het article, low-score warning
-- Blue #4A8FE7 — de article, general buttons
+### VerumLingua Visual Standard (owner-approved 2026-03-19)
+
+**Containers** (`.sf-panel` frosted glass):
+- `background: linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)`
+- `border: 1.5px solid rgba(165,148,238,0.7)`
+- Gloss arc `::before`: height 42%, `rgba(255,255,255,0.68)` top, `borderRadius: 0 0 50% 50%`
+
+**Buttons** (`.btn-purple` / `candyBtn`):
+- 5-7 stop opaque gradient (lighter top, darker bottom)
+- Shine overlay: absolute, top 0, 38-45% height, `borderRadius: 0 0 50% 50%`, white gradient
+- Inset bevel: `inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`
+- Hover: `scale(1.08) translateY(-2px)`, `brightness(1.15)`, triple glow shadow
+
+**Pills** (`pillGradient(hex)`):
+- 5-stop gradient from any hex color, white text, shine overlay, same hover as buttons
+
+**Cards** (`.sf-row`):
+- White/dark bg, purple left border (3px solid #7B5EE8), inset shine top
+
+### UI Colors:
+- Purple #7B5EE8 — UI chrome ONLY (accent, focus, selection, card borders, unit themes). NEVER for content highlighting.
+- Teal #2ECDA7 — English translations, correct answers
+- Gold #E8960A — Dutch het article, low-score warning
 - Coral #F56565 — wrong answers only
 
-**Article colors are PERMANENT.** The de/het color scheme (blue for de-words, gold for het-words) is a core learning feature that must never be removed or changed. It exists across all Dutch content and is integral to the learning experience.
+### Grammar Visualization Colors (HIGH CONTRAST, zero purple/grey):
+
+**Word Type** (shared across all languages):
+- Acid green #00C853 — verbs
+- Hot orange #FF6D00 — adjectives
+- Hot pink #FF1744 — modifiers (adverbs, pronouns)
+- Electric blue #2979FF — nouns
+- Vivid yellow #C6A700 — structure words
+
+**Gender** (all gendered languages):
+- Vivid sky blue #0091FF — masculine (der/le/el/de)
+- Deep crimson #D50000 — feminine (die/la/la)
+- Vivid amber #FF8F00 — neuter (das, German only)
+- Deep teal #00BFA5 — plural (les/los/las)
+- Warm bronze #8D6E63 — indefinite (ein/un/een)
+- Gold #E8960A — Dutch het (permanent)
 
 ### Fonts:
 - Quicksand — display headings
@@ -406,6 +439,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - All lesson cards: white bg, 22px border-radius, 4px purple left border, subtle shadow
 - Candy gloss aesthetic: 5-stop gradients, shine overlays, inset shadows on interactive elements
 - Dark mode: Ctrl+N toggle, soft dark #1E1E2E base
+- Old-school iOS feel: depth, shine, weight. Flat/translucent backgrounds are REJECTED.
 
 ---
 
