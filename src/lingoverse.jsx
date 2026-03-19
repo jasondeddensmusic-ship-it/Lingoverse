@@ -11294,7 +11294,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               base:entry.en,morph:entry.note||null,
               particle:entry.article?entry.article+" "+entry.word:null,
               uses:entry.example?[{k:entry.example,e:entry.exampleEn||""}]:[],
-              note:entry.cognate||null,level:entry.level,
+              note:(typeof entry.cognate==="string"?entry.cognate:entry.note)||null,level:entry.level,
             },tok.word,tok.word,null);}:undefined}
             style={{
               fontSize:fz,fontWeight:isKnown?900:500,display:"inline-block",
@@ -11478,7 +11478,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>
 
             {/* ── PEDAGOGICAL NOTE — purple-tinted, no gold ── */}
-            {entry.note&&<>
+            {entry.note&&typeof entry.note==="string"&&<>
               <div style={{height:1,background:dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.1)",margin:"14px 0 10px"}}/>
               <div style={{
                 fontSize:12.5,lineHeight:1.7,
@@ -11649,7 +11649,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               morph: entry.note || null,
               particle: entry.article ? entry.article + " " + entry.word : null,
               uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
-              note: entry.cognate || null,
+              note: (typeof entry.cognate === "string" ? entry.cognate : entry.note) || null,
               level: entry.level,
             }
           });
