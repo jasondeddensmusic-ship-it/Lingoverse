@@ -601,6 +601,16 @@ export function getTaughtWords(lang, upToLessonId) {
 // Only ONE pack active at a time per language. Each pack defines a colorMap
 // that maps word properties to colors. The settings panel shows tabs.
 
+// Generate a 5-stop candy gradient from a base hex color (like .btn-purple pattern)
+export function pillGradient(hex) {
+  const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
+  const lighten = (r,g,b,pct) => [Math.min(255,r+pct),Math.min(255,g+pct),Math.min(255,b+pct)];
+  const darken = (r,g,b,pct) => [Math.max(0,r-pct),Math.max(0,g-pct),Math.max(0,b-pct)];
+  const rgb = (c) => `rgb(${c[0]},${c[1]},${c[2]})`;
+  const l2=lighten(r,g,b,50), l1=lighten(r,g,b,25), d1=darken(r,g,b,30), d2=darken(r,g,b,55);
+  return `linear-gradient(180deg, ${rgb(l2)} 0%, ${rgb(l1)} 20%, ${hex} 50%, ${rgb(d1)} 80%, ${rgb(d2)} 100%)`;
+}
+
 // Shared color constants for pack definitions
 const C_BLUE = { light: "#4A8FE7", dark: "#7AB8FF" };
 const C_CORAL = { light: "#E8475E", dark: "#F58888" };
@@ -654,11 +664,11 @@ const WORDTYPE_PACK = {
     particle_other: { ...C_CORAL },
   },
   legend: [
-    { label: "Verbs", color: "#2ECDA7" },
-    { label: "Adjectives", color: "#F59E0B" },
-    { label: "Modifiers", color: "#E879F9" },
-    { label: "Nouns", color: "#6366F1" },
-    { label: "Structure", color: "#E8475E" },
+    { label: "Verbs", color: "#2ECDA7", key: "verb", desc: "Action and state words: run, eat, be, have, go" },
+    { label: "Adjectives", color: "#F59E0B", key: "adjective", desc: "Words that describe nouns: big, red, fast, beautiful" },
+    { label: "Modifiers", color: "#E879F9", key: "adverb", desc: "Adverbs, pronouns, and demonstratives: quickly, he, this" },
+    { label: "Nouns", color: "#6366F1", key: "noun", desc: "People, places, things, and ideas: dog, house, love" },
+    { label: "Structure", color: "#E8475E", key: "structure", desc: "Prepositions, conjunctions, articles, particles: in, and, the" },
   ],
 };
 
@@ -678,10 +688,10 @@ export const GRAMMAR_PACKS = {
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL }, adjective_n: { ...C_PURPLE },
         },
         legend: [
-          { label: "Masculine (der)", color: "#4A8FE7" },
-          { label: "Feminine (die)", color: "#E8475E" },
-          { label: "Neuter (das)", color: "#7B5EE8" },
-          { label: "Indefinite", color: "#94A3B8" },
+          { label: "Masculine (der)", color: "#4A8FE7", key: "m", desc: "der Hund, der Mann, der Tisch. Most agent nouns." },
+          { label: "Feminine (die)", color: "#E8475E", key: "f", desc: "die Frau, die Katze, die Lampe. Most -ung, -keit, -heit." },
+          { label: "Neuter (das)", color: "#7B5EE8", key: "n", desc: "das Kind, das Haus, das Buch. Most -chen, -lein, -ment." },
+          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "ein/eine. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -690,10 +700,10 @@ export const GRAMMAR_PACKS = {
         desc: "Nominativ, Akkusativ, Dativ, Genitiv (coming soon)",
         colorMap: {},
         legend: [
-          { label: "Nominativ", color: "#22C55E" },
-          { label: "Akkusativ", color: "#F97316" },
-          { label: "Dativ", color: "#A855F7" },
-          { label: "Genitiv", color: "#EC4899" },
+          { label: "Nominativ", color: "#22C55E", key: "nom", desc: "Subject case: Wer? Was? Der Hund schlaeft." },
+          { label: "Akkusativ", color: "#F97316", key: "akk", desc: "Direct object: Wen? Was? Ich sehe den Hund." },
+          { label: "Dativ", color: "#A855F7", key: "dat", desc: "Indirect object: Wem? Ich gebe dem Hund Futter." },
+          { label: "Genitiv", color: "#EC4899", key: "gen", desc: "Possession: Wessen? Das Haus des Mannes." },
         ],
         placeholder: true,
       },
@@ -714,11 +724,11 @@ export const GRAMMAR_PACKS = {
           particle_other: { ...C_GRAY },
         },
         legend: [
-          { label: "\uc740/\ub294 Topic", color: "#4A8FE7" },
-          { label: "\uc774/\uac00 Subject", color: "#E8475E" },
-          { label: "\uc744/\ub97c Object", color: "#F59E0B" },
-          { label: "\uc5d0/\uc5d0\uc11c Location", color: "#2ECDA7" },
-          { label: "\uacfc/\uc640 Connector", color: "#7B5EE8" },
+          { label: "\uc740/\ub294 Topic", color: "#4A8FE7", key: "topic", desc: "Marks the topic: what you're talking about." },
+          { label: "\uc774/\uac00 Subject", color: "#E8475E", key: "subj", desc: "Marks who does the action." },
+          { label: "\uc744/\ub97c Object", color: "#F59E0B", key: "obj", desc: "Marks what receives the action." },
+          { label: "\uc5d0/\uc5d0\uc11c Location", color: "#2ECDA7", key: "loc", desc: "Marks where or when something happens." },
+          { label: "\uacfc/\uc640 Connector", color: "#7B5EE8", key: "conn", desc: "Connects nouns together: and, with." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -727,9 +737,9 @@ export const GRAMMAR_PACKS = {
         desc: "\ud574\uc694\uccb4, \ud569\uc1fc\uccb4, \ubc18\ub9d0 speech levels (coming soon)",
         colorMap: {},
         legend: [
-          { label: "\ud574\uc694\uccb4 Polite", color: "#2ECDA7" },
-          { label: "\ud569\uc1fc\uccb4 Formal", color: "#4A8FE7" },
-          { label: "\ubc18\ub9d0 Casual", color: "#F59E0B" },
+          { label: "\ud574\uc694\uccb4 Polite", color: "#2ECDA7", key: "haeyo", desc: "Standard polite speech. Used with most people." },
+          { label: "\ud569\uc1fc\uccb4 Formal", color: "#4A8FE7", key: "hapsyo", desc: "Highest formal level. News, presentations, service." },
+          { label: "\ubc18\ub9d0 Casual", color: "#F59E0B", key: "banmal", desc: "Informal speech. Close friends, younger people." },
         ],
         placeholder: true,
       },
@@ -750,9 +760,9 @@ export const GRAMMAR_PACKS = {
           noun_n: { ...C_GOLD, understripe: true },
         },
         legend: [
-          { label: "de (common)", color: "#4A8FE7" },
-          { label: "het (neuter)", color: "#E8960A" },
-          { label: "een (indefinite)", color: "#94A3B8" },
+          { label: "de (common)", color: "#4A8FE7", key: "c", desc: "de hond, de tafel. Most Dutch nouns are de-words." },
+          { label: "het (neuter)", color: "#E8960A", key: "n", desc: "het huis, het kind. About 25% of Dutch nouns." },
+          { label: "een (indefinite)", color: "#94A3B8", key: "indef", desc: "een boek. No gender distinction for indefinite." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -773,10 +783,10 @@ export const GRAMMAR_PACKS = {
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL },
         },
         legend: [
-          { label: "le (masculine)", color: "#4A8FE7" },
-          { label: "la (feminine)", color: "#E8475E" },
-          { label: "les (plural)", color: "#6366F1" },
-          { label: "Indefinite", color: "#94A3B8" },
+          { label: "le (masculine)", color: "#4A8FE7", key: "m", desc: "le livre, le chat. Masculine nouns and articles." },
+          { label: "la (feminine)", color: "#E8475E", key: "f", desc: "la maison, la table. Feminine nouns and articles." },
+          { label: "les (plural)", color: "#6366F1", key: "pl", desc: "les enfants, les livres. All plural nouns." },
+          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "un/une. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -797,10 +807,10 @@ export const GRAMMAR_PACKS = {
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL },
         },
         legend: [
-          { label: "el (masculine)", color: "#4A8FE7" },
-          { label: "la (feminine)", color: "#E8475E" },
-          { label: "los/las (plural)", color: "#6366F1" },
-          { label: "Indefinite", color: "#94A3B8" },
+          { label: "el (masculine)", color: "#4A8FE7", key: "m", desc: "el libro, el gato. Masculine nouns and articles." },
+          { label: "la (feminine)", color: "#E8475E", key: "f", desc: "la casa, la mesa. Feminine nouns and articles." },
+          { label: "los/las (plural)", color: "#6366F1", key: "pl", desc: "los libros, las casas. All plural nouns." },
+          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "un/una. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
