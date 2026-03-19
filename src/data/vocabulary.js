@@ -2414,7 +2414,7 @@ export const ARTICLE_SYSTEMS = {
     labels: { de: "Common gender", het: "Neuter gender" },
     stats: { de: "≈ 75% of nouns", het: "≈ 25% of nouns" },
     colors: {
-      de:  { bg: "linear-gradient(135deg, #4A8FE7, #3A6FBA)", shadow: "rgba(74,143,231,0.25)", pill: "#E8F1FC", pillText: "#3A6FBA" },
+      de:  { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
       het: { bg: "linear-gradient(135deg, #E8960A, #D4880C)", shadow: "rgba(232,150,10,0.25)", pill: "#FFF5E0", pillText: "#D4880C" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("de "))return "de"; if(l.startsWith("het "))return "het"; return "none"; }
@@ -2424,9 +2424,9 @@ export const ARTICLE_SYSTEMS = {
     labels: { der: "Masculine", die: "Feminine", das: "Neuter" },
     stats: { der: "≈ 40% of nouns", die: "≈ 35% of nouns", das: "≈ 25% of nouns" },
     colors: {
-      der: { bg: "linear-gradient(135deg, #4A8FE7, #3A6FBA)", shadow: "rgba(74,143,231,0.25)", pill: "#E8F1FC", pillText: "#3A6FBA" },
-      die: { bg: "linear-gradient(135deg, #E8475E, #D4354A)", shadow: "rgba(232,71,94,0.25)", pill: "#FDEAED", pillText: "#D4354A" },
-      das: { bg: "linear-gradient(135deg, #7B5EE8, #6341C7)", shadow: "rgba(123,94,232,0.25)", pill: "#F0EBFF", pillText: "#7B5EE8" },
+      der: { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
+      die: { bg: "linear-gradient(135deg, #D50000, #B00000)", shadow: "rgba(213,0,0,0.25)", pill: "#FFE0E0", pillText: "#B00000" },
+      das: { bg: "linear-gradient(135deg, #FF8F00, #E07D00)", shadow: "rgba(255,143,0,0.25)", pill: "#FFF0D9", pillText: "#E07D00" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("der "))return "der"; if(l.startsWith("die "))return "die"; if(l.startsWith("das "))return "das"; return "none"; }
   },
@@ -2435,8 +2435,8 @@ export const ARTICLE_SYSTEMS = {
     labels: { le: "Masculine", la: "Feminine" },
     stats: { le: "≈ 50% of nouns", la: "≈ 50% of nouns" },
     colors: {
-      le:  { bg: "linear-gradient(135deg, #4A8FE7, #3A6FBA)", shadow: "rgba(74,143,231,0.25)", pill: "#E8F1FC", pillText: "#3A6FBA" },
-      la:  { bg: "linear-gradient(135deg, #E8475E, #D4354A)", shadow: "rgba(232,71,94,0.25)", pill: "#FDEAED", pillText: "#D4354A" },
+      le:  { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
+      la:  { bg: "linear-gradient(135deg, #D50000, #B00000)", shadow: "rgba(213,0,0,0.25)", pill: "#FFE0E0", pillText: "#B00000" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("le ")||l.startsWith("l'"))return "le"; if(l.startsWith("la ")||l.startsWith("l'"))return "la"; return "none"; }
   },
@@ -2445,8 +2445,8 @@ export const ARTICLE_SYSTEMS = {
     labels: { el: "Masculine", la: "Feminine" },
     stats: { el: "≈ 50% of nouns", la: "≈ 50% of nouns" },
     colors: {
-      el:  { bg: "linear-gradient(135deg, #4A8FE7, #3A6FBA)", shadow: "rgba(74,143,231,0.25)", pill: "#E8F1FC", pillText: "#3A6FBA" },
-      la:  { bg: "linear-gradient(135deg, #E8475E, #D4354A)", shadow: "rgba(232,71,94,0.25)", pill: "#FDEAED", pillText: "#D4354A" },
+      el:  { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
+      la:  { bg: "linear-gradient(135deg, #D50000, #B00000)", shadow: "rgba(213,0,0,0.25)", pill: "#FFE0E0", pillText: "#B00000" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("el "))return "el"; if(l.startsWith("la ")||l.startsWith("las "))return "la"; if(l.startsWith("los "))return "el"; return "none"; }
   },
