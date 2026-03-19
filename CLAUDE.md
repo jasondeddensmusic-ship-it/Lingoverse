@@ -208,6 +208,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D113**: Two units-spanish.js syntax fixes + CEFR tab grouping bug fix (getCefrInfo band-prefix fallback). Rule 16 created.
 - **D114**: Platform rehaul vision document + docs update. Complete design spec for curriculum restructure, word card redesign, story system, settings panel, vocab page. Build order established.
 - **D115**: Settings panel V1-V3. Tabbed GRAMMAR_PACKS, candy pill legend with click-to-explain and edit mode, frosted glass container (.sf-panel standard), high-contrast Word Type colors (acid green/hot orange/hot pink/electric blue/vivid yellow), high-contrast Gender colors (vivid blue/crimson/amber/teal/bronze, zero grey/purple). `pillGradient(hex)` helper. Per-language category disable. Design system standard established.
+- **D116**: Vocab Page V6 redesign. Compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles, candy pill legend). All 3 modes (Search/Browse/Review) working. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings panel shared with lesson engine via same localStorage keys. WORD_DB gender field matching fixed.
 
 ---
 
@@ -611,9 +612,9 @@ The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8
 1. **Update CLAUDE.md and all docs** to match the vision (D114 — DONE)
 2. **Download complete CEFR word lists** for all 5 languages — foundation for dictionary AND curriculum
 3. **Language-specific settings panel** (D115 — V1 DONE, PR #67). Known gaps: understripe, bold/italic/dotted, profile page, koreanHl integration.
-4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch
-5. **New word card format** — 2-bubble examples + fun info bottom (prototype ONE language)
-6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language)
+4. **Vocab page redesign** — DONE (D116, 2026-03-19). V6: compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes (Search/Browse/Review) working. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings shared with lesson engine.
+5. **New word card format** — 2-bubble examples + fun info bottom (prototype in German first, per owner decision)
+6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language). Vision brainstormed: Verumius IS the protagonist (relatable underdog learning languages before becoming the AI), sitcom sketch format, comedy+adventure genre growing with CEFR, core cast per language culture.
 7. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
 8. **Curriculum restructure** — rebuild from CEFR word lists. Every word taught. New lesson format.
 9. **Content salvage** — export and redistribute old dialogue content
@@ -1192,9 +1193,9 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 
 1. **D114: Update docs to match vision** — CLAUDE.md, Master Bible, Pipeline Standards **(DONE)**
 2. **D115: Language-specific settings panel V1** — per-language grammar filters, VerumLingua bubble style, mobile bottom sheet, desktop floating panel **(DONE 2026-03-19, PR #67)**. Known gaps: understripe dropdown, bold/italic/dotted controls, full settings page in profile, Korean koreanHl integration. See `docs/SETTINGS_PANEL_HANDOFF.md`.
-3. **Vocab page redesign** — search + categories + review modes, strip quiz data, build from scratch
-4. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (ONE language)
-5. **Story dialogue system prototype** — protagonist setup, episode format (ONE language)
+3. **D116: Vocab page V6 redesign** — compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes working. Mobile bottom sheet. **(DONE 2026-03-19)**
+4. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (German first, per owner decision)
+5. **Story dialogue system prototype** — protagonist setup, episode format (ONE language). Vision brainstormed: Verumius IS the protagonist, sitcom sketch format, comedy+adventure growing with CEFR, core cast per language culture.
 6. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
 7. **Full curriculum restructure** — rewrite units to new format, one language at a time
 8. **Content salvage** — export and redistribute old dialogue content

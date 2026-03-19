@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-19 (D1-D114. D86+ in CLAUDE.md)
+> Last updated: 2026-03-19 (D1-D116. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D116 | Vocab Page V6 Redesign: Search/Browse/Review + Grammar Settings | Engine/UI/Architecture | All |
 | D115 | Settings Panel Redesign V1: Language-Specific Grammar Filters | Engine/UI/Architecture | All |
 | D114 | Platform Rehaul Vision + Docs Update | Architecture/Vision | All |
 | D113 | CEFR Tab Grouping Bug Fix + units-spanish.js Syntax Fixes | Engine Fix | All |
@@ -719,6 +720,37 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 - Next session: B2 vocabulary expansion or grammar completeness verification
 
 **Why D112 exists**: The owner correctly identified that "checking the container" is not the same as "checking the contents." A curriculum that passes every structural check but is missing 40% of the official exam vocabulary is a curriculum that will fail learners. LingoVerse's goal is not "mostly covers the material" — it is "a learner using ONLY LingoVerse could pass the official certification exam at each level." D112 redefines "complete" to mean certification-grade.
+
+---
+
+## D116: Vocab Page V6 Redesign (2026-03-19)
+
+**Rehaul Step 4** (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 6). Complete VocabularyPage redesign with 3 modes, compound bubble word rows, and integrated grammar settings panel.
+
+### What Was Built
+
+**VocabularyPage** in `src/lingoverse.jsx`:
+- **Search mode**: Real-time search across target+source words, category/level/gender filters, compound bubble word rows showing word + POS + translation + gender
+- **Browse mode**: Alphabetical letter grid drill-down. Tap a letter to see all words starting with that letter. Candy pill category filters. Back button to return to letter grid.
+- **Review mode**: Flashcard-style review of learned words. Show/hide translation toggle. Weak words surface first. Progress tracking.
+- **Grammar settings panel**: Full tabbed GRAMMAR_PACKS integration shared with lesson engine. Same localStorage keys (`vl_grammar_filters_v2`). Candy pill legend with click-to-explain. Edit mode with per-category toggles. Disabled categories affect word highlight colors in real time.
+- **Mobile bottom sheet**: Slides up for grammar settings on mobile. Drag handle, backdrop blur, tap-outside-to-close.
+
+### Key Design Decisions
+- Compound bubble word rows replace the old flat word list. Each row shows: colored word (respecting grammar filter colors), POS badge, translation, gender indicator.
+- Grammar settings panel is the SAME component used in the lesson engine. Single source of truth for filter state.
+- WORD_DB gender field matching fixed: gender lookup now correctly matches article fields from GRAMMAR_SETTINGS.
+- Browse mode uses alphabetical drill-down (letter grid -> word list) rather than category-based browsing. Categories are available as filter pills within the drill-down.
+- Review mode uses simple show/hide flashcards, not a full SRS algorithm (SRS deferred to curriculum restructure).
+- Text shadow removed from word display for cleaner rendering.
+- Double article display bug fixed (articles no longer shown twice in word rows).
+
+### Story System Vision (Brainstormed Same Session)
+- **Verumius IS the protagonist.** Before becoming the AI tutor, Verumius was a relatable underdog learning languages. The story system tells his origin story.
+- **Genre**: Comedy + adventure, growing with CEFR level (A1 sitcom sketches -> B2 dramedy).
+- **Core cast**: 4-6 recurring side characters per language culture.
+- **Format**: Sitcom sketch episodes interleaved with vocab and grammar lessons per vision doc Section 3.3.
+- Full story system implementation is step 6 of the rehaul build order.
 
 ---
 

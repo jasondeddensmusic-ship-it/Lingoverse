@@ -4,9 +4,11 @@
 > Step 1: D114 docs update (COMPLETE)
 > Step 2: Download complete CEFR word lists for all 5 languages (foundation for dictionary + curriculum)
 > **This step**: Language-specific settings panel redesign — **V1 COMPLETE (2026-03-19)**
-> Next step after this: Vocab page redesign (Step 4)
+> Next step after this: Vocab page redesign (Step 4) — **DONE (D116, 2026-03-19)**. Next: New word card format (Step 5)
 >
 > **Commit**: PR #67 merged to main. `GRAMMAR_SETTINGS` in dictionary.js + per-language panel in lingoverse.jsx.
+>
+> **UPDATE (2026-03-19):** Grammar settings panel is now ALSO integrated into the Vocab Page (D116). Same component, same localStorage keys (`vl_grammar_filters_v2`), shared filter state. Disabled categories affect word highlight colors on both the vocab page and in lessons. The settings panel is accessible from: (1) lesson engine gear icon, (2) vocab page gear icon.
 
 ---
 
@@ -295,4 +297,6 @@ CSS `text-decoration` supports underlines with color, but "understripe" (a color
 
 **Step 2 (CEFR word lists)** may be running in a separate mobile session. That session is doing RESEARCH ONLY — downloading and saving official vocabulary/grammar lists to `docs/` and `src/data/`. It does NOT modify `lingoverse.jsx` or `dictionary.js`.
 
-**Step 4 (Vocab page redesign)** is the next CODE step and will be done in a desktop session. It builds on the GRAMMAR_SETTINGS and WORD_DB infrastructure from steps 2-3. No conflict between the two sessions — they touch different files.
+**Step 4 (Vocab page redesign)** is COMPLETE (D116, 2026-03-19). V6 built with compound bubble word rows, alphabetical browse drill-down, review flashcards, and integrated grammar settings panel. Grammar settings are shared between lesson engine and vocab page via same localStorage keys.
+
+**Step 5 (New word card format)** is the next CODE step. German is the prototype language per owner decision.

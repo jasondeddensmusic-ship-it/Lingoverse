@@ -83,11 +83,24 @@ Stories grow with CEFR level:
 
 ### 3.2 The VerumLingua Protagonist
 
-**One named protagonist per SOURCE language** (not target language):
+> **Vision brainstormed (2026-03-19):** Verumius IS the protagonist. Before becoming the AI tutor, Verumius was a relatable underdog learning languages the hard way. The story system tells his origin story across all languages.
 
-- English speakers get an English-named character navigating the target country
-- When Arabic source is added: Arabic speakers get an Arab protagonist
-- **The learner names their character** during onboarding (default suggestion provided)
+**Verumius as protagonist:**
+- Verumius is learning languages before becoming the AI. The learner follows his journey.
+- Each target language has Verumius arriving in that country/culture, fumbling, growing.
+- The learner relates to Verumius because he makes the same mistakes they do.
+- **The learner names their character** during onboarding (default: "Verumius")
+
+**Genre: Comedy + Adventure, growing with CEFR:**
+- A1: Sitcom sketches. Simple misunderstandings, physical comedy, survival situations.
+- A2: Sitcom with recurring cast. Social situations, mild drama, cultural discovery.
+- B1: Adventure comedy. Verumius gets into real trouble. Needs nuanced language to navigate.
+- B2: Dramedy. Professional stakes, abstract problems, wit and irony.
+
+**Core cast per language culture:**
+- Each language has a recurring cast of 4-6 side characters rooted in that culture.
+- Characters represent different social contexts (work, friends, neighbors, officials).
+- Cast evolves across CEFR levels (A1 characters return in B2 with deeper relationships).
 
 **Personality archetype (same across all languages):**
 - Stoic optimist who gets absurdly lucky AND unlucky simultaneously
@@ -241,6 +254,8 @@ Languages WITHOUT articles/particles/honorifics do NOT show those categories. Ze
 
 ## 6. Vocab Page Overhaul
 
+> **V6 IMPLEMENTED (D116, 2026-03-19).** Search/Browse/Review modes all working. Compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel with tabbed packs and per-category toggles. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings shared with lesson engine via same localStorage keys. WORD_DB gender field matching fixed. The full dictionary vision below (lemma-only display, form-to-lemma search, tabbed word entries) remains the target for the curriculum restructure phase.
+
 ### 6.1 Dictionary Foundation: Complete CEFR Word Lists (CRITICAL)
 
 **Before building ANYTHING, download complete official CEFR vocabulary lists per language.** These lists ARE the dictionary. Everything else is built from them.
@@ -346,10 +361,10 @@ After this document is approved:
 
 1. **Update CLAUDE.md and all docs** to match this vision. Delete contradicting instructions. **(D114 — DONE)**
 2. **Download complete CEFR word lists** for all 5 languages. These are the foundation for BOTH the dictionary AND the curriculum. No building without them. (See Section 6.1)
-3. **Language-specific settings panel** — redesign with full grammar visualization per language
-4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch
-5. **New word card format** — 2-bubble examples + fun info bottom (prototype in ONE language)
-6. **Story dialogue system** — protagonist setup, episode format (prototype in ONE language)
+3. **Language-specific settings panel** — redesign with full grammar visualization per language **(D115 — DONE)**
+4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch **(D116 — V6 DONE, 2026-03-19)**
+5. **New word card format** — 2-bubble examples + fun info bottom (prototype in German first, per owner decision)
+6. **Story dialogue system** — Verumius as protagonist, sitcom sketch format, comedy+adventure growing with CEFR (prototype in ONE language)
 7. **`nl`/`en` --> `target`/`source` rename** — dedicated session, mechanical
 8. **Curriculum restructure** — rebuild units from CEFR word lists. Every word on the list gets taught. New lesson format (vocab, story, grammar, quiz, review). One language at a time.
 9. **Content salvage** — export and redistribute old dialogue content
