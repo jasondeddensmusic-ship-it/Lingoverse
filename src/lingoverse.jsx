@@ -7837,7 +7837,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const allWords=useMemo(()=>{
     const db=WORD_DB[lang];
     if(!db||Object.keys(db).length===0) return [];
-    return Object.values(db).filter(e=>e.pos!=="unknown"&&!(e.word||"").trim().includes(" ")).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
+    return Object.values(db).filter(e=>{
+      if(e.pos==="unknown")return false;
+      const w=(e.word||"").trim();
+      if(w.includes(" "))return false; // no phrases
+      if(w.includes("("))return false; // no meta-entries like "der (blau)"
+      return true;
+    }).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
   },[lang]);
   const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
 
@@ -7849,7 +7855,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const found=langPacks.packs.find(p=>p.id===storedPackId&&!p.placeholder);
     return found||langPacks.packs.find(p=>p.id===langPacks.defaultPack)||langPacks.packs[0];
   },[lang,storedPackId]);
-  const grammarHl=typeof localStorage!=="undefined"&&localStorage.getItem("grammarHl")==="true";
+  // Grammar colorizer: React state synced with localStorage (same key as lesson engine)
+  const [grammarHl,setGrammarHl]=useState(()=>{
+    try{const v=localStorage.getItem("vl_grammar_hl");if(v!==null)return v==="true";}catch(e){}
+    return false;
+  });
+  useEffect(()=>{try{localStorage.setItem("vl_grammar_hl",grammarHl?"true":"false");}catch(e){}},[grammarHl]);
+  const [showGrammarSettings,setShowGrammarSettings]=useState(false);
 
   // ── State ──
   const [mode,setMode]=useState("search");
@@ -7969,23 +7981,15 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ── Word row V6: compound bubble style, gloss arc, popup on click ──
   const WordRow=({entry})=>{
     const wColor=getWordColor(entry);
-    const artEntry=entry.article;
-    const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
     const disp=entry.display||entry.word||"";
-    let artSpan=null,wordPart=disp;
-    if(grammarHl&&artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
-      artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
-      wordPart=disp.substring(artEntry.length);
-    }
+    // When grammarHl ON: entire word (article+noun) gets ONE unified color from resolvePackColor
     const transColor=grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)");
     return(
       <div onClick={()=>setExpanded(expanded===entry?null:entry)} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
         <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
         <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
           <div style={{flex:1,minWidth:0}}>
-            <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>
-              {artSpan}{wordPart}
-            </span>
+            <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>{disp}</span>
           </div>
           <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en||""}</span>
           <SpeakerButton text={entry.word} lang={ttsLocale} size={13} showToast={showToast}/>
@@ -8002,13 +8006,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const entry=expanded;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
-    const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
     const disp=entry.display||entry.word||"";
-    let artSpan=null,wordPart=disp;
-    if(grammarHl&&artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
-      artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
-      wordPart=disp.substring(artEntry.length);
-    }
     return(
       <div onClick={()=>setExpanded(null)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
         <div onClick={e=>e.stopPropagation()} style={{
@@ -8031,7 +8029,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
               <div style={{flex:1}}>
                 <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:900,fontSize:22,color:wColor||(dk?"rgba(255,255,255,0.95)":"var(--gray-800)"),marginBottom:2}}>
-                  {artSpan}{wordPart}
+                  {disp}
                 </div>
                 <div style={{fontSize:14,fontWeight:700,color:grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.65)":"rgba(100,80,160,0.6)")}}>{entry.en||""}</div>
               </div>
@@ -8043,8 +8041,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:14}}>
             {entry.level&&badgePill("#7B5EE8",(entry.level||"A1").substring(0,2))}
             {entry.pos&&badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
-            {artColors&&badgePill(artColors.pillText||"#7B5EE8",artEntry)}
-            {entry.gender&&badgePill("#6040C0",genderLabels[entry.gender]||entry.gender)}
+            {artEntry&&badgePill(wColor||"#7B5EE8",artEntry)}
+            {entry.gender&&badgePill(wColor||"#6040C0",genderLabels[entry.gender]||entry.gender)}
           </div>
 
           {/* Note */}
@@ -8127,20 +8125,30 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
         {/* Grammar color toggle + Filter bar + count */}
         <div style={{display:"flex",gap:8,marginBottom:14,alignItems:"center"}}>
-          {/* Aa grammar colorizer toggle */}
-          <button onClick={()=>{const nv=grammarHl?"false":"true";localStorage.setItem("grammarHl",nv);window.location.reload();}}
-            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow="0 0 28px rgba(123,94,232,0.6), 0 8px 22px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";}}
-            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
+          {/* Aa grammar colorizer toggle — same as lesson engine */}
+          <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?"Grammar Colors ON":"Grammar Colors OFF"}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}
             style={{
-              padding:"8px 14px",borderRadius:16,border:"none",cursor:"pointer",fontFamily:"Quicksand, sans-serif",fontSize:14,fontWeight:900,transition:"all .3s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden",letterSpacing:0.3,
-              background:grammarHl?(dk?"linear-gradient(180deg,#E8DEFF 0%,#D4C8FF 4%,#C0AEF8 10%,#A488F0 22%,#8B6AE4 38%,#7B5EE8 52%,#6545C8 72%,#5840B8 88%,#4A2BA6 100%)":"linear-gradient(180deg,#DDD0FF 0%,#C8BAFF 6%,#B8A8FA 14%,#9B7AE8 30%,#7B5EE8 52%,#6545C8 76%,#5840B8 90%,#4A2BA6 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)"),
-              color:grammarHl?"white":(dk?"rgba(200,184,255,0.95)":"#6030C0"),
-              textShadow:grammarHl?"0 1px 3px rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.15)":"none",
-              boxShadow:grammarHl?(dk?"0 0 24px rgba(123,94,232,0.6), 0 6px 20px rgba(85,53,181,0.55), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -4px 0 rgba(0,0,0,0.22)":"0 0 20px rgba(123,94,232,0.5), 0 6px 20px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.18)"):(dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"),
+              width:36,height:36,borderRadius:12,border:"none",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",
+              fontSize:14,fontWeight:900,fontFamily:"Quicksand, sans-serif",transition:"all .2s",
+              background:grammarHl?(dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(80,60,180,0.25))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))"):(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+              boxShadow:grammarHl?(dk?"0 0 12px rgba(123,94,232,0.4),inset 0 1px 0 rgba(255,255,255,0.12)":"0 2px 10px rgba(123,94,232,0.2),inset 0 1px 0 rgba(255,255,255,0.9)"):"none",
+              color:grammarHl?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+            }}>Aa</button>
+          {/* Gear icon — opens grammar settings */}
+          {grammarHl&&<button onClick={()=>setShowGrammarSettings(!showGrammarSettings)} title="Color settings"
+            onMouseEnter={e=>{e.currentTarget.style.opacity="0.8";}}
+            onMouseLeave={e=>{e.currentTarget.style.opacity="1";}}
+            style={{
+              width:36,height:36,borderRadius:12,border:"none",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",
+              fontSize:15,transition:"all .2s",
+              background:showGrammarSettings?(dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(80,60,180,0.25))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))"):(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+              color:showGrammarSettings?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"var(--gray-400)"),
+              transform:showGrammarSettings?"rotate(60deg)":"rotate(0deg)",
             }}>
-            <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:grammarHl?"linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.25) 35%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
-            <span style={{position:"relative",zIndex:1}}>Aa</span>
-          </button>
+            <svg width={16} height={16} viewBox="0 0 24 24" fill="none"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" strokeWidth={2}/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" stroke="currentColor" strokeWidth={2}/></svg>
+          </button>}
           <button onClick={()=>setFilterOpen(p=>!p)}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow="0 0 28px rgba(123,94,232,0.6), 0 8px 22px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
