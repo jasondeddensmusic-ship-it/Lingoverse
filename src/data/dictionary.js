@@ -616,21 +616,49 @@ const C_ORANGE = { light: "#F97316", dark: "#FB923C" };
 const C_PINK = { light: "#EC4899", dark: "#F472B6" };
 
 // Word Type pack (shared across all languages)
+// 5 color families covering EVERY POS type:
+//   Teal:    verbs (action)
+//   Amber:   adjectives (description)
+//   Fuchsia: adverbs + pronouns (modifiers/stand-ins)
+//   Indigo:  nouns (things, understripe)
+//   Coral:   structure words (prepositions, conjunctions, articles, particles, etc.)
 const WORDTYPE_PACK = {
   id: "wordtype", label: "Word Type", icon: "Aa",
-  desc: "Verbs, adjectives, adverbs, and nouns by part of speech",
+  desc: "Every word colored by part of speech",
   colorMap: {
-    verb: { ...C_TEAL }, adjective: { ...C_AMBER },
-    adverb: { ...C_FUCHSIA }, noun: { ...C_INDIGO, understripe: true },
-    preposition: { ...C_INDIGO }, conjunction: { ...C_INDIGO },
+    // Verbs — teal
+    verb: { ...C_TEAL },
+    // Adjectives — amber
+    adjective: { ...C_AMBER },
+    // Adverbs + pronouns — fuchsia
+    adverb: { ...C_FUCHSIA },
     pronoun: { ...C_FUCHSIA }, pronoun_subj: { ...C_FUCHSIA },
     pronoun_obj: { ...C_FUCHSIA }, pronoun_poss: { ...C_FUCHSIA },
+    demonstrative: { ...C_FUCHSIA },
+    // Nouns — indigo (understripe)
+    noun: { ...C_INDIGO, understripe: true },
+    // Structure words — coral
+    preposition: { ...C_CORAL }, conjunction: { ...C_CORAL },
+    article: { ...C_CORAL },
+    article_m: { ...C_CORAL }, article_f: { ...C_CORAL }, article_n: { ...C_CORAL },
+    article_c: { ...C_CORAL }, article_het: { ...C_CORAL },
+    article_indef: { ...C_CORAL }, article_pl: { ...C_CORAL },
+    interjection: { ...C_CORAL },
+    number: { ...C_CORAL }, counter: { ...C_CORAL },
+    negation: { ...C_CORAL }, question: { ...C_CORAL },
+    // Korean particles (in Word Type mode: all coral as structure)
+    particle_topic: { ...C_CORAL }, particle_subj: { ...C_CORAL },
+    particle_obj: { ...C_CORAL }, particle_loc: { ...C_CORAL },
+    particle_dir: { ...C_CORAL }, particle_conn: { ...C_CORAL },
+    particle_comp: { ...C_CORAL }, particle_poss: { ...C_CORAL },
+    particle_other: { ...C_CORAL },
   },
   legend: [
     { label: "Verbs", color: "#2ECDA7" },
     { label: "Adjectives", color: "#F59E0B" },
-    { label: "Adverbs", color: "#E879F9" },
+    { label: "Modifiers", color: "#E879F9" },
     { label: "Nouns", color: "#6366F1" },
+    { label: "Structure", color: "#E8475E" },
   ],
 };
 
