@@ -8290,7 +8290,7 @@ function Onboarding({onComplete}){
 
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
-const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits];
+const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 // ── CURRICULUM SEARCH (D113) ──
 // Korean romanization tables (Revised Romanization of Korean)
@@ -12837,29 +12837,38 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
         {/* Grid */}
         <div style={{background:"var(--card-bg)",border:"2px solid rgba(123,94,232,0.15)",borderTop:"none",borderRadius:"0 0 20px 20px",overflow:"hidden"}}>
-          {(st.groups||[{label:null,rows:st.rows}]).map((grp,gi)=>(
-            <div key={gi}>
-              {grp.label&&<div style={{background:"rgba(123,94,232,0.04)",padding:"8px 20px",borderTop:gi>0?"1.5px solid rgba(123,94,232,0.1)":"none"}}>
-                <span style={{fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1.5,color:"var(--purple-accent-text)"}}>{grp.label}</span>
+          {(st.groups||[{label:null,rows:st.rows}]).map((grp,gi)=>{
+            // Normalize rows: handle forms[] (simple list), rows as arrays, rows as objects
+            let normalizedRows = grp.rows || [];
+            if (grp.forms && !grp.rows) {
+              // forms: ["ich werde", "du wirst", ...] → render as simple list
+              normalizedRows = grp.forms.map(f => ({pronoun: "", form: f, en: ""}));
+            } else if (normalizedRows.length > 0 && Array.isArray(normalizedRows[0])) {
+              // rows: [["pronoun","form","en?"], ...] → convert to objects
+              normalizedRows = normalizedRows.map(arr => ({pronoun: arr[0]||"", form: arr[1]||"", en: arr[2]||""}));
+            }
+            return <div key={gi}>
+              {(grp.label||grp.header)&&<div style={{background:"rgba(123,94,232,0.04)",padding:"8px 20px",borderTop:gi>0?"1.5px solid rgba(123,94,232,0.1)":"none"}}>
+                <span style={{fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1.5,color:"var(--purple-accent-text)"}}>{grp.label||grp.header}</span>
               </div>}
-              {grp.rows.map((r,ri)=>(
-                <div key={ri} style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",borderTop:(gi>0||ri>0||grp.label)?"1px solid var(--gray-100)":"none"}}>
+              {normalizedRows.map((r,ri)=>(
+                <div key={ri} style={{display:"grid",gridTemplateColumns:r.en?"1fr 1fr 1fr":"1fr 1fr",borderTop:(gi>0||ri>0||grp.label||grp.header)?"1px solid var(--gray-100)":"none"}}>
                   {/* Pronoun */}
-                  <div style={{padding:"10px 16px",background:"rgba(123,94,232,0.03)"}}>
+                  {r.pronoun&&<div style={{padding:"10px 16px",background:"rgba(123,94,232,0.03)"}}>
                     <span style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)"}}>{r.pronoun}</span>
-                  </div>
+                  </div>}
                   {/* Verb form */}
-                  <div style={{padding:"10px 16px",textAlign:"center",background:"rgba(123,94,232,0.06)"}}>
+                  <div style={{padding:"10px 16px",textAlign:r.pronoun?"center":"left",background:"rgba(123,94,232,0.06)",gridColumn:!r.pronoun&&!r.en?"1 / -1":undefined}}>
                     <span style={{fontSize:17,fontWeight:800,color:"#5B3DB8",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{r.form}</span>
                   </div>
                   {/* English */}
-                  <div style={{padding:"10px 16px",textAlign:"right"}}>
+                  {r.en&&<div style={{padding:"10px 16px",textAlign:"right"}}>
                     <span style={{fontSize:14,fontWeight:600,color:"var(--teal-text)"}}>{r.en}</span>
-                  </div>
+                  </div>}
                 </div>
               ))}
-            </div>
-          ))}
+            </div>;
+          })}
 
           {/* Summary note */}
           {st.note&&<div style={{borderTop:"1.5px solid rgba(123,94,232,0.1)",padding:"14px 20px",background:"rgba(46,205,167,0.04)"}}>
