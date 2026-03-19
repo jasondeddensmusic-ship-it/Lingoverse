@@ -21,7 +21,7 @@ import { FUNCTION_WORDS_NL } from './wordlists/function-words-nl.js';
 import { FUNCTION_WORDS_ES } from './wordlists/function-words-es.js';
 import { FUNCTION_WORDS_KO } from './wordlists/function-words-ko.js';
 
-const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits];
+const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 const FUNCTION_WORD_LISTS = {
   de: FUNCTION_WORDS_DE,
