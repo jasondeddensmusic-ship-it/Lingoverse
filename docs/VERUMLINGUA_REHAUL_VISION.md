@@ -269,10 +269,23 @@ These lists define EVERY word the platform must know. The dictionary AND the cur
 
 This means: the browse/search view is CLEAN (one entry per word, base form only). ALL the depth is inside the expanded entry. A learner searching "sehen" finds ONE entry, clicks it, and sees: sehe, siehst, sieht, sehen, seht, sehen + Perfekt (hat gesehen) + Prateritum (sah) + Konjunktiv II (sahe) etc. in the Forms tab.
 
-### 6.3 Three Modes in One Page
+### 6.3 Search Resolves ANY Form to Its Lemma (CRITICAL)
+
+**Searching ANY conjugated, declined, or inflected form returns the BASE WORD entry.**
+- Search "sieht" -> returns "sehen" (to see)
+- Search "먹었어요" -> returns "먹다" (to eat)
+- Search "maisons" -> returns "maison" (house)
+- Search "gegangen" -> returns "gehen" (to go)
+- Search "bonitas" -> returns "bonito" (pretty)
+- Search "gebouwen" -> returns "gebouw" (building)
+
+This requires the dictionary to store a reverse lookup map: every known surface form (conjugation, declension, plural, compound part) maps back to its lemma. The WORD_DB already has `lemma` fields per entry (see `docs/UNIVERSAL_DICTIONARY_PLAN.md` Section A3). The search bar queries BOTH the lemma AND all surface forms, but always displays the lemma entry as the result.
+
+### 6.4 Three Modes in One Page
 
 **Search mode (dictionary):**
 - Search bar at top (accepts source AND target language, romanization for non-Latin)
+- Search resolves ANY form to its base word (see 6.3)
 - Results: lemma + POS badge + translation + level badge (BASE FORM ONLY)
 - Click to expand full entry with tabs (forms, examples, grammar, related)
 - Filter by: level, category, learned/unlearned
@@ -289,7 +302,7 @@ This means: the browse/search view is CLEAN (one entry per word, base form only)
 - Built-in flashcard quiz mode
 - Practice tool, not reference
 
-### 6.4 Data Cleanup
+### 6.5 Data Cleanup
 
 - Strip ALL quiz data from vocab display (no options, hints, answers)
 - Remove em-dashes from display
