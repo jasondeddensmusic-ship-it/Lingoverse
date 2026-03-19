@@ -10660,64 +10660,66 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         return <div style={{
           marginTop:8,marginBottom:4,
           padding:isMobile?"22px 18px 30px":"18px 20px",
-          borderRadius:isMobile?"24px 24px 0 0":22,
+          borderRadius:isMobile?"24px 24px 0 0":20,
           background:dk
-            ?"linear-gradient(180deg,rgba(45,40,75,0.98) 0%,rgba(38,34,65,0.97) 25%,rgba(32,28,58,0.96) 50%,rgba(28,24,52,0.95) 75%,rgba(24,20,46,0.94) 100%)"
-            :"linear-gradient(180deg,#FFFFFF 0%,#FCFAFF 25%,#F8F5FF 50%,#F4F0FE 75%,#F0ECFC 100%)",
-          border:dk?"2.5px solid rgba(160,140,240,0.22)":"2.5px solid rgba(180,160,230,0.3)",
+            ?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)"
+            :"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",
+          border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",
           boxShadow:dk
-            ?"0 -4px 40px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.4),0 0 0 1px rgba(123,94,232,0.15),inset 0 1px 0 rgba(255,255,255,0.08),inset 0 -2px 0 rgba(0,0,0,0.18)"
-            :"0 -4px 40px rgba(123,94,232,0.08),0 8px 32px rgba(0,0,0,0.06),0 3px 10px rgba(140,100,220,0.1),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.07)",
-          backdropFilter:"blur(20px) saturate(1.3)",WebkitBackdropFilter:"blur(20px) saturate(1.3)",
+            ?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)"
+            :"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",
           position:isMobile?"fixed":"relative",
           bottom:isMobile?0:undefined,left:isMobile?0:undefined,right:isMobile?0:undefined,
           zIndex:isMobile?9999:undefined,
           maxHeight:isMobile?"75vh":"auto",overflowY:"auto",overflow:"hidden",
           WebkitOverflowScrolling:"touch",
         }}>
-          {/* Shine overlay — matches .gloss::before and .card::before */}
-          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",
+          {/* Candy gloss arc — exact .sf-panel::before pattern */}
+          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",
             background:dk
-              ?"linear-gradient(180deg,rgba(255,255,255,0.08) 0%,rgba(255,255,255,0.015) 50%,transparent 100%)"
-              :"linear-gradient(180deg,rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.1) 40%,transparent 100%)",
-            pointerEvents:"none",borderRadius:"0 0 45% 45%",zIndex:1,
+              ?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+              :"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",
+            pointerEvents:"none",borderRadius:"0 0 50% 50%",zIndex:1,
           }}/>
-          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
-          <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.55)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
+          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.5)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
+          <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.7)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
             {langPacks.label} Grammar Colors
           </div>
-          {/* Tab strip — active tab uses btn-purple-style 5-stop gradient */}
-          <div style={{display:"flex",gap:10,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
+          {/* Tab strip */}
+          <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
             {langPacks.packs.map(pack=>{
               const isActive=pack.id===activePackId;
               const isP=!!pack.placeholder;
               return <button key={pack.id} onClick={()=>!isP&&selectPack(pack.id)} disabled={isP} style={{
-                display:"inline-flex",alignItems:"center",gap:7,padding:"10px 20px",borderRadius:22,
+                display:"inline-flex",alignItems:"center",gap:7,padding:"10px 20px",borderRadius:16,
                 fontSize:12,fontWeight:800,cursor:isP?"default":"pointer",
-                transition:"all .25s cubic-bezier(.4,0,.2,1)",border:"none",fontFamily:"inherit",
+                transition:"all .25s cubic-bezier(.4,0,.2,1)",fontFamily:"inherit",
                 minHeight:42,opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
                 background:isActive
                   ?(dk
-                    ?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 55%,#6545C8 80%,#5840B8 100%)"
-                    :"linear-gradient(180deg,#F8F5FF 0%,#EDE6FD 20%,#E2DAFC 40%,#D5CBFA 65%,#C8BEFA 85%,#BEB2F8 100%)")
+                    ?"linear-gradient(160deg, rgba(58,36,130,0.98) 0%, rgba(44,26,105,0.98) 45%, rgba(32,18,82,0.99) 100%)"
+                    :"linear-gradient(160deg, rgba(246,242,255,0.99) 0%, rgba(235,226,255,0.99) 55%, rgba(225,214,255,0.99) 100%)")
                   :(dk
-                    ?"linear-gradient(180deg,rgba(45,40,75,0.7) 0%,rgba(32,28,58,0.65) 50%,rgba(26,24,50,0.6) 100%)"
-                    :"linear-gradient(180deg,#FFFFFF 0%,#FAFAFE 50%,#F5F4FA 100%)"),
-                color:isActive?(dk?"#FFFFFF":"#5B3DC4"):(dk?"rgba(255,255,255,0.4)":"rgba(120,100,160,0.55)"),
+                    ?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)"
+                    :"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
+                border:isActive
+                  ?(dk?"1.5px solid rgba(168,144,255,0.35)":"1.5px solid rgba(168,144,255,0.45)")
+                  :(dk?"1px solid rgba(168,144,255,0.25)":"1px solid rgba(168,144,255,0.3)"),
+                color:isActive?(dk?"#FFFFFF":"#5B3DC4"):(dk?"rgba(200,184,255,0.9)":"#7050D8"),
                 textShadow:isActive&&dk?"0 1px 2px rgba(0,0,0,0.3)":"none",
                 boxShadow:isActive
                   ?(dk
-                    ?"0 0 18px rgba(123,94,232,0.4),0 0 40px rgba(123,94,232,0.15),0 4px 16px rgba(85,53,181,0.5),inset 0 2px 0 rgba(255,255,255,0.3),inset 0 -3px 0 rgba(0,0,0,0.18)"
-                    :"0 4px 16px rgba(123,94,232,0.2),0 2px 4px rgba(0,0,0,0.06),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.12)")
+                    ?"0 0 0 1px rgba(168,144,255,0.08), 0 8px 24px rgba(0,0,0,0.5), inset 0 1.5px 0 rgba(255,255,255,0.14), inset 0 -2px 0 rgba(0,0,0,0.22)"
+                    :"0 0 0 1px rgba(255,255,255,0.85), 0 8px 24px rgba(60,24,160,0.15), inset 0 2px 0 rgba(255,255,255,0.98), inset 0 -3px 0 rgba(112,80,216,0.08)")
                   :(dk
-                    ?"0 3px 10px rgba(0,0,0,0.3),0 0 8px rgba(140,120,220,0.08),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -2px 0 rgba(0,0,0,0.15)"
-                    :"0 2px 8px rgba(0,0,0,0.04),0 0 0 1px rgba(180,160,230,0.2),inset 0 2px 0 rgba(255,255,255,0.9),inset 0 -2px 0 rgba(0,0,0,0.03)"),
+                    ?"inset 0 1px 0 rgba(255,255,255,0.1)"
+                    :"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)"),
               }}>
-                {/* Tab shine overlay */}
-                {isActive&&<span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"45%",
+                {/* Tab gloss arc */}
+                {isActive&&<span style={{position:"absolute",top:0,left:"4%",right:"4%",height:"40%",
                   background:dk
-                    ?"linear-gradient(180deg,rgba(255,255,255,0.35) 0%,rgba(255,255,255,0.08) 50%,transparent 100%)"
-                    :"linear-gradient(180deg,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.15) 50%,transparent 100%)",
+                    ?"linear-gradient(180deg, rgba(255,255,255,0.11) 0%, rgba(255,255,255,0.03) 55%, transparent 100%)"
+                    :"linear-gradient(180deg, rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.22) 50%, transparent 100%)",
                   borderRadius:"0 0 50% 50%",pointerEvents:"none",
                 }}/>}
                 <span style={{fontSize:14,fontWeight:900,lineHeight:1,position:"relative",zIndex:1}}>{pack.icon}</span>
@@ -10726,27 +10728,19 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               </button>;
             })}
           </div>
-          {/* Active pack legend — card-style with gloss */}
+          {/* Active pack legend — .sf-row style card inside frosted panel */}
           {activePack&&<div style={{
-            padding:"16px 18px",borderRadius:18,position:"relative",overflow:"hidden",
-            background:dk
-              ?"linear-gradient(180deg,rgba(45,40,75,0.7) 0%,rgba(32,28,58,0.65) 50%,rgba(26,24,50,0.6) 100%)"
-              :"linear-gradient(180deg,#FFFFFF 0%,#FCFAFF 50%,#F8F5FF 100%)",
-            border:dk?"2px solid rgba(160,140,240,0.15)":"2px solid rgba(180,160,230,0.25)",
+            padding:"14px 16px",borderRadius:13,position:"relative",overflow:"hidden",
+            background:dk?"rgba(28,24,62,0.94)":"var(--card-bg)",
+            border:dk?"1.5px solid rgba(100,88,158,0.42)":"1.5px solid rgba(220,215,238,0.85)",
+            borderLeft:dk?"3px solid #7B5EE8":"3px solid #7B5EE8",
             boxShadow:dk
-              ?"0 3px 12px rgba(0,0,0,0.3),0 0 12px rgba(140,120,220,0.1),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -2px 0 rgba(0,0,0,0.15)"
-              :"0 3px 10px rgba(140,100,220,0.08),0 1px 3px rgba(0,0,0,0.03),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.05)",
+              ?"0 2px 8px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)"
+              :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.95)",
             zIndex:2,
           }}>
-            {/* Legend shine overlay */}
-            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
-              background:dk
-                ?"linear-gradient(180deg,rgba(255,255,255,0.06) 0%,rgba(255,255,255,0.01) 50%,transparent 100%)"
-                :"linear-gradient(180deg,rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.1) 40%,transparent 100%)",
-              pointerEvents:"none",borderRadius:"0 0 45% 45%",zIndex:0,
-            }}/>
-            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:12,lineHeight:1.4,position:"relative",zIndex:1}}>{activePack.desc}</div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:14,position:"relative",zIndex:1}}>
+            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:12,lineHeight:1.4}}>{activePack.desc}</div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:14}}>
               {activePack.legend.map(item=><div key={item.label} style={{display:"flex",alignItems:"center",gap:8}}>
                 <span style={{width:14,height:14,borderRadius:7,display:"inline-block",flexShrink:0,position:"relative",
                   background:`radial-gradient(circle at 30% 25%,${dk?item.color+"FF":item.color+"EE"},${item.color}CC,${item.color}88)`,
