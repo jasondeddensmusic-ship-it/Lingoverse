@@ -10073,6 +10073,22 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   });
   React.useEffect(()=>{try{localStorage.setItem("vl_grammar_hl",grammarHl?"true":"false");}catch(e){}},[grammarHl]);
 
+  // Grammar color settings panel
+  const [showGrammarSettings,setShowGrammarSettings]=React.useState(false);
+  const defaultFilters={gender:true,nouns:true,verbs:true,adjectives:true,adverbs:true,prepositions:true,conjunctions:true,pronouns:true,numbers:true,particles:true,newWords:true};
+  const [grammarFilters,setGrammarFilters]=React.useState(()=>{
+    try{const v=localStorage.getItem("vl_grammar_filters");if(v)return{...defaultFilters,...JSON.parse(v)};}catch(e){}
+    return defaultFilters;
+  });
+  React.useEffect(()=>{try{localStorage.setItem("vl_grammar_filters",JSON.stringify(grammarFilters));}catch(e){}},[grammarFilters]);
+  const toggleFilter=(key)=>setGrammarFilters(prev=>({...prev,[key]:!prev[key]}));
+  const setPreset=(preset)=>{
+    if(preset==="none") setGrammarFilters(Object.fromEntries(Object.keys(defaultFilters).map(k=>[k,false])));
+    else if(preset==="all") setGrammarFilters(defaultFilters);
+    else if(preset==="gender") setGrammarFilters({...Object.fromEntries(Object.keys(defaultFilters).map(k=>[k,false])),gender:true,nouns:true});
+    else if(preset==="content") setGrammarFilters({...Object.fromEntries(Object.keys(defaultFilters).map(k=>[k,false])),verbs:true,adjectives:true,adverbs:true,nouns:true,gender:true});
+  };
+
   // ── Lesson Resume — save progress, offer continue on re-enter ──
   const progressKey=`lv_progress_${lessonId}`;
   useEffect(()=>{
@@ -10620,11 +10636,68 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               :"none",
             color:grammarHl?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
           }} onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>Aa</button>
+          {grammarHl&&<button onClick={()=>setShowGrammarSettings(!showGrammarSettings)} title="Color settings" style={{
+            width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
+            display:"flex",alignItems:"center",justifyContent:"center",
+            fontSize:15,transition:"all .2s",
+            background:showGrammarSettings
+              ?(dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(80,60,180,0.25))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))")
+              :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+            color:showGrammarSettings?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"var(--gray-400)"),
+            transform:showGrammarSettings?"rotate(60deg)":"rotate(0deg)",
+          }} onMouseEnter={e=>{e.currentTarget.style.opacity="0.8";}} onMouseLeave={e=>{e.currentTarget.style.opacity="1";}}>
+            <svg width={16} height={16} viewBox="0 0 24 24" fill="none"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" strokeWidth={2}/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" stroke="currentColor" strokeWidth={2}/></svg>
+          </button>}
           <span style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{si+1}/{total}</span>
         </div>
       </div>
+      {/* Grammar settings panel */}
+      {showGrammarSettings&&grammarHl&&(()=>{
+        const chipStyle=(active,color)=>({
+          display:"inline-flex",alignItems:"center",gap:5,padding:"5px 10px",borderRadius:8,
+          fontSize:12,fontWeight:600,cursor:"pointer",transition:"all .15s",border:"none",fontFamily:"inherit",
+          background:active?(dk?`${color}22`:`${color}18`):(dk?"rgba(255,255,255,0.04)":"rgba(0,0,0,0.03)"),
+          color:active?(dk?color:color):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+          boxShadow:active?`0 0 0 1.5px ${color}44`:"0 0 0 1px "+(dk?"rgba(255,255,255,0.08)":"rgba(0,0,0,0.08)"),
+        });
+        const dot=(c)=><span style={{width:8,height:8,borderRadius:4,background:c,display:"inline-block",flexShrink:0}}/>;
+        const presetBtn=(label,preset)=><button onClick={()=>setPreset(preset)} style={{
+          padding:"4px 10px",borderRadius:6,border:"none",cursor:"pointer",fontFamily:"inherit",
+          fontSize:11,fontWeight:700,transition:"all .15s",
+          background:dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)",
+          color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)",
+        }} onMouseEnter={e=>{e.currentTarget.style.background=dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.1)";e.currentTarget.style.color=dk?"#B8A8FA":"#7B5EE8";}}
+        onMouseLeave={e=>{e.currentTarget.style.background=dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)";e.currentTarget.style.color=dk?"rgba(255,255,255,0.5)":"var(--gray-500)";}}>{label}</button>;
+        return <div style={{
+          marginTop:8,marginBottom:4,padding:"12px 14px",borderRadius:14,
+          background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",
+          border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",
+          boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",
+        }}>
+          <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.4)":"var(--gray-400)",marginBottom:8,textTransform:"uppercase",letterSpacing:0.8}}>Color Filters</div>
+          <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:10}}>
+            <button onClick={()=>toggleFilter("gender")} style={chipStyle(grammarFilters.gender,"#4A8FE7")}>{dot("#4A8FE7")}Articles</button>
+            <button onClick={()=>toggleFilter("nouns")} style={chipStyle(grammarFilters.nouns,"#7B5EE8")}>{dot("#7B5EE8")}Nouns</button>
+            <button onClick={()=>toggleFilter("verbs")} style={chipStyle(grammarFilters.verbs,"#2ECDA7")}>{dot("#2ECDA7")}Verbs</button>
+            <button onClick={()=>toggleFilter("adjectives")} style={chipStyle(grammarFilters.adjectives,"#F59E0B")}>{dot("#F59E0B")}Adjectives</button>
+            <button onClick={()=>toggleFilter("adverbs")} style={chipStyle(grammarFilters.adverbs,"#F59E0B")}>{dot("#F59E0B")}Adverbs</button>
+            <button onClick={()=>toggleFilter("prepositions")} style={chipStyle(grammarFilters.prepositions,"#6366F1")}>{dot("#6366F1")}Prepositions</button>
+            <button onClick={()=>toggleFilter("conjunctions")} style={chipStyle(grammarFilters.conjunctions,"#6366F1")}>{dot("#6366F1")}Conjunctions</button>
+            <button onClick={()=>toggleFilter("pronouns")} style={chipStyle(grammarFilters.pronouns,"#F472B6")}>{dot("#F472B6")}Pronouns</button>
+            <button onClick={()=>toggleFilter("numbers")} style={chipStyle(grammarFilters.numbers,"#F472B6")}>{dot("#F472B6")}Numbers</button>
+            <button onClick={()=>toggleFilter("particles")} style={chipStyle(grammarFilters.particles,"#6366F1")}>{dot("#6366F1")}Particles</button>
+            <button onClick={()=>toggleFilter("newWords")} style={chipStyle(grammarFilters.newWords,"#E8960A")}>{dot("#E8960A")}New Words</button>
+          </div>
+          <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
+            {presetBtn("Gender only","gender")}
+            {presetBtn("Content words","content")}
+            {presetBtn("Everything","all")}
+            {presetBtn("None","none")}
+          </div>
+        </div>;
+      })()}
       <div className="xpbar" style={{height:22,borderRadius:12,position:"relative",boxShadow:"inset 0 3px 6px rgba(0,0,0,0.12), 0 1px 0 rgba(255,255,255,0.7)"}}><div className="xpbar-fill" style={{width:`${clamp(pct,3,100)}%`,borderRadius:12,boxShadow:`0 0 14px rgba(123,94,232,0.5), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -2px 0 rgba(0,0,0,0.12)`}}/><div style={{position:"absolute",inset:0,display:"flex",alignItems:"center",justifyContent:"center",fontSize:11,fontWeight:800,color:pct>50?"white":"var(--purple-accent-text)",textShadow:pct>50?"0 1px 3px rgba(0,0,0,0.4)":"none",letterSpacing:0.5}}>{clamp(Math.round(pct),0,100)}%</div></div>
-    
+
       {addFlag&&<div style={{textAlign:"center",marginTop:6,marginBottom:-8}}><FlagButton lessonId={lesson.id} stepIndex={si} stepData={steps[si]} addFlag={addFlag}/></div>}
     </div>
   );
@@ -11532,7 +11605,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       if (contractionPart) {
         const cEntry = dict[contractionPart.toLowerCase()];
         const cColor = cEntry ? getPosColor(cEntry, dk) : null;
-        if (cColor && grammarHl) {
+        const cPosEnabled = cEntry?.pos?.startsWith("article") ? grammarFilters.gender : true;
+        if (cColor && grammarHl && cPosEnabled) {
           spans.push(<span key={i+"c"} style={{color:cColor,fontWeight:700,cursor:"pointer",transition:"all .1s"}}
             onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
           >{contractionPart}</span>);
@@ -11600,10 +11674,27 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
       // ── GRAMMAR TOGGLE ON ──
       if (grammarHl) {
-        // Effective color: POS color for most words, gender color for nouns
-        const effectiveColor = (entry.pos === "noun" && genderUColor) ? genderUColor : posColor;
+        // Check if this POS category is enabled in grammarFilters
+        const posFilterMap = {
+          article:["gender"],article_m:["gender"],article_f:["gender"],article_n:["gender"],
+          article_c:["gender"],article_het:["gender"],article_indef:["gender"],article_pl:["gender"],
+          noun:["nouns"],verb:["verbs"],adjective:["adjectives"],adverb:["adverbs"],
+          preposition:["prepositions"],conjunction:["conjunctions"],
+          pronoun:["pronouns"],pronoun_subj:["pronouns"],pronoun_obj:["pronouns"],pronoun_poss:["pronouns"],
+          number:["numbers"],interjection:["numbers"],counter:["numbers"],
+          negation:["particles"],question:["particles"],demonstrative:["pronouns"],
+          particle_topic:["particles"],particle_subj:["particles"],particle_obj:["particles"],
+          particle_loc:["particles"],particle_dir:["particles"],particle_conn:["particles"],
+          particle_comp:["particles"],particle_poss:["particles"],particle_other:["particles"],
+        };
+        const filterKeys = posFilterMap[entry.pos] || [];
+        const posEnabled = filterKeys.length === 0 || filterKeys.some(k => grammarFilters[k]);
+        const nounEnabled = grammarFilters.nouns;
 
-        if (wordIsNew) {
+        // Effective color: POS color for most words, gender color for nouns
+        const effectiveColor = posEnabled ? ((entry.pos === "noun" && nounEnabled && genderUColor) ? genderUColor : posColor) : null;
+
+        if (wordIsNew && grammarFilters.newWords) {
           // NEW WORD GOLD BUBBLE — candy gloss VerumLingua style
           wordStyle = {
             color: effectiveColor || (dk ? "#F5C040" : "#D4880C"),
@@ -11622,7 +11713,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             transition: "all .15s",
             position: "relative",
           };
-        } else if (entry.pos === "noun" && genderUColor) {
+        } else if (entry.pos === "noun" && genderUColor && nounEnabled) {
           // Nouns: gender color text + solid gender understripe
           wordStyle = {
             color: genderUColor,
@@ -11660,7 +11751,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         };
       }
 
-      const isGoldBubble = grammarHl && wordIsNew;
+      const isGoldBubble = grammarHl && wordIsNew && grammarFilters.newWords;
       spans.push(
         <span key={contractionPart ? i+"w" : i}
           onClick={clickHandler}
