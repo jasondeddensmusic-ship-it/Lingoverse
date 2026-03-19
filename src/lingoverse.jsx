@@ -7837,7 +7837,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const allWords=useMemo(()=>{
     const db=WORD_DB[lang];
     if(!db||Object.keys(db).length===0) return [];
-    return Object.values(db).filter(e=>e.pos!=="unknown"&&!(e.word||"").trim().includes(" ")).sort((a,b)=>(a.display||a.word||"").localeCompare(b.display||b.word||""));
+    return Object.values(db).filter(e=>e.pos!=="unknown"&&!(e.word||"").trim().includes(" ")).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
   },[lang]);
   const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
 
@@ -7854,7 +7854,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ── State ──
   const [mode,setMode]=useState("search");
   const [search,setSearch]=useState("");
-  const [expanded,setExpanded]=useState(null);
+  const [expanded,setExpanded]=useState(null); // stores the actual entry object or null
   const [filterOpen,setFilterOpen]=useState(false);
   const [filterPOS,setFilterPOS]=useState(new Set());
   const [filterLevel,setFilterLevel]=useState(new Set());
@@ -7889,10 +7889,10 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     if(search){
       const s=search.toLowerCase();
       pool=pool.filter(e=>{
-        const w=(e.word||"").toLowerCase(),d=(e.display||"").toLowerCase(),en=(e.en||"").toLowerCase(),ph=(e.phonetic||"").toLowerCase();
-        return w.includes(s)||d.includes(s)||en.includes(s)||ph.includes(s);
+        const w=(e.word||"").toLowerCase(),d=(e.display||"").toLowerCase(),en=(e.en||"").toLowerCase();
+        return w.includes(s)||d.includes(s)||en.includes(s);
       }).sort((a,b)=>{
-        const aW=a.word.toLowerCase(),bW=b.word.toLowerCase();
+        const aW=(a.word||"").toLowerCase(),bW=(b.word||"").toLowerCase();
         if(aW===s&&bW!==s)return -1;if(bW===s&&aW!==s)return 1;
         if(aW.startsWith(s)&&!bW.startsWith(s))return -1;if(bW.startsWith(s)&&!aW.startsWith(s))return 1;
         return aW.localeCompare(bW);
@@ -7902,9 +7902,10 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   },[allWords,search,filterPOS,filterLevel,filterGender,filterTaughtOnly]);
 
   // ── Browse: available letters (A-Z and language-specific like umlauts) ──
+  // Browse uses BARE word (entry.word) — not display with article prefix
   const browseLetters=useMemo(()=>{
     const set=new Set();
-    allWords.forEach(e=>{const c=(e.display||e.word||"")[0];if(c&&/\p{L}/u.test(c))set.add(c.toUpperCase());});
+    allWords.forEach(e=>{const c=(e.word||"")[0];if(c&&/\p{L}/u.test(c))set.add(c.toUpperCase());});
     return [...set].sort((a,b)=>a.localeCompare(b));
   },[allWords]);
 
@@ -7913,7 +7914,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const prefix=browsePath[0].toLowerCase();
     const set=new Set();
     allWords.forEach(e=>{
-      const w=(e.display||e.word||"").toLowerCase();
+      const w=(e.word||"").toLowerCase();
       if(w.startsWith(prefix)&&w.length>=2) set.add(w.substring(0,2));
     });
     return [...set].sort((a,b)=>a.localeCompare(b)).map(s=>s.charAt(0).toUpperCase()+s.charAt(1));
@@ -7922,7 +7923,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const browseWords=useMemo(()=>{
     if(browsePath.length!==2)return [];
     const prefix=(browsePath[0]+browsePath[1]).toLowerCase();
-    return allWords.filter(e=>(e.display||e.word||"").toLowerCase().startsWith(prefix));
+    return allWords.filter(e=>(e.word||"").toLowerCase().startsWith(prefix));
   },[allWords,browsePath]);
 
   // ── Review: init ──
@@ -7965,11 +7966,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const bubbleBorder=dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)";
   const bubbleShadow=dk?"0 6px 20px rgba(0,0,0,0.3), 0 0 14px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), 0 0 12px rgba(180,165,240,0.15), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)";
   const bubbleGloss=dk?"linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)";
-  // Filter: only single words (no phrases/multi-word entries)
-  const isSingleWord=(entry)=>{const w=(entry.word||"").trim();return !w.includes(" ");};
-
   // ── Word row V6: compound bubble style, gloss arc, popup on click ──
-  const WordRow=({entry,wKey})=>{
+  const WordRow=({entry})=>{
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
     const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
@@ -7981,7 +7979,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     }
     const transColor=grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)");
     return(
-      <div onClick={()=>setExpanded(expanded===wKey?null:wKey)} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+      <div onClick={()=>setExpanded(expanded===entry?null:entry)} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
         <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
         <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
           <div style={{flex:1,minWidth:0}}>
@@ -8000,14 +7998,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const badgePill=(hex,label)=>(<span style={{display:"inline-block",padding:"3px 10px",borderRadius:10,fontSize:10,fontWeight:800,color:"white",letterSpacing:0.3,textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",overflow:"hidden",background:dk?`linear-gradient(180deg,${hex}cc 0%,${hex} 50%,${hex}bb 100%)`:`linear-gradient(180deg,${hex}dd 0%,${hex} 55%,${hex}aa 100%)`,boxShadow:`0 2px 8px ${hex}44, inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)`}}>{label}</span>);
 
   const WordPopup=()=>{
-    if(!expanded)return null;
-    const parts=expanded.split(":");
-    const idx=parseInt(parts[parts.length-1],10);
-    const prefix=parts[0];
-    let entry=null;
-    if(prefix==="s")entry=filteredWords[idx];
-    else if(prefix==="b")entry=browseWords[idx];
-    if(!entry)return null;
+    if(!expanded||typeof expanded!=="object")return null;
+    const entry=expanded;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
     const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
@@ -8133,8 +8125,22 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </div>
         </div>
 
-        {/* Filter bar + count */}
+        {/* Grammar color toggle + Filter bar + count */}
         <div style={{display:"flex",gap:8,marginBottom:14,alignItems:"center"}}>
+          {/* Aa grammar colorizer toggle */}
+          <button onClick={()=>{const nv=grammarHl?"false":"true";localStorage.setItem("grammarHl",nv);window.location.reload();}}
+            onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow="0 0 28px rgba(123,94,232,0.6), 0 8px 22px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";}}
+            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
+            style={{
+              padding:"8px 14px",borderRadius:16,border:"none",cursor:"pointer",fontFamily:"Quicksand, sans-serif",fontSize:14,fontWeight:900,transition:"all .3s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden",letterSpacing:0.3,
+              background:grammarHl?(dk?"linear-gradient(180deg,#E8DEFF 0%,#D4C8FF 4%,#C0AEF8 10%,#A488F0 22%,#8B6AE4 38%,#7B5EE8 52%,#6545C8 72%,#5840B8 88%,#4A2BA6 100%)":"linear-gradient(180deg,#DDD0FF 0%,#C8BAFF 6%,#B8A8FA 14%,#9B7AE8 30%,#7B5EE8 52%,#6545C8 76%,#5840B8 90%,#4A2BA6 100%)"):(dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)"),
+              color:grammarHl?"white":(dk?"rgba(200,184,255,0.95)":"#6030C0"),
+              textShadow:grammarHl?"0 1px 3px rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.15)":"none",
+              boxShadow:grammarHl?(dk?"0 0 24px rgba(123,94,232,0.6), 0 6px 20px rgba(85,53,181,0.55), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -4px 0 rgba(0,0,0,0.22)":"0 0 20px rgba(123,94,232,0.5), 0 6px 20px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.18)"):(dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"),
+            }}>
+            <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:grammarHl?"linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.25) 35%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
+            <span style={{position:"relative",zIndex:1}}>Aa</span>
+          </button>
           <button onClick={()=>setFilterOpen(p=>!p)}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow="0 0 28px rgba(123,94,232,0.6), 0 8px 22px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
@@ -8199,7 +8205,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <div style={{fontSize:12,marginTop:4}}>Try a different search or filter</div>
         </div>}
         <div style={{display:"grid",gap:0}}>
-          {filteredWords.map((e,i)=><WordRow key={e.word+":"+i} entry={e} wKey={"s:"+e.word+":"+i}/>)}
+          {filteredWords.map((e,i)=><WordRow key={e.word+":"+i} entry={e}/>)}
         </div>
       </div>}
 
@@ -8276,7 +8282,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </div>
           {browseWords.length===0?<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words found</div>
           :<div style={{display:"grid",gap:0}}>
-            {browseWords.map((e,i)=><WordRow key={e.word+":"+i} entry={e} wKey={"b:"+e.word+":"+i}/>)}
+            {browseWords.map((e,i)=><WordRow key={e.word+":"+i} entry={e}/>)}
           </div>}
         </div>}
       </div>}
