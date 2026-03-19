@@ -13,6 +13,9 @@ import spanishUnits from './data/units-spanish.js';
 import otherUnits from './data/units-other.js';
 import { GERMAN_CEFR } from './data/cefr-reference/german.js';
 import { KOREAN_CEFR } from './data/cefr-reference/korean.js';
+import { DUTCH_CEFR } from './data/cefr-reference/dutch.js';
+import { FRENCH_CEFR } from './data/cefr-reference/french.js';
+import { SPANISH_CEFR } from './data/cefr-reference/spanish.js';
 
 // In-memory storage fallback (localStorage not available in sandbox)
 const _memStore = {};
@@ -8591,7 +8594,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
 // ━━━━━━━━━━ CEFR REFERENCE PAGE ━━━━━━━━━━
 
-const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR };
+const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR };
 
 function CefrReferencePage({lang}){
   const dk=document.documentElement.classList.contains("dark");
