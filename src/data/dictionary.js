@@ -40,14 +40,14 @@ const FUNCTION_WORD_LISTS = {
 // Nouns get gender color via GENDER_COLORS (not from this map)
 export const POS_COLORS = {
   // 1. GENDER — per-gender article colors
-  "article":          { light: "#4A8FE7", dark: "#7AB8FF" },
-  "article_m":        { light: "#4A8FE7", dark: "#7AB8FF" },
-  "article_f":        { light: "#E8475E", dark: "#F58888" },
-  "article_n":        { light: "#7B5EE8", dark: "#A890FF" },
-  "article_c":        { light: "#4A8FE7", dark: "#7AB8FF" },
+  "article":          { light: "#0091FF", dark: "#64B5F6" },
+  "article_m":        { light: "#0091FF", dark: "#64B5F6" },
+  "article_f":        { light: "#D50000", dark: "#EF5350" },
+  "article_n":        { light: "#FF8F00", dark: "#FFB300" },
+  "article_c":        { light: "#0091FF", dark: "#64B5F6" },
   "article_het":      { light: "#E8960A", dark: "#F5C040" },
-  "article_indef":    { light: "#94A3B8", dark: "#CBD5E1" },
-  "article_pl":       { light: "#6366F1", dark: "#818CF8" },
+  "article_indef":    { light: "#8D6E63", dark: "#BCAAA4" },
+  "article_pl":       { light: "#00BFA5", dark: "#64FFDA" },
   // NOUN — text = gender color via GENDER_COLORS, understripe = gender color
   "noun":             { light: null, dark: null, understripe: true },
   // 2. VERBS — teal
@@ -81,16 +81,16 @@ export const POS_COLORS = {
   "particle_other":   { light: "#6366F1", dark: "#818CF8" },
   // Special
   "new_word":         { light: "#E8960A", dark: "#F5C040", bubble: true },
-  "unknown":          { light: "#94A3B8", dark: "#94A3B8" },
+  "unknown":          { light: "#78909C", dark: "#B0BEC5" },
 };
 
 // Gender understripe colors (for nouns)
 export const GENDER_COLORS = {
-  m:  { light: "#4A8FE7", dark: "#7AB8FF" },  // masculine = blue
-  f:  { light: "#E8475E", dark: "#F58888" },  // feminine = coral
-  n:  { light: "#7B5EE8", dark: "#A890FF" },  // neuter = purple
-  c:  { light: "#4A8FE7", dark: "#7AB8FF" },  // common = blue (Dutch de)
-  pl: { light: "#6366F1", dark: "#818CF8" },  // plural = indigo
+  m:  { light: "#0091FF", dark: "#64B5F6" },  // masculine = vivid sky blue
+  f:  { light: "#D50000", dark: "#EF5350" },  // feminine = deep crimson
+  n:  { light: "#FF8F00", dark: "#FFB300" },  // neuter = vivid amber
+  c:  { light: "#0091FF", dark: "#64B5F6" },  // common = vivid sky blue (Dutch de)
+  pl: { light: "#00BFA5", dark: "#64FFDA" },  // plural = deep teal
 };
 
 // ── Helpers ──
@@ -611,19 +611,19 @@ export function pillGradient(hex) {
   return `linear-gradient(180deg, ${rgb(l2)} 0%, ${rgb(l1)} 20%, ${hex} 50%, ${rgb(d1)} 80%, ${rgb(d2)} 100%)`;
 }
 
-// Shared color constants for pack definitions
-const C_BLUE = { light: "#4A8FE7", dark: "#7AB8FF" };
-const C_CORAL = { light: "#E8475E", dark: "#F58888" };
-const C_PURPLE = { light: "#7B5EE8", dark: "#A890FF" };
-const C_GRAY = { light: "#94A3B8", dark: "#CBD5E1" };
-const C_GOLD = { light: "#E8960A", dark: "#F5C040" };
-const C_INDIGO = { light: "#6366F1", dark: "#818CF8" };
+// Shared color constants for pack definitions — HIGH CONTRAST, zero purple
+const C_BLUE = { light: "#0091FF", dark: "#64B5F6" };       // Vivid sky blue (masculine)
+const C_RED = { light: "#D50000", dark: "#EF5350" };         // Deep crimson (feminine)
+const C_AMBER = { light: "#FF8F00", dark: "#FFB300" };       // Vivid amber (German neuter das)
+const C_TEAL_GENDER = { light: "#00BFA5", dark: "#64FFDA" }; // Deep teal (plural)
+const C_BRONZE = { light: "#8D6E63", dark: "#BCAAA4" };      // Warm bronze (indefinite)
+const C_GOLD = { light: "#E8960A", dark: "#F5C040" };        // Dutch het (legacy, keep)
+// Korean particle + misc colors
 const C_TEAL = { light: "#2ECDA7", dark: "#50E0C0" };
-const C_AMBER = { light: "#F59E0B", dark: "#FCD34D" };
-const C_FUCHSIA = { light: "#E879F9", dark: "#F0ABFC" };
-const C_GREEN = { light: "#22C55E", dark: "#4ADE80" };
-const C_ORANGE = { light: "#F97316", dark: "#FB923C" };
-const C_PINK = { light: "#EC4899", dark: "#F472B6" };
+const C_KO_AMBER = { light: "#F59E0B", dark: "#FCD34D" };
+const C_CORAL = { light: "#E8475E", dark: "#F58888" };
+const C_PURPLE_KO = { light: "#7B5EE8", dark: "#A890FF" };
+const C_WARM_SLATE = { light: "#78909C", dark: "#B0BEC5" }; // Warm blue-grey (misc/other, NOT flat grey)
 
 // High-contrast Word Type colors — NO purple/indigo (conflicts with theme)
 const C_ACID_GREEN = { light: "#00C853", dark: "#69F0AE" };
@@ -688,17 +688,17 @@ export const GRAMMAR_PACKS = {
         id: "gender", label: "Gender", icon: "der",
         desc: "Articles, nouns, and adjectives by grammatical gender",
         colorMap: {
-          article_m: { ...C_BLUE }, article_f: { ...C_CORAL }, article_n: { ...C_PURPLE },
-          article_indef: { ...C_GRAY },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_CORAL, understripe: true },
-          noun_n: { ...C_PURPLE, understripe: true },
-          adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL }, adjective_n: { ...C_PURPLE },
+          article_m: { ...C_BLUE }, article_f: { ...C_RED }, article_n: { ...C_AMBER },
+          article_indef: { ...C_BRONZE },
+          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
+          noun_n: { ...C_AMBER, understripe: true },
+          adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED }, adjective_n: { ...C_AMBER },
         },
         legend: [
-          { label: "Masculine (der)", color: "#4A8FE7", key: "m", desc: "der Hund, der Mann, der Tisch. Most agent nouns." },
-          { label: "Feminine (die)", color: "#E8475E", key: "f", desc: "die Frau, die Katze, die Lampe. Most -ung, -keit, -heit." },
-          { label: "Neuter (das)", color: "#7B5EE8", key: "n", desc: "das Kind, das Haus, das Buch. Most -chen, -lein, -ment." },
-          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "ein/eine. Gender not yet determined from context." },
+          { label: "Masculine (der)", color: "#0091FF", key: "m", desc: "der Hund, der Mann, der Tisch. Most agent nouns." },
+          { label: "Feminine (die)", color: "#D50000", key: "f", desc: "die Frau, die Katze, die Lampe. Most -ung, -keit, -heit." },
+          { label: "Neuter (das)", color: "#FF8F00", key: "n", desc: "das Kind, das Haus, das Buch. Most -chen, -lein, -ment." },
+          { label: "Indefinite", color: "#8D6E63", key: "indef", desc: "ein/eine. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -725,13 +725,13 @@ export const GRAMMAR_PACKS = {
         desc: "Topic, subject, object, location, and connector particles",
         colorMap: {
           particle_topic: { ...C_BLUE }, particle_subj: { ...C_CORAL },
-          particle_obj: { ...C_AMBER }, particle_loc: { ...C_TEAL },
-          particle_dir: { ...C_TEAL }, particle_conn: { ...C_PURPLE },
-          particle_comp: { ...C_PURPLE }, particle_poss: { ...C_PURPLE },
-          particle_other: { ...C_GRAY },
+          particle_obj: { ...C_KO_AMBER }, particle_loc: { ...C_TEAL },
+          particle_dir: { ...C_TEAL }, particle_conn: { ...C_PURPLE_KO },
+          particle_comp: { ...C_PURPLE_KO }, particle_poss: { ...C_PURPLE_KO },
+          particle_other: { ...C_WARM_SLATE },
         },
         legend: [
-          { label: "\uc740/\ub294 Topic", color: "#4A8FE7", key: "topic", desc: "Marks the topic: what you're talking about." },
+          { label: "\uc740/\ub294 Topic", color: "#0091FF", key: "topic", desc: "Marks the topic: what you're talking about." },
           { label: "\uc774/\uac00 Subject", color: "#E8475E", key: "subj", desc: "Marks who does the action." },
           { label: "\uc744/\ub97c Object", color: "#F59E0B", key: "obj", desc: "Marks what receives the action." },
           { label: "\uc5d0/\uc5d0\uc11c Location", color: "#2ECDA7", key: "loc", desc: "Marks where or when something happens." },
@@ -745,7 +745,7 @@ export const GRAMMAR_PACKS = {
         colorMap: {},
         legend: [
           { label: "\ud574\uc694\uccb4 Polite", color: "#2ECDA7", key: "haeyo", desc: "Standard polite speech. Used with most people." },
-          { label: "\ud569\uc1fc\uccb4 Formal", color: "#4A8FE7", key: "hapsyo", desc: "Highest formal level. News, presentations, service." },
+          { label: "\ud569\uc1fc\uccb4 Formal", color: "#0091FF", key: "hapsyo", desc: "Highest formal level. News, presentations, service." },
           { label: "\ubc18\ub9d0 Casual", color: "#F59E0B", key: "banmal", desc: "Informal speech. Close friends, younger people." },
         ],
         placeholder: true,
@@ -762,14 +762,14 @@ export const GRAMMAR_PACKS = {
         colorMap: {
           article_c: { ...C_BLUE }, article_m: { ...C_BLUE },
           article_het: { ...C_GOLD }, article_n: { ...C_GOLD },
-          article_indef: { ...C_GRAY },
+          article_indef: { ...C_BRONZE },
           noun_c: { ...C_BLUE, understripe: true }, noun_m: { ...C_BLUE, understripe: true },
           noun_n: { ...C_GOLD, understripe: true },
         },
         legend: [
-          { label: "de (common)", color: "#4A8FE7", key: "c", desc: "de hond, de tafel. Most Dutch nouns are de-words." },
+          { label: "de (common)", color: "#0091FF", key: "c", desc: "de hond, de tafel. Most Dutch nouns are de-words." },
           { label: "het (neuter)", color: "#E8960A", key: "n", desc: "het huis, het kind. About 25% of Dutch nouns." },
-          { label: "een (indefinite)", color: "#94A3B8", key: "indef", desc: "een boek. No gender distinction for indefinite." },
+          { label: "een (indefinite)", color: "#8D6E63", key: "indef", desc: "een boek. No gender distinction for indefinite." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -783,17 +783,17 @@ export const GRAMMAR_PACKS = {
         id: "gender", label: "Gender", icon: "le",
         desc: "Articles, nouns, and adjectives by grammatical gender",
         colorMap: {
-          article_m: { ...C_BLUE }, article_f: { ...C_CORAL },
-          article_pl: { ...C_INDIGO }, article_indef: { ...C_GRAY },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_CORAL, understripe: true },
-          noun_pl: { ...C_INDIGO, understripe: true },
-          adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL },
+          article_m: { ...C_BLUE }, article_f: { ...C_RED },
+          article_pl: { ...C_TEAL_GENDER }, article_indef: { ...C_BRONZE },
+          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
+          noun_pl: { ...C_TEAL_GENDER, understripe: true },
+          adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED },
         },
         legend: [
-          { label: "le (masculine)", color: "#4A8FE7", key: "m", desc: "le livre, le chat. Masculine nouns and articles." },
-          { label: "la (feminine)", color: "#E8475E", key: "f", desc: "la maison, la table. Feminine nouns and articles." },
-          { label: "les (plural)", color: "#6366F1", key: "pl", desc: "les enfants, les livres. All plural nouns." },
-          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "un/une. Gender not yet determined from context." },
+          { label: "le (masculine)", color: "#0091FF", key: "m", desc: "le livre, le chat. Masculine nouns and articles." },
+          { label: "la (feminine)", color: "#D50000", key: "f", desc: "la maison, la table. Feminine nouns and articles." },
+          { label: "les (plural)", color: "#00BFA5", key: "pl", desc: "les enfants, les livres. All plural nouns." },
+          { label: "Indefinite", color: "#8D6E63", key: "indef", desc: "un/une. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
@@ -807,17 +807,17 @@ export const GRAMMAR_PACKS = {
         id: "gender", label: "Gender", icon: "el",
         desc: "Articles, nouns, and adjectives by grammatical gender",
         colorMap: {
-          article_m: { ...C_BLUE }, article_f: { ...C_CORAL },
-          article_pl: { ...C_INDIGO }, article_indef: { ...C_GRAY },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_CORAL, understripe: true },
-          noun_pl: { ...C_INDIGO, understripe: true },
-          adjective_m: { ...C_BLUE }, adjective_f: { ...C_CORAL },
+          article_m: { ...C_BLUE }, article_f: { ...C_RED },
+          article_pl: { ...C_TEAL_GENDER }, article_indef: { ...C_BRONZE },
+          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
+          noun_pl: { ...C_TEAL_GENDER, understripe: true },
+          adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED },
         },
         legend: [
-          { label: "el (masculine)", color: "#4A8FE7", key: "m", desc: "el libro, el gato. Masculine nouns and articles." },
-          { label: "la (feminine)", color: "#E8475E", key: "f", desc: "la casa, la mesa. Feminine nouns and articles." },
-          { label: "los/las (plural)", color: "#6366F1", key: "pl", desc: "los libros, las casas. All plural nouns." },
-          { label: "Indefinite", color: "#94A3B8", key: "indef", desc: "un/una. Gender not yet determined from context." },
+          { label: "el (masculine)", color: "#0091FF", key: "m", desc: "el libro, el gato. Masculine nouns and articles." },
+          { label: "la (feminine)", color: "#D50000", key: "f", desc: "la casa, la mesa. Feminine nouns and articles." },
+          { label: "los/las (plural)", color: "#00BFA5", key: "pl", desc: "los libros, las casas. All plural nouns." },
+          { label: "Indefinite", color: "#8D6E63", key: "indef", desc: "un/una. Gender not yet determined from context." },
         ],
       },
       { ...WORDTYPE_PACK },
