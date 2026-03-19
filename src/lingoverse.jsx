@@ -12,6 +12,7 @@ import frenchUnits from './data/units-french.js';
 import spanishUnits from './data/units-spanish.js';
 import otherUnits from './data/units-other.js';
 import { GERMAN_CEFR } from './data/cefr-reference/german.js';
+import { KOREAN_CEFR } from './data/cefr-reference/korean.js';
 
 // In-memory storage fallback (localStorage not available in sandbox)
 const _memStore = {};
@@ -8590,7 +8591,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
 // ━━━━━━━━━━ CEFR REFERENCE PAGE ━━━━━━━━━━
 
-const CEFR_REFS = { de: GERMAN_CEFR };
+const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR };
 
 function CefrReferencePage({lang}){
   const dk=document.documentElement.classList.contains("dark");
@@ -8605,7 +8606,7 @@ function CefrReferencePage({lang}){
       <div style={{fontSize:48,marginBottom:16}}>{"📚"}</div>
       <h2 className="hd" style={{fontSize:22,fontWeight:800,color:"var(--gray-800)",marginBottom:8,fontFamily:"'Quicksand',sans-serif"}}>CEFR Reference</h2>
       <p style={{color:"var(--gray-500)",fontSize:14,fontFamily:"'Nunito',sans-serif"}}>No CEFR reference data loaded for this language yet.</p>
-      <p style={{color:"var(--gray-400)",fontSize:13,fontFamily:"'Nunito',sans-serif",marginTop:8}}>Available: German</p>
+      <p style={{color:"var(--gray-400)",fontSize:13,fontFamily:"'Nunito',sans-serif",marginTop:8}}>Available: {Object.keys(CEFR_REFS).map(k=>({de:"German",ko:"Korean",nl:"Dutch",fr:"French",es:"Spanish"}[k]||k)).join(", ")}</p>
     </div>
   );
 
@@ -8839,7 +8840,37 @@ function CefrReferencePage({lang}){
       {/* PARTICLES & CONNECTORS TAB */}
       {tab==="particles"&&(
         <div>
-          {/* Modal particles */}
+          {/* Korean-style particles (by level) */}
+          {ref.particles&&(
+            <div style={{...panelStyle,marginBottom:20}}>
+              <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",pointerEvents:"none"}}/>
+              <h3 style={{fontSize:16,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",marginBottom:12,position:"relative",zIndex:1}}>Particles</h3>
+              {["A1","A2","B1","B2"].map(lv=>{
+                const items=ref.particles?.[lv];
+                if(!items||!items.length) return null;
+                if(level!=="ALL"&&level!==lv) return null;
+                return(
+                  <div key={lv} style={{marginBottom:12,position:"relative",zIndex:1}}>
+                    <LevelPill lv={lv}/>
+                    <div style={{marginTop:6}}>
+                      {items.map((pt,i)=>(
+                        <div key={i} style={rowStyle}>
+                          <GlossArc/>
+                          <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
+                            <span style={{fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",fontSize:15,minWidth:60}}>{pt.w}</span>
+                            <span style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",textTransform:"uppercase",letterSpacing:0.5,minWidth:60}}>{pt.cat}</span>
+                            <span style={{fontSize:12,color:"#2ECDA7",fontFamily:"'Nunito',sans-serif",fontWeight:600}}>{pt.meaning}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Modal particles (German-style) */}
           {ref.modalParticles&&(
             <div style={{...panelStyle,marginBottom:20}}>
               <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",pointerEvents:"none"}}/>
