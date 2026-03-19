@@ -11540,16 +11540,25 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       // Look up main word in WORD_DB
       const wordKey = mainWord.toLowerCase();
       const entry = dict[wordKey] || null;
-      const wordIsNew = isNewWord(wordKey, effectiveLang, lessonId);
-      const posColor = entry ? getPosColor(entry, dk) : null;
-      const genderUColor = (entry && entry.pos === "noun" && entry.gender) ? getGenderColor(entry, dk) : null;
+      // Only treat as "known target word" if it has a REAL POS (not "unknown" from example extraction)
+      const isKnownTarget = entry && entry.pos !== "unknown";
+      const wordIsNew = isKnownTarget && isNewWord(wordKey, effectiveLang, lessonId);
+      const posColor = isKnownTarget ? getPosColor(entry, dk) : null;
+      const genderUColor = (isKnownTarget && entry.pos === "noun" && entry.gender) ? getGenderColor(entry, dk) : null;
+
+      // Unknown words (not in WORD_DB or pos="unknown") → plain text, no styling
+      if (!isKnownTarget) {
+        spans.push(<span key={contractionPart ? i+"w" : i}>{mainWord}</span>);
+        if (trailingPunct) spans.push(<span key={i+"p"}>{trailingPunct}</span>);
+        continue;
+      }
 
       // Build style based on state
       let wordStyle = {};
       let clickHandler = null;
 
       // Click handler: opens popup/WordBubble
-      if (entry && entry.taught) {
+      if (entry.taught) {
         // Taught word → open full WordBubble
         clickHandler = (e) => {
           e.stopPropagation();
@@ -11566,39 +11575,43 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           });
         };
       } else {
-        // Untaught or unknown word → open mini popup
+        // Function word (in WORD_DB but not taught) → open mini popup with POS info
         clickHandler = (e) => {
           e.stopPropagation();
           setMiniWordPopup({
             word: mainWord,
-            en: entry ? entry.en : null,
-            pos: entry ? entry.pos : null,
-            article: entry ? entry.article : null,
-            level: entry ? entry.level : null,
-            example: entry ? entry.example : null,
-            exampleEn: entry ? entry.exampleEn : null,
+            en: entry.en || null,
+            pos: entry.pos || null,
+            article: entry.article || null,
+            level: entry.level || null,
+            example: entry.example || null,
+            exampleEn: entry.exampleEn || null,
             lang: effectiveLang,
-            isUnknown: !entry,
             isNewWord: wordIsNew,
           });
         };
       }
 
-      // ── NEW WORD GOLD BUBBLE (always shows, regardless of grammar toggle) ──
+      // ── NEW WORD GOLD BUBBLE — candy gloss VerumLingua style ──
       if (wordIsNew) {
         wordStyle = {
-          color: dk ? "#F5C040" : "#E8960A",
-          fontWeight: 700,
+          color: dk ? "#F5C040" : "#D4880C",
+          fontWeight: 800,
           cursor: "pointer",
-          background: dk ? "rgba(232,150,10,0.12)" : "rgba(232,150,10,0.08)",
-          border: dk ? "1.5px solid rgba(232,150,10,0.35)" : "1.5px solid rgba(232,150,10,0.3)",
-          borderRadius: 6,
-          padding: "1px 4px",
-          boxShadow: "0 1px 3px rgba(232,150,10,0.15)",
+          background: dk
+            ? "linear-gradient(180deg, rgba(245,192,64,0.18) 0%, rgba(232,150,10,0.10) 50%, rgba(212,136,12,0.06) 100%)"
+            : "linear-gradient(180deg, rgba(255,243,199,0.95) 0%, rgba(253,230,138,0.7) 50%, rgba(245,192,64,0.25) 100%)",
+          border: dk ? "1.5px solid rgba(245,192,64,0.4)" : "1.5px solid rgba(232,150,10,0.35)",
+          borderRadius: 8,
+          padding: "1px 6px",
+          boxShadow: dk
+            ? "0 2px 8px rgba(232,150,10,0.2), inset 0 1px 0 rgba(255,255,255,0.08)"
+            : "0 2px 8px rgba(232,150,10,0.15), inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(232,150,10,0.1)",
           display: "inline-block",
-          transition: "all .1s",
+          transition: "all .15s",
+          position: "relative",
         };
-        // If grammar toggle ON and we have a POS color, use it instead of gold text
+        // If grammar toggle ON and we have a POS color, use it as text color inside the gold bubble
         if (grammarHl && posColor) {
           wordStyle.color = posColor;
         }
@@ -11613,36 +11626,33 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           paddingBottom: 1,
           borderRadius: 3,
           display: "inline",
-          transition: "all .1s",
+          transition: "all .15s",
         };
-        // Nouns get gender understripe instead of POS dashed border
-        if (entry && entry.pos === "noun" && genderUColor) {
-          wordStyle.color = dk ? "rgba(240,234,255,0.95)" : "var(--gray-800)"; // nouns use default text
+        // Nouns: gender color text + gender understripe
+        if (entry.pos === "noun" && genderUColor) {
+          wordStyle.color = genderUColor;
           wordStyle.borderBottom = "2.5px solid " + genderUColor;
         }
       }
-      // ── GRAMMAR TOGGLE OFF: default appearance, clickable ──
+      // ── GRAMMAR TOGGLE OFF: subtle clickable, no colors ──
       else {
         wordStyle = {
           cursor: "pointer",
-          borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.25)" : "1.5px dashed rgba(112,80,216,0.2)",
+          borderBottom: dk ? "1.5px dashed rgba(200,190,255,0.2)" : "1.5px dashed rgba(112,80,216,0.15)",
           paddingBottom: 1,
           borderRadius: 2,
           display: "inline",
-          transition: "all .1s",
+          transition: "all .15s",
         };
-        // Taught words get slightly bolder
-        if (entry && entry.taught) {
-          wordStyle.fontWeight = 600;
-        }
+        if (entry.taught) wordStyle.fontWeight = 600;
       }
 
       spans.push(
         <span key={contractionPart ? i+"w" : i}
           onClick={clickHandler}
           style={wordStyle}
-          onMouseEnter={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.2)":"rgba(232,150,10,0.12)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
-          onMouseLeave={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.12)":"rgba(232,150,10,0.08)") : "transparent"; }}
+          onMouseEnter={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(232,150,10,0.25)":"rgba(253,230,138,0.9)") : (dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"); }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = wordIsNew ? (dk?"rgba(245,192,64,0.18)":"rgba(255,243,199,0.95)") : "transparent"; }}
         >{mainWord}</span>
       );
 
@@ -11898,7 +11908,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {/* Goals — clean rows with green bullets */}
           {st.goals&&st.goals.length>0&&<div style={{borderTop:"1.5px solid var(--gray-100)",padding:"14px 22px"}}>
             <div style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)",marginBottom:10}}>{t("le_in_this_lesson",baseLang)}</div>
-            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800,fontSize:12}}>▸</span><span>{universalHl(g, lang)}</span></div>)}
+            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--teal-text)",fontWeight:800,fontSize:12}}>▸</span><span>{g}</span></div>)}
           </div>}
         </div>
 
@@ -11978,10 +11988,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)"}}>{teachLabel}</span>
             {st.nl&&/[^\u0000-\u007F]/.test(st.nl)&&<SpeakerButton text={st.nl} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={15} showToast={showToast} />}
           </div>
-          {/* nl — big centered, serif */}
+          {/* nl — big centered */}
           <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
             <h3 style={{fontSize:42,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",margin:0,lineHeight:1.2}}>
-              {universalHl(st.nl, lang)}
+              {st.nl}
             </h3>
           </div>
           {/* Translation */}
@@ -12139,10 +12149,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               {artWord&&artWord[1] ? (
                 <span className="hd" style={{fontSize:nlSize,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
                   <span style={{color:c.pillText}}>{cap(artWord[0])}</span>{" "}
-                  <span style={{color:"var(--gray-800)"}}>{artWord[1]}</span>
+                  <span style={{color: grammarHl ? c.pillText : "var(--gray-800)"}}>{artWord[1]}</span>
                 </span>
               ) : (
-                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{universalHl(st.nl, lang)}</span>
+                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{st.nl}</span>
               )}
             </div>
           </div>
