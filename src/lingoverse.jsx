@@ -10596,52 +10596,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   const retryLesson=()=>{setSi(0);setScore(0);setDone(false);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);setShowTrans(false);};
 
-  if(done){
-    const cappedScore=Math.min(score,totalEx);
-    const p=totalEx>0?Math.round((cappedScore/totalEx)*100):100;
-    // Glossy candy button with focus glow
-    const candyBtn=(label,onClick,idx,{grad,shadow}={})=>{
-      const g=grad||"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)";
-      const sh=shadow||"rgba(60,60,80,0.4)";
-      const focused=doneFocus===idx;
-      const glowShadow=`0 0 28px ${sh}, 0 0 48px ${sh.replace(/[\d.]+\)$/,'0.15)')}, 0 8px 24px ${sh}, inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)`;
-      const restShadow=`0 6px 20px ${sh}, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
-      return <button onClick={onClick} style={{fontSize:15,padding:"14px 28px",borderRadius:18,fontWeight:800,cursor:"pointer",fontFamily:"inherit",color:"white",border:"none",background:g,boxShadow:focused?glowShadow:restShadow,transition:"all .2s",position:"relative",overflow:"hidden",letterSpacing:0.3,transform:focused?"scale(1.08) translateY(-2px)":"scale(1)",filter:focused?"brightness(1.15)":"none",outline:focused?"3px solid rgba(200,180,255,0.5)":"none",outlineOffset:3}}
-        onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowShadow;e.currentTarget.style.outline="3px solid rgba(200,180,255,0.5)";e.currentTarget.style.outlineOffset="3px";}}
-        onMouseLeave={e=>{if(!focused){e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restShadow;e.currentTarget.style.outline="none";}else{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowShadow;e.currentTarget.style.outline="3px solid rgba(200,180,255,0.5)";}}}>
-        <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",pointerEvents:"none"}}/>
-        <span style={{position:"relative",zIndex:1}}>{label}</span>
-      </button>;
-    };
-    return(
-      <div className="anim" data-kb-owner="lesson-done" style={{textAlign:"center",paddingTop:40}}>
-        <Confetti active={true}/>
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:16,marginBottom:16}}>
-          <div style={{fontSize:56,lineHeight:1}}>{p>=80?<AppIcon name="trophy" size={72}/>:p>=60?<AppIcon name="star" size={72}/>:<AppIcon name="hand_wave" size={72}/>}</div>
-          {totalEx>0&&<ScoreCircle percentage={p} size={84}/>}
-        </div>
-        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:6}}>{t("le_lesson_complete",baseLang)}</h2>
-        <p style={{fontSize:18,color:"var(--gray-500)",marginBottom:4}}>{renderNavTitle(lesson.icon,lesson.title,18)}</p>
-        {totalEx>0&&<p style={{fontSize:16,marginBottom:6,color:"var(--gray-400)"}}>Quiz score: <span style={{color:p>=70?"var(--teal)":"var(--gold)",fontWeight:800}}>{cappedScore}/{totalEx}</span></p>}
-        <p style={{color:"var(--purple-accent)",fontWeight:700,marginBottom:28}}>+{lesson.xp} XP earned!</p>
-        <div style={{display:"flex",gap:12,justifyContent:"center",flexWrap:"wrap"}}>
-          {candyBtn("Overview",()=>{UISounds.click();onBack();},1,{
-            grad:"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)",
-            shadow:"rgba(40,40,60,0.4)"
-          })}
-          {candyBtn("Try Again",()=>{UISounds.click();retryLesson();},2,{
-            grad:"linear-gradient(180deg, #F7D06B 0%, #F5A623 25%, #E8960A 55%, #D08E10 85%, #B87A08 100%)",
-            shadow:"rgba(245,166,35,0.45)"
-          })}
-          {onContinue&&candyBtn("Continue",()=>{UISounds.click();onContinue();},0,{
-            grad:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",
-            shadow:"rgba(123,94,232,0.5)"
-          })}</div>
-        <div style={{marginTop:14,fontSize:11,color:"var(--gray-300)"}}>Arrow keys navigate · Space select · Esc quit</div>
-      </div>
-    );
-  }
-  if(!st) return null;
+  // Done screen + null guard moved after useMemo (line ~10911) to satisfy Rules of Hooks
 
   const ProgressBar=()=>(
     <div data-kb-owner="lesson" style={{marginBottom:20}}>
@@ -10676,31 +10631,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   // ═══ INTRO ═══
   // ═══ RESUME DIALOG — shown when re-entering a lesson with saved progress ═══
-  if(showResume){
-    let savedSi=0;let savedScore=0;
-    try{const p=JSON.parse(_memStore[progressKey]);savedSi=p?.si||0;savedScore=p?.score||0;}catch(e){}
-    const pct=Math.round((savedSi/steps.length)*100);
-    const doResume=()=>{setSi(savedSi);setScore(savedScore);setShowResume(false);};
-    const doRestart=()=>{delete _memStore[progressKey];setShowResume(false);};
-    return(
-      <div className="anim" data-kb-owner="lesson" tabIndex={0} ref={el=>{if(el)el.focus();}} onKeyDown={e=>{
-        if(e.code==="Space"||e.code==="Enter"){e.preventDefault();UISounds.click();doResume();}
-        if(e.code==="Backspace"){e.preventDefault();UISounds.click();doRestart();}
-        if(e.code==="Escape"&&onBack){e.preventDefault();onBack();}
-      }} style={{outline:"none",maxWidth:440,margin:"40px auto",textAlign:"center"}}>
-        <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden",padding:"32px 28px",...glass}}>
-          <div style={{fontSize:36,marginBottom:12}}><BrandIcon name={lesson.icon} size={36}/></div>
-          <h3 style={{fontSize:20,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",margin:"0 0 8px"}}>{lesson.title||steps[0]?.title||"Lesson"}</h3>
-          <div style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,marginBottom:20}}>You were {pct}% through this lesson</div>
-          <div style={{display:"flex",gap:12,justifyContent:"center"}}>
-            <button onClick={doRestart} style={{padding:"12px 24px",borderRadius:14,border:"2px solid rgba(255,255,255,0.45)",background:"var(--card-bg)",color:"var(--gray-600)",fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:"inherit",transition:"all .2s",...(dk?{backdropFilter:"blur(12px)",boxShadow:"0 4px 14px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.12), inset 0 -2px 0 rgba(0,0,0,0.12)"}:{})}}>Start over</button>
-            <button onClick={doResume} style={{padding:"12px 24px",borderRadius:14,border:"1.5px solid rgba(255,255,255,0.25)",background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:"inherit",boxShadow:dk?"0 0 20px rgba(150,120,255,0.45), 0 0 44px rgba(123,94,232,0.2), 0 4px 16px rgba(123,94,232,0.4), inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -2px 0 rgba(0,0,0,0.2)":"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -3px 0 rgba(0,0,0,0.12)",transition:"all .2s",...(dk?{textShadow:"0 1px 3px rgba(0,0,0,0.3)"}:{})}}>Continue</button>
-          </div>
-          <div style={{marginTop:12,fontSize:11,color:"var(--gray-300)"}}> Space continue · ⌫ start over · Esc quit</div>
-        </div>
-      </div>
-    );
-  }
+  // showResume return moved after useMemo to satisfy Rules of Hooks
 
   // ── Shared note/text highlighter for board-style cards ──
   // ── Deterministic shuffle for MC/FB options (D24: P8 engine-level fix) ──
@@ -10909,6 +10840,80 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   // Merge hand-crafted Korean entries into universal LANG_DICT
   React.useMemo(() => mergeKoreanDict(KOREAN_DICT), []);
+
+  // ═══ RESUME DIALOG (must be AFTER all hooks to satisfy Rules of Hooks) ═══
+  if(showResume){
+    let savedSi=0;let savedScore=0;
+    try{const p=JSON.parse(_memStore[progressKey]);savedSi=p?.si||0;savedScore=p?.score||0;}catch(e){}
+    const pct=Math.round((savedSi/steps.length)*100);
+    const doResume=()=>{setSi(savedSi);setScore(savedScore);setShowResume(false);};
+    const doRestart=()=>{delete _memStore[progressKey];setShowResume(false);};
+    return(
+      <div className="anim" data-kb-owner="lesson" tabIndex={0} ref={el=>{if(el)el.focus();}} onKeyDown={e=>{
+        if(e.code==="Space"||e.code==="Enter"){e.preventDefault();UISounds.click();doResume();}
+        if(e.code==="Backspace"){e.preventDefault();UISounds.click();doRestart();}
+        if(e.code==="Escape"&&onBack){e.preventDefault();onBack();}
+      }} style={{outline:"none",maxWidth:440,margin:"40px auto",textAlign:"center"}}>
+        <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",overflow:"hidden",padding:"32px 28px",...glass}}>
+          <div style={{fontSize:36,marginBottom:12}}><BrandIcon name={lesson.icon} size={36}/></div>
+          <h3 style={{fontSize:20,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",margin:"0 0 8px"}}>{lesson.title||steps[0]?.title||"Lesson"}</h3>
+          <div style={{fontSize:14,color:"var(--teal-text)",fontWeight:600,marginBottom:20}}>You were {pct}% through this lesson</div>
+          <div style={{display:"flex",gap:12,justifyContent:"center"}}>
+            <button onClick={doRestart} style={{padding:"12px 24px",borderRadius:14,border:"2px solid rgba(255,255,255,0.45)",background:"var(--card-bg)",color:"var(--gray-600)",fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:"inherit",transition:"all .2s",...(dk?{backdropFilter:"blur(12px)",boxShadow:"0 4px 14px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.12), inset 0 -2px 0 rgba(0,0,0,0.12)"}:{})}}>Start over</button>
+            <button onClick={doResume} style={{padding:"12px 24px",borderRadius:14,border:"1.5px solid rgba(255,255,255,0.25)",background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:"inherit",boxShadow:dk?"0 0 20px rgba(150,120,255,0.45), 0 0 44px rgba(123,94,232,0.2), 0 4px 16px rgba(123,94,232,0.4), inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -2px 0 rgba(0,0,0,0.2)":"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -3px 0 rgba(0,0,0,0.12)",transition:"all .2s",...(dk?{textShadow:"0 1px 3px rgba(0,0,0,0.3)"}:{})}}>Continue</button>
+          </div>
+          <div style={{marginTop:12,fontSize:11,color:"var(--gray-300)"}}> Space continue · ⌫ start over · Esc quit</div>
+        </div>
+      </div>
+    );
+  }
+
+  // ═══ DONE SCREEN (must be AFTER all hooks to satisfy Rules of Hooks) ═══
+  if(done){
+    const cappedScore=Math.min(score,totalEx);
+    const p=totalEx>0?Math.round((cappedScore/totalEx)*100):100;
+    const candyBtn=(label,onClick,idx,{grad,shadow}={})=>{
+      const g=grad||"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)";
+      const sh=shadow||"rgba(60,60,80,0.4)";
+      const focused=doneFocus===idx;
+      const glowShadow=`0 0 28px ${sh}, 0 0 48px ${sh.replace(/[\d.]+\)$/,'0.15)')}, 0 8px 24px ${sh}, inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+      const restShadow=`0 6px 20px ${sh}, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+      return <button onClick={onClick} style={{fontSize:15,padding:"14px 28px",borderRadius:18,fontWeight:800,cursor:"pointer",fontFamily:"inherit",color:"white",border:"none",background:g,boxShadow:focused?glowShadow:restShadow,transition:"all .2s",position:"relative",overflow:"hidden",letterSpacing:0.3,transform:focused?"scale(1.08) translateY(-2px)":"scale(1)",filter:focused?"brightness(1.15)":"none",outline:focused?"3px solid rgba(200,180,255,0.5)":"none",outlineOffset:3}}
+        onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowShadow;e.currentTarget.style.outline="3px solid rgba(200,180,255,0.5)";e.currentTarget.style.outlineOffset="3px";}}
+        onMouseLeave={e=>{if(!focused){e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restShadow;e.currentTarget.style.outline="none";}else{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowShadow;e.currentTarget.style.outline="3px solid rgba(200,180,255,0.5)";}}}>
+        <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",pointerEvents:"none"}}/>
+        <span style={{position:"relative",zIndex:1}}>{label}</span>
+      </button>;
+    };
+    return(
+      <div className="anim" data-kb-owner="lesson-done" style={{textAlign:"center",paddingTop:40}}>
+        <Confetti active={true}/>
+        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:16,marginBottom:16}}>
+          <div style={{fontSize:56,lineHeight:1}}>{p>=80?<AppIcon name="trophy" size={72}/>:p>=60?<AppIcon name="star" size={72}/>:<AppIcon name="hand_wave" size={72}/>}</div>
+          {totalEx>0&&<ScoreCircle percentage={p} size={84}/>}
+        </div>
+        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:6}}>{t("le_lesson_complete",baseLang)}</h2>
+        <p style={{fontSize:18,color:"var(--gray-500)",marginBottom:4}}>{renderNavTitle(lesson.icon,lesson.title,18)}</p>
+        {totalEx>0&&<p style={{fontSize:16,marginBottom:6,color:"var(--gray-400)"}}>Quiz score: <span style={{color:p>=70?"var(--teal)":"var(--gold)",fontWeight:800}}>{cappedScore}/{totalEx}</span></p>}
+        <p style={{color:"var(--purple-accent)",fontWeight:700,marginBottom:28}}>+{lesson.xp} XP earned!</p>
+        <div style={{display:"flex",gap:12,justifyContent:"center",flexWrap:"wrap"}}>
+          {candyBtn("Overview",()=>{UISounds.click();onBack();},1,{
+            grad:"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)",
+            shadow:"rgba(40,40,60,0.4)"
+          })}
+          {candyBtn("Try Again",()=>{UISounds.click();retryLesson();},2,{
+            grad:"linear-gradient(180deg, #F7D06B 0%, #F5A623 25%, #E8960A 55%, #D08E10 85%, #B87A08 100%)",
+            shadow:"rgba(245,166,35,0.45)"
+          })}
+          {onContinue&&candyBtn("Continue",()=>{UISounds.click();onContinue();},0,{
+            grad:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",
+            shadow:"rgba(123,94,232,0.5)"
+          })}</div>
+        <div style={{marginTop:14,fontSize:11,color:"var(--gray-300)"}}>Arrow keys navigate · Space select · Esc quit</div>
+      </div>
+    );
+  }
+  if(!st) return null;
 
   // ════════════════════════════════════════════════════════════
   // KOREAN WORD TOKENIZER — splits Korean text into dictionary-lookupable tokens
