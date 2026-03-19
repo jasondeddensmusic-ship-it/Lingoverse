@@ -10657,79 +10657,102 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       {showGrammarSettings&&grammarHl&&(()=>{
         if(!langPacks) return <div style={{marginTop:8,padding:"12px 14px",borderRadius:14,background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",fontSize:12,color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)"}}>No grammar packs available for this language yet.</div>;
         const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
-        const tabStyle=(isActive,isPlaceholder)=>({
-          display:"inline-flex",alignItems:"center",gap:7,padding:"9px 18px",borderRadius:22,
-          fontSize:12,fontWeight:800,cursor:isPlaceholder?"default":"pointer",
-          transition:"all .25s cubic-bezier(.4,0,.2,1)",border:"none",fontFamily:"inherit",
-          minHeight:40,opacity:isPlaceholder?0.35:1,letterSpacing:0.2,
-          background:isActive
-            ?(dk
-              ?"linear-gradient(180deg,rgba(140,110,255,0.45) 0%,rgba(123,94,232,0.32) 30%,rgba(100,75,200,0.2) 60%,rgba(80,60,170,0.1) 100%)"
-              :"linear-gradient(180deg,rgba(255,255,255,0.98) 0%,rgba(248,244,255,0.96) 30%,rgba(240,234,252,0.92) 60%,rgba(232,224,250,0.88) 100%)")
-            :(dk
-              ?"linear-gradient(180deg,rgba(255,255,255,0.07) 0%,rgba(255,255,255,0.03) 100%)"
-              :"linear-gradient(180deg,rgba(248,245,255,0.85) 0%,rgba(240,236,250,0.6) 100%)"),
-          color:isActive?(dk?"#D4C8FF":"#6B4ED8"):(dk?"rgba(255,255,255,0.35)":"rgba(140,130,170,0.55)"),
-          boxShadow:isActive
-            ?(dk
-              ?"0 0 0 1.5px rgba(123,94,232,0.55),0 6px 20px rgba(123,94,232,0.3),0 2px 6px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.12),inset 0 -1px 0 rgba(0,0,0,0.15)"
-              :"0 0 0 1.5px rgba(123,94,232,0.3),0 6px 24px rgba(123,94,232,0.15),0 2px 8px rgba(0,0,0,0.04),inset 0 2px 0 rgba(255,255,255,0.95),inset 0 -2px 0 rgba(123,94,232,0.06)")
-            :(dk
-              ?"0 0 0 1px rgba(255,255,255,0.08),0 2px 6px rgba(0,0,0,0.2),inset 0 1px 0 rgba(255,255,255,0.05),inset 0 -1px 0 rgba(0,0,0,0.1)"
-              :"0 0 0 1px rgba(123,94,232,0.08),0 2px 6px rgba(0,0,0,0.03),inset 0 2px 0 rgba(255,255,255,0.9),inset 0 -2px 0 rgba(0,0,0,0.02)"),
-        });
         return <div style={{
           marginTop:8,marginBottom:4,
-          padding:isMobile?"20px 16px 28px":"16px 18px",
+          padding:isMobile?"22px 18px 30px":"18px 20px",
           borderRadius:isMobile?"24px 24px 0 0":22,
           background:dk
-            ?"linear-gradient(180deg,rgba(40,36,65,0.97) 0%,rgba(32,28,55,0.96) 40%,rgba(25,22,45,0.95) 100%)"
-            :"linear-gradient(180deg,rgba(255,255,255,0.98) 0%,rgba(252,250,255,0.96) 40%,rgba(248,245,255,0.94) 100%)",
-          border:dk?"1px solid rgba(123,94,232,0.18)":"1px solid rgba(123,94,232,0.1)",
+            ?"linear-gradient(180deg,rgba(45,40,75,0.98) 0%,rgba(38,34,65,0.97) 25%,rgba(32,28,58,0.96) 50%,rgba(28,24,52,0.95) 75%,rgba(24,20,46,0.94) 100%)"
+            :"linear-gradient(180deg,#FFFFFF 0%,#FCFAFF 25%,#F8F5FF 50%,#F4F0FE 75%,#F0ECFC 100%)",
+          border:dk?"2.5px solid rgba(160,140,240,0.22)":"2.5px solid rgba(180,160,230,0.3)",
           boxShadow:dk
-            ?"0 -4px 40px rgba(0,0,0,0.5),0 0 0 1px rgba(123,94,232,0.12),inset 0 1px 0 rgba(255,255,255,0.05)"
-            :"0 -4px 40px rgba(123,94,232,0.06),0 8px 32px rgba(0,0,0,0.04),0 0 0 1px rgba(123,94,232,0.06),inset 0 1px 0 rgba(255,255,255,0.95)",
-          backdropFilter:"blur(20px)",WebkitBackdropFilter:"blur(20px)",
+            ?"0 -4px 40px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.4),0 0 0 1px rgba(123,94,232,0.15),inset 0 1px 0 rgba(255,255,255,0.08),inset 0 -2px 0 rgba(0,0,0,0.18)"
+            :"0 -4px 40px rgba(123,94,232,0.08),0 8px 32px rgba(0,0,0,0.06),0 3px 10px rgba(140,100,220,0.1),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.07)",
+          backdropFilter:"blur(20px) saturate(1.3)",WebkitBackdropFilter:"blur(20px) saturate(1.3)",
           position:isMobile?"fixed":"relative",
           bottom:isMobile?0:undefined,left:isMobile?0:undefined,right:isMobile?0:undefined,
           zIndex:isMobile?9999:undefined,
-          maxHeight:isMobile?"75vh":"auto",overflowY:"auto",
+          maxHeight:isMobile?"75vh":"auto",overflowY:"auto",overflow:"hidden",
           WebkitOverflowScrolling:"touch",
         }}>
-          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.15)":"rgba(123,94,232,0.15)",margin:"0 auto 16px"}}/>}
-          <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.65)":"rgba(80,60,140,0.55)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14}}>
+          {/* Shine overlay — matches .gloss::before and .card::before */}
+          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",
+            background:dk
+              ?"linear-gradient(180deg,rgba(255,255,255,0.08) 0%,rgba(255,255,255,0.015) 50%,transparent 100%)"
+              :"linear-gradient(180deg,rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.1) 40%,transparent 100%)",
+            pointerEvents:"none",borderRadius:"0 0 45% 45%",zIndex:1,
+          }}/>
+          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
+          <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.55)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
             {langPacks.label} Grammar Colors
           </div>
-          {/* Tab strip */}
-          <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:12,WebkitOverflowScrolling:"touch"}}>
+          {/* Tab strip — active tab uses btn-purple-style 5-stop gradient */}
+          <div style={{display:"flex",gap:10,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
             {langPacks.packs.map(pack=>{
               const isActive=pack.id===activePackId;
-              return <button key={pack.id} onClick={()=>!pack.placeholder&&selectPack(pack.id)} style={tabStyle(isActive,pack.placeholder)} disabled={!!pack.placeholder}>
-                <span style={{fontSize:13,fontWeight:900,lineHeight:1}}>{pack.icon}</span>
-                <span>{pack.label}</span>
-                {pack.placeholder&&<span style={{fontSize:9,opacity:0.6,marginLeft:2}}>soon</span>}
+              const isP=!!pack.placeholder;
+              return <button key={pack.id} onClick={()=>!isP&&selectPack(pack.id)} disabled={isP} style={{
+                display:"inline-flex",alignItems:"center",gap:7,padding:"10px 20px",borderRadius:22,
+                fontSize:12,fontWeight:800,cursor:isP?"default":"pointer",
+                transition:"all .25s cubic-bezier(.4,0,.2,1)",border:"none",fontFamily:"inherit",
+                minHeight:42,opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
+                background:isActive
+                  ?(dk
+                    ?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 55%,#6545C8 80%,#5840B8 100%)"
+                    :"linear-gradient(180deg,#F8F5FF 0%,#EDE6FD 20%,#E2DAFC 40%,#D5CBFA 65%,#C8BEFA 85%,#BEB2F8 100%)")
+                  :(dk
+                    ?"linear-gradient(180deg,rgba(45,40,75,0.7) 0%,rgba(32,28,58,0.65) 50%,rgba(26,24,50,0.6) 100%)"
+                    :"linear-gradient(180deg,#FFFFFF 0%,#FAFAFE 50%,#F5F4FA 100%)"),
+                color:isActive?(dk?"#FFFFFF":"#5B3DC4"):(dk?"rgba(255,255,255,0.4)":"rgba(120,100,160,0.55)"),
+                textShadow:isActive&&dk?"0 1px 2px rgba(0,0,0,0.3)":"none",
+                boxShadow:isActive
+                  ?(dk
+                    ?"0 0 18px rgba(123,94,232,0.4),0 0 40px rgba(123,94,232,0.15),0 4px 16px rgba(85,53,181,0.5),inset 0 2px 0 rgba(255,255,255,0.3),inset 0 -3px 0 rgba(0,0,0,0.18)"
+                    :"0 4px 16px rgba(123,94,232,0.2),0 2px 4px rgba(0,0,0,0.06),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.12)")
+                  :(dk
+                    ?"0 3px 10px rgba(0,0,0,0.3),0 0 8px rgba(140,120,220,0.08),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -2px 0 rgba(0,0,0,0.15)"
+                    :"0 2px 8px rgba(0,0,0,0.04),0 0 0 1px rgba(180,160,230,0.2),inset 0 2px 0 rgba(255,255,255,0.9),inset 0 -2px 0 rgba(0,0,0,0.03)"),
+              }}>
+                {/* Tab shine overlay */}
+                {isActive&&<span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"45%",
+                  background:dk
+                    ?"linear-gradient(180deg,rgba(255,255,255,0.35) 0%,rgba(255,255,255,0.08) 50%,transparent 100%)"
+                    :"linear-gradient(180deg,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.15) 50%,transparent 100%)",
+                  borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                }}/>}
+                <span style={{fontSize:14,fontWeight:900,lineHeight:1,position:"relative",zIndex:1}}>{pack.icon}</span>
+                <span style={{position:"relative",zIndex:1}}>{pack.label}</span>
+                {isP&&<span style={{fontSize:9,opacity:0.6,marginLeft:2,position:"relative",zIndex:1}}>soon</span>}
               </button>;
             })}
           </div>
-          {/* Active pack legend */}
+          {/* Active pack legend — card-style with gloss */}
           {activePack&&<div style={{
-            padding:"16px 18px",borderRadius:18,
+            padding:"16px 18px",borderRadius:18,position:"relative",overflow:"hidden",
             background:dk
-              ?"linear-gradient(180deg,rgba(123,94,232,0.1) 0%,rgba(100,75,200,0.06) 50%,rgba(80,60,170,0.03) 100%)"
-              :"linear-gradient(180deg,rgba(250,247,255,0.95) 0%,rgba(245,240,255,0.88) 50%,rgba(238,232,252,0.8) 100%)",
-            border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.08)",
+              ?"linear-gradient(180deg,rgba(45,40,75,0.7) 0%,rgba(32,28,58,0.65) 50%,rgba(26,24,50,0.6) 100%)"
+              :"linear-gradient(180deg,#FFFFFF 0%,#FCFAFF 50%,#F8F5FF 100%)",
+            border:dk?"2px solid rgba(160,140,240,0.15)":"2px solid rgba(180,160,230,0.25)",
             boxShadow:dk
-              ?"inset 0 1px 0 rgba(255,255,255,0.06),inset 0 -1px 0 rgba(0,0,0,0.1),0 2px 8px rgba(0,0,0,0.15)"
-              :"inset 0 2px 0 rgba(255,255,255,0.9),inset 0 -1px 0 rgba(123,94,232,0.04),0 2px 8px rgba(123,94,232,0.04)",
+              ?"0 3px 12px rgba(0,0,0,0.3),0 0 12px rgba(140,120,220,0.1),inset 0 1px 0 rgba(255,255,255,0.1),inset 0 -2px 0 rgba(0,0,0,0.15)"
+              :"0 3px 10px rgba(140,100,220,0.08),0 1px 3px rgba(0,0,0,0.03),inset 0 2px 0 rgba(255,255,255,0.85),inset 0 -2px 0 rgba(140,100,220,0.05)",
+            zIndex:2,
           }}>
-            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.45)":"rgba(80,60,140,0.45)",marginBottom:12,lineHeight:1.4}}>{activePack.desc}</div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:12}}>
+            {/* Legend shine overlay */}
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
+              background:dk
+                ?"linear-gradient(180deg,rgba(255,255,255,0.06) 0%,rgba(255,255,255,0.01) 50%,transparent 100%)"
+                :"linear-gradient(180deg,rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.1) 40%,transparent 100%)",
+              pointerEvents:"none",borderRadius:"0 0 45% 45%",zIndex:0,
+            }}/>
+            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:12,lineHeight:1.4,position:"relative",zIndex:1}}>{activePack.desc}</div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:14,position:"relative",zIndex:1}}>
               {activePack.legend.map(item=><div key={item.label} style={{display:"flex",alignItems:"center",gap:8}}>
-                <span style={{width:12,height:12,borderRadius:6,display:"inline-block",flexShrink:0,
-                  background:`radial-gradient(circle at 30% 30%,${item.color}FF,${item.color}CC,${item.color}99)`,
-                  boxShadow:`0 0 10px ${item.color}55,0 2px 4px ${item.color}33,inset 0 1px 0 rgba(255,255,255,0.5)`,
+                <span style={{width:14,height:14,borderRadius:7,display:"inline-block",flexShrink:0,position:"relative",
+                  background:`radial-gradient(circle at 30% 25%,${dk?item.color+"FF":item.color+"EE"},${item.color}CC,${item.color}88)`,
+                  boxShadow:`0 0 12px ${item.color}66,0 2px 6px ${item.color}44,inset 0 2px 0 rgba(255,255,255,0.5),inset 0 -1px 0 rgba(0,0,0,0.15)`,
                 }}/>
-                <span style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.6)":"rgba(80,60,140,0.6)"}}>{item.label}</span>
+                <span style={{fontSize:12,fontWeight:700,color:dk?"rgba(255,255,255,0.65)":"rgba(60,40,120,0.65)"}}>{item.label}</span>
               </div>)}
             </div>
           </div>}
