@@ -7827,7 +7827,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
   );
 }
 
-// ━━━━━━━━━━ VOCABULARY PAGE V5 (Search / Browse / Review) ━━━━━━━━━━
+// ━━━━━━━━━━ VOCABULARY PAGE V6 (Search / Browse / Review) ━━━━━━━━━━
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
@@ -7837,7 +7837,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const allWords=useMemo(()=>{
     const db=WORD_DB[lang];
     if(!db||Object.keys(db).length===0) return [];
-    return Object.values(db).filter(e=>e.pos!=="unknown").sort((a,b)=>(a.display||a.word||"").localeCompare(b.display||b.word||""));
+    return Object.values(db).filter(e=>e.pos!=="unknown"&&!(e.word||"").trim().includes(" ")).sort((a,b)=>(a.display||a.word||"").localeCompare(b.display||b.word||""));
   },[lang]);
   const taughtWords=useMemo(()=>allWords.filter(e=>e.taught),[allWords]);
 
@@ -7959,55 +7959,119 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     boxShadow:isActive?(dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"):(dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
   });
 
-  // ── Word row V5: frosted glass cards, grammar-toggle colors, no phonetics ──
+  // ── Compound bubble style — matches Korean compound word / dialogue bubbles exactly ──
+  const bubbleBg=dk?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)";
+  const bubbleBorder=dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)";
+  const bubbleShadow=dk?"0 6px 20px rgba(0,0,0,0.3), 0 0 14px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), 0 0 12px rgba(180,165,240,0.15), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)";
+  const bubbleGloss=dk?"linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)";
+  // Filter: only single words (no phrases/multi-word entries)
+  const isSingleWord=(entry)=>{const w=(entry.word||"").trim();return !w.includes(" ");};
+
+  // ── Word row V6: compound bubble style, gloss arc, popup on click ──
   const WordRow=({entry,wKey})=>{
-    const isExp=expanded===wKey;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
     const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
     const disp=entry.display||entry.word||"";
-    // When grammarHl ON: color article prefix + whole word gets grammar color. When OFF: default styling.
     let artSpan=null,wordPart=disp;
     if(grammarHl&&artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
       artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
       wordPart=disp.substring(artEntry.length);
     }
-    // Translation color: grammarHl ON = purple, OFF = muted
     const transColor=grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)");
-    // Candy pill helper for expanded badges
-    const badgePill=(hex,label)=>(<span style={{display:"inline-block",padding:"3px 10px",borderRadius:10,fontSize:10,fontWeight:800,color:"white",letterSpacing:0.3,textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",overflow:"hidden",background:dk?`linear-gradient(180deg,${hex}cc 0%,${hex} 50%,${hex}bb 100%)`:`linear-gradient(180deg,${hex}dd 0%,${hex} 55%,${hex}aa 100%)`,boxShadow:`0 2px 8px ${hex}44, inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)`}}>{label}</span>);
     return(
-      <div style={{borderRadius:18,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",background:dk?"linear-gradient(180deg, rgba(123,94,232,0.35) 0%, rgba(100,78,205,0.25) 45%, rgba(80,60,180,0.18) 100%)":"linear-gradient(180deg, rgba(210,200,255,0.7) 0%, rgba(220,213,255,0.55) 45%, rgba(230,225,255,0.45) 100%)",border:dk?"1px solid rgba(160,140,255,0.3)":"1px solid rgba(165,148,238,0.4)",borderLeft:isExp?(dk?"4px solid #A488F0":"4px solid #7B5EE8"):(dk?"4px solid rgba(160,140,255,0.3)":"4px solid rgba(165,148,238,0.4)"),boxShadow:isExp?(dk?"0 4px 20px rgba(0,0,0,0.3), 0 0 12px rgba(123,94,232,0.2), inset 0 1px 0 rgba(255,255,255,0.1)":"0 4px 20px rgba(123,94,232,0.15), 0 0 10px rgba(165,148,238,0.12), inset 0 1px 0 rgba(255,255,255,0.7)"):(dk?"0 1px 6px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06)":"0 1px 6px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.7)")}}>
-        <div onClick={()=>setExpanded(isExp?null:wKey)} style={{display:"flex",alignItems:"center",gap:8,padding:"12px 16px",cursor:"pointer",position:"relative"}}>
+      <div onClick={()=>setExpanded(expanded===wKey?null:wKey)} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+        <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+        <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
           <div style={{flex:1,minWidth:0}}>
             <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>
               {artSpan}{wordPart}
             </span>
           </div>
-          <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en}</span>
+          <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en||""}</span>
           <SpeakerButton text={entry.word} lang={ttsLocale} size={13} showToast={showToast}/>
         </div>
-        {isExp&&<div className="anim" style={{padding:"8px 16px 14px",borderTop:dk?"1px solid rgba(160,140,255,0.2)":"1px solid rgba(165,148,238,0.25)"}}>
-          {/* Badge row: candy gradient pills */}
-          <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:10}}>
+      </div>
+    );
+  };
+
+  // ── Word popup overlay (replaces inline expansion) ──
+  const badgePill=(hex,label)=>(<span style={{display:"inline-block",padding:"3px 10px",borderRadius:10,fontSize:10,fontWeight:800,color:"white",letterSpacing:0.3,textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",overflow:"hidden",background:dk?`linear-gradient(180deg,${hex}cc 0%,${hex} 50%,${hex}bb 100%)`:`linear-gradient(180deg,${hex}dd 0%,${hex} 55%,${hex}aa 100%)`,boxShadow:`0 2px 8px ${hex}44, inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)`}}>{label}</span>);
+
+  const WordPopup=()=>{
+    if(!expanded)return null;
+    const parts=expanded.split(":");
+    const idx=parseInt(parts[parts.length-1],10);
+    const prefix=parts[0];
+    let entry=null;
+    if(prefix==="s")entry=filteredWords[idx];
+    else if(prefix==="b")entry=browseWords[idx];
+    if(!entry)return null;
+    const wColor=getWordColor(entry);
+    const artEntry=entry.article;
+    const artColors=(grammarHl&&artEntry)?ARTICLE_COLORS[artEntry]:null;
+    const disp=entry.display||entry.word||"";
+    let artSpan=null,wordPart=disp;
+    if(grammarHl&&artEntry&&artColors&&disp.toLowerCase().startsWith(artEntry.toLowerCase()+" ")){
+      artSpan=<span style={{color:artColors.pillText||"#7B5EE8",fontWeight:800}}>{disp.substring(0,artEntry.length)}</span>;
+      wordPart=disp.substring(artEntry.length);
+    }
+    return(
+      <div onClick={()=>setExpanded(null)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
+        <div onClick={e=>e.stopPropagation()} style={{
+          width:isMobile?"100%":"min(420px, 90vw)",
+          maxHeight:isMobile?"75vh":"80vh",overflow:"auto",
+          borderRadius:isMobile?"24px 24px 0 0":24,position:"relative",
+          background:dk?"linear-gradient(180deg, rgba(40,30,70,0.98) 0%, rgba(30,24,55,0.98) 100%)":"linear-gradient(180deg, rgba(250,248,255,0.99) 0%, rgba(240,236,255,0.98) 100%)",
+          border:dk?"1.5px solid rgba(123,94,232,0.4)":"1.5px solid rgba(180,165,240,0.5)",
+          boxShadow:dk?"0 -8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(123,94,232,0.3)":"0 -8px 40px rgba(123,94,232,0.15), 0 0 20px rgba(180,165,240,0.2)",
+          padding:isMobile?"24px 20px 32px":"28px 24px",
+        }}>
+          {/* Drag handle on mobile */}
+          {isMobile&&<div style={{width:40,height:4,borderRadius:2,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 18px"}}/>}
+          {/* Close button */}
+          {!isMobile&&<span onClick={()=>setExpanded(null)} style={{position:"absolute",top:14,right:16,cursor:"pointer",fontSize:16,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.6)",zIndex:2}}>&#10005;</span>}
+
+          {/* Word header in compound bubble */}
+          <div style={{borderRadius:20,overflow:"hidden",position:"relative",padding:"18px 20px 16px",marginBottom:16,background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+            <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
+              <div style={{flex:1}}>
+                <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:900,fontSize:22,color:wColor||(dk?"rgba(255,255,255,0.95)":"var(--gray-800)"),marginBottom:2}}>
+                  {artSpan}{wordPart}
+                </div>
+                <div style={{fontSize:14,fontWeight:700,color:grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.65)":"rgba(100,80,160,0.6)")}}>{entry.en||""}</div>
+              </div>
+              <SpeakerButton text={entry.word} lang={ttsLocale} size={18} showToast={showToast}/>
+            </div>
+          </div>
+
+          {/* Badge row */}
+          <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:14}}>
             {entry.level&&badgePill("#7B5EE8",(entry.level||"A1").substring(0,2))}
-            {badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
+            {entry.pos&&badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
             {artColors&&badgePill(artColors.pillText||"#7B5EE8",artEntry)}
             {entry.gender&&badgePill("#6040C0",genderLabels[entry.gender]||entry.gender)}
           </div>
+
           {/* Note */}
-          {entry.note&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.7)",marginBottom:8,lineHeight:1.5,fontWeight:600}}>{entry.note}</div>}
-          {/* Example — frosted glass bubble, NOT orange */}
-          {entry.example&&<div style={{borderRadius:14,padding:"10px 14px",marginBottom:6,position:"relative",overflow:"hidden",background:dk?"rgba(255,255,255,0.06)":"rgba(255,255,255,0.45)",border:dk?"1px solid rgba(160,140,255,0.15)":"1px solid rgba(165,148,238,0.2)",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.8)"}}>
-            <div style={{display:"flex",alignItems:"center",gap:6}}>
-              <span style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1}}>{entry.example}</span>
-              <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
+          {entry.note&&<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.7)",marginBottom:12,lineHeight:1.5,fontWeight:600}}>{entry.note}</div>}
+
+          {/* Example in compound bubble */}
+          {entry.example&&<div style={{borderRadius:18,padding:"12px 16px",marginBottom:10,position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+            <div style={{position:"relative",zIndex:1}}>
+              <div style={{display:"flex",alignItems:"center",gap:6}}>
+                <span style={{fontSize:14,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1,lineHeight:1.5}}>{entry.example}</span>
+                <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
+              </div>
+              {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:4}}>{entry.exampleEn}</div>}
             </div>
-            {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:4}}>{entry.exampleEn}</div>}
           </div>}
+
           {/* Cognate */}
-          {entry.cognate&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:4}}>{entry.cognate}</div>}
-        </div>}
+          {entry.cognate&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:6}}>{entry.cognate}</div>}
+        </div>
       </div>
     );
   };
@@ -8034,6 +8098,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ═══════════════════════════════════════════════════════════
   return(
     <div className="anim" style={{maxWidth:700,margin:"0 auto"}}>
+      <WordPopup/>
       {/* ── Header ── */}
       <div style={{textAlign:"center",marginBottom:20}}>
         <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4,fontFamily:"Quicksand, sans-serif"}}>Vocabulary</h2>
