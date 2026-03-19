@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-17 (D1-D113. D86+ in CLAUDE.md)
+> Last updated: 2026-03-19 (D1-D114. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D114 | Platform Rehaul Vision + Docs Update | Architecture/Vision | All |
 | D113 | CEFR Tab Grouping Bug Fix + units-spanish.js Syntax Fixes | Engine Fix | All |
 | D112 | Certification-Grade Vocabulary & Grammar Audit Mandate | Architecture/Pipeline/Audit | All |
 | D111 | Partial Structural Audit (Sub-Level Fixes Only) — INCOMPLETE | Audit | All |
@@ -544,6 +545,47 @@ Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are
 **Why D111 is INCOMPLETE**: The owner identified that the audit was still structural-only. It checked labels and patterns but never opened an official vocabulary list and compared it word-by-word against the teach cards. The fundamental question "does a learner who completes LingoVerse have all the vocabulary they need to pass the official exam?" was never answered. This triggered D112.
 
 **Status**: INCOMPLETE. Superseded by D112.
+
+---
+
+## D114: Platform Rehaul Vision + Docs Update (2026-03-19)
+
+**Trigger:** Owner interview identifying fundamental design problems: "We coded before designing. Never again."
+
+**What happened:**
+1. Owner tested Phase 1 dictionary code (gold highlights, grammar colors, MiniWordPopup) and found it broken: wrong words highlighted, crashes on word click, ugly popup peekhole, no translations for unknown words.
+2. Owner decided to STOP building features and design the complete system first.
+3. Structured interview conducted (2026-03-19) covering: card format, dialogue rules, story system, settings panel, vocab page, protagonist design, lesson flow, curriculum restructure.
+4. Complete vision document written: `docs/VERUMLINGUA_REHAUL_VISION.md` (350 lines).
+5. All docs updated to reference vision doc as authoritative.
+
+**Key design decisions (all made by owner):**
+- Word cards: ALWAYS 2 dialogue bubbles + fun info bottom. Never 1, never 3+.
+- Story dialogue system: running story arc per unit with named protagonist (source-language character, learner-named)
+- Interleaved lesson flow: story -> vocab -> story -> grammar -> story -> quiz -> resolution
+- Settings: language-specific only. German gets cases, Korean gets particles. No clutter.
+- Vocab page: three modes (search, browse, review). Built from scratch.
+- nl/en rename to target/source during rehaul.
+- Curriculum restructure: vocab-only lessons, story lessons, grammar lessons, quiz lessons, review lessons.
+
+**What this supersedes:**
+- The old 21-category POS color map (now language-specific)
+- The gold bubble for new words system (under review, may become teach-card-for-every-word)
+- The multi-line dialogue standard on teach cards (now 2-bubble only)
+- The generic settings panel (now language-specific with full visualization controls)
+- D112 audit priority (deferred until after rehaul restructure)
+
+**What this preserves:**
+- All pipeline quality rules (P8, P34, P43, P48, P49, P52, etc.)
+- Anti-cramming doctrine (P54)
+- Concept-driven unit sizing (P56)
+- Agent deployment standards (Rules 1-16)
+- Engine architecture (React 18 + Vite, CSS-in-JS)
+- Deploy workflow (GitHub Actions to mijndomein.nl)
+
+**Documents updated:** CLAUDE.md, LINGOVERSE_MASTER_BIBLE.md, POLYGLOT_PIPELINE_STANDARDS.md, DECISION_LOG.md. UNIVERSAL_DICTIONARY_PLAN.md marked as superseded.
+
+**Build order:** Vision doc -> docs update (THIS) -> settings -> vocab page -> card format -> stories -> rename -> restructure -> sweep
 
 ---
 

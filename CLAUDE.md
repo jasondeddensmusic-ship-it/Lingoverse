@@ -1,17 +1,20 @@
-# CLAUDE.md — LingoVerse Project Instructions
+# CLAUDE.md — VerumLingua Project Instructions
 
 > Every Claude Code session MUST read this file before writing any code or content.
 > This file reflects the actual codebase as of March 2026.
+> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document is the AUTHORITATIVE design spec for all future work. When this file and the vision doc conflict, the vision doc wins.
 
 ---
 
 ## Project Overview
 
-LingoVerse is a self-contained multilingual language learning platform built with React 18 and Vite. The codebase is split into 7 source files (1 engine + 6 data modules). Vite bundles them into a single optimized output for deployment.
+VerumLingua (formerly LingoVerse) is a self-contained multilingual language learning platform built with React 18 and Vite. The codebase is split into 7 source files (1 engine + 6 data modules). Vite bundles them into a single optimized output for deployment.
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Current state**: All 5 launch languages have A1-B2 content built and structurally audited. HOWEVER: no language has been verified for CERTIFICATION-GRADE vocabulary completeness (P55), grammar completeness (P57), or communicative function coverage (P58). D112 audit is the immediate next priority. Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (P56).
+**Platform Rehaul (2026-03-19)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: 2-bubble word cards, story dialogue system with protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
+
+**Current state**: All 5 launch languages have A1-B2 content built and structurally audited. The existing content will be restructured per the rehaul vision (salvage strategy in vision doc Section 2.4). Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (P56).
 
 ---
 
@@ -567,24 +570,34 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 
 ## Product Roadmap
 
-### Phase 1: Content (Current)
+### Platform Rehaul (ACTIVE — 2026-03-19)
+The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8:
+1. **Update CLAUDE.md and all docs** to match the vision (D114 — THIS SESSION)
+2. **Language-specific settings panel** — full grammar visualization per language
+3. **Vocab page redesign** — search + categories + review, built from scratch
+4. **New word card format** — 2-bubble examples + fun info bottom (prototype ONE language)
+5. **Story dialogue system** — protagonist setup, episode format (prototype ONE language)
+6. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
+7. **Curriculum restructure** — rewrite units to new format, one language at a time
+8. **Content salvage** — export and redistribute old dialogue content
+9. **Full platform sweep** — apply new standards across all 5 languages
+
+Each step is its own session. No step starts until the previous is solid.
+
+### Content Status (Phase 1 — COMPLETE for current format)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, ~7,221 steps. Fully audited (D92+D93), density-uplifted (D96), P48/P49 clean (D98), dialogue-enriched (D100). D112 S1-S4: +19 vocab lessons (7 A1 + 6 A2 + 6 B1). THE GOLD STANDARD. Next: C1 when Dutch catches up.
-2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, ~5,789 steps. Fully built (D101), audited (D102, 10 rounds). D112 S1-S4: +17 vocab lessons (5 A1 + 6 A2 + 6 B1). THE SECOND GOLD STANDARD.
-3. **German** - A1-B2 COMPLETE (D103). 30 units, 258 lessons, ~4,876 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S4: +18 vocab lessons (6 A1 + 6 A2 + 6 B1). Quality audit PASS.
-4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, ~4,734 steps. Foundations + gate quiz built. 100% dialogue coverage. D112 S1-S4: +18 vocab lessons (6 A1 + 6 A2 + 6 B1). Quality scan PASS.
-5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 257 lessons, ~4,697 steps. Foundations + gate quiz built. A:/B: dialogues on all teach cards. D112 S1-S4: +17 vocab lessons (5 A1 + 6 A2 + 6 B1). Quality validation PASS.
+1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, ~7,221 steps. THE GOLD STANDARD.
+2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, ~5,789 steps. THE SECOND GOLD STANDARD.
+3. **German** - A1-B2 COMPLETE (D103). 30 units, 258 lessons, ~4,876 steps.
+4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, ~4,734 steps.
+5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 257 lessons, ~4,697 steps.
 
-### Phase 2: AI Integration
-- Proxy and backend for AI bot/chat integration
-- Personal curriculum adaptation
-- UI polish and responsive improvements
+All 5 languages will be restructured per the rehaul vision. Existing content is salvaged (vision doc Section 2.4).
 
-### Phase 3: Expansion Languages
-- Chinese (Mandarin), Japanese, Russian, Arabic (as target)
-
-### Phase 4: Grand Vision
-- ANY source to ANY target. Semi-autonomous course generation.
+### Future Phases
+- **AI Integration**: Verumius chatbot, personal curriculum, AI-generated lessons
+- **Expansion Languages**: Chinese (Mandarin), Japanese, Russian, Arabic (as target)
+- **Grand Vision**: ANY source to ANY target. Semi-autonomous course generation.
 
 ### Known Scaling Blockers (must fix before Phase 1 expansion):
 1. KOREAN_DICT hardcoded in engine (~line 10384) - extract to per-language module
@@ -592,7 +605,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
 4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
-6. **nl/en field naming** (D110): All teach cards across ALL languages use `nl` for target-language word and `en` for source-language translation. These are hardcoded Dutch-English vestiges. Future rename: `nl` -> `tgt` (or `target`), `en` -> `src` (or `source`). Thousands of occurrences across all units files + engine renderers. Own decision when multi-source architecture is built.
+6. **nl/en field naming** (D110): All teach cards across ALL languages use `nl` for target-language word and `en` for source-language translation. These are hardcoded Dutch-English vestiges. Rename to `target`/`source` is SCHEDULED as step 6 of the platform rehaul (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 7). Dedicated session, mechanical find-and-replace. New code uses `target`/`source` from day one.
 7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions. ALL 5 languages need concept-driven re-evaluation (P56). Korean A2 (4 units for Category V language) also flagged.
 8. **Vocabulary completeness NOT verified** (D112): No language has been verified against official exam vocabulary lists (TOPIK/NT2/Goethe/DELF/DELE). The number of teach cards per language is unknown relative to the number REQUIRED by certification exams. This is the #1 content blocker. See P55.
 9. **Grammar completeness NOT verified** (D112): No language has a complete grammar inventory table mapping every official exam grammar construct to teach cards and quiz steps. See P57.
@@ -629,6 +642,7 @@ Every session should understand what each doc does and which ones are authoritat
 
 ### Tier 1: Authoritative (always current, governs all work)
 - **`CLAUDE.md`** (this file) — Single source of truth for project state, pipeline rules, decisions. READ FIRST.
+- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Complete platform rehaul design spec (2026-03-19). Card format, story system, settings, vocab page, curriculum restructure, build order. **This document SUPERSEDES conflicting instructions in all other docs.** When in doubt, this doc wins.
 - **`docs/LINGOVERSE_MASTER_BIBLE.md`** — Full philosophy, per-language standards, official reference requirements, unit count doctrine.
 - **`docs/POLYGLOT_PIPELINE_STANDARDS.md`** — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan.
 
@@ -639,6 +653,9 @@ Every session should understand what each doc does and which ones are authoritat
 
 ### Tier 3: Active build reference (current work in progress)
 - **`docs/FULL_AUDIT_HANDOFF.md`** — Full curriculum audit handoff for all 5 languages. CEFR coverage, pipeline compliance, polyglot vision verification. Use this to continue the audit in a new session.
+
+### Superseded (still on disk, referenced by vision doc)
+- **`docs/UNIVERSAL_DICTIONARY_PLAN.md`** — Phase 1 dictionary plan. SUPERSEDED by `VERUMLINGUA_REHAUL_VISION.md`. The Phase 1 code (gold bubbles, universalHl, MiniWordPopup) is live but buggy and scheduled for complete rewrite per the vision doc.
 
 ### Deleted (March 2026 cleanup)
 All completed build docs deleted. Their content is fully captured in CLAUDE.md decisions and build status:
@@ -1127,43 +1144,36 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 **D113 BUG FIXES (2026-03-17)**: Two syntax errors fixed: esp20l8b and esp24l8b were inserted after their unit's closing `]}` instead of inside the lessons array. Also fixed: CEFR tab grouping bug where all sub-levels beyond .2 (B1.3, A2.4, etc.) were falling back to A1 tab due to getCefrInfo() missing a band-prefix fallback. Both bugs affected production. See D113 in DECISION_LOG.md.
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
-### NEXT PRIORITIES — D112 CERTIFICATION-GRADE AUDIT (IMMEDIATE)
+### NEXT PRIORITIES — PLATFORM REHAUL (2026-03-19)
 
-**This is a multi-session project.** Each session focuses on ONE language and completes ALL 15 P53 checklist items.
+**The platform rehaul is the immediate priority.** The full design spec is in `docs/VERUMLINGUA_REHAUL_VISION.md`. Build order:
 
-1. **D112: Certification-Grade Vocabulary & Grammar Audit** (IMMEDIATE PRIORITY)
-   - **Phase 1**: Vocabulary gap analysis. For each language, obtain official exam vocabulary list, extract current teach card vocabulary, compare. Produce gap report. Fix ALL gaps.
-   - **Phase 2**: Grammar gap analysis. For each language, produce complete grammar inventory table from official exam grammar lists. Verify every construct is taught + practiced + recycled. Fix ALL gaps.
-   - **Phase 3**: Unit count re-evaluation. Every language's unit count must be justified by concept catalogue, not template. Korean A2 (4 units for Category V language) flagged for expansion. German/French/Spanish B2 (6 units each) flagged for expansion.
-   - **Phase 4**: Communicative functions mapping. Verify ALL CEFR communicative functions covered.
-   - **Phase 5**: Full 15-item P53 checklist re-verification.
-   - Session order: Korean first (most complex, sets template), then Dutch, German, French, Spanish.
-   - ALL 5 languages audited to same depth. No language is "exempt" because it was built first.
-   - Agents receive full pipeline context per Rule 13. Opus for content generation per Rule 11. Official source citation per Rule 14. No sampling per Rule 15.
+1. **D114: Update docs to match vision** (THIS SESSION) — CLAUDE.md, Master Bible, Pipeline Standards
+2. **Language-specific settings panel** — redesign with full grammar visualization per language (German cases, Korean particles, etc.), VerumLingua bubble style, two access points (in-lesson + full settings page)
+3. **Vocab page redesign** — search + categories + review modes, strip quiz data, build from scratch
+4. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (ONE language)
+5. **Story dialogue system prototype** — protagonist setup, episode format (ONE language)
+6. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
+7. **Full curriculum restructure** — rewrite units to new format, one language at a time
+8. **Content salvage** — export and redistribute old dialogue content
+9. **Full platform sweep** — apply new standards across all 5 languages
 
-2. **Arabic A1-B2 Build** (after D112 completes)
-   - Has skeleton units + LANG_BLUEPRINT + foundations knowledge grid
-   - Needs: FK_PLAYTHROUGH, FK_GATE_QUIZ, full curriculum build
-   - MUST follow P54 anti-cramming doctrine + P55 vocabulary completeness + P56 concept-driven sizing from day one
-   - Arabic is the FIRST language to be built under the certification-grade standard
+**D112 certification audit is DEFERRED** until after the curriculum restructure. The rehaul will change card formats, lesson types, and unit structure, so auditing the old format is wasted work. D112's principles (P55-P58) still apply and will be enforced during the restructure.
 
-3. **Deep Quality Audits** (D92-style) for German, French, and Spanish
-   - All three passed quality scans but have not had the multi-round deep audit treatment
-   - Korean (D92/D93) and Dutch (D102) set the audit standard
-   - These audits are INCLUDED in D112 scope, not separate
+**Arabic A1-B2 Build** also deferred until the rehaul establishes the new format. Arabic will be the FIRST language built entirely in the new format.
 
 ### Workflow for All Future Content
-Every language expansion MUST follow this workflow:
-1. **Obtain official vocabulary and grammar lists.** Before writing anything, get the complete official word list and grammar inventory for the target certification exam at each CEFR level. These are the REQUIREMENTS.
-2. **Catalogue all concepts (P54, P56).** Organize vocabulary by domain, grammar by construct, communicative functions by CEFR level. Determine unit count and distribution from the concepts, not from any template.
+Every language expansion MUST follow this workflow (updated for rehaul format):
+1. **Obtain official vocabulary and grammar lists** (P55, P57). Complete official word list + grammar inventory for each CEFR level.
+2. **Catalogue all concepts** (P54, P56). Organize by domain. Determine unit count from concepts, not template.
 3. Build foundations (knowledge + playthrough + gate quiz)
-4. Build A1-B2 with Rule 7 density enforcement (never batch-build skeletons)
-5. **Vocabulary completeness check (P55).** After building, run automated comparison against official word list. Fix ALL gaps before proceeding.
-6. **Grammar completeness check (P57).** Produce grammar inventory table. Fix ALL gaps.
-7. Quality audit per level (D92-style: P8, P52, P44, P48, P49)
-8. Dialogue enrichment with Rule 9 sequential workflow
-9. **Full 15-item P53 checklist.** ALL items must PASS. No exceptions.
-10. **Certification readiness review.** A domain expert confirms exam preparedness.
+4. Build curriculum using NEW format (vision doc Section 4): vocab-only lessons, story episodes, grammar lessons, quizzes, review. All new content uses `target`/`source` field names.
+5. **Card format**: Every teach card follows vision doc Section 2: 2-bubble dialogue + fun info bottom. No multi-line dialogues.
+6. **Story system**: Every unit has a running story arc per vision doc Section 3. Protagonist uses source-language name.
+7. **Interleaved lesson flow**: Story intro -> vocab -> story dev -> grammar -> story climax -> quiz -> resolution (vision doc Section 3.3).
+8. Quality audit per level (D92-style: P8, P52, P44, P48, P49)
+9. **Full 15-item P53 checklist.** ALL items must PASS.
+10. **Certification readiness review.** Learner could pass official exam using only VerumLingua.
 
 ---
 
@@ -1194,3 +1204,7 @@ Every language expansion MUST follow this workflow:
 23. **No sampling for completeness audits.** When checking vocabulary or grammar completeness, check EVERY item — not a sample. Scripts can compare full lists in seconds. Sampling is only acceptable for P8 leak checks (requires human judgment). (Rule 15, D112)
 24. **Every claim needs an official source.** "I think this word is B1" is not evidence. "Goethe-Wortliste B1, page 23" is evidence. Uncited vocabulary/grammar claims in audits are REJECTED. (Rule 14, D112)
 25. **After adding any new sub-level, verify the unit map in the browser.** `getCefrInfo()` now handles sub-levels beyond `.2` via band-prefix fallback, but visually confirm units appear in the correct CEFR tab before committing. Never revert or simplify `getCefrInfo()` — the band-prefix fallback is load-bearing. (Rule 16, D113)
+26. **"We coded before designing. Never again."** The platform rehaul vision (`docs/VERUMLINGUA_REHAUL_VISION.md`) must be approved before any code is written for each phase. Design first, build second. (D114, 2026-03-19)
+27. **Word cards: ALWAYS 2 bubbles, ALWAYS fun info.** Every teach card has exactly 2 dialogue bubbles (1 sender + 1 receiver) and a fun info section at the bottom (etymology, cultural note, or memory hook). Never 1 bubble, never 3+. No card ships without fun info. (Vision doc Section 2)
+28. **Settings must be language-specific.** Only show categories relevant to the current language. German gets case colors. Korean gets particle colors. Dutch gets de/het. No clutter from irrelevant categories. (Vision doc Section 5)
+29. **Salvage everything, throw away nothing.** All existing sentences and words being cut during the restructure are SAVED to reference files per language. Reuse in story dialogues, quiz distractors, review content. (Vision doc Section 2.4)
