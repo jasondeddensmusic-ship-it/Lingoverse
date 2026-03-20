@@ -39,6 +39,9 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `metadata.js` | ~440 | VOCAB_DB, LANGUAGES, CEFR_LEVELS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, SCRIPT_BLUEPRINTS |
 | `foundations.js` | ~2,060 | FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ |
 | `vocabulary.js` | ~2,500 | TEXT_KEYS, tk(), VOCAB, LEXEMES, MEANINGS, GRAMMAR, CHAT_STARTERS, LEVEL_XP, ACHS, LANG_FAMILIES, ARTICLE_COLORS |
+| `dictionary.js` | ~830 | WORD_DB builder, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, isLemma computation, pluggable POS taggers |
+| `korean-conjugation.js` | ~300 | conjugateVerb(), detectIrregType(), getIrregInfo(), nounWithParticles(). 7 irregular types + regular. ~20 ending templates. Korean phonology rules (vowel harmony, batchim, contraction). |
+| `wordlists/function-words-ko.js` | ~560 | 531 Korean function words with word, lemma, pos, tags, gender fields. Powers particle/connector/counter vocabulary in WORD_DB. |
 | `units-dutch.js` | ~6,030 | All 43 Dutch units (20 v2 + 23 legacy) |
 | `units-korean.js` | ~8,700 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
 | `units-german.js` | ~7,407 | All 30 German units (A1-B2, v1) |
@@ -209,6 +212,7 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - **D114**: Platform rehaul vision document + docs update. Complete design spec for curriculum restructure, word card redesign, story system, settings panel, vocab page. Build order established.
 - **D115**: Settings panel V1-V3. Tabbed GRAMMAR_PACKS, candy pill legend with click-to-explain and edit mode, frosted glass container (.sf-panel standard), high-contrast Word Type colors (acid green/hot orange/hot pink/electric blue/vivid yellow), high-contrast Gender colors (vivid blue/crimson/amber/teal/bronze, zero grey/purple). `pillGradient(hex)` helper. Per-language category disable. Design system standard established.
 - **D116**: Vocab Page V6 redesign. Compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles, candy pill legend). All 3 modes (Search/Browse/Review) working. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings panel shared with lesson engine via same localStorage keys. WORD_DB gender field matching fixed.
+- **D117**: Korean Deep Dictionary System. New files: `dictionary.js` (~830 lines, WORD_DB builder with isLemma gating, pluggable POS taggers, form/morpheme/example/idiom indexes, grammar pattern extraction), `korean-conjugation.js` (~300 lines, full conjugation engine with 7 irregular types + regular, ~20 ending templates, vowel harmony/batchim/contraction rules), `wordlists/function-words-ko.js` (~560 lines, 531 function words with word/lemma/pos/tags). Vocab list: lemma-only display (882 unique Korean words, down from 1,055). Hangul-only filter removes garbage entries (arrows, English letters, grammar notation). Browse tab: Korean groups by 14 initial consonants instead of hundreds of syllable pills. 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related) with conjugation tables, morpheme families, example sentence aggregation, idiom cross-reference, and "Ask Verumius" fallback.
 
 ---
 
@@ -1187,19 +1191,22 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 **verb_table crash fix (2026-03-19)**: 31 Spanish verb_tables used array-of-arrays row format + 1 used forms[] format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
 **Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
-### NEXT PRIORITIES — PLATFORM REHAUL (2026-03-19)
+### NEXT PRIORITIES — PLATFORM REHAUL (2026-03-20)
 
 **The platform rehaul is the immediate priority.** The full design spec is in `docs/VERUMLINGUA_REHAUL_VISION.md`. Build order:
 
 1. **D114: Update docs to match vision** — CLAUDE.md, Master Bible, Pipeline Standards **(DONE)**
 2. **D115: Language-specific settings panel V1** — per-language grammar filters, VerumLingua bubble style, mobile bottom sheet, desktop floating panel **(DONE 2026-03-19, PR #67)**. Known gaps: understripe dropdown, bold/italic/dotted controls, full settings page in profile, Korean koreanHl integration. See `docs/SETTINGS_PANEL_HANDOFF.md`.
 3. **D116: Vocab page V6 redesign** — compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes working. Mobile bottom sheet. **(DONE 2026-03-19)**
-4. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (German first, per owner decision)
-5. **Story dialogue system prototype** — protagonist setup, episode format (ONE language). Vision brainstormed: Verumius IS the protagonist, sitcom sketch format, comedy+adventure growing with CEFR, core cast per language culture.
-6. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
-7. **Full curriculum restructure** — rewrite units to new format, one language at a time
-8. **Content salvage** — export and redistribute old dialogue content
-9. **Full platform sweep** — apply new standards across all 5 languages
+4. **D117: Korean Deep Dictionary System** — dictionary.js + korean-conjugation.js + function-words-ko.js. WORD_DB with isLemma gating, conjugation engine, form-to-lemma reverse index, 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related), morpheme family index, Korean Browse tab with consonant grouping. **(DONE 2026-03-20)** Known gaps: Grammar tab shows raw teach cards instead of organized grammar reference (needs category-based reorganization pulling tips + verb_tables + patterns). White screen crash reported on production word click (not reproducible in dev).
+5. **Korean WORD_DB enrichment from official TOPIK/CEFR word lists** — Load official findable TOPIK vocabulary by CEFR level into WORD_DB with proper POS tags, levels, and lemma grouping. This is the foundation for ALL dictionary features across all languages. Start with Korean as pilot, then replicate for Dutch/German/French/Spanish.
+6. **Grammar tab overhaul** — Replace flat teach-card dump with organized grammar reference pulling from 323 tip cards + 7 verb_tables + 85 real grammar patterns. Categorize by topic (particles, conjugation, tense, negation, honorifics, connectors, sentence endings). Each entry shows rule, formation, examples, unit link.
+7. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (German first, per owner decision)
+8. **Story dialogue system prototype** — protagonist setup, episode format (ONE language). Vision brainstormed: Verumius IS the protagonist, sitcom sketch format, comedy+adventure growing with CEFR, core cast per language culture.
+9. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
+10. **Full curriculum restructure** — rewrite units to new format, one language at a time
+11. **Content salvage** — export and redistribute old dialogue content
+12. **Full platform sweep** — apply new standards across all 5 languages
 
 **D112 certification audit is DEFERRED** until after the curriculum restructure. The rehaul will change card formats, lesson types, and unit structure, so auditing the old format is wasted work. D112's principles (P55-P58) still apply and will be enforced during the restructure.
 
