@@ -24,6 +24,9 @@ import { FUNCTION_WORDS_KO } from './wordlists/function-words-ko.js';
 // Korean conjugation engine (Phase 1 of deep dictionary)
 import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './korean-conjugation.js';
 
+// German conjugation engine (Phase 1 of deep dictionary)
+import { conjugateVerb as conjugateGermanVerb, detectVerbType as detectGermanVerbType, getVerbInfo as getGermanVerbInfo, nounWithCases, buildFormIndex as buildGermanFormIndex, STRONG_VERBS as DE_STRONG_VERBS, MIXED_VERBS as DE_MIXED_VERBS, MODAL_VERBS as DE_MODAL_VERBS, AUXILIARY_VERBS as DE_AUXILIARY_VERBS } from './german-conjugation.js';
+
 const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 const FUNCTION_WORD_LISTS = {
@@ -604,6 +607,26 @@ function buildKoreanFormIndex() {
 
 export const KOREAN_FORM_INDEX = buildKoreanFormIndex();
 
+// ── German Form-to-Lemma Reverse Index ──
+// Maps every conjugated surface form back to its infinitive.
+// Searching "fuhrst" resolves to "fahren".
+function buildGermanFormIdx() {
+  const deDict = WORD_DB.de;
+  if (!deDict) return {};
+  const verbs = [];
+  for (const [key, entry] of Object.entries(deDict)) {
+    if (entry.pos === "verb" || entry.kind === "verb") {
+      const inf = key.endsWith("en") || key.endsWith("n") ? key : key + "en";
+      if (!verbs.includes(inf)) verbs.push(inf);
+    }
+  }
+  return buildGermanFormIndex(verbs);
+}
+export const GERMAN_FORM_INDEX = buildGermanFormIdx();
+
+// Re-export German conjugation API for use in lingoverse.jsx
+export { conjugateGermanVerb, detectGermanVerbType, getGermanVerbInfo, nounWithCases };
+
 // ── Phase 4: Morpheme Family Index ──
 // Cross-references Sino-Korean morphemes from hanja fields and COMPOUND markers.
 // KOREAN_MORPHEME_INDEX["학"] = { hanja: "學", meaning: "study", words: ["학교","학생","학원"] }
@@ -720,20 +743,24 @@ function buildKoreanIdiomIndex() {
       for (const step of (lesson.steps || [])) {
         if (step.type !== "teach") continue;
         const nl = step.nl || "";
-        // Idioms/proverbs are multi-word teach cards, usually with spaces
-        // and typically in B2 content with kind:"phrase" or kind:"grammar"
-        if (!nl.includes(" ") || nl.length < 6) continue;
-        // Check if it looks like an idiom (contains common words, not a grammar pattern starting with -)
-        if (nl.startsWith("-") || nl.startsWith("(")) continue;
-        // Must have Korean characters and look like a phrase/proverb
+        // Only include real idioms/proverbs/expressions:
+        // - kind:"phrase" cards (explicit phrases)
+        // - B2 proverb/idiom units (U26-U28 typically)
+        // - Cards with → that have 3+ Korean words (real expressions, not conjugation examples)
+        const isPhrase = step.kind === "phrase";
+        const isB2Expression = (unit.level || "").startsWith("B2") && nl.includes(" ") && nl.length >= 8;
+        const isProverb = nl.length >= 10 && (nl.split(/\s+/).filter(w => /[\uAC00-\uD7AF]/.test(w)).length >= 3);
+        if (!isPhrase && !isB2Expression && !isProverb) continue;
+        // Exclude grammar patterns and conjugation examples
+        if (nl.startsWith("-") || nl.startsWith("(") || nl.includes("→")) continue;
         if (!/[\uAC00-\uD7AF].*[\uAC00-\uD7AF]/.test(nl)) continue;
-        const words = nl.split(/[\s,;:!?.'"()[\]{}→]+/)
+        const words = nl.split(/[\s,;:!?.'"()[\]{}]+/)
           .filter(w => w.length > 0 && /[\uAC00-\uD7AF]/.test(w))
           .map(w => w.toLowerCase());
         for (const w of words) {
           if (!index[w]) index[w] = [];
           if (index[w].length < 5) {
-            index[w].push({ idiom: nl, meaning: step.en || "", lessonId: lesson.id });
+            index[w].push({ idiom: nl, meaning: step.en || "", lessonId: lesson.id, unitN: unit.n });
           }
         }
       }
@@ -773,6 +800,132 @@ function buildKoreanGrammarPatterns() {
 }
 
 export const KOREAN_GRAMMAR_PATTERNS = buildKoreanGrammarPatterns();
+
+// ═══════════════════════════════════════════════════════════════════
+// KOREAN GRAMMAR REFERENCE — comprehensive grammar from ALL sources
+// Pulls from: tip cards, verb_tables, grammar teach cards, and patterns
+// ═══════════════════════════════════════════════════════════════════
+
+// Categorize a grammar item by content analysis
+function categorizeGrammar(text, title, note) {
+  const all = (text + " " + title + " " + (note || "")).toLowerCase();
+  // Particles
+  if (/\b(particle|조사|은\/는|이\/가|을\/를|에서|에게|한테|으로|부터|까지|마다|처럼|만큼|보다)\b/.test(all)) return "Particles";
+  // Honorifics & Speech levels
+  if (/\b(honorif|존경|겸양|합쇼체|해요체|반말|격식|비격식|register|polite|formal|casual|speech level|-(으)시|높임|존댓말|반말)\b/.test(all)) return "Speech Levels";
+  // Verb conjugation
+  if (/\b(conjug|irregular|불규칙|ㅂ불|ㄷ불|ㅎ불|ㅅ불|ㄹ불|으불|르불|verb.*form|stem|batchim|vowel harm)\b/.test(all)) return "Verb Conjugation";
+  // Tense & Aspect
+  if (/\b(past.*tense|future.*tense|present.*tense|progressive|-고 있|-았|-었|-(으)ㄹ 거|시제|과거|미래|현재)\b/.test(all)) return "Tense & Aspect";
+  // Negation
+  if (/\b(negat|안|못|-지 않|-지 못|부정)\b/.test(all)) return "Negation";
+  // Connectors
+  if (/\b(connect|connector|-고|-지만|-(으)면|-아\/어서|-기 때문|-는데|-니까|접속|연결)\b/.test(all)) return "Connectors";
+  // Sentence endings
+  if (/\b(ending|-네요|-군요|-ㄹ걸|-더라|-ㄹ게요|종결|어미)\b/.test(all)) return "Sentence Endings";
+  // Modifiers
+  if (/\b(modifier|관형|adjective form|relative clause|-ㄴ\/는|-은\/는|수식)\b/.test(all)) return "Modifiers";
+  // Numbers & Counters
+  if (/\b(number|counter|숫자|개|명|번|살|시|분|native.*korean.*number|sino.*korean|한자어.*숫자)\b/.test(all)) return "Numbers & Counters";
+  // Expressions & patterns
+  if (/\b(expression|pattern|관용|-고 싶|-ㄹ 수 있|-아\/어야|-기로 하)\b/.test(all)) return "Expressions";
+  return "General";
+}
+
+// Detect politeness/register level
+function detectPoliteness(text, title, note) {
+  const all = (text + " " + title + " " + (note || "")).toLowerCase();
+  if (/합쇼체|formal|격식체|합니다/.test(all)) return "formal";
+  if (/해요체|polite|존댓말/.test(all)) return "polite";
+  if (/반말|casual|informal|비격식/.test(all)) return "casual";
+  if (/written|문어|literary|academic/.test(all)) return "written";
+  return "all";
+}
+
+function buildKoreanGrammarReference() {
+  const items = [];
+  const koUnits = ALL_UNITS.filter(u => u.lang === "ko");
+  const seen = new Set(); // dedup by content
+  const toStr = (v) => { if (!v) return ""; if (typeof v === "string") return v; if (typeof v === "object" && v.title) return v.title + (v.text ? "\n" + v.text : ""); return String(v); };
+
+  for (const unit of koUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        // Source 1: Tip cards (actual grammar explanations)
+        if (step.type === "tip") {
+          const key = "tip:" + toStr(step.title) + toStr(step.text).substring(0, 60);
+          if (seen.has(key)) continue;
+          seen.add(key);
+          const title = toStr(step.title);
+          const text = toStr(step.text);
+          items.push({
+            source: "tip",
+            title: title,
+            text: text,
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: categorizeGrammar(text, title, step.deepDive || ""),
+            politeness: detectPoliteness(text, title, step.deepDive || ""),
+            example: null,
+            exampleEn: null,
+          });
+        }
+
+        // Source 2: Verb tables (conjugation grids)
+        if (step.type === "verb_table") {
+          const key = "vt:" + (step.title || "") + unit.n;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push({
+            source: "verb_table",
+            title: step.title || "Conjugation Table",
+            text: step.note || "",
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: "Verb Conjugation",
+            politeness: detectPoliteness(step.title || "", step.note || "", step.deepDive || ""),
+            groups: step.groups || [],
+            example: null,
+            exampleEn: null,
+          });
+        }
+
+        // Source 3: Grammar teach cards (only real patterns — must contain -, /, ~, or be particle entries)
+        if (step.type === "teach" && step.kind === "grammar") {
+          const nl = step.nl || "";
+          const isRealPattern = /[-\/~()ㅂ니다요]/.test(nl) || nl.startsWith("~") || nl.includes("/") || nl.length <= 6;
+          if (!isRealPattern) continue;
+          const key = "gr:" + nl;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push({
+            source: "grammar",
+            title: nl,
+            text: step.note || "",
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: categorizeGrammar(nl, step.en || "", step.note || ""),
+            politeness: detectPoliteness(nl, step.en || "", step.note || ""),
+            example: step.example || null,
+            exampleEn: step.exampleEn || null,
+            en: step.en || "",
+            phonetic: step.phonetic || "",
+          });
+        }
+      }
+    }
+  }
+  return items;
+}
+
+export const KOREAN_GRAMMAR_REFERENCE = buildKoreanGrammarReference();
+export const GRAMMAR_CATEGORIES = ["Particles","Speech Levels","Verb Conjugation","Tense & Aspect","Negation","Connectors","Sentence Endings","Modifiers","Numbers & Counters","Expressions","General"];
 
 // Re-export conjugation utilities for UI components
 export { conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles };

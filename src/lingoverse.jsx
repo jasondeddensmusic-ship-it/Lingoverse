@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { createPortal } from "react-dom";
 
 // ── Data module imports (extracted from this file for modularity) ──
 import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './data/dictionary.js';
+import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, KOREAN_GRAMMAR_REFERENCE, GRAMMAR_CATEGORIES, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -7909,6 +7910,9 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const searchRef=useRef(null);
   const [gramLevel,setGramLevel]=useState("A1");
   const [gramExpanded,setGramExpanded]=useState(null);
+  const [gramSearch,setGramSearch]=useState("");
+  const [gramCategory,setGramCategory]=useState("All");
+  const [gramPoliteness,setGramPoliteness]=useState("all");
 
   // ── Helpers ──
   const getWordColor=(entry)=>{
@@ -8097,13 +8101,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
     // Tab data (Korean-specific deep features)
     const tabs=isKorean?[
-      {id:"overview",label:"Overview",icon:"\u{1F4D6}"},
-      {id:"forms",label:isVerb?"Forms":"Particles",icon:isVerb?"\u{1F504}":"\u{1F517}"},
-      {id:"examples",label:"Examples",icon:"\u{1F4AC}"},
-      {id:"grammar",label:"Grammar",icon:"\u{1F4DA}"},
-      {id:"related",label:"Related",icon:"\u{1F310}"},
+      {id:"overview",label:"Overview"},
+      {id:"forms",label:isVerb?"Forms":"Particles"},
+      {id:"examples",label:"Examples"},
+      {id:"grammar",label:"Grammar"},
+      {id:"related",label:"Related"},
     ]:[
-      {id:"overview",label:"Overview",icon:"\u{1F4D6}"},
+      {id:"overview",label:"Overview"},
     ];
 
     // Conjugation data (for Forms tab)
@@ -8155,6 +8159,14 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const tabColor=(active)=>active?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0");
     const sectionTitle=(text)=><div style={{fontSize:11,fontWeight:900,letterSpacing:1,textTransform:"uppercase",color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)",marginBottom:8,marginTop:14}}>{text}</div>;
     const subNote=(text)=><div style={{fontSize:12,color:dk?"rgba(200,184,255,0.65)":"rgba(80,60,140,0.6)",lineHeight:1.5,fontWeight:600,marginBottom:8,whiteSpace:"pre-line"}}>{text}</div>;
+    // Candy gloss bubble wrapper — used for all tab content cards
+    const glossBubble=(children,opts={})=>{
+      const mb=opts.mb??6;const k=opts.key;
+      return <div key={k} style={{borderRadius:16,padding:"10px 14px",marginBottom:mb,position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+        <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+        <div style={{position:"relative",zIndex:1}}>{children}</div>
+      </div>;
+    };
 
     return(
       <div onClick={()=>{setExpanded(null);setPopupTab("overview");}} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
@@ -8199,7 +8211,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               background:tabBg(popupTab===t.id),color:tabColor(popupTab===t.id),
               boxShadow:popupTab===t.id?"0 2px 8px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":"inset 0 1px 0 rgba(255,255,255,0.1)",
               transition:"all .2s",whiteSpace:"nowrap",flexShrink:0,
-            }}>{t.icon} {t.label}</button>)}
+            }}>{t.label}</button>)}
           </div>}
 
           {/* ═══ TAB: Overview ═══ */}
@@ -8241,10 +8253,10 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {/* Uses from KOREAN_DICT */}
             {entry.uses&&entry.uses.length>0&&<>
               {sectionTitle("Common Usage")}
-              {entry.uses.map((u,i)=><div key={i} style={{marginBottom:6,borderRadius:14,padding:"8px 12px",background:bubbleBg,border:bubbleBorder}}>
-                <div style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)"}}>{u.k}</div>
-                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic"}}>{u.e}</div>
-              </div>)}
+              {entry.uses.map((u,i)=>glossBubble(<>
+                <div style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{u.k}</div>
+                <div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",fontWeight:600,marginTop:2}}>{u.e}</div>
+              </>,{key:i}))}
             </>}
           </>}
 
@@ -8258,10 +8270,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                 if(!forms.length)return null;
                 return <div key={group}>
                   {sectionTitle(group)}
-                  <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4,marginBottom:6}}>
-                    {forms.map((f,i)=><div key={i} style={{borderRadius:12,padding:"7px 10px",background:bubbleBg,border:bubbleBorder}}>
-                      <div style={{fontSize:13,fontWeight:700,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)"}}>{f.form}</div>
-                      <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600}}>{f.label}</div>
+                  <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:8}}>
+                    {forms.map((f,i)=><div key={i} style={{borderRadius:14,padding:"9px 12px",position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+                      <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                      <div style={{position:"relative",zIndex:1}}>
+                        <div style={{fontSize:14,fontWeight:800,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{f.form}</div>
+                        <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700}}>{f.label}</div>
+                      </div>
                     </div>)}
                   </div>
                 </div>;
@@ -8269,10 +8284,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             </>}
             {!isVerb&&particleData&&<>
               {sectionTitle("Particle Combinations")}
-              <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
-                {particleData.map((p,i)=><div key={i} style={{borderRadius:12,padding:"7px 10px",background:bubbleBg,border:bubbleBorder}}>
-                  <div style={{fontSize:13,fontWeight:700,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)"}}>{p.form}</div>
-                  <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600}}>{p.role} ({p.particle})</div>
+              <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6}}>
+                {particleData.map((p,i)=><div key={i} style={{borderRadius:14,padding:"9px 12px",position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+                  <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                  <div style={{position:"relative",zIndex:1}}>
+                    <div style={{fontSize:14,fontWeight:800,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{p.form}</div>
+                    <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700}}>{p.role} ({p.particle})</div>
+                  </div>
                 </div>)}
               </div>
             </>}
@@ -8282,23 +8300,23 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           {popupTab==="examples"&&isKorean&&<>
             {examples.length>0?<>
               {sectionTitle(`${examples.length} example${examples.length>1?"s":""} from curriculum`)}
-              {examples.map((ex,i)=><div key={i} style={{borderRadius:14,padding:"10px 12px",marginBottom:6,background:bubbleBg,border:bubbleBorder}}>
+              {examples.map((ex,i)=>glossBubble(<>
                 <div style={{display:"flex",alignItems:"center",gap:6}}>
-                  <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",flex:1,lineHeight:1.5}}>{ex.korean}</span>
+                  <span style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)",flex:1,lineHeight:1.5}}>{ex.korean}</span>
                   <SpeakerButton text={ex.korean} lang={ttsLocale} size={11} showToast={showToast}/>
                 </div>
-                {ex.english&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic",marginTop:2}}>{ex.english}</div>}
-                <div style={{fontSize:9,color:dk?"rgba(200,184,255,0.3)":"rgba(100,80,160,0.3)",marginTop:2,fontWeight:700}}>Unit {ex.unitN} / {ex.lessonId}</div>
-              </div>)}
+                {ex.english&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.65)",fontWeight:600,marginTop:3}}>{ex.english}</div>}
+                <div style={{fontSize:9,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",marginTop:3,fontWeight:700}}>Unit {ex.unitN} / {ex.lessonId}</div>
+              </>,{key:i}))}
             </>:<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>No curriculum examples found for this word yet.</div>}
 
             {/* Idioms */}
             {idioms.length>0&&<>
               {sectionTitle("Idioms & Expressions")}
-              {idioms.map((id,i)=><div key={i} style={{borderRadius:14,padding:"8px 12px",marginBottom:4,background:bubbleBg,border:bubbleBorder}}>
-                <div style={{fontSize:13,fontWeight:700,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
-                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)"}}>{id.meaning}</div>
-              </div>)}
+              {idioms.map((id,i)=>glossBubble(<>
+                <div style={{fontSize:14,fontWeight:800,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
+                <div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",fontWeight:600}}>{id.meaning}</div>
+              </>,{key:i,mb:4}))}
             </>}
           </>}
 
@@ -8308,10 +8326,10 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {entry.particle&&<>{sectionTitle("Particle Patterns")}{subNote(entry.particle)}</>}
             {entry.uses&&entry.uses.length>0&&<>
               {sectionTitle("Usage Examples")}
-              {entry.uses.map((u,i)=><div key={i} style={{marginBottom:6,borderRadius:14,padding:"8px 12px",background:bubbleBg,border:bubbleBorder}}>
-                <div style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)"}}>{u.k}</div>
-                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic"}}>{u.e}</div>
-              </div>)}
+              {entry.uses.map((u,i)=>glossBubble(<>
+                <div style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{u.k}</div>
+                <div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",fontWeight:600,marginTop:2}}>{u.e}</div>
+              </>,{key:i}))}
             </>}
             {/* DeepDive from teach card (if available via note match) */}
             {(!entry.note&&!entry.particle&&!(entry.uses&&entry.uses.length))&&
@@ -8347,13 +8365,26 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {/* Idioms */}
             {idioms.length>0&&<>
               {sectionTitle("Appears in Idioms")}
-              {idioms.map((id,i)=><div key={i} style={{borderRadius:14,padding:"8px 12px",marginBottom:4,background:bubbleBg,border:bubbleBorder}}>
-                <div style={{fontSize:13,fontWeight:700,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
-                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)"}}>{id.meaning}</div>
-              </div>)}
+              {idioms.map((id,i)=>glossBubble(<>
+                <div style={{fontSize:14,fontWeight:800,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
+                <div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",fontWeight:600}}>{id.meaning}</div>
+              </>,{key:i,mb:4}))}
             </>}
 
-            {(!morphemes.length&&!idioms.length)&&
+            {/* Conjugated forms as related words (verbs only) */}
+            {isVerb&&conjData&&!morphemes.length&&!idioms.length&&<>
+              {sectionTitle("Conjugated Forms")}
+              <div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:8}}>
+                {Object.values(conjData).slice(0,12).map((f,i)=><button key={i} onClick={()=>setPopupTab("forms")} style={{
+                  padding:"5px 12px",borderRadius:12,border:"none",cursor:"pointer",
+                  fontFamily:"inherit",fontSize:12,fontWeight:700,
+                  background:dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)",
+                  color:dk?"rgba(255,255,255,0.7)":"#6040C0",transition:"all .2s",
+                }}>{f.form}</button>)}
+              </div>
+              <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",fontWeight:600,textAlign:"center"}}>Tap any form to see all conjugations</div>
+            </>}
+            {(!morphemes.length&&!idioms.length&&!(isVerb&&conjData))&&
               <div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>
                 No related words found yet.
               </div>}
@@ -8378,9 +8409,9 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               style={{
                 padding:"10px 22px",borderRadius:16,border:"none",cursor:"pointer",fontFamily:"Quicksand, sans-serif",
                 fontSize:13,fontWeight:800,transition:"all .25s",position:"relative",overflow:"hidden",
-                background:dk?"linear-gradient(180deg,#5FE8C0 0%,#2ECDA7 40%,#1AB090 100%)":"linear-gradient(180deg,#69F0CE 0%,#2ECDA7 50%,#1AB090 100%)",
-                color:"white",textShadow:"0 1px 3px rgba(0,0,0,0.2)",
-                boxShadow:"0 4px 16px rgba(46,205,167,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)",
+                background:dk?"linear-gradient(180deg,#F7D06B 0%,#F5A623 25%,#E8960A 55%,#D08E10 85%,#B87A08 100%)":"linear-gradient(180deg,#F7D06B 0%,#F5A623 25%,#E8960A 55%,#D08E10 85%,#B87A08 100%)",
+                color:"white",textShadow:"0 1px 3px rgba(0,0,0,0.25)",
+                boxShadow:"0 4px 16px rgba(245,166,35,0.45), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",
               }}>
                 <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
                 <span style={{position:"relative",zIndex:1}}>Ask Verumius about this word</span>
@@ -8414,7 +8445,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ═══════════════════════════════════════════════════════════
   return(
     <div className="anim" style={{maxWidth:700,margin:"0 auto"}}>
-      <WordPopup/>
+      {expanded && typeof expanded === "object" && createPortal(<WordPopup/>, document.body)}
       {/* ── Header ── */}
       <div style={{textAlign:"center",marginBottom:20}}>
         <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4,fontFamily:"Quicksand, sans-serif"}}>Vocabulary</h2>
@@ -8883,39 +8914,99 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       {/* GRAMMAR MODE (Korean grammar patterns by CEFR level)   */}
       {/* ═══════════════════════════════════════════════════════ */}
       {mode==="grammar"&&lang==="ko"&&(()=>{
-        const patterns=KOREAN_GRAMMAR_PATTERNS||[];
+        const ref=KOREAN_GRAMMAR_REFERENCE||[];
         const levels=["A1","A2","B1","B2"];
-        const filtered=patterns.filter(p=>(p.level||"A1").startsWith(gramLevel));
+        const cats=["All",...GRAMMAR_CATEGORIES];
+        const polLevels=[{id:"all",label:"All"},{id:"formal",label:"Formal"},{id:"polite",label:"Polite"},{id:"casual",label:"Casual"},{id:"written",label:"Written"}];
+        const q=gramSearch.toLowerCase().trim();
+        const filtered=ref.filter(p=>{
+          if(!(p.level||"A1").startsWith(gramLevel))return false;
+          if(gramCategory!=="All"&&p.category!==gramCategory)return false;
+          if(gramPoliteness!=="all"&&p.politeness!==gramPoliteness&&p.politeness!=="all")return false;
+          if(q){
+            const hay=(p.title+" "+p.text+" "+(p.en||"")+" "+(p.example||"")).toLowerCase();
+            if(!hay.includes(q))return false;
+          }
+          return true;
+        });
+        const sourceLabel={tip:"Grammar Tip",verb_table:"Conjugation Table",grammar:"Pattern"};
+        // Strip leading emojis from tip card titles and safely convert objects to strings
+        const cleanTitle=(t)=>{if(!t)return"";const s=typeof t==="object"?(t.title||t.text||JSON.stringify(t)):String(t);return s.replace(/^[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE00}-\u{FE0F}\u{200D}\u{20E3}\u{E0020}-\u{E007F}]+\s*/u,"").trim();};
+        const safeText=(t)=>{if(!t)return null;if(typeof t==="object")return t.title?String(t.title)+(t.text?"\n"+String(t.text):""):JSON.stringify(t);return String(t);};
         return <div>
-          {/* Level tabs */}
-          <div style={{display:"flex",gap:6,marginBottom:16,flexWrap:"wrap",justifyContent:"center"}}>
-            {levels.map(lv=><button key={lv} onClick={()=>{setGramLevel(lv);setGramExpanded(null);}} style={chipStyle(gramLevel===lv)}>{lv} ({patterns.filter(p=>(p.level||"A1").startsWith(lv)).length})</button>)}
+          {/* Search bar */}
+          <div style={{marginBottom:12,position:"relative"}}>
+            <input value={gramSearch} onChange={e=>{setGramSearch(e.target.value);setGramExpanded(null);}} placeholder="Search grammar patterns..." style={{
+              width:"100%",boxSizing:"border-box",padding:"10px 14px 10px 36px",borderRadius:16,border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",
+              background:dk?"rgba(40,30,70,0.6)":"rgba(250,248,255,0.9)",color:dk?"white":"var(--gray-800)",fontSize:13,fontWeight:600,fontFamily:"inherit",outline:"none",
+            }}/>
+            <span style={{position:"absolute",left:12,top:"50%",transform:"translateY(-50%)",fontSize:14,opacity:0.4}}>&#x1F50D;</span>
           </div>
-          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:10,textAlign:"center"}}>{filtered.length} grammar pattern{filtered.length!==1?"s":""}</div>
-          {filtered.length===0&&<div style={{textAlign:"center",padding:30,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13,fontWeight:600}}>No grammar patterns at this level yet.</div>}
-          {filtered.map((pat,i)=>{
+          {/* Level tabs */}
+          <div style={{display:"flex",gap:6,marginBottom:10,flexWrap:"wrap",justifyContent:"center"}}>
+            {levels.map(lv=><button key={lv} onClick={()=>{setGramLevel(lv);setGramExpanded(null);}} style={chipStyle(gramLevel===lv)}>{lv}</button>)}
+          </div>
+          {/* Category filter — scrollable row */}
+          <div style={{display:"flex",gap:4,marginBottom:10,overflowX:"auto",paddingBottom:4}}>
+            {cats.map(c=><button key={c} onClick={()=>{setGramCategory(c);setGramExpanded(null);}} style={{
+              padding:"5px 10px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:10,fontWeight:800,whiteSpace:"nowrap",flexShrink:0,
+              background:gramCategory===c?(dk?"rgba(123,94,232,0.5)":"rgba(123,94,232,0.15)"):(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)"),
+              color:gramCategory===c?(dk?"white":"#7B5EE8"):(dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.4)"),
+              transition:"all .2s",
+            }}>{c}</button>)}
+          </div>
+          {/* Politeness filter */}
+          <div style={{display:"flex",gap:4,marginBottom:14,justifyContent:"center"}}>
+            {polLevels.map(p=><button key={p.id} onClick={()=>{setGramPoliteness(p.id);setGramExpanded(null);}} style={{
+              padding:"4px 10px",borderRadius:10,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:10,fontWeight:700,
+              background:gramPoliteness===p.id?(dk?"rgba(245,166,35,0.4)":"rgba(245,166,35,0.15)"):(dk?"rgba(255,255,255,0.04)":"rgba(240,234,255,0.4)"),
+              color:gramPoliteness===p.id?(dk?"#FFD600":"#C6A700"):(dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)"),
+              transition:"all .2s",
+            }}>{p.label}</button>)}
+          </div>
+          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:10,textAlign:"center"}}>{filtered.length} grammar item{filtered.length!==1?"s":""}</div>
+          {filtered.length===0&&<div style={{textAlign:"center",padding:30,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13,fontWeight:600}}>No grammar items match your filters.</div>}
+          {filtered.map((item,i)=>{
             const isOpen=gramExpanded===i;
             return <div key={i} style={{marginBottom:8}}>
               <div onClick={()=>setGramExpanded(isOpen?null:i)} style={{borderRadius:18,overflow:"hidden",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow,transition:"all .25s",position:"relative"}}>
                 <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
                 <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
                   <div style={{flex:1,minWidth:0}}>
-                    <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)"}}>{pat.pattern}</span>
+                    <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)",lineHeight:1.3}}>{cleanTitle(item.title)}</div>
+                    <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)",marginTop:2}}>{sourceLabel[item.source]||item.source} {item.category!=="General"?"· "+item.category:""}</div>
                   </div>
-                  <span style={{color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontSize:12,fontWeight:700,textAlign:"right",maxWidth:"45%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{pat.en||""}</span>
+                  <span style={{fontSize:10,fontWeight:800,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",flexShrink:0}}>U{item.unitN}</span>
                 </div>
               </div>
               {isOpen&&<div style={{margin:"4px 8px 0",borderRadius:16,padding:"14px 16px",background:dk?"rgba(30,28,50,0.7)":"rgba(255,255,255,0.85)",border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(200,190,240,0.3)"}}>
-                {pat.note&&<div style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.7)",marginBottom:8,lineHeight:1.5,whiteSpace:"pre-line"}}>{pat.note}</div>}
-                {pat.example&&<div style={{borderRadius:12,padding:"8px 12px",marginBottom:6,background:bubbleBg,border:bubbleBorder}}>
-                  <div style={{display:"flex",alignItems:"center",gap:6}}>
-                    <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",flex:1}}>{pat.example}</span>
-                    <SpeakerButton text={pat.example} lang={ttsLocale} size={11} showToast={showToast}/>
+                {item.text&&<div style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.7)",marginBottom:8,lineHeight:1.6,whiteSpace:"pre-line"}}>{safeText(item.text)}</div>}
+                {item.example&&typeof item.example==="string"&&<div style={{borderRadius:14,padding:"10px 14px",marginBottom:6,position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+                  <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                  <div style={{position:"relative",zIndex:1}}>
+                    <div style={{display:"flex",alignItems:"center",gap:6}}>
+                      <span style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)",flex:1}}>{item.example}</span>
+                      <SpeakerButton text={item.example} lang={ttsLocale} size={11} showToast={showToast}/>
+                    </div>
+                    {item.exampleEn&&typeof item.exampleEn==="string"&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",fontWeight:600,marginTop:3}}>{item.exampleEn}</div>}
                   </div>
-                  {pat.exampleEn&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic",marginTop:2}}>{pat.exampleEn}</div>}
                 </div>}
-                {pat.deepDive&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.5)",marginTop:6,lineHeight:1.5,whiteSpace:"pre-line"}}>{pat.deepDive}</div>}
-                {pat.unitN&&<div style={{fontSize:9,fontWeight:700,color:dk?"rgba(200,184,255,0.3)":"rgba(100,80,160,0.3)",marginTop:6}}>Unit {pat.unitN} / {pat.lessonId}</div>}
+                {item.groups&&item.groups.length>0&&<div style={{marginBottom:6}}>
+                  {item.groups.map((g,gi)=><div key={gi} style={{marginBottom:8}}>
+                    <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",marginBottom:4}}>{g.label||g.header||""}</div>
+                    {(g.rows||[]).map((r,ri)=>{
+                      const pronoun=r.pronoun||r[0]||"";const form=r.form||r[1]||"";const en=r.en||r[2]||"";
+                      return <div key={ri} style={{display:"flex",gap:8,padding:"3px 0",fontSize:12,fontWeight:600}}>
+                        <span style={{width:60,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",flexShrink:0}}>{pronoun}</span>
+                        <span style={{color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",flex:1,fontWeight:700}}>{form}</span>
+                        {en&&<span style={{color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",flexShrink:0}}>{en}</span>}
+                      </div>;
+                    })}
+                    {(g.forms||[]).map((f,fi)=><div key={fi} style={{fontSize:12,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",padding:"2px 0"}}>{f}</div>)}
+                  </div>)}
+                </div>}
+                {item.deepDive&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",marginTop:6,lineHeight:1.6,whiteSpace:"pre-line"}}>{safeText(item.deepDive)}</div>}
+                <div style={{fontSize:9,fontWeight:700,color:dk?"rgba(200,184,255,0.3)":"rgba(100,80,160,0.3)",marginTop:6}}>Unit {item.unitN} / {item.lessonId}</div>
               </div>}
             </div>;
           })}
