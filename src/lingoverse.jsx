@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient } from './data/dictionary.js';
+import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -7898,6 +7898,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const [reviewShuffled,setReviewShuffled]=useState(false);
   const [reviewWords,setReviewWords]=useState([]);
   const searchRef=useRef(null);
+  const [gramLevel,setGramLevel]=useState("A1");
+  const [gramExpanded,setGramExpanded]=useState(null);
 
   // ── Helpers ──
   const getWordColor=(entry)=>{
@@ -7939,11 +7941,20 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     if(filterGender.size>0) pool=pool.filter(e=>e.gender&&filterGender.has(e.gender));
     if(search){
       const s=search.toLowerCase();
+      // Form-to-lemma resolution for Korean: if search matches a conjugated form, include the base word
+      const formResolved=new Set();
+      if(lang==="ko"&&KOREAN_FORM_INDEX){
+        const lemma=KOREAN_FORM_INDEX[s];
+        if(lemma) formResolved.add(lemma.toLowerCase());
+      }
       pool=pool.filter(e=>{
         const w=(e.word||"").toLowerCase(),d=(e.display||"").toLowerCase(),en=(e.en||"").toLowerCase();
-        return w.includes(s)||d.includes(s)||en.includes(s);
+        return w.includes(s)||d.includes(s)||en.includes(s)||formResolved.has(w);
       }).sort((a,b)=>{
         const aW=(a.word||"").toLowerCase(),bW=(b.word||"").toLowerCase();
+        // Resolved lemma gets top priority
+        if(formResolved.has(aW)&&!formResolved.has(bW))return -1;
+        if(formResolved.has(bW)&&!formResolved.has(aW))return 1;
         if(aW===s&&bW!==s)return -1;if(bW===s&&aW!==s)return 1;
         if(aW.startsWith(s)&&!bW.startsWith(s))return -1;if(bW.startsWith(s)&&!aW.startsWith(s))return 1;
         return aW.localeCompare(bW);
@@ -8040,67 +8051,310 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   // ── Word popup overlay (replaces inline expansion) ──
   const badgePill=(hex,label)=>(<span style={{display:"inline-block",padding:"3px 10px",borderRadius:10,fontSize:10,fontWeight:800,color:"white",letterSpacing:0.3,textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",overflow:"hidden",background:dk?`linear-gradient(180deg,${hex}cc 0%,${hex} 50%,${hex}bb 100%)`:`linear-gradient(180deg,${hex}dd 0%,${hex} 55%,${hex}aa 100%)`,boxShadow:`0 2px 8px ${hex}44, inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)`}}>{label}</span>);
 
+  // ── Deep Dictionary: 5-Tab Word Entry ──
+  const [popupTab,setPopupTab]=useState("overview");
   const WordPopup=()=>{
     if(!expanded||typeof expanded!=="object")return null;
     const entry=expanded;
     const wColor=getWordColor(entry);
     const artEntry=entry.article;
     const disp=entry.display||entry.word||"";
+    const isKorean=lang==="ko";
+    const isVerb=entry.pos==="verb"||entry.pos==="adjective"||entry.kind==="verb"||entry.kind==="adjective"||(entry.word&&entry.word.endsWith&&entry.word.endsWith("다"));
+    const wordKey=(entry.word||"").toLowerCase();
+
+    // Tab data (Korean-specific deep features)
+    const tabs=isKorean?[
+      {id:"overview",label:"Overview",icon:"\u{1F4D6}"},
+      {id:"forms",label:isVerb?"Forms":"Particles",icon:isVerb?"\u{1F504}":"\u{1F517}"},
+      {id:"examples",label:"Examples",icon:"\u{1F4AC}"},
+      {id:"grammar",label:"Grammar",icon:"\u{1F4DA}"},
+      {id:"related",label:"Related",icon:"\u{1F310}"},
+    ]:[
+      {id:"overview",label:"Overview",icon:"\u{1F4D6}"},
+    ];
+
+    // Conjugation data (for Forms tab)
+    const conjData=useMemo(()=>{
+      if(!isKorean||!isVerb)return null;
+      const dictForm=wordKey.endsWith("다")?wordKey:wordKey+"다";
+      return conjugateVerb(dictForm);
+    },[wordKey,isKorean,isVerb]);
+    const irregInfo=useMemo(()=>{
+      if(!isKorean||!isVerb)return null;
+      const dictForm=wordKey.endsWith("다")?wordKey:wordKey+"다";
+      return getIrregInfo(dictForm);
+    },[wordKey,isKorean,isVerb]);
+
+    // Particle combinations (for nouns)
+    const particleData=useMemo(()=>{
+      if(!isKorean||isVerb)return null;
+      return nounWithParticles(entry.word||"");
+    },[entry.word,isKorean,isVerb]);
+
+    // Examples from curriculum
+    const examples=useMemo(()=>{
+      if(!isKorean)return [];
+      return KOREAN_EXAMPLE_INDEX[wordKey]||[];
+    },[wordKey,isKorean]);
+
+    // Morpheme family
+    const morphemes=useMemo(()=>{
+      if(!isKorean)return [];
+      const result=[];
+      for(const[morph,data]of Object.entries(KOREAN_MORPHEME_INDEX)){
+        if(data.words.some(w=>w.toLowerCase()===wordKey)){
+          result.push({morph,hanja:data.hanja,meaning:data.meaning,family:data.words.filter(w=>w.toLowerCase()!==wordKey)});
+        }
+      }
+      return result;
+    },[wordKey,isKorean]);
+
+    // Idioms containing this word
+    const idioms=useMemo(()=>{
+      if(!isKorean)return [];
+      return KOREAN_IDIOM_INDEX[wordKey]||[];
+    },[wordKey,isKorean]);
+
+    // ── Tab styling ──
+    const tabBg=(active)=>active
+      ?(dk?"linear-gradient(180deg,#A488F0 0%,#7B5EE8 55%,#5840B8 100%)":"linear-gradient(180deg,#B8A8FA 0%,#7B5EE8 55%,#5840B8 100%)")
+      :(dk?"rgba(255,255,255,0.06)":"rgba(240,234,255,0.6)");
+    const tabColor=(active)=>active?"white":(dk?"rgba(200,184,255,0.7)":"#6040C0");
+    const sectionTitle=(text)=><div style={{fontSize:11,fontWeight:900,letterSpacing:1,textTransform:"uppercase",color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)",marginBottom:8,marginTop:14}}>{text}</div>;
+    const subNote=(text)=><div style={{fontSize:12,color:dk?"rgba(200,184,255,0.65)":"rgba(80,60,140,0.6)",lineHeight:1.5,fontWeight:600,marginBottom:8,whiteSpace:"pre-line"}}>{text}</div>;
+
     return(
-      <div onClick={()=>setExpanded(null)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
+      <div onClick={()=>{setExpanded(null);setPopupTab("overview");}} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
         <div onClick={e=>e.stopPropagation()} style={{
-          width:isMobile?"100%":"min(420px, 90vw)",
-          maxHeight:isMobile?"75vh":"80vh",overflow:"auto",
+          width:isMobile?"100%":"min(460px, 92vw)",
+          maxHeight:isMobile?"85vh":"88vh",overflow:"auto",
           borderRadius:isMobile?"24px 24px 0 0":24,position:"relative",
           background:dk?"linear-gradient(180deg, rgba(40,30,70,0.98) 0%, rgba(30,24,55,0.98) 100%)":"linear-gradient(180deg, rgba(250,248,255,0.99) 0%, rgba(240,236,255,0.98) 100%)",
           border:dk?"1.5px solid rgba(123,94,232,0.4)":"1.5px solid rgba(180,165,240,0.5)",
           boxShadow:dk?"0 -8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(123,94,232,0.3)":"0 -8px 40px rgba(123,94,232,0.15), 0 0 20px rgba(180,165,240,0.2)",
-          padding:isMobile?"24px 20px 32px":"28px 24px",
+          padding:isMobile?"24px 16px 32px":"28px 22px",
         }}>
-          {/* Drag handle on mobile */}
-          {isMobile&&<div style={{width:40,height:4,borderRadius:2,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 18px"}}/>}
-          {/* Close button */}
-          {!isMobile&&<span onClick={()=>setExpanded(null)} style={{position:"absolute",top:14,right:16,cursor:"pointer",fontSize:16,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.6)",zIndex:2}}>&#10005;</span>}
+          {isMobile&&<div style={{width:40,height:4,borderRadius:2,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 14px"}}/>}
+          {!isMobile&&<span onClick={()=>{setExpanded(null);setPopupTab("overview");}} style={{position:"absolute",top:14,right:16,cursor:"pointer",fontSize:16,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.6)",zIndex:2}}>&#10005;</span>}
 
-          {/* Word header in compound bubble */}
-          <div style={{borderRadius:20,overflow:"hidden",position:"relative",padding:"18px 20px 16px",marginBottom:16,background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+          {/* Word header */}
+          <div style={{borderRadius:20,overflow:"hidden",position:"relative",padding:"16px 18px 14px",marginBottom:12,background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
             <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
             <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
               <div style={{flex:1}}>
-                <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:900,fontSize:22,color:wColor||(dk?"rgba(255,255,255,0.95)":"var(--gray-800)"),marginBottom:2}}>
-                  {disp}
-                </div>
+                <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:900,fontSize:22,color:wColor||(dk?"rgba(255,255,255,0.95)":"var(--gray-800)"),marginBottom:2}}>{disp}</div>
                 <div style={{fontSize:14,fontWeight:700,color:grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.65)":"rgba(100,80,160,0.6)")}}>{entry.en||""}</div>
+                {entry.phonetic&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",marginTop:2}}>{entry.phonetic}</div>}
               </div>
               <SpeakerButton text={entry.word} lang={ttsLocale} size={18} showToast={showToast}/>
             </div>
           </div>
 
           {/* Badge row */}
-          <div style={{display:"flex",flexWrap:"wrap",gap:6,alignItems:"center",marginBottom:14}}>
+          <div style={{display:"flex",flexWrap:"wrap",gap:5,alignItems:"center",marginBottom:10}}>
             {entry.level&&badgePill("#7B5EE8",(entry.level||"A1").substring(0,2))}
             {entry.pos&&badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
             {artEntry&&badgePill(wColor||"#7B5EE8",artEntry)}
             {entry.gender&&badgePill(wColor||"#6040C0",genderLabels[entry.gender]||entry.gender)}
+            {isKorean&&isVerb&&irregInfo&&irregInfo.id!=="regular"&&badgePill("#FF6D00",irregInfo.label)}
           </div>
 
-          {/* Note */}
-          {entry.note&&<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.7)",marginBottom:12,lineHeight:1.5,fontWeight:600}}>{entry.note}</div>}
-
-          {/* Example in compound bubble */}
-          {entry.example&&<div style={{borderRadius:18,padding:"12px 16px",marginBottom:10,position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
-            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
-            <div style={{position:"relative",zIndex:1}}>
-              <div style={{display:"flex",alignItems:"center",gap:6}}>
-                <span style={{fontSize:14,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1,lineHeight:1.5}}>{entry.example}</span>
-                <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
-              </div>
-              {entry.exampleEn&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:4}}>{entry.exampleEn}</div>}
-            </div>
+          {/* Tab bar */}
+          {tabs.length>1&&<div style={{display:"flex",gap:4,marginBottom:14,overflowX:"auto",paddingBottom:2}}>
+            {tabs.map(t=><button key={t.id} onClick={()=>setPopupTab(t.id)} style={{
+              padding:"6px 12px",borderRadius:12,border:"none",cursor:"pointer",fontFamily:"inherit",fontSize:11,fontWeight:800,
+              background:tabBg(popupTab===t.id),color:tabColor(popupTab===t.id),
+              boxShadow:popupTab===t.id?"0 2px 8px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":"inset 0 1px 0 rgba(255,255,255,0.1)",
+              transition:"all .2s",whiteSpace:"nowrap",flexShrink:0,
+            }}>{t.icon} {t.label}</button>)}
           </div>}
 
-          {/* Cognate */}
-          {entry.cognate&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:6}}>{entry.cognate}</div>}
+          {/* ═══ TAB: Overview ═══ */}
+          {popupTab==="overview"&&<>
+            {entry.note&&subNote(entry.note)}
+            {entry.example&&<div style={{borderRadius:16,padding:"10px 14px",marginBottom:10,position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+              <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+              <div style={{position:"relative",zIndex:1}}>
+                <div style={{display:"flex",alignItems:"center",gap:6}}>
+                  <span style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1,lineHeight:1.5}}>{entry.example}</span>
+                  <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
+                </div>
+                {entry.exampleEn&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:3}}>{entry.exampleEn}</div>}
+              </div>
+            </div>}
+            {entry.cognate&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:4}}>{entry.cognate}</div>}
+            {/* Morpheme decomposition (Sino-Korean) */}
+            {morphemes.length>0&&<>
+              {sectionTitle("Etymology")}
+              {morphemes.map((m,i)=><div key={i} style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.65)",fontWeight:600,marginBottom:4}}>
+                <span style={{fontWeight:800,color:dk?"#A890FF":"#7B5EE8"}}>{m.morph}</span>
+                {m.hanja&&<span style={{color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)",marginLeft:4}}>({m.hanja})</span>}
+                <span style={{marginLeft:6}}>{m.meaning}</span>
+                {m.family.length>0&&<span style={{marginLeft:8,fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)"}}>
+                  also in: {m.family.slice(0,5).join(", ")}
+                </span>}
+              </div>)}
+            </>}
+            {/* KOREAN_DICT particle info */}
+            {entry.particle&&<>
+              {sectionTitle("Particles")}
+              {subNote(entry.particle)}
+            </>}
+            {/* KOREAN_DICT morph info */}
+            {entry.morph&&!morphemes.length&&<>
+              {sectionTitle("Etymology")}
+              {subNote(entry.morph)}
+            </>}
+            {/* Uses from KOREAN_DICT */}
+            {entry.uses&&entry.uses.length>0&&<>
+              {sectionTitle("Common Usage")}
+              {entry.uses.map((u,i)=><div key={i} style={{marginBottom:6,borderRadius:14,padding:"8px 12px",background:bubbleBg,border:bubbleBorder}}>
+                <div style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)"}}>{u.k}</div>
+                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic"}}>{u.e}</div>
+              </div>)}
+            </>}
+          </>}
+
+          {/* ═══ TAB: Forms (Conjugation / Particles) ═══ */}
+          {popupTab==="forms"&&isKorean&&<>
+            {isVerb&&conjData&&<>
+              {irregInfo&&irregInfo.id!=="regular"&&<div style={{fontSize:12,color:"#FF6D00",fontWeight:700,marginBottom:10}}>{irregInfo.ko} ({irregInfo.label})</div>}
+              {/* Group by speech level */}
+              {["해요체","합쇼체","반말","Connective","Modifier","Nominalization","Ability","Desire","Negation","Honorific"].map(group=>{
+                const forms=Object.values(conjData).filter(f=>f.group===group);
+                if(!forms.length)return null;
+                return <div key={group}>
+                  {sectionTitle(group)}
+                  <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4,marginBottom:6}}>
+                    {forms.map((f,i)=><div key={i} style={{borderRadius:12,padding:"7px 10px",background:bubbleBg,border:bubbleBorder}}>
+                      <div style={{fontSize:13,fontWeight:700,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)"}}>{f.form}</div>
+                      <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600}}>{f.label}</div>
+                    </div>)}
+                  </div>
+                </div>;
+              })}
+            </>}
+            {!isVerb&&particleData&&<>
+              {sectionTitle("Particle Combinations")}
+              <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
+                {particleData.map((p,i)=><div key={i} style={{borderRadius:12,padding:"7px 10px",background:bubbleBg,border:bubbleBorder}}>
+                  <div style={{fontSize:13,fontWeight:700,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)"}}>{p.form}</div>
+                  <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600}}>{p.role} ({p.particle})</div>
+                </div>)}
+              </div>
+            </>}
+          </>}
+
+          {/* ═══ TAB: Examples ═══ */}
+          {popupTab==="examples"&&isKorean&&<>
+            {examples.length>0?<>
+              {sectionTitle(`${examples.length} example${examples.length>1?"s":""} from curriculum`)}
+              {examples.map((ex,i)=><div key={i} style={{borderRadius:14,padding:"10px 12px",marginBottom:6,background:bubbleBg,border:bubbleBorder}}>
+                <div style={{display:"flex",alignItems:"center",gap:6}}>
+                  <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",flex:1,lineHeight:1.5}}>{ex.korean}</span>
+                  <SpeakerButton text={ex.korean} lang={ttsLocale} size={11} showToast={showToast}/>
+                </div>
+                {ex.english&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic",marginTop:2}}>{ex.english}</div>}
+                <div style={{fontSize:9,color:dk?"rgba(200,184,255,0.3)":"rgba(100,80,160,0.3)",marginTop:2,fontWeight:700}}>Unit {ex.unitN} / {ex.lessonId}</div>
+              </div>)}
+            </>:<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>No curriculum examples found for this word yet.</div>}
+
+            {/* Idioms */}
+            {idioms.length>0&&<>
+              {sectionTitle("Idioms & Expressions")}
+              {idioms.map((id,i)=><div key={i} style={{borderRadius:14,padding:"8px 12px",marginBottom:4,background:bubbleBg,border:bubbleBorder}}>
+                <div style={{fontSize:13,fontWeight:700,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
+                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)"}}>{id.meaning}</div>
+              </div>)}
+            </>}
+          </>}
+
+          {/* ═══ TAB: Grammar ═══ */}
+          {popupTab==="grammar"&&isKorean&&<>
+            {entry.note&&<>{sectionTitle("Usage Notes")}{subNote(entry.note)}</>}
+            {entry.particle&&<>{sectionTitle("Particle Patterns")}{subNote(entry.particle)}</>}
+            {entry.uses&&entry.uses.length>0&&<>
+              {sectionTitle("Usage Examples")}
+              {entry.uses.map((u,i)=><div key={i} style={{marginBottom:6,borderRadius:14,padding:"8px 12px",background:bubbleBg,border:bubbleBorder}}>
+                <div style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)"}}>{u.k}</div>
+                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic"}}>{u.e}</div>
+              </div>)}
+            </>}
+            {/* DeepDive from teach card (if available via note match) */}
+            {(!entry.note&&!entry.particle&&!(entry.uses&&entry.uses.length))&&
+              <div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>
+                Deep grammar info coming soon.
+              </div>}
+          </>}
+
+          {/* ═══ TAB: Related ═══ */}
+          {popupTab==="related"&&isKorean&&<>
+            {/* Morpheme families */}
+            {morphemes.length>0&&<>
+              {sectionTitle("Word Family")}
+              {morphemes.map((m,i)=><div key={i} style={{marginBottom:8}}>
+                <div style={{fontSize:12,fontWeight:800,color:dk?"#A890FF":"#7B5EE8",marginBottom:4}}>
+                  {m.morph} {m.hanja&&`(${m.hanja})`} = {m.meaning}
+                </div>
+                <div style={{display:"flex",flexWrap:"wrap",gap:4}}>
+                  {m.family.map((w,j)=>{
+                    const famEntry=WORD_DB.ko&&WORD_DB.ko[w.toLowerCase()];
+                    return <button key={j} onClick={()=>{if(famEntry){setExpanded(famEntry);setPopupTab("overview");}}} style={{
+                      padding:"5px 12px",borderRadius:12,border:"none",cursor:famEntry?"pointer":"default",
+                      fontFamily:"inherit",fontSize:12,fontWeight:700,
+                      background:famEntry?tabBg(false):(dk?"rgba(255,255,255,0.04)":"rgba(240,234,255,0.4)"),
+                      color:famEntry?(dk?"rgba(255,255,255,0.85)":"#6040C0"):(dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.3)"),
+                      transition:"all .2s",
+                    }}>{w} {famEntry?`(${famEntry.en||""})`:""}</button>;
+                  })}
+                </div>
+              </div>)}
+            </>}
+
+            {/* Idioms */}
+            {idioms.length>0&&<>
+              {sectionTitle("Appears in Idioms")}
+              {idioms.map((id,i)=><div key={i} style={{borderRadius:14,padding:"8px 12px",marginBottom:4,background:bubbleBg,border:bubbleBorder}}>
+                <div style={{fontSize:13,fontWeight:700,color:dk?"#FFD600":"#C6A700"}}>{id.idiom}</div>
+                <div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)"}}>{id.meaning}</div>
+              </div>)}
+            </>}
+
+            {(!morphemes.length&&!idioms.length)&&
+              <div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>
+                No related words found yet.
+              </div>}
+          </>}
+
+          {/* ═══ Ask Verumius fallback — shown when data is sparse ═══ */}
+          {isKorean&&(()=>{
+            const hasNote=!!entry.note;
+            const hasUses=entry.uses&&entry.uses.length>0;
+            const hasParticle=!!entry.particle;
+            const hasMorph=!!entry.morph;
+            const richCount=[hasNote,hasUses,hasParticle,hasMorph].filter(Boolean).length;
+            if(richCount>=2)return null;
+            return <div style={{marginTop:12,textAlign:"center"}}>
+              <button onClick={()=>{
+                const prompt=`Tell me everything about the Korean word "${entry.word}" (${entry.en||""}). Include: etymology, all conjugated forms, common collocations, idioms it appears in, example sentences at different CEFR levels, cultural context, and common mistakes learners make.`;
+                try{localStorage.setItem("vl_chat_prefill",prompt);}catch(e){}
+                showToast&&showToast("Open Chat to ask Verumius!");
+              }}
+              onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.06) translateY(-2px)";e.currentTarget.style.filter="brightness(1.12)";}}
+              onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}
+              style={{
+                padding:"10px 22px",borderRadius:16,border:"none",cursor:"pointer",fontFamily:"Quicksand, sans-serif",
+                fontSize:13,fontWeight:800,transition:"all .25s",position:"relative",overflow:"hidden",
+                background:dk?"linear-gradient(180deg,#5FE8C0 0%,#2ECDA7 40%,#1AB090 100%)":"linear-gradient(180deg,#69F0CE 0%,#2ECDA7 50%,#1AB090 100%)",
+                color:"white",textShadow:"0 1px 3px rgba(0,0,0,0.2)",
+                boxShadow:"0 4px 16px rgba(46,205,167,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)",
+              }}>
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.12) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
+                <span style={{position:"relative",zIndex:1}}>Ask Verumius about this word</span>
+              </button>
+            </div>;
+          })()}
         </div>
       </div>
     );
@@ -8137,7 +8391,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
       {/* ── Mode tabs ── */}
       <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:20,flexWrap:"wrap"}}>
-        {[{id:"search",label:"Search"},{id:"browse",label:"Browse"},{id:"review",label:"Review"}].map(tab=>(
+        {[{id:"search",label:"Search"},{id:"browse",label:"Browse"},{id:"review",label:"Review"},...(lang==="ko"?[{id:"grammar",label:"Grammar"}]:[])].map(tab=>(
           <button key={tab.id} onClick={()=>{setMode(tab.id);setExpanded(null);setBrowsePath([]);}}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow=mode===tab.id?"0 0 32px rgba(123,94,232,0.7), 0 8px 24px rgba(85,53,181,0.6), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)":"0 0 20px rgba(123,94,232,0.3), 0 6px 18px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.9), inset 0 -3px 0 rgba(0,0,0,0.08)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
@@ -8388,6 +8642,16 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </div>
         </div>}
 
+        {/* Form-to-lemma resolution badge */}
+        {search&&lang==="ko"&&KOREAN_FORM_INDEX&&KOREAN_FORM_INDEX[search.toLowerCase()]&&(()=>{
+          const lemma=KOREAN_FORM_INDEX[search.toLowerCase()];
+          const lemmaEntry=WORD_DB.ko&&WORD_DB.ko[lemma.toLowerCase()];
+          return <div style={{borderRadius:16,padding:"10px 14px",marginBottom:10,background:dk?"linear-gradient(135deg,rgba(46,205,167,0.15),rgba(123,94,232,0.12))":"linear-gradient(135deg,rgba(46,205,167,0.12),rgba(123,94,232,0.08))",border:dk?"1px solid rgba(46,205,167,0.3)":"1px solid rgba(46,205,167,0.25)"}}>
+            <div style={{fontSize:12,fontWeight:700,color:dk?"#5FE8C0":"#1AB090"}}>
+              {search} is a form of <span style={{fontWeight:900,color:dk?"#fff":"#333"}}>{lemma}</span> {lemmaEntry?`(${lemmaEntry.en})`:""}
+            </div>
+          </div>;
+        })()}
         {/* Word list */}
         {filteredWords.length===0&&<div style={{textAlign:"center",padding:40,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>
           <div style={{fontSize:14,fontWeight:600}}>No words found</div>
@@ -8582,6 +8846,49 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </div>
         }
       </div>}
+
+      {/* ═══════════════════════════════════════════════════════ */}
+      {/* GRAMMAR MODE (Korean grammar patterns by CEFR level)   */}
+      {/* ═══════════════════════════════════════════════════════ */}
+      {mode==="grammar"&&lang==="ko"&&(()=>{
+        const patterns=KOREAN_GRAMMAR_PATTERNS||[];
+        const levels=["A1","A2","B1","B2"];
+        const filtered=patterns.filter(p=>(p.level||"A1").startsWith(gramLevel));
+        return <div>
+          {/* Level tabs */}
+          <div style={{display:"flex",gap:6,marginBottom:16,flexWrap:"wrap",justifyContent:"center"}}>
+            {levels.map(lv=><button key={lv} onClick={()=>{setGramLevel(lv);setGramExpanded(null);}} style={chipStyle(gramLevel===lv)}>{lv} ({patterns.filter(p=>(p.level||"A1").startsWith(lv)).length})</button>)}
+          </div>
+          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:10,textAlign:"center"}}>{filtered.length} grammar pattern{filtered.length!==1?"s":""}</div>
+          {filtered.length===0&&<div style={{textAlign:"center",padding:30,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13,fontWeight:600}}>No grammar patterns at this level yet.</div>}
+          {filtered.map((pat,i)=>{
+            const isOpen=gramExpanded===i;
+            return <div key={i} style={{marginBottom:8}}>
+              <div onClick={()=>setGramExpanded(isOpen?null:i)} style={{borderRadius:18,overflow:"hidden",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow,transition:"all .25s",position:"relative"}}>
+                <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
+                  <div style={{flex:1,minWidth:0}}>
+                    <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)"}}>{pat.word}</span>
+                  </div>
+                  <span style={{color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontSize:12,fontWeight:700,textAlign:"right",maxWidth:"45%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{pat.en||""}</span>
+                </div>
+              </div>
+              {isOpen&&<div style={{margin:"4px 8px 0",borderRadius:16,padding:"14px 16px",background:dk?"rgba(30,28,50,0.7)":"rgba(255,255,255,0.85)",border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(200,190,240,0.3)"}}>
+                {pat.note&&<div style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.7)",marginBottom:8,lineHeight:1.5,whiteSpace:"pre-line"}}>{pat.note}</div>}
+                {pat.example&&<div style={{borderRadius:12,padding:"8px 12px",marginBottom:6,background:bubbleBg,border:bubbleBorder}}>
+                  <div style={{display:"flex",alignItems:"center",gap:6}}>
+                    <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",flex:1}}>{pat.example}</span>
+                    <SpeakerButton text={pat.example} lang={ttsLocale} size={11} showToast={showToast}/>
+                  </div>
+                  {pat.exampleEn&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontStyle:"italic",marginTop:2}}>{pat.exampleEn}</div>}
+                </div>}
+                {pat.deepDive&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.5)",marginTop:6,lineHeight:1.5,whiteSpace:"pre-line"}}>{pat.deepDive}</div>}
+                {pat.unitN&&<div style={{fontSize:9,fontWeight:700,color:dk?"rgba(200,184,255,0.3)":"rgba(100,80,160,0.3)",marginTop:6}}>Unit {pat.unitN} / {pat.lessonId}</div>}
+              </div>}
+            </div>;
+          })}
+        </div>;
+      })()}
     </div>
   );
 }

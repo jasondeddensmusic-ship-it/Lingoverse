@@ -21,6 +21,9 @@ import { FUNCTION_WORDS_NL } from './wordlists/function-words-nl.js';
 import { FUNCTION_WORDS_ES } from './wordlists/function-words-es.js';
 import { FUNCTION_WORDS_KO } from './wordlists/function-words-ko.js';
 
+// Korean conjugation engine (Phase 1 of deep dictionary)
+import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './korean-conjugation.js';
+
 const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 const FUNCTION_WORD_LISTS = {
@@ -469,6 +472,207 @@ export const WORD_INTRO_MAP = buildWordIntroMap();
 
 // Backward compat: LANG_DICT is an alias for WORD_DB
 export const LANG_DICT = WORD_DB;
+
+// ════════════════════════════════════════════════════════════
+// KOREAN DEEP DICTIONARY EXTENSIONS (Phase 1-4)
+// ════════════════════════════════════════════════════════════
+
+// ── Phase 2: Form-to-Lemma Reverse Index ──
+// Maps every conjugated surface form back to its dictionary form.
+// Searching "먹었어요" resolves to "먹다".
+function buildKoreanFormIndex() {
+  const koDict = WORD_DB.ko;
+  if (!koDict) return {};
+  const verbForms = [];
+  for (const [key, entry] of Object.entries(koDict)) {
+    if (entry.pos === "verb" || entry.pos === "adjective" || entry.kind === "verb" || entry.kind === "adjective") {
+      const dictForm = key.endsWith("다") ? key : key + "다";
+      if (koDict[dictForm] || koDict[key]) verbForms.push(dictForm);
+    }
+  }
+  // Also include any teach card with kind:"verb" or kind:"adjective" that ends in 다
+  for (const [key, entry] of Object.entries(koDict)) {
+    if (key.endsWith("다") && entry.taught) {
+      if (!verbForms.includes(key)) verbForms.push(key);
+    }
+  }
+  return buildFormIndex(verbForms);
+}
+
+export const KOREAN_FORM_INDEX = buildKoreanFormIndex();
+
+// ── Phase 4: Morpheme Family Index ──
+// Cross-references Sino-Korean morphemes from hanja fields and COMPOUND markers.
+// KOREAN_MORPHEME_INDEX["학"] = { hanja: "學", meaning: "study", words: ["학교","학생","학원"] }
+function buildMorphemeIndex() {
+  const index = {};
+  const koUnits = ALL_UNITS.filter(u => u.lang === "ko");
+  for (const unit of koUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        if (step.type !== "teach") continue;
+        const word = step.nl || "";
+        // Parse hanja field: "學+生" or "韓+國"
+        if (step.hanja) {
+          const chars = step.hanja.split("+").map(s => s.trim());
+          // Try to extract Korean morphemes from note COMPOUND markers
+          const noteMatch = (step.note || "").match(/COMPOUND:\s*(.+?)(?:\.|$)/i) ||
+                            (step.note || "").match(/SINO-KOREAN:\s*(.+?)(?:\.|$)/i);
+          const morphemes = [];
+          if (noteMatch) {
+            const parts = noteMatch[1].split("+").map(s => s.trim());
+            for (let i = 0; i < parts.length; i++) {
+              const m = parts[i].match(/^(.+?)\s*\((.+?)\)/);
+              if (m) morphemes.push({ ko: m[1].trim(), meaning: m[2].trim(), hanja: chars[i] || "" });
+            }
+          }
+          for (const morph of morphemes) {
+            if (!morph.ko) continue;
+            if (!index[morph.ko]) {
+              index[morph.ko] = { hanja: morph.hanja, meaning: morph.meaning, words: [] };
+            }
+            if (!index[morph.ko].words.includes(word)) {
+              index[morph.ko].words.push(word);
+            }
+          }
+        }
+        // Parse COMPOUND/SINO-KOREAN from note field even without hanja
+        if (!step.hanja && step.note) {
+          const noteMatch = (step.note).match(/(?:COMPOUND|SINO-KOREAN):\s*(.+?)(?:\.\s|$)/i);
+          if (noteMatch) {
+            const parts = noteMatch[1].split("+").map(s => s.trim());
+            for (const part of parts) {
+              const m = part.match(/^(.+?)\s*\((.+?)(?:\/[^)]+)?\)/);
+              if (m) {
+                const ko = m[1].trim();
+                const meaning = m[2].trim();
+                if (!index[ko]) index[ko] = { hanja: "", meaning, words: [] };
+                if (!index[ko].words.includes(word)) index[ko].words.push(word);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return index;
+}
+
+export const KOREAN_MORPHEME_INDEX = buildMorphemeIndex();
+
+// ── Phase 3 support: Example Sentence Aggregator ──
+// Collects ALL curriculum sentences containing a given Korean word.
+// Returns array of { korean, english, lessonId, unitN }
+function buildKoreanExampleIndex() {
+  const index = {}; // index[word] = [{ korean, english, lessonId, unitN }]
+  const koUnits = ALL_UNITS.filter(u => u.lang === "ko");
+  for (const unit of koUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        const pairs = [];
+        // Teach card examples
+        if (step.example && step.exampleEn) {
+          pairs.push({ korean: step.example, english: step.exampleEn });
+        }
+        // Quiz questions
+        if (step.q && step.hint) {
+          pairs.push({ korean: step.q, english: step.hint });
+        }
+        if (step.s) {
+          pairs.push({ korean: step.s, english: "" });
+        }
+        for (const pair of pairs) {
+          // Tokenize Korean text to find which words appear
+          const words = pair.korean
+            .replace(/[A-Z]:\s/g, " ")
+            .split(/[\s,;:!?.'"()[\]{}«»…\-—–/\\→]+/)
+            .filter(w => w.length > 0 && /[\uAC00-\uD7AF]/.test(w))
+            .map(w => w.toLowerCase());
+          const seen = new Set();
+          for (const w of words) {
+            if (seen.has(w)) continue;
+            seen.add(w);
+            if (!index[w]) index[w] = [];
+            // Limit to 10 examples per word to keep memory reasonable
+            if (index[w].length < 10) {
+              index[w].push({ korean: pair.korean, english: pair.english, lessonId: lesson.id, unitN: unit.n });
+            }
+          }
+        }
+      }
+    }
+  }
+  return index;
+}
+
+export const KOREAN_EXAMPLE_INDEX = buildKoreanExampleIndex();
+
+// ── Phase 4 support: Idiom/Proverb Cross-Reference ──
+// Finds all idioms/proverbs that contain a given word.
+function buildKoreanIdiomIndex() {
+  const index = {}; // index[word] = [{ idiom, meaning, lessonId }]
+  const koUnits = ALL_UNITS.filter(u => u.lang === "ko");
+  for (const unit of koUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        if (step.type !== "teach") continue;
+        const nl = step.nl || "";
+        // Idioms/proverbs are multi-word teach cards, usually with spaces
+        // and typically in B2 content with kind:"phrase" or kind:"grammar"
+        if (!nl.includes(" ") || nl.length < 6) continue;
+        // Check if it looks like an idiom (contains common words, not a grammar pattern starting with -)
+        if (nl.startsWith("-") || nl.startsWith("(")) continue;
+        // Must have Korean characters and look like a phrase/proverb
+        if (!/[\uAC00-\uD7AF].*[\uAC00-\uD7AF]/.test(nl)) continue;
+        const words = nl.split(/[\s,;:!?.'"()[\]{}→]+/)
+          .filter(w => w.length > 0 && /[\uAC00-\uD7AF]/.test(w))
+          .map(w => w.toLowerCase());
+        for (const w of words) {
+          if (!index[w]) index[w] = [];
+          if (index[w].length < 5) {
+            index[w].push({ idiom: nl, meaning: step.en || "", lessonId: lesson.id });
+          }
+        }
+      }
+    }
+  }
+  return index;
+}
+
+export const KOREAN_IDIOM_INDEX = buildKoreanIdiomIndex();
+
+// ── Korean Grammar Patterns (multi-word entries for Grammar tab) ──
+// Extracts all grammar pattern teach cards for the Grammar browser.
+function buildKoreanGrammarPatterns() {
+  const patterns = [];
+  const koUnits = ALL_UNITS.filter(u => u.lang === "ko");
+  for (const unit of koUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        if (step.type !== "teach") continue;
+        if (step.kind !== "grammar") continue;
+        patterns.push({
+          pattern: step.nl || "",
+          en: step.en || "",
+          phonetic: step.phonetic || "",
+          level: unit.level || "A1",
+          lessonId: lesson.id,
+          unitN: unit.n,
+          note: step.note || "",
+          deepDive: step.deepDive || null,
+          example: step.example || "",
+          exampleEn: step.exampleEn || "",
+        });
+      }
+    }
+  }
+  return patterns;
+}
+
+export const KOREAN_GRAMMAR_PATTERNS = buildKoreanGrammarPatterns();
+
+// Re-export conjugation utilities for UI components
+export { conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles };
 
 // ── Lesson ordering helper (needed for isNewWord) ──
 // lessonOrder[lang] = [lessonId1, lessonId2, ...] in curriculum order
