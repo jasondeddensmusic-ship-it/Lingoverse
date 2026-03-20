@@ -265,12 +265,41 @@ function connectEu(stem, euSuffix, irregType) {
   const last = lastChar(stem);
   const d = decompose(last);
   if (!d) return stem + euSuffix;
-  const coreSuffix = euSuffix.startsWith("으") ? euSuffix.slice(1) : euSuffix;
-  // No 받침 → skip 으
-  if (d.final === 0) return stem + coreSuffix;
-  // ㄹ 받침 → skip 으 (ㄹ-irregular drops ㄹ before some, keeps before others)
-  if (d.final === FINALS.indexOf("ㄹ")) return stem + coreSuffix;
-  // Has 받침 → use 으
+
+  // Decompose the eu-suffix: 으면→면, 으세요→세요, 을→ㄹ, 은→ㄴ, 음→ㅁ
+  let coreSuffix = euSuffix;
+  let attachBatchim = 0; // batchim to attach to open syllables
+  const firstSuf = euSuffix[0];
+  const fd = decompose(firstSuf);
+  if (fd && fd.initial === INITIALS.indexOf("ㅇ") && fd.medial === MEDIALS.indexOf("ㅡ")) {
+    // First char is 으-based syllable (으, 을, 은, 음)
+    if (fd.final === 0) {
+      // Pure 으: just drop it (으면 → 면, 으세요 → 세요, 으니까 → 니까)
+      coreSuffix = euSuffix.slice(1);
+    } else {
+      // 을(ㅇ+ㅡ+ㄹ), 은(ㅇ+ㅡ+ㄴ), 음(ㅇ+ㅡ+ㅁ): extract final as batchim
+      attachBatchim = fd.final;
+      coreSuffix = euSuffix.slice(1);
+    }
+  }
+
+  // No 받침 → skip 으, attach batchim if needed
+  if (d.final === 0) {
+    if (attachBatchim > 0) {
+      // e.g., 가 + 을 거예요 → 갈 거예요 (attach ㄹ as batchim to 가)
+      return stem.slice(0, -1) + setBatchim(last, attachBatchim) + coreSuffix;
+    }
+    return stem + coreSuffix;
+  }
+  // ㄹ 받침 → skip 으 (keep ㄹ), attach batchim not needed (already has ㄹ)
+  if (d.final === FINALS.indexOf("ㄹ")) {
+    if (attachBatchim > 0) {
+      // e.g., 알 + 을 → 알 (ㄹ already there, just append rest)
+      return stem + coreSuffix;
+    }
+    return stem + coreSuffix;
+  }
+  // Has other 받침 → use full 으-suffix
   return stem + euSuffix;
 }
 
