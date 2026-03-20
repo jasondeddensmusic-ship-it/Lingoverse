@@ -348,6 +348,8 @@ const ENDINGS = [
   // ── Propositive ──
   { id: "propositive_polite", label: "Polite Suggestion", group: "합쇼체", tense: "propositive", level: "A2",
     conjugate: (stem, irr) => connectEu(stem, "읍시다", irr) },
+  { id: "propositive_casual", label: "반말 Let's", group: "반말", tense: "propositive", level: "A2",
+    conjugate: (stem, irr) => stem + "자" },
 
   // ── Modifiers (관형형) ──
   { id: "modifier_present",  label: "Present Modifier (-는)", group: "Modifier", tense: "modifier", level: "B1",
