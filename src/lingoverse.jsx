@@ -13757,9 +13757,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   )}
                 </div>
               </div>
-              {/* Translation — teal */}
+              {/* Translation */}
               <div style={{textAlign:"center",paddingBottom:st.phonetic&&showPhonetic?6:14}}>
-                <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(st.src)}</span>
+                <span style={{fontSize:18,color:"var(--gray-800)",fontWeight:700}}>{cap(st.src)}</span>
               </div>
               {/* Phonetic */}
               {showPhonetic&&st.phonetic&&<div className="anim" style={{textAlign:"center",paddingBottom:12,paddingRight:8}}>
