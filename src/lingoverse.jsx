@@ -13731,103 +13731,41 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       <div className="anim" key={si}>
         <ProgressBar/>
         <div style={{maxWidth:460,margin:"0 auto"}}>
-          {/* ═══ NEW-FORMAT TEACH CARD — Compound Bubble VerumLingua style ═══ */}
+          {/* ═══ NEW-FORMAT TEACH CARD — Same v1 board style, uses trg/src ═══ */}
           {(()=>{
-            const genderHex = st.gender && GENDER_COLORS[st.gender] ? (dk ? GENDER_COLORS[st.gender].dark : GENDER_COLORS[st.gender].light) : null;
-            const wordPillBg = genderHex ? pillGradient(genderHex) : (dk
-              ? "linear-gradient(180deg,#C0AEF8 0%,#A488F0 20%,#7B5EE8 50%,#6545C8 80%,#4A2BA6 100%)"
-              : "linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)");
-            const wordPillShadow = genderHex
-              ? `0 4px 16px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`
-              : "0 4px 16px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";
-            const posHex = st.pos && POS_COLORS[st.pos] ? (dk ? POS_COLORS[st.pos].dark : POS_COLORS[st.pos].light) : null;
-            const genderLabel = {m:"masculine",f:"feminine",n:"neuter",c:"common",pl:"plural"}[st.gender]||st.gender;
-            return <div style={{...compBubble, padding:"22px 22px 18px", marginBottom:16}}>
-              <div style={glossArc}/>
-              <div style={{position:"relative",zIndex:2}}>
-                {/* Top row: badge + TTS */}
-                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
-                  <span style={{display:"inline-block",background:isNewTrg
-                    ? (dk ? "linear-gradient(180deg,#FFD54F 0%,#FFB300 20%,#E8960A 55%,#C67800 85%,#A05800 100%)" : "linear-gradient(180deg,#FFE082 0%,#FFD54F 20%,#E8960A 55%,#C67800 85%,#A05800 100%)")
-                    : (dk ? "linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0.06))" : "linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
-                    color:isNewTrg?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
-                    fontSize:10,fontWeight:900,fontFamily:"Quicksand,sans-serif",textTransform:"uppercase",letterSpacing:2,
-                    padding:"4px 14px",borderRadius:14,position:"relative",overflow:"hidden",
-                    textShadow:isNewTrg?"0 1px 2px rgba(0,0,0,0.25)":"none",
-                    boxShadow:isNewTrg
-                      ?"0 4px 12px rgba(232,150,10,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"
-                      :(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
-                  }}>{isNewTrg?labelNew:"Review"}</span>
-                  <div style={{display:"flex",gap:6}}>
-                    <button onClick={()=>setShowPhonetic(!showPhonetic)} style={{
-                      width:36,height:36,borderRadius:12,border:"none",cursor:"pointer",
-                      background:showPhonetic
-                        ?(dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(80,60,180,0.25))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))")
-                        :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
-                      color:showPhonetic?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
-                      boxShadow:showPhonetic?(dk?"0 0 12px rgba(123,94,232,0.4),inset 0 1px 0 rgba(255,255,255,0.12)":"0 2px 10px rgba(123,94,232,0.2),inset 0 1px 0 rgba(255,255,255,0.9)"):"none",
-                      display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,fontWeight:700,transition:"all .25s cubic-bezier(.4,0,.2,1)"
-                    }}>🔤</button>
-                    <SpeakerButton text={st.trg} lang={ttsLocNew} size={16} showToast={showToast}/>
-                  </div>
-                </div>
-                {/* Article candy pill (if gendered) */}
-                {artNew!=="none" && <div style={{textAlign:"center",marginBottom:6}}>
-                  <span style={{display:"inline-block",background:genderHex?pillGradient(genderHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0.06))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
-                    color:"white",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",borderRadius:14,padding:"3px 16px",textTransform:"uppercase",letterSpacing:1.5,
-                    textShadow:"0 1px 2px rgba(0,0,0,0.25)",
-                    boxShadow:genderHex?`0 4px 12px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)",
-                    position:"relative",overflow:"hidden"
-                  }}>{artNew}
-                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
-                  </span>
-                </div>}
-                {/* Word — big candy pill */}
-                <div style={{textAlign:"center",marginBottom:10}}>
-                  <div style={{display:"inline-block",background:wordPillBg,borderRadius:16,padding:"12px 32px",position:"relative",overflow:"hidden",
-                    boxShadow:wordPillShadow,cursor:"default",transition:"all .25s cubic-bezier(.4,0,.2,1)"
-                  }}
-                  onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.04) translateY(-2px)";e.currentTarget.style.filter="brightness(1.1)";}}
-                  onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}>
-                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",pointerEvents:"none",
-                      background:"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"}}/>
-                    <span className="hd" style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1,position:"relative",zIndex:1,textShadow:"0 1px 2px rgba(0,0,0,0.2)"}}>{cap(st.trg)}</span>
-                  </div>
-                </div>
-                {/* POS + Gender candy pills */}
-                {(st.pos || st.gender) && <div style={{display:"flex",justifyContent:"center",gap:6,marginBottom:8}}>
-                  {st.pos && <span style={{display:"inline-block",background:posHex?pillGradient(posHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.05))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
-                    color:posHex?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),borderRadius:14,padding:"3px 12px",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",
-                    textTransform:"uppercase",letterSpacing:1,position:"relative",overflow:"hidden",
-                    textShadow:posHex?"0 1px 2px rgba(0,0,0,0.25)":"none",
-                    boxShadow:posHex?`0 4px 12px ${posHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
-                  }}>{st.pos}
-                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
-                  </span>}
-                  {st.gender && <span style={{display:"inline-block",background:genderHex?pillGradient(genderHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.05))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
-                    color:genderHex?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),borderRadius:14,padding:"3px 12px",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",
-                    textTransform:"uppercase",letterSpacing:1,position:"relative",overflow:"hidden",
-                    textShadow:genderHex?"0 1px 2px rgba(0,0,0,0.25)":"none",
-                    boxShadow:genderHex?`0 4px 12px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
-                  }}>{genderLabel}
-                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
-                  </span>}
-                </div>}
-                {/* Phonetic */}
-                {showPhonetic && st.phonetic && <div className="anim" style={{textAlign:"center",marginBottom:8}}>
-                  <span style={{display:"inline-block",background:dk?"rgba(74,143,231,0.15)":"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:dk?"#64B5F6":"#4A8FE7",fontWeight:600,fontFamily:"Nunito,sans-serif"}}>/{st.phonetic}/</span>
-                </div>}
-                {/* Translation — teal candy pill */}
-                <div style={{textAlign:"center",paddingBottom:4}}>
-                  <div style={{display:"inline-block",background:pillGradient("#2ECDA7"),borderRadius:14,padding:"8px 24px",position:"relative",overflow:"hidden",
-                    boxShadow:"0 4px 12px rgba(46,205,167,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"
-                  }}>
-                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",pointerEvents:"none",
-                      background:"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"}}/>
-                    <span style={{fontSize:18,color:"white",fontWeight:700,fontFamily:"Nunito,sans-serif",position:"relative",zIndex:1,textShadow:"0 1px 2px rgba(0,0,0,0.2)"}}>{cap(st.src)}</span>
-                  </div>
+            const accentColorNew = isNewTrg ? "#7B5EE8" : "var(--gray-300)";
+            const artWordNew = artNew!=="none" ? st.trg.split(/\s(.+)/) : null;
+            return <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.55)",borderLeft:`4px solid ${accentColorNew}`,boxShadow:"0 4px 20px rgba(0,0,0,0.05)",overflow:"hidden",marginBottom:16}}>
+              {/* Top strip */}
+              <div style={{background:isNewTrg?"linear-gradient(135deg, rgba(123,94,232,0.06), rgba(46,205,167,0.04))":"rgba(0,0,0,0.01)",padding:"12px 20px 10px",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:isNewTrg?"#7B5EE8":"var(--gray-400)"}}>{isNewTrg?labelNew:"Review"}</span>
+                <div style={{display:"flex",alignItems:"center",gap:8}}>
+                  <SpeakerButton text={st.trg} lang={ttsLocNew} size={15} showToast={showToast}/>
+                  {st.phonetic&&<button onClick={()=>setShowPhonetic(!showPhonetic)} style={{background:"none",border:"none",cursor:"pointer",padding:"2px 0",display:"flex",alignItems:"center",transition:"all .15s"}}><span style={{fontSize:12,fontWeight:700,color:showPhonetic?"#7B5EE8":"var(--gray-300)",letterSpacing:0.5,transition:"color .15s"}}>Abc</span></button>}
                 </div>
               </div>
+              {/* Word display — article color-coded, same as v1 */}
+              <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
+                {artNew!=="none"&&<div style={{marginBottom:4}}><span style={{fontSize:11,fontWeight:800,color:cNew.pillText,background:cNew.pill,borderRadius:6,padding:"2px 10px",letterSpacing:1}}>{artNew.toUpperCase()}</span></div>}
+                <div style={{marginBottom:6}}>
+                  {artWordNew&&artWordNew[1] ? (
+                    <span className="hd" style={{fontSize:36,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
+                      <span style={{color:cNew.pillText}}>{cap(artWordNew[0])}</span>{" "}
+                      <span style={{color:grammarHl?cNew.pillText:"var(--gray-800)"}}>{artWordNew[1]}</span>
+                    </span>
+                  ) : (
+                    <span className="hd" style={{fontSize:36,fontWeight:800,color:"var(--gray-800)",lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{cap(st.trg)}</span>
+                  )}
+                </div>
+              </div>
+              {/* Translation — teal */}
+              <div style={{textAlign:"center",paddingBottom:st.phonetic&&showPhonetic?6:14}}>
+                <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(st.src)}</span>
+              </div>
+              {/* Phonetic */}
+              {showPhonetic&&st.phonetic&&<div className="anim" style={{textAlign:"center",paddingBottom:12,paddingRight:8}}>
+                <span style={{fontSize:13,fontWeight:600,color:"rgba(123,94,232,0.55)",fontStyle:"italic",marginLeft:40}}>{st.phonetic}</span>
+              </div>}
             </div>;
           })()}
 
@@ -13843,16 +13781,50 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>
           </div>}
 
-          {/* Fun Info section — compound bubble with lightbulb */}
-          {st.funInfo && <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
-            <div style={glossArc}/>
-            <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.8)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8,display:"flex",alignItems:"center",gap:6}}>
-                <AppIcon name="lightbulb" size={15}/>Fun Fact
+          {/* Fun Info — COMPOUND chip style (same as Korean morpheme bubbles) */}
+          {st.funInfo && (()=>{
+            // Parse compound parts: "Flug (flight) + Zeug (stuff/thing)" => [{morph:"Flug",gloss:"flight"},{morph:"Zeug",gloss:"stuff/thing"}]
+            // Strip any prefix like "A compound noun:", "Another compound:", "Compound:" etc.
+            const compMatch = st.funInfo.match(/^(?:.*?compound[^:]*:\s*)?([A-Za-zÀ-ÿ]+\s*\([^)]+\)(?:\s*\+\s*[A-Za-zÀ-ÿ]+\s*\([^)]+\))+)/);
+            const parts = compMatch ? compMatch[1].split(/\s*\+\s*/).map(p => {
+              const m = p.trim().match(/^([^\s(]+)\s*\(([^)]+)\)/);
+              return m ? {morph:m[1],gloss:m[2]} : {morph:p.trim(),gloss:""};
+            }) : null;
+            // Rest of the text after the compound decomposition
+            const restText = parts ? st.funInfo.replace(compMatch[0],"").replace(/^\.\s*/,"").trim() : st.funInfo;
+            return <div style={{...compBubble, padding:"18px 20px 16px", marginBottom:16}}>
+              <div style={glossArc}/>
+              <div style={{position:"relative",zIndex:2}}>
+                <div style={{fontSize:10,fontWeight:800,color:"var(--purple-accent-text)",textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,display:"flex",alignItems:"center",gap:6,fontFamily:"'Nunito','system-ui',sans-serif"}}>
+                  <AppIcon name="lightbulb" size={16}/>{parts?"Compound":"Fun Fact"}
+                </div>
+                {/* Morpheme chips — same style as Korean COMPOUND */}
+                {parts && <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",gap:8,justifyContent:"center",padding:"6px 0",marginBottom:restText?10:0}}>
+                  {parts.map((p,pi)=><React.Fragment key={pi}>
+                    {pi>0&&<span style={{color:dk?"rgba(123,94,232,0.35)":"rgba(160,140,230,0.4)",fontSize:13,fontWeight:800}}>+</span>}
+                    <span style={{display:"inline-flex",flexDirection:"column",alignItems:"center",
+                      background:dk
+                        ?"linear-gradient(160deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04))"
+                        :"linear-gradient(160deg, rgba(255,255,255,0.92), rgba(255,255,255,0.65))",
+                      borderRadius:14,padding:"8px 16px",
+                      border:dk?"1px solid rgba(255,255,255,0.1)":"1px solid rgba(180,165,240,0.25)",
+                      boxShadow:dk
+                        ?"0 3px 10px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.1)"
+                        :"0 3px 12px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.9)"}}>
+                      <span style={{display:"flex",alignItems:"baseline",gap:4}}>
+                        <span style={{fontSize:24,fontWeight:800,color:"var(--purple-accent-text)"}}>{p.morph}</span>
+                        {p.gloss&&<span style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:600,fontFamily:"'Nunito','system-ui',sans-serif",marginLeft:2}}>({p.gloss})</span>}
+                      </span>
+                    </span>
+                  </React.Fragment>)}
+                </div>}
+                {/* Extra context text below the chips */}
+                {restText && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif"}}>{restText}</div>}
+                {/* Non-compound funInfo: plain text */}
+                {!parts && <div style={{fontSize:14,lineHeight:1.7,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.funInfo}</div>}
               </div>
-              <div style={{fontSize:14,lineHeight:1.7,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.funInfo}</div>
-            </div>
-          </div>}
+            </div>;
+          })()}
 
           {/* Note section (same style as legacy) */}
           {st.note && <div style={{
