@@ -322,10 +322,89 @@ posTaggers.ko = function(db) {
   }
 };
 
-// German POS tagger (placeholder — uses kind/article detection which already works)
+// German POS tagger — enriches POS from kind fields, detects verb types, compound nouns
 posTaggers.de = function(db) {
-  // German relies on article detection (Source 1 + stripArticle) which is already solid
-  // Future: add case detection, compound noun splitting
+  for (const [key, entry] of Object.entries(db)) {
+    // Skip function words (already have curated POS from function-words-de.js)
+    if (entry.tags && entry.tags.length > 0) continue;
+
+    const word = entry.word || key;
+    const en = (entry.en || "").toLowerCase();
+    const kind = (entry.kind || "").toLowerCase();
+
+    // 1. Verbs: kind:"verb" or en starts with "to "
+    if (kind === "verb" || en.startsWith("to ")) {
+      entry.pos = "verb";
+      // Detect verb type from german-conjugation engine
+      const inf = word.endsWith("en") || word.endsWith("n") ? word : word + "en";
+      const vType = detectGermanVerbType(inf);
+      if (vType) entry.verbType = vType; // "strong", "mixed", "modal", "auxiliary", "regular"
+      // Detect separable prefix
+      for (const pfx of ["ab","an","auf","aus","bei","ein","mit","nach","vor","zu","weg","her","hin","um","los","fest","dar"]) {
+        if (word.startsWith(pfx) && word.length > pfx.length + 2) {
+          entry.separablePrefix = pfx;
+          break;
+        }
+      }
+      continue;
+    }
+
+    // 2. Adjectives
+    if (kind === "adjective" || kind === "adj") {
+      entry.pos = "adjective";
+      continue;
+    }
+
+    // 3. Adverbs
+    if (kind === "adverb" || kind === "adv") {
+      entry.pos = "adverb";
+      continue;
+    }
+
+    // 4. Nouns: German nouns are capitalized, or have articles
+    // The article/gender detection from stripArticle + detectGender already handles this,
+    // but explicitly tag nouns from kind field
+    if (kind === "noun" || kind === "word") {
+      entry.pos = "noun";
+      continue;
+    }
+
+    // 5. Prepositions
+    if (kind === "preposition" || kind === "prep") {
+      entry.pos = "preposition";
+      continue;
+    }
+
+    // 6. Conjunctions
+    if (kind === "conjunction" || kind === "conj") {
+      entry.pos = "conjunction";
+      continue;
+    }
+
+    // 7. Pronouns
+    if (kind === "pronoun") {
+      entry.pos = "pronoun";
+      continue;
+    }
+
+    // 8. Numbers
+    if (kind === "number" || kind === "num") {
+      entry.pos = "number";
+      continue;
+    }
+
+    // 9. Interjections
+    if (kind === "interjection" || kind === "interj") {
+      entry.pos = "interjection";
+      continue;
+    }
+
+    // 10. Phrases
+    if (kind === "phrase") {
+      entry.pos = "noun"; // phrases default to noun-like
+      continue;
+    }
+  }
 };
 
 // Dutch POS tagger (placeholder)
@@ -949,6 +1028,152 @@ export const GRAMMAR_CATEGORIES = ["Particles","Speech Levels","Verb Conjugation
 
 // Re-export conjugation utilities for UI components
 export { conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles };
+
+// ═══════════════════════════════════════════════════════════════════
+// GERMAN DEEP DICTIONARY EXTENSIONS
+// Mirrors the Korean system: example index, grammar reference
+// ═══════════════════════════════════════════════════════════════════
+
+// ── German Example Sentence Aggregator ──
+// Collects ALL curriculum sentences containing a given German word.
+function buildGermanExampleIndex() {
+  const index = {};
+  const deUnits = ALL_UNITS.filter(u => u.lang === "de");
+  for (const unit of deUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        const pairs = [];
+        if (step.example && step.exampleEn) {
+          pairs.push({ target: step.example, source: step.exampleEn });
+        }
+        if (step.q && step.hint) {
+          pairs.push({ target: step.q, source: step.hint });
+        }
+        if (step.s) {
+          pairs.push({ target: step.s, source: "" });
+        }
+        for (const pair of pairs) {
+          const words = pair.target
+            .replace(/[A-Z]:\s/g, " ")
+            .split(/[\s,;:!?.'"()[\]{}«»…\-—–/\\→]+/)
+            .filter(w => w.length > 0 && /[a-zA-ZäöüÄÖÜß]/.test(w))
+            .map(w => w.toLowerCase());
+          const seen = new Set();
+          for (const w of words) {
+            if (seen.has(w)) continue;
+            seen.add(w);
+            if (!index[w]) index[w] = [];
+            if (index[w].length < 10) {
+              index[w].push({ target: pair.target, source: pair.source, lessonId: lesson.id, unitN: unit.n });
+            }
+          }
+        }
+      }
+    }
+  }
+  return index;
+}
+
+export const GERMAN_EXAMPLE_INDEX = buildGermanExampleIndex();
+
+// ── German Grammar Reference ──
+// Pulls from tip cards, verb_tables, and grammar teach cards.
+const DE_GRAMMAR_CATEGORIES = ["Articles & Gender","Cases","Verb Conjugation","Tense & Aspect","Negation","Word Order","Connectors","Prepositions","Relative Clauses","Passive & Subjunctive","Expressions","General"];
+
+function categorizeGermanGrammar(text, title, note) {
+  const all = (text + " " + title + " " + (note || "")).toLowerCase();
+  if (/\b(artikel|article|der|die|das|gender|geschlecht|ein|eine|kein)\b/.test(all)) return "Articles & Gender";
+  if (/\b(case|kasus|nominativ|akkusativ|dativ|genitiv|wechselpr|deklinat)\b/.test(all)) return "Cases";
+  if (/\b(conjug|konjugat|irregular|unregelm|strong.*verb|modal.*verb|sein\/haben|trennbar|separa|prefix|stamm)\b/.test(all)) return "Verb Conjugation";
+  if (/\b(tense|tempus|pr[äa]sens|pr[äa]terit|perfekt|plusquam|futur|zeitform)\b/.test(all)) return "Tense & Aspect";
+  if (/\b(negat|nicht|kein|vernein)\b/.test(all)) return "Negation";
+  if (/\b(word.*order|wortstellung|verb.*second|verb.*final|nebensatz|hauptsatz|inversion)\b/.test(all)) return "Word Order";
+  if (/\b(connector|konjunktion|weil|dass|obwohl|wenn|als|damit|ob|nachdem|bevor|seitdem)\b/.test(all)) return "Connectors";
+  if (/\b(preposit|pr[äa]posit|mit|von|zu|bei|nach|aus|seit|gegen[üu]ber)\b/.test(all)) return "Prepositions";
+  if (/\b(relativ|relative.*clause|relativsatz|der\/die\/das.*als)\b/.test(all)) return "Relative Clauses";
+  if (/\b(passiv|passive|konjunktiv|subjunctiv|werden.*\+|w[üu]rde|indirect.*speech|indirekte.*rede)\b/.test(all)) return "Passive & Subjunctive";
+  if (/\b(expression|redewend|sprichwort|idiom|pattern)\b/.test(all)) return "Expressions";
+  return "General";
+}
+
+function buildGermanGrammarReference() {
+  const items = [];
+  const deUnits = ALL_UNITS.filter(u => u.lang === "de");
+  const seen = new Set();
+  const toStr = (v) => { if (!v) return ""; if (typeof v === "string") return v; if (typeof v === "object" && v.title) return v.title + (v.text ? "\n" + v.text : ""); return String(v); };
+
+  for (const unit of deUnits) {
+    for (const lesson of (unit.lessons || [])) {
+      for (const step of (lesson.steps || [])) {
+        // Source 1: Tip cards
+        if (step.type === "tip") {
+          const key = "tip:" + toStr(step.title) + toStr(step.text).substring(0, 60);
+          if (seen.has(key)) continue;
+          seen.add(key);
+          const title = toStr(step.title);
+          const text = toStr(step.text);
+          items.push({
+            source: "tip",
+            title: title,
+            text: text,
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: categorizeGermanGrammar(text, title, step.deepDive || ""),
+            example: null,
+            exampleEn: null,
+          });
+        }
+
+        // Source 2: Verb tables
+        if (step.type === "verb_table") {
+          const key = "vt:" + (step.title || "") + unit.n;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push({
+            source: "verb_table",
+            title: step.title || "Conjugation Table",
+            text: step.note || "",
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: "Verb Conjugation",
+            groups: step.groups || [],
+            example: null,
+            exampleEn: null,
+          });
+        }
+
+        // Source 3: Grammar teach cards
+        if (step.type === "teach" && step.kind === "grammar") {
+          const nl = step.nl || "";
+          const key = "gr:" + nl;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push({
+            source: "grammar",
+            title: nl,
+            text: step.note || "",
+            deepDive: toStr(step.deepDive) || null,
+            level: unit.level || "A1",
+            unitN: unit.n,
+            lessonId: lesson.id,
+            category: categorizeGermanGrammar(nl, step.en || "", step.note || ""),
+            example: step.example || null,
+            exampleEn: step.exampleEn || null,
+            en: step.en || "",
+          });
+        }
+      }
+    }
+  }
+  return items;
+}
+
+export const GERMAN_GRAMMAR_REFERENCE = buildGermanGrammarReference();
+export const DE_GRAMMAR_CATS = DE_GRAMMAR_CATEGORIES;
 
 // ── Lesson ordering helper (needed for isNewWord) ──
 // lessonOrder[lang] = [lessonId1, lessonId2, ...] in curriculum order

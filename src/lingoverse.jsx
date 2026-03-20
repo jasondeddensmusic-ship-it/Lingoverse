@@ -13599,6 +13599,291 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto"}}>{isNew&&<div style={{background:"linear-gradient(135deg, var(--gold), #E8960A)",borderRadius:24,padding:"3px",marginBottom:20,boxShadow:"0 6px 24px rgba(245,166,35,0.25)"}}><div style={{background:"var(--gold)",borderRadius:"22px 22px 0 0",padding:"8px 0",textAlign:"center"}}><span style={{color:"white",fontSize:12,fontWeight:800,textTransform:"uppercase",letterSpacing:3}}>✨ New Word ✨</span></div><div style={{background:"var(--card-bg)",borderRadius:"0 0 21px 21px",overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:-15,right:-15,width:60,height:60,borderRadius:"50%",background:"rgba(74,143,231,0.06)"}}/><div style={{position:"absolute",bottom:20,left:-10,width:40,height:40,borderRadius:"50%",background:"rgba(46,205,167,0.06)"}}/><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:34,height:34,borderRadius:10,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,cursor:"pointer",transition:"all .15s",backdropFilter:"blur(4px)"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={16}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:80,height:80,borderRadius:22,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:36,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",padding:"18px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:12,fontWeight:800,borderRadius:10,padding:"3px 14px",textTransform:"uppercase",letterSpacing:1.5}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:18,padding:"12px 32px",boxShadow:`0 4px 16px ${c.shadow}`,marginBottom:10}}><span className="hd"style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:20}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:14,padding:"8px 24px",boxShadow:"0 3px 12px rgba(46,205,167,0.25)"}}><span style={{fontSize:18,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"16px 22px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:14,padding:"12px 16px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}>💬 In context</div><div style={{fontSize:15,color:"var(--gray-800)",fontWeight:600,marginBottom:3,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang)}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div><div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div></div>}{!isNew&&<div style={{background:"var(--card-bg)",borderRadius:24,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 4px 16px rgba(0,0,0,0.04)",marginBottom:20,overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:30,height:30,borderRadius:8,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,cursor:"pointer",transition:"all .15s"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:72,height:72,borderRadius:20,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:32,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",paddingTop:w.img?12:24}}><span style={{display:"inline-block",background:"var(--gray-200)",color:"var(--gray-500)",fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,padding:"4px 14px",borderRadius:16}}>Review</span></div><div style={{textAlign:"center",padding:"14px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:11,fontWeight:700,borderRadius:8,padding:"2px 10px",textTransform:"uppercase",letterSpacing:1}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:16,padding:"10px 28px",boxShadow:`0 3px 12px ${c.shadow}`,marginBottom:8}}><span className="hd"style={{fontSize:30,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:12,padding:"3px 14px",fontSize:13,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:16}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:12,padding:"6px 20px",boxShadow:"0 2px 10px rgba(46,205,167,0.2)"}}><span style={{fontSize:16,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"14px 20px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:12,padding:"10px 14px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:10,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:5}}>💬 In context</div><div style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,marginBottom:2,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang)}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={13}showToast={showToast}/></div><div style={{fontSize:12,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div>}{w.note&&<div style={{background:dk?"var(--gold-bg)":"linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)",borderRadius:16,padding:"14px 20px",marginBottom:20,boxShadow:"0 2px 12px rgba(245,166,35,0.15)"}}><div style={{fontSize:11,fontWeight:800,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Note</div><div style={{fontSize:14,color:"var(--gray-700)",lineHeight:1.6}}>{w.note}</div></div>}<button onClick={()=>{if(!user.lw.has(w.nl)){setUser(u=>({...u,lw:new Set([...u.lw,w.nl])}));}next();}}className="btn-primary"style={{width:"100%"}}>Continue</button></div></div>);
   }
 
+  // ═══ STORY STEP (new format) — dialogue line from character ═══
+  if(st.type==="story") {
+    const ttsLocStory = LANG_META[lang]?.ttsLocale||"en-US";
+    const isNarrator = st.speaker === "narrator";
+    const speakerName = st.speaker || "Verumius";
+    const moodEmoji = {confused:"😕",happy:"😄",excited:"🤩",sad:"😢",angry:"😠",thinking:"🤔",surprised:"😲",neutral:"😐",proud:"😎"}[st.mood] || "💬";
+    // Compound bubble
+    const storyBubble = {
+      background: dk
+        ? "linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"
+        : "linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)",
+      border: dk ? "1.5px solid rgba(123,94,232,0.3)" : "1.5px solid rgba(180,165,240,0.4)",
+      boxShadow: dk
+        ? "0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)"
+        : "0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",
+      borderRadius: isNarrator ? 22 : "22px 22px 22px 6px",
+      position: "relative", overflow: "hidden", padding: "14px 18px",
+    };
+    const storyGloss = {
+      position: "absolute", top: 0, left: "5%", right: "5%", height: "42%",
+      borderRadius: "0 0 50% 50%", pointerEvents: "none", zIndex: 0,
+      background: dk
+        ? "linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+        : "linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
+    };
+    // Tagged word renderer (same as teach)
+    const renderTaggedStory = (tagged) => {
+      if (!tagged || !Array.isArray(tagged)) return null;
+      return tagged.map((t, ti) => {
+        let color = null;
+        if (t.pos === "art" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
+        if (t.pos === "noun" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
+        if (!color && t.pos) { const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos; const pc = POS_COLORS[posKey]; if (pc) color = dk ? pc.dark : pc.light; }
+        return <span key={ti} style={{ color: color || (dk ? "rgba(220,210,255,0.85)" : "#3A1F8A"), fontWeight: 700, marginRight: ti < tagged.length - 1 ? 4 : 0, borderBottom: (t.pos === "noun" && color) ? `2px solid ${color}` : "none", paddingBottom: (t.pos === "noun" && color) ? 1 : 0 }}>{t.w}</span>;
+      });
+    };
+    return (
+      <div className="anim" key={si}>
+        <ProgressBar/>
+        <div style={{maxWidth:460,margin:"0 auto"}}>
+          {/* Speaker label */}
+          {!isNarrator && <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:10}}>
+            <span style={{fontSize:20}}>{moodEmoji}</span>
+            <span style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,184,255,0.9)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5}}>{speakerName}</span>
+          </div>}
+          {/* Story bubble */}
+          <div style={storyBubble}>
+            <div style={storyGloss}/>
+            <div style={{position:"relative",zIndex:2}}>
+              <div style={{fontSize:16,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                {st.tagged ? renderTaggedStory(st.tagged) : universalHl(st.trg || "", lang)}
+                <SpeakerButton text={st.trg || ""} lang={ttsLocStory} size={13} showToast={showToast}/>
+              </div>
+              {st.src && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:6}}>{st.src}</div>}
+            </div>
+          </div>
+
+          <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:16}}>
+            {si>0&&<NavArrow onClick={goBack} isBack/>}
+            <NavArrow onClick={goNext}/>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ═══ NEW FORMAT TEACH CARD (trg/src) — dual renderer ═══
+  // Detects new format by presence of step.trg field
+  if(st.type==="teach" && st.trg !== undefined) {
+    const isNewTrg = !user.lw.has(st.trg);
+    const ttsLocNew = LANG_META[lang]?.ttsLocale||"en-US";
+    const artNew = getArticle(st.trg, lang);
+    const cNew = ARTICLE_COLORS[artNew];
+    const labelNew = st.kind==="grammar"?"Grammar Pattern":st.kind==="phrase"?"Key Phrase":"New Word";
+    // Compound bubble styles from design spine
+    const compBubble = {
+      background: dk
+        ? "linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"
+        : "linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)",
+      border: dk ? "1.5px solid rgba(123,94,232,0.3)" : "1.5px solid rgba(180,165,240,0.4)",
+      boxShadow: dk
+        ? "0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)"
+        : "0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",
+      borderRadius: 22, position: "relative", overflow: "hidden",
+    };
+    const glossArc = {
+      position: "absolute", top: 0, left: "5%", right: "5%", height: "42%",
+      borderRadius: "0 0 50% 50%", pointerEvents: "none", zIndex: 0,
+      background: dk
+        ? "linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+        : "linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
+    };
+    // Tagged word renderer — colors each word by POS
+    const renderTagged = (tagged) => {
+      if (!tagged || !Array.isArray(tagged)) return null;
+      return tagged.map((t, ti) => {
+        let color = null;
+        // Articles use gender color
+        if (t.pos === "art" && t.sub) {
+          const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
+          if (gSub) {
+            const gc = GENDER_COLORS[gSub];
+            color = gc ? (dk ? gc.dark : gc.light) : null;
+          }
+        }
+        // Nouns get gender understripe via POS_COLORS
+        if (t.pos === "noun" && t.sub) {
+          const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
+          if (gSub) {
+            const gc = GENDER_COLORS[gSub];
+            color = gc ? (dk ? gc.dark : gc.light) : null;
+          }
+        }
+        // All other POS from POS_COLORS
+        if (!color && t.pos) {
+          const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos;
+          const pc = POS_COLORS[posKey];
+          if (pc) color = dk ? pc.dark : pc.light;
+        }
+        return <span key={ti} style={{
+          color: color || (dk ? "rgba(220,210,255,0.85)" : "#3A1F8A"),
+          fontWeight: 700,
+          marginRight: ti < tagged.length - 1 ? 4 : 0,
+          borderBottom: (t.pos === "noun" && color) ? `2px solid ${color}` : "none",
+          paddingBottom: (t.pos === "noun" && color) ? 1 : 0,
+        }}>{t.w}</span>;
+      });
+    };
+    return (
+      <div className="anim" key={si}>
+        <ProgressBar/>
+        <div style={{maxWidth:460,margin:"0 auto"}}>
+          {/* ═══ NEW-FORMAT TEACH CARD — Compound Bubble VerumLingua style ═══ */}
+          {(()=>{
+            const genderHex = st.gender && GENDER_COLORS[st.gender] ? (dk ? GENDER_COLORS[st.gender].dark : GENDER_COLORS[st.gender].light) : null;
+            const wordPillBg = genderHex ? pillGradient(genderHex) : (dk
+              ? "linear-gradient(180deg,#C0AEF8 0%,#A488F0 20%,#7B5EE8 50%,#6545C8 80%,#4A2BA6 100%)"
+              : "linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)");
+            const wordPillShadow = genderHex
+              ? `0 4px 16px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`
+              : "0 4px 16px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";
+            const posHex = st.pos && POS_COLORS[st.pos] ? (dk ? POS_COLORS[st.pos].dark : POS_COLORS[st.pos].light) : null;
+            const genderLabel = {m:"masculine",f:"feminine",n:"neuter",c:"common",pl:"plural"}[st.gender]||st.gender;
+            return <div style={{...compBubble, padding:"22px 22px 18px", marginBottom:16}}>
+              <div style={glossArc}/>
+              <div style={{position:"relative",zIndex:2}}>
+                {/* Top row: badge + TTS */}
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
+                  <span style={{display:"inline-block",background:isNewTrg
+                    ? (dk ? "linear-gradient(180deg,#FFD54F 0%,#FFB300 20%,#E8960A 55%,#C67800 85%,#A05800 100%)" : "linear-gradient(180deg,#FFE082 0%,#FFD54F 20%,#E8960A 55%,#C67800 85%,#A05800 100%)")
+                    : (dk ? "linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0.06))" : "linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
+                    color:isNewTrg?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
+                    fontSize:10,fontWeight:900,fontFamily:"Quicksand,sans-serif",textTransform:"uppercase",letterSpacing:2,
+                    padding:"4px 14px",borderRadius:14,position:"relative",overflow:"hidden",
+                    textShadow:isNewTrg?"0 1px 2px rgba(0,0,0,0.25)":"none",
+                    boxShadow:isNewTrg
+                      ?"0 4px 12px rgba(232,150,10,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"
+                      :(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
+                  }}>{isNewTrg?labelNew:"Review"}</span>
+                  <div style={{display:"flex",gap:6}}>
+                    <button onClick={()=>setShowPhonetic(!showPhonetic)} style={{
+                      width:36,height:36,borderRadius:12,border:"none",cursor:"pointer",
+                      background:showPhonetic
+                        ?(dk?"linear-gradient(180deg,rgba(123,94,232,0.35),rgba(80,60,180,0.25))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.9))")
+                        :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+                      color:showPhonetic?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+                      boxShadow:showPhonetic?(dk?"0 0 12px rgba(123,94,232,0.4),inset 0 1px 0 rgba(255,255,255,0.12)":"0 2px 10px rgba(123,94,232,0.2),inset 0 1px 0 rgba(255,255,255,0.9)"):"none",
+                      display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,fontWeight:700,transition:"all .25s cubic-bezier(.4,0,.2,1)"
+                    }}>🔤</button>
+                    <SpeakerButton text={st.trg} lang={ttsLocNew} size={16} showToast={showToast}/>
+                  </div>
+                </div>
+                {/* Article candy pill (if gendered) */}
+                {artNew!=="none" && <div style={{textAlign:"center",marginBottom:6}}>
+                  <span style={{display:"inline-block",background:genderHex?pillGradient(genderHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0.06))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
+                    color:"white",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",borderRadius:14,padding:"3px 16px",textTransform:"uppercase",letterSpacing:1.5,
+                    textShadow:"0 1px 2px rgba(0,0,0,0.25)",
+                    boxShadow:genderHex?`0 4px 12px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)",
+                    position:"relative",overflow:"hidden"
+                  }}>{artNew}
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
+                  </span>
+                </div>}
+                {/* Word — big candy pill */}
+                <div style={{textAlign:"center",marginBottom:10}}>
+                  <div style={{display:"inline-block",background:wordPillBg,borderRadius:16,padding:"12px 32px",position:"relative",overflow:"hidden",
+                    boxShadow:wordPillShadow,cursor:"default",transition:"all .25s cubic-bezier(.4,0,.2,1)"
+                  }}
+                  onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.04) translateY(-2px)";e.currentTarget.style.filter="brightness(1.1)";}}
+                  onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}>
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                      background:"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"}}/>
+                    <span className="hd" style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1,position:"relative",zIndex:1,textShadow:"0 1px 2px rgba(0,0,0,0.2)"}}>{cap(st.trg)}</span>
+                  </div>
+                </div>
+                {/* POS + Gender candy pills */}
+                {(st.pos || st.gender) && <div style={{display:"flex",justifyContent:"center",gap:6,marginBottom:8}}>
+                  {st.pos && <span style={{display:"inline-block",background:posHex?pillGradient(posHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.05))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
+                    color:posHex?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),borderRadius:14,padding:"3px 12px",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",
+                    textTransform:"uppercase",letterSpacing:1,position:"relative",overflow:"hidden",
+                    textShadow:posHex?"0 1px 2px rgba(0,0,0,0.25)":"none",
+                    boxShadow:posHex?`0 4px 12px ${posHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
+                  }}>{st.pos}
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
+                  </span>}
+                  {st.gender && <span style={{display:"inline-block",background:genderHex?pillGradient(genderHex):(dk?"linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.05))":"linear-gradient(180deg,rgba(240,234,255,0.95),rgba(220,210,255,0.85))"),
+                    color:genderHex?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),borderRadius:14,padding:"3px 12px",fontSize:11,fontWeight:900,fontFamily:"Quicksand,sans-serif",
+                    textTransform:"uppercase",letterSpacing:1,position:"relative",overflow:"hidden",
+                    textShadow:genderHex?"0 1px 2px rgba(0,0,0,0.25)":"none",
+                    boxShadow:genderHex?`0 4px 12px ${genderHex}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`:(dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1)")
+                  }}>{genderLabel}
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"38%",borderRadius:"0 0 50% 50%",pointerEvents:"none",background:"linear-gradient(180deg,rgba(255,255,255,0.3) 0%,transparent 100%)"}}/>
+                  </span>}
+                </div>}
+                {/* Phonetic */}
+                {showPhonetic && st.phonetic && <div className="anim" style={{textAlign:"center",marginBottom:8}}>
+                  <span style={{display:"inline-block",background:dk?"rgba(74,143,231,0.15)":"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:dk?"#64B5F6":"#4A8FE7",fontWeight:600,fontFamily:"Nunito,sans-serif"}}>/{st.phonetic}/</span>
+                </div>}
+                {/* Translation — teal candy pill */}
+                <div style={{textAlign:"center",paddingBottom:4}}>
+                  <div style={{display:"inline-block",background:pillGradient("#2ECDA7"),borderRadius:14,padding:"8px 24px",position:"relative",overflow:"hidden",
+                    boxShadow:"0 4px 12px rgba(46,205,167,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)"
+                  }}>
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",pointerEvents:"none",
+                      background:"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"}}/>
+                    <span style={{fontSize:18,color:"white",fontWeight:700,fontFamily:"Nunito,sans-serif",position:"relative",zIndex:1,textShadow:"0 1px 2px rgba(0,0,0,0.2)"}}>{cap(st.src)}</span>
+                  </div>
+                </div>
+              </div>
+            </div>;
+          })()}
+
+          {/* Example with tagged words — compound bubble */}
+          {st.example && <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
+            <div style={glossArc}/>
+            <div style={{position:"relative",zIndex:2}}>
+              <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                {st.tagged ? renderTagged(st.tagged) : universalHl(st.example, lang)}
+                <SpeakerButton text={st.example} lang={ttsLocNew} size={13} showToast={showToast}/>
+              </div>
+              {(st.exampleSrc || st.exampleEn) && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{st.exampleSrc || st.exampleEn}</div>}
+            </div>
+          </div>}
+
+          {/* Fun Info section — compound bubble with lightbulb */}
+          {st.funInfo && <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
+            <div style={glossArc}/>
+            <div style={{position:"relative",zIndex:2}}>
+              <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.8)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8,display:"flex",alignItems:"center",gap:6}}>
+                <AppIcon name="lightbulb" size={15}/>Fun Fact
+              </div>
+              <div style={{fontSize:14,lineHeight:1.7,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.funInfo}</div>
+            </div>
+          </div>}
+
+          {/* Note section (same style as legacy) */}
+          {st.note && <div style={{
+            background:dk?"linear-gradient(155deg,rgba(58,36,130,0.35),rgba(44,26,105,0.25))":"linear-gradient(155deg,rgba(240,234,255,0.9),rgba(228,216,255,0.8))",
+            border:dk?"1.5px solid rgba(168,144,255,0.25)":"1.5px solid rgba(168,144,255,0.35)",
+            borderRadius:22,padding:"18px 20px",marginBottom:16,position:"relative",overflow:"hidden",
+            boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.06)":"inset 0 2px 0 rgba(255,255,255,0.9),0 4px 16px rgba(112,80,216,0.08)"
+          }}>
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",borderRadius:"0 0 50% 50%",
+              background:dk?"linear-gradient(180deg,rgba(255,255,255,0.06)0%,transparent 100%)":"linear-gradient(180deg,rgba(255,255,255,0.6)0%,transparent 100%)",
+              pointerEvents:"none"}}/>
+            <div style={{position:"relative"}}>
+              <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.8)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8,display:"flex",alignItems:"center",gap:6}}>
+                <AppIcon name="lightbulb" size={15}/>{t("le_good_to_know",baseLang)}
+              </div>
+              <div style={{fontSize:15,lineHeight:1.75,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{(st.note||"").split(/\\n|\n/).map((line,li)=>{
+                if(!line.trim()) return <div key={li} style={{height:5}}/>;
+                return <div key={li}>{universalHl(line, lang)}</div>;
+              })}</div>
+            </div>
+          </div>}
+
+          <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:4}}>
+            {si>0&&<NavArrow onClick={goBack} isBack/>}
+            <NavArrow onClick={()=>{learnWord(st.trg);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);goNext();}}/>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   // ═══ TEACH — Multi-kind card (word / letter / info / idiom) ═══
   const isNew = st.type==="teach" && !user.lw.has(st.nl);
   const teachKind = st.kind || "word"; // "word" | "letter" | "info" | "idiom" | "grammar" | "phrase"

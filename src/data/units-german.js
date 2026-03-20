@@ -8019,4 +8019,167 @@ export default [
     {type:"tip",title:"Was kommt als Nächstes?",text:"Beyond this course, you can:\n. Take the telc B2 or TestDaF exam with confidence\n. Read German newspapers and academic texts\n. Write essays, letters, and reports\n. Hold presentations and participate in discussions\n\nSeeds for the next level:\n. Nomen-Verb-Verbindungen (you just started these)\n. Extended attributes (erweiterte Partizipialattribute)\n. Academic vocabulary and scientific writing\n. Nuanced register switching across formal contexts\n\nDein Deutsch ist jetzt stark. Mach weiter so!",deepDive:"The jump from upper-intermediate to advanced is about precision and nuance. You know the grammar. Now it is about using it elegantly, recognizing subtle meaning differences, and expressing complex thoughts with the right register."}
   ]}
 ]},
+
+// ═══════════════════════════════════════════════════════════════════
+// PROTOTYPE V2 UNIT — New Format (trg/src, tagged words, funInfo, story)
+// This unit tests the dual renderer. Old units above use nl/en.
+// Track:"v2" keeps it separate from production content.
+// ═══════════════════════════════════════════════════════════════════
+{n:31,lang:"de",track:"v2",title:"Am Flughafen",sub:"At the Airport",icon:"✈️",level:"A1.1",color:"#7B5EE8",lessons:[
+
+// ═══ L1: Verumius Arrives ═══
+{id:"dev2u1l1",title:"Verumius kommt an",icon:"🛬",xp:15,board:true,steps:[
+  {type:"intro",title:"Am Flughafen",desc:"Verumius has just landed in Berlin. He needs to find his way around the airport. Let's learn the first words he encounters.",goals:["Learn basic airport vocabulary","Understand der/die/das articles","Follow Verumius through his first moments in Germany"]},
+
+  {type:"story",speaker:"narrator",trg:"Verumius steigt aus dem Flugzeug.",src:"Verumius steps off the plane.",tagged:[
+    {w:"Verumius",pos:"noun",fn:"subj",sub:["proper","nom"]},
+    {w:"steigt",pos:"verb",fn:"pred",sub:["pres","3sg","sep_verb"],lemma:"aussteigen"},
+    {w:"aus",pos:"prep",fn:"sep_prefix",sub:["sep_prefix"]},
+    {w:"dem",pos:"art",fn:"det",sub:["def","n","dat"]},
+    {w:"Flugzeug",pos:"noun",fn:"obj_dat",sub:["n","dat"],lemma:"Flugzeug"},
+  ],grammarTags:["sep_verb","prep_dat"],mood:"excited"},
+
+  {type:"teach",trg:"das Flugzeug",src:"the airplane",pos:"noun",gender:"n",phonetic:"floog-tsoyg",
+    example:"Das Flugzeug ist gelandet.",exampleSrc:"The airplane has landed.",
+    tagged:[
+      {w:"Das",pos:"art",fn:"det",sub:["def","n","nom"]},
+      {w:"Flugzeug",pos:"noun",fn:"subj",sub:["n","nom"],lemma:"Flugzeug"},
+      {w:"ist",pos:"aux",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"gelandet",pos:"verb",fn:"pred",sub:["pp"],lemma:"landen"},
+    ],
+    funInfo:"A compound noun: Flug (flight) + Zeug (stuff/thing). Germans love compound nouns. Zeug appears in Spielzeug (toy = play-stuff), Werkzeug (tool = work-stuff), and Feuerzeug (lighter = fire-stuff).",
+    grammarTags:["compound_noun","perfekt_sein"],
+  },
+
+  {type:"story",speaker:"Verumius",trg:"Entschuldigung, wo ist der Ausgang?",src:"Excuse me, where is the exit?",tagged:[
+    {w:"Entschuldigung",pos:"noun",fn:"interj",sub:["f","greeting"]},
+    {w:"wo",pos:"adv",fn:"interrog",sub:["loc"]},
+    {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+    {w:"der",pos:"art",fn:"det",sub:["def","m","nom"]},
+    {w:"Ausgang",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Ausgang"},
+  ],grammarTags:["w_question","nom_subj"],mood:"confused"},
+
+  {type:"teach",trg:"der Ausgang",src:"the exit",pos:"noun",gender:"m",phonetic:"ows-gang",
+    example:"Der Ausgang ist dort drüben.",exampleSrc:"The exit is over there.",
+    tagged:[
+      {w:"Der",pos:"art",fn:"det",sub:["def","m","nom"]},
+      {w:"Ausgang",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Ausgang"},
+      {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"dort",pos:"adv",fn:"loc"},
+      {w:"drüben",pos:"adv",fn:"loc"},
+    ],
+    funInfo:"Another compound: Aus (out) + Gang (walk/path). The opposite is der Eingang (entrance = in-walk). In medieval German, Gang meant a journey or corridor, which is why Flur (hallway) and Gang are sometimes interchangeable.",
+    grammarTags:["compound_noun","nom_subj"],
+  },
+
+  {type:"teach",trg:"der Koffer",src:"the suitcase",pos:"noun",gender:"m",phonetic:"koff-er",
+    example:"Mein Koffer ist schwer.",exampleSrc:"My suitcase is heavy.",
+    tagged:[
+      {w:"Mein",pos:"art",fn:"det",sub:["poss","m","nom"]},
+      {w:"Koffer",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Koffer"},
+      {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"schwer",pos:"adj",fn:"pred_adj"},
+    ],
+    funInfo:"From French 'coffre' (chest/trunk), which came from Latin 'cophinus' (basket). The same Latin root gave English 'coffer' and 'coffin'. Your suitcase and a treasure chest are etymological cousins.",
+    grammarTags:["nom_subj"],
+  },
+
+  {type:"story",speaker:"Verumius",trg:"Oh nein, wo ist mein Koffer?",src:"Oh no, where is my suitcase?",tagged:[
+    {w:"Oh",pos:"interj",fn:"interj"},
+    {w:"nein",pos:"adv",fn:"neg"},
+    {w:"wo",pos:"adv",fn:"interrog",sub:["loc"]},
+    {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+    {w:"mein",pos:"art",fn:"det",sub:["poss","m","nom"]},
+    {w:"Koffer",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Koffer"},
+  ],grammarTags:["w_question","nom_subj"],mood:"confused"},
+
+  {type:"teach",trg:"die Passkontrolle",src:"the passport control",pos:"noun",gender:"f",phonetic:"pass-kon-trol-leh",
+    example:"Die Passkontrolle ist vor dem Ausgang.",exampleSrc:"Passport control is before the exit.",
+    tagged:[
+      {w:"Die",pos:"art",fn:"det",sub:["def","f","nom"]},
+      {w:"Passkontrolle",pos:"noun",fn:"subj",sub:["f","nom"],lemma:"Passkontrolle"},
+      {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"vor",pos:"prep",fn:"loc",sub:["dat"]},
+      {w:"dem",pos:"art",fn:"det",sub:["def","m","dat"]},
+      {w:"Ausgang",pos:"noun",fn:"obj_dat",sub:["m","dat"],lemma:"Ausgang"},
+    ],
+    funInfo:"A triple compound: Pass (passport) + Kontrolle (control). The word Pass itself comes from Italian 'passaporto', literally 'pass the port'. Kontrolle entered German from French 'controle'. Three languages in one word.",
+    grammarTags:["compound_noun","prep_dat","nom_subj"],
+  },
+
+  {type:"tip",title:"Der, die, das: the German trinity",text:"Every German noun has a gender. There are no shortcuts, you must learn each one.\n. der = masculine (der Koffer, der Ausgang)\n. die = feminine (die Passkontrolle, die Tasche)\n. das = neuter (das Flugzeug, das Gepäck)\n\nCompound nouns always take the gender of the LAST word:\ndie Kontrolle + der Pass = die Passkontrolle (feminine, because Kontrolle is the last part)",deepDive:"Some patterns help: words ending in -ung, -keit, -heit are always die. Words ending in -chen, -lein are always das. Words ending in -er (for tools/agents) are usually der. But exceptions exist, so always learn the article WITH the noun."},
+
+  {type:"teach",trg:"das Gepäck",src:"the luggage",pos:"noun",gender:"n",phonetic:"geh-peck",
+    example:"Wo ist das Gepäck?",exampleSrc:"Where is the luggage?",
+    tagged:[
+      {w:"Wo",pos:"adv",fn:"interrog",sub:["loc"]},
+      {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"das",pos:"art",fn:"det",sub:["def","n","nom"]},
+      {w:"Gepäck",pos:"noun",fn:"subj",sub:["n","nom"],lemma:"Gepäck"},
+    ],
+    funInfo:"From 'packen' (to pack) with the collective prefix Ge-. The Ge- prefix in German often creates collective/abstract nouns: Gebirge (mountain range), Gebäude (building), Geschirr (dishes). It implies 'a collection of packed things'.",
+    grammarTags:["w_question","nom_subj"],
+  },
+
+  {type:"story",speaker:"Verumius",trg:"Da ist mein Koffer! Und jetzt zur Passkontrolle.",src:"There's my suitcase! And now to passport control.",tagged:[
+    {w:"Da",pos:"adv",fn:"loc"},
+    {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+    {w:"mein",pos:"art",fn:"det",sub:["poss","m","nom"]},
+    {w:"Koffer",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Koffer"},
+    {w:"Und",pos:"conj",fn:"coord"},
+    {w:"jetzt",pos:"adv",fn:"temp"},
+    {w:"zur",pos:"prep",fn:"dir",sub:["dat","contraction"]},
+    {w:"Passkontrolle",pos:"noun",fn:"obj_dat",sub:["f","dat"],lemma:"Passkontrolle"},
+  ],grammarTags:["nom_subj","prep_dat"],mood:"happy"},
+
+  {type:"teach",trg:"die Tasche",src:"the bag",pos:"noun",gender:"f",phonetic:"tah-sheh",
+    example:"Die Tasche ist klein.",exampleSrc:"The bag is small.",
+    tagged:[
+      {w:"Die",pos:"art",fn:"det",sub:["def","f","nom"]},
+      {w:"Tasche",pos:"noun",fn:"subj",sub:["f","nom"],lemma:"Tasche"},
+      {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+      {w:"klein",pos:"adj",fn:"pred_adj"},
+    ],
+    funInfo:"From Old High German 'tasca'. Related to English 'task' (originally a leather purse used to carry things). The diminutive 'Täschchen' means a small purse or clutch.",
+    grammarTags:["nom_subj"],
+  },
+
+  {type:"teach",trg:"der Reisepass",src:"the passport",pos:"noun",gender:"m",phonetic:"ry-zeh-pass",
+    example:"Haben Sie Ihren Reisepass?",exampleSrc:"Do you have your passport?",
+    tagged:[
+      {w:"Haben",pos:"verb",fn:"pred",sub:["pres","3sg_formal"],lemma:"haben"},
+      {w:"Sie",pos:"pron",fn:"subj",sub:["3sg_formal","nom"]},
+      {w:"Ihren",pos:"art",fn:"det",sub:["poss","m","acc"]},
+      {w:"Reisepass",pos:"noun",fn:"obj_acc",sub:["m","acc"],lemma:"Reisepass"},
+    ],
+    funInfo:"Reise (journey) + Pass (passport). The word Reise comes from Old High German 'risa' meaning 'to rise, to set out'. Every journey begins with rising up. Pass comes from Italian 'passaporto': pass through the port.",
+    grammarTags:["acc_obj","yes_no_question","polite_request"],
+  },
+
+  {type:"mc",q:"What gender is 'Flugzeug'?",opts:["der (masculine)","die (feminine)","das (neuter)"],ans:"das (neuter)",hint:"Think of the article you learned: ___ Flugzeug. Compound nouns take the gender of the last element (Zeug)."},
+
+  {type:"mc",q:"'Der Ausgang' means:",opts:["the exit","the entrance","the suitcase","the passport"],ans:"the exit",hint:"Aus means 'out' and Gang means 'walk/path'. Together they form the way out."},
+
+  {type:"fb",s:"Wo ist {1} Gepäck?",a:"das",opts:["der","die","das","ein"],hint:"Gepäck is neuter. Which article matches neuter nominative?"},
+
+  {type:"fb",s:"{1} Koffer ist schwer.",a:"Der",opts:["Der","Die","Das","Ein"],hint:"Koffer is masculine. Which definite article is masculine nominative?"},
+
+  {type:"match",pairs:[{nl:"das Flugzeug",en:"the airplane"},{nl:"der Ausgang",en:"the exit"},{nl:"der Koffer",en:"the suitcase"},{nl:"die Passkontrolle",en:"passport control"},{nl:"das Gepäck",en:"the luggage"},{nl:"die Tasche",en:"the bag"}]},
+
+  {type:"fb",s:"Die Passkontrolle ist vor {1} Ausgang.",a:"dem",opts:["dem","den","der","das"],hint:"'Vor' with location (no movement) takes dative case. Ausgang is masculine. What is the dative masculine article?"},
+
+  {type:"mc",q:"Compound nouns in German take the gender of:",opts:["the first word","the last word","always neuter","always masculine"],ans:"the last word",hint:"die Kontrolle + der Pass = die Passkontrolle. Which part decides the article?"},
+
+  {type:"story",speaker:"Verumius",trg:"Guten Tag! Hier ist mein Reisepass.",src:"Good day! Here is my passport.",tagged:[
+    {w:"Guten",pos:"adj",fn:"attr",sub:["m","acc","greeting"]},
+    {w:"Tag",pos:"noun",fn:"obj_acc",sub:["m","acc"],lemma:"Tag"},
+    {w:"Hier",pos:"adv",fn:"loc"},
+    {w:"ist",pos:"verb",fn:"pred",sub:["pres","3sg"],lemma:"sein"},
+    {w:"mein",pos:"art",fn:"det",sub:["poss","m","nom"]},
+    {w:"Reisepass",pos:"noun",fn:"subj",sub:["m","nom"],lemma:"Reisepass"},
+  ],grammarTags:["greeting_formula","nom_subj"],mood:"proud"},
+
+  {type:"tip",title:"Episode Complete: Verumius has arrived!",text:"In this episode, Verumius made it through the airport. He found his Koffer, passed die Passkontrolle, and is ready to explore Berlin.\n\nWords learned: das Flugzeug, der Ausgang, der Koffer, die Passkontrolle, das Gepäck, die Tasche, der Reisepass\n\nComing up: Verumius takes a taxi to his hotel and learns to ask for directions in German."},
+]},
+]},
 ];
