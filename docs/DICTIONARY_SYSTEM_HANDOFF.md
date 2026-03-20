@@ -1,7 +1,7 @@
-# Korean Deep Dictionary System: Handoff (D117)
+# Korean Deep Dictionary System: Handoff (D117+)
 
 > **Session date**: 2026-03-20 (updated end of session 2)
-> **Status**: Phase 1-3 COMPLETE. Grammar tab overhauled. Visual polish done. Phases 4-7 pending.
+> **Status**: Phase 1-3 COMPLETE. Grammar tab overhauled. Visual polish done. TOPIK enrichment COMPLETE. Phases 4-7 pending.
 > **Next session priority**: Korean WORD_DB enrichment from official TOPIK word lists.
 
 ---
@@ -26,6 +26,7 @@
    - `toStr()`: Safe object-to-string converter for build-time data normalization
    - `GRAMMAR_PACKS`, `resolvePackColor()`, `pillGradient()`: Grammar visualization system
    - `isNewWord()`: Determines if a word is first introduced at a given lesson
+   - **NEW**: TOPIK level enrichment post-processor (imports TOPIK_VOCAB_KO, tags matching entries with `topikLevel`, `topikPos`, `hanja`, `frequencyRank`)
 
 2. **`src/data/korean-conjugation.js`** (~300 lines) - Full conjugation engine
    - `conjugateVerb(dictForm, irregType)`: Returns all conjugated forms for any verb/adjective
@@ -38,14 +39,21 @@
    - `getIrregInfo()`: Human-readable irregular type descriptions
 
 3. **`src/data/wordlists/function-words-ko.js`** (~560 lines) - 531 Korean function words
-   - Every entry has: `word`, `lemma`, `pos`, `tags[]`, optional `gender`
-   - Particles (topic/subject/object/locative/connective), counters, conjunctions, pronouns, demonstratives, question words, numbers
+
+4. **`src/data/wordlists/topik-vocab-ko.js`** (~3,044 lines) - **TOPIK Official Reference**
+   - 3,031 words from NIKL + TOPIK combined vocabulary list
+   - TOPIK A (A1-A2): 967 words, TOPIK B (B1-B2): 2,064 words
+   - Fields: word (hangul), pos (our POS system), topik ("A"/"B"), hanja, rank (NIKL frequency)
+   - Source: NIKL (국립국어원) via github.com/julienshim/combined_korean_vocabulary_list
 
 ### Changes to Existing Files (Session 1 + Session 2)
 - **`src/lingoverse.jsx`**:
   - Vocab list filter: shows only true lemmas (882 unique Korean words, down from 1,055)
   - Korean hangul-only filter: removes garbage entries (arrows, English letters, grammar notation)
   - Browse tab: Korean groups by 14 initial consonants (ㄱ-ㅎ) instead of hundreds of syllable pills
+  - Word count badges on Browse consonant/letter pills
+  - TOPIK level badge ("TOPIK I" / "TOPIK II") in WordPopup badge row
+  - Frequency rank badge (#N) for words ranked < 3000 in NIKL corpus
   - 5-tab deep word entry popup (WordPopup component, ~600 lines):
     - **Overview**: word, translation, TTS, phonetic, POS/level badges, etymology, particles, common usage in glossBubble
     - **Forms**: Full conjugation table (verbs) with candy gloss grid items, or particle combinations (nouns) with gloss treatment
@@ -83,31 +91,49 @@
 
 ---
 
+## TOPIK Coverage Report
+
+Full report: `docs/TOPIK_COVERAGE_REPORT.md`
+
+### Summary
+
+| Level | TOPIK Words | Taught | Partial | Missing | Coverage |
+|-------|------------|--------|---------|---------|----------|
+| A (A1-A2) | 893 | 500 | 77 | 316 | 56% |
+| B (B1-B2) | 1,995 | 332 | 91 | 1,572 | 17% |
+| **Total** | **2,888** | **832** | **168** | **1,888** | **29%** |
+
+- **Taught**: Has dedicated teach card or matched via conjugation/stem/하다-compound
+- **Partial**: Appears in a phrase or example but no standalone teach card
+- **Missing**: Not found anywhere in curriculum nl: fields
+
+### Key Findings
+1. **TOPIK A (A1-A2)**: 56% coverage. 316 missing words, mostly nouns (187), verbs (59), adjectives (27). Common gaps: everyday nouns (가게, 가족, 공원, 교과서), basic verbs (가져오다, 걸어가다, 공부하다), descriptive adjectives (따뜻하다, 미안하다, 유명하다).
+2. **TOPIK B (B1-B2)**: 17% coverage. 1,572 missing words. Massive noun gap (912), verb gap (394), adverb gap (105). Many high-frequency words missing (위하다 #33, 따르다 #51, 경우 #65).
+3. **Many "missing" words actually appear in our curriculum** as parts of compound words, in example sentences, or in notes/deepDives. They lack standalone teach cards (which P55 requires).
+4. **English translations are NOT in the TOPIK reference file** (NIKL source has Korean-only definitions). Our curriculum provides English for the 832 taught words. Missing words need English translations added during curriculum restructure.
+
+### What This Means for the Curriculum Restructure
+- The 1,888 missing TOPIK words become the BUILD LIST for new teach cards
+- Priority: TOPIK A gaps first (316 words = high-frequency, foundational vocabulary)
+- Many missing words can be added to existing units in appropriate domains
+- The curriculum restructure (rehaul step 10) MUST include these words
+
+---
+
 ## What Still Needs Work
 
-### 1. Korean WORD_DB Enrichment from Official TOPIK Lists (NEXT PRIORITY)
-The 882 Korean words in WORD_DB come from teach cards + function words. We don't know how this compares to official TOPIK requirements. P55 mandates certification-grade vocabulary completeness.
-
-**What To Do:**
-1. Find official TOPIK vocabulary lists by level (web search for freely available lists)
-2. Load into `src/data/wordlists/topik-vocab-ko.js` with word, level, POS, English translation
-3. Compare against current WORD_DB: automated script showing coverage vs gaps
-4. For words we already teach: update WORD_DB entries with official TOPIK level tags
-5. For missing words: build list for new teach cards in curriculum restructure
-
-**Expected Outcome:** "Korean has 882 unique lemmas. TOPIK requires X. We're at Y% coverage. These Z domains have gaps."
-
-### 2. Grammar Reference Quality Improvements
+### 1. Grammar Reference Quality Improvements
 - **Category accuracy**: Some items may be miscategorized by the regex-based `categorizeGrammar()`. Manual review and override system would help.
 - **Politeness detection**: Auto-detection is keyword-based. Some items may have wrong register tags.
 - **Deduplication**: Some grammar concepts appear as both a tip card AND a grammar teach card. Could merge these into single richer entries.
 - **Cross-referencing**: Grammar items could link to related vocabulary in WORD_DB (e.g., particle grammar links to all particles).
 - **Example sentences**: Not all grammar items have example sentences. Could pull from KOREAN_EXAMPLE_INDEX.
 
-### 3. White Screen Crash on Word Click
+### 2. White Screen Crash on Word Click
 **Status**: Reported by owner on production site. NOT reproducible in dev preview. LessonErrorBoundary was added in prior session. Likely cause: edge case with a specific word entry missing expected fields. Need console error message from browser (F12 > click word > read red error text).
 
-### 4. Multi-Language Dictionary Expansion
+### 3. Multi-Language Dictionary Expansion
 Currently Korean-only. The architecture is designed to be pluggable:
 - **Dutch**: Need `dutch-conjugation.js` (verb conjugation + de/het article system), `function-words-nl.js`
 - **German**: `german-conjugation.js` already exists (from prior session). Need `function-words-de.js`, case system integration
@@ -122,10 +148,7 @@ Each language needs:
 5. Example index (curriculum sentences containing each word)
 6. Grammar reference (tips + verb_tables + patterns from that language's units)
 
-### 5. Vocab Page Word Count Badges
-Browse tab consonant/letter pills could show word count badges.
-
-### 6. Same Process for Other Languages' WORD_DB
+### 4. Same TOPIK-style Enrichment for Other Languages
 After Korean pilot, replicate for:
 - Dutch: NT2 Basiswoordenlijst (~4,000 words)
 - German: Goethe-Institut Wortliste (A1-B2)
@@ -134,7 +157,7 @@ After Korean pilot, replicate for:
 
 ---
 
-## Architecture Notes for Next Session
+## Architecture Notes
 
 ### Key Import Path
 ```
@@ -148,28 +171,29 @@ lingoverse.jsx
 dictionary.js
   └── imports from korean-conjugation.js: conjugateVerb, detectIrregType, etc.
   └── imports from wordlists/function-words-ko.js: FUNCTION_WORDS_KO
+  └── imports from wordlists/topik-vocab-ko.js: TOPIK_VOCAB_KO
   └── imports ALL unit files: units-korean.js, units-dutch.js, etc.
   └── imports from metadata.js: LANG_META
 ```
 
-### WORD_DB Entry Shape
+### WORD_DB Entry Shape (updated)
 ```javascript
 {
   word: "가다",           // surface form
-  display: "가다",        // what's shown (may include article prefix for gendered languages)
+  display: "가다",        // what's shown
   en: "to go",           // English translation
   pos: "verb",           // POS tag
   gender: null,          // for gendered languages
-  level: "A1",           // CEFR level
+  level: "A1",           // CEFR level from curriculum
   tags: ["verb"],        // category tags
   taught: true,          // has dedicated teach card
   isLemma: true,         // appears in vocab list
   lemma: "가다",          // base form
-  // From KOREAN_DICT (if available):
-  morph: "Native Korean",
-  uses: [{k:"...", e:"..."}],
-  note: "...",
-  particle: "에 가다"
+  // TOPIK enrichment fields
+  topikLevel: "A",       // "A" (A1-A2) or "B" (B1-B2)
+  topikPos: "verb",      // POS from official TOPIK list
+  hanja: null,           // Chinese characters (if Sino-Korean)
+  frequencyRank: 25,     // NIKL corpus frequency rank
 }
 ```
 
@@ -209,6 +233,7 @@ dictionary.js
 ## Files to Read First in Next Session
 1. `CLAUDE.md` (always first)
 2. This file (`docs/DICTIONARY_SYSTEM_HANDOFF.md`)
-3. `src/data/dictionary.js` (understand WORD_DB builder + grammar reference builder)
-4. `src/data/korean-conjugation.js` (conjugation engine with 21 templates)
-5. `src/lingoverse.jsx` lines 7832-9000 (VocabularyPage + WordPopup + Grammar tab)
+3. `docs/TOPIK_COVERAGE_REPORT.md` (full gap analysis)
+4. `src/data/dictionary.js` (understand WORD_DB builder + grammar reference builder + TOPIK enrichment)
+5. `src/data/korean-conjugation.js` (conjugation engine with 21 templates)
+6. `src/lingoverse.jsx` lines 7832-9000 (VocabularyPage + WordPopup + Grammar tab)

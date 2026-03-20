@@ -8001,6 +8001,16 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     return [...set].sort((a,b)=>a.localeCompare(b));
   },[allWords,lang]);
 
+  const browseLetterCounts=useMemo(()=>{
+    const counts={};
+    allWords.forEach(e=>{
+      const c=(e.word||"")[0];if(!c)return;
+      const key=lang==="ko"?(getBaseCho(c)||""):c.toUpperCase();
+      if(key)counts[key]=(counts[key]||0)+1;
+    });
+    return counts;
+  },[allWords,lang]);
+
   const browseTwoLetters=useMemo(()=>{
     if(browsePath.length!==1)return [];
     if(lang==="ko"){
@@ -8204,10 +8214,12 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           {/* Badge row */}
           <div style={{display:"flex",flexWrap:"wrap",gap:5,alignItems:"center",marginBottom:10}}>
             {entry.level&&badgePill("#7B5EE8",(entry.level||"A1").substring(0,2))}
+            {entry.topikLevel&&badgePill("#2ECDA7","TOPIK "+(entry.topikLevel==="A"?"I":"II"))}
             {entry.pos&&badgePill(wColor||"#7B5EE8",posLabel(entry.pos))}
             {artEntry&&badgePill(wColor||"#7B5EE8",artEntry)}
             {entry.gender&&badgePill(wColor||"#6040C0",genderLabels[entry.gender]||entry.gender)}
             {isKorean&&isVerb&&irregInfo&&irregInfo.id!=="regular"&&badgePill("#FF6D00",irregInfo.label)}
+            {entry.frequencyRank&&entry.frequencyRank<3000&&badgePill("#F59E0B","#"+entry.frequencyRank)}
           </div>
 
           {/* Tab bar */}
@@ -8752,7 +8764,10 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                 position:"relative",overflow:"hidden",transition:"all .25s",
               }}>
               <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"44%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.12) 55%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
-              <span style={{position:"relative",zIndex:1}}>{l}</span>
+              <span style={{position:"relative",zIndex:1,display:"flex",flexDirection:"column",alignItems:"center",gap:1}}>
+                <span>{l}</span>
+                {browseLetterCounts[l]&&<span style={{fontSize:8,fontWeight:700,opacity:0.7,lineHeight:1}}>{browseLetterCounts[l]}</span>}
+              </span>
             </button>)}
           </div>
         </div>}

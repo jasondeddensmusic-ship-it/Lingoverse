@@ -20,6 +20,7 @@ import { FUNCTION_WORDS_FR } from './wordlists/function-words-fr.js';
 import { FUNCTION_WORDS_NL } from './wordlists/function-words-nl.js';
 import { FUNCTION_WORDS_ES } from './wordlists/function-words-es.js';
 import { FUNCTION_WORDS_KO } from './wordlists/function-words-ko.js';
+import { TOPIK_VOCAB_KO } from './wordlists/topik-vocab-ko.js';
 
 // Korean conjugation engine (Phase 1 of deep dictionary)
 import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './korean-conjugation.js';
@@ -488,6 +489,25 @@ function buildWordDB() {
     // Post-process: set isLemma flag on every entry
     for (const [key, entry] of Object.entries(db[lang])) {
       entry.isLemma = computeIsLemma(entry, lang);
+    }
+
+    // ── Post-process: TOPIK level enrichment (Korean only) ──
+    if (lang === "ko" && TOPIK_VOCAB_KO) {
+      // Build lookup from TOPIK word list
+      const topikLookup = {};
+      for (const t of TOPIK_VOCAB_KO) {
+        if (!topikLookup[t.word]) topikLookup[t.word] = t;
+      }
+      // Tag WORD_DB entries with official TOPIK level
+      for (const [key, entry] of Object.entries(db[lang])) {
+        const topik = topikLookup[entry.word] || topikLookup[key];
+        if (topik) {
+          entry.topikLevel = topik.topik; // "A" or "B"
+          entry.topikPos = topik.pos;
+          if (topik.hanja && !entry.hanja) entry.hanja = topik.hanja;
+          if (topik.rank) entry.frequencyRank = topik.rank;
+        }
+      }
     }
   }
 
