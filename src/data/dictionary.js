@@ -195,8 +195,159 @@ function resolveArticlePos(entry) {
   return "article";
 }
 
+// ── Pluggable Language-Specific POS Taggers ──
+// Each tagger receives the language's db object and refines POS/display/isLemma.
+// Add new languages by adding posTaggers.xx = function(db){...}
+
+const posTaggers = {};
+
+// Korean POS auto-tagger
+posTaggers.ko = function(db) {
+  for (const [key, entry] of Object.entries(db)) {
+    // Skip function words (already have accurate POS from curated list)
+    if (entry.tags && entry.tags.length > 0) {
+      // But DO add ~ prefix display for particles
+      if (entry.pos && entry.pos.startsWith("particle_")) {
+        entry.display = "~" + entry.word;
+      }
+      continue;
+    }
+
+    const word = entry.word || key;
+    const en = (entry.en || "").toLowerCase();
+    const kind = (entry.kind || "").toLowerCase();
+
+    // 1. Words ending in 다: Korean verbs (동사) AND adjectives (형용사)
+    // Both conjugate the same way, but 형용사 are descriptive verbs ("to be good/big/pretty").
+    // POS: "adjective" for 형용사, "verb" for 동사. Both get conjugation tables.
+    // Detection: kind field > "to be [adj]" pattern > "to [action]" pattern > bare English adj
+    if (word.endsWith("다")) {
+      // Explicit kind from teach card takes priority
+      if (kind === "adjective" || kind === "adj") {
+        entry.pos = "adjective";
+        continue;
+      }
+      if (kind === "verb") {
+        entry.pos = "verb";
+        continue;
+      }
+
+      // "to be [adjective]" pattern → Korean 형용사 (descriptive verb)
+      // Matches: "to be good", "to be expensive", "to be big (dictionary form)", etc.
+      if (/^to be\s+\w/.test(en)) {
+        entry.pos = "adjective";
+        continue;
+      }
+
+      // "to [action]" pattern → Korean 동사 (action verb)
+      if (en.startsWith("to ")) {
+        entry.pos = "verb";
+        continue;
+      }
+
+      // Bare English adjective (no article, no "to") → likely 형용사
+      // e.g., "good", "expensive", "pretty", "big", "cold"
+      if (en.length > 0 && en.length < 40 &&
+          !en.startsWith("a ") && !en.startsWith("the ") &&
+          !/[,;()]/.test(en) &&
+          !/^(the|a|an|this|that)\s/.test(en)) {
+        // If it looks like a single adjective or "adjective (note)" pattern, tag as adjective
+        const cleanEn = en.replace(/\s*\(.*\)\s*$/, "").trim();
+        if (cleanEn && !cleanEn.includes(" ")) {
+          entry.pos = "adjective";
+          continue;
+        }
+      }
+    }
+
+    // 2. Counters: kind is "counter" or en mentions "counter"
+    if (kind === "counter" || en.includes("counter for") || en.includes("counting unit")) {
+      entry.pos = "counter";
+      continue;
+    }
+
+    // 3. Numbers
+    if (kind === "number" || kind === "num") {
+      entry.pos = "number";
+      continue;
+    }
+
+    // 4. Interjections
+    if (kind === "interjection" || kind === "interj") {
+      entry.pos = "interjection";
+      continue;
+    }
+
+    // 5. Adverbs
+    if (kind === "adverb" || kind === "adv") {
+      entry.pos = "adverb";
+      continue;
+    }
+
+    // 6. Pronouns
+    if (kind === "pronoun") {
+      entry.pos = "pronoun";
+      continue;
+    }
+
+    // 7. Question words
+    if (kind === "question") {
+      entry.pos = "question";
+      continue;
+    }
+
+    // 8. Negation
+    if (kind === "negation") {
+      entry.pos = "negation";
+      continue;
+    }
+
+    // 9. Particles from teach cards (kind:"particle")
+    if (kind === "particle") {
+      entry.pos = "particle_other";
+      entry.display = "~" + word;
+      continue;
+    }
+  }
+
+  // Second pass: ensure ALL particle entries have ~ prefix display
+  for (const [key, entry] of Object.entries(db)) {
+    if (entry.pos && entry.pos.startsWith("particle_") && !entry.display.startsWith("~")) {
+      entry.display = "~" + entry.word;
+    }
+  }
+};
+
+// German POS tagger (placeholder — uses kind/article detection which already works)
+posTaggers.de = function(db) {
+  // German relies on article detection (Source 1 + stripArticle) which is already solid
+  // Future: add case detection, compound noun splitting
+};
+
+// Dutch POS tagger (placeholder)
+posTaggers.nl = function(db) {};
+
+// French POS tagger (placeholder)
+posTaggers.fr = function(db) {};
+
+// Spanish POS tagger (placeholder)
+posTaggers.es = function(db) {};
+
+// ── isLemma computation ──
+// Determines if an entry is a base/dictionary form (lemma) vs. a derived/conjugated form.
+// Lemmas are what show up in the searchable dictionary.
+function computeIsLemma(entry, lang) {
+  // Function words with particle POS: always lemmas (they're curated)
+  if (entry.tags && entry.tags.length > 0) return true;
+  // Taught words (from teach cards) are always lemmas
+  if (entry.taught) return true;
+  // Everything else is not a lemma
+  return false;
+}
+
 // ── WORD_DB Builder ──
-// Merges 3 sources in priority order: function words > teach cards > example extraction
+// Merges 2 sources in priority order: function words > teach cards
+// Source 3 (quiz/example extraction) was REMOVED — it produced noise.
 
 function buildWordDB() {
   const db = {}; // db[lang][word] = entry
@@ -311,77 +462,23 @@ function buildWordDB() {
       }
     }
 
-    // ── Source 3: Example/quiz word extraction ──
-    // Extract words from example, q, s, opts fields that aren't already in DB
-    for (const unit of unitsByLang) {
-      const level = unit.level || "A1";
-      for (const lesson of (unit.lessons || [])) {
-        for (const step of (lesson.steps || [])) {
-          const texts = [];
-          if (step.example) texts.push(step.example);
-          if (step.q) texts.push(step.q);
-          if (step.s) texts.push(step.s);
-          if (step.opts) {
-            for (const opt of step.opts) {
-              if (typeof opt === "string") texts.push(opt);
-            }
-          }
-          if (step.pairs) {
-            for (const p of step.pairs) {
-              if (p.nl) texts.push(p.nl);
-            }
-          }
+    // Source 3 REMOVED (D116+): Quiz/example extraction produced 9,500+ noise entries.
+    // WORD_DB now contains ONLY function words (Source 1) and teach card lemmas (Source 2).
 
-          for (const text of texts) {
-            // Simple whitespace tokenization, strip punctuation
-            const words = text.replace(/[A-Z]:\s/g, " ") // Strip A:/B: dialogue markers
-              .split(/[\s,;:!?.'"()[\]{}«»…\-—–/\\]+/)
-              .filter(w => w.length > 0);
-
-            for (const w of words) {
-              const key = w.toLowerCase();
-              // Skip if already in DB or is a number or pure punctuation
-              if (db[lang][key]) continue;
-              if (/^\d+$/.test(key)) continue;
-              if (key.length < 1) continue;
-              // Skip English words in example text (heuristic: skip if all ASCII for non-Latin languages)
-              if (lang === "ko" && /^[a-z]+$/i.test(key)) continue;
-
-              db[lang][key] = {
-                word: w,
-                lemma: w,
-                en: "",
-                lemmaEn: "",
-                pos: "unknown",
-                gender: null,
-                article: null,
-                level: level,
-                taught: false,
-                lessonId: null,
-                tags: [],
-                phonetic: null,
-                note: null,
-                example: null,
-                exampleEn: null,
-                cognate: null,
-                display: w,
-                kind: "unknown",
-                also: null,
-                morph: null,
-                particle: null,
-                uses: null,
-              };
-            }
-          }
-        }
-      }
-    }
+    // ── Post-process: language-specific POS tagger ──
+    const tagger = posTaggers[lang];
+    if (tagger) tagger(db[lang]);
 
     // Post-process: resolve article subcategories for coloring
     for (const [key, entry] of Object.entries(db[lang])) {
       if (entry.pos === "article") {
         entry.pos = resolveArticlePos(entry);
       }
+    }
+
+    // Post-process: set isLemma flag on every entry
+    for (const [key, entry] of Object.entries(db[lang])) {
+      entry.isLemma = computeIsLemma(entry, lang);
     }
   }
 

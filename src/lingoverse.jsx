@@ -7838,10 +7838,11 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const db=WORD_DB[lang];
     if(!db||Object.keys(db).length===0) return [];
     return Object.values(db).filter(e=>{
+      if(!e.isLemma)return false; // only lemmas (teach-card words + curated function words)
       if(e.pos==="unknown")return false;
       const w=(e.word||"").trim();
-      if(w.includes(" "))return false; // no phrases
-      if(w.includes("("))return false; // no meta-entries like "der (blau)"
+      if(w.includes(" "))return false;
+      if(w.includes("("))return false;
       if(w.startsWith("-"))return false; // grammar suffixes belong in Grammar tab
       return true;
     }).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
