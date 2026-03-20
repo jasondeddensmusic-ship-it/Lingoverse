@@ -12133,64 +12133,51 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         });
         return <div style={{
           marginTop:8,marginBottom:4,
-          padding:isMobile?"22px 18px 30px":"18px 20px",
-          borderRadius:isMobile?"24px 24px 0 0":20,
-          background:dk
-            ?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)"
-            :"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",
-          border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",
-          boxShadow:dk
-            ?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)"
-            :"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",
+          padding:isMobile?"22px 18px 30px":"12px 14px",
+          borderRadius:isMobile?"24px 24px 0 0":16,
+          background:"transparent",
           position:isMobile?"fixed":"relative",
           bottom:isMobile?0:undefined,left:isMobile?0:undefined,right:isMobile?0:undefined,
           zIndex:isMobile?9999:undefined,
-          maxHeight:isMobile?"75vh":"auto",overflowY:"auto",overflow:"hidden",
+          maxHeight:isMobile?"75vh":"auto",overflowY:"auto",overflowX:"hidden",
           WebkitOverflowScrolling:"touch",
+          ...(isMobile?{background:dk?"rgba(30,25,50,0.97)":"rgba(245,242,255,0.97)",border:dk?"1px solid rgba(123,94,232,0.3)":"1px solid rgba(180,165,240,0.4)",boxShadow:"0 -4px 24px rgba(0,0,0,0.15)"}:{}),
         }}>
-          {/* Candy gloss arc — exact .sf-panel::before pattern */}
-          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",
-            background:dk
-              ?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
-              :"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",
-            pointerEvents:"none",borderRadius:"0 0 50% 50%",zIndex:1,
-          }}/>
-          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.5)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
-          <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.7)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
-            {langPacks.label} Grammar Colors
-          </div>
-          {/* Tab strip — .btn-purple candy pills */}
-          <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
+          {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.5)",margin:"0 auto 16px"}}/>}
+          {/* Tab strip — compound bubble tabs */}
+          <div style={{display:"flex",gap:6,overflowX:"auto",paddingBottom:10,WebkitOverflowScrolling:"touch"}}>
             {langPacks.packs.map(pack=>{
               const isActive=pack.id===activePackId;
               const isP=!!pack.placeholder;
               return <button key={pack.id} onClick={()=>{if(!isP){selectPack(pack.id);setExpandedLegend(null);setGrammarEditMode(false);}}} disabled={isP} style={{
-                display:"inline-flex",alignItems:"center",gap:7,padding:"9px 18px",borderRadius:16,
+                display:"inline-flex",alignItems:"center",gap:6,padding:"8px 14px",borderRadius:18,
                 fontSize:12,fontWeight:800,cursor:isP?"default":"pointer",
-                transition:"all .2s",fontFamily:"inherit",border:"none",
+                transition:"all .25s cubic-bezier(.4,0,.2,1)",fontFamily:"inherit",
                 opacity:isP?0.3:1,letterSpacing:0.3,position:"relative",overflow:"hidden",
                 background:isActive
                   ?(dk
-                    ?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)"
-                    :"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)")
+                    ?"linear-gradient(180deg, rgba(123,94,232,0.35) 0%, rgba(100,80,200,0.22) 50%, rgba(80,60,180,0.12) 100%)"
+                    :"linear-gradient(180deg, rgba(200,190,255,0.65) 0%, rgba(220,210,255,0.5) 50%, rgba(235,230,255,0.35) 100%)")
                   :(dk
-                    ?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)"
-                    :"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)"),
-                color:isActive?"white":(dk?"rgba(200,184,255,0.9)":"#7050D8"),
-                textShadow:isActive?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                    ?"linear-gradient(180deg, rgba(123,94,232,0.15) 0%, rgba(100,80,200,0.08) 40%, rgba(80,60,180,0.04) 100%)"
+                    :"linear-gradient(180deg, rgba(200,190,255,0.3) 0%, rgba(220,210,255,0.18) 50%, rgba(235,230,255,0.1) 100%)"),
+                color:isActive?(dk?"#D4C8FF":"#6B4ED8"):(dk?"rgba(200,184,255,0.5)":"rgba(140,130,170,0.6)"),
+                border:isActive
+                  ?(dk?"1.5px solid rgba(123,94,232,0.4)":"1.5px solid rgba(180,165,240,0.5)")
+                  :(dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(180,165,240,0.25)"),
                 boxShadow:isActive
                   ?(dk
-                    ?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)"
-                    :"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)")
+                    ?"0 4px 16px rgba(123,94,232,0.25), 0 0 10px rgba(123,94,232,0.15), inset 0 1px 0 rgba(255,255,255,0.1), inset 0 -2px 0 rgba(0,0,0,0.1)"
+                    :"0 4px 16px rgba(123,94,232,0.12), 0 0 8px rgba(180,165,240,0.15), inset 0 2px 0 rgba(255,255,255,0.7), inset 0 -2px 0 rgba(123,94,232,0.05)")
                   :(dk
-                    ?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)"
-                    :"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)"),
+                    ?"0 2px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.05)"
+                    :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.6)"),
               }}>
-                {/* Shine overlay — .btn::after pattern */}
-                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
-                  background:isActive
-                    ?"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 100%)"
-                    :"linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%)",
+                {/* Gloss arc */}
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",
+                  background:dk
+                    ?"linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
+                    :"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
                   borderRadius:"0 0 50% 50%",pointerEvents:"none",
                 }}/>
                 <span style={{fontSize:14,fontWeight:900,lineHeight:1,position:"relative",zIndex:1}}>{pack.icon}</span>
@@ -12199,64 +12186,80 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               </button>;
             })}
           </div>
-          {/* Active pack legend — colored candy pills */}
-          {activePack&&<div style={{position:"relative",zIndex:2}}>
-            <div style={{fontSize:11,fontWeight:700,color:dk?"rgba(255,255,255,0.5)":"rgba(80,60,140,0.5)",marginBottom:10,lineHeight:1.4}}>{activePack.desc}</div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:8}}>
+          {/* Active pack legend — compact toggle pills in flex-wrap */}
+          {activePack&&<div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:6}}>
               {activePack.legend.map(item=>{
                 const isOff = item.key && langDisabled.includes(item.key);
-                const restSh=`0 4px 12px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)`;
-                const glowSh=`0 0 28px ${item.color}88, 0 0 48px ${item.color}33, 0 8px 20px ${item.color}66, inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)`;
+                const isExpanded = expandedLegend===item.label && !grammarEditMode;
+                const labelColor = isOff ? (dk?"rgba(255,255,255,0.35)":"var(--gray-400)") : item.color;
                 return <button key={item.label} onClick={()=>{
-                  if(grammarEditMode && item.key){toggleCatDisabled(item.key);}
-                  else{setExpandedLegend(expandedLegend===item.label?null:item.label);}
-                }}
-                onMouseEnter={e=>{if(!isOff){e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow=glowSh;}}}
-                onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=restSh;}}
-                style={{
-                  display:"inline-flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:14,
-                  fontSize:11,fontWeight:800,cursor:"pointer",border:"none",fontFamily:"inherit",
-                  position:"relative",overflow:"hidden",transition:"all .2s",letterSpacing:0.3,
-                  background:pillGradient(item.color),
-                  color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.25)",
-                  opacity:isOff?0.3:1,
-                  boxShadow:restSh,
-                }}>
-                  {/* Pill shine overlay */}
-                  <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",
-                    background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",
-                    borderRadius:"0 0 50% 50%",pointerEvents:"none",
-                  }}/>
-                  <span style={{position:"relative",zIndex:1}}>{item.label}</span>
-                  {grammarEditMode&&<span style={{position:"relative",zIndex:1,width:14,height:14,borderRadius:7,marginLeft:2,
-                    border:"2px solid rgba(255,255,255,0.7)",display:"flex",alignItems:"center",justifyContent:"center",
-                    background:isOff?"transparent":"rgba(255,255,255,0.3)",fontSize:9,lineHeight:1,
-                  }}>{isOff?"":"✓"}</span>}
-                </button>;
+                    if(grammarEditMode && item.key){toggleCatDisabled(item.key);}
+                    else{setExpandedLegend(expandedLegend===item.label?null:item.label);}
+                  }}
+                  style={{
+                    display:"inline-flex",alignItems:"center",gap:6,padding:"9px 16px",borderRadius:22,
+                    fontSize:12,fontWeight:700,cursor:"pointer",fontFamily:"inherit",
+                    position:"relative",overflow:"hidden",transition:"all .25s cubic-bezier(.4,0,.2,1)",
+                    background:isExpanded
+                      ?(dk
+                        ?"linear-gradient(180deg, rgba(123,94,232,0.32) 0%, rgba(100,80,200,0.2) 40%, rgba(80,60,180,0.12) 100%)"
+                        :"linear-gradient(180deg, rgba(200,190,255,0.6) 0%, rgba(220,210,255,0.45) 50%, rgba(235,230,255,0.3) 100%)")
+                      :(dk
+                        ?"linear-gradient(180deg, rgba(123,94,232,0.18) 0%, rgba(100,80,200,0.1) 40%, rgba(80,60,180,0.05) 100%)"
+                        :"linear-gradient(180deg, rgba(200,190,255,0.4) 0%, rgba(220,210,255,0.25) 50%, rgba(235,230,255,0.15) 100%)"),
+                    border:isExpanded
+                      ?(dk?"1.5px solid rgba(123,94,232,0.45)":"1.5px solid rgba(180,165,240,0.55)")
+                      :(dk?"1.5px solid rgba(123,94,232,0.22)":"1.5px solid rgba(180,165,240,0.35)"),
+                    boxShadow:dk
+                      ?"0 3px 10px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -2px 0 rgba(0,0,0,0.08)"
+                      :"0 3px 12px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.7), inset 0 -2px 0 rgba(123,94,232,0.04)",
+                    opacity:isOff?0.4:1,
+                  }}>
+                    {/* Gloss arc */}
+                    <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",
+                      background:dk
+                        ?"linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 60%)"
+                        :"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 60%)",
+                      borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0,
+                    }}/>
+                    <span style={{color:labelColor,fontWeight:800,fontSize:12,position:"relative",zIndex:1}}>{item.label}</span>
+                    {grammarEditMode&&item.key&&<span style={{width:14,height:14,borderRadius:7,
+                      border:`2px solid ${isOff?(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"):item.color}`,
+                      display:"flex",alignItems:"center",justifyContent:"center",position:"relative",zIndex:1,
+                      background:isOff?"transparent":`${item.color}22`,fontSize:9,lineHeight:1,color:item.color,
+                    }}>{isOff?"":"✓"}</span>}
+                  </button>;
               })}
             </div>
-            {/* Expanded explanation card */}
-            {expandedLegend&&!grammarEditMode&&(()=>{
-              const item = activePack.legend.find(l=>l.label===expandedLegend);
-              if(!item||!item.desc) return null;
-              return <div style={{
-                marginTop:10,padding:"10px 14px",borderRadius:13,
-                background:dk?"rgba(28,24,62,0.94)":"var(--card-bg)",
-                border:dk?"1.5px solid rgba(100,88,158,0.42)":"1.5px solid rgba(220,215,238,0.85)",
-                borderLeft:`3px solid ${item.color}`,
+            {/* Expanded description — full width compound bubble below the pills */}
+            {(()=>{const expItem=activePack.legend.find(i=>i.label===expandedLegend);
+              return expItem&&expItem.desc&&!grammarEditMode?<div style={{
+                marginTop:8,padding:"12px 16px",borderRadius:22,position:"relative",overflow:"hidden",
+                background:dk
+                  ?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"
+                  :"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)",
+                border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",
                 boxShadow:dk
-                  ?"0 2px 8px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)"
-                  :"0 2px 8px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.95)",
+                  ?"0 4px 16px rgba(0,0,0,0.25), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.1)"
+                  :"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.7), inset 0 -3px 0 rgba(123,94,232,0.04)",
                 fontSize:12,fontWeight:600,lineHeight:1.5,
-                color:dk?"rgba(255,255,255,0.7)":"rgba(60,40,120,0.7)",
+                color:dk?"rgba(255,255,255,0.7)":"rgba(60,40,120,0.65)",
               }}>
-                <span style={{fontWeight:800,color:item.color}}>{item.label}</span>{" "}{item.desc}
-              </div>;
+                <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",
+                  background:dk
+                    ?"linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 60%)"
+                    :"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 60%)",
+                  borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0,
+                }}/>
+                <span style={{fontWeight:800,color:expItem.color,position:"relative",zIndex:1}}>{expItem.label}:</span>{" "}
+                <span style={{position:"relative",zIndex:1}}>{expItem.desc}</span>
+              </div>:null;
             })()}
             {/* Edit toggle */}
             <div style={{display:"flex",justifyContent:"flex-end",marginTop:10}}>
               <button onClick={()=>{setGrammarEditMode(!grammarEditMode);setExpandedLegend(null);}} style={{
-                background:"none",border:"none",cursor:"pointer",fontFamily:"inherit",
+                border:"none",cursor:"pointer",fontFamily:"inherit",
                 fontSize:11,fontWeight:700,letterSpacing:0.3,
                 color:grammarEditMode?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.35)":"rgba(80,60,140,0.4)"),
                 display:"flex",alignItems:"center",gap:4,padding:"4px 8px",borderRadius:8,
@@ -13261,17 +13264,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           );
           if (catDisabled) resolved = null;
         }
-        if (resolved && resolved.understripe) {
+        if (resolved) {
           wordStyle = {
             color: resolved.color, fontWeight: 700, cursor: "pointer",
-            borderBottom: "2.5px solid " + resolved.color,
-            paddingBottom: 1, borderRadius: 3, display: "inline", transition: "all .15s",
-          };
-        } else if (resolved) {
-          wordStyle = {
-            color: resolved.color, fontWeight: 700, cursor: "pointer",
-            borderBottom: "1.5px dashed " + resolved.color + "44",
-            paddingBottom: 1, borderRadius: 3, display: "inline", transition: "all .15s",
+            display: "inline", transition: "all .15s",
           };
         } else {
           wordStyle = { cursor: "pointer", display: "inline", transition: "all .15s" };
@@ -13617,7 +13613,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       boxShadow: dk
         ? "0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)"
         : "0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",
-      borderRadius: isNarrator ? 22 : "22px 22px 22px 6px",
+      borderRadius: isNarrator ? 14 : "14px 14px 14px 4px",
       position: "relative", overflow: "hidden", padding: "14px 18px",
     };
     const storyGloss = {
@@ -13637,7 +13633,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           if ((t.pos === "art" || t.pos === "noun") && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
           if (!color && t.pos) { const pc = POS_COLORS[posToColorKey(t.pos)]; if (pc) color = dk ? pc.dark : pc.light; }
         }
-        return <span key={ti} style={{ color: color || defaultColor, fontWeight: 700, marginRight: ti < tagged.length - 1 ? 4 : 0, borderBottom: (grammarHl && t.pos === "noun" && color) ? `2px solid ${color}` : "none", paddingBottom: (grammarHl && t.pos === "noun" && color) ? 1 : 0 }}>{t.w}</span>;
+        return <span key={ti} style={{ color: color || defaultColor, fontWeight: 700, marginRight: ti < tagged.length - 1 ? 4 : 0 }}>{t.w}</span>;
       });
     };
     return (
@@ -13718,8 +13714,6 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           color: color || defaultColor,
           fontWeight: 700,
           marginRight: ti < tagged.length - 1 ? 4 : 0,
-          borderBottom: (grammarHl && t.pos === "noun" && color) ? `2px solid ${color}` : "none",
-          paddingBottom: (grammarHl && t.pos === "noun" && color) ? 1 : 0,
         }}>{t.w}</span>;
       });
     };
@@ -14762,21 +14756,21 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     :"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.08) 60%, transparent 100%)",
                   pointerEvents:"none",zIndex:1}}/>
                 <div style={{position:"relative",zIndex:2}}>
-                {(dd.text||"").split(/\\n|\n/).map((line,i)=>{
+                {(()=>{const ddHl=(text)=>universalHl(text, lang);return (dd.text||"").split(/\\n|\n/).map((line,i)=>{
                   if(!line.trim()) return <div key={i} style={{height:8}}/>;
-                  if(line.startsWith("⚠️")) return <div key={i} style={{background:dk?"rgba(245,166,35,0.12)":"rgba(245,166,35,0.08)",borderRadius:10,padding:"8px 12px",margin:"6px 0",display:"flex",gap:6,alignItems:"flex-start"}}><span style={{fontSize:14,lineHeight:1.2,flexShrink:0}}>⚠️</span><span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.slice(2).trim())}</span></div>;
-                  if(/^[A-Z][A-Z ]{2,}:/.test(line.trim())) return <div key={i} style={{background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",borderRadius:8,padding:"6px 12px",margin:"8px 0 2px",borderLeft:"2px solid var(--purple-accent)"}}><span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)",letterSpacing:0.8,fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line.trim())}</span></div>;
+                  if(line.startsWith("⚠️")) return <div key={i} style={{background:dk?"rgba(245,166,35,0.12)":"rgba(245,166,35,0.08)",borderRadius:10,padding:"8px 12px",margin:"6px 0",display:"flex",gap:6,alignItems:"flex-start"}}><span style={{fontSize:14,lineHeight:1.2,flexShrink:0}}>⚠️</span><span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(line.slice(2).trim())}</span></div>;
+                  if(/^[A-Z][A-Z ]{2,}:/.test(line.trim())) return <div key={i} style={{background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",borderRadius:8,padding:"6px 12px",margin:"8px 0 2px",borderLeft:"2px solid var(--purple-accent)"}}><span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)",letterSpacing:0.8,fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(line.trim())}</span></div>;
                   if(line.startsWith("•")){
                     const bullet=line.slice(1).trim();
                     const bArrow=bullet.match(/^(.+?)\s*[=→]\s*(.+)$/);
-                    if(bArrow) return <div key={i} style={{padding:"3px 0 3px 6px",display:"flex",gap:6,alignItems:"center",flexWrap:"wrap"}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span style={{fontSize:15,fontWeight:700,color:"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{smartHl(bArrow[1].trim())}</span><span style={{color:dk?"rgba(180,165,240,0.4)":"var(--gray-300)",fontSize:10}}>→</span><span style={{fontSize:13,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(bArrow[2].trim())}</span></div>;
-                    return <div key={i} style={{fontSize:14,color:"var(--gray-600)",padding:"2px 0 2px 6px",display:"flex",gap:6,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span>{smartHl(bullet)}</span></div>;
+                    if(bArrow) return <div key={i} style={{padding:"3px 0 3px 6px",display:"flex",gap:6,alignItems:"center",flexWrap:"wrap"}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span style={{fontSize:15,fontWeight:700,color:"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{ddHl(bArrow[1].trim())}</span><span style={{color:dk?"rgba(180,165,240,0.4)":"var(--gray-300)",fontSize:10}}>→</span><span style={{fontSize:13,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(bArrow[2].trim())}</span></div>;
+                    return <div key={i} style={{fontSize:14,color:"var(--gray-600)",padding:"2px 0 2px 6px",display:"flex",gap:6,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span>{ddHl(bullet)}</span></div>;
                   }
                   const arrow=line.match(/^([A-Za-zÀ-ÿ'][^=→]{0,48}?)\s*[=→]\s*(.+)$/);
-                  if(arrow&&!line.startsWith("✅")&&!line.startsWith("❌")) return <div key={i} style={{display:"flex",gap:6,alignItems:"center",padding:"3px 0",flexWrap:"wrap"}}><span style={{fontSize:15,fontWeight:700,color:"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{smartHl(arrow[1].trim())}</span><span style={{color:dk?"rgba(180,165,240,0.4)":"var(--gray-300)",fontSize:10}}>→</span><span style={{fontSize:13,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(arrow[2].trim())}</span></div>;
+                  if(arrow&&!line.startsWith("✅")&&!line.startsWith("❌")) return <div key={i} style={{display:"flex",gap:6,alignItems:"center",padding:"3px 0",flexWrap:"wrap"}}><span style={{fontSize:15,fontWeight:700,color:"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{ddHl(arrow[1].trim())}</span><span style={{color:dk?"rgba(180,165,240,0.4)":"var(--gray-300)",fontSize:10}}>→</span><span style={{fontSize:13,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(arrow[2].trim())}</span></div>;
                   const isHeader=line.trim().endsWith(":");
-                  return <div key={i} style={{fontSize:isHeader?13:14,color:isHeader?"var(--gray-800)":"var(--gray-600)",fontWeight:isHeader?700:500,lineHeight:1.7,marginTop:isHeader?6:0,padding:"1px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{smartHl(line)}</div>;
-                })}
+                  return <div key={i} style={{fontSize:isHeader?13:14,color:isHeader?"var(--gray-800)":"var(--gray-600)",fontWeight:isHeader?700:500,lineHeight:1.7,marginTop:isHeader?6:0,padding:"1px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(line)}</div>;
+                });})()}
                 </div>
               </div>
             </div>}

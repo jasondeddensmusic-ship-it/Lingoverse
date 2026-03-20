@@ -45,78 +45,78 @@ const FUNCTION_WORD_LISTS = {
 //
 // POS Tag      │ Color          │ Hex     │ Rationale
 // ─────────────┼────────────────┼─────────┼──────────────────────────
-// verb / aux   │ Acid green     │ #00C853 │ Action, energy
-// adj          │ Hot orange     │ #FF6D00 │ Warm, descriptive
-// adv          │ Hot pink       │ #FF1744 │ Modifiers, intensity
-// noun         │ (gender color) │ —       │ Gender is the meaningful distinction
-// art          │ (gender color) │ —       │ Same as its noun
-// prep         │ Indigo         │ #6366F1 │ Spatial/relational
-// conj         │ Vivid yellow   │ #C6A700 │ Connective scaffolding
-// pron         │ Magenta        │ #D500F9 │ Stand-in words, distinct from pink
-// num          │ Warm coral     │ #FF5252 │ Countable, tangible
-// intj         │ Lime           │ #76FF03 │ Expressive, attention-grabbing
-// part         │ Warm bronze    │ #8D6E63 │ Functional particles
+// verb / aux   │ Forest green   │ #2E7D32 │ Action, readable ink
+// adj          │ Burnt orange   │ #E65100 │ Warm, descriptive
+// adv          │ Dark teal      │ #00695C │ Distinct from green verbs & blue nouns
+// noun         │ Navy blue      │ #1565C0 │ (or gender color when sub-tag present)
+// art          │ Dark gold      │ #8D6E00 │ (or gender color when sub-tag present)
+// prep         │ Blue-grey slate│ #37474F │ Neutral, distinct from purple pronouns
+// conj         │ Dark gold      │ #8D6E00 │ Connective scaffolding
+// pron         │ Deep purple    │ #7B1FA2 │ Stand-in words
+// num          │ Crimson        │ #B71C1C │ Distinct from orange adj
+// intj         │ Hot pink       │ #C2185B │ Expressive, distinct from purple & red
+// part         │ Dark brown     │ #5D4037 │ Functional particles
 //
 export const POS_COLORS = {
-  // Verbs — acid green (includes auxiliaries: they ARE verbs)
-  "verb":             { light: "#00C853", dark: "#69F0AE" },
-  "auxiliary":        { light: "#00C853", dark: "#69F0AE" },
-  // Adjectives — hot orange
-  "adjective":        { light: "#FF6D00", dark: "#FFAB40" },
-  // Adverbs — hot pink
-  "adverb":           { light: "#FF1744", dark: "#FF616F" },
-  // Prepositions — indigo (distinct from noun blue)
-  "preposition":      { light: "#6366F1", dark: "#818CF8" },
-  // Conjunctions — vivid yellow
-  "conjunction":      { light: "#C6A700", dark: "#FFD600" },
-  // Pronouns — magenta (maximally distinct from pink/coral)
-  "pronoun":          { light: "#D500F9", dark: "#EA80FC" },
-  "pronoun_subj":     { light: "#D500F9", dark: "#EA80FC" },
-  "pronoun_obj":      { light: "#D500F9", dark: "#EA80FC" },
-  "pronoun_poss":     { light: "#D500F9", dark: "#EA80FC" },
-  "demonstrative":    { light: "#D500F9", dark: "#EA80FC" },
-  // Numbers — warm coral
-  "number":           { light: "#FF5252", dark: "#FF8A80" },
-  "counter":          { light: "#FF5252", dark: "#FF8A80" },
-  // Interjections — lime
-  "interjection":     { light: "#76FF03", dark: "#B2FF59" },
-  // Particles — warm bronze
-  "particle":         { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_topic":   { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_subj":    { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_obj":     { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_loc":     { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_dir":     { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_conn":    { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_comp":    { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_poss":    { light: "#8D6E63", dark: "#BCAAA4" },
-  "particle_other":   { light: "#8D6E63", dark: "#BCAAA4" },
-  // Nouns — use GENDER_COLORS when gender sub-tag present, otherwise electric blue
-  "noun":             { light: "#2979FF", dark: "#82B1FF", understripe: true },
-  // Articles — use GENDER_COLORS (resolved by renderer), fallback to vivid yellow
-  "article":          { light: "#C6A700", dark: "#FFD600" },
-  "article_m":        { light: "#0091FF", dark: "#64B5F6" },
-  "article_f":        { light: "#D50000", dark: "#EF5350" },
-  "article_n":        { light: "#FF8F00", dark: "#FFB300" },
-  "article_c":        { light: "#0091FF", dark: "#64B5F6" },
-  "article_het":      { light: "#E8960A", dark: "#F5C040" },
-  "article_indef":    { light: "#8D6E63", dark: "#BCAAA4" },
-  "article_pl":       { light: "#00BFA5", dark: "#64FFDA" },
-  // Negation / question — vivid yellow (structure function)
-  "negation":         { light: "#C6A700", dark: "#FFD600" },
-  "question":         { light: "#C6A700", dark: "#FFD600" },
+  // Verbs — forest green (includes auxiliaries: they ARE verbs)
+  "verb":             { light: "#2E7D32", dark: "#66BB6A" },
+  "auxiliary":        { light: "#2E7D32", dark: "#66BB6A" },
+  // Adjectives — burnt orange (warm, distinct from gold conjunctions)
+  "adjective":        { light: "#E65100", dark: "#FF8A65" },
+  // Adverbs — dark teal/cyan (distinct from green verbs AND blue nouns)
+  "adverb":           { light: "#00695C", dark: "#4DB6AC" },
+  // Prepositions — blue-grey slate (neutral, distinct from purple pronouns)
+  "preposition":      { light: "#37474F", dark: "#90A4AE" },
+  // Conjunctions — dark gold/mustard (distinct from orange adjectives)
+  "conjunction":      { light: "#8D6E00", dark: "#D4A017" },
+  // Pronouns — deep purple (the only true purple POS)
+  "pronoun":          { light: "#7B1FA2", dark: "#CE93D8" },
+  "pronoun_subj":     { light: "#7B1FA2", dark: "#CE93D8" },
+  "pronoun_obj":      { light: "#7B1FA2", dark: "#CE93D8" },
+  "pronoun_poss":     { light: "#7B1FA2", dark: "#CE93D8" },
+  "demonstrative":    { light: "#7B1FA2", dark: "#CE93D8" },
+  // Numbers — crimson red (distinct from orange adj)
+  "number":           { light: "#B71C1C", dark: "#EF5350" },
+  "counter":          { light: "#B71C1C", dark: "#EF5350" },
+  // Interjections — hot pink (distinct from purple pronouns AND red numbers)
+  "interjection":     { light: "#C2185B", dark: "#F06292" },
+  // Particles — dark brown
+  "particle":         { light: "#5D4037", dark: "#A1887F" },
+  "particle_topic":   { light: "#5D4037", dark: "#A1887F" },
+  "particle_subj":    { light: "#5D4037", dark: "#A1887F" },
+  "particle_obj":     { light: "#5D4037", dark: "#A1887F" },
+  "particle_loc":     { light: "#5D4037", dark: "#A1887F" },
+  "particle_dir":     { light: "#5D4037", dark: "#A1887F" },
+  "particle_conn":    { light: "#5D4037", dark: "#A1887F" },
+  "particle_comp":    { light: "#5D4037", dark: "#A1887F" },
+  "particle_poss":    { light: "#5D4037", dark: "#A1887F" },
+  "particle_other":   { light: "#5D4037", dark: "#A1887F" },
+  // Nouns — use GENDER_COLORS when gender sub-tag present, otherwise navy blue
+  "noun":             { light: "#1565C0", dark: "#64B5F6" },
+  // Articles — use GENDER_COLORS (resolved by renderer), fallback to dark gold
+  "article":          { light: "#8D6E00", dark: "#D4A017" },
+  "article_m":        { light: "#0D47A1", dark: "#64B5F6" },
+  "article_f":        { light: "#B71C1C", dark: "#EF5350" },
+  "article_n":        { light: "#E65100", dark: "#FFB74D" },
+  "article_c":        { light: "#0D47A1", dark: "#64B5F6" },
+  "article_het":      { light: "#E65100", dark: "#FFB74D" },
+  "article_indef":    { light: "#5D4037", dark: "#A1887F" },
+  "article_pl":       { light: "#00695C", dark: "#4DB6AC" },
+  // Negation / question — amber (structure function)
+  "negation":         { light: "#F57F17", dark: "#FFD54F" },
+  "question":         { light: "#F57F17", dark: "#FFD54F" },
   // Special
   "new_word":         { light: "#E8960A", dark: "#F5C040", bubble: true },
-  "unknown":          { light: "#78909C", dark: "#B0BEC5" },
+  "unknown":          { light: "#607D8B", dark: "#90A4AE" },
 };
 
-// Gender understripe colors (for nouns)
+// Gender colors (for nouns AND articles when gender sub-tag present)
 export const GENDER_COLORS = {
-  m:  { light: "#0091FF", dark: "#64B5F6" },  // masculine = vivid sky blue
-  f:  { light: "#D50000", dark: "#EF5350" },  // feminine = deep crimson
-  n:  { light: "#FF8F00", dark: "#FFB300" },  // neuter = vivid amber
-  c:  { light: "#0091FF", dark: "#64B5F6" },  // common = vivid sky blue (Dutch de)
-  pl: { light: "#00BFA5", dark: "#64FFDA" },  // plural = deep teal
+  m:  { light: "#0D47A1", dark: "#64B5F6" },  // masculine = navy blue
+  f:  { light: "#B71C1C", dark: "#EF5350" },  // feminine = deep crimson
+  n:  { light: "#E65100", dark: "#FFB74D" },  // neuter = burnt orange
+  c:  { light: "#0D47A1", dark: "#64B5F6" },  // common = navy blue (Dutch de)
+  pl: { light: "#00695C", dark: "#4DB6AC" },  // plural = deep teal
 };
 
 // ── Helpers ──
@@ -1337,11 +1337,11 @@ export function pillGradient(hex) {
 
 // Shared color constants for pack definitions — HIGH CONTRAST, zero purple
 const C_BLUE = { light: "#0091FF", dark: "#64B5F6" };       // Vivid sky blue (masculine)
-const C_RED = { light: "#D50000", dark: "#EF5350" };         // Deep crimson (feminine)
-const C_AMBER = { light: "#FF8F00", dark: "#FFB300" };       // Vivid amber (German neuter das)
-const C_TEAL_GENDER = { light: "#00BFA5", dark: "#64FFDA" }; // Deep teal (plural)
-const C_BRONZE = { light: "#8D6E63", dark: "#BCAAA4" };      // Warm bronze (indefinite)
-const C_GOLD = { light: "#E8960A", dark: "#F5C040" };        // Dutch het (legacy, keep)
+const C_RED = { light: "#B71C1C", dark: "#EF5350" };         // Deep crimson (feminine)
+const C_AMBER = { light: "#E65100", dark: "#FFB74D" };       // Burnt orange (German neuter das)
+const C_TEAL_GENDER = { light: "#00695C", dark: "#4DB6AC" }; // Deep teal (plural)
+const C_BRONZE = { light: "#5D4037", dark: "#A1887F" };      // Dark brown (indefinite)
+const C_GOLD = { light: "#E65100", dark: "#FFB74D" };        // Dutch het (burnt orange, aligned)
 // Korean particle + misc colors
 const C_TEAL = { light: "#2ECDA7", dark: "#50E0C0" };
 const C_KO_AMBER = { light: "#F59E0B", dark: "#FCD34D" };
@@ -1349,68 +1349,70 @@ const C_CORAL = { light: "#E8475E", dark: "#F58888" };
 const C_PURPLE_KO = { light: "#7B5EE8", dark: "#A890FF" };
 const C_WARM_SLATE = { light: "#78909C", dark: "#B0BEC5" }; // Warm blue-grey (misc/other, NOT flat grey)
 
-// High-contrast Word Type colors — NO purple/indigo (conflicts with theme)
-const C_ACID_GREEN = { light: "#00C853", dark: "#69F0AE" };
-const C_HOT_ORANGE = { light: "#FF6D00", dark: "#FFAB40" };
-const C_HOT_PINK = { light: "#FF1744", dark: "#FF616F" };
-const C_ELEC_BLUE = { light: "#2979FF", dark: "#82B1FF" };
-const C_VIVID_YELLOW = { light: "#C6A700", dark: "#FFD600" };
+// Muted ink Word Type colors — maximally distinct, readable on lavender
+// Owner-approved 2026-03-20: must match POS_COLORS exactly
+const C_FOREST_GREEN = { light: "#2E7D32", dark: "#66BB6A" };  // verbs
+const C_BURNT_ORANGE = { light: "#E65100", dark: "#FF8A65" };  // adjectives
+const C_DARK_TEAL = { light: "#00695C", dark: "#4DB6AC" };     // adverbs
+const C_NAVY_BLUE = { light: "#1565C0", dark: "#64B5F6" };     // nouns
+const C_DARK_GOLD = { light: "#8D6E00", dark: "#D4A017" };     // conjunctions, articles
+const C_DEEP_PURPLE = { light: "#7B1FA2", dark: "#CE93D8" };   // pronouns
+const C_SLATE = { light: "#37474F", dark: "#90A4AE" };         // prepositions
+const C_CRIMSON = { light: "#B71C1C", dark: "#EF5350" };       // numbers
+const C_HOT_PINK = { light: "#C2185B", dark: "#F06292" };      // interjections
 
 // Word Type pack (shared across all languages)
 // Every POS gets its own distinct color. No two types share a color.
-// Owner-approved 2026-03-20.
-const C_MAGENTA = { light: "#D500F9", dark: "#EA80FC" };
-const C_CORAL_NUM = { light: "#FF5252", dark: "#FF8A80" };
-const C_LIME = { light: "#76FF03", dark: "#B2FF59" };
+// Maximally distinct hues: green, orange, teal, blue, gold, purple, slate, crimson, pink, brown
 const WORDTYPE_PACK = {
   id: "wordtype", label: "Word Type", icon: "Aa",
   desc: "Every word colored by part of speech",
   colorMap: {
-    // Verbs — acid green (includes auxiliaries)
-    verb: { ...C_ACID_GREEN }, auxiliary: { ...C_ACID_GREEN },
-    // Adjectives — hot orange
-    adjective: { ...C_HOT_ORANGE },
-    // Adverbs — hot pink
-    adverb: { ...C_HOT_PINK },
-    // Pronouns — magenta (distinct from adverbs)
-    pronoun: { ...C_MAGENTA }, pronoun_subj: { ...C_MAGENTA },
-    pronoun_obj: { ...C_MAGENTA }, pronoun_poss: { ...C_MAGENTA },
-    demonstrative: { ...C_MAGENTA },
-    // Nouns — electric blue (understripe)
-    noun: { ...C_ELEC_BLUE, understripe: true },
-    // Prepositions — indigo (distinct from noun blue)
-    preposition: { light: "#6366F1", dark: "#818CF8" },
-    // Conjunctions — vivid yellow
-    conjunction: { ...C_VIVID_YELLOW },
-    // Articles — vivid yellow (structure)
-    article: { ...C_VIVID_YELLOW },
-    article_m: { ...C_VIVID_YELLOW }, article_f: { ...C_VIVID_YELLOW }, article_n: { ...C_VIVID_YELLOW },
-    article_c: { ...C_VIVID_YELLOW }, article_het: { ...C_VIVID_YELLOW },
-    article_indef: { ...C_VIVID_YELLOW }, article_pl: { ...C_VIVID_YELLOW },
-    // Numbers — warm coral
-    number: { ...C_CORAL_NUM }, counter: { ...C_CORAL_NUM },
-    // Interjections — lime
-    interjection: { ...C_LIME },
-    // Particles — warm bronze
+    // Verbs — forest green (includes auxiliaries)
+    verb: { ...C_FOREST_GREEN }, auxiliary: { ...C_FOREST_GREEN },
+    // Adjectives — burnt orange
+    adjective: { ...C_BURNT_ORANGE },
+    // Adverbs — dark teal (distinct from green verbs AND blue nouns)
+    adverb: { ...C_DARK_TEAL },
+    // Pronouns — deep purple (the only true purple POS)
+    pronoun: { ...C_DEEP_PURPLE }, pronoun_subj: { ...C_DEEP_PURPLE },
+    pronoun_obj: { ...C_DEEP_PURPLE }, pronoun_poss: { ...C_DEEP_PURPLE },
+    demonstrative: { ...C_DEEP_PURPLE },
+    // Nouns — navy blue
+    noun: { ...C_NAVY_BLUE },
+    // Prepositions — blue-grey slate (neutral, distinct from purple pronouns)
+    preposition: { ...C_SLATE },
+    // Conjunctions — dark gold/mustard (distinct from orange adjectives)
+    conjunction: { ...C_DARK_GOLD },
+    // Articles — dark gold (structure)
+    article: { ...C_DARK_GOLD },
+    article_m: { ...C_DARK_GOLD }, article_f: { ...C_DARK_GOLD }, article_n: { ...C_DARK_GOLD },
+    article_c: { ...C_DARK_GOLD }, article_het: { ...C_DARK_GOLD },
+    article_indef: { ...C_DARK_GOLD }, article_pl: { ...C_DARK_GOLD },
+    // Numbers — crimson red (distinct from orange adj)
+    number: { ...C_CRIMSON }, counter: { ...C_CRIMSON },
+    // Interjections — hot pink (distinct from purple pronouns AND red numbers)
+    interjection: { ...C_HOT_PINK },
+    // Particles — dark brown
     particle_topic: { ...C_BRONZE }, particle_subj: { ...C_BRONZE },
     particle_obj: { ...C_BRONZE }, particle_loc: { ...C_BRONZE },
     particle_dir: { ...C_BRONZE }, particle_conn: { ...C_BRONZE },
     particle_comp: { ...C_BRONZE }, particle_poss: { ...C_BRONZE },
     particle_other: { ...C_BRONZE },
-    // Negation/question — vivid yellow (structure function)
-    negation: { ...C_VIVID_YELLOW }, question: { ...C_VIVID_YELLOW },
+    // Negation/question — dark gold (structure function)
+    negation: { ...C_DARK_GOLD }, question: { ...C_DARK_GOLD },
   },
   legend: [
-    { label: "Verbs", color: "#00C853", key: "verb", desc: "Action and state words: run, eat, be, have, go" },
-    { label: "Adjectives", color: "#FF6D00", key: "adjective", desc: "Words that describe nouns: big, red, fast, beautiful" },
-    { label: "Adverbs", color: "#FF1744", key: "adverb", desc: "Words that modify verbs or adjectives: quickly, very, always" },
-    { label: "Pronouns", color: "#D500F9", key: "pronoun", desc: "Stand-in words: I, you, he, she, this, that" },
-    { label: "Nouns", color: "#2979FF", key: "noun", desc: "People, places, things, and ideas: dog, house, love" },
-    { label: "Prepositions", color: "#6366F1", key: "preposition", desc: "Spatial and relational words: in, on, at, from, to" },
-    { label: "Conjunctions", color: "#C6A700", key: "conjunction", desc: "Words that connect: and, but, because, although" },
-    { label: "Numbers", color: "#FF5252", key: "number", desc: "Counting words: one, two, first, second" },
-    { label: "Interjections", color: "#76FF03", key: "interjection", desc: "Expressive words: wow, oh, hey, ouch" },
-    { label: "Particles", color: "#8D6E63", key: "particle", desc: "Functional particles: topic, subject, object markers" },
+    { label: "Verbs", color: "#2E7D32", key: "verb", desc: "Action and state words: run, eat, be, have, go" },
+    { label: "Adjectives", color: "#E65100", key: "adjective", desc: "Words that describe nouns: big, red, fast, beautiful" },
+    { label: "Adverbs", color: "#00695C", key: "adverb", desc: "Words that modify verbs or adjectives: quickly, very, always" },
+    { label: "Pronouns", color: "#7B1FA2", key: "pronoun", desc: "Stand-in words: I, you, he, she, this, that" },
+    { label: "Nouns", color: "#1565C0", key: "noun", desc: "People, places, things, and ideas: dog, house, love" },
+    { label: "Prepositions", color: "#37474F", key: "preposition", desc: "Spatial and relational words: in, on, at, from, to" },
+    { label: "Conjunctions", color: "#8D6E00", key: "conjunction", desc: "Words that connect: and, but, because, although" },
+    { label: "Numbers", color: "#B71C1C", key: "number", desc: "Counting words: one, two, first, second" },
+    { label: "Interjections", color: "#C2185B", key: "interjection", desc: "Expressive words: wow, oh, hey, ouch" },
+    { label: "Particles", color: "#5D4037", key: "particle", desc: "Functional particles: topic, subject, object markers" },
   ],
 };
 
@@ -1425,8 +1427,8 @@ export const GRAMMAR_PACKS = {
         colorMap: {
           article_m: { ...C_BLUE }, article_f: { ...C_RED }, article_n: { ...C_AMBER },
           article_indef: { ...C_BRONZE },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
-          noun_n: { ...C_AMBER, understripe: true },
+          noun_m: { ...C_BLUE, understripe: false }, noun_f: { ...C_RED, understripe: false },
+          noun_n: { ...C_AMBER, understripe: false },
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED }, adjective_n: { ...C_AMBER },
         },
         legend: [
@@ -1498,8 +1500,8 @@ export const GRAMMAR_PACKS = {
           article_c: { ...C_BLUE }, article_m: { ...C_BLUE },
           article_het: { ...C_GOLD }, article_n: { ...C_GOLD },
           article_indef: { ...C_BRONZE },
-          noun_c: { ...C_BLUE, understripe: true }, noun_m: { ...C_BLUE, understripe: true },
-          noun_n: { ...C_GOLD, understripe: true },
+          noun_c: { ...C_BLUE, understripe: false }, noun_m: { ...C_BLUE, understripe: false },
+          noun_n: { ...C_GOLD, understripe: false },
         },
         legend: [
           { label: "de (common)", color: "#0091FF", key: "c", desc: "de hond, de tafel. Most Dutch nouns are de-words." },
@@ -1520,8 +1522,8 @@ export const GRAMMAR_PACKS = {
         colorMap: {
           article_m: { ...C_BLUE }, article_f: { ...C_RED },
           article_pl: { ...C_TEAL_GENDER }, article_indef: { ...C_BRONZE },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
-          noun_pl: { ...C_TEAL_GENDER, understripe: true },
+          noun_m: { ...C_BLUE, understripe: false }, noun_f: { ...C_RED, understripe: false },
+          noun_pl: { ...C_TEAL_GENDER, understripe: false },
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED },
         },
         legend: [
@@ -1544,8 +1546,8 @@ export const GRAMMAR_PACKS = {
         colorMap: {
           article_m: { ...C_BLUE }, article_f: { ...C_RED },
           article_pl: { ...C_TEAL_GENDER }, article_indef: { ...C_BRONZE },
-          noun_m: { ...C_BLUE, understripe: true }, noun_f: { ...C_RED, understripe: true },
-          noun_pl: { ...C_TEAL_GENDER, understripe: true },
+          noun_m: { ...C_BLUE, understripe: false }, noun_f: { ...C_RED, understripe: false },
+          noun_pl: { ...C_TEAL_GENDER, understripe: false },
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED },
         },
         legend: [
