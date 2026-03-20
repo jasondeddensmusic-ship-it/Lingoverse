@@ -7974,14 +7974,32 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
   // ── Browse: available letters (A-Z and language-specific like umlauts) ──
   // Browse uses BARE word (entry.word) — not display with article prefix
+  // Korean: group by initial consonant (14 base jamo) instead of every unique syllable
+  const CHOSEONG="\u3131\u3132\u3134\u3137\u3138\u3139\u3141\u3142\u3143\u3145\u3146\u3147\u3148\u3149\u314A\u314B\u314C\u314D\u314E";
+  const BASE_CHO={"\u3131":"\u3131","\u3132":"\u3131","\u3134":"\u3134","\u3137":"\u3137","\u3138":"\u3137","\u3139":"\u3139","\u3141":"\u3141","\u3142":"\u3142","\u3143":"\u3142","\u3145":"\u3145","\u3146":"\u3145","\u3147":"\u3147","\u3148":"\u3148","\u3149":"\u3148","\u314A":"\u314A","\u314B":"\u314B","\u314C":"\u314C","\u314D":"\u314D","\u314E":"\u314E"};
+  const getChoseong=(ch)=>{const c=ch.charCodeAt(0);if(c<0xAC00||c>0xD7AF)return null;return CHOSEONG[Math.floor((c-0xAC00)/588)];};
+  const getBaseCho=(ch)=>{const cho=getChoseong(ch);return cho?(BASE_CHO[cho]||cho):null;};
+
   const browseLetters=useMemo(()=>{
+    if(lang==="ko"){
+      const set=new Set();
+      allWords.forEach(e=>{const c=(e.word||"")[0];if(c){const b=getBaseCho(c);if(b)set.add(b);}});
+      return [...set].sort((a,b)=>a.localeCompare(b));
+    }
     const set=new Set();
     allWords.forEach(e=>{const c=(e.word||"")[0];if(c&&/\p{L}/u.test(c))set.add(c.toUpperCase());});
     return [...set].sort((a,b)=>a.localeCompare(b));
-  },[allWords]);
+  },[allWords,lang]);
 
   const browseTwoLetters=useMemo(()=>{
     if(browsePath.length!==1)return [];
+    if(lang==="ko"){
+      // Korean: show unique first syllables whose initial consonant matches selected consonant
+      const cho=browsePath[0];
+      const set=new Set();
+      allWords.forEach(e=>{const c=(e.word||"")[0];if(c&&getBaseCho(c)===cho)set.add(c);});
+      return [...set].sort((a,b)=>a.localeCompare(b));
+    }
     const prefix=browsePath[0].toLowerCase();
     const set=new Set();
     allWords.forEach(e=>{
@@ -7989,13 +8007,18 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       if(w.startsWith(prefix)&&w.length>=2) set.add(w.substring(0,2));
     });
     return [...set].sort((a,b)=>a.localeCompare(b)).map(s=>s.charAt(0).toUpperCase()+s.charAt(1));
-  },[allWords,browsePath]);
+  },[allWords,browsePath,lang]);
 
   const browseWords=useMemo(()=>{
     if(browsePath.length!==2)return [];
+    if(lang==="ko"){
+      // Korean: match by first syllable (browsePath[1] is the full syllable)
+      const syl=browsePath[1];
+      return allWords.filter(e=>(e.word||"")[0]===syl);
+    }
     const prefix=(browsePath[0]+browsePath[1]).toLowerCase();
     return allWords.filter(e=>(e.word||"").toLowerCase().startsWith(prefix));
-  },[allWords,browsePath]);
+  },[allWords,browsePath,lang]);
 
   // ── Review: init ──
   useEffect(()=>{
@@ -8711,7 +8734,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </div>
           {browseTwoLetters.length===0?<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words starting with {browsePath[0]}</div>
           :<div style={{display:"flex",flexWrap:"wrap",gap:10,justifyContent:"center"}}>
-            {browseTwoLetters.map(tl=><button key={tl} onClick={()=>setBrowsePath([browsePath[0],tl.charAt(1)])}
+            {browseTwoLetters.map(tl=><button key={tl} onClick={()=>setBrowsePath([browsePath[0],lang==="ko"?tl:tl.charAt(1)])}
               onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow="0 0 24px rgba(123,94,232,0.5), 0 8px 20px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";}}
               onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow=dk?"0 4px 12px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 14px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)";}}
               style={{
@@ -8739,7 +8762,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               <span style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.25) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
               <span style={{position:"relative",zIndex:1,display:"inline-flex",alignItems:"center"}}>{chevronL} {browsePath[0]}</span>
             </button>
-            <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{browsePath[0]}{browsePath[1]}</span>
+            <span style={{fontSize:22,fontWeight:900,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontFamily:"Quicksand, sans-serif"}}>{lang==="ko"?browsePath[1]:(browsePath[0]+browsePath[1])}</span>
             <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{browseWords.length} word{browseWords.length!==1?"s":""}</span>
           </div>
           {browseWords.length===0?<div style={{textAlign:"center",padding:32,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:13}}>No words found</div>
