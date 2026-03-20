@@ -337,8 +337,14 @@ posTaggers.es = function(db) {};
 // Determines if an entry is a base/dictionary form (lemma) vs. a derived/conjugated form.
 // Lemmas are what show up in the searchable dictionary.
 function computeIsLemma(entry, lang) {
-  // Function words with particle POS: always lemmas (they're curated)
-  if (entry.tags && entry.tags.length > 0) return true;
+  // Function words: only the base form is a lemma (word === lemma).
+  // Conjugated/contracted forms (가요→가다, 그럼→그러면) stay in WORD_DB
+  // for conjugation tables, search, and story infrastructure, but are NOT
+  // visible in the vocab list.
+  if (entry.tags && entry.tags.length > 0) {
+    if (entry.lemma && entry.word && entry.word.toLowerCase() !== entry.lemma.toLowerCase()) return false;
+    return true;
+  }
   // Taught words (from teach cards) are always lemmas
   if (entry.taught) return true;
   // Everything else is not a lemma
