@@ -7842,6 +7842,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       const w=(e.word||"").trim();
       if(w.includes(" "))return false; // no phrases
       if(w.includes("("))return false; // no meta-entries like "der (blau)"
+      if(w.startsWith("-"))return false; // grammar suffixes belong in Grammar tab
       return true;
     }).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
   },[lang]);
@@ -8868,7 +8869,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                 <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
                 <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
                   <div style={{flex:1,minWidth:0}}>
-                    <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)"}}>{pat.word}</span>
+                    <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)"}}>{pat.pattern}</span>
                   </div>
                   <span style={{color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontSize:12,fontWeight:700,textAlign:"right",maxWidth:"45%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{pat.en||""}</span>
                 </div>
