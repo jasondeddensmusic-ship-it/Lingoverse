@@ -13624,15 +13624,18 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         ? "linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
         : "linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
     };
-    // Tagged word renderer (same as teach)
+    // Tagged word renderer (same as teach, respects grammarHl toggle)
     const renderTaggedStory = (tagged) => {
       if (!tagged || !Array.isArray(tagged)) return null;
+      const defaultColor = dk ? "rgba(220,210,255,0.85)" : "#3A1F8A";
       return tagged.map((t, ti) => {
         let color = null;
-        if (t.pos === "art" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
-        if (t.pos === "noun" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
-        if (!color && t.pos) { const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos; const pc = POS_COLORS[posKey]; if (pc) color = dk ? pc.dark : pc.light; }
-        return <span key={ti} style={{ color: color || (dk ? "rgba(220,210,255,0.85)" : "#3A1F8A"), fontWeight: 700, marginRight: ti < tagged.length - 1 ? 4 : 0, borderBottom: (t.pos === "noun" && color) ? `2px solid ${color}` : "none", paddingBottom: (t.pos === "noun" && color) ? 1 : 0 }}>{t.w}</span>;
+        if (grammarHl) {
+          if (t.pos === "art" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
+          if (t.pos === "noun" && t.sub) { const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s)); if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; } }
+          if (!color && t.pos) { const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos; const pc = POS_COLORS[posKey]; if (pc) color = dk ? pc.dark : pc.light; }
+        }
+        return <span key={ti} style={{ color: color || defaultColor, fontWeight: 700, marginRight: ti < tagged.length - 1 ? 4 : 0, borderBottom: (grammarHl && t.pos === "noun" && color) ? `2px solid ${color}` : "none", paddingBottom: (grammarHl && t.pos === "noun" && color) ? 1 : 0 }}>{t.w}</span>;
       });
     };
     return (
@@ -13691,39 +13694,36 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         ? "linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)"
         : "linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
     };
-    // Tagged word renderer — colors each word by POS
+    // Tagged word renderer — colors each word by POS (respects grammarHl toggle)
     const renderTagged = (tagged) => {
       if (!tagged || !Array.isArray(tagged)) return null;
+      const defaultColor = dk ? "rgba(220,210,255,0.85)" : "#3A1F8A";
       return tagged.map((t, ti) => {
         let color = null;
-        // Articles use gender color
-        if (t.pos === "art" && t.sub) {
-          const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
-          if (gSub) {
-            const gc = GENDER_COLORS[gSub];
-            color = gc ? (dk ? gc.dark : gc.light) : null;
+        if (grammarHl) {
+          // Articles use gender color
+          if (t.pos === "art" && t.sub) {
+            const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
+            if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; }
           }
-        }
-        // Nouns get gender understripe via POS_COLORS
-        if (t.pos === "noun" && t.sub) {
-          const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
-          if (gSub) {
-            const gc = GENDER_COLORS[gSub];
-            color = gc ? (dk ? gc.dark : gc.light) : null;
+          // Nouns get gender color
+          if (t.pos === "noun" && t.sub) {
+            const gSub = t.sub.find(s => ["m","f","n","c","pl"].includes(s));
+            if (gSub) { const gc = GENDER_COLORS[gSub]; color = gc ? (dk ? gc.dark : gc.light) : null; }
           }
-        }
-        // All other POS from POS_COLORS
-        if (!color && t.pos) {
-          const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos;
-          const pc = POS_COLORS[posKey];
-          if (pc) color = dk ? pc.dark : pc.light;
+          // All other POS from POS_COLORS
+          if (!color && t.pos) {
+            const posKey = t.pos === "pron" ? "pronoun" : t.pos === "art" ? "article" : t.pos === "aux" ? "verb" : t.pos === "conj" ? "conjunction" : t.pos === "prep" ? "preposition" : t.pos === "adv" ? "adverb" : t.pos === "adj" ? "adjective" : t.pos;
+            const pc = POS_COLORS[posKey];
+            if (pc) color = dk ? pc.dark : pc.light;
+          }
         }
         return <span key={ti} style={{
-          color: color || (dk ? "rgba(220,210,255,0.85)" : "#3A1F8A"),
+          color: color || defaultColor,
           fontWeight: 700,
           marginRight: ti < tagged.length - 1 ? 4 : 0,
-          borderBottom: (t.pos === "noun" && color) ? `2px solid ${color}` : "none",
-          paddingBottom: (t.pos === "noun" && color) ? 1 : 0,
+          borderBottom: (grammarHl && t.pos === "noun" && color) ? `2px solid ${color}` : "none",
+          paddingBottom: (grammarHl && t.pos === "noun" && color) ? 1 : 0,
         }}>{t.w}</span>;
       });
     };
@@ -13744,13 +13744,12 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   {st.phonetic&&<button onClick={()=>setShowPhonetic(!showPhonetic)} style={{background:"none",border:"none",cursor:"pointer",padding:"2px 0",display:"flex",alignItems:"center",transition:"all .15s"}}><span style={{fontSize:12,fontWeight:700,color:showPhonetic?"#7B5EE8":"var(--gray-300)",letterSpacing:0.5,transition:"color .15s"}}>Abc</span></button>}
                 </div>
               </div>
-              {/* Word display — article color-coded, same as v1 */}
+              {/* Word display — article color-coded (no separate article chip), same as v1 */}
               <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
-                {artNew!=="none"&&<div style={{marginBottom:4}}><span style={{fontSize:11,fontWeight:800,color:cNew.pillText,background:cNew.pill,borderRadius:6,padding:"2px 10px",letterSpacing:1}}>{artNew.toUpperCase()}</span></div>}
                 <div style={{marginBottom:6}}>
                   {artWordNew&&artWordNew[1] ? (
                     <span className="hd" style={{fontSize:36,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
-                      <span style={{color:cNew.pillText}}>{cap(artWordNew[0])}</span>{" "}
+                      <span style={{color:grammarHl?cNew.pillText:"var(--gray-800)"}}>{cap(artWordNew[0])}</span>{" "}
                       <span style={{color:grammarHl?cNew.pillText:"var(--gray-800)"}}>{artWordNew[1]}</span>
                     </span>
                   ) : (
