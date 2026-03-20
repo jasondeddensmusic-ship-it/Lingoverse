@@ -38,16 +38,63 @@ const FUNCTION_WORD_LISTS = {
   ko: FUNCTION_WORDS_KO,
 };
 
-// ── POS Color Map (5 primary color families) ──
-// 1. GENDER: blue(m/c), coral(f), purple(n), gold(het), indigo(pl)
-// 2. VERBS: teal
-// 3. DESCRIPTORS: amber (adjectives + adverbs)
-// 4. STRUCTURE: indigo (prepositions, conjunctions, particles)
-// 5. OTHER: light pink (pronouns, numbers, interjections)
-// Nouns get gender color via GENDER_COLORS (not from this map)
+// ── POS Color Map (Universal Word Tag System) ──
+// Every POS tag gets a maximally distinct color. No two POS types share a color.
+// Nouns + articles use GENDER_COLORS (not POS color) when gender sub-tag is present.
+// Aligned with GRAMMAR_PACKS Word Type colors (owner-approved 2026-03-20).
+//
+// POS Tag      │ Color          │ Hex     │ Rationale
+// ─────────────┼────────────────┼─────────┼──────────────────────────
+// verb / aux   │ Acid green     │ #00C853 │ Action, energy
+// adj          │ Hot orange     │ #FF6D00 │ Warm, descriptive
+// adv          │ Hot pink       │ #FF1744 │ Modifiers, intensity
+// noun         │ (gender color) │ —       │ Gender is the meaningful distinction
+// art          │ (gender color) │ —       │ Same as its noun
+// prep         │ Indigo         │ #6366F1 │ Spatial/relational
+// conj         │ Vivid yellow   │ #C6A700 │ Connective scaffolding
+// pron         │ Magenta        │ #D500F9 │ Stand-in words, distinct from pink
+// num          │ Warm coral     │ #FF5252 │ Countable, tangible
+// intj         │ Lime           │ #76FF03 │ Expressive, attention-grabbing
+// part         │ Warm bronze    │ #8D6E63 │ Functional particles
+//
 export const POS_COLORS = {
-  // 1. GENDER — per-gender article colors
-  "article":          { light: "#0091FF", dark: "#64B5F6" },
+  // Verbs — acid green (includes auxiliaries: they ARE verbs)
+  "verb":             { light: "#00C853", dark: "#69F0AE" },
+  "auxiliary":        { light: "#00C853", dark: "#69F0AE" },
+  // Adjectives — hot orange
+  "adjective":        { light: "#FF6D00", dark: "#FFAB40" },
+  // Adverbs — hot pink
+  "adverb":           { light: "#FF1744", dark: "#FF616F" },
+  // Prepositions — indigo (distinct from noun blue)
+  "preposition":      { light: "#6366F1", dark: "#818CF8" },
+  // Conjunctions — vivid yellow
+  "conjunction":      { light: "#C6A700", dark: "#FFD600" },
+  // Pronouns — magenta (maximally distinct from pink/coral)
+  "pronoun":          { light: "#D500F9", dark: "#EA80FC" },
+  "pronoun_subj":     { light: "#D500F9", dark: "#EA80FC" },
+  "pronoun_obj":      { light: "#D500F9", dark: "#EA80FC" },
+  "pronoun_poss":     { light: "#D500F9", dark: "#EA80FC" },
+  "demonstrative":    { light: "#D500F9", dark: "#EA80FC" },
+  // Numbers — warm coral
+  "number":           { light: "#FF5252", dark: "#FF8A80" },
+  "counter":          { light: "#FF5252", dark: "#FF8A80" },
+  // Interjections — lime
+  "interjection":     { light: "#76FF03", dark: "#B2FF59" },
+  // Particles — warm bronze
+  "particle":         { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_topic":   { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_subj":    { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_obj":     { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_loc":     { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_dir":     { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_conn":    { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_comp":    { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_poss":    { light: "#8D6E63", dark: "#BCAAA4" },
+  "particle_other":   { light: "#8D6E63", dark: "#BCAAA4" },
+  // Nouns — use GENDER_COLORS when gender sub-tag present, otherwise electric blue
+  "noun":             { light: "#2979FF", dark: "#82B1FF", understripe: true },
+  // Articles — use GENDER_COLORS (resolved by renderer), fallback to vivid yellow
+  "article":          { light: "#C6A700", dark: "#FFD600" },
   "article_m":        { light: "#0091FF", dark: "#64B5F6" },
   "article_f":        { light: "#D50000", dark: "#EF5350" },
   "article_n":        { light: "#FF8F00", dark: "#FFB300" },
@@ -55,37 +102,9 @@ export const POS_COLORS = {
   "article_het":      { light: "#E8960A", dark: "#F5C040" },
   "article_indef":    { light: "#8D6E63", dark: "#BCAAA4" },
   "article_pl":       { light: "#00BFA5", dark: "#64FFDA" },
-  // NOUN — text = gender color via GENDER_COLORS, understripe = gender color
-  "noun":             { light: null, dark: null, understripe: true },
-  // 2. VERBS — teal
-  "verb":             { light: "#2ECDA7", dark: "#50E0C0" },
-  // 3. DESCRIPTORS — amber
-  "adjective":        { light: "#F59E0B", dark: "#FCD34D" },
-  "adverb":           { light: "#F59E0B", dark: "#FCD34D" },
-  // 4. STRUCTURE — indigo
-  "preposition":      { light: "#6366F1", dark: "#818CF8" },
-  "conjunction":      { light: "#6366F1", dark: "#818CF8" },
-  // 5. OTHER — light pink
-  "pronoun_subj":     { light: "#F472B6", dark: "#FDA4AF" },
-  "pronoun_obj":      { light: "#F472B6", dark: "#FDA4AF" },
-  "pronoun_poss":     { light: "#F472B6", dark: "#FDA4AF" },
-  "pronoun":          { light: "#F472B6", dark: "#FDA4AF" },
-  "number":           { light: "#F472B6", dark: "#FDA4AF" },
-  "interjection":     { light: "#F472B6", dark: "#FDA4AF" },
-  "counter":          { light: "#F472B6", dark: "#FDA4AF" },
-  "negation":         { light: "#F472B6", dark: "#FDA4AF" },
-  "question":         { light: "#F472B6", dark: "#FDA4AF" },
-  "demonstrative":    { light: "#F472B6", dark: "#FDA4AF" },
-  // Korean particles — structure (indigo)
-  "particle_topic":   { light: "#6366F1", dark: "#818CF8" },
-  "particle_subj":    { light: "#6366F1", dark: "#818CF8" },
-  "particle_obj":     { light: "#6366F1", dark: "#818CF8" },
-  "particle_loc":     { light: "#6366F1", dark: "#818CF8" },
-  "particle_dir":     { light: "#6366F1", dark: "#818CF8" },
-  "particle_conn":    { light: "#6366F1", dark: "#818CF8" },
-  "particle_comp":    { light: "#6366F1", dark: "#818CF8" },
-  "particle_poss":    { light: "#6366F1", dark: "#818CF8" },
-  "particle_other":   { light: "#6366F1", dark: "#818CF8" },
+  // Negation / question — vivid yellow (structure function)
+  "negation":         { light: "#C6A700", dark: "#FFD600" },
+  "question":         { light: "#C6A700", dark: "#FFD600" },
   // Special
   "new_word":         { light: "#E8960A", dark: "#F5C040", bubble: true },
   "unknown":          { light: "#78909C", dark: "#B0BEC5" },
@@ -1338,49 +1357,60 @@ const C_ELEC_BLUE = { light: "#2979FF", dark: "#82B1FF" };
 const C_VIVID_YELLOW = { light: "#C6A700", dark: "#FFD600" };
 
 // Word Type pack (shared across all languages)
-// 5 color families covering EVERY POS type — maximally distinct, zero purple:
-//   Acid green:    verbs (action, energy)
-//   Hot orange:    adjectives (warm, descriptive)
-//   Hot pink:      adverbs + pronouns (modifiers/stand-ins)
-//   Electric blue: nouns (solid, foundational)
-//   Vivid yellow:  structure words (scaffolding)
+// Every POS gets its own distinct color. No two types share a color.
+// Owner-approved 2026-03-20.
+const C_MAGENTA = { light: "#D500F9", dark: "#EA80FC" };
+const C_CORAL_NUM = { light: "#FF5252", dark: "#FF8A80" };
+const C_LIME = { light: "#76FF03", dark: "#B2FF59" };
 const WORDTYPE_PACK = {
   id: "wordtype", label: "Word Type", icon: "Aa",
   desc: "Every word colored by part of speech",
   colorMap: {
-    // Verbs — acid green
-    verb: { ...C_ACID_GREEN },
+    // Verbs — acid green (includes auxiliaries)
+    verb: { ...C_ACID_GREEN }, auxiliary: { ...C_ACID_GREEN },
     // Adjectives — hot orange
     adjective: { ...C_HOT_ORANGE },
-    // Adverbs + pronouns — hot pink
+    // Adverbs — hot pink
     adverb: { ...C_HOT_PINK },
-    pronoun: { ...C_HOT_PINK }, pronoun_subj: { ...C_HOT_PINK },
-    pronoun_obj: { ...C_HOT_PINK }, pronoun_poss: { ...C_HOT_PINK },
-    demonstrative: { ...C_HOT_PINK },
+    // Pronouns — magenta (distinct from adverbs)
+    pronoun: { ...C_MAGENTA }, pronoun_subj: { ...C_MAGENTA },
+    pronoun_obj: { ...C_MAGENTA }, pronoun_poss: { ...C_MAGENTA },
+    demonstrative: { ...C_MAGENTA },
     // Nouns — electric blue (understripe)
     noun: { ...C_ELEC_BLUE, understripe: true },
-    // Structure words — vivid yellow
-    preposition: { ...C_VIVID_YELLOW }, conjunction: { ...C_VIVID_YELLOW },
+    // Prepositions — indigo (distinct from noun blue)
+    preposition: { light: "#6366F1", dark: "#818CF8" },
+    // Conjunctions — vivid yellow
+    conjunction: { ...C_VIVID_YELLOW },
+    // Articles — vivid yellow (structure)
     article: { ...C_VIVID_YELLOW },
     article_m: { ...C_VIVID_YELLOW }, article_f: { ...C_VIVID_YELLOW }, article_n: { ...C_VIVID_YELLOW },
     article_c: { ...C_VIVID_YELLOW }, article_het: { ...C_VIVID_YELLOW },
     article_indef: { ...C_VIVID_YELLOW }, article_pl: { ...C_VIVID_YELLOW },
-    interjection: { ...C_VIVID_YELLOW },
-    number: { ...C_VIVID_YELLOW }, counter: { ...C_VIVID_YELLOW },
+    // Numbers — warm coral
+    number: { ...C_CORAL_NUM }, counter: { ...C_CORAL_NUM },
+    // Interjections — lime
+    interjection: { ...C_LIME },
+    // Particles — warm bronze
+    particle_topic: { ...C_BRONZE }, particle_subj: { ...C_BRONZE },
+    particle_obj: { ...C_BRONZE }, particle_loc: { ...C_BRONZE },
+    particle_dir: { ...C_BRONZE }, particle_conn: { ...C_BRONZE },
+    particle_comp: { ...C_BRONZE }, particle_poss: { ...C_BRONZE },
+    particle_other: { ...C_BRONZE },
+    // Negation/question — vivid yellow (structure function)
     negation: { ...C_VIVID_YELLOW }, question: { ...C_VIVID_YELLOW },
-    // Korean particles (in Word Type mode: all yellow as structure)
-    particle_topic: { ...C_VIVID_YELLOW }, particle_subj: { ...C_VIVID_YELLOW },
-    particle_obj: { ...C_VIVID_YELLOW }, particle_loc: { ...C_VIVID_YELLOW },
-    particle_dir: { ...C_VIVID_YELLOW }, particle_conn: { ...C_VIVID_YELLOW },
-    particle_comp: { ...C_VIVID_YELLOW }, particle_poss: { ...C_VIVID_YELLOW },
-    particle_other: { ...C_VIVID_YELLOW },
   },
   legend: [
     { label: "Verbs", color: "#00C853", key: "verb", desc: "Action and state words: run, eat, be, have, go" },
     { label: "Adjectives", color: "#FF6D00", key: "adjective", desc: "Words that describe nouns: big, red, fast, beautiful" },
-    { label: "Modifiers", color: "#FF1744", key: "adverb", desc: "Adverbs, pronouns, and demonstratives: quickly, he, this" },
+    { label: "Adverbs", color: "#FF1744", key: "adverb", desc: "Words that modify verbs or adjectives: quickly, very, always" },
+    { label: "Pronouns", color: "#D500F9", key: "pronoun", desc: "Stand-in words: I, you, he, she, this, that" },
     { label: "Nouns", color: "#2979FF", key: "noun", desc: "People, places, things, and ideas: dog, house, love" },
-    { label: "Structure", color: "#C6A700", key: "structure", desc: "Prepositions, conjunctions, articles, particles: in, and, the" },
+    { label: "Prepositions", color: "#6366F1", key: "preposition", desc: "Spatial and relational words: in, on, at, from, to" },
+    { label: "Conjunctions", color: "#C6A700", key: "conjunction", desc: "Words that connect: and, but, because, although" },
+    { label: "Numbers", color: "#FF5252", key: "number", desc: "Counting words: one, two, first, second" },
+    { label: "Interjections", color: "#76FF03", key: "interjection", desc: "Expressive words: wow, oh, hey, ouch" },
+    { label: "Particles", color: "#8D6E63", key: "particle", desc: "Functional particles: topic, subject, object markers" },
   ],
 };
 

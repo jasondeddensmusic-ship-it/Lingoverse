@@ -418,22 +418,34 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - Gold #E8960A — Dutch het article, low-score warning
 - Coral #F56565 — wrong answers only
 
-### Grammar Visualization Colors (HIGH CONTRAST, zero purple/grey):
+### POS Tag Colors (Universal Word Tag System, owner-approved 2026-03-20):
+Every POS tag gets its own maximally distinct color. No two types share a color.
 
-**Word Type** (shared across all languages):
-- Acid green #00C853 — verbs
-- Hot orange #FF6D00 — adjectives
-- Hot pink #FF1744 — modifiers (adverbs, pronouns)
-- Electric blue #2979FF — nouns
-- Vivid yellow #C6A700 — structure words
+| POS Tag   | Color          | Hex     | Usage |
+|-----------|----------------|---------|-------|
+| verb/aux  | Acid green     | #00C853 | Action words |
+| adj       | Hot orange     | #FF6D00 | Descriptors |
+| adv       | Hot pink       | #FF1744 | Modifiers |
+| pron      | Magenta        | #D500F9 | Stand-in words |
+| noun      | Electric blue  | #2979FF | Things (+ gender understripe) |
+| prep      | Indigo         | #6366F1 | Spatial/relational |
+| conj      | Vivid yellow   | #C6A700 | Connectors |
+| num       | Warm coral     | #FF5252 | Counting words |
+| intj      | Lime           | #76FF03 | Expressive words |
+| part      | Warm bronze    | #8D6E63 | Functional particles |
 
-**Gender** (all gendered languages):
+**Gender** (nouns + articles when gender sub-tag present):
 - Vivid sky blue #0091FF — masculine (der/le/el/de)
 - Deep crimson #D50000 — feminine (die/la/la)
 - Vivid amber #FF8F00 — neuter (das, German only)
 - Deep teal #00BFA5 — plural (les/los/las)
 - Warm bronze #8D6E63 — indefinite (ein/un/een)
 - Gold #E8960A — Dutch het (permanent)
+
+**Color System Architecture (3 tiers)**:
+- **Tier 1** (DONE): Default palette above. Every POS + gender has a fixed color.
+- **Tier 2** (DONE): In-lesson legend panel. Gender tab for gendered langs, Word Type tab for all. Candy pill toggles per category. Edit mode to disable categories.
+- **Tier 3** (future): Full user customization. Color picker per POS/gender tag in settings. Tier 1 colors become overridable defaults.
 
 ### Fonts:
 - Quicksand — display headings
