@@ -7840,10 +7840,17 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     return Object.values(db).filter(e=>{
       if(!e.isLemma)return false; // only lemmas (teach-card words + curated function words)
       if(e.pos==="unknown")return false;
-      const w=(e.word||"").trim();
+      const w=(e.display||e.word||"").trim();
       if(w.includes(" "))return false;
       if(w.includes("("))return false;
+      if(w.includes("→"))return false; // conjugation pairs belong in word entry, not list
       if(w.startsWith("-"))return false; // grammar suffixes belong in Grammar tab
+      // Language-specific: Korean vocab must be hangul (syllables or jamo) + optional ~ prefix
+      if(lang==="ko"){
+        const raw=w.replace(/^~/,""); // strip ~ prefix for particles
+        if(!raw)return false;
+        if(!/^[\uAC00-\uD7AF\u3131-\u3163]+$/.test(raw))return false; // hangul only
+      }
       return true;
     }).sort((a,b)=>(a.word||"").localeCompare(b.word||""));
   },[lang]);
