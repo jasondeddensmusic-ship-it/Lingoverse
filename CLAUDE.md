@@ -418,33 +418,35 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 - Gold #E8960A — Dutch het article, low-score warning
 - Coral #F56565 — wrong answers only
 
-### POS Tag Colors (Universal Word Tag System, owner-approved 2026-03-20):
-Every POS tag gets its own maximally distinct color. No two types share a color.
+### POS Tag Colors (Maximally Distinct Ink System, owner-approved 2026-03-20):
+Muted ink tones on lavender compound bubbles. No neon. No underlines. No two types share a hue.
 
-| POS Tag   | Color          | Hex     | Usage |
-|-----------|----------------|---------|-------|
-| verb/aux  | Acid green     | #00C853 | Action words |
-| adj       | Hot orange     | #FF6D00 | Descriptors |
-| adv       | Hot pink       | #FF1744 | Modifiers |
-| pron      | Magenta        | #D500F9 | Stand-in words |
-| noun      | Electric blue  | #2979FF | Things (+ gender understripe) |
-| prep      | Indigo         | #6366F1 | Spatial/relational |
-| conj      | Vivid yellow   | #C6A700 | Connectors |
-| num       | Warm coral     | #FF5252 | Counting words |
-| intj      | Lime           | #76FF03 | Expressive words |
-| part      | Warm bronze    | #8D6E63 | Functional particles |
+| POS Tag   | Color          | Light   | Dark    | Usage |
+|-----------|----------------|---------|---------|-------|
+| verb/aux  | Forest green   | #2E7D32 | #66BB6A | Action words |
+| adj       | Burnt orange   | #E65100 | #FF8A65 | Descriptors |
+| adv       | Dark teal      | #00695C | #4DB6AC | Modifiers |
+| pron      | Deep purple    | #7B1FA2 | #CE93D8 | Stand-in words |
+| noun      | Navy blue      | #1565C0 | #64B5F6 | Things (NO underline) |
+| prep      | Blue-grey slate| #37474F | #90A4AE | Spatial/relational |
+| conj      | Dark gold      | #8D6E00 | #D4A017 | Connectors |
+| num       | Crimson        | #B71C1C | #EF5350 | Counting words |
+| intj      | Hot pink       | #C2185B | #F06292 | Expressive words |
+| part      | Dark brown     | #5D4037 | #A1887F | Functional particles |
 
 **Gender** (nouns + articles when gender sub-tag present):
-- Vivid sky blue #0091FF — masculine (der/le/el/de)
-- Deep crimson #D50000 — feminine (die/la/la)
-- Vivid amber #FF8F00 — neuter (das, German only)
-- Deep teal #00BFA5 — plural (les/los/las)
-- Warm bronze #8D6E63 — indefinite (ein/un/een)
+- Navy blue #0D47A1 — masculine (der/le/el/de)
+- Deep crimson #B71C1C — feminine (die/la/la)
+- Burnt orange #E65100 — neuter (das, German only)
+- Deep teal #00695C — plural (les/los/las)
+- Dark brown #5D4037 — indefinite (ein/un/een)
 - Gold #E8960A — Dutch het (permanent)
+
+**Grammar Legend**: Flex-wrap toggle pills (borderRadius 22, padding 9px 16px). Click to expand description in compound bubble below. Edit mode for per-category toggles.
 
 **Color System Architecture (3 tiers)**:
 - **Tier 1** (DONE): Default palette above. Every POS + gender has a fixed color.
-- **Tier 2** (DONE): In-lesson legend panel. Gender tab for gendered langs, Word Type tab for all. Candy pill toggles per category. Edit mode to disable categories.
+- **Tier 2** (DONE): In-lesson flex-wrap toggle pills. Gender tab for gendered langs, Word Type tab for all. Edit mode to disable categories.
 - **Tier 3** (future): Full user customization. Color picker per POS/gender tag in settings. Tier 1 colors become overridable defaults.
 
 ### Fonts:
@@ -1211,12 +1213,12 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 2. **D115: Language-specific settings panel V1** — per-language grammar filters, VerumLingua bubble style, mobile bottom sheet, desktop floating panel **(DONE 2026-03-19, PR #67)**. Known gaps: understripe dropdown, bold/italic/dotted controls, full settings page in profile, Korean koreanHl integration. See `docs/SETTINGS_PANEL_HANDOFF.md`.
 3. **D116: Vocab page V6 redesign** — compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes working. Mobile bottom sheet. **(DONE 2026-03-19)**
 4. **D117: Korean Deep Dictionary System** — dictionary.js + korean-conjugation.js + function-words-ko.js. WORD_DB with isLemma gating, conjugation engine, form-to-lemma reverse index, 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related), morpheme family index, Korean Browse tab with consonant grouping. **(DONE 2026-03-20)** Known gaps: Grammar tab shows raw teach cards instead of organized grammar reference (needs category-based reorganization pulling tips + verb_tables + patterns). White screen crash reported on production word click (not reproducible in dev).
-5. **Korean WORD_DB enrichment from official TOPIK/CEFR word lists** — Load official findable TOPIK vocabulary by CEFR level into WORD_DB with proper POS tags, levels, and lemma grouping. This is the foundation for ALL dictionary features across all languages. Start with Korean as pilot, then replicate for Dutch/German/French/Spanish.
-6. **Grammar tab overhaul** — Replace flat teach-card dump with organized grammar reference pulling from 323 tip cards + 7 verb_tables + 85 real grammar patterns. Categorize by topic (particles, conjugation, tense, negation, honorifics, connectors, sentence endings). Each entry shows rule, formation, examples, unit link.
-7. **New word card format prototype** — 2-bubble dialogues + fun info bottom section (German first, per owner decision)
-8. **Story dialogue system prototype** — protagonist setup, episode format (ONE language). Vision brainstormed: Verumius IS the protagonist, sitcom sketch format, comedy+adventure growing with CEFR, core cast per language culture.
+5. **D118: Grammar legend + POS color polish** — Maximally distinct POS colors (10 hues: green, orange, teal, blue, gold, purple, slate, crimson, pink, brown). Grammar legend changed to flex-wrap toggle pills. Noun underline removed. Story bubble borderRadius 22 -> 14 (more rectangular). DeepDive universalHl consistency. German deep dictionary (conjugation engine, strong/mixed/modal/auxiliary verbs). **(DONE 2026-03-20)**
+6. **D119: German curriculum + story planning** — **NEXT SESSION**. Full planning pass: catalogue all CEFR A1-B2 concepts for German, design story arcs per unit (Verumius in Germany), define cast of characters, plan interleaved lesson flow. German is the FIRST language to get the full rehaul treatment (per owner decision). This is a PLANNING session only. No code until the plan is approved.
+7. **Korean WORD_DB enrichment from official TOPIK/CEFR word lists** — Load official findable TOPIK vocabulary by CEFR level into WORD_DB with proper POS tags, levels, and lemma grouping. Foundation for all dictionary features across all languages.
+8. **Grammar tab overhaul** — Replace flat teach-card dump with organized grammar reference pulling from 323 tip cards + 7 verb_tables + 85 real grammar patterns. Categorize by topic (particles, conjugation, tense, negation, honorifics, connectors, sentence endings). Each entry shows rule, formation, examples, unit link.
 9. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
-10. **Full curriculum restructure** — rewrite units to new format, one language at a time
+10. **Full curriculum restructure** — rewrite units to new format, one language at a time (German first)
 11. **Content salvage** — export and redistribute old dialogue content
 12. **Full platform sweep** — apply new standards across all 5 languages
 
