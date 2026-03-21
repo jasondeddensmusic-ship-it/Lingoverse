@@ -26,7 +26,7 @@ Phase 1 used context-free tokenizer guessing to classify words. This caused:
 8. **Understripes** have their own colors for subcategories (gender + word type = text color + understripe)
 9. **Complete dictionary** from official exam vocab lists (future) + function word lists + teach card extraction + example extraction
 10. **Mobile-first**: bottom-sheet popups on mobile, centered modal on desktop
-11. **Token-efficient infrastructure**: dictionary becomes curriculum planning tool, eliminates manual P34/P52 audits
+11. **Token-efficient infrastructure**: dictionary becomes curriculum planning tool, eliminates manual PP34/PP52 audits
 
 ## Complete POS Color Map
 
@@ -140,7 +140,7 @@ BottomSheet (mobile) / Modal (desktop). Tabbed WordBubble. Fix peekhole.
 | `src/data/dictionary.js` | REWRITE | WORD_DB + WORD_INTRO_MAP builders |
 | `src/data/wordlists/function-words-*.js` | NEW (5 files) | POS-tagged function word lists |
 | `src/data/metadata.js` | MODIFY | Remove LANG_TOKENIZER.grammarColors (moved to WORD_DB) |
-| `src/lingoverse.jsx` | REWRITE sections | universalHl(), toggle/settings, popups |
+| `src/verumlingua.jsx` | REWRITE sections | universalHl(), toggle/settings, popups |
 
 ## Key Line Numbers (current, will shift)
 

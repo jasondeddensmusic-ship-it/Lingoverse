@@ -27,15 +27,15 @@
 
 ## 2. PIPELINE COMPLIANCE
 
-### P48 (Step Type): ALL PASS
+### PP48 (Step Type): ALL PASS
 Zero fb steps with multi-blank across all 5 languages.
 
-### P49 (No CEFR in Learner Content): ALL FIXED
+### PP49 (No CEFR in Learner Content): ALL FIXED
 - Spanish: 1 fixed (esp17l8 step 15)
 - French: 2 fixed (fre30l4 step 12, fre30l7 step 17)
 - Korean: 3 fixed (kou20l9 step 21, kou20l10 step 24, kou30l10 step 18)
 
-### P22c (No Em-Dashes in Content Strings):
+### PP22c (No Em-Dashes in Content Strings):
 - Spanish: 0 in content (42 only in comments)
 - German: 0
 - French: 0
@@ -43,7 +43,7 @@ Zero fb steps with multi-blank across all 5 languages.
 - Korean: 178 fixed (all were in content strings, replaced with `: ` or `. `)
 - Arabic: 10 fixed by agent
 
-### P8 (Hint-Reveals) - Issues Found:
+### PP8 (Hint-Reveals) - Issues Found:
 | Language | Total Flagged | Severe (ans > 2 chars) | Fixed |
 |----------|--------------|------------------------|-------|
 | Spanish | 16 | ~10 genuine | Agent fixing |
@@ -52,7 +52,7 @@ Zero fb steps with multi-blank across all 5 languages.
 | Dutch | 54 + 134 (fb) | ~100 genuine | Agent fixing |
 | Korean | 158 | 12 severe + 123 pedagogical | 12 severe fixed manually |
 
-### P44 (Lazy Hints):
+### PP44 (Lazy Hints):
 - Dutch: 33 hints under 15 chars
 - Korean: 15 hints under 15 chars
 Note: Many are concise but effective. Low priority.
@@ -67,7 +67,7 @@ All 5 languages PASS infrastructure checks:
 - FK_PLAYTHROUGH: 5/5 complete
 - FK_GATE_QUIZ: 5/5 complete
 - ARTICLE_SYSTEMS: 4/4 (Korean has no articles - correct)
-- Unit file imports: 5/5 in lingoverse.jsx
+- Unit file imports: 5/5 in verumlingua.jsx
 - UNITS assembly: All spreads present
 
 Minor gaps (non-blocking):
@@ -131,8 +131,8 @@ Gap identified:
 - Spanish: Conjugation Tower (2 references)
 
 ### Article Colors: ALL CORRECT
-- Dutch: de=blue (#4A8FE7), het=gold (#E8960A)
-- German: der=blue (#4A8FE7), die=coral (#E8475E), das=purple (#7B5EE8)
+- Dutch: de=blue (#4A8FE7), het=emerald green (#00796B)
+- German: der=blue (#4A8FE7), die=coral (#E8475E), das=emerald green (#00796B)
 - French: le=blue (#4A8FE7), la=coral (#E8475E)
 - Spanish: el=blue (#4A8FE7), la=coral (#E8475E)
 
@@ -148,18 +148,18 @@ Gap identified:
 ## 7. FIXES APPLIED THIS SESSION
 
 1. **3 CRITICAL mc ans mismatches** fixed (Korean 2, Dutch 1)
-2. **6 P49 CEFR labels** removed from learner-facing quiz content
+2. **6 PP49 CEFR labels** removed from learner-facing quiz content
 3. **178 em-dashes** replaced in Korean content strings
 4. **10 em-dashes** replaced in Arabic content strings
-5. **12 severe P8 hint-reveals** rewritten in Korean
-6. **P8 hint-reveals** being fixed by agents in German, Spanish, French, Dutch
+5. **12 severe PP8 hint-reveals** rewritten in Korean
+6. **PP8 hint-reveals** being fixed by agents in German, Spanish, French, Dutch
 
 ---
 
 ## 8. RECOMMENDATIONS
 
 ### High Priority (should fix before next release):
-1. Fix remaining P8 hint-reveals in all languages
+1. Fix remaining PP8 hint-reveals in all languages
 2. Add Spanish A1 body parts lesson (1 lesson, ~18 steps)
 3. Add German A2 imperative lesson (1 lesson, ~18 steps)
 
@@ -167,8 +167,8 @@ Gap identified:
 4. Add Spanish A2 animals vocabulary lesson
 5. Uplift Dutch A1-A2 under-density lessons (22 lessons below 18 steps)
 6. Uplift Korean A1-A2 under-density lessons (41 lessons below 20 steps)
-7. Fix Dutch P44 lazy hints (33 items)
-8. Fix Korean P44 lazy hints (15 items)
+7. Fix Dutch PP44 lazy hints (33 items)
+8. Fix Korean PP44 lazy hints (15 items)
 
 ### Low Priority (cosmetic):
 9. Standardize Korean A1 unit colors to purple
@@ -180,7 +180,7 @@ Gap identified:
 ## CONCLUSION
 
 All 5 languages (Korean, Dutch, German, French, Spanish) are structurally sound and CEFR-compliant at the A1-B2 level. No language is "broken" or unusable. The most significant issues found were:
-- P8 hint-reveals across all languages (most being fixed by agents)
+- PP8 hint-reveals across all languages (most being fixed by agents)
 - Minor CEFR vocabulary gaps in Spanish and German
 - Legacy under-density in Dutch and Korean A1-A2 content
 

@@ -33,11 +33,11 @@ Polyglots do not learn languages the way textbooks teach them. They:
 3. **Learn systems, not lists.** They find the underlying logic and exploit it. Sino-Korean morphemes. German case endings. French verb families. Arabic trilateral roots. The system generates infinite words from finite pieces.
 4. **Treat culture as grammar.** Korean 눈치, Dutch directness, Arabic hospitality norms, German formality rules — these are not fun facts. They are the explanation for why the grammar works the way it does.
 
-**VerumLingua encodes this experience into curriculum architecture.** Every structural decision — the P26 spiral, the LEGO morpheme system, the Train metaphor, the JRTF flags, the cultural anchors — is a direct translation of how experienced language learners actually acquire languages.
+**VerumLingua encodes this experience into curriculum architecture.** Every structural decision — the PP26 spiral, the LEGO morpheme system, the Train metaphor, the JRTF flags, the cultural anchors — is a direct translation of how experienced language learners actually acquire languages.
 
 ## The Four Pillars
 
-### Pillar 1: Show Before Name (The P26 Spiral)
+### Pillar 1: Show Before Name (The PP26 Spiral)
 Grammar is shown in natural use for 2–4 units before it is formally labeled. By the time the name arrives, the learner's instinct already knows it. The name is confirmation, not instruction. This is not optional. Do not name grammar early to reduce churn or please a growth metric.
 
 ### Pillar 2: The LEGO Principle
@@ -194,13 +194,13 @@ Units and lessons must reflect the actual complexity of the language, not a pred
 
 **Rule:** When in doubt, add lessons. A learner who finishes a longer course having truly internalized the language is worth more than a learner who rushed through a shorter course and retained nothing. This product is not competing on shortest time to completion. It is competing on deepest comprehension.
 
-## The Anti-Cramming Doctrine (P54, D110) — THE MOST IMPORTANT CONTENT RULE
+## The Anti-Cramming Doctrine (PP54, D110) — THE MOST IMPORTANT CONTENT RULE
 
 This doctrine supersedes and strengthens the Unit Count Doctrine above. Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet.
 
 **The core principle:** Approach each language open-mindedly. FIRST catalogue ALL concepts that CEFR requires at each level for this specific language. THEN cross-reference against established language learning models, textbooks, and official exam frameworks. THEN determine how many units and lessons are needed. THEN build. Never start with "30 units, 8 lessons each" and work backwards.
 
-**CEFR Distribution Rules (P51):**
+**CEFR Distribution Rules (PP51):**
 - B1+B2 combined must NEVER have fewer units than A1+A2 combined. Advanced levels are where real learning depth lives.
 - Gold standard distribution (Korean/Dutch): 6 A1 + 4 A2 + 10 B1 + 10 B2 = 30 units. This is NOT mandatory for all languages, but deviations must be justified by the language's specific needs.
 - Sub-level labels must be consistent within each language (no gaps like A1.1 -> A1.4 skipping A1.2/A1.3).
@@ -208,9 +208,9 @@ This doctrine supersedes and strengthens the Unit Count Doctrine above. Content 
 **The violation that created this doctrine (D110):**
 In March 2026, German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) were all built with a mechanical template that front-loaded A-level content and compressed B-level content. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection. Twelve audit agents running for hours did not. This is now the most important content rule in the entire pipeline.
 
-## Strict Teach-Before-Use (P52)
+## Strict Teach-Before-Use (PP52)
 
-Tightening of P34. "Taught" means the word has its OWN dedicated teach card.
+Tightening of PP34. "Taught" means the word has its OWN dedicated teach card.
 
 - A word appearing ONLY in another card's `example` field does NOT count as taught vocabulary. The learner has no card to review.
 - A word mentioned ONLY in a `deepDive` does NOT count as taught vocabulary.
@@ -218,7 +218,7 @@ Tightening of P34. "Taught" means the word has its OWN dedicated teach card.
 - If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`.
 - The field names `nl` (target) and `en` (source) are legacy Dutch-English naming. Future rename to `tgt`/`src` tracked as scaling blocker #6.
 
-## Vocabulary Completeness Doctrine (P55, D112) — CERTIFICATION-GRADE STANDARD
+## Vocabulary Completeness Doctrine (PP55, D112) — CERTIFICATION-GRADE STANDARD
 
 Every language must achieve certification-grade vocabulary completeness. A learner who completes VerumLingua A1-B2 must be able to pass the official certification exam at each level.
 
@@ -243,7 +243,7 @@ Every language must achieve certification-grade vocabulary completeness. A learn
 
 **Why this exists (D112)**: No previous audit ever verified actual vocabulary against official exam lists. The question was always "does content exist?" never "is EVERY required word taught?" A learner who masters grammar but encounters unknown vocabulary on the exam loses confidence in the platform.
 
-## Concept-Driven Unit Sizing (P56, D112)
+## Concept-Driven Unit Sizing (PP56, D112)
 
 Unit count is determined by cataloguing concepts, NOT by applying templates. FSI language difficulty MUST affect expectations.
 
@@ -253,11 +253,11 @@ Unit count is determined by cataloguing concepts, NOT by applying templates. FSI
 
 **A Category V language with the same unit count as a Category I language is AUTOMATICALLY SUSPICIOUS.** Korean having 30 units while Spanish also has 30 units needs explicit justification beyond "we used the same template."
 
-## Zero Grammar Gaps (P57, D112)
+## Zero Grammar Gaps (PP57, D112)
 
 Every grammar construct on official exam lists must be: (1) taught (teach/tip card), (2) practiced (3+ quiz steps), (3) recycled (2+ later lessons). Audits must produce COMPLETE grammar inventory tables. Zero gaps.
 
-## Communicative Functions Coverage (P58, D112)
+## Communicative Functions Coverage (PP58, D112)
 
 CEFR tests what learners can DO. Every communicative function at each level (A1: introduce self, order food, tell time; B1: express opinions, narrate stories; B2: present arguments, negotiate, write essays) must map to practice lessons. A function without practice = GAP.
 
@@ -318,7 +318,7 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 | Onboarding flow | ✅ Live |
 | Foundations system (playthrough + gate quiz + knowledge) | ✅ Live |
 | Flag/feedback system | ✅ Live |
-| Anti-leak question system (P8) | ✅ Enforced |
+| Anti-leak question system (PP8) | ✅ Enforced |
 | Board mode lessons | ✅ Live |
 | RTL support | ✅ Arabic renders correctly |
 
@@ -333,7 +333,7 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 
 ## Curriculum Status
 
-> **Note**: All unit distributions are concept-driven per P56. There is NO universal gold standard distribution. Each language's unit count is determined by cataloguing the concepts that need teaching at each CEFR level, not by applying a template.
+> **Note**: All unit distributions are concept-driven per PP56. There is NO universal gold standard distribution. Each language's unit count is determined by cataloguing the concepts that need teaching at each CEFR level, not by applying a template.
 
 | Language | Units | Lessons | Steps | Avg | Status |
 |----------|-------|---------|-------|-----|--------|
@@ -403,7 +403,7 @@ AFTER:
 /data/french-units.json
 /data/spanish-units.json
 /data/arabic-units.json
-lingoverse.jsx  ← engine only, ~500KB
+verumlingua.jsx  ← engine only, ~500KB
 ```
 
 ## Phase 3: Audio
@@ -419,13 +419,13 @@ Chat interface. Claude API. Context-aware (knows learner's completed lessons, we
 
 # PART 7: WHAT IS EXCEPTIONAL — PROTECT IT
 
-**The P26 spiral.** Non-negotiable. Grammar felt before named. The delay is the product. Do not compress it.
+**The PP26 spiral.** Non-negotiable. Grammar felt before named. The delay is the product. Do not compress it.
 
 **The LEGO morpheme decomposition.** Every compound decoded on first appearance. Every language.
 
 **Cultural anchors as explanation, not decoration.** Every unit, every language.
 
-**The anti-leak question system (P8).** Every question unanswerable without the target skill.
+**The anti-leak question system (PP8).** Every question unanswerable without the target skill.
 
 **The JRTF (Just Remember This Form) batching.** Irregular patterns held back until they can be taught as a system, not exceptions.
 
@@ -443,7 +443,7 @@ Chat interface. Claude API. Context-aware (knows learner's completed lessons, we
 
 4. **Flag grammar uncertainty.** `// ⚠️ VERIFY: [specific concern]`. Do not commit uncertain grammar. The founder reviews flags. Uncertainty without a flag is how errors ship.
 
-5. **The P26 schedule is law.** Named grammar items have scheduled harvest lessons. Do not harvest early. Every named concept has been seeded for 2–4 units first.
+5. **The PP26 schedule is law.** Named grammar items have scheduled harvest lessons. Do not harvest early. Every named concept has been seeded for 2–4 units first.
 
 6. **Every unit needs a cultural anchor.** Not a fun fact. An explanation of WHY the language works the way it does.
 

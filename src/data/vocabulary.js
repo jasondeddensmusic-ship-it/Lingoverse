@@ -1,4 +1,4 @@
-// src/data/vocabulary.js — Extracted from lingoverse.jsx (structural refactor, no content changes)
+// src/data/vocabulary.js — Extracted from verumlingua.jsx (structural refactor, no content changes)
 // Contains: TEXT_KEYS, tk(), UI, t(), I18N, localize(),
 // OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard,
 import { getCefrBandColor } from './metadata.js';
@@ -2400,7 +2400,7 @@ export const ACHS = [
 // Each language with gendered articles gets its own color map.
 // Colors are chosen for cross-language consistency where possible:
 //   Coral/red  = most common article (nl:de, de:die, fr:le/la)
-//   Purple     = neuter (nl:het, de:das)
+//   Emerald green = neuter (nl:het, de:das)
 //   Blue       = masculine-only (de:der, fr:le)
 //   Teal/green = reserved for future (e.g. Arabic definite)
 //
@@ -2415,7 +2415,7 @@ export const ARTICLE_SYSTEMS = {
     stats: { de: "≈ 75% of nouns", het: "≈ 25% of nouns" },
     colors: {
       de:  { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
-      het: { bg: "linear-gradient(135deg, #E8960A, #D4880C)", shadow: "rgba(232,150,10,0.25)", pill: "#FFF5E0", pillText: "#D4880C" },
+      het: { bg: "linear-gradient(135deg, #00796B, #00695C)", shadow: "rgba(0,121,107,0.25)", pill: "#E0F5F2", pillText: "#00695C" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("de "))return "de"; if(l.startsWith("het "))return "het"; return "none"; }
   },
@@ -2426,7 +2426,7 @@ export const ARTICLE_SYSTEMS = {
     colors: {
       der: { bg: "linear-gradient(135deg, #0091FF, #0070CC)", shadow: "rgba(0,145,255,0.25)", pill: "#E0F0FF", pillText: "#0070CC" },
       die: { bg: "linear-gradient(135deg, #D50000, #B00000)", shadow: "rgba(213,0,0,0.25)", pill: "#FFE0E0", pillText: "#B00000" },
-      das: { bg: "linear-gradient(135deg, #FF8F00, #E07D00)", shadow: "rgba(255,143,0,0.25)", pill: "#FFF0D9", pillText: "#E07D00" },
+      das: { bg: "linear-gradient(135deg, #00796B, #00695C)", shadow: "rgba(0,121,107,0.25)", pill: "#E0F5F2", pillText: "#00695C" },
     },
     detect: w => { const l=(w||"").toLowerCase(); if(l.startsWith("der "))return "der"; if(l.startsWith("die "))return "die"; if(l.startsWith("das "))return "das"; return "none"; }
   },

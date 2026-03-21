@@ -1,6 +1,6 @@
 # LingoVerse Language Integration Pipeline
 
-> Extracted from src/lingoverse.jsx on 2026-03-21
+> Extracted from src/verumlingua.jsx on 2026-03-21
 > Original location: lines 4005-4099
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

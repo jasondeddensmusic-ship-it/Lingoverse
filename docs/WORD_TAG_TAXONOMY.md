@@ -80,7 +80,7 @@ These three layers power:
 1. Articles (`art`): ALWAYS use gender color from `sub` tags, never POS color.
    - `m` = #0091FF (vivid sky blue / masculine)
    - `f` = #D50000 (deep crimson / feminine)
-   - `n` = #FF8F00 (vivid amber / neuter)
+   - `n` = #00796B (emerald green / neuter)
    - `pl` = #00BFA5 (deep teal / plural)
    - `common` = #0091FF (Dutch de-words)
    - `indef` = #8D6E63 (warm bronze / indefinite)

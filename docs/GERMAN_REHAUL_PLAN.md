@@ -20,7 +20,7 @@ German gets **36 units** (up from 30) with a **6-6-12-12** CEFR distribution (fi
 
 ---
 
-## 2. Concept Catalogue (P56)
+## 2. Concept Catalogue (PP56)
 
 ### 2a. Grammar Constructs by Level (116 total)
 
@@ -190,7 +190,7 @@ German gets **36 units** (up from 30) with a **6-6-12-12** CEFR distribution (fi
 | B1 | 7 | **12** | 33 NEW grammar constructs (most of any level). Passive, Konjunktiv II, relative clauses, genitive, infinitive clauses all need space. Adventure arc needs 12 episodes for proper pacing. ~1,100 new words. 2 extra units vs old plan allows each major grammar area its own unit. |
 | B2 | 6 | **12** | 32 constructs + 1,600+ new words + academic/professional register. Current 6 units are massively compressed. Dramedy arc needs room for character resolution. 12 episodes allow proper depth for advanced register, idioms, exam prep, and cultural immersion. |
 
-**P51 check**: B1+B2 (24) >= A1+A2 (12). PASS.
+**PP51 check**: B1+B2 (24) >= A1+A2 (12). PASS.
 **FSI check**: German is Category II (~900 hours). 36 units at ~8 lessons each = 288 lessons. Spanish (Category I, 600 hours) has 30 units / 240 lessons. German having 6 more units is well justified by case/gender/word-order complexity and the FSI difficulty gap.
 **Owner decision (2026-03-21)**: Owner explicitly chose 36 units. "THERE IS NO GOLD STANDARD! EACH LANGUAGE GETS WHAT IT NEEDS."
 
@@ -378,7 +378,7 @@ Each of the 36 units follows the interleaved pattern (template, not mandate):
 **Density**: 8 lessons per unit, ~15-20 steps average = ~120-160 steps per unit.
 **Total estimate**: 36 units x ~140 steps = ~5,040 steps (slightly more than current ~4,924).
 
-Some units may need 9-10 lessons (heavy grammar units at B1/B2). P54 applies: the content decides.
+Some units may need 9-10 lessons (heavy grammar units at B1/B2). PP54 applies: the content decides.
 
 ---
 
@@ -411,10 +411,10 @@ Some units may need 9-10 lessons (heavy grammar units at B1/B2). P54 applies: th
 - Focus: academic register, reported speech, complex connectors, abstract vocabulary
 
 ### Phase 6: Quality Audit (1-2 sessions)
-- Full P53 15-item checklist
-- P55 vocabulary completeness vs Goethe-Wortliste
-- P57 grammar inventory table (all 116 constructs mapped)
-- P8 anti-leak verification
+- Full PP53 15-item checklist
+- PP55 vocabulary completeness vs Goethe-Wortliste
+- PP57 grammar inventory table (all 116 constructs mapped)
+- PP8 anti-leak verification
 
 **Total estimate: 16-22 sessions**
 
@@ -429,12 +429,12 @@ Some units may need 9-10 lessons (heavy grammar units at B1/B2). P54 applies: th
 
 ## 8. Constraints Checklist
 
-- [x] P54 Anti-Cramming: 36 units from concept catalogue, not template
-- [x] P55 Vocabulary: Targets 5,000-6,000 words (Goethe-Wortliste + polyglot expansion)
-- [x] P56 Concept-Driven: 116 constructs catalogued, then unit count determined
-- [x] P57 Zero Grammar Gaps: All 116 constructs will be taught + practiced 3+ + recycled 2+
-- [x] P58 Communicative Functions: 60 functions mapped across 36 units
-- [x] P51 CEFR Distribution: 6-6-12-12 (B1+B2=24 >= A1+A2=12)
+- [x] PP54 Anti-Cramming: 36 units from concept catalogue, not template
+- [x] PP55 Vocabulary: Targets 5,000-6,000 words (Goethe-Wortliste + polyglot expansion)
+- [x] PP56 Concept-Driven: 116 constructs catalogued, then unit count determined
+- [x] PP57 Zero Grammar Gaps: All 116 constructs will be taught + practiced 3+ + recycled 2+
+- [x] PP58 Communicative Functions: 60 functions mapped across 36 units
+- [x] PP51 CEFR Distribution: 6-6-12-12 (B1+B2=24 >= A1+A2=12)
 - [x] Vision doc compliance: 2-bubble cards, story system, interleaved flow
 - [x] FSI Category II: 36 units justified for ~900 class hours (more than Cat I languages)
 

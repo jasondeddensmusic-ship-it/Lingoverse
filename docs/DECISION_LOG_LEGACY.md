@@ -1,6 +1,6 @@
 # Decision Log (Legacy: D1-D85)
 
-> Extracted from src/lingoverse.jsx on 2026-03-21
+> Extracted from src/verumlingua.jsx on 2026-03-21
 > Original location: lines 486-2889
 > For D86+ decisions, see docs/DECISION_LOG.md
 
@@ -160,7 +160,7 @@
    Writing \n produces \n (correct single escape).
 
    VALIDATION: After any bulk content insert, run a byte-level check:
-     python3 -c "d=open('lingoverse.jsx','rb').read();
+     python3 -c "d=open('verumlingua.jsx','rb').read();
      print('BROKEN \\\\n:', d.count(b'\\\\\\\\n'))"
    Result MUST be 0.
 

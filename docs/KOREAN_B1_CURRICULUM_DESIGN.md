@@ -17,7 +17,7 @@ B1 is the transition from survival Korean (A1-A2) to independent Korean. The lea
 
 ### 1.2 Core Design Principle: Harvest Before New
 
-The A1-A2 curriculum planted 12 grammar "seeds" (P26 Seed Registry) that were previewed but never formally drilled. B1's primary job is to HARVEST these seeds before introducing new patterns. This means:
+The A1-A2 curriculum planted 12 grammar "seeds" (PP26 Seed Registry) that were previewed but never formally drilled. B1's primary job is to HARVEST these seeds before introducing new patterns. This means:
 
 1. Every seed gets a dedicated harvest lesson that opens with "You have been seeing [X] since Unit Y"
 2. The harvest lesson formally names the pattern, drills it, and shows its full range
@@ -133,7 +133,7 @@ These units introduce complex grammar:
 
 ## 6. VOCABULARY STRATEGY
 
-### 6.1 Sino-Korean COMPOUND Decomposition (P24)
+### 6.1 Sino-Korean COMPOUND Decomposition (PP24)
 
 Every Sino-Korean word gets COMPOUND chip treatment on first appearance:
 ```
@@ -168,11 +168,11 @@ B1 naturally introduces more Konglish (팔로우, 바캉스, 호텔) and interne
 ### 7.1 Pipeline Rules Enforced
 
 Every lesson was built with these rules verified:
-- **P8 Anti-Leak**: All MC distractors are plausible same-category items
-- **P34 Vocab Gate**: Every quiz word has a prior teach card
-- **P44 Hint Quality**: Every hint provides concept-specific guidance
-- **P53 No Duplicates**: Every quiz question unique across all 195 lessons
-- **P56 Brace Balance**: Verified after every unit insertion (final: 5975/5975)
+- **PP8 Anti-Leak**: All MC distractors are plausible same-category items
+- **PP34 Vocab Gate**: Every quiz word has a prior teach card
+- **PP44 Hint Quality**: Every hint provides concept-specific guidance
+- **PP53 No Duplicates**: Every quiz question unique across all 195 lessons
+- **PP56 Brace Balance**: Verified after every unit insertion (final: 5975/5975)
 - **board:true**: Present on all 93 lessons
 - **No em-dashes**: Zero in content strings
 - **No bracket text**: Zero [noun]/[name] placeholders
@@ -181,8 +181,8 @@ Every lesson was built with these rules verified:
 
 After all 10 units were built, a full agent audit found 17 issues:
 - 10 duplicate quiz questions (rewrote with different sentences)
-- 4 P8 anti-leak borderline issues (1 fixed, 3 judged pedagogically valid as contrastive questions)
-- 2-3 P34 vocab gate violations (added teach cards for 한, 체면, 효도)
+- 4 PP8 anti-leak borderline issues (1 fixed, 3 judged pedagogically valid as contrastive questions)
+- 2-3 PP34 vocab gate violations (added teach cards for 한, 체면, 효도)
 - 1 em-dash in content (replaced with parentheses)
 
 All issues were fixed and committed before push.
@@ -238,7 +238,7 @@ B1 averages ~13.8 steps/lesson vs the A1-A2 target of 20-25. This is intentional
 
 ### 9.2 Contrastive Questions
 
-Some MC questions intentionally show both options in the question stem (e.g., "등산하기로 했어요 vs 등산하고 싶어요. Which is a firm plan?"). These technically violate P8 (answer visible in question) but are pedagogically essential for teaching pattern discrimination. Judged acceptable when the question tests UNDERSTANDING of the difference, not RECALL of a word.
+Some MC questions intentionally show both options in the question stem (e.g., "등산하기로 했어요 vs 등산하고 싶어요. Which is a firm plan?"). These technically violate PP8 (answer visible in question) but are pedagogically essential for teaching pattern discrimination. Judged acceptable when the question tests UNDERSTANDING of the difference, not RECALL of a word.
 
 ### 9.3 Grammar Ordering
 

@@ -1,8 +1,8 @@
 # Dutch V2 Curriculum Spine
 
-> Extracted from src/lingoverse.jsx on 2026-03-21
+> Extracted from src/verumlingua.jsx on 2026-03-21
 > Original location: lines 3121-3311
-> Grammar progression A1.1 to A2.2 + P26 Core Constructs Map
+> Grammar progression A1.1 to A2.2 + PP26 Core Constructs Map
 
 DUTCH V2 CURRICULUM SPINE — Grammar Progression A1.1 to A2.2
 ═══════════════════════════════════════════════════════════════════════
@@ -41,7 +41,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
      Vocab:   numbers 11-100, clock vocabulary (uur, half, kwart,
               over, voor), days (maandag-zondag), months, seasons,
               altijd/vaak/soms/nooit
-     P26 KEY: U3L2 "Regular Present Tense" is the ELABORATE lesson.
+     PP26 KEY: U3L2 "Regular Present Tense" is the ELABORATE lesson.
               U1-U2 introduce and use stam+t (named, shown). U3L2
               is where full drills and system quizzes begin.
      NOTES:   L1 (numbers) is pure vocabulary. L2 is the aha-moment
@@ -58,7 +58,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               (broodje, kopje, taartje), prices, first adjectives
               (lekker, groot, klein, warm, koud), graag/liever/
               het liefst
-     P26 KEY: Modal word order shown here but the term "verb-final"
+     PP26 KEY: Modal word order shown here but the term "verb-final"
               or "subordinate clause" must NOT be used until U9.
      NOTES:   Diminutives are culturally essential (broodje kroket,
               kopje koffie). Price numbers bridge from U3.
@@ -72,7 +72,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               baby), rooms (keuken, badkamer, slaapkamer, woonkamer,
               tuin), household objects, descriptive adjectives
               (groot, klein, oud, nieuw, mooi, lelijk)
-     P26 KEY: Separable verbs introduced here but the formal rule
+     PP26 KEY: Separable verbs introduced here but the formal rule
               ("prefix goes to end of clause") is shown, not named
               as a system. U6 extends with gaan + separable.
      NOTES:   Adjective agreement is the hardest A1 grammar point.
@@ -88,7 +88,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               locations (station, halte, luchthaven, centrum, markt),
               directions, transactional phrases (een kaartje,
               enkele reis, retour, welk perron)
-     P26 KEY: "Word order with modals" is shown in practice. The
+     PP26 KEY: "Word order with modals" is shown in practice. The
               formal V2/verb-final terminology waits until U9.
      NOTES:   Culture lesson on Dutch cycling is a reward/break.
               Transactional dialogue uses real NS/GVB vocabulary.
@@ -104,7 +104,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
      Vocab:   daily routine (ochtend, middag, avond, nacht, ontbijt,
               lunch, avondeten), time markers (eerst, dan, daarna,
               ten slotte)
-     P26 KEY: Perfect tense formally introduced HERE. Prior units
+     PP26 KEY: Perfect tense formally introduced HERE. Prior units
               must not use "voltooid deelwoord" or past participle
               terminology. The helper verb choice (zijn vs hebben)
               is the key discrimination skill.
@@ -122,7 +122,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               arm, been, buik, rug), feelings (blij, verdrietig, boos,
               moe, ziek, bang), medical (dokter, apotheek, recept,
               pijn, koorts)
-     P26 KEY: Comparatives/superlatives formally named here.
+     PP26 KEY: Comparatives/superlatives formally named here.
               Prior adjective content (U4 lekker, U5 groot) must
               not preview the -er/-st system.
      NOTES:   Imperative is simple but culturally loaded (Dutch
@@ -136,7 +136,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
      Vocab:   hobbies (voetbal, zwemmen, lezen, koken, muziek,
               schilderen, reizen), weather (regen, zon, wind, warm,
               koud, bewolkt), social (uitnodigen, afspreken, afzeggen)
-     P26 KEY: SUBORDINATE CLAUSE WORD ORDER formally named HERE.
+     PP26 KEY: SUBORDINATE CLAUSE WORD ORDER formally named HERE.
               This is the second-biggest grammar milestone after
               perfect tense. U4/U6 showed modal word order in
               practice but must not name the V-final rule.
@@ -151,7 +151,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               zag, at, dronk, schreef, las, sliep)
      Vocab:   narrative markers (toen, gisteren, vorige week, vroeger,
               opeens, plotseling), story vocabulary
-     P26 KEY: t-kofschip formally named HERE for past tense
+     PP26 KEY: t-kofschip formally named HERE for past tense
               (not the same as present tense stam+t from U3).
               Simple past -te vs -de depends on final consonant
               of the stam. This is the final major grammar rule.
@@ -160,7 +160,7 @@ Future AI sessions MUST consult this before writing ANY unit content.
               L8 is a celebration/completion step.
 
 ═══════════════════════════════════════════════════════════════════════
-P26 CORE CONSTRUCTS MAP — Introduce / Use / Elaborate Per Language
+PP26 CORE CONSTRUCTS MAP — Introduce / Use / Elaborate Per Language
 ═══════════════════════════════════════════════════════════════════════
 
   DUTCH:

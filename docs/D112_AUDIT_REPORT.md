@@ -52,25 +52,25 @@
 
 ---
 
-## STRUCTURAL AUDIT RESULTS (P53 Items 1-9)
+## STRUCTURAL AUDIT RESULTS (PP53 Items 1-9)
 
-### Item 1: CEFR Distribution (P51)
+### Item 1: CEFR Distribution (PP51)
 
 | Language | A1 | A2 | B1 | B2 | Status |
 |----------|----|----|----|----|--------|
 | Korean | 6 | 4 | 10 | 10 | Needs concept-driven re-evaluation. A2=4 flagged for Cat V |
-| Dutch (v2) | 6 | 4 | 10 | 10 | Needs concept-driven re-evaluation per P56 |
+| Dutch (v2) | 6 | 4 | 10 | 10 | Needs concept-driven re-evaluation per PP56 |
 | German | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
 | French | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
 | Spanish | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
 
-### Item 2: P8 Anti-Leak
+### Item 2: PP8 Anti-Leak
 Status: Previously audited in D109. Not re-checked in this session.
 
-### Item 3: P52 Teach-Before-Use
+### Item 3: PP52 Teach-Before-Use
 Status: PENDING full automated verification.
 
-### Item 4: P48 Step Type Correctness
+### Item 4: PP48 Step Type Correctness
 | Language | fb with {2}+ | Status |
 |----------|-------------|--------|
 | Korean | 0 | PASS |
@@ -79,7 +79,7 @@ Status: PENDING full automated verification.
 | French | 0 | PASS |
 | Spanish | 0 | PASS |
 
-### Item 5: P49 No Meta-Curriculum
+### Item 5: PP49 No Meta-Curriculum
 | Language | CEFR in quiz | Status |
 |----------|-------------|--------|
 | Korean | 4 (TOPIK references, not CEFR levels) | REVIEW |
@@ -88,7 +88,7 @@ Status: PENDING full automated verification.
 | French | 1 | FIX NEEDED |
 | Spanish | 0* | PASS |
 
-### Item 6: P22c No Em-Dashes
+### Item 6: PP22c No Em-Dashes
 | Language | Content em-dashes | Comment em-dashes | Status |
 |----------|------------------|-------------------|--------|
 | Korean | 0 | 97 | PASS (comments only) |
@@ -97,7 +97,7 @@ Status: PENDING full automated verification.
 | French | 0 | 0 | PASS |
 | Spanish | 0 | 42 | PASS (comments only) |
 
-### Item 7: P43 Density
+### Item 7: PP43 Density
 | Language | Min steps | Under-dense | Status |
 |----------|-----------|-------------|--------|
 | Korean | 18 | 25/311 | REVIEW |
@@ -180,8 +180,8 @@ Status: PENDING full automated verification.
 ## PRIORITY FIXES (THIS SESSION)
 
 ### Tier 1: Quick structural fixes
-1. French P49: 1 CEFR label in quiz content
-2. Korean P49: Review 4 TOPIK references in quiz content
+1. French PP49: 1 CEFR label in quiz content
+2. Korean PP49: Review 4 TOPIK references in quiz content
 
 ### Tier 2: Critical vocabulary domains (cross-language)
 These domains are missing across ALL 5 languages and are A1 essentials:
@@ -191,7 +191,7 @@ These domains are missing across ALL 5 languages and are A1 essentials:
 4. **Extended emotions** (bored, excited, worried, proud, surprised): 5 cards per language
 5. **Cardinal directions** (north, south, east, west): 4 cards per language
 
-### Tier 3: Unit count evaluation (P56)
+### Tier 3: Unit count evaluation (PP56)
 - German, French, Spanish: B2 has only 6 units vs 10 for Korean/Dutch
 - Korean A2: Only 4 units for Category V language
 
@@ -291,8 +291,8 @@ The "official exam requirement" numbers in the Executive Summary are ESTIMATES, 
 
 ### Validation Results
 - Build: PASS (Vite compiled successfully)
-- P48 (step types): PASS across all 18 lessons
-- P8 (anti-leak): Agents validated no leaks
+- PP48 (step types): PASS across all 18 lessons
+- PP8 (anti-leak): Agents validated no leaks
 - board:true: PASS on all 18 lessons
 - Density: All lessons 20-28 steps (minimum 18)
 
@@ -335,7 +335,7 @@ Multiple claims in CLAUDE.md about official vocabulary sources were WRONG:
 This was caught in Session 1 by Rule 14 official source verification and corrected in the audit report.
 
 ### Flaw 3: Template-based unit distribution
-German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) all used a mechanical template for CEFR level distribution instead of concept-driven sizing (P56). This front-loads A-level content while compressing B-level content. Flagged in D110 but not yet fixed. Korean A2 with only 4 units for a Category V language also flagged.
+German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) all used a mechanical template for CEFR level distribution instead of concept-driven sizing (PP56). This front-loads A-level content while compressing B-level content. Flagged in D110 but not yet fixed. Korean A2 with only 4 units for a Category V language also flagged.
 
 ### Flaw 4: A1 domain coverage gaps universal across all languages
 7 critical A1 vocabulary domains were missing or incomplete across ALL 5 languages simultaneously:
@@ -365,7 +365,7 @@ Future sessions should continue cross-language for A2+ domain gaps before switch
 
 ## NEXT SESSIONS NEEDED
 
-This audit reveals that achieving full certification-grade vocabulary (P55) requires adding approximately **3,000-4,500 new teach cards per language**, totaling **~17,000 new teach cards across all 5 languages**. This is a multi-session, multi-week project.
+This audit reveals that achieving full certification-grade vocabulary (PP55) requires adding approximately **3,000-4,500 new teach cards per language**, totaling **~17,000 new teach cards across all 5 languages**. This is a multi-session, multi-week project.
 
 ### Recommended session plan:
 1. **Session 1 (COMPLETE)**: Audit extraction, gap analysis, structural fixes, initial vocabulary additions for most critical A1 domains (months, body parts)
@@ -373,7 +373,7 @@ This audit reveals that achieving full certification-grade vocabulary (P55) requ
 3. **Session 3 (COMPLETE)**: A2 vocabulary domains: professions, animals, nature/weather, technology, health, transportation across all 5 languages (30 lessons, ~740 steps)
 4. **Sessions 4-8**: B1-B2 vocabulary expansion per language
 5. **Sessions 9-13**: Grammar completeness verification and gap-filling per language
-6. **Session 14**: Communicative functions mapping and final P53 verification
+6. **Session 14**: Communicative functions mapping and final PP53 verification
 
 ---
 
@@ -451,7 +451,7 @@ Six A2-level vocabulary domains were identified as gaps across all languages:
   - French: le/la articles, gender notes, A:/B: dialogues
   - Spanish: el/la articles, m/f profession forms, A:/B: dialogues
 - **Build**: Vite compilation PASS for all 5 languages
-- **Quality**: P48=0, P43 all 18+, board:true on all 30 lessons
+- **Quality**: PP48=0, PP43 all 18+, board:true on all 30 lessons
 
 ### Workflow Notes
 - Deployed 5 parallel Opus agents (one per language) per Rule 11/12
@@ -553,7 +553,7 @@ Six B1-level vocabulary domains added across all languages:
   - German: der/die/das articles, compound breakdowns, gender notes (m./f./n.), A:/B: dialogues
   - French: le/la articles, masculine/feminine forms, accent marks, A:/B: dialogues
   - Spanish: el/la articles, m/f profession forms, Latin American variants, A:/B: dialogues
-- **Validation**: P48=0, P22c=0, P49=0, board:true=30/30, brackets balanced across all files
+- **Validation**: PP48=0, PP22c=0, PP49=0, board:true=30/30, brackets balanced across all files
 
 ### Workflow Notes
 - 5 parallel Opus agents deployed (one per language) per Rule 11/12
@@ -575,4 +575,4 @@ Six B1-level vocabulary domains added across all languages:
 - **Session 5**: B2 vocabulary expansion (6 domains: academic, debate, literature, economics, law, register pairs)
 - **Sessions 6-8**: Additional A1-B2 vocabulary to close the remaining ~14,000 word gap
 - **Sessions 9-13**: Grammar completeness verification per language
-- **Session 14**: Communicative functions mapping and final P53 verification
+- **Session 14**: Communicative functions mapping and final PP53 verification

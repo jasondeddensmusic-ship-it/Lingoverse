@@ -284,7 +284,7 @@
 5. A pattern with Type "teach (grammar)" has a dedicated teach card
 
 ### For Content Creation
-1. Check this registry before adding new teach cards (P24 redundancy prevention)
+1. Check this registry before adding new teach cards (PP24 redundancy prevention)
 2. If the pattern already has a teach card, your new lesson must teach a NEW SKILL using it as vehicle
 3. Cross-reference the Unit column to understand sequencing dependencies
 
@@ -344,7 +344,7 @@ When adding new units or lessons to Korean:
 |---------|---------|------|-------|
 | de (common) | the (common gender) | U1+ | Blue #4A8FE7 |
 | het (neuter) | the (neuter gender) | U1+ | Gold #E8960A |
-| de/het system | Article assignment | U1 P26 tip | Named in "How Dutch Works" roadmap |
+| de/het system | Article assignment | U1 PP26 tip | Named in "How Dutch Works" roadmap |
 
 ### Verb Tenses
 | Pattern | Meaning | Unit |

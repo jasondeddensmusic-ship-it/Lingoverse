@@ -169,7 +169,7 @@ Unit N: [Theme] — Episode: "[Story Title]"
   L8: Story resolution + cultural deep dive
 ```
 
-This is a TEMPLATE, not a mandate. P54 (anti-cramming) still applies: some units need more vocab lessons, some need more grammar, some need longer stories. The content decides.
+This is a TEMPLATE, not a mandate. PP54 (anti-cramming) still applies: some units need more vocab lessons, some need more grammar, some need longer stories. The content decides.
 
 ### 4.3 Vocab-Only Lessons
 
@@ -195,7 +195,7 @@ All existing content across 5 languages is PRESERVED:
 ### 5.1 Language-Specific Categories
 
 **German:**
-- Articles: der (blue) / die (coral) / das (purple)
+- Articles: der (blue) / die (coral) / das (emerald green #00796B)
 - Cases: Nominativ / Akkusativ / Dativ / Genitiv (each with distinct color)
 - Verbs, Adjectives, Adverbs, Prepositions, Conjunctions, Pronouns
 
@@ -346,7 +346,7 @@ During the rehaul, as a dedicated session. Not mixed with other structural chang
 - `src/data/units-french.js` (~1.3MB)
 - `src/data/units-spanish.js` (~5,262 lines)
 - `src/data/units-other.js` (~170 lines)
-- `src/lingoverse.jsx` (engine renderers, ~100+ references)
+- `src/verumlingua.jsx` (engine renderers, ~100+ references)
 - `src/data/dictionary.js` (WORD_DB builder)
 
 ### 7.4 Method
@@ -386,9 +386,9 @@ This vision document SUPERSEDES:
 - The generic settings panel (now language-specific with full visualization controls)
 
 This vision document PRESERVES:
-- All pipeline quality rules (P8, P34, P43, P48, P49, P52, etc.)
-- The anti-cramming doctrine (P54)
-- The concept-driven unit sizing (P56)
+- All pipeline quality rules (PP8, PP34, PP43, PP48, PP49, PP52, etc.)
+- The anti-cramming doctrine (PP54)
+- The concept-driven unit sizing (PP56)
 - The agent deployment standards (Rules 1-16)
 - The engine architecture (React 18 + Vite, CSS-in-JS)
 - The deploy workflow (GitHub Actions to mijndomein.nl)

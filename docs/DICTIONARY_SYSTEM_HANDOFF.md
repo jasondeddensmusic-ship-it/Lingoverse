@@ -47,7 +47,7 @@
    - Source: NIKL (국립국어원) via github.com/julienshim/combined_korean_vocabulary_list
 
 ### Changes to Existing Files (Session 1 + Session 2)
-- **`src/lingoverse.jsx`**:
+- **`src/verumlingua.jsx`**:
   - Vocab list filter: shows only true lemmas (882 unique Korean words, down from 1,055)
   - Korean hangul-only filter: removes garbage entries (arrows, English letters, grammar notation)
   - Browse tab: Korean groups by 14 initial consonants (ㄱ-ㅎ) instead of hundreds of syllable pills
@@ -110,7 +110,7 @@ Full report: `docs/TOPIK_COVERAGE_REPORT.md`
 ### Key Findings
 1. **TOPIK A (A1-A2)**: 56% coverage. 316 missing words, mostly nouns (187), verbs (59), adjectives (27). Common gaps: everyday nouns (가게, 가족, 공원, 교과서), basic verbs (가져오다, 걸어가다, 공부하다), descriptive adjectives (따뜻하다, 미안하다, 유명하다).
 2. **TOPIK B (B1-B2)**: 17% coverage. 1,572 missing words. Massive noun gap (912), verb gap (394), adverb gap (105). Many high-frequency words missing (위하다 #33, 따르다 #51, 경우 #65).
-3. **Many "missing" words actually appear in our curriculum** as parts of compound words, in example sentences, or in notes/deepDives. They lack standalone teach cards (which P55 requires).
+3. **Many "missing" words actually appear in our curriculum** as parts of compound words, in example sentences, or in notes/deepDives. They lack standalone teach cards (which PP55 requires).
 4. **English translations are NOT in the TOPIK reference file** (NIKL source has Korean-only definitions). Our curriculum provides English for the 832 taught words. Missing words need English translations added during curriculum restructure.
 
 ### What This Means for the Curriculum Restructure
@@ -161,7 +161,7 @@ After Korean pilot, replicate for:
 
 ### Key Import Path
 ```
-lingoverse.jsx
+verumlingua.jsx
   └── imports from dictionary.js:
       WORD_DB, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX,
       KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX,
@@ -214,7 +214,7 @@ dictionary.js
 }
 ```
 
-### Vocab Page Component Structure (lingoverse.jsx)
+### Vocab Page Component Structure (verumlingua.jsx)
 - `VocabularyPage` (~line 7832): Main component with Search/Browse/Review/Grammar tabs
   - `allWords` useMemo: Filters WORD_DB by isLemma + hangul-only + no spaces/arrows
   - `browseLetters` useMemo: Korean consonant grouping (ㄱ-ㅎ) vs A-Z for other langs
@@ -236,4 +236,4 @@ dictionary.js
 3. `docs/TOPIK_COVERAGE_REPORT.md` (full gap analysis)
 4. `src/data/dictionary.js` (understand WORD_DB builder + grammar reference builder + TOPIK enrichment)
 5. `src/data/korean-conjugation.js` (conjugation engine with 21 templates)
-6. `src/lingoverse.jsx` lines 7832-9000 (VocabularyPage + WordPopup + Grammar tab)
+6. `src/verumlingua.jsx` lines 7832-9000 (VocabularyPage + WordPopup + Grammar tab)

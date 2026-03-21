@@ -1,6 +1,6 @@
 # Dutch V2 Curriculum Roadmap
 
-> Extracted from src/lingoverse.jsx on 2026-03-21
+> Extracted from src/verumlingua.jsx on 2026-03-21
 > Original location: lines 3315-3831
 > Dutch roadmap A1.1-A2.2, DP1-DP24 rules, session 34-40 decisions
 
@@ -241,32 +241,32 @@ UNIT 10: VROEGER & VERHALEN (A2.2) — ❌ 0/8
 
 ══════════════════════════════════════════════════════════════
 CONTENT PIPELINE RULES FOR ALL DUTCH LESSONS
-(NOTE: These use DP1-DP24 prefix to avoid collision with Manifesto P1-P24)
+(NOTE: These use DP1-DP24 prefix to avoid collision with Manifesto P1-PP24)
 ══════════════════════════════════════════════════════════════
 
 When filling lesson steps, every AI session MUST:
 
   DP1) READ THE MANIFESTO (Principles 1-20) before writing.
   DP2) READ THIS ROADMAP for grammar/cultural scope of the unit.
-  DP3) TEACH BEFORE TESTING (see also Manifesto P34/P52).
-  DP4) ANTI-LEAK (see also Manifesto P8).
+  DP3) TEACH BEFORE TESTING (see also Manifesto PP34/PP52).
+  DP4) ANTI-LEAK (see also Manifesto PP8).
   DP5) TRANSLATION-FIRST (Decision 18).
   DP6) POLYSEMY & COGNATES (Manifesto P19).
   DP7) BOARD STYLE (Decision 17, board:true).
   DP8) CULTURAL ANCHORING.
-  DP9) STEP DENSITY (see also Manifesto P43).
+  DP9) STEP DENSITY (see also Manifesto PP43).
   DP10) INTRO STEP (type:"intro").
   DP11) VERB TABLES (type:"verb_table", Decision 17f).
   DP12) MK KEYS.
   DP13) CTRL+S support (Manifesto P20d).
-  DP14) SUBJECT OVER COUNT (see also P54 Anti-Cramming).
+  DP14) SUBJECT OVER COUNT (see also PP54 Anti-Cramming).
   DP15) NO TWO-CORRECT MC.
-  DP16) FORWARD REFERENCE BAN (see also P52).
+  DP16) FORWARD REFERENCE BAN (see also PP52).
   DP17a) READING COMPREHENSION PROTECTION (exception to DP18).
   DP18) CROSS-REFERENCE ANCHORING.
   DP19) CONTRADICTION PREVENTION.
   DP20) GOAL-CONTENT ALIGNMENT.
-  DP21) TEACH-BEFORE-TEST (see also P34/P52).
+  DP21) TEACH-BEFORE-TEST (see also PP34/PP52).
   DP22) ETYMOLOGY RICHNESS.
   DP23) ANTI-LEAK: ARTICLE HIDING.
   DP24) COGNATE ACCURACY.
@@ -401,12 +401,12 @@ DECISION LOG — SESSION 35 (CANDY GLOSS UI OVERHAUL + CEFR GAP PATCHING)
          have shine overlay spans (matches Begin button factory).
 
   PIPELINE RULE ADDITIONS:
-    P24: Every interactive element must have the candy gloss treatment
+    PP24: Every interactive element must have the candy gloss treatment
          (gradient, shine overlay, inset shadows, hover glow).
     P25: All back navigation uses NavArrow component (no text labels).
-    P26: Components that animate must live OUTSIDE their parent to
+    PP26: Components that animate must live OUTSIDE their parent to
          avoid remount-on-rerender bugs.
-    P27: Quiz option clicks must play UISounds.tick() before
+    PP27: Quiz option clicks must play UISounds.tick() before
          checkAndNext(). Keyboard already does via le-select.
 
   D-36) GLOSSY CANDY UI OVERHAUL (Session 43+):
@@ -445,7 +445,7 @@ DECISION LOG — SESSION 35 (CANDY GLOSS UI OVERHAUL + CEFR GAP PATCHING)
     P28: All clickable tiles must have role="button" for keyboard nav.
     P29: All section headers (band, unit, foundations) are clickable
          and open GlossyPopup with relevant info.
-    P30: Icon system change planned — emoji icons will be replaced
+    PP30: Icon system change planned — emoji icons will be replaced
          with custom glossy 3D cartoon PNGs (base64-embedded).
          60 icons identified across 4 tiers. ChatGPT generates art,
          Claude implements as base64 icon registry.
@@ -506,14 +506,14 @@ DECISION LOG — SESSION 35 (CANDY GLOSS UI OVERHAUL + CEFR GAP PATCHING)
     d) Done screen: doneFocus starts at -1, arrows activate, mouse clears.
 
   PIPELINE RULE ADDITIONS:
-    P31: Arrow Right/Left must advance teach steps in lesson engine.
+    PP31: Arrow Right/Left must advance teach steps in lesson engine.
          Only blocked during active quiz answering.
-    P32: .kb-focus CSS must use !important on transform, filter,
+    PP32: .kb-focus CSS must use !important on transform, filter,
          and box-shadow to override inline hover handlers.
-    P33: All AppIcon instances must use ICON_REG lookup. Unknown
+    PP33: All AppIcon instances must use ICON_REG lookup. Unknown
          names return null gracefully.
-    P34: Home tiles need .home-tile class for hover glow.
-    P35: Curriculum page is placeholder ("Coming Soon") until
+    PP34: Home tiles need .home-tile class for hover glow.
+    PP35: Curriculum page is placeholder ("Coming Soon") until
          AI-powered personal path system is built.
 
 ══════════════════════════════════════════════════════════════

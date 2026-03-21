@@ -1,4 +1,4 @@
-// src/data/units-korean.js — Extracted from lingoverse.jsx (structural refactor, no content changes)
+// src/data/units-korean.js — Extracted from verumlingua.jsx (structural refactor, no content changes)
 // Contains: All Korean (lang:"ko") curriculum units
 
 export default [

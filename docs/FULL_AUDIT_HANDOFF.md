@@ -23,9 +23,9 @@ This is not an incremental improvement. This is a fundamental redefinition of wh
 
 ---
 
-## THE CERTIFICATION-GRADE STANDARD (P55) — NEW PRINCIPLE
+## THE CERTIFICATION-GRADE STANDARD (PP55) — NEW PRINCIPLE
 
-### P55: Vocabulary Completeness Doctrine — NON-NEGOTIABLE
+### PP55: Vocabulary Completeness Doctrine — NON-NEGOTIABLE
 
 Every language in LingoVerse must achieve **certification-grade vocabulary completeness**. This means:
 
@@ -125,9 +125,9 @@ Every language in LingoVerse must achieve **certification-grade vocabulary compl
 
 ---
 
-## THE UNIT COUNT ADEQUACY STANDARD (P56) — NEW PRINCIPLE
+## THE UNIT COUNT ADEQUACY STANDARD (PP56) — NEW PRINCIPLE
 
-### P56: Concept-Driven Unit Sizing — NON-NEGOTIABLE
+### PP56: Concept-Driven Unit Sizing — NON-NEGOTIABLE
 
 The number of units per CEFR level must be determined by the CONCEPTS that need to be taught, not by any template. This principle SUPERSEDES any previous distribution (including the 6-4-10-10 "gold standard").
 
@@ -144,7 +144,7 @@ The number of units per CEFR level must be determined by the CONCEPTS that need 
 - FSI Category II (German): ~900 class hours. Case system, gender agreement, word order complexity.
 - FSI Category IV-V (Korean, Arabic, Japanese, Chinese): ~2,200 class hours. Non-Latin script, fundamentally different grammar, honorific systems, no cognates.
 
-**A Category V language with the same unit count as a Category I language is AUTOMATICALLY suspicious.** Korean having 30 units while Spanish also has 30 units needs explicit justification. If the justification is "we used the same template" — that's a P54 violation.
+**A Category V language with the same unit count as a Category I language is AUTOMATICALLY suspicious.** Korean having 30 units while Spanish also has 30 units needs explicit justification. If the justification is "we used the same template" — that's a PP54 violation.
 
 **Korean specifically**: 4 units for A2 is almost certainly insufficient. Korean A2 includes:
 - Particle system deepening (subject/topic/object/location/time/instrumental/comitative)
@@ -164,9 +164,9 @@ Each of these deserves substantial practice. 4 units x 8 lessons = 32 lessons fo
 
 ---
 
-## THE GRAMMAR COMPLETENESS STANDARD (P57) — NEW PRINCIPLE
+## THE GRAMMAR COMPLETENESS STANDARD (PP57) — NEW PRINCIPLE
 
-### P57: Zero Grammar Gaps — NON-NEGOTIABLE
+### PP57: Zero Grammar Gaps — NON-NEGOTIABLE
 
 Every grammar construct that appears on official certification exams at a given CEFR level MUST be:
 1. **Explicitly taught** with a dedicated teach card or tip card explaining the rule
@@ -193,9 +193,9 @@ Every "GAP" row must be fixed. Zero gaps = PASS.
 
 ---
 
-## THE COMMUNICATIVE FUNCTIONS STANDARD (P58) — NEW PRINCIPLE
+## THE COMMUNICATIVE FUNCTIONS STANDARD (PP58) — NEW PRINCIPLE
 
-### P58: Complete Communicative Coverage — NON-NEGOTIABLE
+### PP58: Complete Communicative Coverage — NON-NEGOTIABLE
 
 CEFR defines not just grammar and vocabulary but COMMUNICATIVE FUNCTIONS: what a learner can DO with the language at each level. These are testable on official exams.
 
@@ -250,26 +250,26 @@ CEFR defines not just grammar and vocabulary but COMMUNICATIVE FUNCTIONS: what a
 
 ---
 
-## EXPANDED P53 CHECKLIST — NOW 15 ITEMS
+## EXPANDED PP53 CHECKLIST — NOW 15 ITEMS
 
-The original 9-item P53 checklist was insufficient. The certification-grade audit requires 15 items:
+The original 9-item PP53 checklist was insufficient. The certification-grade audit requires 15 items:
 
 | # | Check | What to verify | Method |
 |---|-------|---------------|--------|
-| 1 | **CEFR Distribution (P51)** | Unit-to-level mapping pedagogically sound, concept-driven not template-driven | Manual + external reference comparison |
-| 2 | **P8 Anti-Leak (all 5 types)** | Visual, script, hint, pattern, position leaks | Sample 20+ mc/fb per level per language |
-| 3 | **P52 Strict Teach-Before-Use** | Every quiz word traces to a prior dedicated teach card | Automated script, FULL verification |
-| 4 | **P48 Step Type Correctness** | fb = single blank, drag_fill = multi-blank | Automated grep |
-| 5 | **P49 No Meta-Curriculum** | No CEFR labels in learner-facing content | Automated grep |
-| 6 | **P22c No Em-Dashes** | Zero em-dashes in content strings | Automated grep |
-| 7 | **Density (P43)** | Every lesson meets minimum (Korean: 20+, others: 18+) | Automated script |
+| 1 | **CEFR Distribution (PP51)** | Unit-to-level mapping pedagogically sound, concept-driven not template-driven | Manual + external reference comparison |
+| 2 | **PP8 Anti-Leak (all 5 types)** | Visual, script, hint, pattern, position leaks | Sample 20+ mc/fb per level per language |
+| 3 | **PP52 Strict Teach-Before-Use** | Every quiz word traces to a prior dedicated teach card | Automated script, FULL verification |
+| 4 | **PP48 Step Type Correctness** | fb = single blank, drag_fill = multi-blank | Automated grep |
+| 5 | **PP49 No Meta-Curriculum** | No CEFR labels in learner-facing content | Automated grep |
+| 6 | **PP22c No Em-Dashes** | Zero em-dashes in content strings | Automated grep |
+| 7 | **Density (PP43)** | Every lesson meets minimum (Korean: 20+, others: 18+) | Automated script |
 | 8 | **board:true** | Every lesson has board:true | Automated script |
 | 9 | **Sub-level Label Consistency** | No gaps or jumps in sub-level labels | Automated script |
-| 10 | **P55 Vocabulary Completeness** | ALL official exam vocabulary present as teach cards | Automated script against official word list |
-| 11 | **P57 Grammar Completeness** | ALL official exam grammar constructs taught and practiced | Grammar inventory table, zero gaps |
-| 12 | **P58 Communicative Functions** | ALL CEFR communicative functions covered with practice | Function-to-lesson mapping |
+| 10 | **PP55 Vocabulary Completeness** | ALL official exam vocabulary present as teach cards | Automated script against official word list |
+| 11 | **PP57 Grammar Completeness** | ALL official exam grammar constructs taught and practiced | Grammar inventory table, zero gaps |
+| 12 | **PP58 Communicative Functions** | ALL CEFR communicative functions covered with practice | Function-to-lesson mapping |
 | 13 | **Synonym Coverage** | Key synonyms from official lists all have teach cards | Cross-reference exam prep materials |
-| 14 | **P56 Unit Count Adequacy** | Unit count justified by concept catalogue, not template | Concept catalogue document per language |
+| 14 | **PP56 Unit Count Adequacy** | Unit count justified by concept catalogue, not template | Concept catalogue document per language |
 | 15 | **Exam Simulation Readiness** | A learner could pass the official exam using ONLY LingoVerse | Expert review against exam format |
 
 **ALL 15 items must PASS. Missing ANY = audit INCOMPLETE.**
@@ -340,7 +340,7 @@ For each gap:
 
 ### Step 5: Implementation
 
-Build the missing teach cards, quiz steps, and any new lessons/units needed. Follow ALL pipeline rules (P8, P34/P52, P43, P48, etc.).
+Build the missing teach cards, quiz steps, and any new lessons/units needed. Follow ALL pipeline rules (PP8, PP34/PP52, PP43, PP48, etc.).
 
 ---
 
@@ -348,7 +348,7 @@ Build the missing teach cards, quiz steps, and any new lessons/units needed. Fol
 
 ### Step 1: Build complete grammar inventory per language
 
-For each language, create the grammar inventory table (see P57 above). Use official exam grammar lists as the source of truth:
+For each language, create the grammar inventory table (see PP57 above). Use official exam grammar lists as the source of truth:
 
 - **Korean**: TOPIK grammar patterns list (한국어능력시험 문법 목록)
 - **Dutch**: NT2 grammatica per niveau
@@ -379,7 +379,7 @@ Korean is FSI Category V (2,200 class hours). The current 6-4-10-10 distribution
 - **B1 (10 units)**: Evaluate against TOPIK II Level 3-4 requirements.
 - **B2 (10 units)**: Evaluate against TOPIK II Level 5-6 requirements.
 
-**Expected outcome**: Korean may need 35-40 units total. If so, it gets 35-40 units. P54 applies.
+**Expected outcome**: Korean may need 35-40 units total. If so, it gets 35-40 units. PP54 applies.
 
 ### Dutch
 
@@ -409,14 +409,14 @@ Current 8-8-8-6 flagged by D110. Re-evaluate against DELE/PCIC requirements:
 
 After vocabulary/grammar gaps are fixed and unit counts adjusted, re-run ALL structural checks:
 
-- P8 anti-leak (expanded sample: 20+ per level per language)
-- P48 step type correctness
-- P49 no meta-curriculum
-- P22c no em-dashes
-- P43 density
+- PP8 anti-leak (expanded sample: 20+ per level per language)
+- PP48 step type correctness
+- PP49 no meta-curriculum
+- PP22c no em-dashes
+- PP43 density
 - board:true
 - Sub-level label consistency
-- P52 teach-before-use (FULL automated verification)
+- PP52 teach-before-use (FULL automated verification)
 
 ---
 
@@ -427,14 +427,14 @@ After vocabulary/grammar gaps are fixed and unit counts adjusted, re-run ALL str
 Realistic scope: This is a multi-session project. Each session should focus on ONE language and complete ALL 15 checklist items for that language before moving to the next.
 
 ### Session progress:
-- **Session 1 (COMPLETE, 2026-03-17)**: Cross-language vocabulary extraction + gap analysis. 11 new A1 lessons (months, body parts) across all 5 languages. Official source research (Rule 14). P53 items 1-9 checked.
+- **Session 1 (COMPLETE, 2026-03-17)**: Cross-language vocabulary extraction + gap analysis. 11 new A1 lessons (months, body parts) across all 5 languages. Official source research (Rule 14). PP53 items 1-9 checked.
 - **Session 2 (COMPLETE, 2026-03-17)**: 18 new A1 vocab gap lessons (extended colors, clothing, cardinal directions, emotions) across all 5 languages. 407 steps total. All validated.
 - **Session 3 (COMPLETE, 2026-03-17)**: 30 new A2 vocab gap lessons (animals, professions, health, nature/weather, transportation, technology) across all 5 languages. ~740 steps total. All 30/30 validated PASS.
 - **Session 4 (COMPLETE, 2026-03-17)**: 30 new B1 vocab domain lessons (workplace, education, media, abstract concepts, legal/financial, expanded feelings) across all 5 languages. ~683 steps total. All 30/30 validated PASS. Updated lesson counts: Korean 330, Dutch 261, German 258, French 258, Spanish 257.
 - **Session 5 (NEXT)**: B2 vocabulary expansion across all 5 languages. Domains: academic, debate, literature, economics, law, register pairs.
 - **Sessions 6-8**: Additional A1-B2 vocabulary to close remaining ~14,000 word gap + grammar completeness.
 - **Sessions 9-13**: Grammar completeness verification and gap-filling per language.
-- **Session 14**: Communicative functions mapping and final P53 verification.
+- **Session 14**: Communicative functions mapping and final PP53 verification.
 
 ### Per-session workflow:
 
@@ -464,17 +464,17 @@ Realistic scope: This is a multi-session project. Each session should focus on O
 
 The audit for each language is COMPLETE when:
 
-1. **P55 Vocabulary Completeness**: 95%+ of official exam vocabulary has dedicated teach cards. Remaining 5% must be justified (archaic words, regional variants, etc.) and documented.
+1. **PP55 Vocabulary Completeness**: 95%+ of official exam vocabulary has dedicated teach cards. Remaining 5% must be justified (archaic words, regional variants, etc.) and documented.
 
-2. **P57 Grammar Completeness**: 100% of official exam grammar constructs are taught and practiced. Zero gaps.
+2. **PP57 Grammar Completeness**: 100% of official exam grammar constructs are taught and practiced. Zero gaps.
 
-3. **P58 Communicative Functions**: ALL CEFR communicative functions at each level are covered with practice lessons.
+3. **PP58 Communicative Functions**: ALL CEFR communicative functions at each level are covered with practice lessons.
 
-4. **P56 Unit Count**: Unit count is justified by a concept catalogue, not a template. Any needed expansion is built.
+4. **PP56 Unit Count**: Unit count is justified by a concept catalogue, not a template. Any needed expansion is built.
 
-5. **P52 Teach-Before-Use**: Every quiz word traces to a prior dedicated teach card. Automated verification PASS.
+5. **PP52 Teach-Before-Use**: Every quiz word traces to a prior dedicated teach card. Automated verification PASS.
 
-6. **P53 Full Checklist (expanded to 15 items)**: ALL 15 items PASS.
+6. **PP53 Full Checklist (expanded to 15 items)**: ALL 15 items PASS.
 
 7. **Exam simulation**: A domain expert confirms that a learner completing the LingoVerse curriculum would be prepared for the official exam at each level.
 
@@ -513,9 +513,9 @@ Read in order:
 
 ## WHAT PREVIOUS AUDITS GOT RIGHT (preserve)
 
-- D109: 694 content fixes (P8, P22c, P49, mc ans mismatches)
+- D109: 694 content fixes (PP8, PP22c, PP49, mc ans mismatches)
 - D109: CEFR grammar coverage verification with grep evidence
-- D110: Identified CEFR distribution imbalance, created P51-P54
+- D110: Identified CEFR distribution imbalance, created PP51-PP54
 - D111: Fixed sub-level label inconsistencies, ran automated structural scans
 
 These results are preserved. D112 adds the VOCABULARY and GRAMMAR COMPLETENESS layers that no previous audit has ever checked.

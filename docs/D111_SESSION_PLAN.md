@@ -1,4 +1,4 @@
-# D111 Session Plan — Per-Language CEFR Audit + Deep P52 + Full P53
+# D111 Session Plan — Per-Language CEFR Audit + Deep PP52 + Full PP53
 
 > **Date**: 2026-03-17
 > **Predecessor**: D109 (RETROACTIVELY INCOMPLETE per D110), D110 (CEFR distribution + anti-cramming doctrine)
@@ -8,7 +8,7 @@
 
 ## FOUNDATIONAL CORRECTION: No "Gold Standard" Distribution
 
-Previous documentation (D110, FULL_AUDIT_HANDOFF.md) used Korean/Dutch 6-4-10-10 as a "gold standard" to measure other languages against. **This is wrong.** It contradicts P54 (Anti-Cramming Doctrine) at its core.
+Previous documentation (D110, FULL_AUDIT_HANDOFF.md) used Korean/Dutch 6-4-10-10 as a "gold standard" to measure other languages against. **This is wrong.** It contradicts PP54 (Anti-Cramming Doctrine) at its core.
 
 ### The truth:
 - **There is no universal ideal CEFR distribution.** Every language has different grammar complexity, different concept density at each level, different pedagogical needs.
@@ -18,7 +18,7 @@ Previous documentation (D110, FULL_AUDIT_HANDOFF.md) used Korean/Dutch 6-4-10-10
 - **French MIGHT legitimately need 7-7-8-8.** French has complex verb morphology (14+ tenses), 2 genders with many irregular patterns, liaison/elision rules, and the subjunctive starts at B1.
 - **Spanish MIGHT legitimately need 7-7-8-8.** Ser/estar, preterito/imperfecto, subjunctive mood (4 tenses), and the pronoun system all demand space.
 
-### What P54 actually requires:
+### What PP54 actually requires:
 1. FIRST: Catalogue ALL concepts CEFR requires at each level for THIS specific language
 2. THEN: Determine how many units each level needs based on those concepts
 3. THEN: Compare current distribution against concept-driven distribution
@@ -67,7 +67,7 @@ For EACH of the 5 languages (not just German/French/Spanish):
 
 ### Step 3: Evaluate distribution per language
 - Is each level's unit count justified by its concept load?
-- Are B-levels getting adequate depth? (P51: B1+B2 >= A1+A2)
+- Are B-levels getting adequate depth? (PP51: B1+B2 >= A1+A2)
 - Are A-levels inflated with content that could be consolidated?
 - Are sub-level labels (A1.1, A1.2, etc.) consistent with no gaps?
 
@@ -92,13 +92,13 @@ For EACH of the 5 languages (not just German/French/Spanish):
 
 **Key insight:** German/French/Spanish have heavier A-level grammar loads than Korean/Dutch. The 4-case system (German), passé composé/imparfait distinction (French), and pretérito/imperfecto distinction (Spanish) all require dedicated A2 units. This justifies more A-level units. The previous D110 alarm was based on template comparison, not per-language analysis.
 
-### P53 Automated Scan Results
+### PP53 Automated Scan Results
 
 | Check | Korean | Dutch | German | French | Spanish |
 |-------|--------|-------|--------|--------|---------|
-| P48 | PASS | PASS | PASS | PASS | PASS |
-| P22c content | PASS | PASS | PASS | PASS | PASS |
-| P49 | PASS | PASS | PASS | PASS | PASS |
+| PP48 | PASS | PASS | PASS | PASS | PASS |
+| PP22c content | PASS | PASS | PASS | PASS | PASS |
+| PP49 | PASS | PASS | PASS | PASS | PASS |
 | Density | 34 low (A1-A2) | PASS | PASS | PASS | PASS |
 | board:true | PASS | PASS | PASS | PASS | PASS |
 | Sub-levels | FIXED | PASS | PASS | FIXED | FIXED |
@@ -111,11 +111,11 @@ For EACH of the 5 languages (not just German/French/Spanish):
 
 ### Flagged for Future Work (not D111 scope)
 
-- Korean A1-A2 density: 34 lessons under 20-step P43 minimum (pre-density-standard content, mostly U2-U6). Future uplift when prioritized.
+- Korean A1-A2 density: 34 lessons under 20-step PP43 minimum (pre-density-standard content, mostly U2-U6). Future uplift when prioritized.
 
 ---
 
-## Phase 2: Deep P52 Teach-Before-Use Verification (All 5 Languages)
+## Phase 2: Deep PP52 Teach-Before-Use Verification (All 5 Languages)
 
 For EACH language:
 
@@ -131,19 +131,19 @@ For EACH language:
 
 ---
 
-## Phase 3: Full P53 Checklist (All 5 Languages)
+## Phase 3: Full PP53 Checklist (All 5 Languages)
 
 All 9 items, all 5 languages. No exceptions.
 
 | # | Check | Method |
 |---|-------|--------|
-| 1 | CEFR Distribution (P51) | Phase 1 output |
-| 2 | P8 Anti-Leak (5 types) | Spot-check 10+ mc/fb per level |
-| 3 | P52 Teach-Before-Use | Phase 2 output |
-| 4 | P48 Step Type Correctness | Automated grep: fb with {2} |
-| 5 | P49 No Meta-Curriculum | Automated grep: CEFR labels in q/opts/ans |
-| 6 | P22c No Em-Dashes | Automated grep |
-| 7 | Density (P43) | Automated script |
+| 1 | CEFR Distribution (PP51) | Phase 1 output |
+| 2 | PP8 Anti-Leak (5 types) | Spot-check 10+ mc/fb per level |
+| 3 | PP52 Teach-Before-Use | Phase 2 output |
+| 4 | PP48 Step Type Correctness | Automated grep: fb with {2} |
+| 5 | PP49 No Meta-Curriculum | Automated grep: CEFR labels in q/opts/ans |
+| 6 | PP22c No Em-Dashes | Automated grep |
+| 7 | Density (PP43) | Automated script |
 | 8 | board:true | Automated script |
 | 9 | Sub-level Label Consistency | Manual review of level fields |
 
@@ -155,45 +155,45 @@ All 9 items, all 5 languages. No exceptions.
 1. Write this plan document (DONE)
 2. Update FULL_AUDIT_HANDOFF.md with the "no gold standard" correction
 3. Run Phase 1 for German — concept catalogue + distribution evaluation
-4. Run automated P53 checks (items 4-8) for German in parallel
-5. Begin Phase 2 (P52) for German if time permits
+4. Run automated PP53 checks (items 4-8) for German in parallel
+5. Begin Phase 2 (PP52) for German if time permits
 
 ### Session 2:
 1. Phase 1 for French + Spanish (concept catalogue + distribution evaluation)
-2. Automated P53 checks for French + Spanish
-3. Phase 2 (P52) for French
+2. Automated PP53 checks for French + Spanish
+3. Phase 2 (PP52) for French
 
 ### Session 3:
-1. Phase 2 (P52) for Spanish
+1. Phase 2 (PP52) for Spanish
 2. Phase 1 for Korean + Dutch (verify, not assume!)
-3. Phase 2 (P52) for Korean + Dutch
+3. Phase 2 (PP52) for Korean + Dutch
 
 ### Session 4:
-1. Phase 3: Full P53 final sweep, all 5 languages
+1. Phase 3: Full PP53 final sweep, all 5 languages
 2. Fix all remaining violations
 3. Update CLAUDE.md, DECISION_LOG.md
 4. D111 COMPLETE
 
 ### Flexibility clause:
-Sessions may merge or expand based on findings. If Phase 1 reveals that a language needs restructuring (not just relabeling), that language gets its own dedicated session. P54 applies to the audit itself: the audit takes as long as it needs.
+Sessions may merge or expand based on findings. If Phase 1 reveals that a language needs restructuring (not just relabeling), that language gets its own dedicated session. PP54 applies to the audit itself: the audit takes as long as it needs.
 
 ---
 
 ## Agent Deployment (Rule 13)
 
 ### Every audit agent receives:
-- Complete Pipeline Rules (P8 through P54)
-- P53 checklist (all 9 items)
-- P54 anti-cramming doctrine (full text)
+- Complete Pipeline Rules (PP8 through PP54)
+- PP53 checklist (all 9 items)
+- PP54 anti-cramming doctrine (full text)
 - **Explicit: "There is no gold standard distribution. Evaluate this language against ITS OWN requirements."**
 - Language-specific official references
 - Exact file paths
 
 ### Agent types:
 - **Concept Catalogue Agent (Opus)**: Researches CEFR requirements for a specific language, cross-references exam frameworks, evaluates current distribution
-- **Structural Scan Agent (Sonnet)**: P48/P49/P22c/density/board:true/sub-labels automated checks
-- **P52 Deep Agent (Opus)**: Vocabulary extraction + teach-card tracing
-- **P8 Spot-Check Agent (Sonnet)**: Hint/leak analysis
+- **Structural Scan Agent (Sonnet)**: PP48/PP49/PP22c/density/board:true/sub-labels automated checks
+- **PP52 Deep Agent (Opus)**: Vocabulary extraction + teach-card tracing
+- **PP8 Spot-Check Agent (Sonnet)**: Hint/leak analysis
 
 ---
 
@@ -203,9 +203,9 @@ D111 is COMPLETE when:
 
 1. **Every language's CEFR distribution has been evaluated against its own concept requirements** (not against another language). Each distribution is either confirmed correct or fixed with documented reasoning.
 
-2. **P52 deep verification PASS** for all 5 languages. Zero unresolved violations. Evidence: automated script output.
+2. **PP52 deep verification PASS** for all 5 languages. Zero unresolved violations. Evidence: automated script output.
 
-3. **P53 full checklist PASS** for all 5 languages. All 9 items explicit PASS/FAIL. All FAILs resolved.
+3. **PP53 full checklist PASS** for all 5 languages. All 9 items explicit PASS/FAIL. All FAILs resolved.
 
 4. **No cramming anywhere.** Every language has the units and lessons its concepts require.
 

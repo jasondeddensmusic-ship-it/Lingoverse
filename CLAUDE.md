@@ -14,19 +14,28 @@ VerumLingua (formerly LingoVerse) is a self-contained multilingual language lear
 
 **Platform Rehaul (2026-03-19)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: 2-bubble word cards, story dialogue system with protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
 
-**Current state**: All 5 launch languages have A1-B2 content built and structurally audited. The existing content will be restructured per the rehaul vision (salvage strategy in vision doc Section 2.4). Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (P56).
+**Current state**: All 5 launch languages have A1-B2 content built and structurally audited. The existing content will be restructured per the rehaul vision (salvage strategy in vision doc Section 2.4). Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (PP56).
 
 ---
 
 ## Owner's Workflow (CRITICAL)
 
 The owner is NOT a coder. The workflow is:
-1. Edit `src/lingoverse.jsx` with Claude's help
+1. Edit `src/verumlingua.jsx` with Claude's help
 2. Claude commits and pushes to GitHub
 3. GitHub Actions automatically builds and deploys to mijndomein.nl via FTPS
 4. lingoverse.nl updates within ~2 minutes. No manual upload needed.
 
 The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are stored as GitHub Secrets (FTP_USERNAME, FTP_PASSWORD).
+
+### Getting Started (for new Claude Code sessions)
+```
+npm install          # Install dependencies
+npm run dev          # Start dev server (http://localhost:5173)
+npm run build        # Production build (validates compilation)
+```
+**Repository**: https://github.com/jasondeddensmusic-ship-it/Lingoverse
+**Live site**: https://lingoverse.nl (auto-deploys from main within ~2 minutes)
 
 ---
 
@@ -42,14 +51,14 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 | `dictionary.js` | ~830 | WORD_DB builder, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, isLemma computation, pluggable POS taggers |
 | `korean-conjugation.js` | ~300 | conjugateVerb(), detectIrregType(), getIrregInfo(), nounWithParticles(). 7 irregular types + regular. ~20 ending templates. Korean phonology rules (vowel harmony, batchim, contraction). |
 | `wordlists/function-words-ko.js` | ~560 | 531 Korean function words with word, lemma, pos, tags, gender fields. Powers particle/connector/counter vocabulary in WORD_DB. |
-| `units-dutch.js` | ~6,030 | All 43 Dutch units (20 v2 + 23 legacy) |
+| `units-dutch.js` | ~6,030 | All 30 Dutch v2 units (legacy deleted 2026-03-21) |
 | `units-korean.js` | ~8,700 | All 30 Korean units (U1-U6 A1, U7-U10 A2, U11-U20 B1, U21-U30 B2) |
 | `units-german.js` | ~7,407 | All 30 German units (A1-B2, v1) |
-| `units-french.js` | ~1.3MB | All 30 French units (A1-B2, v1, minified) |
+| `units-french.js` | ~1.85MB (42,552 lines) | All 30 French units (A1-B2, v1, minified). Use grep for searches, never full-read. |
 | `units-spanish.js` | ~5,262 | All 30 Spanish units (A1-B2, v1) |
 | `units-other.js` | ~170 | Arabic (5) skeleton units |
 
-### Engine (`src/lingoverse.jsx`, ~12,892 lines)
+### Engine (`src/verumlingua.jsx`, ~12,892 lines)
 
 | Section | Contents |
 |---------|----------|
@@ -70,7 +79,7 @@ The deploy workflow is in `.github/workflows/deploy.yml`. FTP credentials are st
 
 LingoVerse's endgame is ANY source language to ANY target language. This means:
 
-1. **Nothing hardcoded for one language pair.** Every component, renderer, and data structure must work for any language. Shared UI components must NEVER contain hardcoded language-specific terms (Manifesto P14).
+1. **Nothing hardcoded for one language pair.** Every component, renderer, and data structure must work for any language. Shared UI components must NEVER contain hardcoded language-specific terms (Manifesto PP14).
 
 2. **Language families matter for curriculum design.** Related languages share grammar, vocabulary, and learning shortcuts that should be exploitable:
    - **Germanic**: Dutch, German, English, Swedish, Norwegian, Danish
@@ -118,7 +127,7 @@ Interactive foundations lessons. Stages → lessons → steps. Currently impleme
 ### FK_GATE_QUIZ (`src/data/foundations.js`)
 Pass/fail gate quiz after foundations. Currently: Korean implemented.
 
-### UNITS (assembled in `src/lingoverse.jsx` from `src/data/units-*.js`)
+### UNITS (assembled in `src/verumlingua.jsx` from `src/data/units-*.js`)
 The main curriculum. Structure:
 ```
 { n, lang, track, title, sub, icon, level, color, lessons: [
@@ -161,53 +170,53 @@ Every lesson is an array of step objects. The LessonEngine (line ~23570) renders
 
 ## Manifesto Principles Index (P-numbers)
 
-The full Manifesto lives in `src/lingoverse.jsx` (lines ~14-314). Key principles referenced throughout:
+The full Manifesto lives in `src/verumlingua.jsx` (lines ~14-314). Key principles referenced throughout:
 
 | Principle | Name | Summary |
 |-----------|------|---------|
-| P8 | Anti-Leak System | 5 leak types: visual, script, hint, pattern, position |
-| P9 | TK Localization | UI strings localization layer (deferred) |
-| P14 | No Hardcoded Language | Shared UI must not contain language-specific terms |
-| P22c | No Em-Dashes | Use periods, colons, commas, or \n bullets instead |
-| P24 | No Redundancy | Check no prior unit already teaches this concept |
-| P26 | Core Constructs First | NAME core constructs in L1-L3, elaborate later |
-| P27 | No IPA | ASCII-only phonetics, no slashes as separators |
-| P30 | No Hooks in Renderers | No React hooks inside if(st.type===) blocks |
-| P31 | No Gradient Colors | Never assign CSS gradients to color property |
-| P32 | Native Quality | Every sentence native-speaker quality, one correct answer |
-| P34 | Teach Before Test | Every word in exercises must have teach card first |
-| P35 | Drag Ghost DOM | Use document.body escape hatch with delta positioning |
-| P36 | Note Length | Max ~100 chars or use \n/bullets |
-| P37 | Function Words | Need teach cards before first use |
-| P38 | Phonetics Visibility | Hidden for Latin scripts, visible for non-Latin |
-| P39 | String Escaping | Single-escaped \n, not \\n |
-| P43 | Density Targets | Korean: 20-25, Dutch: 18-35 steps/lesson |
-| P44 | No Lazy Hints | Hints must be 15+ chars, guide not reveal |
-| P45 | DeepDive Purpose | Explanation only, never continuation |
-| P46 | B1+ Multi-Construct | 2+ constructs per example, 50%+ combo quizzes |
-| P47 | Build-Time Density | Validate per lesson during build, not after |
-| P48 | Step Type Match | fb = single blank, drag_fill = multi-blank |
-| P49 | No Meta-Curriculum | CEFR labels never in learner-facing content |
-| P50 | Recycling Quality | Test USAGE, not classification |
-| P51 | CEFR Distribution Validation | Every audit must validate unit-to-CEFR-level mapping. B1+B2 >= A1+A2. |
-| P52 | Strict Teach-Before-Use | "Taught" = own dedicated teach card. Example-only != taught. (P34 tightening) |
-| P53 | Audit Completeness Checklist | 9-point checklist. Missing any = audit INCOMPLETE. |
-| P54 | Anti-Cramming Doctrine | Content serves the LANGUAGE, not a spreadsheet. Never cram, never pad. |
-| P55 | Vocabulary Completeness | ALL official exam vocabulary must have dedicated teach cards. Zero gaps. Certification-grade. |
-| P56 | Concept-Driven Unit Sizing | Unit count determined by concept catalogue, not templates. FSI difficulty matters. |
-| P57 | Zero Grammar Gaps | ALL official exam grammar constructs taught, practiced (3+ quiz steps), and recycled. |
-| P58 | Communicative Functions | ALL CEFR communicative functions at each level covered with practice lessons. |
+| PP8 | Anti-Leak System | 5 leak types: visual, script, hint, pattern, position |
+| PP9 | TK Localization | UI strings localization layer (deferred) |
+| PP14 | No Hardcoded Language | Shared UI must not contain language-specific terms |
+| PP22c | No Em-Dashes | Use periods, colons, commas, or \n bullets instead |
+| PP24 | No Redundancy | Check no prior unit already teaches this concept |
+| PP26 | Core Constructs First | NAME core constructs in L1-L3, elaborate later |
+| PP27 | No IPA | ASCII-only phonetics, no slashes as separators |
+| PP30 | No Hooks in Renderers | No React hooks inside if(st.type===) blocks |
+| PP31 | No Gradient Colors | Never assign CSS gradients to color property |
+| PP32 | Native Quality | Every sentence native-speaker quality, one correct answer |
+| PP34 | Teach Before Test | Every word in exercises must have teach card first |
+| PP35 | Drag Ghost DOM | Use document.body escape hatch with delta positioning |
+| PP36 | Note Length | Max ~100 chars or use \n/bullets |
+| PP37 | Function Words | Need teach cards before first use |
+| PP38 | Phonetics Visibility | Hidden for Latin scripts, visible for non-Latin |
+| PP39 | String Escaping | Single-escaped \n, not \\n |
+| PP43 | Density Targets | Korean: 20-25, Dutch: 18-35 steps/lesson |
+| PP44 | No Lazy Hints | Hints must be 15+ chars, guide not reveal |
+| PP45 | DeepDive Purpose | Explanation only, never continuation |
+| PP46 | B1+ Multi-Construct | 2+ constructs per example, 50%+ combo quizzes |
+| PP47 | Build-Time Density | Validate per lesson during build, not after |
+| PP48 | Step Type Match | fb = single blank, drag_fill = multi-blank |
+| PP49 | No Meta-Curriculum | CEFR labels never in learner-facing content |
+| PP50 | Recycling Quality | Test USAGE, not classification |
+| PP51 | CEFR Distribution Validation | Every audit must validate unit-to-CEFR-level mapping. B1+B2 >= A1+A2. |
+| PP52 | Strict Teach-Before-Use | "Taught" = own dedicated teach card. Example-only != taught. (PP34 tightening) |
+| PP53 | Audit Completeness Checklist | 9-point checklist. Missing any = audit INCOMPLETE. |
+| PP54 | Anti-Cramming Doctrine | Content serves the LANGUAGE, not a spreadsheet. Never cram, never pad. |
+| PP55 | Vocabulary Completeness | ALL official exam vocabulary must have dedicated teach cards. Zero gaps. Certification-grade. |
+| PP56 | Concept-Driven Unit Sizing | Unit count determined by concept catalogue, not templates. FSI difficulty matters. |
+| PP57 | Zero Grammar Gaps | ALL official exam grammar constructs taught, practiced (3+ quiz steps), and recycled. |
+| PP58 | Communicative Functions | ALL CEFR communicative functions at each level covered with practice lessons. |
 
 ### Decision Log Reference
 The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent decisions:
 - **D99**: Dutch B1 density uplift + quick fixes
 - **D100**: Korean dialogue enrichment (Rule 9 workflow, 847/1132 cards)
 - **D101**: Dutch quality uplift to Korean standard (B2 build, A1-B1 polish)
-- **D102**: Dutch B2 quality audit (10 rounds, ~255 P8 fixes, 5 P34 fixes, de/het audit PASS)
+- **D102**: Dutch B2 quality audit (10 rounds, ~255 PP8 fixes, 5 PP34 fixes, de/het audit PASS)
 - **D109**: Cross-language audit (RETROACTIVELY INCOMPLETE per D110 — missed CEFR distribution)
-- **D110**: CEFR distribution audit + anti-cramming doctrine + P34 deep enforcement + P51-P54 + Rule 13
+- **D110**: CEFR distribution audit + anti-cramming doctrine + PP34 deep enforcement + PP51-PP54 + Rule 13
 - **D111**: Partial structural audit (sub-level label fixes, automated scans). INCOMPLETE: did not verify vocabulary/grammar completeness.
-- **D112**: Certification-grade audit mandate. P55-P58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
+- **D112**: Certification-grade audit mandate. PP55-PP58 created. Full vocabulary completeness against official exam lists. Zero tolerance for gaps.
 - **D113**: Two units-spanish.js syntax fixes + CEFR tab grouping bug fix (getCefrInfo band-prefix fallback). Rule 16 created.
 - **D114**: Platform rehaul vision document + docs update. Complete design spec for curriculum restructure, word card redesign, story system, settings panel, vocab page. Build order established.
 - **D115**: Settings panel V1-V3. Tabbed GRAMMAR_PACKS, candy pill legend with click-to-explain and edit mode, frosted glass container (.sf-panel standard), high-contrast Word Type colors (acid green/hot orange/hot pink/electric blue/vivid yellow), high-contrast Gender colors (vivid blue/crimson/amber/teal/bronze, zero grey/purple). `pillGradient(hex)` helper. Per-language category disable. Design system standard established.
@@ -219,43 +228,43 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 ## Pipeline Rules (Must-Follow for Content Creation)
 
 ### Before Writing ANY Lesson:
-- **P24**: Check no prior unit already teaches this concept
-- **P26**: Core Constructs First — introduce and NAME core constructs in Lessons 1-3. Use them in all later lessons. Elaborate (full drills) only in dedicated units. Quiz vocabulary/phrases early, system mechanics only at Elaborate phase. Check Core Constructs Map for timing.
-- **P32**: Every sentence must be native-speaker quality, every exercise must have exactly ONE correct answer
-- **P34**: Every word in exercises must have been taught (teach card) before use
-- **P37**: Function words need teach cards before first use. Each language defines its own function word list in LANG_BLUEPRINT. Cognate exception: exempt only if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
-- **P43**: Density targets per language (Korean: 20-25, Dutch: 25-35). Pedagogy over count — never add filler steps.
-- **P46**: B1+ multi-construct density. Every B1+ lesson must: (a) layer 2+ constructs in examples, (b) have 50%+ quiz sentences combining current + previous grammar, (c) end with a comprehensive multi-pattern final question (3+ constructs), (d) meet minimum 15 steps.
+- **PP24**: Check no prior unit already teaches this concept
+- **PP26**: Core Constructs First — introduce and NAME core constructs in Lessons 1-3. Use them in all later lessons. Elaborate (full drills) only in dedicated units. Quiz vocabulary/phrases early, system mechanics only at Elaborate phase. Check Core Constructs Map for timing.
+- **PP32**: Every sentence must be native-speaker quality, every exercise must have exactly ONE correct answer
+- **PP34**: Every word in exercises must have been taught (teach card) before use
+- **PP37**: Function words need teach cards before first use. Each language defines its own function word list in LANG_BLUEPRINT. Cognate exception: exempt only if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+- **PP43**: Density targets per language (Korean: 20-25, Dutch: 25-35). Pedagogy over count — never add filler steps.
+- **PP46**: B1+ multi-construct density. Every B1+ lesson must: (a) layer 2+ constructs in examples, (b) have 50%+ quiz sentences combining current + previous grammar, (c) end with a comprehensive multi-pattern final question (3+ constructs), (d) meet minimum 15 steps.
 
 ### Content Formatting:
-- **P22c**: NEVER use em-dashes (—). Use periods, colons, commas, or \n bullets.
-- **P27**: No IPA notation, no slashes as separators, ASCII-only phonetics
-- **P36**: Notes max ~100 chars unstructured or use \n/bullets. "What" in note, "why" in deepDive.
-- **P38**: Phonetics hidden by default for Latin scripts, visible for non-Latin
-- **P39**: All content strings use single-escaped \n (not \\n)
-- **P45**: DeepDive is EXPLANATION, never CONTINUATION of the visible card
+- **PP22c**: NEVER use em-dashes (—). Use periods, colons, commas, or \n bullets.
+- **PP27**: No IPA notation, no slashes as separators, ASCII-only phonetics
+- **PP36**: Notes max ~100 chars unstructured or use \n/bullets. "What" in note, "why" in deepDive.
+- **PP38**: Phonetics hidden by default for Latin scripts, visible for non-Latin
+- **PP39**: All content strings use single-escaped \n (not \\n)
+- **PP45**: DeepDive is EXPLANATION, never CONTINUATION of the visible card
 - **D58**: Korean-only lines centered/large/purple. Empty lines = 12px spacers. Max 85 chars/line. Colons for definitions, never equals.
 - **D62**: Note/text/deepDive fields must follow structured card design standards
 
-### Anti-Leak System (P8) — Five Leak Types:
+### Anti-Leak System (PP8) — Five Leak Types:
 1. **Visual leak**: Answer visible in the question text itself
 2. **Script leak**: Answer deducible from script/character patterns (e.g., only one Korean option among English)
-3. **Hint leak**: Hint directly reveals or contains the answer (P44: hints must GUIDE, never REVEAL)
+3. **Hint leak**: Hint directly reveals or contains the answer (PP44: hints must GUIDE, never REVEAL)
 4. **Pattern leak**: Answer always in same position or always the longest option
 5. **Position leak**: Correct answer clustering (must vary ~25% each position)
 - Engine shuffleOpts handles runtime shuffle
 - Question and answer must use DIFFERENT representations
 
-### Step Type Correctness (P48):
-- **P48**: Step type MUST match step complexity. Specifically:
+### Step Type Correctness (PP48):
+- **PP48**: Step type MUST match step complexity. Specifically:
   - `fb` (fill-in-blank) is for SINGLE-BLANK steps only. The engine `fb` renderer replaces `{1}` with a blank. It does NOT handle `{2}`, `{3}`, `{4}` — those render as literal text.
   - `drag_fill` is for MULTI-BLANK steps. It uses a `blanks:{}` object and parses all `{N}` tokens correctly.
   - If a step has 2+ blanks, it MUST be `type:"drag_fill"` with a `blanks` object, NOT `type:"fb"` with an `a:[]` array.
   - NEVER create `fb` steps with multiple `{N}` placeholders. They WILL render broken.
   - This rule exists because D96 created 520 broken multi-blank `fb` steps that displayed `{2}`,`{3}`,`{4}` as literal text to learners.
 
-### No Meta-Curriculum in Learner Content (P49):
-- **P49**: CEFR levels (A1, A2, B1, B2, C1, C2) must NEVER appear in learner-facing content. Specifically:
+### No Meta-Curriculum in Learner Content (PP49):
+- **PP49**: CEFR levels (A1, A2, B1, B2, C1, C2) must NEVER appear in learner-facing content. Specifically:
   - Quiz questions must NEVER ask "which level is this from?" or "this pattern recalls which level?"
   - Quiz options must NEVER contain CEFR labels like "A2 progressive", "B1 grammar", "B2 new"
   - Teach cards, tips, and notes must NEVER reference CEFR levels as content the learner needs to know
@@ -263,8 +272,8 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - Internal comments (// A2 pattern) are fine. Learner-facing strings are NOT.
   - This rule exists because D96 interpreted "recycle A1-B1 grammar" as "quiz learners on which CEFR level grammar belongs to" — producing 100+ anti-pedagogical meta-questions.
 
-### Recycling/Review Step Quality (P50):
-- **P50**: When adding review/recycling steps that reuse earlier grammar in later units:
+### Recycling/Review Step Quality (PP50):
+- **PP50**: When adding review/recycling steps that reuse earlier grammar in later units:
   - "Recycle" means USE the pattern naturally in a new context. NOT ask about its classification.
   - Every recycling MC/FB must test the learner's ability to USE the grammar correctly, choosing the right form/word in a Korean sentence.
   - Good recycling: "지금 뭐 하고 있어요?" → opts: [먹고 있어요, 먹었어요, 먹을 거예요, 먹어요] (tests -고 있다 USAGE)
@@ -273,40 +282,41 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - The Polyglot Pipeline Pillar 1 (Show Before Name) applies: test comprehension and production, never label recall.
 
 ### Build-Time Quality Enforcement:
-- **P47**: Step density must be validated PER LESSON DURING BUILD, not after. Every lesson must meet P43 minimums before the builder moves to the next lesson. Batch-building thin skeletons for later uplift is a known anti-pattern that has caused two costly uplift passes (D88 for B1, D95 for B2). See Agent Rule 7 for enforcement details.
+- **PP47**: Step density must be validated PER LESSON DURING BUILD, not after. Every lesson must meet PP43 minimums before the builder moves to the next lesson. Batch-building thin skeletons for later uplift is a known anti-pattern that has caused two costly uplift passes (D88 for B1, D95 for B2). See Agent Rule 7 for enforcement details.
 
-### CEFR Distribution Validation (P51) — NON-NEGOTIABLE:
-- **P51**: Every audit and every build MUST validate the unit-to-CEFR-level mapping. Specifically:
-  - The `level` field on every unit must be checked against the language's intended concept-driven distribution (P56). There is NO universal gold standard distribution. Each language gets the distribution its concepts demand.
+### CEFR Distribution Validation (PP51) — NON-NEGOTIABLE:
+- **PP51**: Every audit and every build MUST validate the unit-to-CEFR-level mapping. Specifically:
+  - The `level` field on every unit must be checked against the language's intended concept-driven distribution (PP56). There is NO universal gold standard distribution. Each language gets the distribution its concepts demand.
   - B1+B2 combined must NEVER have fewer units than A1+A2 combined. Advanced levels are where real learning depth lives. Front-loading beginner content while starving advanced content is pedagogically backwards.
   - Distribution must be justified per language based on that language's actual complexity at each CEFR level, FSI difficulty category, and source-to-target distance. Never mechanically applied from a template or another language's distribution.
   - The sub-level labels (A1.1, A1.2, B1.1, etc.) must be consistent within each language. No gaps, no jumps (e.g., A1.1 -> A1.4 skipping A1.2/A1.3 is a red flag).
-  - **D110 flaw**: German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) were built from templates, not concepts. All 5 languages need concept-driven re-evaluation per P56. Korean A2 (4 units for a Category V language) is also flagged.
+  - **D110 flaw**: German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) were built from templates, not concepts. All 5 languages need concept-driven re-evaluation per PP56. Korean A2 (4 units for a Category V language) is also flagged.
 
-### Strict Teach-Before-Use (P52) — NON-NEGOTIABLE:
-- **P52**: Tightening of P34. "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons — see scaling blocker #6). Specifically:
+### Strict Teach-Before-Use (PP52) — NON-NEGOTIABLE:
+- **PP52**: Tightening of PP34. "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons — see scaling blocker #6). Specifically:
   - A word appearing ONLY in another card's `example` or `exampleEn` field does NOT count as taught vocabulary. The learner has no card to review, no explicit exposure.
   - A word mentioned ONLY in a `deepDive` (optional advanced section) does NOT count as taught vocabulary.
   - A word used ONLY in a `tip` text does NOT count as taught vocabulary.
   - Every single word used in any quiz step (mc, fb, drag_fill, tr, match) must trace back to a prior dedicated teach card in the same unit or an earlier unit.
   - If a teach card's example sentence uses a word that hasn't been taught yet, that word MUST be explained in the teach card's `note` or `deepDive` field. Unexplained words in examples are invisible vocabulary gaps.
-  - The P37 cognate exception remains narrow: exempt ONLY if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+  - The PP37 cognate exception remains narrow: exempt ONLY if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
+  - **PP52 STRENGTHENED (2026-03-21)**: Every word in the curriculum MUST have its own dedicated teach card. No exceptions. Gold bubbles (highlighting new words in story context) are a FUTURE visual layer that does NOT replace the teach card requirement. A word that appears gold-highlighted in a story still needs its own teach card. The gold bubble signals "this is new" — the teach card TEACHES it.
 
-### Audit Completeness Checklist (P53) — NON-NEGOTIABLE:
-- **P53**: Every cross-language audit MUST check ALL of the following. Missing ANY = audit INCOMPLETE:
-  1. CEFR level distribution per unit (P51)
-  2. P8 all 5 leak types (visual, script, hint, pattern, position)
-  3. P52 strict teach-before-use with grep verification
-  4. P48 step type correctness (fb = single blank, drag_fill = multi-blank)
-  5. P49 no CEFR labels in learner-facing content
-  6. P22c no em-dashes in any content string
-  7. Density per lesson (P43 minimums met)
+### Audit Completeness Checklist (PP53) — NON-NEGOTIABLE:
+- **PP53**: Every cross-language audit MUST check ALL of the following. Missing ANY = audit INCOMPLETE:
+  1. CEFR level distribution per unit (PP51)
+  2. PP8 all 5 leak types (visual, script, hint, pattern, position)
+  3. PP52 strict teach-before-use with grep verification
+  4. PP48 step type correctness (fb = single blank, drag_fill = multi-blank)
+  5. PP49 no CEFR labels in learner-facing content
+  6. PP22c no em-dashes in any content string
+  7. Density per lesson (PP43 minimums met)
   8. board:true on every lesson
   9. Sub-level label consistency (no gaps, no jumps)
   - An audit that passes 8 of 9 checks is NOT a PASS. All 9 must pass.
 
-### Anti-Cramming Doctrine (P54) — THE MOST IMPORTANT CONTENT RULE:
-- **P54**: Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of LingoVerse's polyglot vision. Specifically:
+### Anti-Cramming Doctrine (PP54) — THE MOST IMPORTANT CONTENT RULE:
+- **PP54**: Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of LingoVerse's polyglot vision. Specifically:
   - If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units and 400 lessons. If it only needs 10 units, it gets 10 units.
   - The number of units per CEFR level is determined by the CONCEPTS that need to be taught at that level, compared against established language learning models (textbooks, official exam frameworks, major teaching platforms). NOT by a template copied from another language.
   - Every grammar construct deserves the space it needs. A concept that gets a full unit in a textbook does not get squeezed into one lesson. A concept that's a single lesson in a textbook does not get inflated into a unit.
@@ -316,8 +326,8 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
   - **This rule exists because**: German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 template that front-loaded A-level content and compressed B-level content. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection. The agents did not.
 
-### Vocabulary Completeness Doctrine (P55) — NON-NEGOTIABLE:
-- **P55**: Every language must achieve CERTIFICATION-GRADE vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam (TOPIK/NT2/Goethe/DELF/DELE). Specifically:
+### Vocabulary Completeness Doctrine (PP55) — NON-NEGOTIABLE:
+- **PP55**: Every language must achieve CERTIFICATION-GRADE vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam (TOPIK/NT2/Goethe/DELF/DELE). Specifically:
   - Every word on the official vocabulary list for the certification exam at each CEFR level MUST have a dedicated teach card. Not "most words." ALL of them.
   - Official vocabulary sources and polyglot targets per language:
     - **Korean**: TOPIK I (1,850 words) + TOPIK II (3,900 words) = 5,750 total. NIKL Korean Learner List: 5,965. Polyglot target: 6,000-7,000 words.
@@ -331,19 +341,19 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - **Verification**: Automated script compares official word list against extracted teach card `nl:` fields. Any word on the official list without a teach card is a GAP. Zero gaps = PASS.
   - **This rule exists because**: No previous audit ever verified actual vocabulary against official exam lists. The question was always "does content exist?" — never "is EVERY required word taught?"
 
-### Concept-Driven Unit Sizing (P56) — NON-NEGOTIABLE:
-- **P56**: The number of units per CEFR level is determined by cataloguing concepts, NOT by applying any template. This SUPERSEDES any previous distribution pattern (including the 6-4-10-10 pattern). Specifically:
+### Concept-Driven Unit Sizing (PP56) — NON-NEGOTIABLE:
+- **PP56**: The number of units per CEFR level is determined by cataloguing concepts, NOT by applying any template. This SUPERSEDES any previous distribution pattern (including the 6-4-10-10 pattern). Specifically:
   - Process: (1) Catalogue ALL grammar constructs at this level from official exams, (2) Catalogue ALL vocabulary domains, (3) Catalogue ALL communicative functions, (4) Group into natural teaching units, (5) Estimate lessons per unit, (6) The resulting count IS the count.
   - FSI language difficulty MUST affect unit count:
     - Category I (Dutch, Spanish, French): ~600-750 class hours to B2. Simpler morphology, cognate-rich.
     - Category II (German): ~900 class hours. Case system, gender agreement, word order complexity.
     - Category IV-V (Korean, Arabic, Japanese, Chinese): ~2,200 class hours. Non-Latin script, fundamentally different grammar, honorific systems.
-  - **A Category V language with the same unit count as a Category I language is AUTOMATICALLY SUSPICIOUS.** Korean having 30 units while Spanish also has 30 units needs explicit justification. If the justification is "we used the same template" — that's a P54 violation.
+  - **A Category V language with the same unit count as a Category I language is AUTOMATICALLY SUSPICIOUS.** Korean having 30 units while Spanish also has 30 units needs explicit justification. If the justification is "we used the same template" — that's a PP54 violation.
   - Korean A2 with 4 units is flagged: particle deepening, past/future tense, progressive, counters, connectors, honorific expansion, Sino-Korean layer, verb conjugation irregulars — this is substantial content for 4 units.
   - **This rule exists because**: All 5 languages ended up with ~30 units despite vastly different complexity. Korean (2,200 hours) and Spanish (600 hours) should NOT have the same unit count by default.
 
-### Zero Grammar Gaps (P57) — NON-NEGOTIABLE:
-- **P57**: Every grammar construct on official certification exam lists MUST be explicitly taught, practiced, and recycled. Specifically:
+### Zero Grammar Gaps (PP57) — NON-NEGOTIABLE:
+- **PP57**: Every grammar construct on official certification exam lists MUST be explicitly taught, practiced, and recycled. Specifically:
   - "Taught" = dedicated teach card or tip card explaining the rule
   - "Practiced" = at least 3 quiz steps (mc, fb, drag_fill, or tr) testing this construct
   - "Recycled" = appears in at least 2 later lessons at the same or higher level
@@ -356,8 +366,8 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - Every audit must produce a COMPLETE grammar inventory table mapping each official construct to its unit, teach card ID, and quiz step count. Any construct with zero quiz steps = GAP.
   - **This rule exists because**: Previous audits checked "does major grammar exist?" but never verified exhaustive coverage against official lists. Constructs that are "minor" in one reference may be critical on the exam.
 
-### Communicative Functions Coverage (P58) — NON-NEGOTIABLE:
-- **P58**: CEFR defines communicative functions — what learners can DO with the language. These are testable on exams and must all be covered. Specifically:
+### Communicative Functions Coverage (PP58) — NON-NEGOTIABLE:
+- **PP58**: CEFR defines communicative functions — what learners can DO with the language. These are testable on exams and must all be covered. Specifically:
   - A1 functions (ALL languages): introduce self/others, ask/answer personal questions, describe people/places/things, express likes/dislikes, ask/give directions, order food, make purchases, tell time, describe daily routine, make appointments, write simple messages, fill in forms.
   - A2 functions: describe past events, express plans, give/follow instructions, make comparisons, express agreement/disagreement, describe health issues, handle basic travel, write short informal letters.
   - B1 functions: express/justify opinions, narrate stories, handle most travel situations, write formal/informal letters, summarize information, express conditions/hypotheses, give advice.
@@ -365,29 +375,45 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - Each function must map to specific lessons with practice. A function without practice lessons = GAP.
   - **This rule exists because**: Grammar and vocabulary coverage alone do not guarantee communicative competence. A learner who knows all grammar but cannot "express opinions" (B1 function) will fail the speaking/writing sections of official exams.
 
-### Expanded Audit Completeness Checklist (P53 update) — NOW 15 ITEMS:
-- **P53 (updated)**: The audit completeness checklist is expanded from 9 to 15 items to include certification-grade requirements:
-  1. CEFR level distribution per unit (P51)
-  2. P8 all 5 leak types (20+ samples per level per language)
-  3. P52 strict teach-before-use (FULL automated verification, not sampling)
-  4. P48 step type correctness
-  5. P49 no CEFR labels in learner-facing content
-  6. P22c no em-dashes
-  7. Density per lesson (P43 minimums)
+### Full Grammar Tagging Doctrine (P59) — NON-NEGOTIABLE:
+- **P59**: Every word in every sentence MUST be tagged with complete grammatical metadata. This enables the color system, sentence breakdown, and grammar deep dives. Specifically:
+  - Every word gets: POS tag, sub-category (particle type, article gender, verb tense, etc.), syntactic function (subject, object, modifier, etc.), and all relevant morphological information.
+  - Every sentence must be breakable into a grammar deep dive showing WHY each word is colored the way it is and WHAT function it serves.
+  - The tagging system uses the WORD_DB architecture with per-language POS taggers. New content MUST populate these tags.
+  - This is what makes VerumLingua comprehensive: learners NEVER have to leave the app. Every grammatical question about every word in every sentence is answerable within the platform.
+  - **New format ALWAYS**: All new content uses the new format with target/source fields and full grammar tagging. Old nl/en format is for legacy content only.
+  - **This rule exists because**: The owner's vision is total grammatical transparency. Every word colored, every function labeled, every sentence breakable. No black boxes.
+
+### Personalization-First Content (P60):
+- **P60**: Content must be designed for toggleable personalization. Specifically:
+  - Story layers are toggleable: learners can read full stories or skip to teach cards only.
+  - Grammar depth is adjustable: from simple color-coding to full sentence breakdown.
+  - The platform provides for EVERY learning need. No learner should ever need to leave VerumLingua for grammar explanations, vocabulary lookups, or pronunciation guidance.
+  - All content recycled from the old format is completed, tagged, and integrated into the new interactive story layer.
+
+### Expanded Audit Completeness Checklist (PP53 update) — NOW 15 ITEMS:
+- **PP53 (updated)**: The audit completeness checklist is expanded from 9 to 15 items to include certification-grade requirements:
+  1. CEFR level distribution per unit (PP51)
+  2. PP8 all 5 leak types (20+ samples per level per language)
+  3. PP52 strict teach-before-use (FULL automated verification, not sampling)
+  4. PP48 step type correctness
+  5. PP49 no CEFR labels in learner-facing content
+  6. PP22c no em-dashes
+  7. Density per lesson (PP43 minimums)
   8. board:true on every lesson
   9. Sub-level label consistency
-  10. P55 vocabulary completeness (ALL official exam vocabulary as teach cards)
-  11. P57 grammar completeness (ALL official exam grammar taught and practiced)
-  12. P58 communicative functions coverage
+  10. PP55 vocabulary completeness (ALL official exam vocabulary as teach cards)
+  11. PP57 grammar completeness (ALL official exam grammar taught and practiced)
+  12. PP58 communicative functions coverage
   13. Synonym coverage from official lists
-  14. P56 unit count adequacy (concept-driven, not template)
+  14. PP56 unit count adequacy (concept-driven, not template)
   15. Exam simulation readiness (learner could pass official exam using only LingoVerse)
   - ALL 15 items must PASS. Missing ANY = audit INCOMPLETE.
 
 ### Engine Rules:
-- **P30**: NO React hooks inside if(st.type===) renderer blocks. EVER.
-- **P31**: Never assign CSS gradients to the `color` property
-- **P35**: Drag ghosts use document.body DOM escape hatch with delta positioning
+- **PP30**: NO React hooks inside if(st.type===) renderer blocks. EVER.
+- **PP31**: Never assign CSS gradients to the `color` property
+- **PP35**: Drag ghosts use document.body DOM escape hatch with delta positioning
 
 ---
 
@@ -437,10 +463,10 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
 **Gender** (nouns + articles when gender sub-tag present):
 - Navy blue #0D47A1 — masculine (der/le/el/de)
 - Deep crimson #B71C1C — feminine (die/la/la)
-- Burnt orange #E65100 — neuter (das, German only)
+- Emerald green #00796B — neuter (das, German only)
 - Deep teal #00695C — plural (les/los/las)
 - Dark brown #5D4037 — indefinite (ein/un/een)
-- Gold #E8960A — Dutch het (permanent)
+- Emerald green #00796B — Dutch het (neuter-equivalent)
 
 **Grammar Legend**: Flex-wrap toggle pills (borderRadius 22, padding 9px 16px). Click to expand description in compound bubble below. Edit mode for per-category toggles.
 
@@ -485,38 +511,38 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
 - Foundations: COMPLETE (knowledge + 22 playthrough lessons + gate quiz)
 - A1-A2 (Units 1-10): COMPLETE (80 lessons, avg 20+ steps)
 - B1 (Units 11-20): COMPLETE + DENSITY UPLIFT (D99) + QUALITY FIXES
-  - 80 lessons, 1,467 steps, all 18+ per P43 (avg 18.3)
+  - 80 lessons, 1,467 steps, all 18+ per PP43 (avg 18.3)
   - **DENSITY UPLIFT COMPLETE (2026-03-15)**: Uplifted from avg 12.9 to avg 18.3. ~437 quiz steps added across 76 under-dense lessons. All 80 lessons now 18-20 steps.
-  - **QUICK FIXES COMPLETE (2026-03-15)**: 1 P49 CEFR quiz replaced, 5 P22c em-dashes fixed, 11 critical P8 hint-reveals rewritten.
-  - P48 scan: PASS (0 violations). P49 scan: PASS (0 violations).
+  - **QUICK FIXES COMPLETE (2026-03-15)**: 1 PP49 CEFR quiz replaced, 5 PP22c em-dashes fixed, 11 critical PP8 hint-reveals rewritten.
+  - PP48 scan: PASS (0 violations). PP49 scan: PASS (0 violations).
 - **B2 (Units 21-30): COMPLETE (D101, 2026-03-15)**
-  - 10 units, 80 lessons, ~1,600+ steps, all 18+ per P43
+  - 10 units, 80 lessons, ~1,600+ steps, all 18+ per PP43
   - B2.1 (U21-U25): Formal writing, conditionals, news/media, hypotheticals, academic Dutch, workplace Dutch
   - B2.2 (U26-U30): Society/conjunctions, discourse markers, literature/proverbs, debate/argumentation, NT2 prep
   - Grammar: conditional types 1-3, subjunctive, advanced passive, participial constructions, cleft sentences, advanced conjunctions (doordat, zodat, mits, tenzij, naarmate, hoe...hoe), discourse markers, debate vocabulary
   - 1,090/1,492 teach cards with A:/B: dialogues (73%)
-  - All purple themed (#7B5EE8). 0 em-dashes. 0 P48 violations.
+  - All purple themed (#7B5EE8). 0 em-dashes. 0 PP48 violations.
 - **DUTCH QUALITY UPLIFT COMPLETE (D101, 2026-03-15)**: Full A1-B2 polish to Korean standard.
   - Phase 0: Purple theming for all 30 v2 units
-  - Phase 1: P26 "How Dutch Works" roadmap tip in U1 L1
-  - Phase 2: 64 severe P8 hint-reveals fixed, 12 P44 lazy hints expanded
+  - Phase 1: PP26 "How Dutch Works" roadmap tip in U1 L1
+  - Phase 2: 64 severe PP8 hint-reveals fixed, 12 PP44 lazy hints expanded
   - Phase 3: 2 under-dense lessons uplifted to 18+ steps
   - Phase 4: 810/835 A1-B1 teach cards enriched with dialogues (97%)
   - Phase 5: 10 B2 units built (U21-U30, 80 lessons)
-- 30 v2 units + 23 legacy units, 261 v2 lessons, ~5,664 steps
+- 30 v2 units (legacy units deleted 2026-03-21), 261 v2 lessons, ~5,825 steps
 - **DUTCH B2 QUALITY AUDIT COMPLETE (D102, 2026-03-16)**: D92-style audit, 10 rounds, 10 commits.
-  - Round 1-2: 93 severe P8 hint-reveals fixed (answer words appearing in hints)
-  - Round 3: 7 P49 CEFR labels removed from learner-facing content
+  - Round 1-2: 93 severe PP8 hint-reveals fixed (answer words appearing in hints)
+  - Round 3: 7 PP49 CEFR labels removed from learner-facing content
   - Round 4: 3 under-dense lessons uplifted to 18+ steps
-  - Round 5: P8 pattern leaks fixed + MC option length equalization
+  - Round 5: PP8 pattern leaks fixed + MC option length equalization
   - Round 6: 6 duplicate MC questions replaced with unique content
-  - Round 7: 2 P49 intro titles fixed ("Wat Betekent B2?" → "Wat Kun Je Nu?")
+  - Round 7: 2 PP49 intro titles fixed ("Wat Betekent B2?" → "Wat Kun Je Nu?")
   - Round 8: 154 CAPS hint-reveals rewritten (English translations in hints)
-  - Round 9: 1 visual leak, 1 P48 fb→drag_fill content error, 8 U30 hint-reveals
-  - Round 10: 5 P34 teach-before-test violations fixed (quiz words without teach cards)
+  - Round 9: 1 visual leak, 1 PP48 fb→drag_fill content error, 8 U30 hint-reveals
+  - Round 10: 5 PP34 teach-before-test violations fixed (quiz words without teach cards)
   - de/het article audit: 55+ nouns verified, ZERO errors
-  - Final scan: P48=0, P22c=0, P44=0, P49=0, density=80/80, board:true=80/80, duplicates=0
-- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 311 P8 hint-reveals fixed (54 mc + 134 fb + 123 additional). 1 critical mc ans mismatch fixed (v2u25l7). CEFR grammar 68/69 PASS (only B2 dienen te missing: LOW priority). Dialogue coverage: 97.7% (1,080/1,105).
+  - Final scan: PP48=0, PP22c=0, PP44=0, PP49=0, density=80/80, board:true=80/80, duplicates=0
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 311 PP8 hint-reveals fixed (54 mc + 134 fb + 123 additional). 1 critical mc ans mismatch fixed (v2u25l7). CEFR grammar 68/69 PASS (only B2 dienen te missing: LOW priority). Dialogue coverage: 97.7% (1,080/1,105).
 - **D112 SESSION 1 (2026-03-17)**: 1 new body parts lesson (v2u8l1b, 18 steps) + 8 month teach cards added to existing v2u3l6. Total teach cards: ~1,113+.
 - **D112 SESSION 2 (2026-03-17)**: 4 new A1 vocab gap lessons: colors (v2u5l8b, 23 steps, 11 colors with de/het), clothing (v2u6l8b, 24 steps, 12 items), directions (v2u6l8c, 21 steps, 4 cardinal), emotions (v2u5l8c, 21 steps, 8 extended). 252 v2 lessons total. Total teach cards: ~1,160+.
 - **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (v2u8l8b, 22 steps), health (v2u8l8c, 20 steps), professions (v2u9l8b, 22 steps), transportation (v2u9l8c, 21 steps), nature/weather (v2u10l8b, 20 steps), technology (v2u10l8c, 20 steps). 258 v2 lessons total. Total teach cards: ~1,228+.
@@ -529,12 +555,12 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
 - A1 (Units 1-6): COMPLETE + FULLY AUDITED (D93). CEFR A1 34/34 grammar, 17/17 vocab domains, 15/15 communicative functions.
 - A2 (Units 7-10): COMPLETE + FULLY AUDITED (D93). TOPIK I 57/57, TTMIK L1-L4 90/92 (2 deferred to B2).
 - B1 (Units 11-20): COMPLETE + DENSITY UPLIFT (D88) + FULLY AUDITED (D92, 14 rounds).
-  - 106 lessons, 2,252 steps, all 20+ per P43 (avg 21.2)
+  - 106 lessons, 2,252 steps, all 20+ per PP43 (avg 21.2)
   - All 12 seed registry harvests complete. All 6 irregular verb families taught.
   - 25+ grammar patterns, 200+ vocabulary words, 10 cultural anchors.
 - **A1-A2 Full Quality Audit (D93, 2026-03-15)**: 7 commit rounds. Verified against CEFR A1/A2, TOPIK I, TTMIK L1-4.
   - Round 1: 어떤, -(으)ㄹ 때, -는 중이다 teach cards + 3 pipeline fixes.
-  - Round 2: 52 pipeline issues (P8/D90/P44) + -(으)ㄹ게요 TOPIK gap.
+  - Round 2: 52 pipeline issues (PP8/D90/PP44) + -(으)ㄹ게요 TOPIK gap.
   - Round 3: 화나다 (emotion vocab), 아무 (TTMIK L4 prefix), -(으)ㄹ 뻔하다 (TTMIK L4).
   - Round 4: 5 color teach cards (빨간/파란/하얀/검은/노란).
   - Round 5: -기 때문에, -(으)ㄹ 수밖에 없다 from TTMIK agent.
@@ -542,7 +568,7 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - Round 7: 아래/밑, 앞, 뒤 (spatial position words) in U6L4.2.
   - Design decisions confirmed: Past tense in A2 U7, future in A2 U9, body parts in A2 U8, comparatives in B1 U12.
   - Deferred to B2: 뿐, 마저/조차, -(으)ㄹ 정도로, 얼마든지.
-- **B1 Full Quality Audit (D92, 2026-03-15)**: 14 commit rounds. ~50 P8 fixes, 6 engine \n bugs, 5 P34 violations, ~15 translations, 3 D90 reframes.
+- **B1 Full Quality Audit (D92, 2026-03-15)**: 14 commit rounds. ~50 PP8 fixes, 6 engine \n bugs, 5 PP34 violations, ~15 translations, 3 D90 reframes.
 - **TOPIK/TTMIK gap plan: EXECUTED (2026-03-14)**. All 6 sprints complete. TTMIK L1-6 coverage ~90-95%.
 - 20 units, ~209 lessons total, ~4,700+ steps (after all audit additions)
 - **B2 (U21-U30): COMPLETE + DENSITY UPLIFT (D95/D96).**
@@ -551,21 +577,21 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - B2.2 (U26-U30): Habits, proverbs/idioms, comparison/degree, register mastery, TOPIK prep + C1 preview.
   - TOPIK II writing prep (51번/52번/53번). 4-register mastery. 8 C1 seeds planted.
   - **DENSITY UPLIFT COMPLETE (2026-03-15)**: All 100 lessons now 20-22 steps (avg 21.2). ~600 cross-level review steps added recycling A1-B1 grammar. Brace/bracket balanced. D89 clean. 0 low lessons.
-  - P8 scan: 4 leaks found and fixed. P34 scan: PASS. board:true: 311/311.
-- **P48 FIX COMPLETE (D98, 2026-03-15)**: All 520 multi-blank `fb` steps converted to `drag_fill` with proper `blanks:{}` objects. Distribution: U18(1), U21(21), U22(29), U23(56), U24(67), U25(67), U26(69), U27(44), U28(52), U29(56), U30(58). Zero remaining P48 violations.
-- **P49 FIX COMPLETE (D98, 2026-03-15)**: 15 CEFR meta-curriculum quiz steps rewritten. Removed all A1/A2/B1/B2/C1 labels from learner-facing quiz `q`, `opts`, and `ans` fields. Replaced with grammar-usage questions. Zero remaining P49 violations in quiz content.
+  - PP8 scan: 4 leaks found and fixed. PP34 scan: PASS. board:true: 311/311.
+- **PP48 FIX COMPLETE (D98, 2026-03-15)**: All 520 multi-blank `fb` steps converted to `drag_fill` with proper `blanks:{}` objects. Distribution: U18(1), U21(21), U22(29), U23(56), U24(67), U25(67), U26(69), U27(44), U28(52), U29(56), U30(58). Zero remaining PP48 violations.
+- **PP49 FIX COMPLETE (D98, 2026-03-15)**: 15 CEFR meta-curriculum quiz steps rewritten. Removed all A1/A2/B1/B2/C1 labels from learner-facing quiz `q`, `opts`, and `ans` fields. Replaced with grammar-usage questions. Zero remaining PP49 violations in quiz content.
 - **DIALOGUE ENRICHMENT COMPLETE (D100, 2026-03-15)**: 847/1132 teach cards now have A:/B: dialogue examples rendered as iOS-style chat bubbles. Coverage by level: A1 97.8%, A2 86.8%, B1 52.1%, B2 58.9%. ~285 cards correctly excluded (COMPOUND/hanja morpheme cards, pure number/counter cards, standalone particles get single-sentence examples). Dialogue length scales by CEFR: A1 2-3 exchanges, A2 3-4, B1 4-5, B2 5+. Zero turn-count mismatches across all 30 units. Engine bug fixes: `showInContext` gate extended for `kind:"phrase"`, null guard on done-screen transition, LessonErrorBoundary added.
-- 30 units, ~330 lessons total, ~7,098+ steps (after B2 uplift + D112 S1-S4)
+- 30 units, 330 lessons total, 6,953 steps
 - **REMAINING QUALITY ITEMS**:
-  - 37 P8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
-  - P44 lazy hints: 12 in A1/A2 content.
+  - 37 PP8 hint-reveals in B1: mostly grammar pattern names in hints. Borderline, not egregious.
+  - PP44 lazy hints: 12 in A1/A2 content.
   - Mobile CSS overflow on fb/drag_fill option buttons with long Korean text.
-- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: Full 5-language audit. 178 em-dashes fixed, 3 critical mc ans mismatches fixed (kou4l8, kou9l8), 3 P49 CEFR labels removed, 12 severe P8 hint-reveals rewritten. CEFR grammar coverage: 64/64 FULL PASS.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: Full 5-language audit. 178 em-dashes fixed, 3 critical mc ans mismatches fixed (kou4l8, kou9l8), 3 PP49 CEFR labels removed, 12 severe PP8 hint-reveals rewritten. CEFR grammar coverage: 64/64 FULL PASS.
 - **D112 SESSION 1 (2026-03-17)**: 4 new A1 vocab gap lessons added: months (kou3l8b, 24 steps), clothing (kou6l6b, 24 steps), body parts (kou8l1.3, 18 steps), emotions (kou5l7b, 18 steps). Total teach cards: ~1,200+.
 - **D112 SESSION 2 (2026-03-17)**: 3 new A1 vocab gap lessons: extended colors (kou5l7c, 22 steps, 7 colors), more clothing (kou6l6c, 21 steps, 8 items), cardinal directions (kou6l6d, 20 steps, 동서남북). 318 lessons total. Total teach cards: ~1,225+.
 - **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (kou8l9b, 20 steps), health (kou8l9c, 20 steps), professions (kou9l9b, 22 steps), transportation (kou9l9c, 21 steps), nature/weather (kou10l10b, 20 steps), technology (kou10l10c, 20 steps). 324 lessons total. Total teach cards: ~1,295+.
 - **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: feelings (kou13l10b, 23), workplace (kou14l10b, 24), education (kou15l10b, 22), media (kou17l10b, 22), abstract (kou18l10b, 22), legal (kou19l10b, 22). 330 lessons total. Total teach cards: ~1,367+.
-- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, P48/P49 clean, dialogue-enriched, and cross-audited (D109). D112 vocab gap fixes in progress. Next: C1 curriculum when Dutch catches up.
+- **Korean is PRODUCTION-READY.** A1-B2 fully built, audited, density-uplifted, PP48/PP49 clean, dialogue-enriched, and cross-audited (D109). D112 vocab gap fixes in progress. Next: C1 curriculum when Dutch catches up.
 
 ### German:
 - **A1-B2 COMPLETE (D103, 2026-03-16)**: Full build from scratch.
@@ -576,11 +602,11 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - B1 (U17-U24): Prateritum, passive voice, relative clauses, genitive/n-Deklination, indirect speech, infinitive constructions, advanced connectors, work culture
   - B2 (U25-U30): Advanced Konjunktiv II, participial constructions, advanced passive, discourse markers, proverbs/idioms, TestDaF/telc B2 prep
   - 1,100/1,100 teach cards with A:/B: dialogues (100%)
-  - der/die/das article colors throughout (der=blue, die=coral, das=purple)
-  - Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240, density=all 18+
+  - der/die/das article colors throughout (der=blue, die=coral, das=emerald green)
+  - Quality audit PASS: PP48=0, PP22c=0, PP49=0, board:true=240/240, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
-- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 157 P8 hint-reveals fixed. CEFR grammar PASS with 1 moderate gap (A2 imperative mood: no dedicated lesson). P22c=0, P49=0.
-- **CEFR DISTRIBUTION FLAG (D110)**: German has 8-8-7-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 157 PP8 hint-reveals fixed. CEFR grammar PASS with 1 moderate gap (A2 imperative mood: no dedicated lesson). PP22c=0, PP49=0.
+- **CEFR DISTRIBUTION FLAG (D110)**: German has 8-8-7-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per PP56. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs.
 - **German is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
 ### French:
@@ -594,11 +620,11 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - B2 (U25-U30): Subjonctif passé, conditionnel passé, nominalization, discourse markers, proverbs/idioms, DELF B2/TCF prep + C1 preview
   - 883/883 teach cards with A:/B: dialogues (100%)
   - le/la article colors throughout (le=blue masculine, la=coral feminine)
-  - Quality scan: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
+  - Quality scan: PP48=0, PP22c=0, PP49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
-- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 15 P8 hint-reveals fixed, 2 P49 CEFR labels removed. CEFR grammar PASS with minor vocab gaps (weather, months, health). verb_table underused (5 across 240 lessons).
-- **CEFR DISTRIBUTION FLAG (D110)**: French has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. Needs grammar construct cataloguing to determine proper unit count.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 15 PP8 hint-reveals fixed, 2 PP49 CEFR labels removed. CEFR grammar PASS with minor vocab gaps (weather, months, health). verb_table underused (5 across 240 lessons).
+- **CEFR DISTRIBUTION FLAG (D110)**: French has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per PP56. Needs grammar construct cataloguing to determine proper unit count.
 - **French is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Spanish:
 - **A1-B2 COMPLETE (D108, 2026-03-17)**: Full build using D107 temp-file agent workflow + D106 Opus 4.6 agents.
@@ -609,11 +635,11 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - B1 (U17-U24): Subjuntivo presente (regular + irregular), relative pronouns, pluscuamperfecto/reported speech, passive voice, gerundio/progressive, advanced connectors, work culture
   - B2 (U25-U30): Subjuntivo imperfecto, condicional compuesto, nominalization, discourse markers, proverbs/idioms, DELE B2/SIELE prep + C1 preview
   - All teach cards have A:/B: dialogues. el/la article colors throughout (el=blue, la=coral).
-  - Quality validation PASS: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
+  - Quality validation PASS: PP48=0, PP22c=0, PP49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
-- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 23 P8 hint-reveals fixed, 1 P49 CEFR label removed. CEFR grammar PASS with 2 vocab gaps (A1 body parts: MODERATE, A2 animals: LOW).
-- **CEFR DISTRIBUTION FLAG (D110)**: Spanish has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. Needs grammar construct cataloguing to determine proper unit count.
-- **Spanish needs concept-driven re-evaluation.** A1-B2 fully built, cross-audited (D109), but distribution was template-based. Deep P52 teach-before-use verification not yet done.
+- **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 23 PP8 hint-reveals fixed, 1 PP49 CEFR label removed. CEFR grammar PASS with 2 vocab gaps (A1 body parts: MODERATE, A2 animals: LOW).
+- **CEFR DISTRIBUTION FLAG (D110)**: Spanish has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per PP56. Needs grammar construct cataloguing to determine proper unit count.
+- **Spanish needs concept-driven re-evaluation.** A1-B2 fully built, cross-audited (D109), but distribution was template-based. Deep PP52 teach-before-use verification not yet done.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
@@ -643,11 +669,11 @@ Each step is its own session. No step starts until the previous is solid.
 
 ### Content Status (Phase 1 — COMPLETE for current format)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, ~7,221 steps. THE GOLD STANDARD.
-2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, ~5,789 steps. THE SECOND GOLD STANDARD.
-3. **German** - A1-B2 COMPLETE (D103). 30 units, 258 lessons, ~4,876 steps.
-4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, ~4,734 steps.
-5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 257 lessons, ~4,697 steps.
+1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, 6,953 steps. THE GOLD STANDARD.
+2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, 5,825 steps. THE SECOND GOLD STANDARD.
+3. **German** - A1-B2 COMPLETE (D103). 30 units, 259 lessons, 4,941 steps.
+4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, 4,781 steps.
+5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 258 lessons, 4,739 steps.
 
 All 5 languages will be restructured per the rehaul vision. Existing content is salvaged (vision doc Section 2.4).
 
@@ -659,13 +685,13 @@ All 5 languages will be restructured per the rehaul vision. Existing content is 
 ### Known Scaling Blockers (must fix before Phase 1 expansion):
 1. KOREAN_DICT hardcoded in engine (~line 10384) - extract to per-language module
 2. ~~LANG_BLUEPRINT incomplete~~ RESOLVED: All 5 launch languages have LANG_BLUEPRINT
-3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto P9)
+3. UI strings mostly hardcoded English - TK localization layer deferred (Manifesto PP9)
 4. No multi-source lesson schema - units assume English source. Onboarding "I speak" screen removed (D83), must re-add when Arabic source is implemented.
 5. RTL lesson card styling incomplete (foundations work, lesson engine doesn't)
 6. **nl/en field naming** (D110): All teach cards across ALL languages use `nl` for target-language word and `en` for source-language translation. These are hardcoded Dutch-English vestiges. Rename to `target`/`source` is SCHEDULED as step 6 of the platform rehaul (see `docs/VERUMLINGUA_REHAUL_VISION.md` Section 7). Dedicated session, mechanical find-and-replace. New code uses `target`/`source` from day one.
-7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions. ALL 5 languages need concept-driven re-evaluation (P56). Korean A2 (4 units for Category V language) also flagged.
-8. **Vocabulary completeness NOT verified** (D112): No language has been verified against official exam vocabulary lists (TOPIK/NT2/Goethe/DELF/DELE). The number of teach cards per language is unknown relative to the number REQUIRED by certification exams. This is the #1 content blocker. See P55.
-9. **Grammar completeness NOT verified** (D112): No language has a complete grammar inventory table mapping every official exam grammar construct to teach cards and quiz steps. See P57.
+7. **CEFR distribution imbalance** (D110): German (8-8-7-6), French (8-8-8-6), Spanish (8-8-8-6) have front-loaded A-level distributions. ALL 5 languages need concept-driven re-evaluation (PP56). Korean A2 (4 units for Category V language) also flagged.
+8. **Vocabulary completeness NOT verified** (D112): No language has been verified against official exam vocabulary lists (TOPIK/NT2/Goethe/DELF/DELE). The number of teach cards per language is unknown relative to the number REQUIRED by certification exams. This is the #1 content blocker. See PP55.
+9. **Grammar completeness NOT verified** (D112): No language has a complete grammar inventory table mapping every official exam grammar construct to teach cards and quiz steps. See PP57.
 
 ---
 
@@ -685,7 +711,7 @@ Full design document: `docs/KOREAN_B1_CURRICULUM_DESIGN.md`
 
 5. **Indirect Speech Before Passive**: Deliberate ordering. Indirect speech (U16) is more immediately useful; passive/causative (U17) is structurally harder. Having reported speech first enables "The news said..." patterns in U17.
 
-6. **Step Density (D88)**: B1 density uplift completed 2026-03-15. All 106 lessons now at 20+ steps (avg 21.2). New steps are multi-construct per P46 (2+ grammar patterns from different units). Previous avg was 13.8 — uplifted without filler by adding layered quiz steps that combine current + prior grammar.
+6. **Step Density (D88)**: B1 density uplift completed 2026-03-15. All 106 lessons now at 20+ steps (avg 21.2). New steps are multi-construct per PP46 (2+ grammar patterns from different units). Previous avg was 13.8 — uplifted without filler by adding layered quiz steps that combine current + prior grammar.
 
 7. **Contrastive Questions Allowed**: MC questions that show both options in the question stem (e.g., "X vs Y: which means Z?") are permitted when testing pattern discrimination, not recall.
 
@@ -719,7 +745,7 @@ All completed build docs deleted. Their content is fully captured in CLAUDE.md d
 - ~~`docs/SPANISH_AGENT_PROMPT.md`~~ — Spanish build COMPLETE (D108). Format spec and workflow captured in CLAUDE.md Rule 12.
 - ~~`docs/FRENCH_A1_B2_HANDOFF.md`~~ — French build COMPLETE (D105). Lessons learned captured in D106.
 - ~~`docs/FRENCH_AGENT_PROMPT.md`~~ — French build COMPLETE (D105). Format spec captured in CLAUDE.md.
-- ~~`KOREAN_B2_HANDOFF.md`~~ — B2 build COMPLETE + density-uplifted + P48/P49 clean + dialogue-enriched (D94-D100).
+- ~~`KOREAN_B2_HANDOFF.md`~~ — B2 build COMPLETE + density-uplifted + PP48/PP49 clean + dialogue-enriched (D94-D100).
 - ~~`KOREAN_B2_DENSITY_UPLIFT_HANDOFF.md`~~ — Density uplift COMPLETE (D96). All 100 lessons 20+ steps.
 - ~~`KOREAN_CURRICULUM_GAP_PLAN.md`~~ — All 6 TOPIK/TTMIK sprints EXECUTED (D93).
 - ~~`KOREAN_DENSITY_AUDIT.md`~~ — Superseded by D88 density uplift + D92 audit.
@@ -741,16 +767,16 @@ All completed build docs deleted. Their content is fully captured in CLAUDE.md d
 
 **File separation convention**: New languages start in `units-other.js`. Once a language has 5+ units with real content (not skeletons), create a dedicated `units-{lang}.js` file:
 1. Create `src/data/units-{lang}.js` exporting the units array
-2. Add `import {lang}Units from './data/units-{lang}.js';` in lingoverse.jsx (lines 7-9)
+2. Add `import {lang}Units from './data/units-{lang}.js';` in verumlingua.jsx (lines 7-9)
 3. Add `...{lang}Units` to the UNITS spread (line ~8102)
 4. Remove those units from `units-other.js`
 
 This is manual. Phase 2 (post-content-complete) will migrate all units to JSON files per language.
 
 ### Adding a lesson to an existing unit:
-1. Run P24 redundancy check first
+1. Run PP24 redundancy check first
 2. Follow step type pipeline (intro → teach → tip → quiz → verb_table)
-3. Run full audit checklist (P24-P45)
+3. Run full audit checklist (PP24-PP45)
 4. Every teach card: check also/cognate/fRef fields
 
 ### Deploying to lingoverse.nl:
@@ -766,7 +792,7 @@ Every new Claude Code session MUST follow this sequence before writing any code:
 2. **Check the Documentation Hierarchy** (above). Know which docs are authoritative. Deleted historical docs are listed for reference only.
 3. **Read memory files** (`~/.claude/projects/.../memory/`). Check for owner preferences, past mistakes, and architectural decisions.
 4. **Before any audit or gap analysis**: Follow the Agent Deployment Standards below. Never compare external references against CLAUDE.md descriptions alone.
-5. **Before writing content**: Re-read the Pipeline Rules section. Every rule (P8, P24, P26, P34, P37, P43, P46) applies to every lesson in every language.
+5. **Before writing content**: Re-read the Pipeline Rules section. Every rule (PP8, PP24, PP26, PP34, PP37, PP43, PP46) applies to every lesson in every language.
 
 ### Why This Exists
 In March 2026, audit agents compared TOPIK/TTMIK reference lists against CLAUDE.md descriptions instead of grep-ing actual code. This produced a 25% false-positive rate (10 patterns listed as "missing" that actually existed in `units-korean.js`). The owner could have found these with Ctrl+F faster than the agents did. This protocol prevents that class of error from recurring.
@@ -825,30 +851,30 @@ Any gap claim or "missing pattern" assertion MUST include an evidence table:
 
 ### Rule 7: Build-Time Density Enforcement (D95)
 When building curriculum content (units/lessons) across multiple units:
-1. **Enforce P43 step counts PER LESSON as you build, not after.** Every lesson must meet the language's density minimum (Korean: 18-20+) BEFORE moving to the next lesson.
+1. **Enforce PP43 step counts PER LESSON as you build, not after.** Every lesson must meet the language's density minimum (Korean: 18-20+) BEFORE moving to the next lesson.
 2. **Deploy a density-monitoring agent** as a parallel background task during multi-unit builds. This agent should periodically count steps per lesson in the file being built and flag violations immediately.
 3. **Never batch-build skeleton lessons for later uplift.** The B1 and B2 builds both produced skeletons averaging 13.8 steps/lesson that required costly separate uplift passes. This pattern must not repeat.
 4. **Use a density-first template**: Start each lesson with the intro + minimum required teach/tip/quiz steps BEFORE adding content. Fill in the content afterward. This ensures the structural minimum is always met.
 5. **Bird's-eye view agent**: For any build spanning 5+ units, deploy a dedicated orchestrator agent that:
    - Tracks which units/lessons are complete and which are pending
-   - Validates density, P8, P34 after each unit (not after the entire level)
+   - Validates density, PP8, PP34 after each unit (not after the entire level)
    - Flags systematic drift (e.g., step counts decreasing as the session progresses — this is the exact pattern that caused the B2 failure: U21 avg 17.7 → U30 avg 10.9)
    - Reports cumulative statistics after each unit is complete
 
 ### Why Rule 7 Exists
-In March 2026, the Korean B2 build (U21-U30, 100 lessons) was completed with 91/100 lessons below the P43 density minimum. The build session produced progressively thinner content as it continued — early units averaged 17.7 steps, final units averaged 10.9. No agent was monitoring density during the build. The main session and all sub-agents focused on grammar scope and structural correctness but ignored step count requirements. This cost the owner a full separate uplift pass (same as D88 for B1). The pipeline must guarantee quality by PROCESS (Principle 3) — density is a process guarantee, not a post-hoc fix.
+In March 2026, the Korean B2 build (U21-U30, 100 lessons) was completed with 91/100 lessons below the PP43 density minimum. The build session produced progressively thinner content as it continued — early units averaged 17.7 steps, final units averaged 10.9. No agent was monitoring density during the build. The main session and all sub-agents focused on grammar scope and structural correctness but ignored step count requirements. This cost the owner a full separate uplift pass (same as D88 for B1). The pipeline must guarantee quality by PROCESS (Principle 3) — density is a process guarantee, not a post-hoc fix.
 
 ### Rule 8: Content Quality Gate for Uplift/Batch Edits (D97)
 When performing density uplifts, batch content additions, or any operation that adds steps to existing lessons:
 1. **Every added step must be pedagogically valid on its own.** A step that meets density count but teaches nothing is WORSE than a missing step — it wastes learner time and erodes trust.
-2. **Verify step type correctness (P48)**: Every `fb` step has exactly ONE blank (`{1}`). Every multi-blank step uses `drag_fill` with a `blanks` object. Run a grep for `type:"fb"` + `{2}` after any batch edit.
-3. **Verify no meta-curriculum leakage (P49)**: Grep for CEFR level strings (A1, A2, B1, B2, C1) in quiz `q`, `opts`, and `ans` fields after any batch edit. Zero tolerance.
-4. **Verify recycling quality (P50)**: Every recycling step must test USAGE of the grammar, not classification. Spot-check at least 5 recycling steps per unit after batch addition.
+2. **Verify step type correctness (PP48)**: Every `fb` step has exactly ONE blank (`{1}`). Every multi-blank step uses `drag_fill` with a `blanks` object. Run a grep for `type:"fb"` + `{2}` after any batch edit.
+3. **Verify no meta-curriculum leakage (PP49)**: Grep for CEFR level strings (A1, A2, B1, B2, C1) in quiz `q`, `opts`, and `ans` fields after any batch edit. Zero tolerance.
+4. **Verify recycling quality (PP50)**: Every recycling step must test USAGE of the grammar, not classification. Spot-check at least 5 recycling steps per unit after batch addition.
 5. **Run a rendering sanity check**: For every new step type used, mentally trace the engine renderer path. Does the engine actually support what the data expects? Check the renderer code, not assumptions.
-6. **Post-uplift audit is MANDATORY, not optional.** After any batch edit touching 10+ steps, run P8/P48/P49/P50 verification BEFORE committing. The D96 uplift added ~600 steps with zero quality verification — this must never happen again.
+6. **Post-uplift audit is MANDATORY, not optional.** After any batch edit touching 10+ steps, run PP8/PP48/PP49/PP50 verification BEFORE committing. The D96 uplift added ~600 steps with zero quality verification — this must never happen again.
 
 ### Why Rule 8 Exists
-In March 2026, the D96 density uplift added ~600 steps to Korean B2 to meet P43 minimums. The uplift enforced step COUNT but not step QUALITY. Result: 520 broken multi-blank `fb` steps (engine only supports single-blank), 100+ CEFR taxonomy quizzes (learners asked to classify grammar by level), and hundreds of shallow recycling steps. The owner described this as "disrespecting the pipeline and polyglot vision." Density without quality is anti-pedagogy. Rule 8 ensures that quantity metrics never override teaching quality again.
+In March 2026, the D96 density uplift added ~600 steps to Korean B2 to meet PP43 minimums. The uplift enforced step COUNT but not step QUALITY. Result: 520 broken multi-blank `fb` steps (engine only supports single-blank), 100+ CEFR taxonomy quizzes (learners asked to classify grammar by level), and hundreds of shallow recycling steps. The owner described this as "disrespecting the pipeline and polyglot vision." Density without quality is anti-pedagogy. Rule 8 ensures that quantity metrics never override teaching quality again.
 
 ### Rule 9: Sequential Enrichment with Validator Agent (D100) — THE GOLD STANDARD WORKFLOW
 When performing large-scale content enrichment across multiple units (e.g., adding dialogues, examples, or bulk quality fixes to 20+ units):
@@ -859,12 +885,12 @@ When performing large-scale content enrichment across multiple units (e.g., addi
    - **Exact line range** for their unit(s) (e.g., "U7 starts at line 1997, U8 at line 2239")
    - **Full format spec** with level-appropriate parameters (e.g., "A2 = 3-4 exchanges, 6-8 lines")
    - **Exclusion list** — which card types to skip (COMPOUND/hanja morpheme cards, pure number/counter cards)
-   - **Pipeline rules** relevant to the work (P8, P22c, P34, P44)
+   - **Pipeline rules** relevant to the work (PP8, PP22c, PP34, PP44)
    - **Cumulative vocabulary context** (what's been taught up to this point)
 
 2. **Validator agent runs AFTER each content agent completes.** The validator checks:
    - **Turn count mismatches**: `example` and `exampleEn` must have identical A:/B: turn counts (the engine regex `/[AB]:\s/` splits both — mismatched counts crash the bubble renderer)
-   - **Em-dash scan** (P22c): Zero tolerance for — characters
+   - **Em-dash scan** (PP22c): Zero tolerance for — characters
    - **Dialogue coverage**: Count cards with dialogues vs total cards per unit
    - **Step density**: Verify lesson step counts unchanged
    - **Quote parity**: Every `"` has a matching `"`
@@ -882,7 +908,7 @@ When performing large-scale content enrichment across multiple units (e.g., addi
 5. **Final cross-level validation sweep** after all units complete. One agent scans the ENTIRE file for:
    - Total dialogue coverage statistics by level
    - Turn count mismatches across ALL units (not just the latest batch)
-   - Any new P8 leaks introduced by dialogue text
+   - Any new PP8 leaks introduced by dialogue text
    - Build verification
 
 **Results of this workflow (D100):** 847 teach cards enriched across 30 Korean units in a single session. 454 cards enriched by sequential agents (A2+B1+B2), 393 already done (A1 + prior work). Zero turn-count mismatches. Zero em-dashes introduced. Zero build failures. All deployed to production. THIS is the standard for all future large-scale content operations.
@@ -897,12 +923,12 @@ After completing a full curriculum build (all units for a language), run a struc
 1. **No undefined/null array elements.** Stray commas between units create sparse array holes. These crash React when reading `.n`, `.title`, `.lessons` on `undefined`. Iterate every element and assert non-null.
 2. **Unit ordering.** Units must be sequential by `n` (1, 2, 3, ..., 30). The engine displays units in array order with no sort. Scrambled order = scrambled learner experience.
 3. **Required fields on every MC step.** Every `type:"mc"` step MUST have `q`, `opts` (array), and `ans` (string matching one of opts). A missing `ans` crashes when the learner selects an answer.
-4. **Required fields on every fb step.** Every `type:"fb"` step MUST have `s`, `a`, and `opts`. No `{2}` or `{3}` in the `s` field (P48).
+4. **Required fields on every fb step.** Every `type:"fb"` step MUST have `s`, `a`, and `opts`. No `{2}` or `{3}` in the `s` field (PP48).
 5. **Required fields on every teach step.** Every `type:"teach"` step MUST have `nl` and `en`.
 6. **Required fields on every drag_fill step.** Every `type:"drag_fill"` step MUST have `s`, `blanks` (object), and `pool` (array).
 7. **Required fields on every match step.** Every `type:"match"` step MUST have `pairs` (array of objects with `nl` and `en`).
 8. **board:true on every lesson.** Zero exceptions for new content.
-9. **Lesson density.** Every lesson must have 18+ steps (P43).
+9. **Lesson density.** Every lesson must have 18+ steps (PP43).
 
 **Validation script template** (run with `node -e "..."` after build):
 ```javascript
@@ -917,7 +943,7 @@ units.forEach((u, i) => {
     l.steps.forEach((s, si) => {
       if (s.type === 'mc' && !s.ans) issues.push(l.id + ' step ' + si + ': mc missing ans');
       if (s.type === 'fb' && !s.a) issues.push(l.id + ' step ' + si + ': fb missing a');
-      if (s.type === 'fb' && s.s && s.s.includes('{2}')) issues.push(l.id + ' step ' + si + ': P48 fb multi-blank');
+      if (s.type === 'fb' && s.s && s.s.includes('{2}')) issues.push(l.id + ' step ' + si + ': PP48 fb multi-blank');
       if (s.type === 'teach' && !s.nl) issues.push(l.id + ' step ' + si + ': teach missing nl');
       if (s.type === 'teach' && !s.en) issues.push(l.id + ' step ' + si + ': teach missing en');
       if (s.type === 'drag_fill' && !s.blanks) issues.push(l.id + ' step ' + si + ': drag_fill missing blanks');
@@ -937,30 +963,21 @@ In March 2026, the German D103 build (30 units, 240 lessons, 4,518 steps) was de
 
 Vite compiled the file without errors. The build passed. But React crashed at runtime when trying to read properties of `undefined` array elements. This class of structural defect is invisible to build tools and can only be caught by runtime-style validation. Rule 10 makes this validation mandatory before any curriculum is considered "complete."
 
-### Rule 11: Agent Model Escalation Protocol (D106)
+### Rule 11: Opus + Sonnet Co-Write & Cross-Validate (D120) — NON-NEGOTIABLE
 When deploying sub-agents for content generation and curriculum building:
 
-1. **Default to Opus 4.6 (`model:"opus"`) for ALL content generation agents.** Any agent tasked with building curriculum units, teach cards, quiz steps, or lessons MUST use Opus. Sonnet agents lack the sustained output quality, reliability, and pipeline rule adherence needed for large content tasks. This is non-negotiable.
+1. **Opus 4.6 and Sonnet 4.6+ work TOGETHER.** Both write content in parallel, then cross-validate each other's output. This gets the best of both models: Opus's depth and Sonnet's speed, with mutual quality assurance.
 
-2. **Sonnet (`model:"sonnet"`) is acceptable ONLY for**:
-   - Validation agents (grep/count/structural checks)
-   - Search and exploration agents (finding files, reading code)
-   - Simple file edits (< 500 lines of output)
-   - Quick audits (P8/P48/P49 scans)
+2. **The workflow**: Deploy both models to build sections independently. After each produces output, the OTHER model validates (PP8, PP48, PP49, density, PP52, structural). Only content that passes cross-validation ships.
 
-3. **If a Sonnet agent fails, goes stale, or becomes unresponsive**: Do NOT retry with Sonnet. Escalate immediately to Opus 4.6. Document the failure.
+3. **Sonnet 4.6+ minimum.** Sonnet below 4.6 is BANNED from all content work. Only 4.6 or higher.
 
-4. **For multi-unit curriculum builds (5+ units)**: Always use Opus 4.6 from the start. The cost of retrying after Sonnet failure (wasted time, stale agents, broken sequential workflows) far exceeds the cost of using Opus initially.
+4. **Validation is ALWAYS bidirectional.** Opus validates Sonnet's work AND Sonnet validates Opus's work. Neither model's output ships without the other's sign-off.
 
-5. **Agent reliability is non-negotiable.** Every deployed agent MUST complete its assigned task. Stale or unresponsive agents break Rule 9 sequential workflows, waste owner time, and risk data loss. If a model tier cannot reliably complete a task type, that model is permanently banned from that task type.
+5. **For new languages: mandatory cross-language scanning.** When adding a new language, agents MUST scan ALL previous languages' rules, content patterns, and audit results before writing. This builds toward full autonomous course generation.
 
-6. **Model selection in Agent tool calls**: Use the `model` parameter explicitly:
-   - Content generation: `model:"opus"`
-   - Validation/search: `model:"sonnet"` (or omit for default)
-   - When in doubt: use `model:"opus"`
-
-### Why Rule 11 Exists
-In March 2026, the French A1-B2 build (D105) deployed Sonnet-tier sub-agents for curriculum content generation. Multiple agents became stale, unresponsive, or failed to complete their tasks, requiring repeated retries and manual owner intervention. The same tasks completed successfully and reliably when escalated to Opus 4.6. Content generation requires sustained coherence across thousands of lines, strict pipeline rule adherence (P8, P34, P43, P48, P49), language-specific accuracy (grammar, phonetics, cultural context), and exact structural format compliance. These demands exceed what smaller models can reliably deliver. This rule prevents future sessions from repeating the same costly trial-and-error pattern.
+### Why Rule 11 Was Updated
+The original Rule 11 banned Sonnet from content entirely. The owner's new doctrine: both models co-write and cross-validate, producing higher quality than either alone. This also accelerates builds (parallel writing) while maintaining quality (mutual validation).
 
 ### Rule 12: Temp-File Agent Workflow for Curriculum Builds (D107)
 When deploying sub-agents to build curriculum units, agents MUST write to temporary files, NOT directly to the main units file. The main session merges validated content into the target file.
@@ -978,7 +995,7 @@ When deploying sub-agents to build curriculum units, agents MUST write to tempor
    ];
    ```
 
-3. **Agent self-validates before returning.** Each content agent runs the standard validation checks on its own temp file: step counts (18+), board:true, mc.ans, fb.a, P48, teach.nl/en. The agent reports PASS/FAIL with details.
+3. **Agent self-validates before returning.** Each content agent runs the standard validation checks on its own temp file: step counts (18+), board:true, mc.ans, fb.a, PP48, teach.nl/en. The agent reports PASS/FAIL with details.
 
 4. **Main session validates and merges.** The main session:
    a. Reads the temp file and validates independently (never trust agent self-report alone)
@@ -989,7 +1006,7 @@ When deploying sub-agents to build curriculum units, agents MUST write to tempor
 
 5. **Two agents max in parallel.** Deploy at most 2 content agents simultaneously (e.g., U7 agent + U8 agent). Each writes to its own temp file. No merge conflicts possible since they don't touch the main file.
 
-6. **Validation agent runs after merge.** After the main session merges both units, a validation agent (Sonnet-tier is fine) scans the full file for P8/P48/P49/P22c/density issues.
+6. **Validation agent runs after merge.** After the main session merges both units, a validation agent (Sonnet-tier is fine) scans the full file for PP8/PP48/PP49/PP22c/density issues.
 
 7. **NO worktree isolation for curriculum builds.** Worktrees branch from the latest commit, which may not have the current session's uncommitted work. This caused repeated failures in the Spanish D107 build where worktree agents couldn't find `units-spanish.js`. Always use temp files instead.
 
@@ -997,7 +1014,7 @@ When deploying sub-agents to build curriculum units, agents MUST write to tempor
    - The exact unit number(s) to build
    - The curriculum plan for those units (from CLAUDE.md)
    - The complete format spec (unit structure, lesson structure, step types)
-   - All pipeline rules (P8, P22c, P34, P43, P44, P48, P49)
+   - All pipeline rules (PP8, PP22c, PP34, PP43, PP44, PP48, PP49)
    - Language-specific rules (articles, phonetics, grammar notes)
    - The temp file path to write to
    - A sample unit from the existing file for format reference (first 50 lines of the current units file)
@@ -1009,18 +1026,18 @@ In March 2026, the Spanish A1-B2 build (D107) attempted three different agent de
 ### Rule 13: Full-Context Audit Agents (D110) — NON-NEGOTIABLE
 Every audit agent MUST receive FULL pipeline context in its prompt. An agent that audits without complete rules produces the exact class of error D109 produced: checking details while missing structure.
 
-1. **Every audit agent's prompt MUST include**: (a) the complete Pipeline Rules section from CLAUDE.md (P8 through P54, verbatim or summarized with all rule numbers), (b) the P53 audit completeness checklist (all 9 points), (c) the anti-cramming doctrine (P54), (d) the D110 CEFR distribution flaw as a cautionary example, (e) explicit instruction to validate CEFR distribution FIRST before any content-level checks.
+1. **Every audit agent's prompt MUST include**: (a) the complete Pipeline Rules section from CLAUDE.md (PP8 through PP54, verbatim or summarized with all rule numbers), (b) the PP53 audit completeness checklist (all 9 points), (c) the anti-cramming doctrine (PP54), (d) the D110 CEFR distribution flaw as a cautionary example, (e) explicit instruction to validate CEFR distribution FIRST before any content-level checks.
 
-2. **Audit agents must validate STRUCTURE before CONTENT.** The first thing any audit agent checks is: Are the units assigned to the correct CEFR levels? Is the distribution pedagogically sound? Is it concept-driven (P56) with justified unit counts based on FSI difficulty and source-target distance? Only AFTER structural validation passes does the agent proceed to content-level checks (P8, P34/P52, P48, P49, etc.).
+2. **Audit agents must validate STRUCTURE before CONTENT.** The first thing any audit agent checks is: Are the units assigned to the correct CEFR levels? Is the distribution pedagogically sound? Is it concept-driven (PP56) with justified unit counts based on FSI difficulty and source-target distance? Only AFTER structural validation passes does the agent proceed to content-level checks (PP8, PP34/PP52, PP48, PP49, etc.).
 
 3. **Audit agents must cross-reference external standards.** For every language, the agent must compare the curriculum against established textbooks, official exam frameworks (TOPIK, DELE, DELF, Goethe, NT2), and major teaching platforms. The question is not "does this content exist?" but "does this content exist at the right level with the right depth compared to how real language courses teach it?"
 
-4. **Deep P52 (teach-before-use) verification.** Agents must not just check "does a teach card exist somewhere" — they must verify that EVERY word in EVERY quiz step has a prior dedicated teach card. Sampling is not sufficient for P52. For a full audit, every quiz step must be checked. For spot-check audits, sample at least 20 quiz steps per unit.
+4. **Deep PP52 (teach-before-use) verification.** Agents must not just check "does a teach card exist somewhere" — they must verify that EVERY word in EVERY quiz step has a prior dedicated teach card. Sampling is not sufficient for PP52. For a full audit, every quiz step must be checked. For spot-check audits, sample at least 20 quiz steps per unit.
 
-5. **The agent's final report MUST include a P53 checklist with PASS/FAIL for each of the 9 items.** If any item is FAIL, the audit is INCOMPLETE. The agent must clearly state this.
+5. **The agent's final report MUST include a PP53 checklist with PASS/FAIL for each of the 9 items.** If any item is FAIL, the audit is INCOMPLETE. The agent must clearly state this.
 
 ### Why Rule 13 Exists
-In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had template-based CEFR distributions (8-8-7-6 or 8-8-8-6) instead of concept-driven distributions per P56. The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the P53 checklist items.
+In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked PP8 leaks, PP22c em-dashes, PP49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had template-based CEFR distributions (8-8-7-6 or 8-8-8-6) instead of concept-driven distributions per PP56. The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the PP53 checklist items.
 
 ### Rule 14: Official Source Verification (D112) — NON-NEGOTIABLE
 Every vocabulary or grammar claim in an audit MUST cite the official source. Uncited claims are REJECTED.
@@ -1039,13 +1056,13 @@ Previous audits made claims like "CEFR grammar PASS" without ever consulting the
 ### Rule 15: No Sampling for Completeness Audits (D112) — NON-NEGOTIABLE
 Sampling (checking 10% and extrapolating) is NEVER acceptable for vocabulary or grammar completeness verification.
 
-1. **For P55 vocabulary completeness**: Check EVERY word on the official list against the teach cards. This is automated (script compares two lists). There is no reason to sample when a script can check everything.
+1. **For PP55 vocabulary completeness**: Check EVERY word on the official list against the teach cards. This is automated (script compares two lists). There is no reason to sample when a script can check everything.
 
-2. **For P57 grammar completeness**: Check EVERY construct on the official grammar inventory. Produce the full inventory table. No "spot-check 20 constructs and assume the rest are fine."
+2. **For PP57 grammar completeness**: Check EVERY construct on the official grammar inventory. Produce the full inventory table. No "spot-check 20 constructs and assume the rest are fine."
 
-3. **For P52 teach-before-use**: Check EVERY quiz step, not a sample. This is automated (script extracts quiz words and checks against cumulative teach list). Sampling caught 5 P34 violations in D102; full verification would have caught all of them in one pass.
+3. **For PP52 teach-before-use**: Check EVERY quiz step, not a sample. This is automated (script extracts quiz words and checks against cumulative teach list). Sampling caught 5 PP34 violations in D102; full verification would have caught all of them in one pass.
 
-4. **Sampling IS acceptable for**: P8 anti-leak checks (human judgment required per step, full automation impractical), communicative function mapping (requires pedagogical judgment).
+4. **Sampling IS acceptable for**: PP8 anti-leak checks (human judgment required per step, full automation impractical), communicative function mapping (requires pedagogical judgment).
 
 ### Why Rule 15 Exists
 D111 ran "automated scans" that checked structural properties (step types, em-dashes, density) but never checked vocabulary completeness because "it would take too long." The entire vocabulary of a language file can be extracted and compared against a word list in seconds with a script. The audit was incomplete not because the task was hard but because nobody wrote the script. Rule 15 makes full verification the default and sampling the exception.
@@ -1094,15 +1111,15 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 | B1 curriculum (U11-U20) | - | COMPLETE |
 | B2 curriculum (U21-U30) | D94 | COMPLETE |
 | A1-A2 quality audit | D93 | 7 rounds, CEFR/TOPIK/TTMIK verified |
-| B1 quality audit | D92 | 14 rounds, ~50 P8 fixes |
+| B1 quality audit | D92 | 14 rounds, ~50 PP8 fixes |
 | B1 density uplift | D88 | All 106 lessons 20+ steps |
 | B2 density uplift | D96 | All 100 lessons 20+ steps |
-| P48 fb-to-drag_fill fix | D98 | 520 steps converted |
-| P49 CEFR purge | D98 | 15 meta-quizzes rewritten |
+| PP48 fb-to-drag_fill fix | D98 | 520 steps converted |
+| PP49 CEFR purge | D98 | 15 meta-quizzes rewritten |
 | Dialogue enrichment | D100 | 847/1132 teach cards with A:/B: dialogues |
 | TOPIK/TTMIK gap coverage | D93 | 6 sprints, ~90-95% coverage |
 | Engine bug fixes | D100 | showInContext, null guard, error boundary |
-| Cross-language audit | D109 | 178 em-dashes fixed, 3 P49 removed, 12 P8 severe fixed, CEFR 64/64 |
+| Cross-language audit | D109 | 178 em-dashes fixed, 3 PP49 removed, 12 PP8 severe fixed, CEFR 64/64 |
 
 **Korean needs NO further work** until C1 curriculum is planned (after Dutch catches up).
 
@@ -1114,10 +1131,10 @@ Dutch is PRODUCTION-READY. Every quality gate has been passed:
 | A1-B1 curriculum (U1-U20) | D99 | COMPLETE + density uplifted |
 | B2 curriculum (U21-U30) | D101 | COMPLETE (10 units, 80 lessons) |
 | A1-B2 quality polish | D101 | Full polish to Korean standard |
-| B2 quality audit | D102 | 10 rounds, ~255 P8 fixes, 5 P34 fixes |
+| B2 quality audit | D102 | 10 rounds, ~255 PP8 fixes, 5 PP34 fixes |
 | de/het article audit | D102 | 55+ nouns verified, 0 errors |
-| All pipeline scans | D102 | P48=0, P22c=0, P44=0, P49=0 |
-| Cross-language audit | D109 | 311 P8 fixed, 1 mc ans fixed, CEFR 68/69, dialogues 97.7% |
+| All pipeline scans | D102 | PP48=0, PP22c=0, PP44=0, PP49=0 |
+| Cross-language audit | D109 | 311 PP8 fixed, 1 mc ans fixed, CEFR 68/69, dialogues 97.7% |
 
 **Dutch needs NO further work** until dialogue enrichment uplift (currently 97.7%, target 100%) or A1-A2 retroactive standards pass.
 
@@ -1131,10 +1148,10 @@ German is PRODUCTION-READY. Built from scratch in D103:
 | A2 curriculum (U9-U16) | D103 | COMPLETE |
 | B1 curriculum (U17-U24) | D103 | COMPLETE |
 | B2 curriculum (U25-U30) | D103 | COMPLETE |
-| Quality audit (P48/P22c/P49/density) | D103 | PASS |
+| Quality audit (PP48/PP22c/PP49/density) | D103 | PASS |
 | Dialogue enrichment | D103 | 1,100/1,100 (100%) |
 | Post-build validation fix | D104 | 3 undefined array elements, 3 missing MC ans, unit ordering |
-| Cross-language audit | D109 | 157 P8 fixed, CEFR PASS (1 moderate gap: A2 imperative) |
+| Cross-language audit | D109 | 157 PP8 fixed, CEFR PASS (1 moderate gap: A2 imperative) |
 
 **D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (deu5l6b, 26 steps), body parts (deu15l5b, 23 steps). Total teach cards: ~1,118+.
 
@@ -1142,11 +1159,11 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (deu11l8b, 22 steps), professions (deu12l8b, 22 steps), health (deu13l8b, 20 steps), nature/weather (deu14l8b, 20 steps), transportation (deu15l8b, 21 steps), technology (deu16l8b, 20 steps). 252 lessons total. Total teach cards: ~1,225+.
 
-**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (deu17l8b, 23), media (deu18l8b, 22), abstract (deu19l8b, 23), legal (deu20l8b, 23), feelings (deu23l8b, 24), workplace (deu24l8b, 25). 258 lessons total. Total teach cards: ~1,297+.
+**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (deu17l8b, 23), media (deu18l8b, 22), abstract (deu19l8b, 23), legal (deu20l8b, 23), feelings (deu23l8b, 24), workplace (deu24l8b, 25). 259 lessons total. Total teach cards: ~1,297+.
 
 **verb_table crash fix (2026-03-19)**: 28 German verb_tables used array-of-arrays row format instead of object format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
-**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep P52 teach-before-use verification not yet done.
+**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep PP52 teach-before-use verification not yet done.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -1159,10 +1176,10 @@ French is PRODUCTION-READY. Built from scratch in D105:
 | A2 curriculum (U9-U16) | D105 | COMPLETE |
 | B1 curriculum (U17-U24) | D105 | COMPLETE |
 | B2 curriculum (U25-U30) | D105 | COMPLETE |
-| Quality scan (P48/P22c/P49/density/board:true) | D105 | PASS |
+| Quality scan (PP48/PP22c/PP49/density/board:true) | D105 | PASS |
 | Dialogue enrichment | D105 | 883/883 (100%) |
 | Agent model escalation protocol | D106 | Opus 4.6 mandatory for content agents |
-| Cross-language audit | D109 | 15 P8 fixed, 2 P49 removed, CEFR PASS (3 minor vocab gaps) |
+| Cross-language audit | D109 | 15 PP8 fixed, 2 PP49 removed, CEFR PASS (3 minor vocab gaps) |
 
 **D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (fre5l8b, 27 steps), body parts (fre3l8b, 20 steps). Total teach cards: ~899+.
 
@@ -1172,7 +1189,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 
 **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (fre17l8b, 23), abstract (fre19l8b, 23), legal (fre20l8b, 23), media (fre21l8b, 22), feelings (fre23l8b, 24), workplace (fre24l8b, 25). 258 lessons total. Total teach cards: ~1,077+.
 
-**French needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-8-6 was template-based. Needs grammar construct cataloguing to determine proper unit count per P56. Deep P52 teach-before-use verification not yet done.
+**French needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-8-6 was template-based. Needs grammar construct cataloguing to determine proper unit count per PP56. Deep PP52 teach-before-use verification not yet done.
 
 ### DONE (Spanish A1-B2 = Fifth Gold Standard)
 Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 (content):
@@ -1187,10 +1204,10 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | A2 curriculum (U9-U16) | D108 | COMPLETE |
 | B1 curriculum (U17-U24) | D108 | COMPLETE |
 | B2 curriculum (U25-U30) | D108 | COMPLETE |
-| Quality validation (P48/P22c/P49/density/board:true) | D108 | PASS |
+| Quality validation (PP48/PP22c/PP49/density/board:true) | D108 | PASS |
 | Dialogue enrichment | D108 | All teach cards have A:/B: dialogues |
 | Temp-file agent workflow | D107 | Gold standard for future builds |
-| Cross-language audit | D109 | 23 P8 fixed, 1 P49 removed, CEFR PASS (2 vocab gaps) |
+| Cross-language audit | D109 | 23 PP8 fixed, 1 PP49 removed, CEFR PASS (2 vocab gaps) |
 
 **D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (esp3l4b, 22 steps), body parts (esp5l8b, 20 steps). Total teach cards: ~890+.
 
@@ -1198,13 +1215,13 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 
 **D112 SESSION 3 (2026-03-17)**: 6 new A2 vocab gap lessons: animals (esp11l8b, 22 steps), professions (esp12l8b, 22 steps), health (esp13l8b, 20 steps), nature/weather (esp14l8b, 20 steps), transportation (esp15l8b, 21 steps), technology (esp16l8b, 20 steps). 251 lessons total. Total teach cards: ~990+.
 
-**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (esp17l8b, 23), abstract (esp19l8b, 23), legal (esp20l8b, 23), media (esp21l8b, 22), feelings (esp23l8b, 23), workplace (esp24l8b, 25). 257 lessons total. Total teach cards: ~1,062+.
+**D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (esp17l8b, 23), abstract (esp19l8b, 23), legal (esp20l8b, 23), media (esp21l8b, 22), feelings (esp23l8b, 23), workplace (esp24l8b, 25). 258 lessons total. Total teach cards: ~1,062+.
 
 **D113 BUG FIXES (2026-03-17)**: Two syntax errors fixed: esp20l8b and esp24l8b were inserted after their unit's closing `]}` instead of inside the lessons array. Also fixed: CEFR tab grouping bug where all sub-levels beyond .2 (B1.3, A2.4, etc.) were falling back to A1 tab due to getCefrInfo() missing a band-prefix fallback. Both bugs affected production. See D113 in DECISION_LOG.md.
 
 **verb_table crash fix (2026-03-19)**: 31 Spanish verb_tables used array-of-arrays row format + 1 used forms[] format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
-**Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
+**Spanish needs D111 audit.** CEFR distribution flagged (D110). Deep PP52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
 ### NEXT PRIORITIES — PLATFORM REHAUL (2026-03-20)
 
 **The platform rehaul is the immediate priority.** The full design spec is in `docs/VERUMLINGUA_REHAUL_VISION.md`. Build order:
@@ -1212,7 +1229,7 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 1. **D114: Update docs to match vision** — CLAUDE.md, Master Bible, Pipeline Standards **(DONE)**
 2. **D115: Language-specific settings panel V1** — per-language grammar filters, VerumLingua bubble style, mobile bottom sheet, desktop floating panel **(DONE 2026-03-19, PR #67)**. Known gaps: understripe dropdown, bold/italic/dotted controls, full settings page in profile, Korean koreanHl integration. See `docs/SETTINGS_PANEL_HANDOFF.md`.
 3. **D116: Vocab page V6 redesign** — compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes working. Mobile bottom sheet. **(DONE 2026-03-19)**
-4. **D117: Korean Deep Dictionary System** — dictionary.js + korean-conjugation.js + function-words-ko.js. WORD_DB with isLemma gating, conjugation engine, form-to-lemma reverse index, 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related), morpheme family index, Korean Browse tab with consonant grouping. **(DONE 2026-03-20)** Known gaps: Grammar tab shows raw teach cards instead of organized grammar reference (needs category-based reorganization pulling tips + verb_tables + patterns). White screen crash reported on production word click (not reproducible in dev).
+4. **D117: Korean Deep Dictionary System** — dictionary.js + korean-conjugation.js + function-words-ko.js. WORD_DB with isLemma gating, conjugation engine, form-to-lemma reverse index, 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related), morpheme family index, Korean Browse tab with consonant grouping. **(DONE 2026-03-20)** Known gaps: Grammar tab shows raw teach cards instead of organized grammar reference (needs category-based reorganization pulling tips + verb_tables + patterns). White screen crash on word click: FIXED (2026-03-21). Root cause: WordPopup on VocabularyPage had no error boundary. Fix: added LessonErrorBoundary wrapper around WordPopup portal, try/catch guards on conjugateVerb/nounWithParticles, null guard on expanded.word.
 5. **D118: Grammar legend + POS color polish** — Maximally distinct POS colors (10 hues: green, orange, teal, blue, gold, purple, slate, crimson, pink, brown). Grammar legend changed to flex-wrap toggle pills. Noun underline removed. Story bubble borderRadius 22 -> 14 (more rectangular). DeepDive universalHl consistency. German deep dictionary (conjugation engine, strong/mixed/modal/auxiliary verbs). **(DONE 2026-03-20)**
 6. **D119: German curriculum + story planning** — **NEXT SESSION**. Full planning pass: catalogue all CEFR A1-B2 concepts for German, design story arcs per unit (Verumius in Germany), define cast of characters, plan interleaved lesson flow. German is the FIRST language to get the full rehaul treatment (per owner decision). This is a PLANNING session only. No code until the plan is approved.
 7. **Korean WORD_DB enrichment from official TOPIK/CEFR word lists** — Load official findable TOPIK vocabulary by CEFR level into WORD_DB with proper POS tags, levels, and lemma grouping. Foundation for all dictionary features across all languages.
@@ -1222,21 +1239,21 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 11. **Content salvage** — export and redistribute old dialogue content
 12. **Full platform sweep** — apply new standards across all 5 languages
 
-**D112 certification audit is DEFERRED** until after the curriculum restructure. The rehaul will change card formats, lesson types, and unit structure, so auditing the old format is wasted work. D112's principles (P55-P58) still apply and will be enforced during the restructure.
+**D112 certification audit is DEFERRED** until after the curriculum restructure. The rehaul will change card formats, lesson types, and unit structure, so auditing the old format is wasted work. D112's principles (PP55-PP58) still apply and will be enforced during the restructure.
 
 **Arabic A1-B2 Build** also deferred until the rehaul establishes the new format. Arabic will be the FIRST language built entirely in the new format.
 
 ### Workflow for All Future Content
 Every language expansion MUST follow this workflow (updated for rehaul format):
-1. **Obtain official vocabulary and grammar lists** (P55, P57). Complete official word list + grammar inventory for each CEFR level.
-2. **Catalogue all concepts** (P54, P56). Organize by domain. Determine unit count from concepts, not template.
+1. **Obtain official vocabulary and grammar lists** (PP55, PP57). Complete official word list + grammar inventory for each CEFR level.
+2. **Catalogue all concepts** (PP54, PP56). Organize by domain. Determine unit count from concepts, not template.
 3. Build foundations (knowledge + playthrough + gate quiz)
 4. Build curriculum using NEW format (vision doc Section 4): vocab-only lessons, story episodes, grammar lessons, quizzes, review. All new content uses `target`/`source` field names.
 5. **Card format**: Every teach card follows vision doc Section 2: 2-bubble dialogue + fun info bottom. No multi-line dialogues.
 6. **Story system**: Every unit has a running story arc per vision doc Section 3. Protagonist uses source-language name.
 7. **Interleaved lesson flow**: Story intro -> vocab -> story dev -> grammar -> story climax -> quiz -> resolution (vision doc Section 3.3).
-8. Quality audit per level (D92-style: P8, P52, P44, P48, P49)
-9. **Full 15-item P53 checklist.** ALL items must PASS.
+8. Quality audit per level (D92-style: PP8, PP52, PP44, PP48, PP49)
+9. **Full 15-item PP53 checklist.** ALL items must PASS.
 10. **Certification readiness review.** Learner could pass official exam using only VerumLingua.
 
 ---
@@ -1246,26 +1263,26 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 1. **We are building the system that builds courses.** Every decision shapes the process that will eventually run WITHOUT a human safety net.
 2. **When unsure about grammar: FLAG IT, do not commit.** Use `// VERIFY:` comments.
 3. **The pipeline must guarantee quality by PROCESS, not by human review.** Think: "Would this catch this bug in Japanese, where no human reads the output?"
-4. **P26 Core Constructs First is law.** Teach and NAME core constructs early. Control what gets QUIZZED, not what gets taught. Introduce → Use → Elaborate.
+4. **PP26 Core Constructs First is law.** Teach and NAME core constructs early. Control what gets QUIZZED, not what gets taught. Introduce → Use → Elaborate.
 5. **Every new concept type needs an intro tip before first instance** (D44).
 6. **Treat every session as if building for a language you don't speak.** The rules exist because they caught real errors.
 7. **Code is truth, docs are claims.** When verifying what exists in the curriculum, grep the data files. CLAUDE.md and docs describe intent; `units-*.js` files contain reality. (D80)
 8. **A human with Ctrl+F must not be faster than your agents.** If a verification task is a simple keyword search, do it directly. Deploy agents only for tasks requiring judgment or cross-referencing. (D81)
-9. **Learners learn LANGUAGE, not curriculum structure.** CEFR levels, grammar labels, unit numbers — these are internal tools. Learners never see them, never need them, never get quizzed on them. (P49)
+9. **Learners learn LANGUAGE, not curriculum structure.** CEFR levels, grammar labels, unit numbers — these are internal tools. Learners never see them, never need them, never get quizzed on them. (PP49)
 10. **Density without quality is anti-pedagogy.** A step that meets count but teaches nothing is worse than no step. Every step must earn its place by teaching, testing, or reinforcing LANGUAGE. (D97)
-11. **Step type must match engine capability.** Before creating a step, verify the engine renderer actually supports the data shape. Multi-blank needs drag_fill, not fb. Check the code, not assumptions. (P48)
+11. **Step type must match engine capability.** Before creating a step, verify the engine renderer actually supports the data shape. Multi-blank needs drag_fill, not fb. Check the code, not assumptions. (PP48)
 12. **Sequential content + parallel validation = zero defects.** For large-scale content operations, never deploy parallel content agents on the same file. Work sequentially, validate after each batch, sweep across all units at the end. This workflow achieved 0 defects across 454 card edits. It is the gold standard. (D100, Rule 9)
-13. **Post-build structural validation is mandatory.** After building a complete curriculum, run the validation script to catch: (a) undefined/null array elements from stray commas, (b) missing required fields (especially MC `ans`), (c) unit ordering (must be sequential by `n`), (d) P48 multi-blank fb violations. The German D103 build shipped with 3 undefined array elements + 3 missing MC ans fields + scrambled unit order, causing a white screen crash. This class of error is invisible to build tools (Vite compiles fine) but crashes React at runtime. (D104, Rule 10)
-14. **Use Opus 4.6 for content generation, always.** Sonnet agents go stale, become unresponsive, and fail to complete large content tasks. Content generation (building units, teach cards, quiz steps) MUST use `model:"opus"`. Sonnet is fine for validation, search, and small edits. Do not waste time retrying failed Sonnet agents — escalate to Opus immediately. (D106, Rule 11)
-15. **Never cram, never pad.** The curriculum exists to serve the LANGUAGE, not a spreadsheet. If 50 units are needed, build 50. If 10 suffice, build 10. Determine unit count from the concepts that need teaching, compared against real textbooks and exam frameworks. Never start with a unit count and work backwards. Every language deserves its own shape. (P54, D110)
-16. **Structure before content, always.** Before checking whether a teach card has a typo, check whether the unit it's in is at the right CEFR level. Before checking P8 leaks, check whether the CEFR distribution makes pedagogical sense. An audit that misses structural problems but catches 700 content issues is a failed audit. (P51, P53, D110, Rule 13)
-17. **"Taught" means its own teach card.** A word appearing in another card's example sentence is NOT taught vocabulary. A word in a deepDive is NOT taught. A word in a tip is NOT taught. Every quiz word must trace to a prior dedicated teach card. No exceptions beyond the narrow P37 cognate rule. (P52, D110)
-18. **Audit agents need full context.** Every audit agent gets the complete pipeline rules, the P53 checklist, the anti-cramming doctrine, and explicit instruction to check structure first. An agent without full rules produces the errors D109 produced. (Rule 13, D110)
-19. **Certification-grade means EVERY word on the official exam list.** Not "most." Not "the important ones." ALL of them. A learner completing LingoVerse must be able to pass TOPIK/NT2/Goethe/DELF/DELE at each level. Vocabulary completeness is verified by automated comparison against official word lists. Zero gaps. (P55, D112)
-20. **Unit count follows from concepts, never from templates.** A Category V language (Korean, 2,200 class hours) with the same unit count as a Category I language (Spanish, 600 hours) is automatically suspicious. Catalogue ALL required concepts first, THEN determine units. Korean A2 with 4 units needs re-evaluation. (P56, D112)
-21. **Every grammar construct on the official exam list must be taught, practiced, and recycled.** "Taught" = teach/tip card. "Practiced" = 3+ quiz steps. "Recycled" = 2+ later lessons. Full grammar inventory tables required. Zero gaps. (P57, D112)
-22. **Communicative functions are as important as grammar.** CEFR tests what learners can DO, not just what they know. Every communicative function at each level (introduce self, express opinions, negotiate, write essays) must map to practice lessons. (P58, D112)
-23. **No sampling for completeness audits.** When checking vocabulary or grammar completeness, check EVERY item — not a sample. Scripts can compare full lists in seconds. Sampling is only acceptable for P8 leak checks (requires human judgment). (Rule 15, D112)
+13. **Post-build structural validation is mandatory.** After building a complete curriculum, run the validation script to catch: (a) undefined/null array elements from stray commas, (b) missing required fields (especially MC `ans`), (c) unit ordering (must be sequential by `n`), (d) PP48 multi-blank fb violations. The German D103 build shipped with 3 undefined array elements + 3 missing MC ans fields + scrambled unit order, causing a white screen crash. This class of error is invisible to build tools (Vite compiles fine) but crashes React at runtime. (D104, Rule 10)
+14. **Opus + Sonnet co-write and cross-validate.** Both models write content in parallel, then the OTHER model validates. Neither ships without the other's sign-off. Sonnet 4.6+ minimum for all content work. For new languages, agents must scan all previous languages' patterns before writing. (D120, Rule 11)
+15. **Never cram, never pad.** The curriculum exists to serve the LANGUAGE, not a spreadsheet. If 50 units are needed, build 50. If 10 suffice, build 10. Determine unit count from the concepts that need teaching, compared against real textbooks and exam frameworks. Never start with a unit count and work backwards. Every language deserves its own shape. (PP54, D110)
+16. **Structure before content, always.** Before checking whether a teach card has a typo, check whether the unit it's in is at the right CEFR level. Before checking PP8 leaks, check whether the CEFR distribution makes pedagogical sense. An audit that misses structural problems but catches 700 content issues is a failed audit. (PP51, PP53, D110, Rule 13)
+17. **"Taught" means its own teach card.** A word appearing in another card's example sentence is NOT taught vocabulary. A word in a deepDive is NOT taught. A word in a tip is NOT taught. Every quiz word must trace to a prior dedicated teach card. No exceptions beyond the narrow PP37 cognate rule. (PP52, D110)
+18. **Audit agents need full context.** Every audit agent gets the complete pipeline rules, the PP53 checklist, the anti-cramming doctrine, and explicit instruction to check structure first. An agent without full rules produces the errors D109 produced. (Rule 13, D110)
+19. **Certification-grade means EVERY word on the official exam list.** Not "most." Not "the important ones." ALL of them. A learner completing LingoVerse must be able to pass TOPIK/NT2/Goethe/DELF/DELE at each level. Vocabulary completeness is verified by automated comparison against official word lists. Zero gaps. (PP55, D112)
+20. **Unit count follows from concepts, never from templates.** A Category V language (Korean, 2,200 class hours) with the same unit count as a Category I language (Spanish, 600 hours) is automatically suspicious. Catalogue ALL required concepts first, THEN determine units. Korean A2 with 4 units needs re-evaluation. (PP56, D112)
+21. **Every grammar construct on the official exam list must be taught, practiced, and recycled.** "Taught" = teach/tip card. "Practiced" = 3+ quiz steps. "Recycled" = 2+ later lessons. Full grammar inventory tables required. Zero gaps. (PP57, D112)
+22. **Communicative functions are as important as grammar.** CEFR tests what learners can DO, not just what they know. Every communicative function at each level (introduce self, express opinions, negotiate, write essays) must map to practice lessons. (PP58, D112)
+23. **No sampling for completeness audits.** When checking vocabulary or grammar completeness, check EVERY item — not a sample. Scripts can compare full lists in seconds. Sampling is only acceptable for PP8 leak checks (requires human judgment). (Rule 15, D112)
 24. **Every claim needs an official source.** "I think this word is B1" is not evidence. "Goethe-Wortliste B1, page 23" is evidence. Uncited vocabulary/grammar claims in audits are REJECTED. (Rule 14, D112)
 25. **After adding any new sub-level, verify the unit map in the browser.** `getCefrInfo()` now handles sub-levels beyond `.2` via band-prefix fallback, but visually confirm units appear in the correct CEFR tab before committing. Never revert or simplify `getCefrInfo()` — the band-prefix fallback is load-bearing. (Rule 16, D113)
 26. **"We coded before designing. Never again."** The platform rehaul vision (`docs/VERUMLINGUA_REHAUL_VISION.md`) must be approved before any code is written for each phase. Design first, build second. (D114, 2026-03-19)

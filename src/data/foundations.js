@@ -1,4 +1,4 @@
-// src/data/foundations.js — Extracted from lingoverse.jsx (structural refactor, no content changes)
+// src/data/foundations.js — Extracted from verumlingua.jsx (structural refactor, no content changes)
 // Contains: FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ
 
 export const FOUNDATIONS_BY_LANG = {

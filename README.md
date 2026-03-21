@@ -24,7 +24,7 @@ npm run dev
 ```
 
 ## Project structure
-- `src/lingoverse.jsx` — The full app (engine + content)
+- `src/verumlingua.jsx` — The full app (engine + content)
 - `data/` — Separated JSON files for each language's curriculum
 - `engine/` — Engine-only JSX (no content, for reference)
 - `docs/` — Curriculum documentation

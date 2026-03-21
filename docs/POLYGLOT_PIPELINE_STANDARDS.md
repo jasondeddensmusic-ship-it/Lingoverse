@@ -30,7 +30,7 @@ This is how experienced language learners actually acquire:
 5. GENERATION   → Learner produces forms never seen before
 ```
 
-The P26 spiral replicates this. Steps 1–3 happen across multiple units. Step 4 is the harvest lesson. Step 5 is what sets VerumLingua learners apart from phrase-app learners.
+The PP26 spiral replicates this. Steps 1–3 happen across multiple units. Step 4 is the harvest lesson. Step 5 is what sets VerumLingua learners apart from phrase-app learners.
 
 **The failure mode to avoid:** Jumping from Step 1 directly to Step 4. Naming grammar before it has been felt. This produces learners who know the rule but can't use it. This is what textbooks do. This is what we do not do.
 
@@ -38,7 +38,7 @@ The P26 spiral replicates this. Steps 1–3 happen across multiple units. Step 4
 
 ## The Five Universal Pillars
 
-### Pillar 1: Show Before Name (P26 Spiral)
+### Pillar 1: Show Before Name (PP26 Spiral)
 Grammar is shown in natural use for 2–4 units before it receives a formal label. The name arrives as confirmation of something the learner's instinct already knows. The delay between first exposure and formal naming is not a delay — it is the teaching.
 
 **Every named grammar point must have a documented seed location.** No harvest without planted seeds.
@@ -97,7 +97,7 @@ Every language's "scary" concepts have a logical structure. The curriculum's job
 | Arabic | Script | "28 letters, all consonants. Vowels are context. Once you know the 28, you can read anything." |
 | Arabic | Broken plurals | "They follow patterns. There are 30+ plural patterns but frequency-ranked, only 10 cover most words." |
 
-### Pillar 6: Anti-Cramming Doctrine (P54, D110) — THE MOST IMPORTANT CONTENT RULE
+### Pillar 6: Anti-Cramming Doctrine (PP54, D110) — THE MOST IMPORTANT CONTENT RULE
 
 Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of VerumLingua's polyglot vision.
 
@@ -111,17 +111,17 @@ Content must NEVER be crammed to fit a predetermined unit count, lesson count, o
 - Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
 
 **The violation that created this pillar:**
-In March 2026, German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 CEFR distribution template. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection in seconds. Twelve audit agents running for hours did not. There is NO universal gold standard distribution. Each language gets the distribution its concepts demand (P56). This pillar ensures that unit counts and CEFR distributions are always concept-driven, never template-driven.
+In March 2026, German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 CEFR distribution template. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection in seconds. Twelve audit agents running for hours did not. There is NO universal gold standard distribution. Each language gets the distribution its concepts demand (PP56). This pillar ensures that unit counts and CEFR distributions are always concept-driven, never template-driven.
 
-### CEFR Distribution Rules (P51)
+### CEFR Distribution Rules (PP51)
 
 Every audit and every build MUST validate the unit-to-CEFR-level mapping:
 1. B1+B2 combined must NEVER have fewer units than A1+A2 combined (advanced levels are where real learning depth lives)
 2. Distribution must be justified per language based on that language's actual complexity at each CEFR level
 3. Sub-level labels must be consistent within each language (no gaps, no jumps)
-4. Verify the distribution is concept-driven per P56 (catalogue constructs first, then determine unit count). There is NO universal gold standard distribution.
+4. Verify the distribution is concept-driven per PP56 (catalogue constructs first, then determine unit count). There is NO universal gold standard distribution.
 
-### Strict Teach-Before-Use (P52)
+### Strict Teach-Before-Use (PP52)
 
 "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons):
 - A word appearing ONLY in another card's `example` field does NOT count as taught
@@ -129,46 +129,46 @@ Every audit and every build MUST validate the unit-to-CEFR-level mapping:
 - Every quiz word must trace to a prior dedicated teach card
 - If a teach card's example uses an untaught word, that word MUST be explained in `note` or `deepDive`
 
-### Audit Completeness (P53) — EXPANDED TO 15 ITEMS (D112)
+### Audit Completeness (PP53) — EXPANDED TO 15 ITEMS (D112)
 
 Every cross-language audit MUST pass ALL 15 checks:
-1. CEFR distribution (P51)
-2. P8 all 5 leak types (20+ samples per level per language)
-3. P52 strict teach-before-use (FULL automated verification)
-4. P48 step type correctness
-5. P49 no meta-curriculum
-6. P22c no em-dashes
-7. Density per lesson (P43)
+1. CEFR distribution (PP51)
+2. PP8 all 5 leak types (20+ samples per level per language)
+3. PP52 strict teach-before-use (FULL automated verification)
+4. PP48 step type correctness
+5. PP49 no meta-curriculum
+6. PP22c no em-dashes
+7. Density per lesson (PP43)
 8. board:true
 9. Sub-level label consistency
-10. P55 vocabulary completeness (ALL official exam vocabulary as teach cards)
-11. P57 grammar completeness (ALL official exam grammar taught + practiced + recycled)
-12. P58 communicative functions coverage
+10. PP55 vocabulary completeness (ALL official exam vocabulary as teach cards)
+11. PP57 grammar completeness (ALL official exam grammar taught + practiced + recycled)
+12. PP58 communicative functions coverage
 13. Synonym coverage from official lists
-14. P56 unit count adequacy (concept-driven, not template)
+14. PP56 unit count adequacy (concept-driven, not template)
 15. Exam simulation readiness (learner could pass official exam using only VerumLingua)
 
 Missing ANY = audit INCOMPLETE. An audit that passes 14 of 15 is NOT a PASS.
 
-### Pillar 7: Vocabulary Completeness (P55, D112) — CERTIFICATION-GRADE
+### Pillar 7: Vocabulary Completeness (PP55, D112) — CERTIFICATION-GRADE
 
 Every language must achieve certification-grade vocabulary completeness. Every word on the official certification exam vocabulary list at each CEFR level must have a dedicated teach card.
 
-**Official sources per language**: TOPIK I+II vocabulary, 5,750 words (Korean). No single official NT2 list exists, use Frequency Dictionary of Dutch (Dutch). Goethe-Wortliste A1-B1, ~2,400 cumulative, no official B2 list (German). No official DELF list exists, use textbook indices (French). PCIC vocabulary inventory (Spanish). See CLAUDE.md P55 for full details and polyglot targets.
+**Official sources per language**: TOPIK I+II vocabulary, 5,750 words (Korean). No single official NT2 list exists, use Frequency Dictionary of Dutch (Dutch). Goethe-Wortliste A1-B1, ~2,400 cumulative, no official B2 list (German). No official DELF list exists, use textbook indices (French). PCIC vocabulary inventory (Spanish). See CLAUDE.md PP55 for full details and polyglot targets.
 
 **Verification**: Automated script compares official list against extracted teach card `nl:` fields. Zero gaps = PASS.
 
 **Why this pillar exists (D112)**: No previous audit verified actual vocabulary against official exam lists. The question "does every word on the TOPIK vocabulary list have a teach card?" was never asked.
 
-### Pillar 8: Concept-Driven Unit Sizing (P56, D112)
+### Pillar 8: Concept-Driven Unit Sizing (PP56, D112)
 
 Unit count follows from concept cataloguing, never templates. FSI Category V languages (Korean, 2,200 hours) should NOT have the same unit count as Category I languages (Spanish, 600 hours) by default. Korean A2 with 4 units is flagged for expansion.
 
-### Pillar 9: Zero Grammar Gaps (P57, D112)
+### Pillar 9: Zero Grammar Gaps (PP57, D112)
 
 Every grammar construct on official exam lists must be taught (teach/tip card), practiced (3+ quiz steps), and recycled (2+ later lessons). Full grammar inventory tables required per language per level. Zero gaps.
 
-### Pillar 10: Communicative Functions (P58, D112)
+### Pillar 10: Communicative Functions (PP58, D112)
 
 CEFR defines what learners can DO (introduce self, express opinions, write essays). Every communicative function at each level must map to practice lessons. Grammar and vocabulary without communicative practice is incomplete.
 
@@ -182,7 +182,7 @@ The pipeline is the set of rules that guarantee content quality regardless of wh
 
 ---
 
-## P8: ANTI-LEAK SYSTEM (Questions) — NON-NEGOTIABLE
+## PP8: ANTI-LEAK SYSTEM (Questions) — NON-NEGOTIABLE
 
 Every exercise must be unanswerable without the target skill.
 
@@ -204,7 +204,7 @@ Five leak types to eliminate:
 
 ---
 
-## P24: COMPOUND DECOMPOSITION (LEGO Principle) — NON-NEGOTIABLE
+## PP24: COMPOUND DECOMPOSITION (LEGO Principle) — NON-NEGOTIABLE
 
 Every word made of multiple morphemes must be decomposed on FIRST appearance.
 
@@ -223,7 +223,7 @@ note: "학생 = 학 (study/학문) + 생 (person/생명). Literally: study-perso
 
 ---
 
-## P26: SHOW BEFORE NAME (The Spiral) — NON-NEGOTIABLE
+## PP26: SHOW BEFORE NAME (The Spiral) — NON-NEGOTIABLE
 
 Grammar must be SHOWN before it is NAMED.
 
@@ -241,7 +241,7 @@ Grammar must be SHOWN before it is NAMED.
 
 ---
 
-## P32: JRTF (Just Remember This Form) FLAG SYSTEM
+## PP32: JRTF (Just Remember This Form) FLAG SYSTEM
 
 For forms that appear before their explanation unit, use the JRTF flag system.
 
@@ -260,7 +260,7 @@ For forms that appear before their explanation unit, use the JRTF flag system.
 
 ---
 
-## P39: TIP CARD DISCIPLINE
+## PP39: TIP CARD DISCIPLINE
 
 **Tip cards are for:**
 - Cultural anchors (how this culture explains the grammar)
@@ -302,7 +302,7 @@ Rules:
 
 ---
 
-## P8-EXTENDED: STEP TYPE STANDARDS
+## PP8-EXTENDED: STEP TYPE STANDARDS
 
 ### intro steps
 ```javascript
@@ -332,9 +332,9 @@ Required fields: nl, en, example, exampleEn, note. Phonetic: required for A1-A2,
  ans:"[Exact text of correct option]"}
 ```
 - 3–4 options per question
-- Options must all be similar length (P8)
-- Correct answer must not always be in same position (P8)
-- Question must not contain the answer (P8)
+- Options must all be similar length (PP8)
+- Correct answer must not always be in same position (PP8)
+- Question must not contain the answer (PP8)
 
 ### fb steps
 ```javascript
@@ -531,7 +531,7 @@ The instructional layer (tip cards, hints, grammar notes) must be written in Mod
 
 ## What Seeds Are
 
-Seeds are deliberate early appearances of grammar concepts before their formal naming lesson. They are not accidents. They are not optional. They are the mechanism by which the P26 spiral works.
+Seeds are deliberate early appearances of grammar concepts before their formal naming lesson. They are not accidents. They are not optional. They are the mechanism by which the PP26 spiral works.
 
 ## Universal Seed Rules
 
@@ -728,7 +728,7 @@ If YES → check korean_seeds.json:
   - Is this the harvest lesson? If yes → begin with "You've seen this since Unit X"
 ```
 
-### 2. P26 COMPLIANCE CHECK
+### 2. PP26 COMPLIANCE CHECK
 ```
 Q: Is this lesson naming something?
 If YES → name the exact lesson(s) where it was seeded
@@ -766,7 +766,7 @@ Korean A1-A2:
 2. After Korean U10 complete → extract Korean data to JSON, test fetch-on-mount
 3. After Dutch A1 gap audit → extract Dutch data to JSON
 4. Engine JSX reads: `const UNITS = await fetch('/data/korean_curriculum.json')`
-5. seeds.json becomes source of truth for all P26 audit
+5. seeds.json becomes source of truth for all PP26 audit
 
 ## INTERIM MEASURE (until migration)
 Each language gets a seed comment block at the TOP of its unit array:

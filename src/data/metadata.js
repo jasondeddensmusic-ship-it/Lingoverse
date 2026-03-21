@@ -1,4 +1,4 @@
-// src/data/metadata.js — Extracted from lingoverse.jsx (structural refactor, no content changes)
+// src/data/metadata.js — Extracted from verumlingua.jsx (structural refactor, no content changes)
 // Contains: VOCAB_DB, ICON_REG, language constants, CEFR levels, foundation keys,
 // FK schema, module types, learning flows, LANG_META, LANG_BLUEPRINT,
 // CULTURE_PACKS, UNIT_TEMPLATES, MKG, SCRIPT_BLUEPRINTS
@@ -510,7 +510,7 @@ export const LANG_TOKENIZER = {
     articles: ["de","het","een"],
     grammarColors: {
       article_de:  { match:["de"],  color:"#0091FF", dk:"#64B5F6", label:"de (common)" },
-      article_het: { match:["het"], color:"#E8960A", dk:"#F5C040", label:"het (neuter)" },
+      article_het: { match:["het"], color:"#00796B", dk:"#80CBC4", label:"het (neuter)" },
       article_een: { match:["een"], color:"#8D6E63", dk:"#BCAAA4", label:"een (indefinite)" },
       preposition: { match:["in","op","aan","met","van","voor","na","uit","bij","naar","over","onder","tussen","door","om","tegen","zonder","tijdens","vanaf","tot","binnen","buiten"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
       conjunction: { match:["en","maar","of","want","dus","omdat","dat","als","toen","terwijl","hoewel","zodat","doordat","tenzij","mits","naarmate"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
@@ -524,7 +524,7 @@ export const LANG_TOKENIZER = {
     grammarColors: {
       article_der: { match:["der"], color:"#0091FF", dk:"#64B5F6", label:"der (masc nom)" },
       article_die: { match:["die"], color:"#D50000", dk:"#EF5350", label:"die (fem/pl)" },
-      article_das: { match:["das"], color:"#FF8F00", dk:"#FFB300", label:"das (neut)" },
+      article_das: { match:["das"], color:"#00796B", dk:"#80CBC4", label:"das (neut)" },
       article_den: { match:["den"], color:"#3B82F6", dk:"#60A5FA", label:"den (masc acc)" },
       article_dem: { match:["dem"], color:"#FF8F00", dk:"#FFB300", label:"dem (dat)" },
       article_des: { match:["des"], color:"#8B5CF6", dk:"#A78BFA", label:"des (gen)" },

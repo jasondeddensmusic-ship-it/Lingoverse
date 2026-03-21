@@ -97,9 +97,9 @@ export const POS_COLORS = {
   "article":          { light: "#8D6E00", dark: "#D4A017" },
   "article_m":        { light: "#0D47A1", dark: "#64B5F6" },
   "article_f":        { light: "#B71C1C", dark: "#EF5350" },
-  "article_n":        { light: "#E65100", dark: "#FFB74D" },
+  "article_n":        { light: "#00796B", dark: "#80CBC4" },
   "article_c":        { light: "#0D47A1", dark: "#64B5F6" },
-  "article_het":      { light: "#E65100", dark: "#FFB74D" },
+  "article_het":      { light: "#00796B", dark: "#80CBC4" },
   "article_indef":    { light: "#5D4037", dark: "#A1887F" },
   "article_pl":       { light: "#00695C", dark: "#4DB6AC" },
   // Negation / question — amber (structure function)
@@ -114,7 +114,7 @@ export const POS_COLORS = {
 export const GENDER_COLORS = {
   m:  { light: "#0D47A1", dark: "#64B5F6" },  // masculine = navy blue
   f:  { light: "#B71C1C", dark: "#EF5350" },  // feminine = deep crimson
-  n:  { light: "#E65100", dark: "#FFB74D" },  // neuter = burnt orange
+  n:  { light: "#00796B", dark: "#80CBC4" },  // neuter = emerald green
   c:  { light: "#0D47A1", dark: "#64B5F6" },  // common = navy blue (Dutch de)
   pl: { light: "#00695C", dark: "#4DB6AC" },  // plural = deep teal
 };
@@ -742,7 +742,7 @@ function buildGermanFormIdx() {
 }
 export const GERMAN_FORM_INDEX = buildGermanFormIdx();
 
-// Re-export German conjugation API for use in lingoverse.jsx
+// Re-export German conjugation API for use in verumlingua.jsx
 export { conjugateGermanVerb, detectGermanVerbType, getGermanVerbInfo, nounWithCases };
 
 // ── Phase 4: Morpheme Family Index ──
@@ -1338,10 +1338,10 @@ export function pillGradient(hex) {
 // Shared color constants for pack definitions — HIGH CONTRAST, zero purple
 const C_BLUE = { light: "#0091FF", dark: "#64B5F6" };       // Vivid sky blue (masculine)
 const C_RED = { light: "#B71C1C", dark: "#EF5350" };         // Deep crimson (feminine)
-const C_AMBER = { light: "#E65100", dark: "#FFB74D" };       // Burnt orange (German neuter das)
+const C_AMBER = { light: "#00796B", dark: "#80CBC4" };       // Emerald green (German neuter das)
 const C_TEAL_GENDER = { light: "#00695C", dark: "#4DB6AC" }; // Deep teal (plural)
 const C_BRONZE = { light: "#5D4037", dark: "#A1887F" };      // Dark brown (indefinite)
-const C_GOLD = { light: "#E65100", dark: "#FFB74D" };        // Dutch het (burnt orange, aligned)
+const C_GOLD = { light: "#00796B", dark: "#80CBC4" };        // Dutch het (emerald green, aligned with neuter)
 // Korean particle + misc colors
 const C_TEAL = { light: "#2ECDA7", dark: "#50E0C0" };
 const C_KO_AMBER = { light: "#F59E0B", dark: "#FCD34D" };
@@ -1434,7 +1434,7 @@ export const GRAMMAR_PACKS = {
         legend: [
           { label: "Masculine (der)", color: "#0091FF", key: "m", desc: "der Hund, der Mann, der Tisch. Most agent nouns." },
           { label: "Feminine (die)", color: "#D50000", key: "f", desc: "die Frau, die Katze, die Lampe. Most -ung, -keit, -heit." },
-          { label: "Neuter (das)", color: "#FF8F00", key: "n", desc: "das Kind, das Haus, das Buch. Most -chen, -lein, -ment." },
+          { label: "Neuter (das)", color: "#00796B", key: "n", desc: "das Kind, das Haus, das Buch. Most -chen, -lein, -ment." },
           { label: "Indefinite", color: "#8D6E63", key: "indef", desc: "ein/eine. Gender not yet determined from context." },
         ],
       },
@@ -1505,7 +1505,7 @@ export const GRAMMAR_PACKS = {
         },
         legend: [
           { label: "de (common)", color: "#0091FF", key: "c", desc: "de hond, de tafel. Most Dutch nouns are de-words." },
-          { label: "het (neuter)", color: "#E8960A", key: "n", desc: "het huis, het kind. About 25% of Dutch nouns." },
+          { label: "het (neuter)", color: "#00796B", key: "n", desc: "het huis, het kind. About 25% of Dutch nouns." },
           { label: "een (indefinite)", color: "#8D6E63", key: "indef", desc: "een boek. No gender distinction for indefinite." },
         ],
       },
