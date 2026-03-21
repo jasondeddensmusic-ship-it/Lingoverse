@@ -669,8 +669,8 @@ Each step is its own session. No step starts until the previous is solid.
 
 ### Content Status (Phase 1 — COMPLETE for current format)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, 6,953 steps. THE GOLD STANDARD.
-2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, 5,825 steps. THE SECOND GOLD STANDARD.
+1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, 6,953 steps. Most pipeline-polished. NOT yet verified against official TOPIK vocabulary/grammar lists (PP55/PP57 pending).
+2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, 5,825 steps. Second most polished. NOT yet verified against official NT2 vocabulary/grammar lists (PP55/PP57 pending).
 3. **German** - A1-B2 COMPLETE (D103). 30 units, 259 lessons, 4,941 steps.
 4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, 4,781 steps.
 5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 258 lessons, 4,739 steps.
@@ -1102,7 +1102,7 @@ The goal: any future Claude Code session should be able to read CLAUDE.md + memo
 
 ## Super Handoff: What's DONE and What's NEXT
 
-### DONE (Korean A1-B2 = Gold Standard)
+### DONE (Korean A1-B2 = Most Pipeline-Polished)
 Korean is PRODUCTION-READY. Every quality gate has been passed:
 
 | Milestone | Decision | Status |
@@ -1123,7 +1123,7 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 
 **Korean needs NO further work** until C1 curriculum is planned (after Dutch catches up).
 
-### DONE (Dutch A1-B2 = Second Gold Standard)
+### DONE (Dutch A1-B2 = Second Most Polished)
 Dutch is PRODUCTION-READY. Every quality gate has been passed:
 
 | Milestone | Decision | Status |
@@ -1138,7 +1138,7 @@ Dutch is PRODUCTION-READY. Every quality gate has been passed:
 
 **Dutch needs NO further work** until dialogue enrichment uplift (currently 97.7%, target 100%) or A1-A2 retroactive standards pass.
 
-### DONE (German A1-B2 = Third Gold Standard)
+### DONE (German A1-B2 = Pipeline-Polished, Distribution Flagged)
 German is PRODUCTION-READY. Built from scratch in D103:
 
 | Milestone | Decision | Status |
@@ -1165,7 +1165,7 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep PP52 teach-before-use verification not yet done.
 
-### DONE (French A1-B2 = Fourth Gold Standard)
+### DONE (French A1-B2 = Pipeline-Polished, Distribution Flagged)
 French is PRODUCTION-READY. Built from scratch in D105:
 
 | Milestone | Decision | Status |
@@ -1191,7 +1191,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 
 **French needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-8-6 was template-based. Needs grammar construct cataloguing to determine proper unit count per PP56. Deep PP52 teach-before-use verification not yet done.
 
-### DONE (Spanish A1-B2 = Fifth Gold Standard)
+### DONE (Spanish A1-B2 = Pipeline-Polished, Distribution Flagged)
 Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 (content):
 
 | Milestone | Decision | Status |
@@ -1206,7 +1206,7 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 | B2 curriculum (U25-U30) | D108 | COMPLETE |
 | Quality validation (PP48/PP22c/PP49/density/board:true) | D108 | PASS |
 | Dialogue enrichment | D108 | All teach cards have A:/B: dialogues |
-| Temp-file agent workflow | D107 | Gold standard for future builds |
+| Temp-file agent workflow | D107 | Proven workflow for future builds |
 | Cross-language audit | D109 | 23 PP8 fixed, 1 PP49 removed, CEFR PASS (2 vocab gaps) |
 
 **D112 SESSION 1 (2026-03-17)**: 2 new lessons added: months (esp3l4b, 22 steps), body parts (esp5l8b, 20 steps). Total teach cards: ~890+.

@@ -330,7 +330,7 @@ Independent audit agent verified: 80/80 lessons at 18+ steps (avg 18.3). PP48: 0
 
 ## D101: Dutch Quality Uplift to Korean Standard (2026-03-15)
 
-Full-spectrum quality uplift of Dutch curriculum from A1-B1 to A1-B2, targeting Korean gold standard.
+Full-spectrum quality uplift of Dutch curriculum from A1-B1 to A1-B2, targeting Korean pipeline-polish level.
 
 **Phase 0: Purple Theming + CLAUDE.md**
 All 30 v2 Dutch unit colors changed to #7B5EE8 (purple). Article colors (blue de, gold het) PERMANENT. CLAUDE.md updated with manifesto index, PP8 leak types, language complexity guidance.

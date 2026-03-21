@@ -337,8 +337,8 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 
 | Language | Units | Lessons | Steps | Avg | Status |
 |----------|-------|---------|-------|-----|--------|
-| Korean (ko) | 30 | 330 | ~7,221 | ~21.9/lesson | A1-B2 COMPLETE. PRODUCTION-READY. The gold standard. |
-| Dutch (nl) v2 | 30 | 261 | ~5,789 | ~22.2/lesson | A1-B2 COMPLETE. PRODUCTION-READY. Second gold standard. |
+| Korean (ko) | 30 | 330 | ~7,221 | ~21.9/lesson | A1-B2 COMPLETE. PRODUCTION-READY. Most pipeline-polished. PP55/PP57 pending. |
+| Dutch (nl) v2 | 30 | 261 | ~5,789 | ~22.2/lesson | A1-B2 COMPLETE. PRODUCTION-READY. Second most polished. PP55/PP57 pending. |
 | Dutch (nl) legacy | 23 | 73 | 913 | 12.5/lesson | Archive. Below density standard. |
 | German (de) | 30 | 258 | ~4,876 | ~18.9/lesson | A1-B2 COMPLETE (D103). Rehaul plan: 36 units (D119). |
 | French (fr) | 30 | 258 | ~4,734 | ~18.3/lesson | A1-B2 COMPLETE (D105). CEFR distribution flagged (D110). |
@@ -350,8 +350,8 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 # PART 5: THE LAUNCH VISION
 
 ## Target Languages at Launch
-1. **Korean** — A1-B2 COMPLETE. 30 units, 330 lessons. The gold standard.
-2. **Dutch** — A1-B2 COMPLETE. 30 v2 units, 261 lessons. Second gold standard.
+1. **Korean** — A1-B2 COMPLETE. 30 units, 330 lessons. Most pipeline-polished. PP55/PP57 verification pending.
+2. **Dutch** — A1-B2 COMPLETE. 30 v2 units, 261 lessons. Second most polished. PP55/PP57 verification pending.
 3. **German** — A1-B2 COMPLETE (D103). 30 units, 258 lessons. Rehaul to 36 units planned (D119).
 4. **French** — A1-B2 COMPLETE (D105). 30 units, 258 lessons.
 5. **Spanish** — A1-B2 COMPLETE (D108). 30 units, 257 lessons.
