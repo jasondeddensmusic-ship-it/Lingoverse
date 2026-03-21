@@ -1,6 +1,6 @@
 # VERUMLINGUA MASTER BIBLE
 ## Vision · Pipeline · Language Standards · Agent Rules
-## Version 4.0 | 2026-03-19 | Platform Rehaul Vision Added (D114)
+## Version 4.1 | 2026-03-21 | Curriculum status updated, brand rename complete
 
 ---
 
@@ -21,7 +21,7 @@ This document is the single source of truth for VerumLingua's philosophy, langua
 
 VerumLingua (formerly LingoVerse) is a polyglot-built, pedagogy-first language learning platform. It is designed by someone who speaks multiple European and Asian languages and has encoded that lived acquisition experience into curriculum architecture.
 
-The product teaches the **system** of a language, not the surface. A learner who completes a LingoVerse course can **generate** sentences they have never seen — not just recall ones they have memorized. This is the fundamental difference between this product and every phrase-first app.
+The product teaches the **system** of a language, not the surface. A learner who completes a VerumLingua course can **generate** sentences they have never seen — not just recall ones they have memorized. This is the fundamental difference between this product and every phrase-first app.
 
 ## The Polyglot Acquisition Philosophy
 
@@ -33,7 +33,7 @@ Polyglots do not learn languages the way textbooks teach them. They:
 3. **Learn systems, not lists.** They find the underlying logic and exploit it. Sino-Korean morphemes. German case endings. French verb families. Arabic trilateral roots. The system generates infinite words from finite pieces.
 4. **Treat culture as grammar.** Korean 눈치, Dutch directness, Arabic hospitality norms, German formality rules — these are not fun facts. They are the explanation for why the grammar works the way it does.
 
-**LingoVerse encodes this experience into curriculum architecture.** Every structural decision — the P26 spiral, the LEGO morpheme system, the Train metaphor, the JRTF flags, the cultural anchors — is a direct translation of how experienced language learners actually acquire languages.
+**VerumLingua encodes this experience into curriculum architecture.** Every structural decision — the P26 spiral, the LEGO morpheme system, the Train metaphor, the JRTF flags, the cultural anchors — is a direct translation of how experienced language learners actually acquire languages.
 
 ## The Four Pillars
 
@@ -63,7 +63,7 @@ Every cultural anchor must explain WHY the language works the way it does. Not T
 
 ## Every Language Is Its Own Entity
 
-This is the most important curriculum principle. It sounds obvious. It is violated constantly by language learning apps, and it was violated in LingoVerse's own early Korean A1 (못, -지만, spatial position words, and most frequency adverbs were missing because they were not cross-referenced against TOPIK and TTMIK standards).
+This is the most important curriculum principle. It sounds obvious. It is violated constantly by language learning apps, and it was violated in VerumLingua's own early Korean A1 (못, -지만, spatial position words, and most frequency adverbs were missing because they were not cross-referenced against TOPIK and TTMIK standards).
 
 **The violation that motivated this doctrine:**
 Korean A1 was built without fully cross-referencing TOPIK 1 requirements and TTMIK Level 1-2 content. Result: 못 (can't), -지만 (but), 위/옆/밖/사이 (positional words), and the entire frequency adverb set (자주, 가끔, 보통, 전혀) were absent from A1 — all of which TOPIK 1 tests directly and TTMIK covers in Level 1-2. **This cannot happen again.**
@@ -102,7 +102,7 @@ Every language curriculum MUST be built by cross-referencing ALL of the followin
 | **Prisma / Taalportaal** | Grammar reference | Comprehensive Dutch grammar |
 | **Nederlandse Taalunie** | Language authority | Official Dutch language organization |
 
-**Rule:** Dutch is the anchor course and must be audited against NT2 levels. The inburgeringsexamen is the real-world standard — learners who complete LingoVerse Dutch A2 should be able to pass it.
+**Rule:** Dutch is the anchor course and must be audited against NT2 levels. The inburgeringsexamen is the real-world standard — learners who complete VerumLingua Dutch A2 should be able to pass it.
 
 #### 🇩🇪 German
 | Reference | What it covers | Authority |
@@ -169,7 +169,7 @@ Every language curriculum MUST be built by cross-referencing ALL of the followin
 
 Arabic has a dimension no other launch language has: **diglossia**. Modern Standard Arabic (MSA/فصحى) is the written/formal language. Spoken Arabic splits into regional dialects (Egyptian, Levantine, Gulf, Maghrebi) that are mutually partially intelligible but grammatically distinct.
 
-**LingoVerse decision (must be made and documented before writing Arabic curriculum):**
+**VerumLingua decision (must be made and documented before writing Arabic curriculum):**
 The current Arabic content appears to teach MSA with Gulf/Levantine cultural references. This is the correct approach for a written-first course — MSA is understood everywhere, dialects are regional. **However:** if Arabic is also a SOURCE language (Arabic speakers learning Dutch/German/French/Spanish), the instructional text must be in a form of Arabic that is accessible to speakers of major dialects.
 
 For the Arabic curriculum as a TARGET language:
@@ -220,7 +220,7 @@ Tightening of P34. "Taught" means the word has its OWN dedicated teach card.
 
 ## Vocabulary Completeness Doctrine (P55, D112) — CERTIFICATION-GRADE STANDARD
 
-Every language must achieve certification-grade vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam at each level.
+Every language must achieve certification-grade vocabulary completeness. A learner who completes VerumLingua A1-B2 must be able to pass the official certification exam at each level.
 
 **The standard**: Every word on the official vocabulary list for the language's certification exam at each CEFR level MUST have a dedicated teach card. Not "most words." Not "the important ones." ALL of them.
 
@@ -332,26 +332,29 @@ Single React JSX file: `ling6675445656544654overse.jsx`
 | User accounts | Phase 4 | Auth state exists, no backend |
 
 ## Curriculum Status
+
+> **Note**: All unit distributions are concept-driven per P56. There is NO universal gold standard distribution. Each language's unit count is determined by cataloguing the concepts that need teaching at each CEFR level, not by applying a template.
+
 | Language | Units | Lessons | Steps | Avg | Status |
 |----------|-------|---------|-------|-----|--------|
-| Dutch (nl) v2 | 20 | 164 | 2,681 | 16.3/lesson | ✅ A1–B1 complete. Retroactive polish needed after Korean B1. |
+| Korean (ko) | 30 | 330 | ~7,221 | ~21.9/lesson | A1-B2 COMPLETE. PRODUCTION-READY. The gold standard. |
+| Dutch (nl) v2 | 30 | 261 | ~5,789 | ~22.2/lesson | A1-B2 COMPLETE. PRODUCTION-READY. Second gold standard. |
 | Dutch (nl) legacy | 23 | 73 | 913 | 12.5/lesson | Archive. Below density standard. |
-| Korean (ko) | 20 | 195 | 3,353 | 17.2/lesson | ✅ A1-B1 complete. TOPIK/TTMIK audit: ~20-25 grammar gaps identified, gap plan created. B1 density uplift needed (63% below P43). See `KOREAN_CURRICULUM_GAP_PLAN.md`. |
-| German (de) | 5 | 19 | 235 | 12.4/lesson | Very early. A1 U1–U5 only. Lean density. |
-| Arabic (ar) | 5 | 10 | 106 | 10.6/lesson | Skeleton. RTL works. Full curriculum needed. |
-| French (fr) | 0 | 0 | 0 | — | Not started. |
-| Spanish (es) | 0 | 0 | 0 | — | Not started. |
+| German (de) | 30 | 258 | ~4,876 | ~18.9/lesson | A1-B2 COMPLETE (D103). Rehaul plan: 36 units (D119). |
+| French (fr) | 30 | 258 | ~4,734 | ~18.3/lesson | A1-B2 COMPLETE (D105). CEFR distribution flagged (D110). |
+| Spanish (es) | 30 | 257 | ~4,697 | ~18.3/lesson | A1-B2 COMPLETE (D108). CEFR distribution flagged (D110). |
+| Arabic (ar) | 5 | 29 | ~106 | ~3.7/lesson | Skeleton only. RTL works. Full curriculum deferred until post-rehaul. |
 
 ---
 
 # PART 5: THE LAUNCH VISION
 
 ## Target Languages at Launch
-1. **Dutch** — anchor course, most complete
-2. **Korean** — second full course, active development
-3. **German** — needs major expansion from current skeleton
-4. **French** — full curriculum from scratch
-5. **Spanish** — full curriculum from scratch
+1. **Korean** — A1-B2 COMPLETE. 30 units, 330 lessons. The gold standard.
+2. **Dutch** — A1-B2 COMPLETE. 30 v2 units, 261 lessons. Second gold standard.
+3. **German** — A1-B2 COMPLETE (D103). 30 units, 258 lessons. Rehaul to 36 units planned (D119).
+4. **French** — A1-B2 COMPLETE (D105). 30 units, 258 lessons.
+5. **Spanish** — A1-B2 COMPLETE (D108). 30 units, 257 lessons.
 
 ## Source Languages at Launch
 Dutch, Korean, German, French, Spanish, **and Arabic**
@@ -361,14 +364,17 @@ Arabic-speaking people in Dutch, German, French, and Spanish-speaking countries 
 
 **Arabic does NOT serve Korean as a source language at launch.** Arabic speakers learning Korean is too rare for launch scope.
 
-## Launch Readiness — Honest Scale
-| Language | What's needed | Scale |
-|----------|--------------|-------|
-| Dutch | Retroactive density polish | Significant but mechanical |
-| Korean | Density polish (91 remaining) + U11–U20 (B1) | 10 units, ~100 lessons |
-| German | A1 audit + U6–U20 | Full rebuild from U6 |
-| French | U1–U20 from scratch | Full course |
-| Spanish | U1–U20 from scratch | Full course |
+## Launch Readiness — Current State (March 2026)
+All 5 target languages have A1-B2 content COMPLETE. The platform rehaul (D114+) is restructuring all curricula. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full design spec.
+
+| Language | Current State | Next Step |
+|----------|--------------|-----------|
+| Korean | PRODUCTION-READY. 30 units, 330 lessons, ~7,221 steps. | Platform rehaul restructure. |
+| Dutch | PRODUCTION-READY. 30 v2 units, 261 lessons, ~5,789 steps. | Platform rehaul restructure. |
+| German | A1-B2 COMPLETE. 30 units, 258 lessons, ~4,876 steps. | Rehaul to 36 units (D119). First language for full rehaul treatment. |
+| French | A1-B2 COMPLETE. 30 units, 258 lessons, ~4,734 steps. | CEFR distribution fix + rehaul. |
+| Spanish | A1-B2 COMPLETE. 30 units, 257 lessons, ~4,697 steps. | CEFR distribution fix + rehaul. |
+| Arabic | 5 skeleton units. | Deferred until rehaul establishes new format. |
 | All | TTS audio | Infrastructure + audio_id per word |
 | All | Cross-session persistence | localStorage minimum |
 
@@ -376,14 +382,15 @@ Arabic-speaking people in Dutch, German, French, and Spanish-speaking countries 
 
 # PART 6: THE TECHNICAL ROADMAP
 
-## Phase 1: Content Completion (CURRENT)
-**Do not touch the architecture.** Write curriculum. In order:
-1. Fix Korean A1 gaps (one session — see Korean curriculum document)
-2. Korean U7–U20 (A2 + B1 — 20-unit spine exists)
-3. German full audit against Goethe standards + expansion U6–U20
-4. French U1–U20 (cross-reference DELF)
-5. Spanish U1–U20 (cross-reference DELE)
-6. Arabic source language text translations
+## Phase 1: Content Completion — DONE
+All 5 launch languages have A1-B2 content complete:
+1. Korean A1-B2: 30 units, 330 lessons (D93/D94/D100)
+2. Dutch A1-B2: 30 v2 units, 261 lessons (D99/D101/D102)
+3. German A1-B2: 30 units, 258 lessons (D103)
+4. French A1-B2: 30 units, 258 lessons (D105)
+5. Spanish A1-B2: 30 units, 257 lessons (D107/D108)
+
+**Current phase: Platform Rehaul (D114+).** See `docs/VERUMLINGUA_REHAUL_VISION.md`.
 
 ## Phase 2: JSON Migration
 After all content is complete. Curriculum data moves to separate JSON files per language. App becomes a lean engine (~500KB). An AI agent handles this in one session.

@@ -1,7 +1,7 @@
 # Decision Log — Structured Index
 
 > Machine-searchable index of all D-numbers from `src/lingoverse.jsx`.
-> Last updated: 2026-03-19 (D1-D116. D86+ in CLAUDE.md)
+> Last updated: 2026-03-21 (D1-D119. D86+ in CLAUDE.md)
 
 ---
 
@@ -9,6 +9,9 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D119 | German Curriculum Rehaul Planning: 36-Unit Plan + Story Bible | Architecture/Planning | German |
+| D118 | Grammar Legend + POS Color Polish: 10 Distinct Colors | Engine/UI | All |
+| D117 | Korean Deep Dictionary System: dictionary.js + Conjugation Engine | Engine/Architecture | Korean |
 | D116 | Vocab Page V6 Redesign: Search/Browse/Review + Grammar Settings | Engine/UI/Architecture | All |
 | D115 | Settings Panel Redesign V1: Language-Specific Grammar Filters | Engine/UI/Architecture | All |
 | D114 | Platform Rehaul Vision + Docs Update | Architecture/Vision | All |
@@ -140,7 +143,7 @@ D3, D6, D24, D34b, D40, D67, D79, D90, D91
 D7, D16, D17, D19, D45, D52, D56
 
 ### UI / Visual Design
-D10, D11, D13, D15, D18, D20, D21, D22, D31, D35a-h, D36, D38, D42, D47, D53, D60, D61, D115
+D10, D11, D13, D15, D18, D20, D21, D22, D31, D35a-h, D36, D38, D42, D47, D53, D60, D61, D115, D116, D118
 
 ### Dark Mode
 D32, D37
@@ -152,13 +155,13 @@ D11, D35d, D69
 D2, D6, D8, D39, D44, D57, D59, D72, D73, D74, D75, D76, D77, D88, D92, D93, D94, D96, D98, D100
 
 ### Korean Engine Features
-D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84
+D42, D43, D48, D49, D50, D54, D58, D60, D61, D62, D63, D64, D65, D66, D84, D117
 
 ### Dutch Curriculum
 D12, D23, D29, D30, D32, D34a-l, D99, D101, D102
 
 ### German Curriculum
-D103, D104
+D103, D104, D119
 
 ### French Curriculum
 D105
@@ -179,7 +182,7 @@ D74, D80, D81, D82, D86, D87, D91, D95, D97, D100, D104, D106, D107
 D100, D105, D108
 
 ### Settings Panel / Grammar Visualization
-D115
+D115, D118
 
 ### Architecture / Scaling
 D4, D5, D9, D12, D82, D83, D85, D110
@@ -212,6 +215,24 @@ D15, D25, D29, D57, D67, D70, D71, D77, D78, D89, D92, D93, D96, D97, D98, D99, 
 - **D109**: Cross-Language Audit (March 2026), retroactively INCOMPLETE per D110. Defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D110**: CEFR Distribution Audit + Anti-Cramming Doctrine (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
 - **D115**: Settings Panel Redesign V1 (March 2026), defined in `CLAUDE.md`, `DECISION_LOG.md`, and `docs/SETTINGS_PANEL_HANDOFF.md`
+- **D116**: Vocab Page V6 Redesign (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D117**: Korean Deep Dictionary System (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D118**: Grammar Legend + POS Color Polish (March 2026), defined in `CLAUDE.md` and `DECISION_LOG.md`
+- **D119**: German Curriculum Rehaul Planning (March 2026), defined in `CLAUDE.md`, `DECISION_LOG.md`, and `docs/GERMAN_REHAUL_PLAN.md`
+
+---
+
+## D117: Korean Deep Dictionary System (2026-03-20)
+
+New files created: `src/data/dictionary.js` (~830 lines), `src/data/korean-conjugation.js` (~300 lines), `src/data/wordlists/function-words-ko.js` (~560 lines, 531 function words). WORD_DB builder with isLemma gating and pluggable POS taggers. Full Korean conjugation engine with 7 irregular types + regular, ~20 ending templates, vowel harmony/batchim/contraction rules. Form-to-lemma reverse index, morpheme family index, example sentence aggregation, idiom cross-reference. Vocab list: lemma-only display (882 unique Korean words, down from 1,055). Hangul-only filter removes garbage entries. Browse tab: Korean groups by 14 initial consonants instead of hundreds of syllable pills. 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related) with conjugation tables and "Ask Verumius" fallback.
+
+## D118: Grammar Legend + POS Color Polish (2026-03-20)
+
+Maximally distinct POS colors: 10 hues (forest green, burnt orange, dark teal, deep purple, navy blue, blue-grey slate, dark gold, crimson, hot pink, dark brown). Grammar legend changed from category list to flex-wrap toggle pills (borderRadius 22, padding 9px 16px). Click to expand description in compound bubble below. Edit mode for per-category toggles. Noun underline removed. Story bubble borderRadius changed from 22 to 14 (more rectangular). DeepDive universalHl consistency fixes. German deep dictionary (conjugation engine, strong/mixed/modal/auxiliary verbs).
+
+## D119: German Curriculum Rehaul Planning (2026-03-21)
+
+Planning-only session. No code. Full concept catalogue for German A1-B2: 116 grammar constructs catalogued against Goethe-Institut inventory. New distribution: 36 units (6 A1 + 6 A2 + 12 B1 + 12 B2), up from 30 (8-8-7-6). Concept-driven per P56. 6-character story bible: Verumius + 5 German characters with backstories and personality arcs. Salvage inventory of 1,437 existing teach cards from current 30-unit build. Interleaved lesson flow designed per rehaul vision. German is the FIRST language to get the full rehaul treatment per owner decision. See `docs/GERMAN_REHAUL_PLAN.md` for the complete plan.
 
 ---
 
@@ -500,15 +521,15 @@ Build used D107 temp-file agent workflow: Opus 4.6 agents wrote units to /tmp/es
 | B1   | 10     | 10    | **7**  | **8**  | **8**   |
 | B2   | 10     | 10    | **6**  | **6**  | **6**   |
 
-Korean and Dutch (gold standards) use 6-4-10-10. German, French, and Spanish are front-loaded with A-level content (16 units at A1+A2) and starved at B1+B2 (12-13 units). This means advanced grammar (where real learning depth lives) gets compressed into fewer units while beginner content is spread thin across too many. This is the exact opposite of what pedagogy demands.
+Korean and Dutch use 6-4-10-10. German, French, and Spanish are front-loaded with A-level content (16 units at A1+A2) and starved at B1+B2 (12-13 units). This means advanced grammar (where real learning depth lives) gets compressed into fewer units while beginner content is spread thin across too many. This is the exact opposite of what pedagogy demands. Note: there is NO universal gold standard distribution. Each language's distribution must be concept-driven per P56.
 
-**Root cause**: The D103/D105/D108 builds used a mechanical 8-8-8-6 or 8-8-7-6 split without comparing against the established gold standard distribution. No audit (including D109) checked whether CEFR level labels on units were pedagogically appropriate. The agents validated that grammar EXISTS but not that it's at the RIGHT level with the RIGHT amount of space.
+**Root cause**: The D103/D105/D108 builds used a mechanical 8-8-8-6 or 8-8-7-6 split without cataloguing grammar constructs first. No audit (including D109) checked whether CEFR level labels on units were pedagogically appropriate. The agents validated that grammar EXISTS but not that it's at the RIGHT level with the RIGHT amount of space.
 
 **D109 is retroactively marked INCOMPLETE.** It caught content-level issues (P8, P22c, P49) but missed structural-level issues (CEFR distribution, deep P34 verification). A new audit (D111) is required.
 
 **New Pipeline Rules created:**
 
-1. **P51: CEFR Distribution Validation** (NON-NEGOTIABLE). Every audit MUST validate the unit-to-CEFR-level mapping. The `level` field on every unit must be checked against: (a) the language's intended distribution, (b) comparison with gold standard languages, (c) pedagogical justification. B1+B2 must NEVER have fewer combined units than A1+A2 combined. Advanced levels are where real learning depth lives. Distribution must be justified per language, not mechanically applied.
+1. **P51: CEFR Distribution Validation** (NON-NEGOTIABLE). Every audit MUST validate the unit-to-CEFR-level mapping. The `level` field on every unit must be checked against: (a) the language's intended concept-driven distribution per P56, (b) FSI difficulty category and source-target distance, (c) pedagogical justification. B1+B2 must NEVER have fewer combined units than A1+A2 combined. Advanced levels are where real learning depth lives. Distribution must be justified per language, not mechanically applied. There is NO universal gold standard distribution.
 
 2. **P52: Strict Teach-Before-Use** (P34 tightening, NON-NEGOTIABLE). "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons). A word appearing ONLY in another card's `example` field does NOT count as taught. A word mentioned ONLY in a `deepDive` does NOT count as taught. Every single word used in any quiz step (mc, fb, drag_fill, tr, match) must trace back to a prior dedicated teach card in the same unit or an earlier unit. The P37 cognate exception remains narrow: exempt ONLY if (a) transparently cognate, (b) only in examples not quizzes, (c) single word.
 

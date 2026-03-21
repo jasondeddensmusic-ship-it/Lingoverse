@@ -277,11 +277,11 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 
 ### CEFR Distribution Validation (P51) — NON-NEGOTIABLE:
 - **P51**: Every audit and every build MUST validate the unit-to-CEFR-level mapping. Specifically:
-  - The `level` field on every unit must be checked against the language's intended distribution AND compared with gold standard languages (Korean: 6-4-10-10, Dutch: 6-4-10-10).
+  - The `level` field on every unit must be checked against the language's intended concept-driven distribution (P56). There is NO universal gold standard distribution. Each language gets the distribution its concepts demand.
   - B1+B2 combined must NEVER have fewer units than A1+A2 combined. Advanced levels are where real learning depth lives. Front-loading beginner content while starving advanced content is pedagogically backwards.
-  - Distribution must be justified per language based on that language's actual complexity at each CEFR level, not mechanically applied from a template.
+  - Distribution must be justified per language based on that language's actual complexity at each CEFR level, FSI difficulty category, and source-to-target distance. Never mechanically applied from a template or another language's distribution.
   - The sub-level labels (A1.1, A1.2, B1.1, etc.) must be consistent within each language. No gaps, no jumps (e.g., A1.1 -> A1.4 skipping A1.2/A1.3 is a red flag).
-  - **D110 flaw**: German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) all violate this. The gold standards (Korean/Dutch) use 6-4-10-10. The newer languages have 16 A-level units and only 12-13 B-level units. This was missed by D109.
+  - **D110 flaw**: German (8-8-7-6), French (8-8-8-6), and Spanish (8-8-8-6) were built from templates, not concepts. All 5 languages need concept-driven re-evaluation per P56. Korean A2 (4 units for a Category V language) is also flagged.
 
 ### Strict Teach-Before-Use (P52) — NON-NEGOTIABLE:
 - **P52**: Tightening of P34. "Taught" means the word has its OWN dedicated teach card with target-language and source-language fields (currently named `nl` and `en` for legacy reasons — see scaling blocker #6). Specifically:
@@ -319,12 +319,12 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
 ### Vocabulary Completeness Doctrine (P55) — NON-NEGOTIABLE:
 - **P55**: Every language must achieve CERTIFICATION-GRADE vocabulary completeness. A learner who completes LingoVerse A1-B2 must be able to pass the official certification exam (TOPIK/NT2/Goethe/DELF/DELE). Specifically:
   - Every word on the official vocabulary list for the certification exam at each CEFR level MUST have a dedicated teach card. Not "most words." ALL of them.
-  - Official vocabulary sources are MANDATORY cross-references:
-    - **Korean**: TOPIK vocabulary list (6,000+ words for TOPIK II), National Institute of Korean Language frequency lists
-    - **Dutch**: NT2 Basiswoordenlijst (~4,000 words), Inburgeringsexamen word lists
-    - **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400, B2: ~4,000+)
-    - **French**: DELF vocabulary lists by level, Referentiel de l'Alliance Francaise
-    - **Spanish**: Plan Curricular del Instituto Cervantes vocabulary inventory (A1-B2)
+  - Official vocabulary sources and polyglot targets per language:
+    - **Korean**: TOPIK I (1,850 words) + TOPIK II (3,900 words) = 5,750 total. NIKL Korean Learner List: 5,965. Polyglot target: 6,000-7,000 words.
+    - **Dutch**: No single official NT2 word list exists. Best proxies: Frequency Dictionary of Dutch (~5,000 lemmas), NT2 exam prep materials. Polyglot target: 5,000-7,000 words.
+    - **German**: Goethe-Institut Wortliste (A1: ~650, A2: ~1,300, B1: ~2,400). No official Goethe B2 list exists. Polyglot target: 5,000-6,000 words.
+    - **French**: No official DELF vocabulary list exists. Best proxies: Referentiel de l'Alliance Francaise (framework, not word list), textbook vocabulary indices (Alter Ego, Edito). Polyglot target: 4,000-6,000 words.
+    - **Spanish**: Plan Curricular del Instituto Cervantes (PCIC) vocabulary inventory. Most structured official source of any Romance language. A1-A2: ~920 words documented. Polyglot target: 4,000-6,000 words.
   - Vocabulary domains MUST be complete at each level. At A1: ALL greetings, ALL numbers (0-1000+), ALL days/months/seasons, ALL basic colors, COMPLETE family tree, COMPLETE body parts, 30+ food/drink items, 15+ clothing items, ALL rooms + 5+ items per room, ALL directions, ALL weather terms, 10+ emotions, 15+ daily routine verbs, 20+ adjective pairs, ALL time expressions, ALL question words.
   - Every synonym on the official list gets its own teach card. If the exam lists both formal and informal equivalents, BOTH are taught.
   - Function words (prepositions, conjunctions, articles, pronouns, particles) at each CEFR level ALL need dedicated teach cards.
@@ -347,12 +347,12 @@ The full Decision Log with D1-D112 is in `docs/DECISION_LOG.md`. Key recent deci
   - "Taught" = dedicated teach card or tip card explaining the rule
   - "Practiced" = at least 3 quiz steps (mc, fb, drag_fill, or tr) testing this construct
   - "Recycled" = appears in at least 2 later lessons at the same or higher level
-  - Official grammar sources per language:
-    - **Korean**: TOPIK grammar patterns list (300+ for TOPIK II), Korean Grammar in Use series
-    - **Dutch**: NT2 grammar requirements, Basisgrammatica, Dutch: An Essential Grammar
-    - **German**: Goethe-Institut grammar inventory by level, Dreyer & Schmitt
-    - **French**: DELF grammar inventory by level, Grammaire progressive du francais
-    - **Spanish**: PCIC grammar inventory (Gramatica A1-B2), Nueva gramatica
+  - Official and reference grammar sources per language:
+    - **Korean**: TOPIK grammar patterns (~300 for TOPIK II), Korean Grammar in Use series (Beginning/Intermediate/Advanced)
+    - **Dutch**: NT2 exam grammar requirements, Dutch: An Essential Grammar (Shetter/Ham), Basisgrammatica
+    - **German**: Goethe-Institut grammar inventory by level (A1-B1 published, B2 implicit from exam prep), Dreyer & Schmitt Lehr- und Ubungsbuch
+    - **French**: No official DELF grammar list exists. Best proxies: Grammaire progressive du francais (debutant/intermediaire/avance), Bescherelle
+    - **Spanish**: PCIC grammar inventory (Gramatica A1-B2, most structured of any language), Nueva gramatica de la lengua espanola (reference)
   - Every audit must produce a COMPLETE grammar inventory table mapping each official construct to its unit, teach card ID, and quiz step count. Any construct with zero quiz steps = GAP.
   - **This rule exists because**: Previous audits checked "does major grammar exist?" but never verified exhaustive coverage against official lists. Constructs that are "minor" in one reference may be critical on the exam.
 
@@ -580,7 +580,7 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - Quality audit PASS: P48=0, P22c=0, P49=0, board:true=240/240, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: deu{N}l{N}.
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 157 P8 hint-reveals fixed. CEFR grammar PASS with 1 moderate gap (A2 imperative mood: no dedicated lesson). P22c=0, P49=0.
-- **CEFR DISTRIBUTION FLAG (D110)**: German has 8-8-7-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B-level content is compressed. Needs relabeling or restructuring in D111 audit.
+- **CEFR DISTRIBUTION FLAG (D110)**: German has 8-8-7-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs.
 - **German is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Arabic: 5 skeleton units (29 lessons), RTL works, needs CEFR audit. Missing from vocabulary.js.
 ### French:
@@ -598,7 +598,7 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: fre{N}l{N}.
   - Built with Opus 4.6 agents after Sonnet agents proved unreliable (D106).
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 15 P8 hint-reveals fixed, 2 P49 CEFR labels removed. CEFR grammar PASS with minor vocab gaps (weather, months, health). verb_table underused (5 across 240 lessons).
-- **CEFR DISTRIBUTION FLAG (D110)**: French has 8-8-8-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B2 is compressed (6 units vs 10). Needs relabeling or restructuring in D111 audit.
+- **CEFR DISTRIBUTION FLAG (D110)**: French has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. Needs grammar construct cataloguing to determine proper unit count.
 - **French is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
 ### Spanish:
 - **A1-B2 COMPLETE (D108, 2026-03-17)**: Full build using D107 temp-file agent workflow + D106 Opus 4.6 agents.
@@ -612,8 +612,8 @@ Muted ink tones on lavender compound bubbles. No neon. No underlines. No two typ
   - Quality validation PASS: P48=0, P22c=0, P49=0, board:true=240/240, unit ordering=PASS, density=all 18+
   - Track: v1. All purple themed (#7B5EE8). Lesson IDs: esp{N}l{N}.
 - **CROSS-LANGUAGE AUDIT (D109, 2026-03-17)**: 23 P8 hint-reveals fixed, 1 P49 CEFR label removed. CEFR grammar PASS with 2 vocab gaps (A1 body parts: MODERATE, A2 animals: LOW).
-- **CEFR DISTRIBUTION FLAG (D110)**: Spanish has 8-8-8-6 distribution (A1-A2-B1-B2). Gold standard is 6-4-10-10. B2 is compressed (6 units vs 10). Needs relabeling or restructuring in D111 audit.
-- **Spanish is PRODUCTION-READY with caveats.** A1-B2 fully built, cross-audited (D109), but CEFR distribution flagged (D110). Next: D111 structural + deep audit.
+- **CEFR DISTRIBUTION FLAG (D110)**: Spanish has 8-8-8-6 distribution (A1-A2-B1-B2). Template-based, not concept-driven per P56. Needs grammar construct cataloguing to determine proper unit count.
+- **Spanish needs concept-driven re-evaluation.** A1-B2 fully built, cross-audited (D109), but distribution was template-based. Deep P52 teach-before-use verification not yet done.
 
 ### Infrastructure Readiness:
 - LANGUAGES array: 11 languages (fr, nl, en, de, ar, ro, es, ko, zh, ja, ru)
@@ -1011,7 +1011,7 @@ Every audit agent MUST receive FULL pipeline context in its prompt. An agent tha
 
 1. **Every audit agent's prompt MUST include**: (a) the complete Pipeline Rules section from CLAUDE.md (P8 through P54, verbatim or summarized with all rule numbers), (b) the P53 audit completeness checklist (all 9 points), (c) the anti-cramming doctrine (P54), (d) the D110 CEFR distribution flaw as a cautionary example, (e) explicit instruction to validate CEFR distribution FIRST before any content-level checks.
 
-2. **Audit agents must validate STRUCTURE before CONTENT.** The first thing any audit agent checks is: Are the units assigned to the correct CEFR levels? Is the distribution pedagogically sound? Does it match or have justified deviation from the gold standards? Only AFTER structural validation passes does the agent proceed to content-level checks (P8, P34/P52, P48, P49, etc.).
+2. **Audit agents must validate STRUCTURE before CONTENT.** The first thing any audit agent checks is: Are the units assigned to the correct CEFR levels? Is the distribution pedagogically sound? Is it concept-driven (P56) with justified unit counts based on FSI difficulty and source-target distance? Only AFTER structural validation passes does the agent proceed to content-level checks (P8, P34/P52, P48, P49, etc.).
 
 3. **Audit agents must cross-reference external standards.** For every language, the agent must compare the curriculum against established textbooks, official exam frameworks (TOPIK, DELE, DELF, Goethe, NT2), and major teaching platforms. The question is not "does this content exist?" but "does this content exist at the right level with the right depth compared to how real language courses teach it?"
 
@@ -1020,7 +1020,7 @@ Every audit agent MUST receive FULL pipeline context in its prompt. An agent tha
 5. **The agent's final report MUST include a P53 checklist with PASS/FAIL for each of the 9 items.** If any item is FAIL, the audit is INCOMPLETE. The agent must clearly state this.
 
 ### Why Rule 13 Exists
-In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had fundamentally wrong CEFR distributions (8-8-7-6 or 8-8-8-6 instead of the gold standard 6-4-10-10). The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the P53 checklist items.
+In March 2026, D109 deployed 12 audit agents across 5 languages. The agents checked P8 leaks, P22c em-dashes, P49 CEFR labels, and grammar coverage. They found and fixed 694 issues. But they completely missed that German, French, and Spanish had template-based CEFR distributions (8-8-7-6 or 8-8-8-6) instead of concept-driven distributions per P56. The owner spotted this in 30 seconds by looking at the unit list. The agents spent hours on content details while missing structural fundamentals. Rule 13 ensures future audit agents check structure first, have full pipeline context, and never produce an audit report that's missing any of the P53 checklist items.
 
 ### Rule 14: Official Source Verification (D112) — NON-NEGOTIABLE
 Every vocabulary or grammar claim in an audit MUST cite the official source. Uncited claims are REJECTED.
@@ -1146,7 +1146,7 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **verb_table crash fix (2026-03-19)**: 28 German verb_tables used array-of-arrays row format instead of object format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
-**German needs D111 audit.** CEFR distribution flagged (D110): 8-8-7-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
+**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep P52 teach-before-use verification not yet done.
 
 ### DONE (French A1-B2 = Fourth Gold Standard)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -1172,7 +1172,7 @@ French is PRODUCTION-READY. Built from scratch in D105:
 
 **D112 SESSION 4 (2026-03-17)**: 6 new B1 vocab domain lessons: education (fre17l8b, 23), abstract (fre19l8b, 23), legal (fre20l8b, 23), media (fre21l8b, 22), feelings (fre23l8b, 24), workplace (fre24l8b, 25). 258 lessons total. Total teach cards: ~1,077+.
 
-**French needs D111 audit.** CEFR distribution flagged (D110): 8-8-8-6 vs gold standard 6-4-10-10. Deep P52 teach-before-use verification not yet done. Next: D111 structural + deep audit.
+**French needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-8-6 was template-based. Needs grammar construct cataloguing to determine proper unit count per P56. Deep P52 teach-before-use verification not yet done.
 
 ### DONE (Spanish A1-B2 = Fifth Gold Standard)
 Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 (content):

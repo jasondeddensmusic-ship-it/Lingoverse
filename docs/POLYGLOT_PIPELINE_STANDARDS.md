@@ -99,7 +99,7 @@ Every language's "scary" concepts have a logical structure. The curriculum's job
 
 ### Pillar 6: Anti-Cramming Doctrine (P54, D110) — THE MOST IMPORTANT CONTENT RULE
 
-Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of LingoVerse's polyglot vision.
+Content must NEVER be crammed to fit a predetermined unit count, lesson count, or step count. The curriculum exists to serve the LANGUAGE, not a spreadsheet. This is the foundational principle of VerumLingua's polyglot vision.
 
 **The doctrine:**
 - If a language needs 50 units and 400 lessons to properly teach A1-B2, it gets 50 units and 400 lessons. If it only needs 10 units, it gets 10 units.
@@ -111,7 +111,7 @@ Content must NEVER be crammed to fit a predetermined unit count, lesson count, o
 - Every language is different. Every language deserves its own lesson-count, its own unit-count, its own breadth and depth. Source language proximity matters: a Dutch speaker learning German needs different pacing than an Arabic speaker learning German.
 
 **The violation that created this pillar:**
-In March 2026, German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 CEFR distribution template. The gold standards (Korean/Dutch) use 6-4-10-10. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection in seconds. Twelve audit agents running for hours did not. This pillar ensures that unit counts and CEFR distributions are always concept-driven, never template-driven.
+In March 2026, German, French, and Spanish were all built with a mechanical 8-8-8-6 or 8-8-7-6 CEFR distribution template. The result: 16 units on beginner material that could fit in 10, and only 6 units on advanced material that needs 10. The owner caught this by visual inspection in seconds. Twelve audit agents running for hours did not. There is NO universal gold standard distribution. Each language gets the distribution its concepts demand (P56). This pillar ensures that unit counts and CEFR distributions are always concept-driven, never template-driven.
 
 ### CEFR Distribution Rules (P51)
 
@@ -119,7 +119,7 @@ Every audit and every build MUST validate the unit-to-CEFR-level mapping:
 1. B1+B2 combined must NEVER have fewer units than A1+A2 combined (advanced levels are where real learning depth lives)
 2. Distribution must be justified per language based on that language's actual complexity at each CEFR level
 3. Sub-level labels must be consistent within each language (no gaps, no jumps)
-4. Compare against gold standards (Korean: 6-4-10-10, Dutch: 6-4-10-10) and explain deviations
+4. Verify the distribution is concept-driven per P56 (catalogue constructs first, then determine unit count). There is NO universal gold standard distribution.
 
 ### Strict Teach-Before-Use (P52)
 
@@ -146,7 +146,7 @@ Every cross-language audit MUST pass ALL 15 checks:
 12. P58 communicative functions coverage
 13. Synonym coverage from official lists
 14. P56 unit count adequacy (concept-driven, not template)
-15. Exam simulation readiness (learner could pass official exam using only LingoVerse)
+15. Exam simulation readiness (learner could pass official exam using only VerumLingua)
 
 Missing ANY = audit INCOMPLETE. An audit that passes 14 of 15 is NOT a PASS.
 
@@ -154,7 +154,7 @@ Missing ANY = audit INCOMPLETE. An audit that passes 14 of 15 is NOT a PASS.
 
 Every language must achieve certification-grade vocabulary completeness. Every word on the official certification exam vocabulary list at each CEFR level must have a dedicated teach card.
 
-**Official sources per language**: TOPIK vocabulary (Korean), NT2 Basiswoordenlijst (Dutch), Goethe-Wortliste (German), DELF vocabulary (French), PCIC Nociones especificas (Spanish).
+**Official sources per language**: TOPIK I+II vocabulary, 5,750 words (Korean). No single official NT2 list exists, use Frequency Dictionary of Dutch (Dutch). Goethe-Wortliste A1-B1, ~2,400 cumulative, no official B2 list (German). No official DELF list exists, use textbook indices (French). PCIC vocabulary inventory (Spanish). See CLAUDE.md P55 for full details and polyglot targets.
 
 **Verification**: Automated script compares official list against extracted teach card `nl:` fields. Zero gaps = PASS.
 
@@ -509,7 +509,7 @@ Arabic is simultaneously a target language AND a source language. This creates d
 
 1. **Script is mandatory before vocabulary.** The Arabic alphabet must be fully mastered in Foundations. This includes: all 28 letters, connected forms (initial/medial/final/isolated), short vowel diacritics (fatha/kasra/damma), sukun, shadda, and tanwin.
 
-2. **The diglossia decision must be made.** LingoVerse teaches Modern Standard Arabic (MSA) as the primary register, with acknowledgment of major dialect families (Egyptian, Levantine, Gulf, Maghrebi) in cultural anchors.
+2. **The diglossia decision must be made.** VerumLingua teaches Modern Standard Arabic (MSA) as the primary register, with acknowledgment of major dialect families (Egyptian, Levantine, Gulf, Maghrebi) in cultural anchors.
 
 3. **The trilateral root system is the LEGO Principle for Arabic.** It must be introduced early (A1 U2) and reinforced constantly. Every new vocabulary item: trace it to its root.
 

@@ -1,4 +1,6 @@
-# LingoVerse Full Curriculum Audit Report
+> **SUPERSEDED**: This audit report reflects the state as of D110 (March 2026). The platform rehaul (D114+) will restructure all curricula. This document is preserved for historical reference but should NOT be used as the basis for new audit work. See CLAUDE.md for current status.
+
+# VerumLingua Full Curriculum Audit Report
 ## Date: 2026-03-17
 
 ---

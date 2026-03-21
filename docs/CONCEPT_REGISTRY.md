@@ -2,7 +2,7 @@
 
 > Machine-searchable index of all grammar patterns, vocabulary domains, and concept locations.
 > Check HERE before grepping data files. If a pattern is in this registry, it exists in the code.
-> Last updated: 2026-03-15
+> Last updated: 2026-03-21
 
 ---
 
@@ -399,3 +399,30 @@ When adding new units or lessons to Dutch:
 1. Add new grammar patterns to the appropriate table
 2. Update the Unit Overview table
 3. Update the "Last updated" date at the top
+
+---
+
+# German (de)
+
+> **PLACEHOLDER**: German concept registry needs to be built during the platform rehaul (D119).
+> German has 30 units (A1-B2, D103) with 258 lessons and ~4,876 steps. A rehaul to 36 units is planned (D119).
+> 116 grammar constructs have been catalogued against the Goethe-Institut inventory in `docs/GERMAN_REHAUL_PLAN.md`.
+> This section will be populated when the German curriculum is restructured.
+
+---
+
+# French (fr)
+
+> **PLACEHOLDER**: French concept registry needs to be built during the platform rehaul.
+> French has 30 units (A1-B2, D105) with 258 lessons and ~4,734 steps.
+> CEFR distribution flagged (D110): 8-8-8-6 vs concept-driven target.
+> This section will be populated when the French curriculum is restructured.
+
+---
+
+# Spanish (es)
+
+> **PLACEHOLDER**: Spanish concept registry needs to be built during the platform rehaul.
+> Spanish has 30 units (A1-B2, D108) with 257 lessons and ~4,697 steps.
+> CEFR distribution flagged (D110): 8-8-8-6 vs concept-driven target.
+> This section will be populated when the Spanish curriculum is restructured.

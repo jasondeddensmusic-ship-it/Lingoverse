@@ -58,8 +58,8 @@
 
 | Language | A1 | A2 | B1 | B2 | Status |
 |----------|----|----|----|----|--------|
-| Korean | 6 | 4 | 10 | 10 | OK (gold standard) but A2=4 flagged for Cat V |
-| Dutch (v2) | 6 | 4 | 10 | 10 | OK (gold standard) |
+| Korean | 6 | 4 | 10 | 10 | Needs concept-driven re-evaluation. A2=4 flagged for Cat V |
+| Dutch (v2) | 6 | 4 | 10 | 10 | Needs concept-driven re-evaluation per P56 |
 | German | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
 | French | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
 | Spanish | 8 | 8 | 8 | 6 | FLAGGED: B-level compressed |
