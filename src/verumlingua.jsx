@@ -103,51 +103,55 @@ function NebulaBackground(){
         [210,170,225],[200,160,220],[190,155,215],                         // pink-lavender
         [160,145,195],[170,150,200],                                       // grey-purple
       ];
-      // Layer 0: huge background washes (2-3, very wide and tall, very slow)
-      for(let i=0;i<3;i++){
+      const mkWisp=(x,y,rx,ry,rot,dSpd,opDk,opLt)=>{
         const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
         const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
-        wisps.push({
-          x:Math.random()*w, y:h*0.1+Math.random()*h*0.8,
-          rx:w*(0.5+Math.random()*0.6), ry:h*(0.15+Math.random()*0.15), // very wide, not very tall = horizontal band
-          rot:(-0.3+Math.random()*0.6), // slight tilt
-          driftSpd:0.08+Math.random()*0.06, driftOff:Math.random()*Math.PI*2,
-          pulseSpd:0.15+Math.random()*0.15, pulseOff:Math.random()*Math.PI*2,
-          opDk:0.25+Math.random()*0.15, opLt:0.12+Math.random()*0.08,
-          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
-        });
+        wisps.push({x,y,rx,ry,rot,driftSpd:dSpd,driftOff:Math.random()*Math.PI*2,
+          pulseSpd:0.12+Math.random()*0.25,pulseOff:Math.random()*Math.PI*2,opDk,opLt,
+          dr:dc[0],dg:dc[1],db:dc[2],lr:lc[0],lg:lc[1],lb:lc[2]});
+      };
+      // Layer 0: huge background washes (4, very wide, slow — base color fields)
+      for(let i=0;i<4;i++){
+        mkWisp(Math.random()*w, h*0.1+Math.random()*h*0.8,
+          w*(0.5+Math.random()*0.7), h*(0.15+Math.random()*0.2),
+          -0.3+Math.random()*0.6, 0.06+Math.random()*0.05,
+          0.28+Math.random()*0.15, 0.12+Math.random()*0.08);
       }
-      // Layer 1: medium flowing wisps (6-8, elongated tendrils)
-      for(let i=0;i<7;i++){
-        const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
-        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
-        const stretch=2+Math.random()*4; // aspect ratio 2:1 to 6:1 = wispy, not round
-        const baseR=w*(0.1+Math.random()*0.2);
-        wisps.push({
-          x:-w*0.1+Math.random()*w*1.2, y:Math.random()*h,
-          rx:baseR*stretch, ry:baseR,
-          rot:(-0.8+Math.random()*1.6),
-          driftSpd:0.12+Math.random()*0.12, driftOff:Math.random()*Math.PI*2,
-          pulseSpd:0.2+Math.random()*0.25, pulseOff:Math.random()*Math.PI*2,
-          opDk:0.2+Math.random()*0.2, opLt:0.08+Math.random()*0.08,
-          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
-        });
+      // Layer 1: medium flowing wisps (10, elongated tendrils, the main nebula body)
+      for(let i=0;i<10;i++){
+        const stretch=2.5+Math.random()*4;
+        const baseR=w*(0.08+Math.random()*0.18);
+        mkWisp(-w*0.15+Math.random()*w*1.3, Math.random()*h,
+          baseR*stretch, baseR,
+          -0.8+Math.random()*1.6, 0.1+Math.random()*0.12,
+          0.22+Math.random()*0.2, 0.08+Math.random()*0.1);
       }
-      // Layer 2: thin bright accent wisps (5, very elongated, brighter)
-      for(let i=0;i<5;i++){
-        const dc=dkPalette[Math.floor(Math.random()*5)]; // biased toward purple/violet
-        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
-        const stretch=4+Math.random()*6; // very elongated 4:1 to 10:1
-        const baseR=w*(0.04+Math.random()*0.08);
-        wisps.push({
-          x:-w*0.05+Math.random()*w*1.1, y:Math.random()*h,
-          rx:baseR*stretch, ry:baseR,
-          rot:(-1+Math.random()*2),
-          driftSpd:0.18+Math.random()*0.15, driftOff:Math.random()*Math.PI*2,
-          pulseSpd:0.25+Math.random()*0.3, pulseOff:Math.random()*Math.PI*2,
-          opDk:0.15+Math.random()*0.15, opLt:0.05+Math.random()*0.06,
-          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
-        });
+      // Layer 2: thin accent wisps (8, very elongated — adds streaky detail)
+      for(let i=0;i<8;i++){
+        const stretch=4+Math.random()*8;
+        const baseR=w*(0.03+Math.random()*0.07);
+        mkWisp(-w*0.1+Math.random()*w*1.2, Math.random()*h,
+          baseR*stretch, baseR,
+          -1.2+Math.random()*2.4, 0.15+Math.random()*0.15,
+          0.18+Math.random()*0.18, 0.06+Math.random()*0.07);
+      }
+      // Layer 3: fine detail wisps (12, small, fast — texture and grain like real nebula)
+      for(let i=0;i<12;i++){
+        const stretch=3+Math.random()*6;
+        const baseR=w*(0.015+Math.random()*0.04);
+        mkWisp(-w*0.05+Math.random()*w*1.1, Math.random()*h,
+          baseR*stretch, baseR,
+          Math.random()*Math.PI*2, 0.2+Math.random()*0.2,
+          0.12+Math.random()*0.15, 0.04+Math.random()*0.05);
+      }
+      // Layer 4: micro filaments (15, tiny wispy threads — the finest detail)
+      for(let i=0;i<15;i++){
+        const stretch=5+Math.random()*10;
+        const baseR=w*(0.008+Math.random()*0.02);
+        mkWisp(Math.random()*w, Math.random()*h,
+          baseR*stretch, baseR,
+          Math.random()*Math.PI*2, 0.25+Math.random()*0.25,
+          0.1+Math.random()*0.12, 0.03+Math.random()*0.04);
       }
       return {stars,wisps};
     };
