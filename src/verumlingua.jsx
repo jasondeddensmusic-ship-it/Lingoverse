@@ -117,90 +117,107 @@ function NebulaBackground(){
         else if(t<0.6){return h(0.82,0.18,(t-0.28)/0.32);}
         else{return h(0.18,0.48,(t-0.6)/0.4);}
       };
+      // Build THREE masks: core (electric highlights), main (river), outer (blown-out halo)
+      const coreMask=new Float32Array(NW*NH);
+      const outerMask=new Float32Array(NW*NH);
       for(let py=0;py<NH;py++){
         for(let px=0;px<NW;px++){
           const nx=px*pixScale,ny=py*pixScale;
           const normX=px/NW, normY=py/NH;
-          // Perspective depth: close at bottom, far at top
           const depth=normY;
-          const riverWidth=0.03+depth*depth*0.4; // 3% at top → 43% at bottom (exponential spread)
-          const depthBright=0.25+depth*0.75;
-          // Main river center follows the S-curve (bottom-left → right → left → top-center)
           const wobble=0.04*fbm(nx*0.8,ny*1.2,3,2.0,0.5);
           const riverCenter=pathX(1.0-normY)+wobble;
           const dist=Math.abs(normX-riverCenter);
+          // === MAIN RIVER (same as before) ===
+          const riverWidth=0.03+depth*depth*0.4;
+          const depthBright=0.25+depth*0.75;
           const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.2));
-          // Thin secondary wisp branching off the main river
+          // Branch
           const branchCenter=pathX(1.0-Math.min(1,normY+0.15))+0.12*(normY>0.5?1:-1)+0.03*fbm(nx*0.9+5,ny*1.0+3,3,2.0,0.5);
           const dist2=Math.abs(normX-branchCenter);
           const branchWidth=0.02+depth*0.06;
           const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.25;
-          // Combine, apply depth
           const combined=Math.min(1,(inRiver+inBranch)*depthBright);
           riverMask[py*NW+px]=combined*combined*(3-2*combined);
+          // === ELECTRIC CORE (tight hot center) ===
+          const coreWidth=riverWidth*0.35; // much narrower than river
+          const inCore=Math.max(0,1.0-Math.pow(dist/coreWidth,3.0));
+          coreMask[py*NW+px]=inCore*inCore*depthBright;
+          // === OUTER HALO (blown-out soft glow extending far beyond river) ===
+          const haloWidth=riverWidth*2.8; // much wider than river
+          const inHalo=Math.max(0,1.0-Math.pow(dist/haloWidth,1.5));
+          outerMask[py*NW+px]=inHalo*depthBright*0.35; // subtle
         }
       }
 
-      // Cloud layers: "less is more" - cleaner, more contrast, less uniform fog
+      // Cloud layers: main nebula body
       const cloudLayers=[
-        {dkR:130,dkG:30,dkB:210, ltR:120,ltG:60,ltB:180,  scale:1.0, ox:0,  oy:0,   thresh:0.08,opDk:0.7, opLt:0.55,pw:1.4},  // purple core
-        {dkR:210,dkG:40,dkB:170, ltR:170,ltG:80,ltB:170,  scale:1.4, ox:100,oy:50,  thresh:0.12,opDk:0.5, opLt:0.4, pw:1.5},  // magenta wisps
-        {dkR:50,dkG:25,dkB:170,  ltR:80,ltG:50,ltB:150,   scale:1.2, ox:200,oy:150, thresh:0.10,opDk:0.4, opLt:0.35,pw:1.3},  // deep blue
-        {dkR:255,dkG:50,dkB:190, ltR:190,ltG:80,ltB:190,  scale:1.8, ox:300,oy:75,  thresh:0.18,opDk:0.3, opLt:0.3, pw:1.6},  // hot pink filaments
-        {dkR:160,dkG:70,dkB:255, ltR:130,ltG:60,ltB:190,  scale:2.2, ox:50, oy:200, thresh:0.20,opDk:0.2, opLt:0.22,pw:1.8},  // violet detail
+        {dkR:130,dkG:30,dkB:210, ltR:120,ltG:60,ltB:180,  scale:1.0, ox:0,  oy:0,   thresh:0.08,opDk:0.7, opLt:0.55,pw:1.4},
+        {dkR:210,dkG:40,dkB:170, ltR:170,ltG:80,ltB:170,  scale:1.4, ox:100,oy:50,  thresh:0.12,opDk:0.5, opLt:0.4, pw:1.5},
+        {dkR:50,dkG:25,dkB:170,  ltR:80,ltG:50,ltB:150,   scale:1.2, ox:200,oy:150, thresh:0.10,opDk:0.4, opLt:0.35,pw:1.3},
+        {dkR:255,dkG:50,dkB:190, ltR:190,ltG:80,ltB:190,  scale:1.8, ox:300,oy:75,  thresh:0.18,opDk:0.3, opLt:0.3, pw:1.6},
+        {dkR:160,dkG:70,dkB:255, ltR:130,ltG:60,ltB:190,  scale:2.2, ox:50, oy:200, thresh:0.20,opDk:0.2, opLt:0.22,pw:1.8},
       ];
-      const cloudCanvases=cloudLayers.map(layer=>{
-        const mkTex=(r,g,b)=>{
-          const oc=document.createElement("canvas");oc.width=NW;oc.height=NH;
-          const octx=oc.getContext("2d");
-          const img=octx.createImageData(NW,NH);
-          const d=img.data;
-          for(let py=0;py<NH;py++){
-            for(let px=0;px<NW;px++){
-              const nx=(px+layer.ox)*pixScale;
-              const ny=(py+layer.oy)*pixScale;
-              const v=warpedFbm(nx,ny,layer.scale);
-              const raw=(v+1)/2;
-              const intensity=Math.max(0,raw-layer.thresh)/(1-layer.thresh);
-              const curved=Math.pow(intensity,layer.pw);
-              // Apply river mask: cloud only visible along the flowing river paths
-              const mask=riverMask[py*NW+px];
-              const final=curved*mask;
-              const idx=(py*NW+px)*4;
-              d[idx]=r;d[idx+1]=g;d[idx+2]=b;
-              d[idx+3]=Math.floor(final*255);
-            }
+      const mkTex=(NW,NH,r,g,b,layer,mask)=>{
+        const oc=document.createElement("canvas");oc.width=NW;oc.height=NH;
+        const octx=oc.getContext("2d");
+        const img=octx.createImageData(NW,NH);
+        const d=img.data;
+        for(let py=0;py<NH;py++){
+          for(let px=0;px<NW;px++){
+            const nx=(px+layer.ox)*pixScale;
+            const ny=(py+layer.oy)*pixScale;
+            const v=warpedFbm(nx,ny,layer.scale);
+            const raw=(v+1)/2;
+            const intensity=Math.max(0,raw-layer.thresh)/(1-layer.thresh);
+            const curved=Math.pow(intensity,layer.pw);
+            const m=mask[py*NW+px];
+            const idx=(py*NW+px)*4;
+            d[idx]=r;d[idx+1]=g;d[idx+2]=b;
+            d[idx+3]=Math.floor(curved*m*255);
           }
-          octx.putImageData(img,0,0);
-          return oc;
-        };
-        return {
-          dk:mkTex(layer.dkR,layer.dkG,layer.dkB),
-          lt:mkTex(layer.ltR,layer.ltG,layer.ltB),
-          layer
-        };
-      });
-      // Stars: brighter, bigger, more visible
+        }
+        octx.putImageData(img,0,0);
+        return oc;
+      };
+      // Main cloud canvases (river mask)
+      const cloudCanvases=cloudLayers.map(layer=>({
+        dk:mkTex(NW,NH,layer.dkR,layer.dkG,layer.dkB,layer,riverMask),
+        lt:mkTex(NW,NH,layer.ltR,layer.ltG,layer.ltB,layer,riverMask),
+        layer
+      }));
+      // Electric core highlights (bright white/pink in center)
+      const coreLayer={scale:1.5,ox:50,oy:25,thresh:0.15,pw:2.0};
+      const coreDk=mkTex(NW,NH,255,200,255,coreLayer,coreMask); // white-pink hot
+      const coreLt=mkTex(NW,NH,180,120,220,coreLayer,coreMask); // vivid purple
+      // Outer halo (soft blown-out glow)
+      const haloLayer={scale:0.6,ox:0,oy:0,thresh:0.0,pw:0.8};
+      const haloDk=mkTex(NW,NH,100,40,180,haloLayer,outerMask); // soft purple
+      const haloLt=mkTex(NW,NH,140,90,190,haloLayer,outerMask); // lavender
+
+      // Stars
       const starCount=Math.min(350,Math.floor((w*h)/3000));
       const stars=[];
+      // Light mode glitter colors: gold, silver, pink, lavender, rose
+      const glitterColors=[[220,180,50],[200,200,220],[220,120,180],[160,130,220],[200,100,140]];
       for(let i=0;i<starCount;i++){
         const isBright=Math.random()<0.12;
+        const gc=glitterColors[Math.floor(Math.random()*glitterColors.length)];
         stars.push({
           x:Math.random()*w, y:Math.random()*h,
           size:isBright?(2+Math.random()*2):(0.8+Math.random()*1.8),
           baseOpacity:isBright?(0.7+Math.random()*0.3):(0.35+Math.random()*0.45),
-          speed:0.4+Math.random()*1.5,
+          speed:0.5+Math.random()*2.0,
+          speed2:0.8+Math.random()*2.5, // second frequency for sparkle
           offset:Math.random()*Math.PI*2,
           bright:isBright,
-          lr:isBright?200:120+Math.floor(Math.random()*60),
-          lg:isBright?180:80+Math.floor(Math.random()*40),
-          lb:isBright?255:170+Math.floor(Math.random()*60),
+          gc, // glitter color for light mode
           dr:isBright?255:200+Math.floor(Math.random()*55),
           dg:isBright?240:200+Math.floor(Math.random()*55),
           db:isBright?255:220+Math.floor(Math.random()*35),
         });
       }
-      return {cloudCanvases,stars,NW,NH};
+      return {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,NW,NH};
     };
 
     let lastTime=0;
@@ -214,47 +231,73 @@ function NebulaBackground(){
       const t=time*0.001;
       ctx.clearRect(0,0,w,h);
 
-      const {cloudCanvases,stars}=dataRef.current;
-      // === DRAW NEBULA CLOUD LAYERS ===
+      const {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars}=dataRef.current;
+      const comp=dk?"lighter":"source-over";
+
+      // === 1. OUTER HALO (blown-out soft glow around the perimeter) ===
+      ctx.save();
+      ctx.globalAlpha=dk?0.5:0.4;
+      ctx.globalCompositeOperation=comp;
+      const hdx=Math.sin(t*0.03)*w*0.02;
+      const hdy=Math.cos(t*0.025)*h*0.015;
+      ctx.drawImage(dk?haloDk:haloLt, hdx, hdy, w, h);
+      ctx.restore();
+
+      // === 2. MAIN NEBULA CLOUD LAYERS ===
       cloudCanvases.forEach((cc,i)=>{
         const op=dk?cc.layer.opDk:cc.layer.opLt;
         const tex=dk?cc.dk:cc.lt;
-        // Slow organic drift
         const dx=Math.sin(t*0.06+i*1.2)*w*0.04;
         const dy=Math.cos(t*0.04+i*1.8)*h*0.03;
         ctx.save();
         ctx.globalAlpha=op;
-        ctx.globalCompositeOperation=dk?"lighter":"source-over";
+        ctx.globalCompositeOperation=comp;
         ctx.drawImage(tex, dx, dy, w, h);
         ctx.restore();
       });
 
+      // === 3. ELECTRIC CORE HIGHLIGHTS (bright hot center of the river) ===
+      ctx.save();
+      ctx.globalAlpha=dk?0.6:0.45;
+      ctx.globalCompositeOperation=dk?"lighter":"source-over";
+      const cdx=Math.sin(t*0.05+0.7)*w*0.02;
+      const cdy=Math.cos(t*0.04+1.2)*h*0.015;
+      ctx.drawImage(dk?coreDk:coreLt, cdx, cdy, w, h);
+      ctx.restore();
+
       // === DRAW STARS ===
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
-        // Glittery twinkle: sharp sparkle peaks using abs(sin) for snappier flicker
+        // Dual-frequency sparkle for glittery effect
         const tw1=Math.sin(t*s.speed+s.offset);
-        const tw2=Math.sin(t*s.speed*1.7+s.offset*2.3);
-        const glitter=Math.max(tw1,tw2*0.6); // dual-frequency for sparkle
-        const opacity=s.baseOpacity*(0.4+0.6*Math.max(0,glitter));
+        const tw2=Math.sin(t*s.speed2+s.offset*2.3);
+        const tw3=Math.sin(t*s.speed*2.3+s.offset*0.7); // third freq for extra sparkle
+        const glitter=Math.max(tw1,tw2*0.7,tw3*0.4);
+        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,glitter));
         if(opacity<0.03)return;
         if(dk){
-          // Dark mode: white/blue/lavender glowing stars
-          const r=s.dr,g=s.dg,b=s.db;
-          ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
-          if(s.bright&&opacity>0.4){
-            ctx.globalAlpha=opacity*0.25;
-            ctx.fillRect(s.x-s.size*1.2,s.y-s.size*1.2,s.size*2.4,s.size*2.4);
+          // Dark mode: glowing stars with halo
+          ctx.fillStyle=`rgba(${s.dr},${s.dg},${s.db},${opacity.toFixed(3)})`;
+          if(s.bright&&opacity>0.5){
+            ctx.globalAlpha=opacity*0.2;
+            ctx.fillRect(s.x-s.size*1.5,s.y-s.size*1.5,s.size*3,s.size*3);
             ctx.globalAlpha=1;
           }
           ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
         }else{
-          // Light mode: dark outer border + bright white inner = visible on grey
-          const outerSize=s.size+1.5;
-          ctx.fillStyle=`rgba(40,20,60,${(opacity*0.7).toFixed(3)})`;
-          ctx.fillRect(s.x-outerSize*0.5,s.y-outerSize*0.5,outerSize,outerSize);
-          ctx.fillStyle=`rgba(255,255,255,${opacity.toFixed(3)})`;
-          ctx.fillRect(s.x-s.size*0.35,s.y-s.size*0.35,s.size*0.7,s.size*0.7);
+          // Light mode: metallic glitter sparkle cross flashes
+          const flash=Math.max(0,glitter); // 0 to 1 flash intensity
+          if(flash<0.2)return; // only show when sparkling
+          const gc=s.gc;
+          const sz=s.size*(0.6+flash*0.8); // grows during flash
+          const a=(flash*opacity).toFixed(3);
+          // Cross/sparkle shape: horizontal + vertical thin bars
+          ctx.fillStyle=`rgba(${gc[0]},${gc[1]},${gc[2]},${a})`;
+          ctx.fillRect(s.x-sz*1.2,s.y-sz*0.2,sz*2.4,sz*0.4); // horizontal bar
+          ctx.fillRect(s.x-sz*0.2,s.y-sz*1.2,sz*0.4,sz*2.4); // vertical bar
+          // Bright center dot
+          ctx.fillStyle=`rgba(255,255,255,${(flash*0.9).toFixed(3)})`;
+          ctx.fillRect(s.x-sz*0.3,s.y-sz*0.3,sz*0.6,sz*0.6);
         }
       });
       frameRef.current=requestAnimationFrame(animate);
