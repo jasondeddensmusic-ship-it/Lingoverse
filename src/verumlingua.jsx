@@ -54,7 +54,7 @@ function NebulaBackground(){
     const ctx=canvas.getContext("2d");
     const dpr=window.devicePixelRatio||1;
 
-    // === SIMPLEX NOISE (dark mode nebula only) ===
+    // === SIMPLEX NOISE (compact implementation) ===
     const F2=0.5*(Math.sqrt(3)-1),G2=(3-Math.sqrt(3))/6;
     const pp=new Uint8Array(512);const perm=new Uint8Array(512);
     const rng=()=>{let s=1;return()=>{s=(s*16807)%2147483647;return(s-1)/2147483646;}};
@@ -75,11 +75,13 @@ function NebulaBackground(){
       let t2=0.5-x2*x2-y2*y2;if(t2>0){t2*=t2;const gi=perm[ii+1+perm[jj+1]]%8;n2=t2*t2*dot2(grad2[gi],x2,y2);}
       return 70*(n0+n1+n2);
     };
+    // fBM with domain warping for organic nebula shapes
     const fbm=(x,y,oct,lac,pers)=>{
       let v=0,a=1,f=1,mx=0;
       for(let i=0;i<oct;i++){v+=a*noise2(x*f,y*f);mx+=a;f*=lac;a*=pers;}
       return v/mx;
     };
+    // Domain warping: distort coordinates using noise to create flowing organic shapes
     const warpedFbm=(x,y,scale)=>{
       const wx=fbm(x+0.0,y+0.0,3,2.0,0.5)*4.0;
       const wy=fbm(x+5.2,y+1.3,3,2.0,0.5)*4.0;
@@ -97,101 +99,112 @@ function NebulaBackground(){
     resize();
     window.addEventListener("resize",resize);
 
-    // S-curve path for lightning positioning
-    const pathX=(t)=>{
-      const sm=(a,b,s)=>a+(b-a)*s*s*(3-2*s);
-      if(t<0.382) return sm(0.08,0.88,t/0.382);
-      else if(t<0.618) return sm(0.88,0.12,(t-0.382)/0.236);
-      else return sm(0.12,0.92,(t-0.618)/0.382);
-    };
-
     const init=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      const NW=Math.ceil(w/3),NH=Math.ceil(h/3);
-      const pixScale=0.007;
+      // Pre-render nebula cloud textures at 1/3 resolution
+      const NW=Math.floor(w/3),NH=Math.floor(h/3);
 
-      // === DARK MODE NEBULA TEXTURES ===
-      // Only generate cloud textures for dark mode canvas rendering
+      // === RIVER PATH MASK (3D perspective S-curve) ===
+      // Path: top-left → curves right → curves left → bottom-center
+      // Wider and brighter near bottom (close), narrow and faint at top (far)
       const riverMask=new Float32Array(NW*NH);
+      const pixScale=0.007;
+      // Golden-ratio S-curve path through control points
+      // Phi-inspired segment lengths: 38.2% / 23.6% / 38.2%
+      const pathX=(t)=>{
+        // bottom-left(0.10) → right(0.85) → left(0.15) → top-right corner(0.95)
+        const h=(a,b,s)=>a+(b-a)*s*s*(3-2*s); // smoothstep
+        if(t<0.382){return h(0.10,0.85,t/0.382);}
+        else if(t<0.618){return h(0.85,0.15,(t-0.382)/0.236);}
+        else{return h(0.15,0.95,(t-0.618)/0.382);}
+      };
+      // Build THREE masks: core (electric highlights), main (river), outer (blown-out halo)
       const coreMask=new Float32Array(NW*NH);
       const outerMask=new Float32Array(NW*NH);
-      const shadowMask=new Float32Array(NW*NH);
       for(let py=0;py<NH;py++){
         for(let px=0;px<NW;px++){
           const nx=px*pixScale,ny=py*pixScale;
           const normX=px/NW, normY=py/NH;
           const depth=normY;
-          const wobble=0.06*fbm(nx*0.7,ny*1.0,4,2.0,0.5)+0.03*fbm(nx*1.5+3.1,ny*1.5+7.3,3,2.0,0.5);
+          const wobble=0.04*fbm(nx*0.8,ny*1.2,3,2.0,0.5);
           const riverCenter=pathX(1.0-normY)+wobble;
           const dist=Math.abs(normX-riverCenter);
-          const baseWidth=0.20+depth*0.50;
-          const edgeBump=Math.max(0,0.08*fbm(nx*3.0+7,ny*2.5+3,4,2.0,0.5))+Math.max(0,0.04*fbm(nx*6.0+2,ny*5.0+1,3,2.0,0.5));
-          const riverWidth=baseWidth+edgeBump;
-          const depthBright=0.7+depth*0.3;
-          const edgeRatio=dist/riverWidth;
-          const inRiver=edgeRatio<0.7?1.0:edgeRatio<1.15?Math.pow(1.0-(edgeRatio-0.7)/0.45,1.2):0;
-          riverMask[py*NW+px]=inRiver*depthBright;
-          const coreWidth=riverWidth*0.25;
-          const coreRatio=dist/coreWidth;
-          const inCore=coreRatio<0.5?1.0:coreRatio<1.0?Math.pow(1.0-(coreRatio-0.5)/0.5,1.3):0;
-          coreMask[py*NW+px]=inCore*depthBright;
-          const haloWidth=riverWidth*2.5+Math.max(0,0.04*fbm(nx*1.5+12,ny*1.5+8,3,2.0,0.5));
-          const haloRatio=dist/haloWidth;
-          outerMask[py*NW+px]=(haloRatio<1.0?Math.exp(-1.5*haloRatio*haloRatio):0)*depthBright*0.5;
-          const shadowOuter=riverWidth*1.6;
-          const shadowInner=riverWidth*0.7;
-          const outV=dist<shadowOuter?Math.exp(-2.0*(dist/shadowOuter)*(dist/shadowOuter)):0;
-          const inV=dist<shadowInner?Math.exp(-3.0*(dist/shadowInner)*(dist/shadowInner)):0;
-          shadowMask[py*NW+px]=Math.max(0,outV-inV)*depthBright*0.4;
+          // === MAIN RIVER (thick, billowing edges) ===
+          const baseWidth=0.15+depth*0.35;
+          // Noisy edge: add fbm bumps so edges billow OUTWARD like smoke clouds
+          const edgeNoise=0.06*fbm(nx*3.0+7,ny*3.0+3,4,2.0,0.5)+0.03*fbm(nx*6.0+2,ny*6.0+1,3,2.0,0.5);
+          const riverWidth=baseWidth+Math.max(0,edgeNoise); // only expand outward, never shrink
+          const depthBright=0.4+depth*0.6;
+          // Soft power 1.6 for rounded cloud-like falloff (not hard sucking-in edge)
+          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,1.6));
+          // Branch
+          const branchCenter=pathX(1.0-Math.min(1,normY+0.15))+0.12*(normY>0.5?1:-1)+0.03*fbm(nx*0.9+5,ny*1.0+3,3,2.0,0.5);
+          const dist2=Math.abs(normX-branchCenter);
+          const branchWidth=0.05+depth*0.12;
+          const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.25;
+          const combined=Math.min(1,(inRiver+inBranch)*depthBright);
+          riverMask[py*NW+px]=combined*combined*(3-2*combined);
+          // === ELECTRIC CORE (tight hot center) ===
+          const coreWidth=riverWidth*0.3;
+          const inCore=Math.max(0,1.0-Math.pow(dist/coreWidth,2.5));
+          coreMask[py*NW+px]=inCore*inCore*depthBright;
+          // === OUTER HALO (billowing soft glow extending far beyond river) ===
+          const haloEdge=0.04*fbm(nx*2.5+12,ny*2.5+8,3,2.0,0.5);
+          const haloWidth=riverWidth*2.5+Math.max(0,haloEdge);
+          const inHalo=Math.max(0,1.0-Math.pow(dist/haloWidth,1.3)); // very soft falloff
+          outerMask[py*NW+px]=inHalo*depthBright*0.35;
         }
       }
 
-      const mkCloudTex=(NW,NH,r,g,b,cfg,mask)=>{
+      // Cloud layers: main nebula body
+      const cloudLayers=[
+        {dkR:130,dkG:30,dkB:210, ltR:120,ltG:60,ltB:180,  scale:1.0, ox:0,  oy:0,   thresh:0.08,opDk:0.7, opLt:0.55,pw:1.4},
+        {dkR:210,dkG:40,dkB:170, ltR:170,ltG:80,ltB:170,  scale:1.4, ox:100,oy:50,  thresh:0.12,opDk:0.5, opLt:0.4, pw:1.5},
+        {dkR:50,dkG:25,dkB:170,  ltR:80,ltG:50,ltB:150,   scale:1.2, ox:200,oy:150, thresh:0.10,opDk:0.4, opLt:0.35,pw:1.3},
+        {dkR:255,dkG:50,dkB:190, ltR:190,ltG:80,ltB:190,  scale:1.8, ox:300,oy:75,  thresh:0.18,opDk:0.3, opLt:0.3, pw:1.6},
+        {dkR:160,dkG:70,dkB:255, ltR:130,ltG:60,ltB:190,  scale:2.2, ox:50, oy:200, thresh:0.20,opDk:0.2, opLt:0.22,pw:1.8},
+      ];
+      const mkTex=(NW,NH,r,g,b,layer,mask)=>{
         const oc=document.createElement("canvas");oc.width=NW;oc.height=NH;
         const octx=oc.getContext("2d");
         const img=octx.createImageData(NW,NH);
         const d=img.data;
         for(let py=0;py<NH;py++){
           for(let px=0;px<NW;px++){
-            const nx=(px+cfg.ox)*pixScale;
-            const ny=(py+cfg.oy)*pixScale;
-            const v=warpedFbm(nx,ny,cfg.scale);
+            const nx=(px+layer.ox)*pixScale;
+            const ny=(py+layer.oy)*pixScale;
+            const v=warpedFbm(nx,ny,layer.scale);
             const raw=(v+1)/2;
-            const cloud=Math.max(0,(raw-cfg.thresh)/(1.0-cfg.thresh));
-            const puff=Math.pow(cloud,cfg.pw);
+            const intensity=Math.max(0,raw-layer.thresh)/(1-layer.thresh);
+            const curved=Math.pow(intensity,layer.pw);
             const m=mask[py*NW+px];
             const idx=(py*NW+px)*4;
             d[idx]=r;d[idx+1]=g;d[idx+2]=b;
-            d[idx+3]=Math.floor(puff*m*255);
+            d[idx+3]=Math.floor(curved*m*255);
           }
         }
         octx.putImageData(img,0,0);
         return oc;
       };
-      // Dark mode cloud layers (no contrast boost — lighter compositing handles brightness)
-      const darkClouds=[
-        {c:[130,30,210],scale:1.0,ox:0,oy:0,thresh:0.10,pw:1.2,op:0.55},
-        {c:[210,40,170],scale:1.4,ox:100,oy:50,thresh:0.14,pw:1.3,op:0.40},
-        {c:[50,25,170],scale:1.2,ox:200,oy:150,thresh:0.12,pw:1.1,op:0.30},
-        {c:[255,50,190],scale:1.8,ox:300,oy:75,thresh:0.18,pw:1.4,op:0.25},
-        {c:[160,70,255],scale:2.2,ox:50,oy:200,thresh:0.20,pw:1.5,op:0.18},
-      ];
-      const cloudTexs=darkClouds.map(c=>({
-        tex:mkCloudTex(NW,NH,c.c[0],c.c[1],c.c[2],c,riverMask),
-        op:c.op
+      // Main cloud canvases (river mask)
+      const cloudCanvases=cloudLayers.map(layer=>({
+        dk:mkTex(NW,NH,layer.dkR,layer.dkG,layer.dkB,layer,riverMask),
+        lt:mkTex(NW,NH,layer.ltR,layer.ltG,layer.ltB,layer,riverMask),
+        layer
       }));
-      const coreCfg={scale:1.5,ox:50,oy:25,thresh:0.12,pw:1.4};
-      const coreTex=mkCloudTex(NW,NH,255,220,255,coreCfg,coreMask);
-      const coreWCfg={scale:2.0,ox:80,oy:40,thresh:0.22,pw:1.8};
-      const coreWTex=mkCloudTex(NW,NH,255,255,255,coreWCfg,coreMask);
-      const haloCfg={scale:0.6,ox:0,oy:0,thresh:0.0,pw:0.7};
-      const haloTex=mkCloudTex(NW,NH,90,35,170,haloCfg,outerMask);
-      const shadowCfg={scale:0.8,ox:20,oy:10,thresh:0.0,pw:0.6};
-      const shadowTex=mkCloudTex(NW,NH,15,8,50,shadowCfg,shadowMask);
+      // Electric core highlights (bright white/pink in center)
+      const coreLayer={scale:1.5,ox:50,oy:25,thresh:0.15,pw:2.0};
+      const coreDk=mkTex(NW,NH,255,200,255,coreLayer,coreMask); // white-pink hot
+      const coreLt=mkTex(NW,NH,180,120,220,coreLayer,coreMask); // vivid purple
+      // Outer halo (soft blown-out glow)
+      const haloLayer={scale:0.6,ox:0,oy:0,thresh:0.0,pw:0.8};
+      const haloDk=mkTex(NW,NH,100,40,180,haloLayer,outerMask); // soft purple
+      const haloLt=mkTex(NW,NH,140,90,190,haloLayer,outerMask); // lavender
 
-      // === STARS (both modes) ===
+      // Stars
       const starCount=Math.min(350,Math.floor((w*h)/3000));
       const stars=[];
+      // Light mode glitter colors: gold, silver, pink, lavender, rose
       const glitterColors=[[220,180,50],[200,200,220],[220,120,180],[160,130,220],[200,100,140]];
       for(let i=0;i<starCount;i++){
         const isBright=Math.random()<0.12;
@@ -201,176 +214,174 @@ function NebulaBackground(){
           size:isBright?(2+Math.random()*2):(0.8+Math.random()*1.8),
           baseOpacity:isBright?(0.7+Math.random()*0.3):(0.35+Math.random()*0.45),
           speed:0.5+Math.random()*2.0,
-          speed2:0.8+Math.random()*2.5,
+          speed2:0.8+Math.random()*2.5, // second frequency for sparkle
           offset:Math.random()*Math.PI*2,
-          bright:isBright, gc,
+          bright:isBright,
+          gc, // glitter color for light mode
           dr:isBright?255:200+Math.floor(Math.random()*55),
           dg:isBright?240:200+Math.floor(Math.random()*55),
           db:isBright?255:220+Math.floor(Math.random()*35),
         });
       }
-      return {cloudTexs,coreTex,coreWTex,haloTex,shadowTex,stars,NW,NH,w,h};
+      // Lightning bolts: random electrical discharges along the river path
+      const boltCount=18;
+      const bolts=[];
+      for(let i=0;i<boltCount;i++){
+        const pathT=0.1+Math.random()*0.8; // position along river path
+        const py=1.0-pathT; // normY (inverted because pathX uses 1-normY)
+        const px=pathX(pathT)+(Math.random()-0.5)*0.12; // near the river center
+        bolts.push({
+          x:px*w, y:py*h,
+          speed:1.5+Math.random()*3.0, // flash speed
+          offset:Math.random()*Math.PI*2,
+          size:8+Math.random()*20, // lightning flash radius
+          intensity:0.5+Math.random()*0.5,
+          branchAngle:Math.random()*Math.PI*2,
+          branchLen:15+Math.random()*30,
+        });
+      }
+      return {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,bolts,NW,NH};
     };
 
-    // === LIGHTNING: event-based random strikes ===
-    const activeBolts=[];
-    const srand=(s)=>{s=Math.sin(s*127.1+311.7)*43758.5453;return s-Math.floor(s);};
-    const generateBolt=(w,h)=>{
-      const startT=0.08+Math.random()*0.84;
-      const travelDir=Math.random()<0.5?1:-1;
-      const travelDist=0.06+Math.random()*0.15;
-      const endT=Math.min(0.96,Math.max(0.04,startT+travelDir*travelDist));
-      const startNX=pathX(startT)+(Math.random()-0.5)*0.06;
-      const endNX=pathX(endT)+(Math.random()-0.5)*0.10;
-      const startNY=1.0-startT;
-      const endNY=1.0-endT;
-      const seed=Math.random()*10000;
-      const segCount=3+Math.floor(Math.random()*4);
-      const segs=[];
-      for(let s=0;s<=segCount;s++){
-        const f=s/segCount;
-        const jx=s>0&&s<segCount?(srand(seed+s*13.3)-0.5)*0.05:0;
-        const jy=s>0&&s<segCount?(srand(seed+s*23.7)-0.5)*0.03:0;
-        segs.push({x:(startNX+(endNX-startNX)*f+jx)*w, y:(startNY+(endNY-startNY)*f+jy)*h});
-      }
-      const branches=[];
-      for(let s=1;s<segCount;s++){
-        if(srand(seed+s*47.3)<0.55){
-          const bx=segs[s].x,by=segs[s].y;
-          const mainAng=Math.atan2(segs[Math.min(s+1,segCount)].y-segs[s-1].y,segs[Math.min(s+1,segCount)].x-segs[s-1].x);
-          const forkAng=mainAng+(srand(seed+s*29.3)-0.5)*2.2;
-          const brLen=20+srand(seed+s*53.1)*70;
-          const pts=[{x:bx,y:by}];
-          const subSegs=2+Math.floor(srand(seed+s*37.1)*2);
-          for(let ss=1;ss<=subSegs;ss++){
-            const f=ss/subSegs;
-            pts.push({
-              x:bx+Math.cos(forkAng)*brLen*f+(srand(seed+s*71.3+ss*41.7)-0.5)*16,
-              y:by+Math.sin(forkAng)*brLen*f+(srand(seed+s*59.1+ss*31.3)-0.5)*12
-            });
-          }
-          branches.push(pts);
-        }
-      }
-      const flashCount=1+Math.floor(Math.random()*3);
-      return {segs,branches,born:performance.now(),duration:200+flashCount*150+Math.random()*300,flashCount,intensity:0.6+Math.random()*0.4};
-    };
-
-    let lastBoltTime=0;
+    let lastTime=0;
     const animate=(time)=>{
-      try{
       if(!dataRef.current)dataRef.current=init();
+      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;}
+      lastTime=time;
+
       const w=window.innerWidth,h=window.innerHeight;
       const dk=document.documentElement.classList.contains("dark");
       const t=time*0.001;
       ctx.clearRect(0,0,w,h);
-      const d=dataRef.current;
 
-      // === DARK MODE: full canvas nebula ===
-      if(dk){
-        // Halo
-        ctx.save();ctx.globalAlpha=0.5;ctx.globalCompositeOperation="lighter";
-        ctx.drawImage(d.haloTex, Math.sin(t*0.03)*w*0.015, Math.cos(t*0.025)*h*0.01, w, h);
-        ctx.restore();
-        // Cloud layers
-        d.cloudTexs.forEach((c,i)=>{
-          ctx.save();ctx.globalAlpha=c.op;ctx.globalCompositeOperation="lighter";
-          ctx.drawImage(c.tex, Math.sin(t*0.05+i*1.1)*w*0.03, Math.cos(t*0.035+i*1.7)*h*0.02, w, h);
-          ctx.restore();
-        });
-        // Shadows
-        ctx.save();ctx.globalAlpha=0.55;ctx.globalCompositeOperation="source-over";
-        ctx.drawImage(d.shadowTex, Math.sin(t*0.02+2)*w*0.01, Math.cos(t*0.018+1.5)*h*0.008, w, h);
-        ctx.restore();
-        // Core highlights (bright center spine of nebula river)
-        ctx.save();ctx.globalAlpha=0.70;ctx.globalCompositeOperation="lighter";
-        ctx.drawImage(d.coreTex, Math.sin(t*0.04+0.7)*w*0.015, Math.cos(t*0.035+1.2)*h*0.01, w, h);
-        ctx.restore();
-        // White-hot core (brightest center line)
-        ctx.save();ctx.globalAlpha=0.50;ctx.globalCompositeOperation="lighter";
-        ctx.drawImage(d.coreWTex, Math.sin(t*0.035+1.5)*w*0.01, Math.cos(t*0.03+0.8)*h*0.008, w, h);
-        ctx.restore();
-      }
-      // LIGHT MODE: no canvas clouds — Midjourney image handles it via CSS
+      const {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,bolts}=dataRef.current;
+      const comp=dk?"lighter":"source-over";
 
-      // === LIGHTNING (both modes) ===
-      if(w>0&&h>0&&time-lastBoltTime>1500+Math.random()*3500){
-        activeBolts.push(generateBolt(w,h));
-        lastBoltTime=time;
-        if(Math.random()<0.3) activeBolts.push(generateBolt(w,h));
-      }
-      for(let bi=activeBolts.length-1;bi>=0;bi--){
-        const b=activeBolts[bi];
-        const age=time-b.born;
-        if(age>b.duration){activeBolts.splice(bi,1);continue;}
-        const phase=age/b.duration;
-        let alpha=0;
-        const flashDur=1.0/b.flashCount;
-        const flashPhase=(phase%flashDur)/flashDur;
-        if(flashPhase<0.15) alpha=Math.pow(flashPhase/0.15,0.3);
-        else if(flashPhase<0.4) alpha=1.0;
-        else if(flashPhase<0.6) alpha=1.0-Math.pow((flashPhase-0.4)/0.2,0.5);
-        else alpha=0;
-        alpha*=b.intensity*(phase<0.7?1.0:Math.pow(1.0-(phase-0.7)/0.3,1.5));
-        if(alpha<0.02)continue;
+      // === 1. OUTER HALO (blown-out soft glow around the perimeter) ===
+      ctx.save();
+      ctx.globalAlpha=dk?0.5:0.4;
+      ctx.globalCompositeOperation=comp;
+      const hdx=Math.sin(t*0.03)*w*0.02;
+      const hdy=Math.cos(t*0.025)*h*0.015;
+      ctx.drawImage(dk?haloDk:haloLt, hdx, hdy, w, h);
+      ctx.restore();
+
+      // === 2. MAIN NEBULA CLOUD LAYERS ===
+      cloudCanvases.forEach((cc,i)=>{
+        const op=dk?cc.layer.opDk:cc.layer.opLt;
+        const tex=dk?cc.dk:cc.lt;
+        const dx=Math.sin(t*0.06+i*1.2)*w*0.04;
+        const dy=Math.cos(t*0.04+i*1.8)*h*0.03;
+        ctx.save();
+        ctx.globalAlpha=op;
+        ctx.globalCompositeOperation=comp;
+        ctx.drawImage(tex, dx, dy, w, h);
+        ctx.restore();
+      });
+
+      // === 3. ELECTRIC CORE HIGHLIGHTS (bright hot center of the river) ===
+      ctx.save();
+      ctx.globalAlpha=dk?0.6:0.45;
+      ctx.globalCompositeOperation=dk?"lighter":"source-over";
+      const cdx=Math.sin(t*0.05+0.7)*w*0.02;
+      const cdy=Math.cos(t*0.04+1.2)*h*0.015;
+      ctx.drawImage(dk?coreDk:coreLt, cdx, cdy, w, h);
+      ctx.restore();
+
+      // === 4. LIGHTNING STORM (electrical discharges along the river) ===
+      bolts.forEach(b=>{
+        // Sharp flash: only visible during brief peaks (like real lightning)
+        const flash=Math.sin(t*b.speed+b.offset);
+        const flash2=Math.sin(t*b.speed*1.8+b.offset*3.1);
+        const strike=Math.max(0,Math.pow(Math.max(flash,flash2),8)); // very sharp peak
+        if(strike<0.05)return;
+        const alpha=strike*b.intensity;
+        // Nebula cloud puff around the lightning point
+        const puffR=b.size*2;
+        const grad=ctx.createRadialGradient(b.x,b.y,0,b.x,b.y,puffR);
+        if(dk){
+          grad.addColorStop(0,`rgba(200,160,255,${(alpha*0.5).toFixed(3)})`);
+          grad.addColorStop(0.4,`rgba(140,60,220,${(alpha*0.3).toFixed(3)})`);
+          grad.addColorStop(1,`rgba(80,20,160,0)`);
+        }else{
+          grad.addColorStop(0,`rgba(160,100,220,${(alpha*0.4).toFixed(3)})`);
+          grad.addColorStop(0.4,`rgba(130,80,200,${(alpha*0.25).toFixed(3)})`);
+          grad.addColorStop(1,`rgba(100,60,180,0)`);
+        }
         ctx.save();
         ctx.globalCompositeOperation=dk?"lighter":"source-over";
-        ctx.lineCap="round";ctx.lineJoin="round";
-        const sx=b.segs[0].x,sy=b.segs[0].y;
-        if(!isFinite(sx)||!isFinite(sy)){ctx.restore();continue;}
-        const pR=30+alpha*25;
-        const pg=ctx.createRadialGradient(sx,sy,0,sx,sy,pR);
-        pg.addColorStop(0,dk?`rgba(200,160,255,${(alpha*0.35).toFixed(3)})`:`rgba(210,140,240,${(alpha*0.35).toFixed(3)})`);
-        pg.addColorStop(1,"rgba(100,50,180,0)");
-        ctx.fillStyle=pg;ctx.fillRect(sx-pR,sy-pR,pR*2,pR*2);
-        for(let si=0;si<b.segs.length-1;si++){
-          const thicc=Math.max(0.6,(3.5+alpha*2)*(1.0-si*0.7/(b.segs.length-1)));
-          ctx.strokeStyle=dk?`rgba(230,215,255,${(alpha*0.9).toFixed(3)})`:`rgba(210,160,250,${(alpha*0.85).toFixed(3)})`;
-          ctx.lineWidth=thicc;
-          ctx.beginPath();ctx.moveTo(b.segs[si].x,b.segs[si].y);ctx.lineTo(b.segs[si+1].x,b.segs[si+1].y);ctx.stroke();
-          if(thicc>1.2){
-            ctx.strokeStyle=`rgba(255,255,255,${(alpha*0.55).toFixed(3)})`;ctx.lineWidth=thicc*0.3;
-            ctx.beginPath();ctx.moveTo(b.segs[si].x,b.segs[si].y);ctx.lineTo(b.segs[si+1].x,b.segs[si+1].y);ctx.stroke();
-          }
+        ctx.fillStyle=grad;
+        ctx.fillRect(b.x-puffR,b.y-puffR,puffR*2,puffR*2);
+        // Electric core flash (bright white/blue center)
+        const coreR=b.size*0.5;
+        const cg=ctx.createRadialGradient(b.x,b.y,0,b.x,b.y,coreR);
+        cg.addColorStop(0,`rgba(255,255,255,${(alpha*0.9).toFixed(3)})`);
+        cg.addColorStop(0.3,`rgba(200,180,255,${(alpha*0.6).toFixed(3)})`);
+        cg.addColorStop(1,`rgba(150,100,255,0)`);
+        ctx.fillStyle=cg;
+        ctx.fillRect(b.x-coreR,b.y-coreR,coreR*2,coreR*2);
+        // Lightning branch line
+        if(alpha>0.3){
+          ctx.strokeStyle=`rgba(220,200,255,${(alpha*0.7).toFixed(3)})`;
+          ctx.lineWidth=1+alpha;
+          ctx.beginPath();
+          ctx.moveTo(b.x,b.y);
+          const bx2=b.x+Math.cos(b.branchAngle+t*0.3)*b.branchLen*alpha;
+          const by2=b.y+Math.sin(b.branchAngle+t*0.3)*b.branchLen*alpha;
+          // Jagged midpoint for lightning look
+          const mx=b.x+(bx2-b.x)*0.5+(Math.random()-0.5)*8*alpha;
+          const my=b.y+(by2-b.y)*0.5+(Math.random()-0.5)*8*alpha;
+          ctx.lineTo(mx,my);
+          ctx.lineTo(bx2,by2);
+          ctx.stroke();
         }
-        b.branches.forEach(pts=>{
-          ctx.strokeStyle=dk?`rgba(210,195,255,${(alpha*0.65).toFixed(3)})`:`rgba(190,140,240,${(alpha*0.6).toFixed(3)})`;
-          for(let p=0;p<pts.length-1;p++){
-            ctx.lineWidth=Math.max(0.4,(2.0+alpha)*(1.0-p*0.5/(pts.length-1)));
-            ctx.beginPath();ctx.moveTo(pts[p].x,pts[p].y);ctx.lineTo(pts[p+1].x,pts[p+1].y);ctx.stroke();
-          }
-        });
         ctx.restore();
-      }
+      });
 
-      // === STARS (both modes) ===
+      // === DRAW STARS (boosted glitter intensity) ===
       ctx.globalCompositeOperation="source-over";
-      d.stars.forEach(s=>{
+      stars.forEach(s=>{
         const tw1=Math.sin(t*s.speed+s.offset);
         const tw2=Math.sin(t*s.speed2+s.offset*2.3);
         const tw3=Math.sin(t*s.speed*2.3+s.offset*0.7);
-        const tw4=Math.sin(t*s.speed*3.1+s.offset*1.4);
+        const tw4=Math.sin(t*s.speed*3.1+s.offset*1.4); // 4th frequency!
         const glitter=Math.max(tw1,tw2*0.7,tw3*0.5,tw4*0.35);
+        // Boosted: higher base + more aggressive flash
         const opacity=s.baseOpacity*(0.2+0.8*Math.max(0,glitter));
         if(opacity<0.02)return;
         if(dk){
           ctx.fillStyle=`rgba(${s.dr},${s.dg},${s.db},${opacity.toFixed(3)})`;
-          if(s.bright&&opacity>0.4){ctx.globalAlpha=opacity*0.25;ctx.fillRect(s.x-s.size*1.5,s.y-s.size*1.5,s.size*3,s.size*3);ctx.globalAlpha=1;}
+          if(s.bright&&opacity>0.4){
+            ctx.globalAlpha=opacity*0.25;
+            ctx.fillRect(s.x-s.size*1.5,s.y-s.size*1.5,s.size*3,s.size*3);
+            ctx.globalAlpha=1;
+          }
           ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
         }else{
+          // Light mode: bigger, more intense cross sparkles
           const flash=Math.max(0,glitter);
-          if(flash<0.1)return;
-          const gc=s.gc;const sz=s.size*(0.8+flash*1.2);
-          const a=Math.min(1,flash*opacity*1.5).toFixed(3);
+          if(flash<0.1)return; // lower threshold = more visible more often
+          const gc=s.gc;
+          const sz=s.size*(0.8+flash*1.2); // bigger growth
+          const a=Math.min(1,flash*opacity*1.5).toFixed(3); // boosted intensity
+          // Cross sparkle
           ctx.fillStyle=`rgba(${gc[0]},${gc[1]},${gc[2]},${a})`;
           ctx.fillRect(s.x-sz*1.5,s.y-sz*0.15,sz*3,sz*0.3);
           ctx.fillRect(s.x-sz*0.15,s.y-sz*1.5,sz*0.3,sz*3);
-          if(flash>0.5){ctx.save();ctx.translate(s.x,s.y);ctx.rotate(Math.PI/4);ctx.fillRect(-sz,-sz*0.1,sz*2,sz*0.2);ctx.fillRect(-sz*0.1,-sz,sz*0.2,sz*2);ctx.restore();}
+          // Diagonal cross for extra sparkle
+          if(flash>0.5){
+            ctx.save();
+            ctx.translate(s.x,s.y);
+            ctx.rotate(Math.PI/4);
+            ctx.fillRect(-sz*1.0,-sz*0.1,sz*2,sz*0.2);
+            ctx.fillRect(-sz*0.1,-sz*1.0,sz*0.2,sz*2);
+            ctx.restore();
+          }
+          // Bright center
           ctx.fillStyle=`rgba(255,255,255,${Math.min(1,flash*1.2).toFixed(3)})`;
           ctx.fillRect(s.x-sz*0.35,s.y-sz*0.35,sz*0.7,sz*0.7);
         }
       });
-      }catch(e){console.error('NebulaBackground animate error:',e);}
       frameRef.current=requestAnimationFrame(animate);
     };
     frameRef.current=requestAnimationFrame(animate);
@@ -11835,7 +11846,7 @@ function DevGate({onAccess}){
     else{setError(true);setShake(true);setTimeout(()=>setShake(false),500);setCode("");}
   };
   return(
-    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:"transparent",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
+    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:dk?"radial-gradient(ellipse at 50% 40%, rgba(30,30,58,0.7) 0%, rgba(18,18,40,0.85) 100%)":"linear-gradient(180deg, rgba(230,236,250,0.85) 0%, rgba(220,213,255,0.9) 100%)",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
       <div style={{textAlign:"center",padding:"48px 40px",borderRadius:28,background:dk?"rgba(40,38,60,0.85)":"white",boxShadow:dk?"0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)":"0 20px 60px rgba(123,94,232,0.12), 0 4px 16px rgba(0,0,0,0.04)",maxWidth:360,width:"90%",animation:shake?"shake 0.5s ease":"none"}}>
         <div style={{width:72,height:72,borderRadius:20,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 20px",boxShadow:"0 8px 24px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>
           <span style={{fontSize:36}}>🔑</span>
