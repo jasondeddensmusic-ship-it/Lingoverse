@@ -37,6 +37,104 @@ const _memStore = {};
 
 
 /* ═══════════════════════════════════════════════════════════════════════
+   N E B U L A   B A C K G R O U N D   (3-layer celestial atmosphere)
+   Layer 1: CSS gradient base
+   Layer 2: Drifting nebula cloud blobs (CSS animated)
+   Layer 3: Twinkling star canvas
+   ═══════════════════════════════════════════════════════════════════════ */
+
+function NebulaBackground(){
+  const canvasRef=useRef(null);
+  const starsRef=useRef(null);
+  const frameRef=useRef(null);
+
+  useEffect(()=>{
+    const canvas=canvasRef.current;
+    if(!canvas)return;
+    const ctx=canvas.getContext("2d");
+    const dpr=window.devicePixelRatio||1;
+
+    const resize=()=>{
+      canvas.width=window.innerWidth*dpr;
+      canvas.height=window.innerHeight*dpr;
+      canvas.style.width=window.innerWidth+"px";
+      canvas.style.height=window.innerHeight+"px";
+      ctx.scale(dpr,dpr);
+      // Regenerate stars on resize
+      starsRef.current=null;
+    };
+    resize();
+    window.addEventListener("resize",resize);
+
+    const initStars=()=>{
+      const w=window.innerWidth,h=window.innerHeight;
+      const count=Math.min(120,Math.floor((w*h)/8000));
+      return Array.from({length:count},()=>({
+        x:Math.random()*w,
+        y:Math.random()*h,
+        size:0.5+Math.random()*2,
+        baseOpacity:0.15+Math.random()*0.55,
+        twinkleSpeed:0.3+Math.random()*1.8,
+        twinkleOffset:Math.random()*Math.PI*2,
+        // Light mode: gold/lavender tones. Dark mode: white/silver
+        hueLight:Math.random()>0.4?`rgba(184,168,250,`:`rgba(232,150,10,`, // lavender or gold
+        hueDark:`rgba(255,255,255,`
+      }));
+    };
+
+    let lastTime=0;
+    const animate=(time)=>{
+      if(!starsRef.current)starsRef.current=initStars();
+      // Throttle to ~12fps for efficiency
+      if(time-lastTime<83){frameRef.current=requestAnimationFrame(animate);return;}
+      lastTime=time;
+
+      const w=window.innerWidth,h=window.innerHeight;
+      const dk=document.documentElement.classList.contains("dark");
+      ctx.clearRect(0,0,w,h);
+
+      starsRef.current.forEach(star=>{
+        const twinkle=Math.sin(time*0.001*star.twinkleSpeed+star.twinkleOffset);
+        const opacity=star.baseOpacity*(0.5+0.5*twinkle);
+        if(opacity<0.02)return; // skip invisible stars
+        const hue=dk?star.hueDark:star.hueLight;
+        const size=dk?star.size:star.size*1.3; // slightly larger in light mode
+        ctx.beginPath();
+        ctx.arc(star.x,star.y,size,0,Math.PI*2);
+        ctx.fillStyle=hue+opacity.toFixed(3)+")";
+        ctx.fill();
+        // Add subtle glow on bright stars
+        if(opacity>0.4&&size>1){
+          ctx.beginPath();
+          ctx.arc(star.x,star.y,size*3,0,Math.PI*2);
+          ctx.fillStyle=hue+(opacity*0.15).toFixed(3)+")";
+          ctx.fill();
+        }
+      });
+      frameRef.current=requestAnimationFrame(animate);
+    };
+    frameRef.current=requestAnimationFrame(animate);
+
+    return()=>{
+      window.removeEventListener("resize",resize);
+      if(frameRef.current)cancelAnimationFrame(frameRef.current);
+    };
+  },[]);
+
+  return(
+    <div className="nebula-wrap" aria-hidden="true">
+      {/* Layer 2: Drifting nebula cloud blobs */}
+      <div className="nebula-blob nebula-blob-1"/>
+      <div className="nebula-blob nebula-blob-2"/>
+      <div className="nebula-blob nebula-blob-3"/>
+      <div className="nebula-blob nebula-blob-4"/>
+      {/* Layer 3: Twinkling star canvas */}
+      <canvas ref={canvasRef} className="nebula-stars"/>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
    T E X T - T O - S P E E C H   U T I L I T Y
    ═══════════════════════════════════════════════════════════════════════ */
 
@@ -1249,9 +1347,91 @@ const CSS = `
   --glass-blur: blur(22px) saturate(1.3);
 }
 :root.dark body, :root.dark #root {
-  background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #16162B 50%, #121228 100%);
+  background: #0D0B1A;
   background-attachment: fixed;
   color: var(--gray-700);
+}
+
+/* ═══ NEBULA BACKGROUND SYSTEM ═══ */
+.nebula-wrap {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0; pointer-events: none; overflow: hidden;
+}
+/* Layer 1 (base): handled by body background */
+/* Light mode body gets nebula base */
+body, #root { position: relative; z-index: 1; }
+
+/* Layer 2: Drifting nebula cloud blobs */
+.nebula-blob {
+  position: absolute; border-radius: 50%;
+  filter: blur(100px); opacity: 0.08;
+  will-change: transform, opacity;
+}
+.nebula-blob-1 {
+  width: 60vw; height: 60vw; top: -15%; left: -10%;
+  background: radial-gradient(circle, rgba(123,94,232,0.6) 0%, rgba(123,94,232,0) 70%);
+  animation: nebulaDrift1 72s ease-in-out infinite;
+}
+.nebula-blob-2 {
+  width: 50vw; height: 50vw; top: 30%; right: -15%;
+  background: radial-gradient(circle, rgba(255,214,232,0.5) 0%, rgba(255,214,232,0) 70%);
+  animation: nebulaDrift2 58s ease-in-out infinite;
+}
+.nebula-blob-3 {
+  width: 45vw; height: 45vw; bottom: -10%; left: 20%;
+  background: radial-gradient(circle, rgba(74,143,231,0.4) 0%, rgba(74,143,231,0) 70%);
+  animation: nebulaDrift3 85s ease-in-out infinite;
+}
+.nebula-blob-4 {
+  width: 35vw; height: 35vw; top: 50%; left: -5%;
+  background: radial-gradient(circle, rgba(184,168,250,0.35) 0%, rgba(184,168,250,0) 70%);
+  animation: nebulaDrift4 65s ease-in-out infinite;
+}
+
+@keyframes nebulaDrift1 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0.08; }
+  33%  { transform: translate(5vw, 3vh) scale(1.08); opacity: 0.12; }
+  66%  { transform: translate(-3vw, 5vh) scale(0.95); opacity: 0.06; }
+  100% { transform: translate(0, 0) scale(1); opacity: 0.08; }
+}
+@keyframes nebulaDrift2 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0.07; }
+  40%  { transform: translate(-4vw, -3vh) scale(1.1); opacity: 0.11; }
+  70%  { transform: translate(3vw, 4vh) scale(0.92); opacity: 0.05; }
+  100% { transform: translate(0, 0) scale(1); opacity: 0.07; }
+}
+@keyframes nebulaDrift3 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0.06; }
+  50%  { transform: translate(6vw, -4vh) scale(1.12); opacity: 0.1; }
+  100% { transform: translate(0, 0) scale(1); opacity: 0.06; }
+}
+@keyframes nebulaDrift4 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0.07; }
+  35%  { transform: translate(3vw, 6vh) scale(1.05); opacity: 0.1; }
+  65%  { transform: translate(-4vw, -2vh) scale(0.9); opacity: 0.05; }
+  100% { transform: translate(0, 0) scale(1); opacity: 0.07; }
+}
+
+/* Star canvas */
+.nebula-stars {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  pointer-events: none;
+}
+
+/* Dark mode: intensify blobs */
+:root.dark .nebula-blob { opacity: 0.12; }
+:root.dark .nebula-blob-1 {
+  background: radial-gradient(circle, rgba(123,94,232,0.8) 0%, rgba(123,94,232,0) 70%);
+  animation: nebulaDrift1 72s ease-in-out infinite;
+}
+:root.dark .nebula-blob-2 {
+  background: radial-gradient(circle, rgba(200,140,255,0.5) 0%, rgba(200,140,255,0) 70%);
+}
+:root.dark .nebula-blob-3 {
+  background: radial-gradient(circle, rgba(100,80,220,0.5) 0%, rgba(100,80,220,0) 70%);
+}
+:root.dark .nebula-blob-4 {
+  background: radial-gradient(circle, rgba(255,180,220,0.3) 0%, rgba(255,180,220,0) 70%);
 }
 
 /* ━━━━━━ GLASS CARDS — frosted translucent panels with top sheen ━━━━━━ */
@@ -1572,8 +1752,11 @@ const CSS = `
 }
 body, #root {
   font-family: 'Source Sans 3', sans-serif;
-  /* PAPYRUS-BG: linear-gradient(180deg, #EAE3D6 0%, #E2DACB 40%, #EAE3D6 100%) */
-  background: linear-gradient(180deg, #E6ECFA 0%, #DDE6F8 40%, #E6ECFA 100%);
+  /* Nebula light mode: soft pink-lavender celestial mist */
+  background: radial-gradient(ellipse at 30% 20%, rgba(255,214,232,0.12) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 60%, rgba(232,224,255,0.18) 0%, transparent 50%),
+              radial-gradient(ellipse at 50% 80%, rgba(255,214,232,0.08) 0%, transparent 40%),
+              linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 30%, #F0EBFF 60%, #EDE8FF 100%);
   background-attachment: fixed;
   color: var(--gray-700);
   min-height: 100vh;
@@ -11796,7 +11979,7 @@ export default function App(){
           </div>
           <div className="topnav-logo-wrap" onClick={()=>setPage("home")}>
             <span style={{marginRight:6,display:"inline-flex"}}><CountryFlag code={lang} size={22}/></span>
-            <span className="topnav-logo" style={{fontSize:20}}>LingoVerse</span>
+            <span className="topnav-logo" style={{fontSize:20}}>VerumLingua</span>
           </div>
           <div className={`topnav-item ${showVerumius&&vrFullscreen?"active":""}`} onClick={()=>{if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}else{setVrSource("nav");setVrPos(null);setVrFullscreen(true);setShowVerumius(true);}}} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="robot" size={28}/></span><span>{t("nav_chat",baseLang)}</span>
@@ -11809,6 +11992,7 @@ export default function App(){
   return(
     <>
       <style>{CSS}</style>
+      <NebulaBackground/>
       {/* Verumius chat panel */}
       {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)",animation:vrExiting?"vr-inflate 0.46s cubic-bezier(0,0,0.3,1) forwards":""}}>
         <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
