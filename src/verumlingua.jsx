@@ -67,126 +67,142 @@ function NebulaBackground(){
 
     const init=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      // === STARS ===
-      const starCount=Math.min(500,Math.floor((w*h)/2000));
+      // === STARS (subtle, small, gentle twinkle) ===
+      const starCount=Math.min(300,Math.floor((w*h)/3500));
       const stars=Array.from({length:starCount},()=>{
-        const bright=Math.random()>0.92; // ~8% are bright glitter stars
+        const bright=Math.random()>0.96; // ~4% shimmer slightly brighter
         return {
           x:Math.random()*w, y:Math.random()*h,
-          size:bright?(2+Math.random()*3):(0.8+Math.random()*2),
-          baseOpacity:bright?1:(0.4+Math.random()*0.6),
-          speed:bright?(4+Math.random()*8):(1.5+Math.random()*4),
+          size:bright?(1.2+Math.random()*1.3):(0.5+Math.random()*1.2),
+          baseOpacity:bright?0.8:(0.25+Math.random()*0.45),
+          speed:0.8+Math.random()*2.5, // slow gentle twinkle
           offset:Math.random()*Math.PI*2,
           bright,
-          // Light: dark purple/mauve
-          lr:bright?160:100+Math.floor(Math.random()*80),
-          lg:bright?100:60+Math.floor(Math.random()*60),
-          lb:bright?220:140+Math.floor(Math.random()*80),
-          // Dark: white/pink/lavender
-          dr:bright?255:200+Math.floor(Math.random()*55),
-          dg:bright?255:180+Math.floor(Math.random()*75),
-          db:bright?255:220+Math.floor(Math.random()*35),
+          // Light: soft purple/mauve (subtle, not grainy)
+          lr:140+Math.floor(Math.random()*60),
+          lg:100+Math.floor(Math.random()*50),
+          lb:180+Math.floor(Math.random()*60),
+          // Dark: white/silver with hint of color
+          dr:220+Math.floor(Math.random()*35),
+          dg:215+Math.floor(Math.random()*40),
+          db:230+Math.floor(Math.random()*25),
         };
       });
-      // === NEBULA CLOUDS — large organic blobs with depth ===
-      const clouds=[];
-      // Multiple layers at different depths for parallax feel
-      const layers=[
-        {count:5,sizeMin:0.3,sizeMax:0.8,speedMul:0.15,opacityMul:0.4,blur:true},  // far back, huge, slow
-        {count:6,sizeMin:0.2,sizeMax:0.5,speedMul:0.25,opacityMul:0.55,blur:true},  // mid layer
-        {count:4,sizeMin:0.15,sizeMax:0.35,speedMul:0.4,opacityMul:0.3,blur:false}, // closer wisps
+      // === NEBULA WISPS — elongated flowing tendrils, NOT round orbs ===
+      const wisps=[];
+      // Dark: vivid purple/magenta/blue/pink flowing ribbons like real nebula photos
+      const dkPalette=[
+        [140,60,220],[180,50,200],[100,40,180],[220,80,255],[160,30,190],  // purple/violet
+        [230,60,180],[255,80,200],[200,40,160],                            // magenta/pink
+        [60,40,160],[80,60,200],[50,30,140],                               // deep blue
+        [255,100,220],[240,120,255],                                       // hot pink
       ];
-      // Light mode cloud colors: soft lavender/pink/grey
-      const lightColors=[[180,160,220],[200,170,230],[160,140,200],[190,160,210],[170,150,200],[210,180,240]];
-      // Dark mode cloud colors: vivid purple/magenta/blue
-      const darkColors=[[123,94,232],[160,100,240],[100,60,200],[200,100,255],[80,50,180],[180,80,220],[140,60,200],[100,80,220]];
-      layers.forEach((layer,li)=>{
-        for(let i=0;i<layer.count;i++){
-          const lc=lightColors[Math.floor(Math.random()*lightColors.length)];
-          const dc=darkColors[Math.floor(Math.random()*darkColors.length)];
-          clouds.push({
-            x:Math.random()*w*1.4-w*0.2,
-            y:Math.random()*h,
-            radiusX:(layer.sizeMin+Math.random()*(layer.sizeMax-layer.sizeMin))*w,
-            radiusY:(layer.sizeMin+Math.random()*(layer.sizeMax-layer.sizeMin))*h*0.6,
-            rotation:Math.random()*Math.PI*2,
-            driftSpeed:layer.speedMul*(0.5+Math.random()),
-            driftOffset:Math.random()*Math.PI*2,
-            pulseSpeed:0.3+Math.random()*0.5,
-            pulseOffset:Math.random()*Math.PI*2,
-            opacityMul:layer.opacityMul,
-            layer:li,
-            lr:lc[0],lg:lc[1],lb:lc[2],
-            dr:dc[0],dg:dc[1],db:dc[2],
-          });
-        }
-      });
-      return {stars,clouds};
+      // Light: muted lavender/pink/grey wisps
+      const ltPalette=[
+        [180,155,220],[195,165,230],[165,140,210],[175,150,215],           // lavender
+        [210,170,225],[200,160,220],[190,155,215],                         // pink-lavender
+        [160,145,195],[170,150,200],                                       // grey-purple
+      ];
+      // Layer 0: huge background washes (2-3, very wide and tall, very slow)
+      for(let i=0;i<3;i++){
+        const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
+        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
+        wisps.push({
+          x:Math.random()*w, y:h*0.1+Math.random()*h*0.8,
+          rx:w*(0.5+Math.random()*0.6), ry:h*(0.15+Math.random()*0.15), // very wide, not very tall = horizontal band
+          rot:(-0.3+Math.random()*0.6), // slight tilt
+          driftSpd:0.08+Math.random()*0.06, driftOff:Math.random()*Math.PI*2,
+          pulseSpd:0.15+Math.random()*0.15, pulseOff:Math.random()*Math.PI*2,
+          opDk:0.25+Math.random()*0.15, opLt:0.12+Math.random()*0.08,
+          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
+        });
+      }
+      // Layer 1: medium flowing wisps (6-8, elongated tendrils)
+      for(let i=0;i<7;i++){
+        const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
+        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
+        const stretch=2+Math.random()*4; // aspect ratio 2:1 to 6:1 = wispy, not round
+        const baseR=w*(0.1+Math.random()*0.2);
+        wisps.push({
+          x:-w*0.1+Math.random()*w*1.2, y:Math.random()*h,
+          rx:baseR*stretch, ry:baseR,
+          rot:(-0.8+Math.random()*1.6),
+          driftSpd:0.12+Math.random()*0.12, driftOff:Math.random()*Math.PI*2,
+          pulseSpd:0.2+Math.random()*0.25, pulseOff:Math.random()*Math.PI*2,
+          opDk:0.2+Math.random()*0.2, opLt:0.08+Math.random()*0.08,
+          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
+        });
+      }
+      // Layer 2: thin bright accent wisps (5, very elongated, brighter)
+      for(let i=0;i<5;i++){
+        const dc=dkPalette[Math.floor(Math.random()*5)]; // biased toward purple/violet
+        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
+        const stretch=4+Math.random()*6; // very elongated 4:1 to 10:1
+        const baseR=w*(0.04+Math.random()*0.08);
+        wisps.push({
+          x:-w*0.05+Math.random()*w*1.1, y:Math.random()*h,
+          rx:baseR*stretch, ry:baseR,
+          rot:(-1+Math.random()*2),
+          driftSpd:0.18+Math.random()*0.15, driftOff:Math.random()*Math.PI*2,
+          pulseSpd:0.25+Math.random()*0.3, pulseOff:Math.random()*Math.PI*2,
+          opDk:0.15+Math.random()*0.15, opLt:0.05+Math.random()*0.06,
+          dr:dc[0],dg:dc[1],db:dc[2], lr:lc[0],lg:lc[1],lb:lc[2],
+        });
+      }
+      return {stars,wisps};
     };
 
     let lastTime=0;
     const animate=(time)=>{
       if(!dataRef.current)dataRef.current=init();
-      if(time-lastTime<40){frameRef.current=requestAnimationFrame(animate);return;} // ~25fps
+      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;} // ~20fps
       lastTime=time;
 
       const w=window.innerWidth,h=window.innerHeight;
       const dk=document.documentElement.classList.contains("dark");
-      const t=time*0.001; // seconds
+      const t=time*0.001;
       ctx.clearRect(0,0,w,h);
 
-      // === DRAW NEBULA CLOUDS ===
-      const {clouds,stars}=dataRef.current;
-      ctx.globalCompositeOperation="screen";
-      clouds.forEach(c=>{
-        const drift=Math.sin(t*c.driftSpeed+c.driftOffset)*w*0.08;
-        const pulse=0.7+0.3*Math.sin(t*c.pulseSpeed+c.pulseOffset);
-        const cx=c.x+drift;
-        const cy=c.y+Math.cos(t*c.driftSpeed*0.7+c.driftOffset)*h*0.03;
+      // === DRAW NEBULA WISPS ===
+      const {wisps,stars}=dataRef.current;
+      ctx.globalCompositeOperation=dk?"screen":"source-over";
+      wisps.forEach(c=>{
+        const drift=Math.sin(t*c.driftSpd+c.driftOff)*w*0.06;
+        const vdrift=Math.cos(t*c.driftSpd*0.6+c.driftOff)*h*0.02;
+        const pulse=0.75+0.25*Math.sin(t*c.pulseSpd+c.pulseOff);
+        const cx=c.x+drift, cy=c.y+vdrift;
         const r=dk?c.dr:c.lr, g=dk?c.dg:c.lg, b=dk?c.db:c.lb;
-        const baseOp=dk?(c.opacityMul*0.6):(c.opacityMul*0.35);
-        const opacity=baseOp*pulse;
-        // Radial gradient for soft organic cloud shape
-        const grad=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.max(c.radiusX,c.radiusY));
-        grad.addColorStop(0,`rgba(${r},${g},${b},${(opacity*1.2).toFixed(3)})`);
-        grad.addColorStop(0.3,`rgba(${r},${g},${b},${(opacity*0.8).toFixed(3)})`);
-        grad.addColorStop(0.6,`rgba(${r},${g},${b},${(opacity*0.3).toFixed(3)})`);
+        const opacity=(dk?c.opDk:c.opLt)*pulse;
+        // Elongated radial gradient — stretched ellipse = wispy tendril
+        const maxR=Math.max(c.rx,c.ry);
+        const grad=ctx.createRadialGradient(cx,cy,0,cx,cy,maxR);
+        grad.addColorStop(0,`rgba(${r},${g},${b},${(opacity).toFixed(3)})`);
+        grad.addColorStop(0.2,`rgba(${r},${g},${b},${(opacity*0.7).toFixed(3)})`);
+        grad.addColorStop(0.5,`rgba(${r},${g},${b},${(opacity*0.3).toFixed(3)})`);
+        grad.addColorStop(0.8,`rgba(${r},${g},${b},${(opacity*0.08).toFixed(3)})`);
         grad.addColorStop(1,`rgba(${r},${g},${b},0)`);
         ctx.save();
         ctx.translate(cx,cy);
-        ctx.rotate(c.rotation+t*0.02*c.driftSpeed);
-        ctx.scale(c.radiusX/Math.max(c.radiusX,c.radiusY),c.radiusY/Math.max(c.radiusX,c.radiusY));
+        ctx.rotate(c.rot+t*0.01*c.driftSpd);
+        ctx.scale(c.rx/maxR,c.ry/maxR); // elongate into wisp shape
         ctx.translate(-cx,-cy);
         ctx.fillStyle=grad;
         ctx.beginPath();
-        ctx.arc(cx,cy,Math.max(c.radiusX,c.radiusY),0,Math.PI*2);
+        ctx.arc(cx,cy,maxR,0,Math.PI*2);
         ctx.fill();
         ctx.restore();
       });
 
-      // === DRAW STARS ===
+      // === DRAW STARS (subtle, gentle) ===
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
         const twinkle=Math.sin(t*s.speed+s.offset);
-        let opacity;
-        if(s.bright){
-          // Glitter stars: sharp flash peaks, mostly dim
-          const flash=Math.pow(Math.max(0,twinkle),3);
-          opacity=0.1+0.9*flash;
-        }else{
-          opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
-        }
-        if(opacity<0.02)return;
+        const opacity=s.baseOpacity*(0.4+0.6*Math.max(0,twinkle));
+        if(opacity<0.03)return;
         const r=dk?s.dr:s.lr, g=dk?s.dg:s.lg, b=dk?s.db:s.lb;
         ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
-        const sz=s.size*(s.bright?(0.5+0.5*opacity):1);
+        const sz=s.size;
         ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz);
-        // Glitter stars get a tiny cross/sparkle
-        if(s.bright&&opacity>0.5){
-          const arm=sz*2;
-          ctx.fillRect(s.x-arm*0.5,s.y-0.5,arm,1); // horizontal
-          ctx.fillRect(s.x-0.5,s.y-arm*0.5,1,arm); // vertical
-        }
       });
       frameRef.current=requestAnimationFrame(animate);
     };
