@@ -109,13 +109,14 @@ function NebulaBackground(){
       // Wider and brighter near bottom (close), narrow and faint at top (far)
       const riverMask=new Float32Array(NW*NH);
       const pixScale=0.007;
-      // Smooth S-curve path via hermite spline through control points
+      // Golden-ratio S-curve path through control points
+      // Phi-inspired segment lengths: 38.2% / 23.6% / 38.2%
       const pathX=(t)=>{
-        // Control points: (0,0.12) top-left → (0.28,0.82) right → (0.6,0.18) left → (1.0,0.48) bottom-center
+        // bottom-left(0.10) → right(0.85) → left(0.15) → top-right corner(0.95)
         const h=(a,b,s)=>a+(b-a)*s*s*(3-2*s); // smoothstep
-        if(t<0.28){return h(0.12,0.82,t/0.28);}
-        else if(t<0.6){return h(0.82,0.18,(t-0.28)/0.32);}
-        else{return h(0.18,0.48,(t-0.6)/0.4);}
+        if(t<0.382){return h(0.10,0.85,t/0.382);}
+        else if(t<0.618){return h(0.85,0.15,(t-0.382)/0.236);}
+        else{return h(0.15,0.95,(t-0.618)/0.382);}
       };
       // Build THREE masks: core (electric highlights), main (river), outer (blown-out halo)
       const coreMask=new Float32Array(NW*NH);
@@ -128,14 +129,14 @@ function NebulaBackground(){
           const wobble=0.04*fbm(nx*0.8,ny*1.2,3,2.0,0.5);
           const riverCenter=pathX(1.0-normY)+wobble;
           const dist=Math.abs(normX-riverCenter);
-          // === MAIN RIVER (same as before) ===
-          const riverWidth=0.03+depth*depth*0.4;
-          const depthBright=0.25+depth*0.75;
+          // === MAIN RIVER (thick, nearly as wide at far end) ===
+          const riverWidth=0.15+depth*0.35; // 15% at top → 50% at bottom (much thicker!)
+          const depthBright=0.4+depth*0.6; // 40% at far → 100% at close (less aggressive fade)
           const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.2));
           // Branch
           const branchCenter=pathX(1.0-Math.min(1,normY+0.15))+0.12*(normY>0.5?1:-1)+0.03*fbm(nx*0.9+5,ny*1.0+3,3,2.0,0.5);
           const dist2=Math.abs(normX-branchCenter);
-          const branchWidth=0.02+depth*0.06;
+          const branchWidth=0.05+depth*0.12;
           const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.25;
           const combined=Math.min(1,(inRiver+inBranch)*depthBright);
           riverMask[py*NW+px]=combined*combined*(3-2*combined);
