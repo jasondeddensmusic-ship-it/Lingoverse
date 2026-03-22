@@ -65,32 +65,40 @@ function NebulaBackground(){
     resize();
     window.addEventListener("resize",resize);
 
-    // Many more stars, much smaller, faster twinkle, pink/purple/white mix
+    // Stars: visible dots that twinkle, different palettes for light/dark
     const initStars=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      const count=Math.min(350,Math.floor((w*h)/3000));
-      const hues=[
-        [200,170,255], // lavender
-        [255,180,220], // pink
-        [180,140,255], // purple
+      const count=Math.min(400,Math.floor((w*h)/2500));
+      // Light mode: darker tones so they show on white/lavender bg
+      const lightHues=[
+        [120,90,180],  // dark purple
+        [180,100,160], // mauve
+        [100,80,160],  // deep violet
+        [160,120,200], // medium purple
+        [140,100,180], // plum
+        [200,150,220], // light purple (bigger stars only)
+      ];
+      // Dark mode: bright white/silver/pink
+      const darkHues=[
         [255,255,255], // white
-        [220,200,255], // soft purple
-        [255,200,240], // light pink
+        [230,220,255], // ice lavender
+        [255,200,230], // pink
+        [200,180,255], // light purple
+        [255,230,245], // pale pink
+        [220,210,255], // soft purple
       ];
       return Array.from({length:count},()=>{
-        const h=hues[Math.floor(Math.random()*hues.length)];
+        const lh=lightHues[Math.floor(Math.random()*lightHues.length)];
+        const dh=darkHues[Math.floor(Math.random()*darkHues.length)];
         return {
           x:Math.random()*w,
           y:Math.random()*h,
-          size:0.3+Math.random()*1.2, // tiny! 0.3-1.5px
-          baseOpacity:0.2+Math.random()*0.7,
-          twinkleSpeed:1.5+Math.random()*4, // much faster twinkle
+          size:1+Math.random()*2.5, // 1-3.5px visible dots
+          baseOpacity:0.5+Math.random()*0.5,
+          twinkleSpeed:1.5+Math.random()*4,
           twinkleOffset:Math.random()*Math.PI*2,
-          r:h[0],g:h[1],b:h[2],
-          // Dark mode: brighter white/silver with some colored
-          dkR:Math.random()>0.3?255:h[0],
-          dkG:Math.random()>0.3?255:h[1],
-          dkB:Math.random()>0.3?255:h[2],
+          r:lh[0],g:lh[1],b:lh[2],
+          dkR:dh[0],dkG:dh[1],dkB:dh[2],
         };
       });
     };
@@ -110,7 +118,7 @@ function NebulaBackground(){
         const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
         if(opacity<0.03)return;
         const r=dk?s.dkR:s.r, g=dk?s.dkG:s.g, b=dk?s.dkB:s.b;
-        const sz=dk?s.size:s.size*0.9;
+        const sz=s.size;
         // Sharp dot, no glow halo
         ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
         ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz); // square pixel = sharper than circle
@@ -1404,76 +1412,76 @@ const CSS = `
 /* Smoke wisps — elongated streaks that drift, like nebula tendrils */
 .nebula-smoke {
   position: absolute;
-  filter: blur(40px);
+  filter: blur(50px);
   will-change: transform, opacity;
   border-radius: 40% 60% 50% 50%;
 }
-/* Light mode: grey/silver smoke with hints of pink and purple */
+/* Light mode: soft grey/pink/purple smoke */
 .nebula-smoke-1 {
-  width: 70vw; height: 8vh; top: 12%; left: -20%; opacity: 0.06;
-  background: linear-gradient(90deg, transparent 0%, rgba(160,150,180,0.4) 30%, rgba(200,170,220,0.3) 60%, transparent 100%);
+  width: 80vw; height: 18vh; top: 8%; left: -15%; opacity: 0.25;
+  background: linear-gradient(90deg, transparent 0%, rgba(180,160,210,0.7) 30%, rgba(210,180,230,0.5) 60%, transparent 100%);
   animation: smokeDrift1 45s ease-in-out infinite;
 }
 .nebula-smoke-2 {
-  width: 80vw; height: 6vh; top: 35%; right: -25%; opacity: 0.05;
-  background: linear-gradient(90deg, transparent 0%, rgba(220,180,240,0.35) 40%, rgba(180,160,200,0.25) 70%, transparent 100%);
+  width: 90vw; height: 14vh; top: 30%; right: -20%; opacity: 0.2;
+  background: linear-gradient(90deg, transparent 0%, rgba(200,170,230,0.6) 40%, rgba(170,150,200,0.4) 70%, transparent 100%);
   animation: smokeDrift2 55s ease-in-out infinite;
   transform: rotate(-8deg);
 }
 .nebula-smoke-3 {
-  width: 60vw; height: 10vh; top: 58%; left: -15%; opacity: 0.04;
-  background: linear-gradient(90deg, transparent 0%, rgba(140,130,170,0.3) 35%, rgba(180,140,200,0.25) 65%, transparent 100%);
+  width: 70vw; height: 20vh; top: 52%; left: -10%; opacity: 0.18;
+  background: linear-gradient(90deg, transparent 0%, rgba(160,140,200,0.6) 35%, rgba(190,160,220,0.4) 65%, transparent 100%);
   animation: smokeDrift3 65s ease-in-out infinite;
   transform: rotate(5deg);
 }
 .nebula-smoke-4 {
-  width: 50vw; height: 7vh; top: 78%; right: -10%; opacity: 0.05;
-  background: linear-gradient(90deg, transparent 0%, rgba(200,160,230,0.3) 30%, rgba(160,150,180,0.2) 70%, transparent 100%);
+  width: 65vw; height: 15vh; top: 72%; right: -5%; opacity: 0.2;
+  background: linear-gradient(90deg, transparent 0%, rgba(200,160,230,0.5) 30%, rgba(170,150,200,0.35) 70%, transparent 100%);
   animation: smokeDrift4 50s ease-in-out infinite;
   transform: rotate(-3deg);
 }
 .nebula-smoke-5 {
-  width: 55vw; height: 5vh; top: 22%; left: 30%; opacity: 0.035;
-  background: linear-gradient(90deg, transparent 0%, rgba(150,140,175,0.25) 45%, rgba(190,160,210,0.2) 75%, transparent 100%);
+  width: 60vw; height: 12vh; top: 18%; left: 25%; opacity: 0.15;
+  background: linear-gradient(90deg, transparent 0%, rgba(170,150,210,0.5) 45%, rgba(200,170,230,0.35) 75%, transparent 100%);
   animation: smokeDrift5 70s ease-in-out infinite;
   transform: rotate(12deg);
 }
 .nebula-smoke-6 {
-  width: 45vw; height: 6vh; top: 48%; left: -10%; opacity: 0.04;
-  background: linear-gradient(90deg, transparent 0%, rgba(170,150,200,0.3) 50%, transparent 100%);
+  width: 55vw; height: 16vh; top: 44%; left: -5%; opacity: 0.18;
+  background: linear-gradient(90deg, transparent 0%, rgba(180,150,220,0.6) 50%, transparent 100%);
   animation: smokeDrift6 40s ease-in-out infinite;
   transform: rotate(-6deg);
 }
 
 @keyframes smokeDrift1 {
-  0%   { transform: translateX(0) rotate(2deg); opacity: 0.06; }
-  50%  { transform: translateX(12vw) rotate(-1deg); opacity: 0.09; }
-  100% { transform: translateX(0) rotate(2deg); opacity: 0.06; }
+  0%   { transform: translateX(0) rotate(2deg); opacity: 0.25; }
+  50%  { transform: translateX(12vw) rotate(-1deg); opacity: 0.4; }
+  100% { transform: translateX(0) rotate(2deg); opacity: 0.25; }
 }
 @keyframes smokeDrift2 {
-  0%   { transform: translateX(0) rotate(-8deg); opacity: 0.05; }
-  50%  { transform: translateX(-10vw) rotate(-5deg); opacity: 0.08; }
-  100% { transform: translateX(0) rotate(-8deg); opacity: 0.05; }
+  0%   { transform: translateX(0) rotate(-8deg); opacity: 0.2; }
+  50%  { transform: translateX(-10vw) rotate(-5deg); opacity: 0.35; }
+  100% { transform: translateX(0) rotate(-8deg); opacity: 0.2; }
 }
 @keyframes smokeDrift3 {
-  0%   { transform: translateX(0) rotate(5deg); opacity: 0.04; }
-  40%  { transform: translateX(8vw) rotate(8deg); opacity: 0.07; }
-  100% { transform: translateX(0) rotate(5deg); opacity: 0.04; }
+  0%   { transform: translateX(0) rotate(5deg); opacity: 0.18; }
+  40%  { transform: translateX(8vw) rotate(8deg); opacity: 0.32; }
+  100% { transform: translateX(0) rotate(5deg); opacity: 0.18; }
 }
 @keyframes smokeDrift4 {
-  0%   { transform: translateX(0) rotate(-3deg); opacity: 0.05; }
-  60%  { transform: translateX(-8vw) rotate(-6deg); opacity: 0.075; }
-  100% { transform: translateX(0) rotate(-3deg); opacity: 0.05; }
+  0%   { transform: translateX(0) rotate(-3deg); opacity: 0.2; }
+  60%  { transform: translateX(-8vw) rotate(-6deg); opacity: 0.33; }
+  100% { transform: translateX(0) rotate(-3deg); opacity: 0.2; }
 }
 @keyframes smokeDrift5 {
-  0%   { transform: translateX(0) rotate(12deg); opacity: 0.035; }
-  50%  { transform: translateX(-6vw) rotate(15deg); opacity: 0.06; }
-  100% { transform: translateX(0) rotate(12deg); opacity: 0.035; }
+  0%   { transform: translateX(0) rotate(12deg); opacity: 0.15; }
+  50%  { transform: translateX(-6vw) rotate(15deg); opacity: 0.28; }
+  100% { transform: translateX(0) rotate(12deg); opacity: 0.15; }
 }
 @keyframes smokeDrift6 {
-  0%   { transform: translateX(0) rotate(-6deg); opacity: 0.04; }
-  50%  { transform: translateX(10vw) rotate(-2deg); opacity: 0.065; }
-  100% { transform: translateX(0) rotate(-6deg); opacity: 0.04; }
+  0%   { transform: translateX(0) rotate(-6deg); opacity: 0.18; }
+  50%  { transform: translateX(10vw) rotate(-2deg); opacity: 0.3; }
+  100% { transform: translateX(0) rotate(-6deg); opacity: 0.18; }
 }
 
 .nebula-stars {
@@ -1481,30 +1489,30 @@ const CSS = `
   pointer-events: none;
 }
 
-/* Dark mode: vivid purple/pink smoke, higher opacity */
+/* Dark mode: vivid purple/pink smoke, high opacity */
 :root.dark .nebula-smoke-1 {
-  background: linear-gradient(90deg, transparent 0%, rgba(123,94,232,0.6) 30%, rgba(200,140,255,0.4) 60%, transparent 100%);
-  opacity: 0.15;
+  background: linear-gradient(90deg, transparent 0%, rgba(123,94,232,0.8) 30%, rgba(200,140,255,0.6) 60%, transparent 100%);
+  opacity: 0.35;
 }
 :root.dark .nebula-smoke-2 {
-  background: linear-gradient(90deg, transparent 0%, rgba(255,140,200,0.4) 40%, rgba(123,94,232,0.5) 70%, transparent 100%);
-  opacity: 0.12;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,140,200,0.6) 40%, rgba(123,94,232,0.7) 70%, transparent 100%);
+  opacity: 0.3;
 }
 :root.dark .nebula-smoke-3 {
-  background: linear-gradient(90deg, transparent 0%, rgba(100,80,220,0.5) 35%, rgba(180,120,255,0.35) 65%, transparent 100%);
-  opacity: 0.1;
+  background: linear-gradient(90deg, transparent 0%, rgba(100,80,220,0.7) 35%, rgba(180,120,255,0.5) 65%, transparent 100%);
+  opacity: 0.25;
 }
 :root.dark .nebula-smoke-4 {
-  background: linear-gradient(90deg, transparent 0%, rgba(200,120,255,0.4) 30%, rgba(100,80,200,0.3) 70%, transparent 100%);
-  opacity: 0.12;
+  background: linear-gradient(90deg, transparent 0%, rgba(200,120,255,0.6) 30%, rgba(100,80,200,0.45) 70%, transparent 100%);
+  opacity: 0.28;
 }
 :root.dark .nebula-smoke-5 {
-  background: linear-gradient(90deg, transparent 0%, rgba(140,100,240,0.35) 45%, rgba(220,160,255,0.25) 75%, transparent 100%);
-  opacity: 0.08;
+  background: linear-gradient(90deg, transparent 0%, rgba(140,100,240,0.5) 45%, rgba(220,160,255,0.4) 75%, transparent 100%);
+  opacity: 0.2;
 }
 :root.dark .nebula-smoke-6 {
-  background: linear-gradient(90deg, transparent 0%, rgba(180,100,240,0.4) 50%, transparent 100%);
-  opacity: 0.1;
+  background: linear-gradient(90deg, transparent 0%, rgba(180,100,240,0.6) 50%, transparent 100%);
+  opacity: 0.25;
 }
 
 /* ━━━━━━ GLASS CARDS — frosted translucent panels with top sheen ━━━━━━ */
