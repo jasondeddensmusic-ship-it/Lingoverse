@@ -151,58 +151,46 @@ Minimum 8 expressions for in-lesson use:
 
 **Decision (Q16):** Galaxy/nebula backgrounds for both modes. Light mode gets soft pink nebula texture, NOT flat white.
 
-### Dark Mode
-- Deep purple-blue galaxy base (#0D0B1A to #1E1E2E gradient)
-- Animated nebula clouds (see implementation below)
-- Twinkling star field: white/silver stars, opacity 0.3-0.9
-- Purple-blue nebula wisps (#7B5EE8 at 15% opacity)
-- Our frosted glass panels and candy bubbles POP against this
+### Dark Mode (IMPLEMENTED 2026-03-22)
+- Deep space gradient base: `radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%)`
+- Canvas-rendered nebula with S-curve river path (bottom-left to top-right)
+- Domain-warped simplex noise for organic flowing cloud shapes (5 layers, each different scale/offset)
+- Bright core spine along center of river (0.70 alpha core highlight + 0.50 white-hot core)
+- Soft purple halo glow extending beyond cloud edges
+- Shadow ring for depth at cloud boundaries
+- 4-frequency sparkle star field (350 stars, independent sin() wave timing)
+- Event-based lightning strikes (spawn every 1.5-5s at random positions along river, flash 1-3 times, thick-to-thin with branches)
+- All textures pre-rendered at 1/3 resolution to offscreen canvases, drawn with slow drift animation
+- Compositing: `globalCompositeOperation: "lighter"` for additive cloud stacking
 
-### Light Mode
-- Soft pink/lavender nebula mist texture
-- NOT flat white — celestial warmth, faint texture visible
-- Think: looking at a nebula through sunlight
-- Base: warm white with pink (#FFD6E8 at 8-12% opacity) and lavender (#E8E0FF at 15%) nebula wisps
-- Twinkling star field: gold/lavender glitter dust, opacity 0.15-0.5, slightly larger (1-3px). Like tiny warm flickers catching sunlight.
-- Candy bubbles and frosted glass look GORGEOUS against this
+### Light Mode (IMPLEMENTED 2026-03-22)
+- **Midjourney-generated** cotton-candy pink clouds on cornflower blue sky (`public/bg-light.png`)
+- CSS `background-image: url('/bg-light.png') center center / cover no-repeat fixed`
+- Fallback background color: `#7CBBEC` (cornflower blue)
+- No canvas cloud rendering needed. The Midjourney image IS the clouds.
+- Canvas overlay for sparkle stars only: cross-shaped metallic glitter (gold/pink/lavender)
+- Event-based purple lightning overlay (same system as dark mode)
 
-### Nebula Implementation (3 Layers, Pure CSS + Canvas)
+### Glass Card System (IMPLEMENTED 2026-03-22)
+- Light mode: `rgba(255,255,255,0.82)` with `backdrop-filter: blur(18px) saturate(1.2)` so nebula shows through
+- Dark mode: `rgba(28,28,52,0.78)` with `backdrop-filter: blur(24px) saturate(1.3)`
+- Cards float on the nebula with frosted glass effect in both modes
 
-**Layer 1 — Static base gradient (CSS):**
-- Dark: radial gradients in deep navy (#0D0B1A) to dark purple (#1A1235)
-- Light: warm white (#F8F5FF) to soft lavender with pink mist
-
-**Layer 2 — Drifting nebula cloud blobs (CSS animated):**
-- 3-4 large divs with `border-radius: 50%`, `filter: blur(80-120px)`
-- Each blob a different purple/pink/blue at low opacity
-- Each on its own `@keyframes` animation (45-90 second loops):
-  - Slow translate drift (5-10% of screen)
-  - Slow opacity pulse (0.08 to 0.15)
-  - Slow scale pulse (1.0 to 1.1)
-- Different durations per blob so they NEVER sync up
-- Speed: lava lamp pace. You don't notice it moving unless you stare, but when you look back the colors have shifted.
-
-**Layer 3 — Twinkling star canvas (HTML Canvas):**
-- 80-120 star particles, random positions
-- Each star: x, y, size (0.5-2px dark / 1-3px light), baseOpacity, twinkleSpeed
-- Animation at ~10fps (just opacity changes, near-zero CPU)
-- Each star twinkles on its own sin() wave timing — organic, never synchronized
-- Dark mode: white/silver points
-- Light mode: gold (#E8960A at low opacity) and lavender (#B8A8FA) warm glitter dust
-
-**All 3 layers**: `position: fixed`, `z-index: 0`, behind all content.
-Content floats on top with existing frosted glass + compound bubbles.
-Result: a living, breathing celestial backdrop. Every time you open the app it looks slightly different.
-
-### Navigation Chrome
-- App shell (nav, sidebar) has galaxy/constellation motif
-- Content area: the nebula backgrounds above
-- Smooth transition between modes (Ctrl+N toggle)
+### Technical Architecture
+- `NebulaBackground` React component (~340 lines) in `src/verumlingua.jsx`
+- Simplex noise implementation (inline, no dependencies)
+- fBM (fractal Brownian motion): 5 octaves, lacunarity 2.2, persistence 0.45
+- Domain warping (`warpedFbm`): distorts coordinates through second noise pass for organic cloud shapes
+- S-curve path: Hermite spline through 4 control points, dual-fBM wobble for natural flow
+- Four-mask system: riverMask (main body), coreMask (bright center), outerMask (halo), shadowMask (edge depth)
+- Mask falloff: solid center (70% of width), then power 1.2 falloff to 115% for puffy cloud edges
+- River width: 70% of screen at bottom (massive, close), narrowing to 20% at top (far)
 
 ### What Is Code vs What Is Midjourney
-- **Code builds 100% of the nebula background.** Pure CSS gradients, CSS-animated cloud blobs, canvas star particles. No images needed. This is industry standard for premium app backgrounds.
-- **Midjourney is NOT needed for the nebula.** Optional future enhancement: a painterly nebula texture overlay image for extra depth. But the CSS version is production-quality on its own.
-- **Midjourney IS needed for**: Verumius character art, scene backgrounds, city maps, supporting character designs. These are detailed illustrations that code cannot generate.
+- **Light mode background**: Midjourney image (`bg-light.png`). One-time generation.
+- **Dark mode background**: 100% code (canvas + simplex noise). No images needed.
+- **Stars + lightning**: 100% code (canvas). Both modes.
+- **Midjourney IS needed for**: Verumius character art, scene backgrounds, city maps, supporting character designs, light mode background image.
 
 ---
 
