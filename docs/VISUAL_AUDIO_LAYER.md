@@ -153,7 +153,8 @@ Minimum 8 expressions for in-lesson use:
 
 ### Dark Mode
 - Deep purple-blue galaxy base (#0D0B1A to #1E1E2E gradient)
-- Faint star particles (CSS or canvas, subtle animation)
+- Animated nebula clouds (see implementation below)
+- Twinkling star field: white/silver stars, opacity 0.3-0.9
 - Purple-blue nebula wisps (#7B5EE8 at 15% opacity)
 - Our frosted glass panels and candy bubbles POP against this
 
@@ -162,12 +163,46 @@ Minimum 8 expressions for in-lesson use:
 - NOT flat white — celestial warmth, faint texture visible
 - Think: looking at a nebula through sunlight
 - Base: warm white with pink (#FFD6E8 at 8-12% opacity) and lavender (#E8E0FF at 15%) nebula wisps
+- Twinkling star field: gold/lavender glitter dust, opacity 0.15-0.5, slightly larger (1-3px). Like tiny warm flickers catching sunlight.
 - Candy bubbles and frosted glass look GORGEOUS against this
+
+### Nebula Implementation (3 Layers, Pure CSS + Canvas)
+
+**Layer 1 — Static base gradient (CSS):**
+- Dark: radial gradients in deep navy (#0D0B1A) to dark purple (#1A1235)
+- Light: warm white (#F8F5FF) to soft lavender with pink mist
+
+**Layer 2 — Drifting nebula cloud blobs (CSS animated):**
+- 3-4 large divs with `border-radius: 50%`, `filter: blur(80-120px)`
+- Each blob a different purple/pink/blue at low opacity
+- Each on its own `@keyframes` animation (45-90 second loops):
+  - Slow translate drift (5-10% of screen)
+  - Slow opacity pulse (0.08 to 0.15)
+  - Slow scale pulse (1.0 to 1.1)
+- Different durations per blob so they NEVER sync up
+- Speed: lava lamp pace. You don't notice it moving unless you stare, but when you look back the colors have shifted.
+
+**Layer 3 — Twinkling star canvas (HTML Canvas):**
+- 80-120 star particles, random positions
+- Each star: x, y, size (0.5-2px dark / 1-3px light), baseOpacity, twinkleSpeed
+- Animation at ~10fps (just opacity changes, near-zero CPU)
+- Each star twinkles on its own sin() wave timing — organic, never synchronized
+- Dark mode: white/silver points
+- Light mode: gold (#E8960A at low opacity) and lavender (#B8A8FA) warm glitter dust
+
+**All 3 layers**: `position: fixed`, `z-index: 0`, behind all content.
+Content floats on top with existing frosted glass + compound bubbles.
+Result: a living, breathing celestial backdrop. Every time you open the app it looks slightly different.
 
 ### Navigation Chrome
 - App shell (nav, sidebar) has galaxy/constellation motif
 - Content area: the nebula backgrounds above
 - Smooth transition between modes (Ctrl+N toggle)
+
+### What Is Code vs What Is Midjourney
+- **Code builds 100% of the nebula background.** Pure CSS gradients, CSS-animated cloud blobs, canvas star particles. No images needed. This is industry standard for premium app backgrounds.
+- **Midjourney is NOT needed for the nebula.** Optional future enhancement: a painterly nebula texture overlay image for extra depth. But the CSS version is production-quality on its own.
+- **Midjourney IS needed for**: Verumius character art, scene backgrounds, city maps, supporting character designs. These are detailed illustrations that code cannot generate.
 
 ---
 
@@ -429,7 +464,80 @@ No text labels, no UI elements, no watermarks.
 
 ---
 
-## 12. Language Quality Terminology (IMPORTANT)
+## 12. Midjourney-to-App Pipeline (How Images Become UI)
+
+Midjourney outputs IMAGES. Claude writes CODE that displays them. There is no code exchange with Midjourney.
+
+```
+Owner generates in Midjourney → downloads PNG files
+    ↓
+Claude runs optimization script → WebP at multiple sizes (visually identical, 60-80% smaller file)
+    ↓
+Claude builds React components that display, animate, and transition the images
+    ↓
+Result: static images feel dynamic and alive in the app
+```
+
+### What Claude does with chibi expression sheets:
+1. Slice the grid into individual expression PNGs (automated script)
+2. Optimize each to WebP at 3 sizes: 256px (sprite), 96px (bubble avatar), 48px (icon)
+3. Build `<CharacterSprite character="verumius" expression="confused" size="avatar" />` component
+4. Integrate into candy bubble renderer (character face appears beside dialogue lines)
+
+### What Claude does with scene backgrounds:
+1. Optimize to WebP at 3 breakpoints: 1920w (desktop), 1280w (tablet), 768w (mobile)
+2. Build `<SceneBackground>` with blur-up loading (tiny blurred version instant, sharp fades in)
+3. Add parallax scroll effect (background moves slower than content)
+4. Build `<CinematicDialogue>` visual novel overlay with typing animation
+
+### What Claude does with detailed portraits:
+1. Optimize to WebP
+2. Position in cinematic mode scenes
+3. Animate: slide-in from sides, expression changes, transition effects
+
+### Image Quality Note
+WebP compression at 90% quality is **visually identical** to the original PNG. The 60-80% refers to FILE SIZE reduction only, not visual quality. This is industry standard (Google, Netflix, Spotify, Duolingo all serve WebP). For extra safety, lossless WebP (40-50% smaller, mathematically identical) is also an option.
+
+---
+
+## 13. Comedy & Story Style Guide
+
+### Verumius's Comedy Engine
+- **Humor through SITUATION, never through jokes or puns.** The comedy comes from real cultural misunderstandings that actually happen to foreigners.
+- **Stoic optimist who gets absurdly lucky AND unlucky simultaneously.** Stumbles into the right place at the wrong time. Every episode follows: situation → language/culture clash → things go comically wrong → quiet perseverance → small victory → "too good to be true" ending.
+- **Tone**: Bert & Ernie meets American Dad energy, toned down. Mature and playful, not dark. Self-contained sketches, not continuous plot.
+
+### Language Humor Rule (NON-NEGOTIABLE)
+- Language-based jokes MUST involve CORRECT language
+- Example: mixing up Korean 코피 (nosebleed) when ordering coffee (real confusion)
+- Example: German "schon" vs "schon" (actual learner mistake)
+- The learner LEARNS from the comedy because the mistake is authentic
+- NEVER make actual language errors that could mislead
+
+### Genre Growth with CEFR
+- **A1**: Sitcom sketches. Survival situations. Physical comedy. "I pointed at the wrong menu item."
+- **A2**: Recurring cast. Social situations. Mild drama. "My neighbor thinks I agreed to water her 47 plants."
+- **B1**: Adventure comedy. Real trouble. "I accidentally volunteered for a speech at the Verein meeting."
+- **B2**: Dramedy. Professional stakes, irony, wit. "My boss thinks my presentation was satire. It wasn't."
+
+### German Cultural Anchors (authentic foreigner experiences)
+- **Anmeldung**: Registration hell at the Burgeramt (every foreigner's nightmare)
+- **Pfand**: Deposit bottle confusion at the supermarket
+- **Punktlichkeit**: German punctuality clashing with Verumius's chaos
+- **Backerei**: Ordering bread rolls (the vocabulary alone is comedic)
+- **Verein**: Germans and their clubs/associations
+- **Mulltrennung**: 6 different garbage bins, Verumius puts glass in paper
+- **Behorde**: Bureaucracy: forms, waiting rooms, number tickets
+- **Feierabend**: Sacred after-work time (cultural concept)
+- **du/Sie**: Accidentally using du with the boss
+- **Ruhezeit**: Quiet hours: vacuuming at 10pm, neighbor knocks
+- **Brot**: 300+ types of bread, Verumius is overwhelmed
+
+These are NOT jokes ABOUT German culture. They are situations that genuinely happen. The learner relates because they will face the same things.
+
+---
+
+## 14. Language Quality Terminology (IMPORTANT)
 
 **Do NOT use "gold standard" for any language.** No language has earned certification-grade completeness per PP55/PP57.
 
