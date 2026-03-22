@@ -669,8 +669,8 @@ Each step is its own session. No step starts until the previous is solid.
 
 ### Content Status (Phase 1 — COMPLETE for current format)
 5 target languages to A1-B2, from English (primary source) and Arabic (second source):
-1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, 6,953 steps. Most pipeline-polished. NOT yet verified against official TOPIK vocabulary/grammar lists (PP55/PP57 pending).
-2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, 5,825 steps. Second most polished. NOT yet verified against official NT2 vocabulary/grammar lists (PP55/PP57 pending).
+1. **Korean** - A1-B2 PRODUCTION-READY. 30 units, 330 lessons, 6,953 steps. Most pipeline-polished (most audits, most PP8 fixes, most dialogue enrichment). NOT yet verified against official TOPIK vocabulary/grammar lists (PP55/PP57 pending). NOT certification-verified.
+2. **Dutch** - A1-B2 PRODUCTION-READY. 30 v2 units, 261 lessons, 5,825 steps. Second most pipeline-polished. NOT yet verified against official NT2 vocabulary/grammar lists (PP55/PP57 pending). NOT certification-verified.
 3. **German** - A1-B2 COMPLETE (D103). 30 units, 259 lessons, 4,941 steps.
 4. **French** - A1-B2 COMPLETE (D105). 30 units, 258 lessons, 4,781 steps.
 5. **Spanish** - A1-B2 COMPLETE (D108). 30 units, 258 lessons, 4,739 steps.
@@ -725,7 +725,8 @@ Every session should understand what each doc does and which ones are authoritat
 
 ### Tier 1: Authoritative (always current, governs all work)
 - **`CLAUDE.md`** (this file) — Single source of truth for project state, pipeline rules, decisions. READ FIRST.
-- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Complete platform rehaul design spec (2026-03-19). Card format, story system, settings, vocab page, curriculum restructure, build order. **This document SUPERSEDES conflicting instructions in all other docs.** When in doubt, this doc wins.
+- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Complete platform rehaul design spec (2026-03-19, updated 2026-03-22). Card format, story system, settings, vocab page, curriculum restructure, build order. **This document SUPERSEDES conflicting instructions in all other docs.** When in doubt, this doc wins.
+- **`docs/VISUAL_AUDIO_LAYER.md`** — Visual + audio layer design (2026-03-22). Art pipeline (Midjourney + SVG sprites), scene format (cinematic hybrid), audio/TTS strategy, navigation redesign (city explorer + story path + timeline), Verumius character design, app backgrounds (galaxy/nebula), cast system, Midjourney prompt templates. Companion to the rehaul vision doc.
 - **`docs/LINGOVERSE_MASTER_BIBLE.md`** — Full philosophy, per-language standards, official reference requirements, unit count doctrine.
 - **`docs/POLYGLOT_PIPELINE_STANDARDS.md`** — Five Universal Pillars, per-language pipeline rules, seed framework, JSON separation plan.
 
@@ -1102,8 +1103,8 @@ The goal: any future Claude Code session should be able to read CLAUDE.md + memo
 
 ## Super Handoff: What's DONE and What's NEXT
 
-### DONE (Korean A1-B2 = Most Pipeline-Polished)
-Korean is PRODUCTION-READY. Every quality gate has been passed:
+### DONE (Korean A1-B2 = Most Pipeline-Polished, NOT Certification-Verified)
+Korean is PRODUCTION-READY but NOT certification-verified (PP55/PP57 pending). "Pipeline-polished" = most audits, most PP8 fixes, most dialogue enrichment. Quality gates passed:
 
 | Milestone | Decision | Status |
 |-----------|----------|--------|
@@ -1123,8 +1124,8 @@ Korean is PRODUCTION-READY. Every quality gate has been passed:
 
 **Korean needs NO further work** until C1 curriculum is planned (after Dutch catches up).
 
-### DONE (Dutch A1-B2 = Second Most Polished)
-Dutch is PRODUCTION-READY. Every quality gate has been passed:
+### DONE (Dutch A1-B2 = Second Most Pipeline-Polished, NOT Certification-Verified)
+Dutch is PRODUCTION-READY but NOT certification-verified (PP55/PP57 pending). Quality gates passed:
 
 | Milestone | Decision | Status |
 |-----------|----------|--------|
@@ -1232,6 +1233,7 @@ Spanish is PRODUCTION-READY. Built from scratch in D107 (infrastructure) + D108 
 4. **D117: Korean Deep Dictionary System** — dictionary.js + korean-conjugation.js + function-words-ko.js. WORD_DB with isLemma gating, conjugation engine, form-to-lemma reverse index, 5-tab deep word entry popup (Overview/Forms/Examples/Grammar/Related), morpheme family index, Korean Browse tab with consonant grouping. **(DONE 2026-03-20)** Known gaps: Grammar tab shows raw teach cards instead of organized grammar reference (needs category-based reorganization pulling tips + verb_tables + patterns). White screen crash on word click: FIXED (2026-03-21). Root cause: WordPopup on VocabularyPage had no error boundary. Fix: added LessonErrorBoundary wrapper around WordPopup portal, try/catch guards on conjugateVerb/nounWithParticles, null guard on expanded.word.
 5. **D118: Grammar legend + POS color polish** — Maximally distinct POS colors (10 hues: green, orange, teal, blue, gold, purple, slate, crimson, pink, brown). Grammar legend changed to flex-wrap toggle pills. Noun underline removed. Story bubble borderRadius 22 -> 14 (more rectangular). DeepDive universalHl consistency. German deep dictionary (conjugation engine, strong/mixed/modal/auxiliary verbs). **(DONE 2026-03-20)**
 6. **D119: German curriculum + story planning** — **NEXT SESSION**. Full planning pass: catalogue all CEFR A1-B2 concepts for German, design story arcs per unit (Verumius in Germany), define cast of characters, plan interleaved lesson flow. German is the FIRST language to get the full rehaul treatment (per owner decision). This is a PLANNING session only. No code until the plan is approved.
+   - **Visual + Audio layer design COMPLETE (2026-03-22)**. Full spec in `docs/VISUAL_AUDIO_LAYER.md`. Art pipeline: Midjourney + SVG sprites. Scene format: cinematic hybrid. Audio: premium TTS, pre-generated static files. Navigation: city explorer + story path + timeline. Verumius: adaptive style (chibi + detailed). App backgrounds: galaxy/nebula theme.
 7. **Korean WORD_DB enrichment from official TOPIK/CEFR word lists** — Load official findable TOPIK vocabulary by CEFR level into WORD_DB with proper POS tags, levels, and lemma grouping. Foundation for all dictionary features across all languages.
 8. **Grammar tab overhaul** — Replace flat teach-card dump with organized grammar reference pulling from 323 tip cards + 7 verb_tables + 85 real grammar patterns. Categorize by topic (particles, conjugation, tense, negation, honorifics, connectors, sentence endings). Each entry shows rule, formation, examples, unit link.
 9. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical

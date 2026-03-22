@@ -402,8 +402,26 @@ This vision document PRESERVES:
 3. **Vocab lesson density** — is 12-20 cards the right range, or should it flex more?
 4. **Story episode length** — exact exchange counts per CEFR level (proposed ranges above, need testing)
 5. **Spaced repetition algorithm** — which SRS variant for the review mode? (SM-2, FSRS, custom?)
-6. **Audio** — when do we add TTS to vocab cards? (infrastructure exists via browser TTS)
+6. **TTS provider selection** — ElevenLabs vs Google Cloud vs Azure vs Amazon Polly (quality for all 5 languages, cost, custom voices)
+7. **Art asset CDN/hosting** — bundle in app or host externally? Budget per language ~15-25MB.
 
 ---
 
-*This document was written by Claude Opus 4.6 from a structured interview with the VerumLingua owner on 2026-03-19. Every design decision was made by the owner. The science-backed recommendations (character psychology, interleaving) were presented with citations and confirmed by the owner.*
+## 11. Visual + Audio Layer
+
+**Full design spec in `docs/VISUAL_AUDIO_LAYER.md`** (written 2026-03-22).
+
+Key decisions:
+- **Art**: Midjourney AI-generated + SVG sprite hybrid. `--cref`/`--sref` for consistency.
+- **Scenes**: Cinematic hybrid: Visual Novel mode for story beats + Candy Bubbles with character avatars for dialogue.
+- **Audio**: Premium cloud TTS from day one. Pre-generated static files. Speaker IDs on every line.
+- **Navigation**: City Explorer (districts per CEFR) + Story Path (winding trail) + Flowing Timeline. Grid toggle for power users.
+- **Verumius**: Adaptive style (chibi sprites + detailed cinematic). Purple toga, gold trim, constellation pin.
+- **Backgrounds**: Galaxy/nebula theme. Dark = purple-blue starfield. Light = soft pink/lavender nebula texture (NOT flat white).
+- **Cast**: Universal core (Verumius + travel companions) + language locals + domain characters. Cast grows with CEFR.
+- **Voices**: Launch 1 voice per language, tag all lines with speaker ID, add character voices later.
+- **First language**: German (template for all others).
+
+---
+
+*This document was written by Claude Opus 4.6 from structured interviews with the VerumLingua owner on 2026-03-19 and 2026-03-22. Every design decision was made by the owner. The science-backed recommendations (character psychology, interleaving) were presented with citations and confirmed by the owner.*
