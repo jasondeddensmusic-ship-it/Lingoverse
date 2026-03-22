@@ -1393,7 +1393,7 @@ const CSS = `
 /* ═══ NEBULA BACKGROUND SYSTEM ═══ */
 .nebula-wrap {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1; pointer-events: none; overflow: hidden;
+  z-index: 0; pointer-events: none; overflow: hidden;
   /* Layer 1: base color */
   background: linear-gradient(180deg, #FAFAFF 0%, #F6F4FC 40%, #F4F2FA 70%, #F2F0F8 100%);
 }
@@ -1872,7 +1872,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .stat-level { background: var(--blue-light); color: var(--blue-dark); }
 
 /* ── MAIN CONTENT ── */
-.main { margin-top: 64px; padding: 32px; max-width: 860px; margin-left: auto; margin-right: auto; }
+.main { margin-top: 64px; padding: 32px; max-width: 860px; margin-left: auto; margin-right: auto; position: relative; z-index: 1; }
 
 /* ── CARDS ── */
 .card {
