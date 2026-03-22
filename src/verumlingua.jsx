@@ -45,7 +45,7 @@ const _memStore = {};
 
 function NebulaBackground(){
   const canvasRef=useRef(null);
-  const starsRef=useRef(null);
+  const dataRef=useRef(null);
   const frameRef=useRef(null);
 
   useEffect(()=>{
@@ -60,68 +60,133 @@ function NebulaBackground(){
       canvas.style.width=window.innerWidth+"px";
       canvas.style.height=window.innerHeight+"px";
       ctx.setTransform(dpr,0,0,dpr,0,0);
-      starsRef.current=null;
+      dataRef.current=null;
     };
     resize();
     window.addEventListener("resize",resize);
 
-    // Stars: visible dots that twinkle, different palettes for light/dark
-    const initStars=()=>{
+    const init=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      const count=Math.min(400,Math.floor((w*h)/2500));
-      // Light mode: darker tones so they show on white/lavender bg
-      const lightHues=[
-        [120,90,180],  // dark purple
-        [180,100,160], // mauve
-        [100,80,160],  // deep violet
-        [160,120,200], // medium purple
-        [140,100,180], // plum
-        [200,150,220], // light purple (bigger stars only)
-      ];
-      // Dark mode: bright white/silver/pink
-      const darkHues=[
-        [255,255,255], // white
-        [230,220,255], // ice lavender
-        [255,200,230], // pink
-        [200,180,255], // light purple
-        [255,230,245], // pale pink
-        [220,210,255], // soft purple
-      ];
-      return Array.from({length:count},()=>{
-        const lh=lightHues[Math.floor(Math.random()*lightHues.length)];
-        const dh=darkHues[Math.floor(Math.random()*darkHues.length)];
+      // === STARS ===
+      const starCount=Math.min(500,Math.floor((w*h)/2000));
+      const stars=Array.from({length:starCount},()=>{
+        const bright=Math.random()>0.92; // ~8% are bright glitter stars
         return {
-          x:Math.random()*w,
-          y:Math.random()*h,
-          size:1+Math.random()*2.5, // 1-3.5px visible dots
-          baseOpacity:0.5+Math.random()*0.5,
-          twinkleSpeed:1.5+Math.random()*4,
-          twinkleOffset:Math.random()*Math.PI*2,
-          r:lh[0],g:lh[1],b:lh[2],
-          dkR:dh[0],dkG:dh[1],dkB:dh[2],
+          x:Math.random()*w, y:Math.random()*h,
+          size:bright?(2+Math.random()*3):(0.8+Math.random()*2),
+          baseOpacity:bright?1:(0.4+Math.random()*0.6),
+          speed:bright?(4+Math.random()*8):(1.5+Math.random()*4),
+          offset:Math.random()*Math.PI*2,
+          bright,
+          // Light: dark purple/mauve
+          lr:bright?160:100+Math.floor(Math.random()*80),
+          lg:bright?100:60+Math.floor(Math.random()*60),
+          lb:bright?220:140+Math.floor(Math.random()*80),
+          // Dark: white/pink/lavender
+          dr:bright?255:200+Math.floor(Math.random()*55),
+          dg:bright?255:180+Math.floor(Math.random()*75),
+          db:bright?255:220+Math.floor(Math.random()*35),
         };
       });
+      // === NEBULA CLOUDS — large organic blobs with depth ===
+      const clouds=[];
+      // Multiple layers at different depths for parallax feel
+      const layers=[
+        {count:5,sizeMin:0.3,sizeMax:0.8,speedMul:0.15,opacityMul:0.4,blur:true},  // far back, huge, slow
+        {count:6,sizeMin:0.2,sizeMax:0.5,speedMul:0.25,opacityMul:0.55,blur:true},  // mid layer
+        {count:4,sizeMin:0.15,sizeMax:0.35,speedMul:0.4,opacityMul:0.3,blur:false}, // closer wisps
+      ];
+      // Light mode cloud colors: soft lavender/pink/grey
+      const lightColors=[[180,160,220],[200,170,230],[160,140,200],[190,160,210],[170,150,200],[210,180,240]];
+      // Dark mode cloud colors: vivid purple/magenta/blue
+      const darkColors=[[123,94,232],[160,100,240],[100,60,200],[200,100,255],[80,50,180],[180,80,220],[140,60,200],[100,80,220]];
+      layers.forEach((layer,li)=>{
+        for(let i=0;i<layer.count;i++){
+          const lc=lightColors[Math.floor(Math.random()*lightColors.length)];
+          const dc=darkColors[Math.floor(Math.random()*darkColors.length)];
+          clouds.push({
+            x:Math.random()*w*1.4-w*0.2,
+            y:Math.random()*h,
+            radiusX:(layer.sizeMin+Math.random()*(layer.sizeMax-layer.sizeMin))*w,
+            radiusY:(layer.sizeMin+Math.random()*(layer.sizeMax-layer.sizeMin))*h*0.6,
+            rotation:Math.random()*Math.PI*2,
+            driftSpeed:layer.speedMul*(0.5+Math.random()),
+            driftOffset:Math.random()*Math.PI*2,
+            pulseSpeed:0.3+Math.random()*0.5,
+            pulseOffset:Math.random()*Math.PI*2,
+            opacityMul:layer.opacityMul,
+            layer:li,
+            lr:lc[0],lg:lc[1],lb:lc[2],
+            dr:dc[0],dg:dc[1],db:dc[2],
+          });
+        }
+      });
+      return {stars,clouds};
     };
 
     let lastTime=0;
     const animate=(time)=>{
-      if(!starsRef.current)starsRef.current=initStars();
-      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;} // ~20fps
+      if(!dataRef.current)dataRef.current=init();
+      if(time-lastTime<40){frameRef.current=requestAnimationFrame(animate);return;} // ~25fps
       lastTime=time;
 
       const w=window.innerWidth,h=window.innerHeight;
       const dk=document.documentElement.classList.contains("dark");
+      const t=time*0.001; // seconds
       ctx.clearRect(0,0,w,h);
 
-      starsRef.current.forEach(s=>{
-        const twinkle=Math.sin(time*0.001*s.twinkleSpeed+s.twinkleOffset);
-        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
-        if(opacity<0.03)return;
-        const r=dk?s.dkR:s.r, g=dk?s.dkG:s.g, b=dk?s.dkB:s.b;
-        const sz=s.size;
-        // Sharp dot, no glow halo
+      // === DRAW NEBULA CLOUDS ===
+      const {clouds,stars}=dataRef.current;
+      ctx.globalCompositeOperation="screen";
+      clouds.forEach(c=>{
+        const drift=Math.sin(t*c.driftSpeed+c.driftOffset)*w*0.08;
+        const pulse=0.7+0.3*Math.sin(t*c.pulseSpeed+c.pulseOffset);
+        const cx=c.x+drift;
+        const cy=c.y+Math.cos(t*c.driftSpeed*0.7+c.driftOffset)*h*0.03;
+        const r=dk?c.dr:c.lr, g=dk?c.dg:c.lg, b=dk?c.db:c.lb;
+        const baseOp=dk?(c.opacityMul*0.6):(c.opacityMul*0.35);
+        const opacity=baseOp*pulse;
+        // Radial gradient for soft organic cloud shape
+        const grad=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.max(c.radiusX,c.radiusY));
+        grad.addColorStop(0,`rgba(${r},${g},${b},${(opacity*1.2).toFixed(3)})`);
+        grad.addColorStop(0.3,`rgba(${r},${g},${b},${(opacity*0.8).toFixed(3)})`);
+        grad.addColorStop(0.6,`rgba(${r},${g},${b},${(opacity*0.3).toFixed(3)})`);
+        grad.addColorStop(1,`rgba(${r},${g},${b},0)`);
+        ctx.save();
+        ctx.translate(cx,cy);
+        ctx.rotate(c.rotation+t*0.02*c.driftSpeed);
+        ctx.scale(c.radiusX/Math.max(c.radiusX,c.radiusY),c.radiusY/Math.max(c.radiusX,c.radiusY));
+        ctx.translate(-cx,-cy);
+        ctx.fillStyle=grad;
+        ctx.beginPath();
+        ctx.arc(cx,cy,Math.max(c.radiusX,c.radiusY),0,Math.PI*2);
+        ctx.fill();
+        ctx.restore();
+      });
+
+      // === DRAW STARS ===
+      ctx.globalCompositeOperation="source-over";
+      stars.forEach(s=>{
+        const twinkle=Math.sin(t*s.speed+s.offset);
+        let opacity;
+        if(s.bright){
+          // Glitter stars: sharp flash peaks, mostly dim
+          const flash=Math.pow(Math.max(0,twinkle),3);
+          opacity=0.1+0.9*flash;
+        }else{
+          opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
+        }
+        if(opacity<0.02)return;
+        const r=dk?s.dr:s.lr, g=dk?s.dg:s.lg, b=dk?s.db:s.lb;
         ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
-        ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz); // square pixel = sharper than circle
+        const sz=s.size*(s.bright?(0.5+0.5*opacity):1);
+        ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz);
+        // Glitter stars get a tiny cross/sparkle
+        if(s.bright&&opacity>0.5){
+          const arm=sz*2;
+          ctx.fillRect(s.x-arm*0.5,s.y-0.5,arm,1); // horizontal
+          ctx.fillRect(s.x-0.5,s.y-arm*0.5,1,arm); // vertical
+        }
       });
       frameRef.current=requestAnimationFrame(animate);
     };
@@ -135,14 +200,6 @@ function NebulaBackground(){
 
   return(
     <div className="nebula-wrap" aria-hidden="true">
-      {/* Smoke/cloud wisps — visible streaky lines */}
-      <div className="nebula-smoke nebula-smoke-1"/>
-      <div className="nebula-smoke nebula-smoke-2"/>
-      <div className="nebula-smoke nebula-smoke-3"/>
-      <div className="nebula-smoke nebula-smoke-4"/>
-      <div className="nebula-smoke nebula-smoke-5"/>
-      <div className="nebula-smoke nebula-smoke-6"/>
-      {/* Twinkling star canvas */}
       <canvas ref={canvasRef} className="nebula-stars"/>
     </div>
   );
@@ -1409,110 +1466,9 @@ const CSS = `
   background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%);
 }
 
-/* Smoke wisps — elongated streaks that drift, like nebula tendrils */
-.nebula-smoke {
-  position: absolute;
-  filter: blur(50px);
-  will-change: transform, opacity;
-  border-radius: 40% 60% 50% 50%;
-}
-/* Light mode: soft grey/pink/purple smoke */
-.nebula-smoke-1 {
-  width: 80vw; height: 18vh; top: 8%; left: -15%; opacity: 0.25;
-  background: linear-gradient(90deg, transparent 0%, rgba(180,160,210,0.7) 30%, rgba(210,180,230,0.5) 60%, transparent 100%);
-  animation: smokeDrift1 45s ease-in-out infinite;
-}
-.nebula-smoke-2 {
-  width: 90vw; height: 14vh; top: 30%; right: -20%; opacity: 0.2;
-  background: linear-gradient(90deg, transparent 0%, rgba(200,170,230,0.6) 40%, rgba(170,150,200,0.4) 70%, transparent 100%);
-  animation: smokeDrift2 55s ease-in-out infinite;
-  transform: rotate(-8deg);
-}
-.nebula-smoke-3 {
-  width: 70vw; height: 20vh; top: 52%; left: -10%; opacity: 0.18;
-  background: linear-gradient(90deg, transparent 0%, rgba(160,140,200,0.6) 35%, rgba(190,160,220,0.4) 65%, transparent 100%);
-  animation: smokeDrift3 65s ease-in-out infinite;
-  transform: rotate(5deg);
-}
-.nebula-smoke-4 {
-  width: 65vw; height: 15vh; top: 72%; right: -5%; opacity: 0.2;
-  background: linear-gradient(90deg, transparent 0%, rgba(200,160,230,0.5) 30%, rgba(170,150,200,0.35) 70%, transparent 100%);
-  animation: smokeDrift4 50s ease-in-out infinite;
-  transform: rotate(-3deg);
-}
-.nebula-smoke-5 {
-  width: 60vw; height: 12vh; top: 18%; left: 25%; opacity: 0.15;
-  background: linear-gradient(90deg, transparent 0%, rgba(170,150,210,0.5) 45%, rgba(200,170,230,0.35) 75%, transparent 100%);
-  animation: smokeDrift5 70s ease-in-out infinite;
-  transform: rotate(12deg);
-}
-.nebula-smoke-6 {
-  width: 55vw; height: 16vh; top: 44%; left: -5%; opacity: 0.18;
-  background: linear-gradient(90deg, transparent 0%, rgba(180,150,220,0.6) 50%, transparent 100%);
-  animation: smokeDrift6 40s ease-in-out infinite;
-  transform: rotate(-6deg);
-}
-
-@keyframes smokeDrift1 {
-  0%   { transform: translateX(0) rotate(2deg); opacity: 0.25; }
-  50%  { transform: translateX(12vw) rotate(-1deg); opacity: 0.4; }
-  100% { transform: translateX(0) rotate(2deg); opacity: 0.25; }
-}
-@keyframes smokeDrift2 {
-  0%   { transform: translateX(0) rotate(-8deg); opacity: 0.2; }
-  50%  { transform: translateX(-10vw) rotate(-5deg); opacity: 0.35; }
-  100% { transform: translateX(0) rotate(-8deg); opacity: 0.2; }
-}
-@keyframes smokeDrift3 {
-  0%   { transform: translateX(0) rotate(5deg); opacity: 0.18; }
-  40%  { transform: translateX(8vw) rotate(8deg); opacity: 0.32; }
-  100% { transform: translateX(0) rotate(5deg); opacity: 0.18; }
-}
-@keyframes smokeDrift4 {
-  0%   { transform: translateX(0) rotate(-3deg); opacity: 0.2; }
-  60%  { transform: translateX(-8vw) rotate(-6deg); opacity: 0.33; }
-  100% { transform: translateX(0) rotate(-3deg); opacity: 0.2; }
-}
-@keyframes smokeDrift5 {
-  0%   { transform: translateX(0) rotate(12deg); opacity: 0.15; }
-  50%  { transform: translateX(-6vw) rotate(15deg); opacity: 0.28; }
-  100% { transform: translateX(0) rotate(12deg); opacity: 0.15; }
-}
-@keyframes smokeDrift6 {
-  0%   { transform: translateX(0) rotate(-6deg); opacity: 0.18; }
-  50%  { transform: translateX(10vw) rotate(-2deg); opacity: 0.3; }
-  100% { transform: translateX(0) rotate(-6deg); opacity: 0.18; }
-}
-
 .nebula-stars {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   pointer-events: none;
-}
-
-/* Dark mode: vivid purple/pink smoke, high opacity */
-:root.dark .nebula-smoke-1 {
-  background: linear-gradient(90deg, transparent 0%, rgba(123,94,232,0.8) 30%, rgba(200,140,255,0.6) 60%, transparent 100%);
-  opacity: 0.35;
-}
-:root.dark .nebula-smoke-2 {
-  background: linear-gradient(90deg, transparent 0%, rgba(255,140,200,0.6) 40%, rgba(123,94,232,0.7) 70%, transparent 100%);
-  opacity: 0.3;
-}
-:root.dark .nebula-smoke-3 {
-  background: linear-gradient(90deg, transparent 0%, rgba(100,80,220,0.7) 35%, rgba(180,120,255,0.5) 65%, transparent 100%);
-  opacity: 0.25;
-}
-:root.dark .nebula-smoke-4 {
-  background: linear-gradient(90deg, transparent 0%, rgba(200,120,255,0.6) 30%, rgba(100,80,200,0.45) 70%, transparent 100%);
-  opacity: 0.28;
-}
-:root.dark .nebula-smoke-5 {
-  background: linear-gradient(90deg, transparent 0%, rgba(140,100,240,0.5) 45%, rgba(220,160,255,0.4) 75%, transparent 100%);
-  opacity: 0.2;
-}
-:root.dark .nebula-smoke-6 {
-  background: linear-gradient(90deg, transparent 0%, rgba(180,100,240,0.6) 50%, transparent 100%);
-  opacity: 0.25;
 }
 
 /* ━━━━━━ GLASS CARDS — frosted translucent panels with top sheen ━━━━━━ */
@@ -2221,7 +2177,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 /* ── ONBOARDING ── */
 .ob-overlay {
   position: fixed; inset: 0; z-index: 200;
-  background: linear-gradient(135deg, #F0EBFF, #E8E0FF, #F5F0FF);
+  background: transparent;
   display: flex; align-items: center; justify-content: center;
   overflow-y: auto;
 }
@@ -2243,7 +2199,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
   outline: none;
 }
 :root.dark .ob-overlay {
-  background: linear-gradient(135deg, #1A1638, #1E1840, #16162B);
+  background: transparent;
 }
 
 /* ── ANIMATIONS ── */
@@ -11695,7 +11651,7 @@ function DevGate({onAccess}){
     else{setError(true);setShake(true);setTimeout(()=>setShake(false),500);setCode("");}
   };
   return(
-    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:dk?"linear-gradient(135deg,#1E1E2E 0%,#2A2040 50%,#1E1E2E 100%)":"linear-gradient(135deg,#F8F6FF 0%,#EDE8FF 50%,#F0EAFF 100%)",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
+    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:"transparent",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
       <div style={{textAlign:"center",padding:"48px 40px",borderRadius:28,background:dk?"rgba(40,38,60,0.85)":"white",boxShadow:dk?"0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)":"0 20px 60px rgba(123,94,232,0.12), 0 4px 16px rgba(0,0,0,0.04)",maxWidth:360,width:"90%",animation:shake?"shake 0.5s ease":"none"}}>
         <div style={{width:72,height:72,borderRadius:20,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 20px",boxShadow:"0 8px 24px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>
           <span style={{fontSize:36}}>🔑</span>
