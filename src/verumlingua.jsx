@@ -104,49 +104,50 @@ function NebulaBackground(){
       // Pre-render nebula cloud textures at 1/3 resolution
       const NW=Math.floor(w/3),NH=Math.floor(h/3);
 
-      // === RIVER PATH MASK (3D perspective) ===
-      // A smooth flowing S-curve nebula river that recedes into the distance
-      // Wide and bright at bottom (close), narrow and faint at top (far away)
+      // === RIVER PATH MASK (3D perspective S-curve) ===
+      // Path: top-left → curves right → curves left → bottom-center
+      // Wider and brighter near bottom (close), narrow and faint at top (far)
       const riverMask=new Float32Array(NW*NH);
       const pixScale=0.007;
+      // Smooth S-curve path via hermite spline through control points
+      const pathX=(t)=>{
+        // Control points: (0,0.12) top-left → (0.28,0.82) right → (0.6,0.18) left → (1.0,0.48) bottom-center
+        const h=(a,b,s)=>a+(b-a)*s*s*(3-2*s); // smoothstep
+        if(t<0.28){return h(0.12,0.82,t/0.28);}
+        else if(t<0.6){return h(0.82,0.18,(t-0.28)/0.32);}
+        else{return h(0.18,0.48,(t-0.6)/0.4);}
+      };
       for(let py=0;py<NH;py++){
         for(let px=0;px<NW;px++){
           const nx=px*pixScale,ny=py*pixScale;
           const normX=px/NW, normY=py/NH;
-          // Perspective: depth goes from 1.0 (bottom=close) to 0.0 (top=far)
+          // Perspective depth: close at bottom, far at top
           const depth=normY;
-          // River width: wide at bottom, narrow at top (perspective convergence)
-          const riverWidth=0.06+depth*0.22; // 6% at top, 28% at bottom
-          // Brightness/opacity falloff with distance
-          const depthBright=0.3+depth*0.7; // 30% at top, 100% at bottom
-          // Big flowing S-curves from side to side as it comes toward camera
-          // Low frequency for smooth wide curves, not pointy zigzags
-          const wobble=0.28*Math.sin(normY*3.2+0.5)+0.12*Math.sin(normY*5.8+2.0)+0.06*fbm(nx*0.6,ny*1.0,3,2.0,0.5);
-          const riverCenter=0.5+wobble;
-          // Distance from river center
+          const riverWidth=0.03+depth*depth*0.4; // 3% at top → 43% at bottom (exponential spread)
+          const depthBright=0.25+depth*0.75;
+          // Main river center follows the S-curve (bottom-left → right → left → top-center)
+          const wobble=0.04*fbm(nx*0.8,ny*1.2,3,2.0,0.5);
+          const riverCenter=pathX(1.0-normY)+wobble;
           const dist=Math.abs(normX-riverCenter);
-          // Gaussian-ish falloff for soft edges (not hard cutoff)
-          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.0));
-          // Secondary thinner wisp that branches off
-          const wobble2=0.2*Math.sin(normY*4.0+3.5)+0.1*Math.sin(normY*7.0+1.0)+0.05*fbm(nx*0.7+5,ny*1.0+3,3,2.0,0.5);
-          const branch=0.3+wobble2;
-          const dist2=Math.abs(normX-branch);
-          const branchWidth=0.03+depth*0.1;
-          const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.4;
-          // Combine main river + branch, apply depth brightness
+          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.2));
+          // Thin secondary wisp branching off the main river
+          const branchCenter=pathX(1.0-Math.min(1,normY+0.15))+0.12*(normY>0.5?1:-1)+0.03*fbm(nx*0.9+5,ny*1.0+3,3,2.0,0.5);
+          const dist2=Math.abs(normX-branchCenter);
+          const branchWidth=0.02+depth*0.06;
+          const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.25;
+          // Combine, apply depth
           const combined=Math.min(1,(inRiver+inBranch)*depthBright);
-          // Smooth hermite interpolation
           riverMask[py*NW+px]=combined*combined*(3-2*combined);
         }
       }
 
-      // Cloud layers with river mask applied
+      // Cloud layers: "less is more" - cleaner, more contrast, less uniform fog
       const cloudLayers=[
-        {dkR:120,dkG:30,dkB:200, ltR:140,ltG:80,ltB:190,  scale:1.0, ox:0,  oy:0,   thresh:0.02,opDk:0.85,opLt:0.6, pw:1.1},  // purple core
-        {dkR:200,dkG:40,dkB:160, ltR:180,ltG:100,ltB:180, scale:1.3, ox:100,oy:50,  thresh:0.06,opDk:0.65,opLt:0.5, pw:1.2},  // magenta wisps
-        {dkR:40,dkG:30,dkB:160,  ltR:100,ltG:70,ltB:160,  scale:1.1, ox:200,oy:150, thresh:0.04,opDk:0.55,opLt:0.4, pw:1.1},  // deep blue
-        {dkR:255,dkG:60,dkB:180, ltR:200,ltG:100,ltB:200, scale:1.6, ox:300,oy:75,  thresh:0.10,opDk:0.45,opLt:0.38,pw:1.3},  // hot pink filaments
-        {dkR:170,dkG:80,dkB:255, ltR:150,ltG:80,ltB:200,  scale:2.0, ox:50, oy:200, thresh:0.12,opDk:0.35,opLt:0.3, pw:1.4},  // violet detail
+        {dkR:130,dkG:30,dkB:210, ltR:120,ltG:60,ltB:180,  scale:1.0, ox:0,  oy:0,   thresh:0.08,opDk:0.7, opLt:0.55,pw:1.4},  // purple core
+        {dkR:210,dkG:40,dkB:170, ltR:170,ltG:80,ltB:170,  scale:1.4, ox:100,oy:50,  thresh:0.12,opDk:0.5, opLt:0.4, pw:1.5},  // magenta wisps
+        {dkR:50,dkG:25,dkB:170,  ltR:80,ltG:50,ltB:150,   scale:1.2, ox:200,oy:150, thresh:0.10,opDk:0.4, opLt:0.35,pw:1.3},  // deep blue
+        {dkR:255,dkG:50,dkB:190, ltR:190,ltG:80,ltB:190,  scale:1.8, ox:300,oy:75,  thresh:0.18,opDk:0.3, opLt:0.3, pw:1.6},  // hot pink filaments
+        {dkR:160,dkG:70,dkB:255, ltR:130,ltG:60,ltB:190,  scale:2.2, ox:50, oy:200, thresh:0.20,opDk:0.2, opLt:0.22,pw:1.8},  // violet detail
       ];
       const cloudCanvases=cloudLayers.map(layer=>{
         const mkTex=(r,g,b)=>{
@@ -231,19 +232,30 @@ function NebulaBackground(){
       // === DRAW STARS ===
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
-        const twinkle=Math.sin(t*s.speed+s.offset);
-        // Less aggressive dimming: minimum 50% brightness
-        const opacity=s.baseOpacity*(0.5+0.5*Math.max(0,twinkle));
+        // Glittery twinkle: sharp sparkle peaks using abs(sin) for snappier flicker
+        const tw1=Math.sin(t*s.speed+s.offset);
+        const tw2=Math.sin(t*s.speed*1.7+s.offset*2.3);
+        const glitter=Math.max(tw1,tw2*0.6); // dual-frequency for sparkle
+        const opacity=s.baseOpacity*(0.4+0.6*Math.max(0,glitter));
         if(opacity<0.03)return;
-        const r=dk?s.dr:s.lr, g=dk?s.dg:s.lg, b=dk?s.db:s.lb;
-        ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
-        // Bright stars get a soft glow halo
-        if(s.bright&&opacity>0.4){
-          ctx.globalAlpha=opacity*0.3;
-          ctx.fillRect(s.x-s.size,s.y-s.size,s.size*2,s.size*2);
-          ctx.globalAlpha=1;
+        if(dk){
+          // Dark mode: white/blue/lavender glowing stars
+          const r=s.dr,g=s.dg,b=s.db;
+          ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
+          if(s.bright&&opacity>0.4){
+            ctx.globalAlpha=opacity*0.25;
+            ctx.fillRect(s.x-s.size*1.2,s.y-s.size*1.2,s.size*2.4,s.size*2.4);
+            ctx.globalAlpha=1;
+          }
+          ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
+        }else{
+          // Light mode: dark outer border + bright white inner = visible on grey
+          const outerSize=s.size+1.5;
+          ctx.fillStyle=`rgba(40,20,60,${(opacity*0.7).toFixed(3)})`;
+          ctx.fillRect(s.x-outerSize*0.5,s.y-outerSize*0.5,outerSize,outerSize);
+          ctx.fillStyle=`rgba(255,255,255,${opacity.toFixed(3)})`;
+          ctx.fillRect(s.x-s.size*0.35,s.y-s.size*0.35,s.size*0.7,s.size*0.7);
         }
-        ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
       });
       frameRef.current=requestAnimationFrame(animate);
     };
