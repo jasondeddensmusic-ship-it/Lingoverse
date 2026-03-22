@@ -54,6 +54,34 @@ function NebulaBackground(){
     const ctx=canvas.getContext("2d");
     const dpr=window.devicePixelRatio||1;
 
+    // === SIMPLEX NOISE (compact implementation) ===
+    const F2=0.5*(Math.sqrt(3)-1),G2=(3-Math.sqrt(3))/6;
+    const p=new Uint8Array(512);const perm=new Uint8Array(512);
+    const rng=()=>{let s=1;return()=>{s=(s*16807)%2147483647;return(s-1)/2147483646;}};
+    const r=rng();for(let i=0;i<256;i++)p[i]=i;
+    for(let i=255;i>0;i--){const j=Math.floor(r()*(i+1));[p[i],p[j]]=[p[j],p[i]];}
+    for(let i=0;i<512;i++)perm[i]=p[i&255];
+    const grad2=[[1,1],[-1,1],[1,-1],[-1,-1],[1,0],[-1,0],[0,1],[0,-1]];
+    const dot2=(g,x,y)=>g[0]*x+g[1]*y;
+    const noise2=(x,y)=>{
+      const s=(x+y)*F2;const i=Math.floor(x+s),j=Math.floor(y+s);
+      const t=(i+j)*G2;const X0=i-t,Y0=j-t;const x0=x-X0,y0=y-Y0;
+      const i1=x0>y0?1:0,j1=x0>y0?0:1;
+      const x1=x0-i1+G2,y1=y0-j1+G2,x2=x0-1+2*G2,y2=y0-1+2*G2;
+      const ii=i&255,jj=j&255;
+      let n0=0,n1=0,n2=0;
+      let t0=0.5-x0*x0-y0*y0;if(t0>0){t0*=t0;const gi=perm[ii+perm[jj]]%8;n0=t0*t0*dot2(grad2[gi],x0,y0);}
+      let t1=0.5-x1*x1-y1*y1;if(t1>0){t1*=t1;const gi=perm[ii+i1+perm[jj+j1]]%8;n1=t1*t1*dot2(grad2[gi],x1,y1);}
+      let t2=0.5-x2*x2-y2*y2;if(t2>0){t2*=t2;const gi=perm[ii+1+perm[jj+1]]%8;n2=t2*t2*dot2(grad2[gi],x2,y2);}
+      return 70*(n0+n1+n2);
+    };
+    // fBM: fractal Brownian motion for organic cloud shapes
+    const fbm=(x,y,octaves,lac,pers)=>{
+      let v=0,a=1,f=1,mx=0;
+      for(let i=0;i<octaves;i++){v+=a*noise2(x*f,y*f);mx+=a;f*=lac;a*=pers;}
+      return v/mx;
+    };
+
     const resize=()=>{
       canvas.width=window.innerWidth*dpr;
       canvas.height=window.innerHeight*dpr;
@@ -67,99 +95,64 @@ function NebulaBackground(){
 
     const init=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      // === STARS (subtle, small, gentle twinkle) ===
-      const starCount=Math.min(300,Math.floor((w*h)/3500));
-      const stars=Array.from({length:starCount},()=>{
-        const bright=Math.random()>0.96; // ~4% shimmer slightly brighter
+      // Pre-render nebula cloud textures at lower resolution
+      const NW=Math.floor(w/4),NH=Math.floor(h/4); // 1/4 res for performance
+      // Define cloud layers with different colors and noise offsets
+      const cloudLayers=[
+        // Dark mode: [r,g,b,scale,offsetX,offsetY,threshold,opacity]
+        // Light mode uses same shapes but different colors
+        {dkR:140,dkG:50,dkB:220, ltR:150,ltG:110,ltB:200, scale:0.004,ox:0,oy:0,thresh:0.05,opDk:0.7,opLt:0.4},      // purple base
+        {dkR:220,dkG:60,dkB:180, ltR:200,ltG:140,ltB:210, scale:0.006,ox:100,oy:50,thresh:0.1,opDk:0.5,opLt:0.3},     // magenta
+        {dkR:60,dkG:40,dkB:180,  ltR:140,ltG:120,ltB:190, scale:0.005,ox:200,oy:150,thresh:0.08,opDk:0.45,opLt:0.25},  // deep blue
+        {dkR:255,dkG:80,dkB:200, ltR:210,ltG:150,ltB:220, scale:0.008,ox:300,oy:75,thresh:0.15,opDk:0.35,opLt:0.22},   // hot pink detail
+        {dkR:180,dkG:100,dkB:255,ltR:180,ltG:130,ltB:215, scale:0.012,ox:50,oy:200,thresh:0.18,opDk:0.25,opLt:0.18},   // fine violet detail
+      ];
+      // Pre-render each cloud layer: TWO versions (dark + light) with baked-in color
+      const cloudCanvases=cloudLayers.map(layer=>{
+        const mkTex=(r,g,b)=>{
+          const oc=document.createElement("canvas");oc.width=NW;oc.height=NH;
+          const octx=oc.getContext("2d");
+          const img=octx.createImageData(NW,NH);
+          const d=img.data;
+          for(let py=0;py<NH;py++){
+            for(let px=0;px<NW;px++){
+              const nx=(px+layer.ox)*layer.scale;
+              const ny=(py+layer.oy)*layer.scale;
+              const v=fbm(nx,ny,4,2.2,0.45);
+              const intensity=Math.max(0,(v+1)/2-layer.thresh)/(1-layer.thresh);
+              const curved=Math.pow(intensity,1.5);
+              const idx=(py*NW+px)*4;
+              d[idx]=r;d[idx+1]=g;d[idx+2]=b;
+              d[idx+3]=Math.floor(curved*255);
+            }
+          }
+          octx.putImageData(img,0,0);
+          return oc;
+        };
         return {
-          x:Math.random()*w, y:Math.random()*h,
-          size:bright?(1.2+Math.random()*1.3):(0.5+Math.random()*1.2),
-          baseOpacity:bright?0.8:(0.25+Math.random()*0.45),
-          speed:0.8+Math.random()*2.5, // slow gentle twinkle
-          offset:Math.random()*Math.PI*2,
-          bright,
-          // Light: soft purple/mauve (subtle, not grainy)
-          lr:140+Math.floor(Math.random()*60),
-          lg:100+Math.floor(Math.random()*50),
-          lb:180+Math.floor(Math.random()*60),
-          // Dark: white/silver with hint of color
-          dr:220+Math.floor(Math.random()*35),
-          dg:215+Math.floor(Math.random()*40),
-          db:230+Math.floor(Math.random()*25),
+          dk:mkTex(layer.dkR,layer.dkG,layer.dkB),
+          lt:mkTex(layer.ltR,layer.ltG,layer.ltB),
+          layer
         };
       });
-      // === NEBULA WISPS — elongated flowing tendrils, NOT round orbs ===
-      const wisps=[];
-      // Dark: vivid purple/magenta/blue/pink flowing ribbons like real nebula photos
-      const dkPalette=[
-        [140,60,220],[180,50,200],[100,40,180],[220,80,255],[160,30,190],  // purple/violet
-        [230,60,180],[255,80,200],[200,40,160],                            // magenta/pink
-        [60,40,160],[80,60,200],[50,30,140],                               // deep blue
-        [255,100,220],[240,120,255],                                       // hot pink
-      ];
-      // Light: richer purple/pink/rose so they show on white bg
-      const ltPalette=[
-        [160,120,210],[175,130,220],[150,110,200],[165,125,215],           // purple
-        [200,140,210],[190,130,215],[180,120,210],                         // rose-purple
-        [140,110,190],[155,120,200],[210,150,230],                         // deeper tones
-      ];
-      const mkWisp=(x,y,rx,ry,rot,dSpd,opDk,opLt)=>{
-        const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
-        const lc=ltPalette[Math.floor(Math.random()*ltPalette.length)];
-        wisps.push({x,y,rx,ry,rot,driftSpd:dSpd,driftOff:Math.random()*Math.PI*2,
-          pulseSpd:0.12+Math.random()*0.25,pulseOff:Math.random()*Math.PI*2,opDk,opLt,
-          dr:dc[0],dg:dc[1],db:dc[2],lr:lc[0],lg:lc[1],lb:lc[2]});
-      };
-      // Layer 0: huge background washes (4, very wide, slow — base color fields)
-      for(let i=0;i<4;i++){
-        mkWisp(Math.random()*w, h*0.1+Math.random()*h*0.8,
-          w*(0.5+Math.random()*0.7), h*(0.15+Math.random()*0.2),
-          -0.3+Math.random()*0.6, 0.06+Math.random()*0.05,
-          0.28+Math.random()*0.15, 0.25+Math.random()*0.15);
-      }
-      // Layer 1: medium flowing wisps (10, elongated tendrils, the main nebula body)
-      for(let i=0;i<10;i++){
-        const stretch=2.5+Math.random()*4;
-        const baseR=w*(0.08+Math.random()*0.18);
-        mkWisp(-w*0.15+Math.random()*w*1.3, Math.random()*h,
-          baseR*stretch, baseR,
-          -0.8+Math.random()*1.6, 0.1+Math.random()*0.12,
-          0.22+Math.random()*0.2, 0.18+Math.random()*0.15);
-      }
-      // Layer 2: thin accent wisps (8, very elongated — adds streaky detail)
-      for(let i=0;i<8;i++){
-        const stretch=4+Math.random()*8;
-        const baseR=w*(0.03+Math.random()*0.07);
-        mkWisp(-w*0.1+Math.random()*w*1.2, Math.random()*h,
-          baseR*stretch, baseR,
-          -1.2+Math.random()*2.4, 0.15+Math.random()*0.15,
-          0.18+Math.random()*0.18, 0.14+Math.random()*0.12);
-      }
-      // Layer 3: fine detail wisps (12, small, fast — texture and grain like real nebula)
-      for(let i=0;i<12;i++){
-        const stretch=3+Math.random()*6;
-        const baseR=w*(0.015+Math.random()*0.04);
-        mkWisp(-w*0.05+Math.random()*w*1.1, Math.random()*h,
-          baseR*stretch, baseR,
-          Math.random()*Math.PI*2, 0.2+Math.random()*0.2,
-          0.12+Math.random()*0.15, 0.1+Math.random()*0.1);
-      }
-      // Layer 4: micro filaments (15, tiny wispy threads — the finest detail)
-      for(let i=0;i<15;i++){
-        const stretch=5+Math.random()*10;
-        const baseR=w*(0.008+Math.random()*0.02);
-        mkWisp(Math.random()*w, Math.random()*h,
-          baseR*stretch, baseR,
-          Math.random()*Math.PI*2, 0.25+Math.random()*0.25,
-          0.1+Math.random()*0.12, 0.07+Math.random()*0.08);
-      }
-      return {stars,wisps};
+      // Stars
+      const starCount=Math.min(250,Math.floor((w*h)/4000));
+      const stars=Array.from({length:starCount},()=>({
+        x:Math.random()*w, y:Math.random()*h,
+        size:0.5+Math.random()*1.5,
+        baseOpacity:0.2+Math.random()*0.5,
+        speed:0.6+Math.random()*2,
+        offset:Math.random()*Math.PI*2,
+        lr:140+Math.floor(Math.random()*60),lg:100+Math.floor(Math.random()*50),lb:180+Math.floor(Math.random()*50),
+        dr:210+Math.floor(Math.random()*45),dg:210+Math.floor(Math.random()*45),db:225+Math.floor(Math.random()*30),
+      }));
+      return {cloudCanvases,stars,NW,NH};
     };
 
     let lastTime=0;
     const animate=(time)=>{
       if(!dataRef.current)dataRef.current=init();
-      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;} // ~20fps
+      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;}
       lastTime=time;
 
       const w=window.innerWidth,h=window.innerHeight;
@@ -167,46 +160,29 @@ function NebulaBackground(){
       const t=time*0.001;
       ctx.clearRect(0,0,w,h);
 
-      // === DRAW NEBULA WISPS ===
-      const {wisps,stars}=dataRef.current;
-      ctx.globalCompositeOperation=dk?"screen":"source-over";
-      wisps.forEach(c=>{
-        const drift=Math.sin(t*c.driftSpd+c.driftOff)*w*0.06;
-        const vdrift=Math.cos(t*c.driftSpd*0.6+c.driftOff)*h*0.02;
-        const pulse=0.75+0.25*Math.sin(t*c.pulseSpd+c.pulseOff);
-        const cx=c.x+drift, cy=c.y+vdrift;
-        const r=dk?c.dr:c.lr, g=dk?c.dg:c.lg, b=dk?c.db:c.lb;
-        const opacity=(dk?c.opDk:c.opLt)*pulse;
-        // Elongated radial gradient — stretched ellipse = wispy tendril
-        const maxR=Math.max(c.rx,c.ry);
-        const grad=ctx.createRadialGradient(cx,cy,0,cx,cy,maxR);
-        grad.addColorStop(0,`rgba(${r},${g},${b},${(opacity).toFixed(3)})`);
-        grad.addColorStop(0.2,`rgba(${r},${g},${b},${(opacity*0.7).toFixed(3)})`);
-        grad.addColorStop(0.5,`rgba(${r},${g},${b},${(opacity*0.3).toFixed(3)})`);
-        grad.addColorStop(0.8,`rgba(${r},${g},${b},${(opacity*0.08).toFixed(3)})`);
-        grad.addColorStop(1,`rgba(${r},${g},${b},0)`);
+      const {cloudCanvases,stars}=dataRef.current;
+      // === DRAW NEBULA CLOUD LAYERS ===
+      cloudCanvases.forEach((cc,i)=>{
+        const op=dk?cc.layer.opDk:cc.layer.opLt;
+        const tex=dk?cc.dk:cc.lt;
+        const dx=Math.sin(t*0.08+i*1.5)*w*0.05;
+        const dy=Math.cos(t*0.06+i*2.1)*h*0.04;
         ctx.save();
-        ctx.translate(cx,cy);
-        ctx.rotate(c.rot+t*0.01*c.driftSpd);
-        ctx.scale(c.rx/maxR,c.ry/maxR); // elongate into wisp shape
-        ctx.translate(-cx,-cy);
-        ctx.fillStyle=grad;
-        ctx.beginPath();
-        ctx.arc(cx,cy,maxR,0,Math.PI*2);
-        ctx.fill();
+        ctx.globalAlpha=op;
+        ctx.globalCompositeOperation=dk?"lighter":"source-over";
+        ctx.drawImage(tex, dx, dy, w, h);
         ctx.restore();
       });
 
-      // === DRAW STARS (subtle, gentle) ===
+      // === DRAW STARS ===
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
         const twinkle=Math.sin(t*s.speed+s.offset);
-        const opacity=s.baseOpacity*(0.4+0.6*Math.max(0,twinkle));
+        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
         if(opacity<0.03)return;
         const r=dk?s.dr:s.lr, g=dk?s.dg:s.lg, b=dk?s.db:s.lb;
         ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
-        const sz=s.size;
-        ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz);
+        ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
       });
       frameRef.current=requestAnimationFrame(animate);
     };
