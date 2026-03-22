@@ -56,11 +56,11 @@ function NebulaBackground(){
 
     // === SIMPLEX NOISE (compact implementation) ===
     const F2=0.5*(Math.sqrt(3)-1),G2=(3-Math.sqrt(3))/6;
-    const p=new Uint8Array(512);const perm=new Uint8Array(512);
+    const pp=new Uint8Array(512);const perm=new Uint8Array(512);
     const rng=()=>{let s=1;return()=>{s=(s*16807)%2147483647;return(s-1)/2147483646;}};
-    const r=rng();for(let i=0;i<256;i++)p[i]=i;
-    for(let i=255;i>0;i--){const j=Math.floor(r()*(i+1));[p[i],p[j]]=[p[j],p[i]];}
-    for(let i=0;i<512;i++)perm[i]=p[i&255];
+    const rr=rng();for(let i=0;i<256;i++)pp[i]=i;
+    for(let i=255;i>0;i--){const j=Math.floor(rr()*(i+1));[pp[i],pp[j]]=[pp[j],pp[i]];}
+    for(let i=0;i<512;i++)perm[i]=pp[i&255];
     const grad2=[[1,1],[-1,1],[1,-1],[-1,-1],[1,0],[-1,0],[0,1],[0,-1]];
     const dot2=(g,x,y)=>g[0]*x+g[1]*y;
     const noise2=(x,y)=>{
@@ -75,11 +75,17 @@ function NebulaBackground(){
       let t2=0.5-x2*x2-y2*y2;if(t2>0){t2*=t2;const gi=perm[ii+1+perm[jj+1]]%8;n2=t2*t2*dot2(grad2[gi],x2,y2);}
       return 70*(n0+n1+n2);
     };
-    // fBM: fractal Brownian motion for organic cloud shapes
-    const fbm=(x,y,octaves,lac,pers)=>{
+    // fBM with domain warping for organic nebula shapes
+    const fbm=(x,y,oct,lac,pers)=>{
       let v=0,a=1,f=1,mx=0;
-      for(let i=0;i<octaves;i++){v+=a*noise2(x*f,y*f);mx+=a;f*=lac;a*=pers;}
+      for(let i=0;i<oct;i++){v+=a*noise2(x*f,y*f);mx+=a;f*=lac;a*=pers;}
       return v/mx;
+    };
+    // Domain warping: distort coordinates using noise to create flowing organic shapes
+    const warpedFbm=(x,y,scale)=>{
+      const wx=fbm(x+0.0,y+0.0,3,2.0,0.5)*4.0;
+      const wy=fbm(x+5.2,y+1.3,3,2.0,0.5)*4.0;
+      return fbm((x+wx)*scale,(y+wy)*scale,5,2.2,0.45);
     };
 
     const resize=()=>{
@@ -95,19 +101,42 @@ function NebulaBackground(){
 
     const init=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      // Pre-render nebula cloud textures at lower resolution
-      const NW=Math.floor(w/4),NH=Math.floor(h/4); // 1/4 res for performance
-      // Define cloud layers with different colors and noise offsets
+      // Pre-render nebula cloud textures at 1/3 resolution
+      const NW=Math.floor(w/3),NH=Math.floor(h/3);
+
+      // === RIVER PATH MASK ===
+      // Creates a flowing zigzag band where nebula is concentrated
+      // Areas far from the river fade to transparent (showing dark space or grey bg)
+      const riverMask=new Float32Array(NW*NH);
+      const pixScale=0.007;
+      for(let py=0;py<NH;py++){
+        for(let px=0;px<NW;px++){
+          const nx=px*pixScale,ny=py*pixScale;
+          // Two winding river paths that cross and merge
+          // River 1: diagonal zigzag from top-left to bottom-right
+          const normX=px/NW, normY=py/NH;
+          const river1Center=0.3+0.35*normX+0.18*Math.sin(normX*10+1.5)+0.1*fbm(nx*2,ny*0.5,3,2.0,0.5);
+          const dist1=Math.abs(normY-river1Center);
+          const river1=Math.max(0,1-dist1*7.0); // tight ~14% screen band
+          // River 2: opposing diagonal, narrower
+          const river2Center=0.75-0.35*normX+0.14*Math.sin(normX*7+3.0)+0.07*fbm(nx*2+10,ny*0.5+5,3,2.0,0.5);
+          const dist2=Math.abs(normY-river2Center);
+          const river2=Math.max(0,1-dist2*9.0); // very tight secondary
+          // Combine rivers
+          const combined=Math.min(1,river1+river2*0.5);
+          // Smooth falloff: cubic for soft edges
+          riverMask[py*NW+px]=combined*combined*(3-2*combined);
+        }
+      }
+
+      // Cloud layers with river mask applied
       const cloudLayers=[
-        // Dark mode: [r,g,b,scale,offsetX,offsetY,threshold,opacity]
-        // Light mode uses same shapes but different colors
-        {dkR:140,dkG:50,dkB:220, ltR:150,ltG:110,ltB:200, scale:0.004,ox:0,oy:0,thresh:0.05,opDk:0.7,opLt:0.4},      // purple base
-        {dkR:220,dkG:60,dkB:180, ltR:200,ltG:140,ltB:210, scale:0.006,ox:100,oy:50,thresh:0.1,opDk:0.5,opLt:0.3},     // magenta
-        {dkR:60,dkG:40,dkB:180,  ltR:140,ltG:120,ltB:190, scale:0.005,ox:200,oy:150,thresh:0.08,opDk:0.45,opLt:0.25},  // deep blue
-        {dkR:255,dkG:80,dkB:200, ltR:210,ltG:150,ltB:220, scale:0.008,ox:300,oy:75,thresh:0.15,opDk:0.35,opLt:0.22},   // hot pink detail
-        {dkR:180,dkG:100,dkB:255,ltR:180,ltG:130,ltB:215, scale:0.012,ox:50,oy:200,thresh:0.18,opDk:0.25,opLt:0.18},   // fine violet detail
+        {dkR:120,dkG:30,dkB:200, ltR:140,ltG:80,ltB:190,  scale:1.0, ox:0,  oy:0,   thresh:0.02,opDk:0.85,opLt:0.6, pw:1.1},  // purple core
+        {dkR:200,dkG:40,dkB:160, ltR:180,ltG:100,ltB:180, scale:1.3, ox:100,oy:50,  thresh:0.06,opDk:0.65,opLt:0.5, pw:1.2},  // magenta wisps
+        {dkR:40,dkG:30,dkB:160,  ltR:100,ltG:70,ltB:160,  scale:1.1, ox:200,oy:150, thresh:0.04,opDk:0.55,opLt:0.4, pw:1.1},  // deep blue
+        {dkR:255,dkG:60,dkB:180, ltR:200,ltG:100,ltB:200, scale:1.6, ox:300,oy:75,  thresh:0.10,opDk:0.45,opLt:0.38,pw:1.3},  // hot pink filaments
+        {dkR:170,dkG:80,dkB:255, ltR:150,ltG:80,ltB:200,  scale:2.0, ox:50, oy:200, thresh:0.12,opDk:0.35,opLt:0.3, pw:1.4},  // violet detail
       ];
-      // Pre-render each cloud layer: TWO versions (dark + light) with baked-in color
       const cloudCanvases=cloudLayers.map(layer=>{
         const mkTex=(r,g,b)=>{
           const oc=document.createElement("canvas");oc.width=NW;oc.height=NH;
@@ -116,14 +145,18 @@ function NebulaBackground(){
           const d=img.data;
           for(let py=0;py<NH;py++){
             for(let px=0;px<NW;px++){
-              const nx=(px+layer.ox)*layer.scale;
-              const ny=(py+layer.oy)*layer.scale;
-              const v=fbm(nx,ny,4,2.2,0.45);
-              const intensity=Math.max(0,(v+1)/2-layer.thresh)/(1-layer.thresh);
-              const curved=Math.pow(intensity,1.5);
+              const nx=(px+layer.ox)*pixScale;
+              const ny=(py+layer.oy)*pixScale;
+              const v=warpedFbm(nx,ny,layer.scale);
+              const raw=(v+1)/2;
+              const intensity=Math.max(0,raw-layer.thresh)/(1-layer.thresh);
+              const curved=Math.pow(intensity,layer.pw);
+              // Apply river mask: cloud only visible along the flowing river paths
+              const mask=riverMask[py*NW+px];
+              const final=curved*mask;
               const idx=(py*NW+px)*4;
               d[idx]=r;d[idx+1]=g;d[idx+2]=b;
-              d[idx+3]=Math.floor(curved*255);
+              d[idx+3]=Math.floor(final*255);
             }
           }
           octx.putImageData(img,0,0);
@@ -135,17 +168,26 @@ function NebulaBackground(){
           layer
         };
       });
-      // Stars
-      const starCount=Math.min(250,Math.floor((w*h)/4000));
-      const stars=Array.from({length:starCount},()=>({
-        x:Math.random()*w, y:Math.random()*h,
-        size:0.5+Math.random()*1.5,
-        baseOpacity:0.2+Math.random()*0.5,
-        speed:0.6+Math.random()*2,
-        offset:Math.random()*Math.PI*2,
-        lr:140+Math.floor(Math.random()*60),lg:100+Math.floor(Math.random()*50),lb:180+Math.floor(Math.random()*50),
-        dr:210+Math.floor(Math.random()*45),dg:210+Math.floor(Math.random()*45),db:225+Math.floor(Math.random()*30),
-      }));
+      // Stars: brighter, bigger, more visible
+      const starCount=Math.min(350,Math.floor((w*h)/3000));
+      const stars=[];
+      for(let i=0;i<starCount;i++){
+        const isBright=Math.random()<0.12;
+        stars.push({
+          x:Math.random()*w, y:Math.random()*h,
+          size:isBright?(2+Math.random()*2):(0.8+Math.random()*1.8),
+          baseOpacity:isBright?(0.7+Math.random()*0.3):(0.35+Math.random()*0.45),
+          speed:0.4+Math.random()*1.5,
+          offset:Math.random()*Math.PI*2,
+          bright:isBright,
+          lr:isBright?200:120+Math.floor(Math.random()*60),
+          lg:isBright?180:80+Math.floor(Math.random()*40),
+          lb:isBright?255:170+Math.floor(Math.random()*60),
+          dr:isBright?255:200+Math.floor(Math.random()*55),
+          dg:isBright?240:200+Math.floor(Math.random()*55),
+          db:isBright?255:220+Math.floor(Math.random()*35),
+        });
+      }
       return {cloudCanvases,stars,NW,NH};
     };
 
@@ -165,8 +207,9 @@ function NebulaBackground(){
       cloudCanvases.forEach((cc,i)=>{
         const op=dk?cc.layer.opDk:cc.layer.opLt;
         const tex=dk?cc.dk:cc.lt;
-        const dx=Math.sin(t*0.08+i*1.5)*w*0.05;
-        const dy=Math.cos(t*0.06+i*2.1)*h*0.04;
+        // Slow organic drift
+        const dx=Math.sin(t*0.06+i*1.2)*w*0.04;
+        const dy=Math.cos(t*0.04+i*1.8)*h*0.03;
         ctx.save();
         ctx.globalAlpha=op;
         ctx.globalCompositeOperation=dk?"lighter":"source-over";
@@ -178,10 +221,17 @@ function NebulaBackground(){
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
         const twinkle=Math.sin(t*s.speed+s.offset);
-        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
+        // Less aggressive dimming: minimum 50% brightness
+        const opacity=s.baseOpacity*(0.5+0.5*Math.max(0,twinkle));
         if(opacity<0.03)return;
         const r=dk?s.dr:s.lr, g=dk?s.dg:s.lg, b=dk?s.db:s.lb;
         ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
+        // Bright stars get a soft glow halo
+        if(s.bright&&opacity>0.4){
+          ctx.globalAlpha=opacity*0.3;
+          ctx.fillRect(s.x-s.size,s.y-s.size,s.size*2,s.size*2);
+          ctx.globalAlpha=1;
+        }
         ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
       });
       frameRef.current=requestAnimationFrame(animate);
