@@ -1386,17 +1386,20 @@ const CSS = `
   --glass-blur: blur(22px) saturate(1.3);
 }
 :root.dark body, :root.dark #root {
-  background: #0D0B1A;
-  background-attachment: fixed;
+  background: transparent;
   color: var(--gray-700);
 }
 
 /* ═══ NEBULA BACKGROUND SYSTEM ═══ */
 .nebula-wrap {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-  z-index: 0; pointer-events: none; overflow: hidden;
+  z-index: -1; pointer-events: none; overflow: hidden;
+  /* Layer 1: base color */
+  background: linear-gradient(180deg, #FAFAFF 0%, #F6F4FC 40%, #F4F2FA 70%, #F2F0F8 100%);
 }
-body, #root { position: relative; z-index: 1; }
+:root.dark .nebula-wrap {
+  background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%);
+}
 
 /* Smoke wisps — elongated streaks that drift, like nebula tendrils */
 .nebula-smoke {
@@ -1822,9 +1825,8 @@ body, #root { position: relative; z-index: 1; }
 }
 body, #root {
   font-family: 'Source Sans 3', sans-serif;
-  /* Light mode: clean white with very subtle lavender tint. Pink/purple ONLY in smoke wisps. */
-  background: linear-gradient(180deg, #FAFAFF 0%, #F6F4FC 40%, #F4F2FA 70%, #F2F0F8 100%);
-  background-attachment: fixed;
+  /* Light mode: transparent so nebula shows through */
+  background: transparent;
   color: var(--gray-700);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
