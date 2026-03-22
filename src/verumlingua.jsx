@@ -59,57 +59,61 @@ function NebulaBackground(){
       canvas.height=window.innerHeight*dpr;
       canvas.style.width=window.innerWidth+"px";
       canvas.style.height=window.innerHeight+"px";
-      ctx.scale(dpr,dpr);
-      // Regenerate stars on resize
+      ctx.setTransform(dpr,0,0,dpr,0,0);
       starsRef.current=null;
     };
     resize();
     window.addEventListener("resize",resize);
 
+    // Many more stars, much smaller, faster twinkle, pink/purple/white mix
     const initStars=()=>{
       const w=window.innerWidth,h=window.innerHeight;
-      const count=Math.min(120,Math.floor((w*h)/8000));
-      return Array.from({length:count},()=>({
-        x:Math.random()*w,
-        y:Math.random()*h,
-        size:0.5+Math.random()*2,
-        baseOpacity:0.15+Math.random()*0.55,
-        twinkleSpeed:0.3+Math.random()*1.8,
-        twinkleOffset:Math.random()*Math.PI*2,
-        // Light mode: gold/lavender tones. Dark mode: white/silver
-        hueLight:Math.random()>0.4?`rgba(184,168,250,`:`rgba(232,150,10,`, // lavender or gold
-        hueDark:`rgba(255,255,255,`
-      }));
+      const count=Math.min(350,Math.floor((w*h)/3000));
+      const hues=[
+        [200,170,255], // lavender
+        [255,180,220], // pink
+        [180,140,255], // purple
+        [255,255,255], // white
+        [220,200,255], // soft purple
+        [255,200,240], // light pink
+      ];
+      return Array.from({length:count},()=>{
+        const h=hues[Math.floor(Math.random()*hues.length)];
+        return {
+          x:Math.random()*w,
+          y:Math.random()*h,
+          size:0.3+Math.random()*1.2, // tiny! 0.3-1.5px
+          baseOpacity:0.2+Math.random()*0.7,
+          twinkleSpeed:1.5+Math.random()*4, // much faster twinkle
+          twinkleOffset:Math.random()*Math.PI*2,
+          r:h[0],g:h[1],b:h[2],
+          // Dark mode: brighter white/silver with some colored
+          dkR:Math.random()>0.3?255:h[0],
+          dkG:Math.random()>0.3?255:h[1],
+          dkB:Math.random()>0.3?255:h[2],
+        };
+      });
     };
 
     let lastTime=0;
     const animate=(time)=>{
       if(!starsRef.current)starsRef.current=initStars();
-      // Throttle to ~12fps for efficiency
-      if(time-lastTime<83){frameRef.current=requestAnimationFrame(animate);return;}
+      if(time-lastTime<50){frameRef.current=requestAnimationFrame(animate);return;} // ~20fps
       lastTime=time;
 
       const w=window.innerWidth,h=window.innerHeight;
       const dk=document.documentElement.classList.contains("dark");
       ctx.clearRect(0,0,w,h);
 
-      starsRef.current.forEach(star=>{
-        const twinkle=Math.sin(time*0.001*star.twinkleSpeed+star.twinkleOffset);
-        const opacity=star.baseOpacity*(0.5+0.5*twinkle);
-        if(opacity<0.02)return; // skip invisible stars
-        const hue=dk?star.hueDark:star.hueLight;
-        const size=dk?star.size:star.size*1.3; // slightly larger in light mode
-        ctx.beginPath();
-        ctx.arc(star.x,star.y,size,0,Math.PI*2);
-        ctx.fillStyle=hue+opacity.toFixed(3)+")";
-        ctx.fill();
-        // Add subtle glow on bright stars
-        if(opacity>0.4&&size>1){
-          ctx.beginPath();
-          ctx.arc(star.x,star.y,size*3,0,Math.PI*2);
-          ctx.fillStyle=hue+(opacity*0.15).toFixed(3)+")";
-          ctx.fill();
-        }
+      starsRef.current.forEach(s=>{
+        const twinkle=Math.sin(time*0.001*s.twinkleSpeed+s.twinkleOffset);
+        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,twinkle));
+        if(opacity<0.03)return;
+        const r=dk?s.dkR:s.r, g=dk?s.dkG:s.g, b=dk?s.dkB:s.b;
+        const sz=dk?s.size:s.size*0.9;
+        // Sharp dot, no glow halo
+        ctx.fillStyle=`rgba(${r},${g},${b},${opacity.toFixed(3)})`;
+        ctx.fillRect(s.x-sz*0.5,s.y-sz*0.5,sz,sz); // square pixel = sharper than circle
       });
       frameRef.current=requestAnimationFrame(animate);
     };
@@ -123,14 +127,49 @@ function NebulaBackground(){
 
   return(
     <div className="nebula-wrap" aria-hidden="true">
-      {/* Layer 2: Drifting nebula cloud blobs */}
-      <div className="nebula-blob nebula-blob-1"/>
-      <div className="nebula-blob nebula-blob-2"/>
-      <div className="nebula-blob nebula-blob-3"/>
-      <div className="nebula-blob nebula-blob-4"/>
-      {/* Layer 3: Twinkling star canvas */}
+      {/* Smoke/cloud wisps — visible streaky lines */}
+      <div className="nebula-smoke nebula-smoke-1"/>
+      <div className="nebula-smoke nebula-smoke-2"/>
+      <div className="nebula-smoke nebula-smoke-3"/>
+      <div className="nebula-smoke nebula-smoke-4"/>
+      <div className="nebula-smoke nebula-smoke-5"/>
+      <div className="nebula-smoke nebula-smoke-6"/>
+      {/* Twinkling star canvas */}
       <canvas ref={canvasRef} className="nebula-stars"/>
     </div>
+  );
+}
+
+/* ── VL Constellation Logo (animated, rendered as CSS) ── */
+function VLLogo({size=28,glow=false}){
+  // VL constellation: star points connected by lines
+  // V shape: top-left -> bottom-center -> top-right
+  // L shape: top -> bottom -> right
+  const s=size;
+  const pts=[
+    // V: 3 points
+    {x:0,y:0},{x:s*0.22,y:s*0.55},{x:s*0.44,y:0},
+    // L: 3 points
+    {x:s*0.52,y:0},{x:s*0.52,y:s*0.55},{x:s*0.85,y:s*0.55}
+  ];
+  const lines=[[0,1],[1,2],[3,4],[4,5]]; // V lines + L lines
+  return(
+    <svg width={s} height={s*0.6} viewBox={`-2 -2 ${s+4} ${s*0.6+4}`} style={{display:"inline-block",verticalAlign:"middle"}}>
+      {glow&&<defs>
+        <filter id="vlglow"><feGaussianBlur stdDeviation="2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>}
+      <g filter={glow?"url(#vlglow)":"none"} opacity="0.95">
+        {lines.map(([a,b],i)=>(
+          <line key={i} x1={pts[a].x} y1={pts[a].y} x2={pts[b].x} y2={pts[b].y}
+            stroke="rgba(184,168,250,0.6)" strokeWidth="1.2" strokeLinecap="round"/>
+        ))}
+        {pts.map((p,i)=>(
+          <circle key={i} cx={p.x} cy={p.y} r={1.8} fill="rgba(200,184,255,0.9)">
+            <animate attributeName="opacity" values="0.6;1;0.6" dur={`${1.5+i*0.3}s`} repeatCount="indefinite"/>
+          </circle>
+        ))}
+      </g>
+    </svg>
   );
 }
 
@@ -1357,81 +1396,112 @@ const CSS = `
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
   z-index: 0; pointer-events: none; overflow: hidden;
 }
-/* Layer 1 (base): handled by body background */
-/* Light mode body gets nebula base */
 body, #root { position: relative; z-index: 1; }
 
-/* Layer 2: Drifting nebula cloud blobs */
-.nebula-blob {
-  position: absolute; border-radius: 50%;
-  filter: blur(100px); opacity: 0.08;
+/* Smoke wisps — elongated streaks that drift, like nebula tendrils */
+.nebula-smoke {
+  position: absolute;
+  filter: blur(40px);
   will-change: transform, opacity;
+  border-radius: 40% 60% 50% 50%;
 }
-.nebula-blob-1 {
-  width: 60vw; height: 60vw; top: -15%; left: -10%;
-  background: radial-gradient(circle, rgba(123,94,232,0.6) 0%, rgba(123,94,232,0) 70%);
-  animation: nebulaDrift1 72s ease-in-out infinite;
+/* Light mode: grey/silver smoke with hints of pink and purple */
+.nebula-smoke-1 {
+  width: 70vw; height: 8vh; top: 12%; left: -20%; opacity: 0.06;
+  background: linear-gradient(90deg, transparent 0%, rgba(160,150,180,0.4) 30%, rgba(200,170,220,0.3) 60%, transparent 100%);
+  animation: smokeDrift1 45s ease-in-out infinite;
 }
-.nebula-blob-2 {
-  width: 50vw; height: 50vw; top: 30%; right: -15%;
-  background: radial-gradient(circle, rgba(255,214,232,0.5) 0%, rgba(255,214,232,0) 70%);
-  animation: nebulaDrift2 58s ease-in-out infinite;
+.nebula-smoke-2 {
+  width: 80vw; height: 6vh; top: 35%; right: -25%; opacity: 0.05;
+  background: linear-gradient(90deg, transparent 0%, rgba(220,180,240,0.35) 40%, rgba(180,160,200,0.25) 70%, transparent 100%);
+  animation: smokeDrift2 55s ease-in-out infinite;
+  transform: rotate(-8deg);
 }
-.nebula-blob-3 {
-  width: 45vw; height: 45vw; bottom: -10%; left: 20%;
-  background: radial-gradient(circle, rgba(74,143,231,0.4) 0%, rgba(74,143,231,0) 70%);
-  animation: nebulaDrift3 85s ease-in-out infinite;
+.nebula-smoke-3 {
+  width: 60vw; height: 10vh; top: 58%; left: -15%; opacity: 0.04;
+  background: linear-gradient(90deg, transparent 0%, rgba(140,130,170,0.3) 35%, rgba(180,140,200,0.25) 65%, transparent 100%);
+  animation: smokeDrift3 65s ease-in-out infinite;
+  transform: rotate(5deg);
 }
-.nebula-blob-4 {
-  width: 35vw; height: 35vw; top: 50%; left: -5%;
-  background: radial-gradient(circle, rgba(184,168,250,0.35) 0%, rgba(184,168,250,0) 70%);
-  animation: nebulaDrift4 65s ease-in-out infinite;
+.nebula-smoke-4 {
+  width: 50vw; height: 7vh; top: 78%; right: -10%; opacity: 0.05;
+  background: linear-gradient(90deg, transparent 0%, rgba(200,160,230,0.3) 30%, rgba(160,150,180,0.2) 70%, transparent 100%);
+  animation: smokeDrift4 50s ease-in-out infinite;
+  transform: rotate(-3deg);
 }
-
-@keyframes nebulaDrift1 {
-  0%   { transform: translate(0, 0) scale(1); opacity: 0.08; }
-  33%  { transform: translate(5vw, 3vh) scale(1.08); opacity: 0.12; }
-  66%  { transform: translate(-3vw, 5vh) scale(0.95); opacity: 0.06; }
-  100% { transform: translate(0, 0) scale(1); opacity: 0.08; }
+.nebula-smoke-5 {
+  width: 55vw; height: 5vh; top: 22%; left: 30%; opacity: 0.035;
+  background: linear-gradient(90deg, transparent 0%, rgba(150,140,175,0.25) 45%, rgba(190,160,210,0.2) 75%, transparent 100%);
+  animation: smokeDrift5 70s ease-in-out infinite;
+  transform: rotate(12deg);
 }
-@keyframes nebulaDrift2 {
-  0%   { transform: translate(0, 0) scale(1); opacity: 0.07; }
-  40%  { transform: translate(-4vw, -3vh) scale(1.1); opacity: 0.11; }
-  70%  { transform: translate(3vw, 4vh) scale(0.92); opacity: 0.05; }
-  100% { transform: translate(0, 0) scale(1); opacity: 0.07; }
-}
-@keyframes nebulaDrift3 {
-  0%   { transform: translate(0, 0) scale(1); opacity: 0.06; }
-  50%  { transform: translate(6vw, -4vh) scale(1.12); opacity: 0.1; }
-  100% { transform: translate(0, 0) scale(1); opacity: 0.06; }
-}
-@keyframes nebulaDrift4 {
-  0%   { transform: translate(0, 0) scale(1); opacity: 0.07; }
-  35%  { transform: translate(3vw, 6vh) scale(1.05); opacity: 0.1; }
-  65%  { transform: translate(-4vw, -2vh) scale(0.9); opacity: 0.05; }
-  100% { transform: translate(0, 0) scale(1); opacity: 0.07; }
+.nebula-smoke-6 {
+  width: 45vw; height: 6vh; top: 48%; left: -10%; opacity: 0.04;
+  background: linear-gradient(90deg, transparent 0%, rgba(170,150,200,0.3) 50%, transparent 100%);
+  animation: smokeDrift6 40s ease-in-out infinite;
+  transform: rotate(-6deg);
 }
 
-/* Star canvas */
+@keyframes smokeDrift1 {
+  0%   { transform: translateX(0) rotate(2deg); opacity: 0.06; }
+  50%  { transform: translateX(12vw) rotate(-1deg); opacity: 0.09; }
+  100% { transform: translateX(0) rotate(2deg); opacity: 0.06; }
+}
+@keyframes smokeDrift2 {
+  0%   { transform: translateX(0) rotate(-8deg); opacity: 0.05; }
+  50%  { transform: translateX(-10vw) rotate(-5deg); opacity: 0.08; }
+  100% { transform: translateX(0) rotate(-8deg); opacity: 0.05; }
+}
+@keyframes smokeDrift3 {
+  0%   { transform: translateX(0) rotate(5deg); opacity: 0.04; }
+  40%  { transform: translateX(8vw) rotate(8deg); opacity: 0.07; }
+  100% { transform: translateX(0) rotate(5deg); opacity: 0.04; }
+}
+@keyframes smokeDrift4 {
+  0%   { transform: translateX(0) rotate(-3deg); opacity: 0.05; }
+  60%  { transform: translateX(-8vw) rotate(-6deg); opacity: 0.075; }
+  100% { transform: translateX(0) rotate(-3deg); opacity: 0.05; }
+}
+@keyframes smokeDrift5 {
+  0%   { transform: translateX(0) rotate(12deg); opacity: 0.035; }
+  50%  { transform: translateX(-6vw) rotate(15deg); opacity: 0.06; }
+  100% { transform: translateX(0) rotate(12deg); opacity: 0.035; }
+}
+@keyframes smokeDrift6 {
+  0%   { transform: translateX(0) rotate(-6deg); opacity: 0.04; }
+  50%  { transform: translateX(10vw) rotate(-2deg); opacity: 0.065; }
+  100% { transform: translateX(0) rotate(-6deg); opacity: 0.04; }
+}
+
 .nebula-stars {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   pointer-events: none;
 }
 
-/* Dark mode: intensify blobs */
-:root.dark .nebula-blob { opacity: 0.12; }
-:root.dark .nebula-blob-1 {
-  background: radial-gradient(circle, rgba(123,94,232,0.8) 0%, rgba(123,94,232,0) 70%);
-  animation: nebulaDrift1 72s ease-in-out infinite;
+/* Dark mode: vivid purple/pink smoke, higher opacity */
+:root.dark .nebula-smoke-1 {
+  background: linear-gradient(90deg, transparent 0%, rgba(123,94,232,0.6) 30%, rgba(200,140,255,0.4) 60%, transparent 100%);
+  opacity: 0.15;
 }
-:root.dark .nebula-blob-2 {
-  background: radial-gradient(circle, rgba(200,140,255,0.5) 0%, rgba(200,140,255,0) 70%);
+:root.dark .nebula-smoke-2 {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,140,200,0.4) 40%, rgba(123,94,232,0.5) 70%, transparent 100%);
+  opacity: 0.12;
 }
-:root.dark .nebula-blob-3 {
-  background: radial-gradient(circle, rgba(100,80,220,0.5) 0%, rgba(100,80,220,0) 70%);
+:root.dark .nebula-smoke-3 {
+  background: linear-gradient(90deg, transparent 0%, rgba(100,80,220,0.5) 35%, rgba(180,120,255,0.35) 65%, transparent 100%);
+  opacity: 0.1;
 }
-:root.dark .nebula-blob-4 {
-  background: radial-gradient(circle, rgba(255,180,220,0.3) 0%, rgba(255,180,220,0) 70%);
+:root.dark .nebula-smoke-4 {
+  background: linear-gradient(90deg, transparent 0%, rgba(200,120,255,0.4) 30%, rgba(100,80,200,0.3) 70%, transparent 100%);
+  opacity: 0.12;
+}
+:root.dark .nebula-smoke-5 {
+  background: linear-gradient(90deg, transparent 0%, rgba(140,100,240,0.35) 45%, rgba(220,160,255,0.25) 75%, transparent 100%);
+  opacity: 0.08;
+}
+:root.dark .nebula-smoke-6 {
+  background: linear-gradient(90deg, transparent 0%, rgba(180,100,240,0.4) 50%, transparent 100%);
+  opacity: 0.1;
 }
 
 /* ━━━━━━ GLASS CARDS — frosted translucent panels with top sheen ━━━━━━ */
@@ -1752,11 +1822,8 @@ body, #root { position: relative; z-index: 1; }
 }
 body, #root {
   font-family: 'Source Sans 3', sans-serif;
-  /* Nebula light mode: soft pink-lavender celestial mist */
-  background: radial-gradient(ellipse at 30% 20%, rgba(255,214,232,0.12) 0%, transparent 50%),
-              radial-gradient(ellipse at 70% 60%, rgba(232,224,255,0.18) 0%, transparent 50%),
-              radial-gradient(ellipse at 50% 80%, rgba(255,214,232,0.08) 0%, transparent 40%),
-              linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 30%, #F0EBFF 60%, #EDE8FF 100%);
+  /* Light mode: clean white with very subtle lavender tint. Pink/purple ONLY in smoke wisps. */
+  background: linear-gradient(180deg, #FAFAFF 0%, #F6F4FC 40%, #F4F2FA 70%, #F2F0F8 100%);
   background-attachment: fixed;
   color: var(--gray-700);
   min-height: 100vh;
@@ -11979,7 +12046,7 @@ export default function App(){
           </div>
           <div className="topnav-logo-wrap" onClick={()=>setPage("home")}>
             <span style={{marginRight:6,display:"inline-flex"}}><CountryFlag code={lang} size={22}/></span>
-            <span className="topnav-logo" style={{fontSize:20}}>VerumLingua</span>
+            <VLLogo size={26} glow={darkMode}/><span className="topnav-logo" style={{fontSize:20,marginLeft:6}}>VerumLingua</span>
           </div>
           <div className={`topnav-item ${showVerumius&&vrFullscreen?"active":""}`} onClick={()=>{if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}else{setVrSource("nav");setVrPos(null);setVrFullscreen(true);setShowVerumius(true);}}} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="robot" size={28}/></span><span>{t("nav_chat",baseLang)}</span>
