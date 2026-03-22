@@ -129,10 +129,14 @@ function NebulaBackground(){
           const wobble=0.04*fbm(nx*0.8,ny*1.2,3,2.0,0.5);
           const riverCenter=pathX(1.0-normY)+wobble;
           const dist=Math.abs(normX-riverCenter);
-          // === MAIN RIVER (thick, nearly as wide at far end) ===
-          const riverWidth=0.15+depth*0.35; // 15% at top → 50% at bottom (much thicker!)
-          const depthBright=0.4+depth*0.6; // 40% at far → 100% at close (less aggressive fade)
-          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.2));
+          // === MAIN RIVER (thick, billowing edges) ===
+          const baseWidth=0.15+depth*0.35;
+          // Noisy edge: add fbm bumps so edges billow OUTWARD like smoke clouds
+          const edgeNoise=0.06*fbm(nx*3.0+7,ny*3.0+3,4,2.0,0.5)+0.03*fbm(nx*6.0+2,ny*6.0+1,3,2.0,0.5);
+          const riverWidth=baseWidth+Math.max(0,edgeNoise); // only expand outward, never shrink
+          const depthBright=0.4+depth*0.6;
+          // Soft power 1.6 for rounded cloud-like falloff (not hard sucking-in edge)
+          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,1.6));
           // Branch
           const branchCenter=pathX(1.0-Math.min(1,normY+0.15))+0.12*(normY>0.5?1:-1)+0.03*fbm(nx*0.9+5,ny*1.0+3,3,2.0,0.5);
           const dist2=Math.abs(normX-branchCenter);
@@ -141,13 +145,14 @@ function NebulaBackground(){
           const combined=Math.min(1,(inRiver+inBranch)*depthBright);
           riverMask[py*NW+px]=combined*combined*(3-2*combined);
           // === ELECTRIC CORE (tight hot center) ===
-          const coreWidth=riverWidth*0.35; // much narrower than river
-          const inCore=Math.max(0,1.0-Math.pow(dist/coreWidth,3.0));
+          const coreWidth=riverWidth*0.3;
+          const inCore=Math.max(0,1.0-Math.pow(dist/coreWidth,2.5));
           coreMask[py*NW+px]=inCore*inCore*depthBright;
-          // === OUTER HALO (blown-out soft glow extending far beyond river) ===
-          const haloWidth=riverWidth*2.8; // much wider than river
-          const inHalo=Math.max(0,1.0-Math.pow(dist/haloWidth,1.5));
-          outerMask[py*NW+px]=inHalo*depthBright*0.35; // subtle
+          // === OUTER HALO (billowing soft glow extending far beyond river) ===
+          const haloEdge=0.04*fbm(nx*2.5+12,ny*2.5+8,3,2.0,0.5);
+          const haloWidth=riverWidth*2.5+Math.max(0,haloEdge);
+          const inHalo=Math.max(0,1.0-Math.pow(dist/haloWidth,1.3)); // very soft falloff
+          outerMask[py*NW+px]=inHalo*depthBright*0.35;
         }
       }
 
@@ -218,7 +223,24 @@ function NebulaBackground(){
           db:isBright?255:220+Math.floor(Math.random()*35),
         });
       }
-      return {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,NW,NH};
+      // Lightning bolts: random electrical discharges along the river path
+      const boltCount=18;
+      const bolts=[];
+      for(let i=0;i<boltCount;i++){
+        const pathT=0.1+Math.random()*0.8; // position along river path
+        const py=1.0-pathT; // normY (inverted because pathX uses 1-normY)
+        const px=pathX(pathT)+(Math.random()-0.5)*0.12; // near the river center
+        bolts.push({
+          x:px*w, y:py*h,
+          speed:1.5+Math.random()*3.0, // flash speed
+          offset:Math.random()*Math.PI*2,
+          size:8+Math.random()*20, // lightning flash radius
+          intensity:0.5+Math.random()*0.5,
+          branchAngle:Math.random()*Math.PI*2,
+          branchLen:15+Math.random()*30,
+        });
+      }
+      return {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,bolts,NW,NH};
     };
 
     let lastTime=0;
@@ -232,7 +254,7 @@ function NebulaBackground(){
       const t=time*0.001;
       ctx.clearRect(0,0,w,h);
 
-      const {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars}=dataRef.current;
+      const {cloudCanvases,coreDk,coreLt,haloDk,haloLt,stars,bolts}=dataRef.current;
       const comp=dk?"lighter":"source-over";
 
       // === 1. OUTER HALO (blown-out soft glow around the perimeter) ===
@@ -266,39 +288,98 @@ function NebulaBackground(){
       ctx.drawImage(dk?coreDk:coreLt, cdx, cdy, w, h);
       ctx.restore();
 
-      // === DRAW STARS ===
+      // === 4. LIGHTNING STORM (electrical discharges along the river) ===
+      bolts.forEach(b=>{
+        // Sharp flash: only visible during brief peaks (like real lightning)
+        const flash=Math.sin(t*b.speed+b.offset);
+        const flash2=Math.sin(t*b.speed*1.8+b.offset*3.1);
+        const strike=Math.max(0,Math.pow(Math.max(flash,flash2),8)); // very sharp peak
+        if(strike<0.05)return;
+        const alpha=strike*b.intensity;
+        // Nebula cloud puff around the lightning point
+        const puffR=b.size*2;
+        const grad=ctx.createRadialGradient(b.x,b.y,0,b.x,b.y,puffR);
+        if(dk){
+          grad.addColorStop(0,`rgba(200,160,255,${(alpha*0.5).toFixed(3)})`);
+          grad.addColorStop(0.4,`rgba(140,60,220,${(alpha*0.3).toFixed(3)})`);
+          grad.addColorStop(1,`rgba(80,20,160,0)`);
+        }else{
+          grad.addColorStop(0,`rgba(160,100,220,${(alpha*0.4).toFixed(3)})`);
+          grad.addColorStop(0.4,`rgba(130,80,200,${(alpha*0.25).toFixed(3)})`);
+          grad.addColorStop(1,`rgba(100,60,180,0)`);
+        }
+        ctx.save();
+        ctx.globalCompositeOperation=dk?"lighter":"source-over";
+        ctx.fillStyle=grad;
+        ctx.fillRect(b.x-puffR,b.y-puffR,puffR*2,puffR*2);
+        // Electric core flash (bright white/blue center)
+        const coreR=b.size*0.5;
+        const cg=ctx.createRadialGradient(b.x,b.y,0,b.x,b.y,coreR);
+        cg.addColorStop(0,`rgba(255,255,255,${(alpha*0.9).toFixed(3)})`);
+        cg.addColorStop(0.3,`rgba(200,180,255,${(alpha*0.6).toFixed(3)})`);
+        cg.addColorStop(1,`rgba(150,100,255,0)`);
+        ctx.fillStyle=cg;
+        ctx.fillRect(b.x-coreR,b.y-coreR,coreR*2,coreR*2);
+        // Lightning branch line
+        if(alpha>0.3){
+          ctx.strokeStyle=`rgba(220,200,255,${(alpha*0.7).toFixed(3)})`;
+          ctx.lineWidth=1+alpha;
+          ctx.beginPath();
+          ctx.moveTo(b.x,b.y);
+          const bx2=b.x+Math.cos(b.branchAngle+t*0.3)*b.branchLen*alpha;
+          const by2=b.y+Math.sin(b.branchAngle+t*0.3)*b.branchLen*alpha;
+          // Jagged midpoint for lightning look
+          const mx=b.x+(bx2-b.x)*0.5+(Math.random()-0.5)*8*alpha;
+          const my=b.y+(by2-b.y)*0.5+(Math.random()-0.5)*8*alpha;
+          ctx.lineTo(mx,my);
+          ctx.lineTo(bx2,by2);
+          ctx.stroke();
+        }
+        ctx.restore();
+      });
+
+      // === DRAW STARS (boosted glitter intensity) ===
       ctx.globalCompositeOperation="source-over";
       stars.forEach(s=>{
-        // Dual-frequency sparkle for glittery effect
         const tw1=Math.sin(t*s.speed+s.offset);
         const tw2=Math.sin(t*s.speed2+s.offset*2.3);
-        const tw3=Math.sin(t*s.speed*2.3+s.offset*0.7); // third freq for extra sparkle
-        const glitter=Math.max(tw1,tw2*0.7,tw3*0.4);
-        const opacity=s.baseOpacity*(0.3+0.7*Math.max(0,glitter));
-        if(opacity<0.03)return;
+        const tw3=Math.sin(t*s.speed*2.3+s.offset*0.7);
+        const tw4=Math.sin(t*s.speed*3.1+s.offset*1.4); // 4th frequency!
+        const glitter=Math.max(tw1,tw2*0.7,tw3*0.5,tw4*0.35);
+        // Boosted: higher base + more aggressive flash
+        const opacity=s.baseOpacity*(0.2+0.8*Math.max(0,glitter));
+        if(opacity<0.02)return;
         if(dk){
-          // Dark mode: glowing stars with halo
           ctx.fillStyle=`rgba(${s.dr},${s.dg},${s.db},${opacity.toFixed(3)})`;
-          if(s.bright&&opacity>0.5){
-            ctx.globalAlpha=opacity*0.2;
+          if(s.bright&&opacity>0.4){
+            ctx.globalAlpha=opacity*0.25;
             ctx.fillRect(s.x-s.size*1.5,s.y-s.size*1.5,s.size*3,s.size*3);
             ctx.globalAlpha=1;
           }
           ctx.fillRect(s.x-s.size*0.5,s.y-s.size*0.5,s.size,s.size);
         }else{
-          // Light mode: metallic glitter sparkle cross flashes
-          const flash=Math.max(0,glitter); // 0 to 1 flash intensity
-          if(flash<0.2)return; // only show when sparkling
+          // Light mode: bigger, more intense cross sparkles
+          const flash=Math.max(0,glitter);
+          if(flash<0.1)return; // lower threshold = more visible more often
           const gc=s.gc;
-          const sz=s.size*(0.6+flash*0.8); // grows during flash
-          const a=(flash*opacity).toFixed(3);
-          // Cross/sparkle shape: horizontal + vertical thin bars
+          const sz=s.size*(0.8+flash*1.2); // bigger growth
+          const a=Math.min(1,flash*opacity*1.5).toFixed(3); // boosted intensity
+          // Cross sparkle
           ctx.fillStyle=`rgba(${gc[0]},${gc[1]},${gc[2]},${a})`;
-          ctx.fillRect(s.x-sz*1.2,s.y-sz*0.2,sz*2.4,sz*0.4); // horizontal bar
-          ctx.fillRect(s.x-sz*0.2,s.y-sz*1.2,sz*0.4,sz*2.4); // vertical bar
-          // Bright center dot
-          ctx.fillStyle=`rgba(255,255,255,${(flash*0.9).toFixed(3)})`;
-          ctx.fillRect(s.x-sz*0.3,s.y-sz*0.3,sz*0.6,sz*0.6);
+          ctx.fillRect(s.x-sz*1.5,s.y-sz*0.15,sz*3,sz*0.3);
+          ctx.fillRect(s.x-sz*0.15,s.y-sz*1.5,sz*0.3,sz*3);
+          // Diagonal cross for extra sparkle
+          if(flash>0.5){
+            ctx.save();
+            ctx.translate(s.x,s.y);
+            ctx.rotate(Math.PI/4);
+            ctx.fillRect(-sz*1.0,-sz*0.1,sz*2,sz*0.2);
+            ctx.fillRect(-sz*0.1,-sz*1.0,sz*0.2,sz*2);
+            ctx.restore();
+          }
+          // Bright center
+          ctx.fillStyle=`rgba(255,255,255,${Math.min(1,flash*1.2).toFixed(3)})`;
+          ctx.fillRect(s.x-sz*0.35,s.y-sz*0.35,sz*0.7,sz*0.7);
         }
       });
       frameRef.current=requestAnimationFrame(animate);
@@ -1572,8 +1653,8 @@ const CSS = `
 .nebula-wrap {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
   z-index: 0; pointer-events: none; overflow: hidden;
-  /* Layer 1: cool grey base so pink/purple wisps pop */
-  background: linear-gradient(180deg, #F0EEF4 0%, #E8E6EE 30%, #E4E2EC 60%, #E0DEE8 100%);
+  /* Layer 1: flat pastel baby blue sky — daytime nebula view */
+  background: #D2E4F2;
 }
 :root.dark .nebula-wrap {
   background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%);
