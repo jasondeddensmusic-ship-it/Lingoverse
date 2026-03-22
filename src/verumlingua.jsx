@@ -97,11 +97,11 @@ function NebulaBackground(){
         [60,40,160],[80,60,200],[50,30,140],                               // deep blue
         [255,100,220],[240,120,255],                                       // hot pink
       ];
-      // Light: muted lavender/pink/grey wisps
+      // Light: richer purple/pink/rose so they show on white bg
       const ltPalette=[
-        [180,155,220],[195,165,230],[165,140,210],[175,150,215],           // lavender
-        [210,170,225],[200,160,220],[190,155,215],                         // pink-lavender
-        [160,145,195],[170,150,200],                                       // grey-purple
+        [160,120,210],[175,130,220],[150,110,200],[165,125,215],           // purple
+        [200,140,210],[190,130,215],[180,120,210],                         // rose-purple
+        [140,110,190],[155,120,200],[210,150,230],                         // deeper tones
       ];
       const mkWisp=(x,y,rx,ry,rot,dSpd,opDk,opLt)=>{
         const dc=dkPalette[Math.floor(Math.random()*dkPalette.length)];
@@ -115,7 +115,7 @@ function NebulaBackground(){
         mkWisp(Math.random()*w, h*0.1+Math.random()*h*0.8,
           w*(0.5+Math.random()*0.7), h*(0.15+Math.random()*0.2),
           -0.3+Math.random()*0.6, 0.06+Math.random()*0.05,
-          0.28+Math.random()*0.15, 0.12+Math.random()*0.08);
+          0.28+Math.random()*0.15, 0.25+Math.random()*0.15);
       }
       // Layer 1: medium flowing wisps (10, elongated tendrils, the main nebula body)
       for(let i=0;i<10;i++){
@@ -124,7 +124,7 @@ function NebulaBackground(){
         mkWisp(-w*0.15+Math.random()*w*1.3, Math.random()*h,
           baseR*stretch, baseR,
           -0.8+Math.random()*1.6, 0.1+Math.random()*0.12,
-          0.22+Math.random()*0.2, 0.08+Math.random()*0.1);
+          0.22+Math.random()*0.2, 0.18+Math.random()*0.15);
       }
       // Layer 2: thin accent wisps (8, very elongated — adds streaky detail)
       for(let i=0;i<8;i++){
@@ -133,7 +133,7 @@ function NebulaBackground(){
         mkWisp(-w*0.1+Math.random()*w*1.2, Math.random()*h,
           baseR*stretch, baseR,
           -1.2+Math.random()*2.4, 0.15+Math.random()*0.15,
-          0.18+Math.random()*0.18, 0.06+Math.random()*0.07);
+          0.18+Math.random()*0.18, 0.14+Math.random()*0.12);
       }
       // Layer 3: fine detail wisps (12, small, fast — texture and grain like real nebula)
       for(let i=0;i<12;i++){
@@ -142,7 +142,7 @@ function NebulaBackground(){
         mkWisp(-w*0.05+Math.random()*w*1.1, Math.random()*h,
           baseR*stretch, baseR,
           Math.random()*Math.PI*2, 0.2+Math.random()*0.2,
-          0.12+Math.random()*0.15, 0.04+Math.random()*0.05);
+          0.12+Math.random()*0.15, 0.1+Math.random()*0.1);
       }
       // Layer 4: micro filaments (15, tiny wispy threads — the finest detail)
       for(let i=0;i<15;i++){
@@ -151,7 +151,7 @@ function NebulaBackground(){
         mkWisp(Math.random()*w, Math.random()*h,
           baseR*stretch, baseR,
           Math.random()*Math.PI*2, 0.25+Math.random()*0.25,
-          0.1+Math.random()*0.12, 0.03+Math.random()*0.04);
+          0.1+Math.random()*0.12, 0.07+Math.random()*0.08);
       }
       return {stars,wisps};
     };
@@ -1479,8 +1479,8 @@ const CSS = `
 .nebula-wrap {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
   z-index: 0; pointer-events: none; overflow: hidden;
-  /* Layer 1: base color */
-  background: linear-gradient(180deg, #FAFAFF 0%, #F6F4FC 40%, #F4F2FA 70%, #F2F0F8 100%);
+  /* Layer 1: cool grey base so pink/purple wisps pop */
+  background: linear-gradient(180deg, #F0EEF4 0%, #E8E6EE 30%, #E4E2EC 60%, #E0DEE8 100%);
 }
 :root.dark .nebula-wrap {
   background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%);
