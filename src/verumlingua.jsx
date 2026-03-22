@@ -1645,17 +1645,22 @@ const CSS = `
   --glass-blur: blur(22px) saturate(1.3);
 }
 :root.dark body, :root.dark #root {
-  background: transparent;
+  background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #16162B 50%, #121228 100%);
+  background-attachment: fixed;
   color: var(--gray-700);
 }
+/* Cloud mode: nebula/clouds overlay — toggled ON makes backgrounds transparent */
+:root.cloud-mode body, :root.cloud-mode #root { background: transparent !important; }
+:root.dark.cloud-mode body, :root.dark.cloud-mode #root { background: transparent !important; }
 
-/* ═══ NEBULA BACKGROUND SYSTEM ═══ */
+/* ═══ NEBULA BACKGROUND SYSTEM (cloud mode only) ═══ */
 .nebula-wrap {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
   z-index: 0; pointer-events: none; overflow: hidden;
-  /* Light mode: Midjourney cotton-candy clouds on cornflower blue sky */
+  display: none; /* Hidden by default — cloud mode activates it */
   background: #7CBBEC url('/bg-light.png') center center / cover no-repeat fixed;
 }
+:root.cloud-mode .nebula-wrap { display: block; }
 :root.dark .nebula-wrap {
   /* Dark mode: deep space gradient — canvas draws the nebula on top */
   background: radial-gradient(ellipse at 50% 0%, #1E1E3A 0%, #0D0B1A 60%, #080618 100%);
@@ -1984,8 +1989,8 @@ const CSS = `
 }
 body, #root {
   font-family: 'Source Sans 3', sans-serif;
-  /* Light mode: transparent so nebula shows through */
-  background: transparent;
+  background: linear-gradient(180deg, #E6ECFA 0%, #DDE6F8 40%, #E6ECFA 100%);
+  background-attachment: fixed;
   color: var(--gray-700);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -11846,7 +11851,7 @@ function DevGate({onAccess}){
     else{setError(true);setShake(true);setTimeout(()=>setShake(false),500);setCode("");}
   };
   return(
-    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:dk?"radial-gradient(ellipse at 50% 40%, rgba(30,30,58,0.7) 0%, rgba(18,18,40,0.85) 100%)":"linear-gradient(180deg, rgba(230,236,250,0.85) 0%, rgba(220,213,255,0.9) 100%)",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
+    <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",background:dk?"linear-gradient(135deg,#1E1E2E 0%,#2A2040 50%,#1E1E2E 100%)":"linear-gradient(135deg,#F8F6FF 0%,#EDE8FF 50%,#F0EAFF 100%)",fontFamily:"'Nunito','DM Sans','Inter',system-ui,sans-serif"}}>
       <div style={{textAlign:"center",padding:"48px 40px",borderRadius:28,background:dk?"rgba(40,38,60,0.85)":"white",boxShadow:dk?"0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)":"0 20px 60px rgba(123,94,232,0.12), 0 4px 16px rgba(0,0,0,0.04)",maxWidth:360,width:"90%",animation:shake?"shake 0.5s ease":"none"}}>
         <div style={{width:72,height:72,borderRadius:20,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 20px",boxShadow:"0 8px 24px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>
           <span style={{fontSize:36}}>🔑</span>
@@ -11921,6 +11926,7 @@ export default function App(){
   const [user,setUser]=useState({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set()});
   const [showResetModal,setShowResetModal]=useState(false);
   const [darkMode,setDarkMode]=useState(false);
+  const [cloudMode,setCloudMode]=useState(()=>{try{return localStorage.getItem("vl_cloud_mode")==="true";}catch(e){return false;}});
   const [showSearch,setShowSearch]=useState(false);
   const [searchQuery,setSearchQuery]=useState("");
   const [previewResult,setPreviewResult]=useState(null);
@@ -12061,6 +12067,7 @@ export default function App(){
 
   // ── Dark mode: set class synchronously so children read correct dk ──
   document.documentElement.classList.toggle("dark",darkMode);
+  document.documentElement.classList.toggle("cloud-mode",cloudMode);
 
   // ── Ctrl+N: toggle dark mode ──
   useEffect(()=>{
@@ -12276,6 +12283,9 @@ export default function App(){
         {showTools&&<div className="vl-panel">
           <button className={"vl-ibtn"+(darkMode?" on":"")} title="Dark mode (Ctrl+N)" onClick={()=>setDarkMode(d=>!d)}>
             <span style={{fontSize:14,lineHeight:1,color:darkMode?"#C0AEFF":"#777788"}}>{darkMode?"☀":"☽"}</span>
+          </button>
+          <button className={"vl-ibtn"+(cloudMode?" on":"")} title="Cloud mode (nebula overlay)" onClick={()=>{setCloudMode(c=>{const nv=!c;try{localStorage.setItem("vl_cloud_mode",String(nv));}catch(e){}return nv;});}}>
+            <span style={{fontSize:14,lineHeight:1,color:cloudMode?"#C0AEFF":"#777788"}}>☁</span>
           </button>
           <button data-search-btn className={"vl-ibtn"+(showSearch?" on":"")} title="Search (Ctrl+F)" onClick={()=>setShowSearch(s=>{if(s){setSearchQuery("");return false;}return true;})}>
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke={showSearch?"#7B5EE8":(darkMode?"#D0D0E2":"#777788")} strokeWidth="2.2" strokeLinecap="round"><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
