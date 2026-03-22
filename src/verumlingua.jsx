@@ -104,27 +104,38 @@ function NebulaBackground(){
       // Pre-render nebula cloud textures at 1/3 resolution
       const NW=Math.floor(w/3),NH=Math.floor(h/3);
 
-      // === RIVER PATH MASK ===
-      // Creates a flowing zigzag band where nebula is concentrated
-      // Areas far from the river fade to transparent (showing dark space or grey bg)
+      // === RIVER PATH MASK (3D perspective) ===
+      // A smooth flowing S-curve nebula river that recedes into the distance
+      // Wide and bright at bottom (close), narrow and faint at top (far away)
       const riverMask=new Float32Array(NW*NH);
       const pixScale=0.007;
       for(let py=0;py<NH;py++){
         for(let px=0;px<NW;px++){
           const nx=px*pixScale,ny=py*pixScale;
-          // Two winding river paths that cross and merge
-          // River 1: diagonal zigzag from top-left to bottom-right
           const normX=px/NW, normY=py/NH;
-          const river1Center=0.3+0.35*normX+0.18*Math.sin(normX*10+1.5)+0.1*fbm(nx*2,ny*0.5,3,2.0,0.5);
-          const dist1=Math.abs(normY-river1Center);
-          const river1=Math.max(0,1-dist1*7.0); // tight ~14% screen band
-          // River 2: opposing diagonal, narrower
-          const river2Center=0.75-0.35*normX+0.14*Math.sin(normX*7+3.0)+0.07*fbm(nx*2+10,ny*0.5+5,3,2.0,0.5);
-          const dist2=Math.abs(normY-river2Center);
-          const river2=Math.max(0,1-dist2*9.0); // very tight secondary
-          // Combine rivers
-          const combined=Math.min(1,river1+river2*0.5);
-          // Smooth falloff: cubic for soft edges
+          // Perspective: depth goes from 1.0 (bottom=close) to 0.0 (top=far)
+          const depth=normY;
+          // River width: wide at bottom, narrow at top (perspective convergence)
+          const riverWidth=0.06+depth*0.22; // 6% at top, 28% at bottom
+          // Brightness/opacity falloff with distance
+          const depthBright=0.3+depth*0.7; // 30% at top, 100% at bottom
+          // Big flowing S-curves from side to side as it comes toward camera
+          // Low frequency for smooth wide curves, not pointy zigzags
+          const wobble=0.28*Math.sin(normY*3.2+0.5)+0.12*Math.sin(normY*5.8+2.0)+0.06*fbm(nx*0.6,ny*1.0,3,2.0,0.5);
+          const riverCenter=0.5+wobble;
+          // Distance from river center
+          const dist=Math.abs(normX-riverCenter);
+          // Gaussian-ish falloff for soft edges (not hard cutoff)
+          const inRiver=Math.max(0,1.0-Math.pow(dist/riverWidth,2.0));
+          // Secondary thinner wisp that branches off
+          const wobble2=0.2*Math.sin(normY*4.0+3.5)+0.1*Math.sin(normY*7.0+1.0)+0.05*fbm(nx*0.7+5,ny*1.0+3,3,2.0,0.5);
+          const branch=0.3+wobble2;
+          const dist2=Math.abs(normX-branch);
+          const branchWidth=0.03+depth*0.1;
+          const inBranch=Math.max(0,1.0-Math.pow(dist2/branchWidth,2.0))*0.4;
+          // Combine main river + branch, apply depth brightness
+          const combined=Math.min(1,(inRiver+inBranch)*depthBright);
+          // Smooth hermite interpolation
           riverMask[py*NW+px]=combined*combined*(3-2*combined);
         }
       }
