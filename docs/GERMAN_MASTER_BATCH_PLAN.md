@@ -10,6 +10,36 @@ German is the **template language** — every decision gets documented as a reus
 
 ---
 
+## EXECUTION LOG
+
+| Phase | Date | Status | Key Result |
+|-------|------|--------|------------|
+| 0A: Word Lists | 2026-03-23 | ✅ DONE | 3,303 Goethe lemmas downloaded (A1:848, A2:612, B1:1,843). No B2 list exists. DWDS JSON. |
+| 0B: Grammar | 2026-03-23 | ✅ DONE | 116/116 verified. +2 additions → 118 total (Modalpartikeln B2, Demonstrativartikel A1). |
+| 0C: Functions | 2026-03-23 | ✅ DONE | 84 functions mapped (expanded from 60). Zero gaps across all 4 levels. |
+| 0D: Salvage | 2026-03-23 | ✅ DONE | 1,690 unique words, 1,444 teach cards, 99.5% with dialogues, 486 gendered nouns. |
+| Coverage | 2026-03-23 | ✅ DONE | 22.5% coverage (743/3,307). 2,564 words need adding. |
+| 1A: Story Arc | 2026-03-23 | ✅ DONE | 36/36 PASS. 33 NATURAL grammar fit, 3 GOOD, 0 FORCED. 7 minor fixes documented. |
+| 1B: Scenes | 2026-03-23 | ✅ DONE | 144 scenes designed. 44 locations. 6 character expression maps. ~30-35 MJ backgrounds. |
+| 2A: A1 Vocab | — | ⏳ NEXT | Map 848 Goethe A1 words to 6 units |
+| 2B: A1 Grammar | — | ⏳ NEXT | Map 27 A1 constructs to lessons |
+| 2C: A1 Functions | — | ⏳ NEXT | Map 20 A1 functions to practice |
+| 2D: A1 Lessons | — | ⏳ NEXT | Design ~48 lesson outlines |
+
+### Deliverables Created (docs/german/)
+- `goethe-wordlist-sources.md` — Source documentation + DWDS download URLs
+- `goethe-a1.json` / `goethe-a2.json` / `goethe-b1.json` — Official word lists (machine-readable)
+- `grammar-inventory-verification.md` — 118 constructs verified with citations
+- `communicative-functions-mapping.md` — 84 functions mapped, zero gaps
+- `coverage-report.md` — V1 vs Goethe comparison (22.5% coverage)
+- `story-arc-validation.md` — Phase 1A validation report
+- `episode-scene-breakdowns.md` — 144 scenes across 36 episodes
+
+### Deliverables Created (docs/salvage/)
+- `german-v1-analysis.md` — Complete v1 content inventory
+
+---
+
 ## Phase 0: Foundation (Sessions 1-2)
 
 **What**: Obtain and document ALL official reference material. This is the single source of truth for everything that follows.
