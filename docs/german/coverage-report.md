@@ -1,0 +1,2738 @@
+# German Goethe Word List Coverage Report
+
+Generated: 2026-03-23
+
+## Data Sources
+
+- **Goethe A1**: goethe-a1.json (840 lemmas)
+- **Goethe A2**: goethe-a2.json (616 lemmas)
+- **Goethe B1**: goethe-b1.json (1851 lemmas)
+- **V1 teach cards**: units-german.js (1437 total, 1337 unique)
+
+## Summary
+
+| Level | Goethe Words | Covered | Gaps | Coverage |
+|-------|-------------|---------|------|----------|
+| A1 | 840 | 428 | 412 | 51.0% |
+| A2 | 616 | 154 | 462 | 25.0% |
+| B1 | 1851 | 161 | 1690 | 8.7% |
+| **Total** | **3307** | **743** | **2564** | **22.5%** |
+
+### Match Type Breakdown
+
+| Match Type | Description | Count |
+|-----------|-------------|-------|
+| exact | Goethe lemma exactly matches a teach card word (after article stripping) | 742 |
+| in-phrase | Goethe lemma found as whole word within a multi-word teach card phrase | 1 |
+
+## A1 Gaps (412 words)
+
+### Substantiv (218)
+
+- Abflug (der)
+- Absender (der)
+- Achtung (die)
+- Adresse (die)
+- Angebot (das)
+- Anmeldung (die)
+- Anrede (die)
+- Anruf (der)
+- Anrufbeantworter (der)
+- Ansage (die)
+- Anschluss (der)
+- Antwort (die)
+- Anzeige (die)
+- Apartment (das)
+- Appartement (das)
+- Appetit (der)
+- Aufzug (der)
+- August (der)
+- Ausflug (der)
+- Ausgang (der)
+- Auskunft (die)
+- Ausländer (der)
+- Aussage (die)
+- Ausweis (der)
+- Autobahn (die)
+- Automat (der)
+- Baby (das)
+- Bäckerei (die)
+- Bad (das)
+- Bahn (die)
+- Bahnsteig (der)
+- Balkon (der)
+- Beamte (der/die)
+- Bekannte (die/der)
+- Bild (das)
+- Birne (die)
+- Bleistift (der)
+- Blick (der)
+- Bogen (der)
+- Briefmarke (die)
+- Buchstabe (der)
+- Café (das)
+- CD (die)
+- Datum (das)
+- Deutsche (die/der)
+- Doktor (der)
+- Doppelzimmer (das)
+- Dorf (das)
+- Drucker (der)
+- Durchsage (die)
+- Durst (der)
+- Dusche (die)
+- Ecke (die)
+- Ehefrau (die)
+- Ehemann (der)
+- Eingang (der)
+- Einladung (die)
+- Eintritt (der)
+- Einzelzimmer (das)
+- Empfänger (der)
+- Ende (das)
+- Erwachsene (die/der)
+- Europa (das)
+- Europäer (der)
+- Fahrer (der)
+- Familie (die)
+- Familienname (der)
+- Familienstand (der)
+- Fax (das)
+- Feiertag (der)
+- Feuer (das)
+- Flasche (die)
+- Formular (das)
+- Freizeit (die)
+- Frühjahr (das)
+- Führung (die)
+- Fußball (der)
+- Gast (der)
+- Geburtsjahr (das)
+- Geburtsort (der)
+- Gemüse (das)
+- Gepäck (das)
+- Geschäft (das)
+- Gespräch (das)
+- Getränk (das)
+- Gewicht (das)
+- Glas (das)
+- Glück (das)
+- Grad (der)
+- Gramm (das)
+- Großeltern
+- Gruppe (die)
+- Gruß (der)
+- Haar (das)
+- Hähnchen (das)
+- Halbpension (die)
+- Halle (die)
+- Hausfrau (die)
+- Hausmann (der)
+- Heimat (die)
+- Herd (der)
+- Hilfe (die)
+- Hobby (das)
+- Hochzeit (die)
+- Job (der)
+- Jugendliche (die/der)
+- Juli (der)
+- Karte (die)
+- Kasse (die)
+- Kilogramm (das)
+- Kilometer (der)
+- Kindergarten (der)
+- Kino (das)
+- Kiosk (der)
+- Klasse (die)
+- Kleidung (die)
+- Koffer (der)
+- Konto (das)
+- Kreditkarte (die)
+- Kugelschreiber (der)
+- Kunde (der)
+- Kundin (die)
+- Kurs (der)
+- Lebensmittel (das)
+- Licht (das)
+- Lieblingslied (das)
+- Lied (das)
+- Liter (der/das)
+- Lkw (der)
+- LKW (der)
+- Lokal (das)
+- Mädchen (das)
+- Maschine (die)
+- Mensch (der)
+- Meter (der)
+- Milliarde (die)
+- Million (die)
+- Minute (die)
+- Mittag (der)
+- Mitte (die)
+- Möbel (das)
+- Moment (der)
+- Nachmittag (der)
+- November (der)
+- Nummer (die)
+- Obst (das)
+- Oktober (der)
+- Öl (das)
+- Ordnung (die)
+- Papier (das)
+- Partner (der)
+- Partnerin (die)
+- Party (die)
+- Pass (der)
+- Pfund (das)
+- Plan (der)
+- Platz (der)
+- Postleitzahl (die)
+- Praktikum (das)
+- Praxis (die)
+- Prospekt (der)
+- Prozent (das)
+- Quadratmeter (der)
+- Raum (der)
+- Regen (der)
+- Reise (die)
+- Reisebüro (das)
+- Reiseführer (der)
+- Reparatur (die)
+- S-Bahn (die)
+- Salz (das)
+- Satz (der)
+- Schalter (der)
+- Schild (das)
+- Schinken (der)
+- Schuh (der)
+- Schüler (der)
+- Schwimmbad (das)
+- Sehenswürdigkeit (die)
+- Sekunde (die)
+- September (der)
+- Sohn (der)
+- Sonnabend (der)
+- Sonne (die)
+- Speisenkarte (die)
+- Sport (der)
+- Sprache (die)
+- Stock (der)
+- Studium (das)
+- Stunde (die)
+- Teil (der/das)
+- Telefon (das)
+- Termin (der)
+- Test (der)
+- Thema (das)
+- Ticket (das)
+- Tochter (die)
+- Toilette (die)
+- Treppe (die)
+- Unterricht (der)
+- Unterschrift (die)
+- Verein (der)
+- Verkäufer (der)
+- Vermieter (der)
+- Verwandte (die/der)
+- Vormittag (der)
+- Vorname (der)
+- Vorsicht (die)
+- Vorwahl (die)
+- Wagen (der)
+- Welt (die)
+- Wetter (das)
+- Wochentag (der)
+- Wohnung (die)
+- Wort (das)
+- Zentimeter (der)
+- Zigarette (die)
+- Zoll (der)
+
+### Verb (81)
+
+- abfliegen
+- abgeben
+- abholen
+- anbieten
+- anklicken
+- ankommen
+- ankreuzen
+- anmachen
+- anmelden
+- antworten
+- auf sein
+- aus sein
+- ausfüllen
+- ausmachen
+- aussehen
+- aussteigen
+- baden
+- bedeuten
+- benutzen
+- besichtigen
+- bestellen
+- brauchen
+- buchstabieren
+- dauern
+- drucken
+- einladen
+- einsteigen
+- enden
+- entschuldigen
+- erlauben
+- fehlen
+- feiern
+- fliegen
+- gewinnen
+- gratulieren
+- grillen
+- halten
+- heiraten
+- holen
+- hören
+- kennen
+- kennen lernen
+- kennenlernen
+- kümmern
+- lachen
+- lieben
+- mieten
+- mitbringen
+- mitmachen
+- mitnehmen
+- mögen
+- öffnen
+- rauchen
+- reparieren
+- riechen
+- scheinen
+- schließen
+- schreiben
+- sehen
+- sollen
+- studieren
+- tanzen
+- telefonieren
+- tun
+- übernachten
+- überweisen
+- umziehen
+- unterschreiben
+- verdienen
+- verkaufen
+- vermieten
+- warten
+- weg sein
+- weh tun
+- wehtun
+- wieder holen
+- wiederholen
+- wohnen
+- wollen
+- zahlen
+- zu sein
+
+### Adjektiv (37)
+
+- arbeitslos
+- ausländisch
+- automatisch
+- bar
+- bös
+- breit
+- eilig
+- einfach
+- europäisch
+- falsch
+- frei
+- fremd
+- gültig
+- herzlich
+- international
+- kaputt
+- klar
+- kulturell
+- kurz
+- lang
+- langsam
+- leise
+- letzt
+- lieb
+- männlich
+- möglich
+- neu
+- normal
+- pünktlich
+- schlecht
+- selbständig
+- selbstständig
+- tot
+- weiblich
+- wenig
+- willkommen
+- wunderbar
+
+### Adverb (19)
+
+- bisschen
+- circa
+- gerne
+- gleich
+- grade
+- gradeaus
+- heut
+- hinten
+- immer
+- lange
+- leider
+- nie
+- oben
+- oft
+- schon
+- unten
+- zirka
+- zurück
+- zurzeit
+
+### Symbol (11)
+
+- ¢
+- c
+- cm
+- ct
+- g
+- h
+- kg
+- km
+- m²
+- qm
+- st
+
+### Kardinalzahlwort (7)
+
+- achtzig
+- einhundert
+- fünfzehn
+- fünfzig
+- neunzig
+- siebenzig
+- vierzig
+
+### Possessivpronomen (5)
+
+- euer
+- eure
+- unser
+- unsere
+- unsre
+
+### Präposition (4)
+
+- ab
+- durch
+- für
+- gegen
+
+### unknown (4)
+
+- all
+- allein
+- alleine
+- beide
+
+### Indefinitpronomen (4)
+
+- ander
+- jede
+- jeder
+- jedes
+
+### partizipiales Adjektiv (4)
+
+- bekannt
+- besetzt
+- geboren
+- verboten
+
+### Ordinalzahlwort (4)
+
+- dritte
+- erste
+- vierte
+- zweite
+
+### Mehrwortausdruck (4)
+
+- Pommes frites
+- Rad fahren
+- was für ein
+- was für eine
+
+### Superlativ (3)
+
+- best
+- meist
+- nächst
+
+### Konjunktion (2)
+
+- also
+- denn
+
+### Personalpronomen (2)
+
+- ’s
+- ihn
+
+### Pronomen (1)
+
+- alle
+
+### Pronominaladverb (1)
+
+- daneben
+
+### Affix (1)
+
+- weiter-
+
+## A2 Gaps (462 words)
+
+### Substantiv (222)
+
+- Ahnung (die)
+- Anzug (der)
+- Apparat (der)
+- Ausbildung (die)
+- Ausstellung (die)
+- Babysitter (der)
+- Ball (der)
+- Band (die)
+- Basketball (der)
+- Baustelle (die)
+- Bescheid (der)
+- Besuch (der)
+- Blatt (das)
+- Blog (das/der)
+- Bluse (die)
+- Bohne (die)
+- Brille (die)
+- Brücke (die)
+- Cafeteria (die)
+- Chefin (die)
+- Circus (der)
+- Club (der)
+- Comic (der)
+- Creme (die)
+- Crème (die)
+- Dame (die)
+- Datei (die)
+- Ding (das)
+- Disco (die)
+- Disko (die)
+- E-Book (das)
+- Ehepartner (der)
+- Einkaufszentrum (das)
+- Eis (das)
+- Erdgeschoss (das)
+- Erlaubnis (die)
+- Ermäßigung (die)
+- Fan (der)
+- Feier (die)
+- Ferien
+- Fest (das)
+- Festival (das)
+- Flohmarkt (der)
+- Flug (der)
+- Fotoapparat (der)
+- Führerschein (der)
+- Fundsache (die)
+- Gabel (die)
+- Garage (die)
+- Gegenteil (das)
+- Geldbörse (die)
+- Gerät (das)
+- Gericht (das)
+- Geschichte (die)
+- Geschirr (das)
+- Gesundheit (die)
+- Gewitter (das)
+- Grippe (die)
+- Hamburger (der)
+- Händetuch (das)
+- Handtuch (das)
+- Haushalt (der)
+- Heft (das)
+- Heizung (die)
+- Himmel (der)
+- Homepage (die)
+- Idee (die)
+- Insel (die)
+- Instrument (das)
+- Interesse (das)
+- Interview (das)
+- Jugendherberge (die)
+- Kalender (der)
+- Kamera (die)
+- Kaufhaus (das)
+- Kette (die)
+- Kirche (die)
+- Klavier (das)
+- Klub (der)
+- Kontakt (der)
+- Konzert (das)
+- Körper (der)
+- Kosmetik (die)
+- Krankenkasse (die)
+- Krankheit (die)
+- Krimi (der)
+- Kultur (die)
+- Kunst (die)
+- Landschaft (die)
+- Laptop (der)
+- Link (der)
+- Löffel (der)
+- Lüge (die)
+- Lust (die)
+- Magen (der)
+- Mail (die)
+- Mailbox (die)
+- Mannschaft (die)
+- Markt (der)
+- Menge (die)
+- Messe (die)
+- Messer (das)
+- Mineralwasser (das)
+- Mitarbeiter (der)
+- Mittel (das)
+- Mobiltelefon (das)
+- Mode (die)
+- Motor (der)
+- Motorroller (der)
+- Müll (der)
+- Musik (die)
+- Mütze (die)
+- Nachbar (der)
+- Nachbarin (die)
+- nächste (der)
+- Nächste (der)
+- Nähe (die)
+- Natur (die)
+- Notiz (die)
+- Nudel (die)
+- Ohr (das)
+- Paar (das)
+- Paket (das)
+- Parfum (das)
+- Parfüm (das)
+- Park (der)
+- Person (die)
+- Pflanze (die)
+- Plakat (das)
+- Portion (die)
+- Poster (das)
+- Postkarte (die)
+- Produkt (das)
+- Programm (das)
+- Qualität (die)
+- Quiz (das)
+- Rad (das)
+- Radio (das)
+- Rätsel (das)
+- Reifen (der)
+- Reihe (die)
+- Reinigung (die)
+- Rentner (der)
+- Rentnerin (die)
+- Rest (der)
+- Rind (das)
+- Ring (der)
+- Rose (die)
+- Rucksack (der)
+- Ruhe (die)
+- Rundgang (der)
+- Sache (die)
+- Schere (die)
+- Schirm (der)
+- Schloss (das)
+- Schmerz (der)
+- Schnee (der)
+- Schokolade (die)
+- Schülerin (die)
+- Seife (die)
+- Seite (die)
+- Service (der)
+- Situation (die)
+- Spass (der)
+- Spaziergang (der)
+- Spiel (das)
+- Sportplatz (der)
+- Sprechstunde (die)
+- Stadtplan (der)
+- Star (der)
+- Stockwerk (das)
+- Strand (der)
+- Stress (der)
+- Süßigkeit (die)
+- Tablet (das/der)
+- Tablette (die)
+- Tafel (die)
+- Taschengeld (das)
+- Tasse (die)
+- Team (das)
+- Teller (der)
+- Tennis (das)
+- Theater (das)
+- Tipp (der)
+- Titel (der)
+- Topf (der)
+- Torte (die)
+- Tour (die)
+- Tourist (der)
+- Touristin (die)
+- Training (das)
+- Traum (der)
+- Übersetzung (die)
+- Umzug (der)
+- Unfall (der)
+- Unterkunft (die)
+- Veranstaltung (die)
+- Verkehr (der)
+- Verkehrsmittel (das)
+- Vermieterin (die)
+- Verspätung (die)
+- Volleyball (der/das)
+- Vorschlag (der)
+- Wäsche (die)
+- Web-Seite (die)
+- Webseite (die)
+- Weg (der)
+- Werkstatt (die)
+- Wettbewerb (der)
+- Witz (der)
+- Workshop (der)
+- Wunsch (der)
+- Wurst (die)
+- Zahl (die)
+- Zeitschrift (die)
+- Zelt (das)
+- Zentrum (das)
+- Zettel (der)
+- Zeugnis (das)
+- Zirkus (der)
+- Zitrone (die)
+- Zucker (der)
+
+### Verb (104)
+
+- abschließen
+- ansehen
+- aufmachen
+- aufpassen
+- ausgeben
+- ausgehen
+- auspacken
+- aussprechen
+- austauschen
+- austragen
+- backen
+- basteln
+- bauen
+- beantworten
+- bedanken
+- beeilen
+- beenden
+- begründen
+- beraten
+- beschreiben
+- beschweren
+- bestätigen
+- bewerben
+- braten
+- buchen
+- chatten
+- diskutieren
+- einpacken
+- eintragen
+- einziehen
+- erinnern
+- erreichen
+- fallen
+- fotografieren
+- herstellen
+- informieren
+- interessieren
+- joggen
+- klappen
+- kontrollieren
+- kündigen
+- lassen
+- leidtun
+- leihen
+- liefern
+- malen
+- merken
+- nennen
+- notieren
+- organisieren
+- packen
+- passen
+- probieren
+- prüfen
+- putzen
+- raten
+- rechnen
+- reiten
+- renovieren
+- reservieren
+- rufen
+- sammeln
+- schimpfen
+- schneiden
+- schneien
+- singen
+- stattfinden
+- stören
+- streiten
+- surfen
+- tauschen
+- teilen
+- teilnehmen
+- tragen
+- trainieren
+- träumen
+- üben
+- übersetzen
+- unterhalten
+- unternehmen
+- untersuchen
+- verabreden
+- verbieten
+- vereinbaren
+- vergleichen
+- verletzen
+- verlieben
+- verpassen
+- verreisen
+- verschieben
+- vorbereiten
+- wählen
+- wechseln
+- wecken
+- weinen
+- wünschen
+- zeichnen
+- zuhören
+- zumachen
+- zurückfahren
+- zurückgeben
+- zurückgehen
+- zurückkommen
+- zurücklaufen
+
+### Adjektiv (81)
+
+- aktiv
+- aktuell
+- bequem
+- blöd
+- blöde
+- blond
+- deutlich
+- direkt
+- dumm
+- dünn
+- echt
+- egal
+- eigen
+- eigentlich
+- einzeln
+- eng
+- fantastisch
+- faul
+- fett
+- fleißig
+- freiwillig
+- furchtbar
+- ganz
+- gefährlich
+- hart
+- hässlich
+- heiß
+- intelligent
+- kalt
+- klug
+- komisch
+- kostenlos
+- kühl
+- langweilig
+- leer
+- modern
+- nass
+- nebelig
+- neblig
+- notwendig
+- nützlich
+- offen
+- phantastisch
+- praktisch
+- preiswert
+- privat
+- romantisch
+- rund
+- sauber
+- schade
+- schädlich
+- schlimm
+- schmutzig
+- schrecklich
+- schriftlich
+- schwach
+- schwanger
+- schwierig
+- sonnig
+- sportlich
+- stark
+- streng
+- stressig
+- super
+- sympathisch
+- toll
+- total
+- trocken
+- typisch
+- unbedingt
+- verschieden
+- voll
+- wach
+- wahr
+- warm
+- weich
+- windig
+- wirklich
+- witzig
+- wurscht
+- wurst
+
+### Adverb (32)
+
+- besonders
+- drinnen
+- drüben
+- ein Mal
+- endlich
+- erst
+- her
+- heraus
+- herein
+- hin
+- hoffentlich
+- mal
+- manchmal
+- mindestens
+- nebenan
+- nirgends
+- online
+- rein
+- sogar
+- sonst
+- überall
+- übermorgen
+- unterwegs
+- vorbei
+- vorgestern
+- vorher
+- vorn
+- vorne
+- vorwärts
+- weg
+- wenigstens
+- zuerst
+
+### partizipiales Adjektiv (6)
+
+- beliebt
+- berühmt
+- bewölkt
+- dringend
+- einverstanden
+- spannend
+
+### Indefinitpronomen (5)
+
+- einige
+- jemand
+- manch
+- niemand
+- paar
+
+### Mehrwortausdruck (3)
+
+- auf jeden Fall
+- auf keinen Fall
+- zum Beispiel
+
+### Pronominaladverb (3)
+
+- dabei
+- dorther
+- dorthin
+
+### Affix (3)
+
+- her-
+- hin-
+- zurück-
+
+### Präposition (2)
+
+- außer
+- pro
+
+### Pronomen (1)
+
+- selbst
+
+## B1 Gaps (1690 words)
+
+### Substantiv (950)
+
+- Abbildung (die)
+- Abenteuer (das)
+- Abfall (der)
+- Abfalleimer (der)
+- Abgas (das)
+- Abitur (das)
+- Abonnement (das)
+- Abschied (der)
+- Abschnitt (der)
+- Absenderin (die)
+- Abt (der)
+- Abwart (der)
+- Abwartin (die)
+- Aktion (die)
+- Aktivität (die)
+- Alarm (der)
+- Alkohol (der)
+- Alltag (der)
+- Alphabet (das)
+- Altenheim (das)
+- Alternative (die)
+- Altersheim (das)
+- Amt (das)
+- Anbieter (der)
+- Änderung (die)
+- Angabe (die)
+- Angehörige (die/der)
+- Angestellte (der/die)
+- Anleitung (die)
+- Annonce (die)
+- Anspruch (der)
+- Antrag (der)
+- Anwältin (die)
+- Anzahl (die)
+- Aprikose (die)
+- Arbeiter (der)
+- Arbeiterin (die)
+- Arbeitserlaubnis (die)
+- Arbeitslosigkeit (die)
+- Arbeitsstelle (die)
+- Architekt (der)
+- Architektin (die)
+- Ärger (der)
+- Art (die)
+- Ärztin (die)
+- Asyl (das)
+- Atem (der)
+- Aufenthalt (der)
+- Aufforderung (die)
+- Aufnahme (die)
+- Auftrag (der)
+- Auftritt (der)
+- Augenblick (der)
+- Ausdruck (der)
+- Ausfahrt (die)
+- Ausgabe (die)
+- Aushilfe (die)
+- Ausnahme (die)
+- Aussprache (die)
+- Auswahl (die)
+- Autorin (die)
+- Backofen (der)
+- Backrohr (das)
+- Badewanne (die)
+- Ballett (das)
+- Bancomat (der)
+- Bancomatkarte (die)
+- Bankleitzahl (die)
+- Bankomat (der)
+- Bankomatkarte (die)
+- Bar (die)
+- Bargeld (das)
+- Bart (der)
+- Batterie (die)
+- Bau (der)
+- Bauer (der)
+- Bauernhof (der)
+- Beamtin (die)
+- Bedarf (der)
+- Bedienungsanleitung (die)
+- Bedingung (die)
+- Beginn (der)
+- Begründung (die)
+- Behörde (die)
+- Beleg (der)
+- Benzin (das)
+- Beratung (die)
+- Bereich (der)
+- Beschäftigung (die)
+- Beschreibung (die)
+- Besserung (die)
+- Bestätigung (die)
+- Betrag (der)
+- Betreuer (der)
+- Betreuerin (die)
+- Betreuung (die)
+- Betrieb (der)
+- Betriebsrätin (die)
+- Bevölkerung (die)
+- Beweis (der)
+- Bewohner (der)
+- Bewohnerin (die)
+- Beziehung (die)
+- Billet (das)
+- Billett (das)
+- Biologie (die)
+- Boden (der)
+- Boot (das)
+- Botschaft (die)
+- Braten (der)
+- Bremse (die)
+- Briefkasten (der)
+- Brieftasche (die)
+- Briefträger (der)
+- Briefträgerin (die)
+- Briefumschlag (der)
+- Broschüre (die)
+- Brötli (das)
+- Brust (die)
+- Bub (der)
+- Buchhandlung (die)
+- Büchse (die)
+- Büfett (das)
+- Buffet (das)
+- Bühne (die)
+- Burg (die)
+- Bürger (der)
+- Bürgerin (die)
+- Bürste (die)
+- Chance (die)
+- Chipkarte (die)
+- Coiffeur (der)
+- Coiffeuse (die)
+- Couch (die)
+- Couvert (das)
+- Dach (das)
+- Darstellung (die)
+- Daten
+- Dauer (die)
+- Decke (die)
+- Denkmal (das)
+- Dessert (das)
+- Detail (das)
+- Dialekt (der)
+- Dialog (der)
+- Diät (die)
+- Dieb (der)
+- Dienst (der)
+- Diplom (das)
+- Direktor (der)
+- Direktorin (die)
+- Diskothek (die)
+- Diskussion (die)
+- Distanz (die)
+- Doktorin (die)
+- Dokument (das)
+- Dose (die)
+- Dreck (der)
+- Droge (die)
+- Drogerie (die)
+- Druck (der)
+- Durchschnitt (der)
+- EC-Karte (die)
+- Eck (das)
+- Ehe (die)
+- Ehepaar (das)
+- Eile (die)
+- Einbahnstraße (die)
+- Einbrecher (der)
+- Einbrecherin (die)
+- Einbruch (der)
+- Eindruck (der)
+- Einfahrt (die)
+- Einfall (der)
+- Einführung (die)
+- Einkauf (der)
+- Einkommen (das)
+- Einnahme (die)
+- Einrichtung (die)
+- Einschreiben (das)
+- Einwohner (der)
+- Einwohnerin (die)
+- Einzahlung (die)
+- Einzelheit (die)
+- Eisenbahn (die)
+- Empfang (der)
+- Empfehlung (die)
+- Energie (die)
+- Enkel (der)
+- Enkelin (die)
+- Entfernung (die)
+- Entlassung (die)
+- Enttäuschung (die)
+- Entwickelung (die)
+- Erdapfel (der)
+- Erde (die)
+- Erfindung (die)
+- Erhöhung (die)
+- Erholung (die)
+- Erinnerung (die)
+- Erklärung (die)
+- Erlebnis (das)
+- Ernährung (die)
+- Ernte (die)
+- Eröffnung (die)
+- Ersatz (der)
+- Erzählung (die)
+- Erziehung (die)
+- Essig (der)
+- Etage (die)
+- Export (der)
+- Fabrik (die)
+- Fachfrau (die)
+- Fachleute
+- Fachmann (der)
+- Fähigkeit (die)
+- Fahrbahn (die)
+- Fähre (die)
+- Fahrzeug (das)
+- Faktor (der)
+- Fall (der)
+- Fantasie (die)
+- Faschierte (das)
+- Fasching (der)
+- Fasnacht (die)
+- Fauteuil (der)
+- Feber (der)
+- Feld (das)
+- Fernbedienung (die)
+- Fernseher (der)
+- Festplatte (die)
+- Fett (das)
+- Feuerwehr (die)
+- Feuerzeug (das)
+- Figur (die)
+- Finger (der)
+- Fläche (die)
+- Fleck (der)
+- Fleischhauer (der)
+- Flöte (die)
+- Flucht (die)
+- Flüssigkeit (die)
+- Folge (die)
+- Forderung (die)
+- Form (die)
+- Fortbildung (die)
+- Fortschritt (der)
+- Fortsetzung (die)
+- Forum (das)
+- Fotograf (der)
+- Fotografie (die)
+- Fremdsprache (die)
+- Freude (die)
+- Freundschaft (die)
+- Friede (der)
+- Frieden (der)
+- Friseur (der)
+- Frisör (der)
+- Frisur (die)
+- Frucht (die)
+- Führerausweis (der)
+- Fundbüro (das)
+- Fußgänger (der)
+- Fußgängerin (die)
+- Fußgängerzone (die)
+- Galerie (die)
+- Gang (der)
+- Garantie (die)
+- Garderobe (die)
+- Gas (das)
+- Gasthaus (das)
+- Gaststätte (die)
+- Gebäck (das)
+- Gebiet (das)
+- Gebirge (das)
+- Gebrauchsanweisung (die)
+- Gebühr (die)
+- Geburt (die)
+- Gedanke (der)
+- Gedicht (das)
+- Geduld (die)
+- Gefahr (die)
+- Gefängnis (das)
+- Gefühl (das)
+- Gegend (die)
+- Gegenstand (der)
+- Gegner (der)
+- Geheimnis (das)
+- Gehsteig (der)
+- Geldautomat (der)
+- Gemeinschaft (die)
+- Generation (die)
+- Geschlecht (das)
+- Geschmack (der)
+- Geschwindigkeit (die)
+- Geschwindigkeitsbeschränkung (die)
+- Gesellschaft (die)
+- Gewalt (die)
+- Gewerkschaft (die)
+- Gewinn (der)
+- Gewissen (das)
+- Gewohnheit (die)
+- Gewürz (das)
+- Gift (das)
+- Girokonto (das)
+- Glace (die)
+- Glacé (die)
+- Golf (das)
+- Gott (der)
+- Grafik (die)
+- Graphik (die)
+- Gras (das)
+- Gratulation (die)
+- Grenze (die)
+- Grill (der)
+- Grund (der)
+- Grundstück (das)
+- Gymnastik (die)
+- Hackfleisch (das)
+- Hafen (der)
+- Hälfte (die)
+- Hallenbad (das)
+- Halt (der)
+- Hammer (der)
+- Handel (der)
+- Händler (der)
+- Händlerin (die)
+- Handwerker (der)
+- Hauptbahnhof (der)
+- Hausmeister (der)
+- Hausmeisterin (die)
+- Heim (das)
+- Heimweh (das)
+- Held (der)
+- Heldin (die)
+- Henderl (das)
+- Hendl (das)
+- Herausforderung (die)
+- Herkunft (die)
+- Hersteller (der)
+- Hinweis (der)
+- Hitze (die)
+- Hof (der)
+- Hoffnung (die)
+- Höhe (die)
+- Holz (das)
+- Honig (der)
+- Hörer (der)
+- Hörerin (die)
+- Hügel (der)
+- Hühnchen (das)
+- Humor (der)
+- Hut (der)
+- Hütte (die)
+- Imbiss (der)
+- Import (der)
+- Industrie (die)
+- Infektion (die)
+- Inhalt (der)
+- Inserat (das)
+- Institut (das)
+- Integration (die)
+- Intelligenz (die)
+- Intensivkurs (der)
+- Jause (die)
+- Jugend (die)
+- Kabel (das)
+- Kabine (die)
+- Kaffeehaus (das)
+- Kakao (der)
+- Kälte (die)
+- Kampf (der)
+- Kanal (der)
+- Kandidat (der)
+- Kanne (die)
+- Kantine (die)
+- Kapitel (das)
+- Karneval (der)
+- Karotte (die)
+- Karriere (die)
+- Kassette (die)
+- Kasten (der)
+- Katalog (der)
+- Katastrophe (die)
+- Käufer (der)
+- Käuferin (die)
+- Kellner (der)
+- Kellnerin (die)
+- Kennzeichen (das)
+- Kerze (die)
+- Kindheit (die)
+- Kissen (das)
+- Kiste (die)
+- Klassenarbeit (die)
+- Klick (der/das)
+- Klima (das)
+- Klimaanlage (die)
+- Klingel (die)
+- Klinik (die)
+- Kloß (der)
+- Kneipe (die)
+- Knochen (der)
+- Knödel (der)
+- Knopf (der)
+- Köchin (die)
+- Kommunikation (die)
+- Kompromiss (der)
+- Konferenz (die)
+- Konfitüre (die)
+- Konflikt (der)
+- König (der)
+- Konkurrenz (die)
+- Konsulat (das)
+- Konsum (der)
+- Kontrolle (die)
+- Kopie (die)
+- Kopierer (der)
+- Korridor (der)
+- Kostüm (das)
+- Kraft (die)
+- Kraftfahrzeug (das)
+- Kraftwerk (das)
+- Kranke (die/der)
+- Krankenschwester (die)
+- Krankenwagen (der)
+- Kreis (der)
+- Kreuz (das)
+- Krieg (der)
+- Kriminalpolizei (die)
+- Krise (die)
+- Kritik (die)
+- Kuli (der)
+- Künstler (der)
+- Künstlerin (die)
+- Kunststoff (der)
+- Kursleiter (der)
+- Kursleiterin (die)
+- Kurve (die)
+- Kuss (der)
+- Küste (die)
+- Kuvert (das)
+- Lage (die)
+- Lager (das)
+- Landung (die)
+- Landwirtschaft (die)
+- Länge (die)
+- Langeweile (die)
+- Langweile (die)
+- Lärm (der)
+- Laster (der)
+- Laufwerk (das)
+- Laune (die)
+- Lautsprecher (der)
+- Leder (das)
+- Lehre (die)
+- Lehrling (der)
+- Lehrstelle (die)
+- Leistung (die)
+- Leiter (der)
+- Leiterin (die)
+- Leitung (die)
+- Lerner (der)
+- Lernerin (die)
+- Leser (der)
+- Leserin (die)
+- Lexikon (das)
+- Lieferung (die)
+- Lift (der)
+- Limonade (die)
+- Linie (die)
+- Lippe (die)
+- Liste (die)
+- Literatur (die)
+- Loch (das)
+- Lohn (der)
+- Luft (die)
+- Magazin (das)
+- Mahlzeit (die)
+- Mahnung (die)
+- Mal (das)
+- Maler (der)
+- Malerin (die)
+- Mangel (der)
+- Mappe (die)
+- Margarine (die)
+- Marille (die)
+- Marke (die)
+- Material (das)
+- Matura (die)
+- Mauer (die)
+- Mechaniker (der)
+- Mechanikerin (die)
+- Medium (das)
+- Medizin (die)
+- Mehl (das)
+- Mehrheit (die)
+- Mehrwertsteuer (die)
+- Meldung (die)
+- Mensa (die)
+- Menü (das)
+- Metall (das)
+- Methode (die)
+- Metropole (die)
+- Metzger (der)
+- Mieter (der)
+- Mieterin (die)
+- Migrant (der)
+- Migrantin (die)
+- Migration (die)
+- Minderheit (die)
+- Mitarbeiterin (die)
+- Mitglied (das)
+- Mobilbox (die)
+- Mobilität (die)
+- Modell (das)
+- Möhre (die)
+- Mond (der)
+- Monitor (der)
+- Motorrad (das)
+- Müesli (das)
+- Mühe (die)
+- Müllabfuhr (die)
+- Mülltonne (die)
+- Münze (die)
+- Musikerin (die)
+- Muskel (der)
+- Müsli (das)
+- Mut (der)
+- Muttersprache (die)
+- Nachfrage (die)
+- Nachhilfe (die)
+- Nachspeise (die)
+- Nachteil (der)
+- Nachwuchs (der)
+- Nadel (die)
+- Nahrungsmittel (das)
+- Neffe (der)
+- Nerv (der)
+- Netz (das)
+- Netzwerk (das)
+- Neuigkeit (die)
+- Nichte (die)
+- Nichtraucher (der/das)
+- Nichtraucherin (die)
+- Not (die)
+- Notaufnahme (die)
+- Notausgang (der)
+- Notfall (der)
+- Notruf (der)
+- Ober (der)
+- Obers (das)
+- Ofen (der)
+- Öffentlichkeit (die)
+- Oper (die)
+- Operation (die)
+- Opfer (das)
+- Orchester (das)
+- Ordination (die)
+- Ordner (der)
+- Organisation (die)
+- Original (das)
+- Ozean (der)
+- Panne (die)
+- Paradeiser (der)
+- Passagier (der)
+- Passagierin (die)
+- Patientin (die)
+- Pech (das)
+- Pension (die)
+- Pensionist (der)
+- Pensionistin (die)
+- Perron (der)
+- Personal (das)
+- Personalie (die)
+- Personenstand (der)
+- Pfanne (die)
+- Pfeffer (der)
+- Pflaster (das)
+- Pflaume (die)
+- Pfleger (der)
+- Pflegerin (die)
+- Pflicht (die)
+- Phantasie (die)
+- Photograph (der)
+- Photographie (die)
+- Picknick (das)
+- Pille (die)
+- Pilz (der)
+- Planung (die)
+- Plastik (das)
+- Politik (die)
+- Politiker (der)
+- Politikerin (die)
+- Portemonnaie (das)
+- Portmonee (das)
+- Poulet (das)
+- Praktikant (der)
+- Praktikantin (die)
+- Präsentation (die)
+- Produktion (die)
+- Professorin (die)
+- Profi (der)
+- Profisportler (der)
+- Profisportlerin (die)
+- Protest (der)
+- Prozess (der)
+- Publikum (das)
+- Punkt (der)
+- Puppe (die)
+- Qualifikation (die)
+- Quartier (das)
+- Rabatt (der)
+- Radfahrer (der)
+- Radfahrerin (die)
+- Rahm (der)
+- Rand (der)
+- Rasen (der)
+- Rat (der)
+- Ratschlag (der)
+- Raucher (der/das)
+- Raucherin (die)
+- Reaktion (die)
+- Realität (die)
+- Recherche (die)
+- Rechner (der)
+- Referat (das)
+- Reform (die)
+- Regel (die)
+- Region (die)
+- Reihenfolge (die)
+- Reklame (die)
+- Rekord (der)
+- Religion (die)
+- Rente (die)
+- Reportage (die)
+- Reporter (der)
+- Reporterin (die)
+- Respekt (der)
+- Richter (der)
+- Richterin (die)
+- Richtung (die)
+- Risiko (das)
+- Rohr (das)
+- Rolle (die)
+- Roman (der)
+- Rückfahrt (die)
+- Rückkehr (die)
+- Rufnummer (die)
+- Runde (die)
+- Rundfahrt (die)
+- Saal (der)
+- Sack (der)
+- Sahne (die)
+- Saison (die)
+- Salbe (die)
+- Salon (der)
+- Sand (der)
+- Sänger (der)
+- Sängerin (die)
+- Sauce (die)
+- Schachtel (die)
+- Schade (der)
+- Schaden (der)
+- Schatten (der)
+- Schaufenster (das)
+- Schauspieler (der)
+- Schauspielerin (die)
+- Scheibe (die)
+- Scheidung (die)
+- Schi (der)
+- Schlaf (der)
+- Schlagobers (das)
+- Schlagrahm (der)
+- Schlagsahne (die)
+- Schlange (die)
+- Schmerzmittel (das)
+- Schmuck (der)
+- Schmutz (der)
+- Schnupfen (der)
+- Schreck (der)
+- Schrecken (der)
+- Schreiben (das)
+- Schrift (die)
+- Schriftsteller (der)
+- Schriftstellerin (die)
+- Schritt (der)
+- Schularbeit (die)
+- Schuld (die)
+- Schüssel (die)
+- Schutz (der)
+- Schwammerl (der/das)
+- Schwangerschaft (die)
+- Schwierigkeit (die)
+- Sekretär (der)
+- Sekretärin (die)
+- Seminar (das)
+- Semmel (die)
+- Sender (der)
+- Senior (der)
+- Seniorin (die)
+- Serie (die)
+- Serviceangestellte (die/der)
+- Sessel (der)
+- Sieg (der)
+- Sieger (der)
+- Siegerin (die)
+- Sinn (der)
+- Sitz (der)
+- Ski (der)
+- Socke (die)
+- Sonderangebot (das)
+- Sorge (die)
+- Soße (die)
+- Souvenir (das)
+- Sozialarbeiter (der)
+- Sozialarbeiterin (die)
+- Speise (die)
+- Speisewagen (der)
+- Spezialist (der)
+- Spezialistin (die)
+- Spiegel (der)
+- Spieler (der)
+- Spielerin (die)
+- Spielplatz (der)
+- Spielzeug (das)
+- Sportart (die)
+- Sportler (der)
+- Sportlerin (die)
+- Spur (die)
+- Stadion (das)
+- Standpunkt (der)
+- Start (der)
+- Station (die)
+- Statistik (die)
+- Stau (der)
+- Staub (der)
+- Steckdose (die)
+- Stecker (der)
+- Stein (der)
+- Stempel (der)
+- Stern (der)
+- Steward (der)
+- Stewardess (die)
+- Stiege (die)
+- Stiegenhaus (das)
+- Stil (der)
+- Stimme (die)
+- Stimmung (die)
+- Stoff (der)
+- Störung (die)
+- Strafe (die)
+- Strafzettel (der)
+- Strecke (die)
+- Streichholz (das)
+- Streik (der)
+- Streit (der)
+- Strom (der)
+- Strumpf (der)
+- Studierende (die/der)
+- Studio (das)
+- Stufe (die)
+- Sucht (die)
+- Suchtmittel (das)
+- Summe (die)
+- Symbol (das)
+- System (das)
+- Szene (die)
+- Tabelle (die)
+- Tagesablauf (der)
+- Tal (das)
+- Talent (das)
+- Tankstelle (die)
+- Tanz (der)
+- Taschentuch (das)
+- Tastatur (die)
+- Taste (die)
+- Tat (die)
+- Täter (der)
+- Täterin (die)
+- Tätigkeit (die)
+- Tatsache (die)
+- Technik (die)
+- Technologie (die)
+- Teilnahme (die)
+- Teilnehmer (der)
+- Teilnehmerin (die)
+- Teilzeit (die)
+- Temperatur (die)
+- Tempo (das)
+- Teppich (der)
+- Terminkalender (der)
+- Terrasse (die)
+- Theorie (die)
+- Therapie (die)
+- Tierpark (der)
+- Tod (der)
+- Tor (das)
+- Tote (die/der)
+- Tourismus (der)
+- Tradition (die)
+- Trainer (der)
+- Trainerin (die)
+- Tram (die)
+- Träne (die)
+- Transport (der)
+- Treffpunkt (der)
+- Trennung (die)
+- Treppenhaus (das)
+- Trinkgeld (das)
+- Tropfen (der)
+- Trottoir (das)
+- Tuch (das)
+- Turm (der)
+- Typ (der)
+- Übernachtung (die)
+- Überraschung (die)
+- Übersetzer (der)
+- Übersetzerin (die)
+- Überstunde (die)
+- Überweisung (die)
+- Überzeugung (die)
+- Ufer (das)
+- Umfrage (die)
+- Umgebung (die)
+- Umleitung (die)
+- Umtausch (der)
+- Umwelt (die)
+- Umweltschutz (der)
+- Umweltverschmutzung (die)
+- Unglück (das)
+- Uniform (die)
+- Unterhaltung (die)
+- Unterlage (die)
+- Unternehmer (der)
+- Unternehmerin (die)
+- Unterstützung (die)
+- Untersuchung (die)
+- Urkunde (die)
+- Ursache (die)
+- Urteil (das)
+- Vase (die)
+- Velo (das)
+- Verabredung (die)
+- Verantwortung (die)
+- Verbindung (die)
+- Verbot (das)
+- Verbrecher (der)
+- Verbrecherin (die)
+- Verdacht (der)
+- Vergangenheit (die)
+- Vergnügen (das)
+- Verhalten (das)
+- Verhältnis (das)
+- Verkäuferin (die)
+- Verkehrszeichen (das)
+- Verlag (der)
+- Verletzung (die)
+- Verlierer (der)
+- Verlust (der)
+- Vermietung (die)
+- Vermittlung (die)
+- Versammlung (die)
+- Versichertenkarte (die)
+- Verständnis (das)
+- Versuch (der)
+- Vertrauen (das)
+- Vertreter (der)
+- Vertreterin (die)
+- Vertretung (die)
+- Verwaltung (die)
+- Verzeihung (die)
+- Virus (das)
+- Visitenkarte (die)
+- Visum (das)
+- Vitamin (das)
+- Vollzeit (die)
+- Voraussetzung (die)
+- Vorbereitung (die)
+- Vorfahrt (die)
+- Vorort (der)
+- Vorschrift (die)
+- Vorspeise (die)
+- Vorstellung (die)
+- Vorteil (der)
+- Vorwurf (der)
+- Wahl (die)
+- Wahrheit (die)
+- Wanderung (die)
+- Wandrung (die)
+- Ware (die)
+- Wärme (die)
+- Waschmittel (das)
+- Weiterbildung (die)
+- Werk (das)
+- Werkzeug (das)
+- Wert (der)
+- Wetterbericht (der)
+- Wettervorhersage (die)
+- Wiederholung (die)
+- Wiese (die)
+- Wirklichkeit (die)
+- Wirkung (die)
+- Wirt (der)
+- Wirtin (die)
+- Wirtschaft (die)
+- Wissenschaftler (der)
+- Wissenschaftlerin (die)
+- Wohnort (der)
+- Wohnsitz (der)
+- Wörterbuch (das)
+- Wunde (die)
+- Wunder (das)
+- Zahlung (die)
+- Zahnbürste (die)
+- Zahncreme (die)
+- Zahncrème (die)
+- Zahnpasta (die)
+- Zange (die)
+- Zeichen (das)
+- Zeichnung (die)
+- Zeile (die)
+- Zeitpunkt (der)
+- Zertifikat (das)
+- Zeug (das)
+- Zeuge (der)
+- Zeugin (die)
+- Zins (der)
+- Zivilstand (der)
+- Znüni (das/der)
+- Zone (die)
+- Zufall (der)
+- Zugang (der)
+- Zuhause (das)
+- Zuhörer (der)
+- Zuhörerin (die)
+- Zukunft (die)
+- Zünder (der)
+- Zündholz (das)
+- Zusammenarbeit (die)
+- Zusammenhang (der)
+- Zuschauer (der)
+- Zuschauerin (die)
+- Zuschlag (der)
+- Zustand (der)
+- Zustimmung (die)
+- Zutat (die)
+- Zvieri (das)
+- Zweck (der)
+- Zweifel (der)
+- Zweitsprache (die)
+
+### Verb (369)
+
+- abbiegen
+- abhangen
+- abhängen
+- abheben
+- ablehnen
+- abmachen
+- abnehmen
+- abonnieren
+- absagen
+- abschreiben
+- abstimmen
+- abwaschen
+- achten
+- akzeptieren
+- amüsieren
+- analysieren
+- anerkennen
+- angeben
+- anhaben
+- ankündigen
+- annehmen
+- anschaffen
+- anschließen
+- anschnallen
+- ansprechen
+- anstellen
+- anstrengen
+- anwenden
+- anzeigen
+- atmen
+- auffallen
+- auffordern
+- aufführen
+- aufgeben
+- aufhalten
+- aufheben
+- aufladen
+- auflösen
+- aufnehmen
+- aufschreiben
+- auftreten
+- ausbilden
+- ausdrucken
+- ausfallen
+- ausreichen
+- ausrichten
+- ausschließen
+- ausstellen
+- aussuchen
+- auswählen
+- beantragen
+- bedienen
+- beeinflussen
+- befinden
+- begegnen
+- begleiten
+- begrüßen
+- behalten
+- behandeln
+- behindern
+- beißen
+- bekannt geben
+- bekanntgeben
+- beleidigen
+- bemerken
+- bemühen
+- benötigen
+- beobachten
+- berechnen
+- beruhigen
+- beschädigen
+- beschäftigen
+- beschließen
+- beschränken
+- besetzen
+- besorgen
+- besprechen
+- bestrafen
+- beteiligen
+- betreuen
+- betrügen
+- beweisen
+- bieten
+- blitzen
+- blühen
+- bluten
+- brechen
+- bremsen
+- brennen
+- darstellen
+- dekorieren
+- dienen
+- donnern
+- drehen
+- duzen
+- eignen
+- eilen
+- einbrechen
+- einfallen
+- einfügen
+- einführen
+- einigen
+- einnehmen
+- einschalten
+- einsetzen
+- einstellen
+- eintreten
+- einzahlen
+- empfangen
+- entdecken
+- entfernen
+- entgegenkommen
+- enthalten
+- entlassen
+- entscheiden
+- entschließen
+- entsorgen
+- entstehen
+- enttäuschen
+- entwickeln
+- ereignen
+- erfahren
+- erfinden
+- erfordern
+- erfüllen
+- ergänzen
+- erhalten
+- erhöhen
+- erholen
+- erkälten
+- erkundigen
+- erleben
+- erleichtern
+- ernähren
+- eröffnen
+- erschrecken
+- ersetzen
+- erstellen
+- erwarten
+- erziehen
+- fangen
+- fassen
+- faulenzen
+- festhalten
+- festlegen
+- festnehmen
+- festsetzen
+- feststehen
+- feststellen
+- finanzieren
+- fliehen
+- fließen
+- folgen
+- fordern
+- fördern
+- fortsetzen
+- fressen
+- frieren
+- führen
+- funktionieren
+- fürchten
+- füttern
+- garantieren
+- gebrauchen
+- gelingen
+- gelten
+- genehmigen
+- genießen
+- genügen
+- gewöhnen
+- gießen
+- greifen
+- grillieren
+- gründen
+- gucken
+- hageln
+- handeln
+- hassen
+- heben
+- heizen
+- herausfinden
+- herunterfahren
+- hinterlassen
+- hinweisen
+- hochladen
+- hupen
+- installieren
+- integrieren
+- irren
+- kämpfen
+- kaputt machen
+- kaputtgehen
+- kaputtmachen
+- klagen
+- klären
+- kleben
+- klicken
+- klingeln
+- klingen
+- klopfen
+- konsumieren
+- konzentrieren
+- kopieren
+- korrigieren
+- kritisieren
+- küssen
+- lächeln
+- landen
+- leiden
+- leiten
+- loben
+- lohnen
+- löschen
+- markieren
+- melden
+- messen
+- mischen
+- mitteilen
+- nachdenken
+- nachschlagen
+- nähen
+- nähern
+- nutzen
+- nützen
+- operieren
+- ordnen
+- parkieren
+- pensionieren
+- pflanzen
+- pflegen
+- präsentieren
+- produzieren
+- protestieren
+- reagieren
+- realisieren
+- reduzieren
+- reichen
+- reinigen
+- retten
+- runterwerfen
+- schaden
+- schalten
+- schätzen
+- schauen
+- scheiden
+- schieben
+- schießen
+- schreien
+- schütteln
+- schützen
+- schweigen
+- schwitzen
+- sichern
+- siegen
+- siezen
+- sinken
+- sorgen
+- spülen
+- spüren
+- stammen
+- starten
+- Staub saugen
+- staubsaugen
+- stechen
+- stecken
+- stehen bleiben
+- stehenbleiben
+- stehlen
+- steigen
+- stimmen
+- stinken
+- stoppen
+- streiken
+- stürzen
+- tanken
+- tauchen
+- testen
+- tippen
+- transportieren
+- treiben
+- trennen
+- trocknen
+- twittern
+- überfahren
+- überholen
+- überlegen
+- übernehmen
+- überprüfen
+- überqueren
+- überraschen
+- überreden
+- übertreiben
+- überzeugen
+- umarmen
+- umdrehen
+- umgehen
+- umtauschen
+- unterbrechen
+- unterlassen
+- unterrichten
+- unterscheiden
+- unterstreichen
+- unterstützen
+- verabschieden
+- verändern
+- verbessern
+- verbinden
+- verbrauchen
+- verbrennen
+- verbringen
+- vergnügen
+- vergrößern
+- verhaften
+- verhalten
+- verhindern
+- verlangen
+- verlängern
+- verlassen
+- verlaufen
+- vermeiden
+- vermissen
+- vermuten
+- veröffentlichen
+- verpacken
+- verpflegen
+- verpflichten
+- verraten
+- versäumen
+- verschmutzen
+- verschreiben
+- verschwinden
+- versichern
+- verstecken
+- verteilen
+- vertrauen
+- vertreten
+- verursachen
+- verurteilen
+- verwechseln
+- verwenden
+- verzeihen
+- verzichten
+- vorhaben
+- vorkommen
+- vorlesen
+- vorschlagen
+- wachsen
+- warnen
+- weigern
+- wenden
+- werfen
+- wetten
+- widersprechen
+- wiegen
+- winken
+- wirken
+- wundern
+- zählen
+- zelten
+- zerstören
+- zubereiten
+- zugehen
+- zunehmen
+- zurechtkommen
+- zusagen
+- zuschauen
+- zustimmen
+- zweifeln
+- zwingen
+
+### Adjektiv (212)
+
+- abhängig
+- absolut
+- abwesend
+- allerbest
+- allerschönst
+- allgemein
+- alltäglich
+- alternativ
+- angenehm
+- ängstlich
+- anwesend
+- ärgerlich
+- aufmerksam
+- äußerlich
+- bereit
+- beruflich
+- berufstätig
+- besonder
+- biologisch
+- blass
+- blind
+- chic
+- dicht
+- digital
+- doppelt
+- durchschnittlich
+- durstig
+- eckig
+- ehrlich
+- eindeutig
+- einheitlich
+- einsam
+- einzig
+- elegant
+- elektrisch
+- elektronisch
+- endgültig
+- erfolgreich
+- erforderlich
+- ernst
+- ernsthaft
+- eventuell
+- ewig
+- extrem
+- fair
+- fällig
+- farbig
+- färbig
+- fest
+- feucht
+- finanziell
+- flach
+- flexibel
+- frech
+- fröhlich
+- geheim
+- gemeinsam
+- gemütlich
+- gerecht
+- gering
+- gesamt
+- gewöhnlich
+- giftig
+- glatt
+- gleichberechtigt
+- gleichzeitig
+- gründlich
+- haltbar
+- häufig
+- heimlich
+- historisch
+- höflich
+- ideal
+- illegal
+- individuell
+- inner
+- intensiv
+- interessant
+- interkulturell
+- klasse
+- knapp
+- komplett
+- körperlich
+- korrekt
+- kräftig
+- kreativ
+- kritisch
+- künstlich
+- kürzlich
+- link
+- locker
+- mager
+- maximal
+- menschlich
+- merkwürdig
+- mild
+- minimal
+- mittler
+- mobil
+- mündlich
+- musikalisch
+- mutig
+- nah
+- nahe
+- national
+- negativ
+- neugierig
+- niedrig
+- nötig
+- offenbar
+- öffentlich
+- offiziell
+- ökologisch
+- optimistisch
+- ordentlich
+- original
+- parallel
+- passiv
+- pauschal
+- peinlich
+- perfekt
+- persönlich
+- politisch
+- populär
+- positiv
+- prima
+- realistisch
+- rechtlich
+- rechtzeitig
+- regional
+- reif
+- relativ
+- riesig
+- roh
+- satt
+- schick
+- schief
+- schmal
+- schuld
+- schuldig
+- selbstverständlich
+- selten
+- seltsam
+- senkrecht
+- sichtbar
+- sinnlos
+- sinnvoll
+- so genannt
+- sogenannt
+- sozial
+- sparsam
+- speziell
+- spitz
+- städtisch
+- ständig
+- statistisch
+- steil
+- stilistisch
+- strafbar
+- stumm
+- süchtig
+- tatsächlich
+- taub
+- technisch
+- teilweise
+- theoretisch
+- tödlich
+- tolerant
+- traditionell
+- treu
+- üblich
+- übrig
+- unentschieden
+- ungefähr
+- ungewöhnlich
+- unglaublich
+- unheimlich
+- unterschiedlich
+- ursprünglich
+- vegetarisch
+- verantwortlich
+- verdächtig
+- vergeblich
+- vermutlich
+- vernünftig
+- verständlich
+- verwandt
+- virtuell
+- völlig
+- voraussichtlich
+- vorder
+- vorläufig
+- waagerecht
+- waagrecht
+- wahnsinnig
+- weltenweit
+- weltweit
+- wert
+- wertlos
+- wertvoll
+- wild
+- wohl
+- wunderschön
+- zahlreich
+- zentral
+- ziemlich
+- zufällig
+- zugänglich
+- zukünftig
+- zusätzlich
+- zuständig
+- zuverlässig
+
+### Adverb (60)
+
+- abwärts
+- anderseits
+- andrerseits
+- anfangs
+- aufwärts
+- auseinander
+- ausschließlich
+- außen
+- beinah
+- beinahe
+- bereits
+- bisher
+- diesmal
+- durcheinander
+- eben
+- ebenso
+- etwa
+- extra
+- gar
+- gratis
+- halbtags
+- heim
+- hinterher
+- höchstens
+- innen
+- insgesamt
+- inzwischen
+- irgendwann
+- jederzeit
+- jedes Mal
+- jemals
+- jeweils
+- kaum
+- längst
+- los
+- miteinander
+- mitten
+- mittlerweile
+- möglicherweise
+- möglichst
+- nachher
+- nebenbei
+- neulich
+- nirgendwo
+- noch mal
+- nochmal
+- nochmals
+- normalerweise
+- quer
+- rauf
+- rückwärts
+- spätestens
+- überhaupt
+- übrigens
+- umsonst
+- voneinander
+- vorhin
+- weshalb
+- wieso
+- zumindest
+
+### Affix (27)
+
+- -weis
+- -weise
+- aller-
+- bio-
+- doppel-
+- einzel-
+- elektr-
+- elektro-
+- haupt-
+- herein-
+- hinter-
+- miss-
+- ober-
+- öko-
+- rauf-
+- raus-
+- rück-
+- schwieger-
+- sonder-
+- spezial-
+- über-
+- un-
+- unter-
+- vorbei-
+- weg-
+- wieder-
+- zusammen-
+
+### partizipiales Adjektiv (25)
+
+- anstrengend
+- ausgezeichnet
+- befreit
+- befriedigend
+- begeistert
+- begrenzt
+- betrunken
+- dauernd
+- entschlossen
+- erschöpft
+- erwachsen
+- fließend
+- folgend
+- geeignet
+- geschieden
+- gespannt
+- gewohnt
+- interessiert
+- kompliziert
+- möbliert
+- umgekehrt
+- untersagt
+- vergnügt
+- verliebt
+- verrückt
+
+### Konjunktion (13)
+
+- bevor
+- damit
+- ebenfalls
+- falls
+- gleichfalls
+- indem
+- nachdem
+- nämlich
+- so dass
+- sobald
+- sodass
+- solange
+- umso
+
+### Pronominaladverb (8)
+
+- daher
+- dahin
+- drin
+- hieher
+- hierher
+- meinetwegen
+- worüber
+- worum
+
+### Demonstrativpronomen (6)
+
+- dasselbe
+- derselbe
+- dieselbe
+- selb
+- selber
+- solch
+
+### Indefinitpronomen (6)
+
+- ein paar
+- irgendein
+- mehrere
+- sämtlich
+- so viel
+- soviel
+
+### Präposition (3)
+
+- einschließlich
+- inklusive
+- per
+
+### unknown (3)
+
+- entlang
+- seitdem
+- zunächst
+
+### Komparativ (2)
+
+- eher
+- öfter
+
+### Partikel (2)
+
+- halt
+- sowieso
+
+### Eigenname (2)
+
+- Nordsee (die)
+- Ostsee (die)
+
+### Symbol (1)
+
+- Au
+
+### Interjektion (1)
+
+- prost
+
