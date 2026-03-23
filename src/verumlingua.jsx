@@ -9,6 +9,7 @@ import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
+import germanV2Units from './data/units-german-v2.js';
 import frenchUnits from './data/units-french.js';
 import spanishUnits from './data/units-spanish.js';
 import otherUnits from './data/units-other.js';
@@ -6101,7 +6102,7 @@ function Onboarding({onComplete}){
 
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
-const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 // ── CURRICULUM SEARCH (D113) ──
 // Korean romanization tables (Revised Romanization of Korean)
