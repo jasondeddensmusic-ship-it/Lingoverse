@@ -33,12 +33,25 @@ A1 POS breakdown: 403 nouns, 156 verbs, 80 adjectives, 48 adverbs, 33 cardinal n
 
 ## B2 Strategy (no official list)
 
-Best proxies:
-1. telc "Einfach besser!" Wortschatzlisten (free PDFs, vocational focus)
-2. Frequency-based lists (DWDS top 5,000-6,000 lemmas)
-3. Textbook indices (Aspekte B2, Sicher! B2)
+**Confirmed by D112 audit (2026-03-17) and Phase 0A research (2026-03-23): No official Goethe B2 Wortliste exists.**
 
-Gap: 3,303 official A1-B1 words. Polyglot target: 5,000-6,000. Need ~1,700-2,700 B2 words from proxy sources.
+D112 estimated the German B2 target at ~1,500 additional words beyond B1, for a total polyglot target of ~5,650 words A1-B2.
+
+Best proxies for B2 vocabulary:
+1. **telc "Einfach besser!" Wortschatzlisten** (free PDFs, vocational focus)
+   - Einfach besser! 400 (German only): https://www.telc.net/fileadmin/user_upload/Downloads_Verlag/Einfach_besser_100_400_500/Wortschatzlisten/Einfach_besser_400_Wortschatzliste_Deutsch.pdf
+   - Einfach besser! 500 (German-English): https://www.telc.net/fileadmin/user_upload/Downloads_Verlag/Einfach_besser_100_400_500/Wortschatzlisten/Einfach_besser_500_Wortschatzliste_Englisch.pdf
+2. **Aspekte neu B2** (Klett/Langenscheidt) textbook vocabulary index — paywalled
+3. **Sicher! B2** (Hueber) textbook vocabulary index — paywalled
+4. **Frequency-based supplement**: DWDS top 5,000-6,000 lemmas minus A1-B1 official words
+5. **Profile deutsch** software/database — covers A1-C2 but requires purchase
+
+**Coverage math:**
+- Official Goethe A1-B1: 3,303 lemmas (downloaded)
+- B2 proxy target: ~1,500-2,300 additional words
+- Total polyglot target: 5,000-6,000 words
+- V1 currently teaches: ~1,690 unique words (Phase 0D count)
+- Gap to fill: ~3,310-4,310 words across A1-B2
 
 ## Source Citations (Rule 14)
 
