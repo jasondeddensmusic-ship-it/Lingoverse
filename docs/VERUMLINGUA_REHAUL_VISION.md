@@ -215,7 +215,7 @@ This is a TEMPLATE, not a mandate. PP54 (anti-cramming) still applies: some unit
 
 All existing content across 5 languages is PRESERVED:
 1. **Export all current sentences** from teach cards to salvage files per language
-2. **Rewrite card examples** as 2-bubble format
+2. **Enrich card examples** with fun info + gender colors + grammar tags (existing dialogues preserved as-is)
 3. **Reuse salvaged sentences** in story dialogues, quiz distractors, review steps
 4. **Keep all grammar/verb tables** — these don't change
 5. **Version history** always available as safety net

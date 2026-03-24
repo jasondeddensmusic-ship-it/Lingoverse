@@ -2,7 +2,7 @@
 
 ## Context
 
-The owner demands a fundamental shift in workflow: **plan EVERYTHING before writing a single line of content**. The existing German v1 curriculum (30 units, 258 lessons) was built from templates, not concepts. The v2 rehaul (1 unit built so far) introduces a completely new format: story-driven episodes with Verumius as protagonist, 2-bubble teach cards with fun info, interleaved lesson flow, full grammar tagging, and Midjourney art integration.
+The owner demands a fundamental shift in workflow: **plan EVERYTHING before writing a single line of content**. The existing German v1 curriculum (30 units, 258 lessons) was built from templates, not concepts. The v2 rehaul (1 unit built so far) introduces a completely new format: story-driven episodes with Verumius as protagonist, CEFR-scaled dialogue teach cards with fun info + gender coloring + grammar tags, interleaved lesson flow, and Midjourney art integration.
 
 German is the **template language** — every decision gets documented as a reusable playbook for Korean, Dutch, French, Spanish.
 

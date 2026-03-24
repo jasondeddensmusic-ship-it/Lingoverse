@@ -12,7 +12,7 @@ German gets **36 units** (up from 30) with a **6-6-12-12** CEFR distribution (fi
 
 **Key changes from old format:**
 - Story-driven units with interleaved vocab/grammar/quiz lessons
-- 2-bubble teach cards with fun info on every word
+- CEFR-scaled dialogue teach cards with fun info, gender coloring, and grammar tags on every word
 - Concept-driven sizing: B1+B2 get 24 units (was 13), A1+A2 get 12 (was 16)
 - 1,437 existing teach cards salvaged and redistributed
 - Every Goethe exam word taught + polyglot expansion vocabulary, every grammar construct practiced 3+ times
@@ -345,7 +345,7 @@ Tone: Dramedy. Professional stakes, abstract topics, wit and irony. Verumius thr
 | Total steps | ~4,924 |
 
 ### Salvage Strategy
-1. **Dialogue examples**: 1,437 A:/B: pairs. Most can be converted to 2-bubble format. ~80% reusable, ~20% need rewrite (multi-line dialogues that don't fit 2-bubble).
+1. **Dialogue examples**: 1,437 A:/B: pairs. Existing dialogues are preserved as-is (no artificial bubble cap). Add fun info + gender coloring + grammar tags during restructure.
 2. **Quiz content**: 2,920 quiz steps. Redistribute as practice, review, and recycling material across new units.
 3. **Grammar tips**: 271 explanations. Keep content, update format for new settings panel integration.
 4. **Verb tables**: 38 conjugation paradigms. Directly reusable (format doesn't change).
@@ -355,7 +355,7 @@ Tone: Dramedy. Professional stakes, abstract topics, wit and irony. Verumius thr
 - Current: ~1,337 unique words taught
 - Goethe official: ~2,400 cumulative through B1 (no official B2 list)
 - Polyglot target: 5,000-6,000 words
-- **Gap: ~3,663-4,663 new teach cards needed** (with 2-bubble format + fun info)
+- **Gap: ~3,663-4,663 new teach cards needed** (with CEFR-scaled dialogues + fun info + gender colors + grammar tags)
 - Existing grammar: covers most constructs but needs expansion at B1/B2
 
 ---
@@ -367,7 +367,7 @@ Each of the 36 units follows the interleaved pattern (template, not mandate):
 | Lesson | Type | Content | Steps |
 |--------|------|---------|-------|
 | L1 | Story intro | Episode scene 1. Meet situation. Expose new words in context. | 12-15 |
-| L2 | Vocab | 12-20 teach cards (2-bubble + fun info). Words from the story. | 12-20 |
+| L2 | Vocab | 12-20 teach cards (CEFR-scaled dialogue + fun info + gender colors + grammar tags). Words from the story. | 12-20 |
 | L3 | Story dev | Episode scene 2. Plot advances. Grammar appears naturally. | 12-15 |
 | L4 | Grammar | Tips + verb tables + practice. Formalize constructs from story. | 18-25 |
 | L5 | Vocab | More teach cards + review words from earlier units. | 12-20 |
@@ -435,7 +435,7 @@ Some units may need 9-10 lessons (heavy grammar units at B1/B2). PP54 applies: t
 - [x] PP57 Zero Grammar Gaps: All 116 constructs will be taught + practiced 3+ + recycled 2+
 - [x] PP58 Communicative Functions: 60 functions mapped across 36 units
 - [x] PP51 CEFR Distribution: 6-6-12-12 (B1+B2=24 >= A1+A2=12)
-- [x] Vision doc compliance: 2-bubble cards, story system, interleaved flow
+- [x] Vision doc compliance: CEFR-scaled dialogue cards, story system, interleaved flow
 - [x] FSI Category II: 36 units justified for ~900 class hours (more than Cat I languages)
 
 ---
