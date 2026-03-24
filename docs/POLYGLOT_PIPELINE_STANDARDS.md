@@ -2,7 +2,7 @@
 ## For All Languages · All Agents · All Sessions
 ## Version 5.0 | 2026-03-19 | Platform Rehaul Vision (D114) + D112 Standards
 
-> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (2-bubble dialogues + fun info), new lesson types (vocab, story, grammar, quiz, review), interleaved lesson flow, and language-specific settings. When this document and the vision doc conflict, **the vision doc wins**.
+> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (CEFR-scaled dialogues + fun info + gender coloring + grammar tags), new lesson types (vocab, story, grammar, quiz, review), interleaved lesson flow, and language-specific settings. When this document and the vision doc conflict, **the vision doc wins**.
 
 ---
 
@@ -318,7 +318,7 @@ Goals: 3 items, each a concrete thing learner will be able to do.
 ```
 Required fields: nl, en, example, exampleEn, note. Phonetic: required for A1-A2, optional A2+ (based on language romanization phase-out rules).
 
-> **REHAUL NOTE (2026-03-19)**: The new card format (vision doc Section 2) changes `example`/`exampleEn` to a 2-bubble dialogue (A: sender, B: receiver, exactly 2 lines). A "fun info" section (etymology, cultural note, or memory hook) is MANDATORY on every card. The `nl`/`en` fields will be renamed to `target`/`source`. See `docs/VERUMLINGUA_REHAUL_VISION.md` Section 2 for the complete spec.
+> **REHAUL NOTE (2026-03-24)**: The new card format (vision doc Section 2) uses CEFR-scaled dialogues (A1: 2-3 exchanges, A2: 3-4, B1: 4-5, B2: 5+). Existing multi-exchange dialogues are preserved. A "fun info" section is MANDATORY on every card. Article + noun ALWAYS in gender color. Every word in every sentence tagged with POS/function (P59). The `nl`/`en` fields will be renamed to `target`/`source`. See `docs/VERUMLINGUA_REHAUL_VISION.md` Section 2 for the complete spec.
 
 ### tip steps
 ```javascript

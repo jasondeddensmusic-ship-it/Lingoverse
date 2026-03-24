@@ -12,7 +12,7 @@ VerumLingua (formerly LingoVerse) is a self-contained multilingual language lear
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Platform Rehaul (2026-03-19)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: 2-bubble word cards, story dialogue system with protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
+**Platform Rehaul (2026-03-19, updated 2026-03-24)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: CEFR-scaled dialogue word cards with fun info + gender coloring + grammar tags (P59), story dialogue system with Verumius protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
 
 **Current state**: All 5 launch languages have A1-B2 content built and structurally audited. The existing content will be restructured per the rehaul vision (salvage strategy in vision doc Section 2.4). Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (PP56).
 
@@ -657,7 +657,7 @@ The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8
 2. **Download complete CEFR word lists** for all 5 languages — foundation for dictionary AND curriculum
 3. **Language-specific settings panel** (D115 — V1 DONE, PR #67). Known gaps: understripe, bold/italic/dotted, profile page, koreanHl integration.
 4. **Vocab page redesign** — DONE (D116, 2026-03-19). V6: compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes (Search/Browse/Review) working. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings shared with lesson engine.
-5. **New word card format** — 2-bubble examples + fun info bottom (prototype in German first, per owner decision)
+5. **New word card format** — CEFR-scaled dialogues + fun info + gender coloring + grammar tags (prototype in German first, per owner decision). Design must be PERFECT before mass content writing begins.
 6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language). Vision brainstormed: Verumius IS the protagonist (relatable underdog learning languages before becoming the AI), sitcom sketch format, comedy+adventure genre growing with CEFR, core cast per language culture.
 7. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
 8. **Curriculum restructure** — rebuild from CEFR word lists. Every word taught. New lesson format.
@@ -1251,7 +1251,7 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 2. **Catalogue all concepts** (PP54, PP56). Organize by domain. Determine unit count from concepts, not template.
 3. Build foundations (knowledge + playthrough + gate quiz)
 4. Build curriculum using NEW format (vision doc Section 4): vocab-only lessons, story episodes, grammar lessons, quizzes, review. All new content uses `target`/`source` field names.
-5. **Card format**: Every teach card follows vision doc Section 2: 2-bubble dialogue + fun info bottom. No multi-line dialogues.
+5. **Card format**: Every teach card follows vision doc Section 2: CEFR-scaled dialogues (A1: 2-3, A2: 3-4, B1: 4-5, B2: 5+ exchanges) + fun info + article/noun in gender color + every word grammar-tagged (P59). Existing multi-exchange dialogues preserved.
 6. **Story system**: Every unit has a running story arc per vision doc Section 3. Protagonist uses source-language name.
 7. **Interleaved lesson flow**: Story intro -> vocab -> story dev -> grammar -> story climax -> quiz -> resolution (vision doc Section 3.3).
 8. Quality audit per level (D92-style: PP8, PP52, PP44, PP48, PP49)
