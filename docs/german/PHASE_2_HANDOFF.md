@@ -160,27 +160,36 @@ After all 6 complete, a VALIDATOR agent reads all 6 files and checks:
 5. ✅ KD B2 digital: Cafe scene added (U32, digitization frustration)
 6. ✅ Fix 1 completion: Yilmaz text exchange added to U4
 
+## Phase 4 Results (2026-03-24) — A1 CONTENT WRITING COMPLETE
+
+| Phase | Deliverable | Status | File |
+|-------|------------|--------|------|
+| ✅ 4A | U1 content (8 lessons, ~170 steps) | DONE | `src/data/units-german-v2.js` |
+| ✅ 4B | U2 content (8 lessons, 166 steps) | DONE | `src/data/units-german-v2.js` |
+| ✅ 4C | U3 content (8 lessons, 189 steps) | DONE | `src/data/units-german-v2.js` |
+| ✅ 4D | U4 content (8 lessons, 168 steps) | DONE | `src/data/units-german-v2.js` |
+| ✅ 4E | U5 content (8 lessons, 180 steps) | DONE | `src/data/units-german-v2.js` |
+| ✅ 4F | U6 content (12 lessons, 229 steps) | DONE | `src/data/units-german-v2.js` |
+
+**Totals**: 6 units, 44 lessons, 932+ steps. PR #76.
+**Workflow**: Rule 18 (direct-write to temp files). Wrote 36 lessons in under 2 hours.
+**Validation**: PP48=0, PP49=0, board:true=44/44, density 18+ all lessons, build PASS every commit.
+
 ## What Comes Next
 
-### Phase 4: A1 Content Writing (Sessions 7-10)
-- Validator agent checks all A1 lessons against PP52/PP55/PP57/PP58
-- Second agent (different model) re-validates independently
-- Both must agree: zero gaps
+### Phase 5: A2 Planning + Content (NEXT)
+- Design A2 lesson plans (U7-U12, 6 units, 25 grammar constructs, 612 Goethe words)
+- Use same workflow: lesson designs first, then direct-write to temp files (Rule 18)
+- A2 broad allocation already done (Phase 3A in `docs/german/cross-level-allocation.md`)
+- Needs detailed lesson-by-lesson design like A1 got in Phase 2C+D
 
-### Phase 4: Midjourney Asset List
+### Phase 6: Midjourney Asset List
 - Compile all scenes + character expressions into a prompt doc
 - One prompt per scene background (~30-35 for A1)
 - One prompt per character expression variant
 - Owner feeds these to Midjourney one by one
 
-### Phase 5: Content Writing (A1 only, one unit at a time)
-- Write actual JS lesson content from the approved lesson designs
-- Sequential content + parallel validation (Rule 9)
-- Every agent gets full rule set
-- Post-build umlaut scan mandatory
-- PP48/PP49/PP52 verification after each unit
-
-### Then repeat Phases 2-5 for A2, B1, B2.
+### Then repeat Phases 5-6 for B1, B2.
 
 ---
 
