@@ -1,7 +1,7 @@
 # Phase 2C+D Handoff: A1 Lesson-by-Lesson Design
 
-> **Status**: Phase 2A + 2B COMPLETE. Phase 2C+D NOT STARTED (agent timed out 3x).
-> **Priority**: This is the NEXT task for any new session.
+> **Status**: Phase 2 COMPLETE (2026-03-24). All A1 lessons designed, cross-validated, remediated.
+> **Priority**: Phase 3 (cross-level seeding) is NEXT.
 > **Date**: 2026-03-23
 
 ---
@@ -131,7 +131,8 @@ After all 6 complete, a VALIDATOR agent reads all 6 files and checks:
 | ✅ 1B | 144 scenes, 44 locations | Shipped | `docs/german/episode-scene-breakdowns.md` |
 | ✅ 2A | 848/848 A1 words mapped | Shipped | `docs/german/a1-vocabulary-mapping.md` |
 | ✅ 2B | 27/27 A1 grammar mapped | Shipped | `docs/german/a1-grammar-mapping.md` |
-| ❌ 2C+D | A1 lesson-by-lesson design | NOT DONE | Agent timed out 3x |
+| ✅ 2C+D | A1 lesson-by-lesson design (52 lessons) | DONE (2026-03-24) | `docs/german/a1-u{1-6}-lessons.md` |
+| ✅ CV | Cross-validation: 848/848 vocab, 27/27 grammar, 20/20 functions | DONE (2026-03-24) | `docs/german/a1-cross-validation-report.md` |
 
 ## After Phase 2 Completes
 
