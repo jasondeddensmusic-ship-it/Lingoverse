@@ -106,3 +106,30 @@ B2-1 Konjunktiv I→U28, B2-2 Konjunktiv II past→U25, B2-3 Zustandspassiv→U3
 - U17 (4 constructs) justified: infinitive clause family taught as a set (um...zu/ohne...zu/statt...zu/damit)
 - U24 capstone: only 2 new constructs, focus on integration + Futur I (thematic: "Ich werde bleiben")
 - U36 capstone: 1 construct (Modalpartikeln consolidation), focus on authentic multi-register use
+
+---
+
+## DETAILED A2 ALLOCATION (from Phase 3A Agent)
+
+### A2 Construct-to-Unit Mapping (25/25 verified)
+U7 (Arztbesuch): #1 Perfekt haben, #3 Partizip II, #5 Dative full, #6 Dative verbs, #22 Temporal preps
+U8 (Müllprofessor): #7 Wechselpräp, #11 Subordinate word order intro, #17 Comparative, #18 Superlative, #25 Adverbs
+U9 (Vereine): #8 weil, #9 dass, #12 Reflexive verbs, #13 Reflexive pronouns, #23 Coordinating conj
+U10 (Deutsche Bahn): #2 Perfekt sein, #4 Präteritum modals, #10 wenn, #19 Imperative expanded
+U11 (Weihnachtsmarkt): #14-16 Adj declension (nom/acc/dat), #20 Possessives all cases, #21 Konjunktiv II basic
+U12 (Halbjahresbilanz): #24 ob, #11 deepened, recycled #4+#25
+
+### A2 Vocabulary Domain Coverage (612/612 Goethe words)
+Health/medical ~19 → U7. Weather ~10 → U11. Travel ~25 → U10. Hobbies ~17 → U9.
+Home ~17 → U8. Tech/media ~15 → U12. Work/edu ~16 → U12. Clothing ~21 → U11.
+Emotions ~17 → U9+U12. Food ~21 → U11+U10. Places ~13 → U8. Function words ~70 → distributed.
+Adjectives ~111 → U8+U11. Verbs ~138 → U7+U9+U10+U12.
+
+### A1→A2 Seed Closure (9/9 seeds formally closed)
+Dative preps (A1 U5) → U7 full paradigm. Perfekt (A1 U6 seed) → U7+U10.
+war/hatte (A1 #22) → U10+U12 Präteritum modals. Accusative preps (A1 #20) → U8 Wechselpräp.
+Predicative adj (A1 #24) → U11 attributive declension. Possessives nom (A1 #12) → U11 all cases.
+Imperative (A1 #5) → U10 expanded. weil/dass/wenn (A1 seeds) → U9+U10. Adverbs (A1 #26) → U8.
+
+### Grammar Load: U7+U8+U9+U11 heavy, U10 medium, U12 light (capstone review)
+### Communicative Functions: 14/14 covered
