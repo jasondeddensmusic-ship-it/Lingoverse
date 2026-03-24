@@ -91,3 +91,18 @@
 ### Vocabulary Flow: A1(848) → A2(+612=1,460) → B1(+1,843=3,303) → B2(+~2,000=~5,300) → **ON TARGET**
 ### No Dead Ends: A1 accusative flows to A2 Wechselpräpositionen. A1 modals flow to A2 Präteritum modals. A1 dative prepositions flow to A2 full dative case. All dependencies verified.
 ### All 91 constructs assigned across 36 units: 27(A1) + 25(A2) + 33(B1) + 33(B2) = **118 total** (matches grammar inventory verification)
+
+---
+
+## DETAILED B1+B2 ALLOCATION (from Phase 3B-C Agent)
+
+### B1 Construct Assignment (33/33 verified)
+B1-1 Plusquamperfekt→U16, B1-2 Futur I→U24, B1-3 Präteritum expanded→U13, B1-4 Konjunktiv II expanded→U13, B1-5 Konjunktiv II modals→U13, B1-6 Irreale Bedingungssätze→U23, B1-7 Passive Präsens→U14, B1-8 Passive Präteritum→U14, B1-9 Passive+modals→U19, B1-10 Relative clauses→U14, B1-11 Relative+preps→U20, B1-12 Genitive→U15, B1-13 N-Deklination→U15, B1-14 um...zu→U17, B1-15 ohne...zu→U17, B1-16 statt...zu→U17, B1-17 damit vs um...zu→U17, B1-18 Subordinating conj expanded→U19, B1-19 als vs wenn→U18, B1-20 nachdem+PQP→U16, B1-21 Indirect questions→U16, B1-22 Verbs+fixed preps→U18, B1-23 da-/wo- compounds→U18, B1-24 Adj declension no article→U21, B1-25 Adj declension genitive→U21, B1-26 Partizip I adj→U22, B1-27 Partizip II adj→U22, B1-28 lassen causative→U22, B1-29 brauchen+zu→U23, B1-30 Reciprocal verbs→U21, B1-31 Genitive preps→U15, B1-32 Double infinitive→U23, B1-33 Adverbial conjunctions→U20+U24
+
+### B2 Construct Assignment (33/33 verified incl. Modalpartikeln)
+B2-1 Konjunktiv I→U28, B2-2 Konjunktiv II past→U25, B2-3 Zustandspassiv→U30, B2-4 Passive alternatives→U26, B2-5 Subjektlose Passiv→U30, B2-6 Futur II→U31, B2-7 Partizipialattribute→U26, B2-8 Nominalisierung→U25, B2-9 Verbalisierung→U25, B2-10 Indirekte Rede shift→U28, B2-11 Zweiteilige Konnektoren→U29, B2-12 Konsekutivsätze→U27, B2-13 Konzessivsätze→U29, B2-14 Konditionalsätze adv→U27, B2-15 Modalsätze→U35, B2-16 Temporalsätze adv→U33, B2-17 Kausalsätze adv→U31, B2-18 Finalsätze→U27, B2-19 Adversativsätze→U26, B2-20 Generalized relative→U32, B2-21 Uneingeleitete wenn→U29, B2-22 als ob+Konj.II→U28, B2-23 Genitive preps expanded→U30, B2-24 Adjektive+Präp→U33, B2-25 Nomen+Präp→U33, B2-26 Feste Nomen-Verb-Verbindungen→U31, B2-27 Negation prefixes→U34, B2-28 Wortbildung→U34, B2-29 Verweisswörter→U32, B2-30 Indefinitpronomen→U35, B2-31 TeKaMoLo→U34, B2-32 Fugenelement -s-→U32, B2-33 Modalpartikeln→U35+U36
+
+### Pedagogical Notes
+- U17 (4 constructs) justified: infinitive clause family taught as a set (um...zu/ohne...zu/statt...zu/damit)
+- U24 capstone: only 2 new constructs, focus on integration + Futur I (thematic: "Ich werde bleiben")
+- U36 capstone: 1 construct (Modalpartikeln consolidation), focus on authentic multi-register use
