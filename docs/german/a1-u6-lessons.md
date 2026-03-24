@@ -1162,32 +1162,43 @@ Now let me finish Lessons 11 and 12.
 3. `teach` — kulturell [adj]. Fun: From "Kultur" + -ell. "Kulturelle Unterschiede" = cultural differences. Germany takes Kultur very seriously.
 4. `teach` — tot [adj]. Fun: Dead. Cognate with English "dead" (old Germanic). "Totenstille" = dead silence. Short, blunt, very German.
 5. `teach` — Lösung(die) [fem/crimson]. Fun: Solution. From "lösen" (to solve/loosen). -ung = feminine abstract noun. "Die Lösung des Problems" = the solution to the problem.
-6. `tip` — **Präteritum Review: sein/haben in storytelling.** In spoken German, you tell stories using war/hatte for states and Perfekt (habe gemacht) for actions. "Ich war müde. Ich hatte Hunger. Ich habe gefrühstückt." This is the natural spoken pattern.
-7. `mc` — "Gestern ___ der Techniker da." opts: [war, hatte, ist, hat]. ans: war. Hint: Past tense of sein for "was there."
-8. `fb` — "Wir ___ endlich warmes Wasser!" s with {1}. a: hatten. opts: [hatten, waren, haben, sind]. Hint: Past tense of haben, "we" form.
-9. `mc` — "Die ___ war ganz einfach." opts: [Lösung, Aufgabe, Meinung, Regel]. ans: Lösung. Hint: The solution to the problem.
-10. `drag_fill` — "Am {1} war ich {2} Bürgeramt und {3} zwei Stunden gewartet." blanks: {1:"Montag", 2:"beim", 3:"habe"}. pool: [Montag, beim, habe, im, war, hatte]. Hint: Day + location + Perfekt for "waited."
-11. `mc` — "Hildi hat mir ___ Tee angeboten. Das war sehr nett." opts: [einen, eine, ein, der]. ans: einen. Hint: Tee is masculine. Accusative = einen.
-12. `fb` — "Das war ___ nett von dir!" s with {1}. a: sehr. opts: [sehr, viel, ganz, total]. Hint: The most common intensifier in German.
-13. `mc` — "Seit ___ wohne ich in Deutschland." opts: [drei Monaten, drei Monate, drei Monat, der drei Monate]. ans: drei Monaten. Hint: seit + DATIVE. Plural dative adds -n.
-14. `drag_fill` — "Ich frühstücke {1} halb acht und gehe {2} zur Arbeit." blanks: {1:"um", 2:"danach"}. pool: [um, am, danach, vorher, seit, im]. Hint: Clock time prep + "after that."
-15. `match` — pairs: [{nl:"war",en:"was (sein)"},{nl:"hatte",en:"had (haben)"},{nl:"waren",en:"were (sein)"},{nl:"hatten",en:"had/pl (haben)"}]
-16. `mc` — "Verumius ___ den ganzen Tag auf den Techniker ___." opts: [hat...gewartet, hatte...gewartet, war...gewartet, ist...gewartet]. ans: hat...gewartet. Hint: Perfekt of warten. Warten uses haben.
-17. `fb` — "Ich ___ mich am Bürgeramt ___." s: "Ich {1} mich am Bürgeramt angemeldet." a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for anmelden.
-18. `mc` — "Die Tür öffnet sich ___." opts: [automatisch, kulturell, eilig, fertig]. ans: automatisch. Hint: Which adjective means "by itself, without human action"?
-19. `drag_fill` — "Am {1}, den {2} März, {3} neun Uhr habe ich einen Termin." blanks: {1:"Dienstag", 2:"dritten", 3:"um"}. pool: [Dienstag, dritten, um, im, am, ersten]. Hint: Day + ordinal date + clock time.
-20. `mc` — "Hildi sagt: '___ du eine Tasse Tee?'" opts: [Möchtest, Möchte, Möchten, Möchtet]. ans: Möchtest. Hint: Informal "you" (du) form of möchten.
-21. `fb` — "Das ___ ein ___ Tag." s: "Das {1} ein guter Tag." a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein: "That WAS a good day."
-22. `mc` — "KD hatte einen Kaktus. Der Kaktus war nicht ___." opts: [tot, krank, fertig, eilig]. ans: tot. Hint: The opposite of alive.
-23. `mc` — "___ des Regens bin ich zu Hause geblieben." opts: [Wegen, Seit, Um, Trotz]. ans: Wegen. Hint: Which preposition means "because of"?
-24. `fb` — "Ich ___ endlich meine Dusche ___!" s: "Ich {1} endlich meine Dusche benutzt!" a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for benutzen.
+6. `teach` — abgeben. Fun: Ab (away) + geben (give) = give away/hand in. Separable: "Ich gebe das Formular ab." A: "Wo gebe ich das Formular ab?" / B: "An der Rezeption."
+7. `teach` — anklicken. Fun: An (on) + klicken (click). Digital German! Separable: "Klicken Sie den Link an." A: "Klicken Sie hier an." / B: "Wo genau?"
+8. `teach` — ankreuzen. Fun: An (on) + kreuzen (cross). To tick/check a box. Kreuz = cross. A: "Bitte ankreuzen: männlich oder weiblich." / B: "Fertig!"
+9. `teach` — drücken. Fun: To press/push. "Drücken Sie die Taste" = press the button. Phone menus love this word! Also "Daumen drücken" = to keep fingers crossed. A: "Drücken Sie die Eins." / B: "Ich drücke... jetzt."
+10. `teach` — kümmern. Fun: "Sich kümmern um" = to take care of. Reflexive! "Ich kümmere mich darum" = I'll take care of it. A: "Ich kümmere mich darum." / B: "Danke!"
+11. `teach` — aus sein. Fun: State verb. "Das Licht ist aus" = the light is off. "Der Film ist aus" = the movie is over. A: "Ist der Film aus?" / B: "Ja, seit 5 Minuten."
+12. `teach` — weg sein. Fun: "Er ist weg" = he is gone. Simple but essential for daily life. A: "Wo ist der Schlüssel?" / B: "Er ist weg!"
+13. `teach` — zu sein. Fun: To be closed. Opposite of "auf sein" (to be open). "Das Geschäft ist zu." A: "Ist das Geschäft zu?" / B: "Ja, es ist zu."
+14. `teach` — werden. Fun: THE most important German verb after sein/haben. Means "to become" AND is the future auxiliary. "Es wird kalt." A: "Es wird kalt." / B: "Ja, der Winter kommt."
+15. `tip` — **Präteritum Review: sein/haben in storytelling.** In spoken German, you tell stories using war/hatte for states and Perfekt (habe gemacht) for actions. "Ich war müde. Ich hatte Hunger. Ich habe gefrühstückt." This is the natural spoken pattern.
+16. `mc` — "Gestern ___ der Techniker da." opts: [war, hatte, ist, hat]. ans: war. Hint: Past tense of sein for "was there."
+17. `fb` — "Wir ___ endlich warmes Wasser!" s with {1}. a: hatten. opts: [hatten, waren, haben, sind]. Hint: Past tense of haben, "we" form.
+18. `mc` — "Die ___ war ganz einfach." opts: [Lösung, Aufgabe, Meinung, Regel]. ans: Lösung. Hint: The solution to the problem.
+19. `drag_fill` — "Am {1} war ich {2} Bürgeramt und {3} zwei Stunden gewartet." blanks: {1:"Montag", 2:"beim", 3:"habe"}. pool: [Montag, beim, habe, im, war, hatte]. Hint: Day + location + Perfekt for "waited."
+20. `mc` — "Hildi hat mir ___ Tee angeboten. Das war sehr nett." opts: [einen, eine, ein, der]. ans: einen. Hint: Tee is masculine. Accusative = einen.
+21. `fb` — "Das war ___ nett von dir!" s with {1}. a: sehr. opts: [sehr, viel, ganz, total]. Hint: The most common intensifier in German.
+22. `mc` — "Seit ___ wohne ich in Deutschland." opts: [drei Monaten, drei Monate, drei Monat, der drei Monate]. ans: drei Monaten. Hint: seit + DATIVE. Plural dative adds -n.
+23. `mc` — "Wo ___ ich das Formular ___?" opts: [gebe...ab, geben...ab, gebe...an, geben...an]. ans: gebe...ab. Hint: Separable verb abgeben, ich form.
+24. `drag_fill` — "Ich frühstücke {1} halb acht und gehe {2} zur Arbeit." blanks: {1:"um", 2:"danach"}. pool: [um, am, danach, vorher, seit, im]. Hint: Clock time prep + "after that."
+25. `match` — pairs: [{nl:"war",en:"was (sein)"},{nl:"hatte",en:"had (haben)"},{nl:"waren",en:"were (sein)"},{nl:"hatten",en:"had/pl (haben)"}]
+26. `mc` — "Verumius ___ den ganzen Tag auf den Techniker ___." opts: [hat...gewartet, hatte...gewartet, war...gewartet, ist...gewartet]. ans: hat...gewartet. Hint: Perfekt of warten. Warten uses haben.
+27. `fb` — "Ich ___ mich am Bürgeramt ___." s: "Ich {1} mich am Bürgeramt angemeldet." a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for anmelden.
+28. `mc` — "Die Tür öffnet sich ___." opts: [automatisch, kulturell, eilig, fertig]. ans: automatisch. Hint: Which adjective means "by itself, without human action"?
+29. `mc` — "Ist das Geschäft ___?" opts: [zu, aus, weg, ab]. ans: zu. Hint: Which word means "closed" for a shop?
+30. `drag_fill` — "Am {1}, den {2} März, {3} neun Uhr habe ich einen Termin." blanks: {1:"Dienstag", 2:"dritten", 3:"um"}. pool: [Dienstag, dritten, um, im, am, ersten]. Hint: Day + ordinal date + clock time.
+31. `mc` — "Hildi sagt: '___ du eine Tasse Tee?'" opts: [Möchtest, Möchte, Möchten, Möchtet]. ans: Möchtest. Hint: Informal "you" (du) form of möchten.
+32. `mc` — "KD hatte einen Kaktus. Der Kaktus war nicht ___." opts: [tot, krank, fertig, eilig]. ans: tot. Hint: The opposite of alive.
+33. `mc` — "___ des Regens bin ich zu Hause geblieben." opts: [Wegen, Seit, Um, Trotz]. ans: Wegen. Hint: Which preposition means "because of"?
+34. `mc` — "Es ___ immer kälter. Der Winter kommt." opts: [wird, ist, war, hat]. ans: wird. Hint: Which verb means "to become" for describing change?
+35. `fb` — "Ich ___ endlich meine Dusche ___!" s: "Ich {1} endlich meine Dusche benutzt!" a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for benutzen.
 
 ---
 
 ## LESSON 12: "Alles auf Deutsch" — Unit Review & Communicative Mastery
 **Type**: Grammar Review + Communicative Functions Consolidation | **Mode**: Mixed (Bubble + Quiz)
 **Characters**: Verumius (reflecting on his A1 journey)
-**Steps**: 25 | **New words**: 0 (all 200 taught; this is pure review + communicative practice) | **Cumulative**: 822
+**Steps**: 25 | **New words**: 0 (all words taught; this is pure review + communicative practice) | **Cumulative**: 881
 
 ### Grammar
 - ALL 3 new constructs reviewed: #22 Präteritum sein/haben, #26 time expressions (full: am/im/um/seit + ordinal dates), #5 imperative expanded
