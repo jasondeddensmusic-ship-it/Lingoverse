@@ -1,3 +1,5 @@
+
+
 # German A1 Unit 6: "Alles auf Deutsch — The Hot Water Crisis"
 
 ## Detailed Lesson-by-Lesson Flow
@@ -58,12 +60,13 @@
 ## LESSON 2: "Mein Tag" (My Day)
 **Type**: Vocabulary + Grammar | **Mode**: Bubble | **Scene**: Daily Routine
 **Characters**: Verumius (describing his day to himself/diary)
-**Steps**: 22 | **New words**: 20 | **Cumulative**: 664
+**Steps**: 31 | **New words**: 29 | **Cumulative**: 673
 
-### New Vocabulary (20 words)
+### New Vocabulary (29 words)
 **time (10)**: Tag(der), Morgen(der), Nacht(die), Woche(die), Wochenende(das), Uhr(die), Minute(die), Sekunde(die), Datum(das), Kalender(der)
 **time-adv (7)**: Abends, danach, endlich, gerade, inzwischen, nachher, vorher
 **time-adj-batch-2 (3)**: gestern, morgen(adv), spät
+**time-extra (9)**: Wochentag(der), Moment(der), Nachmittag(der), Vormittag(der), Schluss(der), fruher, punktlich, spater, zurzeit
 
 ### Grammar
 - #26 Time expressions (core): Uhr for clock time ("Es ist drei Uhr"), gestern/heute/morgen, am + day, um + clock time
@@ -92,11 +95,20 @@
 15. `tip` — **Time expressions** (#26): um + clock time (um drei Uhr), am + day (am Montag), gestern/heute/morgen standalone, gerade = right now, vorher/nachher/danach = before/after/then.
 16. `teach` — Abends, danach, endlich, gerade — 4 time adverbs grouped. Fun per card: Abends (in the evening, -s ending = habitual), danach (after that, compound: da+nach), endlich (finally! one of the most satisfying German words), gerade (right now/straight, dual meaning).
 17. `teach` — inzwischen, nachher, vorher — 3 time adverbs grouped. Fun per card: inzwischen (meanwhile, from "in zwischen"), nachher (afterward, nach+her), vorher (before, vor+her).
-18. `mc` — "Es ist 15:00. Es ist ___." opts: [drei Uhr, fünfzehn, fünf Uhr, dreizehn Uhr]. ans: drei Uhr. Hint: Germans use both 24h and 12h. What's 15:00 in 12h?
-19. `fb` — "Gestern ___ ich sehr müde." s with {1}. a: war. opts: [war, bin, hatte, habe]. Hint: Past tense of sein, first person.
-20. `mc` — "Ich dusche ___ um sieben Uhr." opts: [morgens, gestern, danach, spät]. ans: morgens. Hint: What time-word means "in the morning" as a habit?
-21. `drag_fill` — "Ich frühstücke {1} sieben {2}." blanks: {1: "um", 2: "Uhr"}. pool: [um, am, Uhr, Morgen, Tag]. Hint: Clock time needs um + number + Uhr.
-22. `mc` — "___ hatte ich keinen Hunger." opts: [Gestern, Morgen, Endlich, Gerade]. ans: Gestern. Hint: Which word means "yesterday"?
+18. `teach` — Wochentag(der) [masc/blue]. Fun: Woche+Tag compound. "Welcher Wochentag ist heute?" = What day of the week is it? A: "Welcher Wochentag ist heute?" / B: "Heute ist Mittwoch."
+19. `teach` — Moment(der) [masc/blue]. Fun: Same as English, from Latin. "Einen Moment, bitte!" = one moment please. A: "Hast du einen Moment?" / B: "Ja, was gibt es?"
+20. `teach` — Nachmittag(der) [masc/blue]. Fun: Nach+Mittag = after+midday. A: "Was machst du am Nachmittag?" / B: "Ich lerne Deutsch."
+21. `teach` — Vormittag(der) [masc/blue]. Fun: Vor+Mittag = before+midday. The opposite of Nachmittag. A: "Am Vormittag arbeite ich." / B: "Und am Nachmittag?"
+22. `teach` — Schluss(der) [masc/blue]. Fun: "Schluss!" = That's it! "Ladenschluss" = store closing time. A: "Wann ist Schluss?" / B: "Um 17 Uhr."
+23. `teach` — fruher [adv]. Fun: Comparative of fruh. "Fruher war alles besser" = nostalgia phrase every German knows. A: "Fruher hatte ich keinen Computer." / B: "Wirklich? Wie war das?"
+24. `teach` — punktlich [adj/adv]. Fun: THE German virtue. Being late is a social crime in Germany. A: "Bist du immer punktlich?" / B: "Naturlich! Ich bin deutsch."
+25. `teach` — spater [adv]. Fun: Comparative of spat. "Bis spater!" = See you later! Very common goodbye. A: "Kommst du jetzt?" / B: "Nein, spater."
+26. `teach` — zurzeit [adv]. Fun: Zur+Zeit compound. Means "currently/at the moment." A: "Was machst du zurzeit?" / B: "Ich lerne Deutsch."
+27. `mc` — "Es ist 15:00. Es ist ___." opts: [drei Uhr, funfzehn, funf Uhr, dreizehn Uhr]. ans: drei Uhr. Hint: Germans use both 24h and 12h. What's 15:00 in 12h?
+28. `fb` — "Gestern ___ ich sehr mude." s with {1}. a: war. opts: [war, bin, hatte, habe]. Hint: Past tense of sein, first person.
+29. `mc` — "Ich dusche ___ um sieben Uhr." opts: [morgens, gestern, danach, spat]. ans: morgens. Hint: What time-word means "in the morning" as a habit?
+30. `drag_fill` — "Ich fruhstucke {1} sieben {2}." blanks: {1: "um", 2: "Uhr"}. pool: [um, am, Uhr, Morgen, Tag]. Hint: Clock time needs um + number + Uhr.
+31. `mc` — "___ hatte ich keinen Hunger." opts: [Gestern, Morgen, Endlich, Gerade]. ans: Gestern. Hint: Which word means "yesterday"?
 
 ---
 
@@ -147,13 +159,14 @@
 ## LESSON 4: "Juli bis Dezember" (July to December)
 **Type**: Vocabulary + Grammar | **Mode**: Bubble | **Scene**: Daily Routine (seasonal planning)
 **Characters**: Verumius (looking at his calendar, planning the year)
-**Steps**: 20 | **New words**: 19 | **Cumulative**: 702
+**Steps**: 23 | **New words**: 22 | **Cumulative**: 714
 
-### New Vocabulary (19 words)
+### New Vocabulary (22 words)
 **months-batch-2 (6)**: Juli(der), August(der), September(der), Oktober(der), November(der), Dezember(der)
 **seasons (4)**: Frühling(der), Sommer(der), Herbst(der), Winter(der)
 **ordinals-batch-2 (3)**: vierte, fünfte, sechste
 **weather (5)**: Wetter(das), Regen(der), regnen, Schnee(der), Temperatur(die)
+**weather-extra (3)**: Fruhjahr(das), Wind(der), scheinen
 **adv (1)**: leider
 
 ### Grammar
@@ -180,23 +193,27 @@
 12. `teach` — Schnee(der) [masc/blue]. Fun: Cognate with English "snow." From Proto-Germanic *snaiwaz. Germans get excited about the first Schnee.
 13. `teach` — Temperatur(die) [fem/crimson]. Fun: Near-identical cognate. Germany uses Celsius. 20°C = comfortable. 30°C = Germans complain it's too hot.
 14. `teach` — leider. Fun: "Unfortunately." From "Leid" (suffering). Germans use this word A LOT. It softens bad news politely.
-15. `teach` — vierte, fünfte, sechste — ordinals. Fun: From 4th onward, add -te to the number (vier+te, fünf+te, sechs+te). Regular pattern!
-16. `tip` — **im + month/season**: "Im Januar" (in January), "im Sommer" (in summer). im = in + dem (dative contraction). Months and seasons are ALL masculine (der).
-17. `mc` — "Wir fahren ___ Sommer nach Spanien." opts: [im, am, um, seit]. ans: im. Hint: Seasons use which preposition contraction?
-18. `fb` — "Es ___ seit drei Tagen." s with {1}. a: regnet. opts: [regnet, schneit, Regen, Wetter]. Hint: The verb for rain, with "es" as subject.
-19. `mc` — "Der vierte ___ ist der amerikanische Nationalfeiertag." opts: [Juli, Juni, August, Mai]. ans: Juli. Hint: Independence Day: July 4th.
-20. `drag_fill` — "Gestern {1} es kalt und ich {2} keinen Regenschirm." blanks: {1: "war", 2: "hatte"}. pool: [war, hatte, ist, habe, bin]. Hint: Past tense of sein and haben.
+15. `teach` — Fruhjahr(das) [neut/green]. Fun: Synonym for Fruhling. Fruh+Jahr = early+year. More formal/literary. A: "Im Fruhjahr bluhen die Blumen." / B: "Ja, das Fruhjahr ist schon."
+16. `teach` — Wind(der) [masc/blue]. Fun: Same word as English, same Germanic root. "Es ist windig" = it's windy. A: "Heute ist viel Wind." / B: "Ja, es ist windig."
+17. `teach` — scheinen. Fun: Dual meaning! "Die Sonne scheint" (the sun shines) AND "Es scheint gut" (it seems good). A: "Die Sonne scheint heute." / B: "Ja, endlich!"
+18. `teach` — vierte, funfte, sechste — ordinals. Fun: From 4th onward, add -te to the number (vier+te, funf+te, sechs+te). Regular pattern!
+19. `tip` — **im + month/season**: "Im Januar" (in January), "im Sommer" (in summer). im = in + dem (dative contraction). Months and seasons are ALL masculine (der).
+20. `mc` — "Wir fahren ___ Sommer nach Spanien." opts: [im, am, um, seit]. ans: im. Hint: Seasons use which preposition contraction?
+21. `fb` — "Es ___ seit drei Tagen." s with {1}. a: regnet. opts: [regnet, schneit, Regen, Wetter]. Hint: The verb for rain, with "es" as subject.
+22. `mc` — "Der vierte ___ ist der amerikanische Nationalfeiertag." opts: [Juli, Juni, August, Mai]. ans: Juli. Hint: Independence Day: July 4th.
+23. `drag_fill` — "Gestern {1} es kalt und ich {2} keinen Regenschirm." blanks: {1: "war", 2: "hatte"}. pool: [war, hatte, ist, habe, bin]. Hint: Past tense of sein and haben.
 
 ---
 
 ## LESSON 5: "Der Anruf" (The Phone Call)
 **Type**: Story + Vocabulary | **Mode**: Cinematic -> Bubble | **Scene**: The Phone Call
 **Characters**: Verumius, automated phone menu voice, Hausverwaltung employee
-**Steps**: 22 | **New words**: 20 | **Cumulative**: 722
+**Steps**: 29 | **New words**: 27 | **Cumulative**: 741
 
-### New Vocabulary (20 words)
+### New Vocabulary (27 words)
 **phone (7)**: Anruf(der), Anrufbeantworter(der), Empfänger(der), Handy(das), Nachricht(die), Telefon(das), Vorwahl(die)
 **phone-verbs (3)**: anrufen, klingeln, telefonieren
+**mail-comm (7)**: Absender(der), Brief(der), Briefmarke(die), E-Mail(die), Fax(das), Postleitzahl(die), Wiederhoren(das)
 **body-batch-2 (8)**: Auge(das), Gesicht(das), Haar(das), Mund(der), Nase(die), Ohr(das), Zahn(der), Zeh(der)
 **prepositions-batch-2 (2)**: um, wegen
 
@@ -223,25 +240,33 @@
 11. `teach` — Vorwahl(die) [fem/crimson]. Fun: Area code. Vor (before) + Wahl (choice/dial). The number you dial BEFORE the main number.
 12. `teach` — um [prep]. Fun: Means "at" (time), "around" (place), and "in order to" (purpose). Three meanings, one tiny word.
 13. `teach` — wegen [prep]. Fun: "Because of." Takes GENITIVE (wegen des Regens) but in spoken German often dative (wegen dem Regen). Both accepted at A1.
-14. `teach` — Auge(das), Gesicht(das), Haar(das), Mund(der) — body batch 2a. [genders]. Fun per card: Auge (neuter! plural Augen), Gesicht (face, also means "vision" in old German), Haar (singular=one hair, Haare=head of hair), Mund (mouth, Mund auf! = open your mouth!).
-15. `teach` — Nase(die), Ohr(das), Zahn(der), Zeh(der) — body batch 2b. [genders]. Fun per card: Nase (feminine, "Ich habe die Nase voll" = I'm fed up, literally "my nose is full"), Ohr (neuter! plural Ohren), Zahn (tooth, Zahnarzt = dentist = tooth-doctor), Zeh (toe, masculine, sometimes also "die Zehe").
-16. `tip` — **Imperative in formal contexts** (#5 expanded): Sie-form imperative = infinitive + Sie. "Warten Sie!" "Sprechen Sie!" "Drücken Sie die Eins!" Used everywhere: phone menus, offices, doctors. Always with Sie for strangers.
-17. `mc` — "Das Telefon ___." opts: [klingelt, anruft, telefoniert, spricht]. ans: klingelt. Hint: Which verb means "to ring"?
-18. `fb` — "Ich ___ die Hausverwaltung ___." s: "Ich {1} die Hausverwaltung an." a: rufe. opts: [rufe, klingele, telefoniere, spreche]. Hint: Separable verb for "to call someone."
-19. `mc` — "___ Sie bitte eine Nachricht!" opts: [Hinterlassen, Hinterlasse, Hinterlässt, Hinterlasst]. ans: Hinterlassen. Hint: Formal imperative = infinitive + Sie.
-20. `mc` — "Das Wasser ist kalt ___ einer kaputten Heizung." opts: [wegen, um, seit, mit]. ans: wegen. Hint: Which preposition means "because of"?
-21. `match` — pairs: [{nl:"Anruf",en:"phone call"},{nl:"Nachricht",en:"message"},{nl:"Vorwahl",en:"area code"},{nl:"Empfänger",en:"recipient"}]
-22. `fb` — "___ Sie bitte nach dem Ton!" s with {1}. a: Sprechen. opts: [Sprechen, Sprich, Sprecht, Gesprochen]. Hint: Formal imperative for "speak."
+14. `teach` — Absender(der) [masc/blue]. Fun: Ab+Sender = away+sender. You'll see this on every German letter and package. A: "Wer ist der Absender?" / B: "Das steht auf dem Brief."
+15. `teach` — Brief(der) [masc/blue]. Fun: From Latin "brevis" (short). Germans still send paper Briefe! A: "Ich schreibe einen Brief." / B: "An wen?"
+16. `teach` — Briefmarke(die) [fem/crimson]. Fun: Brief+Marke. A stamp for a letter. A: "Ich brauche eine Briefmarke." / B: "Die kostet 85 Cent."
+17. `teach` — E-Mail(die) [fem/crimson]. Fun: Feminine because die Post/die Nachricht. A: "Ich schicke dir eine E-Mail." / B: "Gut, ich lese sie heute Abend."
+18. `teach` — Fax(das) [neut/green]. Fun: Germany STILL uses fax machines. Offices, doctors, government. A: "Konnen Sie mir ein Fax schicken?" / B: "Ja, was ist Ihre Faxnummer?"
+19. `teach` — Postleitzahl(die) [fem/crimson]. Fun: Post+Leit+Zahl = mail+guide+number. German PLZ has 5 digits. A: "Wie ist Ihre Postleitzahl?" / B: "10115."
+20. `teach` — Wiederhoren(das) [neut/green]. Fun: "Auf Wiederhoren!" = phone goodbye (vs "Auf Wiedersehen" = in-person). Wieder+horen = again+hear. A: "Auf Wiederhoren!" / B: "Auf Wiederhoren! Tschuss!"
+21. `teach` — Auge(das), Gesicht(das), Haar(das), Mund(der) — body batch 2a. [genders]. Fun per card: Auge (neuter! plural Augen), Gesicht (face, also means "vision" in old German), Haar (singular=one hair, Haare=head of hair), Mund (mouth, Mund auf! = open your mouth!).
+22. `teach` — Nase(die), Ohr(das), Zahn(der), Zeh(der) — body batch 2b. [genders]. Fun per card: Nase (feminine, "Ich habe die Nase voll" = I'm fed up, literally "my nose is full"), Ohr (neuter! plural Ohren), Zahn (tooth, Zahnarzt = dentist = tooth-doctor), Zeh (toe, masculine, sometimes also "die Zehe").
+23. `tip` — **Imperative in formal contexts** (#5 expanded): Sie-form imperative = infinitive + Sie. "Warten Sie!" "Sprechen Sie!" "Drucken Sie die Eins!" Used everywhere: phone menus, offices, doctors. Always with Sie for strangers.
+24. `mc` — "Das Telefon ___." opts: [klingelt, anruft, telefoniert, spricht]. ans: klingelt. Hint: Which verb means "to ring"?
+25. `fb` — "Ich ___ die Hausverwaltung ___." s: "Ich {1} die Hausverwaltung an." a: rufe. opts: [rufe, klingele, telefoniere, spreche]. Hint: Separable verb for "to call someone."
+26. `mc` — "___ Sie bitte eine Nachricht!" opts: [Hinterlassen, Hinterlasse, Hinterlasst, Hinterlassen Sie]. ans: Hinterlassen. Hint: Formal imperative = infinitive + Sie.
+27. `mc` — "Das Wasser ist kalt ___ einer kaputten Heizung." opts: [wegen, um, seit, mit]. ans: wegen. Hint: Which preposition means "because of"?
+28. `match` — pairs: [{nl:"Anruf",en:"phone call"},{nl:"Nachricht",en:"message"},{nl:"Vorwahl",en:"area code"},{nl:"Empfanger",en:"recipient"},{nl:"Brief",en:"letter"},{nl:"Briefmarke",en:"stamp"}]
+29. `fb` — "___ Sie bitte nach dem Ton!" s with {1}. a: Sprechen. opts: [Sprechen, Sprich, Sprecht, Gesprochen]. Hint: Formal imperative for "speak."
 
 ---
 
 ## LESSON 6: "Beim Arzt" (At the Doctor's)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Hausverwaltung Success (connecting health + appointments)
 **Characters**: Verumius, doctor's receptionist
-**Steps**: 20 | **New words**: 18 | **Cumulative**: 740
+**Steps**: 23 | **New words**: 21 | **Cumulative**: 762
 
-### New Vocabulary (18 words)
+### New Vocabulary (21 words)
 **health (7)**: Arzt(der), Ärztin(die), Gesundheit(die), krank, Krankenhaus(das), Krankheit(die), Medikament(das)
+**health-extra (3)**: Doktor(der), wehtun, Gesprach(das)
 **appointments (5)**: Termin(der), Ergebnis(das), Fehler(der), Regel(die), Aufgabe(die)
 **life-verbs-batch-1 (6)**: anfangen, aufhören, aufpassen, benutzen, beschreiben, vergessen
 
@@ -264,18 +289,21 @@
 6. `teach` — Krankheit(die) [fem/crimson]. Fun: -heit suffix = abstract noun (like English -ness). Krank + heit = sickness/illness.
 7. `teach` — Gesundheit(die) [fem/crimson]. Fun: You already know this one! Germans say it when someone sneezes. Literally: "health(ness)."
 8. `teach` — Medikament(das) [neut/green]. Fun: From Latin "medicamentum." The everyday word. "Medizin" exists too but sounds more formal/scientific.
-9. `teach` — Termin(der) [masc/blue]. Fun: NOT "terminal"! Means "appointment." False friend alert. "Einen Termin machen" = to make an appointment.
-10. `teach` — Ergebnis(das) [neut/green]. Fun: Er- (result prefix) + geben (give) + -nis (abstract suffix). A "given result." The -nis suffix always makes it neuter.
-11. `teach` — Fehler(der) [masc/blue]. Fun: "Aus Fehlern lernt man" = you learn from mistakes. Very common German saying.
-12. `teach` — Regel(die) [fem/crimson]. Fun: "In der Regel" = as a rule / normally. Germans love rules. "Regelung" = regulation.
-13. `teach` — Aufgabe(die) [fem/crimson]. Fun: Auf (up) + Gabe (gift/giving). A task is something "given up" to you. Also means "homework" (Hausaufgabe).
-14. `teach` — anfangen, aufhören, aufpassen — separable verbs grouped. Fun: anfangen (to begin, "Fang an!" = start!), aufhören (to stop, "Hör auf!" = stop it!), aufpassen (to pay attention, "Pass auf!" = watch out!).
-15. `teach` — benutzen, beschreiben, vergessen — inseparable/mixed verbs. Fun: benutzen (to use, be- prefix = inseparable), beschreiben (to describe, be- = inseparable), vergessen (to forget, ver- = inseparable, irregular: vergisst!).
-16. `verb_table` — **Präteritum sein/haben — full paradigm** (#22 formal). title: "Simple Past: sein & haben". groups: [{label:"sein",rows:[{pronoun:"ich",form:"war",en:"I was"},{pronoun:"du",form:"warst",en:"you were"},{pronoun:"er/sie/es",form:"war",en:"he/she/it was"},{pronoun:"wir",form:"waren",en:"we were"},{pronoun:"ihr",form:"wart",en:"you(pl) were"},{pronoun:"sie/Sie",form:"waren",en:"they/you(formal) were"}]},{label:"haben",rows:[{pronoun:"ich",form:"hatte",en:"I had"},{pronoun:"du",form:"hattest",en:"you had"},{pronoun:"er/sie/es",form:"hatte",en:"he/she/it had"},{pronoun:"wir",form:"hatten",en:"we had"},{pronoun:"ihr",form:"hattet",en:"you(pl) had"},{pronoun:"sie/Sie",form:"hatten",en:"they/you(formal) had"}]}]
-17. `mc` — "Ich ___ letzte Woche krank." opts: [war, hatte, bin, habe]. ans: war. Hint: Past tense of sein for "I was."
-18. `fb` — "Ich brauche einen ___ beim Arzt." s with {1}. a: Termin. opts: [Termin, Fehler, Ergebnis, Aufgabe]. Hint: An appointment.
-19. `mc` — "Du musst ___ ! Der Verkehr ist gefährlich." opts: [aufpassen, anfangen, aufhören, vergessen]. ans: aufpassen. Hint: Which separable verb means "to pay attention/watch out"?
-20. `drag_fill` — "Letzte Woche {1} ich Kopfschmerzen und {2} beim Arzt." blanks: {1: "hatte", 2: "war"}. pool: [hatte, war, habe, bin, wurde]. Hint: Past tense of haben and sein.
+9. `teach` — Doktor(der) [masc/blue]. Fun: Academic title, not just medical. Germans ALWAYS use it. "Herr Doktor" is standard. A: "Guten Tag, Herr Doktor." / B: "Guten Tag! Was fehlt Ihnen?"
+10. `teach` — wehtun [verb, separable]. Fun: Weh+tun = pain+do. Separable! "Mein Kopf tut weh." A: "Was tut weh?" / B: "Mein Rucken tut weh."
+11. `teach` — Gesprach(das) [neut/green]. Fun: Ge+sprach = collective speaking. "Ein gutes Gesprach" = a good conversation. A: "Das war ein gutes Gesprach." / B: "Ja, vielen Dank."
+12. `teach` — Termin(der) [masc/blue]. Fun: NOT "terminal"! Means "appointment." False friend alert. "Einen Termin machen" = to make an appointment.
+13. `teach` — Ergebnis(das) [neut/green]. Fun: Er- (result prefix) + geben (give) + -nis (abstract suffix). A "given result." The -nis suffix always makes it neuter.
+14. `teach` — Fehler(der) [masc/blue]. Fun: "Aus Fehlern lernt man" = you learn from mistakes. Very common German saying.
+15. `teach` — Regel(die) [fem/crimson]. Fun: "In der Regel" = as a rule / normally. Germans love rules. "Regelung" = regulation.
+16. `teach` — Aufgabe(die) [fem/crimson]. Fun: Auf (up) + Gabe (gift/giving). A task is something "given up" to you. Also means "homework" (Hausaufgabe).
+17. `teach` — anfangen, aufhoren, aufpassen — separable verbs grouped. Fun: anfangen (to begin, "Fang an!" = start!), aufhoren (to stop, "Hor auf!" = stop it!), aufpassen (to pay attention, "Pass auf!" = watch out!).
+18. `teach` — benutzen, beschreiben, vergessen — inseparable/mixed verbs. Fun: benutzen (to use, be- prefix = inseparable), beschreiben (to describe, be- = inseparable), vergessen (to forget, ver- = inseparable, irregular: vergisst!).
+19. `verb_table` — **Prateritum sein/haben — full paradigm** (#22 formal). title: "Simple Past: sein & haben". groups: [{label:"sein",rows:[{pronoun:"ich",form:"war",en:"I was"},{pronoun:"du",form:"warst",en:"you were"},{pronoun:"er/sie/es",form:"war",en:"he/she/it was"},{pronoun:"wir",form:"waren",en:"we were"},{pronoun:"ihr",form:"wart",en:"you(pl) were"},{pronoun:"sie/Sie",form:"waren",en:"they/you(formal) were"}]},{label:"haben",rows:[{pronoun:"ich",form:"hatte",en:"I had"},{pronoun:"du",form:"hattest",en:"you had"},{pronoun:"er/sie/es",form:"hatte",en:"he/she/it had"},{pronoun:"wir",form:"hatten",en:"we had"},{pronoun:"ihr",form:"hattet",en:"you(pl) had"},{pronoun:"sie/Sie",form:"hatten",en:"they/you(formal) had"}]}]
+20. `mc` — "Ich ___ letzte Woche krank." opts: [war, hatte, bin, habe]. ans: war. Hint: Past tense of sein for "I was."
+21. `fb` — "Ich brauche einen ___ beim Arzt." s with {1}. a: Termin. opts: [Termin, Fehler, Ergebnis, Aufgabe]. Hint: An appointment.
+22. `mc` — "Du musst ___ ! Der Verkehr ist gefahrlich." opts: [aufpassen, anfangen, aufhoren, vergessen]. ans: aufpassen. Hint: Which separable verb means "to pay attention/watch out"?
+23. `drag_fill` — "Letzte Woche {1} ich Kopfschmerzen und {2} beim Arzt." blanks: {1: "hatte", 2: "war"}. pool: [hatte, war, habe, bin, wurde]. Hint: Past tense of haben and sein.
 
 ---
 
@@ -328,14 +356,13 @@
 ## LESSON 8: "Arbeit und Studium" (Work and Study)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (work/study context)
 **Characters**: Verumius, Colleague (background)
-**Steps**: 36 | **New words**: 35 | **Cumulative**: 794
+**Steps**: 22 | **New words**: 21 | **Cumulative**: 780
 
-### New Vocabulary (35 words)
+### New Vocabulary (21 words)
 **work (12)**: Arbeit(die), Chef(der), Chefin(die), Firma(die), Geschäft(das), Kollege(der), Kollegin(die), Praktikum(das), Stelle(die), Studium(das), Universität(die), Urlaub(der)
 **life-verbs-batch-2 (3)**: besuchen, einladen, entscheiden
 **verbs-batch-1 (4)**: brauchen, denken, hoffen, warten
 **adj-batch-3 (2)**: arbeitslos, selbständig
-**work-batch-2 (14)**: Feierabend(der), Feiertag(der), Pause(die), Arbeitsplatz(der), Beamte(der), Job(der), Klasse(die), Kurs(der), Maschine(die), Schüler(der), Student(der), Unterricht(der), verdienen, studieren
 
 ### Grammar
 - #22 Präteritum in work context: "Ich war drei Monate arbeitslos. Ich hatte ein Praktikum."
@@ -376,16 +403,22 @@
 ## LESSON 9: "Freizeit und Hobbys" (Free Time and Hobbies)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (leisure)
 **Characters**: Verumius (talking with Hildi about hobbies — pre-tea scene buildup)
-**Steps**: 32 | **New words**: 31 | **Cumulative**: 811
+**Steps**: 20 | **New words**: 19 | **Cumulative**: 799
 
-### New Vocabulary (31 words)
+### New Vocabulary (19 words)
+**hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
+**media (7)**: Bild(das), Bleistift(der), Bogen(der), Buchstabe(der), CD(die), Drucker(der), Papier(das)
+**social-verbs (4)**: besuchen(already taught L8 — SKIP, replace with:) feiern, gratulieren, schenken + **1 extra**: selbstständig(already taught L8 — SKIP, replace with:) **life-verb**: **entscheiden already taught L8 — recalculate**
+
+Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was listed as separate from selbständig.
+
+**Correction**: The vocab list has both "selbständig" and "selbstständig" — these are alternate spellings of the same word. Both get teach cards per PP55.
+
+**Revised New Vocabulary (19 words)**:
 **hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
 **media (7)**: Bild(das), Bleistift(der), Bogen(der), Buchstabe(der), CD(die), Drucker(der), Papier(das)
 **social-verbs (3)**: feiern, gratulieren, schenken
 **adj (1)**: selbstständig (alternate spelling teach card — references selbständig from L8)
-**hobby-verbs (7)**: schwimmen, tanzen, fernsehen, Rad fahren, mitmachen, lachen, gewinnen
-**hobby-nouns (3)**: Kugelschreiber(der), Lieblingslied(das), Lied(das)
-**hobby-other (2)**: Thema(das), treffen
 
 ### Grammar
 - Recycle #22 Präteritum: "Das Spiel war toll. Ich hatte viel Spaß."
@@ -417,20 +450,8 @@
 16. `teach` — Papier(das) [neut/green]. Fun: From Latin/Greek "papyrus." Nearly identical in all European languages. "Auf Papier" = on paper.
 17. `teach` — feiern, gratulieren, schenken — social verbs. Fun: feiern (to celebrate, "Wir feiern!"), gratulieren (to congratulate, "Ich gratuliere dir!" + dative), schenken (to give a gift, "Ich schenke dir ein Buch" = I give you a book as a gift).
 18. `teach` — selbstständig [adj]. Fun: Alternate spelling of selbständig (L8). Both are correct. New German spelling reform (1996) added the extra "st." Both accepted everywhere.
-19. `teach` — Kugelschreiber(der) [masc/blue]. Fun: Kugel (ball) + Schreiber (writer) = ball-writer. 17 letters! Germans say "Kuli" for short. A: "Hast du einen Kugelschreiber?" / B: "Ja, hier bitte."
-20. `teach` — Lied(das) [neut/green]. Fun: From Old High German "liod." "Volkslied" = folk song. Germany has a deep song tradition. A: "Kennst du dieses Lied?" / B: "Ja, das ist schon!"
-21. `teach` — Lieblingslied(das) [neut/green]. Fun: Liebling (favorite) + s (linking) + Lied (song). Compound magic! A: "Was ist dein Lieblingslied?" / B: "Ach, das ist schwer!"
-22. `teach` — Thema(das) [neut/green]. Fun: From Greek "thema." Plural is "Themen" (Greek plural pattern!). A: "Was ist das Thema heute?" / B: "Wir sprechen uber Hobbys."
-23. `teach` — schwimmen. Fun: Cognate with English "swim." Germans love their Schwimmbader (swimming pools). A: "Kannst du schwimmen?" / B: "Ja, ich schwimme gern!"
-24. `teach` — tanzen. Fun: From French "danser" via medieval German. "Tanzstunde" = dance lesson. A: "Willst du tanzen?" / B: "Ja, gern!"
-25. `teach` — fernsehen. Fun: Fern (far) + sehen (see) = far-see! Separable: "Ich sehe fern." A: "Was siehst du gern im Fernsehen?" / B: "Ich sehe gern Filme."
-26. `teach` — Rad fahren. Fun: Rad = wheel. Separable: "Ich fahre Rad." Very German hobby, bike lanes everywhere! A: "Fahrst du gern Rad?" / B: "Ja, jeden Tag!"
-27. `teach` — mitmachen. Fun: Mit (with) + machen (do) = do-along. Separable: "Ich mache mit!" A: "Machst du mit?" / B: "Ja, ich mache mit!"
-28. `teach` — lachen. Fun: Cognate with English "laugh." "Lachen ist die beste Medizin" = laughter is the best medicine. A: "Warum lachst du?" / B: "Das ist lustig!"
-29. `teach` — gewinnen. Fun: Related to English "win." Past: gewonnen. "Wer gewinnt das Spiel?" A: "Wer gewinnt?" / B: "Ich gewinne!"
-30. `teach` — treffen. Fun: To meet. Reflexive for meeting each other: "Wir treffen uns." Irregular: trifft. A: "Wann treffen wir uns?" / B: "Um drei Uhr im Cafe."
-31. `mc` — "Am Wochenende ___ ich gern ein Buch." opts: [lese, spiele, mache, sehe]. ans: lese. Hint: Which verb goes with books?
-32. `fb` — "Das Spiel ___ sehr spannend." s with {1}. a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein.
+19. `mc` — "Am Wochenende ___ ich gern ein Buch." opts: [lese, spiele, mache, sehe]. ans: lese. Hint: Which verb goes with books?
+20. `fb` — "Das Spiel ___ sehr spannend." s with {1}. a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein.
 
 ---
 
@@ -1080,7 +1101,9 @@ My lesson plan assigns all 200 unique words. **The plan is complete.**
 Now let me finish Lessons 11 and 12.
 
 ### LESSON 11 (Revised): "Hildis Tee"
-**Steps**: 33 | **New words**: 13 (automatisch, kulturell, tot, Losung + 9 new verbs) | **Cumulative**: 835
+**Steps**: 24 | **New words**: 4 (automatisch, kulturell, tot, Lösung) | **Cumulative**: 826 (622 prior + 204 this unit, counting all entries including the duplicate teach card for besuchen variant + selbstständig variant)
+
+Actually, cumulative = 622 + 200 unique new = **822**. But besuchen was already taught in prior units (it's in life-verbs AND social-verbs). And selbstständig needs its own teach card as alternate spelling. So teach cards = 200, but the duplicate besuchen only needs one teach card. Let me just use: **622 + 200 = 822 cumulative**.
 
 ### Grammar
 - #22 Präteritum CONSOLIDATION: Full narrative using war/hatte throughout
@@ -1099,34 +1122,25 @@ Now let me finish Lessons 11 and 12.
 3. `teach` — kulturell [adj]. Fun: From "Kultur" + -ell. "Kulturelle Unterschiede" = cultural differences. Germany takes Kultur very seriously.
 4. `teach` — tot [adj]. Fun: Dead. Cognate with English "dead" (old Germanic). "Totenstille" = dead silence. Short, blunt, very German.
 5. `teach` — Lösung(die) [fem/crimson]. Fun: Solution. From "lösen" (to solve/loosen). -ung = feminine abstract noun. "Die Lösung des Problems" = the solution to the problem.
-6. `teach` — abgeben. Fun: Ab (away) + geben (give) = give away/hand in. Separable: "Ich gebe das Formular ab." A: "Wo gebe ich das Formular ab?" / B: "An der Rezeption."
-7. `teach` — anklicken. Fun: An (on) + klicken (click). Digital German! Separable: "Klicken Sie den Link an." A: "Klicken Sie hier an." / B: "Wo genau?"
-8. `teach` — ankreuzen. Fun: An (on) + kreuzen (cross). To tick/check a box. Kreuz = cross. A: "Bitte ankreuzen: mannlich oder weiblich." / B: "Fertig!"
-9. `teach` — drucken. Fun: To press/push. "Drucken Sie die Taste" = press the button. Phone menus love this word! A: "Drucken Sie die Eins." / B: "Ich drucke... jetzt."
-10. `teach` — kummern. Fun: "Sich kummern um" = to take care of. Reflexive! "Ich kummere mich darum" = I'll take care of it. A: "Ich kummere mich darum." / B: "Danke!"
-11. `teach` — aus sein. Fun: State verb. "Das Licht ist aus" = the light is off. "Der Film ist aus" = the movie is over. A: "Ist der Film aus?" / B: "Ja, seit 5 Minuten."
-12. `teach` — weg sein. Fun: "Er ist weg" = he is gone. Simple but essential for daily life. A: "Wo ist der Schlussel?" / B: "Er ist weg!"
-13. `teach` — zu sein. Fun: To be closed. Opposite of "auf sein" (to be open). "Das Geschaft ist zu." A: "Ist das Geschaft zu?" / B: "Ja, es ist zu."
-14. `teach` — werden. Fun: THE most important German verb after sein/haben. Means "to become" AND is the future auxiliary. "Es wird kalt." A: "Es wird kalt." / B: "Ja, der Winter kommt."
-15. `tip` — **Prateritum Review: sein/haben in storytelling.** In spoken German, you tell stories using war/hatte for states and Perfekt (habe gemacht) for actions. "Ich war mude. Ich hatte Hunger. Ich habe gefruhstuckt." This is the natural spoken pattern.
-16. `mc` — "Gestern ___ der Techniker da." opts: [war, hatte, ist, hat]. ans: war. Hint: Past tense of sein for "was there."
-17. `fb` — "Wir ___ endlich warmes Wasser!" s with {1}. a: hatten. opts: [hatten, waren, haben, sind]. Hint: Past tense of haben, "we" form.
-18. `mc` — "Die ___ war ganz einfach." opts: [Losung, Aufgabe, Meinung, Regel]. ans: Losung. Hint: The solution to the problem.
-19. `drag_fill` — "Am {1} war ich {2} Burgeramt und {3} zwei Stunden gewartet." blanks: {1:"Montag", 2:"beim", 3:"habe"}. pool: [Montag, beim, habe, im, war, hatte]. Hint: Day + location + Perfekt for "waited."
-20. `mc` — "Hildi hat mir ___ Tee angeboten. Das war sehr nett." opts: [einen, eine, ein, der]. ans: einen. Hint: Tee is masculine. Accusative = einen.
-21. `fb` — "Das war ___ nett von dir!" s with {1}. a: sehr. opts: [sehr, viel, ganz, total]. Hint: The most common intensifier in German.
-22. `mc` — "Seit ___ wohne ich in Deutschland." opts: [drei Monaten, drei Monate, drei Monat, der drei Monate]. ans: drei Monaten. Hint: seit + DATIVE. Plural dative adds -n.
-23. `mc` — "Wo ___ ich das Formular ___?" opts: [gebe...ab, geben...ab, gebe...an, geben...an]. ans: gebe...ab. Hint: Separable verb abgeben, ich form.
-24. `drag_fill` — "Ich fruhstucke {1} halb acht und gehe {2} zur Arbeit." blanks: {1:"um", 2:"danach"}. pool: [um, am, danach, vorher, seit, im]. Hint: Clock time prep + "after that."
-25. `match` — pairs: [{nl:"war",en:"was (sein)"},{nl:"hatte",en:"had (haben)"},{nl:"waren",en:"were (sein)"},{nl:"hatten",en:"had/pl (haben)"}]
-26. `mc` — "Verumius ___ den ganzen Tag auf den Techniker ___." opts: [hat...gewartet, hatte...gewartet, war...gewartet, ist...gewartet]. ans: hat...gewartet. Hint: Perfekt of warten. Warten uses haben.
-27. `fb` — "Ich ___ mich am Burgeramt ___." s: "Ich {1} mich am Burgeramt angemeldet." a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for anmelden.
-28. `mc` — "Die Tur offnet sich ___." opts: [automatisch, kulturell, eilig, fertig]. ans: automatisch. Hint: Which adjective means "by itself, without human action"?
-29. `mc` — "Ist das Geschaft ___?" opts: [zu, aus, weg, ab]. ans: zu. Hint: Which word means "closed" for a shop?
-30. `drag_fill` — "Am {1}, den {2} Marz, {3} neun Uhr habe ich einen Termin." blanks: {1:"Dienstag", 2:"dritten", 3:"um"}. pool: [Dienstag, dritten, um, im, am, ersten]. Hint: Day + ordinal date + clock time.
-31. `mc` — "Hildi sagt: '___ du eine Tasse Tee?'" opts: [Mochtest, Mochte, Mochten, Mochtet]. ans: Mochtest. Hint: Informal "you" (du) form of mochten.
-32. `mc` — "KD hatte einen Kaktus. Der Kaktus war nicht ___." opts: [tot, krank, fertig, eilig]. ans: tot. Hint: The opposite of alive.
-33. `fb` — "Ich ___ endlich meine Dusche ___!" s: "Ich {1} endlich meine Dusche benutzt!" a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for benutzen.
+6. `tip` — **Präteritum Review: sein/haben in storytelling.** In spoken German, you tell stories using war/hatte for states and Perfekt (habe gemacht) for actions. "Ich war müde. Ich hatte Hunger. Ich habe gefrühstückt." This is the natural spoken pattern.
+7. `mc` — "Gestern ___ der Techniker da." opts: [war, hatte, ist, hat]. ans: war. Hint: Past tense of sein for "was there."
+8. `fb` — "Wir ___ endlich warmes Wasser!" s with {1}. a: hatten. opts: [hatten, waren, haben, sind]. Hint: Past tense of haben, "we" form.
+9. `mc` — "Die ___ war ganz einfach." opts: [Lösung, Aufgabe, Meinung, Regel]. ans: Lösung. Hint: The solution to the problem.
+10. `drag_fill` — "Am {1} war ich {2} Bürgeramt und {3} zwei Stunden gewartet." blanks: {1:"Montag", 2:"beim", 3:"habe"}. pool: [Montag, beim, habe, im, war, hatte]. Hint: Day + location + Perfekt for "waited."
+11. `mc` — "Hildi hat mir ___ Tee angeboten. Das war sehr nett." opts: [einen, eine, ein, der]. ans: einen. Hint: Tee is masculine. Accusative = einen.
+12. `fb` — "Das war ___ nett von dir!" s with {1}. a: sehr. opts: [sehr, viel, ganz, total]. Hint: The most common intensifier in German.
+13. `mc` — "Seit ___ wohne ich in Deutschland." opts: [drei Monaten, drei Monate, drei Monat, der drei Monate]. ans: drei Monaten. Hint: seit + DATIVE. Plural dative adds -n.
+14. `drag_fill` — "Ich frühstücke {1} halb acht und gehe {2} zur Arbeit." blanks: {1:"um", 2:"danach"}. pool: [um, am, danach, vorher, seit, im]. Hint: Clock time prep + "after that."
+15. `match` — pairs: [{nl:"war",en:"was (sein)"},{nl:"hatte",en:"had (haben)"},{nl:"waren",en:"were (sein)"},{nl:"hatten",en:"had/pl (haben)"}]
+16. `mc` — "Verumius ___ den ganzen Tag auf den Techniker ___." opts: [hat...gewartet, hatte...gewartet, war...gewartet, ist...gewartet]. ans: hat...gewartet. Hint: Perfekt of warten. Warten uses haben.
+17. `fb` — "Ich ___ mich am Bürgeramt ___." s: "Ich {1} mich am Bürgeramt angemeldet." a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for anmelden.
+18. `mc` — "Die Tür öffnet sich ___." opts: [automatisch, kulturell, eilig, fertig]. ans: automatisch. Hint: Which adjective means "by itself, without human action"?
+19. `drag_fill` — "Am {1}, den {2} März, {3} neun Uhr habe ich einen Termin." blanks: {1:"Dienstag", 2:"dritten", 3:"um"}. pool: [Dienstag, dritten, um, im, am, ersten]. Hint: Day + ordinal date + clock time.
+20. `mc` — "Hildi sagt: '___ du eine Tasse Tee?'" opts: [Möchtest, Möchte, Möchten, Möchtet]. ans: Möchtest. Hint: Informal "you" (du) form of möchten.
+21. `fb` — "Das ___ ein ___ Tag." s: "Das {1} ein guter Tag." a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein: "That WAS a good day."
+22. `mc` — "KD hatte einen Kaktus. Der Kaktus war nicht ___." opts: [tot, krank, fertig, eilig]. ans: tot. Hint: The opposite of alive.
+23. `mc` — "___ des Regens bin ich zu Hause geblieben." opts: [Wegen, Seit, Um, Trotz]. ans: Wegen. Hint: Which preposition means "because of"?
+24. `fb` — "Ich ___ endlich meine Dusche ___!" s: "Ich {1} endlich meine Dusche benutzt!" a: habe. opts: [habe, bin, hatte, war]. Hint: Perfekt with haben for benutzen.
 
 ---
 
