@@ -1083,6 +1083,20 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 ### Why Rule 16 Exists
 D112 Sessions 1-4 added sub-levels up to A1.3, A2.8, B1.8, B2.6 across French and Spanish. No session verified the unit map after adding them. The bug was invisible in the data (the `level` field was correct on every unit) but broke the UI (units appeared in the wrong tab). The owner spotted it from a screenshot. A 30-second browser check per session would have caught this immediately.
 
+### Rule 17: Agent Reliability — Split, Monitor, Never Trust One Agent (2026-03-24)
+When deploying sub-agents for large tasks:
+
+1. **Agents die silently.** Output files stuck at 121 bytes = dead agent. Check file size after 60 seconds. If unchanged, relaunch.
+2. **Large files kill agents.** Files >30KB or JSON blobs cause agents to fail on Read. Always convert JSON conversation logs to clean markdown BEFORE sending agents to edit them.
+3. **Never send ONE agent for a critical task.** Split into 2-3 agents with overlapping scope. If one dies, the others deliver.
+4. **Monitor actively.** Check output file sizes every 30-60 seconds during critical operations. Don't assume agents are working.
+5. **Pre-digest data in prompts.** Instead of "read this 350-line file," paste the relevant section directly into the agent prompt. Agents that need to read large files are the ones that die.
+6. **Batch by non-overlapping file sections.** Multiple agents CAN edit the same file if they target different sections, but race conditions cause Edit failures. Use bash `cat >>` append for concurrent additions.
+7. **Sonnet for focused tasks, Opus for creative/complex tasks.** Sonnet is faster and more reliable for validation/counting. Opus is better for lesson design, story writing, and judgment calls.
+
+### Why Rule 17 Exists
+In March 2026, the German A1 Phase 2C+D task timed out 3 times with single agents. The session that succeeded used 6 parallel Opus agents (one per unit) with redundant validators. During U6 vocabulary remediation, the single-agent approach died silently (output stuck at 121 bytes). Splitting into 3 batch agents (each targeting different lessons) succeeded. The pattern: split + monitor + relaunch if dead. Never trust a single agent for anything that matters.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)

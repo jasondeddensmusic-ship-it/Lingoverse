@@ -1,8 +1,8 @@
-# Phase 2C+D Handoff: A1 Lesson-by-Lesson Design
+# German A1-B2 Planning Handoff
 
-> **Status**: Phase 2 COMPLETE (2026-03-24). All A1 lessons designed, cross-validated, remediated.
-> **Priority**: Phase 3 (cross-level seeding) is NEXT.
-> **Date**: 2026-03-23
+> **Status**: Phase 2 + Phase 3 COMPLETE (2026-03-24).
+> **Priority**: Phase 4 (A1 content writing) is NEXT. Character arc fixes pending.
+> **Date**: 2026-03-23 (Phase 0-2B), 2026-03-24 (Phase 2C+D, Phase 3)
 
 ---
 
@@ -134,9 +134,35 @@ After all 6 complete, a VALIDATOR agent reads all 6 files and checks:
 | ✅ 2C+D | A1 lesson-by-lesson design (52 lessons) | DONE (2026-03-24) | `docs/german/a1-u{1-6}-lessons.md` |
 | ✅ CV | Cross-validation: 848/848 vocab, 27/27 grammar, 20/20 functions | DONE (2026-03-24) | `docs/german/a1-cross-validation-report.md` |
 
-## After Phase 2 Completes
+## Phase 3 Results (2026-03-24)
 
-### Phase 3: Cross-Validation (before any code)
+| Phase | Deliverable | Status | File |
+|-------|------------|--------|------|
+| ✅ 3A | A2 broad allocation (25 constructs, 612 words) | DONE | `docs/german/cross-level-allocation.md` |
+| ✅ 3B | B1 broad allocation (33 constructs, 1843 words) | DONE | `docs/german/cross-level-allocation.md` |
+| ✅ 3C | B2 broad allocation (33 constructs, ~2000 words) | DONE | `docs/german/cross-level-allocation.md` |
+| ✅ 3D | PP26 seed verification (25/25 seeded) | DONE | `docs/german/pp26-seed-verification.md` |
+| ✅ 3E | Character arc verification (6 fixes needed) | DONE | `docs/german/character-arc-verification.md` |
+
+### Phase 3 Key Findings
+- **118/118 grammar constructs** mapped across 36 units (A1:27, A2:25, B1:33, B2:33)
+- **PP51 PASS**: B1+B2 (24 units) >= A1+A2 (12 units)
+- **Vocabulary flow**: 848 → 1,460 → 3,303 → ~5,300 (on target for 5-6K)
+- **PP26 seeds**: 25/25 A2 constructs seeded in A1 stories (4 gaps fixed with story text additions)
+- **Character arcs**: 3/6 FAIL (Heinrich 16-ep gap, Lukas 8+9-ep gaps, Yilmaz 7+9-ep gaps). 6 priority fixes documented. Mia only full PASS.
+- **No dead ends** from A1 into A2/B1/B2
+
+### Outstanding: Character Arc Fixes (6 items, not yet applied)
+1. Heinrich: Add 3 scenes (B1 wisdom x2, B2 health decline x1)
+2. Lukas: Add 4 cameos across two gaps
+3. Yilmaz B1: Add 2 appearances including Sie→du shift
+4. Hildi du offer: Move to B1 (U20-U21), attach to vulnerability revelation
+5. KD B2 digital: Add 1 café scene (U31-U32)
+6. Fix 1 completion: Add Yilmaz reference to U4 or U5
+
+## What Comes Next
+
+### Phase 4: A1 Content Writing (Sessions 7-10)
 - Validator agent checks all A1 lessons against PP52/PP55/PP57/PP58
 - Second agent (different model) re-validates independently
 - Both must agree: zero gaps

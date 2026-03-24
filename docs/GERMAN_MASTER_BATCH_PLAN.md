@@ -21,10 +21,15 @@ German is the **template language** — every decision gets documented as a reus
 | Coverage | 2026-03-23 | ✅ DONE | 22.5% coverage (743/3,307). 2,564 words need adding. |
 | 1A: Story Arc | 2026-03-23 | ✅ DONE | 36/36 PASS. 33 NATURAL grammar fit, 3 GOOD, 0 FORCED. 7 minor fixes documented. |
 | 1B: Scenes | 2026-03-23 | ✅ DONE | 144 scenes designed. 44 locations. 6 character expression maps. ~30-35 MJ backgrounds. |
-| 2A: A1 Vocab | — | ⏳ NEXT | Map 848 Goethe A1 words to 6 units |
-| 2B: A1 Grammar | — | ⏳ NEXT | Map 27 A1 constructs to lessons |
-| 2C: A1 Functions | — | ⏳ NEXT | Map 20 A1 functions to practice |
-| 2D: A1 Lessons | — | ⏳ NEXT | Design ~48 lesson outlines |
+| 2A: A1 Vocab | 2026-03-23 | ✅ DONE | 848/848 Goethe A1 words mapped to 6 units |
+| 2B: A1 Grammar | 2026-03-23 | ✅ DONE | 27/27 A1 constructs mapped with teach/practice/recycle |
+| 2C+D: A1 Lessons | 2026-03-24 | ✅ DONE | 52 lessons designed (6 parallel Opus agents). 848/848 vocab PASS, 27/27 grammar PASS, 20/20 functions PASS. Cross-validated + remediated (108 gap words fixed). |
+| 3A: A2 Allocation | 2026-03-24 | ✅ DONE | 25/25 constructs, 612/612 Goethe words, 14/14 functions |
+| 3B: B1 Allocation | 2026-03-24 | ✅ DONE | 33/33 constructs mapped to U13-U24 |
+| 3C: B2 Allocation | 2026-03-24 | ✅ DONE | 33/33 constructs mapped to U25-U36 |
+| 3D: PP26 Seeds | 2026-03-24 | ✅ DONE | 25/25 A2 constructs seeded in A1. 4 gaps fixed. |
+| 3E: Character Arcs | 2026-03-24 | ✅ DONE | 3/6 FAIL. 6 priority fixes documented. |
+| 4: A1 Content | — | ⏳ NEXT | Write actual JS lesson content from approved designs |
 
 ### Deliverables Created (docs/german/)
 - `goethe-wordlist-sources.md` — Source documentation + DWDS download URLs
@@ -34,6 +39,13 @@ German is the **template language** — every decision gets documented as a reus
 - `coverage-report.md` — V1 vs Goethe comparison (22.5% coverage)
 - `story-arc-validation.md` — Phase 1A validation report
 - `episode-scene-breakdowns.md` — 144 scenes across 36 episodes
+
+### Deliverables Created (2026-03-24 session)
+- `a1-u1-lessons.md` through `a1-u6-lessons.md` — Complete A1 lesson-by-lesson designs (52 lessons)
+- `a1-cross-validation-report.md` — Cross-validation results (5/6 PASS, vocab remediated)
+- `cross-level-allocation.md` — A2/B1/B2 broad allocation with construct-to-unit mapping
+- `pp26-seed-verification.md` — PP26 seed verification (25/25 A2 constructs seeded)
+- `character-arc-verification.md` — Character arc analysis (6 fixes documented)
 
 ### Deliverables Created (docs/salvage/)
 - `german-v1-analysis.md` — Complete v1 content inventory
