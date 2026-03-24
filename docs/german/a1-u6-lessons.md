@@ -310,12 +310,13 @@
 ## LESSON 7: "Am Bürgeramt" (At the Registration Office)
 **Type**: Story + Vocabulary | **Mode**: Cinematic | **Scene**: Bürgeramt — KD's legendary desk
 **Characters**: Verumius, KD (bureaucrat), number-calling machine
-**Steps**: 22 | **New words**: 19 | **Cumulative**: 759
+**Steps**: 24 | **New words**: 21 | **Cumulative**: 761
 
-### New Vocabulary (19 words)
+### New Vocabulary (21 words)
 **admin-verbs (7)**: anmelden, ausfüllen, erklären, erlauben, erzählen, unterschreiben, vorstellen
 **general (7)**: Art(die), Ding(das), Form(die), Grund(der), Interesse(das), Paar(das), Weise(die)
 **appointments-batch-2 (5)**: Antwort(die), Anzeige(die), Aussage(die), Meinung(die), Übung(die)
+**admin-batch-2 (2)**: wiederholen, Gespräch(das)
 
 ### Grammar
 - #5 Imperative in admin context: "Füllen Sie das Formular aus!" "Unterschreiben Sie hier!" "Melden Sie sich an!"
@@ -344,22 +345,25 @@
 14. `teach` — Paar(das) [neut/green]. Fun: "Ein Paar" (capitalized) = a couple/pair. "Ein paar" (lowercase) = a few. Capitalization changes meaning!
 15. `teach` — Weise(die) [fem/crimson]. Fun: Means "way/manner." "Auf diese Weise" = in this way. Also "weise" (adj) = wise. Same root!
 16. `teach` — Antwort(die), Anzeige(die), Aussage(die), Meinung(die), Übung(die) — grouped. Fun per card: Antwort (answer, Ant+Wort = counter-word), Anzeige (ad/report, an+zeigen = to show/point at), Aussage (statement, aus+sagen = to say out), Meinung (opinion, from "meinen" = to think/opine), Übung (exercise, "Übung macht den Meister" = practice makes perfect).
-17. `mc` — "Bitte ___ Sie das Formular ___!" opts: [füllen...aus, füllen...ein, melden...an, schreiben...unter]. ans: füllen...aus. Hint: Which separable verb means "to fill out"?
-18. `fb` — "Ich muss mich beim Bürgeramt ___." s with {1}. a: anmelden. opts: [anmelden, ausfüllen, vorstellen, unterschreiben]. Hint: The verb for official registration in Germany.
-19. `mc` — "Können Sie mir das bitte ___?" opts: [erklären, erlauben, erzählen, ausfüllen]. ans: erklären. Hint: Which verb means "to explain" (make clear)?
-20. `drag_fill` — "Es {1} eine lange Schlange und ich {2} Nummer 347." blanks: {1: "war", 2: "hatte"}. pool: [war, hatte, ist, habe, bin]. Hint: Past tense storytelling at the Bürgeramt.
-21. `match` — pairs: [{nl:"anmelden",en:"to register"},{nl:"ausfüllen",en:"to fill out"},{nl:"unterschreiben",en:"to sign"},{nl:"erklären",en:"to explain"},{nl:"vorstellen",en:"to introduce"}]
-22. `mc` — "Meiner ___ nach ist das Bürgeramt sehr langsam." opts: [Meinung, Antwort, Aussage, Übung]. ans: Meinung. Hint: Which noun means "opinion"?
+17. `teach` — wiederholen. Fun: Wieder (again) + holen (fetch), but INSEPARABLE! "Können Sie das bitte wiederholen?" = Can you please repeat that? Essential at the Bürgeramt. Different from "wieder holen" (separable, to fetch again). A: "Können Sie das bitte wiederholen?" / B: "Natürlich. Ihr Name?"
+18. `teach` — Gespräch(das) [neut/green]. Fun: From "sprechen" (to speak). Ge- prefix + Sprache = a speaking event. "Ein Gespräch führen" = to have a conversation. A: "Wir müssen ein Gespräch führen." / B: "Ja, wann hast du Zeit?"
+19. `mc` — "Bitte ___ Sie das Formular ___!" opts: [füllen...aus, füllen...ein, melden...an, schreiben...unter]. ans: füllen...aus. Hint: Which separable verb means "to fill out"?
+20. `fb` — "Ich muss mich beim Bürgeramt ___." s with {1}. a: anmelden. opts: [anmelden, ausfüllen, vorstellen, unterschreiben]. Hint: The verb for official registration in Germany.
+21. `mc` — "Können Sie mir das bitte ___?" opts: [erklären, erlauben, erzählen, ausfüllen]. ans: erklären. Hint: Which verb means "to explain" (make clear)?
+22. `drag_fill` — "Es {1} eine lange Schlange und ich {2} Nummer 347." blanks: {1: "war", 2: "hatte"}. pool: [war, hatte, ist, habe, bin]. Hint: Past tense storytelling at the Bürgeramt.
+23. `match` — pairs: [{nl:"anmelden",en:"to register"},{nl:"ausfüllen",en:"to fill out"},{nl:"unterschreiben",en:"to sign"},{nl:"erklären",en:"to explain"},{nl:"vorstellen",en:"to introduce"}]
+24. `mc` — "Meiner ___ nach ist das Bürgeramt sehr langsam." opts: [Meinung, Antwort, Aussage, Übung]. ans: Meinung. Hint: Which noun means "opinion"?
 
 ---
 
 ## LESSON 8: "Arbeit und Studium" (Work and Study)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (work/study context)
 **Characters**: Verumius, Colleague (background)
-**Steps**: 22 | **New words**: 21 | **Cumulative**: 780
+**Steps**: 36 | **New words**: 35 | **Cumulative**: 814
 
-### New Vocabulary (21 words)
+### New Vocabulary (35 words)
 **work (12)**: Arbeit(die), Chef(der), Chefin(die), Firma(die), Geschäft(das), Kollege(der), Kollegin(die), Praktikum(das), Stelle(die), Studium(das), Universität(die), Urlaub(der)
+**work-batch-2 (14)**: Feierabend(der), Feiertag(der), Pause(die), Arbeitsplatz(der), Beamte(der), Job(der), Klasse(die), Kurs(der), Maschine(die), Schüler(der), Student(der), Unterricht(der), verdienen, studieren
 **life-verbs-batch-2 (3)**: besuchen, einladen, entscheiden
 **verbs-batch-1 (4)**: brauchen, denken, hoffen, warten
 **adj-batch-3 (2)**: arbeitslos, selbständig
@@ -391,23 +395,38 @@
 14. `teach` — selbständig [adj]. Fun: Self-employed/independent. Selbst (self) + ständig (standing). "Standing on your own." Also spelled "selbstständig."
 15. `teach` — besuchen, einladen, entscheiden — verbs grouped. Fun: besuchen (to visit, be-prefix inseparable), einladen (to invite, separable: "Ich lade dich ein!"), entscheiden (to decide, ent-prefix inseparable, reflexive: "sich entscheiden").
 16. `teach` — brauchen, denken, hoffen, warten — verbs grouped. Fun: brauchen (to need, "Ich brauche Hilfe"), denken (to think, cognate with English "think"!), hoffen (to hope, "Ich hoffe" = I hope, cognate with "hope"), warten (to wait, "warten auf" = wait for, takes "auf + acc").
-17. `mc` — "Mein ___ ist sehr nett. Er hilft mir immer." opts: [Kollege, Kollegin, Chefin, Stelle]. ans: Kollege. Hint: Male colleague. "Er" = he.
-18. `fb` — "Ich ___ drei Monate ___." s: "Ich {1} drei Monate arbeitslos." a: war. opts: [war, hatte, bin, habe]. Hint: Past tense of sein for describing a state.
-19. `mc` — "Nächste Woche ___ ich meinen Freund zum Essen ___." opts: [lade...ein, besuche...ein, melde...an, fange...an]. ans: lade...ein. Hint: Which separable verb means "to invite"?
-20. `match` — pairs: [{nl:"Arbeit",en:"work"},{nl:"Urlaub",en:"vacation"},{nl:"Praktikum",en:"internship"},{nl:"Stelle",en:"position/job"},{nl:"Geschäft",en:"business/shop"}]
-21. `drag_fill` — "Am {1} habe ich einen Termin {2} dem Chef {3} neun Uhr." blanks: {1: "Montag", 2: "mit", 3: "um"}. pool: [Montag, mit, um, am, im, seit]. Hint: Day + "with" + clock time preposition.
-22. `mc` — "Ich ___ auf eine Antwort von der Firma." opts: [warte, hoffe, denke, brauche]. ans: warte. Hint: Which verb means "to wait" and uses "auf"?
+17. `teach` — Feierabend(der) [masc/blue]. Fun: Feier (celebration) + Abend (evening). End of workday. Sacred in German culture: when it's Feierabend, work is OVER. A: "Wann hast du Feierabend?" / B: "Um 17 Uhr. Endlich!"
+18. `teach` — Feiertag(der) [masc/blue]. Fun: Feier (celebration) + Tag (day). Public holiday. Germany has 9-13 depending on the state. Bavaria wins with the most! A: "Morgen ist ein Feiertag." / B: "Super! Frei!"
+19. `teach` — Pause(die) [fem/crimson]. Fun: Same as English "pause"! "Mittagspause" = lunch break. Germans take their Pausen seriously. A: "Wann ist Pause?" / B: "Um 12 Uhr."
+20. `teach` — Arbeitsplatz(der) [masc/blue]. Fun: Arbeit + s + Platz. Compound with Fugen-s (linking s). Workplace = work-place. German compounds just glue words together! A: "Wie ist dein Arbeitsplatz?" / B: "Gut, aber laut."
+21. `teach` — Beamte(der) [masc/blue]. Fun: Civil servant. Protected job, can't be fired! KD is one. "Beamter" when used with ein. A: "KD ist Beamter." / B: "Er arbeitet beim Bürgeramt."
+22. `teach` — Job(der) [masc/blue]. Fun: English loanword! More casual than "Arbeit" or "Stelle." Young Germans say "Job" all the time. A: "Hast du einen Job?" / B: "Ja, seit zwei Monaten."
+23. `teach` — Klasse(die) [fem/crimson]. Fun: School class AND quality ("Erste Klasse!" = first class!). From Latin "classis." Double meaning! A: "In welcher Klasse bist du?" / B: "Ich bin in Klasse 10."
+24. `teach` — Kurs(der) [masc/blue]. Fun: Course. "Deutschkurs" = German course. "Einen Kurs machen" = to take a course. From Latin "cursus" (running). A: "Wann beginnt der Kurs?" / B: "Am Montag um 9 Uhr."
+25. `teach` — Maschine(die) [fem/crimson]. Fun: From Greek via French. "Waschmaschine" = washing machine. Another German compound! A: "Die Maschine funktioniert nicht." / B: "Wir brauchen eine Reparatur."
+26. `teach` — Schüler(der) [masc/blue]. Fun: From "Schule" (school). School student only! NOT university. That's "Student." A: "Wie viele Schüler sind in der Klasse?" / B: "25 Schüler."
+27. `teach` — Student(der) [masc/blue]. Fun: University student only! "Schüler" for school. Weak noun: den Studenten, dem Studenten (like Kollege). A: "Bist du Student?" / B: "Ja, ich studiere in Berlin."
+28. `teach` — Unterricht(der) [masc/blue]. Fun: Unter (under) + richt (direction). Lessons/instruction. "Der Unterricht beginnt um 8." A: "Wann beginnt der Unterricht?" / B: "Um 8 Uhr."
+29. `teach` — verdienen. Fun: Means "to earn" AND "to deserve." Dual meaning! "Du verdienst eine Pause" = you deserve a break. A: "Wie viel verdienst du?" / B: "Das fragt man nicht!"
+30. `teach` — studieren. Fun: NOT the same as "lernen" (to study/learn in general). Studieren = to study at university. "Ich studiere Medizin" = I'm studying medicine (at uni). A: "Was studierst du?" / B: "Ich studiere Informatik."
+31. `mc` — "Mein ___ ist sehr nett. Er hilft mir immer." opts: [Kollege, Kollegin, Chefin, Stelle]. ans: Kollege. Hint: Male colleague. "Er" = he.
+32. `fb` — "Ich ___ drei Monate ___." s: "Ich {1} drei Monate arbeitslos." a: war. opts: [war, hatte, bin, habe]. Hint: Past tense of sein for describing a state.
+33. `mc` — "Nächste Woche ___ ich meinen Freund zum Essen ___." opts: [lade...ein, besuche...ein, melde...an, fange...an]. ans: lade...ein. Hint: Which separable verb means "to invite"?
+34. `match` — pairs: [{nl:"Arbeit",en:"work"},{nl:"Urlaub",en:"vacation"},{nl:"Praktikum",en:"internship"},{nl:"Stelle",en:"position/job"},{nl:"Geschäft",en:"business/shop"}]
+35. `drag_fill` — "Am {1} habe ich einen Termin {2} dem Chef {3} neun Uhr." blanks: {1: "Montag", 2: "mit", 3: "um"}. pool: [Montag, mit, um, am, im, seit]. Hint: Day + "with" + clock time preposition.
+36. `mc` — "Ich ___ auf eine Antwort von der Firma." opts: [warte, hoffe, denke, brauche]. ans: warte. Hint: Which verb means "to wait" and uses "auf"?
 
 ---
 
 ## LESSON 9: "Freizeit und Hobbys" (Free Time and Hobbies)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (leisure)
 **Characters**: Verumius (talking with Hildi about hobbies — pre-tea scene buildup)
-**Steps**: 20 | **New words**: 19 | **Cumulative**: 799
+**Steps**: 22 | **New words**: 21 | **Cumulative**: 801
 
-### New Vocabulary (19 words)
+### New Vocabulary (21 words)
 **hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
 **media (7)**: Bild(das), Bleistift(der), Bogen(der), Buchstabe(der), CD(die), Drucker(der), Papier(das)
+**hobby-social (2)**: Gruppe(die), Verein(der)
 **social-verbs (4)**: besuchen(already taught L8 — SKIP, replace with:) feiern, gratulieren, schenken + **1 extra**: selbstständig(already taught L8 — SKIP, replace with:) **life-verb**: **entscheiden already taught L8 — recalculate**
 
 Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was listed as separate from selbständig.
@@ -450,21 +469,24 @@ Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was li
 16. `teach` — Papier(das) [neut/green]. Fun: From Latin/Greek "papyrus." Nearly identical in all European languages. "Auf Papier" = on paper.
 17. `teach` — feiern, gratulieren, schenken — social verbs. Fun: feiern (to celebrate, "Wir feiern!"), gratulieren (to congratulate, "Ich gratuliere dir!" + dative), schenken (to give a gift, "Ich schenke dir ein Buch" = I give you a book as a gift).
 18. `teach` — selbstständig [adj]. Fun: Alternate spelling of selbständig (L8). Both are correct. New German spelling reform (1996) added the extra "st." Both accepted everywhere.
-19. `mc` — "Am Wochenende ___ ich gern ein Buch." opts: [lese, spiele, mache, sehe]. ans: lese. Hint: Which verb goes with books?
-20. `fb` — "Das Spiel ___ sehr spannend." s with {1}. a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein.
+19. `teach` — Gruppe(die) [fem/crimson]. Fun: Group. "Lerngruppe" = study group. "Reisegruppe" = travel group. Another compound base word! A: "Wir machen eine Gruppe." / B: "Toll! Wie viele Leute?"
+20. `teach` — Verein(der) [masc/blue]. Fun: Club/association. Germany has over 600,000 Vereine! "Sportverein," "Musikverein," "Schützenverein." Joining a Verein is THE way to make friends in Germany. A: "Bist du in einem Verein?" / B: "Ja, im Sportverein."
+21. `mc` — "Am Wochenende ___ ich gern ein Buch." opts: [lese, spiele, mache, sehe]. ans: lese. Hint: Which verb goes with books?
+22. `fb` — "Das Spiel ___ sehr spannend." s with {1}. a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein.
 
 ---
 
 ## LESSON 10: "Ein Fest planen" (Planning a Party)
 **Type**: Vocabulary + Grammar | **Mode**: Bubble | **Scene**: Social planning
 **Characters**: Verumius, Hildi (helping plan a small gathering)
-**Steps**: 20 | **New words**: 19 | **Cumulative**: 818
+**Steps**: 22 | **New words**: 21 | **Cumulative**: 820
 
-### New Vocabulary (19 words)
+### New Vocabulary (21 words)
 **social (7)**: Einladung(die), Fest(das), Feste(die/pl), Geburtstag(der), Hochzeit(die), Party(die), Veranstaltung(die)
 **other (7)**: Anfang(der), Chance(die), Ende(das), Glück(das), Leben(das), Spaß(der), Stück(das)
 **verbs-batch-2 (4)**: erleben, meinen, versuchen, wünschen
 **adj-batch-4 (1)**: glücklich
+**social-batch-2 (2)**: heiraten, wieder holen
 
 ### Grammar
 - #22 Präteritum consolidated: "Das Fest war toll. Wir hatten viel Spaß."
@@ -494,9 +516,11 @@ Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was li
 15. `teach` — Spaß(der) [masc/blue]. Fun: Fun! "Spaß machen" = to be fun. "Viel Spaß!" = Have fun! "Spaß beiseite" = joking aside.
 16. `teach` — Stück(das) [neut/green]. Fun: Piece/item. "Ein Stück Kuchen" = a piece of cake. Also "Theaterstück" = play. Cognate with English "stuck"? No, with "stock."
 17. `teach` — erleben, meinen, versuchen, wünschen — verbs. Fun: erleben (to experience, er+leben = to live through), meinen (to mean/think, "Was meinst du?" = what do you think?), versuchen (to try, "Ich versuche es" = I'll try), wünschen (to wish, "Ich wünsche dir alles Gute!" = I wish you all the best).
-18. `mc` — "Herzlichen Glückwunsch zum ___!" opts: [Geburtstag, Hochzeit, Anfang, Ende]. ans: Geburtstag. Hint: The standard German birthday greeting formula.
-19. `fb` — "Das Fest ist ___ Samstag ___ 18 Uhr." This needs drag_fill. → `drag_fill` — "Das Fest ist {1} Samstag {2} 18 Uhr." blanks: {1: "am", 2: "um"}. pool: [am, um, im, seit, vor]. Hint: Day needs am. Clock time needs um.
-20. `match` — pairs: [{nl:"Anfang",en:"beginning"},{nl:"Ende",en:"end"},{nl:"Glück",en:"luck/happiness"},{nl:"Spaß",en:"fun"},{nl:"Leben",en:"life"}]
+18. `teach` — heiraten. Fun: To marry. "Wir heiraten!" = We're getting married! "Heirat" = marriage. "Standesamt" = registry office (where Germans legally marry). A: "Wann heiraten sie?" / B: "Im Juni!"
+19. `teach` — wieder holen [sep]. Fun: DIFFERENT from wiederholen (repeat, inseparable, L7)! Space changes meaning. Wieder (again) + holen (fetch) = to fetch again. Separable: "Ich hole den Kaffee wieder." Compare: wiederholen = to repeat. A: "Ich hole den Kaffee wieder." / B: "Danke!"
+20. `mc` — "Herzlichen Glückwunsch zum ___!" opts: [Geburtstag, Hochzeit, Anfang, Ende]. ans: Geburtstag. Hint: The standard German birthday greeting formula.
+21. `fb` — "Das Fest ist ___ Samstag ___ 18 Uhr." This needs drag_fill. → `drag_fill` — "Das Fest ist {1} Samstag {2} 18 Uhr." blanks: {1: "am", 2: "um"}. pool: [am, um, im, seit, vor]. Hint: Day needs am. Clock time needs um.
+22. `match` — pairs: [{nl:"Anfang",en:"beginning"},{nl:"Ende",en:"end"},{nl:"Glück",en:"luck/happiness"},{nl:"Spaß",en:"fun"},{nl:"Leben",en:"life"}]
 
 ---
 
@@ -1267,3 +1291,20 @@ Actually, cumulative = 622 + 200 unique new = **822**. But besuchen was already 
 | L10 | Planning a small gathering. Social vocabulary. | Verumius attempts to write a German invitation. |
 | L11 | HOT WATER FIXED. Hildi offers tea. Emotional milestone. | First real human connection. Hildi: "Möchtest du eine Tasse Tee?" |
 | L12 | Reflection. Verumius can now handle daily German life. | Bittersweet: he's capable now, but still so much to learn. A1 complete. |
+---
+
+## VOCABULARY REMEDIATION (2026-03-24)
+
+63 words from the vocabulary mapping were missing from the original lesson design. Each is now assigned to a specific lesson.
+
+### L2 +9: Wochentag, Moment(der), Nachmittag(der), Vormittag(der), Schluss(der), früher, pünktlich, später, zurzeit
+### L4 +3: Frühjahr(das), Wind(der), scheinen
+### L5 +7: Absender(der), Brief(der), Briefmarke(die), E-Mail(die), Fax(das), Postleitzahl(die), Wiederhören(das)
+### L6 +2: Doktor(der), wehtun
+### L7 +2: Gespräch(das), wiederholen
+### L8 +14: Feierabend(der), Feiertag(der), Pause(die), Arbeitsplatz(der), Beamte(der), Job(der), Klasse(die), Kurs(der), Maschine(die), Schüler(der), Student(der), Unterricht(der), verdienen, studieren
+### L9 +15: Kugelschreiber(der), Lieblingslied(das), Lied(das), Thema(das), fernsehen, schwimmen, tanzen, Rad fahren, mitmachen, lachen, gewinnen, treffen, Gruppe(die), Verein(der), heiraten
+### L10 +1: wieder holen
+### L11 +10: abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden, wiederholen (inseparable, to repeat)
+
+**Total remediation: +63 words. All 226 mapping words now covered.**
