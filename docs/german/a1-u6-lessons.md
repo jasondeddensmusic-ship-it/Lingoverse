@@ -421,7 +421,7 @@
 ## LESSON 9: "Freizeit und Hobbys" (Free Time and Hobbies)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (leisure)
 **Characters**: Verumius (talking with Hildi about hobbies — pre-tea scene buildup)
-**Steps**: 22 | **New words**: 21 | **Cumulative**: 801
+**Steps**: 36 | **New words**: 33 | **Cumulative**: 847
 
 ### New Vocabulary (21 words)
 **hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
@@ -433,11 +433,15 @@ Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was li
 
 **Correction**: The vocab list has both "selbständig" and "selbstständig" — these are alternate spellings of the same word. Both get teach cards per PP55.
 
-**Revised New Vocabulary (19 words)**:
+**Revised New Vocabulary (33 words)**:
 **hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
 **media (7)**: Bild(das), Bleistift(der), Bogen(der), Buchstabe(der), CD(die), Drucker(der), Papier(das)
 **social-verbs (3)**: feiern, gratulieren, schenken
 **adj (1)**: selbstständig (alternate spelling teach card — references selbständig from L8)
+**hobby-social (2)**: Gruppe(die), Verein(der)
+**hobby-verbs (7)**: schwimmen, tanzen, fernsehen, Rad fahren, mitmachen, lachen, gewinnen
+**hobby-nouns (3)**: Kugelschreiber(der), Lieblingslied(das), Lied(das)
+**hobby-other (2)**: Thema(das), treffen
 
 ### Grammar
 - Recycle #22 Präteritum: "Das Spiel war toll. Ich hatte viel Spaß."
@@ -473,13 +477,27 @@ Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was li
 20. `teach` — Verein(der) [masc/blue]. Fun: Club/association. Germany has over 600,000 Vereine! "Sportverein," "Musikverein," "Schützenverein." Joining a Verein is THE way to make friends in Germany. A: "Bist du in einem Verein?" / B: "Ja, im Sportverein."
 21. `mc` — "Am Wochenende ___ ich gern ein Buch." opts: [lese, spiele, mache, sehe]. ans: lese. Hint: Which verb goes with books?
 22. `fb` — "Das Spiel ___ sehr spannend." s with {1}. a: war. opts: [war, hatte, ist, hat]. Hint: Past tense of sein.
+23. `teach` — Kugelschreiber(der) [masc/blue]. Fun: Kugel (ball) + Schreiber (writer) = ball-writer. 17 letters! Germans say "Kuli" for short. A: "Hast du einen Kugelschreiber?" / B: "Ja, hier bitte."
+24. `teach` — Lied(das) [neut/green]. Fun: From Old High German "liod." "Volkslied" = folk song. Germany has a deep song tradition. A: "Kennst du dieses Lied?" / B: "Ja, das ist schon!"
+25. `teach` — Lieblingslied(das) [neut/green]. Fun: Liebling (favorite) + s (linking) + Lied (song). Compound magic! A: "Was ist dein Lieblingslied?" / B: "Ach, das ist schwer!"
+26. `teach` — Thema(das) [neut/green]. Fun: From Greek "thema." Plural is "Themen" (Greek plural pattern!). A: "Was ist das Thema heute?" / B: "Wir sprechen uber Hobbys."
+27. `teach` — schwimmen. Fun: Cognate with English "swim." Germans love their Schwimmbader (swimming pools). A: "Kannst du schwimmen?" / B: "Ja, ich schwimme gern!"
+28. `teach` — tanzen. Fun: From French "danser" via medieval German. "Tanzstunde" = dance lesson. A: "Willst du tanzen?" / B: "Ja, gern!"
+29. `teach` — fernsehen. Fun: Fern (far) + sehen (see) = far-see! Separable: "Ich sehe fern." A: "Was siehst du gern im Fernsehen?" / B: "Ich sehe gern Filme."
+30. `teach` — Rad fahren. Fun: Rad = wheel. Separable: "Ich fahre Rad." Very German hobby, bike lanes everywhere! A: "Fahrst du gern Rad?" / B: "Ja, jeden Tag!"
+31. `teach` — mitmachen. Fun: Mit (with) + machen (do) = do-along. Separable: "Ich mache mit!" A: "Machst du mit?" / B: "Ja, ich mache mit!"
+32. `teach` — lachen. Fun: Cognate with English "laugh." "Lachen ist die beste Medizin" = laughter is the best medicine. A: "Warum lachst du?" / B: "Das ist lustig!"
+33. `teach` — gewinnen. Fun: Related to English "win." Past: gewonnen. "Wer gewinnt das Spiel?" A: "Wer gewinnt?" / B: "Ich gewinne!"
+34. `teach` — treffen. Fun: To meet. Reflexive for meeting each other: "Wir treffen uns." Irregular: trifft. A: "Wann treffen wir uns?" / B: "Um drei Uhr im Cafe."
+35. `mc` — "Ich ___ gern im Schwimmbad." opts: [schwimme, tanze, lache, treffe]. ans: schwimme. Hint: What do you do at a swimming pool?
+36. `match` — pairs: [{nl:"schwimmen",en:"to swim"},{nl:"tanzen",en:"to dance"},{nl:"fernsehen",en:"to watch TV"},{nl:"Rad fahren",en:"to cycle"},{nl:"treffen",en:"to meet"}]
 
 ---
 
 ## LESSON 10: "Ein Fest planen" (Planning a Party)
 **Type**: Vocabulary + Grammar | **Mode**: Bubble | **Scene**: Social planning
 **Characters**: Verumius, Hildi (helping plan a small gathering)
-**Steps**: 22 | **New words**: 21 | **Cumulative**: 820
+**Steps**: 22 | **New words**: 21 | **Cumulative**: 868
 
 ### New Vocabulary (21 words)
 **social (7)**: Einladung(die), Fest(das), Feste(die/pl), Geburtstag(der), Hochzeit(die), Party(die), Veranstaltung(die)
@@ -1125,9 +1143,7 @@ My lesson plan assigns all 200 unique words. **The plan is complete.**
 Now let me finish Lessons 11 and 12.
 
 ### LESSON 11 (Revised): "Hildis Tee"
-**Steps**: 24 | **New words**: 4 (automatisch, kulturell, tot, Lösung) | **Cumulative**: 826 (622 prior + 204 this unit, counting all entries including the duplicate teach card for besuchen variant + selbstständig variant)
-
-Actually, cumulative = 622 + 200 unique new = **822**. But besuchen was already taught in prior units (it's in life-verbs AND social-verbs). And selbstständig needs its own teach card as alternate spelling. So teach cards = 200, but the duplicate besuchen only needs one teach card. Let me just use: **622 + 200 = 822 cumulative**.
+**Steps**: 35 | **New words**: 13 (automatisch, kulturell, tot, Lösung + abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden) | **Cumulative**: 881
 
 ### Grammar
 - #22 Präteritum CONSOLIDATION: Full narrative using war/hatte throughout
