@@ -1344,3 +1344,24 @@ Now let me finish Lessons 11 and 12.
 ### L11 +10: abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden, wiederholen (inseparable, to repeat)
 
 **Total remediation: +63 words. All 226 mapping words now covered.**
+
+---
+
+## PP26 SEEDS FOR A2 (added 2026-03-24)
+
+The following A2 constructs are naturally exposed (not formally taught) in U6 story scenes:
+
+### dass-clause (A2 #9) — seeded in L11 (Hildi's Tea)
+Hildi says: "Ich bin froh, dass das Wasser wieder warm ist." — Subordinate clause, verb-final not named.
+
+### ob-clause (A2 #24) — seeded in L7 (Bürgeramt)
+Verumius thinks: "Ich weiß nicht, ob das Formular richtig ist." — Indirect yes/no question, verb-final not named.
+
+### Dative adjective declension (A2 #16) — seeded in L1 (Cold Shower)
+Narrator: "Verumius duscht mit dem kalten Wasser." — Adjective in dative context, not analyzed.
+
+### Perfekt with sein (A2 #2) — seeded in L8 (Resolution)  
+Narrator: "Verumius ist in die Küche gegangen." — Movement verb with sein, contrasts haben-Perfekt.
+
+### Additional Partizip II forms (A2 #3) — seeded in L11-L12
+Story narration uses: "gemacht", "gesagt", "gesehen" in past-tense narrator voice without formal naming.
