@@ -3,18 +3,18 @@
 > Generated 2026-03-24 by Character Arc Verifier Agent (Phase 3E)
 > Sources: GERMAN_REHAUL_PLAN.md (Section 4), story-arc-validation.md, episode-scene-breakdowns.md
 
-## Verdict: FAIL — 3/6 characters have critical issues. 6 priority fixes needed.
+## Verdict: PASS — All 6 characters pass after fixes applied (2026-03-24). Original: FAIL (3/6 critical). All 6 priority fixes applied to episode-scene-breakdowns.md.
 
-## Character Status
+## Character Status (UPDATED 2026-03-24 — all fixes applied)
 
 | Character | Gap Check | Register | Arc | Overall |
 |-----------|-----------|----------|-----|---------|
-| Hildi | PASS | FAIL (du misplaced) | PARTIAL (vulnerability unscripted) | PARTIAL |
-| Lukas | FAIL (8+9 ep gaps) | PASS | PARTIAL (application unscripted) | FAIL |
-| Yilmaz | FAIL (7+9 ep gaps) | FAIL (Sie→du missing) | PARTIAL (B1 mentor thin) | FAIL |
-| KD | FAIL (7 ep gap) | PASS | PARTIAL (B2 digital arc missing) | PARTIAL |
+| Hildi | PASS | PASS (du in U21) | PASS (vulnerability scripted U21) | **PASS** |
+| Lukas | PASS (4 cameos added) | PASS | PASS (music school U31) | **PASS** |
+| Yilmaz | PASS (U4 text + U22 du) | PASS (Sie→du in U22) | PASS (mentor→friend arc) | **PASS** |
+| KD | PASS (U32 cafe scene) | PASS | PASS (B2 digital arc U32) | **PASS** |
 | Mia | PASS | PASS | PASS | **PASS** |
-| Heinrich | FAIL (16 ep gap) | PASS | FAIL (B1 wisdom + B2 health missing) | FAIL |
+| Heinrich | PASS (U16+U23+U32) | PASS | PASS (wisdom + health decline) | **PASS** |
 
 ## Critical Gaps (>= 6 consecutive episodes absent)
 
@@ -39,7 +39,7 @@
 
 | Fix | Status |
 |-----|--------|
-| 1: Yilmaz U2-U11 gap cameos | PARTIAL (U9 CAM added, U4/U5 missing) |
+| 1: Yilmaz U2-U11 gap cameos | DONE (U9 CAM + U4 text exchange added) |
 | 2: Hildi technology reversal | DONE |
 | 3: Lukas band breakup + music school | DONE |
 | 4: Jaywalking shame | DONE |
@@ -47,11 +47,13 @@
 | 6: Abendbrot revelation | DONE |
 | 7: Birthday party rule | DONE |
 
-## Recommended Fixes (Priority Order)
+## Character Arc Priority Fixes — ALL APPLIED (2026-03-24)
 
-1. **Heinrich**: Add 3 scenes (B1 wisdom x2, B2 health decline x1). Close the 16-episode gap.
-2. **Lukas**: Add 4 cameos/mentions across the two gaps (U12-U13, U15-U16, U27, U31-U32)
-3. **Yilmaz B1**: Add 2 appearances in U14-U22 including the Sie→du shift scene
-4. **Hildi du offer**: Move to B1 (U20-U21), attach to vulnerability revelation
-5. **KD B2 digital**: Add 1 café scene (U31-U32) where KD faces digitization
-6. **Fix 1 completion**: Add Yilmaz reference to U4 or U5
+| Fix | Status | Where Applied |
+|-----|--------|---------------|
+| 1: Heinrich 3 scenes | ✅ DONE | U16 Scene 3b (phone wisdom), U23 Scene 4 (Biergarten wisdom), U32 Scene 1b (health decline) |
+| 2: Lukas 4 cameos | ✅ DONE | U13 Scene 4 (text exchange), U15 Scene 4 (platform encounter), U27 Scene 4 (group chat), U31 Scene 3b (music school) |
+| 3: Yilmaz B1 Sie→du | ✅ DONE | U22 Scene 3c (private du offer in VHS corridor) |
+| 4: Hildi du offer → B1 | ✅ DONE | U21 Scene 3b (vulnerability + du offer), U36 updated to reference U21 |
+| 5: KD B2 digital | ✅ DONE | U32 Scene 3b (cafe digitization scene) |
+| 6: Fix 1 completion (Yilmaz U4/U5) | ✅ DONE | U4 Scene 4 (text exchange with Yilmaz about groceries) |

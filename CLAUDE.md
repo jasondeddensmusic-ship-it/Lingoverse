@@ -1097,6 +1097,21 @@ When deploying sub-agents for large tasks:
 ### Why Rule 17 Exists
 In March 2026, the German A1 Phase 2C+D task timed out 3 times with single agents. The session that succeeded used 6 parallel Opus agents (one per unit) with redundant validators. During U6 vocabulary remediation, the single-agent approach died silently (output stuck at 121 bytes). Splitting into 3 batch agents (each targeting different lessons) succeeded. The pattern: split + monitor + relaunch if dead. Never trust a single agent for anything that matters.
 
+### Rule 18: Direct-Write for Curriculum Content — MANDATORY (2026-03-24)
+When writing curriculum unit content (the actual JS lesson data), the main session writes directly to temp files. Agents are used ONLY for parallel non-overlapping batches, never for the primary writing path.
+
+1. **Write each lesson to its own temp file.** `/tmp/de-v2-u{X}-l{Y}.js`. One file per lesson. Small files = no agent deaths, easy validation, easy debugging.
+2. **Assemble unit from temp files.** Cat all lesson files into a single unit file with header/footer. Validate step counts, board:true, PP48, mc ans/opts before merging.
+3. **Merge into main file via Python script.** Replace the trailing `];` with `,\nUNIT_CONTENT\n];`. Never hand-edit merge points.
+4. **Build after every unit merge.** `npx vite build` must pass before committing. Fix syntax errors immediately.
+5. **Commit after each unit (or pair of units).** Small commits = easy rollback. Push after each commit to satisfy hooks.
+6. **Agents may write PARALLEL temp files.** If deploying an agent, it writes to its own temp files (e.g., L1-L4) while the main session writes others (L5-L8). No shared file access. If the agent dies, its completed files are still usable.
+7. **Never deploy agents to write directly to the main units file.** This is the #1 cause of agent timeouts and stale writes. Temp files only.
+8. **Validate per-lesson, not per-unit.** Check step count, board:true, and PP48 on each temp file BEFORE assembly. Catching errors early saves time.
+
+### Why Rule 18 Exists
+In March 2026, the German A1 U3-U6 content writing task failed twice with agent-based approaches: (1) worktree agents timed out on large file reads, (2) single agents writing full units timed out after 30+ minutes. The session that succeeded wrote all 36 lessons (766 steps) across 4 units in a single session by writing directly to temp files, one lesson at a time. The main session wrote U3 (8 lessons), U4 (8 lessons), U5 L5-L8 + L4, and U6 (12 lessons) directly. One background agent contributed U5 L1-L3 before timing out on response (but all files were delivered). Total time: under 2 hours for 766 steps. The direct-write approach is 5-10x faster than agent delegation for curriculum content because: (a) no agent startup overhead, (b) no file read failures, (c) no context window exhaustion, (d) immediate error detection, (e) continuous progress instead of all-or-nothing agent bets.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -1178,7 +1193,9 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **verb_table crash fix (2026-03-19)**: 28 German verb_tables used array-of-arrays row format instead of object format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
-**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep PP52 teach-before-use verification not yet done.
+**German v2 A1 COMPLETE (2026-03-24, PR #76)**: 6 units, 44 lessons, 932+ steps in `units-german-v2.js`. Written using Rule 18 (direct-write to temp files). Story arc: Verumius arrives at BER, gets lost, finds apartment with Hildi, shops at REWE, eats with Lukas, navigates bureaucracy. All approved lesson designs from `docs/german/a1-u{1-6}-lessons.md` implemented. Grammar: 27 A1 constructs covered (Präsens, separable verbs, possessives, accusative, kein/nicht, DOGFU, demonstratives, imperative, 6 modals, 7 dative prepositions, war/hatte, time expressions). PP48=0, PP49=0, board:true=44/44, density 18+ all lessons, build PASS.
+
+**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep PP52 teach-before-use verification not yet done. **V2 A1 is the first phase of this re-evaluation.**
 
 ### DONE (French A1-B2 = Pipeline-Polished, Distribution Flagged)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -1308,3 +1325,4 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 30. **Plan in chunks until content flows seamlessly.** Grand vision -> per-language plan -> per-CEFR plan -> per-unit plan -> per-lesson plan -> per-card spec. Each layer approved before the next. No content written until the design is so detailed that writing is mechanical. No Midjourney until scene prompt templates are locked. (Vision doc Section 8.1, 2026-03-24)
 31. **Article + noun ALWAYS in gender color on teach cards.** For every gendered language, the headword display shows both article and noun in the same gender color. der Hund (blue), die Katze (crimson), das Buch (green), le livre (blue), la maison (crimson), el libro (blue), la casa (crimson), de hond (blue), het boek (gold). Non-gendered languages skip this. (Vision doc Section 2.2b, 2026-03-24)
 32. **Every word in every sentence is grammar-tagged.** POS, sub-category, syntactic function, morphological info. Powers color system, sentence breakdown, grammar deep dives. Can be done retroactively on existing content. New content tagged from day one. Learner taps any word, sees why it's colored and what it does. (P59, Vision doc Section 2.2c, 2026-03-24)
+33. **Write curriculum content directly to temp files. Never delegate full units to agents.** One lesson per temp file, assemble into unit, merge into main file via script. Agents may write parallel temp files for non-overlapping lessons. This approach wrote 36 lessons (766 steps) in under 2 hours. Agent-based approaches timed out 3 times on the same task. Direct-write is 5-10x faster, 100% reliable. (Rule 18, 2026-03-24)
