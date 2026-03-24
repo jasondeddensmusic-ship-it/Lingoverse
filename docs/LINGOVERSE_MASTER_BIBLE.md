@@ -6,7 +6,7 @@
 
 # ⚠️ READ THIS FIRST — FOR ALL AI AGENTS
 
-> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (2-bubble dialogues), story system, settings panel, vocab page, and curriculum structure. When this Bible and the vision doc conflict on card format, lesson types, or UI design, **the vision doc wins**.
+> **CRITICAL**: The platform rehaul vision is in `docs/VERUMLINGUA_REHAUL_VISION.md`. That document defines the NEW card format (CEFR-scaled dialogues + fun info + gender coloring + grammar tags), story system, settings panel, vocab page, and curriculum structure. When this Bible and the vision doc conflict on card format, lesson types, or UI design, **the vision doc wins**.
 
 This document is the single source of truth for VerumLingua's philosophy, language standards, and pipeline rules. Before touching any file, any language, any lesson — read this document. Every section exists because a mistake was made, caught, and codified. The pipeline rules are not aesthetic preferences. They are scars.
 

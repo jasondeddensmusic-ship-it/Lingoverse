@@ -598,7 +598,7 @@ Korean and Dutch use 6-4-10-10. German, French, and Spanish are front-loaded wit
 **What this supersedes:**
 - The old 21-category POS color map (now language-specific)
 - The gold bubble for new words system (under review, may become teach-card-for-every-word)
-- The multi-line dialogue standard on teach cards (now 2-bubble only)
+- The old dialogue standard on teach cards (now CEFR-scaled, no artificial bubble cap)
 - The generic settings panel (now language-specific with full visualization controls)
 - D112 audit priority (deferred until after rehaul restructure)
 

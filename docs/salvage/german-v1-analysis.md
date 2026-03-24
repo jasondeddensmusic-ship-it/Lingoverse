@@ -57,7 +57,7 @@
 ### High Value (keep + restructure)
 - 1,690 unique words — strong vocabulary base
 - 486 gendered nouns with correct der/die/das
-- 1,437 A:/B: dialogues — reformat to 2-bubble
+- 1,437 A:/B: dialogues — preserve as-is, add fun info + gender colors + grammar tags
 - 178 cognate annotations — directly reusable
 - 258 deepDive explanations — reusable as grammar reference
 - 38 verb_tables — conjugation data directly reusable
@@ -67,7 +67,7 @@
 ### Needs Restructuring
 - CEFR distribution: 9-8-8-6 must become concept-driven 6-6-12-12
 - nl/en fields to target/source rename
-- 3-turn dialogues trimmed to exactly 2 bubbles
+- Existing dialogues preserved (CEFR-scaled, no artificial bubble cap)
 - funInfo field added to every card
 - Full grammar tagging (P59) on every word
 - Story system built from scratch

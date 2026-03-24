@@ -1505,12 +1505,12 @@ All function words (articles, prepositions, pronouns, conjunctions, particles) m
 ## V1 Salvage Cross-Reference
 
 The v1 curriculum has 1,690 unique German words with 1,437 A:/B: dialogue teach cards (source: german-v1-analysis.md).
-Of the 848 Goethe A1 entries, the vast majority will have existing v1 teach cards that can be salvaged and reformatted to 2-bubble + funInfo format.
+Of the 848 Goethe A1 entries, the vast majority will have existing v1 teach cards that can be salvaged. Existing dialogues preserved as-is, enriched with funInfo + gender colors + grammar tags.
 
 **Salvage strategy per word:**
 1. Check if word exists in v1 teach cards (grep units-german.js for the lemma)
 2. If YES: extract dialogue, phonetic, cognate, deepDive. Reformat to new card format.
-3. If NO: create new teach card from scratch with 2-bubble dialogue + funInfo.
+3. If NO: create new teach card from scratch with CEFR-scaled dialogue + funInfo + gender colors + grammar tags.
 4. ALL words get full grammar tagging (P59) in the new format.
 
 ## Final Tally

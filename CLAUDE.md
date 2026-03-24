@@ -12,7 +12,7 @@ VerumLingua (formerly LingoVerse) is a self-contained multilingual language lear
 
 **Vision**: ANY source language to ANY target language. Every native tongue of every registered country. The architecture must always be built strategically with scale in mind. Nothing should ever be hardcoded for one language pair.
 
-**Platform Rehaul (2026-03-19)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: 2-bubble word cards, story dialogue system with protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
+**Platform Rehaul (2026-03-19, updated 2026-03-24)**: A complete redesign is underway. See `docs/VERUMLINGUA_REHAUL_VISION.md` for the full spec. Key changes: CEFR-scaled dialogue word cards with fun info + gender coloring + grammar tags (P59), story dialogue system with Verumius protagonist, language-specific settings panel, vocab page overhaul (search + browse + review), interleaved lesson flow, and `nl`/`en` to `target`/`source` field rename. Build order is defined in the vision doc Section 8. No code is written until each phase is approved.
 
 **Current state**: All 5 launch languages have A1-B2 content built and structurally audited. The existing content will be restructured per the rehaul vision (salvage strategy in vision doc Section 2.4). Korean (30 units, ~318 lessons). Dutch (30 v2 units, 252 lessons). German (30 units, 246 lessons). French (30 units, 246 lessons). Spanish (30 units, 245 lessons). Arabic has early skeletons (5 units, below density standard). Unit counts for ALL languages are subject to expansion based on concept cataloguing (PP56).
 
@@ -657,7 +657,7 @@ The full build order is defined in `docs/VERUMLINGUA_REHAUL_VISION.md` Section 8
 2. **Download complete CEFR word lists** for all 5 languages — foundation for dictionary AND curriculum
 3. **Language-specific settings panel** (D115 — V1 DONE, PR #67). Known gaps: understripe, bold/italic/dotted, profile page, koreanHl integration.
 4. **Vocab page redesign** — DONE (D116, 2026-03-19). V6: compound bubble word rows, alphabetical browse drill-down, review flashcards, grammar settings panel (tabbed packs, per-category toggles). All 3 modes (Search/Browse/Review) working. Disabled categories affect word colors. Mobile bottom sheet. Grammar settings shared with lesson engine.
-5. **New word card format** — 2-bubble examples + fun info bottom (prototype in German first, per owner decision)
+5. **New word card format** — CEFR-scaled dialogues + fun info + gender coloring + grammar tags (prototype in German first, per owner decision). Design must be PERFECT before mass content writing begins.
 6. **Story dialogue system** — protagonist setup, episode format (prototype ONE language). Vision brainstormed: Verumius IS the protagonist (relatable underdog learning languages before becoming the AI), sitcom sketch format, comedy+adventure genre growing with CEFR, core cast per language culture.
 7. **`nl`/`en` -> `target`/`source` rename** — dedicated session, mechanical
 8. **Curriculum restructure** — rebuild from CEFR word lists. Every word taught. New lesson format.
@@ -1083,6 +1083,20 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 ### Why Rule 16 Exists
 D112 Sessions 1-4 added sub-levels up to A1.3, A2.8, B1.8, B2.6 across French and Spanish. No session verified the unit map after adding them. The bug was invisible in the data (the `level` field was correct on every unit) but broke the UI (units appeared in the wrong tab). The owner spotted it from a screenshot. A 30-second browser check per session would have caught this immediately.
 
+### Rule 17: Agent Reliability — Split, Monitor, Never Trust One Agent (2026-03-24)
+When deploying sub-agents for large tasks:
+
+1. **Agents die silently.** Output files stuck at 121 bytes = dead agent. Check file size after 60 seconds. If unchanged, relaunch.
+2. **Large files kill agents.** Files >30KB or JSON blobs cause agents to fail on Read. Always convert JSON conversation logs to clean markdown BEFORE sending agents to edit them.
+3. **Never send ONE agent for a critical task.** Split into 2-3 agents with overlapping scope. If one dies, the others deliver.
+4. **Monitor actively.** Check output file sizes every 30-60 seconds during critical operations. Don't assume agents are working.
+5. **Pre-digest data in prompts.** Instead of "read this 350-line file," paste the relevant section directly into the agent prompt. Agents that need to read large files are the ones that die.
+6. **Batch by non-overlapping file sections.** Multiple agents CAN edit the same file if they target different sections, but race conditions cause Edit failures. Use bash `cat >>` append for concurrent additions.
+7. **Sonnet for focused tasks, Opus for creative/complex tasks.** Sonnet is faster and more reliable for validation/counting. Opus is better for lesson design, story writing, and judgment calls.
+
+### Why Rule 17 Exists
+In March 2026, the German A1 Phase 2C+D task timed out 3 times with single agents. The session that succeeded used 6 parallel Opus agents (one per unit) with redundant validators. During U6 vocabulary remediation, the single-agent approach died silently (output stuck at 121 bytes). Splitting into 3 batch agents (each targeting different lessons) succeeded. The pattern: split + monitor + relaunch if dead. Never trust a single agent for anything that matters.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -1251,7 +1265,7 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 2. **Catalogue all concepts** (PP54, PP56). Organize by domain. Determine unit count from concepts, not template.
 3. Build foundations (knowledge + playthrough + gate quiz)
 4. Build curriculum using NEW format (vision doc Section 4): vocab-only lessons, story episodes, grammar lessons, quizzes, review. All new content uses `target`/`source` field names.
-5. **Card format**: Every teach card follows vision doc Section 2: 2-bubble dialogue + fun info bottom. No multi-line dialogues.
+5. **Card format**: Every teach card follows vision doc Section 2: CEFR-scaled dialogues (A1: 2-3, A2: 3-4, B1: 4-5, B2: 5+ exchanges) + fun info + article/noun in gender color + every word grammar-tagged (P59). Existing multi-exchange dialogues preserved.
 6. **Story system**: Every unit has a running story arc per vision doc Section 3. Protagonist uses source-language name.
 7. **Interleaved lesson flow**: Story intro -> vocab -> story dev -> grammar -> story climax -> quiz -> resolution (vision doc Section 3.3).
 8. Quality audit per level (D92-style: PP8, PP52, PP44, PP48, PP49)
@@ -1288,6 +1302,9 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 24. **Every claim needs an official source.** "I think this word is B1" is not evidence. "Goethe-Wortliste B1, page 23" is evidence. Uncited vocabulary/grammar claims in audits are REJECTED. (Rule 14, D112)
 25. **After adding any new sub-level, verify the unit map in the browser.** `getCefrInfo()` now handles sub-levels beyond `.2` via band-prefix fallback, but visually confirm units appear in the correct CEFR tab before committing. Never revert or simplify `getCefrInfo()` — the band-prefix fallback is load-bearing. (Rule 16, D113)
 26. **"We coded before designing. Never again."** The platform rehaul vision (`docs/VERUMLINGUA_REHAUL_VISION.md`) must be approved before any code is written for each phase. Design first, build second. (D114, 2026-03-19)
-27. **Word cards: ALWAYS 2 bubbles, ALWAYS fun info.** Every teach card has exactly 2 dialogue bubbles (1 sender + 1 receiver) and a fun info section at the bottom (etymology, cultural note, or memory hook). Never 1 bubble, never 3+. No card ships without fun info. (Vision doc Section 2)
+27. **Word cards: CEFR-scaled dialogues, ALWAYS fun info, ALWAYS gender colors, ALWAYS grammar tags.** Teach card dialogues scale with CEFR level (A1: 2-3 exchanges, A2: 3-4, B1: 4-5, B2: 5+). Existing multi-exchange dialogues are preserved when recycling. No card ships without fun info. For gendered languages, article AND noun ALWAYS in gender color on the headword (der=blue, die=crimson, das=green, le=blue, la=crimson, el=blue, la=crimson, de=blue, het=gold). Every word in every sentence tagged with POS/function per P59. Platform needs WAY more teach cards (current ~1,000-1,300/lang vs 4,000-7,000 needed). (Vision doc Section 2, updated 2026-03-24)
 28. **Settings must be language-specific.** Only show categories relevant to the current language. German gets case colors. Korean gets particle colors. Dutch gets de/het. No clutter from irrelevant categories. (Vision doc Section 5)
-29. **Salvage everything, throw away nothing.** All existing sentences and words being cut during the restructure are SAVED to reference files per language. Reuse in story dialogues, quiz distractors, review content. (Vision doc Section 2.4)
+29. **Salvage everything, throw away nothing.** All existing sentences and words are preserved when recycling. Existing dialogues are a strength. Reuse in story dialogues, quiz distractors, review content. (Vision doc Section 2.5)
+30. **Plan in chunks until content flows seamlessly.** Grand vision -> per-language plan -> per-CEFR plan -> per-unit plan -> per-lesson plan -> per-card spec. Each layer approved before the next. No content written until the design is so detailed that writing is mechanical. No Midjourney until scene prompt templates are locked. (Vision doc Section 8.1, 2026-03-24)
+31. **Article + noun ALWAYS in gender color on teach cards.** For every gendered language, the headword display shows both article and noun in the same gender color. der Hund (blue), die Katze (crimson), das Buch (green), le livre (blue), la maison (crimson), el libro (blue), la casa (crimson), de hond (blue), het boek (gold). Non-gendered languages skip this. (Vision doc Section 2.2b, 2026-03-24)
+32. **Every word in every sentence is grammar-tagged.** POS, sub-category, syntactic function, morphological info. Powers color system, sentence breakdown, grammar deep dives. Can be done retroactively on existing content. New content tagged from day one. Learner taps any word, sees why it's colored and what it does. (P59, Vision doc Section 2.2c, 2026-03-24)

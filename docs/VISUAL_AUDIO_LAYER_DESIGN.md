@@ -343,7 +343,7 @@
 ### Phase 3: Content Writing
 - Write episodes following the detailed plan
 - One episode at a time, full quality from the start (Rule 7)
-- Every teach card: 2-bubble format with fun info (vision doc)
+- Every teach card: CEFR-scaled dialogue + fun info + gender colors + grammar tags (vision doc)
 - Every sentence: full grammar tagging (PP59)
 - Every word: speaker ID tagged for future TTS
 - **Quality gate**: PP8, PP48, PP49, PP52, density check per episode
