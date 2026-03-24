@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>VerumLingua - Ankunft</title>
+<style>
+/* ═══════════════════════════════════════════════════════
+   MOBILE-FIRST: iPhone SE (375×667) is the base.
+   Everything is designed to fit that screen FIRST.
+
+   iPhone issues fixed:
+   - 100svh instead of 100vh (Safari address bar)
+   - -webkit-tap-highlight-color: transparent (no blue flash)
+   - touch-action: manipulation (no double-tap zoom delay)
+   - env(safe-area-inset-*) for notch + home bar
+   - No hover states that break on touch
+   - position: fixed instead of absolute for overlays
+   ═══════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&family=Quicksand:wght@500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0D0B1A;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Kill iOS text size adjust */
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SCENE — Full screen container
+   ═══════════════════════════════════════════════════════ */
+.scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Background image */
+.scene-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: scale(1.08);
+  transition: opacity 1.2s ease-out, transform 1.5s ease-out;
+  z-index: 1;
+  /* Fallback gradient if no image loaded */
+  background-color: #1a1540;
+}
+
+.scene-bg.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Bottom gradient for text readability */
+.scene-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.25) 0%,
+    transparent 15%,
+    transparent 30%,
+    rgba(13,11,26,0.3) 50%,
+    rgba(13,11,26,0.65) 70%,
+    rgba(13,11,26,0.88) 85%,
+    rgba(13,11,26,0.95) 100%
+  );
+}
+
+/* ═══════════════════════════════════════════════════════
+   HEADER — Close button + title + step counter
+   Sits in the safe area (below notch)
+   ═══════════════════════════════════════════════════════ */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 12px 14px 10px;
+  padding-top: max(12px, env(safe-area-inset-top, 12px));
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 70%, transparent 100%);
+}
+
+.close-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: rgba(255,255,255,0.8);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.close-btn:active { background: rgba(0,0,0,0.6); transform: scale(0.92); }
+
+.lesson-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.8);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.step-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.45);
+  flex-shrink: 0;
+  background: rgba(255,255,255,0.08);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+/* Progress bar */
+.progress-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255,255,255,0.08);
+  z-index: 55;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #7B5EE8, #2ECDA7);
+  transition: width 0.5s ease;
+}
+
+/* ═══════════════════════════════════════════════════════
+   CHARACTER SPRITES
+   Bottom of screen, above text box.
+   Use object-fit: contain + object-position to crop
+   character sheets to show just one pose.
+   ═══════════════════════════════════════════════════════ */
+.sprite-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Height = space between header and text box */
+  top: 0;
+  z-index: 3;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sprite {
+  position: absolute;
+  bottom: 36%;
+  width: 35vw;
+  max-width: 200px;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease;
+  filter: drop-shadow(0 6px 20px rgba(0,0,0,0.5));
+}
+
+.sprite img {
+  width: 200%; /* Double width so we can show just the left half */
+  max-width: none;
+  height: auto;
+  display: block;
+  /* Crop to left pose of the reference sheet */
+  clip-path: inset(0 50% 0 0);
+  /* Knock out white/off-white background */
+  mix-blend-mode: multiply;
+}
+
+.sprite-left {
+  left: -4%;
+  transform: translateX(-80px);
+  /* Verumius is full-body, position from bottom */
+  bottom: 30%;
+  width: 38vw;
+  max-width: 210px;
+}
+
+.sprite-right {
+  right: -4%;
+  transform: translateX(80px);
+  /* Yilmaz is bust-only, position higher and smaller */
+  bottom: 38%;
+  width: 32vw;
+  max-width: 180px;
+}
+
+.sprite.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sprite.speaking {
+  filter: drop-shadow(0 6px 24px rgba(123,94,232,0.35));
+  transform: translateX(0) scale(1.02);
+}
+
+.sprite.dimmed {
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3)) brightness(0.7);
+  transform: translateX(0) scale(0.97);
+}
+
+/* ═══════════════════════════════════════════════════════
+   TEXT BOX — The main content area
+   Frosted glass at bottom. This is where the magic is.
+   ═══════════════════════════════════════════════════════ */
+.textbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  padding: 18px 18px;
+  padding-bottom: max(20px, calc(12px + env(safe-area-inset-bottom, 8px)));
+
+  /* Frosted glass */
+  background: rgba(18, 14, 42, 0.78);
+  backdrop-filter: blur(24px) saturate(1.3);
+  -webkit-backdrop-filter: blur(24px) saturate(1.3);
+
+  /* Top edge */
+  border-top: 1px solid rgba(123, 94, 232, 0.25);
+  box-shadow: 0 -8px 32px rgba(0,0,0,0.3);
+
+  /* Animation */
+  transform: translateY(100%);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Minimum height so it doesn't feel tiny */
+  min-height: 160px;
+}
+
+.textbox.visible {
+  transform: translateY(0);
+}
+
+/* Speaker badge */
+.speaker-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.speaker-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(123,94,232,0.5);
+  flex-shrink: 0;
+}
+
+.speaker-avatar-placeholder {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: linear-gradient(135deg, #7B5EE8 0%, #5A3EC8 100%);
+  border: 2px solid rgba(123,94,232,0.5);
+}
+
+.speaker-name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #2ECDA7;
+}
+
+.speaker-name.narrator { color: #E8960A; }
+.speaker-name.verumius { color: #B8A0FF; }
+.speaker-name.yilmaz { color: #2ECDA7; }
+
+/* TTS button */
+.tts-btn {
+  margin-left: auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(123, 94, 232, 0.2);
+  color: rgba(255,255,255,0.7);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.tts-btn:active {
+  background: rgba(123, 94, 232, 0.5);
+  transform: scale(0.9);
+}
+
+/* Target language (German) */
+.text-trg {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 8px;
+  min-height: 1.6em;
+}
+
+/* Blinking cursor for typewriter */
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: #7B5EE8;
+  margin-left: 2px;
+  animation: blink 0.8s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Source language (English) */
+.text-src {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.4);
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.text-src.visible { opacity: 1; }
+
+/* Continue indicator */
+.continue-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 14px;
+  opacity: 0;
+  transition: opacity 0.5s ease 1s;
+}
+
+.continue-indicator.visible { opacity: 0.35; }
+
+.continue-indicator span {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.continue-arrow {
+  font-size: 12px;
+  animation: arrowBounce 1.5s ease-in-out infinite;
+}
+
+@keyframes arrowBounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+/* ═══════════════════════════════════════════════════════
+   INTRO CARD — Special first step (lesson intro)
+   ═══════════════════════════════════════════════════════ */
+.intro-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 28px 22px;
+  padding-bottom: max(28px, calc(16px + env(safe-area-inset-bottom, 8px)));
+  background: rgba(18, 14, 42, 0.88);
+  backdrop-filter: blur(28px) saturate(1.4);
+  -webkit-backdrop-filter: blur(28px) saturate(1.4);
+  border-top: 1px solid rgba(123, 94, 232, 0.3);
+  transform: translateY(100%);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.intro-card.visible { transform: translateY(0); }
+
+.intro-label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #E8960A;
+  margin-bottom: 10px;
+}
+
+.intro-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.intro-desc {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 18px;
+}
+
+.intro-goals {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.intro-goals li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.4;
+}
+
+.goal-icon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(123,94,232,0.3), rgba(46,205,167,0.3));
+  border: 1px solid rgba(123,94,232,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+.start-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  /* Candy button gradient */
+  background: linear-gradient(180deg,
+    #9B82F3 0%,
+    #8B6CEE 15%,
+    #7B5EE8 40%,
+    #6B4ED8 70%,
+    #5A3EC8 100%
+  );
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,0.3),
+    inset 0 -3px 0 rgba(0,0,0,0.15),
+    0 4px 14px rgba(123,94,232,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.start-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 42%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.25), transparent);
+  border-radius: 0 0 50% 50%;
+  pointer-events: none;
+}
+
+.start-btn:active {
+  transform: scale(0.97);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,0.2),
+    inset 0 -2px 0 rgba(0,0,0,0.1),
+    0 2px 8px rgba(123,94,232,0.3);
+}
+
+/* ═══════════════════════════════════════════════════════
+   TEACH CARD — Word/phrase teaching
+   Appears as candy bubble overlay
+   ═══════════════════════════════════════════════════════ */
+.teach-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 20px 18px;
+  padding-bottom: max(22px, calc(12px + env(safe-area-inset-bottom, 8px)));
+  background: rgba(18, 14, 42, 0.85);
+  backdrop-filter: blur(28px) saturate(1.4);
+  -webkit-backdrop-filter: blur(28px) saturate(1.4);
+  border-top: 1px solid rgba(123, 94, 232, 0.25);
+  box-shadow: 0 -8px 32px rgba(0,0,0,0.3);
+  transform: translateY(100%);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.teach-card.visible { transform: translateY(0); }
+
+.teach-word-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.teach-word {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.teach-translation {
+  font-size: 15px;
+  color: #2ECDA7;
+  font-weight: 600;
+}
+
+.teach-note {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 14px;
+  line-height: 1.45;
+}
+
+/* Dialogue bubbles */
+.dialogue {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.bubble {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.bubble-a {
+  align-self: flex-start;
+  background: linear-gradient(135deg, rgba(123,94,232,0.25), rgba(123,94,232,0.15));
+  border: 1px solid rgba(123,94,232,0.2);
+  border-radius: 14px 14px 14px 4px;
+  color: rgba(255,255,255,0.9);
+}
+
+.bubble-b {
+  align-self: flex-end;
+  background: linear-gradient(135deg, rgba(46,205,167,0.2), rgba(46,205,167,0.1));
+  border: 1px solid rgba(46,205,167,0.2);
+  border-radius: 14px 14px 4px 14px;
+  color: rgba(255,255,255,0.9);
+}
+
+.bubble-en {
+  font-size: 12px;
+  color: rgba(255,255,255,0.35);
+  margin-top: 3px;
+  font-style: italic;
+}
+
+/* Fun fact */
+.funfact {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(232,150,10,0.08);
+  border: 1px solid rgba(232,150,10,0.15);
+  border-radius: 10px;
+}
+
+.funfact-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.funfact-text {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.55);
+}
+
+/* ═══════════════════════════════════════════════════════
+   TAP AREA — Full screen, invisible
+   Handles forward/back navigation
+   ═══════════════════════════════════════════════════════ */
+.tap-area {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  cursor: pointer;
+  /* iOS needs this to register taps on empty areas */
+  background: transparent;
+}
+
+/* Tap feedback — subtle flash */
+.tap-flash {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(123,94,232,0.06);
+  z-index: 35;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.tap-flash.active { opacity: 1; }
+
+/* ═══════════════════════════════════════════════════════
+   RESPONSIVE — Tablet + Desktop
+   ═══════════════════════════════════════════════════════ */
+@media (min-width: 768px) {
+  .textbox, .intro-card, .teach-card {
+    max-width: 640px;
+    left: 50%;
+    right: auto;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+    transform: translateX(-50%) translateY(100%);
+  }
+  .textbox.visible, .intro-card.visible, .teach-card.visible {
+    transform: translateX(-50%) translateY(0);
+  }
+  .text-trg { font-size: 19px; }
+  .sprite { width: 25vw; max-width: 260px; }
+  .sprite-left { left: 8%; }
+  .sprite-right { right: 8%; }
+}
+
+@media (min-width: 1024px) {
+  .scene {
+    max-width: 880px;
+    height: min(580px, 80vh);
+    position: relative;
+    margin: 40px auto;
+    border-radius: 22px;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.5);
+    overflow: hidden;
+  }
+  .scene-bg, .scene-vignette { border-radius: 22px; }
+  .textbox, .intro-card, .teach-card {
+    border-radius: 18px 18px 22px 22px;
+    max-width: 560px;
+  }
+}
+
+/* Landscape phone */
+@media (orientation: landscape) and (max-height: 440px) {
+  .textbox {
+    padding: 10px 18px;
+    min-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 14px;
+  }
+  .speaker-row { width: 100%; margin-bottom: 4px; }
+  .text-trg { font-size: 14px; margin-bottom: 0; flex: 1; min-width: 60%; }
+  .text-src { font-size: 12px; flex: 1; }
+  .continue-indicator { width: 100%; margin-top: 6px; }
+  .sprite { width: 20vh; bottom: 38%; }
+  .intro-card, .teach-card {
+    padding: 12px 18px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+  .intro-title { font-size: 19px; }
+}
+</style>
+</head>
+<body>
+
+<div class="scene" id="scene">
+  <!-- Progress -->
+  <div class="progress-track">
+    <div class="progress-fill" id="progressFill" style="width: 5%"></div>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <button class="close-btn" onclick="alert('Exit lesson')">✕</button>
+    <span class="lesson-title">✈️ Ankunft</span>
+    <span class="step-count" id="stepCount">1 / 7</span>
+  </div>
+
+  <!-- Scene background -->
+  <div class="scene-bg" id="sceneBg"></div>
+  <div class="scene-vignette"></div>
+
+  <!-- Sprites -->
+  <div class="sprite-layer">
+    <div class="sprite sprite-left" id="spriteL">
+      <img src="art/characters/verumlingua_Character_reference_sheet_adult_animated_series_s_68ab4ec1-a18c-431e-94f2-9b4f98a2994a_0.png" alt="Verumius">
+    </div>
+    <div class="sprite sprite-right" id="spriteR">
+      <img src="art/characters/verumlingua_httpss.mj.runj58EoGu8NVE_Character_reference_shee_d869b8c7-6778-432c-ad22-441a08c60daf_0.png" alt="Dr. Yilmaz">
+    </div>
+  </div>
+
+  <!-- Content panels (only one visible at a time) -->
+
+  <!-- Intro card -->
+  <div class="intro-card" id="introCard"></div>
+
+  <!-- Story text box -->
+  <div class="textbox" id="textbox">
+    <div class="speaker-row">
+      <div class="speaker-avatar-placeholder" id="speakerAvatar">📖</div>
+      <span class="speaker-name narrator" id="speakerName">Erzähler</span>
+      <button class="tts-btn" onclick="event.stopPropagation()">🔊</button>
+    </div>
+    <div class="text-trg" id="textTrg"></div>
+    <div class="text-src" id="textSrc"></div>
+    <div class="continue-indicator" id="continueHint">
+      <span>Tap to continue</span>
+      <span class="continue-arrow">›</span>
+    </div>
+  </div>
+
+  <!-- Teach card -->
+  <div class="teach-card" id="teachCard"></div>
+
+  <!-- Tap flash -->
+  <div class="tap-flash" id="tapFlash"></div>
+
+  <!-- Full-screen tap area -->
+  <div class="tap-area" id="tapArea"></div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════
+   LESSON DATA — Actual Unit 1, Lesson 1: Ankunft
+   From units-german-v2.js (with corrected umlauts)
+   ═══════════════════════════════════════════════════════ */
+const STEPS = [
+  // 0: Intro
+  {
+    type: "intro",
+    title: "Willkommen in Deutschland",
+    desc: "Verumius arrives in Germany for the first time. But things don't go as planned...",
+    goals: [
+      "Learn basic greetings",
+      "Understand simple questions",
+      "Survive your first German conversation"
+    ]
+  },
+  // 1: Story — Narrator (airport arrival)
+  {
+    type: "story",
+    speaker: "narrator",
+    mood: "excited",
+    art: "art/de/scenes/verumlingua_Interior_of_a_modern_airport_arrivals_hall_slight_c053c5e2-f48e-45e0-9259-226209109292_3.png",
+    trg: "Flughafen Berlin Brandenburg. Die Türen öffnen sich. Warme Luft, fremde Stimmen, deutsche Schilder überall. Verumius atmet tief ein. Er ist da.",
+    src: "Berlin Brandenburg Airport. The doors open. Warm air, unfamiliar voices, German signs everywhere. Verumius takes a deep breath. He is here.",
+    sprites: { left: true, enterLeft: true }
+  },
+  // 2: Teach — Hallo
+  {
+    type: "teach",
+    word: "Hallo",
+    translation: "Hello",
+    note: "The most common informal greeting in German.",
+    exA: "Hallo! Wie geht's?",
+    exB: "Hallo! Gut, danke!",
+    exEnA: "Hello! How's it going?",
+    exEnB: "Hello! Good, thanks!",
+    funFact: "'Hallo' only became common in German in the early 1900s, borrowed from English telephone culture. Before that, Germans said 'Guten Tag.'"
+  },
+  // 3: Teach — Entschuldigung
+  {
+    type: "teach",
+    word: "Entschuldigung",
+    translation: "Excuse me / Sorry",
+    note: "Used to get attention or to apologize.",
+    exA: "Entschuldigung, wo ist der Bahnhof?",
+    exB: "Geradeaus und dann links.",
+    exEnA: "Excuse me, where is the train station?",
+    exEnB: "Straight ahead and then left.",
+    funFact: "15 letters long! Literally 'un-guilt-ification.' Germans build words like LEGO bricks: Ent + schuld + ig + ung."
+  },
+  // 4: Teach — der Zug
+  {
+    type: "teach",
+    word: "der Zug",
+    translation: "the train",
+    note: "Masculine noun. Plural: die Züge.",
+    exA: "Wann fährt der Zug?",
+    exB: "Der Zug fährt um 14 Uhr.",
+    exEnA: "When does the train leave?",
+    exEnB: "The train leaves at 2 PM.",
+    funFact: "'Zug' literally means 'pull.' The word also means 'a gulp' of beer and 'a move' in chess. Context is everything!"
+  },
+  // 5: Teach — sprechen
+  {
+    type: "teach",
+    word: "sprechen",
+    translation: "to speak",
+    note: "Irregular: ich spreche, du sprichst, er spricht.",
+    exA: "Sprechen Sie Deutsch?",
+    exB: "Ja, ein bisschen.",
+    exEnA: "Do you speak German?",
+    exEnB: "Yes, a little bit.",
+    funFact: "Related to English 'speak.' Both come from the same ancient root. German kept the 'spr-' cluster that English simplified."
+  },
+  // 6: Teach — der Bahnhof
+  {
+    type: "teach",
+    word: "der Bahnhof",
+    translation: "the train station",
+    note: "Masculine noun. Compound: Bahn (track) + Hof (yard).",
+    exA: "Wo ist der Bahnhof?",
+    exB: "Der Bahnhof ist dort drüben.",
+    exEnA: "Where is the train station?",
+    exEnB: "The train station is over there.",
+    funFact: "Germans love compound nouns. Bahnhof = track-yard. Hauptbahnhof = main-track-yard. Bahnhofsviertel = track-yard-quarter!"
+  }
+];
+
+/* ═══════════════════════════════════════════════════════
+   ENGINE
+   ═══════════════════════════════════════════════════════ */
+let currentStep = -1;
+const $ = id => document.getElementById(id);
+
+const SPEAKER_META = {
+  narrator: { name: "Erzähler", emoji: "📖", class: "narrator" },
+  verumius: { name: "Verumius", emoji: "🏛️", class: "verumius" },
+  yilmaz:   { name: "Dr. Yilmaz", emoji: "📚", class: "yilmaz" }
+};
+
+function hideAll() {
+  $("introCard").classList.remove("visible");
+  $("textbox").classList.remove("visible");
+  $("teachCard").classList.remove("visible");
+  $("continueHint").classList.remove("visible");
+}
+
+function updateProgress() {
+  const pct = ((currentStep + 1) / STEPS.length) * 100;
+  $("progressFill").style.width = pct + "%";
+  $("stepCount").textContent = (currentStep + 1) + " / " + STEPS.length;
+}
+
+function showIntro(step) {
+  hideAll();
+
+  const card = $("introCard");
+  card.innerHTML = `
+    <div class="intro-label">Episode 1</div>
+    <div class="intro-title">${step.title}</div>
+    <div class="intro-desc">${step.desc}</div>
+    <ul class="intro-goals">
+      ${step.goals.map(g => `
+        <li>
+          <span class="goal-icon">✦</span>
+          <span>${g}</span>
+        </li>
+      `).join("")}
+    </ul>
+    <button class="start-btn" onclick="event.stopPropagation(); advance()">Los geht's! →</button>
+  `;
+
+  // Show background dimly
+  $("sceneBg").style.backgroundImage = `url('${STEPS[1].art}')`;
+  $("sceneBg").style.filter = "blur(6px) brightness(0.4)";
+  setTimeout(() => $("sceneBg").classList.add("visible"), 50);
+
+  setTimeout(() => card.classList.add("visible"), 200);
+}
+
+function showStory(step) {
+  hideAll();
+
+  // Background
+  if (step.art) {
+    $("sceneBg").style.backgroundImage = `url('${step.art}')`;
+    $("sceneBg").style.filter = "none";
+    $("sceneBg").classList.add("visible");
+  }
+
+  // Sprites
+  if (step.sprites) {
+    const sl = $("spriteL");
+    const sr = $("spriteR");
+
+    if (step.sprites.left) {
+      sl.classList.add("visible");
+      if (step.sprites.speaking === "left") {
+        sl.classList.add("speaking");
+        sl.classList.remove("dimmed");
+      } else if (step.sprites.right) {
+        sl.classList.add("dimmed");
+        sl.classList.remove("speaking");
+      } else {
+        sl.classList.remove("speaking", "dimmed");
+      }
+    }
+
+    if (step.sprites.right) {
+      sr.classList.add("visible");
+      if (step.sprites.speaking === "right") {
+        sr.classList.add("speaking");
+        sr.classList.remove("dimmed");
+      } else {
+        sr.classList.add("dimmed");
+        sr.classList.remove("speaking");
+      }
+    }
+  }
+
+  // Speaker
+  const meta = SPEAKER_META[step.speaker] || SPEAKER_META.narrator;
+  $("speakerAvatar").textContent = meta.emoji;
+  $("speakerName").textContent = meta.name;
+  $("speakerName").className = "speaker-name " + meta.class;
+
+  // Text — typewriter
+  const trgEl = $("textTrg");
+  const srcEl = $("textSrc");
+  srcEl.classList.remove("visible");
+  srcEl.textContent = step.src;
+
+  typewrite(trgEl, step.trg, 22, () => {
+    srcEl.classList.add("visible");
+    $("continueHint").classList.add("visible");
+  });
+
+  setTimeout(() => $("textbox").classList.add("visible"), 100);
+}
+
+function showTeach(step) {
+  hideAll();
+
+  const card = $("teachCard");
+  card.innerHTML = `
+    <div class="teach-word-row">
+      <span class="teach-word">${step.word}</span>
+      <span class="teach-translation">${step.translation}</span>
+      <button class="tts-btn" onclick="event.stopPropagation()" style="margin-left:auto">🔊</button>
+    </div>
+    <div class="teach-note">${step.note}</div>
+    <div class="dialogue">
+      <div class="bubble bubble-a">
+        <div>A: ${step.exA}</div>
+        <div class="bubble-en">${step.exEnA}</div>
+      </div>
+      <div class="bubble bubble-b">
+        <div>B: ${step.exB}</div>
+        <div class="bubble-en">${step.exEnB}</div>
+      </div>
+    </div>
+    <div class="funfact">
+      <span class="funfact-icon">💡</span>
+      <span class="funfact-text">${step.funFact}</span>
+    </div>
+    <div class="continue-indicator visible">
+      <span>Tap to continue</span>
+      <span class="continue-arrow">›</span>
+    </div>
+  `;
+
+  setTimeout(() => card.classList.add("visible"), 80);
+}
+
+/* Typewriter */
+let typewriterTimeout = null;
+function typewrite(el, text, speed, onDone) {
+  if (typewriterTimeout) clearTimeout(typewriterTimeout);
+  el.innerHTML = '<span class="cursor"></span>';
+  let i = 0;
+
+  function tick() {
+    if (i < text.length) {
+      el.innerHTML = text.substring(0, i + 1) + '<span class="cursor"></span>';
+      i++;
+      typewriterTimeout = setTimeout(tick, speed);
+    } else {
+      el.textContent = text; // Remove cursor
+      if (onDone) onDone();
+    }
+  }
+  tick();
+}
+
+/* Skip typewriter on tap during animation */
+let typewriterDone = true;
+function skipTypewriter() {
+  if (typewriterTimeout) {
+    clearTimeout(typewriterTimeout);
+    typewriterTimeout = null;
+    const step = STEPS[currentStep];
+    if (step && step.trg) {
+      $("textTrg").textContent = step.trg;
+      $("textSrc").classList.add("visible");
+      $("continueHint").classList.add("visible");
+    }
+    typewriterDone = true;
+    return true; // consumed the tap
+  }
+  return false;
+}
+
+/* Advance */
+function advance() {
+  // If typewriter is running, skip it first
+  if (skipTypewriter()) return;
+
+  currentStep++;
+  if (currentStep >= STEPS.length) {
+    currentStep = STEPS.length - 1;
+    return;
+  }
+
+  const step = STEPS[currentStep];
+  updateProgress();
+
+  switch (step.type) {
+    case "intro": showIntro(step); break;
+    case "story": showStory(step); break;
+    case "teach": showTeach(step); break;
+  }
+}
+
+function goBack() {
+  if (currentStep > 0) {
+    currentStep -= 2; // advance() will +1
+    advance();
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   TOUCH + KEYBOARD INPUT
+
+   iPhone fix: use touchend not click.
+   Click has a 300ms delay on iOS Safari.
+   touchend fires instantly.
+   ═══════════════════════════════════════════════════════ */
+const tapArea = $("tapArea");
+let touchStartX = 0;
+let touchStartTime = 0;
+
+tapArea.addEventListener("touchstart", (e) => {
+  touchStartX = e.touches[0].clientX;
+  touchStartTime = Date.now();
+}, { passive: true });
+
+tapArea.addEventListener("touchend", (e) => {
+  e.preventDefault(); // Prevent ghost click
+
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  const dt = Date.now() - touchStartTime;
+
+  // Swipe detection
+  if (Math.abs(dx) > 60 && dt < 400) {
+    if (dx < 0) advance();      // Swipe left = next
+    else goBack();               // Swipe right = back
+    flashTap();
+    return;
+  }
+
+  // Tap detection — left 25% = back, rest = forward
+  const tapX = e.changedTouches[0].clientX;
+  const screenW = window.innerWidth;
+
+  if (tapX < screenW * 0.25) {
+    goBack();
+  } else {
+    advance();
+  }
+  flashTap();
+}, { passive: false });
+
+// Desktop click fallback
+tapArea.addEventListener("click", (e) => {
+  // Only fire on non-touch devices
+  if ('ontouchend' in window) return;
+
+  const tapX = e.clientX;
+  const screenW = window.innerWidth;
+
+  if (tapX < screenW * 0.25) goBack();
+  else advance();
+  flashTap();
+});
+
+// Keyboard
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight" || e.key === " " || e.key === "Enter") {
+    e.preventDefault();
+    advance();
+  } else if (e.key === "ArrowLeft" || e.key === "Backspace") {
+    e.preventDefault();
+    goBack();
+  }
+});
+
+function flashTap() {
+  const f = $("tapFlash");
+  f.classList.add("active");
+  setTimeout(() => f.classList.remove("active"), 120);
+}
+
+/* ═══════════════════════════════════════════════════════
+   INIT — Start the lesson
+   ═══════════════════════════════════════════════════════ */
+setTimeout(advance, 300);
+</script>
+
+</body>
+</html>
