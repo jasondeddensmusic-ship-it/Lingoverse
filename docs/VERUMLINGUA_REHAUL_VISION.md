@@ -22,13 +22,15 @@ Every word card (teach step) follows this structure:
 +------------------------------------------+
 |  NEW WORD / REVIEW badge                 |
 |                                          |
-|        das Buch                          |
+|        das Buch                          |  <-- Article + noun BOTH in gender color
 |        (the book)                        |
 |                                          |
 |  +------------------------------------+ |
-|  | A: Hast du ein Buch?               | |
+|  | A: Hast du ein Buch?               | |  <-- Every word tagged with POS/function
 |  +------------------------------------+ |
 |  |               B: Ja, hier bitte!   | |
+|  +------------------------------------+ |
+|  |  A: Danke! Ich lese gern.          | |  <-- Dialogues scale with CEFR level
 |  +------------------------------------+ |
 |                                          |
 |  ── fun info ─────────────────────────── |
@@ -37,16 +39,39 @@ Every word card (teach step) follows this structure:
 +------------------------------------------+
 ```
 
-### 2.2 Dialogue Rules (STRICT)
+### 2.2 Dialogue Rules (UPDATED 2026-03-24)
 
-- **ALWAYS exactly 2 bubbles.** One sender (A), one receiver (B). Never 1. Never 3+.
+- **Dialogues scale with CEFR level.** No artificial bubble cap. Existing multi-exchange dialogues are a strength, not a problem.
+  - A1: 2-3 exchanges (simple, survival)
+  - A2: 3-4 exchanges (social context)
+  - B1: 4-5 exchanges (nuanced situations)
+  - B2: 5+ exchanges (complex, professional)
 - Bubble style matches current iOS-style chat bubbles (already implemented and looking good).
+- **Existing dialogues are preserved when recycling content.** The current A:/B: exchanges already demonstrate grammar in context. Rewrite only when the old format genuinely doesn't work for the new card layout.
 - **Word type determines example style:**
   - **Nouns/adjectives**: Show the word in natural use
   - **Verbs**: Show the action happening
   - **Function words** (prepositions, articles): Show the grammatical pattern
   - **Phrases**: Show the phrase in a realistic exchange
 - Words appearing in dialogue examples are NOT quizzable until formally taught. Exposure without testing is allowed and encouraged.
+
+### 2.2b Gender Coloring on Teach Cards (NON-NEGOTIABLE)
+
+- **For ALL gendered/article languages**: the article AND the noun on the teach card headword are ALWAYS displayed in the gender color.
+  - German: **der** Hund (blue), **die** Katze (crimson), **das** Buch (emerald green)
+  - French: **le** livre (blue), **la** maison (crimson)
+  - Spanish: **el** libro (blue), **la** casa (crimson)
+  - Dutch: **de** hond (blue), **het** boek (gold)
+- This applies to the main headword display on the teach card. Both article and noun are the SAME gender color.
+- Non-gendered languages (Korean, English) skip this. No clutter.
+
+### 2.2c Full Grammar Tagging (P59 — NON-NEGOTIABLE)
+
+- **Every word in every sentence on every card is tagged** with its grammatical function: POS, sub-category (particle type, article gender, verb tense), syntactic role (subject, object, modifier).
+- This powers the color system, sentence breakdown popups, and grammar deep dives.
+- Tagging can be done retroactively on existing content. New content MUST be tagged from day one.
+- The learner can tap any word in any sentence and see WHY it's colored, WHAT function it serves, and HOW it connects to the grammar they've learned.
+- This is what makes VerumLingua comprehensive: learners NEVER leave the app for grammar answers.
 
 ### 2.3 Fun Info Section (bottom of every card)
 
@@ -57,12 +82,19 @@ Every word card (teach step) follows this structure:
   - **Memory hook/cognate**: Connection to words the learner already knows
 - No rigid formula. Each word gets its best fit.
 
-### 2.4 What Happens to Current Multi-Line Dialogues
+### 2.4b Vocabulary Gap Reality Check (2026-03-24)
 
-- **Mostly rewrite fresh.** Current 3-5+ line dialogues were built for the old format.
-- **Keep gems** that already fit perfectly (natural 2-line exchanges).
-- **Salvage all cut content** to a reference file per language for reuse in story dialogues.
-- Nothing is thrown away. Everything is restructured.
+- **The platform needs WAY more teach cards.** Current counts (~1,000-1,300 per language) are a fraction of what certification-grade coverage (PP55) requires (4,000-7,000 per language).
+- Every official exam word needs a teach card. Every teach card needs gender coloring, grammar tagging, fun info, and CEFR-scaled dialogue.
+- This is the single biggest content gap. The rehaul must close it systematically through CEFR word lists (Section 6.1) powering curriculum generation.
+- Teach cards are built in bulk once the design is locked. The design MUST be perfect before mass production begins.
+
+### 2.5 What Happens to Current Multi-Line Dialogues
+
+- **Keep existing dialogues as-is.** The current A:/B: exchanges are a strength. They demonstrate grammar in natural context at appropriate CEFR depth.
+- **Rewrite only when genuinely needed** (e.g., a dialogue that doesn't fit the new card layout or has quality issues).
+- **All content preserved.** Nothing thrown away. Sentences reused in story dialogues, quizzes, review.
+- The story dialogue system (Section 3) gets its own dedicated writing. Story episodes are NOT built by cutting teach card dialogues down.
 
 ---
 
@@ -149,7 +181,7 @@ Pattern per unit:
 
 | Type | Content | Format |
 |------|---------|--------|
-| **vocab** | Word cards only, no quizzes | Cards with 2-bubble examples + fun info |
+| **vocab** | Word cards only, no quizzes | Cards with CEFR-scaled dialogue examples + fun info + gender coloring + full grammar tags |
 | **story** | Dialogue episodes with the protagonist | Multi-exchange dialogue + comprehension |
 | **grammar** | Verb conjugations, constructs, rules | Deep dives + pattern practice |
 | **quiz** | Mixed testing | MC, FB, drag_fill, translation, story comprehension |
@@ -175,7 +207,7 @@ This is a TEMPLATE, not a mandate. PP54 (anti-cramming) still applies: some unit
 
 - New lesson format: ONLY teach cards, no quizzes
 - Purpose: pure vocabulary acquisition through exposure
-- Each card: word + translation + 2-bubble example + fun info
+- Each card: word + translation + CEFR-scaled dialogue example + fun info + gender colors + grammar tags
 - Density: 12-20 cards per vocab lesson (cards are faster than quiz steps)
 - Words introduced here become quizzable in later quiz lessons
 
@@ -363,8 +395,8 @@ After this document is approved:
 2. **Download complete CEFR word lists** for all 5 languages. These are the foundation for BOTH the dictionary AND the curriculum. No building without them. (See Section 6.1)
 3. **Language-specific settings panel** — redesign with full grammar visualization per language **(D115 — DONE)**
 4. **Vocab page redesign** — search + categories + review, lemma-only display, built from scratch **(D116 — V6 DONE, 2026-03-19)**
-5. **New word card format** — 2-bubble examples + fun info bottom (prototype in German first, per owner decision)
-6. **Story dialogue system** — Verumius as protagonist, sitcom sketch format, comedy+adventure growing with CEFR (prototype in ONE language)
+5. **New word card format** — CEFR-scaled dialogues + fun info + gender coloring + full grammar tags (prototype in German first, per owner decision). Design must be PERFECT before mass content writing begins.
+6. **Story dialogue system** — Verumius as protagonist, sitcom sketch format, comedy+adventure growing with CEFR (prototype in ONE language). Stories get dedicated writing, not recycled from teach cards.
 7. **`nl`/`en` --> `target`/`source` rename** — dedicated session, mechanical
 8. **Curriculum restructure** — rebuild units from CEFR word lists. Every word on the list gets taught. New lesson format (vocab, story, grammar, quiz, review). One language at a time.
 9. **Content salvage** — export and redistribute old dialogue content
@@ -374,6 +406,18 @@ Each step is its own session or set of sessions. No step starts until the previo
 
 **The CEFR word lists (step 2) are the single source of truth for vocabulary.** The dictionary is built from them. The curriculum is built from them. Gap detection is automated: compare the list against dictionary entries and teach cards. Zero gaps.
 
+### 8.1 Planning Philosophy (2026-03-24 — NON-NEGOTIABLE)
+
+**"Plan, then more plan, then more plan in chunks, until content and Midjourney prompts flow seamlessly."**
+
+The grand scheme is planned first at the highest level. Then each section is planned in more detail. Then each chunk within that section is planned down to the card level. Only when the design is so detailed that writing content is MECHANICAL does writing begin. The same applies to Midjourney: scene descriptions, character references, and style references are all planned and templated before a single image is generated.
+
+This means:
+- **No code until design is locked.** Every card format, every color rule, every tagging schema, every story beat format must be specified before implementation.
+- **No content until the pipeline is seamless.** The process of writing a teach card (word + article in gender color + tagged dialogue + fun info) must be so well-defined that it can be done at scale without design decisions mid-stream.
+- **No Midjourney until scene formats are templated.** Every scene type (cinematic intro, dialogue bubble, city map, character portrait) has a reusable prompt template with `--cref` and `--sref` locked.
+- **Chunked planning**: Grand vision -> per-language plan -> per-CEFR-level plan -> per-unit plan -> per-lesson plan -> per-card spec. Each layer approved before the next begins.
+
 ---
 
 ## 9. What This Replaces
@@ -381,7 +425,6 @@ Each step is its own session or set of sessions. No step starts until the previo
 This vision document SUPERSEDES:
 - The old 21-category POS color map (now language-specific)
 - The "gold bubble for new words" system (under review — may become teach-card-for-every-word)
-- The multi-line dialogue standard on teach cards (now 2-bubble only)
 - The D112 curriculum audit approach (now part of larger restructure)
 - The generic settings panel (now language-specific with full visualization controls)
 
