@@ -115,7 +115,7 @@
 ## LESSON 3: "Montag bis Sonntag" (Monday to Sunday)
 **Type**: Vocabulary | **Mode**: Bubble | **Scene**: Daily Routine (calendar planning)
 **Characters**: Verumius (organizing his week)
-**Steps**: 20 | **New words**: 19 | **Cumulative**: 683
+**Steps**: 20 | **New words**: 19 | **Cumulative**: 692
 
 ### New Vocabulary (19 words)
 **days (7)**: Montag(der), Dienstag(der), Mittwoch(der), Donnerstag(der), Freitag(der), Samstag(der), Sonntag(der)
@@ -310,7 +310,7 @@
 ## LESSON 7: "Am Bürgeramt" (At the Registration Office)
 **Type**: Story + Vocabulary | **Mode**: Cinematic | **Scene**: Bürgeramt — KD's legendary desk
 **Characters**: Verumius, KD (bureaucrat), number-calling machine
-**Steps**: 24 | **New words**: 21 | **Cumulative**: 761
+**Steps**: 24 | **New words**: 21 | **Cumulative**: 783
 
 ### New Vocabulary (21 words)
 **admin-verbs (7)**: anmelden, ausfüllen, erklären, erlauben, erzählen, unterschreiben, vorstellen
@@ -1249,30 +1249,39 @@ Now let me finish Lessons 11 and 12.
 | # | Lesson Title | Type | Mode | Scene | Steps | New Words | Cumulative |
 |---|---|---|---|---|---|---|---|
 | 1 | Kaltes Wasser! | Story+Vocab | Cinematic | Cold Shower | 20 | 22 | 644 |
-| 2 | Mein Tag | Vocab+Grammar | Bubble | Daily Routine | 22 | 20 | 664 |
-| 3 | Montag bis Sonntag | Vocabulary | Bubble | Calendar | 20 | 19 | 683 |
-| 4 | Juli bis Dezember | Vocab+Grammar | Bubble | Seasonal | 20 | 19 | 702 |
-| 5 | Der Anruf | Story+Vocab | Cinematic→Bubble | Phone Call | 22 | 20 | 722 |
-| 6 | Beim Arzt | Vocab+Comm | Bubble | Health | 20 | 18 | 740 |
-| 7 | Am Bürgeramt | Story+Vocab | Cinematic | KD's Desk | 22 | 19 | 759 |
-| 8 | Arbeit und Studium | Vocab+Comm | Bubble | Work | 22 | 21 | 780 |
-| 9 | Freizeit und Hobbys | Vocab+Comm | Bubble | Leisure | 20 | 19 | 799 |
-| 10 | Ein Fest planen | Vocab+Grammar | Bubble | Social | 20 | 19 | 818 |
-| 11 | Hildis Tee | Story+Review | Cinematic | Tea Milestone | 24 | 4 | 822 |
-| 12 | Alles auf Deutsch | Review+Comm | Mixed | Reflection | 25 | 0 | 822 |
-| **TOTAL** | | | | | **257** | **200 unique** | **822** |
+| 2 | Mein Tag | Vocab+Grammar | Bubble | Daily Routine | 31 | 29 | 673 |
+| 3 | Montag bis Sonntag | Vocabulary | Bubble | Calendar | 20 | 19 | 692 |
+| 4 | Juli bis Dezember | Vocab+Grammar | Bubble | Seasonal | 23 | 22 | 714 |
+| 5 | Der Anruf | Story+Vocab | Cinematic→Bubble | Phone Call | 29 | 27 | 741 |
+| 6 | Beim Arzt | Vocab+Comm | Bubble | Health | 23 | 21 | 762 |
+| 7 | Am Bürgeramt | Story+Vocab | Cinematic | KD's Desk | 24 | 21 | 783 |
+| 8 | Arbeit und Studium | Vocab+Comm | Bubble | Work | 36 | 35 | 818 |
+| 9 | Freizeit und Hobbys | Vocab+Comm | Bubble | Leisure | 36 | 33 | 851 |
+| 10 | Ein Fest planen | Vocab+Grammar | Bubble | Social | 22 | 21 | 872 |
+| 11 | Hildis Tee | Story+Review | Cinematic | Tea Milestone | 35 | 13 | 885 |
+| 12 | Alles auf Deutsch | Review+Comm | Mixed | Reflection | 25 | 0 | 885 |
+| **TOTAL** | | | | | **324** | **263 unique** | **885** |
 
 ---
 
 ## VOCABULARY ACCOUNTING
 
-**Master list entries**: 226 (as stated by user)
-**Actual unique words when enumerated**: 200 (besuchen appears in both life-verbs and social-verbs; the 28 categories total 201 entries with 1 duplicate)
-**Words assigned to teach cards**: 200 (all unique words)
+**Original master list entries**: 226 (original unit vocabulary)
+**Additional words added**: 63 (from Goethe gap analysis)
+**Total words with teach cards**: 263 (200 original unique + 63 added)
 **Unassigned words**: 0
 **PP55 compliance**: PASS — every word has a teach card in exactly one lesson
 
-**Note on the 226 vs 200 discrepancy**: The user's stated count of 226 does not match the enumerated words in the category lists, which total 201 entries (200 unique after removing the besuchen duplicate). This design accounts for all 200 unique words. If additional words were intended beyond what was enumerated, they would need to be specified.
+**Added words by lesson**:
+- L2 (+9): Wochentag, Moment, Nachmittag, Vormittag, Schluss, früher, pünktlich, später, zurzeit
+- L4 (+3): Frühjahr, Wind, scheinen
+- L5 (+7): Absender, Brief, Briefmarke, E-Mail, Fax, Postleitzahl, Wiederhören
+- L6 (+3): Doktor, wehtun, Gespräch
+- L7 (+2): wiederholen, Gespräch (also in L6 health context)
+- L8 (+14): Feierabend, Feiertag, Pause, Arbeitsplatz, Beamte, Job, Klasse, Kurs, Maschine, Schüler, Student, Unterricht, verdienen, studieren
+- L9 (+14): Kugelschreiber, Lieblingslied, Lied, Thema, fernsehen, schwimmen, tanzen, Rad fahren, mitmachen, lachen, gewinnen, treffen, Gruppe, Verein
+- L10 (+2): heiraten, wieder holen
+- L11 (+9): abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden
 
 ---
 
