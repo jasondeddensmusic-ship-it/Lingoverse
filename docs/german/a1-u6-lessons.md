@@ -359,7 +359,7 @@
 ## LESSON 8: "Arbeit und Studium" (Work and Study)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (work/study context)
 **Characters**: Verumius, Colleague (background)
-**Steps**: 36 | **New words**: 35 | **Cumulative**: 814
+**Steps**: 36 | **New words**: 35 | **Cumulative**: 818
 
 ### New Vocabulary (35 words)
 **work (12)**: Arbeit(die), Chef(der), Chefin(die), Firma(die), Geschäft(das), Kollege(der), Kollegin(die), Praktikum(das), Stelle(die), Studium(das), Universität(die), Urlaub(der)
@@ -421,7 +421,7 @@
 ## LESSON 9: "Freizeit und Hobbys" (Free Time and Hobbies)
 **Type**: Vocabulary + Communicative | **Mode**: Bubble | **Scene**: Daily Routine (leisure)
 **Characters**: Verumius (talking with Hildi about hobbies — pre-tea scene buildup)
-**Steps**: 36 | **New words**: 33 | **Cumulative**: 847
+**Steps**: 36 | **New words**: 33 | **Cumulative**: 851
 
 ### New Vocabulary (21 words)
 **hobbies (8)**: Buch(das), Film(der), Musik(die), Programm(das), Sendung(die), Spiel(das), Sport(der), Zeitung(die)
@@ -497,7 +497,7 @@ Let me recalculate. besuchen was in L8 life-verbs-batch-2. selbstständig was li
 ## LESSON 10: "Ein Fest planen" (Planning a Party)
 **Type**: Vocabulary + Grammar | **Mode**: Bubble | **Scene**: Social planning
 **Characters**: Verumius, Hildi (helping plan a small gathering)
-**Steps**: 22 | **New words**: 21 | **Cumulative**: 868
+**Steps**: 22 | **New words**: 21 | **Cumulative**: 872
 
 ### New Vocabulary (21 words)
 **social (7)**: Einladung(die), Fest(das), Feste(die/pl), Geburtstag(der), Hochzeit(die), Party(die), Veranstaltung(die)
