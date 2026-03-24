@@ -152,13 +152,13 @@ After all 6 complete, a VALIDATOR agent reads all 6 files and checks:
 - **Character arcs**: 3/6 FAIL (Heinrich 16-ep gap, Lukas 8+9-ep gaps, Yilmaz 7+9-ep gaps). 6 priority fixes documented. Mia only full PASS.
 - **No dead ends** from A1 into A2/B1/B2
 
-### Outstanding: Character Arc Fixes (6 items, not yet applied)
-1. Heinrich: Add 3 scenes (B1 wisdom x2, B2 health decline x1)
-2. Lukas: Add 4 cameos across two gaps
-3. Yilmaz B1: Add 2 appearances including Sie→du shift
-4. Hildi du offer: Move to B1 (U20-U21), attach to vulnerability revelation
-5. KD B2 digital: Add 1 café scene (U31-U32)
-6. Fix 1 completion: Add Yilmaz reference to U4 or U5
+### Character Arc Fixes — ALL APPLIED (2026-03-24)
+1. ✅ Heinrich: 3 scenes added (U16 phone wisdom, U23 Biergarten wisdom, U32 health decline)
+2. ✅ Lukas: 4 cameos added (U13 text, U15 platform, U27 group chat, U31 music school)
+3. ✅ Yilmaz B1: Sie→du shift scripted (U22 VHS corridor scene)
+4. ✅ Hildi du offer: Moved to U21, attached to vulnerability revelation (late husband Werner)
+5. ✅ KD B2 digital: Cafe scene added (U32, digitization frustration)
+6. ✅ Fix 1 completion: Yilmaz text exchange added to U4
 
 ## What Comes Next
 

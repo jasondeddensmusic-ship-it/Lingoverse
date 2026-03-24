@@ -165,8 +165,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Location**: Verumius's new apartment kitchen. Groceries spread on the counter. He is putting things away, matching German labels to items.
 - **Characters**: Verumius alone, arranging groceries.
 - **Verumius expression**: Proud (arms crossed, surveying his purchases with satisfaction)
-- **Teaching dynamic**: Review food vocabulary. Accusative case practice. Hook: Verumius realizes he forgot something and is hungry. Next episode: restaurant.
-- **Art**: "Small Berlin apartment kitchen, groceries spread on counter, German product labels visible, warm evening light from window, cozy and lived-in, candy-colored stylized illustration"
+- **Teaching dynamic**: Review food vocabulary. Accusative case practice. Hook: Verumius realizes he forgot something and is hungry. Next episode: restaurant. **Yilmaz callback**: Verumius texts Dr. Yilmaz a photo of his groceries with "Ich habe alles gefunden!" She replies: "Sehr gut! Aber... wo ist das Brot?" (foreshadowing Heinrich's bread obsession). Brief text exchange seeds dative preposition (im Supermarkt) naturally.
 
 ---
 
@@ -501,8 +500,8 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Location**: Verumius's apartment. He stares at his laptop. Email visible: "Sehr geehrter Herr Verumius, wir freuen uns, Ihnen mitzuteilen..." He got the job.
 - **Characters**: Verumius alone with laptop.
 - **Verumius expression**: Excited (fists up, sparkle eyes, reading the email)
-- **Teaching dynamic**: Formal register review. Konjunktiv II practice. Job vocabulary. Hook: first day of work tomorrow. New character world opens.
-- **Art**: "Berlin apartment desk with laptop showing email, evening light, excited atmosphere, warm lamplight on screen, personal celebration moment, candy-colored stylized illustration"
+- **Lukas text exchange** (CHARACTER ARC FIX): Verumius texts Lukas the news. Lukas replies with voice note: "Alter! Krass! Das mussen wir feiern. Freitag Kneipe?" Verumius: "Ja!" Lukas: "Ich bring meine Gitarre mit." (Seeds U24 guitar at the one-year celebration. Bridges Lukas's 8-episode gap U10-U17.)
+- **Teaching dynamic**: Formal register review. Konjunktiv II practice. Job vocabulary. Informal text register contrast (Lukas's voice note vs the formal email). Hook: first day of work tomorrow. New character world opens.
 
 ---
 
@@ -573,6 +572,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Location**: ICE train, night. Hamburg to Berlin. Window showing dark countryside with occasional village lights.
 - **Characters**: Verumius alone, notebook out, writing reflections.
 - **Verumius expression**: Proud (managed a professional trip in German)
+- **Lukas encounter** (CHARACTER ARC FIX): On the ICE platform at Berlin Hauptbahnhof, Verumius bumps into Lukas who is picking up a courier package. Quick exchange: Lukas asks "Wie war Hamburg?" Verumius: "Regnerisch." Lukas laughs: "Hamburg halt." They walk to the S-Bahn together. Bridges Lukas's U10-U17 gap.
 - **Teaching dynamic**: Review genitive, N-Deklination. Regional vocabulary (Moin vs Hallo, Brathering vs Currywurst). Hook: back in Berlin, neighbor conflict brewing.
 - **Art**: "ICE train interior at night, window showing dark countryside with distant lights, nighttime train atmosphere, reading lamp glow, quiet contemplative travel, candy-colored stylized illustration"
 
@@ -604,6 +604,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Hildi expression**: Judicial/fair (stern but balanced, mediating with legal precision)
 - **Mood**: Warm but formal. Hildi transforms her living room into a courtroom. The absurdity of a formal mediation over a drill is pure German comedy.
 - **Art**: "German living room set up as mediation space, three chairs arranged facing each other, tea set on table, thick rulebook open, formal yet domestic atmosphere, warm lamplight, candy-colored stylized illustration"
+
+#### Scene 3b: Heinrich's Phone Wisdom (bubble) — CHARACTER ARC FIX
+- **Location**: Hildi's kitchen (where Scene 3 mediation happened). After the neighbor leaves, Hildi calls Heinrich on speakerphone for a second opinion. Heinrich, nearly deaf, shouts warmly through the phone: "Nachbarn sind wie Brot. Man braucht sie jeden Tag!" (Neighbors are like bread. You need them every day!)
+- **Characters**: Hildi on speakerphone, Verumius listening. Heinrich's voice through the phone (warm, loud, amused).
+- **Heinrich expression**: (phone only, implied: Delighted/storytelling)
+- **Hildi expression**: Fond exasperation (holding phone at arm's length because he's shouting)
+- **Teaching dynamic**: Indirect speech reinforcement (Heinrich hat gesagt, dass...). Comparison structures (wie... so...). Conflict resolution wisdom. Bridges Heinrich's 16-episode gap (U9 to U28): he's present here as voice of wisdom, not just comic bread man.
 
 #### Scene 4: Jam Peace Offering (bubble)
 - **Location**: Stairwell. Verumius placing a jar of jam at the neighbor's door with a note: "Entschuldigung. Ihr Nachbar, Verumius." Small gesture, big German meaning.
@@ -786,6 +793,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Mood**: Hushed, sacred, pink-white interior light. The beauty of the columns and the weight of what happened here coexist. Most emotionally serious scene so far.
 - **Art**: "Nikolaikirche Leipzig interior, distinctive pink and white palm-leaf columns, soaring ceiling, soft light through tall windows, sacred peaceful atmosphere, historically significant church interior, candy-colored stylized illustration"
 
+#### Scene 3b: Hildi's Vulnerability + Du Offer (bubble) — CHARACTER ARC FIX
+- **Location**: Verumius's apartment stairwell, late evening. He returns from Leipzig. Hildi is sitting on the stairwell bench (unusual for her). She has been looking at old photos. She sees Verumius and, uncharacteristically, begins to talk. Her late husband, Werner, was from Leipzig. They used to visit the Nikolaikirche together. "Er hat immer gesagt, diese Kirche hat zwei Revolutionen uberlebt." Tears form but don't fall. Then, quietly: "Verumius... du kannst mich Hildi nennen. Werner hatte es auch so gewollt." (You can call me Hildi. Werner would have wanted it too.)
+- **Characters**: Hildi on the stairwell bench, photo album in her lap. Verumius standing, then sitting beside her.
+- **Verumius expression**: Surprised then Thinking (this is Hildi's most human moment)
+- **Hildi expression**: Vulnerable/warm (the stern facade drops for the first time, tears not falling, dignity preserved)
+- **Teaching dynamic**: Past tense narrative (Er hat gesagt... Wir sind oft gefahren...). Konjunktiv II of politeness (hatte gewollt). Emotional vocabulary (Erinnerung, Verlust, Freundschaft). The Sie→du shift as B1 communicative function: register change through emotional intimacy, not casual familiarity. This moves the du offer from U36 (too late, no emotional weight) to B1 where it belongs: earned through a year of shared stairwell life.
+
 #### Scene 4: Dinner in Leipzig (bubble)
 - **Location**: Traditional Leipzig restaurant. Leipziger Allerlei on the table. Mia speaking in Saxon dialect with the waiter (Verumius understands about 60%). She switches back to Hochdeutsch for him.
 - **Characters**: Mia and Verumius at dinner. Warmth after the heavy afternoon.
@@ -821,6 +835,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Verumius expression**: Thinking (both have a point)
 - **Mood**: Comedy of German consumer identity. The Bio-Markt is beautiful but expensive. The Discounter is chaotic but cheap. Both are valid.
 - **Art**: "Split composition: LEFT organic market (Bio-Markt) with artisanal produce, wooden crates, lavender, warm natural light; RIGHT discount supermarket with efficient bright aisles, bold price tags; contrasting shopping experiences, candy-colored stylized illustration"
+
+#### Scene 3c: Yilmaz's Private Du (bubble) — CHARACTER ARC FIX
+- **Location**: VHS corridor after class, evening. Most students have left. Yilmaz catches Verumius on his way out. She pauses, then: "Verumius... wir kennen uns jetzt seit fast einem Jahr. Du kannst ruhig du sagen." A quiet, private moment. No audience. The shift happens naturally: from Lehrerin to friend.
+- **Characters**: Yilmaz and Verumius alone in the hallway. Warm evening corridor light.
+- **Verumius expression**: Surprised then Happy (a milestone he did not expect)
+- **Yilmaz expression**: Warm/slightly vulnerable (offering the du is personal for her)
+- **Teaching dynamic**: Register shift in action. The Sie→du transition as a CEFR B1 communicative function (changing register with familiar people). Seeds the full first-name basis that arrives in B2. Bridges Yilmaz's U14-U22 gap and scripts the Sie→du shift the story bible promises for B1.
 
 #### Scene 4: Mia's Approval (bubble)
 - **Location**: Park bench. Mia and Verumius after work. She acknowledges his environmental growth: "Du bist ein richtiger Berliner geworden."
@@ -860,6 +881,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 #### Scene 4: Celebration (bubble)
 - **Location**: Biergarten. Full cast. Hildi has brought a cake (she baked it herself, first time she's brought food to a social event outside her apartment). "B1 BESTANDEN" written in icing.
 - **Characters**: Full cast around a table. Hildi with cake. Lukas with beer. Mia with a small gift (a book). Yilmaz raising a glass.
+- **Heinrich moment** (CHARACTER ARC FIX): Heinrich arrives late with a loaf of his best Sauerteigbrot, wrapped in cloth. He claps Verumius on the shoulder: "Prufungen kommen und gehen. Aber Brot bleibt." (Exams come and go. But bread stays.) Everyone laughs. Heinrich then tells a story about failing his own Meisterprufung (master baker exam) the first time, sixty years ago. "Beim zweiten Mal war das Brot besser." Warm, wise, funny. Closes Heinrich's 16-episode gap with his second B1 wisdom appearance.
 - **Verumius expression**: Happy (overwhelmed with gratitude, looking at his people)
 - **Teaching dynamic**: Review B1 vocabulary. Gratitude expressions. Emotional vocabulary. Hook: one year in Germany. Time to look back.
 - **Art**: "Biergarten celebration scene, long wooden table with cake, beer steins, gifts, fairy lights in chestnut trees, warm summer evening celebration, group gathering atmosphere, candy-colored stylized illustration"
@@ -1007,6 +1029,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Location**: Office Kaffeekuche. Colleagues congratulating Verumius. Mia: "Siehst du? Ich hab's dir doch gesagt."
 - **Characters**: Verumius with colleagues. Mia with her "I told you so" face.
 - **Verumius expression**: Happy (professional validation, belonging)
+- **Lukas group chat** (CHARACTER ARC FIX): Verumius shares the presentation success in the group chat. Lukas sends a voice note: "Der romische Aquadukt? Hahaha, typisch Verumius. Ubrigens, die Musikschule lauft. Erste Schuler!" This seeds Lukas's music school arc (payoff in U31-U32) and bridges the U25-U33 gap.
 - **Mia expression**: Smug/warm (she coached him and it worked)
 - **Teaching dynamic**: Review presentation vocabulary. Conditional clauses practice. Hook: this weekend, visiting Opa Heinrich. He has stories to tell.
 - **Art**: "Office kitchen area, after-work casual drinks, colleagues standing around, congratulatory atmosphere, end-of-day warm office light, candy-colored stylized illustration"
@@ -1149,6 +1172,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Mood**: Autumn afternoon. Warm but with a chill. The conversation is deep, personal, grown-up. Their friendship has reached a new level.
 - **Art**: "Berlin park autumn walk, fallen leaves on path, trees with golden foliage, afternoon autumn light, two people walking, reflective autumn atmosphere, candy-colored stylized illustration"
 
+#### Scene 3b: Lukas's Music School (bubble) — CHARACTER ARC FIX
+- **Location**: Small Berlin Hinterhof studio. Lukas has converted a garage into a music school for neighborhood kids. Hand-painted sign: "Klangwerkstatt Kreuzberg." Two guitars, a keyboard, children's drawings on the wall. Verumius visits.
+- **Characters**: Lukas in his element (teacher, not courier). Verumius visiting, impressed.
+- **Verumius expression**: Proud (his friend has grown too)
+- **Lukas expression**: Passionate/proud (showing his space, this is his real dream)
+- **Teaching dynamic**: Nomen-Verb-Verbindungen in context (einen Traum verwirklichen, Unterricht geben, Fortschritte machen). Career vocabulary. Contrast: Lukas's informal teaching style vs Verumius's formal office world. Payoff of the music school seeds from U24 and U27 group chat. Bridges Lukas's U25-U33 gap.
+
 #### Scene 4: Understanding the System (bubble)
 - **Location**: Verumius's apartment, evening. He creates a mind-map of the German social/economic system. Steuern, Rente, Krankenversicherung, Kindergeld, all connected.
 - **Characters**: Verumius alone, creating his map.
@@ -1170,6 +1200,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Mood**: Hushed museum reverence. Golden filtered light through high windows. Art and history as backdrop for identity questions.
 - **Art**: "Berlin Neues Museum interior, grand gallery hall with high ceilings, classical architecture, display cases, filtered daylight through arched windows, museum atmosphere, cultural grandeur, candy-colored stylized illustration"
 
+#### Scene 1b: Reading to Heinrich (bubble) — CHARACTER ARC FIX
+- **Location**: Heinrich's small apartment. Warm, cluttered with baking memorabilia. Bread awards on the wall. A flour-dusted apron hanging on a hook. Heinrich is in his armchair, blanket over his knees. His hearing is worse. Verumius sits beside him, reading Die Zeit aloud. Heinrich listens, eyes closed, occasionally correcting Verumius's pronunciation: "Nicht Wirtschaft. WIRT-schaft. Die Betonung!"
+- **Characters**: Heinrich in armchair (frailer but still sharp). Verumius reading newspaper aloud.
+- **Verumius expression**: Thinking (gentle care, reading slowly and clearly)
+- **Heinrich expression**: Content/nostalgic (eyes closed, listening, correcting, still teaching even now)
+- **Teaching dynamic**: Feste Nomen-Verb-Verbindungen from the newspaper (eine Entscheidung treffen, in Kraft treten). Heinrich's corrections model pronunciation at B2 level. Emotional subtext: health decline is visible but not discussed directly. Heinrich still has his wit. The relationship has reversed: Verumius now brings the world to Heinrich, who once brought bread to the world. Closes Heinrich's 16-episode gap with the B2 health-decline beat.
+
 #### Scene 2: Identity Discussion (bubble)
 - **Location**: Museum cafe. Coffee and cake. The conversation deepens: Yilmaz talks about being Turkish-German, the Hyphen identity. Verumius talks about being from everywhere and nowhere.
 - **Characters**: Yilmaz and Verumius in deep conversation.
@@ -1186,6 +1223,13 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Yilmaz expression**: Thoughtful (bridging perspectives)
 - **Mood**: Warm dinner light, passionate discussion. Three people from different worlds finding common ground in German.
 - **Art**: "Berlin apartment dinner table, evening dinner setting, three place settings, candles, wine glasses, animated dinner discussion atmosphere, warm intimate evening light, candy-colored stylized illustration"
+
+#### Scene 3b: KD at the Cafe (bubble) — CHARACTER ARC FIX
+- **Location**: Neighborhood cafe (same as U20 Scene 2). KD in casual clothes again. But this time he is frustrated: his Burgeramt department is being digitized. Paper forms are going online. KD holds his phone like it's a grenade: "Digitalisierung. Alles soll jetzt digital sein. Aber wissen Sie, was passiert, wenn der Server abstürzt? Nichts. Gar nichts. Papier stürzt nicht ab." (Digitization. Everything should be digital now. But you know what happens when the server crashes? Nothing. Paper doesn't crash.)
+- **Characters**: KD frustrated but dignified. Verumius listening, helping him navigate the new system on a tablet.
+- **Verumius expression**: Happy (helping KD the way KD once helped him)
+- **KD expression**: Frustrated then Grudgingly accepting (he'll adapt, but he'll complain about it)
+- **Teaching dynamic**: Verweisworter in context (dieser neue Prozess, solche Anderungen). Technology vs tradition vocabulary. Role reversal: Verumius now helps KD navigate, mirroring how KD helped Verumius navigate bureaucracy in U6/U12. Scripts KD's B2 digital adaptation arc.
 
 #### Scene 4: Night Walk (bubble)
 - **Location**: Berlin at night. Verumius walking home alone, processing the evening. Passing familiar landmarks: the Spati, the U-Bahn entrance, the Doner stand from U2. All familiar now.
@@ -1303,7 +1347,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 
 ### Unit 36: Zuhause -- "Du Bist Du, Auf Deutsch"
 
-**Episode summary**: Dinner party at Verumius's apartment. Everyone comes. The full cast together for the first time. Hildi uses his first name (milestone: from Sie to du, then to first name). KD arrives late (he had paperwork). Heinrich brings sourdough starter as a gift (the most personal thing a baker can give). Yilmaz's final words: "Du bist du, auf Deutsch." Fix #2 completion: Hildi uses the tablet to show photos of her late husband.
+**Episode summary**: Dinner party at Verumius's apartment. Everyone comes. The full cast together for the first time. Hildi calls him by first name warmly in front of everyone (the du was offered privately in U21, but using his name publicly at the dinner table is the final wall falling). KD arrives late (he had paperwork). Heinrich brings sourdough starter as a gift (the most personal thing a baker can give). Yilmaz's final words: "Du bist du, auf Deutsch." Fix #2 completion: Hildi uses the tablet to show photos of her late husband Werner.
 
 #### Scene 1: Preparation (cinematic)
 - **Location**: Verumius's apartment, transformed for a dinner party. He has cooked (probably Roman food). The apartment that was empty in U3 is now full of life: books, plants (Hildi-watered), photos on the wall, the corkboard full of documents and memories.
@@ -1321,7 +1365,7 @@ All scenes use `--sref` (style reference) locked to VerumLingua moodboard: candy
 - **Art**: "Berlin apartment doorway, multiple arrival moments, gifts being presented, warm hallway light, welcoming domestic atmosphere, candy-colored stylized illustration"
 
 #### Scene 3: The Dinner (cinematic)
-- **Location**: Verumius's apartment, dinner in full swing. Everyone at the table. Hildi uses Verumius's first name for the first time ("Verumius... der Wein ist gut."). The table goes quiet. Mia grins. Lukas raises his glass. KD arrives through the open door, holding a small cactus (another one for the collection), slightly out of breath from rushing. Fix #2: Hildi shows photos of her late husband on the tablet Verumius taught her to use.
+- **Location**: Verumius's apartment, dinner in full swing. Everyone at the table. Hildi uses Verumius's first name warmly and publicly ("Verumius... der Wein ist gut."). The table goes quiet: the private du from U21 has become public belonging. Mia grins. Lukas raises his glass. KD arrives through the open door, holding a small cactus (another one for the collection), slightly out of breath from rushing. Fix #2 completion: Hildi shows photos of Werner on the tablet Verumius taught her to use (callback to U21 vulnerability scene).
 - **Characters**: Full cast at table. KD in the doorway.
 - **Verumius expression**: Surprised then Happy (Hildi used his name!)
 - **Hildi expression**: Warm/emotional (the name is the final barrier falling)
