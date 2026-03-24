@@ -1143,7 +1143,7 @@ My lesson plan assigns all 200 unique words. **The plan is complete.**
 Now let me finish Lessons 11 and 12.
 
 ### LESSON 11 (Revised): "Hildis Tee"
-**Steps**: 35 | **New words**: 13 (automatisch, kulturell, tot, Lösung + abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden) | **Cumulative**: 881
+**Steps**: 35 | **New words**: 13 (automatisch, kulturell, tot, Lösung + abgeben, anklicken, ankreuzen, drücken, kümmern, aus sein, weg sein, zu sein, werden) | **Cumulative**: 885
 
 ### Grammar
 - #22 Präteritum CONSOLIDATION: Full narrative using war/hatte throughout
@@ -1198,7 +1198,7 @@ Now let me finish Lessons 11 and 12.
 ## LESSON 12: "Alles auf Deutsch" — Unit Review & Communicative Mastery
 **Type**: Grammar Review + Communicative Functions Consolidation | **Mode**: Mixed (Bubble + Quiz)
 **Characters**: Verumius (reflecting on his A1 journey)
-**Steps**: 25 | **New words**: 0 (all words taught; this is pure review + communicative practice) | **Cumulative**: 881
+**Steps**: 25 | **New words**: 0 (all words taught; this is pure review + communicative practice) | **Cumulative**: 885
 
 ### Grammar
 - ALL 3 new constructs reviewed: #22 Präteritum sein/haben, #26 time expressions (full: am/im/um/seit + ordinal dates), #5 imperative expanded
