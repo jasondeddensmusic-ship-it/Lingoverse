@@ -1112,6 +1112,81 @@ When writing curriculum unit content (the actual JS lesson data), the main sessi
 ### Why Rule 18 Exists
 In March 2026, the German A1 U3-U6 content writing task failed twice with agent-based approaches: (1) worktree agents timed out on large file reads, (2) single agents writing full units timed out after 30+ minutes. The session that succeeded wrote all 36 lessons (766 steps) across 4 units in a single session by writing directly to temp files, one lesson at a time. The main session wrote U3 (8 lessons), U4 (8 lessons), U5 L5-L8 + L4, and U6 (12 lessons) directly. One background agent contributed U5 L1-L3 before timing out on response (but all files were delivered). Total time: under 2 hours for 766 steps. The direct-write approach is 5-10x faster than agent delegation for curriculum content because: (a) no agent startup overhead, (b) no file read failures, (c) no context window exhaustion, (d) immediate error detection, (e) continuous progress instead of all-or-nothing agent bets.
 
+### Rule 19: Goethe Word List Verification DURING Build (2026-03-25) - NON-NEGOTIABLE
+Every curriculum build session MUST cross-check teach card nl values against the official Goethe word list AS LESSONS ARE WRITTEN, not in a post-build audit.
+
+1. **Before building any unit**, load the Goethe word list for that level (from `docs/german/goethe-a{1,2}.json` or `docs/german/a{1,2}-vocabulary-mapping.md`). Every word assigned to that unit MUST get a teach card.
+2. **After assembling each unit**, run a grep comparing the unit's teach card nl values against the assigned Goethe words. Any gap is fixed BEFORE merging.
+3. **After merging all units**, run a full-file Goethe comparison. Zero gaps.
+4. **Post-build audit is a SAFETY NET, not the primary check.** The German A2 build shipped with 59 missing Goethe words because no agent checked during build. The post-build audit caught them, but fixing 59 gaps after assembly is 5x more work than preventing them.
+
+### Why Rule 19 Exists
+The German A2 build (2026-03-25) deployed agents to write 50 lessons with 607 Goethe A2 words. No agent was given the actual Goethe word list. They were told "teach these 10 words" per lesson but had no way to verify completeness. Result: 59 words fell through the cracks (agents wrote teach cards for some words but skipped others, especially in large vocab lessons). The post-build PP55 audit caught this, requiring a full remediation pass. If each agent had been given the Goethe word list for their unit and told "verify ALL these words have teach cards before returning," the gap would have been zero.
+
+### Rule 20: Max 20 New Vocabulary Words Per Agent Lesson (2026-03-25) - MANDATORY
+When deploying agents to write individual lessons, never assign more than 20 new vocabulary words to a single agent.
+
+1. **20 words is the hard cap.** Agents that receive 30+ words reliably die or produce incomplete output. The German A2 U9 L8 agent (42 words) and U12 L10 agent (38 words) both timed out. The main session had to write these directly.
+2. **If a lesson needs 25+ words**, split into two lessons or have the main session write it directly.
+3. **Heavy vocab lessons (20+ words) should be written by the main session**, not agents. Agents are better for 8-15 word lessons with grammar and story content.
+
+### Why Rule 20 Exists
+Two agent deaths in the German A2 build, both on lessons with 38+ words. Each death cost 15+ minutes of waiting before the main session could write a replacement. Smaller lessons (8-14 words) had a 100% agent success rate.
+
+### Rule 21: No Concurrent Edits on Same File (2026-03-25) - MANDATORY
+Never deploy 3+ agents that all edit the same file simultaneously. Maximum 2 agents on strictly non-overlapping line ranges.
+
+1. **Fix agents editing the same file WILL create syntax errors.** The German A2 fix pass deployed 3 agents on U7-U8, U9-U10, U11-U12 of the same file. They introduced literal newlines inside JS strings, breaking the build.
+2. **For fix passes**, deploy agents sequentially (one finishes before next starts) or have them write to temp files that the main session merges.
+3. **The only safe concurrent edit** is 2 agents on completely separate line ranges with a buffer zone of 50+ lines between them.
+
+### Why Rule 21 Exists
+The German A2 remediation pass deployed 3 concurrent fix agents. All 3 edited `units-german-v2.js`. The agents' Edit tool calls conflicted, inserting literal newlines inside JavaScript string literals. The build broke. A Python script had to scan and fix all broken strings. Sequential deployment would have avoided this entirely.
+
+### Rule 22: PP8 Hint-Leak Scan Before Every Commit (2026-03-25) - MANDATORY
+After assembling lessons and before committing, run an automated scan: for every fb and drag_fill step, check if the hint text contains the answer word.
+
+1. **Script**: For each fb step, extract `a` (answer) and `hint`. If hint contains any word from `a`, flag it.
+2. **For mc steps**: Check if `q` (question) contains `ans`. Flag visual leaks.
+3. **This takes 5 seconds to run.** There is no excuse for shipping hint leaks.
+
+### Why Rule 22 Exists
+The German A2 build shipped with 11 hint leaks (answer word literally appearing in the hint text) and 8 visual leaks. A 5-line grep script would have caught all of them before the first commit. Instead, a full PP8 audit agent had to run for 8 minutes to find them, then a fix agent for another 4 minutes, then a re-audit for another 5 minutes. 17 minutes of audit/fix work that a pre-commit scan would have prevented.
+
+### Rule 23: Verify A1 Vocabulary Before Any A2+ Quiz (2026-03-25) - MANDATORY
+Before building A2+ content, verify that basic A1 vocabulary (Stadt, Mensch, Freund, schon, Herz, etc.) actually has teach cards. Do not ASSUME A1 is complete.
+
+1. **Run the Goethe A1 word list check** before starting A2 build.
+2. **Common words are the most dangerous gaps.** Words like "Stadt" (city), "Mensch" (person), "Freund" (friend) seem so basic that agents assume they were taught in A1. If they weren't, every A2+ quiz using them is a PP52 violation.
+3. **The PP52 audit found 42 violations** in German A2. Many were basic A1 words that had no teach card anywhere.
+
+### Why Rule 23 Exists
+The German A2 PP52 audit found that "Stadt" (city), "Mensch" (person), "Freund" (friend), "schon" (beautiful), and "Herz" (heart) had no teach cards in A1. These are among the most common German words, used constantly in A2 quizzes. The A1 build (PR #76) was never audited against the Goethe A1 word list. The assumption that "basic words are obviously taught" was wrong. 30 teach cards had to be added retroactively across A1 and A2. A pre-build A1 audit would have caught this in 2 minutes.
+
+### Rule 24: V1 Content Must Be Salvaged, Not Ignored (2026-03-25) - MANDATORY
+When building v2 content for a language that already has v1 content, the v1 content MUST be systematically checked for reusable material before writing new content.
+
+1. **V1 verb tables**: Check if v1 has verb conjugation tables for the same grammar constructs. Port them if they're accurate.
+2. **V1 tip cards**: Check if v1 has grammar explanations. Reuse good explanations rather than writing new ones from scratch.
+3. **V1 dialogues**: Check if v1 teach cards have A:/B: dialogues for words that v2 also teaches. Use the existing dialogue if it's good quality.
+4. **Document what was salvaged and what was rewritten.** Every build session must report: "X verb tables ported from v1, Y tip cards reused, Z dialogues recycled, W items rewritten because [quality/format reason]."
+
+### Why Rule 24 Exists
+The German v1 has 1,444 teach cards, 19 verb tables, and 70 tip cards. The German A2 v2 build wrote ALL content from scratch without checking v1. The post-build salvage audit found that v1 only covered 8.8% of Goethe A2 vocabulary (so rebuilding was justified), but the 19 verb tables and 70 grammar tip cards could have been ported directly, saving significant agent time. The owner's principle is "salvage everything, throw away nothing" (Principle 29). Future builds MUST check v1 first.
+
+### Rule 25: THIS IS NOT A GAME (2026-03-25) - THE MOST IMPORTANT RULE
+This is a real product serving real language learners. Every lesson, every teach card, every quiz step must be written as if a student's exam score depends on it, because it does.
+
+1. **No sloppy first passes with "we'll fix it in audit."** Build it right the first time. The audit is a safety net, not a cleanup crew.
+2. **No assumptions about what "probably exists."** Grep the code. Verify with evidence. If you can't prove a word has a teach card, it doesn't.
+3. **No cutting corners on large vocab lessons.** If an agent can't handle 40 words, split the work. Don't ship incomplete lessons.
+4. **No shipping without validation.** Every commit must pass: syntax check, build check, density check, PP48 scan, PP22c scan. These take 30 seconds total.
+5. **The owner is not a coder.** They trust the agents to get it right. Every leaked hint, every missing word, every broken step is a betrayal of that trust. The pipeline exists because humans can't manually verify 2,600+ steps across 100+ lessons. The PROCESS must guarantee quality. If it doesn't, we failed.
+6. **Certification-grade means certification-grade.** A learner completing LingoVerse A1-B2 must be able to pass the Goethe exam. Not "most of it." ALL of it. Every word on the official list. Every grammar construct. Every communicative function. Zero gaps.
+
+### Why Rule 25 Exists
+The German A2 build session (2026-03-25) built 50 lessons with 1,382 steps in under 3 hours. Fast. But the first audit found 59 missing vocabulary words, 23 teach-before-use violations, 19 critical PP8 leaks, and 20 pattern leaks. The remediation took another 2 hours. Total: 5 hours instead of the 3.5 it would have taken to build correctly the first time. Speed without quality is waste. The owner called the first pass "sloppy" and they were right. This rule ensures every future session treats the curriculum with the seriousness it deserves.
+
 ---
 
 ## Memory & Decision Tracking (MANDATORY)
@@ -1193,9 +1268,28 @@ German is PRODUCTION-READY. Built from scratch in D103:
 
 **verb_table crash fix (2026-03-19)**: 28 German verb_tables used array-of-arrays row format instead of object format, crashing the renderer. Fixed by normalizing all formats in the verb_table renderer.
 
-**German v2 A1 COMPLETE (2026-03-24, PR #76)**: 6 units, 44 lessons, 932+ steps in `units-german-v2.js`. Written using Rule 18 (direct-write to temp files). Story arc: Verumius arrives at BER, gets lost, finds apartment with Hildi, shops at REWE, eats with Lukas, navigates bureaucracy. All approved lesson designs from `docs/german/a1-u{1-6}-lessons.md` implemented. Grammar: 27 A1 constructs covered (Präsens, separable verbs, possessives, accusative, kein/nicht, DOGFU, demonstratives, imperative, 6 modals, 7 dative prepositions, war/hatte, time expressions). PP48=0, PP49=0, board:true=44/44, density 18+ all lessons, build PASS.
+**German v2 A1 (2026-03-24, PR #76)**: 6 units, 44 lessons, 932+ steps. Story arc: Verumius at BER, lost in Berlin, apartment with Hildi, REWE, Lukas, bureaucracy. Grammar: 27 A1 constructs. PP48=0, PP49=0, board:true=44/44. **KNOWN ISSUES**: 4 under-dense lessons (deu_r2l1:15, deu_r3l1:14, deu_r3l8:16, deu_r4l1:14). NOT audited against Goethe A1 word list (848 words). PP52 teach-before-use NOT verified for A1 standalone. A1 CANNOT be marked complete until these are fixed.
 
-**German needs concept-driven re-evaluation.** CEFR distribution flagged (D110): 8-8-7-6 was template-based. German rehaul plan (D119) proposes 36 units with 6-6-12-12 based on 116 catalogued grammar constructs. Deep PP52 teach-before-use verification not yet done. **V2 A1 is the first phase of this re-evaluation.**
+**German v2 A2 COMPLETE + FULLY AUDITED (2026-03-25, PR #80)**: 6 units (U7-U12), 50 lessons, 1,382 steps. Story arc: Arztbesuch, Müllprofessor, Vereinskultur, Deutsche Bahn, Weihnachtsmarkt, Halbjahresbilanz. Grammar: 25/25 A2 constructs formally taught and practiced. Vocabulary: 606/607 Goethe A2 words (99.8%). FULL AUDIT RESULTS:
+- PP55 Vocabulary: PASS (99.8%, 606/607 Goethe words)
+- PP52 Teach-before-use: PASS (0 violations after 3 fix rounds)
+- PP8 Anti-Leak: PASS (0 severe violations)
+- PP57 Grammar: CONDITIONAL PASS (25/25 taught+practiced, 9 recycling deferred to B1)
+- Structural: PASS (all required fields, unit ordering, board:true 50/50)
+- PP48/PP22c/PP49: PASS (0 violations)
+- Build: PASS
+Total file after A1+A2: 12 units, 102 lessons, 2,636 steps, 1,075 teach cards.
+
+**V1 salvage status**: V1 German has 1,444 teach cards, 19 verb tables, 70 tip cards. V1 A2 only covered 8.8% of Goethe A2 vocab (54/616 words), so v2 rebuild was justified. V1 verb tables and tip cards NOT yet systematically ported to v2. 377 V1 dialogues available for enrichment. Salvage is PENDING per Rule 24.
+
+**German rehaul plan (D119)**: 36 units total with 6-6-12-12 distribution (A1-A2-B1-B2) based on 116 catalogued grammar constructs. B1: 12 units (U13-U24), 33 constructs, 1,843 Goethe B1 words. B2: 12 units (U25-U36), 33 constructs, ~2,000 estimated words. Full planning docs in `docs/german/cross-level-allocation.md`.
+
+**NEXT ACTIONS (in order)**:
+1. Fix A1: audit against Goethe A1 list, fix 4 under-dense lessons, verify PP52
+2. V1 salvage: port verb tables and tip cards to v2 where applicable
+3. B1 lesson design (U13-U24)
+4. B1 content build using Rules 19-25
+5. B2 lesson design + build
 
 ### DONE (French A1-B2 = Pipeline-Polished, Distribution Flagged)
 French is PRODUCTION-READY. Built from scratch in D105:
@@ -1326,3 +1420,10 @@ Every language expansion MUST follow this workflow (updated for rehaul format):
 31. **Article + noun ALWAYS in gender color on teach cards.** For every gendered language, the headword display shows both article and noun in the same gender color. der Hund (blue), die Katze (crimson), das Buch (green), le livre (blue), la maison (crimson), el libro (blue), la casa (crimson), de hond (blue), het boek (gold). Non-gendered languages skip this. (Vision doc Section 2.2b, 2026-03-24)
 32. **Every word in every sentence is grammar-tagged.** POS, sub-category, syntactic function, morphological info. Powers color system, sentence breakdown, grammar deep dives. Can be done retroactively on existing content. New content tagged from day one. Learner taps any word, sees why it's colored and what it does. (P59, Vision doc Section 2.2c, 2026-03-24)
 33. **Write curriculum content directly to temp files. Never delegate full units to agents.** One lesson per temp file, assemble into unit, merge into main file via script. Agents may write parallel temp files for non-overlapping lessons. This approach wrote 36 lessons (766 steps) in under 2 hours. Agent-based approaches timed out 3 times on the same task. Direct-write is 5-10x faster, 100% reliable. (Rule 18, 2026-03-24)
+34. **Verify Goethe word list coverage DURING build, not after.** Every agent gets the Goethe word list for their unit. Every unit is checked against the list before merging. Post-build audit is a safety net, not the primary check. The A2 build shipped 59 missing words because nobody checked during build. (Rule 19, 2026-03-25)
+35. **Max 20 new vocab words per agent lesson.** Agents die on 30+ word lessons. Split or write directly. The A2 U9 L8 (42 words) and U12 L10 (38 words) agents both timed out. (Rule 20, 2026-03-25)
+36. **No concurrent edits on the same file by 3+ agents.** Max 2 on non-overlapping ranges. Three concurrent fix agents broke the build with literal newlines in strings. (Rule 21, 2026-03-25)
+37. **Run PP8 hint-leak scan before every commit.** 5-second grep: does any hint contain its answer word? The A2 build shipped 11 hint leaks that a pre-commit scan would have caught instantly. (Rule 22, 2026-03-25)
+38. **Verify A1 vocabulary exists before building A2+.** Don't assume basic words like Stadt, Mensch, Freund have teach cards. Grep and verify. The A2 PP52 audit found 42 violations, many from A1 words that were never taught. (Rule 23, 2026-03-25)
+39. **Salvage V1 content before writing V2 from scratch.** Check V1 verb tables, tip cards, and dialogues. Port what's good, rewrite what's not. Document what was salvaged. The owner's principle: "salvage everything, throw away nothing." (Rule 24, 2026-03-25)
+40. **This is not a game.** Every lesson, every teach card, every quiz step must be written as if a student's exam score depends on it. No sloppy first passes. No assumptions. No shortcuts. Build it right the first time. The audit is a safety net, not a cleanup crew. (Rule 25, 2026-03-25)
