@@ -6102,7 +6102,40 @@ function Onboarding({onComplete}){
 
 
 // ━━━━━━━━━━ CURRICULUM DATA — imported from src/data/ modules ━━━━━━━━━━
-const UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+// ── FIELD NORMALIZATION: support both legacy nl/en AND new trg/src ──
+// After migration, old field names can be removed. Until then, both coexist.
+function _normStep(st){
+  if(!st)return st;
+  if(st.trg===undefined&&st.nl!==undefined)st.trg=st.nl;
+  if(st.src===undefined&&st.en!==undefined)st.src=st.en;
+  if(st.nl===undefined&&st.trg!==undefined)st.nl=st.trg;
+  if(st.en===undefined&&st.src!==undefined)st.en=st.src;
+  if(st.exampleSrc===undefined&&st.exampleEn!==undefined)st.exampleSrc=st.exampleEn;
+  if(st.exampleEn===undefined&&st.exampleSrc!==undefined)st.exampleEn=st.exampleSrc;
+  if(st.pairs)st.pairs.forEach(p=>{
+    if(p.trg===undefined&&p.nl!==undefined)p.trg=p.nl;
+    if(p.src===undefined&&p.en!==undefined)p.src=p.en;
+    if(p.nl===undefined&&p.trg!==undefined)p.nl=p.trg;
+    if(p.en===undefined&&p.src!==undefined)p.en=p.src;
+  });
+  // verb_table rows: normalize en↔src on row objects
+  if(st.groups)st.groups.forEach(g=>{
+    if(g.rows)g.rows.forEach(r=>{
+      if(!Array.isArray(r)){
+        if(r.src===undefined&&r.en!==undefined)r.src=r.en;
+        if(r.en===undefined&&r.src!==undefined)r.en=r.src;
+      }
+    });
+  });
+  return st;
+}
+const UNITS=_RAW_UNITS.map(u=>{
+  if(!u||!u.lessons)return u;
+  u.lessons.forEach(l=>{if(l.steps)l.steps.forEach(_normStep);});
+  if(!u.srcLang)u.srcLang="en";
+  return u;
+});
 
 // ── CURRICULUM SEARCH (D113) ──
 // Korean romanization tables (Revised Romanization of Korean)
@@ -10357,7 +10390,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // Neuroscience: elaborative encoding (cognates), Von Restorff (also-means stands out),
   // dual coding (color-coded word type), curiosity gap (polysemy reveal)
   if(st.type==="teach" && boardMode) {
-    const art=getArticle(st.nl,lang);const c=ARTICLE_COLORS[art];
+    if(!st.nl&&st.trg){st.nl=st.trg;st.en=st.src;st.exampleEn=st.exampleSrc;} // HMR resilience
+    const _nl=st.nl||st.trg||"";
+    const art=getArticle(_nl,lang);const c=ARTICLE_COLORS[art]||ARTICLE_COLORS.none;
     const accentColor=isNew?"#7B5EE8":"var(--gray-300)";
     const noteHl=(text)=>universalHl(text, lang);
     const exHl=(t)=>universalHl(t, lang);
@@ -10366,7 +10401,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // Force purple for non-ASCII letters, otherwise noun stays dark, article gets color
     const nlColor = isScript ? "#7B5EE8" : "var(--gray-800)";
     // Split word into article + noun for color-coded display
-    const artWord = art!=="none" && !isScript ? st.nl.split(/\s(.+)/) : null; // ["de","man",""]
+    const artWord = art!=="none" && !isScript ? _nl.split(/\s(.+)/) : null;
     return(
     <div className="anim" key={si}>
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
@@ -10391,14 +10426,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>
           </div>
 
-          {/* The word/letter — big, centered, article color-coded */}
+          {/* The word/letter — big, centered, article ALWAYS color-coded on teach cards */}
           <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
-            {art!=="none"&&<div style={{marginBottom:4}}><span style={{fontSize:11,fontWeight:800,color:c.pillText,background:c.pill,borderRadius:6,padding:"2px 10px",letterSpacing:1}}>{art.toUpperCase()}</span></div>}
             <div style={{marginBottom:6}}>
               {artWord&&artWord[1] ? (
                 <span className="hd" style={{fontSize:nlSize,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
                   <span style={{color:c.pillText}}>{cap(artWord[0])}</span>{" "}
-                  <span style={{color: grammarHl ? c.pillText : "var(--gray-800)"}}>{artWord[1]}</span>
+                  <span style={{color:c.pillText}}>{artWord[1]}</span>
                 </span>
               ) : (
                 <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{st.nl}</span>
@@ -10714,8 +10748,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 <div style={{marginBottom:10}}>
                   <span className="hd" style={{fontSize:56,fontWeight:800,color:"var(--purple-accent-text)",lineHeight:1.1}}>{st.nl}</span>
                 </div>
-              </>):(()=>{const art=getArticle(st.nl,lang);const c=ARTICLE_COLORS[art];return(<>
-                {art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:12,fontWeight:800,borderRadius:10,padding:"3px 14px",textTransform:"uppercase",letterSpacing:1.5}}>{art}</span></div>}
+              </>):(()=>{const art=getArticle(st.nl,lang);const c=ARTICLE_COLORS[art];const aw=art!=="none"?st.nl.split(/\s(.+)/):null;return(<>
                 <div style={{display:"inline-block",background:c.bg,borderRadius:18,padding:"12px 32px",boxShadow:`0 4px 16px ${c.shadow}`,marginBottom:10}}>
                   <span className="hd" style={{fontSize:letterSize,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(st.nl)}</span>
                 </div>
@@ -10768,7 +10801,6 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 <span className="hd" style={{fontSize:48,fontWeight:800,color:"var(--purple-accent-text)",lineHeight:1.1}}>{st.nl}</span>
               </div>
             </>):(()=>{const art=getArticle(st.nl,lang);const c=ARTICLE_COLORS[art];return(<>
-              {art!=="none"&&<div style={{marginBottom:4}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:10,fontWeight:800,borderRadius:8,padding:"2px 10px",textTransform:"uppercase",letterSpacing:1}}>{art}</span></div>}
               <div style={{display:"inline-block",background:c.bg,borderRadius:16,padding:"10px 28px",boxShadow:`0 4px 14px ${c.shadow}`}}>
                 <span className="hd" style={{fontSize:32,fontWeight:800,color:"white"}}>{cap(st.nl)}</span>
               </div>
