@@ -10390,9 +10390,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // Neuroscience: elaborative encoding (cognates), Von Restorff (also-means stands out),
   // dual coding (color-coded word type), curiosity gap (polysemy reveal)
   if(st.type==="teach" && boardMode) {
-    if(!st.nl&&st.trg){st.nl=st.trg;st.en=st.src;st.exampleEn=st.exampleSrc;} // HMR resilience
-    const _nl=st.nl||st.trg||"";
-    const art=getArticle(_nl,lang);const c=ARTICLE_COLORS[art]||ARTICLE_COLORS.none;
+    // Ensure nl/en aliases exist (field rename: trg/src is the new canonical format)
+    if(st.trg!==undefined&&st.nl===undefined){st.nl=st.trg;st.en=st.src;st.exampleEn=st.exampleSrc;}
+    const _word=st.trg||st.nl||"";const _trans=st.src||st.en||"";
+    const art=getArticle(_word,lang);const c=ARTICLE_COLORS[art]||ARTICLE_COLORS.none;
     const accentColor=isNew?"#7B5EE8":"var(--gray-300)";
     const noteHl=(text)=>universalHl(text, lang);
     const exHl=(t)=>universalHl(t, lang);
@@ -10401,7 +10402,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // Force purple for non-ASCII letters, otherwise noun stays dark, article gets color
     const nlColor = isScript ? "#7B5EE8" : "var(--gray-800)";
     // Split word into article + noun for color-coded display
-    const artWord = art!=="none" && !isScript ? _nl.split(/\s(.+)/) : null;
+    const artWord = art!=="none" && !isScript ? _word.split(/\s(.+)/) : null;
     return(
     <div className="anim" key={si}>
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
@@ -10435,14 +10436,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   <span style={{color:c.pillText}}>{artWord[1]}</span>
                 </span>
               ) : (
-                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{st.nl}</span>
+                <span className="hd" style={{fontSize:nlSize,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{_word}</span>
               )}
             </div>
           </div>
 
           {/* Translation — teal */}
           <div style={{textAlign:"center",paddingBottom:st.phonetic&&showPhonetic?6:14}}>
-            <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(st.en)}</span>
+            <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(_trans)}</span>
           </div>
 
           {/* Phonetic — P38: right-shifted whisper below translation */}
@@ -12356,17 +12357,16 @@ export default function App(){
                   <div style={{background:"linear-gradient(135deg,rgba(123,94,232,0.06),rgba(46,205,167,0.04))",padding:"10px 18px 8px"}}>
                     <span style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"#7B5EE8"}}>{lbl}</span>
                   </div>
-                  {/* Article chip + word */}
+                  {/* Word — article ALWAYS colored, no pill */}
                   <div style={{textAlign:"center",padding:"14px 24px 6px"}}>
-                    {art!=="none"&&<div style={{marginBottom:4}}><span style={{fontSize:11,fontWeight:800,color:c.pillText,background:c.pill,borderRadius:6,padding:"2px 10px",letterSpacing:1}}>{art.toUpperCase()}</span></div>}
                     <div style={{marginBottom:4}}>
                       {artWord&&artWord[1]?(
                         <span style={{fontSize:nlSz,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
                           <span style={{color:c.pillText}}>{capStr(artWord[0])}</span>{" "}
-                          <span style={{color:"var(--gray-800)"}}>{artWord[1]}</span>
+                          <span style={{color:c.pillText}}>{artWord[1]}</span>
                         </span>
                       ):(
-                        <span style={{fontSize:nlSz,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{capStr(s.nl)}</span>
+                        <span style={{fontSize:nlSz,fontWeight:800,color:nlColor,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{capStr(s.nl||s.trg)}</span>
                       )}
                     </div>
                   </div>
