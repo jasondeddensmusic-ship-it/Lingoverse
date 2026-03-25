@@ -1567,7 +1567,8 @@ export default [
 {type:"mc",q:"Manchmal ___ ich mich nach der Arbeit aus.",opts:["ruhe","ruhen","ausruhe","ruht"],ans:"ruhe",hint:"Separable verb: the prefix goes to the end in main clauses."},
 {type:"teach",nl:"schwanger",en:"pregnant",note:"Adjective. Sie ist schwanger = She is pregnant. No comparative form used.",example:"A: Hast du gehört? Lisa ist schwanger!\nB: Wirklich? Das ist wunderbar!\nA: Ja, sie bekommt das Baby im Sommer.\nB: Herzlichen Glückwunsch an sie!",exampleEn:"A: Did you hear? Lisa is pregnant!\nB: Really? That is wonderful!\nA: Yes, she is having the baby in the summer.\nB: Congratulations to her!",funFact:"In Germany, pregnant women get a Mutterpass (maternity record book) from their doctor. They carry it everywhere. Employers must provide 14 weeks of paid maternity leave (Mutterschutz), and firing a pregnant employee is illegal."},
 {type:"match",pairs:[{nl:"der Unfall",en:"the accident"},{nl:"die Angst",en:"the fear"},{nl:"aufpassen",en:"to watch out"},{nl:"sich beeilen",en:"to hurry"},{nl:"manchmal",en:"sometimes"}]},
-{type:"fb",s:"Der Arzt hat einen neuen {1} für den Blutdruck.",a:"Apparat",opts:["Apparat","Rezept","Tablette","Besuch"],hint:"A device used for measuring something medical."}
+{type:"fb",s:"Der Arzt hat einen neuen {1} für den Blutdruck.",a:"Apparat",opts:["Apparat","Rezept","Tablette","Besuch"],hint:"A device used for measuring something medical."},
+{type:"teach",nl:"bleiben",en:"to stay / to remain",note:"Irregular: ich bleibe, du bleibst. Perfekt: ist geblieben (with sein!).",example:"A: Wie lange bleibst du in Berlin?\nB: Ich weiß noch nicht. Vielleicht für immer.\nA: Das wäre schön!",exampleEn:"A: How long are you staying in Berlin?\nB: I don't know yet. Maybe forever.\nA: That would be nice!",funFact:"Bleiben uses sein in Perfekt because staying is a state change: you were elsewhere, now you remain. 'Ich bin geblieben' not 'Ich habe geblieben.'"}
 ]},
 
 // ─── L6: Der Beipackzettel (Story Climax) ───
@@ -1714,7 +1715,9 @@ export default [
 {type:"match",pairs:[{nl:"die Lampe",en:"the lamp"},{nl:"der Stuhl",en:"the chair"},{nl:"das Fenster",en:"the window"},{nl:"der Keller",en:"the basement"},{nl:"das Erdgeschoss",en:"the ground floor"},{nl:"das Stockwerk",en:"the floor/story"}]},
 {type:"mc",q:"Du brauchst etwas zum Schneiden. Was nimmst du?",opts:["das Messer","die Gabel","den Löffel","den Teller"],ans:"das Messer",hint:"The sharp tool used for cutting food"},
 {type:"fb",s:"Setz dich auf den {1}, er ist sehr bequem.",a:"Stuhl",opts:["Stuhl","Teller","Topf","Keller"],hint:"The piece of furniture you sit on"},
-{type:"drag_fill",s:"In der Küche stehen ein {1}, vier {2} und eine {3}.",blanks:{"1":"Topf","2":"Teller","3":"Lampe"},pool:["Topf","Teller","Lampe","Keller","Messer"],hint:"Think about what belongs in a kitchen"}
+{type:"drag_fill",s:"In der Küche stehen ein {1}, vier {2} und eine {3}.",blanks:{"1":"Topf","2":"Teller","3":"Lampe"},pool:["Topf","Teller","Lampe","Keller","Messer"],hint:"Think about what belongs in a kitchen"},
+{type:"teach",nl:"sortieren",en:"to sort",note:"Regular: ich sortiere. Müll sortieren = to sort trash.",example:"A: Wie sortiert man den Müll richtig?\nB: Plastik in den gelben Sack, Papier in die blaue Tonne.\nA: Und Glas?",exampleEn:"A: How do you sort the trash correctly?\nB: Plastic in the yellow bag, paper in the blue bin.\nA: And glass?",funFact:"Germans sort trash into up to 6 categories. Getting it wrong can earn you a stern look from your neighbors."},
+{type:"teach",nl:"niedrig",en:"low",note:"Opposite of hoch (high). Niedrige Preise = low prices.",example:"A: Ist die Miete hier niedrig?\nB: Nein, Berlin wird immer teurer.\nA: Das stimmt leider.",exampleEn:"A: Is the rent low here?\nB: No, Berlin is getting more expensive.\nA: That is unfortunately true.",funFact:"Niedrig comes from Old German 'nidar' (down). Related to English 'nether' as in Netherlands (low lands)."}
 ]}
 ,
 
@@ -2848,7 +2851,8 @@ export default [
 {type:"mc",q:"Was braucht man für eine Bewerbung in Deutschland oft?",opts:["ein Zeugnis","ein Passwort","eine Homepage","eine Mailbox"],ans:"ein Zeugnis",hint:"An official document proving your qualifications."},
 {type:"drag_fill",s:"Ich habe die {1} schon auf die {2} hochgeladen.",blanks:{"1":"Datei","2":"Homepage"},pool:["Datei","Homepage","Mailbox","Vertrag"],hint:"A digital file goes onto a website."},
 {type:"fb",s:"Das {1} ist zu niedrig, sagt er.",a:"Gehalt",opts:["Gehalt","Büro","Blatt","Zeugnis"],hint:"The amount of money you earn each month at work."},
-{type:"match",pairs:[{nl:"die Mail",en:"email"},{nl:"der Link",en:"link"},{nl:"die Datei",en:"file (digital)"},{nl:"die Homepage",en:"homepage"},{nl:"das Mobiltelefon",en:"mobile phone"}]}
+{type:"match",pairs:[{nl:"die Mail",en:"email"},{nl:"der Link",en:"link"},{nl:"die Datei",en:"file (digital)"},{nl:"die Homepage",en:"homepage"},{nl:"das Mobiltelefon",en:"mobile phone"}]},
+{type:"teach",nl:"geduldig",en:"patient (adjective)",note:"Geduld (patience) + -ig. Sei geduldig! = Be patient!",example:"A: Wann kommt das Ergebnis?\nB: Nächste Woche. Sei geduldig!\nA: Ich versuche es!",exampleEn:"A: When does the result come?\nB: Next week. Be patient!\nA: I'm trying!",funFact:"Geduld comes from 'dulden' (to endure). A patient person is one who can endure waiting. The medical 'Patient' shares the same Latin root."}
 ]},
 
 // U12 L3: Rückblick - Story dev + grammar (conjunctions + adverb categories)
