@@ -6107,6 +6107,8 @@ const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Un
 // After migration, old field names can be removed. Until then, both coexist.
 function _normStep(st){
   if(!st)return st;
+  // Mark cards originally written in trg/src format (before normalization adds aliases)
+  if(st.trg!==undefined&&st.nl===undefined)st._origTrg=true;
   if(st.trg===undefined&&st.nl!==undefined)st.trg=st.nl;
   if(st.src===undefined&&st.en!==undefined)st.src=st.en;
   if(st.nl===undefined&&st.trg!==undefined)st.nl=st.trg;
@@ -10073,8 +10075,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   }
 
   // ═══ NEW FORMAT TEACH CARD (trg/src) — dual renderer ═══
-  // Detects new format by presence of step.trg field
-  if(st.type==="teach" && st.trg !== undefined) {
+  // Only fires for cards ORIGINALLY written in trg/src format (not normalized from nl/en)
+  if(st.type==="teach" && st._origTrg) {
     const isNewTrg = !user.lw.has(st.trg);
     const ttsLocNew = LANG_META[lang]?.ttsLocale||"en-US";
     const artNew = getArticle(st.trg, lang);
@@ -10145,8 +10147,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 <div style={{marginBottom:6}}>
                   {artWordNew&&artWordNew[1] ? (
                     <span className="hd" style={{fontSize:36,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
-                      <span style={{color:grammarHl?cNew.pillText:"var(--gray-800)"}}>{cap(artWordNew[0])}</span>{" "}
-                      <span style={{color:grammarHl?cNew.pillText:"var(--gray-800)"}}>{artWordNew[1]}</span>
+                      <span style={{color:cNew.pillText}}>{cap(artWordNew[0])}</span>{" "}
+                      <span style={{color:cNew.pillText}}>{artWordNew[1]}</span>
                     </span>
                   ) : (
                     <span className="hd" style={{fontSize:36,fontWeight:800,color:"var(--gray-800)",lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{cap(st.trg)}</span>
