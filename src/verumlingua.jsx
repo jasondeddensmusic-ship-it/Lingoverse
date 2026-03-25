@@ -6108,7 +6108,7 @@ const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Un
 function _normStep(st){
   if(!st)return st;
   // Mark cards originally written in trg/src format (before normalization adds aliases)
-  if(st.trg!==undefined&&st.nl===undefined)st._origTrg=true;
+  if(st.trg!==undefined&&st.nl===undefined&&st.pos!==undefined)st._origTrg=true;
   if(st.trg===undefined&&st.nl!==undefined)st.trg=st.nl;
   if(st.src===undefined&&st.en!==undefined)st.src=st.en;
   if(st.nl===undefined&&st.trg!==undefined)st.nl=st.trg;
@@ -12104,7 +12104,7 @@ export default function App(){
   },[showResetModal]);
 
   const showToast=(m,i)=>setToast({message:m,icon:i,key:Date.now()});
-  const unlock=id=>{if(user.achs.includes(id))return;const a=ACHS.find(x=>x.id===id);if(!a)return;setUser(u=>({...u,achs:[...u.achs,id],xp:u.xp+a.xp}));showToast(`Achievement: ${a.name}!`,a.icon);};
+  const unlock=id=>{if(user.achs.includes(id))return;const a=ACHS.find(x=>x.id===id);if(!a)return;setUser(u=>({...u,achs:[...u.achs,id],xp:u.xp+a.xp}));showToast(`Achievement: ${tk(a.nameKey)}!`,a.icon);};
   const addXp=amt=>{setUser(u=>({...u,xp:u.xp+amt}));const p={amount:amt,x:120+Math.random()*180,y:90+Math.random()*80,key:Date.now()};setPops(pp=>[...pp,p]);setTimeout(()=>setPops(pp=>pp.filter(x=>x.key!==p.key)),1200);};
   const learnWord=w=>setUser(u=>{const s=new Set(u.lw);s.add(w);return{...u,lw:s,wl:s.size};});
   const addChat=()=>setUser(u=>({...u,cm:u.cm+1}));
