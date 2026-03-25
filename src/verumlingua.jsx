@@ -11378,7 +11378,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.01),transparent)":"linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.1),transparent)",pointerEvents:"none",zIndex:1}}/>
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
-          {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));const fbTrans=fbEn||st.sSrc||st.sEn||null;return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
+          {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));const fbTransRaw=fbEn||st.sSrc||st.sEn||null;const fbTrans=fbTransRaw?fbTransRaw.replace(/\{\d+\}/g,"___"):null;return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{universalHl(part, lang)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
           </div>{renderEnglishBelow(fbTrans,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
@@ -11453,7 +11453,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       checkAndNext(allCorrect);
     };
     // Split Korean from English translation, then parse blanks in Korean only
-    const{korean:dfKo,english:dfEnRaw}=splitKoEn(st.s);const dfEn=dfEnRaw||st.sSrc||st.sEn||null;
+    const{korean:dfKo,english:dfEnRaw}=splitKoEn(st.s);const dfEnVal=dfEnRaw||st.sSrc||st.sEn||null;const dfEn=dfEnVal?dfEnVal.replace(/\{\d+\}/g,"___"):null;
     const sentParts=dfKo.split(/\{(\d+)\}/g);
     // Drag handlers: ghost created on document.body (bypasses .anim transform containing block)
     const onTilePointerDown=(e,word)=>{
