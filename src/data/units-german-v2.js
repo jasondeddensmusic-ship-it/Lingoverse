@@ -477,7 +477,7 @@ export default [
 
 ]},
 // ═══════════════════════════════════════════════════════════════
-// UNIT 3: Die Wohnungssuche — The 14-Page Hausordnung
+// UNIT 3: Die Wohnungssuche - The 14-Page Hausordnung
 // Story: Verumius finds an apartment, meets Hildi, survives the Hausordnung
 // CEFR: A1.1 - Family, home, furniture, separable verbs, possessives
 // ═══════════════════════════════════════════════════════════════
