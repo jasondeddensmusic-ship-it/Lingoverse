@@ -245,30 +245,30 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Phase 3** (DONE): Cross-level allocation (6-6-12-12 distribution).
 - **A1 content** (DONE): 6 units, 44 lessons. Known gaps: 4 under-dense lessons, Goethe A1 list not fully verified.
 - **A2 content** (DONE): 6 units, 50 lessons, 1,382 steps. Fully audited: PP55 99.8%, PP52 PASS, PP8 PASS.
-- **PP8 scan** (2026-03-25): 52 violations fixed across all 12 units (7 visual + 45 hint leaks).
+- **PP8 scan** (2026-03-26): 66 violations fixed across all 12 units. PP8 PASS.
+- **Quiz translations** (2026-03-26): 573 fb+drag_fill steps have `sSrc` (complete English).
+- **Field rename** (2026-03-26): All `nl`→`trg`, `en`→`src`, `exampleEn`→`exampleSrc` done.
+- **V1 salvage**: NOT done. V2 was written from scratch. V1's 4,941 steps untouched.
 - **B1/B2**: PENDING. 24 units planned. Batch plan: `docs/GERMAN_MASTER_BATCH_PLAN.md`.
 
-### Known Bugs
-- **"Achievement: undefined!" toast**: Appears on some teach cards. `ACHS.find(x=>x.id===id)` finds an entry with `name: undefined`. Likely triggered by normalization adding `trg` field. Needs investigation.
-
 ### Known Blockers
-1. `nl`/`en` field naming — MIGRATING to `trg`/`src`. Engine accepts both. Files migrated one at a time.
-2. No POS/gender tags on existing content — German v2 gets tagged first.
-3. CEFR distribution imbalance — German fixed (6-6-12-12). French/Spanish/Korean still template-based.
-4. Vocabulary/grammar completeness unverified for Korean, Dutch, French, Spanish (PP55/PP57).
+1. No POS/gender tags on existing content — 0/1,450 tagged. Blocks color system.
+2. Visual layer not built — 65 art slugs, 0 actual images, no cinematic renderer.
+3. V1 content not salvaged — 1,800+ quiz steps, 160+ tips, 38 verb tables unused.
+4. CEFR distribution imbalance — French/Spanish/Korean still template-based.
 5. KOREAN_DICT hardcoded in engine — extract to per-language module.
-6. RTL lesson card styling incomplete.
 
 ---
 
 ## Next Priorities
 
-1. **German v2 field rename**: `nl`/`en` → `trg`/`src` on all 12 units in units-german-v2.js
-2. **Fix "Achievement: undefined!" bug**
+1. **V1 salvage mining**: Deploy per-unit agents to grep V1 for reusable content (see handoff Phase 1)
+2. **V1 salvage validation**: Opus agents validate findings, decide TAKE/MERGE/SKIP per item (Phase 2)
 3. **Grammar tag infrastructure**: auto-tagger script + apply POS/gender to German v2 cards
-4. **German B1 build** (U13-U24): 12 units, 33 grammar constructs, 1,843 Goethe B1 words
+4. **German B1 build** (U13-U24): salvage-first, then write new. 12 units, 1,843 Goethe B1 words
 5. **German B2 build** (U25-U36): 12 units, 33 constructs
-6. **Other language rehauling**: Korean → Dutch → French → Spanish
+6. **Story arc rewrite**: Netflix-quality narrative across all 36 units (see handoff Phase 4)
+7. **Other language rehauling**: Korean → Dutch → French → Spanish
 
 ---
 
@@ -283,7 +283,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-03-25.md`** — Latest session handoff with full context.
+- **`docs/SESSION_HANDOFF_2026-03-26.md`** — Latest session handoff with full context.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
 - **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
