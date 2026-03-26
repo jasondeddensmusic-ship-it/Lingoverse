@@ -10170,17 +10170,45 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>;
           })()}
 
-          {/* Example with tagged words — compound bubble */}
-          {st.example && <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
-            <div style={glossArc}/>
-            <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
-                {st.tagged ? renderTagged(st.tagged) : universalHl(st.example, lang)}
-                <SpeakerButton text={st.example} lang={ttsLocNew} size={13} showToast={showToast}/>
+          {/* Example with tagged words — dialogue-aware bubbles (matches board-mode) */}
+          {st.example && (()=>{
+            const ex = st.example||"";
+            const exTrans = st.exampleSrc||st.exampleEn||"";
+            const isDialogue = /[AB]:\s/.test(ex);
+            if(isDialogue){
+              const turns = ex.split(/(?=[AB]:\s)/).filter(Boolean);
+              const turnsEn = exTrans.split(/(?=[AB]:\s)/).filter(Boolean);
+              return <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:16}}>
+                {turns.map((turn,ti)=>{
+                  const isA = turn.trim().startsWith("A:");
+                  const content = turn.replace(/^[AB]:\s*/,"").trim();
+                  const enC = (turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
+                  return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
+                    <div style={{...compBubble,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px",padding:"14px 18px"}}>
+                      <div style={glossArc}/>
+                      <div style={{position:"relative",zIndex:2}}>
+                        <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                          {st.tagged ? renderTagged(st.tagged) : universalHl(content, lang)}
+                          <SpeakerButton text={content} lang={ttsLocNew} size={13} showToast={showToast}/>
+                        </div>
+                        {enC&&<div style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{enC}</div>}
+                      </div>
+                    </div>
+                  </div>;
+                })}
+              </div>;
+            }
+            return <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
+              <div style={glossArc}/>
+              <div style={{position:"relative",zIndex:2}}>
+                <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                  {st.tagged ? renderTagged(st.tagged) : universalHl(ex, lang)}
+                  <SpeakerButton text={ex} lang={ttsLocNew} size={13} showToast={showToast}/>
+                </div>
+                {exTrans && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{exTrans}</div>}
               </div>
-              {(st.exampleSrc || st.exampleEn) && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{st.exampleSrc || st.exampleEn}</div>}
-            </div>
-          </div>}
+            </div>;
+          })()}
 
           {/* Fun Info — COMPOUND chip style (same as Korean morpheme bubbles) */}
           {st.funInfo && (()=>{
@@ -10227,25 +10255,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>;
           })()}
 
-          {/* Note section (same style as legacy) */}
-          {st.note && <div style={{
-            background:dk?"linear-gradient(155deg,rgba(58,36,130,0.35),rgba(44,26,105,0.25))":"linear-gradient(155deg,rgba(240,234,255,0.9),rgba(228,216,255,0.8))",
-            border:dk?"1.5px solid rgba(168,144,255,0.25)":"1.5px solid rgba(168,144,255,0.35)",
-            borderRadius:22,padding:"18px 20px",marginBottom:16,position:"relative",overflow:"hidden",
-            boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.06)":"inset 0 2px 0 rgba(255,255,255,0.9),0 4px 16px rgba(112,80,216,0.08)"
-          }}>
-            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",borderRadius:"0 0 50% 50%",
-              background:dk?"linear-gradient(180deg,rgba(255,255,255,0.06)0%,transparent 100%)":"linear-gradient(180deg,rgba(255,255,255,0.6)0%,transparent 100%)",
-              pointerEvents:"none"}}/>
-            <div style={{position:"relative"}}>
-              <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.8)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8,display:"flex",alignItems:"center",gap:6}}>
-                <AppIcon name="lightbulb" size={15}/>{t("le_good_to_know",baseLang)}
-              </div>
-              <div style={{fontSize:15,lineHeight:1.75,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{(st.note||"").split(/\\n|\n/).map((line,li)=>{
-                if(!line.trim()) return <div key={li} style={{height:5}}/>;
-                return <div key={li}>{universalHl(line, lang)}</div>;
-              })}</div>
-            </div>
+          {/* Note section — purple-bar card (matches board-mode) */}
+          {st.note && <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:16}}>
+              {(st.note||"").split(/\\n|\n/).map((line,li)=>{
+                if(!line.trim()) return <div key={li} style={{height:6}}/>;
+                if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{universalHl(line.slice(1).trim(), lang)}</span></div>;
+                return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{universalHl(line, lang)}</div>;
+              })}
           </div>}
 
           <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:4}}>
