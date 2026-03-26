@@ -10873,25 +10873,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderRadius:20,padding:"18px 22px",marginBottom:20}}>
             <div style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.7}}>{universalHl(st.note, lang)}</div>
           </div>
-        :<div style={{
-            background:dk?"linear-gradient(155deg,rgba(58,36,130,0.35),rgba(44,26,105,0.25))":"linear-gradient(155deg,rgba(240,234,255,0.9),rgba(228,216,255,0.8))",
-            border:dk?"1.5px solid rgba(168,144,255,0.25)":"1.5px solid rgba(168,144,255,0.35)",
-            borderRadius:20,padding:"18px 20px",marginBottom:20,position:"relative",overflow:"hidden",
-            boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.06)":"inset 0 2px 0 rgba(255,255,255,0.9),0 4px 16px rgba(112,80,216,0.08)"
-          }}>
-          <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",borderRadius:"0 0 50% 50%",
-            background:dk?"linear-gradient(180deg,rgba(255,255,255,0.06)0%,transparent 100%)":"linear-gradient(180deg,rgba(255,255,255,0.6)0%,transparent 100%)",
-            pointerEvents:"none"}}/>
-          <div style={{position:"relative"}}>
-            <div style={{fontSize:11,fontWeight:800,color:dk?"rgba(200,184,255,0.8)":"#7050D8",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8,display:"flex",alignItems:"center",gap:6}}>
-              <AppIcon name="lightbulb" size={15}/>{t("le_good_to_know",baseLang)}
-            </div>
-            <div style={{fontSize:15,lineHeight:1.75,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.note.split(/\\n|\n/).map((line,li)=>{
-              if(!line.trim()) return <div key={li} style={{height:5}}/>;
-              if(line.startsWith("⚠️")) return <div key={li} style={{color:dk?"rgba(94,234,200,0.9)":"#0D7D5C",fontWeight:700,margin:"3px 0"}}>{universalHl(line, lang)}</div>;
-              return <div key={li}>{universalHl(line, lang)}</div>;
-            })}</div>
-          </div>
+        :<div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:20}}>
+          {st.note.split(/\\n|\n/).map((line,li)=>{
+            if(!line.trim()) return <div key={li} style={{height:6}}/>;
+            if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>•</span><span>{line.slice(1).trim()}</span></div>;
+            if(line.startsWith("⚠️")) return <div key={li} style={{fontSize:14,color:"var(--gray-700)",fontWeight:600,padding:"3px 0",lineHeight:1.6}}>{universalHl(line, lang)}</div>;
+            return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{universalHl(line, lang)}</div>;
+          })}
         </div>)}
 
         {/* Korean block structure diagram */}
