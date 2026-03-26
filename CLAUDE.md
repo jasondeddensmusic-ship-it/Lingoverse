@@ -36,7 +36,11 @@ npm run build                 # Production build (validates compilation)
 | `units-dutch.js` | 30 Dutch v2 units (old format, `nl`/`en` fields) |
 | `units-korean.js` | 30 Korean units (old format, `nl`/`en` fields) |
 | `units-german.js` | 30 German v1 units (old format, being replaced by v2) |
-| `units-german-v2.js` | 12 German v2 units (new format: story cards use `trg`/`src`, teach cards use `nl`/`en` — MIGRATING to `trg`/`src`) |
+| `units-german-v2.js` | Re-exports from 4 per-level files (see below) |
+| `units-german-v2-a1.js` | German v2 A1 units 1-6 (~2,000 lines) |
+| `units-german-v2-a2.js` | German v2 A2 units 7-12 (~1,800 lines) |
+| `units-german-v2-b1.js` | German v2 B1 units 13-24 (~3,400 lines) |
+| `units-german-v2-b2.js` | German v2 B2 units 25-36 (~3,200 lines) |
 | `units-french.js` | 30 French units (1.85MB, minified. Use grep, never full-read) |
 | `units-spanish.js` | 30 Spanish units (old format) |
 | `units-other.js` | Arabic skeletons (5 units) |
@@ -190,9 +194,12 @@ Five leak types. ALL must be zero:
 4. Max 20 new vocabulary words per agent lesson. Heavy vocab = main session writes directly.
 5. Sonnet 4.6+ minimum for content. Opus for creative/complex, Sonnet for validation.
 6. Pre-digest data in agent prompts instead of making agents read large files.
-7. **MAX 4 agents at a time.** Check usage before deploying more. Never burn >50% session on one batch.
-8. **Every content agent prompt MUST include PP61 metalanguage rules.** Copy the full block from PP61 into every agent prompt. No exceptions.
-9. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
+7. **MAX 4 agents at a time. NEVER MORE.** Check usage before deploying. Never burn >50% session on one batch. 12+ simultaneous Opus agents = session death.
+8. **Every content agent prompt MUST include `docs/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
+9. **Every story agent prompt MUST include `docs/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
+10. **Agents read `docs/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
+11. **Agents read per-level files** (`units-german-v2-b1.js` etc.), never the full re-export file.
+12. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
 
 ### Rule C: Build Process
 1. Validate density PER LESSON during build, not after.
@@ -302,6 +309,11 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
 - **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
+
+### Tier 2.5: Agent Infrastructure
+- **`docs/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
+- **`docs/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
+- **`docs/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
 
 ### Tier 3: Specialized
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable grammar/vocab index.
