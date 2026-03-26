@@ -1,144 +1,75 @@
-# Session Handoff — 2026-03-26
+# Session Handoff — 2026-03-26 (B2 Build + Metalanguage Fix)
 
 ## What Was Done
 
-### Shipped to main (4 commits):
-1. **PP8 fixes**: 66 violations fixed across all 12 German v2 units (hint leaks, visual leaks, ambiguous answers)
-2. **CLAUDE.md slim**: 1,429 → 325 lines. 25 agent rules consolidated into 6 groups (A-F)
-3. **German v2 field rename**: `nl`→`trg` (2,189), `en`→`src` (2,481), `exampleEn`→`exampleSrc` (1,450). `srcLang:"en"` on all 12 units
-4. **Achievement bug fix**: `tk(a.nameKey)` instead of `a.name` in unlock toast
-5. **Quiz translation system**: `sSrc` field on all 573 fb+drag_fill steps. Complete English sentences (no blanks). Renderers updated for fb, drag_fill, mc. Normalization: `sSrc↔sEn`, `qSrc↔qEn`
-6. **`_origTrg` fix**: Now requires `pos` field — renamed old-format cards don't hit new renderer
+### 1. German B2 Build (U25-U36) — COMPLETE
+- 12 units, 96 lessons, ~2,640 steps, ~1,844 new vocabulary
+- Salvage-first pipeline: mined V1 U25-U30 (570 reusable items), then built around salvage
+- All teach cards have POS tags, gender, funFacts
+- Build passes, deployed to lingoverse.nl
 
-### Infrastructure state:
-- Normalization layer handles both `nl`/`en` and `trg`/`src` transparently
-- 4 teach renderers exist (new-format, board-mode, legacy, flashcard)
-- All 1,450 German v2 teach cards have `funFact`
-- POS tags: 0/1,450 (not started)
-- Gender tags: 61/1,450 (some nouns only)
-- Story cards: 113 (plain text, no visual layer)
-- Art slugs: 65 unique (no actual images generated)
-- Visual novel renderer: not built
-- V1 salvage: not done (V2 was written from scratch)
+### 2. Renderer Fix — COMPLETE
+- Note box in new-format renderer changed from pink gradient "GOOD TO KNOW" to white bg + purple left bar (matches board-mode renderer)
+- Affects cards with `pos` field that trigger `_origTrg` renderer
 
----
+### 3. Excessive `\n` Fix — COMPLETE
+- 1,503 sequences of `\n\n\n+` collapsed to `\n\n` across all B1+B2 tips
+- Was causing massive empty space in tip cards
 
-## Next Session: V1 Salvage + B1/B2 Content + Story Arc
+### 4. Metalanguage Translation (German to English) — 80% COMPLETE
+All intro desc/goals translated for B1+B2. B1 tips done. B2 tips still pending.
 
-### Phase 1: V1 Salvage Mining (parallel agents)
+| Scope | Status |
+|-------|--------|
+| B1 intros (U13-U24) | DONE |
+| B1 tips + verb_table notes (U13-U24) | DONE |
+| B2 intros (U25-U36) | DONE |
+| B2 tips + verb_table notes (U25-U36) | **NOT DONE (~47 tips, ~21 verb_tables)** |
+| A1/A2 stray intros (U5,7,9,10,11,12) | **NOT DONE (~10 items)** |
 
-Deploy agents per-unit (12 agents, one per German v2 unit). Each agent:
+## What Still Needs Doing
 
-1. **Reads its unit's teach card list** — extracts all `trg` words and grammar concepts
-2. **Greps `units-german.js` (V1)** via Python script for matching content:
-   - Teach cards with same/similar words
-   - Verb tables covering same verbs
-   - Tip cards explaining same grammar constructs
-   - Quiz steps (mc, fb, drag_fill, match) using same vocabulary
-   - Example sentences containing target words
-3. **Compiles findings** into a structured report:
-   - What V1 content exists for each word/construct
-   - Quality assessment: is the V1 version better, equal, or worse?
-   - Specific salvage recommendations: "take this verb table as-is", "this tip card has better explanation", "these 5 quiz steps reuse directly"
-4. **Does NOT edit any files** — research only
+### Priority 1: B2 Tips Translation (~47 tips + ~21 verb_table notes)
+Tips in B2 units have German explanations that need English translation. German example sentences should be PRESERVED (they are the content being taught). Only the metalanguage (explanations, rules, comparisons) needs to be in English.
 
-Output: 12 findings files in a temp directory, one per unit.
+**How to find them:**
+```bash
+python3 -c "
+import re
+with open('src/data/units-german-v2.js', 'r', encoding='utf-8') as f:
+    content = f.read()
+b2 = content[content.find('n:25,'):]
+for m in re.finditer(r'type:\"tip\",title:\"([^\"]+)\"', b2):
+    line = content[:content.find('n:25,') + m.start()].count('\n') + 1
+    print(f'Line {line}: {m.group(1)}')
+"
+```
 
-### Phase 2: Validation (Opus agents)
+**Translation rule:** Explanatory text in English, German example sentences stay German. Title can stay in German (it is the grammar term being taught) OR be translated. Either is acceptable.
 
-Deploy Opus validators (2-3 units each, 4-6 agents) that:
+### Priority 2: A1/A2 Stray German Intros (~10 items)
+Units 5, 7, 9, 10, 11, 12 have some intro desc/goals in German. Same fix: translate desc and goals to English.
 
-1. Read each unit's salvage findings
-2. Cross-reference with V2 content quality
-3. Make final salvage decisions per item:
-   - **TAKE**: V1 content is better or fills a gap → integrate
-   - **MERGE**: V1 has useful parts (e.g. good quiz distractors) → combine with V2
-   - **SKIP**: V2 is already better → discard V1 version
-4. Check PP52 (teach-before-use) isn't broken by salvaged content
-5. Verify no PP8 leaks in salvaged quiz steps
+### Priority 3: B2 Content Validation
+The B2 content was built by agents and needs validation:
+- PP8 leak scan (hints containing answers, answer position clustering)
+- PP52 teach-before-use (every quiz word must trace to a prior teach card)
+- PP48 step types (fb = single blank only, drag_fill = multi-blank)
+- Tip/deepDive content quality (native-speaker quality German)
 
-Output: validated salvage plan per unit with exact items to integrate.
+### Priority 4: Story Arc Rewrite
+Netflix-quality narrative across all 36 V2 German units. Reviews done (see `docs/german/`), rewrites not applied.
 
-### Phase 3: B1 + B2 Content Build
+## Files Changed
+- `src/data/units-german-v2.js` — B2 content (U25-U36) + all translations + newline fix
+- `src/verumlingua.jsx` — Note box renderer fix
+- `docs/german/b2-*.md` — 12 lesson blueprints + vocab/grammar mappings
+- `docs/german/v1-salvage-mining-b2.md` — V1 salvage report
+- `docs/german/b2-vocabulary-source.md` — B2 vocab compilation
+- `docs/german/b2-vocabulary-mapping.md` — 1,844 words mapped to units
 
-**After salvage is integrated**, build the remaining 24 units:
+## Current State
 
-1. **B1 (U13-U24)**: 12 units, 33 grammar constructs, 1,843 Goethe B1 words
-   - Same salvage-first approach: grep V1 for B1-level content before writing new
-   - Master plan: `docs/GERMAN_MASTER_BATCH_PLAN.md`
-   - Goethe word list: `docs/german/goethe-b1.json`
-2. **B2 (U25-U36)**: 12 units, 33 constructs
-   - V1 has minimal B2 content, mostly new writing
-   - Focus: professional language, abstract topics, Konjunktiv II mastery
-
-Each unit follows the interleaved flow: story → vocab → story → grammar → story → quiz → resolution.
-
-### Phase 4: Story Arc Rewrite
-
-**After all 36 units have content**, deploy co-writing agents for the full story:
-
-**Requirements:**
-- Netflix-quality narrative arc across 36 units (A1→B2)
-- Real emotions, real humor, real character growth
-- Verumius arrives in Germany as a fish out of water, grows into someone who belongs
-- Comedy through SITUATION (authentic foreigner experiences), never cheap jokes
-- Cast deepens: Hildi (landlady), Yilmaz (neighbor), Mia (colleague), Lukas (friend), Opa (wisdom)
-- Each unit's story serves the vocabulary/grammar being taught — never decoration
-- A1: sitcom sketches, survival comedy
-- A2: recurring cast, social situations, mild drama
-- B1: real stakes, Verumius needs nuanced German to navigate problems
-- B2: professional/abstract, wit and irony, emotional payoff
-
-**Agent structure for story writing:**
-- 2 Opus agents co-write each story arc segment (writer + critic)
-- Neither ships without the other's sign-off (Rule F1)
-- Story beats must map to unit vocabulary/grammar naturally
-- Every story card gets: speaker, mood, art slug, trg text, src text
-
----
-
-## Current Data Volumes
-
-| | V1 (units-german.js) | V2 (units-german-v2.js) |
-|---|---|---|
-| Units | 30 | 12 (of 36 planned) |
-| Lessons | 259 | 123 |
-| Teach cards | 1,444 | 1,450 |
-| Story cards | 5 | 113 |
-| MC questions | 1,553 | 598 |
-| FB steps | 753 | 399 |
-| Drag-fill | 347 | 174 |
-| Match pairs | 274 | 129 |
-| Tips | 273 | 113 |
-| Verb tables | 38 | 39 |
-| Total steps | 4,941 | 3,140 |
-
-V1 has **1,800 more quiz steps** and **160 more tips** — substantial salvage potential.
-
-### Goethe Coverage Gap
-
-| Level | Words | V1 covered | Gap |
-|-------|-------|-----------|-----|
-| A1 | 840 | 428 (51%) | 412 |
-| A2 | 616 | 154 (25%) | 462 |
-| B1 | 1,851 | 161 (9%) | 1,690 |
-| **Total** | **3,307** | **743 (22.5%)** | **2,564** |
-
----
-
-## Known Bugs
-
-- **Achievement: undefined!** — Fixed this session (`tk(a.nameKey)`)
-- POS tags: 0/1,450 — blocks the color system (Phase 0 prerequisite for story arc)
-- Gender tags: 61/1,450 — needs auto-tagger script
-- Visual layer: 0 actual images, no cinematic renderer
-
-## Files to Reference
-
-- `docs/GERMAN_MASTER_BATCH_PLAN.md` — B1/B2 execution plan
-- `docs/german/goethe-b1.json` — 1,851 B1 lemmas
-- `docs/german/coverage-report.md` — V1↔Goethe coverage analysis
-- `docs/VERUMLINGUA_REHAUL_VISION.md` — Full rehaul spec
-- `docs/VISUAL_AUDIO_LAYER.md` — Art/audio/navigation design
-- `src/data/units-german.js` — V1 content (salvage source)
-- `src/data/units-german-v2.js` — V2 content (target)
+| Language | Format | Units | Lessons | Steps | Status |
+|----------|--------|-------|---------|-------|--------|
+| German v2 | v2 (new) | 36 | ~289 | ~7,776 | A1-B2 built. Metalanguage ~80% translated. B2 validation pending. |

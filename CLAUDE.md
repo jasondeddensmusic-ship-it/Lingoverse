@@ -122,6 +122,16 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 - **PP43**: Density targets: Korean 20-25, Dutch/German 18-35 steps/lesson. Pedagogy over count.
 - **PP46**: B1+ lessons: 2+ constructs per example, 50%+ combo quizzes, 15+ steps minimum.
 
+### Metalanguage Rule (PP61 — CRITICAL)
+ALL explanatory text MUST be in the source language (English). Only target-language content (words being taught, example sentences, quiz questions) is in the target language. This applies to:
+- `intro` desc and goals: ALWAYS English
+- `tip` title: German grammar term OR English (either OK)
+- `tip` text and deepDive text: ALWAYS English. German examples inline are OK.
+- `verb_table` note: ALWAYS English
+- `teach` note and funFact: ALWAYS English
+- `mc` hint, `fb` hint: ALWAYS English
+- Maximum 2 consecutive `\n` in tip/deepDive text. NEVER 3+.
+
 ### Content Formatting
 - **PP22c**: NEVER use em-dashes (—). Use periods, colons, commas, or `\n` bullets.
 - **PP27**: No IPA. ASCII-only phonetics. No slashes as separators.
@@ -153,8 +163,8 @@ Five leak types. ALL must be zero:
 - **P59**: Every teach card gets POS tag + gender. Enables color system, sentence breakdown, grammar deep dives.
 - **P60**: Story layers toggleable. Grammar depth adjustable. Platform is self-contained.
 
-### Audit Checklist (PP53 — 15 items, ALL must PASS)
-1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness
+### Audit Checklist (PP53 — 16 items, ALL must PASS)
+1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | **16. PP61 metalanguage in source language (zero German in intros/tips/notes)**
 
 ### Engine Rules
 - **PP30**: No React hooks inside renderer blocks. EVER.
@@ -180,6 +190,9 @@ Five leak types. ALL must be zero:
 4. Max 20 new vocabulary words per agent lesson. Heavy vocab = main session writes directly.
 5. Sonnet 4.6+ minimum for content. Opus for creative/complex, Sonnet for validation.
 6. Pre-digest data in agent prompts instead of making agents read large files.
+7. **MAX 4 agents at a time.** Check usage before deploying more. Never burn >50% session on one batch.
+8. **Every content agent prompt MUST include PP61 metalanguage rules.** Copy the full block from PP61 into every agent prompt. No exceptions.
+9. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
 
 ### Rule C: Build Process
 1. Validate density PER LESSON during build, not after.
@@ -233,7 +246,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Korean | v1 (old) | 30 | 330 | 6,953 | ~1,367 | Production-ready. Most audited. Pending rehaul. |
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (new) | 12 | 102 | 2,636 | ~1,075 | A1+A2 done. PP8 clean. B1/B2 pending. |
+| German v2 | v2 (new) | 36 | ~289 | ~7,776 | ~5,050 | A1-B2 built. Metalanguage 80% translated. B2 validation pending. |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -248,27 +261,29 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **PP8 scan** (2026-03-26): 66 violations fixed across all 12 units. PP8 PASS.
 - **Quiz translations** (2026-03-26): 573 fb+drag_fill steps have `sSrc` (complete English).
 - **Field rename** (2026-03-26): All `nl`→`trg`, `en`→`src`, `exampleEn`→`exampleSrc` done.
-- **V1 salvage**: NOT done. V2 was written from scratch. V1's 4,941 steps untouched.
-- **B1/B2**: PENDING. 24 units planned. Batch plan: `docs/GERMAN_MASTER_BATCH_PLAN.md`.
+- **V1 salvage** (2026-03-26): B2 mined (570 items from V1 U25-U30). B1 was built from scratch.
+- **B1 content** (DONE): 12 units (U13-U24), 99 lessons, ~2,500 steps. Metalanguage translated to English.
+- **B2 content** (DONE): 12 units (U25-U36), 96 lessons, ~2,640 steps. 1,844 vocab. Salvage-first. Intros translated, tips still pending.
+- **Metalanguage fix** (2026-03-26): PP61 added. All B1+B2 intros translated. B1 tips translated. B2 tips (~47) + A1/A2 strays (~10) still pending.
+- **Renderer fix** (2026-03-26): Note box changed from pink gradient to white + purple bar. Newlines collapsed.
 
 ### Known Blockers
-1. No POS/gender tags on existing content — 0/1,450 tagged. Blocks color system.
-2. Visual layer not built — 65 art slugs, 0 actual images, no cinematic renderer.
-3. V1 content not salvaged — 1,800+ quiz steps, 160+ tips, 38 verb tables unused.
-4. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-5. KOREAN_DICT hardcoded in engine — extract to per-language module.
+1. **B2 tips still in German** — ~47 tips + ~21 verb_table notes need English translation (PP61).
+2. **A1/A2 stray intros** — ~10 intros in U5,7,9,10,11,12 still in German.
+3. **B2 content not validated** — PP8, PP52, PP48 checks not run on B2 content.
+4. Visual layer not built — 65 art slugs, 0 actual images, no cinematic renderer.
+5. CEFR distribution imbalance — French/Spanish/Korean still template-based.
+6. KOREAN_DICT hardcoded in engine — extract to per-language module.
 
 ---
 
 ## Next Priorities
 
-1. **V1 salvage mining**: Deploy per-unit agents to grep V1 for reusable content (see handoff Phase 1)
-2. **V1 salvage validation**: Opus agents validate findings, decide TAKE/MERGE/SKIP per item (Phase 2)
-3. **Grammar tag infrastructure**: auto-tagger script + apply POS/gender to German v2 cards
-4. **German B1 build** (U13-U24): salvage-first, then write new. 12 units, 1,843 Goethe B1 words
-5. **German B2 build** (U25-U36): 12 units, 33 constructs
-6. **Story arc rewrite**: Netflix-quality narrative across all 36 units (see handoff Phase 4)
-7. **Other language rehauling**: Korean → Dutch → French → Spanish
+1. **Finish B2 tips translation** (~47 tips + ~21 verb notes): PP61 compliance. Work unit by unit, no agents.
+2. **Fix A1/A2 stray intros** (~10 items): U5,7,9,10,11,12 have German desc/goals.
+3. **B2 content validation**: PP8 leak scan, PP52 teach-before-use, PP48 step types. Run on each unit.
+4. **Story arc rewrite**: Netflix-quality narrative across all 36 units (see handoff Phase 4)
+5. **Other language rehauling**: Korean → Dutch → French → Spanish
 
 ---
 
