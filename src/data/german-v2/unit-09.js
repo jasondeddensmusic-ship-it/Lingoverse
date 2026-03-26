@@ -39,7 +39,7 @@ const UNIT_9 =
 ,
 
 {id:"deu_r9l2",title:"Was machst du gern?",icon:"🎨",xp:15,board:true,steps:[
-{type:"intro",title:"Was machst du gern?",desc:"Lerne Wörter für Hobbys, Kunst und Kultur.",goals:["14 neue Wörter für Freizeit und Kultur","Über Hobbys und Interessen sprechen","Kulturelle Orte und Aktivitäten beschreiben"]},
+{type:"intro",title:"Was machst du gern?",desc:"Learn words for hobbies, art, and culture.",goals:["14 new words for leisure and culture","Talk about hobbies and interests","Describe cultural venues and activities"]},
 {type:"teach",trg:"die Musik",src:"music",note:"Feminine. Die Musik spielt eine große Rolle in Deutschland.",funFact:"Deutschland hat über 130 professionelle Orchester. Mehr als jedes andere Land der Welt.",example:"A: Hörst du gern Musik?\nB: Ja, ich höre jeden Tag Musik.",exampleSrc:"A: Do you like listening to music?\nB: Yes, I listen to music every day."},
 {type:"teach",trg:"das Instrument",src:"instrument",note:"Neuter. Plural: die Instrumente.",funFact:"Etwa 18% der Deutschen spielen ein Instrument. Klavier und Gitarre sind am beliebtesten.",example:"A: Spielst du ein Instrument?\nB: Ja, ich spiele seit drei Jahren.",exampleSrc:"A: Do you play an instrument?\nB: Yes, I have been playing for three years."},
 {type:"teach",trg:"die Gitarre",src:"guitar",note:"Feminine. Plural: die Gitarren.",funFact:"Die klassische Gitarre kam im 19. Jahrhundert nach Deutschland und wurde schnell populär in Wandervogel-Gruppen.",example:"A: Kannst du Gitarre spielen?\nB: Ein bisschen. Ich lerne noch.",exampleSrc:"A: Can you play guitar?\nB: A little. I am still learning."},

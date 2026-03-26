@@ -163,7 +163,7 @@ const UNIT_12 =
 ,
 
 {id:"deu_r12l5",title:"Gefühle",icon:"💭",xp:15,board:true,steps:[
-{type:"intro",title:"Gefühle",desc:"Träume, Wünsche und alles dazwischen. Lerne 16 wichtige Substantive für Emotionen und abstrakte Begriffe.",goals:["16 neue Substantive lernen","Grammatik aus Lektion 1\u20134 wiederholen","Abstrakte Begriffe im Kontext verwenden"]},
+{type:"intro",title:"Gefühle",desc:"Dreams, wishes, and everything in between. Learn 16 important nouns for emotions and abstract concepts.",goals:["Learn 16 new nouns","Review grammar from lessons 1-4","Use abstract concepts in context"]},
 {type:"teach",trg:"der Traum",src:"dream",gender:"m",note:"Plural: die Träume. Umlaut im Plural.",funFact:"Deutsche sagen 'Traumjob' für ihren perfekten Beruf.",example:"A: Hattest du letzte Nacht einen Traum?\nB: Ja, ich habe von meinem Urlaub geträumt.",exampleSrc:"A: Did you have a dream last night?\nB: Yes, I dreamed about my vacation."},
 {type:"teach",trg:"der Wunsch",src:"wish",gender:"m",note:"Plural: die Wünsche. Verb: sich etwas wünschen.",funFact:"Zum Geburtstag sagt man 'Herzlichen Glückwunsch!' mit Wunsch drin.",example:"A: Hast du einen Wunsch?\nB: Ja, ich wünsche mir mehr Freizeit.",exampleSrc:"A: Do you have a wish?\nB: Yes, I wish for more free time."},
 {type:"teach",trg:"das Ziel",src:"goal",gender:"n",note:"Plural: die Ziele. Auch: destination (Reiseziel).",funFact:"'Zielstrebig' bedeutet determined, wörtlich: striving toward a goal.",example:"A: Was ist dein Ziel für dieses Jahr?\nB: Ich möchte besser Deutsch sprechen.",exampleSrc:"A: What is your goal for this year?\nB: I want to speak better German."},
@@ -287,7 +287,7 @@ const UNIT_12 =
 ,
 
 {id:"deu_r12l8",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
-{type:"intro",title:"Das letzte Kapitel",desc:"Zwanzig neue Wörter zum Abschluss: Alltag, Schule und mehr.",goals:["20 neue Nomen und Adjektive lernen","Über Schule und Alltag sprechen","Wortschatz festigen"]},
+{type:"intro",title:"Das letzte Kapitel",desc:"Twenty new words to close out the unit: everyday life, school, and more.",goals:["Learn 20 new nouns and adjectives","Talk about school and everyday life","Consolidate vocabulary"]},
 {type:"teach",trg:"das Fach",src:"subject / compartment",phonetic:"fakh",example:"A: Welches Fach magst du am liebsten?\nB: Ich mag Mathe, das ist mein bestes Fach.",exampleSrc:"A: Which subject do you like best?\nB: I like maths, that's my best subject.",note:"Neuter. Plural: Fächer. Means both a school subject and a compartment.",funFact:"In Germany, students often have 12 or more Fächer on their timetable."},
 {type:"teach",trg:"die Fundsache",src:"lost property",phonetic:"FOONT-za-khuh",example:"A: Ist das deine Fundsache?\nB: Ja, ich habe meinen Schirm im Bus vergessen.",exampleSrc:"A: Is that your lost property?\nB: Yes, I forgot my umbrella on the bus.",note:"Feminine. Compound: Fund (find) + Sache (thing).",funFact:"German trains have a central Fundbüro (lost property office) in every major station."},
 {type:"teach",trg:"die Geldbörse",src:"wallet",phonetic:"GELT-beur-zuh",example:"A: Hast du deine Geldbörse dabei?\nB: Oh nein, sie liegt noch zu Hause!",exampleSrc:"A: Do you have your wallet with you?\nB: Oh no, it's still at home!",note:"Feminine. Compound: Geld (money) + Börse (purse).",funFact:"Germans still use cash more than most Europeans, so a good Geldbörse is essential."},
