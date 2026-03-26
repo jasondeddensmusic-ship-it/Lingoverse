@@ -97,6 +97,13 @@ Every word in a quiz MUST trace to a prior dedicated teach card. "Taught" means 
 
 ---
 
+## File Access Rules (TOKEN BUDGET)
+
+- Read ONLY `src/data/german-v2/unit-NN.js` (~250 lines, ~2K tokens). NEVER read `units-german-v2.js` or the old monolith.
+- Read `docs/FORMAT_TEMPLATE.js` for format reference (84 lines).
+- Your total input should be under 10K tokens. If you need more, the task is too broad.
+- NEVER read `src/verumlingua.jsx` or `src/components/LessonEngine.jsx` — you don't need engine code for content work.
+
 ## Output Rules
 
 - Write to temp files only. Never write to main unit files.

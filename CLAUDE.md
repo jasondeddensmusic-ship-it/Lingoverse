@@ -36,27 +36,36 @@ npm run build                 # Production build (validates compilation)
 | `units-dutch.js` | 30 Dutch v2 units (old format, `nl`/`en` fields) |
 | `units-korean.js` | 30 Korean units (old format, `nl`/`en` fields) |
 | `units-german.js` | 30 German v1 units (old format, being replaced by v2) |
-| `units-german-v2.js` | Re-exports from 4 per-level files (see below) |
-| `units-german-v2-a1.js` | German v2 A1 units 1-6 (~2,000 lines) |
-| `units-german-v2-a2.js` | German v2 A2 units 7-12 (~1,800 lines) |
-| `units-german-v2-b1.js` | German v2 B1 units 13-24 (~3,400 lines) |
-| `units-german-v2-b2.js` | German v2 B2 units 25-36 (~3,200 lines) |
+| `units-german-v2.js` | Re-exports from 4 per-level files (14 lines, DO NOT read) |
+| `german-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files, ~250 lines each.** Agents read THESE. |
+| `units-german-v2-a1.js` | Imports unit-01 through unit-06 (wrapper only) |
+| `units-german-v2-a2.js` | Imports unit-07 through unit-12 (wrapper only) |
+| `units-german-v2-b1.js` | Imports unit-13 through unit-24 (wrapper only) |
+| `units-german-v2-b2.js` | Imports unit-25 through unit-36 (wrapper only) |
 | `units-french.js` | 30 French units (1.85MB, minified. Use grep, never full-read) |
 | `units-spanish.js` | 30 Spanish units (old format) |
 | `units-other.js` | Arabic skeletons (5 units) |
 
-### Engine (`src/verumlingua.jsx`, ~12,892 lines)
-Manifesto, utilities, CSS-in-JS, page components, UNITS assembly, LessonEngine, App root.
+### Engine (split into modules)
+| File | Lines | Contents |
+|------|-------|----------|
+| `src/verumlingua.jsx` | ~6,287 | Pages (Home, Profile, VocabularyPage, UnitMap, etc.) + App root |
+| `src/components/LessonEngine.jsx` | ~3,918 | All 4 teach card renderers + quiz renderers + lesson flow |
+| `src/components/shared.jsx` | ~270 | Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton |
+| `src/styles.js` | ~1,031 | CSS-in-JS design system |
+| `src/utils.js` | ~664 | Normalization (`_normStep`), UNITS assembly, search, PP8 validator, helpers |
+| `src/audio.jsx` | ~267 | TTS, SpeakerButton, UISounds, feature flags |
+| `src/hooks.js` | ~181 | `useFocusNav` keyboard navigation hook |
 
-### Normalization Layer (`_normStep()`)
+### Normalization Layer (`_normStep()` in `src/utils.js`)
 Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exampleEn`↔`exampleSrc`). Sets `_origTrg=true` on cards originally written with `trg`. Engine accepts BOTH formats transparently.
 
 ### Multiple Teach Card Renderers
-4 renderers in verumlingua.jsx must stay in sync for any visual changes:
-1. **New format** (~line 10077): `st._origTrg` — for `trg`/`src` cards
-2. **Board-mode** (~line 10392): `boardMode` — for `nl`/`en` cards
-3. **Legacy** (~line 10716): gold frame — for legacy new-word cards
-4. **Flashcard** (~line 12355): review system
+4 renderers in `src/components/LessonEngine.jsx` must stay in sync for any visual changes:
+1. **New format**: `st._origTrg` — for `trg`/`src` cards
+2. **Board-mode**: `boardMode` — for `nl`/`en` cards
+3. **Legacy**: gold frame — for legacy new-word cards
+4. **Flashcard**: review system (in `src/verumlingua.jsx` Flashcards component)
 
 ---
 
@@ -198,8 +207,10 @@ Five leak types. ALL must be zero:
 8. **Every content agent prompt MUST include `docs/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
 9. **Every story agent prompt MUST include `docs/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
 10. **Agents read `docs/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
-11. **Agents read per-level files** (`units-german-v2-b1.js` etc.), never the full re-export file.
+11. **Agents read per-unit files** (`src/data/german-v2/unit-NN.js`, ~250 lines each). NEVER the re-export (`units-german-v2.js`) or the full monolith. Per-unit = ~2K tokens. Re-export = useless wrapper. Old monolith = 110K tokens = session death.
 12. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
+13. **Token budget per agent:** Validation agent (4 units) ~10K tokens input. Content agent (1 unit) ~4K tokens. Story agent (1 unit) ~5K tokens. If an agent needs >40K input tokens, redesign the task.
+14. **Sonnet for validation + translation. Opus ONLY for creative content** (new lessons, story writing). Sonnet is 80% cheaper. Never use Opus for mechanical tasks like PP8 scanning or field translation.
 
 ### Rule C: Build Process
 1. Validate density PER LESSON during build, not after.
