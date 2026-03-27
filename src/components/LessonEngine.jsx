@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { createPortal } from "react-dom";
 import { LANGUAGES, LANG_META, LANG_BLUEPRINT, LANG_TOKENIZER } from '../data/metadata.js';
 import { TEXT_KEYS, tk, t, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, ARTICLE_COLORS, getArticle, LEVEL_XP, ACHS } from '../data/vocabulary.js';
-import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
+import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
 import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, UNITS, _romanize, _normS, validateLessonForLeaks } from '../utils.js';
 import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, UISounds } from '../audio.jsx';
 import { useFocusNav, KB_FOCUS_SEL } from '../hooks.js';
-import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton } from './shared.jsx';
+import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon, BrandIcon, _memStore, renderNavTitle } from './shared.jsx';
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
   const dk=document.documentElement.classList.contains("dark");
@@ -2157,7 +2157,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // Tagged word renderer (same as teach, respects grammarHl toggle)
     const renderTaggedStory = (tagged) => {
       if (!tagged || !Array.isArray(tagged)) return null;
-      const defaultColor = dk ? "rgba(220,210,255,0.85)" : "#3A1F8A";
+      const defaultColor = dk ? "rgba(230,225,245,0.9)" : "var(--gray-800)";
       return tagged.map((t, ti) => {
         let color = null;
         if (grammarHl) {
@@ -2180,7 +2180,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={storyBubble}>
             <div style={storyGloss}/>
             <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:16,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+              <div style={{fontSize:16,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                 {st.tagged ? renderTaggedStory(st.tagged) : universalHl(st.trg || "", lang)}
                 <SpeakerButton text={st.trg || ""} lang={ttsLocStory} size={13} showToast={showToast}/>
               </div>
@@ -2226,7 +2226,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // Tagged word renderer — colors each word by POS (respects grammarHl toggle)
     const renderTagged = (tagged) => {
       if (!tagged || !Array.isArray(tagged)) return null;
-      const defaultColor = dk ? "rgba(220,210,255,0.85)" : "#3A1F8A";
+      const defaultColor = dk ? "rgba(230,225,245,0.9)" : "var(--gray-800)";
       return tagged.map((t, ti) => {
         let color = null;
         if (grammarHl) {
@@ -2306,7 +2306,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     <div style={{...compBubble,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px",padding:"14px 18px"}}>
                       <div style={glossArc}/>
                       <div style={{position:"relative",zIndex:2}}>
-                        <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                        <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                           {st.tagged ? renderTagged(st.tagged) : universalHl(content, lang)}
                           <SpeakerButton text={content} lang={ttsLocNew} size={13} showToast={showToast}/>
                         </div>
@@ -2320,7 +2320,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             return <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
               <div style={glossArc}/>
               <div style={{position:"relative",zIndex:2}}>
-                <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                   {st.tagged ? renderTagged(st.tagged) : universalHl(ex, lang)}
                   <SpeakerButton text={ex} lang={ttsLocNew} size={13} showToast={showToast}/>
                 </div>
@@ -2419,7 +2419,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           </div>
           {/* Translation */}
           <div style={{textAlign:"center",paddingBottom:14}}>
-            <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(st.en)}</span>
+            <span style={{fontSize:18,color:"var(--gray-700)",fontWeight:700}}>{cap(st.en)}</span>
           </div>
           {/* Example row — split on \n for multi-line, renderLetterExample per line */}
           {st.example&&<div style={{borderTop:"1.5px solid var(--gray-100)",padding:"14px 22px",background:"var(--example-bg)"}}>
@@ -2584,7 +2584,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
           {/* Translation — teal */}
           <div style={{textAlign:"center",paddingBottom:st.phonetic&&showPhonetic?6:14}}>
-            <span style={{fontSize:18,color:"var(--teal-text)",fontWeight:700}}>{cap(_trans)}</span>
+            <span style={{fontSize:18,color:"var(--gray-700)",fontWeight:700}}>{cap(_trans)}</span>
           </div>
 
           {/* Phonetic — P38: right-shifted whisper below translation */}
@@ -2905,9 +2905,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             {/* Translation */}
             <div style={{textAlign:"center",paddingBottom:20}}>
               {teachKind==="letter"?
-                <span style={{fontSize:20,color:"var(--teal-dark)",fontWeight:700}}>{cap(st.en)}</span>
-              :<div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:14,padding:"8px 24px",boxShadow:"0 3px 12px rgba(46,205,167,0.25)"}}>
-                <span style={{fontSize:18,color:"white",fontWeight:700}}>{cap(st.en)}</span>
+                <span style={{fontSize:20,color:"var(--gray-700)",fontWeight:700}}>{cap(st.en)}</span>
+              :<div style={{display:"inline-block",background:"var(--gray-100)",borderRadius:14,padding:"8px 24px",boxShadow:"0 2px 8px rgba(0,0,0,0.06)"}}>
+                <span style={{fontSize:18,color:"var(--gray-700)",fontWeight:700}}>{cap(st.en)}</span>
               </div>}
             </div>
 
@@ -2950,7 +2950,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           </div>
           {showPhonetic&&<div className="anim" style={{textAlign:"center",marginBottom:8}}><span style={{fontSize:13,color:"var(--blue)",fontWeight:600}}>/{st.phonetic}/</span></div>}
           <div style={{textAlign:"center",paddingBottom:18}}>
-            <span style={{fontSize:17,color:"var(--teal-dark)",fontWeight:700}}>{cap(st.en)}</span>
+            <span style={{fontSize:17,color:"var(--gray-700)",fontWeight:700}}>{cap(st.en)}</span>
           </div>
           {/* Examples render as standalone compound bubbles */}
           {/* Letter syllable examples in review card */}
@@ -2978,13 +2978,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               {turns.map((turn,ti)=>{const isA=turn.trim().startsWith("A:");const content=turn.replace(/^[AB]:\s*/,"").trim();const enC=(turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
                 return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
                   <div style={{...bS,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}><div style={gA}/><div style={{position:"relative",zIndex:2}}>
-                    <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(content, lang)}<SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
+                    <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(content, lang)}<SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
                     {enC&&<div style={{fontSize:12,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{enC}</div>}
                   </div></div></div>;})}
             </div>;
           }
           return <div style={{...bS,marginBottom:16}}><div style={gA}/><div style={{position:"relative",zIndex:2}}>
-            <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(ex, lang)}<SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
+            <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(ex, lang)}<SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
             {exEn&&<div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,marginTop:4}}>{exEn}</div>}
           </div></div>;
         })()}
