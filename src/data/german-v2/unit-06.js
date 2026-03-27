@@ -6,6 +6,7 @@ const UNIT_6 =
 
 // ─── L1: Kaltes Wasser! ───
 {id:"deu_r6l1",title:"Kaltes Wasser!",icon:"🚿",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"shocked",art:"de-altbau-bathroom",trg:"Montagmorgen. 6:47 Uhr. Verumius dreht den Wasserhahn auf. Kalt. Er wartet. Noch kälter. Er zieht die Hand zurück. Kein Dampf, kein warmes Wasser. Nur Kälte.",src:"Monday morning. 6:47 AM. Verumius turns on the faucet. Cold. He waits. Even colder. He pulls his hand back. No steam, no hot water. Just cold."},
 {type:"intro",title:"Alles auf Deutsch",desc:"Verumius is settling into his apartment. But the hot water is gone. Time to learn daily routine, body parts, and past tense of sein/haben.",goals:["Daily routine vocabulary","Body parts","Past tense: war/hatte"]},
 {type:"teach",trg:"die Dusche",src:"the shower",note:"Feminine. Also the verb: duschen (to shower).",example:"A: Die Dusche ist kalt!\nB: Oh nein! Kein heißes Wasser?",exampleSrc:"A: The shower is cold!\nB: Oh no! No hot water?",funFact:"Germans love their showers. Average shower time: 6 minutes. Hildi's Hausordnung has a section on shower times."},
 {type:"teach",trg:"duschen",src:"to shower",note:"Regular. Reflexive in formal German (sich duschen).",example:"A: Ich dusche jeden Morgen.\nB: Warm oder kalt?",exampleSrc:"A: I shower every morning.\nB: Warm or cold?",funFact:"In everyday speech, Germans drop the 'sich': 'Ich dusche' instead of 'Ich dusche mich.' Both correct."},
@@ -32,6 +33,7 @@ const UNIT_6 =
 
 // ─── L2: Mein Tag ───
 {id:"deu_r6l2",title:"Mein Tag",icon:"⏰",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"frustrated",art:"de-altbau-kitchen",trg:"Tag zwei ohne heißes Wasser. Verumius kocht Wasser im Wasserkocher und wäscht sich am Waschbecken. Wie früher. Er schaut auf die Uhr. Halb sieben. Der Tag hat noch nicht begonnen und er ist schon müde.",src:"Day two without hot water. Verumius boils water in the kettle and washes at the sink. Like the old days. He looks at the clock. Half past six. The day has not yet started and he is already tired."},
 {type:"intro",title:"Mein Tag",desc:"Time words, clock expressions, and daily scheduling. The backbone of German life: everything runs on time.",goals:["Time nouns and adverbs","Clock expressions: um + Uhr","Yesterday/today/tomorrow"]},
 {type:"teach",trg:"der Tag",src:"the day",note:"Masculine. Also means 'hello' in southern Germany! 'Tag!'",example:"A: Was für ein schöner Tag!\nB: Ja, die Sonne scheint!",exampleSrc:"A: What a beautiful day!\nB: Yes, the sun is shining!",funFact:"'Tag!' is a casual greeting in southern Germany. Just the word 'day' as a hello."},
 {type:"teach",trg:"der Morgen",src:"the morning / tomorrow",note:"Masculine. Morgen = morning AND tomorrow!",example:"A: Guten Morgen!\nB: Morgen habe ich frei.",exampleSrc:"A: Good morning!\nB: Tomorrow I'm off.",funFact:"'Morgen Morgen' = tomorrow morning. Germans find this funny too."},
@@ -58,6 +60,7 @@ const UNIT_6 =
 
 // ─── L3: Montag bis Sonntag ───
 {id:"deu_r6l3",title:"Montag bis Sonntag",icon:"📅",xp:15,board:true,steps:[
+{type:"story",speaker:"verumius",mood:"worried",art:"de-altbau-calendar",trg:"Montag: kalt. Dienstag: kalt. Mittwoch: kalt. Verumius macht Striche in den Kalender. Drei Tage ohne warmes Wasser. Er muss die Hausverwaltung anrufen. Aber auf Deutsch. Am Telefon. Sein Magen dreht sich um.",src:"Monday: cold. Tuesday: cold. Wednesday: cold. Verumius makes marks in the calendar. Three days without hot water. He needs to call the property management. But in German. On the phone. His stomach turns."},
 {type:"intro",title:"Montag bis Sonntag",desc:"Days of the week, months, and ordinal numbers. All named after gods, planets, or Latin numbers.",goals:["7 days of the week","First 6 months","Ordinals: erste, zweite, dritte"]},
 {type:"teach",trg:"der Montag",src:"Monday",note:"Masculine. All days are masculine! Mond (moon) + Tag.",example:"A: Am Montag gehe ich arbeiten.\nB: Ich auch!",exampleSrc:"A: On Monday I go to work.\nB: Me too!",funFact:"Moon-day! Same as English Monday (Moon's day). Same Germanic origin."},
 {type:"teach",trg:"der Dienstag",src:"Tuesday",note:"Named after Tyr/Ziu (Norse god).",example:"A: Am Dienstag habe ich Deutsch.\nB: Viel Spaß!",exampleSrc:"A: On Tuesday I have German.\nB: Have fun!",funFact:"English Tuesday = Tyr's day. German Dienstag = Ziu's day. Same god of war and law. (Thor/Donner is the thunder god.)"},
@@ -81,6 +84,7 @@ const UNIT_6 =
 
 // ─── L4: Juli bis Dezember ───
 {id:"deu_r6l4",title:"Juli bis Dezember",icon:"🌦️",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"gloomy",art:"de-altbau-window-rain",trg:"Donnerstag. Draußen regnet es. Drinnen ist es kalt. Verumius steht am Fenster und sieht die grauen Berliner Wolken. Im Sommer war alles warm. Jetzt ist Herbst und nichts funktioniert.",src:"Thursday. Outside it rains. Inside it is cold. Verumius stands at the window and watches the gray Berlin clouds. In summer everything was warm. Now it is autumn and nothing works."},
 {type:"intro",title:"Juli bis Dezember",desc:"Remaining months, all four seasons, weather vocabulary, and more ordinals. When things happen and what it is like outside.",goals:["6 remaining months","4 seasons with im + season","Weather vocabulary"]},
 {type:"teach",trg:"der Juli / der August",src:"July / August",note:"Both masculine. Named after Roman emperors.",example:"A: Im Juli fahren wir nach Spanien.\nB: Und im August?",exampleSrc:"A: In July we're going to Spain.\nB: And in August?",funFact:"Juli = Julius Caesar. August = Emperor Augustus. August is Germany's main vacation month."},
 {type:"teach",trg:"der September / der Oktober / der November / der Dezember",src:"Sept / Oct / Nov / Dec",note:"All masculine. Nearly identical to English.",example:"A: Im Oktober ist Oktoberfest!\nB: Und im Dezember Weihnachten.",exampleSrc:"A: In October is Oktoberfest!\nB: And in December Christmas.",funFact:"Sept=7, Okt=8, Nov=9, Dez=10 in the old Roman calendar (year started in March)."},
@@ -100,7 +104,8 @@ const UNIT_6 =
 {type:"mc",q:"Der vierte ___ ist der amerikanische Nationalfeiertag.",opts:["Juli","Juni","August","Mai"],ans:"Juli",hint:"Independence Day: July 4th."},
 {type:"drag_fill",s:"Gestern {1} es kalt und ich {2} keinen Regenschirm.",blanks:{"1":"war","2":"hatte"},pool:["war","hatte","ist","habe","bin"],hint:"Past tense of the two most important auxiliary verbs. Think about existence vs. possession.",sSrc:"Yesterday it was cold and I had no umbrella."},
 {type:"match",pairs:[{trg:"der Frühling",src:"spring"},{trg:"der Sommer",src:"summer"},{trg:"der Herbst",src:"autumn"},{trg:"der Winter",src:"winter"},{trg:"das Wetter",src:"weather"}]},
-{type:"mc",q:"'Leider' means:",opts:["unfortunately","luckily","always","never"],ans:"unfortunately",hint:"From 'Leid' (suffering). Softens bad news."}
+{type:"mc",q:"'Leider' means:",opts:["unfortunately","luckily","always","never"],ans:"unfortunately",hint:"From 'Leid' (suffering). Softens bad news."},
+{type:"story",speaker:"verumius",mood:"determined",art:"de-altbau-notepad",trg:"Freitagabend. Verumius sitzt am Tisch. Ein Notizblock, ein Wörterbuch, sein Handy. Er schreibt Wörter auf: Heizung. Warmwasser. Reparatur. Morgen ruft er an. Auf Deutsch.",src:"Friday evening. Verumius sits at the table. A notepad, a dictionary, his phone. He writes down words: heating, hot water, repair. Tomorrow he calls. In German."}
 ]},
 
 // ─── L5: Der Anruf ───
@@ -174,6 +179,7 @@ const UNIT_6 =
 
 // ─── L8: Arbeit und Studium ───
 {id:"deu_r6l8",title:"Arbeit und Studium",icon:"💼",xp:15,board:true,steps:[
+{type:"story",speaker:"kd",mood:"nostalgic",art:"de-kd-buergeramt-split",trg:"Verumius denkt an seinen ersten Tag am Bürgeramt. Damals konnte er kaum ein Wort sagen. Jetzt telefoniert er mit der Hausverwaltung. Auf Deutsch. KD flüstert in seinem Kopf: 'Siehst du? Du kannst das.'",src:"Verumius thinks about his first day at the registration office. Back then he could barely say a word. Now he talks on the phone with the property management. In German. KD whispers in his head: 'See? You can do this.'"},
 {type:"intro",title:"Arbeit und Studium",desc:"Work, education, and professions. What do you do? How do you describe your job? The most common small-talk topic after weather.",goals:["Work and job vocabulary","Education terms","Describe your profession"]},
 {type:"teach",trg:"die Arbeit / arbeiten",src:"work / to work",note:"Arbeit is feminine. Arbeiten is regular.",example:"A: Wo arbeitest du?\nB: Ich arbeite in einem Büro.",exampleSrc:"A: Where do you work?\nB: I work in an office.",funFact:"'Arbeit macht frei' is a dark phrase from history. In everyday use, 'Arbeit' is neutral: 'Ich gehe zur Arbeit.'"},
 {type:"teach",trg:"der Beruf / der Job",src:"profession / job",note:"Beruf is formal (profession). Job is casual.",example:"A: Was ist dein Beruf?\nB: Ich bin Lehrer.",exampleSrc:"A: What is your profession?\nB: I am a teacher.",funFact:"German drops the article for professions: 'Ich bin Lehrer' (not 'Ich bin EIN Lehrer'). Unique grammar rule."},
@@ -196,6 +202,7 @@ const UNIT_6 =
 
 // ─── L9: Freizeit und Hobbys ───
 {id:"deu_r6l9",title:"Freizeit und Hobbys",icon:"🎨",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"restless",art:"de-altbau-couch",trg:"Sonntagmittag. Verumius versucht zu lesen. Er kann sich nicht konzentrieren. Kalt duschen, kalt spülen, kalt alles. Er legt das Buch weg und starrt an die Decke. Was machen andere Leute am Sonntag?",src:"Sunday afternoon. Verumius tries to read. He cannot concentrate. Cold shower, cold dishes, cold everything. He puts the book down and stares at the ceiling. What do other people do on Sundays?"},
 {type:"intro",title:"Freizeit und Hobbys",desc:"What do you do in your free time? Sports, music, travel, and the verb 'gern.' Express what you enjoy.",goals:["Hobby and leisure vocabulary","Sports and activities","Express interests with gern/lieber"]},
 {type:"teach",trg:"die Freizeit / das Hobby",src:"free time / hobby",note:"Freizeit is feminine. Hobby is neuter (borrowed from English).",example:"A: Was machst du in deiner Freizeit?\nB: Mein Hobby ist Schwimmen.",exampleSrc:"A: What do you do in your free time?\nB: My hobby is swimming.",funFact:"'Freizeit' = free + time. A compound noun. Germans take Freizeit seriously: it's when the rules relax."},
 {type:"teach",trg:"der Sport / schwimmen",src:"sport / to swim",note:"Sport is masculine. Schwimmen is irregular (past: schwamm).",example:"A: Treibst du Sport?\nB: Ja, ich schwimme gern.",exampleSrc:"A: Do you do sports?\nB: Yes, I like swimming.",funFact:"'Sport treiben' = to do sports. Treiben literally = to drive/push. Germans push themselves."},
@@ -213,7 +220,8 @@ const UNIT_6 =
 {type:"drag_fill",s:"Ich {1} gern Fußball, aber ich {2} lieber Fahrrad.",blanks:{"1":"spiele","2":"fahre"},pool:["spiele","fahre","laufe","schwimme","tanze","singe"],hint:"I like playing soccer, but I prefer cycling.",sSrc:"I like to play soccer, but I prefer to ride my bicycle."},
 {type:"fb",s:"Gehen wir heute Abend ins {1}?",a:["Kino"],opts:["Kino","Büro","Krankenhaus","Bürgeramt"],hint:"The place where you watch films.",sSrc:"Shall we go to the cinema tonight?"},
 {type:"mc",q:"'Spielen' can be used for:",opts:["sports, instruments, and games","only sports","only music","only children's games"],ans:"sports, instruments, and games",hint:"Fußball spielen, Gitarre spielen, Karten spielen. Universal play verb."},
-{type:"fb",s:"Mein Hobby ist {1}. Ich reise jedes Jahr.",a:["Reisen"],opts:["Reisen","Lesen","Kochen","Tanzen"],hint:"Travel as a hobby. The noun form.",sSrc:"My hobby is traveling. I travel every year."}
+{type:"fb",s:"Mein Hobby ist {1}. Ich reise jedes Jahr.",a:["Reisen"],opts:["Reisen","Lesen","Kochen","Tanzen"],hint:"Travel as a hobby. The noun form.",sSrc:"My hobby is traveling. I travel every year."},
+{type:"story",speaker:"verumius",mood:"determined",art:"de-altbau-phone-prep",trg:"Genug. Morgen ist Montag. Morgen ruft Verumius die Hausverwaltung an. Er übt den Satz: 'Guten Tag, ich habe ein Problem mit dem Warmwasser.' Zehn Mal. Zwanzig Mal. Er ist bereit.",src:"Enough. Tomorrow is Monday. Tomorrow Verumius calls the property management. He practices the sentence: 'Good day, I have a problem with the hot water.' Ten times. Twenty times. He is ready."}
 ]},
 
 // ─── L10: Ein Fest planen ───
@@ -262,6 +270,7 @@ const UNIT_6 =
 
 // ─── L12: Alles auf Deutsch ───
 {id:"deu_r6l12",title:"Alles auf Deutsch",icon:"🏆",xp:25,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"proud",art:"de-altbau-morning-light",trg:"Mittwochmorgen. Warmes Wasser. Verumius steht unter der Dusche und lächelt. Er hat die Hausverwaltung angerufen. Er war beim Arzt. Er war am Bürgeramt. Er hat eine Party gemacht. Alles auf Deutsch.",src:"Wednesday morning. Hot water. Verumius stands under the shower and smiles. He called the property management. He went to the doctor. He went to the registration office. He threw a party. All in German."},
 {type:"intro",title:"Alles auf Deutsch",desc:"Comprehensive Unit 6 review. All vocabulary domains, all grammar, all communicative functions. Prove you can handle daily life in Germany.",goals:["Full Unit 6 vocabulary review","All grammar constructs tested","A1 mastery demonstrated"]},
 {type:"mc",q:"'Ich ___ jeden Morgen um sieben Uhr.'",opts:["dusche","schlafe","einschlafe","wecke"],ans:"dusche",hint:"Morning hygiene routine. What do you do at 7 AM?"},
 {type:"fb",s:"Gestern {1} das Wasser kalt.",a:["war"],opts:["war","ist","hatte","hat"],hint:"Past tense of sein. Yesterday the water WAS cold.",sSrc:"Yesterday the water was cold."},
@@ -280,10 +289,12 @@ const UNIT_6 =
 {type:"mc",q:"Hildi says 'Sie können Hildi sagen.' This means:",opts:["Use my first name","Say hello to Hildi","Read the Hausordnung","Call me tomorrow"],ans:"Use my first name",hint:"A shift from formal to personal. She invites informality by sharing something."},
 {type:"fb",s:"Es {1} mir sehr gut in Deutschland.",a:["gefällt"],opts:["gefällt","schmeckt","ist","hat"],hint:"I like it here. Gefallen + dative.",sSrc:"It pleases me very well in Germany."},
 {type:"drag_fill",s:"Am {1} gehe ich zum Arzt, im {2} fahre ich nach Spanien, und um {3} Uhr fange ich an.",blanks:{"1":"Montag","2":"Sommer","3":"neun"},pool:["Montag","Sommer","neun","Januar","Winter","drei"],hint:"am + day, im + season, um + time. Three time expressions.",sSrc:"On Monday I go to the doctor, in summer I travel to Spain, and at nine o'clock I start."},
-{type:"mc",q:"A1 is complete. Verumius can now:",opts:["Survive daily life in Germany","Discuss philosophy in German","Write academic papers","Translate poetry"],ans:"Survive daily life in Germany",hint:"A1 = survival level. Real communication starts at A2."}
+{type:"mc",q:"A1 is complete. Verumius can now:",opts:["Survive daily life in Germany","Discuss philosophy in German","Write academic papers","Translate poetry"],ans:"Survive daily life in Germany",hint:"A1 = survival level. Real communication starts at A2."},
+{type:"story",speaker:"narrator",mood:"warm",art:"de-altbau-hallway-evening",trg:"Verumius steht im Flur. Warmes Licht aus Hildis Wohnung. Kaltes Bier von der Einweihungsfeier im Kühlschrank. Sein Name am Briefkasten. Er ist angekommen. A1 ist geschafft. Aber die Geschichte hat gerade erst begonnen.",src:"Verumius stands in the hallway. Warm light from Hildi's apartment. Cold beer from the housewarming in the fridge. His name on the mailbox. He has arrived. A1 is done. But the story has only just begun."}
 ]},
 
 {id:"deu_r6l13",title:"Arbeit und Bildung",icon:"🎓",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"confident",art:"de-verumius-desk",trg:"Am Arbeitsplatz. Verumius erzählt seinem Kollegen von der Heizung. 'Ich habe die Hausverwaltung angerufen. Auf Deutsch.' Der Kollege lacht: 'Und? Haben sie dich verstanden?' 'Ja. Und ich habe sie auch verstanden.'",src:"At work. Verumius tells his colleague about the heating. 'I called the property management. In German.' The colleague laughs: 'And? Did they understand you?' 'Yes. And I understood them too.'"},
 {type:"intro",title:"Arbeit und Bildung",desc:"Work and education vocabulary: jobs, studies, and the workplace.",goals:["Learn 20 words about work and education","Practice using job and study vocabulary in context"]},
 {type:"teach",trg:"der Arbeitsplatz",src:"the workplace",note:"Masculine noun. Plural: die Arbeitsplätze. Compound: Arbeit (work) + Platz (place).",example:"A: Wie ist dein Arbeitsplatz?\nB: Mein Arbeitsplatz ist sehr modern.",exampleSrc:"A: How is your workplace?\nB: My workplace is very modern.",funFact:"Germans value a tidy Arbeitsplatz. Many offices have rules about keeping desks clean before going home."},
 {type:"teach",trg:"die Klasse",src:"the class/classroom",note:"Feminine noun. Plural: die Klassen.",example:"A: In welcher Klasse ist dein Kind?\nB: Mein Kind ist in der dritten Klasse.",exampleSrc:"A: What class is your child in?\nB: My child is in third grade.",funFact:"In Germany, Klasse also means grade level. Erste Klasse on a train means first class."},
@@ -312,6 +323,7 @@ const UNIT_6 =
 ]},
 
 {id:"deu_r6l14",title:"Stift und Papier",icon:"✏️",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"focused",art:"de-altbau-desk-notes",trg:"Abends am Schreibtisch. Verumius schreibt einen Brief an die Hausverwaltung. 'Sehr geehrte Damen und Herren, das Warmwasser in meiner Wohnung...' Er streicht durch, fängt neu an. Die richtigen Wörter auf Papier. Das ist schwerer als am Telefon.",src:"Evening at the desk. Verumius writes a letter to the property management. 'Dear Sir or Madam, the hot water in my apartment...' He crosses it out, starts over. The right words on paper. That is harder than on the phone."},
 {type:"intro",title:"Stift und Papier",desc:"Writing, media, and learning materials. From pencils to newspapers.",goals:["Learn 20 words about writing and media","Practice using these words in everyday contexts"]},
 {type:"teach",trg:"die Antwort",src:"the answer",note:"Feminine noun. Plural: die Antworten. Verb: antworten (to answer).",example:"A: Weißt du die Antwort?\nB: Ja, die Antwort ist Berlin.",exampleSrc:"A: Do you know the answer?\nB: Yes, the answer is Berlin.",funFact:"Antwort comes from Old High German antwurti, meaning a response given face to face."},
 {type:"teach",trg:"die Anzeige",src:"the advertisement/display",note:"Feminine noun. Plural: die Anzeigen. Can mean ad, display, or police report.",example:"A: Hast du die Anzeige gelesen?\nB: Ja, sie suchen einen Koch.",exampleSrc:"A: Did you read the advertisement?\nB: Yes, they are looking for a cook.",funFact:"Anzeige can also mean filing a police report. Ich erstatte Anzeige means I am pressing charges."},
@@ -340,6 +352,7 @@ const UNIT_6 =
 ]},
 
 {id:"deu_r6l15",title:"Am Telefon",icon:"📱",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"surprised",art:"de-altbau-phone-ring",trg:"Das Handy klingelt. Eine Berliner Nummer. 'Hausverwaltung Berlin-Mitte, Frau Kovacs. Wir haben Ihren Brief erhalten.' Verumius schluckt. 'Ja, hallo, es geht um das Warmwasser...' 'Ja, wir schicken morgen einen Techniker.' So einfach.",src:"The phone rings. A Berlin number. 'Berlin-Mitte property management, Mrs. Kovacs. We received your letter.' Verumius swallows. 'Yes, hello, it is about the hot water...' 'Yes, we will send a technician tomorrow.' Just like that."},
 {type:"intro",title:"Am Telefon",desc:"Communication, phone, mail, and technology vocabulary for everyday life.",goals:["Learn 18 words about phones, mail, and technology","Practice using communication vocabulary in context"]},
 {type:"teach",trg:"der Absender",src:"the sender",note:"Masculine noun. Plural: die Absender. From ab (away) + senden (to send).",example:"A: Wer ist der Absender?\nB: Der Absender ist mein Bruder.",exampleSrc:"A: Who is the sender?\nB: The sender is my brother.",funFact:"On German letters, the Absender goes in the top left corner, not on the back of the envelope."},
 {type:"teach",trg:"der Anrufbeantworter",src:"the answering machine",note:"Masculine noun. Plural: die Anrufbeantworter. Compound: Anruf (call) + Beantworter (answerer).",example:"A: Hast du meine Nachricht gehört?\nB: Nein, mein Anrufbeantworter war voll.",exampleSrc:"A: Did you hear my message?\nB: No, my answering machine was full.",funFact:"At 19 letters, Anrufbeantworter is a classic example of German compound words. Most people just say AB."},
@@ -366,6 +379,7 @@ const UNIT_6 =
 ]},
 
 {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
+{type:"story",speaker:"verumius",mood:"chatty",art:"de-cafe-friends",trg:"Im Cafe mit Lukas. 'Und dann? Was hast du gesagt?' 'Ich habe gesagt: Es geht um das Warmwasser. Und sie hat gesagt: Wir schicken einen Techniker.' Lukas klopft auf den Tisch: 'Siehst du! Du lebst jetzt hier. Auf Deutsch.'",src:"At the cafe with Lukas. 'And then? What did you say?' 'I said: It is about the hot water. And she said: We will send a technician.' Lukas taps the table: 'See! You live here now. In German.'"},
 {type:"intro",title:"Was machst du so?",desc:"Daily activities, hobbies, and action verbs for everyday German life.",goals:["Learn 18 essential activity and hobby verbs","Practice separable prefix verbs","Use verbs in everyday conversation"]},
 {type:"teach",trg:"anmelden",src:"to register / sign up",note:"Separable: Ich melde mich an. Reflexive with sich.",example:"A: Hast du dich schon angemeldet?\nB: Nein, ich melde mich morgen an.",exampleSrc:"A: Have you already registered?\nB: No, I'll register tomorrow.",funFact:"Germans register for everything: gym, courses, even moving to a new city (Anmeldung)."},
 {type:"teach",trg:"ausfüllen",src:"to fill out",note:"Separable: Ich fülle das Formular aus.",example:"A: Kannst du das Formular ausfüllen?\nB: Ja, ich fülle es jetzt aus.",exampleSrc:"A: Can you fill out the form?\nB: Yes, I'll fill it out now.",funFact:"German bureaucracy loves forms. You will ausfüllen many Formulare in your life in Germany."},
@@ -392,6 +406,7 @@ const UNIT_6 =
 ]},
 
 {id:"deu_r6l17",title:"Zeit und Feste",icon:"🎊",xp:15,board:true,steps:[
+{type:"story",speaker:"narrator",mood:"celebratory",art:"de-altbau-hot-shower",trg:"Samstagmorgen. Der Techniker war da. Verumius dreht den Hahn auf. Dampf. Warmes Wasser. Er steht zehn Minuten unter der Dusche und lacht. Feierabend. Zeit zum Feiern.",src:"Saturday morning. The technician was here. Verumius turns the faucet on. Steam. Hot water. He stands under the shower for ten minutes and laughs. Done. Time to celebrate."},
 {type:"intro",title:"Zeit und Feste",desc:"Time expressions, holidays, and celebrations in German culture.",goals:["Learn 20 words for time, holidays, and celebrations","Practice using time-related nouns with articles","Talk about events and special occasions"]},
 {type:"teach",trg:"das Ende",src:"the end",note:"Neuter noun. Plural: die Enden. Am Ende = in the end.",example:"A: Wann ist das Ende vom Film?\nB: Um zehn Uhr. Es dauert noch eine Stunde.",exampleSrc:"A: When is the end of the movie?\nB: At ten o'clock. It lasts another hour.",funFact:"Ende gut, alles gut (all's well that ends well) is a beloved German proverb borrowed from Shakespeare."},
 {type:"teach",trg:"das Jahr",src:"the year",note:"Neuter noun. Plural: die Jahre. Dieses Jahr = this year.",example:"A: Wie viele Jahre lebst du schon in Berlin?\nB: Ich lebe seit drei Jahren hier.",exampleSrc:"A: How many years have you lived in Berlin?\nB: I've lived here for three years.",funFact:"Jahrgang means both a year's vintage of wine and the year someone was born. Germans ask Welcher Jahrgang bist du?"},
@@ -420,6 +435,7 @@ const UNIT_6 =
 ]},
 
 {id:"deu_r6l18",title:"Noch mehr Verben",icon:"💪",xp:15,board:true,steps:[
+{type:"story",speaker:"hildi",mood:"approving",art:"de-hallway-hildi-tea",trg:"Im Treppenhaus. Hildi hält eine Tasse Tee. 'Sie haben das gut gemacht, Herr Verumius. Das mit der Hausverwaltung. Nicht jeder traut sich, auf Deutsch anzurufen.' Sie nickt. 'Nächstes Mal helfe ich Ihnen. Aber Sie brauchen meine Hilfe nicht mehr.'",src:"In the stairwell. Hildi holds a cup of tea. 'You did that well, Mr. Verumius. The thing with the property management. Not everyone dares to call in German.' She nods. 'Next time I will help you. But you do not need my help anymore.'"},
 {type:"intro",title:"Noch mehr Verben",desc:"Essential remaining verbs, adjectives, and time expressions to round out your A1 vocabulary.",goals:["Learn 18 remaining essential words","Master time adverbs and adjectives","Use common verb phrases in context"]},
 {type:"teach",trg:"wehtun",src:"to hurt / ache",note:"Separable: Es tut weh = It hurts. Mir tut der Kopf weh = My head hurts.",example:"A: Was ist los?\nB: Mein Bauch tut weh. Ich brauche eine Pause.",exampleSrc:"A: What's wrong?\nB: My stomach hurts. I need a break.",funFact:"Germans point to the body part and say Es tut weh. Weh is an old word for pain, related to English 'woe.'"},
 {type:"teach",trg:"warten",src:"to wait",note:"Regular verb. Warten auf + accusative = to wait for.",example:"A: Worauf wartest du?\nB: Ich warte auf den Bus. Er kommt in fünf Minuten.",exampleSrc:"A: What are you waiting for?\nB: I'm waiting for the bus. It comes in five minutes.",funFact:"Warten auf has a fixed preposition (auf). Der Warteraum (waiting room) is found in every German doctor's office."},
@@ -442,7 +458,8 @@ const UNIT_6 =
 {type:"mc",q:"What does 'wehtun' mean?",opts:["to hurt / ache","to wait","to repeat","to be gone"],ans:"to hurt / ache",hint:"Think of something causing pain in your body."},
 {type:"fb",s:"Ich {1} auf den Bus. Er kommt bald.",a:"warte",opts:["warte","fahre","bin","mache"],hint:"This regular verb takes the preposition 'auf' for what you expect.",sSrc:"I wait for the bus. It is coming soon."},
 {type:"mc",q:"'Bis später' means...",opts:["See you later","Good morning","Goodbye forever","Until tomorrow"],ans:"See you later",hint:"Bis means until. Später means at a following time."},
-{type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"Seven days make up this time period.",sSrc:"Last week I was at the cinema."}
+{type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"Seven days make up this time period.",sSrc:"Last week I was at the cinema."},
+{type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"Evening. Verumius sits at the window. Warm tea, warm water, warm apartment. Outside, Berlin glows. Hildi was right: in the beginning, everything is hard. But after that, it gets easier. Until the next adventure."}
 ]}
 
 ]};
