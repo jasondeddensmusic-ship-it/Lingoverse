@@ -106,12 +106,17 @@ verumlingua.jsx  →  shared.jsx, LessonEngine.jsx, utils.js, audio.jsx, hooks.j
 
 ## TODO List (In Priority Order)
 
-### P3: Content Validation — B1+B2 (U13-U36) — URGENT
+### P3: Content Validation — B1+B2 (U13-U36) — PHASE 1 DONE, PHASE 2 NEXT
 
-PP8+PP50+PP48 validation needed across ALL B1 and B2 units (not just B2 as previously scoped). Known issues found in B1 Karneval unit: quiz cards that test nothing (answer visible in options), nonsense distractors (invalid German), PP50 classification-not-use violations. This undermines learner trust.
+Phase 1 complete: PP61 hints translated (120+), PP8 parenthetical leaks fixed (18 cards), PP50 classification converted (7 cards).
 
-**Scope**: 24 units (U13-U36). Run PP8 leak scan, PP50 use-not-classify check, PP48 step type validation.
-**Agent strategy**: Deploy 3 Sonnet agents, each validating 8 units. Report violations. Main session fixes.
+**Phase 2 remaining** (~100 violations):
+- PP8 hint leaks (~70): hints that name the answer word. Fix manually, no agents.
+- PP8 visual leaks (9): U14 relative pronoun questions expose answer in question text.
+- PP8 position (5 units): U13, U18, U20, U29, U33 have skewed answer positions.
+- PP8 pattern (~20): answer is consistently the longest option.
+- PP50 classification (~8): B2 grammar-labeling questions.
+- PP61 (3): U14 tip, U17 tip, U19 intro still in German.
 
 ### P4: Story Arc Rewrite — CONTINUE (Phase 2+)
 
@@ -149,7 +154,7 @@ Korean > Dutch > French > Spanish. Not started.
 
 1. **Bundle size 19MB** — causes slow initial load on production. Code splitting needed.
 2. **Pre-existing LearnPage console error** — React Strict Mode double-render logs an error but doesn't affect functionality. Non-blocking.
-3. **B2 content not validated** — PP8, PP52, PP48 not run on U25-U36
+3. **B1+B2 validation Phase 2** — ~100 remaining violations (PP8 hint leaks, visual leaks, position, pattern; PP50 classification; PP61 tips)
 4. **POS tags: 0/1,450** — blocks the color system
 5. **Visual layer not built** — 65 art slugs referenced, 0 actual images
 
@@ -162,16 +167,47 @@ Korean > Dutch > French > Spanish. Not started.
 | Korean | v1 | 30 | 330 | 6,953 | ~1,367 | Production. Pending rehaul. |
 | Dutch | v2 old | 30 | 261 | ~5,825 | ~1,300 | Production. Pending rehaul. |
 | German v1 | v1 | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| **German v2** | **v2 new** | **36** | **~289** | **~7,843** | **~5,050** | **A1-B2 built. Story rewrite in progress.** |
+| **German v2** | **v2 new** | **36** | **~289** | **~7,843** | **~5,050** | **A1-B2 built. PP61 hints DONE. PP8/PP50 Phase 2 pending. Story rewrite started.** |
 | French | v1 | 30 | 258 | ~4,781 | ~1,077 | Production. Pending rehaul. |
 | Spanish | v1 | 30 | 258 | ~4,739 | ~1,062 | Production. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | -- | -- | Deferred. |
 
 ---
 
+### 6. P3 Content Validation — PP61 + PP8 Fixes (21 Units)
+
+Ran full validation audit on U13-U36 with 6 Sonnet agents. Fixed highest-priority violations.
+
+**PP61 Metalanguage (~120 hints translated):**
+- All quiz hint fields in U16, U21-U35 translated German → English
+- German grammar terms preserved (Plusquamperfekt, Konjunktiv, Dativ)
+- Build passes, no logic changes
+
+**PP8 Parenthetical Leak Fixes (18 MC cards):**
+- U13: 4 cards — removed "(erzählende Vergangenheit)" etc.
+- U14: 1 card — removed "den: maskulin Akkusativ (wir haben IHN empfangen)"
+- U15: 4 cards — converted to fill-in-blank format
+- U17: 1 card — Karneval "(instead of being)" + invalid "weil...sein"
+- U18: 1 card — removed "(pork)", "(beef)" from food vocab
+- U27: 4 cards — removed grammar term parentheticals
+- U28: 2 cards — removed "(indirekte Rede)"
+- U31: 1 card — removed "(vollendetes Futur)"
+
+**PP50 Classification → Use (7 cards):**
+- U13: 2, U14: 2, U17: 3 — converted "Welcher Modus?" to practical production
+
+**Remaining violations (next session):**
+- PP8 hint leaks: ~70 (hints name the answer word)
+- PP8 visual leaks: 9 (U14 relative pronouns)
+- PP8 position: 5 units (U13, U18, U20, U29, U33)
+- PP8 pattern: ~20 (answer = longest option)
+- PP50 classification: ~8 in B2
+- PP61: 3 items (U14 tip, U17 tip, U19 intro)
+
 ## Commits This Session
 
 ```
+f557b5f P3 validation: PP61 hint translations + PP8 parenthetical leak fixes (21 units)
 299d5ef Fix punctuation rendering on separate line in dialogue bubbles
 49644e2 Fix remaining purple dialogue bubbles in board-mode teach cards
 9debc45 Fix JSX split broken imports + story cards for U4/U5 + color fixes
