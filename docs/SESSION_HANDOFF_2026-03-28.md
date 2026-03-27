@@ -106,6 +106,13 @@ verumlingua.jsx  →  shared.jsx, LessonEngine.jsx, utils.js, audio.jsx, hooks.j
 
 ## TODO List (In Priority Order)
 
+### P3: Content Validation — B1+B2 (U13-U36) — URGENT
+
+PP8+PP50+PP48 validation needed across ALL B1 and B2 units (not just B2 as previously scoped). Known issues found in B1 Karneval unit: quiz cards that test nothing (answer visible in options), nonsense distractors (invalid German), PP50 classification-not-use violations. This undermines learner trust.
+
+**Scope**: 24 units (U13-U36). Run PP8 leak scan, PP50 use-not-classify check, PP48 step type validation.
+**Agent strategy**: Deploy 3 Sonnet agents, each validating 8 units. Report violations. Main session fixes.
+
 ### P4: Story Arc Rewrite — CONTINUE (Phase 2+)
 
 Story card density elevation across all 36 German v2 units. Target: 30-40 cards per unit, every lesson with open+close bookends.
