@@ -2663,7 +2663,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   <div style={{...bubbleStyle,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}>
                     <div style={glossArc}/>
                     <div style={{position:"relative",zIndex:2}}>
-                      <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                      <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                         {universalHl(content, lang)}
                         <SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
                       </div>
@@ -2677,7 +2677,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           return <div style={{...bubbleStyle,marginBottom:14}}>
             <div style={glossArc}/>
             <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+              <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                 {universalHl(ex, lang)}
                 <SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
               </div>
