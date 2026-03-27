@@ -49,13 +49,17 @@ const UNIT_19 =
 
 {type:"fb",s:"Verumius muss {1} alle Unterlagen sammeln.",a:["zunächst"],opts:["zunächst","danach","trotzdem","während"],hint:"Which word means 'first of all' when listing steps?",sSrc:"Verumius must first of all collect all the documents."},
 
-{type:"mc",q:"Verumius hat eine vorläufige Genehmigung. Was bedeutet das?",opts:["Die Genehmigung ist abgelaufen.","Die Genehmigung ist temporär.","Die Genehmigung ist falsch.","Die Genehmigung ist endgültig."],ans:"Die Genehmigung ist temporär.",hint:"Vorläufig means something is not yet permanent."}
+{type:"mc",q:"Verumius hat eine vorläufige Genehmigung. Was bedeutet das?",opts:["Die Genehmigung ist abgelaufen.","Die Genehmigung ist temporär.","Die Genehmigung ist falsch.","Die Genehmigung ist endgültig."],ans:"Die Genehmigung ist temporär.",hint:"Vorläufig means something is not yet permanent."},
+
+{type:"story",speaker:"narrator",mood:"patient",art:"de-auslaenderbehoerde-waiting",trg:"Das Display zeigt B052. Verumius rechnet: noch 37 Nummern. Er holt sein Handy raus und schreibt KD: 'Bin in der Behörde. Warte seit einer Stunde.' KD antwortet sofort: 'Normal. Geduld ist eine deutsche Tugend.'",src:"The display shows B052. Verumius calculates: 37 more numbers. He takes out his phone and texts KD: 'I am at the office. Been waiting for an hour.' KD replies immediately: 'Normal. Patience is a German virtue.'"}
 ]},
 
 // ===== LESSON 2: "Amtsdeutsch" (Official German) =====
 // Vocab teach (bureaucracy + legal + family). 18 new words. 24 steps.
 {id:"deu_r19l2",title:"Amtsdeutsch",icon:"\uD83D\uDCDC",xp:15,board:true,steps:[
 {type:"intro",title:"Amtsdeutsch",desc:"Die Sprache der deutschen Verwaltung: lang, genau und voller Fachbegriffe. Gesetze, Gebühren, Pflichten. Willkommen in der Welt des Amtsdeutsch.",goals:["Lerne bürokratisches Vokabular für Amt und Recht","Verstehe Fachbegriffe der Verwaltung","Meistere Wörter für Staatsbürgerschaft und Pflichten"]},
+
+{type:"story",speaker:"narrator",mood:"observant",art:"de-auslaenderbehoerde-waiting",trg:"Verumius beobachtet die anderen Wartenden. Eine Frau sortiert Papiere. Ein Mann tippt nervös auf sein Handy. An der Wand hängt ein Plakat: 'Bitte halten Sie alle Unterlagen bereit.' Die Uhr zeigt 9:47. Sein Termin war um 9:30.",src:"Verumius watches the other people waiting. A woman sorts papers. A man nervously taps on his phone. A poster on the wall reads: 'Please have all documents ready.' The clock shows 9:47. His appointment was at 9:30."},
 
 {type:"teach",trg:"die Gebühr",src:"the fee",pos:"noun",gender:"f",note:"From 'gebühren' (to be due). A government fee.\nDie Bearbeitungsgebühr = processing fee.",example:"A: Wie hoch ist die Gebühr für den Antrag?\nB: Die Gebühr beträgt 100 Euro.\nA: Kann ich mit Karte bezahlen?\nB: Nein, nur Überweisung oder Bargeld.",exampleSrc:"A: How much is the fee for the application?\nB: The fee is 100 euros.\nA: Can I pay by card?\nB: No, only bank transfer or cash.",funFact:"Die Bearbeitungsgebühr (processing fee) is attached to every Antrag. Germany never does paperwork for free. The word comes from 'gebühren' (to be due)."},
 
@@ -101,13 +105,17 @@ const UNIT_19 =
 
 {type:"match",pairs:[{trg:"Gebühr",src:"fee"},{trg:"Urkunde",src:"certificate"},{trg:"Gesetz",src:"law"},{trg:"Pflicht",src:"duty"},{trg:"Verwaltung",src:"administration"}]},
 
-{type:"mc",q:"Verumius braucht eine Geburtsurkunde. Was ist das?",opts:["Ein Formular für die Schule","Ein Foto für den Pass","Ein offizielles Dokument über die Geburt","Eine Bestätigung der Adresse"],ans:"Ein offizielles Dokument über die Geburt",hint:"Geburt means birth. Urkunde means certificate."}
+{type:"mc",q:"Verumius braucht eine Geburtsurkunde. Was ist das?",opts:["Ein Formular für die Schule","Ein Foto für den Pass","Ein offizielles Dokument über die Geburt","Eine Bestätigung der Adresse"],ans:"Ein offizielles Dokument über die Geburt",hint:"Geburt means birth. Urkunde means certificate."},
+
+{type:"story",speaker:"verumius",mood:"determined",art:"de-auslaenderbehoerde-waiting",trg:"Verumius murmelt vor sich hin: Gebühr bezahlt, Urkunde dabei, Meldung erledigt. Er kennt jetzt jedes Wort auf dem Formular. Amtsdeutsch ist wie eine Fremdsprache in der Fremdsprache.",src:"Verumius mutters to himself: fee paid, certificate here, registration done. He now knows every word on the form. Official German is like a foreign language within a foreign language."}
 ]},
 
 // ===== LESSON 3: "Das muss gemacht werden" (That Must Be Done) =====
 // Grammar: Passive with modals (#9). 14 new words. 22 steps.
 {id:"deu_r19l3",title:"Das muss gemacht werden",icon:"\u2699\uFE0F",xp:15,board:true,steps:[
 {type:"intro",title:"Das muss gemacht werden",desc:"Passiv mit Modalverben: Was muss getan werden? Was kann beantragt werden? Was darf nicht vergessen werden? Die Sprache der Behörde, Schritt für Schritt.",goals:["Lerne Passiv mit Modalverben: muss/kann/soll/darf + Partizip II + werden","Drücke Pflichten, Erlaubnisse und Verbote aus","Verwende bürokratisches Deutsch mit Sicherheit"]},
+
+{type:"story",speaker:"narrator",mood:"tense",art:"de-auslaenderbehoerde-waiting",trg:"Das Display springt auf B085. Noch vier Nummern. Verumius liest das Hinweisschild neben Schalter drei: 'Anträge können nur mit vollständigen Unterlagen bearbeitet werden. Fehlende Dokumente müssen nachgereicht werden.' Passiv überall. Die Behörde spricht ihre eigene Sprache.",src:"The display jumps to B085. Four more numbers. Verumius reads the notice next to counter three: 'Applications can only be processed with complete documents. Missing documents must be submitted later.' Passive everywhere. The office speaks its own language."},
 
 {type:"teach",trg:"beantragen",src:"to apply for (officially)",pos:"verb",gender:null,note:"Be- + Antrag + -en. To apply for something at an office.\n'Einen Aufenthaltstitel beantragen.'",example:"A: Was möchten Sie beantragen?\nB: Ich möchte einen Aufenthaltstitel beantragen.\nA: Haben Sie alle Unterlagen?\nB: Ja, alles ist vollständig.",exampleSrc:"A: What would you like to apply for?\nB: I would like to apply for a residence permit.\nA: Do you have all the documents?\nB: Yes, everything is complete.",funFact:"The be- prefix makes it transitive: you beantragen something directly. 'Einen Aufenthaltstitel beantragen' is what Verumius is doing right now. Without be-, Antrag is just the noun."},
 
@@ -151,6 +159,8 @@ const UNIT_19 =
 
 {type:"drag_fill",s:"Die Unterlagen {1} rechtzeitig {2} {3}.",blanks:{"1":"müssen","2":"eingereicht","3":"werden"},pool:["müssen","eingereicht","werden","muss","einreichen","wird"],hint:"Plural subject = müssen. Then Partizip II, then werden at the very end.",sSrc:"The documents must be submitted on time."},
 
+{type:"story",speaker:"verumius",mood:"anxious",art:"de-auslaenderbehoerde-waiting",trg:"B088. Verumius schluckt. Der nächste bin ich. Er liest seine Notizen noch einmal: 'Der Antrag muss vollständig eingereicht werden. Die Gebühr muss überwiesen werden. Das Visum darf nicht abgelaufen sein.' Er kann die Regeln jetzt im Schlaf aufsagen.",src:"B088. Verumius swallows. I'm next. He reads his notes one more time: 'The application must be submitted in full. The fee must be transferred. The visa must not be expired.' He can recite the rules in his sleep now."},
+
 {type:"mc",q:"Verumius fragt: 'Kann der Antrag auch online gestellt werden?' Was will er wissen?",opts:["Wann die Frist abläuft","Wie viel der Antrag kostet","Ob er den Antrag digital einreichen kann","Ob der Antrag genehmigt wurde"],ans:"Ob er den Antrag digital einreichen kann",hint:"Kann...gestellt werden asks about possibility. Online = digitally."}
 ]},
 
@@ -158,6 +168,8 @@ const UNIT_19 =
 // Grammar: Subordinating conjunctions expanded (#18). 16 new words. 24 steps.
 {id:"deu_r19l4",title:"Bevor die Frist abläuft",icon:"\u23F0",xp:15,board:true,steps:[
 {type:"intro",title:"Bevor die Frist abläuft",desc:"Acht neue Konjunktionen. Zeit, Zweck, Bedingung, Einräumung. Komplexe Sätze für offizielle Situationen. Das Verb geht ans Ende.",goals:["Lerne 8 neue Nebensatzkonjunktionen","Drücke Zeit, Zweck, Bedingung und Einräumung aus","Baue komplexe deutsche Sätze für offizielle Kontexte"]},
+
+{type:"story",speaker:"narrator",mood:"urgent",art:"de-auslaenderbehoerde-waiting",trg:"B089. Verumius' Nummer leuchtet auf dem Display. Er steht auf, klemmt den Ordner unter den Arm und geht zu Schalter drei. Das Herz klopft. Bevor er den Raum betritt, atmet er einmal tief durch. Obwohl er alles vorbereitet hat, fühlt sich dieser Moment riesig an.",src:"B089. Verumius's number lights up on the display. He stands up, tucks the folder under his arm, and walks to counter three. His heart pounds. Before he enters the room, he takes one deep breath. Although he prepared everything, this moment feels enormous."},
 
 {type:"teach",trg:"obwohl",src:"although",pos:"conj",gender:null,note:"Ob (whether) + wohl (well). Introduces a concession.\nVerb goes to the END of the obwohl-clause.",example:"A: Obwohl er nervös war, hatte er alle Dokumente.\nB: Das ist beeindruckend.\nA: Obwohl die Frist kurz war, hat er alles geschafft.\nB: Gute Vorbereitung ist alles.",exampleSrc:"A: Although he was nervous, he had all documents.\nB: That's impressive.\nA: Although the deadline was short, he managed everything.\nB: Good preparation is everything.",funFact:"Obwohl always sends the verb to the end of its clause. 'Obwohl er nervös war, hatte er alle Dokumente.' It introduces a concession: something is true despite another fact."},
 
@@ -203,6 +215,8 @@ const UNIT_19 =
 
 {type:"drag_fill",s:"{1} die Frist {2}, muss der Antrag eingereicht werden.",blanks:{"1":"Bevor","2":"abläuft"},pool:["Bevor","abläuft","Bis","ablauft","Nachdem","abgelaufen"],hint:"Which conjunction means 'before'? The verb goes to the end of the subordinate clause.",sSrc:"Before the deadline expires, the application must be submitted."},
 
+{type:"story",speaker:"verumius",mood:"focused",art:"de-auslaenderbehoerde-interview",trg:"Verumius sitzt der Beamtin gegenüber. Sie hat seinen Ordner aufgeschlagen. Bevor sie eine Frage stellt, schaut sie jedes Dokument kurz an. Seitdem er den Raum betreten hat, hat sie kein einziges Mal gelächelt.",src:"Verumius sits across from the officer. She has opened his folder. Before she asks a question, she briefly looks at each document. Since he entered the room, she has not smiled once."},
+
 {type:"mc",q:"Verumius bringt alle Unterlagen mit, _____ der Antrag bearbeitet werden kann.",opts:["obwohl","falls","bis","damit"],ans:"damit",hint:"Which conjunction expresses purpose: 'so that' something can happen?"}
 ]},
 
@@ -214,6 +228,8 @@ const UNIT_19 =
 {type:"story",speaker:"beamtin",mood:"neutral",art:"de-auslaenderbehoerde-interview",trg:"Guten Tag. Nehmen Sie bitte Platz. Ich muss zunächst alle Unterlagen prüfen, bevor wir den Antrag bearbeiten können.",src:"Good day. Please take a seat. I must first check all documents before we can process the application."},
 
 {type:"story",speaker:"verumius",mood:"nervous",art:"de-auslaenderbehoerde-interview",trg:"Guten Tag. Hier sind alle Dokumente, einschließlich der Geburtsurkunde und der Meldebescheinigung.",src:"Good day. Here are all documents, including the birth certificate and the registration confirmation."},
+
+{type:"story",speaker:"narrator",mood:"observant",art:"de-auslaenderbehoerde-interview",trg:"Die Beamtin nimmt den Ordner entgegen, ohne aufzublicken. Auf ihrem Schreibtisch liegt ein Stempel. Verumius starrt ihn an. Dieser Stempel entscheidet, ob er bleiben darf.",src:"The officer takes the folder without looking up. On her desk sits a stamp. Verumius stares at it. That stamp decides whether he is allowed to stay."},
 
 {type:"teach",trg:"die Beamtin",src:"the civil servant (female)",pos:"noun",gender:"f",note:"Feminine form of Beamter. Civil servants in Germany\nhave lifelong job security and their own pension system.",example:"A: Die Beamtin prüft Ihre Unterlagen.\nB: Wie lange dauert das?\nA: Die Beamtin arbeitet gründlich, das dauert etwas.\nB: Ich warte geduldig.",exampleSrc:"A: The civil servant is checking your documents.\nB: How long will that take?\nA: The civil servant works thoroughly, it takes a while.\nB: I'll wait patiently.",funFact:"In Germany, Beamte have special status: job security for life, their own pension system, no right to strike. The person behind the desk at the Behörde is almost always a Beamter or Beamtin."},
 
@@ -245,6 +261,10 @@ const UNIT_19 =
 
 {type:"story",speaker:"beamtin",mood:"neutral",art:"de-auslaenderbehoerde-interview",trg:"Die Geburtsurkunde muss beglaubigt werden. Haben Sie das Original mitgebracht, oder nur eine Kopie? Wir hatten doch abgemacht, dass alle Originale dabei sein müssen.",src:"The birth certificate must be certified. Did you bring the original, or only a copy? We had agreed that all originals must be included."},
 
+{type:"story",speaker:"verumius",mood:"relieved",art:"de-auslaenderbehoerde-interview",trg:"Ja, das Original ist dabei. Hildi hat darauf bestanden, dass ich alles dreifach kopiere und die Originale separat einsortiere. Hier, bitte.",src:"Yes, the original is here. Hildi insisted that I copy everything in triplicate and sort the originals separately. Here, please."},
+
+{type:"story",speaker:"beamtin",mood:"surprised",art:"de-auslaenderbehoerde-interview",trg:"Hmm. Sehr ordentlich. Das sieht man selten. Die Meldebescheinigung, der Arbeitsvertrag, die Krankenversicherung. Alles vollständig. Ich prüfe die Geburtsurkunde noch beim Konsulat.",src:"Hmm. Very neat. You do not see that often. The registration certificate, the employment contract, the health insurance. All complete. I will still verify the birth certificate with the consulate."},
+
 {type:"mc",q:"Die Beamtin sagt: 'Die Geburtsurkunde muss beglaubigt werden.' Was bedeutet das?",opts:["Das Dokument braucht eine offizielle Bestätigung.","Das Dokument wird nicht akzeptiert.","Das Dokument muss neu geschrieben werden.","Das Dokument ist falsch."],ans:"Das Dokument braucht eine offizielle Bestätigung.",hint:"Beglaubigt means certified/authenticated. Muss...werden means it must be done."},
 
 {type:"fb",s:"Der Antrag kann erst bearbeitet werden, {1} alle Unterlagen vollständig sind.",a:[{type:"teach",trg:"nachdem",src:"after (conjunction)",pos:"conj",gender:null,note:"Temporal conjunction. The nachdem-clause uses Perfekt,\nthe main clause uses Präteritum or Präsens.",example:"A: Nachdem ich den Antrag abgegeben habe, warte ich.\nB: Wie lange dauert es?\nA: Nachdem alle Unterlagen geprüft sind, kommt die Antwort.\nB: Das kann Wochen dauern.",exampleSrc:"A: After I submitted the application, I wait.\nB: How long does it take?\nA: After all documents are checked, the answer comes.\nB: That can take weeks.",funFact:"Nachdem forces a time-sequence shift: the nachdem-clause is one tense further back than the main clause. Perfekt in nachdem, Präsens in main. Plusquamperfekt in nachdem, Präteritum in main."},
@@ -254,6 +274,8 @@ const UNIT_19 =
 
 {type:"drag_fill",s:"Die Beamtin sagt, {1} der Antrag erst genehmigt werden {2}, {3} alle Gebühren bezahlt sind.",blanks:{"1":"dass","2":"kann","3":"nachdem"},pool:["dass","kann","nachdem","weil","muss","bevor"],hint:"Dass introduces what the officer says. The modal goes to the end of the dass-clause. Nachdem introduces the time condition.",sSrc:"The officer says that the application can only be approved after all fees are paid."},
 
+{type:"story",speaker:"narrator",mood:"tense",art:"de-auslaenderbehoerde-interview",trg:"Die Beamtin blättert durch die letzte Seite. Sie legt den Ordner hin, faltet die Hände und schaut Verumius an. Er hält die Luft an. Gleich kommt das Urteil.",src:"The officer flips through the last page. She puts the folder down, folds her hands, and looks at Verumius. He holds his breath. The verdict is about to come."},
+
 {type:"mc",q:"Verumius fragt: 'Kann der Aufenthaltstitel auch vorläufig ausgestellt werden, falls die Beglaubigung noch fehlt?' Was will er?",opts:["Eine temporäre Lösung, während ein Dokument noch fehlt","Einen endgültigen Aufenthaltstitel","Einen neuen Termin","Die Absage seines Antrags"],ans:"Eine temporäre Lösung, während ein Dokument noch fehlt",hint:"Vorläufig means temporary. Falls means in case. He wants a provisional solution."}
 ]},
 
@@ -261,6 +283,8 @@ const UNIT_19 =
 // Vocab teach (banking + mail + family). 18 new words. 24 steps.
 {id:"deu_r19l6",title:"Bankdeutsch und Briefpost",icon:"\uD83C\uDFE6",xp:15,board:true,steps:[
 {type:"intro",title:"Bankdeutsch und Briefpost",desc:"Money and mail: two pillars of German daily life. Cash, bank transfers, mailboxes, and registered letters. Plus: family words for official forms.",goals:["Learn banking and postal vocabulary","Describe family relationships","Master compound nouns for financial and postal services"]},
+
+{type:"story",speaker:"narrator",mood:"matter-of-fact",art:"de-auslaenderbehoerde-interview",trg:"Die Beamtin tippt etwas in den Computer. 'Bitte überweisen Sie die Gebühr an folgende Bankverbindung. Sie erhalten die Bestätigung per Einschreiben.' Verumius nickt. Bankdeutsch. Noch eine Sprache, die er lernen muss.",src:"The officer types something into the computer. 'Please transfer the fee to the following bank details. You will receive the confirmation by registered mail.' Verumius nods. Banking German. Another language he must learn."},
 
 {type:"teach",trg:"das Bargeld",src:"the cash",pos:"noun",gender:"n",note:"Bar (cash/bare) + Geld (money). Cash money.\nGermany is one of the most cash-loving countries in Europe.",example:"A: Kann ich mit Karte bezahlen?\nB: Nein, wir nehmen nur Bargeld.\nA: Wo ist der nächste Geldautomat?\nB: Gleich um die Ecke.",exampleSrc:"A: Can I pay by card?\nB: No, we only accept cash.\nA: Where is the nearest ATM?\nB: Right around the corner.",funFact:"Germany is one of the most cash-loving countries in Europe. Many shops still do not accept cards. 'Bargeld abheben' = to withdraw cash. The word combines 'bar' (cash) + 'Geld' (money)."},
 
@@ -308,13 +332,17 @@ const UNIT_19 =
 
 {type:"match",pairs:[{trg:"Girokonto",src:"checking account"},{trg:"Überweisung",src:"bank transfer"},{trg:"Bargeld",src:"cash"},{trg:"Einzahlung",src:"deposit"},{trg:"Geldautomat",src:"ATM"}]},
 
-{type:"drag_fill",s:"Die Überweisung {1} innerhalb von drei Tagen {2} {3}.",blanks:{"1":"muss","2":"ausgeführt","3":"werden"},pool:["muss","ausgeführt","werden","kann","ausführen","wird"],hint:"Obligation: muss. Passive: Partizip II + werden. The transfer must be executed.",sSrc:"The transfer must be executed within three days."}
+{type:"drag_fill",s:"Die Überweisung {1} innerhalb von drei Tagen {2} {3}.",blanks:{"1":"muss","2":"ausgeführt","3":"werden"},pool:["muss","ausgeführt","werden","kann","ausführen","wird"],hint:"Obligation: muss. Passive: Partizip II + werden. The transfer must be executed.",sSrc:"The transfer must be executed within three days."},
+
+{type:"story",speaker:"verumius",mood:"weary",art:"de-auslaenderbehoerde-hallway",trg:"Verumius steht im Flur und starrt auf den Zettel mit der Bankverbindung. IBAN, BIC, Verwendungszweck. Er muss die Gebühr überweisen, bevor die Frist abläuft. Dann heißt es warten. Auf den Brief. Per Einschreiben. Natürlich.",src:"Verumius stands in the hallway staring at the slip with the bank details. IBAN, BIC, payment reference. He must transfer the fee before the deadline expires. Then it is waiting. For the letter. By registered mail. Of course."}
 ]},
 
 // ===== LESSON 7: "Alles auf dem Prüfstand" (Everything Under Review) =====
 // Comprehensive quiz. 10 new words. 22 steps.
 {id:"deu_r19l7",title:"Alles auf dem Prüfstand",icon:"\u2705",xp:15,board:true,steps:[
 {type:"intro",title:"Alles auf dem Prüfstand",desc:"Alles aus Unit 19 auf dem Prüfstand. Passiv mit Modalverben, Konjunktionen, Bürokratie, Bankwesen, Familie. Zeig, was du kannst.",goals:["Teste Passiv mit Modalverben und Konjunktionen","Beweise dein Behörden- und Bankvokabular","Kombiniere mehrere Grammatikstrukturen in komplexen Sätzen"]},
+
+{type:"story",speaker:"narrator",mood:"reflective",art:"de-apartment-evening",trg:"Zwei Wochen später. Verumius sitzt am Küchentisch. Die Überweisung ist raus, die Bestätigung per Post gekommen. Jetzt wartet er auf den endgültigen Bescheid. KD hat gesagt: 'Voraussichtlich sechs Wochen.' Sechs Wochen. Er nutzt die Zeit, um alles noch einmal durchzugehen.",src:"Two weeks later. Verumius sits at the kitchen table. The transfer is done, the confirmation arrived by mail. Now he waits for the final decision. KD said: 'Presumably six weeks.' Six weeks. He uses the time to go through everything one more time."},
 
 {type:"teach",trg:"der Enkel",src:"the grandson, the grandchild",pos:"noun",gender:"m",note:"From Old High German 'eninchili' (little grandfather).\nDie Enkelin = granddaughter. Originally 'little ancestor.'",example:"A: Haben Sie Enkel?\nB: Ja, zwei Enkel und eine Enkelin.\nA: Wie alt sind sie?\nB: Der Enkel ist fünf, die Enkelin ist drei.",exampleSrc:"A: Do you have grandchildren?\nB: Yes, two grandsons and one granddaughter.\nA: How old are they?\nB: The grandson is five, the granddaughter is three.",funFact:"The word originally meant 'little ancestor' because grandchildren resemble grandparents. Der Enkel (grandson), die Enkelin (granddaughter). From Old High German 'eninchili.'"},
 
@@ -372,6 +400,10 @@ const UNIT_19 =
 
 {type:"story",speaker:"kd",mood:"deadpan",art:"de-auslaenderbehoerde-hallway",trg:"Natürlich. Sie hatten ja alle Unterlagen. War doch klar.",src:"Of course. You had all the documents. That was obvious."},
 
+{type:"story",speaker:"verumius",mood:"laughing",art:"de-auslaenderbehoerde-hallway",trg:"Herr Hoffmann, Sie klingen, als hätten Sie nie daran gezweifelt.",src:"Mr. Hoffmann, you sound like you never doubted it."},
+
+{type:"story",speaker:"kd",mood:"warm",art:"de-auslaenderbehoerde-hallway",trg:"Habe ich auch nicht. Wer seine Unterlagen dreifach kopiert, besteht jede Behörde. Kommen Sie vorbei, wenn Sie Zeit haben. Wir trinken einen Kaffee.",src:"I did not. Anyone who copies their documents in triplicate passes any government office. Come by when you have time. We will have a coffee."},
+
 {type:"teach",trg:"der Käufer",src:"the buyer (male)",pos:"noun",gender:"m",note:"From 'kaufen' (to buy). Die Käuferin = female buyer.\nIn contracts: Käufer (buyer) vs. Verkäufer (seller).",example:"A: Wer ist der Käufer?\nB: Herr Schmidt ist der Käufer.\nA: Und die Käuferin?\nB: Frau Weber kauft das zweite Auto.",exampleSrc:"A: Who is the buyer?\nB: Mr. Schmidt is the buyer.\nA: And the female buyer?\nB: Mrs. Weber is buying the second car.",funFact:"In legal contracts, the Käufer is the buyer, the Verkäufer is the seller. Every Kaufvertrag (sales contract) names both. The word comes from 'kaufen' (to buy)."},
 
 {type:"teach",trg:"die Verkäuferin",src:"the sales clerk (female)",pos:"noun",gender:"f",note:"Ver- + Käuferin. Female sales clerk. Der Verkäufer = male.\nCommon job title on signs: 'Verkäuferin gesucht.'",example:"A: Entschuldigung, können Sie mir helfen?\nB: Ja, ich bin die Verkäuferin. Was suchen Sie?\nA: Einen neuen Ordner für meine Dokumente.\nB: Die Ordner finden Sie in Gang drei.",exampleSrc:"A: Excuse me, can you help me?\nB: Yes, I'm the sales clerk. What are you looking for?\nA: A new folder for my documents.\nB: You'll find the folders in aisle three.",funFact:"In German, you still commonly see gendered job titles on signs: 'Verkäuferin gesucht' (female sales clerk wanted). The masculine form is Verkäufer."},
@@ -390,6 +422,10 @@ const UNIT_19 =
 
 {type:"story",speaker:"narrator",mood:"warm",art:"de-apartment-celebration",trg:"Verumius' Handy explodiert. Lukas schickt Party-Emojis. Mia schreibt: 'Herzlichen Glückwunsch!' Hildi (die texten gelernt hat): 'Gute Nachricht.' Heinrich (über Hildis Handy): 'Endlich!'",src:"Verumius's phone explodes. Lukas sends party emojis. Mia writes: 'Congratulations!' Hildi (who learned to text): 'Good news.' Heinrich (via Hildi's phone): 'Finally!'"},
 
+{type:"story",speaker:"lukas",mood:"excited",art:"de-apartment-celebration",trg:"PARTYYY! Wann feiern wir? Ich bringe Kuchen mit. Und Luftballons. Und vielleicht ein Banner: 'Offizieller Einwohner.' Mia, du machst die Deko?",src:"PARTYYY! When do we celebrate? I will bring cake. And balloons. And maybe a banner: 'Official resident.' Mia, you do the decorations?"},
+
+{type:"story",speaker:"mia",mood:"warm",art:"de-apartment-celebration",trg:"Herzlichen Glückwunsch, Verumius. Wirklich. Ich weiß, wie viel Arbeit das war. Die ganzen Formulare, die Fristen, das Warten. Du hast es verdient.",src:"Congratulations, Verumius. Really. I know how much work that was. All those forms, the deadlines, the waiting. You earned it."},
+
 {type:"story",speaker:"verumius",mood:"reflective",art:"de-apartment-celebration",trg:"Verumius sitzt auf der Couch. Der Aufenthaltstitel liegt auf dem Couchtisch. Seitdem er in Deutschland angekommen ist, musste so viel erledigt werden. Anmeldung, Girokonto, Versicherung, Sprachkurs, Arbeitsvertrag, Behördengänge. Aber jetzt: offizieller Einwohner. Endlich ein Zuhause. Alles ist drin.",src:"Verumius sits on the couch. The residence permit lies on the coffee table. Since he arrived in Germany, so much had to be done. Registration, checking account, insurance, language course, employment contract, trips to government offices. But now: official resident. Finally a home. Everything is included."},
 
 {type:"tip",title:"Deutsche Bürokratie: Warum sie so funktioniert",text:"Germany's administrative system dates back to Prussian efficiency reforms in the 1700s.\n\nThe principle: if something is documented, it exists. If it is not documented, it does not.\n\nThis explains the obsession with Urkunden, Bescheinigungen, and Originale.\n\nThe Ausländerbehörde is not trying to be difficult. It follows a system designed for maximum legal certainty.\n\nEvery stamp, every Frist, every Bestätigung serves a purpose: protecting both the state and the individual.\n\n'Ordnung muss sein' (there must be order) captures the philosophy.",deepDive:"The German word 'Beamtenstaat' (civil servant state) describes a country where bureaucracy is a profession, not just a job. Beamte study for years, pass state exams, and receive lifelong employment. This creates consistency but also rigidity. The system prioritizes fairness through uniformity: everyone follows the same rules, fills out the same forms, waits the same amount of time."},
@@ -406,7 +442,11 @@ const UNIT_19 =
 
 {type:"drag_fill",s:"{1} Verumius alle Dokumente eingereicht hatte, {2} der Aufenthaltstitel genehmigt {3}, {4} er alle Gebühren bezahlt hatte.",blanks:{"1":"Nachdem","2":"konnte","3":"werden","4":"nachdem"},pool:["Nachdem","konnte","werden","nachdem","Bevor","wurde","wird","obwohl"],hint:"After submitting, the permit could be approved, after he had paid. Nachdem + konnte...werden.",sSrc:"After Verumius had submitted all documents, the residence permit could be approved, after he had paid all fees."},
 
-{type:"mc",q:"Was musste Verumius alles machen, bevor der Aufenthaltstitel genehmigt werden konnte?",opts:["Nichts, der Aufenthaltstitel wird automatisch ausgestellt","Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen","Nur das Visum verlängern","Nur die Gebühr bezahlen"],ans:"Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen",hint:"The full process requires multiple steps. Which answer covers everything?"}
+{type:"story",speaker:"verumius",mood:"hopeful",art:"de-apartment-evening",trg:"Verumius schaut auf sein Handy. Eine E-Mail von der Ausländerbehörde. 'Ihr Antrag wurde bearbeitet. Bitte holen Sie Ihren Aufenthaltstitel am Schalter fünf ab.' Er liest den Satz dreimal. Bearbeitet. Abholen. Es hat geklappt.",src:"Verumius looks at his phone. An email from the immigration office. 'Your application has been processed. Please pick up your residence permit at counter five.' He reads the sentence three times. Processed. Pick up. It worked."},
+
+{type:"mc",q:"Was musste Verumius alles machen, bevor der Aufenthaltstitel genehmigt werden konnte?",opts:["Nichts, der Aufenthaltstitel wird automatisch ausgestellt","Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen","Nur das Visum verlängern","Nur die Gebühr bezahlen"],ans:"Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen",hint:"The full process requires multiple steps. Which answer covers everything?"},
+
+{type:"story",speaker:"narrator",mood:"triumphant",art:"de-apartment-celebration",trg:"Verumius legt den Aufenthaltstitel in seinen Ordner. Neben die Geburtsurkunde, die Meldebescheinigung und den Arbeitsvertrag. Alles hat seinen Platz. Er ist kein Besucher mehr. Er ist Einwohner. Er gehört dazu. Und morgen? Morgen beginnt das nächste Kapitel.",src:"Verumius puts the residence permit in his folder. Next to the birth certificate, the registration certificate, and the employment contract. Everything has its place. He is no longer a visitor. He is a resident. He belongs. And tomorrow? Tomorrow the next chapter begins."}
 ]}
 
 ]};
