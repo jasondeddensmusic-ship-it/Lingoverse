@@ -1733,8 +1733,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
       // Unknown words (not in WORD_DB or pos="unknown") → plain text, no styling
       if (!isKnownTarget) {
-        spans.push(<span key={contractionPart ? i+"w" : i}>{mainWord}</span>);
-        if (trailingPunct) spans.push(<span key={i+"p"}>{trailingPunct}</span>);
+        spans.push(<span key={contractionPart ? i+"w" : i}>{mainWord}{trailingPunct||""}</span>);
         continue;
       }
 
@@ -1815,13 +1814,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           style={wordStyle}
           onMouseEnter={(e) => { if(grammarHl) e.currentTarget.style.background = dk?"rgba(168,144,255,0.12)":"rgba(112,80,216,0.07)"; }}
           onMouseLeave={(e) => { if(grammarHl) e.currentTarget.style.background = "transparent"; }}
-        >{mainWord}</span>
+        >{mainWord}{trailingPunct||""}</span>
       );
-
-      // Trailing punctuation
-      if (trailingPunct) {
-        spans.push(<span key={i+"p"}>{trailingPunct}</span>);
-      }
     }
 
     return <>{spans}</>;
