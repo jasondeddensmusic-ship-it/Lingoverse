@@ -105,7 +105,7 @@ const UNIT_19 =
 
 {type:"match",pairs:[{trg:"Gebühr",src:"fee"},{trg:"Urkunde",src:"certificate"},{trg:"Gesetz",src:"law"},{trg:"Pflicht",src:"duty"},{trg:"Verwaltung",src:"administration"}]},
 
-{type:"mc",q:"Verumius braucht eine Geburtsurkunde. Was ist das?",opts:["Ein Formular für die Schule","Ein offizielles Dokument über die Geburt","Ein Foto für den Pass","Eine Bestätigung der Adresse"],ans:"Ein offizielles Dokument über die Geburt",hint:"Geburt means birth. Urkunde means certificate."},
+{type:"mc",q:"Verumius braucht eine Geburtsurkunde. Was ist das?",opts:["Ein Formular für die Schule","Ein offizielles Dokument über die Geburt","Ein Foto für den Pass","Eine Bestätigung der Adresse"],ans:"Ein offizielles Dokument über die Geburt",hint:"This official document records the moment and place a person came into the world."},
 
 {type:"story",speaker:"verumius",mood:"determined",art:"de-auslaenderbehoerde-waiting",trg:"Verumius murmelt vor sich hin: Gebühr bezahlt, Urkunde dabei, Meldung erledigt. Er kennt jetzt jedes Wort auf dem Formular. Amtsdeutsch ist wie eine Fremdsprache in der Fremdsprache.",src:"Verumius mutters to himself: fee paid, certificate here, registration done. He now knows every word on the form. Official German is like a foreign language within a foreign language."}
 ]},
@@ -155,9 +155,9 @@ const UNIT_19 =
 
 {type:"fb",s:"Der Pass {1} am Schalter abgeholt werden.",a:["kann"],opts:["kann","muss","wird","hat"],hint:"Which modal expresses ability or permission?",sSrc:"The passport can be picked up at the counter."},
 
-{type:"mc",q:"Wie sagt man 'Working without a permit is not allowed' im Passiv?",opts:["Arbeiten ist ohne Genehmigung nicht.","Ohne Genehmigung darf nicht gearbeitet werden.","Ohne Genehmigung wird nicht gearbeitet.","Ohne Genehmigung muss nicht gearbeitet werden."],ans:"Ohne Genehmigung darf nicht gearbeitet werden.",hint:"Dürfen + nicht = prohibition. Passive structure: darf nicht + PP + werden."},
+{type:"mc",q:"Wie sagt man 'Working without a permit is not allowed' im Passiv?",opts:["Arbeiten ist ohne Genehmigung nicht.","Ohne Genehmigung darf nicht gearbeitet werden.","Ohne Genehmigung wird nicht gearbeitet.","Ohne Genehmigung muss nicht gearbeitet werden."],ans:"Ohne Genehmigung darf nicht gearbeitet werden.",hint:"The sentence expresses prohibition, not just absence. Which modal verb signals that something is not permitted?"},
 
-{type:"drag_fill",s:"Die Unterlagen {1} rechtzeitig {2} {3}.",blanks:{"1":"müssen","2":"eingereicht","3":"werden"},pool:["müssen","eingereicht","werden","muss","einreichen","wird"],hint:"Plural subject = müssen. Then Partizip II, then werden at the very end.",sSrc:"The documents must be submitted on time."},
+{type:"drag_fill",s:"Die Unterlagen {1} rechtzeitig {2} {3}.",blanks:{"1":"müssen","2":"eingereicht","3":"werden"},pool:["müssen","eingereicht","werden","muss","einreichen","wird"],hint:"Three blanks: first the obligation modal for a plural subject, then the past participle of 'einreichen', then the passive auxiliary.",sSrc:"The documents must be submitted on time."},
 
 {type:"story",speaker:"verumius",mood:"anxious",art:"de-auslaenderbehoerde-waiting",trg:"B088. Verumius schluckt. Der nächste bin ich. Er liest seine Notizen noch einmal: 'Der Antrag muss vollständig eingereicht werden. Die Gebühr muss überwiesen werden. Das Visum darf nicht abgelaufen sein.' Er kann die Regeln jetzt im Schlaf aufsagen.",src:"B088. Verumius swallows. I'm next. He reads his notes one more time: 'The application must be submitted in full. The fee must be transferred. The visa must not be expired.' He can recite the rules in his sleep now."},
 
@@ -211,7 +211,7 @@ const UNIT_19 =
 
 {type:"fb",s:"{1} ich in Deutschland lebe, brauche ich einen Aufenthaltstitel.",a:["Seitdem"],opts:["Seitdem","Bevor","Bis","Falls"],hint:"Which conjunction marks the starting point of an ongoing situation?",sSrc:"Since I've been living in Germany, I need a residence permit."},
 
-{type:"mc",q:"Welches Satzpaar hat die gleiche Bedeutung?",opts:["Obwohl er müde war, ging er zur Behörde. / Er war müde. Trotzdem ging er zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Er war müde, trotzdem er ging zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Trotzdem er müde war, ging er zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Er ging trotzdem müde zur Behörde."],ans:"Obwohl er müde war, ging er zur Behörde. / Er war müde. Trotzdem ging er zur Behörde.",hint:"Obwohl is a conjunction (verb-final). Trotzdem is an adverb (V2 in a new sentence)."},
+{type:"mc",q:"Welches Satzpaar hat die gleiche Bedeutung?",opts:["Obwohl er müde war, ging er zur Behörde. / Er war müde. Trotzdem ging er zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Er war müde, trotzdem er ging zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Trotzdem er müde war, ging er zur Behörde.","Obwohl er müde war, ging er zur Behörde. / Er ging trotzdem müde zur Behörde."],ans:"Obwohl er müde war, ging er zur Behörde. / Er war müde. Trotzdem ging er zur Behörde.",hint:"One option uses a subordinating conjunction in a single sentence. The other uses a standalone adverb in position 1 of a new sentence."},
 
 {type:"drag_fill",s:"{1} die Frist {2}, muss der Antrag eingereicht werden.",blanks:{"1":"Bevor","2":"abläuft"},pool:["Bevor","abläuft","Bis","ablauft","Nachdem","abgelaufen"],hint:"Which conjunction means 'before'? The verb goes to the end of the subordinate clause.",sSrc:"Before the deadline expires, the application must be submitted."},
 
@@ -270,9 +270,9 @@ const UNIT_19 =
 {type:"fb",s:"Der Antrag kann erst bearbeitet werden, {1} alle Unterlagen vollständig sind.",a:[{type:"teach",trg:"nachdem",src:"after (conjunction)",pos:"conj",gender:null,note:"Temporal conjunction. The nachdem-clause uses Perfekt,\nthe main clause uses Präteritum or Präsens.",example:"A: Nachdem ich den Antrag abgegeben habe, warte ich.\nB: Wie lange dauert es?\nA: Nachdem alle Unterlagen geprüft sind, kommt die Antwort.\nB: Das kann Wochen dauern.",exampleSrc:"A: After I submitted the application, I wait.\nB: How long does it take?\nA: After all documents are checked, the answer comes.\nB: That can take weeks.",funFact:"Nachdem forces a time-sequence shift: the nachdem-clause is one tense further back than the main clause. Perfekt in nachdem, Präsens in main. Plusquamperfekt in nachdem, Präteritum in main."},
 "nachdem"],opts:["nachdem","trotzdem","obwohl","falls"],hint:"Which conjunction means 'after'? The application can only be processed after everything is complete.",sSrc:"The application can only be processed after all documents are complete."},
 
-{type:"mc",q:"Welcher Satz kombiniert falls mit Passiv + Modalverb richtig?",opts:["Falls ein Dokument fehlt, muss es nachgereicht werden.","Falls ein Dokument fehlt, muss es werden nachgereicht.","Falls ein Dokument fehlt, es muss nachgereicht werden.","Ein Dokument fehlt, falls muss es nachgereicht werden."],ans:"Falls ein Dokument fehlt, muss es nachgereicht werden.",hint:"Falls-clause: verb-final. Main clause after comma: V2 (muss), then PP + werden at end."},
+{type:"mc",q:"Welcher Satz kombiniert falls mit Passiv + Modalverb richtig?",opts:["Falls ein Dokument fehlt, muss es nachgereicht werden.","Falls ein Dokument fehlt, muss es werden nachgereicht.","Falls ein Dokument fehlt, es muss nachgereicht werden.","Ein Dokument fehlt, falls muss es nachgereicht werden."],ans:"Falls ein Dokument fehlt, muss es nachgereicht werden.",hint:"The conditional clause sends its verb to the end. After the comma, the main clause uses standard V2 word order."},
 
-{type:"drag_fill",s:"Die Beamtin sagt, {1} der Antrag erst genehmigt werden {2}, {3} alle Gebühren bezahlt sind.",blanks:{"1":"dass","2":"kann","3":"nachdem"},pool:["dass","kann","nachdem","weil","muss","bevor"],hint:"Dass introduces what the officer says. The modal goes to the end of the dass-clause. Nachdem introduces the time condition.",sSrc:"The officer says that the application can only be approved after all fees are paid."},
+{type:"drag_fill",s:"Die Beamtin sagt, {1} der Antrag erst genehmigt werden {2}, {3} alle Gebühren bezahlt sind.",blanks:{"1":"dass","2":"kann","3":"nachdem"},pool:["dass","kann","nachdem","weil","muss","bevor"],hint:"First blank: the reporting connector after 'sagt'. Second blank: the modal pushed to the end of that clause. Third blank: the time connector for the fee condition.",sSrc:"The officer says that the application can only be approved after all fees are paid."},
 
 {type:"story",speaker:"narrator",mood:"tense",art:"de-auslaenderbehoerde-interview",trg:"Die Beamtin blättert durch die letzte Seite. Sie legt den Ordner hin, faltet die Hände und schaut Verumius an. Er hält die Luft an. Gleich kommt das Urteil.",src:"The officer flips through the last page. She puts the folder down, folds her hands, and looks at Verumius. He holds his breath. The verdict is about to come."},
 
@@ -328,11 +328,11 @@ const UNIT_19 =
 
 {type:"mc",q:"Verumius schickt einen wichtigen Antrag. Wie sollte er ihn schicken?",opts:["Per Briefkasten","Per Überweisung","Per Geldautomat","Per Einschreiben"],ans:"Per Einschreiben",hint:"Important documents need proof of delivery. Which postal service provides that?"},
 
-{type:"fb",s:"Der Sohn meiner Schwester ist mein {1}.",a:["Neffe"],opts:["Neffe","Onkel","Cousin","Enkel"],hint:"Your sister's son. Which word means nephew?",sSrc:"My sister's son is my nephew."},
+{type:"fb",s:"Der Sohn meiner Schwester ist mein {1}.",a:["Neffe"],opts:["Neffe","Onkel","Cousin","Enkel"],hint:"Your sister's son is a specific family relationship. Which option names a sibling's male child?",sSrc:"My sister's son is my nephew."},
 
 {type:"match",pairs:[{trg:"Girokonto",src:"checking account"},{trg:"Überweisung",src:"bank transfer"},{trg:"Bargeld",src:"cash"},{trg:"Einzahlung",src:"deposit"},{trg:"Geldautomat",src:"ATM"}]},
 
-{type:"drag_fill",s:"Die Überweisung {1} innerhalb von drei Tagen {2} {3}.",blanks:{"1":"muss","2":"ausgeführt","3":"werden"},pool:["muss","ausgeführt","werden","kann","ausführen","wird"],hint:"Obligation: muss. Passive: Partizip II + werden. The transfer must be executed.",sSrc:"The transfer must be executed within three days."},
+{type:"drag_fill",s:"Die Überweisung {1} innerhalb von drei Tagen {2} {3}.",blanks:{"1":"muss","2":"ausgeführt","3":"werden"},pool:["muss","ausgeführt","werden","kann","ausführen","wird"],hint:"Three blanks: the obligation modal, then the past participle of 'ausführen', then the passive auxiliary at the end.",sSrc:"The transfer must be executed within three days."},
 
 {type:"story",speaker:"verumius",mood:"weary",art:"de-auslaenderbehoerde-hallway",trg:"Verumius steht im Flur und starrt auf den Zettel mit der Bankverbindung. IBAN, BIC, Verwendungszweck. Er muss die Gebühr überweisen, bevor die Frist abläuft. Dann heißt es warten. Auf den Brief. Per Einschreiben. Natürlich.",src:"Verumius stands in the hallway staring at the slip with the bank details. IBAN, BIC, payment reference. He must transfer the fee before the deadline expires. Then it is waiting. For the letter. By registered mail. Of course."}
 ]},
@@ -366,7 +366,7 @@ const UNIT_19 =
 
 {type:"mc",q:"Der Aufenthaltstitel _____ beantragt werden.",opts:["ist","wird","hat","muss"],ans:"muss",hint:"Which modal expresses obligation? Structure: modal + PP + werden."},
 
-{type:"mc",q:"Ohne Visum _____ in Deutschland nicht gearbeitet _____.",opts:["muss...werden","soll...haben","kann...sein","darf...werden"],ans:"darf...werden",hint:"Prohibition = darf nicht. Passive = PP + werden."},
+{type:"mc",q:"Ohne Visum _____ in Deutschland nicht gearbeitet _____.",opts:["muss...werden","soll...haben","kann...sein","darf...werden"],ans:"darf...werden",hint:"Working without a visa is not just absent, it is forbidden. Which modal pair expresses prohibition in a passive construction?"},
 
 {type:"fb",s:"{1} er alle Dokumente hatte, war er trotzdem nervös.",a:["Obwohl"],opts:["Obwohl","Trotzdem","Bevor","Weil"],hint:"Which conjunction means 'although'? It requires verb-final order.",sSrc:"Although he had all documents, he was still nervous."},
 
@@ -374,15 +374,15 @@ const UNIT_19 =
 
 {type:"fb",s:"Der Antrag kann erst genehmigt werden, {1} alle Gebühren bezahlt sind.",a:["nachdem"],opts:["nachdem","obwohl","falls","bevor"],hint:"The approval happens AFTER the fees are paid. Which conjunction marks time sequence?",sSrc:"The application can only be approved after all fees are paid."},
 
-{type:"mc",q:"Welcher Satz kombiniert Bedingung mit Passiv + Modalverb richtig?",opts:["Falls die Frist abläuft, der Antrag muss neu gestellt werden.","Falls die Frist abläuft, den Antrag muss neu gestellt werden.","Falls die Frist abläuft, muss der Antrag neu gestellt werden.","Die Frist abläuft falls, muss der Antrag neu gestellt werden."],ans:"Falls die Frist abläuft, muss der Antrag neu gestellt werden.",hint:"Falls-clause: verb-final. Main clause: V2 (muss), then PP + werden at end."},
+{type:"mc",q:"Welcher Satz kombiniert Bedingung mit Passiv + Modalverb richtig?",opts:["Falls die Frist abläuft, der Antrag muss neu gestellt werden.","Falls die Frist abläuft, den Antrag muss neu gestellt werden.","Falls die Frist abläuft, muss der Antrag neu gestellt werden.","Die Frist abläuft falls, muss der Antrag neu gestellt werden."],ans:"Falls die Frist abläuft, muss der Antrag neu gestellt werden.",hint:"The conditional clause pushes its verb last. After the comma, the main clause uses standard V2 word order with the passive infinitive at the end."},
 
 {type:"match",pairs:[{trg:"obwohl",src:"although"},{trg:"bevor",src:"before"},{trg:"seitdem",src:"since (time)"},{trg:"damit",src:"so that"},{trg:"falls",src:"in case"}]},
 
-{type:"drag_fill",s:"{1} Verumius den Antrag eingereicht hat, {2} der Bescheid innerhalb von sechs Wochen {3} {4}.",blanks:{"1":"Nachdem","2":"muss","3":"ausgestellt","4":"werden"},pool:["Nachdem","muss","ausgestellt","werden","Bevor","kann","ausstellen","wird"],hint:"After he submitted the application, the decision must be issued. Nachdem + Perfekt, then muss + PP + werden.",sSrc:"After Verumius submitted the application, the decision must be issued within six weeks."},
+{type:"drag_fill",s:"{1} Verumius den Antrag eingereicht hat, {2} der Bescheid innerhalb von sechs Wochen {3} {4}.",blanks:{"1":"Nachdem","2":"muss","3":"ausgestellt","4":"werden"},pool:["Nachdem","muss","ausgestellt","werden","Bevor","kann","ausstellen","wird"],hint:"Four blanks: the time conjunction, the obligation modal, the past participle of 'ausstellen', then the passive auxiliary.",sSrc:"After Verumius submitted the application, the decision must be issued within six weeks."},
 
 {type:"mc",q:"Was ist der Unterschied zwischen Wohnort und Wohnsitz?",opts:["Kein Unterschied","Wohnsitz ist die offizielle Meldeadresse","Wohnort ist formeller","Wohnsitz bedeutet Arbeitsplatz"],ans:"Wohnsitz ist die offizielle Meldeadresse",hint:"Sitz implies official registration. Ort is more general."},
 
-{type:"fb",s:"Die Tochter meines Bruders ist meine {1}.",a:["Nichte"],opts:["Nichte","Cousine","Enkelin","Tante"],hint:"Your brother's daughter. The female form of Neffe.",sSrc:"My brother's daughter is my niece."},
+{type:"fb",s:"Die Tochter meines Bruders ist meine {1}.",a:["Nichte"],opts:["Nichte","Cousine","Enkelin","Tante"],hint:"Your brother's daughter is a specific family relationship. Which option names a sibling's female child?",sSrc:"My brother's daughter is my niece."},
 
 {type:"mc",q:"Die Überweisung muss bis Freitag ausgeführt werden. Was bedeutet das?",opts:["Die Bank ist am Freitag geschlossen.","Die Zinsen werden am Freitag berechnet.","Man braucht Bargeld am Freitag.","Der Bankauftrag hat eine Frist bis Freitag."],ans:"Der Bankauftrag hat eine Frist bis Freitag.",hint:"Muss...werden = obligation. Bis Freitag = deadline."},
 
@@ -430,17 +430,17 @@ const UNIT_19 =
 
 {type:"tip",title:"Deutsche Bürokratie: Warum sie so funktioniert",text:"Germany's administrative system dates back to Prussian efficiency reforms in the 1700s.\n\nThe principle: if something is documented, it exists. If it is not documented, it does not.\n\nThis explains the obsession with Urkunden, Bescheinigungen, and Originale.\n\nThe Ausländerbehörde is not trying to be difficult. It follows a system designed for maximum legal certainty.\n\nEvery stamp, every Frist, every Bestätigung serves a purpose: protecting both the state and the individual.\n\n'Ordnung muss sein' (there must be order) captures the philosophy.",deepDive:"The German word 'Beamtenstaat' (civil servant state) describes a country where bureaucracy is a profession, not just a job. Beamte study for years, pass state exams, and receive lifelong employment. This creates consistency but also rigidity. The system prioritizes fairness through uniformity: everyone follows the same rules, fills out the same forms, waits the same amount of time."},
 
-{type:"mc",q:"Nachdem alle Unterlagen geprüft worden waren, _____ der Aufenthaltstitel ausgestellt _____.",opts:["sollte...sind","musste...sein","wurde...haben","konnte...werden"],ans:"konnte...werden",hint:"After checking, the permit could be issued. Passive + modal: konnte + PP + werden."},
+{type:"mc",q:"Nachdem alle Unterlagen geprüft worden waren, _____ der Aufenthaltstitel ausgestellt _____.",opts:["sollte...sind","musste...sein","wurde...haben","konnte...werden"],ans:"konnte...werden",hint:"The checking is complete. The permit becomes possible to issue. Which modal expresses ability in the past, combined with a passive infinitive?"},
 
 {type:"mc",q:"Verumius feiert, _____ er wochenlang auf den Termin gewartet hat.",opts:["nachdem","obwohl","damit","bevor"],ans:"nachdem",hint:"He celebrates after waiting. Which conjunction marks completed prior action?"},
 
 {type:"fb",s:"In Deutschland muss jeder Einwohner einen {1} haben.",a:["Wohnsitz"],opts:["Wohnsitz","Arbeitsplatz","Aufenthaltstitel","Pass"],hint:"The official registered address that everyone needs. The Anmeldung establishes this.",sSrc:"In Germany, every resident must have a registered address."},
 
-{type:"mc",q:"In Österreich sagt man 'Bankomat.' In der Schweiz sagt man...?",opts:["Geldautomat","Bancomat","EC-Karte","Chipkarte"],ans:"Bancomat",hint:"Swiss German uses an Italian-influenced word. It sounds like the Austrian version but with a 'c' instead of 'k.'"},
+{type:"mc",q:"In Österreich sagt man 'Bankomat.' In der Schweiz sagt man...?",opts:["Geldautomat","Bancomat","EC-Karte","Chipkarte"],ans:"Bancomat",hint:"Swiss German borrows from Italian rather than English for this machine. The spelling differs from the Austrian term by a single letter."},
 
 {type:"match",pairs:[{trg:"Behörde",src:"government authority"},{trg:"Aufenthalt",src:"residence/stay"},{trg:"Gebühr",src:"fee"},{trg:"Überweisung",src:"bank transfer"},{trg:"Einschreiben",src:"registered mail"}]},
 
-{type:"drag_fill",s:"{1} Verumius alle Dokumente eingereicht hatte, {2} der Aufenthaltstitel genehmigt {3}, {4} er alle Gebühren bezahlt hatte.",blanks:{"1":"Nachdem","2":"konnte","3":"werden","4":"nachdem"},pool:["Nachdem","konnte","werden","nachdem","Bevor","wurde","wird","obwohl"],hint:"After submitting, the permit could be approved, after he had paid. Nachdem + konnte...werden.",sSrc:"After Verumius had submitted all documents, the residence permit could be approved, after he had paid all fees."},
+{type:"drag_fill",s:"{1} Verumius alle Dokumente eingereicht hatte, {2} der Aufenthaltstitel genehmigt {3}, {4} er alle Gebühren bezahlt hatte.",blanks:{"1":"Nachdem","2":"konnte","3":"werden","4":"nachdem"},pool:["Nachdem","konnte","werden","nachdem","Bevor","wurde","wird","obwohl"],hint:"Four blanks: time conjunction, past-tense ability modal, passive auxiliary, then the same time conjunction again for the payment condition.",sSrc:"After Verumius had submitted all documents, the residence permit could be approved, after he had paid all fees."},
 
 {type:"story",speaker:"verumius",mood:"hopeful",art:"de-apartment-evening",trg:"Verumius schaut auf sein Handy. Eine E-Mail von der Ausländerbehörde. 'Ihr Antrag wurde bearbeitet. Bitte holen Sie Ihren Aufenthaltstitel am Schalter fünf ab.' Er liest den Satz dreimal. Bearbeitet. Abholen. Es hat geklappt.",src:"Verumius looks at his phone. An email from the immigration office. 'Your application has been processed. Please pick up your residence permit at counter five.' He reads the sentence three times. Processed. Pick up. It worked."},
 
