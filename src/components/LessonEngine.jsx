@@ -13,7 +13,15 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // Glass panel style for dark mode cards
   const glass={background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",boxShadow:"var(--card-shadow)",border:"2px solid var(--card-border)"};
   // NavArrow is now a global component (defined before ScoreCircle)
-  const steps=lesson.steps||[];
+  // Story mode toggle: OFF by default. When OFF, story cards are skipped entirely.
+  const [storyMode,setStoryMode]=React.useState(()=>{
+    try { const v=localStorage.getItem("vl_story_mode"); if(v!==null) return v==="true"; } catch(e){}
+    return false;
+  });
+  React.useEffect(()=>{try{localStorage.setItem("vl_story_mode",storyMode?"true":"false");}catch(e){}},[storyMode]);
+  const _allSteps=lesson.steps||[];
+  const hasStoryCards=_allSteps.some(s=>s.type==="story");
+  const steps=React.useMemo(()=>storyMode?_allSteps:_allSteps.filter(s=>s.type!=="story"),[_allSteps,storyMode]);
   const [si,setSi]=useState(0);
   const [score,setScore]=useState(0);
   const lessonId=lesson?.id;
@@ -608,6 +616,21 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         </button>
         <span className="hd" style={{fontSize:13,fontWeight:700,color:"var(--gray-400)"}}>{renderNavTitle(lesson.icon,lesson.title,13)}</span>
         <div style={{display:"flex",alignItems:"center",gap:8}}>
+          {/* Story mode toggle — only show if lesson has story cards */}
+          {hasStoryCards&&<button onClick={()=>setStoryMode(!storyMode)} title={storyMode?"Story Mode ON (click to skip stories)":"Story Mode OFF (click to show stories)"} style={{
+            width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
+            display:"flex",alignItems:"center",justifyContent:"center",
+            fontSize:16,transition:"all .15s",
+            background:storyMode
+              ?(dk?"linear-gradient(180deg,rgba(46,205,167,0.25),rgba(30,160,130,0.2))":"linear-gradient(180deg,rgba(230,255,248,0.95),rgba(200,245,235,0.9))")
+              :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
+            boxShadow:storyMode
+              ?(dk?"0 0 8px rgba(46,205,167,0.3),inset 0 1px 0 rgba(255,255,255,0.1)":"0 2px 8px rgba(46,205,167,0.15),inset 0 1px 0 rgba(255,255,255,0.9)")
+              :"none",
+            color:storyMode?(dk?"#5EDDB5":"#1A9A7A"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
+          }} onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>
+            <svg width={16} height={16} viewBox="0 0 24 24" fill="none"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/></svg>
+          </button>}
           {/* Grammar colorizer toggle */}
           <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?"Grammar Colors ON (click to toggle off)":"Grammar Colors OFF (click to toggle on)"} style={{
             width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
