@@ -1774,8 +1774,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         };
       }
 
-      // ── GRAMMAR TOGGLE ON: use active pack's color map ──
-      if (grammarHl && activePack) {
+      // ── GRAMMAR TOGGLE ON (or forceGrammar for tip cards): use active pack's color map ──
+      if ((grammarHl || opts.forceGrammar) && activePack) {
         let resolved = resolvePackColor(entry, activePack, dk);
         // Check if this POS category is disabled by user
         if (resolved && langDisabled.length > 0 && entry.pos) {
@@ -3172,7 +3172,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               })}
             </div>}
             {st.text&&(()=>{
-              const hl=(text)=>universalHl(text, lang);
+              const hl=(text)=>universalHl(text, lang, {forceGrammar:true});
               const isTranslationCard=st.title&&/vertal/i.test(st.title);
               // ── Pair-card pre-pass: group Korean line + → English line into pairs ──
               const rawLines=st.text.split(/\\n|\n/);
@@ -3285,7 +3285,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     :"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.08) 60%, transparent 100%)",
                   pointerEvents:"none",zIndex:1}}/>
                 <div style={{position:"relative",zIndex:2}}>
-                {(()=>{const ddHl=(text)=>universalHl(text, lang);return (dd.text||"").split(/\\n|\n/).map((line,i)=>{
+                {(()=>{const ddHl=(text)=>universalHl(text, lang, {forceGrammar:true});return (dd.text||"").split(/\\n|\n/).map((line,i)=>{
                   if(!line.trim()) return <div key={i} style={{height:8}}/>;
                   if(line.startsWith("⚠️")) return <div key={i} style={{background:dk?"rgba(245,166,35,0.12)":"rgba(245,166,35,0.08)",borderRadius:10,padding:"8px 12px",margin:"6px 0",display:"flex",gap:6,alignItems:"flex-start"}}><span style={{fontSize:14,lineHeight:1.2,flexShrink:0}}>⚠️</span><span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(line.slice(2).trim())}</span></div>;
                   if(/^[A-Z][A-Z ]{2,}:/.test(line.trim())) return <div key={i} style={{background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",borderRadius:8,padding:"6px 12px",margin:"8px 0 2px",borderLeft:"2px solid var(--purple-accent)"}}><span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)",letterSpacing:0.8,fontFamily:"'Nunito','system-ui',sans-serif"}}>{ddHl(line.trim())}</span></div>;
