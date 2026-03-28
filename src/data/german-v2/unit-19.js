@@ -60,7 +60,7 @@ const UNIT_19 =
 // ===== LESSON 2: "Amtsdeutsch" (Official German) =====
 // Vocab teach (bureaucracy + legal + family). 18 new words. 24 steps.
 {id:"deu_r19l2",title:"Amtsdeutsch",icon:"\uD83D\uDCDC",xp:15,board:true,steps:[
-{type:"intro",title:"Amtsdeutsch",desc:"Die Sprache der deutschen Verwaltung: lang, genau und voller Fachbegriffe. Gesetze, Gebühren, Pflichten. Willkommen in der Welt des Amtsdeutsch.",goals:["Lerne bürokratisches Vokabular für Amt und Recht","Verstehe Fachbegriffe der Verwaltung","Meistere Wörter für Staatsbürgerschaft und Pflichten"]},
+{type:"intro",title:"Amtsdeutsch",desc:"The language of German administration: long, precise, and full of technical terms. Laws, fees, obligations. Welcome to the world of official German.",goals:["Learn bureaucratic vocabulary for government offices and law","Understand administrative terminology","Master vocabulary for citizenship and civic duties"]},
 
 {type:"story",speaker:"narrator",mood:"observant",art:"de-auslaenderbehörde-waiting",trg:"Verumius beobachtet die anderen Wartenden. Eine Frau sortiert Papiere. Ein Mann tippt nervös auf sein Handy. An der Wand hängt ein Plakat: 'Bitte halten Sie alle Unterlagen bereit.' Die Uhr zeigt 9:47. Sein Termin war um 9:30.",src:"Verumius watches the other people waiting. A woman sorts papers. A man nervously taps on his phone. A poster on the wall reads: 'Please have all documents ready.' The clock shows 9:47. His appointment was at 9:30."},
 
@@ -116,7 +116,7 @@ const UNIT_19 =
 // ===== LESSON 3: "Das muss gemacht werden" (That Must Be Done) =====
 // Grammar: Passive with modals (#9). 14 new words. 22 steps.
 {id:"deu_r19l3",title:"Das muss gemacht werden",icon:"\u2699\uFE0F",xp:15,board:true,steps:[
-{type:"intro",title:"Das muss gemacht werden",desc:"Passiv mit Modalverben: Was muss getan werden? Was kann beantragt werden? Was darf nicht vergessen werden? Die Sprache der Behörde, Schritt für Schritt.",goals:["Lerne Passiv mit Modalverben: muss/kann/soll/darf + Partizip II + werden","Drücke Pflichten, Erlaubnisse und Verbote aus","Verwende bürokratisches Deutsch mit Sicherheit"]},
+{type:"intro",title:"Das muss gemacht werden",desc:"Passive with modal verbs: What must be done? What can be applied for? What must not be forgotten? The language of the government office, step by step.",goals:["Learn passive with modal verbs: muss/kann/soll/darf + Partizip II + werden","Express obligations, permissions, and prohibitions","Use bureaucratic German with confidence"]},
 
 {type:"story",speaker:"narrator",mood:"tense",art:"de-auslaenderbehörde-waiting",trg:"Das Display springt auf B085. Noch vier Nummern. Verumius liest das Hinweisschild neben Schalter drei: 'Anträge können nur mit vollständigen Unterlagen bearbeitet werden. Fehlende Dokumente müssen nachgereicht werden.' Passiv überall. Die Behörde spricht ihre eigene Sprache.",src:"The display jumps to B085. Four more numbers. Verumius reads the notice next to counter three: 'Applications can only be processed with complete documents. Missing documents must be submitted later.' Passive everywhere. The office speaks its own language."},
 
@@ -170,7 +170,7 @@ const UNIT_19 =
 // ===== LESSON 4: "Bevor die Frist abläuft" (Before the Deadline Expires) =====
 // Grammar: Subordinating conjunctions expanded (#18). 16 new words. 24 steps.
 {id:"deu_r19l4",title:"Bevor die Frist abläuft",icon:"\u23F0",xp:15,board:true,steps:[
-{type:"intro",title:"Bevor die Frist abläuft",desc:"Acht neue Konjunktionen. Zeit, Zweck, Bedingung, Einräumung. Komplexe Sätze für offizielle Situationen. Das Verb geht ans Ende.",goals:["Lerne 8 neue Nebensatzkonjunktionen","Drücke Zeit, Zweck, Bedingung und Einräumung aus","Baue komplexe deutsche Sätze für offizielle Kontexte"]},
+{type:"intro",title:"Bevor die Frist abläuft",desc:"Eight new conjunctions. Time, purpose, condition, concession. Complex sentences for official situations. The verb goes to the end.",goals:["Learn 8 new subordinating conjunctions","Express time, purpose, condition, and concession","Build complex German sentences for official contexts"]},
 
 {type:"story",speaker:"narrator",mood:"urgent",art:"de-auslaenderbehörde-waiting",trg:"B089. Verumius' Nummer leuchtet auf dem Display. Er steht auf, klemmt den Ordner unter den Arm und geht zu Schalter drei. Das Herz klopft. Bevor er den Raum betritt, atmet er einmal tief durch. Obwohl er alles vorbereitet hat, fühlt sich dieser Moment riesig an.",src:"B089. Verumius's number lights up on the display. He stands up, tucks the folder under his arm, and walks to counter three. His heart pounds. Before he enters the room, he takes one deep breath. Although he prepared everything, this moment feels enormous."},
 
@@ -227,7 +227,7 @@ const UNIT_19 =
 // ===== LESSON 5: "Die Dokumentenprüfung" (The Document Check) =====
 // Story development + combo practice. 15 new words. 22 steps.
 {id:"deu_r19l5",title:"Die Dokumentenprüfung",icon:"\uD83D\uDD0D",xp:15,board:true,steps:[
-{type:"intro",title:"Die Dokumentenprüfung",desc:"Die Beamtin prüft jedes Dokument. Verumius wartet. Passiv mit Modalverben und Nebensätze in der Praxis. Bürokratie live.",goals:["Übe Passiv mit Modalverben im Behörden-Dialog","Kombiniere Konjunktionen mit komplexer Grammatik","Überstehe eine Dokumentenprüfung bei der Behörde"]},
+{type:"intro",title:"Die Dokumentenprüfung",desc:"Die Beamtin prüft jedes Dokument. Verumius wartet. Passiv mit Modalverben und Nebensätze in der Praxis. Bürokratie live.",goals:["Practice passive with modal verbs in a government office dialogue","Combine conjunctions with complex grammar","Navigate a document check at the government office"]},
 
 {type:"story",speaker:"beamtin",mood:"neutral",art:"de-auslaenderbehörde-interview",trg:"Guten Tag. Nehmen Sie bitte Platz. Ich muss zunächst alle Unterlagen prüfen, bevor wir den Antrag bearbeiten können.",src:"Good day. Please take a seat. I must first check all documents before we can process the application."},
 
@@ -345,7 +345,7 @@ const UNIT_19 =
 // ===== LESSON 7: "Alles auf dem Prüfstand" (Everything Under Review) =====
 // Comprehensive quiz. 10 new words. 22 steps.
 {id:"deu_r19l7",title:"Alles auf dem Prüfstand",icon:"\u2705",xp:15,board:true,steps:[
-{type:"intro",title:"Alles auf dem Prüfstand",desc:"Alles aus Unit 19 auf dem Prüfstand. Passiv mit Modalverben, Konjunktionen, Bürokratie, Bankwesen, Familie. Zeig, was du kannst.",goals:["Teste Passiv mit Modalverben und Konjunktionen","Beweise dein Behörden- und Bankvokabular","Kombiniere mehrere Grammatikstrukturen in komplexen Sätzen"]},
+{type:"intro",title:"Alles auf dem Prüfstand",desc:"Everything from Unit 19 under review. Passive with modal verbs, conjunctions, bureaucracy, banking, family. Show what you can do.",goals:["Test passive with modal verbs and conjunctions","Prove your government office and banking vocabulary","Combine multiple grammar structures in complex sentences"]},
 
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-apartment-evening",trg:"Zwei Wochen später. Verumius sitzt am Küchentisch. Die Überweisung ist raus, die Bestätigung per Post gekommen. Jetzt wartet er auf den endgültigen Bescheid. KD hat gesagt: 'Voraussichtlich sechs Wochen.' Sechs Wochen. Er nutzt die Zeit, um alles noch einmal durchzugehen.",src:"Two weeks later. Verumius sits at the kitchen table. The transfer is done, the confirmation arrived by mail. Now he waits for the final decision. KD said: 'Presumably six weeks.' Six weeks. He uses the time to go through everything one more time."},
 
@@ -399,7 +399,7 @@ const UNIT_19 =
 // ===== LESSON 8: "Ich habe es geschafft!" (I Made It!) =====
 // Story resolution + cultural deep dive. 13 new words. 22 steps.
 {id:"deu_r19l8",title:"Ich habe es geschafft!",icon:"\uD83C\uDF89",xp:15,board:true,steps:[
-{type:"intro",title:"Ich habe es geschafft!",desc:"Der Stempel fällt. WUMM. Genehmigt. Verumius ruft KD an. Der Gruppenchat explodiert. Offizieller Einwohner von Deutschland.",goals:["Feiere Verumius' Aufenthaltstitel","Lerne Vokabular für Handel und Alltag","Reflektiere den bürokratischen Weg und die deutsche Verwaltungskultur"]},
+{type:"intro",title:"Ich habe es geschafft!",desc:"The stamp falls. THUNK. Approved. Verumius calls KD. The group chat explodes. Official resident of Germany.",goals:["Celebrate Verumius' residence permit","Learn vocabulary for commerce and everyday life","Reflect on the bureaucratic journey and German administrative culture"]},
 
 {type:"story",speaker:"narrator",mood:"triumphant",art:"de-auslaenderbehörde-stamp",trg:"Die Beamtin greift zum Stempel. WUMM. Genehmigt. Verumius' Gesicht verwandelt sich. Er steht auf, bedankt sich dreimal und geht in den Flur. Das Handy ist schon in der Hand.",src:"The officer reaches for the stamp. THUNK. Approved. Verumius's face transforms. He stands up, thanks her three times, and walks into the hallway. The phone is already in his hand."},
 

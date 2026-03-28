@@ -34,7 +34,7 @@ const UNIT_5 =
 {type:"mc",q:"Ich ___ gern Brot. Which form of essen fits?",opts:["isst","esse","esst","essen"],ans:"esse",hint:"The subject is ich. What happens to the vowel?"},
 {type:"fb",s:"Guten {1}! Das Essen sieht lecker aus.",a:["Appetit"],opts:["Appetit","Morgen","Abend","Tag"],hint:"A polite phrase said before meals.",sSrc:"Enjoy your meal! The food looks delicious."},
 {type:"tip",title:"Im Gasthaus",text:"A Gasthaus is a traditional German inn or restaurant. When you arrive:\n1. Wait to be seated or find a free table.\n2. Ask: Kann ich die Speisekarte haben?\n3. Say Guten Appetit before eating.\n4. To pay: Zahlen bitte! or Die Rechnung bitte!",deepDive:{title:"Restaurant culture",text:"In Germany, tipping is not as high as in the US. Rounding up or adding 5 to 10 percent is normal. You say the total amount you want to pay, including tip, when handing money to the server."}},
-{type:"mc",q:"Which word means the same as Speisekarte?",opts:["Rechnung","Bestellung","Speisenkarte","Kellner"],ans:"Speisenkarte",hint:"It is a variant spelling with one extra letter."},
+{type:"mc",q:"Which word means the same as Speisekarte?",opts:["Rechnung","Bestellung","Speisenkarte","Kellner"],ans:"Speisenkarte",hint:"Both words name the same document you read before ordering."},
 {type:"story",speaker:"narrator",mood:"gentle",art:"de-gasthaus-exterior-door",trg:"Verumius atmet tief ein. Dann öffnet er die Tür.",src:"Verumius takes a deep breath. Then he opens the door."}
 ]},
 
