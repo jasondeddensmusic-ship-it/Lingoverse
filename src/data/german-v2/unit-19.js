@@ -227,7 +227,7 @@ const UNIT_19 =
 // ===== LESSON 5: "Die Dokumentenprüfung" (The Document Check) =====
 // Story development + combo practice. 15 new words. 22 steps.
 {id:"deu_r19l5",title:"Die Dokumentenprüfung",icon:"\uD83D\uDD0D",xp:15,board:true,steps:[
-{type:"intro",title:"Die Dokumentenprüfung",desc:"Die Beamtin prüft jedes Dokument. Verumius wartet. Passiv mit Modalverben und Nebensätze in der Praxis. Bürokratie live.",goals:["Practice passive with modal verbs in a government office dialogue","Combine conjunctions with complex grammar","Navigate a document check at the government office"]},
+{type:"intro",title:"Die Dokumentenprüfung",desc:"The clerk checks every document. Verumius waits. Passive with modal verbs and subordinate clauses in practice. Bureaucracy live.",goals:["Practice passive with modal verbs in a government office dialogue","Combine conjunctions with complex grammar","Navigate a document check at the government office"]},
 
 {type:"story",speaker:"beamtin",mood:"neutral",art:"de-auslaenderbehörde-interview",trg:"Guten Tag. Nehmen Sie bitte Platz. Ich muss zunächst alle Unterlagen prüfen, bevor wir den Antrag bearbeiten können.",src:"Good day. Please take a seat. I must first check all documents before we can process the application."},
 
