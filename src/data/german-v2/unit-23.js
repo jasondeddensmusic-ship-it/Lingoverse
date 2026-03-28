@@ -32,7 +32,9 @@ const UNIT_23 =
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-ber-study-dawn",trg:"Wenn Verumius mehr geschlafen hätte, wäre er jetzt weniger müde. Aber er braucht jede Minute. Die Prüfung wartet nicht.",src:"If Verumius had slept more, he would be less tired now. But he needs every minute. The exam does not wait."},
 {type:"mc",q:"Verumius wiederholt seine Karteikarten jeden Abend. Welches Wort beschreibt diese regelmäßige Aktivität?",opts:["Zusammenhang","Wiederholung","Bedeutung","Abschnitt"],ans:"Wiederholung",hint:"Look for the noun that describes the act of going over something more than once."},
 {type:"fb",s:"Um Vokabeln zu {1}, muss man regelmäßig üben.",a:["behalten"],opts:["behalten","erkennen","konzentrieren","verbessern"],hint:"Which verb means to keep something in your memory?",sSrc:"To retain vocabulary, one must practice regularly."},
-{type:"match",pairs:[{trg:"Methode",src:"method"},{trg:"Regel",src:"rule"},{trg:"Kapitel",src:"chapter"},{trg:"Reihenfolge",src:"sequence"}]}
+{type:"match",pairs:[{trg:"Methode",src:"method"},{trg:"Regel",src:"rule"},{trg:"Kapitel",src:"chapter"},{trg:"Reihenfolge",src:"sequence"}]},
+
+{type:"mc",q:"Welches Wort beschreibt, wie gut man sich eine Information merken kann?",opts:["der Inhalt","die Reihenfolge","die Bedeutung","das Wissen"],ans:"das Wissen",hint:"The noun that comes from the verb 'wissen' and means everything you have learned and retained."}
 ]},
 
 // =============================================

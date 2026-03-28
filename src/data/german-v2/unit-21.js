@@ -29,7 +29,9 @@ const UNIT_21 =
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-lei-hbf",trg:"Verumius steht in der gro\u00dfen Halle und schaut nach oben. Ein Bahnhof, der Kriege und Teilung \u00fcberlebt hat. Mia l\u00e4chelt. F\u00fcr sie ist das alles Heimat. F\u00fcr ihn ist es der Anfang einer Geschichte.",src:"Verumius stands in the grand hall and looks up. A train station that survived wars and division. Mia smiles. For her, this is all home. For him, it is the beginning of a story."},
 {type:"mc",q:"Leipzig nennt sich Heldenstadt. Wof\u00fcr k\u00e4mpften die Menschen 1989?",opts:["Erinnerung","Gesellschaft","Freiheit","Grenze"],ans:"Freiheit",hint:"In 1989, this is what demonstrators in Leipzig were marching for. Think about the opposite of oppression."},
 {type:"fb",s:"Die Berliner {1} fiel am 9. November 1989.",a:["Mauer"],opts:["Mauer","Grenze","Freiheit","Gesellschaft"],hint:"This structure divided a city for 28 years. Its fall in 1989 changed history.",sSrc:"The Berlin Wall fell on November 9, 1989."},
-{type:"match",pairs:[{trg:"Grenze",src:"border"},{trg:"Freiheit",src:"freedom"},{trg:"Erinnerung",src:"memory"},{trg:"Vergangenheit",src:"past"}]}
+{type:"match",pairs:[{trg:"Grenze",src:"border"},{trg:"Freiheit",src:"freedom"},{trg:"Erinnerung",src:"memory"},{trg:"Vergangenheit",src:"past"}]},
+
+{type:"mc",q:"Leipzig wird 'Heldenstadt' genannt. Warum?",opts:["Wegen seiner vielen Burgen und Schl\u00f6sser","Weil dort Goethe geboren wurde","Wegen der friedlichen Revolution 1989","Weil es die gr\u00f6\u00dfte Stadt in Deutschland ist"],ans:"Wegen der friedlichen Revolution 1989",hint:"The peaceful demonstrations that began in Leipzig in 1989 changed German history."}
 ]},
 
 // Lesson 2: Stimmen der Geschichte (Vocab teach, 24 steps, 18 new words)

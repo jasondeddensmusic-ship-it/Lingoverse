@@ -238,7 +238,9 @@ const UNIT_32 =
 {type:"fb",s:"Alles, {1} ich in Deutschland erlebt habe, hat mich geformt.",a:["was"],opts:["was","das","wer","welches"],hint:"After 'alles', the relative pronoun changes from the usual definite article form. Which relative pronoun follows 'alles', 'nichts', or 'etwas'?",sSrc:"Everything that I have experienced in Germany has shaped me."},
 {type:"mc",q:"Welches Fugenelement ist korrekt? Freiheit_kampf",opts:["Freiheitskampf (Fugen-s)","Freiheitkampf (kein Fugen)","Freiheitenkampf (Fugen-en)","Freiheiterkampf (Fugen-er)"],ans:"Freiheitskampf (Fugen-s)",hint:"Nouns ending in -heit follow the same pattern as -keit and -schaft. Which Fugenelement do all three of these suffixes use?"},
 {type:"drag_fill",s:"{1} andere respektiert, {2} wird selbst respektiert. {3} Erkenntnis ist zeitlos.",blanks:{"1":"Wer","2":"der","3":"Diese"},pool:["Wer","der","Diese","Was","den","Dieselbe"],hint:"Generalizing relative clause (wer...der) + demonstrative (diese). 'Wer andere respektiert, der wird selbst respektiert.'",sSrc:"Whoever respects others is respected. This insight is timeless."},
-{type:"match",pairs:[{trg:"Erkenntnis",src:"insight/realization"},{trg:"Weltanschauung",src:"worldview"},{trg:"Zusammenleben",src:"coexistence"},{trg:"Menschenwürde",src:"human dignity"}]}
+{type:"match",pairs:[{trg:"Erkenntnis",src:"insight/realization"},{trg:"Weltanschauung",src:"worldview"},{trg:"Zusammenleben",src:"coexistence"},{trg:"Menschenwürde",src:"human dignity"}]},
+
+{type:"mc",q:"Was bedeutet 'sich assimilieren' im Vergleich zu 'sich integrieren'?",opts:["Beide sind bedeutungsgleich: man wird Teil einer Gesellschaft","Assimilation bewahrt die eigene Identit\u00e4t, Integration l\u00f6scht sie","Assimilation l\u00f6scht Unterschiede, Integration bewahrt sie","Integration ist st\u00e4rker als Assimilation"],ans:"Assimilation l\u00f6scht Unterschiede, Integration bewahrt sie",hint:"Think about what happens to your original identity in each process. One preserves differences, the other dissolves them."}
 ]}
 ]};
 

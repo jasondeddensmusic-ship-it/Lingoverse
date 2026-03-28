@@ -51,7 +51,10 @@ const UNIT_19 =
 
 {type:"mc",q:"Verumius hat eine vorläufige Genehmigung. Was bedeutet das?",opts:["Die Genehmigung ist abgelaufen.","Die Genehmigung ist temporär.","Die Genehmigung ist falsch.","Die Genehmigung ist endgültig."],ans:"Die Genehmigung ist temporär.",hint:"Vorläufig means something is not yet permanent."},
 
-{type:"story",speaker:"narrator",mood:"patient",art:"de-auslaenderbehörde-waiting",trg:"Das Display zeigt B052. Verumius rechnet: noch 37 Nummern. Er holt sein Handy raus und schreibt KD: 'Bin in der Behörde. Warte seit einer Stunde.' KD antwortet sofort: 'Normal. Geduld ist eine deutsche Tugend.'",src:"The display shows B052. Verumius calculates: 37 more numbers. He takes out his phone and texts KD: 'I am at the office. Been waiting for an hour.' KD replies immediately: 'Normal. Patience is a German virtue.'"}
+{type:"story",speaker:"narrator",mood:"patient",art:"de-auslaenderbehörde-waiting",trg:"Das Display zeigt B052. Verumius rechnet: noch 37 Nummern. Er holt sein Handy raus und schreibt KD: 'Bin in der Behörde. Warte seit einer Stunde.' KD antwortet sofort: 'Normal. Geduld ist eine deutsche Tugend.'",src:"The display shows B052. Verumius calculates: 37 more numbers. He takes out his phone and texts KD: 'I am at the office. Been waiting for an hour.' KD replies immediately: 'Normal. Patience is a German virtue.'"},
+
+{type:"mc",q:"Welches Wort beschreibt etwas, das noch nicht endgültig ist?",opts:["nötig","rechtzeitig","vorläufig","danach"],ans:"vorläufig",hint:"Think of a permit that is temporary before becoming final."},
+{type:"fb",s:"Er muss {1} das Formular ausfüllen und danach die Gebühr bezahlen.",a:["zunächst"],opts:["zunächst","sicher","vorläufig","nötig"],hint:"Which adverb means 'first of all' in a sequence of steps?",sSrc:"He must first of all fill out the form and then pay the fee."}
 ]},
 
 // ===== LESSON 2: "Amtsdeutsch" (Official German) =====
@@ -388,7 +391,9 @@ const UNIT_19 =
 
 {type:"mc",q:"Die Überweisung muss bis Freitag ausgeführt werden. Was bedeutet das?",opts:["Die Bank ist am Freitag geschlossen.","Die Zinsen werden am Freitag berechnet.","Man braucht Bargeld am Freitag.","Der Bankauftrag hat eine Frist bis Freitag."],ans:"Der Bankauftrag hat eine Frist bis Freitag.",hint:"Muss...werden = obligation. Bis Freitag = deadline."},
 
-{type:"drag_fill",s:"{1} die Beamtin alle Unterlagen geprüft hat, {2} der Aufenthaltstitel {3} {4}, {5} alle Gebühren bezahlt sind.",blanks:{"1":"Nachdem","2":"kann","3":"ausgestellt","4":"werden","5":"falls"},pool:["Nachdem","kann","ausgestellt","werden","falls","Bevor","muss","ausstellen","wird","obwohl"],hint:"After the officer checked everything, the permit can be issued, if all fees are paid. Time + possibility + condition.",sSrc:"After the officer checked all documents, the residence permit can be issued, if all fees are paid."}
+{type:"drag_fill",s:"{1} die Beamtin alle Unterlagen geprüft hat, {2} der Aufenthaltstitel {3} {4}, {5} alle Gebühren bezahlt sind.",blanks:{"1":"Nachdem","2":"kann","3":"ausgestellt","4":"werden","5":"falls"},pool:["Nachdem","kann","ausgestellt","werden","falls","Bevor","muss","ausstellen","wird","obwohl"],hint:"After the officer checked everything, the permit can be issued, if all fees are paid. Time + possibility + condition.",sSrc:"After the officer checked all documents, the residence permit can be issued, if all fees are paid."},
+
+{type:"mc",q:"Verumius muss seinen Antrag bis Freitag einreichen. Welches Wort beschreibt diesen Zeitpunkt?",opts:["spätestens","ausschließlich","vorläufig","dahin"],ans:"spätestens",hint:"The word that marks an absolute deadline. Not one day later is acceptable."}
 ]},
 
 // ===== LESSON 8: "Ich habe es geschafft!" (I Made It!) =====
@@ -448,7 +453,9 @@ const UNIT_19 =
 
 {type:"mc",q:"Was musste Verumius alles machen, bevor der Aufenthaltstitel genehmigt werden konnte?",opts:["Nichts, der Aufenthaltstitel wird automatisch ausgestellt","Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen","Nur das Visum verlängern","Nur die Gebühr bezahlen"],ans:"Alle Unterlagen sammeln, Gebühren bezahlen und rechtzeitig den Antrag stellen",hint:"The full process requires multiple steps. Which answer covers everything?"},
 
-{type:"story",speaker:"narrator",mood:"triumphant",art:"de-apartment-celebration",trg:"Verumius legt den Aufenthaltstitel in seinen Ordner. Neben die Geburtsurkunde, die Meldebescheinigung und den Arbeitsvertrag. Alles hat seinen Platz. Er ist kein Besucher mehr. Er ist Einwohner. Er gehört dazu. Und morgen? Morgen beginnt das nächste Kapitel.",src:"Verumius puts the residence permit in his folder. Next to the birth certificate, the registration certificate, and the employment contract. Everything has its place. He is no longer a visitor. He is a resident. He belongs. And tomorrow? Tomorrow the next chapter begins."}
+{type:"story",speaker:"narrator",mood:"triumphant",art:"de-apartment-celebration",trg:"Verumius legt den Aufenthaltstitel in seinen Ordner. Neben die Geburtsurkunde, die Meldebescheinigung und den Arbeitsvertrag. Alles hat seinen Platz. Er ist kein Besucher mehr. Er ist Einwohner. Er gehört dazu. Und morgen? Morgen beginnt das nächste Kapitel.",src:"Verumius puts the residence permit in his folder. Next to the birth certificate, the registration certificate, and the employment contract. Everything has its place. He is no longer a visitor. He is a resident. He belongs. And tomorrow? Tomorrow the next chapter begins."},
+
+{type:"fb",s:"Der Aufenthaltstitel muss {1} am Schalter abgeholt werden.",a:["spätestens"],opts:["spätestens","ausschließlich","trotz","dahin"],hint:"Which adverb sets an absolute time limit, meaning no later than a certain date?",sSrc:"The residence permit must be picked up by the counter at the latest."}
 ]}
 
 ]};
