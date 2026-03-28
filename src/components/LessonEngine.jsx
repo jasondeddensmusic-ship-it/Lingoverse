@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { createPortal } from "react-dom";
-import { LANGUAGES, LANG_META, LANG_BLUEPRINT, LANG_TOKENIZER } from '../data/metadata.js';
+import { LANGUAGES, BASE_LANGUAGES, LANG_META, LANG_BLUEPRINT, LANG_TOKENIZER } from '../data/metadata.js';
 import { TEXT_KEYS, tk, t, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, ARTICLE_COLORS, getArticle, LEVEL_XP, ACHS } from '../data/vocabulary.js';
 import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
 import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, UNITS, _romanize, _normS, validateLessonForLeaks } from '../utils.js';

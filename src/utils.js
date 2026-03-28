@@ -3,7 +3,7 @@
 
 import { LEVEL_XP } from './data/vocabulary.js';
 import { LANGUAGES, LANG_META } from './data/metadata.js';
-import { FOUNDATIONS_BY_LANG } from './data/foundations.js';
+import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH } from './data/foundations.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
