@@ -7,7 +7,7 @@ const UNIT_19 =
 // ===== LESSON 1: "Wartenummer B089" (Queue Number B089) =====
 // Story intro + vocabulary. 16 new words. 22 steps.
 {id:"deu_r19l1",title:"Wartenummer B089",icon:"\uD83C\uDFE2",xp:15,board:true,steps:[
-{type:"intro",title:"Wartenummer B089",desc:"Verumius sitzt in der Ausländerbehörde. Wartenummer B089. Das Display zeigt A247. Sein Ordner ist perfekt organisiert. Hildi hat geholfen.",goals:["Lerne wichtige Wörter rund um Behörden und Anträge","Verstehe, wie ein deutsches Amt funktioniert","Begleite Verumius im Wartezimmer der Ausländerbehörde"]},
+{type:"intro",title:"Wartenummer B089",desc:"Verumius sits in the immigration office. Queue number B089. The display shows A247. His folder is perfectly organized. Hildi helped.",goals:["Learn key vocabulary for government offices and applications","Understand how a German Amt works","Follow Verumius in the waiting room of the Ausländerbehörde"]},
 
 {type:"story",speaker:"narrator",mood:"tense",art:"de-auslaenderbehoerde-waiting",trg:"Verumius sitzt in der Ausländerbehörde. Wartenummer B089. Das digitale Display zeigt A247. Sein Ordner liegt auf den Knien, perfekt organisiert. Hildi hat alles sortiert. Geburtsurkunde, Meldebescheinigung, Arbeitsvertrag, Krankenversicherung, Passfotos. Neonlicht summt über den Reihen aus Plastikstühlen. Ein Drucker rattert irgendwo im Hintergrund.",src:"Verumius sits in the immigration office. Queue number B089. The digital display shows A247. His folder lies on his lap, perfectly organized. Hildi sorted everything. Birth certificate, registration confirmation, employment contract, health insurance, passport photos. Fluorescent light hums above the rows of plastic chairs. A printer rattles somewhere in the background."},
 
