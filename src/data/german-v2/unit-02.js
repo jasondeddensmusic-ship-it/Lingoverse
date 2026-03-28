@@ -205,6 +205,7 @@ const UNIT_2 =
 {type:"match",pairs:[{trg:"geradeaus",src:"straight ahead"},{trg:"die Kreuzung",src:"intersection"},{trg:"umsteigen",src:"to transfer"},{trg:"geschlossen",src:"closed"},{trg:"ankommen",src:"to arrive"},{trg:"leider",src:"unfortunately"}]},
 {type:"mc",q:"'Berlin gefällt mir' means:",opts:["Berlin falls down","I feel Berlin","Berlin is gone","I like Berlin"],ans:"I like Berlin",hint:"Gefallen = to please. The subject does the pleasing, not the experiencing."},
 {type:"fb",s:"Ich fliege {1} Berlin.",a:["nach"],opts:["nach","zu","bei","an"],hint:"For traveling TO cities and countries, which preposition do you use?",sSrc:"I am flying to Berlin."},
+{type:"teach",trg:"brauchen",src:"to need",pos:"verb",gender:null,note:"Regular verb. Ich brauche, du brauchst, er braucht.",example:"A: Was brauchst du?\nB: Ich brauche eine Karte von Berlin.",exampleSrc:"A: What do you need?\nB: I need a map of Berlin.",funFact:"In spoken German, brauchen sometimes replaces müssen with nicht: Du brauchst nicht kommen = you don't need to come."},
 {type:"drag_fill",s:"Entschuldigung, {1} ist {2} Apotheke? Ich {3} Medizin.",blanks:{"1":"wo","2":"die","3":"brauche"},pool:["wo","die","brauche","wohin","der","kaufe"],hint:"Where (location) is the (feminine) pharmacy? I need medicine.",sSrc:"Excuse me, where is the pharmacy? I need medicine."},
 {type:"mc",q:"Which compound noun is NEUTER?",opts:["der Parkplatz","die Innenstadt","das Rathaus","der Stadtplan"],ans:"das Rathaus",hint:"Compound nouns take the gender of the LAST word."}
 ]},
