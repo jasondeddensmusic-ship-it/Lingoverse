@@ -134,6 +134,7 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 - **PP37**: Function words need teach cards before first use.
 - **PP43**: Density targets: Korean 20-25, Dutch/German 18-35 steps/lesson. Pedagogy over count.
 - **PP46**: B1+ lessons: 2+ constructs per example, 50%+ combo quizzes, 15+ steps minimum.
+- **PP63**: Example Vocabulary Integrity. Every content word in a teach card's `example` must be: (a) the `trg` of THIS card, (b) taught in a PRIOR teach card, or (c) an exempt function word. No untaught words in examples. Strictest at A1, relaxed at B2 for transparent cognates/compounds.
 
 ### Metalanguage Rule (PP61 — CRITICAL)
 ALL explanatory text MUST be in the source language (English). Only target-language content (words being taught, example sentences, quiz questions) is in the target language. This applies to:
