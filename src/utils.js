@@ -11,6 +11,7 @@ import germanV2Units from './data/units-german-v2.js';
 import frenchUnits from './data/units-french.js';
 import spanishUnits from './data/units-spanish.js';
 import otherUnits from './data/units-other.js';
+import { UNITS_GERMAN_V2_AR } from './data/units-german-v2-ar.js';
 
 const __devWarnings=[];
 
@@ -505,7 +506,7 @@ const xpCurr = xp=>LEVEL_XP[getLevel(xp)-1]||0;
 
 
 // ── Unit Assembly & Normalization ──
-const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 // ── FIELD NORMALIZATION: support both legacy nl/en AND new trg/src ──
 // After migration, old field names can be removed. Until then, both coexist.
 function _normStep(st){
