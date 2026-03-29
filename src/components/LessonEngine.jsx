@@ -10,6 +10,9 @@ import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon, B
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
   const dk=document.documentElement.classList.contains("dark");
+  // RTL flag for source language (Arabic etc.) — applies to translations, hints, notes
+  const srcRtl=baseLang==="ar";
+  const srcDir=srcRtl?{direction:"rtl",textAlign:"right"}:{};
   // Glass panel style for dark mode cards
   const glass={background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",boxShadow:"var(--card-shadow)",border:"2px solid var(--card-border)"};
   // NavArrow is now a global component (defined before ScoreCircle)

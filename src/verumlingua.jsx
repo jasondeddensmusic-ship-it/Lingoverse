@@ -4101,22 +4101,49 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
 
 function Onboarding({onComplete}){
   const dk=document.documentElement.classList.contains("dark");
+  const [step,setStep]=useState("source"); // source | target
+  const [baseSel,setBaseSel]=useState("en");
   const [targetSel,setTargetSel]=useState(null);
-  const baseSel="en"; // D83: hardcoded until Arabic source language is added
 
   // Ctrl+S → proceed
   useEffect(()=>{
     const h=e=>{
       if((e.ctrlKey||e.metaKey)&&e.key==="s"){
         e.preventDefault();
-        if(targetSel) onComplete(baseSel,targetSel);
+        if(step==="source"&&baseSel){setStep("target");}
+        else if(step==="target"&&targetSel) onComplete(baseSel,targetSel);
       }
     };
     window.addEventListener("keydown",h);
     return ()=>window.removeEventListener("keydown",h);
-  },[targetSel]);
+  },[step,baseSel,targetSel]);
 
-  // D85: Single screen — pick target language. No splash, no auth. Flag icon grid matching Profile screen.
+  // Step 1: Source language selection
+  if(step==="source") return(
+    <div className="ob-overlay" style={{overflowY:"auto",padding:20}}>
+      <div className="ob-card" style={{maxWidth:520}}>
+        <div style={{width:76,height:76,borderRadius:19,margin:"0 auto 16px",overflow:"hidden",boxShadow:"0 8px 28px rgba(123,94,232,0.25)",position:"relative"}}>
+          <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={baseSel} size={44}/></div>
+        </div>
+        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4,fontFamily:"'Quicksand',sans-serif"}}>I speak...</h2>
+        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>Choose your native or strongest language</p>
+
+        <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center",maxWidth:460,margin:"0 auto 28px"}}>
+          {BASE_LANGUAGES.map(l=>(
+            <div key={l.code} className={`lang-card ${baseSel===l.code?"active":""}`} onClick={()=>setBaseSel(l.code)} style={{cursor:"pointer",...(l.rtl?{direction:"rtl"}:{})}}>
+              <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
+            </div>
+          ))}
+        </div>
+
+        <button className="btn btn-blue" style={{fontSize:17,padding:"14px 36px",borderRadius:16,opacity:baseSel?1:.4,transition:"all .2s"}} disabled={!baseSel} onClick={()=>baseSel&&setStep("target")}>
+          Continue →
+        </button>
+      </div>
+    </div>
+  );
+
+  // Step 2: Target language selection
   return(
     <div className="ob-overlay" style={{overflowY:"auto",padding:20}}>
       <div className="ob-card" style={{maxWidth:520}}>
@@ -4124,14 +4151,15 @@ function Onboarding({onComplete}){
           {targetSel?(
             <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={targetSel} size={44}/></div>
           ):(
-            <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:32,fontWeight:900,color:"#fff",fontFamily:"'DM Sans',sans-serif"}}>L</div>
+            <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:32,fontWeight:900,color:"#fff",fontFamily:"'Quicksand',sans-serif"}}>?</div>
           )}
         </div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4}}>{t("ob_i_want_learn",baseSel)}</h2>
-        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14}}>{t("ob_choose_target",baseSel)}</p>
+        <div style={{marginBottom:8}}><button onClick={()=>setStep("source")} style={{background:"none",border:"none",color:"var(--purple-accent-text)",fontSize:12,fontWeight:700,cursor:"pointer",fontFamily:"'Nunito',sans-serif"}}>← Change source language</button></div>
+        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4,fontFamily:"'Quicksand',sans-serif"}}>{t("ob_i_want_learn",baseSel)}</h2>
+        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>{t("ob_choose_target",baseSel)}</p>
 
         <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center",maxWidth:460,margin:"0 auto 28px"}}>
-          {LANGUAGES.map(l=>(
+          {LANGUAGES.filter(l=>l.code!==baseSel).map(l=>(
             <div key={l.code} className={`lang-card ${targetSel===l.code?"active":""}`} onClick={()=>setTargetSel(l.code)} style={{cursor:"pointer"}}>
               <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
             </div>
@@ -4315,7 +4343,8 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
   const dk=document.documentElement.classList.contains("dark");
   const L=LANGUAGES.find(l=>l.code===lang);
   const isRtl=!!L?.rtl; // Arabic, Hebrew etc. — used for FK content direction
-  const allLangUnits=UNITS.filter(u=>u.lang===lang);
+  const _srcFiltered=UNITS.filter(u=>u.lang===lang&&(u.srcLang||"en")===baseLang);
+  const allLangUnits=_srcFiltered.length>0?_srcFiltered:UNITS.filter(u=>u.lang===lang&&(u.srcLang||"en")==="en");
   // Track system: if units have a "track" field, allow toggling
   const tracks=[...new Set(allLangUnits.map(u=>u.track).filter(Boolean))];
   const hasTracks=tracks.length>1;
@@ -4508,17 +4537,18 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
       return(
         <div className="anim" onKeyDown={e=>{if(e.code==="Space"&&!e.target.closest("button,input,textarea")){e.preventDefault();goNext();}if(e.code==="ArrowLeft"){e.preventDefault();goPrev();}if(e.code==="ArrowRight"){e.preventDefault();goNext();}}} tabIndex={0} ref={el=>{if(el)el.focus();}} style={{outline:"none"}}>
           <div style={{marginBottom:20}}><NavArrow onClick={()=>setFkSection(null)} isBack size={44}/></div>
-          <div style={{background:"var(--purple-bg)",borderRadius:20,padding:"24px 28px",marginBottom:24,border:"2px solid var(--purple-border)"}}>
-            <div style={{display:"flex",alignItems:"center",gap:14}}>
-              <div style={{width:52,height:52,borderRadius:16,background:"linear-gradient(135deg,#7B5EE8,#A78BFA)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0 4px 14px rgba(123,94,232,0.3)",flexShrink:0}}><BrandIcon name={openSec.icon} size={24}/></div>
+          <div style={{background:dk?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)",borderRadius:22,padding:"24px 28px",marginBottom:24,border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), 0 0 14px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), 0 0 12px rgba(180,165,240,0.15), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",position:"relative",overflow:"hidden"}}>
+            <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",pointerEvents:"none",zIndex:0}}/>
+            <div style={{display:"flex",alignItems:"center",gap:14,position:"relative",zIndex:1}}>
+              <div style={{width:52,height:52,borderRadius:16,background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",flexShrink:0}}><BrandIcon name={openSec.icon} size={24}/></div>
               <div style={{flex:1}}>
-                <h2 className="hd" style={{fontSize:22,fontWeight:800,color:"var(--purple-accent-text)"}}>{openSec.title}</h2>
-                <p style={{color:"var(--gray-500)",fontSize:13}}>{openSec.desc}</p>
+                <h2 className="hd" style={{fontSize:22,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--purple-accent-text)"}}>{openSec.title}</h2>
+                <p style={{color:"var(--gray-500)",fontSize:13,fontFamily:"'Nunito',sans-serif"}}>{openSec.desc}</p>
                 <div style={{fontSize:11,color:"var(--purple-accent-text)",fontWeight:600,marginTop:4}}>{sp.done}/{sp.total} completed</div>
               </div>
             </div>
-            {sp.total>0&&<div style={{marginTop:12,height:4,borderRadius:2,background:"var(--purple-border)",overflow:"hidden"}}>
-              <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:2,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
+            {sp.total>0&&<div style={{marginTop:12,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"var(--purple-border)",overflow:"hidden",position:"relative",zIndex:1}}>
+              <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
             </div>}
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:12}}>
@@ -4528,13 +4558,13 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               const hasInv=!!item.inventory;
               const allChars=hasGrid?item.grid.rows.flatMap(r=>r.cells.filter(c=>c.ch).map(c=>c.ch)):hasInv?item.inventory.split("|").map(p=>p.trim().split(" ")[0]):[];
               return(
-              <div key={i} className="card anim" style={{padding:"18px 20px",animationDelay:`${i*0.04}s`,borderLeft:`4px solid ${done?"var(--teal)":"#7B5EE8"}`}}>
+              <div key={i} className="anim" style={{padding:"14px 18px",animationDelay:`${i*0.04}s`,borderRadius:22,background:dk?(done?"linear-gradient(180deg, rgba(46,205,167,0.15) 0%, rgba(46,205,167,0.08) 40%, rgba(46,205,167,0.03) 100%)":"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"):(done?"linear-gradient(180deg, rgba(46,205,167,0.2) 0%, rgba(46,205,167,0.1) 50%, rgba(46,205,167,0.05) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)"),border:done?(dk?"1.5px solid rgba(46,205,167,0.35)":"1.5px solid rgba(46,205,167,0.4)"):(dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)"),boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",position:"relative",overflow:"hidden",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>
                 <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:4}}>
                   {done&&<span style={{fontSize:14}}>✅</span>}
                   <div className="hd" style={{fontSize:15,fontWeight:700,color:"var(--gray-800)"}}>{item.title}</div>
                 </div>
                 {item.desc&&<p style={{fontSize:13,color:"var(--gray-500)",marginBottom:8,lineHeight:1.6}}>{item.desc}</p>}
-                {hasGrid&&<div style={{background:"var(--purple-flat)",borderRadius:14,padding:"12px 10px",marginBottom:8,overflowX:"auto"}}>
+                {hasGrid&&<div style={{background:dk?"linear-gradient(180deg, rgba(123,94,232,0.18) 0%, rgba(100,80,200,0.1) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.35) 0%, rgba(235,230,255,0.15) 100%)",borderRadius:22,padding:"12px 10px",marginBottom:8,overflowX:"auto",border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(180,165,240,0.3)"}}>
                   {item.grid.headers&&item.grid.headers.some(h=>h)&&<div style={{display:"grid",gridTemplateColumns:`36px repeat(${item.grid.cols}, 1fr)`,gap:4,marginBottom:4}}>
                     <div/>
                     {item.grid.headers.map((h,hi)=><div key={hi} style={{textAlign:"center",fontSize:10,fontWeight:700,color:"var(--gray-400)",...(isRtl&&/[\u0600-\u06FF]/.test(h)?{direction:"rtl"}:{})}}>{h}</div>)}
@@ -4543,43 +4573,44 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                     <div key={ri} style={{display:"grid",gridTemplateColumns:`36px repeat(${item.grid.cols}, 1fr)`,gap:4,marginBottom:4}}>
                       <div style={{display:"flex",alignItems:"center",justifyContent:"center",fontSize:9,fontWeight:800,color:row.color||"#7B5EE8",textTransform:"uppercase",letterSpacing:0.5}}>{row.label}</div>
                       {row.cells.map((cell,ci)=>cell.ch?(
-                        <div key={ci} onClick={()=>setSelectedChar({ch:cell.ch,rom:cell.rom,title:item.title,color:row.color})} style={{textAlign:"center",padding:"7px 2px",borderRadius:10,background:"linear-gradient(180deg, #fff, #f8f8fc)",border:`1.5px solid ${row.color||"#7B5EE8"}20`,cursor:"pointer",transition:"all 0.15s",boxShadow:"0 2px 6px rgba(0,0,0,0.04)"}}>
+                        <div key={ci} onClick={()=>setSelectedChar({ch:cell.ch,rom:cell.rom,title:item.title,color:row.color})} style={{textAlign:"center",padding:"7px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:`1.5px solid ${row.color||"#7B5EE8"}${dk?"30":"20"}`,cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
                           <div style={{fontSize:22,fontWeight:700,color:row.color||"#7B5EE8",lineHeight:1.2,...(isRtl&&/[\u0600-\u06FF]/.test(cell.ch)?{direction:"rtl"}:{})}}>{cell.ch}</div>
                           {cell.rom&&<div style={{fontSize:9,color:"var(--gray-400)",marginTop:1}}>{cell.rom}</div>}
                         </div>
-                      ):<div key={ci} style={{padding:"7px 2px",borderRadius:10,background:"var(--purple-flat)"}}/>)}
+                      ):<div key={ci} style={{padding:"7px 2px",borderRadius:12,background:dk?"rgba(255,255,255,0.03)":"rgba(200,190,255,0.15)"}}/>)}
                     </div>
                   ))}
                 </div>}
-                {!hasGrid&&hasInv&&<div style={{background:"var(--purple-flat)",borderRadius:14,padding:"12px 14px",marginBottom:8}}>
+                {!hasGrid&&hasInv&&<div style={{background:dk?"linear-gradient(180deg, rgba(123,94,232,0.18) 0%, rgba(100,80,200,0.1) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.35) 0%, rgba(235,230,255,0.15) 100%)",borderRadius:22,padding:"12px 14px",marginBottom:8,border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(180,165,240,0.3)"}}>
                   <div style={{display:"grid",gridTemplateColumns:"repeat(5, 1fr)",gap:6}}>
                   {item.inventory.split("|").map((pair,k)=>{
                     const parts=pair.trim().split(" ");
                     const ch=parts[0];
                     const rom=parts.slice(1).join(" ");
-                    return <div key={k} onClick={()=>setSelectedChar({ch,rom,title:item.title})} style={{textAlign:"center",padding:"8px 2px",borderRadius:10,background:"linear-gradient(180deg, #fff, #f8f8fc)",border:"1.5px solid var(--purple-border)",cursor:"pointer",transition:"all 0.15s",boxShadow:"0 2px 6px rgba(123,94,232,0.06)"}}>
+                    return <div key={k} onClick={()=>setSelectedChar({ch,rom,title:item.title})} style={{textAlign:"center",padding:"8px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:dk?"1.5px solid rgba(123,94,232,0.2)":"1.5px solid rgba(180,165,240,0.3)",cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
                       <div style={{fontSize:24,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.2}}>{ch}</div>
                       {rom&&<div style={{fontSize:10,color:"var(--gray-400)",marginTop:2}}>{rom}</div>}
                     </div>;
                   })}
                   </div>
                 </div>}
-                {selectedChar&&allChars.includes(selectedChar.ch)&&<div style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:"rgba(0,0,0,0.4)",zIndex:999,display:"flex",alignItems:"center",justifyContent:"center",padding:20}} onClick={()=>setSelectedChar(null)}>
-                  <div className="card anim" style={{maxWidth:320,width:"100%",padding:"32px 24px",textAlign:"center"}} onClick={e=>e.stopPropagation()}>
-                    <div style={{fontSize:72,fontWeight:800,color:selectedChar.color||"#7B5EE8",marginBottom:8,lineHeight:1}}>{selectedChar.ch}</div>
-                    {selectedChar.rom&&<div style={{fontSize:22,color:"var(--gray-600)",fontWeight:600,marginBottom:16}}>{selectedChar.rom}</div>}
-                    <div style={{display:"flex",gap:10,justifyContent:"center",marginBottom:16}}>
-                      <button onClick={()=>{if(typeof speechSynthesis!=="undefined"){const u=new SpeechSynthesisUtterance(selectedChar.rom||selectedChar.ch);u.rate=0.7;speechSynthesis.speak(u);}}} style={{padding:"10px 20px",borderRadius:12,border:`2px solid ${selectedChar.color||"#7B5EE8"}`,background:`${selectedChar.color||"#7B5EE8"}10`,color:selectedChar.color||"#7B5EE8",fontSize:14,fontWeight:700,cursor:"pointer",display:"flex",alignItems:"center",gap:6}}>🔊 Listen</button>
+                {selectedChar&&allChars.includes(selectedChar.ch)&&<div style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",zIndex:999,display:"flex",alignItems:"center",justifyContent:"center",padding:20}} onClick={()=>setSelectedChar(null)}>
+                  <div className="anim" style={{maxWidth:320,width:"100%",padding:"32px 24px",textAlign:"center",borderRadius:22,background:dk?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)":"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",boxShadow:dk?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",position:"relative",overflow:"hidden"}} onClick={e=>e.stopPropagation()}>
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",pointerEvents:"none"}}/>
+                    <div style={{fontSize:72,fontWeight:800,color:selectedChar.color||"#7B5EE8",marginBottom:8,lineHeight:1,position:"relative",zIndex:1,fontFamily:"'Quicksand',sans-serif"}}>{selectedChar.ch}</div>
+                    {selectedChar.rom&&<div style={{fontSize:22,color:"var(--gray-600)",fontWeight:600,marginBottom:16,fontFamily:"'Nunito',sans-serif",position:"relative",zIndex:1}}>{selectedChar.rom}</div>}
+                    <div style={{display:"flex",gap:10,justifyContent:"center",marginBottom:16,position:"relative",zIndex:1}}>
+                      <button onClick={()=>{if(typeof speechSynthesis!=="undefined"){const u=new SpeechSynthesisUtterance(selectedChar.rom||selectedChar.ch);u.rate=0.7;speechSynthesis.speak(u);}}} style={{padding:"10px 20px",borderRadius:16,border:"none",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(240,234,255,0.85) 100%)",color:dk?"rgba(200,184,255,0.9)":"#7050D8",fontSize:14,fontWeight:900,fontFamily:"'Quicksand',sans-serif",cursor:"pointer",display:"flex",alignItems:"center",gap:6,boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1), 0 2px 6px rgba(0,0,0,0.2)":"inset 0 2px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(112,80,216,0.1), 0 0 0 1px rgba(168,144,255,0.2)",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>🔊 Listen</button>
                     </div>
-                    <button onClick={()=>setSelectedChar(null)} style={{marginTop:16,padding:"8px 24px",borderRadius:10,border:"none",background:selectedChar.color||"#7B5EE8",color:"white",fontWeight:700,fontSize:13,cursor:"pointer"}}>Close</button>
+                    <button onClick={()=>setSelectedChar(null)} style={{marginTop:16,padding:"8px 24px",borderRadius:16,border:"none",background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",color:"white",fontWeight:900,fontFamily:"'Quicksand',sans-serif",fontSize:13,cursor:"pointer",boxShadow:dk?"0 0 18px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",textShadow:"0 1px 2px rgba(0,0,0,0.2)",position:"relative",zIndex:1,transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>Close</button>
                   </div>
                 </div>}
                 {item.examples&&item.examples.length>0&&<div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:8}}>
                   {item.examples.map((ex,j)=>(
-                    <span key={j} style={{display:"inline-block",padding:"4px 10px",borderRadius:8,background:"var(--purple-flat)",color:"var(--purple-accent-text)",fontSize:12,fontWeight:600,border:"1px solid var(--purple-border)",...(isRtl&&/[\u0600-\u06FF]/.test(ex)?{direction:"rtl"}:{})}}>{ex}</span>
+                    <span key={j} style={{display:"inline-block",padding:"4px 10px",borderRadius:14,background:dk?"linear-gradient(180deg, rgba(123,94,232,0.18) 0%, rgba(100,80,200,0.1) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.4) 0%, rgba(220,210,255,0.25) 100%)",color:"var(--purple-accent-text)",fontSize:12,fontWeight:600,fontFamily:"'Nunito',sans-serif",border:dk?"1px solid rgba(123,94,232,0.25)":"1px solid rgba(180,165,240,0.35)",...(isRtl&&/[\u0600-\u06FF]/.test(ex)?{direction:"rtl"}:{})}}>{ex}</span>
                   ))}
                 </div>}
-                {!done&&<button onClick={()=>markFk(openSec.id,i)} style={{padding:"6px 14px",borderRadius:10,border:"1.5px solid var(--purple-accent)",background:"#7B5EE808",color:"var(--purple-accent-text)",fontSize:12,fontWeight:700,cursor:"pointer"}}>✓ I got it</button>}
+                {!done&&<button onClick={()=>markFk(openSec.id,i)} style={{padding:"8px 16px",borderRadius:16,border:"none",background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",color:"white",fontSize:12,fontWeight:900,fontFamily:"'Quicksand',sans-serif",letterSpacing:0.3,cursor:"pointer",boxShadow:dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",textShadow:"0 1px 2px rgba(0,0,0,0.2)",transition:"all .25s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden"}}>✓ I got it</button>}
                 {done&&<div style={{fontSize:11,color:"var(--teal)",fontWeight:600}}>✓ Completed</div>}
               </div>);
             })}
@@ -4587,8 +4618,8 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           {/* ── Section navigation ── */}
           <div style={{display:"flex",gap:10,marginTop:20,justifyContent:"space-between"}}>
             {prevSec?<NavArrow onClick={goPrev} isBack size={44}/>:<div/>}
-            {nextSec?<button onClick={goNext} style={{fontSize:13,padding:"10px 18px",background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",border:"1.5px solid rgba(255,255,255,0.25)",borderRadius:12,fontWeight:700,cursor:"pointer"}}>Next: {nextSec.title} →</button>
-            :<button onClick={()=>{setFkSection(null);window.scrollTo(0,0);}} style={{fontSize:13,padding:"10px 18px",background:"var(--teal)",color:"white",border:"none",borderRadius:12,fontWeight:700,cursor:"pointer"}}>✓ All Sections Done</button>}
+            {nextSec?<button onClick={goNext} style={{fontSize:13,padding:"10px 18px",background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",color:"white",border:"none",borderRadius:16,fontWeight:900,fontFamily:"'Quicksand',sans-serif",letterSpacing:0.3,cursor:"pointer",boxShadow:dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",textShadow:"0 1px 2px rgba(0,0,0,0.2)",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>Next: {nextSec.title} →</button>
+            :<button onClick={()=>{setFkSection(null);window.scrollTo(0,0);}} style={{fontSize:13,padding:"10px 18px",background:"linear-gradient(135deg,var(--teal),#2ECDA7)",color:"white",border:"none",borderRadius:16,fontWeight:900,fontFamily:"'Quicksand',sans-serif",cursor:"pointer",boxShadow:"0 4px 16px rgba(46,205,167,0.3), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",textShadow:"0 1px 2px rgba(0,0,0,0.2)",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>✓ All Sections Done</button>}
           </div>
           <div style={{textAlign:"center",marginTop:8}}><span style={{fontSize:10,color:"var(--gray-300)"}}>press ⎵ spacebar to continue</span></div>
         </div>
@@ -4607,7 +4638,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           <div style={{display:"flex",alignItems:"center",gap:14,position:"relative",zIndex:2}}>
             <div style={{width:56,height:56,borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)",flexShrink:0}}><AppIcon name="building_blocks" size={36}/></div>
             <div style={{flex:1}}>
-              <h2 style={{fontSize:22,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{fData?.name||"Foundations"}</h2>
+              <h2 style={{fontSize:22,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'Quicksand',sans-serif"}}>{fData?.name||"Foundations"}</h2>
               <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{L?.native||"Language"}: Before You Start</p>
               <div style={{display:"flex",gap:8,marginTop:6,alignItems:"center"}}>
                 <span style={{padding:"3px 10px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:10,fontWeight:700}}>Pre-A1</span>
@@ -4689,19 +4720,19 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
             {sections.map((sec,i)=>{
               const sp=secProgress(sec);
               return(
-              <div key={sec.id} className="card anim" onClick={()=>setFkSection(sec.id)} style={{
-                cursor:"pointer",padding:"20px 16px",textAlign:"center",
-                background:sp.pct===100?dk?"linear-gradient(145deg,#1A2E28,#1A2B24)":"linear-gradient(145deg,#F0FFF4,#E8FFEE)":"var(--purple-bg)",
-                border:sp.pct===100?"2px solid #86EFAC":"2px solid var(--purple-border)",
-                boxShadow:"0 4px 14px rgba(123,94,232,0.06)",
-                animationDelay:`${i*0.05}s`,
+              <div key={sec.id} className="anim" onClick={()=>setFkSection(sec.id)} style={{
+                cursor:"pointer",padding:"20px 16px",textAlign:"center",borderRadius:22,position:"relative",overflow:"hidden",
+                background:sp.pct===100?(dk?"linear-gradient(180deg, rgba(46,205,167,0.15) 0%, rgba(46,205,167,0.08) 40%, rgba(46,205,167,0.03) 100%)":"linear-gradient(180deg, rgba(46,205,167,0.2) 0%, rgba(46,205,167,0.1) 50%, rgba(46,205,167,0.05) 100%)"):(dk?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)"),
+                border:sp.pct===100?(dk?"1.5px solid rgba(46,205,167,0.35)":"1.5px solid rgba(46,205,167,0.4)"):(dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)"),
+                boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",
+                animationDelay:`${i*0.05}s`,transition:"all .25s cubic-bezier(.4,0,.2,1)",
               }}>
                 <div style={{fontSize:32,marginBottom:8}}><BrandIcon name={sec.icon} size={32}/></div>
-                <div className="hd" style={{fontSize:14,fontWeight:700,color:sp.pct===100?"var(--teal)":"#7B5EE8",marginBottom:4}}>{sec.title}</div>
+                <div className="hd" style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:sp.pct===100?"var(--teal)":"var(--purple-accent-text)",marginBottom:4}}>{sec.title}</div>
                 <div style={{fontSize:11,color:"var(--gray-400)",lineHeight:1.4}}>{sec.desc}</div>
                 <div style={{marginTop:8,fontSize:10,fontWeight:600,color:sp.pct===100?"var(--teal)":"var(--gray-300)"}}>{sp.pct===100?"✓ Done":`${sp.done}/${sp.total} items`}</div>
-                {sp.total>0&&sp.pct>0&&sp.pct<100&&<div style={{marginTop:6,height:3,borderRadius:2,background:"var(--purple-border)",overflow:"hidden"}}>
-                  <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:2,boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
+                {sp.total>0&&sp.pct>0&&sp.pct<100&&<div style={{marginTop:6,height:4,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden"}}>
+                  <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
                 </div>}
               </div>);
             })}
