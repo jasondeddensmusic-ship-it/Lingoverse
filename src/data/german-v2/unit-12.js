@@ -50,6 +50,18 @@ const UNIT_12 =
 {type:"teach",trg:"abschlie\u00dfen",src:"to complete / to close / to conclude",pos:"verb",gender:null,note:"Separable verb: ab + schlie\u00dfen. Ich schlie\u00dfe ... ab. Irregular: schlo\u00df ab. Partizip II: abgeschlossen.",example:"A: Hast du das Projekt schon abgeschlossen?\nB: Nein, ich schlie\u00dfe es heute ab.\nA: Und den Vertrag?\nB: Den schlie\u00dfe ich morgen ab.",exampleSrc:"A: Have you finished the project yet?\nB: No, I am finishing it today.\nA: And the contract?\nB: I am concluding that tomorrow.",funFact:"'Abschlie\u00dfen' covers finishing a project, locking a door, and signing a contract. The Partizip II 'abgeschlossen' is used in everyday speech: 'Das Studium ist abgeschlossen' = the degree is completed. One verb, many contexts."},
 {type:"teach",trg:"die \u00dcbersetzung",src:"translation",phonetic:"ue-ber-ZET-soong",example:"A: Kannst du die Übersetzung prüfen?\nB: Klar, schick mir die Datei.",exampleSrc:"A: Can you check the translation?\nB: Sure, send me the file.",note:"From 'übersetzen' (to translate). Always die.",funFact:"German compound words are famously hard to translate. Schadenfreude and Wanderlust have been borrowed into English directly."},
 {type:"teach",trg:"das Zeugnis",src:"certificate, report card",phonetic:"TSOYG-nis",example:"A: Brauchst du das Zeugnis für die Bewerbung?\nB: Ja, ich muss es kopieren.",exampleSrc:"A: Do you need the certificate for the application?\nB: Yes, I have to copy it.",note:"Always das. Plural: die Zeugnisse.",funFact:"When you leave a German job, you receive a coded Arbeitszeugnis. Phrases like 'stets bemüht' (always tried hard) actually mean poor performance."},
+{type:"mc",q:"Was braucht man für eine Bewerbung in Deutschland?",opts:["Zeugnis, Lebenslauf und Anschreiben","Nur eine E-Mail","Einen Anruf","Ein Foto vom Büro"],ans:"Zeugnis, Lebenslauf und Anschreiben",hint:"German applications require specific documents including certificates."},
+{type:"fb",s:"Das {1} ist zu niedrig, sagt er.",a:["Gehalt"],opts:["Gehalt","Vertrag","Projekt","Zeugnis"],hint:"What someone earns for their work. It's a neuter noun.",sSrc:"The salary is too low, he says."},
+{type:"mc",q:"'Er macht eine Ausbildung als Koch.' Was macht er?",opts:["He is cooking at the office","He is doing an apprenticeship as a cook","He is writing a contract","He is reading an article"],ans:"He is doing an apprenticeship as a cook",hint:"Ausbildung combines learning at school and on the job."},
+{type:"fb",s:"Hast du den {1} schon unterschrieben?",a:["Vertrag"],opts:["Vertrag","Gehalt","Projekt","Zeugnis"],hint:"A formal agreement you sign when starting a new job.",sSrc:"Have you already signed the contract?"},
+{type:"mc",q:"Was ist eine 'Übersetzung'?",opts:["A translation from one language to another","A type of contract","A job application","A salary increase"],ans:"A translation from one language to another",hint:"From the verb 'übersetzen.' Think about moving words between languages."},
+{type:"fb",s:"Das neue {1} dauert sechs Monate.",a:["Projekt"],opts:["Projekt","Gehalt","Vertrag","Büro"],hint:"A planned piece of work with a specific goal and timeline.",sSrc:"The new project lasts six months."},
+{type:"match",pairs:[{trg:"die Bewerbung",src:"application"},{trg:"die Ausbildung",src:"training"},{trg:"das Gehalt",src:"salary"},{trg:"der Vertrag",src:"contract"},{trg:"das Zeugnis",src:"certificate"}]}
+]},
+
+// ─── L3: Digitaler Papierkram ───
+{id:"deu_r12l3",title:"Digitaler Papierkram",icon:"💻",xp:10,board:true,steps:[
+{type:"intro",title:"Digitaler Papierkram",desc:"From files to downloads, emails to passwords: the digital vocabulary of German office life. Plus essential time adverbs: schon, noch, erst, gerade.",goals:["Learn digital office vocabulary: Datei, Homepage, Passwort","Master the verb herunterladen (to download)","Use time adverbs: schon, noch, erst, gerade"]},
 {type:"teach",trg:"der Artikel",src:"article",phonetic:"ar-TEE-kel",example:"A: Hast du den Artikel gelesen?\nB: Welchen Artikel meinst du?",exampleSrc:"A: Have you read the article?\nB: Which article do you mean?",note:"Always der. Also means grammatical article (der/die/das).",funFact:"The word Artikel is used both for newspaper articles and grammar articles. Context always makes the meaning clear."},
 {type:"teach",trg:"das Blatt",src:"sheet (of paper), leaf",phonetic:"BLAHT",example:"A: Ich brauche ein Blatt Papier.\nB: Hier, nimm eins von meinem Block.",exampleSrc:"A: I need a sheet of paper.\nB: Here, take one from my notepad.",note:"Always das. Plural: die Blätter. Two meanings: paper and leaf.",funFact:"The expression 'kein Blatt vor den Mund nehmen' means to speak bluntly, literally 'to put no leaf in front of your mouth'."},
 {type:"teach",trg:"die Datei",src:"file (digital)",phonetic:"dah-TY",example:"A: Wo ist die Datei?\nB: Ich habe sie dir per Mail geschickt.",exampleSrc:"A: Where is the file?\nB: I sent it to you by email.",note:"Always die. Only for digital files, not paper folders.",funFact:"German IT vocabulary mixes English loans (der Link, das Update) with German creations (die Datei from 'Daten' meaning data)."},
@@ -65,7 +77,6 @@ const UNIT_12 =
 {type:"fb",s:"Die {1} liegt auf deinem Schreibtisch.",a:"Bewerbung",opts:["Bewerbung","Gehalt","Link","Passwort"],hint:"A document you send when applying for a job.",sSrc:"The application is on your desk."},
 {type:"mc",q:"Was bedeutet 'die Datei'?",opts:["a digital file","a paper folder","an office desk","a mailbox"],ans:"a digital file",hint:"Think about what you store on a computer."},
 {type:"fb",s:"Hast du den Vertrag {1} unterschrieben?",a:"schon",opts:["schon","noch","gerade","erst"],hint:"The speaker expects it might be done already.",sSrc:"Have you already signed the contract?"},
-{type:"mc",q:"'Er macht eine Ausbildung als Koch.' Was macht er?",opts:["He is cooking at the office","He is doing an apprenticeship as a cook","He is writing a contract","He is reading an article"],ans:"He is doing an apprenticeship as a cook",hint:"Ausbildung combines learning at school and on the job."},
 {type:"fb",s:"Ich lese {1} die Mail von meinem Chef.",a:"gerade",opts:["gerade","schon","erst","noch"],hint:"This adverb means 'right now, at this moment'.",sSrc:"I am currently reading the email from my boss."},
 {type:"match",pairs:[{trg:"das Büro",src:"office"},{trg:"das Gehalt",src:"salary"},{trg:"das Zeugnis",src:"certificate"},{trg:"das Blatt",src:"sheet/leaf"},{trg:"die Übersetzung",src:"translation"}]},
 {type:"mc",q:"'Die Mailbox' bedeutet auf Deutsch meistens...",opts:["physical letterbox","voicemail","email inbox","homepage"],ans:"voicemail",hint:"Not a box you find on the street. Think phone."},
@@ -83,7 +94,7 @@ const UNIT_12 =
 ]},
 
 // U12 L3: Rückblick - Story dev + grammar (conjunctions + adverb categories)
-{id:"deu_r12l3",title:"Rückblick",icon:"\uD83D\uDD19",xp:15,board:true,steps:[
+{id:"deu_r12l4",title:"Rückblick",icon:"\uD83D\uDD19",xp:15,board:true,steps:[
 {type:"intro",title:"Rückblick",desc:"Verumius spreads his German documents across the kitchen table: Mietvertrag, Krankenversicherung, Steuernummer, Anmeldung, GEZ. Six months in Germany. Time to connect the dots.",goals:["Learn 12 new vocabulary words for daily life","Master coordinating conjunctions (ADUSO)","Categorize adverbs by time, place, and manner"]},
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-kitchen-documents",trg:"Verumius sitzt am Küchentisch. Vor ihm liegen Papiere: der Mietvertrag, die Krankenversicherung, die Steuernummer, die Anmeldung, der GEZ-Brief. Er nimmt einen Stift und macht Notizen.",src:"Verumius sits at the kitchen table. In front of him lie papers: the rental contract, the health insurance, the tax number, the registration, the GEZ letter. He picks up a pen and makes notes."},
 {type:"teach",trg:"der Kontakt",src:"the contact",note:"Masculine noun. Plural: die Kontakte. Used for people and connections.",example:"A: Hast du den Kontakt von der Vermieterin?\nB: Ja, ich habe ihre Nummer.",exampleSrc:"A: Do you have the landlady's contact?\nB: Yes, I have her number.",funFact:"Germans distinguish 'Kontakt' (a connection you maintain) from 'Bekanntschaft' (an acquaintance). Having someone's number makes them a Kontakt."},
@@ -125,7 +136,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l4",title:"Was wäre wenn?",icon:"📐",xp:20,board:true,steps:[
+{id:"deu_r12l5",title:"Was wäre wenn?",icon:"📐",xp:20,board:true,steps:[
 {type:"intro",title:"Was wäre wenn?",desc:"Verumius and Hildi sit in a café, daydreaming about what they would do if they could. Time to master imperatives with separable and irregular verbs, revisit ob-clauses, and sharpen your Konjunktiv II. Plus: subordinate clause word order under pressure.",goals:["Form imperatives with separable and irregular verbs","Combine ob with new vocabulary","Use Konjunktiv II in wishes and hypotheticals","Master subordinate clause word order with all conjunctions"]},
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-cafe-daydream",trg:"Im Café am Gendarmenmarkt. Draußen regnet es. Verumius und Hildi trinken Kaffee und planen das nächste Halbjahr. Aber die Pläne werden schnell zu Träumen.",src:"In the café at Gendarmenmarkt. Outside it is raining. Verumius and Hildi drink coffee and plan the next half-year. But the plans quickly turn to dreams."},
 {type:"story",speaker:"hildi",trg:"Steh auf, Verumius! Hör auf zu träumen! Wir müssen planen, nicht träumen. Oder... was würdest du tun, wenn du alles schaffen könntest?",src:"Get up, Verumius! Stop dreaming! We need to plan, not dream. Or... what would you do if you could accomplish anything?"},
@@ -171,7 +182,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l5",title:"Gefühle",icon:"💭",xp:15,board:true,steps:[
+{id:"deu_r12l6",title:"Gefühle",icon:"💭",xp:15,board:true,steps:[
 {type:"intro",title:"Gefühle",desc:"Dreams, wishes, and everything in between. Learn 16 important nouns for emotions and abstract concepts.",goals:["Learn 16 new nouns","Review grammar from lessons 1-4","Use abstract concepts in context"]},
 {type:"story",speaker:"narrator",mood:"tender",art:"de-park-bench-sunset",trg:"Tiergarten, später Nachmittag. Die Sonne steht tief. Verumius sitzt auf einer Bank und schaut den Joggern zu. Er denkt an seine Träume, seine Wünsche, seine Ängste. Sechs Monate. Wie fühlt sich das an?",src:"Tiergarten, late afternoon. The sun hangs low. Verumius sits on a bench and watches the joggers. He thinks about his dreams, his wishes, his fears. Six months. What does that feel like?"},
 {type:"teach",trg:"der Traum",src:"dream",gender:"m",note:"Plural: die Träume. Umlaut im Plural.",funFact:"Deutsche sagen 'Traumjob' für ihren perfekten Beruf.",example:"A: Hattest du letzte Nacht einen Traum?\nB: Ja, ich habe von meinem Urlaub geträumt.",exampleSrc:"A: Did you have a dream last night?\nB: Yes, I dreamed about my vacation."},
@@ -204,7 +215,7 @@ const UNIT_12 =
 ]},
 
 // U12 L6: KD lacht. Story climax. Bürgeramt scene. Heavy A2 grammar review.
-{id:"deu_r12l6",title:"KD lacht",icon:"\uD83D\uDE10",xp:20,board:true,steps:[
+{id:"deu_r12l7",title:"KD lacht",icon:"\uD83D\uDE10",xp:20,board:true,steps:[
 {type:"intro",title:"KD lacht",desc:"Back at the Bürgeramt. This time Verumius has ALL the right documents. KD processes everything smoothly. And then something impossible happens...",goals:["Review all A2 grammar in multi-construct sentences","Learn 10 new vocabulary words","Witness the impossible: KD smiles"]},
 {type:"story",speaker:"narrator",mood:"confident",art:"de-buergeramt-desk",trg:"Bürgeramt, Zimmer 4. KD sitzt hinter ihrem Schreibtisch. Verumius legt einen perfekten Stapel Dokumente auf den Tisch. Alles ist da. Alles ist richtig.",src:"Bürgeramt, Room 4. KD sits behind her desk. Verumius places a perfect stack of documents on the table. Everything is there. Everything is correct."},
 {type:"story",speaker:"kd",mood:"neutral",trg:"Personalausweis. Meldebescheinigung. Gehaltsnachweis. Krankenversicherung. Alles vollständig. Das ist... ungewöhnlich.",src:"ID card. Registration certificate. Proof of income. Health insurance. Everything complete. That is... unusual."},
@@ -240,7 +251,7 @@ const UNIT_12 =
 ,
 
 // U12 L7: Noch mehr Wörter - Remaining A2 verbs and adjectives
-{id:"deu_r12l7",title:"Verben für den Alltag",icon:"\uD83D\uDCDA",xp:10,board:true,steps:[
+{id:"deu_r12l8",title:"Verben für den Alltag",icon:"\uD83D\uDCDA",xp:10,board:true,steps:[
 {type:"intro",title:"Noch mehr Wörter",desc:"Twenty more verbs that Germans use every day at work, in emails, and in difficult conversations. Master these and your A2 vocabulary is nearly complete.",goals:["Learn 20 essential A2 verbs","Use reflexive verbs with sich","Practice formal and informal register"]},
 {type:"story",speaker:"narrator",mood:"montage",art:"de-montage-flashback",trg:"Sechs Monate in Bildern. Verumius am Pfandautomaten, zum ersten Mal die Flaschen richtig sortiert. Am Telefon mit der Versicherung, zum ersten Mal kein Schweißausbruch. An der Mülltonne, zum ersten Mal ohne Hildis Zettel.",src:"Six months in pictures. Verumius at the bottle deposit machine, sorting the bottles correctly for the first time. On the phone with the insurance company, no sweat for the first time. At the bins, for the first time without Hildi's note."},
 
@@ -271,7 +282,7 @@ const UNIT_12 =
 ]},
 
 // ─── L8: Entscheidungen und Eigenschaften ───
-{id:"deu_r12l8",title:"Entscheidungen und Eigenschaften",icon:"⚖️",xp:10,board:true,steps:[
+{id:"deu_r12l9",title:"Entscheidungen und Eigenschaften",icon:"⚖️",xp:10,board:true,steps:[
 {type:"intro",title:"Entscheidungen und Eigenschaften",desc:"More action verbs for formal situations: confirming, prohibiting, postponing. Plus adjectives and adverbs to describe your life in Germany.",goals:["Use formal action verbs: bestehen, bestätigen, verbieten, verschieben","Learn everyday adjectives: preiswert, stressig, schrecklich","Master useful adverbs: nirgends, wenigstens, einverstanden"]},
 
 // ─── Group 4: Remaining Essential Verbs ───
@@ -305,7 +316,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l9",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
+{id:"deu_r12l10",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
 {type:"intro",title:"Das letzte Kapitel",desc:"Twenty new words to close out the unit: everyday life, school, and more.",goals:["Learn 20 new nouns and adjectives","Talk about school and everyday life","Consolidate vocabulary"]},
 {type:"story",speaker:"narrator",mood:"quiet",art:"de-stairwell-evening",trg:"Abends im Treppenhaus. Verumius geht die Stufen hoch. Aus der zweiten Etage kommt Musik. Aus der dritten Etage riecht es nach Essen. Oben, bei Hildi, brennt Licht. Das Haus lebt.",src:"Evening in the stairwell. Verumius walks up the steps. From the second floor comes music. From the third floor it smells like food. Upstairs, at Hildi's place, the light is on. The building lives."},
 {type:"teach",trg:"das Fach",src:"subject / compartment",phonetic:"fakh",example:"A: Welches Fach magst du am liebsten?\nB: Ich mag Mathe, das ist mein bestes Fach.",exampleSrc:"A: Which subject do you like best?\nB: I like maths, that's my best subject.",note:"Neuter. Plural: Fächer. Means both a school subject and a compartment.",funFact:"In Germany, students often have 12 or more Fächer on their timetable."},
@@ -332,7 +343,7 @@ const UNIT_12 =
 ]},
 
 // ─── L10: Beschreibungen und Abschluss ───
-{id:"deu_r12l10",title:"Beschreibungen und Abschluss",icon:"🏁",xp:10,board:true,steps:[
+{id:"deu_r12l11",title:"Beschreibungen und Abschluss",icon:"🏁",xp:10,board:true,steps:[
 {type:"intro",title:"Beschreibungen und Abschluss",desc:"The final vocabulary push: workplace terms, descriptive adjectives, and essential adverbs. Plus direction words heraus and herein. Verumius is almost ready.",goals:["Learn workplace nouns: Werkstatt, Kollegin","Master common adjectives: aktuell, echt, eigentlich","Use directional adverbs: heraus, herein"]},
 {type:"teach",trg:"die Werkstatt",src:"workshop / garage",phonetic:"VERK-shtat",example:"A: Wo ist dein Auto?\nB: Es ist in der Werkstatt, der Motor ist kaputt.",exampleSrc:"A: Where is your car?\nB: It's in the workshop, the engine is broken.",note:"Feminine. Plural: Werkstätten. Werk (work) + Statt (place).",funFact:"Germany's TÜV vehicle inspections are famously strict. Werkstätten are always busy before TÜV dates."},
 {type:"teach",trg:"die Kollegin",src:"female colleague",phonetic:"ko-LAY-gin",example:"A: Kennst du meine Kollegin Frau Weber?\nB: Ja, sie arbeitet im dritten Stock.",exampleSrc:"A: Do you know my colleague Mrs Weber?\nB: Yes, she works on the third floor.",note:"Feminine. Male form: der Kollege (not Kolleg!).",funFact:"Germans typically use Sie (formal you) with Kollegen unless they agree to switch to du."},
@@ -357,7 +368,7 @@ const UNIT_12 =
 {type:"story",speaker:"narrator",mood:"warm",art:"de-stairwell-night",trg:"Verumius öffnet seine Wohnungstür. Er hört Hildi oben lachen. Er hört den Fernseher des Nachbarn. Er hört die Stadt. Er gehört hierher.",src:"Verumius opens his apartment door. He hears Hildi laughing upstairs. He hears the neighbor's television. He hears the city. He belongs here."}
 ]},
 
-{id:"deu_r12l11",title:"Die große Prüfung",icon:"✅",xp:30,board:true,steps:[
+{id:"deu_r12l12",title:"Die große Prüfung",icon:"✅",xp:30,board:true,steps:[
 {type:"intro",title:"Die große Prüfung",desc:"Six months in Germany. Six units of grammar. Twenty-five constructs. This is the A2 capstone quiz. No new vocabulary, no hints from Hildi. Just you and the language.",goals:["Test ALL 25 A2 grammar constructs","Combine multiple constructs in single sentences","Prove you are ready for B1"]},
 {type:"story",speaker:"narrator",mood:"tense",art:"de-buergeramt-cactus",trg:"Bürgeramt. Letzter Besuch. KD sitzt hinter ihrem Schreibtisch. Der Kaktus auf dem Fensterbrett hat eine winzige Blüte. 'Sie brauchen heute nichts', sagt KD. 'Ich brauche etwas von Ihnen. Unterschreiben Sie hier.' Es ist ein Zeugnis. A2 bestanden.",src:"Buergeramt. Last visit. KD sits behind her desk. The cactus on the windowsill has a tiny blossom. 'You don't need anything today,' says KD. 'I need something from you. Sign here.' It is a certificate. A2 passed."},
 {type:"story",speaker:"kd",mood:"dry",trg:"Der Kaktus. Er hat geblüht. Zum ersten Mal seit ich hier arbeite. Vielleicht liegt es am Frühling. Vielleicht auch nicht.",src:"The cactus. It bloomed. For the first time since I have been working here. Maybe it is the spring. Maybe not."},
@@ -449,7 +460,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l12",title:"Ich will bleiben",icon:"🎉",xp:20,board:true,steps:[
+{id:"deu_r12l13",title:"Ich will bleiben",icon:"🎉",xp:20,board:true,steps:[
 {type:"intro",title:"Ich will bleiben",desc:"Six months in Germany. Group chat celebration. Verumius has decided: he wants to stay. Time to learn the final vocabulary batch.",goals:["Personality and opinion adjectives","Essential adverbs and particles","The A2 finale: bridge to B1"]},
 {type:"story",speaker:"narrator",mood:"happy",art:"de-couch-phone",trg:"Verumius sitzt auf dem Sofa. Das Handy leuchtet. Lukas: 'Sechs Monate! Wahnsinn!' Mia: 'Du bist jetzt fast ein Berliner.' Yilmaz: 'Ich bin stolz auf dich.' Unter der Tür: ein Zettel von Hildi. 'Gut gemacht. H.'",src:"Verumius sits on the sofa. The phone glows. Lukas: 'Six months! Crazy!' Mia: 'You are almost a Berliner now.' Yilmaz: 'I am proud of you.' Under the door: a note from Hildi. 'Well done. H.'"},
 {type:"story",speaker:"lukas",mood:"excited",art:"de-phone-chat",trg:"Alter, erinnerst du dich an den ersten Tag? Du hast den falschen Zug genommen und mich um drei Uhr morgens angerufen. Und jetzt? Jetzt kennst du Berlin besser als ich!",src:"Dude, do you remember the first day? You took the wrong train and called me at three in the morning. And now? Now you know Berlin better than I do!"},
