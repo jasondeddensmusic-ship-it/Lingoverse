@@ -82,6 +82,8 @@ Every word in a quiz MUST trace to a prior dedicated teach card. "Taught" means 
 ### Density (PP43)
 - Max 30 steps per lesson (soft cap 32). No lesson ships over 32.
 - Every step must earn its place. No padding.
+- **NEVER trim or delete content to reduce density.** Only SPLIT into themed lessons or REDISTRIBUTE to adjacent lessons.
+- When splitting: each new lesson needs its own intro, coherent theme, and quizzes for its teach cards.
 
 ### Teach-Then-Test (PP64)
 - Every teach card must be tested by at least one quiz step in the same lesson or a later lesson in the same unit.
