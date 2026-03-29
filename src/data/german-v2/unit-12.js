@@ -240,7 +240,7 @@ const UNIT_12 =
 ,
 
 // U12 L7: Noch mehr Wörter - Remaining A2 verbs and adjectives
-{id:"deu_r12l7",title:"Noch mehr Wörter",icon:"\uD83D\uDCDA",xp:15,board:true,steps:[
+{id:"deu_r12l7",title:"Verben für den Alltag",icon:"\uD83D\uDCDA",xp:10,board:true,steps:[
 {type:"intro",title:"Noch mehr Wörter",desc:"Twenty more verbs that Germans use every day at work, in emails, and in difficult conversations. Master these and your A2 vocabulary is nearly complete.",goals:["Learn 20 essential A2 verbs","Use reflexive verbs with sich","Practice formal and informal register"]},
 {type:"story",speaker:"narrator",mood:"montage",art:"de-montage-flashback",trg:"Sechs Monate in Bildern. Verumius am Pfandautomaten, zum ersten Mal die Flaschen richtig sortiert. Am Telefon mit der Versicherung, zum ersten Mal kein Schweißausbruch. An der Mülltonne, zum ersten Mal ohne Hildis Zettel.",src:"Six months in pictures. Verumius at the bottle deposit machine, sorting the bottles correctly for the first time. On the phone with the insurance company, no sweat for the first time. At the bins, for the first time without Hildi's note."},
 
@@ -267,6 +267,12 @@ const UNIT_12 =
 {type:"teach",trg:"begründen",src:"to justify / to give reasons for",note:"Regular. Ich begründe, du begründest. From 'Grund' (reason).",example:"A: Können Sie Ihre Entscheidung begründen?\nB: Ja, ich begründe sie gern.",exampleSrc:"A: Can you justify your decision?\nB: Yes, I'll gladly give my reasons.",funFact:"'Grund' means both 'reason' and 'ground/bottom.' To justify is to 'give it a ground to stand on.' Very German: even arguments need solid foundations."},
 {type:"mc",q:"'Ich bewerbe mich um die Stelle als Lehrer.' What is the speaker doing?",opts:["Quitting a teaching job","Applying for a teaching position","Complaining about the teacher","Thanking the teacher"],ans:"Applying for a teaching position",hint:"The reflexive verb 'sich bewerben um' indicates seeking a specific role."},
 {type:"fb",s:"Ich möchte mich bei Ihnen {1}.",a:["bedanken"],opts:["bedanken","beschweren","bewerben","begründen"],hint:"Which reflexive verb expresses gratitude formally?",sSrc:"I would like to thank you."},
+{type:"match",pairs:[{trg:"ändern",src:"to change"},{trg:"kündigen",src:"to quit/cancel"},{trg:"übersetzen",src:"to translate"},{trg:"sich bewerben",src:"to apply"}]}
+]},
+
+// ─── L8: Entscheidungen und Eigenschaften ───
+{id:"deu_r12l8",title:"Entscheidungen und Eigenschaften",icon:"⚖️",xp:10,board:true,steps:[
+{type:"intro",title:"Entscheidungen und Eigenschaften",desc:"More action verbs for formal situations: confirming, prohibiting, postponing. Plus adjectives and adverbs to describe your life in Germany.",goals:["Use formal action verbs: bestehen, bestätigen, verbieten, verschieben","Learn everyday adjectives: preiswert, stressig, schrecklich","Master useful adverbs: nirgends, wenigstens, einverstanden"]},
 
 // ─── Group 4: Remaining Essential Verbs ───
 {type:"teach",trg:"bestehen",src:"to pass (an exam) / to exist",note:"Irregular: bestand, bestanden. 'Die Prüfung bestehen' = to pass the exam.",example:"A: Hast du die Prüfung bestanden?\nB: Ja, ich habe sie bestanden!",exampleSrc:"A: Did you pass the exam?\nB: Yes, I passed it!",funFact:"'Bestehen' has two very different meanings: 'to pass' (an exam) and 'to exist/consist of.' 'Das Problem besteht seit Jahren' = The problem has existed for years."},
@@ -299,7 +305,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l8",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
+{id:"deu_r12l9",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
 {type:"intro",title:"Das letzte Kapitel",desc:"Twenty new words to close out the unit: everyday life, school, and more.",goals:["Learn 20 new nouns and adjectives","Talk about school and everyday life","Consolidate vocabulary"]},
 {type:"story",speaker:"narrator",mood:"quiet",art:"de-stairwell-evening",trg:"Abends im Treppenhaus. Verumius geht die Stufen hoch. Aus der zweiten Etage kommt Musik. Aus der dritten Etage riecht es nach Essen. Oben, bei Hildi, brennt Licht. Das Haus lebt.",src:"Evening in the stairwell. Verumius walks up the steps. From the second floor comes music. From the third floor it smells like food. Upstairs, at Hildi's place, the light is on. The building lives."},
 {type:"teach",trg:"das Fach",src:"subject / compartment",phonetic:"fakh",example:"A: Welches Fach magst du am liebsten?\nB: Ich mag Mathe, das ist mein bestes Fach.",exampleSrc:"A: Which subject do you like best?\nB: I like maths, that's my best subject.",note:"Neuter. Plural: Fächer. Means both a school subject and a compartment.",funFact:"In Germany, students often have 12 or more Fächer on their timetable."},
@@ -322,6 +328,12 @@ const UNIT_12 =
 {type:"teach",trg:"die Tasse",src:"cup",phonetic:"TA-suh",example:"A: Möchtest du eine Tasse Kaffee?\nB: Ja, gerne, mit Milch bitte.",exampleSrc:"A: Would you like a cup of coffee?\nB: Yes, please, with milk.",note:"Feminine. Plural: Tassen. Used for cups with handles (mugs too).",funFact:"Germans drink about 164 litres of coffee per person per year. That's a lot of Tassen."},
 {type:"teach",trg:"die Universität",src:"university",phonetic:"oo-nee-ver-zee-TAYT",example:"A: An welcher Universität studierst du?\nB: Ich studiere an der Universität München.",exampleSrc:"A: At which university do you study?\nB: I study at the University of Munich.",note:"Feminine. Often shortened to Uni in everyday speech.",funFact:"The oldest German Universität is Heidelberg, founded in 1386."},
 {type:"fb",s:"Möchtest du eine {1} Tee?",a:"Tasse",opts:["Tasse","Seite","Geldbörse","Note"],hint:"A container you drink from.",sSrc:"Would you like a cup of tea?"},
+{type:"match",pairs:[{trg:"das Fach",src:"subject/compartment"},{trg:"die Geldbörse",src:"wallet"},{trg:"der Supermarkt",src:"supermarket"},{trg:"das Taschengeld",src:"pocket money"},{trg:"die Universität",src:"university"}]}
+]},
+
+// ─── L10: Beschreibungen und Abschluss ───
+{id:"deu_r12l10",title:"Beschreibungen und Abschluss",icon:"🏁",xp:10,board:true,steps:[
+{type:"intro",title:"Beschreibungen und Abschluss",desc:"The final vocabulary push: workplace terms, descriptive adjectives, and essential adverbs. Plus direction words heraus and herein. Verumius is almost ready.",goals:["Learn workplace nouns: Werkstatt, Kollegin","Master common adjectives: aktuell, echt, eigentlich","Use directional adverbs: heraus, herein"]},
 {type:"teach",trg:"die Werkstatt",src:"workshop / garage",phonetic:"VERK-shtat",example:"A: Wo ist dein Auto?\nB: Es ist in der Werkstatt, der Motor ist kaputt.",exampleSrc:"A: Where is your car?\nB: It's in the workshop, the engine is broken.",note:"Feminine. Plural: Werkstätten. Werk (work) + Statt (place).",funFact:"Germany's TÜV vehicle inspections are famously strict. Werkstätten are always busy before TÜV dates."},
 {type:"teach",trg:"die Kollegin",src:"female colleague",phonetic:"ko-LAY-gin",example:"A: Kennst du meine Kollegin Frau Weber?\nB: Ja, sie arbeitet im dritten Stock.",exampleSrc:"A: Do you know my colleague Mrs Weber?\nB: Yes, she works on the third floor.",note:"Feminine. Male form: der Kollege (not Kolleg!).",funFact:"Germans typically use Sie (formal you) with Kollegen unless they agree to switch to du."},
 {type:"teach",trg:"aktuell",src:"current / up-to-date",phonetic:"ak-too-ELL",example:"A: Ist das die aktuelle Speisekarte?\nB: Ja, wir haben sie letzte Woche geändert.",exampleSrc:"A: Is this the current menu?\nB: Yes, we changed it last week.",note:"False friend alert! Aktuell does NOT mean 'actual'. It means 'current'.",funFact:"This is the most famous German false friend. 'Tatsächlich' is the real word for 'actually'."},
@@ -345,7 +357,7 @@ const UNIT_12 =
 {type:"story",speaker:"narrator",mood:"warm",art:"de-stairwell-night",trg:"Verumius öffnet seine Wohnungstür. Er hört Hildi oben lachen. Er hört den Fernseher des Nachbarn. Er hört die Stadt. Er gehört hierher.",src:"Verumius opens his apartment door. He hears Hildi laughing upstairs. He hears the neighbor's television. He hears the city. He belongs here."}
 ]},
 
-{id:"deu_r12l9",title:"Die große Prüfung",icon:"✅",xp:30,board:true,steps:[
+{id:"deu_r12l11",title:"Die große Prüfung",icon:"✅",xp:30,board:true,steps:[
 {type:"intro",title:"Die große Prüfung",desc:"Six months in Germany. Six units of grammar. Twenty-five constructs. This is the A2 capstone quiz. No new vocabulary, no hints from Hildi. Just you and the language.",goals:["Test ALL 25 A2 grammar constructs","Combine multiple constructs in single sentences","Prove you are ready for B1"]},
 {type:"story",speaker:"narrator",mood:"tense",art:"de-buergeramt-cactus",trg:"Bürgeramt. Letzter Besuch. KD sitzt hinter ihrem Schreibtisch. Der Kaktus auf dem Fensterbrett hat eine winzige Blüte. 'Sie brauchen heute nichts', sagt KD. 'Ich brauche etwas von Ihnen. Unterschreiben Sie hier.' Es ist ein Zeugnis. A2 bestanden.",src:"Buergeramt. Last visit. KD sits behind her desk. The cactus on the windowsill has a tiny blossom. 'You don't need anything today,' says KD. 'I need something from you. Sign here.' It is a certificate. A2 passed."},
 {type:"story",speaker:"kd",mood:"dry",trg:"Der Kaktus. Er hat geblüht. Zum ersten Mal seit ich hier arbeite. Vielleicht liegt es am Frühling. Vielleicht auch nicht.",src:"The cactus. It bloomed. For the first time since I have been working here. Maybe it is the spring. Maybe not."},
@@ -437,7 +449,7 @@ const UNIT_12 =
 ]}
 ,
 
-{id:"deu_r12l10",title:"Ich will bleiben",icon:"🎉",xp:20,board:true,steps:[
+{id:"deu_r12l12",title:"Ich will bleiben",icon:"🎉",xp:20,board:true,steps:[
 {type:"intro",title:"Ich will bleiben",desc:"Six months in Germany. Group chat celebration. Verumius has decided: he wants to stay. Time to learn the final vocabulary batch.",goals:["Personality and opinion adjectives","Essential adverbs and particles","The A2 finale: bridge to B1"]},
 {type:"story",speaker:"narrator",mood:"happy",art:"de-couch-phone",trg:"Verumius sitzt auf dem Sofa. Das Handy leuchtet. Lukas: 'Sechs Monate! Wahnsinn!' Mia: 'Du bist jetzt fast ein Berliner.' Yilmaz: 'Ich bin stolz auf dich.' Unter der Tür: ein Zettel von Hildi. 'Gut gemacht. H.'",src:"Verumius sits on the sofa. The phone glows. Lukas: 'Six months! Crazy!' Mia: 'You are almost a Berliner now.' Yilmaz: 'I am proud of you.' Under the door: a note from Hildi. 'Well done. H.'"},
 {type:"story",speaker:"lukas",mood:"excited",art:"de-phone-chat",trg:"Alter, erinnerst du dich an den ersten Tag? Du hast den falschen Zug genommen und mich um drei Uhr morgens angerufen. Und jetzt? Jetzt kennst du Berlin besser als ich!",src:"Dude, do you remember the first day? You took the wrong train and called me at three in the morning. And now? Now you know Berlin better than I do!"},
