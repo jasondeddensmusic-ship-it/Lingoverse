@@ -289,24 +289,13 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Density reduction** (2026-03-29): PP43 updated to 30-step cap (soft 32). PP64 added (teach-then-test). 11 lessons split across U01, U03, U08, U09, U11, U12, U17, U23. 41 lessons still over 32-step cap. No content deletion — all splits only.
 
 ### Known Blockers
-1. **41 lessons still over 32-step cap** — ALL need splitting (no trimming, no content loss). See density list below.
+1. **41 lessons still over 32-step cap** — ALL need splitting (no trimming, no content loss). See `docs/DENSITY_VIOLATIONS.md` for full list by unit.
 2. **PP64 violations widespread** — Many teach cards across all units have zero quiz coverage.
 3. **B2 tips still in German** — ~47 tips + ~21 verb_table notes need English translation (PP61).
 4. **A1/A2 stray intros** — ~10 intros in U5,7,9,10,11,12 still in German.
 5. **B2 content not validated** — PP8, PP52, PP48 checks not run on B2 content.
 6. **pos/gender fields missing** — Many A1 teach cards lack pos and gender fields.
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-
-### Density Violations (41 lessons >32 steps, need splitting)
-**Hotspot units** (most violations): U14 (6), U09 (5), U08 (4), U10 (4), U12 (3), U13 (3)
-- U01: L6 (37) | U02: L2 (34), L5 (33) | U03: L6 (35) | U05: L6 (36)
-- U07: L3 (33) | U08: L2 (39), L3 (43), L4 (34), L5 (37)
-- U09: L3 (37), L4 (38), L5 (37), L6 (34), L8 (33)
-- U10: L3 (36), L4 (37), L7 (33), L8 (37) | U11: L4 (36), L6 (38)
-- U12: L4 (38), L5 (42), L13 (37) | U13: L3 (39), L5 (35), L8 (39)
-- U14: L3 (34), L4 (37), L5 (37), L7 (34), L8 (37), L9 (37)
-- U15: L6 (34), L8 (38) | U17: L3 (33)
-- U27: L8 (35) | U28: L7 (34) | U30: L4 (34) | U32: L5 (34) | U34: L5 (33)
 
 ---
 
