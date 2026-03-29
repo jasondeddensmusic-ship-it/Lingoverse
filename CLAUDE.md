@@ -132,7 +132,8 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 - **PP32**: Every sentence native-speaker quality. Every exercise exactly ONE correct answer.
 - **PP34/PP52**: Every quiz word must trace to a prior dedicated teach card. "Taught" = own teach card. Example-only or deepDive-only does NOT count. Cognate exception: transparently cognate, examples only (not quizzes), single word.
 - **PP37**: Function words need teach cards before first use.
-- **PP43**: Density targets: Korean 20-25, Dutch/German 18-35 steps/lesson. Pedagogy over count.
+- **PP43**: Density targets: max 30 steps/lesson (soft cap 32). No lesson ships over 32. Enforced DURING builds, not after.
+- **PP64**: Teach-then-test completeness. Every teach card must be tested by at least one quiz step in the same lesson or a later lesson in the same unit. Zero-coverage teach cards are violations.
 - **PP46**: B1+ lessons: 2+ constructs per example, 50%+ combo quizzes, 15+ steps minimum.
 - **PP63**: Example Vocabulary Integrity. Every content word in a teach card's `example` must be: (a) the `trg` of THIS card, (b) taught in a PRIOR teach card, or (c) an exempt function word. No untaught words in examples. Strictest at A1, relaxed at B2 for transparent cognates/compounds.
 
@@ -177,8 +178,8 @@ Five leak types. ALL must be zero:
 - **P59**: Every teach card gets POS tag + gender. Enables color system, sentence breakdown, grammar deep dives.
 - **P60**: Story layers toggleable. Grammar depth adjustable. Platform is self-contained.
 
-### Audit Checklist (PP53 — 16 items, ALL must PASS)
-1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | **16. PP61 metalanguage in source language (zero German in intros/tips/notes)**
+### Audit Checklist (PP53 — 17 items, ALL must PASS)
+1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density (max 32 steps) | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | 16. PP61 metalanguage in source language | **17. PP64 teach-then-test (every teach card quizzed)**
 
 ### Engine Rules
 - **PP30**: No React hooks inside renderer blocks. EVER.

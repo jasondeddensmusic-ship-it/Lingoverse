@@ -79,10 +79,13 @@ Before finalizing, check EVERY quiz for:
 ### Teach-Before-Use (PP52)
 Every word in a quiz MUST trace to a prior dedicated teach card. "Taught" means its own teach card. Example-only does NOT count. DeepDive-only does NOT count.
 
-### Density
-- 25-35 steps per lesson (B1+B2 target)
-- 18-35 for A1/A2
+### Density (PP43)
+- Max 30 steps per lesson (soft cap 32). No lesson ships over 32.
 - Every step must earn its place. No padding.
+
+### Teach-Then-Test (PP64)
+- Every teach card must be tested by at least one quiz step in the same lesson or a later lesson in the same unit.
+- Zero-coverage teach cards are violations. No word gets taught without practice.
 
 ---
 
