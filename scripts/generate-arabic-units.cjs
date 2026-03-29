@@ -33,23 +33,13 @@ function deepClone(obj) {
 const arUnit = deepClone(unit);
 arUnit.srcLang = 'ar';
 
-// Translation dictionary for common teach card translations
-// These are the word-level translations (trg → Arabic src)
-const WORD_TRANSLATIONS = {
-  // Common greetings & basics
+// Import shared Arabic dictionary (single source of truth)
+const dict = require('./arabic-dictionary.cjs');
+
+// Merge all dictionary maps for src translation
+const WORD_TRANSLATIONS = {...dict.WORDS, ...dict.STORIES,
+  // Legacy entries kept for backward compatibility
   "Hello": "مرحبًا",
-  "Good morning": "صباح الخير",
-  "Good evening": "مساء الخير",
-  "Good night": "تصبح على خير",
-  "Goodbye": "مع السلامة",
-  "Please": "من فضلك",
-  "Thank you": "شكرًا",
-  "Thanks": "شكرًا",
-  "Yes": "نعم",
-  "No": "لا",
-  "Excuse me": "عذرًا",
-  "Sorry": "آسف",
-  "Welcome": "أهلاً وسهلاً",
   // People
   "the friend (male)": "الصديق (ذكر)",
   "the friend (female)": "الصديقة (أنثى)",
@@ -167,31 +157,37 @@ function translateSrc(text) {
   return `[AR] ${text}`;
 }
 
-// Process each step
+// Translate a field using a specific dictionary, fall back to [AR] marker
+function translateField(text, ...maps) {
+  if (!text) return text;
+  for (const map of maps) {
+    if (map[text]) return map[text];
+  }
+  return `[AR] ${text}`;
+}
+
+// Process each step — uses shared dictionary for ALL fields
 function processStep(step) {
-  // Translate src field (word translation)
+  // src: word translation (WORDS + STORIES cover most)
   if (step.src) step.src = translateSrc(step.src);
 
-  // Mark other source-language fields for translation
-  if (step.exampleSrc) step.exampleSrc = `[AR] ${step.exampleSrc}`;
-  if (step.note) step.note = `[AR] ${step.note}`;
-  if (step.funFact) step.funFact = `[AR] ${step.funFact}`;
-  if (step.hint) step.hint = `[AR] ${step.hint}`;
-  if (step.sSrc) step.sSrc = `[AR] ${step.sSrc}`;
+  // Source-language fields: check dictionary first, [AR] marker if not found
+  if (step.exampleSrc) step.exampleSrc = translateField(step.exampleSrc, dict.EXAMPLES);
+  if (step.note) step.note = translateField(step.note, dict.NOTES);
+  if (step.funFact) step.funFact = translateField(step.funFact, dict.FUNFACTS);
+  if (step.hint) step.hint = translateField(step.hint, dict.HINTS);
+  if (step.sSrc) step.sSrc = translateField(step.sSrc, dict.QUIZZES);
 
   // Intro fields
-  if (step.desc) step.desc = `[AR] ${step.desc}`;
-  if (step.goals) step.goals = step.goals.map(g => `[AR] ${g}`);
+  if (step.desc) step.desc = translateField(step.desc, dict.INTROS);
+  if (step.goals) step.goals = step.goals.map(g => translateField(g, dict.INTROS));
 
   // Tip fields
-  if (step.text) step.text = `[AR] ${step.text}`;
+  if (step.text) step.text = translateField(step.text, dict.TIPS);
   if (step.deepDive) {
-    if (typeof step.deepDive === 'string') step.deepDive = `[AR] ${step.deepDive}`;
-    else if (step.deepDive?.text) step.deepDive.text = `[AR] ${step.deepDive.text}`;
+    if (typeof step.deepDive === 'string') step.deepDive = translateField(step.deepDive, dict.TIPS);
+    else if (step.deepDive?.text) step.deepDive.text = translateField(step.deepDive.text, dict.TIPS);
   }
-
-  // Verb table note
-  if (step.note && step.type === 'verb_table') step.note = `[AR] ${step.note}`;
 
   return step;
 }
