@@ -33,8 +33,8 @@ const UNIT_1 =
 ]},
 
 // ─── L2: Erste Wörter ───
-{id:"deu_r1l2",title:"Erste Wörter",icon:"\uD83D\uDDE3\uFE0F",xp:15,board:true,steps:[
-{type:"intro",title:"Erste Wörter",desc:"Your survival vocabulary for day one in Germany. These twelve words will get you through airports, shops, and awkward silences.",goals:["Master essential greetings and farewells","Introduce yourself in German","Ask for help when you're lost"]},
+{id:"deu_r1l2",title:"Begrüßung und Höflichkeit",icon:"\uD83D\uDDE3\uFE0F",xp:10,board:true,steps:[
+{type:"intro",title:"Begrüßung und Höflichkeit",desc:"Your first German words: greetings, farewells, and politeness. These expressions will get you through airports, shops, and awkward silences.",goals:["Master essential greetings: Guten Tag, Tschüss, Auf Wiedersehen","Learn farewell variations with 'Bis'","Use Danke, Bitte, and four ways to say 'you're welcome'"]},
 {type:"story",speaker:"narrator",mood:"nervous",art:"de-ber-kiosk",trg:"Am Kiosk im Flughafen. Verumius will Wasser kaufen. Die Frau hinter der Theke wartet. Er öffnet den Mund. Kein Deutsch kommt heraus.",src:"At the airport kiosk. Verumius wants to buy water. The woman behind the counter waits. He opens his mouth. No German comes out."},
 {type:"teach",trg:"Guten Tag",src:"Good day (formal greeting)",note:"The standard formal greeting, used any time of day.",example:"A: Guten Tag! Ich bin Dr. Yilmaz.\nB: Guten Tag! Freut mich.",exampleSrc:"A: Good day! I am Dr. Yilmaz.\nB: Good day! Nice to meet you.",funFact:"Germans have greetings for every time of day: Guten Morgen (morning), Guten Tag (day), Guten Abend (evening). In Bavaria, you'll hear 'Grüß Gott' instead."},
 {type:"teach",trg:"Tschüss",src:"Bye",note:"Informal farewell. Pronounced like 'choose' with a softer ch.",example:"A: Ich muss gehen. Tschüss!\nB: Tschüss! Bis morgen!",exampleSrc:"A: I have to go. Bye!\nB: Bye! See you tomorrow!",funFact:"'Tschüss' evolved from the French 'adieu' (to God), which became 'adjuees' in dialect, then 'tschuess.' A French farewell in German clothing!"},
@@ -54,6 +54,15 @@ const UNIT_1 =
 {type:"tip",title:"Four Ways to Say You Are Welcome",text:"German has a gradient of formality:\n\nBitte = you are welcome (neutral)\nBitte sehr = you are most welcome (formal)\nGern geschehen = my pleasure (warm)\nKein Problem = no problem (casual)\n\nIn shops: Bitte or Bitte sehr.\nWith friends: Gern geschehen or Kein Problem.",deepDive:{title:"Bitte: the most multi-purpose word in German",text:"Bitte is one of the most flexible words in German:\n\n1. Please: Einen Kaffee, bitte!\n2. You are welcome: Danke! / Bitte!\n3. Here you go: (handing something) Hier, bitte.\n4. Pardon? / Come again? (rising intonation): Bitte?\n5. Please go ahead: Bitte! (waving someone through a door)\n\nMastering bitte's contexts makes you sound immediately more natural in German."}},
 {type:"mc",q:"A waiter hands you a coffee and says 'Bitte schön!' What does this mean here?",opts:["Please order","Thank you","Here you go","Goodbye"],ans:"Here you go",hint:"The waiter is handing something to you, not asking."},
 {type:"fb",s:"Vielen {1}!",a:["Dank"],opts:["Dank","Bitte","Tag","Nacht"],hint:"'Vielen ___' is the formal way to express gratitude.",sSrc:"Many thanks!"},
+{type:"match",pairs:[{trg:"Guten Tag",src:"Good day"},{trg:"Tschüss",src:"Bye"},{trg:"Auf Wiedersehen",src:"Goodbye (formal)"},{trg:"Danke schön",src:"Thank you very much"},{trg:"Bitte sehr",src:"You're very welcome"}]},
+{type:"mc",q:"You are ending a phone call. Which farewell is specifically for phone conversations?",opts:["Auf Wiederhören","Auf Wiedersehen","Tschüss","Bis bald"],ans:"Auf Wiederhören",hint:"'Hören' means to hear. This farewell is about hearing someone again, not seeing them."},
+{type:"fb",s:"A: Ich helfe dir gern.\nB: Oh, {1}!",a:["Gern geschehen"],opts:["Gern geschehen","Kein Problem","Bitte","Es tut mir leid"],hint:"The warmest way to say 'you're welcome,' literally meaning 'gladly happened.'",sSrc:"A: I am happy to help.\nB: Oh, my pleasure!"},
+{type:"mc",q:"Someone accidentally bumps into you and says 'Es tut mir leid!' What are they expressing?",opts:["A greeting","An apology","A farewell","Gratitude"],ans:"An apology",hint:"This phrase expresses that something causes the speaker pain or regret."}
+]},
+
+// ─── L3: Erste Sätze ───
+{id:"deu_r1l3",title:"Erste Sätze",icon:"💬",xp:10,board:true,steps:[
+{type:"intro",title:"Erste Sätze",desc:"Beyond greetings, you need words to navigate conversations: yes, no, maybe. Plus your first real German sentences: introducing yourself, saying where you come from, and asking for help.",goals:["Use Ja, Nein, vielleicht, genau, and natürlich","Introduce yourself with Ich bin and Wie heißen Sie","Learn your first German verbs: gehen, sagen, machen"]},
 {type:"teach",trg:"Ja",src:"Yes",note:"Pronounced 'yah.' Simple and direct.",example:"A: Sind Sie Verumius?\nB: Ja, das bin ich!",exampleSrc:"A: Are you Verumius?\nB: Yes, that's me!",funFact:"In casual speech, Germans often say 'Ja' as a filler word, like English 'yeah' or 'right.' You might hear 'Ja, also...' (Yeah, so...) constantly."},
 {type:"teach",trg:"Nein",src:"No",note:"Pronounced 'nine' (like the number). Clear and firm.",example:"A: Sprechen Sie Französisch?\nB: Nein, leider nicht.",exampleSrc:"A: Do you speak French?\nB: No, unfortunately not.",funFact:"Germans are known for directness. A German 'Nein' means no. No softening, no maybe. In business, this directness is respected, not rude."},
 {type:"teach",trg:"vielleicht",src:"maybe / perhaps",pos:"adv",gender:null,note:"Expressing uncertainty.\nViel = much. Leicht = light/easy. Together: perhaps.",example:"A: Kommst du heute Abend?\nB: Vielleicht. Ich bin nicht sicher.\nA: Okay, sag mir Bescheid!",exampleSrc:"A: Are you coming this evening?\nB: Maybe. I am not sure.\nA: Okay, let me know!",funFact:"Viel (much) + leicht (light/easy) = 'perhaps.' The idea: something that comes easily or lightly, not with certainty. More neutral than 'wahrscheinlich' (probably)."},
@@ -84,7 +93,7 @@ const UNIT_1 =
 ]},
 
 // ─── L3: Im falschen Zug ───
-{id:"deu_r1l3",title:"Im falschen Zug",icon:"\uD83D\uDE82",xp:15,board:true,steps:[
+{id:"deu_r1l4",title:"Im falschen Zug",icon:"\uD83D\uDE82",xp:15,board:true,steps:[
 {type:"intro",title:"Im falschen Zug",desc:"Verumius and Dr. Yilmaz are on the ICE train. She teaches him how to ask questions in German. But when the ticket inspector arrives, Verumius discovers a small problem...",goals:["Learn the 7 German W-question words","Understand W-question word order","Survive a ticket inspection"]},
 {type:"story",speaker:"narrator",mood:"neutral",art:"de-ice-train",trg:"Im ICE. Verumius sitzt am Fenster. Draußen fliegen Felder und Dörfer vorbei. Dr. Yilmaz öffnet ihr Notizbuch und lächelt.",src:"On the ICE train. Verumius sits by the window. Outside, fields and villages fly past. Dr. Yilmaz opens her notebook and smiles."},
 {type:"story",speaker:"yilmaz",trg:"So, Verumius. In German, every question starts with a W-Wort. Wer, was, wo, woher, wohin, wann, wie. Seven little words that open every door.",src:"So, Verumius. In German, every question starts with a W-word. Who, what, where, where from, where to, when, how. Seven little words that open every door."},
@@ -111,7 +120,7 @@ const UNIT_1 =
 ]},
 
 // ─── L4: Ich bin, du bist ───
-{id:"deu_r1l4",title:"Ich bin, du bist",icon:"\uD83D\uDD24",xp:15,board:true,steps:[
+{id:"deu_r1l5",title:"Ich bin, du bist",icon:"\uD83D\uDD24",xp:15,board:true,steps:[
 {type:"intro",title:"Ich bin, du bist, er ist",desc:"The two most important verbs in any language: to be and to have. Master 'sein' and 'haben,' and you can describe almost anything.",goals:["Conjugate sein (to be) in present tense","Conjugate haben (to have) in present tense","Understand du vs. Sie","Learn basic regular verb endings"]},
 {type:"story",speaker:"yilmaz",mood:"encouraging",art:"de-ice-window",trg:"Gut. Du kannst schon Hallo sagen. Jetzt lernst du das wichtigste Verb: sein. Ich bin, du bist, er ist. Drei Wörter, und du kannst alles beschreiben.",src:"Good. You can already say hello. Now you learn the most important verb: to be. I am, you are, he is. Three words, and you can describe everything."},
 {type:"verb_table",title:"sein (to be)",groups:[{label:"Singular",rows:[
@@ -165,7 +174,7 @@ const UNIT_1 =
 ]},
 
 // ─── L5: Zahlen und Zeit ───
-{id:"deu_r1l5",title:"Zahlen und Zeit",icon:"\uD83D\uDD22",xp:15,board:true,steps:[
+{id:"deu_r1l6",title:"Zahlen und Zeit",icon:"\uD83D\uDD22",xp:15,board:true,steps:[
 {type:"intro",title:"Zahlen und Zeit",desc:"Numbers are the backbone of travel. You need them for time, platforms, prices, and addresses. Let's count to twenty, then put numbers to work at the station.",goals:["Count from 0 to 20 in German","Ask and tell the time","Use transport words: departure, arrival, platform, delay"]},
 {type:"story",speaker:"yilmaz",mood:"neutral",art:"de-ice-departure-board",trg:"Sieh mal, die Anzeigetafel. Abfahrt: 14 Uhr. Gleis: 7. Verspätung: 5 Minuten. Alles Zahlen. Ohne Zahlen bist du verloren.",src:"Look, the departure board. Departure: 2 PM. Platform: 7. Delay: 5 minutes. All numbers. Without numbers, you are lost."},
 {type:"teach",kind:"word",trg:"null",src:"zero",phonetic:"NOOL",example:"A: Wie viele Tickets hast du?\nB: Null. Ich habe noch keine gekauft.",exampleSrc:"A: How many tickets do you have?\nB: Zero. I haven't bought any yet.",note:"Same word as English 'null' in programming.\nUsed for phone numbers, scores, temperatures.",funFact:"German 'null' comes from Latin 'nulla' (none). The concept of zero arrived in Europe from India via Arabic mathematicians in the Middle Ages."},
@@ -207,7 +216,7 @@ const UNIT_1 =
 ]},
 
 // ─── L6: Berlin Hauptbahnhof ───
-{id:"deu_r1l6",title:"Berlin Hauptbahnhof",icon:"\uD83D\uDE82",xp:15,board:true,steps:[
+{id:"deu_r1l7",title:"Berlin Hauptbahnhof",icon:"\uD83D\uDE82",xp:15,board:true,steps:[
 {type:"intro",title:"Berlin Hauptbahnhof",desc:"Verumius steps off the train and into Berlin Hauptbahnhof, one of Europe's largest glass-and-steel stations. The noise, the crowds, the signs. Time to find the exit and grab something to eat.",goals:["Navigate with direction words","Order food for the first time","Use vocabulary from the whole unit together"]},
 {type:"story",speaker:"narrator",mood:"excited",art:"de-berlin-hbf",trg:"Der Zug hält. Verumius steht auf und schaut durch das Fenster. Berlin Hauptbahnhof. Überall Glas und Stahl. Menschen laufen in alle Richtungen.",src:"The train stops. Verumius stands up and looks through the window. Berlin Hauptbahnhof. Glass and steel everywhere. People running in all directions."},
 {type:"teach",kind:"word",trg:"der Ausgang",src:"exit",phonetic:"dehr OWS-gang",example:"A: Wo ist der Ausgang?\nB: Dort drüben, links.",exampleSrc:"A: Where is the exit?\nB: Over there, on the left.",note:"Masculine: der Ausgang.\nAus = out. Gang = way/corridor.\nEvery station and building has signs for the Ausgang.",funFact:"Eingang (entrance) is the opposite: Ein (in) + Gang (way). German station signs always show both. If you see a green running man, that is the Notausgang (emergency exit)."},
@@ -236,7 +245,7 @@ const UNIT_1 =
 ]},
 
 // ─── L7: Alles zusammen! (Quiz) ───
-{id:"deu_r1l7",title:"Alles zusammen!",icon:"\uD83C\uDFC6",xp:20,board:true,steps:[
+{id:"deu_r1l8",title:"Alles zusammen!",icon:"\uD83C\uDFC6",xp:20,board:true,steps:[
 {type:"intro",title:"Alles zusammen!",desc:"Time to show what you've learned! This quiz covers everything from Unit 1: greetings, questions, verbs, numbers, and directions.",goals:["Test your German survival skills","Combine vocabulary from all lessons","Prove you're ready for Unit 2"]},
 {type:"story",speaker:"narrator",mood:"confident",art:"de-berlin-hbf-glass",trg:"Verumius steht im Berliner Hauptbahnhof. Hallo. Danke. Bitte. Entschuldigung. Eins, zwei, drei. Links, rechts, geradeaus. Sechs Lektionen. Und er lebt noch.",src:"Verumius stands in Berlin Hauptbahnhof. Hello. Thank you. Please. Excuse me. One, two, three. Left, right, straight ahead. Six lessons. And he is still alive."},
 {type:"mc",q:"You meet your new landlord at 3 PM. Which greeting is most appropriate?",opts:["Gute Nacht","Guten Tag","Tschüss","Hallo, Alter"],ans:"Guten Tag",hint:"This is the standard formal daytime greeting."},
@@ -264,7 +273,7 @@ const UNIT_1 =
 ]},
 
 // ─── L8: Der erste Abend ───
-{id:"deu_r1l8",title:"Der erste Abend",icon:"\uD83C\uDF19",xp:15,board:true,steps:[
+{id:"deu_r1l9",title:"Der erste Abend",icon:"\uD83C\uDF19",xp:15,board:true,steps:[
 {type:"intro",title:"Der erste Abend",desc:"Night falls over Berlin. Verumius sits in his hostel room, looking at the city lights. His first day in Germany is over. What a ride.",goals:["Learn evening and night vocabulary","Discover German greeting customs by time of day","Reflect on everything you've learned in Unit 1"]},
 {type:"story",speaker:"narrator",mood:"neutral",art:"de-hostel-evening",trg:"Das Hostel ist klein, aber gemütlich. Verumius sitzt auf dem Bett und schaut aus dem Fenster. Die Lichter von Berlin funkeln in der Nacht.",src:"The hostel is small but cozy. Verumius sits on the bed and looks out the window. The lights of Berlin sparkle in the night."},
 {type:"teach",trg:"das Hostel",src:"the hostel",note:"Neuter noun. A budget place to sleep in a new city.",example:"A: Wo schläfst du in Berlin?\nB: In einem Hostel in Mitte.",exampleSrc:"A: Where are you sleeping in Berlin?\nB: In a hostel in Mitte.",funFact:"Germany has over 500 youth hostels in the DJH network, the world's oldest hostel association, founded in 1909. A teacher wanted cheap travel for students!"},
@@ -298,7 +307,7 @@ const UNIT_1 =
 
 ,
 
-{id:"deu_r1l9",title:"Bausteine",icon:"🧱",xp:15,board:true,steps:[
+{id:"deu_r1l10",title:"Bausteine",icon:"🧱",xp:15,board:true,steps:[
 {type:"intro",title:"Bausteine",desc:"The building blocks of every German sentence: conjunctions, adverbs, prepositions, and question words. These small words connect everything together.",goals:["Learn essential conjunctions: und, aber, oder, auch","Master key question words: wer, was, wo, wann, warum, wie","Use adverbs and prepositions in simple sentences"]},
 {type:"story",speaker:"narrator",mood:"cozy",art:"de-hostel-breakfast",trg:"Morgens im Hostel. Kaffee und Brötchen. Verumius hört den anderen Gästen zu. Er versteht einzelne Wörter: und, aber, oder, nicht. Kleine Wörter, überall.",src:"Morning at the hostel. Coffee and bread rolls. Verumius listens to the other guests. He catches individual words: and, but, or, not. Small words, everywhere."},
 {type:"teach",trg:"und",src:"and",note:"The most common German conjunction. Connects words, phrases, and clauses.",example:"A: Ich spreche Deutsch und Englisch.\nB: Und ich spreche Deutsch und Spanisch!",exampleSrc:"A: I speak German and English.\nB: And I speak German and Spanish!",funFact:"'Und' comes from the same root as English 'and'. Both trace back to Proto-Germanic *unda."},
@@ -329,7 +338,7 @@ const UNIT_1 =
 {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-hostel-breakfast",trg:"Und, aber, oder, nicht. Vier kleine Wörter. Aber jetzt kann ich Sätze bauen. Nicht perfekt, aber verständlich. Und das ist gut.",src:"And, but, or, not. Four little words. But now I can build sentences. Not perfect, but understandable. And that is good."}
 ]},
 
-{id:"deu_r1l10",title:"Wer bist du?",icon:"🪪",xp:15,board:true,steps:[
+{id:"deu_r1l11",title:"Wer bist du?",icon:"🪪",xp:15,board:true,steps:[
 {type:"intro",title:"Wer bist du?",desc:"Learn the vocabulary you need for forms, introductions, and telling people about yourself. Names, addresses, birthdays, and formal greetings.",goals:["Learn identity words: Name, Vorname, Adresse, Geburtstag","Master formal greetings: Herr, Frau, herzlich willkommen","Fill out forms and introduce yourself with confidence"]},
 {type:"story",speaker:"narrator",mood:"nervous",art:"de-hostel-reception",trg:"An der Rezeption. Die Frau gibt Verumius ein Formular. Name, Vorname, Adresse, Geburtsdatum. Alles auf Deutsch. Er nimmt den Stift und atmet tief ein.",src:"At the reception desk. The woman hands Verumius a form. Name, first name, address, date of birth. All in German. He picks up the pen and takes a deep breath."},
 {type:"teach",trg:"der Name",src:"the name",note:"Masculine noun. Plural: die Namen. Used for full name or surname.",example:"A: Wie ist Ihr Name?\nB: Mein Name ist Schneider.",exampleSrc:"A: What is your name?\nB: My name is Schneider.",funFact:"'Name' is nearly universal across European languages: English 'name', Latin 'nomen', Greek 'onoma'. All from the same ancient root."},
@@ -358,7 +367,7 @@ const UNIT_1 =
 {type:"story",speaker:"verumius",mood:"relieved",art:"de-hostel-reception",trg:"Die Frau liest das Formular und nickt. 'Alles korrekt, Herr Verumius. Willkommen.' Er hat es geschafft. Ein Formular auf Deutsch. Erledigt.",src:"The woman reads the form and nods. 'Everything correct, Mr. Verumius. Welcome.' He did it. A form in German. Done."}
 ]},
 
-{id:"deu_r1l11",title:"Die Zahlen",icon:"\u{1F522}",xp:15,board:true,steps:[
+{id:"deu_r1l12",title:"Die Zahlen",icon:"\u{1F522}",xp:15,board:true,steps:[
 {type:"intro",title:"Die Zahlen",desc:"Learn the numbers you are still missing: 2, 4, 6, and 11 through 19.",goals:["Count from 1 to 20 without gaps","Understand the -zehn pattern for teens","Use numbers in simple sentences"]},
 {type:"story",speaker:"narrator",mood:"amused",art:"de-kiosk-coins",trg:"Am Kiosk. Verumius zählt seine Münzen. Eins, drei, fünf, sieben... Er merkt, dass Lücken fehlen. Zwei? Vier? Sechs? Zeit, die restlichen Zahlen zu lernen.",src:"At the kiosk. Verumius counts his coins. One, three, five, seven... He notices the gaps. Two? Four? Six? Time to learn the remaining numbers."},
 {type:"tip",title:"Das Zehn-Muster",text:"German teens (13\u201319) follow a simple pattern:\nRoot number + zehn.\n\ndrei + zehn = dreizehn (13)\nvier + zehn = vierzehn (14)\nf\u00fcnf + zehn = f\u00fcnfzehn (15)\n\nWatch for small spelling changes:\nsechs becomes sech- (sechzehn)\nsieben becomes sieb- (siebzehn)"},
@@ -382,7 +391,7 @@ const UNIT_1 =
 {type:"mc",q:"Welche Zahl ist 'vier + zehn'?",opts:["dreizehn","vierzehn","sechzehn","f\u00fcnfzehn"],ans:"vierzehn",hint:"Add the root number directly to zehn."}
 ]},
 
-{id:"deu_r1l12",title:"Unsere Welt",icon:"\u{1F30D}",xp:15,board:true,steps:[
+{id:"deu_r1l13",title:"Unsere Welt",icon:"\u{1F30D}",xp:15,board:true,steps:[
 {type:"intro",title:"Unsere Welt",desc:"Talk about countries, nationalities, and the wider world.",goals:["Name countries and nationalities in German","Use deutsch, europ\u00e4isch, and ausl\u00e4ndisch","Describe things with nicht and sehr"]},
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-hostel-postcard",trg:"Verumius schreibt eine Postkarte nach Hause. 'Ich bin in Deutschland. Die Leute sind nett. Die Welt ist gro\u00df.' Er denkt an Italien, an Europa, an alles.",src:"Verumius writes a postcard home. 'I am in Germany. The people are nice. The world is big.' He thinks about Italy, about Europe, about everything."},
 {type:"teach",trg:"das Land",src:"the country",note:"Neuter noun. Plural: die L\u00e4nder. Also means 'land' or 'countryside'.",example:"A: Aus welchem Land kommst du?\nB: Ich komme aus Deutschland.",exampleSrc:"A: Which country do you come from?\nB: I come from Germany.",funFact:"Bundesland means 'federal state.' Germany has 16 Bundesl\u00e4nder."},
@@ -406,7 +415,7 @@ const UNIT_1 =
 {type:"fb",s:"Nein, ich bin {1} m\u00fcde.",a:["nicht"],opts:["nicht","sehr","auch","schon"],hint:"This word turns a sentence negative.",sSrc:"No, I am not tired."}
 ]},
 
-{id:"deu_r1l13",title:"Am Flughafen",icon:"\u2708\uFE0F",xp:15,board:true,steps:[
+{id:"deu_r1l14",title:"Am Flughafen",icon:"\u2708\uFE0F",xp:15,board:true,steps:[
 {type:"intro",title:"Am Flughafen",desc:"Learn essential airport vocabulary and useful verbs for travel situations.",goals:["Name airport objects in German","Use verbs like fragen, finden, and wissen","Understand the difference between kennen and wissen"]},
 {type:"story",speaker:"narrator",mood:"nostalgic",art:"de-ber-terminal",trg:"Verumius ist wieder am Flughafen. Aber diesmal ist alles anders. Die Schilder? Er kann sie lesen. Die Durchsagen? Er versteht Wörter. Der Flughafen ist nicht mehr fremd.",src:"Verumius is back at the airport. But this time, everything is different. The signs? He can read them. The announcements? He catches words. The airport is no longer foreign."},
 {type:"teach",trg:"der Flughafen",src:"the airport",note:"Masculine noun. Flug (flight) + Hafen (harbor) = flight harbor. Plural: die Flugh\u00e4fen.",example:"A: Wo ist der Flughafen?\nB: Der Flughafen ist in der N\u00e4he.",exampleSrc:"A: Where is the airport?\nB: The airport is nearby.",funFact:"Frankfurt Flughafen is the busiest airport in Germany and a major European hub."},
