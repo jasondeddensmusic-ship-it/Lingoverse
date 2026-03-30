@@ -905,7 +905,7 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 700px) {
-  .main { padding: 20px 16px calc(72px + env(safe-area-inset-bottom, 0px)) 16px; }
+  .main { padding: 20px 16px calc(76px + env(safe-area-inset-bottom, 0px)) 16px; }
   .topnav { padding: env(safe-area-inset-top, 0px) 12px 0; }
   .topnav-item span:not(.icon) { display: none; }
   .topnav-item { padding: 8px 10px; min-height: 44px; min-width: 44px; justify-content: center; }
@@ -919,9 +919,9 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 @media (max-width: 700px) {
   .bottomnav {
     display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
-    height: calc(64px + env(safe-area-inset-bottom, 0px));
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-    background: rgba(255,255,255,0.88);
+    height: calc(68px + env(safe-area-inset-bottom, 0px));
+    padding: 4px 0 env(safe-area-inset-bottom, 0px);
+    background: rgba(255,255,255,0.95);
     border-top: 1.5px solid var(--card-border);
     backdrop-filter: blur(24px) saturate(1.4); -webkit-backdrop-filter: blur(24px) saturate(1.4);
     box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
@@ -934,10 +934,11 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
   }
   .bottomnav-item {
     flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    gap: 2px; cursor: pointer; font-size: 10px; font-weight: 700;
+    gap: 3px; cursor: pointer; font-size: 11px; font-weight: 700;
     color: var(--gray-400); transition: color 0.15s;
     font-family: 'Nunito', 'DM Sans', sans-serif; min-height: 44px;
     -webkit-tap-highlight-color: transparent; position: relative;
+    overflow: visible; padding: 4px 2px;
   }
   .bottomnav-item:active { transform: scale(0.92); }
   .bottomnav-item.active { color: #7B5EE8; }
@@ -1088,8 +1089,9 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 .vr-edge-e{top:14px;bottom:14px;right:0;width:7px;cursor:e-resize;}
 .vr-wrap:not(.vr-fs) .vr-edge:hover,.vr-wrap:not(.vr-fs) .vr-edge:active{background:rgba(123,94,232,0.14);border-radius:4px;}
 @media(max-width:700px){
-  .vr-wrap{right:0 !important;bottom:0 !important;left:0 !important;width:100% !important;height:70vh !important;border-radius:24px 24px 0 0 !important;opacity:1 !important;transform:translateY(0) !important;}
-  .vr-wrap.vr-fs{height:calc(100dvh - 64px) !important;border-radius:0 !important;top:calc(64px + env(safe-area-inset-top,0px)) !important;}
+  .vr-wrap{right:0 !important;bottom:calc(68px + env(safe-area-inset-bottom,0px)) !important;left:0 !important;width:100% !important;height:calc(70vh - 68px) !important;border-radius:24px 24px 0 0 !important;opacity:1 !important;transform:translateY(0) !important;background:linear-gradient(180deg,#F8F6FF 0%,#F0ECFF 50%,#EDE8FF 100%) !important;box-shadow:0 -4px 24px rgba(123,94,232,0.18),0 0 0 1.5px rgba(123,94,232,0.13) !important;}
+  :root.dark .vr-wrap{background:rgba(18,14,48,0.98) !important;box-shadow:0 -4px 24px rgba(0,0,0,0.5),0 0 0 1.5px rgba(123,94,232,0.35) !important;}
+  .vr-wrap.vr-fs{height:calc(100dvh - 64px) !important;border-radius:0 !important;top:calc(64px + env(safe-area-inset-top,0px)) !important;bottom:0 !important;}
   .vl-tab{display:none;}
 }
 
@@ -1118,7 +1120,7 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 @media (max-width: 700px) {
   .vr-fab {
     position: fixed; z-index: 99; width: 56px; height: 56px;
-    bottom: calc(72px + env(safe-area-inset-bottom, 0px)); right: 16px;
+    bottom: calc(76px + env(safe-area-inset-bottom, 0px)); right: 16px;
     border-radius: 50%; display: flex; align-items: center; justify-content: center;
     background: linear-gradient(135deg, #7B5EE8 0%, #6040C0 100%);
     box-shadow: 0 4px 20px rgba(123,94,232,0.4), 0 2px 8px rgba(0,0,0,0.15);
@@ -1127,7 +1129,7 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
     -webkit-tap-highlight-color: transparent;
   }
   .vr-fab:active { transform: scale(0.9); }
-  .vr-fab.open { transform: rotate(45deg); }
+  .vr-fab.open { transform: none; }
   :root.dark .vr-fab {
     background: linear-gradient(135deg, #6040C0 0%, #4A2BA6 100%);
     border-color: rgba(160,140,255,0.4);

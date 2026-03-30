@@ -5949,8 +5949,8 @@ export default function App(){
     const tabs=[
       {id:"home",icon:"house",label:t("nav_home",baseLang)},
       {id:"learn",icon:"books_stack",label:t("nav_learn",baseLang)||"Learn"},
-      {id:"quiz",icon:"checkmark_green",label:t("nav_quiz",baseLang)},
-      {id:"vocabulary",icon:"abc_blocks",label:t("nav_vocab",baseLang)||"Vocab"},
+      {id:"chat",icon:"robot",label:t("nav_chat",baseLang)},
+      {id:"cefr-reference",icon:"globe",label:"CEFR"},
       {id:"profile",icon:"avatar",label:t("nav_profile",baseLang)},
     ];
     return(
