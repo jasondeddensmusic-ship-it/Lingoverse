@@ -297,6 +297,9 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Dictionary color system** (2026-03-30): Critical POS tag mismatch fixed. `aux_verb`, `modal_verb`, `conjunction_coord/sub`, `pronoun_dat/refl/rel/dem/indef` added to WORDTYPE_PACK + Gender pack colorMaps. GERMAN_FORM_INDEX wired into lookupWord() + universalHl(). WordBubble enriched with POS/gender/funFact. VocabularyPage: German Conjugation/Cases/Examples tabs added. Coverage: ~50% to ~90%.
 - **Dictionary 100% coverage** (2026-03-30): Layer 1 (unknown word fallback) + Layer 2 (proper noun detection). MiniWordPopup/WordBubble added to all 10+ renderers. Every word in every sentence now visible and tappable.
 - **GrammarPage/IdiomsPage generalized** (2026-03-30): Dutch data extracted to modules. Language-agnostic loading via GRAMMAR_REFS/IDIOM_REFS. "Coming soon" placeholder for unsupported languages.
+- **Word popup crash fix** (2026-03-31): Missing `LANG_DICT` import caused crash on any word click in teach cards. One-line fix.
+- **CEFR Reference redesign** (2026-03-31): All-purple level pills, muted gray translations, inline POS tags, clean flexbox layout. Removed 4-column grid.
+- **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -313,7 +316,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 12. ~~GrammarPage~~ — **RESOLVED.** Generalized to load from `GRAMMAR_REFS[lang]`. Dutch data extracted to `src/data/grammar/dutch.js`. "Coming soon" for unsupported languages. Note: Dutch content is MOCK quality.
 13. ~~IdiomsPage~~ — **RESOLVED.** Generalized to load from `IDIOM_REFS[lang]`. Dutch idioms extracted with language-agnostic fields.
 14. ~~Mobile optimization~~ — **RESOLVED** (2026-03-30). Bottom nav, FAB, safe areas, swipe, bottom sheets.
-15. **German CEFR POS tags** — ~1,620 entries had `p:"other"`. Fix in progress.
+15. ~~German CEFR POS tags~~ — **RESOLVED.** All 1,620 `p:"other"` entries fixed with correct POS tags.
+16. ~~Word popup crash~~ — **RESOLVED.** Missing `LANG_DICT` import in LessonEngine.jsx. WordBubble + MiniWordPopup now work.
+17. ~~CEFR Reference visual design~~ — **RESOLVED.** All-purple level pills, muted translations, inline POS tags, clean layout.
+18. **CEFR data lemma quality** — Messy entries like `(ab)fliegen, fliegt (ab)` need normalization to clean lemmas.
 
 ---
 
@@ -339,7 +345,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Latest session handoff (dictionary 100% coverage + grammar/idioms generalization).
+- **`docs/SESSION_HANDOFF_2026-03-31.md`** — Latest session handoff (word popup crash fix + CEFR reference redesign).
+- **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
 - **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
 - **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Previous handoff (mobile optimization + chat fix).
 - **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Milestone: German v2 PERFECT validation.
@@ -366,7 +373,7 @@ Historical docs. Not needed for current work.
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-03-30e.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-03-31.md` for latest context.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
