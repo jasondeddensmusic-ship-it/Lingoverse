@@ -10,45 +10,45 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"fahren",src:"يقود / يذهب (بمركبة)",pos:"verb",gender:null,note:"فعل شاذ: ich fahre، du fährst، er fährt.\nتتغير الحركة من a إلى ä. تشبه تغيرات الأفعال الشاذة في العربية.",example:"A: Fahren Sie nach Hamburg?\nB: Nein, ich fahre nach Berlin.",exampleSrc:"A: هل تذهب إلى هامبورغ؟\nB: لا، أنا ذاهب إلى برلين.",funFact:"تغير حركة الجذع من a إلى ä في fährst/fährt. أفعال ألمانية كثيرة تفعل ذلك: schlafen → schläft، laufen → läuft.\nمثل التغيرات في الأفعال الشاذة العربية."},
         {type:"verb_table",title:"fahren (to drive/go)",groups:[
             {label:"Present tense (stem change: a → ä)",rows:[
-                {pronoun:"ich",form:"fahre",src:"I drive"},
-                {pronoun:"du",form:"fährst",src:"you drive"},
-                {pronoun:"er/sie/es",form:"fährt",src:"he/she/it drives"},
-                {pronoun:"wir",form:"fahren",src:"we drive"},
-                {pronoun:"ihr",form:"fahrt",src:"you all drive"},
-                {pronoun:"sie/Sie",form:"fahren",src:"they/you (formal) drive"}
+                {pronoun:"ich",form:"fahre",src:"أنا أقود"},
+                {pronoun:"du",form:"fährst",src:"أنتَ تقود"},
+                {pronoun:"er/sie/es",form:"fährt",src:"هو/هي يقود"},
+                {pronoun:"wir",form:"fahren",src:"نحن نقود"},
+                {pronoun:"ihr",form:"fahrt",src:"أنتم تقودون"},
+                {pronoun:"sie/Sie",form:"fahren",src:"هم/حضرتك يقودون"}
               ]}
           ],note:"حركة الجذع a تتحول إلى ä في صيغتي du و er/sie/es. نفس النمط: schlafen، laufen، waschen."},
         {type:"tip",title:"Stem-Changing Verbs",text:"بعض الأفعال الألمانية تتغير حركتها في صيغتي du و er/sie/es.\n\nfahren: du fährst, er fährt\nschlafen: du schläfst, er schläft\nsprechen: du sprichst, er spricht\n\nصيغ ich و wir و ihr و Sie تبقى منتظمة.",deepDive:{title:"Strong vs Weak Verbs",text:"الأفعال الألمانية تنقسم إلى ضعيفة (منتظمة) تضيف نهايات فقط (e-، st-، t-، en-) وقوية (شاذة) تغير أيضًا حركة الجذع. تبديل الحركة (Ablaut) ميزة جرمانية قديمة جدًا، نفسها التي تعطي الإنجليزية speak/spoke و sing/sang و run/ran. الأفعال القوية الألمانية حافظت على هذا النمط خصوصًا في صيغتي du و er/sie/es المضارع."}},
-        {type:"mc",q:"What does 'Entschuldigung' mean?",opts:["Excuse me","Thank you","Goodbye","Hello"],ans:"Excuse me",hint:"فكر في كيف تجذب انتباه شخص في الشارع."},
-        {type:"mc",q:"'Der Zug fährt um 14 Uhr.' What is leaving at 2 PM?",opts:["The bus","The plane","The taxi","The train"],ans:"The train",hint:"هذا الاسم المذكر مرتبط بالسحب والجذب."},
+        {type:"mc",q:"ماذا تعني 'Entschuldigung'؟",opts:["عفوًا","شكرًا","وداعًا","Hello"],ans:"عفوًا",hint:"فكر في كيف تجذب انتباه شخص في الشارع."},
+        {type:"mc",q:"'Der Zug fährt um 14 Uhr.' ما الذي يغادر في الساعة الثانية ظهرًا؟",opts:["The bus","The plane","The taxi","The train"],ans:"The train",hint:"هذا الاسم المذكر مرتبط بالسحب والجذب."},
         {type:"teach",trg:"Deutsch",src:"الألمانية (اللغة)",pos:"noun",gender:"n",note:"اسم محايد. يُستخدم كاسم وصفة.\nDeutsch sprechen = يتحدث الألمانية.\nالجنس المحايد (das) لا يوجد بالعربية.",example:"A: Lernst du Deutsch?\nB: Ja, ich lerne Deutsch!",exampleSrc:"A: هل تتعلم الألمانية؟\nB: نعم، أنا أتعلم الألمانية!",funFact:"كلمة Deutsch تأتي من كلمة جرمانية قديمة تعني 'من الشعب'. كانت تميز لغة العامة عن اللاتينية."},
         {type:"teach",trg:"sprechen",src:"يتكلم",pos:"verb",gender:null,note:"فعل شاذ: ich spreche، du sprichst، er spricht.\nحرف e يتحول إلى i في صيغتي du و er/sie/es.",example:"A: Sprechen Sie Deutsch?\nB: Ja, ein bisschen.",exampleSrc:"A: هل تتحدث الألمانية؟\nB: نعم، قليلًا.",funFact:"مرتبطة بالإنجليزية speak. كلاهما من نفس الجذر القديم. احتفظت الألمانية بتجمع الأحرف spr- الذي بسّطته الإنجليزية."},
         {type:"verb_table",title:"sprechen (to speak)",groups:[
             {label:"Present tense (stem change: e → i)",rows:[
-                {pronoun:"ich",form:"spreche",src:"I speak"},
-                {pronoun:"du",form:"sprichst",src:"you speak"},
-                {pronoun:"er/sie/es",form:"spricht",src:"he/she/it speaks"},
-                {pronoun:"wir",form:"sprechen",src:"we speak"},
-                {pronoun:"ihr",form:"sprecht",src:"you all speak"},
-                {pronoun:"sie/Sie",form:"sprechen",src:"they/you (formal) speak"}
+                {pronoun:"ich",form:"spreche",src:"أنا أتكلّم"},
+                {pronoun:"du",form:"sprichst",src:"أنتَ تتكلّم"},
+                {pronoun:"er/sie/es",form:"spricht",src:"هو/هي يتكلّم"},
+                {pronoun:"wir",form:"sprechen",src:"نحن نتكلّم"},
+                {pronoun:"ihr",form:"sprecht",src:"أنتم تتكلّمون"},
+                {pronoun:"sie/Sie",form:"sprechen",src:"هم/حضرتك يتكلّمون"}
               ]}
           ],note:"حركة الجذع e تتحول إلى i في صيغتي du و er/sie/es. نفس النمط: geben، nehmen، essen."},
         {type:"teach",trg:"ein bisschen",src:"قليلًا",pos:"adv",gender:null,note:"تُستخدم لتلطيف العبارات. مفيدة جدًا للمبتدئين!",example:"A: Sprechen Sie Deutsch?\nB: Ja, ein bisschen.",exampleSrc:"A: هل تتحدث الألمانية؟\nB: نعم، قليلًا.",funFact:"كلمة Bisschen تأتي من Biss (عضة). إذن ein bisschen تعني حرفيًا 'عضة صغيرة واحدة'. كمية بحجم لقمة!"},
         {type:"fb",s:"Sprechen Sie {1}?",a:["Deutsch"],opts:["Deutsch","Hamburg","Zug","Entschuldigung"],hint:"عن أي لغة تسأل في هذه الجملة؟",sSrc:"هل تتحدث الألمانية؟"},
-        {type:"mc",q:"Verumius says 'Ich spreche ein bisschen Deutsch.' What does this mean?",opts:["I speak a little German","I speak perfect German","I don't speak German","I want to learn German"],ans:"I speak a little German",hint:"هذا التعبير يعني كمية صغيرة بحجم لقمة."},
+        {type:"mc",q:"يقول Verumius: 'Ich spreche ein bisschen Deutsch.' ماذا يعني هذا؟",opts:["I speak a little German","I speak perfect German","I don't speak German","I want to learn German"],ans:"I speak a little German",hint:"هذا التعبير يعني كمية صغيرة بحجم لقمة."},
         {type:"teach",trg:"der Bahnhof",src:"محطة القطار",pos:"noun",gender:"m",note:"اسم مذكر مركب: Bahn (سكة) + Hof (ساحة).\nمثل الإضافة بالعربية: 'ساحة السكة'.",example:"A: Wo ist der Bahnhof?\nB: Der Bahnhof ist dort drüben.",exampleSrc:"A: أين محطة القطار؟\nB: محطة القطار هناك.",funFact:"الألمان يعشقون الأسماء المركبة. Bahnhof = ساحة السكة. Hauptbahnhof = ساحة السكة الرئيسية.\nمثل الإضافة بالعربية: محطة القطار الرئيسية."},
         {type:"teach",trg:"das Taxi",src:"سيارة الأجرة",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Taxis.\nنفس الكلمة في معظم اللغات: تاكسي.",example:"A: Nehmen wir ein Taxi?\nB: Nein, ich fahre mit dem Zug.",exampleSrc:"A: هل نأخذ سيارة أجرة؟\nB: لا، سأذهب بالقطار.",funFact:"كلمة Taxi عالمية. تأتي من taximeter، جهاز يقيس المسافة ويحسب الأجرة. اختُرع في ألمانيا عام ١٨٩١."},
         {type:"teach",trg:"nach",src:"إلى (مدينة أو بلد)",pos:"prep",gender:null,note:"تُستخدم مع أسماء المدن والبلدان. مثال: Ich fahre nach Berlin.\nمثل 'إلى' بالعربية.",example:"A: Wohin fährst du?\nB: Ich fahre nach Deutschland.",exampleSrc:"A: إلى أين أنت ذاهب؟\nB: أنا ذاهب إلى ألمانيا.",funFact:"Nach من الكلمات الألمانية الصغيرة ذات القوة الكبيرة. تعني 'إلى' (nach Berlin)، 'بعد' (nach dem Essen)، وحتى 'حسب' (nach meiner Meinung). السياق يحدد المعنى."},
-        {type:"mc",q:"Verumius says 'Ich fahre nach Berlin.' What does 'nach' mean here?",opts:["to / toward","away from","inside of","together with"],ans:"to / toward",hint:"هو مسافر في اتجاه العاصمة الألمانية."},
+        {type:"mc",q:"يقول Verumius: 'Ich fahre nach Berlin.' ماذا تعني 'nach' هنا؟",opts:["to / toward","away from","inside of","together with"],ans:"to / toward",hint:"هو مسافر في اتجاه العاصمة الألمانية."},
         {type:"fb",s:"Ich fahre {1} Hamburg.",a:["nach"],opts:["nach","in","von","mit"],hint:"أي حرف جر يعني 'إلى' عند الحديث عن السفر لمدينة؟",sSrc:"أنا ذاهب إلى هامبورغ."},
-        {type:"mc",q:"Which word means 'the train station' in German?",opts:["der Bahnhof","der Zug","der Ausgang","das Gleis"],ans:"der Bahnhof",hint:"هذا الاسم المركب يسمي مكانًا تلتقي فيه السكك."},
+        {type:"mc",q:"أيّ كلمة تعني 'محطة القطار' بالألمانية؟",opts:["der Bahnhof","der Zug","der Ausgang","das Gleis"],ans:"der Bahnhof",hint:"هذا الاسم المركب يسمي مكانًا تلتقي فيه السكك."},
         {type:"match",pairs:[
-            {trg:"Hallo",src:"Hello"},
-            {trg:"Entschuldigung",src:"Excuse me"},
-            {trg:"der Zug",src:"the train"},
-            {trg:"sprechen",src:"to speak"},
-            {trg:"der Bahnhof",src:"the train station"},
-            {trg:"ein bisschen",src:"a little bit"}
+            {trg:"Hallo",src:"مرحبًا"},
+            {trg:"Entschuldigung",src:"عفوًا"},
+            {trg:"der Zug",src:"القطار"},
+            {trg:"sprechen",src:"يتكلّم"},
+            {trg:"der Bahnhof",src:"محطة القطار"},
+            {trg:"ein bisschen",src:"قليلًا"}
           ]},
         {type:"story",speaker:"narrator",mood:"determined",art:"de-ber-ticket-machine",trg:"Verumius steht vor dem Fahrkartenautomat. Alles auf Deutsch. Er drückt Knöpfe. Ein Ticket kommt heraus. Berlin Hauptbahnhof. Gut. Oder?",src:"يقف فيروميوس أمام آلة التذاكر. كل شيء بالألمانية. يضغط الأزرار. تخرج تذكرة. محطة برلين المركزية. جيد. أو ليس كذلك؟"}
       ]},
@@ -75,18 +75,18 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"Kein Problem",src:"لا مشكلة",pos:"intj",gender:null,note:"رد عفوي على الشكر أو الاعتذار.",example:"A: Entschuldigung, ich bin zu spät!\nB: Kein Problem!",exampleSrc:"A: عذرًا، تأخرت!\nB: لا مشكلة!",funFact:"أكثر طريقة عفوية لرد الشكر. بين الأصدقاء والشباب Kein Problem أو Kein Ding (لا شيء) قياسيان. في المواقف الرسمية التزم بـ Bitte أو Gern geschehen."},
         {type:"teach",trg:"Gern geschehen",src:"على الرحب والسعة",pos:"intj",gender:null,note:"أدفأ وأكثر شخصية من Bitte.\nGern = بسرور. Geschehen = حدث.",example:"A: Danke für deine Hilfe!\nB: Gern geschehen! Das mache ich gern.\nA: Du bist super!",exampleSrc:"A: شكرًا على مساعدتك!\nB: على الرحب والسعة! أفعل ذلك بسرور.\nA: أنت رائع!",funFact:"حرفيًا: 'حدث بسرور'. كأن المعروف حدث من تلقاء نفسه لأنك استمتعت بفعله. من أدفأ طرق الاعتراف بالشكر بالألمانية."},
         {type:"tip",title:"Four Ways to Say You Are Welcome",text:"الألمانية لديها تدرج في الرسمية:\n\nBitte = عفوًا (محايد)\nBitte sehr = عفوًا جدًا (رسمي)\nGern geschehen = على الرحب والسعة (دافئ)\nKein Problem = لا مشكلة (عفوي)\n\nفي المحلات: Bitte أو Bitte sehr.\nمع الأصدقاء: Gern geschehen أو Kein Problem.",deepDive:{title:"Bitte: the most multi-purpose word in German",text:"Bitte من أكثر الكلمات مرونة بالألمانية:\n\n1. من فضلك: !Einen Kaffee, bitte\n2. عفوًا: !Danke! / Bitte\n3. تفضل: (تقديم شيء) Hier, bitte.\n4. عفوًا؟ / ماذا؟ (بنبرة صاعدة): ?Bitte\n5. تفضل: !Bitte (إشارة لشخص ليمر من الباب)\n\nإتقان سياقات bitte يجعلك تبدو أكثر طبيعية فورًا بالألمانية."}},
-        {type:"mc",q:"A waiter hands you a coffee and says 'Bitte schön!' What does this mean here?",opts:["Please order","Thank you","Here you go","Goodbye"],ans:"Here you go",hint:"النادل يقدم لك شيئًا ولا يسأل."},
+        {type:"mc",q:"يناولك النادل قهوة ويقول 'Bitte schön!' ماذا تعني هنا؟",opts:["اطلب من فضلك","شكرًا","تفضّل","وداعًا"],ans:"تفضّل",hint:"النادل يقدم لك شيئًا ولا يسأل."},
         {type:"fb",s:"Vielen {1}!",a:["Dank"],opts:["Dank","Bitte","Tag","Nacht"],hint:"Vielen ___ هي الطريقة الرسمية للتعبير عن الامتنان.",sSrc:"شكرًا جزيلًا!"},
         {type:"match",pairs:[
-            {trg:"Guten Tag",src:"Good day"},
-            {trg:"Tschüss",src:"Bye"},
-            {trg:"Auf Wiedersehen",src:"Goodbye (formal)"},
-            {trg:"Danke schön",src:"Thank you very much"},
-            {trg:"Bitte sehr",src:"You're very welcome"}
+            {trg:"Guten Tag",src:"نهارك سعيد"},
+            {trg:"Tschüss",src:"مع السلامة"},
+            {trg:"Auf Wiedersehen",src:"وداعًا (رسمي)"},
+            {trg:"Danke schön",src:"شكرًا جزيلًا"},
+            {trg:"Bitte sehr",src:"على الرحب والسعة"}
           ]},
-        {type:"mc",q:"You are ending a phone call. Which farewell is specifically for phone conversations?",opts:["Auf Wiederhören","Auf Wiedersehen","Tschüss","Bis bald"],ans:"Auf Wiederhören",hint:"hören تعني يسمع. هذا الوداع عن سماع شخص مجددًا وليس رؤيته."},
+        {type:"mc",q:"أنت تنهي مكالمة هاتفية. أيّ عبارة وداع تُستخدم خصيصًا في المكالمات؟",opts:["Auf Wiederhören","Auf Wiedersehen","Tschüss","Bis bald"],ans:"Auf Wiederhören",hint:"hören تعني يسمع. هذا الوداع عن سماع شخص مجددًا وليس رؤيته."},
         {type:"fb",s:"A: Ich helfe dir gern.\nB: Oh, {1}!",a:["Gern geschehen"],opts:["Gern geschehen","Kein Problem","Bitte","Es tut mir leid"],hint:"أدفأ طريقة لقول 'عفوًا'، حرفيًا تعني 'حدث بسرور'.",sSrc:"A: أنا سعيد بالمساعدة.\nB: أوه، على الرحب والسعة!"},
-        {type:"mc",q:"Someone accidentally bumps into you and says 'Es tut mir leid!' What are they expressing?",opts:["A greeting","An apology","A farewell","Gratitude"],ans:"An apology",hint:"هذه العبارة تعبر عن أن شيئًا يسبب للمتحدث الألم أو الندم."}
+        {type:"mc",q:"اصطدم بك شخص بالخطأ وقال 'Es tut mir leid!' عمّ يعبّر؟",opts:["A greeting","An apology","A farewell","امتنان"],ans:"An apology",hint:"هذه العبارة تعبر عن أن شيئًا يسبب للمتحدث الألم أو الندم."}
       ]},
     {id:"deu_r01l3",title:"Erste Sätze",icon:"💬",xp:10,board:true,steps:[
         {type:"intro",title:"Erste Sätze",desc:"بعد التحيات، تحتاج كلمات للتنقل في المحادثات: نعم، لا، ربما. بالإضافة إلى جملك الألمانية الأولى: تقديم نفسك، وذكر من أين أتيت، وطلب المساعدة.",goals:[
@@ -100,7 +100,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"genau",src:"بالضبط / صحيح / فعلًا",pos:"adv",gender:null,note:"من أكثر كلمات الرد شيوعًا بالألمانية.\nتُستخدم للتأكيد وإظهار أنك تتابع.",example:"A: Also, der Zug fährt um drei?\nB: Genau!\nA: Gut, dann gehen wir.",exampleSrc:"A: إذن القطار يغادر الثالثة؟\nB: بالضبط!\nA: جيد، هيا بنا.",funFact:"الألمان يقولون genau باستمرار في المحادثة. تُشير إلى 'أسمعك، أوافق، تابع'. إذا بدأت باستخدامها ستبدو أكثر طبيعية بالألمانية."},
         {type:"teach",trg:"stimmt",src:"هذا صحيح",pos:"adv",gender:null,note:"من الفعل stimmen (يكون صحيحًا).\n'!Stimmt so' عند الدفع تعني 'احتفظ بالباقي.'",example:"A: Berlin ist die Hauptstadt, oder?\nB: Ja, das stimmt!",exampleSrc:"A: برلين هي العاصمة، صحيح؟\nB: نعم، هذا صحيح!",funFact:"Stimmt تأتي من stimmen التي تعني أيضًا 'يضبط (آلة موسيقية)'. عندما شيء stimmt فهو مضبوط، صحيح. '!Stimmt so' في المطعم تعني احتفظ بالباقي."},
         {type:"teach",trg:"natürlich",src:"بالطبع / طبعًا",pos:"adv",gender:null,note:"من Natur (طبيعة). للتعبير عن شيء واضح أو متفق عليه.",example:"A: Können Sie mir helfen?\nB: Natürlich! Was brauchen Sie?",exampleSrc:"A: هل يمكنك مساعدتي؟\nB: بالطبع! ماذا تحتاج؟",funFact:"Natürlich من Natur + lich (طبيعة + ـيًا). تعمل مثل الإنجليزية naturally تمامًا. الألمان يستخدمون أيضًا klar (واضح) بنفس الطريقة: '!Klar' = بالطبع!"},
-        {type:"mc",q:"Someone asks 'Sprechen Sie Japanisch?' and you don't. What do you say?",opts:["Ja","Nein","Danke","Bitte"],ans:"Nein",hint:"تحتاج كلمة الإجابة السلبية هنا."},
+        {type:"mc",q:"سألك شخص 'Sprechen Sie Japanisch?' وأنت لا تتكلّمها. ماذا تقول؟",opts:["Ja","Nein","Danke","Bitte"],ans:"Nein",hint:"تحتاج كلمة الإجابة السلبية هنا."},
         {type:"teach",trg:"Ich bin...",src:"أنا...",pos:"verb",gender:null,note:"من الفعل sein (يكون). أبسط طريقة لتقديم النفس.",example:"A: Wer sind Sie?\nB: Ich bin Verumius.",exampleSrc:"A: مَن أنت؟\nB: أنا فيروميوس.",funFact:"bin من أكثر الأشكال شذوذًا بالألمانية. تصريف sein: ich bin، du bist، er ist، wir sind، ihr seid، sie sind. تقريبًا كل شكل مختلف!"},
         {type:"teach",trg:"Wie heißen Sie?",src:"ما اسمك؟ (رسمي)",pos:"intj",gender:null,note:"حرفيًا: 'كيف تُسمى؟' تستخدم صيغة الاحترام Sie.",example:"A: Guten Tag! Wie heißen Sie?\nB: Ich heiße Anna. Und Sie?",exampleSrc:"A: نهارك سعيد! ما اسمك؟\nB: اسمي آنا. وأنت؟",funFact:"heißen تعني حرفيًا 'يُسمى'. الألمان لا 'يملكون' اسمًا بل 'يُسمون' به. الصيغة غير الرسمية: '?Wie heißt du'"},
         {type:"tip",title:"heißen: The Name Verb",text:"heißen تعني 'يُسمى' وتستخدم جذعًا خاصًا:\n\nich heiße (أُسمى)\ndu heißt (تُسمى، غير رسمي)\nSie heißen (تُسمى، رسمي)\ner/sie heißt (يُسمى/تُسمى)\n\nملاحظة: du heißt بلا e- إضافية لأن الجذع ينتهي بـ ß.",deepDive:{title:"Why heißen instead of haben?",text:"بالألمانية أنت لا 'تملك' اسمًا بل 'تُسمى' به. هذا يتطابق مع الهولندية (heten) والسويدية (heta). الفعل heißen يعني أيضًا 'يعني': ?Was heißt das (ماذا يعني هذا؟). فعل واحد ووظيفتان. بالعربية أيضًا نقول اسمي... (ملكية) أو يُدعى... (مبني للمجهول) — نفس التنوع!"}},
@@ -108,10 +108,10 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"tip",title:"Ich heiße vs Mein Name ist",text:"كلاهما يعني 'اسمي'، لكن النبرة تختلف:\n\nIch heiße [Name] = أُسمى [الاسم] (محايد، أي موقف)\nMein Name ist [Name] = اسمي [الاسم] (أكثر رسمية قليلًا)\nIch bin [Name] = أنا [الاسم] (عفوي جدًا)\n\nفي مقابلة عمل: Mein Name ist.\nمع زميل جديد: Ich bin أو Ich heiße.",deepDive:{title:"Academic and professional titles in German",text:"الألمان يستخدمون الألقاب بعناية. إذا كان شخص لديه دكتوراه يُخاطب بـ Herr Doktor Fischer أو Frau Doktor Mueller. الأساتذة يحتفظون بلقبهم دائمًا.\n\nفي الرسائل الرسمية والاجتماعات قد ترى:\nHerr Prof. Dr. Mueller\nFrau Dr. Schneider\n\nحذف اللقب عند مخاطبة شخص كهذا قد يُعتبر عدم احترام. عند الشك استخدم اللقب."}},
         {type:"teach",trg:"Woher kommen Sie?",src:"من أين أنت؟ (رسمي)",pos:"intj",gender:null,note:"Woher = من أين. Kommen = يأتي. Sie = حضرتك (رسمي).",example:"A: Woher kommen Sie?\nB: Ich komme aus Italien.",exampleSrc:"A: من أين أنت؟\nB: أنا من إيطاليا.",funFact:"Woher تنقسم إلى wo (أين) + her (من/نحو المتحدث). الألمانية لديها أيضًا wohin: wo + hin (إلى/بعيدًا عن المتحدث). الاتجاه مهم!"},
         {type:"teach",trg:"Deutschland",src:"ألمانيا",pos:"noun",gender:"n",note:"اسم محايد: das Deutschland. لا حاجة للجمع.",example:"A: Wo sind wir?\nB: Wir sind in Deutschland!",exampleSrc:"A: أين نحن؟\nB: نحن في ألمانيا!",funFact:"كل لغة لديها اسم مختلف لألمانيا. بالفرنسية: Allemagne. بالإيطالية: Germania. بالفنلندية: Saksa. بالبولندية: Niemcy. الألمان يسمون أنفسهم Deutsche من كلمة قديمة تعني 'الشعب'."},
-        {type:"mc",q:"Verumius says 'Ich komme aus Italien.' Where is he from?",opts:["Germany","France","Italy","Spain"],ans:"Italy",hint:"كلمة Italien تشبه جدًا مقابلها بالإنجليزية."},
+        {type:"mc",q:"يقول Verumius: 'Ich komme aus Italien.' من أين هو؟",opts:["ألمانيا","فرنسا","Italy","Spain"],ans:"Italy",hint:"كلمة Italien تشبه جدًا مقابلها بالإنجليزية."},
         {type:"teach",trg:"Ich verstehe nicht",src:"لا أفهم",pos:"verb",gender:null,note:"verstehen = يفهم. nicht = لا/ليس.",example:"A: Der Zug fährt von Gleis siebzehn.\nB: Entschuldigung, ich verstehe nicht.",exampleSrc:"A: القطار يغادر من الرصيف سبعة عشر.\nB: عذرًا، لا أفهم.",funFact:"ستستخدم هذه العبارة كثيرًا كمبتدئ. verstehen تعني حرفيًا 'يقف أمام' شيء، كأنك تقف أمام فكرة حتى تفهمها."},
         {type:"teach",trg:"wiederholen",src:"يُعيد / يُكرر",pos:"verb",gender:null,note:"طلب رسمي: ?Können Sie das bitte wiederholen",example:"A: Ich verstehe nicht. Können Sie das wiederholen?\nB: Natürlich! Der Zug fährt um neun.",exampleSrc:"A: لا أفهم. هل يمكنك إعادة ذلك؟\nB: بالطبع! القطار يغادر الساعة التاسعة.",funFact:"Wieder (مجددًا) + holen (يجلب). الإعادة هي 'الجلب مجددًا'. الألمان يبنون المعاني بتكديس كلمات بسيطة."},
-        {type:"mc",q:"You didn't catch what someone said. Which phrase asks them to say it again?",opts:[
+        {type:"mc",q:"لم تسمع ما قاله شخص ما. أيّ عبارة تطلب منه الإعادة؟",opts:[
             "Ich bin Verumius, freut mich.",
             "Woher kommen Sie eigentlich?",
             "Können Sie das wiederholen?",
@@ -121,36 +121,36 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"gehen",src:"يمشي / يذهب (سيرًا)",pos:"verb",gender:null,note:"مضارع منتظم: ich gehe، du gehst، er geht.",example:"A: Ich muss gehen. Tschüss!\nB: Tschüss! Bis morgen!",exampleSrc:"A: يجب أن أذهب. مع السلامة!\nB: مع السلامة! أراك غدًا!",funFact:"Wie geht es Ihnen? تعني حرفيًا 'كيف يسير الأمر لك؟' من أول الأفعال التي يحتاجها كل متعلم للألمانية."},
         {type:"verb_table",title:"gehen (to go on foot)",groups:[
             {label:"Present tense (regular)",rows:[
-                {pronoun:"ich",form:"gehe",src:"I go"},
-                {pronoun:"du",form:"gehst",src:"you go"},
-                {pronoun:"er/sie/es",form:"geht",src:"he/she/it goes"},
-                {pronoun:"wir",form:"gehen",src:"we go"},
-                {pronoun:"ihr",form:"geht",src:"you all go"},
-                {pronoun:"sie/Sie",form:"gehen",src:"they/you (formal) go"}
+                {pronoun:"ich",form:"gehe",src:"أنا أذهب"},
+                {pronoun:"du",form:"gehst",src:"أنتَ تذهب"},
+                {pronoun:"er/sie/es",form:"geht",src:"هو/هي يذهب"},
+                {pronoun:"wir",form:"gehen",src:"نحن نذهب"},
+                {pronoun:"ihr",form:"geht",src:"أنتم تذهبون"},
+                {pronoun:"sie/Sie",form:"gehen",src:"هم/حضرتك يذهبون"}
               ]}
           ],note:"منتظم في المضارع. ?Wie geht es Ihnen = كيف حالك؟"},
         {type:"teach",trg:"sagen",src:"يقول / يُخبر",pos:"verb",gender:null,note:"منتظم: ich sage، du sagst، er sagt.",example:"A: Was sagt er?\nB: Er sagt 'Guten Tag!'",exampleSrc:"A: ماذا يقول؟\nB: يقول 'نهارك سعيد!'",funFact:"ستجد sagt باستمرار في النصوص الألمانية. '...Verumius sagt' = فيروميوس يقول... كلمة سردية أساسية."},
         {type:"teach",trg:"machen",src:"يفعل / يصنع",pos:"verb",gender:null,note:"منتظم: ich mache، du machst، er macht.",example:"A: Was machst du?\nB: Ich mache meine Hausaufgaben.",exampleSrc:"A: ماذا تفعل؟\nB: أنا أعمل واجبي المنزلي.",funFact:"من أكثر الأفعال الألمانية تنوعًا. Das macht nichts = لا يهم. Das macht Spaß = هذا ممتع. '!Mach's gut' = اعتنِ بنفسك!"},
         {type:"verb_table",title:"machen (to make/do)",groups:[
             {label:"Present tense (regular)",rows:[
-                {pronoun:"ich",form:"mache",src:"I do/make"},
-                {pronoun:"du",form:"machst",src:"you do/make"},
-                {pronoun:"er/sie/es",form:"macht",src:"he/she/it does/makes"},
-                {pronoun:"wir",form:"machen",src:"we do/make"},
-                {pronoun:"ihr",form:"macht",src:"you all do/make"},
-                {pronoun:"sie/Sie",form:"machen",src:"they/you (formal) do/make"}
+                {pronoun:"ich",form:"mache",src:"أنا أفعل/أصنع"},
+                {pronoun:"du",form:"machst",src:"أنتَ تفعل/تصنع"},
+                {pronoun:"er/sie/es",form:"macht",src:"هو/هي يفعل/يصنع"},
+                {pronoun:"wir",form:"machen",src:"نحن نفعل/نصنع"},
+                {pronoun:"ihr",form:"macht",src:"أنتم تفعلون/تصنعون"},
+                {pronoun:"sie/Sie",form:"machen",src:"هم/حضرتك يفعلون/يصنعون"}
               ]}
           ],note:"منتظم. Das macht nichts = لا يهم."},
         {type:"teach",trg:"etwas",src:"شيء ما / قليل",pos:"pron",gender:null,note:"تُستخدم في كل مكان: Ich möchte etwas trinken = أريد أن أشرب شيئًا.",example:"A: Möchtest du etwas essen?\nB: Ja, etwas Brot bitte.",exampleSrc:"A: هل تريد شيئًا لتأكله؟\nB: نعم، بعض الخبز من فضلك.",funFact:"Etwas يمكن أن تعني 'شيء ما' أو 'قليل'. Etwas Wasser = بعض الماء. Etwas Neues = شيء جديد."},
         {type:"match",pairs:[
-            {trg:"Guten Tag",src:"Good day"},
-            {trg:"Tschüss",src:"Bye"},
-            {trg:"Danke",src:"Thank you"},
-            {trg:"Bitte",src:"Please"},
-            {trg:"Ich bin...",src:"I am..."},
-            {trg:"Wie heißen Sie?",src:"What is your name?"},
-            {trg:"Deutschland",src:"Germany"},
-            {trg:"gehen",src:"to go"}
+            {trg:"Guten Tag",src:"نهارك سعيد"},
+            {trg:"Tschüss",src:"مع السلامة"},
+            {trg:"Danke",src:"شكرًا"},
+            {trg:"Bitte",src:"من فضلك"},
+            {trg:"Ich bin...",src:"أنا..."},
+            {trg:"Wie heißen Sie?",src:"ما اسمك؟"},
+            {trg:"Deutschland",src:"ألمانيا"},
+            {trg:"gehen",src:"يذهب"}
           ]},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ber-departures",trg:"Danke! Tschüss! Verumius geht zum Gleis. Er hat ein Ticket. Er kann Danke sagen. Das ist ein Anfang.",src:"شكرًا! مع السلامة! يمشي فيروميوس إلى الرصيف. لديه تذكرة. يستطيع أن يقول شكرًا. هذه بداية."}
       ]},
@@ -168,16 +168,16 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",speaker:"yilmaz",trg:"wann",src:"متى",pos:"adv",gender:null,note:"تسأل عن الزمن. توقع وقتًا أو يومًا كإجابة.",example:"A: Wann kommst du?\nB: Ich komme um drei Uhr.",exampleSrc:"A: متى ستأتي؟\nB: سآتي الساعة الثالثة.",funFact:"الإنجليزية when والألمانية wann نفس الكلمة بإملاء مختلف. كلاهما من الجرمانية البدائية hwannai. أنت تعرف هذه بالفعل!"},
         {type:"teach",speaker:"yilmaz",trg:"wie",src:"كيف",pos:"adv",gender:null,note:"تسأل عن الطريقة أو الحالة أو الأسلوب.",example:"A: Wie geht es Ihnen?\nB: Gut, danke! Und Ihnen?",exampleSrc:"A: كيف حالك؟\nB: بخير، شكرًا! وأنت؟",funFact:"Wie heißen Sie? تسأل حرفيًا 'كيف تُسمى؟' وليس 'ما اسمك؟' الألمانية تستخدم wie (كيف) حيث تستخدم الإنجليزية what (ماذا) في عبارات كثيرة."},
         {type:"tip",title:"W-Question Word Order",text:"أسئلة W الألمانية تتبع نمطًا صارمًا:\n\nكلمة W + فعل + فاعل + باقي\n\n?Wo wohnst du (أين تسكن؟)\n?Was machst du (ماذا تفعل؟)\n?Wann kommst du (متى تأتي؟)\n\nالفعل دائمًا في الموقع ٢.\nالفاعل ينزلق للموقع ٣.\nهذا يُسمى ترتيب V2. بالعربية ترتيب الجملة أكثر مرونة، لكن بالألمانية الفعل مقفل في الموقع الثاني دائمًا."},
-        {type:"mc",q:"You want to ask about someone's location. Which W-word fits?",opts:["wo","wann","wer","wie"],ans:"wo",hint:"هذه الكلمة تسأل عن موقع ثابت."},
+        {type:"mc",q:"تريد السؤال عن مكان شخص ما. أيّ كلمة استفهام تناسب؟",opts:["wo","wann","wer","wie"],ans:"wo",hint:"هذه الكلمة تسأل عن موقع ثابت."},
         {type:"fb",s:"{1} fährt der Zug? Um 14 Uhr.",a:["Wann"],opts:["Wann","Wo","Wer","Was"],hint:"الجواب وقت، إذن السؤال يسأل عن التوقيت.",sSrc:"متى يغادر القطار؟ الساعة الثانية ظهرًا."},
-        {type:"mc",q:"'Wohin gehst du?' asks about your ___.",opts:["hometown origin","full name","arrival time","destination"],ans:"destination",hint:"hin تشير إلى حركة بعيدًا عن المتحدث."},
+        {type:"mc",q:"'Wohin gehst du?' يسأل عن ___ الخاص بك.",opts:["hometown origin","full name","arrival time","destination"],ans:"destination",hint:"hin تشير إلى حركة بعيدًا عن المتحدث."},
         {type:"fb",s:"{1} kommst du? Aus Italien.",a:["Woher"],opts:["Woher","Wohin","Wo","Wann"],hint:"الجواب يذكر بلد المنشأ، إذن السؤال يسأل عن المصدر.",sSrc:"من أين أنت؟ من إيطاليا."},
         {type:"teach",trg:"die Fahrkarte",src:"التذكرة",pos:"noun",gender:"f",note:"اسم مؤنث. Fahrt (رحلة) + Karte (بطاقة) = بطاقة سفر. مثل الإضافة بالعربية.",example:"A: Haben Sie Ihre Fahrkarte?\nB: Ja, hier bitte!",exampleSrc:"A: هل معك تذكرتك؟\nB: نعم، تفضل!",funFact:"الألمان يركبون Fahrt (رحلة) + Karte (بطاقة) في كلمة واحدة. Fahrkarte حرفيًا 'بطاقة رحلة'. يمكنك قول Ticket بالألمانية الحديثة لكن Fahrkarte هي المصطلح الرسمي لـ Deutsche Bahn."},
         {type:"story",speaker:"narrator",mood:"nervous",art:"de-ice-inspector",trg:"Der Schaffner kommt. Ein großer Mann mit Uniform und strengem Blick.",src:"يصل مفتش التذاكر. رجل طويل بزي رسمي ونظرة صارمة."},
         {type:"story",speaker:"inspector",trg:"Fahrkarte, bitte!",src:"التذكرة من فضلك!"},
         {type:"story",speaker:"verumius",trg:"Hier, bitte! ...Moment. Hier steht Berlin. Aber Sie sagten, der Zug fährt nach Hamburg?",src:"تفضل! ...لحظة. هنا مكتوب برلين. لكنك قلتِ القطار يذهب إلى هامبورغ؟"},
         {type:"story",speaker:"yilmaz",trg:"Oh. Du bist im falschen Zug, Verumius.",src:"أوه. أنت في القطار الخطأ يا فيروميوس."},
-        {type:"mc",q:"What does the ticket inspector say when he arrives?",opts:["Wohin fahren Sie?","Guten Morgen!","Fahrkarte, bitte!","Wie heißen Sie?"],ans:"Fahrkarte, bitte!",hint:"يحتاج أن يرى وثيقة سفر محددة."}
+        {type:"mc",q:"ماذا يقول مفتّش التذاكر عند وصوله؟",opts:["Wohin fahren Sie?","Guten Morgen!","Fahrkarte, bitte!","Wie heißen Sie?"],ans:"Fahrkarte, bitte!",hint:"يحتاج أن يرى وثيقة سفر محددة."}
       ]},
     {id:"deu_r01l5",title:"Ich bin, du bist",icon:"🔤",xp:15,board:true,steps:[
         {type:"intro",title:"Ich bin, du bist, er ist",desc:"أهم فعلين في أي لغة: يكون ويملك. أتقن sein و haben وستستطيع وصف أي شيء تقريبًا.",goals:[
@@ -189,9 +189,9 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"story",speaker:"yilmaz",mood:"encouraging",art:"de-ice-window",trg:"Gut. Du kannst schon Hallo sagen. Jetzt lernst du das wichtigste Verb: sein. Ich bin, du bist, er ist. Drei Wörter, und du kannst alles beschreiben.",src:"جيد. أنت تستطيع بالفعل إلقاء التحية. الآن ستتعلم أهم فعل: يكون. أنا، أنت، هو. ثلاث كلمات وتستطيع وصف كل شيء."},
         {type:"verb_table",title:"sein (to be)",groups:[
             {label:"Singular",rows:[
-                {pronoun:"ich",form:"bin",src:"I am"},
-                {pronoun:"du",form:"bist",src:"you are (informal)"},
-                {pronoun:"er/sie/es",form:"ist",src:"he/she/it is"}
+                {pronoun:"ich",form:"bin",src:"أنا أكون"},
+                {pronoun:"du",form:"bist",src:"أنتَ تكون"},
+                {pronoun:"er/sie/es",form:"ist",src:"هو/هي يكون"}
               ]},
             {label:"Plural",rows:[
                 {pronoun:"wir",form:"sind",src:"we are"},
@@ -202,9 +202,9 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
           ],note:"ich bin فريد. bist و ist و seid لا مثيل لها. مثل فعل كان بالعربية الذي يتغير شكله تمامًا: كنتُ، كنتَ، كانوا.\nSie sind (رسمي) و sie sind (هم) نفس الشكل. السياق يميز بينهما.",deepDive:{title:"Why is sein so irregular?",text:"sein يدمج ثلاثة أفعال جرمانية بدائية قديمة. الأشكال bin و bist تأتي من beunan*. الأشكال ist و sind تأتي من sinunan*. الماضي war يأتي من wesanan*. الإنجليزية مرت بنفس الدمج: be و am و is و are و was و were كلها من أفعال جذرية مختلفة. هذه الأفعال كانت مستخدمة بكثرة لدرجة أن المتحدثين لم يستبدلوها أبدًا."}},
         {type:"verb_table",title:"haben (to have)",groups:[
             {label:"Singular",rows:[
-                {pronoun:"ich",form:"habe",src:"I have"},
-                {pronoun:"du",form:"hast",src:"you have (informal)"},
-                {pronoun:"er/sie/es",form:"hat",src:"he/she/it has"}
+                {pronoun:"ich",form:"habe",src:"أنا أملك"},
+                {pronoun:"du",form:"hast",src:"أنتَ تملك"},
+                {pronoun:"er/sie/es",form:"hat",src:"هو/هي يملك"}
               ]},
             {label:"Plural",rows:[
                 {pronoun:"wir",form:"haben",src:"we have"},
@@ -217,54 +217,54 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"Sie",src:"حضرتك (صيغة الاحترام)",pos:"pron",gender:null,note:"تُكتب دائمًا بحرف كبير. تُستخدم مع الغرباء والرؤساء والمسؤولين وكبار السن.",example:"A: Sind Sie Herr Müller?\nB: Ja, ich bin Herr Müller.",exampleSrc:"A: هل أنت السيد مولر؟\nB: نعم، أنا السيد مولر.",funFact:"الفرق بين du و Sie جدي. استخدام du مع رئيسك بدون دعوة خطأ اجتماعي. الرئيس يقرر متى يتحول. هذه اللحظة تُسمى das Duzen anbieten."},
         {type:"tip",title:"Du or Sie?",text:"استخدم du مع:\n- الأصدقاء والعائلة\n- الأطفال والمراهقين\n- زملاء الدراسة\n- من يعرضها عليك\n\nاستخدم Sie مع:\n- الغرباء فوق ~١٦\n- المسؤولين والشرطة والأطباء\n- رئيسك (حتى يعرض du)\n- خدمة العملاء\n\nعند الشك استخدم Sie. الأكثر رسمية دائمًا أأمن. مثل العربية: أنت (عادي) مقابل حضرتك/سيادتك (رسمي).",deepDive:{title:"The Duzen ritual",text:"عندما يقرر متحدثان ألمانيان التحول من Sie إلى du يُسمى sich duzen. شخص يعرض رسميًا: '?Können wir uns duzen' (هل نستخدم du مع بعض؟)\n\nفي ألمانيا الحديثة عالم التكنولوجيا والشركات الناشئة أسقط Sie داخليًا إلى حد كبير.\n\nللمتعلمين: ابدأ دائمًا بـ Sie في السياقات الرسمية واتبع قيادة الناطق الأصلي."}},
         {type:"tip",title:"du / ihr / Sie: Three Ways to Say You",text:"الألمانية لديها ثلاث طرق لمخاطبة الناس:\n\ndu = شخص واحد، غير رسمي (أصدقاء، عائلة)\nihr = شخصان أو أكثر، غير رسمي (أنتم)\nSie = شخص أو أكثر، رسمي (غرباء، رؤساء)\n\nصيغ الفعل:\ndu bist, ihr seid, Sie sind\ndu hast, ihr habt, Sie haben",deepDive:{title:"When did German start using Sie as a formal pronoun?",text:"صيغة الاحترام Sie تأتي من ثقافة البلاط في القرن ١٧. كانت أصلًا ضمير الغائبين (sie = هم) مستخدمة كتشريف مُبعّد كأنك تخاطب ملوكًا كمجموعة. الفرنسية مرت بعملية مشابهة مع vous. الإنجليزية كان لديها thou (غير رسمي) مقابل you (رسمي) لكنها دمجتهما. الألمانية حافظت على التمييز."}},
-        {type:"mc",q:"How do you say 'I am Verumius' in German?",opts:["Ich bist Verumius","Ich ist Verumius","Ich bin Verumius","Ich sind Verumius"],ans:"Ich bin Verumius",hint:"طابق الضمير ich مع شكل sein الصحيح."},
+        {type:"mc",q:"كيف تقول 'أنا Verumius' بالألمانية؟",opts:["Ich bist Verumius","Ich ist Verumius","Ich bin Verumius","Ich sind Verumius"],ans:"Ich bin Verumius",hint:"طابق الضمير ich مع شكل sein الصحيح."},
         {type:"fb",s:"Du {1} im falschen Zug!",a:["bist"],opts:["bist","bin","ist","sind"],hint:"أي شكل من sein يناسب الضمير du؟",sSrc:"أنت في القطار الخطأ!"},
-        {type:"mc",q:"'Wir ___ Studenten.' Fill in the correct form of sein.",opts:["bin","sind","bist","ist"],ans:"sind",hint:"الضمير wir يحتاج نفس شكل sie (هم)."},
+        {type:"mc",q:"'Wir ___ Studenten.' املأ بالصيغة الصحيحة من sein.",opts:["bin","sind","bist","ist"],ans:"sind",hint:"الضمير wir يحتاج نفس شكل sie (هم)."},
         {type:"fb",s:"Er {1} eine Fahrkarte nach Berlin.",a:["hat"],opts:["hat","hast","habe","haben"],hint:"أي شكل من haben يناسب er؟",sSrc:"لديه تذكرة إلى برلين."},
-        {type:"mc",q:"'Ich ___ einen Koffer.' Which verb form completes this?",opts:["hast","hat","haben","habe"],ans:"habe",hint:"المتكلم المفرد ينتهي دائمًا بـ e-."},
+        {type:"mc",q:"'Ich ___ einen Koffer.' أيّ صيغة فعل تكمل الجملة؟",opts:["hast","hat","haben","habe"],ans:"habe",hint:"المتكلم المفرد ينتهي دائمًا بـ e-."},
         {type:"tip",title:"Verb in Position 2 (V2 Rule)",text:"في الجمل الألمانية الفعل المصرّف دائمًا في الموقع الثاني.\n\nIch bin Verumius. (أنا فيروميوس.)\nHeute bin ich müde. (اليوم أنا متعب.)\nIn Berlin wohne ich. (في برلين أسكن.)\n\nمهما بدأ الجملة الفعل يبقى في الموقع ٢.\nالفاعل يتحرك حول الفعل ليفسح المجال."},
         {type:"teach",trg:"kommen",src:"يأتي",pos:"verb",gender:null,note:"فعل منتظم. يتبع النمط القياسي: -e، -st، -t، -en، -t، -en.",example:"A: Woher kommen Sie?\nB: Ich komme aus der Schweiz.",exampleSrc:"A: من أين أنت؟\nB: أنا من سويسرا.",funFact:"kommen والإنجليزية come نفس الكلمة القديمة. كلاهما من الجرمانية البدائية kwemana. الألمانية أضافت حرف m إضافي. النطق بالكاد تغير في ٢٠٠٠ سنة."},
         {type:"verb_table",title:"kommen (to come)",groups:[
             {label:"Present tense (regular)",rows:[
-                {pronoun:"ich",form:"komme",src:"I come"},
-                {pronoun:"du",form:"kommst",src:"you come"},
-                {pronoun:"er/sie/es",form:"kommt",src:"he/she/it comes"},
-                {pronoun:"wir",form:"kommen",src:"we come"},
-                {pronoun:"ihr",form:"kommt",src:"you all come"},
-                {pronoun:"sie/Sie",form:"kommen",src:"they/you (formal) come"}
+                {pronoun:"ich",form:"komme",src:"أنا آتي"},
+                {pronoun:"du",form:"kommst",src:"أنتَ تأتي"},
+                {pronoun:"er/sie/es",form:"kommt",src:"هو/هي يأتي"},
+                {pronoun:"wir",form:"kommen",src:"نحن نأتي"},
+                {pronoun:"ihr",form:"kommt",src:"أنتم تأتون"},
+                {pronoun:"sie/Sie",form:"kommen",src:"هم/حضرتك يأتون"}
               ]}
           ],note:"تصريف منتظم. ?Woher kommen Sie = من أين أنت؟"},
         {type:"teach",trg:"lernen",src:"يتعلم",pos:"verb",gender:null,note:"منتظم: ich lerne، du lernst، er lernt، wir lernen.",example:"A: Was lernst du?\nB: Ich lerne Deutsch!",exampleSrc:"A: ماذا تتعلم؟\nB: أتعلم الألمانية!",funFact:"lernen والإنجليزية learn توأمان. lehren (يعلّم) ابن العم. Lehrer = معلم. Lehrling = متدرب، شخص لا يزال يتعلم."},
         {type:"verb_table",title:"lernen (to learn)",groups:[
             {label:"Present tense (regular)",rows:[
-                {pronoun:"ich",form:"lerne",src:"I learn"},
-                {pronoun:"du",form:"lernst",src:"you learn"},
-                {pronoun:"er/sie/es",form:"lernt",src:"he/she/it learns"},
-                {pronoun:"wir",form:"lernen",src:"we learn"},
-                {pronoun:"ihr",form:"lernt",src:"you all learn"},
-                {pronoun:"sie/Sie",form:"lernen",src:"they/you (formal) learn"}
+                {pronoun:"ich",form:"lerne",src:"أنا أتعلّم"},
+                {pronoun:"du",form:"lernst",src:"أنتَ تتعلّم"},
+                {pronoun:"er/sie/es",form:"lernt",src:"هو/هي يتعلّم"},
+                {pronoun:"wir",form:"lernen",src:"نحن نتعلّم"},
+                {pronoun:"ihr",form:"lernt",src:"أنتم تتعلّمون"},
+                {pronoun:"sie/Sie",form:"lernen",src:"هم/حضرتك يتعلّمون"}
               ]}
           ],note:"نمط منتظم: جذع + e-، st-، t-، en-، t-، en-. نفسه لـ: wohnen، kaufen، spielen، kochen."},
         {type:"teach",trg:"wohnen",src:"يعيش / يسكن",pos:"verb",gender:null,note:"منتظم: ich wohne، du wohnst، er wohnt، wir wohnen.",example:"A: Wo wohnst du?\nB: Ich wohne in München.",exampleSrc:"A: أين تسكن؟\nB: أسكن في ميونخ.",funFact:"wohnen تعني يقيم في مكان. leben تعني يحيا. الألمان يقولون Ich wohne in Berlin (أقيم في برلين) لكن Ich lebe gern (أستمتع بالحياة). مفهومان مختلفان!"},
         {type:"verb_table",title:"wohnen (to live/reside)",groups:[
             {label:"Present tense (regular)",rows:[
-                {pronoun:"ich",form:"wohne",src:"I live"},
-                {pronoun:"du",form:"wohnst",src:"you live"},
-                {pronoun:"er/sie/es",form:"wohnt",src:"he/she/it lives"},
-                {pronoun:"wir",form:"wohnen",src:"we live"},
-                {pronoun:"ihr",form:"wohnt",src:"you all live"},
-                {pronoun:"sie/Sie",form:"wohnen",src:"they/you (formal) live"}
+                {pronoun:"ich",form:"wohne",src:"أنا أسكن"},
+                {pronoun:"du",form:"wohnst",src:"أنتَ تسكن"},
+                {pronoun:"er/sie/es",form:"wohnt",src:"هو/هي يسكن"},
+                {pronoun:"wir",form:"wohnen",src:"نحن نسكن"},
+                {pronoun:"ihr",form:"wohnt",src:"أنتم تسكنون"},
+                {pronoun:"sie/Sie",form:"wohnen",src:"هم/حضرتك يسكنون"}
               ]}
           ],note:"نمط منتظم. ?Wo wohnen Sie = أين تسكن؟"},
         {type:"tip",title:"Regular Verb Endings",text:"أزل en- من المصدر للحصول على الجذع ثم أضف:\n\nich: e- (ich komme)\ndu: st- (du kommst)\ner/sie/es: t- (er kommt)\nwir: en- (wir kommen)\nihr: t- (ihr kommt)\nsie/Sie: en- (sie kommen)\n\nهذا النمط يعمل لمعظم الأفعال الألمانية.\nsein و haben الاستثناءان الكبيران. هذا النمط يشبه أوزان الأفعال العربية: كل فعل له جذع ونهايات تتغير حسب الفاعل."},
         {type:"fb",s:"Woher {1} Sie?",a:["kommen"],opts:["kommen","kommst","komme","kommt"],hint:"صيغة الاحترام Sie تستخدم نفس نهاية wir و sie (هم).",sSrc:"من أين أنت؟"},
-        {type:"mc",q:"'Du ___ in Hamburg.' Which form of wohnen is correct?",opts:["wohnst","wohne","wohnt","wohnen"],ans:"wohnst",hint:"صيغة du تنتهي دائمًا بـ st- للأفعال المنتظمة."},
+        {type:"mc",q:"'Du ___ in Hamburg.' ما الصيغة الصحيحة من wohnen؟",opts:["wohnst","wohne","wohnt","wohnen"],ans:"wohnst",hint:"صيغة du تنتهي دائمًا بـ st- للأفعال المنتظمة."},
         {type:"fb",s:"Wir {1} Deutsch.",a:["lernen"],opts:["lernen","lernst","lernt","lerne"],hint:"صيغة wir تحتفظ بنهاية المصدر الكاملة.",sSrc:"نحن نتعلم الألمانية."},
         {type:"teach",trg:"heute",src:"اليوم",pos:"adv",gender:null,note:"ظرف. من أكثر الكلمات الألمانية شيوعًا.",example:"A: Was machst du heute?\nB: Heute lerne ich Deutsch.",exampleSrc:"A: ماذا تفعل اليوم؟\nB: اليوم أتعلم الألمانية.",funFact:"من الألمانية القديمة العليا hiutu. عندما تبدأ heute الجملة ينتقل الفعل للموقع ٢ والفاعل يقفز خلفه: Heute bin ich müde."},
-        {type:"mc",q:"Which sentence follows correct V2 word order?",opts:["Heute ich bin müde.","Ich heute müde bin.","Heute bin ich müde.","Muede ich bin heute."],ans:"Heute bin ich müde.",hint:"الفعل يجب أن يكون في الموقع الثاني، مباشرة بعد العنصر الأول."},
+        {type:"mc",q:"أيّ جملة تتبع ترتيب الكلمات الصحيح (V2)؟",opts:["Heute ich bin müde.","Ich heute müde bin.","Heute bin ich müde.","Muede ich bin heute."],ans:"Heute bin ich müde.",hint:"الفعل يجب أن يكون في الموقع الثاني، مباشرة بعد العنصر الأول."},
         {type:"fb",s:"Sie {1} aus Deutschland.",a:["kommt"],opts:["kommt","kommen","kommst","komme"],hint:"الغائب المفرد المؤنث: هي تفعل شيئًا، ينتهي بـ t-.",sSrc:"هي من ألمانيا."},
         {type:"fb",s:"Verumius {1} ein bisschen Deutsch.",a:["spricht"],opts:["spricht","spreche","sprichst","sprechen"],hint:"أي شكل من sprechen يناسب اسمًا أو er؟",sSrc:"فيروميوس يتحدث قليلًا من الألمانية."},
-        {type:"mc",q:"Dr. Yilmaz asks formally: 'Woher ___ Sie?' Which verb completes this?",opts:["kommen","komme","kommst","kommt"],ans:"kommen",hint:"صيغة الاحترام Sie تستخدم نفس نهاية الفعل مثل wir."},
+        {type:"mc",q:"يسأل Dr. Yilmaz رسميًّا: 'Woher ___ Sie?' أيّ فعل يكمل الجملة؟",opts:["kommen","komme","kommst","kommt"],ans:"kommen",hint:"صيغة الاحترام Sie تستخدم نفس نهاية الفعل مثل wir."},
         {type:"story",speaker:"verumius",mood:"happy",art:"de-ice-window",trg:"Ich bin Verumius. Ich komme aus Italien. Ich wohne... noch nirgendwo. Aber ich bin hier. Das ist genug.",src:"أنا فيروميوس. جئت من إيطاليا. أسكن... في لا مكان بعد. لكنني هنا. هذا يكفي."}
       ]},
     {id:"deu_r01l6",title:"Zahlen und Zeit",icon:"🔢",xp:15,board:true,steps:[
@@ -277,19 +277,19 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",kind:"word",trg:"null",src:"صفر",pos:"num",gender:null,phonetic:"NOOL",example:"A: Wie viele Tickets hast du?\nB: Null. Ich habe noch keine gekauft.",exampleSrc:"A: كم تذكرة لديك؟\nB: صفر. لم أشترِ بعد.",note:"نفس الكلمة المستخدمة في البرمجة.\nتُستخدم لأرقام الهاتف والنتائج ودرجات الحرارة.",funFact:"null الألمانية تأتي من اللاتينية nulla (لا شيء). مفهوم الصفر وصل أوروبا من الهند عبر علماء الرياضيات العرب في العصور الوسطى. أنتم من أحضرتم الصفر!"},
         {type:"teach",kind:"word",trg:"eins",src:"واحد",pos:"num",gender:null,phonetic:"AINSS",example:"A: Wie viele Koffer hast du?\nB: Nur eins. Ich reise leicht.",exampleSrc:"A: كم حقيبة لديك؟\nB: واحدة فقط. أسافر خفيفًا.",note:"عند العد وحده: eins.\nقبل اسم: ein/eine/einen (يتغير حسب الجنس).",funFact:"الإنجليزية one والألمانية eins يتشاركان نفس الجذر الجرماني البدائي ainaz*. كانتا تُنطقان بشكل متطابق تقريبًا قبل ٢٠٠٠ سنة."},
         {type:"teach",kind:"word",trg:"zwei",src:"اثنان",pos:"num",gender:null,phonetic:"TSVAI",example:"A: Zwei Kaffee, bitte.\nB: Kommt sofort!",exampleSrc:"A: قهوتان من فضلك.\nB: حالًا!",note:"على الهاتف يقول الألمان zwo بدلاً من zwei\nلتجنب الخلط مع drei.",funFact:"الألمان يقولون zwo على الهاتف لأن zwei و drei تتشابهان كثيرًا عبر اتصال سيئ. الجيش والطيران يستخدمان zwo كمعيار."},
-        {type:"teach",kind:"word",trg:"drei",src:"ثلاثة",pos:"num",gender:null,phonetic:"DRAI",example:"A: Wie viele Kinder haben Sie?\nB: Drei. Zwei Jungen und ein Mädchen.",exampleSrc:"A: كم طفلًا لديك؟\nB: ثلاثة. ولدان وبنت.",note:"تقافي مع dry بالإنجليزية.\nصوت dr نظيف وليس مثل thr.",funFact:"الرقم ثلاثة مقدس عبر الثقافات الجرمانية. الميثولوجيا النوردية فيها ثلاث نورن وثلاثة جذور ليغدراسيل وأودين عُلق ثلاث ليالٍ."},
+        {type:"teach",kind:"word",trg:"drei",src:"ثلاثة",pos:"num",gender:null,phonetic:"DRAI",example:"A: Wie viele Kinder haben Sie?\nB: Drei. Zwei Jungen und ein Mädchen.",exampleSrc:"A: كم طفلًا لديك؟\nB: ثلاثة. ولدان وبنت.",note:"تتقارب صوتيًا مع dry بالإنجليزية.\nصوت dr نظيف وليس مثل thr.",funFact:"الرقم ثلاثة مقدس عبر الثقافات الجرمانية. الميثولوجيا النوردية فيها ثلاث نورن وثلاثة جذور ليغدراسيل وأودين عُلق ثلاث ليالٍ."},
         {type:"teach",kind:"word",trg:"vier",src:"أربعة",pos:"num",gender:null,phonetic:"FEER",example:"A: Der Zug kommt um vier Uhr.\nB: Perfekt, dann haben wir noch Zeit.",exampleSrc:"A: القطار يأتي الساعة الرابعة.\nB: ممتاز، إذن لا يزال لدينا وقت.",note:"تُنطق بصوت ee طويل.\nتُكتب مثل الهولندية vier.",funFact:"الألمانية والهولندية تكتبان 'أربعة' بنفس الطريقة: v-i-e-r. الإنجليزية استبدلت v بـ f أثناء التحول الصوتي الكبير."},
         {type:"teach",kind:"word",trg:"fünf",src:"خمسة",pos:"num",gender:null,phonetic:"FUENF",example:"A: Fünf Euro für ein Wasser?\nB: Willkommen am Flughafen!",exampleSrc:"A: خمسة يورو مقابل ماء؟\nB: مرحبًا بك في المطار!",note:"حرف u عليه نقطتان: fünf.\nتدرب على تدوير شفتيك لصوت ü. لا مقابل له بالعربية.",funFact:"كلمة 'قبضة' (Faust بالألمانية) مرتبطة بـ'خمسة' لأن القبضة هي خمسة أصابع مغلقة. نفس الجذر عبر كل اللغات الجرمانية."},
         {type:"teach",kind:"word",trg:"sechs",src:"ستة",pos:"num",gender:null,phonetic:"ZEKS",example:"A: Gleis sechs, richtig?\nB: Ja, Gleis sechs. Beeil dich!",exampleSrc:"A: الرصيف ستة، صحيح؟\nB: نعم، الرصيف ستة. أسرع!",note:"حرفا ch بعد s ينتجان صوت /كس/.\nلا تنطق ch بشكل منفصل.",funFact:"'ستة' من أكثر الكلمات ثباتًا في اللغات الهندو-أوروبية. اللاتينية sex، اليونانية hex، السنسكريتية sas، الألمانية sechs. كلها من جذر عمره ٦٠٠٠ سنة."},
-        {type:"mc",q:"How do you say 'two coffees, please' in German?",opts:["Drei Kaffee, bitte","Eins Kaffee, bitte","Zwei Kaffee, bitte","Vier Kaffee, bitte"],ans:"Zwei Kaffee, bitte",hint:"أي رقم يعني اثنان؟"},
+        {type:"mc",q:"كيف تقول 'قهوتين، من فضلك' بالألمانية؟",opts:["Drei Kaffee, bitte","Eins Kaffee, bitte","Zwei Kaffee, bitte","Vier Kaffee, bitte"],ans:"Zwei Kaffee, bitte",hint:"أي رقم يعني اثنان؟"},
         {type:"fb",s:"Verumius fragt: 'Gleis {1}, richtig?' Er braucht Bahnsteig 6.",a:["sechs"],opts:["sechs","drei","null","Uhr"],hint:"أي كلمة رقم ألمانية تعني ستة؟",sSrc:"يسأل فيروميوس: 'الرصيف ستة، صحيح؟' يحتاج الرصيف ٦."},
         {type:"teach",kind:"word",trg:"sieben",src:"سبعة",pos:"num",gender:null,phonetic:"ZEE-ben",example:"A: Der Film beginnt um sieben.\nB: Dann gehen wir jetzt los!",exampleSrc:"A: الفيلم يبدأ الساعة السابعة.\nB: إذن هيا نذهب الآن!",note:"مقطعان: ZEE-ben.\nالإنجليزية seven والألمانية sieben مرتبطتان بوضوح.",funFact:"الرقم سبعة يظهر في الثقافة البشرية أكثر من أي رقم آخر: سبعة أيام، سبع قارات، سبع خطايا مميتة، سبع عجائب. في الإسلام أيضًا: سبع سماوات وسبعة أشواط!"},
         {type:"teach",kind:"word",trg:"acht",src:"ثمانية",pos:"num",gender:null,phonetic:"AHKT",example:"A: Der Zug fährt um acht.\nB: Morgens oder abends?",exampleSrc:"A: القطار يغادر الساعة الثامنة.\nB: صباحًا أم مساءً؟",note:"صوت ch هنا من مؤخرة الحلق.\nمثل خ بالعربية تمامًا! سهل عليك.",funFact:"الألمانية acht والإنجليزية eight لا تبدوان متشابهتين لكنهما من نفس الجذر. الإنجليزية فقدت صوت ch. حرفا gh في eight هما شبح ذلك الصوت الحلقي القديم.\nصوت ch هنا مثل خ بالعربية تمامًا!"},
-        {type:"teach",kind:"word",trg:"neun",src:"تسعة",pos:"num",gender:null,phonetic:"NOYN",example:"A: Ich bin um neun da.\nB: Gut, ich warte im Cafe.",exampleSrc:"A: سأكون هناك الساعة التاسعة.\nB: جيد، سأنتظر في المقهى.",note:"تقافي مع coin بالإنجليزية.\nصوت eu = /أوي/.",funFact:"صوت eu بالألمانية دائمًا ينتج /أوي/. بمجرد معرفة هذا ستفهم كلمات مثل neu (جديد) و Freund (صديق) و neun."},
+        {type:"teach",kind:"word",trg:"neun",src:"تسعة",pos:"num",gender:null,phonetic:"NOYN",example:"A: Ich bin um neun da.\nB: Gut, ich warte im Cafe.",exampleSrc:"A: سأكون هناك الساعة التاسعة.\nB: جيد، سأنتظر في المقهى.",note:"تتقارب صوتيًا مع coin بالإنجليزية.\nصوت eu = /أوي/.",funFact:"صوت eu بالألمانية دائمًا ينتج /أوي/. بمجرد معرفة هذا ستفهم كلمات مثل neu (جديد) و Freund (صديق) و neun."},
         {type:"teach",kind:"word",trg:"zehn",src:"عشرة",pos:"num",gender:null,phonetic:"TSAYN",example:"A: Zehn Minuten noch!\nB: Dann schaffen wir es.",exampleSrc:"A: عشر دقائق أخرى!\nB: إذن سنلحق.",note:"تبدأ بصوت /تس/ مثل tsunami.\nهذه الكلمة لبنة البناء للأرقام ١٣-١٩.",funFact:"zehn هي أساس نظام أرقام المراهقة بالألمانية. بمجرد معرفة zehn يمكنك بناء ١٣-١٩ بوضع رقم الآحاد أمامها."},
         {type:"mc",q:"Was ist sieben plus drei?",opts:["elf","neun","acht","zehn"],ans:"zehn",hint:"اجمع سبعة وثلاثة معًا."},
         {type:"fb",s:"Der Zug fährt in {1} Minuten ab.",a:["fünf"],opts:["fünf","drei","acht","neun"],hint:"أي رقم مع نقطتين يعني خمسة؟",sSrc:"القطار يغادر بعد خمس دقائق."},
-        {type:"match",pairs:[{trg:"sieben",src:"seven"},{trg:"acht",src:"eight"},{trg:"neun",src:"nine"},{trg:"zehn",src:"ten"}]}
+        {type:"match",pairs:[{trg:"sieben",src:"سبعة"},{trg:"acht",src:"ثمانية"},{trg:"neun",src:"تسعة"},{trg:"zehn",src:"عشرة"}]}
       ]},
     {id:"deu_r01l7",title:"Uhrzeit und Reise",icon:"🕐",xp:15,board:true,steps:[
         {type:"intro",title:"Uhrzeit und Reise",desc:"الأرقام من أحد عشر فصاعدًا وقراءة الوقت ومفردات القطارات: الأرصفة والمغادرات والوصول والتأخيرات. مرحبًا بك في Deutsche Bahn.",goals:[
@@ -307,18 +307,18 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",kind:"word",trg:"die Ankunft",src:"الوصول",pos:"noun",gender:"f",phonetic:"dee AN-koonft",example:"A: Die Ankunft ist um neun Uhr.\nB: Gut, dann hole ich dich ab.",exampleSrc:"A: الوصول الساعة التاسعة.\nB: جيد، سآتي لأخذك.",note:"مؤنث: die Ankunft.\nAn = نحو. Kunft = قدوم.\nعكس Abfahrt.",funFact:"Kunft كلمة ألمانية قديمة تعني 'القدوم' ونجت فقط في المركبات: Ankunft (وصول)، Zukunft (مستقبل، حرفيًا 'نحو-القدوم')، Herkunft (أصل، حرفيًا 'من-القدوم')."},
         {type:"teach",kind:"word",trg:"das Gleis",src:"الرصيف / المسار",pos:"noun",gender:"n",phonetic:"dass GLAISS",example:"A: Welches Gleis?\nB: Gleis sieben, ganz am Ende.",exampleSrc:"A: أي رصيف؟\nB: الرصيف السابع، في آخر المحطة.",note:"محايد: das Gleis.\nفي المحطات تُرقم الأرصفة.\nBahnsteig تعني أيضًا رصيف لكن Gleis القياسية على الشاشات.",funFact:"محطات القطار الألمانية تستخدم Gleis (مسار/سكة) لأرقام الأرصفة. إذا سمعت Gleis 7 فأنت ذاهب للمسارات المرقمة ٧."},
         {type:"teach",kind:"word",trg:"die Verspätung",src:"التأخير",pos:"noun",gender:"f",phonetic:"dee fer-SHPAY-toong",example:"A: Der Zug hat Verspätung.\nB: Oh nein!",exampleSrc:"A: القطار متأخر.\nB: يا للأسف!",note:"مؤنث: die Verspätung.\nVer- = سابقة. Spät = متأخر. -ung = لاحقة اسمية.\nستسمع هذه الكلمة كثيرًا في ألمانيا.",funFact:"تأخيرات Deutsche Bahn مشهورة لدرجة أن الألمان ابتكروا كلمة للسعادة بقطار في وقته: Pünktlichkeitsfreude. (هذه نكتة لكن المشاعر حقيقية. تأخيرات DB نكتة وطنية مستمرة.)"},
-        {type:"mc",q:"What does 'die Verspätung' mean?",opts:["delay","departure","arrival","platform"],ans:"delay",hint:"فكر فيما يشتكي منه المسافرون أكثر."},
+        {type:"mc",q:"ماذا تعني 'die Verspätung'؟",opts:["delay","departure","arrival","platform"],ans:"delay",hint:"فكر فيما يشتكي منه المسافرون أكثر."},
         {type:"fb",s:"Der Zug fährt um {1} Uhr.",a:["acht"],opts:["acht","Gleis","Abfahrt","Zug"],hint:"أدخل رقمًا لإكمال وقت المغادرة.",sSrc:"القطار يغادر الساعة الثامنة."},
-        {type:"mc",q:"'Das Gleis' is which grammatical gender?",opts:["Masculine (der)","Neuter (das)","Feminine (die)","Plural (die)"],ans:"Neuter (das)",hint:"انظر إلى الأداة قبل Gleis."},
+        {type:"mc",q:"ما الجنس النحوي لـ 'das Gleis'؟",opts:["مذكّر (der)","محايد (das)","مؤنّث (die)","جمع (die)"],ans:"محايد (das)",hint:"انظر إلى الأداة قبل Gleis."},
         {type:"match",pairs:[
-            {trg:"die Abfahrt",src:"departure"},
-            {trg:"die Ankunft",src:"arrival"},
-            {trg:"das Gleis",src:"platform"},
-            {trg:"die Verspätung",src:"delay"}
+            {trg:"die Abfahrt",src:"المغادرة"},
+            {trg:"die Ankunft",src:"الوصول"},
+            {trg:"das Gleis",src:"الرصيف"},
+            {trg:"die Verspätung",src:"التأخير"}
           ]},
-        {type:"mc",q:"How do you ask 'What time is it?' in German?",opts:["Was ist die Uhr?","Wann ist es?","Wo ist die Zeit?","Wie spät ist es?"],ans:"Wie spät ist es?",hint:"حرفيًا: كم التأخير؟"},
+        {type:"mc",q:"كيف تسأل 'كم الساعة؟' بالألمانية؟",opts:["Was ist die Uhr?","Wann ist es?","Wo ist die Zeit?","Wie spät ist es?"],ans:"Wie spät ist es?",hint:"حرفيًا: كم التأخير؟"},
         {type:"fb",s:"Die Ankunft ist um {1} Uhr.",a:["neun"],opts:["neun","Gleis","Verspätung","Abfahrt"],hint:"أدخل رقمًا لوقت الوصول.",sSrc:"الوصول الساعة التاسعة."},
-        {type:"mc",q:"What is 'sechzehn' in English?",opts:["six","sixteen","sixty","seventeen"],ans:"sixteen",hint:"sechs + zehn، مع اختصار إملائي صغير."},
+        {type:"mc",q:"ما معنى 'sechzehn'؟",opts:["six","sixteen","sixty","seventeen"],ans:"sixteen",hint:"sechs + zehn، مع اختصار إملائي صغير."},
         {type:"fb",s:"{1}, wie spät ist es?",a:["Entschuldigung"],opts:["Entschuldigung","Danke","Bitte","Tschüss"],hint:"تحتاج عبارة جذب الانتباه المهذبة من الدرس ١.",sSrc:"عذرًا، كم الساعة؟"},
         {type:"drag_fill",s:"Ich {1} nach Berlin. Der Zug fährt um {2} Uhr.",blanks:{"1":"fahre","2":"zehn"},pool:["fahre","zehn","bin","drei","links"],hint:"اجمع فعل السفر من الدرس ١ مع رقم من هذا الدرس.",sSrc:"أذهب إلى برلين. القطار يغادر الساعة العاشرة."},
         {type:"story",speaker:"narrator",mood:"curious",art:"de-ice-platform-sign",trg:"Verumius schaut auf sein Ticket. Gleis 3. Er liest die Schilder: Gleis 1, Gleis 2, Gleis 3. Er lächelt. Die Zahlen funktionieren.",src:"ينظر فيروميوس إلى تذكرته. الرصيف ٣. يقرأ اللافتات: الرصيف ١، الرصيف ٢، الرصيف ٣. يبتسم. الأرقام تنفع."}
@@ -336,27 +336,27 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",kind:"word",trg:"geradeaus",src:"مباشرة للأمام",pos:"adv",gender:null,phonetic:"ge-RAH-de-OWS",example:"A: Und dann?\nB: Geradeaus bis zur Ampel.",exampleSrc:"A: ثم ماذا؟\nB: مباشرة للأمام حتى إشارة المرور.",note:"Gerade = مستقيم. Aus = خارج.\nكلمة طويلة: ge-RA-de-aus.",funFact:"الألمانية تحب لصق الكلمات معًا. geradeaus = gerade (مستقيم) + aus (للخارج/للأمام). بمجرد رؤية هذه الأجزاء المركبة تصبح الكلمات الألمانية الطويلة ألغازًا يمكنك حلها."},
         {type:"teach",trg:"der Schalter",src:"شباك التذاكر",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Schalter.\nتُستخدم في المحطات ومكاتب البريد والبنوك.",example:"A: Wo kaufe ich das Ticket?\nB: Am Schalter, links neben dem Ausgang.",exampleSrc:"A: أين أشتري التذكرة؟\nB: عند الشباك، على يسار المخرج.",funFact:"قبل الآلات كانت كل محطة قطار ألمانية فيها صفوف من الشبابيك مع موظفين خلف الزجاج. اليوم فقط المحطات الكبرى مثل محطة برلين المركزية لا تزال فيها شبابيك خدمة."},
         {type:"tip",title:"Asking for Directions",text:"العبارة الرئيسية للاتجاهات:\n\n?...Wo ist = أين...؟\n?Wo ist der Ausgang = أين المخرج؟\n?Wo ist das Gleis = أين الرصيف؟\n\nالإجابات الشائعة تستخدم:\nlinks = يسار\nrechts = يمين\ngeradeaus = مباشرة للأمام\ndort drüben = هناك\n\nاجمعها: Links, dann geradeaus. (يسارًا ثم للأمام.)",deepDive:{title:"Wo vs. Wohin: location vs. direction",text:"wo تسأل أين الشيء موجود (موقع). wohin تسأل إلى أين الشيء ذاهب (اتجاه/وجهة).\n\n?Wo ist der Ausgang (أين المخرج؟ موقع.)\n?Wohin gehst du (إلى أين تذهب؟ اتجاه.)\n\nحاليًا '?...Wo ist' تغطي كل احتياجاتك لسؤال الاتجاهات. wohin تأتي لاحقًا."}},
-        {type:"mc",q:"You are lost in the station. You ask: 'Wo ist ___?'",opts:["die Richtung links","einfach geradeaus","sofort rechts","der Ausgang"],ans:"der Ausgang",hint:"تحتاج أن تجد طريق الخروج."},
+        {type:"mc",q:"أنت تائه في المحطة. تسأل: 'Wo ist ___?'",opts:["die Richtung links","einfach geradeaus","sofort rechts","der Ausgang"],ans:"der Ausgang",hint:"تحتاج أن تجد طريق الخروج."},
         {type:"fb",s:"Geh {1}, dann geradeaus.",a:["links"],opts:["links","Ausgang","Uhr","Gleis"],hint:"املأ الاتجاه: اذهب ___، ثم مباشرة.",sSrc:"اذهب يسارًا ثم مباشرة للأمام."},
         {type:"story",speaker:"narrator",mood:"neutral",art:"de-berlin-hbf-interior",trg:"Verumius fragt eine Frau: 'Entschuldigung, wo ist der Ausgang?' Sie lächelt: 'Geradeaus, dann rechts.' Er folgt den Schildern. Überall Reisende mit Koffern.",src:"يسأل فيروميوس امرأة: 'عذرًا، أين المخرج؟' تبتسم: 'للأمام مباشرة ثم يمينًا.' يتبع اللافتات. مسافرون بحقائب في كل مكان."},
-        {type:"mc",q:"What direction did the woman give first?",opts:["nach links","nach rechts","geradeaus","nach oben"],ans:"geradeaus",hint:"ذكرت اتجاهين. ماذا جاء قبل 'ثم يمينًا'؟"},
+        {type:"mc",q:"ما الاتجاه الذي ذكرته المرأة أولًا؟",opts:["nach links","nach rechts","geradeaus","nach oben"],ans:"geradeaus",hint:"ذكرت اتجاهين. ماذا جاء قبل 'ثم يمينًا'؟"},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-doener-stand",trg:"Vor dem Bahnhof sieht Verumius einen Dönerstand. Der Duft ist unglaublich. Er geht hin und liest die Karte: Döner Kebab 5 Euro.",src:"خارج المحطة، يرى فيروميوس كشك دونر. الرائحة رائعة. يمشي نحوه ويقرأ القائمة: دونر كباب ٥ يورو."},
         {type:"teach",kind:"phrase",trg:"Einen Döner, bitte!",src:"دونر واحد من فضلك!",pos:"intj",gender:null,phonetic:"AI-nen DUH-ner BIT-te",example:"A: Was darf es sein?\nB: Einen Döner, bitte!",exampleSrc:"A: ماذا تريد؟\nB: دونر من فضلك!",note:"Einen = (مفعول به مذكر).\nBitte = من فضلك. أضف bitte دائمًا!\nهذه أبسط طريقة لطلب الطعام.",funFact:"في برلين أكثر من ١٦٠٠ كشك دونر. دونر كباب الحديث كما يعرفه الألمان اختُرع في برلين عام ١٩٧٢ على يد قادر نورمان، مهاجر تركي. وهو الآن أكثر طعام شارع يُؤكل في ألمانيا متفوقًا على البراتفورست."},
-        {type:"mc",q:"How does Verumius order his Döner?",opts:["Guten Tag, Döner!","Wo ist der Döner?","Einen Döner, bitte!","Döner, Abfahrt!"],ans:"Einen Döner, bitte!",hint:"صيغة الطلب المهذبة تنتهي بكلمة سحرية واحدة."},
+        {type:"mc",q:"كيف يطلب Verumius الدونر الخاص به؟",opts:["Guten Tag, Döner!","Wo ist der Döner?","Einen Döner, bitte!","Döner, Abfahrt!"],ans:"Einen Döner, bitte!",hint:"صيغة الطلب المهذبة تنتهي بكلمة سحرية واحدة."},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-doener-stand",trg:"Der Mann am Stand lächelt: 'Mit alles?' Verumius nickt. 'Fünf Euro.' Verumius zahlt und beisst rein. Es ist das Beste, was er je gegessen hat.",src:"يبتسم الرجل في الكشك: 'بكل الإضافات؟' يومئ فيروميوس. 'خمسة يورو.' يدفع ويأخذ قضمة. أفضل شيء أكله في حياته."},
-        {type:"mc",q:"Which word means 'exit' in German?",opts:["die Ankunft","die Abfahrt","das Gleis","der Ausgang"],ans:"der Ausgang",hint:"Aus = خارج. Gang = ممر."},
+        {type:"mc",q:"أيّ كلمة تعني 'المخرج' بالألمانية؟",opts:["die Ankunft","die Abfahrt","das Gleis","der Ausgang"],ans:"der Ausgang",hint:"Aus = خارج. Gang = ممر."},
         {type:"fb",s:"Die Abfahrt ist um {1} Uhr.",a:["sieben"],opts:["sieben","rechts","Ausgang","Verspätung"],hint:"أدخل رقمًا لوقت المغادرة.",sSrc:"المغادرة الساعة السابعة."},
         {type:"match",pairs:[
-            {trg:"links",src:"left"},
-            {trg:"rechts",src:"right"},
-            {trg:"geradeaus",src:"straight ahead"},
-            {trg:"der Ausgang",src:"exit"}
+            {trg:"links",src:"يسار"},
+            {trg:"rechts",src:"يمين"},
+            {trg:"geradeaus",src:"إلى الأمام مباشرة"},
+            {trg:"der Ausgang",src:"المخرج"}
           ]},
-        {type:"mc",q:"You arrive at a Berlin Döner stand. The vendor asks 'Was darf es sein?' You want a Döner. You say:",opts:["Wo ist der Döner?","Guten Morgen, Döner","Die Verspätung, bitte","Einen Döner, bitte!"],ans:"Einen Döner, bitte!",hint:"استخدم صيغة الطلب المهذبة من هذا الدرس."},
-        {type:"mc",q:"What does 'geradeaus' mean?",opts:["turning left first","straight ahead","going back right","taking the exit"],ans:"straight ahead",hint:"هذه الكلمة المركبة تجمع gerade و aus في اتجاه."},
+        {type:"mc",q:"وصلت إلى كشك دونر في برلين. يسألك البائع 'Was darf es sein?' تريد دونر. تقول:",opts:["Wo ist der Döner?","Guten Morgen, Döner","Die Verspätung, bitte","Einen Döner, bitte!"],ans:"Einen Döner, bitte!",hint:"استخدم صيغة الطلب المهذبة من هذا الدرس."},
+        {type:"mc",q:"ماذا تعني 'geradeaus'؟",opts:["turning left first","straight ahead","going back right","taking the exit"],ans:"straight ahead",hint:"هذه الكلمة المركبة تجمع gerade و aus في اتجاه."},
         {type:"fb",s:"Entschuldigung, wo ist {1} Ausgang?",a:["der"],opts:["der","die","das","ein"],hint:"Ausgang اسم مذكر. أي أداة تناسب؟",sSrc:"عذرًا، أين المخرج؟"},
         {type:"fb",s:"{1} heißen Sie?",a:["Wie"],opts:["Wie","Wo","Was","Wann"],hint:"استخدمت الدكتورة يلماز كلمة W هذه لسؤال الأسماء. وهي أيضًا تبدأ التحية التي تعلمتها.",sSrc:"ما اسمك؟"},
-        {type:"mc",q:"Verumius cannot read the menu at the Döner stand. He says: 'Ich ___ nicht.'",opts:["spreche","verstehe","fahre","komme"],ans:"verstehe",hint:"قال فيروميوس هذا للمفتش عندما لم يستطع متابعة الإعلان."}
+        {type:"mc",q:"لا يستطيع Verumius قراءة القائمة في كشك الدونر. يقول: 'Ich ___ nicht.'",opts:["spreche","verstehe","fahre","komme"],ans:"verstehe",hint:"قال فيروميوس هذا للمفتش عندما لم يستطع متابعة الإعلان."}
       ]},
     {id:"deu_r01l9",title:"Alles zusammen!",icon:"🏆",xp:20,board:true,steps:[
         {type:"intro",title:"Alles zusammen!",desc:"حان وقت إظهار ما تعلمته! هذا الاختبار يغطي كل شيء من الوحدة ١: التحيات والأسئلة والأفعال والأرقام والاتجاهات.",goals:[
@@ -365,43 +365,43 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
             "إثبات أنك مستعد للوحدة ٢"
           ]},
         {type:"story",speaker:"narrator",mood:"confident",art:"de-berlin-hbf-glass",trg:"Verumius steht im Berliner Hauptbahnhof. Hallo. Danke. Bitte. Entschuldigung. Eins, zwei, drei. Links, rechts, geradeaus. Sechs Lektionen. Und er lebt noch.",src:"يقف فيروميوس في محطة برلين المركزية. مرحبًا. شكرًا. من فضلك. عذرًا. واحد، اثنان، ثلاثة. يسار، يمين، للأمام. ست دروس. ولا يزال حيًا."},
-        {type:"mc",q:"You meet your new landlord at 3 PM. Which greeting is most appropriate?",opts:["Gute Nacht","Guten Tag","Tschüss","Hallo, Alter"],ans:"Guten Tag",hint:"هذه هي التحية الرسمية النهارية القياسية."},
-        {type:"mc",q:"'Woher kommen Sie?' Which information is this question asking for?",opts:["What your name is","Where you come from","How you are feeling","Where you are going"],ans:"Where you come from",hint:"woher تجمع wo مع كلمة للاتجاه."},
+        {type:"mc",q:"تقابل مالك شقتك الجديد الساعة 3 ظهرًا. أيّ تحية هي الأنسب؟",opts:["Gute Nacht","Guten Tag","Tschüss","Hallo, Alter"],ans:"Guten Tag",hint:"هذه هي التحية الرسمية النهارية القياسية."},
+        {type:"mc",q:"'Woher kommen Sie?' عن أيّ معلومة يسأل هذا السؤال؟",opts:["ما اسمك","من أين أنت","How you are feeling","إلى أين أنت ذاهب"],ans:"من أين أنت",hint:"woher تجمع wo مع كلمة للاتجاه."},
         {type:"fb",s:"Ich {1} Verumius.",a:["bin"],opts:["bin","bist","ist","sind"],hint:"أي شكل من sein يناسب ich؟",sSrc:"أنا فيروميوس."},
-        {type:"mc",q:"Dr. Yilmaz asks about your friend: 'Wo ___ er?' Which form of 'sein' fits?",opts:["bin","bist","sind","ist"],ans:"ist",hint:"فكر في أي تصريف يناسب er."},
-        {type:"mc",q:"You hear 'Der Zug fährt um siebzehn Uhr.' What time does the train leave?",opts:["7 AM","5 AM","5 PM","7 PM"],ans:"5 PM",hint:"Siebzehn هي سبعة زائد عشرة في نظام ٢٤ ساعة."},
+        {type:"mc",q:"يسأل Dr. Yilmaz عن صديقك: 'Wo ___ er?' أيّ صيغة من 'sein' تناسب؟",opts:["bin","bist","sind","ist"],ans:"ist",hint:"فكر في أي تصريف يناسب er."},
+        {type:"mc",q:"تسمع 'Der Zug fährt um siebzehn Uhr.' في أيّ ساعة يغادر القطار؟",opts:["7 AM","5 AM","5 PM","7 PM"],ans:"5 PM",hint:"Siebzehn هي سبعة زائد عشرة في نظام ٢٤ ساعة."},
         {type:"fb",s:"A: Wie geht es Ihnen?\nB: Gut, {1}!",a:["danke"],opts:["danke","bitte","ja","nein"],hint:"تحتاج الكلمة المهذبة لـ'شكرًا' هنا.",sSrc:"A: كيف حالك؟\nB: بخير، شكرًا!"},
         {type:"drag_fill",s:"Verumius: {1}, wo ist der {2}?",blanks:{"1":"Entschuldigung","2":"Bahnhof"},pool:["Entschuldigung","Bahnhof","Danke","Zug","Tschüss"],hint:"يسأل بأدب عن الاتجاهات إلى محطة القطار.",sSrc:"فيروميوس: عذرًا، أين محطة القطار؟"},
-        {type:"mc",q:"Verumius needs to catch a train. Which word does he need?",opts:["der Zug","der Bus","das Taxi","das Flugzeug"],ans:"der Zug",hint:"هذه الكلمة تعني حرفيًا 'سحب' بالألمانية."},
+        {type:"mc",q:"يحتاج Verumius أن يلحق بالقطار. أيّ كلمة يحتاجها؟",opts:["der Zug","der Bus","das Taxi","das Flugzeug"],ans:"der Zug",hint:"هذه الكلمة تعني حرفيًا 'سحب' بالألمانية."},
         {type:"fb",s:"Mein Zug fährt um {1} Uhr.",a:["drei"],opts:["drei","zwei","vier","fünf"],hint:"أي كلمة رقم ألمانية تعني 'ثلاثة'؟",sSrc:"قطاري يغادر الساعة الثالثة."},
         {type:"match",pairs:[
-            {trg:"Hallo",src:"Hello"},
-            {trg:"Guten Tag",src:"Good day"},
-            {trg:"Danke",src:"Thank you"},
-            {trg:"Bitte",src:"Please / You're welcome"},
-            {trg:"Tschüss",src:"Bye"},
-            {trg:"Auf Wiedersehen",src:"Goodbye (formal)"}
+            {trg:"Hallo",src:"مرحبًا"},
+            {trg:"Guten Tag",src:"نهارك سعيد"},
+            {trg:"Danke",src:"شكرًا"},
+            {trg:"Bitte",src:"من فضلك / عفوًا"},
+            {trg:"Tschüss",src:"مع السلامة"},
+            {trg:"Auf Wiedersehen",src:"وداعًا (رسمي)"}
           ]},
-        {type:"mc",q:"Someone says 'Gehen Sie geradeaus und dann links.' Where should you go?",opts:["Straight ahead and then right","Turn around and go left","Go back and turn right","Straight ahead and then left"],ans:"Straight ahead and then left",hint:"كلمة الاتجاه الأولى تعني التقدم للأمام بدون انعطاف."},
-        {type:"tr",q:"How do you say 'Excuse me, where is the train station?' in German?",a:"Entschuldigung, wo ist der Bahnhof?",hint:"ابدأ بالكلمة الطويلة لـ'عذرًا'."},
+        {type:"mc",q:"يقول شخص 'Gehen Sie geradeaus und dann links.' إلى أين يجب أن تذهب؟",opts:["إلى الأمام ثمّ يمينًا","استدر وامشِ يسارًا","Go back and turn right","إلى الأمام ثمّ يسارًا"],ans:"إلى الأمام ثمّ يسارًا",hint:"كلمة الاتجاه الأولى تعني التقدم للأمام بدون انعطاف."},
+        {type:"tr",q:"كيف تقول 'عفوًا، أين محطة القطار؟' بالألمانية؟",a:"Entschuldigung, wo ist der Bahnhof?",hint:"ابدأ بالكلمة الطويلة لـ'عذرًا'."},
         {type:"drag_fill",s:"Ich {1} müde und du {2} auch müde.",blanks:{"1":"bin","2":"bist"},pool:["bin","bist","ist","sind","seid"],hint:"املأ الأشكال الصحيحة من sein لـ ich و du.",sSrc:"أنا متعب وأنت أيضًا متعب."},
-        {type:"mc",q:"'Wir ___ zwei Koffer.' Which verb form completes this?",opts:["habe","hat","habt","haben"],ans:"haben",hint:"wir تأخذ دائمًا نفس شكل المصدر."},
+        {type:"mc",q:"'Wir ___ zwei Koffer.' أيّ صيغة فعل تكمل الجملة؟",opts:["habe","hat","habt","haben"],ans:"haben",hint:"wir تأخذ دائمًا نفس شكل المصدر."},
         {type:"fb",s:"Er {1} einen Hund.",a:["hat"],opts:["hat","habe","haben","habt"],hint:"أي شكل من haben يناسب er؟",sSrc:"لديه كلب."},
-        {type:"mc",q:"Which question word would you use to ask 'What is your name?'",opts:["Wie","Wo","Wann","Warum"],ans:"Wie",hint:"بالألمانية تسأل 'كيف تُسمى؟' وليس 'ما اسمك؟'"},
+        {type:"mc",q:"أيّ كلمة استفهام تستخدم لتسأل 'ما اسمك؟'",opts:["Wie","Wo","Wann","Warum"],ans:"Wie",hint:"بالألمانية تسأل 'كيف تُسمى؟' وليس 'ما اسمك؟'"},
         {type:"drag_fill",s:"{1} Tag! {2} ist die U-Bahn?",blanks:{"1":"Guten","2":"Wo"},pool:["Guten","Wo","Danke","Wie","Nein"],hint:"حيِّ شخصًا رسميًا ثم اسأل أين المترو.",sSrc:"نهارك سعيد! أين المترو؟"},
         {type:"match",pairs:[
-            {trg:"eins",src:"one"},
-            {trg:"fünf",src:"five"},
-            {trg:"zehn",src:"ten"},
-            {trg:"zwanzig",src:"twenty"},
-            {trg:"sieben",src:"seven"},
-            {trg:"drei",src:"three"}
+            {trg:"eins",src:"واحد"},
+            {trg:"fünf",src:"خمسة"},
+            {trg:"zehn",src:"عشرة"},
+            {trg:"zwanzig",src:"عشرون"},
+            {trg:"sieben",src:"سبعة"},
+            {trg:"drei",src:"ثلاثة"}
           ]},
         {type:"fb",s:"Gehen Sie geradeaus und dann {1}.",a:["rechts"],opts:["rechts","links","zurück","geradeaus"],hint:"أي كلمة تعني 'يمين' كاتجاه؟",sSrc:"اذهب مباشرة للأمام ثم يمينًا."},
-        {type:"tr",q:"How do you say 'I don't understand. Can you repeat that?' in German?",a:"Ich verstehe nicht. Können Sie das wiederholen?",hint:"ابدأ بـ'أنا لا أفهم' ثم اطلب بأدب الإعادة."},
-        {type:"mc",q:"Verumius is lost. He says: 'Entschuldigung, ich bin Verumius. Ich verstehe nicht. Wo ist der Bahnhof, bitte?' How many different things is he doing in this sentence?",opts:[
+        {type:"tr",q:"كيف تقول 'لا أفهم. هل يمكنك الإعادة؟' بالألمانية؟",a:"Ich verstehe nicht. Können Sie das wiederholen?",hint:"ابدأ بـ'أنا لا أفهم' ثم اطلب بأدب الإعادة."},
+        {type:"mc",q:"Verumius تائه. يقول: 'Entschuldigung, ich bin Verumius. Ich verstehe nicht. Wo ist der Bahnhof, bitte?' كم عددًا من الأشياء المختلفة يفعلها في هذه الجملة؟",opts:[
             "Two: greeting the inspector and requesting a map",
-            "Three: apologizing, stating his name, asking directions",
+            "ثلاثة: يعتذر، يذكر اسمه، يسأل عن الاتجاهات",
             "Four: apologizing, introducing, admitting confusion, asking directions",
             "One: politely requesting station directions only"
           ],ans:"Four: apologizing, introducing, admitting confusion, asking directions",hint:"عُد كل فعل منفصل يقوم به فيروميوس بالترتيب."},
@@ -424,28 +424,28 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"tip",title:"The Guten + Time Pattern",text:"كل تحيات الأوقات الرسمية تتبع صيغة واحدة:\n\nGuten + Morgen = Guten Morgen (صباح الخير، حتى ~١١ صباحًا)\nGuten + Tag = Guten Tag (نهارك سعيد، ~١١ صباحًا إلى ~٦ مساءً)\nGuten + Abend = Guten Abend (مساء الخير، بعد ~٦ مساءً)\nGute + Nacht = Gute Nacht (تصبح على خير، عند النوم)\n\nثلاث كلمات تستخدم Guten (مذكر). Nacht تستخدم Gute (مؤنث).\nالنهاية تتغير لأن الصفات الألمانية تتوافق مع جنس الاسم!",deepDive:{title:"Why Guten and not Gut?",text:"Guten هنا تأتي من اختصار قديم لـ Ich wünsche Ihnen einen guten Morgen (أتمنى لك صباحًا جيدًا). العبارة اختُصرت لكن نهاية المنصوب en- في guten بقيت.\n\nستدرس نهايات الصفات بشكل صحيح في B1. حاليًا تعلم التحيات كعبارات ثابتة.\n\nتنوعات إقليمية: في بافاريا والنمسا Grüß Gott (الله يحييك) تستبدل كل تحيات النهار. في سويسرا Grüezi هي القياسية."}},
         {type:"teach",trg:"Servus",src:"مرحبًا / مع السلامة (ألمانية جنوبية ونمساوية)",pos:"intj",gender:null,note:"تُستخدم في بافاريا والنمسا. تصلح للترحيب والوداع معًا.",example:"A: Servus, Klaus! Wie geht's?\nB: Servus! Gut, und dir?",exampleSrc:"A: مرحبًا كلاوس! كيف الحال؟\nB: مرحبًا! بخير، وأنت؟",funFact:"من اللاتينية servus (خادم/عبد). كانت تعني أصلًا 'في خدمتك'. النمسا وبافاريا تستخدمانها يوميًا. في شمال ألمانيا لا أحد يقولها."},
         {type:"tip",title:"Regional Greetings",text:"ألمانيا والنمسا وسويسرا لكل منها نكهات إقليمية:\n\nشمال ألمانيا: !Moin (أي وقت، عفوي جدًا)\nبافاريا والنمسا: !Servus (مرحبًا ومع السلامة)\nسويسرا: !Grüezi (مرحبًا رسمي)\n\nبالألمانية الفصحى Hallo و Guten Tag آمنتان دائمًا.",deepDive:{title:"Why does Moin mean hello if it sounds like morning?",text:"Moin تأتي من الألمانية السفلى moin dag (يوم جيد)، اختُصرت إلى moin. رغم أنها تشبه Morgen، تُستخدم طوال اليوم وحتى في المساء في هامبورغ وبريمن والشمال الأقصى. بعض السكان يقولون '!Moin Moin' لكن المتشددين يصرون أن Moin واحدة تكفي."}},
-        {type:"mc",q:"Verumius calls Dr. Yilmaz at 9 PM. Which greeting should he use?",opts:["Guten Morgen","Guten Abend","Guten Tag","Gute Nacht"],ans:"Guten Abend",hint:"التاسعة مساءً بعد السادسة مساءً وقبل النوم."},
+        {type:"mc",q:"يتصل Verumius بـ Dr. Yilmaz الساعة 9 مساءً. أيّ تحية يجب أن يستخدم؟",opts:["Guten Morgen","Guten Abend","Guten Tag","Gute Nacht"],ans:"Guten Abend",hint:"التاسعة مساءً بعد السادسة مساءً وقبل النوم."},
         {type:"fb",s:"Verumius ist sehr {1} nach seinem ersten Tag.",a:["müde"],opts:["müde","gut","klein","schnell"],hint:"بعد يوم سفر طويل، كيف ستشعر؟",sSrc:"فيروميوس متعب جدًا بعد يومه الأول."},
         {type:"tip",title:"Your First Day Survival Kit",text:"أهم ٢٠ عبارة من الوحدة ١:\n\n1. Hallo / Guten Tag (تحية)\n2. Tschüss / Auf Wiedersehen (وداع)\n3. Danke / Bitte (شكرًا / من فضلك)\n4. Ja / Nein (نعم / لا)\n5. ...Ich bin (أنا...)\n6. ?Wie heißen Sie (ما اسمك؟)\n7. ?Woher kommen Sie (من أين أنت؟)\n8. Ich verstehe nicht (لا أفهم)\n9. ?Können Sie das wiederholen (هل يمكنك الإعادة؟)\n10. ?Wo ist der Bahnhof (أين المحطة؟)",deepDive:{title:"The Pareto principle in language learning",text:"هذه العبارات العشرون تغطي حوالي ٨٠% من مواقف بقاء المبتدئين. تعلم اللغات يتبع مبدأ باريتو: مجموعة صغيرة من الكلمات والعبارات تتعامل مع معظم التفاعلات اليومية. أتقنها وتستطيع التنقل في المطارات وطلب المساعدة وتقديم نفسك والاعتراف بالحيرة بأدب. هذا كثير ليوم واحد."}},
-        {type:"mc",q:"It is 11 PM and Verumius is going to sleep. What does he say to the hostel receptionist?",opts:["Gute Nacht","Guten Abend","Guten Morgen","Guten Tag"],ans:"Gute Nacht",hint:"هو ذاهب للنوم وليس فقط واصلًا في المساء."},
+        {type:"mc",q:"الساعة 11 مساءً وVerumius ذاهب للنوم. ماذا يقول لموظف الاستقبال في النُّزل؟",opts:["Gute Nacht","Guten Abend","Guten Morgen","Guten Tag"],ans:"Gute Nacht",hint:"هو ذاهب للنوم وليس فقط واصلًا في المساء."},
         {type:"match",pairs:[
-            {trg:"Guten Morgen",src:"Good morning"},
-            {trg:"Guten Tag",src:"Good day"},
-            {trg:"Guten Abend",src:"Good evening"},
-            {trg:"Gute Nacht",src:"Good night"}
+            {trg:"Guten Morgen",src:"صباح الخير"},
+            {trg:"Guten Tag",src:"نهارك سعيد"},
+            {trg:"Guten Abend",src:"مساء الخير"},
+            {trg:"Gute Nacht",src:"تصبح على خير"}
           ]},
         {type:"drag_fill",s:"Verumius: Ich bin so {1}. {2} Nacht, Berlin!",blanks:{"1":"müde","2":"Gute"},pool:["müde","Gute","Guten","morgen","schnell"],hint:"فيروميوس متعب ويقول ليلة سعيدة للمدينة.",sSrc:"فيروميوس: أنا متعب جدًا. تصبح على خير يا برلين!"},
         {type:"fb",s:"Heute arbeite ich. {1} gehe ich zum Brandenburger Tor!",a:["Morgen"],opts:["Morgen","Heute","Gestern","Abend"],hint:"اليوم فيروميوس يعمل. متى رحلته السياحية؟",sSrc:"اليوم أعمل. غدًا سأذهب إلى بوابة براندنبورغ!"},
-        {type:"tr",q:"How do you say 'Good night! I am tired.' in German?",a:"Gute Nacht! Ich bin müde.",hint:"تذكر: Nacht مؤنث لذلك نهاية الصفة تتغير."},
+        {type:"tr",q:"كيف تقول 'تصبح على خير! أنا متعب.' بالألمانية؟",a:"Gute Nacht! Ich bin müde.",hint:"تذكر: Nacht مؤنث لذلك نهاية الصفة تتغير."},
         {type:"fb",s:"Es ist 14 Uhr. Guten {1}! Wie heißen Sie?",a:["Tag"],opts:["Tag","Morgen","Abend","Nacht"],hint:"الساعة الثانية ظهرًا. أي تحية وقتية تناسب بعد الظهر؟",sSrc:"الساعة الثانية ظهرًا. نهارك سعيد! ما اسمك؟"},
         {type:"drag_fill",s:"{1} Morgen! Ich bin Verumius. {2} kommen Sie?",blanks:{"1":"Guten","2":"Woher"},pool:["Guten","Woher","Danke","Tschüss","Nein"],hint:"حيِّ شخصًا رسميًا صباحًا ثم اسأل من أين هو.",sSrc:"صباح الخير! أنا فيروميوس. من أين أنت؟"},
-        {type:"mc",q:"Which pair of words are OPPOSITES in German?",opts:["links / rechts","Danke / Bitte","Hallo / Guten Tag","wer / was"],ans:"links / rechts",hint:"واحدة تعني يسار والأخرى تعني يمين."},
+        {type:"mc",q:"أيّ زوج من الكلمات هما متضادّان بالألمانية؟",opts:["links / rechts","Danke / Bitte","Hallo / Guten Tag","wer / was"],ans:"links / rechts",hint:"واحدة تعني يسار والأخرى تعني يمين."},
         {type:"fb",s:"Wie {1} ist es?",a:["spät"],opts:["spät","gut","viel","heiss"],hint:"العبارة الألمانية تسأل حرفيًا 'كم التأخير؟'",sSrc:"كم الساعة؟"},
-        {type:"mc",q:"Verumius texts Dr. Yilmaz: 'Danke für alles! Ich ___ jetzt in Berlin.' Which verb form fits?",opts:["bist","ist","bin","sind"],ans:"bin",hint:"فيروميوس يتحدث عن نفسه. أي شكل من sein يناسب ich؟"},
+        {type:"mc",q:"يرسل Verumius رسالة إلى Dr. Yilmaz: 'Danke für alles! Ich ___ jetzt in Berlin.' أيّ صيغة فعل تناسب؟",opts:["bist","ist","bin","sind"],ans:"bin",hint:"فيروميوس يتحدث عن نفسه. أي شكل من sein يناسب ich؟"},
         {type:"fb",s:"Verumius sagt: 'Ich {1} aus Italien.'",a:["komme"],opts:["komme","kommen","kommst","kommt"],hint:"ما هي نهاية صيغة ich للأفعال المنتظمة؟",sSrc:"فيروميوس يقول: 'أنا من إيطاليا.'"},
-        {type:"mc",q:"Verumius lies in bed, smiling. What will he do tomorrow in Berlin?",opts:[
-            "Take the next flight back home to Italy",
-            "Stay in bed all day and forget Germany",
+        {type:"mc",q:"Verumius مستلقٍ في سريره يبتسم. ماذا سيفعل غدًا في برلين؟",opts:[
+            "يأخذ أول رحلة عائدًا إلى إيطاليا",
+            "يبقى في السرير طوال اليوم وينسى ألمانيا",
             "Give up learning and try a different hobby",
             "Explore the city and practice more German"
           ],ans:"Explore the city and practice more German",hint:"فيروميوس متعب لكنه متحمس لمغامرته."},
@@ -478,10 +478,10 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"wie",src:"كيف",pos:"adv",gender:null,note:"كلمة استفهام للطريقة أو الحالة. تُستخدم أيضًا في 'ما اسمك؟'",example:"A: Wie heißt du?\nB: Ich heiße Anna.",exampleSrc:"A: ما اسمك؟\nB: اسمي آنا.",funFact:"?Wie heißt du تعني حرفيًا 'كيف تُسمى؟' الألمان يسألون عن اسمك بـ'كيف' وليس 'ما'. طريقة مختلفة للتفكير في الهوية."},
         {type:"teach",trg:"wie viel",src:"كم",pos:"adv",gender:null,note:"عبارة استفهام من كلمتين للكميات والمقادير.",example:"A: Wie viel kostet das?\nB: Das kostet drei Euro.",exampleSrc:"A: كم يكلف ذلك؟\nB: يكلف ثلاثة يورو.",funFact:"للأشياء المعدودة يستخدم بعض الألمان wie viele (كم عدد)، لكن في الكلام العفوي wie viel تغطي 'كم' للكمية والعدد."},
         {type:"teach",trg:"woher",src:"من أين",pos:"adv",gender:null,note:"كلمة استفهام عن الأصل. حرفيًا: wo + her (أين + من).",example:"A: Woher kommst du?\nB: Ich komme aus Frankreich.",exampleSrc:"A: من أين أنت؟\nB: أنا من فرنسا.",funFact:"?Woher kommst du من أول الأسئلة التي ستسمعها في ألمانيا. الألمان فضوليون حقًا بشأن من أين يأتي الناس."},
-        {type:"mc",q:"Which word means 'but' in German?",opts:["und","aber","oder","auch"],ans:"aber",hint:"أداة الربط هذه تعبر عن تناقض بين فكرتين."},
+        {type:"mc",q:"أيّ كلمة تعني 'لكن' بالألمانية؟",opts:["und","aber","oder","auch"],ans:"aber",hint:"أداة الربط هذه تعبر عن تناقض بين فكرتين."},
         {type:"fb",s:"Ich spreche Deutsch {1} Englisch.",a:"und",opts:["und","aber","oder","nicht"],hint:"تحتاج كلمة تربط عنصرين متساويين معًا.",sSrc:"أتحدث الألمانية والإنجليزية."},
-        {type:"mc",q:"'Wie viel kostet das?' asks about...",opts:["the name of something","the price of something","the location of something","the time of something"],ans:"the price of something",hint:"فكر في أي معلومات ستعطيك 'كم'."},
-        {type:"match",pairs:[{trg:"wo",src:"where"},{trg:"wann",src:"when"},{trg:"wer",src:"who"},{trg:"warum",src:"why"},{trg:"was",src:"what"}]},
+        {type:"mc",q:"'Wie viel kostet das?' يسأل عن...",opts:["the name of something","the price of something","the location of something","the time of something"],ans:"the price of something",hint:"فكر في أي معلومات ستعطيك 'كم'."},
+        {type:"match",pairs:[{trg:"wo",src:"أين"},{trg:"wann",src:"متى"},{trg:"wer",src:"مَن"},{trg:"warum",src:"لماذا"},{trg:"was",src:"ماذا"}]},
         {type:"fb",s:"Ich komme heute {1}.",a:"nicht",opts:["nicht","nichts","sehr","gut"],hint:"أي كلمة تنفي الفعل في نهاية الجملة؟",sSrc:"لن آتي اليوم."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-hostel-breakfast",trg:"Und, aber, oder, nicht. Vier kleine Wörter. Aber jetzt kann ich Sätze bauen. Nicht perfekt, aber verständlich. Und das ist gut.",src:"و، لكن، أو، ليس. أربع كلمات صغيرة. لكن الآن أستطيع بناء جمل. ليست مثالية لكنها مفهومة. وهذا جيد."}
       ]},
@@ -510,16 +510,16 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"der Gruß",src:"التحية",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Grüße. Mit freundlichen Grüßen = مع خالص التحيات.",example:"A: Viele Grüße aus Berlin!\nB: Danke, viele Grüße zurück!",exampleSrc:"A: تحيات كثيرة من برلين!\nB: شكرًا، تحيات كثيرة أيضًا!",funFact:"الرسائل الإلكترونية والخطابات بالألمانية تنتهي دائمًا تقريبًا بـ Mit freundlichen Grüßen (مع تحيات ودية)، معادل مع خالص التحيات."},
         {type:"teach",trg:"das Wiedersehen",src:"اللقاء مجددًا",pos:"noun",gender:"n",note:"اسم محايد. من wieder (مجددًا) + sehen (يرى). في Auf Wiedersehen.",example:"A: Ich muss gehen. Auf Wiedersehen!\nB: Auf Wiedersehen! Bis bald!",exampleSrc:"A: يجب أن أذهب. مع السلامة!\nB: مع السلامة! أراك قريبًا!",funFact:"Auf Wiedersehen تعني حرفيًا 'حتى نتقابل مجددًا'. على الهاتف يقول الألمان Auf Wiederhören (حتى نتسامع مجددًا)."},
         {type:"teach",trg:"herzlich willkommen",src:"ترحيب حار",pos:"intj",gender:null,note:"كلمتان: herzlich (من القلب، من Herz = قلب) + willkommen (مرحبًا).",example:"A: Herzlich willkommen in Deutschland!\nB: Vielen Dank! Ich bin sehr froh.",exampleSrc:"A: أهلًا وسهلًا في ألمانيا!\nB: شكرًا جزيلًا! أنا سعيد جدًا.",funFact:"herzlich تأتي من das Herz (القلب). الألمان يعبرون عن الدفء عبر القلب: herzlich (من القلب)، herzhaft (قلبي)، beherzt (شجاع، حرفيًا 'مُقلب')."},
-        {type:"mc",q:"What does 'der Vorname' mean?",opts:["the first name","the surname","the address","the nickname"],ans:"the first name",hint:"عند تقديم نفسك أي اسم يقوله الناس قبل اسم العائلة؟"},
+        {type:"mc",q:"ماذا تعني 'der Vorname'؟",opts:["the first name","the surname","the address","the nickname"],ans:"the first name",hint:"عند تقديم نفسك أي اسم يقوله الناس قبل اسم العائلة؟"},
         {type:"fb",s:"Wann ist dein {1}?",a:"Geburtstag",opts:["Geburtstag","Geburtsort","Geburtsjahr","Familienstand"],hint:"هذا السؤال يسأل عن يوم التقويم الذي ولدت فيه.",sSrc:"متى عيد ميلادك؟"},
         {type:"match",pairs:[
-            {trg:"der Name",src:"the name"},
-            {trg:"die Adresse",src:"the address"},
-            {trg:"die Sprache",src:"the language"},
-            {trg:"der Pass",src:"the passport"},
-            {trg:"das Alter",src:"the age"}
+            {trg:"der Name",src:"الاسم"},
+            {trg:"die Adresse",src:"العنوان"},
+            {trg:"die Sprache",src:"اللغة"},
+            {trg:"der Pass",src:"جواز السفر"},
+            {trg:"das Alter",src:"العمر"}
           ]},
-        {type:"mc",q:"How do you say 'goodbye' in German?",opts:["Herzlich willkommen","Auf Wiedersehen","Vielen Dank","Guten Morgen"],ans:"Auf Wiedersehen",hint:"تعني حرفيًا 'حتى نتقابل مجددًا'. فكر في كلمات الوداع."},
+        {type:"mc",q:"كيف تقول 'وداعًا' بالألمانية؟",opts:["Herzlich willkommen","Auf Wiedersehen","Vielen Dank","Guten Morgen"],ans:"Auf Wiedersehen",hint:"تعني حرفيًا 'حتى نتقابل مجددًا'. فكر في كلمات الوداع."},
         {type:"fb",s:"Guten Morgen, {1} Mueller!",a:"Herr",opts:["Herr","Frau","Name","Dank"],hint:"تحتاج اللقب الرسمي المستخدم للرجال قبل اسم عائلتهم.",sSrc:"صباح الخير، سيد مولر!"},
         {type:"story",speaker:"verumius",mood:"relieved",art:"de-hostel-reception",trg:"Die Frau liest das Formular und nickt. 'Alles korrekt, Herr Verumius. Willkommen.' Er hat es geschafft. Ein Formular auf Deutsch. Erledigt.",src:"تقرأ المرأة الاستمارة وتومئ. 'كل شيء صحيح، سيد فيروميوس. أهلًا بك.' لقد فعلها. استمارة بالألمانية. تم."}
       ]},
@@ -545,7 +545,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"neunzehn",src:"تسعة عشر (١٩)",pos:"num",gender:null,note:"neun + zehn = neunzehn. نمط منتظم.",example:"A: Wie viele Studenten sind hier?\nB: Hier sind neunzehn Studenten.",exampleSrc:"A: كم طالبًا هنا؟\nB: هناك تسعة عشر طالبًا.",funFact:"الرقم ١٩ ليس له معنى ثقافي خاص بالألمانية لكنه يقافي بشكل جميل في أغاني العد."},
         {type:"teach",trg:"neu",src:"جديد",pos:"adj",gender:null,note:"صفة. تتغير حسب الجنس: ein neuer Freund، eine neue Tasche، ein neues Buch.",example:"A: Ist das dein Handy?\nB: Ja, es ist ganz neu.",exampleSrc:"A: هل هذا هاتفك؟\nB: نعم، جديد تمامًا.",funFact:"neu مرتبطة بالإنجليزية new والهولندية nieuw واللاتينية novus. كلها من نفس الجذر القديم."},
         {type:"teach",trg:"gültig",src:"صالح / ساري المفعول",pos:"adj",gender:null,note:"للتذاكر والوثائق والتصاريح. العكس: ungültig (غير صالح).",example:"A: Ist dein Ticket noch gültig?\nB: Ja, es ist noch gültig.",exampleSrc:"A: هل تذكرتك لا تزال صالحة؟\nB: نعم، لا تزال صالحة.",funFact:"ستجد gültig على كل تذكرة قطار وبطاقة متحف في ألمانيا."},
-        {type:"mc",q:"Wie sagt man 'sixteen' auf Deutsch?",opts:["sechzehn","siebzehn","fünfzehn","achtzehn"],ans:"sechzehn",hint:"sechs تفقد s- الأخيرة قبل zehn-."},
+        {type:"mc",q:"كيف تقول 'ستة عشر' بالألمانية؟",opts:["sechzehn","siebzehn","fünfzehn","achtzehn"],ans:"sechzehn",hint:"sechs تفقد s- الأخيرة قبل zehn-."},
         {type:"fb",s:"Ein Jahr hat {1} Monate.",a:["zwölf"],opts:["zwölf","elf","dreizehn","zehn"],hint:"فكر في سنة التقويم.",sSrc:"السنة فيها اثنا عشر شهرًا."},
         {type:"match",pairs:[{trg:"elf",src:"11"},{trg:"vierzehn",src:"14"},{trg:"neunzehn",src:"19"},{trg:"sechs",src:"6"},{trg:"zwölf",src:"12"}]},
         {type:"mc",q:"Welche Zahl ist 'vier + zehn'?",opts:["dreizehn","vierzehn","sechzehn","fünfzehn"],ans:"vierzehn",hint:"أضف الرقم الأساسي مباشرة إلى zehn."}
@@ -571,16 +571,16 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"international",src:"دولي",pos:"adj",gender:null,note:"صفة. نفس الكلمة في لغات كثيرة. Ein internationaler Flughafen.",example:"A: Ist Berlin international?\nB: Ja, Berlin ist sehr international.",exampleSrc:"A: هل برلين دولية؟\nB: نعم، برلين دولية جدًا.",funFact:"هذه الكلمة تبدو نفسها بالإنجليزية والفرنسية والإسبانية والألمانية. كلمة دولية حقيقية."},
         {type:"teach",trg:"nicht",src:"ليس / لا",pos:"adv",gender:null,note:"ظرف. يوضع قبل الكلمة المنفية. Ich bin nicht müde.",example:"A: Bist du müde?\nB: Nein, ich bin nicht müde.",exampleSrc:"A: هل أنت متعب؟\nB: لا، لست متعبًا.",funFact:"nicht من أكثر ١٠ كلمات استخدامًا بالألمانية. ستسمعها في كل محادثة تقريبًا."},
         {type:"teach",trg:"sehr",src:"جدًا",pos:"adv",gender:null,note:"ظرف. يوضع قبل الصفات والظروف. Das ist sehr gut.",example:"A: Wie ist das Essen?\nB: Es ist sehr gut!",exampleSrc:"A: كيف الطعام؟\nB: جيد جدًا!",funFact:"sehr كانت تعني أصلًا 'بألم' في الألمانية القديمة. مع الوقت تلطفت لتعني فقط 'جدًا'."},
-        {type:"mc",q:"Wie sagt man 'foreign' auf Deutsch?",opts:["europäisch","ausländisch","international","deutsch"],ans:"ausländisch",hint:"هذه الصفة تصف شخصًا أو شيئًا من بلد آخر."},
+        {type:"mc",q:"كيف تقول 'أجنبي' بالألمانية؟",opts:["europäisch","ausländisch","international","deutsch"],ans:"ausländisch",hint:"هذه الصفة تصف شخصًا أو شيئًا من بلد آخر."},
         {type:"fb",s:"Ich arbeite im {1}.",a:["Ausland"],opts:["Ausland","Heimat","Welt","Land"],hint:"هذا الاسم المحايد يعني الخارج.",sSrc:"أعمل في الخارج."},
         {type:"match",pairs:[
-            {trg:"die Welt",src:"the world"},
-            {trg:"die Heimat",src:"the homeland"},
-            {trg:"das Land",src:"the country"},
-            {trg:"der Ausländer",src:"the foreigner"},
-            {trg:"deutsch",src:"German (adj.)"}
+            {trg:"die Welt",src:"العالم"},
+            {trg:"die Heimat",src:"الوطن"},
+            {trg:"das Land",src:"البلد"},
+            {trg:"der Ausländer",src:"الأجنبي"},
+            {trg:"deutsch",src:"ألمانيّ"}
           ]},
-        {type:"mc",q:"Was bedeutet 'sehr'?",opts:["not","also","very","always"],ans:"very",hint:"تجعل الصفات أقوى."},
+        {type:"mc",q:"ماذا تعني 'sehr'؟",opts:["ليس","أيضًا","جدًا","دائمًا"],ans:"جدًا",hint:"تجعل الصفات أقوى."},
         {type:"fb",s:"Nein, ich bin {1} müde.",a:["nicht"],opts:["nicht","sehr","auch","schon"],hint:"هذه الكلمة تحول الجملة إلى نفي.",sSrc:"لا، أنا لست متعبًا."}
       ]},
     {id:"deu_r01l15",title:"Am Flughafen",icon:"✈️",xp:15,board:true,steps:[
@@ -609,15 +609,15 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"kennenlernen",src:"يتعرف على (للمرة الأولى)",pos:"verb",gender:null,note:"فعل منفصل: ich lerne... kennen.\nيُستخدم عند مقابلة شخص جديد لأول مرة.",example:"A: Ich möchte dich kennenlernen.\nB: Sehr erfreut! Mein Name ist Lukas.",exampleSrc:"A: أريد أن أتعرف عليك.\nB: تشرفنا! اسمي لوكاس.",funFact:"kennenlernen تنفصل عند الاستخدام: Ich lerne dich kennen. تبقى kennen في النهاية. حرفيًا: 'يتعلم أن يعرف' شخصًا."},
         {type:"teach",trg:"wissen",src:"يعلم (حقيقة)",pos:"verb",gender:null,note:"فعل شاذ. Ich weiß، du weißt، er/sie weiß. للحقائق والمعلومات.",example:"A: Weißt du, wann der Abflug ist?\nB: Nein, ich weiß es nicht.",exampleSrc:"A: هل تعلم متى المغادرة؟\nB: لا، لا أعلم.",funFact:"wissen للحقائق. kennen للألفة. Ich weiß, dass Berlin groß ist (حقيقة). Ich kenne Berlin (ألفة). بالعربية نستخدم 'يعلم' و'يعرف' بنفس التمييز!"},
         {type:"tip",title:"kennen oder wissen?",text:"كلاهما يعني 'يعرف' لكن يُستخدمان بشكل مختلف.\n\nkennen = يعرف شخصًا أو مكانًا أو شيئًا (ألفة شخصية)\n• Ich kenne deinen Bruder. (أعرف أخاك.)\n• ?Kennst du dieses Lied (هل تعرف هذه الأغنية؟)\n\nwissen = يعلم حقيقة أو معلومة\n• Ich weiß die Antwort. (أعلم الإجابة.)\n• ?Weißt du, wo der Flughafen ist (هل تعلم أين المطار؟)\n\nبالعربية نستخدم 'يعرف' و'يعلم' بنفس التمييز!"},
-        {type:"mc",q:"Welches Wort bedeutet 'suitcase'?",opts:["das Gepäck","das Ticket","der Zoll","der Koffer"],ans:"der Koffer",hint:"هذا الاسم المذكر يأتي من الكلمة الفرنسية للصندوق."},
+        {type:"mc",q:"أي كلمة تعني 'حقيبة سفر'؟",opts:["das Gepäck","das Ticket","der Zoll","der Koffer"],ans:"der Koffer",hint:"هذا الاسم المذكر يأتي من الكلمة الفرنسية للصندوق."},
         {type:"fb",s:"Was {1} das auf Deutsch?",a:["bedeutet"],opts:["bedeutet","findet","fragt","kennt"],hint:"هذا الفعل يُستخدم لسؤال عن معنى كلمة.",sSrc:"ماذا يعني ذلك بالألمانية؟"},
-        {type:"mc",q:"'Ich _____ Berlin gut.' Which verb fits? You have visited Berlin many times.",opts:["weiß","frage","kenne","finde"],ans:"kenne",hint:"هذا يتعلق بالألفة الشخصية مع مكان."},
+        {type:"mc",q:"'Ich _____ Berlin gut.' أيّ فعل يناسب؟ لقد زرت برلين مرات عديدة.",opts:["weiß","frage","kenne","finde"],ans:"kenne",hint:"هذا يتعلق بالألفة الشخصية مع مكان."},
         {type:"match",pairs:[
-            {trg:"der Flughafen",src:"the airport"},
-            {trg:"das Flugzeug",src:"the airplane"},
-            {trg:"die Reise",src:"the trip"},
-            {trg:"der Abflug",src:"the departure"},
-            {trg:"der Zoll",src:"customs"}
+            {trg:"der Flughafen",src:"المطار"},
+            {trg:"das Flugzeug",src:"الطائرة"},
+            {trg:"die Reise",src:"الرحلة"},
+            {trg:"der Abflug",src:"المغادرة"},
+            {trg:"der Zoll",src:"الجمارك"}
           ]},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-departures-evening",trg:"Die Reise hat gerade erst begonnen. Aber ich habe schon so viel gelernt. Hallo, Deutschland. Ich bin bereit für mehr.",src:"الرحلة بدأت للتو. لكنني تعلمت الكثير بالفعل. مرحبًا يا ألمانيا. أنا مستعد للمزيد."}
       ]}

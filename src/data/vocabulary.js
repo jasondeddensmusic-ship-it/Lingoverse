@@ -62,7 +62,7 @@ export const UI={
   ob_desc:{en:"Master any language with AI-powered lessons, personalized vocabulary, and real conversation practice.",ar:"أتقن أي لغة مع دروس بالذكاء الاصطناعي ومفردات مخصصة وممارسة محادثة حقيقية.",fr:"Maîtrisez n'importe quelle langue avec des leçons IA, du vocabulaire personnalisé et de la conversation.",es:"Domina cualquier idioma con lecciones de IA, vocabulario personalizado y práctica de conversación.",tr:"Yapay zeka destekli dersler, kişiselleştirilmiş kelime hazinesi ve gerçek konuşma pratiği ile herhangi bir dili öğrenin."},
   ob_start:{en:"Get Started →",ar:"ابدأ الآن ←",fr:"Commencer →",es:"Empezar →",tr:"Başla →"},
   ob_i_speak:{en:"I speak...",ar:"أتحدث...",fr:"Je parle...",es:"Hablo...",tr:"Konuştuğum dil..."},
-  ob_choose_native:{en:"Choose your native language",ar:"اختر لغتك الأم",fr:"Choisissez votre langue maternelle",es:"Elige tu idioma nativo",tr:"Ana dilinizi seçin"},
+  ob_choose_native:{en:"Choose your native or strongest language",ar:"اختر لغتك الأم أو الأقوى",fr:"Choisissez votre langue maternelle ou la plus forte",es:"Elige tu idioma nativo o más fuerte",tr:"Ana dilinizi veya en güçlü dilinizi seçin"},
   ob_select_lang:{en:"Select your language...",ar:"اختر لغتك...",fr:"Sélectionnez votre langue...",es:"Selecciona tu idioma...",tr:"Dilinizi seçin..."},
   ob_continue:{en:"Continue",ar:"متابعة",fr:"Continuer",es:"Continuar",tr:"Devam"},
   ob_i_want_learn:{en:"I want to learn...",ar:"أريد أن أتعلم...",fr:"Je veux apprendre...",es:"Quiero aprender...",tr:"Öğrenmek istediğim dil..."},

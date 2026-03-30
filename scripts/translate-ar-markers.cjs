@@ -82,6 +82,15 @@ for (const unitNum of units) {
 
   let content = fs.readFileSync(unitFile, 'utf8');
 
+  // Protect comment header lines from [AR] replacement
+  // (comment line 2 contains "[AR]" as a label, not a translation marker)
+  const lines = content.split('\n');
+  const headerLines = [];
+  while (lines.length > 0 && lines[0].trimStart().startsWith('//')) {
+    headerLines.push(lines.shift());
+  }
+  content = lines.join('\n');
+
   // Normalize Unicode to NFC (some files have NFD decomposed ü/ö)
   content = content.normalize('NFC');
 
@@ -100,7 +109,8 @@ for (const unitNum of units) {
     const marker = `[AR] ${eng}`;
     if (!content.includes(marker)) continue;
     // PP39: Ensure \n stays as literal \n in JS strings, never actual newlines
-    const safeValue = ALL_TRANSLATIONS[eng].replace(/\n/g, '\\n');
+    // Also replace double quotes with single quotes to avoid breaking JS string literals
+    const safeValue = ALL_TRANSLATIONS[eng].replace(/\n/g, '\\n').replace(/"/g, "'");
     // Count occurrences
     let count = 0;
     let idx = content.indexOf(marker);
@@ -114,6 +124,9 @@ for (const unitNum of units) {
 
   const afterCount = (content.match(/\[AR\]/g) || []).length;
   const coverage = beforeCount > 0 ? ((beforeCount - afterCount) / beforeCount * 100).toFixed(1) : '100.0';
+
+  // Rejoin header lines before writing
+  content = headerLines.join('\n') + '\n' + content;
 
   if (!dryRun && replaced > 0) {
     fs.writeFileSync(unitFile, content);

@@ -4125,8 +4125,8 @@ function Onboarding({onComplete}){
         <div style={{width:76,height:76,borderRadius:19,margin:"0 auto 16px",overflow:"hidden",boxShadow:"0 8px 28px rgba(123,94,232,0.25)",position:"relative"}}>
           <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center"}}><CountryFlag code={baseSel} size={44}/></div>
         </div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4,fontFamily:"'Quicksand',sans-serif"}}>I speak...</h2>
-        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>Choose your native or strongest language</p>
+        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4,fontFamily:"'Quicksand',sans-serif"}}>{t("ob_i_speak",baseSel||"en")}</h2>
+        <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>{t("ob_choose_native",baseSel||"en")}</p>
 
         <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center",maxWidth:460,margin:"0 auto 28px"}}>
           {BASE_LANGUAGES.map(l=>(
@@ -4137,7 +4137,7 @@ function Onboarding({onComplete}){
         </div>
 
         <button className="btn btn-blue" style={{fontSize:17,padding:"14px 36px",borderRadius:16,opacity:baseSel?1:.4,transition:"all .2s"}} disabled={!baseSel} onClick={()=>baseSel&&setStep("target")}>
-          Continue →
+          {t("ob_continue",baseSel||"en")} →
         </button>
       </div>
     </div>
@@ -4154,7 +4154,7 @@ function Onboarding({onComplete}){
             <div style={{width:"100%",height:"100%",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:32,fontWeight:900,color:"#fff",fontFamily:"'Quicksand',sans-serif"}}>?</div>
           )}
         </div>
-        <div style={{marginBottom:8}}><button onClick={()=>setStep("source")} style={{background:"none",border:"none",color:"var(--purple-accent-text)",fontSize:12,fontWeight:700,cursor:"pointer",fontFamily:"'Nunito',sans-serif"}}>← Change source language</button></div>
+        <div style={{marginBottom:8}}><button onClick={()=>setStep("source")} style={{background:"none",border:"none",color:"var(--purple-accent-text)",fontSize:12,fontWeight:700,cursor:"pointer",fontFamily:"'Nunito',sans-serif"}}>{baseSel==="ar"?"→ تغيير اللغة الأم":"← Change source language"}</button></div>
         <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:4,fontFamily:"'Quicksand',sans-serif"}}>{t("ob_i_want_learn",baseSel)}</h2>
         <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>{t("ob_choose_target",baseSel)}</p>
 
