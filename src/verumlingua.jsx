@@ -3359,29 +3359,26 @@ function VocabTable({words,dk,rowStyle,LevelPill,posLabel,genderLabel,genderColo
   return(
     <div>
       {visible.map((w,i)=>(
-        <div key={i} style={{
-          display:"flex",alignItems:"center",gap:10,
-          padding:"10px 16px",marginBottom:4,borderRadius:16,
-          background:dk?"rgba(123,94,232,0.08)":"rgba(220,213,255,0.25)",
-          border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(200,190,255,0.35)",
-          transition:"background .15s",
-        }}>
-          {/* Level pill — compact */}
-          <span style={{
-            display:"inline-block",padding:"2px 6px",borderRadius:8,fontSize:9,fontWeight:800,
-            fontFamily:"'Quicksand',sans-serif",color:"#fff",minWidth:24,textAlign:"center",
-            background:`linear-gradient(180deg, ${({A1:"#A890FF",A2:"#9B7AE8",B1:"#7B5EE8",B2:"#6545C8"}[w.l]||"#888")} 0%, ${({A1:"#8B6AE4",A2:"#7B5EE8",B1:"#6545C8",B2:"#5230B0"}[w.l]||"#666")} 100%)`,
-            textShadow:"0 1px 1px rgba(0,0,0,0.2)",letterSpacing:0.5,flexShrink:0,
-          }}>{w.l}</span>
-          {/* Word + POS tag */}
-          <div style={{flex:1,minWidth:0}}>
-            <span style={{fontSize:14,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:w.g?genderColor(w.g):"var(--gray-800)"}}>{w.w}</span>
-            {w.f&&w.f!==w.w&&<span style={{fontSize:11,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontFamily:"'Nunito',sans-serif",marginLeft:6}}>{w.f}</span>}
-            {w.p&&posTag(w.p)&&<span style={{fontSize:9,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:6,letterSpacing:0.5}}>{posTag(w.p)}</span>}
-            {w.g&&<span style={{fontSize:9,fontWeight:700,color:genderColor(w.g),marginLeft:4}}>{genderLabel(w.g)}</span>}
+        <div key={i} style={{...rowStyle,padding:"10px 16px"}}>
+          <GlossArc/>
+          <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
+            {/* Level pill — compact */}
+            <span style={{
+              display:"inline-block",padding:"2px 6px",borderRadius:8,fontSize:9,fontWeight:800,
+              fontFamily:"'Quicksand',sans-serif",color:"#fff",minWidth:24,textAlign:"center",
+              background:`linear-gradient(180deg, ${({A1:"#A890FF",A2:"#9B7AE8",B1:"#7B5EE8",B2:"#6545C8"}[w.l]||"#888")} 0%, ${({A1:"#8B6AE4",A2:"#7B5EE8",B1:"#6545C8",B2:"#5230B0"}[w.l]||"#666")} 100%)`,
+              textShadow:"0 1px 1px rgba(0,0,0,0.2)",letterSpacing:0.5,flexShrink:0,
+            }}>{w.l}</span>
+            {/* Word + POS tag — no gender coloring, all words same color */}
+            <div style={{flex:1,minWidth:0}}>
+              <span style={{fontSize:14,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)"}}>{w.w}</span>
+              {w.f&&w.f!==w.w&&<span style={{fontSize:11,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontFamily:"'Nunito',sans-serif",marginLeft:6}}>{w.f}</span>}
+              {w.p&&posTag(w.p)&&<span style={{fontSize:9,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:6,letterSpacing:0.5}}>{posTag(w.p)}</span>}
+              {w.g&&<span style={{fontSize:9,fontWeight:700,color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:4}}>{genderLabel(w.g)}</span>}
+            </div>
+            {/* Translation */}
+            <span style={{fontSize:12,color:dk?"rgba(200,190,255,0.6)":"var(--gray-500)",fontFamily:"'Nunito',sans-serif",fontWeight:500,textAlign:"right",flexShrink:0,maxWidth:"45%"}}>{w.tr}</span>
           </div>
-          {/* Translation */}
-          <span style={{fontSize:12,color:dk?"rgba(200,190,255,0.6)":"var(--gray-500)",fontFamily:"'Nunito',sans-serif",fontWeight:500,textAlign:"right",flexShrink:0,maxWidth:"45%"}}>{w.tr}</span>
         </div>
       ))}
 
