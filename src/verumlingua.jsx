@@ -5916,7 +5916,7 @@ export default function App(){
       <div className="bottomnav">
         {tabs.map(tb=>(
           <div key={tb.id} className={`bottomnav-item ${page===tb.id?"active":""}`}
-            onClick={()=>setPage(tb.id)}>
+            onClick={()=>{setPage(tb.id);if(tb.id==="chat"){setShowVerumius(false);setVrFullscreen(false);setVrPos(null);}}}>
             <span className="bottomnav-icon"><AppIcon name={tb.icon} size={24}/></span>
             <span>{tb.label}</span>
           </div>
@@ -5974,8 +5974,8 @@ export default function App(){
               if(e.key==="Escape"){e.preventDefault();setShowVerumius(false);}
             }}
             placeholder="Ask Verumius…"/>
-          <button className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius}>
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
+          <button className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius} onTouchEnd={e=>{e.preventDefault();if(vInput.trim()&&!vLoading)sendToVerumius();}}>
+            <svg width="16" height="16" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
           </button>
         </div>
       </div>;})()}
@@ -6000,7 +6000,7 @@ export default function App(){
         </div>
       </div>
       {/* Verumius FAB (mobile only — CSS hides on desktop) */}
-      {ob&&authed&&<div className={"vr-fab"+(showVerumius?" open":"")} onClick={()=>{
+      {ob&&authed&&page!=="chat"&&<div className={"vr-fab"+(showVerumius?" open":"")} onClick={()=>{
         if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}
         else{setVrSource("fab");setVrFullscreen(false);setShowVerumius(true);}
       }}>
