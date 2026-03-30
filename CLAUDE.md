@@ -295,6 +295,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Mobile optimization** (2026-03-30): Bottom nav (5 tabs), Verumius FAB, safe areas, swipe navigation, bottom sheets, responsive typography/grids, touch targets, button feedback. Old Nova chat replaced with Verumius full-page chat.
 - **Chat system** (2026-03-30): Nova killed (broken CORS). Verumius full-page chat via Cloudflare Workers. FAB opens floating panel on non-chat pages.
 - **Dictionary color system** (2026-03-30): Critical POS tag mismatch fixed. `aux_verb`, `modal_verb`, `conjunction_coord/sub`, `pronoun_dat/refl/rel/dem/indef` added to WORDTYPE_PACK + Gender pack colorMaps. GERMAN_FORM_INDEX wired into lookupWord() + universalHl(). WordBubble enriched with POS/gender/funFact. VocabularyPage: German Conjugation/Cases/Examples tabs added. Coverage: ~50% to ~90%.
+- **Dictionary 100% coverage** (2026-03-30): Layer 1 (unknown word fallback) + Layer 2 (proper noun detection). MiniWordPopup/WordBubble added to all 10+ renderers. Every word in every sentence now visible and tappable.
+- **GrammarPage/IdiomsPage generalized** (2026-03-30): Dutch data extracted to modules. Language-agnostic loading via GRAMMAR_REFS/IDIOM_REFS. "Coming soon" placeholder for unsupported languages.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -306,23 +308,23 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
 8. ~~Arabic A1 translation~~ — **RESOLVED.** A1+A2 fully translated. 19 B1/B2 units remain (PAUSED).
 9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage. See `docs/SESSION_HANDOFF_2026-03-30d.md`.
-10. **Dictionary: unknown word fallback** — Words NOT in WORD_DB render as invisible plain text. Need tappable "unknown" style. ~30 lines in universalHl().
-11. **Dictionary: proper noun detection** — Names (Verumius, Berlin, Anna) get no treatment. Need capitalization heuristic. ~40 lines in universalHl().
-12. **GrammarPage** — Hardcoded Dutch only, not reusable for other languages.
-13. **IdiomsPage** — Hardcoded Dutch only.
+10. ~~Dictionary: unknown word fallback~~ — **RESOLVED.** Unknown words now tappable with subtle style + "Not yet catalogued" popup.
+11. ~~Dictionary: proper noun detection~~ — **RESOLVED.** Capitalization heuristic detects names. Warm grey + "PROPER NOUN" badge.
+12. ~~GrammarPage~~ — **RESOLVED.** Generalized to load from `GRAMMAR_REFS[lang]`. Dutch data extracted to `src/data/grammar/dutch.js`. "Coming soon" for unsupported languages. Note: Dutch content is MOCK quality.
+13. ~~IdiomsPage~~ — **RESOLVED.** Generalized to load from `IDIOM_REFS[lang]`. Dutch idioms extracted with language-agnostic fields.
 14. ~~Mobile optimization~~ — **RESOLVED** (2026-03-30). Bottom nav, FAB, safe areas, swipe, bottom sheets.
+15. **German CEFR POS tags** — ~1,620 entries had `p:"other"`. Fix in progress.
 
 ---
 
 ## Next Priorities
 
-1. **Dictionary: 100% word coverage** — Fix unknown word fallback + proper noun detection in universalHl(). See `docs/SESSION_HANDOFF_2026-03-30d.md` Layers 1+2. ~70 lines total.
-2. **Reference page content** — Improve CefrReferencePage data quality for German.
-3. **GrammarPage generalization** — Either generalize beyond Dutch or fold into CefrReferencePage.
+1. **German grammar module** — Write `src/data/grammar/german.js` from Goethe-Institut sources. Cases, gender, separable verbs, word order. Same structure as `dutch.js` (title, icon, explanation, rules[], examples[]).
+2. **German CEFR reference continued** — Verify POS tag fix quality, expand idioms section.
+3. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade)
 4. **Arabic translation (when P1 done)** — 19 units with [AR] markers. See `docs/archive/SESSION_HANDOFF_2026-03-30b.md`.
 5. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing. PAUSED.
 6. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
-7. **Other language rehauling**: Korean → Dutch → French → Spanish
 
 ---
 
@@ -337,7 +339,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Latest session handoff (dictionary color system fix).
+- **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Latest session handoff (dictionary 100% coverage + grammar/idioms generalization).
+- **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
 - **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Previous handoff (mobile optimization + chat fix).
 - **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Milestone: German v2 PERFECT validation.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
@@ -363,7 +366,7 @@ Historical docs. Not needed for current work.
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-03-30d.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-03-30e.md` for latest context.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
