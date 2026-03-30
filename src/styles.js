@@ -761,9 +761,12 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 
 /* ── CHAT ── */
 .chat-wrap {
-  display: flex; flex-direction: column; height: calc(100vh - 200px);
+  display: flex; flex-direction: column; height: calc(100dvh - 200px);
   max-height: 580px; background: var(--gray-50); border-radius: var(--radius-lg);
   border: 2px solid var(--gray-100); overflow: hidden;
+}
+@media (max-width: 700px) {
+  .chat-wrap { height: calc(100dvh - 260px); max-height: none; border-radius: 20px; }
 }
 .chat-msgs { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
 .chat-bub {

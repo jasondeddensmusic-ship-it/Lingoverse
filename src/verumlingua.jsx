@@ -1277,125 +1277,84 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
 
 function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
   const L=LANGUAGES.find(l=>l.code===lang);
+  const dk=document.documentElement.classList.contains("dark");
   const [msgs,setMsgs]=useState([]);
-  const [chatHistory,setChatHistory]=useState([]);
   const [input,setInput]=useState("");
-  const [typing,setTyping]=useState(false);
-  const [error,setError]=useState(null);
-  const [userProfile,setUserProfile]=useState({name:"",interests:[],level:"beginner"});
+  const [loading,setLoading]=useState(false);
   const endRef=useRef(null);
-  const starters=CHAT_STARTERS[lang]||[];
-  const knownWords=learnedWords||[];
 
-  const buildSystemPrompt=()=>{
-    const langName=L?.name||"the target language";
-    const knownList=knownWords.length>0?knownWords.slice(-30).join(", "):"none yet";
-    const profileInfo=userProfile.name?`The user's name is ${userProfile.name}.`:"";
-    const levelMap={beginner:"A1-A2",intermediate:"B1-B2",advanced:"C1-C2"};
-    return `You are Nova, a warm, encouraging AI language tutor specializing in ${langName} inside LingoVerse.
+  useEffect(()=>{endRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,loading]);
 
-CORE BEHAVIOR:
-- Primarily speak in ${langName} with helpful English translations
-- Adapt complexity to: ${levelMap[userProfile.level]||"A1-A2 (beginner)"}
-- After EVERY ${langName} message, include English translation in parentheses
-- Gently correct grammar/vocabulary mistakes — be specific but encouraging
-- Introduce 1-2 new words per exchange relevant to the topic
-${profileInfo}
-- Words already learned: ${knownList}
-
-RESPONSE FORMAT (raw JSON only, no markdown):
-{"message":"Your response mixing ${langName} with English help","hint":"One specific learning tip","newWords":["word1","word2"]}
-
-PERSONALITY: Warm, patient, celebrates small wins. Keep responses concise (2-4 sentences max).
-IMPORTANT: Respond ONLY with valid JSON.`;
-  };
-
-  useEffect(()=>{setMsgs([]);setChatHistory([]);setError(null);setTimeout(()=>callAI(null,true),300);},[lang]);
-  useEffect(()=>{endRef.current?.scrollIntoView({behavior:"smooth"});},[msgs]);
-
-  const callAI=async(userText,isGreeting=false)=>{
-    setTyping(true);setError(null);
-    const newHistory=[...chatHistory];
-    if(userText) newHistory.push({role:"user",content:userText});
-    const apiMessages=isGreeting?[{role:"user",content:`The user just opened ${L?.name} chat. Send a warm greeting in ${L?.name} (with English translation). Respond in JSON format only.`}]:newHistory;
+  const sendMsg=async(text)=>{
+    const content=(text||input).trim();
+    if(!content||loading)return;
+    const userMsg={role:"user",content};
+    const next=[...msgs,userMsg];
+    setMsgs(next);
+    if(!text)setInput("");
+    setLoading(true);
     try{
-      const response=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:1000,system:buildSystemPrompt(),messages:apiMessages})});
-      const data=await response.json();
-      const rawText=data.content?.map(c=>c.text||"").join("")||"";
-      let parsed;
-      try{const cleaned=rawText.replace(/```json\s*|```\s*/g,"").trim();parsed=JSON.parse(cleaned);}catch(e){parsed={message:rawText,hint:null,newWords:[]};}
-      const aiMsg={type:"ai",text:parsed.message||rawText,hint:parsed.hint||null,newWords:parsed.newWords||[]};
-      setMsgs(m=>[...m,aiMsg]);
-      if(!isGreeting){setChatHistory([...newHistory,{role:"assistant",content:rawText}]);}else{setChatHistory([{role:"assistant",content:rawText}]);}
-      if(userText&&!userProfile.name){const nm=userText.match(/(?:my name is|i'm|i am|je m'appelle|ich heiße|me llamo|ik heet|меня зовут)\s+(\w+)/i);if(nm)setUserProfile(p=>({...p,name:nm[1]}));}
+      const tgtName=LANG_META[lang]?.name||lang;
+      const primer=[
+        {role:"user",content:`[Tutor setup: The user is actively learning ${tgtName}. Current page: chat. Help them practice ${tgtName} naturally. Mix ${tgtName} with their base language. Correct mistakes gently. Keep responses 2-4 sentences.]`},
+        {role:"assistant",content:`Understood! I'll practice ${tgtName} with you naturally.`}
+      ];
+      const r=await fetch("https://verumlingua-ai.xqkv62nnqq.workers.dev",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({messages:[...primer,...next],context:{page:"chat",lang,langName:tgtName}})
+      });
+      const d=await r.json();
+      const reply=d.content?.[0]?.text||(d.error?.message?`Error: ${d.error.message}`:"Sorry, something went wrong.");
+      setMsgs(m=>[...m,{role:"assistant",content:reply}]);
+      addXp(3);addChat();
     }catch(err){
-      console.error("Nova AI error:",err);
-      setError("Nova had a moment — try again!");
-      const fb=AI_RESP[lang];const r=fb?.r?.[Math.floor(Math.random()*(fb.r?.length||1))]||{t:"Let's keep practicing! 🌟",h:"Try again!"};
-      setMsgs(m=>[...m,{type:"ai",text:r.t,hint:r.h}]);
+      setMsgs(m=>[...m,{role:"assistant",content:`Connection error. Check your internet and try again.`}]);
     }
-    setTyping(false);
+    setLoading(false);
   };
-
-  const send=text=>{if(!text.trim()||typing)return;setMsgs(m=>[...m,{type:"user",text:text.trim()}]);setInput("");addXp(3);addChat();callAI(text.trim());};
 
   return(
-    <div className="anim">
-      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:16}}>
+    <div className="anim" style={{display:"flex",flexDirection:"column",height:"calc(100dvh - 140px - env(safe-area-inset-bottom, 0px))",maxHeight:"calc(100dvh - 140px)"}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:12,flexShrink:0}}>
         <div>
-          <h2 className="hd" style={{fontSize:24,fontWeight:800,display:"flex",alignItems:"center",gap:8}}><AppIcon name="robot" size={28}/>{t("chat_title",baseLang)}</h2>
-          <p style={{color:"var(--gray-400)",fontSize:13}}>{t("chat_ai_partner",baseLang)} · {L?.native} <CountryFlag code={lang} size={14}/> <span style={{marginLeft:6,color:"var(--purple-accent-text)",fontWeight:700,fontSize:11}}>{t("chat_powered_by",baseLang)}</span></p>
+          <h2 className="hd" style={{fontSize:22,fontWeight:800,display:"flex",alignItems:"center",gap:8}}><AppIcon name="robot" size={26}/> Verumius</h2>
+          <p style={{color:"var(--gray-400)",fontSize:12}}>{t("chat_ai_partner",baseLang)} · {L?.native} <CountryFlag code={lang} size={14}/></p>
         </div>
-        <span className="badge badge-gold">{t("chat_xp_msg",baseLang)}</span>
+        <span className="badge badge-gold" style={{fontSize:11}}>+3 XP</span>
       </div>
 
-      <div style={{display:"flex",gap:6,marginBottom:14}}>
-        {["beginner","intermediate","advanced"].map(lv=>(
-          <button key={lv} className={`btn ${userProfile.level===lv?"btn-blue":"btn-outline"}`} style={{fontSize:11,padding:"5px 12px",textTransform:"capitalize"}} onClick={()=>setUserProfile(p=>({...p,level:lv}))}>
-            {lv==="beginner"?"🌱":lv==="intermediate"?"🌿":"🌳"} {t(lv==="beginner"?"chat_beginner":lv==="intermediate"?"chat_intermediate":"chat_advanced",baseLang)}
-          </button>
+      <div style={{flex:1,overflow:"auto",borderRadius:20,background:dk?"rgba(30,26,55,0.6)":"rgba(248,246,255,0.7)",border:dk?"1.5px solid rgba(123,94,232,0.2)":"1.5px solid rgba(200,190,240,0.4)",padding:16,display:"flex",flexDirection:"column",gap:10,WebkitOverflowScrolling:"touch",overscrollBehavior:"contain"}}>
+        {msgs.length===0&&!loading&&(
+          <div style={{textAlign:"center",padding:"28px 16px",flex:1,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
+            <AppIcon name="robot" size={48}/>
+            <h3 style={{fontFamily:"'Quicksand',sans-serif",fontWeight:800,fontSize:18,color:"var(--gray-700)",margin:"12px 0 8px"}}>Hey, I'm Verumius!</h3>
+            <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:16,maxWidth:280}}>Your AI language tutor. Practice {L?.name||"languages"} with me.</p>
+            <div style={{display:"flex",flexDirection:"column",gap:8,width:"100%",maxWidth:280}}>
+              <button className="btn btn-outline" style={{fontSize:13,padding:"10px 16px",borderRadius:14}} onClick={()=>sendMsg(`Help me practice basic ${L?.name||"language"} conversation.`)}>Practice conversation</button>
+              <button className="btn btn-outline" style={{fontSize:13,padding:"10px 16px",borderRadius:14}} onClick={()=>sendMsg(`I have a question about ${L?.name||"grammar"}.`)}>Ask a question</button>
+            </div>
+          </div>
+        )}
+        {msgs.map((m,i)=>(
+          <div key={i} className={m.role==="assistant"?"vr-ai":"vr-user"} style={{maxWidth:"85%"}}>
+            {m.content}
+          </div>
         ))}
+        {loading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
+        <div ref={endRef}/>
       </div>
 
-      <div className="chat-wrap">
-        <div className="chat-msgs">
-          {msgs.length===0&&!typing&&(
-            <div style={{textAlign:"center",padding:"36px 20px"}}>
-              <div style={{marginBottom:10}}><AppIcon name="robot" size={52}/></div>
-              <h3 className="hd" style={{fontWeight:700,marginBottom:6,fontSize:18}}>{t("chat_meet_nova",baseLang)}</h3>
-              <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:18}}>{t("chat_nova_desc",baseLang)}</p>
-              <div style={{display:"flex",flexDirection:"column",gap:6,maxWidth:300,margin:"0 auto"}}>
-                {starters.map((s,i)=><div key={i} className="chat-starter" onClick={()=>send(s)}>{s}</div>)}
-              </div>
-            </div>
-          )}
-          {msgs.map((m,i)=>(
-            <div key={i} style={{animation:"fadeUp 0.3s ease"}}>
-              <div className={`chat-bub ${m.type==="ai"?"ai":"user"}`}>
-                {m.type==="ai"&&<span style={{fontWeight:700,color:"var(--blue)"}}>{t("chat_nova",baseLang)}: </span>}{m.text}
-              </div>
-              {m.hint&&<div className="chat-hint"><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/> <strong>{t("chat_tip",baseLang)}</strong> {m.hint}</div>}
-              {m.newWords&&m.newWords.length>0&&(
-                <div style={{display:"flex",gap:5,marginTop:5,flexWrap:"wrap"}}>
-                  {m.newWords.map((w,j)=><span key={j} className="chat-nw">✨ {w}</span>)}
-                </div>
-              )}
-            </div>
-          ))}
-          {typing&&(
-            <div className="chat-bub ai" style={{display:"flex",alignItems:"center",gap:6}}>
-              <span style={{fontWeight:700,color:"var(--blue)"}}>{t("chat_nova",baseLang)}</span>
-              <span style={{color:"var(--gray-400)"}}>{t("chat_thinking",baseLang)}</span>
-              <span style={{display:"inline-flex",gap:3}}>{[0,1,2].map(i=><span key={i} style={{width:5,height:5,borderRadius:"50%",background:"var(--blue)",animation:`pulse 1s infinite ${i*0.2}s`}}/>)}</span>
-            </div>
-          )}
-          {error&&<div style={{textAlign:"center",color:"var(--coral)",fontSize:12,padding:6}}>{error}</div>}
-          <div ref={endRef}/>
-        </div>
-        <div className="chat-bar">
-          <input className="chat-input" value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&!typing&&send(input)} placeholder={`${t("le_type_in",baseLang)} ${L?.name||"any language"}...`} disabled={typing}/>
-          <button className="btn btn-blue" onClick={()=>send(input)} disabled={typing} style={{opacity:typing?.5:1}}>{typing?"...":t("chat_send",baseLang)}</button>
-        </div>
+      <div style={{display:"flex",gap:8,paddingTop:10,flexShrink:0}}>
+        <input value={input} onChange={e=>setInput(e.target.value)}
+          onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendMsg();}}}
+          placeholder={`${t("le_type_in",baseLang)} ${L?.name||""}...`}
+          disabled={loading}
+          style={{flex:1,padding:"12px 16px",borderRadius:16,border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(200,190,240,0.5)",background:dk?"rgba(30,26,55,0.8)":"white",fontSize:16,fontFamily:"inherit",outline:"none",color:"var(--gray-700)",WebkitAppearance:"none"}}/>
+        <button onClick={()=>sendMsg()} disabled={!input.trim()||loading}
+          style={{width:44,height:44,borderRadius:14,border:"none",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",background:input.trim()?"linear-gradient(135deg,#7B5EE8,#6040C0)":"var(--gray-200)",color:"white",transition:"all .15s",opacity:loading?0.5:1}}>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="white"><path d="M1 15L8 1L15 15L8 11L1 15Z"/></svg>
+        </button>
       </div>
     </div>
   );
