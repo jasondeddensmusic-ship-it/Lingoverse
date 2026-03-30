@@ -1806,9 +1806,34 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       const isKnownTarget = entry && entry.pos !== "unknown";
       const wordIsNew = isKnownTarget && isNewWord(wordKey, effectiveLang, lessonId);
 
-      // Unknown words (not in WORD_DB or pos="unknown") → plain text, no styling
+      // Unknown words (not in WORD_DB or pos="unknown") → tappable with subtle styling
       if (!isKnownTarget) {
-        spans.push(<span key={contractionPart ? i+"w" : i}>{mainWord}{trailingPunct||""}</span>);
+        // Layer 2: Proper noun detection — capitalized + not first word + not in WORD_DB
+        const isFirstWord = spans.filter(s => s.props && s.props.children && !/^\s+$/.test(String(s.props.children))).length === 0 && !contractionPart;
+        const startsUpper = mainWord[0] === mainWord[0].toUpperCase() && mainWord[0] !== mainWord[0].toLowerCase();
+        const isProperNoun = !isFirstWord && startsUpper;
+
+        const unknownColor = isProperNoun
+          ? (dk ? "#B0BEC5" : "#546E7A")  // warm grey for proper nouns
+          : (dk ? "rgba(200,190,255,0.45)" : "rgba(100,80,160,0.35)");  // subtle muted for unknown
+
+        spans.push(<span key={contractionPart ? i+"w" : i} style={{
+          color: unknownColor,
+          fontWeight: isProperNoun ? 600 : 400,
+          cursor: "pointer",
+          borderBottom: grammarHl ? ("1px dashed " + (dk ? "rgba(200,190,255,0.25)" : "rgba(100,80,160,0.2)")) : "none",
+          transition: "all .1s",
+        }} onClick={(e) => {
+          e.stopPropagation();
+          setMiniWordPopup({
+            word: mainWord,
+            en: isProperNoun ? (mainWord + " (proper noun)") : null,
+            pos: isProperNoun ? "proper_noun" : null,
+            lang: effectiveLang,
+            isUnknown: !isProperNoun,
+            isProperNoun,
+          });
+        }}>{mainWord}{trailingPunct||""}</span>);
         continue;
       }
 
@@ -2157,6 +2182,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ═══ INTRO — Legacy style (non-board lessons) ═══
   if(st.type==="intro") return(
     <div className="anim" key={si}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{textAlign:"center",padding:"20px 0"}}>
         <div style={{width:80,height:80,borderRadius:20,background:`linear-gradient(135deg,${unit.color},${unit.color}bb)`,display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 20px",boxShadow:`0 8px 24px ${unit.color}40`}}><BrandIcon name={lesson.icon} size={38}/></div>
@@ -2242,6 +2269,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     };
     return (
       <div className="anim" key={si}>
+        {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+        {MiniWordPopup}
         <ProgressBar/>
         <div style={{maxWidth:460,margin:"0 auto"}}>
           {/* Speaker label */}
@@ -2323,6 +2352,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     };
     return (
       <div className="anim" key={si}>
+        {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+        {MiniWordPopup}
         <ProgressBar/>
         <div style={{maxWidth:460,margin:"0 auto"}}>
           {/* ═══ NEW-FORMAT TEACH CARD — Same v1 board style, uses trg/src ═══ */}
@@ -2932,9 +2963,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ═══ STANDARD TEACH CARD (legacy/default) ═══
   if(st.type==="teach") return(
     <div className="anim" key={si}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:460,margin:"0 auto"}}>
-        
+
         {/* Gold "NEW WORD" frame — only shows for unlearned words */}
         {isNew&&<div style={{background:"linear-gradient(135deg, var(--gold), #E8960A)",borderRadius:24,padding:"3px",marginBottom:20,boxShadow:"0 6px 24px rgba(245,166,35,0.25)"}}>
           <div style={{background:"var(--gold)",borderRadius:"22px 22px 0 0",padding:"8px 0",textAlign:"center"}}>
@@ -3119,6 +3152,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ═══ VERB TABLE — visual conjugation grid (purple/green scheme) ═══
   if(st.type==="verb_table") return(
     <div className="anim" key={si}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:480,margin:"0 auto"}}>
 
@@ -3395,6 +3430,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ═══ MULTIPLE CHOICE ═══
   if(st.type==="mc") return(
     <div className="anim" key={si}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:500,margin:"0 auto"}}>
         {/* Question card — compound glossy bubble */}
@@ -3515,6 +3552,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     const checkAns=()=>{const result=findMatch(inputVal);checkAndNext(result.ok);};
     return(
       <div className="anim" key={si}>
+        {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+        {MiniWordPopup}
         <ProgressBar/>
       <div style={{maxWidth:500,margin:"0 auto"}}>
         {/* Source sentence card */}
@@ -3559,6 +3598,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     const showAnswer=fbAnswers[0];
     return(
     <div className="anim" key={si}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:480,margin:"0 auto"}}>
         {/* Question card — compound glossy bubble */}
@@ -3743,6 +3784,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     // NOTE: keyboard nav handled by main handler (D7) — no hooks here
     return(
     <div className="anim" key={si} style={{touchAction:"none"}}>
+      {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+      {MiniWordPopup}
       <ProgressBar/>
       <div style={{maxWidth:500,margin:"0 auto"}}>
         {/* Sentence card with slots */}
@@ -3865,6 +3908,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     matchSelectRef.current={nlItems,enItems,nlCount,matchDone,handleMatch};
     return(
       <div className="anim" key={si}>
+        {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
+        {MiniWordPopup}
         <ProgressBar/>
         <div style={{textAlign:"center",marginBottom:18}}>
           <div style={{color:"var(--gray-400)",fontSize:12,textTransform:"uppercase",letterSpacing:2,fontWeight:700,marginBottom:4}}>{t("le_match_pairs",baseLang)}</div>

@@ -109,6 +109,7 @@ export const POS_COLORS = {
   // Special
   "new_word":         { light: "#E8960A", dark: "#F5C040", bubble: true },
   "unknown":          { light: "#607D8B", dark: "#90A4AE" },
+  "proper_noun":      { light: "#546E7A", dark: "#B0BEC5" },
 };
 
 // Gender colors (for nouns AND articles when gender sub-tag present)
