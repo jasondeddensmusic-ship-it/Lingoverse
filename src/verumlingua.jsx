@@ -3004,7 +3004,7 @@ function CefrReferencePage({lang}){
     return out;
   },[ref.grammar]);
 
-  const bandColor=(lv)=>({A1:"#2ECDA7",A2:"#4A8FE7",B1:"#7B5EE8",B2:"#E8475E"}[lv]||"#888");
+  const bandColor=(lv)=>({A1:"#9B7AE8",A2:"#8B6AE4",B1:"#7B5EE8",B2:"#6545C8"}[lv]||"#888");
 
   const posLabel=(p)=>({noun:"Noun",verb:"Verb",adj:"Adjective",adv:"Adverb",prep:"Preposition",conj:"Conjunction",pron:"Pronoun",part:"Particle",interj:"Interjection",phrase:"Phrase",prefix:"Prefix",modal:"Modal verb",aux:"Auxiliary",num:"Number",det:"Determiner",abbrev:"Abbreviation"}[p]||p||"");
   const genderLabel=(g)=>({m:"masc",f:"fem",n:"neut",pl:"plural"}[g]||g||"");
@@ -3354,29 +3354,34 @@ function CefrReferencePage({lang}){
 function VocabTable({words,dk,rowStyle,LevelPill,posLabel,genderLabel,genderColor,GlossArc}){
   const [showCount,setShowCount]=useState(100);
   const visible=words.slice(0,showCount);
+  const posTag=(p)=>({noun:"N",verb:"V",adj:"ADJ",adv:"ADV",prep:"PREP",conj:"CONJ",pron:"PRON",part:"PART",intj:"INTJ",phrase:"PHR",prefix:"PFX",modal:"MOD",aux:"AUX",num:"NUM",det:"DET",abbrev:"ABBR",number:"NUM",particle:"PART",adjective:"ADJ",adverb:"ADV",preposition:"PREP",conjunction:"CONJ",pronoun:"PRON",interjection:"INTJ"}[p]||"");
 
   return(
     <div>
-      {/* Column headers */}
-      <div style={{display:"grid",gridTemplateColumns:"2fr 1fr 60px 2fr",gap:8,padding:"4px 14px",fontSize:11,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",textTransform:"uppercase",letterSpacing:0.8,marginBottom:4}}>
-        <span>Word</span><span>Type</span><span>Level</span><span>Translation</span>
-      </div>
-
       {visible.map((w,i)=>(
-        <div key={i} style={{...rowStyle,padding:"8px 14px"}}>
-          <GlossArc/>
-          <div style={{position:"relative",zIndex:1,display:"grid",gridTemplateColumns:"2fr 1fr 60px 2fr",gap:8,alignItems:"center"}}>
-            <div>
-              <span style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:w.g?genderColor(w.g):"var(--gray-800)"}}>{w.w}</span>
-              {w.f&&w.f!==w.w&&<span style={{fontSize:11,color:"var(--gray-400)",fontFamily:"'Nunito',sans-serif",marginLeft:6}}>{w.f}</span>}
-            </div>
-            <div style={{display:"flex",flexWrap:"wrap",gap:3}}>
-              {w.p&&<span style={{fontSize:10,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.5)":"var(--gray-500)"}}>{posLabel(w.p)}</span>}
-              {w.g&&<span style={{fontSize:10,fontWeight:700,color:genderColor(w.g)}}>{genderLabel(w.g)}</span>}
-            </div>
-            <LevelPill lv={w.l} small/>
-            <span style={{fontSize:12,color:"#2ECDA7",fontFamily:"'Nunito',sans-serif",fontWeight:600}}>{w.tr}</span>
+        <div key={i} style={{
+          display:"flex",alignItems:"center",gap:10,
+          padding:"10px 16px",marginBottom:4,borderRadius:16,
+          background:dk?"rgba(123,94,232,0.08)":"rgba(220,213,255,0.25)",
+          border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(200,190,255,0.35)",
+          transition:"background .15s",
+        }}>
+          {/* Level pill — compact */}
+          <span style={{
+            display:"inline-block",padding:"2px 6px",borderRadius:8,fontSize:9,fontWeight:800,
+            fontFamily:"'Quicksand',sans-serif",color:"#fff",minWidth:24,textAlign:"center",
+            background:`linear-gradient(180deg, ${({A1:"#A890FF",A2:"#9B7AE8",B1:"#7B5EE8",B2:"#6545C8"}[w.l]||"#888")} 0%, ${({A1:"#8B6AE4",A2:"#7B5EE8",B1:"#6545C8",B2:"#5230B0"}[w.l]||"#666")} 100%)`,
+            textShadow:"0 1px 1px rgba(0,0,0,0.2)",letterSpacing:0.5,flexShrink:0,
+          }}>{w.l}</span>
+          {/* Word + POS tag */}
+          <div style={{flex:1,minWidth:0}}>
+            <span style={{fontSize:14,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:w.g?genderColor(w.g):"var(--gray-800)"}}>{w.w}</span>
+            {w.f&&w.f!==w.w&&<span style={{fontSize:11,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontFamily:"'Nunito',sans-serif",marginLeft:6}}>{w.f}</span>}
+            {w.p&&posTag(w.p)&&<span style={{fontSize:9,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:6,letterSpacing:0.5}}>{posTag(w.p)}</span>}
+            {w.g&&<span style={{fontSize:9,fontWeight:700,color:genderColor(w.g),marginLeft:4}}>{genderLabel(w.g)}</span>}
           </div>
+          {/* Translation */}
+          <span style={{fontSize:12,color:dk?"rgba(200,190,255,0.6)":"var(--gray-500)",fontFamily:"'Nunito',sans-serif",fontWeight:500,textAlign:"right",flexShrink:0,maxWidth:"45%"}}>{w.tr}</span>
         </div>
       ))}
 
