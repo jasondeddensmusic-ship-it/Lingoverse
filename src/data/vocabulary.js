@@ -57,6 +57,7 @@ export const UI={
   nav_chat:{en:"Chat",ar:"محادثة",fr:"Discuter",es:"Chat",tr:"Sohbet"},
   nav_vocab:{en:"Vocab",ar:"مفردات",fr:"Vocab",es:"Vocab",tr:"Kelimeler"},
   nav_profile:{en:"Profile",ar:"الملف",fr:"Profil",es:"Perfil",tr:"Profil"},
+  nav_ref:{en:"Reference",ar:"المرجع",fr:"Référence",es:"Referencia",tr:"Başvuru"},
   ob_title:{en:"LingoVerse",ar:"LingoVerse",fr:"LingoVerse",es:"LingoVerse",tr:"LingoVerse"},
   ob_subtitle:{en:"Your AI Language Universe",ar:"عالمك اللغوي بالذكاء الاصطناعي",fr:"Votre univers linguistique IA",es:"Tu universo de idiomas con IA",tr:"Yapay Zeka Dil Evrenin"},
   ob_desc:{en:"Master any language with AI-powered lessons, personalized vocabulary, and real conversation practice.",ar:"أتقن أي لغة مع دروس بالذكاء الاصطناعي ومفردات مخصصة وممارسة محادثة حقيقية.",fr:"Maîtrisez n'importe quelle langue avec des leçons IA, du vocabulaire personnalisé et de la conversation.",es:"Domina cualquier idioma con lecciones de IA, vocabulario personalizado y práctica de conversación.",tr:"Yapay zeka destekli dersler, kişiselleştirilmiş kelime hazinesi ve gerçek konuşma pratiği ile herhangi bir dili öğrenin."},

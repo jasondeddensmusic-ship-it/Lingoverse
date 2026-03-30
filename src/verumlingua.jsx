@@ -5909,7 +5909,7 @@ export default function App(){
       {id:"home",icon:"house",label:t("nav_home",baseLang)},
       {id:"learn",icon:"books_stack",label:t("nav_learn",baseLang)||"Learn"},
       {id:"chat",icon:"robot",label:t("nav_chat",baseLang)},
-      {id:"cefr-reference",icon:"globe",label:"CEFR"},
+      {id:"cefr-reference",icon:"clipboard",label:t("nav_ref",baseLang)||"Ref"},
       {id:"profile",icon:"avatar",label:t("nav_profile",baseLang)},
     ];
     return(
