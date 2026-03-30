@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { createPortal } from "react-dom";
 import { LANGUAGES, BASE_LANGUAGES, LANG_META, LANG_BLUEPRINT, LANG_TOKENIZER } from '../data/metadata.js';
 import { TEXT_KEYS, tk, t, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, ARTICLE_COLORS, getArticle, LEVEL_XP, ACHS } from '../data/vocabulary.js';
-import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
+import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, GERMAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
 import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, UNITS, _romanize, _normS, validateLessonForLeaks } from '../utils.js';
 import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, UISounds } from '../audio.jsx';
 import { useFocusNav, KB_FOCUS_SEL, useSwipe } from '../hooks.js';
@@ -1541,18 +1541,32 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               </div>
             )}
 
-            {/* ── TOP ROW: level badge + close ── */}
+            {/* ── TOP ROW: badges + close ── */}
             <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:12}}>
-              <span style={{
-                fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:2,
-                color:dk?"rgba(255,255,255,0.88)":"#7050D8",
-                background:dk
-                  ?"linear-gradient(135deg, rgba(168,144,255,0.25), rgba(140,112,255,0.15))"
-                  :"linear-gradient(135deg, rgba(112,80,216,0.12), rgba(140,112,255,0.08))",
-                border:dk?"1px solid rgba(168,144,255,0.3)":"1px solid rgba(112,80,216,0.18)",
-                borderRadius:8,padding:"3px 10px",
-                boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 1px 0 rgba(255,255,255,0.9)",
-              }}>{entry.level}</span>
+              <div style={{display:"flex",flexWrap:"wrap",gap:5,alignItems:"center"}}>
+                {entry.level&&<span style={{
+                  fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:2,
+                  color:dk?"rgba(255,255,255,0.88)":"#7050D8",
+                  background:dk
+                    ?"linear-gradient(135deg, rgba(168,144,255,0.25), rgba(140,112,255,0.15))"
+                    :"linear-gradient(135deg, rgba(112,80,216,0.12), rgba(140,112,255,0.08))",
+                  border:dk?"1px solid rgba(168,144,255,0.3)":"1px solid rgba(112,80,216,0.18)",
+                  borderRadius:8,padding:"3px 10px",
+                  boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.1)":"inset 0 1px 0 rgba(255,255,255,0.9)",
+                }}>{(entry.level||"").substring(0,2)}</span>}
+                {entry.pos&&<span style={{
+                  fontSize:10,fontWeight:800,textTransform:"uppercase",letterSpacing:1,
+                  color:dk?"rgba(255,255,255,0.85)":"#fff",
+                  background:POS_COLORS[entry.pos]||(dk?"rgba(168,144,255,0.3)":"#7B5EE8"),
+                  borderRadius:8,padding:"3px 9px",
+                }}>{entry.pos}</span>}
+                {entry.gender&&<span style={{
+                  fontSize:10,fontWeight:800,textTransform:"uppercase",letterSpacing:1,
+                  color:"#fff",
+                  background:GENDER_COLORS[entry.gender]||(dk?"rgba(168,144,255,0.3)":"#7B5EE8"),
+                  borderRadius:8,padding:"3px 9px",
+                }}>{({m:"der",f:"die",n:"das",pl:"die (pl)"})[entry.gender]||entry.gender}</span>}
+              </div>
               <button onClick={onClose} style={{
                 background:"none",border:"none",cursor:"pointer",fontSize:20,lineHeight:1,padding:"2px 4px",
                 color:dk?"rgba(200,184,255,0.45)":"rgba(112,80,216,0.3)",
@@ -1639,6 +1653,20 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 display:"flex",flexWrap:"wrap",alignItems:"center",gap:4,
                 fontStyle:"italic",
               }}>{bubbleHl(entry.note,13)}</div>
+            </>}
+
+            {/* ── FUN FACT — gold-tinted, v2 signature ── */}
+            {entry.funFact&&typeof entry.funFact==="string"&&<>
+              <div style={{height:1,background:dk?"rgba(245,166,35,0.12)":"rgba(200,130,10,0.1)",margin:"10px 0 8px"}}/>
+              <div style={{
+                fontSize:12,lineHeight:1.65,
+                color:dk?"rgba(255,230,180,0.85)":"rgba(140,100,20,0.75)",
+                background:dk?"rgba(245,166,35,0.08)":"rgba(245,180,50,0.06)",
+                borderRadius:10,padding:"10px 14px",
+              }}>
+                <span style={{fontSize:10,fontWeight:900,letterSpacing:0.5,textTransform:"uppercase",color:dk?"rgba(245,166,35,0.7)":"rgba(200,130,10,0.65)",marginRight:6}}>Fun Fact</span>
+                {entry.funFact}
+              </div>
             </>}
 
           </div>
@@ -1767,9 +1795,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         }
       }
 
-      // Look up main word in WORD_DB
+      // Look up main word in WORD_DB (with form-index fallback for conjugated forms)
       const wordKey = mainWord.toLowerCase();
-      const entry = dict[wordKey] || null;
+      let entry = dict[wordKey] || null;
+      // Form-index reverse lookup: conjugated forms → lemma entry
+      if (!entry && effectiveLang === "de" && GERMAN_FORM_INDEX[wordKey]) {
+        entry = dict[GERMAN_FORM_INDEX[wordKey]] || null;
+      }
       // Only treat as "known target word" if it has a REAL POS (not "unknown" from example extraction)
       const isKnownTarget = entry && entry.pos !== "unknown";
       const wordIsNew = isKnownTarget && isNewWord(wordKey, effectiveLang, lessonId);
@@ -1797,6 +1829,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
               note: (typeof entry.cognate === "string" ? entry.cognate : entry.note) || null,
               level: entry.level,
+              pos: entry.pos || null,
+              gender: entry.gender || null,
+              funFact: entry.funFact || null,
+              exampleSrc: entry.exampleEn || null,
             }
           });
         };
@@ -1824,10 +1860,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         if (resolved && langDisabled.length > 0 && entry.pos) {
           const p = entry.pos;
           const catDisabled = langDisabled.some(k=>
-            (k==="verb"&&p==="verb")||(k==="adjective"&&p==="adjective")||
+            (k==="verb"&&(p==="verb"||p==="aux_verb"||p==="modal_verb"||p==="aux"||p==="auxiliary"))||(k==="adjective"&&p==="adjective")||
             (k==="adverb"&&(p==="adverb"||p==="pronoun"||p.startsWith("pronoun_")||p==="demonstrative"))||
             (k==="noun"&&p==="noun")||
-            (k==="structure"&&(p==="preposition"||p==="conjunction"||p.startsWith("article")||p==="interjection"||p==="number"||p==="counter"||p==="negation"||p==="question"||p.startsWith("particle_")))||
+            (k==="structure"&&(p==="preposition"||p==="conjunction"||p==="conjunction_coord"||p==="conjunction_sub"||p.startsWith("article")||p==="interjection"||p==="number"||p==="counter"||p==="negation"||p==="question"||p.startsWith("particle_")))||
             (k==="m"&&(p.endsWith("_m")))||(k==="f"&&(p.endsWith("_f")))||
             (k==="n"&&(p.endsWith("_n")||p.endsWith("_het")))||(k==="c"&&(p.endsWith("_c")))||
             (k==="indef"&&(p.endsWith("_indef")))||(k==="pl"&&(p.endsWith("_pl")))||

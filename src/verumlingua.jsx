@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import { VOCAB_DB, getVocab, toTeach, ICON_REG, LANGUAGES, BASE_LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor, FOUNDATION_KEYS, FOUNDATION_SCHEMA, FK_SCHEMA_MAP, FK_MODULE_TYPES, FK_PRACTICE_TYPES, FK_LEARNING_FLOWS, LANG_META, LANG_BLUEPRINT, CULTURE_PACKS, UNIT_TEMPLATES, MKG, p, SCRIPT_BLUEPRINTS, LANG_TOKENIZER } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from './data/foundations.js';
 import { TEXT_KEYS, tk, UI, t, I18N, localize, OBJECTIVES, STANDARDS, LANG_FRAMEWORK, getUnitStandard, getObjectiveStandard, deriveUnitStandard, explainUnitLevel, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, CHAT_STARTERS, AI_RESP, MEANINGS, mkGet, LEVEL_XP, ACHS, ARTICLE_NONE, ARTICLE_SYSTEMS, LANG_FAMILIES, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, KOREAN_GRAMMAR_REFERENCE, GRAMMAR_CATEGORIES, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './data/dictionary.js';
+import { LANG_DICT, WORD_DB, WORD_INTRO_MAP, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, getTaughtWords, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, GERMAN_FORM_INDEX, GERMAN_EXAMPLE_INDEX, KOREAN_MORPHEME_INDEX, KOREAN_EXAMPLE_INDEX, KOREAN_IDIOM_INDEX, KOREAN_GRAMMAR_PATTERNS, KOREAN_GRAMMAR_REFERENCE, GRAMMAR_CATEGORIES, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles, conjugateGermanVerb, getGermanVerbInfo, nounWithCases } from './data/dictionary.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
@@ -2494,21 +2494,30 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     const artEntry=entry.article;
     const disp=entry.display||entry.word||"";
     const isKorean=lang==="ko";
+    const isGerman=lang==="de";
     const isVerb=entry.pos==="verb"||entry.pos==="adjective"||entry.kind==="verb"||entry.kind==="adjective"||(entry.word&&entry.word.endsWith&&entry.word.endsWith("다"));
+    const isDeVerb=isGerman&&(entry.pos==="verb"||entry.pos==="aux");
+    const isDeNoun=isGerman&&entry.pos==="noun"&&!!entry.gender;
     const wordKey=(entry.word||"").toLowerCase();
 
-    // Tab data (Korean-specific deep features)
+    // Tab data
     const tabs=isKorean?[
       {id:"overview",label:"Overview"},
       {id:"forms",label:isVerb?"Forms":"Particles"},
       {id:"examples",label:"Examples"},
       {id:"grammar",label:"Grammar"},
       {id:"related",label:"Related"},
-    ]:[
+    ]:isGerman?(()=>{
+      const t=[{id:"overview",label:"Overview"}];
+      if(isDeVerb)t.push({id:"forms",label:"Conjugation"});
+      if(isDeNoun)t.push({id:"cases",label:"Cases"});
+      t.push({id:"examples",label:"Examples"});
+      return t;
+    })():[
       {id:"overview",label:"Overview"},
     ];
 
-    // Conjugation data (for Forms tab)
+    // Korean conjugation data (for Forms tab)
     const conjData=useMemo(()=>{
       if(!isKorean||!isVerb)return null;
       const dictForm=wordKey.endsWith("다")?wordKey:wordKey+"다";
@@ -2520,17 +2529,39 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       return getIrregInfo(dictForm);
     },[wordKey,isKorean,isVerb]);
 
+    // German conjugation data (for Forms tab)
+    const deConjData=useMemo(()=>{
+      if(!isGerman||!isDeVerb)return null;
+      try{return conjugateGermanVerb(entry.word||wordKey);}catch(e){return null;}
+    },[wordKey,isGerman,isDeVerb]);
+    const deVerbInfo=useMemo(()=>{
+      if(!isGerman||!isDeVerb)return null;
+      try{return getGermanVerbInfo(entry.word||wordKey);}catch(e){return null;}
+    },[wordKey,isGerman,isDeVerb]);
+
     // Particle combinations (for nouns)
     const particleData=useMemo(()=>{
       if(!isKorean||isVerb)return null;
       return nounWithParticles(entry.word||"");
     },[entry.word,isKorean,isVerb]);
 
-    // Examples from curriculum
+    // Examples from curriculum (Korean)
     const examples=useMemo(()=>{
       if(!isKorean)return [];
       return KOREAN_EXAMPLE_INDEX[wordKey]||[];
     },[wordKey,isKorean]);
+
+    // Examples from curriculum (German)
+    const deExamples=useMemo(()=>{
+      if(!isGerman)return [];
+      return GERMAN_EXAMPLE_INDEX[wordKey]||[];
+    },[wordKey,isGerman]);
+
+    // German noun case declension table
+    const deCaseData=useMemo(()=>{
+      if(!isDeNoun)return null;
+      try{return nounWithCases(entry.word||wordKey, entry.gender);}catch(e){return null;}
+    },[wordKey,isDeNoun,entry.gender]);
 
     // Morpheme family
     const morphemes=useMemo(()=>{
@@ -2623,12 +2654,17 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
               <div style={{position:"relative",zIndex:1}}>
                 <div style={{display:"flex",alignItems:"center",gap:6}}>
-                  <span style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1,lineHeight:1.5}}>{entry.example}</span>
+                  <span style={{fontSize:13,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,flex:1,lineHeight:1.5,whiteSpace:"pre-line"}}>{entry.example}</span>
                   <SpeakerButton text={entry.example} lang={ttsLocale} size={12} showToast={showToast}/>
                 </div>
-                {entry.exampleEn&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:3}}>{entry.exampleEn}</div>}
+                {entry.exampleEn&&<div style={{fontSize:11,color:dk?"rgba(200,184,255,0.55)":"rgba(100,80,160,0.5)",fontStyle:"italic",marginTop:3,whiteSpace:"pre-line"}}>{entry.exampleEn}</div>}
               </div>
             </div>}
+            {/* Fun fact (v2 signature feature) */}
+            {entry.funFact&&glossBubble(<>
+              <div style={{fontSize:11,fontWeight:900,letterSpacing:0.5,textTransform:"uppercase",color:dk?"rgba(245,166,35,0.7)":"rgba(200,130,10,0.65)",marginBottom:4}}>Fun Fact</div>
+              <div style={{fontSize:12,color:dk?"rgba(255,255,255,0.85)":"var(--gray-700)",fontWeight:600,lineHeight:1.5,whiteSpace:"pre-line"}}>{entry.funFact}</div>
+            </>)}
             {entry.cognate&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700,marginTop:4}}>{entry.cognate}</div>}
             {/* Morpheme decomposition (Sino-Korean) */}
             {morphemes.length>0&&<>
@@ -2698,7 +2734,72 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             </>}
           </>}
 
-          {/* ═══ TAB: Examples ═══ */}
+          {/* ═══ TAB: Forms (German Conjugation) ═══ */}
+          {popupTab==="forms"&&isGerman&&isDeVerb&&<>
+            {deVerbInfo&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.65)",fontWeight:700,marginBottom:10}}>
+              {deVerbInfo.label&&<span>{deVerbInfo.label} verb</span>}
+              {deVerbInfo.notes&&<span style={{marginLeft:8,color:"#FF6D00"}}>{deVerbInfo.notes}</span>}
+              {deVerbInfo.aux&&<span style={{marginLeft:8}}>Aux: {deVerbInfo.aux}</span>}
+            </div>}
+            {deConjData&&(()=>{
+              // Group conjugation entries by their group field (Prasens, Prateritum, etc.)
+              const groups={};
+              for(const[key,f]of Object.entries(deConjData)){
+                const g=f.group||"Other";
+                if(!groups[g])groups[g]=[];
+                groups[g].push(f);
+              }
+              const groupOrder=["Prasens","Prateritum","Perfekt","Imperativ","Konjunktiv II","Futur I"];
+              const sorted=[...groupOrder.filter(g=>groups[g]),...Object.keys(groups).filter(g=>!groupOrder.includes(g))];
+              return sorted.map(g=><div key={g}>
+                {sectionTitle(g)}
+                <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:8}}>
+                  {groups[g].map((f,i)=><div key={i} style={{borderRadius:14,padding:"9px 12px",position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+                    <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                    <div style={{position:"relative",zIndex:1}}>
+                      <div style={{fontSize:14,fontWeight:800,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{f.form}</div>
+                      {f.label&&<div style={{fontSize:10,color:dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)",fontWeight:700}}>{f.label}</div>}
+                    </div>
+                  </div>)}
+                </div>
+              </div>);
+            })()}
+            {!deConjData&&<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>Conjugation data not available for this verb.</div>}
+          </>}
+
+          {/* ═══ TAB: Cases (German nouns) ═══ */}
+          {popupTab==="cases"&&isGerman&&isDeNoun&&<>
+            {deCaseData&&deCaseData.length>0?<>
+              {sectionTitle("Noun Declension")}
+              <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:8}}>
+                {deCaseData.map((c,i)=><div key={i} style={{borderRadius:14,padding:"9px 12px",position:"relative",overflow:"hidden",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+                  <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
+                  <div style={{position:"relative",zIndex:1}}>
+                    <div style={{fontSize:14,fontWeight:800,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)"}}>{c.definite}</div>
+                    {c.indefinite&&<div style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.7)":"rgba(80,60,140,0.6)",marginTop:2}}>{c.indefinite}</div>}
+                    <div style={{fontSize:10,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:700,marginTop:2}}>{c.caseLabel}</div>
+                  </div>
+                </div>)}
+              </div>
+            </>:<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>Case data not available for this noun.</div>}
+          </>}
+
+          {/* ═══ TAB: Examples (German) ═══ */}
+          {popupTab==="examples"&&isGerman&&<>
+            {deExamples.length>0?<>
+              {sectionTitle(`${deExamples.length} example${deExamples.length>1?"s":""} from curriculum`)}
+              {deExamples.map((ex,i)=>glossBubble(<>
+                <div style={{display:"flex",alignItems:"center",gap:6}}>
+                  <span style={{fontSize:14,fontWeight:700,color:dk?"rgba(255,255,255,0.95)":"var(--gray-800)",flex:1,lineHeight:1.5,whiteSpace:"pre-line"}}>{ex.target}</span>
+                  <SpeakerButton text={ex.target} lang={ttsLocale} size={11} showToast={showToast}/>
+                </div>
+                {ex.source&&<div style={{fontSize:12,color:dk?"rgba(200,184,255,0.75)":"rgba(80,60,140,0.65)",fontWeight:600,marginTop:3}}>{ex.source}</div>}
+                <div style={{fontSize:9,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",marginTop:3,fontWeight:700}}>Unit {ex.unitN} / {ex.lessonId}</div>
+              </>,{key:i}))}
+            </>:<div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>No curriculum examples found for this word.</div>}
+          </>}
+
+          {/* ═══ TAB: Examples (Korean) ═══ */}
           {popupTab==="examples"&&isKorean&&<>
             {examples.length>0?<>
               {sectionTitle(`${examples.length} example${examples.length>1?"s":""} from curriculum`)}
@@ -2793,16 +2894,18 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           </>}
 
           {/* ═══ Ask Verumius fallback — shown when data is sparse ═══ */}
-          {isKorean&&(()=>{
+          {(isKorean||isGerman)&&(()=>{
             const hasNote=!!entry.note;
             const hasUses=entry.uses&&entry.uses.length>0;
             const hasParticle=!!entry.particle;
             const hasMorph=!!entry.morph;
-            const richCount=[hasNote,hasUses,hasParticle,hasMorph].filter(Boolean).length;
+            const hasFunFact=!!entry.funFact;
+            const richCount=[hasNote,hasUses,hasParticle,hasMorph,hasFunFact].filter(Boolean).length;
             if(richCount>=2)return null;
             return <div style={{marginTop:12,textAlign:"center"}}>
               <button onClick={()=>{
-                const prompt=`Tell me everything about the Korean word "${entry.word}" (${entry.en||""}). Include: etymology, all conjugated forms, common collocations, idioms it appears in, example sentences at different CEFR levels, cultural context, and common mistakes learners make.`;
+                const langName=isKorean?"Korean":"German";
+                const prompt=`Tell me everything about the ${langName} word "${entry.word}" (${entry.en||""}). Include: etymology, common collocations, example sentences at different CEFR levels, cultural context, and common mistakes learners make.${isGerman&&isDeVerb?" Include all conjugated forms and irregular patterns.":""}${isKorean?" Include all conjugated forms and idioms it appears in.":""}`;
                 try{localStorage.setItem("vl_chat_prefill",prompt);}catch(e){}
                 showToast&&showToast("Open Chat to ask Verumius!");
               }}

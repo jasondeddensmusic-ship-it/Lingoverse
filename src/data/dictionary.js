@@ -10,6 +10,7 @@ import { ARTICLE_SYSTEMS } from './vocabulary.js';
 import dutchUnits from './units-dutch.js';
 import koreanUnits from './units-korean.js';
 import germanUnits from './units-german.js';
+import germanV2Units from './units-german-v2.js';
 import frenchUnits from './units-french.js';
 import spanishUnits from './units-spanish.js';
 import otherUnits from './units-other.js';
@@ -28,7 +29,7 @@ import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithP
 // German conjugation engine (Phase 1 of deep dictionary)
 import { conjugateVerb as conjugateGermanVerb, detectVerbType as detectGermanVerbType, getVerbInfo as getGermanVerbInfo, nounWithCases, buildFormIndex as buildGermanFormIndex, STRONG_VERBS as DE_STRONG_VERBS, MIXED_VERBS as DE_MIXED_VERBS, MODAL_VERBS as DE_MODAL_VERBS, AUXILIARY_VERBS as DE_AUXILIARY_VERBS } from './german-conjugation.js';
 
-const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 const FUNCTION_WORD_LISTS = {
   de: FUNCTION_WORDS_DE,
@@ -505,19 +506,26 @@ function buildWordDB() {
     }
 
     // ── Source 2: Teach card extraction ──
+    // Supports BOTH old format (nl/en) and new v2 format (trg/src)
     const unitsByLang = ALL_UNITS.filter(u => u.lang === lang);
     for (const unit of unitsByLang) {
       const level = unit.level || "A1";
+      const isV2 = unit.track === "v2";
       for (const lesson of (unit.lessons || [])) {
         for (const step of (lesson.steps || [])) {
           if (step.type !== "teach") continue;
-          if (!step.nl || !step.en) continue;
+          const word = step.nl || step.trg;
+          const trans = step.en || step.src;
+          if (!word || !trans) continue;
 
-          const { article, bare } = stripArticle(step.nl, lang);
+          const { article, bare } = stripArticle(word, lang);
           const key = bare.toLowerCase();
-          const kind = classifyKind(step, lang);
-          const pos = kindToPos(kind, article, lang);
-          const gender = detectGender(article, lang);
+          // v2 cards have explicit POS/gender — prefer those over guessing
+          const hasExplicitPos = step.pos && step.pos !== "unknown";
+          const kind = hasExplicitPos ? step.pos : classifyKind(step, lang);
+          const pos = hasExplicitPos ? step.pos : kindToPos(kind, article, lang);
+          const gender = step.gender !== undefined ? step.gender : detectGender(article, lang);
+          const exSrc = step.exampleSrc || step.exampleEn || null;
 
           const existing = db[lang][key];
 
@@ -527,25 +535,30 @@ function buildWordDB() {
             existing.taught = true;
             existing.lessonId = existing.lessonId || lesson.id;
             existing.level = existing.level || level;
-            if (!existing.en && step.en) existing.en = step.en;
+            if (!existing.en && trans) existing.en = trans;
             if (!existing.phonetic && step.phonetic) existing.phonetic = step.phonetic;
             if (!existing.note && step.note) existing.note = step.note;
             if (!existing.example && step.example) existing.example = step.example;
-            if (!existing.exampleEn && step.exampleEn) existing.exampleEn = step.exampleEn;
+            if (!existing.exampleEn && exSrc) existing.exampleEn = exSrc;
             if (!existing.cognate && step.cognate) existing.cognate = step.cognate;
             if (!existing.also && step.also) existing.also = step.also;
-            existing.display = step.nl;
+            if (!existing.funFact && step.funFact) existing.funFact = step.funFact;
+            existing.display = word;
             continue;
           }
 
-          // If teach card already exists with richer data, skip
-          if (existing && existing.taught && existing.lessonId && !step.example) continue;
+          // v2 entry always wins over v1 (richer data: POS, gender, funFact)
+          if (existing && existing.taught && isV2 && !existing._isV2) {
+            // v2 overwrites v1 — fall through to create entry
+          } else if (existing && existing.taught && existing.lessonId && !step.example) {
+            continue;
+          }
 
           db[lang][key] = {
             word: bare,
             lemma: bare,
-            en: step.en,
-            lemmaEn: step.en,
+            en: trans,
+            lemmaEn: trans,
             pos: pos,
             gender: gender,
             article: article,
@@ -556,10 +569,12 @@ function buildWordDB() {
             phonetic: step.phonetic || null,
             note: step.note || null,
             example: step.example || null,
-            exampleEn: step.exampleEn || null,
+            exampleEn: exSrc,
             cognate: step.cognate || null,
+            funFact: step.funFact || null,
+            _isV2: isV2 || false,
             // Backward compat fields
-            display: step.nl,
+            display: word,
             kind: kind,
             also: step.also || null,
             morph: null,
@@ -631,9 +646,10 @@ function buildWordIntroMap() {
           const step = lesson.steps[si];
           const wordsInStep = [];
 
-          // Teach cards: extract the target word
-          if (step.type === "teach" && step.nl) {
-            const { bare } = stripArticle(step.nl, lang);
+          // Teach cards: extract the target word (supports nl OR trg)
+          const teachWord = step.nl || step.trg;
+          if (step.type === "teach" && teachWord) {
+            const { bare } = stripArticle(teachWord, lang);
             wordsInStep.push(bare.toLowerCase());
             // Also extract words from teach card examples
             if (step.example) {
@@ -651,7 +667,8 @@ function buildWordIntroMap() {
           }
           if (step.pairs) {
             for (const p of step.pairs) {
-              if (p.nl) extractWords(p.nl, lang).forEach(w => wordsInStep.push(w));
+              const pw = p.nl || p.trg;
+              if (pw) extractWords(pw, lang).forEach(w => wordsInStep.push(w));
             }
           }
 
@@ -1235,7 +1252,7 @@ export function isNewWord(word, lang, currentLessonId) {
   return introIdx >= currentIdx;
 }
 
-// Lookup a word in WORD_DB (tries exact, then stripped article, then lowercase variations)
+// Lookup a word in WORD_DB (tries exact, stripped article, form-index reverse lookup)
 export function lookupWord(word, lang) {
   const dict = WORD_DB[lang];
   if (!dict) return null;
@@ -1246,6 +1263,15 @@ export function lookupWord(word, lang) {
   const { bare } = stripArticle(word, lang);
   const bareKey = bare.toLowerCase();
   if (dict[bareKey]) return dict[bareKey];
+  // Form-index reverse lookup: conjugated forms → lemma
+  if (lang === "de" && GERMAN_FORM_INDEX[lower]) {
+    const lemma = GERMAN_FORM_INDEX[lower];
+    if (dict[lemma]) return dict[lemma];
+  }
+  if (lang === "ko" && KOREAN_FORM_INDEX[lower]) {
+    const lemma = KOREAN_FORM_INDEX[lower];
+    if (dict[lemma]) return dict[lemma];
+  }
   return null;
 }
 
@@ -1309,8 +1335,9 @@ export function getTaughtWords(lang, upToLessonId) {
   for (const unit of unitsByLang) {
     for (const lesson of (unit.lessons || [])) {
       for (const step of (lesson.steps || [])) {
-        if (step.type === "teach" && step.nl) {
-          const { bare } = stripArticle(step.nl, lang);
+        const tw = step.nl || step.trg;
+        if (step.type === "teach" && tw) {
+          const { bare } = stripArticle(tw, lang);
           taught.add(bare.toLowerCase());
         }
       }
@@ -1368,22 +1395,28 @@ const WORDTYPE_PACK = {
   id: "wordtype", label: "Word Type", icon: "Aa",
   desc: "Every word colored by part of speech",
   colorMap: {
-    // Verbs — forest green (includes auxiliaries)
+    // Verbs — forest green (includes auxiliaries, modals, all verb subtypes)
     verb: { ...C_FOREST_GREEN }, auxiliary: { ...C_FOREST_GREEN },
+    aux_verb: { ...C_FOREST_GREEN }, modal_verb: { ...C_FOREST_GREEN },
+    aux: { ...C_FOREST_GREEN },
     // Adjectives — burnt orange
     adjective: { ...C_BURNT_ORANGE },
     // Adverbs — dark teal (distinct from green verbs AND blue nouns)
     adverb: { ...C_DARK_TEAL },
-    // Pronouns — deep purple (the only true purple POS)
+    // Pronouns — deep purple (ALL subtypes: subj, obj, dat, refl, poss, rel, dem, indef)
     pronoun: { ...C_DEEP_PURPLE }, pronoun_subj: { ...C_DEEP_PURPLE },
-    pronoun_obj: { ...C_DEEP_PURPLE }, pronoun_poss: { ...C_DEEP_PURPLE },
+    pronoun_obj: { ...C_DEEP_PURPLE }, pronoun_dat: { ...C_DEEP_PURPLE },
+    pronoun_refl: { ...C_DEEP_PURPLE }, pronoun_poss: { ...C_DEEP_PURPLE },
+    pronoun_rel: { ...C_DEEP_PURPLE }, pronoun_dem: { ...C_DEEP_PURPLE },
+    pronoun_indef: { ...C_DEEP_PURPLE },
     demonstrative: { ...C_DEEP_PURPLE },
     // Nouns — navy blue
     noun: { ...C_NAVY_BLUE },
     // Prepositions — blue-grey slate (neutral, distinct from purple pronouns)
     preposition: { ...C_SLATE },
-    // Conjunctions — dark gold/mustard (distinct from orange adjectives)
+    // Conjunctions — dark gold/mustard (ALL subtypes: coord, sub)
     conjunction: { ...C_DARK_GOLD },
+    conjunction_coord: { ...C_DARK_GOLD }, conjunction_sub: { ...C_DARK_GOLD },
     // Articles — dark gold (structure)
     article: { ...C_DARK_GOLD },
     article_m: { ...C_DARK_GOLD }, article_f: { ...C_DARK_GOLD }, article_n: { ...C_DARK_GOLD },
@@ -1425,11 +1458,27 @@ export const GRAMMAR_PACKS = {
         id: "gender", label: "Gender", icon: "der",
         desc: "Articles, nouns, and adjectives by grammatical gender",
         colorMap: {
+          // Gender-specific: articles, nouns, adjectives by gender
           article_m: { ...C_BLUE }, article_f: { ...C_RED }, article_n: { ...C_AMBER },
           article_indef: { ...C_BRONZE },
           noun_m: { ...C_BLUE, understripe: false }, noun_f: { ...C_RED, understripe: false },
           noun_n: { ...C_AMBER, understripe: false },
           adjective_m: { ...C_BLUE }, adjective_f: { ...C_RED }, adjective_n: { ...C_AMBER },
+          // Fallback POS colors so non-gendered words still get colored
+          verb: { ...C_FOREST_GREEN }, aux_verb: { ...C_FOREST_GREEN },
+          modal_verb: { ...C_FOREST_GREEN }, aux: { ...C_FOREST_GREEN },
+          adverb: { ...C_DARK_TEAL },
+          pronoun: { ...C_DEEP_PURPLE }, pronoun_subj: { ...C_DEEP_PURPLE },
+          pronoun_obj: { ...C_DEEP_PURPLE }, pronoun_dat: { ...C_DEEP_PURPLE },
+          pronoun_refl: { ...C_DEEP_PURPLE }, pronoun_poss: { ...C_DEEP_PURPLE },
+          pronoun_rel: { ...C_DEEP_PURPLE }, pronoun_dem: { ...C_DEEP_PURPLE },
+          pronoun_indef: { ...C_DEEP_PURPLE },
+          preposition: { ...C_SLATE },
+          conjunction: { ...C_DARK_GOLD }, conjunction_coord: { ...C_DARK_GOLD },
+          conjunction_sub: { ...C_DARK_GOLD },
+          number: { ...C_CRIMSON },
+          interjection: { ...C_HOT_PINK },
+          negation: { ...C_DARK_GOLD }, question: { ...C_DARK_GOLD },
         },
         legend: [
           { label: "Masculine (der)", color: "#0091FF", key: "m", desc: "der Hund, der Mann, der Tisch. Most agent nouns." },
