@@ -18,6 +18,8 @@ import { KOREAN_CEFR } from './data/cefr-reference/korean.js';
 import { DUTCH_CEFR } from './data/cefr-reference/dutch.js';
 import { FRENCH_CEFR } from './data/cefr-reference/french.js';
 import { SPANISH_CEFR } from './data/cefr-reference/spanish.js';
+import { DUTCH_GRAMMAR } from './data/grammar/dutch.js';
+import { DUTCH_IDIOMS } from './data/grammar/idioms-dutch.js';
 
 // _memStore moved to components/shared.jsx
 
@@ -1365,599 +1367,17 @@ function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
 function GrammarPage({lang,baseLang="en"}){
   const [openLevel,setOpenLevel]=useState("A1");
   const [openRule,setOpenRule]=useState(null);
-  
-  // Comprehensive Dutch grammar — textbook order
-  // A1: Pronouns → Verb conjugation basics → Zijn/hebben → Articles → Word order → Negation → Possessives → Questions
-  // A2: Past tenses → Modal verbs → Separable verbs → Adjective endings → Reflexive verbs
-  // B1+: Complex syntax, passive, etc.
-  const DUTCH_GRAMMAR = {
-    A1: [
-      { title: "Personal Pronouns (Subject)", icon: "👤", explanation: "Before you can conjugate any verb, you need to know the pronouns. Dutch has formal and informal 'you' — this matters a lot socially!", rules: [
-        "ik — I",
-        "jij / je — you (informal, singular)",
-        "u — you (formal, singular + plural)",
-        "hij — he",
-        "zij / ze — she",
-        "het — it",
-        "wij / we — we",
-        "jullie — you (informal, plural)",
-        "zij / ze — they (same as 'she'!)",
-        "",
-        "Short forms (je, ze, we) are used in casual speech.",
-        "Long forms (jij, zij, wij) are used for emphasis or contrast.",
-        "'U' is used for strangers, elderly, authority figures.",
-        "'Jij/je' is used with friends, peers, children.",
-      ], examples: [
-        "Ik ben student. — I am a student.",
-        "Jij bent mijn vriend. — You are my friend. (emphasis on YOU)",
-        "Je bent mijn vriend. — You're my friend. (neutral)",
-        "U bent heel aardig. — You are very kind. (formal)",
-        "Zij is arts, hij is leraar. — She is a doctor, he is a teacher.",
-        "Wij wonen in Nederland, zij wonen in België. — We live in NL, they live in Belgium.",
-      ]},
-      { title: "Object Pronouns (Me, You, Him...)", icon: "🎯", explanation: "Object pronouns are used after verbs and prepositions ('he sees ME', 'for HER'). Some are the same as subject pronouns, others change.", rules: [
-        "mij / me — me",
-        "jou / je — you (informal)",
-        "u — you (formal, same as subject!)",
-        "hem — him",
-        "haar — her",
-        "het — it (same as subject!)",
-        "ons — us",
-        "jullie — you all (same as subject!)",
-        "hen / hun / ze — them",
-        "",
-        "Short forms (me, je, ze) are more common in speech.",
-        "Long forms (mij, jou) are for emphasis: 'Ik bedoel JOU!' (I mean YOU!)",
-      ], examples: [
-        "Hij ziet mij. → Hij ziet me. — He sees me.",
-        "Ik bel jou. → Ik bel je. — I call you.",
-        "Zij helpt hem. — She helps him.",
-        "Ik geef het aan haar. — I give it to her.",
-        "Ze kennen ons. — They know us.",
-      ]},
-      { title: "How Dutch Verbs Work", icon: "⚙️", explanation: "This is the most important grammar page. Almost ALL Dutch verbs follow the same pattern. Learn this once, and you can conjugate hundreds of verbs.", rules: [
-        "STEP 1: Start with the infinitive (always ends in *-en*): werken, lopen, spreken",
-        "STEP 2: Remove *-en* to get the **STEM**: werk, loop, spreek",
-        "",
-        "CONJUGATION PATTERN:",
-        "**ik** → stem (*ik werk*)",
-        "**jij / je** → stem + **t** (*jij werkt*)",
-        "**u** → stem + **t** (*u werkt*)",
-        "**hij / zij / het** → stem + **t** (*hij werkt*)",
-        "**wij / we** → infinitive (*wij werken*)",
-        "**jullie** → infinitive (*jullie werken*)",
-        "**zij** (they) → infinitive (*zij werken*)",
-        "",
-        "⚠️ SPECIAL RULE: When **jij/je** comes *AFTER* the verb (in questions), drop the **-t**!",
-        "*Jij werkt hier.* → **Werk jij hier?** (NOT: Werkt jij hier?)",
-      ], examples: [
-        "WERKEN (to work): ik werk, jij werkt, hij werkt, wij werken",
-        "WONEN (to live): ik woon, jij woont, hij woont, wij wonen",
-        "LEREN (to learn): ik leer, jij leert, hij leert, wij leren",
-        "Jij woont in Amsterdam. — You live in Amsterdam.",
-        "Woon jij in Amsterdam? — Do you live in Amsterdam? (jij after verb → no -t!)",
-      ]},
-      { title: "Spelling Rules for Stems", icon: "✏️", explanation: "When you remove -en from the infinitive, sometimes the spelling changes to keep the same vowel sound. These rules are predictable and consistent.", rules: [
-        "RULE 1 — Double vowel becomes single in closed syllable:",
-        "  lopen → l**oo**p (NOT l*o*p) — keep the *oo* sound",
-        "  lezen → l**ee**s (NOT l*e*z) — keep the *ee* sound",
-        "  kopen → k**oo**p — keep the *oo* sound",
-        "",
-        "RULE 2 — Single consonant doubles to keep vowel short:",
-        "  pa**kk**en → pa**k** (the *kk* already makes it short)",
-        "  zi**tt**en → zi**t** (the *tt* already makes it short)",
-        "",
-        "RULE 3 — **V** at end of stem becomes **F**, **Z** becomes **S**:",
-        "  le**v**en → lee**f** (NOT leev) — Dutch words don't end in *v*",
-        "  rei**z**en → rei**s** (NOT reiz) — Dutch words don't end in *z*",
-        "  schrij**v**en → schrij**f** — v becomes f",
-      ], examples: [
-        "lopen (to walk): ik loop, jij loopt, wij lopen",
-        "lezen (to read): ik lees, jij leest, wij lezen",
-        "schrijven (to write): ik schrijf, jij schrijft, wij schrijven",
-        "leven (to live/be alive): ik leef, jij leeft, wij leven",
-        "zitten (to sit): ik zit, jij zit(+t=zit), wij zitten",
-      ]},
-      { title: "Zijn & Hebben (Irregular)", icon: "⭐", explanation: "The two most important verbs in Dutch are irregular — they don't follow the normal pattern. You must memorize them. They're also used as helping verbs for past tenses.", rules: [
-        "ZIJN (to be):",
-        "  ik ben — I am",
-        "  jij bent / je bent — you are (informal)",
-        "  u bent — you are (formal)",
-        "  hij / zij / het is — he / she / it is",
-        "  wij / we zijn — we are",
-        "  jullie zijn — you all are",
-        "  zij / ze zijn — they are",
-        "",
-        "HEBBEN (to have):",
-        "  ik heb — I have",
-        "  jij hebt / je hebt — you have",
-        "  u heeft / u hebt — you have (formal)",
-        "  hij / zij / het heeft — he / she / it has",
-        "  wij / we hebben — we have",
-        "  jullie hebben — you all have",
-        "  zij / ze hebben — they have",
-        "",
-        "⚠️ Inversion: 'Ben jij...?' (drops -t), 'Heb jij...?' (drops -t)",
-      ], examples: [
-        "Ik ben moe. — I am tired.",
-        "Ben jij klaar? — Are you ready? (NOT: Bent jij)",
-        "Hij is mijn broer. — He is my brother.",
-        "Wij zijn studenten. — We are students.",
-        "Ik heb een hond. — I have a dog.",
-        "Heb jij een fiets? — Do you have a bike? (NOT: Hebt jij)",
-        "Zij hebben twee kinderen. — They have two children.",
-      ]},
-      { title: "Other Irregular Verbs", icon: "🔀", explanation: "A handful of very common verbs are irregular in the present tense. Here are the ones you'll encounter most often.", rules: [
-        "GAAN (to go): ik ga, jij gaat, hij gaat, wij gaan",
-        "STAAN (to stand): ik sta, jij staat, hij staat, wij staan",
-        "SLAAN (to hit): ik sla, jij slaat, hij slaat, wij slaan",
-        "DOEN (to do): ik doe, jij doet, hij doet, wij doen",
-        "ZIEN (to see): ik zie, jij ziet, hij ziet, wij zien",
-        "KOMEN (to come): ik kom, jij komt, hij komt, wij komen (regular in present!)",
-        "",
-        "WILLEN (to want): ik wil, jij wilt, hij wil, wij willen",
-        "KUNNEN (to be able): ik kan, jij kunt/kan, hij kan, wij kunnen",
-        "MOGEN (to be allowed): ik mag, jij mag, hij mag, wij mogen",
-        "MOETEN (to have to): ik moet, jij moet, hij moet, wij moeten",
-        "ZULLEN (shall/will): ik zal, jij zult/zal, hij zal, wij zullen",
-      ], examples: [
-        "Ik ga naar huis. — I go home.",
-        "Wat doe jij? — What are you doing?",
-        "Ik wil koffie. — I want coffee.",
-        "Kan jij zwemmen? — Can you swim?",
-        "Je mag niet roken. — You may not smoke.",
-        "Ik moet werken. — I have to work.",
-      ]},
-      { title: "Articles: De vs Het", icon: "📝", explanation: "Dutch has two definite articles: 'de' (common gender, ~75% of nouns) and 'het' (neuter gender, ~25%). There is no reliable rule — you must memorize which one goes with each noun. But there ARE helpful patterns.", rules: [
-        "De → common gender (de man, de vrouw, de tafel, de school)",
-        "Het → neuter gender (het huis, het kind, het boek, het water)",
-        "Een → indefinite article, always the same (een man, een huis)",
-        "",
-        "HELPFUL PATTERNS — 'het' words:",
-        "  Diminutives (-je, -tje, -pje, -etje) → always het (het meisje, het huisje)",
-        "  Verbs used as nouns → always het (het eten, het lezen, het zwemmen)",
-        "  Languages/sports → usually het (het Nederlands, het voetbal)",
-        "  Metals → usually het (het goud, het zilver)",
-        "",
-        "HELPFUL PATTERNS — 'de' words:",
-        "  ALL plurals → always de (de huizen, de kinderen, de boeken)",
-        "  People with gender → usually de (de man, de vrouw, de leraar)",
-        "  -heid, -keit, -ing, -tie endings → always de (de vrijheid, de mogelijkheid)",
-      ], examples: [
-        "De man is groot. — The man is tall.",
-        "Het huis is mooi. — The house is beautiful.",
-        "Het meisje speelt. — The girl plays. (diminutive → het!)",
-        "De huizen zijn duur. — The houses are expensive. (plural → de!)",
-      ]},
-      { title: "Word Order: The V2 Rule", icon: "🔢", explanation: "The single most important syntax rule in Dutch: the conjugated verb is ALWAYS in position 2 in main clauses. If anything other than the subject starts the sentence, subject and verb swap.", rules: [
-        "NORMAL: **Subject** (pos 1) + **Verb** (pos 2) + Rest",
-        "  *Ik* **werk** morgen. — I work tomorrow.",
-        "",
-        "INVERSION: **Other element** (pos 1) + **Verb** (pos 2) + *Subject* + Rest",
-        "  Morgen **werk** *ik*. — Tomorrow I work.",
-        "  Vandaag **ga** *ik* niet. — Today I don't go.",
-        "",
-        "The verb **ALWAYS** stays in position 2:",
-        "  Nu **ben** *ik* moe. — Now I am tired.",
-        "  In Amsterdam **woon** *ik*. — In Amsterdam I live.",
-        "",
-        "This applies to **ALL** main clauses, no exceptions.",
-      ], examples: [
-        "Ik ga morgen naar school. — I go to school tomorrow.",
-        "Morgen ga ik naar school. — Tomorrow I go to school. (inversion!)",
-        "Vandaag werk ik niet. — Today I don't work. (inversion!)",
-        "Soms eet hij in een restaurant. — Sometimes he eats at a restaurant.",
-      ]},
-      { title: "Negation: Niet & Geen", icon: "🚫", explanation: "Two ways to negate in Dutch. 'Niet' negates verbs, adjectives, and specific nouns. 'Geen' replaces 'een' (a/an) and negates uncountable nouns.", rules: [
-        "**NIET** — negates verbs, adjectives, de/het nouns:",
-        "  Ik werk **niet**. — I don't work.",
-        "  Het is **niet** groot. — It is not big.",
-        "  Ik ken de man **niet**. — I don't know the man.",
-        "",
-        "**GEEN** — replaces *een*, negates uncountable nouns:",
-        "  Ik heb *een* auto → Ik heb **geen** auto. — I don't have a car.",
-        "  Er is **geen** water. — There is no water.",
-        "  Ik heb **geen** geld. — I have no money.",
-        "",
-        "POSITION OF **NIET**:",
-        "  After the object: Ik ken hem **niet**.",
-        "  Before adjectives: Het is **niet** mooi.",
-        "  Before prepositional phrases: Ik ga **niet** naar huis.",
-        "  At the end if no specific target: Ik werk **niet**.",
-      ], examples: [
-        "Ik spreek niet goed Nederlands. — I don't speak Dutch well.",
-        "Ik heb geen geld. — I have no money.",
-        "Het is niet warm vandaag. — It is not warm today.",
-        "Er zijn geen stoelen. — There are no chairs.",
-      ]},
-      { title: "Possessive Pronouns", icon: "🏷️", explanation: "Show ownership: my, your, his, her, etc. Most are simple, but 'ons/onze' changes based on the noun's gender.", rules: [
-        "mijn — my (mijn huis, mijn auto)",
-        "jouw / je — your, informal (jouw boek, je fiets)",
-        "uw — your, formal (uw naam, uw adres)",
-        "zijn — his (zijn vader, zijn werk)",
-        "haar — her (haar moeder, haar school)",
-        "ons — our + het-word (ons huis, ons kind)",
-        "onze — our + de-word/plural (onze auto, onze kinderen)",
-        "hun — their (hun ouders, hun huis)",
-        "",
-        "⚠️ Ons vs onze is the ONLY possessive that changes:",
-        "  Ons huis (het huis → ons)",
-        "  Onze auto (de auto → onze)",
-        "  Onze kinderen (plural → onze)",
-      ], examples: [
-        "Mijn naam is Anna. — My name is Anna.",
-        "Wat is jouw telefoonnummer? — What is your phone number?",
-        "Zijn vader is arts. — His father is a doctor.",
-        "Ons huis is groot. — Our house is big. (het-word → ons)",
-        "Onze kinderen gaan naar school. — Our children go to school. (plural → onze)",
-      ]},
-      { title: "Asking Questions", icon: "❓", explanation: "Two types: yes/no questions (verb first) and information questions (question word first, verb second).", rules: [
-        "YES/NO QUESTIONS — put verb in position 1:",
-        "  Jij werkt hier. → Werk jij hier? — Do you work here?",
-        "  Hij spreekt Nederlands. → Spreekt hij Nederlands?",
-        "",
-        "INFORMATION QUESTIONS — question word pos 1, verb pos 2:",
-        "  Wie — who (Wie is dat?)",
-        "  Wat — what (Wat doe je?)",
-        "  Waar — where (Waar woon je?)",
-        "  Wanneer — when (Wanneer kom je?)",
-        "  Waarom — why (Waarom niet?)",
-        "  Hoe — how (Hoe gaat het?)",
-        "  Hoeveel — how much/many (Hoeveel kost dit?)",
-        "  Welk/welke — which (Welke kleur?)",
-        "",
-        "Remember: the jij-t rule applies in questions too!",
-        "Jij werkt → Werk jij? (NOT Werkt jij?)",
-      ], examples: [
-        "Spreek je Nederlands? — Do you speak Dutch?",
-        "Waar woon je? — Where do you live?",
-        "Hoeveel kost dit? — How much does this cost?",
-        "Wanneer begint de les? — When does the class start?",
-      ]},
-    ],
-    A2: [
-      { title: "Perfect Tense (VTT)", icon: "✅", explanation: "The most common past tense in spoken Dutch. 'I have worked' / 'I worked'. Formed with hebben or zijn + past participle. The participle goes to the END of the sentence.", rules: [
-        "STRUCTURE: **hebben/zijn** (pos 2) + ... + **past participle** (END)",
-        "",
-        "PAST PARTICIPLE — weak (regular) verbs:",
-        "  **ge** + *stem* + **t/d**",
-        "  Use **'T KoFSCHiP** to decide **-t** or **-d** (see next topic)",
-        "",
-        "PAST PARTICIPLE — strong (irregular) verbs:",
-        "  **ge** + *vowel change* + **en**",
-        "  These must be memorized (like English: go→gone, see→seen)",
-        "",
-        "WHEN TO USE **ZIJN** INSTEAD OF **HEBBEN**:",
-        "  Verbs of *MOVEMENT* to a destination: gaan, komen, vertrekken, rijden",
-        "  Verbs of *STATE CHANGE*: worden, groeien, sterven, beginnen",
-        "  *zijn, blijven, gebeuren*",
-        "  All other verbs use **hebben**",
-      ], examples: [
-        "Ik heb gewerkt. — I have worked / I worked.",
-        "Zij is gegaan. — She has gone / She went. (motion → zijn)",
-        "Wij hebben gegeten. — We have eaten / We ate.",
-        "Hij is gekomen. — He has come / He came. (motion → zijn)",
-        "Het is gebeurd. — It has happened. (zijn verb)",
-      ]},
-      { title: "'t Kofschip Rule", icon: "🚢", explanation: "This famous mnemonic helps you decide if a past participle ends in -t or -d. The name itself is a word: 't kofschip means 'het kofschip' — the cargo ship. The 't is short for 'het' (just like in spoken Dutch). Each consonant in the word tells you which stems get a -t ending.", rules: [
-        "THE MNEMONIC: **'T K o F S CH i P**",
-        "The letters that matter: **T, K, F, S, CH, P**",
-        "(The vowels 'o' and 'i' are just there to make it a pronounceable word)",
-        "",
-        "*'t = het* → 'het kofschip' = the cargo ship 🚢",
-        "If the **LAST letter** of the stem is **T, K, F, S, CH, or P** → ending is **-t**",
-        "If the last letter is anything else → ending is **-d**",
-        "",
-        "STEMS ENDING IN A KOFSCHIP LETTER → **-t**:",
-        "  werken → stem *werk* (**K** ✓) → ge**werk****t**",
-        "  fietsen → stem *fiets* (**S** ✓) → ge**fiets****t**",
-        "  koken → stem *kook* (**K** ✓) → ge**kook****t**",
-        "  stoppen → stem *stop* (**P** ✓) → ge**stop****t**",
-        "",
-        "STEMS NOT IN KOFSCHIP → **-d**:",
-        "  leren → stem *leer* (R ✗) → ge**leer****d**",
-        "  wonen → stem *woon* (N ✗) → ge**woon****d**",
-        "  bouwen → stem *bouw* (W ✗) → ge**bouw****d**",
-        "",
-        "REMEMBER: **v→f** and **z→s** in stems (Dutch words don't end in v or z):",
-        "  leven → stem *leef* (**F** ✓) → geleefd — F is in kofschip!",
-        "  reizen → stem *reis* (**S** ✓) → gereisd",
-        "",
-        "**NO ge- PREFIX** for verbs starting with *be-, ver-, ont-, ge-, her-, er-*:",
-        "  betalen → betaald (NOT: gebetaald)",
-        "  vertellen → verteld (NOT: geverteld)",
-      ], examples: [
-        "fietsen → gefietst (stem 'fiets', S is in 'T KoFSCHiP' → -t)",
-        "werken → gewerkt (stem 'werk', K is in 'T KoFSCHiP' → -t)",
-        "leven → geleefd (stem 'leef', F is in 'T KoFSCHiP' → -t!)",
-        "bouwen → gebouwd (stem 'bouw', W is NOT in 'T KoFSCHiP' → -d)",
-        "leren → geleerd (stem 'leer', R is NOT in 'T KoFSCHiP' → -d)",
-        "betalen → betaald (no ge- prefix because of be-, L → -d)",
-      ]},
-      { title: "Simple Past Tense (OVT)", icon: "📜", explanation: "Used in stories, writing, and formal speech. More literary than the perfect tense. Weak verbs: stem + te(n)/de(n). Strong verbs: vowel changes.", rules: [
-        "WEAK VERBS — use 'T KoFSCHiP again:",
-        "  'T KoFSCHiP letters → stem + te (singular), stem + ten (plural)",
-        "  Other letters → stem + de (singular), stem + den (plural)",
-        "",
-        "  werken: ik werkte, wij werkten",
-        "  leren: ik leerde, wij leerden",
-        "  wonen: ik woonde, wij woonden",
-        "",
-        "STRONG VERBS — vowel changes (memorize!):",
-        "  gaan → ging / gingen",
-        "  komen → kwam / kwamen",
-        "  zien → zag / zagen",
-        "  zijn → was / waren",
-        "  hebben → had / hadden",
-        "  schrijven → schreef / schreven",
-        "",
-        "In spoken Dutch, the perfect tense is used much more.",
-        "The simple past is mainly for writing, stories, and news.",
-      ], examples: [
-        "Ik werkte gisteren. — I worked yesterday.",
-        "Zij woonden in Rotterdam. — They lived in Rotterdam.",
-        "Hij ging naar huis. — He went home.",
-        "Wij waren moe. — We were tired.",
-        "Zij had een kat. — She had a cat.",
-      ]},
-      { title: "Modal Verbs", icon: "💪", explanation: "Express ability, permission, obligation, or desire. The modal verb is conjugated in position 2; the main verb goes to the END as an infinitive.", rules: [
-        "KUNNEN — can / to be able to (ik kan, jij kunt/kan, hij kan, wij kunnen)",
-        "MOGEN — may / to be allowed to (ik mag, jij mag, hij mag, wij mogen)",
-        "MOETEN — must / to have to (ik moet, jij moet, hij moet, wij moeten)",
-        "WILLEN — to want (ik wil, jij wilt, hij wil, wij willen)",
-        "ZULLEN — shall / will (ik zal, jij zult/zal, hij zal, wij zullen)",
-        "",
-        "STRUCTURE: subject + modal (conjugated) + ... + infinitive (END)",
-        "  Ik kan zwemmen. — I can swim.",
-        "  Wij moeten nu gaan. — We have to go now.",
-        "",
-        "WILLEN + GRAAG = polite 'would like':",
-        "  Ik wil graag een koffie. — I would like a coffee.",
-      ], examples: [
-        "Ik kan goed zwemmen. — I can swim well.",
-        "Je mag hier niet roken. — You may not smoke here.",
-        "Wij moeten om acht uur vertrekken. — We have to leave at eight.",
-        "Ik wil graag bestellen. — I would like to order.",
-        "Zal ik je helpen? — Shall I help you?",
-      ]},
-      { title: "Separable Verbs", icon: "✂️", explanation: "Many Dutch verbs have a prefix (op, aan, af, uit, mee, etc.) that SEPARATES from the verb in main clauses and goes to the END.", rules: [
-        "MAIN CLAUSE — prefix separates to end:",
-        "  [op]bellen → Ik bel je **[op]**. — I call you.",
-        "  [op]staan → Ik sta om 7 uur **[op]**. — I get up at 7.",
-        "  [mee]gaan → Ga je **[mee]**? — Are you coming along?",
-        "",
-        "SUBORDINATE CLAUSE — stays together:",
-        "  ...omdat ik je **[op]bel**. — ...because I call you.",
-        "",
-        "PERFECT TENSE — *ge-* goes BETWEEN prefix and stem:",
-        "  [op]bellen → **[op]**ge**beld**",
-        "  [aan]komen → **[aan]**ge**komen**",
-        "  [mee]nemen → **[mee]**ge**nomen**",
-        "",
-        "COMMON SEPARABLE PREFIXES:",
-        "  [op] (up), [aan] (on), [af] (off), [uit] (out), [mee] (along),",
-        "  [bij] (with), [om] (around), [terug] (back), [thuis] (home), [weg] (away)",
-      ], examples: [
-        "Ik sta om 7 uur op. — I get up at 7. (opstaan)",
-        "Hij komt morgen aan. — He arrives tomorrow. (aankomen)",
-        "We gaan om 8 uur weg. — We leave at 8. (weggaan)",
-        "Ik ruim mijn kamer op. — I tidy my room. (opruimen)",
-        "Ga je mee naar de film? — Are you coming along to the movie?",
-      ]},
-      { title: "Adjective Endings", icon: "🎨", explanation: "Dutch adjectives usually get an -e ending before nouns. There is ONE famous exception: no -e with 'een' + het-word + singular.", rules: [
-        "RULE: Add **-e** before the noun in most cases.",
-        "",
-        "**De-words**: ALWAYS **-e**",
-        "  de *grote* man — the big man",
-        "  een *grote* man — a big man",
-        "",
-        "**Het-words** with de/het: **-e**",
-        "  het *grote* huis — the big house",
-        "",
-        "**Het-words** with een: **NO -e!** ⚠️",
-        "  een *groot* huis — a big house (**NO** -e!)",
-        "",
-        "After the verb (predicative): **NO ending**",
-        "  Het huis is *groot*. — The house is big.",
-        "",
-        "SUMMARY TABLE:",
-        "  **de** + adj + de-noun → *grote* (de grote man)",
-        "  **een** + adj + de-noun → *grote* (een grote man)",
-        "  **het** + adj + het-noun → *grote* (het grote huis)",
-        "  **een** + adj + het-noun → *groot* (een groot huis) ← **THE EXCEPTION**",
-      ], examples: [
-        "De grote man. — The big man. (de-word → always -e)",
-        "Het grote huis. — The big house. (het + definite → -e)",
-        "Een groot huis. — A big house. (een + het-word → NO -e!)",
-        "Een grote man. — A big man. (een + de-word → -e)",
-        "Het huis is groot. — The house is big. (predicative → no ending)",
-      ]},
-      { title: "Reflexive Verbs", icon: "🪞", explanation: "Some verbs need a reflexive pronoun (myself, yourself, etc.). The pronoun changes based on the subject.", rules: [
-        "REFLEXIVE PRONOUNS:",
-        "  ik → me / mij",
-        "  jij → je",
-        "  u → zich (formal)",
-        "  hij / zij / het → zich",
-        "  wij → ons",
-        "  jullie → je",
-        "  zij (they) → zich",
-        "",
-        "COMMON REFLEXIVE VERBS:",
-        "  zich wassen — to wash oneself",
-        "  zich voelen — to feel",
-        "  zich vergissen — to be mistaken",
-        "  zich aankleden — to get dressed",
-        "  zich herinneren — to remember",
-      ], examples: [
-        "Ik was me. — I wash myself.",
-        "Hij voelt zich goed. — He feels good.",
-        "Wij vergissen ons. — We are mistaken.",
-        "Zij kleedt zich aan. — She gets dressed.",
-        "Herinner je je dat? — Do you remember that?",
-      ]},
-    ],
-    B1: [
-      { title: "Subordinate Clause Word Order", icon: "🔗", explanation: "After subordinating conjunctions, the conjugated verb goes to the END. This is one of the biggest word order shifts in Dutch.", rules: [
-        "CONJUNCTIONS: dat, omdat, als, wanneer, hoewel, nadat, voordat, toen, terwijl, zodat, tenzij, of",
-        "",
-        "Main clause: verb in position 2",
-        "  Ik denk + hij is ziek → standard",
-        "",
-        "Subordinate clause: verb to END",
-        "  Ik denk dat hij ziek is. — I think that he is sick.",
-        "  Omdat het regent, blijf ik thuis. — Because it rains, I stay home.",
-        "",
-        "If subordinate clause comes FIRST:",
-        "  The main clause INVERTS (verb-subject)",
-        "  Omdat het regent, BLIJF IK thuis. (not: ik blijf)",
-      ], examples: [
-        "Ik denk dat hij ziek is. — I think that he is sick.",
-        "Omdat het regent, blijf ik thuis. — Because it's raining, I stay home.",
-        "Ik weet niet wanneer hij komt. — I don't know when he's coming.",
-        "Als je wilt, kunnen we gaan. — If you want, we can go.",
-      ]},
-      { title: "Relative Clauses (die/dat)", icon: "🔄", explanation: "'Die' and 'dat' connect a description to a noun. 'Die' for de-words and ALL plurals. 'Dat' for het-words singular only.", rules: [
-        "De-words → die (de man die daar staat)",
-        "Het-words singular → dat (het boek dat ik lees)",
-        "ALL plurals → die (de kinderen die spelen)",
-        "",
-        "After prepositions:",
-        "  People → wie (de man met wie ik sprak)",
-        "  Things → waar + preposition (het boek waarover ik sprak)",
-      ], examples: [
-        "De man die daar staat, is mijn vader. — The man who stands there is my father.",
-        "Het boek dat ik lees, is goed. — The book that I read is good.",
-        "De mensen die hier wonen, zijn aardig. — The people who live here are nice.",
-      ]},
-      { title: "Passive Voice", icon: "🔀", explanation: "Two forms: 'worden' + participle (process/action), 'zijn' + participle (completed state).", rules: [
-        "Action: worden + past participle",
-        "State: zijn + past participle",
-        "Agent: door (by)",
-        "Impersonal passive: Er wordt + participle (very Dutch!)",
-      ], examples: [
-        "Het huis wordt gebouwd. — The house is being built.",
-        "Het huis is gebouwd. — The house has been built.",
-        "Er wordt hier veel gewerkt. — A lot of work is done here.",
-      ]},
-      { title: "Comparatives & Superlatives", icon: "📊", explanation: "Comparative: adjective + -er (+ dan). Superlative: het + adjective + -st(e).", rules: [
-        "Comparative: adj + -er + dan",
-        "Superlative: het + adj + -st(e)",
-        "",
-        "IRREGULAR:",
-        "  goed → beter → best (good → better → best)",
-        "  veel → meer → meest (much → more → most)",
-        "  weinig → minder → minst (little → less → least)",
-        "  graag → liever → liefst (gladly → rather → most gladly)",
-      ], examples: [
-        "Amsterdam is groter dan Utrecht. — Amsterdam is bigger than Utrecht.",
-        "Dit is het beste restaurant. — This is the best restaurant.",
-        "Ik drink liever thee. — I prefer to drink tea.",
-      ]},
-      { title: "Er (5 Uses)", icon: "📍", explanation: "'Er' is one of the trickiest Dutch words with 5 distinct uses. It roughly translates as 'there' or 'it'.", rules: [
-        "1. EXISTENTIAL: Er zijn veel mensen. (There are many people)",
-        "2. LOCATIVE: Ik ben er geweest. (I have been there)",
-        "3. PREPOSITIONAL: Ik denk eraan. (I think about it)",
-        "4. PARTITIVE: Ik heb er drie. (I have three of them)",
-        "5. PASSIVE FILLER: Er wordt gedanst. (There is dancing)",
-      ], examples: [
-        "Er is geen melk meer. — There is no more milk.",
-        "Ik heb er vijf. — I have five of them.",
-        "Ik kijk ernaar. — I look at it.",
-      ]},
-      { title: "Om...Te + Infinitive", icon: "🎯", explanation: "Express purpose ('in order to'). Also used after certain adjectives and verbs.", rules: [
-        "Purpose: om + te + infinitive (at end)",
-        "After adjectives: moeilijk om te..., leuk om te...",
-        "Separable verbs: prefix + te + stem (om op te staan)",
-      ], examples: [
-        "Ik ga naar de winkel om brood te kopen. — I go to the store to buy bread.",
-        "Het is moeilijk om Nederlands te leren. — It's hard to learn Dutch.",
-        "Hij probeert om op tijd te komen. — He tries to arrive on time.",
-      ]},
-    ],
-    B2: [
-      { title: "Double Infinitive", icon: "🔁", explanation: "When a modal verb is in the perfect tense, the past participle becomes an infinitive — creating two infinitives at the end.", rules: [
-        "Normal: Ik heb gewerkt.",
-        "With modal: Ik heb moeten werken. (NOT: gemoeten)",
-        "Always: hebben + infinitive + infinitive",
-        "Applies to: kunnen, moeten, willen, mogen, zullen, laten",
-      ], examples: [
-        "Ik heb kunnen komen. — I was able to come.",
-        "Zij heeft moeten werken. — She had to work.",
-        "Wij hebben het laten repareren. — We had it repaired.",
-      ]},
-      { title: "Indirect Speech", icon: "💬", explanation: "Reporting what someone said. Tense shifts back, use 'dat' clause.", rules: [
-        "Direct: Hij zei: 'Ik ben ziek.'",
-        "Indirect: Hij zei dat hij ziek was.",
-        "Present → Past (ben → was, heb → had)",
-        "Future → Conditional (zal → zou)",
-      ], examples: [
-        "Hij zei dat hij ziek was. — He said he was sick.",
-        "Zij vertelde dat ze zou komen. — She said she would come.",
-      ]},
-      { title: "Er + Preposition (Pronominal Adverbs)", icon: "🔗", explanation: "For THINGS (not people), replace 'preposition + pronoun' with 'er + preposition'.", rules: [
-        "Things: preposition + het → er + preposition",
-        "  Ik denk aan het boek → Ik denk eraan.",
-        "People: keep preposition + pronoun!",
-        "  Ik denk aan haar → stays: Ik denk aan haar.",
-        "Questions: waar + preposition",
-        "  Waaraan denk je? — What are you thinking about?",
-      ], examples: [
-        "Ik wacht erop. — I wait for it.",
-        "Ik denk eraan. — I think about it.",
-        "Waar kijk je naar? — What are you looking at?",
-      ]},
-    ],
-    C1: [
-      { title: "Extended Attributive Constructions", icon: "📄", explanation: "Long modifier chains before the noun — common in written/formal Dutch.", rules: [
-        "All modifiers go BEFORE the noun",
-        "Past participles as adjectives: de door de regering aangekondigde maatregelen",
-        "Present participles: de snel groeiende economie",
-      ], examples: [
-        "De door de regering aangekondigde maatregelen. — The measures announced by the government.",
-        "Het in 2024 gepubliceerde rapport. — The report published in 2024.",
-      ]},
-      { title: "Formal Register", icon: "🏛️", explanation: "Official Dutch uses specific constructions that differ from everyday speech.", rules: [
-        "'Dient te' instead of 'moet' (should/must)",
-        "'Wordt verzocht' (is requested)",
-        "Heavy passive voice, 'men' as impersonal subject",
-      ], examples: [
-        "U wordt verzocht plaats te nemen. — You are requested to sit down.",
-        "Men dient rekening te houden met... — One should take into account...",
-      ]},
-      { title: "Cleft Sentences & Emphasis", icon: "💡", explanation: "Emphasize a part using 'Het is/was... die/dat...'", rules: [
-        "Het is + emphasized element + die/dat + rest",
-        "Use 'die' for people, 'dat' for things/actions",
-      ], examples: [
-        "Het is Jan die dat heeft gedaan. — It is Jan who did that.",
-        "Het was gisteren dat ik het hoorde. — It was yesterday that I heard it.",
-      ]},
-    ],
-    C2: [
-      { title: "Literary & Archaic Forms", icon: "📚", explanation: "Found in literature, proverbs, and very formal texts.", rules: [
-        "Des (genitive masculine): des morgens, des te beter",
-        "Dezer/diens (demonstrative genitive)",
-        "'s (reduced genitive): 's morgens, 's avonds, 's lands",
-        "Subjunctive remnants: Leve de koning! Het zij zo.",
-      ], examples: [
-        "'s Morgens drink ik koffie. — In the morning I drink coffee.",
-        "Des te beter! — All the better!",
-        "Leve de koning! — Long live the king!",
-      ]},
-      { title: "Complex Embedding", icon: "🧩", explanation: "Multiple levels of subordination with correct verb placement. The hallmark of advanced Dutch.", rules: [
-        "Each subordinate clause pushes verbs to its own end",
-        "Multiple 'dat' clauses can nest",
-        "Verb clusters at the end of deeply nested clauses",
-      ], examples: [
-        "Hij zei dat hij dacht dat zij zou komen. — He said that he thought that she would come.",
-        "Het feit dat hij beweerde dat het waar was... — The fact that he claimed it was true...",
-      ]},
-    ],
-  };
+
+  // Grammar data — loaded from language-specific modules
+  const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR };
+  const grammarData = GRAMMAR_REFS[lang] || {};
+  // Placeholder for languages without grammar data yet
+  const noGrammarYet = !GRAMMAR_REFS[lang];
 
   const levels=["A1","A2","B1","B2","C1","C2"];
   const levelNames={A1:t("level_beginner",baseLang),A2:t("level_elementary",baseLang),B1:t("level_intermediate",baseLang),B2:t("level_upper_int",baseLang),C1:t("level_advanced",baseLang),C2:t("level_mastery",baseLang)};
   const levelColors={A1:"var(--teal)",A2:"var(--blue)",B1:"var(--gold)",B2:"#7B5EE8",C1:"var(--coral)",C2:"var(--gray-600)"};
-  const rules=DUTCH_GRAMMAR[openLevel]||[];
+  const rules=grammarData[openLevel]||[];
 
   return(
     <div className="anim">
@@ -1966,6 +1386,13 @@ function GrammarPage({lang,baseLang="en"}){
         <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6}}>{(LANGUAGES.find(l=>l.code===lang)?.native||"") + " " + t("grammar_header",baseLang)}</h2>
         <p style={{color:"var(--gray-400)",fontSize:14}}>{t("grammar_sub",baseLang)}</p>
       </div>
+
+      {/* Coming soon for languages without grammar data */}
+      {noGrammarYet && <div style={{textAlign:"center",padding:"40px 20px",background:"var(--card-bg)",borderRadius:20,border:"2px solid var(--gray-100)",marginBottom:24}}>
+        <div style={{fontSize:48,marginBottom:12}}>🚧</div>
+        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>Grammar reference coming soon</div>
+        <div style={{fontSize:14,color:"var(--gray-400)"}}>Check the CEFR Reference page for grammar constructs by level.</div>
+      </div>}
 
       {/* Level tabs */}
       <div style={{display:"flex",gap:4,marginBottom:24,justifyContent:"center",flexWrap:"wrap"}}>
@@ -3979,16 +3406,8 @@ function VocabTable({words,dk,rowStyle,LevelPill,posLabel,genderLabel,genderColo
 // ━━━━━━━━━━ IDIOMS PAGE ━━━━━━━━━━
 
 function IdiomsPage({lang,baseLang="en"}){
-  const idioms=[
-    {nl:"Met de deur in huis vallen",en:"To get straight to the point",lit:"To fall into the house with the door",level:"A2",note:"Used when someone skips small talk and says what they mean directly."},
-    {nl:"Een appeltje voor de dorst",en:"Savings for a rainy day",lit:"An apple for thirst",level:"B1",note:"Having money or resources saved up for when you need them."},
-    {nl:"Het regent pijpenstelen",en:"It's raining cats and dogs",lit:"It's raining pipe stems",level:"A2",note:"Very Dutch — because it rains so much in the Netherlands! 🌧️"},
-    {nl:"Helaas, pindakaas",en:"Too bad, so sad",lit:"Unfortunately, peanut butter",level:"A1",note:"Playful rhyme used to say 'oh well, nothing we can do about it'. Very informal."},
-    {nl:"Nu komt de aap uit de mouw",en:"Now the truth comes out",lit:"Now the monkey comes out of the sleeve",level:"B1",note:"When someone's real intentions are finally revealed."},
-    {nl:"Dat is mosterd na de maaltijd",en:"That's too little, too late",lit:"That's mustard after the meal",level:"B2",note:"Help or advice that arrives after it's no longer useful."},
-    {nl:"Op een koopje",en:"For a bargain / on the cheap",lit:"On a little buy",level:"A2",note:"The Dutch love a good deal — this phrase is used constantly!"},
-    {nl:"Iets door de vingers zien",en:"To turn a blind eye",lit:"To see something through the fingers",level:"B1",note:"Deliberately ignoring someone's mistake or wrongdoing."},
-  ];
+  const IDIOM_REFS = { nl: DUTCH_IDIOMS };
+  const idioms = IDIOM_REFS[lang] || [];
 
   return(
     <div className="anim">
@@ -3998,14 +3417,20 @@ function IdiomsPage({lang,baseLang="en"}){
         <p style={{color:"var(--gray-400)",fontSize:14}}>{t("idioms_sub",baseLang)} {LANGUAGES.find(l=>l.code===lang)?.native||""}</p>
       </div>
 
+      {idioms.length===0 && <div style={{textAlign:"center",padding:"40px 20px",background:"var(--card-bg)",borderRadius:20,border:"2px solid var(--gray-100)",marginBottom:24}}>
+        <div style={{fontSize:48,marginBottom:12}}>🚧</div>
+        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>Idioms coming soon</div>
+        <div style={{fontSize:14,color:"var(--gray-400)"}}>Check the CEFR Reference page for expressions by level.</div>
+      </div>}
+
       <div style={{display:"grid",gap:14}}>
         {idioms.map((id,i)=>(
           <div key={i} style={{background:"linear-gradient(145deg, #F8F4FF, #FFF8F4)",borderRadius:20,border:"1.5px solid rgba(123,94,232,0.12)",padding:"20px 22px",boxShadow:"0 3px 12px rgba(0,0,0,0.03)"}}>
             <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:10}}>
               <span style={{padding:"3px 12px",borderRadius:10,background:"var(--purple-flat)",fontSize:10,fontWeight:700,color:"var(--purple-accent-text)"}}>{id.level}</span>
             </div>
-            <div className="hd" style={{fontSize:18,fontWeight:800,color:"var(--gray-800)",marginBottom:4}}>"{id.nl}"</div>
-            <div style={{fontSize:14,color:"var(--teal-dark)",fontWeight:700,marginBottom:2}}>→ {id.en}</div>
+            <div className="hd" style={{fontSize:18,fontWeight:800,color:"var(--gray-800)",marginBottom:4}}>"{id.trg}"</div>
+            <div style={{fontSize:14,color:"var(--teal-dark)",fontWeight:700,marginBottom:2}}>→ {id.src}</div>
             <div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic",marginBottom:10}}>Literally: "{id.lit}"</div>
             {id.note&&<div style={{fontSize:13,color:"var(--gray-500)",lineHeight:1.6,background:"rgba(255,255,255,0.6)",borderRadius:12,padding:"10px 14px"}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,verticalAlign:"middle"}}/>{id.note}</div>}
           </div>
