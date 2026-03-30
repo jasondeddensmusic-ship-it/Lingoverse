@@ -289,7 +289,7 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
         {type:"teach",trg:"die Flasche",src:"الزجاجة",pos:"noun",gender:"f",note:"اسم مؤنث (die). الجمع: die Flaschen.",example:"A: Eine Flasche Wasser, bitte.\nB: Mit oder ohne Kohlensäure?",exampleSrc:"A: زجاجة ماء من فضلك.\nB: غازي أم عادي؟",funFact:"الألمان يعشقون المياه الغازية. إذا طلبت 'Wasser' في مطعم، ستحصل على مياه غازية. قل 'stilles Wasser' للمياه العادية. نظام Pfand (تأمين الزجاجات) يعني أنك تعيد الزجاجات مقابل 25 سنتاً لكل واحدة."},
         {type:"mc",q:"ما المشروب التقليدي الأشهر في ألمانيا؟",opts:["der Tee","die Milch","der Wein","das Bier"],ans:"das Bier",hint:"فكّر في Reinheitsgebot (قانون نقاء البيرة)، Oktoberfest، و1500 مصنع جعة."},
         {type:"fb",s:"Zwei {1}, bitte. Mit Butter und Käse.",a:["Brötchen"],opts:["Brötchen","Kuchen","Kartoffeln","Eier"],hint:"كعكات الخبز الصغيرة هذه عنصر أساسي في إفطار المخبز (Bäckerei).",sSrc:"كعكتا خبز من فضلك. بالزبدة والجبن."},
-        {type:"mc",q:"'Kannst du mir das Salz geben?' ماذا يريد المتحدّث؟",opts:["The salt","The sugar","A glass","A bottle"],ans:"The salt",hint:"هذا التابل الأبيض سُمّي 'الذهب الأبيض' عبر التاريخ."},
+        {type:"mc",q:"'Kannst du mir das Salz geben?' ماذا يريد المتحدّث؟",opts:["الملح","السكر","كوب","زجاجة"],ans:"الملح",hint:"هذا التابل الأبيض سُمّي 'الذهب الأبيض' عبر التاريخ."},
         {type:"match",pairs:[
             {trg:"der Fisch",src:"سمك"},
             {trg:"die Kartoffel",src:"بطاطا"},

@@ -59,13 +59,13 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
         {type:"tip",title:"Schmeckt + Taste Description",text:"Es schmeckt gut. = الطعم جيد.\nEs schmeckt lecker. = الطعم لذيذ.\nEs schmeckt zu salzig. = الطعم مالح جدًا.\n\nالنمط: Es schmeckt + صفة.\n\nالتفضيل الشخصي:\nIch mag Fisch. = أحب السمك.\nIch esse gern Fisch. = أحب أكل السمك.\ngern مع فعل = بسرور = تعبير عن الإعجاب.",deepDive:{title:"The schmecken verb",text:"schmecken يعمل بشكل مختلف عن الإنجليزية 'taste':\n\nEs schmeckt. = الطعم جيد (لا حاجة لصفة!)\nEs schmeckt mir. = يعجبني طعمه (مع المجرور!)\nWie schmeckt es? = كيف الطعم؟\n\nإذا قال ألماني 'Es schmeckt!' عن طبخك، فهذه أعلى مجاملة. لا حاجة لصفة إضافية."}},
         {type:"teach",trg:"zufrieden",src:"راضٍ، قانع",pos:"adj",gender:null,note:"صفة. تُستخدم كثيرًا مع mit (مع).",example:"A: Bist du zufrieden mit dem Essen?\nB: Ja, sehr zufrieden!",exampleSrc:"A: هل أنت راضٍ عن الطعام؟\nB: نعم، راضٍ جدًا!",funFact:"zufrieden مشتقة من zu (إلى) + Frieden (سلام). الرضا يعني حرفيًا أن تكون في سلام."},
         {type:"teach",trg:"zusammen",src:"معًا",pos:"adv",gender:null,note:"حال. يُستخدم أيضًا عند الدفع: zusammen oder getrennt?",example:"A: Zusammen oder getrennt?\nB: Zusammen bitte.",exampleSrc:"A: معًا أم منفصل؟\nB: معًا من فضلك.",funFact:"في ألمانيا، النادل دائمًا يسأل zusammen oder getrennt? (معًا أم منفصل؟) عندما تريد الدفع."},
-        {type:"mc",q:"يسأل النادل: Zusammen oder getrennt? عمّ يسأل؟",opts:["One bill or separate bills","Eat in or take away","نقداً أو بالبطاقة","تدخين أو عدم تدخين"],ans:"One bill or separate bills",hint:"Zusammen = معًا. Getrennt = ___. النادل يسأل عن الحساب."},
+        {type:"mc",q:"يسأل النادل: Zusammen oder getrennt? عمّ يسأل؟",opts:["فاتورة واحدة أم فواتير منفصلة","تناول هنا أم للخارج","نقداً أو بالبطاقة","تدخين أو عدم تدخين"],ans:"فاتورة واحدة أم فواتير منفصلة",hint:"Zusammen = معًا. Getrennt = ___. النادل يسأل عن الحساب."},
         {type:"teach",trg:"gern",src:"بكل سرور",pos:"adv",gender:null,note:"حال. يُستخدم مع الأفعال للتعبير عن الإعجاب: Ich koche gern.",example:"A: Kochst du gern?\nB: Ja, ich koche sehr gern!",exampleSrc:"A: هل تحب الطبخ؟\nB: نعم، أحب الطبخ كثيرًا!",funFact:"gern هي الصيغة المختصرة. gerne تعني نفس الشيء تمامًا. كلتاهما صحيحتان."},
         {type:"teach",trg:"gerne",src:"بكل سرور",pos:"adv",gender:null,note:"حال. الصيغة الأطول من gern، مطابقة في المعنى.",example:"A: Möchtest du Kaffee?\nB: Ja, gerne!",exampleSrc:"A: هل تريد قهوة؟\nB: نعم، بكل سرور!",funFact:"Gerne! وحدها رد شائع يعني نعم من فضلك! أو بكل سرور!"},
         {type:"teach",trg:"gefallen",src:"يُعجب، يروق (شيء يُعجبك)",pos:"verb",gender:null,note:"الشيء المُعجَب به هو الفاعل: Das Buch gefällt mir (الكتاب يُعجبني).",example:"A: Gefällt dir das Restaurant?\nB: Ja, es gefällt mir sehr gut!",exampleSrc:"A: هل يعجبك المطعم؟\nB: نعم، يعجبني كثيرًا!",funFact:"gefallen يقلب الفاعل. أنت لا تحب الكتاب. الكتاب يحبك (يُعجبك). هذا يُربك كثيرًا من المتعلمين في البداية."},
         {type:"teach",trg:"lieben",src:"يُحب",pos:"verb",gender:null,note:"فعل منتظم: ich liebe, du liebst. أقوى من mögen أو gern.",example:"A: Liebst du Schokolade?\nB: Ja, ich liebe Schokolade!",exampleSrc:"A: هل تحب الشوكولاتة؟\nB: نعم، أحب الشوكولاتة!",funFact:"Ich liebe dich (أحبك) من أكثر العبارات الألمانية بحثًا في العالم."},
         {type:"fb",s:"Ich schwimme {1}. Es macht Spaß!",a:["gern"],opts:["gern","schlecht","bitter","laut"],hint:"أنت تستمتع بالسباحة. أي حال يعبّر عن حب نشاط؟",sSrc:"أحب السباحة. إنها ممتعة!"},
-        {type:"mc",q:"Das Buch gefällt mir. ما هو فاعل هذه الجملة؟",opts:["Me / I","The pleasure","The book","لا أحد"],ans:"The book",hint:"في جمل gefallen، الشيء الذي يُعجب هو الفاعل النحوي."},
+        {type:"mc",q:"Das Buch gefällt mir. ما هو فاعل هذه الجملة؟",opts:["Me / I","المتعة","الكتاب","لا أحد"],ans:"الكتاب",hint:"في جمل gefallen، الشيء الذي يُعجب هو الفاعل النحوي."},
         {type:"tip",title:"gern vs gefallen vs lieben",text:"ثلاث طرق للتعبير عن الإعجاب:\n1. gern/gerne + فعل: Ich lese gern. (أحب القراءة.)\n2. gefallen + مجرور: Das gefällt mir. (هذا يُعجبني.)\n3. lieben: Ich liebe Musik. (أحب الموسيقى.)\n\ngern للأنشطة، gefallen للانطباعات، lieben هي الأقوى.",deepDive:{title:"Why gefallen flips the subject",text:"gefallen تعني حرفيًا 'يُسعد/يُرضي'. الشيء الذي يُعجبك هو الفاعل. Das Essen gefällt mir = الطعام يُعجبني. إذا أردت قول 'أحب الطعام'، البنية الألمانية تضع الطعام أولًا كفاعل وأنت في حالة المجرور (mir). هذا يشبه بنية الفعل العربي 'أعجبني'."}},
         {type:"match",pairs:[
             {trg:"wunderbar",src:"رائع"},
@@ -76,7 +76,7 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
             {trg:"zusammen",src:"معاً"}
           ]},
         {type:"fb",s:"Der Film ist sehr {1}. Alle lachen.",a:["lustig"],opts:["lustig","leise","bitter","ruhig"],hint:"الجميع يضحك. الفيلم لا بد أنه مضحك.",sSrc:"الفيلم مضحك جدًا. الجميع يضحك."},
-        {type:"mc",q:"Ich koche gern. ما معنى هذه الجملة؟",opts:["I cook well.","I must cook.","I am cooking.","I like cooking."],ans:"I like cooking.",hint:"gern بعد فعل يعبّر عن الاستمتاع بذلك النشاط."},
+        {type:"mc",q:"Ich koche gern. ما معنى هذه الجملة؟",opts:["أنا أطبخ جيداً.","يجب أن أطبخ.","أنا أطبخ.","أنا أحب الطبخ."],ans:"أنا أحب الطبخ.",hint:"gern بعد فعل يعبّر عن الاستمتاع بذلك النشاط."},
         {type:"story",speaker:"narrator",mood:"anticipating",art:"de-gasthaus-interior-table",trg:"Ein Kellner zeigt auf den letzten freien Platz. An dem Tisch sitzt schon jemand.",src:"نادل يشير إلى المقعد الأخير الفارغ. شخص ما يجلس بالفعل على تلك الطاولة."}
       ]},
     {id:"deu_r05l3",title:"Ich kann das nicht lesen!",icon:"📖",xp:15,board:true,steps:[
@@ -134,7 +134,7 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
         {type:"fb",s:"Er {1} heute Abend ins Kino gehen.",a:["will"],opts:["will","wollen","wollt","willst"],hint:"صيغة الغائب المفرد من wollen.",sSrc:"يريد الذهاب إلى السينما الليلة."},
         {type:"mc",q:"Ich kann Deutsch ___. أين يوضع المصدر؟",opts:["sprechen (after ich)","spreche (at the end)","gesprochen (at the end)","sprechen (at the end)"],ans:"sprechen (at the end)",hint:"مع الأفعال الناقصة، الفعل الرئيسي يذهب إلى النهاية في صيغة المصدر."},
         {type:"drag_fill",s:"Wir {1} heute Abend Pizza {2}.",blanks:{"1":"müssen","2":"essen"},pool:["müssen","essen","muss","isst"],hint:"يجب أن نأكل بيتزا الليلة. الفعل الناقص في الموقع الثاني، الفعل الرئيسي في النهاية.",sSrc:"يجب أن نأكل بيتزا الليلة."},
-        {type:"mc",q:"Ich muss nicht arbeiten. ما معنى ذلك؟",opts:["I must not work.","I cannot work.","I do not have to work.","I will not work."],ans:"I do not have to work.",hint:"nicht müssen تعني غياب الالتزام، لا المنع."},
+        {type:"mc",q:"Ich muss nicht arbeiten. ما معنى ذلك؟",opts:["يحظر عليّ العمل.","لا أستطيع العمل.","لا يجب عليّ العمل.","لن أعمل."],ans:"لا يجب عليّ العمل.",hint:"nicht müssen تعني غياب الالتزام، لا المنع."},
         {type:"fb",s:"Ich {1} eine Bratwurst bestellen.",a:["will"],opts:["will","kann","muss","wollen"],hint:"تريد أن تطلب نقانق. أي فعل ناقص يعبّر عن الرغبة؟",sSrc:"أريد أن أطلب نقانق (Bratwurst)."},
         {type:"drag_fill",s:"Sie {1} gut Deutsch {2} und {3} mehr {4}.",blanks:{"1":"kann","2":"sprechen","3":"will","4":"lernen"},pool:["kann","sprechen","will","lernen","muss","können"],hint:"تستطيع التحدث بالألمانية جيدًا وتريد أن تتعلم المزيد. جملتا فعل ناقص متصلتان.",sSrc:"تستطيع التحدث بالألمانية جيدًا وتريد أن تتعلم المزيد."},
         {type:"mc",q:"Kannst du das ___? لا أستطيع قراءته!",opts:["verboten","müssen","verstehen","lieb"],ans:"verstehen",hint:"المتحدث لا يستطيع قراءة شيء ويسأل هل تستطيع أنت فهمه."},
@@ -172,7 +172,7 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
               ]}
           ],note:"الثلاثة كلها: لا نهاية على صيغتي ich/er. möchten هي صيغة الطلب المهذبة."},
         {type:"tip",title:"dürfen nicht vs müssen nicht",text:"هاتان العبارتان تبدوان متشابهتين لكن معناهما متعاكس:\n\ndürfen nicht = ممنوع (محظور)\nDu darfst hier nicht rauchen. = لا يُسمح لك بالتدخين هنا.\n\nmüssen nicht = ليس عليك (لا إلزام)\nDu musst nicht kommen. = ليس عليك أن تأتي.\n\nالخلط بينهما يسبب سوء فهم خطير!",deepDive:{title:"The deadly modal mix-up",text:"الإنجليزية 'must not' = الألمانية 'dürfen nicht' (ممنوع)\nالإنجليزية 'don't have to' = الألمانية 'müssen nicht' (اختياري)\n\nإذا قال شخص 'Du darfst das nicht!' فهو يمنعك.\nإذا قال 'Du musst das nicht.' فهو يُعفيك من الالتزام.\n\nهذا التمييز صارم في الألمانية. استخدام الخطأ يجعلك تبدو إما متسلطًا أو متساهلًا."}},
-        {type:"mc",q:"'Darf ich hier rauchen?' يسأل عن:",opts:["Am I allowed to smoke here?","هل يجب أن أدخّن هنا؟","هل ينبغي أن أدخّن هنا؟","Do I want to smoke here?"],ans:"Am I allowed to smoke here?",hint:"dürfen يتعلق بالإذن."},
+        {type:"mc",q:"'Darf ich hier rauchen?' يسأل عن:",opts:["Am I allowed to smoke here?","هل يجب أن أدخّن هنا؟","هل ينبغي أن أدخّن هنا؟","هل أريد أن أدخّن هنا؟"],ans:"Am I allowed to smoke here?",hint:"dürfen يتعلق بالإذن."},
         {type:"fb",s:"Man {1} hier nicht rauchen. Es ist verboten!",a:["darf"],opts:["darf","soll","muss","kann"],hint:"الإذن مرفوض = ممنوع. ليس قدرة.",sSrc:"لا يُسمح بالتدخين هنا. ممنوع!"},
         {type:"teach",trg:"besser",src:"أفضل (صيغة المقارنة من gut)",pos:"adj",gender:null,note:"شاذ: gut، besser، am besten.",example:"A: Wie ist das Essen?\nB: Besser als das andere!",exampleSrc:"A: كيف الطعام؟\nB: أفضل من الآخر!",funFact:"gut، besser، am besten. شاذة تمامًا مثل الإنجليزية 'good، better، best'."},
         {type:"teach",trg:"lieber",src:"بالأحرى / يُفضّل (صيغة المقارنة من gern)",pos:"adv",gender:null,note:"'Ich esse lieber Fisch' = أفضّل أكل السمك.",example:"A: Trinkst du lieber Bier oder Wein?\nB: Ich trinke lieber Wein.",exampleSrc:"A: هل تفضّل البيرة أم النبيذ؟\nB: أفضّل النبيذ.",funFact:"إذا كان gern = بسرور، فإن lieber = بسرور أكثر = يُفضّل. عبّر عن التفضيلات بسهولة."},
@@ -234,7 +234,7 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
         {type:"mc",q:"'Das Essen ___! Wunderbar!'",opts:["riecht","schmeckt","kocht","bestellt"],ans:"schmeckt",hint:"يأكلها الآن. الأمر يتعلق بالطعم."},
         {type:"fb",s:"Am Samstag {1} wir im Garten.",a:["grillen"],opts:["grillen","kochen","bestellen","essen"],hint:"في الخارج، بالفحم. تقليد صيفي ألماني.",sSrc:"يوم السبت نشوي في الحديقة."},
         {type:"drag_fill",s:"Lukas {1} das Schnitzel und Verumius {2} den Schweinebraten {3}.",blanks:{"1":"bestellt","2":"möchte","3":"bestellen"},pool:["bestellt","möchte","bestellen","kann","kochen","empfiehlt"],hint:"لوكاس يطلب (مصرّف). فيروميوس يودّ أن يطلب (فعل ناقص + مصدر).",sSrc:"لوكاس يطلب الشنيتسل وفيروميوس يودّ أن يطلب لحم الخنزير المشوي."},
-        {type:"mc",q:"'Ich bringe morgen Kuchen mit.' أين يوضع البادئ المنفصل؟",opts:["قبل الفعل","At the end of the sentence","بعد الفاعل","It doesn't separate"],ans:"At the end of the sentence",hint:"الأفعال المنفصلة: البادئة إلى النهاية."},
+        {type:"mc",q:"'Ich bringe morgen Kuchen mit.' أين يوضع البادئ المنفصل؟",opts:["قبل الفعل","في نهاية الجملة","بعد الفاعل","لا ينفصل"],ans:"في نهاية الجملة",hint:"الأفعال المنفصلة: البادئة إلى النهاية."},
         {type:"match",pairs:[
             {trg:"bestellen",src:"يطلب"},
             {trg:"empfehlen",src:"يوصي"},
@@ -309,9 +309,9 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
         {type:"mc",q:"'Aus-bei-mit, nach-seit, von-zu' تشترك جميعها في:",opts:[
             "تأخذ دائماً حالة المجرور (Dativ)",
             "تأخذ دائماً حالة المنصوب (Akkusativ)",
-            "They are modal verbs",
-            "They are separable prefixes"
-          ],ans:"They always take dative case",hint:"أنشودة السبعة السحرية. حروف الجر هذه كلها تطلب نفس الحالة."},
+            "إنها أفعال نمطية",
+            "إنها بادئات قابلة للفصل"
+          ],ans:"تأخذ دائماً حالة المفعول له",hint:"أنشودة السبعة السحرية. حروف الجر هذه كلها تطلب نفس الحالة."},
         {type:"story",speaker:"verumius",mood:"panicking",art:"de-gasthaus-interior-table",trg:"Ich habe kein Bargeld. Der nächste Automat ist... achthundert Meter? Oh nein.",src:"ليس معي نقود. أقرب صراف آلي على بعد... ثمانمئة متر؟ لا!"},
         {type:"story",speaker:"lukas",mood:"relaxed",art:"de-gasthaus-lukas-close",trg:"Ach, quatsch. Ich mach das. Ist doch nicht schlimm.",src:"هراء. أنا أدفع. ليس شيئًا كبيرًا."}
       ]},
@@ -362,10 +362,10 @@ const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"R
         {type:"story",speaker:"verumius",mood:"moved",art:"de-berlin-street-night",trg:"Danke, Lukas. Für alles. Das Essen, das Geld, die Hilfe.",src:"شكرًا لك يا لوكاس. على كل شيء. الطعام، المال، المساعدة."},
         {type:"mc",q:"Der Kellner: 'Was ___ Sie trinken?'",opts:["können","müssen","möchten","sollen"],ans:"möchten",hint:"الطريقة المهذبة لسؤال ما يريده شخص."},
         {type:"fb",s:"Ich möchte die {1}, bitte.",a:["Speisekarte"],opts:["Speisekarte","Zigarette","Rezeption","Halbpension"],hint:"تحتاج هذا لتعرف ما هو متاح للأكل.",sSrc:"أودّ القائمة، من فضلك."},
-        {type:"mc",q:"'Ich kann jetzt die Speisekarte lesen!' يعبّر Verumius عن:",opts:["He must read the menu.","He is able to read the menu now.","He wants to read the menu.","He should read the menu."],ans:"He is able to read the menu now.",hint:"können = قدرة. لقد تعلّم!"},
+        {type:"mc",q:"'Ich kann jetzt die Speisekarte lesen!' يعبّر Verumius عن:",opts:["عليه أن يقرأ القائمة.","هو قادر على قراءة القائمة الآن.","يريد أن يقرأ القائمة.","ينبغي له أن يقرأ القائمة."],ans:"هو قادر على قراءة القائمة الآن.",hint:"können = قدرة. لقد تعلّم!"},
         {type:"drag_fill",s:"Ich {1} den Schweinebraten {2}, und mein Freund {3} die Käsespätzle {4}.",blanks:{"1":"möchte","2":"bestellen","3":"will","4":"haben"},pool:["möchte","bestellen","will","haben","kann","essen"],hint:"متحدث مهذب والآخر مباشر. فعلان ناقصان مختلفان + مصدر في النهاية.",sSrc:"أودّ أن أطلب لحم الخنزير المشوي، وصديقي يريد المعكرونة بالجبن (Käsespätzle)."},
         {type:"fb",s:"Das Essen {1} wunderbar!",a:["schmeckt"],opts:["schmeckt","riecht","kocht","bestellt"],hint:"أنت تأكله. الطعم رائع.",sSrc:"طعم الطعام رائع!"},
-        {type:"mc",q:"'Ich trinke lieber Bier.' تعني:",opts:["I drink better beer.","I prefer beer.","I drink the best beer.","I can drink beer."],ans:"I prefer beer.",hint:"lieber = يُفضّل. صيغة المقارنة من gern."},
+        {type:"mc",q:"'Ich trinke lieber Bier.' تعني:",opts:["أشرب بيرة أفضل.","أنا أفضّل البيرة.","أشرب أفضل بيرة.","أستطيع شرب البيرة."],ans:"أنا أفضّل البيرة.",hint:"lieber = يُفضّل. صيغة المقارنة من gern."},
         {type:"drag_fill",s:"Das Brot kommt aus {1} Küche und das Bier kommt von {2} Brauerei.",blanks:{"1":"der","2":"der"},pool:["der","dem","die","den","einer","einem"],hint:"كل من Küche وBrauerei مؤنث. المجرور: die تصبح der.",sSrc:"الخبز يأتي من المطبخ والبيرة تأتي من مصنع البيرة."},
         {type:"mc",q:"'Darf man hier rauchen?' 'Nein, das ist ___.'",opts:["einfach","lustig","wunderbar","verboten"],ans:"verboten",hint:"ممنوع! غير مسموح."},
         {type:"fb",s:"Ich wohne seit {1} Monat in Deutschland.",a:["einem"],opts:["einem","ein","einen","einer"],hint:"seit = مجرور. Monat مذكر. ما صيغة المجرور من ein؟",sSrc:"أعيش في ألمانيا منذ شهر."},

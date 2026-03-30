@@ -19,8 +19,8 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
               ]}
           ],note:"حركة الجذع a تتحول إلى ä في صيغتي du و er/sie/es. نفس النمط: schlafen، laufen، waschen."},
         {type:"tip",title:"Stem-Changing Verbs",text:"بعض الأفعال الألمانية تتغير حركتها في صيغتي du و er/sie/es.\n\nfahren: du fährst, er fährt\nschlafen: du schläfst, er schläft\nsprechen: du sprichst, er spricht\n\nصيغ ich و wir و ihr و Sie تبقى منتظمة.",deepDive:{title:"Strong vs Weak Verbs",text:"الأفعال الألمانية تنقسم إلى ضعيفة (منتظمة) تضيف نهايات فقط (e-، st-، t-، en-) وقوية (شاذة) تغير أيضًا حركة الجذع. تبديل الحركة (Ablaut) ميزة جرمانية قديمة جدًا، نفسها التي تعطي الإنجليزية speak/spoke و sing/sang و run/ran. الأفعال القوية الألمانية حافظت على هذا النمط خصوصًا في صيغتي du و er/sie/es المضارع."}},
-        {type:"mc",q:"ماذا تعني 'Entschuldigung'؟",opts:["عفوًا","شكرًا","وداعًا","Hello"],ans:"عفوًا",hint:"فكر في كيف تجذب انتباه شخص في الشارع."},
-        {type:"mc",q:"'Der Zug fährt um 14 Uhr.' ما الذي يغادر في الساعة الثانية ظهرًا؟",opts:["The bus","The plane","The taxi","The train"],ans:"The train",hint:"هذا الاسم المذكر مرتبط بالسحب والجذب."},
+        {type:"mc",q:"ماذا تعني 'Entschuldigung'؟",opts:["عفوًا","شكرًا","وداعًا","مرحبًا"],ans:"عفوًا",hint:"فكر في كيف تجذب انتباه شخص في الشارع."},
+        {type:"mc",q:"'Der Zug fährt um 14 Uhr.' ما الذي يغادر في الساعة الثانية ظهرًا؟",opts:["الحافلة","الطائرة","سيارة الأجرة","القطار"],ans:"القطار",hint:"هذا الاسم المذكر مرتبط بالسحب والجذب."},
         {type:"teach",trg:"Deutsch",src:"الألمانية (اللغة)",pos:"noun",gender:"n",note:"اسم محايد. يُستخدم كاسم وصفة.\nDeutsch sprechen = يتحدث الألمانية.\nالجنس المحايد (das) لا يوجد بالعربية.",example:"A: Lernst du Deutsch?\nB: Ja, ich lerne Deutsch!",exampleSrc:"A: هل تتعلم الألمانية؟\nB: نعم، أنا أتعلم الألمانية!",funFact:"كلمة Deutsch تأتي من كلمة جرمانية قديمة تعني 'من الشعب'. كانت تميز لغة العامة عن اللاتينية."},
         {type:"teach",trg:"sprechen",src:"يتكلم",pos:"verb",gender:null,note:"فعل شاذ: ich spreche، du sprichst، er spricht.\nحرف e يتحول إلى i في صيغتي du و er/sie/es.",example:"A: Sprechen Sie Deutsch?\nB: Ja, ein bisschen.",exampleSrc:"A: هل تتحدث الألمانية؟\nB: نعم، قليلًا.",funFact:"مرتبطة بالإنجليزية speak. كلاهما من نفس الجذر القديم. احتفظت الألمانية بتجمع الأحرف spr- الذي بسّطته الإنجليزية."},
         {type:"verb_table",title:"sprechen (to speak)",groups:[
@@ -35,7 +35,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
           ],note:"حركة الجذع e تتحول إلى i في صيغتي du و er/sie/es. نفس النمط: geben، nehmen، essen."},
         {type:"teach",trg:"ein bisschen",src:"قليلًا",pos:"adv",gender:null,note:"تُستخدم لتلطيف العبارات. مفيدة جدًا للمبتدئين!",example:"A: Sprechen Sie Deutsch?\nB: Ja, ein bisschen.",exampleSrc:"A: هل تتحدث الألمانية؟\nB: نعم، قليلًا.",funFact:"كلمة Bisschen تأتي من Biss (عضة). إذن ein bisschen تعني حرفيًا 'عضة صغيرة واحدة'. كمية بحجم لقمة!"},
         {type:"fb",s:"Sprechen Sie {1}?",a:["Deutsch"],opts:["Deutsch","Hamburg","Zug","Entschuldigung"],hint:"عن أي لغة تسأل في هذه الجملة؟",sSrc:"هل تتحدث الألمانية؟"},
-        {type:"mc",q:"يقول Verumius: 'Ich spreche ein bisschen Deutsch.' ماذا يعني هذا؟",opts:["I speak a little German","I speak perfect German","I don't speak German","I want to learn German"],ans:"I speak a little German",hint:"هذا التعبير يعني كمية صغيرة بحجم لقمة."},
+        {type:"mc",q:"يقول Verumius: 'Ich spreche ein bisschen Deutsch.' ماذا يعني هذا؟",opts:["أتكلم القليل من الألمانية","أتكلم الألمانية بشكل مثالي","أنا لا أتكلم الألمانية","أريد تعلّم الألمانية"],ans:"أتكلم القليل من الألمانية",hint:"هذا التعبير يعني كمية صغيرة بحجم لقمة."},
         {type:"teach",trg:"der Bahnhof",src:"محطة القطار",pos:"noun",gender:"m",note:"اسم مذكر مركب: Bahn (سكة) + Hof (ساحة).\nمثل الإضافة بالعربية: 'ساحة السكة'.",example:"A: Wo ist der Bahnhof?\nB: Der Bahnhof ist dort drüben.",exampleSrc:"A: أين محطة القطار؟\nB: محطة القطار هناك.",funFact:"الألمان يعشقون الأسماء المركبة. Bahnhof = ساحة السكة. Hauptbahnhof = ساحة السكة الرئيسية.\nمثل الإضافة بالعربية: محطة القطار الرئيسية."},
         {type:"teach",trg:"das Taxi",src:"سيارة الأجرة",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Taxis.\nنفس الكلمة في معظم اللغات: تاكسي.",example:"A: Nehmen wir ein Taxi?\nB: Nein, ich fahre mit dem Zug.",exampleSrc:"A: هل نأخذ سيارة أجرة؟\nB: لا، سأذهب بالقطار.",funFact:"كلمة Taxi عالمية. تأتي من taximeter، جهاز يقيس المسافة ويحسب الأجرة. اختُرع في ألمانيا عام ١٨٩١."},
         {type:"teach",trg:"nach",src:"إلى (مدينة أو بلد)",pos:"prep",gender:null,note:"تُستخدم مع أسماء المدن والبلدان. مثال: Ich fahre nach Berlin.\nمثل 'إلى' بالعربية.",example:"A: Wohin fährst du?\nB: Ich fahre nach Deutschland.",exampleSrc:"A: إلى أين أنت ذاهب؟\nB: أنا ذاهب إلى ألمانيا.",funFact:"Nach من الكلمات الألمانية الصغيرة ذات القوة الكبيرة. تعني 'إلى' (nach Berlin)، 'بعد' (nach dem Essen)، وحتى 'حسب' (nach meiner Meinung). السياق يحدد المعنى."},
@@ -86,7 +86,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
           ]},
         {type:"mc",q:"أنت تنهي مكالمة هاتفية. أيّ عبارة وداع تُستخدم خصيصًا في المكالمات؟",opts:["Auf Wiederhören","Auf Wiedersehen","Tschüss","Bis bald"],ans:"Auf Wiederhören",hint:"hören تعني يسمع. هذا الوداع عن سماع شخص مجددًا وليس رؤيته."},
         {type:"fb",s:"A: Ich helfe dir gern.\nB: Oh, {1}!",a:["Gern geschehen"],opts:["Gern geschehen","Kein Problem","Bitte","Es tut mir leid"],hint:"أدفأ طريقة لقول 'عفوًا'، حرفيًا تعني 'حدث بسرور'.",sSrc:"A: أنا سعيد بالمساعدة.\nB: أوه، على الرحب والسعة!"},
-        {type:"mc",q:"اصطدم بك شخص بالخطأ وقال 'Es tut mir leid!' عمّ يعبّر؟",opts:["A greeting","An apology","A farewell","امتنان"],ans:"An apology",hint:"هذه العبارة تعبر عن أن شيئًا يسبب للمتحدث الألم أو الندم."}
+        {type:"mc",q:"اصطدم بك شخص بالخطأ وقال 'Es tut mir leid!' عمّ يعبّر؟",opts:["تحية","اعتذار","وداع","امتنان"],ans:"اعتذار",hint:"هذه العبارة تعبر عن أن شيئًا يسبب للمتحدث الألم أو الندم."}
       ]},
     {id:"deu_r01l3",title:"Erste Sätze",icon:"💬",xp:10,board:true,steps:[
         {type:"intro",title:"Erste Sätze",desc:"بعد التحيات، تحتاج كلمات للتنقل في المحادثات: نعم، لا، ربما. بالإضافة إلى جملك الألمانية الأولى: تقديم نفسك، وذكر من أين أتيت، وطلب المساعدة.",goals:[
@@ -108,7 +108,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"tip",title:"Ich heiße vs Mein Name ist",text:"كلاهما يعني 'اسمي'، لكن النبرة تختلف:\n\nIch heiße [Name] = أُسمى [الاسم] (محايد، أي موقف)\nMein Name ist [Name] = اسمي [الاسم] (أكثر رسمية قليلًا)\nIch bin [Name] = أنا [الاسم] (عفوي جدًا)\n\nفي مقابلة عمل: Mein Name ist.\nمع زميل جديد: Ich bin أو Ich heiße.",deepDive:{title:"Academic and professional titles in German",text:"الألمان يستخدمون الألقاب بعناية. إذا كان شخص لديه دكتوراه يُخاطب بـ Herr Doktor Fischer أو Frau Doktor Mueller. الأساتذة يحتفظون بلقبهم دائمًا.\n\nفي الرسائل الرسمية والاجتماعات قد ترى:\nHerr Prof. Dr. Mueller\nFrau Dr. Schneider\n\nحذف اللقب عند مخاطبة شخص كهذا قد يُعتبر عدم احترام. عند الشك استخدم اللقب."}},
         {type:"teach",trg:"Woher kommen Sie?",src:"من أين أنت؟ (رسمي)",pos:"intj",gender:null,note:"Woher = من أين. Kommen = يأتي. Sie = حضرتك (رسمي).",example:"A: Woher kommen Sie?\nB: Ich komme aus Italien.",exampleSrc:"A: من أين أنت؟\nB: أنا من إيطاليا.",funFact:"Woher تنقسم إلى wo (أين) + her (من/نحو المتحدث). الألمانية لديها أيضًا wohin: wo + hin (إلى/بعيدًا عن المتحدث). الاتجاه مهم!"},
         {type:"teach",trg:"Deutschland",src:"ألمانيا",pos:"noun",gender:"n",note:"اسم محايد: das Deutschland. لا حاجة للجمع.",example:"A: Wo sind wir?\nB: Wir sind in Deutschland!",exampleSrc:"A: أين نحن؟\nB: نحن في ألمانيا!",funFact:"كل لغة لديها اسم مختلف لألمانيا. بالفرنسية: Allemagne. بالإيطالية: Germania. بالفنلندية: Saksa. بالبولندية: Niemcy. الألمان يسمون أنفسهم Deutsche من كلمة قديمة تعني 'الشعب'."},
-        {type:"mc",q:"يقول Verumius: 'Ich komme aus Italien.' من أين هو؟",opts:["ألمانيا","فرنسا","Italy","Spain"],ans:"Italy",hint:"كلمة Italien تشبه جدًا مقابلها بالإنجليزية."},
+        {type:"mc",q:"يقول Verumius: 'Ich komme aus Italien.' من أين هو؟",opts:["ألمانيا","فرنسا","إيطاليا","إسبانيا"],ans:"إيطاليا",hint:"كلمة Italien تشبه جدًا مقابلها بالإنجليزية."},
         {type:"teach",trg:"Ich verstehe nicht",src:"لا أفهم",pos:"verb",gender:null,note:"verstehen = يفهم. nicht = لا/ليس.",example:"A: Der Zug fährt von Gleis siebzehn.\nB: Entschuldigung, ich verstehe nicht.",exampleSrc:"A: القطار يغادر من الرصيف سبعة عشر.\nB: عذرًا، لا أفهم.",funFact:"ستستخدم هذه العبارة كثيرًا كمبتدئ. verstehen تعني حرفيًا 'يقف أمام' شيء، كأنك تقف أمام فكرة حتى تفهمها."},
         {type:"teach",trg:"wiederholen",src:"يُعيد / يُكرر",pos:"verb",gender:null,note:"طلب رسمي: ?Können Sie das bitte wiederholen",example:"A: Ich verstehe nicht. Können Sie das wiederholen?\nB: Natürlich! Der Zug fährt um neun.",exampleSrc:"A: لا أفهم. هل يمكنك إعادة ذلك؟\nB: بالطبع! القطار يغادر الساعة التاسعة.",funFact:"Wieder (مجددًا) + holen (يجلب). الإعادة هي 'الجلب مجددًا'. الألمان يبنون المعاني بتكديس كلمات بسيطة."},
         {type:"mc",q:"لم تسمع ما قاله شخص ما. أيّ عبارة تطلب منه الإعادة؟",opts:[
@@ -366,7 +366,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
           ]},
         {type:"story",speaker:"narrator",mood:"confident",art:"de-berlin-hbf-glass",trg:"Verumius steht im Berliner Hauptbahnhof. Hallo. Danke. Bitte. Entschuldigung. Eins, zwei, drei. Links, rechts, geradeaus. Sechs Lektionen. Und er lebt noch.",src:"يقف فيروميوس في محطة برلين المركزية. مرحبًا. شكرًا. من فضلك. عذرًا. واحد، اثنان، ثلاثة. يسار، يمين، للأمام. ست دروس. ولا يزال حيًا."},
         {type:"mc",q:"تقابل مالك شقتك الجديد الساعة 3 ظهرًا. أيّ تحية هي الأنسب؟",opts:["Gute Nacht","Guten Tag","Tschüss","Hallo, Alter"],ans:"Guten Tag",hint:"هذه هي التحية الرسمية النهارية القياسية."},
-        {type:"mc",q:"'Woher kommen Sie?' عن أيّ معلومة يسأل هذا السؤال؟",opts:["ما اسمك","من أين أنت","How you are feeling","إلى أين أنت ذاهب"],ans:"من أين أنت",hint:"woher تجمع wo مع كلمة للاتجاه."},
+        {type:"mc",q:"'Woher kommen Sie?' عن أيّ معلومة يسأل هذا السؤال؟",opts:["ما اسمك","من أين أنت","كيف تشعر","إلى أين أنت ذاهب"],ans:"من أين أنت",hint:"woher تجمع wo مع كلمة للاتجاه."},
         {type:"fb",s:"Ich {1} Verumius.",a:["bin"],opts:["bin","bist","ist","sind"],hint:"أي شكل من sein يناسب ich؟",sSrc:"أنا فيروميوس."},
         {type:"mc",q:"يسأل Dr. Yilmaz عن صديقك: 'Wo ___ er?' أيّ صيغة من 'sein' تناسب؟",opts:["bin","bist","sind","ist"],ans:"ist",hint:"فكر في أي تصريف يناسب er."},
         {type:"mc",q:"تسمع 'Der Zug fährt um siebzehn Uhr.' في أيّ ساعة يغادر القطار؟",opts:["7 AM","5 AM","5 PM","7 PM"],ans:"5 PM",hint:"Siebzehn هي سبعة زائد عشرة في نظام ٢٤ ساعة."},
@@ -382,7 +382,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
             {trg:"Tschüss",src:"مع السلامة"},
             {trg:"Auf Wiedersehen",src:"وداعًا (رسمي)"}
           ]},
-        {type:"mc",q:"يقول شخص 'Gehen Sie geradeaus und dann links.' إلى أين يجب أن تذهب؟",opts:["إلى الأمام ثمّ يمينًا","استدر وامشِ يسارًا","Go back and turn right","إلى الأمام ثمّ يسارًا"],ans:"إلى الأمام ثمّ يسارًا",hint:"كلمة الاتجاه الأولى تعني التقدم للأمام بدون انعطاف."},
+        {type:"mc",q:"يقول شخص 'Gehen Sie geradeaus und dann links.' إلى أين يجب أن تذهب؟",opts:["إلى الأمام ثمّ يمينًا","استدر وامشِ يسارًا","ارجع والتفت يميناً","إلى الأمام ثمّ يسارًا"],ans:"إلى الأمام ثمّ يسارًا",hint:"كلمة الاتجاه الأولى تعني التقدم للأمام بدون انعطاف."},
         {type:"tr",q:"كيف تقول 'عفوًا، أين محطة القطار؟' بالألمانية؟",a:"Entschuldigung, wo ist der Bahnhof?",hint:"ابدأ بالكلمة الطويلة لـ'عذرًا'."},
         {type:"drag_fill",s:"Ich {1} müde und du {2} auch müde.",blanks:{"1":"bin","2":"bist"},pool:["bin","bist","ist","sind","seid"],hint:"املأ الأشكال الصحيحة من sein لـ ich و du.",sSrc:"أنا متعب وأنت أيضًا متعب."},
         {type:"mc",q:"'Wir ___ zwei Koffer.' أيّ صيغة فعل تكمل الجملة؟",opts:["habe","hat","habt","haben"],ans:"haben",hint:"wir تأخذ دائمًا نفس شكل المصدر."},
@@ -446,9 +446,9 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"mc",q:"Verumius مستلقٍ في سريره يبتسم. ماذا سيفعل غدًا في برلين؟",opts:[
             "يأخذ أول رحلة عائدًا إلى إيطاليا",
             "يبقى في السرير طوال اليوم وينسى ألمانيا",
-            "Give up learning and try a different hobby",
-            "Explore the city and practice more German"
-          ],ans:"Explore the city and practice more German",hint:"فيروميوس متعب لكنه متحمس لمغامرته."},
+            "تخلَّ عن التعلم وجرّب هواية أخرى",
+            "استكشف المدينة وتدرّب على الألمانية أكثر"
+          ],ans:"استكشف المدينة وتدرّب على الألمانية أكثر",hint:"فيروميوس متعب لكنه متحمس لمغامرته."},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-berlin-night",trg:"Er lächelt. Morgen wird er das Brandenburger Tor sehen. Morgen wird er mehr Deutsch sprechen. Aber jetzt: Gute Nacht, Berlin.",src:"يبتسم. غدًا سيرى بوابة براندنبورغ. غدًا سيتحدث المزيد من الألمانية. لكن الآن: تصبح على خير يا برلين."}
       ]},
     {id:"deu_r01l11",title:"Bausteine",icon:"🧱",xp:15,board:true,steps:[

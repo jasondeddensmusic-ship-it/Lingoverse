@@ -64,11 +64,11 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
             {trg:"die Geschwister",src:"إخوة"}
           ]},
         {type:"mc",q:"لماذا كلمة 'das Mädchen' محايدة الجنس (das) وليست مؤنثة (die)؟",opts:[
-            "The -chen diminutive suffix always makes words neuter",
+            "لاحقة التصغير -chen تجعل الكلمات دائماً محايدة الجنس",
             "الفتيات محايدات نحوياً في كل اللغات",
-            "It is an exception with no rule",
+            "إنه استثناء بلا قاعدة",
             "Mädchen is actually feminine"
-          ],ans:"The -chen diminutive suffix always makes words neuter",hint:"في الألمانية قاعدة عن التصغير. اللاحقة -chen تفرض جنساً نحوياً محدداً."}
+          ],ans:"لاحقة التصغير -chen تجعل الكلمات دائماً محايدة الجنس",hint:"في الألمانية قاعدة عن التصغير. اللاحقة -chen تفرض جنساً نحوياً محدداً."}
       ]},
     {id:"deu_r03l3",title:"Verwandte und Formulare",icon:"📋",xp:10,board:true,steps:[
         {type:"intro",title:"Verwandte und Formulare",desc:"إلى جانب الوالدين والأشقاء، هناك العمات والأعمام وأبناء العم. وفي الاستمارات الألمانية تحتاج معرفة Familienstand: ledig (أعزب)، verheiratet (متزوج)، أو geschieden (مطلّق). إضافة إلى أدوات الملكية الأساسية: mein، dein، sein.",goals:[
@@ -105,7 +105,7 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
         {type:"fb",s:"Meine Oma ist 1940 {1}.",a:["geboren"],opts:["geboren","jung","alt","ledig"],hint:"جاءت إلى الدنيا عام ١٩٤٠. أي كلمة تعني 'مولود'؟",sSrc:"جدتي وُلدت عام ١٩٤٠."},
         {type:"mc",q:"Verumius ist _____.",opts:["ledig","verheiratet","geschieden","Enkel"],ans:"ledig",hint:"ليس متزوجاً ولا مطلّقاً. خيار الأعزب."},
         {type:"fb",s:"Die Wohnung {1} 650 Euro warm.",a:["kostet"],opts:["kostet","mietet","braucht","kauft"],hint:"كم تكلّف الشقة؟ أي فعل يعبّر عن السعر؟",sSrc:"الشقة تكلّف ٦٥٠ يورو شاملة كل شيء."},
-        {type:"mc",q:"ما معنى 'warm' في 'Die Miete ist 650 Euro warm'؟",opts:["The apartment is warm","شاملة تكاليف التدفئة","إيجار مرتفع","سعر الصيف فقط"],ans:"شاملة تكاليف التدفئة",hint:"Warmmiete مقابل Kaltmiete. أحدهما يشمل التكاليف الإضافية والآخر لا."},
+        {type:"mc",q:"ما معنى 'warm' في 'Die Miete ist 650 Euro warm'؟",opts:["الشقة دافئة","شاملة تكاليف التدفئة","إيجار مرتفع","سعر الصيف فقط"],ans:"شاملة تكاليف التدفئة",hint:"Warmmiete مقابل Kaltmiete. أحدهما يشمل التكاليف الإضافية والآخر لا."},
         {type:"match",pairs:[
             {trg:"die Wohnung",src:"شقة"},
             {trg:"die Miete",src:"إيجار"},
@@ -113,7 +113,7 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
             {trg:"der Vermieter",src:"مالك العقار"},
             {trg:"mieten",src:"يستأجر"}
           ]},
-        {type:"mc",q:"'Hildi Schreiber? Viel Glück!' عمّ تحذّر Lena؟",opts:["A broken apartment","A strict landlady","إيجار غالٍ","A long commute"],ans:"A strict landlady",hint:"لينا تتمنى له الحظ. ردة فعلها تخبرك أن الشخص ذو شخصية قوية."},
+        {type:"mc",q:"'Hildi Schreiber? Viel Glück!' عمّ تحذّر Lena؟",opts:["شقة مُعطَّلة","مالكة صارمة","إيجار غالٍ","تنقل طويل"],ans:"مالكة صارمة",hint:"لينا تتمنى له الحظ. ردة فعلها تخبرك أن الشخص ذو شخصية قوية."},
         {type:"story",speaker:"narrator",mood:"nervous",art:"de-verumius-form-midnight",trg:"Mitternacht. Verumius füllt das Formular aus. Familienstand: ledig. Beruf: Gelehrter. Haustiere: nein. Schufa: Was ist Schufa? Er googelt. Liest. Googelt mehr. Schließt den Laptop. Morgen kommt die Besichtigung. Morgen kommt Hildi.",src:"منتصف الليل. فيروميوس يملأ الاستمارة. الحالة الاجتماعية: أعزب. المهنة: باحث. حيوانات أليفة: لا. Schufa: ما هي Schufa؟ يبحث في غوغل. يقرأ. يبحث أكثر. يغلق الحاسوب. غداً المعاينة. غداً تأتي هيلدي."}
       ]},
     {id:"deu_r03l4",title:"Besichtigung um 14 Uhr",icon:"🔑",xp:15,board:true,steps:[
@@ -405,7 +405,7 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
         {type:"teach",trg:"zwischen",src:"بين",pos:"prep",gender:null,note:"حرف جر. يأخذ المجرور (مكان) أو المنصوب (حركة).",example:"A: Wo ist die Bank?\nB: Zwischen dem Kino und der Post.",exampleSrc:"A: أين البنك؟\nB: بين السينما ومكتب البريد.",funFact:"zwischen والإنجليزية between تتشاركان نفس الجذر. كلتاهما من العدد اثنين (zwei/two). between = بين شيئين."},
         {type:"mc",q:"تقول Hildi: 'Stell die Flasche in den Kühlschrank.' ما معنى 'stellen'؟",opts:["to lay flat","to place upright","to hang up","to throw away"],ans:"to place upright",hint:"فكّر كيف توضع الزجاجات. الألمانية عندها فعل محدد للوضع العمودي."},
         {type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","machst","gehst","legst"],hint:"الفعل المنفصل للنهوض من السرير. البادئة auf.",sSrc:"متى تنهض في الصباح؟"},
-        {type:"mc",q:"معنى 'Unter dem Tisch':?",opts:["تحت الطاولة","On the table","بجانب الطاولة","خلف الطاولة"],ans:"تحت الطاولة",hint:"unter تصف موقعاً أسفل شيء ما."},
+        {type:"mc",q:"معنى 'Unter dem Tisch':?",opts:["تحت الطاولة","على الطاولة","بجانب الطاولة","خلف الطاولة"],ans:"تحت الطاولة",hint:"unter تصف موقعاً أسفل شيء ما."},
         {type:"match",pairs:[
             {trg:"der Garten",src:"حديقة"},
             {trg:"der Hund",src:"كلب"},
