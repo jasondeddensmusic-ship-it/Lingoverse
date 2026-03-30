@@ -1,138 +1,154 @@
-# Session Handoff — 2026-03-30
+# Session Handoff — 2026-03-30 (Updated)
 
-> Arabic Source Language Translation — Unit 1 complete, Unit 2 at 74%
-
----
-
-## What Was Done This Session
-
-### Architecture Built
-- **Shared dictionary**: `scripts/arabic-dictionary.cjs` — single source of truth for English→Arabic translations
-- **Translator script**: `scripts/translate-ar-markers.cjs` — applies dictionary + batch translations to [AR] markers
-- **Batch system**: `scripts/batches/*.cjs` — 17 batch files with 1,942 translations
-- **Generator updated**: `scripts/generate-arabic-units.cjs` now imports from shared dictionary
-- **NFC normalization**: Translator normalizes Unicode (fixes NFD ü/ö from macOS)
-- **PP39 safety**: Translator ensures `\n` stays as literal `\n` in JS strings
-- **Double [AR] fix**: Translator collapses `[AR] [AR]` from generator bug
-
-### Unit 1 — 100% COMPLETE ✅
-- 960 [AR] markers → 0 remaining
-- All 12 Arabic pedagogy hooks verified:
-  - ch≈خ (139 mentions), /p/ warning (2), neuter/محايد (18), compound≈إضافة (5)
-  - Case system إعراب (3), Arabic comparisons (32), ال article (1), verb parallels (6)
-  - du/Sie≈أنت/حضرتك (2), number order=Arabic (3), V2 word order (2), ü/ö warning (5)
-- PP61 audit: zero English in source-language fields
-- Build passes
-
-### Unit 2 — 74.2% (747/1,007)
-- All src word translations done (209)
-- All desc translations done (15)
-- All goals done (~42)
-- All funFacts done (~206)
-- ~160 exampleSrc done
-- ~180 notes done
-- All hints done (59)
-- All sSrc done (19)
-- **174 [AR] markers remain in file**
-- Build passes
+> Arabic A2-B2 scaffold generation + partial translation. 17/36 units fully translated.
 
 ---
 
-## What Needs Doing
+## What Was Done Across Today's Sessions
 
-### Priority 1: Finish Unit 2 (174 markers)
-Remaining markers breakdown:
-- ~100 notes with slightly different text than batch keys
-- ~40 exampleSrc that didn't match
-- ~20 text/tips (long grammar explanations with `\n`)
-- ~14 misc (goals, funFacts with truncated keys)
+### Session 1 (earlier): A1 cleanup
+- Finished A1 units 1-6 translations (prior sessions had most of it)
 
-**Root cause**: Batch keys sometimes don't exactly match file content due to:
-1. Text truncation in extraction
-2. `\n` as literal two characters in file vs actual newline in JS
-3. Slight wording differences between original English and what I wrote
+### Session 2 (this session): A2-B2 scaffold + translation
 
-**Fix approach**: Extract ALL remaining [AR] strings directly from the applied file, write exact-match translations.
+#### 1. Generated Arabic scaffold units 7-36
+- Ran `node scripts/generate-arabic-units.cjs N` for units 7 through 36
+- Created 30 new files in `src/data/german-v2-ar/`
+- Each clones the EN-source German v2 unit, sets `srcLang:"ar"`, marks untranslated with `[AR]`
 
-### Priority 2: Finish Units 3-6
+#### 2. Created wrapper/re-export files
+- `src/data/units-german-v2-ar-a2.js` — imports units 7-12
+- `src/data/units-german-v2-ar-b1.js` — imports units 13-24
+- `src/data/units-german-v2-ar-b2.js` — imports units 25-36
+- Updated `src/data/units-german-v2-ar.js` — all 4 level imports active
 
-| Unit | [AR] markers | Status |
-|------|-------------|--------|
-| U03 | 304 | Not started |
-| U04 | 256 | Not started |
-| U05 | 236 | Not started |
-| U06 | 390 | Not started |
-| **Total** | **1,186** | |
+#### 3. Translated units via agents
+Agents translated [AR] markers directly using Edit tool.
 
-Cross-unit coverage from existing dictionary: ~3-4% (most content is unique per unit).
+**Fully translated (0 content [AR]):**
 
-**Approach**: Same process as Unit 1-2. Extract unique strings per field type, write Arabic translations in batch files, run translator, sweep remaining.
+| Level | Units Done |
+|-------|-----------|
+| A1 | 1, 2, 3, 4, 5, 6 |
+| A2 | 7, 8, 9, 10, 11, 12 |
+| B1 | 13, 14, 17, 23, 24 |
+| **Total** | **17 of 36 units** |
 
-### Priority 3: Pedagogy audit for Units 2-6
-After each unit reaches 100%, audit for:
-- ch≈خ advantage highlighted
-- /p/ sound warnings on relevant words
-- Neuter gender (محايد) explained
-- Compound nouns ≈ إضافة referenced
-- Case system parallel (إعراب)
-- Arabic-specific comparisons
+#### 4. Build status
+- `npm run build` PASSES with all 36 units loaded
+- Bundle: ~24.7MB
 
 ---
 
-## Architecture Reference
+## What Remains: 19 Units (~4,499 [AR] markers)
 
+| Unit | [AR] Count | Level | Topic (from EN source) |
+|------|-----------|-------|------------------------|
+| 15 | 259 | B1 | |
+| 16 | 254 | B1 | |
+| 18 | 180 | B1 | |
+| 19 | 235 | B1 | |
+| 20 | 129 | B1 | |
+| 21 | 228 | B1 | |
+| 22 | 239 | B1 | |
+| 25 | 251 | B2 | |
+| 26 | 251 | B2 | |
+| 27 | 262 | B2 | |
+| 28 | 266 | B2 | |
+| 29 | 258 | B2 | |
+| 30 | 257 | B2 | |
+| 31 | 245 | B2 | |
+| 32 | 243 | B2 | |
+| 33 | 240 | B2 | |
+| 34 | 250 | B2 | |
+| 35 | 240 | B2 | |
+| 36 | 230 | B2 | |
+
+Note: Units 3-6, 9, 10, 12, 13 show "1" [AR] — this is the file header comment only, not content.
+
+---
+
+## Nothing Has Been Committed or Pushed
+
+All work is uncommitted in worktree branch `claude/zealous-stonebraker`.
+
+### Uncommitted changes:
+**Modified (from prior sessions + this one):**
+- `src/components/LessonEngine.jsx`
+- `src/components/shared.jsx`
+- `src/data/units-german-v2-ar.js` (uncommented A2/B1/B2 imports)
+- `src/data/vocabulary.js`
+- `src/styles.js`
+- `src/verumlingua.jsx`
+
+**New unit files (30):**
+- `src/data/german-v2-ar/unit-07.js` through `unit-36.js`
+
+**New wrapper files (3):**
+- `src/data/units-german-v2-ar-a2.js`
+- `src/data/units-german-v2-ar-b1.js`
+- `src/data/units-german-v2-ar-b2.js`
+
+**Helper scripts (can be cleaned up):**
+- `scripts/translate-unit14-*.cjs` (7 files, created by agent)
+- `scripts/translate-u20-remaining.py`
+- `scripts/translate-ar*.py`
+- `scripts/apply-ar.cjs`, `scripts/ar-map.json`
+- `scripts/fix-ar-unit11-*.cjs`
+
+---
+
+## How to Continue
+
+### Step 1: Translate remaining 19 units
+Deploy agents (max 4 at a time, Rule B7). Each agent gets ONE unit.
+
+**Agent prompt template:**
 ```
-scripts/
-├── arabic-dictionary.cjs      ← Shared dictionary (single source of truth)
-├── translate-ar-markers.cjs   ← Translator (reads dictionary + batches)
-├── generate-arabic-units.cjs  ← Generator (imports dictionary)
-└── batches/                   ← Translation batch files
-    ├── funfacts-batch-01.cjs  ← Unit 1 funFacts
-    ├── unit01-*.cjs           ← Unit 1 batches (7 files)
-    └── unit02-*.cjs           ← Unit 2 batches (9 files)
+You are a senior Arabic linguist. Translate ALL [AR] markers in this file to MSA.
+File: src/data/german-v2-ar/unit-NN.js
+Edit the file DIRECTLY using Edit tool. Do NOT create helper scripts.
+Rules: Native MSA. No em-dashes. \n for newlines. Hints must not contain answer. Max 2 consecutive \n.
+Field guide: src=word, note=grammar, funFact=cultural, hint=quiz hint (no leaks!), exampleSrc=example, sSrc=quiz sentence, desc/goals=intro, text/deepDive=grammar.
+Leave ZERO [AR] markers.
 ```
 
-### How to translate a unit:
-```bash
-# 1. Extract remaining [AR] strings
-node -e "..." > remaining.txt
+**Batch order (4 agents at a time):**
+1. Units 15, 16, 18, 19
+2. Units 20, 21, 22, 25
+3. Units 26, 27, 28, 29
+4. Units 30, 31, 32, 33
+5. Units 34, 35, 36
 
-# 2. Write translations in scripts/batches/unitNN-xxx.cjs
+### Step 2: Commit + push
+1. Delete helper scripts: `rm scripts/translate-unit14-*.cjs scripts/translate-u20-*.py scripts/translate-ar*.py scripts/fix-ar-unit11-*.cjs scripts/apply-ar.cjs scripts/ar-map.json`
+2. Commit all Arabic units + wrappers + modified files
+3. Push to main (or merge worktree branch)
 
-# 3. Apply translations
-node scripts/translate-ar-markers.cjs N
-
-# 4. Check remaining
-grep -c '\[AR\]' src/data/german-v2-ar/unit-NN.js
-
-# 5. Build
-npm run build
-```
-
-### Known issues:
-- **NFC/NFD**: File may have NFD ü/ö (from macOS). Translator normalizes to NFC.
-- **`\n` escaping**: File stores `\n` as literal backslash+n. Translations must use `\\n` in batch values for multiline content. Translator has PP39 safety net.
-- **Double [AR]**: Generator sometimes produces `[AR] [AR]`. Translator collapses these.
+### Step 3: Remaining items from CLAUDE.md
+- LessonEngine RTL — Apply `srcDir` to source-text containers
+- Arabic Foundations — Create `FOUNDATIONS_BY_LANG.de_ar`
 
 ---
 
-## Files Modified
+## Key Files Reference
 
-| File | Changes |
+| File | Purpose |
 |------|---------|
-| `scripts/arabic-dictionary.cjs` | NEW — 858 lines, shared dictionary |
-| `scripts/translate-ar-markers.cjs` | NEW — 130 lines, translator engine |
-| `scripts/batches/*.cjs` | NEW — 17 batch files, 1,942 translations |
-| `scripts/generate-arabic-units.cjs` | Updated to import shared dictionary |
-| `src/data/german-v2-ar/unit-01.js` | Fully translated (0 [AR] markers) |
-| `src/data/german-v2-ar/unit-02.js` | 74% translated (174 [AR] markers) |
+| `scripts/generate-arabic-units.cjs` | Generator (EN unit → AR scaffold) |
+| `scripts/arabic-dictionary.cjs` | Shared EN→AR dictionary used by generator |
+| `src/data/german-v2-ar/unit-NN.js` | Per-unit Arabic source files |
+| `src/data/units-german-v2-ar.js` | Main re-export (all levels) |
+| `src/data/units-german-v2-ar-{a1,a2,b1,b2}.js` | Level wrappers |
 
 ---
 
-## Critical Rules Reminder
-- PP61: All metalanguage in Arabic for srcLang:"ar"
-- PP32: Native-speaker quality MSA
-- PP8: Hints must NOT contain answer words
-- PP22c: No em-dashes
-- PP39: `\n` in strings, never literal newlines
-- Arabic pedagogy: ch≈خ, no /p/, cases parallel, compound≈إضافة, neuter=محايد
+## Critical Rules
+- **PP61**: All metalanguage in Arabic for `srcLang:"ar"` units
+- **PP32**: Native-speaker quality MSA
+- **PP8**: Hints must NOT contain answer words
+- **PP22c**: No em-dashes (—)
+- **PP39**: `\n` in strings, never literal newlines
+- **Rule B7**: Max 4 agents at a time
+- **Rule B14**: Sonnet for translation, Opus only for creative content
+- Arabic pedagogy hooks: ch≈خ, no /p/, neuter=محايد, compound≈إضافة, cases=إعراب

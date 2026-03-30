@@ -2,19 +2,19 @@ import React, { useState, useEffect, useRef } from "react";
 import { t } from '../data/vocabulary.js';
 import { ICON_REG } from '../data/metadata.js';
 
-function FlagButton({lessonId,stepIndex,stepData,addFlag}){
+function FlagButton({lessonId,stepIndex,stepData,addFlag,baseLang="en"}){
   const [open,setOpen]=useState(false);
   const [reason,setReason]=useState(null);
   const [detail,setDetail]=useState("");
   const [sent,setSent]=useState(false);
 
   const reasons=[
-    {id:"wrong_answer",label:"Wrong answer",icon:"❌",desc:"The 'correct' answer is actually wrong"},
-    {id:"hint_spoiler",label:"Hint gives it away",icon:"💡",desc:"The hint makes the answer too obvious"},
-    {id:"unclear_question",label:"Unclear question",icon:"🤔",desc:"I don't understand what's being asked"},
-    {id:"missing_answer",label:"My answer should be accepted",icon:"✅",desc:"I gave a valid answer that was marked wrong"},
-    {id:"typo",label:"Typo / spelling error",icon:"📝",desc:"There's a typo in the question or answer"},
-    {id:"other",label:"Other issue",icon:"📋",desc:"Something else is wrong"},
+    {id:"wrong_answer",label:t("flag_wrong_answer",baseLang),icon:"❌",desc:t("flag_wrong_desc",baseLang)},
+    {id:"hint_spoiler",label:t("flag_hint_leak",baseLang),icon:"💡",desc:t("flag_hint_desc",baseLang)},
+    {id:"unclear_question",label:t("flag_unclear",baseLang),icon:"🤔",desc:t("flag_unclear_desc",baseLang)},
+    {id:"missing_answer",label:t("flag_valid",baseLang),icon:"✅",desc:t("flag_valid_desc",baseLang)},
+    {id:"typo",label:t("flag_typo",baseLang),icon:"📝",desc:t("flag_typo_desc",baseLang)},
+    {id:"other",label:t("flag_other",baseLang),icon:"📋",desc:t("flag_other_desc",baseLang)},
   ];
 
   const submit=()=>{
@@ -31,7 +31,7 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag}){
         padding:"4px 10px",borderRadius:12,transition:"all .15s",
         fontFamily:"'DM Sans',sans-serif",fontWeight:600,letterSpacing:0.3
       }} onMouseEnter={e=>{e.target.style.color="var(--coral)";e.target.style.background="rgba(224,74,74,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}>
-        <span style={{fontSize:13}}>⚑</span> Report
+        <span style={{fontSize:13}}>⚑</span> {t("flag_report",baseLang)}
       </button>
   );
 
@@ -41,13 +41,13 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag}){
       {sent?(
         <div style={{textAlign:"center",padding:16}}>
           <div style={{fontSize:28,marginBottom:8}}>✅</div>
-          <div style={{fontWeight:700,color:"var(--teal-dark)"}}>Thanks! Flag submitted.</div>
-          <div style={{fontSize:12,color:"var(--gray-400)",marginTop:4}}>This helps LingoVerse learn and improve.</div>
+          <div style={{fontWeight:700,color:"var(--teal-dark)"}}>{t("flag_thanks",baseLang)}</div>
+          <div style={{fontSize:12,color:"var(--gray-400)",marginTop:4}}>{t("flag_helps",baseLang)}</div>
         </div>
       ):(
         <>
           <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:12}}>
-            <div style={{fontWeight:700,fontSize:14}}>🚩 What's wrong?</div>
+            <div style={{fontWeight:700,fontSize:14}}>🚩 {t("flag_whats_wrong",baseLang)}</div>
             <button onClick={()=>{setOpen(false);setReason(null);setDetail("");}} style={{background:"none",border:"none",cursor:"pointer",fontSize:16,color:"var(--gray-400)"}}>✕</button>
           </div>
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6}}>
@@ -65,14 +65,14 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag}){
           {reason&&(
             <div style={{marginTop:10}}>
               <textarea value={detail} onChange={e=>setDetail(e.target.value)}
-                placeholder="Optional: add more detail..."
+                placeholder={t("flag_detail",baseLang)}
                 style={{width:"100%",padding:10,borderRadius:8,border:"1.5px solid var(--gray-200)",
                   fontSize:13,fontFamily:"inherit",resize:"vertical",minHeight:50,outline:"none"}}/>
               <button onClick={submit} style={{
                 marginTop:8,width:"100%",padding:"10px 0",borderRadius:8,
                 background:"var(--coral)",color:"white",border:"none",
                 fontWeight:700,fontSize:14,cursor:"pointer"
-              }}>Submit Flag 🚩</button>
+              }}>{t("flag_submit",baseLang)} 🚩</button>
             </div>
           )}
         </>
@@ -257,11 +257,12 @@ class LessonErrorBoundary extends React.Component{
   componentDidCatch(error,info){if(typeof console!=="undefined")console.error("[LessonEngine crash]",error,info);}
   render(){
     if(this.state.hasError){
+      const bl=this.props.baseLang||"en";
       return React.createElement("div",{style:{textAlign:"center",padding:40}},
-        React.createElement("h2",{style:{fontSize:22,fontWeight:700,marginBottom:12,color:"#7B5EE8"}},"Something went wrong"),
-        React.createElement("p",{style:{fontSize:15,color:"#888",marginBottom:20}},"The lesson encountered an error. Your progress is saved."),
+        React.createElement("h2",{style:{fontSize:22,fontWeight:700,marginBottom:12,color:"#7B5EE8"}},t("err_something_wrong",bl)),
+        React.createElement("p",{style:{fontSize:15,color:"#888",marginBottom:20}},t("err_lesson_error",bl)),
         React.createElement("button",{onClick:()=>{this.setState({hasError:false,error:null});if(this.props.onBack)this.props.onBack();},
-          style:{fontSize:15,padding:"12px 28px",borderRadius:14,fontWeight:700,cursor:"pointer",color:"white",border:"none",background:"#7B5EE8"}},"Back to lessons")
+          style:{fontSize:15,padding:"12px 28px",borderRadius:14,fontWeight:700,cursor:"pointer",color:"white",border:"none",background:"#7B5EE8"}},t("err_back_lessons",bl))
       );
     }
     return this.props.children;

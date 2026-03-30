@@ -1,0 +1,569 @@
+// German v2 Unit 10 — Arabic source language (srcLang:"ar")
+// Auto-generated. Fields marked [AR] need manual Arabic translation.
+const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn",sub:"Train delays, seat conflicts, sprinting for connections",icon:"🚂",level:"A2.2",color:"#7B5EE8",lessons:[
+    {id:"deu_r10l1",title:"47 Minuten Verspätung",icon:"🚂",xp:15,board:true,steps:[
+        {type:"intro",title:"47 Minuten Verspätung",desc:"محطة برلين المركزية. قطار ICE متأخر 47 دقيقة. لوحة المغادرة تتوهج باللون الأحمر. المسافرون ذوو الخبرة يشربون القهوة. فيروميوس يحدّق في اللوحة.",goals:[
+            "تعلّم 10 كلمات عن السفر والمواصلات",
+            "فهم ثقافة تأخير القطارات في ألمانيا",
+            "رؤية أولى جمل الماضي التام مع sein"
+          ]},
+        {type:"story",speaker:"narrator",mood:"resigned-amused",art:"de-ber-hbf-platform",trg:"Berlin Hauptbahnhof, Gleis 8. Die Anzeigetafel leuchtet rot: ICE 597 nach München. 47 Minuten Verspätung. Verumius starrt die Tafel an. Die Frau neben ihm trinkt seelenruhig ihren Kaffee.",src:"محطة برلين المركزية، رصيف 8. لوحة المغادرة تتوهج باللون الأحمر: ICE 597 إلى ميونخ. تأخير 47 دقيقة. فيروميوس يحدّق في اللوحة. المرأة بجانبه تحتسي قهوتها بهدوء تام."},
+        {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-hbf-platform",trg:"Siebenundvierzig Minuten? Das ist fast eine Stunde!",src:"سبع وأربعون دقيقة؟ هذا تقريباً ساعة!"},
+        {type:"story",speaker:"narrator",mood:"dry",art:"de-ber-hbf-platform",trg:"Die Frau schaut ihn an. Sie lächelt, als hätte er etwas sehr Lustiges gesagt.",src:"المرأة تنظر إليه. تبتسم كأنه قال شيئاً مضحكاً جداً."},
+        {type:"teach",trg:"der Fahrplan",pos:"noun",gender:"m",src:"جدول المواعيد",note:"der Fahrplan (masculine). حرفياً: drive-plan.\nمركب من: fahren (to drive) + Plan (plan).",example:"A: Hast du den Fahrplan gesehen?\nB: Ja, der Zug kommt um 14:30.\nA: Dann haben wir noch Zeit.\nB: Lass uns einen Kaffee trinken.",exampleSrc:"A: هل رأيت جدول المواعيد؟\nB: نعم، القطار يصل الساعة 14:30.\nA: إذن لا يزال لدينا وقت.\nB: لنشرب قهوة.",funFact:"تطبع Deutsche Bahn جداول مواعيد جيب (Taschenfahrplan) يعتز بها بعض هواة الجمع. هذا التقليد يعود إلى القرن التاسع عشر."},
+        {type:"teach",trg:"die Verspätung",pos:"noun",gender:"f",src:"التأخير",note:"die Verspätung (مؤنث). من: spät (متأخر).\nverspäten = يتأخر، die Verspätung = التأخير.",example:"A: Der ICE hat 47 Minuten Verspätung.\nB: Schon wieder?\nA: Ja, das ist leider normal.\nB: Dann verpasse ich meinen Anschluss.",exampleSrc:"A: قطار ICE متأخر 47 دقيقة.\nB: مرة أخرى؟\nA: نعم، للأسف هذا عادي.\nB: إذن سأفوّت رحلة الربط.",funFact:"في عام 2024، وصلت فقط حوالي 64% من قطارات Deutsche Bahn بعيدة المسافة في موعدها. يمزح الألمان بأن التأخير هو الشيء الوحيد الموثوق في DB."},
+        {type:"teach",trg:"der Verkehr",pos:"noun",gender:"m",src:"المرور",note:"der Verkehr (مذكر). يُستخدم لجميع أنواع حركة المرور:\nStraßenverkehr (طرق)، Zugverkehr (سكك حديد)، Flugverkehr (جوي).",example:"A: Wie ist der Verkehr heute?\nB: Auf der Autobahn ist Stau.\nA: Dann nehme ich den Zug.\nB: Gute Idee, der fährt bald.",exampleSrc:"A: كيف المرور اليوم؟\nB: هناك ازدحام على الطريق السريع.\nA: إذن سآخذ القطار.\nB: فكرة جيدة، سينطلق قريباً.",funFact:"يوجد على الطريق السريع الألماني (Autobahn) أجزاء بلا حدود للسرعة، ومع ذلك تسبب الازدحامات المرورية (Stau) حوالي 450,000 ساعة تأخير سنوياً."},
+        {type:"teach",trg:"das Verkehrsmittel",pos:"noun",gender:"n",src:"وسيلة النقل",note:"das Verkehrsmittel (neuter). مركب من:\nVerkehr (traffic) + Mittel (means/tool).\nPlural: die Verkehrsmittel.",example:"A: Welches Verkehrsmittel nimmst du?\nB: Ich fahre mit dem Zug.\nA: Ich nehme lieber das Fahrrad.\nB: Bei Regen? Du bist mutig!",exampleSrc:"A: أي وسيلة نقل تستخدم؟\nB: أسافر بالقطار.\nA: أفضّل الدراجة الهوائية.\nB: في المطر؟ أنت شجاع!",funFact:"يستخدم الألمان أكثر من 30 مليار رحلة سنوياً في وسائل النقل العام. تذكرة Deutschlandticket (49 يورو) جعلت الحافلات والقطارات في جميع أنحاء البلاد متاحة بتذكرة واحدة."},
+        {type:"teach",trg:"der Weg",pos:"noun",gender:"m",src:"الطريق / المسار",note:"der Weg (مذكر). يعني الطريق حرفياً ومجازياً.\nauf dem Weg = في الطريق.\nالجمع: die Wege.",example:"A: Kennst du den Weg zum Bahnhof?\nB: Ja, immer geradeaus und dann links.\nA: Ist es weit?\nB: Nein, nur zehn Minuten zu Fuß.",exampleSrc:"A: هل تعرف الطريق إلى المحطة؟\nB: نعم، مباشرة للأمام ثم يساراً.\nA: هل هو بعيد؟\nB: لا، فقط عشر دقائق سيراً على الأقدام.",funFact:"كلمة Weg تظهر في مئات المركبات الألمانية: Gehweg (رصيف)، Radweg (ممر دراجات)، Umweg (التفاف)، Ausweg (مخرج)."},
+        {type:"teach",trg:"die Nähe",pos:"noun",gender:"f",src:"القرب / الجوار",note:"die Nähe (مؤنث). من: nah (قريب).\nin der Nähe von = بالقرب من.",example:"A: Gibt es ein Hotel in der Nähe?\nB: Ja, direkt am Bahnhof.\nA: Ist es teuer?\nB: Nein, es ist ganz günstig.",exampleSrc:"A: هل يوجد فندق بالقرب من هنا؟\nB: نعم، مباشرة عند المحطة.\nA: هل هو غالي؟\nB: لا، سعره معقول جداً.",funFact:"عبارة in der Nähe من أكثر العبارات فائدة للمسافر في الألمانية. يمكنك دمجها مع von + حالة الجر للتعبير عن القرب من أي شيء: in der Nähe vom Flughafen."},
+        {type:"tip",title:"Deutsche Bahn Kultur",text:"عبارة \"Wenige Minuten\" على لوحة العرض؟\nتعني من 5 إلى 60 دقيقة. لا أحد يعلم.\n\nمفردات مهمة للوحة العرض (Anzeigetafel):\n. pünktlich = في الموعد\n. ca. 15 Min. später = متأخر حوالي 15 دقيقة\n. Zug fällt aus = القطار ملغى\n\nAnschluss = قطار الربط. فاتك القطار بسبب التأخير؟ يجب على Deutsche Bahn إعادة حجزك مجاناً.\n\nيبيع الـ Bordbistro القهوة والبريتسل على قطارات ICE. كثير من المسافرين يعتبرون التأخير وقتاً إضافياً للقراءة."},
+        {type:"mc",q:"Verumius steht am Hauptbahnhof. Der ICE hat 47 Minuten ___.",opts:["Verkehr","Verspätung","Fahrplan","Nähe"],ans:"Verspätung",hint:"فكّر فيما يحدث عندما يتأخر القطار."},
+        {type:"fb",s:"Kennst du den {1} zum Bahnhof?",a:"Weg",opts:["Weg","Verkehr","Flug","Nähe"],hint:"أي كلمة تعني الطريق أو المسار؟",sSrc:"هل تعرف الطريق إلى محطة القطار؟"},
+        {type:"teach",trg:"der Flug",pos:"noun",gender:"m",src:"الرحلة الجوية",note:"der Flug (مذكر). من: fliegen (يطير).\nder Flughafen = المطار (ميناء الطيران).\nالجمع: die Flüge (لاحظ التغيير الصوتي).",example:"A: Wann geht dein Flug?\nB: Um halb acht morgen früh.\nA: Das ist aber früh!\nB: Ja, ich muss um fünf aufstehen.",exampleSrc:"A: متى تغادر رحلتك الجوية؟\nB: الساعة السابعة والنصف صباح الغد.\nA: هذا مبكر جداً!\nB: نعم، يجب أن أستيقظ الساعة الخامسة.",funFact:"مطار فرانكفورت (Flughafen Frankfurt) هو الأكثر ازدحاماً في ألمانيا والرابع في أوروبا، حيث يستقبل أكثر من 59 مليون مسافر سنوياً."},
+        {type:"teach",trg:"buchen",pos:"verb",gender:null,src:"يحجز",note:"buchen (فعل نظامي). ich buche, du buchst, er bucht.\neine Reise buchen = حجز رحلة.\nein Hotel buchen = حجز فندق.",example:"A: Hast du das Hotel schon gebucht?\nB: Nein, ich mache das heute Abend.\nA: Buch lieber jetzt, es wird teurer!\nB: Okay, ich buche sofort online.",exampleSrc:"A: هل حجزت الفندق بالفعل؟\nB: لا، سأفعل ذلك الليلة.\nA: الأفضل أن تحجز الآن، سيصبح أغلى!\nB: حسناً، سأحجز عبر الإنترنت فوراً.",funFact:"يتيح لك تطبيق DB Navigator حجز تذاكر القطار والاطلاع على التأخيرات المباشرة وإيجاد رصيفك. أكثر من 20 مليون ألماني يستخدمونه بانتظام."},
+        {type:"teach",trg:"umsteigen",pos:"verb",gender:null,src:"يُغيّر (القطار)",note:"umsteigen (فعل منفصل). ich steige um.\nالماضي التام: Ich bin umgestiegen (يستخدم sein!).\num = تغيير + steigen = يصعد.",example:"A: Muss ich in Hannover umsteigen?\nB: Ja, auf Gleis 7.\nA: Wie viel Zeit habe ich?\nB: Nur acht Minuten. Beeil dich!",exampleSrc:"A: هل يجب أن أغيّر القطار في هانوفر؟\nB: نعم، على الرصيف 7.\nA: كم من الوقت لديّ؟\nB: ثماني دقائق فقط. أسرع!",funFact:"umsteigen فعل منفصل: ينفصل um عن الفعل. Ich steige in Hamburg um. لكن في الجمل الثانوية يبقى متصلاً: weil ich in Hamburg umsteige."},
+        {type:"teach",trg:"verpassen",pos:"verb",gender:null,src:"يفوته (قطار، حافلة، رحلة)",note:"verpassen (فعل غير منفصل). ich verpasse.\nver- لا ينفصل. ich verpasse den Zug.\nيُستخدم أيضاً لتفويت الأحداث والمواعيد.",example:"A: Ich habe den Zug verpasst!\nB: Wann fährt der nächste?\nA: In 45 Minuten.\nB: Dann hol dir einen Kaffee am Kiosk.",exampleSrc:"A: فاتني القطار!\nB: متى ينطلق القطار التالي؟\nA: بعد 45 دقيقة.\nB: إذن اشترِ قهوة من الكشك.",funFact:"verpassen غير منفصل (ver- يبقى متصلاً)، بينما umsteigen منفصل (um ينفصل). تعلّم أي السوابق تنفصل هو مهارة أساسية في الألمانية."},
+        {type:"mc",q:"Verumius will nach München fliegen. Er braucht einen ___.",opts:["Weg","Fahrplan","Flug","Verkehr"],ans:"Flug",hint:"ماذا تحتاج عندما تريد السفر جواً؟"},
+        {type:"fb",s:"Ich muss in Hannover {1}.",a:"umsteigen",opts:["umsteigen","verpassen","buchen","fahren"],hint:"أي فعل يعني تغيير القطار؟",sSrc:"يجب أن أغيّر القطار في هانوفر."},
+        {type:"mc",q:"Verumius hat den ICE verpasst. Was bedeutet verpassen?",opts:["to book","to miss","to transfer","to arrive"],ans:"to miss",hint:"القطار غادر بدونه."},
+        {type:"tip",title:"Perfekt mit sein: Bewegung!",text:"معظم الأفعال الألمانية تشكّل الماضي التام مع haben.\nلكن أفعال الحركة تستخدم sein:\n\nIch bin nach München gefahren.\n(سافرتُ إلى ميونخ.)\n\nEr ist umgestiegen.\n(غيّر القطار.)\n\nWir sind angekommen.\n(وصلنا.)\n\nالفكرة الأساسية: إذا تحرّك الفاعل فعلياً من نقطة أ إلى نقطة ب، استخدم sein.\nستتمرّن على هذا أكثر في الدروس القادمة.",deepDive:{title:"Which verbs take sein?",text:"مجموعتان رئيسيتان تستخدمان sein:\n1. أفعال الحركة التي تصف الانتقال من مكان لآخر: gehen، fahren، fliegen، laufen، reisen، schwimmen، klettern.\n2. أفعال تغيّر الحالة: werden (يصبح)، einschlafen (ينام)، aufwachen (يستيقظ)، sterben (يموت).\n\nبالإضافة إلى الفعل bleiben (يبقى) كحالة خاصة.\n\nجميع الأفعال الأخرى تستخدم haben. عند الشك، اسأل: هل يصف هذا الفعل حركة أو تغيّر حالة؟ إذا نعم، استخدم sein."}},
+        {type:"mc",q:"Ich ___ nach Berlin gefahren. (Perfekt with movement verb)",opts:["habe","bin","ist","hat"],ans:"bin",hint:"أفعال الحركة تستخدم صيغة من sein وليس haben."},
+        {type:"fb",s:"Gibt es ein Hotel in der {1}?",a:"Nähe",opts:["Nähe","Weg","Verspätung","Verkehr"],hint:"أي كلمة تعني الجوار أو القرب؟",sSrc:"هل يوجد فندق في الجوار؟"},
+        {type:"mc",q:"Verumius will ein Ticket kaufen. Er muss das Ticket online ___.",opts:["umsteigen","verpassen","fahren","buchen"],ans:"buchen",hint:"أي فعل يعني الحجز؟"},
+        {type:"match",pairs:[
+            {trg:"der Fahrplan",pos:"noun",gender:"m",src:"the timetable"},
+            {trg:"die Verspätung",pos:"noun",gender:"f",src:"the delay"},
+            {trg:"umsteigen",pos:"verb",gender:null,src:"to transfer"},
+            {trg:"verpassen",pos:"verb",gender:null,src:"to miss"},
+            {trg:"die Nähe",pos:"noun",gender:"f",src:"the vicinity"}
+          ]},
+        {type:"mc",q:"Der ___ auf der Autobahn ist heute sehr schlecht.",opts:["Verkehr","Fahrplan","Flug","Weg"],ans:"Verkehr",hint:"أي كلمة تصف السيارات والحافلات والشاحنات على الطريق؟"},
+        {type:"fb",s:"Welches {1} nimmst du? Den Zug oder das Flugzeug?",a:"Verkehrsmittel",opts:["Verkehrsmittel","Verkehr","Fahrplan","Weg"],hint:"أي كلمة مركبة تعني وسيلة النقل؟",sSrc:"أي وسيلة نقل تأخذ؟ القطار أم الطائرة؟"},
+        {type:"story",speaker:"lukas",mood:"casual",art:"de-phone-text",trg:"[SMS von Lukas] DB sagt wenige Minuten? Dann hol dir einen Kaffee. Vielleicht zwei.",src:"[رسالة من لوكاس] DB تقول بضع دقائق؟ إذن اشترِ لنفسك قهوة. ربما اثنتين."}
+      ]},
+    {id:"deu_r10l2",title:"Unterwegs",icon:"🗺️",xp:15,board:true,steps:[
+        {type:"intro",title:"Unterwegs",desc:"اكتشف الأماكن والمناظر الطبيعية المهمة باللغة الألمانية.",goals:[
+            "تعلّم 12 كلمة عن الأماكن والمناظر الطبيعية",
+            "تمرّن على أدوات التعريف (der/die/das) مع الأسماء الجديدة",
+            "تحدّث عن الجغرافيا الألمانية"
+          ]},
+        {type:"story",speaker:"narrator",mood:"observant",art:"de-ber-hbf-shops",trg:"Verumius wandert durch den Hauptbahnhof. Drei Stockwerke, hundert Geschäfte, eine Bäckerei an jeder Ecke. Er geht am Fundbüro vorbei, fährt die Rolltreppe hinunter und kauft sich eine Brezel.",src:"فيروميوس يتجول في المحطة المركزية. ثلاثة طوابق، مئة متجر، مخبز في كل زاوية. يمر بمكتب المفقودات، ينزل السلم الكهربائي ويشتري لنفسه بريتسل."},
+        {type:"teach",trg:"die Ampel",pos:"noun",src:"إشارة المرور",gender:"f",article:"die",note:"مؤنث. الجمع: die Ampeln.",funFact:"رموز إشارة المرور الألمانية (Ampelmännchen) رموز أيقونية. الشخصية الألمانية الشرقية ذات القبعة مشهورة عالمياً.",example:"A: Ist die Ampel grün?\nB: Nein, sie ist noch rot. Wir müssen warten.",exampleSrc:"A: هل إشارة المرور خضراء؟\nB: لا، لا تزال حمراء. يجب أن ننتظر."},
+        {type:"teach",trg:"der Berg",pos:"noun",src:"الجبل",gender:"m",article:"der",note:"مذكر. الجمع: die Berge.",funFact:"قمة تسوغشبيتسه (Zugspitze) بارتفاع 2,962 متراً هي أعلى قمة في ألمانيا.",example:"A: Siehst du den Berg dort?\nB: Ja, er ist sehr hoch. Können wir wandern gehen?",exampleSrc:"A: هل ترى الجبل هناك؟\nB: نعم، إنه عالٍ جداً. هل يمكننا الذهاب للتنزه؟"},
+        {type:"teach",trg:"die Brücke",pos:"noun",src:"الجسر",gender:"f",article:"die",note:"مؤنث. الجمع: die Brücken.",funFact:"جسر باستاي (Bastei) في ساكسونيا هو من أكثر الجسور تصويراً في أوروبا.",example:"A: Gehen wir über die Brücke?\nB: Ja, auf der anderen Seite ist der Markt.",exampleSrc:"A: هل نمشي فوق الجسر؟\nB: نعم، السوق على الجانب الآخر."},
+        {type:"teach",trg:"der Fluss",pos:"noun",src:"النهر",gender:"m",article:"der",note:"مذكر. الجمع: die Flüsse. لاحظ التغيير الصوتي في الجمع!",funFact:"نهر الراين طوله 1,230 كم ويمر عبر ست دول.",example:"A: Welcher Fluss ist das?\nB: Das ist die Spree. Sie fließt durch Berlin.",exampleSrc:"A: أي نهر هذا؟\nB: هذا نهر شبريه (Spree). يمر عبر برلين."},
+        {type:"teach",trg:"die Insel",pos:"noun",src:"الجزيرة",gender:"f",article:"die",note:"مؤنث. الجمع: die Inseln.",funFact:"جزيرة روغن (Rügen) هي أكبر جزيرة ألمانية، مشهورة بمنحدراتها الطباشيرية البيضاء.",example:"A: Warst du schon mal auf einer Insel?\nB: Ja, ich war letzten Sommer auf Sylt.",exampleSrc:"A: هل سبق أن زرت جزيرة؟\nB: نعم، كنت في جزيرة زيلت (Sylt) الصيف الماضي."},
+        {type:"teach",trg:"die Landschaft",pos:"noun",src:"المنظر الطبيعي",gender:"f",article:"die",note:"مؤنث. الجمع: die Landschaften.",funFact:"ألمانيا فيها كل شيء: جبال الألب في الجنوب، بحر الشمال في الشمال، غابات في الوسط.",example:"A: Wie ist die Landschaft in Bayern?\nB: Sehr schön! Berge, Seen und grüne Wiesen.",exampleSrc:"A: كيف المنظر الطبيعي في بافاريا؟\nB: جميل جداً! جبال وبحيرات ومروج خضراء."},
+        {type:"teach",trg:"das Flugzeug",pos:"noun",gender:"n",src:"الطائرة",note:"اسم محايد. الجمع: die Flugzeuge.\nمركب من: Flug (طيران) + Zeug (شيء).",example:"A: Nimmst du den Zug oder das Flugzeug?\nB: Das Flugzeug. Es ist schneller.\nA: Aber der Zug ist umweltfreundlicher.\nB: Stimmt. Nächstes Mal nehme ich den Zug.",exampleSrc:"A: هل تأخذ القطار أم الطائرة؟\nB: الطائرة. إنها أسرع.\nA: لكن القطار أكثر صداقة للبيئة.\nB: صحيح. المرة القادمة سآخذ القطار.",funFact:"كلمة Flugzeug تعني حرفياً 'شيء الطيران'. المركبات الألمانية حرفية بشكل رائع: Feuerzeug (شيء النار = ولاعة)، Fahrzeug (شيء القيادة = مركبة)، Werkzeug (شيء العمل = أداة). اللاحقة -zeug من أكثر اللواحق إنتاجية في الألمانية."},
+        {type:"teach",trg:"der Norden",pos:"noun",gender:"m",src:"الشمال",note:"اسم مذكر. لا جمع شائع.\nAdjective: nördlich (northern).",example:"A: Wo liegt Hamburg?\nB: Hamburg liegt im Norden von Deutschland.\nA: Und München?\nB: München liegt im Süden.",exampleSrc:"A: أين تقع هامبورغ؟\nB: هامبورغ تقع في شمال ألمانيا.\nA: وميونخ؟\nB: ميونخ تقع في الجنوب.",funFact:"ثقافة شمال ألمانيا (Norddeutschland) مختلفة تماماً عن الجنوب. الشمال أكثر استواءً وبرودة وتحفظاً. يقول الناس Moin بدل Hallo. الطعام يعتمد أكثر على السمك والبطاطا."},
+        {type:"teach",trg:"der Süden",pos:"noun",gender:"m",src:"الجنوب",note:"اسم مذكر. لا جمع شائع.\nAdjective: südlich (southern).",example:"A: Im Süden gibt es Berge.\nB: Ja, die Alpen sind wunderschön!\nA: Ich möchte im Süden wandern gehen.",exampleSrc:"A: في الجنوب توجد جبال.\nB: نعم، جبال الألب رائعة!\nA: أود الذهاب للتنزه في الجنوب.",funFact:"جنوب ألمانيا (بافاريا وبادن-فورتمبيرغ) هو الأقوى اقتصادياً. الفجوة الثقافية بين الشمال والجنوب حقيقية: لهجات مختلفة، طعام مختلف، بيرة مختلفة. أهل الشمال يشربون بيلز، وأهل الجنوب يشربون فايتسن."},
+        {type:"teach",trg:"das Fundbüro",pos:"noun",gender:"n",src:"مكتب المفقودات",note:"اسم محايد. مركب من: Fund (العثور) + Büro (مكتب).\nEvery train station and airport has one.",example:"A: Ich habe meinen Koffer verloren!\nB: Geh zum Fundbüro am Hauptbahnhof.\nA: Wo ist das Fundbüro?\nB: Im Erdgeschoss, neben dem Ausgang.",exampleSrc:"A: فقدت حقيبتي!\nB: اذهب إلى مكتب المفقودات في المحطة المركزية.\nA: أين مكتب المفقودات؟\nB: في الطابق الأرضي، بجانب المخرج.",funFact:"مكاتب المفقودات الألمانية (Fundbüros) فعّالة بشكل ملحوظ. خدمة المفقودات المركزية لـ Deutsche Bahn تتعامل مع أكثر من 250,000 غرض سنوياً. يمكنك البحث عن مفقوداتك عبر الإنترنت."},
+        {type:"teach",trg:"die Rolltreppe",pos:"noun",gender:"f",src:"السلّم الكهربائي",note:"اسم مؤنث. مركب من: Roll (يتدحرج) + Treppe (درج).\nLiterally: rolling stairs.",example:"A: Wo ist die Rolltreppe?\nB: Dort drüben, neben dem Aufzug.\nA: Danke! Ich muss schnell zum Gleis 14.\nB: Dann lauf auf der Rolltreppe!",exampleSrc:"A: أين السلم الكهربائي؟\nB: هناك، بجانب المصعد.\nA: شكراً! يجب أن أصل إلى الرصيف 14 بسرعة.\nB: إذن اركض على السلم الكهربائي!",funFact:"على السلالم الكهربائية في ألمانيا، قف على اليمين وامشِ على اليسار. كسر هذه القاعدة في محطة مزدحمة سيجلب لك نظرات غاضبة من المسافرين المستعجلين."},
+        {type:"mc",q:"Wie sagt man 'traffic light' auf Deutsch?",opts:["der Berg","die Brücke","der Fluss","die Ampel"],ans:"die Ampel",hint:"فكّر في الأضواء الحمراء والصفراء والخضراء."},
+        {type:"teach",trg:"der Markt",pos:"noun",src:"السوق",gender:"m",article:"der",note:"مذكر. الجمع: die Märkte. لاحظ التغيير الصوتي في الجمع!",funFact:"أسواق الكريسماس الألمانية مشهورة عالمياً. سوق نورنبيرغ Christkindlesmarkt عمره أكثر من 400 عام.",example:"A: Gehen wir heute auf den Markt?\nB: Gute Idee! Ich brauche frisches Obst.",exampleSrc:"A: هل نذهب إلى السوق اليوم؟\nB: فكرة جيدة! أحتاج فاكهة طازجة."},
+        {type:"teach",trg:"das Rathaus",pos:"noun",src:"مبنى البلدية",gender:"n",article:"das",note:"محايد. الجمع: die Rathäuser. Rat (council) + Haus (house).",funFact:"مبنى بلدية هامبورغ يحتوي على 647 غرفة، أكثر من قصر باكنغهام.",example:"A: Wo ist das Rathaus?\nB: Direkt am Marktplatz, das große Gebäude.",exampleSrc:"A: أين مبنى البلدية؟\nB: مباشرة في ساحة السوق، المبنى الكبير."},
+        {type:"teach",trg:"die Kirche",pos:"noun",src:"الكنيسة",gender:"f",article:"die",note:"مؤنث. الجمع: die Kirchen.",funFact:"كاتدرائية كولونيا (Kölner Dom) استغرق بناؤها أكثر من 600 عام.",example:"A: Ist die Kirche alt?\nB: Ja, sie ist aus dem 14. Jahrhundert.",exampleSrc:"A: هل الكنيسة قديمة؟\nB: نعم، هي من القرن الرابع عشر."},
+        {type:"teach",trg:"das Zentrum",pos:"noun",src:"المركز",gender:"n",article:"das",note:"محايد. Auch: die Mitte, die Innenstadt (city center).",funFact:"العديد من مراكز المدن الألمانية فيها مناطق للمشاة بدون سيارات.",example:"A: Wie komme ich ins Zentrum?\nB: Nimm die U-Bahn bis Hauptbahnhof.",exampleSrc:"A: كيف أصل إلى المركز؟\nB: خذ المترو إلى المحطة المركزية."},
+        {type:"teach",trg:"der Strand",pos:"noun",src:"الشاطئ",gender:"m",article:"der",note:"مذكر. الجمع: die Strände. لاحظ التغيير الصوتي في الجمع!",funFact:"شواطئ بحر الشمال الألمانية فيها Strandkörbe: كراسي خوص مسقوفة تحميك من الرياح.",example:"A: Gibt es hier einen Strand?\nB: Ja, der Strand ist nur zehn Minuten zu Fuß.",exampleSrc:"A: هل يوجد شاطئ هنا؟\nB: نعم، الشاطئ على بُعد عشر دقائق سيراً."},
+        {type:"teach",trg:"der Wald",pos:"noun",src:"الغابة",gender:"m",article:"der",note:"مذكر. الجمع: die Wälder. لاحظ التغيير الصوتي في الجمع!",funFact:"ثلث مساحة ألمانيا غابات. الغابة السوداء ألهمت العديد من حكايات الأخوين غريم.",example:"A: Gehen wir im Wald spazieren?\nB: Ja, die Luft dort ist wunderbar frisch.",exampleSrc:"A: هل نذهب للتنزه في الغابة؟\nB: نعم، الهواء هناك منعش بشكل رائع."},
+        {type:"mc",q:"Welchen Artikel hat das Wort für 'town hall'?",opts:["der","das","die","den"],ans:"das",hint:"اسم مركب يحتوي على Haus. و Haus محايد الجنس."},
+        {type:"fb",s:"Wir gehen über die {1} zum Markt.",a:"Brücke",opts:["Brücke","Berg","Strand","Wald"],hint:"تمشي فوقه لتعبر النهر.",sSrc:"نمشي فوق الجسر إلى السوق."},
+        {type:"mc",q:"Der Rhein, die Donau und die Elbe sind deutsche ...",opts:["Berge","Inseln","Flüsse","Wälder"],ans:"Flüsse",hint:"المياه تجري في هذا النوع من التضاريس."},
+        {type:"fb",s:"Im Dezember besuchen viele Menschen den Weihnachts{1}.",a:"markt",opts:["markt","berg","wald","strand"],hint:"مكان يمكنك فيه شراء الهدايا والمشروبات الساخنة.",sSrc:"في ديسمبر يزور كثير من الناس سوق الكريسماس."},
+        {type:"tip",title:"Deutsche Geografie: 16 Bundesländer",text:"ألمانيا لديها 16 ولاية (Bundesländer) بمناظر طبيعية متنوعة جداً:\n\n- الشمال: بحر الشمال، بحر البلطيق، أراضٍ مسطحة، جزر (Sylt، Rügen)\n- الوسط: غابات (الغابة السوداء، غابة تورينغن)، أنهار (الراين، الإلبه)\n- الجنوب: الألب، بحيرات (بودينزيه، كيمزيه)، جبال\n- الشرق: منطقة البحيرات، مدن تاريخية\n- الغرب: مناطق صناعية، مناطق نبيذ على الراين",deepDive:"الولايات الـ 16 هي: بادن-فورتمبيرغ، بافاريا، برلين، براندنبورغ، بريمن، هامبورغ، هيسن، مكلنبورغ-فوربومرن، ساكسونيا السفلى، شمال الراين-وستفاليا، راينلاند-بالاتينات، سارلاند، ساكسونيا، ساكسونيا-أنهالت، شلسفيغ-هولشتاين وتورينغن. لكل ولاية عاصمة وثقافة خاصة."},
+        {type:"mc",q:"Welches Wort passt? 'Die Zugspitze ist der höchste ... Deutschlands.'",opts:["Fluss","Strand","Wald","Berg"],ans:"Berg",hint:"تسوغشبيتسه يبلغ ارتفاعها حوالي 3,000 متر."},
+        {type:"match",pairs:[
+            {trg:"die Ampel",pos:"noun",src:"traffic light"},
+            {trg:"der Fluss",pos:"noun",src:"river"},
+            {trg:"die Insel",pos:"noun",src:"island"},
+            {trg:"der Wald",pos:"noun",src:"forest"},
+            {trg:"die Kirche",pos:"noun",src:"church"},
+            {trg:"das Zentrum",pos:"noun",src:"center"}
+          ]},
+        {type:"fb",s:"Rügen ist die größte deutsche {1}.",a:"Insel",opts:["Insel","Brücke","Ampel","Kirche"],hint:"قطعة أرض محاطة بالماء.",sSrc:"روغن هي أكبر جزيرة ألمانية."},
+        {type:"mc",q:"Wo kann man im Sommer in der Sonne liegen?",opts:["im Rathaus","an der Ampel","auf der Brücke","am Strand"],ans:"am Strand",hint:"رمل وماء ومظلات شمسية توجد هناك."},
+        {type:"drag_fill",s:"Die {1} in Deutschland ist sehr vielfältig: {2} im Süden, {3} in der Mitte und {4} im Norden.",blanks:{"1":"Landschaft","2":"Berge","3":"Wälder","4":"Strände"},pool:["Landschaft","Berge","Wälder","Strände","Kirchen","Ampeln"],hint:"فكّر في الجغرافيا: الألب، الغابة السوداء، بحر الشمال.",sSrc:"المناظر الطبيعية في ألمانيا متنوعة جداً: جبال في الجنوب، غابات في الوسط وشواطئ في الشمال."},
+        {type:"mc",q:"Was ist das Hamburger Rathaus?",opts:["Ein Berg in Hamburg","Ein Fluss in Hamburg","Ein Markt in Hamburg","Ein Gebäude für den Stadtrat"],ans:"Ein Gebäude für den Stadtrat",hint:"Rat تعني مجلس، Haus تعني بيت."},
+        {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-hbf-brezel",trg:"Verumius isst seine Brezel auf einer Bank. Ein Stadtplan von München liegt auf seinem Schoß. Norden, Süden, Berge, Flüsse. Er kennt jetzt die Wörter. Jetzt muss er nur noch hinkommen.",src:"فيروميوس يأكل بريتسله على مقعد. خريطة مدينة ميونخ على حجره. شمال، جنوب، جبال، أنهار. يعرف الكلمات الآن. عليه فقط أن يصل إلى هناك."}
+      ]},
+    {id:"deu_r10l3",title:"Mein Platz!",icon:"💺",xp:15,board:true,steps:[
+        {type:"intro",title:"Mein Platz!",desc:"فيروميوس يجد مقعده المحجوز في قطار ICE مشغولاً. حان وقت المواجهة المهذبة وبعض مفردات السفر الجديدة.",goals:[
+            "تعلّم مفردات السفر والمركبات",
+            "تمرّن على reservieren وصيغة اسم المفعول منه",
+            "تعامل مع خلاف حول المقعد بالألمانية"
+          ]},
+        {type:"story",speaker:"narrator",mood:"tense-comic",art:"de-ice-interior",trg:"Endlich. Der ICE rollt. Verumius sucht Platz 47, Wagen 6. Er findet den Platz. Dort sitzt ein Mann mit geschlossenen Augen. Kopfhörer auf, Rucksack auf dem Tisch, Schuhe ausgezogen.",src:"أخيراً. قطار ICE ينطلق. فيروميوس يبحث عن المقعد 47، عربة 6. يجد المقعد. رجل جالس هناك. عيناه مغلقتان، سماعات على أذنيه، حقيبة ظهر على الطاولة، حذاؤه مخلوع."},
+        {type:"story",speaker:"verumius",mood:"polite-nervous",art:"de-ice-interior",trg:"Entschuldigung? Ich habe diesen Platz reserviert.",src:"عفواً؟ أنا حجزت هذا المقعد."},
+        {type:"story",speaker:"passenger",mood:"indifferent",art:"de-ice-interior",trg:"Hmm? Ach so. Ich hab keine Reservierung gesehen.",src:"همم؟ آه. لم أرَ حجزاً."},
+        {type:"teach",trg:"der Rucksack",pos:"noun",gender:"m",src:"حقيبة الظهر",phonetic:"ROOK-zahk",example:"A: Ist das dein Rucksack auf dem Sitz?\nB: Oh, Entschuldigung! Ich nehme ihn weg.",exampleSrc:"A: هل هذه حقيبة ظهرك على المقعد؟\nB: آه، عذراً! سأزيلها.",note:"der Rucksack: حرفياً 'كيس الظهر'. من Rücken (ظهر) + Sack (كيس).",funFact:"كلمة Rucksack اقتُرضت مباشرة إلى الإنجليزية من الألمانية. الجنود أحضروها معهم من الحرب العالمية الأولى."},
+        {type:"teach",trg:"reservieren",pos:"verb",gender:null,src:"يحجز",phonetic:"reh-zer-VEER-en",example:"A: Haben Sie einen Platz reserviert?\nB: Ja, ich habe Platz 47 reserviert.",exampleSrc:"A: هل حجزت مقعداً؟\nB: نعم، حجزت المقعد 47.",note:"فعل غير منفصل: no ge- in Partizip II. Reserviert, not gereserviert.",funFact:"تتيح لك Deutsche Bahn حجز مقاعد محددة مقابل 4.50 يورو فقط. نافذة أو ممر، منطقة هادئة أو منطقة عائلية."},
+        {type:"teach",trg:"das Schiff",pos:"noun",gender:"n",src:"السفينة",phonetic:"SHIF",example:"A: Bist du mit dem Schiff gefahren?\nB: Nein, ich bin mit dem Zug gefahren.",exampleSrc:"A: هل سافرت بالسفينة؟\nB: لا، سافرت بالقطار.",note:"das Schiff، الجمع: die Schiffe. اسم محايد.",funFact:"ألمانيا لديها أكثر من 7,300 كم من الممرات المائية الداخلية. رحلات الراين النهرية مشهورة عالمياً."},
+        {type:"teach",trg:"der Stadtplan",pos:"noun",gender:"m",src:"خريطة المدينة",phonetic:"SHTAT-plahn",example:"A: Hast du einen Stadtplan?\nB: Nein, ich benutze mein Handy.",exampleSrc:"A: هل لديك خريطة للمدينة؟\nB: لا، أستخدم هاتفي.",note:"مركب من: Stadt (city) + Plan (plan/map).",funFact:"قبل الهواتف الذكية، كانت كل محطة قطار ألمانية تعلّق خريطة مدينة كبيرة على الحائط بالخارج. بعضها لا يزال موجوداً."},
+        {type:"teach",trg:"der Tourist / die Touristin",pos:"noun",gender:"m",src:"سائح / سائحة",phonetic:"too-RIST / too-RIS-tin",example:"A: Bist du ein Tourist?\nB: Ja, ich bin zum ersten Mal in Deutschland.",exampleSrc:"A: هل أنت سائح؟\nB: نعم، هذه أول مرة لي في ألمانيا.",note:"der Tourist (مذكر)، die Touristin (مؤنث). الجمع: die Touristen / die Touristinnen.",funFact:"ألمانيا هي سابع أكثر دولة زيارة في العالم بأكثر من 30 مليون زائر دولي سنوياً."},
+        {type:"teach",trg:"der Reifen",pos:"noun",gender:"m",src:"الإطار",phonetic:"RYE-fen",example:"A: Der Reifen ist kaputt!\nB: Wir brauchen einen neuen Reifen.",exampleSrc:"A: الإطار مكسور!\nB: نحتاج إطاراً جديداً.",note:"der Reifen: يعني أيضاً 'طوق'. لا تخلط بينه وبين reifen (ينضج).",funFact:"لا يوجد في ألمانيا حد سرعة عام على أجزاء كثيرة من الأوتوبان. الإطارات الجيدة ضرورية."},
+        {type:"teach",trg:"der Motor",pos:"noun",gender:"m",src:"المحرّك",phonetic:"MOH-tor",example:"A: Der Motor macht ein komisches Geräusch.\nB: Wir sollten zur Werkstatt fahren.",exampleSrc:"A: المحرّك يصدر صوتاً غريباً.\nB: يجب أن نذهب إلى الورشة.",note:"der Motor، الجمع: die Motoren. النبرة على المقطع الأول في الألمانية.",funFact:"ألمانيا موطن BMW وMercedes وAudi وPorsche وVW. محرّك السيارة هو عملياً رمز وطني."},
+        {type:"teach",trg:"der Motorroller",pos:"noun",gender:"m",src:"الدراجة النارية الصغيرة",phonetic:"MOH-tor-rol-er",example:"A: Fährst du mit dem Motorroller zur Arbeit?\nB: Ja, das ist schneller als der Bus.",exampleSrc:"A: هل تركب الدراجة النارية إلى العمل؟\nB: نعم، هي أسرع من الحافلة.",note:"مركب من: Motor + Roller (roller). Also called just Roller.",funFact:"في المدن الألمانية، الدراجات الكهربائية (E-Roller) في كل مكان. يجب أن يكون عمرك 14 سنة على الأقل لركوبها."},
+        {type:"mc",q:"Was ist das Partizip II von 'reservieren'?",opts:["gereserviert","reserviert","reservieren","gereservieren"],ans:"reserviert",hint:"الأفعال المنتهية بـ -ieren غير منفصلة. لا تحتاج سابقة ge-."},
+        {type:"fb",s:"Er hat einen Platz {1}.",a:"reserviert",opts:["reserviert","gereserviert","reservieren","reserve"],hint:"فعل غير منفصل: no ge- prefix. Past participle ends in -t.",sSrc:"لقد حجز مقعداً."},
+        {type:"mc",q:"Ein Mann sitzt auf Platz 47. Verumius sagt: 'Entschuldigung, ich habe diesen Platz ___.' Was fehlt?",opts:["gereserviert","reservieren","reserve","reserviert"],ans:"reserviert",hint:"reservieren لا يأخذ ge-. تذكّر قاعدة الأفعال المنتهية بـ -ieren."},
+        {type:"fb",s:"Die Touristin {1} mit dem Schiff nach Norwegen gefahren.",a:"ist",opts:["ist","hat","bin","sind"],hint:"fahren يعني حركة من نقطة لأخرى. هي شخص واحد.",sSrc:"السائحة سافرت بالسفينة إلى النرويج."},
+        {type:"mc",q:"Verumius zeigt seine Reservierung. Der Mann sagt: 'Oh! Ich ___ im falschen Wagen gesessen.' Welches Hilfsverb?",opts:["bin","ist","habe","hat"],ans:"habe",hint:"الجلوس في مقعد لا يتضمن تغيير المكان. أي فعل مساعد يناسب الأفعال التي تصف حالة وليس حركة؟"},
+        {type:"fb",s:"Mein Motorroller {1} letzte Woche kaputt gegangen.",a:"ist",opts:["ist","hat","bin","sind"],hint:"kaputt gehen يعني يتعطل. إنه تغيّر حالة.",sSrc:"دراجتي النارية تعطلت الأسبوع الماضي."},
+        {type:"match",pairs:[
+            {trg:"der Rucksack",pos:"noun",gender:"m",src:"backpack"},
+            {trg:"das Schiff",pos:"noun",gender:"n",src:"ship"},
+            {trg:"der Stadtplan",pos:"noun",gender:"m",src:"city map"},
+            {trg:"der Reifen",pos:"noun",gender:"m",src:"tire"},
+            {trg:"der Motor",pos:"noun",gender:"m",src:"motor, engine"}
+          ]},
+        {type:"fb",s:"Hast du einen {1}? Nein, ich benutze mein Handy.",a:"Stadtplan",opts:["Stadtplan","Rucksack","Motor","Reifen"],hint:"كلمة مركبة تجمع بين المدينة والخريطة.",sSrc:"هل لديك خريطة للمدينة؟ لا، أستخدم هاتفي."},
+        {type:"mc",q:"Was ist der Unterschied zwischen Motor und Motorroller?",opts:[
+            "Motor is an engine part, Motorroller is a vehicle",
+            "Motor is bigger than Motorroller",
+            "Motor is electric, Motorroller is not",
+            "They mean the same thing"
+          ],ans:"Motor is an engine part, Motorroller is a vehicle",hint:"أحدهما قطعة، والآخر اسم مركب لنوع من المركبات."},
+        {type:"story",speaker:"narrator",mood:"satisfied",art:"de-ice-seat",trg:"Der Mann nimmt seinen Rucksack und geht. Verumius setzt sich. Sein Platz. Er hat es geschafft. Sein erster Sieg auf Deutsch.",src:"الرجل يأخذ حقيبة ظهره ويغادر. فيروميوس يجلس. مقعده. نجح. أول انتصار له بالألمانية."}
+      ]},
+    {id:"deu_r10l4",title:"Perfekt mit sein",icon:"🔄",xp:15,board:true,steps:[
+        {type:"intro",title:"Perfekt mit sein",desc:"أفعال الحركة وتغيّر الحالة تستخدم sein بدلاً من haben في الماضي التام. حان الوقت لإتقان هذه القاعدة المهمة.",goals:[
+            "التمييز بين sein و haben في الماضي التام",
+            "تشكيل اسم المفعول (Partizip II) للأفعال النظامية والشاذة والمنفصلة",
+            "تطبيق قاعدة الحركة وتغيّر الحالة"
+          ]},
+        {type:"tip",title:"Perfekt mit sein: Bewegung und Veränderung",text:"معظم الأفعال تستخدم haben في الماضي التام.\nلكن أفعال الحركة أو تغيّر الحالة تستخدم sein:\n\nIch bin gefahren. (سافرت/قُدت)\nEr ist gegangen. (ذهب/مشى)\nSie ist gekommen. (جاءت)\nWir sind angekommen. (وصلنا)\n\nالقاعدة: إذا تحرّك الفاعل أو تغيّرت حالته، استخدم sein.\nيبقى، يحدث، يكون = أيضاً sein: Ich bin geblieben، es ist passiert.",deepDive:"أفعال sein مجموعة محدودة. أكثرها شيوعاً:\n\nحركة: gehen، kommen، fahren، fliegen، laufen، reisen، schwimmen\nوصول/مغادرة: ankommen، abfahren، einsteigen، aussteigen\nتغيّر حالة: werden (يصبح)، sterben (يموت)، einschlafen (ينام)، aufwachen (يستيقظ)\nاستثناءات: sein (يكون) و bleiben (يبقى) أيضاً تستخدم sein.\n\nIch bin gewesen. (كنت)\nEr ist geblieben. (بقي)"},
+        {type:"verb_table",title:"Perfekt mit sein",label:"sein + Partizip II",groups:[
+            {header:"Bewegungsverben (motion verbs)",rows:[
+                {pronoun:"ich",form:"bin gefahren",src:"drove/traveled"},
+                {pronoun:"du",form:"bist gegangen",src:"went/walked"},
+                {pronoun:"er/sie/es",form:"ist gekommen",src:"came"},
+                {pronoun:"wir",form:"sind angekommen",src:"arrived"},
+                {pronoun:"ihr",form:"seid geflogen",src:"flew"},
+                {pronoun:"sie/Sie",form:"sind gelaufen",src:"ran/walked"}
+              ]}
+          ],note:"كل هذه الأفعال تصف حركة من نقطة أ إلى نقطة ب. لذلك تستخدم sein."},
+        {type:"verb_table",title:"Perfekt with sein: Full Conjugation",label:"Ich bin gegangen (I went)",groups:[
+            {label:"Singular",rows:[
+                {pronoun:"ich",form:"bin gegangen",src:"I went"},
+                {pronoun:"du",form:"bist gegangen",src:"you went"},
+                {pronoun:"er/sie/es",form:"ist gegangen",src:"he/she/it went"}
+              ]},
+            {label:"Plural",rows:[
+                {pronoun:"wir",form:"sind gegangen",src:"we went"},
+                {pronoun:"ihr",form:"seid gegangen",src:"you all went"},
+                {pronoun:"sie/Sie",form:"sind gegangen",src:"they / you (formal) went"}
+              ]}
+          ],note:"فقط الفعل المساعد sein يتصرّف. gegangen لا يتغير أبداً.",deepDive:{title:"Position of Partizip II",text:"في الجملة الرئيسية، يذهب اسم المفعول (Partizip II) إلى نهاية الجملة:\nIch bin gestern nach Berlin gefahren.\n\nقاعدة TMP (زمن، طريقة، مكان) لا تزال تنطبق في الوسط. اسم المفعول دائماً في النهاية."}},
+        {type:"verb_table",title:"Bewegungsverben: Partizip II",label:"Movement verbs + sein",groups:[
+            {label:"Regular (-t ending)",rows:[
+                {pronoun:"reisen",form:"ist gereist",src:"traveled"},
+                {pronoun:"wandern",form:"ist gewandert",src:"hiked"},
+                {pronoun:"klettern",form:"ist geklettert",src:"climbed"}
+              ]},
+            {label:"Irregular (-en ending)",rows:[
+                {pronoun:"laufen",form:"ist gelaufen",src:"ran"},
+                {pronoun:"schwimmen",form:"ist geschwommen",src:"swam"},
+                {pronoun:"springen",form:"ist gesprungen",src:"jumped"},
+                {pronoun:"rennen",form:"ist gerannt",src:"sprinted"}
+              ]}
+          ],note:"عندما ترى -en في اسم المفعول، الفعل عادة شاذ.",deepDive:{title:"laufen vs rennen",text:"كلاهما يصف حركة على الأقدام:\nlaufen = ركض أو مشي عام\nrennen = عَدْو سريع أو عاجل\n\nفي جنوب ألمانيا، laufen غالباً تعني 'يمشي'. في الشمال، laufen تعني 'يركض'."}},
+        {type:"verb_table",title:"Zustandsverben: Partizip II",label:"Change-of-state verbs + sein",groups:[
+            {label:"Separable prefix verbs",rows:[
+                {pronoun:"einschlafen",form:"ist eingeschlafen",src:"fell asleep"},
+                {pronoun:"aufwachen",form:"ist aufgewacht",src:"woke up"}
+              ]},
+            {label:"Irregular core verbs",rows:[
+                {pronoun:"werden",form:"ist geworden",src:"became"},
+                {pronoun:"sterben",form:"ist gestorben",src:"died"},
+                {pronoun:"bleiben",form:"ist geblieben",src:"stayed"}
+              ]},
+            {label:"Regular loanword",rows:[{pronoun:"passieren",form:"ist passiert",src:"happened"}]}
+          ],note:"الأفعال المنفصلة تُدخل ge- بين السابقة والجذر.",deepDive:{title:"Separable prefix + ge- rule",text:"einschlafen يصبح eingeschlafen: ein + ge + schlafen.\naufwachen يصبح aufgewacht: auf + ge + wacht.\n\nge- تذهب دائماً بين السابقة والجذر."}},
+        {type:"verb_table",title:"Complete Partizip II Reference",label:"Key forms to memorize",groups:[
+            {label:"sein group (motion)",rows:[
+                {pronoun:"gehen",form:"ist gegangen",src:"went"},
+                {pronoun:"kommen",form:"ist gekommen",src:"came"},
+                {pronoun:"fahren",form:"ist gefahren",src:"drove/traveled"},
+                {pronoun:"fliegen",form:"ist geflogen",src:"flew"},
+                {pronoun:"laufen",form:"ist gelaufen",src:"ran"},
+                {pronoun:"schwimmen",form:"ist geschwommen",src:"swam"}
+              ]},
+            {label:"sein group (state change)",rows:[
+                {pronoun:"werden",form:"ist geworden",src:"became"},
+                {pronoun:"bleiben",form:"ist geblieben",src:"stayed"},
+                {pronoun:"einschlafen",form:"ist eingeschlafen",src:"fell asleep"},
+                {pronoun:"aufwachen",form:"ist aufgewacht",src:"woke up"}
+              ]},
+            {label:"haben group (activities)",rows:[
+                {pronoun:"essen",form:"hat gegessen",src:"ate"},
+                {pronoun:"lesen",form:"hat gelesen",src:"read"},
+                {pronoun:"schreiben",form:"hat geschrieben",src:"wrote"},
+                {pronoun:"kaufen",form:"hat gekauft",src:"bought"},
+                {pronoun:"besuchen",form:"hat besucht",src:"visited"}
+              ]}
+          ],note:"هذه هي أكثر الأفعال استخداماً في الألمانية.\nحركة وتغيّر حالة = sein. كل شيء آخر = haben."},
+        {type:"tip",title:"Partizip II: So bildest du es",text:"الأفعال النظامية تُضاف ge- في البداية و -t في النهاية:\n- machen يصبح gemacht، kaufen يصبح gekauft\n\nالأفعال الشاذة تُضاف ge- في البداية و -en في النهاية، غالباً مع تغيير في حرف العلة:\n- fahren يصبح gefahren، gehen يصبح gegangen\n\nالأفعال المنفصلة تُدخل ge- بين السابقة والجذر:\n- ankommen يصبح angekommen، einkaufen يصبح eingekauft\n\nالأفعال غير المنفصلة (be-، er-، ver-، ent-، ge-، zer-) لا تأخذ ge- أبداً:\n- reservieren يصبح reserviert، besuchen يصبح besucht",deepDive:"السوابق غير المنفصلة هي: be-، emp-، ent-، er-، ge-، miss-، ver-، zer-.\nأيضاً: الأفعال المنتهية بـ -ieren لا تأخذ ge-: telefonieren -> telefoniert، reservieren -> reserviert.\n\nالأفعال ذات السوابق المنفصلة تُدخل ge- في الداخل:\nein|kaufen -> ein-ge-kauft\nan|kommen -> an-ge-kommen\nab|fahren -> ab-ge-fahren\n\nصيغ اسم المفعول الشاذة يجب حفظها. أكثرها شيوعاً:\ngehen -> gegangen، kommen -> gekommen، fahren -> gefahren، fliegen -> geflogen، nehmen -> genommen، essen -> gegessen، trinken -> getrunken، schreiben -> geschrieben، lesen -> gelesen."},
+        {type:"verb_table",title:"Regular Partizip II Patterns",groups:[
+            {label:"Regular -t",rows:[
+                {pronoun:"machen",form:"gemacht",src:"made/done"},
+                {pronoun:"kochen",form:"gekocht",src:"cooked"},
+                {pronoun:"spielen",form:"gespielt",src:"played"},
+                {pronoun:"lernen",form:"gelernt",src:"learned"}
+              ]},
+            {label:"Stem ends in -t or -d (add -et)",rows:[
+                {pronoun:"arbeiten",form:"gearbeitet",src:"worked"},
+                {pronoun:"warten",form:"gewartet",src:"waited"},
+                {pronoun:"reden",form:"geredet",src:"talked"}
+              ]}
+          ],note:"تُضاف النهاية -et عندما ينتهي الجذر بـ -t أو -d. هذا يجعل نطق اسم المفعول أسهل."},
+        {type:"verb_table",title:"Separable Verbs: Partizip II",groups:[
+            {label:"Separable Partizip II (PREFIX + ge + STEM + t/en)",rows:[
+                {pronoun:"einkaufen",form:"eingekauft",src:"shopped"},
+                {pronoun:"aufräumen",form:"aufgeräumt",src:"tidied up"},
+                {pronoun:"anfangen",form:"angefangen",src:"started"},
+                {pronoun:"mitbringen",form:"mitgebracht",src:"brought along"},
+                {pronoun:"aufstehen",form:"aufgestanden",src:"got up"},
+                {pronoun:"anrufen",form:"angerufen",src:"called (phone)"}
+              ]}
+          ],note:"ge- تذهب بين السابقة والجذر. الأفعال المنفصلة القوية (مثل anfangen) تستخدم نهاية -en."},
+        {type:"mc",q:"Verumius sagt: 'Ich ___ mit dem ICE gefahren.' Welches Hilfsverb passt?",opts:["habe","bin","ist","hat"],ans:"bin",hint:"fahren فعل حركة. ما صيغة المتكلم المفرد من sein؟"},
+        {type:"mc",q:"Welcher Satz ist richtig?",opts:[
+            "Sie ist nach Berlin geflogen.",
+            "Sie hat nach Berlin geflogen.",
+            "Sie ist nach Berlin gefliegen.",
+            "Sie hat nach Berlin gefliegen."
+          ],ans:"Sie ist nach Berlin geflogen.",hint:"fliegen يستخدم sein في الماضي التام. اسم المفعول منه شاذ."},
+        {type:"fb",s:"Der Zug {1} um 10 Uhr angekommen.",a:"ist",opts:["ist","hat","bin","sind"],hint:"ankommen يعني الوصول. صيغة الغائب المفرد من sein.",sSrc:"القطار وصل الساعة العاشرة."},
+        {type:"fb",s:"Wir {1} gestern nach Hamburg gefahren.",a:"sind",opts:["sind","haben","ist","bin"],hint:"wir تستخدم صيغة الجمع من sein في الماضي التام.",sSrc:"سافرنا إلى هامبورغ أمس."},
+        {type:"mc",q:"'ankommen' -> Partizip II?",opts:["geankommen","ankommen","angekommt","angekommen"],ans:"angekommen",hint:"فعل منفصل: the ge- goes between prefix and stem."},
+        {type:"drag_fill",s:"Verumius {1} zum Platz {2} und hat seinen Rucksack {3}.",blanks:{"1":"ist","2":"gegangen","3":"genommen"},pool:["ist","hat","gegangen","genommen","gefahren","gemacht"],hint:"المشي إلى المقعد يستخدم sein. أخذ حقيبة الظهر يستخدم haben.",sSrc:"ذهب فيروميوس إلى المقعد وأخذ حقيبة ظهره."},
+        {type:"drag_fill",s:"Verumius {1} mit dem ICE {2} und {3} in Frankfurt {4}.",blanks:{"1":"ist","2":"gefahren","3":"ist","4":"angekommen"},pool:["ist","ist","hat","hat","gefahren","angekommen","gefahrt","ankommt"],hint:"fahren و ankommen كلاهما فعلا حركة. كلاهما يحتاج sein.",sSrc:"سافر فيروميوس بقطار ICE ووصل إلى فرانكفورت."},
+        {type:"match",pairs:[
+            {trg:"gefahren",src:"driven/traveled"},
+            {trg:"gegangen",src:"went/walked"},
+            {trg:"angekommen",src:"arrived"},
+            {trg:"geflogen",src:"flew"},
+            {trg:"reserviert",src:"reserved"}
+          ]}
+      ]},
+    {id:"deu_r10l5",title:"Koffer packen",icon:"🧳",xp:15,board:true,steps:[
+        {type:"intro",title:"Koffer packen",desc:"فيروميوس يراقب المناظر تمر بسرعة ويفكر في أفعال السفر. التعبئة، الركن، التوصيل، الانتقال: كل أفعال الرحلة.",goals:[
+            "تعلّم ستة أفعال متعلقة بالسفر",
+            "التمييز بين السوابق المنفصلة وغير المنفصلة",
+            "استخدام الماضي التام والأفعال المساعدة في الماضي مع أفعال السفر"
+          ]},
+        {type:"story",speaker:"narrator",mood:"contemplative",art:"de-ice-window",trg:"Draußen fliegt die Landschaft vorbei. Felder, Wälder, kleine Dörfer. Der Zug ist schnell, aber er hat Verspätung. Verumius rechnet: Wenn der Zug 47 Minuten Verspätung hat, verpasst er den Anschluss in München.",src:"في الخارج، المناظر تمر بسرعة. حقول، غابات، قرى صغيرة. القطار سريع، لكنه متأخر. فيروميوس يحسب: إذا كان القطار متأخراً 47 دقيقة، سيفوته قطار الربط في ميونخ."},
+        {type:"teach",trg:"packen",pos:"verb",gender:null,src:"يُحزم",phonetic:"PAH-ken",example:"A: Hast du schon gepackt?\nB: Nein, ich packe immer am letzten Tag.",exampleSrc:"A: هل حزمت أمتعتك بالفعل؟\nB: لا، أحزم دائماً في اليوم الأخير.",note:"فعل نظامي. يُستخدم مجازياً أيضاً: Das packe ich! (I can handle it!)",funFact:"الألمان مشهورون بكفاءة التعبئة. يوجد حتى فعل zusammenpacken لحزم الأشياء معاً."},
+        {type:"teach",trg:"einpacken",pos:"verb",gender:null,src:"يُحزم (في) / يُغلّف",phonetic:"AIN-pah-ken",example:"A: Soll ich die Geschenke einpacken?\nB: Ja, bitte pack sie in Papier ein.",exampleSrc:"A: هل أغلّف الهدايا؟\nB: نعم، من فضلك غلّفها بالورق.",note:"فعل منفصل: ein|packen. Ich packe den Koffer ein.",funFact:"في المتاجر الألمانية، نادراً ما يضع الكاشير مشترياتك في أكياس. أنت تحزم (einpacken) مشترياتك بنفسك."},
+        {type:"teach",trg:"parken",pos:"verb",gender:null,src:"يركن (سيارة)",phonetic:"PAR-ken",example:"A: Wo hast du geparkt?\nB: Ich habe direkt am Bahnhof geparkt.",exampleSrc:"A: أين ركنت السيارة؟\nB: ركنتها مباشرة عند المحطة.",note:"فعل نظامي. Partizip II: geparkt. يستخدم haben.",funFact:"ركن السيارة في محطات القطار الألمانية قد يكلّف 5 إلى 15 يورو يومياً. كثير من المسافرين يستخدمون مواقف Park-and-Ride بدلاً من ذلك."},
+        {type:"teach",trg:"verreisen",pos:"verb",gender:null,src:"يسافر / يذهب في رحلة",phonetic:"fair-RYE-zen",example:"A: Verreist ihr diesen Sommer?\nB: Ja, wir sind letztes Jahr nach Italien verreist.",exampleSrc:"A: هل ستسافرون هذا الصيف؟\nB: نعم، سافرنا إلى إيطاليا العام الماضي.",note:"Inseparable prefix ver-. يستخدم sein in الماضي التام: Ich bin verreist.",funFact:"لدى الألمان في المتوسط 30 يوم إجازة سنوياً. السفر (Verreisen) هو عملياً هواية وطنية."},
+        {type:"teach",trg:"ziehen",pos:"verb",gender:null,src:"يسحب / ينتقل (سكن)",phonetic:"TSEE-en",example:"A: Zieh bitte die Tür zu!\nB: Okay, ich ziehe sie zu.",exampleSrc:"A: من فضلك اسحب الباب وأغلقه!\nB: حسناً، أنا أسحبه.",note:"شاذ: ziehen, zog, gezogen. With sein when meaning 'to move': Ich bin nach Berlin gezogen.",funFact:"ziehen لديه أكثر من 20 صيغة مركبة في الألمانية، من anziehen (يلبس) إلى umziehen (ينتقل)."},
+        {type:"teach",trg:"liefern",pos:"verb",gender:null,src:"يوصّل / يسلّم",phonetic:"LEE-fern",example:"A: Wann wird das Paket geliefert?\nB: Der Bote liefert es morgen.",exampleSrc:"A: متى سيُوصَّل الطرد؟\nB: ساعي البريد يوصّله غداً.",note:"فعل نظامي. Die Lieferung = the delivery.",funFact:"Deutsche Post توصّل حوالي 1.6 مليار طرد سنوياً في ألمانيا وحدها."},
+        {type:"drag_fill",s:"Wenn ich früh {1}, {2} ich alles in den Koffer {3}.",blanks:{"1":"aufstehe","2":"packe","3":"ein"},pool:["aufstehe","packe","ein","stehe","packen","aus"],hint:"الفراغ الأول: الاستيقاظ باكراً (فعل منفصل). الجملة الرئيسية: فعل منفصل يعني وضع الأشياء في شيء.",sSrc:"عندما أستيقظ باكراً، أحزم كل شيء في الحقيبة."},
+        {type:"mc",q:"Wir konnten nicht verreisen, ... der Zug Verspätung hatte.",opts:["wenn","und","aber","weil"],ans:"weil",hint:"هذا يعطي سبباً لعدم السفر."},
+        {type:"fb",s:"Er {1} gestern nicht parken, weil der Parkplatz voll war.",a:"konnte",opts:["konnte","kann","konnten","gekonnt"],hint:"فعل مساعد في الماضي البسيط، الغائب المفرد.",sSrc:"لم يستطع الركن أمس لأن الموقف كان ممتلئاً."},
+        {type:"mc",q:"Sie wollte den Koffer einpacken, aber sie ... keine Zeit.",opts:["hat","hatte","haben","hatten"],ans:"hatte",hint:"الماضي البسيط من haben، الغائب المفرد."},
+        {type:"mc",q:"Wenn ich letztes Jahr verreist ..., habe ich den Koffer immer selbst gepackt.",opts:["bin","habe","war","hatte"],ans:"bin",hint:"verreisen يستخدم sein في الماضي التام، وليس haben."},
+        {type:"drag_fill",s:"Ich musste den Koffer {1}, weil ich morgen {2}.",blanks:{"1":"packen","2":"verreise"},pool:["packen","verreise","gepackt","verreist","packe","reise"],hint:"بعد الفعل المساعد، استخدم المصدر. جملة weil: الفعل في النهاية.",sSrc:"كان يجب أن أحزم الحقيبة لأنني أسافر غداً."},
+        {type:"mc",q:"Wir sind nach Hamburg gezogen, weil mein Vater dort eine Stelle ... .",opts:["hat","haben","hatte","gehabt"],ans:"hatte",hint:"الماضي البسيط من haben. السبب في الماضي."},
+        {type:"drag_fill",s:"Wenn ich {1} habe, {2} ich immer die Tür {3}.",blanks:{"1":"gepackt","2":"ziehe","3":"zu"},pool:["gepackt","ziehe","zu","packe","gezogen","auf"],hint:"الماضي التام في جملة wenn (habe في النهاية). الجملة الرئيسية: فعل منفصل يعني الإغلاق بالسحب.",sSrc:"عندما أنتهي من الحزم، أسحب الباب دائماً وأغلقه."},
+        {type:"fb",s:"Wenn das Paket {1} wird, bin ich nicht zu Hause.",a:"geliefert",opts:["geliefert","liefern","liefert","geliefern"],hint:"اسم المفعول من فعل نظامي في صيغة المبني للمجهول.",sSrc:"عندما يُوصَّل الطرد، لن أكون في البيت."},
+        {type:"match",pairs:[
+            {trg:"packen",pos:"verb",gender:null,src:"to pack"},
+            {trg:"einpacken",pos:"verb",gender:null,src:"to pack in / wrap up"},
+            {trg:"parken",pos:"verb",gender:null,src:"to park"},
+            {trg:"verreisen",pos:"verb",gender:null,src:"to go on a trip"},
+            {trg:"ziehen",pos:"verb",gender:null,src:"to pull / to move"},
+            {trg:"liefern",pos:"verb",gender:null,src:"to deliver"}
+          ]},
+        {type:"mc",q:"Er konnte nicht einpacken, weil der Koffer zu klein ... .",opts:["ist","war","sein","gewesen"],ans:"war",hint:"الماضي البسيط من sein. الجملة تتحدث عن موقف في الماضي."},
+        {type:"drag_fill",s:"Wenn ich {1} bin, {2} ich immer viel {3}.",blanks:{"1":"verreist","2":"habe","3":"erlebt"},pool:["verreist","habe","erlebt","verreise","bin","erleben"],hint:"كلتا الجملتين تستخدمان الماضي التام. فعل جملة wenn هو فعل حركة (يستخدم sein). فعل الجملة الرئيسية هو فعل تجربة (يستخدم الفعل المساعد الآخر).",sSrc:"عندما سافرت، عشت دائماً تجارب كثيرة."}
+      ]},
+    {id:"deu_r10l6",title:"Wenn der Zug Verspätung hat",icon:"📐",xp:20,board:true,steps:[
+        {type:"intro",title:"Wenn der Zug Verspätung hat",desc:"الجمل الثانوية مع wenn ترسل الفعل إلى النهاية. حان الوقت لإتقان قاعدة ترتيب الكلمات هذه مع ثلاث صفات مفيدة.",goals:[
+            "wenn + ترتيب الفعل في نهاية الجملة",
+            "تثبيت ترتيب الجمل الثانوية (weil/dass/wenn/ob)",
+            "تعلّم direkt و offen و voll"
+          ]},
+        {type:"teach",trg:"direkt",pos:"adj",gender:null,src:"مباشر / مباشرةً",phonetic:"dee-REKT",example:"A: Gibt es einen direkten Zug nach Hamburg?\nB: Ja, der ICE fährt direkt ohne Umsteigen.",exampleSrc:"A: هل يوجد قطار مباشر إلى هامبورغ؟\nB: نعم، قطار ICE يذهب مباشرة بدون تغيير.",note:"صفة وظرف. Direkt am Bahnhof = مباشرة عند المحطة.",funFact:"قطار direkter Zug يعني بدون تحويل. الألمان يفضّلونه بشدة، لأن Umsteigen (تغيير القطارات) يحمل خطر تفويت الربط."},
+        {type:"teach",trg:"offen",pos:"adj",gender:null,src:"مفتوح / صريح",phonetic:"OH-fen",example:"A: Ist das Fenster offen?\nB: Ja, ich habe es offen gelassen.",exampleSrc:"A: هل النافذة مفتوحة؟\nB: نعم، تركتها مفتوحة.",note:"صفة. Not the same as öffnen (to open, verb). Die Tür ist offen = The door is open.",funFact:"Offene Türen (أبواب مفتوحة) استعارة شائعة في الألمانية. Tag der offenen Tür هو يوم مفتوح في المدارس والشركات."},
+        {type:"teach",trg:"voll",src:"ممتلئ",pos:"adj",gender:null,note:"صفة. العكس: leer (empty). Also intensifier in informal speech: voll cool = totally cool.",example:"A: Ist der Zug voll?\nB: Ja, er ist fast voll. Es gibt noch zwei freie Plätze.\nA: Dann nehmen wir diese Plätze.\nB: Gut, sonst müssen wir stehen.",exampleSrc:"A: هل القطار ممتلئ؟\nB: نعم، تقريباً ممتلئ. لا يزال هناك مقعدان فارغان.\nA: إذن لنأخذ هذين المقعدين.\nB: جيد، وإلا سنضطر للوقوف.",funFact:"كلمة voll تعمل أيضاً كمكثّف في لغة الشباب: Das ist voll cool (هذا رائع تماماً) أو Ich bin voll müde (أنا متعب جداً). السياق يحدد إن كانت تعني ممتلئ حرفياً أم فقط 'جداً'."},
+        {type:"tip",title:"Nebensatz mit wenn",text:"wenn (إذا/عندما) ترسل الفعل المتصرّف إلى نهاية الجملة.\n\nجملة رئيسية: Der Zug hat Verspätung.\nجملة ثانوية: Wenn der Zug Verspätung hat, ...\n\nلاحظ: hat انتقل إلى النهاية بعد wenn.\n\nwenn يمكن أن تعني 'إذا' (شرطية) أو 'عندما/كلما' (زمنية):\n. Wenn es regnet, bleibe ich zu Hause. (إذا/عندما تمطر...)\n. Wenn ich nach Berlin fahre, nehme ich den ICE. (عندما أذهب إلى برلين...)\n\nالجملة الرئيسية بعد جملة wenn تبدأ بالفعل (قاعدة الفعل في المرتبة الثانية):\nWenn ich packe, vergesse ich immer etwas.",deepDive:"الفعل المتصرّف يذهب دائماً إلى الموضع الأخير في جملة wenn. إذا بدأت الجملة بجملة wenn، تبدأ الجملة الرئيسية بالفعل: Wenn ..., VERB subject ... هذا يُسمّى 'انعكاس' ويحدث بعد كل الجمل الثانوية."},
+        {type:"tip",title:"Why war/hatte even in speech?",text:"معظم صيغ الماضي البسيط (Präteritum) تبدو رسمية في المحادثة.\nلكن war و hatte هما الاستثناءان:\n\nIch war müde. يبدو طبيعياً.\nIch bin müde gewesen. يبدو ثقيلاً.\n\nEr hatte Hunger. يبدو طبيعياً.\nEr hat Hunger gehabt. يبدو ركيكاً.\n\nالقاعدة: استخدم دائماً war/hatte في الكلام والكتابة.",deepDive:{title:"The three Präteritum survivors",text:"في الألمانية المحكية، ثلاث مجموعات فقط من الأفعال تستخدم الماضي البسيط بانتظام:\n1. sein: war/warst/war/waren\n2. haben: hatte/hattest/hatte/hatten\n3. الأفعال المساعدة: konnte/musste/wollte/durfte/sollte\n\nكل شيء آخر يستخدم الماضي التام في الكلام."}},
+        {type:"tip",title:"Nebensatz-Wortstellung: weil, dass, wenn, ob",text:"أربعة أدوات ربط تعرفها كلها تشترك في نفس القاعدة: الفعل يذهب إلى النهاية.\n\n- weil (لأن): Ich bin müde, weil ich früh aufgestanden bin.\n- dass (أنّ): Ich weiß, dass der Zug um 9 fährt.\n- wenn (إذا/عندما): Wenn du kommst, bringe ich Kaffee mit.\n- ob (هل/ما إذا): Ich frage, ob der Zug pünktlich ist.\n\nفي كل حالة، أداة الربط تأتي أولاً، ثم الفاعل وبقية الكلمات، والفعل المتصرّف يأتي في النهاية تماماً.\nمع الماضي التام، الفعل المساعد يأتي أخيراً: ... weil ich den Zug verpasst habe.",deepDive:"تُسمّى هذه أدوات ربط ثانوية (Subjunktionen). تُنشئ جملاً تابعة لا يمكنها الوقوف وحدها. قاعدة الفعل في النهاية تنطبق على كل أدوات الربط الثانوية في الألمانية، وليس فقط هذه الأربع."},
+        {type:"mc",q:"Which word order is correct after 'wenn'?",opts:[
+            "Wenn ich packe den Koffer, ...",
+            "Wenn packe ich den Koffer, ...",
+            "Wenn ich den Koffer packe, ...",
+            "Wenn den Koffer ich packe, ..."
+          ],ans:"Wenn ich den Koffer packe, ...",hint:"الفعل ينتقل إلى الموضع الأخير في الجملة."},
+        {type:"fb",s:"Wenn der Zug Verspätung {1}, verpasse ich den Anschluss.",a:"hat",opts:["hat","haben","habe","ist"],hint:"الفاعل هو der Zug، فأي صيغة تناسب؟",sSrc:"إذا تأخر القطار، سأفوّت الربط."},
+        {type:"mc",q:"'Wenn ich nach München verreist bin, habe ich immer den ICE genommen.' What does 'wenn' mean here?",opts:["If (conditional, hypothetical)","Whenever (temporal, repeated action)","Because (causal)","That (declarative)"],ans:"Whenever (temporal, repeated action)",hint:"الجملة تصف شيئاً حدث عدة مرات."},
+        {type:"fb",s:"Ich frage, ob der Zug pünktlich {1}.",a:"ist",opts:["ist","sein","bist","hat"],hint:"الفاعل هو der Zug، الغائب المفرد.",sSrc:"أسأل هل القطار في موعده."},
+        {type:"drag_fill",s:"Wenn ich nach Berlin {1}, {2} ich immer direkt am Bahnhof.",blanks:{"1":"fahre","2":"parke"},pool:["fahre","parke","fährt","parken"],hint:"جملة wenn: الفعل في النهاية. الجملة الرئيسية: الفعل في المرتبة الثانية بعد الفاصلة.",sSrc:"عندما أسافر إلى برلين، أركن دائماً مباشرة عند المحطة."},
+        {type:"fb",s:"Wenn der Zug direkt {1}, muss man nicht umsteigen.",a:"fährt",opts:["fährt","fahren","gefahren","fuhr"],hint:"المضارع، الغائب المفرد من fahren.",sSrc:"إذا ذهب القطار مباشرة، لا يحتاج المرء إلى التحويل."},
+        {type:"match",pairs:[
+            {trg:"Wenn es regnet, ...",src:"verb-final: regnet at end"},
+            {trg:"..., weil er müde war.",src:"verb-final: war at end"},
+            {trg:"Ich weiß, dass er kommt.",src:"verb-final: kommt at end"},
+            {trg:"Ich frage, ob sie parkt.",src:"verb-final: parkt at end"}
+          ]},
+        {type:"mc",q:"Which sentence has correct word order?",opts:[
+            "Ich weiß, dass er den Koffer gepackt hat.",
+            "Ich weiß, dass er hat den Koffer gepackt.",
+            "Ich weiß, dass er gepackt den Koffer hat.",
+            "Ich weiß, dass gepackt er den Koffer hat."
+          ],ans:"Ich weiß, dass er den Koffer gepackt hat.",hint:"في الماضي التام داخل جملة dass، الفعل المساعد يأتي أخيراً."},
+        {type:"fb",s:"Wenn die Tür {1} ist, kommt kalte Luft herein.",a:"offen",opts:["offen","öffnen","geöffnet","offene"],hint:"صفة تصف حالة الباب.",sSrc:"إذا كان الباب مفتوحاً، يدخل هواء بارد."},
+        {type:"fb",s:"Der Zug ist {1}. Es gibt keine freien Plätze mehr.",a:"voll",opts:["voll","offen","direkt","leer"],hint:"صفة تعني ممتلئ تماماً، لا مكان متبقّي.",sSrc:"القطار ممتلئ. لا توجد مقاعد فارغة."},
+        {type:"mc",q:"Gibt es einen {blank} Zug nach Hamburg? Which word fits?",opts:["direkten","offenen","vollen","liefern"],ans:"direkten",hint:"صفة تصف قطاراً يذهب مباشرة إلى الوجهة بدون توقف."},
+        {type:"story",speaker:"lukas",mood:"reassuring",art:"de-phone-text",trg:"[SMS von Lukas] Wenn du den Anschluss verpasst, musst du zum Service-Point gehen. Die buchen dich kostenlos um. Das ist das Gesetz.",src:"[رسالة من لوكاس] إذا فاتك قطار الربط، يجب أن تذهب إلى نقطة الخدمة. سيعيدون حجزك مجاناً. هذا هو القانون."},
+        {type:"story",speaker:"verumius",mood:"impressed",art:"de-phone-text",trg:"Du kennst dich gut aus.",src:"أنت فعلاً تعرف كل شيء."},
+        {type:"story",speaker:"lukas",mood:"wry",art:"de-phone-text",trg:"Ich bin Deutscher. Wir werden mit Verspätung geboren.",src:"أنا ألماني. نحن نولد مع التأخيرات."}
+      ]},
+    {id:"deu_r10l7",title:"Hin und her",icon:"↔️",xp:15,board:true,steps:[
+        {type:"intro",title:"Hin und her",desc:"إلى أين تتجه الرحلة؟ تعلّم كلمات الاتجاه مع hin و her و zurück.",goals:["كلمات الاتجاه مع hin/her/zurück","مراجعة الماضي التام مع sein","الدمج مع جمل wenn"]},
+        {type:"story",speaker:"narrator",mood:"building-tension",art:"de-ice-corridor",trg:"Der Zugbegleiter kommt durch den Gang. 'Nächster Halt: München Hauptbahnhof. Bitte beachten Sie: Der Zug hat jetzt nur noch 35 Minuten Verspätung.' Verumius rechnet. Sein Anschluss fährt in 39 Minuten. Vier Minuten. Gleis 3 zu Gleis 14.",src:"المحصّل يمشي عبر الممر. 'المحطة التالية: ميونخ المركزية. يرجى الانتباه: القطار متأخر الآن 35 دقيقة فقط.' فيروميوس يحسب. قطار ربطه ينطلق بعد 39 دقيقة. أربع دقائق. الرصيف 3 إلى الرصيف 14."},
+        {type:"teach",trg:"zurückfahren",pos:"verb",gender:null,src:"يعود بالسيارة",phonetic:"tsoo-RÜCK-fah-ren",example:"A: Wann fährst du zurück?\nB: Ich fahre morgen Abend zurück.",exampleSrc:"A: متى تعود بالسيارة؟\nB: أعود مساء الغد.",note:"منفصل: fährt ... zurück. الماضي التام: ist zurückgefahren (sein, because movement).",funFact:"يقول الألمان Ich fahre zurück حتى للسفر بالقطار. fahren تغطي كل أنواع النقل بالمركبات."},
+        {type:"teach",trg:"zurückgeben",pos:"verb",gender:null,src:"يُعيد",phonetic:"tsoo-RÜCK-gay-ben",example:"A: Kannst du mir das Buch zurückgeben?\nB: Ja, ich gebe es dir morgen zurück.",exampleSrc:"A: هل يمكنك إعادة الكتاب لي؟\nB: نعم، سأعيده لك غداً.",note:"منفصل: gibt ... zurück. الماضي التام: hat zurückgegeben (haben, no movement).",funFact:"في المكتبات الألمانية تُعيد (geben zurück) كتبك. رسوم التأخير تُسمّى Mahngebühren."},
+        {type:"teach",trg:"zurückgehen",pos:"verb",gender:null,src:"يعود (ماشياً)",phonetic:"tsoo-RÜCK-gay-en",example:"A: Gehen wir zurück zum Bahnhof?\nB: Ja, wir müssen zurückgehen.",exampleSrc:"A: هل نعود إلى المحطة؟\nB: نعم، يجب أن نعود.",note:"منفصل: geht ... zurück. الماضي التام: ist zurückgegangen (sein).",funFact:"zurückgehen تعني أيضاً 'ينخفض'. الأسعار يمكن أن تعود (zurückgehen) أيضاً."},
+        {type:"teach",trg:"zurückkommen",pos:"verb",gender:null,src:"يرجع / يعود",phonetic:"tsoo-RÜCK-koh-men",example:"A: Wann kommst du zurück?\nB: Ich komme in einer Stunde zurück.",exampleSrc:"A: متى ستعود؟\nB: سأعود بعد ساعة.",note:"منفصل: kommt ... zurück. الماضي التام: ist zurückgekommen (sein).",funFact:"!Komm zurück هو ما تصرخ به عندما يغادر شخص وتريد عودته."},
+        {type:"teach",trg:"zurücklaufen",pos:"verb",gender:null,src:"يركض عائداً",phonetic:"tsoo-RÜCK-lau-fen",example:"A: Der Zug fährt gleich!\nB: Dann müssen wir zurücklaufen!",exampleSrc:"A: القطار سينطلق قريباً!\nB: إذن يجب أن نركض عائدين!",note:"منفصل: läuft ... zurück. الماضي التام: ist zurückgelaufen (sein).",funFact:"laufen تعني 'يمشي' و 'يركض' في الألمانية. السياق يحدد السرعة."},
+        {type:"teach",trg:"hin",pos:"adv",gender:null,src:"بعيداً عن المتحدث",phonetic:"hin",example:"A: Wo gehst du hin?\nB: Ich gehe zum Bahnhof hin.",exampleSrc:"A: إلى أين أنت ذاهب؟\nB: أنا ذاهب إلى المحطة.",note:"hin تُظهر حركة بعيداً عن المتحدث. غالباً في النهاية: Wo gehst du hin?",funFact:"Wohin (إلى أين) هي حرفياً wo + hin. الألمان يفصلونها في الكلام: Wo gehst du hin?"},
+        {type:"teach",trg:"her",pos:"adv",gender:null,src:"نحو المتحدث",phonetic:"hehr",example:"A: Komm mal her!\nB: Ich komme schon her.",exampleSrc:"A: تعال هنا!\nB: أنا قادم.",note:"her تُظهر حركة نحو المتحدث. عكس hin.",funFact:"Woher (من أين) هي wo + her. يسأل الألمان Wo kommst du her? لمعرفة أصلك."},
+        {type:"tip",title:"Das Hin-und-her-System",text:"في الألمانية نظام ثنائي للاتجاهات:\n\n. hin = بعيداً عن المتحدث (Wo gehst du hin?)\n. her = نحو المتحدث (Komm her!)\n\nتلتصق بالأفعال كسوابق:\n. hingehen = يذهب إلى هناك\n. herkommen = يأتي إلى هنا\n. hinfahren = يقود إلى هناك\n. herfahren = يقود إلى هنا\n\nمع zurück، تنعكس الحركة:\n. zurückfahren = يقود عائداً\n. zurückgehen = يعود ماشياً",deepDive:"hin و her تتحد أيضاً مع حروف الجر: hinaus (خارجاً، بعيداً)، herein (داخلاً، نحوك)، hinauf (صعوداً، بعيداً)، herunter (نزولاً، نحوك). في الكلام العامي، يختصر الألمان هذه: raus، rein، rauf، runter."},
+        {type:"teach",trg:"drüben",pos:"adv",gender:null,src:"هناك (على الجانب الآخر)",phonetic:"DRÜ-ben",example:"A: Wo ist der Kiosk?\nB: Der Kiosk ist drüben, auf der anderen Seite.",exampleSrc:"A: أين الكشك؟\nB: الكشك هناك، على الجانب الآخر.",note:"تشير إلى الجانب الآخر من شيء ما (شارع، غرفة، حدود).",funFact:"خلال الحرب الباردة، كانت drüben تعني 'ألمانيا الأخرى'. الألمان الغربيون كانوا يقولون die drüben عن الألمان الشرقيين والعكس."},
+        {type:"teach",trg:"unterwegs",pos:"adv",gender:null,src:"في الطريق",phonetic:"un-ter-VEGS",example:"A: Wo bist du?\nB: Ich bin unterwegs zum Hauptbahnhof.",exampleSrc:"A: أين أنت؟\nB: أنا في الطريق إلى المحطة المركزية.",note:"يُستخدم مع sein: Ich bin unterwegs. لا أجزاء منفصلة.",funFact:"Unterwegs sein هي النسخة الألمانية من 'أنا في الطريق'. ستسمعها في كل مكالمة هاتفية عن التأخير��ت."},
+        {type:"teach",trg:"vorbei",pos:"adv",gender:null,src:"مضى / انتهى",phonetic:"for-BYE",example:"A: Ist der Zug schon vorbei?\nB: Ja, er ist vor fünf Minuten vorbeigefahren.",exampleSrc:"A: هل مرّ القطار بالفعل؟\nB: نعم، مرّ قبل خمس دقائق.",note:"معنيان: (1) مرور مادي (vorbeifahren)، (2) انتهى (Die Party ist vorbei).",funFact:"Vorbei ist vorbei مقولة ألمانية شائعة تعني 'ما فات فات'."},
+        {type:"teach",trg:"vorher",pos:"adv",gender:null,src:"قبل ذلك (زمنياً)",phonetic:"FOR-hehr",example:"A: Hast du vorher gefrühstückt?\nB: Nein, ich hatte vorher keine Zeit.",exampleSrc:"A: هل تناولت الإفطار قبل ذلك؟\nB: لا، لم يكن لديّ وقت من قبل.",note:"زمني فقط. لمعنى 'أمام' استخدم vor.",funFact:"يحب الألمان الدقة الزمنية. vorher، nachher، davor، danach: أربع طرق لقول قبل وبعد."},
+        {type:"teach",trg:"vorwärts",pos:"adv",gender:null,src:"إلى الأمام",phonetic:"FOR-verts",example:"A: Gehen wir vorwärts oder rückwärts?\nB: Immer vorwärts!",exampleSrc:"A: هل نتقدم إلى الأمام أم إلى الخلف؟\nB: دائماً إلى الأمام!",note:"العكس: rückwärts (إلى الخلف). يُستخدم للتقدم المادي والمجازي.",funFact:"Vorwärts كان اسم صحيفة الحزب الاشتراكي الديمقراطي الألماني منذ عام 1876."},
+        {type:"teach",trg:"weg",pos:"adv",gender:null,src:"بعيد / اختفى",phonetic:"vek",example:"A: Wo ist mein Koffer?\nB: Er ist weg! Jemand hat ihn genommen!",exampleSrc:"A: أين حقيبتي؟\nB: اختفت! شخص ما أخذها!",note:"قصيرة وحادة. !Weg وحدها تعني 'ابتعد!' كاسم، der Weg تعني 'الطريق'.",funFact:"!Geh weg (ابتعد!) من أولى العبارات التي يتعلم الأطفال الألمان صراخها في وجه إخوتهم."},
+        {type:"mc",q:"'Hin' zeigt Bewegung ...",opts:["vom Sprecher weg","zum Sprecher","nach oben","nach unten"],ans:"vom Sprecher weg",hint:"فكّر في الاتجاه: نحو المتحدث أم بعيداً عنه؟"},
+        {type:"fb",s:"Wann kommst du {1}?",a:"zurück",opts:["zurück","weg","hin","vorbei"],hint:"تريد معرفة متى يعود شخص ما.",sSrc:"متى ستعود؟"},
+        {type:"mc",q:"Welches Wort bedeutet 'on the way'?",opts:["vorwärts","drüben","vorher","unterwegs"],ans:"unterwegs",hint:"لم تصل بعد، لكنك مسافر."},
+        {type:"fb",s:"Der Zug ist schon {1}. Wir haben ihn verpasst.",a:"vorbei",opts:["vorbei","weg","hin","unterwegs"],hint:"القطار مرّ بالفعل. انتهى الأمر.",sSrc:"القطار مرّ بالفعل. فاتنا."},
+        {type:"mc",q:"'Ich bin gestern zurückgefahren.' Welches Hilfsverb braucht zurückfahren im Perfekt?",opts:["sein","haben","werden","können"],ans:"sein",hint:"العودة بالسيارة تتضمن تغيير المكان."},
+        {type:"fb",s:"Wenn du morgen {1}, bringe bitte Brot mit.",a:"zurückkommst",opts:["zurückkommst","zurückgeben","vorwärts","unterwegs"],hint:"أكمل: عندما تعود غداً ...",sSrc:"عندما تعود غداً، أحضر خبزاً من فضلك."},
+        {type:"drag_fill",s:"Ich bin vorher zum Gleis {1}, aber der Zug war schon {2}.",blanks:{"1":"hingegangen","2":"weg"},pool:["hingegangen","weg","zurück","her","vorbei"],hint:"الفراغ الأول: ذهبت إلى هناك (بعيداً عن المتحدث). الثاني: اختفى.",sSrc:"ذهبت سابقاً إلى الرصيف، لكن القطار كان قد اختفى."},
+        {type:"mc",q:"Was sagt man, wenn jemand auf der anderen Straßenseite steht?",opts:["Er ist unterwegs.","Er geht vorwärts.","Er steht drüben.","Er kommt her."],ans:"Er steht drüben.",hint:"الشخص على الجانب الآخر، مقابلك."},
+        {type:"match",pairs:[
+            {trg:"zurückgeben",pos:"verb",gender:null,src:"to give back"},
+            {trg:"vorher",pos:"adv",gender:null,src:"before (temporal)"},
+            {trg:"vorwärts",pos:"adv",gender:null,src:"forward"},
+            {trg:"weg",pos:"adv",gender:null,src:"away/gone"},
+            {trg:"drüben",pos:"adv",gender:null,src:"over there"}
+          ]},
+        {type:"fb",s:"Komm bitte {1}! Ich brauche deine Hilfe.",a:"her",opts:["her","hin","weg","zurück"],hint:"تريد الشخص أن يأتي نحوك.",sSrc:"تعال هنا من فضلك! أحتاج مساعدتك."},
+        {type:"mc",q:"Wenn ich den Koffer nicht finde, muss ich zum Fundbüro ...",opts:["herkommen","zurückgeben","hingehen","vorbeifahren"],ans:"hingehen",hint:"تحتاج أن تذهب إلى هناك، بعيداً عن مكانك الحالي."},
+        {type:"drag_fill",s:"Wenn der Zug {1} ist, müssen wir zu Fuß {2}.",blanks:{"1":"vorbei","2":"zurücklaufen"},pool:["vorbei","zurücklaufen","unterwegs","hingehen","vorher"],hint:"الأول: القطار مرّ. الثاني: الركض عائداً سيراً.",sSrc:"إذا فات القطار، يجب أن نركض عائدين سيراً على الأقدام."},
+        {type:"story",speaker:"verumius",mood:"determined",art:"de-ice-corridor",trg:"Vier Minuten. Elf Gleise hin. Kein Weg zurück.",src:"أربع دقائق. أحد عشر رصيفاً للعبور. لا طريق للعودة."},
+        {type:"story",speaker:"narrator",mood:"cinematic",art:"de-ice-corridor",trg:"Er packt seinen Rucksack. Er steht auf. Er ist bereit.",src:"يحزم حقيبة ظهره. يقف. هو مستعد."}
+      ]},
+    {id:"deu_r10l8",title:"Der Anschluss",icon:"🏃‍♂️",xp:20,board:true,steps:[
+        {type:"intro",title:"Der Anschluss",desc:"محطة ميونخ المركزية. أمام فيروميوس 4 دقائق بالضبط للحاق بقطار الربط. سلالم كهربائية، حشود، رائحة البريتسل الطازج. هل سينجح؟",goals:[
+            "مراجعة الماضي التام مع sein و haben",
+            "الجمع بين wenn وترتيب الجمل الثانوية",
+            "استخدام الأفعال المساعدة في الماضي البسيط في السرد",
+            "جمل متعددة التراكيب بـ 2-3 نقاط نحوية"
+          ]},
+        {type:"story",speaker:"narrator",mood:"tense",art:"de-munich-hbf",trg:"München Hauptbahnhof. Die Durchsage: 'ICE 517 nach Hamburg fährt in vier Minuten ab, Gleis 14.' Verumius steht auf Gleis 3. Elf Gleise Unterschied. Er rennt.",src:"محطة ميونخ المركزية. الإعلان: 'ICE 517 إلى هامبورغ ينطلق بعد أربع دقائق، الرصيف 14.' فيروميوس على الرصيف 3. أحد عشر رصيفاً بينهما. يركض."},
+        {type:"story",speaker:"narrator",mood:"tense",art:"de-munich-sprint",trg:"Er springt auf die Rolltreppe, drückt sich an einer Frau mit einem Kinderwagen vorbei. 'Entschuldigung!' Der Geruch von frischen Brezeln aus einer Bäckerei. Sein Magen knurrt, aber der Zug wartet nicht.",src:"يقفز على السلم الكهربائي، يمر بجانب امرأة بعربة أطفال. 'عذراً!' رائحة البريتسل الطازج من مخبز. معدته تقرقر، لكن القطار لن ينتظر."},
+        {type:"teach",trg:"das Kaufhaus",pos:"noun",gender:"n",src:"المتجر الكبير",note:"محايد. مركب من: Kauf (شراء) + Haus (بيت).",example:"A: Wo hast du die Jacke gekauft?\nB: Im Kaufhaus am Marienplatz.",exampleSrc:"A: أين اشتريت الجاكيت؟\nB: في المتجر الكبير في ماريِنبلاتس.",funFact:"KaDeWe في برلين (Kaufhaus des Westens) هو أكبر متجر كبير في أوروبا القارية. ستة طوابق، 60,000 متر مربع، وطابق كامل فقط للطعام."},
+        {type:"teach",trg:"das Einkaufszentrum",pos:"noun",gender:"n",src:"مركز التسوق",note:"محايد. مركب من: Einkauf (تسوق) + Zentrum (مركز).",example:"A: Gibt es ein Einkaufszentrum in der Nähe?\nB: Ja, wenn du die Kreuzung überquerst, ist es auf der rechten Seite.",exampleSrc:"A: هل يوجد مركز تسوق بالقرب؟\nB: نعم، إذا عبرت التقاطع، سيكون على الجهة اليمنى.",funFact:"الأسماء المركبة الألمانية يمكن أن تكون طويلة جداً. Einkaufszentrum 16 حرفاً، لكن هذا قصير بالمعايير الألمانية. حرف s الرابط في Einkauf-s-zentrum يُسمّى Fugen-s."},
+        {type:"teach",trg:"die Kreuzung",pos:"noun",gender:"f",src:"التقاطع",note:"مؤنث. From kreuzen (to cross). الجمع: die Kreuzungen.",example:"A: An der Kreuzung musste ich warten.\nB: Ja, die Ampel war rot.",exampleSrc:"A: عند التقاطع اضطررت للانتظار.\nB: نعم، إشارة المرور كانت حمراء.",funFact:"التقاطعات في ألمانيا منظمة بصرامة. عبور الشارع عند الضوء الأحمر (bei Rot gehen) قد يكلفك غرامة 5 إلى 10 يورو. الألمان فعلاً ينتظرون الضوء الأخضر، حتى الساعة 3 صباحاً بدون سيارات."},
+        {type:"teach",trg:"der Rundgang",pos:"noun",gender:"m",src:"الجولة",note:"مذكر. مركب من: rund (مستدير) + Gang (مشي).",example:"A: Wir haben einen Rundgang durch die Altstadt gemacht.\nB: Das klingt toll! Was habt ihr gesehen?",exampleSrc:"A: قمنا بجولة في المدينة القديمة.\nB: يبدو رائعاً! ماذا رأيتم؟",funFact:"Rundgang هي حرفياً 'مشي دائري'، جولة تنتهي حيث بدأت. مرشدو المدن الألمانية يحبون تقديم جولات (Rundgänge) في الأحياء التاريخية."},
+        {type:"teach",trg:"die Messe",pos:"noun",gender:"f",src:"المعرض التجاري",note:"مؤنث. تعني أيضاً 'mass' (church service). Context decides.",example:"A: Bist du zur Messe gefahren?\nB: Ja, ich bin mit dem Zug hingefahren.",exampleSrc:"A: هل ذهبت إلى المعرض التجاري؟\nB: نعم، ذهبت بالقطار.",funFact:"ألمانيا تستضيف بعض أكبر المعارض التجارية في العالم. معرض هانوفر يجذب أكثر من 200,000 زائر. معرض فرانكفورت للكتب (Buchmesse) هو أكبر حدث للكتب في العالم."},
+        {type:"teach",trg:"das Zelt",pos:"noun",gender:"n",src:"الخيمة",note:"محايد. الجمع: die Zelte.",example:"A: Wenn es regnet, gehen wir ins Zelt.\nB: Gute Idee! Es ist warm und trocken.",exampleSrc:"A: إذا أمطرت، سندخل الخيمة.\nB: فكرة جيدة! إنها دافئة وجافة.",funFact:"في مهرجان أكتوبرفست، خيام البيرة (Bierzelte) ضخمة. أكبرها Hofbräu-Festzelt تتسع لـ 10,000 شخص. هي أشبه بمبانٍ مؤقتة منها بخيام."},
+        {type:"teach",trg:"rund",pos:"adj",gender:null,src:"مستدير",note:"صفة. Also used as 'approximately': rund 100 Leute (around 100 people).",example:"A: Der Tisch ist rund.\nB: Ja, und rund 20 Leute sitzen daran.",exampleSrc:"A: الطاولة مستديرة.\nB: نعم، وحوالي 20 شخصاً يجلسون حولها.",funFact:"rund تؤدي مهمتين في الألمانية. الشكل: ein runder Tisch (طاولة مستديرة). التقريب: rund 50 Euro (حوالي 50 يورو). كلا المعنيين يأتيان من فكرة الاكتمال."},
+        {type:"mc",q:"'Verumius ist durch das Kaufhaus gerannt.' Which auxiliary verb forms the Perfekt here?",opts:["hat (action verb)","war (past tense)","ist (movement verb)","wurde (passive)"],ans:"ist (movement verb)",hint:"rennen يتضمن تغيير المكان. أفعال الحركة تستخدم sein."},
+        {type:"fb",s:"An der {1} musste ich fünf Minuten warten.",a:["Kreuzung"],opts:["Kreuzung","Messe","Rolltreppe","Bäckerei"],hint:"حيث يلتقي شارعان وإشارات المرور تنظم الحركة.",sSrc:"عند التقاطع اضطررت للانتظار خمس دقائق."},
+        {type:"mc",q:"'Wenn der Zug abfährt, muss ich am Gleis sein.' What happens to the verb in the wenn-clause?",opts:[
+            "The verb stays in second position",
+            "The verb is dropped",
+            "The verb becomes an infinitive",
+            "The conjugated verb goes to the end"
+          ],ans:"The conjugated verb goes to the end",hint:"الجمل الثانوية في الألمانية ترسل الفعل إلى الموضع الأخير."},
+        {type:"drag_fill",s:"Verumius {1} durch das Einkaufszentrum {2}, weil er seinen Anschluss nicht {3} wollte.",blanks:{"1":"ist","2":"gerannt","3":"verpassen"},pool:["ist","gerannt","verpassen","hat","gelaufen","verpasst"],hint:"rennen يستخدم sein في الماضي التام. wollen + المصدر في الجملة الثانوية.",sSrc:"ركض فيروميوس عبر مركز التسوق لأنه لم يرد أن يفوّت الربط."},
+        {type:"fb",s:"Wir haben einen {1} durch die Altstadt gemacht.",a:["Rundgang"],opts:["Rundgang","Kreuzung","Zelt","Kaufhaus"],hint:"جولة سيراً تمر عبر منطقة في المدينة وتعود إلى نقطة البداية.",sSrc:"قمنا بجولة في المدينة القديمة."},
+        {type:"mc",q:"'Er konnte den Zug nicht sehen, weil das Kaufhaus im Weg war.' Which grammar points combine here?",opts:["Präteritum modal + weil-clause","Perfekt + wenn-clause here","Imperativ + Partizip II","Futur + Relativsatz combo"],ans:"Präteritum modal + weil-clause",hint:"ابحث عن صيغة können: هي في الماضي البسيط هنا. حدّد أيضاً أداة الربط التي ترسل الفعل إلى النهاية."},
+        {type:"drag_fill",s:"Wenn es {1}, gehen wir ins {2}. Dort {3} wir gestern auch {4}.",blanks:{"1":"regnet","2":"Zelt","3":"sind","4":"gewesen"},pool:["regnet","Zelt","sind","gewesen","hat","geregnet"],hint:"جملة wenn في المضارع. الجملة الثانية: الماضي التام من فعل 'يكون'.",sSrc:"إذا أمطرت، ندخل الخيمة. كنا هناك أيضاً أمس."},
+        {type:"mc",q:"'___ 200 Leute waren auf der Messe.' Which word fits for 'approximately'?",opts:["Leute","Messe","Rund","Waren"],ans:"Rund",hint:"هذه الكلمة تعني أيضاً 'مستدير' كشكل، لكنها هنا تعدّل رقماً."},
+        {type:"fb",s:"Er {1} den Zug nehmen, aber er konnte das Gleis nicht finden.",a:["wollte"],opts:["wollte","konnte","musste","durfte"],hint:"أراد أن يأخذ القطار. الماضي البسيط من wollen.",sSrc:"أراد أن يأخذ القطار، لكنه لم يجد الرصيف."},
+        {type:"drag_fill",s:"Wenn Verumius das {1} {2} hat, ist er zum {3} {4}.",blanks:{"1":"Kaufhaus","2":"gesehen","3":"Gleis","4":"gerannt"},pool:["Kaufhaus","gesehen","Gleis","gerannt","Messe","gefahren"],hint:"عندما رأى المتجر الكبير، ركض إلى الرصيف. wenn + الماضي التام، الجملة الرئيسية بالماضي التام مع sein.",sSrc:"عندما رأى فيروميوس المتجر الكبير، ركض إلى الرصيف."},
+        {type:"story",speaker:"narrator",mood:"triumphant",art:"de-train-doors",trg:"Gleis 14. Die Türen piepen. Verumius springt hinein. Die Türen schließen sich hinter ihm. Er hat es geschafft! Im Bordbistro bestellt er eine Currywurst. Er hat sie verdient.",src:"الرصيف 14. الأبواب تصدر صوتاً. فيروميوس يقفز إلى الداخل. الأبواب تُغلق خلفه. نجح! في بيسترو القطار يطلب كاريفورست. لقد استحقها."},
+        {type:"story",speaker:"verumius",mood:"blissful-exhausted",art:"de-bordbistro-window",trg:"Draußen zieht Bayern vorbei. Grüne Wiesen, kleine Kirchen, Berge am Horizont. Verumius beißt in seine Currywurst. Sie schmeckt nach Sieg.",src:"في الخارج، بافاريا تمر. مروج خضراء، كنائس صغيرة، جبال في الأفق. فيروميوس يعض كاريفورسته. طعمها كطعم النصر."},
+        {type:"mc",q:"'Er hat es geschafft, weil er schnell genug gerannt ist.' How many grammar constructs combine here?",opts:[
+            "Two: Perfekt haben + Perfekt sein",
+            "Three: Perfekt haben + weil-clause + Perfekt sein",
+            "One: just Perfekt",
+            "Four: Perfekt + weil + modal + sein"
+          ],ans:"Three: Perfekt haben + weil-clause + Perfekt sein",hint:"عُدّ كل نمط نحوي مختلف: الفعل الأول يستخدم فعلاً مساعداً، الجملة الوسطى أداة ربط سببية مع الفعل في النهاية، والفعل الثاني يستخدم الفعل المساعد الآخر."},
+        {type:"fb",s:"Wenn ich am Bahnhof {1}, kaufe ich eine Brezel.",a:["ankomme"],opts:["ankomme","ankommen","angekommen","ankam"],hint:"جملة wenn تحتاج المضارع، المتكلم المفرد. في الجمل الثانوية، الأفعال المنفصلة تتحد في النهاية.",sSrc:"عندما أصل إلى المحطة، أشتري بريتسل."},
+        {type:"drag_fill",s:"Gestern {1} ich zur Messe {2}, und danach {3} ich ein Zelt auf dem Marktplatz {4}.",blanks:{"1":"bin","2":"gefahren","3":"habe","4":"gesehen"},pool:["bin","gefahren","habe","gesehen","ist","gekauft"],hint:"حدثان، فعلان مختلفان: أحدهما فعل حركة يستخدم sein، والآخر فعل إدراك يستخدم الفعل المساعد الآخر.",sSrc:"أمس سافرت إلى المعرض، وبعدها رأيت خيمة في ساحة السوق."},
+        {type:"match",pairs:[
+            {trg:"das Kaufhaus",pos:"noun",gender:"n",src:"department store"},
+            {trg:"das Einkaufszentrum",pos:"noun",gender:"n",src:"shopping center"},
+            {trg:"die Kreuzung",pos:"noun",gender:"f",src:"intersection"},
+            {trg:"der Rundgang",pos:"noun",gender:"m",src:"tour / round"},
+            {trg:"die Messe",pos:"noun",gender:"f",src:"trade fair"},
+            {trg:"das Zelt",pos:"noun",gender:"n",src:"tent"},
+            {trg:"rund",pos:"adj",gender:null,src:"round / approximately"}
+          ]},
+        {type:"tip",title:"Sprint geschafft!",text:"فيروميوس لحق بقطاره بفارق 12 ثانية.\nجمع كل شيء من الوحدة 10:\n\n1. الماضي التام مع sein (ist gerannt، ist gefahren)\n2. الماضي التام مع haben (hat geschafft، hat gesehen)\n3. جمل wenn مع الفعل في النهاية\n4. جمل weil مع الفعل في النهاية\n5. أفعال مساعدة في الماضي (konnte، wollte، musste)\n\nالكاريفورست؟ مستحقة تماماً.",deepDive:{title:"Partizip II patterns",text:"أربعة أنماط يجب التعرف عليها:\n1. نظامي ضعيف: ge + جذر + t (kaufen: gekauft، machen: gemacht)\n2. مختلط شاذ: ge + جذر متغير + t (rennen: gerannt، bringen: gebracht)\n3. قوي: ge + جذر متغير + en (fahren: gefahren، fliegen: geflogen)\n4. منفصل: سابقة + ge + جذر + t/en (einchecken: eingecheckt، ankommen: angekommen)\n\nالأفعال ذات السوابق غير المنفصلة (be-، ge-، er-، ver-) لا تضيف ge-:\nbesuchen: besucht، verstehen: verstanden، erklären: erklärt."}}
+      ]},
+    {id:"deu_r10l9",title:"Fahrkartenkontrolle",icon:"✅",xp:25,board:true,steps:[
+        {type:"intro",title:"Fahrkartenkontrolle!",desc:"مفتش التذاكر هنا. حان الوقت لإثبات معرفتك بـ Deutsche Bahn والجغرافيا الألمانية ومفردات السفر.",goals:[
+            "اختبار مفردات السفر والجغرافيا من الوحدة 10",
+            "الجمع بين الماضي التام وجمل wenn وترتيب الجمل الثانوية",
+            "تعلّم der Bus و raten"
+          ]},
+        {type:"story",speaker:"narrator",mood:"dramatic",art:"de-ice-fahrkarte",trg:"'Fahrkartenkontrolle, bitte!' Eine Frau in dunkelblauer Uniform steht im Gang. Verumius sucht sein Ticket. Jackentasche. Hosentasche. Rucksack.",src:"'تفتيش التذاكر، من فضلكم!' امرأة بزي أزرق داكن تقف في الممر. فيروميوس يبحث عن تذكرته. جيب الجاكيت. جيب البنطلون. حقيبة الظهر."},
+        {type:"story",speaker:"verumius",mood:"panicked",art:"de-ice-fahrkarte",trg:"Moment, Moment. Ich habe es irgendwo. Warten Sie bitte.",src:"لحظة، لحظة. أملكها في مكان ما. انتظري من فضلك."},
+        {type:"story",speaker:"narrator",mood:"relieved",art:"de-ice-fahrkarte",trg:"Im Rucksack, ganz unten, zwischen einem Stadtplan und einer leeren Brezeltüte: das Ticket. Verumius lächelt. Die Kontrolleurin lächelt nicht.",src:"في حقيبة الظهر، في القاع تماماً، بين خريطة مدينة وكيس بريتسل فارغ: التذكرة. فيروميوس يبتسم. المفتشة لا."},
+        {type:"mc",q:"Verumius ist mit dem Zug nach München gefahren. Which tense is this sentence in?",opts:["Präsens","Perfekt with haben","Präteritum","Perfekt with sein"],ans:"Perfekt with sein",hint:"gefahren فعل حركة. فكّر أي فعل مساعد يحتاج."},
+        {type:"fb",s:"Wir haben den Flug nach Berlin {1}.",a:["gebucht"],opts:["gebucht","buchen","gebuchen","buchte"],hint:"تحتاج اسم المفعول من buchen بعد haben.",sSrc:"حجزنا الرحلة الجوية إلى برلين."},
+        {type:"mc",q:"'Wenn der Zug Verspätung hat, verpasse ich meinen Flug.' What does 'Verspätung' mean?",opts:["ticket","delay","platform","departure"],ans:"delay",hint:"اسم يصف عندما يصل شيء متأخراً عن الموعد المخطط."},
+        {type:"drag_fill",s:"Ich {1} gestern am Markt {2}.",blanks:{"1":"bin","2":"umgestiegen"},pool:["bin","habe","umgestiegen","umsteigen","hat"],hint:"umsteigen فعل حركة. أي فعل مساعد يأخذ؟",sSrc:"غيّرت القطار عند السوق أمس."},
+        {type:"teach",trg:"der Bus",src:"الحافلة",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Busse. وسيلة نقل شائعة في كل مدينة.",example:"A: Nimmst du die U-Bahn oder den Bus?\nB: Den Bus. Er hält direkt vor dem Rathaus.\nA: Wann fährt der nächste?\nB: In zehn Minuten.",exampleSrc:"A: هل تأخذ المترو أم الحافلة؟\nB: الحافلة. تتوقف مباشرة أمام البلدية.\nA: متى تنطلق التالية؟\nB: بعد عشر دقائق.",funFact:"أول خدمة حافلات آلية في ألمانيا انطلقت عام 1895 بين زيغن ونتفن. اليوم، الحافلات الإقليمية ومنافس FlixBus تشكل شبكة وطنية."},
+        {type:"teach",trg:"raten",src:"ينصح / يخمّن",pos:"verb",gender:null,note:"شاذ: ich rate, du rätst, er rät. Raten + dative person: jemandem raten.",example:"A: Was rätst du mir für die Reise?\nB: Ich rate dir, früh zu buchen.\nA: Und was rätst du für das Hotel?\nB: Ich rate dir, die Jugendherberge zu nehmen.",exampleSrc:"A: ماذا تنصحني للرحلة؟\nB: أنصحك بالحجز مبكراً.\nA: وماذا تنصح للفندق؟\nB: أنصحك بأخذ بيت الشباب.",funFact:"raten لها وظيفتان: النصيحة والتخمين. Ich rate dir = أنصحك. Ich rate mal = دعني أخمّن. كلاهما يأتيان من نفس الجذر الإنجليزي القديم read بمعنى التفسير أو المشورة."},
+        {type:"fb",s:"Wenn es regnet, nehme ich den {1} statt das Fahrrad.",a:["Bus"],opts:["Bus","Strand","Wald","Berg"],hint:"أي وسيلة نقل تحميك من المطر؟",sSrc:"عندما تمطر، آخذ الحافلة بدل الدراجة."},
+        {type:"match",pairs:[
+            {trg:"der Fahrplan",pos:"noun",gender:"m",src:"timetable / schedule"},
+            {trg:"die Verspätung",pos:"noun",gender:"f",src:"delay"},
+            {trg:"das Verkehrsmittel",pos:"noun",gender:"n",src:"means of transport"},
+            {trg:"umsteigen",pos:"verb",gender:null,src:"to change / transfer"},
+            {trg:"verpassen",pos:"verb",gender:null,src:"to miss"},
+            {trg:"buchen",pos:"verb",gender:null,src:"to book"}
+          ]},
+        {type:"mc",q:"'Der Tourist hat seinen Rucksack im Zug vergessen.' What happened?",opts:[
+            "The tourist forgot his backpack on the train",
+            "The tourist packed his backpack",
+            "The tourist bought a new backpack",
+            "The tourist found his backpack at the station"
+          ],ans:"The tourist forgot his backpack on the train",hint:"vergessen تعني ينسى. أين حدث ذلك؟"},
+        {type:"drag_fill",s:"Wenn ich {1}, muss ich am Rathaus {2}.",blanks:{"1":"verreise","2":"umsteigen"},pool:["verreise","umsteigen","verreisen","umgestiegen","packen"],hint:"أكمل بالفعل في المضارع في جملة wenn والمصدر بعد muss.",sSrc:"عندما أسافر، يجب أن أغيّر عند البلدية."},
+        {type:"fb",s:"Das Schiff fährt über den {1} zur Insel.",a:["Fluss"],opts:["Fluss","Berg","Wald","Markt"],hint:"السفن تسير فوق الماء. أي كلمة تعني 'نهر'؟",sSrc:"السفينة تعبر النهر إلى الجزيرة."},
+        {type:"mc",q:"'Wir konnten nicht parken, weil der Markt offen war.' Which grammar features appear here?",opts:["Präteritum + weil-clause","Perfekt + wenn-clause","Präsens + dass-clause","Perfekt + ob-clause"],ans:"Präteritum + weil-clause",hint:"حدّد زمن الفعل المساعد، ثم سمِّ نوع الجملة الثانوية التي ترسل الفعل إلى النهاية."},
+        {type:"fb",s:"Ich nehme den {1}, weil der Zug Verspätung hat.",a:"Bus",opts:["Bus","Zug","Flug","Platz"],hint:"أي وسيلة نقل بديلة يمكنك أخذها عندما يتأخر القطار؟"},
+        {type:"mc",q:"Was bedeutet raten?",opts:["to guess","to drive","to travel","to wait"],ans:"to guess",hint:"هذه الكلمة تعني التوقع غير المؤكد."}
+      ]},
+    {id:"deu_r10l10",title:"Reiseprüfung",icon:"🗺️",xp:20,board:true,steps:[
+        {type:"intro",title:"Reiseprüfung",desc:"الجغرافيا والاتجاهات ومفردات السفر تجتمع معاً. هل تستطيع التعامل مع مواقف سفر حقيقية بالألمانية؟",goals:[
+            "تطبيق مفردات الجغرافيا والاتجاهات",
+            "الجمع بين الماضي التام مع sein والجمل الثانوية",
+            "تعلّم der Ventilator"
+          ]},
+        {type:"drag_fill",s:"Wenn du den {1} liest, findest du den {2} zum Zentrum.",blanks:{"1":"Stadtplan","2":"Weg"},pool:["Stadtplan","Weg","Strand","Flug","Rucksack"],hint:"الخريطة تساعدك في إيجاد الطريق إلى المركز.",sSrc:"إذا قرأت خريطة المدينة، ستجد الطريق إلى المركز."},
+        {type:"fb",s:"Er ist gestern mit dem Motorroller zur {1} gefahren.",a:["Brücke"],opts:["Brücke","Verspätung","Ampel","Verkehr"],hint:"بناء فوق الماء للعبور من جانب لآخر.",sSrc:"سافر إلى الجسر بالدراجة النارية أمس."},
+        {type:"mc",q:"Which sentence has correct subordinate word order?",opts:[
+            "Wenn ich verpasse den Zug, muss ich warten.",
+            "Wenn verpasse ich den Zug, muss ich warten.",
+            "Wenn ich den Zug verpasse, muss ich warten.",
+            "Wenn ich den Zug verpasse, ich muss warten."
+          ],ans:"Wenn ich den Zug verpasse, muss ich warten.",hint:"في جملة wenn الفعل يذهب إلى النهاية. في الجملة الرئيسية بعدها، الفعل يأتي أولاً."},
+        {type:"match",pairs:[
+            {trg:"die Brücke",pos:"noun",src:"bridge"},
+            {trg:"die Insel",pos:"noun",src:"island"},
+            {trg:"die Landschaft",pos:"noun",src:"landscape"},
+            {trg:"der Strand",pos:"noun",src:"beach"},
+            {trg:"der Wald",pos:"noun",src:"forest"},
+            {trg:"der Berg",pos:"noun",src:"mountain"}
+          ]},
+        {type:"fb",s:"Die Touristen {1} ihre Koffer schon eingepackt.",a:["haben"],opts:["haben","sind","hat","ist"],hint:"أي فعل مساعد يستخدمه فعل غير حركي في الماضي التام؟",sSrc:"السياح حزموا حقائبهم بالفعل."},
+        {type:"mc",q:"Verumius fragt: 'Ist die Kirche in der Nähe?' What is he asking about?",opts:["Whether the church is nearby","Whether the church is open","When the church was built","How old the church is"],ans:"Whether the church is nearby",hint:"عبارة in der Nähe تصف القرب المكاني، ليس الزمن أو العمر."},
+        {type:"drag_fill",s:"Ich {1} vorher den Reifen {2}, weil er kaputt {3}.",blanks:{"1":"musste","2":"wechseln","3":"war"},pool:["musste","wechseln","war","konnte","gewechselt","ist"],hint:"فعل مساعد في الماضي + مصدر في الجملة الرئيسية، والفعل في النهاية في جملة weil.",sSrc:"اضطررت لتغيير الإطار لأنه كان مكسوراً."},
+        {type:"fb",s:"Wenn du an der Kreuzung rechts gehst, siehst du das {1}.",a:["Kaufhaus"],opts:["Kaufhaus","Reifen","Motor","Zelt"],hint:"مبنى كبير يمكنك فيه شراء أشياء كثيرة.",sSrc:"إذا انعطفت يميناً عند التقاطع، سترى المتجر الكبير."},
+        {type:"mc",q:"'Sie sind direkt zum Einkaufszentrum gefahren.' Why is 'sind' used here instead of 'haben'?",opts:[
+            "Because 'fahren' expresses movement from A to B",
+            "Because 'fahren' is a reflexive verb",
+            "Because the subject is plural",
+            "Because it is a question"
+          ],ans:"Because 'fahren' expresses movement from A to B",hint:"الأفعال التي تعبر عن تغيير المكان تأخذ فعلاً مساعداً محدداً في الماضي التام."},
+        {type:"drag_fill",s:"Wenn wir den {1} {2}, müssen wir den nächsten {3} nehmen.",blanks:{"1":"Zug","2":"verpassen","3":"Flug"},pool:["Zug","verpassen","Flug","Verspätung","gefahren","buchen"],hint:"إذا فاتنا القطار، يجب أن نأخذ الرحلة الجوية التالية.",sSrc:"إذا فاتنا القطار، يجب أن نأخذ الرحلة الجوية التالية."},
+        {type:"mc",q:"'Wir ___ auf der Messe zelten, aber es gab kein Zelt.' Which Präteritum modal expresses a past wish?",opts:["mussten","konnten","durften","wollten"],ans:"wollten",hint:"هذا الفعل المساعد يعبّر عن رغبة أو نية في الماضي."},
+        {type:"fb",s:"Die Fahrt zum Flughafen dauert {1} zwei Stunden.",a:["rund"],opts:["rund","weg","hin","her"],hint:"هذه الكلمة تعني 'تقريباً' وتشبه شكلاً هندسياً.",sSrc:"الرحلة إلى المطار تستغرق حوالي ساعتين."},
+        {type:"match",pairs:[
+            {trg:"vorwärts",pos:"adv",gender:null,src:"forward"},
+            {trg:"zurückfahren",pos:"verb",gender:null,src:"to drive back"},
+            {trg:"unterwegs",pos:"adv",gender:null,src:"on the way"},
+            {trg:"drüben",pos:"adv",gender:null,src:"over there"},
+            {trg:"vorbei",pos:"adv",gender:null,src:"past / over"},
+            {trg:"hin",pos:"adv",gender:null,src:"there (away from speaker)"}
+          ]},
+        {type:"teach",trg:"der Ventilator",src:"المروحة",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Ventilatoren. مروحة كهربائية لتدوير الهواء.",example:"A: Es ist so heiß hier drin.\nB: Ich schalte den Ventilator ein.\nA: Danke, der hilft schon.\nB: Ja, oder öffnen wir einfach das Fenster.",exampleSrc:"A: الجو حار جداً هنا.\nB: سأشغّل المروحة.\nA: شكراً، هذا يساعد.\nB: نعم، أو نفتح النافذة ببساطة.",funFact:"الكلمة تأتي من اللاتينية ventilare (يروّح، يهوّي). في الشقق الألمانية بدون تكييف، المروحة (Ventilator) غالباً هي خيار التبريد الوحيد في الصيف."},
+        {type:"drag_fill",s:"Wenn das Fenster {1} ist, kommt frische Luft {2}, und wir müssen nicht den {3} einschalten.",blanks:{"1":"offen","2":"herein","3":"Ventilator"},pool:["offen","herein","Ventilator","geschlossen","draußen","Heizung"],hint:"أكمل بحالة النافذة، واتجاه حركة الهواء، والجهاز الكهربائي الذي يصبح غير ضروري.",sSrc:"عندما تكون النافذة مفتوحة، يدخل هواء نقي، ولا نحتاج لتشغيل المروحة."},
+        {type:"mc",q:"Ich rate dir, den Bus zu nehmen. What does 'raten' mean here?",opts:["to advise","to guess","to ride","to book"],ans:"to advise",hint:"raten + شخص في حالة الجر يعني تقديم توصية لشخص ما."},
+        {type:"story",speaker:"lukas",mood:"teasing",art:"de-phone-text",trg:"[SMS von Lukas] Tipp: Ticket immer in der Jackentasche. Nie im Rucksack. Nie.",src:"[رسالة من لوكاس] نصيحة: التذكرة دائماً في جيب الجاكيت. أبداً في حقيبة الظهر. أبداً."}
+      ]},
+    {id:"deu_r10l11",title:"München voraus",icon:"🏙️",xp:15,board:true,steps:[
+        {type:"intro",title:"München voraus",desc:"ميونخ تقترب. حان الوقت لتعلّم مفردات الوصول: الإقامة، التخطيط، وإعطاء الاتجاهات.",goals:[
+            "تعلّم مفردات الإقامة والمدينة",
+            "استخدام ظروف التسلسل: fast، zuerst، zuletzt، dorthin",
+            "التحدث عن التخطيط للسفر"
+          ]},
+        {type:"story",speaker:"narrator",mood:"peaceful",art:"de-bordbistro-bavaria",trg:"Das Bordbistro ist fast leer. Verumius sitzt am Fenster mit einer Currywurst und einem Radler. Draußen rollen die bayerischen Alpen vorbei wie ein Postkartenmotiv.",src:"بيسترو القطار شبه فارغ. فيروميوس يجلس بجانب النافذة مع كاريفورست ورادلر. في الخارج، جبال الألب البافارية تمر كبطاقة بريدية."},
+        {type:"story",speaker:"verumius",mood:"reflective",art:"de-bordbistro-bavaria",trg:"Heute bin ich durch den halben Hauptbahnhof gerannt. Ich habe auf Deutsch um meinen Platz gekämpft. Und jetzt sitze ich hier und esse Currywurst.",src:"اليوم ركضت عبر نصف المحطة المركزية. قاتلت من أجل مقعدي بالألمانية. والآن أجلس هنا آكل كاريفورست."},
+        {type:"teach",trg:"der Führerschein",pos:"noun",gender:"m",src:"رخصة القيادة",phonetic:"FYOO-rer-shyne",example:"A: Hast du einen Führerschein?\nB: Ja, aber ich fahre lieber mit dem Zug.\nA: Das verstehe ich. Züge sind bequemer.",exampleSrc:"A: هل لديك رخصة قيادة؟\nB: نعم، لكنني أفضّل السفر بالقطار.\nA: أفهم ذلك. القطارات أكثر راحة.",note:"Führen (يقود) + Schein (شهادة). أنت تقود مركبة.",funFact:"في ألمانيا يمكنك الحصول على رخصة القيادة عند سن 18. دروس القيادة تكلف 2,000 إلى 3,500 يورو في المتوسط."},
+        {type:"teach",trg:"die Hauptstadt",pos:"noun",gender:"f",src:"العاصمة",phonetic:"HOWPT-shtat",example:"A: Was ist die Hauptstadt von Bayern?\nB: München! Wir fahren gerade dorthin.\nA: Stimmt, ich sehe schon die Berge.",exampleSrc:"A: ما عاصمة بافاريا؟\nB: ميونخ! نحن متجهون إلى هناك الآن.\nA: صحيح، أستطيع رؤية الجبال بالفعل.",note:"Haupt (رئيسي) + Stadt (مدينة). كلمة مركبة بسيطة.",funFact:"برلين أصبحت عاصمة ألمانيا مجدداً عام 1990 بعد إعادة التوحيد. قبل ذلك، كانت بون عاصمة ألمانيا الغربية."},
+        {type:"teach",trg:"die Jugendherberge",pos:"noun",gender:"f",src:"بيت الشباب",phonetic:"YOO-gent-hair-bair-guh",example:"A: Wo übernachtest du in München?\nB: In einer Jugendherberge. Das ist günstig.\nA: Gute Idee! Die sind oft sehr schön.",exampleSrc:"A: أين تقيم في ميونخ؟\nB: في بيت شباب. السعر معقول.\nA: فكرة جيدة! غالباً ما تكون جميلة جداً.",note:"Jugend (شباب) + Herberge (مأوى). ثلاثة أجزاء، كلمة واحدة.",funFact:"ألمانيا اخترعت بيت الشباب. أول واحد افتتح عام 1912 في قلعة ألتنا. اليوم يوجد أكثر من 400 في جميع أنحاء البلاد."},
+        {type:"teach",trg:"das Paket",pos:"noun",gender:"n",src:"الطرد",phonetic:"pa-KETT",example:"A: Ich muss ein Paket nach Berlin schicken.\nB: Es gibt einen Paketshop im Bahnhof.\nA: Perfekt, dann gehe ich vor der Abfahrt dorthin.",exampleSrc:"A: أحتاج إرسال طرد إلى برلين.\nB: يوجد محل طرود في المحطة.\nA: ممتاز، إذن سأذهب إلى هناك قبل المغادرة.",note:"من الفرنسية paquet. Plural: Pakete.",funFact:"DHL توصّل أكثر من 1.8 مليار طرد سنوياً في ألمانيا. الألمان يحبون التسوق عبر الإنترنت."},
+        {type:"teach",trg:"der Umzug",pos:"noun",gender:"m",src:"الانتقال (إلى سكن جديد)",phonetic:"OOM-tsook",example:"A: Wann ist dein Umzug nach München?\nB: Nächsten Monat. Ich brauche noch Kartons.\nA: Ich kann dir helfen!",exampleSrc:"A: متى انتقالك إلى ميونخ؟\nB: الشهر القادم. لا أزال أحتاج صناديق.\nA: يمكنني مساعدتك!",note:"Um (حول) + Zug (سحب). تسحب أشياءك إلى مكان جديد.",funFact:"في ألمانيا، الأصدقاء يساعدون في الانتقال (Umzüge) ويُكافَأون بالبيتزا والبيرة. إنه تقليد."},
+        {type:"teach",trg:"die Unterkunft",pos:"noun",gender:"f",src:"مكان الإقامة",phonetic:"OON-ter-koonft",example:"A: Hast du schon eine Unterkunft in München?\nB: Noch nicht. Ich suche ein Zimmer.\nA: Schau mal im Internet. Es gibt viele Angebote.",exampleSrc:"A: هل لديك مكان إقامة في ميونخ بالفعل؟\nB: ليس بعد. أبحث عن غرفة.\nA: ابحث عبر الإنترنت. هناك عروض كثيرة.",note:"Unter (تحت) + Kunft (من kommen، يأتي). حيث تأتي لتقيم.",funFact:"إيجاد شقة (Wohnung) في ميونخ صعب بشكل معروف. الناس يحضرون ملفات طلبات كاملة لمعاينة الشقق."},
+        {type:"teach",trg:"fast",pos:"adv",gender:null,src:"تقريباً",phonetic:"fasst",example:"A: Sind wir fast da?\nB: Ja, noch zehn Minuten bis München.\nA: Endlich! Die Reise war lang.",exampleSrc:"A: هل نحن تقريباً هناك؟\nB: نعم، عشر دقائق حتى ميونخ.\nA: أخيراً! الرحلة كانت طويلة.",note:"انتبه: fast تعني تقريباً، وليس سريع. schnell تعني سريع.",funFact:"هذا مثال كلاسيكي على الصديق الخادع لمتحدثي الإنجليزية. fast alle تعني تقريباً الجميع، وليس بسرعة الجميع."},
+        {type:"teach",trg:"zuerst",pos:"adv",gender:null,src:"أولاً",phonetic:"tsoo-AIRST",example:"A: Was machst du zuerst in München?\nB: Zuerst gehe ich ins Hotel. Dann esse ich.\nA: Guter Plan!",exampleSrc:"A: ماذا ستفعل أولاً في ميونخ؟\nB: أولاً سأذهب إلى الفندق. ثم سآكل.\nA: خطة جيدة!",note:"Zu (إلى) + erst (أول). حرفياً: إلى أول.",funFact:"يحب الألمان تخطيط يومهم بالترتيب: zuerst، dann، danach، zum Schluss. النظام هو كل شيء."},
+        {type:"teach",trg:"zuletzt",pos:"adv",gender:null,src:"أخيراً",phonetic:"tsoo-LETST",example:"A: Und was machst du zuletzt?\nB: Zuletzt besuche ich den Marienplatz.\nA: Das Glockenspiel ist wunderschön!",exampleSrc:"A: وماذا ستفعل أخيراً؟\nB: أخيراً سأزور ماريِنبلاتس.\nA: الساعة الموسيقية رائعة!",note:"Zu (إلى) + letzt (أخير). عكس zuerst.",funFact:"الساعة الموسيقية (Glockenspiel) في ماريِنبلاتس تعمل كل يوم الساعة 11:00 و 12:00 و 17:00. السياح يتجمعون لمشاهدة التماثيل الميكانيكية ترقص."},
+        {type:"teach",trg:"dorthin",pos:"adv",gender:null,src:"إلى هناك",phonetic:"DORT-hin",example:"A: Ich möchte nach München.\nB: Ich fahre auch dorthin!\nA: Super, dann fahren wir zusammen.",exampleSrc:"A: أريد الذهاب إلى ميونخ.\nB: أنا أيضاً ذاهب إلى هناك!\nA: رائع، إذن نسافر معاً.",note:"Dort (هناك) + hin (نحو). hin دائماً تعني حركة بعيداً عن المتحدث.",funFact:"الألمانية دقيقة جداً في الاتجاهات. dorthin تعني إلى هناك، dorther تعني من هناك. الإنجليزية تستخدم there للاثنين."},
+        {type:"fb",s:"Wir sind {1} da. Noch fünf Minuten!",a:"fast",opts:["fast","zuerst","zuletzt","dorthin"],hint:"أي كلمة تعني تقريباً في الألمانية؟",sSrc:"نحن تقريباً هناك. خمس دقائق فقط!"},
+        {type:"mc",q:"Was bedeutet 'zuerst'?",opts:["at the end","first of all","almost done","right behind"],ans:"first of all",hint:"تبدأ بـ zu وتتعلق بترتيب الأحداث."},
+        {type:"fb",s:"{1} gehe ich ins Hotel, dann esse ich.",a:"Zuerst",opts:["Zuerst","Zuletzt","Fast","Wegen"],hint:"أي ظرف يقدّم الفعل الأول في تسلسل؟",sSrc:"أولاً أذهب إلى الفندق، ثم آكل."},
+        {type:"fb",s:"Ich fahre auch nach München. Ich fahre {1}.",a:"dorthin",opts:["dorthin","vorne","zuletzt","hinter"],hint:"أي كلمة تعني إلى هناك، تُظهر الاتجاه؟",sSrc:"أنا أيضاً ذاهب إلى ميونخ. أنا ذاهب إلى هناك."},
+        {type:"mc",q:"Was ist eine Jugendherberge?",opts:["A youth hostel","A train station","A restaurant","A school"],ans:"A youth hostel",hint:"فكّر في الكلمة المركبة: Jugend + Herberge."},
+        {type:"match",pairs:[
+            {trg:"der Führerschein",src:"driver's license"},
+            {trg:"die Hauptstadt",pos:"noun",gender:"f",src:"capital city"},
+            {trg:"die Unterkunft",pos:"noun",gender:"f",src:"accommodation"},
+            {trg:"das Paket",pos:"noun",gender:"n",src:"package"},
+            {trg:"der Umzug",pos:"noun",gender:"m",src:"move (relocation)"}
+          ]},
+        {type:"fb",s:"Wann ist dein {1} nach München?",a:"Umzug",opts:["Umzug","Paket","Führerschein","Unterkunft"],hint:"اسم مركب يصف الانتقال إلى مكان جديد.",sSrc:"متى انتقالك إلى ميونخ؟"},
+        {type:"mc",q:"Was ist die Hauptstadt von Deutschland?",opts:["München","Hamburg","Berlin","Frankfurt"],ans:"Berlin",hint:"هذه المدينة أصبحت العاصمة مجدداً بعد إعادة التوحيد عام 1990."}
+      ]},
+    {id:"deu_r10l12",title:"Im Bordbistro",icon:"🍛",xp:15,board:true,steps:[
+        {type:"intro",title:"Im Bordbistro",desc:"كاريفورست، حروف جر، والمرحلة الأخيرة إلى ميونخ. تعلّم وصف الأماكن، إعطاء الأسباب، وإتمام مفردات السفر.",goals:[
+            "تعلّم حروف الجر: wegen، außerhalb، hinter، pro",
+            "إتقان ظروف المكان: vorn/vorne، dorther",
+            "توسيع المفردات مع warten، Euro، Gebäude، Stadtrat، austragen"
+          ]},
+        {type:"teach",trg:"wegen",pos:"prep",gender:null,src:"بسبب",phonetic:"VAY-gen",example:"A: Warum fährst du mit dem Zug?\nB: Wegen der Umwelt. Züge sind grüner.\nA: Das stimmt. Und es ist auch gemütlich.",exampleSrc:"A: لماذا تسافر بالقطار؟\nB: بسبب البيئة. القطارات أكثر خضرة.\nA: هذا صحيح. وهو مريح أيضاً.",note:"wegen تأخذ حالة الإضافة (المضاف إليه): wegen des Wetters، wegen der Arbeit.",funFact:"Deutsche Bahn تسوّق نفسها كالبديل الأخضر. رحلة قطار واحدة تنتج 80% أقل من CO2 مقارنة بنفس الرحلة بالسيارة."},
+        {type:"teach",trg:"außerhalb",src:"خارج",pos:"prep",gender:null,note:"حرف جر يأخذ حالة الإضافة. außerhalb + مضاف إليه. Außerhalb der Stadt = خارج المدينة.",example:"A: Wo ist die Jugendherberge?\nB: Außerhalb der Innenstadt, etwa zehn Minuten mit dem Bus.\nA: Ist das weit?\nB: Nein, der Bus fährt direkt dorthin.",exampleSrc:"A: أين بيت الشباب؟\nB: خارج وسط المدينة، حوالي عشر دقائق بالحافلة.\nA: هل هذا بعيد؟\nB: لا، الحافلة تذهب مباشرة إلى هناك.",funFact:"außerhalb عكس innerhalb (داخل). كلاهما يأخذ حالة الإضافة. يستخدم الألمان außerhalb مجازياً أيضاً: Das liegt außerhalb meiner Möglichkeiten = هذا خارج إمكانياتي."},
+        {type:"teach",trg:"hinter",pos:"prep",gender:null,src:"خلف",phonetic:"HIN-ter",example:"A: Wo ist das Bordbistro?\nB: Hinter dem Wagen sechs.\nA: Danke! Ich habe Hunger.",exampleSrc:"A: أين بيسترو القطار؟\nB: خلف العربة السادسة.\nA: شكراً! أنا جائع.",note:"hinter + حالة الجر (بدون حركة) أو حالة النصب (مع حركة). Hinter dem Haus = خلف البيت.",funFact:"في الألمانية تسعة حروف جر ثنائية تتبدل بين حالة الجر وحالة النصب. hinter واحد منها."},
+        {type:"teach",trg:"pro",pos:"prep",gender:null,src:"لكل",phonetic:"proh",example:"A: Was kostet die Currywurst?\nB: Fünf Euro pro Stück.\nA: Nicht schlecht! Eine bitte.",exampleSrc:"A: كم سعر الكاريفورست؟\nB: خمسة يورو للقطعة.\nA: ليس سيئاً! واحدة من فضلك.",note:"مثل per في الإنجليزية. تُستخدم مع الأسعار والمعدلات والكميات.",funFact:"كاريفورست في بيسترو القطار تكلف حوالي 5 إلى 7 يورو. على الرصيف أرخص، لكن المنظر ليس بنفس الجمال."},
+        {type:"teach",trg:"vorn, vorne",pos:"adv",gender:null,src:"في المقدمة / أماماً",phonetic:"forn, FOR-nuh",example:"A: Wo sitzt du im Zug?\nB: Ganz vorne, im ersten Wagen.\nA: Ich sitze hinten. Wir treffen uns in der Mitte!",exampleSrc:"A: أين تجلس في القطار؟\nB: في المقدمة تماماً، في العربة الأولى.\nA: أنا أجلس في الخلف. سنلتقي في المنتصف!",note:"vorne هي الصيغة الأطول والأكثر شيوعاً. vorn أقصر، بنفس المعنى. العكس: hinten.",funFact:"في قطارات ICE الألمانية، الدرجة الأولى عادة في المقدمة (vorne). بعض المسافرين يدفعون أكثر فقط من أجل الهدوء في الأمام."},
+        {type:"teach",trg:"austragen",pos:"verb",gender:null,src:"يوزّع / ينفّذ",phonetic:"OWS-trah-gen",example:"A: Mein Bruder trägt Zeitungen aus.\nB: Wirklich? Das ist ein guter Nebenjob.\nA: Ja, er macht das jeden Morgen vor der Schule.",exampleSrc:"A: أخي يوزّع الصحف.\nB: حقاً؟ هذا عمل جانبي جيد.\nA: نعم، يفعل ذلك كل صباح قبل المدرسة.",note:"فعل منفصل: aus + tragen. Er trägt Pakete aus. الماضي: hat ausgetragen.",funFact:"توزيع الصحف (Zeitungsaustragen) هو أول عمل كلاسيكي للمراهقين الألمان، مثل توزيع الصحف في أمريكا."},
+        {type:"tip",title:"Zugkultur: Das Bordbistro",text:"كل قطار ICE فيه Bordbistro (عربة بيسترو) تقدم وجبات ساخنة ووجبات خفيفة ومشروبات.\n\nأصناف شائعة:\n. Currywurst mit Pommes (الكلاسيكي)\n. Brezel mit Butter\n. Radler (بيرة مع عصير ليمون)\n. Kaffee und Kuchen\n\nالبيسترو مكان اجتماعي. الغرباء يتشاركون الطاولات ويتحدثون. إنه من الأماكن القليلة في ألمانيا حيث التحدث مع الغرباء طبيعي تماماً.",deepDive:"DB تقدم أيضاً تطبيقاً يسمى Komfort Check-in حيث يمكنك طلب الطعام إلى مقعدك في الدرجة الأولى. طاقم البيسترو مشهور بسخريته الجافة. إذا تأخر القطار، يعلنون أحياناً: Wir bitten um Entschuldigung. Unser Zug hat sich verlaufen. (نعتذر. قطارنا ضاع.)"},
+        {type:"teach",trg:"warten",pos:"verb",gender:null,src:"ينتظر",note:"تصريف نظامي: ich warte, du wartest. Warten auf + accusative = to wait for.",example:"A: Wie lange wartest du schon?\nB: Schon zwanzig Minuten!\nA: Der Zug hat Verspätung. Typisch.",exampleSrc:"A: كم من الوقت تنتظر؟\nB: عشرون دقيقة بالفعل!\nA: القطار متأخر. كالعادة.",funFact:"warten لها معنى ثانٍ: الصيانة. Das Auto warten تعني صيانة السيارة. السياق يحدد المعنى."},
+        {type:"teach",trg:"der Euro",pos:"noun",gender:"m",src:"اليورو",note:"مذكر. Plural after numbers: Euro (no change). Fünf Euro, nicht fünf Euros.",example:"A: Was kostet das Ticket?\nB: Neunundvierzig Euro.\nA: Das ist günstig für ganz Deutschland!",exampleSrc:"A: كم سعر التذكرة؟\nB: تسعة وأربعون يورو.\nA: هذا رخيص لكل ألمانيا!",funFact:"ألمانيا تبنّت اليورو عام 2002، ليحل محل المارك الألماني. العملات الألمانية تحمل صورة بوابة براندنبورغ أو النسر الألماني أو ورقة بلوط."},
+        {type:"teach",trg:"das Gebäude",pos:"noun",gender:"n",src:"المبنى",note:"محايد. الجمع: die Gebäude. From bauen (to build).",example:"A: Was ist das große Gebäude dort?\nB: Das ist der Hauptbahnhof.\nA: Er ist wirklich beeindruckend!",exampleSrc:"A: ما ذلك المبنى الكبير هناك؟\nB: هذه المحطة المركزية.\nA: إنها مثيرة للإعجاب حقاً!",funFact:"محطة برلين المركزية هي أكبر محطة تقاطع في أوروبا. المبنى الزجاجي والفولاذي يتكون من خمسة مستويات وافتُتح عام 2006."},
+        {type:"teach",trg:"der Stadtrat",pos:"noun",gender:"m",src:"مجلس المدينة",note:"مذكر. مركب من: Stadt (مدينة) + Rat (council/advice).",example:"A: Wer entscheidet über neue Straßen?\nB: Der Stadtrat trifft diese Entscheidungen.\nA: Wie oft trifft sich der Stadtrat?",exampleSrc:"A: من يقرر بشأن الشوارع الجديدة؟\nB: مجلس المدينة يتخذ هذه القرارات.\nA: كم مرة يجتمع مجلس المدينة؟",funFact:"كل مدينة وبلدة ألمانية لديها Stadtrat أو Gemeinderat. الأعضاء يُنتخبون محلياً. اجتماعات البلدية مفتوحة للجمهور."},
+        {type:"teach",trg:"dorther",pos:"adv",gender:null,src:"من هناك",note:"ظرف. Dort (there) + her (toward speaker). Opposite of dorthin.",example:"A: Woher kommt der Zug?\nB: Er kommt dorther, aus Hamburg.\nA: Ah, dann ist er bald hier.",exampleSrc:"A: من أين يأتي القطار؟\nB: يأتي من هناك، من هامبورغ.\nA: آه، إذن سيكون هنا قريباً.",funFact:"الألمانية دقيقة جداً في الاتجاهات. dorthin = إلى هناك (بعيداً). dorther = من هناك (نحوك). الإنجليزية تستخدم فقط there للاثنين."},
+        {type:"mc",q:"Wo ist das Bordbistro? Es ist {blank} dem Wagen sechs.",opts:["hinter","vorne","wegen","pro"],ans:"hinter",hint:"البيسترو يقع خلف العربة السادسة."},
+        {type:"drag_fill",s:"{1} des Wetters fahre ich mit dem Zug. {2} kaufe ich ein Ticket, {3} steige ich ein.",blanks:{"1":"Wegen","2":"Zuerst","3":"dann"},pool:["Wegen","Zuerst","dann","fast","pro"],hint:"بسبب الطقس، أولاً أشتري تذكرة، ثم أصعد.",sSrc:"بسبب الطقس أسافر بالقطار. أولاً أشتري تذكرة، ثم أصعد."},
+        {type:"mc",q:"Verumius bestellt eine Currywurst. Was kostet sie pro Stück?",opts:["Zehn Euro","Drei Euro","Fünf Euro","Sieben Euro"],ans:"Fünf Euro",hint:"تذكّر ما قالته بطاقة التعليم عن أسعار بيسترو القطار."},
+        {type:"fb",s:"Die Jugendherberge liegt {1} der Innenstadt.",a:"außerhalb",opts:["außerhalb","hinter","vorne","wegen"],hint:"حرف جر يعني خارج، ويأخذ حالة الإضافة.",sSrc:"بيت الشباب يقع خارج وسط المدينة."},
+        {type:"match",pairs:[
+            {trg:"wegen",pos:"prep",gender:null,src:"because of"},
+            {trg:"außerhalb",src:"outside of"},
+            {trg:"hinter",pos:"prep",gender:null,src:"behind"},
+            {trg:"pro",pos:"prep",gender:null,src:"per"},
+            {trg:"vorne",src:"at the front"},
+            {trg:"dorther",pos:"adv",gender:null,src:"from there"}
+          ]},
+        {type:"fb",s:"Ich {1} schon zwanzig Minuten auf den Zug.",a:"warte",opts:["warte","fahre","liefere","trage"],hint:"هذا الفعل يعني ينتظر. المتكلم المفرد في المضارع.",sSrc:"أنتظر القطار منذ عشرين دقيقة."},
+        {type:"mc",q:"Was ist das große Gebäude dort? Which word means building?",opts:["Gebäude","Führerschein","Stadtrat","Umzug"],ans:"Gebäude",hint:"اسم محايد مشتق من الفعل bauen (يبني)."},
+        {type:"story",speaker:"narrator",mood:"warm-hopeful",art:"de-munich-arrival",trg:"Die Durchsage: 'München Hauptbahnhof. Endstation. Bitte alle aussteigen.' Verumius nimmt seinen Rucksack und steht auf. München. Eine neue Stadt. Neue Wörter. Neue Geschichten.",src:"الإعلان: 'ميونخ المركزية. المحطة الأخيرة. يرجى النزول من القطار.' فيروميوس يأخذ حقيبة ظهره ويقف. ميونخ. مدينة جديدة. كلمات جديدة. قصص جديدة."},
+        {type:"story",speaker:"lukas",mood:"warm",art:"de-phone-text",trg:"[SMS von Lukas] Und? Hast du es geschafft?",src:"[رسالة من لوكاس] إذن؟ هل نجحت؟"},
+        {type:"story",speaker:"verumius",mood:"proud-quiet",art:"de-phone-text",trg:"Ja. Ich bin angekommen.",src:"نعم. وصلت."}
+      ]}
+  ]};
+
+export default UNIT_10_AR;

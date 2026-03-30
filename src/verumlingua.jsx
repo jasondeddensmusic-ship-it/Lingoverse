@@ -871,13 +871,13 @@ function Home({user,setPage,lang,baseLang="en"}){
       {/* 6 Category buttons — continue-button purple */}
       <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:14,maxWidth:520,margin:"0 auto"}}>
         {[
-          {p:"learn",icon:"books_stack",label:t("home_learn_path",baseLang),desc:"Structured lessons"},
-          {p:"vocabulary",icon:"abc_blocks",label:t("vocab_title",baseLang),desc:"A1 – C2 dictionary"},
-          {p:"grammar",icon:"clipboard",label:t("grammar_title",baseLang),desc:"A1 – C2 rules"},
-          {p:"idioms",icon:"chat_bubbles",label:t("idioms_title",baseLang),desc:"A1 – C2 expressions"},
-          {p:"cefr-reference",icon:"globe",label:"CEFR Reference",desc:"Official word lists"},
-          {p:"curriculum",icon:"brain",label:"Curriculum",desc:"Personal path"},
-          {p:"quiz",icon:"checkmark_green",label:t("home_quiz",baseLang),desc:"Test your knowledge"},
+          {p:"learn",icon:"books_stack",label:t("home_learn_path",baseLang),desc:t("home_structured",baseLang)},
+          {p:"vocabulary",icon:"abc_blocks",label:t("vocab_title",baseLang),desc:t("home_dict_desc",baseLang)},
+          {p:"grammar",icon:"clipboard",label:t("grammar_title",baseLang),desc:t("home_grammar_desc",baseLang)},
+          {p:"idioms",icon:"chat_bubbles",label:t("idioms_title",baseLang),desc:t("home_idioms_desc",baseLang)},
+          {p:"cefr-reference",icon:"globe",label:t("home_cefr_ref",baseLang),desc:t("home_official_lists",baseLang)},
+          {p:"curriculum",icon:"brain",label:t("home_curriculum",baseLang),desc:t("home_personal_path",baseLang)},
+          {p:"quiz",icon:"checkmark_green",label:t("home_quiz",baseLang),desc:t("home_test_knowledge",baseLang)},
         ].map(c=>{
           const restShadow="0 5px 16px rgba(85,53,181,0.35), 0 2px 4px rgba(0,0,0,0.08), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -3px 0 rgba(0,0,0,0.18)";
           const hoverShadow="0 10px 28px rgba(85,53,181,0.45), 0 0 16px rgba(123,94,232,0.15), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)";
@@ -896,8 +896,8 @@ function Home({user,setPage,lang,baseLang="en"}){
       <div style={{marginTop:28,textAlign:"center"}}>
         <div className="gloss" style={{display:"inline-flex",gap:16,background:"var(--card-bg)",borderRadius:16,padding:"12px 24px",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)"}}>
           <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="lightning_bolt" size={16}/><strong style={{color:"var(--gray-800)"}}>{user.xp} XP</strong></span>
-          <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="flame" size={16}/><strong style={{color:"var(--gray-800)"}}>{user.streak} day</strong></span>
-          <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="brain" size={16}/><strong style={{color:"var(--gray-800)"}}>{user.wl} words</strong></span>
+          <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="flame" size={16}/><strong style={{color:"var(--gray-800)"}}>{user.streak} {t("home_day",baseLang)}</strong></span>
+          <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="brain" size={16}/><strong style={{color:"var(--gray-800)"}}>{user.wl} {t("home_words",baseLang)}</strong></span>
           {(()=>{const cefr=getUserCefr(user,lang);return <span style={{fontSize:13,color:"var(--gray-500)",display:"flex",alignItems:"center",gap:4}}><AppIcon name="star" size={16}/><strong style={{color:"var(--gray-800)"}}>{cefr.level}</strong></span>;})()}
         </div>
       </div>
@@ -1153,13 +1153,13 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
     return(
       <div className="anim" style={{textAlign:"center",paddingTop:24}}>
         <div style={{fontSize:48,marginBottom:16}}>✅</div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6}}>Quiz Yourself</h2>
-        <p style={{color:"var(--gray-400)",fontSize:14,marginBottom:28,lineHeight:1.6}}>Test what you've learned. Pick your challenge.</p>
+        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6}}>{t("quiz_yourself",baseLang)}</h2>
+        <p style={{color:"var(--gray-400)",fontSize:14,marginBottom:28,lineHeight:1.6}}>{t("quiz_desc",baseLang)}</p>
 
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:14,maxWidth:420,margin:"0 auto 28px"}}>
           {[
-            {id:"lesson",label:"Lesson Review",desc:completedLessons>0?`${lessonQCount} questions from ${completedLessons} lessons`:"Complete lessons first",icon:"📚",disabled:completedLessons===0},
-            {id:"vocab",label:"Vocab Challenge",desc:learnedCount>=4?`${learnedCount} words learned`:"Learn more words first",icon:"📖",disabled:learnedCount<4&&vocab.length<4},
+            {id:"lesson",label:t("quiz_lesson_review",baseLang),desc:completedLessons>0?`${lessonQCount} ${t("quiz_questions_from",baseLang)} ${completedLessons} ${t("quiz_lessons",baseLang)}`:t("quiz_complete_first",baseLang),icon:"📚",disabled:completedLessons===0},
+            {id:"vocab",label:t("quiz_vocab_challenge",baseLang),desc:learnedCount>=4?`${learnedCount} ${t("quiz_words_learned",baseLang)}`:t("quiz_learn_more",baseLang),icon:"📖",disabled:learnedCount<4&&vocab.length<4},
           ].map(m=>{
             const active=qMode===m.id;
             const restShadow=active?"0 5px 16px rgba(85,53,181,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 3px 10px rgba(0,0,0,0.08), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -2px 0 rgba(0,0,0,0.04)";
@@ -1188,7 +1188,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
         }} onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.05)";e.currentTarget.style.filter="brightness(1.1)";}}
            onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";}}>
           <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"44%",borderRadius:"0 0 48% 48%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, transparent 100%)",pointerEvents:"none"}}/>
-          <span style={{position:"relative",zIndex:1}}>Start Quiz →</span>
+          <span style={{position:"relative",zIndex:1}}>{t("quiz_start_btn",baseLang)}</span>
         </button>
       </div>
     );
@@ -1201,7 +1201,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
       <div className="anim" style={{textAlign:"center",paddingTop:40}}>
         <Confetti active={pct>=80}/>
         <div style={{fontSize:64,marginBottom:12}}>{pct===100?<AppIcon name="trophy" size={72}/>:pct>=80?<AppIcon name="star" size={72}/>:pct>=60?<AppIcon name="hand_wave" size={72}/>:<AppIcon name="books_stack" size={72}/>}</div>
-        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:8}}>{pct===100?"Perfect!":"Quiz Complete!"}</h2>
+        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:8}}>{pct===100?t("quiz_perfect",baseLang):t("quiz_complete",baseLang)}</h2>
         <ScoreCircle percentage={pct} size={90}/>
         <p style={{fontSize:14,color:"var(--gray-400)",marginTop:12,marginBottom:4}}>{score}/{qs.length} correct</p>
         <p style={{color:"var(--gold)",fontSize:16,fontWeight:700,marginBottom:28}}>+{score*8} XP</p>
@@ -1212,7 +1212,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
             background:"linear-gradient(180deg, #C0AEF8 0%, #A488F0 15%, #8B6AE4 35%, #7B5EE8 50%, #6545C8 75%, #5840B8 90%, #4A2BA6 100%)",
             boxShadow:"0 4px 14px rgba(85,53,181,0.4), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.15)",
             position:"relative",overflow:"hidden",
-          }}><div style={{position:"absolute",top:0,left:"8%",right:"8%",height:"40%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, transparent 100%)",pointerEvents:"none"}}/><span style={{position:"relative",zIndex:1}}>Try Again</span></button>
+          }}><div style={{position:"absolute",top:0,left:"8%",right:"8%",height:"40%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, transparent 100%)",pointerEvents:"none"}}/><span style={{position:"relative",zIndex:1}}>{t("quiz_try_again",baseLang)}</span></button>
         </div>
       </div>
     );
@@ -1232,7 +1232,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
       {/* Header */}
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
         <div>
-          <h2 className="hd" style={{fontSize:18,fontWeight:800}}>{qMode==="lesson"?"Lesson Review":"Vocab Challenge"}</h2>
+          <h2 className="hd" style={{fontSize:18,fontWeight:800}}>{qMode==="lesson"?t("quiz_lesson_review",baseLang):t("quiz_vocab_challenge",baseLang)}</h2>
           <p style={{color:"var(--gray-400)",fontSize:12}}>{qi+1} / {qs.length}</p>
         </div>
         <span style={{padding:"6px 14px",borderRadius:12,background:dk?"rgba(46,205,158,0.15)":"rgba(46,205,158,0.08)",color:"var(--teal)",fontWeight:800,fontSize:13}}>{score}/{qi+(answered?1:0)}</span>
@@ -1248,7 +1248,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
       <div style={{maxWidth:500,margin:"0 auto"}}>
         {/* Question card — board style, matches lesson engine */}
         <div style={{background:"var(--card-bg)",borderRadius:20,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",padding:"22px 26px",marginBottom:18,textAlign:"center",...glass}}>
-          {q.isVocab&&<div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2,marginBottom:10,fontWeight:700}}>Translate this word</div>}
+          {q.isVocab&&<div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2,marginBottom:10,fontWeight:700}}>{t("quiz_translate",baseLang)}</div>}
           <div className="hd" style={{fontSize:q.isVocab?28:19,fontWeight:q.isVocab?800:700,lineHeight:1.5,color:"var(--gray-800)"}}>{q.q}</div>
           {q.hint&&!showHint&&!answered&&<div style={{marginTop:8}}><button onClick={()=>setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>Need a hint?</button></div>}
           {showHint&&q.hint&&!answered&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4,display:"flex",alignItems:"flex-start",gap:6}}><AppIcon name="lightbulb" size={30}/><span>{q.hint}</span></div>}
@@ -1343,16 +1343,16 @@ IMPORTANT: Respond ONLY with valid JSON.`;
     <div className="anim">
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:16}}>
         <div>
-          <h2 className="hd" style={{fontSize:24,fontWeight:800,display:"flex",alignItems:"center",gap:8}}><AppIcon name="robot" size={28}/>Chat with Nova</h2>
-          <p style={{color:"var(--gray-400)",fontSize:13}}>AI language partner · {L?.native} <CountryFlag code={lang} size={14}/> <span style={{marginLeft:6,color:"var(--purple-accent-text)",fontWeight:700,fontSize:11}}>POWERED BY CLAUDE</span></p>
+          <h2 className="hd" style={{fontSize:24,fontWeight:800,display:"flex",alignItems:"center",gap:8}}><AppIcon name="robot" size={28}/>{t("chat_title",baseLang)}</h2>
+          <p style={{color:"var(--gray-400)",fontSize:13}}>{t("chat_ai_partner",baseLang)} · {L?.native} <CountryFlag code={lang} size={14}/> <span style={{marginLeft:6,color:"var(--purple-accent-text)",fontWeight:700,fontSize:11}}>{t("chat_powered_by",baseLang)}</span></p>
         </div>
-        <span className="badge badge-gold">+3 XP / msg</span>
+        <span className="badge badge-gold">{t("chat_xp_msg",baseLang)}</span>
       </div>
 
       <div style={{display:"flex",gap:6,marginBottom:14}}>
         {["beginner","intermediate","advanced"].map(lv=>(
           <button key={lv} className={`btn ${userProfile.level===lv?"btn-blue":"btn-outline"}`} style={{fontSize:11,padding:"5px 12px",textTransform:"capitalize"}} onClick={()=>setUserProfile(p=>({...p,level:lv}))}>
-            {lv==="beginner"?"🌱":lv==="intermediate"?"🌿":"🌳"} {lv}
+            {lv==="beginner"?"🌱":lv==="intermediate"?"🌿":"🌳"} {t(lv==="beginner"?"chat_beginner":lv==="intermediate"?"chat_intermediate":"chat_advanced",baseLang)}
           </button>
         ))}
       </div>
@@ -1362,8 +1362,8 @@ IMPORTANT: Respond ONLY with valid JSON.`;
           {msgs.length===0&&!typing&&(
             <div style={{textAlign:"center",padding:"36px 20px"}}>
               <div style={{marginBottom:10}}><AppIcon name="robot" size={52}/></div>
-              <h3 className="hd" style={{fontWeight:700,marginBottom:6,fontSize:18}}>Meet Nova</h3>
-              <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:18}}>Your AI tutor powered by Claude. Nova corrects mistakes and adapts to your level.</p>
+              <h3 className="hd" style={{fontWeight:700,marginBottom:6,fontSize:18}}>{t("chat_meet_nova",baseLang)}</h3>
+              <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:18}}>{t("chat_nova_desc",baseLang)}</p>
               <div style={{display:"flex",flexDirection:"column",gap:6,maxWidth:300,margin:"0 auto"}}>
                 {starters.map((s,i)=><div key={i} className="chat-starter" onClick={()=>send(s)}>{s}</div>)}
               </div>
@@ -1372,9 +1372,9 @@ IMPORTANT: Respond ONLY with valid JSON.`;
           {msgs.map((m,i)=>(
             <div key={i} style={{animation:"fadeUp 0.3s ease"}}>
               <div className={`chat-bub ${m.type==="ai"?"ai":"user"}`}>
-                {m.type==="ai"&&<span style={{fontWeight:700,color:"var(--blue)"}}>Nova: </span>}{m.text}
+                {m.type==="ai"&&<span style={{fontWeight:700,color:"var(--blue)"}}>{t("chat_nova",baseLang)}: </span>}{m.text}
               </div>
-              {m.hint&&<div className="chat-hint"><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/> <strong>Tip:</strong> {m.hint}</div>}
+              {m.hint&&<div className="chat-hint"><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/> <strong>{t("chat_tip",baseLang)}</strong> {m.hint}</div>}
               {m.newWords&&m.newWords.length>0&&(
                 <div style={{display:"flex",gap:5,marginTop:5,flexWrap:"wrap"}}>
                   {m.newWords.map((w,j)=><span key={j} className="chat-nw">✨ {w}</span>)}
@@ -1384,8 +1384,8 @@ IMPORTANT: Respond ONLY with valid JSON.`;
           ))}
           {typing&&(
             <div className="chat-bub ai" style={{display:"flex",alignItems:"center",gap:6}}>
-              <span style={{fontWeight:700,color:"var(--blue)"}}>Nova</span>
-              <span style={{color:"var(--gray-400)"}}>is thinking</span>
+              <span style={{fontWeight:700,color:"var(--blue)"}}>{t("chat_nova",baseLang)}</span>
+              <span style={{color:"var(--gray-400)"}}>{t("chat_thinking",baseLang)}</span>
               <span style={{display:"inline-flex",gap:3}}>{[0,1,2].map(i=><span key={i} style={{width:5,height:5,borderRadius:"50%",background:"var(--blue)",animation:`pulse 1s infinite ${i*0.2}s`}}/>)}</span>
             </div>
           )}
@@ -1394,7 +1394,7 @@ IMPORTANT: Respond ONLY with valid JSON.`;
         </div>
         <div className="chat-bar">
           <input className="chat-input" value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&!typing&&send(input)} placeholder={`${t("le_type_in",baseLang)} ${L?.name||"any language"}...`} disabled={typing}/>
-          <button className="btn btn-blue" onClick={()=>send(input)} disabled={typing} style={{opacity:typing?.5:1}}>{typing?"...":"Send"}</button>
+          <button className="btn btn-blue" onClick={()=>send(input)} disabled={typing} style={{opacity:typing?.5:1}}>{typing?"...":t("chat_send",baseLang)}</button>
         </div>
       </div>
     </div>
@@ -2018,7 +2018,7 @@ function GrammarPage({lang,baseLang="en"}){
       </div>
 
       <div style={{textAlign:"center",marginBottom:20}}>
-        <span style={{fontSize:13,color:"var(--gray-400)",fontWeight:600}}>{levelNames[openLevel]} · {rules.length} topics</span>
+        <span style={{fontSize:13,color:"var(--gray-400)",fontWeight:600}}>{levelNames[openLevel]} · {rules.length} {t("grammar_topics",baseLang)}</span>
       </div>
 
       {/* Grammar rules — expandable textbook cards */}
@@ -2046,24 +2046,24 @@ function GrammarPage({lang,baseLang="en"}){
                   <div style={{flex:1,minWidth:140,background:ARTICLE_COLORS.de.pill,borderRadius:14,padding:"14px 18px",border:`2px solid ${ARTICLE_COLORS.de.pillText}25`}}>
                     <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
                       <span style={{display:"inline-block",background:ARTICLE_COLORS.de.bg,color:"#fff",fontWeight:800,fontSize:16,borderRadius:8,padding:"4px 14px",boxShadow:`0 3px 10px ${ARTICLE_COLORS.de.shadow}`}}>de</span>
-                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.de.pillText}}>Common gender</span>
+                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.de.pillText}}>{t("grammar_common",baseLang)}</span>
                     </div>
-                    <div style={{fontSize:12,color:ARTICLE_COLORS.de.pillText,opacity:0.8}}>≈ 75% of nouns</div>
+                    <div style={{fontSize:12,color:ARTICLE_COLORS.de.pillText,opacity:0.8}}>≈ 75% {t("grammar_pct_nouns",baseLang)}</div>
                     <div style={{fontSize:12,color:"var(--gray-500)",marginTop:6}}>de man · de vrouw · de tafel · de school</div>
                   </div>
                   <div style={{flex:1,minWidth:140,background:ARTICLE_COLORS.het.pill,borderRadius:14,padding:"14px 18px",border:`2px solid ${ARTICLE_COLORS.het.pillText}25`}}>
                     <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
                       <span style={{display:"inline-block",background:ARTICLE_COLORS.het.bg,color:"#fff",fontWeight:800,fontSize:16,borderRadius:8,padding:"4px 14px",boxShadow:`0 3px 10px ${ARTICLE_COLORS.het.shadow}`}}>het</span>
-                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.het.pillText}}>Neuter gender</span>
+                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.het.pillText}}>{t("grammar_neuter",baseLang)}</span>
                     </div>
-                    <div style={{fontSize:12,color:ARTICLE_COLORS.het.pillText,opacity:0.8}}>≈ 25% of nouns</div>
+                    <div style={{fontSize:12,color:ARTICLE_COLORS.het.pillText,opacity:0.8}}>≈ 25% {t("grammar_pct_nouns",baseLang)}</div>
                     <div style={{fontSize:12,color:"var(--gray-500)",marginTop:6}}>het huis · het kind · het boek · het water</div>
                   </div>
                 </div>}
 
                 {/* Rules box */}
                 {r.rules&&<div style={{background:"linear-gradient(145deg, #F8F9FC, #F4F6FA)",borderRadius:14,padding:"16px 18px",marginBottom:16,border:"1.5px solid rgba(255,255,255,0.55)"}}>
-                  <div style={{fontSize:11,fontWeight:700,color:levelColors[openLevel],textTransform:"uppercase",letterSpacing:1.5,marginBottom:10}}>📋 Rules</div>
+                  <div style={{fontSize:11,fontWeight:700,color:levelColors[openLevel],textTransform:"uppercase",letterSpacing:1.5,marginBottom:10}}>📋 {t("grammar_rules",baseLang)}</div>
                   {r.rules.map((rule,j)=>{
                     if(rule==="")return <div key={j} style={{height:8}}/>;
                     const isHeader=/^[A-Z\s'""→—:()0-9]+$/.test(rule)||/^[A-Z].{0,40}:$/.test(rule);
@@ -2091,7 +2091,7 @@ function GrammarPage({lang,baseLang="en"}){
 
                 {/* Examples box */}
                 {r.examples&&<div style={{background:"var(--gold-bg-light)",borderRadius:14,padding:"16px 18px",border:"1.5px solid rgba(245,166,35,0.15)"}}>
-                  <div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:10}}>💬 Examples</div>
+                  <div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:10}}>💬 {t("grammar_examples",baseLang)}</div>
                   {r.examples.map((ex,j)=>{
                     const isArticleTopic=r.title.includes("De vs Het")||r.title.includes("Articles");
                     // Apply rich text + article coloring
@@ -2200,15 +2200,15 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
       {/* Action buttons row */}
       <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:20}}>
         <button role="button" onClick={()=>setShowAchievements(true)} className="ghost-tile" style={{padding:"16px",borderRadius:18,border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.12)",background:dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)",cursor:"pointer",fontFamily:"inherit",display:"flex",alignItems:"center",justifyContent:"center",gap:8,transition:"transform 0.15s, box-shadow 0.15s, filter 0.15s, background 0.2s",boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.8)"}}>
-          <AppIcon name="crown" size={22}/><span style={{fontSize:14,fontWeight:700,color:"var(--gray-700)"}}>Achievements</span>
+          <AppIcon name="crown" size={22}/><span style={{fontSize:14,fontWeight:700,color:"var(--gray-700)"}}>{t("prof_achievements_btn",baseLang)}</span>
         </button>
         <button role="button" onClick={()=>setShowManifesto(true)} className="ghost-tile" style={{padding:"16px",borderRadius:18,border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.12)",background:dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)",cursor:"pointer",fontFamily:"inherit",display:"flex",alignItems:"center",justifyContent:"center",gap:8,transition:"transform 0.15s, box-shadow 0.15s, filter 0.15s, background 0.2s",boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.8)"}}>
-          <AppIcon name="clipboard" size={22}/><span style={{fontSize:14,fontWeight:700,color:"var(--gray-700)"}}>Manifesto</span>
+          <AppIcon name="clipboard" size={22}/><span style={{fontSize:14,fontWeight:700,color:"var(--gray-700)"}}>{t("prof_manifesto_btn",baseLang)}</span>
         </button>
       </div>
 
       {/* Achievements popup */}
-      {showAchievements&&<GlossyPopup title="Achievements" onClose={()=>setShowAchievements(false)}>
+      {showAchievements&&<GlossyPopup title={t("prof_achievements_btn",baseLang)} onClose={()=>setShowAchievements(false)}>
         <div style={{display:"flex",flexDirection:"column",gap:10}}>
           {ACHS.map(a=>{
             const ul=user.achs.includes(a.id);
@@ -2225,11 +2225,11 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
       </GlossyPopup>}
 
       {/* Manifesto popup */}
-      {showManifesto&&<GlossyPopup title="LingoVerse Manifesto" onClose={()=>setShowManifesto(false)}>
+      {showManifesto&&<GlossyPopup title={t("prof_manifesto_title",baseLang)} onClose={()=>setShowManifesto(false)}>
         <div style={{fontSize:13,lineHeight:1.8,color:"var(--gray-600)"}}>
-          <p style={{fontWeight:700,color:"var(--gray-800)",marginBottom:12}}>LingoVerse is a self-sustaining multilingual AI learning ecosystem.</p>
-          {["Foundations First Doctrine","Universal Literacy Principle","Meaning-Centric Architecture","Cultural Authenticity","Self-Improving System","Personalized AI Curriculum Layer"].map((title,i)=>
-            <div key={i} style={{marginBottom:12}}><div style={{fontWeight:700,color:"var(--purple-accent-text)",marginBottom:2}}>{i+1}) {title}</div></div>
+          <p style={{fontWeight:700,color:"var(--gray-800)",marginBottom:12}}>{t("prof_manifesto_intro",baseLang)}</p>
+          {["prof_p1","prof_p2","prof_p3","prof_p4","prof_p5","prof_p6"].map((key,i)=>
+            <div key={i} style={{marginBottom:12}}><div style={{fontWeight:700,color:"var(--purple-accent-text)",marginBottom:2}}>{i+1}) {t(key,baseLang)}</div></div>
           )}
         </div>
       </GlossyPopup>}
@@ -2250,7 +2250,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags}){
       </div>
 
       {/* Logout */}
-      <div style={{textAlign:"center",paddingTop:16,borderTop:dk?"2px solid rgba(123,94,232,0.15)":"2px solid rgba(123,94,232,0.06)"}}><button onClick={onLogout} style={{fontSize:14,padding:"12px 32px",borderRadius:14,border:"2px solid var(--coral)",background:"var(--card-bg)",color:"var(--coral)",fontWeight:700,cursor:"pointer",fontFamily:"inherit"}}>Log out</button></div>
+      <div style={{textAlign:"center",paddingTop:16,borderTop:dk?"2px solid rgba(123,94,232,0.15)":"2px solid rgba(123,94,232,0.06)"}}><button onClick={onLogout} style={{fontSize:14,padding:"12px 32px",borderRadius:14,border:"2px solid var(--coral)",background:"var(--card-bg)",color:"var(--coral)",fontWeight:700,cursor:"pointer",fontFamily:"inherit"}}>{t("profile_logout",baseLang)}</button></div>
     </div>
   );
 }
@@ -2887,13 +2887,13 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       {expanded && typeof expanded === "object" && createPortal(<WordPopup/>, document.body)}
       {/* ── Header ── */}
       <div style={{textAlign:"center",marginBottom:20}}>
-        <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4,fontFamily:"Quicksand, sans-serif"}}>Vocabulary</h2>
-        <p style={{color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontSize:13}}>{allWords.length} words</p>
+        <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4,fontFamily:"Quicksand, sans-serif"}}>{t("vocab_title",baseLang)}</h2>
+        <p style={{color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",fontSize:13}}>{allWords.length} {t("home_words",baseLang)}</p>
       </div>
 
       {/* ── Mode tabs ── */}
       <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:20,flexWrap:"wrap"}}>
-        {[{id:"search",label:"Search"},{id:"browse",label:"Browse"},{id:"review",label:"Review"},...(lang==="ko"?[{id:"grammar",label:"Grammar"}]:[])].map(tab=>(
+        {[{id:"search",label:t("vocab_search_tab",baseLang)},{id:"browse",label:t("vocab_browse",baseLang)},{id:"review",label:t("vocab_review",baseLang)},...(lang==="ko"?[{id:"grammar",label:t("vocab_grammar_tab",baseLang)}]:[])].map(tab=>(
           <button key={tab.id} onClick={()=>{setMode(tab.id);setExpanded(null);setBrowsePath([]);}}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.filter="brightness(1.18)";e.currentTarget.style.boxShadow=mode===tab.id?"0 0 32px rgba(123,94,232,0.7), 0 8px 24px rgba(85,53,181,0.6), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)":"0 0 20px rgba(123,94,232,0.3), 0 6px 18px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.9), inset 0 -3px 0 rgba(0,0,0,0.08)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.filter="none";e.currentTarget.style.boxShadow="";}}
@@ -2913,7 +2913,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:glossArc,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
           <div style={{display:"flex",alignItems:"center",gap:9,padding:"11px 13px",background:dk?"rgba(255,255,255,0.07)":"rgba(255,255,255,0.22)",borderRadius:20,position:"relative",zIndex:1}}>
             <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke={dk?"rgba(200,184,255,0.65)":"rgba(130,115,175,0.65)"} strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-            <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder="Search any word or phrase..." style={{flex:1,border:"none",outline:"none",background:"transparent",fontSize:14,fontFamily:"'Nunito','DM Sans',system-ui,sans-serif",fontWeight:600,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",caretColor:"#7B5EE8",minWidth:0}}/>
+            <input ref={searchRef} value={search} onChange={e=>{setSearch(e.target.value);setExpanded(null);}} placeholder={t("vocab_search_ph",baseLang)} style={{flex:1,border:"none",outline:"none",background:"transparent",fontSize:14,fontFamily:"'Nunito','DM Sans',system-ui,sans-serif",fontWeight:600,color:dk?"rgba(255,255,255,0.9)":"var(--gray-800)",caretColor:"#7B5EE8",minWidth:0}}/>
             {search&&<span onClick={()=>{setSearch("");searchRef.current?.focus();}} style={{cursor:"pointer",fontSize:14,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.75)",padding:"0 4px"}}>&#10005;</span>}
           </div>
         </div>
@@ -2921,7 +2921,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         {/* Grammar color toggle + Filter bar + count */}
         <div style={{display:"flex",gap:8,marginBottom:14,alignItems:"center"}}>
           {/* Aa grammar colorizer toggle — same as lesson engine */}
-          <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?"Grammar Colors ON":"Grammar Colors OFF"}
+          <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?`${t("vocab_grammar_colors",baseLang)} ON`:`${t("vocab_grammar_colors",baseLang)} OFF`}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}
             style={{
@@ -2932,7 +2932,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               color:grammarHl?(dk?"#B8A8FA":"#7B5EE8"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
             }}>Aa</button>
           {/* Gear icon — opens grammar settings */}
-          {grammarHl&&<button onClick={()=>setShowGrammarSettings(!showGrammarSettings)} title="Color settings"
+          {grammarHl&&<button onClick={()=>setShowGrammarSettings(!showGrammarSettings)} title={t("vocab_color_settings",baseLang)}
             onMouseEnter={e=>{e.currentTarget.style.opacity="0.8";}}
             onMouseLeave={e=>{e.currentTarget.style.opacity="1";}}
             style={{
@@ -2955,17 +2955,17 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               boxShadow:filterOpen||hasActiveFilters?(dk?"0 0 24px rgba(123,94,232,0.6), 0 6px 20px rgba(85,53,181,0.55), inset 0 2px 0 rgba(255,255,255,0.45), inset 0 -4px 0 rgba(0,0,0,0.22)":"0 0 20px rgba(123,94,232,0.5), 0 6px 20px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.18)"):(dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"),
             }}>
             <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:filterOpen||hasActiveFilters?"linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.25) 35%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
-            <span style={{position:"relative",zIndex:1}}>Filters {hasActiveFilters?"*":""}</span>
+            <span style={{position:"relative",zIndex:1}}>{t("vocab_filters",baseLang)} {hasActiveFilters?"*":""}</span>
           </button>
           {hasActiveFilters&&<button onClick={()=>{setFilterPOS(new Set());setFilterLevel(new Set());setFilterGender(new Set());setFilterTaughtOnly(false);}}
             onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1) translateY(-3px)";e.currentTarget.style.background=dk?"linear-gradient(180deg,#FFB0B0 0%,#FF8888 8%,#FF6B6B 20%,#F56565 38%,#E04848 55%,#D04444 72%,#B83333 88%,#A02828 100%)":"linear-gradient(180deg,#FFA8A8 0%,#FF8888 10%,#FF6B6B 22%,#F56565 40%,#E04848 58%,#D04444 75%,#B83333 90%,#A02828 100%)";e.currentTarget.style.color="white";e.currentTarget.style.boxShadow="0 0 24px rgba(245,101,101,0.55), 0 6px 20px rgba(220,60,60,0.45), inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -4px 0 rgba(0,0,0,0.2)";e.currentTarget.style.textShadow="0 1px 3px rgba(0,0,0,0.3), 0 0 8px rgba(255,255,255,0.15)";}}
             onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";e.currentTarget.style.background=dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)";e.currentTarget.style.color=dk?"rgba(200,184,255,0.95)":"#6030C0";e.currentTarget.style.boxShadow=dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)";e.currentTarget.style.textShadow="none";}}
             style={{padding:"8px 18px",borderRadius:16,border:"none",cursor:"pointer",fontSize:11,fontWeight:900,fontFamily:"Quicksand, sans-serif",transition:"all .3s cubic-bezier(.4,0,.2,1)",position:"relative",overflow:"hidden",letterSpacing:0.3,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.1) 40%, rgba(255,255,255,0.04) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 15%, #F0ECFF 40%, #E8E0FF 70%, #DDD5FA 100%)",color:dk?"rgba(200,184,255,0.95)":"#6030C0",boxShadow:dk?"0 3px 10px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.15), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 3px 12px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.95), inset 0 -3px 0 rgba(112,80,216,0.08), 0 0 0 1px rgba(168,144,255,0.22)"}}>
             <span style={{position:"absolute",top:0,left:"6%",right:"6%",height:"48%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 45%, transparent 100%)",borderRadius:"0 0 48% 48%",pointerEvents:"none"}}/>
-            <span style={{position:"relative",zIndex:1}}>Clear all</span>
+            <span style={{position:"relative",zIndex:1}}>{t("vocab_clear_all",baseLang)}</span>
           </button>}
           <span style={{flex:1}}/>
-          <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} word{filteredWords.length!==1?"s":""}</span>
+          <span style={{fontSize:12,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>{filteredWords.length} {t("vocab_word",baseLang)}{filteredWords.length!==1?"s":""}</span>
         </div>
 
         {/* Grammar settings panel — copied from lesson engine, VerumLingua candy gloss */}
@@ -2998,7 +2998,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             }}/>
             {isMobile&&<div style={{width:40,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.5)",margin:"0 auto 16px",position:"relative",zIndex:2}}/>}
             <div style={{fontSize:13,fontWeight:800,color:dk?"rgba(200,190,240,0.7)":"rgba(80,60,140,0.7)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:14,position:"relative",zIndex:2}}>
-              {langPacks.label} Grammar Colors
+              {langPacks.label} {t("vocab_grammar_colors",baseLang)}
             </div>
             {/* Tab strip — candy pills */}
             <div style={{display:"flex",gap:8,overflowX:"auto",paddingBottom:14,WebkitOverflowScrolling:"touch",position:"relative",zIndex:2}}>
@@ -3103,7 +3103,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
                   transition:"all .15s",
                 }}>
                   <span style={{fontSize:13}}>{grammarEditMode?"✓":"✏️"}</span>
-                  {grammarEditMode?"Done":"Edit"}
+                  {grammarEditMode?t("vocab_done",baseLang):t("vocab_edit",baseLang)}
                 </button>
               </div>
             </div>}
@@ -3170,7 +3170,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
       {mode==="browse"&&<div>
         {/* Level 1: Single letters — candy gradient pills */}
         {browsePath.length===0&&<div>
-          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:14,textAlign:"center"}}>Choose a starting letter</div>
+          <div style={{fontSize:12,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"var(--gray-400)",marginBottom:14,textAlign:"center"}}>{t("vocab_choose_letter",baseLang)}</div>
           <div style={{display:"flex",flexWrap:"wrap",gap:10,justifyContent:"center"}}>
             {browseLetters.map(l=><button key={l} onClick={()=>setBrowsePath([l])}
               onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.08) translateY(-2px)";e.currentTarget.style.filter="brightness(1.15)";e.currentTarget.style.boxShadow="0 0 24px rgba(123,94,232,0.5), 0 8px 20px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)";}}
@@ -3269,7 +3269,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         {reviewWords.length===0?
           <div style={{textAlign:"center",padding:40,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)"}}>
             <div style={{fontSize:14,fontWeight:600}}>No taught words yet</div>
-            <div style={{fontSize:12,marginTop:4}}>Complete lessons to unlock review cards</div>
+            <div style={{fontSize:12,marginTop:4}}>{t("vocab_complete_lessons",baseLang)}</div>
           </div>
         :
           <div>
@@ -3359,7 +3359,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         const ref=KOREAN_GRAMMAR_REFERENCE||[];
         const levels=["A1","A2","B1","B2"];
         const cats=["All",...GRAMMAR_CATEGORIES];
-        const polLevels=[{id:"all",label:"All"},{id:"formal",label:"Formal"},{id:"polite",label:"Polite"},{id:"casual",label:"Casual"},{id:"written",label:"Written"}];
+        const polLevels=[{id:"all",label:t("misc_all",baseLang)},{id:"formal",label:t("misc_formal",baseLang)},{id:"polite",label:t("misc_polite",baseLang)},{id:"casual",label:t("misc_casual",baseLang)},{id:"written",label:t("misc_written",baseLang)}];
         const q=gramSearch.toLowerCase().trim();
         const filtered=ref.filter(p=>{
           if(!(p.level||"A1").startsWith(gramLevel))return false;
@@ -4016,8 +4016,8 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
         <div style={{width:88,height:88,borderRadius:24,margin:"0 auto 20px",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0 8px 32px rgba(123,94,232,0.3)",overflow:"hidden"}}>
           <CountryFlag code={lang} size={60}/>
         </div>
-        <h1 className="hd" style={{fontSize:32,fontWeight:800,marginBottom:6,background:"linear-gradient(135deg,#7B5EE8,#A890FF)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Welcome!</h1>
-        <p style={{color:"var(--gray-500)",fontSize:15,lineHeight:1.6,maxWidth:340,margin:"0 auto 32px"}}>Sign in to track your progress across devices, or create a new account to get started.</p>
+        <h1 className="hd" style={{fontSize:32,fontWeight:800,marginBottom:6,background:"linear-gradient(135deg,#7B5EE8,#A890FF)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>{t("auth_welcome",baseLang)}</h1>
+        <p style={{color:"var(--gray-500)",fontSize:15,lineHeight:1.6,maxWidth:340,margin:"0 auto 32px"}}>{t("auth_sign_in_desc",baseLang)}</p>
         <div style={{display:"flex",flexDirection:"column",gap:10,maxWidth:280,margin:"0 auto"}}>
           <button className="btn btn-blue" style={{fontSize:16,padding:"15px 0",borderRadius:16,width:"100%"}} onClick={()=>setMode("login")}>{t("auth_sign_in_btn",baseLang)}</button>
           <button className="btn btn-outline" style={{fontSize:15,padding:"14px 0",borderRadius:16,width:"100%"}} onClick={()=>setMode("create")}>{t("auth_create_account",baseLang)} ✨</button>
@@ -4032,7 +4032,7 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
         <button onClick={()=>{setMode("welcome");setError("");}} style={{position:"absolute",top:16,left:16,background:"none",border:"none",fontSize:18,cursor:"pointer",color:"var(--gray-400)"}}>←</button>
         <div style={{width:64,height:64,borderRadius:18,margin:"0 auto 16px",background:"linear-gradient(135deg,#7B5EE8,#A890FF)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:28,boxShadow:"0 6px 24px rgba(123,94,232,0.25)"}}>🔐</div>
         <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4}}>{t("auth_sign_in",baseLang)}</h2>
-        <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:24}}>Welcome back, language explorer!</p>
+        <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:24}}>{t("auth_welcome_back",baseLang)}</p>
         <div style={{maxWidth:300,margin:"0 auto",display:"flex",flexDirection:"column",gap:12}}>
           <input value={username} onChange={e=>setUsername(e.target.value)} placeholder={t("auth_username",baseLang)} style={{width:"100%",padding:"14px 18px",borderRadius:14,border:"2px solid var(--gray-200)",fontSize:15,fontFamily:"inherit",outline:"none",transition:"border .15s"}} onFocus={e=>e.target.style.borderColor="var(--purple-accent)"} onBlur={e=>e.target.style.borderColor="var(--gray-200)"}/>
           <input type="password" value={password} onChange={e=>setPassword(e.target.value)} placeholder={t("auth_password",baseLang)} onKeyDown={e=>e.key==="Enter"&&handleLogin()} style={{width:"100%",padding:"14px 18px",borderRadius:14,border:"2px solid var(--gray-200)",fontSize:15,fontFamily:"inherit",outline:"none",transition:"border .15s"}} onFocus={e=>e.target.style.borderColor="var(--purple-accent)"} onBlur={e=>e.target.style.borderColor="var(--gray-200)"}/>
@@ -4049,7 +4049,7 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
       <div className="ob-card" style={{maxWidth:440,position:"relative"}}>
         <button onClick={()=>{setMode("welcome");setError("");}} style={{position:"absolute",top:16,left:16,background:"none",border:"none",fontSize:18,cursor:"pointer",color:"var(--gray-400)"}}>←</button>
         <h2 className="hd" style={{fontSize:24,fontWeight:800,marginBottom:4}}>{t("auth_create_profile",baseLang)}</h2>
-        <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:20}}>Personalise your learning journey</p>
+        <p style={{color:"var(--gray-400)",fontSize:13,marginBottom:20}}>{t("auth_personalize",baseLang)}</p>
 
         {/* Avatar picker */}
         <div style={{textAlign:"center",marginBottom:20}}>
@@ -4239,7 +4239,7 @@ function LearnPage({lang,baseLang="en",user,setUser,addXp,learnWord,showToast,ad
     const unitLessons=selUnit?.lessons||[];
     const curIdx=unitLessons.findIndex(l=>l.id===selLesson.id);
     const nextUnitLesson=curIdx>=0&&curIdx+1<unitLessons.length?unitLessons[curIdx+1]:null;
-    return <LessonErrorBoundary onBack={()=>setView("lesson")}><LessonEngine lesson={selLesson} baseLang={baseLang} lang={lang} addFlag={addFlag} unit={selUnit} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}
+    return <LessonErrorBoundary onBack={()=>setView("lesson")} baseLang={baseLang}><LessonEngine lesson={selLesson} baseLang={baseLang} lang={lang} addFlag={addFlag} unit={selUnit} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}
       onBack={()=>setView("lesson")}
       onComplete={()=>{completeLesson(selUnit,selLesson);}}
       onContinue={nextUnitLesson?()=>{completeLesson(selUnit,selLesson);setSelLesson(nextUnitLesson);}:null}
@@ -4413,7 +4413,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
             </div>
             <div style={{flex:1}}>
               <h2 style={{fontSize:22,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{bandLabels[band]}</h2>
-              <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{units.length} unit{units.length!==1?"s":""} · CEFR {band}{(()=>{const bp=bandProgress(band);return bp.done>0?` · ${Math.round((bp.done/bp.total)*100)}%`:"";})()}</p>
+              <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{units.length} {t("map_units",baseLang)} · CEFR {band}{(()=>{const bp=bandProgress(band);return bp.done>0?` · ${Math.round((bp.done/bp.total)*100)}%`:"";})()}</p>
             </div>
             <svg width={16} height={16} viewBox="0 0 24 24" fill="none" style={{position:"relative",zIndex:2,opacity:0.5}}><path d="M9 5l7 7-7 7" stroke="white" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"/></svg>
           </div>
@@ -4425,29 +4425,29 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         {/* Band info popup */}
         {showBandPopup===band&&<GlossyPopup title={`${bandLabels[band]} · CEFR ${band}`} onClose={()=>setShowBandPopup(null)}>
           <div style={{fontSize:13,color:"var(--gray-600)",lineHeight:1.6,marginBottom:16}}>
-            {band==="A1"&&"You'll learn the basics: greetings, introductions, simple sentences, numbers, and everyday vocabulary. By the end, you can handle simple interactions."}
-            {band==="A2"&&"Build on basics: past tense, future plans, descriptions, comparisons, and daily routines. You'll handle simple conversations with confidence."}
-            {band==="B1"&&"Reach independence: express opinions, tell stories, understand main points of clear speech. You can deal with most travel situations."}
-            {band==="B2"&&"Achieve fluency: complex arguments, nuanced expression, understanding most media. You can interact with native speakers without strain."}
-            {band==="C1"&&"Advanced proficiency: implicit meaning, flexible language use, academic and professional contexts with ease."}
-            {band==="C2"&&"Near-native mastery: summarize complex sources, express yourself precisely, understand virtually everything heard or read."}
+            {band==="A1"&&t("cefr_a1_desc",baseLang)}
+            {band==="A2"&&t("cefr_a2_desc",baseLang)}
+            {band==="B1"&&t("cefr_b1_desc",baseLang)}
+            {band==="B2"&&t("cefr_b2_desc",baseLang)}
+            {band==="C1"&&t("cefr_c1_desc",baseLang)}
+            {band==="C2"&&t("cefr_c2_desc",baseLang)}
           </div>
-          <div style={{fontSize:12,fontWeight:700,color:"var(--gray-500)",marginBottom:10}}>Units in this band:</div>
+          <div style={{fontSize:12,fontWeight:700,color:"var(--gray-500)",marginBottom:10}}>{t("cefr_units_in",baseLang)}</div>
           <div style={{display:"flex",flexDirection:"column",gap:6}}>
             {units.map(u=><div key={u.n} style={{padding:"10px 14px",borderRadius:12,background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.05)",border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)",display:"flex",alignItems:"center",gap:10}}>
               <span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)"}}>{u.level}</span>
               <span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600}}>Unit {u.n}: {u.title}</span>
-              <span style={{fontSize:11,color:"var(--gray-400)",marginLeft:"auto"}}>{u.lessons.length} lessons</span>
+              <span style={{fontSize:11,color:"var(--gray-400)",marginLeft:"auto"}}>{u.lessons.length} {t("map_lessons",baseLang)}</span>
             </div>)}
-            {units.length===0&&<div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic",textAlign:"center",padding:16}}>Content is being developed.</div>}
+            {units.length===0&&<div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic",textAlign:"center",padding:16}}>{t("map_content_dev",baseLang)}</div>}
           </div>
         </GlossyPopup>}
 
         {units.length===0?
           <div style={{borderRadius:22,padding:"40px 20px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",background:dk?"rgba(40,42,72,0.4)":"linear-gradient(180deg, #F8F6FF 0%, #F0ECFF 100%)",border:"2px solid rgba(123,94,232,0.08)",textAlign:"center"}}>
             <div style={{marginBottom:12}}><AppIcon name="construction" size={56}/></div>
-            <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>Coming Soon</h3>
-            <p style={{color:"var(--gray-400)",fontSize:13}}>CEFR {band} content is being developed.</p>
+            <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>{t("map_coming_soon",baseLang)}</h3>
+            <p style={{color:"var(--gray-400)",fontSize:13}}>CEFR {band} {t("map_content_dev",baseLang)}</p>
           </div>
         :
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:14}}>
@@ -4638,11 +4638,11 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           <div style={{display:"flex",alignItems:"center",gap:14,position:"relative",zIndex:2}}>
             <div style={{width:56,height:56,borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)",flexShrink:0}}><AppIcon name="building_blocks" size={36}/></div>
             <div style={{flex:1}}>
-              <h2 style={{fontSize:22,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'Quicksand',sans-serif"}}>{fData?.name||"Foundations"}</h2>
+              <h2 style={{fontSize:22,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'Quicksand',sans-serif"}}>{fData?.name||t("found_title",baseLang)}</h2>
               <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{L?.native||"Language"}: Before You Start</p>
               <div style={{display:"flex",gap:8,marginTop:6,alignItems:"center"}}>
-                <span style={{padding:"3px 10px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:10,fontWeight:700}}>Pre-A1</span>
-                {op.total>0&&<span style={{fontSize:11,color:"rgba(255,255,255,0.85)",fontWeight:600}}>{op.pct}% complete</span>}
+                <span style={{padding:"3px 10px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:10,fontWeight:700}}>{t("found_pre_a1",baseLang)}</span>
+                {op.total>0&&<span style={{fontSize:11,color:"rgba(255,255,255,0.85)",fontWeight:600}}>{op.pct}% {t("found_completed",baseLang)}</span>}
               </div>
             </div>
             <svg width={16} height={16} viewBox="0 0 24 24" fill="none" style={{position:"relative",zIndex:2,opacity:0.5}}><path d="M9 5l7 7-7 7" stroke="white" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"/></svg>
@@ -4662,11 +4662,11 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           <div style={{display:"flex",gap:12,marginBottom:8}}>
             <div style={{flex:1,padding:"12px",borderRadius:12,background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.05)",textAlign:"center",border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)"}}>
               <div style={{fontSize:18,fontWeight:800,color:"var(--purple-accent-text)"}}>{sections.length}</div>
-              <div style={{fontSize:10,color:"var(--gray-400)",fontWeight:600}}>Sections</div>
+              <div style={{fontSize:10,color:"var(--gray-400)",fontWeight:600}}>{t("found_sections",baseLang)}</div>
             </div>
             <div style={{flex:1,padding:"12px",borderRadius:12,background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.05)",textAlign:"center",border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)"}}>
               <div style={{fontSize:18,fontWeight:800,color:"var(--purple-accent-text)"}}>{op.pct}%</div>
-              <div style={{fontSize:10,color:"var(--gray-400)",fontWeight:600}}>Complete</div>
+              <div style={{fontSize:10,color:"var(--gray-400)",fontWeight:600}}>{t("found_complete",baseLang)}</div>
             </div>
           </div>
           <div style={{padding:"14px 16px",borderRadius:14,background:dk?"rgba(245,166,35,0.08)":"rgba(245,166,35,0.06)",border:dk?"1px solid rgba(245,166,35,0.15)":"1px solid rgba(245,166,35,0.1)"}}>
@@ -4703,10 +4703,10 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
             <AppIcon name="trophy" size={36}/>
             <div style={{textAlign:"left"}}>
               <div style={{fontSize:15,fontWeight:800,color:user.progress?.gateQuiz?.[lang]?.passed?"var(--teal)":"var(--purple-accent-text)"}}>
-                {user.progress?.gateQuiz?.[lang]?.passed?"Gate Quiz ✓ Passed":"Gate Quiz — Skip Foundations?"}
+                {user.progress?.gateQuiz?.[lang]?.passed?t("map_gate_passed",baseLang):t("map_gate_skip",baseLang)}
               </div>
               <div style={{fontSize:12,color:"var(--gray-400)",lineHeight:1.4}}>
-                {user.progress?.gateQuiz?.[lang]?.passed?"Gate Quiz passed! Retake anytime.":"Already know the basics? Prove it and skip ahead."}
+                {user.progress?.gateQuiz?.[lang]?.passed?t("map_gate_passed_desc",baseLang):t("map_gate_skip_desc",baseLang)}
               </div>
             </div>
           </div>
@@ -4730,7 +4730,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                 <div style={{fontSize:32,marginBottom:8}}><BrandIcon name={sec.icon} size={32}/></div>
                 <div className="hd" style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:sp.pct===100?"var(--teal)":"var(--purple-accent-text)",marginBottom:4}}>{sec.title}</div>
                 <div style={{fontSize:11,color:"var(--gray-400)",lineHeight:1.4}}>{sec.desc}</div>
-                <div style={{marginTop:8,fontSize:10,fontWeight:600,color:sp.pct===100?"var(--teal)":"var(--gray-300)"}}>{sp.pct===100?"✓ Done":`${sp.done}/${sp.total} items`}</div>
+                <div style={{marginTop:8,fontSize:10,fontWeight:600,color:sp.pct===100?"var(--teal)":"var(--gray-300)"}}>{sp.pct===100?`✓ ${t("found_done",baseLang)}`:`${sp.done}/${sp.total} ${t("found_items",baseLang)}`}</div>
                 {sp.total>0&&sp.pct>0&&sp.pct<100&&<div style={{marginTop:6,height:4,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden"}}>
                   <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
                 </div>}
@@ -4740,9 +4740,9 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         :
           <div className="card" style={{textAlign:"center",padding:"40px 20px"}}>
             <div style={{marginBottom:12}}><AppIcon name="construction" size={56}/></div>
-            <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>Coming Soon</h3>
-            <p style={{color:"var(--gray-400)",fontSize:13}}>Foundations for {L?.native||"this language"} are being developed.</p>
-            <p style={{color:"var(--gray-300)",fontSize:12,marginTop:8}}>Start with A1 to begin learning now!</p>
+            <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>{t("map_coming_soon",baseLang)}</h3>
+            <p style={{color:"var(--gray-400)",fontSize:13}}>{t("map_foundations_dev",baseLang)}</p>
+            <p style={{color:"var(--gray-300)",fontSize:12,marginTop:8}}>{t("map_start_a1",baseLang)}</p>
           </div>
         }
         </>}
@@ -4790,14 +4790,14 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
       {showStatsPopup&&(()=>{const tl=langUnits.reduce((a,u)=>a+u.lessons.length,0);const dl=langUnits.reduce((a,u)=>a+u.lessons.filter(l=>!!((user.progress||{}).lessons||{})[`${lang}:${u.n}:${l.id}`]).length,0);const op=tl>0?Math.round((dl/tl)*100):0;const vocabCount=user.wl||0;const tips=["Consistency beats intensity — 15 min daily > 2 hours weekly.","Read children's books in your target language. They use high-frequency words.","Shadow native speakers: listen and repeat simultaneously to train your ear.","Label objects in your house with sticky notes in the target language.","Watch TV shows you already know dubbed in your target language."];const tipIdx=Math.floor(Date.now()/86400000)%tips.length;
       return <GlossyPopup title={`${L?.native||"Course"} Stats`} onClose={()=>setShowStatsPopup(false)}>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:20}}>
-          {[{label:"XP Earned",value:user.xp||0,icon:"⚡"},{label:"Lessons Done",value:`${dl}/${tl}`,icon:"📚"},{label:"Vocabulary",value:vocabCount,icon:"🧠"},{label:"Progress",value:`${op}%`,icon:"📊"}].map(s=><div key={s.label} style={{padding:"14px 12px",borderRadius:16,background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",textAlign:"center",border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.08)"}}>
+          {[{label:t("map_xp_earned",baseLang),value:user.xp||0,icon:"⚡"},{label:t("map_lessons_done",baseLang),value:`${dl}/${tl}`,icon:"📚"},{label:t("map_vocabulary",baseLang),value:vocabCount,icon:"🧠"},{label:t("map_progress",baseLang),value:`${op}%`,icon:"📊"}].map(s=><div key={s.label} style={{padding:"14px 12px",borderRadius:16,background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",textAlign:"center",border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.08)"}}>
             <div style={{fontSize:22,marginBottom:4}}>{s.icon}</div>
             <div style={{fontSize:18,fontWeight:800,color:"var(--purple-accent-text)"}}>{s.value}</div>
             <div style={{fontSize:10,color:"var(--gray-400)",fontWeight:600,marginTop:2}}>{s.label}</div>
           </div>)}
         </div>
         <div style={{padding:"16px 18px",borderRadius:16,background:dk?"rgba(245,166,35,0.08)":"rgba(245,166,35,0.06)",border:dk?"1px solid rgba(245,166,35,0.15)":"1px solid rgba(245,166,35,0.1)"}}>
-          <div style={{fontSize:12,fontWeight:800,color:"var(--gold)",marginBottom:6,display:"flex",alignItems:"center",gap:4}}><AppIcon name="lightbulb" size={14}/>Polyglot Tip</div>
+          <div style={{fontSize:12,fontWeight:800,color:"var(--gold)",marginBottom:6,display:"flex",alignItems:"center",gap:4}}><AppIcon name="lightbulb" size={14}/>{t("map_polyglot_tip",baseLang)}</div>
           <div style={{fontSize:13,color:"var(--gray-600)",lineHeight:1.5}}>{tips[tipIdx]}</div>
         </div>
       </GlossyPopup>;})()}
@@ -4842,10 +4842,10 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               <span style={{position:"relative",zIndex:1,filter:"drop-shadow(0 1px 1px rgba(0,0,0,0.2))"}}>🧱</span>
             </div>
             <div style={{flex:1,position:"relative",zIndex:2}}>
-              <div className="hd" style={{fontSize:17,fontWeight:800,color:"var(--purple-accent-text)"}}>Foundations</div>
-              <div style={{fontSize:12,color:"var(--gray-400)"}}>{secCount>0?`${secCount} sections · Pre-A1`:"Script, alphabet & pronunciation basics"}</div>
+              <div className="hd" style={{fontSize:17,fontWeight:800,color:"var(--purple-accent-text)"}}>{t("found_title",baseLang)}</div>
+              <div style={{fontSize:12,color:"var(--gray-400)"}}>{secCount>0?`${secCount} ${t("found_sections",baseLang)} · ${t("found_pre_a1",baseLang)}`:t("found_desc",baseLang)}</div>
             </div>
-            <span style={{padding:"5px 14px",borderRadius:12,background:"linear-gradient(180deg, #C0AEFA 0%, #B8A8FA 15%, #7B5EE8 55%, #5840B8 100%)",color:"white",fontSize:10,fontWeight:800,letterSpacing:0.3,boxShadow:"0 3px 10px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -1px 0 rgba(0,0,0,0.1)",position:"relative",overflow:"hidden",zIndex:2}}><span style={{position:"absolute",top:0,left:"10%",right:"10%",height:"45%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, transparent 100%)",pointerEvents:"none"}}/><span style={{position:"relative",zIndex:1}}>{secCount>0?`${secCount} topics`:"Preview"}</span></span>
+            <span style={{padding:"5px 14px",borderRadius:12,background:"linear-gradient(180deg, #C0AEFA 0%, #B8A8FA 15%, #7B5EE8 55%, #5840B8 100%)",color:"white",fontSize:10,fontWeight:800,letterSpacing:0.3,boxShadow:"0 3px 10px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -1px 0 rgba(0,0,0,0.1)",position:"relative",overflow:"hidden",zIndex:2}}><span style={{position:"absolute",top:0,left:"10%",right:"10%",height:"45%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, transparent 100%)",pointerEvents:"none"}}/><span style={{position:"relative",zIndex:1}}>{secCount>0?`${secCount} ${t("found_topics",baseLang)}`:t("found_preview",baseLang)}</span></span>
           </div>;
         })()}
 
@@ -5278,7 +5278,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
       return null;
     };
     const nextLesson=getNextLesson();
-    return <LessonErrorBoundary onBack={()=>{setRunning(false);setSelLesson(null);}}><LessonEngine
+    return <LessonErrorBoundary onBack={()=>{setRunning(false);setSelLesson(null);}} baseLang={baseLang}><LessonEngine
       lesson={selLesson}
       baseLang={baseLang}
       lang={lang}
@@ -5565,11 +5565,11 @@ function DevGate({onAccess}){
         <div style={{width:72,height:72,borderRadius:20,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 20px",boxShadow:"0 8px 24px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>
           <span style={{fontSize:36}}>🔑</span>
         </div>
-        <h1 style={{fontSize:24,fontWeight:800,color:dk?"#E8E6F0":"#2D2B55",marginBottom:6,fontFamily:"'Quicksand','DM Sans',system-ui,sans-serif"}}>LingoVerse</h1>
+        <h1 style={{fontSize:24,fontWeight:800,color:dk?"#E8E6F0":"#2D2B55",marginBottom:6,fontFamily:"'Quicksand','DM Sans',system-ui,sans-serif"}}>{t("dev_lingoverse","en")}</h1>
         <p style={{fontSize:13,color:dk?"#9590B0":"#8B85A8",marginBottom:28,lineHeight:1.5}}>Early access — enter developer code</p>
-        <input type="password" value={code} onChange={e=>setCode(e.target.value)} onKeyDown={e=>e.key==="Enter"&&handleSubmit()} placeholder="Access code" autoFocus style={{width:"100%",padding:"14px 18px",borderRadius:14,border:error?`2px solid #F56565`:`2px solid ${dk?"rgba(123,94,232,0.3)":"#E0D8F8"}`,background:dk?"rgba(30,28,50,0.6)":"#FAFAFE",fontSize:16,fontFamily:"inherit",outline:"none",textAlign:"center",letterSpacing:8,color:dk?"#E8E6F0":"#2D2B55",transition:"border .2s",boxSizing:"border-box"}}/>
-        {error&&<p style={{fontSize:12,color:"#F56565",marginTop:8,fontWeight:600}}>Invalid code</p>}
-        <button onClick={handleSubmit} style={{marginTop:20,width:"100%",padding:"14px",borderRadius:14,border:"none",background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",color:"white",fontSize:16,fontWeight:700,cursor:"pointer",boxShadow:"0 4px 16px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)",transition:"transform .1s",fontFamily:"inherit"}}>Enter</button>
+        <input type="password" value={code} onChange={e=>setCode(e.target.value)} onKeyDown={e=>e.key==="Enter"&&handleSubmit()} placeholder={t("dev_access_code","en")} autoFocus style={{width:"100%",padding:"14px 18px",borderRadius:14,border:error?`2px solid #F56565`:`2px solid ${dk?"rgba(123,94,232,0.3)":"#E0D8F8"}`,background:dk?"rgba(30,28,50,0.6)":"#FAFAFE",fontSize:16,fontFamily:"inherit",outline:"none",textAlign:"center",letterSpacing:8,color:dk?"#E8E6F0":"#2D2B55",transition:"border .2s",boxSizing:"border-box"}}/>
+        {error&&<p style={{fontSize:12,color:"#F56565",marginTop:8,fontWeight:600}}>{t("dev_invalid","en")}</p>}
+        <button onClick={handleSubmit} style={{marginTop:20,width:"100%",padding:"14px",borderRadius:14,border:"none",background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",color:"white",fontSize:16,fontWeight:700,cursor:"pointer",boxShadow:"0 4px 16px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)",transition:"transform .1s",fontFamily:"inherit"}}>{t("dev_enter","en")}</button>
       </div>
       <style>{`@keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}`}</style>
     </div>
@@ -5800,6 +5800,12 @@ export default function App(){
     window.addEventListener("keydown",handler);
     return()=>window.removeEventListener("keydown",handler);
   },[showSearch,showVerumius]);
+
+  // ── RTL: set dir attribute on <html> when baseLang is Arabic ──
+  useEffect(()=>{
+    document.documentElement.dir=baseLang==="ar"?"rtl":"ltr";
+    return()=>{document.documentElement.dir="ltr";};
+  },[baseLang]);
 
   // ── Close search float on click outside the panel or its toggle button ──
   useEffect(()=>{

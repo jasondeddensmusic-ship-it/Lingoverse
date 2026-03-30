@@ -1028,4 +1028,12 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-edge-e{top:14px;bottom:14px;right:0;width:7px;cursor:e-resize;}
 .vr-wrap:not(.vr-fs) .vr-edge:hover,.vr-wrap:not(.vr-fs) .vr-edge:active{background:rgba(123,94,232,0.14);border-radius:4px;}
 @media(max-width:700px){.vr-wrap{right:10px;bottom:10px;width:calc(100vw - 20px);height:420px;}.vl-tab{top:auto;bottom:120px;transform:none;}}
+
+/* ── RTL support for Arabic UI ── */
+[dir="rtl"] .main { text-align: right; }
+[dir="rtl"] .quiz-letter { margin-right: 0; margin-left: 10px; }
+[dir="rtl"] .xpbar-fill { border-radius: 12px; }
+[dir="rtl"] .sp-body { text-align: right; }
+[dir="rtl"] input, [dir="rtl"] textarea { text-align: right; }
+[dir="rtl"] .sf-panel { text-align: right; }
 `;
