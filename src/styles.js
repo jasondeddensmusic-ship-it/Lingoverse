@@ -453,14 +453,31 @@ body, #root {
   color: var(--gray-700);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word; word-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
 }
+body.modal-open { overflow: hidden !important; touch-action: none; }
 h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800); }
+h1 { font-size: clamp(22px, 5vw, 32px); }
+h2 { font-size: clamp(18px, 4vw, 26px); }
+h3 { font-size: clamp(16px, 3.5vw, 22px); }
+
+/* ── MOBILE: touch targets, text safety, button feedback ── */
+@media (max-width: 700px) {
+  button, [role="button"], a, select, .card[onclick], .lang-card {
+    min-height: 44px; min-width: 44px;
+  }
+  .card, .home-tile { overflow-wrap: break-word; word-break: break-word; }
+  button:active, .btn:active, [role="button"]:active, .card:active, .lang-card:active {
+    transform: scale(0.97) !important; transition: transform 0.08s !important;
+  }
+}
 
 /* ── NAV BAR (top, like Duolingo mobile) ── */
 .topnav {
-  position: fixed; top: 0; left: 0; right: 0; height: 64px; z-index: 100;
+  position: fixed; top: 0; left: 0; right: 0; height: calc(64px + env(safe-area-inset-top, 0px)); z-index: 100;
   background: rgba(255,255,255,0.78); border-bottom: 2px solid var(--card-border);
-  display: flex; align-items: center; padding: 0 24px;
+  display: flex; align-items: center; padding: env(safe-area-inset-top, 0px) max(24px, env(safe-area-inset-right, 0px)) 0 max(24px, env(safe-area-inset-left, 0px));
   box-shadow: 0 4px 16px rgba(0,0,0,0.06), inset 0 -1px 0 rgba(0,0,0,0.04);
   backdrop-filter: blur(24px) saturate(1.4); -webkit-backdrop-filter: blur(24px) saturate(1.4);
 }
@@ -495,7 +512,7 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .stat-level { background: var(--blue-light); color: var(--blue-dark); }
 
 /* ── MAIN CONTENT ── */
-.main { margin-top: 64px; padding: 32px; max-width: 860px; margin-left: auto; margin-right: auto; position: relative; z-index: 1; }
+.main { margin-top: calc(64px + env(safe-area-inset-top, 0px)); padding: 32px max(32px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) max(32px, env(safe-area-inset-left, 0px)); max-width: 860px; margin-left: auto; margin-right: auto; position: relative; z-index: 1; }
 
 /* ── CARDS ── */
 .card {
@@ -863,6 +880,9 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 
 /* ── ANIMATIONS ── */
 @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(100%); } to { opacity: 1; transform: translateY(0); } }
+@keyframes slideDown { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(100%); } }
+@keyframes fadeOverlayIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideIn { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes popIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
@@ -885,10 +905,50 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 
 /* ── RESPONSIVE ── */
 @media (max-width: 700px) {
-  .main { padding: 20px 16px; }
-  .topnav { padding: 0 12px; }
+  .main { padding: 20px 16px calc(72px + env(safe-area-inset-bottom, 0px)) 16px; }
+  .topnav { padding: env(safe-area-inset-top, 0px) 12px 0; }
   .topnav-item span:not(.icon) { display: none; }
-  .topnav-item { padding: 8px 10px; }
+  .topnav-item { padding: 8px 10px; min-height: 44px; min-width: 44px; justify-content: center; }
+  .topnav-stat { padding: 4px 8px; font-size: 11px; }
+}
+
+/* ── BOTTOM NAV (mobile only) ── */
+.bottomnav {
+  display: none;
+}
+@media (max-width: 700px) {
+  .bottomnav {
+    display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+    height: calc(64px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: rgba(255,255,255,0.88);
+    border-top: 1.5px solid var(--card-border);
+    backdrop-filter: blur(24px) saturate(1.4); -webkit-backdrop-filter: blur(24px) saturate(1.4);
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
+    align-items: stretch; justify-content: space-around;
+  }
+  :root.dark .bottomnav {
+    background: rgba(22,22,43,0.92);
+    border-top-color: rgba(255,255,255,0.08);
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.3);
+  }
+  .bottomnav-item {
+    flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 2px; cursor: pointer; font-size: 10px; font-weight: 700;
+    color: var(--gray-400); transition: color 0.15s;
+    font-family: 'Nunito', 'DM Sans', sans-serif; min-height: 44px;
+    -webkit-tap-highlight-color: transparent; position: relative;
+  }
+  .bottomnav-item:active { transform: scale(0.92); }
+  .bottomnav-item.active { color: #7B5EE8; }
+  .bottomnav-item.active::after {
+    content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 32px; height: 3px; border-radius: 0 0 3px 3px; background: #7B5EE8;
+  }
+  :root.dark .bottomnav-item { color: var(--gray-500); }
+  :root.dark .bottomnav-item.active { color: #A890FF; }
+  :root.dark .bottomnav-item.active::after { background: #A890FF; }
+  .bottomnav-icon { font-size: 22px; line-height: 1; }
 }
 
 /* ── CURRICULUM SEARCH FLOAT (D113 v2 — compound bubble style) ── */
@@ -1027,7 +1087,56 @@ h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800);
 .vr-edge-w{top:14px;bottom:14px;left:0;width:7px;cursor:w-resize;}
 .vr-edge-e{top:14px;bottom:14px;right:0;width:7px;cursor:e-resize;}
 .vr-wrap:not(.vr-fs) .vr-edge:hover,.vr-wrap:not(.vr-fs) .vr-edge:active{background:rgba(123,94,232,0.14);border-radius:4px;}
-@media(max-width:700px){.vr-wrap{right:10px;bottom:10px;width:calc(100vw - 20px);height:420px;}.vl-tab{top:auto;bottom:120px;transform:none;}}
+@media(max-width:700px){
+  .vr-wrap{right:0 !important;bottom:0 !important;left:0 !important;width:100% !important;height:70vh !important;border-radius:24px 24px 0 0 !important;opacity:1 !important;transform:translateY(0) !important;}
+  .vr-wrap.vr-fs{height:calc(100dvh - 64px) !important;border-radius:0 !important;top:calc(64px + env(safe-area-inset-top,0px)) !important;}
+  .vl-tab{display:none;}
+}
+
+/* ── BOTTOM SHEET (swipe-to-dismiss) ── */
+.bs-overlay {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(0,0,0,0.45); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  animation: fadeOverlayIn 0.2s ease;
+}
+.bs-panel {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 10000;
+  max-height: 88vh; overflow: hidden; display: flex; flex-direction: column;
+  border-radius: 24px 24px 0 0;
+  animation: slideUp 0.32s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+  touch-action: none; will-change: transform;
+}
+.bs-panel.closing { animation: slideDown 0.25s ease forwards; }
+.bs-handle {
+  width: 40px; height: 4px; border-radius: 2px; margin: 10px auto 6px;
+  background: rgba(123,94,232,0.2); flex-shrink: 0; cursor: grab;
+}
+:root.dark .bs-handle { background: rgba(255,255,255,0.2); }
+.bs-content { overflow-y: auto; flex: 1; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+
+/* ── FLOATING ACTION BUTTON (Verumius chat) ── */
+@media (max-width: 700px) {
+  .vr-fab {
+    position: fixed; z-index: 99; width: 56px; height: 56px;
+    bottom: calc(72px + env(safe-area-inset-bottom, 0px)); right: 16px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, #7B5EE8 0%, #6040C0 100%);
+    box-shadow: 0 4px 20px rgba(123,94,232,0.4), 0 2px 8px rgba(0,0,0,0.15);
+    border: 2px solid rgba(255,255,255,0.3); cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .vr-fab:active { transform: scale(0.9); }
+  .vr-fab.open { transform: rotate(45deg); }
+  :root.dark .vr-fab {
+    background: linear-gradient(135deg, #6040C0 0%, #4A2BA6 100%);
+    border-color: rgba(160,140,255,0.4);
+    box-shadow: 0 4px 20px rgba(123,94,232,0.5), 0 2px 8px rgba(0,0,0,0.3);
+  }
+}
+@media (min-width: 701px) {
+  .vr-fab { display: none; }
+}
 
 /* ── RTL support for Arabic UI ── */
 [dir="rtl"] .main { text-align: right; }

@@ -178,4 +178,93 @@ function useFocusNav(containerRef,onBack,{selector=KB_FOCUS_SEL,enabled=true}={}
   return kbIdx;
 }
 
-export { KB_FOCUS_SEL, useFocusNav };
+// ── Bottom Sheet swipe-to-dismiss hook ──
+function useBottomSheet(isOpen, onClose) {
+  const panelRef = useRef(null);
+  const dragState = useRef(null);
+  const [translateY, setTranslateY] = useState(0);
+  const [closing, setClosing] = useState(false);
+
+  const dismiss = useCallback(() => {
+    setClosing(true);
+    document.body.classList.remove("modal-open");
+    setTimeout(() => { setClosing(false); setTranslateY(0); onClose(); }, 250);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("modal-open");
+      setClosing(false);
+      setTranslateY(0);
+    }
+    return () => { document.body.classList.remove("modal-open"); };
+  }, [isOpen]);
+
+  const onPointerDown = useCallback((e) => {
+    // Only allow drag from handle area or when scrolled to top
+    const panel = panelRef.current;
+    if (!panel) return;
+    const content = panel.querySelector('.bs-content');
+    if (content && content.scrollTop > 5 && !e.target.closest('.bs-handle')) return;
+    dragState.current = { startY: e.clientY, startTranslate: 0 };
+    panel.style.transition = 'none';
+  }, []);
+
+  const onPointerMove = useCallback((e) => {
+    if (!dragState.current) return;
+    const dy = e.clientY - dragState.current.startY;
+    if (dy < 0) return; // don't allow dragging upward beyond start
+    setTranslateY(dy);
+  }, []);
+
+  const onPointerUp = useCallback(() => {
+    if (!dragState.current) return;
+    const panel = panelRef.current;
+    if (panel) panel.style.transition = '';
+    const dy = translateY;
+    dragState.current = null;
+    if (dy > 120) {
+      dismiss();
+    } else {
+      setTranslateY(0);
+    }
+  }, [translateY, dismiss]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('pointerup', onPointerUp);
+    return () => {
+      window.removeEventListener('pointermove', onPointerMove);
+      window.removeEventListener('pointerup', onPointerUp);
+    };
+  }, [isOpen, onPointerMove, onPointerUp]);
+
+  return { panelRef, translateY, closing, dismiss, onPointerDown };
+}
+
+// ── Swipe gesture hook (left/right) ──
+function useSwipe(onSwipeLeft, onSwipeRight, opts = {}) {
+  const { threshold = 60, enabled = true } = opts;
+  const touchRef = useRef(null);
+  const onTouchStart = useCallback((e) => {
+    if (!enabled) return;
+    const t = e.touches[0];
+    touchRef.current = { x: t.clientX, y: t.clientY, time: Date.now() };
+  }, [enabled]);
+  const onTouchEnd = useCallback((e) => {
+    if (!enabled || !touchRef.current) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchRef.current.x;
+    const dy = t.clientY - touchRef.current.y;
+    const dt = Date.now() - touchRef.current.time;
+    touchRef.current = null;
+    if (dt > 600) return; // too slow
+    if (Math.abs(dy) > Math.abs(dx) * 0.8) return; // vertical swipe
+    if (dx < -threshold && onSwipeLeft) onSwipeLeft();
+    if (dx > threshold && onSwipeRight) onSwipeRight();
+  }, [enabled, threshold, onSwipeLeft, onSwipeRight]);
+  return { onTouchStart, onTouchEnd };
+}
+
+export { KB_FOCUS_SEL, useFocusNav, useBottomSheet, useSwipe };

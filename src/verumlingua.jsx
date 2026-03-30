@@ -528,7 +528,7 @@ Until then: audio_id fields are IGNORED by all renderers.
 import { CSS } from "./styles.js";
 import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, _normStep, UNITS, _RAW_UNITS, _romanize, _normS, _findHit, searchUnits, __contentWarnings, __devWarnings, validateLessonForLeaks } from './utils.js';
 import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, FOUNDATIONS_LOCK_ENABLED, UI_SOUNDS_ENABLED, UISounds } from './audio.jsx';
-import { KB_FOCUS_SEL, useFocusNav } from './hooks.js';
+import { KB_FOCUS_SEL, useFocusNav, useBottomSheet } from './hooks.js';
 import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, LessonErrorBoundary, AppIcon, BrandIcon, _memStore, renderNavTitle } from './components/shared.jsx';
 import LessonEngine from './components/LessonEngine.jsx';
 
@@ -869,7 +869,7 @@ function Home({user,setPage,lang,baseLang="en"}){
       </div>
 
       {/* 6 Category buttons — continue-button purple */}
-      <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:14,maxWidth:520,margin:"0 auto"}}>
+      <div className="home-grid" style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(140px, 1fr))",gap:14,maxWidth:520,margin:"0 auto"}}>
         {[
           {p:"learn",icon:"books_stack",label:t("home_learn_path",baseLang),desc:t("home_structured",baseLang)},
           {p:"vocabulary",icon:"abc_blocks",label:t("vocab_title",baseLang),desc:t("home_dict_desc",baseLang)},
@@ -2323,6 +2323,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const [mode,setMode]=useState("search");
   const [search,setSearch]=useState("");
   const [expanded,setExpanded]=useState(null); // stores the actual entry object or null
+  const closeExpanded=useCallback(()=>{setExpanded(null);setPopupTab("overview");},[]);
+  const bs=useBottomSheet(!!expanded&&isMobile,closeExpanded);
   const [filterOpen,setFilterOpen]=useState(false);
   const [filterPOS,setFilterPOS]=useState(new Set());
   const [filterLevel,setFilterLevel]=useState(new Set());
@@ -2606,18 +2608,20 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     };
 
     return(
-      <div onClick={()=>{setExpanded(null);setPopupTab("overview");}} style={{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:isMobile?"flex-end":"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
-        <div onClick={e=>e.stopPropagation()} style={{
+      <div className={isMobile?"bs-overlay":""} onClick={()=>{if(isMobile)bs.dismiss();else{setExpanded(null);setPopupTab("overview");}}} style={isMobile?{}:{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
+        <div ref={isMobile?bs.panelRef:undefined} className={isMobile?("bs-panel"+(bs.closing?" closing":"")):""} onPointerDown={isMobile?bs.onPointerDown:undefined} onClick={e=>e.stopPropagation()} style={{
           width:isMobile?"100%":"min(460px, 92vw)",
-          maxHeight:isMobile?"85vh":"88vh",overflow:"auto",
+          maxHeight:isMobile?"85vh":"88vh",
           borderRadius:isMobile?"24px 24px 0 0":24,position:"relative",
           background:dk?"linear-gradient(180deg, rgba(40,30,70,0.98) 0%, rgba(30,24,55,0.98) 100%)":"linear-gradient(180deg, rgba(250,248,255,0.99) 0%, rgba(240,236,255,0.98) 100%)",
           border:dk?"1.5px solid rgba(123,94,232,0.4)":"1.5px solid rgba(180,165,240,0.5)",
           boxShadow:dk?"0 -8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(123,94,232,0.3)":"0 -8px 40px rgba(123,94,232,0.15), 0 0 20px rgba(180,165,240,0.2)",
-          padding:isMobile?"24px 16px 32px":"28px 22px",
+          padding:isMobile?"0 16px 32px":"28px 22px",
+          ...(isMobile&&bs.translateY>0?{transform:`translateY(${bs.translateY}px)`}:{}),
         }}>
-          {isMobile&&<div style={{width:40,height:4,borderRadius:2,background:dk?"rgba(255,255,255,0.2)":"rgba(123,94,232,0.2)",margin:"0 auto 14px"}}/>}
+          {isMobile&&<div className="bs-handle" onPointerDown={bs.onPointerDown}/>}
           {!isMobile&&<span onClick={()=>{setExpanded(null);setPopupTab("overview");}} style={{position:"absolute",top:14,right:16,cursor:"pointer",fontSize:16,fontWeight:700,color:dk?"rgba(200,184,255,0.5)":"rgba(150,140,180,0.6)",zIndex:2}}>&#10005;</span>}
+          <div className={isMobile?"bs-content":""}  style={isMobile?{padding:"0 0 16px"}:{overflow:"auto"}}>
 
           {/* Word header */}
           <div style={{borderRadius:20,overflow:"hidden",position:"relative",padding:"16px 18px 14px",marginBottom:12,background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
@@ -2857,6 +2861,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
               </button>
             </div>;
           })()}
+          </div>
         </div>
       </div>
     );
@@ -5939,12 +5944,34 @@ export default function App(){
     );
   };
 
+  // Bottom navigation bar (mobile)
+  const BottomNav=()=>{
+    const tabs=[
+      {id:"home",icon:"house",label:t("nav_home",baseLang)},
+      {id:"learn",icon:"books_stack",label:t("nav_learn",baseLang)||"Learn"},
+      {id:"quiz",icon:"checkmark_green",label:t("nav_quiz",baseLang)},
+      {id:"vocabulary",icon:"abc_blocks",label:t("nav_vocab",baseLang)||"Vocab"},
+      {id:"profile",icon:"avatar",label:t("nav_profile",baseLang)},
+    ];
+    return(
+      <div className="bottomnav">
+        {tabs.map(tb=>(
+          <div key={tb.id} className={`bottomnav-item ${page===tb.id?"active":""}`}
+            onClick={()=>setPage(tb.id)}>
+            <span className="bottomnav-icon"><AppIcon name={tb.icon} size={24}/></span>
+            <span>{tb.label}</span>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   return(
     <>
       <style>{CSS}</style>
       <NebulaBackground/>
       {/* Verumius chat panel */}
-      {showVerumius&&<div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{width:vrSize.width,height:vrSize.height,...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)",animation:vrExiting?"vr-inflate 0.46s cubic-bezier(0,0,0.3,1) forwards":""}}>
+      {showVerumius&&(()=>{const isMob=typeof window!=="undefined"&&window.innerWidth<=700;return <div className={"vr-wrap"+(vrFullscreen?" vr-fs":"")} ref={vrPanelRef} style={vrFullscreen?{position:"fixed",top:64,left:0,right:"auto",bottom:"auto",width:"100vw",height:"calc(100dvh - 64px)",maxHeight:"calc(100dvh - 64px)",borderRadius:0,transition:"all 0.52s cubic-bezier(0.4,0,0.2,1)"}:{...(!isMob?{width:vrSize.width,height:vrSize.height}:{}),...(vrPos?{position:"fixed",top:vrPos.y,left:vrPos.x,right:"auto",bottom:"auto"}:{}),transition:isMob?"none":(vrDragging||vrExiting?"none":"all 0.42s cubic-bezier(0.34,1.56,0.64,1)"),animation:vrExiting?"vr-inflate 0.46s cubic-bezier(0,0,0.3,1) forwards":""}}>
         <div className="vr-hdr" onMouseDown={onVrHdrMouseDown} style={{cursor:vrDragging?"grabbing":"grab"}}>
           <AppIcon name="robot" size={26} style={{position:"relative",zIndex:1,flexShrink:0,pointerEvents:"none"}}/>
           <div className="vr-hdr-info" style={{pointerEvents:"none"}}>
@@ -5992,7 +6019,7 @@ export default function App(){
             <svg width="13" height="13" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
           </button>
         </div>
-      </div>}
+      </div>;})()}
       {/* File-cabinet tools tab — dark mode + search + Verumius */}
       <div className="vl-tab">
         {showTools&&<div className="vl-panel">
@@ -6013,6 +6040,15 @@ export default function App(){
           <div className="vl-tab-dot"/><div className="vl-tab-dot"/><div className="vl-tab-dot"/>
         </div>
       </div>
+      {/* Verumius FAB (mobile only — CSS hides on desktop) */}
+      {ob&&authed&&<div className={"vr-fab"+(showVerumius?" open":"")} onClick={()=>{
+        if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}
+        else{setVrSource("fab");setVrFullscreen(false);setShowVerumius(true);}
+      }}>
+        {showVerumius
+          ?<svg width="20" height="20" viewBox="0 0 20 20" fill="white"><path d="M4 4L16 16M16 4L4 16" stroke="white" strokeWidth="2.5" strokeLinecap="round"/></svg>
+          :<AppIcon name="robot" size={28}/>}
+      </div>}
       {/* Ctrl+D Reset Modal */}
       {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} onClick={()=>setShowResetModal(false)}>
         <div onClick={e=>e.stopPropagation()} style={{background:"var(--card-bg)",borderRadius:24,padding:"36px 40px",maxWidth:360,textAlign:"center",boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
@@ -6306,6 +6342,7 @@ export default function App(){
             {page==="cefr-reference"&&<CefrReferencePage lang={lang}/>}
             {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
           </div>
+          <BottomNav/>
         </>
       )}
       {toast&&<Toast key={toast.key} message={toast.message} icon={toast.icon} onDone={()=>setToast(null)}/>}

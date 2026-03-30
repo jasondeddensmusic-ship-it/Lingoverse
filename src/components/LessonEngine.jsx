@@ -5,7 +5,7 @@ import { TEXT_KEYS, tk, t, VOCAB, LEXEMES, LEXEME_BY_WORD, getLexeme, GRAMMAR, A
 import { WORD_DB, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, mergeKoreanDict, lookupWord, isNewWord, getPosColor, getGenderColor, resolvePackColor, pillGradient, KOREAN_FORM_INDEX, conjugateVerb, detectIrregType, getIrregInfo } from '../data/dictionary.js';
 import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, UNITS, _romanize, _normS, validateLessonForLeaks } from '../utils.js';
 import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, UISounds } from '../audio.jsx';
-import { useFocusNav, KB_FOCUS_SEL } from '../hooks.js';
+import { useFocusNav, KB_FOCUS_SEL, useSwipe } from '../hooks.js';
 import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon, BrandIcon, _memStore, renderNavTitle } from './shared.jsx';
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
@@ -508,6 +508,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);
     setShowHint(false);setFocusIdx(-1);setDfSlots({});setDfPoolIdx(0);setDfFocusSlot(null);setDfDrag(null);UISounds.pageTurn();
   };
+  // ── Swipe navigation (mobile) ──
+  const isSwipeable=["teach","intro","tip","gramref","vocab_ref","verb_table","story"].includes(steps[si]?.type);
+  const swipeHandlers=useSwipe(
+    ()=>{if(isSwipeable||answered)goNext();}, // swipe left = next
+    ()=>{goBack();},                            // swipe right = back
+    {enabled:true,threshold:50}
+  );
+
   // Register spacebar for non-quiz steps (teach, intro, tip, gramref, verb_table)
   const st_type=steps[si]?.type;
   const curSt=steps[si];
@@ -609,6 +617,15 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const retryLesson=()=>{setSi(0);setScore(0);setDone(false);setAnswered(false);setSelOpt(null);setInputVal("");setMatchSel({nl:null,en:null});setMatchDone([]);setLinePositions([]);setShowDeepDive(false);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);setConjAnswers({});setConjChecked(false);setShowHint(false);setShowTrans(false);};
 
   // Done screen + null guard moved after useMemo (line ~10911) to satisfy Rules of Hooks
+
+  // Swipe navigation — attach at document level for lesson cards
+  useEffect(()=>{
+    const el=document.querySelector('[data-kb-owner="lesson"]')?.closest('.anim')||document.body;
+    const {onTouchStart,onTouchEnd}=swipeHandlers;
+    el.addEventListener('touchstart',onTouchStart,{passive:true});
+    el.addEventListener('touchend',onTouchEnd,{passive:true});
+    return()=>{el.removeEventListener('touchstart',onTouchStart);el.removeEventListener('touchend',onTouchEnd);};
+  },[si,answered,swipeHandlers.onTouchStart,swipeHandlers.onTouchEnd]);
 
   const ProgressBar=()=>(
     <div data-kb-owner="lesson" style={{marginBottom:20}}>
