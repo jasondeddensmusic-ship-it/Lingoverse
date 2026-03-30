@@ -40,14 +40,18 @@
 - Cross-language audit (D109): 157 PP8 fixed. CEFR PASS (1 gap: A2 imperative).
 - CEFR distribution flagged (D110): 8-8-7-6 was template-based.
 
-### V2 (new rehaul format — ACTIVE BUILD)
-- 12 units (A1 U1-U6 + A2 U7-U12), 123 lessons, 3,140 steps, 1,450 teach cards
+### V2 (new rehaul format — PERFECT)
+- 36 units (A1 6 + A2 6 + B1 12 + B2 12), 369 lessons, 9,396 steps, 5,147 teach cards
 - Story system with Verumius protagonist, funFact on every card
-- A2 PP52 fixes (42 violations fixed), PP8 fixes (17 severe + 20 pattern leaks)
-- 25 vocab gap-filler lessons (L9-L13 per unit) — Goethe words, no story layer yet
-- MISSING: POS/gender tags (P59), trg/src field rename, story integration for vocab lessons
-- B1 build (U13-U24) and B2 build (U25-U36) pending
+- ALL validations PASS: PP8, PP43 (max 32), PP48, PP52, PP59 (pos/gender), PP61 (metalanguage)
+- Full field rename: nl→trg, en→src, exampleEn→exampleSrc
 - Master batch plan: docs/GERMAN_MASTER_BATCH_PLAN.md
+
+### V2 Arabic Source (srcLang:"ar")
+- 36 units generated (scaffolds from EN source). A1+A2 (12 units) fully translated to Arabic MSA.
+- B1: 5/12 translated (U13, U14, U17, U23, U24). B2: 0/12. ~4,500 [AR] markers remain.
+- Arabic-specific pedagogy: ch≈خ, /p/ warnings, neuter=محايد, compound≈إضافة, cases=إعراب.
+- PAUSED — English source features need to be functional first.
 
 ## French (v1) — PRODUCTION-READY (old format, pending rehaul)
 
@@ -76,3 +80,15 @@
 - LANG_META: All 11 complete
 - LANG_BLUEPRINT: nl, de, ar, fr, es populated
 - SCRIPT_BLUEPRINTS: 7 scripts (hangul, kana, arabic, hanzi, cyrillic, latin_complex, latin_simple)
+
+## Mobile Optimization (2026-03-30)
+
+- Bottom nav: 5 tabs (Home, Learn, Chat, Reference, Profile). Hidden on desktop (>700px).
+- Verumius FAB: floating purple button on mobile, opens chat panel. Hidden on chat page + desktop.
+- Safe areas: viewport-fit:cover, env(safe-area-inset-*) on nav bars + main content.
+- Bottom sheets: useBottomSheet hook (swipe-to-dismiss) on word popup.
+- Swipe navigation: useSwipe hook on lesson cards (left=next, right=back).
+- Touch targets: min 44x44px on all interactive elements.
+- Responsive: clamp() typography, auto-fill grids, overflow-wrap, scroll lock on modals.
+- Chat: Old Nova (broken CORS) replaced with Verumius full-page chat (Cloudflare Workers).
+- iOS: 16px inputs (no auto-zoom), dvh units, touch-action:manipulation.

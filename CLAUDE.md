@@ -267,7 +267,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (new) | 36 | 369 | 9,396 | 5,147 | **PERFECT.** All validations PASS: PP8, PP43, PP48, PP52, PP59, PP61. |
-| German v2 (AR) | v2 (new) | 6 | 80 | 1,905 | 907 | A1 scaffolds. srcLang:"ar". ~5,031 [AR] markers need Arabic translation. |
+| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | A1+A2 translated. B1 5/12, B2 0/12. 19 units with [AR] markers remain. PAUSED. |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -290,7 +290,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Density reduction** (2026-03-29): PP43 updated to 30-step cap (soft 32). PP64 added (teach-then-test). 52 lessons split across 20 units. 328→369 lessons, ~8,200→~9,350 steps. **ZERO lessons over 32 steps.** No content deletion — all splits only.
 - **Full validation** (2026-03-29): PP59 pos/gender (1,553 A1+A2 cards tagged), PP61 metalanguage (45+ B2 tips translated), PP8 anti-leak (205+ B2 violations fixed), PP52 teach-before-use (5 B2 fixes), PP48 fb blanks (0 violations). **ALL CHECKS PASS.**
 - **Foundations aesthetic** (2026-03-29): Reference mode aligned with lesson engine design system (compound bubbles, candy buttons, gloss arcs, proper fonts/radii).
-- **Arabic source language** (2026-03-29): Onboarding 2-step flow, srcLang filtering, RTL flags, A1 scaffolds (6 units). ~5,031 [AR] markers need Arabic translation. Generator script at `scripts/generate-arabic-units.cjs`.
+- **Arabic source language** (2026-03-29): Onboarding 2-step flow, srcLang filtering, RTL flags, A1 scaffolds (6 units). Generator script at `scripts/generate-arabic-units.cjs`.
+- **Arabic translation** (2026-03-30): A1+A2 (12 units) fully translated. A2-B2 scaffolds generated (36 total units). 19 B1/B2 units remain (~4,500 [AR] markers). PAUSED.
+- **Mobile optimization** (2026-03-30): Bottom nav (5 tabs), Verumius FAB, safe areas, swipe navigation, bottom sheets, responsive typography/grids, touch targets, button feedback. Old Nova chat replaced with Verumius full-page chat.
+- **Chat system** (2026-03-30): Nova killed (broken CORS). Verumius full-page chat via Cloudflare Workers. FAB opens floating panel on non-chat pages.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -300,17 +303,23 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 5. ~~B2 content not validated~~ — **RESOLVED.** PP8 (205+ fixes), PP52 (5 fixes), PP48 all PASS.
 6. ~~pos/gender fields missing~~ — **RESOLVED.** All 5,147 teach cards tagged (PP59 PASS).
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-8. **Arabic source language** — A1 scaffolds generated (6 units), ~5,031 [AR] markers need real Arabic translations. A2-B2 scaffolds not yet generated.
+8. ~~Arabic A1 translation~~ — **RESOLVED.** A1+A2 fully translated. 19 B1/B2 units remain (PAUSED).
+9. **Dictionary system** — Word click/popup not functional for German v2.
+10. **GrammarPage** — Hardcoded Dutch only, not reusable for other languages.
+11. **IdiomsPage** — Hardcoded Dutch only.
+12. **Mobile optimization** — DONE (2026-03-30). Bottom nav, FAB, safe areas, swipe, bottom sheets.
 
 ---
 
 ## Next Priorities
 
-1. **Arabic translation** — Fill [AR] markers in `src/data/german-v2-ar/unit-01.js` through `unit-06.js`. See `docs/SESSION_HANDOFF_2026-03-29c.md` for full details.
-2. **Arabic A2-B2 scaffolds** — Run `node scripts/generate-arabic-units.cjs N` for units 7-36, create wrapper files.
-3. **LessonEngine RTL** — Apply `srcDir` to all source-text containers in LessonEngine.jsx.
-4. **Arabic Foundations** — Create `FOUNDATIONS_BY_LANG.de_ar` for Arabic-speaker German foundations.
-5. **Other language rehauling**: Korean → Dutch → French → Spanish
+1. **Dictionary system** — Get word click working for German v2. WORD_DB needs German entries.
+2. **Reference page content** — Improve CefrReferencePage data quality for German.
+3. **GrammarPage generalization** — Either generalize beyond Dutch or fold into CefrReferencePage.
+4. **Arabic translation (when P1 done)** — 19 units with [AR] markers. See `docs/archive/SESSION_HANDOFF_2026-03-30b.md`.
+5. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing. PAUSED.
+6. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
+7. **Other language rehauling**: Korean → Dutch → French → Spanish
 
 ---
 
@@ -325,7 +334,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Latest session handoff with full context.
+- **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Latest session handoff (mobile optimization + chat fix).
+- **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Milestone: German v2 PERFECT validation.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
 - **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
@@ -349,7 +359,7 @@ Historical docs. Not needed for current work.
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-03-25.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-03-30c.md` for latest context.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
