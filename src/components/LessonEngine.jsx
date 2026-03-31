@@ -3280,7 +3280,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     {r.note&&<span style={{fontSize:10,fontWeight:700,color:"var(--purple-accent-text)",background:"rgba(123,94,232,0.08)",borderRadius:6,padding:"1px 6px",letterSpacing:0.5}}>{r.note}</span>}
                   </div>
                   <div style={{flex:"1 1 50%",textAlign:"right"}}>
-                    <span style={{fontSize:14,color:"var(--gray-400)",fontWeight:500}}>{r.en}</span>
+                    <span style={{fontSize:14,color:"var(--gray-600)",fontWeight:500}}>{r.en}</span>
                   </div>
                 </div>;
               })}
@@ -3318,7 +3318,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 }
                 // → line not preceded by Korean (standalone translation) — teal text
                 if(line.trim().startsWith("→")&&!hasKorean){
-                  rendered.push(<div key={ri} style={{fontSize:13,fontWeight:500,color:"var(--gray-500)",paddingLeft:16,paddingBottom:4,lineHeight:1.5}}>{hl(line.trim().slice(1).trim())}</div>);
+                  rendered.push(<div key={ri} style={{fontSize:13,fontWeight:500,color:"var(--gray-700)",paddingLeft:16,paddingBottom:4,lineHeight:1.5}}>{hl(line.trim().slice(1).trim())}</div>);
                   ri++;continue;
                 }
                 rendered.push(ri);// placeholder — fall through to normal renderer
@@ -3348,15 +3348,15 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               if(line.startsWith("•")){
                 const bullet=line.slice(1).trim();
                 const bArrow=bullet.match(/^(.+?)\s*[=→]\s*(.+)$/);
-                if(bArrow) return <div key={i} style={{padding:"4px 0 4px 8px",display:"flex",gap:6,alignItems:"center",flexWrap:"wrap"}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span style={{fontSize:16,fontWeight:700,color:"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{hl(bArrow[1].trim())}</span><span style={{color:"var(--gray-300)",fontSize:11}}>→</span><span style={{fontSize:14,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(bArrow[2].trim())}</span></div>;
-                return <div key={i} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 8px",display:"flex",gap:6,lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span>{hl(bullet)}</span></div>;
+                if(bArrow) return <div key={i} style={{padding:"4px 0 4px 8px",display:"flex",gap:6,alignItems:"center",flexWrap:"wrap"}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span style={{fontSize:16,fontWeight:700,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{hl(bArrow[1].trim())}</span><span style={{color:"var(--gray-400)",fontSize:11}}>→</span><span style={{fontSize:14,fontWeight:500,color:"var(--gray-700)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(bArrow[2].trim())}</span></div>;
+                return <div key={i} style={{fontSize:15,color:"var(--gray-800)",padding:"3px 0 3px 8px",display:"flex",gap:6,lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700}}>•</span><span>{hl(bullet)}</span></div>;
               }
               // ✅ / ❌ lines
               if(line.startsWith("✅")) return <div key={i} style={{background:"rgba(46,205,167,0.06)",borderRadius:8,padding:"6px 10px",margin:"2px 0",fontSize:14,fontWeight:500,color:"var(--gray-700)",lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
               if(line.startsWith("❌")) return <div key={i} style={{background:"rgba(239,68,68,0.06)",borderRadius:8,padding:"6px 10px",margin:"2px 0",fontSize:14,fontWeight:500,color:"var(--gray-700)",lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
               // Full line: nl = en  or  nl → en (short pairs only)
               const arrow=line.match(/^([A-Za-zÀ-ÿ'][^=→]{0,48}?)\s*[=→]\s*(.+)$/);
-              if(arrow&&!line.startsWith("✅")&&!line.startsWith("❌")){const isAllCaps=/^[A-Z][A-Z ]+$/.test(arrow[1].trim());return <div key={i} style={{display:"flex",gap:8,alignItems:"center",padding:"4px 0",flexWrap:"wrap"}}><span style={{fontSize:isAllCaps?13:16,fontWeight:isAllCaps?800:700,color:isAllCaps?"var(--purple-accent-text)":"var(--gray-700)",fontFamily:"'Quicksand','system-ui',sans-serif",letterSpacing:isAllCaps?1:0}}>{hl(arrow[1].trim())}</span><span style={{color:"var(--gray-300)",fontSize:11}}>→</span><span style={{fontSize:14,fontWeight:500,color:"var(--gray-500)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(arrow[2].trim())}</span></div>;}
+              if(arrow&&!line.startsWith("✅")&&!line.startsWith("❌")){const isAllCaps=/^[A-Z][A-Z ]+$/.test(arrow[1].trim());return <div key={i} style={{display:"flex",gap:8,alignItems:"center",padding:"4px 0",flexWrap:"wrap"}}><span style={{fontSize:isAllCaps?13:16,fontWeight:isAllCaps?800:700,color:isAllCaps?"var(--purple-accent-text)":"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",letterSpacing:isAllCaps?1:0}}>{hl(arrow[1].trim())}</span><span style={{color:"var(--gray-400)",fontSize:11}}>→</span><span style={{fontSize:14,fontWeight:500,color:"var(--gray-700)",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(arrow[2].trim())}</span></div>;}
               // Pure Korean word line → glossy pill grid (e.g. 커피  택시  버스)
               const koWords=line.trim().split(/\s+/).filter(Boolean);
               const isPureKoLine=koWords.length>=3&&koWords.every(w=>/^[\uAC00-\uD7AF\u3130-\u318F]+$/.test(w));
@@ -3373,7 +3373,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               }
               // Regular text: only bold if it's a section-like header ending with ":"
               const isHeader=line.trim().endsWith(":");
-              return <div key={i2} style={{fontSize:14,color:isHeader?"var(--gray-800)":"var(--gray-600)",fontWeight:isHeader?700:500,lineHeight:1.65,marginTop:isHeader?10:0,padding:"2px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
+              return <div key={i2} style={{fontSize:14,color:"var(--gray-800)",fontWeight:isHeader?700:500,lineHeight:1.65,marginTop:isHeader?10:0,padding:"2px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
             });})()}
           </div>
           {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div style={{borderTop:"1.5px solid rgba(123,94,232,0.12)",padding:"0 24px 4px"}}>
