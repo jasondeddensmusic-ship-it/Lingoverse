@@ -1031,7 +1031,7 @@ export const GERMAN_GRAMMAR = {
         "Wir hatten das Haus verlassen, als es zu regnen begann. - We had left the house when it started to rain.",
         "Er hatte nie zuvor Sushi gegessen. - He had never eaten sushi before.",
       ]},
-      { title: "als vs wenn", icon: "⏳", explanation: "Both mean 'when', but als is for single past events and wenn is for everything else: repeated past, present, future, and hypothetical.", rules: [
+      { title: "als vs wenn", icon: "⏳", explanation: "The als/wenn distinction is one of the most common error points for English speakers because both words translate as 'when', yet they are not interchangeable in German. Use als exclusively for a single, completed event or period in the past (Als ich ein Kind war). Use wenn for repeated past events (jedes Mal wenn), habitual present, future situations, and hypothetical/conditional clauses. A helpful rule: if you can replace 'when' with 'whenever' or 'if', use wenn. Both are subordinating conjunctions, so the verb goes to the end of their clause.", rules: [
         "**als** - ONE-TIME event in the PAST:",
         "*Als ich ein Kind war, lebte ich in Hamburg.*",
         "(When I was a child, I lived in Hamburg.)",
@@ -1074,7 +1074,7 @@ export const GERMAN_GRAMMAR = {
         "Ich frage mich, warum er nicht anruft. - I wonder why he doesn't call.",
         "Er hat mich gefragt, wann ich Geburtstag habe. - He asked me when my birthday is.",
       ]},
-      { title: "Verb lassen", icon: "🔧", explanation: "The verb lassen has three important meanings: to let/allow, to have something done (causative), and to leave. It sends the second verb to the end as infinitive.", rules: [
+      { title: "Verb lassen", icon: "🔧", explanation: "Lassen is one of the most versatile and high-frequency verbs in German, with three distinct meanings. As a permission verb it means to let or allow (Lass mich gehen). As a causative verb it means to have something done by someone else (Ich lasse mein Auto reparieren). As an action verb it means to leave something behind (Ich habe mein Handy zu Hause gelassen). In the Perfekt, the causative use creates a double infinitive (habe reparieren lassen), while the 'leave behind' use forms a normal past participle (habe gelassen).", rules: [
         "MEANING 1: To let / allow:",
         "*Lass mich in Ruhe!* - Leave me alone!",
         "*Er lasst mich nicht gehen.* - He doesn't let me go.",
@@ -1126,7 +1126,7 @@ export const GERMAN_GRAMMAR = {
         "Die Zeitung schreibt, es gebe neue Regeln. - The newspaper writes there are new rules.",
         "Man sagt, Deutsch sei schwer. - They say German is difficult.",
       ]},
-      { title: "Extended Adjective Constructions", icon: "📏", explanation: "German can pack an entire relative clause into an adjective phrase BEFORE the noun. This is common in formal writing and journalism.", rules: [
+      { title: "Extended Adjective Constructions", icon: "📏", explanation: "Extended adjective constructions are a hallmark of formal German prose, journalism, and academic writing. The construction converts a relative clause into a participle-based modifier placed before the noun, with all additional modifiers stacked between the article and the participle. While uncommon in speech, understanding these constructions is essential for reading newspapers, academic texts, and legal documents at B2 level. Recognizing the pattern (article + modifiers + participle with adjective ending + noun) is the key to parsing them.", rules: [
         "ENGLISH uses a relative clause AFTER the noun:",
         "The book **that was published last year** ...",
         "",
@@ -1149,7 +1149,7 @@ export const GERMAN_GRAMMAR = {
         "Das von meinem Grossvater gebaute Haus steht noch. - The house built by my grandfather still stands.",
         "Ein lange erwarteter Film kommt nachste Woche ins Kino. - A long-awaited film comes to theaters next week.",
       ]},
-      { title: "Nominalization", icon: "✨", explanation: "German freely turns verbs, adjectives, and other words into nouns. Nominalized words are always capitalized and take neuter gender (from verbs) or follow adjective declension (from adjectives).", rules: [
+      { title: "Nominalization", icon: "✨", explanation: "Nominalization, turning other word classes into nouns, is a core feature of German and far more productive than in English. Infinitives turned into nouns are always neuter (das Lesen, das Schwimmen). Adjectives turned into nouns retain full adjective declension: der Deutsche but ein Deutscher. These adjective-nouns are extremely common in formal contexts (der/die Angestellte, das Beste, das Wichtigste) and appear frequently in official documents and B2-level texts.", rules: [
         "VERBS → NEUTER NOUNS (infinitive as noun, always das):",
         "*lesen* → **das Lesen** (reading), *schwimmen* → **das Schwimmen** (swimming)",
         "Das Lesen macht mir Spass. - Reading is fun for me.",
@@ -1171,7 +1171,7 @@ export const GERMAN_GRAMMAR = {
         "Die Kranken brauchen Ruhe. - The sick need rest.",
         "Ein Fremder hat mich angesprochen. - A stranger spoke to me.",
       ]},
-      { title: "Participial Constructions", icon: "🔧", explanation: "Both present and past participles can function as adjectives or create reduced clauses. They follow normal adjective declension rules.", rules: [
+      { title: "Participial Constructions", icon: "🔧", explanation: "Participial constructions allow German to express information compactly by using participles as adjectives or adverbial phrases. The present participle (Partizip I, infinitive + -d: schlafend, lachend) expresses an ongoing action. The past participle (Partizip II) used adjectivally expresses a completed state (das gekochte Ei, das geschriebene Buch). Both types take full adjective declension when placed before a noun and appear frequently in the extended adjective constructions of formal B2 writing.", rules: [
         "PRESENT PARTICIPLE (Partizip I): infinitive + **-d**",
         "*schlafend* (sleeping), *lachend* (laughing), *kommend* (coming)",
         "Used as adjective: ein schlafend**es** Kind (a sleeping child)",
@@ -1193,7 +1193,7 @@ export const GERMAN_GRAMMAR = {
         "Die verlorene Zeit kommt nicht zuruck. - Lost time does not come back.",
         "Der ankommende Zug fahrt auf Gleis drei ein. - The arriving train enters platform three.",
       ]},
-      { title: "Es as Placeholder", icon: "🌤️", explanation: "The pronoun es has several grammatical functions beyond 'it'. It can be a placeholder subject for weather, existence, or impersonal constructions.", rules: [
+      { title: "Es as Placeholder", icon: "🌤️", explanation: "The word es serves far more functions in German than 'it' does in English, acting as a structural placeholder in several important constructions. It is the mandatory subject for weather expressions (es regnet) and impersonal constructions (es gibt, es geht mir gut). As a position-filler, es can occupy position 1 to maintain V2 word order (Es kamen viele Leute), but disappears when another element takes that position. Understanding these different uses is key to parsing and producing natural-sounding German.", rules: [
         "WEATHER and natural phenomena:",
         "**Es** regnet. / **Es** schneit. / **Es** ist kalt.",
         "",
@@ -1217,7 +1217,7 @@ export const GERMAN_GRAMMAR = {
         "Es wurde viel gelacht. - There was a lot of laughing.",
         "Es ist schade, dass du nicht kommen kannst. - It's a shame you can't come.",
       ]},
-      { title: "Advanced Connectors", icon: "⚡", explanation: "B2-level writing requires sophisticated connectors that go beyond weil/dass/wenn. These express proportional, alternative, and complex logical relationships.", rules: [
+      { title: "Advanced Connectors", icon: "⚡", explanation: "Sophisticated connectors distinguish B2 writing from lower-level production, allowing nuanced logical relationships that basic conjunctions cannot capture. The proportional connector je...desto requires special word order: the je-clause has verb-last, while the desto-clause has verb-second. Paired connectors like sowohl...als auch, weder...noch, and nicht nur...sondern auch build parallel structures that are concise and rhetorically effective. Each connector has its own word order rules, making them a key area of B2 grammar mastery.", rules: [
         "PROPORTIONAL:",
         "**je ... desto/umso** - the more ... the more:",
         "**Je** mehr ich lerne, **desto** besser verstehe ich.",
@@ -1240,7 +1240,7 @@ export const GERMAN_GRAMMAR = {
         "Er ist zwar jung, aber sehr erfahren. - He is admittedly young, but very experienced.",
         "Nicht nur das Essen, sondern auch der Service war ausgezeichnet. - Not only the food, but also the service was excellent.",
       ]},
-      { title: "Verb-Preposition Combos (da-/wo-)", icon: "🧩", explanation: "Many German verbs are fixed with a specific preposition. Da- and wo- compounds replace prepositional phrases for things (not people).", rules: [
+      { title: "Verb-Preposition Combos (da-/wo-)", icon: "🧩", explanation: "Many German verbs are permanently linked to a specific preposition (warten auf, sich freuen uber, denken an), and these combinations must be memorized as units. When referring to things rather than people, German replaces the preposition + pronoun with a da-compound (darauf, daruber, daran) and forms questions with wo-compounds (worauf, woruber, woran). For people, you keep the preposition + pronoun (auf wen, uber wen). This system is pervasive in German and affects everything from everyday conversation to formal writing.", rules: [
         "COMMON VERB + PREPOSITION COMBOS:",
         "*warten auf* (acc) - to wait for",
         "*sich freuen auf* (acc) - to look forward to",
@@ -1266,7 +1266,7 @@ export const GERMAN_GRAMMAR = {
         "Worauf wartest du? - What are you waiting for?",
         "Ich habe Angst vor der Prufung. - I am afraid of the exam.",
       ]},
-      { title: "Complex Word Order", icon: "🏗️", explanation: "At B2, you combine multiple clauses, each with its own word order rules. Understanding the verbal bracket and clause nesting is essential.", rules: [
+      { title: "Complex Word Order", icon: "🏗️", explanation: "At B2 level, you must fluently combine multiple clauses, each following its own word order rules, into coherent complex sentences. The main clause keeps V2 order, subordinate clauses send the verb to the end, and relative clauses have their own pronoun-based structure. When clauses are nested, you must track which verb belongs to which clause. The verbal bracket (Satzklammer) concept is key: in every clause type, certain elements are bracketed between the conjugated verb and remaining verb forms at the end.", rules: [
         "THE VERBAL BRACKET (Satzklammer):",
         "Conjugated verb (pos 2) ... rest of verb (end):",
         "Er **hat** gestern in Berlin ein Buch **gekauft**.",
@@ -1375,7 +1375,7 @@ export const GERMAN_GRAMMAR = {
         "In zehn Jahren werde ich mein Studium abgeschlossen haben. - In ten years I will have completed my studies.",
         "Du wirst dich schon daran gewohnt haben. - You will have gotten used to it by then.",
       ]},
-      { title: "TeKaMoLo Word Order", icon: "📐", explanation: "When a German sentence has multiple adverbials, they follow a preferred order: Temporal (when), Kausal (why), Modal (how), Lokal (where). This is a strong tendency, not an absolute rule.", rules: [
+      { title: "TeKaMoLo Word Order", icon: "📐", explanation: "When a German sentence contains multiple adverbial elements, they follow the preferred order Te-Ka-Mo-Lo: Temporal (when), Kausal (why), Modal (how), Lokal (where). This sequence reflects how German organizes information in the middle field between the conjugated verb and the clause end. While not an absolute rule, deviating from this order sounds unnatural unless you are deliberately emphasizing a particular element. Following TeKaMoLo automatically makes your German sound significantly more natural and fluent.", rules: [
         "TeKaMoLo = **Te**mporal - **Ka**usal - **Mo**dal - **Lo**kal",
         "",
         "**Temporal** (when): *gestern, morgen, um 8 Uhr, am Montag*",
@@ -1397,7 +1397,7 @@ export const GERMAN_GRAMMAR = {
         "Wir bleiben wegen des Regens zu Hause. - We stay at home because of the rain. (Ka-Lo)",
         "Er hat mir gestern freundlich im Buro geholfen. - He kindly helped me in the office yesterday.",
       ]},
-      { title: "Passive Alternatives", icon: "🔄", explanation: "German has several ways to express passive meaning without using werden. These are common in everyday speech and more elegant in writing.", rules: [
+      { title: "Passive Alternatives", icon: "🔄", explanation: "German offers several elegant alternatives to the werden-passive that are often preferred in everyday speech and polished writing. The sich lassen construction expresses possibility (Das lasst sich machen), sein + zu + infinitive expresses necessity (Die Aufgabe ist zu erledigen), and the -bar suffix works like English -able/-ible (machbar, essbar). The impersonal man is another common way to avoid passive entirely. Using these alternatives makes your German sound more natural and varied.", rules: [
         "**sich lassen** + infinitive: 'can be done'",
         "*Das lasst sich machen.* - That can be done.",
         "*Das Problem lasst sich losen.* - The problem can be solved.",
