@@ -25,7 +25,15 @@ export const GERMAN_GRAMMAR = {
         "Wir wohnen in Berlin. - We live in Berlin.",
         "Sind Sie Herr Muller? - Are you Mr. Muller? (formal)",
       ]},
-      { title: "Present Tense: Regular Verbs", icon: "⚙️", explanation: "Most German verbs follow a predictable pattern. Remove -en from the infinitive to get the stem, then add these endings.", rules: [
+      { title: "Present Tense: Regular Verbs", icon: "⚙️", explanation: "Most German verbs follow a predictable pattern in the present tense. Remove -en from the infinitive to get the stem, then add the correct ending for each pronoun. The ich form always ends in -e, and the wir/sie/Sie forms always match the infinitive. If the stem ends in -t or -d, an extra -e is inserted before -st and -t to make pronunciation easier.", tableTitle: "Present Tense: machen (to do/make)", tableCols: "1fr 1fr 1fr", table: [
+        ["Pronoun", "Ending", "Form"],
+        ["ich", "-e", "mache"],
+        ["du", "-st", "machst"],
+        ["er/sie/es", "-t", "macht"],
+        ["wir", "-en", "machen"],
+        ["ihr", "-t", "macht"],
+        ["sie/Sie", "-en", "machen"],
+      ], rules: [
         "STEP 1: Take the infinitive: *machen* (to do/make)",
         "STEP 2: Remove *-en* to get the stem: **mach**",
         "",
@@ -46,7 +54,15 @@ export const GERMAN_GRAMMAR = {
         "Wir kaufen Brot. - We buy bread.",
         "Ihr trinkt Kaffee. - You all drink coffee.",
       ]},
-      { title: "sein & haben", icon: "🔑", explanation: "The two most important verbs in German. Both are highly irregular and must be memorized.", rules: [
+      { title: "sein & haben", icon: "🔑", explanation: "These are the two most important verbs in German, and both are completely irregular - they must be memorized. Sein (to be) and haben (to have) serve double duty: they are used on their own as main verbs, and they also act as auxiliary (helper) verbs to form past tenses. Notice that ich bin and er ist have no predictable endings, and wir/sie/Sie share the same form for both verbs.", tableTitle: "sein & haben: Full Conjugation", tableCols: "1fr 1fr 1fr", table: [
+        ["Pronoun", "sein (to be)", "haben (to have)"],
+        ["ich", "bin", "habe"],
+        ["du", "bist", "hast"],
+        ["er/sie/es", "ist", "hat"],
+        ["wir", "sind", "haben"],
+        ["ihr", "seid", "habt"],
+        ["sie/Sie", "sind", "haben"],
+      ], rules: [
         "SEIN (to be):",
         "**ich bin** - I am",
         "**du bist** - you are",
@@ -92,7 +108,15 @@ export const GERMAN_GRAMMAR = {
         "Er gibt mir das Geld. - He gives me the money.",
         "Sie schlaft noch. - She is still sleeping.",
       ]},
-      { title: "Modal Verbs", icon: "💪", explanation: "Six modal verbs express ability, permission, obligation, or desire. They send the main verb to the end of the sentence in infinitive form.", rules: [
+      { title: "Modal Verbs", icon: "💪", explanation: "German has six modal verbs that express ability, permission, obligation, desire, or assumption. They behave differently from regular verbs: the main verb they modify is pushed to the end of the sentence as an infinitive. Modals also share a key irregularity - the ich and er/sie/es forms are identical and take no ending. The ich form simply looks like the stem: ich kann, ich muss, ich will.", tableTitle: "Modal Verbs: Full Conjugation", tableCols: "1fr 1fr 1fr 1fr 1fr 1fr 1fr", table: [
+        ["Pronoun", "konnen", "mussen", "wollen", "sollen", "durfen", "mogen"],
+        ["ich", "kann", "muss", "will", "soll", "darf", "mag"],
+        ["du", "kannst", "musst", "willst", "sollst", "darfst", "magst"],
+        ["er/sie/es", "kann", "muss", "will", "soll", "darf", "mag"],
+        ["wir", "konnen", "mussen", "wollen", "sollen", "durfen", "mogen"],
+        ["ihr", "konnt", "musst", "wollt", "sollt", "durft", "mogt"],
+        ["sie/Sie", "konnen", "mussen", "wollen", "sollen", "durfen", "mogen"],
+      ], rules: [
         "**konnen** - can, to be able to",
         "**mussen** - must, to have to",
         "**wollen** - to want to",
@@ -133,7 +157,12 @@ export const GERMAN_GRAMMAR = {
         "Kommst du heute Abend mit? - Are you coming along tonight?",
         "Er fangt morgen mit der Arbeit an. - He starts work tomorrow.",
       ]},
-      { title: "Articles & Gender", icon: "🎨", explanation: "Every German noun has a grammatical gender: masculine (der), feminine (die), or neuter (das). You must learn the article with every noun.", rules: [
+      { title: "Articles & Gender", icon: "🎨", explanation: "Every German noun has a grammatical gender: masculine (der), feminine (die), or neuter (das). Gender is not always logical and must be memorized with each new noun. The definite article (the) and the indefinite article (a/an) both change form depending on gender. Plural nouns always use die regardless of their singular gender. There are helpful patterns: nouns ending in -ung, -heit, -keit, or -ion are almost always feminine, while nouns ending in -chen or -lein are always neuter.", tableTitle: "Articles in Nominative Case", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Article", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Definite (the)", "der", "die", "das", "die"],
+        ["Indefinite (a/an)", "ein", "eine", "ein", "-"],
+        ["Negative (no/not a)", "kein", "keine", "kein", "keine"],
+      ], rules: [
         "DEFINITE ARTICLES (the):",
         "**der** - masculine: *der Mann* (the man)",
         "**die** - feminine: *die Frau* (the woman)",
@@ -157,7 +186,11 @@ export const GERMAN_GRAMMAR = {
         "Ich habe einen Bruder und eine Schwester. - I have a brother and a sister.",
         "Die Bucher sind teuer. - The books are expensive.",
       ]},
-      { title: "Nominative vs Accusative Case", icon: "🎯", explanation: "German has four cases. At A1, focus on nominative (subject) and accusative (direct object). Only masculine articles change in accusative.", rules: [
+      { title: "Nominative vs Accusative Case", icon: "🎯", explanation: "German has four grammatical cases that show the role of each noun in the sentence. At A1, the two essential cases are nominative and accusative. The nominative marks the subject - the person or thing doing the action. The accusative marks the direct object - the person or thing receiving the action. The good news: only masculine articles change between nominative and accusative (der becomes den, ein becomes einen). Feminine, neuter, and plural forms stay the same.", tableTitle: "Definite Articles: Nominative and Accusative", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative (subject)", "der", "die", "das", "die"],
+        ["Accusative (direct obj.)", "den", "die", "das", "die"],
+      ], rules: [
         "NOMINATIVE (subject: who/what does the action):",
         "**der** Mann sieht ... / **ein** Mann sieht ...",
         "**die** Frau sieht ... / **eine** Frau sieht ...",
@@ -352,7 +385,12 @@ export const GERMAN_GRAMMAR = {
       ]},
     ],
     A2: [
-      { title: "Dative Case", icon: "🎁", explanation: "The dative marks the indirect object (to whom / for whom). All three genders change their articles in the dative.", rules: [
+      { title: "Dative Case", icon: "🎁", explanation: "The dative case marks the indirect object of a sentence - the person or thing to whom or for whom an action is done. Unlike the accusative where only masculine changes, all three genders and plural have distinct dative forms. A key feature of dative plural: all nouns gain an -n ending (unless they already end in -n or -s). Many common verbs like helfen, gefallen, and schmecken always take a dative object, which is why learning these verbs and the dative together is essential.", tableTitle: "Definite Articles: All Three Cases", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative", "der", "die", "das", "die"],
+        ["Accusative", "den", "die", "das", "die"],
+        ["Dative", "dem", "der", "dem", "den (+n)"],
+      ], rules: [
         "DEFINITE ARTICLES in dative:",
         "**dem** - masculine: *dem Mann*",
         "**der** - feminine: *der Frau*",
@@ -413,7 +451,17 @@ export const GERMAN_GRAMMAR = {
         "Sie ist um 8 Uhr aufgestanden. - She got up at 8 o'clock.",
         "Was habt ihr am Wochenende gemacht? - What did you do on the weekend?",
       ]},
-      { title: "Past Participle Formation", icon: "🔨", explanation: "The past participle (Partizip II) is needed for the Perfekt tense. Regular and irregular verbs form it differently.", rules: [
+      { title: "Past Participle Formation", icon: "🔨", explanation: "The past participle (Partizip II) is the key building block of the Perfekt tense. Regular verbs follow a simple formula: ge- + stem + -t. Irregular verbs must be memorized individually, as the stem often changes. Two important exceptions override the ge- prefix rule: verbs ending in -ieren never add ge-, and verbs with inseparable prefixes like be-, ver-, or er- also skip ge-. For separable verbs, the ge- is inserted between the prefix and the stem.", tableTitle: "Past Participle: Key Patterns", tableCols: "1fr 1fr 1fr 1fr", table: [
+        ["Type", "Infinitive", "Past Participle", "English"],
+        ["Regular", "machen", "gemacht", "done/made"],
+        ["Regular", "lernen", "gelernt", "learned"],
+        ["Irregular", "fahren", "gefahren", "driven"],
+        ["Irregular", "schreiben", "geschrieben", "written"],
+        ["-ieren verb", "studieren", "studiert", "studied"],
+        ["Inseparable", "besuchen", "besucht", "visited"],
+        ["Separable", "einkaufen", "eingekauft", "shopped"],
+        ["Separable", "aufstehen", "aufgestanden", "got up"],
+      ], rules: [
         "REGULAR VERBS: **ge-** + stem + **-t**",
         "*machen* → **gemacht**, *lernen* → **gelernt**, *kaufen* → **gekauft**",
         "",
@@ -435,7 +483,15 @@ export const GERMAN_GRAMMAR = {
         "Sie hat mich besucht. - She visited me. (inseparable)",
         "Ich habe gestern eingekauft. - I went shopping yesterday. (separable)",
       ]},
-      { title: "Simple Past: sein & haben", icon: "📜", explanation: "While most verbs use Perfekt in speech, sein and haben are almost always used in their simple past (Prateritum) forms instead.", rules: [
+      { title: "Simple Past: sein & haben", icon: "📜", explanation: "In spoken German, most verbs form the past with Perfekt (ich habe gemacht). However, sein and haben are an important exception - native speakers almost always use their simple past (Prateritum) forms even in casual conversation. These forms must be memorized. Notice that ich war and er war are identical with no ending, and the same is true for ich hatte and er hatte. The plural forms all add -en to the stem.", tableTitle: "sein & haben: Simple Past (Prateritum)", tableCols: "1fr 1fr 1fr", table: [
+        ["Pronoun", "sein (was/were)", "haben (had)"],
+        ["ich", "war", "hatte"],
+        ["du", "warst", "hattest"],
+        ["er/sie/es", "war", "hatte"],
+        ["wir", "waren", "hatten"],
+        ["ihr", "wart", "hattet"],
+        ["sie/Sie", "waren", "hatten"],
+      ], rules: [
         "SEIN (was/were):",
         "**ich war** - I was",
         "**du warst** - you were",
@@ -480,7 +536,12 @@ export const GERMAN_GRAMMAR = {
         "Lies das Buch! - Read the book! (du, irregular)",
         "Sei vorsichtig! - Be careful! (du)",
       ]},
-      { title: "Adjective Endings: Basics", icon: "🎨", explanation: "Adjectives placed before a noun need endings. The ending depends on the gender, case, and whether a der-word or ein-word comes before it.", rules: [
+      { title: "Adjective Endings: Basics", icon: "🎨", explanation: "When an adjective appears directly before a noun, it must carry an ending that reflects the noun's gender, case, and number. The most important pattern to learn first is after der-words (der, die, das, dieser, jeder, welcher). After der-words, the adjective ending is almost always -e in nominative singular and -en everywhere else. The table below covers nominative and accusative after der-words. Remember: in predicative position (after sein), adjectives take NO ending at all.", tableTitle: "Adjective Endings After der-Words", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative", "der gute Mann", "die gute Frau", "das gute Kind", "die guten Kinder"],
+        ["Accusative", "den guten Mann", "die gute Frau", "das gute Kind", "die guten Kinder"],
+        ["Dative", "dem guten Mann", "der guten Frau", "dem guten Kind", "den guten Kindern"],
+      ], rules: [
         "AFTER DER-WORDS (der, die, das, dieser, jeder):",
         "Most forms take **-e** or **-en**",
         "Nominative: der gut**e** Mann, die gut**e** Frau, das gut**e** Kind",
@@ -607,7 +668,15 @@ export const GERMAN_GRAMMAR = {
         "Vor einem Monat war ich in Wien. - A month ago I was in Vienna.",
         "Nach der Arbeit gehe ich einkaufen. - After work I go shopping.",
       ]},
-      { title: "Prateritum of Modals", icon: "📜", explanation: "Modal verbs in the simple past (Prateritum) lose their umlaut and add -te endings. These forms are very common in speech, unlike other Prateritum forms.", rules: [
+      { title: "Prateritum of Modals", icon: "📜", explanation: "While most German verbs use Perfekt in everyday speech, modal verbs are a significant exception - their simple past (Prateritum) forms are preferred even in conversation. Forming these is straightforward: remove any umlaut from the present-tense stem (konnen becomes konn-, mussen becomes muss-, etc.) and add the -te ending pattern. The ich and er/sie/es forms are identical, just like with sein and haben. The infinitive they govern still goes to the end of the sentence.", tableTitle: "Modals: Simple Past (Prateritum)", tableCols: "1fr 1fr 1fr 1fr 1fr 1fr 1fr", table: [
+        ["Pronoun", "konnen", "mussen", "wollen", "sollen", "durfen", "mogen"],
+        ["ich", "konnte", "musste", "wollte", "sollte", "durfte", "mochte"],
+        ["du", "konntest", "musstest", "wolltest", "solltest", "durftest", "mochtest"],
+        ["er/sie/es", "konnte", "musste", "wollte", "sollte", "durfte", "mochte"],
+        ["wir", "konnten", "mussten", "wollten", "sollten", "durften", "mochten"],
+        ["ihr", "konntet", "musstet", "wolltet", "solltet", "durftet", "mochtet"],
+        ["sie/Sie", "konnten", "mussten", "wollten", "sollten", "durften", "mochten"],
+      ], rules: [
         "**konnen** → **konnte** (could, was able to)",
         "**mussen** → **musste** (had to)",
         "**wollen** → **wollte** (wanted to)",
@@ -630,7 +699,15 @@ export const GERMAN_GRAMMAR = {
       ]},
     ],
     B1: [
-      { title: "Prateritum (Simple Past)", icon: "📖", explanation: "The Prateritum is the written past tense, used in narratives, news, and formal writing. In speech, only sein/haben and modals commonly use it.", rules: [
+      { title: "Prateritum (Simple Past)", icon: "📖", explanation: "The Prateritum is the written past tense used in novels, newspapers, and formal narratives. In everyday speech, Germans strongly prefer the Perfekt for past events, but sein, haben, and the modal verbs are the major exception - they appear in Prateritum even in conversation. Regular verbs form it by adding -te endings to the stem, while irregular (strong) verbs change their stem vowel entirely and take no ending in the ich and er/sie/es forms. Learning the principal parts (Stammformen) of the most common strong verbs - gehen/ging, kommen/kam, fahren/fuhr - is one of the key B1 milestones.", tableTitle: "Prateritum: Regular vs. Irregular", tableCols: "1fr 1fr 1fr", table: [
+        ["Pronoun", "machen (regular, -te)", "fahren (irregular)"],
+        ["ich", "machte", "fuhr"],
+        ["du", "machtest", "fuhrst"],
+        ["er/sie/es", "machte", "fuhr"],
+        ["wir", "machten", "fuhren"],
+        ["ihr", "machtet", "fuhrt"],
+        ["sie/Sie", "machten", "fuhren"],
+      ], rules: [
         "REGULAR VERBS: stem + **-te** endings:",
         "**ich machte**, du machtest, er machte",
         "wir machten, ihr machtet, sie machten",
@@ -653,7 +730,13 @@ export const GERMAN_GRAMMAR = {
         "Ich konnte nicht schlafen. - I could not sleep.",
         "Es regnete den ganzen Tag. - It rained all day.",
       ]},
-      { title: "Genitive Case", icon: "👑", explanation: "The genitive shows possession (of/belonging to). It is the fourth and final German case. Masculine and neuter nouns add -(e)s.", rules: [
+      { title: "Genitive Case", icon: "👑", explanation: "The genitive is the fourth German case and expresses possession or belonging, equivalent to English 'of' or the apostrophe-s construction. Masculine and neuter nouns add -(e)s in the genitive: des Mannes, des Kindes. Feminine nouns and plural nouns take no extra ending on the noun itself, but the article changes: der Frau, der Kinder. In everyday speech, von + dative often replaces the genitive, but the genitive is required in formal writing and after a fixed set of prepositions including wahrend, wegen, trotz, and ausserhalb.", tableTitle: "Genitive: Definite Articles by Case and Gender", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative", "der", "die", "das", "die"],
+        ["Accusative", "den", "die", "das", "die"],
+        ["Dative", "dem", "der", "dem", "den"],
+        ["Genitive", "des", "der", "des", "der"],
+      ], rules: [
         "DEFINITE ARTICLES in genitive:",
         "**des** - masculine: *des Mannes* (add **-es** to short nouns)",
         "**der** - feminine: *der Frau* (no noun ending)",
@@ -675,7 +758,12 @@ export const GERMAN_GRAMMAR = {
         "Trotz des Regens gehen wir spazieren. - Despite the rain, we go for a walk.",
         "Das Buro meines Vaters ist gross. - My father's office is big.",
       ]},
-      { title: "Passive Voice (Passiv)", icon: "🔄", explanation: "The passive shifts focus from who does the action to what is being done. It is formed with werden + past participle.", rules: [
+      { title: "Passive Voice (Passiv)", icon: "🔄", explanation: "The German passive voice shifts the focus from who performs an action to what is being done or what was done. It is built with a conjugated form of werden plus the past participle placed at the end of the clause. The tense is carried entirely by werden: present werden, Prateritum wurde, and Perfekt ist ... worden (note: not geworden). If you want to name the agent (the doer), use von + dative for people and durch + accusative for instruments or forces. In practice, passive sentences often omit the agent entirely when it is unknown or unimportant.", tableTitle: "Passive Voice Across Tenses", tableCols: "1fr 1fr 1fr", table: [
+        ["Tense", "Structure", "Example"],
+        ["Present (Prasens)", "wird + past participle", "Das Haus wird gebaut."],
+        ["Simple Past (Prateritum)", "wurde + past participle", "Das Haus wurde gebaut."],
+        ["Perfect (Perfekt)", "ist + past participle + worden", "Das Haus ist gebaut worden."],
+      ], rules: [
         "PRESENT PASSIVE: **werden** (conjugated) + past participle (at end):",
         "Das Haus **wird** gebaut. - The house is being built.",
         "",
@@ -697,7 +785,15 @@ export const GERMAN_GRAMMAR = {
         "Das Museum wird um 18 Uhr geschlossen. - The museum is closed at 6 PM.",
         "Viele Hauser wurden im Krieg zerstort. - Many houses were destroyed in the war.",
       ]},
-      { title: "Konjunktiv II (Subjunctive)", icon: "💭", explanation: "Konjunktiv II expresses wishes, hypothetical situations, and polite requests. The most common form uses wurde + infinitive.", rules: [
+      { title: "Konjunktiv II (Subjunctive)", icon: "💭", explanation: "Konjunktiv II is the German subjunctive mood used for hypothetical statements, wishes, polite requests, and unreal conditions. The safest and most widely used strategy is wurde + infinitive, which works for almost any verb and is understood by all speakers. However, a small set of high-frequency verbs - sein (ware), haben (hatte), and the modals - have their own distinct Konjunktiv II forms that are strongly preferred over the wurde alternative. Unreal if-clauses (wenn-clauses) combine a Konjunktiv II form in the wenn-clause with wurde + infinitive (or another Konjunktiv II form) in the result clause.", tableTitle: "Konjunktiv II: Key Pronoun Forms", tableCols: "1fr 1fr 1fr 1fr", table: [
+        ["Pronoun", "wurde + inf.", "ware (sein)", "hatte (haben)"],
+        ["ich", "ich wurde ... reisen", "ich ware", "ich hatte"],
+        ["du", "du wurdest ... reisen", "du warest", "du hattest"],
+        ["er/sie/es", "er wurde ... reisen", "er ware", "er hatte"],
+        ["wir", "wir wurden ... reisen", "wir waren", "wir hatten"],
+        ["ihr", "ihr wurdet ... reisen", "ihr waret", "ihr hattet"],
+        ["sie/Sie", "sie wurden ... reisen", "sie waren", "sie hatten"],
+      ], rules: [
         "WURDE + INFINITIVE (the go-to form):",
         "Ich **wurde** gern nach Japan **reisen**. - I would like to travel to Japan.",
         "",
@@ -719,7 +815,13 @@ export const GERMAN_GRAMMAR = {
         "Er hatte gern ein neues Auto. - He would like a new car.",
         "Wenn es nicht regnen wurde, gingen wir spazieren. - If it weren't raining, we'd go for a walk.",
       ]},
-      { title: "Relative Clauses", icon: "🔗", explanation: "Relative clauses add information about a noun. They start with a relative pronoun (der/die/das) and send the verb to the end.", rules: [
+      { title: "Relative Clauses", icon: "🔗", explanation: "A relative clause adds defining or descriptive information about a noun and is always set off by commas. The relative pronoun must agree with the noun it refers to in gender and number, but its case is determined by its grammatical role inside the relative clause - not the case of the noun in the main clause. For most cases, the relative pronoun looks just like the definite article, with the notable exceptions of the dative plural (denen) and the entire genitive (dessen/deren/dessen/deren). The conjugated verb is always sent to the very end of the relative clause.", tableTitle: "Relative Pronouns by Case and Gender", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative", "der", "die", "das", "die"],
+        ["Accusative", "den", "die", "das", "die"],
+        ["Dative", "dem", "der", "dem", "denen"],
+        ["Genitive", "dessen", "deren", "dessen", "deren"],
+      ], rules: [
         "RELATIVE PRONOUNS match the gender/number of the noun they refer to:",
         "Masculine: **der**, Feminine: **die**, Neuter: **das**, Plural: **die**",
         "",
@@ -763,7 +865,13 @@ export const GERMAN_GRAMMAR = {
         "Sie ging, ohne sich zu verabschieden. - She left without saying goodbye.",
         "Es ist wichtig, gesund zu essen. - It is important to eat healthy.",
       ]},
-      { title: "Full Adjective Declension", icon: "📊", explanation: "At B1, you need all three adjective declension patterns: after der-words (weak), after ein-words (mixed), and with no article (strong).", rules: [
+      { title: "Full Adjective Declension", icon: "📊", explanation: "German adjectives must carry a grammatical signal showing the gender, case, and number of the noun they describe. When a definite article (der/die/das) already provides this signal clearly, the adjective uses a minimal weak ending (-e or -en). When an indefinite article (ein/mein/kein) fails to signal gender in certain slots, the adjective steps in with a stronger ending. When there is no article at all, the adjective alone must carry the full signal, producing the strong declension endings that mirror the definite articles. The table below shows the weak pattern (after der-words); mixed endings differ only in nominative masculine, nominative and accusative neuter, where -er and -es replace -e.", tableTitle: "Weak Declension (after der, diese, jede, welche)", tableCols: "1fr 1fr 1fr 1fr 1fr", table: [
+        ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        ["Nominative", "-e (der alte)", "-e (die alte)", "-e (das alte)", "-en (die alten)"],
+        ["Accusative", "-en (den alten)", "-e (die alte)", "-e (das alte)", "-en (die alten)"],
+        ["Dative", "-en (dem alten)", "-en (der alten)", "-en (dem alten)", "-en (den alten)"],
+        ["Genitive", "-en (des alten)", "-en (der alten)", "-en (des alten)", "-en (der alten)"],
+      ], rules: [
         "WEAK (after der/die/das, dieser, jeder, welcher):",
         "Nom: -e (all), Acc: -e (f/n), -en (m), Dat: -en (all), Gen: -en (all)",
         "",
@@ -990,7 +1098,15 @@ export const GERMAN_GRAMMAR = {
       ]},
     ],
     B2: [
-      { title: "Konjunktiv I (Indirect Speech)", icon: "🗣️", explanation: "Konjunktiv I is used in formal writing and journalism to report what someone else said, without expressing your own opinion on its truth.", rules: [
+      { title: "Konjunktiv I (Indirect Speech)", icon: "🗣️", explanation: "Konjunktiv I is the indirect speech mood used in formal German writing - particularly journalism, academic prose, and official reporting - to present someone else's words or claims without endorsing them as true. It is formed from the infinitive stem with the endings -e, -est, -e, -en, -et, -en. The third-person singular is by far the most frequent form: er sei, sie habe, es gebe. When a Konjunktiv I form is identical to the present indicative (which happens often in plural forms), the speaker switches to Konjunktiv II to preserve the indirect speech signal. In informal spoken German, the indicative is used instead.", tableTitle: "Konjunktiv I: sein, haben, kommen", tableCols: "1fr 1fr 1fr 1fr", table: [
+        ["Pronoun", "sein", "haben", "kommen"],
+        ["ich", "sei", "habe", "komme"],
+        ["du", "sei(e)st", "habest", "kommest"],
+        ["er/sie/es", "sei", "habe", "komme"],
+        ["wir", "seien", "haben*", "kommen*"],
+        ["ihr", "seiet", "habet", "kommet"],
+        ["sie/Sie", "seien", "haben*", "kommen*"],
+      ], rules: [
         "FORMATION: infinitive stem + endings (-e, -est, -e, -en, -et, -en):",
         "*haben*: er **habe**, *sein*: er **sei**, *kommen*: er **komme**",
         "",
@@ -1177,7 +1293,13 @@ export const GERMAN_GRAMMAR = {
         "Nachdem sie angekommen war, rief sie ihre Mutter an. - After she had arrived, she called her mother.",
         "Er behauptet, dass er das Buch, das ich ihm geliehen habe, nie bekommen hat. - He claims he never received the book I lent him.",
       ]},
-      { title: "Konjunktiv II Past", icon: "💭", explanation: "Konjunktiv II past expresses unreal conditions in the past: 'If I had known..., I would have...' It uses hatte/ware + past participle.", rules: [
+      { title: "Konjunktiv II Past", icon: "💭", explanation: "Konjunktiv II past describes situations in the past that did not happen: missed opportunities, regrets, and counterfactual conditions. It is built with hatte or ware (both Konjunktiv II forms) followed by the past participle at the end of the clause. The choice between hatte and ware mirrors the Perfekt rule: movement and state-change verbs use ware, all others use hatte. When a past wenn-clause combines with a past result clause, both parts use this structure. Modal verbs create a triple-infinitive cluster: hatte + infinitive + modal infinitive (e.g., hatte kommen konnen).", tableTitle: "Konjunktiv II Past: Structure Types", tableCols: "1fr 1fr 1fr", table: [
+        ["Type", "Structure", "Example"],
+        ["Most verbs (hatte)", "hatte + past participle", "Ich hatte das gewusst."],
+        ["Movement/change (ware)", "ware + past participle", "Er ware gekommen."],
+        ["With modal", "hatte + inf. + modal inf.", "Ich hatte helfen konnen."],
+        ["Full if-clause", "wenn ... hatte/ware, ... hatte/ware", "Wenn ich gewusst hatte, hatte ich geholfen."],
+      ], rules: [
         "STRUCTURE: **hatte/ware** + past participle:",
         "Ich **hatte** das **gewusst**. - I would have known that.",
         "Er **ware** **gekommen**. - He would have come.",
@@ -1199,7 +1321,13 @@ export const GERMAN_GRAMMAR = {
         "Ich hatte das nicht sagen sollen. - I shouldn't have said that.",
         "Wenn es nicht geregnet hatte, waren wir spazieren gegangen. - If it hadn't rained, we would have gone for a walk.",
       ]},
-      { title: "Zustandspassiv (Stative Passive)", icon: "🔒", explanation: "The Zustandspassiv (sein + past participle) describes the RESULT of an action, not the action itself. Compare: 'The door is being opened' vs 'The door is open'.", rules: [
+      { title: "Zustandspassiv (Stative Passive)", icon: "🔒", explanation: "German has two distinct passive constructions and mixing them is a common error. The Vorgangspassiv (werden + past participle) describes an action or process as it is happening or being carried out. The Zustandspassiv (sein + past participle) describes the resulting state that exists after the action has been completed - the focus shifts from the event to its permanent or lasting effect. Compare: Die Tur wird geoffnet describes the act of opening, while Die Tur ist geoffnet describes the door in its open state. In past contexts, was/were + adjective-like past participle (war geoffnet, waren geschlossen) is the natural Zustandspassiv form.", tableTitle: "Vorgangspassiv vs. Zustandspassiv", tableCols: "1fr 1fr 1fr", table: [
+        ["Type", "Structure", "Meaning"],
+        ["Vorgangspassiv (present)", "wird + past participle", "Die Tur wird geoffnet. (being opened)"],
+        ["Vorgangspassiv (past)", "wurde + past participle", "Die Tur wurde geoffnet. (was opened)"],
+        ["Zustandspassiv (present)", "ist + past participle", "Die Tur ist geoffnet. (is open - result)"],
+        ["Zustandspassiv (past)", "war + past participle", "Die Tur war geoffnet. (was open - result)"],
+      ], rules: [
         "VORGANGSPASSIV (action/process): **werden** + PP",
         "*Die Tur **wird** geoffnet.* - The door is being opened. (action happening)",
         "",
@@ -1220,7 +1348,13 @@ export const GERMAN_GRAMMAR = {
         "Die Platze sind reserviert. - The seats are reserved.",
         "Alles ist vorbereitet. - Everything is prepared.",
       ]},
-      { title: "Futur II (Future Perfect)", icon: "🔮", explanation: "Futur II expresses that something will have been completed by a future point, or makes assumptions about what has probably already happened.", rules: [
+      { title: "Futur II (Future Perfect)", icon: "🔮", explanation: "Futur II is built from werden + past participle + haben or sein, and it has two distinct uses that learners must separate clearly. The first use - expressing completion by a future point - is relatively rare in natural German speech; a Perfekt with a time expression (Bis morgen habe ich es fertig) is almost always preferred. The second and far more common use is epistemic: making a confident assumption about what has probably already happened. Words like wohl, sicher, and bestimmt frequently appear alongside this epistemic use. The haben/sein choice for the auxiliary follows the same rule as Perfekt.", tableTitle: "Futur II: Usage at a Glance", tableCols: "1fr 1fr 1fr", table: [
+        ["Usage", "Structure", "Example"],
+        ["Future completion", "werden + PP + haben/sein", "Bis Freitag werde ich es geschrieben haben."],
+        ["Assumption (probably done)", "wird + wohl + PP + haben/sein", "Er wird wohl eingeschlafen sein."],
+        ["With haben verbs", "werde + PP + haben", "Sie wird es vergessen haben."],
+        ["With sein verbs", "werde + PP + sein", "Er wird angekommen sein."],
+      ], rules: [
         "STRUCTURE: **werden** + past participle + **haben/sein**:",
         "Ich **werde** das Buch **gelesen haben**.",
         "(I will have read the book.)",
