@@ -210,7 +210,7 @@ export const GERMAN_GRAMMAR = {
         "Wir haben eine Katze. - We have a cat. (eine stays eine)",
         "Hast du den Schlussel? - Do you have the key?",
       ]},
-      { title: "Negation: nicht vs kein", icon: "🚫", explanation: "German has two ways to say 'not'. Use kein to negate nouns with ein/eine or no article. Use nicht for everything else.", rules: [
+      { title: "Negation: nicht vs kein", icon: "🚫", explanation: "German has two negation words and choosing between them depends on what you are negating. Use kein (which declines like ein) to negate nouns that have ein/eine or no article - it means 'not a' or 'no'. Use nicht for everything else: verbs, adjectives, adverbs, and nouns with a definite article. The placement of nicht matters: it goes before what it specifically negates, or at the end if negating the whole sentence.", rules: [
         "**kein** replaces ein/eine (negates nouns):",
         "*Ich habe **ein** Auto.* → *Ich habe **kein** Auto.*",
         "*Er trinkt **eine** Cola.* → *Er trinkt **keine** Cola.*",
@@ -295,7 +295,7 @@ export const GERMAN_GRAMMAR = {
         "Unsere Wohnung ist klein. - Our apartment is small.",
         "Ihre Kinder spielen im Garten. - Her/Their children play in the garden.",
       ]},
-      { title: "Plural Formation", icon: "📚", explanation: "German has five main plural patterns. There is no single rule. You must learn each noun's plural, but these patterns help.", rules: [
+      { title: "Plural Formation", icon: "📚", explanation: "German has no single plural rule - each noun's plural must be learned alongside its gender. There are five main patterns (adding -e, -er, -n/-en, -s, or no change), and many also add an umlaut. Feminine nouns very often take -(e)n, while masculine and neuter nouns tend toward -e or -er. All plural nouns use die regardless of their singular gender.", rules: [
         "PATTERN 1: Add **-e** (often with umlaut)",
         "*der Tisch* → *die Tische*, *der Stuhl* → *die Stuhle*",
         "",
@@ -624,7 +624,7 @@ export const GERMAN_GRAMMAR = {
         "Wenn es regnet, bleibe ich zu Hause. - When it rains, I stay home.",
         "Obwohl er mude ist, arbeitet er weiter. - Although he is tired, he keeps working.",
       ]},
-      { title: "Verbs with Dative", icon: "🎁", explanation: "Some German verbs require a dative object instead of accusative. There is no shortcut. These must be memorized individually.", rules: [
+      { title: "Verbs with Dative", icon: "🎁", explanation: "A significant group of German verbs take a dative object where English speakers would expect accusative - and this is grammatically fixed, not optional. Verbs like helfen (to help), danken (to thank), gefallen (to please), and gehoren (to belong to) always require dative. The conceptual key: many of these verbs describe something happening TO someone rather than someone doing something to an object. You must memorize them individually, but the dative-verb list is finite and manageable.", rules: [
         "COMMON VERBS THAT TAKE DATIVE:",
         "**helfen** - to help: *Ich helfe **dir**.*",
         "**danken** - to thank: *Ich danke **Ihnen**.*",
@@ -937,7 +937,7 @@ export const GERMAN_GRAMMAR = {
         "Er wohnt seit drei Jahren hier. - He has lived here for three years. (dat)",
         "Trotz des schlechten Wetters gehen wir raus. - Despite the bad weather, we go outside. (gen)",
       ]},
-      { title: "Temporal Clauses", icon: "⏳", explanation: "Temporal conjunctions connect events in time. Each has specific rules about when to use it. All send the verb to the end.", rules: [
+      { title: "Temporal Clauses", icon: "⏳", explanation: "Temporal conjunctions sequence events in time, but German uses different words where English just uses 'when'. Als is for a single past event, wenn for repeated or future events. Nachdem (after) requires the earlier event to be one tense further back. Bevor (before) and wahrend (while/during) keep both clauses in the same tense. All temporal conjunctions are subordinating, sending the verb to the end of their clause.", rules: [
         "**als** - when (ONE-TIME past event):",
         "Als ich klein war, spielte ich viel.",
         "",
@@ -1053,7 +1053,7 @@ export const GERMAN_GRAMMAR = {
         "Wenn du morgen kommst, koche ich fur uns. - When you come tomorrow, I'll cook for us.",
         "Als wir ankamen, hatte es schon begonnen. - When we arrived, it had already started.",
       ]},
-      { title: "Indirect Questions", icon: "❓", explanation: "Indirect questions are questions embedded inside another sentence. The question word stays, but the verb moves to the END. Yes/no questions use ob.", rules: [
+      { title: "Indirect Questions", icon: "❓", explanation: "Indirect questions embed a question inside a polite request or statement, and the verb moves to the end of the clause. For W-questions, the question word becomes the conjunction (Ich weiss nicht, wo er wohnt). For yes/no questions, ob (whether/if) fills that role (Ich frage mich, ob er kommt). This structure is essential for polite real-world communication - forms like Konnten Sie mir sagen, wo...? are among the most used B1 patterns.", rules: [
         "W-QUESTION → indirect: question word + verb at END:",
         "Direct: *Wo wohnt er?*",
         "Indirect: *Ich weiss nicht, **wo** er **wohnt**.*",
