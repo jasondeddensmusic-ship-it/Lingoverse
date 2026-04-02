@@ -19,6 +19,7 @@ import { DUTCH_CEFR } from './data/cefr-reference/dutch.js';
 import { FRENCH_CEFR } from './data/cefr-reference/french.js';
 import { SPANISH_CEFR } from './data/cefr-reference/spanish.js';
 import { DUTCH_GRAMMAR } from './data/grammar/dutch.js';
+import { GERMAN_GRAMMAR } from './data/grammar/german.js';
 import { DUTCH_IDIOMS } from './data/grammar/idioms-dutch.js';
 
 // _memStore moved to components/shared.jsx
@@ -1369,7 +1370,7 @@ function GrammarPage({lang,baseLang="en"}){
   const [openRule,setOpenRule]=useState(null);
 
   // Grammar data — loaded from language-specific modules
-  const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR };
+  const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR, de: GERMAN_GRAMMAR };
   const grammarData = GRAMMAR_REFS[lang] || {};
   // Placeholder for languages without grammar data yet
   const noGrammarYet = !GRAMMAR_REFS[lang];

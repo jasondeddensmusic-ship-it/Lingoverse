@@ -3,13 +3,14 @@ import { LANGUAGES } from '../data/metadata.js';
 import { ARTICLE_COLORS, t } from '../data/vocabulary.js';
 import { BrandIcon } from '../components/shared.jsx';
 import { DUTCH_GRAMMAR } from '../data/grammar/dutch.js';
+import { GERMAN_GRAMMAR } from '../data/grammar/german.js';
 
 function GrammarPage({lang,baseLang="en"}){
   const [openLevel,setOpenLevel]=useState("A1");
   const [openRule,setOpenRule]=useState(null);
 
   // Grammar data — loaded from language-specific modules
-  const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR };
+  const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR, de: GERMAN_GRAMMAR };
   const grammarData = GRAMMAR_REFS[lang] || {};
   // Placeholder for languages without grammar data yet
   const noGrammarYet = !GRAMMAR_REFS[lang];
