@@ -327,9 +327,9 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities
 
-1. **CEFR data lemma cleanup** — ~500 messy German entries need normalization (e.g. `(ab)fliegen, fliegt (ab)` → `abfliegen`). Data cleanup task.
-2. **German idioms module** — Write `src/data/grammar/idioms-german.js`. Same premium popup format as grammar. Wire into IdiomsPage.
-3. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain. Resume after German polish.
+1. ~~CEFR data lemma cleanup~~ — **RESOLVED.** 779 entries normalized to clean headwords.
+2. ~~German idioms module~~ — **RESOLVED.** 45 idioms (A1-B2) in `src/data/grammar/idioms-german.js`. Wired into IdiomsPage.
+3. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain.
 4. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
 5. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
 6. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade). German v2 is the template.
@@ -347,7 +347,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-04-02c.md`** — Latest session handoff (German grammar module + GrammarPage premium redesign).
+- **`docs/SESSION_HANDOFF_2026-04-02d.md`** — Latest session handoff (German polish complete: CEFR lemmas, idioms, grammar audit).
 - **`docs/SESSION_HANDOFF_2026-03-31.md`** — Previous handoff (word popup crash fix + CEFR reference redesign).
 - **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
 - **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
