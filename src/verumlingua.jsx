@@ -21,6 +21,7 @@ import { SPANISH_CEFR } from './data/cefr-reference/spanish.js';
 import { DUTCH_GRAMMAR } from './data/grammar/dutch.js';
 import { GERMAN_GRAMMAR } from './data/grammar/german.js';
 import { DUTCH_IDIOMS } from './data/grammar/idioms-dutch.js';
+import { GERMAN_IDIOMS } from './data/grammar/idioms-german.js';
 
 // _memStore moved to components/shared.jsx
 
@@ -3576,7 +3577,7 @@ function VocabTable({words,dk,rowStyle,LevelPill,posLabel,genderLabel,genderColo
 // ━━━━━━━━━━ IDIOMS PAGE ━━━━━━━━━━
 
 function IdiomsPage({lang,baseLang="en"}){
-  const IDIOM_REFS = { nl: DUTCH_IDIOMS };
+  const IDIOM_REFS = { nl: DUTCH_IDIOMS, de: GERMAN_IDIOMS };
   const idioms = IDIOM_REFS[lang] || [];
 
   return(

@@ -3,9 +3,10 @@ import { LANGUAGES } from '../data/metadata.js';
 import { t } from '../data/vocabulary.js';
 import { AppIcon } from '../components/shared.jsx';
 import { DUTCH_IDIOMS } from '../data/grammar/idioms-dutch.js';
+import { GERMAN_IDIOMS } from '../data/grammar/idioms-german.js';
 
 function IdiomsPage({lang,baseLang="en"}){
-  const IDIOM_REFS = { nl: DUTCH_IDIOMS };
+  const IDIOM_REFS = { nl: DUTCH_IDIOMS, de: GERMAN_IDIOMS };
   const idioms = IDIOM_REFS[lang] || [];
 
   return(
