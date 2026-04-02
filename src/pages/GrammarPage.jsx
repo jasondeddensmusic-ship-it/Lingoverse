@@ -1,257 +1,328 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import { LANGUAGES } from '../data/metadata.js';
 import { ARTICLE_COLORS, t } from '../data/vocabulary.js';
-import { BrandIcon } from '../components/shared.jsx';
+import { NavArrow } from '../components/shared.jsx';
 import { DUTCH_GRAMMAR } from '../data/grammar/dutch.js';
 import { GERMAN_GRAMMAR } from '../data/grammar/german.js';
 
-/* ── Candy gloss helpers ── */
-const glass={background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",boxShadow:"var(--card-shadow)",border:"2px solid var(--card-border)"};
+/* ── All-purple brand palette (NO per-level colors) ── */
+const P="#7B5EE8";
+const glossArc=(dk,h="42%")=>({position:"absolute",top:0,left:"5%",right:"5%",height:h,borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",pointerEvents:"none",zIndex:0});
 
-const levelGradients={
-  A1:"linear-gradient(135deg, rgba(46,205,167,0.08), rgba(46,205,167,0.02))",
-  A2:"linear-gradient(135deg, rgba(74,143,231,0.08), rgba(74,143,231,0.02))",
-  B1:"linear-gradient(135deg, rgba(245,166,35,0.08), rgba(245,166,35,0.02))",
-  B2:"linear-gradient(135deg, rgba(123,94,232,0.08), rgba(123,94,232,0.02))",
-  C1:"linear-gradient(135deg, rgba(245,101,101,0.08), rgba(245,101,101,0.02))",
-  C2:"linear-gradient(135deg, rgba(150,150,173,0.08), rgba(150,150,173,0.02))",
+/* ── Rich text renderer ── */
+const renderRich=(text)=>{
+  return text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((seg,si)=>{
+    if(seg.startsWith("**")&&seg.endsWith("**"))return <strong key={si} style={{color:"var(--gray-800)",fontWeight:700}}>{seg.slice(2,-2)}</strong>;
+    if(seg.startsWith("*")&&seg.endsWith("*"))return <em key={si} style={{color:P,fontStyle:"italic"}}>{seg.slice(1,-1)}</em>;
+    return seg.split(/(\[[^\]]+\])/).map((part,pi)=>{
+      if(part.startsWith("[")&&part.endsWith("]"))return <span key={si+"-"+pi} style={{background:"rgba(123,94,232,0.08)",color:P,fontWeight:700,borderRadius:4,padding:"1px 5px"}}>{part.slice(1,-1)}</span>;
+      return part.split(/(→)/).map((bit,bi)=>{
+        if(bit==="→")return <span key={si+"-"+pi+"-"+bi} style={{color:P,fontWeight:800,margin:"0 3px"}}>→</span>;
+        return bit;
+      });
+    });
+  });
 };
 
 function GrammarPage({lang,baseLang="en"}){
-  const [openLevel,setOpenLevel]=useState("A1");
-  const [openRule,setOpenRule]=useState(null);
+  const dk=document.documentElement.classList.contains("dark");
+  const [level,setLevel]=useState("A1");
+  const [showDD,setShowDD]=useState(false);
+  const [openIdx,setOpenIdx]=useState(null); // which card is open in popup
+  const ddRef=useRef(null);
 
   const GRAMMAR_REFS = { nl: DUTCH_GRAMMAR, de: GERMAN_GRAMMAR };
   const grammarData = GRAMMAR_REFS[lang] || {};
   const noGrammarYet = !GRAMMAR_REFS[lang];
 
-  const levels=["A1","A2","B1","B2","C1","C2"];
-  const levelNames={A1:t("level_beginner",baseLang),A2:t("level_elementary",baseLang),B1:t("level_intermediate",baseLang),B2:t("level_upper_int",baseLang),C1:t("level_advanced",baseLang),C2:t("level_mastery",baseLang)};
-  const levelColors={A1:"var(--teal)",A2:"var(--blue)",B1:"var(--gold)",B2:"#7B5EE8",C1:"var(--coral)",C2:"var(--gray-600)"};
-  const levelColorRaw={A1:"46,205,167",A2:"74,143,231",B1:"245,166,35",B2:"123,94,232",C1:"245,101,101",C2:"150,150,173"};
-  const rules=grammarData[openLevel]||[];
+  const levels=["A1","A2","B1","B2"];
+  const levelLabels={A1:t("level_beginner",baseLang),A2:t("level_elementary",baseLang),B1:t("level_intermediate",baseLang),B2:t("level_upper_int",baseLang)};
+  const entries=grammarData[level]||[];
 
-  /* ── Rich text renderer (shared by rules + examples) ── */
-  const renderRich=(text,lvColor,isArticleTopic)=>{
-    return text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((seg,si)=>{
-      if(seg.startsWith("**")&&seg.endsWith("**"))return <strong key={si} style={{color:"var(--gray-800)",fontWeight:700}}>{seg.slice(2,-2)}</strong>;
-      if(seg.startsWith("*")&&seg.endsWith("*"))return <em key={si} style={{color:"var(--blue)",fontStyle:"italic"}}>{seg.slice(1,-1)}</em>;
-      if(isArticleTopic&&lang==="nl"){
-        return seg.split(/\b(de|het|De|Het)\b/).map((aseg,ai)=>{
-          const low=aseg.toLowerCase();
-          if(low==="de"&&ARTICLE_COLORS.de)return <span key={si+"-"+ai} style={{background:ARTICLE_COLORS.de.pill,color:ARTICLE_COLORS.de.pillText,fontWeight:700,borderRadius:6,padding:"1px 6px",fontSize:"0.92em"}}>{aseg}</span>;
-          if(low==="het"&&ARTICLE_COLORS.het)return <span key={si+"-"+ai} style={{background:ARTICLE_COLORS.het.pill,color:ARTICLE_COLORS.het.pillText,fontWeight:700,borderRadius:6,padding:"1px 6px",fontSize:"0.92em"}}>{aseg}</span>;
-          return aseg;
-        });
-      }
-      if(isArticleTopic&&lang==="de"){
-        return seg.split(/\b(der|die|das|den|dem|des|ein|eine|einen|einem|eines|einer|Der|Die|Das|Den|Dem|Des|Ein|Eine|Einen|Einem|Eines|Einer)\b/).map((aseg,ai)=>{
-          const low=aseg.toLowerCase();
-          if(["der","den","dem","des","ein","einen","einem","eines"].includes(low)&&["der","den","dem","des"].includes(low))return <span key={si+"-"+ai} style={{background:"rgba(13,71,161,0.1)",color:"#0D47A1",fontWeight:700,borderRadius:6,padding:"1px 6px",fontSize:"0.92em"}}>{aseg}</span>;
-          if(["die","eine","einer"].includes(low))return <span key={si+"-"+ai} style={{background:"rgba(183,28,28,0.1)",color:"#B71C1C",fontWeight:700,borderRadius:6,padding:"1px 6px",fontSize:"0.92em"}}>{aseg}</span>;
-          if(["das","ein"].includes(low)&&aseg===aseg)return aseg;
-          return aseg;
-        });
-      }
-      return seg.split(/(\[[^\]]+\])/).map((part,pi)=>{
-        if(part.startsWith("[")&&part.endsWith("]"))return <span key={si+"-"+pi} style={{background:"rgba(245,166,35,0.15)",color:"var(--gold-dark)",fontWeight:700,borderRadius:4,padding:"1px 5px"}}>{part.slice(1,-1)}</span>;
-        return part.split(/(→)/).map((bit,bi)=>{
-          if(bit==="→")return <span key={si+"-"+pi+"-"+bi} style={{color:lvColor,fontWeight:800,margin:"0 3px"}}>→</span>;
-          return bit;
-        });
-      });
-    });
-  };
+  // Close dropdown on outside click
+  useEffect(()=>{
+    if(!showDD)return;
+    const h=e=>{if(ddRef.current&&!ddRef.current.contains(e.target))setShowDD(false);};
+    document.addEventListener("mousedown",h);
+    return ()=>document.removeEventListener("mousedown",h);
+  },[showDD]);
+
+  // Keyboard nav in popup
+  useEffect(()=>{
+    if(openIdx===null)return;
+    const h=e=>{
+      if(e.key==="ArrowRight"||e.key===" "){e.preventDefault();if(openIdx<entries.length-1)setOpenIdx(i=>i+1);}
+      if(e.key==="ArrowLeft"){e.preventDefault();if(openIdx>0)setOpenIdx(i=>i-1);}
+      if(e.key==="Escape"){e.preventDefault();setOpenIdx(null);}
+    };
+    document.addEventListener("keydown",h);
+    return ()=>document.removeEventListener("keydown",h);
+  },[openIdx,entries.length]);
+
+  // Lock body scroll when popup open
+  useEffect(()=>{
+    if(openIdx!==null){document.body.style.overflow="hidden";}
+    else{document.body.style.overflow="";}
+    return ()=>{document.body.style.overflow="";};
+  },[openIdx]);
+
+  const entry=openIdx!==null?entries[openIdx]:null;
 
   return(
     <div className="anim">
-      {/* ── Header with glass panel ── */}
-      <div style={{textAlign:"center",marginBottom:28,padding:"24px 20px 20px",...glass,borderRadius:22,position:"relative",overflow:"hidden"}}>
-        <div style={{position:"absolute",top:0,left:"10%",right:"10%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.1) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-        <div style={{fontSize:40,marginBottom:10,position:"relative",filter:"drop-shadow(0 2px 8px rgba(123,94,232,0.3))"}}>📝</div>
-        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6,position:"relative"}}>{(LANGUAGES.find(l=>l.code===lang)?.native||"") + " " + t("grammar_header",baseLang)}</h2>
-        <p style={{color:"var(--gray-400)",fontSize:14,position:"relative"}}>{t("grammar_sub",baseLang)}</p>
+      {/* ── Header ── */}
+      <div style={{textAlign:"center",marginBottom:28}}>
+        <h2 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:6}}>{(LANGUAGES.find(l=>l.code===lang)?.native||"") + " " + t("grammar_header",baseLang)}</h2>
+        <p style={{color:"var(--gray-400)",fontSize:14}}>{t("grammar_sub",baseLang)}</p>
       </div>
 
-      {/* ── Coming soon placeholder ── */}
-      {noGrammarYet && <div style={{textAlign:"center",padding:"40px 20px",...glass,borderRadius:22,marginBottom:24,position:"relative",overflow:"hidden"}}>
-        <div style={{position:"absolute",top:0,left:"10%",right:"10%",height:"45%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none"}}/>
-        <div style={{fontSize:48,marginBottom:12}}>🚧</div>
-        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>Grammar reference coming soon</div>
-        <div style={{fontSize:14,color:"var(--gray-400)"}}>Check the CEFR Reference page for grammar constructs by level.</div>
+      {/* ── Coming soon ── */}
+      {noGrammarYet && <div style={{textAlign:"center",padding:"48px 24px",background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",borderRadius:22,border:"2px solid var(--card-border)",boxShadow:"var(--card-shadow)",marginBottom:24,position:"relative",overflow:"hidden"}}>
+        <div style={glossArc(dk)}/>
+        <div style={{fontSize:48,marginBottom:12,position:"relative"}}>🚧</div>
+        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8,position:"relative"}}>Grammar reference coming soon</div>
+        <div style={{fontSize:14,color:"var(--gray-400)",position:"relative"}}>Check the CEFR Reference page for grammar constructs by level.</div>
       </div>}
 
-      {/* ── Level tab pills (candy gloss) ── */}
-      <div style={{display:"flex",gap:6,marginBottom:24,justifyContent:"center",flexWrap:"wrap"}}>
-        {levels.map(lv=>{
-          const active=openLevel===lv;
-          const rgb=levelColorRaw[lv];
-          return(
-            <button key={lv} onClick={()=>{setOpenLevel(lv);setOpenRule(null);}} style={{
-              padding:"10px 20px",borderRadius:20,fontWeight:700,fontSize:13,cursor:"pointer",minHeight:44,
-              transition:"all .2s ease",position:"relative",overflow:"hidden",letterSpacing:0.3,
-              border:active?`2px solid rgba(${rgb},0.5)`:"2px solid var(--card-border)",
-              background:active?`linear-gradient(180deg, rgba(${rgb},0.85) 0%, rgba(${rgb},0.95) 100%)`:"var(--card-bg)",
-              color:active?"white":"var(--gray-500)",
-              boxShadow:active?`0 4px 14px rgba(${rgb},0.3), 0 2px 4px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.1)`:"var(--card-shadow)",
-              backdropFilter:active?"none":"var(--glass-blur)",WebkitBackdropFilter:active?"none":"var(--glass-blur)",
+      {!noGrammarYet&&<>
+        {/* ── Level dropdown pill ── */}
+        <div style={{display:"flex",justifyContent:"center",marginBottom:28}} ref={ddRef}>
+          <div style={{position:"relative"}}>
+            <button onClick={()=>setShowDD(!showDD)} style={{
+              display:"flex",alignItems:"center",gap:10,
+              padding:"12px 22px",borderRadius:20,cursor:"pointer",
+              background:dk
+                ?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)"
+                :"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",
+              border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",
+              boxShadow:dk
+                ?"0 4px 16px rgba(0,0,0,0.3), 0 0 10px rgba(123,94,232,0.2), inset 0 1px 0 rgba(255,255,255,0.13), inset 0 -2px 0 rgba(0,0,0,0.15)"
+                :"0 4px 16px rgba(123,94,232,0.15), 0 0 10px rgba(165,148,238,0.2), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -2px 0 rgba(110,85,200,0.08)",
+              position:"relative",overflow:"hidden",transition:"all .2s",minHeight:48,
             }}>
-              {lv}
+              <div style={glossArc(dk,"40%")}/>
+              <span style={{fontSize:15,fontWeight:800,color:dk?"#E0D8FF":P,position:"relative",zIndex:1}}>{level}</span>
+              <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(220,210,255,0.7)":"rgba(110,85,200,0.7)",position:"relative",zIndex:1}}>{levelLabels[level]}</span>
+              <span style={{fontSize:12,color:dk?"rgba(220,210,255,0.5)":"rgba(110,85,200,0.5)",transition:"transform .2s",transform:showDD?"rotate(180deg)":"none",position:"relative",zIndex:1}}>▾</span>
             </button>
-          );
-        })}
-      </div>
 
-      {/* ── Topic count badge ── */}
-      <div style={{textAlign:"center",marginBottom:22}}>
-        <span style={{
-          display:"inline-block",padding:"6px 16px",borderRadius:14,fontSize:13,fontWeight:600,
-          color:"var(--gray-400)",
-          background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",
-          boxShadow:"var(--shadow-sm)",border:"1.5px solid var(--card-border)",
-        }}>{levelNames[openLevel]} · {rules.length} {t("grammar_topics",baseLang)}</span>
-      </div>
-
-      {/* ── Grammar cards (frosted glass + candy accents) ── */}
-      <div style={{display:"flex",flexDirection:"column",gap:14}}>
-        {rules.map((r,i)=>{
-          const isOpen=openRule===i;
-          const lvColor=levelColors[openLevel];
-          const rgb=levelColorRaw[openLevel];
-          const isArticleTopic=r.title.includes("De vs Het")||r.title.includes("Articles")||r.title.includes("Artikel")||r.title.includes("Gender");
-          return(
-            <div key={i} className="anim" style={{
-              animationDelay:`${i*0.04}s`,
-              borderRadius:20,overflow:"hidden",
-              transition:"all .25s ease",position:"relative",
-              ...glass,
-              background:isOpen?levelGradients[openLevel]:"var(--card-bg)",
-              border:isOpen?`2px solid rgba(${rgb},0.35)`:"2px solid var(--card-border)",
-              boxShadow:isOpen
-                ?`0 8px 28px rgba(${rgb},0.12), 0 4px 12px rgba(0,0,0,0.06), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -2px 0 rgba(0,0,0,0.03)`
-                :"var(--card-shadow)",
+            {/* Dropdown */}
+            {showDD&&<div className="anim" style={{
+              position:"absolute",top:"calc(100% + 8px)",left:"50%",transform:"translateX(-50%)",
+              minWidth:200,borderRadius:16,overflow:"hidden",zIndex:100,
+              background:dk
+                ?"linear-gradient(180deg, rgba(123,94,232,0.6) 0%, rgba(80,60,180,0.45) 100%)"
+                :"linear-gradient(180deg, rgba(220,213,255,0.98) 0%, rgba(235,230,255,0.96) 100%)",
+              border:dk?"1.5px solid rgba(160,140,255,0.4)":"1.5px solid rgba(165,148,238,0.5)",
+              boxShadow:dk
+                ?"0 12px 40px rgba(0,0,0,0.5), 0 0 20px rgba(123,94,232,0.3)"
+                :"0 12px 40px rgba(123,94,232,0.2), 0 0 16px rgba(165,148,238,0.2)",
             }}>
-              {/* Candy gloss sheen overlay */}
-              <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.08) 40%, transparent 100%)",borderRadius:"0 0 50% 50%",pointerEvents:"none",opacity:isOpen?0.6:0.4}}/>
+              {levels.map(lv=>{
+                const active=lv===level;
+                const count=(grammarData[lv]||[]).length;
+                return <button key={lv} onClick={()=>{setLevel(lv);setShowDD(false);setOpenIdx(null);}} style={{
+                  display:"flex",alignItems:"center",gap:10,width:"100%",
+                  padding:"12px 18px",border:"none",cursor:"pointer",
+                  background:active?(dk?"rgba(255,255,255,0.1)":"rgba(123,94,232,0.08)"):"transparent",
+                  borderBottom:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(165,148,238,0.15)",
+                  transition:"background .12s",
+                }}
+                  onMouseEnter={e=>{if(!active)e.currentTarget.style.background=dk?"rgba(255,255,255,0.06)":"rgba(123,94,232,0.04)";}}
+                  onMouseLeave={e=>{if(!active)e.currentTarget.style.background="transparent";}}
+                >
+                  <span style={{fontSize:14,fontWeight:800,color:dk?"#E0D8FF":P}}>{lv}</span>
+                  <span style={{fontSize:13,fontWeight:600,color:dk?"rgba(220,210,255,0.6)":"rgba(110,85,200,0.55)",flex:1}}>{levelLabels[lv]}</span>
+                  <span style={{fontSize:12,fontWeight:700,color:dk?"rgba(220,210,255,0.4)":"rgba(110,85,200,0.4)"}}>{count}</span>
+                </button>;
+              })}
+            </div>}
+          </div>
+        </div>
 
-              {/* ── Card header ── */}
-              <div onClick={()=>setOpenRule(isOpen?null:i)} style={{display:"flex",alignItems:"center",gap:14,padding:"16px 18px",cursor:"pointer",position:"relative",minHeight:56,WebkitTapHighlightColor:"transparent"}}>
-                {/* Colored accent stripe on left */}
-                <div style={{position:"absolute",left:0,top:"20%",bottom:"20%",width:4,borderRadius:"0 3px 3px 0",background:isOpen?lvColor:"transparent",transition:"all .2s",boxShadow:isOpen?`0 0 8px rgba(${rgb},0.4)`:"none"}}/>
+        {/* ── Topic count ── */}
+        <div style={{textAlign:"center",marginBottom:20}}>
+          <span style={{fontSize:13,fontWeight:600,color:"var(--gray-400)"}}>{entries.length} {t("grammar_topics",baseLang)}</span>
+        </div>
 
-                {/* Icon bubble with glow */}
-                <div style={{
-                  width:44,height:44,borderRadius:14,flexShrink:0,
-                  display:"flex",alignItems:"center",justifyContent:"center",
-                  background:`linear-gradient(145deg, rgba(${rgb},0.12), rgba(${rgb},0.06))`,
-                  border:`1.5px solid rgba(${rgb},0.15)`,
-                  boxShadow:`inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 8px rgba(${rgb},0.1)`,
-                }}>
-                  <BrandIcon name={r.icon} size={22}/>
-                </div>
+        {/* ── Tile grid ── */}
+        <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))",gap:10}}>
+          {entries.map((r,i)=>(
+            <button key={i} onClick={()=>setOpenIdx(i)} className="anim" style={{
+              animationDelay:`${i*0.03}s`,
+              padding:"16px 14px",borderRadius:16,cursor:"pointer",
+              textAlign:"left",position:"relative",overflow:"hidden",
+              background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",
+              border:"1.5px solid var(--card-border)",
+              boxShadow:"var(--card-shadow)",
+              transition:"all .2s ease",minHeight:64,
+              display:"flex",alignItems:"center",
+            }}
+              onMouseEnter={e=>{e.currentTarget.style.boxShadow="var(--card-shadow-hover)";e.currentTarget.style.transform="translateY(-2px)";e.currentTarget.style.borderColor=dk?"rgba(160,140,240,0.35)":"rgba(123,94,232,0.25)";}}
+              onMouseLeave={e=>{e.currentTarget.style.boxShadow="var(--card-shadow)";e.currentTarget.style.transform="none";e.currentTarget.style.borderColor="";}}
+            >
+              <div style={glossArc(dk,"38%")}/>
+              <span className="hd" style={{fontSize:13,fontWeight:700,color:"var(--gray-700)",lineHeight:1.35,position:"relative",zIndex:1}}>{r.title}</span>
+            </button>
+          ))}
+        </div>
+      </>}
 
-                <div style={{flex:1}}>
-                  <div className="hd" style={{fontWeight:700,fontSize:15,color:"var(--gray-800)"}}>{r.title}</div>
-                </div>
+      {/* ══════ POPUP MODAL ══════ */}
+      {entry&&<div style={{
+        position:"fixed",inset:0,zIndex:10001,
+        background:dk?"rgba(0,0,0,0.6)":"rgba(15,10,40,0.35)",
+        backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",
+        display:"flex",alignItems:"center",justifyContent:"center",
+        padding:16,
+      }} onClick={e=>{if(e.target===e.currentTarget)setOpenIdx(null);}}>
+        <div className="anim" style={{
+          width:"min(520px, 94vw)",maxHeight:"calc(100dvh - 40px)",
+          display:"flex",flexDirection:"column",
+          borderRadius:24,overflow:"hidden",position:"relative",
+          background:dk
+            ?"linear-gradient(180deg, rgba(45,40,75,0.92) 0%, rgba(32,28,58,0.88) 50%, rgba(26,24,50,0.85) 100%)"
+            :"linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(250,250,254,0.92) 50%, rgba(245,244,250,0.9) 100%)",
+          border:dk?"1.5px solid rgba(160,140,240,0.2)":"1.5px solid var(--card-border)",
+          boxShadow:dk
+            ?"0 24px 72px rgba(0,0,0,0.55), 0 8px 24px rgba(123,94,232,0.28), inset 0 2px 0 rgba(255,255,255,0.12), inset 0 -2px 0 rgba(0,0,0,0.28)"
+            :"0 24px 72px rgba(0,0,0,0.14), 0 8px 24px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.92), inset 0 -2px 0 rgba(0,0,0,0.04)",
+        }}>
+          {/* Gloss arc */}
+          <div style={glossArc(dk)}/>
 
-                {/* Expand chevron with candy style */}
-                <div style={{
-                  width:28,height:28,borderRadius:10,
-                  display:"flex",alignItems:"center",justifyContent:"center",
-                  background:isOpen?`rgba(${rgb},0.1)`:"var(--gray-50)",
-                  border:`1.5px solid ${isOpen?`rgba(${rgb},0.2)`:"var(--gray-100)"}`,
-                  transition:"all .2s",
-                }}>
-                  <span style={{fontSize:14,color:isOpen?lvColor:"var(--gray-300)",transition:"transform .25s ease",transform:isOpen?"rotate(180deg)":"none",display:"block",lineHeight:1}}>⌄</span>
-                </div>
-              </div>
+          {/* ── Top bar ── */}
+          <div style={{
+            padding:"14px 18px 12px",display:"flex",alignItems:"center",gap:10,flexShrink:0,
+            borderBottom:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(123,94,232,0.08)",
+            position:"relative",zIndex:1,
+          }}>
+            <span style={{fontSize:11,fontWeight:700,color:dk?"rgba(200,180,255,0.6)":P,letterSpacing:1.5,textTransform:"uppercase"}}>{level}</span>
+            <span style={{fontSize:12,fontWeight:600,color:"var(--gray-400)",flex:1}}>{openIdx+1} / {entries.length}</span>
+            {/* Close button */}
+            <button onClick={()=>setOpenIdx(null)} style={{
+              width:28,height:28,borderRadius:10,border:"none",cursor:"pointer",
+              background:dk?"rgba(255,255,255,0.08)":"rgba(123,94,232,0.08)",
+              color:dk?"rgba(200,180,255,0.7)":P,
+              fontSize:13,fontWeight:700,display:"flex",alignItems:"center",justifyContent:"center",
+              transition:"all .15s",
+            }}
+              onMouseEnter={e=>{e.currentTarget.style.background=dk?"rgba(255,255,255,0.15)":"rgba(123,94,232,0.15)";}}
+              onMouseLeave={e=>{e.currentTarget.style.background=dk?"rgba(255,255,255,0.08)":"rgba(123,94,232,0.08)";}}
+            >✕</button>
+          </div>
 
-              {/* ── Expanded content ── */}
-              {isOpen&&<div className="anim" style={{padding:"0 20px 22px",position:"relative"}}>
-                {/* Separator with gradient fade */}
-                <div style={{height:1.5,background:`linear-gradient(90deg, transparent, rgba(${rgb},0.15), transparent)`,marginBottom:18}}/>
+          {/* ── Scrollable content ── */}
+          <div style={{flex:1,overflowY:"auto",padding:"20px 20px 16px",position:"relative",zIndex:1,WebkitOverflowScrolling:"touch"}}>
+            {/* Title */}
+            <h3 className="hd" style={{fontSize:22,fontWeight:800,color:dk?"#E0D8FF":P,marginBottom:8,textAlign:"center",fontFamily:"'Quicksand','DM Sans',system-ui,sans-serif"}}>{entry.title}</h3>
 
-                {/* Explanation with subtle accent */}
-                <div style={{
-                  padding:"14px 16px",marginBottom:18,borderRadius:14,
-                  background:"var(--purple-bg)",border:"1.5px solid var(--purple-border)",
-                  boxShadow:"inset 0 1px 0 rgba(255,255,255,0.6)",
-                }}>
-                  <p style={{fontSize:14,color:"var(--gray-600)",lineHeight:1.8,margin:0}}>{r.explanation}</p>
-                </div>
-
-                {/* De/Het color legend for Dutch article topics */}
-                {r.title.includes("De vs Het")&&ARTICLE_COLORS.de&&<div style={{display:"flex",gap:12,marginBottom:18,flexWrap:"wrap"}}>
-                  <div style={{flex:1,minWidth:140,background:ARTICLE_COLORS.de.pill,borderRadius:16,padding:"14px 18px",border:`2px solid ${ARTICLE_COLORS.de.pillText}20`,boxShadow:`inset 0 1px 0 rgba(255,255,255,0.5), 0 3px 10px ${ARTICLE_COLORS.de.shadow}30`}}>
-                    <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
-                      <span style={{display:"inline-block",background:ARTICLE_COLORS.de.bg,color:"#fff",fontWeight:800,fontSize:16,borderRadius:10,padding:"4px 14px",boxShadow:`0 3px 10px ${ARTICLE_COLORS.de.shadow}, inset 0 1px 0 rgba(255,255,255,0.3)`}}>de</span>
-                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.de.pillText}}>{t("grammar_common",baseLang)}</span>
-                    </div>
-                    <div style={{fontSize:12,color:ARTICLE_COLORS.de.pillText,opacity:0.8}}>≈ 75% {t("grammar_pct_nouns",baseLang)}</div>
-                    <div style={{fontSize:12,color:"var(--gray-500)",marginTop:6}}>de man · de vrouw · de tafel · de school</div>
-                  </div>
-                  <div style={{flex:1,minWidth:140,background:ARTICLE_COLORS.het.pill,borderRadius:16,padding:"14px 18px",border:`2px solid ${ARTICLE_COLORS.het.pillText}20`,boxShadow:`inset 0 1px 0 rgba(255,255,255,0.5), 0 3px 10px ${ARTICLE_COLORS.het.shadow}30`}}>
-                    <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
-                      <span style={{display:"inline-block",background:ARTICLE_COLORS.het.bg,color:"#fff",fontWeight:800,fontSize:16,borderRadius:10,padding:"4px 14px",boxShadow:`0 3px 10px ${ARTICLE_COLORS.het.shadow}, inset 0 1px 0 rgba(255,255,255,0.3)`}}>het</span>
-                      <span style={{fontWeight:700,fontSize:13,color:ARTICLE_COLORS.het.pillText}}>{t("grammar_neuter",baseLang)}</span>
-                    </div>
-                    <div style={{fontSize:12,color:ARTICLE_COLORS.het.pillText,opacity:0.8}}>≈ 25% {t("grammar_pct_nouns",baseLang)}</div>
-                    <div style={{fontSize:12,color:"var(--gray-500)",marginTop:6}}>het huis · het kind · het boek · het water</div>
-                  </div>
-                </div>}
-
-                {/* ── Rules box (frosted glass with accent bar) ── */}
-                {r.rules&&<div style={{
-                  borderRadius:16,padding:"18px 20px",marginBottom:18,position:"relative",overflow:"hidden",
-                  background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",
-                  border:"1.5px solid var(--card-border)",
-                  boxShadow:"var(--shadow-sm), inset 0 1px 0 rgba(255,255,255,0.7)",
-                }}>
-                  {/* Left accent bar */}
-                  <div style={{position:"absolute",left:0,top:12,bottom:12,width:4,borderRadius:"0 3px 3px 0",background:`linear-gradient(180deg, rgba(${rgb},0.6), rgba(${rgb},0.2))`,boxShadow:`0 0 6px rgba(${rgb},0.2)`}}/>
-
-                  <div style={{fontSize:11,fontWeight:700,color:lvColor,textTransform:"uppercase",letterSpacing:1.5,marginBottom:12,paddingLeft:8}}>📋 {t("grammar_rules",baseLang)}</div>
-                  {r.rules.map((rule,j)=>{
-                    if(rule==="")return <div key={j} style={{height:10}}/>;
-                    const isHeader=/^[A-Z\s'""→\-:()0-9]+$/.test(rule)||/^[A-Z].{0,40}:$/.test(rule);
-                    return(
-                      <div key={j} style={{
-                        fontSize:isHeader?12:13,
-                        color:isHeader?lvColor:"var(--gray-700)",
-                        padding:isHeader?"10px 0 4px 8px":"5px 0 5px 8px",
-                        lineHeight:1.7,display:"flex",gap:8,
-                        fontWeight:isHeader?800:400,letterSpacing:isHeader?0.5:0,
-                      }}>
-                        {!isHeader&&<span style={{color:lvColor,fontWeight:800,flexShrink:0,fontSize:10,marginTop:4}}>●</span>}
-                        <span>{renderRich(rule,lvColor,false)}</span>
-                      </div>
-                    );
-                  })}
-                </div>}
-
-                {/* ── Examples box (warm gold glass) ── */}
-                {r.examples&&<div style={{
-                  borderRadius:16,padding:"18px 20px",position:"relative",overflow:"hidden",
-                  background:"var(--gold-bg-light)",
-                  border:"1.5px solid rgba(245,166,35,0.12)",
-                  boxShadow:"0 2px 10px rgba(245,166,35,0.06), inset 0 1px 0 rgba(255,255,255,0.6)",
-                }}>
-                  {/* Left gold accent bar */}
-                  <div style={{position:"absolute",left:0,top:12,bottom:12,width:4,borderRadius:"0 3px 3px 0",background:"linear-gradient(180deg, rgba(245,166,35,0.5), rgba(245,166,35,0.15))",boxShadow:"0 0 6px rgba(245,166,35,0.15)"}}/>
-
-                  <div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:12,paddingLeft:8}}>💬 {t("grammar_examples",baseLang)}</div>
-                  {r.examples.map((ex,j)=>
-                    <div key={j} style={{
-                      fontSize:14,color:"var(--gray-700)",padding:"7px 0 7px 8px",lineHeight:1.7,
-                      borderBottom:j<r.examples.length-1?"1px solid rgba(245,166,35,0.08)":"none",
-                    }}>{renderRich(ex,lvColor,isArticleTopic)}</div>
-                  )}
-                </div>}
-              </div>}
+            {/* Explanation in glass bubble */}
+            <div style={{
+              padding:"16px 18px",marginBottom:20,borderRadius:16,
+              background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.04)",
+              border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(123,94,232,0.1)",
+              boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.04)":"inset 0 1px 0 rgba(255,255,255,0.6)",
+            }}>
+              <p style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.85,margin:0,fontWeight:500}}>{entry.explanation}</p>
             </div>
-          );
-        })}
-      </div>
+
+            {/* ── Rules section ── */}
+            {entry.rules&&<div style={{marginBottom:20}}>
+              <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>Rules & Patterns</div>
+              <div style={{
+                padding:"16px 18px",borderRadius:16,position:"relative",overflow:"hidden",
+                background:dk?"rgba(255,255,255,0.03)":"rgba(255,255,255,0.7)",
+                border:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(123,94,232,0.06)",
+                boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.03)":"inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.02)",
+              }}>
+                {/* Left accent bar */}
+                <div style={{position:"absolute",left:0,top:14,bottom:14,width:3,borderRadius:"0 2px 2px 0",background:dk?`linear-gradient(180deg, rgba(160,140,255,0.4), rgba(160,140,255,0.1))`:`linear-gradient(180deg, rgba(123,94,232,0.35), rgba(123,94,232,0.08))`}}/>
+
+                {entry.rules.map((rule,j)=>{
+                  if(rule==="")return <div key={j} style={{height:10}}/>;
+                  const isHeader=/^[A-Z\s'""→\-:()0-9]+$/.test(rule)||/^[A-Z].{0,40}:$/.test(rule);
+                  return(
+                    <div key={j} style={{
+                      fontSize:isHeader?11:13.5,
+                      color:isHeader?(dk?"rgba(200,180,255,0.7)":P):"var(--gray-700)",
+                      padding:isHeader?"10px 0 4px 10px":"4px 0 4px 10px",
+                      lineHeight:1.75,display:"flex",gap:8,
+                      fontWeight:isHeader?800:400,letterSpacing:isHeader?1:0,
+                      textTransform:isHeader?"uppercase":"none",
+                    }}>
+                      {!isHeader&&<span style={{color:dk?"rgba(160,140,255,0.4)":"rgba(123,94,232,0.3)",fontWeight:800,flexShrink:0,fontSize:8,marginTop:6}}>●</span>}
+                      <span style={{flex:1}}>{renderRich(rule)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>}
+
+            {/* ── Conjugation table (if entry has table field) ── */}
+            {entry.table&&<div style={{marginBottom:20}}>
+              <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>{entry.tableTitle||"Conjugation"}</div>
+              <div style={{borderRadius:16,overflow:"hidden",border:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(123,94,232,0.08)"}}>
+                {entry.table.map((row,ri)=>(
+                  <div key={ri} style={{
+                    display:"grid",gridTemplateColumns:entry.tableCols||"1fr 1fr",
+                    borderBottom:ri<entry.table.length-1?(dk?"1px solid rgba(255,255,255,0.04)":"1px solid rgba(123,94,232,0.05)"):"none",
+                    background:ri===0?(dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.04)"):(ri%2===0?(dk?"rgba(255,255,255,0.02)":"rgba(255,255,255,0.5)"):"transparent"),
+                  }}>
+                    {row.map((cell,ci)=>(
+                      <div key={ci} style={{
+                        padding:"10px 14px",fontSize:ri===0?11:13,fontWeight:ri===0?700:ci===0?600:400,
+                        color:ri===0?(dk?"rgba(200,180,255,0.7)":P):(ci===0?"var(--gray-600)":"var(--gray-700)"),
+                        letterSpacing:ri===0?0.5:0,textTransform:ri===0?"uppercase":"none",
+                      }}>{cell}</div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>}
+
+            {/* ── Examples in compound bubbles ── */}
+            {entry.examples&&<div style={{marginBottom:8}}>
+              <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>Examples</div>
+              <div style={{display:"flex",flexDirection:"column",gap:8}}>
+                {entry.examples.map((ex,j)=>{
+                  const parts=ex.split(" - ");
+                  const trg=parts[0]||ex;
+                  const src=parts.slice(1).join(" - ")||"";
+                  return(
+                    <div key={j} style={{
+                      padding:"12px 16px",borderRadius:14,position:"relative",overflow:"hidden",
+                      background:dk
+                        ?"linear-gradient(180deg, rgba(123,94,232,0.12) 0%, rgba(100,80,200,0.06) 100%)"
+                        :"linear-gradient(180deg, rgba(200,190,255,0.25) 0%, rgba(220,210,255,0.12) 100%)",
+                      border:dk?"1px solid rgba(123,94,232,0.15)":"1px solid rgba(180,165,240,0.2)",
+                      boxShadow:dk
+                        ?"inset 0 1px 0 rgba(255,255,255,0.04)"
+                        :"inset 0 1px 0 rgba(255,255,255,0.6), 0 2px 6px rgba(123,94,232,0.04)",
+                    }}>
+                      <div style={{fontSize:14,fontWeight:700,color:"var(--gray-800)",lineHeight:1.6,marginBottom:src?4:0}}>{renderRich(trg)}</div>
+                      {src&&<div style={{fontSize:13,fontWeight:600,color:"var(--teal)",lineHeight:1.5}}>{src}</div>}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>}
+          </div>
+
+          {/* ── Navigation footer ── */}
+          <div style={{
+            padding:"14px 20px 18px",display:"flex",justifyContent:"center",alignItems:"center",gap:14,flexShrink:0,
+            borderTop:dk?"1px solid rgba(255,255,255,0.06)":"1px solid rgba(123,94,232,0.06)",
+            position:"relative",zIndex:1,
+          }}>
+            {openIdx>0&&<NavArrow onClick={()=>setOpenIdx(i=>i-1)} isBack size={44}/>}
+            {openIdx===0&&<div style={{width:44}}/>}
+            <span style={{fontSize:12,fontWeight:700,color:"var(--gray-400)",minWidth:60,textAlign:"center"}}>{openIdx+1} / {entries.length}</span>
+            {openIdx<entries.length-1&&<NavArrow onClick={()=>setOpenIdx(i=>i+1)} size={44}/>}
+            {openIdx===entries.length-1&&<div style={{width:44}}/>}
+          </div>
+        </div>
+      </div>}
     </div>
   );
 }
