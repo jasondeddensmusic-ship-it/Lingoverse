@@ -300,6 +300,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Word popup crash fix** (2026-03-31): Missing `LANG_DICT` import caused crash on any word click in teach cards. One-line fix.
 - **CEFR Reference redesign** (2026-03-31): All-purple level pills, muted gray translations, inline POS tags, clean flexbox layout. Removed 4-column grid.
 - **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
+- **German grammar module** (2026-04-02): 58 entries across A1 (16), A2 (13), B1 (16), B2 (13). All Goethe-Institut constructs. Zero em-dashes (PP22c). All entries have 3-5 sentence teacher-board quality explanations. 20 conjugation/declension tables (sein/haben, regular verbs, modals, articles, cases, adjective endings, passive, Konjunktiv, etc.).
+- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Both standalone (`src/pages/GrammarPage.jsx`) and inline (`src/verumlingua.jsx`) updated.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -325,12 +327,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities
 
-1. **German grammar module** — Write `src/data/grammar/german.js` from Goethe-Institut sources. Cases, gender, separable verbs, word order. Same structure as `dutch.js` (title, icon, explanation, rules[], examples[]).
-2. **German CEFR reference continued** — Verify POS tag fix quality, expand idioms section.
-3. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade)
-4. **Arabic translation (when P1 done)** — 19 units with [AR] markers. See `docs/archive/SESSION_HANDOFF_2026-03-30b.md`.
-5. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing. PAUSED.
-6. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
+1. **CEFR data lemma cleanup** — ~500 messy German entries need normalization (e.g. `(ab)fliegen, fliegt (ab)` → `abfliegen`). Data cleanup task.
+2. **German idioms module** — Write `src/data/grammar/idioms-german.js`. Same premium popup format as grammar. Wire into IdiomsPage.
+3. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain. Resume after German polish.
+4. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+5. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
+6. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade). German v2 is the template.
 
 ---
 
@@ -345,7 +347,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-03-31.md`** — Latest session handoff (word popup crash fix + CEFR reference redesign).
+- **`docs/SESSION_HANDOFF_2026-04-02c.md`** — Latest session handoff (German grammar module + GrammarPage premium redesign).
+- **`docs/SESSION_HANDOFF_2026-03-31.md`** — Previous handoff (word popup crash fix + CEFR reference redesign).
 - **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
 - **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
 - **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Previous handoff (mobile optimization + chat fix).
