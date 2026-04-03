@@ -894,6 +894,8 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 @keyframes pop { 0%{transform:translateY(0) scale(1);opacity:1} 100%{transform:translateY(-70px) scale(1.15);opacity:0} }
 @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
 @keyframes bubblePop { from{opacity:0;transform:scale(0.82) translateY(8px)} to{opacity:1;transform:scale(1) translateY(0)} }
+@keyframes gramSlideLeft { from{opacity:0;transform:translateX(-24px)} to{opacity:1;transform:translateX(0)} }
+@keyframes gramSlideRight { from{opacity:0;transform:translateX(24px)} to{opacity:1;transform:translateX(0)} }
 @keyframes confettiFall { 0%{transform:translateY(-10px) rotate(0deg) scale(1);opacity:1} 70%{opacity:1} 100%{transform:translateY(calc(100vh + 20px)) rotate(var(--confetti-spin,720deg)) scale(0.5);opacity:0} }
 @keyframes confettiBurst { 0%{transform:translate(0,0) scale(0);opacity:0} 15%{transform:translate(var(--cx),var(--cy)) scale(1.2);opacity:1} 100%{transform:translate(var(--cx),calc(var(--cy) + 300px)) scale(0.3);opacity:0} }
 .confetti-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;overflow:hidden}
