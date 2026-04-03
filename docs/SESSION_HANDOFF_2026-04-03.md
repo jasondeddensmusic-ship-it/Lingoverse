@@ -43,10 +43,11 @@
 | `src/styles.js` | +2 | Two keyframe animations |
 
 ## Known issues / next steps
-1. **fervent-jones worktree** still has uncommitted Arabic A2-B2 work (37 files, committed as WIP rescue). Resume when Arabic translation resumes.
-2. **Grammar page dark mode hot-toggle** — if user switches dark mode while grammar popup is open, backgrounds use stale `dk` boolean. Same pattern as rest of app (not a regression).
-3. **7-column modal verb tables on narrow mobile** — fits but is tight. Horizontal scroll enabled as fallback.
-4. **Dutch grammar data** — still mock/placeholder quality. Needs same teacher-board treatment when Dutch rehaul starts.
+1. **PRIORITY: Lesson engine word coloring broken** — The dictionary POS color system (`universalHl` in LessonEngine.jsx) is applying colors to ALL words on render, not just on tap. Story cards and teach card dialogues show rainbow text (nouns blue, verbs green, adjectives lighter) instead of clean black. Should be: black text by default, POS colors only on word tap/interaction. This is in `src/components/LessonEngine.jsx` — look for `universalHl`, `WordBubble`, and the story/teach card renderers.
+2. **fervent-jones worktree** still has uncommitted Arabic A2-B2 work (37 files, committed as WIP rescue). Resume when Arabic translation resumes.
+3. **Grammar page dark mode hot-toggle** — if user switches dark mode while grammar popup is open, backgrounds use stale `dk` boolean. Same pattern as rest of app (not a regression).
+4. **7-column modal verb tables on narrow mobile** — fits but is tight. Horizontal scroll enabled as fallback.
+5. **Dutch grammar data** — still mock/placeholder quality. Needs same teacher-board treatment when Dutch rehaul starts.
 
 ## PR
 - PR #96 merged to main: `8bcd28a`

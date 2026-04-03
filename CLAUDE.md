@@ -323,6 +323,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 16. ~~Word popup crash~~ — **RESOLVED.** Missing `LANG_DICT` import in LessonEngine.jsx. WordBubble + MiniWordPopup now work.
 17. ~~CEFR Reference visual design~~ — **RESOLVED.** All-purple level pills, muted translations, inline POS tags, clean layout.
 18. **CEFR data lemma quality** — Messy entries like `(ab)fliegen, fliegt (ab)` need normalization to clean lemmas.
+19. **Lesson engine word coloring** — POS colors (universalHl) applying to ALL words on render instead of only on tap. Story/teach cards show rainbow text instead of clean black. Fix in `src/components/LessonEngine.jsx`.
 
 ---
 
