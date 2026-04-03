@@ -302,6 +302,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
 - **German grammar module** (2026-04-02): 58 entries across A1 (16), A2 (13), B1 (16), B2 (13). All Goethe-Institut constructs. Zero em-dashes (PP22c). All entries have 3-5 sentence teacher-board quality explanations. 20 conjugation/declension tables (sein/haben, regular verbs, modals, articles, cases, adjective endings, passive, Konjunktiv, etc.).
 - **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Both standalone (`src/pages/GrammarPage.jsx`) and inline (`src/verumlingua.jsx`) updated.
+- **GrammarPage v2 + teacher-board rewrite** (2026-04-03): Full redesign. Mobile bottom sheet (useBottomSheet + useSwipe), desktop glossy modal. Explanation-first layout. HTML table for pixel-perfect alignment. Full-width list cards (no emoji icons). All 58 entries rewritten: dense paragraphs → bold headings, short sentences, one idea per line, child-friendly. One bullet per item. 142 umlaut violations fixed. Muted purple translations (not teal). Portal rendering for .anim escape.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -329,10 +330,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 1. ~~CEFR data lemma cleanup~~ — **RESOLVED.** 779 entries normalized to clean headwords.
 2. ~~German idioms module~~ — **RESOLVED.** 45 idioms (A1-B2) in `src/data/grammar/idioms-german.js`. Wired into IdiomsPage.
-3. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain.
-4. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
-5. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
-6. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade). German v2 is the template.
+3. ~~Grammar page redesign~~ — **RESOLVED.** (2026-04-03) Full rewrite + 58 entries teacher-board quality. PR #96.
+4. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain. WIP rescued on `claude/fervent-jones`.
+5. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+6. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
+7. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade). German v2 is the template.
+8. **Dutch grammar teacher-board rewrite** — Current Dutch grammar is mock/placeholder. Needs same treatment as German.
 
 ---
 
@@ -347,7 +350,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-04-02d.md`** — Latest session handoff (German polish complete: CEFR lemmas, idioms, grammar audit).
+- **`docs/SESSION_HANDOFF_2026-04-03.md`** — Latest session handoff (Grammar page v2 redesign + 58 entries teacher-board rewrite + repo cleanup).
+- **`docs/SESSION_HANDOFF_2026-04-02d.md`** — Previous handoff (German polish: CEFR lemmas, idioms, grammar audit).
 - **`docs/SESSION_HANDOFF_2026-03-31.md`** — Previous handoff (word popup crash fix + CEFR reference redesign).
 - **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
 - **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
