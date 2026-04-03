@@ -46,11 +46,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const [showResume,setShowResume]=useState(false);
   const [wordBubble,setWordBubble]=React.useState(null);
   const [miniWordPopup,setMiniWordPopup]=React.useState(null);
-  // Grammar colorizer toggle: ON by default for A1-A2, OFF for B1+
+  // Grammar colorizer toggle: OFF by default (black text). User taps "Aa" to enable POS colors.
   const lessonLevel=(lesson?.steps?.[0]?.level)||"A1";
   const [grammarHl,setGrammarHl]=React.useState(()=>{
     try { const v=localStorage.getItem("vl_grammar_hl"); if(v!==null) return v==="true"; } catch(e){}
-    return /^A[12]/.test(lessonLevel);
+    return false;
   });
   React.useEffect(()=>{try{localStorage.setItem("vl_grammar_hl",grammarHl?"true":"false");}catch(e){}},[grammarHl]);
 
@@ -2478,12 +2478,12 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>;
           })()}
 
-          {/* Note section — purple-bar card (matches board-mode) */}
+          {/* Note section — purple-bar card (matches board-mode). Notes are source-language metalanguage (PP61), so no universalHl */}
           {st.note && <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:16}}>
               {(st.note||"").split(/\\n|\n/).map((line,li)=>{
                 if(!line.trim()) return <div key={li} style={{height:6}}/>;
-                if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{universalHl(line.slice(1).trim(), lang)}</span></div>;
-                return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{universalHl(line, lang)}</div>;
+                if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{line.slice(1).trim()}</span></div>;
+                return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{line}</div>;
               })}
           </div>}
 
@@ -3096,14 +3096,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         })()}
         {st.note&&(teachKind==="letter"?
           <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderRadius:20,padding:"18px 22px",marginBottom:20}}>
-            <div style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.7}}>{universalHl(st.note, lang)}</div>
+            <div style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.7}}>{st.note}</div>
           </div>
         :<div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:20}}>
           {st.note.split(/\\n|\n/).map((line,li)=>{
             if(!line.trim()) return <div key={li} style={{height:6}}/>;
             if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>•</span><span>{line.slice(1).trim()}</span></div>;
-            if(line.startsWith("⚠️")) return <div key={li} style={{fontSize:14,color:"var(--gray-700)",fontWeight:600,padding:"3px 0",lineHeight:1.6}}>{universalHl(line, lang)}</div>;
-            return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{universalHl(line, lang)}</div>;
+            if(line.startsWith("⚠️")) return <div key={li} style={{fontSize:14,color:"var(--gray-700)",fontWeight:600,padding:"3px 0",lineHeight:1.6}}>{line}</div>;
+            return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{line}</div>;
           })}
         </div>)}
 
