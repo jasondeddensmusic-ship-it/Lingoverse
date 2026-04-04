@@ -1,7 +1,7 @@
 # CLAUDE.md — VerumLingua Project Instructions
 
 > Read this file FIRST. It is the single source of truth.
-> When this file and `docs/VERUMLINGUA_REHAUL_VISION.md` conflict, the vision doc wins.
+> When this file and `docs/vision/VERUMLINGUA_REHAUL_VISION.md` conflict, the vision doc wins.
 
 ---
 
@@ -9,7 +9,7 @@
 
 VerumLingua is a multilingual language learning platform (React 18 + Vite). Vision: ANY source language to ANY target language. Nothing hardcoded for one language pair.
 
-**Platform Rehaul (active)**: Complete redesign underway. See `docs/VERUMLINGUA_REHAUL_VISION.md`. Key changes: 2-bubble word cards with fun info + POS/gender tags, story system with Verumius protagonist, language-specific settings, interleaved lesson flow. German is the template language (first to get full rehaul).
+**Platform Rehaul (active)**: Complete redesign underway. See `docs/vision/VERUMLINGUA_REHAUL_VISION.md`. Key changes: 2-bubble word cards with fun info + POS/gender tags, story system with Verumius protagonist, language-specific settings, interleaved lesson flow. German is the template language (first to get full rehaul).
 
 **Owner is NOT a coder.** Claude commits + pushes to GitHub. GitHub Actions deploys to mijndomein.nl via FTPS. lingoverse.nl updates in ~2 minutes.
 
@@ -193,7 +193,7 @@ Five leak types. ALL must be zero:
 
 ## Agent Deployment Rules
 
-> Rationale for each rule: `docs/RULES_RATIONALE.md`
+> Rationale for each rule: `docs/agents/RULES_RATIONALE.md`
 
 ### Rule A: Verification & Evidence
 1. NEVER claim something is "missing" without grepping the actual data file. Search multiple representations.
@@ -209,9 +209,9 @@ Five leak types. ALL must be zero:
 5. Sonnet 4.6+ minimum for content. Opus for creative/complex, Sonnet for validation.
 6. Pre-digest data in agent prompts instead of making agents read large files.
 7. **MAX 4 agents at a time. NEVER MORE.** Check usage before deploying. Never burn >50% session on one batch. 12+ simultaneous Opus agents = session death.
-8. **Every content agent prompt MUST include `docs/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
-9. **Every story agent prompt MUST include `docs/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
-10. **Agents read `docs/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
+8. **Every content agent prompt MUST include `docs/agents/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
+9. **Every story agent prompt MUST include `docs/agents/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
+10. **Agents read `docs/agents/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
 11. **Agents read per-unit files** (`src/data/german-v2/unit-NN.js`, ~250 lines each). NEVER the re-export (`units-german-v2.js`) or the full monolith. Per-unit = ~2K tokens. Re-export = useless wrapper. Old monolith = 110K tokens = session death.
 12. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
 13. **Token budget per agent:** Validation agent (4 units) ~10K tokens input. Content agent (1 unit) ~4K tokens. Story agent (1 unit) ~5K tokens. If an agent needs >40K input tokens, redesign the task.
@@ -336,7 +336,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities (updated 2026-04-04)
 
-> Full work plan: `docs/PHASE1_WORKPLAN.md`. Strategy decisions: `docs/SESSION_HANDOFF_2026-04-04.md`.
+> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-04b.md`.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -393,38 +393,28 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ### Tier 1: Authoritative
 - **`CLAUDE.md`** (this file) — Single source of truth. Read first.
-- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec. Supersedes conflicts.
-- **`docs/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
+- **`docs/vision/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec. Supersedes conflicts.
+- **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
 - **`docs/SESSION_HANDOFF_2026-04-04b.md`** — **Latest handoff.** Phase 1 complete.
-- **`docs/SESSION_HANDOFF_2026-04-04.md`** — Strategy decisions, Phase 1-6 ordering.
-- **`docs/SESSION_HANDOFF_2026-04-03.md`** — Grammar page v2 redesign.
 - **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
-- **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
-- **`docs/german/`** — Scene breakdowns, communicative functions mapping.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
-- **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
+- **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
 
 ### Tier 2.5: Agent Infrastructure
-- **`docs/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
-- **`docs/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
-- **`docs/AGENT_TRANSLATION_RULES.md`** — Translation + cultural adaptation rules for source-to-target pipelines.
-- **`docs/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
+- **`docs/agents/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
+- **`docs/agents/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
+- **`docs/agents/AGENT_TRANSLATION_RULES.md`** — Translation + cultural adaptation rules for source-to-target pipelines.
+- **`docs/agents/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
 
-### Tier 3: Specialized
-- **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable grammar/vocab index.
-- **`docs/WORD_TAG_TAXONOMY.md`** — POS tag system powering color system + grammar deep dives.
-- **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
-- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec.
-- **`docs/SETTINGS_PANEL_HANDOFF.md`** — Settings panel V1 gaps.
-- **`docs/DICTIONARY_SYSTEM_HANDOFF.md`** — Dictionary architecture (polyglot, conjugation, form index).
-- **`docs/UNIVERSAL_DICTIONARY_PLAN.md`** — Dictionary expansion roadmap for all languages.
-- **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Pedagogical template for level design.
-- **`docs/TOPIK_COVERAGE_REPORT.md`** — Korean TOPIK vocabulary coverage gaps.
-- **`docs/FK_DECISION_FRAMEWORK.md`** — Foundations module design (alphabet, phonics, scripts).
-- **`docs/LANGUAGE_INTEGRATION_PIPELINE.md`** — Steps for onboarding new languages.
+### Tier 3: Specialized (by subdirectory)
+- **`docs/vision/`** — Rehaul vision, visual/audio layer, German rehaul plan
+- **`docs/agents/`** — Content/story/translation rules, format template, rules rationale
+- **`docs/reference/`** — Dictionary, settings, word tags, foundations, language pipeline, concept registry
+- **`docs/german/`** — Scene breakdowns, communicative functions mapping
+- **`docs/korean/`** — B1 curriculum design, TOPIK coverage report
 
 ---
 
