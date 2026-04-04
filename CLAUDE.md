@@ -58,7 +58,7 @@ npm run build                 # Production build (validates compilation)
 | `src/hooks.js` | ~181 | `useFocusNav` keyboard navigation hook |
 | `src/pages/*.jsx` | 13 files | All pages (Home, LearnPage, VocabularyPage, GrammarPage, CefrReferencePage, Flashcards, Quiz, Chat, Profile, IdiomsPage, AuthScreen, Onboarding, DevGate) |
 
-> **Note**: `src/verumlingua.jsx` is DEAD CODE (6,010 lines, zero imports). Scheduled for deletion. `src/main.jsx` → `src/App.jsx` is the real entry. **DO NOT READ verumlingua.jsx.**
+> **Entry point**: `src/main.jsx` → `src/App.jsx`. Legacy `verumlingua.jsx` deleted (was 6,010 lines of dead code).
 
 ### Normalization Layer (`_normStep()` in `src/utils.js`)
 Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exampleEn`↔`exampleSrc`). Sets `_origTrg=true` on cards originally written with `trg`. Engine accepts BOTH formats transparently.
@@ -304,7 +304,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **CEFR Reference redesign** (2026-03-31): All-purple level pills, muted gray translations, inline POS tags, clean flexbox layout. Removed 4-column grid.
 - **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
 - **German grammar module** (2026-04-02): 58 entries across A1 (16), A2 (13), B1 (16), B2 (13). All Goethe-Institut constructs. Zero em-dashes (PP22c). All entries have 3-5 sentence teacher-board quality explanations. 20 conjugation/declension tables (sein/haben, regular verbs, modals, articles, cases, adjective endings, passive, Konjunktiv, etc.).
-- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Both standalone (`src/pages/GrammarPage.jsx`) and inline (`src/verumlingua.jsx`) updated.
+- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Standalone `src/pages/GrammarPage.jsx` updated.
 - **GrammarPage v2 + teacher-board rewrite** (2026-04-03): Full redesign. Mobile bottom sheet (useBottomSheet + useSwipe), desktop glossy modal. Explanation-first layout. HTML table for pixel-perfect alignment. Full-width list cards (no emoji icons). All 58 entries rewritten: dense paragraphs → bold headings, short sentences, one idea per line, child-friendly. One bullet per item. 142 umlaut violations fixed. Muted purple translations (not teal). Portal rendering for .anim escape.
 
 ### Known Blockers
@@ -327,10 +327,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 17. ~~CEFR Reference visual design~~ — **RESOLVED.** All-purple level pills, muted translations, inline POS tags, clean layout.
 18. ~~CEFR data lemma quality~~ — **RESOLVED.** 779 entries normalized to clean headwords.
 19. ~~Lesson engine word coloring~~ — **RESOLVED** (2026-04-04). `grammarHl` default changed to false. Note text removed from `universalHl`. PR #99.
-20. **CEFR page is raw word list** — Needs Progress Tracker redesign. See `docs/PHASE1_WORKPLAN.md`.
-21. **`verumlingua.jsx` is dead code** — 6,010 lines, zero imports. `App.jsx` is the real entry. Scheduled for deletion.
-22. **Cases grammar pack empty** — Legend defined but `colorMap` empty. Needs filling.
-23. **Arabic A1+A2 has 7 stray [AR] markers** — Trivial to fix.
+20. ~~CEFR page is raw word list~~ — **RESOLVED.** Progress Tracker redesign: progress panel, per-level bars, filter toggles, learned checkmarks.
+21. ~~`verumlingua.jsx` is dead code~~ — **RESOLVED.** Deleted (6,010 lines). `App.jsx` is the real entry.
+22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
+23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
 
 ---
 
@@ -338,12 +338,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 > Full work plan: `docs/PHASE1_WORKPLAN.md`. Strategy decisions: `docs/SESSION_HANDOFF_2026-04-04.md`.
 
-### Phase 1: German EN→DE Polish (CURRENT)
-1. **CEFR → Progress Tracker** — Redesign `src/pages/CefrReferencePage.jsx`. Cross-ref `user.lw` with CEFR vocab. Progress bars + learned/unlearned styling.
-2. **Delete `verumlingua.jsx`** — 6,010 lines dead code, zero imports. Verify build, update this doc.
-3. **Fill Cases grammar pack** — Empty `colorMap` in `src/data/dictionary.js`.
-4. **Fix 7 Arabic A1+A2 markers** — 1 marker each in units 3-6, 9, 10, 12.
-5. **Document LessonEngine split roadmap** — Add refactoring section to this file.
+### Phase 1: German EN→DE Polish (DONE)
+1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
+2. ~~Delete `verumlingua.jsx`~~ — **DONE.** 6,010 lines removed.
+3. ~~Fill Cases grammar pack~~ — **DONE.** Preposition/article/pronoun colorMap.
+4. ~~Fix Arabic A1+A2 markers~~ — **DONE.** Already clean.
+5. ~~Document LessonEngine split roadmap~~ — **DONE.** See Refactoring Roadmap section below.
 
 ### Phase 2: Arabic B1+B2 Translation
 6. **Arabic source completion** — 20 units, ~12,757 [AR] markers. Sonnet agents, max 4 at a time.
@@ -373,7 +373,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 ### Completed
 - All pages split to `src/pages/` (13 files, React.lazy loaded from `src/App.jsx`)
 - All shared components to `src/components/` (8 files)
-- `src/verumlingua.jsx` identified as dead code (6,010 lines, zero imports) — deletion scheduled in Phase 1
+- `src/verumlingua.jsx` deleted (was 6,010 lines of dead code, zero imports)
 
 ### Planned: LessonEngine.jsx Splitting
 `src/components/LessonEngine.jsx` (4,036 lines) is the remaining monolith. Not blocking, for future sessions:
@@ -398,7 +398,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ### Tier 2: Active reference
 - **`docs/PHASE1_WORKPLAN.md`** — Current work plan: CEFR progress tracker, dead code removal, Cases pack, Arabic markers, refactoring roadmap.
-- **`docs/SESSION_HANDOFF_2026-04-04.md`** — **Latest handoff.** Rainbow word fix, faded note fix, strategy decisions, dead code discovery, Phase 1-6 ordering.
+- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — **Latest handoff.** Phase 1 complete: CEFR Progress Tracker, dead code removal, Cases pack, CLAUDE.md updates.
+- **`docs/SESSION_HANDOFF_2026-04-04.md`** — Previous handoff. Rainbow word fix, strategy decisions, Phase 1-6 ordering.
 - **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
 - **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
@@ -432,12 +433,11 @@ Historical docs. Not needed for current work.
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-04-04.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-04-04b.md` for latest context.
 3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
 4. Check memory files (`~/.claude/projects/.../memory/`).
-5. **DO NOT READ `src/verumlingua.jsx`** — it's 6,010 lines of dead code. `src/App.jsx` is the real entry point.
-6. Before audits: follow Rule A (grep actual code, never trust docs alone).
-7. Before content: re-read Pipeline Rules above.
+5. Before audits: follow Rule A (grep actual code, never trust docs alone).
+6. Before content: re-read Pipeline Rules above.
 
 ---
 
