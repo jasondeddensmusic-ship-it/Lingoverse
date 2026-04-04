@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { LANGUAGES } from '../data/metadata.js';
 import { t } from '../data/vocabulary.js';
+import { UNITS } from '../utils.js';
 import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import { getUserCefr } from '../helpers.js';
@@ -8,6 +9,26 @@ import { getUserCefr } from '../helpers.js';
 function Home({user,setPage,lang,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
   const L=LANGUAGES.find(l=>l.code===lang);
+
+  // Find next incomplete lesson for "Continue Learning"
+  const continueInfo = useMemo(() => {
+    const prog = user.progress?.lessons || {};
+    const langUnits = UNITS.filter(u => u.lang === lang).sort((a, b) => a.n - b.n);
+    const completedCount = Object.keys(prog).filter(k => k.startsWith(lang + ":")).length;
+    if (completedCount === 0) return null;
+
+    for (const unit of langUnits) {
+      for (const lesson of (unit.lessons || [])) {
+        const key = `${lang}:${unit.n}:${lesson.id}`;
+        if (!prog[key]) {
+          return { unit, lesson, completedCount };
+        }
+      }
+    }
+    // All done
+    return { allComplete: true, completedCount };
+  }, [lang, user.progress]);
+
   return(
     <div className="anim">
       {/* Welcome header — immersive in the target language */}
@@ -18,6 +39,44 @@ function Home({user,setPage,lang,baseLang="en"}){
           <CountryFlag code={lang} size={24}/>
         </div>
       </div>
+
+      {/* Continue Learning card — only for returning users */}
+      {continueInfo && !continueInfo.allComplete && <div
+        role="button"
+        onClick={() => setPage("learn")}
+        style={{
+          maxWidth:520,margin:"0 auto 20px",borderRadius:20,padding:"20px 24px",cursor:"pointer",
+          background:dk
+            ?"linear-gradient(135deg, rgba(123,94,232,0.25), rgba(46,205,167,0.15))"
+            :"linear-gradient(135deg, #F0EBFF, #E8FFF6)",
+          border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(123,94,232,0.15)",
+          boxShadow:"0 4px 16px rgba(85,53,181,0.12)",
+          transition:"all .15s",position:"relative",overflow:"hidden",
+        }}
+      >
+        {/* Shine overlay */}
+        <div style={{position:"absolute",top:0,left:0,right:0,height:"50%",borderRadius:"20px 20px 0 0",background:"linear-gradient(180deg, rgba(255,255,255,0.15) 0%, transparent 100%)",pointerEvents:"none"}}/>
+        <div style={{display:"flex",alignItems:"center",gap:16,position:"relative",zIndex:1}}>
+          <div style={{fontSize:36,flexShrink:0}}>{continueInfo.unit.icon || "📖"}</div>
+          <div style={{flex:1,minWidth:0}}>
+            <div style={{fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.2,color:"var(--purple-accent-text)",marginBottom:4}}>
+              {t("home_continue",baseLang) || "Continue Learning"}
+            </div>
+            <div style={{fontSize:16,fontWeight:800,color:"var(--gray-800)",marginBottom:2,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>
+              {continueInfo.unit.title} — {continueInfo.lesson.title}
+            </div>
+            <div style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>
+              {continueInfo.completedCount} {t("home_lessons_done",baseLang) || "lessons completed"}
+            </div>
+          </div>
+          <div style={{fontSize:24,color:"var(--purple-accent-text)",flexShrink:0}}>→</div>
+        </div>
+      </div>}
+
+      {/* All complete badge */}
+      {continueInfo?.allComplete && <div style={{maxWidth:520,margin:"0 auto 20px",borderRadius:20,padding:"16px 24px",textAlign:"center",background:dk?"rgba(46,205,167,0.12)":"linear-gradient(135deg, #E8FFF6, #D1FAE5)",border:"1.5px solid rgba(46,205,167,0.2)"}}>
+        <span style={{fontSize:14,fontWeight:700,color:"var(--teal-dark)"}}>🎉 {t("home_all_complete",baseLang) || "All lessons completed!"}</span>
+      </div>}
 
       {/* 6 Category buttons — continue-button purple */}
       <div className="home-grid" style={{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(140px, 1fr))",gap:14,maxWidth:520,margin:"0 auto"}}>

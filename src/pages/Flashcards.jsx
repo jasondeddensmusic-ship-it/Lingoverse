@@ -1,11 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { LANG_META } from '../data/metadata.js';
 import { VOCAB, t } from '../data/vocabulary.js';
-import { shuffle, cap } from '../utils.js';
+import { shuffle, cap, UNITS } from '../utils.js';
 import { SpeakerButton } from '../audio.jsx';
 
+// Build vocab from UNITS teach cards for v2 languages (German etc.)
+function buildUnitsVocab(lang) {
+  const seen = new Set();
+  const cards = [];
+  const langUnits = UNITS.filter(u => u.lang === lang);
+  for (const u of langUnits) {
+    const level = (u.level || "A1").substring(0, 2);
+    for (const lesson of (u.lessons || [])) {
+      for (const st of (lesson.steps || [])) {
+        if (st.type !== "teach") continue;
+        const word = st.nl || st.trg || "";
+        if (!word || seen.has(word.toLowerCase())) continue;
+        seen.add(word.toLowerCase());
+        cards.push({
+          word,
+          translation: st.en || st.src || "",
+          category: st.pos || "",
+          level,
+          phonetic: st.phonetic || "",
+          pos: st.pos || null,
+          gender: st.gender || null,
+          funFact: st.funFact || null,
+          note: st.note || null,
+        });
+      }
+    }
+  }
+  return cards;
+}
+
 function Flashcards({lang,baseLang="en",user,showToast}){
-  const allVocab=VOCAB[lang]||[];
+  // Use UNITS-derived vocab for languages with v2 content, fall back to static VOCAB
+  const allVocab = useMemo(() => {
+    const unitsVocab = buildUnitsVocab(lang);
+    // If UNITS has substantial teach cards, prefer those over static VOCAB
+    if (unitsVocab.length > 50) return unitsVocab;
+    // Otherwise use static VOCAB (Korean, Dutch, French, Spanish etc.)
+    return VOCAB[lang] || [];
+  }, [lang]);
+
   // Only show words the user has learned
   const learnedWords=allVocab.filter(w=>user.lw.has(w.word));
   const [mode,setMode]=useState("shuffle"); // shuffle, level, alpha
@@ -71,6 +109,7 @@ function Flashcards({lang,baseLang="en",user,showToast}){
           <div className="fc-face fc-back">
             <div className="fc-cat" style={{color:"var(--teal-dark)"}}>{t("fc_translation",baseLang)}</div>
             <div className="fc-trans">{cap(card.translation)}</div>
+            {card.funFact&&<div style={{fontSize:12,color:"var(--gray-400)",marginTop:8,fontStyle:"italic",lineHeight:1.5,maxWidth:280,margin:"8px auto 0"}}>{card.funFact}</div>}
             <div className="fc-label">{cap(card.word)} = {cap(card.translation)}</div>
           </div>
         </div>

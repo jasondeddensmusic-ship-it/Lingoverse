@@ -3183,11 +3183,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 <div key={ri} style={{display:"grid",gridTemplateColumns:r.en?"1fr 1fr 1fr":"1fr 1fr",borderTop:(gi>0||ri>0||grp.label||grp.header)?"1px solid var(--gray-100)":"none"}}>
                   {/* Pronoun */}
                   {r.pronoun&&<div style={{padding:"10px 16px",background:"rgba(123,94,232,0.03)"}}>
-                    <span style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)"}}>{r.pronoun}</span>
+                    <span style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",display:"flex",flexWrap:"wrap",gap:2}}>{universalHl(r.pronoun, lang)}</span>
                   </div>}
                   {/* Verb form */}
                   <div style={{padding:"10px 16px",textAlign:r.pronoun?"center":"left",background:"rgba(123,94,232,0.06)",gridColumn:!r.pronoun&&!r.en?"1 / -1":undefined}}>
-                    <span style={{fontSize:17,fontWeight:800,color:"#5B3DB8",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{r.form}</span>
+                    <span style={{fontSize:17,fontWeight:800,color:"#5B3DB8",fontFamily:"'Quicksand','system-ui',sans-serif",display:"flex",flexWrap:"wrap",gap:2,justifyContent:r.pronoun?"center":"flex-start"}}>{universalHl(r.form, lang)}</span>
                   </div>
                   {/* English */}
                   {r.en&&<div style={{padding:"10px 16px",textAlign:"right"}}>
