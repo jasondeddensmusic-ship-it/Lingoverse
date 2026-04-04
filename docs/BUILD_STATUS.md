@@ -92,3 +92,23 @@
 - Responsive: clamp() typography, auto-fill grids, overflow-wrap, scroll lock on modals.
 - Chat: Old Nova (broken CORS) replaced with Verumius full-page chat (Cloudflare Workers).
 - iOS: 16px inputs (no auto-zoom), dvh units, touch-action:manipulation.
+
+## Bug Fixes (2026-04-04)
+
+- **Rainbow word coloring fixed** (PR #99): `grammarHl` defaulted to `true` for A1-A2, causing all words to render with POS colors. Changed to `false` — black text by default, colors on "Aa" tap.
+- **Faded note text fixed** (PR #99): Note text (English metalanguage) was run through `universalHl()` with target lang, making every word near-invisible. Removed `universalHl` from note renderers in both new-format and legacy teach cards.
+
+## Architecture Cleanup (2026-04-04)
+
+- **Discovery**: `src/verumlingua.jsx` (6,010 lines) is dead code. `src/main.jsx` → `src/App.jsx` is the real entry. Zero imports of verumlingua.jsx. Deletion scheduled in Phase 1.
+- **All pages already split**: 13 files in `src/pages/`, React.lazy loaded from App.jsx.
+- **All shared components extracted**: 8 files in `src/components/`.
+- **Remaining monolith**: `src/components/LessonEngine.jsx` (4,036 lines). Splitting roadmap documented in CLAUDE.md.
+
+## Strategic Decisions (2026-04-04)
+
+- **TTS**: Google Cloud TTS chosen. Deferred — content first, audio later.
+- **CEFR Reference**: Redesigned as Progress Tracker ("You know 340/677 A1 words").
+- **Phase ordering locked**: Phase 1 (German EN→DE polish) → Phase 2 (Arabic B1+B2) → Phase 3 (Nav) → Phase 4 (Audio) → Phase 5 (V1→V2) → Phase 6 (Premium visual).
+- **Nothing gets cut**: All features stay. VL = full ecosystem.
+- **Arabic mandatory**: Proves any→any architecture + personal use case.
