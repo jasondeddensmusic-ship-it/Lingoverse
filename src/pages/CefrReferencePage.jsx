@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { LANGUAGES } from '../data/metadata.js';
 import { t } from '../data/vocabulary.js';
-import { POS_COLORS, pillGradient } from '../data/dictionary.js';
+import { POS_COLORS, GENDER_COLORS, WORD_DB, pillGradient } from '../data/dictionary.js';
 import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import { GERMAN_CEFR } from '../data/cefr-reference/german.js';
@@ -12,13 +12,52 @@ import { SPANISH_CEFR } from '../data/cefr-reference/spanish.js';
 
 const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR };
 
-function CefrReferencePage({lang}){
+function CefrReferencePage({lang, user}){
   const dk=document.documentElement.classList.contains("dark");
   const ref = CEFR_REFS[lang];
   const [tab,setTab]=useState("vocab");
   const [level,setLevel]=useState("ALL");
   const [search,setSearch]=useState("");
   const [expandedGrammar,setExpandedGrammar]=useState(null);
+  const [filterMode,setFilterMode]=useState("all"); // "all" | "learning" | "learned"
+  const [posFilter,setPosFilter]=useState("ALL"); // "ALL" | "noun" | "verb" | "adj" | etc.
+
+  // Build lowercase Set from user.lw for O(1) lookups
+  const learnedSet = useMemo(()=>{
+    if(!user?.lw) return new Set();
+    const s=new Set();
+    for(const w of user.lw) s.add(w.toLowerCase());
+    return s;
+  },[user?.lw]);
+
+  // Check if a CEFR word is learned — normalize: strip "sich " prefix, trailing hyphens, parens
+  const isLearned = (word)=>{
+    if(!word || learnedSet.size===0) return false;
+    const w = word.toLowerCase().replace(/^sich\s+/,"").replace(/[-()]/g,"").trim();
+    if(learnedSet.has(w)) return true;
+    // Also check the raw word
+    if(learnedSet.has(word.toLowerCase())) return true;
+    return false;
+  };
+
+  // Per-level progress stats
+  const progressStats = useMemo(()=>{
+    if(!ref?.vocabulary) return null;
+    const stats={total:0,learned:0,levels:{}};
+    for(const lv of ["A1","A2","B1","B2"]){
+      stats.levels[lv]={total:0,learned:0};
+    }
+    for(const w of ref.vocabulary){
+      stats.total++;
+      const lvObj=stats.levels[w.l];
+      if(lvObj) lvObj.total++;
+      if(isLearned(w.w)){
+        stats.learned++;
+        if(lvObj) lvObj.learned++;
+      }
+    }
+    return stats;
+  },[ref?.vocabulary,learnedSet]);
 
   if(!ref) return(
     <div className="anim" style={{textAlign:"center",padding:"60px 20px"}}>
@@ -38,17 +77,62 @@ function CefrReferencePage({lang}){
     {id:"functions",label:"Communicative Functions",icon:"🗣️"},
   ];
 
-  // Filter vocabulary
+  // POS categories for filter
+  const posCategories = useMemo(()=>{
+    if(!ref.vocabulary) return [];
+    const counts={};
+    for(const w of ref.vocabulary){
+      const p=w.p||"other";
+      counts[p]=(counts[p]||0)+1;
+    }
+    // Group into main categories
+    const groups=[
+      {id:"noun",label:"Nouns",match:["noun"],count:counts.noun||0},
+      {id:"verb",label:"Verbs",match:["verb","modal","aux"],count:(counts.verb||0)+(counts.modal||0)+(counts.aux||0)},
+      {id:"adj",label:"Adjectives",match:["adj","adjective"],count:(counts.adj||0)+(counts.adjective||0)},
+      {id:"adv",label:"Adverbs",match:["adv","adverb"],count:(counts.adv||0)+(counts.adverb||0)},
+      {id:"prep",label:"Prepositions",match:["prep","preposition"],count:(counts.prep||0)+(counts.preposition||0)},
+      {id:"other",label:"Other",match:["conj","conjunction","pron","pronoun","part","particle","intj","interjection","num","number","det","phrase","prefix","abbrev"],count:Object.entries(counts).filter(([k])=>!["noun","verb","modal","aux","adj","adjective","adv","adverb","prep","preposition"].includes(k)).reduce((s,[,v])=>s+v,0)},
+    ];
+    return groups.filter(g=>g.count>0);
+  },[ref.vocabulary]);
+
+  // Filter + deduplicate vocabulary
   const filteredVocab = useMemo(()=>{
     if(!ref.vocabulary) return [];
     let items = ref.vocabulary;
     if(level!=="ALL") items = items.filter(w=>w.l===level);
+    if(posFilter!=="ALL"){
+      const cat=posCategories.find(c=>c.id===posFilter);
+      if(cat) items=items.filter(w=>cat.match.includes(w.p));
+    }
+    if(filterMode==="learning") items = items.filter(w=>!isLearned(w.w));
+    if(filterMode==="learned") items = items.filter(w=>isLearned(w.w));
     if(search.trim()){
       const q=search.toLowerCase().trim();
       items = items.filter(w=>(w.w||"").toLowerCase().includes(q)||(w.f||"").toLowerCase().includes(q)||(w.tr||"").toLowerCase().includes(q));
     }
-    return items.sort((a,b)=>(a.w||"").localeCompare(b.w||"","de"));
-  },[ref.vocabulary,level,search]);
+    // Deduplicate: group by word, keep lowest level, collect all examples
+    const lvOrder={A1:0,A2:1,B1:2,B2:3};
+    const map=new Map();
+    for(const w of items){
+      const key=w.w.toLowerCase();
+      if(!map.has(key)){
+        map.set(key,{...w,examples:w.ex?[{ex:w.ex,tr:w.tr,l:w.l}]:[]});
+      } else {
+        const existing=map.get(key);
+        if(w.ex) existing.examples.push({ex:w.ex,tr:w.tr,l:w.l});
+        // Keep lowest level
+        if((lvOrder[w.l]??9)<(lvOrder[existing.l]??9)){
+          existing.l=w.l;
+          // Also take article/gender if the existing doesn't have it
+          if(!existing.a&&w.a) existing.a=w.a;
+          if(!existing.g&&w.g) existing.g=w.g;
+        }
+      }
+    }
+    return [...map.values()].sort((a,b)=>(a.w||"").localeCompare(b.w||"","de"));
+  },[ref.vocabulary,level,search,filterMode,learnedSet,posFilter,posCategories]);
 
   // Grammar grouped by level
   const grammarByLevel = useMemo(()=>{
@@ -103,14 +187,43 @@ function CefrReferencePage({lang}){
   return(
     <div className="anim" style={{maxWidth:900,margin:"0 auto",padding:"0 12px"}}>
       {/* Header */}
-      <div style={{textAlign:"center",padding:"16px 0 20px"}}>
-        <h1 className="hd" style={{fontSize:26,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",marginBottom:4}}>
-          CEFR Reference: {ref.meta?.languageName||lang.toUpperCase()}
+      <div style={{textAlign:"center",padding:"16px 0 12px"}}>
+        <h1 className="hd" style={{fontSize:24,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",marginBottom:4}}>
+          {ref.meta?.languageName||lang.toUpperCase()} CEFR Progress
         </h1>
-        <p style={{fontSize:13,color:"var(--gray-500)",fontFamily:"'Nunito',sans-serif"}}>
-          {ref.meta?.stats?.A1?.words||0} A1 + {ref.meta?.stats?.A2?.words||0} A2 + {ref.meta?.stats?.B1?.words||0} B1{ref.meta?.stats?.B2?.words ? ` + ${ref.meta.stats.B2.words} B2`:""} words from {ref.meta?.sources?.[0]||"official reference lists"}
+        <p style={{fontSize:12,color:"var(--gray-400)",fontFamily:"'Nunito',sans-serif"}}>
+          Official word lists: A1-B2
         </p>
       </div>
+
+      {/* Progress Overview — clean inline bars, no nested bubbles */}
+      {progressStats && progressStats.total > 0 && (
+        <div style={{marginBottom:16,padding:"0 2px"}}>
+          {/* Big number line */}
+          <div style={{display:"flex",alignItems:"baseline",justifyContent:"center",gap:6,marginBottom:12}}>
+            <span style={{fontSize:32,fontWeight:900,fontFamily:"'Quicksand',sans-serif",color:dk?"#E8E0FF":"#5840B8",lineHeight:1}}>{progressStats.learned}</span>
+            <span style={{fontSize:14,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)"}}>/ {progressStats.total} words learned</span>
+          </div>
+          {/* Compact level bars */}
+          <div style={{display:"flex",flexDirection:"column",gap:6}}>
+            {["A1","A2","B1","B2"].map(lv=>{
+              const s=progressStats.levels[lv];
+              if(!s||s.total===0) return null;
+              const pct=Math.round((s.learned/s.total)*100);
+              const c=bandColor(lv);
+              return(
+                <div key={lv} style={{display:"flex",alignItems:"center",gap:8}}>
+                  <LevelPill lv={lv} small/>
+                  <div style={{flex:1,height:6,borderRadius:3,background:dk?"rgba(255,255,255,0.08)":"rgba(123,94,232,0.1)",overflow:"hidden"}}>
+                    <div style={{height:"100%",borderRadius:3,width:`${pct}%`,background:`linear-gradient(90deg, ${c}, ${c}CC)`,boxShadow:`0 0 6px ${c}44`,transition:"width .5s ease"}}/>
+                  </div>
+                  <span style={{fontSize:11,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.4)",minWidth:42,textAlign:"right"}}>{s.learned}/{s.total}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Section tabs */}
       <div style={{display:"flex",gap:6,flexWrap:"wrap",justifyContent:"center",marginBottom:16}}>
@@ -164,6 +277,49 @@ function CefrReferencePage({lang}){
       {/* VOCABULARY TAB */}
       {tab==="vocab"&&(
         <div>
+          {/* Filter toggle pills */}
+          {learnedSet.size > 0 && (
+            <div style={{display:"flex",gap:6,marginBottom:12}}>
+              {[{id:"all",label:"All Words"},{id:"learning",label:"Still Learning"},{id:"learned",label:"Learned"}].map(fm=>{
+                const active=filterMode===fm.id;
+                return(
+                  <button key={fm.id} onClick={()=>setFilterMode(fm.id)} style={{
+                    padding:"5px 14px",borderRadius:14,border:"none",cursor:"pointer",
+                    fontFamily:"'Quicksand',sans-serif",fontWeight:800,fontSize:12,
+                    background:active
+                      ?(dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)")
+                      :(dk?"rgba(255,255,255,0.08)":"rgba(0,0,0,0.05)"),
+                    color:active?"#fff":(dk?"rgba(200,184,255,0.7)":"#7050D8"),
+                    textShadow:active?"0 1px 2px rgba(0,0,0,0.2)":"none",
+                    boxShadow:active
+                      ?(dk?"0 0 12px rgba(123,94,232,0.3), 0 3px 10px rgba(85,53,181,0.4), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.15)":"0 3px 12px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)")
+                      :"none",
+                    transition:"all .2s ease",
+                  }}>{fm.label}</button>
+                );
+              })}
+            </div>
+          )}
+
+          {/* POS filter pills */}
+          <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:10}}>
+            {[{id:"ALL",label:"All"},...posCategories].map(cat=>{
+              const active=posFilter===cat.id;
+              return(
+                <button key={cat.id} onClick={()=>setPosFilter(cat.id)} style={{
+                  padding:"4px 10px",borderRadius:12,border:"none",cursor:"pointer",
+                  fontFamily:"'Nunito',sans-serif",fontWeight:700,fontSize:11,
+                  background:active
+                    ?(dk?"rgba(123,94,232,0.5)":"rgba(123,94,232,0.15)")
+                    :(dk?"rgba(255,255,255,0.05)":"rgba(0,0,0,0.03)"),
+                  color:active?(dk?"#E8E0FF":"#5840B8"):(dk?"rgba(200,184,255,0.5)":"var(--gray-400)"),
+                  border:active?(dk?"1px solid rgba(123,94,232,0.4)":"1px solid rgba(123,94,232,0.25)"):"1px solid transparent",
+                  transition:"all .15s ease",
+                }}>{cat.label}{cat.count!=null?` (${cat.count})`:""}</button>
+              );
+            })}
+          </div>
+
           {/* Search */}
           <div style={{display:"flex",gap:8,alignItems:"center",marginBottom:12}}>
             <input
@@ -182,10 +338,11 @@ function CefrReferencePage({lang}){
           {/* Stats */}
           <div style={{fontSize:12,color:"var(--gray-500)",fontFamily:"'Nunito',sans-serif",marginBottom:10}}>
             Showing {filteredVocab.length} of {ref.vocabulary?.length||0} words
+            {learnedSet.size > 0 && progressStats && <span> ({progressStats.learned} learned)</span>}
           </div>
 
           {/* Word list — virtualized-ish: show first 200, load more on scroll */}
-          <VocabTable words={filteredVocab} dk={dk} rowStyle={rowStyle} LevelPill={LevelPill} posLabel={posLabel} genderLabel={genderLabel} genderColor={genderColor} GlossArc={GlossArc}/>
+          <VocabTable words={filteredVocab} dk={dk} lang={lang} rowStyle={rowStyle} LevelPill={LevelPill} posLabel={posLabel} genderLabel={genderLabel} genderColor={genderColor} GlossArc={GlossArc} isLearned={isLearned} hasProgress={learnedSet.size>0}/>
         </div>
       )}
 
@@ -407,36 +564,65 @@ function CefrReferencePage({lang}){
 }
 
 // Sub-component: vocabulary table with pagination
-function VocabTable({words,dk,rowStyle,LevelPill,posLabel,genderLabel,genderColor,GlossArc}){
+function VocabTable({words,dk,lang,rowStyle,LevelPill,posLabel,genderLabel,genderColor,GlossArc,isLearned,hasProgress}){
+  const dict = WORD_DB[lang] || {};
+  // Look up English meaning from WORD_DB
+  const getMeaning=(word)=>{
+    const key = (word||"").toLowerCase().replace(/^sich\s+/,"");
+    const entry = dict[key];
+    return entry?.en || null;
+  };
   const [showCount,setShowCount]=useState(100);
+  const [expanded,setExpanded]=useState(null);
   const visible=words.slice(0,showCount);
   const posTag=(p)=>({noun:"N",verb:"V",adj:"ADJ",adv:"ADV",prep:"PREP",conj:"CONJ",pron:"PRON",part:"PART",intj:"INTJ",phrase:"PHR",prefix:"PFX",modal:"MOD",aux:"AUX",num:"NUM",det:"DET",abbrev:"ABBR",number:"NUM",particle:"PART",adjective:"ADJ",adverb:"ADV",preposition:"PREP",conjunction:"CONJ",pronoun:"PRON",interjection:"INTJ"}[p]||"");
 
+  // Word color: ONLY nouns get gender color, everything else is default text
+  const wordColor=(w)=>{
+    if(w.g && GENDER_COLORS[w.g]) return GENDER_COLORS[w.g][dk?"dark":"light"];
+    return dk?"var(--gray-200)":"var(--gray-800)";
+  };
+
   return(
     <div>
-      {visible.map((w,i)=>(
-        <div key={i} style={{...rowStyle,padding:"10px 16px"}}>
+      {visible.map((w,i)=>{
+        const learned = hasProgress && isLearned(w.w);
+        const isOpen = expanded === i;
+        return(
+        <div key={i}
+          onClick={()=>setExpanded(isOpen?null:i)}
+          style={{...rowStyle,padding:"10px 14px",opacity:learned?0.5:1,transition:"all .2s ease",cursor:"pointer"}}>
           <GlossArc/>
-          <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
-            {/* Level pill — compact */}
-            <span style={{
-              display:"inline-block",padding:"2px 6px",borderRadius:8,fontSize:9,fontWeight:800,
-              fontFamily:"'Quicksand',sans-serif",color:"#fff",minWidth:24,textAlign:"center",
-              background:`linear-gradient(180deg, ${({A1:"#A890FF",A2:"#9B7AE8",B1:"#7B5EE8",B2:"#6545C8"}[w.l]||"#888")} 0%, ${({A1:"#8B6AE4",A2:"#7B5EE8",B1:"#6545C8",B2:"#5230B0"}[w.l]||"#666")} 100%)`,
-              textShadow:"0 1px 1px rgba(0,0,0,0.2)",letterSpacing:0.5,flexShrink:0,
-            }}>{w.l}</span>
-            {/* Word + POS tag — no gender coloring, all words same color */}
-            <div style={{flex:1,minWidth:0}}>
-              <span style={{fontSize:14,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)"}}>{w.w}</span>
-              {w.f&&w.f!==w.w&&<span style={{fontSize:11,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontFamily:"'Nunito',sans-serif",marginLeft:6}}>{w.f}</span>}
-              {w.p&&posTag(w.p)&&<span style={{fontSize:9,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:6,letterSpacing:0.5}}>{posTag(w.p)}</span>}
-              {w.g&&<span style={{fontSize:9,fontWeight:700,color:dk?"rgba(168,144,255,0.5)":"rgba(123,94,232,0.4)",marginLeft:4}}>{genderLabel(w.g)}</span>}
+          <div style={{position:"relative",zIndex:1}}>
+            {/* Line 1: headword + English meaning */}
+            <div style={{display:"flex",alignItems:"center",gap:8}}>
+              <span style={{fontSize:15,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:wordColor(w)}}>{w.w}</span>
+              {getMeaning(w.w)&&<span style={{fontSize:12,fontWeight:600,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",flex:1,minWidth:0,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{getMeaning(w.w)}</span>}
+              {!getMeaning(w.w)&&<div style={{flex:1}}/>}
+              {hasProgress && learned && (
+                <svg width="14" height="11" viewBox="0 0 10 8" fill="none" style={{flexShrink:0}}>
+                  <path d="M1 3.5L3.5 6L9 1" stroke={dk?"#A488F0":"#7B5EE8"} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              )}
             </div>
-            {/* Translation */}
-            <span style={{fontSize:12,color:dk?"rgba(200,190,255,0.6)":"var(--gray-500)",fontFamily:"'Nunito',sans-serif",fontWeight:500,textAlign:"right",flexShrink:0,maxWidth:"45%"}}>{w.tr}</span>
+            {/* Expanded detail */}
+            {isOpen && (
+              <div style={{marginTop:4,marginLeft:4}}>
+                {/* Noun: article inline */}
+                {w.a&&<div style={{fontSize:13,fontWeight:700,fontFamily:"'Quicksand',sans-serif",color:wordColor(w),marginBottom:3}}>{w.a} {w.w}{w.pl?`, pl: ${w.pl}`:""}</div>}
+                {/* Examples (deduplicated, may have multiple) */}
+                {(w.examples||[]).map((ex,ei)=>(
+                  <div key={ei} style={{marginBottom:ei<(w.examples||[]).length-1?6:0}}>
+                    <div style={{fontSize:13,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(220,215,240,0.8)":"var(--gray-700)",lineHeight:1.5}}>{ex.ex}</div>
+                    {ex.tr&&<div style={{fontSize:12,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(110,85,200,0.55)",lineHeight:1.4,fontStyle:"italic"}}>{ex.tr}</div>}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
-      ))}
+        );
+      })}
 
       {showCount<words.length&&(
         <div style={{textAlign:"center",padding:"12px 0"}}>

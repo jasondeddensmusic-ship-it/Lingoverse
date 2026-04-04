@@ -633,7 +633,7 @@ export default function App(){
             {page==="chat"&&<Chat lang={lang} baseLang={baseLang} user={user} addXp={addXp} addChat={addChat} learnedWords={[...user.lw]}/>}
             {page==="grammar"&&<GrammarPage lang={lang} baseLang={baseLang}/>}
             {page==="idioms"&&<IdiomsPage lang={lang} baseLang={baseLang}/>}
-            {page==="cefr-reference"&&<CefrReferencePage lang={lang}/>}
+            {page==="cefr-reference"&&<CefrReferencePage lang={lang} user={user}/>}
             {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
           </div>
           <BottomNav/>
