@@ -397,19 +397,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **`docs/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/PHASE1_WORKPLAN.md`** — Current work plan: CEFR progress tracker, dead code removal, Cases pack, Arabic markers, refactoring roadmap.
-- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — **Latest handoff.** Phase 1 complete: CEFR Progress Tracker, dead code removal, Cases pack, CLAUDE.md updates.
-- **`docs/SESSION_HANDOFF_2026-04-04.md`** — Previous handoff. Rainbow word fix, strategy decisions, Phase 1-6 ordering.
-- **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
+- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — **Latest handoff.** Phase 1 complete.
+- **`docs/SESSION_HANDOFF_2026-04-04.md`** — Strategy decisions, Phase 1-6 ordering.
+- **`docs/SESSION_HANDOFF_2026-04-03.md`** — Grammar page v2 redesign.
+- **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
 - **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
-- **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-04-03.md`** — Previous handoff (Grammar page v2 redesign + 58 entries teacher-board rewrite + repo cleanup).
-- **`docs/SESSION_HANDOFF_2026-04-02d.md`** — Previous handoff (German polish: CEFR lemmas, idioms, grammar audit).
-- **`docs/SESSION_HANDOFF_2026-03-31.md`** — Previous handoff (word popup crash fix + CEFR reference redesign).
-- **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
-- **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
-- **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Previous handoff (mobile optimization + chat fix).
-- **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Milestone: German v2 PERFECT validation.
+- **`docs/german/`** — Scene breakdowns, communicative functions mapping.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
 - **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
@@ -417,16 +410,21 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 ### Tier 2.5: Agent Infrastructure
 - **`docs/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
 - **`docs/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
+- **`docs/AGENT_TRANSLATION_RULES.md`** — Translation + cultural adaptation rules for source-to-target pipelines.
 - **`docs/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
 
 ### Tier 3: Specialized
 - **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable grammar/vocab index.
+- **`docs/WORD_TAG_TAXONOMY.md`** — POS tag system powering color system + grammar deep dives.
+- **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
+- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec.
 - **`docs/SETTINGS_PANEL_HANDOFF.md`** — Settings panel V1 gaps.
-- **`docs/DICTIONARY_SYSTEM_HANDOFF.md`** — Korean deep dictionary.
+- **`docs/DICTIONARY_SYSTEM_HANDOFF.md`** — Dictionary architecture (polyglot, conjugation, form index).
+- **`docs/UNIVERSAL_DICTIONARY_PLAN.md`** — Dictionary expansion roadmap for all languages.
 - **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Pedagogical template for level design.
-
-### Archived (`docs/archive/`)
-Historical docs. Not needed for current work.
+- **`docs/TOPIK_COVERAGE_REPORT.md`** — Korean TOPIK vocabulary coverage gaps.
+- **`docs/FK_DECISION_FRAMEWORK.md`** — Foundations module design (alphabet, phonics, scripts).
+- **`docs/LANGUAGE_INTEGRATION_PIPELINE.md`** — Steps for onboarding new languages.
 
 ---
 
