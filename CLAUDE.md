@@ -345,25 +345,40 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 4. ~~Fix Arabic A1+A2 markers~~ — **DONE.** Already clean.
 5. ~~Document LessonEngine split roadmap~~ — **DONE.** See Refactoring Roadmap section below.
 
+### Phase 1.5A: Feature Polish (NEXT — do before Arabic)
+Make existing features actually work properly for German:
+6. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
+7. **Flashcards German v2** — Verify `VOCAB[lang]` maps correctly to German v2 `trg/src` data.
+8. **Idioms page search/filter** — 45 entries with no way to filter by level or search.
+9. **"Continue Learning" on home** — Every user sees same generic greeting. Returning users need resume prompt.
+10. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
+
+### Phase 1.5B: Grammar Visualization (POST-LAUNCH)
+The VL vision of full sentence breakdown with POS/gender colors inline. Deferred — not blocking launch:
+- Visual sentence analysis mode (see POS/gender on every word at a glance)
+- Cases pack with per-preposition case governance
+- Grammar toggle default behavior review
+- Sentence-level word-by-word breakdown display
+
 ### Phase 2: Arabic B1+B2 Translation
-6. **Arabic source completion** — 20 units, ~12,757 [AR] markers. Sonnet agents, max 4 at a time.
-7. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
-8. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+11. **Arabic source completion** — 20 units, ~12,757 [AR] markers. Sonnet agents, max 4 at a time.
+12. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
+13. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
 
 ### Phase 3: Navigation + Flow Redesign
-9. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
-10. **Smooth transitions** — Page animations, lesson completion celebrations.
+14. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
+15. **Smooth transitions** — Page animations, lesson completion celebrations.
 
 ### Phase 4: Audio/TTS
-11. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
-12. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
+16. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
+17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
 
 ### Phase 5: V1→V2 Language Upgrades
-13. **Korean** (most audited) → **Dutch** → **French** → **Spanish** — v1 → v2 format.
-14. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
+18. **Korean** (most audited) → **Dutch** → **French** → **Spanish** — v1 → v2 format.
+19. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
 
 ### Phase 6: Premium Visual Overhaul
-15. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
+20. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
 16. **Full visual overhaul** — Icons, micro-animations, effects, music. Owner acknowledges prototype feel.
 
 ---
