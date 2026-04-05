@@ -1,5 +1,5 @@
 // German v2 Unit 15 — Arabic source language (srcLang:"ar")
-// Auto-generated. Fields marked [AR] need manual Arabic translation.
+// تمت الترجمة إلى العربية.
 const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Hamburg",sub:"Business trip, genitive case, N-Deklination, regional differences",icon:"🚄",level:"B1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r15l1",title:"Moin, Hamburg!",icon:"🌧️",xp:15,board:true,steps:[
         {type:"intro",title:"Moin, Hamburg!",desc:"يصل فيروميوس إلى هامبورغ في رحلة عمل. مطر وطوب أحمر وتحية لم يسمعها من قبل.",goals:[
@@ -38,9 +38,9 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l2",title:"Unterwegs in der Stadt",icon:"🚋",xp:15,board:true,steps:[
         {type:"intro",title:"Unterwegs in der Stadt",desc:"أتقن مفردات المواصلات الحضرية. تعلّم مصطلحات الطرق والمرور. تنقّل في مدينة ألمانية كالسكان المحليين.",goals:[
-            "[AR] Learn 20 transport and urban vocabulary words",
-            "[AR] Understand compound noun gender rules",
-            "[AR] Navigate Hamburg's streets and transit"
+            "تعلّم 20 كلمة في مجال المواصلات والحياة الحضرية",
+            "افهم قواعد جنس الأسماء المركبة",
+            "تنقّل في شوارع هامبورغ ووسائل نقلها"
           ]},
         {type:"teach",trg:"die U-Bahn",src:"مترو الأنفاق",pos:"noun",gender:"f",note:"Untergrund (تحت الأرض) + Bahn (سكة). علامة U الصفراء شهيرة جداً.",example:"A: Wie komme ich zum Hafen?\nB: Nehmen Sie die U-Bahn.\nA: Welche Linie?\nB: Die U3 bis Landungsbrücken.",exampleSrc:"أ: كيف أصل إلى الميناء؟\nب: خذ مترو الأنفاق.\nأ: أي خط؟\nب: خط U3 إلى لاندونغسبريكن.",funFact:"افتُتح U-Bahn في هامبورغ عام 1912. تمتلك برلين ومونيخ وهامبورغ ونورمبرغ أنظمة U-Bahn. تميّز علامة U الصفراء كل مدخل."},
         {type:"teach",trg:"die Tram",src:"الترام",pos:"noun",gender:"f",note:"اختصار لـ 'Trambahn'. تمتلك معظم المدن الألمانية شبكات ترام.",example:"A: Fährt hier eine Tram?\nB: Nein, Hamburg hat keine Tram mehr.\nA: Wirklich? Warum nicht?\nB: Die Stadt hat sie 1978 abgeschafft.",exampleSrc:"أ: هل يمر الترام من هنا؟\nب: لا، لم تعد هامبورغ تمتلك ترام.\nأ: حقاً؟ لماذا؟\nب: أزالته المدينة عام 1978.",funFact:"أزالت هامبورغ ترامواتها فعلاً عام 1978، لكن معظم المدن الألمانية احتفظت بها. تمتلك برلين إحدى أكبر شبكات الترام في أوروبا بأكثر من 190 كيلومتراً من المسارات."},
@@ -76,10 +76,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l3",title:"Herr Professor Doktor Schmidt",icon:"👔",xp:15,board:true,steps:[
         {type:"intro",title:"Herr Professor Doktor Schmidt",desc:"تعامل مع اجتماع رسمي بالألمانية. تعلّم حالة الإضافة: 'des Mannes, der Frau.' افهم ثقافة الألقاب الألمانية.",goals:[
-            "[AR] Master building and location vocabulary",
-            "[AR] Learn the genitive case",
-            "[AR] Navigate professional introductions",
-            "[AR] Understand German title culture"
+            "أتقن مفردات المباني والمواقع",
+            "تعلّم حالة الإضافة (الجر الرابع)",
+            "تعامل مع التعارف في البيئة المهنية",
+            "افهم ثقافة الألقاب في ألمانيا"
           ]},
         {type:"story",speaker:"narrator",mood:"formal",art:"de-ham-office",trg:"Das Büro des Unternehmens liegt direkt am Hafen. Durch die Fenster sieht Verumius die Kräne der Hafenstadt.",src:"يقع مكتب الشركة مباشرةً على الميناء. من خلال النوافذ، يرى فيروميوس رافعات مدينة الميناء."},
         {type:"story",speaker:"colleague",mood:"formal",art:"de-ham-office",trg:"Darf ich vorstellen? Das ist Herr Professor Doktor Schmidt, der Leiter der Abteilung.",src:"هل أقدم لكم؟ هذا هو الأستاذ الدكتور شميت، رئيس القسم."},
@@ -127,10 +127,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l4",title:"Der Genitiv und die N-Deklination",icon:"📝",xp:15,board:true,steps:[
         {type:"intro",title:"Der Genitiv und die N-Deklination",desc:"أتقن تصريف حالة الإضافة. تعلّم أسماء التصريف النوني (der Herr, der Kollege, der Junge). افهم مفردات المرور والقيادة بالألمانية.",goals:[
-            "[AR] Practice genitive case formation",
-            "[AR] Learn N-Deklination noun patterns",
-            "[AR] Master traffic and driving vocabulary",
-            "[AR] Combine genitive with N-Deklination"
+            "تدرّب على تكوين حالة الإضافة",
+            "تعلّم أنماط أسماء التصريف النوني",
+            "أتقن مفردات المرور والقيادة",
+            "دمج حالة الإضافة مع التصريف النوني"
           ]},
         {type:"teach",trg:"der Gegenstand",src:"الشيء / العنصر",pos:"noun",gender:"m",note:"Gegen (ضد) + Stand (وقوف). شيء تواجهه.",example:"A: Haben Sie persönliche Gegenstände dabei?\nB: Ja, meinen Laptop und mein Handy.\nA: Bitte lassen Sie keine Gegenstände im Zug.\nB: Natürlich.",exampleSrc:"أ: هل معك أمتعة شخصية؟\nب: نعم، حاسوبي المحمول وهاتفي.\nأ: من فضلك لا تترك أي أشياء في القطار.\nب: بالطبع.",funFact:"'Persönliche Gegenstände' (الأغراض الشخصية) إعلان تسمعه في كل قطار ألماني. الكلمة تعني حرفياً شيئاً 'واقفاً في مواجهتك'."},
         {type:"teach",trg:"der Geschmack",src:"الطعم / النكهة",pos:"noun",gender:"m",note:"من 'schmecken' (التذوق). تعني أيضاً الحس الجمالي.",example:"A: Wie ist der Geschmack?\nB: Sehr gut! Salzig und frisch.\nA: Hamburg hat guten Geschmack beim Essen.\nB: Besonders beim Fisch!",exampleSrc:"أ: كيف هو الطعم؟\nب: جيد جداً! مالح وطازج.\nأ: هامبورغ تتمتع بذوق رفيع في الطعام.\nب: خاصةً مع الأسماك!",funFact:"'Guter Geschmack' تعني حسن التذوق في الطعام والحس الجمالي معاً. 'Geschmacklos' (بلا طعم) تعمل بالطريقة ذاتها: رديء المذاق أو مبتذل."},
@@ -181,10 +181,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l5",title:"Hamburger Küche",icon:"🍜",xp:15,board:true,steps:[
         {type:"intro",title:"Hamburger Küche",desc:"أتقن مفردات الطعام والمطاعم. تدرّب على حالة الإضافة في سياقات حقيقية. اكتشف الفوارق الغذائية الإقليمية في ألمانيا.",goals:[
-            "[AR] Learn 20 food and restaurant vocabulary words",
-            "[AR] Practice genitive case in food contexts",
-            "[AR] Discover regional food differences",
-            "[AR] Order food in a German restaurant"
+            "تعلّم 20 كلمة في مجال الطعام والمطاعم",
+            "تدرّب على حالة الإضافة في سياقات الطعام",
+            "اكتشف الفوارق الغذائية الإقليمية",
+            "اطلب الطعام في مطعم ألماني"
           ]},
         {type:"story",speaker:"colleague",mood:"enthusiastic",art:"de-ham-restaurant-harbor",trg:"Nach dem Meeting müssen Sie unbedingt Fischbrötchen probieren. Das ist Hamburger Pflicht!",src:"بعد الاجتماع يجب عليك تجربة ساندويتش السمك بالتأكيد. هذا واجب هامبورغي!"},
         {type:"story",speaker:"verumius",mood:"eager",art:"de-ham-restaurant-harbor",trg:"Fischbrötchen? Das klingt gut. Ich habe Hunger wegen des langen Meetings.",src:"ساندويتش السمك؟ يبدو ذلك جيداً. أنا جائع بسبب الاجتماع الطويل."},
@@ -223,10 +223,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l6",title:"Elbphilharmonie",icon:"🎶",xp:15,board:true,steps:[
         {type:"intro",title:"Elbphilharmonie",desc:"اختبر أروع مبنى في هامبورغ. أتقن حروف الجر للإضافة: während وwegen وtrotz وstatt وinnerhalb. تدرّب على حالة الإضافة في جمل ألمانية سلسة.",goals:[
-            "[AR] Learn genitive prepositions",
-            "[AR] Practice genitive in natural contexts",
-            "[AR] Master building and hospitality vocabulary",
-            "[AR] Experience the Elbphilharmonie through story"
+            "تعلّم حروف الجر التي تستخدم حالة الإضافة",
+            "تدرّب على حالة الإضافة في سياقات طبيعية",
+            "أتقن مفردات المباني والضيافة",
+            "عِش تجربة إلبفيلهارموني من خلال القصة"
           ]},
         {type:"story",speaker:"narrator",mood:"reflective",art:"de-ham-elbphilharmonie",trg:"Die Elbphilharmonie bei blauer Stunde. Verumius steht auf der Plaza und schaut auf das Glas, das die letzten Strahlen des Tageslichts fängt.",src:"إلبفيلهارموني في ساعة الزرقاء. يقف فيروميوس على الساحة وينظر إلى الزجاج وهو يلتقط آخر أشعة ضوء النهار."},
         {type:"story",speaker:"narrator",mood:"contemplative",art:"de-ham-elbphilharmonie",trg:"Trotz des Regens war der Tag ein Erfolg. Während des Meetings hat er professionelles Deutsch gesprochen. Wegen der Reise fühlt er sich stärker.",src:"على الرغم من المطر، كان اليوم ناجحاً. خلال الاجتماع تحدث الألمانية باحترافية. بسبب الرحلة يشعر بمزيد من القوة."},
@@ -259,9 +259,9 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l7",title:"Wetter und Orientierung",icon:"🌡️",xp:15,board:true,steps:[
         {type:"intro",title:"Wetter und Orientierung",desc:"الدفء والبرد، المستوي والزلق، الانعطاف والفرملة. تنقل في هامبورغ بمفردات الطقس وأفعال الاتجاه وحروف الجر للإضافة.",goals:[
-            "[AR] Learn weather and texture adjectives",
-            "[AR] Master direction verbs: abbiegen, bremsen",
-            "[AR] Use genitive prepositions: während, statt"
+            "تعلّم صفات الطقس والملمس",
+            "أتقن أفعال الاتجاه: abbiegen وbremsen",
+            "استخدم حروف الجر للإضافة: während وstatt"
           ]},
         {type:"teach",trg:"die Wärme",src:"الدفء",pos:"noun",gender:"f",note:"من 'warm'. اللاحقة -e تحوّل الصفات إلى أسماء مجردة (مؤنثة دائماً).",example:"A: Die Wärme des Kaffeehauses ist angenehm.\nB: Ja, draussen ist es kalt.\nA: Die Wärme tut gut.\nB: Noch einen Kaffee?",exampleSrc:"أ: دفء المقهى ممتع.\nب: نعم، البرد شديد في الخارج.\nأ: الدفء يبعث على الراحة.\nب: قهوة أخرى؟",funFact:"اللاحقة -e تحوّل الصفات إلى أسماء مجردة مؤنثة: warm/Wärme، kalt/Kälte، nahe/Nähe، groß/Größe. مؤنثة دائماً. نمط منتج جداً."},
         {type:"teach",trg:"die Kälte",src:"البرد",pos:"noun",gender:"f",note:"من 'kalt'. نفس النمط كـ Wärme. برودة هامبورغ البحرية رطبة وعاصفة.",example:"A: Die Kälte ist heute schlimm.\nB: Trotz der Kälte gehen wir raus?\nA: Ja! Die Elbphilharmonie wartet.\nB: Gut, aber mit Wolle!",exampleSrc:"أ: البرد مروّع اليوم.\nب: على الرغم من البرد نخرج؟\nأ: نعم! إلبفيلهارموني بانتظارنا.\nب: حسناً، لكن بالصوف!",funFact:"'Trotz der Kälte' (رغم البرد) تستخدم الجر الرابع بعد 'trotz'. برودة هامبورغ البحرية رطبة وعاصفة، تختلف عن البرد الجبلي الجاف في بافاريا."},
@@ -294,10 +294,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l8",title:"Alles über Hamburg",icon:"🏆",xp:15,board:true,steps:[
         {type:"intro",title:"Alles über Hamburg",desc:"اختبر كل شيء من الوحدة 15. أثبت قدرتك على استخدام حالة الإضافة والتصريف النوني وحروف الجر للإضافة. أظهر إتقانك لمفردات السفر والطعام والحياة الحضرية.",goals:[
-            "[AR] Test genitive case mastery",
-            "[AR] Test N-Deklination mastery",
-            "[AR] Test genitive prepositions",
-            "[AR] Assess all unit vocabulary"
+            "اختبر إتقانك لحالة الإضافة",
+            "اختبر إتقانك للتصريف النوني",
+            "اختبر حروف الجر التي تستخدم حالة الإضافة",
+            "قيّم مفردات الوحدة كاملة"
           ]},
         {type:"story",speaker:"narrator",mood:"determined",art:"de-ham-hotel-morning",trg:"Letzter Morgen in Hamburg. Der Koffer steht neben der Tür. Verumius trinkt den letzten Kaffee des Aufenthalts und denkt: Ich bin bereit.",src:"آخر صباح في هامبورغ. الحقيبة عند الباب. يشرب فيروميوس آخر قهوة في الإقامة ويفكر: أنا مستعد."},
         {type:"teach",trg:"das Benzin",src:"البنزين",pos:"noun",gender:"n",note:"من المركّب الكيميائي 'benzene'. 'Bleifrei' = بدون رصاص.",example:"A: Wir brauchen Benzin.\nB: Ist die Tankstelle weit?\nA: Nein, nur zwei Kilometer.\nB: Super oder Diesel?",exampleSrc:"أ: نحتاج بنزيناً.\nب: هل محطة الوقود بعيدة؟\nأ: لا، كيلومتران فقط.\nب: ممتاز أم ديزل؟",funFact:"سُميت باسم المركّب الكيميائي benzene الذي سُمّي بدوره باسم صمغ شجري. 'Super' و'Diesel' هما التسميتان الشائعتان على مضخات الوقود في المحطات الألمانية."},
@@ -344,10 +344,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l9",title:"Zurück nach Berlin",icon:"🌃",xp:15,board:true,steps:[
         {type:"intro",title:"Zurück nach Berlin",desc:"تأمّل رحلة هامبورغ. تعلّم مفردات الاتجاه والحركة. اكتشف الفوارق الإقليمية في المفردات الألمانية. أتقن قواعد الوحدة في سياق ثقافي ختامي.",goals:[
-            "[AR] Learn direction and movement vocabulary",
-            "[AR] Discover regional vocabulary differences",
-            "[AR] Practice all unit grammar in cultural context",
-            "[AR] Reflect on the Hamburg experience"
+            "تعلّم مفردات الاتجاه والحركة",
+            "اكتشف الفوارق الإقليمية في المفردات",
+            "تدرّب على قواعد الوحدة في سياق ثقافي",
+            "تأمّل تجربة هامبورغ"
           ]},
         {type:"story",speaker:"narrator",mood:"peaceful",art:"de-ham-ice-night",trg:"Der ICE fährt durch die Nacht. Draußen: dunkle Felder, ferne Dorflichter. Verumius schreibt in sein Notizbuch.",src:"يسافر قطار ICE عبر الليل. في الخارج: حقول مظلمة وأضواء قرى بعيدة. يكتب فيروميوس في دفتره."},
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-ham-ice-night",trg:"Trotz des Regens, trotz der Nervosität war es ein guter Tag. Der Name des Professors war schwer zu merken, aber sein Lächeln war echt.",src:"على الرغم من المطر وعلى الرغم من التوتر، كان يوماً جيداً. كان من الصعب تذكر اسم الأستاذ، لكن ابتسامته كانت صادقة."},
@@ -378,9 +378,9 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
       ]},
     {id:"deu_r15l10",title:"Verben und Varianten",icon:"🔄",xp:10,board:true,steps:[
         {type:"intro",title:"Verben und Varianten",desc:"يُزيل ويجري ويركن ويعبر ويستدير ويستبدل: سبعة أفعال حركية إضافةً إلى أشكال المفردات الألمانية والنمساوية والسويسرية. منطقة DACH تتحدث لغة واحدة بلهجات عديدة.",goals:[
-            "[AR] Learn seven action verbs for movement and change",
-            "[AR] Discover DACH vocabulary variants",
-            "[AR] Practice all grammar patterns from this unit"
+            "تعلّم سبعة أفعال حركية للتنقل والتغيير",
+            "اكتشف الفروقات المفرداتية في منطقة DACH",
+            "تدرّب على جميع أنماط القواعد الواردة في هذه الوحدة"
           ]},
         {type:"teach",trg:"entfernen",src:"يُزيل / يبعد",pos:"verb",gender:null,note:"Ent- (بعيداً) + fernen (من fern = بعيد). بادئة غير منفصلة.",example:"A: Bitte entfernen Sie den Gegenstand.\nB: Welchen Gegenstand?\nA: Den Koffer dort.\nB: Oh, das ist meiner! Entschuldigung.",exampleSrc:"أ: من فضلك أزل الشيء.\nب: أي شيء؟\nأ: الحقيبة هناك.\nب: آه، هذه لي! آسف.",funFact:"يُستخدم أيضاً صفةً: 'weit entfernt' (بعيد)، 'drei Kilometer entfernt' (على بُعد ثلاثة كيلومترات). البادئة الغير منفصلة ent- تعني 'بعيداً عن'."},
         {type:"teach",trg:"fließen",src:"يجري / يتدفق",pos:"verb",gender:null,note:"غير منتظم: fließt، floss، ist geflossen. مرتبط بالكلمة الإنجليزية 'flow'.",example:"A: Die Elbe fließt durch Hamburg.\nB: Wohin fließt sie?\nA: In die Nordsee.\nB: Der Fluss ist riesig hier.",exampleSrc:"أ: يجري نهر الإلبه عبر هامبورغ.\nب: إلى أين يجري؟\nأ: إلى بحر الشمال.\nب: النهر ضخم جداً هنا.",funFact:"هامبورغ موجودة لأن الإلبه fließt نحو بحر الشمال. التصريف غير المنتظم: fließt، floss، ist geflossen. مرتبط بالإنجليزية 'flow' و'flood'."},

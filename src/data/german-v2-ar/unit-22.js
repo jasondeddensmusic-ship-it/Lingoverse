@@ -1,11 +1,11 @@
 // German v2 Unit 22 — Arabic source language (srcLang:"ar")
-// Auto-generated. Fields marked [AR] need manual Arabic translation.
+// تمت الترجمة إلى العربية.
 const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und Alltag",sub:"Environment, sustainability, Partizip I+II as adjectives, lassen causative",icon:"♻️",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r22l1",title:"Nachhaltigkeit im Büro",icon:"♻️",xp:15,board:true,steps:[
         {type:"intro",title:"Nachhaltigkeit im Büro",desc:"يقف فيروميوس أمام زملائه ويلقي عرضاً تقديمياً. بالألمانية. موضوعه: الاستدامة في المكتب. حان الوقت لتعلّم أهم المفردات البيئية.",goals:[
-            "[AR] Learn 18 key vocabulary words related to the environment and climate",
-            "[AR] Follow Verumius through his first presentation in German",
-            "[AR] Understand trends and statistics on the topic of sustainability"
+            "تعلّم 18 كلمة مفتاحية تتعلق بالبيئة والمناخ",
+            "تابع فيروميوس خلال أول عرض تقديمي له بالألمانية",
+            "افهم الاتجاهات والإحصاءات حول موضوع الاستدامة"
           ]},
         {type:"story",speaker:"narrator",mood:"proud",art:"de-office-presentation",trg:"Ein Jahr in Berlin. Verumius steht vor seinen Kollegen und hält eine Präsentation. Auf Deutsch. Mia sitzt in der zweiten Reihe und nickt ermutigend. Sein Thema: Nachhaltigkeit im Büro.",src:"عام واحد في برلين. يقف فيروميوس أمام زملائه ويلقي عرضاً تقديمياً. بالألمانية. تجلس ميا في الصف الثاني وتومئ برأسها بتشجيع. موضوعه: الاستدامة في المكتب."},
         {type:"teach",trg:"die Umwelt",src:"البيئة",pos:"noun",gender:"f",note:"Um (حول) + Welt (عالم). كل ما يحيط بك.\nيُصنِّف الألمان حماية البيئة أولويةً سياسية قصوى.",example:"A: Was ist dir wichtig?\nB: Die Umwelt ist mir sehr wichtig.\nA: Was tust du für die Umwelt?\nB: Ich trenne meinen Müll und spare Strom.",exampleSrc:"أ: ما الذي يهمّك؟\nب: البيئة مهمّة جداً بالنسبة لي.\nأ: ماذا تفعل من أجل البيئة؟\nب: أفصل نفاياتي وأوفّر الكهرباء.",funFact:"Um (حول) + Welt (عالم). العالم من حولك. يُصنِّف الألمان حماية البيئة أولويةً سياسية قصوى. البيئة ليست الطبيعة وحدها، بل كل ما يحيط بك."},
@@ -40,9 +40,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l2",title:"Grün denken",icon:"🌿",xp:15,board:true,steps:[
         {type:"intro",title:"Grün denken",desc:"فصل النفايات وإعادة التدوير والمواد والتجارة. اليوم توسّع مفرداتك البيئية.",goals:[
-            "[AR] Learn vocabulary for waste and recycling",
-            "[AR] Understand vocabulary for materials and trade",
-            "[AR] Build your environmental toolkit"
+            "تعلّم مفردات النفايات وإعادة التدوير",
+            "افهم مفردات المواد والتجارة",
+            "طوّر مخزونك اللغوي البيئي"
           ]},
         {type:"story",speaker:"narrator",mood:"observant",art:"de-office-kitchen",trg:"In der Büroküche steht Verumius vor vier verschiedenen Mülleimern. Gelb, blau, braun, schwarz. Vor einem Jahr hätte er alles in einen geworfen. Heute sortiert er automatisch. Lukas schaut zu und schüttelt den Kopf.",src:"في مطبخ المكتب، يقف فيروميوس أمام أربعة صناديق نفايات مختلفة. أصفر وأزرق وبني وأسود. قبل عام كان سيرمي كل شيء في صندوق واحد. أما اليوم فهو يفرز تلقائياً. يراقبه لوكاس ويهزّ رأسه."},
         {type:"teach",trg:"der Abfall",src:"النفايات، القمامة",pos:"noun",gender:"m",note:"Ab (بعيداً عن) + Fall (سقوط). ما يتساقط ويُرمى.\n'Abfall trennen' (فرز النفايات) وصيةٌ ألمانية مقدسة.",example:"A: Wo kommt der Abfall hin?\nB: In die richtige Tonne, natürlich.\nA: Und wenn man den Abfall nicht trennt?\nB: Dann ärgern sich die Nachbarn.",exampleSrc:"أ: أين تذهب القمامة؟\nب: في الحاوية الصحيحة، بالطبع.\nأ: وماذا لو لم تفصل النفايات؟\nب: سيزعج ذلك الجيران.",funFact:"Ab (بعيداً عن) + Fall (سقوط). ما يتساقط ويُرمى، أي النفايات. 'Abfall trennen' (فرز النفايات) وصيةٌ ألمانية مقدسة. كل بيتٍ ألماني يفرز نفاياته في أربعة صناديق على الأقل."},
@@ -79,9 +79,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l3",title:"Der Pfand-Meister",icon:"🎯",xp:15,board:true,steps:[
         {type:"intro",title:"Der Pfand-Meister",desc:"أتتذكر الوحدة الرابعة؟ وقف فيروميوس عاجزاً أمام آلة الرهن. أما اليوم فهو محترف. في الطريق، تعلّم نقطة نحوية مهمة: الاسم الفاعل (Partizip I) بوصفه صفة.",goals:[
-            "[AR] Learn 18 words about danger, protection, and research",
-            "[AR] Understand Partizip I as adjective (die steigende Temperatur)",
-            "[AR] See how far Verumius has come since Unit 4"
+            "تعلّم 18 كلمة عن الخطر والحماية والبحث",
+            "افهم اسم الفاعل Partizip I بوصفه صفة (die steigende Temperatur)",
+            "تأمّل مدى تقدّم فيروميوس منذ الوحدة الرابعة"
           ]},
         {type:"story",speaker:"narrator",mood:"proud",art:"de-rewe-pfand",trg:"REWE, Mittwochmorgen. Verumius schiebt sechs Flaschen in den Pfandautomaten. Ohne zu zögern, ohne nachzudenken. Vor einem Jahr stand er ratlos vor genau dieser Maschine. Heute sammelt der lachende Verumius seinen Bon und geht zur Kasse.",src:"ريفه، صباح الأربعاء. يُدخل فيروميوس ستة زجاجات في آلة الرهن. دون تردد، دون تفكير. قبل عام وقف عاجزاً أمام هذه الآلة بالذات. أما اليوم فيجمع فيروميوس الضاحك إيصاله ويتّجه نحو صندوق الدفع."},
         {type:"teach",trg:"das Abgas",src:"غاز العادم، الانبعاثات",pos:"noun",gender:"n",note:"Ab (بعيداً) + Gas. الغاز المنبعث من المحرك.\n'Abgasnormen' (معايير الانبعاثات) صارمةٌ في ألمانيا.",example:"A: Die Abgase hier sind schrecklich.\nB: Ja, zu viele Autos.\nA: Müssen wir die Abgase reduzieren?\nB: Unbedingt. Für bessere Luft.",exampleSrc:"أ: عوادم السيارات هنا فظيعة.\nب: نعم، كثرة السيارات سبب ذلك.\nأ: هل يجب علينا تخفيض الانبعاثات؟\nب: بالتأكيد. من أجل هواء أنقى.",funFact:"Ab (بعيداً) + Gas. غاز العادم. 'Autoabgase' (عوادم السيارات). الكلمة تصف نفسها: الغاز الذي يخرج من المحرك. 'Abgasnormen' (معايير الانبعاثات) صارمةٌ في ألمانيا."},
@@ -111,9 +111,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l4",title:"Grammatik der Natur",icon:"📚",xp:15,board:true,steps:[
         {type:"intro",title:"Grammatik der Natur",desc:"اليوم تتعلّم أداتين نحويتين قويتين: اسم المفعول (Partizip II) بوصفه صفة (الورق المُعاد تدويره) وفعل lassen بوصفه فعلاً تسبيبياً (أطلب إصلاح سيارتي).",goals:[
-            "[AR] Understand Partizip II as adjective (der gelesene Brief)",
-            "[AR] Learn lassen in three meanings: causative, permissive, and imperative",
-            "[AR] Combine all three new grammar constructs"
+            "افهم اسم المفعول Partizip II بوصفه صفة (der gelesene Brief)",
+            "تعلّم lassen بمعانيه الثلاثة: التسبيبي والإذني والأمري",
+            "ادمج المباني النحوية الثلاثة الجديدة معاً"
           ]},
         {type:"story",speaker:"mia",mood:"encouraging",art:"de-office-conference",trg:"Verumius, deine Präsentation gestern war beeindruckend. Aber heute geht es um Grammatik. Du willst wie ein Berliner klingen? Dann musst du die verschmutzte Luft von der verschmutzenden Fabrik unterscheiden können.",src:"فيروميوس، عرضك التقديمي أمس كان مثيراً للإعجاب. لكن اليوم نتحدّث عن النحو. تريد أن تتكلم كبرليني؟ إذن عليك التمييز بين الهواء الملوَّث والمصنع الملوِّث."},
         {type:"teach",trg:"die Fabrik",src:"المصنع",pos:"noun",gender:"f",note:"من اللاتينية 'fabrica' (ورشة). كثيرٌ من Fabriken القديمة\nأصبحت متاحف أو مراكز ثقافية في منطقة Ruhrgebiet.",example:"A: Was produziert diese Fabrik?\nB: Solarpanels.\nA: Ist die Fabrik umweltfreundlich?\nB: Ja, sie nutzt nur Ökostrom.",exampleSrc:"أ: ماذا ينتج هذا المصنع؟\nب: ألواح شمسية.\nأ: هل المصنع صديق للبيئة؟\nب: نعم، يستخدم الكهرباء الخضراء فقط.",funFact:"من اللاتينية 'fabrica' (ورشة). 'Chemiefabrik' (مصنع كيمياء), 'Autofabrik' (مصنع سيارات). احتضنت منطقة Ruhrgebiet الآلاف منها. كثيرٌ منها الآن متاحف أو مراكز ثقافية."},
@@ -170,9 +170,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l5",title:"Bio oder Discounter?",icon:"🛒",xp:15,board:true,steps:[
         {type:"intro",title:"Bio oder Discounter?",desc:"سوق البيو أم ألدي؟ ميا تحبّ المنتجات العضوية، ولوكاس يتسوّق في المتجر المخفّض. يقارن فيروميوس. تعلّم مفردات المنزل وتدرّب على المباني النحوية الثلاثة.",goals:[
-            "[AR] Learn 20 new words about household and measurements",
-            "[AR] Compare ecological and budget shopping",
-            "[AR] Practice Partizip I, Partizip II, and lassen in new contexts"
+            "تعلّم 20 كلمة جديدة عن المنزل والمقاييس",
+            "قارن بين التسوّق البيئي والتسوّق الاقتصادي",
+            "تدرّب على Partizip I وPartizip II ولاسن في سياقات جديدة"
           ]},
         {type:"story",speaker:"mia",mood:"passionate",art:"de-biomarkt",trg:"Schau dir das an! Dieses frisch gebackene Brot, die handgemachte Seife, der fair gehandelte Kaffee. Im Bio-Markt weißt du, woher alles kommt.",src:"انظر إلى هذا! هذا الخبز الطازج المخبوز، الصابون المصنوع يدوياً، القهوة ذات التجارة العادلة. في السوق العضوي تعرف من أين يأتي كل شيء."},
         {type:"story",speaker:"lukas",mood:"practical",art:"de-discounter",trg:"Mia, ich lasse mich nicht von schöner Verpackung täuschen. Ich kaufe meine Nudeln für 49 Cent und lasse den Rest auf dem Konto.",src:"ميا، أنا لا أسمح لأحد بخداعي بالتغليف الجميل. أشتري المعكرونة بـ49 سنتاً وأترك الباقي في حسابي."},
@@ -207,9 +207,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l6",title:"Ruhig du sagen",icon:"🤝",xp:15,board:true,steps:[
         {type:"intro",title:"Ruhig du sagen",desc:"لحظة خاصة: تعرض يلماز على فيروميوس صيغة المخاطبة بـ'دو' (اسمه الأول). في الطريق، تعلّم مفردات الطقس والطبيعة واختبر مدح ميا النادر.",goals:[
-            "[AR] Learn 18 words about weather and nature",
-            "[AR] Experience the Sie-to-du switch as a social milestone",
-            "[AR] Practice all three grammar constructs in dialogue"
+            "تعلّم 18 كلمة عن الطقس والطبيعة",
+            "عايش لحظة التحوّل من Sie إلى du بوصفها حدثاً اجتماعياً مميزاً",
+            "تدرّب على المباني النحوية الثلاثة في حوار"
           ]},
         {type:"story",speaker:"yilmaz",mood:"warm",art:"de-vhs-corridor",trg:"Verumius... wir kennen uns jetzt seit fast einem Jahr. Du kannst ruhig du sagen.",src:"فيروميوس... نحن نعرف بعضنا منذ ما يقارب عاماً. يمكنك مخاطبتي بصيغة 'دو' من الآن فصاعداً."},
         {type:"story",speaker:"verumius",mood:"surprised",art:"de-vhs-corridor",trg:"Das... das freut mich wirklich. Danke, Frau Yil... ich meine... danke, Elif.",src:"هذا... هذا يسعدني حقاً. شكراً، السيدة يل... أعني... شكراً، إليف."},
@@ -243,9 +243,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l7",title:"Umwelt-Quiz",icon:"🏆",xp:15,board:true,steps:[
         {type:"intro",title:"Umwelt-Quiz",desc:"اختبر ألمانيتك البيئية. أثبت أنك أتقنت اسمَي الفاعل والمفعول بوصفهما صفتين ويمكنك استخدام lassen بجميع معانيه.",goals:[
-            "[AR] Test your environmental vocabulary",
-            "[AR] Prove mastery of Partizip I and II",
-            "[AR] Show you can use lassen in all its meanings"
+            "اختبر مفرداتك البيئية",
+            "أثبت إتقانك لاسمَي الفاعل والمفعول Partizip I وPartizip II",
+            "أظهر قدرتك على استخدام lassen بجميع معانيه"
           ]},
         {type:"story",speaker:"narrator",mood:"dramatic",art:"de-park-cleanup",trg:"Samstag im Volkspark Friedrichshain. Mia hat eine Aufräumaktion organisiert. Verumius ist dabei. Lukas auch, aber er hat die falschen Tüten mitgebracht. Natürlich.",src:"يوم السبت في فولكسبارك فريدريشسهاين. نظّمت ميا حدثاً لتنظيف الحديقة. فيروميوس موجود. لوكاس أيضاً، لكنه أحضر الأكياس الخطأ. بالطبع."},
         {type:"teach",trg:"der Dreck",src:"الوسخ، القذارة",pos:"noun",gender:"m",note:"أكثر عاميةً من Schmutz. 'Im Dreck sitzen' (الوقوع في ورطة، حرفياً: الجلوس في الوسخ).\nشمال ألمانيا يستخدم Dreck، والجنوب يُفضّل Schmutz.",example:"A: Hier ist überall Dreck.\nB: Ja, wir müssen sauber machen.\nA: Er sitzt im Dreck.\nB: Ja, große Probleme.",exampleSrc:"أ: هناك وسخ في كل مكان.\nب: نعم، علينا التنظيف.\nأ: هو في ورطة. (حرفياً: جالس في الوسخ)\nب: نعم، مشاكل كبيرة.",funFact:"أكثر عاميةً من Schmutz. 'Im Dreck sitzen' (الوقوع في ورطة، حرفياً: الجلوس في الوسخ). 'Dreckig' (متّسخ/قذر). شمال ألمانيا يستخدم Dreck، والجنوب يُفضّل Schmutz."},
@@ -266,7 +266,7 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"story",speaker:"mia",mood:"commanding",art:"de-park-cleanup",trg:"Okay, Leute! Plastik in die gelbe Tüte, Glas in die grüne, Zigarettenstummel extra. Lukas, das ist kein Picknick. Lass die Brezel liegen und hilf!",src:"حسناً يا جماعة! البلاستيك في الكيس الأصفر، والزجاج في الأخضر، وأعقاب السجائر منفصلة. لوكاس، هذه ليست نزهة. ضع الكعك المملّح وساعد!"},
         {type:"mc",q:"'Die steigenden Kosten und die wachsende Verschmutzung sind ein Problem.' Welche zwei Formen sind Partizip I?",opts:["steigenden und Verschmutzung","Kosten und Problem","steigenden und wachsende","wachsende und Problem"],ans:"steigenden und wachsende",hint:"اسم الفاعل = المصدر + d + لاحقة الصفة. ابحث عن نمط -end."},
         {type:"fb",s:"Die {1} Luft in der Stadt ist ein Gesundheitsrisiko.",a:["verschmutzte"],opts:["verschmutzte","verschmutzende","verschmutzen","Verschmutzung"],hint:"الهواء قد لُوِّث. اسم المفعول (Partizip II) بوصفه صفة. حدث مكتمل.",sSrc:"الهواء الملوَّث في المدينة خطر صحّي."},
-        {type:"mc",q:"Welcher Satz benutzt lassen als KAUSATIV (etwas machen lassen)?",opts:["Er lässt den Hund im Auto","Lass das!","Ich lasse mein Fahrrad reparieren","Lass mich in Ruhe!"],ans:"Ich lasse mein Fahrrad reparieren",hint:"[AR] Causative means: someone else performs the action for you. Who is repairing the bike?"},
+        {type:"mc",q:"Welcher Satz benutzt lassen als KAUSATIV (etwas machen lassen)?",opts:["Er lässt den Hund im Auto","Lass das!","Ich lasse mein Fahrrad reparieren","Lass mich in Ruhe!"],ans:"Ich lasse mein Fahrrad reparieren",hint:"المعنى التسبيبي: شخص آخر ينفّذ الفعل نيابةً عنك. من الذي يصلح الدراجة؟"},
         {type:"drag_fill",s:"Der {1} Fluss und die {2} Fabrik sind ein Problem.",blanks:{"1":"verschmutzte","2":"brennende"},pool:["verschmutzte","brennende","verschmutzende","gebrannt","brennen"],hint:"النهر لُوِّث (مكتمل). المصنع يحترق الآن (مستمر). أيّهما اسم الفاعل وأيّهما اسم المفعول؟",sSrc:"النهر الملوَّث والمصنع المشتعل مشكلة."},
         {type:"mc",q:"Es donnert, es blitzt, und der Wind ist extrem stark. Welches Wort beschreibt dieses Wetter?",opts:["Sturm","Durchschnitt","Schatten","Umgebung"],ans:"Sturm",hint:"رعد وبرق ورياح شديدة. فكّر في ما نسمّي حدثاً جوياً قاسياً."},
         {type:"fb",s:"Das Problem {1} sich lösen.",a:["lässt"],opts:["lässt","lassen","lass","lasst"],hint:"sich lassen + المصدر = يمكن القيام به. فكّر في صيغة الغائب المفرد.",sSrc:"يمكن حلّ المشكلة."},
@@ -281,9 +281,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
       ]},
     {id:"deu_r22l8",title:"Ein richtiger Berliner",icon:"🌳",xp:15,board:true,steps:[
         {type:"intro",title:"Ein richtiger Berliner",desc:"الفصل الأخير من هذه الوحدة. يتطلّع فيروميوس إلى الوراء على عام في برلين. تعلّم الكلمات الأخيرة عن البيئة والطوارئ واستعدّ للمستوى التالي.",goals:[
-            "[AR] Learn 18 final words on environment and emergencies",
-            "[AR] Reflect on Verumius's growth in Berlin",
-            "[AR] Prepare for the B1 exam journey ahead"
+            "تعلّم 18 كلمة أخيرة عن البيئة وحالات الطوارئ",
+            "تأمّل نموّ فيروميوس في برلين",
+            "استعدّ لرحلة امتحان B1 القادمة"
           ]},
         {type:"story",speaker:"narrator",mood:"nostalgic",art:"de-kreuzberg-street",trg:"Ein Sonntagmorgen in Kreuzberg. Verumius geht zum Pfandautomaten, kauft Bio-Brot auf dem Markt und grüßt seine Nachbarn auf Deutsch. Ein normaler Tag. Vor einem Jahr wäre nichts davon normal gewesen.",src:"صباح يوم أحد في كروتسبيرغ. يذهب فيروميوس إلى آلة الرهن، يشتري خبزاً عضوياً في السوق، ويُحيّي جيرانه بالألمانية. يوم اعتيادي. قبل عام لم يكن شيء من هذا اعتيادياً."},
         {type:"teach",trg:"der Protest",src:"الاحتجاج",pos:"noun",gender:"m",note:"من اللاتينية 'protestari' (الإعلان العلني). 'Klimaprotest' (احتجاج مناخي).\nجعلت حركة 'Fridays for Future' برلين عاصمةً عالميةً للاحتجاجات.",example:"A: Warst du beim Klimaprotest?\nB: Ja, tausende Leute waren da.\nA: Protest hilft!\nB: Ja, er macht auf Probleme aufmerksam.",exampleSrc:"أ: هل كنت في احتجاج المناخ؟\nب: نعم، كان هناك آلاف الأشخاص.\nأ: الاحتجاج يفيد!\nب: نعم، يلفت الانتباه إلى المشاكل.",funFact:"من اللاتينية 'protestari' (الإعلان العلني). 'Klimaprotest' (احتجاج مناخي). 'Gegen etwas protestieren' (الاحتجاج ضد شيء ما). جعلت حركة 'Fridays for Future' برلين عاصمةً عالميةً للاحتجاجات."},

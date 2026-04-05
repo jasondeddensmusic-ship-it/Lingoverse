@@ -1,11 +1,11 @@
 // German v2 Unit 21 — Arabic source language (srcLang:"ar")
-// Auto-generated. Fields marked [AR] need manual Arabic translation.
+// تمت الترجمة إلى العربية.
 const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",sub:"Leipzig, reunification, Nikolaikirche, adjective declension without articles, reciprocal verbs",icon:"🏛️",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r21l1",title:"Leipzig Hauptbahnhof",icon:"🚉",xp:15,board:true,steps:[
         {type:"intro",title:"Leipzig Hauptbahnhof",desc:"سافر مع ميا إلى لايبزيغ. تعلّم مفردات التاريخ والمجتمع والتغيير. اكتشف قصة إعادة توحيد ألمانيا.",goals:[
-            "[AR] Learn 16 key words about history and society",
-            "[AR] Join Mia in her hometown Leipzig",
-            "[AR] Discover the history of German reunification"
+            "تعلّم 16 كلمة أساسية عن التاريخ والمجتمع",
+            "رافق ميا إلى مسقط رأسها لايبزيغ",
+            "اكتشف تاريخ إعادة توحيد ألمانيا"
           ]},
         {type:"story",speaker:"narrator",mood:"excited",art:"de-lei-hbf",trg:"Der ICE hält in Leipzig. Mia steht schon an der Tür, bevor der Zug steht. Sie hat Verumius seit Wochen von ihrer Stadt erzählt. Jetzt ist er endlich hier.",src:"يتوقف قطار ICE في لايبزيغ. ميا عند الباب قبل أن يتوقف القطار تماماً. كانت تحدّث فيروميوس عن مدينتها منذ أسابيع. وها هو أخيراً هنا."},
         {type:"story",speaker:"mia",mood:"proud",art:"de-lei-hbf",trg:"Das ist Leipzig Hauptbahnhof! Einer der größten Bahnhöfe Europas. Frisch renoviert, mit Geschäften drin. Früher war das hier alles grau.",src:"هذه هي محطة لايبزيغ المركزية! إحدى أكبر محطات القطار في أوروبا. تمّ تجديدها حديثاً، وبداخلها متاجر. كان كل شيء رمادياً هنا في السابق."},
@@ -44,9 +44,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l2",title:"Stimmen der Geschichte",icon:"🗣️",xp:15,board:true,steps:[
         {type:"intro",title:"Stimmen der Geschichte",desc:"تعلّم مفردات السياسة والحياة المدنية والهياكل الاجتماعية. اكتسب الكلمات التي تحتاجها لمناقشة التاريخ والأحداث الراهنة بالألمانية.",goals:[
-            "[AR] Learn 18 words about politics and society",
-            "[AR] Discuss civic participation in German",
-            "[AR] Understand news vocabulary"
+            "تعلّم 18 كلمة عن السياسة والمجتمع",
+            "ناقش المشاركة المدنية بالألمانية",
+            "افهم مفردات الأخبار والإعلام"
           ]},
         {type:"story",speaker:"mia",mood:"serious",art:"de-lei-walk",trg:"Ich möchte dir etwas zeigen, Verumius. Nicht die schönen Gebäude. Die Wörter. Die Wörter, mit denen meine Großeltern ihr Leben beschrieben haben. Hör gut zu.",src:"أريد أن أريك شيئاً يا فيروميوس. ليس المباني الجميلة. الكلمات. الكلمات التي كان يستخدمها أجدادي لوصف حياتهم. أصغِ جيداً."},
         {type:"teach",trg:"die Bevölkerung",src:"السكان، عدد السكان",pos:"noun",gender:"f",note:"من Volk (شعب). Be- + völker + -ung.\nعملية السكن والسكان في آنٍ واحد.",example:"A: Wie groß ist die Bevölkerung Deutschlands?\nB: Etwa 84 Millionen.\nA: Und Leipzigs?\nB: Ungefähr 600.000. Die Stadt wächst.",exampleSrc:"أ: ما حجم سكان ألمانيا؟\nب: نحو 84 مليون نسمة.\nأ: وسكان لايبزيغ؟\nب: نحو 600,000 نسمة. المدينة في تنامٍ مستمر.",funFact:"يبلغ عدد die Bevölkerung في ألمانيا نحو 84 مليون نسمة. كلمة واحدة تدل على الناس وعلى فعل السكن معاً. بعد إعادة الوحدة، تقلَّصت Bevölkerung ألمانيا الشرقية السابقة إذ هاجر الملايين إلى الغرب."},
@@ -82,9 +82,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l3",title:"Altes Rathaus",icon:"🏛️",xp:15,board:true,steps:[
         {type:"intro",title:"Altes Rathaus",desc:"استكشف مركز لايبزيغ التاريخي مع ميا. تعلّم تصريف الصفات دون أدوات التعريف (النهايات القوية). ناقش النصب التذكارية والتأثير والتغيير الثقافي.",goals:[
-            "[AR] Learn 16 words about monuments and cultural change",
-            "[AR] Master adjective declension without articles",
-            "[AR] Form opinions about history with einerseits/andererseits"
+            "تعلّم 16 كلمة عن النصب التذكارية والتغيير الثقافي",
+            "أتقِن تصريف الصفات دون أدوات التعريف",
+            "عبّر عن آراء تاريخية باستخدام einerseits/andererseits"
           ]},
         {type:"story",speaker:"mia",mood:"animated",art:"de-lei-markt",trg:"Das ist der Marktplatz. Und dort: das Alte Rathaus. Renaissance-Architektur aus dem 16. Jahrhundert. Goethe hat in Auerbachs Keller gesessen und Faust geschrieben. Echter historischer Boden!",src:"هذه هي ساحة السوق. وهناك: قاعة المدينة القديمة. عمارة عصر النهضة من القرن السادس عشر. جلس غوته في Auerbachs Keller وكتب فاوست. أرض تاريخية حقيقية!"},
         {type:"story",speaker:"narrator",mood:"observant",art:"de-lei-auerbachs",trg:"Sie gehen in den Keller hinunter. Dunkles Holz, alte Gemälde an den Wänden, der Geruch von Jahrhunderten. Verumius berührt die Wand. Goethe hat hier gesessen. Das ist kein Museum. Das ist ein lebendiger Ort.",src:"ينزلان إلى القبو. خشب داكن ولوحات قديمة على الجدران ورائحة القرون. يلمس فيروميوس الجدار. جلس غوته هنا. هذا ليس متحفاً. هذا مكان حي."},
@@ -133,9 +133,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l4",title:"Nikolaikirche",icon:"⛪",xp:15,board:true,steps:[
         {type:"intro",title:"Nikolaikirche",desc:"قف في الكنيسة حيث بدأت الثورة السلمية عام 1989. تعلّم تصريف الصفات في حالة الإضافة. تعلّم الأفعال التبادلية. عبّر عن ردود فعل عاطفية تجاه التاريخ.",goals:[
-            "[AR] Master adjective declension in the genitive (always -en)",
-            "[AR] Learn reciprocal verbs (sich, einander, miteinander)",
-            "[AR] Express emotional reactions to history"
+            "أتقِن تصريف الصفات في حالة الإضافة (دائماً -en)",
+            "تعلّم الأفعال التبادلية: sich وeinander وmiteinander",
+            "عبّر عن ردود الفعل العاطفية تجاه التاريخ"
           ]},
         {type:"story",speaker:"narrator",mood:"reverent",art:"de-lei-nikolai",trg:"Die Nikolaikirche ist still. Rosa-weiße Säulen steigen wie Palmen zur Decke. Hier begann alles. Hier beteten Menschen für Freiheit, während bewaffnete Polizisten draußen warteten.",src:"كنيسة نيكولاي هادئة. أعمدة وردية بيضاء ترتفع كالنخيل إلى السقف. هنا بدأ كل شيء. هنا صلّى الناس من أجل الحرية فيما انتظرت الشرطة المسلحة في الخارج."},
         {type:"story",speaker:"mia",mood:"emotional",art:"de-lei-nikolai",trg:"Im Oktober 1989 kamen 70.000 Menschen hierher. Ohne Gewalt. Nur mit Kerzen. Die Polizei war da, aber niemand hat geschossen. Das war der Anfang des Endes.",src:"في أكتوبر 1989، جاء إلى هنا 70,000 شخص. دون عنف. بالشموع فقط. كانت الشرطة هناك، لكن لم يُطلق أحد النار. كان ذلك بداية النهاية."},
@@ -166,9 +166,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l5",title:"Hildis Fotoalbum",icon:"📷",xp:15,board:true,steps:[
         {type:"intro",title:"Hildis Fotoalbum",desc:"عِش اللحظة الإنسانية الأعمق لهيلدي. تعلّم مفردات الطفولة والوطن والهياكل الاجتماعية. طبّق المباني النحوية الثلاثة من خلال قصص شخصية.",goals:[
-            "[AR] Learn 18 words about childhood and social structures",
-            "[AR] Experience Hildi's most vulnerable moment",
-            "[AR] Practice strong endings, genitive, and reciprocal verbs"
+            "تعلّم 18 كلمة عن الطفولة والهياكل الاجتماعية",
+            "عِش اللحظة الإنسانية الأعمق لهيلدي",
+            "طبّق النهايات القوية وصيغة الإضافة والأفعال التبادلية"
           ]},
         {type:"story",speaker:"narrator",mood:"intimate",art:"de-ber-stairwell",trg:"Es ist spät. Verumius kommt die Treppe hoch. Hildi sitzt auf der Bank im Treppenhaus, ein Fotoalbum auf dem Schoß. Sie schaut nicht auf. Ihre Augen sind feucht.",src:"الوقت متأخر. يصعد فيروميوس الدرج. تجلس هيلدي على المقعد في بهو الدرج، وألبوم صور على حجرها. لا ترفع نظرها. عيناها دامعتان."},
         {type:"story",speaker:"hildi",mood:"vulnerable",art:"de-ber-stairwell",trg:"Mein Mann und ich haben uns in Leipzig kennengelernt. Wir haben einander sofort vertraut. Das war selten in der DDR. Er hat immer gesagt: Eines Tages wird die Mauer fallen. Er hatte recht.",src:"التقيت بزوجي في لايبزيغ. وثقنا ببعضنا بعضاً فوراً. كان ذلك نادراً في جمهورية ألمانيا الديمقراطية. كان دائماً يقول: يوماً ما سيسقط الجدار. كان محقاً."},
@@ -198,9 +198,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l6",title:"Du kannst ruhig du sagen",icon:"🤝",xp:15,board:true,steps:[
         {type:"intro",title:"Du kannst ruhig du sagen",desc:"عِش لحظة الانتقال من Sie إلى du بوصفها علامة فارقة عاطفية. تعلّم مفردات المؤسسات والاكتشاف والضغط. طبّق المباني النحوية الثلاثة معاً.",goals:[
-            "[AR] Experience the Sie-to-du switch as a sign of trust",
-            "[AR] Learn 16 new words about institutions and discovery",
-            "[AR] Combine all three grammar constructions"
+            "عِش لحظة الانتقال من Sie إلى du بوصفها علامة ثقة",
+            "تعلّم 16 كلمة جديدة عن المؤسسات والاكتشاف",
+            "ادمج المباني النحوية الثلاثة معاً"
           ]},
         {type:"story",speaker:"hildi",mood:"warm",art:"de-ber-stairwell",trg:"Verumius... wir kennen uns jetzt seit fast einem Jahr. Wir haben einander durch schwierige Zeiten geholfen. Du kannst ruhig du sagen.",src:"فيروميوس... لقد تعارفنا منذ ما يقارب عاماً الآن. أعنّا بعضنا في الأوقات الصعبة. يمكنك من الآن أن تناديني بـ du."},
         {type:"story",speaker:"verumius",mood:"moved",art:"de-ber-stairwell",trg:"Das... das bedeutet mir sehr viel, Hildi. Danke. Ich meine... danke, dass du mir vertraust.",src:"هذا... يعني لي الكثير يا هيلدي. شكراً. أعني... شكراً لثقتك بي."},
@@ -235,9 +235,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l7",title:"Zeitzeugen",icon:"📚",xp:15,board:true,steps:[
         {type:"intro",title:"Zeitzeugen",desc:"أتقِن المباني النحوية الثلاثة من خلال تدريب مكثّف. ادمج تصريف الصفات وصيغ الإضافة والأفعال التبادلية في سياقات حقيقية.",goals:[
-            "[AR] Master all three grammar constructions",
-            "[AR] Combine two or more constructions per exercise",
-            "[AR] Show what you have learned about Leipzig and German history"
+            "أتقِن المباني النحوية الثلاثة",
+            "ادمج مبنيَين أو أكثر في كل تمرين",
+            "أظهر ما تعلّمته عن لايبزيغ والتاريخ الألماني"
           ]},
         {type:"story",speaker:"narrator",mood:"purposeful",art:"de-lei-nikolai",trg:"Leipzig hat seine Geschichte erzählt. Jetzt ist Verumius an der Reihe. Er hat die Wörter gelernt. Er hat die Orte gesehen. Kann er die Sprache der Zeitzeugen verstehen?",src:"حكت لايبزيغ قصتها. الآن دور فيروميوس. تعلّم الكلمات. رأى الأماكن. هل يستطيع فهم لغة شهود الحقبة؟"},
         {type:"teach",trg:"die Zeichnung",src:"الرسم",pos:"noun",gender:"f",note:"من zeichnen (يرسم). Zeichen (علامة) + -ung.\ntechnische Zeichnung = رسم تقني.",example:"A: Was ist das für eine Zeichnung?\nB: Eine Zeichnung der Nikolaikirche. Aus dem 19. Jahrhundert.\nA: Wer hat sie gemacht?\nB: Ein unbekannter Künstler.",exampleSrc:"أ: ما نوع هذا الرسم؟\nب: رسم لكنيسة نيكولاي. من القرن التاسع عشر.\nأ: من رسمه؟\nب: فنان مجهول.",funFact:"لاحقة -ung تحوِّل الأفعال إلى أسماء تدل على النتيجة: zeichnen تصبح Zeichnung. technische Zeichnung (رسم تقني) وBauzeichnung (رسم معماري) مصطلحات مهنية."},
@@ -277,9 +277,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
       ]},
     {id:"deu_r21l8",title:"Leipziger Allerlei",icon:"🍲",xp:15,board:true,steps:[
         {type:"intro",title:"Leipziger Allerlei",desc:"أنهِ زيارة لايبزيغ بالثقافة والطعام. تعلّم المفردات الأخيرة. تعرّف على اللهجة الساكسونية. تأمّل ما تعلّمه لايبزيغ عن الهوية الألمانية.",goals:[
-            "[AR] Learn the final 14 vocabulary words of the unit",
-            "[AR] Discover Saxon dialect and regional culture",
-            "[AR] Reflect on Leipzig's significance for German identity"
+            "تعلّم الـ 14 كلمة الأخيرة في الوحدة",
+            "اكتشف اللهجة الساكسونية والثقافة الإقليمية",
+            "تأمّل أهمية لايبزيغ للهوية الألمانية"
           ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-lei-restaurant",trg:"Der letzte Abend in Leipzig. Mia hat ein Restaurant in der Südvorstadt ausgesucht. Kleine Tische, Kerzen, Sächsische Küche auf der Karte. Sie setzt sich und atmet tief ein. Hier ist sie zu Hause.",src:"الليلة الأخيرة في لايبزيغ. اختارت ميا مطعماً في حي Südvorstadt. طاولات صغيرة وشموع ومطبخ ساكسوني في القائمة. تجلس وتأخذ نفساً عميقاً. هنا موطنها."},
         {type:"story",speaker:"mia",mood:"playful",art:"de-lei-restaurant",trg:"Leipziger Allerlei! Das Traditionsgericht. Früher war es ein Gemüse-Eintopf für reiche Leute. Heute isst es jeder. Übrigens: Bestell nicht auf Sächsisch. Der Kellner lacht sonst.",src:"Leipziger Allerlei! الطبق التقليدي. كان يُقدَّم في الأصل يخنة خضروات للأثرياء. اليوم يأكله الجميع. بالمناسبة: لا تطلب بالساكسونية. سيضحك النادل."},
