@@ -336,7 +336,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities (updated 2026-04-04)
 
-> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-04b.md`.
+> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-05.md`.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -412,7 +412,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — **Latest handoff.** Phase 1 complete.
+- **`docs/SESSION_HANDOFF_2026-04-05.md`** — **Latest handoff.** Phase 1.5A complete. Next: fix plumbing.
+- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — Previous handoff. Phase 1 complete.
 - **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
