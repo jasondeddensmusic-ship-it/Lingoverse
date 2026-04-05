@@ -19,7 +19,7 @@ function IdiomsPage({lang,baseLang="en"}){
 
       {idioms.length===0 && <div style={{textAlign:"center",padding:"40px 20px",background:"var(--card-bg)",borderRadius:20,border:"2px solid var(--gray-100)",marginBottom:24}}>
         <div style={{fontSize:48,marginBottom:12}}>🚧</div>
-        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>Idioms coming soon</div>
+        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>{t("idioms_coming_soon",baseLang)}</div>
         <div style={{fontSize:14,color:"var(--gray-400)"}}>Check the CEFR Reference page for expressions by level.</div>
       </div>}
 

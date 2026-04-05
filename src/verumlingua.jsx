@@ -1437,9 +1437,9 @@ function GrammarPage({lang,baseLang="en"}){
       {/* Coming soon */}
       {noGrammarYet && <div style={{textAlign:"center",padding:"48px 24px",background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",borderRadius:22,border:"2px solid var(--card-border)",boxShadow:"var(--card-shadow)",marginBottom:24,position:"relative",overflow:"hidden"}}>
         <div style={_gramGlossArc(dk)}/>
-        <div style={{fontSize:48,marginBottom:12,position:"relative"}}>🚧</div>
-        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8,position:"relative"}}>Grammar reference coming soon</div>
-        <div style={{fontSize:14,color:"var(--gray-400)",position:"relative"}}>Check the CEFR Reference page for grammar constructs by level.</div>
+        <div style={{fontSize:48,marginBottom:12,position:"relative"}}>📚</div>
+        <div style={{fontSize:18,fontWeight:700,color:"var(--gray-600)",marginBottom:8,position:"relative"}}>{t("grammar_title",baseLang)}</div>
+        <div style={{fontSize:14,color:"var(--gray-400)",position:"relative",lineHeight:1.6,maxWidth:300,margin:"0 auto"}}>{t("grammar_sub",baseLang)}</div>
       </div>}
 
       {!noGrammarYet&&<>
@@ -3125,7 +3125,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
 
 const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR };
 
-function CefrReferencePage({lang}){
+function CefrReferencePage({lang,user}){
   const dk=document.documentElement.classList.contains("dark");
   const ref = CEFR_REFS[lang];
   const [tab,setTab]=useState("vocab");
@@ -5997,7 +5997,7 @@ export default function App(){
             {page==="chat"&&<Chat lang={lang} baseLang={baseLang} user={user} addXp={addXp} addChat={addChat} learnedWords={[...user.lw]}/>}
             {page==="grammar"&&<GrammarPage lang={lang} baseLang={baseLang}/>}
             {page==="idioms"&&<IdiomsPage lang={lang} baseLang={baseLang}/>}
-            {page==="cefr-reference"&&<CefrReferencePage lang={lang}/>}
+            {page==="cefr-reference"&&<CefrReferencePage lang={lang} user={user}/>}
             {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
           </div>
           <BottomNav/>
