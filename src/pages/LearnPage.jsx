@@ -748,7 +748,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                       {hasUnits?
                         <div style={{fontSize:10,color:showLock?"var(--gray-400)":(dk?"rgba(180,170,220,0.8)":"var(--purple-accent-text)"),fontWeight:700,marginTop:2}}>{bp.done}/{bp.total} units{isComplete?" ✓":""}</div>
                       :
-                        <div style={{fontSize:10,color:dk?"rgba(160,155,200,0.5)":"var(--gray-300)",fontWeight:600,fontStyle:"italic",marginTop:2}}>Coming soon</div>
+                        <div style={{fontSize:10,color:dk?"rgba(160,155,200,0.5)":"var(--gray-300)",fontWeight:600,fontStyle:"italic",marginTop:2}}>{t("coming_soon",baseLang)}</div>
                       }
                     </div>
                     {hasUnits&&bp.done>0&&<div style={{width:"80%",position:"relative",zIndex:2}}>
@@ -799,7 +799,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                 </div>}
               </div>
               {up&&up.completed?<div style={{fontSize:22}}>✅</div>:available&&<div style={{color:u.color,fontWeight:700,fontSize:22}}>→</div>}
-              {!available&&<span style={{color:"var(--gray-300)",fontSize:12,fontWeight:600}}>Coming soon</span>}
+              {!available&&<span style={{color:"var(--gray-300)",fontSize:12,fontWeight:600}}>{t("coming_soon",baseLang)}</span>}
             </div>
           );
         })}
@@ -832,7 +832,7 @@ function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass}
     <div className="card" style={{textAlign:"center",padding:"40px 20px"}}>
       <div style={{marginBottom:12}}><AppIcon name="construction" size={56}/></div>
       <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>Gate Quiz Not Available</h3>
-      <p style={{color:"var(--gray-400)",fontSize:13}}>The Gate Quiz for this language is coming soon.</p>
+      <p style={{color:"var(--gray-400)",fontSize:13}}>{t("gate_quiz_soon",baseLang)}</p>
       <div style={{marginTop:16}}><NavArrow onClick={onBack} isBack size={44}/></div>
     </div>
   );
@@ -1251,7 +1251,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
       :
         <div className="card" style={{textAlign:"center",padding:"40px 20px"}}>
           <div style={{marginBottom:12}}><AppIcon name="construction" size={56}/></div>
-          <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>Coming Soon</h3>
+          <h3 className="hd" style={{fontSize:18,fontWeight:700,marginBottom:4}}>{t("coming_soon",baseLang)}</h3>
           <p style={{color:"var(--gray-400)",fontSize:13}}>Playthrough lessons for this language are being developed.</p>
         </div>
       }

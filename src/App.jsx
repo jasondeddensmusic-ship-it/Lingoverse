@@ -25,6 +25,7 @@ const Chat = React.lazy(() => import('./pages/Chat.jsx'));
 const GrammarPage = React.lazy(() => import('./pages/GrammarPage.jsx'));
 const IdiomsPage = React.lazy(() => import('./pages/IdiomsPage.jsx'));
 const CefrReferencePage = React.lazy(() => import('./pages/CefrReferencePage.jsx'));
+const SettingsPage = React.lazy(() => import('./pages/SettingsPage.jsx'));
 const Profile = React.lazy(() => import('./pages/Profile.jsx'));
 const AuthScreen = React.lazy(() => import('./pages/AuthScreen.jsx'));
 const Onboarding = React.lazy(() => import('./pages/Onboarding.jsx'));
@@ -634,7 +635,8 @@ export default function App(){
             {page==="grammar"&&<GrammarPage lang={lang} baseLang={baseLang}/>}
             {page==="idioms"&&<IdiomsPage lang={lang} baseLang={baseLang}/>}
             {page==="cefr-reference"&&<CefrReferencePage lang={lang} user={user}/>}
-            {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
+            {page==="settings"&&<SettingsPage lang={lang} baseLang={baseLang} darkMode={darkMode} setDarkMode={setDarkMode} cloudMode={cloudMode} setCloudMode={setCloudMode} user={user} setUser={setUser} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
+            {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang} setPage={setPage}/>}
           </div>
           <BottomNav/>
         </>

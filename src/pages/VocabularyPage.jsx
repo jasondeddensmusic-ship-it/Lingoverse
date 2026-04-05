@@ -628,7 +628,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {/* DeepDive from teach card (if available via note match) */}
             {(!entry.note&&!entry.particle&&!(entry.uses&&entry.uses.length))&&
               <div style={{fontSize:13,color:dk?"rgba(200,184,255,0.5)":"rgba(100,80,160,0.45)",fontWeight:600,textAlign:"center",padding:20}}>
-                Deep grammar info coming soon.
+                {t("deep_grammar_soon",baseLang)}
               </div>}
           </>}
 

@@ -447,7 +447,7 @@ export const CSS = `
   filter: brightness(0.95);
 }
 body, #root {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
   background: linear-gradient(180deg, #E6ECFA 0%, #DDE6F8 40%, #E6ECFA 100%);
   background-attachment: fixed;
   color: var(--gray-700);
@@ -457,10 +457,20 @@ body, #root {
   -webkit-text-size-adjust: 100%;
 }
 body.modal-open { overflow: hidden !important; touch-action: none; }
-h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', sans-serif; color: var(--gray-800); }
+h1,h2,h3,h4,h5,.hd { font-family: 'DM Sans', 'Noto Naskh Arabic', sans-serif; color: var(--gray-800); }
 h1 { font-size: clamp(22px, 5vw, 32px); }
 h2 { font-size: clamp(18px, 4vw, 26px); }
 h3 { font-size: clamp(16px, 3.5vw, 22px); }
+
+/* ── RTL (Arabic): font and spacing adjustments ── */
+[dir="rtl"] body, [dir="rtl"] #root {
+  font-family: 'Noto Naskh Arabic', 'Source Sans 3', sans-serif;
+  line-height: 1.7;
+}
+[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3,[dir="rtl"] h4,[dir="rtl"] h5,[dir="rtl"] .hd {
+  font-family: 'Noto Naskh Arabic', 'DM Sans', sans-serif;
+}
+[dir="rtl"] .bottomnav-item span { font-family: 'Noto Naskh Arabic', sans-serif; font-size: 10px; }
 
 /* ── MOBILE: touch targets, text safety, button feedback ── */
 @media (max-width: 700px) {
