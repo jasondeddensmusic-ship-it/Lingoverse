@@ -1,0 +1,737 @@
+[
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Bund (federation) + Land (state/country). Germany has 16\\nBundesländer, each with its own government and school system."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "Bund (federation) + Land (state/country). Germany has 16 Bundesländer, each with its own government, police, and school system. Berlin is both a city AND a Bundesland. Bavaria is the largest, Bremen the smallest."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "From Latin 'regio' (direction/district). Germany's regions\\ndiffer wildly: coastal Friesland, alpine Bavaria, industrial Ruhr."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From Latin 'regio' (direction/district). Same word in English. Germany's regions differ wildly: coastal Friesland, alpine Bavaria, industrial Ruhrgebiet, wine-country Rhineland. Each has its own dialect and food."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Durch (through) + Fahrt (drive/trip). 'Keine Durchfahrt'\\nis one of Germany's most common road signs."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Durch (through) + Fahrt (drive/trip). A transit, a passage. 'Keine Durchfahrt' (No through traffic) is one of Germany's most common road signs. The word tells you: you drive THROUGH, not stop."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Rast (rest) + Stätte (place). German Raststätten are an\\ninstitution: overpriced coffee, Currywurst, and paid toilets."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Rast (rest) + Stätte (place). German Raststätten are an institution: overpriced coffee, Currywurst, and clean toilets you pay to use. The famous Sanifair coin is a rite of passage."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Wandern (to hike) + Weg (path). Germany has over 200,000 km\\nof marked Wanderwege. Hiking is the national outdoor sport."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "Wandern (to hike) + Weg (path). Germany has over 200,000 km of marked Wanderwege. Hiking is the national outdoor sport. Every region has its own long-distance Wanderweg."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Zwischen (between) + Stopp (stop). An intermediate stop.\\n'Wir machen einen Zwischenstopp in Heidelberg.'"
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "Zwischen (between) + Stopp (stop). An intermediate stop, a layover. 'Wir machen einen Zwischenstopp in Heidelberg.' The compound captures the between-ness perfectly."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Be- + reisen (to travel). The be- prefix makes it transitive:\\nyou 'bereisen ein Land.' More thorough than just 'reisen.'"
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "Be- + reisen (to travel). The be- prefix makes it transitive: you 'bereisen ein Land' (travel through a country). More thorough than just 'reisen.' Bereisen implies you explore the place properly."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Durch (through) + queren (to cross). Not separable.\\n'Wir durchqueren drei Bundesländer.' One continuous crossing."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "Durch (through) + queren (to cross). To traverse, to cross through. Not separable because durch- is inseparable here. 'Wir durchqueren drei Bundesländer.' One continuous crossing."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Er- + kunden (related to Kunde, knowledge). Military origin:\\nErkundung was reconnaissance. Now means curious exploration."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "Er- + kunden (related to Kunde, knowledge). To explore, to scout out. Military origin: Erkundung was reconnaissance. Now it means any kind of curious exploration. 'Die Stadt erkunden' (to explore the city)."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Herum (around) + kommen (to come). Separable. Colloquial.\\n'Er ist viel herumgekommen' (He has traveled a lot)."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "Herum (around) + kommen (to come). To get around, to travel widely. Separable. 'Er ist viel herumgekommen' (He has traveled a lot). The image: you come around to many places."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Same root as English 'wander.' Germans take Wandern seriously:\\nproper boots, trail maps, Wanderverein memberships."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Same root as English 'wander.' Germans take Wandern seriously: proper boots, trail maps, Wanderverein (hiking club) memberships. 'Wer wandert, der findet' is an old saying."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Über (over) + Nacht (night). Literally 'to go over a night.'\\nNot separable. 'Wo übernachten wir?'"
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "Über (over) + Nacht (night). To stay overnight. The word literally means to 'go over a night.' Not separable. 'Wo übernachten wir?' is the first question on every road trip."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Atem (breath) + beraubend (robbing). Literally breath-robbing.\\nOne of German's most dramatic adjectives. Three components in one."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "Atem (breath) + beraubend (robbing). Breathtaking, literally breath-robbing. 'Die Aussicht ist atemberaubend.' One of German's most dramatic adjectives. Three components welded into one word."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Landschaft (landscape) + -lich (suffix). 'Landschaftlich schön'\\nis how Germans describe their favorite drives."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "Landschaft (landscape) + -lich (adjective suffix). Scenic, relating to landscape. 'Landschaftlich schön' (scenically beautiful) is how Germans describe their favorite drives."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From Maler (painter) + -isch. Literally 'painter-like.'\\nA place so beautiful a painter would stop to capture it."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From Maler (painter) + -isch. Picturesque, literally 'painter-like.' A place so beautiful a painter would stop to capture it. 'Ein malerisches Dorf' (a picturesque village). The highest compliment for a landscape."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "From Greek 'eidyllion' (short pastoral poem). Same word\\nacross European languages. Implies peace and rural charm."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "From Greek 'eidyllion' (short pastoral poem). Idyllic. Same word across European languages. 'Ein idyllischer Ort' (an idyllic place). Implies peace, rural charm, and absence of stress."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Da (there) + nach (after). A temporal adverb.\\n'Zuerst Heidelberg, danach Freiburg.' Clean sequencing."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "Da (there) + nach (after). Afterward, after that. A temporal adverb. 'Zuerst Heidelberg, danach Freiburg.' Clean sequencing. Essential for storytelling and travel planning."
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "In + zwischen (between). Marks time passing between events.\\n'Inzwischen hat sich viel verändert.' Elegant and common."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "In + zwischen (between). Meanwhile, in the meantime. 'Inzwischen hat sich viel verändert' (Meanwhile, a lot has changed). Marks time passing between events. Elegant and commonly used."
+  },
+  {
+    "line": 42,
+    "field": "note",
+    "english": "Alt (old) + Stadt (city). Every German city with medieval roots\\nhas an Altstadt: narrow streets, half-timbered houses."
+  },
+  {
+    "line": 42,
+    "field": "funFact",
+    "english": "Alt (old) + Stadt (city). Every German city with medieval roots has an Altstadt: narrow streets, half-timbered houses, a central Marktplatz. Freiburg's Altstadt survived WWII bombing mostly intact."
+  },
+  {
+    "line": 43,
+    "field": "note",
+    "english": "Same root as English 'borough' and French 'bourg.' A fortified\\ncastle for military defense. Different from Schloss (palace)."
+  },
+  {
+    "line": 43,
+    "field": "funFact",
+    "english": "Same root as English 'borough' and French 'bourg.' A castle (fortified, military). Different from Schloss (palace, residential). Die Burg sits on hilltops for defense. Germany has over 25,000 Burgen and Schlösser."
+  },
+  {
+    "line": 44,
+    "field": "note",
+    "english": "From Latin 'domus Dei' (house of God). Der Kölner Dom took\\n632 years to complete (1248-1880). Masculine from Latin origin."
+  },
+  {
+    "line": 44,
+    "field": "funFact",
+    "english": "From Latin 'domus Dei' (house of God). A cathedral. Der Kölner Dom took 632 years to complete (1248-1880). Every major German city has its Dom. Masculine because of the Latin origin."
+  },
+  {
+    "line": 45,
+    "field": "note",
+    "english": "From schließen (to close/lock). Originally a 'locked' building.\\nSchloss Neuschwanstein inspired Disney's castle. Neuter."
+  },
+  {
+    "line": 45,
+    "field": "funFact",
+    "english": "From schließen (to close/lock). Originally a 'locked' building. Schloss Neuschwanstein inspired Disney's castle. Das Schloss is neuter. Distinction: Burg = fortress, Schloss = residence."
+  },
+  {
+    "line": 46,
+    "field": "note",
+    "english": "Markt (market) + Platz (square). The Rathaus usually faces\\nthe Marktplatz. Christmas markets set up here every December."
+  },
+  {
+    "line": 46,
+    "field": "funFact",
+    "english": "Markt (market) + Platz (square). The central market square. Every traditional German town has one. The Rathaus (town hall) usually faces the Marktplatz. Christmas markets set up here every December."
+  },
+  {
+    "line": 47,
+    "field": "note",
+    "english": "Stadt (city) + Mauer (wall). Many German cities still have\\nmedieval Stadtmauern: Rothenburg, Nürnberg, Lübeck."
+  },
+  {
+    "line": 47,
+    "field": "funFact",
+    "english": "Stadt (city) + Mauer (wall). A city wall. Many German cities still have sections of their medieval Stadtmauer: Rothenburg, Nürnberg, Lübeck. Walking along the Stadtmauer is a top tourist activity."
+  },
+  {
+    "line": 48,
+    "field": "note",
+    "english": "Wahr (true) + Zeichen (sign). Das Brandenburger Tor ist\\nBerlins Wahrzeichen. Every city has one defining symbol."
+  },
+  {
+    "line": 48,
+    "field": "funFact",
+    "english": "Wahr (true) + Zeichen (sign). A landmark, an emblem. The Brandenburger Tor is Berlin's Wahrzeichen. Every city has one thing that defines it visually. Das Wahrzeichen is neuter."
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Sehen (see) + würdig (worthy) + -keit (suffix). One of German's\\nlongest everyday compounds. Worth seeing."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "Sehen (see) + würdig (worthy) + -keit (noun suffix). A sight worth seeing, a tourist attraction. One of German's longest everyday compounds. 'Die Top-10-Sehenswürdigkeiten' appears on every travel website."
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Wein (wine) + Berg (mountain/hill). Germany has 13 wine regions.\\nMasculine because Berg is masculine."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "Wein (wine) + Berg (mountain/hill). A vineyard. Germany has 13 wine regions. The steep Weinberge along the Mosel and Rhine produce world-class Riesling. Masculine because Berg is masculine."
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "Frei (open/free) + Bad (bath/pool). Germans love their Freibäder\\nin summer. The season runs May to September. Neuter."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "Frei (open/free) + Bad (bath/pool). An outdoor swimming pool. Germans love their Freibäder in summer. Every town has one. The Freibad season runs May to September. Neuter because Bad is neuter."
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Stadt (city) + Führung (guided tour). Feminine because Führung\\nis feminine. Free walking tours are popular in every German city."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "Stadt (city) + Führung (guided tour). A city tour. 'Eine Stadtführung machen' (to take a city tour). Feminine because Führung is feminine. Free walking tours are popular in every German city."
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "From Greek 'historia.' Same word across European languages.\\nGermans are meticulous about preserving historische Bausubstanz."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "From Greek 'historia.' Historical. Same word across European languages. 'Ein historisches Gebäude' (a historical building). Germans are meticulous about preserving historische Bausubstanz (historical building fabric)."
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "Mittelalter (Middle Ages) + -lich. The Mittelalter lasted roughly\\nfrom 500-1500 AD. Many Altstädte still look mittelalterlich."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "Mittelalter (Middle Ages) + -lich. Medieval. 'Eine mittelalterliche Burg' (a medieval castle). The Mittelalter lasted roughly from 500-1500 AD. Many German cities still look mittelalterlich in their Altstadt."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Sehen (to see) + wert (worth). Shorter than Sehenswürdigkeit\\nbut same root. A practical adjective for travel tips."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "Sehen (to see) + wert (worth). Worth seeing. Shorter than Sehenswürdigkeit but same root. 'Die Altstadt ist sehenswert' (The old town is worth seeing). A practical adjective for travel recommendations."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "Reiz (charm/stimulus) + voll (full). More subtle than 'schön.'\\nImplies something that draws you in gently."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "Reiz (charm/stimulus) + voll (full). Charming, attractive, full of appeal. 'Eine reizvolle Landschaft' (a charming landscape). More subtle than 'schön.' Implies something that draws you in gently."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "From French 'pittoresque,' from Italian 'pittoresco.'\\nSame meaning as 'malerisch' but more formal and literary."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "From French 'pittoresque,' from Italian 'pittoresco' (painter-like). Picturesque. Same meaning as 'malerisch' but with a French flavor. Used in formal writing and travel literature. An elegant synonym."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Eindruck (impression) + voll (full). Full of impression.\\n'Ein eindrucksvolles Bauwerk.' The opposite of 'unscheinbar.'"
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "Eindruck (impression) + voll (full). Impressive, full of impression. 'Ein eindrucksvolles Bauwerk' (an impressive structure). The opposite of 'unscheinbar' (inconspicuous)."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Be- + sichtigen (from Sicht, sight). The be- prefix makes it\\ntransitive. Implies a thorough, deliberate look."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "Be- + sichtigen (from Sicht, sight). To visit, to tour, to inspect. 'Das Schloss besichtigen' (to visit the castle). The be- prefix makes it transitive: you besichtigen a place. Implies a thorough look."
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Miss- (wrongly) + verstehen (to understand). Not separable.\\n'Da hast du mich missverstanden.' Related to English 'mis-.'"
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "Miss- (wrongly) + verstehen (to understand). To misunderstand. 'Da hast du mich missverstanden.' The miss- prefix means something went wrong. Not separable. Related to English 'mis-' (misunderstand, mislead)."
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "Zer- (apart, to pieces) + stören (to disturb). The most violent\\nprefix. Zerbrechen, zerreißen, zerfallen. Destruction is always zer-."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "Zer- (apart, to pieces) + stören (to disturb). To destroy. The zer- prefix is the most violent: it means to break into pieces. Zerbrechen (break apart), zerreißen (tear apart), zerfallen (fall apart)."
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "Mund (mouth) + Art (way/type). Literally 'the way of the mouth.'\\nMore literary than Dialekt. Feminine."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "Mund (mouth) + Art (way/type). Dialect, literally 'the way of the mouth.' A more literary/academic term than Dialekt. 'Die bayerische Mundart' (the Bavarian dialect). Every region has its own Mundart."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "Hoch (high) + Deutsch. Originally the language of the southern\\nhighlands. Now the prestige dialect taught in schools and on TV."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "Hoch (high) + Deutsch. Originally referred to the language of the southern highlands (where German consonant shifts happened). Now means the prestige dialect taught in schools and used on TV."
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Umgang (interaction) + Sprache (language). Between Hochdeutsch\\nand Dialekt. The relaxed German people actually speak."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "Umgang (interaction) + Sprache (language). Colloquial language, everyday speech. Between Hochdeutsch and Dialekt sits Umgangssprache: the relaxed German people actually speak. Regional color without full dialect."
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "Muttersprache (mother tongue) + -ler (person). The -ler suffix\\nturns a concept into the person who embodies it."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "Muttersprache (mother tongue) + -ler (person). A native speaker. 'Er spricht wie ein Muttersprachler.' The -ler suffix turns a concept into the person who embodies it."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "From Greek 'dialektos' (manner of speaking). Germany has dozens:\\nBayerisch, Schwäbisch, Sächsisch, Kölsch, Plattdeutsch."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "From Greek 'dialektos' (manner of speaking). A regional variety of a language. Germany has dozens: Bayerisch, Schwäbisch, Sächsisch, Kölsch, Plattdeutsch. Some are so different they need subtitles on TV."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "Platt (flat/low) + Deutsch. Spoken in northern Germany's flat\\nlowlands. Closer to Dutch and English than to Hochdeutsch."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "Platt (flat/low) + Deutsch. Low German. Spoken in northern Germany's flat lowlands. A separate language branch, closer to Dutch and English than to Hochdeutsch. 'Moin!' (Hello!) is the most famous Plattdeutsch word."
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "The dialect of Swabia (Baden-Württemberg). Famous for 'schaffen'\\n(to work hard) and 'Kehrwoche' (weekly cleaning rotation)."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "The dialect of Swabia (Baden-Württemberg). Famous for 'schaffen' (to work hard) and 'Kehrwoche' (weekly cleaning rotation). Swabian speakers are stereotyped as thrifty, hardworking, and proud of their dialect."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Nord (north) + deutsch. Norddeutsch culture is flatter, dryer\\n(in humor and landscape), and more reserved."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "Nord (north) + deutsch. Northern German. Norddeutsch culture is flatter, dryer (in humor and landscape), and more reserved. 'Moin' (morning greeting at any time of day) is quintessentially norddeutsch."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "Süd (south) + deutsch. Süddeutsche Regionen haben stärkere\\nDialekte, katholische Traditionen und anderes Essen."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "Süd (south) + deutsch. Southern German. Süddeutsch regions (Bayern, Baden-Württemberg) have stronger dialects, Catholic traditions, and different food (Spätzle, Weißwurst, Brezeln)."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "From Bayern (Bavaria). The most famous German dialect\\ninternationally, thanks to Oktoberfest."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "From Bayern (Bavaria). The most famous German dialect internationally, thanks to Oktoberfest. 'Servus' (hello/goodbye), 'Grüß Gott' (greeting), 'Oans, zwoa, drei' (one, two, three)."
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "Ursprung (origin) + -lich. Three syllables packed with meaning.\\n'Ursprünglich wollte ich nach München.'"
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "Ursprung (origin) + -lich. Original, originally, in its original form. 'Ursprünglich wollte ich nach München' (Originally I wanted to go to Munich). Three syllables packed with meaning."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Altertum (antiquity) + -lich. Describes language or customs\\nthat feel like they come from another century."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "Altertum (antiquity) + -lich. Old-fashioned, archaic. Describes language or customs that feel like they come from another century. Not 'alt' (old), but 'from ancient times.'"
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Gleich (same) + zeitig (related to time). A temporal adverb.\\nElegant way to describe parallel events."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "Gleich (same) + zeitig (related to time). Simultaneous, at the same time. 'Gleichzeitig regnet es und scheint die Sonne.' Elegant way to describe parallel events."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Unter (under/during) + dessen (of that). More literary than\\n'inzwischen.' Sets scenes beautifully in narrative."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "Unter (under/during) + dessen (of that). Meanwhile, in the meantime. More literary than 'inzwischen.' 'Unterdessen spielten sie ein Wortspiel.' Sets scenes beautifully in narrative."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Des (of this) + wegen (because of). A kausal adverb.\\n'Es regnete, deswegen blieben wir im Auto.' Same as 'deshalb.'"
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "Des (of this) + wegen (because of). Because of this, therefore. A causal adverb. 'Es regnete, deswegen blieben wir im Auto.' Cause and effect in one word. Same meaning as 'deshalb.'"
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "Des (of this) + halb (half/behalf). Interchangeable with\\n'deswegen.' The causal bridge between two facts."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "Des (of this) + halb (half/behalf). Therefore, for that reason. Interchangeable with 'deswegen.' 'Ich liebe Sprachen, deshalb lerne ich Deutsch.' The causal bridge between two facts."
+  },
+  {
+    "line": 133,
+    "field": "note",
+    "english": "Wort (word) + Bildung (formation). The science of how German\\ncreates new words. Just stick words together, no limits."
+  },
+  {
+    "line": 133,
+    "field": "funFact",
+    "english": "Wort (word) + Bildung (formation/education). Word formation. The science of how German creates new words. German is the champion of Wortbildung: just stick words together. No hyphens needed. No limits on length."
+  },
+  {
+    "line": 134,
+    "field": "note",
+    "english": "Bestimmung (determination) + Wort (word). The first part of a\\ncompound that specifies meaning. In 'Haustür,' 'Haus' is it."
+  },
+  {
+    "line": 134,
+    "field": "funFact",
+    "english": "Bestimmung (determination) + Wort (word). The first part of a compound that specifies the meaning. In 'Haustür' (house door), 'Haus' is the Bestimmungswort. It narrows the meaning of the second part."
+  },
+  {
+    "line": 135,
+    "field": "note",
+    "english": "Grund (base/ground) + Wort (word). Always the last part.\\nDetermines gender and basic category. Grundwort = boss."
+  },
+  {
+    "line": 135,
+    "field": "funFact",
+    "english": "Grund (base/ground) + Wort (word). The base word in a compound, always the last part. In 'Haustür,' 'Tür' is the Grundwort. It determines the gender and the basic category. Grundwort = boss of the compound."
+  },
+  {
+    "line": 136,
+    "field": "note",
+    "english": "Zusammen (together) + Setzung (placing). Germany's most famous:\\n'Donaudampfschifffahrtsgesellschaftskapitän.'"
+  },
+  {
+    "line": 136,
+    "field": "funFact",
+    "english": "Zusammen (together) + Setzung (placing). A compound word. 'Donaudampfschifffahrtsgesellschaftskapitän' is Germany's most famous Zusammensetzung. The noun form of 'zusammensetzen.'"
+  },
+  {
+    "line": 137,
+    "field": "note",
+    "english": "Wort (word) + Schatz (treasure). Literally 'word treasure.'\\nMasculine because Schatz is masculine."
+  },
+  {
+    "line": 137,
+    "field": "funFact",
+    "english": "Wort (word) + Schatz (treasure). Vocabulary, literally 'word treasure.' Your Wortschatz is your treasure chest of known words. 'Einen großen Wortschatz haben' (to have a large vocabulary). Masculine because Schatz is masculine."
+  },
+  {
+    "line": 138,
+    "field": "note",
+    "english": "Ab (from/off) + leiten (to lead/guide). Separable.\\n'Das Wort leitet sich vom Lateinischen ab.'"
+  },
+  {
+    "line": 138,
+    "field": "funFact",
+    "english": "Ab (from/off) + leiten (to lead/guide). To derive. 'Das Wort leitet sich vom Lateinischen ab.' Separable. The linguistic term for tracing a word back to its origin."
+  },
+  {
+    "line": 139,
+    "field": "note",
+    "english": "Zusammen (together) + setzen (to set/place). Separable.\\nThe verb for German's favorite hobby: making compounds."
+  },
+  {
+    "line": 139,
+    "field": "funFact",
+    "english": "Zusammen (together) + setzen (to set/place). To put together, to compose. 'Wir setzen zwei Wörter zusammen' (We put two words together). Separable. German's favorite hobby: making compounds."
+  },
+  {
+    "line": 140,
+    "field": "note",
+    "english": "Auf (up/apart) + teilen (to divide). Separable.\\nThe opposite of zusammensetzen. Deconstruction."
+  },
+  {
+    "line": 140,
+    "field": "funFact",
+    "english": "Auf (up/apart) + teilen (to divide). To divide up, to split. 'Das Wort in seine Teile aufteilen' (to divide the word into its parts). The opposite of zusammensetzen. Separable."
+  },
+  {
+    "line": 141,
+    "field": "note",
+    "english": "From siedeln (to settle). The -ung suffix makes it feminine.\\nGermany has Siedlungen from every era: medieval to modern."
+  },
+  {
+    "line": 141,
+    "field": "funFact",
+    "english": "From siedeln (to settle). A settlement, a housing estate. Germany has Siedlungen from every era: medieval, Gründerzeit, postwar. The -ung suffix makes it feminine."
+  },
+  {
+    "line": 142,
+    "field": "note",
+    "english": "Kultur (culture) + Erbe (heritage). Neuter because Erbe\\n(heritage) is neuter. Germany has 52 UNESCO sites."
+  },
+  {
+    "line": 142,
+    "field": "funFact",
+    "english": "Kultur (culture) + Erbe (heritage). Cultural heritage. 'Immaterielles Kulturerbe' (intangible cultural heritage). Germany has 52 UNESCO Welterbe sites. Neuter because Erbe (heritage) is neuter."
+  },
+  {
+    "line": 143,
+    "field": "note",
+    "english": "Gründer (founder) + Zeit (time). An era of rapid industrialization\\nand ornate architecture. Feminine because Zeit is feminine."
+  },
+  {
+    "line": 143,
+    "field": "funFact",
+    "english": "Gründer (founder) + Zeit (time). The Founders' Period (1871-1914). An era of rapid industrialization and ornate architecture in Germany. Gründerzeit buildings with their decorated facades define many German city centers."
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Wirtschaft (economy) + Wunder (miracle). Germany's stunning\\npostwar recovery from 1948-1968. Untranslatable."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "Wirtschaft (economy) + Wunder (miracle). The Economic Miracle. Germany's stunning postwar recovery from 1948-1968. From rubble to Europe's largest economy. The word captures national pride and collective effort."
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Bau (building/construction) + Werk (work). Grander than\\n'Gebäude.' Der Kölner Dom is a Bauwerk, your garage is a Gebäude."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "Bau (building/construction) + Werk (work). A structure, an edifice. Grander than 'Gebäude' (building). Der Kölner Dom is a Bauwerk. Your garage is a Gebäude."
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Geschichte (history) + trächtig (pregnant/laden). Literally\\n'pregnant with history.' One of German's most evocative compounds."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "Geschichte (history) + trächtig (pregnant/laden with). Steeped in history, historically significant. Literally 'pregnant with history.' One of German's most evocative compound adjectives."
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "Regional + typisch (typical). Describes anything authentically\\nlocal. 'Regionaltypische Küche' (regional cuisine)."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "Regional + typisch (typical). Typical of the region, regionally characteristic. 'Regionaltypische Küche' (regional cuisine). A compound adjective that describes anything authentically local."
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Tradition + bewusst (conscious/aware). Mindful of tradition.\\nGermans value Traditionsbewusstsein alongside innovation."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "Tradition + bewusst (conscious/aware). Tradition-conscious, mindful of tradition. 'Ein traditionsbewusstes Dorf' (a village mindful of its traditions). Germans value Traditionsbewusstsein alongside innovation."
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Da (there) + her (from). Both causal ('Daher ist es wichtig')\\nand directional ('Er kommt von daher'). Context decides."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "Da (there) + her (from). Therefore, from there. Both a causal adverb ('Daher ist es wichtig') and a directional one ('Er kommt von daher'). Context determines meaning. Same as 'deshalb' when causal."
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "A modal adverb. 'Ich wandere gern' (I like to hike).\\n'Gern geschehen' (You're welcome, literally 'gladly done')."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "'Gladly, with pleasure.' 'Ich wandere gern' (I like to hike). 'Gern geschehen' (You're welcome, literally 'gladly done'). One of the most-used small words in German."
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Often used in compounds: geschichtsträchtig (steeped in history), zukunftsträchtig (promising for the future)."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "For humans, German uses schwanger. The word trächtig is reserved for animals and figurative compounds."
+  },
+  {
+    "line": 178,
+    "field": "note",
+    "english": "Natur (nature) + Schutz (protection) + Gebiet (area).\\nThree nouns welded into one protected area."
+  }
+]

@@ -1,0 +1,3387 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "BER Airport. The same glass and steel from Unit 1, but everything has changed. Verumius walks through the terminal like someone who belongs. He passes the DB ticket machines he once feared. But today he is not arriving. He is leaving."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Enter the world of Heimat and belonging"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Learn vocabulary for nostalgia, longing, and emotional connection"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Begin exploring what home means"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "BER Airport. Departures hall. The same glass and steel as two years ago, but everything has changed. Verumius walks through the terminal with the confidence of someone who belongs here. He passes the DB ticket machines he once feared. He knows exactly where Gate B7 is."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "After living in Berlin for two years, I feel at home here. Now I am flying home. But which home?"
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "He sits at the gate, watching planes. Homesickness. Not for where he is going, but for where he is leaving. The word has shifted its meaning."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "I am proud of everything I have built here. But the longing for childhood, for roots, remains."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "homesickness"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "Neuter noun. No plural.\\n'Heim' (home) + 'Weh' (pain/ache)."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: Do you sometimes have homesickness?\\nB: Yes, especially in the evenings. Then I miss everything.\\nA: What do you miss most?\\nB: The homesickness comes in waves. Sometimes strong, sometimes quiet."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "'Heim' (home) + 'Weh' (pain/ache). Literally: home-ache. Swiss mercenaries in the 17th century were the first documented sufferers. Doctors called it a medical condition. German named it perfectly."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "deep longing, yearning"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Sehnsuchte.\\n'Sehnen' (to long) + 'Sucht' (seeking)."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: Do you know the feeling of longing?\\nB: Yes, the longing for home is strong.\\nA: It is more than missing.\\nB: Much more. Longing hurts and is still beautiful."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "One of the most untranslatable German words. Not just wanting something, but aching for it. 'Sehnsucht nach der Heimat' is a core concept in German Romantic literature and philosophy."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "farewell, departure"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Abschiede.\\n'Abschied nehmen' = to say goodbye."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: Did you say goodbye?\\nB: Yes, the farewell was hard for me.\\nA: Whose farewell was the hardest?\\nB: Hildi's. She cried."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From 'abscheiden' (to separate/depart). 'Abschied nehmen' (to take farewell) is a formal expression. Every German departure involves a proper Abschied. Leaving without one is considered rude."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "a fresh start, a new beginning"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Neuanfaenge.\\n'Neu' (new) + 'Anfang' (beginning)."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Are you afraid of the new beginning?\\nB: No, I am looking forward to it.\\nA: Every new beginning is a chance.\\nB: Exactly. To dare a new beginning."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Germany knows Neuanfaenge: 1945, 1990, personal reinventions. 'Einen Neuanfang wagen' (to dare a new beginning). The compound captures hope and courage in one word."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "childhood"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Kind' (child) + '-heit' (state of being)."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Do you remember your childhood?\\nB: Yes, childhood was happy.\\nA: What was the best about your childhood?\\nB: The freedom. No worries, no duties."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "'Kind' (child) + '-heit' (state of being). The -heit suffix creates abstract states: the state of being a child. 'Die glückliche Kindheit' is a universal longing across cultures."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "the past"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\nAlso the grammatical term for past tense."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: Do you often think about the past?\\nB: Sometimes. But I live in the here and now.\\nA: Letting go of the past is hard.\\nB: Yes, but necessary. You have to look forward."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "'Vergangen' (past/gone) + '-heit.' The state of being gone. Also the grammatical term for past tense in German. 'Die Vergangenheit loslassen' (to let go of the past) is easier said than done."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "feeling of shelter, emotional safety"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\nNearly untranslatable. Deeper than 'safety.'"
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What does Geborgenheit mean to you?\\nB: When I feel safe and loved.\\nA: Where do you find Geborgenheit?\\nB: With my family. In my home."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "'Geborgen' (sheltered/safe) + '-heit.' Nearly untranslatable. Not just safety but emotional warmth and protection. A child in its mother's arms feels Geborgenheit. Adults search for it forever."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "connectedness, bond"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Verbunden' (connected) + '-heit.'"
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: Do you feel a connection with Berlin?\\nB: Yes, a deep connection.\\nA: Where does this feeling come from?\\nB: From the experiences, the people, the memories."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "'Verbunden' (connected) + '-heit.' The state of being bound together. 'Tiefe Verbundenheit' (deep connection) describes the invisible threads between people and places."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "familiarity, intimacy"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Vertraut' (familiar/trusted) + '-heit.'"
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: What is familiarity?\\nB: When something immediately feels right.\\nA: A street, a smell, a voice.\\nB: Exactly. The warmth of the known."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Vertraut' (familiar/trusted) + '-heit.' The warmth of the known. When a street, a smell, a voice feels immediately recognizable. The state of trusting deeply."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "root"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Wurzeln.\\nBotanical and metaphorical."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: Do you know your roots?\\nB: Yes, my roots are by the Mediterranean.\\nA: Roots give stability.\\nB: But sometimes you have to put down new roots."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "Same Germanic root as English 'root.' 'Seine Wurzeln kennen' (to know your roots). Trees need roots, people need Wurzeln. 'Entwurzelt' (uprooted) describes losing them."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "nostalgic"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Adjective. From Greek 'nostos' (return) + 'algos' (pain).\\n'Ein nostalgischer Blick' (a nostalgic look)."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: Do you feel nostalgic?\\nB: Yes, a nostalgic look back.\\nA: Nostalgia can be beautiful.\\nB: Beautiful and painful at the same time."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "From Greek 'nostos' (return home) + 'algos' (pain). The Greek roots mean exactly the same as Heimweh: home-pain. The pain and pleasure of remembering."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "familiar, trusted"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Adjective. From 'vertrauen' (to trust).\\n'Eine vertraute Stimme' (a familiar voice)."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Does this voice sound familiar?\\nB: Yes, very familiar. I know it.\\nA: Familiar places give security.\\nB: That is why Berlin feels like home."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "From 'vertrauen' (to trust). What you trust is what feels familiar. The adjective captures both trust and recognition. 'Vertraute Umgebung' (familiar surroundings) means safety."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "unforgettable"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Adjective. 'Un-' (not) + 'vergesslich' (forgettable).\\n'Ein unvergesslicher Moment.'"
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Was your time in Berlin unforgettable?\\nB: Absolutely unforgettable. Every day.\\nA: What was the most unforgettable moment?\\nB: The first day. And the last."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Un-' (not) + 'vergesslich' (forgettable). What cannot be forgotten. The un- prefix makes it absolute: memory refuses to let go. 'Ein unvergessliches Erlebnis' is the highest praise."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "melancholic"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Adjective. From Greek 'melancholia' (black bile).\\n'Eine melancholische Stimmung.'"
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: Why are you so melancholic?\\nB: The farewell makes me melancholic.\\nA: Melancholy is not sadness.\\nB: No, it is a gentler pain."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From Greek 'melancholia' (black bile). The ancient Greeks believed sadness came from black bile. German adopted the word for that sweet, contemplative sadness that is not despair."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "to miss (someone/something)"
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Regular verb. Not separable.\\n'Ich vermisse Berlin' (I miss Berlin)."
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Do you miss Berlin?\\nB: Yes, I miss the city very much.\\nA: What do you miss most?\\nB: The people. The neighborhood. The daily life."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "'Ver-' + 'missen' (to miss). Not separable. The ver- prefix intensifies the absence. You do not just notice something missing. You feel the gap it left behind."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "to feel, to sense"
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "Strong verb: empfinden / empfand / empfunden.\\nDeeper than 'fühlen': emotional finding."
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: What do you feel right now?\\nB: I feel longing and gratitude.\\nA: Both at the same time?\\nB: Yes. You can feel both."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "'Emp-' (in) + 'finden' (to find). Finding something within yourself. Deeper than fühlen: empfinden is emotional discovery. Strong verb: empfinden / empfand / empfunden."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "to remember"
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Regular verb. Reflexive: 'sich erinnern an + Akk.'\\n'Sich an die Kindheit erinnern.'"
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: Do you remember the first day?\\nB: Yes, I remember it exactly.\\nA: Some memories never fade.\\nB: The important ones stay forever."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Er-' + 'inner' (inner). You bring something back into your inner self. Making the past internal again. Reflexive with an + Akkusativ: 'Ich erinnere mich an den Tag.'"
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "to yearn, to long"
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Regular verb. Always reflexive: 'sich sehnen nach + Dat.'\\n'Sich nach der Heimat sehnen.'"
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Do you long for home?\\nB: Yes, I long for the sea.\\nA: Sehnsucht is a German word.\\nB: And a German feeling."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "The verb behind Sehnsucht. Always reflexive with nach. 'Sich nach der Heimat sehnen' (to long for home). A deep, slow ache that does not go away. The most German of emotions."
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "The plane takes off. Berlin grows smaller beneath me. I press my forehead against the cold window and think: I will come back. This is not a farewell. This is a pause."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The word consists of 'Heim' (home) and 'Weh' (pain). The pain of not being at home."
+  },
+  {
+    "line": 39,
+    "field": "hint",
+    "english": "More than physical safety. A deeply felt state of warmth and shelter. Hard to translate directly into English."
+  },
+  {
+    "line": 40,
+    "field": "hint",
+    "english": "The verb describes a deep ache for something absent. It is reflexive and pairs with 'nach'. Think of the noun 'Sehnsucht.'"
+  },
+  {
+    "line": 40,
+    "field": "sSrc",
+    "english": "I long for my childhood."
+  },
+  {
+    "line": 43,
+    "field": "desc",
+    "english": "Between here and there. Between the place you came from and the place you live now. This lesson builds the vocabulary for places, memories, and belonging."
+  },
+  {
+    "line": 44,
+    "field": "unknown",
+    "english": "Build vocabulary for places, memories, and belonging"
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Understand the emotional geography of home"
+  },
+  {
+    "line": 46,
+    "field": "unknown",
+    "english": "Describe what makes a place feel like Heimat"
+  },
+  {
+    "line": 48,
+    "field": "src",
+    "english": "Verumius stands on the balcony of his family home. Below him the Mediterranean, warm and familiar. Behind him the kitchen of his childhood. Between here and there lies an entire life."
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "wanderlust, longing for distant places"
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Neuter noun. No plural.\\n'Fern' (far) + 'Weh' (ache). The opposite of Heimweh."
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: Do you have wanderlust?\\nB: Yes, I want to see the world.\\nA: Fernweh is the opposite of homesickness.\\nB: You long for places you have never seen."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "'Fern' (far/distant) + 'Weh' (ache). The opposite of Heimweh. Not homesickness but 'farsickness.' Only German has a single word for the ache of wanting to be somewhere far away."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "nostalgia"
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\nFrom Greek 'nostos' (return) + 'algos' (pain)."
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: Is nostalgia a positive feeling?\\nB: Yes and no. It is bittersweet.\\nA: Nostalgia makes us smile and cry.\\nB: At the same time. That is its power."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "Same roots as 'nostalgisch.' Originally a medical diagnosis for Swiss soldiers missing home. Now: the bittersweet pleasure of remembering what once was."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "neighborhood"
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Nachbarschaften.\\n'Nachbar' (neighbor) + '-schaft' (collective)."
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: Do you like your neighborhood?\\nB: Yes, the neighborhood is very friendly.\\nA: Good neighborliness is important.\\nB: It makes a place feel like home."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "'Nachbar' (neighbor) + '-schaft' (collective). 'Gute Nachbarschaft' (good neighborliness) is a German virtue. Your Nachbarschaft defines your daily Heimat more than your country does."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "landscape"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Landschaften.\\n'Land' (land) + '-schaft.'"
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: What is the landscape like in Northern Germany?\\nB: Flat and green. Completely different from the south.\\nA: Every landscape has its character.\\nB: The German landscape is very diverse."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "'Land' (land) + '-schaft.' Caspar David Friedrich painted Germany's Romantic Landschaften. The word also means 'region' in political history. From North Sea to Alps, one word covers it all."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "atmosphere"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Atmosphären.\\nBoth literal (air) and figurative (mood)."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: The atmosphere in this cafe is great.\\nB: Yes, warm and inviting.\\nA: Atmosphere makes a place special.\\nB: It is what you feel, not what you see."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "From Greek 'atmos' (vapor) + 'sphaira' (sphere). Both literal (air around Earth) and figurative (mood of a place). 'Die Atmosphäre dieses Ortes' captures what makes a place feel alive."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "surroundings, environment"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Umgebungen.\\n'Um' (around) + 'Gebung' (surrounding)."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Do you know the surroundings?\\nB: Yes, the immediate surroundings are familiar to me.\\nA: The surroundings shape one's feeling of life.\\nB: You become part of your surroundings."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "'Um' (around) + 'Gebung' (giving/surrounding). What gives itself around you. Your physical context. 'Die nähere Umgebung' (the immediate surroundings) is what you see every day."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "souvenir, memento"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Andenken.\\n'An' (at) + 'Denken' (thinking)."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: Do you have a souvenir from Berlin?\\nB: Yes, a small piece of the Berlin Wall.\\nA: A memento carries memories.\\nB: Every souvenir tells a story."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "'An' (at) + 'Denken' (thinking). Thinking back at something. A physical object that carries memory. 'Ein Andenken an die Heimat' (a memento of home)."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "imprint, formative influence"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Praegungen.\\n'Praegen' (to stamp/shape) + '-ung.'"
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: What is cultural imprinting?\\nB: What shaped you during childhood.\\nA: Imprinting happens early.\\nB: And stays forever. It makes you who you are."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "'Praegen' (to stamp/shape) + '-ung.' What got stamped into you during childhood. Konrad Lorenz studied Praegung in geese: the first thing they see, they follow. Humans have Praegung too."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "loneliness, solitude"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Einsam' (lonely) + '-keit.'"
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: Do you feel loneliness abroad?\\nB: Sometimes. Loneliness comes in the evenings.\\nA: Loneliness can also be positive.\\nB: True. Chosen loneliness is peace."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "'Einsam' (lonely) + '-keit.' 'Die Einsamkeit der Fremde' (the loneliness of being abroad). Einsamkeit can be negative (loneliness) or positive (solitude). Context and choice decide."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "alienation, estrangement"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Ent-' (away from) + 'Fremd' (foreign) + '-ung.'"
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: What is alienation?\\nB: When home becomes foreign.\\nA: You come back and recognize nothing.\\nB: Alienation is painful. You no longer belong."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Ent-' (away from) + 'Fremd' (foreign) + '-ung.' Becoming foreign to what was once familiar. Marx used Entfremdung for workers alienated from their labor. Personally: when home no longer feels like home."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "general sense of life, life feeling"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Lebensgefühle.\\n'Lebens' (life's) + 'Gefühl' (feeling). Fugen-s."
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: What is the Berlin life feeling?\\nB: Freedom, openness, creativity.\\nA: Every city has its own life feeling.\\nB: And it changes over the years."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "Nearly untranslatable. The overall emotional quality of your existence. 'Das Berliner Lebensgefühl' (the Berlin vibe). The Fugen-s links Leben to Gefühl in this compound."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "life phase, stage of life"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Lebensphasen.\\n'Lebens' (life's) + 'Phase.' Fugen-s."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: What life phase are you in?\\nB: I am in a phase of new beginnings.\\nA: Every life phase brings new questions.\\nB: And new answers. That is the beauty of it."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "'Lebens' (life's) + 'Phase.' Kindheit, Jugend, Erwachsenenalter, Alter: each a Lebensphase. The Fugen-s connects the compound. German names every stage of life."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "down-to-earth, grounded"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Adjective. 'Boden' (ground) + 'ständig' (standing).\\n'Ein bodenständiger Mensch.'"
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Are you a down-to-earth person?\\nB: Yes, I like to stay grounded in reality.\\nA: Down-to-earth is a compliment.\\nB: It means: real, honest, not pretentious."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "'Boden' (ground) + 'ständig' (standing). Standing firmly on the ground. Not pretentious. Connected to the earth and to reality. The highest compliment in rural Germany."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "local, native"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Adjective. 'Ein' (in) + 'heimisch' (homely).\\n'Die einheimische Bevoelkerung.'"
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Are you a local?\\nB: No, I moved here.\\nA: The locals know the best places.\\nB: That is true. They know where it is worth going."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'heimisch' (homely). Those who are at home here. The opposite of fremd. Being einheimisch means this is your Heim. Used as noun: 'die Einheimischen' (the locals)."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "attached to one's homeland"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "Adjective. 'Heimat' (home) + 'verbunden' (connected).\\n'Ein heimatverbundener Mensch.'"
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Are you attached to your homeland?\\nB: Yes, very much. My roots are important.\\nA: Being attached to your homeland is not a weakness.\\nB: On the contrary. It gives strength."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "'Heimat' (home) + 'verbunden' (connected). Connected by invisible bonds to the place that shaped you. A compound adjective that captures loyalty to origin."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "formative, shaping"
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "Present participle of 'praegen.'\\n'Ein praegendes Erlebnis' (a formative experience)."
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: Was Berlin a formative experience?\\nB: Absolutely. The most formative of my life.\\nA: Formative experiences change us.\\nB: They shape who we become."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "Present participle of 'praegen.' Something that stamps itself into you. 'Die praegenden Jahre' (the formative years). What marks you permanently."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "homeless (having no homeland)"
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Adjective. 'Heimat' + '-los' (without).\\nNot 'obdachlos' (without shelter). Deeper."
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: Do you sometimes feel without a homeland?\\nB: Yes, between two worlds. Nowhere fully at home.\\nA: Being without a homeland is a heavy feeling.\\nB: But perhaps you can have multiple homelands."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "'Heimat' + '-los' (without). Not 'obdachlos' (without shelter). Heimatlos is deeper: having no place that feels like home. Stateless refugees are heimatlos. It describes the soul, not the roof."
+  },
+  {
+    "line": 66,
+    "field": "src",
+    "english": "settled, sedentary"
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Adjective. From 'sitzen' (to sit) + '-haft' (stuck).\\n'Sesshaft werden' (to settle down)."
+  },
+  {
+    "line": 66,
+    "field": "exampleSrc",
+    "english": "A: Have you settled down?\\nB: Yes, after ten years of wandering I have settled down.\\nA: Settling down is a decision.\\nB: The hardest and the best of my life."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "From 'sitzen' (to sit) + '-haft' (stuck/attached). Literally: stuck sitting. When nomads stopped moving, they became sesshaft. 'Sesshaft werden' means to establish a home."
+  },
+  {
+    "line": 72,
+    "field": "hint",
+    "english": "The opposite of Heimweh. 'Fern' (far away) + 'Weh' (pain). The pain for distant places."
+  },
+  {
+    "line": 79,
+    "field": "hint",
+    "english": "Your general sense of life. The emotional quality of your existence."
+  },
+  {
+    "line": 79,
+    "field": "sSrc",
+    "english": "Since I have been living in Berlin, my sense of life has changed."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "The phonetic linking element in compound nouns. Leben-s-Gefühl."
+  },
+  {
+    "line": 81,
+    "field": "src",
+    "english": "Each of these words describes a piece of me. Homesickness, wanderlust, loneliness, connectedness. I carry them all at the same time. That is not a contradiction. That is my life."
+  },
+  {
+    "line": 84,
+    "field": "desc",
+    "english": "Verumius is at his Mediterranean family home. The kitchen smells the same. The light falls through the shutters the same way. But he catches himself thinking in German. Something has shifted."
+  },
+  {
+    "line": 85,
+    "field": "unknown",
+    "english": "Master advanced temporal clauses for complex time narration"
+  },
+  {
+    "line": 86,
+    "field": "unknown",
+    "english": "Narrate life changes with before/after/during precision"
+  },
+  {
+    "line": 87,
+    "field": "unknown",
+    "english": "Express the emotional timeline of leaving and returning"
+  },
+  {
+    "line": 89,
+    "field": "src",
+    "english": "Mediterranean. Warm terracotta walls, arched doorways. Verumius is at his family home. The kitchen smells the same. The light falls through the shutters the same way. But something has shifted."
+  },
+  {
+    "line": 90,
+    "field": "src",
+    "english": "After living in Berlin for two years, this house feels smaller. While I sit here, I think in German. 'Where is the train station?' my brain says automatically."
+  },
+  {
+    "line": 91,
+    "field": "src",
+    "english": "Before I went to Germany, this room was the whole world. Since I have been back, I see it differently."
+  },
+  {
+    "line": 92,
+    "field": "src",
+    "english": "My mother asks: What would you like to eat? And my head answers: Currywurst. In German. In the kitchen of my childhood. I have to laugh."
+  },
+  {
+    "line": 93,
+    "field": "src",
+    "english": "return, homecoming"
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "Feminine noun. No plural in common use.\\n'Rueck' (back) + 'Kehr' (turn)."
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: How was the return?\\nB: Strange. Everything is the same, but I am different.\\nA: The return to the homeland is never easy.\\nB: No. You return as a different person."
+  },
+  {
+    "line": 93,
+    "field": "funFact",
+    "english": "'Rueck' (back) + 'Kehr' (turn). You turn back toward where you came from. Every Odyssey ends with a Rückkehr. The word itself mirrors the journey: going back."
+  },
+  {
+    "line": 94,
+    "field": "src",
+    "english": "departure, setting out"
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Aufbrueche.\\n'Auf' (up) + 'Bruch' (break)."
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: When was your departure?\\nB: Two years ago. The departure was brave.\\nA: Setting out means leaving something old behind.\\nB: And daring something new."
+  },
+  {
+    "line": 94,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'Bruch' (break). Breaking up from where you are to go somewhere new. 'Der Aufbruch in ein neues Leben' (setting out into a new life). Breaking open, not breaking down."
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "a move, relocation"
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Umzuege.\\n'Um' (re-/around) + 'Zug' (pull/move)."
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: How was the move to Berlin?\\nB: Stressful, but exciting.\\nA: A move changes everything.\\nB: New city, new life, new person."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "'Um' (re-/around) + 'Zug' (pull/move). You pull your life around to a new location. Germans move 4.5 times in their lifetime on average. 'Umzugskartons' (moving boxes) are a German life staple."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "search for meaning"
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Sinn' (meaning) + 'Suche' (search)."
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: Are you searching for meaning?\\nB: Yes, since I arrived here. What does home mean?\\nA: The search for meaning is part of life.\\nB: Especially when you live between two worlds."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "'Sinn' (meaning) + 'Suche' (search). The existential search for purpose. 'Auf Sinnsuche sein' (to be searching for meaning). Deeply embedded in German philosophy from Hegel to Heidegger."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "uncertainty"
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Un-' + 'Gewissheit' (certainty)."
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: How do you deal with uncertainty?\\nB: With difficulty. The uncertainty of the future scares me.\\nA: Uncertainty is part of life.\\nB: Yes, but it does not get easier."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "'Un-' + 'Gewissheit' (certainty). Not knowing what comes next. The un- prefix negates certainty absolutely. 'Die Ungewissheit der Zukunft' is the human condition."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "transience, impermanence"
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Vergaenglich' (transient) + '-keit.'"
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: Do you believe in transience?\\nB: Yes, everything passes. Nothing lasts forever.\\nA: The transience of life is painful.\\nB: But it makes every moment precious."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "'Vergaenglich' (transient) + '-keit.' Everything passes. German Romantic poetry is obsessed with Vergaenglichkeit. The beauty of a flower is in its fading."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "anticipation, joy before the event"
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Vor' (before) + 'Freude' (joy)."
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: Are you looking forward to Berlin?\\nB: Yes, enormous anticipation!\\nA: Anticipation is the best joy.\\nB: That is what they say in Germany. And it is true."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Freude' (joy). 'Vorfreude ist die schoenste Freude' (Anticipation is the best joy). Only German has one word for the happiness of looking forward to something."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "wistfulness, bittersweet melancholy"
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Weh' (pain) + 'Mut' (spirit/mood)."
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: What is wistfulness?\\nB: A gentle pain. Beautiful and sad at once.\\nA: I look at old photos with wistfulness.\\nB: That is Wehmut: feeling the beauty of the past."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "'Weh' (pain) + 'Mut' (spirit/mood). Pain-spirit. A gentler form of sadness: not despair but a tender ache. Looking at old photos with Wehmut. Sweet sorrow."
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "contentment, satisfaction"
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Feminine noun. No plural.\\n'Zufrieden' (content) + '-heit.'"
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: Are you content with your life?\\nB: Yes, I have found inner contentment.\\nA: Contentment is more than happiness.\\nB: It is peace with what you have."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "'Zufrieden' (content/satisfied) + '-heit.' 'Zu Frieden' = toward peace. Being content means being at peace with what you have. 'Innere Zufriedenheit' (inner contentment) is the goal."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "cohesion, solidarity"
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "Masculine noun. No plural.\\n'Zusammen' (together) + 'Halt' (hold)."
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: What keeps a family together?\\nB: Cohesion. Being there for each other.\\nA: Family cohesion is strong.\\nB: It survives any distance."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "'Zusammen' (together) + 'Halt' (hold). Holding together. What keeps a group unified when things get difficult. 'Familienzusammenhalt' (family cohesion) is the invisible glue."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "wistful, bittersweet"
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "Adjective. 'Wehmut' + '-ig.'\\n'Ein wehmeutiger Blick' (a wistful glance)."
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: Why do you look so wistful?\\nB: I am thinking of earlier times. Beautiful times.\\nA: Wistful is not sad.\\nB: No, it is gentler. Beautiful pain."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "'Wehmut' + '-ig.' Full of Wehmut. The adjective captures that tender ache of remembering beautiful things that are gone. Not despair, but sweet sorrow."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "sheltered, safe, protected"
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "Past participle of 'bergen' (to shelter).\\n'Sich geborgen fühlen.'"
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Do you feel sheltered here?\\nB: Yes, this house gives me a sheltered feeling.\\nA: Sheltered is more than safe.\\nB: It is warmth, protection, love. All together."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "Past participle of 'bergen' (to shelter/rescue). The adjective behind Geborgenheit. What you feel in your mother's arms or your childhood home. More than safe: emotionally held."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "grown fond of"
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Past participle of 'liebgewinnen.'\\n'Eine liebgewonnene Gewohnheit.'"
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: Is Berlin a city you have grown fond of?\\nB: Yes, I have grown fond of it.\\nA: Growing fond takes time.\\nB: Exactly. Not love at first sight, but slowly grown."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Lieb' (dear) + 'gewonnen' (won/gained). You won something into your heart over time. Not love at first sight, but love through familiarity. 'Eine liebgewonnene Gewohnheit' is a habit close to your heart."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "irreplaceable"
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Adjective. 'Un-' + 'ersetzlich' (replaceable).\\n'Ein unersetzlicher Mensch.'"
+  },
+  {
+    "line": 106,
+    "field": "exampleSrc",
+    "english": "A: Is your homeland irreplaceable?\\nB: Yes, nothing can replace it.\\nA: But perhaps something new is added.\\nB: Without replacing the old. Both are irreplaceable."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "'Un-' + 'ersetzlich' (replaceable). What cannot be substituted. Nothing else fills the same space. The un- prefix creates the absolute."
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "to grow up"
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "Separable, strong verb.\\naufwachsen / wuchs auf / ist aufgewachsen.\\n'In Berlin aufwachsen.'"
+  },
+  {
+    "line": 107,
+    "field": "exampleSrc",
+    "english": "A: Where did you grow up?\\nB: I grew up by the Mediterranean.\\nA: Was it nice to grow up there?\\nB: Yes, the sun, the sea, the family."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'wachsen' (to grow). Growing upward. Separable: 'Ich wuchs in einem Dorf auf.' Strong verb: aufwachsen / wuchs auf / ist aufgewachsen."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "to set out, to depart"
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "Separable, strong verb.\\naufbrechen / brach auf / ist aufgebrochen."
+  },
+  {
+    "line": 108,
+    "field": "exampleSrc",
+    "english": "A: When did you set out?\\nB: Two years ago. I set out into a new life.\\nA: Setting out takes courage.\\nB: And trust. That it will be worth it."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "'Auf' (up/open) + 'brechen' (to break). Breaking open the door to something new. Separable. Strong verb: aufbrechen / brach auf / ist aufgebrochen. Not breaking down, but breaking free."
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "to return"
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "Not separable. Uses sein in perfect.\\nrückkehren / kehrte zurück / ist zurückgekehrt."
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: Did you return to your homeland?\\nB: Yes, but only for a week.\\nA: Returning is never easy.\\nB: You expect everything to be the same. But you yourself have changed."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "'Rueck' (back) + 'kehren' (to turn). Not separable. Uses sein in perfect: 'Ich bin zurückgekehrt.' Turning back toward origin. The verb version of Rückkehr."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "to think back, to reminisce"
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Separable. zurückdenken / dachte zurück / zurückgedacht.\\n'An die Kindheit zurückdenken.'"
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: Do you often think back?\\nB: Yes, I think back to my childhood.\\nA: Thinking back makes one wistful.\\nB: But it preserves the memories."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'Zurück' (back) + 'denken' (to think). Separable: 'Ich denke an die alten Zeiten zurück.' Sending your thoughts backward through time. The mental version of Rückkehr."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "as soon as"
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Subordinating conjunction. Verb goes to the end.\\nLinks two events: the second happens immediately after the first."
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: As soon as I arrive, I will call.\\nB: Good, I will wait then.\\nA: As soon as you are back, we will talk.\\nB: Promised. As soon as I can."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Sobald' comes from 'so' + 'bald' (so soon). It implies the second action follows the first with no delay. In contrast, 'wenn' is general and 'als' is for single past events. 'Sobald' is the urgency connector."
+  },
+  {
+    "line": 112,
+    "field": "text",
+    "english": "At B2 level, temporal clauses become precise tools.\\n- nachdem + Plusquamperfekt: 'Nachdem ich weggegangen war, verstand ich die Heimat besser.' (After I had left, I understood home better.) Past perfect in the subordinate clause, simple past/present in the main clause.\\n- bevor: 'Bevor ich ging, nahm ich Abschied.' (Before I left, I said goodbye.) Same tense in both clauses.\\n- sobald: 'Sobald ich ankomme, rufe ich an.' (As soon as I arrive, I will call.)\\n- solange: 'Solange ich hier lebe, fühle ich mich geborgen.' (As long as I live here, I feel sheltered.)\\n- während: 'Während ich schlief, schneite es.' (While I slept, it snowed.)\\n- bis: 'Ich warte, bis du zurückkommst.' (I wait until you come back.)\\n- seitdem: 'Seitdem ich Berlin kenne, hat sich alles verändert.' (Since I have known Berlin, everything has changed.)\\n- kaum dass: 'Kaum dass er ankam, fühlte er sich zu Hause.' (Hardly had he arrived when he felt at home.) Literary."
+  },
+  {
+    "line": 112,
+    "field": "text",
+    "english": "The most important rule: nachdem requires a tense shift.\\n\\nNachdem + Plusquamperfekt, main clause + Präteritum:\\n'Nachdem ich gegangen war, verstand ich.' (After I had left, I understood.)\\n\\nNachdem + Perfekt, main clause + Praesens:\\n'Nachdem ich gegangen bin, verstehe ich.' (After I have left, I understand.)\\n\\nThe action in the nachdem clause is ALWAYS earlier than the one in the main clause. The Plusquamperfekt signals: this happened first. The other action followed."
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "All temporal connectors send the verb to the end of the subordinate clause. With nachdem, the tense shift is obligatory."
+  },
+  {
+    "line": 133,
+    "field": "hint",
+    "english": "'Nachdem' requires the earlier action in Plusquamperfekt. Living (earlier), then feeling strange (later)."
+  },
+  {
+    "line": 134,
+    "field": "hint",
+    "english": "The room was the whole world at that time. Then came the departure. Which temporal conjunction places the subordinate clause BEFORE the main clause event?"
+  },
+  {
+    "line": 134,
+    "field": "sSrc",
+    "english": "Before I went to Germany, this room was the whole world."
+  },
+  {
+    "line": 135,
+    "field": "src",
+    "english": "Since I have been back, I feel like a guest in my own house. The language in my head has shifted. After having been away for so long, I have become a different person. And this house did not change along with me."
+  },
+  {
+    "line": 138,
+    "field": "desc",
+    "english": "German adjectives pair with fixed prepositions. The preposition determines the case. There is no shortcut: you must learn each combination. But patterns help, and the Heimat journey provides the perfect context."
+  },
+  {
+    "line": 139,
+    "field": "unknown",
+    "english": "Master adjective-preposition combinations"
+  },
+  {
+    "line": 140,
+    "field": "unknown",
+    "english": "Express precise emotional states"
+  },
+  {
+    "line": 141,
+    "field": "unknown",
+    "english": "Describe relationships between people, places, and feelings"
+  },
+  {
+    "line": 143,
+    "field": "src",
+    "english": "I sit on the roof of my family home. I am proud of what I have achieved. I am grateful for the people in Berlin. But I am also dependent on a city that was not my first home."
+  },
+  {
+    "line": 144,
+    "field": "src",
+    "english": "proud of"
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Stolz auf + Akkusativ.\\n'Ich bin stolz auf meine Fortschritte.'"
+  },
+  {
+    "line": 144,
+    "field": "exampleSrc",
+    "english": "A: Are you proud of your new life?\\nB: Yes, I am very proud of everything I have achieved.\\nA: What are you most proud of?\\nB: My courage. Proud of the new beginning."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "The preposition auf demands accusative. You direct your pride ONTO something. The most common Adj+Praep combination in German. 'Stolz auf' is the first one every learner should know."
+  },
+  {
+    "line": 145,
+    "field": "src",
+    "english": "dependent on"
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Abhängig von + Dativ.\\n'Abhängig von den Umständen.'"
+  },
+  {
+    "line": 145,
+    "field": "exampleSrc",
+    "english": "A: Are you dependent on others?\\nB: No, I have become independent.\\nA: Earlier I was dependent on help.\\nB: Not anymore. But I am still dependent on the weather."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "Von always takes dative. Hanging from something: your fate hangs from external factors. 'Unabhängig' (independent) is the opposite. The prefix un- frees you from the dependency."
+  },
+  {
+    "line": 146,
+    "field": "src",
+    "english": "interested in"
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Interessiert an + Dativ.\\n'Interessiert an neuen Erfahrungen.'"
+  },
+  {
+    "line": 146,
+    "field": "exampleSrc",
+    "english": "A: Are you interested in German culture?\\nB: Yes, very interested in everything that makes Germany.\\nA: What are you particularly interested in?\\nB: In the history and the language."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "An + Dativ when it means 'at/in.' Your interest is directed at something. 'Woran bist du interessiert?' uses the da-/wo- compound for an + Dativ."
+  },
+  {
+    "line": 147,
+    "field": "src",
+    "english": "convinced of"
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "Überzeugt von + Dativ.\\n'Überzeugt von dieser Idee.'"
+  },
+  {
+    "line": 147,
+    "field": "exampleSrc",
+    "english": "A: Are you convinced of your decision?\\nB: Yes, I am firmly convinced of it.\\nA: What are you convinced of?\\nB: That Berlin is my home."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "Von + Dativ. Your conviction comes from something. The evidence convinced you. 'Davon überzeugt' uses the da-compound to reference what you believe in."
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "satisfied with"
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Zufrieden mit + Dativ.\\n'Zufrieden mit meinem Leben.'"
+  },
+  {
+    "line": 148,
+    "field": "exampleSrc",
+    "english": "A: Are you satisfied with your life in Berlin?\\nB: Yes, very satisfied with it.\\nA: What are you most satisfied with?\\nB: With the people and the freedom."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "Mit always takes dative. Contentment goes together with its source. 'Zu Frieden' = toward peace. When you are zufrieden mit something, you are at peace with it."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "responsible for"
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Verantwortlich für + Akkusativ.\\n'Verantwortlich für das Ergebnis.'"
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: Who is responsible for the project?\\nB: I am responsible for everything.\\nA: Responsible for your own happiness.\\nB: Exactly. Everyone is responsible for their life."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "Für takes accusative. You answer for something. 'Verantwortlich' comes from 'Antwort' (answer). Being responsible means being the one who answers for the result."
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "enthusiastic about"
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "Begeistert von + Dativ.\\n'Begeistert von Berlin.'"
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: Are you enthusiastic about Berlin?\\nB: Yes, I am totally enthusiastic about the city.\\nA: What are you most enthusiastic about?\\nB: About the energy and the diversity."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "Your enthusiasm comes from Berlin. Von + Dativ. 'Begeistert' literally means 'filled with spirit' (Geist). When Berlin fills you with its Geist, you are begeistert."
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "disappointed in/by"
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "Enttäuscht von + Dativ.\\n'Enttäuscht von der Rückkehr.'"
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: Are you disappointed by the return?\\nB: A little. I had expected more.\\nA: What exactly are you disappointed by?\\nB: By the fact that nothing is like before."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "The disappointment originates from the experience. Von + Dativ. 'Ent-täuscht' means 'de-deceived.' You were under an illusion, and reality removed it."
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "curious about"
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "Neugierig auf + Akkusativ.\\n'Neugierig auf die Zukunft.'"
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: Are you curious about the future?\\nB: Yes, very curious about everything that comes.\\nA: What are you most curious about?\\nB: About the next chapter of my life."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "Your curiosity is directed onto something ahead. Auf + Akkusativ. 'Neugierig' literally means 'new-greedy.' Greedy for the new. A beautiful word for curiosity."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "connected with"
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "Verbunden mit + Dativ.\\n'Verbunden mit der Heimat.'"
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Do you feel connected with Berlin?\\nB: Yes, deeply connected with this city.\\nA: What do you feel most strongly connected with?\\nB: With the memories and the people."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "Your bond goes together with the place. Mit + Dativ. Deeper than just 'connected to.' 'Tiefe Verbundenheit' (deep connection) is the noun form. The invisible threads between you and a place."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "grateful for"
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "Dankbar für + Akkusativ.\\n'Dankbar für die Erfahrung.'"
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Are you grateful for your time in Berlin?\\nB: Infinitely grateful for it.\\nA: What are you most grateful for?\\nB: For the people who took me in."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "Your gratitude is directed toward something. Für + Akkusativ. 'Dankbar' comes from 'Dank' (thanks). Same pattern as the noun: 'der Dank fuer' (gratitude for)."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "accustomed to"
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "Gewöhnt an + Akkusativ.\\n'Gewöhnt an das Berliner Wetter.'"
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: Have you gotten used to the weather?\\nB: Yes, I am accustomed to the cold.\\nA: What do you have to get used to in Berlin?\\nB: The winter. And the directness of Berliners."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "An + Akkusativ when it means 'to' (direction). You have adapted yourself to something. 'Sich an etwas gewöhnen' (to get used to something) is the verb form."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "envious of"
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Neidisch auf + Akkusativ.\\n'Neidisch auf den Erfolg anderer.'"
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Are you envious of others?\\nB: Sometimes. Envious of their calm life.\\nA: Envy is a bad advisor.\\nB: True. Better grateful than envious."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "Your envy is directed onto someone else's achievement. Auf + Akkusativ. 'Neid' (envy) is one of the seven deadly sins. German distinguishes 'Neid' (resentful envy) from 'Eifersucht' (jealousy in love)."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "familiar with"
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "Vertraut mit + Dativ.\\n'Vertraut mit der deutschen Kultur.'"
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: Are you familiar with German bureaucracy?\\nB: Unfortunately yes. Very familiar with it.\\nA: What are you familiar with by now?\\nB: With forms, deadlines, and case workers."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "Your familiarity goes together with the subject. Mit + Dativ. From 'vertrauen' (to trust). What you know well enough to trust. Not just knowing about, but knowing deeply."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "dependent on, reliant on"
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "Angewiesen auf + Akkusativ.\\n'Angewiesen auf Hilfe.' Stärker als 'abhängig von.'"
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Are you reliant on help?\\nB: Not anymore. I used to be reliant on it.\\nA: What are you still reliant on?\\nB: My dictionary. I still need that."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "Stronger than 'abhängig von.' You are directed toward what you need. Auf + Akkusativ. 'Angewiesen' means 'pointed toward.' Your need points at the source of help."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "back then, at that time"
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "Adverb. 'Da' (there/then) + 'mals' (time).\\nMore precise than 'früher.'"
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Do you remember back then?\\nB: Yes, back then everything was different.\\nA: Back then I was still afraid.\\nB: And today? Today I am proud of myself."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "'Da' (there/then) + 'mals' (time). Points to a specific time in the past. More precise than 'früher' (earlier/in the past). 'Damals in Berlin' sets a clear temporal frame."
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "once, formerly"
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "Adverb. From Old High German 'einest.'\\nLiterary and elevated. More poetic than 'damals.'"
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: Once this house was my whole world.\\nB: And today?\\nA: Today the world has become bigger.\\nB: But the memory of what once was remains."
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "From Old High German 'einest' (once). Literary and elevated. More poetic than damals. Used in fairy tales: 'Es war einst...' The word itself sounds like a memory fading."
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "nowadays"
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "Adverb. 'Heute' (today) + 'zu' (to) + 'Tage' (days).\\nThe contrast partner to 'damals' and 'einst.'"
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: Nowadays I live in Berlin.\\nB: And back then?\\nA: Back then I lived by the Mediterranean.\\nB: Nowadays everything is different. Better."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "'Heute' (today) + 'zu' (to) + 'Tage' (days). Three words fused into one adverb. The contrast partner to damals and einst. Damals vs. heutzutage frames every life story."
+  },
+  {
+    "line": 162,
+    "field": "text",
+    "english": "German adjectives take fixed prepositions, and the preposition determines the case. No rule predicts which adjective takes which preposition, but patterns help.\\n\\nEmotions directed ONTO something use auf (Akkusativ): stolz auf (proud of), neugierig auf (curious about), angewiesen auf (reliant on), neidisch auf (envious of).\\n\\nEmotions that come FROM something use von (Dativ): abhängig von (dependent on), überzeugt von (convinced of), begeistert von (enthusiastic about), enttäuscht von (disappointed by).\\n\\nEmotions that go TOGETHER WITH something use mit (Dativ): zufrieden mit (satisfied with), verbunden mit (connected with), vertraut mit (familiar with).\\n\\nOther common pairings: verantwortlich für and dankbar für (Akkusativ), interessiert an (Dativ), gewöhnt an (Akkusativ)."
+  },
+  {
+    "line": 162,
+    "field": "text",
+    "english": "In German, adjective-preposition pairs are idiomatic. You say 'stolz auf' and not 'stolz über' or 'stolz von.' There is no logical explanation. Historically these combinations solidified over centuries.\\n\\nTip: Learn each pair as a unit. Not 'stolz' and then 'auf,' but 'stolz-auf' as one word. Like a phone number: inseparable.\\n\\nThe da-/wo- compound forms replace the preposition:\\nstolz auf etwas = stolz darauf\\nzufrieden mit etwas = zufrieden damit\\ninteressiert an etwas = interessiert daran"
+  },
+  {
+    "line": 180,
+    "field": "note",
+    "english": "The preposition determines the case. Auf + Akkusativ, von + Dativ, mit + Dativ, für + Akkusativ."
+  },
+  {
+    "line": 181,
+    "field": "hint",
+    "english": "'Stolz auf' always requires the same case. 'Sein neues Leben' shows the ending."
+  },
+  {
+    "line": 182,
+    "field": "hint",
+    "english": "'Zufrieden' takes the preposition meaning 'together with.' Satisfaction goes together."
+  },
+  {
+    "line": 182,
+    "field": "sSrc",
+    "english": "I am satisfied with my life in Berlin."
+  },
+  {
+    "line": 188,
+    "field": "hint",
+    "english": "'Nachdem' marks the earlier event. Plusquamperfekt shows it was complete before the main clause action began."
+  },
+  {
+    "line": 189,
+    "field": "hint",
+    "english": "A temporal conjunction indicating sequence (the move came first) plus an adjective-preposition pair. The adjective describes how he felt about his new home."
+  },
+  {
+    "line": 189,
+    "field": "sSrc",
+    "english": "After he had moved to Berlin, he became proud of his new home."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "I am curious about the future. I am connected with two places. But only in one do I truly feel sheltered. And it lies 1,800 kilometers north of here."
+  },
+  {
+    "line": 199,
+    "field": "desc",
+    "english": "Verumius sits on a bench by the Mediterranean. The sun is setting. He realizes where his Heimat truly lies."
+  },
+  {
+    "line": 200,
+    "field": "unknown",
+    "english": "Learn noun + fixed prepositions (die Angst vor, die Sehnsucht nach)"
+  },
+  {
+    "line": 201,
+    "field": "unknown",
+    "english": "Combine all three grammar constructs"
+  },
+  {
+    "line": 202,
+    "field": "unknown",
+    "english": "Describe abstract relationships between feelings and concepts"
+  },
+  {
+    "line": 204,
+    "field": "src",
+    "english": "Mediterranean. Sunset. Verumius sits on a bench looking over warm rooftops. His phone is in his hand. The realization comes quietly."
+  },
+  {
+    "line": 205,
+    "field": "src",
+    "english": "The longing for Berlin is stronger than the fear of the unknown. Since I have been here, I only think about the return. My influence on my own life has never been greater."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "He opens the flight app. Berlin, tomorrow. Book. My hope for a good life lies in Berlin. I know that now."
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "fear of"
+  },
+  {
+    "line": 207,
+    "field": "note",
+    "english": "Angst vor + Dativ. You stand before what frightens you.\\n'Die Angst vor der Zukunft' (the fear of the future)."
+  },
+  {
+    "line": 207,
+    "field": "exampleSrc",
+    "english": "A: Are you afraid of the exam?\\nB: Yes, the fear of failure is great.\\nA: The fear of change is normal.\\nB: But you must not let yourself be paralyzed."
+  },
+  {
+    "line": 207,
+    "field": "funFact",
+    "english": "Angst vor + Dativ. Vor means 'before/in front of.' You stand before what frightens you. English borrowed 'angst' directly from German. Freud made Angst a worldwide word."
+  },
+  {
+    "line": 208,
+    "field": "src",
+    "english": "influence on"
+  },
+  {
+    "line": 208,
+    "field": "note",
+    "english": "Einfluss auf + Akkusativ. Your influence flows onto something.\\n'Der Einfluss auf die Entscheidung' (the influence on the decision)."
+  },
+  {
+    "line": 208,
+    "field": "exampleSrc",
+    "english": "A: What influence on politics do you have?\\nB: I go vote. That is my influence.\\nA: The influence on the environment is measurable.\\nB: Everyone can change something."
+  },
+  {
+    "line": 208,
+    "field": "funFact",
+    "english": "Ein (in) + Fluss (flow). Influence literally means 'inflow.' Your Einfluss flows into a decision. Auf + Akkusativ because the influence is directed onto something."
+  },
+  {
+    "line": 209,
+    "field": "src",
+    "english": "hope for"
+  },
+  {
+    "line": 209,
+    "field": "note",
+    "english": "Hoffnung auf + Akkusativ. You direct your hope onto something.\\n'Die Hoffnung auf eine bessere Zukunft.'"
+  },
+  {
+    "line": 209,
+    "field": "exampleSrc",
+    "english": "A: The hope for peace dies last.\\nB: That is true. One must never give up.\\nA: Do you have hope for improvement?\\nB: Always. The hope for good things drives me."
+  },
+  {
+    "line": 209,
+    "field": "funFact",
+    "english": "Hoffnung auf + Akkusativ. 'Die Hoffnung stirbt zuletzt' (Hope dies last) is a German proverb. You direct your hope onto something ahead of you. Auf points forward."
+  },
+  {
+    "line": 210,
+    "field": "src",
+    "english": "need for"
+  },
+  {
+    "line": 210,
+    "field": "note",
+    "english": "Bedarf an + Dativ. What you require, what you need at hand.\\n'Der Bedarf an Fachkräften' (the need for skilled workers)."
+  },
+  {
+    "line": 210,
+    "field": "exampleSrc",
+    "english": "A: There is a great need for teachers.\\nB: Yes, the need for skilled workers is growing.\\nA: How great is the need for apartments?\\nB: Enormous. Especially in Berlin."
+  },
+  {
+    "line": 210,
+    "field": "funFact",
+    "english": "Bedarf an + Dativ. An here means 'at/of.' Your need exists at the thing required. 'Bedarf anmelden' (to register a need). A formal word common in business and policy."
+  },
+  {
+    "line": 211,
+    "field": "src",
+    "english": "joy about"
+  },
+  {
+    "line": 211,
+    "field": "note",
+    "english": "Freude über + Akkusativ. Your joy flows over the cause.\\n'Die Freude über die Rückkehr' (the joy about the return)."
+  },
+  {
+    "line": 211,
+    "field": "exampleSrc",
+    "english": "A: The joy about the gift was enormous.\\nB: Yes, he was so happy.\\nA: We share the joy about the success.\\nB: Celebrating together is the best."
+  },
+  {
+    "line": 211,
+    "field": "funFact",
+    "english": "Freude über + Akkusativ. Über (about/over). 'Freude schöner Götterfunken' is the opening of Schiller's Ode to Joy, set by Beethoven. The EU anthem. Freude is powerful."
+  },
+  {
+    "line": 212,
+    "field": "src",
+    "english": "pride in"
+  },
+  {
+    "line": 212,
+    "field": "note",
+    "english": "Stolz auf + Akkusativ. Same preposition as the adjective stolz auf.\\n'Der Stolz auf die eigene Leistung.'"
+  },
+  {
+    "line": 212,
+    "field": "exampleSrc",
+    "english": "A: The pride in his children is visible.\\nB: Yes, he is a proud father.\\nA: Do you feel pride in your German?\\nB: Absolutely. Two years of hard work."
+  },
+  {
+    "line": 212,
+    "field": "funFact",
+    "english": "Stolz auf + Akkusativ. The noun version matches the adjective: stolz auf. Same preposition, same case. 'Nationalstolz' (national pride) is complicated in Germany since 1945."
+  },
+  {
+    "line": 213,
+    "field": "src",
+    "english": "memory of"
+  },
+  {
+    "line": 213,
+    "field": "note",
+    "english": "Erinnerung an + Akkusativ. Your memory reaches toward the past.\\n'Die Erinnerung an die Kindheit.'"
+  },
+  {
+    "line": 213,
+    "field": "exampleSrc",
+    "english": "A: The memory of the summer remains.\\nB: Yes, I always remember some days.\\nA: Which memory of Berlin is the most beautiful?\\nB: The first spring in the Tiergarten."
+  },
+  {
+    "line": 213,
+    "field": "funFact",
+    "english": "Erinnerung an + Akkusativ. An (at/directed at). Your memory reaches at the past. 'Erinnerungsstück' (memento). Related to 'erinnern' (to remember), which brings something back into your inner self."
+  },
+  {
+    "line": 214,
+    "field": "src",
+    "english": "wish for"
+  },
+  {
+    "line": 214,
+    "field": "note",
+    "english": "Wunsch nach + Dativ. You wish after something.\\n'Der Wunsch nach Geborgenheit' (the wish for security)."
+  },
+  {
+    "line": 214,
+    "field": "exampleSrc",
+    "english": "A: The wish for freedom is universal.\\nB: And the wish for security too.\\nA: What is your biggest wish for change?\\nB: More time for the people who matter to me."
+  },
+  {
+    "line": 214,
+    "field": "funFact",
+    "english": "Wunsch nach + Dativ. Nach (after/toward). You wish after something you do not yet have. 'Wunschdenken' (wishful thinking). 'Sich etwas wünschen' (to wish for something)."
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "longing for"
+  },
+  {
+    "line": 215,
+    "field": "note",
+    "english": "Sehnsucht nach + Dativ. The deepest German emotion with its\\nfixed preposition. You yearn after what is distant."
+  },
+  {
+    "line": 215,
+    "field": "exampleSrc",
+    "english": "A: The longing for home is strong.\\nB: Yes, you miss what you love.\\nA: Do you feel longing for the sea?\\nB: Always. The longing for the sea never stops."
+  },
+  {
+    "line": 215,
+    "field": "funFact",
+    "english": "Sehnsucht nach + Dativ. The most German of emotions with its fixed preposition. Romantic poets built entire philosophies around Sehnsucht nach dem Unerreichbaren (longing for the unreachable)."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "trust in"
+  },
+  {
+    "line": 216,
+    "field": "note",
+    "english": "Vertrauen in + Akkusativ. You place your trust into something.\\n'Das Vertrauen in die Zukunft.'"
+  },
+  {
+    "line": 216,
+    "field": "exampleSrc",
+    "english": "A: Trust in the government is declining.\\nB: Unfortunately. Trust must be earned.\\nA: Do you have trust in the future?\\nB: Yes. One must stay optimistic."
+  },
+  {
+    "line": 216,
+    "field": "funFact",
+    "english": "Vertrauen in + Akkusativ. In (into). You place your trust into something. 'Vertrauensverlust' (loss of trust). Trust flows into its object. Building Vertrauen takes time; losing it takes a moment."
+  },
+  {
+    "line": 217,
+    "field": "src",
+    "english": "gratitude for"
+  },
+  {
+    "line": 217,
+    "field": "note",
+    "english": "Dank für + Akkusativ. Same pattern as dankbar für.\\n'Der Dank für die Unterstützung.'"
+  },
+  {
+    "line": 217,
+    "field": "exampleSrc",
+    "english": "A: My gratitude for your help is great.\\nB: You are welcome. That was a matter of course.\\nA: The gratitude for the hospitality belongs to you.\\nB: We are glad you were here."
+  },
+  {
+    "line": 217,
+    "field": "funFact",
+    "english": "Dank für + Akkusativ. 'Dank' as noun means 'thanks/gratitude.' 'Dankeschreiben' (thank-you letter). Same preposition as dankbar für. 'Zum Dank für' (as thanks for)."
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "interest in"
+  },
+  {
+    "line": 218,
+    "field": "note",
+    "english": "Interesse an + Dativ. Your interest is located at the subject.\\n'Das Interesse an fremden Kulturen.'"
+  },
+  {
+    "line": 218,
+    "field": "exampleSrc",
+    "english": "A: The interest in languages is growing.\\nB: Especially the interest in German.\\nA: Where does your interest in history come from?\\nB: From my grandfather. He told many stories."
+  },
+  {
+    "line": 218,
+    "field": "funFact",
+    "english": "Interesse an + Dativ. An (at). Your interest exists at the subject. 'Interessenkonflikt' (conflict of interest). The noun matches the adjective: interessiert an + Dativ."
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "someday, at some point"
+  },
+  {
+    "line": 219,
+    "field": "note",
+    "english": "Irgend (some) + wann (when). Not a specific time, but eventually.\\n'Irgendwann komme ich zurück.'"
+  },
+  {
+    "line": 219,
+    "field": "exampleSrc",
+    "english": "A: When will you visit your family?\\nB: Someday. Maybe in summer.\\nA: Someday we all have to leave.\\nB: But not today. Today we stay."
+  },
+  {
+    "line": 219,
+    "field": "funFact",
+    "english": "The irgend- prefix adds vagueness to question words. Irgendwann (some-when), irgendwo (somewhere), irgendwer (someone). The series creates beautiful imprecision."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "future, forthcoming"
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "From Kunft (coming, as in Zukunft). What is coming toward us.\\n'Künftige Generationen' (future generations)."
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: Future generations will see it differently.\\nB: Yes, the world is changing.\\nA: What are your future plans?\\nB: I am staying in Berlin. That is certain."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "From Kunft (coming). The adjectival form of Zukunft. 'Künftig' can also be an adverb: 'Künftig esse ich weniger Fleisch' (From now on I will eat less meat). The future is always arriving."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "long since, long ago"
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Superlative of lang used as adverb. Something completed far in\\nthe past. 'Das habe ich längst gewusst.'"
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Did you know that Berlin is his home?\\nB: Yes, I have known that for a long time.\\nA: The decision had long since been made.\\nB: He just needed time to understand it."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "Superlative of 'lang' used as adverb. 'Längst vergessen' (long since forgotten). 'Längst überfällig' (long overdue). It implies the action was completed well before now."
+  },
+  {
+    "line": 222,
+    "field": "src",
+    "english": "since then"
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Seit (since) + dem (then). Marks the starting point of ongoing change.\\nBoth conjunction and adverb."
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: He came to Berlin in 2024. Since then he has lived there.\\nB: Since then everything has changed.\\nA: Since he speaks German, he feels at home.\\nB: Language changes everything."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "Seit (since) + dem (then). As conjunction: 'Seitdem ich hier lebe...' As adverb: 'Seitdem hat sich alles verändert.' Marks when change began and that it continues."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "from time immemorial, always"
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Von (from) + je (ever) + her (from there). Since the beginning of\\ntime. Elevated and literary."
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: From time immemorial people have been searching for a home.\\nB: That is a basic human need.\\nA: Was he always a wanderer?\\nB: Yes, he was always drawn to distant places."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Von (from) + je (ever) + her (from there). 'Von jeher' reaches all the way back to the beginning. More literary than 'schon immer.' Fairy-tale language that elevates everyday observations."
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "for one's entire life, lifelong"
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "Zeit + Lebens (of life). A single adverb covering an entire lifespan.\\n'Zeitlebens suchte er eine Heimat.'"
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: All his life he searched for a place to stay.\\nB: And he found it in Berlin.\\nA: Some people travel their whole lives.\\nB: Others settle down. Both are fine."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "Zeit (time) + Lebens (genitive of Leben). One word for an entire lifetime. 'Zeitlebens' collapses a whole biography into a single adverb. Powerful in its compression."
+  },
+  {
+    "line": 225,
+    "field": "text",
+    "english": "Just as adjectives take fixed prepositions, so do nouns. Often the adjective and noun pairs match: 'stolz auf' pairs with 'der Stolz auf' (both Akkusativ), and 'interessiert an' pairs with 'das Interesse an' (both Dativ).\\n\\nKey groupings by preposition:\\n- auf (Akk) for influence, hope, and pride: Einfluss auf, Hoffnung auf, Stolz auf\\n- vor (Dat) for fear: Angst vor\\n- nach (Dat) for longing and wishes: Sehnsucht nach, Wunsch nach\\n- an takes Dativ for need and interest (Bedarf an, Interesse an) but Akkusativ for memory (Erinnerung an)\\n- in (Akk) for trust: Vertrauen in\\n- für (Akk) for gratitude: Dank für\\n- über (Akk) for joy: Freude über\\n\\nNo rule predicts which noun takes which preposition. Memorize each pair as a unit."
+  },
+  {
+    "line": 225,
+    "field": "text",
+    "english": "Just as adjectives have fixed prepositions, so do nouns. Often the pairs match: stolz auf / der Stolz auf. But not always. You must memorize each pair.\\n\\nKey patterns:\\n- auf + Akk: influence flows onto, hope directed onto, pride directed onto\\n- vor + Dat: you stand before what you fear\\n- nach + Dat: you yearn after what is distant\\n- an + Dat/Akk: depends on direction (Bedarf an = need at, Erinnerung an = memory directed at)\\n- in + Akk: trust placed into\\n- für + Akk: gratitude directed for\\n- über + Akk: joy flows over"
+  },
+  {
+    "line": 231,
+    "field": "hint",
+    "english": "This noun of deep longing pairs with a fixed preposition. That preposition also governs direction of motion and always requires one specific case."
+  },
+  {
+    "line": 232,
+    "field": "hint",
+    "english": "'Erinnerung' pairs with a preposition meaning 'toward something.' Direction to the memory target."
+  },
+  {
+    "line": 232,
+    "field": "sSrc",
+    "english": "The memory of childhood remains forever."
+  },
+  {
+    "line": 238,
+    "field": "hint",
+    "english": "'Seitdem' introduces the time clause. 'Dankbar für' is a fixed adjective-preposition pair."
+  },
+  {
+    "line": 239,
+    "field": "hint",
+    "english": "Two structures: a temporal conjunction that always takes Plusquamperfekt, followed by a noun-preposition combination expressing longing."
+  },
+  {
+    "line": 239,
+    "field": "sSrc",
+    "english": "After he had left, his longing for home grew."
+  },
+  {
+    "line": 246,
+    "field": "src",
+    "english": "He taps his phone. Berlin. Tomorrow morning. Book. The confirmation comes immediately. Flight booked. He breathes out. For the first time in days, something feels right."
+  },
+  {
+    "line": 249,
+    "field": "desc",
+    "english": "Verumius returns to Berlin. The door opens. The plants are alive. Hildi looked after them."
+  },
+  {
+    "line": 250,
+    "field": "unknown",
+    "english": "Combine all three grammar constructs in complex sentences"
+  },
+  {
+    "line": 251,
+    "field": "unknown",
+    "english": "Practice temporal, adjective, and noun-preposition constructs together"
+  },
+  {
+    "line": 252,
+    "field": "unknown",
+    "english": "Learn the final Heimat vocabulary"
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "Berlin. Tegel. The doors open. Berlin air. Grey sky. Verumius smiles."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "After I had left, I understood: Home is not a place. Home is the feeling of having arrived. I am proud of this life."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "His apartment. He opens the door. The plants are alive. Healthier than before. A note on the table: 'Welcome back. Your plants missed you. H. Schreiber.'"
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "Hildi. Without me having asked her. She simply took care of things. The fear of loneliness was for nothing."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "soul"
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "From Old High German 'seula.' German Romanticism made the\\nSeele central to philosophy and poetry."
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: What is the soul of a place?\\nB: The feeling it triggers in you.\\nA: Does Berlin have a soul?\\nB: Yes, a wild, free soul."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "From Old High German 'seula.' Hegel, Schelling, Novalis: all wrote about the Seele. 'Die Seele baumeln lassen' (to let the soul dangle) means to relax deeply. A uniquely German image."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "point of calm, anchor"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Ruhe (calm) + Pol (pole). The still point in a spinning life.\\n'Berlin ist mein Ruhepol.'"
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: What is your anchor?\\nB: My apartment in Berlin. There I find calm.\\nA: Every person needs an anchor.\\nB: True. A place of stillness."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Ruhe (calm) + Pol (pole). Like the North Pole on a compass: a fixed point that everything else spins around. 'Er ist der Ruhepol der Familie' (He is the family's anchor)."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "shelter, roof over one's head"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Ob (over/above) + Dach (roof). The most basic level of Heimat.\\n'Obdachlose' lack this roof."
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Every person needs shelter.\\nB: Yes, a roof over one's head is fundamental.\\nA: What does homeless mean?\\nB: Without a roof. Without protection from rain and cold."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Ob (over) + Dach (roof). 'Obdachlos' (homeless) means literally 'without an over-roof.' The most basic form of Heimat: having a Dach. Without Obdach, Geborgenheit is impossible."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "refuge"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Zu (to) + Flucht (flight). Where you flee to. Not running away\\nbut running toward safety."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Berlin was his refuge.\\nB: Yes, there he found safety.\\nA: Where do you find refuge?\\nB: In music. It is my refuge."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Zu (to) + Flucht (flight). 'Zuflucht suchen' (to seek refuge). 'Zufluchtsort' (place of refuge). You are not fleeing from something but fleeing to safety. The zu makes all the difference."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "motherland"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Mutter (mother) + Land. More personal than Vaterland.\\nThe land that mothered you."
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: What is the motherland of philosophy?\\nB: Greece, they say.\\nA: And your motherland?\\nB: The country where I grew up."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Mutter (mother) + Land. The nurturing homeland. More emotional than Vaterland. Also used metaphorically: 'Das Mutterland des Jazz' (the motherland of jazz). The land that gave birth to something."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "fatherland"
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Vater (father) + Land. Historically loaded in German.\\nModern Germans prefer 'Heimat' or simply 'Deutschland.'"
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Is Vaterland a difficult word?\\nB: Yes, after 1945 it became problematic.\\nA: What do most Germans say?\\nB: Heimat. Or simply Germany."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Vater (father) + Land. 'Fürs Vaterland' (for the fatherland) was the slogan of two World Wars. After 1945, the word carries heavy historical baggage. Modern Germans use it carefully, if at all."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "temperament, disposition"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "From Mut (mood/spirit). When your inner nature is at peace,\\nthe world feels gemütlich."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: He has a cheerful disposition.\\nB: Yes, he is always in a good mood.\\nA: Where does the word gemütlich come from?\\nB: From Gemüt. When the temperament is peaceful."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "From Mut (mood/spirit). 'Gemütlich' (cozy) comes from Gemüt. When your inner nature is peaceful, everything around you feels gemütlich. 'Gemütlichkeit' is Germany's coziest export."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "sense of security"
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Sicherheit (security) + s + Gefühl (feeling). With Fugen-s.\\nWhat Geborgenheit provides."
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: The sense of security in Berlin is high.\\nB: Yes, one feels safe.\\nA: What gives you a sense of security?\\nB: Good neighbors and a safe apartment."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Sicherheit (security) + s + Gefühl (feeling). The Fugen-s links the compounds. At three words deep, this is classic German: Sicherheit-s-gefühl. What Geborgenheit provides in concrete form."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "rooted"
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "Ver- + Wurzel (root) + -t. Past participle as adjective.\\nYour roots have grown deep."
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: Are you rooted in Berlin?\\nB: Yes, deeply rooted. For two years.\\nA: Being rooted takes time.\\nB: True. Roots grow slowly."
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Ver- + Wurzel (root) + -t. 'Tief verwurzelt in der Gemeinschaft' (deeply rooted in the community). The adjective captures a state of belonging that took time to develop. Trees need years. So do people."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "content, satisfied"
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Zu (to) + Frieden (peace). At peace with what you have.\\nNot needing more. 'Zufrieden mit dem Leben.'"
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: Are you satisfied with your life?\\nB: Yes, I am very satisfied.\\nA: What makes you content?\\nB: Good friends and a nice apartment."
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "Zu (to) + Frieden (peace). 'Zufriedenheit' (contentment). Being content means being at peace with what you have. Not needing more. The most German form of happiness: quiet satisfaction."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "place-related, local"
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "Ort (place) + s + bezogen (related). Memories tied to specific\\nlocations. With Fugen-s."
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: Are your memories place-related?\\nB: Yes, every place triggers different feelings.\\nA: Location-based data shows where you have been.\\nB: Sometimes that is useful, sometimes not."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "Ort (place) + s + bezogen (related). With Fugen-s. 'Ortsbezogene Erinnerungen' (place-related memories). Memories tied to specific locations. Also used in tech: 'ortsbezogene Dienste' (location-based services)."
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "peace-loving, quiet-natured"
+  },
+  {
+    "line": 269,
+    "field": "note",
+    "english": "Ruhe (calm) + liebend (loving). A compound present participle.\\nSomeone who loves calm."
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: Are you a peace-loving person?\\nB: Yes, I need silence to think.\\nA: Quiet-natured neighbors are worth gold.\\nB: True. Loud is just exhausting."
+  },
+  {
+    "line": 269,
+    "field": "funFact",
+    "english": "Ruhe (calm) + liebend (loving). A compound present participle used as adjective. 'Ein ruheliebender Mensch' loves Ruhe. The opposite of 'gesellig' (sociable). Not antisocial, just peace-seeking."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "to take root, to become rooted"
+  },
+  {
+    "line": 270,
+    "field": "note",
+    "english": "Ver- + Wurzel + -n. Reflexive: sich verwurzeln.\\nThe process of growing roots in a new place."
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: It takes time to take root in a new place.\\nB: Yes, but with time you manage.\\nA: How did he take root in Berlin?\\nB: Through friends, work, and language."
+  },
+  {
+    "line": 270,
+    "field": "funFact",
+    "english": "Ver- + Wurzel (root) + -n. Not separable. 'Sich in einer Gemeinschaft verwurzeln' (to take root in a community). The process version of verwurzelt. Growing roots is active work."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "to be home to, to house"
+  },
+  {
+    "line": 271,
+    "field": "note",
+    "english": "Be- + Heimat + -en. Non-separable. The city performs the act\\nof being a Heim."
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: Berlin is home to many cultures.\\nB: Yes, over 190 nationalities.\\nA: Which city is home to the most museums?\\nB: Berlin. Over 170 museums."
+  },
+  {
+    "line": 271,
+    "field": "funFact",
+    "english": "Be- + Heimat + -en. Non-separable. 'Berlin beheimatet 3,7 Millionen Menschen.' The be- prefix makes Heimat into a verb. A city does the act of being a home."
+  },
+  {
+    "line": 272,
+    "field": "src",
+    "english": "to settle in, to acclimatize"
+  },
+  {
+    "line": 272,
+    "field": "note",
+    "english": "Ein (in) + leben (to live). Reflexive: sich einleben.\\nSeparable: 'Ich habe mich eingelebt.'"
+  },
+  {
+    "line": 272,
+    "field": "exampleSrc",
+    "english": "A: Have you settled in to Berlin?\\nB: Yes, after a few months.\\nA: How quickly does one settle in?\\nB: That is different for everyone."
+  },
+  {
+    "line": 272,
+    "field": "funFact",
+    "english": "Ein (in) + leben (to live). Separable. 'Sich einleben' means living yourself into a new place. The ein- prefix suggests entering. You enter a new life by living into it."
+  },
+  {
+    "line": 273,
+    "field": "src",
+    "english": "to appreciate, to estimate"
+  },
+  {
+    "line": 273,
+    "field": "note",
+    "english": "Two meanings: valuing and guessing. 'Ich schätze das sehr'\\n(I appreciate that). 'Ich schätze, es dauert eine Stunde.'"
+  },
+  {
+    "line": 273,
+    "field": "exampleSrc",
+    "english": "A: I appreciate your honesty.\\nB: Thanks, that means a lot to me.\\nA: How old do you estimate he is?\\nB: I estimate he is in his early thirties."
+  },
+  {
+    "line": 273,
+    "field": "funFact",
+    "english": "From 'Schatz' (treasure). To treasure something means to appreciate it. The second meaning (to estimate) comes from estimating the value of treasure. Two meanings from one root."
+  },
+  {
+    "line": 279,
+    "field": "hint",
+    "english": "Count each structural type: a temporal clause with a sequence rule, an emotion expressed with adjective plus preposition, and a noun that pairs with a specific preposition."
+  },
+  {
+    "line": 280,
+    "field": "hint",
+    "english": "'Sehnsucht' pairs with a directional preposition. The longing reaches toward the distant place."
+  },
+  {
+    "line": 280,
+    "field": "sSrc",
+    "english": "The longing for Berlin was stronger than everything else."
+  },
+  {
+    "line": 281,
+    "field": "hint",
+    "english": "This structure marks something that happened almost immediately after another event. Literary and dramatic timing."
+  },
+  {
+    "line": 282,
+    "field": "hint",
+    "english": "A temporal conjunction indicating sequence plus an adjective-preposition pair. He felt contentment with his life after returning."
+  },
+  {
+    "line": 282,
+    "field": "sSrc",
+    "english": "After he had returned, he felt satisfied with his life."
+  },
+  {
+    "line": 283,
+    "field": "hint",
+    "english": "He has settled into his new surroundings over time. A reflexive, separable verb. The prefix describes direction inward, the base verb describes daily existence."
+  },
+  {
+    "line": 283,
+    "field": "sSrc",
+    "english": "He has settled in to Berlin."
+  },
+  {
+    "line": 289,
+    "field": "hint",
+    "english": "'Bevor' connects two actions: first the room was the world, then he left. The bevor-action came after in time."
+  },
+  {
+    "line": 289,
+    "field": "sSrc",
+    "english": "Before he went to Germany, this room was the whole world."
+  },
+  {
+    "line": 290,
+    "field": "hint",
+    "english": "Which verb means 'is home to'? And which participle describes that roots have grown?"
+  },
+  {
+    "line": 290,
+    "field": "sSrc",
+    "english": "Berlin is home to many cultures. Verumius has taken root there."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "I hold Hildi's note in my hand and read it once more. Your plants missed you. Not I missed the plants. The plants missed me. Hildi knows exactly what she writes."
+  },
+  {
+    "line": 300,
+    "field": "desc",
+    "english": "Show what you can do. All three grammar constructs, the full Heimat vocabulary, and new modal particles are waiting for you."
+  },
+  {
+    "line": 301,
+    "field": "unknown",
+    "english": "Prove mastery of all three grammar constructs"
+  },
+  {
+    "line": 302,
+    "field": "unknown",
+    "english": "Learn key German modal particles"
+  },
+  {
+    "line": 303,
+    "field": "unknown",
+    "english": "Master complex sentences with temporal and prepositional precision"
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "I stand in my Berlin kitchen making coffee. Everything is normal again. No. Better than normal. Now I know that I want to be here. Not because I have to. Because I chose it."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "local knowledge, knowledge of a place"
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "Ort (place) + s + Kenntnis (knowledge). With Fugen-s.\\nKnowing where the bakery is, which shortcut to take."
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: Taxi drivers need local knowledge.\\nB: Yes, they have to know every street.\\nA: Do you have local knowledge of Berlin?\\nB: After two years I know my way around well."
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "Ort (place) + s + Kenntnis (knowledge). With Fugen-s. Before GPS, London taxi drivers had to pass 'The Knowledge.' German Ortskenntnis is the equivalent: knowing your city by heart."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "sense of belonging"
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "Zugehörigkeit (belonging) + s + Gefühl (feeling). With Fugen-s.\\nAt 24 letters, a classic German compound."
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: What gives you a sense of belonging?\\nB: When neighbors greet me.\\nA: Verumius finally has a sense of belonging.\\nB: Yes, he belongs in Berlin."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "Zugehörigkeit (belonging) + s + Gefühl (feeling). At 24 letters, a classic German compound. The feeling of belonging somewhere. What Verumius finally found after two years of searching."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "a promise"
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Ver- + Sprechen (speaking). When you speak forth, you bind\\nyourself. Also: 'sich versprechen' = to misspeak."
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: A promise must be kept.\\nB: Yes, broken promises hurt.\\nA: Will you give me a promise?\\nB: I promise to come back."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Ver- + Sprechen (speaking). 'Ein Versprechen halten' (to keep a promise). 'Ein Versprechen brechen' (to break a promise). Also: 'sich versprechen' means to misspeak. Two meanings, one verb."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "relatives, kinship"
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Verwandt (related) + -schaft. The collective noun for everyone\\nyou are related to. Often invoked at Weihnachten."
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: The entire family is coming for Christmas.\\nB: Oh no, all aunts and uncles?\\nA: Yes, the complete relatives.\\nB: Then we need a bigger table."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "Verwandt (related) + -schaft (collective suffix). 'Weitläufige Verwandtschaft' (distant relatives). The -schaft suffix groups individuals into a collective. Your Verwandtschaft is everyone who shares your blood."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "reliability"
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "Zuverlässig (reliable) + -keit. What Germans value above\\nalmost everything else."
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Reliability is very important to me.\\nB: To me too. One must be able to rely on each other.\\nA: German reliability is famous.\\nB: Sometimes cliché, sometimes truth."
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "Zuverlässig (reliable) + -keit. 'Deutsche Zuverlässigkeit' is both a stereotype and a real cultural value. 'Sich auf jemanden verlassen' (to rely on someone). Zuverlässigkeit makes trust possible."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "(particle: surprise/emphasis)"
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "As modal particle (not 'yes'): adds emphasis or surprise.\\n'Das ist ja toll!' (That is wow great!)"
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: That is (wow) wonderful!\\nB: Yes, I am surprised too.\\nA: You are already here (oh)!\\nB: I came earlier."
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "Ja as particle does not mean 'yes.' It signals the speaker's reaction to something unexpected or notable. 'Du bist ja schon da!' (You're already here!). One of the first particles learners master."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "(particle: contradicts/insists)"
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "Contradicts, reassures, or insists. 'Komm doch mit!'\\n(Come along, won't you!). The most versatile particle."
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: I can't do that.\\nB: Yes you can!\\nA: Come along, won't you!\\nB: All right, I'll come along after all."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "The most versatile German particle. Can mean 'after all,' 'but,' 'yes it is,' 'please do.' 'Doch' can be a one-word sentence answering a negative question with 'yes.' Untranslatable perfection."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "(particle: softens requests)"
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "From einmal (once). Makes requests casual and friendly.\\n'Schau mal!' (Look!). Without mal, requests sound blunt."
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: Look, the plants!\\nB: Oh, they are beautiful.\\nA: Come here, I'll show you something.\\nB: Just a moment, I'll come right over."
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "From 'einmal' (once). 'Schau mal!' (Look!). 'Hör mal!' (Listen!). Makes requests casual and friendly. Without mal, German requests sound military. With mal, they sound human."
+  },
+  {
+    "line": 314,
+    "field": "src",
+    "english": "(particle: accepts unchangeable reality)"
+  },
+  {
+    "line": 314,
+    "field": "note",
+    "english": "Signals resignation or acceptance. 'Das ist eben so.'\\n(That's just the way it is.) No point arguing."
+  },
+  {
+    "line": 314,
+    "field": "exampleSrc",
+    "english": "A: Why does it always rain in Berlin?\\nB: That's just how it is. Berlin weather.\\nA: Then one simply has to take an umbrella.\\nB: Exactly. That's life."
+  },
+  {
+    "line": 314,
+    "field": "funFact",
+    "english": "Eben as particle: 'Das ist eben so' (That's just the way it is). Calm resignation. Also means 'just now': 'Ich war eben dort' (I was just there). And 'flat/level': 'eine ebene Fläche' (a flat surface). Three meanings."
+  },
+  {
+    "line": 315,
+    "field": "src",
+    "english": "(particle: Southern German for eben)"
+  },
+  {
+    "line": 315,
+    "field": "note",
+    "english": "Southern German/Austrian equivalent of eben. More colloquial.\\n'Das ist halt so.' (That's just how it is.)"
+  },
+  {
+    "line": 315,
+    "field": "exampleSrc",
+    "english": "A: In Bavaria they say halt instead of eben.\\nB: Yes, that's just how it is.\\nA: Is halt understood everywhere?\\nB: Yes, but it sounds Southern."
+  },
+  {
+    "line": 315,
+    "field": "funFact",
+    "english": "Southern German/Austrian equivalent of eben. More colloquial, warmer. Lukas would say halt, Dr. Yilmaz would say eben. Regional particles reveal where you learned your German."
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "(particle: probability/concession)"
+  },
+  {
+    "line": 316,
+    "field": "note",
+    "english": "Expresses probability or concession. 'Er wird wohl schon\\nzu Hause sein.' (He is probably already home.)"
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "A: Where is Verumius?\\nB: He is probably already in Berlin.\\nA: That may well be true.\\nB: Probably. I am not entirely sure."
+  },
+  {
+    "line": 316,
+    "field": "funFact",
+    "english": "Wohl as particle hedges without committing. 'Er wird wohl kommen' (He will probably come). Also: 'Wohl oder übel' (willy-nilly, like it or not). Wohl softens claims into probabilities."
+  },
+  {
+    "line": 317,
+    "field": "src",
+    "english": "(particle: qualifies/corrects)"
+  },
+  {
+    "line": 317,
+    "field": "note",
+    "english": "Introduces the real truth behind appearances.\\n'Eigentlich wollte ich bleiben.' (Actually, I wanted to stay.)"
+  },
+  {
+    "line": 317,
+    "field": "exampleSrc",
+    "english": "A: What are you actually doing here?\\nB: Actually, I just wanted to have a quick look.\\nA: Actually, Berlin is my home.\\nB: Yes, you actually always knew that."
+  },
+  {
+    "line": 317,
+    "field": "funFact",
+    "english": "'Eigentlich' introduces the real truth. 'Was willst du eigentlich?' (What do you actually want?). In questions it adds genuine curiosity. In statements it corrects: 'Eigentlich mag ich Berlin' (Actually, I like Berlin)."
+  },
+  {
+    "line": 318,
+    "field": "src",
+    "english": "(particle: warms up questions)"
+  },
+  {
+    "line": 318,
+    "field": "note",
+    "english": "As particle (not conjunction): makes questions warmer.\\n'Was machst du denn?' sounds friendlier than 'Was machst du?'"
+  },
+  {
+    "line": 318,
+    "field": "exampleSrc",
+    "english": "A: So what are you doing here?\\nB: I am visiting Berlin.\\nA: So how are you?\\nB: Good, thanks. And you?"
+  },
+  {
+    "line": 318,
+    "field": "funFact",
+    "english": "Denn in questions adds interest and warmth. 'Was machst du denn?' vs 'Was machst du?' The first sounds curious, the second sounds like an interrogation. Denn humanizes questions."
+  },
+  {
+    "line": 319,
+    "field": "src",
+    "english": "(particle: reassures/concedes)"
+  },
+  {
+    "line": 319,
+    "field": "note",
+    "english": "Reassures or concedes. 'Das wird schon klappen.'\\n(It will work out, don't worry.)"
+  },
+  {
+    "line": 319,
+    "field": "exampleSrc",
+    "english": "A: I am afraid of the exam.\\nB: It will work out, don't worry.\\nA: You are right, I suppose.\\nB: See? It will be fine."
+  },
+  {
+    "line": 319,
+    "field": "funFact",
+    "english": "Schon as particle calms fears. 'Das wird schon' (It'll be fine). Also concedes: 'Du hast schon recht' (You're right, I suppose). Reassuring and slightly resigned at the same time."
+  },
+  {
+    "line": 320,
+    "field": "src",
+    "english": "(particle: intensifies warnings/questions)"
+  },
+  {
+    "line": 320,
+    "field": "note",
+    "english": "Adds urgency or desperation. 'Mach das bloß nicht!'\\n(Whatever you do, don't do that!)"
+  },
+  {
+    "line": 320,
+    "field": "exampleSrc",
+    "english": "A: Whatever you do, don't do that!\\nB: Why not?\\nA: What on earth should I do?\\nB: Calm down. It will work out."
+  },
+  {
+    "line": 320,
+    "field": "funFact",
+    "english": "Bloß as particle intensifies. 'Wo ist bloß mein Schlüssel?' (Where on earth is my key?). 'Mach das bloß nicht!' (Don't you dare!). Adds desperation or urgency. Also means 'merely': 'bloß ein Kind' (merely a child)."
+  },
+  {
+    "line": 321,
+    "field": "src",
+    "english": "(particle: gives permission encouragingly)"
+  },
+  {
+    "line": 321,
+    "field": "note",
+    "english": "Permission given calmly. 'Du kannst ruhig bleiben.'\\n(You can go ahead and stay, it's fine.)"
+  },
+  {
+    "line": 321,
+    "field": "exampleSrc",
+    "english": "A: May I stay a bit longer?\\nB: You can go ahead and stay.\\nA: Feel free to say your opinion.\\nB: All right. I find Berlin wonderful."
+  },
+  {
+    "line": 321,
+    "field": "funFact",
+    "english": "Ruhig (calm/quiet) as particle: permission given calmly. 'Nimm ruhig noch ein Stück Kuchen' (Go ahead and take another piece of cake). The speaker is calm about it. Take it, no problem."
+  },
+  {
+    "line": 327,
+    "field": "hint",
+    "english": "'Seitdem' (temporal), 'Angst vor' (Noun+Prep), 'stolz auf' (Adj+Prep). All three constructs in one sentence."
+  },
+  {
+    "line": 328,
+    "field": "hint",
+    "english": "'Wunsch' pairs with a directional preposition. You wish for something you do not yet have."
+  },
+  {
+    "line": 328,
+    "field": "sSrc",
+    "english": "The wish for security accompanies every person."
+  },
+  {
+    "line": 334,
+    "field": "hint",
+    "english": "'Ja' as a modal particle signals the speaker's reaction. Not 'ja' as agreement, but 'oh/wow.'"
+  },
+  {
+    "line": 335,
+    "field": "hint",
+    "english": "A temporal conjunction indicating completed prior action plus a feminine noun from the pool describing what one finds after long searching. Consider which pool items fit both the grammar and the emotional meaning."
+  },
+  {
+    "line": 335,
+    "field": "sSrc",
+    "english": "After he had searched for a long time, he finally found refuge in Berlin."
+  },
+  {
+    "line": 341,
+    "field": "hint",
+    "english": "This adjective-preposition pair uses a two-way preposition. When the feeling is directed TOWARD something, which case does it take?"
+  },
+  {
+    "line": 342,
+    "field": "hint",
+    "english": "The moment he arrived. Immediate sequence. The fastest temporal connector."
+  },
+  {
+    "line": 342,
+    "field": "sSrc",
+    "english": "As soon as he arrived, he felt at home."
+  },
+  {
+    "line": 349,
+    "field": "src",
+    "english": "Every word I learned in German carries a memory. Sehnsucht: the evening by the Mediterranean. Geborgenheit: Hildi's tea. Aufbruch: the first day at the airport. That is simply how it is. My dictionary is my diary."
+  },
+  {
+    "line": 352,
+    "field": "desc",
+    "english": "Verumius is home. Hildi watered the plants. All constructs, all vocabulary, the whole concept of Heimat in one final chapter."
+  },
+  {
+    "line": 353,
+    "field": "unknown",
+    "english": "Consolidate all Heimat vocabulary"
+  },
+  {
+    "line": 354,
+    "field": "unknown",
+    "english": "Use all temporal, adjective, and noun-preposition constructs"
+  },
+  {
+    "line": 355,
+    "field": "unknown",
+    "english": "Articulate what Heimat means"
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "Berlin apartment. The door opens. Everything is as he left it, only better. The plants are greener. The kitchen is clean. Hildi's note sits on the table in her precise handwriting."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "'Welcome back. Your plants missed you. H. Schreiber.' Under the note: a small packet of Berliner Luft peppermint liqueur. Hildi's humor, finally unleashed."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "After I had searched everywhere, I found home here. I am grateful for every person who took me in. The longing for a place has vanished since I understood: Home is where you arrive."
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "(particle: challenges/approximates)"
+  },
+  {
+    "line": 360,
+    "field": "note",
+    "english": "Two uses: questioning tone (really? don't tell me!) and\\napproximation. 'Hast du etwa Angst?'"
+  },
+  {
+    "line": 360,
+    "field": "exampleSrc",
+    "english": "A: Are you perhaps afraid?\\nB: No, of course not.\\nA: That is approximately three kilometers away.\\nB: So not far. Let's walk."
+  },
+  {
+    "line": 360,
+    "field": "funFact",
+    "english": "Etwa as particle challenges: 'Hast du etwa Angst?' (Don't tell me you're afraid!). As adverb: 'etwa 50 Leute' (approximately 50 people). The same word questions and estimates."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "(particle: that's simply how it is)"
+  },
+  {
+    "line": 361,
+    "field": "note",
+    "english": "Nun (now) + mal (just). Double particle for double resignation.\\nStronger than eben or halt."
+  },
+  {
+    "line": 361,
+    "field": "exampleSrc",
+    "english": "A: Why do I have to learn grammar?\\nB: That's simply how it is. No grammar, no German.\\nA: Berlin is simply my home.\\nB: And nothing will change that."
+  },
+  {
+    "line": 361,
+    "field": "funFact",
+    "english": "Nun (now) + mal (just). Double particle for double resignation. 'Das ist nun mal so' is stronger than 'Das ist eben so.' There is truly nothing to be done, and everyone knows it."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "absolutely, by all means"
+  },
+  {
+    "line": 362,
+    "field": "note",
+    "english": "Durch (through) + aus (out). Emphatic agreement.\\n'Das ist durchaus möglich.' (That is absolutely possible.)"
+  },
+  {
+    "line": 362,
+    "field": "exampleSrc",
+    "english": "A: Is Berlin a beautiful city?\\nB: Absolutely. In its own way.\\nA: Can you become happy there?\\nB: Absolutely. Many people are."
+  },
+  {
+    "line": 362,
+    "field": "funFact",
+    "english": "Durch (through) + aus (out). All the way through. 'Durchaus nicht' (absolutely not). 'Durchaus möglich' (absolutely possible). The word goes through-and-out, leaving no doubt."
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "anyway, regardless"
+  },
+  {
+    "line": 363,
+    "field": "note",
+    "english": "Ohne (without) + hin (there). No matter what: the outcome was\\nalready decided. A calm dismissal of alternatives."
+  },
+  {
+    "line": 363,
+    "field": "exampleSrc",
+    "english": "A: Should I come along?\\nB: I was going to Berlin anyway.\\nA: Then it is no detour anyway.\\nB: Exactly. Get in."
+  },
+  {
+    "line": 363,
+    "field": "funFact",
+    "english": "Ohne (without) + hin (there). 'Ich wollte ohnehin gehen' (I was going to leave anyway). The action happens regardless of what you say. Calmer and more formal than sowieso."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "anyway, in any case"
+  },
+  {
+    "line": 364,
+    "field": "note",
+    "english": "So + wie + so. More colloquial than ohnehin. Both mean the\\nsame: the action happens regardless."
+  },
+  {
+    "line": 364,
+    "field": "exampleSrc",
+    "english": "A: Do you need an umbrella?\\nB: No, I will get wet anyway.\\nA: Should I call?\\nB: Not necessary. I am coming by anyway."
+  },
+  {
+    "line": 364,
+    "field": "funFact",
+    "english": "So + wie + so. The most casual way to say 'anyway.' 'Ich wollte sowieso...' (I was going to anyway). More colloquial than ohnehin. Both dismiss alternatives, but sowieso does it with a shrug."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "back, return"
+  },
+  {
+    "line": 365,
+    "field": "note",
+    "english": "Zu (to) + rück (back). Both adverb and prefix.\\nzurückkommen, zurückgehen, zurückdenken."
+  },
+  {
+    "line": 365,
+    "field": "exampleSrc",
+    "english": "A: Welcome back to Berlin!\\nB: Thanks. It feels good to be back.\\nA: When did you come back?\\nB: Yesterday evening."
+  },
+  {
+    "line": 365,
+    "field": "funFact",
+    "english": "Zu (to) + rück (back). The direction of return. As prefix it creates dozens of verbs: zurückkommen (come back), zurückgehen (go back), zurückdenken (think back), zurücklassen (leave behind)."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "to say goodbye"
+  },
+  {
+    "line": 366,
+    "field": "note",
+    "english": "Abschied (farewell) + nehmen (to take). You take the farewell.\\nActive: you choose to let go."
+  },
+  {
+    "line": 366,
+    "field": "exampleSrc",
+    "english": "A: It is time to say goodbye.\\nB: Yes, but goodbye is not forever.\\nA: Did you say goodbye to your homeland?\\nB: Yes, but it remains in my heart."
+  },
+  {
+    "line": 366,
+    "field": "funFact",
+    "english": "Abschied (farewell) + nehmen (to take). 'Abschied nehmen von' + Dativ. You actively take the farewell. Not passive: you choose to let go. Every German departure deserves a proper Abschied."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "to move away"
+  },
+  {
+    "line": 367,
+    "field": "note",
+    "english": "Fort (away) + ziehen (to pull/move). Separable: 'Er zog fort.'\\nPulling yourself away from where you are."
+  },
+  {
+    "line": 367,
+    "field": "exampleSrc",
+    "english": "A: When did you move away from home?\\nB: At eighteen. To Berlin.\\nA: Many young people move away.\\nB: Yes, to the big city."
+  },
+  {
+    "line": 367,
+    "field": "funFact",
+    "english": "Fort (away) + ziehen (to pull/move). Separable. Perfect with sein: 'Er ist fortgezogen.' Fort implies distance: not just leaving but going far. 'Fortziehen und nie zurückkommen' (to move away and never come back)."
+  },
+  {
+    "line": 368,
+    "field": "src",
+    "english": "to belong"
+  },
+  {
+    "line": 368,
+    "field": "note",
+    "english": "Ge- + hören (to hear/belong). Not separable.\\n'Ich gehöre hierher.' (I belong here.)"
+  },
+  {
+    "line": 368,
+    "field": "exampleSrc",
+    "english": "A: Do you belong in Berlin?\\nB: Yes, I belong here.\\nA: Who does this book belong to?\\nB: That belongs to me."
+  },
+  {
+    "line": 368,
+    "field": "funFact",
+    "english": "Ge- + hören (to hear). Two meanings: 'Ich gehöre hierher' (I belong here) and 'Das gehört mir' (That belongs to me). One of the deepest verbs in the Heimat vocabulary. Belonging is hearing your place."
+  },
+  {
+    "line": 369,
+    "field": "src",
+    "english": "to mourn (something past)"
+  },
+  {
+    "line": 369,
+    "field": "note",
+    "english": "Nach (after) + trauern (to mourn). Separable. Mourning after\\nsomething that has moved away."
+  },
+  {
+    "line": 369,
+    "field": "exampleSrc",
+    "english": "A: Do you mourn the past?\\nB: Sometimes. But not for too long.\\nA: One should not mourn the old times.\\nB: True. The future awaits."
+  },
+  {
+    "line": 369,
+    "field": "funFact",
+    "english": "Nach (after) + trauern (to mourn). Separable: 'Er trauert der alten Zeit nach.' The nach implies the object has already moved away. You mourn after what is gone. Healthier than clinging."
+  },
+  {
+    "line": 370,
+    "field": "src",
+    "english": "to return"
+  },
+  {
+    "line": 370,
+    "field": "note",
+    "english": "Zurück (back) + kehren (to turn). Not separable.\\nUses sein: 'Er ist zurückgekehrt.'"
+  },
+  {
+    "line": 370,
+    "field": "exampleSrc",
+    "english": "A: When are you returning?\\nB: Next week. I am returning to Berlin.\\nA: He returned yesterday.\\nB: Finally. We missed him."
+  },
+  {
+    "line": 370,
+    "field": "funFact",
+    "english": "Zurück (back) + kehren (to turn). Separable despite appearances: 'Er kehrt zurück.' Perfect with sein: 'Er ist zurückgekehrt.' Synonym of rückkehren. Turning back to where you started."
+  },
+  {
+    "line": 371,
+    "field": "src",
+    "english": "to leave behind"
+  },
+  {
+    "line": 371,
+    "field": "note",
+    "english": "Zurück + lassen (to let/leave). Separable: 'Er ließ alles zurück.'\\nWhat you choose not to bring with you."
+  },
+  {
+    "line": 371,
+    "field": "exampleSrc",
+    "english": "A: What did you leave behind?\\nB: The past. And a few old photos.\\nA: Some things you have to leave behind.\\nB: Yes, only then can you move forward."
+  },
+  {
+    "line": 371,
+    "field": "funFact",
+    "english": "Zurück + lassen (to let/leave). Separable. Strong verb: zurücklassen/ließ zurück/zurückgelassen. What you choose not to bring with you. 'Alles zurücklassen' (to leave everything behind) is the hardest kind of Aufbruch."
+  },
+  {
+    "line": 372,
+    "field": "src",
+    "english": "to stick together"
+  },
+  {
+    "line": 372,
+    "field": "note",
+    "english": "Zusammen (together) + halten (to hold). Separable.\\nThe verb behind Zusammenhalt."
+  },
+  {
+    "line": 372,
+    "field": "exampleSrc",
+    "english": "A: Families must stick together.\\nB: Yes, in good times and bad.\\nA: The neighborhood sticks together.\\nB: That is real community."
+  },
+  {
+    "line": 372,
+    "field": "funFact",
+    "english": "Zusammen (together) + halten (to hold). Separable. Strong verb: zusammenhalten/hielt zusammen/zusammengehalten. The verb behind Zusammenhalt. What keeps a group unified when things get difficult."
+  },
+  {
+    "line": 373,
+    "field": "src",
+    "english": "to uproot"
+  },
+  {
+    "line": 373,
+    "field": "note",
+    "english": "Ent- (un-/de-) + Wurzel (root) + -n. The opposite of verwurzeln.\\nTearing roots out. What migration does before new roots grow."
+  },
+  {
+    "line": 373,
+    "field": "exampleSrc",
+    "english": "A: Migration can uproot people.\\nB: Yes, but new roots can grow.\\nA: Do you feel uprooted?\\nB: Not anymore. Berlin rooted me."
+  },
+  {
+    "line": 373,
+    "field": "funFact",
+    "english": "Ent- (un-/de-) + Wurzel (root) + -n. The opposite of verwurzeln. Tearing roots out. 'Entwurzelte Menschen' (uprooted people). Migration uproots before new roots can grow. The ent- prefix reverses the process."
+  },
+  {
+    "line": 374,
+    "field": "src",
+    "english": "to care for, to cultivate"
+  },
+  {
+    "line": 374,
+    "field": "note",
+    "english": "To nurture, maintain, cultivate. 'Freundschaften pflegen'\\n(to cultivate friendships). The nurturing verb."
+  },
+  {
+    "line": 374,
+    "field": "exampleSrc",
+    "english": "A: Do you cultivate your friendships?\\nB: Yes, that is important to me.\\nA: Hildi tends to his plants.\\nB: And his friendship. Without him noticing."
+  },
+  {
+    "line": 374,
+    "field": "funFact",
+    "english": "'Freundschaften pflegen' (to cultivate friendships). 'Traditionen pflegen' (to maintain traditions). 'Kranke pflegen' (to care for the sick). The nurturing verb. What Hildi did for Verumius's plants."
+  },
+  {
+    "line": 375,
+    "field": "src",
+    "english": "to shape, to stamp"
+  },
+  {
+    "line": 375,
+    "field": "note",
+    "english": "To coin, to stamp, to shape. 'Die Erfahrung hat mich geprägt.'\\nWhat your Heimat does to you."
+  },
+  {
+    "line": 375,
+    "field": "exampleSrc",
+    "english": "A: What shaped you the most?\\nB: The two years in Berlin.\\nA: Places shape people.\\nB: And people shape places."
+  },
+  {
+    "line": 375,
+    "field": "funFact",
+    "english": "'Prägen' originally means to stamp coins. What your Heimat does to you: it stamps itself into your identity. 'Geprägt von der Erfahrung' (shaped by the experience). The stamp is permanent."
+  },
+  {
+    "line": 376,
+    "field": "text",
+    "english": "Heimat has no exact English equivalent. It is more than 'home' (Zuhause), more than 'homeland' (Vaterland), more than 'origin' (Herkunft).\\n\\nHeimat is the place where your soul finds Geborgenheit. It can be a city, a smell, a language, a person.\\n\\nVerumius discovered that Heimat can shift: from where you grew up to where you arrived.\\n\\nNachdem er überall gesucht hatte, fand er die Heimat dort, wo man ihn aufnahm.\\n\\n'Heimat ist kein Ort. Heimat ist ein Gefühl.'"
+  },
+  {
+    "line": 376,
+    "field": "text",
+    "english": "Heimat has no exact English equivalent. It is more than 'home' (which is Zuhause), more than 'homeland' (which is Vaterland), more than 'origin' (which is Herkunft). Heimat is where your Seele finds Geborgenheit. It can be a city, a smell, a language, a person. Verumius discovered that Heimat can shift: from where you grew up to where you grew into yourself."
+  },
+  {
+    "line": 382,
+    "field": "hint",
+    "english": "Count the structural types: a temporal clause with sequence rule, an adjective-preposition combination, and a noun-preposition combination."
+  },
+  {
+    "line": 383,
+    "field": "hint",
+    "english": "The moment of arrival equals the moment of knowing. Immediately. The fastest connector."
+  },
+  {
+    "line": 383,
+    "field": "sSrc",
+    "english": "As soon as he had arrived in Berlin, he knew: this is home."
+  },
+  {
+    "line": 384,
+    "field": "hint",
+    "english": "Three positions: a temporal conjunction indicating completed prior action, an adjective expressing a positive emotion about something achieved, and a preposition of accompaniment."
+  },
+  {
+    "line": 384,
+    "field": "sSrc",
+    "english": "After he had searched for a long time, he found home. He was proud of his new life and felt deep connection with Berlin."
+  },
+  {
+    "line": 391,
+    "field": "src",
+    "english": "I stand on my balcony in Kreuzberg. Below me the city that took me in. In the distance the TV tower. I think in German. I dream in German. And when someone asks me where I come from, I say: I live in Berlin."
+  },
+  {
+    "line": 392,
+    "field": "src",
+    "english": "The sun sets over Berlin. Somewhere in Prenzlauer Berg, Hildi makes tea. Somewhere in Neukoelln, Lukas tunes his guitar. And in a small apartment in Kreuzberg, Verumius waters his plants. He is home."
+  }
+]

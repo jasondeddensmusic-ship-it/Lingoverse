@@ -1,0 +1,1092 @@
+[
+  {
+    "line": 189,
+    "field": "exampleSrc",
+    "english": "A: The moderator has good conversation management.\\nB: Yes, she steers the discussion skillfully.\\nA: Good conversation management is an art.\\nB: You have to listen and lead at the same time."
+  },
+  {
+    "line": 190,
+    "field": "src",
+    "english": "guide, manual"
+  },
+  {
+    "line": 190,
+    "field": "exampleSrc",
+    "english": "A: Is there a guide for the presentation?\\nB: Yes, I created a guide.\\nA: The guide helps with the structure.\\nB: It is like a common thread through the topic."
+  },
+  {
+    "line": 191,
+    "field": "src",
+    "english": "practical example"
+  },
+  {
+    "line": 191,
+    "field": "exampleSrc",
+    "english": "A: Can you give a practical example?\\nB: Of course. Let's take our last project.\\nA: Practical examples make the presentation vivid.\\nB: The audience understands theory better with examples."
+  },
+  {
+    "line": 192,
+    "field": "src",
+    "english": "conclusion, deduction"
+  },
+  {
+    "line": 192,
+    "field": "exampleSrc",
+    "english": "A: What is your conclusion?\\nB: My conclusion is clear: the project is worth it.\\nA: The conclusion must be logical.\\nB: Without valid arguments, no conclusion."
+  },
+  {
+    "line": 193,
+    "field": "src",
+    "english": "greeting formula"
+  },
+  {
+    "line": 193,
+    "field": "exampleSrc",
+    "english": "A: Which greeting formula does one use in a presentation?\\nB: 'Ladies and gentlemen' is standard.\\nA: And more informally?\\nB: 'Dear colleagues' is warmer."
+  },
+  {
+    "line": 194,
+    "field": "src",
+    "english": "punchline"
+  },
+  {
+    "line": 194,
+    "field": "exampleSrc",
+    "english": "A: The punchline of your presentation was perfect.\\nB: Thanks! I worked on the punchline for a long time.\\nA: A good punchline stays in the memory.\\nB: The aqueduct was my best punchline."
+  },
+  {
+    "line": 195,
+    "field": "src",
+    "english": "interactive"
+  },
+  {
+    "line": 195,
+    "field": "exampleSrc",
+    "english": "A: Was the presentation interactive?\\nB: Yes, the audience was allowed to ask questions.\\nA: Interactive formats are more popular.\\nB: People like being included."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "practice-oriented, hands-on"
+  },
+  {
+    "line": 196,
+    "field": "exampleSrc",
+    "english": "A: The presentation was very practice-oriented.\\nB: Yes, with many concrete examples.\\nA: Practice-oriented content is well received.\\nB: Theory alone convinces nobody."
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "conclusive, logical"
+  },
+  {
+    "line": 197,
+    "field": "exampleSrc",
+    "english": "A: Is your argument conclusive?\\nB: Yes, everything is built up logically.\\nA: Only conclusive arguments convince.\\nB: Every point leads to the next."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "apt, to the point"
+  },
+  {
+    "line": 198,
+    "field": "exampleSrc",
+    "english": "A: That was an apt phrasing.\\nB: Thanks, I worked on it for a long time.\\nA: Apt words stick.\\nB: Like an arrow hitting the bullseye."
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "tenable, valid"
+  },
+  {
+    "line": 199,
+    "field": "exampleSrc",
+    "english": "A: Are your arguments tenable?\\nB: Yes, they withstand any examination.\\nA: Only valid evidence counts.\\nB: Everything else is speculation."
+  },
+  {
+    "line": 200,
+    "field": "src",
+    "english": "expert, knowledgeable"
+  },
+  {
+    "line": 200,
+    "field": "exampleSrc",
+    "english": "A: The speaker spoke very knowledgeably.\\nB: Yes, he knows the topic precisely.\\nA: An expert audience asks difficult questions.\\nB: Then one must be especially well prepared."
+  },
+  {
+    "line": 201,
+    "field": "src",
+    "english": "in keyword form, using bullet points"
+  },
+  {
+    "line": 201,
+    "field": "exampleSrc",
+    "english": "A: Summarize the presentation in keyword form.\\nB: Introduction, data, analysis, conclusion.\\nA: Perfect. Keyword form is sufficient.\\nB: No full sentences needed."
+  },
+  {
+    "line": 202,
+    "field": "src",
+    "english": "to supplement, to add to"
+  },
+  {
+    "line": 202,
+    "field": "exampleSrc",
+    "english": "A: May I add something?\\nB: Of course, please go ahead.\\nA: I would like to add the figures.\\nB: Good, that completes the picture perfectly."
+  },
+  {
+    "line": 203,
+    "field": "src",
+    "english": "to affirm, to reinforce"
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: I would like to reinforce this statement.\\nB: Thanks. It is good to have support.\\nA: The data reinforce our thesis.\\nB: Then we can proceed with confidence."
+  },
+  {
+    "line": 204,
+    "field": "src",
+    "english": "to illustrate, to make vivid"
+  },
+  {
+    "line": 204,
+    "field": "exampleSrc",
+    "english": "A: How do you illustrate the problem?\\nB: I illustrate it with a diagram.\\nA: A good example illustrates more than numbers.\\nB: Exactly. People think in images."
+  },
+  {
+    "line": 205,
+    "field": "src",
+    "english": "to underline, to emphasize"
+  },
+  {
+    "line": 205,
+    "field": "exampleSrc",
+    "english": "A: I would like to emphasize this point.\\nB: Yes, it is particularly important.\\nA: The results underline our position.\\nB: I saw it that way too."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "to suggest, to recommend"
+  },
+  {
+    "line": 206,
+    "field": "exampleSrc",
+    "english": "A: What do the data suggest?\\nB: The data suggest that we are right.\\nA: I would like to suggest a change.\\nB: What change do you suggest?"
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "to specify, to make more precise"
+  },
+  {
+    "line": 207,
+    "field": "exampleSrc",
+    "english": "A: Can you please be more specific?\\nB: Of course. I mean specifically the Q2 figures.\\nA: Thank you, that makes the point more precise.\\nB: Precision is decisive."
+  },
+  {
+    "line": 208,
+    "field": "text",
+    "english": "Purpose clauses express a goal or intention. German has three main ways to build them.\\n\\n- damit introduces a subordinate clause with the verb at the end. It allows different subjects in each clause: 'Ich nutze ein Beispiel, damit alle verstehen.'\\n- um... zu uses an infinitive construction. Both clauses must share the same subject: 'Ich nutze ein Beispiel, um den Punkt zu veranschaulichen.'\\n- zwecks takes a genitive noun and belongs to very formal, official register: 'Zwecks besserer Übersicht...' (For the purpose of a better overview...)\\n\\nWhen the subject is the same in both clauses, um... zu is more elegant than damit."
+  },
+  {
+    "line": 208,
+    "field": "text",
+    "english": "The key difference: with 'um... zu,' both clauses must share the same subject. 'Ich lerne Deutsch, um mich vorzustellen' (I study, I introduce myself). With 'damit,' the subjects can differ: 'Ich erkläre es langsam, damit SIE es verstehen' (I explain, they understand). When both forms are possible, Germans often prefer 'um... zu' because it is shorter and more elegant."
+  },
+  {
+    "line": 226,
+    "field": "hint",
+    "english": "When the subject is the same in both parts, um...zu is preferred. Damit fits when subjects differ."
+  },
+  {
+    "line": 227,
+    "field": "hint",
+    "english": "The subjects differ in the two clauses. Only one purpose connector allows different subjects in each part."
+  },
+  {
+    "line": 227,
+    "field": "sSrc",
+    "english": "He uses a diagram so that the data are more understandable."
+  },
+  {
+    "line": 233,
+    "field": "hint",
+    "english": "'Sofern' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 234,
+    "field": "hint",
+    "english": "Same subject: 'Ich' in both parts. The infinitive construction: um + zu + verb at the end."
+  },
+  {
+    "line": 243,
+    "field": "desc",
+    "english": "The big day. Verumius gives his presentation. The aqueduct example lands. The boss says: 'Gut gemacht.' Practice all three grammar constructs in professional context."
+  },
+  {
+    "line": 244,
+    "field": "unknown",
+    "english": "Experience the presentation with Verumius"
+  },
+  {
+    "line": 245,
+    "field": "unknown",
+    "english": "Practice consecutive, conditional, and final clauses together"
+  },
+  {
+    "line": 246,
+    "field": "unknown",
+    "english": "Learn vocabulary for meetings, feedback, and collaboration"
+  },
+  {
+    "line": 248,
+    "field": "src",
+    "english": "Conference room. Fifteen colleagues seated. The projector hums. Verumius stands at the front, slides behind him. His hands are steady. Mia gives a subtle nod from the second row."
+  },
+  {
+    "line": 249,
+    "field": "src",
+    "english": "Good morning. I would like to present the results of the Q2 project today. So that you better understand the workflow, I will begin with a comparison."
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "Imagine a Roman aqueduct. Every arch supports the next. If one arch is missing, everything collapses. Our project management works the same way."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "A pause. Someone chuckles softly. Then the whole room laughs. Not at him. With him. The comparison was so apt that even the boss smiles."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "The boss, from the back row: 'Well done, Verumius.' Two words. In German professional culture, they weigh a ton."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "minutes, protocol"
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: Who is taking minutes today?\\nB: I can write the minutes.\\nA: Good. Please send the minutes by tomorrow.\\nB: The minutes will be distributed to everyone."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "feedback"
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: Do you have feedback on my presentation?\\nB: Yes, positive feedback.\\nA: I welcome any feedback.\\nB: Constructive feedback helps the most."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "remark, note"
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: I would have a remark about slide 3.\\nB: Please, which remark?\\nA: The number seems to be outdated.\\nB: Thanks for the remark. I will check that."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "explanation, clarification"
+  },
+  {
+    "line": 256,
+    "field": "exampleSrc",
+    "english": "A: Can you give an explanation?\\nB: For clarification: the numbers refer to Q2.\\nA: Thanks for the clarification.\\nB: Further explanations can be found in the handout."
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "notes (taken during a meeting)"
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: Did you take notes?\\nB: Yes, I took notes.\\nA: Can you show me your notes?\\nB: Sure. The most important points are in there."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "vote"
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: We will now proceed to the vote.\\nB: Who is in favor? Please raise your hand.\\nA: The vote is unanimous.\\nB: Good. The resolution is passed."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "working group"
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: We will form three working groups.\\nB: Which topic does our working group cover?\\nA: The finance working group meets in room 2.\\nB: The working groups report tomorrow in plenary."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "plenary, full assembly"
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: When do we meet in plenary?\\nB: The plenary convenes at 2 PM.\\nA: The results will be presented in plenary.\\nB: All working groups report to the plenary."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "networking"
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Did you make new contacts while networking?\\nB: Yes, the networking was very productive.\\nA: Networking is just as important as the presentation.\\nB: While networking, you get to know the people behind the projects."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "workshop"
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Are you leading the workshop tomorrow?\\nB: Yes, I am leading the workshop on project planning.\\nA: The workshop is interactive.\\nB: All participants work in groups."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "to lead, to direct, to chair"
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Who is chairing the meeting today?\\nB: Frau Mueller is chairing the meeting.\\nA: She also leads the entire project.\\nB: A good leader motivates the team."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "to moderate, to host"
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: Who is moderating the panel discussion?\\nB: Herr Schmidt is moderating today.\\nA: He always moderates very objectively.\\nB: Good moderating means: listening and guiding."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "to include, to involve"
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: We must include all departments.\\nB: Yes, everyone will be included in the decision.\\nA: Who was not included?\\nB: The marketing department. We will catch up on that."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "to contribute"
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: What can you contribute to the project?\\nB: I contribute my experience.\\nA: Everyone contributed to the success.\\nB: Collaboration is the key."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "to take up, to pick up on"
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: I will pick up on your point.\\nB: Thanks. That is an important idea.\\nA: The boss picked up the suggestion.\\nB: Good, then it will be implemented."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "to address a topic, to bring up"
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: We should address this problem.\\nB: Yes, it must be addressed in the next meeting.\\nA: Who addresses it first?\\nB: I can bring up the topic."
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "to agree upon, to arrange"
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: Can we arrange an appointment?\\nB: Yes, how about next Tuesday?\\nA: Agreed. I will note it down.\\nB: The arrangement stands."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "to negotiate"
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: We must negotiate the conditions.\\nB: Yes, there are still open points.\\nA: Who negotiates with the client?\\nB: The team negotiates together."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "to convince"
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: Did the presentation convince you?\\nB: Yes, Verumius convinced me completely.\\nA: The arguments were convincing.\\nB: Especially the aqueduct example."
+  },
+  {
+    "line": 272,
+    "field": "src",
+    "english": "to summarize"
+  },
+  {
+    "line": 272,
+    "field": "exampleSrc",
+    "english": "A: Can you summarize the results?\\nB: I will briefly summarize: the project was a success.\\nA: A good summary saves time.\\nB: In summary, one can say: we are on track."
+  },
+  {
+    "line": 273,
+    "field": "hint",
+    "english": "The damit clause expresses WHY he starts with the comparison: so that they understand."
+  },
+  {
+    "line": 274,
+    "field": "hint",
+    "english": "The 'so + adjective' pattern expresses a degree that leads to a consequence. Fill in the connector that introduces the resulting clause."
+  },
+  {
+    "line": 274,
+    "field": "sSrc",
+    "english": "The presentation was so convincing that the boss said 'Well done.'"
+  },
+  {
+    "line": 280,
+    "field": "hint",
+    "english": "'Sofern' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose. Three constructs."
+  },
+  {
+    "line": 281,
+    "field": "hint",
+    "english": "A separable verb whose prefix belongs at the end. Different subjects in the two clauses: the speaker acts so that others benefit."
+  },
+  {
+    "line": 288,
+    "field": "src",
+    "english": "Verumius sits down. His hands tremble slightly. But he is smiling. The aqueduct stands."
+  },
+  {
+    "line": 291,
+    "field": "desc",
+    "english": "Everything from Unit 27 on the test bench. Show you can structure a presentation, formulate conditions, express results, and state purposes."
+  },
+  {
+    "line": 292,
+    "field": "unknown",
+    "english": "Test your complete knowledge from Unit 27"
+  },
+  {
+    "line": 293,
+    "field": "unknown",
+    "english": "Prove confidence with all three grammar constructs"
+  },
+  {
+    "line": 294,
+    "field": "unknown",
+    "english": "Master professional German presentation language"
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "Break room. He runs through the presentation in his head. Introduction, body, conclusion. Condition, result, purpose. The three pillars stand. Now he has to prove they hold."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "attendance list"
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: Did you sign the attendance list?\\nB: Yes, my name is on the attendance list.\\nA: The attendance list goes into the minutes.\\nB: Please check the attendance list."
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "position paper, thesis paper"
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: Did you read the position paper?\\nB: Yes, the theses are clearly formulated.\\nA: A good position paper is the basis of every discussion.\\nB: I distribute my position paper before the presentation."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "table document, meeting handout"
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: The table document is in front of you.\\nB: Thanks. I will quickly read through it.\\nA: The table document summarizes the key points.\\nB: Very clear. That helps with taking notes."
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "core topic"
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: What is the core topic today?\\nB: The core topic is budget planning.\\nA: Please do not deviate from the core topic.\\nB: Everything revolves around the core topic."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "basic idea, fundamental concept"
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: What is the basic idea of your presentation?\\nB: The basic idea is: structure creates success.\\nA: A clear basic idea convinces.\\nB: Without a basic idea, the presentation lacks direction."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "rules of procedure"
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: According to the rules of procedure, we need a majority.\\nB: The rules of procedure govern the process.\\nA: Is there a procedural motion?\\nB: Yes, I move for a vote."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "meaningful, informative"
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: Are the data meaningful?\\nB: Yes, very meaningful.\\nA: We need informative results.\\nB: Without meaningful numbers, nobody makes decisions."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "in overview form"
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: Present the results in overview form.\\nB: Gladly. Here is a summary in overview form.\\nA: Overview form is enough for the beginning.\\nB: Details follow in the discussion."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "applicable, accurate"
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: Is this statement accurate?\\nB: Yes, the description is completely accurate.\\nA: Please mark what applies.\\nB: Not everything written is accurate."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "appropriate, adequate"
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: Was the tone appropriate?\\nB: Yes, completely appropriate for the situation.\\nA: An appropriate reaction is important.\\nB: Not too much, not too little. Appropriate."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "summarizing, in summary"
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: In summary, one can say: the presentation was a success.\\nB: Yes, in summary, I am satisfied.\\nA: Can you present that in summary form?\\nB: Summarizing in one sentence: it worked."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "in closing, finally"
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: In closing, I would like to emphasize: teamwork was the key.\\nB: One more question in closing?\\nA: Yes, in closing: when is the next appointment?\\nB: In closing, we agree on the schedule."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "building on that, following up"
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: Building on that, I would like to add...\\nB: Good point. Building on that, I ask...\\nA: Building on that, I see a solution.\\nB: Thank you for building on that."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "regarding this, in this regard"
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Regarding this, I have a question.\\nB: Please, what would you like to know regarding this?\\nA: Regarding this, there is a proposal.\\nB: I will get back to you regarding this."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "likewise, equally"
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: The presentation was good. The discussion likewise.\\nB: Equally important is the follow-up.\\nA: I see it likewise.\\nB: Likewise, I would like to thank Mia."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "to conclude, to finalize"
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: We will conclude the discussion.\\nB: Good. Can we close the topic?\\nA: The contract is finalized.\\nB: Concluded and done."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "to explain, to elucidate"
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: Can you explain that in more detail?\\nB: Gladly. I will explain it using an example.\\nA: Thanks for the detailed explanation.\\nB: I am happy to explain further details."
+  },
+  {
+    "line": 314,
+    "field": "src",
+    "english": "to demonstrate"
+  },
+  {
+    "line": 314,
+    "field": "exampleSrc",
+    "english": "A: I will demonstrate the new function.\\nB: Please demonstrate step by step.\\nA: The results demonstrate the success.\\nB: A practical example demonstrates it best."
+  },
+  {
+    "line": 315,
+    "field": "src",
+    "english": "to add, to append"
+  },
+  {
+    "line": 315,
+    "field": "exampleSrc",
+    "english": "A: May I add something?\\nB: Please, feel free to add something.\\nA: I would like to append a remark.\\nB: Gladly. What would you like to add?"
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "to enclose, to attach"
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "A: I am attaching the minutes.\\nB: Thanks. Can you also attach the table document?\\nA: All documents are attached.\\nB: Perfect. I have received everything."
+  },
+  {
+    "line": 322,
+    "field": "hint",
+    "english": "The pattern 'so + adjective, dass...' shows the result of a quality. Clear speaking led to the nodding."
+  },
+  {
+    "line": 323,
+    "field": "hint",
+    "english": "Choose the formal B2 conditional connector that is more precise than 'wenn', implying a strict condition."
+  },
+  {
+    "line": 323,
+    "field": "sSrc",
+    "english": "Provided that all participants agree, we can start the project."
+  },
+  {
+    "line": 329,
+    "field": "hint",
+    "english": "One construction expresses the speaker's goal (purpose). The other describes what actually occurred as a consequence (result). Which is which?"
+  },
+  {
+    "line": 330,
+    "field": "hint",
+    "english": "Three constructs in one sentence: the formal conditional opener, the result-clause connector, and the infinitive purpose marker."
+  },
+  {
+    "line": 342,
+    "field": "hint",
+    "english": "'Gesetzt den Fall' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 343,
+    "field": "hint",
+    "english": "A formal verb meaning 'to explain in detail'. More thorough than a simple 'erklären'."
+  },
+  {
+    "line": 343,
+    "field": "sSrc",
+    "english": "Can you explain that in more detail?"
+  },
+  {
+    "line": 346,
+    "field": "desc",
+    "english": "After the presentation: coffee, praise, and reflection. Learn formal presentation phrases, understand German praise culture, and review all constructs from Unit 27."
+  },
+  {
+    "line": 347,
+    "field": "unknown",
+    "english": "Learn formal presentation phrases and polite interjections"
+  },
+  {
+    "line": 348,
+    "field": "unknown",
+    "english": "Understand German professional praise culture"
+  },
+  {
+    "line": 349,
+    "field": "unknown",
+    "english": "Review all grammar constructs from Unit 27"
+  },
+  {
+    "line": 351,
+    "field": "src",
+    "english": "Office kitchen after the presentation. Colleagues stand around with coffee. Verumius at the center, still slightly dazed. Mia leans against the counter."
+  },
+  {
+    "line": 352,
+    "field": "src",
+    "english": "See? I told you so. Your presentation was so clearly structured that even Herr Braun laughed."
+  },
+  {
+    "line": 353,
+    "field": "src",
+    "english": "The boss said 'Well done.' Two words. But somehow they feel like a whole round of applause."
+  },
+  {
+    "line": 354,
+    "field": "src",
+    "english": "That IS applause. In Germany. Get used to it."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "Later, Verumius checks the group chat. Lukas has sent a voice note: 'The Roman aqueduct? Hahaha, typical Verumius. By the way, the music school is running. First students!'"
+  },
+  {
+    "line": 356,
+    "field": "src",
+    "english": "I would like to point that out"
+  },
+  {
+    "line": 356,
+    "field": "exampleSrc",
+    "english": "A: I would like to point out that the numbers are outdated.\\nB: Thank you for the hint.\\nA: I would also like to point out that the date is changing.\\nB: Good that you point that out."
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "allow me"
+  },
+  {
+    "line": 357,
+    "field": "exampleSrc",
+    "english": "A: Allow me a remark?\\nB: Of course, please.\\nA: Allow me to briefly summarize.\\nB: Please, go ahead."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "if I may"
+  },
+  {
+    "line": 358,
+    "field": "exampleSrc",
+    "english": "A: If I may, I would like to add an example.\\nB: Please, go ahead.\\nA: If I may: I see that differently.\\nB: Of course you may."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "might I ask you"
+  },
+  {
+    "line": 359,
+    "field": "exampleSrc",
+    "english": "A: Might I ask you to send the documents?\\nB: Of course, I will send them immediately.\\nA: Might I ask you to speak a bit more quietly?\\nB: Of course, apologies."
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "would you be so kind"
+  },
+  {
+    "line": 360,
+    "field": "exampleSrc",
+    "english": "A: Would you be so kind as to pass the microphone?\\nB: Of course, here you go.\\nA: Would you be so kind as to close the door?\\nB: My pleasure."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "it would be agreeable to me"
+  },
+  {
+    "line": 361,
+    "field": "exampleSrc",
+    "english": "A: It would suit me if we begin at 2 PM.\\nB: It would suit me too.\\nA: Would that be agreeable to you?\\nB: Yes, that would suit me very well."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "may I briefly interject"
+  },
+  {
+    "line": 362,
+    "field": "exampleSrc",
+    "english": "A: May I briefly interject?\\nB: Of course, please.\\nA: I would like to briefly interject: the number is wrong.\\nB: Thanks for interjecting. Good point."
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "I now come to the next point"
+  },
+  {
+    "line": 363,
+    "field": "exampleSrc",
+    "english": "A: I now come to the next point.\\nB: Please, continue.\\nA: I now come to the next point: the finances.\\nB: Thanks for the clear structure."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "by (doing something)"
+  },
+  {
+    "line": 364,
+    "field": "exampleSrc",
+    "english": "A: He convinced the audience by giving examples.\\nB: By practicing, you get better.\\nA: You learn by making mistakes.\\nB: Exactly. By doing it, you understand it."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "by the fact that"
+  },
+  {
+    "line": 365,
+    "field": "exampleSrc",
+    "english": "A: By the fact that he was well prepared, he convinced.\\nB: By the fact that everyone contributed, the result was good.\\nA: Success arises by working together.\\nB: By the fact that we practice, we get better."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "by means of"
+  },
+  {
+    "line": 366,
+    "field": "exampleSrc",
+    "english": "A: By means of a diagram, he explained the data.\\nB: By means of this method, we can solve the problem.\\nA: The analysis was carried out by means of statistical methods.\\nB: By means of practical examples, the topic became tangible."
+  },
+  {
+    "line": 375,
+    "field": "desc",
+    "english": "Present arguments, introduce proposals, and weigh options. Academic vocabulary for structured debate and professional communication."
+  },
+  {
+    "line": 376,
+    "field": "unknown",
+    "english": "Learn verbs for structured argumentation"
+  },
+  {
+    "line": 377,
+    "field": "unknown",
+    "english": "Present and compare viewpoints"
+  },
+  {
+    "line": 378,
+    "field": "unknown",
+    "english": "Use transitional phrases in debate"
+  },
+  {
+    "line": 380,
+    "field": "src",
+    "english": "with the help of"
+  },
+  {
+    "line": 380,
+    "field": "exampleSrc",
+    "english": "A: With the help of practical examples, he explained the topic.\\nB: With the help of diagrams, data become vivid.\\nA: With the help of colleagues, we managed it.\\nB: With the help of technology, everything goes faster."
+  },
+  {
+    "line": 381,
+    "field": "src",
+    "english": "chairperson"
+  },
+  {
+    "line": 381,
+    "field": "exampleSrc",
+    "english": "A: The chairperson opens the meeting.\\nB: The chairwoman has the floor.\\nA: Who is the new chairperson?\\nB: Frau Meyer was elected chairwoman."
+  },
+  {
+    "line": 382,
+    "field": "src",
+    "english": "to carry out, to elaborate"
+  },
+  {
+    "line": 382,
+    "field": "exampleSrc",
+    "english": "A: We carry out the plan as discussed.\\nB: As I have already elaborated, the data are clear.\\nA: Can you elaborate on that?\\nB: Gladly. I will elaborate the point in detail."
+  },
+  {
+    "line": 383,
+    "field": "src",
+    "english": "to submit, to present a proposal"
+  },
+  {
+    "line": 383,
+    "field": "exampleSrc",
+    "english": "A: I submit a proposal to you.\\nB: Please, submit your proposal.\\nA: We submitted an offer to the board.\\nB: The submitted proposal will be examined."
+  },
+  {
+    "line": 384,
+    "field": "src",
+    "english": "to develop, to elaborate in detail"
+  },
+  {
+    "line": 384,
+    "field": "exampleSrc",
+    "english": "A: We still need to develop the plan.\\nB: I will work out the details.\\nA: The concept is well developed.\\nB: By Friday, everything will be worked out."
+  },
+  {
+    "line": 385,
+    "field": "src",
+    "english": "to introduce, to implement"
+  },
+  {
+    "line": 385,
+    "field": "exampleSrc",
+    "english": "A: We are introducing a new system next week.\\nB: When will it be introduced?\\nA: The introduction is planned for Monday.\\nB: Good. Please inform all employees."
+  },
+  {
+    "line": 386,
+    "field": "src",
+    "english": "to compile, to gather"
+  },
+  {
+    "line": 386,
+    "field": "exampleSrc",
+    "english": "A: We compile the results.\\nB: I have compiled all the data.\\nA: Please compile the information by tomorrow.\\nB: Everything compiled and sorted."
+  },
+  {
+    "line": 387,
+    "field": "src",
+    "english": "to refer to"
+  },
+  {
+    "line": 387,
+    "field": "exampleSrc",
+    "english": "A: I refer to the 2025 study.\\nB: The reference is justified.\\nA: He referred to earlier results.\\nB: May I refer to page 3?"
+  },
+  {
+    "line": 388,
+    "field": "src",
+    "english": "to hint at, to suggest"
+  },
+  {
+    "line": 388,
+    "field": "exampleSrc",
+    "english": "A: He hinted at changes.\\nB: What did he hint at?\\nA: The hints were vague.\\nB: Sometimes you have to read between the lines."
+  },
+  {
+    "line": 389,
+    "field": "src",
+    "english": "to transition, to segue"
+  },
+  {
+    "line": 389,
+    "field": "exampleSrc",
+    "english": "A: I transition to the next topic.\\nB: The transition was very elegant.\\nA: How does one best transition?\\nB: With a connecting sentence."
+  },
+  {
+    "line": 390,
+    "field": "src",
+    "english": "to present, to introduce"
+  },
+  {
+    "line": 390,
+    "field": "exampleSrc",
+    "english": "A: I present the results.\\nB: May I introduce my colleague?\\nA: Please introduce yourself briefly.\\nB: I would like to present our new concept to you."
+  },
+  {
+    "line": 391,
+    "field": "src",
+    "english": "to weigh against each other"
+  },
+  {
+    "line": 391,
+    "field": "exampleSrc",
+    "english": "A: We must weigh the options against each other.\\nB: Yes, weigh all advantages and disadvantages.\\nA: First weigh, then decide.\\nB: That is how one makes well-founded decisions."
+  },
+  {
+    "line": 392,
+    "field": "text",
+    "english": "In many cultures, praise is expressed lavishly. In German professional culture, 'Gut gemacht' from a manager is already high praise.\\n\\n'Nicht schlecht' (not bad) is a genuine compliment.\\n'Passt' (fine/okay) means: everything is in order.\\n'Gut gemacht' means: you have exceeded expectations.\\n\\nGermans tend to understate positive feedback and express criticism directly. If nothing negative is said, things are going well. When 'Gut gemacht' is spoken, you have done something remarkable."
+  },
+  {
+    "line": 392,
+    "field": "text",
+    "english": "In German professional culture, excessive praise loses its value. 'Großartig!' after every little thing wears thin. That is why Germans give praise sparingly, so it retains weight. When a German manager says 'Das haben Sie gut gemacht,' they MEAN it. The praise is genuine because it is rare. Verumius has just experienced this: two words that feel like a full round of applause."
+  },
+  {
+    "line": 398,
+    "field": "hint",
+    "english": "This formula uses an imperative of the verb meaning 'to permit' addressed formally. It is the most elevated way to ask for the floor in German."
+  },
+  {
+    "line": 399,
+    "field": "hint",
+    "english": "The subordinating connector that describes the METHOD of an action. It answers the question 'how?' rather than 'why?' or 'when?'."
+  },
+  {
+    "line": 399,
+    "field": "sSrc",
+    "english": "He convinced the audience by using practical examples."
+  },
+  {
+    "line": 405,
+    "field": "hint",
+    "english": "'Vorausgesetzt dass' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 412,
+    "field": "src",
+    "english": "Later, at the window. The city glows. Somewhere out there the next presentation waits. But this time he knows: he can do it. In German. In his own way."
+  }
+]

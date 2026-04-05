@@ -1,7 +1,7 @@
 # CLAUDE.md — VerumLingua Project Instructions
 
 > Read this file FIRST. It is the single source of truth.
-> When this file and `docs/VERUMLINGUA_REHAUL_VISION.md` conflict, the vision doc wins.
+> When this file and `docs/vision/VERUMLINGUA_REHAUL_VISION.md` conflict, the vision doc wins.
 
 ---
 
@@ -9,7 +9,7 @@
 
 VerumLingua is a multilingual language learning platform (React 18 + Vite). Vision: ANY source language to ANY target language. Nothing hardcoded for one language pair.
 
-**Platform Rehaul (active)**: Complete redesign underway. See `docs/VERUMLINGUA_REHAUL_VISION.md`. Key changes: 2-bubble word cards with fun info + POS/gender tags, story system with Verumius protagonist, language-specific settings, interleaved lesson flow. German is the template language (first to get full rehaul).
+**Platform Rehaul (active)**: Complete redesign underway. See `docs/vision/VERUMLINGUA_REHAUL_VISION.md`. Key changes: 2-bubble word cards with fun info + POS/gender tags, story system with Verumius protagonist, language-specific settings, interleaved lesson flow. German is the template language (first to get full rehaul).
 
 **Owner is NOT a coder.** Claude commits + pushes to GitHub. GitHub Actions deploys to mijndomein.nl via FTPS. lingoverse.nl updates in ~2 minutes.
 
@@ -49,13 +49,16 @@ npm run build                 # Production build (validates compilation)
 ### Engine (split into modules)
 | File | Lines | Contents |
 |------|-------|----------|
-| `src/verumlingua.jsx` | ~6,287 | Pages (Home, Profile, VocabularyPage, UnitMap, etc.) + App root |
-| `src/components/LessonEngine.jsx` | ~3,918 | All 4 teach card renderers + quiz renderers + lesson flow |
-| `src/components/shared.jsx` | ~270 | Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton |
+| `src/App.jsx` | ~647 | **Real entry point.** Routing, state, React.lazy page loading, bottom nav |
+| `src/components/LessonEngine.jsx` | ~4,036 | All 4 teach card renderers + quiz renderers + lesson flow. **Remaining monolith — splitting planned.** |
+| `src/components/shared.jsx` | ~551 | Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon |
 | `src/styles.js` | ~1,031 | CSS-in-JS design system |
 | `src/utils.js` | ~664 | Normalization (`_normStep`), UNITS assembly, search, PP8 validator, helpers |
 | `src/audio.jsx` | ~267 | TTS, SpeakerButton, UISounds, feature flags |
 | `src/hooks.js` | ~181 | `useFocusNav` keyboard navigation hook |
+| `src/pages/*.jsx` | 13 files | All pages (Home, LearnPage, VocabularyPage, GrammarPage, CefrReferencePage, Flashcards, Quiz, Chat, Profile, IdiomsPage, AuthScreen, Onboarding, DevGate) |
+
+> **Entry point**: `src/main.jsx` → `src/App.jsx`. Legacy `verumlingua.jsx` deleted (was 6,010 lines of dead code).
 
 ### Normalization Layer (`_normStep()` in `src/utils.js`)
 Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exampleEn`↔`exampleSrc`). Sets `_origTrg=true` on cards originally written with `trg`. Engine accepts BOTH formats transparently.
@@ -65,7 +68,7 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 1. **New format**: `st._origTrg` — for `trg`/`src` cards
 2. **Board-mode**: `boardMode` — for `nl`/`en` cards
 3. **Legacy**: gold frame — for legacy new-word cards
-4. **Flashcard**: review system (in `src/verumlingua.jsx` Flashcards component)
+4. **Flashcard**: review system (in `src/pages/Flashcards.jsx`)
 
 ---
 
@@ -190,7 +193,7 @@ Five leak types. ALL must be zero:
 
 ## Agent Deployment Rules
 
-> Rationale for each rule: `docs/RULES_RATIONALE.md`
+> Rationale for each rule: `docs/agents/RULES_RATIONALE.md`
 
 ### Rule A: Verification & Evidence
 1. NEVER claim something is "missing" without grepping the actual data file. Search multiple representations.
@@ -206,9 +209,9 @@ Five leak types. ALL must be zero:
 5. Sonnet 4.6+ minimum for content. Opus for creative/complex, Sonnet for validation.
 6. Pre-digest data in agent prompts instead of making agents read large files.
 7. **MAX 4 agents at a time. NEVER MORE.** Check usage before deploying. Never burn >50% session on one batch. 12+ simultaneous Opus agents = session death.
-8. **Every content agent prompt MUST include `docs/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
-9. **Every story agent prompt MUST include `docs/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
-10. **Agents read `docs/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
+8. **Every content agent prompt MUST include `docs/agents/AGENT_CONTENT_RULES.md` in full.** This replaces inline PP61 copying. The file has the complete linguistic expert persona + all rules.
+9. **Every story agent prompt MUST include `docs/agents/AGENT_STORY_RULES.md` in full.** Master playwright persona + narrative rules.
+10. **Agents read `docs/agents/FORMAT_TEMPLATE.js` for format reference.** Never make agents scan 10K-line unit files. The template is 2KB.
 11. **Agents read per-unit files** (`src/data/german-v2/unit-NN.js`, ~250 lines each). NEVER the re-export (`units-german-v2.js`) or the full monolith. Per-unit = ~2K tokens. Re-export = useless wrapper. Old monolith = 110K tokens = session death.
 12. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
 13. **Token budget per agent:** Validation agent (4 units) ~10K tokens input. Content agent (1 unit) ~4K tokens. Story agent (1 unit) ~5K tokens. If an agent needs >40K input tokens, redesign the task.
@@ -301,7 +304,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **CEFR Reference redesign** (2026-03-31): All-purple level pills, muted gray translations, inline POS tags, clean flexbox layout. Removed 4-column grid.
 - **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
 - **German grammar module** (2026-04-02): 58 entries across A1 (16), A2 (13), B1 (16), B2 (13). All Goethe-Institut constructs. Zero em-dashes (PP22c). All entries have 3-5 sentence teacher-board quality explanations. 20 conjugation/declension tables (sein/haben, regular verbs, modals, articles, cases, adjective endings, passive, Konjunktiv, etc.).
-- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Both standalone (`src/pages/GrammarPage.jsx`) and inline (`src/verumlingua.jsx`) updated.
+- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Standalone `src/pages/GrammarPage.jsx` updated.
 - **GrammarPage v2 + teacher-board rewrite** (2026-04-03): Full redesign. Mobile bottom sheet (useBottomSheet + useSwipe), desktop glossy modal. Explanation-first layout. HTML table for pixel-perfect alignment. Full-width list cards (no emoji icons). All 58 entries rewritten: dense paragraphs → bold headings, short sentences, one idea per line, child-friendly. One bullet per item. 142 umlaut violations fixed. Muted purple translations (not teal). Portal rendering for .anim escape.
 
 ### Known Blockers
@@ -313,7 +316,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 6. ~~pos/gender fields missing~~ — **RESOLVED.** All 5,147 teach cards tagged (PP59 PASS).
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
 8. ~~Arabic A1 translation~~ — **RESOLVED.** A1+A2 fully translated. 19 B1/B2 units remain (PAUSED).
-9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage. See `docs/SESSION_HANDOFF_2026-03-30d.md`.
+9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage.
 10. ~~Dictionary: unknown word fallback~~ — **RESOLVED.** Unknown words now tappable with subtle style + "Not yet catalogued" popup.
 11. ~~Dictionary: proper noun detection~~ — **RESOLVED.** Capitalization heuristic detects names. Warm grey + "PROPER NOUN" badge.
 12. ~~GrammarPage~~ — **RESOLVED.** Generalized to load from `GRAMMAR_REFS[lang]`. Dutch data extracted to `src/data/grammar/dutch.js`. "Coming soon" for unsupported languages. Note: Dutch content is MOCK quality.
@@ -322,21 +325,82 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 15. ~~German CEFR POS tags~~ — **RESOLVED.** All 1,620 `p:"other"` entries fixed with correct POS tags.
 16. ~~Word popup crash~~ — **RESOLVED.** Missing `LANG_DICT` import in LessonEngine.jsx. WordBubble + MiniWordPopup now work.
 17. ~~CEFR Reference visual design~~ — **RESOLVED.** All-purple level pills, muted translations, inline POS tags, clean layout.
-18. **CEFR data lemma quality** — Messy entries like `(ab)fliegen, fliegt (ab)` need normalization to clean lemmas.
-19. **Lesson engine word coloring** — POS colors (universalHl) applying to ALL words on render instead of only on tap. Story/teach cards show rainbow text instead of clean black. Fix in `src/components/LessonEngine.jsx`.
+18. ~~CEFR data lemma quality~~ — **RESOLVED.** 779 entries normalized to clean headwords.
+19. ~~Lesson engine word coloring~~ — **RESOLVED** (2026-04-04). `grammarHl` default changed to false. Note text removed from `universalHl`. PR #99.
+20. ~~CEFR page is raw word list~~ — **RESOLVED.** Progress Tracker redesign: progress panel, per-level bars, filter toggles, learned checkmarks.
+21. ~~`verumlingua.jsx` is dead code~~ — **RESOLVED.** Deleted (6,010 lines). `App.jsx` is the real entry.
+22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
+23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
 
 ---
 
-## Next Priorities
+## Next Priorities (updated 2026-04-04)
 
-1. ~~CEFR data lemma cleanup~~ — **RESOLVED.** 779 entries normalized to clean headwords.
-2. ~~German idioms module~~ — **RESOLVED.** 45 idioms (A1-B2) in `src/data/grammar/idioms-german.js`. Wired into IdiomsPage.
-3. ~~Grammar page redesign~~ — **RESOLVED.** (2026-04-03) Full rewrite + 58 entries teacher-board quality. PR #96.
-4. **Arabic source language completion** — 19 B1/B2 units with [AR] markers. ~4,500 markers remain. WIP rescued on `claude/fervent-jones`.
-5. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
-6. **LessonEngine RTL** — Apply `srcDir` to all source-text containers.
-7. **Other language rehauling**: Korean → Dutch → French → Spanish (v1 → v2 upgrade). German v2 is the template.
-8. **Dutch grammar teacher-board rewrite** — Current Dutch grammar is mock/placeholder. Needs same treatment as German.
+> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-05.md`.
+
+### Phase 1: German EN→DE Polish (DONE)
+1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
+2. ~~Delete `verumlingua.jsx`~~ — **DONE.** 6,010 lines removed.
+3. ~~Fill Cases grammar pack~~ — **DONE.** Preposition/article/pronoun colorMap.
+4. ~~Fix Arabic A1+A2 markers~~ — **DONE.** Already clean.
+5. ~~Document LessonEngine split roadmap~~ — **DONE.** See Refactoring Roadmap section below.
+
+### Phase 1.5A: Feature Polish (NEXT — do before Arabic)
+Make existing features actually work properly for German:
+6. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
+7. **Flashcards German v2** — Verify `VOCAB[lang]` maps correctly to German v2 `trg/src` data.
+8. **Idioms page search/filter** — 45 entries with no way to filter by level or search.
+9. **"Continue Learning" on home** — Every user sees same generic greeting. Returning users need resume prompt.
+10. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
+
+### Phase 1.5B: Grammar Visualization (POST-LAUNCH)
+The VL vision of full sentence breakdown with POS/gender colors inline. Deferred — not blocking launch:
+- Visual sentence analysis mode (see POS/gender on every word at a glance)
+- Cases pack with per-preposition case governance
+- Grammar toggle default behavior review
+- Sentence-level word-by-word breakdown display
+
+### Phase 2: Arabic B1+B2 Translation
+11. **Arabic source completion** — 20 units, ~12,757 [AR] markers. Sonnet agents, max 4 at a time.
+12. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
+13. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+
+### Phase 3: Navigation + Flow Redesign
+14. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
+15. **Smooth transitions** — Page animations, lesson completion celebrations.
+
+### Phase 4: Audio/TTS
+16. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
+17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
+
+### Phase 5: V1→V2 Language Upgrades
+18. **Korean** (most audited) → **Dutch** → **French** → **Spanish** — v1 → v2 format.
+19. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
+
+### Phase 6: Premium Visual Overhaul
+20. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
+16. **Full visual overhaul** — Icons, micro-animations, effects, music. Owner acknowledges prototype feel.
+
+---
+
+## Refactoring Roadmap
+
+### Completed
+- All pages split to `src/pages/` (13 files, React.lazy loaded from `src/App.jsx`)
+- All shared components to `src/components/` (8 files)
+- `src/verumlingua.jsx` deleted (was 6,010 lines of dead code, zero imports)
+
+### Planned: LessonEngine.jsx Splitting
+`src/components/LessonEngine.jsx` (4,036 lines) is the remaining monolith. Not blocking, for future sessions:
+- `src/components/lesson/WordBubble.jsx` — word info popup (~300 lines)
+- `src/components/lesson/MiniWordPopup.jsx` — compact popup (~100 lines)
+- `src/components/lesson/GrammarColorPicker.jsx` — pack selector UI (~150 lines)
+- `src/components/lesson/StepRenderers.jsx` — teach/story/tip/quiz renderers (~2,000 lines)
+
+### Planned: LearnPage.jsx Splitting
+`src/pages/LearnPage.jsx` (1,386 lines) — lower priority:
+- `UnitSelector.jsx` — unit/lesson picker
+- `FoundationsMode.jsx` — foundations flow (GateQuiz + Playthrough)
 
 ---
 
@@ -344,47 +408,40 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ### Tier 1: Authoritative
 - **`CLAUDE.md`** (this file) — Single source of truth. Read first.
-- **`docs/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec. Supersedes conflicts.
-- **`docs/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
+- **`docs/vision/VERUMLINGUA_REHAUL_VISION.md`** — Platform rehaul spec. Supersedes conflicts.
+- **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/GERMAN_MASTER_BATCH_PLAN.md`** — German rehaul execution plan.
-- **`docs/GERMAN_REHAUL_PLAN.md`** — D119 concept catalogue (116 grammar constructs, story bible, 6-6-12-12).
-- **`docs/german/`** — Word lists, grammar mappings, scene breakdowns, lesson designs, salvage.
-- **`docs/SESSION_HANDOFF_2026-04-03.md`** — Latest session handoff (Grammar page v2 redesign + 58 entries teacher-board rewrite + repo cleanup).
-- **`docs/SESSION_HANDOFF_2026-04-02d.md`** — Previous handoff (German polish: CEFR lemmas, idioms, grammar audit).
-- **`docs/SESSION_HANDOFF_2026-03-31.md`** — Previous handoff (word popup crash fix + CEFR reference redesign).
-- **`docs/SESSION_HANDOFF_2026-03-30e.md`** — Previous handoff (dictionary 100% coverage + grammar/idioms generalization).
-- **`docs/SESSION_HANDOFF_2026-03-30d.md`** — Previous handoff (dictionary color system fix).
-- **`docs/SESSION_HANDOFF_2026-03-30c.md`** — Previous handoff (mobile optimization + chat fix).
-- **`docs/SESSION_HANDOFF_2026-03-29c.md`** — Milestone: German v2 PERFECT validation.
+- **`docs/SESSION_HANDOFF_2026-04-05.md`** — **Latest handoff.** Phase 1.5A complete. Next: fix plumbing.
+- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — Previous handoff. Phase 1 complete.
+- **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
-- **`docs/RULES_RATIONALE.md`** — Why each agent rule exists.
+- **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
 
 ### Tier 2.5: Agent Infrastructure
-- **`docs/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
-- **`docs/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
-- **`docs/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
+- **`docs/agents/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
+- **`docs/agents/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
+- **`docs/agents/AGENT_TRANSLATION_RULES.md`** — Translation + cultural adaptation rules for source-to-target pipelines.
+- **`docs/agents/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
 
-### Tier 3: Specialized
-- **`docs/CONCEPT_REGISTRY.md`** — Machine-searchable grammar/vocab index.
-- **`docs/SETTINGS_PANEL_HANDOFF.md`** — Settings panel V1 gaps.
-- **`docs/DICTIONARY_SYSTEM_HANDOFF.md`** — Korean deep dictionary.
-- **`docs/KOREAN_B1_CURRICULUM_DESIGN.md`** — Pedagogical template for level design.
-
-### Archived (`docs/archive/`)
-Historical docs. Not needed for current work.
+### Tier 3: Specialized (by subdirectory)
+- **`docs/vision/`** — Rehaul vision, visual/audio layer, German rehaul plan
+- **`docs/agents/`** — Content/story/translation rules, format template, rules rationale
+- **`docs/reference/`** — Dictionary, settings, word tags, foundations, language pipeline, concept registry
+- **`docs/german/`** — Scene breakdowns, communicative functions mapping
+- **`docs/korean/`** — B1 curriculum design, TOPIK coverage report
 
 ---
 
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-03-31.md` for latest context.
-3. Check memory files (`~/.claude/projects/.../memory/`).
-4. Before audits: follow Rule A (grep actual code, never trust docs alone).
-5. Before content: re-read Pipeline Rules above.
+2. Check `docs/SESSION_HANDOFF_2026-04-04b.md` for latest context.
+3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
+4. Check memory files (`~/.claude/projects/.../memory/`).
+5. Before audits: follow Rule A (grep actual code, never trust docs alone).
+6. Before content: re-read Pipeline Rules above.
 
 ---
 

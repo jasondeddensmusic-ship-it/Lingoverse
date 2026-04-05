@@ -1,0 +1,3387 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Verumius stands in front of the Goethe-Institut. Today is the B2 exam day. Same door as the B1 exam, but the expectations are higher."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn 17 words related to the exam"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Understand the four sections of the Goethe B2"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Express nervousness and determination"
+  },
+  {
+    "line": 9,
+    "field": "unknown",
+    "english": "Know exam strategies in German"
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "Early morning. Berlin. The Goethe-Institut on Neue Schönhauser Straße. Verumius stands at the entrance, hands in his jacket pockets. He has been here before, for the B1 exam. Same door. Same steps. But today the certificate says B2."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "Exam day. Again. But this time everything is harder. Reading comprehension, listening comprehension, writing, speaking. Four parts. Three hours."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "He takes a deep breath. He thinks of Dr. Yilmaz: 'You can do this. You worked hard.' He thinks of Hildi correcting his dative for two years. He thinks of every Döner ordered, every form filled out, every misunderstanding survived."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "By staying calm and working systematically, I can do this. I am prepared."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "He pushes through the glass door. The exam room waits."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "exam section"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Prüfung (exam) + Teil (part). An exam section.\\nDer Goethe B2 hat vier Prüfungsteile."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: How many exam sections does the B2 exam have?\\nB: Four exam sections.\\nA: Which exam section is the hardest?\\nB: For me, the listening comprehension."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "Prüfung (exam) + Teil (part). The Goethe B2 has four Prüfungsteile: Lesen, Hören, Schreiben, Sprechen. Masculine because Teil is masculine. Each Teil has its own time limit."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "listening comprehension"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Hören (to hear) + Verstehen (understanding).\\nTests understanding of spoken German at natural speed."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: The listening comprehension was hard.\\nB: Yes, the speakers were very fast.\\nA: How do you practice listening comprehension?\\nB: With podcasts and radio."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Hören (to hear) + Verstehen (understanding). Das Hörverstehen tests whether you can understand spoken German at natural speed. Radio interviews, announcements, conversations. Neuter because Verstehen is neuter."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "reading comprehension"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Lesen (to read) + Verstehen (understanding).\\nRequires understanding newspaper articles and formal texts."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Reading comprehension takes 65 minutes.\\nB: That is a lot of text.\\nA: What comes in the reading comprehension?\\nB: Newspaper articles and formal letters."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Lesen (to read) + Verstehen (understanding). Das Leseverstehen requires understanding newspaper articles, formal letters, and academic texts at B2 level. The hardest section for many candidates."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "writing task"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Schreiben (to write) + Aufgabe (task).\\nAt B2: a structured essay with 250+ words in 75 minutes."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: The writing task was interesting.\\nB: What was the topic?\\nA: Digital media in school.\\nB: Oh, you can write a lot about that."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "Schreiben (to write) + Aufgabe (task). Die Schreibaufgabe at B2 level asks you to write a structured essay with introduction, arguments, and conclusion. 250+ words in 75 minutes."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "language building block"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Sprache (language) + Baustein (building block).\\nTests grammar and vocabulary in context."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What are language building blocks?\\nB: Gaps in the text that you must fill.\\nA: So a grammar test?\\nB: Yes, but in context, not in isolation."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "Sprache (language) + Baustein (building block). The Sprachbausteine section tests grammar and vocabulary in context: fill-in-the-blank with connectors, prepositions, and verb forms. Masculine because Baustein is masculine."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "text production"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Text + Produktion (production). The formal term for writing\\nan essay. At B2: argumentation, not just description."
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: Text production is the hardest part.\\nB: Why?\\nA: You have to argue, not just describe.\\nB: Structure and expression count."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "Text + Produktion (production). Die Textproduktion. The formal term for writing an essay. At B2 level, Textproduktion means argumentation, not just description. Always feminine because of the -tion ending."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "exam preparation"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Prüfung + Vorbereitung (preparation).\\nEvery Goethe-Institut offers special courses for this."
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: Did you do an exam preparation course?\\nB: Yes, an intensive course.\\nA: Did the exam preparation help?\\nB: A lot. I now know all the task types."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "Prüfung + Vorbereitung (preparation). Every Goethe-Institut offers Prüfungsvorbereitung courses. The compound is long but each part is familiar. Vorbereitung from 'vor' (before) + 'bereiten' (to prepare)."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "exam anxiety"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Prüfung + Angst (fear/anxiety). A recognized psychological\\ncondition. Even native speakers experience it."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: Do you have exam anxiety?\\nB: Yes, every time.\\nA: What helps against exam anxiety?\\nB: Breathing deeply and being well prepared."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "Prüfung + Angst (fear/anxiety). A real psychological condition recognized in Germany. Even native speakers experience Prüfungsangst. The word 'Angst' entered English directly from German."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "time allowed, processing time"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Bearbeitung (processing) + Zeit (time).\\nEvery exam section has its Bearbeitungszeit printed at the top."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: How long is the time allowed?\\nB: 75 minutes for the writing section.\\nA: Is the time allowed enough?\\nB: Barely. You have to work fast."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "Bearbeitung (processing) + Zeit (time). Every exam section has its Bearbeitungszeit printed at the top. Managing it is half the battle. Feminine because Zeit is feminine."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "to pass (an exam)"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Be- + stehen (to stand). Literally 'to stand through.'\\nStrong verb: bestehen/bestand/bestanden."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Did you pass the exam?\\nB: Yes, with 78 points!\\nA: Congratulations!\\nB: Thanks. 'Passed!' is the most beautiful word."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Be- + stehen (to stand). Literally 'to stand through.' You stand firm against the test. Strong verb: bestehen/bestand/bestanden. 'Bestanden!' is the best word on an exam certificate."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "to read through completely"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Durch (through) + lesen (to read). Separable.\\nThe essential exam strategy: read everything first."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Read the task through completely first.\\nB: Read everything through, then answer?\\nA: Exactly. Reading through saves time.\\nB: Okay, I'll read everything through."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "Durch (through) + lesen (to read). Separable. The exam strategy: durchlesen before answering. Read ALL of it first. 'Lies die Aufgabe zuerst ganz durch.'"
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "to mark, to highlight"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "From French 'marquer.' The essential exam skill.\\nMark first, answer second."
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: Mark the keywords.\\nB: With a highlighter?\\nA: Yes, marking helps with understanding.\\nB: I always mark the most important parts."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From French 'marquer.' To mark, to highlight. 'Schlüsselwörter markieren' (mark keywords). The essential exam skill. Mark first, answer second. Every Prüfungsvorbereitung teaches this."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "to correct, to proofread"
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From Latin 'corrigere.' Five minutes at the end saves\\nstupid mistakes. Always korrigieren before submission."
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Did you correct the text?\\nB: Yes, I found three mistakes.\\nA: Correcting is important.\\nB: Five minutes at the end are enough."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From Latin 'corrigere' (to correct). Korrekturlesen (proofreading) is the final exam step. Five minutes at the end saves stupid mistakes. 'Den Text korrigieren' before submission."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "to structure"
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From Latin 'structura.' Einleitung, Hauptteil, Schluss.\\nGerman examiners reward clear Struktur."
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: How do you structure your essay?\\nB: Introduction, main body, conclusion.\\nA: Well-structured texts get better grades.\\nB: Yes, structure is half the battle."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From Latin 'structura.' 'Den Aufsatz strukturieren' (to structure the essay). Einleitung, Hauptteil, Schluss. Introduction, body, conclusion. German examiners reward clear Struktur."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "advanced"
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Fort (forward) + geschritten (stepped). B2 is the\\nfortgeschritten level. Past participle used as adjective."
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: Are you a beginner?\\nB: No, advanced.\\nA: Advanced German skills?\\nB: Yes, B2 level."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "Fort (forward/onward) + geschritten (stepped). B2 is the fortgeschritten level. You have stepped forward from the basics. Past participle of 'fortschreiten' used as adjective."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "exam-relevant"
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Prüfung + relevant. 'Ist das prüfungsrelevant?' is the\\nuniversal student question across all countries."
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Is that exam-relevant?\\nB: Yes, that comes up in the exam.\\nA: Then I'll study that more carefully.\\nB: Everything here is exam-relevant."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "Prüfung + relevant. 'Ist das prüfungsrelevant?' is the universal student question. If it is on the exam, it is prüfungsrelevant. If not, why study it?"
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "on time, in good time"
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "Recht (right/proper) + zeitig (timely). Not just pünktlich\\n(punctual), but with a safety margin."
+  },
+  {
+    "line": 32,
+    "field": "exampleSrc",
+    "english": "A: Did you arrive on time?\\nB: Yes, 20 minutes before the exam.\\nA: Good. Being on time reduces stress.\\nB: Better too early than too late."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "Recht (right/proper) + zeitig (timely). Not 'pünktlich' (punctual), but 'in proper time' with a margin. Germans arrive rechtzeitig, not just pünktlich. The safety buffer is built into the word."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The four sections are Lesen, Hören, Schreiben, and Sprechen. Translation is not tested."
+  },
+  {
+    "line": 33,
+    "field": "sSrc",
+    "english": "The Goethe B2 exam has four exam sections. Which does NOT belong?"
+  },
+  {
+    "line": 34,
+    "field": "hint",
+    "english": "The separable prefix that signals reading something all the way to the end. Think of a directional prefix meaning movement through something completely."
+  },
+  {
+    "line": 34,
+    "field": "sSrc",
+    "english": "Read the task through completely first."
+  },
+  {
+    "line": 44,
+    "field": "desc",
+    "english": "The vocabulary of the exam world. Task types, assessment criteria, and instructions you find on every exam sheet."
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Learn 17 words about exams and assessment"
+  },
+  {
+    "line": 46,
+    "field": "unknown",
+    "english": "Understand different task formats"
+  },
+  {
+    "line": 47,
+    "field": "unknown",
+    "english": "Know what examiners look for"
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "task prompt, question as formulated"
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Aufgabe (task) + Stellung (positioning).\\nMisreading the Aufgabenstellung costs more points than wrong answers."
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: Read the task prompt carefully.\\nB: What does the task prompt say?\\nA: 'Take a position on the topic.'\\nB: So write an opinion."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "Aufgabe (task) + Stellung (positioning). The task prompt. Reading the Aufgabenstellung carefully is the first rule of exams. Misreading it costs more points than wrong answers."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "assessment, grade, evaluation"
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "From bewerten (to evaluate) + -ung.\\nAt B2: content, structure, grammar, and vocabulary range."
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: How is the assessment structured?\\nB: Four criteria: content, structure, grammar, vocabulary.\\nA: Do all criteria count equally?\\nB: Yes, each criterion counts equally."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "From bewerten (to evaluate) + -ung. At B2 level, Bewertung considers content, structure, grammar, and vocabulary range. Four criteria, one grade."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "criterion"
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "From Greek 'kriterion' (standard of judgment).\\nPlural: Kriterien. Same word across European languages."
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: By which criteria is it graded?\\nB: Content, structure, grammar, vocabulary.\\nA: Is each criterion equally important?\\nB: Yes, all four criteria count."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "From Greek 'kriterion' (standard of judgment). Das Kriterium, plural: Kriterien. 'Nach welchen Kriterien wird bewertet?' Same word across European languages."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "standard, yardstick, scale"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Maß (measure) + Stab (rod/staff). Literally a measuring rod.\\nAlso means the scale on a map."
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: What standard do the examiners apply?\\nB: A high standard.\\nA: Is the standard stricter at B2?\\nB: Yes, stricter than at B1."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "Maß (measure) + Stab (rod/staff). 'Einen hohen Maßstab anlegen' (to apply a high standard). Literally a measuring rod. Also means the scale on a map. Context decides."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "model answer"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Muster (sample/pattern) + Antwort (answer).\\nGoethe-Institut publishes Musterantworten for every exam level."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: Is there a model answer?\\nB: Yes, on the Goethe website.\\nA: Does the model answer help with studying?\\nB: A lot. It shows the perfect solution."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Muster (sample/pattern) + Antwort (answer). A model answer. Die Musterantwort shows what a perfect response looks like. Goethe-Institut publishes Musterantworten for every exam level."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "model solution"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "Muster + Lösung (solution). Similar to Musterantwort\\nbut for problem-solving tasks. The pattern others should follow."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Compare your answer with the model solution.\\nB: My answer is similar.\\nA: The model solution shows the ideal approach.\\nB: I see what I can do better."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "Muster (sample/pattern) + Lösung (solution). Similar to Musterantwort but for problem-solving tasks. Muster means 'pattern' here: the pattern others should follow."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "answer sheet"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Lösung (solution) + Blatt (sheet).\\nWrite final answers here, not on the question paper."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: Transfer the answers to the answer sheet.\\nB: Everything onto the answer sheet?\\nA: Yes, only the answer sheet is graded.\\nB: Good, I'll transfer everything carefully."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "Lösung (solution) + Blatt (sheet). Das Lösungsblatt. You write your final answers on the Lösungsblatt, not the question paper. Transfer carefully. Neuter because Blatt is neuter."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "gap-fill text, cloze test"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "Lücke (gap) + Text. You fill in the Lücken (gaps).\\nThe Sprachbausteine section is essentially a Lückentext."
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: What is a gap-fill text?\\nB: A text with gaps to fill in.\\nA: Like in the language building blocks section?\\nB: Exactly. Gap-fill text is the technical term."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "Lücke (gap) + Text. Der Lückentext. A cloze test. You fill in the Lücken (gaps). The Sprachbausteine section is essentially a Lückentext."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "mind map"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "English borrowing. German made it feminine,\\npossibly by analogy with 'die Karte.' Used for essay brainstorming."
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: First make a mind map.\\nB: Why a mind map?\\nA: It helps to sort ideas.\\nB: True, then I write more structured."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "English borrowing. Die Mindmap. German took the English word and made it feminine, possibly by analogy with 'die Karte/Landkarte.' Used in Prüfungsvorbereitung to organize essay ideas."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "task type"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Aufgabe + Typ (type). Multiple choice, fill-in-the-blank,\\nmatching, free writing: each is an Aufgabentyp."
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Which task type do you find easiest?\\nB: Multiple choice.\\nA: Each task type needs its own strategy.\\nB: Yes, you have to know all task types."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "Aufgabe (task) + Typ (type). Multiple choice, fill-in-the-blank, matching, free writing: each is an Aufgabentyp. Knowing the Aufgabentyp tells you what strategy to use."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "multiple-choice task"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Auswahl (selection/choice) + Aufgabe.\\nTip: eliminate wrong answers first, then choose."
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: The next task is a multiple-choice task.\\nB: So multiple choice?\\nA: Yes, one answer from four options.\\nB: I'll eliminate the wrong ones first."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "Auswahl (selection/choice) + Aufgabe. Die Auswahlaufgabe. A multiple-choice task. Tip: eliminate wrong answers first, then choose among the remaining."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "grammar exercise"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Grammatik + Übung (exercise). The Sprachbausteine section\\nis a Grammatikübung in disguise: grammar through context."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Grammar exercises are important.\\nB: Yes, you have to practice grammar.\\nA: The best grammar exercise is the cloze test.\\nB: True, grammar in context."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "Grammatik + Übung (exercise). Die Grammatikübung. The Sprachbausteine section is a Grammatikübung in disguise: testing grammar through context, not rules."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "practice task"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Übung (exercise) + Aufgabe. Doing many Übungsaufgaben\\nbefore the exam is the key to success."
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Have you done enough practice tasks?\\nB: Yes, at least 50 of them.\\nA: Many practice tasks make the patterns automatic.\\nB: Exactly, practice makes perfect."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "Übung (exercise) + Aufgabe. Die Übungsaufgabe. Doing many Übungsaufgaben before the exam is the key to success. Practice makes the patterns automatic."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "to fill out, to complete (a form)"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Aus (out/completely) + füllen (to fill). Separable.\\n'Füllen Sie das Lösungsblatt aus.' The most common exam instruction."
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Fill out the form.\\nB: Fill out everything?\\nA: Yes, fill out every field.\\nB: Also the back side?"
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "Aus (out/completely) + füllen (to fill). Separable. On the exam: 'Füllen Sie das Lösungsblatt aus.' The most common instruction. To fill completely."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "to mark with an X, to tick"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "An (on) + kreuzen (to cross). Separable.\\nEven digital exams use 'ankreuzen' metaphorically."
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Mark the correct answer.\\nB: Mark only one answer?\\nA: Yes, exactly one.\\nB: I'll mark B."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "An (on) + kreuzen (to cross). To mark with an X. Separable. 'Kreuzen Sie die richtige Antwort an.' The physical act of marking on paper. Even digital exams use 'ankreuzen' metaphorically."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "to review, to scan, to sort through"
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "From Sicht (sight/view). More formal than 'ansehen.'\\nImplies systematic examination of documents."
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: First review the material.\\nB: Review everything or just the texts?\\nA: Review everything, then sort.\\nB: Good, I'll review the documents."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From Sicht (sight/view). To review, to sort through, to scan. 'Material sichten' (to review material). More formal than 'ansehen.' Implies systematic examination of documents or texts."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "to sort, to organize"
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "From French 'sortir' (to sort out). Before writing:\\nbrainstorm, then sortieren. Order from chaos."
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: First sort your ideas.\\nB: How do I sort best?\\nA: Sort by importance.\\nB: Good, the most important points first."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From French 'sortir' (to sort out). 'Die Ideen sortieren' (to sort the ideas). Before writing the essay: brainstorm, then sortieren. Order from chaos."
+  },
+  {
+    "line": 71,
+    "field": "hint",
+    "english": "A fill-in-the-blank exercise. Lücke means gap. Each gap must be completed with the right word."
+  },
+  {
+    "line": 71,
+    "field": "sSrc",
+    "english": "A gap-fill text is..."
+  },
+  {
+    "line": 79,
+    "field": "hint",
+    "english": "The separable verb for marking with an X. The prefix 'an' goes at the end."
+  },
+  {
+    "line": 79,
+    "field": "sSrc",
+    "english": "Please mark the correct answer."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "First read the task completely. Then highlight key words. Finally fill in the answer sheet."
+  },
+  {
+    "line": 80,
+    "field": "sSrc",
+    "english": "First read through the task prompt, then mark the keywords, and finally fill out the answer sheet."
+  },
+  {
+    "line": 86,
+    "field": "hint",
+    "english": "Inhalt, Textaufbau, Grammatik, and Wortschatz count. How pretty the letters look does not."
+  },
+  {
+    "line": 86,
+    "field": "sSrc",
+    "english": "At B2 level, written texts are evaluated by four criteria. What does NOT belong?"
+  },
+  {
+    "line": 87,
+    "field": "hint",
+    "english": "A compound noun. The first part means 'model' or 'template'. The second part means 'solution'. Together they form the ideal example answer."
+  },
+  {
+    "line": 87,
+    "field": "sSrc",
+    "english": "The model solution shows what a perfect answer looks like."
+  },
+  {
+    "line": 93,
+    "field": "hint",
+    "english": "Auswahl = selection. Think about the physical gesture used to indicate your choice on paper."
+  },
+  {
+    "line": 96,
+    "field": "desc",
+    "english": "Verumius sits in the exam room. The writing task lies before him. Learn modal clauses and the language of argumentation."
+  },
+  {
+    "line": 97,
+    "field": "unknown",
+    "english": "Master modal clauses: indem, dadurch dass, ohne dass, anstatt dass"
+  },
+  {
+    "line": 98,
+    "field": "unknown",
+    "english": "Structure a B2 essay"
+  },
+  {
+    "line": 99,
+    "field": "unknown",
+    "english": "Learn the technical language of argumentation"
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "The writing task. 75 minutes. The topic: 'Should schools use more digital media in class? Take a position.' Verumius reads it twice. He breathes. He has practiced this."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "Introduction, main body, conclusion. By structuring clearly, I get good marks. Through giving examples, my text becomes convincing."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "He begins. The pen moves. Two years of German pour onto the page. Compound sentences, Konjunktiv II, connectors. The essay takes shape."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "argumentation, making a case"
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "From Latin 'argumentatio.' At B2: claim, evidence,\\ncounterargument, conclusion. Structured reasoning."
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Your argumentation is convincing.\\nB: Thanks, I gave examples.\\nA: Good argumentation needs structure.\\nB: Thesis, examples, counterargument, conclusion."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "From Latin 'argumentatio.' At B2 level, you must build a logical Argumentation: claim, evidence, counterargument, conclusion. Not just opinions, but structured reasoning."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "introduction"
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Ein (in/into) + Leitung (leading). Leads the reader\\nINTO the topic. Two to three sentences."
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: The introduction is too long.\\nB: How long should the introduction be?\\nA: Two to three sentences.\\nB: Okay, I'll shorten the introduction."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "Ein (in/into) + Leitung (leading). Die Einleitung leads the reader INTO the topic. A good Einleitung states the topic, gives context, and hints at your position."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "main body (of an essay)"
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Haupt (main) + Teil (part). Contains arguments, examples,\\nand counterarguments. The longest section."
+  },
+  {
+    "line": 106,
+    "field": "exampleSrc",
+    "english": "A: The arguments go in the main body.\\nB: How many arguments?\\nA: At least three in the main body.\\nB: Pro and con in the main body?"
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "Haupt (main) + Teil (part). Der Hauptteil contains your arguments, examples, and counterarguments. The longest section. 'Im Hauptteil entwickle ich meine Argumentation.'"
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "conclusion, ending"
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "From schließen (to close). 'Zum Schluss' signals the end.\\nNot just a repeat of the Einleitung."
+  },
+  {
+    "line": 107,
+    "field": "exampleSrc",
+    "english": "A: In conclusion, I summarize.\\nB: What goes in the conclusion?\\nA: Summary and personal opinion.\\nB: The conclusion is short but important."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "From schließen (to close). 'Zum Schluss' (in conclusion) is how you signal the end. A good Schluss summarizes and takes a final position. Not just a repeat of the Einleitung."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "conclusion, final assessment"
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "From Latin 'facit' (it makes/amounts to). More formal\\nthan Schluss. 'Mein Fazit ist...' (My conclusion is...)"
+  },
+  {
+    "line": 108,
+    "field": "exampleSrc",
+    "english": "A: What is your conclusion?\\nB: My conclusion: digital media are useful.\\nA: A good conclusion summarizes everything.\\nB: Yes, the conclusion is the quintessence."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "From Latin 'facit' (it makes/amounts to). Das Fazit. More formal than Schluss. 'Mein Fazit ist...' (My conclusion is...). The bottom line of your argument."
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "text type, genre"
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "Text + Sorte (type/kind). Essay, letter, report, email:\\neach is a Textsorte with its own conventions."
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: Which text type do you have to write?\\nB: An argumentative essay.\\nA: Each text type has its own rules.\\nB: Yes, a letter is different from an essay."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "Text + Sorte (type/kind). Die Textsorte. Essay, letter, report, email: each is a Textsorte with its own conventions. The exam tells you which Textsorte to write."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "sentence structure"
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Satz (sentence) + Bau (construction). German Satzbau\\nwith verb-second and verb-final makes the language unique."
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: Your sentence structure is good.\\nB: Thanks, I practice sentence structure.\\nA: Good sentence structure means good grades.\\nB: Yes, verb-second and verb-final."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "Satz (sentence) + Bau (construction). German Satzbau with its verb-second and verb-final rules is what makes the language unique. Good Satzbau = good grade."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "expression, phrasing"
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Aus (out) + Druck (pressing). 'Einen guten Ausdruck haben'\\nmeans expressing yourself well. Precision matters."
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: Your expression is very precise.\\nB: Thanks, I pay attention to good expression.\\nA: Expression is an assessment criterion.\\nB: Yes, word choice counts."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "Aus (out) + Druck (pressing). Der Ausdruck. 'Einen guten Ausdruck haben' (to express yourself well). Examiners grade Ausdruck: your choice of words and phrases. Precision matters."
+  },
+  {
+    "line": 112,
+    "field": "src",
+    "english": "summary"
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Zusammen (together) + Fassung (version/grasp).\\nBrings everything together into a compressed version."
+  },
+  {
+    "line": 112,
+    "field": "exampleSrc",
+    "english": "A: Write a summary of the text.\\nB: In your own words?\\nA: Yes, a short summary.\\nB: Okay, summarize the most important points."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "Zusammen (together) + Fassung (version/grasp). Die Zusammenfassung brings everything together into a compressed version. 'Eine Zusammenfassung schreiben' is a core B2 skill."
+  },
+  {
+    "line": 113,
+    "field": "src",
+    "english": "to retell, to narrate after hearing"
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Nach (after/re-) + erzählen (to tell). Separable.\\nHear or read something, then nacherzählen in your own words."
+  },
+  {
+    "line": 113,
+    "field": "exampleSrc",
+    "english": "A: Retell the text.\\nB: In my own words?\\nA: Yes, retell the content.\\nB: So, it was about digital media..."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "Nach (after/re-) + erzählen (to tell). Separable. You hear or read something, then nacherzählen it in your own words. A core exam skill."
+  },
+  {
+    "line": 114,
+    "field": "src",
+    "english": "to paraphrase"
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "From Greek 'paraphrasis' (restatement). Same word\\ninternationally. Saying the same thing differently."
+  },
+  {
+    "line": 114,
+    "field": "exampleSrc",
+    "english": "A: Can you paraphrase the sentence?\\nB: 'One should' instead of 'it is necessary.'\\nA: Well paraphrased.\\nB: Paraphrasing shows vocabulary range."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "From Greek 'paraphrasis' (restatement). Same word internationally. The B2 skill of saying the same thing differently. Essential for avoiding plagiarism and showing vocabulary range."
+  },
+  {
+    "line": 115,
+    "field": "src",
+    "english": "to summarize"
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Zusammen + fassen (to grasp). Separable.\\nLiterally: to grasp things together into one."
+  },
+  {
+    "line": 115,
+    "field": "exampleSrc",
+    "english": "A: Summarize the text.\\nB: In two sentences?\\nA: Yes, summarize briefly.\\nB: The text is about education and technology."
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "Zusammen (together) + fassen (to grasp). Separable. Literally: to grasp things together into one. The verb form of Zusammenfassung."
+  },
+  {
+    "line": 116,
+    "field": "src",
+    "english": "to revise, to rework"
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "Über (over) + arbeiten (to work). Not separable (inseparable über-).\\nFirst draft, then überarbeiten."
+  },
+  {
+    "line": 116,
+    "field": "exampleSrc",
+    "english": "A: Did you revise the text?\\nB: Yes, I revised it twice.\\nA: Revising improves the quality.\\nB: Yes, the first draft is never perfect."
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "Über (over) + arbeiten (to work). Not separable (inseparable über-). To go OVER your work again and improve it. First draft, then überarbeiten."
+  },
+  {
+    "line": 117,
+    "field": "src",
+    "english": "to rephrase, to reformulate"
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "Um (re-/around) + formulieren (to formulate). Separable.\\nChange the form while keeping the meaning."
+  },
+  {
+    "line": 117,
+    "field": "exampleSrc",
+    "english": "A: The sentence sounds odd.\\nB: Then rephrase it.\\nA: Okay, I'll rephrase it.\\nB: Better. Rephrasing helps."
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "Um (re-/around) + formulieren (to formulate). Separable. When your sentence sounds clunky: umformulieren. Change the form while keeping the meaning."
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "to structure, to divide into sections"
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "From Glied (limb/member/section). Like a body divided\\ninto its limbs, a text divided into its parts."
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: Divide the text into sections.\\nB: How many sections?\\nA: Three: introduction, main body, conclusion.\\nB: Well structured, well written."
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "From Glied (limb/member/section). 'Den Text in Abschnitte gliedern.' Gliederung (outline) comes from this. Like a body divided into its limbs, a text divided into its parts."
+  },
+  {
+    "line": 119,
+    "field": "src",
+    "english": "to work out, to highlight"
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "Heraus (out) + arbeiten (to work). Separable.\\nYou dig the meaning OUT through effort."
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: Work out the main message.\\nB: What is the main message?\\nA: You have to work that out.\\nB: So find the central thesis."
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "Heraus (out) + arbeiten (to work). Separable. 'Die Hauptaussage herausarbeiten' (to work out the main message). You dig the meaning OUT through effort."
+  },
+  {
+    "line": 120,
+    "field": "src",
+    "english": "written, in writing"
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "Schrift (writing/script) + -lich. Opposite of 'mündlich' (oral).\\n'Bitte schriftlich bestätigen.'"
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: Is the exam written?\\nB: Partly written, partly oral.\\nA: Which part is written?\\nB: Reading, listening, and writing are written."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "Schrift (writing/script) + -lich. 'Schriftliche Prüfung' (written exam). The opposite of 'mündlich' (oral). 'Bitte schriftlich bestätigen' (please confirm in writing)."
+  },
+  {
+    "line": 121,
+    "field": "text",
+    "english": "Manner clauses answer the question: 'Auf welche Weise?' (In what way?)\\n\\nKey connectors:\\n\\n'indem' (by doing X)\\nIndem ich überarbeite, verbessere ich den Text.\\n(By revising, I improve the text.)\\n\\n'dadurch dass' (through the fact that)\\nDadurch dass er übt, wird er besser.\\n(Through practicing, he gets better.)\\n\\n'ohne dass' (without doing)\\nEr besteht die Prüfung, ohne dass er nervoes wird.\\n(He passes the exam without getting nervous.)\\n\\n'anstatt dass' (instead of doing)\\nAnstatt dass er aufgibt, arbeitet er weiter.\\n(Instead of giving up, he keeps working.)\\n\\nPosition: The verb goes to the END of the dass-clause.\\n'Indem' is the most common and versatile connector."
+  },
+  {
+    "line": 121,
+    "field": "text",
+    "english": "Modalsätze express HOW an action is carried out. They answer the question 'Auf welche Weise?' (In what way?).\\n\\n'Indem' is the most common. It introduces a manner clause: 'Indem ich lerne, werde ich besser.' The verb goes to the end of the indem-clause.\\n\\n'Ohne dass' and 'anstatt dass' can be shortened with 'zu + Infinitiv' when the subject is the same: 'Er ging, ohne sich zu verabschieden.' (He left without saying goodbye.)\\n\\n'Dadurch dass' is slightly more formal and emphasizes the method or means. It can also be split: 'Dadurch, dass er übt, wird er besser.'"
+  },
+  {
+    "line": 135,
+    "field": "hint",
+    "english": "Which connector specifically answers the question HOW one achieves something? By doing X..."
+  },
+  {
+    "line": 135,
+    "field": "sSrc",
+    "english": "Which sentence contains a manner clause?"
+  },
+  {
+    "line": 136,
+    "field": "hint",
+    "english": "Which connector answers the question HOW? It introduces a manner clause describing the method used to achieve a goal."
+  },
+  {
+    "line": 136,
+    "field": "sSrc",
+    "english": "By marking the keywords, I find the answer faster."
+  },
+  {
+    "line": 137,
+    "field": "hint",
+    "english": "The three formal parts of a German essay. The technical terms, not the everyday words."
+  },
+  {
+    "line": 137,
+    "field": "sSrc",
+    "english": "A good essay has an introduction, a main body, and a conclusion."
+  },
+  {
+    "line": 138,
+    "field": "hint",
+    "english": "Rendering content in your own words: the academic verb of Greek origin."
+  },
+  {
+    "line": 138,
+    "field": "sSrc",
+    "english": "'Rendering content in your own words' means the same as..."
+  },
+  {
+    "line": 139,
+    "field": "src",
+    "english": "He puts down the pen. 248 words. Introduction, three arguments, conclusion. He reads through the text once more, corrects two comma errors. The time runs out. He hands in the sheet."
+  },
+  {
+    "line": 142,
+    "field": "desc",
+    "english": "Extended indefinite pronouns for formal texts. Reading strategies for reading comprehension. Academic vocabulary."
+  },
+  {
+    "line": 143,
+    "field": "unknown",
+    "english": "Master extended indefinite pronouns for formal contexts"
+  },
+  {
+    "line": 144,
+    "field": "unknown",
+    "english": "Understand reading strategies: global and detailed comprehension"
+  },
+  {
+    "line": 145,
+    "field": "unknown",
+    "english": "Build academic vocabulary"
+  },
+  {
+    "line": 146,
+    "field": "unknown",
+    "english": "Review Modalsatze in new contexts"
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "Second section. Reading comprehension. Four texts, all questions in 65 minutes. Verumius looks at the first text. A newspaper article. He reads it once globally, then again in detail. He marks the keywords. His pen moves with confidence."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "all, every single one (emphatic)"
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "From Samt (together with). More emphatic than 'alle.'\\nUsed in formal and legal language."
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: All tasks must be completed.\\nB: Really all of them?\\nA: Yes, every single one. Without exception.\\nB: Then I'll start right away."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "From Samt (together with). 'Sämtliche Aufgaben müssen bearbeitet werden.' More emphatic than 'alle.' Used in formal and legal language. Declines like a regular adjective."
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "any whatsoever, all manner of"
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "From jeglich (any/every). Stronger than 'jede.'\\nFormal, slightly old-fashioned. Common in rules and bans."
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: Any aids whatsoever are forbidden.\\nB: Even dictionaries?\\nA: Yes, any aids whatsoever.\\nB: So really nothing at all allowed."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "From jeglich (any/every). 'Jegliche Hilfsmittel sind verboten.' Stronger than 'jede.' The exam instruction that bans everything. Formal, slightly old-fashioned."
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "some (unspecified), any"
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "Irgend (some-) + ein (a/an). The vaguest possible article.\\nDeclines like 'ein': irgendeinen, irgendeiner, irgendeinem."
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: Do you have any idea?\\nB: Any? Yes, maybe.\\nA: Any suggestion would be good.\\nB: Let me think."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "Irgend (some-) + ein (a/an). The vaguest possible article. It could be any one. Declines like 'ein': irgendeinen, irgendeiner, irgendeinem."
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "some (plural, unspecified), any"
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "Irgend + welche (which/some). The plural of irgendein.\\nUsed for polite inquiry."
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: Are there any questions?\\nB: Yes, some questions about the procedure.\\nA: Do you have any concerns?\\nB: No, none."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "Irgend + welche (which/some). The plural of irgendein. Vague and open. 'Gibt es irgendwelche Fragen?' Used for polite inquiry when you expect the answer might be yes."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "many a, some"
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "Manch (some/many a) + ein. Literary and slightly formal.\\nEmphasizes the individual within the group."
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Many a student has exam anxiety.\\nB: Yes, many a one manages it anyway.\\nA: Many a problem solves itself.\\nB: True, sometimes you just have to wait."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "Manch (some/many a) + ein. Literary and slightly formal. 'Manch ein Student hat Prüfungsangst.' Emphasizes the individual within the group. 'Many a student' has the same feel in English."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "every single, any whatsoever"
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "Jed- (every) + weder (archaic 'which'). Very formal, almost legal.\\nStronger than 'jeder.' Found in regulations."
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Any cheating whatsoever will be punished.\\nB: Any whatsoever? That sounds strict.\\nA: Yes, any violation has consequences.\\nB: Understood, no risk."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "From jed- (every) + weder (archaic for 'which'). 'Jedweder Betrug wird bestraft.' Very formal, almost legal. Stronger than 'jeder.' You will encounter it in regulations and exam rules."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "all sorts of, quite a lot"
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "Aller (all) + Hand (hand). Colloquial but useful.\\n'Allerhand!' as exclamation means 'quite something!'"
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: There's all sorts of things to learn.\\nB: All sorts of vocabulary and grammar.\\nA: Quite something!\\nB: Yes, quite a lot."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "Aller (all) + Hand (hand). 'Da gibt es allerhand zu lernen.' Colloquial but useful. 'Allerhand!' as an exclamation means 'quite something!' Literally 'of all hands.'"
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "all sorts of, various"
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Aller + lei (type/sort, from Latin). Slightly more formal\\nthan 'allerhand.' Has a fairy-tale quality."
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: All sorts of questions appear in the exam.\\nB: All sorts of topics too?\\nA: Yes, all sorts of text types and topics.\\nB: Then I have to practice all sorts of things."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "Aller + lei (type/sort, from Latin). 'Allerlei Fragen kommen im Hörverstehen vor.' Slightly more formal than allerhand. Same meaning. Has a fairy-tale quality."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "main message, key point"
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "Haupt (main) + Aussage (statement). The fundamental\\nreading comprehension question: Was ist die Hauptaussage?"
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: What is the main message of the text?\\nB: The author demands more environmental protection.\\nA: Exactly, recognizing the main message is important.\\nB: For that you have to read the whole text."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "Haupt (main) + Aussage (statement). 'Was ist die Hauptaussage des Textes?' is the fundamental reading comprehension question. Die Hauptaussage."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "keyword"
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "Schlüssel (key) + Wort (word). Marking Schlüsselwörter\\nis the first step in reading comprehension."
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Mark the keywords in the text.\\nB: Which words are keywords?\\nA: The most important terms.\\nB: So 'environment,' 'protection,' 'danger.'"
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "Schlüssel (key) + Wort (word). Marking Schlüsselwörter is the first step in reading comprehension. They unlock the meaning of the text. The key to the text, literally."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "paragraph"
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "Ab (off) + Satz (set/sentence). Also means 'heel' (shoe)\\nand 'sales' (commerce). Context decides."
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Read the second paragraph.\\nB: Only the second paragraph?\\nA: Yes, the answer is in the second paragraph.\\nB: Okay, I'll read the paragraph again."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "Ab (off) + Satz (set/sentence). Der Absatz. Also means 'heel' (of a shoe) and 'sales' (in commerce). Three completely different meanings for one word. Context decides."
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "heading, title"
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "Über (over/above) + Schrift (writing). The writing\\nthat sits ABOVE the text. Gives the first hint about content."
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: What does the heading say?\\nB: 'Climate change and education.'\\nA: The heading gives the first hint.\\nB: Yes, the topic is clear."
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "Über (over/above) + Schrift (writing). Die Überschrift. 'Die Überschrift gibt den ersten Hinweis auf den Inhalt.' The writing that sits ABOVE the text."
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "gist comprehension, global understanding"
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "Global + Verstehen. The first read: what is the text\\nABOUT? No details yet. Just the big picture."
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: First global comprehension.\\nB: What does global comprehension mean?\\nA: Understanding the text roughly. What is it about?\\nB: So grasping the topic."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "Global + Verstehen. Das Globalverstehen. The first read: what is the text ABOUT? No details yet. Just the big picture."
+  },
+  {
+    "line": 162,
+    "field": "src",
+    "english": "detailed comprehension"
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "Detail + Verstehen. The second read: what exactly does\\nparagraph 3 say? Specific information extraction."
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: Now comes the detailed comprehension.\\nB: What exactly is in paragraph 3?\\nA: Detailed comprehension means: finding exact information.\\nB: Okay, I'll read more carefully."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "Detail + Verstehen. Das Detailverstehen. The second read: what exactly does paragraph 3 say? Specific information extraction."
+  },
+  {
+    "line": 163,
+    "field": "src",
+    "english": "to recognize, to identify"
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "Er- + kennen (to know). Not separable. You kennen something\\nand er-kennen it when you see it again. Re-cognition."
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: Can you identify the main message?\\nB: Yes, I recognize it in the first paragraph.\\nA: Well spotted.\\nB: You have to read carefully to recognize it."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "Er- + kennen (to know). Not separable. You kennen (know) something and er-kennen (recognize) it when you see it again. Re-cognition. 'Die Hauptaussage erkennen.'"
+  },
+  {
+    "line": 164,
+    "field": "src",
+    "english": "to deduce, to infer"
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "Er- + schließen (to close/conclude). Not separable.\\nA critical reading skill: meaning from context."
+  },
+  {
+    "line": 164,
+    "field": "exampleSrc",
+    "english": "A: What does this word mean?\\nB: I don't know it, but I can infer it.\\nA: Infer from context?\\nB: Yes, the sentences before help."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "Er- + schließen (to close/conclude). Not separable. When you do not know a word, you erschließen its meaning from context. A critical reading skill at B2."
+  },
+  {
+    "line": 165,
+    "field": "src",
+    "english": "to classify, to categorize"
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "Ein (in/into) + ordnen (to order/organize). Separable.\\nYou take something and ordnen it into the right place."
+  },
+  {
+    "line": 165,
+    "field": "exampleSrc",
+    "english": "A: Classify the information.\\nB: Into which category?\\nA: Classify into 'pro' and 'con.'\\nB: Okay, I'll classify the arguments."
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "Ein (in/into) + ordnen (to order/organize). Separable. 'Die Information einordnen' (to classify the information). You take something and ordnen it into (ein) the right place."
+  },
+  {
+    "line": 166,
+    "field": "text",
+    "english": "German has many indefinite pronouns for formal and academic contexts.\\n\\nFrom vague to emphatic:\\n'irgendein' (some, any) = most vague\\n'manch ein' (many a) = literary\\n'jeder' (every) = standard\\n'sämtliche' (all, every single) = emphatic\\n'jegliche' (any whatsoever) = very formal\\n'jedweder' (every last one) = almost legal\\n\\nFor variety:\\n'allerhand' and 'allerlei' both mean 'all sorts of.'\\n\\nIn B2 writing, using a range of indefinite pronouns signals language competence.\\n'Alle Studenten' is A2.\\n'Sämtliche Studierende' is B2."
+  },
+  {
+    "line": 166,
+    "field": "text",
+    "english": "Sämtliche, jegliche, and jedweder decline like regular adjectives. They take the same endings as 'alle' or 'jede' depending on the article context.\\n\\nWithout article (strong declension):\\nsämtliche Aufgaben (all tasks)\\njeglicher Kontakt (any contact whatsoever)\\n\\n'Allerhand' and 'allerlei' are special: they do NOT decline. They stay unchanged regardless of case: 'allerhand Probleme', 'mit allerhand Tricks.'\\n\\n'Manch ein' declines like 'ein': 'manch einem' (dative), 'manch einen' (accusative).\\n\\nIn formal writing, varying your indefinite pronouns signals B2+ competence."
+  },
+  {
+    "line": 167,
+    "field": "hint",
+    "english": "The emphatic, formal word meaning 'every single one without exception.'"
+  },
+  {
+    "line": 167,
+    "field": "sSrc",
+    "english": "What is the most formal way to say 'all tasks'?"
+  },
+  {
+    "line": 168,
+    "field": "hint",
+    "english": "The strongest, most formal word for 'any whatsoever.' Used in rules and regulations."
+  },
+  {
+    "line": 168,
+    "field": "sSrc",
+    "english": "Any aids whatsoever are forbidden during the exam."
+  },
+  {
+    "line": 174,
+    "field": "hint",
+    "english": "Global = the big picture. What is the text about in general?"
+  },
+  {
+    "line": 174,
+    "field": "sSrc",
+    "english": "Global comprehension means..."
+  },
+  {
+    "line": 182,
+    "field": "hint",
+    "english": "Two gaps: a manner clause connector showing HOW you find the answer faster, and a verb meaning to identify or perceive the main message."
+  },
+  {
+    "line": 182,
+    "field": "sSrc",
+    "english": "By marking the keywords, you can recognize the main message faster."
+  },
+  {
+    "line": 183,
+    "field": "hint",
+    "english": "Deriving meaning from context. The verb that describes 'unlocking' the meaning."
+  },
+  {
+    "line": 183,
+    "field": "sSrc",
+    "english": "When a word is unknown, you can infer its meaning from context."
+  },
+  {
+    "line": 189,
+    "field": "hint",
+    "english": "The correct sentence must contain both a manner clause (answering HOW) AND a formal emphatic word for totality. Check each option for both features."
+  },
+  {
+    "line": 189,
+    "field": "sSrc",
+    "english": "Which sentence uses BOTH a manner clause AND an indefinite pronoun?"
+  },
+  {
+    "line": 192,
+    "field": "desc",
+    "english": "The small words that cannot be translated. Modal particles give German its emotional texture. You will also learn exam vocabulary for listening and speaking."
+  },
+  {
+    "line": 193,
+    "field": "unknown",
+    "english": "Discover modal particles: doch, halt, eben, ja, mal, schon, wohl"
+  },
+  {
+    "line": 194,
+    "field": "unknown",
+    "english": "Learn exam vocabulary for listening comprehension and speaking"
+  },
+  {
+    "line": 195,
+    "field": "unknown",
+    "english": "Recognize speaker intentions and nuance"
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "Fifteen-minute break between writing and speaking. The corridor. Verumius leans against the wall, water bottle in hand. Around him, other candidates talk. Their German is full of tiny words he half-understands."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "Candidate A: 'That was not that hard at all.' Candidate B: 'Well, it was just a lot of text.' Candidate C: 'You just have to be able to read well.' Three sentences. Three tiny words. Each one changes the feeling completely."
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "Doch, halt, eben. These tiny words. I hear them everywhere, but I cannot translate them. What do they do?"
+  },
+  {
+    "line": 200,
+    "field": "src",
+    "english": "listening passage"
+  },
+  {
+    "line": 200,
+    "field": "note",
+    "english": "Hoer (listening) + Abschnitt (section). The Hoerverstehen\\nhas multiple Hoerabschnitte: monologues, dialogues, radio segments."
+  },
+  {
+    "line": 200,
+    "field": "exampleSrc",
+    "english": "A: How many listening passages are there?\\nB: Four listening passages.\\nA: Is each listening passage played twice?\\nB: Yes, at B2 you hear everything twice."
+  },
+  {
+    "line": 200,
+    "field": "funFact",
+    "english": "Hoer (listening) + Abschnitt (section). A listening passage. The Hoerverstehen has multiple Hoerabschnitte: monologues, dialogues, radio segments. Each one plays twice at B2 level."
+  },
+  {
+    "line": 201,
+    "field": "src",
+    "english": "speaker intention"
+  },
+  {
+    "line": 201,
+    "field": "note",
+    "english": "Rede (speech) + Absicht (intention). What does the speaker\\nWANT? To inform, persuade, warn, complain?"
+  },
+  {
+    "line": 201,
+    "field": "exampleSrc",
+    "english": "A: What is the speaker intention here?\\nB: The speaker wants to persuade.\\nA: And in this listening passage?\\nB: Here he wants to warn."
+  },
+  {
+    "line": 201,
+    "field": "funFact",
+    "english": "Rede (speech) + Absicht (intention). What does the speaker WANT? To inform, persuade, warn, complain? Recognizing Redeabsicht is a B2 listening skill. Words are actions with intentions."
+  },
+  {
+    "line": 202,
+    "field": "src",
+    "english": "speech act"
+  },
+  {
+    "line": 202,
+    "field": "note",
+    "english": "Sprache (language) + Handlung (action). Requesting, refusing,\\napologizing: each is a Sprachhandlung. Language does things."
+  },
+  {
+    "line": 202,
+    "field": "exampleSrc",
+    "english": "A: What is a speech act?\\nB: An action through language.\\nA: For example?\\nB: Requesting, refusing, apologizing."
+  },
+  {
+    "line": 202,
+    "field": "funFact",
+    "english": "Sprache (language) + Handlung (action). A speech act. Requesting, refusing, apologizing, suggesting: each is a Sprachhandlung. Language does things. Words are actions."
+  },
+  {
+    "line": 203,
+    "field": "src",
+    "english": "language level"
+  },
+  {
+    "line": 203,
+    "field": "note",
+    "english": "Sprache + Niveau (level, from French). A1 to C2.\\n'Welches Sprachniveau haben Sie?' Neuter because Niveau is neuter."
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: What language level do you have?\\nB: I am at B2 level.\\nA: Very good. That is advanced.\\nB: Thank you, I have been learning for two years."
+  },
+  {
+    "line": 203,
+    "field": "funFact",
+    "english": "Sprache + Niveau (level, from French). A1 to C2. 'Welches Sprachniveau haben Sie?' is the standard question. Neuter because Niveau is neuter. B2 is the fortgeschritten level."
+  },
+  {
+    "line": 204,
+    "field": "src",
+    "english": "text comprehension"
+  },
+  {
+    "line": 204,
+    "field": "note",
+    "english": "Text + Verständnis (understanding). Not whether you know\\nevery word, but whether you UNDERSTAND the text."
+  },
+  {
+    "line": 204,
+    "field": "exampleSrc",
+    "english": "A: How is your text comprehension?\\nB: Good with short texts.\\nA: And with long texts?\\nB: I have to read more slowly there."
+  },
+  {
+    "line": 204,
+    "field": "funFact",
+    "english": "Text + Verständnis (understanding/comprehension). What the exam really tests: not whether you know every word, but whether you UNDERSTAND the text. The big picture matters."
+  },
+  {
+    "line": 205,
+    "field": "src",
+    "english": "word field, semantic group"
+  },
+  {
+    "line": 205,
+    "field": "note",
+    "english": "Wort (word) + Feld (field). A semantic group of related words.\\nOrganizing vocabulary into Wortfelder helps memory."
+  },
+  {
+    "line": 205,
+    "field": "exampleSrc",
+    "english": "A: What belongs to the word field exam?\\nB: Passing, task, assessment.\\nA: And to the word field cooking?\\nB: Recipe, ingredient, stove."
+  },
+  {
+    "line": 205,
+    "field": "funFact",
+    "english": "Wort (word) + Feld (field). A word field, a semantic group. Organizing vocabulary into Wortfelder helps memory and retrieval. 'Wortfeld Prüfung' includes all words related to exams."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "note"
+  },
+  {
+    "line": 206,
+    "field": "note",
+    "english": "From Latin 'notitia.' 'Notizen machen' (to take notes) is\\nessential during the Hoerverstehen. Quick notes, not full sentences."
+  },
+  {
+    "line": 206,
+    "field": "exampleSrc",
+    "english": "A: Do you take notes?\\nB: Yes, always during listening comprehension.\\nA: In full sentences?\\nB: No, only keywords."
+  },
+  {
+    "line": 206,
+    "field": "funFact",
+    "english": "From Latin 'notitia' (note/knowledge). 'Notizen machen' (to take notes) is essential during the Hoerverstehen. Quick notes, not full sentences. Speed beats perfection."
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "keyword, cue word"
+  },
+  {
+    "line": 207,
+    "field": "note",
+    "english": "Stich (stitch/prick) + Wort. A keyword or bullet point.\\n'In Stichwörtern notieren' is the exam technique."
+  },
+  {
+    "line": 207,
+    "field": "exampleSrc",
+    "english": "A: Note down in keywords.\\nB: So no full sentences?\\nA: No, only the most important keywords.\\nB: That saves time."
+  },
+  {
+    "line": 207,
+    "field": "funFact",
+    "english": "Stich (stitch/prick) + Wort. A keyword, a bullet point, a cue word. 'In Stichwörtern notieren' (to note down in keywords). Capture Stichwörter, not sentences. Speed is everything."
+  },
+  {
+    "line": 208,
+    "field": "src",
+    "english": "paraphrase"
+  },
+  {
+    "line": 208,
+    "field": "note",
+    "english": "From Greek 'paraphrasis.' A restatement in different words.\\nThe noun form of 'paraphrasieren.'"
+  },
+  {
+    "line": 208,
+    "field": "exampleSrc",
+    "english": "A: What is a paraphrase?\\nB: A reformulation.\\nA: Why is that important?\\nB: You show that you understand the text."
+  },
+  {
+    "line": 208,
+    "field": "funFact",
+    "english": "From Greek 'paraphrasis.' A paraphrase, a restatement. The noun form of 'paraphrasieren.' A good Paraphrase keeps the meaning but changes the words. Essential for B2 writing."
+  },
+  {
+    "line": 209,
+    "field": "src",
+    "english": "to note down, to jot"
+  },
+  {
+    "line": 209,
+    "field": "note",
+    "english": "From Latin 'notare' (to mark/note). More formal than\\n'aufschreiben.' The exam skill of capturing information quickly."
+  },
+  {
+    "line": 209,
+    "field": "exampleSrc",
+    "english": "A: Please note down the most important points.\\nB: Should I note down everything?\\nA: Only note down the main messages.\\nB: Understood, I will only note the most important things."
+  },
+  {
+    "line": 209,
+    "field": "funFact",
+    "english": "From Latin 'notare' (to mark/note). To note down, to jot. 'Bitte notieren Sie die wichtigsten Punkte.' More formal than 'aufschreiben.' Quick capture of information."
+  },
+  {
+    "line": 210,
+    "field": "src",
+    "english": "to reproduce, to relay"
+  },
+  {
+    "line": 210,
+    "field": "note",
+    "english": "Wieder (again) + geben (to give). To relay content in your\\nown words. Separable: 'Den Inhalt wiedergeben.'"
+  },
+  {
+    "line": 210,
+    "field": "exampleSrc",
+    "english": "A: Can you relay the content?\\nB: The text is about environmental protection.\\nA: Good. Relay the main message.\\nB: The author demands more recycling."
+  },
+  {
+    "line": 210,
+    "field": "funFact",
+    "english": "Wieder (again) + geben (to give). To reproduce, to render, to relay. Separable. You give the content back (wieder) in your own words. A core exam skill."
+  },
+  {
+    "line": 211,
+    "field": "src",
+    "english": "to assign, to match"
+  },
+  {
+    "line": 211,
+    "field": "note",
+    "english": "Zu (to) + ordnen (to order). To classify or categorize.\\nSeparable: 'Die Überschriften den Texten zuordnen.'"
+  },
+  {
+    "line": 211,
+    "field": "exampleSrc",
+    "english": "A: Assign the headings.\\nB: Text A belongs to heading 3.\\nA: And text B?\\nB: I assign that to heading 1."
+  },
+  {
+    "line": 211,
+    "field": "funFact",
+    "english": "Zu (to) + ordnen (to order). To assign, to match, to categorize. Separable. 'Die Überschriften den Texten zuordnen' (assign headings to texts). A classic exam task type."
+  },
+  {
+    "line": 212,
+    "field": "src",
+    "english": "to decode, to decipher"
+  },
+  {
+    "line": 212,
+    "field": "note",
+    "english": "Ent- (un-) + schlüsseln (from Schlüssel, key). To unlock\\nmeaning. You use Schlüsselwörter to entschlüsseln the text."
+  },
+  {
+    "line": 212,
+    "field": "exampleSrc",
+    "english": "A: How do you decode a difficult text?\\nB: First find the keywords.\\nA: And then?\\nB: Then decode the meaning from context."
+  },
+  {
+    "line": 212,
+    "field": "funFact",
+    "english": "Ent- (un-) + schlüsseln (from Schlüssel, key). To decode, to decipher. Literally to un-lock. You use your Schlüsselwörter to entschlüsseln the text. Not separable."
+  },
+  {
+    "line": 213,
+    "field": "src",
+    "english": "to prioritize"
+  },
+  {
+    "line": 213,
+    "field": "note",
+    "english": "From Latin 'prior' (earlier/more important). A study and\\nexam skill. Not everything is equally important."
+  },
+  {
+    "line": 213,
+    "field": "exampleSrc",
+    "english": "A: How do you prioritize your tasks?\\nB: I do the difficult ones first.\\nA: Prioritizing is important.\\nB: Yes, especially in the exam."
+  },
+  {
+    "line": 213,
+    "field": "funFact",
+    "english": "From Latin 'prior' (earlier/more important). To prioritize. 'Aufgaben priorisieren' (to prioritize tasks). Not everything is equally important. Priorisieren means choosing what matters most."
+  },
+  {
+    "line": 214,
+    "field": "src",
+    "english": "oral, spoken"
+  },
+  {
+    "line": 214,
+    "field": "note",
+    "english": "Mund (mouth) + -lich. The opposite of 'schriftlich.'\\nThe Sprechen section is the mündliche Prüfung."
+  },
+  {
+    "line": 214,
+    "field": "exampleSrc",
+    "english": "A: Is the exam written or oral?\\nB: Both. Written and oral.\\nA: What is harder?\\nB: For me the oral exam is harder."
+  },
+  {
+    "line": 214,
+    "field": "funFact",
+    "english": "Mund (mouth) + -lich. Oral, spoken. 'Mündliche Prüfung' (oral exam). The opposite of 'schriftlich.' The Sprechen section is the mündliche Prüfung. Speaking out loud with your Mund."
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "concise, brief"
+  },
+  {
+    "line": 215,
+    "field": "note",
+    "english": "Kurz (short) + gefasst (composed/grasped). The art of saying\\nmuch with few words. 'Kurzgefasst bedeutet das...'"
+  },
+  {
+    "line": 215,
+    "field": "exampleSrc",
+    "english": "A: Explain that briefly.\\nB: In brief: modal particles show emotions.\\nA: That was really concise.\\nB: Short and apt."
+  },
+  {
+    "line": 215,
+    "field": "funFact",
+    "english": "Kurz (short) + gefasst (composed/grasped). Concise, brief, succinct. 'Kurzgefasst bedeutet das...' (In brief, that means...). The art of saying much with few words."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "apt, fitting, well-chosen"
+  },
+  {
+    "line": 216,
+    "field": "note",
+    "english": "From 'treffen' (to hit/meet). When your word choice hits\\nthe mark perfectly. The highest compliment for language use."
+  },
+  {
+    "line": 216,
+    "field": "exampleSrc",
+    "english": "A: That was an apt expression.\\nB: Thank you, I thought about it for a long time.\\nA: You get apt formulations with practice.\\nB: Yes, practice makes perfect."
+  },
+  {
+    "line": 216,
+    "field": "funFact",
+    "english": "From 'treffen' (to hit/meet). Apt, fitting, well-chosen. 'Ein treffender Ausdruck' (an apt expression). When your word choice hits the mark perfectly. The highest compliment for language use."
+  },
+  {
+    "line": 217,
+    "field": "text",
+    "english": "Modal particles are small words (doch, halt, eben, ja, mal, schon, wohl) that express emotion and attitude. They cannot be translated directly. They change the FEELING, not the meaning.\\n\\n'Komm!' vs. 'Komm mal!' (a little softer)\\n'Das ist schwer.' vs. 'Das ist halt schwer.' (acceptance)\\n\\ndoch = contradiction or emphasis: 'Das stimmt doch!'\\nhalt/eben = acceptance of reality: 'Es ist halt so.'\\nja = shared knowledge: 'Das wissen wir ja.'\\nmal = softener: 'Schau mal.'\\nschon = concession: 'Das stimmt schon, aber...'\\nwohl = assumption: 'Er ist wohl krank.'\\n\\nNative speakers use 5-10 particles per conversation."
+  },
+  {
+    "line": 217,
+    "field": "text",
+    "english": "Modal particles have no fixed translation. 'Doch' alone has over ten different nuances.\\n\\nThe key: do not translate them, FEEL them.\\n\\nTip: Listen to German podcasts and pay attention to the small words between the big ones. Over time you develop an instinct for them.\\n\\n'Halt' and 'eben' are nearly identical. 'Halt' sounds slightly southern German, 'eben' slightly northern German. Both mean: that is just how it is."
+  },
+  {
+    "line": 223,
+    "field": "hint",
+    "english": "'Doch' expresses contradiction. It says: contrary to what you might think..."
+  },
+  {
+    "line": 224,
+    "field": "hint",
+    "english": "A modal particle for quiet resignation. Not a strong disagreement, not excitement. Just quiet acceptance of an unchangeable fact."
+  },
+  {
+    "line": 224,
+    "field": "sSrc",
+    "english": "It is just like that. You cannot change anything."
+  },
+  {
+    "line": 225,
+    "field": "hint",
+    "english": "Three gaps: a manner clause connector, then a particle of resigned acceptance, then a particle meaning 'simply.' Together they show how particles make speech feel natural."
+  },
+  {
+    "line": 225,
+    "field": "sSrc",
+    "english": "By using modal particles, you just simply sound more natural."
+  },
+  {
+    "line": 231,
+    "field": "hint",
+    "english": "The correct sentence must combine all three layers: a manner clause connector, a formal emphatic pronoun for totality, and a particle of acceptance. Check each option carefully."
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "The speaking part is over. He discussed digitalization with the examiner. Ten minutes. He used 'nichtsdestotrotz.' He said 'meines Erachtens' without thinking. It just came. He stands in the hallway and realizes: he did learn German after all."
+  },
+  {
+    "line": 235,
+    "field": "desc",
+    "english": "The exam is over. Verumius walks through his Berlin at night. Every street corner is a vocabulary lesson. Every sign a test he has already passed."
+  },
+  {
+    "line": 236,
+    "field": "unknown",
+    "english": "Follow Verumius on his night walk through Berlin"
+  },
+  {
+    "line": 237,
+    "field": "unknown",
+    "english": "Review all grammar constructs in mixed exercises"
+  },
+  {
+    "line": 238,
+    "field": "unknown",
+    "english": "Connect language learning with lived experience"
+  },
+  {
+    "line": 240,
+    "field": "src",
+    "english": "Evening. The exam is over. Verumius does not go home. He walks. Berlin at night. He does not plan the route. His feet know the way."
+  },
+  {
+    "line": 241,
+    "field": "src",
+    "english": "Past the citizens' office where he waited four hours for a number. Past the doener stand where he pointed at the menu and Lukas first nodded hello. Past the VHS where Yilmaz red-penned his first essay. Past the pub where he ordered beer using dative for the first time."
+  },
+  {
+    "line": 242,
+    "field": "src",
+    "english": "Past the REWE where Hildi corrected his 'der Milch' to 'die Milch' in the dairy aisle. Past the bakery where Heinrich taught him the difference between Brot and Broetchen. Past the pub where Lukas played his first post-breakup song. Every street corner is a vocabulary lesson. Every sign is a test he has already passed."
+  },
+  {
+    "line": 243,
+    "field": "src",
+    "english": "He sits on a bench by the canal. The city hums softly. In the distance a siren, then silence. He looks at the water. It is black and calm. Like himself, for the first time in weeks."
+  },
+  {
+    "line": 244,
+    "field": "src",
+    "english": "Every place tells a story. By walking through these streets, I walk through all of my German."
+  },
+  {
+    "line": 245,
+    "field": "src",
+    "english": "He stands at his apartment building. The archway. The courtyard. Two years. He came with zero German. Tomorrow the results. Tonight, the walk is enough."
+  },
+  {
+    "line": 246,
+    "field": "src",
+    "english": "exam result"
+  },
+  {
+    "line": 246,
+    "field": "note",
+    "english": "Prüfung + Ergebnis (result). The email you wait for.\\n'Bestanden' oder 'Nicht bestanden.' 60% minimum at B2."
+  },
+  {
+    "line": 246,
+    "field": "exampleSrc",
+    "english": "A: When does the exam result come?\\nB: In three to five days.\\nA: Do you get it by email?\\nB: Yes, the exam result comes digitally."
+  },
+  {
+    "line": 246,
+    "field": "funFact",
+    "english": "Prüfung + Ergebnis (result). An exam result. The email you wait for. 'Bestanden' (passed) or 'Nicht bestanden.' At B2 level, you need 60% overall with minimums in each section."
+  },
+  {
+    "line": 247,
+    "field": "src",
+    "english": "topic suggestion"
+  },
+  {
+    "line": 247,
+    "field": "note",
+    "english": "Thema (topic) + Vorschlag (suggestion). The Schreiben section\\ngives you a Themenvorschlag to argue for or against."
+  },
+  {
+    "line": 247,
+    "field": "exampleSrc",
+    "english": "A: Which topic suggestion did you choose?\\nB: The one about digital media in school.\\nA: Was the topic suggestion difficult?\\nB: No, I had good arguments."
+  },
+  {
+    "line": 247,
+    "field": "funFact",
+    "english": "Thema (topic) + Vorschlag (suggestion). A topic suggestion. The Schreiben section gives you a Themenvorschlag that you must argue for or against. Choose wisely."
+  },
+  {
+    "line": 248,
+    "field": "src",
+    "english": "example answer"
+  },
+  {
+    "line": 248,
+    "field": "note",
+    "english": "Beispiel (example) + Antwort. Practice exams include\\nBeispielantworten to show what good responses look like."
+  },
+  {
+    "line": 248,
+    "field": "exampleSrc",
+    "english": "A: Is there an example answer?\\nB: Yes, in the practice book.\\nA: Does the example answer help?\\nB: Very much. You see what is expected."
+  },
+  {
+    "line": 248,
+    "field": "funFact",
+    "english": "Beispiel (example) + Antwort. An example answer. Practice exams include Beispielantworten to show what good responses look like. Study the model, then write your own."
+  },
+  {
+    "line": 249,
+    "field": "src",
+    "english": "retelling, narrative reproduction"
+  },
+  {
+    "line": 249,
+    "field": "note",
+    "english": "Nach (after) + Erzählung (narration). You hear a story,\\nthen produce a Nacherzählung in your own words."
+  },
+  {
+    "line": 249,
+    "field": "exampleSrc",
+    "english": "A: Write a retelling.\\nB: In my own words?\\nA: Yes, a retelling is not a word-for-word copy.\\nB: Understood, I will relay the content."
+  },
+  {
+    "line": 249,
+    "field": "funFact",
+    "english": "Nach (after) + Erzählung (narration). A retelling, a narrative reproduction. The noun form of 'nacherzählen.' You hear a story, then produce a Nacherzählung."
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "proofreading"
+  },
+  {
+    "line": 250,
+    "field": "note",
+    "english": "Korrektur (correction) + Lesen (reading). The final five\\nminutes of the writing exam. Catch errors. Save grades."
+  },
+  {
+    "line": 250,
+    "field": "exampleSrc",
+    "english": "A: Do you have time for proofreading?\\nB: Always. Proofreading is mandatory.\\nA: What should you look for when proofreading?\\nB: Grammar, spelling, sentence structure."
+  },
+  {
+    "line": 250,
+    "field": "funFact",
+    "english": "Korrektur (correction) + Lesen (reading). Proofreading. The final five minutes of the writing exam: read everything again. Catch errors. Korrekturlesen saves grades."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "time management"
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "Zeit (time) + Management. At B2 level, Zeitmanagement\\ndecides pass or fail. 75 minutes for Schreiben: plan, write, check."
+  },
+  {
+    "line": 251,
+    "field": "exampleSrc",
+    "english": "A: Time management is crucial.\\nB: Yes, without good time management you will not make it.\\nA: How do you divide the time?\\nB: Ten minutes planning, fifty writing, fifteen checking."
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "Zeit (time) + Management. At B2 level, Zeitmanagement decides pass or fail. 75 minutes for Schreiben means: 10 for planning, 50 for writing, 15 for Korrekturlesen."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "matching task, assignment"
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "Zu (to) + Ordnung (order). Match headings to paragraphs,\\nspeakers to opinions. A common Aufgabentyp."
+  },
+  {
+    "line": 252,
+    "field": "exampleSrc",
+    "english": "A: The next task is a matching exercise.\\nB: What do I have to match?\\nA: Headings to text sections.\\nB: I find matching tasks easy."
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "Zu (to) + Ordnung (order). An assignment, a matching task. 'Zuordnungsaufgabe' (matching task) is a common exam format. Match headings to paragraphs, speakers to opinions."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "diagram, chart"
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "From Greek 'diagramma.' B2 writing sometimes requires\\ndescribing a Diagramm: bar charts, pie charts, line graphs."
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: Describe the diagram.\\nB: The diagram shows the rise in temperatures.\\nA: What kind of diagram is that?\\nB: A bar chart."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "From Greek 'diagramma' (figure/drawing). A diagram, a chart. B2 writing sometimes requires describing a Diagramm: bar charts, pie charts, line graphs. Data + language = Diagramm description."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "to work through, to study thoroughly"
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Durch (through) + arbeiten (to work). Thorough, systematic\\nwork from beginning to end. Separable. No skipping."
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: Did you work through the material?\\nB: Yes, from beginning to end.\\nA: Working through everything takes a long time.\\nB: But it is worth it."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Durch (through) + arbeiten (to work). To work through, to study thoroughly. Separable. Thorough, systematic work from beginning to end. No skipping."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "to subdivide"
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Unter (sub-) + gliedern (to structure). Not separable.\\nFiner structure within structure. A subsection within a section."
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: Can you subdivide the main body?\\nB: Yes, into three sections.\\nA: How do you best subdivide?\\nB: By arguments: pro, contra, conclusion."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "Unter (sub-) + gliedern (to structure). To subdivide. Not separable. Finer structure within structure. A subsection within a section. 'Den Hauptteil in Abschnitte untergliedern.'"
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "to suffice, to be enough"
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "From 'genug' (enough). Formal version of 'Das reicht.'\\n'Den Anforderungen genügen' (to meet the requirements)."
+  },
+  {
+    "line": 256,
+    "field": "exampleSrc",
+    "english": "A: Does this answer suffice?\\nB: No, it is too short.\\nA: What would suffice?\\nB: Two arguments with examples would suffice."
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "From 'genug' (enough). To suffice, to be enough. 'Das genügt.' Formal version of 'Das reicht.' 'Den Anforderungen genügen' (to meet the requirements)."
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "linguistic, language-related"
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Sprache + -lich. What the exam measures: your ability to\\nuse language well. 'Sprachliche Kompetenz.'"
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: How is his linguistic competence?\\nB: Very good for B2 level.\\nA: Linguistic errors cost points.\\nB: That is why proofreading is important."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "Sprache + -lich. Linguistic, language-related. 'Sprachliche Kompetenz' (linguistic competence). What the exam measures. Your ability to use language well."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "text-based, text-related"
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Text + bezogen (related to). The exam wants evidence FROM\\nthe text. Do not answer from imagination."
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: Your answer must be text-based.\\nB: So directly from the text?\\nA: Yes, text-based answers with text references.\\nB: I will then quote the second paragraph."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "Text + bezogen (related to). Text-related, based on the text. 'Textbezogene Antworten' (text-based answers). The exam wants evidence FROM the text. Do not answer from imagination."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "in bullet-point form"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Stichpunkt (bullet point) + -artig (like/in the manner of).\\nNotes that look like bullet points. Fast and structured."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: Note down in bullet-point form.\\nB: So no full sentences?\\nA: No, bullet-point form is enough.\\nB: That saves a lot of time."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Stichpunkt (bullet point) + -artig (like/in the manner of). In bullet-point form. 'Stichpunktartig notieren.' The -artig suffix means 'in the manner of.' Notes that look like bullet points."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "clear, well-organized"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Übersicht (overview) + -lich. Everything in its place,\\neverything visible at a glance. The highest compliment for structure."
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Your text is very well-organized.\\nB: Thank you, I structured it well.\\nA: Well-organized texts get better grades.\\nB: Structure is everything."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Übersicht (overview) + -lich. Clear, well-organized, easy to survey. 'Ein übersichtliches Layout.' The highest compliment for structure. Everything in its place, everything visible at a glance."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "colloquial, informal"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Umgangssprache (colloquial language) + -lich. In formal B2\\nwriting, avoid umgangssprachliche Ausdrücke."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Is 'cool' colloquial?\\nB: Yes, better to avoid in the exam.\\nA: What is not colloquial?\\nB: 'Impressive' instead of 'cool.'"
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Umgangssprache (colloquial language) + -lich. Colloquial, informal. In formal B2 writing, you avoid umgangssprachliche words. But in the Sprechen section, some naturalness is expected."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "incomplete"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Un- + vollständig (complete). Always double-check:\\nis your answer vollständig or unvollständig?"
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Your answer is incomplete.\\nB: What is missing?\\nA: The second argument is missing.\\nB: I will complete the incomplete answer."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Un- + vollständig (complete). Incomplete. 'Unvollständige Antworten erhalten weniger Punkte.' The un- prefix negates completeness. Always double-check: is your answer vollständig?"
+  },
+  {
+    "line": 268,
+    "field": "hint",
+    "english": "'Halt' expresses: 'That's just how it is.' No discussion, just acceptance of a fact."
+  },
+  {
+    "line": 269,
+    "field": "hint",
+    "english": "A manner clause connector meaning the accompanying action did NOT happen. He achieved the result while that other thing was absent."
+  },
+  {
+    "line": 269,
+    "field": "sSrc",
+    "english": "He passed the exam without being nervous."
+  },
+  {
+    "line": 270,
+    "field": "hint",
+    "english": "Three constructs combined: a manner clause opener, an emphatic indefinite pronoun for totality, and a particle of quiet acceptance. Together they describe thorough, calm practice."
+  },
+  {
+    "line": 270,
+    "field": "sSrc",
+    "english": "By working through all practice tasks, you just get used to the exam style."
+  },
+  {
+    "line": 283,
+    "field": "hint",
+    "english": "The manner clause describes HOW his walk becomes a journey through everything he has learned."
+  },
+  {
+    "line": 286,
+    "field": "desc",
+    "english": "Test everything from Unit 35. Modal clauses, indefinite pronouns, modal particles, formal connectors. Show B2 level in writing, reading, and analysis."
+  },
+  {
+    "line": 287,
+    "field": "unknown",
+    "english": "Test all grammar constructs from Unit 35"
+  },
+  {
+    "line": 288,
+    "field": "unknown",
+    "english": "Demonstrate B2 level with modal clauses and formal connectors"
+  },
+  {
+    "line": 289,
+    "field": "unknown",
+    "english": "Combine all three constructs in complex sentences"
+  },
+  {
+    "line": 291,
+    "field": "src",
+    "english": "Three days after the exam. Morning. Verumius stands at the window with coffee. Outside, Berlin, grey and familiar. He waits for the email. He knows he cannot change anything. He also knows he gave everything."
+  },
+  {
+    "line": 292,
+    "field": "src",
+    "english": "by (doing something)"
+  },
+  {
+    "line": 292,
+    "field": "note",
+    "english": "In + dem (which). The most important Modalsatz connector.\\n'Indem ich uebe, lerne ich.' Answers: How do you achieve X?"
+  },
+  {
+    "line": 292,
+    "field": "exampleSrc",
+    "english": "A: How do you learn best?\\nB: By practicing every day.\\nA: By reading, you improve your vocabulary.\\nB: True, by reading a lot."
+  },
+  {
+    "line": 292,
+    "field": "funFact",
+    "english": "In + dem (which). By (doing something), by means of. The most important Modalsatz connector. Answers: 'How do you achieve X?' 'By doing Y.' Verb goes to the END."
+  },
+  {
+    "line": 293,
+    "field": "src",
+    "english": "through the fact that"
+  },
+  {
+    "line": 293,
+    "field": "note",
+    "english": "Dadurch (through that) + dass. More explicit than 'indem.'\\nEmphasizes the causal mechanism behind the result."
+  },
+  {
+    "line": 293,
+    "field": "exampleSrc",
+    "english": "A: How did he improve?\\nB: Through the fact that he read a lot.\\nA: Through the fact that one practices, one becomes more confident.\\nB: Yes, practice makes the difference."
+  },
+  {
+    "line": 293,
+    "field": "funFact",
+    "english": "Dadurch (through that) + dass. Through the fact that, by the fact that. More explicit than 'indem.' Emphasizes the causal mechanism. The verb goes to the end of the dass-clause."
+  },
+  {
+    "line": 294,
+    "field": "src",
+    "english": "without (doing)"
+  },
+  {
+    "line": 294,
+    "field": "note",
+    "english": "Ohne (without) + dass. The negative manner clause. Something\\nhappened, but the expected action did NOT happen."
+  },
+  {
+    "line": 294,
+    "field": "exampleSrc",
+    "english": "A: He left without saying goodbye.\\nB: That was impolite.\\nA: She passed without getting nervous.\\nB: Impressive."
+  },
+  {
+    "line": 294,
+    "field": "funFact",
+    "english": "Ohne (without) + dass. Without doing. The negative manner clause. Something happened, but the expected accompanying action did NOT happen. 'Er ging, ohne dass er sich verabschiedete.'"
+  },
+  {
+    "line": 295,
+    "field": "src",
+    "english": "instead of (doing)"
+  },
+  {
+    "line": 295,
+    "field": "note",
+    "english": "Anstatt (instead of) + dass. The substitution manner clause.\\nWhat someone does INSTEAD of what they should do."
+  },
+  {
+    "line": 295,
+    "field": "exampleSrc",
+    "english": "A: Instead of studying, he plays.\\nB: That is not smart.\\nA: Instead of writing, she reads.\\nB: At least she reads."
+  },
+  {
+    "line": 295,
+    "field": "funFact",
+    "english": "Anstatt (instead of) + dass. Instead of doing. The substitution manner clause. What someone does INSTEAD of what they should do. Verb goes to the end."
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "in this way, thus"
+  },
+  {
+    "line": 296,
+    "field": "note",
+    "english": "Auf (in) + diese (this) + Weise (way/manner). A formal\\nconnector for academic writing. Slightly old-fashioned but elegant."
+  },
+  {
+    "line": 296,
+    "field": "exampleSrc",
+    "english": "A: First mark the keywords.\\nB: And then?\\nA: In this way you find the answer faster.\\nB: So in this way one saves time."
+  },
+  {
+    "line": 296,
+    "field": "funFact",
+    "english": "Auf (in) + diese (this) + Weise (way/manner). In this way, thus. A formal connector for academic writing. Slightly old-fashioned but elegant. 'Auf diese Weise verbessern Sie Ihre Note.'"
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "as a result of, owing to"
+  },
+  {
+    "line": 297,
+    "field": "note",
+    "english": "In + Folge (consequence). A formal causal preposition.\\nTakes Genitiv. 'Infolgedessen' is the adverb form."
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: As a result of good preparation, he passed.\\nB: As a result of the bad weather, she stayed home.\\nA: As a result of his work, he was promoted.\\nB: Hard work pays off."
+  },
+  {
+    "line": 297,
+    "field": "funFact",
+    "english": "In + Folge (consequence). As a result of, owing to. A formal causal preposition. Takes Genitiv. 'Infolgedessen' (consequently) is the adverb form. Very formal register."
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "due to the fact that"
+  },
+  {
+    "line": 298,
+    "field": "note",
+    "english": "Aufgrund (on the basis of) + der Tatsache (the fact) + dass.\\nVery formal, academic register. Heavy but precise."
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: Due to the fact that he practiced a lot, he passed.\\nB: That sounds very formal.\\nA: Yes, that is academic German.\\nB: Due to the fact that I practice, I get better."
+  },
+  {
+    "line": 298,
+    "field": "funFact",
+    "english": "Aufgrund (on the basis of) + der Tatsache (the fact) + dass. Very formal, almost bureaucratic. Academic register. Heavy but precise. Shows B2-level writing command."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "with the aim of"
+  },
+  {
+    "line": 299,
+    "field": "note",
+    "english": "Mit (with) + dem Ziel (the goal). Purpose expression.\\nMore formal than 'um...zu.' Used with zu + Infinitiv."
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: He studied daily, with the aim of passing the exam.\\nB: With the aim of reaching C1, I read books.\\nA: With what goal are you studying?\\nB: With the aim of working in Germany."
+  },
+  {
+    "line": 299,
+    "field": "funFact",
+    "english": "Mit (with) + dem Ziel (the goal). With the aim of. Purpose expression. More formal than 'um...zu.' 'Mit dem Ziel, die Prüfung zu bestehen, lernte er täglich.'"
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "for the purpose of"
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Zum (for the) + Zweck (purpose). Very formal, almost\\nbureaucratic. 'Zu welchem Zweck?' (For what purpose?)"
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: For the purpose of exam preparation, I read texts.\\nB: For what purpose do you need the dictionary?\\nA: For the purpose of looking things up.\\nB: Very formal."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "Zum (for the) + Zweck (purpose). For the purpose of. Very formal, almost bureaucratic. 'Zu welchem Zweck?' (For what purpose?) is a formal question. Administrative register."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "for the sake of"
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Um + noun (Genitiv) + willen (sake). Very formal. Genitiv\\nrequired. 'Um Gottes willen!' (For God's sake!) is most common."
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: For the sake of clarity, I will explain that again.\\nB: For God's sake, that is hard!\\nA: For the sake of truth: the exam was fair.\\nB: Yes, for the sake of honesty, I agree."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "Um + noun (Genitiv) + willen (sake). For the sake of. Very formal. 'Um Gottes willen!' (For God's sake!) is the most common usage. Genitiv is required between um and willen."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "what kind of"
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Was (what) + für (for) + ein (a). An interrogative pronoun\\nphrase. 'Ein' declines: was für einen, was für einer."
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: What kind of text is that?\\nB: An argumentative text.\\nA: What kind of task comes next?\\nB: A matching task."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "Was (what) + für (for) + ein (a). What kind of. An interrogative pronoun phrase. 'Was für ein Text ist das?' 'Ein' declines: was für einen, was für einer, was für einem."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "each and every one"
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Ein + jeder (every). More emphatic and literary than 'jeder.'\\nStresses the individual within the whole. Slightly poetic."
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: Each and every one has their strengths.\\nB: And each and every one has weaknesses.\\nA: Each and every one must find their way.\\nB: That is true."
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "Ein + jeder (every). Each and every one. More emphatic than just 'jeder.' Literary quality. 'Ein jeder' stresses the individual within the whole. Slightly poetic register."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "apart from that, besides"
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "Abgesehen (seen away from) + davon (from that). A transition\\nphrase that signals: setting that aside, here is another point."
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: The exam was long.\\nB: Apart from that, it was fair.\\nA: Apart from the fact that I was tired, it went well.\\nB: Apart from the length, everything was fine."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "Abgesehen (seen away from) + davon (from that). Apart from that, besides. A transition phrase. Signals: setting that aside, here is another point. Very useful in B2 writing."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "notwithstanding that, despite that"
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "Dessen (of that) + ungeachtet (unregarded). Very formal.\\nLegal and academic register. The formal version of 'trotzdem.'"
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: The exam was hard.\\nB: Notwithstanding that, he remained calm.\\nA: The text was long. Notwithstanding that, he read everything.\\nB: Very disciplined."
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "Dessen (of that) + ungeachtet (unregarded). Notwithstanding that, despite that. Very formal, legal and academic register. The formal version of 'trotzdem.' Shows elevated writing command."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "furthermore, incidentally"
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "Im (in the) + Uebrigen (remaining). A formal discourse marker.\\nSignals an additional point. Elevates your writing register."
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: The exam was fair.\\nB: Furthermore, the organization was good.\\nA: Furthermore, I would like to mention...\\nB: Furthermore, I agree."
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "Im (in the) + Uebrigen (remaining). Furthermore, incidentally. A formal discourse marker. Signals an additional point. 'Im Uebrigen möchte ich noch erwähnen...' Elevates register."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "first and foremost, primarily"
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "In + erster (first) + Linie (line). What matters MOST.\\n'In erster Linie geht es um Kommunikation.'"
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: What matters first and foremost?\\nB: First and foremost, the content.\\nA: And secondly?\\nB: Sentence structure and expression."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "In + erster (first) + Linie (line). First and foremost, primarily. The number one priority. What matters MOST. 'In erster Linie geht es um Kommunikation.' Clear hierarchy."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "in any case, at any rate"
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Jeden (every) + Falls (case). Regardless of what was said\\nbefore, THIS is true. A transition word of certainty."
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: Was the exam hard?\\nB: In any case, I did my best.\\nA: In any case, it is over now.\\nB: Yes, in any case, we can relax."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Jeden (every) + Falls (case). In any case, at any rate. A transition word. Regardless of what was said before, THIS is true. 'Jedenfalls habe ich mein Bestes gegeben.'"
+  },
+  {
+    "line": 314,
+    "field": "hint",
+    "english": "One describes the method applied. The other describes the method NOT applied."
+  },
+  {
+    "line": 315,
+    "field": "hint",
+    "english": "A formal causal preposition with Genitiv. It introduces the cause as a consequence. More elevated in register than 'wegen', pointing specifically to a resulting outcome."
+  },
+  {
+    "line": 315,
+    "field": "sSrc",
+    "english": "As a result of good preparation, she passed the exam."
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "to mention"
+  },
+  {
+    "line": 316,
+    "field": "note",
+    "english": "Formal register. More casual: sagen (to say) or ansprechen (to bring up)."
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "I would also like to mention that the deadline ends tomorrow."
+  },
+  {
+    "line": 316,
+    "field": "funFact",
+    "english": "The prefix er- often signals completion or achievement: wähnen (to assume) becomes erwähnen (to bring up explicitly)."
+  },
+  {
+    "line": 317,
+    "field": "hint",
+    "english": "Three formal register markers: a discourse connector meaning 'furthermore', a verb meaning 'to mention/note', and an adverb meaning 'in any case/at any rate'. All formal written German."
+  },
+  {
+    "line": 317,
+    "field": "sSrc",
+    "english": "Furthermore, I would like to mention that the exam was in any case fair."
+  },
+  {
+    "line": 323,
+    "field": "hint",
+    "english": "The correct sentence packs four B2 features into two clauses. Look for a manner clause, an emphatic word for totality, a particle of acceptance, and a formal linking adverb."
+  },
+  {
+    "line": 331,
+    "field": "hint",
+    "english": "WITH the aim of passing the exam. A formal expression of purpose."
+  },
+  {
+    "line": 331,
+    "field": "sSrc",
+    "english": "He studied daily, with the aim of passing the exam."
+  },
+  {
+    "line": 332,
+    "field": "hint",
+    "english": "Three constructs: a connector introducing a means or cause ('through the fact that'), an emphatic indefinite for totality, and a manner clause indicating what was absent. Three B2 layers in one sentence."
+  },
+  {
+    "line": 332,
+    "field": "sSrc",
+    "english": "Through the fact that he completed all tasks, he passed the exam without being nervous."
+  },
+  {
+    "line": 333,
+    "field": "src",
+    "english": "The waiting is just like that. You cannot speed it up. But you can endure it. By breathing. By living. That is what I learned here."
+  },
+  {
+    "line": 336,
+    "field": "desc",
+    "english": "The exam result is in. Verumius opens the email. Two years of work in one click. Learn formal opinion markers and reflect on the B2 journey."
+  },
+  {
+    "line": 337,
+    "field": "unknown",
+    "english": "Find out the exam result"
+  },
+  {
+    "line": 338,
+    "field": "unknown",
+    "english": "Master formal opinion markers (meines Erachtens, nichtsdestotrotz)"
+  },
+  {
+    "line": 339,
+    "field": "unknown",
+    "english": "Reflect on Verumius's B2 journey with quiet pride"
+  },
+  {
+    "line": 341,
+    "field": "src",
+    "english": "Three days later. Evening. Verumius sits at his desk. The laptop is open. An email arrives. Sender: Goethe-Institut Berlin. Subject: Exam result B2."
+  },
+  {
+    "line": 342,
+    "field": "src",
+    "english": "He stares at the unopened email. His hand hovers over the trackpad. Two years of work in one click."
+  },
+  {
+    "line": 343,
+    "field": "src",
+    "english": "He clicks. 'Dear Mr. Verumius, we are pleased to inform you that you have passed the Goethe Certificate B2 exam.' Passed."
+  },
+  {
+    "line": 344,
+    "field": "src",
+    "english": "No cheering this time. No shout. He sits back and breathes. A deep, slow breath. Then a smile. Quiet. Complete."
+  },
+  {
+    "line": 345,
+    "field": "src",
+    "english": "His phone buzzes. Yilmaz."
+  },
+  {
+    "line": 346,
+    "field": "src",
+    "english": "Verumius. Passed?"
+  },
+  {
+    "line": 347,
+    "field": "src",
+    "english": "Passed."
+  },
+  {
+    "line": 348,
+    "field": "src",
+    "english": "Good. Very good. We will see each other soon."
+  },
+  {
+    "line": 349,
+    "field": "src",
+    "english": "in my opinion (formal)"
+  },
+  {
+    "line": 349,
+    "field": "note",
+    "english": "Meines (my, Genitiv) + Erachtens (considering). Very formal.\\nAbbreviated 'm.E.' in academic writing."
+  },
+  {
+    "line": 349,
+    "field": "exampleSrc",
+    "english": "A: In my opinion, preparation is crucial.\\nB: In my opinion too.\\nA: How formal does that sound?\\nB: Very formal. Perfect for B2 essays."
+  },
+  {
+    "line": 349,
+    "field": "funFact",
+    "english": "Meines (my, Genitiv) + Erachtens (considering). In my opinion/view. Very formal. Abbreviated 'm.E.' in academic writing. The most formal way to state an opinion in German."
+  },
+  {
+    "line": 350,
+    "field": "src",
+    "english": "nevertheless, nonetheless"
+  },
+  {
+    "line": 350,
+    "field": "note",
+    "english": "Nichts (nothing) + desto (the more) + trotz (despite).\\nA famously long German word for a simple idea."
+  },
+  {
+    "line": 350,
+    "field": "exampleSrc",
+    "english": "A: The exam was hard.\\nB: Nevertheless, I passed.\\nA: The weather was bad.\\nB: Nevertheless, we went hiking."
+  },
+  {
+    "line": 350,
+    "field": "funFact",
+    "english": "Nichts (nothing) + desto (the more) + trotz (despite). Nevertheless, nonetheless. A famously long German word for a simple idea. Five syllables where English uses three."
+  },
+  {
+    "line": 351,
+    "field": "src",
+    "english": "moreover, furthermore"
+  },
+  {
+    "line": 351,
+    "field": "note",
+    "english": "Über (over/beyond) + dies (this). A formal discourse marker.\\nMore elevated than 'ausserdem.' Academic register."
+  },
+  {
+    "line": 351,
+    "field": "exampleSrc",
+    "english": "A: The exam was fair.\\nB: Moreover, the organization was good.\\nA: Moreover, I would like to emphasize...\\nB: Moreover, I agree."
+  },
+  {
+    "line": 351,
+    "field": "funFact",
+    "english": "Über (over/beyond) + dies (this). Moreover, furthermore. A formal discourse marker. More elevated than 'ausserdem.' Shows command of academic register."
+  },
+  {
+    "line": 352,
+    "field": "src",
+    "english": "among other things"
+  },
+  {
+    "line": 352,
+    "field": "note",
+    "english": "Unter (among) + anderem (other things). Abbreviated 'u.a.'\\nin academic texts. Lists items without being exhaustive."
+  },
+  {
+    "line": 352,
+    "field": "exampleSrc",
+    "english": "A: What was tested?\\nB: Among other things, reading and listening comprehension.\\nA: And what else?\\nB: Among other things, also writing and speaking."
+  },
+  {
+    "line": 352,
+    "field": "funFact",
+    "english": "Unter (among) + anderem (other things). Among other things. Abbreviated 'u.a.' in academic texts. Lists items without being exhaustive. 'Unter anderem wurde Leseverstehen getestet.'"
+  },
+  {
+    "line": 353,
+    "field": "src",
+    "english": "primarily, chiefly"
+  },
+  {
+    "line": 353,
+    "field": "note",
+    "english": "Vornehm (distinguished/primarily) + -lich. Very formal.\\nImplying what takes the foremost, most distinguished position."
+  },
+  {
+    "line": 353,
+    "field": "exampleSrc",
+    "english": "A: What is primarily tested?\\nB: Primarily the ability to communicate.\\nA: And primarily which grammar?\\nB: Primarily complex sentence structures."
+  },
+  {
+    "line": 353,
+    "field": "funFact",
+    "english": "Vornehm (distinguished/primarily) + -lich. Primarily, chiefly. Very formal. From 'vornehm' (noble/distinguished), implying what takes the foremost position. Elevated register."
+  },
+  {
+    "line": 354,
+    "field": "src",
+    "english": "faulty, erroneous"
+  },
+  {
+    "line": 354,
+    "field": "note",
+    "english": "Fehler (error) + -haft (having/marked by). The -haft suffix\\nmeans 'having the quality of.' Full of errors."
+  },
+  {
+    "line": 354,
+    "field": "exampleSrc",
+    "english": "A: Your sentence is faulty.\\nB: Where is the error?\\nA: Faulty sentences lose points.\\nB: I will correct that immediately."
+  },
+  {
+    "line": 354,
+    "field": "funFact",
+    "english": "Fehler (error) + -haft (having/marked by). Faulty, erroneous. 'Ein fehlerhafter Satz verliert Punkte.' The -haft suffix means 'having the quality of.' Fehler + haft = full of errors."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "grammatical"
+  },
+  {
+    "line": 355,
+    "field": "note",
+    "english": "From Greek 'grammatikos.' The adjective form of 'Grammatik.'\\n'Grammatikalisch korrekte Saetze' is what the exam demands."
+  },
+  {
+    "line": 355,
+    "field": "exampleSrc",
+    "english": "A: Is the sentence grammatically correct?\\nB: Yes, grammatically flawless.\\nA: Grammatical errors cost points.\\nB: That is why I check every sentence."
+  },
+  {
+    "line": 355,
+    "field": "funFact",
+    "english": "From Greek 'grammatikos.' Grammatical. Same root across European languages. 'Grammatikalisch korrekte Saetze.' The adjective form of 'Grammatik.' What the exam really tests."
+  },
+  {
+    "line": 356,
+    "field": "src",
+    "english": "correct"
+  },
+  {
+    "line": 356,
+    "field": "note",
+    "english": "From Latin 'correctus.' Same word in English. In German slang,\\n'Er ist korrekt' also means 'He is a decent person.'"
+  },
+  {
+    "line": 356,
+    "field": "exampleSrc",
+    "english": "A: Is this answer correct?\\nB: Yes, completely correct.\\nA: Correct grammar is important.\\nB: And correct content too."
+  },
+  {
+    "line": 356,
+    "field": "funFact",
+    "english": "From Latin 'correctus.' Correct. Same word in English. In German, also means 'fair/decent' in slang: 'Er ist korrekt' (He is a good person). Double meaning."
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "right, correct"
+  },
+  {
+    "line": 357,
+    "field": "note",
+    "english": "From 'richten' (to direct/judge). More everyday than 'korrekt.'\\n'Richtig!' is what teachers say when you get it right."
+  },
+  {
+    "line": 357,
+    "field": "exampleSrc",
+    "english": "A: Is that right?\\nB: Yes, that is right.\\nA: Right or wrong?\\nB: Right!"
+  },
+  {
+    "line": 357,
+    "field": "funFact",
+    "english": "From 'richten' (to direct/judge). Right, correct. More everyday than 'korrekt.' 'Richtig!' is what teachers say when you get it right. The everyday word for correctness."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "incomplete, full of gaps"
+  },
+  {
+    "line": 358,
+    "field": "note",
+    "english": "Luecke (gap) + -haft. The opposite of 'vollständig.'\\nWhen your knowledge has holes that need filling."
+  },
+  {
+    "line": 358,
+    "field": "exampleSrc",
+    "english": "A: My grammar is still incomplete.\\nB: What gaps do you have?\\nA: Incomplete knowledge of the genitive.\\nB: You can practice that."
+  },
+  {
+    "line": 358,
+    "field": "funFact",
+    "english": "Luecke (gap) + -haft. Incomplete, full of gaps. The opposite of 'vollständig.' When your knowledge has holes. 'Lueckenhafte Kenntnisse' (knowledge with gaps). Honest self-assessment."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "complete, entire"
+  },
+  {
+    "line": 359,
+    "field": "note",
+    "english": "Voll (full) + ständig (standing/constant). Nothing missing.\\nEverything present. What every exam answer should be."
+  },
+  {
+    "line": 359,
+    "field": "exampleSrc",
+    "english": "A: Is your answer complete?\\nB: Yes, I wrote everything.\\nA: Complete answers get full points.\\nB: That is why I check everything again."
+  },
+  {
+    "line": 359,
+    "field": "funFact",
+    "english": "Voll (full) + ständig (standing/constant). Complete, entire. The gold standard. Nothing missing. Everything present. What every exam answer should be. 'Eine vollständige Antwort.'"
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "literal, word-for-word"
+  },
+  {
+    "line": 360,
+    "field": "note",
+    "english": "Wort (word) + -lich. The opposite of 'sinngemaeess' (in\\nmeaning/paraphrased). 'Wörtlich übersetzen' is risky."
+  },
+  {
+    "line": 360,
+    "field": "exampleSrc",
+    "english": "A: Do not translate literally.\\nB: Why not?\\nA: Literal translations sound unnatural.\\nB: So by meaning instead of literally."
+  },
+  {
+    "line": 360,
+    "field": "funFact",
+    "english": "Wort (word) + -lich. Literal, word-for-word. 'Wörtlich übersetzen' (to translate literally). The opposite of 'sinngemaeess' (in meaning/paraphrased). 'Wörtlich genommen' (taken literally)."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "discursive essay, argumentation"
+  },
+  {
+    "line": 361,
+    "field": "note",
+    "english": "From 'eroertern' (to discuss/deliberate). The classic German\\nessay type: present both sides, then take a position."
+  },
+  {
+    "line": 361,
+    "field": "exampleSrc",
+    "english": "A: What is a discursive essay?\\nB: An essay with pro and contra arguments.\\nA: How does a discursive essay end?\\nB: With a conclusion and a personal position."
+  },
+  {
+    "line": 361,
+    "field": "funFact",
+    "english": "From 'eroertern' (to discuss/deliberate). A discursive essay, an argumentation. The classic German essay type: present both sides, then take a position. The B2 Schreibaufgabe is essentially an Eroerterung."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "to compare, to juxtapose"
+  },
+  {
+    "line": 362,
+    "field": "note",
+    "english": "Gegenüber (opposite) + stellen (to place). Separable.\\nPlacing two things opposite each other for comparison."
+  },
+  {
+    "line": 362,
+    "field": "exampleSrc",
+    "english": "A: Juxtapose the arguments.\\nB: Pro: digitalization promotes learning. Contra: danger of distraction.\\nA: Well juxtaposed.\\nB: Thank you, the structure helps."
+  },
+  {
+    "line": 362,
+    "field": "funFact",
+    "english": "Gegenüber (opposite) + stellen (to place). To compare, to contrast, to juxtapose. Separable. Placing two things opposite each other for comparison. 'Argumente gegenüberstellen.'"
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "to look up (in a reference)"
+  },
+  {
+    "line": 363,
+    "field": "note",
+    "english": "Nach (after/looking up) + schlagen (to hit/strike). Separable.\\nLiterally 'to strike after' a word. Flipping dictionary pages."
+  },
+  {
+    "line": 363,
+    "field": "exampleSrc",
+    "english": "A: Look up the word.\\nB: In which dictionary?\\nA: In the online dictionary.\\nB: I will look it up right away."
+  },
+  {
+    "line": 363,
+    "field": "funFact",
+    "english": "Nach (after/looking up) + schlagen (to hit/strike). To look up (in a reference). Separable. Literally 'to strike after' a word. The physical act of flipping dictionary pages. Digital age, same verb."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "assessment criterion"
+  },
+  {
+    "line": 364,
+    "field": "note",
+    "english": "Bewertung (assessment) + Kriterium (criterion). The specific\\nstandard by which exam performance is measured."
+  },
+  {
+    "line": 364,
+    "field": "exampleSrc",
+    "english": "A: What assessment criteria are there?\\nB: Content, structure, grammar, vocabulary.\\nA: Which assessment criterion is most important?\\nB: All four count equally."
+  },
+  {
+    "line": 364,
+    "field": "funFact",
+    "english": "Bewertung (assessment) + Kriterium (criterion). The specific standard by which exam performance is measured. Four Bewertungskriterien at B2: content, structure, grammar, vocabulary range."
+  },
+  {
+    "line": 370,
+    "field": "hint",
+    "english": "The most formal way to express an opinion in German uses a fixed Genitiv expression from academic writing. Which option uses elevated register rather than everyday phrasing?"
+  },
+  {
+    "line": 371,
+    "field": "hint",
+    "english": "The famously long German connective adverb meaning 'in spite of everything'. The opposite of 'deswegen'. It pushes against the previous statement."
+  },
+  {
+    "line": 371,
+    "field": "sSrc",
+    "english": "The exam was hard. Nevertheless, I passed."
+  },
+  {
+    "line": 372,
+    "field": "hint",
+    "english": "Three formal register markers: a Genitiv opinion phrase, a concessive connector, and a manner clause opener. All B2 level. Each gap introduces a distinct rhetorical function."
+  },
+  {
+    "line": 372,
+    "field": "sSrc",
+    "english": "In my opinion, the exam was challenging. Nevertheless, I was able to pass it by working systematically."
+  },
+  {
+    "line": 385,
+    "field": "hint",
+    "english": "The particle that says: yes, it was hard, but... he made it. Concession followed by quiet triumph."
+  }
+]

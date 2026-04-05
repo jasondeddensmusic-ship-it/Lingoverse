@@ -1,0 +1,797 @@
+[
+  {
+    "line": 193,
+    "field": "funFact",
+    "english": "'Nach' (after) + 'vollziehbar' (executable/comprehensible). You can trace the logic step by step. The opposite of impenetrable Amtsdeutsch. Every good Bescheid should be nachvollziehbar."
+  },
+  {
+    "line": 194,
+    "field": "note",
+    "english": "Adjective. 'Recht' + '-lich.'\\n'Rechtliche Schritte einleiten' (to take legal action)."
+  },
+  {
+    "line": 194,
+    "field": "funFact",
+    "english": "'Recht' + '-lich.' The general adjective for anything law-related. 'Rechtlich gesehen...' (From a legal perspective...). The neutral word that frames everything in legal terms."
+  },
+  {
+    "line": 195,
+    "field": "note",
+    "english": "Past participle of 'genehmigen.' Approved.\\n'Der Antrag ist genehmigt.' (Zustandspassiv in action.)"
+  },
+  {
+    "line": 195,
+    "field": "funFact",
+    "english": "Past participle of 'genehmigen.' Zustandspassiv in action: 'Der Antrag ist genehmigt.' The word you want to see on any bureaucratic response. The green light of German officialdom."
+  },
+  {
+    "line": 242,
+    "field": "note",
+    "english": "+ genitive. 'Bezueglich Ihres Schreibens vom 10. Mai...'\\nAbbreviated: 'bzgl.'"
+  },
+  {
+    "line": 242,
+    "field": "funFact",
+    "english": "From 'Bezug' (reference) + '-lich.' The standard opening of bureaucratic correspondence. You will find 'bezüglich' in the first line of nearly every official German letter."
+  },
+  {
+    "line": 243,
+    "field": "note",
+    "english": "+ genitive. 'Hinsichtlich der neuen Verordnung...'\\nSlightly more formal than bezüglich."
+  },
+  {
+    "line": 243,
+    "field": "funFact",
+    "english": "From 'Hinsicht' (regard, respect) + '-lich.' Used in legal and academic texts. The elevated 'regarding' for when bezüglich is not formal enough."
+  },
+  {
+    "line": 244,
+    "field": "note",
+    "english": "+ genitive. 'Aufgrund Ihrer Beschwerde...'\\nAlso written 'auf Grund' (two words)."
+  },
+  {
+    "line": 244,
+    "field": "funFact",
+    "english": "'Auf' (on) + 'Grund' (ground/reason). Standing on the ground of your complaint. The causal genitive preposition of legal German."
+  },
+  {
+    "line": 245,
+    "field": "note",
+    "english": "+ genitive. 'Infolge des Beschlusses...'\\nMore consequential than aufgrund."
+  },
+  {
+    "line": 245,
+    "field": "funFact",
+    "english": "'In' + 'Folge' (consequence). The direct chain: this happened BECAUSE of that. More emphatic than aufgrund. The preposition that traces cause to effect."
+  },
+  {
+    "line": 246,
+    "field": "note",
+    "english": "+ genitive. 'Vorbehaltlich der Genehmigung...'\\nNothing is final until the condition is met."
+  },
+  {
+    "line": 246,
+    "field": "funFact",
+    "english": "From 'Vorbehalt' (reservation) + '-lich.' The conditional preposition: IF this is approved. Adds a legal safety clause. Nothing is guaranteed with vorbehaltlich."
+  },
+  {
+    "line": 247,
+    "field": "note",
+    "english": "+ dative (postposed): 'dem Gesetz zufolge.'\\n+ genitive (preposed): 'zufolge des Gesetzes.'"
+  },
+  {
+    "line": 247,
+    "field": "funFact",
+    "english": "'Zu' (to) + 'Folge' (following). The attribution preposition: who says so? Postposed with dative is more common. Preposed with genitive is more formal."
+  },
+  {
+    "line": 248,
+    "field": "note",
+    "english": "+ dative or genitive. 'Laut Paragraph 5...'\\nShort and efficient."
+  },
+  {
+    "line": 248,
+    "field": "funFact",
+    "english": "Originally from 'Laut' (sound). Now: 'according to what it says.' Short, efficient, bureaucratic. The most compact way to cite a source in German."
+  },
+  {
+    "line": 249,
+    "field": "note",
+    "english": "Prepositional phrase. + accusative.\\n'Unter Bezugnahme auf Ihr Schreiben vom...'"
+  },
+  {
+    "line": 249,
+    "field": "funFact",
+    "english": "The most bureaucratic prepositional phrase in German. It connects your response to their letter. A cross-reference machine that tells the reader: I am responding to THIS document."
+  },
+  {
+    "line": 250,
+    "field": "note",
+    "english": "Fixed legal phrase. + genitive.\\n'Im Sinne des Paragraph 5 des Aufenthaltsgesetzes...'"
+  },
+  {
+    "line": 250,
+    "field": "funFact",
+    "english": "Not your personal interpretation. The law's interpretation. This phrase removes all ambiguity. When you read 'im Sinne des Gesetzes,' the definition that follows is legally binding."
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "Citation formula. Paragraph number = legal authority.\\n'Gemaess Paragraph 23 haben Sie das Recht auf...'"
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "The citation formula of German law. Paragraph number equals legal authority. No opinion, only law. Every German court ruling is built on chains of 'gemaess Paragraph' references."
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "Fixed legal phrase. 'Hiermit erhebe ich Einspruch\\ngegen den Bescheid vom...'"
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "'Erheben' means to raise or elevate. You lift your objection up for the court to see. The formal legal act of objecting. Always schriftlich (in writing)."
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Complete opening sentence of a formal objection letter.\\n'Hiermit' (hereby) + 'einlegen' (to file/lodge)."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "The phrase that starts the legal process of challenging a Bescheid. Memorize this sentence, and you can write the opening of any German legal objection letter."
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Feminine noun. From 'anlegen' (to attach/create).\\n'Siehe Anlage 1' (See attachment 1)."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Also means: a facility, a system, or an investment. In letters: the documents attached. 'Anlage' is printed at the bottom of every official letter to list what is enclosed."
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Feminine noun. Amt + Sprache (language).\\nAlso: the language STYLE of the Amt."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "Article 23 of the Verwaltungsverfahrensgesetz: 'Die Amtssprache ist Deutsch.' All government communication must be in German. No exceptions. Translations are your responsibility."
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "Feminine noun. Beitrag (contribution) + Ordnung.\\n'Gemaess der Beitragsordnung...'"
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "Rules about who pays how much. Every club, insurance, and institution has a Beitragsordnung. German love of Ordnung applied to money."
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Feminine noun. Nach (after) + Frist (deadline).\\n'Eine Nachfrist von 14 Tagen wird gewährt.'"
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "You missed the first Frist. Here is your second chance. Do not miss this one. A Nachfrist is a gift from the bureaucracy. They rarely grant a third."
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Feminine noun. From 'vergueten' (to compensate).\\nMore formal than Gehalt (salary)."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "From 'vergueten' (to compensate). Used in contracts and official documents. More formal than Gehalt. Public sector employees receive Verguetung according to fixed pay scales."
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Logical connector. 'Demnach ist die Frist einzuhalten.'\\nShort, authoritative, legal register."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "'Dem' (that) + 'nach' (after/according to). Given the above, this follows. Short and conclusive. The lawyer's 'therefore.'"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Formal connector. 'Ferner ist zu beachten, dass...'\\nMore formal than ausserdem."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "'Fern' (far) + comparative. The formal 'also.' Legal and academic register. When 'ausserdem' is too casual, 'ferner' steps in."
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Also used as adjective. + dative.\\n'Entsprechend der Vorschrift...'"
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "From 'entsprechen' (to correspond). The preposition of conformity: matching what is prescribed. As adjective: 'die entsprechenden Unterlagen' (the corresponding documents)."
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "Masculine noun. From 'vertragen' (to bear/agree).\\nPlural: Verträge. 'Einen Vertrag unterschreiben.'"
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "Both sides bear (tragen) the agreement together. 'Mietvertrag' (rental), 'Arbeitsvertrag' (employment), 'Kaufvertrag' (purchase). Every major life event in Germany involves a Vertrag."
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "Feminine noun. From 'kündigen' (to give notice).\\n'Die Kuendigung des Vertrags' (contract termination)."
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "German notice periods are among the strictest in Europe. Written, signed, fristgerecht. A verbal Kuendigung has no legal force. Always keep a copy."
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "Feminine noun. Voll (full) + Macht (power).\\n'Eine Vollmacht erteilen' (to grant power of attorney)."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "Full power given to someone to act on your behalf. Legal authority transferred. Without a Vollmacht, no one can access your files at the Behörde. Not even your spouse."
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "Masculine noun. Plural: Maengel.\\n'Einen Mangel reklamieren' (to complain about a defect)."
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "From Latin 'mancus' (deficient). In consumer law: if something has a Mangel, you have rights. Gewährleistung (warranty) covers Maengel for two years."
+  },
+  {
+    "line": 314,
+    "field": "note",
+    "english": "Masculine noun. Plural: Schaeden.\\n'Einen Schaden melden' (to report damage)."
+  },
+  {
+    "line": 314,
+    "field": "funFact",
+    "english": "Insurance vocabulary: Schaden is what happened, Schadensersatz is what you get. 'Sachschaden' (property damage) vs. 'Personenschaden' (injury). Germany's insurance culture revolves around Schaeden."
+  },
+  {
+    "line": 315,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'reclamare' (to cry out against).\\n'Eine Reklamation einreichen.'"
+  },
+  {
+    "line": 315,
+    "field": "funFact",
+    "english": "The consumer's weapon. You have two years for Reklamation in Germany. Something is wrong? File a Reklamation. The law is on your side."
+  },
+  {
+    "line": 316,
+    "field": "note",
+    "english": "Feminine noun. Ab (off) + Mahnung (warning).\\nIn employment: precedes Kuendigung."
+  },
+  {
+    "line": 316,
+    "field": "funFact",
+    "english": "The yellow card before the red. In employment law, an Abmahnung precedes Kuendigung. In consumer law: a cease-and-desist letter. Always take an Abmahnung seriously."
+  },
+  {
+    "line": 317,
+    "field": "note",
+    "english": "Feminine noun. Dienst (service) + Leistung (performance).\\n'Dienstleistungsvertrag' (service contract)."
+  },
+  {
+    "line": 317,
+    "field": "funFact",
+    "english": "Germany's economy is 70% Dienstleistungen. The compound says it: serving + performing. 'Dienstleistungsgesellschaft' (service economy) describes modern Germany."
+  },
+  {
+    "line": 318,
+    "field": "note",
+    "english": "Masculine noun. From 'betreffen' (to concern).\\n'Betreff: Ihr Antrag vom 10. Mai.'"
+  },
+  {
+    "line": 318,
+    "field": "funFact",
+    "english": "Every German official letter begins with Betreff. It tells the reader what the letter is about before they read a single sentence. Precision before content."
+  },
+  {
+    "line": 319,
+    "field": "note",
+    "english": "Masculine noun. Leser (reader) + Brief (letter).\\nHildi's weapon of choice."
+  },
+  {
+    "line": 319,
+    "field": "funFact",
+    "english": "Hildi's weapon of choice: disagreeing publicly through the newspaper. German Leserbriefe have a long tradition. Many local papers have a full page dedicated to them."
+  },
+  {
+    "line": 320,
+    "field": "note",
+    "english": "Feminine noun. Auf (up) + Gabe (giving).\\nAlso means 'giving up' (surrender)."
+  },
+  {
+    "line": 320,
+    "field": "funFact",
+    "english": "Dual meaning: what you must do (task) or what you stop doing (surrender). 'Aufgabe' in bureaucracy always means duty. In chess, 'Aufgabe' means resignation. Context decides."
+  },
+  {
+    "line": 321,
+    "field": "note",
+    "english": "Feminine noun. An + Forderung (demand).\\n'Die Anforderungen erfuellen' (to meet the requirements)."
+  },
+  {
+    "line": 321,
+    "field": "funFact",
+    "english": "What the system demands of you before it acts. Anforderungen are non-negotiable. Missing one Anforderung can delay your entire Antrag by weeks."
+  },
+  {
+    "line": 322,
+    "field": "note",
+    "english": "Not separable. 'Einen Ausweis beantragen.'\\nThe verb form of Antrag."
+  },
+  {
+    "line": 322,
+    "field": "funFact",
+    "english": "You beantragen, and the Behörde bewilligt (or ablehnt). The beginning of every bureaucratic journey. Without beantragen, nothing happens in Germany."
+  },
+  {
+    "line": 323,
+    "field": "note",
+    "english": "Not separable. 'Ihr Antrag wird bearbeitet.'\\nThe Sachbearbeiter bearbeitet your case."
+  },
+  {
+    "line": 323,
+    "field": "funFact",
+    "english": "The process between submission and decision. 'Be-' + 'arbeiten' (to work). The Sachbearbeiter bearbeitet. When you hear 'Ihr Antrag wird bearbeitet,' prepare to wait."
+  },
+  {
+    "line": 324,
+    "field": "note",
+    "english": "Separable. Ein (in) + reichen (to hand/reach).\\n'Den Antrag einreichen.'"
+  },
+  {
+    "line": 324,
+    "field": "funFact",
+    "english": "You reach the document INTO the system. 'Fristgerecht eingereicht' means submitted on time. Missing the deadline means your submission does not count."
+  },
+  {
+    "line": 325,
+    "field": "note",
+    "english": "Not separable. From 'genehm' (agreeable).\\n'Den Antrag genehmigen.'"
+  },
+  {
+    "line": 325,
+    "field": "funFact",
+    "english": "The Behörde finds your request genehm (agreeable) and says yes. The most welcome word in bureaucracy. 'Genehmigt' stamped on your Antrag is the German equivalent of a green light."
+  },
+  {
+    "line": 326,
+    "field": "note",
+    "english": "Separable. Aus (out) + stellen (to place).\\n'Einen Bescheid ausstellen' (to issue a notice)."
+  },
+  {
+    "line": 326,
+    "field": "funFact",
+    "english": "The document is placed OUT of the system into your hands. Also used for exhibitions: 'Ein Bild ausstellen' (to exhibit a painting). Two meanings: to create an official document, or to display art."
+  },
+  {
+    "line": 327,
+    "field": "note",
+    "english": "Not separable. From 'staetigen' (to make firm).\\n'Den Empfang bestätigen' (to confirm receipt)."
+  },
+  {
+    "line": 327,
+    "field": "funFact",
+    "english": "Making something firm, certain, official. Your signature bestätigt your identity. An Eingangsbestätigung (confirmation of receipt) is your proof that the Behörde has your documents."
+  },
+  {
+    "line": 328,
+    "field": "note",
+    "english": "Separable. An (at) + ordnen (to arrange).\\n'Die Behörde ordnet an, dass...'"
+  },
+  {
+    "line": 328,
+    "field": "funFact",
+    "english": "An official command from an authority. Stronger than 'bitten' (to request). When the Behörde anordnet, it is not a suggestion. Compliance is expected."
+  },
+  {
+    "line": 329,
+    "field": "note",
+    "english": "Not separable. Be- + Auftrag (commission/task).\\n'Einen Rechtsanwalt beauftragen.'"
+  },
+  {
+    "line": 329,
+    "field": "funFact",
+    "english": "You give someone an official Auftrag. Beauftragen is how professionals are hired in German legal culture. Without Beauftragung, no one acts on your behalf."
+  },
+  {
+    "line": 330,
+    "field": "note",
+    "english": "Separable. Ein (in) + legen (to lay).\\n'Widerspruch einlegen' (to file an objection)."
+  },
+  {
+    "line": 330,
+    "field": "funFact",
+    "english": "You lay your objection INTO the legal process. 'Widerspruch einlegen,' 'Berufung einlegen,' 'Einspruch einlegen.' The verb for entering the legal arena."
+  },
+  {
+    "line": 331,
+    "field": "note",
+    "english": "Not separable. Er- + lassen (to let).\\nDual meaning: creating rules OR releasing from obligation."
+  },
+  {
+    "line": 331,
+    "field": "funFact",
+    "english": "Creating rules or releasing from them. 'Eine Verordnung erlassen' (to issue an ordinance). 'Die Schulden erlassen' (to waive the debts). The same verb, opposite effects."
+  },
+  {
+    "line": 359,
+    "field": "note",
+    "english": "Not separable. Unter + sagen (to say).\\nMore formal than 'verbieten.'"
+  },
+  {
+    "line": 359,
+    "field": "funFact",
+    "english": "The official word for banning something. More formal than 'verbieten.' When the Behörde untersagt, it is a legal act with consequences."
+  },
+  {
+    "line": 360,
+    "field": "note",
+    "english": "Not separable. Ver- + Anlass (occasion/cause).\\n'Bitte veranlassen Sie die Überweisung.'"
+  },
+  {
+    "line": 360,
+    "field": "funFact",
+    "english": "You cause something to happen through official channels. Not doing it yourself, but setting it in motion. The bureaucratic 'make it happen.'"
+  },
+  {
+    "line": 361,
+    "field": "note",
+    "english": "Not separable. Ver- + fuegen (to join/dispose).\\nDual meaning: to command AND to possess."
+  },
+  {
+    "line": 361,
+    "field": "funFact",
+    "english": "Dual meaning: to command AND to possess. 'Über etwas verfügen' (to have at one's disposal). 'Eine Schliessung verfügen' (to decree a closure). Context determines everything."
+  },
+  {
+    "line": 362,
+    "field": "note",
+    "english": "Not separable. Ver- + weigern (to refuse).\\nStronger than ablehnen."
+  },
+  {
+    "line": 362,
+    "field": "funFact",
+    "english": "Stronger than ablehnen. Official refusal with legal consequences. When permission is verweigert, you need a Rechtsbehelf (legal remedy) to fight back."
+  },
+  {
+    "line": 363,
+    "field": "note",
+    "english": "Not separable. Voll (full) + strecken (to stretch).\\nThe final step of legal enforcement."
+  },
+  {
+    "line": 363,
+    "field": "funFact",
+    "english": "The law stretches out fully and is applied. The final step: after Urteil comes Vollstreckung. 'Zwangsvollstreckung' (forced enforcement) is the last resort."
+  },
+  {
+    "line": 364,
+    "field": "note",
+    "english": "Separable. Vor (before) + sehen (to see).\\n'Das Gesetz sieht vor, dass...'"
+  },
+  {
+    "line": 364,
+    "field": "funFact",
+    "english": "The law looked ahead and planned for this. 'Vorsehen' in legal language: the law stipulates, provides, foresees. What the law vorsieht, you must follow."
+  },
+  {
+    "line": 365,
+    "field": "note",
+    "english": "Separable. Zurück (back) + weisen (to direct).\\n'Den Einspruch zurückweisen.'"
+  },
+  {
+    "line": 365,
+    "field": "funFact",
+    "english": "The authority sends your objection back to you. Rejected. Stronger than ablehnen. When something is zurückgewiesen, the process is over at this level."
+  },
+  {
+    "line": 366,
+    "field": "note",
+    "english": "Separable. Zu (to) + stellen (to place).\\nLegal delivery that starts Fristen."
+  },
+  {
+    "line": 366,
+    "field": "funFact",
+    "english": "Legal delivery: the moment of Zustellung starts all Fristen. A letter that is zugestellt has legal force. 'Zustellung per Einschreiben' (delivery by registered mail) is the standard."
+  },
+  {
+    "line": 367,
+    "field": "note",
+    "english": "Separable. Zu (to) + stimmen (to vote/tune).\\n+ dative: 'dem Antrag zustimmen.'"
+  },
+  {
+    "line": 367,
+    "field": "funFact",
+    "english": "You tune your voice TO the proposal. + dative. When the Behörde zustimmt, your Antrag is on the way to Genehmigung."
+  },
+  {
+    "line": 368,
+    "field": "note",
+    "english": "Not separable. Wider (against) + rufen (to call).\\n'Die Genehmigung widerrufen.'"
+  },
+  {
+    "line": 368,
+    "field": "funFact",
+    "english": "You call AGAINST your own previous statement. A Widerruf cancels what was granted before. 'Widerrufsrecht' (right of withdrawal) gives consumers 14 days to cancel online purchases."
+  },
+  {
+    "line": 369,
+    "field": "note",
+    "english": "Regular -ieren verb. Consumer rights vocabulary.\\n'Ein defektes Produkt reklamieren.'"
+  },
+  {
+    "line": 369,
+    "field": "funFact",
+    "english": "From Latin 'reclamare.' Consumer rights vocabulary. You have two years for Reklamation in Germany. Always keep the Kassenbon (receipt)."
+  },
+  {
+    "line": 370,
+    "field": "note",
+    "english": "Regular -ieren verb. International law vocabulary.\\n'Den Vertrag ratifizieren.'"
+  },
+  {
+    "line": 370,
+    "field": "funFact",
+    "english": "From Latin 'ratum facere' (to make settled). A formal confirmation that makes an agreement binding. Only used for international treaties and major agreements."
+  },
+  {
+    "line": 371,
+    "field": "note",
+    "english": "Separable. Statt (place) + geben (to give).\\n'Dem Einspruch stattgeben' (to uphold the objection)."
+  },
+  {
+    "line": 371,
+    "field": "funFact",
+    "english": "The court gives the objection its place: granted. The opposite of zurückweisen. When a Gericht stattgibt, you win."
+  },
+  {
+    "line": 372,
+    "field": "note",
+    "english": "Separable. Nach (after) + kommen (to come).\\n'Der Aufforderung nachkommen.'"
+  },
+  {
+    "line": 372,
+    "field": "funFact",
+    "english": "You come AFTER the request, fulfilling it. + dative. When the Behörde fordert, you kommen nach. Compliance is not optional."
+  },
+  {
+    "line": 373,
+    "field": "note",
+    "english": "Regular verb. The verb behind Mahnung.\\n'An die Zahlung mahnen.'"
+  },
+  {
+    "line": 373,
+    "field": "funFact",
+    "english": "Three Mahnungen, then legal action. The escalation system of German payment culture. First friendly, then firm, then final."
+  },
+  {
+    "line": 374,
+    "field": "note",
+    "english": "Not separable. From 'Kunde' (notice/knowledge).\\n'Den Vertrag kündigen.'"
+  },
+  {
+    "line": 374,
+    "field": "funFact",
+    "english": "'Jemandem kündigen' (to fire someone). 'Selber kündigen' (to quit). German Kuendigungsfristen (notice periods) are among the longest in Europe. Always in writing."
+  },
+  {
+    "line": 375,
+    "field": "note",
+    "english": "Separable. Bei (by/with) + legen (to lay).\\nTwo meanings: attach OR resolve."
+  },
+  {
+    "line": 375,
+    "field": "funFact",
+    "english": "Two meanings: attach (to a letter) or resolve (a dispute). 'Die Unterlagen beilegen' (to enclose documents). 'Den Streit beilegen' (to settle the dispute). Same verb, different contexts."
+  },
+  {
+    "line": 376,
+    "field": "note",
+    "english": "Pflicht (duty) + gemaess (in accordance with).\\n'Pflichtgemaess erfuellt.'"
+  },
+  {
+    "line": 376,
+    "field": "funFact",
+    "english": "You did what duty required. The bureaucratic seal of compliance. 'Pflichtgemaess' is the adjective that confirms: all rules were followed."
+  },
+  {
+    "line": 377,
+    "field": "note",
+    "english": "Past participle of einreichen.\\n'Der eingereichte Antrag' (the submitted application)."
+  },
+  {
+    "line": 377,
+    "field": "funFact",
+    "english": "Zustandspassiv ready: 'Der Antrag ist eingereicht' (the application has been submitted). The past participle that confirms: the document is in the system."
+  },
+  {
+    "line": 419,
+    "field": "note",
+    "english": "Neuter noun. Grund (land/property) + Buch (book).\\nEvery property is recorded in the Grundbuch."
+  },
+  {
+    "line": 419,
+    "field": "funFact",
+    "english": "Every piece of property in Germany is recorded in the Grundbuch. When you buy a house, the Grundbuchamt records the new owner. No Grundbucheintrag, no ownership."
+  },
+  {
+    "line": 420,
+    "field": "note",
+    "english": "Masculine noun. From 'erlassen.'\\nDual meaning: issuing rules OR releasing from obligation."
+  },
+  {
+    "line": 420,
+    "field": "funFact",
+    "english": "A decree OR a waiver. 'Ein Erlass des Ministers' (a ministerial decree). 'Erlass der Schulden' (debt waiver). Creating rules or releasing from them. Same noun, opposite effects."
+  },
+  {
+    "line": 421,
+    "field": "note",
+    "english": "Strong verb: entscheiden/entschied/entschieden.\\n'Die Behörde entscheidet über den Antrag.'"
+  },
+  {
+    "line": 421,
+    "field": "funFact",
+    "english": "Literally: to cut apart the options. 'Ent-' (away) + 'scheiden' (to separate). Strong verb. The Behörde entscheidet, and the Bescheid tells you the Entscheidung."
+  },
+  {
+    "line": 422,
+    "field": "note",
+    "english": "Not separable. From 'Teil' (part).\\n'Eine Genehmigung erteilen' (to grant a permit)."
+  },
+  {
+    "line": 422,
+    "field": "funFact",
+    "english": "The formal way to say 'give officially.' 'Auskunft erteilen' (to provide information). 'Genehmigung erteilen' (to grant a permit). Always formal, always official."
+  },
+  {
+    "line": 423,
+    "field": "note",
+    "english": "Past participle of 'erledigen' (to take care of).\\n'Die Sache ist erledigt' (The matter is done)."
+  },
+  {
+    "line": 423,
+    "field": "funFact",
+    "english": "The most satisfying word in German bureaucracy. Erledigt means finished, handled, closed. Stamp 'erledigt' on a file, and it is over. The bureaucratic equivalent of 'mission accomplished.'"
+  },
+  {
+    "line": 424,
+    "field": "note",
+    "english": "Past participle of 'bewilligen' (to grant).\\n'Der Antrag ist bewilligt.'"
+  },
+  {
+    "line": 424,
+    "field": "funFact",
+    "english": "Zustandspassiv: the approval is a completed state. You submitted, they approved, it is bewilligt. Celebrate. 'Bewilligt' stamped on your Antrag is the best outcome."
+  },
+  {
+    "line": 425,
+    "field": "note",
+    "english": "Present participle of 'binden' (to bind).\\n'Ein bindender Vertrag' (a binding contract)."
+  },
+  {
+    "line": 425,
+    "field": "funFact",
+    "english": "Something bindend cannot be ignored without legal consequences. 'Rechtsverbindlich' is the full legal version. A bindender Vertrag holds all parties to their word."
+  },
+  {
+    "line": 426,
+    "field": "note",
+    "english": "Essen (to eat) + '-bar' (able).\\nPattern: verb stem + -bar = '-able.'"
+  },
+  {
+    "line": 426,
+    "field": "funFact",
+    "english": "The -bar suffix works like English '-able': essbar (edible), lesbar (readable), machbar (doable). One suffix, endless adjectives. Pattern recognition for German word building."
+  },
+  {
+    "line": 427,
+    "field": "note",
+    "english": "Loesen (to solve) + '-bar.'\\n'Das Problem ist loesbar.'"
+  },
+  {
+    "line": 427,
+    "field": "funFact",
+    "english": "Every bureaucratic problem in Germany is loesbar if you know the right Formular. 'Loesbar' combines loesen (to solve) with -bar (able). The optimistic adjective of the Amt."
+  },
+  {
+    "line": 428,
+    "field": "note",
+    "english": "Machen (to make/do) + '-bar.'\\n'Ist das machbar?'"
+  },
+  {
+    "line": 428,
+    "field": "funFact",
+    "english": "The pragmatic German question: not 'should we' but 'can we.' Machbar is the green light. 'Machbarkeitsstudie' (feasibility study) checks if something is machbar before anyone starts."
+  },
+  {
+    "line": 429,
+    "field": "note",
+    "english": "Un- + vorstellbar (imaginable).\\n'Die Bürokratie war unvorstellbar.'"
+  },
+  {
+    "line": 429,
+    "field": "funFact",
+    "english": "The word for when German bureaucracy exceeds even German expectations. Un- + vorstellbar. You cannot even imagine it. And yet it happens. Every day, at every Amt."
+  },
+  {
+    "line": 430,
+    "field": "note",
+    "english": "In + soweit (so far). Legal precision.\\n'Insoweit ist die Lage klar.'"
+  },
+  {
+    "line": 430,
+    "field": "funFact",
+    "english": "Drawing boundaries around the scope of a statement. To exactly this extent and no further. The lawyer's precision tool."
+  },
+  {
+    "line": 431,
+    "field": "note",
+    "english": "Mit (with) + hin (there).\\n'Mithin ist der Bescheid gueltig.'"
+  },
+  {
+    "line": 431,
+    "field": "funFact",
+    "english": "Short, conclusive, legal register. The lawyer's 'therefore.' Mithin announces a logical conclusion that follows inevitably from what came before."
+  },
+  {
+    "line": 432,
+    "field": "note",
+    "english": "Seite (side) + '-ns' (genitive). + genitive.\\n'Seitens der Behörde wurde mitgeteilt...'"
+  },
+  {
+    "line": 432,
+    "field": "funFact",
+    "english": "The attribution preposition: which side did this come from? + genitive. 'Seitens der Regierung' (on the part of the government). Formal, distanced, institutional."
+  },
+  {
+    "line": 433,
+    "field": "note",
+    "english": "Un- + beschadet (damaged). + genitive.\\n'Unbeschadet der Regelung...'"
+  },
+  {
+    "line": 433,
+    "field": "funFact",
+    "english": "This does not damage or affect the other rule. Both can coexist. Legal language for: the new rule does not cancel the old one. They live side by side."
+  },
+  {
+    "line": 434,
+    "field": "note",
+    "english": "Nichts (nothing) + desto (the) + weniger (less).\\nThe formal twin of nichtsdestotrotz."
+  },
+  {
+    "line": 434,
+    "field": "funFact",
+    "english": "The nothing-the-less construction at its most elegant. The formal twin of 'nichtsdestotrotz.' 26 letters of concessive beauty. Despite everything, we continue."
+  }
+]

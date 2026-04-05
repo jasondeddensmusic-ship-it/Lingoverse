@@ -1,0 +1,862 @@
+[
+  {
+    "english": "The delivery is complete, the result exists now. Choose the auxiliary that expresses a finished state, not an ongoing process.",
+    "arabic": "التسليم اكتمل، والنتيجة موجودة الآن. اختر الفعل المساعد الذي يعبر عن حالة منجزة، لا عن عملية جارية."
+  },
+  {
+    "english": "The notice has already been delivered to you.",
+    "arabic": "لقد سُلِّم الإشعار إليك بالفعل."
+  },
+  {
+    "english": "Impersonal passive (Es wird hingewiesen) plus Zustandspassiv (ist abgelaufen). Double passive power.",
+    "arabic": "المجهول غير الشخصي (Es wird hingewiesen) بالإضافة إلى مجهول الحالة (ist abgelaufen). قوة مضاعفة للمجهول."
+  },
+  {
+    "english": "KD's translation: everything the letter really says, in one short sentence. Amount plus deadline.",
+    "arabic": "ترجمة كابتن دويتش: كل ما تقوله الرسالة فعلاً، في جملة واحدة قصيرة. المبلغ والموعد النهائي."
+  },
+  {
+    "english": "KD decodes the patterns of Amtsdeutsch. Learn the genitive prepositions of the formal register, practice official appeals, and decode the reference formulas of bureaucratic language.",
+    "arabic": "يفك كابتن دويتش رموز الألمانية الرسمية. تعلم حروف الجر الإضافية في المستوى الرسمي، وتدرب على الطعون الرسمية، وافك شفرات صيغ الإشارة في لغة البيروقراطية."
+  },
+  {
+    "english": "Master genitive prepositions in the formal register",
+    "arabic": "إتقان حروف الجر الإضافية في المستوى الرسمي"
+  },
+  {
+    "english": "Learn to formulate official appeals",
+    "arabic": "تعلم صياغة الطعون الرسمية"
+  },
+  {
+    "english": "Decode the reference patterns of Amtsdeutsch",
+    "arabic": "فك رموز صيغ الإشارة في الألمانية الرسمية"
+  },
+  {
+    "english": "Okay, Verumius. Official German has a system. If you know the patterns, it is like a foreign language with only 50 words.",
+    "arabic": "حسناً، فيروميوس. الألمانية الرسمية لها نظام. إذا عرفت الأنماط، فهي كلغة أجنبية بخمسين كلمة فقط."
+  },
+  {
+    "english": "Show me the patterns.",
+    "arabic": "أرني الأنماط."
+  },
+  {
+    "english": "'Regarding your application' means: 'About your application.' 'With regard to the deadline' means: 'Because of the deadline.' 'Subject to approval' means: 'If the approval comes.'",
+    "arabic": "'بخصوص طلبك' تعني: 'بشأن طلبك.' 'فيما يتعلق بالموعد النهائي' تعني: 'بسبب الموعد النهائي.' 'رهناً بالموافقة' تعني: 'إذا جاءت الموافقة.'"
+  },
+  {
+    "english": "It is a code. Every long phrase has a short translation.",
+    "arabic": "إنها شفرة. كل عبارة طويلة لها ترجمة قصيرة."
+  },
+  {
+    "english": "regarding, concerning",
+    "arabic": "بخصوص، فيما يتعلق بـ"
+  },
+  {
+    "english": "A: Regarding your application, we inform you...\\nB: What does the notice say?\\nA: Regarding the deadline, there is a change.\\nB: What change exactly?",
+    "arabic": "أ: بخصوص طلبك، نُعلمك...\\nب: ماذا يقول الإشعار؟\\nأ: فيما يتعلق بالموعد النهائي، هناك تغيير.\\nب: أي تغيير بالضبط؟"
+  },
+  {
+    "english": "with regard to, concerning",
+    "arabic": "فيما يخص، بشأن"
+  },
+  {
+    "english": "A: With regard to the new regulation, we inquire.\\nB: What exactly would you like to know?\\nA: With regard to the deadlines, there is uncertainty.\\nB: The deadlines remain unchanged.",
+    "arabic": "أ: فيما يخص اللائحة الجديدة، نستفسر.\\nب: ماذا تودون معرفته بالضبط؟\\nأ: فيما يخص المواعيد النهائية، هناك غموض.\\nب: تبقى المواعيد النهائية دون تغيير."
+  },
+  {
+    "english": "due to, on the basis of",
+    "arabic": "بسبب، بناءً على"
+  },
+  {
+    "english": "A: Due to the decision, the proceedings are discontinued.\\nB: What does that mean for my application?\\nA: Due to your complaint, we are reviewing the case again.\\nB: Thank you for the information.",
+    "arabic": "أ: بناءً على القرار، توقفت الإجراءات.\\nب: ماذا يعني ذلك لطلبي؟\\nأ: بسبب شكواك، نراجع القضية مجدداً.\\nب: شكراً على المعلومة."
+  },
+  {
+    "english": "as a result of, due to",
+    "arabic": "نتيجةً لـ، بسبب"
+  },
+  {
+    "english": "A: As a result of the storm, roads were closed.\\nB: How long will the closure last?\\nA: As a result of the notice, you must pay.\\nB: Can I file an objection?",
+    "arabic": "أ: نتيجةً للعاصفة، أُغلقت الطرق.\\nب: كم ستدوم حالة الإغلاق؟\\nأ: نتيجةً للإشعار، يجب عليك الدفع.\\nب: هل يمكنني تقديم اعتراض؟"
+  },
+  {
+    "english": "subject to, pending",
+    "arabic": "رهناً بـ، مشروطاً بـ"
+  },
+  {
+    "english": "A: The contract is valid subject to approval.\\nB: What happens without approval?\\nA: Subject to the review, the result is final.\\nB: So we still have to wait.",
+    "arabic": "أ: العقد ساري رهناً بالموافقة.\\nب: ماذا يحدث دون موافقة؟\\nأ: رهناً بالمراجعة، النتيجة نهائية.\\nب: إذن علينا الانتظار بعد."
+  },
+  {
+    "english": "according to",
+    "arabic": "وفقاً لـ، طبقاً لـ"
+  },
+  {
+    "english": "A: According to the report, the numbers have risen.\\nB: According to which report?\\nA: According to the annual report.\\nB: Then the data is probably correct.",
+    "arabic": "أ: وفقاً للتقرير، ارتفعت الأرقام.\\nب: وفقاً لأي تقرير؟\\nأ: وفقاً للتقرير السنوي.\\nب: إذن البيانات صحيحة على الأرجح."
+  },
+  {
+    "english": "according to",
+    "arabic": "وفقاً لـ، بموجب"
+  },
+  {
+    "english": "A: According to the law, you must register.\\nB: Within what deadline?\\nA: According to paragraph 17, within 14 days.\\nB: Understood.",
+    "arabic": "أ: وفقاً للقانون، يجب عليك التسجيل.\\nب: خلال أي موعد نهائي؟\\nأ: وفقاً للمادة 17، خلال 14 يوماً.\\nب: مفهوم."
+  },
+  {
+    "english": "with reference to",
+    "arabic": "بالإشارة إلى، استناداً إلى"
+  },
+  {
+    "english": "A: With reference to your letter of May 3...\\nB: What do they reply?\\nA: With reference to the notice, we inform...\\nB: That sounds very formal.",
+    "arabic": "أ: بالإشارة إلى رسالتك المؤرخة في الثالث من مايو...\\nب: ماذا يردون؟\\nأ: بالإشارة إلى الإشعار، نُعلمكم...\\nب: يبدو ذلك رسمياً جداً."
+  },
+  {
+    "english": "in the sense/meaning of the law",
+    "arabic": "بمفهوم القانون، في إطار القانون"
+  },
+  {
+    "english": "A: In the meaning of the law, he is considered a citizen.\\nB: Which law exactly?\\nA: In the meaning of paragraph 12 of the criminal code.\\nB: That is very specific.",
+    "arabic": "أ: بمفهوم القانون، يُعدّ مواطناً.\\nب: أي قانون بالضبط؟\\nأ: بمفهوم المادة 12 من قانون العقوبات.\\nب: ذلك دقيق جداً."
+  },
+  {
+    "english": "in accordance with paragraph",
+    "arabic": "وفقاً للمادة، استناداً إلى الفقرة"
+  },
+  {
+    "english": "A: In accordance with paragraph 23, you have the right to object.\\nB: Within what deadline?\\nA: In accordance with the legal remedy instructions: four weeks.\\nB: Then I will file an objection.",
+    "arabic": "أ: وفقاً للمادة 23، لديك الحق في الاعتراض.\\nب: خلال أي موعد نهائي؟\\nأ: وفقاً لتعليمات الطعن: أربعة أسابيع.\\nب: إذن سأتقدم باعتراض."
+  },
+  {
+    "english": "to raise an objection",
+    "arabic": "رفع اعتراض، تقديم طعن"
+  },
+  {
+    "english": "A: I would like to raise an objection.\\nB: Against which notice?\\nA: Against the tax notice of May 3.\\nB: Please submit the objection in writing.",
+    "arabic": "أ: أودّ رفع اعتراض.\\nب: ضد أي إشعار؟\\nأ: ضد إشعار الضريبة المؤرخ في الثالث من مايو.\\nب: يُرجى تقديم الاعتراض كتابةً."
+  },
+  {
+    "english": "hereby I file an objection",
+    "arabic": "بموجب هذا أتقدم باعتراض"
+  },
+  {
+    "english": "A: Hereby I file an objection against the notice of May 3.\\nB: Your objection has been received.\\nA: How long does the processing take?\\nB: Usually four to six weeks.",
+    "arabic": "أ: بموجب هذا أتقدم باعتراض على الإشعار المؤرخ في الثالث من مايو.\\nب: لقد استُلم اعتراضكم.\\nأ: كم تستغرق المعالجة؟\\nب: عادةً من أربعة إلى ستة أسابيع."
+  },
+  {
+    "english": "the attachment, the enclosure",
+    "arabic": "المرفق، الملحق"
+  },
+  {
+    "english": "A: You will find the documents in the attachment.\\nB: Which attachment?\\nA: Attachment 1: form. Attachment 2: certificate.\\nB: Thank you, I received both.",
+    "arabic": "أ: ستجد الوثائق في المرفق.\\nب: أي مرفق؟\\nأ: المرفق 1: النموذج. المرفق 2: الشهادة.\\nب: شكراً، استلمت كليهما."
+  },
+  {
+    "english": "the official language",
+    "arabic": "اللغة الرسمية"
+  },
+  {
+    "english": "A: The official language is German.\\nB: What does that mean?\\nA: All applications must be in German.\\nB: Even for foreigners?",
+    "arabic": "أ: اللغة الرسمية هي الألمانية.\\nب: ماذا يعني ذلك؟\\nأ: يجب أن تكون جميع الطلبات بالألمانية.\\nب: حتى للأجانب؟"
+  },
+  {
+    "english": "the contribution regulations, fee schedule",
+    "arabic": "لوائح الرسوم، جدول الرسوم"
+  },
+  {
+    "english": "A: According to the fee schedule, the contribution is 120 euros.\\nB: Can the contribution be reduced?\\nA: Only according to paragraph 5 of the fee schedule.\\nB: Then I will file a request for a reduction.",
+    "arabic": "أ: وفقاً لجدول الرسوم، المساهمة 120 يورو.\\nب: هل يمكن تخفيض المساهمة؟\\nأ: فقط وفقاً للمادة 5 من جدول الرسوم.\\nب: إذن سأتقدم بطلب تخفيض."
+  },
+  {
+    "english": "the extension, the grace period",
+    "arabic": "التمديد، فترة السماح"
+  },
+  {
+    "english": "A: You missed the deadline.\\nB: Is there a grace period?\\nA: Yes, a grace period of 14 days.\\nB: Thank you. This time I will meet it.",
+    "arabic": "أ: فاتك الموعد النهائي.\\nب: هل هناك فترة سماح؟\\nأ: نعم، فترة سماح مدتها 14 يوماً.\\nب: شكراً. هذه المرة سألتزم به."
+  },
+  {
+    "english": "the compensation, remuneration",
+    "arabic": "التعويض، الأجر"
+  },
+  {
+    "english": "A: The compensation is 3,500 euros gross.\\nB: Is that negotiable?\\nA: According to the compensation regulations, unfortunately not.\\nB: Then I accept the conditions.",
+    "arabic": "أ: التعويض 3500 يورو إجمالياً.\\nب: هل هذا قابل للتفاوض؟\\nأ: وفقاً للوائح التعويضات، للأسف لا.\\nب: إذن أقبل الشروط."
+  },
+  {
+    "english": "accordingly, therefore",
+    "arabic": "وفقاً لذلك، بناءً على ذلك"
+  },
+  {
+    "english": "A: The deadline ends on June 15.\\nB: Accordingly, I must submit the application before then.\\nA: Correct. Accordingly, you have one week left.\\nB: I will submit it tomorrow.",
+    "arabic": "أ: ينتهي الموعد النهائي في 15 يونيو.\\nب: وفقاً لذلك، يجب عليّ تقديم الطلب قبل ذلك.\\nأ: صحيح. وفقاً لذلك، تبقى لديك أسبوع واحد.\\nب: سأقدمه غداً."
+  },
+  {
+    "english": "furthermore, in addition",
+    "arabic": "علاوةً على ذلك، بالإضافة إلى ذلك"
+  },
+  {
+    "english": "A: The deadline must be met.\\nB: Furthermore, we request written confirmation.\\nA: Are there further requirements?\\nB: Furthermore, a copy of the ID must be enclosed.",
+    "arabic": "أ: يجب الالتزام بالموعد النهائي.\\nب: علاوةً على ذلك، نطلب تأكيداً كتابياً.\\nأ: هل هناك متطلبات أخرى؟\\nب: علاوةً على ذلك، يجب إرفاق نسخة من الهوية."
+  },
+  {
+    "english": "accordingly, correspondingly",
+    "arabic": "تبعاً لذلك، بما يتوافق مع ذلك"
+  },
+  {
+    "english": "A: In accordance with the regulation, the form must be filled out.\\nB: Which form?\\nA: In accordance with paragraph 12, form A3.\\nB: Understood. I will fill it out.",
+    "arabic": "أ: وفقاً للائحة، يجب ملء النموذج.\\nب: أي نموذج؟\\nأ: وفقاً للمادة 12، النموذج A3.\\nب: مفهوم. سأملؤه."
+  },
+  {
+    "english": "At B1 you learned während, wegen, trotz, statt + genitive. Now add:\\n\\nbezüglich (bezgl.): bezüglich des Antrags\\nhinsichtlich: hinsichtlich der Frist\\naufgrund: aufgrund der Beschwerde\\ninfolge: infolge des Beschlusses\\nvorbehaltlich: vorbehaltlich der Genehmigung\\n\\nAll take the genitive. In spoken language some also accept dative. In written official German: always genitive.",
+    "arabic": "في المستوى B1 تعلمت während وwegen وtrotz وstatt مع الإضافة. أضف الآن:\\n\\nbezüglich (bezgl.): bezüglich des Antrags\\nhinsichtlich: hinsichtlich der Frist\\naufgrund: aufgrund der Beschwerde\\ninfolge: infolge des Beschlusses\\nvorbehaltlich: vorbehaltlich der Genehmigung\\n\\nجميعها تأخذ الإضافة. في اللغة المنطوقة قد تقبل بعضها المفعول به. في الألمانية الرسمية المكتوبة: الإضافة دائماً."
+  },
+  {
+    "english": "Gemaess, laut, and zufolge fluctuate between dative and genitive. In formal writing, genitive is preferred.\\n\\nGemaess dem Gesetz (dative, correct)\\nGemaess des Gesetzes (genitive, very formal)\\nLaut Paragraph 5 (without article, common)\\nLaut des Berichts (genitive, formal)\\nDem Gesetz zufolge (dative, postposed)\\n\\nRule of thumb: at the office, always genitive. In conversation, dative is allowed.",
+    "arabic": "تتأرجح gemäß ولaut وzufolge بين المفعول به والإضافة. في الكتابة الرسمية تُفضَّل الإضافة.\\n\\ngemäß dem Gesetz (مفعول به، صحيح)\\ngemäß des Gesetzes (إضافة، رسمي جداً)\\nlaut Paragraph 5 (بدون أداة، شائع)\\nlaut des Berichts (إضافة، رسمي)\\ndem Gesetz zufolge (مفعول به، مؤخَّر)\\n\\nقاعدة عامة: في الدوائر الرسمية، الإضافة دائماً. في المحادثة، المفعول به مسموح."
+  },
+  {
+    "english": "Bezueglich + Genitiv = regarding. The standard opening of official correspondence.",
+    "arabic": "bezüglich + الإضافة = بخصوص. الفتحة المعيارية للمراسلات الرسمية."
+  },
+  {
+    "english": "Because of, on the basis of. A genitive preposition expressing a cause.",
+    "arabic": "بسبب، بناءً على. حرف جر إضافي يعبر عن السببية."
+  },
+  {
+    "english": "Due to the new regulation, changed deadlines apply.",
+    "arabic": "بسبب اللائحة الجديدة، تسري مواعيد نهائية معدّلة."
+  },
+  {
+    "english": "According to the Bescheid (genitive preposition) + the application IS already approved (Zustandspassiv).",
+    "arabic": "وفقاً للقرار (حرف جر إضافي) + الطلب مُعتمَد بالفعل (مجهول الحالة)."
+  },
+  {
+    "english": "This form of 'sein' appears in formal official writing to create institutional distance, not to express a hypothesis or a command.",
+    "arabic": "تظهر هذه الصيغة من 'sein' في الكتابة الرسمية الرسمية لإيجاد مسافة مؤسسية، لا للتعبير عن فرضية أو أمر."
+  },
+  {
+    "english": "Hildi needs help with the digital Finanzamt. Verumius explains the online forms to her. Learn contract and complaint vocabulary, practice all three grammar constructions in mixed contexts.",
+    "arabic": "تحتاج هيلدي إلى مساعدة في مكتب الضرائب الرقمي. يشرح لها فيروميوس النماذج الإلكترونية. تعلم مفردات العقود والشكاوى، وتدرب على المباني النحوية الثلاثة في سياقات مختلطة."
+  },
+  {
+    "english": "Learn vocabulary for online forms and contracts",
+    "arabic": "تعلم مفردات النماذج الإلكترونية والعقود"
+  },
+  {
+    "english": "Practice all three grammar constructions in combination",
+    "arabic": "التدرب على المباني النحوية الثلاثة معاً"
+  },
+  {
+    "english": "Master complaint and contract vocabulary",
+    "arabic": "إتقان مفردات الشكاوى والعقود"
+  },
+  {
+    "english": "Hildi's apartment. An immaculate living room. Doilies on every surface. Grandfather clock ticking. But on the table: a tablet. The tax office has gone digital. And Hildi needs help.",
+    "arabic": "شقة هيلدي. غرفة معيشة أنيقة. مفارش دانتيل على كل سطح. ساعة جدارية تدق. لكن على الطاولة: جهاز لوحي. تحوّل مكتب الضرائب إلى الرقمي. وهيلدي تحتاج إلى مساعدة."
+  },
+  {
+    "english": "This technology. In the old days, you wrote a letter. Now I am supposed to type on a screen?",
+    "arabic": "هذه التكنولوجيا. في الزمن القديم كنت تكتب رسالة. والآن يُفترض بي الكتابة على شاشة؟"
+  },
+  {
+    "english": "I will show you, Hildi. You taught me the recycling rules. Now I will show you the digital tax return.",
+    "arabic": "سأريك يا هيلدي. أنتِ علّمتِني قواعد إعادة التدوير. الآن سأريكِ الإقرار الضريبي الرقمي."
+  },
+  {
+    "english": "All right. But only because the letter to the editor also has to be online.",
+    "arabic": "حسناً. لكن فقط لأن الرسالة إلى المحرر يجب أن تكون أيضاً على الإنترنت."
+  },
+  {
+    "english": "the contract",
+    "arabic": "العقد"
+  },
+  {
+    "english": "A: Have you read the contract?\\nB: Yes, all 20 pages.\\nA: Then please sign here.\\nB: The contract is hereby signed.",
+    "arabic": "أ: هل قرأت العقد؟\\nب: نعم، جميع الـ20 صفحة.\\nأ: إذن وقّع هنا من فضلك.\\nب: بموجب هذا وُقِّع العقد."
+  },
+  {
+    "english": "the termination, the cancellation",
+    "arabic": "الإنهاء، الفسخ"
+  },
+  {
+    "english": "A: I would like to submit my termination.\\nB: The notice period is three months.\\nA: Must the termination be in writing?\\nB: Yes, always in writing and signed.",
+    "arabic": "أ: أودّ تقديم إشعار إنهاء العقد.\\nب: مدة الإشعار ثلاثة أشهر.\\nأ: هل يجب أن يكون الإنهاء كتابةً؟\\nب: نعم، كتابةً وبتوقيع دائماً."
+  },
+  {
+    "english": "the power of attorney",
+    "arabic": "التوكيل الرسمي، وكالة التفويض"
+  },
+  {
+    "english": "A: I hereby grant you power of attorney.\\nB: For which matters?\\nA: Power of attorney for all tax matters.\\nB: I will handle the case immediately.",
+    "arabic": "أ: بموجب هذا أمنحك التوكيل الرسمي.\\nب: في أي شؤون؟\\nأ: توكيل رسمي لجميع الشؤون الضريبية.\\nب: سأتولى القضية فوراً."
+  },
+  {
+    "english": "the defect, the flaw",
+    "arabic": "العيب، الخلل"
+  },
+  {
+    "english": "A: The device has a defect.\\nB: What defect exactly?\\nA: The screen has pixel errors.\\nB: Please file a complaint.",
+    "arabic": "أ: الجهاز به عيب.\\nب: أي عيب بالضبط؟\\nأ: الشاشة بها أخطاء في البكسل.\\nب: يُرجى تقديم شكوى."
+  },
+  {
+    "english": "the damage, the harm",
+    "arabic": "الضرر، الأذى"
+  },
+  {
+    "english": "A: I would like to report damage.\\nB: What kind of damage?\\nA: Water damage in the apartment.\\nB: We will send someone immediately.",
+    "arabic": "أ: أودّ الإبلاغ عن ضرر.\\nب: أي نوع من الضرر؟\\nأ: أضرار مائية في الشقة.\\nب: سنرسل شخصاً فوراً."
+  },
+  {
+    "english": "the complaint (about product/service)",
+    "arabic": "الشكوى (بشأن منتج أو خدمة)"
+  },
+  {
+    "english": "A: I would like to file a complaint.\\nB: What is the reason?\\nA: The product has a defect.\\nB: Please fill out this form.",
+    "arabic": "أ: أودّ تقديم شكوى.\\nب: ما السبب؟\\nأ: المنتج به عيب.\\nب: يُرجى ملء هذا النموذج."
+  },
+  {
+    "english": "the formal warning",
+    "arabic": "التحذير الرسمي، الإنذار"
+  },
+  {
+    "english": "A: Mr. Mueller received a formal warning.\\nB: For which violation?\\nA: Repeated lateness.\\nB: The next warning leads to termination.",
+    "arabic": "أ: حصل السيد مولر على تحذير رسمي.\\nب: بسبب أي مخالفة؟\\nأ: التأخر المتكرر.\\nب: التحذير التالي يؤدي إلى إنهاء الخدمة."
+  },
+  {
+    "english": "the service",
+    "arabic": "الخدمة"
+  },
+  {
+    "english": "A: What service do you offer?\\nB: Tax consulting and bookkeeping.\\nA: What does the service cost?\\nB: According to our fee schedule.",
+    "arabic": "أ: ما الخدمة التي تقدمونها؟\\nب: الاستشارات الضريبية ومسك الدفاتر.\\nأ: كم تكلف الخدمة؟\\nب: وفقاً لجدول الرسوم لدينا."
+  },
+  {
+    "english": "the subject line",
+    "arabic": "سطر الموضوع"
+  },
+  {
+    "english": "A: What do I write in the subject line?\\nB: Subject: Objection against notice of May 3.\\nA: Must the subject line be so precise?\\nB: Yes, without a subject line, nobody can find your letter.",
+    "arabic": "أ: ماذا أكتب في سطر الموضوع؟\\nب: الموضوع: اعتراض على إشعار الثالث من مايو.\\nأ: هل يجب أن يكون سطر الموضوع دقيقاً إلى هذا الحد؟\\nب: نعم، بدون سطر موضوع لن يتمكن أحد من العثور على رسالتك."
+  },
+  {
+    "english": "the letter to the editor",
+    "arabic": "الرسالة إلى المحرر"
+  },
+  {
+    "english": "A: Hildi is writing a letter to the editor.\\nB: What is she complaining about?\\nA: About the new waste regulation.\\nB: Her letter will definitely be published.",
+    "arabic": "أ: هيلدي تكتب رسالة إلى المحرر.\\nب: عمّ تشكو؟\\nأ: عن لائحة النفايات الجديدة.\\nب: رسالتها ستُنشر حتماً."
+  },
+  {
+    "english": "the task, the duty",
+    "arabic": "المهمة، الواجب"
+  },
+  {
+    "english": "A: It is the duty of the authority to inform you.\\nB: And my task?\\nA: Your task is to submit the application on time.\\nB: Understood. Everyone has their task.",
+    "arabic": "أ: من واجب الجهة إعلامك.\\nب: وما مهمتي؟\\nأ: مهمتك تقديم الطلب في الوقت المحدد.\\nب: مفهوم. لكل شخص مهمته."
+  },
+  {
+    "english": "the requirement, the demand",
+    "arabic": "الشرط، المتطلب"
+  },
+  {
+    "english": "A: Does the application meet all requirements?\\nB: Almost. A signature is still missing.\\nA: The requirements are strict.\\nB: Without all requirements, nothing will be processed.",
+    "arabic": "أ: هل يستوفي الطلب جميع المتطلبات؟\\nب: تقريباً. توقيع لا يزال ناقصاً.\\nأ: المتطلبات صارمة.\\nب: بدون جميع المتطلبات لن تتم معالجة أي شيء."
+  },
+  {
+    "english": "to apply for",
+    "arabic": "التقدم بطلب، طلب الحصول على"
+  },
+  {
+    "english": "A: I would like to apply for a residence permit.\\nB: What documents do I need?\\nA: Everything listed in the information sheet.\\nB: I will apply for it immediately.",
+    "arabic": "أ: أودّ التقدم بطلب للحصول على تصريح إقامة.\\nب: ما الوثائق التي أحتاجها؟\\nأ: كل ما هو مدرج في صحيفة المعلومات.\\nب: سأتقدم بالطلب فوراً."
+  },
+  {
+    "english": "to process, to handle",
+    "arabic": "معالجة، البت في"
+  },
+  {
+    "english": "A: How long does it take to process the application?\\nB: Usually four to six weeks.\\nA: Can it be faster?\\nB: Unfortunately not. We process all applications in order.",
+    "arabic": "أ: كم تستغرق معالجة الطلب؟\\nب: عادةً من أربعة إلى ستة أسابيع.\\nأ: هل يمكن أن يكون أسرع؟\\nب: للأسف لا. نعالج جميع الطلبات بالترتيب."
+  },
+  {
+    "english": "to submit, to file",
+    "arabic": "تقديم، إيداع"
+  },
+  {
+    "english": "A: When must you submit the documents?\\nB: By June 15.\\nA: Have you submitted everything?\\nB: Yes, everything has been submitted on time.",
+    "arabic": "أ: متى يجب عليك تقديم الوثائق؟\\nب: بحلول الخامس عشر من يونيو.\\nأ: هل قدّمت كل شيء؟\\nب: نعم، قُدِّم كل شيء في الوقت المحدد."
+  },
+  {
+    "english": "to approve, to authorize",
+    "arabic": "اعتماد، الموافقة على"
+  },
+  {
+    "english": "A: Was the application approved?\\nB: Yes, the approval has been granted.\\nA: Who approved it?\\nB: The responsible authority.",
+    "arabic": "أ: هل اعتُمد الطلب؟\\nب: نعم، مُنحت الموافقة.\\nأ: من وافق عليه؟\\nب: الجهة المختصة."
+  },
+  {
+    "english": "to issue, to exhibit",
+    "arabic": "إصدار، منح"
+  },
+  {
+    "english": "A: Who issues the notice?\\nB: The tax office issues it.\\nA: How long does the issuance take?\\nB: After approval, about two weeks.",
+    "arabic": "أ: من يصدر الإشعار؟\\nب: مكتب الضرائب يصدره.\\nأ: كم يستغرق الإصدار؟\\nب: بعد الموافقة، نحو أسبوعين."
+  },
+  {
+    "english": "to confirm",
+    "arabic": "تأكيد"
+  },
+  {
+    "english": "A: Can you confirm receipt?\\nB: Hereby we confirm the receipt of your documents.\\nA: Will I get a written confirmation?\\nB: Yes, the confirmation will be delivered by mail.",
+    "arabic": "أ: هل يمكنك تأكيد الاستلام؟\\nب: بموجب هذا نؤكد استلام وثائقكم.\\nأ: هل سأحصل على تأكيد كتابي؟\\nب: نعم، سيُرسَل التأكيد بالبريد."
+  },
+  {
+    "english": "to order, to decree",
+    "arabic": "الأمر بـ، إصدار أمر"
+  },
+  {
+    "english": "A: The authority has ordered an inspection.\\nB: Who ordered that?\\nA: The responsible case worker.\\nB: You can file an objection against that.",
+    "arabic": "أ: أصدرت الجهة أمراً بإجراء تفتيش.\\nب: من أصدر ذلك الأمر؟\\nأ: الموظف المسؤول عن القضية.\\nب: يمكنك الاعتراض على ذلك."
+  },
+  {
+    "english": "to commission, to instruct",
+    "arabic": "تكليف، تعيين"
+  },
+  {
+    "english": "A: I have commissioned a lawyer.\\nB: With what task?\\nA: He should formulate my objection.\\nB: That is a good decision.",
+    "arabic": "أ: لقد كلّفت محامياً.\\nب: بأي مهمة؟\\nأ: ينبغي له صياغة اعتراضي.\\nب: هذا قرار جيد."
+  },
+  {
+    "english": "to file, to lodge",
+    "arabic": "تقديم، إيداع (اعتراض أو طعن)"
+  },
+  {
+    "english": "A: I would like to file an objection.\\nB: The deadline is four weeks.\\nA: Where do I file the objection?\\nB: In writing at the responsible authority.",
+    "arabic": "أ: أودّ تقديم اعتراض.\\nب: الموعد النهائي أربعة أسابيع.\\nأ: أين أقدم الاعتراض؟\\nب: كتابةً لدى الجهة المختصة."
+  },
+  {
+    "english": "to issue (a decree), to waive (a debt)",
+    "arabic": "إصدار (مرسوم)، الإعفاء من (دين)"
+  },
+  {
+    "english": "A: The government has issued a new regulation.\\nB: What does it state?\\nA: Furthermore, some fees were waived.\\nB: So fewer costs for citizens.",
+    "arabic": "أ: أصدرت الحكومة لائحة جديدة.\\nب: ماذا تنص؟\\nأ: علاوةً على ذلك، أُعفي من بعض الرسوم.\\nب: إذن تكاليف أقل للمواطنين."
+  },
+  {
+    "english": "Count each distinct grammatical construction: how the sentence is introduced, how the action is expressed without a named subject, and how the result state is described.",
+    "arabic": "أحصِ كل مبنى نحوي مميز: كيف تُفتتح الجملة، وكيف يُعبَّر عن الفعل دون تسمية فاعل، وكيف توصَف الحالة الناتجة."
+  },
+  {
+    "english": "The separable verb that pairs with Widerspruch to form the standard legal objection formula. 1st person singular; prefix separates to the end.",
+    "arabic": "الفعل المنفصل الذي يقترن مع Widerspruch لتكوين صيغة الاعتراض القانوني المعيارية. صيغة المفرد المتكلم؛ البادئة تنفصل إلى النهاية."
+  },
+  {
+    "english": "Hereby I file an objection against the notice of May 3.",
+    "arabic": "بموجب هذا أتقدم باعتراض على الإشعار المؤرخ في الثالث من مايو."
+  },
+  {
+    "english": "Regarding (genitive preposition) your application... the approval IS granted (Zustandspassiv).",
+    "arabic": "بخصوص (حرف جر إضافي) طلبك... الموافقة مُمنوحة (مجهول الحالة)."
+  },
+  {
+    "english": "Wird (werden) = process currently happening. Ist (sein) = result that is established. Two passives, two perspectives.",
+    "arabic": "wird (werden) = عملية جارية الآن. ist (sein) = نتيجة راسخة. مجهولان، منظوران."
+  },
+  {
+    "english": "Test everything from Unit 30. Prove you can read, write, and respond to official German. Master the vocabulary of the Amt.",
+    "arabic": "اختبر كل شيء من الوحدة 30. أثبت قدرتك على قراءة الألمانية الرسمية والكتابة بها والرد عليها. أتقن مفردات الجهات الرسمية."
+  },
+  {
+    "english": "Test the complete vocabulary of Unit 30",
+    "arabic": "اختبار المفردات الكاملة للوحدة 30"
+  },
+  {
+    "english": "Practice all three grammar constructions in combination",
+    "arabic": "التدرب على المباني النحوية الثلاثة معاً"
+  },
+  {
+    "english": "Prove competence in bureaucratic language",
+    "arabic": "إثبات الكفاءة في لغة البيروقراطية"
+  },
+  {
+    "english": "to prohibit, to forbid",
+    "arabic": "حظر، منع"
+  },
+  {
+    "english": "A: The authority has prohibited the construction.\\nB: For what reason?\\nA: Due to a missing permit.\\nB: Can one take action against the prohibition?",
+    "arabic": "أ: حظرت الجهة البناء.\\nب: لأي سبب؟\\nأ: بسبب غياب التصريح.\\nب: هل يمكن الطعن في قرار الحظر؟"
+  },
+  {
+    "english": "to arrange, to initiate",
+    "arabic": "ترتيب، المبادرة بـ"
+  },
+  {
+    "english": "A: Please arrange the payment.\\nB: The payment will be arranged immediately.\\nA: Who initiated the proceedings?\\nB: The responsible authority.",
+    "arabic": "أ: يُرجى ترتيب الدفع.\\nب: سيُرتَّب الدفع فوراً.\\nأ: من بادر بالإجراءات؟\\nب: الجهة المختصة."
+  },
+  {
+    "english": "to decree, to dispose, to have at one's disposal",
+    "arabic": "إصدار مرسوم، التصرف، التمتع بصلاحية"
+  },
+  {
+    "english": "A: The authority has decreed the closure.\\nB: From when does the decree take effect?\\nA: Immediately.\\nB: We have no other options at our disposal.",
+    "arabic": "أ: أصدرت الجهة مرسوم الإغلاق.\\nب: متى يسري المرسوم؟\\nأ: فوراً.\\nب: ليس بوسعنا خيارات أخرى."
+  },
+  {
+    "english": "to refuse, to deny",
+    "arabic": "رفض، الامتناع عن"
+  },
+  {
+    "english": "A: The official refused the permit.\\nB: With what justification?\\nA: The documents were supposedly incomplete.\\nB: That is not comprehensible.",
+    "arabic": "أ: رفض الموظف منح التصريح.\\nب: بأي مبرر؟\\nأ: الوثائق كانت منقوصة على ما يُقال.\\nب: ذلك غير مفهوم."
+  },
+  {
+    "english": "to enforce, to execute (a judgment)",
+    "arabic": "تنفيذ، إنفاذ (حكم)"
+  },
+  {
+    "english": "A: The judgment is now being enforced.\\nB: What does that mean in practice?\\nA: The claim will be forcibly collected.\\nB: Can the enforcement still be stopped?",
+    "arabic": "أ: الحكم يُنفَّذ الآن.\\nب: ماذا يعني ذلك عملياً؟\\nأ: ستُحصَّل المطالبة قسراً.\\nب: هل يمكن إيقاف التنفيذ بعد؟"
+  },
+  {
+    "english": "to provide for, to stipulate",
+    "arabic": "النص على، الاشتراط"
+  },
+  {
+    "english": "A: What does the law provide for?\\nB: The law provides for a deadline of four weeks.\\nA: Is that binding?\\nB: Yes, the law provides for no exceptions.",
+    "arabic": "أ: على ماذا ينص القانون؟\\nب: ينص القانون على موعد نهائي مدته أربعة أسابيع.\\nأ: هل هذا ملزم؟\\nب: نعم، لا ينص القانون على أي استثناءات."
+  },
+  {
+    "english": "to reject, to dismiss",
+    "arabic": "رفض، قبول عدم"
+  },
+  {
+    "english": "A: The court dismissed the objection.\\nB: For what reason?\\nA: The objection was not filed on time.\\nB: Then only the appeal remains.",
+    "arabic": "أ: رفضت المحكمة الاعتراض.\\nب: لأي سبب؟\\nأ: لم يُقدَّم الاعتراض في الوقت المحدد.\\nب: إذن لم يبقَ إلا الاستئناف."
+  },
+  {
+    "english": "to deliver (officially)",
+    "arabic": "تسليم (رسمي)، إبلاغ"
+  },
+  {
+    "english": "A: The notice has been delivered to you.\\nB: When was it delivered?\\nA: On June 1. The deadline starts from delivery.\\nB: Then I have three more weeks.",
+    "arabic": "أ: سُلِّم الإشعار إليك.\\nب: متى سُلِّم؟\\nأ: في الأول من يونيو. يبدأ الموعد النهائي من تاريخ التسليم.\\nب: إذن أمامي ثلاثة أسابيع أخرى."
+  },
+  {
+    "english": "to agree, to consent",
+    "arabic": "الموافقة، الرضا"
+  },
+  {
+    "english": "A: Do you agree with the proposal?\\nB: Yes, I agree.\\nA: The authority agreed to the application.\\nB: Then the approval is granted.",
+    "arabic": "أ: هل توافق على المقترح؟\\nب: نعم، أوافق.\\nأ: وافقت الجهة على الطلب.\\nب: إذن مُنحت الموافقة."
+  },
+  {
+    "english": "to revoke, to withdraw",
+    "arabic": "سحب، إلغاء"
+  },
+  {
+    "english": "A: The permit was revoked.\\nB: Why?\\nA: Due to new findings.\\nB: Can the revocation be challenged?",
+    "arabic": "أ: سُحب التصريح.\\nب: لماذا؟\\nأ: بسبب معطيات جديدة.\\nب: هل يمكن الطعن في قرار السحب؟"
+  },
+  {
+    "english": "to complain, to make a claim",
+    "arabic": "تقديم شكوى، المطالبة"
+  },
+  {
+    "english": "A: I would like to make a complaint about this product.\\nB: What is the defect?\\nA: It no longer works.\\nB: Do you still have the receipt?",
+    "arabic": "أ: أودّ تقديم شكوى بشأن هذا المنتج.\\nب: ما العيب؟\\nأ: لم يعد يعمل.\\nب: هل لا يزال لديك الإيصال؟"
+  },
+  {
+    "english": "to ratify",
+    "arabic": "التصديق على، المصادقة"
+  },
+  {
+    "english": "A: The parliament ratified the treaty.\\nB: What does the ratification mean?\\nA: The treaty is now legally binding.\\nB: From when does it take effect?",
+    "arabic": "أ: صادق البرلمان على المعاهدة.\\nب: ماذا تعني المصادقة؟\\nأ: المعاهدة ملزمة قانونياً الآن.\\nب: متى تدخل حيز التنفيذ؟"
+  },
+  {
+    "english": "to grant, to uphold",
+    "arabic": "منح، تأييد"
+  },
+  {
+    "english": "A: Did the court uphold the objection?\\nB: Yes, the objection was upheld.\\nA: What happens now?\\nB: The original notice is annulled.",
+    "arabic": "أ: هل أيّدت المحكمة الاعتراض؟\\nب: نعم، أُيِّد الاعتراض.\\nأ: ماذا يحدث الآن؟\\nب: يُلغى الإشعار الأصلي."
+  },
+  {
+    "english": "to comply with, to fulfill",
+    "arabic": "الامتثال لـ، الوفاء بـ"
+  },
+  {
+    "english": "A: Please comply with the request.\\nB: Which request?\\nA: You should submit the documents.\\nB: I will comply with the request immediately.",
+    "arabic": "أ: يُرجى الامتثال للطلب.\\nب: أي طلب؟\\nأ: ينبغي لك تقديم الوثائق.\\nب: سأمتثل للطلب فوراً."
+  },
+  {
+    "english": "to remind, to send a dunning notice",
+    "arabic": "تذكير، إرسال إشعار مطالبة"
+  },
+  {
+    "english": "A: We hereby remind you of the outstanding payment.\\nB: Which payment?\\nA: The invoice from April 15.\\nB: I will transfer immediately.",
+    "arabic": "أ: بموجب هذا نذكّركم بالدفعة المستحقة.\\nب: أي دفعة؟\\nأ: الفاتورة المؤرخة في الخامس عشر من أبريل.\\nب: سأحوّل المبلغ فوراً."
+  },
+  {
+    "english": "to give notice, to terminate",
+    "arabic": "تقديم إشعار، إنهاء العقد"
+  },
+  {
+    "english": "A: I would like to terminate my contract.\\nB: The notice period is three months.\\nA: Must I give notice in writing?\\nB: Yes, only written terminations are valid.",
+    "arabic": "أ: أودّ إنهاء عقدي.\\nب: مدة الإشعار ثلاثة أشهر.\\nأ: هل يجب أن يكون الإشعار كتابةً؟\\nب: نعم، فقط الإنهاءات الكتابية سارية."
+  },
+  {
+    "english": "to enclose, to settle (a dispute)",
+    "arabic": "إرفاق، تسوية (نزاع)"
+  },
+  {
+    "english": "A: Please enclose the documents.\\nB: Which documents exactly?\\nA: Copy of the ID and registration certificate.\\nB: Everything enclosed. The dispute is also settled.",
+    "arabic": "أ: يُرجى إرفاق الوثائق.\\nب: أي وثائق بالضبط؟\\nأ: نسخة من الهوية وشهادة التسجيل.\\nب: كل شيء مرفق. النزاع أيضاً تمت تسويته."
+  },
+  {
+    "english": "in accordance with duty",
+    "arabic": "وفقاً للواجب، حسب المقتضى"
+  },
+  {
+    "english": "A: Have you fulfilled your duties in accordance with duty?\\nB: Yes, everything was completed on time.\\nA: The task has been completed as required.\\nB: Then the case is settled.",
+    "arabic": "أ: هل أدّيت واجباتك حسب المقتضى؟\\nب: نعم، اكتمل كل شيء في الوقت المحدد.\\nأ: أُنجزت المهمة كما هو مطلوب.\\nب: إذن القضية مُسوَّاة."
+  },
+  {
+    "english": "submitted (past participle)",
+    "arabic": "مُقدَّم (اسم مفعول)"
+  },
+  {
+    "english": "A: The submitted application is being reviewed.\\nB: When was it submitted?\\nA: On June 1. The application was submitted on time.\\nB: Then only waiting remains.",
+    "arabic": "أ: الطلب المُقدَّم قيد المراجعة.\\nب: متى قُدِّم؟\\nأ: في الأول من يونيو. قُدِّم الطلب في الوقت المحدد.\\nب: إذن لم يبقَ إلا الانتظار."
+  },
+  {
+    "english": "Count three distinct constructions: how the sentence is introduced, how the communication happens without naming a person, and how the approved state is expressed.",
+    "arabic": "أحصِ ثلاثة مباني متمايزة: كيف تُفتتح الجملة، وكيف يحدث التواصل دون تسمية شخص، وكيف تُعبَّر عن الحالة المعتمدة."
+  },
+  {
+    "english": "The court ruled in favor of the appeal. Choose the Partizip II that means the opposite of 'zurückgewiesen' (rejected).",
+    "arabic": "حكمت المحكمة لصالح الاستئناف. اختر اسم المفعول الذي يعني عكس 'zurückgewiesen' (مرفوض)."
+  },
+  {
+    "english": "The court upheld the objection.",
+    "arabic": "أيّدت المحكمة الاعتراض."
+  },
+  {
+    "english": "Ist abgelaufen = IS expired (state). The deadline is past. The running has ended.",
+    "arabic": "ist abgelaufen = منتهٍ (حالة). الموعد النهائي مضى. المسير انتهى."
+  },
+  {
+    "english": "The formal objection formula uses a separable verb. The first blank is the 1st person singular conjugation; the second blank is the noun naming the formal legal objection.",
+    "arabic": "تستخدم صيغة الاعتراض الرسمية فعلاً منفصلاً. الفراغ الأول هو تصريف المفرد المتكلم؛ والفراغ الثاني هو الاسم الدال على الاعتراض القانوني الرسمي."
+  },
+  {
+    "english": "A genitive preposition expressing a condition. The regulation does not take effect unconditionally; it depends on something else first.",
+    "arabic": "حرف جر إضافي يعبر عن شرط. اللائحة لا تسري بصورة غير مشروطة؛ بل تعتمد أولاً على شيء آخر."
+  },
+  {
+    "english": "Verumius helps Hildi with the digital forms. Role reversal. Complete your bureaucratic toolkit, experience a milestone, and review all constructions from Unit 30.",
+    "arabic": "يساعد فيروميوس هيلدي في النماذج الرقمية. انعكاس للأدوار. أكمل أدواتك البيروقراطية، وعِش لحظة فارقة، وراجع جميع المباني من الوحدة 30."
+  },
+  {
+    "english": "Complete the bureaucratic vocabulary",
+    "arabic": "إكمال المفردات البيروقراطية"
+  },
+  {
+    "english": "Experience the role reversal: Verumius teaches Hildi",
+    "arabic": "عِش انعكاس الأدوار: فيروميوس يُعلِّم هيلدي"
+  },
+  {
+    "english": "Review all three grammar constructions in cultural context",
+    "arabic": "مراجعة المباني النحوية الثلاثة في السياق الثقافي"
+  },
+  {
+    "english": "Hildi's apartment. Tea on the table. The tablet between them. Verumius taps the screen. 'Here. Bürgerportal.de. Log in, select a form, fill it out, send it.'",
+    "arabic": "شقة هيلدي. شاي على الطاولة. الجهاز اللوحي بينهما. يضغط فيروميوس على الشاشة. 'هنا. Bürgerportal.de. سجّل دخولك، اختر نموذجاً، املأه، أرسله.'"
+  },
+  {
+    "english": "In the old days, I simply went to city hall. Someone sat there who could help me.",
+    "arabic": "في الزمن القديم كنت أذهب ببساطة إلى دار البلدية. كان يجلس هناك شخص يستطيع مساعدتي."
+  },
+  {
+    "english": "The case worker is still there. Just now also digital. And you no longer have to wait.",
+    "arabic": "الموظف المسؤول لا يزال موجوداً. فقط الآن أصبح رقمياً أيضاً. ولم يعد عليك الانتظار."
+  },
+  {
+    "english": "So. Subject: property tax. File reference number... where does it say that?",
+    "arabic": "إذن. الموضوع: ضريبة العقارات. رقم الملف... أين مكتوب ذلك؟"
+  },
+  {
+    "english": "On the last notice. Here, top right.",
+    "arabic": "في آخر إشعار. هنا، أعلى اليمين."
+  },
+  {
+    "english": "And now?",
+    "arabic": "والآن؟"
+  },
+  {
+    "english": "Now you wait for the confirmation of receipt. Like before. Just faster.",
+    "arabic": "الآن تنتظرين تأكيد الاستلام. كما كان من قبل. فقط أسرع."
+  },
+  {
+    "english": "Thank you, Verumius. Next week I will show you how to write a letter to the editor that actually gets read.",
+    "arabic": "شكراً، فيروميوس. الأسبوع القادم سأريك كيف تكتب رسالة إلى المحرر تُقرأ فعلاً."
+  },
+  {
+    "english": "the land registry",
+    "arabic": "السجل العقاري"
+  },
+  {
+    "english": "A: Is the property registered in the land registry?\\nB: Yes, the entry has been valid since 2019.\\nA: Who maintains the land registry?\\nB: The land registry office at the local court.",
+    "arabic": "أ: هل العقار مسجَّل في السجل العقاري؟\\nب: نعم، القيد ساري منذ عام 2019.\\nأ: من يُدير السجل العقاري؟\\nب: دائرة السجل العقاري في المحكمة المحلية."
+  },
+  {
+    "english": "the decree, the waiver",
+    "arabic": "المرسوم، الإعفاء"
+  },
+  {
+    "english": "A: The minister's decree takes effect immediately.\\nB: What does the decree state?\\nA: Furthermore, there is a waiver of fees.\\nB: So we have to pay less.",
+    "arabic": "أ: يسري مرسوم الوزير فوراً.\\nب: ماذا ينص المرسوم؟\\nأ: علاوةً على ذلك، هناك إعفاء من الرسوم.\\nب: إذن سندفع أقل."
+  },
+  {
+    "english": "to decide",
+    "arabic": "اتخاذ قرار، البت في"
+  },
+  {
+    "english": "A: Who decides on the application?\\nB: The responsible authority decides.\\nA: How long does the decision take?\\nB: Usually four to six weeks.",
+    "arabic": "أ: من يبت في الطلب؟\\nب: الجهة المختصة تتخذ القرار.\\nأ: كم يستغرق القرار؟\\nب: عادةً من أربعة إلى ستة أسابيع."
+  },
+  {
+    "english": "to grant, to issue",
+    "arabic": "منح، إصدار"
+  },
+  {
+    "english": "A: The permit is hereby granted.\\nB: From when does the granting apply?\\nA: Immediately. The notice has been issued.\\nB: Thank you for the quick processing.",
+    "arabic": "أ: بموجب هذا يُمنح التصريح.\\nب: من متى يسري المنح؟\\nأ: فوراً. صدر الإشعار.\\nب: شكراً على المعالجة السريعة."
+  },
+  {
+    "english": "done, completed, settled",
+    "arabic": "منتهٍ، مكتمل، مُسوَّى"
+  },
+  {
+    "english": "A: Is the application done?\\nB: Yes, everything is done.\\nA: The case is thereby settled.\\nB: Finally. Done and checked off.",
+    "arabic": "أ: هل الطلب منتهٍ؟\\nب: نعم، كل شيء منتهٍ.\\nأ: القضية مُسوَّاة بذلك.\\nب: أخيراً. منتهٍ ومُشطَب."
+  },
+  {
+    "english": "approved, granted",
+    "arabic": "معتمَد، ممنوح"
+  },
+  {
+    "english": "A: The application is approved.\\nB: Since when?\\nA: The approval was granted yesterday.\\nB: That is good news.",
+    "arabic": "أ: الطلب معتمَد.\\nب: منذ متى؟\\nأ: مُنحت الموافقة أمس.\\nب: هذا خبر سار."
+  },
+  {
+    "english": "binding",
+    "arabic": "ملزم"
+  },
+  {
+    "english": "A: Is the agreement binding?\\nB: Yes, the contract is legally binding.\\nA: What happens if someone breaks the binding contract?\\nB: Then damages are threatened.",
+    "arabic": "أ: هل الاتفاق ملزم؟\\nب: نعم، العقد ملزم قانونياً.\\nأ: ماذا يحدث إذا خالف أحدهم العقد الملزم؟\\nب: حينئذٍ تُهدَّد بالتعويضات."
+  },
+  {
+    "english": "edible",
+    "arabic": "صالح للأكل"
+  },
+  {
+    "english": "A: Is that edible?\\nB: Yes, that is edible.\\nA: And the berries in the garden?\\nB: Careful, not all berries are edible.",
+    "arabic": "أ: هل ذاك صالح للأكل؟\\nب: نعم، ذاك صالح للأكل.\\nأ: وثمار التوت في الحديقة؟\\nب: احذر، ليست كل ثمار التوت صالحة للأكل."
+  },
+  {
+    "english": "solvable",
+    "arabic": "قابل للحل"
+  },
+  {
+    "english": "A: Is the problem solvable?\\nB: Yes, every bureaucratic problem is solvable.\\nA: How?\\nB: With the right form.",
+    "arabic": "أ: هل المشكلة قابلة للحل؟\\nب: نعم، كل مشكلة بيروقراطية قابلة للحل.\\nأ: كيف؟\\nب: بالنموذج الصحيح."
+  },
+  {
+    "english": "feasible, doable",
+    "arabic": "ممكن، قابل للتنفيذ"
+  },
+  {
+    "english": "A: Is the application doable by Friday?\\nB: Yes, that is doable.\\nA: The requirements are strict.\\nB: Strict, but doable.",
+    "arabic": "أ: هل يمكن إنجاز الطلب بحلول الجمعة؟\\nب: نعم، ذلك ممكن.\\nأ: المتطلبات صارمة.\\nب: صارمة، لكنها ممكنة."
+  },
+  {
+    "english": "unimaginable",
+    "arabic": "لا يمكن تصوره"
+  },
+  {
+    "english": "A: The waiting time was unimaginably long.\\nB: How long?\\nA: Three months for an appointment.\\nB: Unimaginable, but unfortunately normal.",
+    "arabic": "أ: وقت الانتظار كان طويلاً بشكل لا يمكن تصوره.\\nب: كم كان؟\\nأ: ثلاثة أشهر للحصول على موعد.\\nب: لا يمكن تصوره، لكنه للأسف أمر طبيعي."
+  },
+  {
+    "english": "insofar, to that extent",
+    "arabic": "بقدر ما، إلى هذا الحد"
+  },
+  {
+    "english": "A: Is the case closed?\\nB: Insofar as the deadline was met, yes.\\nA: And beyond that?\\nB: To that extent, there are no further obligations.",
+    "arabic": "أ: هل القضية مُغلقة؟\\nب: بقدر ما التُزم بالموعد النهائي، نعم.\\nأ: وما وراء ذلك؟\\nب: إلى هذا الحد، لا توجد التزامات أخرى."
+  },
+  {
+    "english": "consequently, therefore",
+    "arabic": "وبالتالي، ومن ثمَّ"
+  },
+  {
+    "english": "A: The deadline has expired.\\nB: Consequently, the notice is legally binding.\\nA: Can one still do something?\\nB: Consequently, only the path of appeal remains.",
+    "arabic": "أ: انتهى الموعد النهائي.\\nب: وبالتالي، الإشعار ملزم قانونياً.\\nأ: هل يمكن المرء فعل شيء بعد؟\\nب: وبالتالي، لم يبقَ إلا مسار الاستئناف."
+  },
+  {
+    "english": "on the part of, from the side of",
+    "arabic": "من جانب، من قِبَل"
+  },
+  {
+    "english": "A: On the part of the authority, there are no objections.\\nB: And on the part of the citizens?\\nA: On the part of some citizens, there were complaints.\\nB: These will be reviewed.",
+    "arabic": "أ: من جانب الجهة، لا توجد اعتراضات.\\nب: ومن جانب المواطنين؟\\nأ: من جانب بعض المواطنين، كانت هناك شكاوى.\\nب: ستُراجَع هذه الشكاوى."
+  },
+  {
+    "english": "without prejudice to, notwithstanding",
+    "arabic": "دون الإخلال بـ، مع عدم المساس بـ"
+  },
+  {
+    "english": "A: Without prejudice to the existing regulation, the following applies.\\nB: So both rules apply simultaneously?\\nA: Yes, notwithstanding the old regulation, the new one takes effect.\\nB: Understood. Both coexist.",
+    "arabic": "أ: دون الإخلال باللائحة القائمة، ينطبق ما يلي.\\nب: إذن كلتا القاعدتين تسريان في آنٍ واحد؟\\nأ: نعم، مع عدم المساس باللائحة القديمة، تدخل الجديدة حيز التنفيذ.\\nب: مفهوم. كلتاهما تتعايشان."
+  },
+  {
+    "english": "nevertheless, nonetheless",
+    "arabic": "ومع ذلك، بيد أن"
+  },
+  {
+    "english": "A: The situation is serious.\\nB: Nevertheless, we act with confidence.\\nA: Is there cause for concern?\\nB: Nevertheless, we remain optimistic.",
+    "arabic": "أ: الوضع خطير.\\nب: ومع ذلك، نتصرف بثقة.\\nأ: هل هناك سبب للقلق؟\\nب: ومع ذلك، نبقى متفائلين."
+  },
+  {
+    "english": "The core patterns of official German:\\n\\n1. Genitive prepositions everywhere (bezüglich, hinsichtlich, aufgrund)\\n2. Zustandspassiv for results (ist genehmigt, ist zugestellt)\\n3. Impersonal passive for authority (Es wird darauf hingewiesen)\\n4. -bar adjectives for possibility (machbar, loesbar)\\n5. Reference formulas (unter Bezugnahme auf, gemaess Paragraph)\\n\\nKD's method: find the verb, find the subject (often missing), find the deadline. Translate the 47-word sentence into 9. Everything else is packaging.",
+    "arabic": "الأنماط الجوهرية للألمانية الرسمية:\\n\\n1. حروف الجر الإضافية في كل مكان (bezüglich, hinsichtlich, aufgrund)\\n2. مجهول الحالة للنتائج (ist genehmigt, ist zugestellt)\\n3. المجهول غير الشخصي للسلطة (Es wird darauf hingewiesen)\\n4. صفات -bar للإمكانية (machbar, lösbar)\\n5. صيغ الإشارة (unter Bezugnahme auf, gemäß Paragraph)\\n\\nطريقة كابتن دويتش: ابحث عن الفعل، ابحث عن الفاعل (كثيراً ما يغيب)، ابحث عن الموعد النهائي. ترجِم الجملة المؤلفة من 47 كلمة إلى 9. كل الباقي هو تغليف."
+  },
+  {
+    "english": "KD's decoding in three steps:\\n\\n1. What do I need to DO? (find the verb: zahlen, einreichen, erscheinen)\\n2. BY WHEN? (find the deadline: bis zum 15. Juni, innerhalb von vier Wochen)\\n3. HOW MUCH? (find the amount: 300 Euro, 25 Euro Gebühr)\\n\\nEverything between these three pieces of information is legal protection. Important for lawyers. For you: verb, deadline, amount. Done.",
+    "arabic": "فك شفرة كابتن دويتش في ثلاث خطوات:\\n\\n1. ما الذي يجب عليّ فعله؟ (ابحث عن الفعل: zahlen, einreichen, erscheinen)\\n2. بحلول متى؟ (ابحث عن الموعد النهائي: bis zum 15. Juni, innerhalb von vier Wochen)\\n3. كم المبلغ؟ (ابحث عن المبلغ: 300 Euro, 25 Euro Gebühr)\\n\\nكل ما بين هذه المعلومات الثلاث هو حماية قانونية. مهم للمحامين. بالنسبة لك: الفعل والموعد النهائي والمبلغ. انتهى."
+  },
+  {
+    "english": "Every Amtsdeutsch element has a purpose: legal reference (Paragraph 37), authority (wird aufgefordert), completeness (fristgerecht).",
+    "arabic": "كل عنصر في الألمانية الرسمية له غرض: الإشارة القانونية (Paragraph 37)، السلطة (wird aufgefordert)، الاكتمال (fristgerecht)."
+  },
+  {
+    "english": "The approval is complete. You can already pick up the documents. Which auxiliary expresses a permanent result, not a past event?",
+    "arabic": "الاعتماد مكتمل. يمكنك استلام الوثائق الآن. أي فعل مساعد يعبر عن نتيجة دائمة، لا عن حدث ماضٍ؟"
+  },
+  {
+    "english": "The application is approved. You can pick up your documents.",
+    "arabic": "الطلب معتمَد. يمكنك استلام وثائقك."
+  },
+  {
+    "english": "The sentence opens with one word that introduces the topic and requires the following noun in a specific grammatical case. It is a formal preposition, not a conjunction or passive structure.",
+    "arabic": "تُفتتح الجملة بكلمة واحدة تمهّد الموضوع وتستلزم أن يكون الاسم التالي في حالة إعرابية محددة. إنه حرف جر رسمي، لا حرف عطف ولا مبنى مجهول."
+  },
+  {
+    "english": "Two blanks, two structures: a genitive preposition opening the sentence, and a Zustandspassiv closing it. Think: because of the review, it was communicated that the notice has been granted (complete state).",
+    "arabic": "فراغان، مبنيان: حرف جر إضافي يفتتح الجملة، ومجهول حالة يختتمها. فكّر: بسبب المراجعة، أُبلغ بأن الإشعار قد مُنح (حالة مكتملة)."
+  }
+]

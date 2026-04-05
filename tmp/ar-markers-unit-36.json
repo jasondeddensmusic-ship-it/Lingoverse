@@ -1,0 +1,2872 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Verumius prepares for the final gathering. The apartment that was empty in Unit 3 is now full of life. Tonight, everyone comes."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn the vocabulary of gratitude and celebration"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Reflect on milestones and personal growth"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Express anticipation and heartfelt emotions"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "Saturday afternoon. Verumius's apartment. Two years ago this was a bare room with bad heating and a single lightbulb. Now: books on shelves that Hildi helped him organize. Plants she taught him to water. Photos on the wall. A corkboard full of documents, tickets, and one red-penned essay from Dr. Yilmaz. The kitchen smells of rosemary and garlic. He is cooking. Roman food. His mother's recipe."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "Tonight everyone is coming. Everyone. Yilmaz, Hildi, Lukas, Mia, Heinrich, even KD. My first real evening as a host."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "He sets the table. Six place cards, handwritten. Frau Dr. Yilmaz. Frau Schreiber. Lukas. Mia. Heinrich. KD. He pauses at Hildi's card. She offered him the informal 'du' a long time ago. But tonight feels different. Tonight is a milestone."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "Gratitude. That is probably the right word. I am grateful. For every single person at this table."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "the conclusion, completion, graduation"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "'Ab' (off) + 'Schluss' (closing).\\nA chapter ending, a new one beginning."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: What are we celebrating today?\\nB: A conclusion. The end of a chapter."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "The same word for finishing school (Schulabschluss) and finishing a story. Tonight is an Abschluss: the closing of one chapter, the beginning of the next."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "the phase of life"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "'Leben' (life) + 'Abschnitt' (section).\\nA distinct period in someone's life."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: How would you describe this time?\\nB: A new phase of life. Everything has changed."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "Moving to Berlin was the start of a new Lebensabschnitt. This dinner marks where one ends and the next begins."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "the milestone"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "'Meile' (mile) + 'Stein' (stone).\\nA marker of distance traveled."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: The B2 exam was a milestone.\\nB: Yes, and the apartment too."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "Same metaphor as English: a stone marking distance. The B2 exam. The apartment. The friends. All Meilensteine on a journey that started at an airport."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "the anticipatory joy"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "'Vor' (before) + 'Freude' (joy).\\nThe happiness you feel BEFORE the event."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Are you looking forward to tonight?\\nB: The anticipation is huge!"
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "A famously untranslatable German word. 'Vorfreude ist die schoenste Freude' (Anticipation is the sweetest joy). The happiness of knowing something wonderful is coming."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "the welcome greeting"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "'Willkommen' (welcome) + 'Gruss' (greeting).\\nWhat you say at the door when guests arrive."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Have you prepared a welcome greeting?\\nB: I will just say: A warm welcome!"
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Tonight, Verumius gives the Willkommensgruss. He is the host. Two years ago he could barely say 'Hallo.'"
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "the gratitude"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "'Dankbar' (grateful) + '-keit' suffix.\\nThe abstract feeling of being grateful."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: What are you feeling right now?\\nB: Gratitude. For everything and everyone."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "The '-keit' suffix turns adjectives into abstract nouns. The feeling that every person at this table has given you something you cannot repay."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "the warmth, cordiality"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "'Herzlich' (heartfelt) + '-keit' suffix.\\nFrom 'Herz' (heart). Warmth from the heart."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What makes this evening special?\\nB: The warmth. Everyone brings something."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "From 'Herz' (heart). Warmth that comes from the heart. What Verumius wants his dinner to radiate tonight."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "to be glad, to look forward to"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Reflexive verb. With 'auf' = future.\\nWith 'über' = present or past."
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: What are you looking forward to?\\nB: I am looking forward to the evening with you all."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "Two prepositions, two timeframes. 'Sich freuen auf' (looking forward to something not yet here). 'Sich freuen über' (happy about something already here). The direction of joy."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "to be amazed, to marvel"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "From Middle High German 'stunen.'\\nStronger than 'überrascht sein.'"
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: I marvel at how much has changed.\\nB: Yes, two years ago there was nothing here."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "Staunen implies wonder, not just surprise. When you staunen, you stand in awe. Stronger than being surprised. The feeling of witnessing something that moves you."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "to admire"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "'Be-' + 'wundern' (to wonder).\\nNot separable. Active admiration."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: I admire your patience with me.\\nB: That was not patience, that was friendship."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "The 'be-' prefix makes 'wonder' into active admiration directed at someone. Not just passively wondering but actively looking up to."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "heartfelt, warm, cordial"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "'Herz' (heart) + '-lich' suffix.\\nNot formal, not casual: heartfelt."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: A warm welcome to my home!\\nB: Thank you, that is really kind of you."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "The adjective that describes how Germans greet people they genuinely care about. 'Herzlich willkommen!' is the warmest welcome there is."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "festive, solemn, ceremonial"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "'Feier' (celebration) + '-lich' suffix.\\nCan mean joyful OR serious."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: The moment was very solemn.\\nB: Yes, almost like a small ceremony."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Feierlich holds both moods: joyful celebration and serious ceremony. A wedding is feierlich. A graduation is feierlich. This dinner is feierlich."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "grateful"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "'Dank' (thanks) + '-bar' suffix.\\nAble to give thanks."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: I am grateful for every person here.\\nB: We are also grateful to know you."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "The '-bar' suffix means 'able to.' 'Dankbar' = able to give thanks. 'Dankbar' is what you are. 'Dankbarkeit' is what you feel."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "sincere, genuine"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "'Auf' (up) + 'richtig' (right/straight).\\nLiterally 'upright.' Honesty made physical."
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: I want to sincerely thank you all.\\nB: That means a lot to us."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "An aufrichtiger Mensch stands straight, hides nothing. 'Aufrichtigen Dank' (sincere thanks). Honesty and integrity captured in a posture."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The German prefix in this word tells you the timing of the joy. What does 'Vor' signal about when the feeling occurs?"
+  },
+  {
+    "line": 34,
+    "field": "hint",
+    "english": "A feeling toward those who have given you something. The adjective uses a suffix meaning 'capable of'. Think of the noun that names the feeling."
+  },
+  {
+    "line": 34,
+    "field": "sSrc",
+    "english": "I am grateful for every person at this table."
+  },
+  {
+    "line": 35,
+    "field": "hint",
+    "english": "'Meile' (mile) + 'Stein' (stone). A marker of distance traveled, like a stone on a road."
+  },
+  {
+    "line": 36,
+    "field": "hint",
+    "english": "To marvel, to be amazed. Stronger than surprise. The verb of standing in wonder."
+  },
+  {
+    "line": 36,
+    "field": "sSrc",
+    "english": "Verumius marvels at the changes in his apartment."
+  },
+  {
+    "line": 37,
+    "field": "hint",
+    "english": "'Auf' (up) + 'richtig' (right/straight). Honesty made physical. Standing tall."
+  },
+  {
+    "line": 47,
+    "field": "desc",
+    "english": "A rich vocabulary of emotions and inner states. Express complex feelings in German. Describe personal growth and wellbeing."
+  },
+  {
+    "line": 48,
+    "field": "unknown",
+    "english": "Build a vocabulary of complex emotions"
+  },
+  {
+    "line": 49,
+    "field": "unknown",
+    "english": "Express inner states and personal growth"
+  },
+  {
+    "line": 50,
+    "field": "unknown",
+    "english": "Distinguish between similar emotional concepts"
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "the serenity, composure, equanimity"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "'Gelassen' (calm) + '-heit' suffix.\\nThe art of letting go. From 'lassen' (to let)."
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: How do you stay so calm?\\nB: Serenity. You learn to let go."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "The quality Germans most admire in a crisis: calm, unshaken, steady. Gelassenheit is letting things be. The opposite of panic."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "the joy of living, zest for life"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "'Leben' (life) + 'Freude' (joy).\\nNot just being happy, but alive to joy itself."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: What do you admire about her?\\nB: Her zest for life. She enjoys every day."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Another untranslatable gem. Not just being happy, but being alive to the joy of existence itself. A person with Lebensfreude radiates it."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "the passion"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "'Leiden' (to suffer) + '-schaft' suffix.\\nWhat you love so much you suffer for it."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Why do you work so hard?\\nB: Passion. I love what I do."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "Passion literally contains suffering in German. 'Leiden' = to suffer. The deepest dedication: what you love so much that you suffer for it."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "the self-confidence"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "'Selbst' (self) + 'Vertrauen' (trust).\\nTrust in yourself. Quiet certainty."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: I used to be insecure.\\nB: And now? Your self-confidence has grown."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "Not arrogance but the quiet certainty that you can handle what comes. What Verumius has built over two years in Berlin."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "the wellbeing"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "'Wohl' (well) + 'Befinden' (state/condition).\\nHow you are doing in body and mind."
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: How is your wellbeing?\\nB: Very good, thanks for asking."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "'Wie ist Ihr Wohlbefinden?' is what doctors ask. The holistic state of being well: body, mind, and spirit together."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "the confidence, optimism about the future"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "'Zu' (toward) + 'Versicht' (foresight).\\nLooking forward with grounded trust."
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: Are you afraid of the future?\\nB: No. I look ahead with confidence."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "Not blind optimism but grounded confidence. 'Mit Zuversicht in die Zukunft' (with confidence into the future). Trust based on experience."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "the happiness / the luck"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "From Middle High German 'gelucke.'\\nOne word for both happiness AND luck."
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Were you lucky?\\nB: Yes. And I am also happy."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "German uses one word for both happiness and luck. 'Glück haben' (to be lucky) and 'glücklich sein' (to be happy). Fortune and joy share a name."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "the quiet, peace, rest"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Rest, quiet, peace. Inner calm or outer silence.\\n'Ruhe bitte!' (Quiet please!)"
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: What do you need right now?\\nB: Peace. Just peace."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "'In Ruhe essen' (to eat in peace). 'Die Ruhe vor dem Sturm' (the calm before the storm). Inner peace, outer silence, or both at once."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "the pride"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "From Old High German 'stolz' (proud/stately).\\nEarned pride, not arrogance."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Are you proud of yourself?\\nB: Yes. Proud of what I have achieved."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "'Stolz sein auf' (to be proud of). The quiet swelling when you have earned something. Not arrogance: earned pride. What Verumius feels tonight."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "to blossom, to flourish"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "'Auf' (up/open) + 'blühen' (to bloom).\\nSeparable. The image of a flower opening."
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: How has Verumius changed?\\nB: He has blossomed in Berlin."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "A flower opening to the sun. What happens to a person who finds their place. Separable: 'Er blüht auf.' Past: 'Er ist aufgeblüht.'"
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "to enjoy, to savor"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Strong verb: geniessen/genoss/genossen.\\nConsciously appreciating, not just consuming."
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Savor the moment.\\nB: I am. Every single moment."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "From Old High German 'niozan' (to enjoy/use). Not just consuming but consciously appreciating. What tonight's dinner is for."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "to value, to appreciate, to estimate"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From 'Schatz' (treasure).\\nWhen you treat something as precious."
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: I value your friendship very much.\\nB: The feeling is mutual."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "When you treat something as a Schatz (treasure), you schätzen it. Appreciation and valuation in one word. Treasuring what matters."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "calm, composed, serene"
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "Past participle of 'lassen' (to let).\\nThe person who has learned to let go."
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: He remained completely calm.\\nB: Yes, nothing unsettles him."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "The person who has learned to let go of what they cannot control. Gelassenheit (serenity) comes from being gelassen. Calm through release."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "balanced, even-tempered"
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "'Aus' (out) + 'geglichen' (equalized).\\nFrom 'ausgleichen' (to balance out)."
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: How would you describe him?\\nB: Balanced. His inner scales are level."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "Someone whose inner scales are level. Not pulled to extremes. An ausgeglichener Mensch stays steady through storms."
+  },
+  {
+    "line": 66,
+    "field": "hint",
+    "english": "'Leiden' (to suffer) + '-schaft.' What you love so deeply that you suffer for it."
+  },
+  {
+    "line": 74,
+    "field": "hint",
+    "english": "He has opened up and grown like a flower in spring. A separable verb with 'auf'. Its base is the verb for blooming."
+  },
+  {
+    "line": 74,
+    "field": "sSrc",
+    "english": "Verumius has truly blossomed in Berlin."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "One word, two English words. Fortune and joy share a name in German."
+  },
+  {
+    "line": 81,
+    "field": "hint",
+    "english": "Pride, serenity, and full of gratitude. Three positive inner states."
+  },
+  {
+    "line": 81,
+    "field": "sSrc",
+    "english": "After two years in Berlin, Verumius feels pride, serenity, and full of gratitude."
+  },
+  {
+    "line": 87,
+    "field": "hint",
+    "english": "One describes an emotional state toward something not yet here. The other describes active, conscious appreciation of a present experience."
+  },
+  {
+    "line": 88,
+    "field": "hint",
+    "english": "To value, to treasure. From 'Schatz' (treasure). Treating something as precious."
+  },
+  {
+    "line": 88,
+    "field": "sSrc",
+    "english": "I value your friendship very much."
+  },
+  {
+    "line": 94,
+    "field": "hint",
+    "english": "The root verb is lassen. Gelassenheit is an inner state achieved through releasing tension, not through force or effort."
+  },
+  {
+    "line": 95,
+    "field": "hint",
+    "english": "He remained untroubled while others panicked. This adjective describes composure achieved by releasing tension, not by fighting it. Its root verb means to let or to leave."
+  },
+  {
+    "line": 95,
+    "field": "sSrc",
+    "english": "He remained completely calm, even though everyone was nervous."
+  },
+  {
+    "line": 96,
+    "field": "hint",
+    "english": "'Selbst' (self) + 'Vertrauen' (trust). The quiet certainty that you can handle what comes."
+  },
+  {
+    "line": 99,
+    "field": "desc",
+    "english": "The doorbell rings. One by one, the full cast arrives. Mia with wine, Lukas with cake, Yilmaz with poetry, Hildi with casserole, Heinrich with sourdough. Every register of German in one room."
+  },
+  {
+    "line": 100,
+    "field": "unknown",
+    "english": "Welcome the full cast of characters"
+  },
+  {
+    "line": 101,
+    "field": "unknown",
+    "english": "Experience all registers of German in one scene"
+  },
+  {
+    "line": 102,
+    "field": "unknown",
+    "english": "Learn formal and informal word pairs"
+  },
+  {
+    "line": 103,
+    "field": "unknown",
+    "english": "Celebrate arrival and connection"
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "The doorbell. Verumius opens. Mia is first, a bottle of wine in one hand, a hug with the other."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "Hey! I brought wine. Red. Lukas is coming soon, he is still parking."
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "Lukas arrives. Guitar case in one hand, a cake from his favorite bakery in the other."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "Dude! Your place looks really good. Who would have thought?"
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "Dr. Yilmaz. Elegant as always. A small book of Turkish poetry, German translation."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "Good evening, Verumius. I am very pleased to be here. Allow me to present you with something I brought."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "Hildi. A casserole. Her mother's recipe. She sets it on the table without ceremony."
+  },
+  {
+    "line": 112,
+    "field": "src",
+    "english": "Potato gratin. My Werner always loved eating this."
+  },
+  {
+    "line": 113,
+    "field": "src",
+    "english": "Heinrich. The baker. In his hands: a glass jar wrapped in cloth. Inside, sourdough starter. Twenty years old. The most personal thing a baker can give. A living piece of his life's work."
+  },
+  {
+    "line": 114,
+    "field": "src",
+    "english": "Verumius. With this I give you something from my sourdough. Take good care of it. It is older than you."
+  },
+  {
+    "line": 115,
+    "field": "src",
+    "english": "to begin (formal) / to start (everyday)"
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Same meaning, different register.\\n'Beginnen' = formal. 'Anfangen' = casual."
+  },
+  {
+    "line": 115,
+    "field": "exampleSrc",
+    "english": "A: The event begins at 8 PM. (formal)\\nB: When does the party start? (casual)"
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "Register pair. 'Beginnen' sits in official language: announcements, invitations, speeches. 'Anfangen' sits at the kitchen table. Same meaning, different world."
+  },
+  {
+    "line": 116,
+    "field": "src",
+    "english": "to acquire (formal) / to buy (everyday)"
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "'Erwerben' implies effort or merit.\\n'Kaufen' is a simple transaction."
+  },
+  {
+    "line": 116,
+    "field": "exampleSrc",
+    "english": "A: He acquired extensive knowledge. (formal)\\nB: I will quickly buy bread. (casual)"
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "'Kenntnisse erwerben' (to acquire knowledge) vs. 'Brot kaufen' (to buy bread). Erwerben carries weight and effort. Kaufen is a transaction."
+  },
+  {
+    "line": 117,
+    "field": "src",
+    "english": "to express oneself (formal) / to say (everyday)"
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "'Sich äußern' = deliberate statement.\\n'Sagen' = everyday conversation."
+  },
+  {
+    "line": 117,
+    "field": "exampleSrc",
+    "english": "A: I would like to express myself on this topic. (formal)\\nB: What do you want to say? (casual)"
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "One is a formal statement to an audience. The other is turning to a friend. Yilmaz äußert sich. Lukas sagt."
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "to linger (literary) / to stay (everyday)"
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "'Verweilen' = literary, poetic.\\n'Bleiben' = daily life."
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: Linger yet, you are so beautiful. (Goethe)\\nB: Are you staying? (casual)"
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "'Verweile doch, du bist so schoen' is from Goethe's Faust. Poetry vs. daily life. 'Bleibst du noch?' is what friends ask at midnight."
+  },
+  {
+    "line": 119,
+    "field": "src",
+    "english": "to permit (very formal) / to allow (standard)"
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "'Gestatten' = courtly formality.\\n'Erlauben' = standard permission."
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: May I introduce myself? (very formal)\\nB: May I open the window? (standard)"
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "Yilmaz says 'Gestatten.' Lukas says 'Darf ich.' Both mean 'May I?' but one belongs to formal courtesy, the other to everyday speech."
+  },
+  {
+    "line": 120,
+    "field": "src",
+    "english": "to intend (formal) / to want (everyday)"
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "'Beabsichtigen' = stated intention.\\n'Wollen' = direct desire."
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: I intend to stay longer. (formal)\\nB: I want to stay. (direct)"
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "Intention vs. desire. 'Beabsichtigen' has four syllables and the weight of a formal declaration. 'Wollen' has two syllables and the force of pure will."
+  },
+  {
+    "line": 121,
+    "field": "src",
+    "english": "to retort (literary) / to answer (standard)"
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "'Entgegnen' = literary, weighty reply.\\n'Antworten' = standard answering."
+  },
+  {
+    "line": 121,
+    "field": "exampleSrc",
+    "english": "A: He retorted calmly: 'I see it differently.' (literary)\\nB: She answers immediately. (standard)"
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "'Entgegnen' has more weight. It implies a considered reply, often with a counterpoint. Narrative language. 'Antworten' is neutral reporting."
+  },
+  {
+    "line": 122,
+    "field": "src",
+    "english": "the embrace, the hug"
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "'Umarmen' (to embrace) + '-ung' suffix.\\nArms around someone."
+  },
+  {
+    "line": 122,
+    "field": "exampleSrc",
+    "english": "A: The embrace was long and heartfelt.\\nB: Yes, it moved all of us."
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "From 'um' (around) + 'Arm' (arm). Putting your arms around someone. What happens at this doorway tonight with every arriving guest."
+  },
+  {
+    "line": 123,
+    "field": "src",
+    "english": "the wealth of experience"
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "'Erfahrung' (experience) + 'Schatz' (treasure).\\nA treasure of lived experience."
+  },
+  {
+    "line": 123,
+    "field": "exampleSrc",
+    "english": "A: Hildi has a great wealth of experience.\\nB: Yes, she has lived through a lot and learned much."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "What every person at this table brings: a treasure of lived experience. Hildi's decades. Yilmaz's languages. Heinrich's bread. All Schaetze."
+  },
+  {
+    "line": 124,
+    "field": "src",
+    "english": "the memento, keepsake"
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "'Erinnerung' (memory) + 'Stück' (piece).\\nA physical piece of a memory."
+  },
+  {
+    "line": 124,
+    "field": "exampleSrc",
+    "english": "A: What is your favorite memento?\\nB: The red-penned essay from Yilmaz."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "Every object in Verumius's apartment is an Erinnerungsstück: the corkboard, the essay, the photos, the ticket stubs. Memory made tangible."
+  },
+  {
+    "line": 125,
+    "field": "src",
+    "english": "to embrace, to hug"
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "'Um' (around) + 'Arme' (arms).\\nInseparable prefix. Not 'um...armen.'"
+  },
+  {
+    "line": 125,
+    "field": "exampleSrc",
+    "english": "A: They embraced for a long time.\\nB: It was a moving moment."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "Not separable (inseparable um-). The physical act of putting arms around another person. What this dinner is, in one verb."
+  },
+  {
+    "line": 126,
+    "field": "src",
+    "english": "to remember"
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "Reflexive. 'Sich erinnern an' + accusative.\\nLiterally: to make something inner again."
+  },
+  {
+    "line": 126,
+    "field": "exampleSrc",
+    "english": "A: Do you remember the first day?\\nB: Every single moment."
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "'Er-' + 'innern' (from 'inner'). To make something inner again. Bringing the past back inside you. Memory as an inward journey."
+  },
+  {
+    "line": 127,
+    "field": "src",
+    "english": "loving, affectionate"
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "'Liebe' (love) + 'voll' (full).\\nFull of love."
+  },
+  {
+    "line": 127,
+    "field": "exampleSrc",
+    "english": "A: That was a loving gesture.\\nB: Heinrich only gives such gifts."
+  },
+  {
+    "line": 127,
+    "field": "funFact",
+    "english": "What Heinrich's sourdough gift is. What Hildi's casserole is. What this whole evening is. Full of love."
+  },
+  {
+    "line": 128,
+    "field": "src",
+    "english": "heartfelt, intimate, deep"
+  },
+  {
+    "line": 128,
+    "field": "note",
+    "english": "From 'innen' (inside/inner).\\nMore intense than 'herzlich.'"
+  },
+  {
+    "line": 128,
+    "field": "exampleSrc",
+    "english": "A: A deep friendship connects them.\\nB: Yes, you can see it immediately."
+  },
+  {
+    "line": 128,
+    "field": "funFact",
+    "english": "Something that comes from deep inside. Reserved for the closest bonds. More intense than 'herzlich.' An innige Umarmung is the kind that makes you close your eyes."
+  },
+  {
+    "line": 134,
+    "field": "hint",
+    "english": "One form belongs to Yilmaz's elevated, courtly style. The other is Lukas's casual everyday speech. Which answer correctly identifies the difference in style?"
+  },
+  {
+    "line": 135,
+    "field": "hint",
+    "english": "The simplest, most direct way to say you want something. No Latin roots, no formality. This is the everyday modal verb."
+  },
+  {
+    "line": 135,
+    "field": "sSrc",
+    "english": "Formal: 'I intend to stay.' Informal: 'I want to stay.'"
+  },
+  {
+    "line": 145,
+    "field": "desc",
+    "english": "The particles that make German feel German. Six tiny words that change everything. Each one mapped to a character at the dinner table."
+  },
+  {
+    "line": 146,
+    "field": "unknown",
+    "english": "Master all Modalpartikeln through character voices"
+  },
+  {
+    "line": 147,
+    "field": "unknown",
+    "english": "Understand how particles change meaning and tone"
+  },
+  {
+    "line": 148,
+    "field": "unknown",
+    "english": "Recognize speaker stance and attitude in conversation"
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "the change of heart/mind"
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "'Sinne' (senses/mind) + 'Wandel' (change).\\nA fundamental shift in perspective."
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: What has changed?\\nB: A change of heart. Berlin is home now."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "When someone shifts their fundamental perspective. Verumius had a Sinneswandel: Berlin went from foreign to home. From 'ich muss hier weg' to 'ich will hier bleiben.'"
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "the life motto"
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "'Leben' (life) + 'Motto' (motto).\\nWhat guides your decisions."
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: Do you have a life motto?\\nB: Yes: Always stay curious."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "Every character at this table has one, spoken or unspoken. Hildi's: 'Man macht das eben.' Heinrich's: 'Gutes Brot braucht Zeit.' Yilmaz's: 'Sprache ist Heimat.'"
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "the maturity, ripeness"
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "From 'reif' (ripe/mature).\\nApplied to fruit and people alike."
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: He has developed an impressive maturity.\\nB: Yes, he has truly grown."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "'Charakterliche Reife' (emotional maturity). What Verumius has gained. Not just language skills but understanding. The ripening that only time and experience bring."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "the reflection, contemplation"
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "From 'besinnen' (to reflect/recollect).\\n'Zur Besinnung kommen' = to come to one's senses."
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: He needs time for reflection.\\nB: Yes, sometimes you need to pause."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "The act of stopping and thinking deeply. 'Zur Besinnung kommen' means both 'to regain consciousness' and 'to come to your senses.' Physical and mental awakening."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "the perspective, point of view"
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "'Blick' (gaze) + 'Winkel' (angle).\\nThe angle from which you see the world."
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Everyone has a different perspective.\\nB: That makes the conversation so interesting."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "Literally 'the angle of your gaze.' Each person at this table sees the world from a different Blickwinkel. That is what makes the dinner rich."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "the compassion, empathy"
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "'Mit' (with) + 'Gefühl' (feeling).\\nFeeling WITH someone, not just FOR them."
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: She showed a lot of compassion.\\nB: Yes, she truly feels with others."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "Not sympathy (feeling FOR someone) but empathy (feeling WITH them). The deeper connection. 'Mit' makes all the difference: you stand beside, not above."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "to reflect, to recollect"
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Reflexive. Strong: besinnen/besann/besonnen.\\nTo turn your mind inward."
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: He reflected for a moment.\\nB: Then he continued speaking calmly."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "'Be-' + 'sinnen' (to think/ponder). To turn your mind inward. Also: 'sich eines Besseren besinnen' (to think better of it). Reflection that changes action."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "to reflect, to ponder"
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "'Nach' (about) + 'denken' (to think).\\nSeparable. Deeper than 'denken' alone."
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: I need to think about that.\\nB: Take your time. There is no rush."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "Thinking ABOUT something carefully. 'Denken' is just thinking. 'Nachdenken' is deliberate contemplation. The 'nach' adds depth and direction."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "to pause, to stop and reflect"
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "'Inne' (within) + 'halten' (to stop).\\nSeparable. Stillness plus reflection."
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: He paused and reflected.\\nB: Sometimes you need such moments."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "The physical act of stopping combined with inner reflection. A moment of stillness in the middle of motion. What Verumius does when he holds Hildi's place card."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "to let go"
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "'Los' (loose/released) + 'lassen' (to let).\\nSeparable. The hardest life skill."
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: You also have to be able to let go.\\nB: Yes, not everything is in our hands."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "Letting go of control, fear, the past. What Gelassenheit requires. The separable prefix 'los' means 'loose, free.' 'Lass los!' = Let go!"
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "thoughtful, prudent, composed"
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "Past participle of 'besinnen.'\\nSomeone who acts from reflection, not impulse."
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: He responded thoughtfully to the criticism.\\nB: That is true maturity."
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "Someone who has reflected and acts from that reflection. Not impulsive. Considered. The adjective form of wisdom earned through 'sich besinnen.'"
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "thoughtful, pensive"
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "'Nachdenken' + '-lich' suffix.\\nThe adjective of deep thinking."
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: He was pensive all evening.\\nB: Yes, he probably has a lot on his mind."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "A nachdenklicher Blick (thoughtful gaze) is what philosophers and old friends share over wine. The visible sign of inner contemplation."
+  },
+  {
+    "line": 162,
+    "field": "src",
+    "english": "brave, courageous"
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "'Mut' (courage) + '-ig' suffix.\\nCourage in action."
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: You were brave to come to Germany.\\nB: Or crazy. Maybe both."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "Moving to a country where you speak zero words of the language: that is mutig. Courage is not the absence of fear. It is acting despite it."
+  },
+  {
+    "line": 163,
+    "field": "src",
+    "english": "ripe, mature"
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "From Old High German 'rifi.'\\nApplied to fruit and people alike."
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: He has become more mature.\\nB: Yes, you can see the difference."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "The adjective of Reife. A reifer Mensch has grown through experience. 'Reif fuer' (ready for) means you have matured enough for something new."
+  },
+  {
+    "line": 164,
+    "field": "text",
+    "english": "Each particle is a character at the dinner table.\\n\\nDOCH (Hildi): Contradiction, emphasis.\\n'Das stimmt doch!' (But that IS true!)\\n'Das weißt du doch!' (You know that!)\\n\\nHALT / EBEN (Heinrich): Acceptance of reality.\\n'Es ist halt so.' (It just is what it is.)\\n'Da kann man eben nichts machen.' (Nothing to be done.)\\n\\nJA (Mia): Shared knowledge, connection.\\n'Du weißt ja, wie das ist.' (You know how it is.)\\n'Das ist ja toll!' (That IS great!)\\n\\nMAL (Lukas): Softening, casualness.\\n'Komm mal her.' (Come here a sec.)\\n'Schau mal.' (Just look.)\\n\\nSCHON (Yilmaz): Concession, reassurance.\\n'Das stimmt schon, aber...' (True, but...)\\n'Das wird schon.' (It will work out.)\\n\\nWOHL (Verumius): Assumption, probability.\\n'Er ist wohl muede.' (He is probably tired.)\\n'Das dürfte wohl stimmen.' (That is probably right.)"
+  },
+  {
+    "line": 164,
+    "field": "text",
+    "english": "Modalpartikeln are NEVER stressed in a sentence. They sit quietly between other words and change everything about tone, attitude, and meaning. They cannot be translated word-for-word. They are the soul of spoken German.\\n\\nWithout particles: 'Komm her.' (Come here.) = neutral command.\\nWith particles: 'Komm doch mal her.' (Come here, will you.) = friendly invitation.\\n\\nThe particles soften, emphasize, contradict, reassure, assume, or connect. Native speakers use 3-4 per sentence without thinking. Mastering them is the final step from 'correct German' to 'natural German.'"
+  },
+  {
+    "line": 170,
+    "field": "hint",
+    "english": "Halt is the particle of quiet truth. No drama, no excitement. It is what it is, and nobody can argue with it."
+  },
+  {
+    "line": 171,
+    "field": "hint",
+    "english": "Hildi is contradicting. She says the opposite of what Verumius assumed. Which particle specifically expresses contradiction and emphatic pushback?"
+  },
+  {
+    "line": 171,
+    "field": "sSrc",
+    "english": "Hildi corrects Verumius: 'That is NOT how you say it!'"
+  },
+  {
+    "line": 177,
+    "field": "hint",
+    "english": "Yilmaz uses this particle to express calm assurance that everything turns out fine. It is not wohl (uncertain), not halt (resigned), not doch (contradicting). It conveys calm certainty."
+  },
+  {
+    "line": 178,
+    "field": "hint",
+    "english": "Lukas-style casual: two softeners ('mal') and one shared-knowledge marker ('ja'). Come HERE and LOOK!"
+  },
+  {
+    "line": 178,
+    "field": "sSrc",
+    "english": "Come here and look! That looks great!"
+  },
+  {
+    "line": 191,
+    "field": "hint",
+    "english": "Wohl is the particle of assumption. Not certain, but likely. An educated guess."
+  },
+  {
+    "line": 192,
+    "field": "hint",
+    "english": "A particle that says: we all know this, it is obvious. Used to invite shared recognition. Heinrich might say it. Not contradiction, not assumption, not resignation."
+  },
+  {
+    "line": 192,
+    "field": "sSrc",
+    "english": "That WAS a great evening!"
+  },
+  {
+    "line": 198,
+    "field": "hint",
+    "english": "Count the tiny words that add warmth, softness, and shared confidence. Natural German has multiple particles layered in. How many are in the correct option?"
+  },
+  {
+    "line": 199,
+    "field": "hint",
+    "english": "Heinrich's particle of reality. This is how things are, no drama needed. It is just so."
+  },
+  {
+    "line": 199,
+    "field": "sSrc",
+    "english": "Heinrich says: 'It is just the way it is.'"
+  },
+  {
+    "line": 202,
+    "field": "desc",
+    "english": "The table is full. Roman pasta, Hildi's Kartoffelgratin, Lukas's cake, Mia's wine. Everyone is here. Every register of German in one room."
+  },
+  {
+    "line": 203,
+    "field": "unknown",
+    "english": "Sit at the table with everyone"
+  },
+  {
+    "line": 204,
+    "field": "unknown",
+    "english": "Practice all B2 constructs through natural conversation"
+  },
+  {
+    "line": 205,
+    "field": "unknown",
+    "english": "Experience the full range of German registers in one room"
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "The table is full. Rosemary pasta from Verumius's mother's recipe. Hildi's potato gratin. Lukas's cake. Mia's wine. The room is warm with candles and conversation."
+  },
+  {
+    "line": 208,
+    "field": "src",
+    "english": "To Verumius! Two years ago he couldn't speak a word of German. Now he cooks for us and invites us over."
+  },
+  {
+    "line": 209,
+    "field": "src",
+    "english": "And he once beat me at the word chain game. Stage fright. I will just never forget that."
+  },
+  {
+    "line": 210,
+    "field": "src",
+    "english": "I remember the day he said 'der Milch' in the REWE supermarket. I nearly had a heart attack."
+  },
+  {
+    "line": 211,
+    "field": "src",
+    "english": "And when he ordered 'one rye bread, please' for the first time. Without a mistake. That is when I knew: he is staying."
+  },
+  {
+    "line": 212,
+    "field": "src",
+    "english": "His first essay was three sentences long. With eleven mistakes. The last essay passed the exam."
+  },
+  {
+    "line": 213,
+    "field": "src",
+    "english": "Each of you taught me something. Not just words. Patience. Courage. Serenity. I am grateful."
+  },
+  {
+    "line": 214,
+    "field": "src",
+    "english": "appreciation, esteem"
+  },
+  {
+    "line": 214,
+    "field": "note",
+    "english": "Feminine noun. Wert (value) + Schätzung (estimation).\\nDeeper than Dankbarkeit: recognizes VALUE."
+  },
+  {
+    "line": 214,
+    "field": "exampleSrc",
+    "english": "A: I want to express my appreciation.\\nB: For what exactly?\\nA: For your patience with me.\\nB: That goes without saying."
+  },
+  {
+    "line": 214,
+    "field": "funFact",
+    "english": "Wertschätzung is deeper than Dankbarkeit. Dankbarkeit thanks for what someone gave. Wertschätzung recognizes the value of who they are. The highest form of respect."
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "spirit of reconciliation, forgiveness"
+  },
+  {
+    "line": 215,
+    "field": "note",
+    "english": "Feminine noun. Versöhnlich (conciliatory) + -keit.\\nMaking things whole again between people."
+  },
+  {
+    "line": 215,
+    "field": "exampleSrc",
+    "english": "A: Hildi shows reconciliation with the past.\\nB: What do you mean?\\nA: She talks about Werner without pain.\\nB: That is true maturity."
+  },
+  {
+    "line": 215,
+    "field": "funFact",
+    "english": "From 'Söhne' (sons) originally, meaning to make peace between families. Versöhnlichkeit is the quality of letting old wounds heal. Not forgetting, but forgiving."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "commitment, reliability"
+  },
+  {
+    "line": 216,
+    "field": "note",
+    "english": "Feminine noun. Verbindlich (binding) + -keit.\\nKeeping your word. Showing up when you said you would."
+  },
+  {
+    "line": 216,
+    "field": "exampleSrc",
+    "english": "A: Commitment is important to me.\\nB: What does that mean for you?\\nA: When I say something, I do it.\\nB: I really appreciate that."
+  },
+  {
+    "line": 216,
+    "field": "funFact",
+    "english": "In German business culture, Verbindlichkeit is sacred. When you say you will come to dinner, you come. When you promise a deadline, you keep it. The quality of being bound to your word."
+  },
+  {
+    "line": 217,
+    "field": "src",
+    "english": "retrospective, a look back"
+  },
+  {
+    "line": 217,
+    "field": "note",
+    "english": "Masculine noun. Rück (back) + Blick (gaze).\\n'Im Rückblick war alles richtig.'"
+  },
+  {
+    "line": 217,
+    "field": "exampleSrc",
+    "english": "A: In retrospect it was the best decision.\\nB: Which decision?\\nA: Moving to Berlin.\\nB: Yes, in retrospect that is true."
+  },
+  {
+    "line": 217,
+    "field": "funFact",
+    "english": "Rückblick is what you do at the end of a journey: look back at where you started. 'Im Rückblick' is a common phrase in speeches, essays, and conversations about life."
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "departure, new beginning"
+  },
+  {
+    "line": 218,
+    "field": "note",
+    "english": "Masculine noun. Auf (up) + Bruch (breaking).\\nWhen one era ends and another begins."
+  },
+  {
+    "line": 218,
+    "field": "exampleSrc",
+    "english": "A: Today is a day of new beginnings.\\nB: Where does the journey go?\\nA: Into a new chapter.\\nB: Then let's go!"
+  },
+  {
+    "line": 218,
+    "field": "funFact",
+    "english": "Aufbruch literally means 'breaking open.' The ice breaking on a river in spring. A door bursting open. Tonight is both Rückblick and Aufbruch for Verumius."
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "to value, to hold in esteem"
+  },
+  {
+    "line": 219,
+    "field": "note",
+    "english": "Inseparable verb. Wert (value) + schätzen (to treasure).\\nMore formal and deeper than 'schätzen' alone."
+  },
+  {
+    "line": 219,
+    "field": "exampleSrc",
+    "english": "A: I value your friendship.\\nB: We value you too.\\nA: That means a lot to me.\\nB: To us too."
+  },
+  {
+    "line": 219,
+    "field": "funFact",
+    "english": "Wertschätzen is inseparable. You treasure the worth of something. Deeper and more formal than 'schätzen' alone, reserved for things that truly matter."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "to look back, to retrospect"
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "Separable verb. Rück (back) + blicken (to look).\\n'Rückblickend war es richtig.'"
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: When I look back, everything was right.\\nB: Even the hard times?\\nA: Especially the hard times.\\nB: That is wisdom."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "The present participle 'rückblickend' (looking back) is used as an adverb: 'Rückblickend war es die beste Entscheidung.' Standing at the end, gazing at the beginning."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "to process, to work through"
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Inseparable verb. Ver- + arbeiten (to work).\\nWhat you do with memories and emotions."
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Have you processed everything?\\nB: Yes, it took me a long time.\\nA: That is normal.\\nB: Now I feel lighter."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "'Erfahrungen verarbeiten' means to process experiences so they become part of you. Not just remembering, but working through. The ver- prefix transforms the raw material into something integrated."
+  },
+  {
+    "line": 222,
+    "field": "src",
+    "english": "to slow down, to decelerate"
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Inseparable verb. Ent- (de-) + schleunigen (to speed up).\\nChoosing slowness in a fast world."
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: I need to slow down my life.\\nB: How do you want to do that?\\nA: Work less, enjoy more.\\nB: That sounds like a good plan."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "A modern German word. The opposite of Beschleunigung (acceleration). Choosing slowness in a fast world. 'Das Leben entschleunigen' is a popular German motto."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "to content oneself, to settle for"
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Reflexive, separable. Zufrieden (content) + geben.\\nThe art of being satisfied with what you have."
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: Can you be content with that?\\nB: Yes, I am content with it.\\nA: No regrets?\\nB: No. Contentment is a decision."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Sich zufriedengeben is not resignation. It is choosing satisfaction. Zufrieden (content) literally means 'at peace.' Giving yourself peace with what you have."
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "conciliatory, forgiving"
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "From versoehnen (to reconcile).\\nWhen conflict dissolves into understanding."
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: He was very conciliatory.\\nB: Despite everything that happened?\\nA: Yes. A forgiving look, a handshake.\\nB: That takes strength."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "The adjective of making peace. When old conflicts dissolve into understanding. A versöhnlicher Blick (forgiving look) can heal more than a thousand words."
+  },
+  {
+    "line": 225,
+    "field": "src",
+    "english": "empathetic, sensitive"
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Ein (into) + fühlen (to feel) + -sam.\\nSomeone who feels into another person's experience."
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: Mia is really empathetic.\\nB: Yes, she notices right away how you are doing.\\nA: That is a rare ability.\\nB: The best friends are empathetic."
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "Ein-fühlen: to feel INTO another person. Not just understanding what they feel, but actually feeling it with them. The adjective of genuine empathy."
+  },
+  {
+    "line": 226,
+    "field": "src",
+    "english": "gentle, careful, cautious"
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "From Behut (care/protection).\\nThe gentleness you show for fragile things."
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: He spoke gently with her.\\nB: About Werner?\\nA: Yes. One must be careful.\\nB: Some topics need delicacy."
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "From 'behüten' (to guard, to protect). Behutsam is the gentleness you show when something is fragile. How you handle precious things. How Heinrich handed over his sourdough starter."
+  },
+  {
+    "line": 227,
+    "field": "src",
+    "english": "moving, touching"
+  },
+  {
+    "line": 227,
+    "field": "note",
+    "english": "From rühren (to stir/move).\\nWhat stirs your emotions deeply."
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: Heinrich's gift was so moving.\\nB: Twenty-year-old sourdough starter.\\nA: The most personal gift of all.\\nB: I almost cried."
+  },
+  {
+    "line": 227,
+    "field": "funFact",
+    "english": "Rühren means both 'to stir' (a pot) and 'to move' (emotionally). Rührend is what stirs your feelings. Not sad, but deeply touching. Heinrich's sourdough gift was rührend."
+  },
+  {
+    "line": 233,
+    "field": "hint",
+    "english": "Count the distinct B2 features in the sentence: one is a small word expressing resignation or acceptance, the other is a subordinate clause type that describes the method or means of doing something."
+  },
+  {
+    "line": 234,
+    "field": "hint",
+    "english": "Deeply moving. What stirs your emotions. A twenty-year-old sourdough starter from a baker's life."
+  },
+  {
+    "line": 234,
+    "field": "sSrc",
+    "english": "Heinrich's gift was deeply moving."
+  },
+  {
+    "line": 235,
+    "field": "hint",
+    "english": "Two particles: the first signals personal probability rather than certainty, the second invites the listener to share what is already known. Neither is a particle of resignation or contradiction."
+  },
+  {
+    "line": 245,
+    "field": "desc",
+    "english": "Hildi uses his first name. KD arrives late. The tablet comes out. Every character arc reaches its resolution."
+  },
+  {
+    "line": 246,
+    "field": "unknown",
+    "english": "Experience the emotional climax of the story"
+  },
+  {
+    "line": 247,
+    "field": "unknown",
+    "english": "See all character arcs resolve"
+  },
+  {
+    "line": 248,
+    "field": "unknown",
+    "english": "Practice all constructs in their most natural form"
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "The table goes quiet for a moment. Hildi reaches for her wine glass. She looks at Verumius. Not Herr Verumius. Not 'the new one.' She looks at him the way you look at family."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "Verumius... the wine is really good."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "His first name. In front of everyone. She offered him 'du' months ago. But saying his name here, at this table, in front of these people: that is the last wall falling. Mia grins. Lukas raises his glass. Yilmaz smiles. Heinrich nods."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "He does not speak. He smiles. That is enough."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "The doorbell. KD. Slightly out of breath. A small cactus in one hand. An apology on his face."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "Sorry! Paperwork. Always paperwork. I brought a cactus. For the collection."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "Later. Hildi opens a tablet. The tablet Verumius taught her to use. She shows photos of Werner. Her late husband. The garden they built together. The cats. 'That is Werner. He would have liked you.'"
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "Nobody speaks for a moment. Then Heinrich puts his hand on Hildi's shoulder. Mia pours her more wine. The moment passes gently, like a cloud."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "surprise"
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Feminine noun. Über (over) + Raschung (from raschen).\\nSomething that comes over you quickly."
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: What a surprise!\\nB: Didn't you expect that?\\nA: No, not at all.\\nB: The best surprises come unexpectedly."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "Hildi using his first name publicly was the most beautiful Überraschung of the evening. Something that rushes over you before you can prepare for it."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "deep sigh of relief"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Masculine noun. Stoß (push) + Seufzer (sigh).\\nA sigh pushed out from the chest."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: KD let out a deep sigh.\\nB: Why?\\nA: He made it just in time.\\nB: Typical KD. Always at the last minute."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "A Stoßseufzer is not a gentle sigh. It is a sigh pushed out from deep in the chest. What KD lets out when he finally arrives. Pure physical relief made audible."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "inner self, inner being"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Neuter noun. Nominalized from 'inner.'\\n'In seinem Inneren wusste er es.'"
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Deep inside he had known it for a long time.\\nB: Known what exactly?\\nA: That Berlin is his home.\\nB: Some things you just feel."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Das Innere is where language does not reach. The deepest part of you, beyond words. 'In seinem Inneren wusste er es' means the knowledge was already there, waiting to be spoken."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "leisure, contemplation time"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Feminine noun. From Old High German 'muoza.'\\nThe opposite of hectic rush."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Tonight we finally have leisure.\\nB: No hurry, no appointments.\\nA: Just being here.\\nB: That is the greatest luxury."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Muße is the time for contemplation. Not laziness, but intentional stillness. 'In aller Muße' means at one's leisure. What this entire evening gives everyone at the table."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "dream"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Masculine noun. Same root as English 'dream.'\\n'Mein Traum war es, in Deutschland zu leben.'"
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Was this always your dream?\\nB: Yes, since childhood.\\nA: And now the dream is reality.\\nB: Sometimes I can hardly believe it myself."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Two years ago, living in Germany was a Traum. Now it is Wirklichkeit (reality). The same root as English 'dream.' What started as imagination became life."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "to become reconciled, to make peace"
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Reflexive verb. From 'Söhne' (sons) originally.\\nWhen conflicts dissolve and the past stops hurting."
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Have you made peace with the past?\\nB: Yes, finally.\\nA: That takes time.\\nB: But it is worth it."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Hildi showing Werner's photos at the dinner is an act of Versöhnung. She has made peace with her loss. Not forgotten, but reconciled. The past no longer hurts."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "to allow, to permit, to let in"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Separable verb. Zu + lassen (to let).\\n'Gefühle zulassen' means to let feelings happen."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: One must allow feelings.\\nB: That is not always easy.\\nA: No, but necessary.\\nB: Allowing is sometimes the greatest courage."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "'Gefühle zulassen' is the courage to let emotions happen without controlling them. Zu-lassen: to let something come toward you. Not pushing away, but opening the door."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "to grow together"
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Separable verb. Zusammen + wachsen (to grow).\\nStrangers who become family over time."
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: This group has grown together.\\nB: Over the course of two years.\\nA: Strangers became friends.\\nB: That does not happen often."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "What happens to strangers who become family: they grow into each other, like roots intertwining underground. Zusammen-wachsen: growing together until you cannot be separated."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "to rest completely"
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "Separable, reflexive. Aus + ruhen (to rest).\\nComplete rest after hard work."
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: Get some rest.\\nB: Yes, I am really tired.\\nA: You have earned it.\\nB: Two years of hard work."
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Aus-ruhen means to rest COMPLETELY. The 'aus' prefix means 'fully, to completion.' What you have earned after two years of learning a language from zero."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "to breathe a sigh of relief"
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Separable verb. Auf + atmen (to breathe).\\nThe breath when tension finally releases."
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: Everyone breathed a sigh of relief when KD arrived.\\nB: Why?\\nA: Because now everyone was really here.\\nB: The table was complete."
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "Auf-atmen: the breath that comes when tension releases. Relief made physical. Literally breathing upward, as if a weight has been lifted from the chest."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "happy, fortunate"
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "From Glück (happiness/luck) + -lich.\\nSimple. Direct. What Verumius is tonight."
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: Are you happy?\\nB: Yes. Truly happy for the first time.\\nA: You can see it on your face.\\nB: Thanks. I feel it too."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "The adjective of Glück. Simple, direct, and powerful. 'Ich bin glücklich' is one of the most important sentences in any language. What Verumius is tonight."
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "priceless, invaluable"
+  },
+  {
+    "line": 269,
+    "field": "note",
+    "english": "Un- + bezahlbar (payable).\\nWhat no amount of money can equal."
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: This evening is priceless.\\nB: Yes, you cannot buy something like this.\\nA: True friendship is priceless.\\nB: The most valuable thing there is."
+  },
+  {
+    "line": 269,
+    "field": "funFact",
+    "english": "Un-bezahl-bar: not payable. The negation prefix un- + bezahlen (to pay) + -bar (able). What true friendship is. No amount of money equals the value of this evening."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "relaxed, informal, natural"
+  },
+  {
+    "line": 270,
+    "field": "note",
+    "english": "Un- + gezwungen (forced).\\nWithout pretense. When everyone is simply themselves."
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: The atmosphere was totally relaxed.\\nB: Yes, nobody was pretending.\\nA: Everyone was simply themselves.\\nB: That is how it should be."
+  },
+  {
+    "line": 270,
+    "field": "funFact",
+    "english": "Un-ge-zwungen: without force or compulsion. When there is no pretense, no performance, no mask. Everyone is simply who they are. Tonight's atmosphere at the dinner table."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "confident, optimistic"
+  },
+  {
+    "line": 271,
+    "field": "note",
+    "english": "From Zuversicht (confidence) + -lich.\\nLooking forward with trust."
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: I look to the future with confidence.\\nB: What comes next?\\nA: I don't know yet.\\nB: But you are ready."
+  },
+  {
+    "line": 271,
+    "field": "funFact",
+    "english": "Zuversicht is confidence WITH trust. Not arrogance, not blind optimism, but grounded faith that what comes next will be manageable. What Verumius feels about whatever follows."
+  },
+  {
+    "line": 277,
+    "field": "hint",
+    "english": "There is a shift in how Hildi addresses Verumius here. The narrator describes this as the last wall falling. What has changed in how she refers to him?"
+  },
+  {
+    "line": 278,
+    "field": "hint",
+    "english": "A separable verb describing organic bonds forming over time. Strangers who have slowly become unified, like trees whose roots meet underground."
+  },
+  {
+    "line": 278,
+    "field": "sSrc",
+    "english": "This group has grown together over two years."
+  },
+  {
+    "line": 279,
+    "field": "hint",
+    "english": "Three gaps: an adjective for something money cannot buy, a connector introducing HOW belonging is created, and a particle of quiet acceptance. Think about what friendship is worth."
+  },
+  {
+    "line": 292,
+    "field": "hint",
+    "english": "KD arriving late is entirely predictable. This particle captures quiet acceptance of something unchangeable, without drama or argument."
+  },
+  {
+    "line": 295,
+    "field": "desc",
+    "english": "The final assessment. Every B2 construct. Every register. Every skill. Prove everything you have learned across 36 units."
+  },
+  {
+    "line": 296,
+    "field": "unknown",
+    "english": "Prove mastery of all B2 constructs"
+  },
+  {
+    "line": 297,
+    "field": "unknown",
+    "english": "Switch between formal and informal registers"
+  },
+  {
+    "line": 298,
+    "field": "unknown",
+    "english": "Demonstrate full German competence"
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "to proceed, to betake oneself (very formal)"
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Reflexive, inseparable. Very formal register.\\nEveryday equivalent: gehen (to go)."
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: Please proceed to the exit.\\nB: Where is the exit?\\nA: At the end of the hallway, on the right.\\nB: Thank you."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "'Begeben Sie sich zum Ausgang' is what you hear on trains and in official buildings. The formal cousin of 'Geh raus' (get out). Same meaning, different world."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "to take from, to gather/infer (formal)"
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Inseparable verb. Formal register.\\nEveryday equivalent: herausnehmen (to take out)."
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: From the text you can gather that...\\nB: Yes, I gathered that from the report.\\nA: Good. Please also extract the numbers.\\nB: Understood."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "'Dem Text entnehmen' (to gather from the text) is academic German. 'Nimm es heraus' (take it out) is everyday. Entnehmen implies careful extraction of meaning."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "to be located (formal)"
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Reflexive, inseparable. Formal register.\\nEveryday equivalent: sein (to be)."
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: Where is the museum located?\\nB: It is located in the city center.\\nA: And the train station?\\nB: That is located right across from it."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "'Das Museum befindet sich im Zentrum' vs. 'Das Museum ist im Zentrum.' Both mean the same thing. Sich befinden is what maps, guides, and official descriptions use."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "to behold, to catch sight of (literary)"
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Inseparable verb. Literary register.\\nEveryday equivalent: sehen (to see)."
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: He beheld the city for the first time.\\nB: How was the moment?\\nA: Overwhelming. He could hardly believe it.\\nB: Berlin has that effect."
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "'Das Licht der Welt erblicken' means to be born (to behold the light of the world). Erblicken is the literary cousin of sehen. Poetry vs. daily life."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "almost, nearly (slightly formal)"
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "Adverb. Slightly more formal than 'fast.'\\n'Beinahe wäre es schiefgegangen.'"
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: I almost gave up.\\nB: But you persevered.\\nA: Yes, it was almost too much.\\nB: Almost is not quite."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "'Beinahe' sounds more considered than 'fast' (almost). Both mean the same thing. 'Beinahe wäre es schiefgegangen' (It nearly went wrong) has a more reflective tone."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "however (formal)"
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "Conjunction. Formal written register.\\nEveryday equivalent: aber (but)."
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: The exam was hard, however he passed.\\nB: Despite all the difficulties?\\nA: Yes. He had prepared well, however.\\nB: Preparation is everything."
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "Jedoch is the formal cousin of aber. You see it in essays, newspapers, and academic texts. 'Die Prüfung war schwer, jedoch bestand er' sounds written. 'Aber er hat bestanden' sounds spoken."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "furthermore, moreover (very formal)"
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "Adverb. Very formal, legal/academic register.\\nEveryday equivalent: außerdem (besides)."
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: Furthermore, it should be noted that...\\nB: What else?\\nA: Furthermore, the following rules apply.\\nB: Understood. Is there anything else?"
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "Ferner lives in contracts, laws, and academic papers. 'Ferner ist zu beachten...' (Furthermore, it should be noted...). You would never say this at a dinner party. Außerdem is the everyday version."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "immediately, at once (literary)"
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "Adverb. Literary register.\\nEveryday equivalent: sofort (right away)."
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: He came at once.\\nB: Without hesitation?\\nA: Yes, immediately. Not a second's delay.\\nB: That is what you call determination."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "'Er kam sogleich' is narrative prose. 'Komm sofort!' is what a parent yells. Same urgency, different register. Sogleich belongs to books and stories."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "knowledge of human nature, people skills"
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Feminine noun. Menschen + Kenntnis (knowledge).\\nThe ability to read people."
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: Yilmaz has great people skills.\\nB: Where does that come from?\\nA: From years of experience with students.\\nB: You learn to read people."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Menschen + Kenntnis: knowledge of humans. The ability to look at someone and understand what they need. What Yilmaz has. What living in a new country teaches you."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "self-actualization"
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Feminine noun. Selbst + Verwirklichung (realization).\\nMaking your true self real."
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: Language is a path to self-actualization.\\nB: In what way?\\nA: You become yourself in a new language.\\nB: Verumius is the best example."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "Maslow's highest need, in German. Selbst (self) + Verwirklichung (making real). What Verumius achieved by becoming himself in German. Not just speaking it, but BEING in it."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "willpower"
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "Feminine noun. Willen (will) + Kraft (power).\\nThe force that keeps you going when it is hard."
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Without willpower he would have given up.\\nB: True. It was often hard.\\nA: But his willpower was stronger.\\nB: The engine behind everything."
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "Willen (will) + Kraft (power). The force that kept Verumius studying when everything was hard. Grit. Determination. The engine of all achievement."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "sense of belonging together"
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "Feminine noun. Zusammen + Gehörigkeit.\\nPeople who belong to each other by choice."
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: At this table you can feel a sense of belonging.\\nB: Even though everyone is so different?\\nA: Precisely because of that.\\nB: Belonging does not require sameness."
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "Zusammen (together) + Gehörigkeit (belonging). What this dinner table represents. Not blood relatives but chosen family. People who belong to each other because they decided to."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "unconditional"
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "Bedingung (condition) + -los (without).\\nWithout conditions. Without requirements."
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: True friendship is unconditional.\\nB: Without ifs and buts?\\nA: Exactly. You accept the other person completely.\\nB: That is rare and valuable."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "Bedingung (condition) + -los (without). Love without requirements. Friendship without fine print. What the best relationships are. Bedingungslos is the word for total acceptance."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "for each other"
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "Adverb. Für (for) + einander (each other).\\nMutual care in one word."
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: They are there for each other.\\nB: In good times and bad?\\nA: Yes, always for each other.\\nB: That is the most important thing."
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "Für + einander: for each other. An adverb that captures mutual care in a single word. Being there FOR EACH OTHER. The definition of this friend group."
+  },
+  {
+    "line": 319,
+    "field": "hint",
+    "english": "'Sich begeben' is what you hear on a train. 'Geh raus' is what Lukas would say. Same meaning, different worlds."
+  },
+  {
+    "line": 320,
+    "field": "hint",
+    "english": "Which connector answers the question HOW belonging is created? It introduces the method or means by which something happens."
+  },
+  {
+    "line": 320,
+    "field": "sSrc",
+    "english": "By being there unconditionally for each other, a sense of belonging is created."
+  },
+  {
+    "line": 321,
+    "field": "hint",
+    "english": "Three gaps: a particle expressing probability (not certainty), a formal connective adverb pushing against the previous clause, and an emphatic indefinite pronoun leaving no exception. Three distinct B2 registers in one sentence."
+  },
+  {
+    "line": 327,
+    "field": "hint",
+    "english": "Count the tiny particles in each option. Natural German dinner conversation uses two layered particles that add shared recognition and warm emphasis."
+  },
+  {
+    "line": 335,
+    "field": "hint",
+    "english": "Every single effort without exception. The most emphatic formal indefinite pronoun for totality."
+  },
+  {
+    "line": 335,
+    "field": "sSrc",
+    "english": "Every single effort was worth it."
+  },
+  {
+    "line": 341,
+    "field": "hint",
+    "english": "Apply the rule: adverbs of time come first, then reason, then manner, then place. Which option places each adverb in the correct slot?"
+  },
+  {
+    "line": 342,
+    "field": "hint",
+    "english": "Four gaps: the value of something, the subject of that value, the connector describing HOW understanding grows, and a particle signaling that the result will come. Consider what genuine bonds are worth and how they develop."
+  },
+  {
+    "line": 348,
+    "field": "hint",
+    "english": "In a compound noun, the last element is always the boss of the gender. Identify which of the four options is actually the last element of this compound."
+  },
+  {
+    "line": 349,
+    "field": "hint",
+    "english": "The formal verb meaning to gather or infer information from a text or document."
+  },
+  {
+    "line": 349,
+    "field": "sSrc",
+    "english": "He could gather from the report that the exam had been passed."
+  },
+  {
+    "line": 352,
+    "field": "desc",
+    "english": "The final lesson. Yilmaz's last words on the balcony. Berlin glows. The journey ends where home begins."
+  },
+  {
+    "line": 353,
+    "field": "unknown",
+    "english": "Complete the journey"
+  },
+  {
+    "line": 354,
+    "field": "unknown",
+    "english": "Hear the final words of your mentor"
+  },
+  {
+    "line": 355,
+    "field": "unknown",
+    "english": "Affirm that home is not a place but a feeling"
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "The party winds down. The dishes are mostly cleared. The candles burn low. Some guests have left: KD first (early shift), then Lukas and Mia together, guitar slung over his back, her arm in his. Heinrich hugged everyone twice."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "Hildi is the last to go. She looks around the apartment, then looks at Verumius. She says nothing. She squeezes his hand. Then she is gone."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "Only Yilmaz remains. She holds a glass of Turkish tea. She stands at the window. Berlin glows."
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "Verumius. Come here a moment."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "They stand at the window together. Teacher and student. The TV Tower blinks in the distance. The city hums."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "Do you know what the hardest thing about learning a language is?"
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "The grammar? The exam?"
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "No. The hardest thing is being yourself. In another language. Most people learn words and rules. But they remain tourists in the language. You are no longer a tourist."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "What am I then?"
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "You are you. In German."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "Silence. The city. The tea. Then Yilmaz picks up her coat, kisses him on both cheeks (Turkish tradition), and leaves. The door closes softly."
+  },
+  {
+    "line": 368,
+    "field": "src",
+    "english": "Verumius stands alone in his apartment. The candles flicker. The sourdough starter sits in its jar. The photos on the wall. The essay on the corkboard. Berlin outside the window."
+  },
+  {
+    "line": 369,
+    "field": "src",
+    "english": "I am home."
+  },
+  {
+    "line": 370,
+    "field": "src",
+    "english": "the taxpayer"
+  },
+  {
+    "line": 370,
+    "field": "note",
+    "english": "Masculine noun. Steuer (tax) + Zahler (payer).\\nIntegration complete: part of the system."
+  },
+  {
+    "line": 370,
+    "field": "exampleSrc",
+    "english": "A: Verumius is now a taxpayer.\\nB: Health insurance, tax office, everything.\\nA: A real member of society.\\nB: Integration on paper and in the heart."
+  },
+  {
+    "line": 370,
+    "field": "funFact",
+    "english": "Steuer (tax) + Zahler (payer). Verumius pays taxes, has health insurance, receives mail from the Finanzamt. He is part of the system. The most bureaucratic proof of belonging."
+  },
+  {
+    "line": 371,
+    "field": "src",
+    "english": "from the bottom of one's heart"
+  },
+  {
+    "line": 371,
+    "field": "note",
+    "english": "Fixed phrase. Von (from) + ganzem (whole) + Herzen.\\nThe most sincere expression of gratitude."
+  },
+  {
+    "line": 371,
+    "field": "exampleSrc",
+    "english": "A: I thank you from the bottom of my heart.\\nB: That makes us very happy.\\nA: Without you I would not be here.\\nB: We are glad you are here."
+  },
+  {
+    "line": 371,
+    "field": "funFact",
+    "english": "The most sincere expression of gratitude in German. Nothing held back. The whole heart, not just a piece of it. What you say when words alone are not enough."
+  },
+  {
+    "line": 372,
+    "field": "src",
+    "english": "heartfelt, sincerely"
+  },
+  {
+    "line": 372,
+    "field": "note",
+    "english": "Fixed phrase. Shorter than 'von ganzem Herzen.'\\nWhat you write in cards for people you care about."
+  },
+  {
+    "line": 372,
+    "field": "exampleSrc",
+    "english": "A: All the best, from the heart!\\nB: Thanks, that is kind.\\nA: I mean it sincerely.\\nB: I can feel it."
+  },
+  {
+    "line": 372,
+    "field": "funFact",
+    "english": "Shorter than 'von ganzem Herzen' but equally sincere. What you write in birthday cards, on farewell gifts, and in letters to people who matter. Two words, full sincerity."
+  },
+  {
+    "line": 373,
+    "field": "src",
+    "english": "in the end, ultimately"
+  },
+  {
+    "line": 373,
+    "field": "note",
+    "english": "Fixed phrase. Letzten (last) + Endes (Genitiv of Ende).\\nThe final verdict after everything is considered."
+  },
+  {
+    "line": 373,
+    "field": "exampleSrc",
+    "english": "A: In the end, only one thing matters.\\nB: What is that?\\nA: That you tried.\\nB: In the end, you are right."
+  },
+  {
+    "line": 373,
+    "field": "funFact",
+    "english": "Letzten Endes is the genitive of 'das letzte Ende.' At the last of the end. The phrase that delivers the final judgment. After all is said and done."
+  },
+  {
+    "line": 374,
+    "field": "src",
+    "english": "finally, ultimately"
+  },
+  {
+    "line": 374,
+    "field": "note",
+    "english": "Adverb. Schluss (end) + endlich (finally).\\nDouble ending: Schluss AND endlich."
+  },
+  {
+    "line": 374,
+    "field": "exampleSrc",
+    "english": "A: In the end, everything was worth it.\\nB: Every single step?\\nA: Yes, ultimately even the mistakes.\\nB: Mistakes are the best teachers."
+  },
+  {
+    "line": 374,
+    "field": "funFact",
+    "english": "Schluss (end) + endlich (finally). The word that closes the book. Double ending, double finality. When you want to say 'ultimately' with absolute closure."
+  },
+  {
+    "line": 375,
+    "field": "src",
+    "english": "last but not least, finally"
+  },
+  {
+    "line": 375,
+    "field": "note",
+    "english": "Fixed phrase. Zu (at) + guter (good) + Letzt (last).\\nThe final thought, said with warmth."
+  },
+  {
+    "line": 375,
+    "field": "exampleSrc",
+    "english": "A: Last but not least, I want to say thank you.\\nB: For what?\\nA: For everything. Simply for everything.\\nB: That was the most beautiful closing word."
+  },
+  {
+    "line": 375,
+    "field": "funFact",
+    "english": "The phrase that introduces the final thought with a positive tone. Not just 'lastly' but 'at the good last.' The closing words are good words. The last note is a warm one."
+  },
+  {
+    "line": 376,
+    "field": "src",
+    "english": "to dream"
+  },
+  {
+    "line": 376,
+    "field": "note",
+    "english": "Regular verb. Same root as English 'dream.'\\nWhat started as imagination became life."
+  },
+  {
+    "line": 376,
+    "field": "exampleSrc",
+    "english": "A: I dreamed of living here.\\nB: And now you live here.\\nA: The dream became reality.\\nB: That happens rarely. Enjoy it."
+  },
+  {
+    "line": 376,
+    "field": "funFact",
+    "english": "Same root as English 'dream.' Two years ago, living in Germany was a Traum. Now it is Wirklichkeit (reality). What started as imagination became life. From dreaming to being."
+  },
+  {
+    "line": 377,
+    "field": "src",
+    "english": "to be at peace, to be forgiving"
+  },
+  {
+    "line": 377,
+    "field": "note",
+    "english": "Adjective + sein. Being at peace with what was.\\nAccepting the journey, including the hard parts."
+  },
+  {
+    "line": 377,
+    "field": "exampleSrc",
+    "english": "A: Are you at peace with the past?\\nB: Yes, finally.\\nA: Even with the hard moments?\\nB: Especially with those. They shaped me."
+  },
+  {
+    "line": 377,
+    "field": "funFact",
+    "english": "Being versöhnlich is accepting the journey, including the hard parts. Not pretending they were good, but recognizing they were necessary. Making peace with your own story."
+  },
+  {
+    "line": 378,
+    "field": "src",
+    "english": "looking back, in retrospect"
+  },
+  {
+    "line": 378,
+    "field": "note",
+    "english": "Adverb. Present participle of rückblicken.\\nStanding at the end, looking at the beginning."
+  },
+  {
+    "line": 378,
+    "field": "exampleSrc",
+    "english": "A: Looking back, everything was right.\\nB: Every step?\\nA: Yes. In retrospect, even the detours.\\nB: Detours expand your knowledge of the area."
+  },
+  {
+    "line": 378,
+    "field": "funFact",
+    "english": "The adverbial form of Rückblick. Standing at the end, looking back at the beginning. 'Rückblickend war alles richtig' is the sentence of someone who has arrived."
+  },
+  {
+    "line": 379,
+    "field": "src",
+    "english": "sincere, genuine"
+  },
+  {
+    "line": 379,
+    "field": "note",
+    "english": "Auf (up) + richtig (right/straight). Upright.\\nHonesty made physical. Hiding nothing."
+  },
+  {
+    "line": 379,
+    "field": "exampleSrc",
+    "english": "A: Sincere thanks for everything.\\nB: That sounds so serious.\\nA: It is seriously meant.\\nB: Then I gladly accept it."
+  },
+  {
+    "line": 379,
+    "field": "funFact",
+    "english": "Literally 'upright.' An aufrichtiger Mensch stands straight, hides nothing. Honesty made physical. Not just truthful but transparently so."
+  },
+  {
+    "line": 380,
+    "field": "src",
+    "english": "at home"
+  },
+  {
+    "line": 380,
+    "field": "note",
+    "english": "Adverb. Zu (at) + Hause (Dativ of Haus).\\nMore than a location: the feeling of belonging somewhere."
+  },
+  {
+    "line": 380,
+    "field": "exampleSrc",
+    "english": "A: Are you finally home?\\nB: Yes. And it feels different than before.\\nA: Different how?\\nB: Like I belong here. I am home."
+  },
+  {
+    "line": 380,
+    "field": "funFact",
+    "english": "The adverb 'zuhause' (at home) expresses location. Related but different: 'nach Hause' (going home, directional) and 'das Zuhause' (home as a noun). 'Zuhause sein' is more than physical presence. It is the feeling of belonging. Verumius's two-year arc ends with three words: Ich bin zuhause."
+  },
+  {
+    "line": 386,
+    "field": "hint",
+    "english": "Yilmaz draws a contrast between performing a language and inhabiting it. The deepest compliment is about identity, not accuracy."
+  },
+  {
+    "line": 387,
+    "field": "hint",
+    "english": "An adverb that positions the speaker at the present moment, casting their gaze backward over the entire journey. It frames reflection on the past from a place of arrival."
+  },
+  {
+    "line": 387,
+    "field": "sSrc",
+    "english": "Looking back, everything was right. Every step. Every mistake. Every word."
+  },
+  {
+    "line": 388,
+    "field": "hint",
+    "english": "Three closing gaps: a noun completing a fixed German phrase meaning 'ultimately,' the word for the place one calls home, and the emotion Verumius feels at the end of two years."
+  },
+  {
+    "line": 401,
+    "field": "hint",
+    "english": "Zuhause is where you belong. Where the people are who know your name. Where you are yourself."
+  }
+]

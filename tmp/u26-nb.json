@@ -1,0 +1,767 @@
+[
+  {
+    "line": 182,
+    "field": "funFact",
+    "english": "Headlines that 'rip' at your emotions. The word itself sounds aggressive. The mark of tabloid journalism. 'Reisserische Schlagzeilen' (sensationalist headlines) sacrifice accuracy for attention."
+  },
+  {
+    "line": 183,
+    "field": "note",
+    "english": "Adjective. From French 'sensationnel.'\\nCan be positive or negative."
+  },
+  {
+    "line": 183,
+    "field": "funFact",
+    "english": "Can be positive (amazing!) or negative (exaggerated!). In media criticism, sensationell usually implies too much hype and too little substance. 'Sensationsjournalismus' (sensationalist journalism) prioritizes shock value."
+  },
+  {
+    "line": 184,
+    "field": "note",
+    "english": "Adjective. From Boulevard (French: broad street).\\n'Boulevardeske Berichterstattung' (tabloid-style reporting)."
+  },
+  {
+    "line": 184,
+    "field": "funFact",
+    "english": "The Boulevardpresse (tabloid press) prioritizes sensation over substance. Bild-Zeitung is Germany's largest Boulevardzeitung with millions of daily readers. Named after French boulevards where newspapers were sold to passersby."
+  },
+  {
+    "line": 185,
+    "field": "note",
+    "english": "Adjective. From Latin 'populus' (people).\\nAlmost always negative in German media criticism."
+  },
+  {
+    "line": 185,
+    "field": "funFact",
+    "english": "Claiming to speak for 'das Volk' (the people) against elites. In German media criticism, populistisch is almost always negative. Germany's historical experience with demagogues makes the word especially charged."
+  },
+  {
+    "line": 207,
+    "field": "note",
+    "english": "Masculine noun. Hinter (behind) + Grund (ground/reason).\\nWhat lies behind the visible story."
+  },
+  {
+    "line": 207,
+    "field": "funFact",
+    "english": "Hinter (behind) + Grund (ground/reason). What lies behind the visible story. 'Vor diesem Hintergrund' (against this background) is one of the most common phrases in German media analysis. A Hintergrundbericht provides context beyond headlines."
+  },
+  {
+    "line": 208,
+    "field": "note",
+    "english": "Masculine noun. Interessen (interests) + Konflikt.\\nWhen a journalist's sources have hidden agendas."
+  },
+  {
+    "line": 208,
+    "field": "funFact",
+    "english": "Interessen (interests) + Konflikt (conflict). When hidden agendas compromise objectivity. 'Einen Interessenkonflikt offenlegen' (to disclose a conflict of interest) is an ethical duty in journalism. Transparency prevents Manipulation."
+  },
+  {
+    "line": 209,
+    "field": "note",
+    "english": "Feminine noun. Medien + Landschaft (landscape).\\nMedia as a terrain you navigate."
+  },
+  {
+    "line": 209,
+    "field": "funFact",
+    "english": "Medien + Landschaft (landscape). The metaphor paints media as a terrain you navigate. Germany's Medienlandschaft includes ARD, ZDF, private broadcasters, national and regional newspapers, and a growing digital sector. No other country has quite this mix."
+  },
+  {
+    "line": 210,
+    "field": "note",
+    "english": "Feminine noun. Stellung (position) + Nahme (taking).\\nTaking a position on an issue."
+  },
+  {
+    "line": 210,
+    "field": "funFact",
+    "english": "Stellung (position) + Nahme (taking). The formal act of taking a position. 'Eine offizielle Stellungnahme abgeben' (to issue an official statement) is the standard phrase. Politicians, companies, and institutions all give Stellungnahmen."
+  },
+  {
+    "line": 211,
+    "field": "note",
+    "english": "Feminine noun. Tat (deed) + Sache (thing).\\nA fact: something that was actually done or happened."
+  },
+  {
+    "line": 211,
+    "field": "funFact",
+    "english": "Tat (deed/act) + Sache (thing). A 'deed-thing,' something that actually happened. Harder than 'Fakt.' 'Tatsache ist, dass...' (The fact is that...) opens many journalistic sentences. A Tatsache cannot be argued away."
+  },
+  {
+    "line": 212,
+    "field": "note",
+    "english": "Feminine noun. From Latin transparere (to show through).\\nThe opposite of Verschleierung (veiling)."
+  },
+  {
+    "line": 212,
+    "field": "funFact",
+    "english": "From Latin 'transparere' (to show through). Seeing through institutional walls. The opposite of Verschleierung (veiling). 'Mehr Transparenz fordern' (to demand more transparency) is a rallying cry in media criticism and politics alike."
+  },
+  {
+    "line": 213,
+    "field": "note",
+    "english": "Masculine noun. Wahrheit (truth) + Gehalt (content).\\nNot 'true or false' but 'how much truth?'"
+  },
+  {
+    "line": 213,
+    "field": "funFact",
+    "english": "Wahrheit (truth) + Gehalt (content). Not a binary 'true or false' but 'how much truth does this contain?' A nuanced concept. 'Den Wahrheitsgehalt überprüfen' (to verify the truth content) treats information as a spectrum, not a switch."
+  },
+  {
+    "line": 214,
+    "field": "note",
+    "english": "Feminine noun. From objektiv + -itaet.\\nThe ideal of reporting without bias."
+  },
+  {
+    "line": 214,
+    "field": "funFact",
+    "english": "From objektiv + -itaet. Nominalisierung: adjective 'objektiv' becomes noun 'Objektivitaet.' The ideal of reporting without bias. Perfect Objektivitaet may be impossible, but striving for it separates journalism from propaganda."
+  },
+  {
+    "line": 215,
+    "field": "note",
+    "english": "Not separable. Hinter (behind) + fragen (to ask).\\nAsking what is behind the surface."
+  },
+  {
+    "line": 215,
+    "field": "funFact",
+    "english": "Hinter (behind) + fragen (to ask). Not separable. Asking what is behind the surface. The verb of Medienkompetenz. 'Nachrichten hinterfragen' (to question news critically) means going deeper than headlines."
+  },
+  {
+    "line": 216,
+    "field": "note",
+    "english": "Separable: ein + schätzen. Ich schätze es ein.\\nMaking your internal estimate."
+  },
+  {
+    "line": 216,
+    "field": "funFact",
+    "english": "Ein (in) + schätzen (to estimate/value). Separable. Making your internal estimate. 'Wie schätzen Sie das ein?' (How do you assess this?) is a standard question in German interviews and discussions. Your Einschätzung (assessment) reveals your expertise."
+  },
+  {
+    "line": 217,
+    "field": "note",
+    "english": "Not separable. Wider (against) + sprechen (to speak).\\nTakes Dativ: Ich widerspreche Ihnen."
+  },
+  {
+    "line": 217,
+    "field": "funFact",
+    "english": "Wider (against) + sprechen (to speak). Not separable. Speaking against. Takes Dativ: 'Ich widerspreche Ihnen' (I contradict you). In German debate culture, widersprechen is expected and respected. Silence implies agreement."
+  },
+  {
+    "line": 218,
+    "field": "note",
+    "english": "Two-word phrase. In Frage (into question) + stellen (to place).\\nMore formal than bezweifeln (to doubt)."
+  },
+  {
+    "line": 218,
+    "field": "funFact",
+    "english": "In Frage (into question) + stellen (to place). Placing something into the realm of question. More formal than 'bezweifeln' (to doubt). 'Die Glaubwürdigkeit infrage stellen' (to call credibility into question) is a powerful move in media criticism."
+  },
+  {
+    "line": 219,
+    "field": "note",
+    "english": "Not separable. Über (over) + prüfen (to test).\\nGoing over something carefully to test its truth."
+  },
+  {
+    "line": 219,
+    "field": "funFact",
+    "english": "Über (over) + prüfen (to test). Not separable. Going over something carefully to test its truth. The Faktencheck verb. 'Informationen überprüfen' (to verify information) is the journalist's daily bread."
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "Not separable. Über (over) + treiben (to drive).\\nDriving something beyond the limit."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "Über (over) + treiben (to drive). Not separable. Driving something over the limit. 'Masslos übertreiben' (to exaggerate excessively). Übertreibung (exaggeration) is the tabloid's primary tool and the quality newspaper's greatest enemy."
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Fakten (facts) + basiert (based).\\nThe gold standard of journalism."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "Fakten (facts) + basiert (based). The gold standard of journalism. If it is not faktenbasiert, it is opinion. 'Faktenbasierte Berichterstattung' (fact-based reporting) separates serious media from propaganda and Meinungsmache."
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Oberfläche (surface) + -lich.\\nOnly touching the surface. The opposite of gründlich."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "Oberfläche (surface) + -lich. Only touching the surface. A damning criticism in German academia and journalism. The opposite of 'gründlich' (thorough). When a German calls your work 'oberflächlich,' it stings."
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Zweifel (doubt) + -haft.\\nFull of doubt. Not proven wrong, but suspicious."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Zweifel (doubt) + -haft. Full of doubt. When something is zweifelhaft, you should not trust it. Not proven wrong, but suspicious enough to deserve scrutiny. 'Zweifelhafte Methoden' (questionable methods) is a serious accusation."
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "Un- + zuverlässiig (reliable).\\nThe worst label a source can get."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "Un- + zuverlässiig (reliable). The negation of zuverlässiig. In journalism, the worst label a source can get. Once a source is deemed unzuverlässiig, no serious journalist will cite them again."
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Vertrauen (trust) + würdig (worthy).\\nWorthy of your trust. The highest media compliment."
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "Vertrauen (trust) + würdig (worthy). Worthy of your Vertrauen. The highest compliment for a journalist or medium. 'Vertrauenswürdige Medien' are the backbone of any functioning democracy."
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "Un- + parteiisch (partisan).\\nNot taking any Partei (side). The journalistic ideal."
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "Un- + parteiisch (partisan). Not taking any Partei (side). The judicial and journalistic ideal. Berichte must be unparteiisch. Kommentare may take sides. Knowing the difference is Medienkompetenz."
+  },
+  {
+    "line": 246,
+    "field": "note",
+    "english": "Neuter noun. From French feuillet (little leaf/page).\\nPronounced 'foy-ye-TONG.'"
+  },
+  {
+    "line": 246,
+    "field": "funFact",
+    "english": "From French 'feuillet' (little leaf/page). Book reviews, theater criticism, cultural essays. Germany's Feuilleton tradition is legendary. The FAZ Feuilleton is considered one of the most influential in the German-speaking world."
+  },
+  {
+    "line": 247,
+    "field": "note",
+    "english": "Feminine noun. From Greek glossa (tongue/language).\\nShort, witty, biting. Humor with a point."
+  },
+  {
+    "line": 247,
+    "field": "funFact",
+    "english": "From Greek 'glossa' (tongue/language). Short, witty, biting. 'Eine Glosse schreiben' (to write a satirical piece). The journalist's sharpest weapon: humor with a point. A good Glosse makes you laugh and think at the same time."
+  },
+  {
+    "line": 248,
+    "field": "note",
+    "english": "Feminine noun. From Italian caricatura (exaggeration).\\nSatire protected by Kunstfreiheit."
+  },
+  {
+    "line": 248,
+    "field": "funFact",
+    "english": "From Italian 'caricatura' (exaggeration). German newspapers feature Karikaturen on their opinion pages. Satire is protected under German law as Kunstfreiheit (artistic freedom). A Karikatur can say what words cannot."
+  },
+  {
+    "line": 249,
+    "field": "note",
+    "english": "Masculine noun. Leser (reader) + Brief (letter).\\nThe reader's voice in print."
+  },
+  {
+    "line": 249,
+    "field": "funFact",
+    "english": "Leser (reader) + Brief (letter). The reader's voice. German newspapers still publish Leserbriefe prominently. 'Einen Leserbrief schreiben' (to write a letter to the editor) is an act of civic engagement."
+  },
+  {
+    "line": 250,
+    "field": "note",
+    "english": "Feminine noun. Bild (picture) + Unterschrift (caption).\\nThe text underneath a photograph."
+  },
+  {
+    "line": 250,
+    "field": "funFact",
+    "english": "Bild (picture) + Unterschrift (caption/signature). The text underneath a photograph. Unter (under) + Schrift (writing). Often overlooked but essential for context. A misleading Bildunterschrift can change the meaning of an entire photo."
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "Feminine noun. Über (over) + Schrift (writing).\\nBroader than Schlagzeile: every article has one."
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "Über (over) + Schrift (writing). The writing OVER the text. Broader than Schlagzeile: every article has an Überschrift, but only front-page news has a Schlagzeile. The Überschrift sets expectations."
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "Feminine noun. Titel (title) + Seite (page).\\nThe most valuable real estate in print journalism."
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "Titel (title) + Seite (page). The most valuable real estate in print journalism. 'Auf der Titelseite stehen' (to be on the front page). What makes it to the Titelseite shapes the national conversation."
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Feminine noun. Quelle (source) + Angabe (indication).\\nJournalism without it is rumor."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "Quelle (source) + Angabe (indication). Journalism without Quellenangabe is rumor. Academic writing without it is plagiarism. 'Ohne Quellenangabe' (without citing sources) is one of the harshest criticisms in German media and academia."
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Masculine noun. Schreib (writing) + Stil (style).\\nEvery journalist develops their own."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Schreib (writing) + Stil (style). Every journalist develops their own. Sachlich, pointiert, oder literarisch. The Schreibstil is the fingerprint. 'Ein klarer Schreibstil' (a clear writing style) is the hallmark of great journalism."
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Masculine noun. Fakten (facts) + Check.\\nGerman media organizations like Correctiv specialize in this."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "Fakten (facts) + Check. Borrowed from English. 'Einen Faktencheck durchführen' (to conduct a fact check). German media organizations like Correctiv specialize in Faktenchecks. In the age of Desinformation, the Faktencheck is essential."
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "From Latin moderare (to regulate).\\nThe Moderator guides without expressing opinion."
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "From Latin 'moderare' (to regulate). The Moderator/Moderatorin guides the discussion without expressing their own opinion. 'Eine Sendung moderieren' (to host a show). German talk shows are moderated, not just hosted."
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "From Rezension. Regular verb.\\nWriting a critical evaluation of art or literature."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "From Rezension. Verbalisierung: Rezension (noun) becomes rezensieren (verb). Writing a critical evaluation of art or literature. Found in the Feuilleton of every serious German newspaper."
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Separable: aus + strahlen (to radiate).\\nRadiation of information outward."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "Aus (out) + strahlen (to radiate/beam). Separable. Radio and TV stations strahlen their programs aus. Radiation of information. 'Die Sendung wird um 20 Uhr ausgestrahlt' is the standard broadcast announcement."
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "From Old German sendan. The basic media verb.\\nDer Sender (broadcaster), die Sendung (broadcast)."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "From Old German 'sendan.' The basic verb. 'Der Sender' (the broadcaster), 'die Sendung' (the broadcast). One root builds an entire media vocabulary. 'Live senden' (to broadcast live) is the purest form of journalism."
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Borrowed from English. Fully integrated into German.\\nDer Streamingdienst = streaming service."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Borrowed from English 'to stream.' Fully integrated into German. 'Der Streamingdienst' (streaming service). Netflix, Spotify, Podcasts: all streamen. ARD and ZDF have their own Mediathek for on-demand streaming."
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Not separable. Ver- + öffentlich (public) + -en.\\nMaking something public."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Ver- + öffentlich (public) + -en. Verbalisierung: öffentlich (adjective) becomes veröffentlichen (verb). Making something public. 'Einen Artikel veröffentlichen' (to publish an article) is the final step in journalism."
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Meinung (opinion) + bildend (forming).\\nPartizip I as adjective. Media that shape thought."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Meinung (opinion) + bildend (forming). A Partizip I used as adjective. Media that actively shape how people think. 'Meinungsbildende Medien' carry great responsibility. Power with responsibility."
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "From Medium/Medien. The adjective form.\\nMediale Aufmerksamkeit = media attention."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "From Medium/Medien. The adjective form. 'Mediale Aufmerksamkeit' (media attention). 'Medial praesent sein' (to have media presence). In the modern world, medial visibility determines relevance."
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "From Latin transparere (to show through).\\nThe opposite of verschleiern."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "From Latin 'transparere' (to show through). Making your methods and sources visible. The opposite of verschleiern (to veil). 'Transparente Berichterstattung' (transparent reporting) is the modern journalistic standard."
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Zeit (time) + gemaess (in accordance with).\\nIn accordance with the times."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Zeit (time) + gemaess (in accordance with). Media must evolve. Print alone is no longer zeitgemaess. 'Zeitgemaesser Journalismus' (contemporary journalism) combines print, online, podcast, and video."
+  },
+  {
+    "line": 290,
+    "field": "note",
+    "english": "Masculine noun. Chef (boss) + Redakteur (editor).\\nFinal say on what gets published."
+  },
+  {
+    "line": 290,
+    "field": "funFact",
+    "english": "Chef (boss) + Redakteur (editor). The person with final say on what gets published. 'Die Chefredakteurin' is the feminine form. The most powerful position in a newsroom. One person, immense responsibility."
+  },
+  {
+    "line": 291,
+    "field": "note",
+    "english": "Masculine noun. Bericht (report) + Erstatter (renderer).\\nThe person who creates the Bericht."
+  },
+  {
+    "line": 291,
+    "field": "funFact",
+    "english": "Bericht (report) + Erstatter (renderer). The person who creates the Bericht. 'Unser Berichterstatter vor Ort' (our reporter on the scene). On location, in the action, delivering the story."
+  },
+  {
+    "line": 292,
+    "field": "note",
+    "english": "Masculine noun. From Latin recipere (to receive).\\nN-Deklination. Der muendige Rezipient."
+  },
+  {
+    "line": 292,
+    "field": "funFact",
+    "english": "From Latin 'recipere' (to receive). The person who receives the message. N-Deklination: Rezipient, Rezipienten. 'Der muendige Rezipient' (the informed consumer) can distinguish fact from opinion."
+  },
+  {
+    "line": 293,
+    "field": "note",
+    "english": "Feminine noun. Nachrichten + Sprecherin (female speaker).\\nThe voice and face of the Tagesschau."
+  },
+  {
+    "line": 293,
+    "field": "funFact",
+    "english": "Nachrichten + Sprecherin (female speaker). The voice and face of the Tagesschau. 'Die Nachrichtensprecher/in liest die Nachrichten vor.' Reading news to the nation. In Germany, Nachrichtensprecher are trusted public figures."
+  },
+  {
+    "line": 294,
+    "field": "note",
+    "english": "Masculine noun. Über (across) + Setzer (one who sets).\\n'Setting across' meaning from one language to another."
+  },
+  {
+    "line": 294,
+    "field": "funFact",
+    "english": "Über (over/across) + Setzer (one who sets). Someone who 'sets across' meaning from one language to another. Verumius was once an Übersetzer. Now he IS the translation."
+  },
+  {
+    "line": 295,
+    "field": "note",
+    "english": "Feminine noun. Übersetzer + -in.\\nLiteraturübersetzerin = literary translator."
+  },
+  {
+    "line": 295,
+    "field": "funFact",
+    "english": "Übersetzer + -in. The standard feminine form. 'Literaturübersetzerin' (literary translator) is a respected profession in Germany. Great translators make world literature accessible."
+  },
+  {
+    "line": 296,
+    "field": "note",
+    "english": "Feminine noun. Sonder (special) + Sendung (broadcast).\\nBreaking news interrupts regular programming."
+  },
+  {
+    "line": 296,
+    "field": "funFact",
+    "english": "Sonder (special) + Sendung (broadcast). Breaking news interrupts regular programming. 'Wir unterbrechen für eine Sondersendung' (We interrupt for a special broadcast) is a sentence that makes every viewer pay attention."
+  },
+  {
+    "line": 297,
+    "field": "note",
+    "english": "Neuter noun. Online + Medium.\\nPlural: Online-Medien. The digital transformation."
+  },
+  {
+    "line": 297,
+    "field": "funFact",
+    "english": "Online + Medium. Plural: Online-Medien. Spiegel Online, Zeit Online, tagesschau.de. The digital transformation of German journalism. Print newspapers are declining, Online-Medien are rising."
+  },
+  {
+    "line": 298,
+    "field": "note",
+    "english": "Neuter noun. Print + Medium.\\nPlural: Printmedien. The ongoing crisis of print."
+  },
+  {
+    "line": 298,
+    "field": "funFact",
+    "english": "Print + Medium. Plural: Printmedien. Newspapers, magazines, books. 'Printmedien verlieren Auflage' (Print media are losing circulation). The ongoing crisis. Yet print still carries an aura of Serioesitaet."
+  },
+  {
+    "line": 299,
+    "field": "note",
+    "english": "Feminine noun. Qualitaet + Zeitung.\\nContrasts with Boulevardzeitung (tabloid)."
+  },
+  {
+    "line": 299,
+    "field": "funFact",
+    "english": "Qualitaet + Zeitung. FAZ, Sueddeutsche Zeitung, Die Zeit. Contrasts with Boulevardzeitung (tabloid). In-depth reporting, fact-based, analytical. The backbone of German public discourse."
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Verbal phrase. Öffentlich (public) + machen (to make).\\nLess formal than veröffentlichen."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "Öffentlich (public) + machen (to make). The verbal phrase form of veröffentlichen. Less formal, more conversational. 'Informationen öffentlich machen' (to make information public) is the democratic principle of Transparenz in action."
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Separable: aus + blenden (to blind/blend).\\nChoosing not to see something."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "Aus (out) + blenden (to blind/blend). Separable. Originally a film term (fade to black). Now: choosing not to see something. 'Kritik ausblenden' (to ignore criticism) is a dangerous habit for any journalist or institution."
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Not separable. Ver- + draengen (to push).\\nPushing something from consciousness."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "Ver- + draengen (to push). Not separable. Pushing something away from consciousness. Psychological and social. 'Unangenehme Wahrheiten verdraengen' (to suppress uncomfortable truths). What you verdraengen does not disappear. It grows."
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Not separable. Ver- + Leumund (reputation).\\nA criminal offense in Germany."
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "Ver- + Leumund (reputation). Attacking someone's reputation. A criminal offense in Germany: Verleumdung carries fines or prison. 'Einen Journalisten verleumden' (to slander a journalist) is an attack on press freedom itself."
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "Not separable. Ver- + harmlos (harmless).\\nMaking something seem harmless when it is not."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "Ver- + harmlos (harmless). Verbalisierung: harmlos becomes verharmlosen. Making something seem harmlos when it is not. 'Die Gefahr verharmlosen' (to trivialize the danger) is a common media criticism. Verharmlosung can have deadly consequences."
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "From Zensur. What authoritarian regimes do.\\nWhat democracies prohibit."
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "From Zensur. Verbalisierung: Zensur (noun) becomes zensieren (verb). What authoritarian regimes do. What democracies prohibit. 'Die Presse zensieren' (to censor the press) violates Article 5 of the German Grundgesetz."
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "From Skandal + -oes.\\nSo shocking it becomes a Skandal."
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "From Skandal (scandal) + -oes. The adjective of Skandal. When something is so shocking it becomes a Skandal. 'Skandaloese Enthuellung' (scandalous revelation). The tabloid press thrives on the Skandaloese."
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "From Latin subjectivus.\\nThe opposite of objektiv. Personal perspective."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "From Latin 'subjectivus.' The opposite of objektiv. Personal perspective. In journalism: subjektiv is acceptable in Kommentare, not in Berichte. Knowing where subjectivity belongs is part of Medienkompetenz."
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Wahrheit (truth) + gemaess (in accordance).\\nThe legal standard for journalism."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Wahrheit (truth) + gemaess (in accordance with). The legal standard. Journalists must report wahrheitsgemaess or face consequences. 'Wahrheitsgemaess berichten' (to report truthfully) is the foundation of all credible journalism."
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Zu (to) + verlaessig (relying).\\nThe most important quality of information."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "Zu (to) + verlaessig (relying). Sources you can rely on. The most important quality of information. A zuverlässiige Quelle is a journalist's most valuable asset. Without Zuverlässiigkeit, everything collapses."
+  },
+  {
+    "line": 343,
+    "field": "note",
+    "english": "Feminine noun. Auf (on) + Lage (layer/edition).\\nHow many copies a newspaper prints."
+  },
+  {
+    "line": 343,
+    "field": "funFact",
+    "english": "Auf (on) + Lage (layer/edition). How many copies a newspaper prints. 'Eine Auflage von 500.000' (a circulation of 500,000). Digital subscriptions are changing what Auflage means. Print declines, digital grows."
+  },
+  {
+    "line": 344,
+    "field": "note",
+    "english": "Feminine noun. Boulevard + Presse.\\nBild is Germany's biggest Boulevardzeitung."
+  },
+  {
+    "line": 344,
+    "field": "funFact",
+    "english": "Boulevard + Presse. Named after the French boulevards where newspapers were sold. Die Boulevardpresse prioritizes sensation over substance. Bild is Germany's largest Boulevardzeitung and a constant subject of media criticism."
+  },
+  {
+    "line": 345,
+    "field": "note",
+    "english": "Feminine noun. Druck (print) + -erei (place of).\\nThe -erei suffix marks a place of business."
+  },
+  {
+    "line": 345,
+    "field": "funFact",
+    "english": "Druck (print/pressure) + -erei (place where). Where newspapers physically become paper. The -erei suffix marks a place of business: Baeckerei, Metzgerei, Druckerei. A disappearing world as digital media grows."
+  },
+  {
+    "line": 346,
+    "field": "note",
+    "english": "Feminine noun. Einfluss (influence) + Nahme (taking).\\nStronger than beeinflussen."
+  },
+  {
+    "line": 346,
+    "field": "funFact",
+    "english": "Einfluss (influence) + Nahme (taking). When someone actively takes influence. Stronger than beeinflussen. 'Politische Einflussnahme auf Medien' (political influence on media) threatens journalistic independence."
+  },
+  {
+    "line": 347,
+    "field": "note",
+    "english": "Masculine noun. Empfangen (to receive) + -er.\\nCommunication: Sender > Nachricht > Empfaenger."
+  },
+  {
+    "line": 347,
+    "field": "funFact",
+    "english": "Empfangen (to receive) + -er. Communication theory: Sender > Nachricht > Empfaenger. You are the Empfaenger of media. A muendiger Empfaenger (informed recipient) does not passively consume but actively evaluates."
+  },
+  {
+    "line": 348,
+    "field": "note",
+    "english": "Feminine noun. Fach (subject) + Zeitschrift (magazine).\\nFor experts, not the general public."
+  },
+  {
+    "line": 348,
+    "field": "funFact",
+    "english": "Fach (subject) + Zeitschrift (magazine). For experts, not the general public. The opposite of Boulevardpresse. 'Eine medizinische Fachzeitschrift' (a medical journal) undergoes peer review. Reliability over Reichweite."
+  },
+  {
+    "line": 349,
+    "field": "note",
+    "english": "Feminine noun. Information + Flut (flood).\\nToo much information, too little time."
+  },
+  {
+    "line": 349,
+    "field": "funFact",
+    "english": "Information + Flut (flood). Too much information, too little time. 'In der Informationsflut untergehen' (to drown in the information flood). The modern media challenge. Medienkompetenz is the lifejacket."
+  },
+  {
+    "line": 350,
+    "field": "note",
+    "english": "Feminine noun. Meinung (opinion) + Mache (making).\\nDeliberately shaping public opinion."
+  },
+  {
+    "line": 350,
+    "field": "funFact",
+    "english": "Meinung (opinion) + Mache (making). Deliberately shaping public opinion through biased content. Negative connotation. When media 'makes' opinions instead of informing, that is Meinungsmache. The enemy of Objektivitaet."
+  },
+  {
+    "line": 351,
+    "field": "note",
+    "english": "Neuter noun. Recherche + Ergebnis (result).\\nWhat the journalist found after investigating."
+  },
+  {
+    "line": 351,
+    "field": "funFact",
+    "english": "Recherche + Ergebnis (result). What the journalist found after investigating. The basis for the Bericht. Without Rechercheergebnisse, a Bericht is just Meinungsmache."
+  },
+  {
+    "line": 352,
+    "field": "note",
+    "english": "Always plural. Sozial (social) + Medien (media).\\nFacebook, Instagram, TikTok, X."
+  },
+  {
+    "line": 352,
+    "field": "funFact",
+    "english": "Sozial (social) + Medien (media). Always plural. Facebook, Instagram, TikTok, X. 'Soziale Medien verändern die Medienlandschaft' (Social media is changing the media landscape). Everyone is now a Sender and an Empfaenger."
+  },
+  {
+    "line": 353,
+    "field": "note",
+    "english": "Feminine noun. From verbreiten (to spread).\\nNominalisierung of verbreiten."
+  },
+  {
+    "line": 353,
+    "field": "funFact",
+    "english": "From verbreiten (to spread). Nominalisierung. 'Die Verbreitung von Falschinformationen' (the spread of misinformation). How information travels. In the digital age, Verbreitung happens in seconds."
+  },
+  {
+    "line": 354,
+    "field": "note",
+    "english": "Feminine noun. From verleumden (to slander).\\nA criminal offense under German law."
+  },
+  {
+    "line": 354,
+    "field": "funFact",
+    "english": "From verleumden (to slander). Nominalisierung of verleumden. 'Verleumdung ist strafbar' (Slander is punishable). A criminal offense under German law. Reputation has legal protection in Germany."
+  },
+  {
+    "line": 368,
+    "field": "note",
+    "english": "Nach (after) + vollziehen (to execute) + -bar (able).\\nMeans: possible to retrace or follow step by step."
+  },
+  {
+    "line": 368,
+    "field": "funFact",
+    "english": "Nach (after) + vollziehen (to carry out) + -bar (able to be). You can literally retrace the steps. 'Nachvollziehbar' is the opposite of opaque or arbitrary. 'Das ist nicht nachvollziehbar' is a firm but polite objection in academic and professional German."
+  }
+]

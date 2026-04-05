@@ -1,0 +1,997 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "BER Airport. The same glass and steel from Unit 1, but everything has changed. Verumius walks through the terminal like someone who belongs. He passes the DB ticket machines he once feared. But today he is not arriving. He is leaving."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Enter the world of Heimat and belonging"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Learn vocabulary for nostalgia, longing, and emotional connection"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Begin exploring what home means"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "BER Airport. Departures hall. The same glass and steel as two years ago, but everything has changed. Verumius walks through the terminal with the confidence of someone who belongs here. He passes the DB ticket machines he once feared. He knows exactly where Gate B7 is."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "After living in Berlin for two years, I feel at home here. Now I am flying home. But which home?"
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "He sits at the gate, watching planes. Homesickness. Not for where he is going, but for where he is leaving. The word has shifted its meaning."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "I am proud of everything I have built here. But the longing for childhood, for roots, remains."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "homesickness"
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: Do you sometimes have homesickness?\\nB: Yes, especially in the evenings. Then I miss everything.\\nA: What do you miss most?\\nB: The homesickness comes in waves. Sometimes strong, sometimes quiet."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "deep longing, yearning"
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: Do you know the feeling of longing?\\nB: Yes, the longing for home is strong.\\nA: It is more than missing.\\nB: Much more. Longing hurts and is still beautiful."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "farewell, departure"
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: Did you say goodbye?\\nB: Yes, the farewell was hard for me.\\nA: Whose farewell was the hardest?\\nB: Hildi's. She cried."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "a fresh start, a new beginning"
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Are you afraid of the new beginning?\\nB: No, I am looking forward to it.\\nA: Every new beginning is a chance.\\nB: Exactly. To dare a new beginning."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "childhood"
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Do you remember your childhood?\\nB: Yes, childhood was happy.\\nA: What was the best about your childhood?\\nB: The freedom. No worries, no duties."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "the past"
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: Do you often think about the past?\\nB: Sometimes. But I live in the here and now.\\nA: Letting go of the past is hard.\\nB: Yes, but necessary. You have to look forward."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "feeling of shelter, emotional safety"
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What does Geborgenheit mean to you?\\nB: When I feel safe and loved.\\nA: Where do you find Geborgenheit?\\nB: With my family. In my home."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "connectedness, bond"
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: Do you feel a connection with Berlin?\\nB: Yes, a deep connection.\\nA: Where does this feeling come from?\\nB: From the experiences, the people, the memories."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "familiarity, intimacy"
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: What is familiarity?\\nB: When something immediately feels right.\\nA: A street, a smell, a voice.\\nB: Exactly. The warmth of the known."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "root"
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: Do you know your roots?\\nB: Yes, my roots are by the Mediterranean.\\nA: Roots give stability.\\nB: But sometimes you have to put down new roots."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "nostalgic"
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: Do you feel nostalgic?\\nB: Yes, a nostalgic look back.\\nA: Nostalgia can be beautiful.\\nB: Beautiful and painful at the same time."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "familiar, trusted"
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Does this voice sound familiar?\\nB: Yes, very familiar. I know it.\\nA: Familiar places give security.\\nB: That is why Berlin feels like home."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "unforgettable"
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Was your time in Berlin unforgettable?\\nB: Absolutely unforgettable. Every day.\\nA: What was the most unforgettable moment?\\nB: The first day. And the last."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "melancholic"
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: Why are you so melancholic?\\nB: The farewell makes me melancholic.\\nA: Melancholy is not sadness.\\nB: No, it is a gentler pain."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "to miss (someone/something)"
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Do you miss Berlin?\\nB: Yes, I miss the city very much.\\nA: What do you miss most?\\nB: The people. The neighborhood. The daily life."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "to feel, to sense"
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: What do you feel right now?\\nB: I feel longing and gratitude.\\nA: Both at the same time?\\nB: Yes. You can feel both."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "to remember"
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: Do you remember the first day?\\nB: Yes, I remember it exactly.\\nA: Some memories never fade.\\nB: The important ones stay forever."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "to yearn, to long"
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Do you long for home?\\nB: Yes, I long for the sea.\\nA: Sehnsucht is a German word.\\nB: And a German feeling."
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "The plane takes off. Berlin grows smaller beneath me. I press my forehead against the cold window and think: I will come back. This is not a farewell. This is a pause."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The word consists of 'Heim' (home) and 'Weh' (pain). The pain of not being at home."
+  },
+  {
+    "line": 39,
+    "field": "hint",
+    "english": "More than physical safety. A deeply felt state of warmth and shelter. Hard to translate directly into English."
+  },
+  {
+    "line": 40,
+    "field": "hint",
+    "english": "The verb describes a deep ache for something absent. It is reflexive and pairs with 'nach'. Think of the noun 'Sehnsucht.'"
+  },
+  {
+    "line": 40,
+    "field": "sSrc",
+    "english": "I long for my childhood."
+  },
+  {
+    "line": 43,
+    "field": "desc",
+    "english": "Between here and there. Between the place you came from and the place you live now. This lesson builds the vocabulary for places, memories, and belonging."
+  },
+  {
+    "line": 44,
+    "field": "unknown",
+    "english": "Build vocabulary for places, memories, and belonging"
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Understand the emotional geography of home"
+  },
+  {
+    "line": 46,
+    "field": "unknown",
+    "english": "Describe what makes a place feel like Heimat"
+  },
+  {
+    "line": 48,
+    "field": "src",
+    "english": "Verumius stands on the balcony of his family home. Below him the Mediterranean, warm and familiar. Behind him the kitchen of his childhood. Between here and there lies an entire life."
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "wanderlust, longing for distant places"
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: Do you have wanderlust?\\nB: Yes, I want to see the world.\\nA: Fernweh is the opposite of homesickness.\\nB: You long for places you have never seen."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "nostalgia"
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: Is nostalgia a positive feeling?\\nB: Yes and no. It is bittersweet.\\nA: Nostalgia makes us smile and cry.\\nB: At the same time. That is its power."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "neighborhood"
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: Do you like your neighborhood?\\nB: Yes, the neighborhood is very friendly.\\nA: Good neighborliness is important.\\nB: It makes a place feel like home."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "landscape"
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: What is the landscape like in Northern Germany?\\nB: Flat and green. Completely different from the south.\\nA: Every landscape has its character.\\nB: The German landscape is very diverse."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "atmosphere"
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: The atmosphere in this cafe is great.\\nB: Yes, warm and inviting.\\nA: Atmosphere makes a place special.\\nB: It is what you feel, not what you see."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "surroundings, environment"
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Do you know the surroundings?\\nB: Yes, the immediate surroundings are familiar to me.\\nA: The surroundings shape one's feeling of life.\\nB: You become part of your surroundings."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "souvenir, memento"
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: Do you have a souvenir from Berlin?\\nB: Yes, a small piece of the Berlin Wall.\\nA: A memento carries memories.\\nB: Every souvenir tells a story."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "imprint, formative influence"
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: What is cultural imprinting?\\nB: What shaped you during childhood.\\nA: Imprinting happens early.\\nB: And stays forever. It makes you who you are."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "loneliness, solitude"
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: Do you feel loneliness abroad?\\nB: Sometimes. Loneliness comes in the evenings.\\nA: Loneliness can also be positive.\\nB: True. Chosen loneliness is peace."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "alienation, estrangement"
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: What is alienation?\\nB: When home becomes foreign.\\nA: You come back and recognize nothing.\\nB: Alienation is painful. You no longer belong."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "general sense of life, life feeling"
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: What is the Berlin life feeling?\\nB: Freedom, openness, creativity.\\nA: Every city has its own life feeling.\\nB: And it changes over the years."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "life phase, stage of life"
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: What life phase are you in?\\nB: I am in a phase of new beginnings.\\nA: Every life phase brings new questions.\\nB: And new answers. That is the beauty of it."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "down-to-earth, grounded"
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Are you a down-to-earth person?\\nB: Yes, I like to stay grounded in reality.\\nA: Down-to-earth is a compliment.\\nB: It means: real, honest, not pretentious."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "local, native"
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Are you a local?\\nB: No, I moved here.\\nA: The locals know the best places.\\nB: That is true. They know where it is worth going."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "attached to one's homeland"
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Are you attached to your homeland?\\nB: Yes, very much. My roots are important.\\nA: Being attached to your homeland is not a weakness.\\nB: On the contrary. It gives strength."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "formative, shaping"
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: Was Berlin a formative experience?\\nB: Absolutely. The most formative of my life.\\nA: Formative experiences change us.\\nB: They shape who we become."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "homeless (having no homeland)"
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: Do you sometimes feel without a homeland?\\nB: Yes, between two worlds. Nowhere fully at home.\\nA: Being without a homeland is a heavy feeling.\\nB: But perhaps you can have multiple homelands."
+  },
+  {
+    "line": 66,
+    "field": "src",
+    "english": "settled, sedentary"
+  },
+  {
+    "line": 66,
+    "field": "exampleSrc",
+    "english": "A: Have you settled down?\\nB: Yes, after ten years of wandering I have settled down.\\nA: Settling down is a decision.\\nB: The hardest and the best of my life."
+  },
+  {
+    "line": 72,
+    "field": "hint",
+    "english": "The opposite of Heimweh. 'Fern' (far away) + 'Weh' (pain). The pain for distant places."
+  },
+  {
+    "line": 79,
+    "field": "hint",
+    "english": "Your general sense of life. The emotional quality of your existence."
+  },
+  {
+    "line": 79,
+    "field": "sSrc",
+    "english": "Since I have been living in Berlin, my sense of life has changed."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "The phonetic linking element in compound nouns. Leben-s-Gefühl."
+  },
+  {
+    "line": 81,
+    "field": "src",
+    "english": "Each of these words describes a piece of me. Homesickness, wanderlust, loneliness, connectedness. I carry them all at the same time. That is not a contradiction. That is my life."
+  },
+  {
+    "line": 84,
+    "field": "desc",
+    "english": "Verumius is at his Mediterranean family home. The kitchen smells the same. The light falls through the shutters the same way. But he catches himself thinking in German. Something has shifted."
+  },
+  {
+    "line": 85,
+    "field": "unknown",
+    "english": "Master advanced temporal clauses for complex time narration"
+  },
+  {
+    "line": 86,
+    "field": "unknown",
+    "english": "Narrate life changes with before/after/during precision"
+  },
+  {
+    "line": 87,
+    "field": "unknown",
+    "english": "Express the emotional timeline of leaving and returning"
+  },
+  {
+    "line": 89,
+    "field": "src",
+    "english": "Mediterranean. Warm terracotta walls, arched doorways. Verumius is at his family home. The kitchen smells the same. The light falls through the shutters the same way. But something has shifted."
+  },
+  {
+    "line": 90,
+    "field": "src",
+    "english": "After living in Berlin for two years, this house feels smaller. While I sit here, I think in German. 'Where is the train station?' my brain says automatically."
+  },
+  {
+    "line": 91,
+    "field": "src",
+    "english": "Before I went to Germany, this room was the whole world. Since I have been back, I see it differently."
+  },
+  {
+    "line": 92,
+    "field": "src",
+    "english": "My mother asks: What would you like to eat? And my head answers: Currywurst. In German. In the kitchen of my childhood. I have to laugh."
+  },
+  {
+    "line": 93,
+    "field": "src",
+    "english": "return, homecoming"
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: How was the return?\\nB: Strange. Everything is the same, but I am different.\\nA: The return to the homeland is never easy.\\nB: No. You return as a different person."
+  },
+  {
+    "line": 94,
+    "field": "src",
+    "english": "departure, setting out"
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: When was your departure?\\nB: Two years ago. The departure was brave.\\nA: Setting out means leaving something old behind.\\nB: And daring something new."
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "a move, relocation"
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: How was the move to Berlin?\\nB: Stressful, but exciting.\\nA: A move changes everything.\\nB: New city, new life, new person."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "search for meaning"
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: Are you searching for meaning?\\nB: Yes, since I arrived here. What does home mean?\\nA: The search for meaning is part of life.\\nB: Especially when you live between two worlds."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "uncertainty"
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: How do you deal with uncertainty?\\nB: With difficulty. The uncertainty of the future scares me.\\nA: Uncertainty is part of life.\\nB: Yes, but it does not get easier."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "transience, impermanence"
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: Do you believe in transience?\\nB: Yes, everything passes. Nothing lasts forever.\\nA: The transience of life is painful.\\nB: But it makes every moment precious."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "anticipation, joy before the event"
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: Are you looking forward to Berlin?\\nB: Yes, enormous anticipation!\\nA: Anticipation is the best joy.\\nB: That is what they say in Germany. And it is true."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "wistfulness, bittersweet melancholy"
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: What is wistfulness?\\nB: A gentle pain. Beautiful and sad at once.\\nA: I look at old photos with wistfulness.\\nB: That is Wehmut: feeling the beauty of the past."
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "contentment, satisfaction"
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: Are you content with your life?\\nB: Yes, I have found inner contentment.\\nA: Contentment is more than happiness.\\nB: It is peace with what you have."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "cohesion, solidarity"
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: What keeps a family together?\\nB: Cohesion. Being there for each other.\\nA: Family cohesion is strong.\\nB: It survives any distance."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "wistful, bittersweet"
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: Why do you look so wistful?\\nB: I am thinking of earlier times. Beautiful times.\\nA: Wistful is not sad.\\nB: No, it is gentler. Beautiful pain."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "sheltered, safe, protected"
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Do you feel sheltered here?\\nB: Yes, this house gives me a sheltered feeling.\\nA: Sheltered is more than safe.\\nB: It is warmth, protection, love. All together."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "grown fond of"
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: Is Berlin a city you have grown fond of?\\nB: Yes, I have grown fond of it.\\nA: Growing fond takes time.\\nB: Exactly. Not love at first sight, but slowly grown."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "irreplaceable"
+  },
+  {
+    "line": 106,
+    "field": "exampleSrc",
+    "english": "A: Is your homeland irreplaceable?\\nB: Yes, nothing can replace it.\\nA: But perhaps something new is added.\\nB: Without replacing the old. Both are irreplaceable."
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "to grow up"
+  },
+  {
+    "line": 107,
+    "field": "exampleSrc",
+    "english": "A: Where did you grow up?\\nB: I grew up by the Mediterranean.\\nA: Was it nice to grow up there?\\nB: Yes, the sun, the sea, the family."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "to set out, to depart"
+  },
+  {
+    "line": 108,
+    "field": "exampleSrc",
+    "english": "A: When did you set out?\\nB: Two years ago. I set out into a new life.\\nA: Setting out takes courage.\\nB: And trust. That it will be worth it."
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "to return"
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: Did you return to your homeland?\\nB: Yes, but only for a week.\\nA: Returning is never easy.\\nB: You expect everything to be the same. But you yourself have changed."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "to think back, to reminisce"
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: Do you often think back?\\nB: Yes, I think back to my childhood.\\nA: Thinking back makes one wistful.\\nB: But it preserves the memories."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "as soon as"
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: As soon as I arrive, I will call.\\nB: Good, I will wait then.\\nA: As soon as you are back, we will talk.\\nB: Promised. As soon as I can."
+  },
+  {
+    "line": 112,
+    "field": "text",
+    "english": "At B2 level, temporal clauses become precise tools.\\n- nachdem + Plusquamperfekt: 'Nachdem ich weggegangen war, verstand ich die Heimat besser.' (After I had left, I understood home better.) Past perfect in the subordinate clause, simple past/present in the main clause.\\n- bevor: 'Bevor ich ging, nahm ich Abschied.' (Before I left, I said goodbye.) Same tense in both clauses.\\n- sobald: 'Sobald ich ankomme, rufe ich an.' (As soon as I arrive, I will call.)\\n- solange: 'Solange ich hier lebe, fühle ich mich geborgen.' (As long as I live here, I feel sheltered.)\\n- während: 'Während ich schlief, schneite es.' (While I slept, it snowed.)\\n- bis: 'Ich warte, bis du zurückkommst.' (I wait until you come back.)\\n- seitdem: 'Seitdem ich Berlin kenne, hat sich alles verändert.' (Since I have known Berlin, everything has changed.)\\n- kaum dass: 'Kaum dass er ankam, fühlte er sich zu Hause.' (Hardly had he arrived when he felt at home.) Literary."
+  },
+  {
+    "line": 112,
+    "field": "text",
+    "english": "The most important rule: nachdem requires a tense shift.\\n\\nNachdem + Plusquamperfekt, main clause + Präteritum:\\n'Nachdem ich gegangen war, verstand ich.' (After I had left, I understood.)\\n\\nNachdem + Perfekt, main clause + Praesens:\\n'Nachdem ich gegangen bin, verstehe ich.' (After I have left, I understand.)\\n\\nThe action in the nachdem clause is ALWAYS earlier than the one in the main clause. The Plusquamperfekt signals: this happened first. The other action followed."
+  },
+  {
+    "line": 133,
+    "field": "hint",
+    "english": "'Nachdem' requires the earlier action in Plusquamperfekt. Living (earlier), then feeling strange (later)."
+  },
+  {
+    "line": 134,
+    "field": "hint",
+    "english": "The room was the whole world at that time. Then came the departure. Which temporal conjunction places the subordinate clause BEFORE the main clause event?"
+  },
+  {
+    "line": 134,
+    "field": "sSrc",
+    "english": "Before I went to Germany, this room was the whole world."
+  },
+  {
+    "line": 135,
+    "field": "src",
+    "english": "Since I have been back, I feel like a guest in my own house. The language in my head has shifted. After having been away for so long, I have become a different person. And this house did not change along with me."
+  },
+  {
+    "line": 138,
+    "field": "desc",
+    "english": "German adjectives pair with fixed prepositions. The preposition determines the case. There is no shortcut: you must learn each combination. But patterns help, and the Heimat journey provides the perfect context."
+  },
+  {
+    "line": 139,
+    "field": "unknown",
+    "english": "Master adjective-preposition combinations"
+  },
+  {
+    "line": 140,
+    "field": "unknown",
+    "english": "Express precise emotional states"
+  },
+  {
+    "line": 141,
+    "field": "unknown",
+    "english": "Describe relationships between people, places, and feelings"
+  },
+  {
+    "line": 143,
+    "field": "src",
+    "english": "I sit on the roof of my family home. I am proud of what I have achieved. I am grateful for the people in Berlin. But I am also dependent on a city that was not my first home."
+  },
+  {
+    "line": 144,
+    "field": "src",
+    "english": "proud of"
+  },
+  {
+    "line": 144,
+    "field": "exampleSrc",
+    "english": "A: Are you proud of your new life?\\nB: Yes, I am very proud of everything I have achieved.\\nA: What are you most proud of?\\nB: My courage. Proud of the new beginning."
+  },
+  {
+    "line": 145,
+    "field": "src",
+    "english": "dependent on"
+  },
+  {
+    "line": 145,
+    "field": "exampleSrc",
+    "english": "A: Are you dependent on others?\\nB: No, I have become independent.\\nA: Earlier I was dependent on help.\\nB: Not anymore. But I am still dependent on the weather."
+  },
+  {
+    "line": 146,
+    "field": "src",
+    "english": "interested in"
+  },
+  {
+    "line": 146,
+    "field": "exampleSrc",
+    "english": "A: Are you interested in German culture?\\nB: Yes, very interested in everything that makes Germany.\\nA: What are you particularly interested in?\\nB: In the history and the language."
+  },
+  {
+    "line": 147,
+    "field": "src",
+    "english": "convinced of"
+  },
+  {
+    "line": 147,
+    "field": "exampleSrc",
+    "english": "A: Are you convinced of your decision?\\nB: Yes, I am firmly convinced of it.\\nA: What are you convinced of?\\nB: That Berlin is my home."
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "satisfied with"
+  },
+  {
+    "line": 148,
+    "field": "exampleSrc",
+    "english": "A: Are you satisfied with your life in Berlin?\\nB: Yes, very satisfied with it.\\nA: What are you most satisfied with?\\nB: With the people and the freedom."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "responsible for"
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: Who is responsible for the project?\\nB: I am responsible for everything.\\nA: Responsible for your own happiness.\\nB: Exactly. Everyone is responsible for their life."
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "enthusiastic about"
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: Are you enthusiastic about Berlin?\\nB: Yes, I am totally enthusiastic about the city.\\nA: What are you most enthusiastic about?\\nB: About the energy and the diversity."
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "disappointed in/by"
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: Are you disappointed by the return?\\nB: A little. I had expected more.\\nA: What exactly are you disappointed by?\\nB: By the fact that nothing is like before."
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "curious about"
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: Are you curious about the future?\\nB: Yes, very curious about everything that comes.\\nA: What are you most curious about?\\nB: About the next chapter of my life."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "connected with"
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Do you feel connected with Berlin?\\nB: Yes, deeply connected with this city.\\nA: What do you feel most strongly connected with?\\nB: With the memories and the people."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "grateful for"
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Are you grateful for your time in Berlin?\\nB: Infinitely grateful for it.\\nA: What are you most grateful for?\\nB: For the people who took me in."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "accustomed to"
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: Have you gotten used to the weather?\\nB: Yes, I am accustomed to the cold.\\nA: What do you have to get used to in Berlin?\\nB: The winter. And the directness of Berliners."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "envious of"
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Are you envious of others?\\nB: Sometimes. Envious of their calm life.\\nA: Envy is a bad advisor.\\nB: True. Better grateful than envious."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "familiar with"
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: Are you familiar with German bureaucracy?\\nB: Unfortunately yes. Very familiar with it.\\nA: What are you familiar with by now?\\nB: With forms, deadlines, and case workers."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "dependent on, reliant on"
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Are you reliant on help?\\nB: Not anymore. I used to be reliant on it.\\nA: What are you still reliant on?\\nB: My dictionary. I still need that."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "back then, at that time"
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Do you remember back then?\\nB: Yes, back then everything was different.\\nA: Back then I was still afraid.\\nB: And today? Today I am proud of myself."
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "once, formerly"
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: Once this house was my whole world.\\nB: And today?\\nA: Today the world has become bigger.\\nB: But the memory of what once was remains."
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "nowadays"
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: Nowadays I live in Berlin.\\nB: And back then?\\nA: Back then I lived by the Mediterranean.\\nB: Nowadays everything is different. Better."
+  },
+  {
+    "line": 162,
+    "field": "text",
+    "english": "German adjectives take fixed prepositions, and the preposition determines the case. No rule predicts which adjective takes which preposition, but patterns help.\\n\\nEmotions directed ONTO something use auf (Akkusativ): stolz auf (proud of), neugierig auf (curious about), angewiesen auf (reliant on), neidisch auf (envious of).\\n\\nEmotions that come FROM something use von (Dativ): abhängig von (dependent on), überzeugt von (convinced of), begeistert von (enthusiastic about), enttäuscht von (disappointed by).\\n\\nEmotions that go TOGETHER WITH something use mit (Dativ): zufrieden mit (satisfied with), verbunden mit (connected with), vertraut mit (familiar with).\\n\\nOther common pairings: verantwortlich für and dankbar für (Akkusativ), interessiert an (Dativ), gewöhnt an (Akkusativ)."
+  },
+  {
+    "line": 162,
+    "field": "text",
+    "english": "In German, adjective-preposition pairs are idiomatic. You say 'stolz auf' and not 'stolz über' or 'stolz von.' There is no logical explanation. Historically these combinations solidified over centuries.\\n\\nTip: Learn each pair as a unit. Not 'stolz' and then 'auf,' but 'stolz-auf' as one word. Like a phone number: inseparable.\\n\\nThe da-/wo- compound forms replace the preposition:\\nstolz auf etwas = stolz darauf\\nzufrieden mit etwas = zufrieden damit\\ninteressiert an etwas = interessiert daran"
+  },
+  {
+    "line": 181,
+    "field": "hint",
+    "english": "'Stolz auf' always requires the same case. 'Sein neues Leben' shows the ending."
+  },
+  {
+    "line": 182,
+    "field": "hint",
+    "english": "'Zufrieden' takes the preposition meaning 'together with.' Satisfaction goes together."
+  },
+  {
+    "line": 182,
+    "field": "sSrc",
+    "english": "I am satisfied with my life in Berlin."
+  },
+  {
+    "line": 188,
+    "field": "hint",
+    "english": "'Nachdem' marks the earlier event. Plusquamperfekt shows it was complete before the main clause action began."
+  },
+  {
+    "line": 189,
+    "field": "hint",
+    "english": "A temporal conjunction indicating sequence (the move came first) plus an adjective-preposition pair. The adjective describes how he felt about his new home."
+  },
+  {
+    "line": 189,
+    "field": "sSrc",
+    "english": "After he had moved to Berlin, he became proud of his new home."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "I am curious about the future. I am connected with two places. But only in one do I truly feel sheltered. And it lies 1,800 kilometers north of here."
+  },
+  {
+    "line": 199,
+    "field": "desc",
+    "english": "Verumius sits on a bench by the Mediterranean. The sun is setting. He realizes where his Heimat truly lies."
+  },
+  {
+    "line": 200,
+    "field": "unknown",
+    "english": "Learn noun + fixed prepositions (die Angst vor, die Sehnsucht nach)"
+  }
+]

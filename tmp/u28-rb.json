@@ -1,0 +1,1107 @@
+[
+  {
+    "line": 222,
+    "field": "src",
+    "english": "Papa likes to exaggerate. But in the figurative sense it is true."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "the practice, the exercise"
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: How did you learn German so well?\\nB: Practice! Practice makes the master.\\nA: That is true. How much practice?\\nB: At least one hour every day."
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "the beginning"
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: The beginning was really hard.\\nB: Yes, every beginning is hard.\\nA: But you did not give up.\\nB: No, after the beginning it gets easier."
+  },
+  {
+    "line": 225,
+    "field": "src",
+    "english": "figurative, metaphorical"
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: Do you mean that figuratively or literally?\\nB: Figuratively! Language is a bridge.\\nA: That is a beautiful image.\\nB: Proverbs are almost always figurative."
+  },
+  {
+    "line": 226,
+    "field": "src",
+    "english": "literal, word-for-word"
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: That is not meant literally.\\nB: I know. Literally it would be nonsensical.\\nA: Exactly. Proverbs are rarely literal.\\nB: You have to understand the figurative meaning."
+  },
+  {
+    "line": 227,
+    "field": "src",
+    "english": "quiet, still"
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: Why are you so quiet?\\nB: Still waters run deep, they say.\\nA: So you are thinking?\\nB: Yes. Being quiet does not mean being empty."
+  },
+  {
+    "line": 228,
+    "field": "src",
+    "english": "in the figurative sense"
+  },
+  {
+    "line": 228,
+    "field": "exampleSrc",
+    "english": "A: Bread is the most important thing, said Heinrich.\\nB: In the figurative sense that means: fundamentals count.\\nA: And in the literal sense?\\nB: There it simply means: bread is delicious."
+  },
+  {
+    "line": 229,
+    "field": "src",
+    "english": "proverbial"
+  },
+  {
+    "line": 229,
+    "field": "exampleSrc",
+    "english": "A: Germans are proverbially punctual.\\nB: Yes, the proverbial German punctuality!\\nA: Is that really true?\\nB: Mostly. It has become proverbial."
+  },
+  {
+    "line": 230,
+    "field": "src",
+    "english": "ambiguous, double-meaning"
+  },
+  {
+    "line": 230,
+    "field": "exampleSrc",
+    "english": "A: This proverb is ambiguous.\\nB: Yes, it has two meanings.\\nA: Which one do you mean?\\nB: Both! That is the beauty of ambiguous expressions."
+  },
+  {
+    "line": 231,
+    "field": "src",
+    "english": "colloquial, informal"
+  },
+  {
+    "line": 231,
+    "field": "exampleSrc",
+    "english": "A: Is 'cool' colloquial?\\nB: Yes, that is colloquial.\\nA: And 'ausgezeichnet'?\\nB: That is more formal. Not colloquial."
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "parable-like, allegorical"
+  },
+  {
+    "line": 232,
+    "field": "exampleSrc",
+    "english": "A: Heinrich's stories are parable-like.\\nB: Yes, they always have a deeper meaning.\\nA: Like a parable from the Bible?\\nB: Similar. Simple on the surface, deep beneath."
+  },
+  {
+    "line": 233,
+    "field": "src",
+    "english": "prosaic, unimaginative"
+  },
+  {
+    "line": 233,
+    "field": "exampleSrc",
+    "english": "A: That sounds rather prosaic.\\nB: Yes, it lacks poetry.\\nA: Can you say it more poetically?\\nB: Instead of 'It is raining' perhaps 'The sky weeps.'"
+  },
+  {
+    "line": 234,
+    "field": "src",
+    "english": "linguistic, language-related"
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: What linguistic devices does Heinrich use?\\nB: Metaphors, comparisons, and proverbs.\\nA: He is linguistically very gifted.\\nB: Yes, a natural storyteller."
+  },
+  {
+    "line": 235,
+    "field": "src",
+    "english": "written, in writing"
+  },
+  {
+    "line": 235,
+    "field": "exampleSrc",
+    "english": "A: Is the exam written or oral?\\nB: Written. You have to write an essay.\\nA: And the written tradition?\\nB: That only began when someone wrote proverbs down."
+  },
+  {
+    "line": 236,
+    "field": "src",
+    "english": "oral, verbal"
+  },
+  {
+    "line": 236,
+    "field": "exampleSrc",
+    "english": "A: Proverbs were passed down orally.\\nB: Yes, from generation to generation.\\nA: Without books?\\nB: Exactly. Only through oral transmission."
+  },
+  {
+    "line": 237,
+    "field": "src",
+    "english": "figurative, transferred"
+  },
+  {
+    "line": 237,
+    "field": "exampleSrc",
+    "english": "A: What is the figurative meaning?\\nB: The meaning beyond the words.\\nA: So not literal?\\nB: Exactly. Transferred means: from literal to figurative."
+  },
+  {
+    "line": 238,
+    "field": "src",
+    "english": "to express, to utter"
+  },
+  {
+    "line": 238,
+    "field": "exampleSrc",
+    "english": "A: Would you like to express your opinion?\\nB: Yes, I would like to comment on that.\\nA: Then express yourself freely.\\nB: Heinrich often uttered wisdom over coffee."
+  },
+  {
+    "line": 239,
+    "field": "src",
+    "english": "to concede, to admit"
+  },
+  {
+    "line": 239,
+    "field": "exampleSrc",
+    "english": "A: Do you concede that it was hard?\\nB: Yes, I concede that the beginning was tough.\\nA: But you persevered.\\nB: I gladly concede that."
+  },
+  {
+    "line": 240,
+    "field": "src",
+    "english": "to add (to what was said)"
+  },
+  {
+    "line": 240,
+    "field": "exampleSrc",
+    "english": "A: Would you like to add something?\\nB: Yes, I would like to add that Heinrich was right.\\nA: What else did he add?\\nB: He added that bread meant everything."
+  },
+  {
+    "line": 241,
+    "field": "src",
+    "english": "to inform, to communicate"
+  },
+  {
+    "line": 241,
+    "field": "exampleSrc",
+    "english": "A: I would like to inform you of something.\\nB: What do you want to tell me?\\nA: Heinrich informed me that he is coming back next Sunday.\\nB: That is nice news!"
+  },
+  {
+    "line": 242,
+    "field": "src",
+    "english": "to remark, to note"
+  },
+  {
+    "line": 242,
+    "field": "exampleSrc",
+    "english": "A: May I remark on something?\\nB: Of course, go ahead.\\nA: Heinrich remarked that getting up early was important.\\nB: A good remark."
+  },
+  {
+    "line": 243,
+    "field": "text",
+    "english": "Reported speech in Konjunktiv I follows three tense-shift rules.\\n\\n- Present tense in direct speech shifts to Konjunktiv I present: 'Die Backstube IST wunderbar' becomes 'Er sagte, die Backstube SEI wunderbar.'\\n- Past tense shifts to Konjunktiv I past, using habe or sei plus Partizip II: 'Ich HABE um vier angefangen' becomes 'Er sagte, er HABE um vier angefangen.'\\n- Future tense shifts to Konjunktiv I future, using werde plus Infinitiv: 'Ich WERDE weitermachen' becomes 'Er sagte, er WERDE weitermachen.'\\n\\nThe Konjunktiv I operates in its own tense system, independent of the tense of the reporting verb."
+  },
+  {
+    "line": 243,
+    "field": "text",
+    "english": "In the indicative, you often shift into the Präteritum when reporting. The Konjunktiv I, by contrast, has its own three-tense system: present (sage), past (habe gesagt), future (werde sagen). This system is independent of whether the reporting verb is in the Präteritum or Perfekt. 'Heinrich sagte, die Backstube sei wunderbar' and 'Heinrich hat gesagt, die Backstube sei wunderbar' mean the same thing."
+  },
+  {
+    "line": 263,
+    "field": "hint",
+    "english": "In indirect speech, past tense shifts to a special subjunctive form. The helping verb takes a new subjunctive ending while the past content is preserved."
+  },
+  {
+    "line": 264,
+    "field": "hint",
+    "english": "Present tense in direct speech becomes Konjunktiv I Gegenwart in indirect speech."
+  },
+  {
+    "line": 264,
+    "field": "sSrc",
+    "english": "Heinrich said he gets up early every morning."
+  },
+  {
+    "line": 270,
+    "field": "hint",
+    "english": "Count the distinct grammatical moods in the three reported sentences. Two are reporting moods, one is a comparison mood. Are they all the same or different?"
+  },
+  {
+    "line": 271,
+    "field": "hint",
+    "english": "The first blank reports a past action in indirect speech; the second reports a timeless truth. Two different tenses of the same reporting mood."
+  },
+  {
+    "line": 271,
+    "field": "sSrc",
+    "english": "Heinrich told that his grandfather had always said bread was the most important thing."
+  },
+  {
+    "line": 280,
+    "field": "desc",
+    "english": "Learn the most important German proverbs. Practice all three grammar constructs in literary contexts. Understand proverbs as cultural values."
+  },
+  {
+    "line": 281,
+    "field": "unknown",
+    "english": "Learn the most important German proverbs"
+  },
+  {
+    "line": 282,
+    "field": "unknown",
+    "english": "Practice all three grammar constructs in literary contexts"
+  },
+  {
+    "line": 283,
+    "field": "unknown",
+    "english": "Understand proverbs as expressions of cultural values"
+  },
+  {
+    "line": 285,
+    "field": "src",
+    "english": "The flashback deepens. 4 AM, 1962. Young Heinrich slides bread into the oven. His hands are covered in flour. The bakery glows warm against the dark outside. This is his world."
+  },
+  {
+    "line": 286,
+    "field": "src",
+    "english": "My father said the morning hour has gold in its mouth. He meant whoever gets up early owns the world. And he was right. The best ideas came to me before sunrise."
+  },
+  {
+    "line": 287,
+    "field": "src",
+    "english": "Heinrich reported that the best ideas had come to him before sunrise. He told it as if he were still in the bakery."
+  },
+  {
+    "line": 288,
+    "field": "src",
+    "english": "Papa. It is Sunday. You are in my living room. Drink your coffee."
+  },
+  {
+    "line": 289,
+    "field": "src",
+    "english": "The early bird catches the worm (lit: the morning hour has gold in its mouth)"
+  },
+  {
+    "line": 289,
+    "field": "exampleSrc",
+    "english": "A: Why do you get up so early?\\nB: The morning hour has gold in its mouth!\\nA: My grandfather always says that too.\\nB: Grandfathers are usually right."
+  },
+  {
+    "line": 290,
+    "field": "src",
+    "english": "Practice makes perfect (lit: practice makes the master)"
+  },
+  {
+    "line": 290,
+    "field": "exampleSrc",
+    "english": "A: I cannot do that well yet.\\nB: Practice makes the master!\\nA: How often do I have to practice?\\nB: Every day. The master does not fall from the sky."
+  },
+  {
+    "line": 291,
+    "field": "src",
+    "english": "Every beginning is difficult"
+  },
+  {
+    "line": 291,
+    "field": "exampleSrc",
+    "english": "A: I do not understand this grammar.\\nB: Every beginning is difficult.\\nA: That does not help me right now.\\nB: It does! It gets easier. Promise."
+  },
+  {
+    "line": 292,
+    "field": "src",
+    "english": "Speech is silver, silence is gold"
+  },
+  {
+    "line": 292,
+    "field": "exampleSrc",
+    "english": "A: Should I say something about it?\\nB: Sometimes speech is silver and silence is gold.\\nA: You mean I should be quiet?\\nB: I mean not every thought needs words."
+  },
+  {
+    "line": 293,
+    "field": "src",
+    "english": "Do not count your chickens before they hatch (lit: one should not praise the day before the evening)"
+  },
+  {
+    "line": 293,
+    "field": "exampleSrc",
+    "english": "A: I think I passed the exam!\\nB: One should not praise the day before the evening.\\nA: You mean I should wait?\\nB: Wait for the result. Then you can celebrate."
+  },
+  {
+    "line": 294,
+    "field": "src",
+    "english": "Nobody is born an expert (lit: no master has yet fallen from the sky)"
+  },
+  {
+    "line": 294,
+    "field": "exampleSrc",
+    "english": "A: I am so bad at this!\\nB: No master has yet fallen from the sky.\\nA: Do you think I can learn it?\\nB: Of course! Every master was once a beginner."
+  },
+  {
+    "line": 295,
+    "field": "src",
+    "english": "Whoever laughs last laughs best"
+  },
+  {
+    "line": 295,
+    "field": "exampleSrc",
+    "english": "A: They laughed at me.\\nB: Whoever laughs last laughs best.\\nA: That is true. I will show them.\\nB: Exactly. Patience pays off."
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "Different countries, different customs"
+  },
+  {
+    "line": 296,
+    "field": "exampleSrc",
+    "english": "A: In my country we do that differently.\\nB: Different countries, different customs!\\nA: Exactly. Neither is better or worse.\\nB: Just different. And different is interesting."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "If you start something, follow through (lit: whoever says A must also say B)"
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: I started but it is hard.\\nB: Whoever says A must also say B.\\nA: You mean I have to continue?\\nB: You made your decision. Now follow through."
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "The apple does not fall far from the tree"
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: You bake just like your father!\\nB: The apple does not fall far from the tree.\\nA: That really is true for you.\\nB: I learned everything from him."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "Still waters run deep"
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: He never says much.\\nB: Still waters run deep.\\nA: You mean he thinks a lot?\\nB: The quiet ones often have the deepest thoughts."
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "Where there is a will, there is a way"
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: I do not know how I am supposed to manage this.\\nB: Where there is a will, there is a way.\\nA: Do you really think so?\\nB: Always. The will finds the way."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "the thumb"
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: I have an exam tomorrow.\\nB: I am pressing my thumbs for you!\\nA: Thanks! Pressing thumbs always helps.\\nB: Well then, all thumbs are pressed!"
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "the neck, the throat"
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: I am so nervous before the performance.\\nB: Break your neck and leg!\\nA: That does not sound nice!\\nB: It does! It means 'Good luck!' in German."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "the skin"
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: He devoted himself completely to the bakery.\\nB: Yes, with skin and hair!\\nA: What does that mean exactly?\\nB: Entirely. Completely. With everything he has."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "the head"
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: I did not pass the exam.\\nB: Head up! Next time it will work.\\nA: Do you think so?\\nB: Yes. Do not stick your head in the sand."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "the nail"
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: That was exactly right!\\nB: You hit the nail on the head.\\nA: Really?\\nB: Yes, right on target. Perfectly expressed."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "the trunk, the stem"
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: The trunk of the tree is very thick.\\nB: Yes, old trees have thick trunks.\\nA: And the family tree?\\nB: The apple does not fall far from the trunk."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "the butterfly"
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: Do you have butterflies in your stomach?\\nB: Yes, I am so excited!\\nA: That is normal before the first meeting.\\nB: A thousand butterflies!"
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "to symbolize, to represent"
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: What does bread symbolize in Heinrich's stories?\\nB: Bread symbolizes community and tradition.\\nA: And the bakery?\\nB: That symbolizes his life's work."
+  },
+  {
+    "line": 314,
+    "field": "hint",
+    "english": "Wait until the day is over before judging it. German caution against premature celebration."
+  },
+  {
+    "line": 315,
+    "field": "hint",
+    "english": "Indirect speech requires Konjunktiv I. Select the Konjunktiv I third-person singular form of the modal verb expressing necessity."
+  },
+  {
+    "line": 315,
+    "field": "sSrc",
+    "english": "Heinrich said whoever says A must also say B."
+  },
+  {
+    "line": 321,
+    "field": "hint",
+    "english": "The two sentences use different verb moods. One reports a fact from someone's mouth; the other describes a scenario that does not reflect current reality."
+  },
+  {
+    "line": 322,
+    "field": "hint",
+    "english": "Two blanks, two tenses of reported speech. The first reports a past act; the second reports a timeless proverb truth. Both use the reporting mood."
+  },
+  {
+    "line": 322,
+    "field": "sSrc",
+    "english": "Heinrich told that his grandfather had always said practice makes the master."
+  },
+  {
+    "line": 331,
+    "field": "desc",
+    "english": "Test everything from Unit 28. Prove you can use indirect speech in Konjunktiv I, form unreal comparisons, and use German proverbs correctly."
+  },
+  {
+    "line": 332,
+    "field": "unknown",
+    "english": "Test your knowledge of all constructs from Unit 28"
+  },
+  {
+    "line": 333,
+    "field": "unknown",
+    "english": "Prove Konjunktiv I, als ob, and proverb competence"
+  },
+  {
+    "line": 334,
+    "field": "unknown",
+    "english": "Combine all grammar constructs in complex sentences"
+  },
+  {
+    "line": 336,
+    "field": "src",
+    "english": "So. You listened. You wrote. Now I want to know whether you also understood. I will say a proverb, and you explain to me what it means. Figuratively and literally."
+  },
+  {
+    "line": 337,
+    "field": "src",
+    "english": "Now? Here? This is like an oral exam!"
+  },
+  {
+    "line": 338,
+    "field": "src",
+    "english": "to press thumbs for someone (to wish luck)"
+  },
+  {
+    "line": 338,
+    "field": "exampleSrc",
+    "english": "A: Tomorrow is my big exam.\\nB: I am pressing my thumbs for you!\\nA: Thanks, I need that.\\nB: Everyone is pressing their thumbs for you!"
+  },
+  {
+    "line": 339,
+    "field": "src",
+    "english": "to give up, to quit (lit: to hang something on a nail)"
+  },
+  {
+    "line": 339,
+    "field": "exampleSrc",
+    "english": "A: Do you still bake?\\nB: No, I hung up baking.\\nA: Why?\\nB: It was time for something new."
+  },
+  {
+    "line": 340,
+    "field": "src",
+    "english": "to put your foot in it, to make a social blunder"
+  },
+  {
+    "line": 340,
+    "field": "exampleSrc",
+    "english": "A: I mispronounced his name.\\nB: Oh no, you stepped into the little grease pot!\\nA: That was so embarrassing.\\nB: That happens to everyone sometimes."
+  },
+  {
+    "line": 341,
+    "field": "src",
+    "english": "to never prosper (lit: to never get on a green branch)"
+  },
+  {
+    "line": 341,
+    "field": "exampleSrc",
+    "english": "A: He simply never prospers.\\nB: Yes, nothing works for him.\\nA: Maybe he needs help.\\nB: Or a new strategy."
+  },
+  {
+    "line": 342,
+    "field": "src",
+    "english": "to not see the forest for the trees"
+  },
+  {
+    "line": 342,
+    "field": "exampleSrc",
+    "english": "A: I understand the individual words but not the sentence.\\nB: You cannot see the forest for the trees.\\nA: Exactly! Too many details.\\nB: Take a step back."
+  },
+  {
+    "line": 343,
+    "field": "src",
+    "english": "to carry coals to Newcastle (lit: to carry owls to Athens)"
+  },
+  {
+    "line": 343,
+    "field": "exampleSrc",
+    "english": "A: Should I give him tips on baking?\\nB: That would be carrying owls to Athens!\\nA: True, he is a master baker.\\nB: Exactly. He does not need baking tips."
+  },
+  {
+    "line": 344,
+    "field": "src",
+    "english": "to flatter, to butter someone up (lit: to smear honey around someone's mouth)"
+  },
+  {
+    "line": 344,
+    "field": "exampleSrc",
+    "english": "A: You are the best cook in the world!\\nB: Do not smear honey around my mouth.\\nA: I mean it!\\nB: Still. Honesty is better than honey."
+  },
+  {
+    "line": 345,
+    "field": "src",
+    "english": "to have butterflies in your stomach"
+  },
+  {
+    "line": 345,
+    "field": "exampleSrc",
+    "english": "A: Do you have butterflies in your stomach?\\nB: Yes, a thousand of them!\\nA: That is a good sign.\\nB: Or a sign that I am nervous."
+  },
+  {
+    "line": 346,
+    "field": "src",
+    "english": "to throw the baby out with the bathwater"
+  },
+  {
+    "line": 346,
+    "field": "exampleSrc",
+    "english": "A: I want to change everything!\\nB: Be careful not to throw the baby out with the bathwater.\\nA: You mean I should keep the good parts?\\nB: Exactly. Do not throw everything away."
+  },
+  {
+    "line": 347,
+    "field": "src",
+    "english": "to sneak away (lit: to make oneself out of the dust)"
+  },
+  {
+    "line": 347,
+    "field": "exampleSrc",
+    "english": "A: Where did he go?\\nB: He sneaked away.\\nA: Just like that? Without a word?\\nB: Yes, vanished like dust in the wind."
+  },
+  {
+    "line": 348,
+    "field": "src",
+    "english": "to be on the wrong track (lit: to be on the wood path)"
+  },
+  {
+    "line": 348,
+    "field": "exampleSrc",
+    "english": "A: I think the word means 'fish.'\\nB: You are on the wrong track!\\nA: Really? What does it mean then?\\nB: Something completely different. Try again."
+  },
+  {
+    "line": 349,
+    "field": "src",
+    "english": "to be oblivious (lit: to have tomatoes on your eyes)"
+  },
+  {
+    "line": 349,
+    "field": "exampleSrc",
+    "english": "A: I cannot see the sign.\\nB: Do you have tomatoes on your eyes?\\nA: Where is it then?\\nB: Right in front of you! Big red letters!"
+  },
+  {
+    "line": 350,
+    "field": "src",
+    "english": "the little grease pot"
+  },
+  {
+    "line": 350,
+    "field": "exampleSrc",
+    "english": "A: What is a Fettnäpfchen?\\nB: A small pot with grease, formerly by the door.\\nA: And when you step in it?\\nB: Then you have made a mistake!"
+  },
+  {
+    "line": 357,
+    "field": "hint",
+    "english": "Think of someone vanishing without a sound, like dust dispersed by the wind, often to escape responsibility."
+  },
+  {
+    "line": 360,
+    "field": "desc",
+    "english": "Understand and explain German idioms. Describe their meanings, origins, and how they reflect German culture and values."
+  },
+  {
+    "line": 361,
+    "field": "unknown",
+    "english": "Learn verbs for describing and explaining"
+  },
+  {
+    "line": 362,
+    "field": "unknown",
+    "english": "Understand how idioms are transmitted"
+  },
+  {
+    "line": 363,
+    "field": "unknown",
+    "english": "Use metaphorical language in context"
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "to describe"
+  },
+  {
+    "line": 365,
+    "field": "exampleSrc",
+    "english": "A: Can you describe the bakery?\\nB: Heinrich described it as warm and full of flour.\\nA: How did he describe it exactly?\\nB: With many figurative expressions."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "to interpret, to lay out"
+  },
+  {
+    "line": 366,
+    "field": "exampleSrc",
+    "english": "A: How do you interpret this proverb?\\nB: I interpret it this way: patience is important.\\nA: Can you interpret it differently too?\\nB: Yes, everyone interprets proverbs differently."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "to clarify, to make clear"
+  },
+  {
+    "line": 367,
+    "field": "exampleSrc",
+    "english": "A: Can you clarify that?\\nB: Yes, I will clarify it with an example.\\nA: That clarifies the matter.\\nB: Good. Clarity is the goal."
+  },
+  {
+    "line": 368,
+    "field": "src",
+    "english": "to reflect, to mirror"
+  },
+  {
+    "line": 368,
+    "field": "exampleSrc",
+    "english": "A: What do proverbs reflect?\\nB: They reflect the values of a culture.\\nA: And Heinrich's stories?\\nB: They reflect his entire life."
+  },
+  {
+    "line": 369,
+    "field": "src",
+    "english": "to hand down, to transmit through generations"
+  },
+  {
+    "line": 369,
+    "field": "exampleSrc",
+    "english": "A: How were proverbs handed down?\\nB: Orally, from generation to generation.\\nA: Nobody wrote them down?\\nB: Only later. Before that they were just passed down."
+  },
+  {
+    "line": 370,
+    "field": "src",
+    "english": "to spread, to disseminate"
+  },
+  {
+    "line": 370,
+    "field": "exampleSrc",
+    "english": "A: How do proverbs spread?\\nB: Through telling. People spread them.\\nA: Also through books?\\nB: Yes, but oral dissemination came first."
+  },
+  {
+    "line": 371,
+    "field": "src",
+    "english": "to take up, to pick up on"
+  },
+  {
+    "line": 371,
+    "field": "exampleSrc",
+    "english": "A: Verumius picks up Heinrich's proverbs.\\nB: Yes, he picks them up and writes them down.\\nA: That way they are preserved.\\nB: Exactly. To pick up means to preserve."
+  },
+  {
+    "line": 372,
+    "field": "src",
+    "english": "to state, to express"
+  },
+  {
+    "line": 372,
+    "field": "exampleSrc",
+    "english": "A: What does this proverb express?\\nB: It expresses that patience is important.\\nA: And what does Heinrich's story express?\\nB: It expresses that tradition counts."
+  },
+  {
+    "line": 378,
+    "field": "hint",
+    "english": "A Holzweg is a forest path that ends in a dead end. Following it means going nowhere."
+  },
+  {
+    "line": 379,
+    "field": "src",
+    "english": "to laugh"
+  },
+  {
+    "line": 379,
+    "field": "exampleSrc",
+    "english": "A: What are you laughing about?\\nB: About Heinrich's story. He laughs most of all himself.\\nA: Laughing is healthy.\\nB: Yes, and proverbs that make you laugh stay with you."
+  },
+  {
+    "line": 380,
+    "field": "hint",
+    "english": "The reported predicate needs Konjunktiv I, even when the wer-clause uses Indikativ. Apply the reporting mood to the main verb."
+  },
+  {
+    "line": 380,
+    "field": "sSrc",
+    "english": "Heinrich said whoever laughs last laughs best."
+  },
+  {
+    "line": 386,
+    "field": "hint",
+    "english": "als ob + hätte (Konj. II) describes an unreal scenario: he acts AS IF he had tomatoes in front of his eyes."
+  },
+  {
+    "line": 387,
+    "field": "src",
+    "english": "to carry, to wear, to bear"
+  },
+  {
+    "line": 387,
+    "field": "exampleSrc",
+    "english": "A: What does Heinrich carry on his arm?\\nB: An old bakery in memory.\\nA: How does one carry on a tradition?\\nB: By telling it."
+  },
+  {
+    "line": 388,
+    "field": "hint",
+    "english": "Indirect speech requires the reporting mood. Select the form of 'tragen' that signals reported observation, not a direct factual statement."
+  },
+  {
+    "line": 388,
+    "field": "sSrc",
+    "english": "Hildi remarked that her father sometimes carries owls to Athens."
+  },
+  {
+    "line": 394,
+    "field": "hint",
+    "english": "Three sentences: the first reports a past action, the second makes an unreal comparison, the third reports a current state. Identify the mood in each."
+  },
+  {
+    "line": 401,
+    "field": "src",
+    "english": "Not bad, Verumius. You listened. You understood. My grandfather would have said: practice makes the master. And you practice well."
+  },
+  {
+    "line": 402,
+    "field": "src",
+    "english": "Come back next Sunday. Papa has a whole book of proverbs in his head. And I have cake."
+  },
+  {
+    "line": 405,
+    "field": "desc",
+    "english": "The final proverbs and idioms. Review all constructs from Unit 28. Celebrate the meeting of oral tradition and foreign learner."
+  },
+  {
+    "line": 406,
+    "field": "unknown",
+    "english": "Master the remaining proverbs and idioms"
+  },
+  {
+    "line": 407,
+    "field": "unknown",
+    "english": "Review all constructs from Unit 28"
+  },
+  {
+    "line": 408,
+    "field": "unknown",
+    "english": "Celebrate the meeting of oral tradition and language learner"
+  },
+  {
+    "line": 410,
+    "field": "src",
+    "english": "Evening. Verumius's apartment. Desk lamp on. He transcribes Heinrich's proverbs into a notebook. Each one gets a page: the proverb, the story, the meaning. A growing collection of oral tradition preserved."
+  },
+  {
+    "line": 411,
+    "field": "src",
+    "english": "Every proverb has a story. Figuratively speaking, they are like time capsules. Heinrich entrusted them to me as if I belonged to the family."
+  },
+  {
+    "line": 412,
+    "field": "src",
+    "english": "He writes the last one: 'As one calls into the forest, so it echoes back.' Closes the notebook. Smiles. Somewhere across Berlin, Opa Heinrich is probably telling the same stories to someone else, each time a little different."
+  },
+  {
+    "line": 413,
+    "field": "src",
+    "english": "Next week: a public debate. Verumius's German is now good enough for the arena of ideas. But first, he texts Hildi: 'Thanks for the Sunday. And thanks to Opa Heinrich.' She replies: 'He says you should come back next Sunday. He has more.'"
+  },
+  {
+    "line": 414,
+    "field": "src",
+    "english": "to kill two birds with one stone (lit: to hit two flies with one swatter)"
+  },
+  {
+    "line": 414,
+    "field": "exampleSrc",
+    "english": "A: I am going to the supermarket and picking up the mail.\\nB: Two flies with one swatter!\\nA: Exactly, why go twice?\\nB: Efficient. Very German."
+  },
+  {
+    "line": 415,
+    "field": "src",
+    "english": "to buy a pig in a poke (lit: to buy the cat in the bag)"
+  },
+  {
+    "line": 415,
+    "field": "exampleSrc",
+    "english": "A: I am buying the car without a test drive.\\nB: Do not buy the cat in the bag!\\nA: You mean I should test it first?\\nB: Of course! Open the bag first."
+  },
+  {
+    "line": 416,
+    "field": "src",
+    "english": "What you miss in childhood is hard to learn later"
+  },
+  {
+    "line": 416,
+    "field": "exampleSrc",
+    "english": "A: I should have learned German earlier.\\nB: What little Hans does not learn, big Hans never learns!\\nA: But I am learning it now!\\nB: True. You are the exception!"
+  },
+  {
+    "line": 417,
+    "field": "src",
+    "english": "You get what you give (lit: as one calls into the forest, so it echoes back)"
+  },
+  {
+    "line": 417,
+    "field": "exampleSrc",
+    "english": "A: Why is he so unfriendly to me?\\nB: As you call into the forest, so it echoes back.\\nA: You mean because I was unfriendly first?\\nB: Exactly. The forest gives back what it receives."
+  },
+  {
+    "line": 418,
+    "field": "src",
+    "english": "figuratively speaking"
+  },
+  {
+    "line": 418,
+    "field": "exampleSrc",
+    "english": "A: Language is a bridge.\\nB: Figuratively speaking, yes.\\nA: Of course figuratively speaking!\\nB: Sometimes the best truths are figurative."
+  },
+  {
+    "line": 419,
+    "field": "src",
+    "english": "according to reports, reportedly"
+  },
+  {
+    "line": 419,
+    "field": "exampleSrc",
+    "english": "A: According to reports, the company is planning changes.\\nB: Who says that?\\nA: I heard it. According to reports.\\nB: So just rumors. Not yet confirmed."
+  },
+  {
+    "line": 420,
+    "field": "src",
+    "english": "so to speak"
+  },
+  {
+    "line": 420,
+    "field": "exampleSrc",
+    "english": "A: He is, so to speak, our proverb expert.\\nB: So to speak? So not officially?\\nA: No, but he knows the most about it.\\nB: Then he is, so to speak, the best."
+  },
+  {
+    "line": 421,
+    "field": "src",
+    "english": "supposed, alleged"
+  },
+  {
+    "line": 421,
+    "field": "exampleSrc",
+    "english": "A: The supposed expert was wrong.\\nB: Supposed? So not a real expert?\\nA: Exactly. Only supposedly.\\nB: Supposed knowledge can be dangerous."
+  },
+  {
+    "line": 422,
+    "field": "src",
+    "english": "taken literally"
+  },
+  {
+    "line": 422,
+    "field": "exampleSrc",
+    "english": "A: Taken literally, 'Morgenstund' means the early hour.\\nB: But figuratively speaking it means more.\\nA: Exactly. Literal is only the surface.\\nB: The depth lies in the figurative sense."
+  },
+  {
+    "line": 423,
+    "field": "src",
+    "english": "as if (one) had"
+  },
+  {
+    "line": 423,
+    "field": "exampleSrc",
+    "english": "A: He tells it as if he had experienced it yesterday.\\nB: Yes, as if he had stopped time.\\nA: The memory is very vivid.\\nB: As if it had never ended."
+  },
+  {
+    "line": 424,
+    "field": "src",
+    "english": "to refer to"
+  },
+  {
+    "line": 424,
+    "field": "exampleSrc",
+    "english": "A: What does this proverb refer to?\\nB: It refers to patience and perseverance.\\nA: And Heinrich's story?\\nB: That refers to his youth."
+  },
+  {
+    "line": 425,
+    "field": "src",
+    "english": "to paraphrase, to describe in other words"
+  },
+  {
+    "line": 425,
+    "field": "exampleSrc",
+    "english": "A: Can you paraphrase the proverb?\\nB: Yes: whoever is patient wins in the end.\\nA: That is a good paraphrase.\\nB: Sometimes you have to paraphrase proverbs."
+  },
+  {
+    "line": 426,
+    "field": "src",
+    "english": "to imply, to insinuate"
+  },
+  {
+    "line": 426,
+    "field": "exampleSrc",
+    "english": "A: What are you implying about me?\\nB: Nothing! I am not implying anything.\\nA: But it sounded that way.\\nB: I am sorry. That was not my intention."
+  },
+  {
+    "line": 427,
+    "field": "src",
+    "english": "to justify, to give reasons for"
+  },
+  {
+    "line": 427,
+    "field": "exampleSrc",
+    "english": "A: Can you justify your opinion?\\nB: Yes, I justify it with Heinrich's experience.\\nA: That is well justified.\\nB: An opinion without justification is weak."
+  },
+  {
+    "line": 428,
+    "field": "src",
+    "english": "to reply, to retort"
+  },
+  {
+    "line": 428,
+    "field": "exampleSrc",
+    "english": "A: That is wrong.\\nB: Hildi retorted that it had been half past three.\\nA: What did Heinrich reply to that?\\nB: He retorted that it was a detail."
+  },
+  {
+    "line": 429,
+    "field": "src",
+    "english": "to convey, to mediate"
+  },
+  {
+    "line": 429,
+    "field": "exampleSrc",
+    "english": "A: What do proverbs convey?\\nB: They convey wisdom and values.\\nA: And Heinrich conveys them to Verumius.\\nB: Exactly. He is the mediator between generations."
+  },
+  {
+    "line": 430,
+    "field": "src",
+    "english": "to be called, to mean"
+  },
+  {
+    "line": 430,
+    "field": "exampleSrc",
+    "english": "A: What does this proverb mean?\\nB: It means that patience pays off.\\nA: That means I should wait?\\nB: That means everything needs its time."
+  },
+  {
+    "line": 431,
+    "field": "text",
+    "english": "Verumius, writing down Heinrich's proverbs, is capturing something real. Germany has a rich oral tradition: Maerchen (Grimm), proverbs, idioms. They were passed down orally for centuries before anyone wrote them down. As a language learner, you are now part of this chain. When you learn a proverb, you carry it forward. Heinrich's stories exist because someone listened and someone wrote. Learning a language is cultural preservation."
+  },
+  {
+    "line": 431,
+    "field": "text",
+    "english": "The Brothers Grimm collected fairy tales from storytellers and wrote them down. Before that, these stories existed only in people's voices. The same is true of proverbs: 'Morgenstund hat Gold im Mund' was said hundreds of times before anyone committed it to writing. Today, learners like Verumius preserve this tradition by listening, understanding, and passing it on."
+  },
+  {
+    "line": 437,
+    "field": "hint",
+    "english": "Haenschen (little Hans) = childhood. Hans = adulthood. What the child misses, the adult cannot make up for."
+  },
+  {
+    "line": 438,
+    "field": "hint",
+    "english": "Konjunktiv I of 'sein' in indirect speech. Plural form because 'Sprichwörter' is plural."
+  },
+  {
+    "line": 438,
+    "field": "sSrc",
+    "english": "Heinrich told that the old proverbs were timeless."
+  },
+  {
+    "line": 444,
+    "field": "hint",
+    "english": "Count the reporting mood forms in Hildi's three statements, then identify the one verb form that instead expresses an unreal scenario."
+  },
+  {
+    "line": 445,
+    "field": "src",
+    "english": "to call into (something)"
+  },
+  {
+    "line": 445,
+    "field": "exampleSrc",
+    "english": "A: Why are you calling into the forest?\\nB: I am testing whether the echo answers.\\nA: Whoever calls into the forest...\\nB: ...gets it back. The proverb is true."
+  },
+  {
+    "line": 446,
+    "field": "hint",
+    "english": "Both blanks report the proverb in indirect speech. Apply the reporting mood to both verbs: the wer-clause verb and the main predicate."
+  },
+  {
+    "line": 446,
+    "field": "sSrc",
+    "english": "Heinrich said whoever calls into the forest gets it back the same way."
+  }
+]

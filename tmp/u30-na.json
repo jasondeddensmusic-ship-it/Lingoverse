@@ -1,0 +1,797 @@
+[
+  {
+    "line": 14,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Aemter.\\n'Finanzamt' (tax office), 'Bürgeramt' (citizens' office)."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Old High German 'ambaht' (service). Germany has an Amt for everything. The -amt suffix is your clue: official government business. Finanzamt, Bürgeramt, Ordnungsamt, Bauamt."
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Behörden.\\n'Die zuständige Behörde' (the responsible authority)."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "From 'behören' (to belong to). More formal than Amt. A Behörde is the institution. An Amt is the office where you go. 'Die zuständige Behörde' is the standard phrase in official letters."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Bescheide.\\n'Steuerbescheid' (tax assessment notice)."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From 'bescheiden' (to inform/decide). A Bescheid is legally binding. When a Behörde sends you a Bescheid, it is an official act with legal force. Not just information, but a decision."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Formulare.\\n'Das Formular ausfüllen' (to fill out the form)."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "From Latin 'formularium.' Germans fill out Formulare for everything: tax, residence, dog ownership, marriage. 'Das Formular ausfüllen' is the national pastime of German bureaucracy."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Anträge.\\n'Einen Antrag stellen' (to file an application)."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "'An' (at/on) + 'Trag' (carrying). Everything in German bureaucracy begins with an Antrag. No Antrag, no action. The gateway document to every official process."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Fristen.\\n'Die Frist einhalten' (to meet the deadline)."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From Old High German 'frist' (time period). Missing a Frist in German bureaucracy can cost money or rights. 'Fristgerecht' means on time. Take every Frist seriously."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Genehmigungen.\\n'Baugenehmigung' (building permit)."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "From 'genehmigen' (to approve). Without Genehmigung, you cannot build, stay, or park. Germany runs on Genehmigungen. 'Aufenthaltsgenehmigung' (residence permit) is the big one for foreigners."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Feminine noun. 'Die öffentliche Verwaltung' (public administration).\\nFrom 'verwalten' (to manage)."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "From 'verwalten' (to manage/administer). The machinery that makes government work. Over 5 million people work in German Verwaltung. It is the engine behind every Amt."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Vorschriften.\\n'Sicherheitsvorschriften' (safety regulations)."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Vor' (before/pre) + 'Schrift' (writing). Literally: what is written before (prescribed). Germany famously has Vorschriften for everything, from building codes to quiet hours."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Verordnungen.\\n'Rechtsverordnung' (legal ordinance)."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "From 'verordnen' (to decree). More binding than a Vorschrift, less than a Gesetz (law). The middle layer of German legal hierarchy. Verordnungen can be issued by the executive branch."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Pflichten.\\n'Rechte und Pflichten' (rights and duties)."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "From Old High German 'pfliht' (care/duty). Deeply German: Kant's 'Pflicht' is the foundation of his moral philosophy. 'Pflichtversicherung' (compulsory insurance). Duty before desire."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Rechte.\\n'Rechte und Pflichten' (rights and duties)."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "From Old High German 'reht' (straight/right). Always paired with Pflicht in German legal thinking. You have Rechte, but they come with Pflichten. 'Rechtsstaat' (constitutional state) is a core German value."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Masculine noun. 'Sache' (matter) + 'Bearbeiter' (processor).\\n'Ihr zuständiger Sachbearbeiter' (your assigned case worker)."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Sache' (matter) + 'Bearbeiter' (processor). The person at the Behörde who handles YOUR file. The human behind the bureaucracy. Every case has one assigned Sachbearbeiter."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Feminine noun. Sachbearbeiter + '-in.'\\nStandard in all government correspondence."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "Sachbearbeiter + '-in.' Official letters often use both: 'Ihr Sachbearbeiter / Ihre Sachbearbeiterin.' Gender-inclusive language is standard in all German government correspondence."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Masculine noun. Plural: die Bürger.\\n'Bürgerrechte' (civil rights)."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From 'Burg' (castle/town). Originally: someone who lives in a Burg (fortified town). 'Bürgerrechte' (civil rights). The fundamental identity in German democracy."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "Feminine noun. Bürger + '-in.'\\n'Bürgerinnen und Bürger' (citizens, f/m)."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "Bürger + '-in.' 'Bürgerinnen und Bürger' is the standard opening in political speeches. Always both forms, always in that order. Gender-inclusive language in action."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Adjective. 'Amt' + '-lich.'\\n'Amtliche Dokumente' (official documents)."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Amt' + '-lich.' The adjective that turns any piece of paper into a legally binding document. 'Amtlich beglaubigt' (officially certified) is the gold standard of German paperwork."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Adjective. From French 'bureaucratique.'\\n'Der buerokratische Aufwand' (the bureaucratic burden)."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "From French 'bureaucratique.' Germans both love and hate their Bürokratie. It works, but it is heavy. 'Bürokratieabbau' (reducing bureaucracy) is every government's promise."
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "Adjective. 'Gesetz' (law) + '-lich.'\\n'Gesetzlich vorgeschrieben' (required by law)."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "'Gesetz' (law) + '-lich.' When something is gesetzlich, there is no negotiating. 'Die gesetzliche Krankenversicherung' (statutory health insurance) covers about 90% of Germans."
+  },
+  {
+    "line": 33,
+    "field": "note",
+    "english": "Adjective. 'Schrift' (writing) + '-lich.'\\n'Bitte bestätigen Sie schriftlich' (please confirm in writing)."
+  },
+  {
+    "line": 33,
+    "field": "funFact",
+    "english": "'Schrift' (writing) + '-lich.' In German bureaucracy, if it is not schriftlich, it did not happen. Oral agreements mean nothing to a Behörde. Always get it in writing."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Neuter noun. 'Bürger' (citizen) + 'Amt' (office).\\nFirst stop after arriving in Germany: Anmeldung."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "Every person in Germany must register their address within 14 days of moving. No registration, no bank account, no phone contract. The Bürgeramt is where German life officially begins."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "Neuter noun. 'Finanz' (finance) + 'Amt' (office).\\nEvery city has one. They send Bescheide and collect taxes."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "Every German city has a Finanzamt. They send Bescheide, collect taxes, and terrify residents with dense legal prose. 'Ich muss zum Finanzamt' is a sentence nobody says with joy."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "Neuter noun. 'Bau' (building) + 'Amt' (office).\\n'Baugenehmigung' (building permit)."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "'Bau' (building/construction) + 'Amt.' Germany regulates construction at every level. The Bauamt decides what you can and cannot build. Even a garden shed may need a Baugenehmigung."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Neuter noun. 'Ordnung' (order) + 'Amt' (office).\\nHandles noise complaints, illegal parking, unregistered dogs."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "'Ordnung' (order) + 'Amt.' The Ordnungsamt handles everything that disturbs public order: noise, parking violations, unregistered dogs. They can issue Bussgelder (fines)."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Neuter noun. 'Rat' (council) + 'Haus' (house).\\nWhere the Bürgermeister works."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "'Rat' (council) + 'Haus' (house). Every German city, no matter how small, has a Rathaus. Often the most beautiful building in town. The Bürgermeister (mayor) works here."
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "Feminine noun. 'Meldung' (registration) + 'Bescheinigung' (certificate).\\nProof of address registration."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "'Meldung' (registration) + 'Bescheinigung' (certificate). Proof that you registered your address. You need it for bank accounts, phone contracts, and work permits. The first German document every newcomer gets."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "Feminine noun. 'Aufenthalt' (stay) + 'Erlaubnis' (permission).\\nFor non-EU citizens."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "'Aufenthalt' (stay/residence) + 'Erlaubnis' (permission). For non-EU citizens, this document is life in Germany. Without it, you cannot work, rent, or stay. The holy grail of German immigration."
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "Feminine noun. 'Ausländer' (foreigner) + 'Behörde' (authority).\\nNow often called 'Aufenthaltsbehörde.'"
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "'Ausländer' (foreigner) + 'Behörde' (authority). Now often called 'Aufenthaltsbehörde' (residence authority). Where non-EU citizens apply for and renew their residence permits. Long waits are legendary."
+  },
+  {
+    "line": 70,
+    "field": "note",
+    "english": "Feminine noun. 'Steuer' (tax) + 'Erklarung' (declaration).\\n'Die Steuererklarung abgeben' (to file a tax return)."
+  },
+  {
+    "line": 70,
+    "field": "funFact",
+    "english": "'Steuer' (tax) + 'Erklarung' (declaration). Germans who are required to file have until July 31 (or extended with a Steuerberater). Many Germans love their Steuererklarung because refunds are common."
+  },
+  {
+    "line": 71,
+    "field": "note",
+    "english": "Neuter noun. 'Busse' (penance) + 'Geld' (money).\\n'Ein Bussgeld zahlen' (to pay a fine)."
+  },
+  {
+    "line": 71,
+    "field": "funFact",
+    "english": "'Busse' (penance/fine) + 'Geld' (money). For traffic violations, late registrations, missed deadlines. The Ordnungsamt and Finanzamt both issue Bussgelder. Germany's way of enforcing Ordnung."
+  },
+  {
+    "line": 72,
+    "field": "note",
+    "english": "Feminine noun. 'Ordnung' (order) + 'Widrigkeit' (contravention).\\nLess than criminal, but you pay."
+  },
+  {
+    "line": 72,
+    "field": "funFact",
+    "english": "'Ordnung' (order) + 'Widrigkeit' (contravention). A uniquely German legal category between 'no problem' and 'criminal.' Parking wrong, skipping registration, noise after 10pm. Not criminal, but expensive."
+  },
+  {
+    "line": 73,
+    "field": "note",
+    "english": "Feminine noun. From 'mahnen' (to remind/urge).\\n'Erste, zweite, dritte Mahnung.'"
+  },
+  {
+    "line": 73,
+    "field": "funFact",
+    "english": "From 'mahnen' (to remind/urge). Three chances: erste Mahnung, zweite Mahnung, letzte Mahnung. After the third, legal action. The escalation system of German payment culture."
+  },
+  {
+    "line": 74,
+    "field": "note",
+    "english": "Masculine noun. 'Ein' (in) + 'Spruch' (statement).\\n'Einspruch erheben' (to raise an objection)."
+  },
+  {
+    "line": 74,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'Spruch' (statement). If you disagree with a Bescheid, you can Einspruch erheben. But respect the Frist. Your legal right to say: I do not accept this decision."
+  },
+  {
+    "line": 75,
+    "field": "note",
+    "english": "Masculine noun. 'Wider' (against) + 'Spruch' (statement).\\n'Widerspruch einlegen' (to file an objection)."
+  },
+  {
+    "line": 75,
+    "field": "funFact",
+    "english": "'Wider' (against) + 'Spruch' (statement). Slightly broader than Einspruch. Used in administrative law. Your right to say officially: I disagree with this decision."
+  },
+  {
+    "line": 76,
+    "field": "note",
+    "english": "Feminine noun. From 'beschweren' (to complain).\\n'Eine Beschwerde einreichen' (to file a complaint)."
+  },
+  {
+    "line": 76,
+    "field": "funFact",
+    "english": "From 'beschweren' (to burden/complain). Less formal than Widerspruch. You can Beschwerde einreichen about service quality, but Widerspruch einlegen against an official decision."
+  },
+  {
+    "line": 77,
+    "field": "note",
+    "english": "Feminine noun. From 'bewilligen' (to grant).\\n'Die Bewilligung erteilen' (to grant approval)."
+  },
+  {
+    "line": 77,
+    "field": "funFact",
+    "english": "From 'bewilligen' (to grant/approve). Synonym for Genehmigung but often used for financial approvals. Budget-Bewilligung is the green light for spending public money."
+  },
+  {
+    "line": 78,
+    "field": "note",
+    "english": "Adjective. From 'befristen' (to set a deadline).\\n'Ein befristeter Vertrag' (a fixed-term contract)."
+  },
+  {
+    "line": 78,
+    "field": "funFact",
+    "english": "From 'befristen' (to set a deadline). 'Befristete Aufenthaltserlaubnis' (temporary residence permit). The clock is always ticking. In German work life, befristet is the starting point."
+  },
+  {
+    "line": 79,
+    "field": "note",
+    "english": "Adjective. 'Un-' + 'befristet.'\\n'Ein unbefristeter Arbeitsvertrag' (a permanent contract)."
+  },
+  {
+    "line": 79,
+    "field": "funFact",
+    "english": "'Un-' + 'befristet.' The holy grail of German work life. Security, stability, bank loans. Unbefristet means: no end date. The word every employee wants on their Arbeitsvertrag."
+  },
+  {
+    "line": 80,
+    "field": "note",
+    "english": "Adjective. 'Frist' (deadline) + 'gerecht' (proper).\\n'Fristgerecht einreichen' (to submit on time)."
+  },
+  {
+    "line": 80,
+    "field": "funFact",
+    "english": "'Frist' (deadline) + 'gerecht' (just/proper). In German bureaucracy, fristgerecht is not a suggestion. It is survival. Miss the Frist, lose your rights."
+  },
+  {
+    "line": 81,
+    "field": "note",
+    "english": "Adjective. From 'gelten' (to be valid).\\n'Der Ausweis ist noch gueltig' (the ID is still valid)."
+  },
+  {
+    "line": 81,
+    "field": "funFact",
+    "english": "From 'gelten' (to be valid). Everything in Germany has a Gueltigkeit (validity period). Permits, IDs, tickets, contracts. 'Bis wann ist das gueltig?' is a question you will ask often."
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Feminine noun. 'Bearbeitung' (processing) + 'Gebühr' (fee).\\n'Bearbeitungsgebühr: 25 Euro.'"
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Bearbeitung' (processing) + 'Gebühr' (fee). You pay the Behörde for the privilege of them processing your Antrag. The price of bureaucracy, calculated to the cent."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Neuter noun. 'Akte' (file) + 'Zeichen' (sign/mark).\\n'Bitte geben Sie Ihr Aktenzeichen an.'"
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "'Akte' (file) + 'Zeichen' (sign/mark). Every official letter has one. Lose it, and the Behörde cannot find your case. Your bureaucratic identity in one code."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "Feminine noun. From 'bescheinigen' (to certify).\\n'Arbeitgeberbescheinigung' (employer's certificate)."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "From 'bescheinigen' (to certify). Official paper that confirms something. More specific than Formular, less binding than Bescheid. Germany runs on Bescheinigungen."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "Feminine noun. 'Eingang' (receipt) + 'Bestätigung' (confirmation).\\nProof the Behörde received your documents."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "'Eingang' (receipt/entry) + 'Bestätigung' (confirmation). The bureaucracy telling you: we received your paper. Now wait. An Eingangsbestätigung is not a decision, just an acknowledgment."
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "Feminine noun. From 'erteilen' (to grant/issue).\\n'Die Erteilung der Genehmigung' (the issuance of the permit)."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "From 'erteilen' (to grant/issue). The formal noun for when the Behörde says yes. Erteilung = you got it. The moment your Antrag becomes a Genehmigung."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Feminine noun. From 'zustellen' (to deliver).\\nLegal term: Fristen start from Zustellung."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "From 'zustellen' (to deliver). Legal term: the moment the document officially reaches you. Fristen start from Zustellung. The postman becomes a legal actor."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Masculine noun. 'Verwaltung' + 'Akt' (act).\\nLegal term for any official decision by a Behörde."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Verwaltung' + 'Akt' (act). The building block of German administrative law. Every Verwaltungsakt must be justified. If it is not, you can challenge it with a Widerspruch."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Masculine noun. 'Sache' (matter) + 'Verhalt' (state of affairs).\\n'Den Sachverhalt prüfen' (to examine the facts)."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'Sache' (matter) + 'Verhalt' (state of affairs). Legal vocabulary: before deciding, establish the Sachverhalt. The facts, the circumstances, the objective truth of what happened."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Feminine noun. 'Recht' (law) + 'Lage' (situation).\\n'Die aktuelle Rechtslage' (the current legal situation)."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "'Recht' (law) + 'Lage' (situation). What the law says RIGHT NOW about your case. Can change if laws change. 'Die aktuelle Rechtslage' is the phrase lawyers use to anchor their advice."
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "Neuter noun. From 'verfahren' (to proceed).\\n'Ein Verwaltungsverfahren' (an administrative procedure)."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "From 'verfahren' (to proceed). The formal path from Antrag to Bescheid. Also: 'Gerichtsverfahren' (court proceedings). The structured journey through the bureaucratic machine."
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Masculine noun. From 'betragen' (to amount to).\\n'Der zu zahlende Betrag' (the amount to be paid)."
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "From 'betragen' (to amount to). Official letters always specify the Betrag: how much you owe, to the cent. 'Der zu zahlende Betrag' is the phrase that makes your wallet nervous."
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "Feminine noun. 'Lauf' (run) + 'Zeit' (time).\\n'Die Laufzeit des Vertrags' (the duration of the contract)."
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "'Lauf' (run) + 'Zeit' (time). How long something runs. Contracts, loans, permits all have a Laufzeit. The clock starts the moment you sign."
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "Masculine noun. From Greek 'paragraphos.'\\n'Gemaess Paragraph 3' (in accordance with paragraph 3)."
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "From Greek 'paragraphos' (written beside). Paragraphen are numbered, cited, and argued over. 'Gemaess Paragraph 5' is the citation formula that gives legal authority to any bureaucratic statement."
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "Masculine noun. 'Dienst' (service) + 'Weg' (way/path).\\n'Auf dem Dienstweg' (through official channels)."
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "'Dienst' (service) + 'Weg' (way/path). The proper bureaucratic path. Skipping the Dienstweg is frowned upon. Follow the road, step by step, level by level."
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "Impersonal construction.\\n'Es handelt sich um eine Nachzahlung.'"
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "The official way to introduce what a letter is about. Impersonal, distanced, institutional. 'Es handelt sich um' removes any personal tone and replaces it with bureaucratic neutrality."
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "Impersonal construction.\\nBureaucratic certainty phrased as assumption."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "Bureaucratic certainty phrased as polite assumption. Translation: this is true until you prove otherwise. 'Es ist davon auszugehen' is the Behörde saying: we are right."
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "Impersonal + genitive construction.\\n'Es bedarf einer Genehmigung' (a permit is required)."
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "The most formal way to say 'you need to.' Es bedarf + genitive is pure Amtsdeutsch. Beautiful, impersonal, non-negotiable. No subject, no person, just the requirement."
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "Impersonal construction.\\n'Es gilt die Frist zu beachten' (the deadline must be observed)."
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "'Es gilt' announces a rule. No subject needed. The rule exists independently of people. What follows is law. Impersonal, absolute, universal."
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "Konjunktiv I passive construction.\\nThe politest possible threat in Amtsdeutsch."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "Konjunktiv I passive: 'sei' instead of 'ist.' Maximum formal distance. The politest possible way to say: your deadline is approaching. We are merely pointing it out."
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "Preposition. From 'Mass' (measure).\\n'Gemaess Paragraph 5' (in accordance with paragraph 5)."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "From 'Mass' (measure). The preposition of legal conformity. What the law says, you do. Can precede or follow its noun: 'gemaess dem Gesetz' or 'dem Gesetz gemaess.'"
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "Masculine noun. 'Recht' (law) + 'Anwalt' (advocate).\\n'Einen Rechtsanwalt einschalten' (to engage a lawyer)."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "'Recht' (law) + 'Anwalt' (advocate). Germany has over 160,000 Rechtsanwaelte. They have a monopoly on legal representation in court. No Rechtsanwalt, no court appearance."
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "Feminine noun. Rechtsanwalt + '-in.'\\nOver 40% of new lawyers in Germany are women."
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "Rechtsanwalt + '-in.' Over 40% of new lawyers in Germany are women. 'Frau Rechtsanwaeltin' is the formal address in court and correspondence."
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "Masculine noun. From 'richten' (to judge/direct).\\nGerman judges are career civil servants."
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "From 'richten' (to judge/direct). German judges are career civil servants, not elected. They train specifically for the judiciary after passing two state exams. A different path than in Anglo-Saxon systems."
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "Feminine noun. Richter + '-in.'\\nOver 40% of German judges are women."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "Richter + '-in.' Over 40% of German judges are women. The judiciary has been a leader in gender balance compared to other legal professions in Germany."
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "Masculine noun. From 'klagen' (to sue/complain).\\n'Der Klaeger muss beweisen...' (The plaintiff must prove...)."
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "From 'klagen' (to sue/complain). The person who brings a lawsuit. In German courts, the Klaeger has the burden of proof. Whoever klages, must prove."
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "Feminine noun. Klaeger + '-in.'\\nStandard in court documents."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "Klaeger + '-in.' Standard in court documents. German legal language always uses both forms in official judgments: 'der Klaeger / die Klaegerin.'"
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Neuter noun. From 'urteilen' (to judge).\\n'Das Urteil ist gesprochen' (the verdict has been pronounced)."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "From 'urteilen' (to judge). 'Im Namen des Volkes' (In the name of the people) opens every German court judgment. A Urteil is final at its Instanz unless you file Berufung."
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "Feminine noun. From 'berufen' (to call upon).\\n'Berufung einlegen' (to file an appeal)."
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "From 'berufen' (to call upon). You call upon a higher court to review the decision. Also means 'calling/vocation.' In law: your right to challenge a judgment at a higher Instanz."
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'instantia.'\\n'Erste Instanz' (trial court), 'zweite Instanz' (appeals court)."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "From Latin 'instantia.' Germany has up to three Instanzen. Each review can change the outcome. 'Erste Instanz' = trial court, 'zweite Instanz' = appeals court, 'dritte Instanz' = supreme court."
+  },
+  {
+    "line": 173,
+    "field": "note",
+    "english": "Masculine noun. 'Recht' + 'Behelf' (remedy).\\n'Rechtsbehelfsbelehrung' (instruction on legal remedies)."
+  },
+  {
+    "line": 173,
+    "field": "funFact",
+    "english": "'Recht' + 'Behelf' (remedy). Every Bescheid must tell you which Rechtsbehelfe you have. Your right to fight back, legally. 'Rechtsbehelfsbelehrung' is the paragraph at the end of every official notice."
+  },
+  {
+    "line": 174,
+    "field": "note",
+    "english": "Feminine noun. 'Haft' (liability) + 'Pflicht' (duty).\\n'Haftpflichtversicherung' (liability insurance)."
+  },
+  {
+    "line": 174,
+    "field": "funFact",
+    "english": "'Haft' (liability) + 'Pflicht' (duty). Nearly every German has a Haftpflichtversicherung. It covers damage you accidentally cause to others. The most German insurance: covering your Pflicht."
+  },
+  {
+    "line": 185,
+    "field": "note",
+    "english": "Feminine noun. 'Pflicht' + 'Versicherung' (insurance).\\nHealth insurance, car insurance, liability insurance."
+  },
+  {
+    "line": 185,
+    "field": "funFact",
+    "english": "'Pflicht' + 'Versicherung.' Germany mandates several Versicherungen. Health insurance, car insurance. No choice. Pflicht is Pflicht. The German approach: collective safety through mandatory protection."
+  },
+  {
+    "line": 186,
+    "field": "note",
+    "english": "Feminine noun. 'Grund' (ground/property) + 'Steuer' (tax).\\nPaid by property owners to the local Gemeinde."
+  },
+  {
+    "line": 186,
+    "field": "funFact",
+    "english": "'Grund' (ground/property) + 'Steuer' (tax). Paid by property owners to the local Gemeinde. Recently reformed (Grundsteuerreform 2022). The tax on owning a piece of Germany."
+  },
+  {
+    "line": 187,
+    "field": "note",
+    "english": "Masculine noun. 'Schaden' (damage) + 'Ersatz' (replacement).\\n'Schadensersatz fordern' (to claim damages)."
+  },
+  {
+    "line": 187,
+    "field": "funFact",
+    "english": "'Schaden' (damage) + 'Ersatz' (replacement/compensation). You replace the damage with money. The legal principle of making whole: restoring what was broken through financial compensation."
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Adjective. 'Recht' + 'verbindlich' (binding).\\n'Eine rechtsverbindliche Zusage' (a legally binding commitment)."
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "'Recht' + 'verbindlich' (binding). When something is rechtsverbindlich, you can be sued if you break it. The word that transforms a promise into a legal obligation."
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "Adjective. 'Recht' + 'widrig' (contrary to).\\n'Ein rechtswidriger Verwaltungsakt' (an unlawful administrative act)."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "'Recht' + 'widrig' (contrary to). The adjective that invalidates official actions. If a Verwaltungsakt is rechtswidrig, it can be overturned. The citizen's most powerful word."
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "Adjective. From 'verbinden' (to bind).\\nDouble meaning: legally binding AND socially warm."
+  },
+  {
+    "line": 190,
+    "field": "funFact",
+    "english": "From 'verbinden' (to bind). Double meaning: legally binding AND socially warm. A 'verbindliches Angebot' is binding. A 'verbindlicher Ton' is friendly. Context decides."
+  },
+  {
+    "line": 191,
+    "field": "note",
+    "english": "Adjective. From 'zulassen' (to permit).\\n'Ist die Klage zulaessig?' (Is the lawsuit admissible?)."
+  },
+  {
+    "line": 191,
+    "field": "funFact",
+    "english": "From 'zulassen' (to permit). The gatekeeper word in law: before the court considers your case, it checks if it is zulaessig. If not, the door closes before the argument even starts."
+  },
+  {
+    "line": 192,
+    "field": "note",
+    "english": "Adjective. 'Ordnung' + 'gemaess' (in accordance with).\\n'Ordnungsgemaess eingereicht' (properly filed)."
+  },
+  {
+    "line": 192,
+    "field": "funFact",
+    "english": "'Ordnung' + 'gemaess' (in accordance with). The bureaucratic seal of approval: you followed all the rules. 'Ordnungsgemaess eingereicht' means: we accept your paperwork."
+  },
+  {
+    "line": 193,
+    "field": "note",
+    "english": "Adjective. 'Nach' (after) + 'vollziehbar' (executable).\\nYou can trace the logic step by step."
+  }
+]

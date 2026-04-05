@@ -1,0 +1,830 @@
+[
+  {
+    "english": "Enter the world of German media. Verumius sits in his kitchen, reads Die Zeit, and marks unknown words with a red pen. Deutschlandfunk plays on the radio.",
+    "arabic": "ادخل إلى عالم الإعلام الألماني. يجلس فيروميوس في مطبخه، يقرأ دي تسايت، ويضع علامات بقلم أحمر على الكلمات التي لا يعرفها. يُبثّ برنامج دويتشلانفونك على الراديو."
+  },
+  {
+    "english": "Learn core journalism vocabulary",
+    "arabic": "تعلّم المفردات الأساسية للصحافة"
+  },
+  {
+    "english": "Understand the German media landscape",
+    "arabic": "افهم المشهد الإعلامي الألماني"
+  },
+  {
+    "english": "Recognize journalistic writing patterns",
+    "arabic": "تعرّف على أنماط الكتابة الصحفية"
+  },
+  {
+    "english": "Follow Verumius in his new morning ritual",
+    "arabic": "تابع فيروميوس في طقسه الصباحي الجديد"
+  },
+  {
+    "english": "Verumius's kitchen. Six thirty in the morning. Die Zeit lies open on the table. A red pen next to a coffee cup. The radio murmurs Deutschlandfunk. This is Verumius's new morning ritual: German media immersion.",
+    "arabic": "مطبخ فيروميوس. السادسة والنصف صباحاً. تقع دي تسايت مفتوحةً على الطاولة. قلم أحمر بجانب فنجان قهوة. يهمهم الراديو ببث دويتشلانفونك. هذه هي طقوس فيروميوس الصباحية الجديدة: الانغماس في الإعلام الألماني."
+  },
+  {
+    "english": "He reads. He underlines. Every third word gets a red mark. The headlines are cryptic: 'The published report causes a stir.' What does 'published' mean in front of a noun like that?",
+    "arabic": "يقرأ. يضع خطوطاً تحت الكلمات. كل كلمة ثالثة تحصل على علامة حمراء. العناوين مبهمة: 'التقرير المنشور يثير ضجة.' ماذا تعني 'المنشور' أمام اسم كهذا؟"
+  },
+  {
+    "english": "I understand the headlines. But these long expressions before the noun? 'The measure planned by the government.' That is like a whole sentence before the word.",
+    "arabic": "أفهم العناوين. لكن هذه التعبيرات الطويلة قبل الاسم؟ 'الإجراء الذي خططت له الحكومة.' هذا كأنه جملة كاملة قبل الكلمة."
+  },
+  {
+    "english": "The radio switches to a commentary. The journalist says: 'That cannot be explained so easily.' Another new structure: lassen + sich. Verumius writes it down.",
+    "arabic": "ينتقل الراديو إلى تعليق. يقول الصحفي: 'لا يمكن تفسير ذلك بسهولة.' بنية جديدة أخرى: lassen + sich. يدوّنها فيروميوس."
+  },
+  {
+    "english": "journalism",
+    "arabic": "الصحافة"
+  },
+  {
+    "english": "A: What are you studying?\\nB: Journalism. I want to become a journalist.\\nA: Journalism is important for democracy.\\nB: Yes, without journalism no informed citizens.",
+    "arabic": "أ: ماذا تدرس؟\\nب: الصحافة. أريد أن أصبح صحفياً.\\nأ: الصحافة مهمة للديمقراطية.\\nب: نعم، بدون صحافة لا يوجد مواطنون مطّلعون."
+  },
+  {
+    "english": "journalist (male)",
+    "arabic": "صحفي (مذكر)"
+  },
+  {
+    "english": "A: Who wrote the article?\\nB: A journalist from the Sueddeutsche Zeitung.\\nA: Is he a good journalist?\\nB: Yes, he always researches thoroughly.",
+    "arabic": "أ: من كتب المقال؟\\nب: صحفي من صحيفة زوددويتشه تسايتونغ.\\nأ: هل هو صحفي جيد؟\\nب: نعم، يبحث دائماً بدقة."
+  },
+  {
+    "english": "journalist (female)",
+    "arabic": "صحفية (مؤنث)"
+  },
+  {
+    "english": "A: Do you know the journalist on TV?\\nB: Yes, she is very well known.\\nA: She always reports from abroad.\\nB: A brave journalist.",
+    "arabic": "أ: هل تعرف الصحفية في التلفزيون؟\\nب: نعم، إنها معروفة جداً.\\nأ: تُقدّم دائماً تقارير من الخارج.\\nب: صحفية شجاعة."
+  },
+  {
+    "english": "the news",
+    "arabic": "الأخبار"
+  },
+  {
+    "english": "A: Did you watch the news?\\nB: Yes, today they were very interesting.\\nA: What was the most important news item?\\nB: A new law was passed.",
+    "arabic": "أ: هل شاهدت الأخبار؟\\nب: نعم، كانت مثيرة للاهتمام اليوم.\\nأ: ما كان أهم خبر؟\\nب: تم إقرار قانون جديد."
+  },
+  {
+    "english": "daily newspaper",
+    "arabic": "صحيفة يومية"
+  },
+  {
+    "english": "A: Do you read a daily newspaper?\\nB: Yes, I read the Sueddeutsche Zeitung.\\nA: Every day?\\nB: Almost every day. A good daily newspaper takes time.",
+    "arabic": "أ: هل تقرأ صحيفة يومية؟\\nب: نعم، أقرأ زوددويتشه تسايتونغ.\\nأ: كل يوم؟\\nب: تقريباً كل يوم. الصحيفة اليومية الجيدة تستغرق وقتاً."
+  },
+  {
+    "english": "headline",
+    "arabic": "عنوان رئيسي"
+  },
+  {
+    "english": "A: Did you read the headline?\\nB: Yes, it is very dramatic.\\nA: Some headlines exaggerate.\\nB: True. You have to read the whole article.",
+    "arabic": "أ: هل قرأت العنوان الرئيسي؟\\nب: نعم، إنه درامي جداً.\\nأ: بعض العناوين مبالغ فيها.\\nب: صحيح. يجب قراءة المقال كاملاً."
+  },
+  {
+    "english": "commentary, opinion piece",
+    "arabic": "تعليق، مقال رأي"
+  },
+  {
+    "english": "A: Is that a report or a commentary?\\nB: A commentary. The author gives his opinion.\\nA: In German newspapers that is clearly marked.\\nB: Yes, report and commentary are kept separate.",
+    "arabic": "أ: هل هذا تقرير أم تعليق؟\\nب: تعليق. المؤلف يعطي رأيه.\\nأ: في الصحف الألمانية هذا محدد بوضوح.\\nب: نعم، التقرير والتعليق مفصولان."
+  },
+  {
+    "english": "broadcast, program",
+    "arabic": "بث، برنامج"
+  },
+  {
+    "english": "A: Which program do you like to watch?\\nB: I like Die Sendung mit der Maus.\\nA: That is a children's program!\\nB: Yes, but it explains things wonderfully.",
+    "arabic": "أ: أي برنامج تحب مشاهدته؟\\nب: أحب دي زيندونغ ميت دير ماوس.\\nأ: هذا برنامج للأطفال!\\nب: نعم، لكنه يشرح الأشياء بشكل رائع."
+  },
+  {
+    "english": "broadcasting",
+    "arabic": "الإذاعة والتلفزيون"
+  },
+  {
+    "english": "A: What is Rundfunk?\\nB: Radio and television together.\\nA: And public broadcasting?\\nB: Those are ARD, ZDF, and Deutschlandfunk.",
+    "arabic": "أ: ما هو رونتفونك؟\\nب: الراديو والتلفزيون معاً.\\nأ: وما هو البث العام؟\\nب: هم ARD وZDF ودويتشلانفونك."
+  },
+  {
+    "english": "mass media",
+    "arabic": "وسائل الإعلام الجماهيرية"
+  },
+  {
+    "english": "A: Which mass media do you use?\\nB: Newspapers, radio, and internet.\\nA: Mass media have great influence.\\nB: That is why media literacy is so important.",
+    "arabic": "أ: أي وسائل إعلام جماهيرية تستخدم؟\\nب: الصحف والراديو والإنترنت.\\nأ: وسائل الإعلام الجماهيرية لها تأثير كبير.\\nب: لهذا السبب الثقافة الإعلامية مهمة جداً."
+  },
+  {
+    "english": "to report",
+    "arabic": "يُقدّم تقريراً"
+  },
+  {
+    "english": "A: What are you reporting on?\\nB: I am reporting on the election.\\nA: Are you reporting live?\\nB: Yes, we are reporting live from the Bundestag.",
+    "arabic": "أ: عمّ تُقدّم تقريراً؟\\nب: أُقدّم تقريراً عن الانتخابات.\\nأ: هل تُقدّم تقريراً مباشراً؟\\nب: نعم، نُقدّم تقريراً مباشراً من البوندستاغ."
+  },
+  {
+    "english": "to inform",
+    "arabic": "يُعلم، يُخبر"
+  },
+  {
+    "english": "A: How do you inform yourself about politics?\\nB: I read newspapers and listen to the radio.\\nA: One has to inform oneself well.\\nB: Yes, informed citizens are important.",
+    "arabic": "أ: كيف تُثقّف نفسك في السياسة؟\\nب: أقرأ الصحف وأستمع إلى الراديو.\\nأ: يجب على المرء أن يُثقّف نفسه جيداً.\\nب: نعم، المواطنون المطّلعون مهمون."
+  },
+  {
+    "english": "to investigate, to research",
+    "arabic": "يُحقق، يبحث"
+  },
+  {
+    "english": "A: How long did you investigate?\\nB: Three months. Thorough research takes time.\\nA: And what did you find out?\\nB: The truth. But it was not easy to find.",
+    "arabic": "أ: كم من الوقت حقّقت؟\\nب: ثلاثة أشهر. البحث الدقيق يستغرق وقتاً.\\nأ: وماذا اكتشفت؟\\nب: الحقيقة. لكن لم يكن سهلاً إيجادها."
+  },
+  {
+    "english": "to comment on",
+    "arabic": "يُعلّق على"
+  },
+  {
+    "english": "A: Is a journalist allowed to comment?\\nB: Yes, but only in the commentary, not in the report.\\nA: How do you comment on this event?\\nB: I find it concerning.",
+    "arabic": "أ: هل يُسمح للصحفي بالتعليق؟\\nب: نعم، لكن فقط في التعليق وليس في التقرير.\\nأ: كيف تُعلّق على هذا الحدث؟\\nب: أجده مقلقاً."
+  },
+  {
+    "english": "serious, reputable",
+    "arabic": "جاد، موثوق"
+  },
+  {
+    "english": "A: Is this newspaper reputable?\\nB: Yes, the FAZ is very reputable.\\nA: And the Bild newspaper?\\nB: That is more tabloid than reputable.",
+    "arabic": "أ: هل هذه الصحيفة موثوقة؟\\nب: نعم، الفاتس موثوقة جداً.\\nأ: وصحيفة بيلد؟\\nب: هي أقرب إلى الصحافة المثيرة منها إلى الموثوقة."
+  },
+  {
+    "english": "credible, trustworthy",
+    "arabic": "موثوق، جدير بالثقة"
+  },
+  {
+    "english": "A: Is this source credible?\\nB: Yes, the author is very credible.\\nA: How do you recognize credible sources?\\nB: By the transparency and the facts.",
+    "arabic": "أ: هل هذا المصدر موثوق؟\\nب: نعم، المؤلف موثوق جداً.\\nأ: كيف تتعرف على المصادر الموثوقة؟\\nب: من خلال الشفافية والحقائق."
+  },
+  {
+    "english": "independent",
+    "arabic": "مستقل"
+  },
+  {
+    "english": "A: Are German media independent?\\nB: Yes, the press is independent from the state.\\nA: That is important for democracy.\\nB: Independence is the foundation of good media.",
+    "arabic": "أ: هل وسائل الإعلام الألمانية مستقلة؟\\nب: نعم، الصحافة مستقلة عن الدولة.\\nأ: هذا مهم للديمقراطية.\\nب: الاستقلالية هي أساس الإعلام الجيد."
+  },
+  {
+    "english": "allegedly",
+    "arabic": "يُزعم أن، بزعم"
+  },
+  {
+    "english": "A: The alleged expert has no qualification.\\nB: Allegedly? Then it is not proven?\\nA: No, allegedly means: it is claimed.\\nB: Then one must research further.",
+    "arabic": "أ: الخبير المزعوم ليس لديه مؤهلات.\\nب: مزعوم؟ إذن لم يُثبَت؟\\nأ: لا، مزعوم تعني: هذا ما يُدّعى.\\nب: إذن يجب البحث أكثر."
+  },
+  {
+    "english": "apparently, evidently",
+    "arabic": "على ما يبدو، من الواضح"
+  },
+  {
+    "english": "A: Apparently the government knew about it.\\nB: Apparently? That sounds fairly certain.\\nA: Yes, offenbar is stronger than anscheinend.\\nB: But weaker than offensichtlich.",
+    "arabic": "أ: على ما يبدو، الحكومة كانت تعلم بذلك.\\nب: على ما يبدو؟ يبدو هذا مؤكداً إلى حد ما.\\nأ: نعم، offenbar أقوى من anscheinend.\\nب: لكنها أضعف من offensichtlich."
+  },
+  {
+    "english": "as is well known",
+    "arabic": "كما هو معروف"
+  },
+  {
+    "english": "A: As is well known, press freedom is a fundamental right.\\nB: Yes, everyone knows that.\\nA: Bekanntlich sounds very formal.\\nB: It fits in newspaper articles and essays.",
+    "arabic": "أ: كما هو معروف، حرية الصحافة حق أساسي.\\nب: نعم، الجميع يعلم ذلك.\\nأ: bekanntlich تبدو رسمية جداً.\\nب: تناسب المقالات الصحفية والمقالات الأكاديمية."
+  },
+  {
+    "english": "Die Zeit is one of Germany's most respected print publications. Think about how its name relates to its publication schedule and what compound noun that forms.",
+    "arabic": "دي تسايت من أكثر المطبوعات الورقية احتراماً في ألمانيا. فكّر في كيفية ارتباط اسمها بجدول نشرها وما الاسم المركب الذي يتشكل من ذلك."
+  },
+  {
+    "english": "The journalistic verb for investigating a story, from French 'rechercher.'",
+    "arabic": "الفعل الصحفي للتحقيق في قصة، مشتق من الفرنسية 'rechercher'."
+  },
+  {
+    "english": "A good journalist must research thoroughly before writing an article.",
+    "arabic": "على الصحفي الجيد البحث بعمق قبل كتابة المقال."
+  },
+  {
+    "english": "He folds the newspaper. Sixteen red marks on one page. Tomorrow there will be fewer. He takes the last sip of coffee and turns off the radio.",
+    "arabic": "يطوي الجريدة. ستة عشر علامة حمراء على صفحة واحدة. غداً ستكون أقل. يحتسي آخر رشفة من القهوة ويطفئ الراديو."
+  },
+  {
+    "english": "Media criticism needs vocabulary. Learn words for disinformation, manipulation, and media literacy. Understand how to evaluate sources critically.",
+    "arabic": "نقد الإعلام يحتاج إلى مفردات. تعلّم كلمات التضليل والتلاعب والثقافة الإعلامية. افهم كيفية تقييم المصادر بشكل نقدي."
+  },
+  {
+    "english": "Learn media criticism vocabulary",
+    "arabic": "تعلّم مفردات نقد الإعلام"
+  },
+  {
+    "english": "Recognize disinformation strategies",
+    "arabic": "تعرّف على استراتيجيات التضليل"
+  },
+  {
+    "english": "Understand German press freedom",
+    "arabic": "افهم حرية الصحافة الألمانية"
+  },
+  {
+    "english": "Evaluate media sources critically",
+    "arabic": "قيّم مصادر الإعلام بشكل نقدي"
+  },
+  {
+    "english": "Breakfast. Verumius has three newspapers open. Die Zeit, the FAZ, the taz. Three articles about the same topic. Three completely different stories.",
+    "arabic": "الإفطار. فيروميوس فتح ثلاث صحف. دي تسايت والفاتس والتاتس. ثلاثة مقالات عن نفس الموضوع. ثلاث قصص مختلفة تماماً."
+  },
+  {
+    "english": "One says progress. Another says scandal. The third says: everything more complicated than expected. Whom should you believe when they all have 'facts'?",
+    "arabic": "إحداها تقول تقدم. أخرى تقول فضيحة. الثالثة تقول: كل شيء أكثر تعقيداً مما كان متوقعاً. بمن تصدّق حين تملك كلها 'حقائق'؟"
+  },
+  {
+    "english": "He marks the sources with different colors. Red for unsubstantiated claims. Green for verifiable facts. Most marks are red.",
+    "arabic": "يضع علامات على المصادر بألوان مختلفة. الأحمر للادعاءات غير المدعومة. الأخضر للحقائق القابلة للتحقق. معظم العلامات حمراء."
+  },
+  {
+    "english": "press freedom",
+    "arabic": "حرية الصحافة"
+  },
+  {
+    "english": "A: Is there press freedom in Germany?\\nB: Yes, Article 5 guarantees press freedom.\\nA: Is it like that everywhere?\\nB: No, many countries do not have press freedom.",
+    "arabic": "أ: هل توجد حرية صحافة في ألمانيا؟\\nب: نعم، المادة الخامسة تضمن حرية الصحافة.\\nأ: هل الوضع كذلك في كل مكان؟\\nب: لا، كثير من الدول لا تملك حرية صحافة."
+  },
+  {
+    "english": "freedom of expression",
+    "arabic": "حرية التعبير"
+  },
+  {
+    "english": "A: Can you say anything in Germany?\\nB: Freedom of expression has limits.\\nA: Which limits?\\nB: Incitement and Holocaust denial are forbidden.",
+    "arabic": "أ: هل يمكنك قول أي شيء في ألمانيا؟\\nب: حرية التعبير لها حدود.\\nأ: ما هذه الحدود؟\\nب: التحريض وإنكار الهولوكوست محظوران."
+  },
+  {
+    "english": "disinformation",
+    "arabic": "تضليل إعلامي"
+  },
+  {
+    "english": "A: What is disinformation?\\nB: Deliberately false information.\\nA: Is that the same as misinformation?\\nB: No, misinformation is unintentionally wrong.",
+    "arabic": "أ: ما هو التضليل الإعلامي؟\\nب: معلومات خاطئة متعمدة.\\nأ: هل هو نفسه المعلومات المضللة؟\\nب: لا، المعلومات المضللة خاطئة بغير قصد."
+  },
+  {
+    "english": "fake news",
+    "arabic": "أخبار مزيفة"
+  },
+  {
+    "english": "A: How do you recognize fake news?\\nB: You check the sources.\\nA: Fake news spread quickly.\\nB: Yes, especially on social media.",
+    "arabic": "أ: كيف تتعرف على الأخبار المزيفة؟\\nب: تتحقق من المصادر.\\nأ: الأخبار المزيفة تنتشر بسرعة.\\nب: نعم، خاصة على وسائل التواصل الاجتماعي."
+  },
+  {
+    "english": "propaganda",
+    "arabic": "دعاية"
+  },
+  {
+    "english": "A: What is the difference between advertising and propaganda?\\nB: Propaganda wants to influence politically.\\nA: The word has a dark history.\\nB: Yes, especially in Germany.",
+    "arabic": "أ: ما الفرق بين الإعلان والدعاية؟\\nب: الدعاية تريد التأثير سياسياً.\\nأ: الكلمة لها تاريخ مظلم.\\nب: نعم، خاصة في ألمانيا."
+  },
+  {
+    "english": "manipulation",
+    "arabic": "تلاعب"
+  },
+  {
+    "english": "A: Is there manipulation in the media?\\nB: Yes, media manipulation is real.\\nA: How do you protect yourself?\\nB: Through critical thinking and media literacy.",
+    "arabic": "أ: هل يوجد تلاعب في الإعلام؟\\nب: نعم، التلاعب الإعلامي حقيقي.\\nأ: كيف تحمي نفسك؟\\nب: من خلال التفكير النقدي والثقافة الإعلامية."
+  },
+  {
+    "english": "filter bubble",
+    "arabic": "فقاعة تصفية"
+  },
+  {
+    "english": "A: What is a filter bubble?\\nB: You only see what you already believe.\\nA: How do you break out of the filter bubble?\\nB: You read different sources.",
+    "arabic": "أ: ما هي فقاعة التصفية؟\\nب: ترى فقط ما تؤمن به أصلاً.\\nأ: كيف تخرج من فقاعة التصفية؟\\nب: تقرأ مصادر متنوعة."
+  },
+  {
+    "english": "censorship",
+    "arabic": "رقابة"
+  },
+  {
+    "english": "A: Is there censorship in Germany?\\nB: No, the constitution prohibits censorship.\\nA: Was it always like that?\\nB: No, in the GDR there was strict censorship.",
+    "arabic": "أ: هل توجد رقابة في ألمانيا؟\\nب: لا، الدستور يحظر الرقابة.\\nأ: هل كان الأمر دائماً كذلك؟\\nب: لا، في جمهورية ألمانيا الديمقراطية كانت هناك رقابة صارمة."
+  },
+  {
+    "english": "reporting, media coverage",
+    "arabic": "تغطية إعلامية"
+  },
+  {
+    "english": "A: How was the reporting?\\nB: One-sided. Only one perspective.\\nA: Good reporting shows all sides.\\nB: Yes, objective reporting is the goal.",
+    "arabic": "أ: كيف كانت التغطية الإعلامية؟\\nب: منحازة. وجهة نظر واحدة فقط.\\nأ: التغطية الجيدة تُظهر جميع الجوانب.\\nب: نعم، التغطية الموضوعية هي الهدف."
+  },
+  {
+    "english": "media literacy",
+    "arabic": "الثقافة الإعلامية"
+  },
+  {
+    "english": "A: What is media literacy?\\nB: The ability to evaluate media critically.\\nA: Do you learn that in school?\\nB: Yes, media literacy is becoming ever more important.",
+    "arabic": "أ: ما هي الثقافة الإعلامية؟\\nب: القدرة على تقييم الإعلام بشكل نقدي.\\nأ: هل تتعلم ذلك في المدرسة؟\\nب: نعم، الثقافة الإعلامية تزداد أهمية باستمرار."
+  },
+  {
+    "english": "to manipulate",
+    "arabic": "يتلاعب"
+  },
+  {
+    "english": "A: Can images be manipulated?\\nB: Yes, digital images can be easily manipulated.\\nA: That is dangerous.\\nB: That is why you must check sources.",
+    "arabic": "أ: هل يمكن التلاعب بالصور؟\\nب: نعم، يمكن التلاعب بالصور الرقمية بسهولة.\\nأ: هذا خطير.\\nب: لهذا يجب التحقق من المصادر."
+  },
+  {
+    "english": "to influence",
+    "arabic": "يؤثر على"
+  },
+  {
+    "english": "A: Who influences public opinion?\\nB: The media influence it strongly.\\nA: Is that always bad?\\nB: No, good media influence positively.",
+    "arabic": "أ: من يؤثر على الرأي العام؟\\nب: وسائل الإعلام تؤثر عليه بشدة.\\nأ: هل هذا سيء دائماً؟\\nب: لا، وسائل الإعلام الجيدة تؤثر إيجابياً."
+  },
+  {
+    "english": "to spread, to disseminate",
+    "arabic": "ينشر، يُذيع"
+  },
+  {
+    "english": "A: Who is spreading this news?\\nB: It is spreading on the internet.\\nA: Fake news spread quickly.\\nB: Faster than the truth, unfortunately.",
+    "arabic": "أ: من ينشر هذا الخبر؟\\nب: ينتشر على الإنترنت.\\nأ: الأخبار المزيفة تنتشر بسرعة.\\nب: أسرع من الحقيقة، للأسف."
+  },
+  {
+    "english": "to falsify, to distort",
+    "arabic": "يزيّف، يُشوّه"
+  },
+  {
+    "english": "A: Did someone falsify the data?\\nB: Yes, the results were falsified.\\nA: That is a serious offense.\\nB: Falsified data destroy trust.",
+    "arabic": "أ: هل زيّف أحد البيانات؟\\nب: نعم، تم تزييف النتائج.\\nأ: هذه جريمة خطيرة.\\nب: البيانات المزيفة تُدمّر الثقة."
+  },
+  {
+    "english": "to obscure, to cover up",
+    "arabic": "يُعتّم على، يخفي"
+  },
+  {
+    "english": "A: Why does the company obscure the numbers?\\nB: It wants to hide the truth.\\nA: Obscuring is subtler than lying.\\nB: Yes, you make the truth invisible.",
+    "arabic": "أ: لماذا تُعتّم الشركة على الأرقام؟\\nب: تريد إخفاء الحقيقة.\\nأ: التعتيم أكثر خفاءً من الكذب.\\nب: نعم، تجعل الحقيقة غير مرئية."
+  },
+  {
+    "english": "to distort",
+    "arabic": "يُشوّه، يُحرّف"
+  },
+  {
+    "english": "A: The reporting distorts reality.\\nB: Yes, it shows only one side.\\nA: Distorted media are dangerous.\\nB: They bend the facts without breaking them.",
+    "arabic": "أ: التغطية تُشوّه الواقع.\\nب: نعم، تُظهر جانباً واحداً فقط.\\nأ: الإعلام المشوَّه خطير.\\nب: يُحنّي الحقائق دون كسرها."
+  },
+  {
+    "english": "one-sided, biased",
+    "arabic": "أحادي الجانب، منحاز"
+  },
+  {
+    "english": "A: The article is one-sided.\\nB: It shows only one perspective.\\nA: Good journalism is never one-sided.\\nB: True, both sides must have their say.",
+    "arabic": "أ: المقال أحادي الجانب.\\nب: يُظهر وجهة نظر واحدة فقط.\\nأ: الصحافة الجيدة ليست أبداً أحادية الجانب.\\nب: صحيح، يجب أن يُعبّر الطرفان عن رأيهما."
+  },
+  {
+    "english": "tendentious, biased",
+    "arabic": "ذو نزعة، متحيز"
+  },
+  {
+    "english": "A: Is this report tendentious?\\nB: Yes, it has a clear political tendency.\\nA: Tendentious is stronger than one-sided.\\nB: Yes, it means: intentionally in one direction.",
+    "arabic": "أ: هل هذا التقرير ذو نزعة؟\\nب: نعم، له توجه سياسي واضح.\\nأ: ذو نزعة أقوى من أحادي الجانب.\\nب: نعم، يعني: متعمداً في اتجاه واحد."
+  },
+  {
+    "english": "partisan, biased toward a party",
+    "arabic": "حزبي، منحاز لحزب"
+  },
+  {
+    "english": "A: Are these media partisan?\\nB: Yes, they support a specific party.\\nA: Partisan media are problematic.\\nB: Impartial reporting is the ideal.",
+    "arabic": "أ: هل هذه الوسائل الإعلامية حزبية؟\\nب: نعم، تدعم حزباً بعينه.\\nأ: وسائل الإعلام الحزبية إشكالية.\\nب: التغطية المحايدة هي المثال الأعلى."
+  },
+  {
+    "english": "prejudiced, biased",
+    "arabic": "متحيز، مسبق التحيز"
+  },
+  {
+    "english": "A: The journalist is biased.\\nB: He had his opinion already beforehand.\\nA: Biased journalists are a problem.\\nB: They only see what they want to see.",
+    "arabic": "أ: الصحفي متحيز.\\nب: كان رأيه محدداً مسبقاً.\\nأ: الصحفيون المتحيزون مشكلة.\\nب: يرون فقط ما يريدون رؤيته."
+  },
+  {
+    "english": "German uses ver- to build words for distortion and deception:\\n\\nverfaelschen: to falsify (make false)\\nverschleiern: to veil (cover truth)\\nverzerren: to distort (pull out of shape)\\nverbreiten: to spread (make broad)\\nverleumden: to slander (attack reputation)\\n\\nThe ver- prefix often signals a change for the worse or the completion of an action. In media criticism, ver- words are red flags.",
+    "arabic": "تستخدم اللغة الألمانية البادئة ver- لبناء كلمات التشويه والخداع:\\n\\nverfaelschen: يزيّف (يجعل زائفاً)\\nverschleiern: يُعتّم (يغطي الحقيقة)\\nverzerren: يُشوّه (يسحب خارج الشكل)\\nverbreiten: ينشر (يجعل واسعاً)\\nverleumden: يقذف (يهاجم السمعة)\\n\\nغالباً ما تُشير البادئة ver- إلى تغيير نحو الأسوأ أو اكتمال فعل ما. في نقد الإعلام، كلمات ver- علامات تحذير."
+  },
+  {
+    "english": "The ver- prefix is one of German's most versatile. It can mean: completion (verbrennen: to burn up), change for worse (verfaelschen: to falsify), reversal (verlieren: to lose), or intensification (verschleiern: to obscure thoroughly). In media criticism, ver- words almost always signal something negative happening to truth or information.",
+    "arabic": "البادئة ver- من أكثر البوادئ تنوعاً في اللغة الألمانية. يمكن أن تعني: الاكتمال (verbrennen: يحترق تماماً)، التغيير نحو الأسوأ (verfaelschen: يزيّف)، الانعكاس (verlieren: يخسر)، أو التكثيف (verschleiern: يُعتّم تماماً). في نقد الإعلام، تُشير كلمات ver- دائماً تقريباً إلى شيء سلبي يحدث للحقيقة أو المعلومات."
+  },
+  {
+    "english": "The 'Des-' prefix signals the deliberate undoing of information. Intentionally false, not accidentally wrong.",
+    "arabic": "البادئة 'Des-' تُشير إلى إبطال المعلومات عمداً. خاطئة متعمدة، لا خاطئة بالصدفة."
+  },
+  {
+    "english": "The adjective for reporting that presents only a single perspective. A compound of a number and a directional suffix.",
+    "arabic": "الصفة التي تصف التغطية التي تُقدّم وجهة نظر واحدة فقط. مركّبة من رقم ولاحقة اتجاهية."
+  },
+  {
+    "english": "A journalist who only shows one side reports one-sidedly.",
+    "arabic": "الصحفي الذي يُظهر جانباً واحداً فقط يُغطّي بشكل أحادي الجانب."
+  },
+  {
+    "english": "Während can mean 'while' in time or 'whereas' in contrast. Here it contrasts two types of media practice.",
+    "arabic": "يمكن أن تعني während 'بينما' في الزمن أو 'في حين أن' في المقابلة. هنا تُقابل بين نوعين من الممارسة الإعلامية."
+  },
+  {
+    "english": "A heated debate in the office kitchen about a newspaper article. Learn editorial vocabulary and master Partizipialattribute: entire subclauses packed as adjectives before the noun.",
+    "arabic": "نقاش حاد في مطبخ المكتب حول مقال صحفي. تعلّم المفردات التحريرية وأتقن صفات الجمل الفرعية المدمجة: جمل فرعية كاملة مُدرجة كصفات قبل الاسم."
+  },
+  {
+    "english": "Learn vocabulary for editorial teams and roles",
+    "arabic": "تعلّم مفردات الفرق التحريرية والأدوار"
+  },
+  {
+    "english": "Master Partizipialattribute (participles before nouns)",
+    "arabic": "أتقن الصفات الاسمية (أسماء المفعول قبل الأسماء)"
+  },
+  {
+    "english": "Understand how German media is produced",
+    "arabic": "افهم كيفية إنتاج الإعلام الألماني"
+  },
+  {
+    "english": "Office kitchen at lunch. A newspaper lies on the table, open to a controversial article. Mia picks it up. 'Have you read this?'",
+    "arabic": "مطبخ المكتب وقت الغداء. تقع جريدة على الطاولة مفتوحة على مقال مثير للجدل. تلتقطها ميا. 'هل قرأت هذا؟'"
+  },
+  {
+    "english": "The published report is completely one-sided! The affected citizens do not get a word in. And the so-called experts are all from the same party.",
+    "arabic": "التقرير المنشور منحاز تماماً! المواطنون المتأثرون لا يحظون بكلمة. والخبراء المزعومون كلهم من نفس الحزب."
+  },
+  {
+    "english": "A colleague pushes back: 'But the researched facts are correct.' Mia shakes her head: 'Facts alone are not enough. The presentation makes the difference.'",
+    "arabic": "يعترض زميل: 'لكن الحقائق المُحقَّق فيها صحيحة.' تهز ميا رأسها: 'الحقائق وحدها لا تكفي. طريقة العرض تصنع الفارق.'"
+  },
+  {
+    "english": "The published report... the affected citizens... They just place participles BEFORE the noun. Like adjectives. But they carry a whole subordinate clause within them.",
+    "arabic": "التقرير المنشور... المواطنون المتأثرون... يضعون أسماء المفعول قبل الاسم ببساطة. مثل الصفات. لكنها تحمل جملة فرعية كاملة بداخلها."
+  },
+  {
+    "english": "editorial office, newsroom",
+    "arabic": "مكتب تحرير، غرفة الأخبار"
+  },
+  {
+    "english": "A: Where do you work?\\nB: In the editorial office of the FAZ.\\nA: How is work in the newsroom?\\nB: Hectic, but exciting.",
+    "arabic": "أ: أين تعمل؟\\nب: في مكتب تحرير الفاتس.\\nأ: كيف هو العمل في غرفة الأخبار؟\\nب: مجنون، لكن مثير."
+  },
+  {
+    "english": "editor (male)",
+    "arabic": "محرر (مذكر)"
+  },
+  {
+    "english": "A: Who edited the article?\\nB: The editor of the culture page.\\nA: The editor-in-chief decides in the end.\\nB: Yes, he has the final word.",
+    "arabic": "أ: من حرّر المقال؟\\nب: محرر صفحة الثقافة.\\nأ: رئيس التحرير يقرر في النهاية.\\nب: نعم، له الكلمة الأخيرة."
+  },
+  {
+    "english": "editor (female)",
+    "arabic": "محررة (مؤنث)"
+  },
+  {
+    "english": "A: Do you know the new editor?\\nB: Yes, she comes from Der Spiegel.\\nA: An experienced editor.\\nB: Exactly, she is becoming editor-in-chief.",
+    "arabic": "أ: هل تعرف المحررة الجديدة؟\\nب: نعم، قادمة من دير شبيغل.\\nأ: محررة ذات خبرة.\\nب: بالضبط، ستصبح رئيسة للتحرير."
+  },
+  {
+    "english": "lead article, editorial",
+    "arabic": "المقال الرئيسي، افتتاحية"
+  },
+  {
+    "english": "A: Did you read the lead article?\\nB: Yes, it is very convincing.\\nA: The lead article is always on page one.\\nB: It shows the position of the newspaper.",
+    "arabic": "أ: هل قرأت المقال الرئيسي؟\\nب: نعم، مقنع جداً.\\nأ: المقال الرئيسي دائماً في الصفحة الأولى.\\nب: يُظهر موقف الصحيفة."
+  },
+  {
+    "english": "column (regular opinion piece)",
+    "arabic": "عمود صحفي (مقال رأي دوري)"
+  },
+  {
+    "english": "A: Do you write a column?\\nB: Yes, every Friday about media.\\nA: A column is more personal than a lead article.\\nB: Exactly, I write about my opinion.",
+    "arabic": "أ: هل تكتب عموداً صحفياً؟\\nب: نعم، كل جمعة عن الإعلام.\\nأ: العمود أكثر شخصية من المقال الرئيسي.\\nب: بالضبط، أكتب عن رأيي."
+  },
+  {
+    "english": "review (book, film, music)",
+    "arabic": "مراجعة نقدية (كتاب، فيلم، موسيقى)"
+  },
+  {
+    "english": "A: Did you read the review of the new film?\\nB: Yes, it was very critical.\\nA: Who wrote the review?\\nB: The film critic of the Sueddeutsche.",
+    "arabic": "أ: هل قرأت مراجعة الفيلم الجديد؟\\nب: نعم، كانت نقدية جداً.\\nأ: من كتب المراجعة؟\\nب: ناقد الأفلام في زوددويتشه."
+  },
+  {
+    "english": "publisher, editor (of a book)",
+    "arabic": "ناشر، محرر (كتاب)"
+  },
+  {
+    "english": "A: Who is the publisher of this book?\\nB: Professor Mueller is the publisher.\\nA: A well-known publisher.\\nB: Yes, he has published many books.",
+    "arabic": "أ: من هو ناشر هذا الكتاب؟\\nب: البروفيسور مولر هو الناشر.\\nأ: ناشر معروف.\\nب: نعم، نشر كتباً كثيرة."
+  },
+  {
+    "english": "publishing house",
+    "arabic": "دار نشر"
+  },
+  {
+    "english": "A: Which publisher published the book?\\nB: Suhrkamp Verlag.\\nA: A big publishing house!\\nB: Yes, one of the most important in Germany.",
+    "arabic": "أ: أي دار نشر أصدرت الكتاب؟\\nب: زوركامب فيرلاغ.\\nأ: دار نشر كبيرة!\\nب: نعم، من أهم دور النشر في ألمانيا."
+  },
+  {
+    "english": "correspondent (male)",
+    "arabic": "مراسل (مذكر)"
+  },
+  {
+    "english": "A: Where is our correspondent?\\nB: In Washington. He is reporting on the election.\\nA: A correspondent lives abroad?\\nB: Yes, often for years.",
+    "arabic": "أ: أين مراسلنا؟\\nب: في واشنطن. يُغطّي الانتخابات.\\nأ: المراسل يعيش في الخارج؟\\nب: نعم، غالباً لسنوات."
+  },
+  {
+    "english": "correspondent (female)",
+    "arabic": "مراسلة (مؤنث)"
+  },
+  {
+    "english": "A: Our correspondent in London is reporting.\\nB: She has been there for five years.\\nA: An experienced correspondent.\\nB: The best we have.",
+    "arabic": "أ: مراسلتنا في لندن تُقدّم تقريراً.\\nب: إنها هناك منذ خمس سنوات.\\nأ: مراسلة ذات خبرة.\\nب: الأفضل لدينا."
+  },
+  {
+    "english": "to emphasize, to highlight",
+    "arabic": "يُبرز، يُشدّد على"
+  },
+  {
+    "english": "A: What do you want to emphasize?\\nB: I am highlighting the most important facts.\\nA: Good journalists highlight what is essential.\\nB: Yes, without exaggerating.",
+    "arabic": "أ: ما الذي تريد إبرازه؟\\nب: أُبرز الحقائق الأكثر أهمية.\\nأ: الصحفيون الجيدون يُبرزون ما هو جوهري.\\nب: نعم، دون مبالغة."
+  },
+  {
+    "english": "to explain, to elucidate",
+    "arabic": "يُفسّر، يُوضّح"
+  },
+  {
+    "english": "A: Could you please explain that?\\nB: Gladly. I will explain the background.\\nA: Please also explain the details.\\nB: Of course. I will explain everything step by step.",
+    "arabic": "أ: هل يمكنك توضيح ذلك من فضلك؟\\nب: بكل سرور. سأُفسّر الخلفية.\\nأ: وضّح التفاصيل أيضاً من فضلك.\\nب: بالطبع. سأُفسّر كل شيء خطوة بخطوة."
+  },
+  {
+    "english": "to publish, to issue",
+    "arabic": "يُصدر، ينشر"
+  },
+  {
+    "english": "A: When does the publisher release the book?\\nB: In autumn. They are releasing it in October.\\nA: Who publishes the journal?\\nB: Professor Berger publishes it.",
+    "arabic": "أ: متى يُصدر الناشر الكتاب؟\\nب: في الخريف. سيُصدرونه في أكتوبر.\\nأ: من يُصدر المجلة؟\\nب: البروفيسور بيرغر يُصدرها."
+  },
+  {
+    "english": "to present, to portray",
+    "arabic": "يعرض، يصوّر"
+  },
+  {
+    "english": "A: How does the article present the topic?\\nB: It presents it very one-sidedly.\\nA: The presentation is decisive.\\nB: Yes, same facts, different presentation, different result.",
+    "arabic": "أ: كيف يعرض المقال الموضوع؟\\nب: يعرضه بشكل أحادي الجانب جداً.\\nأ: طريقة العرض حاسمة.\\nب: نعم، نفس الحقائق، عرض مختلف، نتيجة مختلفة."
+  },
+  {
+    "english": "to criticize",
+    "arabic": "ينتقد"
+  },
+  {
+    "english": "A: Is it allowed to criticize the media?\\nB: Of course! That is freedom of expression.\\nA: How does one criticize constructively?\\nB: With facts and arguments, not with emotions.",
+    "arabic": "أ: هل يُسمح بانتقاد الإعلام؟\\nب: بالطبع! هذه حرية التعبير.\\nأ: كيف ينتقد المرء بشكل بنّاء؟\\nب: بالحقائق والحجج، لا بالمشاعر."
+  },
+  {
+    "english": "balanced",
+    "arabic": "متوازن"
+  },
+  {
+    "english": "A: Is the report balanced?\\nB: Yes, both sides have their say.\\nA: Balanced reporting is rare.\\nB: But it is the goal.",
+    "arabic": "أ: هل التقرير متوازن؟\\nب: نعم، كلا الطرفين يُعبّران عن رأيهما.\\nأ: التغطية المتوازنة نادرة.\\nب: لكنها الهدف."
+  },
+  {
+    "english": "investigative",
+    "arabic": "استقصائي"
+  },
+  {
+    "english": "A: What is investigative journalism?\\nB: In-depth research over months.\\nA: Germany has strong investigative media.\\nB: Der Spiegel and Correctiv, for example.",
+    "arabic": "أ: ما هي الصحافة الاستقصائية؟\\nب: بحث معمّق على مدى أشهر.\\nأ: ألمانيا لديها إعلام استقصائي قوي.\\nب: دير شبيغل وكوريكتيف، على سبيل المثال."
+  },
+  {
+    "english": "controversial",
+    "arabic": "مثير للجدل"
+  },
+  {
+    "english": "A: The topic is very controversial.\\nB: Yes, opinions differ widely.\\nA: Controversial topics need good journalism.\\nB: True, all sides must be heard.",
+    "arabic": "أ: الموضوع مثير للجدل جداً.\\nب: نعم، الآراء تتباين كثيراً.\\nأ: المواضيع الجدلية تحتاج إلى صحافة جيدة.\\nب: صحيح، يجب سماع جميع الأطراف."
+  },
+  {
+    "english": "expert, knowledgeable",
+    "arabic": "خبير، ملمّ بالموضوع"
+  },
+  {
+    "english": "A: Is the commentator knowledgeable?\\nB: Yes, he is an expert commentator.\\nA: Expert commentaries are valuable.\\nB: They help understand complex topics.",
+    "arabic": "أ: هل المعلّق ملمّ بالموضوع؟\\nب: نعم، هو معلّق خبير.\\nأ: التعليقات الخبيرة قيّمة.\\nب: تساعد على فهم المواضيع المعقدة."
+  },
+  {
+    "english": "public-service (broadcasting)",
+    "arabic": "خدمة عامة (بث)"
+  },
+  {
+    "english": "A: What does public-service mean?\\nB: Independent from the state, but funded by citizens.\\nA: ARD and ZDF are public-service?\\nB: Yes, and Deutschlandfunk too.",
+    "arabic": "أ: ماذا تعني الخدمة العامة؟\\nب: مستقل عن الدولة لكن تموّله المواطنون.\\nأ: ARD وZDF خدمة عامة؟\\nب: نعم، ودويتشلانفونك أيضاً."
+  },
+  {
+    "english": "German can pack an entire relative clause BEFORE a noun:\\n\\nPartizip I (active, ongoing): der berichtende Journalist = der Journalist, der berichtet\\nPartizip II (passive, completed): der veröffentlichte Bericht = der Bericht, der veröffentlicht wurde\\nExtended: die von der Regierung geplante Maßnahme = die Maßnahme, die von der Regierung geplant wurde\\nWith 'zu' (gerundive): die zu prüfende Aussage = die Aussage, die geprüft werden muss\\n\\nThese constructions appear everywhere in newspapers, academic texts, and legal documents. They compress information.",
+    "arabic": "يمكن للألمانية أن تضع جملة وصفية كاملة قبل الاسم:\\n\\nالمشارك الأول (فاعل، مستمر): der berichtende Journalist = الصحفي الذي يُقدّم تقريراً\\nالمشارك الثاني (مفعول، مكتمل): der veröffentlichte Bericht = التقرير الذي نُشر\\nموسَّع: die von der Regierung geplante Maßnahme = الإجراء الذي خططت له الحكومة\\nمع 'zu' (الصفة الإلزامية): die zu prüfende Aussage = التصريح الذي يجب فحصه\\n\\nتظهر هذه التراكيب في كل مكان في الصحف والنصوص الأكاديمية والوثائق القانونية. إنها تضغط المعلومات."
+  },
+  {
+    "english": "Written German loves compression. A relative clause ('der Bericht, der veröffentlicht wurde') takes many words. A Partizipialattribut ('der veröffentlichte Bericht') says the same in fewer words. Newspapers use them constantly because space is limited. Academic texts use them for precision. Learning to read Partizipialattribute is essential for reading German media fluently.",
+    "arabic": "الألمانية المكتوبة تحبّ الإيجاز. الجملة الوصفية ('der Bericht, der veröffentlicht wurde') تأخذ كلمات كثيرة. الصفة الاسمية ('der veröffentlichte Bericht') تقول الشيء ذاته بكلمات أقل. الصحف تستخدمها باستمرار لأن المساحة محدودة. النصوص الأكاديمية تستخدمها للدقة. تعلّم قراءة الصفات الاسمية ضروري لقراءة الإعلام الألماني بطلاقة."
+  },
+  {
+    "english": "A past verb form is placed before the noun to describe it. Ask: what structure compresses a relative clause into a single pre-noun construction?",
+    "arabic": "شكل فعل ماضٍ يُوضع قبل الاسم لوصفه. اسأل: ما التركيب الذي يضغط جملة وصفية في بنية واحدة قبل الاسم؟"
+  },
+  {
+    "english": "Use the Partizip II of 'planen' as an adjective before a feminine noun. Choose the correct adjectival ending.",
+    "arabic": "استخدم المشارك الثاني من 'planen' كصفة قبل اسم مؤنث. اختر النهاية الصفتية الصحيحة."
+  },
+  {
+    "english": "The measure planned by the government affects all citizens.",
+    "arabic": "الإجراء الذي خططت له الحكومة يؤثر على جميع المواطنين."
+  },
+  {
+    "english": "German passive alternatives and adversative clauses. Learn elegant ways to express actions without using the standard passive, and contrast opposing viewpoints.",
+    "arabic": "بدائل المبني للمجهول الألمانية والجمل التناقضية. تعلّم طرقاً أنيقة للتعبير عن الأفعال دون استخدام المبني للمجهول القياسي، وقابل وجهات النظر المتعارضة."
+  },
+  {
+    "english": "Master passive alternatives (sich lassen, sein + zu, -bar)",
+    "arabic": "أتقن بدائل المبني للمجهول (sich lassen، sein + zu، -bar)"
+  },
+  {
+    "english": "Learn adversative clauses (während, wohingegen, anstatt dass)",
+    "arabic": "تعلّم الجمل التناقضية (während، wohingegen، anstatt dass)"
+  },
+  {
+    "english": "Discuss media ethics and press conferences",
+    "arabic": "ناقش أخلاقيات الإعلام ومؤتمرات الصحفيين"
+  },
+  {
+    "english": "Verumius sits at his desk. On the screen: a press conference, live. The minister speaks. The journalists ask questions. Verumius hears something new in the language.",
+    "arabic": "يجلس فيروميوس على مكتبه. على الشاشة: مؤتمر صحفي مباشر. الوزير يتكلم. الصحفيون يطرحون أسئلة. يسمع فيروميوس شيئاً جديداً في اللغة."
+  },
+  {
+    "english": "'That cannot be confirmed.' 'The situation is barely manageable.' 'Instead of asking those affected...' They never say directly: 'We cannot do that.' They say it elegantly. Differently.",
+    "arabic": "'لا يمكن تأكيد ذلك.' 'الوضع بالكاد يمكن إدارته.' 'بدلاً من سؤال المتأثرين...' لا يقولون مباشرة: 'لا نستطيع فعل ذلك.' يقولونها بأناقة. بطريقة مختلفة."
+  },
+  {
+    "english": "The language of the press conference is a world of its own. Passive without passive. Criticism without direct attack. Verumius wants to master that too.",
+    "arabic": "لغة مؤتمر الصحفيين عالم خاص بذاته. مبني للمجهول دون مبني للمجهول. انتقاد دون هجوم مباشر. فيروميوس يريد إتقان ذلك أيضاً."
+  },
+  {
+    "english": "press conference",
+    "arabic": "مؤتمر صحفي"
+  },
+  {
+    "english": "A: When is the press conference?\\nB: At 2 PM in the chancellery.\\nA: Who is speaking at the press conference?\\nB: The minister explains the new law.",
+    "arabic": "أ: متى المؤتمر الصحفي؟\\nب: الساعة الثانية ظهراً في مستشارية الحكومة.\\nأ: من يتكلم في المؤتمر الصحفي؟\\nب: الوزير يشرح القانون الجديد."
+  },
+  {
+    "english": "press release",
+    "arabic": "بيان صحفي"
+  },
+  {
+    "english": "A: Did we receive a press release?\\nB: Yes, from the ministry.\\nA: A press release is not news.\\nB: Right, it is the controlled version.",
+    "arabic": "أ: هل استلمنا بياناً صحفياً؟\\nب: نعم، من الوزارة.\\nأ: البيان الصحفي ليس خبراً.\\nب: صحيح، إنه النسخة المتحكّم بها."
+  },
+  {
+    "english": "news agency",
+    "arabic": "وكالة أنباء"
+  },
+  {
+    "english": "A: Where does this news come from?\\nB: From the DPA, the German Press Agency.\\nA: What does a news agency do?\\nB: It supplies news to newspapers and broadcasters.",
+    "arabic": "أ: من أين يأتي هذا الخبر؟\\nب: من DPA، وكالة الأنباء الألمانية.\\nأ: ماذا تفعل وكالة الأنباء؟\\nب: تُزوّد الصحف والمذيعين بالأخبار."
+  },
+  {
+    "english": "information source",
+    "arabic": "مصدر معلومات"
+  },
+  {
+    "english": "A: What is your information source?\\nB: Several reliable information sources.\\nA: Good journalists have many information sources.\\nB: Yes, and they protect their sources.",
+    "arabic": "أ: ما هو مصدر معلوماتك؟\\nب: عدة مصادر معلومات موثوقة.\\nأ: الصحفيون الجيدون لديهم مصادر معلومات كثيرة.\\nب: نعم، ويحمون مصادرهم."
+  },
+  {
+    "english": "reach, circulation",
+    "arabic": "انتشار، توزيع"
+  },
+  {
+    "english": "A: How large is this newspaper's reach?\\nB: About two million readers.\\nA: And online?\\nB: Online the reach is even larger.",
+    "arabic": "أ: كم هو انتشار هذه الصحيفة؟\\nب: حوالي مليوني قارئ.\\nأ: وعلى الإنترنت؟\\nب: على الإنترنت الانتشار أكبر."
+  },
+  {
+    "english": "target audience",
+    "arabic": "الجمهور المستهدف"
+  },
+  {
+    "english": "A: Who is the target audience of this program?\\nB: Young adults between 18 and 30.\\nA: Every medium has a different target audience.\\nB: Yes, and the target audience determines the content.",
+    "arabic": "أ: من هو الجمهور المستهدف لهذا البرنامج؟\\nب: الشباب البالغون بين 18 و30 عاماً.\\nأ: كل وسيلة إعلام لها جمهور مستهدف مختلف.\\nب: نعم، والجمهور المستهدف يُحدّد المحتوى."
+  },
+  {
+    "english": "privacy",
+    "arabic": "الخصوصية"
+  },
+  {
+    "english": "A: Does the law protect privacy?\\nB: Yes, in Germany privacy is very important.\\nA: May journalists publish everything?\\nB: No, privacy has limits.",
+    "arabic": "أ: هل القانون يحمي الخصوصية؟\\nب: نعم، في ألمانيا الخصوصية مهمة جداً.\\nأ: هل يحق للصحفيين نشر كل شيء؟\\nب: لا، الخصوصية لها حدود."
+  },
+  {
+    "english": "data protection",
+    "arabic": "حماية البيانات"
+  },
+  {
+    "english": "A: What is data protection?\\nB: The protection of personal data.\\nA: Germany takes data protection very seriously.\\nB: Yes, the GDPR came from European initiative.",
+    "arabic": "أ: ما هي حماية البيانات؟\\nب: حماية البيانات الشخصية.\\nأ: ألمانيا تأخذ حماية البيانات بجدية كبيرة.\\nب: نعم، اللائحة الأوروبية العامة لحماية البيانات جاءت من مبادرة أوروبية."
+  },
+  {
+    "english": "to uncover, to expose",
+    "arabic": "يكشف، يُفضح"
+  },
+  {
+    "english": "A: What did the journalist uncover?\\nB: A corruption scandal.\\nA: Investigative journalism uncovers abuses.\\nB: Yes, that is its most important task.",
+    "arabic": "أ: ماذا كشف الصحفي؟\\nب: فضيحة فساد.\\nأ: الصحافة الاستقصائية تكشف الانتهاكات.\\nب: نعم، هذه هي مهمتها الأهم."
+  },
+  {
+    "english": "to reveal, to unveil",
+    "arabic": "يُفصح، يكشف النقاب"
+  },
+  {
+    "english": "A: The newspaper revealed secret documents.\\nB: A sensational revelation!\\nA: Revealing is stronger than uncovering.\\nB: Yes, it means: showing something deliberately concealed.",
+    "arabic": "أ: الصحيفة أفصحت عن وثائق سرية.\\nب: كشف مثير للدهشة!\\nأ: الإفصاح أقوى من الكشف.\\nب: نعم، يعني: إظهار شيء تم إخفاؤه عمداً."
+  },
+  {
+    "english": "to deny (officially)",
+    "arabic": "يُنكر (رسمياً)"
+  },
+  {
+    "english": "A: Did the minister deny the accusations?\\nB: Yes, he denies everything.\\nA: When politicians deny, journalists investigate harder.\\nB: Exactly, a denial is often a signal.",
+    "arabic": "أ: هل أنكر الوزير الاتهامات؟\\nب: نعم، ينكر كل شيء.\\nأ: حين يُنكر السياسيون، يُحقّق الصحفيون بشكل أكثر جدية.\\nب: بالضبط، الإنكار غالباً إشارة."
+  },
+  {
+    "english": "to suppress",
+    "arabic": "يُكبت، يُسكت"
+  },
+  {
+    "english": "A: Can the government suppress news?\\nB: In democracies that is forbidden.\\nA: But some try.\\nB: Yes, that is why we need independent media.",
+    "arabic": "أ: هل يمكن للحكومة كبت الأخبار؟\\nب: في الديمقراطيات هذا محظور.\\nأ: لكن بعضهم يحاول.\\nب: نعم، لهذا نحتاج إلى إعلام مستقل."
+  },
+  {
+    "english": "to reject, to dismiss",
+    "arabic": "يرفض، يُقصي"
+  },
+  {
+    "english": "A: Did the company reject the criticism?\\nB: Yes, it dismisses all accusations.\\nA: Zurückweisen is more formal than ablehnen.\\nB: Yes, it sounds diplomatic but firm.",
+    "arabic": "أ: هل رفضت الشركة الانتقاد؟\\nب: نعم، تُقصي جميع الاتهامات.\\nأ: zurückweisen أكثر رسمية من ablehnen.\\nب: نعم، تبدو دبلوماسية لكن حازمة."
+  },
+  {
+    "english": "to sensitize, to raise awareness",
+    "arabic": "يُحسّس، يرفع الوعي"
+  },
+  {
+    "english": "A: How can you raise awareness of media literacy?\\nB: Through education and examples.\\nA: Schools should raise awareness of it.\\nB: Yes, the earlier, the better.",
+    "arabic": "أ: كيف يمكن رفع الوعي بالثقافة الإعلامية؟\\nب: من خلال التعليم والأمثلة.\\nأ: المدارس يجب أن تُحسّس بذلك.\\nب: نعم، كلما كان أبكر كان أفضل."
+  },
+  {
+    "english": "misleading",
+    "arabic": "مضلِّل"
+  },
+  {
+    "english": "A: The headline is misleading.\\nB: Yes, it leads the readers astray.\\nA: Misleading headlines are a big problem.\\nB: They distort perception.",
+    "arabic": "أ: العنوان مضلِّل.\\nب: نعم، يُضلّل القراء.\\nأ: العناوين المضلِّلة مشكلة كبيرة.\\nب: إنها تُشوّه الإدراك."
+  },
+  {
+    "english": "questionable, dubious",
+    "arabic": "مثير للتساؤل، مشكوك فيه"
+  },
+  {
+    "english": "A: His methods are questionable.\\nB: Yes, they deserve close examination.\\nA: Questionable does not mean wrong.\\nB: No, but it means: look closely.",
+    "arabic": "أ: أساليبه مثيرة للتساؤل.\\nب: نعم، تستحق فحصاً دقيقاً.\\nأ: مثير للتساؤل لا يعني خاطئاً.\\nب: لا، لكنه يعني: انظر عن كثب."
+  },
+  {
+    "english": "sensationalist",
+    "arabic": "إثاري، مثير للإحساسات"
+  },
+  {
+    "english": "A: The headline is sensationalist.\\nB: Yes, it wants to stir emotions.\\nA: Sensationalist media exaggerate.\\nB: Reputable media stay factual.",
+    "arabic": "أ: العنوان إثاري.\\nب: نعم، يريد إثارة المشاعر.\\nأ: وسائل الإعلام الإثارية تبالغ.\\nب: وسائل الإعلام الموثوقة تبقى واقعية."
+  },
+  {
+    "english": "sensational",
+    "arabic": "مثير، مدهش"
+  },
+  {
+    "english": "A: The discovery is sensational!\\nB: But is it also true?\\nA: Sensational sounds positive.\\nB: In media criticism often negative: too much hype.",
+    "arabic": "أ: الاكتشاف مثير للدهشة!\\nب: لكن هل هو صحيح أيضاً؟\\nأ: مثير للدهشة يبدو إيجابياً.\\nب: في نقد الإعلام غالباً سلبي: مبالغة زائدة."
+  },
+  {
+    "english": "tabloid-style",
+    "arabic": "على طريقة الصحافة الصفراء"
+  },
+  {
+    "english": "A: Is that reputable or tabloid-style?\\nB: Rather tabloid-style. Big pictures, little content.\\nA: The Bild newspaper is tabloid-style.\\nB: Yes, it is Germany's largest tabloid.",
+    "arabic": "أ: هل هذا موثوق أم على طريقة الصحافة الصفراء؟\\nب: الصحافة الصفراء أقرب. صور كبيرة، محتوى قليل.\\nأ: صحيفة بيلد على طريقة الصحافة الصفراء.\\nب: نعم، هي أكبر صحيفة صفراء في ألمانيا."
+  },
+  {
+    "english": "populist",
+    "arabic": "شعبوي"
+  },
+  {
+    "english": "A: Is that populist rhetoric?\\nB: Yes, he speaks for 'the people' against 'the elites.'\\nA: Populist sounds negative.\\nB: In German media criticism, almost always.",
+    "arabic": "أ: هل هذا خطاب شعبوي؟\\nب: نعم، يتكلم باسم 'الشعب' ضد 'النخب'.\\nأ: شعبوي يبدو سلبياً.\\nب: في نقد الإعلام الألماني، دائماً تقريباً."
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "english": "Both blanks are infinitive verbs. One expresses qualitative judgment, the other expresses critical examination from behind the surface.",
+    "arabic": "الفراغان كلاهما أفعال في صيغة المصدر. أحدهما يعبّر عن حكم نوعي، والآخر يعبّر عن فحص نقدي من خلف السطح."
+  },
+  {
+    "english": "The Mensa: Schnitzel for 2.50 EUR and new friendships. Learn vocabulary for student life, practice Konjunktiv II past in conversation, and chat with fellow students.",
+    "arabic": "المطعم الجامعي: شنيتسل بسعر 2.50 يورو وصداقات جديدة. تعلّم مفردات الحياة الطلابية، وتدرّب على صيغة الكونيونكتيف الثاني في الماضي في المحادثة، وتحدّث مع زملاء الدراسة."
+  },
+  {
+    "english": "Learn 20 new words about student life and exams",
+    "arabic": "تعلّم 20 كلمة جديدة حول الحياة الطلابية والامتحانات"
+  },
+  {
+    "english": "Practice Konjunktiv II past in casual conversations",
+    "arabic": "تدرّب على الكونيونكتيف الثاني في الماضي في المحادثات غير الرسمية"
+  },
+  {
+    "english": "Discuss academic life with fellow students",
+    "arabic": "ناقش الحياة الأكاديمية مع زملاء الدراسة"
+  },
+  {
+    "english": "The Mensa. Long tables, the clatter of trays, the smell of Schnitzel for 2.50 EUR. Verumius looks at his tray. Schnitzel, potato salad, a drink. Total: 3.20 EUR. He blinks.",
+    "arabic": "المطعم الجامعي. طاولات طويلة، قعقعة الصواني، رائحة الشنيتسل بسعر 2.50 يورو. يتأمّل فيروميوس صينيته: شنيتسل، سلطة بطاطس، مشروب. المجموع: 3.20 يورو. يرمش بعينيه."
+  },
+  {
+    "english": "This costs only 3.20? In Istanbul I would not have even gotten a coffee for that.",
+    "arabic": "هذا يكلف 3.20 يورو فحسب؟ في إسطنبول لم أكن لأحصل حتى على قهوة بهذا المبلغ."
+  },
+  {
+    "english": "He sits down at a long table. A student introduces herself. 'Hi, I am Jana. Linguistics, third semester. And you?'",
+    "arabic": "يجلس على طاولة طويلة. تُعرّف طالبةٌ بنفسها: «مرحبا، أنا يانا. لغويات، الفصل الثالث. وأنت؟»"
+  },
+  {
+    "english": "Verumius. Also linguistics. First semester. Had I come to Germany earlier, I would have started sooner.",
+    "arabic": "فيروميوس. أيضاً لغويات. الفصل الأول. لو أتيت إلى ألمانيا مبكراً، لكنت بدأت في وقت أسرع."
+  },
+  {
+    "english": "the semester break",
+    "arabic": "إجازة الفصل الدراسي"
+  },
+  {
+    "english": "A: What are you doing during semester break?\\nB: I am writing my term paper.\\nA: That does not sound like a holiday.\\nB: During semester break you are never truly free.",
+    "arabic": "أ: ماذا ستفعل خلال إجازة الفصل الدراسي؟\\nب: أكتب ورقتي البحثية.\\nأ: هذا لا يبدو كإجازة حقيقية.\\nب: في إجازة الفصل الدراسي لا تكون حراً تماماً أبداً."
+  },
+  {
+    "english": "the scholarship",
+    "arabic": "المنحة الدراسية"
+  },
+  {
+    "english": "A: Do you have a scholarship?\\nB: Yes, the Deutschlandstipendium.\\nA: How much do you get?\\nB: 300 EUR per month. Not much, but it helps.",
+    "arabic": "أ: هل لديك منحة دراسية؟\\nب: نعم، منحة دويتشلاندشتيبنديوم.\\nأ: كم تحصل عليها؟\\nب: 300 يورو شهرياً. ليس كثيراً، لكنها تساعد."
+  },
+  {
+    "english": "the student dormitory",
+    "arabic": "السكن الطلابي"
+  },
+  {
+    "english": "A: Do you live in the student dormitory?\\nB: Yes, on the third floor.\\nA: How is it?\\nB: Small, but the rent is affordable.",
+    "arabic": "أ: هل تسكن في السكن الطلابي؟\\nب: نعم، في الطابق الثالث.\\nأ: كيف هو؟\\nب: صغير، لكن الإيجار مناسب."
+  },
+  {
+    "english": "the exam, the test",
+    "arabic": "الامتحان، الاختبار"
+  },
+  {
+    "english": "A: When is your next exam?\\nB: In two weeks.\\nA: Are you prepared?\\nB: Not yet. I still have a lot to study.",
+    "arabic": "أ: متى امتحانك القادم؟\\nب: بعد أسبوعين.\\nأ: هل أنت مستعد؟\\nب: ليس بعد. لا يزال أمامي الكثير لأدرسه."
+  },
+  {
+    "english": "the written exam",
+    "arabic": "الامتحان الكتابي"
+  },
+  {
+    "english": "A: How did the written exam go?\\nB: Hard. Three hours, five questions.\\nA: Did you finish everything?\\nB: Almost. The last question was too complex.",
+    "arabic": "أ: كيف سار الامتحان الكتابي؟\\nب: كان صعباً. ثلاث ساعات وخمسة أسئلة.\\nأ: هل أنهيت كل شيء؟\\nب: تقريباً. كان السؤال الأخير معقداً جداً."
+  },
+  {
+    "english": "the term paper, the research paper",
+    "arabic": "الورقة البحثية، البحث الدراسي"
+  },
+  {
+    "english": "A: Have you started the term paper yet?\\nB: No, I am still looking for a research question.\\nA: The deadline is in four weeks.\\nB: I know. The pressure is growing.",
+    "arabic": "أ: هل بدأت الورقة البحثية بعد؟\\nب: لا، لا أزال أبحث عن سؤال بحثي.\\nأ: الموعد النهائي بعد أربعة أسابيع.\\nب: أعرف. الضغط يتزايد."
+  },
+  {
+    "english": "the fellow student (male)",
+    "arabic": "زميل الدراسة"
+  },
+  {
+    "english": "A: Do you know many fellow students?\\nB: Yes, there are nice fellow students in my seminar.\\nA: Do you work together?\\nB: Sometimes. We form study groups.",
+    "arabic": "أ: هل تعرف كثيراً من زملاء الدراسة؟\\nب: نعم، هناك زملاء لطيفون في سميناري.\\nأ: هل تعملون معاً؟\\nب: أحياناً. نكوّن مجموعات دراسية."
+  },
+  {
+    "english": "the fellow student (female)",
+    "arabic": "زميلة الدراسة"
+  },
+  {
+    "english": "A: Jana is my fellow student.\\nB: Does she also study linguistics?\\nA: Yes, third semester.\\nB: An experienced fellow student then.",
+    "arabic": "أ: يانا زميلتي في الدراسة.\\nب: هل تدرس هي أيضاً اللغويات؟\\nأ: نعم، الفصل الثالث.\\nب: إذن زميلة ذات خبرة."
+  },
+  {
+    "english": "the office hours",
+    "arabic": "ساعات الاستشارة الأكاديمية"
+  },
+  {
+    "english": "A: Have you been to office hours yet?\\nB: Yes, last week at the professor's.\\nA: Did he help you?\\nB: Yes, he discussed my outline.",
+    "arabic": "أ: هل ذهبت إلى ساعات الاستشارة الأكاديمية؟\\nب: نعم، الأسبوع الماضي عند الأستاذ.\\nأ: هل ساعدك؟\\nب: نعم، ناقش معي هيكلة بحثي."
+  },
+  {
+    "english": "the examination regulations",
+    "arabic": "لوائح الامتحانات"
+  },
+  {
+    "english": "A: Have you read the examination regulations?\\nB: Yes, it is 40 pages long.\\nA: 40 pages?\\nB: German thoroughness. Every rule is in there.",
+    "arabic": "أ: هل قرأت لوائح الامتحانات؟\\nب: نعم، تقع في 40 صفحة.\\nأ: 40 صفحة؟\\nب: الدقة الألمانية. كل قاعدة مذكورة فيها."
+  },
+  {
+    "english": "to submit",
+    "arabic": "يُسلّم، يُقدّم"
+  },
+  {
+    "english": "A: When do you have to submit the paper?\\nB: By next Friday.\\nA: Will you manage?\\nB: I must. A deadline is a deadline.",
+    "arabic": "أ: متى يجب أن تُسلّم البحث؟\\nب: بحلول الجمعة القادمة.\\nأ: هل ستتمكن من ذلك؟\\nب: يجب عليّ. الموعد النهائي هو الموعد النهائي."
+  },
+  {
+    "english": "to specialize",
+    "arabic": "يتخصص"
+  },
+  {
+    "english": "A: What do you specialize in?\\nB: I specialize in computational linguistics.\\nA: That is an exciting field.\\nB: Yes, the specialization is fun for me.",
+    "arabic": "أ: في ماذا تتخصص؟\\nب: أتخصص في اللغويات الحاسوبية.\\nأ: هذا مجال مثير للاهتمام.\\nب: نعم، التخصص ممتع بالنسبة لي."
+  },
+  {
+    "english": "to give a presentation, to present",
+    "arabic": "يُقدّم عرضاً، يعرض"
+  },
+  {
+    "english": "A: Who is presenting next week?\\nB: Me. About nominalization.\\nA: Are you nervous?\\nB: A little. My first presentation in German.",
+    "arabic": "أ: من سيُقدّم العرض الأسبوع القادم؟\\nب: أنا. حول التسمية.\\nأ: هل أنت متوتر؟\\nب: قليلاً. هذا أول عرض لي باللغة الألمانية."
+  },
+  {
+    "english": "to publish",
+    "arabic": "ينشر"
+  },
+  {
+    "english": "A: Have you published anything yet?\\nB: Not yet. Only after the Master's.\\nA: The professor has published a lot.\\nB: Yes, over 50 articles. That is impressive.",
+    "arabic": "أ: هل نشرت شيئاً حتى الآن؟\\nب: ليس بعد. فقط بعد الماجستير.\\nأ: الأستاذ نشر الكثير.\\nب: نعم، أكثر من 50 مقالة. هذا رائع."
+  },
+  {
+    "english": "to earn a doctorate, to do a PhD",
+    "arabic": "يحصل على الدكتوراه، يُنجز رسالة دكتوراه"
+  },
+  {
+    "english": "A: Would you like to do a PhD?\\nB: Maybe. First finish the Master's.\\nA: How long does a doctorate take?\\nB: Three to five years, depending on the department.",
+    "arabic": "أ: هل تودّ الحصول على الدكتوراه؟\\nب: ربما. أولاً أُنهي الماجستير.\\nأ: كم يستغرق الدكتوراه؟\\nب: من ثلاث إلى خمس سنوات، حسب القسم."
+  },
+  {
+    "english": "reliable",
+    "arabic": "موثوق، يُعتمد عليه"
+  },
+  {
+    "english": "A: Is Wikipedia a reliable source?\\nB: For a starting point yes, but not as the only one.\\nA: What is more reliable?\\nB: Academic journals and primary sources.",
+    "arabic": "أ: هل ويكيبيديا مصدر موثوق؟\\nب: كنقطة بداية نعم، لكن ليست المصدر الوحيد.\\nأ: ما هو أكثر موثوقية؟\\nب: المجلات الأكاديمية والمصادر الأولية."
+  },
+  {
+    "english": "well-founded, substantiated",
+    "arabic": "مؤسَّس، مدعوم بأدلة"
+  },
+  {
+    "english": "A: How must a good thesis be?\\nB: Well-founded. Every claim needs evidence.\\nA: What does 'fundiert' mean exactly?\\nB: Built on a solid foundation.",
+    "arabic": "أ: كيف يجب أن تكون الأطروحة الجيدة؟\\nب: مؤسَّسة. كل ادعاء يحتاج دليلاً.\\nأ: ماذا تعني كلمة «fundiert» بالضبط؟\\nب: مبنية على أساس متين."
+  },
+  {
+    "english": "complex",
+    "arabic": "معقد"
+  },
+  {
+    "english": "A: The research question is quite complex.\\nB: Yes, but complexity is no reason to give up.\\nA: How do you deal with it?\\nB: I break the complex into simple parts.",
+    "arabic": "أ: السؤال البحثي معقد جداً.\\nب: نعم، لكن التعقيد ليس سبباً للاستسلام.\\nأ: كيف تتعامل معه؟\\nب: أجزّئ المعقد إلى أجزاء بسيطة."
+  },
+  {
+    "english": "sound, valid (of arguments)",
+    "arabic": "سليم، صحيح (من حيث الحجج)"
+  },
+  {
+    "english": "A: Is the argument sound?\\nB: Yes, it withstands any criticism.\\nA: How do you know?\\nB: I checked it from three perspectives.",
+    "arabic": "أ: هل الحجة سليمة؟\\nب: نعم، إنها تصمد أمام أي نقد.\\nأ: كيف تعرف ذلك؟\\nب: فحصتها من ثلاث زوايا."
+  },
+  {
+    "english": "comprehensive",
+    "arabic": "شامل"
+  },
+  {
+    "english": "A: How thorough was the investigation?\\nB: Very comprehensive. All aspects were considered.\\nA: That is impressive.\\nB: Comprehensive research takes time.",
+    "arabic": "أ: كم كان البحث شاملاً؟\\nب: شامل جداً. أُخذت جميع الجوانب بعين الاعتبار.\\nأ: هذا رائع.\\nب: البحث الشامل يستغرق وقتاً."
+  },
+  {
+    "english": "'Hätte ... begonnen' and 'wäre ... eingetreten' are hypothetical past. 'Forschung' and 'Verbesserung' are nominalized verbs.",
+    "arabic": "«Hätte ... begonnen» و«wäre ... eingetreten» هما صيغتا الماضي الافتراضي. «Forschung» و«Verbesserung» أفعال منوّمة (مصدرية)."
+  },
+  {
+    "english": "Kommen uses sein in the Perfekt. Which Konjunktiv II Vergangenheit auxiliary do sein-verbs take?",
+    "arabic": "الفعل «kommen» يستخدم «sein» في زمن الماضي التام. ما هو الفعل المساعد الذي تأخذه أفعال «sein» في الكونيونكتيف الثاني للماضي؟"
+  },
+  {
+    "english": "Verumius says: 'Had I come to Germany earlier, I would have started sooner.'",
+    "arabic": "يقول فيروميوس: «لو أتيت إلى ألمانيا مبكراً، لكنت بدأت في وقت أسرع.»"
+  },
+  {
+    "english": "After the class, the written assignment must be submitted. Two university-specific nouns.",
+    "arabic": "بعد المحاضرة، يجب تسليم الواجب الكتابي. اسمان يخصّان البيئة الجامعية."
+  },
+  {
+    "english": "Verumius pushes the empty tray back. 3.20 EUR for a warm meal, new acquaintances, and the feeling of belonging. The Mensa is not a restaurant. It is an institution.",
+    "arabic": "يدفع فيروميوس الصينية الفارغة جانباً. 3.20 يورو مقابل وجبة دافئة، ومعارف جديدة، والشعور بالانتماء. المطعم الجامعي ليس مطعماً عادياً. إنه مؤسسة."
+  },
+  {
+    "english": "Jana gave me the tip: the library on the third floor has the best workspaces. Had I not met her in the Mensa, I would not know that. This is how university works: you learn on the side.",
+    "arabic": "أعطتني يانا نصيحة: مكتبة الطابق الثالث تحتوي على أفضل أماكن العمل. لو لم أقابلها في المطعم الجامعي، ما كنت لأعرف ذلك. هكذا تعمل الجامعة: تتعلم في الهامش."
+  },
+  {
+    "english": "Verumius meets Yilmaz in the university library. His advisor helps with the Hausarbeit. Learn vocabulary for academic writing, practice all three grammar constructions, and understand German citation rules.",
+    "arabic": "يلتقي فيروميوس بيلماظ في مكتبة الجامعة. يساعده مستشاره في الورقة البحثية. تعلّم مفردات الكتابة الأكاديمية، وتدرّب على أنواع التراكيب النحوية الثلاثة، وافهم قواعد الاستشهاد الألمانية."
+  },
+  {
+    "english": "Learn 20 new words for academic writing",
+    "arabic": "تعلّم 20 كلمة جديدة للكتابة الأكاديمية"
+  },
+  {
+    "english": "Practice Konjunktiv II past, Nominalisierung, and Verbalisierung",
+    "arabic": "تدرّب على الكونيونكتيف الثاني في الماضي، والتسمية، والفعلنة"
+  },
+  {
+    "english": "Understand German citation and plagiarism rules",
+    "arabic": "افهم قواعد الاستشهاد والسرقة الأدبية في ألمانيا"
+  },
+  {
+    "english": "University library. Reading room with long wooden tables and green reading lamps. Books pile up around Verumius. Yilmaz sits across from him. Their relationship has evolved: from teacher to advisor, from mentor to near-equal.",
+    "arabic": "مكتبة الجامعة. قاعة القراءة مع طاولات خشبية طويلة ومصابيح قراءة خضراء. تتراكم الكتب حول فيروميوس. يجلس يلماظ في مواجهته. تطوّرت علاقتهما: من معلم إلى مستشار، ومن موجّه إلى شبه نظير."
+  },
+  {
+    "english": "Verumius, your outline is good. But the introduction needs a clearer research question. And do not forget the footnotes.",
+    "arabic": "فيروميوس، هيكلة بحثك جيدة. لكن المقدمة تحتاج إلى سؤال بحثي أوضح. ولا تنس الحواشي السفلية."
+  },
+  {
+    "english": "Had I known how strict the rules are, I would have started the research earlier.",
+    "arabic": "لو كنت أعرف مدى صرامة القواعد، لكنت بدأت البحث في وقت أبكر."
+  },
+  {
+    "english": "Every claim needs proof. Every quote needs a source citation. No plagiarism. That is the foundation of academic work.",
+    "arabic": "كل ادعاء يحتاج دليلاً. كل اقتباس يحتاج توثيقاً للمصدر. لا سرقة أدبية. هذا هو أساس العمل الأكاديمي."
+  },
+  {
+    "english": "the diploma thesis",
+    "arabic": "رسالة الدبلوم"
+  },
+  {
+    "english": "A: Did your father write a diploma thesis?\\nB: Yes, in engineering.\\nA: Does the diploma still exist?\\nB: No, now there is Bachelor's and Master's.",
+    "arabic": "أ: هل كتب والدك رسالة الدبلوم؟\\nب: نعم، في الهندسة.\\nأ: هل لا يزال الدبلوم موجوداً؟\\nب: لا، الآن هناك البكالوريوس والماجستير."
+  },
+  {
+    "english": "the doctoral thesis",
+    "arabic": "رسالة الدكتوراه"
+  },
+  {
+    "english": "A: How long does one write a doctoral thesis?\\nB: Three to seven years.\\nA: That long?\\nB: Yes, a dissertation is a book.",
+    "arabic": "أ: كم من الوقت يستغرق كتابة رسالة الدكتوراه؟\\nب: من ثلاث إلى سبع سنوات.\\nأ: هذا وقت طويل؟\\nب: نعم، الرسالة كتاب."
+  },
+  {
+    "english": "the bibliography",
+    "arabic": "قائمة المراجع"
+  },
+  {
+    "english": "A: How many sources are in your bibliography?\\nB: Over thirty.\\nA: That is a lot.\\nB: Every single source must be verifiable.",
+    "arabic": "أ: كم عدد المصادر في قائمة مراجعك؟\\nب: أكثر من ثلاثين.\\nأ: هذا كثير.\\nب: كل مصدر يجب أن يكون قابلاً للتحقق."
+  },
+  {
+    "english": "the footnote",
+    "arabic": "الحاشية السفلية"
+  },
+  {
+    "english": "A: How many footnotes does your paper have?\\nB: Already over fifty.\\nA: Fifty footnotes?\\nB: Yes, every claim needs a footnote.",
+    "arabic": "أ: كم حاشية سفلية في بحثك؟\\nب: أكثر من خمسين بالفعل.\\nأ: خمسون حاشية؟\\nب: نعم، كل ادعاء يحتاج حاشية سفلية."
+  },
+  {
+    "english": "the introduction",
+    "arabic": "المقدمة"
+  },
+  {
+    "english": "A: What belongs in the introduction?\\nB: The research question, the method, the outline.\\nA: And the thesis?\\nB: Yes, the thesis comes at the end of the introduction.",
+    "arabic": "أ: ما الذي ينتمي إلى المقدمة؟\\nب: السؤال البحثي، والمنهجية، والهيكلة.\\nأ: والأطروحة؟\\nب: نعم، الأطروحة تأتي في نهاية المقدمة."
+  },
+  {
+    "english": "the outline, the structure",
+    "arabic": "الهيكلة، البنية"
+  },
+  {
+    "english": "A: Do you have an outline yet?\\nB: Yes, three main chapters with subchapters.\\nA: Show me the outline.\\nB: Here: introduction, main body, conclusion.",
+    "arabic": "أ: هل لديك هيكلة حتى الآن؟\\nب: نعم، ثلاثة فصول رئيسية مع فصول فرعية.\\nأ: أرني الهيكلة.\\nب: ها هي: مقدمة، صلب الموضوع، خاتمة."
+  },
+  {
+    "english": "the proof, the evidence",
+    "arabic": "الدليل، البرهان"
+  },
+  {
+    "english": "A: Do you have proof for this claim?\\nB: Yes, three studies support it.\\nA: Good. Nothing works without proof.\\nB: I have learned that.",
+    "arabic": "أ: هل لديك دليل على هذا الادعاء؟\\nب: نعم، ثلاث دراسات تدعمه.\\nأ: جيد. لا شيء يعمل بدون دليل.\\nب: لقد تعلمت ذلك."
+  },
+  {
+    "english": "the plagiarism",
+    "arabic": "السرقة الأدبية"
+  },
+  {
+    "english": "A: What happens with plagiarism?\\nB: You fail. In the worst case: expulsion.\\nA: That strict?\\nB: Yes. Plagiarism is a serious offense in Germany.",
+    "arabic": "أ: ماذا يحدث في حالة السرقة الأدبية؟\\nب: ترسب. وفي أسوأ الحالات: الفصل من الجامعة.\\nأ: بهذه الصرامة؟\\nب: نعم. السرقة الأدبية جريمة خطيرة في ألمانيا."
+  },
+  {
+    "english": "the research, the investigation",
+    "arabic": "البحث، التحقيق"
+  },
+  {
+    "english": "A: How far along are you with the research?\\nB: Almost done. I found all sources.\\nA: Thorough research is half the work.\\nB: That is true. The research took weeks.",
+    "arabic": "أ: إلى أي مدى وصل بحثك؟\\nب: تقريباً انتهيت. وجدت جميع المصادر.\\nأ: البحث الدقيق نصف العمل.\\nب: هذا صحيح. استغرق البحث أسابيع."
+  },
+  {
+    "english": "the order, the sequence",
+    "arabic": "الترتيب، التسلسل"
+  },
+  {
+    "english": "A: In what order do I write the chapters?\\nB: Introduction last. First the main body.\\nA: Really? The introduction last?\\nB: Yes, that way you know the right sequence.",
+    "arabic": "أ: بأي ترتيب أكتب الفصول؟\\nب: المقدمة أخيراً. الصلب أولاً.\\nأ: حقاً؟ المقدمة أخيراً؟\\nب: نعم، بهذه الطريقة تعرف التسلسل الصحيح."
+  },
+  {
+    "english": "to write, to author",
+    "arabic": "يكتب، يؤلّف"
+  },
+  {
+    "english": "A: How long did it take you to write the text?\\nB: Three weeks for the first draft.\\nA: And then?\\nB: Then I revised it.",
+    "arabic": "أ: كم استغرق كتابة النص؟\\nب: ثلاثة أسابيع للمسودة الأولى.\\nأ: وبعد ذلك؟\\nب: ثم راجعته."
+  },
+  {
+    "english": "to paraphrase",
+    "arabic": "يُعيد الصياغة"
+  },
+  {
+    "english": "A: May I quote the author directly?\\nB: Yes, but it is better to paraphrase.\\nA: What is the difference?\\nB: When paraphrasing you reformulate the idea.",
+    "arabic": "أ: هل يمكنني الاقتباس من المؤلف مباشرة؟\\nب: نعم، لكن من الأفضل إعادة الصياغة.\\nأ: ما الفرق؟\\nب: عند إعادة الصياغة تُعيد صياغة الفكرة."
+  },
+  {
+    "english": "to quote, to cite",
+    "arabic": "يقتبس، يستشهد"
+  },
+  {
+    "english": "A: How do I cite correctly?\\nB: Name, year, page number in the footnote.\\nA: And in the bibliography?\\nB: There goes the complete source citation.",
+    "arabic": "أ: كيف أستشهد بالمصادر بشكل صحيح؟\\nب: الاسم، السنة، رقم الصفحة في الحاشية السفلية.\\nأ: وفي قائمة المراجع؟\\nب: هناك يُذكر الاستشهاد الكامل بالمصدر."
+  },
+  {
+    "english": "to reconstruct",
+    "arabic": "يُعيد بناء، يُعيد تركيب"
+  },
+  {
+    "english": "A: Can you reconstruct the author's argument?\\nB: Yes. He argues in three steps.\\nA: Which ones?\\nB: Thesis, justification, conclusion.",
+    "arabic": "أ: هل يمكنك إعادة بناء حجة المؤلف؟\\nب: نعم. يتحجج في ثلاث خطوات.\\nأ: أيّها؟\\nب: أطروحة، تبرير، استنتاج."
+  },
+  {
+    "english": "to revise, to rework",
+    "arabic": "يُراجع، يُعيد صياغة"
+  },
+  {
+    "english": "A: How often did you revise the text?\\nB: Three times. The first draft is never good enough.\\nA: That sounds like a lot of work.\\nB: Revision is the most important step.",
+    "arabic": "أ: كم مرة راجعت النص؟\\nب: ثلاث مرات. المسودة الأولى لا تكون كافية أبداً.\\nأ: يبدو هذا عملاً كثيراً.\\nب: المراجعة هي أهم خطوة."
+  },
+  {
+    "english": "to prove, to demonstrate",
+    "arabic": "يُثبت، يُبرهن"
+  },
+  {
+    "english": "A: Can this thesis be proven?\\nB: Yes, the data clearly demonstrate it.\\nA: How?\\nB: Through statistical analysis.",
+    "arabic": "أ: هل يمكن إثبات هذه الأطروحة؟\\nب: نعم، البيانات تُبرهن عليها بوضوح.\\nأ: كيف؟\\nب: من خلال التحليل الإحصائي."
+  },
+  {
+    "english": "to refer, to cite",
+    "arabic": "يُشير إلى، يستشهد بـ"
+  },
+  {
+    "english": "A: Which source does the author refer to?\\nB: He refers to a study from 2019.\\nA: Is the study reliable?\\nB: Yes, it was published in an academic journal.",
+    "arabic": "أ: إلى أي مصدر يُشير المؤلف؟\\nب: يُشير إلى دراسة من عام 2019.\\nأ: هل الدراسة موثوقة؟\\nب: نعم، نُشرت في مجلة أكاديمية."
+  },
+  {
+    "english": "to deepen, to explore in depth",
+    "arabic": "يُعمّق، يتعمق في"
+  },
+  {
+    "english": "A: Would you like to explore the topic in depth?\\nB: Yes, I want to deepen the analysis.\\nA: In which direction?\\nB: I want to deepen the theoretical framework.",
+    "arabic": "أ: هل تودّ التعمق في الموضوع؟\\nب: نعم، أريد تعميق التحليل.\\nأ: في أي اتجاه؟\\nب: أريد تعميق الإطار النظري."
+  },
+  {
+    "english": "analytical",
+    "arabic": "تحليلي"
+  },
+  {
+    "english": "A: What does analytical thinking mean?\\nB: Breaking problems into parts and solving them systematically.\\nA: Is that important in studies?\\nB: It is the most important skill.",
+    "arabic": "أ: ماذا يعني التفكير التحليلي؟\\nب: تجزئة المشكلات إلى أجزاء وحلها بشكل منهجي.\\nأ: هل هذا مهم في الدراسة؟\\nب: هو المهارة الأهم."
+  },
+  {
+    "english": "significant",
+    "arabic": "ذو دلالة، ذو أهمية"
+  },
+  {
+    "english": "A: Are the results significant?\\nB: Yes, statistically significant.\\nA: What does that mean exactly?\\nB: The result is very probably not a coincidence.",
+    "arabic": "أ: هل النتائج ذات دلالة إحصائية؟\\nب: نعم، ذات دلالة إحصائية.\\nأ: ماذا يعني ذلك بالضبط؟\\nب: النتيجة على الأرجح ليست مصادفة."
+  },
+  {
+    "english": "'Hätte ... nachgewiesen' and 'wäre ... ausgefallen' are hypothetical past. 'Recherche', 'Verbesserung', 'Schlussfolgerung' are all nominalized forms.",
+    "arabic": "«Hätte ... nachgewiesen» و«wäre ... ausgefallen» هما صيغتا الماضي الافتراضي. «Recherche» و«Verbesserung» و«Schlussfolgerung» جميعها أشكال مُسمَّمة (مصدرية)."
+  },
+  {
+    "english": "The section at the end of a paper where all cited sources are listed alphabetically.",
+    "arabic": "القسم في نهاية البحث حيث تُدرج جميع المصادر المستشهد بها أبجدياً."
+  },
+  {
+    "english": "All sources used are listed alphabetically in the bibliography.",
+    "arabic": "جميع المصادر المستخدمة مُدرجة أبجدياً في قائمة المراجع."
+  },
+  {
+    "english": "to research, to investigate",
+    "arabic": "يبحث، يُحقق"
+  },
+  {
+    "english": "A: Have you researched the topic well?\\nB: Yes, I searched three databases.\\nA: How long did you research?\\nB: Five hours. Thorough research takes time.",
+    "arabic": "أ: هل بحثت في الموضوع جيداً؟\\nب: نعم، بحثت في ثلاث قواعد بيانات.\\nأ: كم استغرق البحث؟\\nب: خمس ساعات. البحث الدقيق يستغرق وقتاً."
+  },
+  {
+    "english": "Two academic verbs: first you search for sources, then you evaluate the results. Both are examples of verbalization.",
+    "arabic": "فعلان أكاديميان: أولاً تبحث عن المصادر، ثم تُقيّم النتائج. كلاهما مثالان على الفعلنة."
+  },
+  {
+    "english": "Verumius, one last thing. The term paper is not the goal. It is the tool. You are learning to follow a thought to its conclusion. That is the real skill.",
+    "arabic": "فيروميوس، شيء أخير. الورقة البحثية ليست الهدف. إنها الأداة. أنت تتعلم كيف تتبع فكرة حتى استنتاجها. هذه هي المهارة الحقيقية."
+  },
+  {
+    "english": "Ten PM. The library closes. Verumius packs his books. The outline is done. The research question is formulated. Had someone told him a year ago that he would write an academic paper in German, he would have taken it for a bad joke.",
+    "arabic": "العاشرة مساءً. تُغلق المكتبة أبوابها. يحزم فيروميوس كتبه. الهيكلة جاهزة. السؤال البحثي مصاغ. لو أخبره أحد قبل عام أنه سيكتب ورقة أكاديمية باللغة الألمانية، لاعتبر الأمر مزحة سمجة."
+  },
+  {
+    "english": "Test everything from Unit 25. Prove you have mastered academic German, can use Konjunktiv II past, and switch between nominal and verbal style.",
+    "arabic": "اختبر كل شيء من الوحدة 25. أثبت أنك أتقنت الألمانية الأكاديمية، ويمكنك استخدام الكونيونكتيف الثاني في الماضي، والتبديل بين الأسلوب الاسمي والفعلي."
+  },
+  {
+    "english": "Test everything from Unit 25",
+    "arabic": "اختبر كل شيء من الوحدة 25"
+  },
+  {
+    "english": "Master Konjunktiv II past, Nominalisierung, and Verbalisierung",
+    "arabic": "أتقن الكونيونكتيف الثاني في الماضي، والتسمية، والفعلنة"
+  },
+  {
+    "english": "Navigate academic German confidently",
+    "arabic": "تنقّل في الألمانية الأكاديمية بثقة"
+  },
+  {
+    "english": "Early morning, Dahlem. The campus lies quiet. Verumius sits in the empty library. In front of him: flashcards, notes, highlighted text passages. Today is the day that shows whether the last weeks have left their mark.",
+    "arabic": "الصباح الباكر، داهلم. الحرم الجامعي هادئ. يجلس فيروميوس في المكتبة الفارغة. أمامه: بطاقات المراجعة، والملاحظات، ومقاطع النص المُعلَّمة. اليوم هو اليوم الذي سيُظهر ما إذا كانت الأسابيع الأخيرة قد تركت أثرها."
+  },
+  {
+    "english": "the research question",
+    "arabic": "السؤال البحثي"
+  },
+  {
+    "english": "A: What is your research question?\\nB: Does nominalization affect comprehensibility?\\nA: That is a clear research question.\\nB: Without a research question, no direction.",
+    "arabic": "أ: ما سؤالك البحثي؟\\nب: هل يؤثر التسمية على مدى الفهم؟\\nأ: هذا سؤال بحثي واضح.\\nب: بدون سؤال بحثي، لا اتجاه."
+  },
+  {
+    "english": "the research result",
+    "arabic": "نتيجة البحث"
+  },
+  {
+    "english": "A: What are the most important research results?\\nB: Nominalization reduces readability by 30 percent.\\nA: A clear research result.\\nB: Yes, the data are unambiguous.",
+    "arabic": "أ: ما أهم نتائج البحث؟\\nب: التسمية تُقلّل القابلية للقراءة بنسبة 30 بالمئة.\\nأ: نتيجة بحثية واضحة.\\nب: نعم، البيانات لا لبس فيها."
+  },
+  {
+    "english": "the department, the disciplinary area",
+    "arabic": "القسم، المجال التخصصي"
+  },
+  {
+    "english": "A: In which department do you study?\\nB: In the department of linguistics and literature.\\nA: That is a large department.\\nB: Yes, with over 2000 students.",
+    "arabic": "أ: في أي قسم تدرس؟\\nب: في قسم اللغويات والأدب.\\nأ: هذا قسم كبير.\\nب: نعم، يضم أكثر من 2000 طالب."
+  },
+  {
+    "english": "the field of expertise",
+    "arabic": "مجال التخصص"
+  },
+  {
+    "english": "A: What is your field of expertise?\\nB: Computational linguistics.\\nA: A modern field.\\nB: Yes, it connects language and technology.",
+    "arabic": "أ: ما مجال تخصصك؟\\nب: اللغويات الحاسوبية.\\nأ: مجال حديث.\\nب: نعم، يربط اللغة بالتكنولوجيا."
+  },
+  {
+    "english": "the technical language, the jargon",
+    "arabic": "اللغة المتخصصة، المصطلحات الفنية"
+  },
+  {
+    "english": "A: The technical language of medicine is difficult.\\nB: Yes, many Latin terms.\\nA: Every field has its own technical language.\\nB: Linguists even study technical language itself.",
+    "arabic": "أ: اللغة المتخصصة للطب صعبة.\\nب: نعم، مصطلحات لاتينية كثيرة.\\nأ: كل مجال له لغته المتخصصة.\\nب: اللغويون يدرسون اللغة المتخصصة ذاتها."
+  },
+  {
+    "english": "the university, the college",
+    "arabic": "الجامعة، مؤسسة التعليم العالي"
+  },
+  {
+    "english": "A: What is the difference between university and Hochschule?\\nB: Hochschule is the umbrella term.\\nA: So all universities are Hochschulen?\\nB: Yes, but not all Hochschulen are universities.",
+    "arabic": "أ: ما الفرق بين الجامعة و«Hochschule»؟\\nب: «Hochschule» هو المصطلح الأشمل.\\nأ: إذن كل الجامعات هي «Hochschulen»؟\\nب: نعم، لكن ليس كل «Hochschulen» جامعات."
+  },
+  {
+    "english": "the certificate of achievement",
+    "arabic": "شهادة الإنجاز، الشهادة التحصيلية"
+  },
+  {
+    "english": "A: Do you have all certificates of achievement?\\nB: I am still missing one.\\nA: Which one?\\nB: The certificate for the introductory seminar.",
+    "arabic": "أ: هل لديك جميع شهادات الإنجاز؟\\nب: لا تزال تنقصني واحدة.\\nأ: أيّها؟\\nب: شهادة الندوة التمهيدية."
+  },
+  {
+    "english": "the office of the university president",
+    "arabic": "مكتب رئاسة الجامعة"
+  },
+  {
+    "english": "A: Where is the president's office?\\nB: In the main building, third floor.\\nA: What happens there?\\nB: University policy is decided there.",
+    "arabic": "أ: أين يقع مكتب رئاسة الجامعة؟\\nب: في المبنى الرئيسي، الطابق الثالث.\\nأ: ماذا يجري هناك؟\\nب: هناك تُقرَّر سياسات الجامعة."
+  },
+  {
+    "english": "the effectiveness",
+    "arabic": "الفاعلية"
+  },
+  {
+    "english": "A: How do you test the effectiveness of a method?\\nB: Through empirical investigations.\\nA: And if the effectiveness is low?\\nB: Then you change the method.",
+    "arabic": "أ: كيف تختبر فاعلية منهجية ما؟\\nب: من خلال الأبحاث التجريبية.\\nأ: وإذا كانت الفاعلية منخفضة؟\\nب: إذن تُغيّر المنهجية."
+  },
+  {
+    "english": "the random sample",
+    "arabic": "العيّنة العشوائية"
+  },
+  {
+    "english": "A: How large is your sample?\\nB: 200 texts from five departments.\\nA: Is that representative?\\nB: Yes, the sample is large enough.",
+    "arabic": "أ: كم حجم عيّنتك؟\\nب: 200 نص من خمسة أقسام.\\nأ: هل هذا تمثيلي؟\\nب: نعم، العيّنة كبيرة بما يكفي."
+  },
+  {
+    "english": "to apply",
+    "arabic": "يُطبّق"
+  },
+  {
+    "english": "A: Which methods do you apply?\\nB: Qualitative and quantitative methods.\\nA: Can you apply both at the same time?\\nB: Yes, that is called mixed methods.",
+    "arabic": "أ: ما المناهج التي تُطبّقها؟\\nب: المناهج النوعية والكمية.\\nأ: هل يمكنك تطبيق كليهما في آنٍ واحد؟\\nب: نعم، يُسمى ذلك المناهج المختلطة."
+  },
+  {
+    "english": "to set up, to propose",
+    "arabic": "يضع، يقترح"
+  },
+  {
+    "english": "A: Have you proposed a hypothesis yet?\\nB: Yes, I propose the following hypothesis.\\nA: And how do you want to test it?\\nB: Through the analysis of my sample.",
+    "arabic": "أ: هل اقترحت فرضية حتى الآن؟\\nب: نعم، أقترح الفرضية التالية.\\nأ: وكيف تريد اختبارها؟\\nب: من خلال تحليل عيّنتي."
+  },
+  {
+    "english": "to prove with evidence, to take (a course)",
+    "arabic": "يُثبت بالأدلة، يأخذ (مقرراً)"
+  },
+  {
+    "english": "A: Can you substantiate your thesis?\\nB: Yes, three studies support it.\\nA: And which courses are you taking?\\nB: Semantics and phonology.",
+    "arabic": "أ: هل يمكنك إثبات أطروحتك بالأدلة؟\\nب: نعم، ثلاث دراسات تدعمها.\\nأ: وما المقررات التي تأخذها؟\\nب: علم الدلالة وعلم الأصوات."
+  },
+  {
+    "english": "to refute, to disprove",
+    "arabic": "يدحض، يُفنّد"
+  },
+  {
+    "english": "A: Can the hypothesis be refuted?\\nB: Yes, if the data speak against it.\\nA: Is refutation bad?\\nB: No, refutation is also a result.",
+    "arabic": "أ: هل يمكن دحض الفرضية؟\\nب: نعم، إذا كانت البيانات تتعارض معها.\\nأ: هل الدحض أمر سيئ؟\\nب: لا، الدحض أيضاً نتيجة."
+  },
+  {
+    "english": "to summarize",
+    "arabic": "يُلخّص"
+  },
+  {
+    "english": "A: Can you summarize the results?\\nB: Yes, briefly: nominalization reduces readability.\\nA: Well summarized.\\nB: The summary is in the last chapter.",
+    "arabic": "أ: هل يمكنك تلخيص النتائج؟\\nب: نعم، باختصار: التسمية تُقلّل القابلية للقراءة.\\nأ: ملخَّص جيد.\\nب: الملخص في الفصل الأخير."
+  },
+  {
+    "english": "to evaluate",
+    "arabic": "يُقيّم"
+  },
+  {
+    "english": "A: How do you evaluate a teaching program?\\nB: Through surveys and performance data.\\nA: Who conducts the evaluation?\\nB: Usually an external committee.",
+    "arabic": "أ: كيف تُقيّم برنامجاً تعليمياً؟\\nب: من خلال الاستبيانات وبيانات الأداء.\\nأ: من يُجري التقييم؟\\nب: عادةً لجنة خارجية."
+  },
+  {
+    "english": "to document",
+    "arabic": "يُوثّق"
+  },
+  {
+    "english": "A: Did you document everything?\\nB: Yes, every step of the research.\\nA: Why is documentation so important?\\nB: So others can verify the results.",
+    "arabic": "أ: هل وثّقت كل شيء؟\\nب: نعم، كل خطوة من خطوات البحث.\\nأ: لماذا التوثيق مهم جداً؟\\nب: حتى يتمكن الآخرون من التحقق من النتائج."
+  },
+  {
+    "english": "to differentiate",
+    "arabic": "يُفرّق، يُميّز"
+  },
+  {
+    "english": "A: Can one differentiate here?\\nB: Yes, one must differentiate between correlation and causality.\\nA: What is the difference?\\nB: Correlation does not mean causality.",
+    "arabic": "أ: هل يمكن التمييز هنا؟\\nب: نعم، يجب التمييز بين الارتباط والسببية.\\nأ: ما الفرق؟\\nب: الارتباط لا يعني السببية."
+  },
+  {
+    "english": "hypothetical",
+    "arabic": "افتراضي"
+  },
+  {
+    "english": "A: Is that a real or hypothetical situation?\\nB: Hypothetical. It did not actually happen.\\nA: What grammar do you need for that?\\nB: The Konjunktiv II.",
+    "arabic": "أ: هل هذا موقف حقيقي أم افتراضي؟\\nب: افتراضي. لم يحدث فعلاً.\\nأ: ما النحو الذي تحتاجه لذلك؟\\nب: الكونيونكتيف الثاني."
+  },
+  {
+    "english": "interdisciplinary",
+    "arabic": "متعدد التخصصات"
+  },
+  {
+    "english": "A: Is your research interdisciplinary?\\nB: Yes, it connects linguistics and computer science.\\nA: That is modern.\\nB: Interdisciplinary research is becoming ever more important.",
+    "arabic": "أ: هل بحثك متعدد التخصصات؟\\nب: نعم، يربط اللغويات وعلوم الحاسوب.\\nأ: هذا حديث.\\nب: البحث متعدد التخصصات يزداد أهمية."
+  },
+  {
+    "english": "'Hätte ... können' and 'wäre ... nachgewiesen worden' are hypothetical past. 'Stichprobe', 'Wirksamkeit', 'Methode' are nouns from verb or adjective stems.",
+    "arabic": "«Hätte ... können» و«wäre ... nachgewiesen worden» هما صيغتا الماضي الافتراضي. «Stichprobe» و«Wirksamkeit» و«Methode» أسماء مشتقة من أصول فعلية أو صفة."
+  },
+  {
+    "english": "To support a thesis with evidence. The verb that is the direct opposite of 'widerlegen' (to refute).",
+    "arabic": "دعم أطروحة بأدلة. الفعل الذي هو النقيض المباشر لـ«widerlegen» (يدحض)."
+  },
+  {
+    "english": "One must either substantiate or refute the hypothesis.",
+    "arabic": "يجب إما إثبات الفرضية بالأدلة أو دحضها."
+  },
+  {
+    "english": "A compound noun: the first part names an academic discipline, the second means region or domain. An institutional division.",
+    "arabic": "اسم مركّب: الجزء الأول يسمّي تخصصاً أكاديمياً، والجزء الثاني يعني منطقة أو مجالاً. قسم مؤسسي."
+  },
+  {
+    "english": "The first blank is the separated stem of a separable verb meaning 'to set up or establish'. The prefix lands at the end of the clause.",
+    "arabic": "الفراغ الأول هو جذر منفصل لفعل قابل للفصل يعني «يضع أو يُؤسّس». يقع البادئة في نهاية الجملة."
+  },
+  {
+    "english": "Count the grammar constructions: one uses a past hypothetical, one uses a noun form, and one turns a noun back into a verb.",
+    "arabic": "أحصِ التراكيب النحوية: واحد يستخدم الماضي الافتراضي، وواحد يستخدم الصيغة الاسمية، وواحد يُحوّل اسماً إلى فعل."
+  },
+  {
+    "english": "Verumius closes the last book. He knows the terms. He understands the patterns. Had he not experienced the academic quarter on his first day, he would never have learned that knowledge in Germany has its own rhythm.",
+    "arabic": "يُغلق فيروميوس آخر كتاب. يعرف المصطلحات. يفهم الأنماط. لو لم يُجرّب الفصل الأكاديمي في يومه الأول، ما كان ليتعلم أن المعرفة في ألمانيا لها إيقاعها الخاص."
+  },
+  {
+    "english": "Verumius presents his research. Yilmaz reflects. Mia and Lukas chime in. Learn final vocabulary, contrast academic and informal register, and celebrate academic milestones.",
+    "arabic": "يُقدّم فيروميوس بحثه. يتأمّل يلماظ. تُشارك ميا ولوكاس. تعلّم المفردات النهائية، وقارن بين المستوى الأكاديمي وغير الرسمي، واحتفل بالإنجازات الأكاديمية."
+  },
+  {
+    "english": "Present research in German",
+    "arabic": "قدّم بحثاً باللغة الألمانية"
+  },
+  {
+    "english": "Contrast academic and informal register",
+    "arabic": "قارن بين المستوى الأكاديمي وغير الرسمي"
+  },
+  {
+    "english": "Celebrate academic milestones and review all constructions",
+    "arabic": "احتفل بالإنجازات الأكاديمية وراجع جميع التراكيب النحوية"
+  },
+  {
+    "english": "Conference room in the department. Verumius stands at the lectern. His slides are clear. His outline is crisp. He has practiced this presentation fifteen times.",
+    "arabic": "قاعة الاجتماعات في القسم. يقف فيروميوس عند المنصة. شرائحه واضحة. هيكلته مرتّبة. لقد تدرّب على هذا العرض خمس عشرة مرة."
+  },
+  {
+    "english": "The research question of my term paper is: How does nominalization affect the comprehensibility of academic texts? On the basis of a sample of 200 texts I investigated whether...",
+    "arabic": "السؤال البحثي لورقتي البحثية هو: كيف تؤثر التسمية على مفهومية النصوص الأكاديمية؟ استناداً إلى عيّنة من 200 نص، قمت بالتحقيق فيما إذا..."
+  },
+  {
+    "english": "A hand goes up. A question. Verumius pauses, thinks, answers. The professor nods. A colleague says: 'Good point.'",
+    "arabic": "تُرفع يد. سؤال. يتوقف فيروميوس، يُفكّر، يُجيب. يومئ الأستاذ. يقول زميل: «نقطة جيدة.»"
+  },
+  {
+    "english": "Verumius, that was excellent. Would you have thought two years ago that you would come this far?",
+    "arabic": "فيروميوس، كان هذا رائعاً. هل كنت تعتقد قبل عامين أنك ستصل إلى هذا الحد؟"
+  },
+  {
+    "english": "No. Had someone told me that, I would have laughed. But here I am.",
+    "arabic": "لا. لو أخبرني أحد بذلك، لكنت قد ضحكت. لكنني ها أنا هنا."
+  },
+  {
+    "english": "Later. Office kitchen. Colleagues congratulate Verumius. Mia texts in the group chat.",
+    "arabic": "لاحقاً. مطبخ المكتب. يُهنّئ الزملاء فيروميوس. تكتب ميا في الدردشة الجماعية."
+  },
+  {
+    "english": "Lukas sends a voice message: 'The Roman aqueduct comparison? Typical Verumius. By the way, the music school is running. First students!'",
+    "arabic": "يُرسل لوكاس رسالة صوتية: «مقارنة القناة الرومانية؟ فيروميوس النموذجي. بالمناسبة، مدرسة الموسيقى تعمل. أول طلاب!»"
+  },
+  {
+    "english": "the survey",
+    "arabic": "الاستبيان"
+  },
+  {
+    "english": "A: Did you conduct a survey?\\nB: Yes, 150 students participated.\\nA: What did you ask?\\nB: About their reading experience with academic texts.",
+    "arabic": "أ: هل أجريت استبياناً؟\\nب: نعم، شارك 150 طالباً.\\nأ: عمّ سألت؟\\nب: عن تجربتهم في قراءة النصوص الأكاديمية."
+  },
+  {
+    "english": "the variable",
+    "arabic": "المتغير"
+  },
+  {
+    "english": "A: Which variables did you investigate?\\nB: The dependent variable is readability.\\nA: And the independent one?\\nB: The degree of nominalization.",
+    "arabic": "أ: ما المتغيرات التي بحثت فيها؟\\nب: المتغير التابع هو القابلية للقراءة.\\nأ: والمتغير المستقل؟\\nب: درجة التسمية."
+  },
+  {
+    "english": "the database",
+    "arabic": "قاعدة البيانات"
+  },
+  {
+    "english": "A: Where did you find the texts?\\nB: In a linguistic database.\\nA: Which database?\\nB: The German Reference Corpus.",
+    "arabic": "أ: أين وجدت النصوص؟\\nب: في قاعدة بيانات لغوية.\\nأ: أي قاعدة بيانات؟\\nب: المدوّنة المرجعية الألمانية."
+  },
+  {
+    "english": "the deadline",
+    "arabic": "الموعد النهائي"
+  },
+  {
+    "english": "A: When is the deadline?\\nB: Next Monday, 11:59 PM.\\nA: That is tight.\\nB: Yes, but a deadline is a deadline.",
+    "arabic": "أ: متى الموعد النهائي؟\\nب: الإثنين القادم، الساعة 11:59 مساءً.\\nأ: هذا ضيّق.\\nب: نعم، لكن الموعد النهائي هو الموعد النهائي."
+  },
+  {
+    "english": "the lecturer (gender-neutral)",
+    "arabic": "المحاضر (محايد الجنس)"
+  },
+  {
+    "english": "A: Who is the lecturer of the seminar?\\nB: Dr. Mueller.\\nA: Is she a good lecturer?\\nB: Yes, very competent and fair.",
+    "arabic": "أ: من محاضر الندوة؟\\nب: الدكتورة مولر.\\nأ: هل هي محاضرة جيدة؟\\nب: نعم، كفؤة جداً وعادلة."
+  },
+  {
+    "english": "the evidence, the proof, the receipt",
+    "arabic": "الدليل، البرهان، الإيصال"
+  },
+  {
+    "english": "A: Do you have evidence for this thesis?\\nB: Yes, here is the proof: page 47.\\nA: Clear evidence.\\nB: Without proof, no argumentation.",
+    "arabic": "أ: هل لديك دليل على هذه الأطروحة؟\\nب: نعم، ها هو البرهان: الصفحة 47.\\nأ: دليل واضح.\\nب: بدون دليل، لا حجاج."
+  },
+  {
+    "english": "the finding, the result",
+    "arabic": "النتيجة، الاكتشاف"
+  },
+  {
+    "english": "A: What is the central finding of your study?\\nB: Nominalization makes comprehension harder.\\nA: An important finding.\\nB: Yes, and it is statistically significant.",
+    "arabic": "أ: ما النتيجة المحورية لدراستك؟\\nب: التسمية تجعل الفهم أصعب.\\nأ: نتيجة مهمة.\\nب: نعم، وهي ذات دلالة إحصائية."
+  },
+  {
+    "english": "the object, the subject (of study)",
+    "arabic": "موضوع الدراسة، محل البحث"
+  },
+  {
+    "english": "A: What is the subject of your investigation?\\nB: The effect of nominalization on readability.\\nA: A clearly defined subject.\\nB: Yes, without a clear subject, no clear paper.",
+    "arabic": "أ: ما موضوع بحثك؟\\nب: تأثير التسمية على القابلية للقراءة.\\nأ: موضوع محدد بوضوح.\\nب: نعم، بدون موضوع واضح، لا بحث واضح."
+  },
+  {
+    "english": "to presuppose, to require",
+    "arabic": "يفترض مسبقاً، يشترط"
+  },
+  {
+    "english": "A: What does this course require?\\nB: Basic knowledge of statistics.\\nA: I do not have any. Is that a problem?\\nB: Yes, the course presupposes it.",
+    "arabic": "أ: ما الذي يشترطه هذا المقرر؟\\nب: معرفة أساسية بالإحصاء.\\nأ: ليس لديّ أي معرفة. هل هذه مشكلة؟\\nب: نعم، المقرر يفترض ذلك مسبقاً."
+  },
+  {
+    "english": "to compare, to juxtapose",
+    "arabic": "يقارن، يضع جنباً إلى جنب"
+  },
+  {
+    "english": "A: Do you juxtapose the two approaches?\\nB: Yes, I juxtapose them in the third chapter.\\nA: That is a good method.\\nB: Through the juxtaposition the differences become clear.",
+    "arabic": "أ: هل تضع المنهجين جنباً إلى جنب؟\\nب: نعم، أضعهما في الفصل الثالث.\\nأ: هذه طريقة جيدة.\\nب: من خلال المقارنة تتضح الفروق."
+  },
+  {
+    "english": "to acquire, to obtain",
+    "arabic": "يكتسب، يحصل على"
+  },
+  {
+    "english": "A: Where did you acquire these skills?\\nB: In my studies and through practice.\\nA: One acquires a lot through experience.\\nB: Yes, theory and practice together.",
+    "arabic": "أ: أين اكتسبت هذه المهارات؟\\nب: في دراستي ومن خلال التدريب.\\nأ: يكتسب المرء الكثير من خلال التجربة.\\nب: نعم، النظرية والتطبيق معاً."
+  },
+  {
+    "english": "the equality",
+    "arabic": "المساواة"
+  },
+  {
+    "english": "A: What does equality mean in the Basic Law?\\nB: All people are equal before the law.\\nA: Is equality the same as justice?\\nB: No, equality is formal, justice is substantive.",
+    "arabic": "أ: ماذا تعني المساواة في القانون الأساسي؟\\nب: جميع الناس متساوون أمام القانون.\\nأ: هل المساواة هي نفسها العدالة؟\\nب: لا، المساواة شكلية، والعدالة جوهرية."
+  },
+  {
+    "english": "the justice",
+    "arabic": "العدالة"
+  },
+  {
+    "english": "A: What is social justice?\\nB: That all people have fair opportunities.\\nA: Is that realized in Germany?\\nB: Not completely. It remains a goal.",
+    "arabic": "أ: ما العدالة الاجتماعية؟\\nب: أن يتمتع جميع الناس بفرص عادلة.\\nأ: هل يتحقق ذلك في ألمانيا؟\\nب: ليس بالكامل. إنه لا يزال هدفاً."
+  },
+  {
+    "english": "the freedom",
+    "arabic": "الحرية"
+  },
+  {
+    "english": "A: What does academic freedom mean?\\nB: Researchers may research and teach freely.\\nA: Is that a given?\\nB: No. Not in many countries.",
+    "arabic": "أ: ماذا تعني الحرية الأكاديمية؟\\nب: يمكن للباحثين البحث والتدريس بحرية.\\nأ: هل هذا أمر مسلَّم به؟\\nب: لا. ليس في كثير من البلدان."
+  },
+  {
+    "english": "the safety, the security, the certainty",
+    "arabic": "الأمان، الأمن، اليقين"
+  },
+  {
+    "english": "A: Can you say that with certainty?\\nB: Yes, with high certainty.\\nA: How sure are you?\\nB: The data give me certainty.",
+    "arabic": "أ: هل يمكنك قول ذلك بيقين؟\\nب: نعم، بيقين عالٍ.\\nأ: ما مقدار يقينك؟\\nب: البيانات تمنحني اليقين."
+  },
+  {
+    "english": "Verumius presents: 'Anhand einer Stichprobe von 200 Texten habe ich untersucht, ob die Nominalisierung die Verständlichkeit beeinflusst.'\\n\\nLukas writes: 'Typisch Verumius.'\\n\\nThe same person, two worlds. Academic German: Nominalisierung, Konjunktiv, formal connectors (folglich, insbesondere, hinsichtlich). Informal German: short sentences, colloquial language, nicknames.\\n\\nThe skill is not choosing one style. The skill is mastering both.",
+    "arabic": "يُقدّم فيروميوس: «Anhand einer Stichprobe von 200 Texten habe ich untersucht, ob die Nominalisierung die Verständlichkeit beeinflusst.»\n\nيكتب لوكاس: «Typisch Verumius.»\n\nنفس الشخص، عالمان مختلفان. الألمانية الأكاديمية: التسمية، الكونيونكتيف، الروابط الرسمية (folglich, insbesondere, hinsichtlich). الألمانية غير الرسمية: جمل قصيرة، لغة عامية، ألقاب.\n\nالمهارة ليست اختيار أسلوب واحد. المهارة هي إتقان كليهما."
+  },
+  {
+    "english": "At university you write 'Die Untersuchung der Daten zeigt signifikante Ergebnisse.' In the group chat you write 'Krasse Ergebnisse!' Both are correct German, but for different contexts. Academic German uses Nominalisierung, Passiv, and formal connectors. Informal German uses active verbs, short sentences, and everyday language.",
+    "arabic": "في الجامعة تكتب «Die Untersuchung der Daten zeigt signifikante Ergebnisse.» في الدردشة الجماعية تكتب «Krasse Ergebnisse!» كلاهما ألمانية صحيحة، لكن لسياقات مختلفة. الألمانية الأكاديمية تستخدم التسمية والمبني للمجهول والروابط الرسمية. الألمانية غير الرسمية تستخدم الأفعال المبنية للمعلوم والجمل القصيرة واللغة اليومية."
+  },
+  {
+    "english": "Look for two different time references in the sentence: one looks back at what could have happened, one looks at what would be true now.",
+    "arabic": "ابحث عن مرجعين زمنيين مختلفين في الجملة: أحدهما يستعيد ما كان يمكن أن يحدث، والآخر يُشير إلى ما سيكون صحيحاً الآن."
+  },
+  {
+    "english": "Apply the standard -ung nominalization to 'auswerten'. The result is the noun for systematically analyzing data.",
+    "arabic": "طبّق التسمية القياسية بالنهاية «-ung» على الفعل «auswerten». والنتيجة هي الاسم للتحليل المنهجي للبيانات."
+  },
+  {
+    "english": "The evaluation of the research results confirmed the hypothesis.",
+    "arabic": "تقييم نتائج البحث أكّد الفرضية."
+  },
+  {
+    "english": "On the basis of these results we can conclude that... First a nominalization (basis/foundation), then a verb (to draw a conclusion).",
+    "arabic": "استناداً إلى هذه النتائج يمكننا الاستنتاج بأن... أولاً تسمية (أساس/قاعدة)، ثم فعل (يستخلص استنتاجاً)."
+  }
+]

@@ -1,0 +1,1077 @@
+[
+  {
+    "line": 212,
+    "field": "unknown",
+    "english": "Uninverted wenn clauses (verb-first conditionals)"
+  },
+  {
+    "line": 213,
+    "field": "unknown",
+    "english": "The milestone experience: speaking publicly in German"
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "The moderator opens the floor. 'Questions from the audience?' Hands go up. Verumius's heart is pounding. His question is ready. In German. Every word chosen."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "He stands. Walks to the microphone. The room quiets. Four panelists look at him. Yilmaz, three rows back, holds her breath."
+  },
+  {
+    "line": 217,
+    "field": "src",
+    "english": "My question is directed at the entire panel. Integration is often presented as the task of newcomers. Would it not be more accurate to say that integration is a mutual process?"
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "A pause. Then: 'That is an important perspective. Indeed, research shows that integration only succeeds when both sides move.'"
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "He sits down. His hands are shaking. But he said it. Every word. In German. At a public debate."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "above all, especially"
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: What is most important now?\\nB: Above all, we must listen.\\nA: Above all to those affected?\\nB: Yes, above all to them."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "in particular, especially"
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Who is affected?\\nB: Young families in particular.\\nA: Especially in big cities?\\nB: Yes, the situation is particularly difficult there."
+  },
+  {
+    "line": 222,
+    "field": "src",
+    "english": "furthermore, beyond that"
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: Education must be improved.\\nB: Furthermore, we need more training positions.\\nA: Beyond that, also more language courses?\\nB: Yes, that is part of it."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "besides, moreover"
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: We need more dialogue.\\nB: Besides, more patience.\\nA: Moreover, I would like to note...\\nB: Please, continue."
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "not least, last but not least"
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: Why was the debate important?\\nB: Not least because of citizen participation.\\nA: Not least also because of the media?\\nB: Yes, the reporting was fair."
+  },
+  {
+    "line": 225,
+    "field": "src",
+    "english": "furthermore (formal)"
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: The report shows progress.\\nB: Furthermore, it should be noted that the numbers are rising.\\nA: Furthermore, the committee recommends...\\nB: Which recommendation exactly?"
+  },
+  {
+    "line": 226,
+    "field": "src",
+    "english": "however, though"
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: The results are positive.\\nB: However, one must also see the risks.\\nA: Though, that is not entirely correct.\\nB: In which regard?"
+  },
+  {
+    "line": 227,
+    "field": "src",
+    "english": "nevertheless, despite that"
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: The situation is difficult.\\nB: Nevertheless, I remain optimistic.\\nA: Despite that, we must continue?\\nB: Yes, precisely because of that."
+  },
+  {
+    "line": 228,
+    "field": "src",
+    "english": "consequently, therefore"
+  },
+  {
+    "line": 228,
+    "field": "exampleSrc",
+    "english": "A: The majority agreed.\\nB: Consequently, the law takes effect.\\nA: Therefore, we must adapt?\\nB: Yes, effective immediately."
+  },
+  {
+    "line": 229,
+    "field": "src",
+    "english": "admittedly"
+  },
+  {
+    "line": 229,
+    "field": "exampleSrc",
+    "english": "A: Is the problem serious?\\nB: Admittedly, yes.\\nA: Admittedly, the situation is complicated.\\nB: But not hopeless."
+  },
+  {
+    "line": 230,
+    "field": "src",
+    "english": "mind you, note well"
+  },
+  {
+    "line": 230,
+    "field": "exampleSrc",
+    "english": "A: He has no experience.\\nB: Mind you, he just started.\\nA: Mind you, that was his first attempt.\\nB: And still quite successful."
+  },
+  {
+    "line": 231,
+    "field": "src",
+    "english": "in short, in a nutshell"
+  },
+  {
+    "line": 231,
+    "field": "exampleSrc",
+    "english": "A: How was the debate?\\nB: In short: a success.\\nA: In a nutshell, we need a compromise.\\nB: I agree with that."
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "counterposition"
+  },
+  {
+    "line": 232,
+    "field": "exampleSrc",
+    "english": "A: What is the counterposition?\\nB: The counterposition is: integration is the state's task.\\nA: Who represents this counterposition?\\nB: Above all, the left-wing parties."
+  },
+  {
+    "line": 233,
+    "field": "src",
+    "english": "counterproposal"
+  },
+  {
+    "line": 233,
+    "field": "exampleSrc",
+    "english": "A: The proposal was rejected.\\nB: Do you have a counterproposal?\\nA: My counterproposal would be a pilot project.\\nB: That sounds reasonable."
+  },
+  {
+    "line": 234,
+    "field": "src",
+    "english": "opinion formation"
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: How do you form your opinion?\\nB: Through media and discussions.\\nA: Free opinion formation is a fundamental right.\\nB: Yes, without it no democracy."
+  },
+  {
+    "line": 235,
+    "field": "src",
+    "english": "right to vote"
+  },
+  {
+    "line": 235,
+    "field": "exampleSrc",
+    "english": "A: Who has the right to vote?\\nB: All citizens from age 18.\\nA: Does the right to vote apply to local elections too?\\nB: Yes, EU citizens also have voting rights there."
+  },
+  {
+    "line": 236,
+    "field": "src",
+    "english": "concession"
+  },
+  {
+    "line": 236,
+    "field": "exampleSrc",
+    "english": "A: Is there a compromise?\\nB: Only with concessions from both sides.\\nA: What concession do you expect?\\nB: The government must give in."
+  },
+  {
+    "line": 237,
+    "field": "src",
+    "english": "to counter, to object"
+  },
+  {
+    "line": 237,
+    "field": "exampleSrc",
+    "english": "A: The argument is strong.\\nB: To counter that, the data is outdated.\\nA: What do you hold against it?\\nB: Newer studies show the opposite."
+  },
+  {
+    "line": 238,
+    "field": "src",
+    "english": "to reply, to respond"
+  },
+  {
+    "line": 238,
+    "field": "exampleSrc",
+    "english": "A: What did the panelist say?\\nB: He replied: 'I see that differently.'\\nA: How do you respond to the accusation?\\nB: With facts and evidence."
+  },
+  {
+    "line": 239,
+    "field": "src",
+    "english": "to oppose"
+  },
+  {
+    "line": 239,
+    "field": "exampleSrc",
+    "english": "A: Who opposes the bill?\\nB: The entire opposition.\\nA: Why do they oppose it?\\nB: They consider the bill unjust."
+  },
+  {
+    "line": 240,
+    "field": "src",
+    "english": "would (Konjunktiv II of werden)"
+  },
+  {
+    "line": 240,
+    "field": "exampleSrc",
+    "english": "A: What would you do differently?\\nB: I would act early.\\nA: Would more dialogue help?\\nB: Yes, that would help a lot."
+  },
+  {
+    "line": 241,
+    "field": "text",
+    "english": "In formal German, 'wenn' can be omitted and the verb placed in position 1.\\n\\nWith wenn: Wenn ich mehr Zeit hätte, würde ich kommen.\\nWithout wenn: Hätte ich mehr Zeit, würde ich kommen.\\n\\nThe meaning is identical. The register is elevated.\\n\\nHow to recognize it: verb in position 1 + Konjunktiv II = conditional clause without wenn.\\n\\nExamples:\\n- Wäre es möglich, würde ich zustimmen.\\n- Hätten wir früher gehandelt, wäre es besser.\\n- Könnten alle teilnehmen, wäre die Debatte reicher.\\n\\nCommon in speeches, essays, and formal argumentation."
+  },
+  {
+    "line": 247,
+    "field": "hint",
+    "english": "Look at where the finite verb appears in the first clause. An unusual verb placement combined with a subjunctive mood can replace a conditional connector."
+  },
+  {
+    "line": 248,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. The subject is 'die Opposition'. Which Konjunktiv II form of the auxiliary verb for agreement goes to position 1?"
+  },
+  {
+    "line": 248,
+    "field": "sSrc",
+    "english": "Had the opposition agreed, the compromise would have been possible."
+  },
+  {
+    "line": 249,
+    "field": "hint",
+    "english": "First honestly acknowledge the difficulty, then nevertheless emphasize the need to act."
+  },
+  {
+    "line": 252,
+    "field": "desc",
+    "english": "The debate intensifies. Verumius's question has opened a new thread. Learn formal comparison markers and practice all three grammar constructs in debate contexts."
+  },
+  {
+    "line": 253,
+    "field": "unknown",
+    "english": "Master formal comparison markers"
+  },
+  {
+    "line": 254,
+    "field": "unknown",
+    "english": "Practice all three grammar constructs in combination"
+  },
+  {
+    "line": 255,
+    "field": "unknown",
+    "english": "Express nuanced agreement and disagreement"
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "In comparison to other European countries, Germany has a unique approach to integration. But unlike in France, there is no strict secularism here."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "In view of the current situation, we should compare less and act more. Had we acted ten years ago, we would be further along today."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "in comparison to/with"
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: How does Germany stand?\\nB: In comparison to France, well.\\nA: Compared to last year?\\nB: Significantly better."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "compared with"
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Compared with other countries...\\nB: ...the system here is efficient.\\nA: Compared with the past?\\nB: Great progress."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "just like, in the same way as"
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Does integration only affect newcomers?\\nB: No, locals just like newcomers.\\nA: Just like with language?\\nB: Yes, dialogue goes in both directions."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "unlike, different from"
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Is it like in France here?\\nB: No, unlike in France, there is no headscarf ban here.\\nA: Unlike expected?\\nB: Yes, the debate was constructive."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "similar to"
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Is the system here similar to Austria?\\nB: Similar to there, there is a coalition government.\\nA: Similar to last time?\\nB: Yes, but with new partners."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "in contrast to, unlike"
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: In contrast to earlier debates...\\nB: ...this one was factual and respectful.\\nA: In contrast to other countries?\\nB: Germany relies on federalism."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "in contrast to, as opposed to"
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: What is your position?\\nB: In contrast to my predecessor, I am optimistic.\\nA: As opposed to the polls?\\nB: Yes, I see progress."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "in contrast to that, on the other hand"
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: The government is confident.\\nB: In contrast, there is the opposition's skepticism.\\nA: On the other hand, there are positive voices too.\\nB: That is true."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "equally, in equal measure"
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: Who is affected?\\nB: All citizens equally.\\nA: Men and women equally?\\nB: Yes, without distinction."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "regardless of that, notwithstanding"
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: There is criticism of the process.\\nB: Regardless of that, the decision remains valid.\\nA: Notwithstanding, we must continue?\\nB: Yes, fundamental rights apply nonetheless."
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "in view of, considering"
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: How do you see the situation?\\nB: In view of the circumstances, the decision was right.\\nA: Considering the costs?\\nB: Also financially justifiable."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "jurisdiction, area of responsibility"
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: Who is responsible for that?\\nB: That does not fall within my jurisdiction.\\nA: Whose area of responsibility is that?\\nB: That of the Interior Ministry."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "referendum"
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: Should there be a referendum?\\nB: On this topic? Perhaps.\\nA: Referendums are direct democracy.\\nB: Yes, but they are rare in Germany."
+  },
+  {
+    "line": 272,
+    "field": "src",
+    "english": "electoral law / right to vote"
+  },
+  {
+    "line": 272,
+    "field": "exampleSrc",
+    "english": "A: What is active electoral law?\\nB: The right to vote.\\nA: And passive electoral law?\\nB: The right to be elected."
+  },
+  {
+    "line": 273,
+    "field": "src",
+    "english": "merger, union, alliance"
+  },
+  {
+    "line": 273,
+    "field": "exampleSrc",
+    "english": "A: What is an alliance?\\nB: When several groups unite.\\nA: An alliance of citizen initiatives?\\nB: Yes, together they are stronger."
+  },
+  {
+    "line": 274,
+    "field": "src",
+    "english": "state governed by the rule of law"
+  },
+  {
+    "line": 274,
+    "field": "exampleSrc",
+    "english": "A: What does Rechtsstaat mean?\\nB: That everyone, including the government, follows the law.\\nA: Is Germany a Rechtsstaat?\\nB: Yes, that is a fundamental principle."
+  },
+  {
+    "line": 275,
+    "field": "src",
+    "english": "pertaining to the rule of law"
+  },
+  {
+    "line": 275,
+    "field": "exampleSrc",
+    "english": "A: Is the process lawful?\\nB: Yes, all rules were followed.\\nA: Rule-of-law principles are important.\\nB: They are the foundation of democracy."
+  },
+  {
+    "line": 276,
+    "field": "src",
+    "english": "oppositional, relating to the opposition"
+  },
+  {
+    "line": 276,
+    "field": "exampleSrc",
+    "english": "A: Are there oppositional voices?\\nB: Yes, they are getting louder.\\nA: Is oppositional behavior desired?\\nB: In a democracy, it is necessary."
+  },
+  {
+    "line": 277,
+    "field": "src",
+    "english": "to concede, to grant"
+  },
+  {
+    "line": 277,
+    "field": "exampleSrc",
+    "english": "A: Is he right?\\nB: One must concede that to him.\\nA: So you concede that...\\nB: Yes, on this point the opposition is right."
+  },
+  {
+    "line": 278,
+    "field": "src",
+    "english": "to push for, to accelerate"
+  },
+  {
+    "line": 278,
+    "field": "exampleSrc",
+    "english": "A: The reform is going too slowly.\\nB: We must push for it.\\nA: How do you want to accelerate it?\\nB: With clear deadlines and measures."
+  },
+  {
+    "line": 284,
+    "field": "hint",
+    "english": "Identify each distinct B2 structure in the sentence: one marks a contrast with something prior, the other concedes a point. Count them."
+  },
+  {
+    "line": 285,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. The verb 'abwägen' determines which auxiliary belongs here."
+  },
+  {
+    "line": 285,
+    "field": "sSrc",
+    "english": "Had we weighed all viewpoints, we could reach a compromise."
+  },
+  {
+    "line": 286,
+    "field": "hint",
+    "english": "Two B2 structures: a subordinating concessive conjunction opening the first clause, and a connective adverb reinforcing the contrast in the second clause."
+  },
+  {
+    "line": 292,
+    "field": "hint",
+    "english": "'Verglichen' (compared) + 'mit' (with). Partizip II used as a comparison frame."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "The room goes quiet. The panelists look at each other. A question from the audience has changed the tone. The moderator smiles. 'Thank you. These are exactly the contributions we need.' Verumius does not realize she means him."
+  },
+  {
+    "line": 302,
+    "field": "desc",
+    "english": "Everything from Unit 29 on the test bench. Prove you can argue, concede, compare, and conclude. In formal German."
+  },
+  {
+    "line": 303,
+    "field": "unknown",
+    "english": "Test all three grammar constructs in combination"
+  },
+  {
+    "line": 304,
+    "field": "unknown",
+    "english": "Master political German and debate vocabulary"
+  },
+  {
+    "line": 305,
+    "field": "unknown",
+    "english": "Use discourse markers precisely"
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "The debate is over. The audience stands, stretches. But in my head it continues. Every argument, every concession, every comparison. Now I want to prove that I can do it."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "minister (government)"
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: Who is the new minister?\\nB: The minister for education.\\nA: What did the minister say?\\nB: He supports the reform."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "minister (female)"
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: The minister is giving a speech.\\nB: Which minister?\\nA: The justice minister.\\nB: She is very convincing."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "petition"
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Did you sign the petition?\\nB: Yes, for better education.\\nA: How many signatures does the petition have?\\nB: Over 50,000."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "plenary session, full assembly"
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: When will the plenary vote?\\nB: Tomorrow afternoon.\\nA: Are all MPs in the plenary?\\nB: For important votes, yes."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "strategy"
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: What is the government's strategy?\\nB: More dialogue and less confrontation.\\nA: Is that a good strategy?\\nB: It has worked so far."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "representative"
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: Who is your representative in parliament?\\nB: The MP from my constituency.\\nA: Is he a good representative?\\nB: He represents our interests well."
+  },
+  {
+    "line": 314,
+    "field": "src",
+    "english": "representative (female)"
+  },
+  {
+    "line": 314,
+    "field": "exampleSrc",
+    "english": "A: The opposition representative spoke first.\\nB: What did she say?\\nA: She demands more transparency.\\nB: A legitimate demand."
+  },
+  {
+    "line": 315,
+    "field": "src",
+    "english": "reform-oriented"
+  },
+  {
+    "line": 315,
+    "field": "exampleSrc",
+    "english": "A: Is the party reform-oriented?\\nB: Yes, they want to change a lot.\\nA: Reform-oriented policy is important.\\nB: Especially in education."
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "constitutional"
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "A: Is that constitutional?\\nB: Yes, the Federal Constitutional Court has decided.\\nA: Constitutionally guaranteed rights...\\nB: ...may not be touched."
+  },
+  {
+    "line": 317,
+    "field": "src",
+    "english": "populist"
+  },
+  {
+    "line": 317,
+    "field": "exampleSrc",
+    "english": "A: Was the speech populist?\\nB: Yes, it stirred up fears.\\nA: Populist rhetoric is dangerous.\\nB: Because it oversimplifies complex topics."
+  },
+  {
+    "line": 318,
+    "field": "src",
+    "english": "radical"
+  },
+  {
+    "line": 318,
+    "field": "exampleSrc",
+    "english": "A: Are the demands radical?\\nB: Some are, others are not.\\nA: Radical positions harm the debate.\\nB: They make compromises impossible."
+  },
+  {
+    "line": 319,
+    "field": "src",
+    "english": "disputed, contentious"
+  },
+  {
+    "line": 319,
+    "field": "exampleSrc",
+    "english": "A: Is the point contentious?\\nB: Yes, there are different opinions about it.\\nA: The topic remains disputed.\\nB: Perhaps the next debate will clarify it."
+  },
+  {
+    "line": 320,
+    "field": "src",
+    "english": "uncontestable, irrefutable"
+  },
+  {
+    "line": 320,
+    "field": "exampleSrc",
+    "english": "A: Is the decision uncontestable?\\nB: Yes, it can no longer be challenged.\\nA: An incontestable right.\\nB: The Basic Law protects it."
+  },
+  {
+    "line": 321,
+    "field": "src",
+    "english": "undemocratic"
+  },
+  {
+    "line": 321,
+    "field": "exampleSrc",
+    "english": "A: Was the decision undemocratic?\\nB: That is what the critics allege.\\nA: Undemocratic behavior is not tolerated.\\nB: The constitution protects against it."
+  },
+  {
+    "line": 322,
+    "field": "src",
+    "english": "conservative"
+  },
+  {
+    "line": 322,
+    "field": "exampleSrc",
+    "english": "A: Is the CDU conservative?\\nB: Yes, but in the German sense.\\nA: What does conservative mean here?\\nB: Preserving traditions, but not radical."
+  },
+  {
+    "line": 323,
+    "field": "src",
+    "english": "liberal (pro-free-market)"
+  },
+  {
+    "line": 323,
+    "field": "exampleSrc",
+    "english": "A: What does liberal mean in Germany?\\nB: Pro free market and individual freedom.\\nA: So the FDP?\\nB: Yes, the FDP is the liberal party."
+  },
+  {
+    "line": 324,
+    "field": "src",
+    "english": "progressive"
+  },
+  {
+    "line": 324,
+    "field": "exampleSrc",
+    "english": "A: Is the party progressive?\\nB: Yes, they want social change.\\nA: Progressive politics means progress?\\nB: Yes, but with responsibility."
+  },
+  {
+    "line": 325,
+    "field": "src",
+    "english": "reactionary"
+  },
+  {
+    "line": 325,
+    "field": "exampleSrc",
+    "english": "A: Is that a reactionary position?\\nB: Yes, it wants to go back to the past.\\nA: Reactionary tendencies are problematic.\\nB: They block progress."
+  },
+  {
+    "line": 326,
+    "field": "src",
+    "english": "to push through, to enforce"
+  },
+  {
+    "line": 326,
+    "field": "exampleSrc",
+    "english": "A: Can the government push through the reform?\\nB: Only with a majority.\\nA: He prevailed.\\nB: Yes, his argument was convincing."
+  },
+  {
+    "line": 327,
+    "field": "src",
+    "english": "to counteract"
+  },
+  {
+    "line": 327,
+    "field": "exampleSrc",
+    "english": "A: How can one counteract populism?\\nB: With education and dialogue.\\nA: Counteract instead of ignore?\\nB: Yes, active action is important."
+  },
+  {
+    "line": 333,
+    "field": "hint",
+    "english": "Count the number of distinct B2 grammatical structures in the sentence. Look at: where the finite verb appears at the start, how both subject elements are connected, and how the final clause relates."
+  },
+  {
+    "line": 334,
+    "field": "hint",
+    "english": "The first bracket of the inclusion pair. Both citizens AND ALSO politicians."
+  },
+  {
+    "line": 334,
+    "field": "sSrc",
+    "english": "The decision affects both citizens and politicians equally."
+  },
+  {
+    "line": 340,
+    "field": "hint",
+    "english": "This conjunction belongs to the class that requires the finite verb at the end of the clause it introduces. Check each option for correct verb placement."
+  },
+  {
+    "line": 341,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. Both verbs in Konjunktiv II. If one were to ignore... would suffer harm."
+  },
+  {
+    "line": 353,
+    "field": "hint",
+    "english": "First the thesis, then honestly concede a point, then come back stronger. Thesis, concession, reinforcement."
+  },
+  {
+    "line": 354,
+    "field": "hint",
+    "english": "The evidence is there, the conclusion follows. The logical consequence marker."
+  },
+  {
+    "line": 354,
+    "field": "sSrc",
+    "english": "The arguments are clear. Consequently, parliament should act."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "Verumius closes his notebook. Every page full. Concessions, comparisons, conditional clauses. The grammar of a democracy. He has not only learned it. He has used it."
+  },
+  {
+    "line": 358,
+    "field": "desc",
+    "english": "The debate is over. Yilmaz says two words. Learn the formal debate phrases that complete your argumentation toolkit. The capstone of Unit 29."
+  },
+  {
+    "line": 359,
+    "field": "unknown",
+    "english": "Master formal debate phrases"
+  },
+  {
+    "line": 360,
+    "field": "unknown",
+    "english": "Review all constructs from Unit 29"
+  },
+  {
+    "line": 361,
+    "field": "unknown",
+    "english": "Celebrate the milestone of public German discourse"
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "The lobby after the event. People milling about, coffee in paper cups. Verumius and Yilmaz find each other near the exit."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "Simply: 'Important contribution.' Two words. She nods. Maximum meaning."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "Thank you. I chose every word carefully."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "I heard that. And the panel did too."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "They drink their coffee in comfortable silence. Through the window, Berlin glows. Verumius has spoken German at a public debate. Not survived it. Contributed to it."
+  },
+  {
+    "line": 368,
+    "field": "src",
+    "english": "On the U-Bahn home, his phone buzzes. A letter from the tax office. 47 words, one sentence. The glow fades. Reality returns."
+  },
+  {
+    "line": 369,
+    "field": "src",
+    "english": "I am of the view that"
+  },
+  {
+    "line": 369,
+    "field": "exampleSrc",
+    "english": "A: What is your opinion?\\nB: I am of the view that we must act.\\nA: And why?\\nB: Because time is pressing."
+  },
+  {
+    "line": 370,
+    "field": "src",
+    "english": "in my view"
+  },
+  {
+    "line": 370,
+    "field": "exampleSrc",
+    "english": "A: In my view, we need reform.\\nB: I see it that way too.\\nA: In my view, the compromise is fair.\\nB: We can build on that."
+  },
+  {
+    "line": 371,
+    "field": "src",
+    "english": "it is beyond question that"
+  },
+  {
+    "line": 371,
+    "field": "exampleSrc",
+    "english": "A: Is that certain?\\nB: It is beyond question that fundamental rights apply.\\nA: It is beyond question that we must act.\\nB: On that we agree."
+  },
+  {
+    "line": 372,
+    "field": "src",
+    "english": "to counter that, it must be said that"
+  },
+  {
+    "line": 372,
+    "field": "exampleSrc",
+    "english": "A: The argument seems strong.\\nB: To counter that, the data is outdated.\\nA: A good objection.\\nB: Facts must be current."
+  },
+  {
+    "line": 373,
+    "field": "src",
+    "english": "it cannot be denied that"
+  },
+  {
+    "line": 373,
+    "field": "exampleSrc",
+    "english": "A: Are there problems?\\nB: It cannot be denied that there are some.\\nA: But there is also progress.\\nB: That cannot be denied either."
+  },
+  {
+    "line": 374,
+    "field": "src",
+    "english": "from that follows"
+  },
+  {
+    "line": 374,
+    "field": "exampleSrc",
+    "english": "A: The majority has decided.\\nB: From that follows the necessity to act.\\nA: From that also follows responsibility.\\nB: For all involved."
+  },
+  {
+    "line": 375,
+    "field": "src",
+    "english": "in a nutshell, to sum up"
+  },
+  {
+    "line": 375,
+    "field": "exampleSrc",
+    "english": "A: How would you summarize it?\\nB: In a nutshell: we need dialogue.\\nA: To sum up: more willingness to compromise.\\nB: Exactly."
+  },
+  {
+    "line": 376,
+    "field": "src",
+    "english": "all in all"
+  },
+  {
+    "line": 376,
+    "field": "exampleSrc",
+    "english": "A: How was the debate?\\nB: All in all, very productive.\\nA: All in all a success?\\nB: Yes, despite some disagreements."
+  },
+  {
+    "line": 377,
+    "field": "src",
+    "english": "in the face of, in view of"
+  },
+  {
+    "line": 377,
+    "field": "exampleSrc",
+    "english": "A: In the face of the challenges...\\nB: ...we must work together.\\nA: In view of the situation?\\nB: Quick action is necessary."
+  },
+  {
+    "line": 378,
+    "field": "src",
+    "english": "on the basis of, due to"
+  },
+  {
+    "line": 378,
+    "field": "exampleSrc",
+    "english": "A: Why was it rejected?\\nB: Due to the concerns.\\nA: On the basis of the results...\\nB: ...we must change the strategy."
+  },
+  {
+    "line": 379,
+    "field": "src",
+    "english": "regardless of, irrespective of"
+  },
+  {
+    "line": 379,
+    "field": "exampleSrc",
+    "english": "A: Is there resistance?\\nB: Regardless of the criticism, it continues.\\nA: Regardless of the costs?\\nB: Yes, the cause is more important."
+  },
+  {
+    "line": 380,
+    "field": "src",
+    "english": "in favor of"
+  },
+  {
+    "line": 380,
+    "field": "exampleSrc",
+    "english": "A: Who benefits?\\nB: In favor of the minority.\\nA: The decision was made in favor of the plaintiffs.\\nB: An important signal."
+  },
+  {
+    "line": 381,
+    "field": "src",
+    "english": "to polarize"
+  },
+  {
+    "line": 381,
+    "field": "exampleSrc",
+    "english": "A: The debate polarizes.\\nB: Yes, there is hardly any center left.\\nA: Polarizing harms democracy.\\nB: That is why we need more dialogue."
+  },
+  {
+    "line": 382,
+    "field": "src",
+    "english": "to put into perspective, to relativize"
+  },
+  {
+    "line": 382,
+    "field": "exampleSrc",
+    "english": "A: Should one put the result into perspective?\\nB: No, the numbers speak for themselves.\\nA: Critics relativize the successes.\\nB: That is unfair."
+  },
+  {
+    "line": 383,
+    "field": "src",
+    "english": "to reject, to dismiss"
+  },
+  {
+    "line": 383,
+    "field": "exampleSrc",
+    "english": "A: The accusation was rejected.\\nB: Rightly so?\\nA: Yes, it was unfounded.\\nB: Then the rejection was correct."
+  },
+  {
+    "line": 384,
+    "field": "src",
+    "english": "to call into question, to challenge"
+  },
+  {
+    "line": 384,
+    "field": "exampleSrc",
+    "english": "A: Can one call the decision into question?\\nB: Yes, everyone has the right to.\\nA: He challenges the method.\\nB: A legitimate criticism."
+  },
+  {
+    "line": 385,
+    "field": "src",
+    "english": "to agree with, to concur"
+  },
+  {
+    "line": 385,
+    "field": "exampleSrc",
+    "english": "A: Do you agree?\\nB: I fully and completely concur.\\nA: May I agree with you?\\nB: Of course."
+  },
+  {
+    "line": 386,
+    "field": "src",
+    "english": "to defuse, to de-escalate"
+  },
+  {
+    "line": 386,
+    "field": "exampleSrc",
+    "english": "A: The situation is tense.\\nB: We must defuse it.\\nA: How can one de-escalate the conflict?\\nB: Through dialogue and concessions."
+  },
+  {
+    "line": 387,
+    "field": "src",
+    "english": "to provoke"
+  },
+  {
+    "line": 387,
+    "field": "exampleSrc",
+    "english": "A: Did the speaker want to provoke?\\nB: Yes, he wanted a reaction.\\nA: Provoking is not a strategy.\\nB: Unfortunately, sometimes it is."
+  },
+  {
+    "line": 388,
+    "field": "src",
+    "english": "contestable, challengeable"
+  },
+  {
+    "line": 388,
+    "field": "exampleSrc",
+    "english": "A: Is the verdict contestable?\\nB: Yes, one can appeal.\\nA: A contestable decision.\\nB: The next instance will decide."
+  },
+  {
+    "line": 394,
+    "field": "hint",
+    "english": "From accounting: the final number below the calculation line. What counts when everything is added up."
+  },
+  {
+    "line": 395,
+    "field": "hint",
+    "english": "A formal genitive preposition. You face a situation directly and act on what you see before you."
+  },
+  {
+    "line": 395,
+    "field": "sSrc",
+    "english": "In the face of the current challenges, we must act."
+  },
+  {
+    "line": 401,
+    "field": "hint",
+    "english": "Identify all three grammatical layers: verb at position one without 'wenn', an inclusive linking pair, and a concessive clause at the close."
+  },
+  {
+    "line": 402,
+    "field": "hint",
+    "english": "Three blanks: a summary expression, then a concession word, then the word introducing the counterargument. Think: overall / admittedly / however."
+  }
+]

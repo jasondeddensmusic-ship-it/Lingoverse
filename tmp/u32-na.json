@@ -1,0 +1,712 @@
+[
+  {
+    "line": 14,
+    "field": "note",
+    "english": "From Latin 'identitas' (sameness). 'Wer bin ich?' is the\\nfundamental Identitätsfrage in German discourse."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Latin 'identitas' (sameness). The Fugen-s creates compounds: Identitätskrise (identity crisis), Identitätspolitik (identity politics). In German, Identität covers personal, cultural, and national dimensions."
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "'Bewusst' (aware) + 'sein' (being). Literally: the state\\nof being aware. Philosophers love this word."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Bewusst' (aware) + 'sein' (being). Literally: the state of being aware. Philosophers from Hegel to Habermas have written volumes about Bewusstsein. 'Kulturelles Bewusstsein' (cultural awareness) is a modern educational goal."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "'Her' (from/hither) + 'Kunft' (coming). Where you come\\nfrom. 'Herkunftsland' appears on every German form."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "'Her' (from/hither) + 'Kunft' (coming). 'Herkunftsland' (country of origin) appears on every German form. Your Herkunft shapes but need not define you."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "From Latin 'traditio' (handing over). Same word internationally.\\nGermans distinguish Brauch (living custom) from Tradition."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "From Latin 'traditio' (handing over). Germans distinguish between living traditions (Bräuche) and inherited customs (Überlieferungen). 'Traditionen pflegen' means to maintain traditions actively."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "'Viel' (many) + 'Falt' (fold). Literally: many-foldedness.\\n'Kulturelle Vielfalt' is celebrated in modern German politics."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "'Viel' (many) + 'Falt' (fold). Literally: many-foldedness. 'Kulturelle Vielfalt' (cultural diversity) is celebrated in modern German political discourse. The word implies richness in difference."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From Latin 'tolerantia' (endurance). Lessing's play 'Nathan\\nder Weise' (1779) made Toleranz a central German value."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From Latin 'tolerantia' (endurance). Lessing's play 'Nathan der Weise' (1779) made Toleranz a central German value. The Ring Parable argues all religions deserve equal respect."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "'Vor' (before) + 'Urteil' (judgment). A judgment made\\nbefore knowing the facts. The word reveals the problem."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Urteil' (judgment). A judgment made before knowing the facts. 'Vorurteile abbauen' (to reduce prejudices). The word itself reveals the problem: judging before examining."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "'Wahr' (true) + 'Nehmung' (taking). Literally: taking in\\ntruth. How you perceive the world around you."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "'Wahr' (true) + 'Nehmung' (taking). Literally: taking in truth. 'Die Wahrnehmung verändert sich' (perception changes). A philosophical powerhouse of a word."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "'Zu' (to) + 'gehören' (to belong) + '-igkeit.' The feeling\\nof being part of something. What every immigrant seeks."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Zu' (to) + 'gehören' (to belong) + '-igkeit.' The feeling of being part of something. 'Ein Gefühl der Zugehörigkeit' (a sense of belonging). What every immigrant seeks."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "'Zusammen' (together) + 'Leben' (life/living). 'Friedliches\\nZusammenleben' is peaceful coexistence. An ongoing project."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "'Zusammen' (together) + 'Leben' (life/living). 'Friedliches Zusammenleben' (peaceful coexistence). Germany's multicultural Zusammenleben is an ongoing project that shapes daily life."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "'Gesellschaft' (society) + '-lich.' More formal than 'sozial.'\\nGesellschaftlich addresses the structure of society."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "'Gesellschaft' (society) + '-lich.' More formal than 'sozial.' Gesellschaftlich addresses the structure; sozial addresses the human aspect. 'Gesellschaftliche Veränderungen' (societal changes) shape the big picture."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "'Multi' (many) + 'kulturell' (cultural). Germany debated\\nfor decades whether it was multikulturell. The answer: yes."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "'Multi' (many) + 'kulturell' (cultural). Germany debated for decades whether it was multikulturell. The answer: yes, whether anyone planned it or not. Berlin is the prime example."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "'Inter' (between) + 'kulturell.' Between cultures. Multi-\\nmeans many cultures existing. Inter- means cultures interacting."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Inter' (between) + 'kulturell.' 'Interkulturelle Kompetenz' (intercultural competence) is a formal job qualification in Germany. Multi- means many cultures existing. Inter- means cultures interacting."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "From Latin 'tolerans.' Same word internationally.\\n'Tolerant sein' is easier said than practiced."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From Latin 'tolerans.' Same word internationally. The adjective form of Toleranz. 'Eine tolerante Gesellschaft' (a tolerant society). 'Tolerant sein' is easier said than practiced."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "'Tradition' + '-ell.' The -ell ending comes from French\\nand marks formal adjectives. Can be positive or conservative."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "'Tradition' + '-ell.' The -ell ending comes from French and marks formal adjectives. Traditionell can be positive (heritage) or conservative (resistance to change)."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From Latin 'reflectere' (to bend back). Both literal (light)\\nand figurative (thought). Non-separable -ieren verb."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From Latin 'reflectere' (to bend back). Both literal (light) and figurative (thought). Non-separable -ieren verb. 'Über seine Identität reflektieren' (to reflect on one's identity)."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "'Wahr' (true) + 'nehmen' (to take). Separable: 'Ich nehme\\nwahr.' Taking in what is true. Active observation."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Wahr' (true) + 'nehmen' (to take). Separable: 'Ich nehme wahr.' Taking in what is true. Active observation. The noun Wahrnehmung is one of Germany's great philosophical words."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "'Hinter' (behind) + 'fragen' (to ask). Not separable despite\\nhinter-. You ask behind the surface. Going deeper."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Hinter' (behind) + 'fragen' (to ask). Not separable despite hinter-. You ask behind the surface. Going deeper than a simple Frage. 'Traditionen hinterfragen' (to question traditions critically)."
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "'An' (at) + 'Schauung' (viewing). 'Weltanschauung' (worldview)\\nis one of Germany's most famous word exports."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "'An' (at) + 'Schauung' (viewing). 'Weltanschauung' (worldview) is one of Germany's most famous exports. Kant used Anschauung as a philosophical term for intuitive perception."
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "'Über' (over) + 'Zeugung' (producing). Literally: producing\\nsomething overwhelming. Stronger than Meinung (opinion)."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Zeugung' (producing). Literally: producing something overwhelming. 'Aus Überzeugung handeln' (to act from conviction). Stronger than Meinung (opinion)."
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "'Vor' (before) + 'Stellung' (position). At B2 level, the\\nabstract meaning dominates: your idea of something."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Stellung' (position). Already known as 'introduction/interview' from B1. At B2: the abstract meaning dominates. 'Meine Vorstellung von Glück' (my idea of happiness)."
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "'Wert' (value) + 'Vorstellung' (concept). No Fugenelement\\nbetween the parts. Your ideas about what matters most."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "'Wert' (value) + 'Vorstellung' (concept). The Fugen-absence here is noteworthy: Wert + Vorstellung without a connecting element. Your ideas about what matters."
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "'Selbst' (self) + 'Bild' (image). Contrast: Fremdbild (how\\nothers see you). The gap between the two is where crises live."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "'Selbst' (self) + 'Bild' (image). 'Sein Selbstbild verändern' (to change one's self-image). Contrast: Fremdbild (how others see you). The gap between the two is where identity crises live."
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "From Latin 'conceptum' (something conceived). In German,\\nKonzept also means 'rough draft.' Both senses: something formed."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "From Latin 'conceptum' (something conceived). In German, Konzept also means 'rough draft.' 'Ein Konzept entwickeln' (to develop a concept). Both senses share the idea of something being formed."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "From Greek 'philosophia' (love of wisdom). Germany produced\\nKant, Hegel, Marx, Nietzsche, Heidegger, Arendt."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "From Greek 'philosophia' (love of wisdom). Germany produced Kant, Hegel, Marx, Nietzsche, Heidegger, Arendt. 'Deutsche Philosophie' is a major academic tradition."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Greek 'ethike' (moral philosophy). 'Ethik-Kommission'\\nreviews medical research and AI projects in Germany."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Greek 'ethike' (moral philosophy). 'Ethik-Kommission' (ethics committee) reviews medical research and AI projects in Germany. 'Berufsethik' (professional ethics) is taken seriously."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "'Grund' (foundation) + 'Wert' (value). The Grundwerte of\\nthe Grundgesetz: human dignity, freedom, equality."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "'Grund' (foundation) + 'Wert' (value). 'Die Grundwerte des Grundgesetzes' (the fundamental values of the constitution): human dignity, freedom, equality. Foundation values that cannot be changed."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "'Leben' (life) + 's' (Fugen-s) + 'Qualität' (quality).\\nGerman cities regularly rank among the highest worldwide."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Leben' (life) + 's' (Fugen-s) + 'Qualität' (quality). The Fugen-s connects the two parts. German cities regularly rank among the highest for Lebensqualität worldwide."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "'Menschen' (human) + 'Würde' (dignity). Article 1 of the\\nGerman constitution: 'Die Würde des Menschen ist unantastbar.'"
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "'Menschen' (human) + 'Würde' (dignity). Article 1 of the German constitution: 'Die Würde des Menschen ist unantastbar' (Human dignity is inviolable). The most important sentence in German law."
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "'Eigen' (own) + 'ständig' (standing). You stand on your own.\\nNot relying on others for your opinions or identity."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "'Eigen' (own) + 'ständig' (standing). 'Eigenständig denken' (to think independently). You stand on your own. Not relying on others for your opinions or identity."
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Same Germanic root as English 'open.' Karl Popper's\\nconcept of the 'open society' deeply influenced Germany."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "Same Germanic root as English 'open.' 'Offen für Neues sein' (to be open to new things). Karl Popper's concept of the 'open society' deeply influenced German postwar thought."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "'Respekt' (respect) + 'voll' (full). Full of respect. The\\n-voll suffix works like English '-ful': liebevoll, hoffnungsvoll."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "'Respekt' (respect) + 'voll' (full). Full of respect. The -voll suffix works like English '-ful': liebevoll (loving), hoffnungsvoll (hopeful), respektvoll (respectful)."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "'Welt' (world) + 'offen' (open). Berlin calls itself weltoffen.\\nThe word captures Germany's self-image as globally minded."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "'Welt' (world) + 'offen' (open). 'Eine weltoffene Stadt' (a cosmopolitan city). Berlin calls itself weltoffen. The word captures Germany's self-image as globally minded."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "'Viel' (many) + 'fältig' (fold). Many-folded, multi-layered,\\nrich in variety. The adjective form of Vielfalt."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "'Viel' (many) + 'fältig' (fold). Related to Vielfalt. The adjective form. Many-folded, multi-layered, rich in variety. 'Eine vielfältige Kultur' (a diverse culture)."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "From Latin 'respectare' (to look back at). Non-separable\\n-ieren verb. Same word across European languages."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From Latin 'respectare' (to look back at). 'Andere Kulturen respektieren' (to respect other cultures). Non-separable -ieren verb. Same word across European languages."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "'Die Kindheit prägt den Menschen' (Childhood shapes a person).\\nAlso: 'eine Münze prägen' (to mint a coin). Deeply formative."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "Something stamped into you that remains. 'Die Kindheit prägt den Menschen' (Childhood shapes a person). Also: 'eine Münze prägen' (to mint a coin). Deeply formative."
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "'Traditionen pflegen' (to cultivate traditions). Also:\\n'Kranke pflegen' (to care for the sick). Nurturing in all forms."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "'Traditionen pflegen' (to cultivate traditions). Also: 'Kranke pflegen' (to care for the sick). 'Pflegeversicherung' (nursing care insurance) is one of Germany's five social insurances."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "'An' (at) + 'erkennen' (to recognize). Not separable despite\\nthe an-. The official stamp of acceptance."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "'An' (at) + 'erkennen' (to recognize). 'Einen Abschluss anerkennen' (to recognize a degree). Not separable despite the an-. The official stamp of acceptance."
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "From Latin 'migratio' (wandering). Germany's 2015\\nMigrationsdebatte changed the political landscape."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "From Latin 'migratio' (wandering). Germany's 2015 Migrationsdebatte changed the political landscape. 'Migrationshintergrund' (migration background) is a German census category: 21 million people."
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "From Latin 'integratio' (renewal). 'Integration ist keine\\nEinbahnstraße' (not a one-way street) is a common German saying."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "From Latin 'integratio' (renewal/restoration). 'Integration ist keine Einbahnstraße' (Integration is not a one-way street) is a common German saying. Both sides must move."
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "'Ein' (in) + 'Wanderung' (wandering). Germany was officially\\n'kein Einwanderungsland' until 2005. Reality preceded policy."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'Wanderung' (wandering). Germany was officially 'kein Einwanderungsland' (not a country of immigration) until 2005 when it passed its first immigration law. Reality preceded policy by decades."
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From Latin 'discriminare' (to distinguish). The AGG (General\\nEqual Treatment Act) of 2006 prohibits it in employment."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "From Latin 'discriminare' (to distinguish). The Allgemeines Gleichbehandlungsgesetz (AGG, General Equal Treatment Act) of 2006 prohibits Diskriminierung in employment and daily life."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From Latin 'inclusio' (enclosure). Beyond disability:\\n'Inklusion means everyone belongs.' Active inclusion."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "From Latin 'inclusio' (enclosure). Beyond disability: Inklusion means everyone belongs. Germany's education system is moving toward Inklusion in schools. Not just tolerance, but active inclusion."
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "From French 'milieu' (middle/environment). Sinus-Milieus\\ndivide German society into lifestyle groups."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "From French 'milieu' (middle/environment). Sinus-Milieus divide German society into lifestyle groups: liberal-intellectual, traditional, performer, etc. Your Milieu shapes your Weltanschauung."
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "'Generationen' (generations) + 'Konflikt.' The Fugen-en\\nconnects the parts. Every generation has its defining conflict."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "'Generationen' (generations) + 'Konflikt.' Every generation in Germany has its defining conflict: 68ers vs. parents, Gen Z vs. Boomers on climate. The Fugen-en connects the parts."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "From 'wandeln' (to change/walk). Gradual, deep change: not\\na revolution but an evolution. Wandel takes time."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "From 'wandeln' (to change/walk). Wandel implies gradual, deep change: not a revolution but an evolution. 'Wandel durch Annäherung' (change through rapprochement) was Willy Brandt's Ostpolitik."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "'Lebens' (life's) + 'Weise' (way/manner). The Fugen-s links\\nLeben to Weise. How you choose to live your life."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "'Lebens' (life's) + 'Weise' (way/manner). The Fugen-s links Leben to Weise. 'Alternative Lebensweisen' (alternative lifestyles) became a political topic in the 1970s."
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "'Welt' (world) + 'Anschauung' (view). One of the most\\nfamous German words exported to English. Kant used it first."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Welt' (world) + 'Anschauung' (view). One of the most famous German words exported to English. Kant used it first. Your comprehensive framework for understanding everything."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "From Greek 'ethnikos' (of a people). Used carefully in German\\ndiscourse due to historical sensitivity."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "From Greek 'ethnikos' (of a people). 'Ethnische Vielfalt' (ethnic diversity). A term used carefully in German discourse due to historical sensitivity."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "'Plural' + '-istisch.' Many worldviews coexisting. The ideal\\nof the Grundgesetz: no single ideology dominates."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "'Plural' + '-istisch.' Pluralistic. Many worldviews coexisting. The ideal of the Grundgesetz: no single ideology dominates. 'Eine pluralistische Gesellschaft' (a pluralistic society)."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "From Greek 'kosmopolites' (citizen of the world). Berlin\\nconsiders itself kosmopolitisch. Comfort with global diversity."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "From Greek 'kosmopolites' (citizen of the world). 'Eine kosmopolitische Einstellung' (a cosmopolitan attitude). Berlin considers itself kosmopolitisch. The word implies comfort with global diversity."
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "From Latin 'integrare' (to make whole). Non-separable -ieren\\nverb. Both transitive and reflexive."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "From Latin 'integrare' (to make whole). 'Sich in eine Gesellschaft integrieren' (to integrate into a society). Non-separable -ieren verb. Both transitive and reflexive."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "'Auseinander' (apart) + 'setzen' (to set) + 'mit' (with).\\nLiterally: to set things apart with something. Intellectual verb."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'Auseinander' (apart) + 'setzen' (to set) + 'mit' (with). Literally: to set things apart with something. 'Sich mit Vorurteilen auseinandersetzen' (to confront prejudices). The most intellectual reflexive verb in German."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "'Identifizieren' (to identify) + 'mit' (with). Reflexive.\\nFinding yourself in something external."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Identifizieren' (to identify) + 'mit' (with). Reflexive. 'Sich mit einer Kultur identifizieren' (to identify with a culture). Finding yourself in something external."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "'An' (at/to) + 'passen' (to fit). Separable and reflexive.\\nFitting yourself to new circumstances without losing yourself."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'An' (at/to) + 'passen' (to fit). Separable: 'Ich passe mich an.' Fitting yourself to new circumstances. Not losing yourself, but adjusting. A survival skill."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "'Ver-' + 'Mittel' (middle/means). Being the middle person.\\nAlso: 'Wissen vermitteln' (to convey knowledge). A bridge function."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "'Ver-' + 'Mittel' (middle/means). 'Zwischen Kulturen vermitteln' (to mediate between cultures). Being the middle person. Also: 'Wissen vermitteln' (to convey knowledge). A bridge function."
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "Wer/wen/wem folgen den Kasusregeln. Nach alles/nichts/etwas/das immer 'was,' nie 'das.'"
+  },
+  {
+    "line": 139,
+    "field": "note",
+    "english": "Refers to something near or just mentioned. Declines like\\na der-word: dieser/diese/dieses/diese. Most common Verweiswort."
+  },
+  {
+    "line": 139,
+    "field": "funFact",
+    "english": "Refers to something near or just mentioned. 'Dieser Wert ist wichtig' (This value is important). Declines like a der-word: dieser/diese/dieses/diese. The most common Verweiswort."
+  },
+  {
+    "line": 140,
+    "field": "note",
+    "english": "Points to something farther away or previously mentioned.\\nDeclines like dieser. More literary than spoken."
+  },
+  {
+    "line": 140,
+    "field": "funFact",
+    "english": "Points to something farther away or previously mentioned. 'Jener Künstler lebte im 19. Jahrhundert' (That artist lived in the 19th century). Declines like dieser. More literary than spoken."
+  },
+  {
+    "line": 141,
+    "field": "note",
+    "english": "Describes a kind or type. Declines like dieser. 'Solch ein\\nMensch' inverts: solch + ein + noun."
+  },
+  {
+    "line": 141,
+    "field": "funFact",
+    "english": "Describes a kind or type. 'Solche Vorurteile sind gefährlich' (Such prejudices are dangerous). Declines like dieser. 'Solch ein Mensch' (such a person) inverts: solch + ein + noun."
+  },
+  {
+    "line": 142,
+    "field": "note",
+    "english": "'Der' + 'jenige' (the particular one). Compound demonstrative.\\nBoth parts decline: desjenigen, demjenigen."
+  },
+  {
+    "line": 142,
+    "field": "funFact",
+    "english": "'Der' + 'jenige' (the particular one). 'Derjenige, der zuerst kommt, gewinnt' (The one who comes first wins). Compound demonstrative. Both parts decline: desjenigen, demjenigen."
+  },
+  {
+    "line": 143,
+    "field": "note",
+    "english": "Feminine form of derjenige. Both parts decline together.\\nFormal, written register."
+  },
+  {
+    "line": 143,
+    "field": "funFact",
+    "english": "Feminine form of derjenige. 'Diejenige, die am meisten liest, weiß am meisten' (The one (f.) who reads the most knows the most). Both parts decline together."
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Neuter form of derjenige. Formal, written. In speech,\\nGermans often substitute 'das, was.'"
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "Neuter form of derjenige. 'Dasjenige, was wirklich zählt' (That which truly counts). Formal, written. In speech, Germans often substitute 'das, was.'"
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "'Der' + 'selbe' (same). Both parts decline. Implies true\\nidentity: literally the same individual or thing."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "'Der' + 'selbe' (same). Both parts decline. Derselbe implies true identity: literally the same individual or thing. 'Derselbe Fehler passiert immer wieder' (The same mistake happens again and again)."
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Feminine form of derselbe. Not 'die gleiche' (the similar one).\\nDerselbe = identical. Der gleiche = similar but separate."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "Feminine form of derselbe. 'Dieselbe Frage stellt sich jede Generation' (Every generation faces the same question). Not to be confused with 'die gleiche' (the similar one). Derselbe = identical."
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "Neuter form of derselbe. 'Ist das dasselbe oder nur das\\nGleiche?' is a famous German distinction."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "Neuter form of derselbe. 'Ist das dasselbe oder nur das Gleiche?' (Is it the same or just similar?) A famous German distinction. Dasselbe = one and the same object. Das Gleiche = two objects that look alike."
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "'Erster' (first) + comparative ending. Used in formal writing\\nto refer back to the first of two things mentioned."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "'Erster' (first) + comparative ending. 'Toleranz und Respekt: Ersterer ist passiv, letzterer aktiv.' Used in formal writing to refer back to two things. Shows you can track two referents across a sentence."
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "'Letzter' (last) + comparative ending. Classic academic\\npairing with ersterer. Avoids repeating nouns. Written register."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "'Letzter' (last) + comparative ending. 'Ersterer... letzterer...' is a classic academic pairing. It avoids repeating nouns. Written register. Shows sophisticated text cohesion."
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "'Ein' + 'solcher.' The indefinite article version of solcher.\\nEin solcher Mensch = a person of that kind."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "'Ein' + 'solcher.' The indefinite article version of solcher. 'Ein solcher Wandel braucht Zeit' (Such a change takes time). Ein solcher Mensch = a person of that kind."
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "'Gleicher' (equal) + 'Maßen' (measure). An elegant adverb\\nfor balanced comparisons in formal writing."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "'Gleicher' (equal) + 'Maßen' (measure). 'Alle profitieren gleichermaßen' (Everyone benefits equally). An elegant adverb for balanced comparisons."
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "'Im' + 'Wesentlichen' (essential). A qualifier that focuses\\non the core. Allows for minor disagreements."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "'Im' + 'Wesentlichen' (essential). 'Im Wesentlichen stimme ich zu' (I essentially agree). A qualifier that focuses on the core. Allows for minor disagreements."
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "'Im' + 'Grunde' (ground/foundation). Looks at the foundation\\nbeneath the surface. What lies at the very bottom."
+  }
+]

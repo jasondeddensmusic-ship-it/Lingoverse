@@ -1,0 +1,1702 @@
+[
+  {
+    "line": 87,
+    "field": "note",
+    "english": "Versicherte (insured person) + Karte (card).\\nBring it to every doctor visit."
+  },
+  {
+    "line": 87,
+    "field": "exampleSrc",
+    "english": "A: Do you have your insurance card with you?\\nB: Yes, here you go.\\nA: Thank you. Please take a seat in the waiting room.\\nB: How long do I have to wait?"
+  },
+  {
+    "line": 88,
+    "field": "note",
+    "english": "From 'zahlen' (to pay) + -ung.\\n'Monatliche Zahlung' = monthly payment."
+  },
+  {
+    "line": 88,
+    "field": "exampleSrc",
+    "english": "A: The payment is due.\\nB: When do I have to pay?\\nA: By the 15th of the month.\\nB: Can I pay by bank transfer?"
+  },
+  {
+    "line": 89,
+    "field": "note",
+    "english": "From 'mahnen' (to warn/remind).\\nThree levels: polite, firm, legal action."
+  },
+  {
+    "line": 89,
+    "field": "exampleSrc",
+    "english": "A: I received a payment reminder!\\nB: The first or the second one?\\nA: The second one.\\nB: Then you need to pay quickly."
+  },
+  {
+    "line": 90,
+    "field": "note",
+    "english": "Aus (out) + Gabe (giving). Money going out.\\nOpposite of Einnahme (income)."
+  },
+  {
+    "line": 90,
+    "field": "exampleSrc",
+    "english": "A: How high are your monthly expenses?\\nB: About 1500 euros.\\nA: Those are high expenses.\\nB: Yes, the rent alone costs 800 euros."
+  },
+  {
+    "line": 91,
+    "field": "note",
+    "english": "From 'erhöhen' (to increase/raise).\\nCompound with everything: Beitrags-, Miet-, Lohnerhöhung."
+  },
+  {
+    "line": 91,
+    "field": "exampleSrc",
+    "english": "A: There is a premium increase.\\nB: Again? By how much?\\nA: By 0.5 percent.\\nB: That is just a small increase."
+  },
+  {
+    "line": 92,
+    "field": "note",
+    "english": "From Latin 'summa.' International, mathematical.\\n'In Summe' = in total."
+  },
+  {
+    "line": 92,
+    "field": "exampleSrc",
+    "english": "A: How high is the total?\\nB: The total amounts to 3,500 euros.\\nA: That is a large sum.\\nB: Yes, but it includes everything."
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "'Einkommensteuer' = income tax.\\n'Mehrwertsteuer' = VAT. Germany's tax system is famously complex."
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: How much tax do you pay?\\nB: Way too much! Almost 40 percent.\\nA: The tax in Germany is high.\\nB: Yes, but the system works because of it."
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "'Mindestlohn' = minimum wage.\\nDifferent from 'Gehalt' (monthly salary, white-collar)."
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: How high is the minimum wage?\\nB: 12.41 euros per hour.\\nA: Is the wage enough to live on?\\nB: In Berlin it is tight."
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Be- + rechnen (to calculate).\\nCalculation and billing in one verb."
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: Can you calculate the costs?\\nB: Yes, I will calculate everything for you.\\nA: What do you charge for the examination?\\nB: We charge that through the health insurance."
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "From French 'financer.' The -ieren ending = borrowed verb.\\nRegular, predictable, international."
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: How do you finance your studies?\\nB: My parents finance it partly.\\nA: And the rest?\\nB: I finance that with a part-time job."
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Ein (in) + Nahme (taking). Money coming in.\\nAlso: 'Einnahme von Medizin' = taking medicine."
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: What is your monthly income?\\nB: My income is 2,500 euros net.\\nA: And the expenses?\\nB: About 1,800 euros."
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "Ein (in) + Kauf (purchase).\\n'Einkäufe machen' = to do shopping."
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: I still need to do shopping.\\nB: What do you need?\\nA: Just the daily shopping. Bread, milk, vegetables.\\nB: Should I come along?"
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From 'kaufen' (to buy).\\n'Kaufvertrag' = purchase contract. Short, sharp, commercial."
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: Was that a good purchase?\\nB: Yes, a very good purchase.\\nA: How much did you pay?\\nB: Only 50 euros. A real bargain."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From 'gewinnen' (to win).\\n'Gewinn machen' = to make a profit."
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: Did the company make a profit?\\nB: Yes, the profit was higher than last year.\\nA: How high was the profit?\\nB: Almost one million euros."
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "From 'nieder' (down).\\n'Niedrig' for measurable things, 'tief' for depth and emotion."
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: The costs are relatively low.\\nB: Really? How low?\\nA: Only 150 euros per month.\\nB: That is indeed low."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "More formal than 'niedrig.'\\n'Nicht im Geringsten' = not in the slightest."
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: Are the risks minor?\\nB: Yes, only a minor risk.\\nA: Then I will do it.\\nB: The costs are also minor."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "'Knapp bei Kasse' = tight on money.\\n'Knapp gewonnen' = barely won."
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Do you have enough money?\\nB: It is tight. Very tight.\\nA: Is it enough for the insurance?\\nB: Just barely. Tight, but it is enough."
+  },
+  {
+    "line": 105,
+    "field": "text",
+    "english": "In German, prepositions stay with the relative pronoun. In English, you might say 'the letter I am complaining ABOUT.' In German, the preposition comes FIRST:\\n\\nDer Brief, ÜBER DEN ich mich beschwere.\\n\\nThe preposition opens the relative clause, followed by the relative pronoun, and the verb goes to the end.\\n\\nThe relative pronoun matches:\\n- Gender from the noun it refers to\\n- Case from the preposition\\n\\nExamples:\\n- Die Karte, MIT DER du zum Arzt gehst (mit takes dative, die is feminine)\\n- Der Brief, ÜBER DEN du dich beschwerst (über takes accusative, der is masculine)\\n- Das Formular, AUF DAS ich warte (auf takes accusative, das is neuter)"
+  },
+  {
+    "line": 105,
+    "field": "text",
+    "english": "Step 1: Identify the preposition the verb needs (sich beschweren ÜBER, warten AUF, sich entscheiden FÜR).\\n\\nStep 2: Determine the case the preposition requires (accusative or dative).\\n\\nStep 3: Match the relative pronoun to the gender of the noun AND the case from the preposition.\\n\\nDer Brief (über + acc, masculine) = über den\\nDie Karte (mit + dat, feminine) = mit der\\nDas Formular (auf + acc, neuter) = auf das\\n\\nThe verb always goes to the end of the relative clause."
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "From Latin 'emplastrum.'\\nAlso means 'pavement' (Kopfsteinpflaster = cobblestone)."
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: Do you have a bandage?\\nB: Yes, here. Large or small?\\nA: A large bandage please.\\nB: Here, stick it on the wound."
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "Cognate with English 'salve.'\\nFrom Latin 'salvare' (to save/heal)."
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: This ointment helps against pain.\\nB: How often should I apply the ointment?\\nA: Twice a day.\\nB: Morning and evening?"
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "Cognate with English 'salve.' From Latin 'salvare' (to save/heal). One of the oldest medicine words in Germanic languages. Apply to Haut for relief."
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "From Latin 'pilula' (little ball).\\n'Die Pille' alone usually means the contraceptive pill."
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: Take these pills three times daily.\\nB: Before or after eating?\\nA: After eating. With water.\\nB: How long should I take them?"
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "'Die Pille' by itself usually means the contraceptive pill. For other pills: 'Tablette' or 'Pille gegen Kopfschmerzen.' Context-dependent social meaning."
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "From 'spritzen' (to spray/squirt).\\n'Spritzenphobie' is a real diagnosis."
+  },
+  {
+    "line": 121,
+    "field": "exampleSrc",
+    "english": "A: I need an injection for the pain.\\nB: Are you afraid of injections?\\nA: A little.\\nB: Don't worry, it only takes a second."
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "Germans fear the Spritze more than most medical procedures. 'Spritzenphobie' is a real diagnosis. From 'spritzen' (to spray/squirt)."
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "'Augentropfen' = eye drops, 'Nasentropfen' = nose drops.\\nAlso the verb 'tropfen' (to drip)."
+  },
+  {
+    "line": 122,
+    "field": "exampleSrc",
+    "english": "A: Take these drops three times a day.\\nB: How many drops?\\nA: Ten drops in a glass of water.\\nB: Before or after eating?"
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "'Ein Tropfen auf den heißen Stein' (a drop on a hot stone) means a futile effort. The drop evaporates before it can help. A beautifully pessimistic idiom."
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "Schmerz (pain) + Mittel (means/remedy).\\nTransparent compound: pain-means."
+  },
+  {
+    "line": 123,
+    "field": "exampleSrc",
+    "english": "A: Do you have a painkiller?\\nB: Yes, ibuprofen or paracetamol?\\nA: What do you recommend?\\nB: For headaches: ibuprofen."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "German compounds are transparent: pain-means. You always know what you are swallowing. 'Schmerzmittel einnehmen' (to take painkillers)."
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "From 'schnupfen' (to sniff).\\nLess formal than Erkältung. Focuses on the nose."
+  },
+  {
+    "line": 124,
+    "field": "exampleSrc",
+    "english": "A: Do you have a cold?\\nB: Yes, my nose is running all day.\\nA: Here, take a tissue.\\nB: Thanks. This cold won't go away."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "Schnupfen focuses on the nose; Erkältung is the whole-body cold. From 'schnupfen' (to sniff). Less formal, more specific."
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "Also the verb 'husten' (to cough).\\n'Hustensirup' = cough syrup. Onomatopoeia."
+  },
+  {
+    "line": 125,
+    "field": "exampleSrc",
+    "english": "A: How long have you had a cough?\\nB: For a week.\\nA: Dry cough or with mucus?\\nB: Dry cough, especially at night."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "Onomatopoeia: the word sounds like a cough. Same root as English 'cough' before English changed its spelling. 'Hustensirup' (cough syrup) is a pharmacy staple."
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "From Latin 'infectio.'\\nThe -tion ending is always feminine, always stressed on the last syllable."
+  },
+  {
+    "line": 126,
+    "field": "exampleSrc",
+    "english": "A: It is a bacterial infection.\\nB: Do I need antibiotics?\\nA: Yes, I will prescribe some.\\nB: How long does the infection last?"
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "Identical in most European languages. The -tion ending is always feminine in German, always stressed on the last syllable. A reliable pattern."
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "From Latin 'virus' (poison).\\nNeuter (das Virus), though some say 'der Virus.'"
+  },
+  {
+    "line": 127,
+    "field": "exampleSrc",
+    "english": "A: Is it a virus or an infection?\\nB: A virus. Antibiotics won't help.\\nA: What should I do?\\nB: Rest, fluids, and wait it out."
+  },
+  {
+    "line": 127,
+    "field": "funFact",
+    "english": "Neuter in German (das Virus), though some Germans say 'der Virus.' The Duden accepts both. Scientists insist on 'das.' A rare grammar debate in medicine."
+  },
+  {
+    "line": 128,
+    "field": "note",
+    "english": "Ver- + schreiben (to write). The doctor writes for you.\\n'Sich verschreiben' = to make a writing mistake."
+  },
+  {
+    "line": 128,
+    "field": "exampleSrc",
+    "english": "A: The doctor prescribed me drops.\\nB: For what?\\nA: For the infection.\\nB: Good, take them regularly."
+  },
+  {
+    "line": 128,
+    "field": "funFact",
+    "english": "The doctor writes something for you. 'Sich verschreiben' means to make a writing mistake. The ver- prefix changes everything. One letter, two very different meanings."
+  },
+  {
+    "line": 129,
+    "field": "note",
+    "english": "Ein + nehmen. Separable prefix.\\n'Nehmen Sie die Tabletten zweimal täglich ein.'"
+  },
+  {
+    "line": 129,
+    "field": "exampleSrc",
+    "english": "A: How should I take the medicine?\\nB: Twice daily, morning and evening.\\nA: Before or after eating?\\nB: Take it after eating."
+  },
+  {
+    "line": 129,
+    "field": "funFact",
+    "english": "Separable: 'Nehmen Sie die Tabletten zweimal täglich ein.' Also: 'Einnahmen' (revenue). Medicine intake and money intake share a verb."
+  },
+  {
+    "line": 130,
+    "field": "note",
+    "english": "From Latin 'operari.' Regular: -ieren ending.\\n'Am Knie operiert' = operated on the knee."
+  },
+  {
+    "line": 130,
+    "field": "exampleSrc",
+    "english": "A: We need to operate.\\nB: Is the operation dangerous?\\nA: No, a routine procedure.\\nB: When will you operate?"
+  },
+  {
+    "line": 130,
+    "field": "funFact",
+    "english": "The -ieren ending makes it regular and predictable. 'Operiert werden' (to be operated on). A serious verb for a serious procedure."
+  },
+  {
+    "line": 131,
+    "field": "note",
+    "english": "Feminine of Arzt. The -in suffix is standard.\\nModern: 'Ärzt*in' for inclusive forms."
+  },
+  {
+    "line": 131,
+    "field": "exampleSrc",
+    "english": "A: The doctor will be right with you.\\nB: Which doctor?\\nA: Dr. Weber. She is very good.\\nB: Good, I will wait."
+  },
+  {
+    "line": 131,
+    "field": "funFact",
+    "english": "The feminine of Arzt. In modern German, many institutions use 'Ärzt*in' to be inclusive. The -in suffix is the standard feminine marker for person nouns."
+  },
+  {
+    "line": 132,
+    "field": "note",
+    "english": "Feminine of Doktor.\\n'Frau Doktor' is more common than 'Frau Doktorin.'"
+  },
+  {
+    "line": 132,
+    "field": "exampleSrc",
+    "english": "A: Good day, Doctor.\\nB: Good day. What can I do for you?\\nA: I have a stomachache.\\nB: Since when?"
+  },
+  {
+    "line": 132,
+    "field": "funFact",
+    "english": "'Frau Doktorin Müller' is extremely formal. Most people simply say 'Frau Doktor.' The -in is grammatically correct but socially optional with titles."
+  },
+  {
+    "line": 133,
+    "field": "note",
+    "english": "From 'schwierig' (difficult) + -keit.\\nAbstract noun from adjective."
+  },
+  {
+    "line": 133,
+    "field": "exampleSrc",
+    "english": "A: Do you have difficulties with the form?\\nB: Yes, I do not understand point 5.\\nA: That is a known difficulty.\\nB: Can someone help me?"
+  },
+  {
+    "line": 133,
+    "field": "funFact",
+    "english": "The -keit suffix turns adjectives into abstract nouns. 'Finanzielle Schwierigkeiten' (financial difficulties). The insurance letters are full of Schwierigkeiten."
+  },
+  {
+    "line": 134,
+    "field": "note",
+    "english": "From Latin 'maximus.'\\n'Maximal zwei Tabletten pro Tag.'"
+  },
+  {
+    "line": 134,
+    "field": "exampleSrc",
+    "english": "A: How many tablets am I allowed to take?\\nB: Maximum three per day.\\nA: And if the pain gets worse?\\nB: Then come back."
+  },
+  {
+    "line": 134,
+    "field": "funFact",
+    "english": "In insurance: 'maximale Erstattung' (maximum reimbursement). International, transparent, precise. From Latin 'maximus.'"
+  },
+  {
+    "line": 135,
+    "field": "note",
+    "english": "The opposite of maximal.\\n'Minimaler Aufwand, maximaler Effekt.'"
+  },
+  {
+    "line": 135,
+    "field": "exampleSrc",
+    "english": "A: How big is the risk?\\nB: Minimal. Really very low.\\nA: Are there minimal side effects?\\nB: Yes, only minimal."
+  },
+  {
+    "line": 135,
+    "field": "funFact",
+    "english": "'Minimaler Aufwand, maximaler Effekt' (minimal effort, maximum effect). Insurance companies love this phrase. For them, not for you."
+  },
+  {
+    "line": 136,
+    "field": "note",
+    "english": "Des (of that) + wegen (because of). Synonym of deshalb.\\nMain clause connector: verb in second position after it."
+  },
+  {
+    "line": 136,
+    "field": "exampleSrc",
+    "english": "A: Verumius was sick. Therefore he went to the doctor.\\nB: Did the doctor prescribe something?\\nA: Yes, therefore he feels better.\\nB: Good, therefore he can come back tomorrow."
+  },
+  {
+    "line": 136,
+    "field": "funFact",
+    "english": "Deswegen, deshalb, daher, darum all mean therefore. Germans use them interchangeably. Deswegen literally breaks down to des (of that) + wegen (because of): because of that."
+  },
+  {
+    "line": 137,
+    "field": "text",
+    "english": "These words connect two main clauses and show cause, contrast, or consequence. The verb comes IMMEDIATELY after them (V2 position).\\n\\nThe pattern is: first main clause, then the adverbial conjunction, then the verb, then the subject.\\n\\n- deshalb (therefore): Er ist krank. Deshalb geht er zum Arzt.\\n- trotzdem (nevertheless): Es regnet. Trotzdem geht sie joggen.\\n- deswegen (that is why): Die Kosten steigen. Deswegen zahlen wir mehr.\\n- also (so/therefore): Du bist versichert. Also musst du dir keine Sorgen machen.\\n- sonst (otherwise): Nimm die Medizin. Sonst wird es schlimmer.\\n\\nCompare with weil (subordinating), which pushes the verb to the END:\\nEr geht zum Arzt, weil er krank ist.\\n\\nDeshalb (adverbial) keeps the verb in second position:\\nEr ist krank. Deshalb GEHT er zum Arzt."
+  },
+  {
+    "line": 137,
+    "field": "text",
+    "english": "Subordinating conjunctions (weil, dass, obwohl, damit, falls) push the verb to the END of the clause:\\nEr geht zum Arzt, weil er krank IST.\\n\\nAdverbial conjunctions (deshalb, trotzdem, deswegen, also, sonst) keep the verb in SECOND position:\\nEr ist krank. Deshalb GEHT er zum Arzt.\\n\\nThe key difference: subordinating conjunctions create Nebensätze (subordinate clauses). Adverbial conjunctions connect two Hauptsätze (main clauses). The word order tells you which type you are dealing with."
+  },
+  {
+    "line": 138,
+    "field": "text",
+    "english": "Both trigger inversion (verb in position 2), but with opposite logic:\\n\\ndeshalb = expected result (consequence):\\nEs regnet. Deshalb bleibe ich zu Hause. (logical)\\n\\ntrotzdem = unexpected result (surprise):\\nEs regnet. Trotzdem gehe ich raus. (unexpected)\\n\\ndeshalb = 'deswegen' / trotzdem = 'trotz dessen' (despite that)"
+  },
+  {
+    "line": 138,
+    "field": "text",
+    "english": "trotzdem = everyday speech\\ndennoch = formal written language, essays, news\\n\\n'Der Markt fiel. Dennoch blieben die Anleger ruhig.'\\n(The market fell. Nevertheless the investors remained calm.)\\n\\nIn conversation: trotzdem.\\nIn an essay: dennoch."
+  },
+  {
+    "line": 139,
+    "field": "text",
+    "english": "obwohl = subordinating conjunction, verb goes to the END:\\nObwohl es regnet, gehe ich raus.\\n[Subclause: verb LAST] [Main clause: V2]\\n\\ntrotzdem = adverb, verb stays in position 2:\\nEs regnet. Trotzdem gehe ich raus.\\n[Main clause 1] [Main clause 2]\\n\\nSame meaning. Completely different grammar.\\nTest: Can you start a new sentence with it? trotzdem YES, obwohl NO."
+  },
+  {
+    "line": 139,
+    "field": "text",
+    "english": "With obwohl (one complex sentence):\\nObwohl es kalt ist, gehe ich schwimmen.\\n[Subclause: verb at end] [Main clause: V2]\\n\\nWith trotzdem (two main clauses):\\nEs ist kalt. Trotzdem gehe ich schwimmen.\\n[Main clause 1] [Main clause 2: V2 after trotzdem]\\n\\nPractice converting:\\nobwohl sentence to trotzdem sentence and vice versa."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "From casual to formal:\\n\\nauch = also (simplest form)\\naußerdem = moreover (everyday, versatile)\\nzudem = furthermore (slightly formal)\\ndarüber hinaus = beyond that (essays only)\\n\\nAll add new information. außerdem is the safe default."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "Position 1 (with inversion):\\nAußerdem spricht sie Französisch.\\n\\nMiddle of sentence (without inversion):\\nSie spricht außerdem Französisch.\\n\\nBoth correct. Position 1 emphasizes the addition."
+  },
+  {
+    "line": 141,
+    "field": "text",
+    "english": "sowohl A als auch B = both A and B:\\nSie ist sowohl intelligent als auch fleißig.\\n\\nweder A noch B = neither A nor B:\\nEr trinkt weder Kaffee noch Tee.\\n\\nIMPORTANT: weder...noch is already negative.\\nNever add nicht or kein on top:\\nEr trinkt weder Kaffee noch Tee. (correct)\\nEr trinkt nicht weder Kaffee noch Tee. (incorrect)"
+  },
+  {
+    "line": 141,
+    "field": "text",
+    "english": "With full sentences, weder triggers inversion in both parts:\\nWeder hat er Zeit, noch hat er Lust.\\n(Neither does he have time, nor does he feel like it.)\\n\\nThe verb comes in BOTH parts directly after weder/noch."
+  },
+  {
+    "line": 143,
+    "field": "hint",
+    "english": "After an adverbial conjunction, the verb comes immediately next."
+  },
+  {
+    "line": 144,
+    "field": "hint",
+    "english": "Bei takes dative. Ärztin is feminine. What is the feminine dative relative pronoun?"
+  },
+  {
+    "line": 144,
+    "field": "sSrc",
+    "english": "The doctor I was at prescribed me drops."
+  },
+  {
+    "line": 145,
+    "field": "hint",
+    "english": "Which conjunction shows a direct cause-effect relationship?"
+  },
+  {
+    "line": 146,
+    "field": "hint",
+    "english": "First blank: in + dative, feminine Klinik. Second blank: a consequence conjunction."
+  },
+  {
+    "line": 146,
+    "field": "sSrc",
+    "english": "The clinic I was at was very good. Therefore I recommend it."
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "NOT a drugstore in the American sense.\\ndm, Rossmann, Müller: toiletries, cosmetics, household. No medicine."
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Where do you buy shampoo?\\nB: At the drugstore. At dm or Rossmann.\\nA: Not at the pharmacy?\\nB: No, the drugstore is for personal care."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "A famous false friend. A Drogerie sells toiletries, cosmetics, and household products. No prescription drugs. For medicine, you need the Apotheke."
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "Zahn (tooth) + Creme (cream).\\nAlso called 'Zahnpasta.' Both are correct."
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: Which toothpaste do you use?\\nB: One with fluoride.\\nA: Where do you buy it?\\nB: At the drugstore. It is cheaper there."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "Germans use both Zahncreme and Zahnpasta interchangeably. Regional preference: north tends toward Zahnpasta, south toward Zahncreme."
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "Zahn (tooth) + Pasta (paste). From Italian.\\nSynonym for Zahncreme."
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Do you still have toothpaste?\\nB: No, it is empty.\\nA: I will buy new toothpaste.\\nB: Get the one with herbs."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "From Italian 'pasta' (paste). The other word for toothpaste. Both Zahncreme and Zahnpasta are correct. Regional and personal preference decides."
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "Zahn (tooth) + Bürste (brush).\\nCompound noun: you already know both halves."
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: I need a new toothbrush.\\nB: An electric one or a normal one?\\nA: An electric toothbrush.\\nB: Those cost from 30 euros."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "Compound noun: you already know both halves. This is how German vocabulary grows exponentially. Know the parts, know the whole."
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "Not just for teeth: Haarbürste, Schuhbürste, Nagelbürste.\\nA bristle tool for cleaning anything."
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: Where is my brush?\\nB: Which brush? The hairbrush?\\nA: Yes, the hairbrush.\\nB: In the bathroom, next to the mirror."
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "Haarbürste (hairbrush), Schuhbürste (shoe brush), Nagelbürste (nail brush). A bristle tool for cleaning anything. From Middle High German 'burste.'"
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "Tasche (pocket) + Tuch (cloth).\\nTempo is the generic German word for tissue."
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: Do you have a tissue?\\nB: Yes, here. Do you have a cold?\\nA: Yes, since yesterday.\\nB: Get well soon!"
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "Tempo is the generic German word for tissue (brand name, like Kleenex in English). 'Hast du ein Taschentuch?' is what you ask when someone has Schnupfen."
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "From 'pflegen' (to care for) + -er.\\n'Altenpfleger' = elderly care worker."
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: The caregiver comes at eight o'clock.\\nB: Is he nice?\\nA: Yes, a very good caregiver.\\nB: Good, grandma needs good care."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "An increasingly important profession in aging Germany. The country has a chronic shortage of Pfleger. 'Altenpfleger' (elderly care worker) is one of the most needed jobs."
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "Pfleger + -in. Standard feminine suffix.\\nThe majority of Pflege workers are female."
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: The caregiver is very experienced.\\nB: How long has she been working?\\nA: For ten years as a caregiver.\\nB: You can tell."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "The majority of Pflege workers in Germany are female. The profession is chronically understaffed. Same pattern: male -er, female -erin."
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "Kranke (sick person) + Pfleger (carer).\\nModern: 'Pflegefachkraft' for all genders."
+  },
+  {
+    "line": 164,
+    "field": "exampleSrc",
+    "english": "A: My brother is a nurse.\\nB: At which clinic does he work?\\nA: At the Charité.\\nB: That is a very good profession."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "Modern German is moving toward 'Pflegefachkraft' for all genders. But 'Krankenpfleger' is still widely understood and used."
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "Kranke (sick) + Schwester (sister).\\nHistorically, nuns cared for the sick. The name stuck."
+  },
+  {
+    "line": 165,
+    "field": "exampleSrc",
+    "english": "A: The nurse is measuring my blood pressure.\\nB: Is it too high?\\nA: No, says the nurse.\\nB: Good, then everything is fine."
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "Historically, nuns (Schwestern) cared for the sick. The name stuck. Being phased out officially in favor of 'Pflegefachfrau,' but still widely used."
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "From 'betreuen' (to look after).\\nBroader than Pfleger: children, patients, elderly."
+  },
+  {
+    "line": 166,
+    "field": "exampleSrc",
+    "english": "A: Who is the supervisor of the group?\\nB: Mr. Schmidt. He looks after ten patients.\\nA: Is he good?\\nB: Yes, a very caring supervisor."
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "Broader than Pfleger: a Betreuer can supervise children, patients, or elderly. 'Kinderbetreuer' (childcare worker). The person responsible for your wellbeing."
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "Betreuer + -in.\\n'Die Betreuerin kümmert sich um die Senioren.'"
+  },
+  {
+    "line": 167,
+    "field": "exampleSrc",
+    "english": "A: The caretaker comes this afternoon.\\nB: Good, grandpa always looks forward to it.\\nA: Yes, the caretaker is very nice.\\nB: He trusts her."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "Same pattern: male -er, female -erin. Betreuer/Betreuerin, Pfleger/Pflegerin. German is consistent with its gendered suffixes."
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "From 'betreuen' + -ung. Abstract noun.\\n'Kinderbetreuung' = childcare."
+  },
+  {
+    "line": 168,
+    "field": "exampleSrc",
+    "english": "A: The care at the nursing home is very good.\\nB: How many hours per day?\\nA: 24-hour care.\\nB: That is reassuring."
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "'Kinderbetreuung' (childcare), 'Seniorenbetreuung' (elderly care). The -ung suffix creates the concept from the verb. German's favorite noun-maker."
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "'Einen Kranken pflegen' = to care for a sick person.\\nAlso: 'Kontakte pflegen' = to maintain contacts."
+  },
+  {
+    "line": 169,
+    "field": "exampleSrc",
+    "english": "A: Who cares for your mother?\\nB: A caregiver comes every day.\\nA: Does he care for her well?\\nB: Yes, he cares for her with great patience."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "Care in every sense. 'Einen Kranken pflegen' (to care for a sick person). 'Kontakte pflegen' (to maintain contacts). 'Den Garten pflegen' (to tend the garden)."
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Inseparable prefix be-.\\nBroader than pflegen. 'Kinder betreuen' = to look after children."
+  },
+  {
+    "line": 170,
+    "field": "exampleSrc",
+    "english": "A: Who looks after the children?\\nB: A caretaker looks after them.\\nA: How many children does she look after?\\nB: Ten children per group."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "Be- + treuen (loyalty-related root). To be loyal to someone by watching over them. Inseparable prefix. Broader than pflegen."
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "Er- + leicht (light/easy) + -ern. To make lighter.\\n'Erleichtert sein' = to be relieved."
+  },
+  {
+    "line": 171,
+    "field": "exampleSrc",
+    "english": "A: This medicine eases the pain.\\nB: Really? How fast?\\nA: After about 30 minutes.\\nB: Good, I am relieved."
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "A beautiful compound verb. Er- + leicht (light/easy) + -ern. To make lighter. Recovery is literally making the burden lighter."
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "Ver- + binden (to bind).\\n'Eine Wunde verbinden' = to bandage a wound."
+  },
+  {
+    "line": 172,
+    "field": "exampleSrc",
+    "english": "A: I need to bandage the wound.\\nB: Do you have a bandage?\\nA: Yes, I will bandage it right away.\\nB: Thanks, that feels better already."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "The bandage binds; the phone line connects. Same verb. 'Eine Wunde verbinden' (to bandage a wound). 'Verbunden sein' (to be connected)."
+  },
+  {
+    "line": 173,
+    "field": "note",
+    "english": "Er- + setzen (to set/place).\\nTo set something new in the place of the old."
+  },
+  {
+    "line": 173,
+    "field": "exampleSrc",
+    "english": "A: We need to replace the bandage.\\nB: How often?\\nA: Replace it every day.\\nB: And then the wound heals faster?"
+  },
+  {
+    "line": 173,
+    "field": "funFact",
+    "english": "'Nichts kann Gesundheit ersetzen' (Nothing can replace health). To set something new in the place of the old. The verb that built the Ersatz noun."
+  },
+  {
+    "line": 174,
+    "field": "note",
+    "english": "From ersetzen. 'Ersatzteil' = spare part.\\nEntered English during the World Wars."
+  },
+  {
+    "line": 174,
+    "field": "exampleSrc",
+    "english": "A: Do you have a substitute for this medicine?\\nB: Yes, there is a cheaper substitute.\\nA: Does the substitute work just as well?\\nB: Yes, same active ingredient."
+  },
+  {
+    "line": 174,
+    "field": "funFact",
+    "english": "During both World Wars, 'Ersatz' entered English as a word meaning cheap substitute. Germans use it neutrally. 'Ersatzteil' (spare part). 'Kaffee-Ersatz' (coffee substitute)."
+  },
+  {
+    "line": 176,
+    "field": "note",
+    "english": "From 'besser' (better) + -ung.\\n'Gute Besserung!' = Get well soon!"
+  },
+  {
+    "line": 176,
+    "field": "exampleSrc",
+    "english": "A: Get well soon!\\nB: Thanks! I hope for a quick recovery.\\nA: Rest well.\\nB: I will. Thanks for the well wishes."
+  },
+  {
+    "line": 176,
+    "field": "funFact",
+    "english": "'Gute Besserung!' is THE thing Germans say when someone is sick. The most important two-word phrase in German healthcare culture. Say it often."
+  },
+  {
+    "line": 177,
+    "field": "hint",
+    "english": "This store sells toiletries and cosmetics, not prescription medicine."
+  },
+  {
+    "line": 178,
+    "field": "hint",
+    "english": "Which word means 'therefore' and is followed by verb-second word order?"
+  },
+  {
+    "line": 178,
+    "field": "sSrc",
+    "english": "The nurse works hard. Therefore she is often exhausted."
+  },
+  {
+    "line": 179,
+    "field": "hint",
+    "english": "First blank: accusative relative pronoun for feminine Salbe. Second blank: consequence conjunction + verb-second."
+  },
+  {
+    "line": 179,
+    "field": "sSrc",
+    "english": "The ointment the doctor prescribed me does not help. That is why I need a different painkiller."
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "'In Rente gehen' = to retire. From Latin 'renta.'\\nRentenversicherung (pension insurance) is mandatory."
+  },
+  {
+    "line": 189,
+    "field": "exampleSrc",
+    "english": "A: When will you retire?\\nB: At 67. Another 30 years.\\nA: Will you get a good pension?\\nB: I hope so. I pay in every month."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "The German Rentensystem is pay-as-you-go: today's workers fund today's retirees. 'Rentenversicherung' (pension insurance) is mandatory for all employees."
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "Two meanings: retirement pay for Beamte, or a small hotel.\\nContext is essential."
+  },
+  {
+    "line": 190,
+    "field": "exampleSrc",
+    "english": "A: My father gets a pension.\\nB: Is he a civil servant?\\nA: Yes, he was a teacher for 40 years.\\nB: Then the pension is surely good."
+  },
+  {
+    "line": 190,
+    "field": "funFact",
+    "english": "Two meanings. For civil servants: retirement pay (Beamtenpension). For travelers: a small guesthouse. 'In Pension gehen' (to retire, for Beamte). Context is essential."
+  },
+  {
+    "line": 191,
+    "field": "note",
+    "english": "From Latin 'senior' (older).\\n'Seniorenrabatt' = senior discount."
+  },
+  {
+    "line": 191,
+    "field": "exampleSrc",
+    "english": "A: Is there a senior discount?\\nB: Yes, for seniors from 65 years.\\nA: How many percent?\\nB: 20 percent on all tickets."
+  },
+  {
+    "line": 191,
+    "field": "funFact",
+    "english": "'Seniorenrabatt' (senior discount), 'Seniorenticket' (reduced fare). Respectful term for older adults. From Latin 'senior' (older)."
+  },
+  {
+    "line": 192,
+    "field": "note",
+    "english": "Senior + -in. Standard feminine formation.\\nGerman insists on gendered forms, even for international words."
+  },
+  {
+    "line": 192,
+    "field": "exampleSrc",
+    "english": "A: The senior woman jogs every morning.\\nB: How old is she?\\nA: 78 years old.\\nB: Impressive! An athletic senior."
+  },
+  {
+    "line": 192,
+    "field": "funFact",
+    "english": "German insists on gendered forms, even for international words. Senior becomes Seniorin. The -in suffix is universal for person nouns."
+  },
+  {
+    "line": 193,
+    "field": "note",
+    "english": "Austrian German primarily.\\nIn Germany, 'Rentner' is more common."
+  },
+  {
+    "line": 193,
+    "field": "exampleSrc",
+    "english": "A: My neighbor is a pensioner.\\nB: From Austria?\\nA: Yes, he is from Vienna.\\nB: There they say Pensionist instead of Rentner."
+  },
+  {
+    "line": 193,
+    "field": "funFact",
+    "english": "Austrian German primarily. In Germany, 'Rentner' is more common. Regional variation within German-speaking countries shows the language is not monolithic."
+  },
+  {
+    "line": 194,
+    "field": "note",
+    "english": "Austrian form. Pensionist + -in.\\nStandard feminine formation."
+  },
+  {
+    "line": 194,
+    "field": "exampleSrc",
+    "english": "A: The pensioner lives in Salzburg.\\nB: Does she get a good pension?\\nA: Yes, she was a teacher.\\nB: Teachers get good pensions."
+  },
+  {
+    "line": 194,
+    "field": "funFact",
+    "english": "Austrian form. Four morphemes: Pension-ist-in. Standard feminine formation applied to a regional word."
+  },
+  {
+    "line": 195,
+    "field": "note",
+    "english": "Alten (old people) + Heim (home).\\nGermany has over 15,000 Altenheime."
+  },
+  {
+    "line": 195,
+    "field": "exampleSrc",
+    "english": "A: My grandma lives in the nursing home.\\nB: Does she like it there?\\nA: Yes, the nursing home is very nice.\\nB: Does she have good care?"
+  },
+  {
+    "line": 195,
+    "field": "funFact",
+    "english": "A place where Senioren receive Betreuung and Pflege. Germany has over 15,000 Altenheime. The aging population makes this an increasingly important topic."
+  },
+  {
+    "line": 196,
+    "field": "note",
+    "english": "Alter (age) + Heim (home). Synonym for Altenheim.\\nRegional preference decides which one you hear."
+  },
+  {
+    "line": 196,
+    "field": "exampleSrc",
+    "english": "A: Is there a retirement home nearby?\\nB: Yes, on the outskirts.\\nA: Is the retirement home good?\\nB: Yes, it has a good reputation."
+  },
+  {
+    "line": 196,
+    "field": "funFact",
+    "english": "'Altersheim' focuses on age; 'Altenheim' focuses on the people. Both mean the same thing. Regional preference decides which one you hear."
+  },
+  {
+    "line": 198,
+    "field": "note",
+    "english": "Ein (in) + Richtung (direction) = arrangement.\\nAlso means furniture ('die Einrichtung des Zimmers')."
+  },
+  {
+    "line": 198,
+    "field": "exampleSrc",
+    "english": "A: The facility is modern.\\nB: Which facility do you mean?\\nA: The medical facility by the park.\\nB: Ah yes, that one only opened last year."
+  },
+  {
+    "line": 198,
+    "field": "funFact",
+    "english": "To set things in the right direction. 'Eine medizinische Einrichtung' (a medical facility). Also: furniture ('die Einrichtung des Zimmers'). Direction and arrangement in one word."
+  },
+  {
+    "line": 199,
+    "field": "note",
+    "english": "The -ieren ending makes it regular.\\nPrimarily for Beamte. Workers: 'in Rente gehen.'"
+  },
+  {
+    "line": 199,
+    "field": "exampleSrc",
+    "english": "A: When will he be retired?\\nB: Next year.\\nA: Is he looking forward to it?\\nB: Yes, he was informed last month."
+  },
+  {
+    "line": 199,
+    "field": "funFact",
+    "english": "Primarily for civil servants (Beamte). For normal workers: 'in Rente gehen.' Germany has two retirement systems: one for Beamte, one for everyone else."
+  },
+  {
+    "line": 200,
+    "field": "note",
+    "english": "Root of Notfall, Notaufnahme, Notruf, Notausgang.\\nOne tiny word spawns an entire emergency vocabulary."
+  },
+  {
+    "line": 200,
+    "field": "exampleSrc",
+    "english": "A: He is in great distress.\\nB: What happened?\\nA: He lost his money.\\nB: We need to help him."
+  },
+  {
+    "line": 200,
+    "field": "funFact",
+    "english": "Root of Notfall, Notaufnahme, Notruf, Notausgang. One tiny word spawns an entire emergency vocabulary. 'Not macht erfinderisch' (Necessity is the mother of invention)."
+  },
+  {
+    "line": 201,
+    "field": "note",
+    "english": "Not (emergency) + Ausgang (exit).\\nGreen signs, required by law in every public building."
+  },
+  {
+    "line": 201,
+    "field": "exampleSrc",
+    "english": "A: Where is the emergency exit?\\nB: Back there, next to the stairs.\\nA: Thanks. You should always know where it is.\\nB: Exactly, that is safety."
+  },
+  {
+    "line": 201,
+    "field": "funFact",
+    "english": "Green signs with a running figure. Required by law in every public building. 'Wo ist der Notausgang?' is essential survival German."
+  },
+  {
+    "line": 202,
+    "field": "note",
+    "english": "From Latin 'offerre' (to offer).\\nBoth meanings: the one harmed and the one given up."
+  },
+  {
+    "line": 202,
+    "field": "exampleSrc",
+    "english": "A: How many victims were there?\\nB: Three injured, no dead.\\nA: That is terrible.\\nB: Yes, the victims are being treated in the hospital."
+  },
+  {
+    "line": 202,
+    "field": "funFact",
+    "english": "The word holds both meanings: the one harmed and the one given up. 'Unfallopfer' (accident victim). 'Ein Opfer bringen' (to make a sacrifice). Same word, dual fate."
+  },
+  {
+    "line": 203,
+    "field": "note",
+    "english": "Masculine despite being abstract.\\nCognate with English 'death.' Often personified."
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: Death is a difficult topic.\\nB: Yes, but an important one.\\nA: In Germany, people talk about it openly.\\nB: I think that is good."
+  },
+  {
+    "line": 203,
+    "field": "funFact",
+    "english": "Often personified in German literature as 'der Sensenmann' (the grim reaper). Cognate with English 'death.' Masculine, despite being an abstract noun."
+  },
+  {
+    "line": 204,
+    "field": "note",
+    "english": "Adjectival noun from 'tot' (dead).\\nDer/die Tote changes with gender and case like an adjective."
+  },
+  {
+    "line": 204,
+    "field": "exampleSrc",
+    "english": "A: The police found a dead woman.\\nB: Who was the dead woman?\\nA: That is still being investigated.\\nB: The number of dead is rising."
+  },
+  {
+    "line": 204,
+    "field": "funFact",
+    "english": "Adjectival noun: der/die Tote changes with gender and case like an adjective. 'Die Zahl der Toten' (the number of dead). Grammatically, death is declined."
+  },
+  {
+    "line": 205,
+    "field": "note",
+    "english": "Adjectival noun from 'krank.'\\nDer Kranke (male), die Kranke (female)."
+  },
+  {
+    "line": 205,
+    "field": "exampleSrc",
+    "english": "A: The sick woman needs rest.\\nB: How is the sick woman doing?\\nA: Better. The sick woman is recovering slowly.\\nB: That is good news."
+  },
+  {
+    "line": 205,
+    "field": "funFact",
+    "english": "Another adjective acting as a noun. Der Kranke (male), die Kranke (female). 'Die Kranken pflegen' (to care for the sick). Adjective becomes person."
+  },
+  {
+    "line": 206,
+    "field": "note",
+    "english": "From Tod + -lich.\\n'Tödlich langweilig' = deadly boring (emphasis)."
+  },
+  {
+    "line": 206,
+    "field": "exampleSrc",
+    "english": "A: Is the disease deadly?\\nB: No, not with the right treatment.\\nA: Thank God.\\nB: But without treatment it can be deadly."
+  },
+  {
+    "line": 206,
+    "field": "funFact",
+    "english": "Germans use tödlich for emphasis, like English 'dead tired.' 'Tödlich langweilig' (deadly boring). From Tod + -lich. The adjective of death."
+  },
+  {
+    "line": 208,
+    "field": "note",
+    "english": "From 'liefern' (to deliver) + -ung.\\nIn insurance: what the Krankenkasse delivers (pays for)."
+  },
+  {
+    "line": 208,
+    "field": "exampleSrc",
+    "english": "A: When does the delivery come?\\nB: The delivery comes tomorrow.\\nA: Good, I am waiting for the medicine delivery.\\nB: It will be delivered by 12 o'clock."
+  },
+  {
+    "line": 208,
+    "field": "funFact",
+    "english": "In the insurance context: what the Krankenkasse delivers (pays for). 'Medikamentenlieferung' (medicine delivery). From 'liefern' (to deliver) + -ung."
+  },
+  {
+    "line": 210,
+    "field": "hint",
+    "english": "sich entscheiden für + accusative. Versicherung is feminine."
+  },
+  {
+    "line": 211,
+    "field": "hint",
+    "english": "The separable verb for making regular contributions to a pension or insurance fund."
+  },
+  {
+    "line": 211,
+    "field": "sSrc",
+    "english": "Every employee must pay into the pension insurance monthly."
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "From 'rauchen' (to smoke) + -er.\\n'Raucherbereich' = smoking area."
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: Are you a smoker?\\nB: No, I quit three years ago.\\nA: Well done! Smoking is unhealthy.\\nB: Yes, I feel much better."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "Germany was one of the last EU countries to ban indoor smoking (2007). 'Raucher oder Nichtraucher?' was once asked on every train."
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Raucher + -in. Standard feminine suffix.\\nSame pattern as Pfleger/Pflegerin."
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Is she a smoker?\\nB: Yes, unfortunately. She has been smoking for 20 years.\\nA: That is bad for health.\\nB: I know, but she cannot quit."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "Same pattern as Pfleger/Pflegerin, Betreuer/Betreuerin. German's consistent feminine suffix at work."
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Nicht + Raucher. The Nicht- prefix negates.\\n'Nichtraucherzone' = non-smoking zone."
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: I am a non-smoker.\\nB: Very good. Since always?\\nA: Yes, I have never smoked.\\nB: Enviable!"
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "The Nicht- prefix negates the person noun. 'Nichtraucher sein' (to be a non-smoker) is now the default in public spaces across Germany."
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Nichtraucher + -in.\\nFour morphemes: Nicht-rauch-er-in."
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: She is a committed non-smoker.\\nB: Good for her.\\nA: Yes, she never started.\\nB: That is the best decision."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Four morphemes in one word: Nicht-rauch-er-in. German stacks prefixes and suffixes like building blocks. Know the parts, decode any word."
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "From 'suchen' (to seek). An endless seeking.\\n'Drogensucht' = drug addiction."
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: Addiction is a disease.\\nB: Yes, a very serious one.\\nA: Can you cure addiction?\\nB: With therapy and support, yes."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "From 'suchen' (to seek). An addiction is an endless seeking. 'Drogensucht' (drug addiction), 'Spielsucht' (gambling addiction), 'Internetsucht' (internet addiction). Whatever you cannot stop seeking."
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Sucht (addiction) + Mittel (substance/means).\\nClinical, official, legal."
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: Alcohol is an addictive substance.\\nB: Yes, and nicotine too.\\nA: Which addictive substances are legal?\\nB: Alcohol, nicotine, and caffeine."
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "The compound is clinical, official, legal. Used in medical and legal contexts. 'Suchtmittelgesetz' (narcotics law). German compounds leave nothing ambiguous."
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "From Dutch 'droog' (dry). Originally dried herbs.\\nThe Drogerie kept the old, innocent meaning."
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: Drugs are dangerous.\\nB: Yes, especially hard drugs.\\nA: Is there help for addicts?\\nB: Yes, there are drug counseling centers."
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "From Dutch 'droog' (dry). Originally meant dried herbs and spices. The meaning shifted to illegal substances. The Drogerie kept the old, innocent meaning."
+  },
+  {
+    "line": 227,
+    "field": "note",
+    "english": "The ultimate false friend.\\nEnglish 'gift' = present. German 'Gift' = poison."
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: Careful, that is poison!\\nB: Really? It looks harmless.\\nA: No, that is very poisonous material.\\nB: Thanks for the warning!"
+  },
+  {
+    "line": 227,
+    "field": "funFact",
+    "english": "The ultimate false friend. English 'gift' = present. German 'Gift' = poison. Same root (something given), opposite outcomes. Do not confuse at the pharmacy."
+  },
+  {
+    "line": 228,
+    "field": "note",
+    "english": "From Sucht + -ig.\\n'Süchtig machen' = to be addictive. Can be serious or playful."
+  },
+  {
+    "line": 228,
+    "field": "exampleSrc",
+    "english": "A: Are you addicted to coffee?\\nB: Yes, totally addicted! Three cups a day.\\nA: That is not so bad yet.\\nB: But without coffee I cannot function."
+  },
+  {
+    "line": 228,
+    "field": "funFact",
+    "english": "Can be serious or playful. 'Süchtig nach Schokolade' (addicted to chocolate) is lighthearted. 'Drogenabhängig' is the clinical term for serious addiction."
+  },
+  {
+    "line": 229,
+    "field": "note",
+    "english": "Same in English and German.\\n'Blinder Passagier' = stowaway (blind passenger)."
+  },
+  {
+    "line": 229,
+    "field": "exampleSrc",
+    "english": "A: My grandpa is almost blind.\\nB: Does he need help in daily life?\\nA: Yes, a caregiver comes daily.\\nB: Good that he has support."
+  },
+  {
+    "line": 229,
+    "field": "funFact",
+    "english": "From Proto-Germanic *blindaz. 'Blinder Passagier' (stowaway, literally 'blind passenger'). 'Blindenschrift' = Braille (blind-writing)."
+  },
+  {
+    "line": 230,
+    "field": "note",
+    "english": "Cognate with English 'deaf' through sound shifts.\\nAlso means 'numb': 'Mein Finger ist taub.'"
+  },
+  {
+    "line": 230,
+    "field": "exampleSrc",
+    "english": "A: She has been deaf since childhood.\\nB: Can she do sign language?\\nA: Yes, fluently.\\nB: Impressive."
+  },
+  {
+    "line": 230,
+    "field": "funFact",
+    "english": "Also means 'numb.' 'Mein Finger ist taub' (My finger is numb). 'Gehörlos' (hearing-less) is preferred in modern usage over 'taubstumm' (deaf-mute)."
+  },
+  {
+    "line": 232,
+    "field": "note",
+    "english": "'Die linke Hand' = the left hand.\\nColloquially: 'ein linker Typ' = a shady character."
+  },
+  {
+    "line": 232,
+    "field": "exampleSrc",
+    "english": "A: Are you left-handed?\\nB: Yes, I write with the left hand.\\nA: Interesting. My brother too.\\nB: We are about ten percent of the population."
+  },
+  {
+    "line": 232,
+    "field": "funFact",
+    "english": "The association of left with dishonesty exists in many languages (Latin 'sinister'). Colloquially: 'ein linker Typ' (a shady character). An ancient bias preserved in language."
+  },
+  {
+    "line": 234,
+    "field": "note",
+    "english": "Irregular: sticht, stach, gestochen.\\nRelated to English 'stick.'"
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: Ow! The bee stung me!\\nB: Where did it sting you?\\nA: On the arm. It burns and stings.\\nB: Let me see. Are you allergic?"
+  },
+  {
+    "line": 234,
+    "field": "funFact",
+    "english": "'Die Biene sticht' (The bee stings). 'Es sticht in der Brust' (There is a stabbing pain in the chest). Related to English 'stick.' Irregular: sticht, stach, gestochen."
+  },
+  {
+    "line": 235,
+    "field": "note",
+    "english": "Irregular: schob, geschoben.\\n'Den Rollstuhl schieben' = to push the wheelchair."
+  },
+  {
+    "line": 235,
+    "field": "exampleSrc",
+    "english": "A: Can you push the wheelchair?\\nB: Yes, no problem.\\nA: Carefully, the ramp is steep.\\nB: I will push very slowly."
+  },
+  {
+    "line": 235,
+    "field": "funFact",
+    "english": "'Etwas auf die lange Bank schieben' (to put something on the long bench) = to procrastinate. Irregular: schob, geschoben. Pushing in every sense."
+  },
+  {
+    "line": 236,
+    "field": "note",
+    "english": "Irregular: wog, gewogen.\\nAlso: 'das Baby wiegen' = to rock the baby."
+  },
+  {
+    "line": 236,
+    "field": "exampleSrc",
+    "english": "A: How much do you weigh?\\nB: About 80 kilos.\\nA: That is a normal weight.\\nB: Yes, I pay attention to my health."
+  },
+  {
+    "line": 236,
+    "field": "funFact",
+    "english": "Two different verbs that merged into one form. 'Wie viel wiegen Sie?' (How much do you weigh?). 'Das Baby wiegen' (to rock the baby). Context decides."
+  },
+  {
+    "line": 237,
+    "field": "hint",
+    "english": "This is the most famous German-English false friend. Not a present!"
+  },
+  {
+    "line": 238,
+    "field": "hint",
+    "english": "Which preposition means 'at' or 'from' when collecting something from a place?"
+  },
+  {
+    "line": 238,
+    "field": "sSrc",
+    "english": "The pharmacy I get my medicine from is nearby."
+  },
+  {
+    "line": 239,
+    "field": "hint",
+    "english": "First blank: dative masculine relative pronoun. Second blank: contrast conjunction (despite that)."
+  },
+  {
+    "line": 239,
+    "field": "sSrc",
+    "english": "The patient the doctor gave the injection to was afraid. Nevertheless, he was relieved afterwards."
+  },
+  {
+    "line": 240,
+    "field": "hint",
+    "english": "This conjunction shows direct consequence, similar to 'deshalb.'"
+  },
+  {
+    "line": 242,
+    "field": "hint",
+    "english": "Which conjunction means 'otherwise' and warns of a negative consequence?"
+  },
+  {
+    "line": 242,
+    "field": "sSrc",
+    "english": "Take your medicine. Otherwise it will get worse."
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "From Latin 'moneta' (mint).\\nRelated to English 'money' and 'mint.'"
+  },
+  {
+    "line": 252,
+    "field": "exampleSrc",
+    "english": "A: Do you have a coin for the machine?\\nB: Yes, here is a 1-euro coin.\\nA: Thanks! The machine only takes coins.\\nB: No bills? Only coins?"
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "German parking meters still love Münzen. The 1-Euro-Münze has country-specific designs on the back. Each country's coin tells a different story."
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Separable: 'Geld abheben' = to withdraw money.\\nAlso: 'Das Flugzeug hebt ab' = the plane lifts off."
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: I need to withdraw money.\\nB: Where is the nearest ATM?\\nA: Around the corner. I will quickly withdraw 100 euros.\\nB: Good, I will wait here."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "Money leaves the account; the plane leaves the ground. Same verb. Separable: 'Ich hebe 100 Euro ab.' The ab- prefix means away/off."
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Separable: ab- (off/down) + nehmen (to take).\\nThree meanings, all about taking something away."
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: I would like to lose five kilos.\\nB: Then you need to eat less.\\nA: Or exercise more.\\nB: Best to do both!"
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Three meanings, all about taking something away. 'Fünf Kilo abnehmen' (to lose five kilos). 'Den Hörer abnehmen' (to pick up the receiver). 'Die Kosten nehmen ab' (Costs are decreasing)."
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "The opposite of abnehmen.\\nZu- (to/toward) + nehmen = to take on more."
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: In winter I always gain weight.\\nB: How much?\\nA: About two kilos.\\nB: That is not much. In spring you will lose it again."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "What goes up (zunehmen) can come down (abnehmen). 'Die Kosten nehmen zu' (Costs are increasing). The opposite twins of German weight and finance talk."
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "Reflexive. Er- + kalt = to become cold.\\nPerfekt: 'Ich habe mich erkältet.'"
+  },
+  {
+    "line": 256,
+    "field": "exampleSrc",
+    "english": "A: I caught a cold.\\nB: Again? Dress more warmly.\\nA: Yes, it was too cold outside.\\nB: Drink tea and rest."
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "The verb form of Erkältung. Reflexive: 'sich erkälten.' The Perfekt uses haben because it is reflexive. 'Ich habe mich erkältet' (I caught a cold)."
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Reflexive. Er- + holen (to fetch).\\nYou fetch yourself back from illness."
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: Have you recovered from the flu?\\nB: Yes, I have recovered well.\\nA: How long did the recovery take?\\nB: About a week."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "Beautiful metaphor: recovery is self-retrieval. You fetch yourself back from illness. 'Sich von einer Operation erholen' (to recover from an operation)."
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "From erholen + -ung.\\n'Erholungsurlaub' = recovery vacation. Kur may be prescribed."
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: You need rest.\\nB: Yes, I am exhausted.\\nA: Take a few days of rest.\\nB: The doctor prescribed me a health retreat."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "In Germany, your doctor can prescribe a Kur (health retreat) for Erholung. The Krankenkasse may pay. Recovery is a medical right, not a luxury."
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Three meanings in one verb.\\n'Geschätzt' = approximately."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: I estimate the costs at 500 euros.\\nB: That is a rough estimate.\\nA: Yes, but I estimate it will not be more.\\nB: I appreciate your honesty."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Three meanings in one verb. 'Die Kosten schätzen' (to estimate costs). 'Ich schätze deine Hilfe' (I appreciate your help). A word of judgment and gratitude."
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Ver- + teilen (to share/divide). Inseparable.\\n'Die Kosten werden verteilt.'"
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Who distributes the medicine?\\nB: The caregiver distributes them.\\nA: How are the costs distributed?\\nB: Equally among all insured persons."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "The system distributes everything. 'Medikamente verteilen' (to distribute medicine). 'Die Kosten werden verteilt' (The costs are distributed). Inseparable prefix ver-."
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Be- + hindern (to prevent).\\n'Menschen mit Behinderung' = people with disabilities."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: The accident is obstructing traffic.\\nB: For how much longer?\\nA: About an hour.\\nB: Then I will take another route."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "'Behindert' as an adjective means 'disabled.' 'Menschen mit Behinderung' (people with disabilities) is the preferred modern phrase."
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "'Er ist gestürzt' = he fell.\\nAlso: 'die Regierung stürzen' = to topple the government."
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: What happened?\\nB: He fell from the ladder.\\nA: Is he injured?\\nB: Yes, he broke his arm."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Falls in medicine, revolutions in politics. Same verb. 'Vom Fahrrad stürzen' (to fall off the bicycle). 'Die Regierung stürzen' (to topple the government)."
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Austrian German. In Germany: 'Arztpraxis.'\\nKnowing both words helps across German-speaking countries."
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Where is the doctor's office?\\nB: In Vienna they say Ordination.\\nA: In Germany they say Arztpraxis.\\nB: Yes, same thing, different word."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Austrian German. In Germany: 'Arztpraxis.' Regional vocabulary: knowing both words helps across German-speaking countries. Austria, Germany, and Switzerland all speak differently."
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "From 'befreien' (to free).\\n'Von der Zuzahlung befreit' = exempt from co-payment."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: Are you exempt from the co-payment?\\nB: Yes, I am exempt.\\nA: Then you do not have to pay anything extra.\\nB: Good, I have the exemption card with me."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "In the insurance context: certain groups are befreit from paying extra. Low-income patients, children, and chronically ill people may be befreit von der Zuzahlung."
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "From 'befriedigen' (to satisfy).\\nAlso a school grade: 3 = befriedigend."
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: How was the treatment?\\nB: Satisfactory. Not bad, not great.\\nA: So grade three?\\nB: Yes, exactly. Satisfactory."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Also a school grade in Germany (3 = befriedigend). Not great, not terrible. The German grade of adequacy. 'Eine befriedigende Lösung' (a satisfactory solution)."
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "From 'Kraft' (strength/force).\\n'Kräftig essen' = to eat heartily."
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: You look strong!\\nB: Thanks, I train a lot.\\nA: And do you eat heartily?\\nB: Yes, a hearty soup for lunch."
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Conveys robust, physical strength. 'Eine kräftige Suppe' (a hearty soup). German comfort food is kräftig. From 'Kraft' (strength/force)."
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Same in most European languages.\\n'Die gesetzliche und private Versicherung laufen parallel.'"
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: The two systems run in parallel.\\nB: The public and the private one?\\nA: Yes, parallel to each other.\\nB: And which one is better?"
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "In insurance: 'Die gesetzliche und private Versicherung laufen parallel' (public and private insurance run in parallel). Germany's dual healthcare system."
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "'Fachkräftemangel' = shortage of skilled workers.\\n'Mangelware' = scarce commodity."
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: There is a shortage of caregivers.\\nB: Yes, the caregiver shortage is a big problem.\\nA: What can be done about it?\\nB: Better pay and more training positions."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "Germany's healthcare system suffers from Pflegermangel (caregiver shortage). 'Fachkräftemangel' (shortage of skilled workers) is a national concern across many sectors."
+  },
+  {
+    "line": 269,
+    "field": "note",
+    "english": "Bade (bathing) + Wanne (tub).\\nHaving a Badewanne instead of just a Dusche is a luxury."
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: Does the apartment have a bathtub?\\nB: Yes, a large bathtub.\\nA: Great! I love lying in the bathtub.\\nB: The bathtub is almost new."
+  },
+  {
+    "line": 269,
+    "field": "funFact",
+    "english": "In German apartments, having a Badewanne instead of just a Dusche is a luxury. Insurance covers bath aids for elderly patients. Bathing is healthcare in Germany."
+  },
+  {
+    "line": 274,
+    "field": "hint",
+    "english": "zahlen an + accusative. Krankenkasse is feminine. What is the feminine accusative?"
+  },
+  {
+    "line": 275,
+    "field": "hint",
+    "english": "First blank: in + dative, neuter Altenheim. Second blank: consequence conjunction."
+  },
+  {
+    "line": 275,
+    "field": "sSrc",
+    "english": "The nursing home my grandma lives in is very good. Therefore I visit her often."
+  }
+]

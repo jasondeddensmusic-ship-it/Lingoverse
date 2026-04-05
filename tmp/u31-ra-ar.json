@@ -1,0 +1,822 @@
+[
+  {
+    "english": "Enter the world of German taxes and finance. Learn the key financial words. Understand how the German tax system shapes daily life.",
+    "arabic": "ادخل عالم الضرائب والمالية الألمانية. تعلّم الكلمات المالية الأساسية. افهم كيف يؤثر النظام الضريبي الألماني في الحياة اليومية."
+  },
+  {
+    "english": "Learn 18 core words from tax and finance",
+    "arabic": "تعلّم 18 كلمة أساسية من مجال الضرائب والمالية"
+  },
+  {
+    "english": "Understand Umsatz, Gewinn, Verlust, and Kredit",
+    "arabic": "افهم معاني Umsatz وGewinn وVerlust وKredit"
+  },
+  {
+    "english": "Experience Verumius's first tax consultation",
+    "arabic": "عِش أول استشارة ضريبية لـ Verumius"
+  },
+  {
+    "english": "The tax advisor's office is immaculate. Framed certificates line the wall. A desktop shows tax software with columns of numbers. Verumius sits across, his folder of crumpled receipts looking embarrassingly casual next to the advisor's color-coded filing system.",
+    "arabic": "مكتب المستشار الضريبي أنيق للغاية. تزيّن الشهادات المُأطّرة الجدارَ. يعرض الحاسوب برنامجاً ضريبياً مليئاً بأعمدة الأرقام. يجلس Verumius في المقابل، وملفّه المليء بالإيصالات المُجعَّدة يبدو محرجاً جانب نظام الترميز اللوني للمستشار."
+  },
+  {
+    "english": "Good day, Mr Verumius. Let us discuss your tax situation. Since you work freelance, we need to clarify a few points.",
+    "arabic": "يوم سعيد، السيد Verumius. لنناقش وضعك الضريبي. بما أنك تعمل مستقلاً، علينا توضيح بعض النقاط."
+  },
+  {
+    "english": "I brought all the receipts. I hope that is enough?",
+    "arabic": "أحضرت جميع الإيصالات. أتمنى أن يكفي ذلك."
+  },
+  {
+    "english": "We will take a look. By the end of the month you will have submitted your tax return. No worries.",
+    "arabic": "سنلقي نظرة. بحلول نهاية الشهر ستكون قد قدّمت إقرارك الضريبي. لا داعي للقلق."
+  },
+  {
+    "english": "levy, tax, submission",
+    "arabic": "رسم، ضريبة، تقديم"
+  },
+  {
+    "english": "A: Which levies do I have to pay?\\nB: Social contributions and taxes.\\nA: How high are the levies in total?\\nB: About 40 percent of gross wages.",
+    "arabic": "أ: ما الرسوم التي يجب عليّ دفعها؟\\nب: الاشتراكات الاجتماعية والضرائب.\\nأ: كم يبلغ إجمالي الرسوم؟\\nب: نحو 40 بالمئة من الراتب الإجمالي."
+  },
+  {
+    "english": "revenue, turnover",
+    "arabic": "إيرادات، حجم المبيعات"
+  },
+  {
+    "english": "A: How high was your revenue last year?\\nB: About 80,000 euros.\\nA: And after deducting costs?\\nB: Then the profit remains.",
+    "arabic": "أ: كم بلغت إيراداتك العام الماضي؟\\nب: نحو 80,000 يورو.\\nأ: وبعد خصم التكاليف؟\\nب: يتبقى الربح."
+  },
+  {
+    "english": "profit",
+    "arabic": "ربح"
+  },
+  {
+    "english": "A: Did the company make a profit?\\nB: Yes, the profit was higher than expected.\\nA: How do you calculate profit?\\nB: Revenue minus costs equals profit.",
+    "arabic": "أ: هل حقّقت الشركة ربحاً؟\\nب: نعم، كان الربح أعلى من المتوقع.\\nأ: كيف تحسب الربح؟\\nب: الإيرادات ناقص التكاليف يساوي الربح."
+  },
+  {
+    "english": "loss",
+    "arabic": "خسارة"
+  },
+  {
+    "english": "A: Did the company make a loss?\\nB: Unfortunately yes. The loss was considerable.\\nA: Can you deduct losses from taxes?\\nB: Yes, losses reduce the tax burden.",
+    "arabic": "أ: هل تكبّدت الشركة خسارة؟\\nب: للأسف نعم. كانت الخسارة كبيرة.\\nأ: هل يمكن خصم الخسائر من الضرائب؟\\nب: نعم، الخسائر تقلّل العبء الضريبي."
+  },
+  {
+    "english": "debts",
+    "arabic": "ديون"
+  },
+  {
+    "english": "A: Does he have debts?\\nB: Yes, high debts at the bank.\\nA: Can you reduce debts?\\nB: With a good plan, yes.",
+    "arabic": "أ: هل لديه ديون؟\\nب: نعم، ديون كبيرة لدى البنك.\\nأ: هل يمكن تقليص الديون؟\\nب: بخطة جيدة، نعم."
+  },
+  {
+    "english": "loan, credit",
+    "arabic": "قرض، ائتمان"
+  },
+  {
+    "english": "A: Do you need a loan?\\nB: Yes, for my new office.\\nA: At which bank will you take out the loan?\\nB: At the Sparkasse. The conditions are good.",
+    "arabic": "أ: هل تحتاج إلى قرض؟\\nب: نعم، لمكتبي الجديد.\\nأ: في أيّ بنك ستأخذ القرض؟\\nب: في Sparkasse. الشروط جيدة."
+  },
+  {
+    "english": "interest rate",
+    "arabic": "سعر الفائدة"
+  },
+  {
+    "english": "A: How high is the interest rate?\\nB: Currently at 3.5 percent.\\nA: Has the interest rate risen?\\nB: Yes, the European Central Bank raised it.",
+    "arabic": "أ: كم يبلغ سعر الفائدة؟\\nب: حالياً عند 3.5 بالمئة.\\nأ: هل ارتفع سعر الفائدة؟\\nب: نعم، رفعه البنك المركزي الأوروبي."
+  },
+  {
+    "english": "capital",
+    "arabic": "رأس المال"
+  },
+  {
+    "english": "A: Do you have sufficient capital?\\nB: No, I need more capital for the expansion.\\nA: Equity or borrowed capital?\\nB: Preferably equity.",
+    "arabic": "أ: هل لديك رأس مال كافٍ؟\\nب: لا، أحتاج إلى مزيد من رأس المال للتوسع.\\nأ: رأس مال ذاتي أم مقترض؟\\nب: الذاتي أفضل."
+  },
+  {
+    "english": "household, budget",
+    "arabic": "ميزانية، موازنة"
+  },
+  {
+    "english": "A: How does your budget look?\\nB: My family budget is stable.\\nA: And the federal budget?\\nB: That is more complicated. Billions of euros.",
+    "arabic": "أ: كيف تبدو ميزانيتك؟\\nب: ميزانية عائلتي مستقرة.\\nأ: وماذا عن الميزانية الاتحادية؟\\nب: تلك أكثر تعقيداً. مليارات اليوروات."
+  },
+  {
+    "english": "budget (public)",
+    "arabic": "ميزانية (عامة)"
+  },
+  {
+    "english": "A: The budget for education has risen.\\nB: That is good. Education needs money.\\nA: Who decides about the budget?\\nB: Parliament. Every year anew.",
+    "arabic": "أ: ارتفعت ميزانية التعليم.\\nب: هذا جيد. التعليم يحتاج إلى تمويل.\\nأ: من يُقرّر الميزانية؟\\nب: البرلمان. كل عام من جديد."
+  },
+  {
+    "english": "financial",
+    "arabic": "مالي"
+  },
+  {
+    "english": "A: How is your financial situation?\\nB: Financially I am stable.\\nA: Being financially independent is the goal.\\nB: Yes, that is the dream of many Germans.",
+    "arabic": "أ: كيف هو وضعك المالي؟\\nب: مالياً أنا مستقر.\\nأ: الاستقلال المالي هو الهدف.\\nب: نعم، هذا حلم كثير من الألمان."
+  },
+  {
+    "english": "economic",
+    "arabic": "اقتصادي"
+  },
+  {
+    "english": "A: The economic situation has improved.\\nB: Yes, the economic data is positive.\\nA: What does economic mean exactly?\\nB: Everything related to the economy.",
+    "arabic": "أ: تحسّن الوضع الاقتصادي.\\nب: نعم، البيانات الاقتصادية إيجابية.\\nأ: ماذا تعني كلمة اقتصادي بالضبط؟\\nب: كل ما يتعلق بالاقتصاد."
+  },
+  {
+    "english": "sustainable, lasting",
+    "arabic": "مستدام، دائم"
+  },
+  {
+    "english": "A: Is this investment sustainable?\\nB: Yes, it brings long-term profit.\\nA: Sustainability is also good for the environment.\\nB: And for the economy.",
+    "arabic": "أ: هل هذا الاستثمار مستدام؟\\nب: نعم، يجلب ربحاً على المدى البعيد.\\nأ: الاستدامة مفيدة أيضاً للبيئة.\\nب: وللاقتصاد أيضاً."
+  },
+  {
+    "english": "profitable, yielding returns",
+    "arabic": "مربح، مُدرّ للعائدات"
+  },
+  {
+    "english": "A: Is the project profitable?\\nB: Yes, the return is at 8 percent.\\nA: From when will it be profitable?\\nB: Presumably after two years.",
+    "arabic": "أ: هل المشروع مربح؟\\nب: نعم، العائد عند 8 بالمئة.\\nأ: منذ متى سيكون مربحاً؟\\nب: على الأرجح بعد عامين."
+  },
+  {
+    "english": "to manage finances, to economize",
+    "arabic": "إدارة الأموال، الاقتصاد في الإنفاق"
+  },
+  {
+    "english": "A: How do you manage your money?\\nB: I save something every month.\\nA: Managing money well is an art.\\nB: Especially when prices rise.",
+    "arabic": "أ: كيف تدير أموالك؟\\nب: أوفّر شيئاً كل شهر.\\nأ: إدارة المال بشكل جيد فنّ.\\nب: خاصة حين ترتفع الأسعار."
+  },
+  {
+    "english": "to finance",
+    "arabic": "تمويل"
+  },
+  {
+    "english": "A: How do you finance the project?\\nB: Through a loan.\\nA: Can you also finance it differently?\\nB: Yes, through investors or equity.",
+    "arabic": "أ: كيف تموّل المشروع؟\\nب: عن طريق قرض.\\nأ: هل يمكن تمويله بطريقة مختلفة؟\\nب: نعم، عن طريق المستثمرين أو رأس المال الذاتي."
+  },
+  {
+    "english": "to invest",
+    "arabic": "استثمار"
+  },
+  {
+    "english": "A: What do you invest in?\\nB: In real estate and stocks.\\nA: Is it worth investing in Germany?\\nB: Yes, the market is stable.",
+    "arabic": "أ: فيمَ تستثمر؟\\nب: في العقارات والأسهم.\\nأ: هل يستحق الاستثمار في ألمانيا؟\\nب: نعم، السوق مستقر."
+  },
+  {
+    "english": "annually, yearly",
+    "arabic": "سنوياً، كل عام"
+  },
+  {
+    "english": "A: How often do you have to do the tax return?\\nB: Annually. Once per year.\\nA: And the annual costs?\\nB: The tax advisor calculates those.",
+    "arabic": "أ: كم مرة يجب تقديم الإقرار الضريبي؟\\nب: سنوياً. مرة واحدة في السنة.\\nأ: وما التكاليف السنوية؟\\nب: يحسبها المستشار الضريبي."
+  },
+  {
+    "english": "What comes in before anything is deducted. The opposite of 'after costs.'",
+    "arabic": "ما يدخل قبل أي خصومات. عكس 'بعد التكاليف'."
+  },
+  {
+    "english": "From Latin 'census' via Old High German. The compound describes what a bank charges for borrowed money.",
+    "arabic": "من اللاتينية 'census' عبر الألمانية العالية القديمة. المركّب يصف ما يفرضه البنك على المال المقترض."
+  },
+  {
+    "english": "When you owe money and need more, you take out a ...",
+    "arabic": "حين تكون مديناً وتحتاج إلى مزيد من المال، تأخذ..."
+  },
+  {
+    "english": "Since he has debts, Verumius must take out a loan.",
+    "arabic": "بما أن لدى Verumius ديوناً، عليه أخذ قرض."
+  },
+  {
+    "english": "Do not worry, Mr. Verumius. By the end of the month we will have your tax return finished. Then everything will look clearer.",
+    "arabic": "لا تقلق، السيد Verumius. بحلول نهاية الشهر سيكون إقرارك الضريبي جاهزاً. حينها سيبدو كل شيء أوضح."
+  },
+  {
+    "english": "Thank you. I thought taxes in Germany would be impossible. But with a good tax advisor, it is doable.",
+    "arabic": "شكراً. كنت أظن أن الضرائب في ألمانيا مستحيلة. لكن مع مستشار ضريبي جيد، الأمر ممكن."
+  },
+  {
+    "english": "Learn the language of investments and the stock market. Understand how Germans talk about money and markets. Master the financial register.",
+    "arabic": "تعلّم لغة الاستثمارات وسوق الأسهم. افهم كيف يتحدث الألمان عن المال والأسواق. أتقن المستوى اللغوي المالي."
+  },
+  {
+    "english": "Learn 20 words about investment and stock market",
+    "arabic": "تعلّم 20 كلمة عن الاستثمار وسوق الأسهم"
+  },
+  {
+    "english": "Understand Aktie, Anlage, Rendite, and Konjunktur",
+    "arabic": "افهم معاني Aktie وAnlage وRendite وKonjunktur"
+  },
+  {
+    "english": "Build your financial vocabulary",
+    "arabic": "وسّع مفرداتك المالية"
+  },
+  {
+    "english": "A cafe in Mitte. Verumius leafs through the Handelsblatt. Aktie, Konjunktur, Rendite: every line a new world. He picks up a pen and starts underlining words.",
+    "arabic": "مقهى في حي Mitte. يتصفّح Verumius صحيفة Handelsblatt. Aktie وKonjunktur وRendite: كل سطر عالم جديد. يمسك قلماً ويبدأ في تسطير الكلمات."
+  },
+  {
+    "english": "stock, share",
+    "arabic": "سهم، حصة"
+  },
+  {
+    "english": "A: Do you have stocks?\\nB: Yes, a few DAX stocks.\\nA: Have the stocks risen?\\nB: Last week yes, this week no.",
+    "arabic": "أ: هل تملك أسهماً؟\\nب: نعم، بعض أسهم DAX.\\nأ: هل ارتفعت الأسهم؟\\nب: الأسبوع الماضي نعم، هذا الأسبوع لا."
+  },
+  {
+    "english": "investment, system",
+    "arabic": "استثمار، نظام"
+  },
+  {
+    "english": "A: Which investment do you recommend?\\nB: A safe financial investment with good returns.\\nA: And a solar system?\\nB: That is a different type of Anlage.",
+    "arabic": "أ: أي استثمار توصي به؟\\nب: استثمار مالي آمن بعوائد جيدة.\\nأ: وماذا عن نظام الطاقة الشمسية؟\\nب: تلك نوع مختلف من Anlage."
+  },
+  {
+    "english": "investor",
+    "arabic": "مستثمر"
+  },
+  {
+    "english": "A: Are you an experienced investor?\\nB: No, I am a small investor.\\nA: What do small investors usually buy?\\nB: ETFs and safe funds.",
+    "arabic": "أ: هل أنت مستثمر متمرّس؟\\nب: لا، أنا مستثمر صغير.\\nأ: ماذا يشتري المستثمرون الصغار عادةً؟\\nب: صناديق ETF والصناديق الآمنة."
+  },
+  {
+    "english": "stock exchange",
+    "arabic": "بورصة"
+  },
+  {
+    "english": "A: What is happening at the stock exchange today?\\nB: Prices have fallen.\\nA: Why does the stock exchange react like that?\\nB: Because of the new interest rate decision.",
+    "arabic": "أ: ما الذي يجري في البورصة اليوم؟\\nب: انخفضت الأسعار.\\nأ: لماذا تتفاعل البورصة هكذا؟\\nب: بسبب قرار سعر الفائدة الجديد."
+  },
+  {
+    "english": "dividend",
+    "arabic": "توزيعات الأرباح"
+  },
+  {
+    "english": "A: Does this stock pay a dividend?\\nB: Yes, once a year.\\nA: How high is the dividend?\\nB: Three euros per share.",
+    "arabic": "أ: هل يدفع هذا السهم توزيعات أرباح؟\\nب: نعم، مرة في السنة.\\nأ: كم تبلغ توزيعات الأرباح؟\\nب: ثلاثة يوروات لكل سهم."
+  },
+  {
+    "english": "return on investment",
+    "arabic": "عائد الاستثمار"
+  },
+  {
+    "english": "A: How high is the return?\\nB: About five percent per year.\\nA: Is that a good return?\\nB: For a safe investment, yes.",
+    "arabic": "أ: كم يبلغ العائد؟\\nب: نحو خمسة بالمئة سنوياً.\\nأ: هل هذا عائد جيد؟\\nب: لاستثمار آمن، نعم."
+  },
+  {
+    "english": "investment (the act)",
+    "arabic": "استثمار (العملية)"
+  },
+  {
+    "english": "A: This investment is risky.\\nB: But the return could be high.\\nA: Every investment has a risk.\\nB: Without risk, no return.",
+    "arabic": "أ: هذا الاستثمار محفوف بالمخاطر.\\nب: لكن العائد قد يكون مرتفعاً.\\nأ: كل استثمار له مخاطره.\\nب: بلا مخاطرة لا عائد."
+  },
+  {
+    "english": "profit",
+    "arabic": "ربح"
+  },
+  {
+    "english": "A: Did the company make a profit?\\nB: Yes, but 'to achieve profit' sounds better.\\nA: Why does Profit sound negative?\\nB: It sounds greedy. Gewinn is neutral.",
+    "arabic": "أ: هل حقّقت الشركة ربحاً؟\\nب: نعم، لكن 'تحقيق الربح' يبدو أفضل.\\nأ: لماذا تبدو كلمة Profit سلبية؟\\nب: تبدو جشعة. Gewinn محايدة."
+  },
+  {
+    "english": "corporation, conglomerate",
+    "arabic": "مجموعة شركات، تكتّل"
+  },
+  {
+    "english": "A: Siemens is a large corporation.\\nB: Yes, with subsidiaries worldwide.\\nA: What is the difference from an enterprise?\\nB: A corporation unites several enterprises.",
+    "arabic": "أ: Siemens مجموعة شركات كبيرة.\\nب: نعم، مع فروع في جميع أنحاء العالم.\\nأ: ما الفرق بينها وبين المؤسسة؟\\nب: مجموعة الشركات تضم عدة مؤسسات."
+  },
+  {
+    "english": "enterprise, company",
+    "arabic": "مشروع، شركة"
+  },
+  {
+    "english": "A: What kind of company is that?\\nB: A medium-sized enterprise.\\nA: How many employees does the company have?\\nB: About 200. Typical Mittelstand.",
+    "arabic": "أ: ما نوع هذه الشركة؟\\nب: مشروع متوسط الحجم.\\nأ: كم موظفاً لدى الشركة؟\\nب: نحو 200. نموذجي لقطاع Mittelstand."
+  },
+  {
+    "english": "competition",
+    "arabic": "منافسة"
+  },
+  {
+    "english": "A: The competition in this sector is tough.\\nB: Yes, only the best survive.\\nA: Is free competition always good?\\nB: Mostly. It lowers prices.",
+    "arabic": "أ: المنافسة في هذا القطاع شديدة.\\nب: نعم، الأفضل فقط يبقى.\\nأ: هل المنافسة الحرة جيدة دائماً؟\\nب: في الغالب. إنها تخفّض الأسعار."
+  },
+  {
+    "english": "market share",
+    "arabic": "حصة السوق"
+  },
+  {
+    "english": "A: How large is our market share?\\nB: About 15 percent.\\nA: Do we need to increase our market share?\\nB: Yes, the competition is growing.",
+    "arabic": "أ: كم تبلغ حصتنا في السوق؟\\nب: نحو 15 بالمئة.\\nأ: هل نحتاج إلى زيادة حصتنا في السوق؟\\nب: نعم، المنافسة تتنامى."
+  },
+  {
+    "english": "demand",
+    "arabic": "طلب"
+  },
+  {
+    "english": "A: The demand for electric cars is rising.\\nB: Yes, supply and demand determine the price.\\nA: Does demand exceed supply?\\nB: Currently, yes.",
+    "arabic": "أ: الطلب على السيارات الكهربائية يتزايد.\\nب: نعم، العرض والطلب يحددان السعر.\\nأ: هل يتجاوز الطلب العرض؟\\nب: حالياً، نعم."
+  },
+  {
+    "english": "economic cycle, business climate",
+    "arabic": "دورة اقتصادية، مناخ أعمال"
+  },
+  {
+    "english": "A: How is the economic climate right now?\\nB: The economy is recovering slowly.\\nA: Is an economic boom coming?\\nB: The experts are optimistic.",
+    "arabic": "أ: كيف هو المناخ الاقتصادي الآن؟\\nب: الاقتصاد يتعافى ببطء.\\nأ: هل يقترب انتعاش اقتصادي؟\\nب: الخبراء متفائلون."
+  },
+  {
+    "english": "profitable",
+    "arabic": "مربح"
+  },
+  {
+    "english": "A: Is the business profitable?\\nB: Yes, since the second year.\\nA: What makes it profitable?\\nB: Low costs and high demand.",
+    "arabic": "أ: هل النشاط التجاري مربح؟\\nب: نعم، منذ السنة الثانية.\\nأ: ما الذي يجعله مربحاً؟\\nب: تكاليف منخفضة وطلب مرتفع."
+  },
+  {
+    "english": "profit-bringing, lucrative",
+    "arabic": "مُدرّ للأرباح، مربح جداً"
+  },
+  {
+    "english": "A: Was the strategy lucrative?\\nB: Yes, very lucrative.\\nA: How do you find lucrative projects?\\nB: Through good market analysis.",
+    "arabic": "أ: هل كانت الاستراتيجية مربحة؟\\nب: نعم، مربحة جداً.\\nأ: كيف تجد مشاريع مربحة؟\\nب: من خلال تحليل السوق الجيد."
+  },
+  {
+    "english": "competitive, able to compete",
+    "arabic": "تنافسي، قادر على المنافسة"
+  },
+  {
+    "english": "A: Are our prices competitive?\\nB: Yes, we are cheaper than the competition.\\nA: Staying competitive is difficult.\\nB: But necessary.",
+    "arabic": "أ: هل أسعارنا تنافسية؟\\nب: نعم، نحن أرخص من المنافسين.\\nأ: البقاء تنافسياً أمر صعب.\\nب: لكنه ضروري."
+  },
+  {
+    "english": "listed on the stock exchange",
+    "arabic": "مُدرج في البورصة"
+  },
+  {
+    "english": "A: Is the company listed on the stock exchange?\\nB: Yes, since 2018.\\nA: What does publicly listed mean exactly?\\nB: The stocks are traded on the stock exchange.",
+    "arabic": "أ: هل الشركة مُدرجة في البورصة؟\\nب: نعم، منذ 2018.\\nأ: ماذا يعني الإدراج في البورصة تحديداً؟\\nب: تُتداول أسهمها في البورصة."
+  },
+  {
+    "english": "to invest (money)",
+    "arabic": "استثمار (المال)"
+  },
+  {
+    "english": "A: Where do you invest your money?\\nB: In funds and real estate.\\nA: Is it better to invest long-term?\\nB: Yes, time is the investor's best friend.",
+    "arabic": "أ: أين تستثمر أموالك؟\\nب: في الصناديق والعقارات.\\nأ: هل من الأفضل الاستثمار على المدى الطويل؟\\nب: نعم، الوقت أفضل صديق للمستثمر."
+  },
+  {
+    "english": "to profit, to benefit",
+    "arabic": "الاستفادة، الانتفاع"
+  },
+  {
+    "english": "A: Who benefits from low interest rates?\\nB: Everyone who has a loan.\\nA: Do investors benefit too?\\nB: Not necessarily. They get less return.",
+    "arabic": "أ: من يستفيد من انخفاض أسعار الفائدة؟\\nب: كل من لديه قرض.\\nأ: هل يستفيد المستثمرون أيضاً؟\\nب: ليس بالضرورة. يحصلون على عائد أقل."
+  },
+  {
+    "english": "The Italian banking term for what your money earns when you invest it.",
+    "arabic": "المصطلح المصرفي الإيطالي لما تكسبه أموالك حين تستثمرها."
+  },
+  {
+    "english": "The overall economic cycle that determines business conditions.",
+    "arabic": "الدورة الاقتصادية الكلية التي تحدد ظروف الأعمال."
+  },
+  {
+    "english": "The economic cycle determines how supply and demand develop.",
+    "arabic": "تحدد الدورة الاقتصادية كيفية تطوّر العرض والطلب."
+  },
+  {
+    "english": "'Wettbewerb' is competition. 'Faehig' means capable. Capable of competing.",
+    "arabic": "'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."
+  },
+  {
+    "english": "I just read an entire page of stock market report. Three months ago I would not have understood a word. Now I understand almost everything. Almost.",
+    "arabic": "قرأت للتو صفحة كاملة من تقرير سوق الأسهم. قبل ثلاثة أشهر لم أكن لأفهم كلمة واحدة. الآن أفهم كل شيء تقريباً. تقريباً."
+  },
+  {
+    "english": "Learn Futur II for completed future actions and assumptions. Master tax and trade vocabulary. Understand how Germans predict financial outcomes.",
+    "arabic": "تعلّم المستقبل الثاني للأفعال المستقبلية المنجزة والافتراضات. أتقن مفردات الضرائب والتجارة. افهم كيف يتوقع الألمان النتائج المالية."
+  },
+  {
+    "english": "Learn Futur II (werden + Partizip II + haben/sein)",
+    "arabic": "تعلّم المستقبل الثاني (werden + Partizip II + haben/sein)"
+  },
+  {
+    "english": "Master 18 words about taxes and trade",
+    "arabic": "أتقن 18 كلمة عن الضرائب والتجارة"
+  },
+  {
+    "english": "Understand future predictions in German",
+    "arabic": "افهم التوقعات المستقبلية في اللغة الألمانية"
+  },
+  {
+    "english": "Let us look at your balance sheet. By December you will have paid your taxes. Since you export, we can deduct the input tax.",
+    "arabic": "لنلقِ نظرة على ميزانيتك. بحلول ديسمبر ستكون قد دفعت ضرائبك. بما أنك تصدّر، يمكننا خصم ضريبة المدخلات."
+  },
+  {
+    "english": "And the inflation? Prices have risen sharply.",
+    "arabic": "وماذا عن التضخم؟ ارتفعت الأسعار بشكل حاد."
+  },
+  {
+    "english": "The recession will presumably be overcome by spring. Especially since the subsidies are taking effect.",
+    "arabic": "من المرتقب أن يُتجاوز الركود بحلول الربيع. لا سيما وأن الإعانات بدأت تُؤتي ثمارها."
+  },
+  {
+    "english": "balance sheet",
+    "arabic": "ميزانية عمومية"
+  },
+  {
+    "english": "A: How does the balance sheet look?\\nB: The balance sheet shows a profit.\\nA: When do we take stock?\\nB: At the end of the fiscal year.",
+    "arabic": "أ: كيف تبدو الميزانية العمومية؟\\nب: تُظهر الميزانية ربحاً.\\nأ: متى نُجري الجرد؟\\nب: في نهاية السنة المالية."
+  },
+  {
+    "english": "export",
+    "arabic": "تصدير"
+  },
+  {
+    "english": "A: What is Germany's most important export?\\nB: Cars, machines, and chemicals.\\nA: How important is export?\\nB: It drives the economy.",
+    "arabic": "أ: ما أهم صادرات ألمانيا؟\\nب: السيارات والآلات والمواد الكيميائية.\\nأ: ما أهمية التصدير؟\\nب: يُحرّك الاقتصاد."
+  },
+  {
+    "english": "import",
+    "arabic": "استيراد"
+  },
+  {
+    "english": "A: What does Germany import?\\nB: A lot of energy and raw materials.\\nA: Has importing risen?\\nB: Yes, especially for energy.",
+    "arabic": "أ: ماذا تستورد ألمانيا؟\\nب: الكثير من الطاقة والمواد الخام.\\nأ: هل ارتفع الاستيراد؟\\nب: نعم، خاصة في مجال الطاقة."
+  },
+  {
+    "english": "inflation",
+    "arabic": "تضخم"
+  },
+  {
+    "english": "A: How high is inflation?\\nB: Currently at about three percent.\\nA: Is that a lot?\\nB: For German standards, yes.",
+    "arabic": "أ: كم يبلغ معدل التضخم؟\\nب: حالياً نحو ثلاثة بالمئة.\\nأ: هل هذا كثير؟\\nب: وفق المعايير الألمانية، نعم."
+  },
+  {
+    "english": "recession",
+    "arabic": "ركود اقتصادي"
+  },
+  {
+    "english": "A: Are we in a recession?\\nB: Technically yes. Two quarters negative.\\nA: How long does a recession last?\\nB: It varies. Sometimes months, sometimes years.",
+    "arabic": "أ: هل نحن في ركود اقتصادي؟\\nب: من الناحية التقنية نعم. ربعان ماليان سلبيان.\\nأ: كم يستمر الركود؟\\nب: يتفاوت. أحياناً أشهر، وأحياناً سنوات."
+  },
+  {
+    "english": "subsidy",
+    "arabic": "إعانة، دعم"
+  },
+  {
+    "english": "A: Does the sector receive subsidies?\\nB: Yes, from the state.\\nA: Why are there subsidies?\\nB: To support certain sectors.",
+    "arabic": "أ: هل يتلقى القطاع إعانات؟\\nب: نعم، من الدولة.\\nأ: لماذا توجد إعانات؟\\nب: لدعم قطاعات بعينها."
+  },
+  {
+    "english": "industry, sector",
+    "arabic": "صناعة، قطاع"
+  },
+  {
+    "english": "A: What industry do you work in?\\nB: In the IT sector.\\nA: Has the sector grown?\\nB: Yes, enormously in recent years.",
+    "arabic": "أ: في أي صناعة تعمل؟\\nب: في قطاع تكنولوجيا المعلومات.\\nأ: هل نما القطاع؟\\nب: نعم، بشكل هائل في السنوات الأخيرة."
+  },
+  {
+    "english": "raw material",
+    "arabic": "مادة خام"
+  },
+  {
+    "english": "A: Which raw materials does Germany import?\\nB: Oil, gas, and rare earths.\\nA: Is there a shortage of raw materials?\\nB: In some areas, yes.",
+    "arabic": "أ: ما المواد الخام التي تستوردها ألمانيا؟\\nب: النفط والغاز والمعادن النادرة.\\nأ: هل هناك نقص في المواد الخام؟\\nب: في بعض المجالات، نعم."
+  },
+  {
+    "english": "tax rate",
+    "arabic": "معدل الضريبة"
+  },
+  {
+    "english": "A: How high is your tax rate?\\nB: At my income, about 35 percent.\\nA: Does the tax rate rise with income?\\nB: Yes, that is the progressive system.",
+    "arabic": "أ: كم يبلغ معدل ضريبتك؟\\nب: بدخلي، نحو 35 بالمئة.\\nأ: هل يرتفع معدل الضريبة مع الدخل؟\\nب: نعم، هذا هو النظام التصاعدي."
+  },
+  {
+    "english": "wage tax",
+    "arabic": "ضريبة الأجور"
+  },
+  {
+    "english": "A: What is wage tax?\\nB: The tax on your salary.\\nA: Who pays the wage tax?\\nB: Your employer deducts it directly.",
+    "arabic": "أ: ما ضريبة الأجور؟\\nب: الضريبة على راتبك.\\nأ: من يدفع ضريبة الأجور؟\\nب: يخصمها صاحب العمل مباشرة."
+  },
+  {
+    "english": "liable to tax",
+    "arabic": "خاضع للضريبة"
+  },
+  {
+    "english": "A: Am I liable to tax in Germany?\\nB: Yes, everyone with income is liable to tax.\\nA: From which amount?\\nB: From the basic allowance, about 11,000 euros.",
+    "arabic": "أ: هل أنا خاضع للضريبة في ألمانيا؟\\nب: نعم، كل من لديه دخل خاضع للضريبة.\\nأ: من أي مبلغ؟\\nب: من الحد الأدنى المعفى، نحو 11,000 يورو."
+  },
+  {
+    "english": "fiscal",
+    "arabic": "مالي، ضريبي"
+  },
+  {
+    "english": "A: What fiscal measures does the government plan?\\nB: Tax cuts and more spending.\\nA: Are fiscal reforms necessary?\\nB: Yes, the budget must be consolidated.",
+    "arabic": "أ: ما الإجراءات المالية التي تخطط لها الحكومة؟\\nب: تخفيضات ضريبية وزيادة في الإنفاق.\\nأ: هل الإصلاحات المالية ضرورية؟\\nب: نعم، يجب توطيد الميزانية."
+  },
+  {
+    "english": "related to the business cycle",
+    "arabic": "متعلق بالدورة الاقتصادية"
+  },
+  {
+    "english": "A: Are these cyclical fluctuations?\\nB: Yes, the economy fluctuates cyclically.\\nA: How long do business cycle phases last?\\nB: Usually five to ten years.",
+    "arabic": "أ: هل هذه تقلبات دورية؟\\nب: نعم، الاقتصاد يتذبذب بصورة دورية.\\nأ: كم تستمر مراحل الدورة الاقتصادية؟\\nب: عادة من خمس إلى عشر سنوات."
+  },
+  {
+    "english": "to export",
+    "arabic": "تصدير"
+  },
+  {
+    "english": "A: What does Germany export the most?\\nB: Cars and machines.\\nA: Where do we export to?\\nB: To the whole world. China, USA, Europe.",
+    "arabic": "أ: ما الذي تصدّره ألمانيا أكثر؟\\nب: السيارات والآلات.\\nأ: إلى أين نُصدّر؟\\nب: إلى العالم كله. الصين والولايات المتحدة وأوروبا."
+  },
+  {
+    "english": "to import",
+    "arabic": "استيراد"
+  },
+  {
+    "english": "A: Does Germany import a lot of energy?\\nB: Yes, oil and gas are imported.\\nA: Can we import less?\\nB: With renewable energy, yes.",
+    "arabic": "أ: هل تستورد ألمانيا كثيراً من الطاقة؟\\nب: نعم، يُستورد النفط والغاز.\\nأ: هل يمكننا تقليل الاستيراد؟\\nب: مع الطاقة المتجددة، نعم."
+  },
+  {
+    "english": "to tax",
+    "arabic": "فرض ضريبة"
+  },
+  {
+    "english": "A: How is income taxed?\\nB: Progressively. The more, the higher the rate.\\nA: Are pensions also taxed?\\nB: Yes, partially.",
+    "arabic": "أ: كيف تُفرض الضريبة على الدخل؟\\nب: بصورة تصاعدية. كلما زاد الدخل ارتفع المعدل.\\nأ: هل تُفرض الضريبة أيضاً على المعاشات؟\\nب: نعم، جزئياً."
+  },
+  {
+    "english": "to save, to cut costs",
+    "arabic": "توفير، خفض التكاليف"
+  },
+  {
+    "english": "A: Can we cut costs?\\nB: Yes, on materials we save 15%.\\nA: Where else?\\nB: On energy costs.",
+    "arabic": "أ: هل يمكننا خفض التكاليف؟\\nب: نعم، نوفّر 15 بالمئة في المواد.\\nأ: وأين أيضاً؟\\nب: في تكاليف الطاقة."
+  },
+  {
+    "english": "presumably, expected",
+    "arabic": "على الأرجح، متوقَّع"
+  },
+  {
+    "english": "A: When will the economy grow?\\nB: Presumably in the next quarter.\\nA: Is that certain?\\nB: No, voraussichtlich means 'probably.'",
+    "arabic": "أ: متى سينمو الاقتصاد؟\\nب: على الأرجح في الربع القادم.\\nأ: هل هذا مؤكد؟\\nب: لا، voraussichtlich تعني 'على الأرجح'."
+  },
+  {
+    "english": "German has a tense for actions that will be completed in the future. It is formed with werden plus Partizip II plus haben or sein.\\n\\nExamples:\\n- 'Bis Dezember werde ich die Steuern bezahlt haben.'\\n- 'Die Rezession wird bis Frühjahr überwunden sein.'\\n\\nThe Futur II has two uses:\\n- Completed future describes what will be finished by a specific point: 'Bis morgen werde ich alles erledigt haben.'\\n- Assumption about the past expresses probability: 'Er wird wohl schon gegangen sein.' (He has probably already left.)\\n\\nThe choice between haben and sein follows the same rule as the Perfekt. Most verbs take haben (bezahlt haben, geschrieben haben). Movement and change-of-state verbs take sein (gegangen sein, gestiegen sein).",
+    "arabic": "تمتلك اللغة الألمانية زمناً للأفعال التي ستكون قد اكتملت في المستقبل. يُصاغ بـ werden مع Partizip II مع haben أو sein.\n\nأمثلة:\n- 'Bis Dezember werde ich die Steuern bezahlt haben.'\n- 'Die Rezession wird bis Frühjahr überwunden sein.'\n\nللمستقبل الثاني استخدامان:\n- المستقبل المنجز يصف ما سيكون قد اكتمل بحلول نقطة محددة: 'Bis morgen werde ich alles erledigt haben.'\n- الافتراض عن الماضي يعبر عن الاحتمال: 'Er wird wohl schon gegangen sein.' (هو على الأرجح غادر بالفعل.)\n\nالاختيار بين haben وsein يتبع نفس قاعدة الـ Perfekt. معظم الأفعال تأخذ haben. أفعال الحركة والتحوّل تأخذ sein."
+  },
+  {
+    "english": "The Futur II is formed with werden + Partizip II + haben/sein. It describes an action that will be completed by a future point, or expresses a probability judgment about the past.\\n\\nThe auxiliary (haben or sein) follows the same rules as the Perfekt:\\n- haben: most transitive verbs, reflexive verbs\\n- sein: movement verbs (gehen, kommen, fliegen), change-of-state verbs (sterben, wachsen, steigen), sein and bleiben\\n\\nWord order: werden is conjugated and in position 2. The Partizip II and haben/sein go to the end.\\n- Hauptsatz: Er wird die Steuern bezahlt haben.\\n- Nebensatz: ..., weil er die Steuern bezahlt haben wird.\\n\\nWith 'wohl' or 'wahrscheinlich,' Futur II expresses assumption:\\n- Er wird wohl krank gewesen sein. (He was probably sick.)",
+    "arabic": "يُصاغ المستقبل الثاني بـ werden + Partizip II + haben/sein. يصف فعلاً سيكون قد اكتمل بحلول نقطة مستقبلية، أو يعبّر عن حكم احتمالي حول الماضي.\n\nالفعل المساعد (haben أو sein) يتبع نفس قواعد الـ Perfekt:\n- haben: معظم الأفعال المتعدية والأفعال الانعكاسية\n- sein: أفعال الحركة (gehen، kommen، fliegen)، أفعال التحوّل (sterben، wachsen، steigen)، sein وbleiben\n\nترتيب الكلمات: werden مُصرَّف في الموضع الثاني. Partizip II وhaben/sein يأتيان في النهاية.\n- الجملة الرئيسية: Er wird die Steuern bezahlt haben.\n- الجملة الفرعية: ..., weil er die Steuern bezahlt haben wird.\n\nمع 'wohl' أو 'wahrscheinlich' يعبّر المستقبل الثاني عن الافتراض:\n- Er wird wohl krank gewesen sein. (كان على الأرجح مريضاً.)"
+  },
+  {
+    "english": "werden + Partizip II + haben. An action that will be completed by a specific point in time.",
+    "arabic": "werden + Partizip II + haben. فعل سيكون قد اكتمل بحلول نقطة زمنية محددة."
+  },
+  {
+    "english": "to fall, to decrease, to sink",
+    "arabic": "انخفاض، تراجع، هبوط"
+  },
+  {
+    "english": "A: Have prices fallen?\\nB: Yes, inflation has fallen significantly.\\nA: How far has it fallen?\\nB: By two percent in the last quarter.",
+    "arabic": "أ: هل انخفضت الأسعار؟\\nب: نعم، انخفض التضخم بشكل ملحوظ.\\nأ: بكم انخفض؟\\nب: بنسبة اثنين بالمئة في الربع الأخير."
+  },
+  {
+    "english": "Futur II of a verb of motion/change. This verb takes 'sein', not 'haben'. Which Partizip II fits 'falling prices'?",
+    "arabic": "المستقبل الثاني لفعل حركة/تحوّل. هذا الفعل يأخذ 'sein' لا 'haben'. أي Partizip II يناسب 'الأسعار الهابطة'؟"
+  },
+  {
+    "english": "Inflation will have fallen by spring.",
+    "arabic": "سيكون التضخم قد انخفض بحلول الربيع."
+  },
+  {
+    "english": "By December I will have submitted the tax return. The tax advisor promised that. And I have taken note of it.",
+    "arabic": "بحلول ديسمبر سأكون قد قدّمت الإقرار الضريبي. وعد المستشار الضريبي بذلك. وقد أخذت بالأمر."
+  },
+  {
+    "english": "Master advanced causal connectors beyond weil and denn. Analyze economic cause-and-effect relationships. Build complex argumentative sentences.",
+    "arabic": "أتقن أدوات الربب السببي المتقدمة ما وراء weil وdenn. حلّل علاقات السبب والنتيجة الاقتصادية. ابنِ جملاً حجاجية مركّبة."
+  },
+  {
+    "english": "Learn causal clauses with da, zumal, umso mehr als, insofern als",
+    "arabic": "تعلّم الجمل السببية بـ da وzumal وumso mehr als وinsofern als"
+  },
+  {
+    "english": "Master 18 words about macroeconomics and business cycles",
+    "arabic": "أتقن 18 كلمة عن الاقتصاد الكلي والدورات الاقتصادية"
+  },
+  {
+    "english": "Translate economic relationships into complex sentences",
+    "arabic": "ترجم العلاقات الاقتصادية إلى جمل مركّبة"
+  },
+  {
+    "english": "insolvency",
+    "arabic": "إعسار، عجز عن السداد"
+  },
+  {
+    "english": "A: Did the company file for insolvency?\\nB: Yes, last week.\\nA: What happens during an insolvency?\\nB: An insolvency administrator takes over.",
+    "arabic": "أ: هل تقدمت الشركة بطلب إعسار؟\\nب: نعم، الأسبوع الماضي.\\nأ: ماذا يحدث خلال الإعسار؟\\nب: يتولى مدير الإعسار زمام الأمور."
+  },
+  {
+    "english": "bankruptcy",
+    "arabic": "إفلاس"
+  },
+  {
+    "english": "A: The company is bankrupt.\\nB: Bankrupt? That is the end.\\nA: What is the difference from insolvency?\\nB: Bankruptcy is final. Insolvency can be survived.",
+    "arabic": "أ: الشركة مُفلِسة.\\nب: مُفلِسة؟ هذه نهايتها.\\nأ: ما الفرق بين الإفلاس والإعسار؟\\nب: الإفلاس نهائي. يمكن النجاة من الإعسار."
+  },
+  {
+    "english": "growth",
+    "arabic": "نمو"
+  },
+  {
+    "english": "A: How high is economic growth?\\nB: About 1.5 percent.\\nA: Is that enough growth?\\nB: For Germany, that is solid.",
+    "arabic": "أ: كم يبلغ معدل النمو الاقتصادي؟\\nب: نحو 1.5 بالمئة.\\nأ: هل هذا نمو كافٍ؟\\nب: بالنسبة لألمانيا، هذا متين."
+  },
+  {
+    "english": "upswing, boom",
+    "arabic": "انتعاش، طفرة"
+  },
+  {
+    "english": "A: Is an upswing coming soon?\\nB: The experts say yes.\\nA: How do you recognize an upswing?\\nB: More orders, fewer unemployed.",
+    "arabic": "أ: هل يقترب الانتعاش قريباً؟\\nب: الخبراء يقولون نعم.\\nأ: كيف تُدرك الانتعاش؟\\nب: طلبات أكثر، وعاطلون عن العمل أقل."
+  },
+  {
+    "english": "stimulus package",
+    "arabic": "حزمة تحفيز اقتصادي"
+  },
+  {
+    "english": "A: What is a stimulus package?\\nB: Money from the state to boost the economy.\\nA: Do stimulus packages work?\\nB: Usually yes, but they cost a lot.",
+    "arabic": "أ: ما حزمة التحفيز الاقتصادي؟\\nب: أموال من الدولة لتنشيط الاقتصاد.\\nأ: هل تنجح حزم التحفيز؟\\nب: في العادة نعم، لكنها تكلّف كثيراً."
+  },
+  {
+    "english": "deficit",
+    "arabic": "عجز"
+  },
+  {
+    "english": "A: Does the budget have a deficit?\\nB: Yes, spending exceeds revenue.\\nA: How large is the deficit?\\nB: Several billion euros.",
+    "arabic": "أ: هل تعاني الميزانية من عجز؟\\nب: نعم، الإنفاق يتجاوز الإيرادات.\\nأ: كم يبلغ العجز؟\\nب: عدة مليارات من اليوروات."
+  },
+  {
+    "english": "trade balance",
+    "arabic": "الميزان التجاري"
+  },
+  {
+    "english": "A: How does the trade balance look?\\nB: Positive. We export more than we import.\\nA: Is a positive trade balance always good?\\nB: Usually, but there is criticism.",
+    "arabic": "أ: كيف يبدو الميزان التجاري؟\\nب: إيجابي. نُصدّر أكثر مما نستورد.\\nأ: هل الميزان التجاري الإيجابي جيد دائماً؟\\nب: في العادة، لكن ثمة انتقادات."
+  },
+  {
+    "english": "national economy, macroeconomics",
+    "arabic": "الاقتصاد الوطني، الاقتصاد الكلي"
+  },
+  {
+    "english": "A: What is Volkswirtschaft?\\nB: The economy of an entire country.\\nA: And Betriebswirtschaft?\\nB: The economics of individual companies.",
+    "arabic": "أ: ما Volkswirtschaft؟\\nب: اقتصاد دولة بأكملها.\\nأ: وما Betriebswirtschaft؟\\nب: اقتصاد الشركات الفردية."
+  },
+  {
+    "english": "globalization",
+    "arabic": "عولمة"
+  },
+  {
+    "english": "A: How does globalization affect Germany?\\nB: Through more trade and competition.\\nA: Is there criticism of globalization?\\nB: Yes, especially from trade unions.",
+    "arabic": "أ: كيف تؤثر العولمة في ألمانيا؟\\nب: من خلال تجارة أكثر ومنافسة أشد.\\nأ: هل ثمة انتقاد للعولمة؟\\nب: نعم، خاصة من النقابات العمالية."
+  },
+  {
+    "english": "operating at a deficit",
+    "arabic": "العمل بعجز"
+  },
+  {
+    "english": "A: Is the budget in deficit?\\nB: Yes, we spend more than we take in.\\nA: How long can you run a deficit?\\nB: Not forever. Eventually the debts come.",
+    "arabic": "أ: هل الميزانية تعمل بعجز؟\\nب: نعم، ننفق أكثر مما نستوعب.\\nأ: كم يمكن الاستمرار في العجز؟\\nب: ليس إلى الأبد. في النهاية تتراكم الديون."
+  },
+  {
+    "english": "relating to the market economy",
+    "arabic": "متعلق باقتصاد السوق"
+  },
+  {
+    "english": "A: Is Germany a market economy?\\nB: Yes, but with social security.\\nA: What are market economy principles?\\nB: Free competition and private ownership.",
+    "arabic": "أ: هل ألمانيا اقتصاد سوق؟\\nب: نعم، لكن مع ضمان اجتماعي.\\nأ: ما مبادئ اقتصاد السوق؟\\nب: المنافسة الحرة والملكية الخاصة."
+  },
+  {
+    "english": "macroeconomic",
+    "arabic": "اقتصادي كلي"
+  },
+  {
+    "english": "A: What is macroeconomic data?\\nB: GDP, inflation, unemployment rate.\\nA: Why is it important?\\nB: It shows the state of the economy.",
+    "arabic": "أ: ما البيانات الاقتصادية الكلية؟\\nب: الناتج المحلي الإجمالي والتضخم ومعدل البطالة.\\nأ: لماذا هي مهمة؟\\nب: تُظهر حالة الاقتصاد."
+  },
+  {
+    "english": "relating to business economics",
+    "arabic": "متعلق باقتصاد الأعمال"
+  },
+  {
+    "english": "A: What are business metrics?\\nB: Revenue, profit, cost per unit.\\nA: And macroeconomic ones?\\nB: GDP, trade balance, inflation.",
+    "arabic": "أ: ما مقاييس الأعمال؟\\nب: الإيرادات والربح والتكلفة لكل وحدة.\\nأ: والمقاييس الاقتصادية الكلية؟\\nب: الناتج المحلي الإجمالي والميزان التجاري والتضخم."
+  },
+  {
+    "english": "to compete",
+    "arabic": "التنافس"
+  },
+  {
+    "english": "A: Does your company compete with Siemens?\\nB: Yes, we compete for the same clients.\\nA: Is it hard to compete with large corporations?\\nB: Yes, but we are more flexible.",
+    "arabic": "أ: هل تتنافس شركتك مع Siemens؟\\nب: نعم، نتنافس على نفس العملاء.\\nأ: هل من الصعب التنافس مع الشركات الكبرى؟\\nب: نعم، لكننا أكثر مرونة."
+  },
+  {
+    "english": "to restructure, to renovate",
+    "arabic": "إعادة الهيكلة، التجديد"
+  },
+  {
+    "english": "A: Does the company need to be restructured?\\nB: Yes, the finances are critical.\\nA: How do you restructure a company?\\nB: Cut costs, reduce debts, reposition.",
+    "arabic": "أ: هل تحتاج الشركة إلى إعادة هيكلة؟\\nب: نعم، الأوضاع المالية حرجة.\\nأ: كيف تُعيد هيكلة شركة؟\\nب: خفض التكاليف وتقليص الديون وإعادة التموضع."
+  },
+  {
+    "english": "to consolidate",
+    "arabic": "توطيد، تعزيز"
+  },
+  {
+    "english": "A: Do we need to consolidate the budget?\\nB: Yes, the debts are too high.\\nA: How do you consolidate a budget?\\nB: Spend less, earn more.",
+    "arabic": "أ: هل نحتاج إلى توطيد الميزانية؟\\nب: نعم، الديون مرتفعة جداً.\\nأ: كيف توطّد ميزانية؟\\nب: أنفق أقل، اكسب أكثر."
+  },
+  {
+    "english": "to speculate",
+    "arabic": "المضاربة"
+  },
+  {
+    "english": "A: Do you speculate on the stock market?\\nB: No, that is too risky for me.\\nA: Many speculate with cryptocurrencies.\\nB: Yes, but speculation is not investing.",
+    "arabic": "أ: هل تُضارب في سوق الأسهم؟\\nب: لا، ذلك محفوف بالمخاطر بالنسبة لي.\\nأ: كثيرون يُضاربون بالعملات الرقمية.\\nب: نعم، لكن المضاربة ليست استثماراً."
+  },
+  {
+    "english": "approximately, by estimation",
+    "arabic": "تقريباً، بالتقدير"
+  },
+  {
+    "english": "A: How many jobs will be lost?\\nB: Approximately 10,000.\\nA: Is that certain?\\nB: No, schätzungsweise means 'approximately.'",
+    "arabic": "أ: كم وظيفة ستُفقد؟\\nب: تقريباً 10,000.\\nأ: هل هذا مؤكد؟\\nب: لا، schätzungsweise تعني 'تقريباً'."
+  },
+  {
+    "english": "At B2 level you need more than weil and denn for cause and effect.\\n\\nNew connectors, sorted by formality:\\n- da (since/because): 'Da die Wirtschaft wächst, steigen die Einnahmen.' Formal, written. Verb at the end.\\n- zumal (especially since): 'Die Investition lohnt sich, zumal die Zinsen niedrig sind.' Emphasizes the reason.\\n- umso mehr als (all the more since): 'Das ist wichtig, umso mehr als die Konkurrenz wächst.'\\n- insofern als (insofar as): 'Das stimmt, insofern als die Daten korrekt sind.' Academic.\\n- in Anbetracht der Tatsache, dass: Bureaucratic. Very formal.\\n- nämlich (you see, because): 'Er investiert, er hat nämlich Kapital.' AFTER the verb.\\n- und zwar (specifically): 'Wir sparen, und zwar 20%.' Specifies.\\n\\nAll create subordinate clauses with verb at the end, except nämlich and und zwar.",
+    "arabic": "في المستوى B2 تحتاج إلى أكثر من weil وdenn للتعبير عن السبب والنتيجة.\n\nأدوات ربط جديدة مرتبة حسب الرسمية:\n- da (إذ/لأن): 'Da die Wirtschaft wächst, steigen die Einnahmen.' رسمي، مكتوب. الفعل في النهاية.\n- zumal (لا سيما وأن): 'Die Investition lohnt sich, zumal die Zinsen niedrig sind.' يؤكد السبب.\n- umso mehr als (من باب أولى لأن): 'Das ist wichtig, umso mehr als die Konkurrenz wächst.'\n- insofern als (بقدر ما): 'Das stimmt, insofern als die Daten korrekt sind.' أكاديمي.\n- in Anbetracht der Tatsache, dass: بيروقراطي. رسمي جداً.\n- nämlich (لأنه كما ترى): 'Er investiert, er hat nämlich Kapital.' يأتي بعد الفعل.\n- und zwar (وتحديداً): 'Wir sparen, und zwar 20%.' للتحديد.\n\nجميعها تُنشئ جملاً فرعية بالفعل في النهاية، باستثناء nämlich وund zwar."
+  },
+  {
+    "english": "Da vs. weil: Both mean 'because/since,' but da is more formal and common in written German. Da-clauses usually come first in the sentence. Weil-clauses usually come second.\\n\\nZumal: 'Especially since.' Adds weight to a reason. Always comes after the main clause: '..., zumal die Zinsen niedrig sind.'\\n\\nUmso mehr als: 'All the more since.' Strongest emphasis on the cause. Written, formal.\\n\\nInsofern als: 'Insofar as.' Limits the scope of a claim. Academic precision.\\n\\nIn Anbetracht der Tatsache, dass: 'In view of the fact that.' Seven words to say 'because.' Maximum bureaucratic formality.\\n\\nNämlich: Post-verbal. Main clause word order. 'Er spart; er hat nämlich Schulden.' Explains after the fact.\\n\\nUnd zwar: Specifies. 'Wir investieren, und zwar in Aktien.' Introduces the detail.",
+    "arabic": "da مقابل weil: كلاهما يعني 'لأن/إذ'، لكن da أكثر رسمية وشيوعاً في الكتابة الألمانية. تأتي جمل da عادةً في أول الجملة. تأتي جمل weil عادةً في الثانية.\n\nzumal: 'لا سيما وأن.' يُضيف ثقلاً للسبب. يأتي دائماً بعد الجملة الرئيسية: '..., zumal die Zinsen niedrig sind.'\n\numso mehr als: 'من باب أولى لأن.' أقوى تأكيد على السبب. مكتوب، رسمي.\n\ninsofern als: 'بقدر ما.' يحدد نطاق ادعاء. دقة أكاديمية.\n\nin Anbetracht der Tatsache, dass: 'في ضوء حقيقة أن.' سبع كلمات للتعبير عن 'لأن.' أقصى درجات الرسمية البيروقراطية.\n\nnämlich: يأتي بعد الفعل. ترتيب كلمات الجملة الرئيسية. 'Er spart; er hat nämlich Schulden.' يُفسّر بعد الوقوع.\n\nund zwar: للتحديد. 'Wir investieren, und zwar in Aktien.' يُدخل التفصيل."
+  },
+  {
+    "english": "'Zumal' strengthens the statement. Not simply 'weil' (because), but 'especially because.'",
+    "arabic": "'zumal' تُعزّز العبارة. ليس مجرد 'weil' (لأن)، بل 'لا سيما لأن'."
+  },
+  {
+    "english": "The formal connector for 'since/as.' Two letters. Typical of elevated written German.",
+    "arabic": "أداة الربط الرسمية لـ 'إذ/لأن'. حرفان. نموذجية في الكتابة الألمانية الرفيعة."
+  },
+  {
+    "english": "Since exports are rising, revenue is growing.",
+    "arabic": "إذ ترتفع الصادرات، تتنامى الإيرادات."
+  },
+  {
+    "english": "werden + Partizip II + haben. Something that will be completed by a specific date.",
+    "arabic": "werden + Partizip II + haben. شيء سيكون قد اكتمل بحلول تاريخ محدد."
+  },
+  {
+    "english": "to recover, to recuperate",
+    "arabic": "التعافي، الاستعادة"
+  },
+  {
+    "english": "A: Is the economy recovering?\\nB: Yes, the economy is recovering slowly.\\nA: When will it have fully recovered?\\nB: By the end of the year, if the subsidies work.",
+    "arabic": "أ: هل الاقتصاد يتعافى؟\\nب: نعم، الاقتصاد يتعافى ببطء.\\nأ: متى سيكون قد تعافى تماماً؟\\nب: بحلول نهاية العام، إذا نجحت الإعانات."
+  },
+  {
+    "english": "Formal causal clause + Futur II. Gap 1: written connector (two letters). Gap 2: Partizip II of 'sich erholen.'",
+    "arabic": "جملة سببية رسمية + المستقبل الثاني. الفراغ الأول: أداة ربط مكتوبة (حرفان). الفراغ الثاني: Partizip II للفعل 'sich erholen'."
+  },
+  {
+    "english": "Since the government gives subsidies, the sector will have recovered by 2025.",
+    "arabic": "إذ تمنح الحكومة إعانات، سيكون القطاع قد تعافى بحلول عام 2025."
+  },
+  {
+    "english": "Fixed noun-verb combinations are the secret of formal German. The tax advisor finishes his consultation, and Mia talks about Elterngeld. Learn six collocations every professional knows.",
+    "arabic": "التركيبات الثابتة من الاسم والفعل هي سرّ اللغة الألمانية الرسمية. ينهي المستشار الضريبي استشارته، وتتحدث Mia عن Elterngeld. تعلّم ستة تلازمات لفظية يعرفها كل محترف."
+  },
+  {
+    "english": "Master fixed noun-verb combinations in formal context",
+    "arabic": "أتقن التركيبات الثابتة من الاسم والفعل في السياق الرسمي"
+  },
+  {
+    "english": "Understand Germany's social benefits system",
+    "arabic": "افهم نظام المزايا الاجتماعية في ألمانيا"
+  },
+  {
+    "english": "Practice all three grammar constructions together",
+    "arabic": "تدرّب على التراكيب النحوية الثلاثة معاً"
+  }
+]

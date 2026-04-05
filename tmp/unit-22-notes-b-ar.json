@@ -1,0 +1,614 @@
+[
+  {
+    "english": "Regular verbs form the Partizip II with ge- + stem + -t:\\nmachen → gemacht, recyceln → recycelt\\n\\nIrregular verbs use ge- + stem change + -en:\\nlesen → gelesen, brechen → gebrochen\\n\\nVerbs with inseparable prefixes (ver-, be-, er-, zer-) skip ge-:\\nverschmutzen → verschmutzt, zerstören → zerstört\\n\\nVerbs ending in -ieren also skip ge-:\\nrecyceln → recycelt, produzieren → produziert\\n\\nAs adjectives, all forms decline normally:\\nder verschmutzte Fluss (nominative)\\nden verschmutzten Fluss (accusative)\\ndem verschmutzten Fluss (dative)",
+    "arabic": "تُشكِّل الأفعال المنتظمة اسم المفعول (Partizip II) على النحو: ge- + الجذر + -t:\\nmachen → gemacht، recyceln → recycelt\\n\\nأما الأفعال غير المنتظمة فتستخدم: ge- + تغيير الجذر + -en:\\nlesen → gelesen، brechen → gebrochen\\n\\nالأفعال التي تبدأ بادئات لا تنفصل (ver-، be-، er-، zer-) لا تأخذ ge-:\\nverschmutzen → verschmutzt، zerstören → zerstört\\n\\nالأفعال المنتهية بـ -ieren لا تأخذ ge- أيضاً:\\nrecyceln → recycelt، produzieren → produziert\\n\\nعند استخدامها صفاتٍ، تُصرَّف جميع الأشكال بصورة اعتيادية:\\nder verschmutzte Fluss (حالة الرفع)\\nden verschmutzten Fluss (حالة النصب)\\ndem verschmutzten Fluss (حالة الجر)"
+  },
+  {
+    "english": "German packs modifiers BEFORE the noun, framed between the article and the noun itself.\\n\\n- die [in Berlin lebende] Frau (the woman living in Berlin)\\n- das [von Goethe geschriebene] Buch (the book written by Goethe)\\n- der [seit Wochen geplante] Urlaub (the vacation planned for weeks)\\n\\nHow to read them: find the article, jump to the NOUN, then read everything in between.\\nHow to build them: start with a relative clause, remove the relative pronoun, and place the participle with its ending right before the noun.",
+    "arabic": "تضع الألمانية الموصوفات قبل الاسم مباشرةً، محصورةً بين الأداة والاسم نفسه.\\n\\n- die [in Berlin lebende] Frau (المرأة التي تعيش في برلين)\\n- das [von Goethe geschriebene] Buch (الكتاب الذي كتبه غوته)\\n- der [seit Wochen geplante] Urlaub (الإجازة المخطَّطة منذ أسابيع)\\n\\nكيفية القراءة: ابحث عن الأداة، انتقل إلى الاسم، ثم اقرأ كل ما بينهما.\\nكيفية البناء: ابدأ بجملة وصفية، احذف الضمير الموصول، وضع اسم المفعول مع تصريفه مباشرةً قبل الاسم."
+  },
+  {
+    "english": "English: 'The woman who lives in Berlin'\\nFormal German: 'Die in Berlin lebende Frau'\\n\\nComplex information in a single noun phrase. Standard in academic writing.\\nExtreme examples exist in legal texts.\\nStart simple and build up.\\n\\nPractice converting:\\n'Der Fluss, der verschmutzt ist' = 'Der verschmutzte Fluss'\\n'Das Papier, das recycelt wurde' = 'Das recycelte Papier'\\n'Die Frau, die in Berlin lebt' = 'Die in Berlin lebende Frau'",
+    "arabic": "بالإنجليزية: 'The woman who lives in Berlin'\\nبالألمانية الرسمية: 'Die in Berlin lebende Frau'\\n\\nمعلومات مركّبة في مركّب اسمي واحد. أسلوب معياري في الكتابة الأكاديمية.\\nتوجد أمثلة بالغة التعقيد في النصوص القانونية.\\nابدأ بالبسيط ثم تدرّج.\\n\\nتدرَّب على التحويل:\\n'Der Fluss, der verschmutzt ist' = 'Der verschmutzte Fluss'\\n'Das Papier, das recycelt wurde' = 'Das recycelte Papier'\\n'Die Frau, die in Berlin lebt' = 'Die in Berlin lebende Frau'"
+  },
+  {
+    "english": "Formation: sein + Partizip II\\nPresent: ist geöffnet (is open)\\nPast: war geöffnet (was open)\\n\\nFocus: the STATE or RESULT, not the process.\\n\\nProcess passive (werden): Das Fenster wird geöffnet.\\n(Someone is opening it right now.)\\n\\nState passive (sein): Das Fenster ist geöffnet.\\n(It is in an open state.)",
+    "arabic": "الصياغة: sein + اسم المفعول\\nالمضارع: ist geöffnet (مفتوح)\\nالماضي: war geöffnet (كان مفتوحاً)\\n\\nالتركيز على: الحالة أو النتيجة، لا على العملية.\\n\\nمجهول العملية (werden): Das Fenster wird geöffnet.\\n(شخصٌ ما يفتحه الآن.)\\n\\nمجهول الحالة (sein): Das Fenster ist geöffnet.\\n(الشباك في حالة مفتوحة.)"
+  },
+  {
+    "english": "Many state passive forms look like adjective + sein:\\nDas Geschäft ist geschlossen.\\nDer Kaffee ist gekocht.\\nIst der Kaffee fertig?\\n\\nThe boundary between state passive and adjective is fluid in daily life.\\nFor the exam: focus on the difference werden (process) vs. sein (state).",
+    "arabic": "كثير من أشكال مجهول الحالة تبدو كصفة + sein:\\nDas Geschäft ist geschlossen.\\nDer Kaffee ist gekocht.\\nIst der Kaffee fertig?\\n\\nالحدّ الفاصل بين مجهول الحالة والصفة مرن في الحياة اليومية.\\nللامتحان: ركّز على الفرق بين werden (عملية) و sein (حالة)."
+  },
+  {
+    "english": "Standard passive: Das Buch wird dem Kind geschenkt. (The book is given to the child.)\\nbekommen passive: Das Kind bekommt das Buch geschenkt. (The child gets the book given.)\\n\\nThe RECIPIENT becomes the subject.\\n\\nVery common in spoken German.\\nkriegen works identically: Das Kind kriegt das Buch geschenkt.",
+    "arabic": "المجهول المعتاد: Das Buch wird dem Kind geschenkt. (يُهدى الكتاب للطفل.)\\nمجهول bekommen: Das Kind bekommt das Buch geschenkt. (يحصل الطفل على الكتاب هديةً.)\\n\\nيصبح المتلقّي هنا هو الفاعل.\\n\\nشائع جداً في الألمانية المنطوقة.\\nkriegen يعمل بالطريقة ذاتها: Das Kind kriegt das Buch geschenkt."
+  },
+  {
+    "english": "Use it when you want to emphasize the RECIPIENT.\\nNatural with verbs of giving, sending, and explaining.\\n\\nStandard: Mir wurde geholfen. (I was helped.)\\nbekommen: Ich bekam Hilfe. (I received help.)\\n\\nSome grammarians call it colloquial, but it is standard spoken German.",
+    "arabic": "استخدمه حين تريد التأكيد على المتلقّي.\\nطبيعي مع أفعال الإعطاء والإرسال والشرح.\\n\\nالصيغة المعيارية: Mir wurde geholfen. (لقيتُ مساعدة.)\\nbekommen: Ich bekam Hilfe. (تلقَّيتُ مساعدة.)\\n\\nبعض علماء النحو يعتبرونه عامياً، لكنه معياري في الألمانية المنطوقة."
+  },
+  {
+    "english": "The construction sein plus zu plus infinitive has TWO meanings depending on context:\\n- Possibility: Das ist zu schaffen. (That can be done.)\\n- Necessity: Die Regeln sind zu beachten. (The rules must be followed.)\\n\\nThe suffix -bar works like English -able or -ible:\\n- machbar (doable), lösbar (solvable), essbar (edible)\\n\\nAdding un- negates the meaning: unlösbar, unvorstellbar, unessbar.",
+    "arabic": "تركيب sein + zu + المصدر له معنيان حسب السياق:\\n- الإمكانية: Das ist zu schaffen. (يمكن إنجاز ذلك.)\\n- الضرورة: Die Regeln sind zu beachten. (يجب اتباع القواعد.)\\n\\nاللاحقة -bar تعمل كـ -able أو -ible في الإنجليزية:\\n- machbar (قابل للتنفيذ)، lösbar (قابل للحل)، essbar (صالح للأكل)\\n\\nإضافة un- تعكس المعنى: unlösbar، unvorstellbar، unessbar."
+  },
+  {
+    "english": "Irregular vowel change: a → ä in du/er/sie/es. Past: ließ. Partizip II: gelassen (or lassen with another infinitive).",
+    "arabic": "تغيير حرف علّة غير منتظم: a → ä في ضمائر du/er/sie/es. الماضي: ließ. اسم المفعول: gelassen (أو lassen مع مصدر آخر)."
+  },
+  {
+    "english": "Lassen has three different meanings:\\n\\n1. TO HAVE DONE: etwas machen lassen\\n'Ich lasse mein Auto reparieren.' (I have my car repaired.)\\n'Sie lässt sich die Haare schneiden.' (She has her hair cut.)\\n\\n2. TO ALLOW: jemanden etwas tun lassen\\n'Lass mich erklären!' (Let me explain!)\\n'Er lässt sie gehen.' (He lets her go.)\\n\\n3. TO LEAVE/STOP: aufhören, zurücklassen\\n'Lass das!' (Stop that!)\\n'Ich lasse den Schirm hier.' (I leave the umbrella here.)\\n\\nPassive alternative: sich lassen = can be done\\n'Das lässt sich machen.' (That can be done.)",
+    "arabic": "lassen له ثلاثة معانٍ مختلفة:\\n\\n1. جعل شخصاً آخر يفعل: etwas machen lassen\\n'Ich lasse mein Auto reparieren.' (أتركُ سيارتي للتصليح.)\\n'Sie lässt sich die Haare schneiden.' (تقصّ شعرها عند الحلاق.)\\n\\n2. السماح: jemanden etwas tun lassen\\n'Lass mich erklären!' (دعني أشرح!)\\n'Er lässt sie gehen.' (يتركها تذهب.)\\n\\n3. الترك أو التوقف: aufhören، zurücklassen\\n'Lass das!' (توقّف عن هذا!)\\n'Ich lasse den Schirm hier.' (أترك المظلة هنا.)\\n\\nبديل المجهول: sich lassen = يمكن أن يُفعَل\\n'Das lässt sich machen.' (يمكن إنجاز ذلك.)"
+  },
+  {
+    "english": "In the Perfekt, lassen has two Partizip II forms:\\n\\n1. As a main verb: gelassen\\n'Ich habe den Hund zu Hause gelassen.' (I left the dog at home.)\\n\\n2. With another infinitive: lassen (double infinitive)\\n'Ich habe mein Auto reparieren lassen.' (I had my car repaired.)\\n\\nThe double infinitive construction (two infinitives at the end) is standard in German. It also applies to modal verbs in Perfekt:\\n'Ich habe arbeiten müssen.' (I had to work.)",
+    "arabic": "في زمن Perfekt، لـ lassen شكلان من اسم المفعول:\\n\\n1. كفعل رئيسي: gelassen\\n'Ich habe den Hund zu Hause gelassen.' (تركتُ الكلب في البيت.)\\n\\n2. مع مصدر آخر: lassen (مصدران في النهاية)\\n'Ich habe mein Auto reparieren lassen.' (جعلتُ سيارتي تُصلَّح.)\\n\\nتركيب المصدرين المزدوجين (مصدران في نهاية الجملة) معياري في الألمانية. ينطبق أيضاً على الأفعال الناقصة في Perfekt:\\n'Ich habe arbeiten müssen.' (كان عليّ العمل.)"
+  },
+  {
+    "english": "Wasch (wash) + Mittel (means/agent). Germany has strict\\nWaschmittel regulations. Phosphate bans started here in the 1980s.",
+    "arabic": "Wasch (غسل) + Mittel (وسيلة/عامل). تطبّق ألمانيا لوائح صارمة للـ Waschmittel. بدأت حظر الفوسفات هنا في الثمانينيات."
+  },
+  {
+    "english": "Wasch (wash) + Mittel (means/agent). Detergent. 'Ökologisches Waschmittel' (ecological detergent). Germany has strict Waschmittel regulations. Phosphate bans started here in the 1980s.",
+    "arabic": "Wasch (غسل) + Mittel (وسيلة/عامل). مسحوق الغسيل. 'Ökologisches Waschmittel' (مسحوق غسيل بيئي). تطبّق ألمانيا لوائح صارمة للـ Waschmittel. بدأت حظر الفوسفات هنا في الثمانينيات."
+  },
+  {
+    "english": "From French 'batterie.' Germany collects used Batterien\\nin special green boxes at every supermarket.",
+    "arabic": "من الفرنسية 'batterie'. تجمع ألمانيا البطاريات المستعملة في صناديق خضراء خاصة في كل محلّ تجاري."
+  },
+  {
+    "english": "From French 'batterie.' 'Batterie einlegen' (to insert a battery). 'Aufladbare Batterie' (rechargeable battery). Germany collects used Batterien in special green boxes at every supermarket.",
+    "arabic": "من الفرنسية 'batterie'. 'Batterie einlegen' (وضع البطارية). 'Aufladbare Batterie' (بطارية قابلة للشحن). تجمع ألمانيا البطاريات المستعملة في صناديق خضراء خاصة في كل محلّ تجاري."
+  },
+  {
+    "english": "Feuer (fire) + Zeug (stuff/tool). Fire-tool.\\n'Hast du ein Feuerzeug?' is a classic conversation starter.",
+    "arabic": "Feuer (نار) + Zeug (أداة/شيء). أداة النار. أي الولّاعة.\\n'Hast du ein Feuerzeug?' جملة كلاسيكية لبدء المحادثة."
+  },
+  {
+    "english": "Feuer (fire) + Zeug (stuff/tool). Fire-tool. A lighter. 'Hast du ein Feuerzeug?' is a classic conversation starter. Das Feuerzeug, neuter, like most -zeug compounds.",
+    "arabic": "Feuer (نار) + Zeug (أداة/شيء). أداة النار. الولّاعة. 'Hast du ein Feuerzeug?' جملة كلاسيكية لبدء المحادثة. das Feuerzeug، محايد الجنس، كمعظم المركّبات المنتهية بـ -zeug."
+  },
+  {
+    "english": "Streich (stroke) + Holz (wood). Strike-wood.\\nMore poetic than Feuerzeug: a stick you stroke into flame.",
+    "arabic": "Streich (ضربة/خدش) + Holz (خشب). خشبة الإشعال.\\nأكثر شاعريةً من Feuerzeug: عود تخطّه فيشتعل."
+  },
+  {
+    "english": "Streich (stroke) + Holz (wood). Strike-wood. A match. 'Streichhölzer anzünden' (to light matches). More poetic than Feuerzeug. The image: a stick of wood you stroke into flame.",
+    "arabic": "Streich (ضربة/خدش) + Holz (خشب). خشبة الإشعال. عود الثقاب. 'Streichhölzer anzünden' (إشعال أعواد الثقاب). أكثر شاعريةً من Feuerzeug. الصورة: عود خشبي تخطّه فيشتعل."
+  },
+  {
+    "english": "'Beißzange' (cutting pliers), 'Zuckerzange' (sugar tongs).\\n'Jemanden in die Zange nehmen' means to put the squeeze on someone.",
+    "arabic": "'Beißzange' (كمّاشة القطع)، 'Zuckerzange' (ملقط السكر).\\n'Jemanden in die Zange nehmen' تعني الضغط على شخص ما."
+  },
+  {
+    "english": "'Beißzange' (cutting pliers), 'Zuckerzange' (sugar tongs). 'Jemanden in die Zange nehmen' (to put the squeeze on someone). A gripping tool for work and idioms.",
+    "arabic": "'Beißzange' (كمّاشة القطع)، 'Zuckerzange' (ملقط السكر). 'Jemanden in die Zange nehmen' (الضغط على شخص ما). أداة قبض تصلح للعمل والتعابير المجازية معاً."
+  },
+  {
+    "english": "'Wasserrohr' (water pipe), 'Abflussrohr' (drain pipe).\\nAlso means 'reed' (the plant). Plumbing runs on Rohre.",
+    "arabic": "'Wasserrohr' (أنبوب الماء)، 'Abflussrohr' (أنبوب الصرف).\\nتعني أيضاً 'قصبة' (النبات). تعتمد السباكة على Rohre."
+  },
+  {
+    "english": "'Wasserrohr' (water pipe), 'Abflussrohr' (drain pipe). Also means 'reed' (the plant). 'Rohrleitung' (pipeline). 'Durch die Rohre' means through the pipes. Plumbing runs on Rohre.",
+    "arabic": "'Wasserrohr' (أنبوب الماء)، 'Abflussrohr' (أنبوب الصرف). تعني أيضاً 'قصبة' (النبات). 'Rohrleitung' (خط الأنابيب). 'Durch die Rohre' تعني عبر الأنابيب. تعتمد السباكة على Rohre."
+  },
+  {
+    "english": "Same as English. 'Sandstrand' (sandy beach).\\n'Den Kopf in den Sand stecken' means to bury one's head in the sand.",
+    "arabic": "مماثل للإنجليزية. 'Sandstrand' (شاطئ رملي).\\n'Den Kopf in den Sand stecken' تعني دفن الرأس في الرمال."
+  },
+  {
+    "english": "Same word as English. 'Sandstrand' (sandy beach), 'Sandkasten' (sandbox). 'Den Kopf in den Sand stecken' (to bury one's head in the sand) works identically in both languages.",
+    "arabic": "اللفظة ذاتها كالإنجليزية. 'Sandstrand' (شاطئ رملي)، 'Sandkasten' (صندوق الرمل). 'Den Kopf in den Sand stecken' (دفن الرأس في الرمال) تعمل بالطريقة نفسها في اللغتين."
+  },
+  {
+    "english": "Cognate with English 'stone.' 'Edelstein' (gemstone).\\n'Ein Stein vom Herzen' (relief, literally: a stone off the heart).",
+    "arabic": "مشترك مع الإنجليزية 'stone'. 'Edelstein' (حجر كريم).\\n'Ein Stein vom Herzen' (ارتياح، حرفياً: حجر عن القلب)."
+  },
+  {
+    "english": "Cognate with English 'stone.' 'Ziegelstein' (brick), 'Edelstein' (gemstone). 'Ein Stein vom Herzen' (a stone off the heart) means relief.",
+    "arabic": "مشترك مع الإنجليزية 'stone'. 'Ziegelstein' (طوب)، 'Edelstein' (حجر كريم). 'Ein Stein vom Herzen' (حجر عن القلب) تعني الارتياح."
+  },
+  {
+    "english": "Grund (ground) + Stück (piece). A piece of ground.\\nEvery Grundstück is in the Grundbuch (land registry).",
+    "arabic": "Grund (أرض/أساس) + Stück (قطعة). قطعة أرض.\\nكل Grundstück مسجَّل في Grundbuch (سجل الأراضي)."
+  },
+  {
+    "english": "Grund (ground) + Stück (piece). A piece of ground. Property/plot of land. 'Ein Grundstück kaufen' (to buy a plot). German property law is thorough. Every Grundstück is in the Grundbuch (land registry).",
+    "arabic": "Grund (أرض/أساس) + Stück (قطعة). قطعة أرض. عقار أو قطعة أرض. 'Ein Grundstück kaufen' (شراء قطعة أرض). قانون الملكية الألماني متكامل. كل Grundstück مسجَّل في Grundbuch (سجل الأراضي)."
+  },
+  {
+    "english": "'Den Rasen mähen' (to mow the lawn). 'Betreten des Rasens\\nverboten' (Keep off the grass) is on signs in every German park.",
+    "arabic": "'Den Rasen mähen' (قصّ العشب). 'Betreten des Rasens\\nverboten' (الدخول إلى العشب ممنوع) يُكتَب على لافتات كل حديقة ألمانية."
+  },
+  {
+    "english": "'Den Rasen mähen' (to mow the lawn). 'Betreten des Rasens verboten' (Keep off the grass) is on signs in every German park. Germans take their Rasen seriously.",
+    "arabic": "'Den Rasen mähen' (قصّ العشب). 'Betreten des Rasens verboten' (الدخول إلى العشب ممنوع) يُكتَب على لافتات كل حديقة ألمانية. الألمان يأخذون عشبهم بجدية تامة."
+  },
+  {
+    "english": "From 'flach' (flat). 'Grundfläche' (floor area),\\n'Wasserfläche' (water surface). Measured in Quadratmetern.",
+    "arabic": "من 'flach' (مسطّح). 'Grundfläche' (مساحة الأرضية)،\\n'Wasserfläche' (سطح الماء). تُقاس بالأمتار المربعة."
+  },
+  {
+    "english": "From 'flach' (flat). 'Grundfläche' (floor area), 'Wasserfläche' (water surface). Measured in Quadratmetern. 'Die Fläche Deutschlands' is about 357,000 square kilometers.",
+    "arabic": "من 'flach' (مسطّح). 'Grundfläche' (مساحة الأرضية)، 'Wasserfläche' (سطح الماء). تُقاس بالأمتار المربعة. مساحة ألمانيا تبلغ نحو 357,000 كيلومتر مربع."
+  },
+  {
+    "english": "From 'halb' (half). 'Zur Hälfte' (halfway).\\nEnglish 'half' and German 'Hälfte' share the same Proto-Germanic root.",
+    "arabic": "من 'halb' (نصف). 'Zur Hälfte' (إلى النصف).\\nالإنجليزية 'half' والألمانية 'Hälfte' تشتركان في الجذر الجرماني القديم ذاته."
+  },
+  {
+    "english": "From 'halb' (half). 'Die Hälfte der Bevölkerung' (half the population). 'Zur Hälfte' (halfway). English 'half' and German 'Hälfte' share the same Proto-Germanic root.",
+    "arabic": "من 'halb' (نصف). 'Die Hälfte der Bevölkerung' (نصف السكان). 'Zur Hälfte' (إلى النصف). الإنجليزية 'half' والألمانية 'Hälfte' تشتركان في الجذر الجرماني القديم ذاته."
+  },
+  {
+    "english": "From 'hoch' (high). 'Meereshöhe' (sea level). Also figuratively:\\n'in voller Höhe' (in full amount).",
+    "arabic": "من 'hoch' (مرتفع). 'Meereshöhe' (مستوى سطح البحر). وتُستخدم مجازاً:\\n'in voller Höhe' (بالكامل، أي المبلغ كاملاً)."
+  },
+  {
+    "english": "From 'hoch' (high). 'In der Höhe' (at height). 'Meereshöhe' (sea level). Also figuratively: 'in voller Höhe' (in full amount). The Umlaut ö comes from the adjective hoch.",
+    "arabic": "من 'hoch' (مرتفع). 'In der Höhe' (على الارتفاع). 'Meereshöhe' (مستوى سطح البحر). وتُستخدم مجازاً: 'in voller Höhe' (بالكامل). حرف الأوملاوت ö مستمدّ من الصفة hoch."
+  },
+  {
+    "english": "From 'lang' (long). 'In die Länge ziehen' (to drag out).\\nAdjective to abstract noun via Umlaut: lang becomes Länge.",
+    "arabic": "من 'lang' (طويل). 'In die Länge ziehen' (الإطالة والتمديد).\\nالصفة تصبح اسماً مجرداً عبر الأوملاوت: lang تصبح Länge."
+  },
+  {
+    "english": "From 'lang' (long). 'In die Länge ziehen' (to drag out). 'Wellenlänge' (wavelength). Adjective to abstract noun via Umlaut: lang becomes Länge, just as hoch becomes Höhe.",
+    "arabic": "من 'lang' (طويل). 'In die Länge ziehen' (الإطالة والتمديد). 'Wellenlänge' (الطول الموجي). الصفة تصبح اسماً مجرداً عبر الأوملاوت: lang تصبح Länge، تماماً كما تصبح hoch هو Höhe."
+  },
+  {
+    "english": "An (at) + Zahl (number). More formal than 'Zahl' or 'Nummer.'\\nUsed for countable quantities in statistics.",
+    "arabic": "An (عند) + Zahl (عدد). أكثر رسميةً من 'Zahl' أو 'Nummer'.\\nتُستخدم للكميات القابلة للعدّ في الإحصاء."
+  },
+  {
+    "english": "An (at) + Zahl (number). 'Die Anzahl der Teilnehmer' (the number of participants). More formal than 'Zahl' or 'Nummer.' Used for countable quantities in statistics and reports.",
+    "arabic": "An (عند) + Zahl (عدد). 'Die Anzahl der Teilnehmer' (عدد المشاركين). أكثر رسميةً من 'Zahl' أو 'Nummer'. تُستخدم للكميات القابلة للعدّ في الإحصاءات والتقارير."
+  },
+  {
+    "english": "'Am Rand der Stadt' (on the edge of the city).\\n'Außer Rand und Band' (out of control).",
+    "arabic": "'Am Rand der Stadt' (على حافة المدينة).\\n'Außer Rand und Band' (خارج عن السيطرة)."
+  },
+  {
+    "english": "'Am Rand der Stadt' (on the edge of the city). 'Brillenrand' (frame of glasses). 'Außer Rand und Band' (out of control, literally out of edge and band).",
+    "arabic": "'Am Rand der Stadt' (على حافة المدينة). 'Brillenrand' (إطار النظارة). 'Außer Rand und Band' (خارج عن السيطرة، حرفياً: خارج الحافة والشريط)."
+  },
+  {
+    "english": "Cognate with English 'shadow.' 'Im Schatten sitzen'\\n(to sit in the shade). '30 Grad im Schatten' means it is really hot.",
+    "arabic": "مشترك مع الإنجليزية 'shadow'. 'Im Schatten sitzen'\\n(الجلوس في الظل). '30 Grad im Schatten' تعني الحرارة الشديدة فعلاً."
+  },
+  {
+    "english": "Cognate with English 'shadow' (from 'shade'). 'Im Schatten sitzen' (to sit in the shade). 'Schattenseite' (downside, literally shadow side). '30 Grad im Schatten' means it is really hot.",
+    "arabic": "مشترك مع الإنجليزية 'shadow' (من 'shade'). 'Im Schatten sitzen' (الجلوس في الظل). 'Schattenseite' (الجانب السلبي، حرفياً: الجانب المظلل). '30 Grad im Schatten' تعني الحرارة الشديدة فعلاً."
+  },
+  {
+    "english": "Ver- + packen (to pack). 'Umweltfreundlich verpackt.'\\n'Verpackungsmüll' is a major environmental topic.",
+    "arabic": "Ver- + packen (تعبئة). 'Umweltfreundlich verpackt' (معبَّأ بطريقة صديقة للبيئة).\\n'Verpackungsmüll' (نفايات التغليف) موضوع بيئي كبير."
+  },
+  {
+    "english": "Ver- + packen (to pack). 'Umweltfreundlich verpackt' (packaged in an eco-friendly way). 'Verpackungsmüll' (packaging waste) is a major environmental topic. Germany has strict Verpackungsverordnung.",
+    "arabic": "Ver- + packen (تعبئة). 'Umweltfreundlich verpackt' (معبَّأ بطريقة صديقة للبيئة). 'Verpackungsmüll' (نفايات التغليف) موضوع بيئي كبير. تطبّق ألمانيا لوائح صارمة للتغليف Verpackungsverordnung."
+  },
+  {
+    "english": "Ver- + brauchen (to need). 'Strom verbrauchen.' The ver-\\nprefix means using something until it is gone.",
+    "arabic": "Ver- + brauchen (احتياج). 'Strom verbrauchen' (استهلاك الكهرباء). بادئة ver-\\nتعني استخدام شيء حتى ينفد."
+  },
+  {
+    "english": "Ver- + brauchen (to need). 'Strom verbrauchen' (to use electricity). 'Verbraucher' (consumer). The ver- prefix means using something until it is gone. Completely used up.",
+    "arabic": "Ver- + brauchen (احتياج). 'Strom verbrauchen' (استهلاك الكهرباء). 'Verbraucher' (مستهلك). بادئة ver- تعني استخدام شيء حتى ينفد. استنفاد تام."
+  },
+  {
+    "english": "From 'Kunst' (art/artifice). 'Künstliches Licht' (artificial light).\\n'Künstliche Intelligenz' (artificial intelligence).",
+    "arabic": "من 'Kunst' (فن/صنعة). 'Künstliches Licht' (ضوء اصطناعي).\\n'Künstliche Intelligenz' (ذكاء اصطناعي)."
+  },
+  {
+    "english": "From 'Kunst' (art/artifice). 'Künstliches Licht' (artificial light). 'Künstliche Intelligenz' (artificial intelligence). What Kunst creates is künstlich. Not natural, but made by human skill.",
+    "arabic": "من 'Kunst' (فن/صنعة). 'Künstliches Licht' (ضوء اصطناعي). 'Künstliche Intelligenz' (ذكاء اصطناعي). ما تصنعه Kunst هو künstlich. ليس طبيعياً، بل مصنوع بمهارة الإنسان."
+  },
+  {
+    "english": "Um (around) + Gebung (giving/area). 'Die nahe Umgebung'\\n(the immediate surroundings). What is given around you.",
+    "arabic": "Um (حول) + Gebung (إعطاء/منطقة). 'Die nahe Umgebung'\\n(المحيط المباشر). ما هو معطى حولك."
+  },
+  {
+    "english": "Um (around) + Gebung (giving/area). Surroundings. 'Die nahe Umgebung' (the immediate surroundings). 'In der Umgebung von Berlin' (in the Berlin area). What is given around you.",
+    "arabic": "Um (حول) + Gebung (إعطاء/منطقة). المحيط والبيئة. 'Die nahe Umgebung' (المحيط المباشر). 'In der Umgebung von Berlin' (في منطقة برلين). ما هو معطى حولك."
+  },
+  {
+    "english": "Wetter (weather) + Bericht (report). Germans check the\\nWetterbericht religiously. Rain is always possible.",
+    "arabic": "Wetter (طقس) + Bericht (تقرير). يتابع الألمان الـ Wetterbericht\\nبانتظام دقيق. المطر دائماً ممكن."
+  },
+  {
+    "english": "Wetter (weather) + Bericht (report). 'Den Wetterbericht lesen' (to read the weather report). Germans check the Wetterbericht religiously. Rain is always possible.",
+    "arabic": "Wetter (طقس) + Bericht (تقرير). 'Den Wetterbericht lesen' (قراءة نشرة الطقس). يتابع الألمان الـ Wetterbericht بانتظام دقيق. المطر دائماً ممكن."
+  },
+  {
+    "english": "Wetter + Vorhersage (forecast). Longer and more formal\\nthan Wetterbericht. Used in official contexts.",
+    "arabic": "Wetter + Vorhersage (توقعات). أطول وأكثر رسميةً\\nمن Wetterbericht. تُستخدم في السياقات الرسمية."
+  },
+  {
+    "english": "Wetter + Vorhersage (forecast). 'Laut Wettervorhersage regnet es morgen' (According to the forecast, it rains tomorrow). Longer and more formal than Wetterbericht.",
+    "arabic": "Wetter + Vorhersage (توقعات). 'Laut Wettervorhersage regnet es morgen' (وفقاً للتوقعات، ستمطر غداً). أطول وأكثر رسميةً من Wetterbericht."
+  },
+  {
+    "english": "Cognate with English 'storm.' 'Sturmwarnung' (storm warning).\\nGermany's worst storms come from the North Sea.",
+    "arabic": "مشترك مع الإنجليزية 'storm'. 'Sturmwarnung' (تحذير من العاصفة).\\nأشدّ العواصف في ألمانيا تأتي من بحر الشمال."
+  },
+  {
+    "english": "Cognate with English 'storm.' 'Sturmwarnung' (storm warning). 'Im Sturm erobern' (to take by storm). Germany's worst storms come from the North Sea. Orkan = hurricane-force storm.",
+    "arabic": "مشترك مع الإنجليزية 'storm'. 'Sturmwarnung' (تحذير من العاصفة). 'Im Sturm erobern' (الاقتحام بعنف). أشدّ العواصف في ألمانيا تأتي من بحر الشمال. Orkan = عاصفة بقوة إعصار."
+  },
+  {
+    "english": "Related to the god Thor/Donar. 'Donnerstag' (Thursday) =\\nThor's day. 'Donnerwetter!' is an exclamation of surprise.",
+    "arabic": "مرتبط بالإله ثور/دونار. 'Donnerstag' (الخميس) =\\nyوم ثور. 'Donnerwetter!' تعبير عن الدهشة."
+  },
+  {
+    "english": "Related to the god Thor/Donar. 'Donnerstag' (Thursday) = Thor's day. 'Donnerwetter!' is an exclamation of surprise (literally: thunder weather!). Both languages name Thursday after the thunder god.",
+    "arabic": "مرتبط بالإله ثور/دونار. 'Donnerstag' (الخميس) = يوم ثور. 'Donnerwetter!' تعبير عن الدهشة (حرفياً: طقس الرعد!). تُسمّي اللغتان الخميس باسم إله الرعد."
+  },
+  {
+    "english": "From Italian 'all'arme' (to arms!). 'Feueralarm' (fire alarm),\\n'Alarmstufe rot' (red alert). 'Alarm schlagen' (to sound the alarm).",
+    "arabic": "من الإيطالية 'all'arme' (للسلاح!). 'Feueralarm' (إنذار الحريق)،\\n'Alarmstufe rot' (الإنذار الأحمر). 'Alarm schlagen' (إطلاق صافرة الإنذار)."
+  },
+  {
+    "english": "From Italian 'all'arme' (to arms!). 'Feueralarm' (fire alarm), 'Alarmstufe rot' (red alert). 'Alarm schlagen' (to sound the alarm). International word with military origins.",
+    "arabic": "من الإيطالية 'all'arme' (للسلاح!). 'Feueralarm' (إنذار الحريق)، 'Alarmstufe rot' (الإنذار الأحمر). 'Alarm schlagen' (إطلاق صافرة الإنذار). كلمة دولية ذات أصول عسكرية."
+  },
+  {
+    "english": "From 'stören' (to disturb). Deutsche Bahn's favorite word:\\n'Wegen einer Störung...' (Due to a disruption...).",
+    "arabic": "من 'stören' (إزعاج). الكلمة المفضّلة للسكك الحديدية الألمانية:\\n'Wegen einer Störung...' (بسبب عطل...)."
+  },
+  {
+    "english": "From 'stören' (to disturb). 'Betriebsstörung' (service disruption). Deutsche Bahn's favorite word: 'Wegen einer Störung...' (Due to a disruption...). Every train delay starts here.",
+    "arabic": "من 'stören' (إزعاج). 'Betriebsstörung' (انقطاع الخدمة). الكلمة المفضّلة لـ Deutsche Bahn: 'Wegen einer Störung...' (بسبب عطل...). كل تأخير قطار يبدأ بهذه الكلمة."
+  },
+  {
+    "english": "Unter (under) + stützen (to support). Support from below.\\n'Um Unterstützung bitten' (to ask for support).",
+    "arabic": "Unter (تحت) + stützen (دعم). دعم من الأسفل.\\n'Um Unterstützung bitten' (طلب الدعم)."
+  },
+  {
+    "english": "Unter (under) + stützen (to support). Support from below. 'Finanzielle Unterstützung' (financial support). 'Um Unterstützung bitten' (to ask for support). You hold something up from underneath.",
+    "arabic": "Unter (تحت) + stützen (دعم). دعم من الأسفل. 'Finanzielle Unterstützung' (دعم مالي). 'Um Unterstützung bitten' (طلب الدعم). تُمسك شيئاً من الأسفل لتسنده."
+  },
+  {
+    "english": "Tier (animal) + Park. 'Der Berliner Tierpark' is the largest\\nlandscape zoo in Europe. Emphasizes the park-like setting.",
+    "arabic": "Tier (حيوان) + Park (حديقة). 'Der Berliner Tierpark' أكبر\\nحديقة حيوانات طبيعية في أوروبا. تُبرز الطابع الشبيه بالحديقة."
+  },
+  {
+    "english": "Tier (animal) + Park. 'Der Berliner Tierpark' is the largest landscape zoo in Europe. Different from 'Zoo' (which is also used). Tierpark emphasizes the park-like setting.",
+    "arabic": "Tier (حيوان) + Park (حديقة). 'Der Berliner Tierpark' أكبر حديقة حيوانات طبيعية في أوروبا. تختلف عن 'Zoo' (التي تُستخدم أيضاً). Tierpark تُبرز الطابع الشبيه بالحديقة."
+  },
+  {
+    "english": "Be- + Schaden (damage). 'Der Sturm hat das Dach beschädigt.'\\nRegular verb. The be- prefix makes 'Schaden' transitive.",
+    "arabic": "Be- + Schaden (ضرر). 'Der Sturm hat das Dach beschädigt' (أتلفت العاصفة السقف).\\nفعل منتظم. بادئة be- تجعل 'Schaden' فعلاً متعدياً."
+  },
+  {
+    "english": "Be- + Schaden (damage). 'Der Sturm hat das Dach beschädigt' (The storm damaged the roof). Regular verb. The be- prefix makes 'Schaden' into a transitive verb.",
+    "arabic": "Be- + Schaden (ضرر). 'Der Sturm hat das Dach beschädigt' (أتلفت العاصفة السقف). فعل منتظم. بادئة be- تحوّل 'Schaden' إلى فعل متعدٍّ."
+  },
+  {
+    "english": "Irregular: brannte, gebrannt. Cognate with English 'burn.'\\n'Es brennt!' (It's burning!) is what you shout during a fire.",
+    "arabic": "غير منتظم: brannte، gebrannt. مشترك مع الإنجليزية 'burn'.\\n'Es brennt!' (إنه يشتعل!) هو ما تصرخه أثناء الحريق."
+  },
+  {
+    "english": "Irregular: brannte, gebrannt. Cognate with English 'burn.' 'Es brennt!' (It is burning!) is what you shout during a fire. 'Brennholz' (firewood). 'Brennnessel' (stinging nettle, the burning nettle).",
+    "arabic": "غير منتظم: brannte، gebrannt. مشترك مع الإنجليزية 'burn'. 'Es brennt!' (إنه يشتعل!) هو ما تصرخه أثناء الحريق. 'Brennholz' (حطب). 'Brennnessel' (القريص، أي القراص المحرق)."
+  },
+  {
+    "english": "From Donner. 'Es donnert' (it is thundering).\\nAlso: 'gegen die Tür donnern' (to bang on the door).",
+    "arabic": "من Donner (رعد). 'Es donnert' (الرعد يدوّي).\\nأيضاً: 'gegen die Tür donnern' (الطرق بعنف على الباب)."
+  },
+  {
+    "english": "From Donner. 'Es donnert' (it is thundering). Also: 'gegen die Tür donnern' (to bang on the door). Regular despite its mythological origins. Thor would approve.",
+    "arabic": "من Donner (رعد). 'Es donnert' (الرعد يدوّي). أيضاً: 'gegen die Tür donnern' (الطرق بعنف على الباب). فعل منتظم رغم أصوله الأسطورية. كان ثور سيُقرّ بذلك."
+  },
+  {
+    "english": "From 'Blitz' (lightning). 'Es blitzt' (there is lightning).\\nSpeed cameras are called 'Blitzer' because they flash.",
+    "arabic": "من 'Blitz' (برق). 'Es blitzt' (هناك برق).\\nتُسمّى كاميرات السرعة 'Blitzer' لأنها تومض لحظة الرصد."
+  },
+  {
+    "english": "From 'Blitz' (lightning). 'Es blitzt' (there is lightning). 'Blitzschnell' (lightning fast). Also: speed cameras are called 'Blitzer' because they flash when they catch you.",
+    "arabic": "من 'Blitz' (برق). 'Es blitzt' (هناك برق). 'Blitzschnell' (سريع كالبرق). أيضاً: تُسمّى كاميرات السرعة 'Blitzer' لأنها تومض حين ترصدك."
+  },
+  {
+    "english": "From 'Hagel' (hail). 'Es hagelt' (it is hailing).\\n'Es hagelt Beschwerden' (complaints are hailing down).",
+    "arabic": "من 'Hagel' (برد). 'Es hagelt' (البرد يتساقط).\\n'Es hagelt Beschwerden' (تتهاطل الشكاوى كالبرد)."
+  },
+  {
+    "english": "From 'Hagel' (hail). 'Es hagelt' (it is hailing). Hail can destroy cars, crops, and greenhouse roofs. 'Es hagelt Beschwerden' (complaints are hailing down) is used figuratively.",
+    "arabic": "من 'Hagel' (برد). 'Es hagelt' (البرد يتساقط). البرد يستطيع تدمير السيارات والمحاصيل وأسقف البيوت الزجاجية. 'Es hagelt Beschwerden' (تتهاطل الشكاوى كالبرد) تُستخدم مجازاً."
+  },
+  {
+    "english": "From 'trocken' (dry). 'Wäsche trocknen' (to dry laundry).\\nGermans often air-dry laundry rather than using a dryer.",
+    "arabic": "من 'trocken' (جافّ). 'Wäsche trocknen' (تجفيف الغسيل).\\nكثيراً ما يُجفّف الألمان غسيلهم في الهواء بدلاً من استخدام مُجفّف."
+  },
+  {
+    "english": "From 'trocken' (dry). 'Wäsche trocknen' (to dry laundry). Germans often air-dry laundry rather than using a Trockner (dryer). Energy-saving and laundry-friendly.",
+    "arabic": "من 'trocken' (جافّ). 'Wäsche trocknen' (تجفيف الغسيل). كثيراً ما يُجفّف الألمان غسيلهم في الهواء بدلاً من استخدام Trockner (المُجفّف). موفِّر للطاقة ولطيف على الملابس."
+  },
+  {
+    "english": "'Die Feuerwehr rettet Menschen.' 'Die Umwelt retten.'\\n'Rettungswagen' (ambulance). A verb of heroic action.",
+    "arabic": "'Die Feuerwehr rettet Menschen' (رجال الإطفاء ينقذون الناس). 'Die Umwelt retten' (إنقاذ البيئة).\\n'Rettungswagen' (سيارة الإسعاف). فعل ينطوي على فعل البطولة."
+  },
+  {
+    "english": "'Die Feuerwehr rettet Menschen' (The fire department rescues people). 'Die Umwelt retten' (to save the environment). 'Rettungswagen' (ambulance). A verb of heroic action.",
+    "arabic": "'Die Feuerwehr rettet Menschen' (رجال الإطفاء ينقذون الناس). 'Die Umwelt retten' (إنقاذ البيئة). 'Rettungswagen' (سيارة الإسعاف). فعل ينطوي على فعل البطولة."
+  },
+  {
+    "english": "'Ein steiler Hügel' (a steep hill). 'Steile Karriere'\\n(meteoric career). 'Steile These' (bold claim).",
+    "arabic": "'Ein steiler Hügel' (تلة شديدة الانحدار). 'Steile Karriere'\\n(مسيرة مهنية صاعدة بسرعة). 'Steile These' (ادعاء جريء)."
+  },
+  {
+    "english": "'Ein steiler Hügel' (a steep hill). 'Steile Karriere' (meteoric career). 'Steile These' (bold claim). From physical incline to figurative extremes.",
+    "arabic": "'Ein steiler Hügel' (تلة شديدة الانحدار). 'Steile Karriere' (مسيرة مهنية صاعدة بسرعة). 'Steile These' (ادعاء جريء). من الانحدار الجسدي إلى التطرف المجازي."
+  },
+  {
+    "english": "Same word, same meaning as English. 'Wilde Tiere' (wild animals).\\nGermany has more wild boars than any European country.",
+    "arabic": "اللفظة ذاتها بالمعنى ذاته كالإنجليزية. 'Wilde Tiere' (حيوانات برية).\\nتمتلك ألمانيا أكبر عدد من الخنازير البرية في أوروبا."
+  },
+  {
+    "english": "Same word, same meaning as English. 'Wilde Tiere' (wild animals), 'Wildnis' (wilderness). 'Wildschwein' (wild boar) roam Berlin's suburbs. Germany has more wild boars than any European country.",
+    "arabic": "اللفظة ذاتها بالمعنى ذاته كالإنجليزية. 'Wilde Tiere' (حيوانات برية)، 'Wildnis' (البرية). 'Wildschwein' (خنزير بري) يجوب ضواحي برلين. تمتلك ألمانيا أكبر عدد من الخنازير البرية في أوروبا."
+  },
+  {
+    "english": "More colloquial than Schmutz. 'Im Dreck sitzen' (to be in trouble).\\nNorthern German uses Dreck, southern prefers Schmutz.",
+    "arabic": "أكثر عاميةً من Schmutz. 'Im Dreck sitzen' (الوقوع في ورطة، حرفياً: الجلوس في الوسخ).\\nشمال ألمانيا يستخدم Dreck، والجنوب يُفضّل Schmutz."
+  },
+  {
+    "english": "More colloquial than Schmutz. 'Im Dreck sitzen' (to be in trouble, literally: sitting in dirt). 'Dreckig' (dirty/filthy). Northern German uses Dreck, southern prefers Schmutz.",
+    "arabic": "أكثر عاميةً من Schmutz. 'Im Dreck sitzen' (الوقوع في ورطة، حرفياً: الجلوس في الوسخ). 'Dreckig' (متّسخ/قذر). شمال ألمانيا يستخدم Dreck، والجنوب يُفضّل Schmutz."
+  },
+  {
+    "english": "More formal than Dreck. 'Schmutzig' (dirty).\\n'Schmutzwasser' (dirty water).",
+    "arabic": "أكثر رسميةً من Dreck. 'Schmutzig' (متّسخ).\\n'Schmutzwasser' (الماء القذر)."
+  },
+  {
+    "english": "More formal than Dreck. 'Schmutzig' (dirty). 'Schmutzwasser' (dirty water). The Sch- sound gives it a squelchy feel. German onomatopoeia at work.",
+    "arabic": "أكثر رسميةً من Dreck. 'Schmutzig' (متّسخ). 'Schmutzwasser' (الماء القذر). صوت Sch- يمنحها إحساساً طينياً وبلّلاً. المحاكاة الصوتية الألمانية في أبهى صورها."
+  },
+  {
+    "english": "Cognate with English 'dust' (via different path).\\n'Staubsauger' (vacuum cleaner, literally dust-sucker).",
+    "arabic": "مشترك مع الإنجليزية 'dust' (عبر مسار مختلف).\\n'Staubsauger' (المكنسة الكهربائية، حرفياً: ماصّ الغبار)."
+  },
+  {
+    "english": "Cognate with English 'dust' (via different path). 'Staubsauger' (vacuum cleaner, literally dust-sucker). 'Staub wischen' (to dust). 'Zu Staub werden' (to turn to dust).",
+    "arabic": "مشترك مع الإنجليزية 'dust' (عبر مسار مختلف). 'Staubsauger' (المكنسة الكهربائية، حرفياً: ماصّ الغبار). 'Staub wischen' (مسح الغبار). 'Zu Staub werden' (التحوّل إلى تراب)."
+  },
+  {
+    "english": "Diminutive feel from the -el ending. 'Ameisenhügel' (anthill).\\nGermany is full of Hügel in the Mittelgebirge region.",
+    "arabic": "إيحاء التصغير من اللاحقة -el. 'Ameisenhügel' (تلّة النمل).\\nألمانيا مليئة بالـ Hügel في منطقة Mittelgebirge."
+  },
+  {
+    "english": "Diminutive feel from the -el ending, though not a true diminutive. 'Ameisenhügel' (anthill). Germany's landscape is full of Hügel, especially in the Mittelgebirge region.",
+    "arabic": "إيحاء التصغير من اللاحقة -el، وإن لم تكن تصغيراً حقيقياً. 'Ameisenhügel' (تلّة النمل). طبيعة ألمانيا مليئة بالـ Hügel، لا سيما في منطقة Mittelgebirge."
+  },
+  {
+    "english": "Ge- + Berg (mountain) collective. 'Hochgebirge' (high mountains).\\nThe Ge- prefix creates a collective: many mountains together.",
+    "arabic": "Ge- + Berg (جبل) للجمع الكلّي. 'Hochgebirge' (جبال عالية).\\nبادئة Ge- تُنشئ اسماً جماعياً: جبال كثيرة مجتمعة."
+  },
+  {
+    "english": "Ge- + Berg (mountain) collective. Mountain range. 'Hochgebirge' (high mountains), 'Mittelgebirge' (medium-height mountains). The Ge- prefix creates a collective: many mountains together.",
+    "arabic": "Ge- + Berg (جبل) للجمع الكلّي. سلسلة جبال. 'Hochgebirge' (جبال عالية)، 'Mittelgebirge' (جبال متوسطة الارتفاع). بادئة Ge- تُنشئ اسماً جماعياً: جبال كثيرة مجتمعة."
+  },
+  {
+    "english": "Cognate with English 'dale.' 'Rheintal' (Rhine valley).\\n'Bergauf, bergab, durch jedes Tal.'",
+    "arabic": "مشترك مع الإنجليزية 'dale'. 'Rheintal' (وادي الراين).\\n'Bergauf, bergab, durch jedes Tal' (صعوداً وهبوطاً، عبر كل وادٍ)."
+  },
+  {
+    "english": "Cognate with English 'dale.' 'Rheintal' (Rhine valley), 'Moseltal' (Moselle valley). 'Bergauf, bergab, durch jedes Tal' (uphill, downhill, through every valley).",
+    "arabic": "مشترك مع الإنجليزية 'dale'. 'Rheintal' (وادي الراين)، 'Moseltal' (وادي الموزيل). 'Bergauf, bergab, durch jedes Tal' (صعوداً وهبوطاً، عبر كل وادٍ)."
+  },
+  {
+    "english": "Cognate with English 'moon' and 'month' (Monat).\\nSame root: time was measured by moons. 'Vollmond' (full moon).",
+    "arabic": "مشترك مع الإنجليزية 'moon' و 'month' (Monat).\\nالجذر واحد: كان الزمن يُقاس بالأقمار. 'Vollmond' (بدر تام)."
+  },
+  {
+    "english": "Cognate with English 'moon' and 'month' (Monat). Same root: time was measured by moons. 'Vollmond' (full moon), 'Halbmond' (crescent/half moon). 'Mondschein' (moonshine/moonlight).",
+    "arabic": "مشترك مع الإنجليزية 'moon' و 'month' (Monat). الجذر واحد: كان الزمن يُقاس بالأقمار. 'Vollmond' (بدر تام)، 'Halbmond' (هلال/نصف قمر). 'Mondschein' (ضوء القمر)."
+  },
+  {
+    "english": "Cognate with English 'star' (via Latin 'stella').\\n'Sternschnuppe' (shooting star). Also a famous German news magazine.",
+    "arabic": "مشترك مع الإنجليزية 'star' (عبر اللاتينية 'stella').\\n'Sternschnuppe' (نجم ساقط). وأيضاً اسم مجلة إخبارية ألمانية مشهورة."
+  },
+  {
+    "english": "Cognate with English 'star' (via Latin 'stella'). 'Sternschnuppe' (shooting star, literally star-snip). 'Fünf-Sterne-Hotel' (five-star hotel). Stern is also a famous German news magazine.",
+    "arabic": "مشترك مع الإنجليزية 'star' (عبر اللاتينية 'stella'). 'Sternschnuppe' (نجم ساقط، حرفياً: قصاصة النجم). 'Fünf-Sterne-Hotel' (فندق خمس نجوم). Stern هي أيضاً اسم مجلة إخبارية ألمانية مشهورة."
+  },
+  {
+    "english": "From French 'alarme.' 'Lärmschutz' (noise protection).\\nGermans have strict Ruhezeiten (quiet hours).",
+    "arabic": "من الفرنسية 'alarme'. 'Lärmschutz' (الحماية من الضوضاء).\\nللألمان أوقات صمت صارمة Ruhezeiten."
+  },
+  {
+    "english": "From French 'alarme.' 'Lärm machen' (to make noise). 'Lärmschutz' (noise protection). Germans have strict Ruhezeiten (quiet hours). Lawn mowing on Sunday? That is illegal Lärm.",
+    "arabic": "من الفرنسية 'alarme'. 'Lärm machen' (إحداث ضوضاء). 'Lärmschutz' (الحماية من الضوضاء). للألمان أوقات صمت صارمة Ruhezeiten. قصّ العشب يوم الأحد؟ ذلك ضوضاء مخالفة للقانون."
+  },
+  {
+    "english": "Coined by Dutch chemist Van Helmont in the 1600s from Greek 'chaos.'\\n'Erdgas' (natural gas). 'Gas geben' (to step on the gas).",
+    "arabic": "صاغها الكيميائي الهولندي فان هيلمونت في القرن السابع عشر من اليونانية 'chaos'.\\n'Erdgas' (الغاز الطبيعي). 'Gas geben' (الضغط على البنزين/التسريع)."
+  },
+  {
+    "english": "Coined by Dutch chemist Van Helmont in the 1600s from Greek 'chaos.' 'Erdgas' (natural gas), 'Abgas' (exhaust gas). 'Gas geben' (to step on the gas/accelerate). A Dutch-invented word used worldwide.",
+    "arabic": "صاغها الكيميائي الهولندي فان هيلمونت في القرن السابع عشر من اليونانية 'chaos'. 'Erdgas' (الغاز الطبيعي)، 'Abgas' (عوادم الغاز). 'Gas geben' (الضغط على البنزين/التسريع). كلمة هولندية الاختراع تُستخدم في كل أنحاء العالم."
+  },
+  {
+    "english": "Zer- + stören (to disturb). The zer- prefix means apart/to pieces.\\nStronger than beschädigen (to damage). Total destruction.",
+    "arabic": "Zer- + stören (إزعاج). بادئة zer- تعني التفتيت والتحطيم.\\nأشدّ من beschädigen (إتلاف). دمار تامّ."
+  },
+  {
+    "english": "Zer- + stören (to disturb). The zer- prefix means apart/to pieces. 'Die Umwelt zerstören' (to destroy the environment). Stronger than beschädigen (to damage). Total destruction.",
+    "arabic": "Zer- + stören (إزعاج). بادئة zer- تعني التفتيت والتحطيم. 'Die Umwelt zerstören' (تدمير البيئة). أشدّ من beschädigen (إتلاف). دمار تامّ."
+  },
+  {
+    "english": "Welten (worlds) + weit (wide). A poetic variant of weltweit.\\n'Weltenweite Probleme.' The extra -en- adds a literary tone.",
+    "arabic": "Welten (عوالم) + weit (واسع). متغيّر شعري لـ weltweit.\\n'Weltenweite Probleme' (مشكلات عالمية الامتداد). اللاحقة الزائدة -en- تضفي طابعاً أدبياً."
+  },
+  {
+    "english": "Welten (worlds) + weit (wide). A poetic variant of weltweit. Both are used. 'Weltenweite Probleme' (worldwide problems). The extra -en- adds a literary tone.",
+    "arabic": "Welten (عوالم) + weit (واسع). متغيّر شعري لـ weltweit. كلاهما مستخدم. 'Weltenweite Probleme' (مشكلات عالمية الامتداد). اللاحقة الزائدة -en- تضفي طابعاً أدبياً."
+  },
+  {
+    "english": "Welt + weit. The standard form. 'Weltweit bekannt'\\n(known worldwide). More common than weltenweit.",
+    "arabic": "Welt + weit. الصيغة المعيارية. 'Weltweit bekannt'\\n(معروف في جميع أنحاء العالم). أكثر شيوعاً من weltenweit."
+  },
+  {
+    "english": "Welt + weit. The standard form. 'Weltweit bekannt' (known worldwide). More common than weltenweit in everyday use. 'Weltweit einzigartig' (unique worldwide).",
+    "arabic": "Welt + weit. الصيغة المعيارية. 'Weltweit bekannt' (معروف في جميع أنحاء العالم). أكثر شيوعاً من weltenweit في الاستخدام اليومي. 'Weltweit einzigartig' (فريد من نوعه على مستوى العالم)."
+  },
+  {
+    "english": "From Latin 'centralis.' 'Zentrale Lage' (central location).\\n'Zentralheizung' (central heating).",
+    "arabic": "من اللاتينية 'centralis'. 'Zentrale Lage' (موقع مركزي).\\n'Zentralheizung' (تدفئة مركزية)."
+  },
+  {
+    "english": "From Latin 'centralis.' 'Zentrale Lage' (central location). 'Zentralheizung' (central heating). Every German apartment listing mentions whether it has Zentralheizung.",
+    "arabic": "من اللاتينية 'centralis'. 'Zentrale Lage' (موقع مركزي). 'Zentralheizung' (تدفئة مركزية). كل إعلان شقة ألماني يُشير إلى وجود Zentralheizung من عدمه."
+  },
+  {
+    "english": "From Latin 'protestari' (to declare publicly). 'Klimaprotest.'\\n'Fridays for Future' made Berlin a global protest capital.",
+    "arabic": "من اللاتينية 'protestari' (الإعلان العلني). 'Klimaprotest' (احتجاج مناخي).\\nجعلت حركة 'Fridays for Future' برلين عاصمةً عالميةً للاحتجاجات."
+  },
+  {
+    "english": "From Latin 'protestari' (to declare publicly). 'Klimaprotest' (climate protest). 'Gegen etwas protestieren' (to protest against something). 'Fridays for Future' made Berlin a global protest capital.",
+    "arabic": "من اللاتينية 'protestari' (الإعلان العلني). 'Klimaprotest' (احتجاج مناخي). 'Gegen etwas protestieren' (الاحتجاج ضد شيء ما). جعلت حركة 'Fridays for Future' برلين عاصمةً عالميةً للاحتجاجات."
+  },
+  {
+    "english": "From Latin 'alternare.' 'Alternativlos' was Germany's\\nun-word of the year 2010. Means there is no other option.",
+    "arabic": "من اللاتينية 'alternare'. 'Alternativlos' كانت كلمة العام الأسوأ في ألمانيا\\nعام 2010. تعني: لا خيار آخر."
+  },
+  {
+    "english": "From Latin 'alternare.' 'Eine Alternative finden' (to find an alternative). 'Alternativlos' was Germany's un-word of the year 2010. It means there is no other option.",
+    "arabic": "من اللاتينية 'alternare'. 'Eine Alternative finden' (إيجاد بديل). 'Alternativlos' كانت كلمة العام الأسوأ في ألمانيا عام 2010. تعني: لا خيار آخر."
+  },
+  {
+    "english": "Klima + Anlage (system/facility). Rare in German homes.\\nMost Germans say: open the window. Fresh air beats everything.",
+    "arabic": "Klima + Anlage (نظام/منشأة). نادر في المنازل الألمانية.\\nمعظم الألمان يقولون: افتح النافذة. الهواء النقي يتفوّق على كل شيء."
+  },
+  {
+    "english": "Klima + Anlage (system/facility). Air conditioning. Rare in German homes. 'Brauchen wir eine Klimaanlage?' is the summer debate. Most Germans say no. Open the window.",
+    "arabic": "Klima + Anlage (نظام/منشأة). مكيّف الهواء. نادر في المنازل الألمانية. 'Brauchen wir eine Klimaanlage?' سؤال النقاش الصيفي. معظم الألمان يقولون: لا. افتح النافذة."
+  },
+  {
+    "english": "Her (here/toward) + stellen (to place). The one who places\\nsomething into existence. 'Vom Hersteller empfohlen.'",
+    "arabic": "Her (نحو هنا) + stellen (وضع). من يُوجد شيئاً إلى حيّز الوجود.\\n'Vom Hersteller empfohlen' (موصى به من الشركة المصنّعة)."
+  },
+  {
+    "english": "Her (here/toward) + stellen (to place). Manufacturer. 'Automobilhersteller' (car manufacturer). 'Vom Hersteller empfohlen' (recommended by the manufacturer). The one who places something into existence.",
+    "arabic": "Her (نحو هنا) + stellen (وضع). المصنّع. 'Automobilhersteller' (مصنّع السيارات). 'Vom Hersteller empfohlen' (موصى به من الشركة المصنّعة). من يُوجد شيئاً إلى حيّز الوجود."
+  },
+  {
+    "english": "Feuer (fire) + Wehr (defense). Fire defense. Call 112.\\nGerman volunteer fire departments have 1 million members.",
+    "arabic": "Feuer (نار) + Wehr (دفاع). الدفاع من النار. اتصل بـ 112.\\nتضمّ فرق الإطفاء التطوعية الألمانية مليون عضو."
+  },
+  {
+    "english": "Feuer (fire) + Wehr (defense). Fire defense = fire department. 'Die Feuerwehr rufen' (to call the fire department). Call 112. German volunteer fire departments have 1 million members. Heroes in every village.",
+    "arabic": "Feuer (نار) + Wehr (دفاع). الدفاع من النار = فرقة الإطفاء. 'Die Feuerwehr rufen' (استدعاء الإطفاء). اتصل بـ 112. تضمّ فرق الإطفاء التطوعية الألمانية مليون عضو. أبطال في كل قرية."
+  },
+  {
+    "english": "Umwelt + Verschmutzung (pollution). 22 letters.\\nA compound noun that carries the weight of the problem.",
+    "arabic": "Umwelt + Verschmutzung (تلوث). 22 حرفاً.\\nاسم مركّب يحمل ثقل المشكلة برمّتها."
+  },
+  {
+    "english": "Umwelt + Verschmutzung (pollution). Environmental pollution. 22 letters. A compound noun that carries the weight of the problem. 'Umweltverschmutzung reduzieren' (to reduce environmental pollution).",
+    "arabic": "Umwelt + Verschmutzung (تلوث). التلوث البيئي. 22 حرفاً. اسم مركّب يحمل ثقل المشكلة برمّتها. 'Umweltverschmutzung reduzieren' (الحدّ من التلوث البيئي)."
+  },
+  {
+    "english": "From 'zünden' (to ignite). 'Zündstoff' (explosive material,\\nalso figuratively: a hot topic). The dating app is named after this concept.",
+    "arabic": "من 'zünden' (الإشعال). 'Zündstoff' (مادة متفجرة،\\nومجازاً: موضوع ساخن). تطبيق المواعدة Tinder مُسمَّى على هذا المفهوم."
+  },
+  {
+    "english": "From 'zünden' (to ignite). 'Zündstoff' (explosive material, also figuratively: a hot topic). The dating app Tinder is named after this concept: something that ignites.",
+    "arabic": "من 'zünden' (الإشعال). 'Zündstoff' (مادة متفجرة، ومجازاً: موضوع ساخن). تطبيق المواعدة Tinder مُسمَّى على هذا المفهوم: شيء يشتعل."
+  },
+  {
+    "english": "Zünd (ignite) + Holz (wood). Synonym of Streichholz.\\nSouthern German prefers Zündholz, northern prefers Streichholz.",
+    "arabic": "Zünd (إشعال) + Holz (خشب). مرادف لـ Streichholz.\\nجنوب ألمانيا يُفضّل Zündholz، والشمال يُفضّل Streichholz."
+  },
+  {
+    "english": "Zünd (ignite) + Holz (wood). A match. Synonym of Streichholz. Southern German prefers Zündholz, northern prefers Streichholz. Same object, regional word choice.",
+    "arabic": "Zünd (إشعال) + Holz (خشب). عود ثقاب. مرادف لـ Streichholz. جنوب ألمانيا يُفضّل Zündholz، والشمال يُفضّل Streichholz. الشيء ذاته، اختيار إقليمي في التسمية."
+  },
+  {
+    "english": "From Latin 'forma.' 'In Form' (in shape/fit).\\n'Die Form wahren' (to keep up appearances).",
+    "arabic": "من اللاتينية 'forma'. 'In Form' (في حالة جيدة/لياقة).\\n'Die Form wahren' (الحفاظ على المظاهر)."
+  },
+  {
+    "english": "From Latin 'forma.' 'In Form' (in shape/fit), 'Formular' (form to fill out). 'Die Form wahren' (to keep up appearances). A word that spans fitness, bureaucracy, and etiquette.",
+    "arabic": "من اللاتينية 'forma'. 'In Form' (في حالة جيدة/لياقة)، 'Formular' (استمارة للملء). 'Die Form wahren' (الحفاظ على المظاهر). كلمة تمتدّ عبر اللياقة والبيروقراطية وآداب السلوك."
+  },
+  {
+    "english": "Unter (under) + stützen (to prop up). To support from below.\\n'Die Regierung unterstützt erneuerbare Energien.'",
+    "arabic": "Unter (تحت) + stützen (دعم/إسناد). الدعم من الأسفل.\\n'Die Regierung unterstützt erneuerbare Energien' (تدعم الحكومة الطاقات المتجددة)."
+  },
+  {
+    "english": "Unter (under) + stützen (to prop up). To support from below. 'Erneuerbare Energien unterstützen' (to support renewable energies). Regular verb. Related to Unterstützung (support, the noun).",
+    "arabic": "Unter (تحت) + stützen (دعم/إسناد). الدعم من الأسفل. 'Erneuerbare Energien unterstützen' (دعم الطاقات المتجددة). فعل منتظم. مرتبط بـ Unterstützung (الدعم، الاسم)."
+  },
+  {
+    "english": "Ent- (away from) + sorgen (to care). To dispose of.\\nThe ent- prefix removes the care: you send it away.",
+    "arabic": "Ent- (بعيداً عن) + sorgen (الاهتمام). التخلّص من.\\nبادئة ent- تُزيل الاهتمام: ترسلها بعيداً."
+  },
+  {
+    "english": "Ent- (away from) + sorgen (to care). To dispose of. 'Müll entsorgen' (to dispose of trash). 'Sondermüll entsorgen' (to dispose of hazardous waste). The ent- prefix removes the care: you send it away.",
+    "arabic": "Ent- (بعيداً عن) + sorgen (الاهتمام). التخلّص من. 'Müll entsorgen' (التخلّص من النفايات). 'Sondermüll entsorgen' (التخلّص من النفايات الخطرة). بادئة ent- تُزيل الاهتمام: ترسلها بعيداً."
+  },
+  {
+    "english": "Takes dative. 'Der Umwelt schaden' (to harm the environment).\\n'Rauchen schadet der Gesundheit.' Also a noun: der Schaden.",
+    "arabic": "يأخذ حالة المفعول به غير المباشر (دايتيف). 'Der Umwelt schaden' (الإضرار بالبيئة).\\n'Rauchen schadet der Gesundheit' (التدخين يضرّ بالصحة). وأيضاً اسم: der Schaden (الضرر)."
+  },
+  {
+    "english": "'Der Umwelt schaden' (to harm the environment). Takes dative. 'Rauchen schadet der Gesundheit' (Smoking damages health). Also a noun: der Schaden (the damage).",
+    "arabic": "'Der Umwelt schaden' (الإضرار بالبيئة). يأخذ حالة الدايتيف. 'Rauchen schadet der Gesundheit' (التدخين يضرّ بالصحة). وأيضاً اسم: der Schaden (الضرر)."
+  },
+  {
+    "english": "Ver- + groß (big). 'Das Bild vergrößern' (to enlarge the image).\\nThe opposite: verkleinern (to make smaller).",
+    "arabic": "Ver- + groß (كبير). 'Das Bild vergrößern' (تكبير الصورة).\\nالعكس: verkleinern (التصغير)."
+  },
+  {
+    "english": "Ver- + groß (big). 'Das Bild vergrößern' (to enlarge the image). 'Den Abstand vergrößern' (to increase the distance). The opposite: verkleinern (to make smaller).",
+    "arabic": "Ver- + groß (كبير). 'Das Bild vergrößern' (تكبير الصورة). 'Den Abstand vergrößern' (زيادة المسافة). العكس: verkleinern (التصغير)."
+  },
+  {
+    "english": "Ver- + brennen. Irregular: verbrannte, verbrannt.\\nThe ver- prefix means to completion: burned up entirely.",
+    "arabic": "Ver- + brennen. غير منتظم: verbrannte، verbrannt.\\nبادئة ver- تعني الاكتمال: احتراق تامّ."
+  },
+  {
+    "english": "Ver- + brennen. Irregular: verbrannte, verbrannt. 'Müll verbrennen' (to incinerate trash). 'Sich verbrennen' (to burn oneself). The ver- prefix means to completion: burned up entirely.",
+    "arabic": "Ver- + brennen. غير منتظم: verbrannte، verbrannt. 'Müll verbrennen' (حرق النفايات). 'Sich verbrennen' (حرق النفس). بادئة ver- تعني الاكتمال: احتراق تامّ."
+  },
+  {
+    "english": "From Greek 'elektron' (amber). 'Elektrisch' (electric),\\n'Elektronik' (electronics), 'Elektrizität' (electricity).",
+    "arabic": "من اليونانية 'elektron' (الكهرمان). 'Elektrisch' (كهربائي)،\\n'Elektronik' (إلكترونيات)، 'Elektrizität' (كهرباء)."
+  },
+  {
+    "english": "From Greek 'elektron' (amber). 'Elektrisch' (electric), 'Elektronik' (electronics), 'Elektrizität' (electricity). The elektr- base forms adjectives and abstract nouns about electricity.",
+    "arabic": "من اليونانية 'elektron' (الكهرمان). 'Elektrisch' (كهربائي)، 'Elektronik' (إلكترونيات)، 'Elektrizität' (كهرباء). قاعدة elektr- تُشكّل الصفات والأسماء المجردة المتعلقة بالكهرباء."
+  },
+  {
+    "english": "'Elektroauto' (electric car), 'Elektroherd' (electric stove).\\nGermany's Elektromobilität push aims for 15 million e-cars by 2030.",
+    "arabic": "'Elektroauto' (سيارة كهربائية)، 'Elektroherd' (موقد كهربائي).\\nتهدف مبادرة ألمانيا في Elektromobilität إلى 15 مليون سيارة كهربائية بحلول 2030."
+  },
+  {
+    "english": "'Elektroauto' (electric car), 'Elektroherd' (electric stove), 'Elektrogerät' (electrical device). Germany's Elektromobilität (e-mobility) push aims for 15 million e-cars by 2030.",
+    "arabic": "'Elektroauto' (سيارة كهربائية)، 'Elektroherd' (موقد كهربائي)، 'Elektrogerät' (جهاز كهربائي). تهدف مبادرة Elektromobilität الألمانية (التنقل الكهربائي) إلى 15 مليون سيارة كهربائية بحلول 2030."
+  },
+  {
+    "english": "From Greek 'oikos' (house/household). 'Ökologie' (ecology),\\n'Ökostrom' (green electricity). 'Öko' by itself is slang for environmentalist.",
+    "arabic": "من اليونانية 'oikos' (البيت/المنزل). 'Ökologie' (علم البيئة)،\\n'Ökostrom' (الكهرباء الخضراء). 'Öko' بمفردها عامية تعني ناشطاً بيئياً."
+  },
+  {
+    "english": "From Greek 'oikos' (house/household). 'Ökologie' (ecology), 'Ökostrom' (green electricity), 'Ökosystem' (ecosystem). The prefix that turns everything green. 'Öko' by itself is slang for an environmentalist.",
+    "arabic": "من اليونانية 'oikos' (البيت/المنزل). 'Ökologie' (علم البيئة)، 'Ökostrom' (الكهرباء الخضراء)، 'Ökosystem' (النظام البيئي). البادئة التي تُحوّل كل شيء إلى أخضر. 'Öko' بمفردها عامية تعني ناشطاً بيئياً."
+  },
+  {
+    "english": "'Überdurchschnittlich' (above average), 'überall' (everywhere),\\n'übertreiben' (to exaggerate). The most productive German prefix.",
+    "arabic": "'Überdurchschnittlich' (فوق المتوسط)، 'überall' (في كل مكان)،\\n'übertreiben' (المبالغة). البادئة الأكثر إنتاجيةً في اللغة الألمانية."
+  },
+  {
+    "english": "'Überdurchschnittlich' (above average), 'überall' (everywhere), 'übertreiben' (to exaggerate). The most productive German prefix. It intensifies everything it touches.",
+    "arabic": "'Überdurchschnittlich' (فوق المتوسط)، 'überall' (في كل مكان)، 'übertreiben' (المبالغة). البادئة الأكثر إنتاجيةً في اللغة الألمانية. تُكثّف كل شيء تلامسه."
+  },
+  {
+    "english": "Germany's environmental awareness is deeply rooted.\\n\\nPfand: bottle deposit. 25 cents for plastic, 8 cents for glass. Return rate: 98%.\\nMülltrennung: at least four bins. Neighbors will correct you.\\nEnergiewende: the switch to renewable energy. Target: 80% by 2030.\\nBio: Bio-Produkte hold large market shares. The Bio-Siegel is trusted.\\n\\nWhen Mia says 'Du bist ein richtiger Berliner geworden,' she means more than geography. Separating waste, saving energy, returning bottles: these are acts of belonging.",
+    "arabic": "الوعي البيئي في ألمانيا متجذّر في أعماق الثقافة.\\n\\nPfand: وديعة الزجاجات. 25 سنتاً للبلاستيك، 8 سنتات للزجاج. نسبة الإرجاع: 98%.\\nMülltrennung: أربعة صناديق على الأقل. الجيران سيصحّحون لك إن أخطأت.\\nEnergiewende: التحوّل إلى الطاقات المتجددة. الهدف: 80% بحلول 2030.\\nBio: منتجات Bio تحتلّ حصصاً كبيرة في السوق. Bio-Siegel علامة موثوقة.\\n\\nحين تقول Mia 'Du bist ein richtiger Berliner geworden'، تعني أكثر من الانتماء الجغرافي. فرز النفايات وتوفير الطاقة وإعادة الزجاجات: هذه أفعال الانتماء."
+  },
+  {
+    "english": "Germany's relationship with nature has deep cultural roots. The Romantic movement (18th-19th century) celebrated forests and landscapes. The Wandervogel youth movement (1896) promoted hiking and outdoor life.\\n\\nToday, this manifests as:\\n- The Green Party (Die Grünen): part of multiple federal governments\\n- Pfandsystem: 98% bottle return rate\\n- Energiewende: the most ambitious energy transition in the world\\n- Organic food market: largest in Europe\\n\\nFor immigrants, adopting environmental habits becomes a marker of cultural integration. When Mia says Verumius is a 'richtiger Berliner,' his environmental behavior is the proof.",
+    "arabic": "علاقة ألمانيا بالطبيعة تمتدّ جذورها عميقاً في ثقافتها. احتفت الحركة الرومانسية (القرنان الثامن عشر والتاسع عشر) بالغابات والطبيعة. وروّجت حركة شباب Wandervogel (1896) للمشي وحياة الهواء الطلق.\\n\\nيتجلّى ذلك اليوم في:\\n- حزب الخضر (Die Grünen): شريك في حكومات اتحادية عديدة\\n- نظام Pfand: نسبة إرجاع الزجاجات 98%\\n- Energiewende: أطموح تحوّل طاقوي في العالم\\n- سوق الغذاء العضوي: الأكبر في أوروبا\\n\\nبالنسبة للمهاجرين، يصبح تبنّي العادات البيئية علامةً على الاندماج الثقافي. حين تصف Mia فيروميوس بـ 'richtiger Berliner'، فإن سلوكه البيئي هو الدليل."
+  }
+]

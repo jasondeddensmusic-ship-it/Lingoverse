@@ -1,0 +1,3447 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Verumius stands before his colleagues and gives a presentation. In German. His topic: sustainability in the office. Time to learn the most important environmental words."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn 18 key vocabulary words related to the environment and climate"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Follow Verumius through his first presentation in German"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Understand trends and statistics on the topic of sustainability"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "One year in Berlin. Verumius stands before his colleagues and gives a presentation. In German. Mia sits in the second row, nodding encouragingly. His topic: sustainability in the office."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "the environment"
+  },
+  {
+    "line": 11,
+    "field": "note",
+    "english": "Um (around) + Welt (world). Everything that surrounds you.\\nGermans rank environmental protection as a top political priority."
+  },
+  {
+    "line": 11,
+    "field": "exampleSrc",
+    "english": "A: What is important to you?\\nB: The environment is very important to me.\\nA: What do you do for the environment?\\nB: I separate my trash and save electricity."
+  },
+  {
+    "line": 11,
+    "field": "funFact",
+    "english": "Um (around) + Welt (world). The world around you. Germans rank environmental protection as a top political priority. The Umwelt is not just nature. It is everything that surrounds you."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "environmental protection"
+  },
+  {
+    "line": 12,
+    "field": "note",
+    "english": "Umwelt + Schutz (protection). Germany pioneered the Green Party in 1980.\\nEmbedded in Article 20a of the German constitution."
+  },
+  {
+    "line": 12,
+    "field": "exampleSrc",
+    "english": "A: What does environmental protection mean to you?\\nB: Less plastic, more recycling.\\nA: Is environmental protection important in Germany?\\nB: Yes, it is even in the constitution."
+  },
+  {
+    "line": 12,
+    "field": "funFact",
+    "english": "Umwelt + Schutz (protection). Germany pioneered the Green Party (Die Grünen) in 1980. Umweltschutz is embedded in Article 20a of the German constitution."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "energy"
+  },
+  {
+    "line": 13,
+    "field": "note",
+    "english": "From Greek 'energeia' (activity). The Energiewende aims to\\nphase out nuclear and fossil fuels in Germany."
+  },
+  {
+    "line": 13,
+    "field": "exampleSrc",
+    "english": "A: Where does our energy come from?\\nB: More and more from wind and sun.\\nA: And the rest?\\nB: Still from coal and gas, unfortunately."
+  },
+  {
+    "line": 13,
+    "field": "funFact",
+    "english": "From Greek 'energeia' (activity). 'Erneuerbare Energie' (renewable energy) is Germany's obsession. The Energiewende (energy transition) aims to phase out nuclear and fossil fuels."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "the climate"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "From Greek 'klima' (inclination/region). Neuter.\\n'Klimawandel' (climate change) dominates German news."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: What is the climate like in Germany?\\nB: Mild, but it is changing.\\nA: Climate change?\\nB: Yes, the summers are getting hotter."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Greek 'klima' (inclination/region). 'Klimawandel' (climate change) and 'Klimaschutz' (climate protection) dominate German news. 'Klimaneutral' is the target."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "electricity"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Also means 'stream' or 'current.' From the flowing motion.\\n'Ökostrom' (green electricity) is a real product you can buy."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: How much electricity do we use?\\nB: Too much. We need to save.\\nA: Do we have green electricity?\\nB: Yes, since last year."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Electricity' AND 'stream/current.' From the flowing motion of electric current. 'Ökostrom' (green electricity) is a real product you can buy. 'Der Strom fließt' works for rivers and wires."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "the air"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Cognate with English 'loft' (high air). 'Frische Luft' is\\na German prescription for everything."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: The air here is not good.\\nB: Yes, too many cars.\\nA: Get some fresh air!\\nB: Good idea. I'll go to the park."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "Cognate with English 'loft' (high air). 'Frische Luft' (fresh air) is a German prescription for everything. Feeling tired? 'Geh an die frische Luft!' Air quality is a major environmental metric."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "the ground, soil, floor"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Triple meaning: 'fruchtbarer Boden' (fertile soil),\\n'Erdboden' (ground), 'Fußboden' (floor)."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: The soil here is very fertile.\\nB: Yes, perfect for vegetables.\\nA: And the floor in the office?\\nB: That needs to stay clean too!"
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Triple meaning. 'Fruchtbarer Boden' (fertile soil), 'Erdboden' (ground), 'Fußboden' (floor). Related to English 'bottom.' The foundation of everything."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "the earth, soil"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Both the planet and the dirt. Cognate with English 'earth.'\\n'Die Erde dreht sich' (the earth turns)."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: The earth is our only planet.\\nB: That's why we have to protect it.\\nA: What is in the soil?\\nB: Seeds, roots, and minerals."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Both the planet and the dirt. Cognate with English 'earth.' 'Die Erde dreht sich' (the earth turns). 'In der Erde' (in the soil). Like English, one word for planet and ground."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "the temperature"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From Latin 'temperatura.' Germany uses Celsius.\\n30+ degrees is a heatwave. Most homes have no AC."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: What is the temperature today?\\nB: 35 degrees! Way too hot.\\nA: That is extreme for Germany.\\nB: Yes, it used to be rare."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From Latin 'temperatura.' Germany uses Celsius. 0 degrees is freezing, 20 is comfortable, 30+ is a heatwave. Germans panic at 35 degrees because most homes have no air conditioning."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "the heat"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "From 'heiß' (hot). 'Hitzewelle' (heatwave).\\nGermany's record: 42.6 degrees Celsius in 2019."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: This heat is unbearable!\\nB: Yes, 40 degrees in the shade.\\nA: Do you have air conditioning?\\nB: No, you normally don't need it here."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "From 'heiß' (hot). 'Hitzewelle' (heatwave). Germany's record: 42.6 degrees Celsius in 2019. 'Vor Hitze umkommen' (to perish from heat) is how Germans describe summer."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "the control, check, inspection"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "From French 'contrôle.' 'Qualitätskontrolle' (quality control),\\n'Passkontrolle' (passport check)."
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: We need more control.\\nB: Over energy consumption?\\nA: Yes, and over exhaust fumes.\\nB: Control is the first step."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "From French 'contrôle.' 'Qualitätskontrolle' (quality control), 'Passkontrolle' (passport check). Germans love Kontrolle in all forms. Ordnung muss sein."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "the system"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "From Greek 'systema.' Neuter. 'Das Pfandsystem' is world-famous.\\nGermany recycles 70%+ of packaging."
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: The deposit system works well.\\nB: Yes, Germany recycles almost everything.\\nA: Do we need a better system?\\nB: For plastic, yes, definitely."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "From Greek 'systema.' 'Das Pfandsystem' (deposit system) is world-famous. Germany recycles 70%+ of packaging. The system works because it is a System."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "statistics"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "From Latin 'statisticum' (of the state). Originally meant state data.\\n'Laut Statistik' (according to statistics)."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: According to statistics, the temperature is rising.\\nB: How much per year?\\nA: On average 0.3 degrees.\\nB: That sounds little, but it is a lot."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "From Latin 'statisticum' (of the state). Originally meant state data. 'Laut Statistik' (according to statistics) is how German presentations begin. Germans trust numbers."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "the average"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Durch (through) + Schnitt (cut). A cut through the middle.\\n'Im Durchschnitt' (on average)."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: What is the average?\\nB: On average 20 degrees.\\nA: And this year?\\nB: Above average, unfortunately."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "Durch (through) + Schnitt (cut). A cut through the middle. The average. 'Im Durchschnitt' (on average). Literally slicing through data to find the middle. German compound logic at its finest."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "to rise, to climb"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Irregular: stieg, gestiegen. 'Die Temperaturen steigen.'\\n'Einsteigen' (to board), 'aussteigen' (to exit)."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: The prices are rising again.\\nB: Yes, and the temperatures too.\\nA: Is the sea level also rising?\\nB: Unfortunately yes, every year."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Irregular: stieg, gestiegen. 'Die Temperaturen steigen' (temperatures are rising). 'Einsteigen' (to board), 'aussteigen' (to exit). A verb of upward motion in every context."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "to sink, to fall, to decrease"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Irregular: sank, gesunken. 'Die Kosten sinken.'\\nCognate with English 'sink.' The opposite of steigen."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Is energy consumption decreasing?\\nB: Yes, slowly.\\nA: And the costs?\\nB: Those are unfortunately not decreasing."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "Irregular: sank, gesunken. 'Die Kosten sinken' (costs are falling). Cognate with English 'sink.' The opposite of steigen. These two verbs describe every graph."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "to reduce"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "From Latin 'reducere.' The -ieren ending marks a borrowed verb.\\nRegular conjugation. International and professional."
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: We need to reduce electricity consumption.\\nB: By how many percent?\\nA: By at least 30 percent.\\nB: That is a lot, but doable."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From Latin 'reducere.' The -ieren ending marks a borrowed verb. 'Emissionen reduzieren' (to reduce emissions). Regular conjugation. International and professional."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "extreme, extremely"
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From Latin 'extremus.' Functions as both adjective and\\nintensifying adverb. 'Extrem wichtig' (extremely important)."
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: The weather is extremely hot.\\nB: Yes, 42 degrees is extreme.\\nA: Is that normal?\\nB: No, that is extremely unusual."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From Latin 'extremus.' 'Extreme Hitze' (extreme heat), 'extrem wichtig' (extremely important). Functions as both adjective and intensifying adverb. Germans use it like English 'extremely.'"
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "The rising temperatures are a problem for everyone. On average our office uses 30 percent more electricity than necessary. We can reduce that."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "Applause from the second row. Mia claps first. A year ago he could barely place a coffee order. Today he gives a presentation about climate protection. In German."
+  },
+  {
+    "line": 31,
+    "field": "hint",
+    "english": "This word also means 'stream' or 'current.' It flows through cables."
+  },
+  {
+    "line": 32,
+    "field": "hint",
+    "english": "Which verb means 'to rise'? The temperatures go up, not down."
+  },
+  {
+    "line": 32,
+    "field": "sSrc",
+    "english": "The temperatures rise every year."
+  },
+  {
+    "line": 39,
+    "field": "src",
+    "english": "Silence in the room. Then applause. Not perfect, not flawless. But in German. An entire presentation in German. Verumius breathes out. The first step is taken."
+  },
+  {
+    "line": 42,
+    "field": "desc",
+    "english": "Waste separation, recycling, materials, and trade. Today you expand your environmental vocabulary."
+  },
+  {
+    "line": 43,
+    "field": "unknown",
+    "english": "Learn vocabulary for waste and recycling"
+  },
+  {
+    "line": 44,
+    "field": "unknown",
+    "english": "Understand vocabulary for materials and trade"
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Build your environmental toolkit"
+  },
+  {
+    "line": 47,
+    "field": "src",
+    "english": "In the office kitchen, Verumius stands in front of four different trash bins. Yellow, blue, brown, black. A year ago he would have thrown everything in one. Today he sorts automatically. Lukas watches and shakes his head."
+  },
+  {
+    "line": 48,
+    "field": "src",
+    "english": "the waste, garbage"
+  },
+  {
+    "line": 48,
+    "field": "note",
+    "english": "Ab (off/away) + Fall (fall). Something that falls away.\\n'Abfall trennen' (to separate waste) is a German commandment."
+  },
+  {
+    "line": 48,
+    "field": "exampleSrc",
+    "english": "A: Where does the garbage go?\\nB: In the right bin, of course.\\nA: And if you don't separate the waste?\\nB: Then the neighbors get annoyed."
+  },
+  {
+    "line": 48,
+    "field": "funFact",
+    "english": "Ab (off/away) + Fall (fall). Something that falls away, waste. 'Abfall trennen' (to separate waste) is a German commandment. Every German household sorts into at least four bins."
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "the trash can"
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Abfall + Eimer (bucket). Germans have color-coded bins:\\nyellow for packaging, blue for paper, brown for organic."
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: Where is the trash can?\\nB: In the kitchen, next to the fridge.\\nA: Which trash can for plastic?\\nB: The yellow one. Always the yellow one."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "Abfall + Eimer (bucket). Waste bucket. Germans have color-coded Abfalleimer: yellow for packaging, blue for paper, brown for organic. Putting wrong items in the wrong bin is a social crime."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "garbage collection"
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Müll (trash) + Abfuhr (removal). In Germany, you pay\\nper kilogram of trash. Less waste means lower bills."
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: When does garbage collection come?\\nB: Mondays for residual waste.\\nA: And for paper?\\nB: Every other Wednesday."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "Müll (trash) + Abfuhr (removal). 'Die Müllabfuhr kommt montags' (The garbage truck comes on Mondays). In Germany, you pay per kilogram of trash. Less waste means lower bills."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "the wheelie bin"
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "Müll + Tonne (barrel/bin). Every German address has\\nMülltonnen in four colors. Wrong sorting is a social crime."
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: The wheelie bin is full.\\nB: Which one? The yellow or the blue one?\\nA: The brown one. Too much organic waste.\\nB: Then we need to compost."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "Müll + Tonne (barrel/bin). Every German address has Mülltonnen in four colors. Putting the wrong item in the wrong Tonne is a social crime that neighbors will correct."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "plastic"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "From Greek 'plastikos' (moldable). Neuter.\\nGermany banned single-use plastic bags in 2022."
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: Is that made of plastic?\\nB: Yes, unfortunately. Too much plastic.\\nA: Is there an alternative?\\nB: Yes, made of glass or wood."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "From Greek 'plastikos' (moldable). Germany banned single-use plastic bags in 2022. 'Plastikfrei' (plastic-free) is a lifestyle movement. The Pfand system tackles plastic bottles."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "plastic (formal), synthetic material"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Kunst (art/artificial) + Stoff (material). The formal word\\nfor plastic. Preferred in industry and science."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: Is that Plastik or Kunststoff?\\nB: That is the same thing. Kunststoff is more formal.\\nA: What is 'Kunststoffverpackung'?\\nB: Packaging made of plastic. For the yellow bin."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Kunst (art/artificial) + Stoff (material). Literally 'artificial material.' The formal German word for plastic. 'Kunststoffverpackung' (plastic packaging). More technical than Plastik, preferred in industry."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "wood"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "Cognate with English 'holt' (a small wood). 'Aus Holz' (made of wood).\\nThe Black Forest is 60% of Baden-Württemberg's area."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: What is this table made of?\\nB: Wood. Solid oak wood.\\nA: Wood is sustainable, right?\\nB: Yes, if it comes from sustainable forestry."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "Cognate with English 'holt' (a small wood). 'Aus Holz' (made of wood). Germany's Black Forest (Schwarzwald) covers 60% of Baden-Württemberg. 'Holz hacken' (to chop wood) is a German weekend activity."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "metal"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "From Greek 'metallon' (mine/quarry). Neuter.\\nGermany recycles 93% of metal packaging."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: Is that made of metal?\\nB: Yes, aluminum.\\nA: Does that go in the yellow bin?\\nB: Yes, metal belongs with packaging waste."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "From Greek 'metallon' (mine/quarry). Neuter. 'Altmetall' (scrap metal). Germany recycles 93% of metal packaging. 'Schwermetall' means both heavy metal (chemistry) and heavy metal (music)."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "material"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Latin 'materialis.' Neuter. Plural: Materialien.\\n'Baumaterial' (building material), 'Rohmaterial' (raw material)."
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: What material is that?\\nB: Recycled material.\\nA: What material is your bag made of?\\nB: From recycled synthetic material."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Latin 'materialis.' Neuter. 'Baumaterial' (building material), 'Rohmaterial' (raw material). International word, same in dozens of languages. Plural: Materialien."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "material, fabric, substance"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Triple meaning: 'Rohstoff' (raw material), 'Baumwollstoff'\\n(cotton fabric), 'Unterrichtsstoff' (lesson material)."
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: What kind of material is that?\\nB: Cotton. A natural material.\\nA: Is plastic also a material?\\nB: Yes, an artificial material."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "Triple meaning. 'Rohstoff' (raw material), 'Werkstoff' (working material), 'Baumwollstoff' (cotton fabric). Also: 'Unterrichtsstoff' (lesson material). Anything that constitutes something."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "goods, merchandise"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "'Waren' (goods, plural). 'Warenhaus' (department store).\\nRelated to English 'ware' (as in hardware, silverware)."
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Where do these goods come from?\\nB: From China. Most goods come from there.\\nA: Are there local goods?\\nB: Yes, at the organic market."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Waren' (goods, plural). 'Hardware' and 'Software' were borrowed back from English. 'Warenhaus' (department store). Related to English 'ware' (as in hardware, silverware)."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "trade, commerce"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "From 'handeln' (to trade/act). 'Einzelhandel' (retail),\\n'Großhandel' (wholesale), 'Außenhandel' (foreign trade)."
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: Trade with China is growing.\\nB: And fair trade?\\nA: That is growing too, but more slowly.\\nB: Trade is important for the economy."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "From 'handeln' (to trade/act). 'Einzelhandel' (retail), 'Großhandel' (wholesale), 'Außenhandel' (foreign trade). 'Fair Handel' (fair trade) is a growing movement."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "dealer, trader"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "From Handel. 'Autohändler' (car dealer),\\n'Buchhändler' (bookseller). The -er suffix creates the agent."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Do you know a good trader?\\nB: Yes, the trader at the weekly market.\\nA: What does the trader sell?\\nB: Fruit and vegetables from the region."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "From Handel. 'Autohändler' (car dealer), 'Buchhändler' (bookseller). The -er suffix creates the person who does the action. A Händler handles Handel."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "dealer, trader (female)"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "The feminine form. Händler + -in.\\nGerman consistently creates feminine forms with -in."
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: The female trader at the market is nice.\\nB: Yes, she sells organic products.\\nA: Is the trader there every day?\\nB: Only on Tuesdays and Saturdays."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "The feminine form. Händler + -in. 'Die Händlerin auf dem Markt' (the female trader at the market). German consistently creates feminine forms with -in for person nouns."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "Verumius, you threw a banana peel in the residual waste. One. Banana peel. That goes in the brown bin. Do you want the neighbor lady to write another note?"
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "export"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Latin 'exportare' (to carry out). 'Made in Germany'\\nis the world's most trusted export label."
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: What is Germany's biggest export?\\nB: Cars, machines, and chemicals.\\nA: Is export important?\\nB: Yes, it drives the economy."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Latin 'exportare' (to carry out). 'Made in Germany' is the world's most trusted export label. Germany is the third-largest exporter globally. Cars, machines, chemicals."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "import"
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "From Latin 'importare' (to carry in). The opposite of Export.\\nGermany imports energy, raw materials, and coffee."
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: What does Germany import?\\nB: A lot of energy and raw materials.\\nA: And coffee?\\nB: Yes, Germany is Europe's biggest coffee consumer."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From Latin 'importare' (to carry in). The opposite of Export. 'Importware' (imported goods). Germany imports energy, raw materials, and coffee. Germans are Europe's biggest coffee drinkers."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "industry"
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "From Latin 'industria' (diligence). 'Schwerindustrie'\\n(heavy industry). 'Industrie 4.0' is Germany's digital strategy."
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: Industry uses a lot of energy.\\nB: Yes, especially heavy industry.\\nA: Is there green industry?\\nB: Yes, more and more companies are becoming sustainable."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From Latin 'industria' (diligence). 'Schwerindustrie' (heavy industry). Germany's Ruhrgebiet was Europe's industrial heart. 'Industrie 4.0' is Germany's digital manufacturing strategy."
+  },
+  {
+    "line": 66,
+    "field": "src",
+    "english": "production"
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "From Latin 'productio.' The -tion ending is always feminine\\nin German and always stressed on the last syllable."
+  },
+  {
+    "line": 66,
+    "field": "exampleSrc",
+    "english": "A: Production is going well.\\nB: Yes, but it uses a lot of electricity.\\nA: Can we switch the production?\\nB: To renewable energy, yes."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "From Latin 'productio.' 'Massenproduktion' (mass production). 'Die Produktion einstellen' (to stop production). The -tion ending is always feminine in German and always stressed on the last syllable."
+  },
+  {
+    "line": 67,
+    "field": "src",
+    "english": "to produce"
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "The -ieren verb from Produktion. Regular conjugation.\\n'In Deutschland produziert' (produced in Germany)."
+  },
+  {
+    "line": 67,
+    "field": "exampleSrc",
+    "english": "A: What does this factory produce?\\nB: Solar panels. All ecological.\\nA: Do they also produce for export?\\nB: Yes, worldwide."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "The -ieren verb from Produktion. Regular conjugation. 'In Deutschland produziert' (produced in Germany). 'Überproduzieren' (to overproduce). Reliable borrowed verb."
+  },
+  {
+    "line": 68,
+    "field": "src",
+    "english": "alternative"
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "From Latin 'alternare.' 'Alternative Energien' (alternative energies).\\n'Die Alternative' (noun) means the alternative option."
+  },
+  {
+    "line": 68,
+    "field": "exampleSrc",
+    "english": "A: Are there alternative energies?\\nB: Yes, wind and sun.\\nA: Are alternative materials more expensive?\\nB: Sometimes, but they are better for the environment."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "From Latin 'alternare.' 'Alternative Energien' (alternative energies), 'alternative Medizin' (alternative medicine). 'Die Alternative' (the noun) means the alternative option."
+  },
+  {
+    "line": 69,
+    "field": "src",
+    "english": "the yellow recycling bin"
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "For packaging waste (Verpackung): plastic, aluminum, tetra paks.\\nPart of Germany's Duales System (recycling system)."
+  },
+  {
+    "line": 69,
+    "field": "exampleSrc",
+    "english": "A: Where does the yogurt cup go?\\nB: In the yellow bin.\\nA: And the newspaper?\\nB: In the blue bin. Paper is blue."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "Germany's color-coded bin system: Gelbe Tonne (packaging), Blaue Tonne (paper), Braune Tonne (organic), Schwarze Tonne (residual waste). Getting it wrong can earn you a stern lecture from your neighbors."
+  },
+  {
+    "line": 70,
+    "field": "hint",
+    "english": "Which color bin is for Verpackung and Kunststoff? Not blue (paper) and not brown (organic)."
+  },
+  {
+    "line": 71,
+    "field": "hint",
+    "english": "What material is a table usually made of? Think of trees."
+  },
+  {
+    "line": 71,
+    "field": "sSrc",
+    "english": "This table is made of wood."
+  },
+  {
+    "line": 78,
+    "field": "src",
+    "english": "Four bins, four colors, zero mistakes. Mia would be proud. Lukas calls me the trash dictator. I take that as a compliment."
+  },
+  {
+    "line": 81,
+    "field": "desc",
+    "english": "Remember Unit 4? Verumius stood helplessly in front of the Pfandautomat. Today he is a pro. Along the way, learn an important grammar point: Partizip I as adjective."
+  },
+  {
+    "line": 82,
+    "field": "unknown",
+    "english": "Learn 18 words about danger, protection, and research"
+  },
+  {
+    "line": 83,
+    "field": "unknown",
+    "english": "Understand Partizip I as adjective (die steigende Temperatur)"
+  },
+  {
+    "line": 84,
+    "field": "unknown",
+    "english": "See how far Verumius has come since Unit 4"
+  },
+  {
+    "line": 86,
+    "field": "src",
+    "english": "REWE, Wednesday morning. Verumius feeds six bottles into the deposit machine. Without hesitating, without thinking. A year ago he stood helplessly in front of this very machine. Today the laughing Verumius collects his receipt and walks to the checkout."
+  },
+  {
+    "line": 87,
+    "field": "src",
+    "english": "exhaust gas, emission"
+  },
+  {
+    "line": 87,
+    "field": "note",
+    "english": "Ab (away) + Gas. The gas that goes away from the engine.\\n'Abgasnormen' (emission standards) are strict in Germany."
+  },
+  {
+    "line": 87,
+    "field": "exampleSrc",
+    "english": "A: The exhaust fumes here are terrible.\\nB: Yes, too many cars.\\nA: Do we have to reduce emissions?\\nB: Absolutely. For better air."
+  },
+  {
+    "line": 87,
+    "field": "funFact",
+    "english": "Ab (away) + Gas. Exhaust gas. 'Autoabgase' (car exhaust fumes). The word says what it is: gas that goes away from the engine. 'Abgasnormen' (emission standards) are strict in Germany."
+  },
+  {
+    "line": 88,
+    "field": "src",
+    "english": "danger"
+  },
+  {
+    "line": 88,
+    "field": "note",
+    "english": "'In Gefahr' (in danger). 'Lebensgefahr' (mortal danger).\\nFrom Old High German 'fara' (ambush)."
+  },
+  {
+    "line": 88,
+    "field": "exampleSrc",
+    "english": "A: Is that a danger for the environment?\\nB: Yes, a big danger.\\nA: How big is the danger?\\nB: Very big. We need to act."
+  },
+  {
+    "line": 88,
+    "field": "funFact",
+    "english": "From Old High German 'fara' (ambush). 'In Gefahr' (in danger). 'Lebensgefahr' (mortal danger). 'Gefährlich' (dangerous). Danger originally meant an unexpected attack."
+  },
+  {
+    "line": 89,
+    "field": "src",
+    "english": "catastrophe, disaster"
+  },
+  {
+    "line": 89,
+    "field": "note",
+    "english": "From Greek 'katastrophe' (overturning). Germans say\\n'Das ist eine Katastrophe!' for any major problem."
+  },
+  {
+    "line": 89,
+    "field": "exampleSrc",
+    "english": "A: The flood was a catastrophe.\\nB: Yes, a natural disaster.\\nA: Are there more catastrophes than before?\\nB: Yes, because of climate change."
+  },
+  {
+    "line": 89,
+    "field": "funFact",
+    "english": "From Greek 'katastrophe' (overturning). 'Naturkatastrophe' (natural disaster), 'Umweltkatastrophe' (environmental disaster). Germans say 'Das ist eine Katastrophe!' for any major problem, from floods to late trains."
+  },
+  {
+    "line": 90,
+    "field": "src",
+    "english": "crisis"
+  },
+  {
+    "line": 90,
+    "field": "note",
+    "english": "From Greek 'krisis' (decision/turning point). A Krise is\\na turning point, not necessarily the end."
+  },
+  {
+    "line": 90,
+    "field": "exampleSrc",
+    "english": "A: We have a climate crisis.\\nB: And an energy crisis.\\nA: Every crisis is also an opportunity.\\nB: True. We need to change."
+  },
+  {
+    "line": 90,
+    "field": "funFact",
+    "english": "From Greek 'krisis' (decision/turning point). 'Klimakrise' (climate crisis), 'Wirtschaftskrise' (economic crisis). A Krise is a turning point, not necessarily the end. It demands a decision."
+  },
+  {
+    "line": 91,
+    "field": "src",
+    "english": "protection"
+  },
+  {
+    "line": 91,
+    "field": "note",
+    "english": "From 'schützen' (to protect). 'Umweltschutz,' 'Datenschutz,'\\n'Mutterschutz.' Germans protect everything with a compound."
+  },
+  {
+    "line": 91,
+    "field": "exampleSrc",
+    "english": "A: Environmental protection is important.\\nB: And data protection too.\\nA: What is maternity protection?\\nB: Protection for pregnant women at work."
+  },
+  {
+    "line": 91,
+    "field": "funFact",
+    "english": "From 'schützen' (to protect). 'Umweltschutz' (environmental protection), 'Datenschutz' (data protection), 'Mutterschutz' (maternity protection). Germans protect everything with a compound."
+  },
+  {
+    "line": 92,
+    "field": "src",
+    "english": "safety, security"
+  },
+  {
+    "line": 92,
+    "field": "note",
+    "english": "From 'sicher' (safe/certain). The -heit suffix creates abstract nouns.\\n'Verkehrssicherheit' (traffic safety)."
+  },
+  {
+    "line": 92,
+    "field": "exampleSrc",
+    "english": "A: Safety at the workplace is important.\\nB: Yes, safety comes first.\\nA: What does food safety mean?\\nB: That our food is safe."
+  },
+  {
+    "line": 92,
+    "field": "funFact",
+    "english": "From 'sicher' (safe/certain). 'Verkehrssicherheit' (traffic safety), 'Lebensmittelsicherheit' (food safety). The -heit suffix creates abstract nouns. Sicher + heit = the state of being safe."
+  },
+  {
+    "line": 93,
+    "field": "src",
+    "english": "research"
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "From 'forschen' (to research). Germany spends 3%+ of GDP\\non Forschung. The Fraunhofer institutes are world-famous."
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: Climate research is crucial.\\nB: Yes, without research no solutions.\\nA: Who funds the research?\\nB: Mostly the state and industry."
+  },
+  {
+    "line": 93,
+    "field": "funFact",
+    "english": "From 'forschen' (to research). 'Klimaforschung' (climate research), 'Grundlagenforschung' (basic research). Germany spends 3%+ of GDP on Forschung. The Fraunhofer institutes are world-famous."
+  },
+  {
+    "line": 94,
+    "field": "src",
+    "english": "demand, requirement"
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "From 'fordern' (to demand). Not to be confused with 'fördern'\\n(to promote/support). One Umlaut changes everything."
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: The demand for climate protection is growing.\\nB: Yes, people are demanding change.\\nA: What is the most important demand?\\nB: Fewer emissions by 2030."
+  },
+  {
+    "line": 94,
+    "field": "funFact",
+    "english": "From 'fordern' (to demand). Not to be confused with 'fördern' (to promote/support). One Umlaut changes demand into support. 'Die Forderung nach Klimaschutz' (the demand for climate protection)."
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "survey, poll"
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Um (around) + Frage (question). Asking around.\\n'Laut einer Umfrage' (according to a survey)."
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: According to a survey, 90% of Germans recycle.\\nB: That doesn't surprise me.\\nA: What else does the survey say?\\nB: That climate protection is priority number one."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "Um (around) + Frage (question). Asking around. A survey or poll. 'Laut einer Umfrage' (according to a survey). Germans love Umfragen. Every news broadcast cites one."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "to protect"
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "'Die Umwelt schützen' (to protect the environment).\\n'Sich schützen' (to protect oneself). Regular verb."
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: How can we protect the environment?\\nB: Use less plastic.\\nA: And how do you protect yourself from the heat?\\nB: I stay in the shade."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "'Die Umwelt schützen' (to protect the environment). 'Sich schützen' (to protect oneself). Regular verb. The ü-Umlaut gives it its distinctive German sound."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "to warn"
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Cognate with English 'warn.' 'Vor Gefahr warnen'\\n(to warn of danger). Regular verb."
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: I warn you about the heat.\\nB: Thanks, I'll bring water.\\nA: The weather service warns of a storm.\\nB: Then I'd rather stay home."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "Cognate with English 'warn.' 'Vor Gefahr warnen' (to warn of danger). 'Unwetterwarnung' (severe weather warning). Regular verb. The Wetter-App sends Warnungen constantly."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "to demand"
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "No Umlaut. Different from 'fördern' (to support).\\n'Wir fordern Klimaschutz' (We demand climate protection)."
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: The demonstrators demand climate protection.\\nB: What exactly do they demand?\\nA: Fewer emissions and more renewable energy.\\nB: That is a legitimate demand."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "Different from 'fördern' (to support). No Umlaut here. 'Wir fordern Klimaschutz' (We demand climate protection). Regular verb. The missing dots change the meaning completely."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "to avoid"
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "Irregular: vermied, vermieden. 'Plastik vermeiden' (to avoid plastic).\\nThe ver- prefix intensifies 'meiden' (to shun)."
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: How can you avoid plastic?\\nB: Use cloth bags.\\nA: Can you completely avoid waste?\\nB: Not entirely, but reduce it significantly."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "Irregular: vermied, vermieden. 'Plastik vermeiden' (to avoid plastic). 'Fehler vermeiden' (to avoid mistakes). The ver- prefix intensifies 'meiden' (to shun)."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "to cause"
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "Ver- + Ursache (cause). 'Abgase verursachen Luftverschmutzung.'\\nThe compound logic: to cause = to make into a cause."
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: What causes the air pollution?\\nB: Mainly exhaust fumes.\\nA: Does plastic also cause problems?\\nB: Yes, especially in the sea."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "Ver- + Ursache (cause). 'Abgase verursachen Luftverschmutzung' (Exhaust fumes cause air pollution). Regular verb. The compound logic: to cause = to make into a cause."
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "to pollute, to dirty"
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Ver- + Schmutz (dirt). 'Die Luft verschmutzen' (to pollute the air).\\nVer- often means 'to make into' something."
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: Cars pollute the air.\\nB: And factories pollute the water.\\nA: Who pollutes the most?\\nB: Industry, according to statistics."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "Ver- + Schmutz (dirt). 'Die Luft verschmutzen' (to pollute the air). 'Umweltverschmutzung' (environmental pollution). Ver- often means 'to make into' something."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "toxic, poisonous"
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "From 'Gift' (poison). False friend: English 'gift' = present.\\nGerman 'Gift' = poison. Nobody's present."
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: Is that toxic?\\nB: Yes, very toxic. Don't touch!\\nA: Toxic waste is dangerous.\\nB: That's why there is hazardous waste."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "From 'Gift' (poison). 'Giftige Chemikalien' (toxic chemicals). Fun false friend: English 'gift' = present. German 'Gift' = poison. 'Giftmüll' (toxic waste) is nobody's present."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "ecological"
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "From Greek 'oikos' (house) + 'logos' (study). Often shortened to\\n'öko-' as prefix: 'Ökostrom' (green electricity)."
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: Is this product ecological?\\nB: Yes, 100 percent ecological.\\nA: What does 'ecological' mean exactly?\\nB: Produced in an environmentally friendly way."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "From Greek 'oikos' (house) + 'logos' (study). 'Ökologischer Landbau' (organic farming). Often shortened to 'öko-' as a prefix: 'Ökostrom' (green electricity)."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "thrifty, economical"
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "From 'sparen' (to save). Germans consider Sparsamkeit\\n(thriftiness) a virtue. Being sparsam is a compliment."
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Are you economical with water?\\nB: Yes, I only shower for five minutes.\\nA: That is very economical.\\nB: Being thrifty is good for the environment."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "From 'sparen' (to save). 'Sparsam mit Wasser umgehen' (to use water sparingly). Germans consider Sparsamkeit (thriftiness) a virtue. Being sparsam is a compliment."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "The cashier looks at Verumius. 'You sort better than most Germans,' she says. Verumius beams. That is the most beautiful compliment he has ever received in this country."
+  },
+  {
+    "line": 106,
+    "field": "text",
+    "english": "German can turn any verb into an adjective describing an ongoing action. Formation: infinitive + d.\\n\\nsteigen (to rise) becomes steigend (rising)\\nlachen (to laugh) becomes lachend (laughing)\\nwachsen (to grow) becomes wachsend (growing)\\n\\nThen it declines like a normal adjective:\\n- der steigende Preis (the rising price)\\n- die wachsende Gefahr (the growing danger)\\n- ein sinkendes Schiff (a sinking ship)\\n\\nLike English: 'the laughing man' = 'der lachende Mann.' Same logic, same word order. Partizip I always describes an ongoing action."
+  },
+  {
+    "line": 106,
+    "field": "text",
+    "english": "The Partizip I is formed by adding -d to the infinitive. It always describes an ongoing action happening at the same time as the main verb.\\n\\nImportant: The Partizip I is used primarily as an adjective in German. Unlike English, you cannot use it to form progressive tenses ('I am running'). German says 'Ich laufe' (I run/am running).\\n\\nAs an adjective, it declines normally:\\n- der lachende Mann (nominative masculine)\\n- die lachenden Männer (nominative plural)\\n- mit steigendem Interesse (dative neuter)\\n\\nAs an adverb, it has no ending: 'Er ging lachend weg' (He left laughing)."
+  },
+  {
+    "line": 107,
+    "field": "hint",
+    "english": "Steigen means 'to rise.' The -d ending plus an adjective ending describes an ongoing action."
+  },
+  {
+    "line": 108,
+    "field": "hint",
+    "english": "Which noun means 'danger'? Something that grows and threatens."
+  },
+  {
+    "line": 108,
+    "field": "sSrc",
+    "english": "The growing danger from exhaust fumes is a serious problem."
+  },
+  {
+    "line": 109,
+    "field": "hint",
+    "english": "Take the infinitive and add -d. The formation is always the same."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "Six bottles, one euro fifty deposit. I still remember my first day at the deposit machine. Today? Today I am the deposit master."
+  },
+  {
+    "line": 113,
+    "field": "desc",
+    "english": "Today you learn two powerful grammar tools: Partizip II as adjective (das recycelte Papier) and lassen as causative verb (Ich lasse mein Auto reparieren)."
+  },
+  {
+    "line": 114,
+    "field": "unknown",
+    "english": "Understand Partizip II as adjective (der gelesene Brief)"
+  },
+  {
+    "line": 115,
+    "field": "unknown",
+    "english": "Learn lassen in three meanings: causative, permissive, and imperative"
+  },
+  {
+    "line": 116,
+    "field": "unknown",
+    "english": "Combine all three new grammar constructs"
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "Verumius, your presentation yesterday was impressive. But today is about grammar. You want to sound like a Berliner? Then you need to be able to tell the polluted air from the polluting factory apart."
+  },
+  {
+    "line": 119,
+    "field": "src",
+    "english": "factory"
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "From Latin 'fabrica' (workshop). Many old Fabriken are\\nnow museums or cultural centers in the Ruhrgebiet."
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: What does this factory produce?\\nB: Solar panels.\\nA: Is the factory environmentally friendly?\\nB: Yes, it uses only green electricity."
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "From Latin 'fabrica' (workshop). 'Chemiefabrik' (chemical factory), 'Autofabrik' (car factory). The Ruhrgebiet had thousands. Many are now museums or cultural centers."
+  },
+  {
+    "line": 120,
+    "field": "src",
+    "english": "power plant"
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "Kraft (power) + Werk (work/plant). Germany is shutting down\\nnuclear Kraftwerke and building wind and solar ones."
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: What is a power plant?\\nB: A facility that produces electricity.\\nA: Coal power plant or wind power plant?\\nB: Wind power plants are better for the environment."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "Kraft (power) + Werk (work/plant). 'Atomkraftwerk' (nuclear power plant), 'Kohlekraftwerk' (coal power plant). Germany is shutting down nuclear ones."
+  },
+  {
+    "line": 121,
+    "field": "src",
+    "english": "facility, plant, installation"
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "From 'anlegen' (to lay out). 'Solaranlage' (solar installation),\\n'Kläranlage' (water treatment plant). Context determines meaning."
+  },
+  {
+    "line": 121,
+    "field": "exampleSrc",
+    "english": "A: What is a solar installation?\\nB: A facility that converts sunlight into electricity.\\nA: Do you have one on the roof?\\nB: Yes, for two years."
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "From 'anlegen' (to lay out). 'Solaranlage' (solar installation), 'Kläranlage' (water treatment plant), 'Geldanlage' (financial investment). Context determines which meaning."
+  },
+  {
+    "line": 122,
+    "field": "src",
+    "english": "advertising"
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "From 'werben' (to advertise/court). 'Keine Werbung!'\\non German mailboxes means no junk mail."
+  },
+  {
+    "line": 122,
+    "field": "exampleSrc",
+    "english": "A: Advertising everywhere!\\nB: Yes, too much advertising.\\nA: No advertising please.\\nB: Write that on your mailbox."
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "From 'werben' (to advertise/court). 'Werbung machen' (to advertise). 'Keine Werbung!' on German mailboxes means no junk mail. Werbung is both the industry and the ads."
+  },
+  {
+    "line": 123,
+    "field": "src",
+    "english": "advertising (informal/pejorative)"
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "From French 'réclame.' Slightly old-fashioned or pejorative.\\nUsed for flashy or aggressive ads."
+  },
+  {
+    "line": 123,
+    "field": "exampleSrc",
+    "english": "A: What is the difference between Werbung and Reklame?\\nB: Reklame sounds more negative.\\nA: Like 'cheap advertising'?\\nB: Exactly. Werbung is more neutral."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "From French 'réclame.' Advertising, but slightly old-fashioned or pejorative. 'Reklame machen' sounds less professional than 'Werbung machen.' Used for flashy or aggressive ads."
+  },
+  {
+    "line": 124,
+    "field": "src",
+    "english": "brand, stamp"
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "'Briefmarke' (postage stamp), 'Automarke' (car brand).\\n'Deutsche Marken' are globally trusted."
+  },
+  {
+    "line": 124,
+    "field": "exampleSrc",
+    "english": "A: What brand is that?\\nB: A German brand.\\nA: German brands are popular.\\nB: Yes, known and trusted worldwide."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "'Briefmarke' (postage stamp), 'Automarke' (car brand). 'Deutsche Marken' are globally trusted. The word comes from 'markieren' (to mark). A brand marks its products."
+  },
+  {
+    "line": 125,
+    "field": "src",
+    "english": "model"
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "From Italian 'modello.' Neuter. 'Geschäftsmodell' (business model),\\n'Automodell' (car model)."
+  },
+  {
+    "line": 125,
+    "field": "exampleSrc",
+    "english": "A: What model is your car?\\nB: An electric model.\\nA: This model is good for the environment.\\nB: Yes, zero emissions."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "From Italian 'modello.' Neuter. 'Geschäftsmodell' (business model), 'Automodell' (car model). 'Ein Modell für Nachhaltigkeit' (a model for sustainability)."
+  },
+  {
+    "line": 126,
+    "field": "src",
+    "english": "factor"
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "From Latin 'factor' (maker). 'Ein wichtiger Faktor.'\\nInternational word, same in most European languages."
+  },
+  {
+    "line": 126,
+    "field": "exampleSrc",
+    "english": "A: What is the most important factor?\\nB: Energy consumption.\\nA: Are there other factors?\\nB: Yes, transport and production."
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "From Latin 'factor' (maker). 'Ein wichtiger Faktor' (an important factor). 'Risikofaktor' (risk factor). International word, same in most European languages."
+  },
+  {
+    "line": 127,
+    "field": "src",
+    "english": "step, level, stage"
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "'Vorstufe' (preliminary stage), 'Entwicklungsstufe'\\n(development stage). Also literally a stair step."
+  },
+  {
+    "line": 127,
+    "field": "exampleSrc",
+    "english": "A: What level are we at?\\nB: Level two of five.\\nA: Watch out, step!\\nB: Thanks, almost tripped."
+  },
+  {
+    "line": 127,
+    "field": "funFact",
+    "english": "'Vorstufe' (preliminary stage), 'Entwicklungsstufe' (development stage). Also literally a stair step. 'Vorsicht, Stufe!' (Watch out, step!) is on signs everywhere."
+  },
+  {
+    "line": 128,
+    "field": "src",
+    "english": "net, network"
+  },
+  {
+    "line": 128,
+    "field": "note",
+    "english": "Cognate with English 'net.' 'Stromnetz' (power grid),\\n'Ins Netz gehen' means to go online or to fall into a trap."
+  },
+  {
+    "line": 128,
+    "field": "exampleSrc",
+    "english": "A: The power grid is overloaded.\\nB: Too many air conditioners.\\nA: We need a better grid.\\nB: Yes, for green electricity."
+  },
+  {
+    "line": 128,
+    "field": "funFact",
+    "english": "Cognate with English 'net.' 'Internet' (internet), 'Stromnetz' (power grid). 'Ins Netz gehen' (to go into the net) means to go online. Also: to fall into a trap."
+  },
+  {
+    "line": 129,
+    "field": "src",
+    "english": "network"
+  },
+  {
+    "line": 129,
+    "field": "note",
+    "english": "Netz + Werk (work). 'Soziales Netzwerk' (social network).\\nGermans turned 'Netzwerken' into a verb for professional networking."
+  },
+  {
+    "line": 129,
+    "field": "exampleSrc",
+    "english": "A: Do you have a good network?\\nB: Yes, professionally and privately.\\nA: Networking is important.\\nB: Especially in the environmental sector."
+  },
+  {
+    "line": 129,
+    "field": "funFact",
+    "english": "Netz + Werk (work). 'Soziales Netzwerk' (social network). 'Ein Netzwerk aufbauen' (to build a network). Professional networking is 'Netzwerken.' Germans turned it into a verb."
+  },
+  {
+    "line": 130,
+    "field": "src",
+    "english": "technology, technique"
+  },
+  {
+    "line": 130,
+    "field": "note",
+    "english": "From Greek 'techne' (art/skill). Emphasizes practical application.\\n'Informationstechnik' (IT)."
+  },
+  {
+    "line": 130,
+    "field": "exampleSrc",
+    "english": "A: What technology do you use?\\nB: Modern solar technology.\\nA: Technik or Technologie?\\nB: Technik is more practical, Technologie more theoretical."
+  },
+  {
+    "line": 130,
+    "field": "funFact",
+    "english": "From Greek 'techne' (art/skill). 'Spitzentechnik' (cutting-edge technology). 'Informationstechnik' (IT). 'Technik' emphasizes practical application, 'Technologie' the science."
+  },
+  {
+    "line": 131,
+    "field": "src",
+    "english": "technology (scientific)"
+  },
+  {
+    "line": 131,
+    "field": "note",
+    "english": "Technik + -logie (study of). More academic than Technik.\\nThe -ie ending is always stressed."
+  },
+  {
+    "line": 131,
+    "field": "exampleSrc",
+    "english": "A: Environmental technology is the future.\\nB: Yes, biotechnology too.\\nA: What is the difference from Technik?\\nB: Technologie is more scientific."
+  },
+  {
+    "line": 131,
+    "field": "funFact",
+    "english": "Technik + -logie (study of). 'Umwelttechnologie' (environmental technology), 'Biotechnologie' (biotechnology). More academic and theoretical than Technik. The -ie ending is always stressed."
+  },
+  {
+    "line": 132,
+    "field": "src",
+    "english": "to increase, to raise"
+  },
+  {
+    "line": 132,
+    "field": "note",
+    "english": "Er- + hoch (high). Transitive: someone raises something.\\nCompare: steigen (intransitive, something rises on its own)."
+  },
+  {
+    "line": 132,
+    "field": "exampleSrc",
+    "english": "A: We need to increase efficiency.\\nB: And not increase costs?\\nA: Exactly. Increase efficiency, reduce costs.\\nB: That's the plan."
+  },
+  {
+    "line": 132,
+    "field": "funFact",
+    "english": "Er- + hoch (high). 'Die Temperatur erhöhen' (to increase the temperature). Transitive: someone raises something. Compare: steigen (intransitive, something rises on its own)."
+  },
+  {
+    "line": 133,
+    "field": "src",
+    "english": "to promote, to support"
+  },
+  {
+    "line": 133,
+    "field": "note",
+    "english": "WITH Umlaut, unlike fordern (to demand). 'Erneuerbare Energien\\nfördern.' 'Förderung' (funding/support)."
+  },
+  {
+    "line": 133,
+    "field": "exampleSrc",
+    "english": "A: We promote renewable energies.\\nB: How do you promote that?\\nA: With money and technology.\\nB: Good support makes the difference."
+  },
+  {
+    "line": 133,
+    "field": "funFact",
+    "english": "WITH Umlaut, unlike fordern (to demand). 'Erneuerbare Energien fördern' (to promote renewable energies). 'Förderung' (funding/support). One dot changes demand to support."
+  },
+  {
+    "line": 134,
+    "field": "src",
+    "english": "to protest"
+  },
+  {
+    "line": 134,
+    "field": "note",
+    "english": "From Latin 'protestari.' Regular -ieren verb.\\n'Fridays for Future' made Germany a global protest capital."
+  },
+  {
+    "line": 134,
+    "field": "exampleSrc",
+    "english": "A: Why are the people protesting?\\nB: Against climate change.\\nA: Does protesting help?\\nB: It draws attention to problems."
+  },
+  {
+    "line": 134,
+    "field": "funFact",
+    "english": "From Latin 'protestari.' Regular -ieren verb. 'Gegen den Klimawandel protestieren' (to protest against climate change). 'Fridays for Future' started protests worldwide, including Germany."
+  },
+  {
+    "line": 135,
+    "field": "src",
+    "english": "statistical"
+  },
+  {
+    "line": 135,
+    "field": "note",
+    "english": "From Statistik. 'Statistisch gesehen' (statistically speaking).\\nThe -isch ending creates adjectives from nouns."
+  },
+  {
+    "line": 135,
+    "field": "exampleSrc",
+    "english": "A: Statistically speaking, the temperature is rising.\\nB: Is that statistically significant?\\nA: Yes, measured over 50 years.\\nB: Then it is statistically clear."
+  },
+  {
+    "line": 135,
+    "field": "funFact",
+    "english": "From Statistik. 'Statistisch gesehen' (statistically speaking). The -isch ending creates adjectives from nouns. 'Statistisch signifikant' (statistically significant)."
+  },
+  {
+    "line": 136,
+    "field": "src",
+    "english": "average, on average"
+  },
+  {
+    "line": 136,
+    "field": "note",
+    "english": "From Durchschnitt. The -lich ending on compound nouns.\\n'Durchschnittlich 20 Grad' (an average of 20 degrees)."
+  },
+  {
+    "line": 136,
+    "field": "exampleSrc",
+    "english": "A: What is the average temperature?\\nB: On average 10 degrees in Germany.\\nA: That is average?\\nB: Yes, but it is getting warmer."
+  },
+  {
+    "line": 136,
+    "field": "funFact",
+    "english": "From Durchschnitt. 'Durchschnittlich 20 Grad' (an average of 20 degrees). The -lich ending on compound nouns: Durchschnitt + lich = on average. Long but logical."
+  },
+  {
+    "line": 137,
+    "field": "text",
+    "english": "You know the Partizip II from the Perfekt: 'Ich habe das Buch gelesen.' Now as an adjective:\\n\\ngelesen (read) becomes: der gelesene Brief (the read letter)\\nrecycelt (recycled) becomes: das recycelte Papier (the recycled paper)\\nverschmutzt (polluted) becomes: die verschmutzte Luft (the polluted air)\\n\\nDeclension like any adjective. The key difference from Partizip I:\\n- Partizip I (ongoing): der lesende Mann (the man who IS reading)\\n- Partizip II (completed): der gelesene Brief (the letter that HAS BEEN read)\\n\\nLike English: 'the broken window,' 'the recycled paper.'"
+  },
+  {
+    "line": 137,
+    "field": "text",
+    "english": "Regular verbs form the Partizip II with ge- + stem + -t:\\nmachen → gemacht, recyceln → recycelt\\n\\nIrregular verbs use ge- + stem change + -en:\\nlesen → gelesen, brechen → gebrochen\\n\\nVerbs with inseparable prefixes (ver-, be-, er-, zer-) skip ge-:\\nverschmutzen → verschmutzt, zerstören → zerstört\\n\\nVerbs ending in -ieren also skip ge-:\\nrecyceln → recycelt, produzieren → produziert\\n\\nAs adjectives, all forms decline normally:\\nder verschmutzte Fluss (nominative)\\nden verschmutzten Fluss (accusative)\\ndem verschmutzten Fluss (dative)"
+  },
+  {
+    "line": 138,
+    "field": "text",
+    "english": "German packs modifiers BEFORE the noun, framed between the article and the noun itself.\\n\\n- die [in Berlin lebende] Frau (the woman living in Berlin)\\n- das [von Goethe geschriebene] Buch (the book written by Goethe)\\n- der [seit Wochen geplante] Urlaub (the vacation planned for weeks)\\n\\nHow to read them: find the article, jump to the NOUN, then read everything in between.\\nHow to build them: start with a relative clause, remove the relative pronoun, and place the participle with its ending right before the noun."
+  },
+  {
+    "line": 138,
+    "field": "text",
+    "english": "English: 'The woman who lives in Berlin'\\nFormal German: 'Die in Berlin lebende Frau'\\n\\nComplex information in a single noun phrase. Standard in academic writing.\\nExtreme examples exist in legal texts.\\nStart simple and build up.\\n\\nPractice converting:\\n'Der Fluss, der verschmutzt ist' = 'Der verschmutzte Fluss'\\n'Das Papier, das recycelt wurde' = 'Das recycelte Papier'\\n'Die Frau, die in Berlin lebt' = 'Die in Berlin lebende Frau'"
+  },
+  {
+    "line": 139,
+    "field": "text",
+    "english": "Formation: sein + Partizip II\\nPresent: ist geöffnet (is open)\\nPast: war geöffnet (was open)\\n\\nFocus: the STATE or RESULT, not the process.\\n\\nProcess passive (werden): Das Fenster wird geöffnet.\\n(Someone is opening it right now.)\\n\\nState passive (sein): Das Fenster ist geöffnet.\\n(It is in an open state.)"
+  },
+  {
+    "line": 139,
+    "field": "text",
+    "english": "Many state passive forms look like adjective + sein:\\nDas Geschäft ist geschlossen.\\nDer Kaffee ist gekocht.\\nIst der Kaffee fertig?\\n\\nThe boundary between state passive and adjective is fluid in daily life.\\nFor the exam: focus on the difference werden (process) vs. sein (state)."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "Standard passive: Das Buch wird dem Kind geschenkt. (The book is given to the child.)\\nbekommen passive: Das Kind bekommt das Buch geschenkt. (The child gets the book given.)\\n\\nThe RECIPIENT becomes the subject.\\n\\nVery common in spoken German.\\nkriegen works identically: Das Kind kriegt das Buch geschenkt."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "Use it when you want to emphasize the RECIPIENT.\\nNatural with verbs of giving, sending, and explaining.\\n\\nStandard: Mir wurde geholfen. (I was helped.)\\nbekommen: Ich bekam Hilfe. (I received help.)\\n\\nSome grammarians call it colloquial, but it is standard spoken German."
+  },
+  {
+    "line": 141,
+    "field": "text",
+    "english": "The construction sein plus zu plus infinitive has TWO meanings depending on context:\\n- Possibility: Das ist zu schaffen. (That can be done.)\\n- Necessity: Die Regeln sind zu beachten. (The rules must be followed.)\\n\\nThe suffix -bar works like English -able or -ible:\\n- machbar (doable), lösbar (solvable), essbar (edible)\\n\\nAdding un- negates the meaning: unlösbar, unvorstellbar, unessbar."
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "Irregular vowel change: a → ä in du/er/sie/es. Past: ließ. Partizip II: gelassen (or lassen with another infinitive)."
+  },
+  {
+    "line": 154,
+    "field": "text",
+    "english": "Lassen has three different meanings:\\n\\n1. TO HAVE DONE: etwas machen lassen\\n'Ich lasse mein Auto reparieren.' (I have my car repaired.)\\n'Sie lässt sich die Haare schneiden.' (She has her hair cut.)\\n\\n2. TO ALLOW: jemanden etwas tun lassen\\n'Lass mich erklären!' (Let me explain!)\\n'Er lässt sie gehen.' (He lets her go.)\\n\\n3. TO LEAVE/STOP: aufhören, zurücklassen\\n'Lass das!' (Stop that!)\\n'Ich lasse den Schirm hier.' (I leave the umbrella here.)\\n\\nPassive alternative: sich lassen = can be done\\n'Das lässt sich machen.' (That can be done.)"
+  },
+  {
+    "line": 154,
+    "field": "text",
+    "english": "In the Perfekt, lassen has two Partizip II forms:\\n\\n1. As a main verb: gelassen\\n'Ich habe den Hund zu Hause gelassen.' (I left the dog at home.)\\n\\n2. With another infinitive: lassen (double infinitive)\\n'Ich habe mein Auto reparieren lassen.' (I had my car repaired.)\\n\\nThe double infinitive construction (two infinitives at the end) is standard in German. It also applies to modal verbs in Perfekt:\\n'Ich habe arbeiten müssen.' (I had to work.)"
+  },
+  {
+    "line": 160,
+    "field": "hint",
+    "english": "Partizip II describes a completed action. The recycling has already happened."
+  },
+  {
+    "line": 161,
+    "field": "hint",
+    "english": "Third person singular. Which modal-like verb expresses having someone else perform an action for you?"
+  },
+  {
+    "line": 161,
+    "field": "sSrc",
+    "english": "Verumius has his bike repaired."
+  },
+  {
+    "line": 167,
+    "field": "hint",
+    "english": "The man is reading right now (ongoing). The letter was read (completed)."
+  },
+  {
+    "line": 168,
+    "field": "hint",
+    "english": "Mia has someone copy the missing documents. Causative lassen (3rd person) + Partizip I (ongoing absence)."
+  },
+  {
+    "line": 168,
+    "field": "sSrc",
+    "english": "Mia has the missing documents copied."
+  },
+  {
+    "line": 169,
+    "field": "src",
+    "english": "Partizip I, Partizip II, lassen. Three new tools. I will let my brain rest briefly. That is also a form of lassen, right?"
+  },
+  {
+    "line": 172,
+    "field": "desc",
+    "english": "Bio market or Aldi? Mia loves organic, Lukas shops at the discounter. Verumius compares. Learn household vocabulary and practice all three grammar constructs."
+  },
+  {
+    "line": 173,
+    "field": "unknown",
+    "english": "Learn 20 new words about household and measurements"
+  },
+  {
+    "line": 174,
+    "field": "unknown",
+    "english": "Compare ecological and budget shopping"
+  },
+  {
+    "line": 175,
+    "field": "unknown",
+    "english": "Practice Partizip I, Partizip II, and lassen in new contexts"
+  },
+  {
+    "line": 177,
+    "field": "src",
+    "english": "Look at this! This freshly baked bread, the handmade soap, the fairly traded coffee. At the organic market you know where everything comes from."
+  },
+  {
+    "line": 178,
+    "field": "src",
+    "english": "Mia, I don't let myself be fooled by nice packaging. I buy my pasta for 49 cents and leave the rest in my account."
+  },
+  {
+    "line": 179,
+    "field": "src",
+    "english": "detergent"
+  },
+  {
+    "line": 179,
+    "field": "note",
+    "english": "Wasch (wash) + Mittel (means/agent). Germany has strict\\nWaschmittel regulations. Phosphate bans started here in the 1980s."
+  },
+  {
+    "line": 179,
+    "field": "exampleSrc",
+    "english": "A: Which detergent do you use?\\nB: Ecological detergent.\\nA: Is that better for the environment?\\nB: Yes, fewer chemicals in the water."
+  },
+  {
+    "line": 179,
+    "field": "funFact",
+    "english": "Wasch (wash) + Mittel (means/agent). Detergent. 'Ökologisches Waschmittel' (ecological detergent). Germany has strict Waschmittel regulations. Phosphate bans started here in the 1980s."
+  },
+  {
+    "line": 180,
+    "field": "src",
+    "english": "battery"
+  },
+  {
+    "line": 180,
+    "field": "note",
+    "english": "From French 'batterie.' Germany collects used Batterien\\nin special green boxes at every supermarket."
+  },
+  {
+    "line": 180,
+    "field": "exampleSrc",
+    "english": "A: The battery is empty.\\nB: Throw it in the collection box.\\nA: Where is the collection box?\\nB: At the entrance of the supermarket."
+  },
+  {
+    "line": 180,
+    "field": "funFact",
+    "english": "From French 'batterie.' 'Batterie einlegen' (to insert a battery). 'Aufladbare Batterie' (rechargeable battery). Germany collects used Batterien in special green boxes at every supermarket."
+  },
+  {
+    "line": 181,
+    "field": "src",
+    "english": "lighter"
+  },
+  {
+    "line": 181,
+    "field": "note",
+    "english": "Feuer (fire) + Zeug (stuff/tool). Fire-tool.\\n'Hast du ein Feuerzeug?' is a classic conversation starter."
+  },
+  {
+    "line": 181,
+    "field": "exampleSrc",
+    "english": "A: Do you have a lighter?\\nB: Yes, here you go.\\nA: Where can I buy a lighter?\\nB: At every checkout."
+  },
+  {
+    "line": 181,
+    "field": "funFact",
+    "english": "Feuer (fire) + Zeug (stuff/tool). Fire-tool. A lighter. 'Hast du ein Feuerzeug?' is a classic conversation starter. Das Feuerzeug, neuter, like most -zeug compounds."
+  },
+  {
+    "line": 182,
+    "field": "src",
+    "english": "match"
+  },
+  {
+    "line": 182,
+    "field": "note",
+    "english": "Streich (stroke) + Holz (wood). Strike-wood.\\nMore poetic than Feuerzeug: a stick you stroke into flame."
+  },
+  {
+    "line": 182,
+    "field": "exampleSrc",
+    "english": "A: Do you have matches?\\nB: Yes, in the drawer.\\nA: Matches or lighter?\\nB: Matches, they are more romantic."
+  },
+  {
+    "line": 182,
+    "field": "funFact",
+    "english": "Streich (stroke) + Holz (wood). Strike-wood. A match. 'Streichhölzer anzünden' (to light matches). More poetic than Feuerzeug. The image: a stick of wood you stroke into flame."
+  },
+  {
+    "line": 183,
+    "field": "src",
+    "english": "Mia picks up the handmade soap for 4.50 euros. Lukas shows me the same soap at the discounter for 89 cents on his phone. I stand between them and wonder: what would a real Berliner do?"
+  },
+  {
+    "line": 184,
+    "field": "src",
+    "english": "pliers, tongs"
+  },
+  {
+    "line": 184,
+    "field": "note",
+    "english": "'Beißzange' (cutting pliers), 'Zuckerzange' (sugar tongs).\\n'Jemanden in die Zange nehmen' means to put the squeeze on someone."
+  },
+  {
+    "line": 184,
+    "field": "exampleSrc",
+    "english": "A: Do you have pliers?\\nB: Yes, in the toolbox.\\nA: I need the pliers for the pipe.\\nB: Here, take the big ones."
+  },
+  {
+    "line": 184,
+    "field": "funFact",
+    "english": "'Beißzange' (cutting pliers), 'Zuckerzange' (sugar tongs). 'Jemanden in die Zange nehmen' (to put the squeeze on someone). A gripping tool for work and idioms."
+  },
+  {
+    "line": 185,
+    "field": "src",
+    "english": "pipe, tube"
+  },
+  {
+    "line": 185,
+    "field": "note",
+    "english": "'Wasserrohr' (water pipe), 'Abflussrohr' (drain pipe).\\nAlso means 'reed' (the plant). Plumbing runs on Rohre."
+  },
+  {
+    "line": 185,
+    "field": "exampleSrc",
+    "english": "A: The pipe is broken.\\nB: Which pipe?\\nA: The water pipe in the kitchen.\\nB: We need to call a plumber."
+  },
+  {
+    "line": 185,
+    "field": "funFact",
+    "english": "'Wasserrohr' (water pipe), 'Abflussrohr' (drain pipe). Also means 'reed' (the plant). 'Rohrleitung' (pipeline). 'Durch die Rohre' means through the pipes. Plumbing runs on Rohre."
+  },
+  {
+    "line": 186,
+    "field": "src",
+    "english": "sand"
+  },
+  {
+    "line": 186,
+    "field": "note",
+    "english": "Same as English. 'Sandstrand' (sandy beach).\\n'Den Kopf in den Sand stecken' means to bury one's head in the sand."
+  },
+  {
+    "line": 186,
+    "field": "exampleSrc",
+    "english": "A: The sand at the beach is white.\\nB: Yes, beautiful sand.\\nA: Don't bury your head in the sand.\\nB: You're right. I need to act."
+  },
+  {
+    "line": 186,
+    "field": "funFact",
+    "english": "Same word as English. 'Sandstrand' (sandy beach), 'Sandkasten' (sandbox). 'Den Kopf in den Sand stecken' (to bury one's head in the sand) works identically in both languages."
+  },
+  {
+    "line": 187,
+    "field": "src",
+    "english": "stone"
+  },
+  {
+    "line": 187,
+    "field": "note",
+    "english": "Cognate with English 'stone.' 'Edelstein' (gemstone).\\n'Ein Stein vom Herzen' (relief, literally: a stone off the heart)."
+  },
+  {
+    "line": 187,
+    "field": "exampleSrc",
+    "english": "A: What kind of stone is that?\\nB: A gemstone. Very rare.\\nA: A weight off my shoulders. (lit: A stone off my heart.)\\nB: Good that you are relieved."
+  },
+  {
+    "line": 187,
+    "field": "funFact",
+    "english": "Cognate with English 'stone.' 'Ziegelstein' (brick), 'Edelstein' (gemstone). 'Ein Stein vom Herzen' (a stone off the heart) means relief."
+  },
+  {
+    "line": 188,
+    "field": "src",
+    "english": "plot of land, property"
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Grund (ground) + Stück (piece). A piece of ground.\\nEvery Grundstück is in the Grundbuch (land registry)."
+  },
+  {
+    "line": 188,
+    "field": "exampleSrc",
+    "english": "A: How big is the plot of land?\\nB: 500 square meters.\\nA: A plot of land in Berlin is expensive.\\nB: Very expensive. Especially in Mitte."
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "Grund (ground) + Stück (piece). A piece of ground. Property/plot of land. 'Ein Grundstück kaufen' (to buy a plot). German property law is thorough. Every Grundstück is in the Grundbuch (land registry)."
+  },
+  {
+    "line": 189,
+    "field": "src",
+    "english": "lawn"
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "'Den Rasen mähen' (to mow the lawn). 'Betreten des Rasens\\nverboten' (Keep off the grass) is on signs in every German park."
+  },
+  {
+    "line": 189,
+    "field": "exampleSrc",
+    "english": "A: The lawn needs to be mowed.\\nB: Not on Sunday!\\nA: Why not?\\nB: Mowing the lawn on Sunday is forbidden."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "'Den Rasen mähen' (to mow the lawn). 'Betreten des Rasens verboten' (Keep off the grass) is on signs in every German park. Germans take their Rasen seriously."
+  },
+  {
+    "line": 190,
+    "field": "src",
+    "english": "area, surface"
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "From 'flach' (flat). 'Grundfläche' (floor area),\\n'Wasserfläche' (water surface). Measured in Quadratmetern."
+  },
+  {
+    "line": 190,
+    "field": "exampleSrc",
+    "english": "A: How big is the area?\\nB: 80 square meters.\\nA: The area of Germany?\\nB: About 357,000 square kilometers."
+  },
+  {
+    "line": 190,
+    "field": "funFact",
+    "english": "From 'flach' (flat). 'Grundfläche' (floor area), 'Wasserfläche' (water surface). Measured in Quadratmetern. 'Die Fläche Deutschlands' is about 357,000 square kilometers."
+  },
+  {
+    "line": 191,
+    "field": "src",
+    "english": "half"
+  },
+  {
+    "line": 191,
+    "field": "note",
+    "english": "From 'halb' (half). 'Zur Hälfte' (halfway).\\nEnglish 'half' and German 'Hälfte' share the same Proto-Germanic root."
+  },
+  {
+    "line": 191,
+    "field": "exampleSrc",
+    "english": "A: Half is already done.\\nB: And the other half?\\nA: Tomorrow. Half the work is done.\\nB: Good, keep going."
+  },
+  {
+    "line": 191,
+    "field": "funFact",
+    "english": "From 'halb' (half). 'Die Hälfte der Bevölkerung' (half the population). 'Zur Hälfte' (halfway). English 'half' and German 'Hälfte' share the same Proto-Germanic root."
+  },
+  {
+    "line": 192,
+    "field": "src",
+    "english": "height"
+  },
+  {
+    "line": 192,
+    "field": "note",
+    "english": "From 'hoch' (high). 'Meereshöhe' (sea level). Also figuratively:\\n'in voller Höhe' (in full amount)."
+  },
+  {
+    "line": 192,
+    "field": "exampleSrc",
+    "english": "A: At what height is Berlin?\\nB: About 34 meters above sea level.\\nA: That is not very high.\\nB: No, Berlin is quite flat."
+  },
+  {
+    "line": 192,
+    "field": "funFact",
+    "english": "From 'hoch' (high). 'In der Höhe' (at height). 'Meereshöhe' (sea level). Also figuratively: 'in voller Höhe' (in full amount). The Umlaut ö comes from the adjective hoch."
+  },
+  {
+    "line": 193,
+    "field": "src",
+    "english": "length"
+  },
+  {
+    "line": 193,
+    "field": "note",
+    "english": "From 'lang' (long). 'In die Länge ziehen' (to drag out).\\nAdjective to abstract noun via Umlaut: lang becomes Länge."
+  },
+  {
+    "line": 193,
+    "field": "exampleSrc",
+    "english": "A: What is the length of the river?\\nB: 580 kilometers.\\nA: Don't drag it out!\\nB: Okay, I'll keep it short."
+  },
+  {
+    "line": 193,
+    "field": "funFact",
+    "english": "From 'lang' (long). 'In die Länge ziehen' (to drag out). 'Wellenlänge' (wavelength). Adjective to abstract noun via Umlaut: lang becomes Länge, just as hoch becomes Höhe."
+  },
+  {
+    "line": 194,
+    "field": "src",
+    "english": "number (quantity)"
+  },
+  {
+    "line": 194,
+    "field": "note",
+    "english": "An (at) + Zahl (number). More formal than 'Zahl' or 'Nummer.'\\nUsed for countable quantities in statistics."
+  },
+  {
+    "line": 194,
+    "field": "exampleSrc",
+    "english": "A: What is the number of participants?\\nB: 250.\\nA: The number rises every year.\\nB: Yes, more and more people come."
+  },
+  {
+    "line": 194,
+    "field": "funFact",
+    "english": "An (at) + Zahl (number). 'Die Anzahl der Teilnehmer' (the number of participants). More formal than 'Zahl' or 'Nummer.' Used for countable quantities in statistics and reports."
+  },
+  {
+    "line": 195,
+    "field": "src",
+    "english": "edge, margin, rim"
+  },
+  {
+    "line": 195,
+    "field": "note",
+    "english": "'Am Rand der Stadt' (on the edge of the city).\\n'Außer Rand und Band' (out of control)."
+  },
+  {
+    "line": 195,
+    "field": "exampleSrc",
+    "english": "A: On the edge of the city there is nature.\\nB: Yes, fields and meadows.\\nA: He is out of control.\\nB: Totally excited, yes."
+  },
+  {
+    "line": 195,
+    "field": "funFact",
+    "english": "'Am Rand der Stadt' (on the edge of the city). 'Brillenrand' (frame of glasses). 'Außer Rand und Band' (out of control, literally out of edge and band)."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "shadow, shade"
+  },
+  {
+    "line": 196,
+    "field": "note",
+    "english": "Cognate with English 'shadow.' 'Im Schatten sitzen'\\n(to sit in the shade). '30 Grad im Schatten' means it is really hot."
+  },
+  {
+    "line": 196,
+    "field": "exampleSrc",
+    "english": "A: Let's sit in the shade.\\nB: Yes, at 35 degrees you need shade.\\nA: The downside of industry.\\nB: Pollution and waste."
+  },
+  {
+    "line": 196,
+    "field": "funFact",
+    "english": "Cognate with English 'shadow' (from 'shade'). 'Im Schatten sitzen' (to sit in the shade). 'Schattenseite' (downside, literally shadow side). '30 Grad im Schatten' means it is really hot."
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "to package"
+  },
+  {
+    "line": 197,
+    "field": "note",
+    "english": "Ver- + packen (to pack). 'Umweltfreundlich verpackt.'\\n'Verpackungsmüll' is a major environmental topic."
+  },
+  {
+    "line": 197,
+    "field": "exampleSrc",
+    "english": "A: How is the product packaged?\\nB: In plastic, unfortunately.\\nA: Can you package it differently?\\nB: Yes, in paper or cardboard."
+  },
+  {
+    "line": 197,
+    "field": "funFact",
+    "english": "Ver- + packen (to pack). 'Umweltfreundlich verpackt' (packaged in an eco-friendly way). 'Verpackungsmüll' (packaging waste) is a major environmental topic. Germany has strict Verpackungsverordnung."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "to consume, to use up"
+  },
+  {
+    "line": 198,
+    "field": "note",
+    "english": "Ver- + brauchen (to need). 'Strom verbrauchen.' The ver-\\nprefix means using something until it is gone."
+  },
+  {
+    "line": 198,
+    "field": "exampleSrc",
+    "english": "A: How much electricity do we use?\\nB: Too much.\\nA: We need to consume less.\\nB: Yes, every consumer needs to save."
+  },
+  {
+    "line": 198,
+    "field": "funFact",
+    "english": "Ver- + brauchen (to need). 'Strom verbrauchen' (to use electricity). 'Verbraucher' (consumer). The ver- prefix means using something until it is gone. Completely used up."
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "artificial"
+  },
+  {
+    "line": 199,
+    "field": "note",
+    "english": "From 'Kunst' (art/artifice). 'Künstliches Licht' (artificial light).\\n'Künstliche Intelligenz' (artificial intelligence)."
+  },
+  {
+    "line": 199,
+    "field": "exampleSrc",
+    "english": "A: Is that artificial or natural?\\nB: Artificial. From the lab.\\nA: Artificial intelligence is everywhere.\\nB: Yes, the technology is growing fast."
+  },
+  {
+    "line": 199,
+    "field": "funFact",
+    "english": "From 'Kunst' (art/artifice). 'Künstliches Licht' (artificial light). 'Künstliche Intelligenz' (artificial intelligence). What Kunst creates is künstlich. Not natural, but made by human skill."
+  },
+  {
+    "line": 205,
+    "field": "hint",
+    "english": "Sich etwas antun lassen. Täuschen means to deceive. Choose the colloquial synonym among the options."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "Mia is right: organic tastes better. Lukas is also right: organic is more expensive. My compromise? Organic vegetables, discount pasta. The best of both worlds."
+  },
+  {
+    "line": 209,
+    "field": "desc",
+    "english": "A special moment: Yilmaz offers Verumius the Du. Along the way, learn weather and nature vocabulary and experience Mia's rare compliment."
+  },
+  {
+    "line": 210,
+    "field": "unknown",
+    "english": "Learn 18 words about weather and nature"
+  },
+  {
+    "line": 211,
+    "field": "unknown",
+    "english": "Experience the Sie-to-du switch as a social milestone"
+  },
+  {
+    "line": 212,
+    "field": "unknown",
+    "english": "Practice all three grammar constructs in dialogue"
+  },
+  {
+    "line": 214,
+    "field": "src",
+    "english": "Verumius... we have known each other for almost a year now. You can go ahead and say du."
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "That... that really makes me happy. Thank you, Mrs. Yil... I mean... thank you, Elif."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "A quiet moment in the empty hallway. Not a big moment for the world, but a decisive moment for Verumius. The familiar voice of his teacher now has a different sound."
+  },
+  {
+    "line": 217,
+    "field": "src",
+    "english": "surroundings, area"
+  },
+  {
+    "line": 217,
+    "field": "note",
+    "english": "Um (around) + Gebung (giving/area). 'Die nahe Umgebung'\\n(the immediate surroundings). What is given around you."
+  },
+  {
+    "line": 217,
+    "field": "exampleSrc",
+    "english": "A: What are the surroundings like here?\\nB: Very green. A lot of nature.\\nA: In the Berlin area there are lakes.\\nB: Yes, perfect for summer."
+  },
+  {
+    "line": 217,
+    "field": "funFact",
+    "english": "Um (around) + Gebung (giving/area). Surroundings. 'Die nahe Umgebung' (the immediate surroundings). 'In der Umgebung von Berlin' (in the Berlin area). What is given around you."
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "weather report"
+  },
+  {
+    "line": 218,
+    "field": "note",
+    "english": "Wetter (weather) + Bericht (report). Germans check the\\nWetterbericht religiously. Rain is always possible."
+  },
+  {
+    "line": 218,
+    "field": "exampleSrc",
+    "english": "A: What does the weather report say?\\nB: Rain tomorrow.\\nA: Again?\\nB: Yes, the weather report always says rain."
+  },
+  {
+    "line": 218,
+    "field": "funFact",
+    "english": "Wetter (weather) + Bericht (report). 'Den Wetterbericht lesen' (to read the weather report). Germans check the Wetterbericht religiously. Rain is always possible."
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "weather forecast"
+  },
+  {
+    "line": 219,
+    "field": "note",
+    "english": "Wetter + Vorhersage (forecast). Longer and more formal\\nthan Wetterbericht. Used in official contexts."
+  },
+  {
+    "line": 219,
+    "field": "exampleSrc",
+    "english": "A: According to the weather forecast, it will be hot.\\nB: How hot?\\nA: 38 degrees.\\nB: The weather forecast scares me."
+  },
+  {
+    "line": 219,
+    "field": "funFact",
+    "english": "Wetter + Vorhersage (forecast). 'Laut Wettervorhersage regnet es morgen' (According to the forecast, it rains tomorrow). Longer and more formal than Wetterbericht."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "storm"
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "Cognate with English 'storm.' 'Sturmwarnung' (storm warning).\\nGermany's worst storms come from the North Sea."
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: A storm is coming!\\nB: How strong?\\nA: Very strong. Storm warning.\\nB: Then we stay home."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "Cognate with English 'storm.' 'Sturmwarnung' (storm warning). 'Im Sturm erobern' (to take by storm). Germany's worst storms come from the North Sea. Orkan = hurricane-force storm."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "thunder"
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Related to the god Thor/Donar. 'Donnerstag' (Thursday) =\\nThor's day. 'Donnerwetter!' is an exclamation of surprise."
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Do you hear the thunder?\\nB: Yes, a thunderstorm is coming.\\nA: Thunder and lightning!\\nB: Wow, that was loud!"
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "Related to the god Thor/Donar. 'Donnerstag' (Thursday) = Thor's day. 'Donnerwetter!' is an exclamation of surprise (literally: thunder weather!). Both languages name Thursday after the thunder god."
+  },
+  {
+    "line": 222,
+    "field": "src",
+    "english": "alarm, alert"
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "From Italian 'all'arme' (to arms!). 'Feueralarm' (fire alarm),\\n'Alarmstufe rot' (red alert). 'Alarm schlagen' (to sound the alarm)."
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: Alarm! Fire alarm!\\nB: Quick, out of the building.\\nA: Is that a real alarm?\\nB: Yes, the fire department is already coming."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "From Italian 'all'arme' (to arms!). 'Feueralarm' (fire alarm), 'Alarmstufe rot' (red alert). 'Alarm schlagen' (to sound the alarm). International word with military origins."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "disruption, disturbance"
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "From 'stören' (to disturb). Deutsche Bahn's favorite word:\\n'Wegen einer Störung...' (Due to a disruption...)."
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: Due to a disruption, no train is running.\\nB: Another disruption?\\nA: Yes, a technical disruption.\\nB: That is typical for the railway."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "From 'stören' (to disturb). 'Betriebsstörung' (service disruption). Deutsche Bahn's favorite word: 'Wegen einer Störung...' (Due to a disruption...). Every train delay starts here."
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "support"
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "Unter (under) + stützen (to support). Support from below.\\n'Um Unterstützung bitten' (to ask for support)."
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: Do you need support?\\nB: Yes, financial support.\\nA: I offer you my support.\\nB: Thank you, that means a lot to me."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "Unter (under) + stützen (to support). Support from below. 'Finanzielle Unterstützung' (financial support). 'Um Unterstützung bitten' (to ask for support). You hold something up from underneath."
+  },
+  {
+    "line": 225,
+    "field": "src",
+    "english": "zoo, animal park"
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Tier (animal) + Park. 'Der Berliner Tierpark' is the largest\\nlandscape zoo in Europe. Emphasizes the park-like setting."
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: Have you been to the animal park?\\nB: Yes, the Berlin Tierpark is great.\\nA: Is Tierpark the same as Zoo?\\nB: Similar, but the Tierpark is more like a park."
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "Tier (animal) + Park. 'Der Berliner Tierpark' is the largest landscape zoo in Europe. Different from 'Zoo' (which is also used). Tierpark emphasizes the park-like setting."
+  },
+  {
+    "line": 226,
+    "field": "src",
+    "english": "to damage"
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "Be- + Schaden (damage). 'Der Sturm hat das Dach beschädigt.'\\nRegular verb. The be- prefix makes 'Schaden' transitive."
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: The storm damaged the roof.\\nB: How bad?\\nA: Quite damaged.\\nB: We need to have it repaired."
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "Be- + Schaden (damage). 'Der Sturm hat das Dach beschädigt' (The storm damaged the roof). Regular verb. The be- prefix makes 'Schaden' into a transitive verb."
+  },
+  {
+    "line": 227,
+    "field": "src",
+    "english": "to burn"
+  },
+  {
+    "line": 227,
+    "field": "note",
+    "english": "Irregular: brannte, gebrannt. Cognate with English 'burn.'\\n'Es brennt!' (It's burning!) is what you shout during a fire."
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: It's burning! Call the fire department!\\nB: Where is it burning?\\nA: In the kitchen. The food is burning.\\nB: Quick, water!"
+  },
+  {
+    "line": 227,
+    "field": "funFact",
+    "english": "Irregular: brannte, gebrannt. Cognate with English 'burn.' 'Es brennt!' (It is burning!) is what you shout during a fire. 'Brennholz' (firewood). 'Brennnessel' (stinging nettle, the burning nettle)."
+  },
+  {
+    "line": 228,
+    "field": "src",
+    "english": "to thunder"
+  },
+  {
+    "line": 228,
+    "field": "note",
+    "english": "From Donner. 'Es donnert' (it is thundering).\\nAlso: 'gegen die Tür donnern' (to bang on the door)."
+  },
+  {
+    "line": 228,
+    "field": "exampleSrc",
+    "english": "A: It has been thundering for an hour.\\nB: Yes, a strong thunderstorm.\\nA: Who is banging on the door?\\nB: The neighbor. He wants to come in."
+  },
+  {
+    "line": 228,
+    "field": "funFact",
+    "english": "From Donner. 'Es donnert' (it is thundering). Also: 'gegen die Tür donnern' (to bang on the door). Regular despite its mythological origins. Thor would approve."
+  },
+  {
+    "line": 229,
+    "field": "src",
+    "english": "to flash (lightning)"
+  },
+  {
+    "line": 229,
+    "field": "note",
+    "english": "From 'Blitz' (lightning). 'Es blitzt' (there is lightning).\\nSpeed cameras are called 'Blitzer' because they flash."
+  },
+  {
+    "line": 229,
+    "field": "exampleSrc",
+    "english": "A: Lightning!\\nB: And it is thundering too.\\nA: Watch out, speed camera!\\nB: Too late. Got flashed."
+  },
+  {
+    "line": 229,
+    "field": "funFact",
+    "english": "From 'Blitz' (lightning). 'Es blitzt' (there is lightning). 'Blitzschnell' (lightning fast). Also: speed cameras are called 'Blitzer' because they flash when they catch you."
+  },
+  {
+    "line": 230,
+    "field": "src",
+    "english": "to hail"
+  },
+  {
+    "line": 230,
+    "field": "note",
+    "english": "From 'Hagel' (hail). 'Es hagelt' (it is hailing).\\n'Es hagelt Beschwerden' (complaints are hailing down)."
+  },
+  {
+    "line": 230,
+    "field": "exampleSrc",
+    "english": "A: It is hailing!\\nB: Put the car in the garage.\\nA: Hail can destroy cars.\\nB: Yes, and also greenhouses."
+  },
+  {
+    "line": 230,
+    "field": "funFact",
+    "english": "From 'Hagel' (hail). 'Es hagelt' (it is hailing). Hail can destroy cars, crops, and greenhouse roofs. 'Es hagelt Beschwerden' (complaints are hailing down) is used figuratively."
+  },
+  {
+    "line": 231,
+    "field": "src",
+    "english": "to dry"
+  },
+  {
+    "line": 231,
+    "field": "note",
+    "english": "From 'trocken' (dry). 'Wäsche trocknen' (to dry laundry).\\nGermans often air-dry laundry rather than using a dryer."
+  },
+  {
+    "line": 231,
+    "field": "exampleSrc",
+    "english": "A: The laundry needs to dry.\\nB: Outside or inside?\\nA: Outside. The sun dries quickly.\\nB: But only if it doesn't rain."
+  },
+  {
+    "line": 231,
+    "field": "funFact",
+    "english": "From 'trocken' (dry). 'Wäsche trocknen' (to dry laundry). Germans often air-dry laundry rather than using a Trockner (dryer). Energy-saving and laundry-friendly."
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "to rescue, to save"
+  },
+  {
+    "line": 232,
+    "field": "note",
+    "english": "'Die Feuerwehr rettet Menschen.' 'Die Umwelt retten.'\\n'Rettungswagen' (ambulance). A verb of heroic action."
+  },
+  {
+    "line": 232,
+    "field": "exampleSrc",
+    "english": "A: The fire department is rescuing a child.\\nB: Heroes!\\nA: Can we still save the environment?\\nB: Yes, but we need to act now."
+  },
+  {
+    "line": 232,
+    "field": "funFact",
+    "english": "'Die Feuerwehr rettet Menschen' (The fire department rescues people). 'Die Umwelt retten' (to save the environment). 'Rettungswagen' (ambulance). A verb of heroic action."
+  },
+  {
+    "line": 233,
+    "field": "src",
+    "english": "steep"
+  },
+  {
+    "line": 233,
+    "field": "note",
+    "english": "'Ein steiler Hügel' (a steep hill). 'Steile Karriere'\\n(meteoric career). 'Steile These' (bold claim)."
+  },
+  {
+    "line": 233,
+    "field": "exampleSrc",
+    "english": "A: The path is very steep.\\nB: Yes, quite steep here.\\nA: His career is steep.\\nB: From zero to a hundred."
+  },
+  {
+    "line": 233,
+    "field": "funFact",
+    "english": "'Ein steiler Hügel' (a steep hill). 'Steile Karriere' (meteoric career). 'Steile These' (bold claim). From physical incline to figurative extremes."
+  },
+  {
+    "line": 234,
+    "field": "src",
+    "english": "wild"
+  },
+  {
+    "line": 234,
+    "field": "note",
+    "english": "Same word, same meaning as English. 'Wilde Tiere' (wild animals).\\nGermany has more wild boars than any European country."
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: Are there wild animals in Berlin?\\nB: Yes, wild boars in the suburbs.\\nA: Wild!\\nB: Really wild. Be careful in the park."
+  },
+  {
+    "line": 234,
+    "field": "funFact",
+    "english": "Same word, same meaning as English. 'Wilde Tiere' (wild animals), 'Wildnis' (wilderness). 'Wildschwein' (wild boar) roam Berlin's suburbs. Germany has more wild boars than any European country."
+  },
+  {
+    "line": 235,
+    "field": "src",
+    "english": "Elif. No longer Mrs. Yilmaz. Elif. I sit on a park bench and repeat the name quietly. A whole year for three syllables. But those three syllables mean: you belong."
+  },
+  {
+    "line": 236,
+    "field": "src",
+    "english": "You have become a real Berliner. You separate your trash, you have your bike repaired instead of buying a new one, and you know every deposit machine in Kreuzberg."
+  },
+  {
+    "line": 242,
+    "field": "hint",
+    "english": "Switching from Sie to du is a personal milestone in German culture."
+  },
+  {
+    "line": 245,
+    "field": "desc",
+    "english": "Test your environmental German. Prove you have mastered Partizip I and II as adjectives and can use lassen in all its meanings."
+  },
+  {
+    "line": 246,
+    "field": "unknown",
+    "english": "Test your environmental vocabulary"
+  },
+  {
+    "line": 247,
+    "field": "unknown",
+    "english": "Prove mastery of Partizip I and II"
+  },
+  {
+    "line": 248,
+    "field": "unknown",
+    "english": "Show you can use lassen in all its meanings"
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "Saturday in Volkspark Friedrichshain. Mia has organized a cleanup event. Verumius is there. Lukas too, but he brought the wrong bags. Of course."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "dirt, filth"
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "More colloquial than Schmutz. 'Im Dreck sitzen' (to be in trouble).\\nNorthern German uses Dreck, southern prefers Schmutz."
+  },
+  {
+    "line": 251,
+    "field": "exampleSrc",
+    "english": "A: There is dirt everywhere.\\nB: Yes, we need to clean.\\nA: He is in trouble. (lit: sitting in dirt)\\nB: Yes, big problems."
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "More colloquial than Schmutz. 'Im Dreck sitzen' (to be in trouble, literally: sitting in dirt). 'Dreckig' (dirty/filthy). Northern German uses Dreck, southern prefers Schmutz."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "dirt, grime"
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "More formal than Dreck. 'Schmutzig' (dirty).\\n'Schmutzwasser' (dirty water)."
+  },
+  {
+    "line": 252,
+    "field": "exampleSrc",
+    "english": "A: The dirt has to go.\\nB: Yes, everything is dirty.\\nA: Dirty water must not go into the river.\\nB: That's why there are water treatment plants."
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "More formal than Dreck. 'Schmutzig' (dirty). 'Schmutzwasser' (dirty water). The Sch- sound gives it a squelchy feel. German onomatopoeia at work."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "dust"
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Cognate with English 'dust' (via different path).\\n'Staubsauger' (vacuum cleaner, literally dust-sucker)."
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: Dust everywhere!\\nB: Where is the vacuum cleaner?\\nA: In the closet. Dusting is important.\\nB: We all turn to dust eventually."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "Cognate with English 'dust' (via different path). 'Staubsauger' (vacuum cleaner, literally dust-sucker). 'Staub wischen' (to dust). 'Zu Staub werden' (to turn to dust)."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "hill"
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Diminutive feel from the -el ending. 'Ameisenhügel' (anthill).\\nGermany is full of Hügel in the Mittelgebirge region."
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: Let's climb the hill.\\nB: The hill is quite steep.\\nA: From the top you can see the whole area.\\nB: It's worth it."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Diminutive feel from the -el ending, though not a true diminutive. 'Ameisenhügel' (anthill). Germany's landscape is full of Hügel, especially in the Mittelgebirge region."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "mountain range"
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Ge- + Berg (mountain) collective. 'Hochgebirge' (high mountains).\\nThe Ge- prefix creates a collective: many mountains together."
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: The Alps are a high mountain range.\\nB: Yes, the highest mountain range in Europe.\\nA: And the medium-height mountains?\\nB: Lower, but also beautiful."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "Ge- + Berg (mountain) collective. Mountain range. 'Hochgebirge' (high mountains), 'Mittelgebirge' (medium-height mountains). The Ge- prefix creates a collective: many mountains together."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "Verumius, I have a question. Why are there trash bags that call themselves 'biodegradable' but then aren't allowed in the organic bin? That is a catastrophe for logic!"
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "valley"
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Cognate with English 'dale.' 'Rheintal' (Rhine valley).\\n'Bergauf, bergab, durch jedes Tal.'"
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: The valley is beautiful.\\nB: Yes, the Rhine valley is famous.\\nA: Through every valley flows a river.\\nB: Mostly, yes."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "Cognate with English 'dale.' 'Rheintal' (Rhine valley), 'Moseltal' (Moselle valley). 'Bergauf, bergab, durch jedes Tal' (uphill, downhill, through every valley)."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "moon"
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Cognate with English 'moon' and 'month' (Monat).\\nSame root: time was measured by moons. 'Vollmond' (full moon)."
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: Look, the full moon!\\nB: Beautiful. Moonlight.\\nA: I sleep badly during a full moon.\\nB: Me too. Strange, right?"
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "Cognate with English 'moon' and 'month' (Monat). Same root: time was measured by moons. 'Vollmond' (full moon), 'Halbmond' (crescent/half moon). 'Mondschein' (moonshine/moonlight)."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "star"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Cognate with English 'star' (via Latin 'stella').\\n'Sternschnuppe' (shooting star). Also a famous German news magazine."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: Look at the stars!\\nB: So many stars today.\\nA: Did you see a shooting star?\\nB: Yes, make a wish!"
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Cognate with English 'star' (via Latin 'stella'). 'Sternschnuppe' (shooting star, literally star-snip). 'Fünf-Sterne-Hotel' (five-star hotel). Stern is also a famous German news magazine."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "noise"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "From French 'alarme.' 'Lärmschutz' (noise protection).\\nGermans have strict Ruhezeiten (quiet hours)."
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: The noise is unbearable.\\nB: Yes, too much noise.\\nA: Noise on Sunday is forbidden.\\nB: Quiet hours must be observed."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "From French 'alarme.' 'Lärm machen' (to make noise). 'Lärmschutz' (noise protection). Germans have strict Ruhezeiten (quiet hours). Lawn mowing on Sunday? That is illegal Lärm."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "gas"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Coined by Dutch chemist Van Helmont in the 1600s from Greek 'chaos.'\\n'Erdgas' (natural gas). 'Gas geben' (to step on the gas)."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Do we heat with gas?\\nB: Yes, natural gas.\\nA: Step on it!\\nB: We are already going fast enough."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Coined by Dutch chemist Van Helmont in the 1600s from Greek 'chaos.' 'Erdgas' (natural gas), 'Abgas' (exhaust gas). 'Gas geben' (to step on the gas/accelerate). A Dutch-invented word used worldwide."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "to destroy"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Zer- + stören (to disturb). The zer- prefix means apart/to pieces.\\nStronger than beschädigen (to damage). Total destruction."
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: The storm destroyed everything.\\nB: Completely destroyed?\\nA: Yes, the house is destroyed.\\nB: That is a catastrophe."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Zer- + stören (to disturb). The zer- prefix means apart/to pieces. 'Die Umwelt zerstören' (to destroy the environment). Stronger than beschädigen (to damage). Total destruction."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "worldwide (literary)"
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Welten (worlds) + weit (wide). A poetic variant of weltweit.\\n'Weltenweite Probleme.' The extra -en- adds a literary tone."
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: The problem is worldwide.\\nB: Yes, not only in Germany.\\nA: Worldwide cooperation is needed.\\nB: All countries must help."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Welten (worlds) + weit (wide). A poetic variant of weltweit. Both are used. 'Weltenweite Probleme' (worldwide problems). The extra -en- adds a literary tone."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "worldwide"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Welt + weit. The standard form. 'Weltweit bekannt'\\n(known worldwide). More common than weltenweit."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: This problem is worldwide.\\nB: Yes, everywhere in the world.\\nA: Unique worldwide.\\nB: There is nothing comparable."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "Welt + weit. The standard form. 'Weltweit bekannt' (known worldwide). More common than weltenweit in everyday use. 'Weltweit einzigartig' (unique worldwide)."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "central"
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "From Latin 'centralis.' 'Zentrale Lage' (central location).\\n'Zentralheizung' (central heating)."
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: The location is very central.\\nB: Yes, right in the city center.\\nA: Do you have central heating?\\nB: Yes, in every room."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "From Latin 'centralis.' 'Zentrale Lage' (central location). 'Zentralheizung' (central heating). Every German apartment listing mentions whether it has Zentralheizung."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "Okay, people! Plastic in the yellow bag, glass in the green one, cigarette butts separate. Lukas, this is not a picnic. Put the pretzel down and help!"
+  },
+  {
+    "line": 267,
+    "field": "hint",
+    "english": "Partizip I = Infinitiv + d + Adjektivendung. Suche nach dem -end-Muster."
+  },
+  {
+    "line": 268,
+    "field": "hint",
+    "english": "The air HAS BEEN polluted. Partizip II as adjective. Completed action."
+  },
+  {
+    "line": 268,
+    "field": "sSrc",
+    "english": "The polluted air in the city is a health risk."
+  },
+  {
+    "line": 269,
+    "field": "hint",
+    "english": "Causative means: someone else performs the action for you. Who is repairing the bike?"
+  },
+  {
+    "line": 270,
+    "field": "hint",
+    "english": "The river was polluted (completed). The factory is burning right now (ongoing). Which is P1, which P2?"
+  },
+  {
+    "line": 270,
+    "field": "sSrc",
+    "english": "The polluted river and the burning factory are a problem."
+  },
+  {
+    "line": 271,
+    "field": "hint",
+    "english": "Thunder, lightning, extreme wind. Think about what we call a severe weather event."
+  },
+  {
+    "line": 272,
+    "field": "hint",
+    "english": "Sich lassen + Infinitiv = can be done. Think of the third person singular form."
+  },
+  {
+    "line": 272,
+    "field": "sSrc",
+    "english": "The problem can be solved."
+  },
+  {
+    "line": 279,
+    "field": "src",
+    "english": "Mia, I brought the wrong bags. But I collected dirt for three hours! That counts too, right?"
+  },
+  {
+    "line": 280,
+    "field": "src",
+    "english": "It counts, Lukas. It counts. Next time I will bring you the right bags. And a list."
+  },
+  {
+    "line": 283,
+    "field": "desc",
+    "english": "The final chapter of this unit. Verumius looks back on a year in Berlin. Learn the last environment and emergency words and prepare for the next level."
+  },
+  {
+    "line": 284,
+    "field": "unknown",
+    "english": "Learn 18 final words on environment and emergencies"
+  },
+  {
+    "line": 285,
+    "field": "unknown",
+    "english": "Reflect on Verumius's growth in Berlin"
+  },
+  {
+    "line": 286,
+    "field": "unknown",
+    "english": "Prepare for the B1 exam journey ahead"
+  },
+  {
+    "line": 288,
+    "field": "src",
+    "english": "A Sunday morning in Kreuzberg. Verumius goes to the deposit machine, buys organic bread at the market, and greets his neighbors in German. A normal day. A year ago none of this would have been normal."
+  },
+  {
+    "line": 289,
+    "field": "src",
+    "english": "protest"
+  },
+  {
+    "line": 289,
+    "field": "note",
+    "english": "From Latin 'protestari' (to declare publicly). 'Klimaprotest.'\\n'Fridays for Future' made Berlin a global protest capital."
+  },
+  {
+    "line": 289,
+    "field": "exampleSrc",
+    "english": "A: Were you at the climate protest?\\nB: Yes, thousands of people were there.\\nA: Protesting helps!\\nB: Yes, it draws attention to problems."
+  },
+  {
+    "line": 289,
+    "field": "funFact",
+    "english": "From Latin 'protestari' (to declare publicly). 'Klimaprotest' (climate protest). 'Gegen etwas protestieren' (to protest against something). 'Fridays for Future' made Berlin a global protest capital."
+  },
+  {
+    "line": 290,
+    "field": "src",
+    "english": "alternative"
+  },
+  {
+    "line": 290,
+    "field": "note",
+    "english": "From Latin 'alternare.' 'Alternativlos' was Germany's\\nun-word of the year 2010. Means there is no other option."
+  },
+  {
+    "line": 290,
+    "field": "exampleSrc",
+    "english": "A: Is there an alternative?\\nB: Yes, renewable energy.\\nA: Some say there is no alternative.\\nB: 'Without alternative' is a dangerous word."
+  },
+  {
+    "line": 290,
+    "field": "funFact",
+    "english": "From Latin 'alternare.' 'Eine Alternative finden' (to find an alternative). 'Alternativlos' was Germany's un-word of the year 2010. It means there is no other option."
+  },
+  {
+    "line": 291,
+    "field": "src",
+    "english": "air conditioning"
+  },
+  {
+    "line": 291,
+    "field": "note",
+    "english": "Klima + Anlage (system/facility). Rare in German homes.\\nMost Germans say: open the window. Fresh air beats everything."
+  },
+  {
+    "line": 291,
+    "field": "exampleSrc",
+    "english": "A: Do we need air conditioning?\\nB: No, open the window.\\nA: At 40 degrees?\\nB: Okay, maybe air conditioning after all."
+  },
+  {
+    "line": 291,
+    "field": "funFact",
+    "english": "Klima + Anlage (system/facility). Air conditioning. Rare in German homes. 'Brauchen wir eine Klimaanlage?' is the summer debate. Most Germans say no. Open the window."
+  },
+  {
+    "line": 292,
+    "field": "src",
+    "english": "manufacturer"
+  },
+  {
+    "line": 292,
+    "field": "note",
+    "english": "Her (here/toward) + stellen (to place). The one who places\\nsomething into existence. 'Vom Hersteller empfohlen.'"
+  },
+  {
+    "line": 292,
+    "field": "exampleSrc",
+    "english": "A: Who is the manufacturer?\\nB: A German manufacturer.\\nA: Recommended by the manufacturer?\\nB: Yes, with warranty."
+  },
+  {
+    "line": 292,
+    "field": "funFact",
+    "english": "Her (here/toward) + stellen (to place). Manufacturer. 'Automobilhersteller' (car manufacturer). 'Vom Hersteller empfohlen' (recommended by the manufacturer). The one who places something into existence."
+  },
+  {
+    "line": 293,
+    "field": "src",
+    "english": "My neighbor asked me yesterday if I could help with the cleanup in the park. Not because I am a foreigner. But because I am the one who always picks up the trash. In Kreuzberg, that is an identity."
+  },
+  {
+    "line": 294,
+    "field": "src",
+    "english": "fire department"
+  },
+  {
+    "line": 294,
+    "field": "note",
+    "english": "Feuer (fire) + Wehr (defense). Fire defense. Call 112.\\nGerman volunteer fire departments have 1 million members."
+  },
+  {
+    "line": 294,
+    "field": "exampleSrc",
+    "english": "A: Call the fire department! 112!\\nB: I'll call right away.\\nA: The fire department comes quickly.\\nB: In five minutes they are there."
+  },
+  {
+    "line": 294,
+    "field": "funFact",
+    "english": "Feuer (fire) + Wehr (defense). Fire defense = fire department. 'Die Feuerwehr rufen' (to call the fire department). Call 112. German volunteer fire departments have 1 million members. Heroes in every village."
+  },
+  {
+    "line": 295,
+    "field": "src",
+    "english": "environmental pollution"
+  },
+  {
+    "line": 295,
+    "field": "note",
+    "english": "Umwelt + Verschmutzung (pollution). 22 letters.\\nA compound noun that carries the weight of the problem."
+  },
+  {
+    "line": 295,
+    "field": "exampleSrc",
+    "english": "A: Environmental pollution is a global problem.\\nB: Yes, everywhere in the world.\\nA: How can we reduce environmental pollution?\\nB: Fewer emissions, less plastic."
+  },
+  {
+    "line": 295,
+    "field": "funFact",
+    "english": "Umwelt + Verschmutzung (pollution). Environmental pollution. 22 letters. A compound noun that carries the weight of the problem. 'Umweltverschmutzung reduzieren' (to reduce environmental pollution)."
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "igniter, detonator"
+  },
+  {
+    "line": 296,
+    "field": "note",
+    "english": "From 'zünden' (to ignite). 'Zündstoff' (explosive material,\\nalso figuratively: a hot topic). The dating app is named after this concept."
+  },
+  {
+    "line": 296,
+    "field": "exampleSrc",
+    "english": "A: The igniter doesn't work.\\nB: Try again.\\nA: The topic is explosive material.\\nB: Yes, very controversial."
+  },
+  {
+    "line": 296,
+    "field": "funFact",
+    "english": "From 'zünden' (to ignite). 'Zündstoff' (explosive material, also figuratively: a hot topic). The dating app Tinder is named after this concept: something that ignites."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "match (for lighting)"
+  },
+  {
+    "line": 297,
+    "field": "note",
+    "english": "Zünd (ignite) + Holz (wood). Synonym of Streichholz.\\nSouthern German prefers Zündholz, northern prefers Streichholz."
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: Do you have a match?\\nB: You mean Streichholz?\\nA: Yes, the same thing. Regional difference.\\nB: Southern German says Zündholz."
+  },
+  {
+    "line": 297,
+    "field": "funFact",
+    "english": "Zünd (ignite) + Holz (wood). A match. Synonym of Streichholz. Southern German prefers Zündholz, northern prefers Streichholz. Same object, regional word choice."
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "form, shape"
+  },
+  {
+    "line": 298,
+    "field": "note",
+    "english": "From Latin 'forma.' 'In Form' (in shape/fit).\\n'Die Form wahren' (to keep up appearances)."
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: What shape is the plot of land?\\nB: Rectangular.\\nA: Are you in shape?\\nB: Yes, I train every day."
+  },
+  {
+    "line": 298,
+    "field": "funFact",
+    "english": "From Latin 'forma.' 'In Form' (in shape/fit), 'Formular' (form to fill out). 'Die Form wahren' (to keep up appearances). A word that spans fitness, bureaucracy, and etiquette."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "to support"
+  },
+  {
+    "line": 299,
+    "field": "note",
+    "english": "Unter (under) + stützen (to prop up). To support from below.\\n'Die Regierung unterstützt erneuerbare Energien.'"
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: Does the government support solar energy?\\nB: Yes, with funding programs.\\nA: How can I support the environment?\\nB: Consume less and recycle more."
+  },
+  {
+    "line": 299,
+    "field": "funFact",
+    "english": "Unter (under) + stützen (to prop up). To support from below. 'Erneuerbare Energien unterstützen' (to support renewable energies). Regular verb. Related to Unterstützung (support, the noun)."
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "to dispose of"
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Ent- (away from) + sorgen (to care). To dispose of.\\nThe ent- prefix removes the care: you send it away."
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: How do I dispose of batteries?\\nB: In the green collection box.\\nA: And hazardous waste?\\nB: Take it to the recycling center."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "Ent- (away from) + sorgen (to care). To dispose of. 'Müll entsorgen' (to dispose of trash). 'Sondermüll entsorgen' (to dispose of hazardous waste). The ent- prefix removes the care: you send it away."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "to damage, to harm"
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Takes dative. 'Der Umwelt schaden' (to harm the environment).\\n'Rauchen schadet der Gesundheit.' Also a noun: der Schaden."
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: Plastic harms the environment.\\nB: Yes, especially the sea.\\nA: Smoking damages health.\\nB: Everyone knows that."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "'Der Umwelt schaden' (to harm the environment). Takes dative. 'Rauchen schadet der Gesundheit' (Smoking damages health). Also a noun: der Schaden (the damage)."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "to enlarge, to increase"
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Ver- + groß (big). 'Das Bild vergrößern' (to enlarge the image).\\nThe opposite: verkleinern (to make smaller)."
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: Can you enlarge the image?\\nB: Yes, how big?\\nA: We need to increase the distance.\\nB: Okay, more space between us."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "Ver- + groß (big). 'Das Bild vergrößern' (to enlarge the image). 'Den Abstand vergrößern' (to increase the distance). The opposite: verkleinern (to make smaller)."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "to burn (up), to incinerate"
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Ver- + brennen. Irregular: verbrannte, verbrannt.\\nThe ver- prefix means to completion: burned up entirely."
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: Is it allowed to burn trash?\\nB: Only in special facilities.\\nA: I burned myself!\\nB: Cold water, quick!"
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "Ver- + brennen. Irregular: verbrannte, verbrannt. 'Müll verbrennen' (to incinerate trash). 'Sich verbrennen' (to burn oneself). The ver- prefix means to completion: burned up entirely."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "electr- (prefix for adjectives)"
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "From Greek 'elektron' (amber). 'Elektrisch' (electric),\\n'Elektronik' (electronics), 'Elektrizität' (electricity)."
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: Is that electric?\\nB: Yes, purely electric.\\nA: Electrical devices use electricity.\\nB: Energy-efficient devices save money."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "From Greek 'elektron' (amber). 'Elektrisch' (electric), 'Elektronik' (electronics), 'Elektrizität' (electricity). The elektr- base forms adjectives and abstract nouns about electricity."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "electro- (prefix for compound nouns)"
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "'Elektroauto' (electric car), 'Elektroherd' (electric stove).\\nGermany's Elektromobilität push aims for 15 million e-cars by 2030."
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: Do you drive an electric car?\\nB: Yes, for a year.\\nA: And an electric stove?\\nB: Yes, gas is too dangerous for me."
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "'Elektroauto' (electric car), 'Elektroherd' (electric stove), 'Elektrogerät' (electrical device). Germany's Elektromobilität (e-mobility) push aims for 15 million e-cars by 2030."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "eco- (prefix)"
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "From Greek 'oikos' (house/household). 'Ökologie' (ecology),\\n'Ökostrom' (green electricity). 'Öko' by itself is slang for environmentalist."
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: Do you buy green electricity?\\nB: Yes, and organic food.\\nA: Are you an eco-person?\\nB: Yes, proud of it!"
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "From Greek 'oikos' (house/household). 'Ökologie' (ecology), 'Ökostrom' (green electricity), 'Ökosystem' (ecosystem). The prefix that turns everything green. 'Öko' by itself is slang for an environmentalist."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "over-/above-/beyond- (prefix)"
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "'Überdurchschnittlich' (above average), 'überall' (everywhere),\\n'übertreiben' (to exaggerate). The most productive German prefix."
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: That is above average.\\nB: Yes, far above average.\\nA: Don't exaggerate!\\nB: I'm not exaggerating. It's like that everywhere."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "'Überdurchschnittlich' (above average), 'überall' (everywhere), 'übertreiben' (to exaggerate). The most productive German prefix. It intensifies everything it touches."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "One year in Berlin. The lost tourist from the airport is now a Berliner who separates his trash, has his bike repaired, and knows every deposit machine in Kreuzberg. The next level awaits: the exam."
+  },
+  {
+    "line": 309,
+    "field": "hint",
+    "english": "All three words relate to nature, production, or environmental impacts."
+  },
+  {
+    "line": 310,
+    "field": "hint",
+    "english": "The tourist WAS lost. Completed action as adjective. Partizip II + adjective ending."
+  },
+  {
+    "line": 310,
+    "field": "sSrc",
+    "english": "The lost tourist from the airport is now a real Berliner."
+  },
+  {
+    "line": 316,
+    "field": "hint",
+    "english": "Causative lassen means: someone else performs the action. Verumius organizes it."
+  },
+  {
+    "line": 317,
+    "field": "src",
+    "english": "Mia, Lukas, Elif. Without you I would not have managed this. You didn't just teach me German. You taught me how to live here. And that you rinse out yogurt cups."
+  },
+  {
+    "line": 318,
+    "field": "text",
+    "english": "Germany's environmental awareness is deeply rooted.\\n\\nPfand: bottle deposit. 25 cents for plastic, 8 cents for glass. Return rate: 98%.\\nMülltrennung: at least four bins. Neighbors will correct you.\\nEnergiewende: the switch to renewable energy. Target: 80% by 2030.\\nBio: Bio-Produkte hold large market shares. The Bio-Siegel is trusted.\\n\\nWhen Mia says 'Du bist ein richtiger Berliner geworden,' she means more than geography. Separating waste, saving energy, returning bottles: these are acts of belonging."
+  },
+  {
+    "line": 318,
+    "field": "text",
+    "english": "Germany's relationship with nature has deep cultural roots. The Romantic movement (18th-19th century) celebrated forests and landscapes. The Wandervogel youth movement (1896) promoted hiking and outdoor life.\\n\\nToday, this manifests as:\\n- The Green Party (Die Grünen): part of multiple federal governments\\n- Pfandsystem: 98% bottle return rate\\n- Energiewende: the most ambitious energy transition in the world\\n- Organic food market: largest in Europe\\n\\nFor immigrants, adopting environmental habits becomes a marker of cultural integration. When Mia says Verumius is a 'richtiger Berliner,' his environmental behavior is the proof."
+  }
+]

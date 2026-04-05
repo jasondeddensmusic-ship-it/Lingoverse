@@ -1,0 +1,742 @@
+[
+  {
+    "line": 14,
+    "field": "note",
+    "english": "Ab (off/away) + Gabe (giving). Both the act of handing in\\nand the money you hand to the state."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "'Ab' (off/away) + 'Gabe' (giving). A levy, a tax, or a submission. Die Abgabe covers both the act of handing something in and the money you hand over to the state. 'Sozialabgaben' (social contributions) eat roughly 40% of German gross income."
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Um (around) + Satz (rate/set). What comes in before costs.\\n'Umsatzsteuer' (VAT) is 19% on almost everything."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Um' (around) + 'Satz' (rate/set). Revenue, turnover. Der Umsatz is what comes in before costs. 'Umsatzsteuer' (sales tax/VAT) is Germany's 19% on almost everything. The word literally means 'conversion rate' of goods to money."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "From 'gewinnen' (to win/gain). What remains after all costs.\\n'Gewinn und Verlust' is the fundamental equation."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From 'gewinnen' (to win/gain). Profit. Der Gewinn is what remains after all costs. 'Gewinn und Verlust' (profit and loss) is the fundamental equation of every business. Winning in business is literally called Gewinn."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "From 'verlieren' (to lose). The opposite of Gewinn.\\n'Verluste machen' is every entrepreneur's nightmare."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "From 'verlieren' (to lose). Loss. Der Verlust. The opposite of Gewinn. 'Verluste machen' (to make losses) is every entrepreneur's nightmare. The -ust ending comes from the old past participle of verlieren."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "From 'Schuld' (guilt/debt). Always plural for money owed.\\nIn German, debt and guilt share the same root."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "From 'Schuld' (guilt/debt). Debts. Die Schulden is always plural when meaning money owed. In German, debt and guilt share the same root. 'Schulden haben' (to have debts) carries a moral weight the English word does not."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From Latin 'creditum' (something entrusted). 'Einen Kredit\\naufnehmen' (to take out a loan)."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From Latin 'creditum' (something entrusted). A loan, a credit. 'Einen Kredit aufnehmen' (to take out a loan). The Schufa (credit score agency) tracks every German's credit history. Without a good Schufa score, renting an apartment is nearly impossible."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Zins (interest) + Satz (rate). 'Zins' comes from Latin 'census.'\\nThe ECB in Frankfurt sets the base rate for all of Europe."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "'Zins' (interest) + 'Satz' (rate). Interest rate. 'Zins' comes from Latin 'census.' The European Central Bank in Frankfurt sets the base Zinssatz for all of Europe. Germany's Sparer (savers) watch this number obsessively."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "From Latin 'capitalis' (of the head). Both money invested\\nand the title of Marx's famous book."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "From Latin 'capitalis' (of the head). Capital. Karl Marx wrote 'Das Kapital' in London about Berlin's industrialists. The word means both money invested and the book that changed economic theory forever."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Haus (house) + halt (keeping). Both family budget and\\nfederal budget use the same word."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Haus' (house) + 'halt' (keeping). A household or a budget. 'Bundeshaushalt' (federal budget) and 'Familienhaushalt' (family budget) use the same word. Running a country is like running a household, linguistically."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "From French 'etat' (state/budget). Borrowed during\\nPrussian administration. More elegant than Haushalt."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "From French 'etat' (state/budget). A budget, especially a public one. Borrowed from French during Prussian administration. 'Etat' sounds more elegant than 'Haushalt' in political contexts. German newspapers love the French flair."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "From French 'financiel,' from Latin 'finis' (end/settlement).\\nStress on the last syllable: fi-nan-tsi-ELL."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "From French 'financiel,' from Latin 'finis' (end/settlement). Financial. 'Finanziell unabhängig' (financially independent) is the German dream alongside 'Eigenheim' (own home). Stress on the last syllable: fi-nan-tsi-ELL."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "From Greek 'oikonomikos' (household management).\\nOikos (house) + nomos (law). Laws of the household."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "From Greek 'oikonomikos' (household management). The Greek roots are oikos (house) + nomos (law). Economics literally means 'laws of the household.' The German spelling with oe- preserves the Greek origin."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Nach (after) + haltig (holding). Originally a forestry term:\\nonly cut as many trees as can regrow."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Nach' (after) + 'haltig' (holding). Originally a forestry term: only cut as many trees as can regrow. Germany coined Nachhaltigkeit in 1713. Now it appears everywhere: 'nachhaltige Wirtschaft' (sustainable economy)."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "From 'Rente' (return/pension) + '-abel' (able).\\nIf something is rentabel, it gives back more than you put in."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From 'Rente' (return/pension) + '-abel' (able). Profitable, yielding returns. 'Eine rentable Investition' (a profitable investment). Related to Rendite (yield). If something is rentabel, it gives back more than you put in."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From 'Wirt' (host/innkeeper). 'Gut wirtschaften' means\\nto manage money well. The innkeeper as original economist."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From 'Wirt' (host/innkeeper). To manage finances, to economize. 'Gut wirtschaften' (to manage money well). The innkeeper who runs a good house is the original economist. 'Hauswirtschaft' (home economics) uses the same root."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From French 'financer.' Non-separable -ieren verb.\\nAlways stresses the -ier- syllable."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From French 'financer.' To finance. 'Ein Projekt finanzieren' (to finance a project). The -ieren ending marks it as a French/Latin loan verb. These verbs never separate and always stress the -ier- syllable."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "From Latin 'investire' (to clothe). You 'clothe' your money\\nin an asset. Non-separable -ieren verb."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "From Latin 'investire' (to clothe). To invest. You 'clothe' your money in an asset. 'In Aktien investieren' (to invest in stocks). The metaphor: money gets dressed up and goes to work."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Jahr (year) + -lich. The umlaut pattern:\\nTag/täglich, Monat/monatlich, Jahr/jährlich."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Jahr' (year) + '-lich' (adjective suffix). Annually, yearly. 'Jährliche Steuererklärung' (annual tax return). The umlaut pattern: Tag/täglich, Monat/monatlich, Jahr/jährlich."
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "From Dutch 'actie' (share of a company). Only about 17%\\nof Germans own Aktien. Germans prefer Sparbuch."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "From Dutch 'actie' (share of a company). A stock, a share. Germany's main stock index is the DAX (Deutscher Aktienindex). Only about 17% of Germans own Aktien, far less than Americans or British. Germans prefer Sparbuch (savings accounts)."
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "An (at) + Lage (laying/position). Covers anything\\nyou 'lay down' for future use."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "'An' (at) + 'Lage' (laying/position). An investment, or a system/facility. 'Geldanlage' (financial investment), 'Solaranlage' (solar system). The word covers anything you 'lay down' for future use."
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Anlage + -er (person). The person who lays down money.\\n'Kleinanleger' vs. 'Grossanleger.'"
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "'Anlage' + '-er' (person). An investor. 'Kleinanleger' (small investors) vs. 'Grossanleger' (institutional investors). The person who lays down their money."
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "From the Belgian family 'van der Beurze' who hosted\\nmerchants in medieval Bruges."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "From the Belgian family 'van der Beurze' who hosted merchants in medieval Bruges. A stock exchange. The Frankfurt Börse is Europe's third largest. The word traveled from a Belgian family name to every language."
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "From Latin 'dividendum' (that which is to be divided).\\nGerman companies pay Dividenden once per year."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "From Latin 'dividendum' (that which is to be divided). A dividend. The share of profit divided among stockholders. German companies pay Dividenden once per year, unlike quarterly in the US."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "From Italian 'rendita' (return/yield). Germans calculate\\nRendite obsessively before investing."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "From Italian 'rendita' (return/yield). Return on investment. Germans calculate Rendite obsessively before investing. The Italian banking term entered German via Venetian traders."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Latin 'investire.' Emphasizes the action of investing.\\nAnlage emphasizes the asset you hold."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Latin 'investire.' An investment (the act). Different nuance from Anlage: Investition emphasizes the action of investing, Anlage emphasizes the asset you hold."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "From Latin 'profectus' (progress/gain). Less formal than Gewinn.\\n'Profit machen' sounds slightly negative in German."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "From Latin 'profectus' (progress/gain). Less formal than Gewinn. 'Profit machen' sounds slightly negative in German, implying greed. 'Gewinn erzielen' is the neutral business term."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "From Latin 'concernere' (to mix/relate). Larger than\\nein Unternehmen: a group of companies under one roof."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "From Latin 'concernere' (to mix/relate). A corporation, a conglomerate. Siemens, Volkswagen, BASF are German Konzerne. A Konzern is larger than an Unternehmen: it is a group of companies under one roof."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Unter (under) + nehmen (to take). Germany's Mittelstand\\n(mid-sized Unternehmen) employ 60% of all workers."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "'Unter' (under) + 'nehmen' (to take). An enterprise, a company. Germany's Mittelstand (mid-sized Unternehmen) employ 60% of all workers. The word means literally 'undertaking.'"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Wette (bet) + Bewerb (application/contest). Originally\\na bet about who is better."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "'Wette' (bet) + 'Bewerb' (application/contest). Competition. Originally a bet about who is better. 'Freier Wettbewerb' (free competition) is the foundation of Germany's soziale Marktwirtschaft."
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Markt (market) + Anteil (share/portion). The metric\\nevery Konzern watches most closely."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "'Markt' (market) + 'Anteil' (share/portion). Market share. 'Einen hohen Marktanteil haben' (to have a high market share). The metric every Konzern watches most closely."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Nach (after) + Frage (question/demand). Literally:\\nasking after something you want."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "'Nach' (after) + 'Frage' (question/demand). Demand. 'Angebot und Nachfrage' (supply and demand) is Lesson 1 of every economics course. Literally: asking after something you want."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Latin 'conjunctura' (joining together).\\n'Konjunkturaufschwung' (boom), 'Konjunkturabschwung' (recession)."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Latin 'conjunctura' (joining together). The economic cycle, the business climate. 'Konjunkturaufschwung' (economic boom), 'Konjunkturabschwung' (recession). Germans track the Konjunktur like weather."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "From French 'profitable.' Synonym of rentabel\\nbut more international in tone. Both mean: it makes money."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From French 'profitable.' Profitable. 'Ein profitables Geschäft' (a profitable business). Synonym of rentabel but more international in tone. Both mean: it makes money."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Gewinn (profit) + bringend (bringing). A compound\\nparticiple adjective. German builds these freely."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "'Gewinn' (profit) + 'bringend' (bringing). Profit-bringing, lucrative. 'Eine gewinnbringende Strategie' (a lucrative strategy). A compound participle adjective. German builds these freely: zeitsparend (time-saving), bahnbrechend (groundbreaking)."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Wettbewerb (competition) + faehig (capable). At 19 letters,\\na typical German compound. The Fugen-s is the glue."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "'Wettbewerb' (competition) + 'faehig' (capable). Competitive, able to compete. 'Wettbewerbsfaehige Preise' (competitive prices). At 19 letters, a typical German compound. The Fugen-s between Wettbewerb and faehig is the glue."
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "Börse (stock exchange) + notiert (listed/noted).\\nA compound participle adjective with Fugen-n."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "'Börse' (stock exchange) + 'notiert' (listed/noted). Listed on the stock exchange. 'Ein börsennotiertes Unternehmen' (a publicly listed company). The Fugen-n connects Börse to notiert."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "An (at) + legen (to lay). Separable: 'Ich lege mein Geld an.'\\nOne verb, many meanings depending on context."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "'An' (at) + 'legen' (to lay). To invest (money), to create (a garden), to put on (clothes). 'Geld anlegen' (to invest money). Separable: 'Ich lege mein Geld an.' One verb, many meanings depending on what you lay down."
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "From French 'profiter.' Always with 'von.'\\nNon-separable -ieren verb."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "From French 'profiter.' To profit, to benefit. 'Von etwas profitieren' (to profit from something). Always with 'von.' Non-separable -ieren verb. 'Alle profitieren von niedrigen Zinsen' (Everyone benefits from low interest rates)."
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "From Italian 'bilancio' (balance). 'Bilanz ziehen' means\\nboth a financial and philosophical expression."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "From Italian 'bilancio' (balance). A balance sheet. 'Bilanz ziehen' (to take stock/draw conclusions) is both a financial and a philosophical expression. Every year, companies and individuals 'ziehen Bilanz.'"
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "From Latin 'exportare' (to carry out). 'Made in Germany'\\ngoods make Germany the world's third-largest exporter."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "From Latin 'exportare' (to carry out). Export. 'Made in Germany' goods make Germany the world's third-largest exporter. Cars, machines, and chemicals are the top Exportgueter (export goods)."
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "From Latin 'importare' (to carry in). Germany imports\\nenergy, raw materials, and food."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "From Latin 'importare' (to carry in). Import. Germany imports energy, raw materials, and food. The Handelsbilanz (trade balance) between Export and Import has been positive for decades."
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "From Latin 'inflare' (to blow up). Germans have a deep\\ncultural fear of Inflation because of 1923."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "From Latin 'inflare' (to blow up). Inflation. Germans have a deep cultural fear of Inflation because of 1923, when a loaf of bread cost billions of Marks. The Bundesbank was designed to prevent it ever again."
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From Latin 'recessio' (retreat). Two consecutive quarters\\nof negative growth. The economy retreats like a tide."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "From Latin 'recessio' (retreat). Recession. Two consecutive quarters of negative growth. Germans call it also 'Konjunkturflaute' (economic doldrums). The economy retreats like a tide going out."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From Latin 'subventio' (assistance). Germany spends\\nbillions on Subventionen for agriculture, energy, industry."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "From Latin 'subventio' (assistance). A subsidy. The German government spends billions on Subventionen for agriculture, energy, and industry. 'Subventionen abbauen' (to reduce subsidies) is a perpetual political debate."
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "From French 'branche' (branch). Each branch of the\\neconomic tree is a Branche."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "From French 'branche' (branch). An industry, a sector. 'In welcher Branche arbeiten Sie?' (What industry do you work in?). Each branch of the economic tree is a Branche."
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "Roh (raw) + Stoff (material). Germany is poor in Rohstoffe\\nbut rich in engineering."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "'Roh' (raw) + 'Stoff' (material). A raw material. Germany is poor in Rohstoffe but rich in engineering. 'Rohstoffmangel' (resource shortage) shaped Germany's industrial strategy: import raw, export finished."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "Steuer (tax) + Satz (rate). Germany's top\\nEinkommensteuersatz is 45%."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "'Steuer' (tax) + 'Satz' (rate). Tax rate. Germany's top Einkommensteuersatz is 45%. The progressive system means the Steuersatz rises with income. Every German knows their Steuersatz."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "Lohn (wage) + Steuer (tax). Deducted directly from\\nyour paycheck. Germans never see this money."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "'Lohn' (wage) + 'Steuer' (tax). Wage tax, income tax on employment. Die Lohnsteuer is deducted directly from your paycheck by your employer. Germans never see this money. It vanishes before payday."
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Steuer (tax) + pflichtig (obligated). Everyone above\\nthe Grundfreibetrag is steuerpflichtig. No exceptions."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Steuer' (tax) + 'pflichtig' (obligated). Liable to tax. Everyone earning above the Grundfreibetrag (basic tax-free allowance) in Germany is steuerpflichtig. No exceptions."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "From Latin 'fiscalis' (of the treasury). A formal,\\ntechnical word found in economic reports."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "From Latin 'fiscalis' (of the treasury). Fiscal. 'Fiskalische Maßnahmen' (fiscal measures). The German Fiskus (treasury) collects taxes. A formal, technical word found in economic reports and policy papers."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "Konjunktur + -ell. Everything that rises and falls\\nwith the economic tide is konjunkturell."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "'Konjunktur' + '-ell' (adjective suffix). Related to the business cycle. 'Konjunkturelle Schwankungen' (cyclical fluctuations). Everything that rises and falls with the economic tide is konjunkturell."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "From Latin 'exportare.' Non-separable -ieren verb.\\nSame word across European languages."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "From Latin 'exportare.' To export. 'Deutschland exportiert Autos in die ganze Welt' (Germany exports cars to the whole world). Non-separable -ieren verb. Same word across European languages."
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "From Latin 'importare.' The mirror verb of exportieren.\\nBoth are non-separable -ieren verbs."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "From Latin 'importare.' To import. 'Rohstoffe importieren' (to import raw materials). The mirror verb of exportieren. Both are non-separable -ieren verbs."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Be- + steuern (to tax/steer). The be- prefix makes it\\ntransitive. Not separable."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'Be-' + 'steuern' (to tax/steer). To tax. 'Einkommen besteuern' (to tax income). The be- prefix makes it transitive. Not separable. 'Hoch besteuert' (heavily taxed) describes most things in Germany."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Ein (in) + sparen (to save). Separable: 'Wir sparen 20% ein.'\\nMore specific than 'sparen': reducing from a previous level."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'sparen' (to save). To save, to cut costs. 'Kosten einsparen' (to cut costs). Separable: 'Wir sparen 20% ein.' More specific than just 'sparen': einsparen implies reducing from a previous level."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Voraus (ahead) + sichtlich (visibly). A hedging word\\nthat financial analysts use constantly."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'Voraus' (ahead) + 'sichtlich' (visibly). Presumably, expected. 'Voraussichtlich wird die Wirtschaft wachsen' (The economy is expected to grow). A hedging word that financial analysts use constantly. Never commit, always qualify."
+  },
+  {
+    "line": 130,
+    "field": "note",
+    "english": "Strong verb. Sinken/sank/gesunken.\\nTakes 'sein'. Used for prices, values, temperatures."
+  },
+  {
+    "line": 130,
+    "field": "funFact",
+    "english": "Strong verb: sinken/sank/gesunken. Takes 'sein' because it describes a change of state. 'Die Zinsen sinken' (Interest rates are falling), 'die Temperaturen sinken' (temperatures drop). The opposite is 'steigen' (to rise). Essential in economic and financial German."
+  },
+  {
+    "line": 140,
+    "field": "note",
+    "english": "From Latin 'insolventia' (inability to pay). 'Insolvenz\\nanmelden' is a formal legal step."
+  },
+  {
+    "line": 140,
+    "field": "funFact",
+    "english": "From Latin 'insolventia' (inability to pay). Insolvency. 'Insolvenz anmelden' (to file for insolvency) is a formal legal step. Germany reformed its Insolvenzrecht (insolvency law) to give debtors a second chance after six years."
+  },
+  {
+    "line": 141,
+    "field": "note",
+    "english": "From Italian 'banca rotta' (broken bench). Medieval money\\nchangers worked at benches. Broken bench = bankruptcy."
+  },
+  {
+    "line": 141,
+    "field": "funFact",
+    "english": "From Italian 'banca rotta' (broken bench). Medieval Italian money changers worked at benches. When they could not pay, the bench was broken. The broken bench became bankruptcy."
+  },
+  {
+    "line": 142,
+    "field": "note",
+    "english": "From 'wachsen' (to grow) + '-tum.' The -tum ending\\nalways creates neuter nouns: Eigentum, Altertum."
+  },
+  {
+    "line": 142,
+    "field": "funFact",
+    "english": "From 'wachsen' (to grow) + '-tum' (state/condition). Growth. 'Wirtschaftswachstum' (economic growth) is the metric politicians celebrate. The -tum ending always creates neuter nouns: Eigentum, Altertum, Wachstum."
+  },
+  {
+    "line": 143,
+    "field": "note",
+    "english": "Auf (up) + Schwung (swing/momentum). The recovery\\nphase of the business cycle. The economy swings upward."
+  },
+  {
+    "line": 143,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'Schwung' (swing/momentum). An upswing, a boom. 'Wirtschaftlicher Aufschwung' describes the recovery phase of the business cycle. The economy swings upward."
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Konjunktur + Paket. Governments deploy these during\\nrecessions. Germany's 2020 package was 130 billion euros."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "'Konjunktur' (economic cycle) + 'Paket' (package). A stimulus package. Governments deploy these during recessions. Germany's 2020 Konjunkturpaket was 130 billion euros. A package to restart the economic engine."
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "From Latin 'deficit' (it is lacking). Germany's Schuldenbremse\\nin the constitution limits the federal Defizit."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "From Latin 'deficit' (it is lacking). A deficit. 'Haushaltsdefizit' (budget deficit). Germany's Schuldenbremse (debt brake) in the constitution limits the federal Defizit. No other country constitutionally bans deficits."
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Handel (trade) + Bilanz (balance). The difference between\\nexports and imports. Germany's is typically positive."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "'Handel' (trade) + 'Bilanz' (balance). Trade balance. The difference between exports and imports. Germany's Handelsbilanz is typically positive: more goes out than comes in."
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "Volk (people) + Wirtschaft (economy). 'VWL' is the study\\nof entire economies. Contrast: BWL studies companies."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "'Volk' (people) + 'Wirtschaft' (economy). National economy, macroeconomics. 'Volkswirtschaftslehre' (VWL) is the study of entire economies. Contrast: Betriebswirtschaft (BWL) studies individual companies."
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Global + -isierung (process suffix). The -ung ending\\nmakes it feminine."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "'Global' + '-isierung' (process suffix). Globalization. Germany is one of the most globalized economies on Earth. The -ung ending makes it feminine. 'Globalisierungskritiker' (critics of globalization) are loud in Germany."
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Defizit + -aer. The -aer ending comes from French\\nand always signals an adjective describing a state."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "'Defizit' + '-aer' (adjective suffix). Operating at a deficit. 'Ein defizitaerer Haushalt' (a deficit budget). The -aer ending comes from French and always signals an adjective describing a state."
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "Marktwirtschaft (market economy) + -lich. Germany calls\\nits system 'soziale Marktwirtschaft.'"
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "'Marktwirtschaft' (market economy) + '-lich.' Relating to the market economy. 'Marktwirtschaftliche Prinzipien' (market economy principles). Germany calls its system 'soziale Marktwirtschaft' (social market economy): capitalism with a safety net."
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "Volkswirtschaft + -lich. GDP, inflation, unemployment\\nare volkswirtschaftliche Indikatoren."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "'Volkswirtschaft' + '-lich.' Macroeconomic. 'Volkswirtschaftliche Daten' (macroeconomic data). The adjectival form of the national economy. GDP, inflation, unemployment are volkswirtschaftliche Indikatoren."
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "Betriebswirtschaft (business administration) + -lich.\\nThe micro-level counterpart to volkswirtschaftlich."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "'Betriebswirtschaft' (business administration) + '-lich.' Relating to business economics. 'Betriebswirtschaftliche Kennzahlen' (business metrics). The micro-level counterpart to volkswirtschaftlich."
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "From Latin 'concurrere' (to run together).\\nNon-separable -ieren verb. Originally: running the same race."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "From Latin 'concurrere' (to run together). To compete. 'Mit jemandem konkurrieren' (to compete with someone). Non-separable -ieren verb. Originally: running the same race."
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "From Latin 'sanare' (to heal). Healing a sick business.\\nAlso used for buildings."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "From Latin 'sanare' (to heal). To restructure, to renovate. 'Ein Unternehmen sanieren' (to restructure a company). Healing a sick business. Also used for buildings: 'ein Gebaede sanieren' (to renovate a building)."
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "From Latin 'consolidare' (to make firm). Making something\\nsolid that was shaky. Standard political-economic vocabulary."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "From Latin 'consolidare' (to make firm). To consolidate. 'Den Haushalt konsolidieren' (to consolidate the budget). Making something solid that was shaky. Standard political-economic vocabulary."
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "From Latin 'speculari' (to observe). Originally:\\nwatching from a watchtower. Now: bets on the future."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "From Latin 'speculari' (to observe). To speculate. 'An der Börse spekulieren' (to speculate on the stock market). Originally: watching from a watchtower. Now: making bets on the future."
+  }
+]

@@ -1,0 +1,1362 @@
+[
+  {
+    "english": "Versicherte (insured person) + Karte (card).\\nBring it to every doctor visit.",
+    "arabic": "Versicherte (الشخص المؤمَّن) + Karte (بطاقة).\\nاحملها معك في كل زيارة للطبيب."
+  },
+  {
+    "english": "From 'zahlen' (to pay) + -ung.\\n'Monatliche Zahlung' = monthly payment.",
+    "arabic": "من 'zahlen' (يدفع) + اللاحقة -ung.\\n'Monatliche Zahlung' = دفعة شهرية."
+  },
+  {
+    "english": "From 'mahnen' (to warn/remind).\\nThree levels: polite, firm, legal action.",
+    "arabic": "من 'mahnen' (ينذر/يذكّر).\\nثلاثة مستويات: مؤدب، حازم، إجراء قانوني."
+  },
+  {
+    "english": "Aus (out) + Gabe (giving). Money going out.\\nOpposite of Einnahme (income).",
+    "arabic": "Aus (خارج) + Gabe (إعطاء). الأموال الخارجة.\\nعكس Einnahme (الدخل)."
+  },
+  {
+    "english": "From 'erhöhen' (to increase/raise).\\nCompound with everything: Beitrags-, Miet-, Lohnerhöhung.",
+    "arabic": "من 'erhöhen' (يرفع/يزيد).\\nتُركَّب مع كل شيء: Beitrags-، Miet-، Lohnerhöhung."
+  },
+  {
+    "english": "From Latin 'summa.' International, mathematical.\\n'In Summe' = in total.",
+    "arabic": "من اللاتينية 'summa'. دولية ورياضية.\\n'In Summe' = في المجموع."
+  },
+  {
+    "english": "'Einkommensteuer' = income tax.\\n'Mehrwertsteuer' = VAT. Germany's tax system is famously complex.",
+    "arabic": "'Einkommensteuer' = ضريبة الدخل.\\n'Mehrwertsteuer' = ضريبة القيمة المضافة. النظام الضريبي في ألمانيا معروف بتعقيده."
+  },
+  {
+    "english": "'Mindestlohn' = minimum wage.\\nDifferent from 'Gehalt' (monthly salary, white-collar).",
+    "arabic": "'Mindestlohn' = الحد الأدنى للأجور.\\nيختلف عن 'Gehalt' (الراتب الشهري لأصحاب الياقات البيضاء)."
+  },
+  {
+    "english": "Be- + rechnen (to calculate).\\nCalculation and billing in one verb.",
+    "arabic": "البادئة Be- + rechnen (يحسب).\\nالحساب وإصدار الفاتورة في فعل واحد."
+  },
+  {
+    "english": "From French 'financer.' The -ieren ending = borrowed verb.\\nRegular, predictable, international.",
+    "arabic": "من الفرنسية 'financer'. اللاحقة -ieren تدل على فعل مُستعار.\\nمنتظم وقياسي ودولي."
+  },
+  {
+    "english": "Ein (in) + Nahme (taking). Money coming in.\\nAlso: 'Einnahme von Medizin' = taking medicine.",
+    "arabic": "Ein (داخل) + Nahme (أخذ). الأموال الواردة.\\nأيضاً: 'Einnahme von Medizin' = تناول الدواء."
+  },
+  {
+    "english": "Ein (in) + Kauf (purchase).\\n'Einkäufe machen' = to do shopping.",
+    "arabic": "Ein (داخل) + Kauf (شراء).\\n'Einkäufe machen' = التسوق."
+  },
+  {
+    "english": "From 'kaufen' (to buy).\\n'Kaufvertrag' = purchase contract. Short, sharp, commercial.",
+    "arabic": "من 'kaufen' (يشتري).\\n'Kaufvertrag' = عقد البيع. قصير وحاد ومتعلق بالتجارة."
+  },
+  {
+    "english": "From 'gewinnen' (to win).\\n'Gewinn machen' = to make a profit.",
+    "arabic": "من 'gewinnen' (يفوز/يكسب).\\n'Gewinn machen' = تحقيق ربح."
+  },
+  {
+    "english": "From 'nieder' (down).\\n'Niedrig' for measurable things, 'tief' for depth and emotion.",
+    "arabic": "من 'nieder' (أسفل).\\n'Niedrig' للأشياء القابلة للقياس، و'tief' للعمق والمشاعر."
+  },
+  {
+    "english": "More formal than 'niedrig.'\\n'Nicht im Geringsten' = not in the slightest.",
+    "arabic": "أكثر رسمية من 'niedrig'.\\n'Nicht im Geringsten' = ليس أدنى شيء."
+  },
+  {
+    "english": "'Knapp bei Kasse' = tight on money.\\n'Knapp gewonnen' = barely won.",
+    "arabic": "'Knapp bei Kasse' = ضائق مالياً.\\n'Knapp gewonnen' = فاز بصعوبة."
+  },
+  {
+    "english": "In German, prepositions stay with the relative pronoun. In English, you might say 'the letter I am complaining ABOUT.' In German, the preposition comes FIRST:\\n\\nDer Brief, ÜBER DEN ich mich beschwere.\\n\\nThe preposition opens the relative clause, followed by the relative pronoun, and the verb goes to the end.\\n\\nThe relative pronoun matches:\\n- Gender from the noun it refers to\\n- Case from the preposition\\n\\nExamples:\\n- Die Karte, MIT DER du zum Arzt gehst (mit takes dative, die is feminine)\\n- Der Brief, ÜBER DEN du dich beschwerst (über takes accusative, der is masculine)\\n- Das Formular, AUF DAS ich warte (auf takes accusative, das is neuter)",
+    "arabic": "في اللغة الألمانية، تبقى حروف الجر مع الضمير الوصلي. في الإنجليزية قد تقول 'the letter I am complaining ABOUT'. أما في الألمانية، فيأتي حرف الجر أولاً:\\n\\nDer Brief, ÜBER DEN ich mich beschwere.\\n\\nيفتتح حرف الجر الجملة الوصلية، يعقبه الضمير الوصلي، ثم يأتي الفعل في النهاية.\\n\\nيتطابق الضمير الوصلي مع:\\n- جنس الاسم الذي يعود إليه\\n- الحالة الإعرابية التي يفرضها حرف الجر\\n\\nأمثلة:\\n- Die Karte, MIT DER du zum Arzt gehst (mit تتطلب حالة المفعول غير المباشر، die مؤنث)\\n- Der Brief, ÜBER DEN du dich beschwerst (über تتطلب المفعول به، der مذكر)\\n- Das Formular, AUF DAS ich warte (auf تتطلب المفعول به، das محايد)"
+  },
+  {
+    "english": "Step 1: Identify the preposition the verb needs (sich beschweren ÜBER, warten AUF, sich entscheiden FÜR).\\n\\nStep 2: Determine the case the preposition requires (accusative or dative).\\n\\nStep 3: Match the relative pronoun to the gender of the noun AND the case from the preposition.\\n\\nDer Brief (über + acc, masculine) = über den\\nDie Karte (mit + dat, feminine) = mit der\\nDas Formular (auf + acc, neuter) = auf das\\n\\nThe verb always goes to the end of the relative clause.",
+    "arabic": "الخطوة 1: حدد حرف الجر الذي يتطلبه الفعل (sich beschweren ÜBER، warten AUF، sich entscheiden FÜR).\\n\\nالخطوة 2: حدد الحالة الإعرابية التي يفرضها حرف الجر (المفعول به أو المفعول غير المباشر).\\n\\nالخطوة 3: طابق الضمير الوصلي مع جنس الاسم والحالة الإعرابية المستمدة من حرف الجر.\\n\\nDer Brief (über + مفعول به، مذكر) = über den\\nDie Karte (mit + مفعول غير مباشر، مؤنث) = mit der\\nDas Formular (auf + مفعول به، محايد) = auf das\\n\\nيذهب الفعل دائماً إلى نهاية الجملة الوصلية."
+  },
+  {
+    "english": "From Latin 'emplastrum.'\\nAlso means 'pavement' (Kopfsteinpflaster = cobblestone).",
+    "arabic": "من اللاتينية 'emplastrum'.\\nتعني أيضاً 'الرصيف' (Kopfsteinpflaster = الرصيف الحجري)."
+  },
+  {
+    "english": "Cognate with English 'salve.'\\nFrom Latin 'salvare' (to save/heal).",
+    "arabic": "مرتبطة بالإنجليزية 'salve'.\\nمن اللاتينية 'salvare' (ينقذ/يشفي)."
+  },
+  {
+    "english": "Cognate with English 'salve.' From Latin 'salvare' (to save/heal). One of the oldest medicine words in Germanic languages. Apply to Haut for relief.",
+    "arabic": "مرتبطة بالإنجليزية 'salve'. من اللاتينية 'salvare' (ينقذ/يشفي). من أقدم الكلمات الطبية في اللغات الجرمانية. تُدهن على Haut (الجلد) للتخفيف من الألم."
+  },
+  {
+    "english": "From Latin 'pilula' (little ball).\\n'Die Pille' alone usually means the contraceptive pill.",
+    "arabic": "من اللاتينية 'pilula' (كرة صغيرة).\\n'Die Pille' وحدها تعني عادةً حبة منع الحمل."
+  },
+  {
+    "english": "'Die Pille' by itself usually means the contraceptive pill. For other pills: 'Tablette' or 'Pille gegen Kopfschmerzen.' Context-dependent social meaning.",
+    "arabic": "'Die Pille' بمفردها تعني عادةً حبة منع الحمل. للحبوب الأخرى: 'Tablette' أو 'Pille gegen Kopfschmerzen'. معنى اجتماعي يعتمد على السياق."
+  },
+  {
+    "english": "From 'spritzen' (to spray/squirt).\\n'Spritzenphobie' is a real diagnosis.",
+    "arabic": "من 'spritzen' (يرش/يحقن).\\n'Spritzenphobie' تشخيص طبي حقيقي."
+  },
+  {
+    "english": "Germans fear the Spritze more than most medical procedures. 'Spritzenphobie' is a real diagnosis. From 'spritzen' (to spray/squirt).",
+    "arabic": "يخشى الألمان Spritze (الحقنة) أكثر من معظم الإجراءات الطبية. 'Spritzenphobie' تشخيص طبي حقيقي. من 'spritzen' (يرش/يحقن)."
+  },
+  {
+    "english": "'Augentropfen' = eye drops, 'Nasentropfen' = nose drops.\\nAlso the verb 'tropfen' (to drip).",
+    "arabic": "'Augentropfen' = قطرات العين، 'Nasentropfen' = قطرات الأنف.\\nأيضاً الفعل 'tropfen' (يقطر)."
+  },
+  {
+    "english": "'Ein Tropfen auf den heißen Stein' (a drop on a hot stone) means a futile effort. The drop evaporates before it can help. A beautifully pessimistic idiom.",
+    "arabic": "'Ein Tropfen auf den heißen Stein' (قطرة على حجر ساخن) تعني جهداً عقيماً. تتبخر القطرة قبل أن تفيد. تعبير اصطلاحي ذو طابع تشاؤمي رائع."
+  },
+  {
+    "english": "Schmerz (pain) + Mittel (means/remedy).\\nTransparent compound: pain-means.",
+    "arabic": "Schmerz (ألم) + Mittel (وسيلة/علاج).\\nمركب شفاف: وسيلة الألم."
+  },
+  {
+    "english": "German compounds are transparent: pain-means. You always know what you are swallowing. 'Schmerzmittel einnehmen' (to take painkillers).",
+    "arabic": "المركبات الألمانية شفافة: وسيلة الألم. دائماً تعرف ما تبتلعه. 'Schmerzmittel einnehmen' (تناول مسكنات الألم)."
+  },
+  {
+    "english": "From 'schnupfen' (to sniff).\\nLess formal than Erkältung. Focuses on the nose.",
+    "arabic": "من 'schnupfen' (يشخر/يستنشق).\\nأقل رسمية من Erkältung. تركز على الأنف."
+  },
+  {
+    "english": "Schnupfen focuses on the nose; Erkältung is the whole-body cold. From 'schnupfen' (to sniff). Less formal, more specific.",
+    "arabic": "Schnupfen تركز على الأنف، أما Erkältung فتشمل البرد الذي يصيب الجسم كله. من 'schnupfen' (يستنشق). أقل رسمية وأكثر تحديداً."
+  },
+  {
+    "english": "Also the verb 'husten' (to cough).\\n'Hustensirup' = cough syrup. Onomatopoeia.",
+    "arabic": "أيضاً الفعل 'husten' (يسعل).\\n'Hustensirup' = شراب السعال. محاكاة صوتية."
+  },
+  {
+    "english": "Onomatopoeia: the word sounds like a cough. Same root as English 'cough' before English changed its spelling. 'Hustensirup' (cough syrup) is a pharmacy staple.",
+    "arabic": "محاكاة صوتية: الكلمة تشبه صوت السعال. نفس الجذر الإنجليزي 'cough' قبل أن تتغير الكتابة. 'Hustensirup' (شراب السعال) من أساسيات الصيدلية."
+  },
+  {
+    "english": "From Latin 'infectio.'\\nThe -tion ending is always feminine, always stressed on the last syllable.",
+    "arabic": "من اللاتينية 'infectio'.\\nاللاحقة -tion مؤنثة دائماً، والتشديد على المقطع الأخير دائماً."
+  },
+  {
+    "english": "Identical in most European languages. The -tion ending is always feminine in German, always stressed on the last syllable. A reliable pattern.",
+    "arabic": "متشابهة في معظم اللغات الأوروبية. اللاحقة -tion مؤنثة دائماً في الألمانية، والتشديد على المقطع الأخير دائماً. نمط يمكن الاعتماد عليه."
+  },
+  {
+    "english": "From Latin 'virus' (poison).\\nNeuter (das Virus), though some say 'der Virus.'",
+    "arabic": "من اللاتينية 'virus' (سم).\\nمحايد الجنس (das Virus)، وإن كان بعضهم يقول 'der Virus'."
+  },
+  {
+    "english": "Neuter in German (das Virus), though some Germans say 'der Virus.' The Duden accepts both. Scientists insist on 'das.' A rare grammar debate in medicine.",
+    "arabic": "محايد الجنس في الألمانية (das Virus)، وإن كان بعض الألمان يقولون 'der Virus'. يقبل قاموس Duden الاثنين. يصر العلماء على 'das'. جدل نحوي نادر في مجال الطب."
+  },
+  {
+    "english": "Ver- + schreiben (to write). The doctor writes for you.\\n'Sich verschreiben' = to make a writing mistake.",
+    "arabic": "البادئة Ver- + schreiben (يكتب). الطبيب يكتب لك.\\n'Sich verschreiben' = ارتكاب خطأ إملائي."
+  },
+  {
+    "english": "The doctor writes something for you. 'Sich verschreiben' means to make a writing mistake. The ver- prefix changes everything. One letter, two very different meanings.",
+    "arabic": "الطبيب يكتب لك شيئاً. 'Sich verschreiben' تعني ارتكاب خطأ في الكتابة. البادئة ver- تغير كل شيء. حرف واحد، معنيان مختلفان تماماً."
+  },
+  {
+    "english": "Ein + nehmen. Separable prefix.\\n'Nehmen Sie die Tabletten zweimal täglich ein.'",
+    "arabic": "Ein + nehmen. بادئة قابلة للفصل.\\n'Nehmen Sie die Tabletten zweimal täglich ein.' (تناول الأقراص مرتين يومياً)."
+  },
+  {
+    "english": "Separable: 'Nehmen Sie die Tabletten zweimal täglich ein.' Also: 'Einnahmen' (revenue). Medicine intake and money intake share a verb.",
+    "arabic": "قابل للفصل: 'Nehmen Sie die Tabletten zweimal täglich ein.' أيضاً: 'Einnahmen' (الإيرادات). تناول الدواء وتحصيل المال يشتركان في فعل واحد."
+  },
+  {
+    "english": "From Latin 'operari.' Regular: -ieren ending.\\n'Am Knie operiert' = operated on the knee.",
+    "arabic": "من اللاتينية 'operari'. منتظم: اللاحقة -ieren.\\n'Am Knie operiert' = أجريت له عملية في الركبة."
+  },
+  {
+    "english": "The -ieren ending makes it regular and predictable. 'Operiert werden' (to be operated on). A serious verb for a serious procedure.",
+    "arabic": "اللاحقة -ieren تجعله منتظماً وقياسياً. 'Operiert werden' (الخضوع لعملية جراحية). فعل جدي لإجراء جدي."
+  },
+  {
+    "english": "Feminine of Arzt. The -in suffix is standard.\\nModern: 'Ärzt*in' for inclusive forms.",
+    "arabic": "المؤنث من Arzt. اللاحقة -in هي المعيار.\\nالحديث: 'Ärzt*in' للصيغ الشاملة."
+  },
+  {
+    "english": "The feminine of Arzt. In modern German, many institutions use 'Ärzt*in' to be inclusive. The -in suffix is the standard feminine marker for person nouns.",
+    "arabic": "المؤنث من Arzt. في الألمانية الحديثة، تستخدم كثير من المؤسسات 'Ärzt*in' لتكون شاملة. اللاحقة -in هي العلامة المؤنثة القياسية لأسماء الأشخاص."
+  },
+  {
+    "english": "Feminine of Doktor.\\n'Frau Doktor' is more common than 'Frau Doktorin.'",
+    "arabic": "المؤنث من Doktor.\\n'Frau Doktor' أكثر شيوعاً من 'Frau Doktorin'."
+  },
+  {
+    "english": "'Frau Doktorin Müller' is extremely formal. Most people simply say 'Frau Doktor.' The -in is grammatically correct but socially optional with titles.",
+    "arabic": "'Frau Doktorin Müller' رسمية للغاية. معظم الناس يقولون ببساطة 'Frau Doktor'. اللاحقة -in صحيحة نحوياً لكنها اختيارية اجتماعياً مع الألقاب."
+  },
+  {
+    "english": "From 'schwierig' (difficult) + -keit.\\nAbstract noun from adjective.",
+    "arabic": "من 'schwierig' (صعب) + اللاحقة -keit.\\nاسم مجرد مشتق من صفة."
+  },
+  {
+    "english": "The -keit suffix turns adjectives into abstract nouns. 'Finanzielle Schwierigkeiten' (financial difficulties). The insurance letters are full of Schwierigkeiten.",
+    "arabic": "اللاحقة -keit تحول الصفات إلى أسماء مجردة. 'Finanzielle Schwierigkeiten' (صعوبات مالية). رسائل التأمين مليئة بالـ Schwierigkeiten."
+  },
+  {
+    "english": "From Latin 'maximus.'\\n'Maximal zwei Tabletten pro Tag.'",
+    "arabic": "من اللاتينية 'maximus'.\\n'Maximal zwei Tabletten pro Tag.' (قرصان على الأكثر يومياً)."
+  },
+  {
+    "english": "In insurance: 'maximale Erstattung' (maximum reimbursement). International, transparent, precise. From Latin 'maximus.'",
+    "arabic": "في التأمين: 'maximale Erstattung' (الحد الأقصى للتعويض). دولية وشفافة ودقيقة. من اللاتينية 'maximus'."
+  },
+  {
+    "english": "The opposite of maximal.\\n'Minimaler Aufwand, maximaler Effekt.'",
+    "arabic": "عكس maximal.\\n'Minimaler Aufwand, maximaler Effekt.' (جهد أدنى، أثر أقصى)."
+  },
+  {
+    "english": "'Minimaler Aufwand, maximaler Effekt' (minimal effort, maximum effect). Insurance companies love this phrase. For them, not for you.",
+    "arabic": "'Minimaler Aufwand, maximaler Effekt' (جهد أدنى، أثر أقصى). شركات التأمين تحب هذه العبارة. لمصلحتهم، لا لمصلحتك."
+  },
+  {
+    "english": "Des (of that) + wegen (because of). Synonym of deshalb.\\nMain clause connector: verb in second position after it.",
+    "arabic": "Des (من ذلك) + wegen (بسبب). مرادف لـ deshalb.\\nرابط الجملة الرئيسية: يأتي الفعل في الموضع الثاني بعده."
+  },
+  {
+    "english": "Deswegen, deshalb, daher, darum all mean therefore. Germans use them interchangeably. Deswegen literally breaks down to des (of that) + wegen (because of): because of that.",
+    "arabic": "Deswegen وdeshalb وdaher وdarum كلها تعني 'لذلك'. يستخدمها الألمان بالتبادل. Deswegen تتحلل حرفياً إلى des (من ذلك) + wegen (بسبب): بسبب ذلك."
+  },
+  {
+    "english": "These words connect two main clauses and show cause, contrast, or consequence. The verb comes IMMEDIATELY after them (V2 position).\\n\\nThe pattern is: first main clause, then the adverbial conjunction, then the verb, then the subject.\\n\\n- deshalb (therefore): Er ist krank. Deshalb geht er zum Arzt.\\n- trotzdem (nevertheless): Es regnet. Trotzdem geht sie joggen.\\n- deswegen (that is why): Die Kosten steigen. Deswegen zahlen wir mehr.\\n- also (so/therefore): Du bist versichert. Also musst du dir keine Sorgen machen.\\n- sonst (otherwise): Nimm die Medizin. Sonst wird es schlimmer.\\n\\nCompare with weil (subordinating), which pushes the verb to the END:\\nEr geht zum Arzt, weil er krank ist.\\n\\nDeshalb (adverbial) keeps the verb in second position:\\nEr ist krank. Deshalb GEHT er zum Arzt.",
+    "arabic": "هذه الكلمات تربط جملتين رئيسيتين وتُظهر السبب أو التناقض أو النتيجة. يأتي الفعل مباشرة بعدها (الموضع الثاني).\\n\\nالنمط هو: الجملة الرئيسية الأولى، ثم الأداة الظرفية، ثم الفعل، ثم الفاعل.\\n\\n- deshalb (لذلك): Er ist krank. Deshalb geht er zum Arzt.\\n- trotzdem (ومع ذلك): Es regnet. Trotzdem geht sie joggen.\\n- deswegen (لهذا السبب): Die Kosten steigen. Deswegen zahlen wir mehr.\\n- also (إذن/لذا): Du bist versichert. Also musst du dir keine Sorgen machen.\\n- sonst (وإلا): Nimm die Medizin. Sonst wird es schlimmer.\\n\\nقارن مع weil (الرابط الإخضاعي) الذي يدفع الفعل إلى النهاية:\\nEr geht zum Arzt, weil er krank ist.\\n\\ndeshalb (الظرفي) يبقي الفعل في الموضع الثاني:\\nEr ist krank. Deshalb GEHT er zum Arzt."
+  },
+  {
+    "english": "Subordinating conjunctions (weil, dass, obwohl, damit, falls) push the verb to the END of the clause:\\nEr geht zum Arzt, weil er krank IST.\\n\\nAdverbial conjunctions (deshalb, trotzdem, deswegen, also, sonst) keep the verb in SECOND position:\\nEr ist krank. Deshalb GEHT er zum Arzt.\\n\\nThe key difference: subordinating conjunctions create Nebensätze (subordinate clauses). Adverbial conjunctions connect two Hauptsätze (main clauses). The word order tells you which type you are dealing with.",
+    "arabic": "الروابط الإخضاعية (weil، dass، obwohl، damit، falls) تدفع الفعل إلى نهاية الجملة:\\nEr geht zum Arzt, weil er krank IST.\\n\\nالروابط الظرفية (deshalb، trotzdem، deswegen، also، sonst) تبقي الفعل في الموضع الثاني:\\nEr ist krank. Deshalb GEHT er zum Arzt.\\n\\nالفرق الجوهري: الروابط الإخضاعية تُنشئ Nebensätze (الجمل التابعة). الروابط الظرفية تربط Hauptsätze (الجمل الرئيسية). ترتيب الكلمات يُخبرك بأي النوعين تتعامل معه."
+  },
+  {
+    "english": "Both trigger inversion (verb in position 2), but with opposite logic:\\n\\ndeshalb = expected result (consequence):\\nEs regnet. Deshalb bleibe ich zu Hause. (logical)\\n\\ntrotzdem = unexpected result (surprise):\\nEs regnet. Trotzdem gehe ich raus. (unexpected)\\n\\ndeshalb = 'deswegen' / trotzdem = 'trotz dessen' (despite that)",
+    "arabic": "كلاهما يُحفز القلب (الفعل في الموضع الثاني)، لكن بمنطق معاكس:\\n\\ndeshalb = نتيجة متوقعة:\\nEs regnet. Deshalb bleibe ich zu Hause. (منطقي)\\n\\ntrotzdem = نتيجة غير متوقعة (مفاجأة):\\nEs regnet. Trotzdem gehe ich raus. (غير متوقع)\\n\\ndeshalb = مرادف 'deswegen' / trotzdem = مرادف 'trotz dessen' (على الرغم من ذلك)"
+  },
+  {
+    "english": "trotzdem = everyday speech\\ndennoch = formal written language, essays, news\\n\\n'Der Markt fiel. Dennoch blieben die Anleger ruhig.'\\n(The market fell. Nevertheless the investors remained calm.)\\n\\nIn conversation: trotzdem.\\nIn an essay: dennoch.",
+    "arabic": "trotzdem = لغة الحياة اليومية\\ndennoch = اللغة المكتوبة الرسمية، المقالات، الأخبار\\n\\n'Der Markt fiel. Dennoch blieben die Anleger ruhig.'\\n(هبط السوق. ومع ذلك بقي المستثمرون هادئين.)\\n\\nفي الحوار: trotzdem.\\nفي المقال: dennoch."
+  },
+  {
+    "english": "obwohl = subordinating conjunction, verb goes to the END:\\nObwohl es regnet, gehe ich raus.\\n[Subclause: verb LAST] [Main clause: V2]\\n\\ntrotzdem = adverb, verb stays in position 2:\\nEs regnet. Trotzdem gehe ich raus.\\n[Main clause 1] [Main clause 2]\\n\\nSame meaning. Completely different grammar.\\nTest: Can you start a new sentence with it? trotzdem YES, obwohl NO.",
+    "arabic": "obwohl = رابط إخضاعي، يذهب الفعل إلى النهاية:\\nObwohl es regnet, gehe ich raus.\\n[جملة تابعة: الفعل في النهاية] [جملة رئيسية: الموضع الثاني]\\n\\ntrotzdem = ظرف، يبقى الفعل في الموضع الثاني:\\nEs regnet. Trotzdem gehe ich raus.\\n[جملة رئيسية 1] [جملة رئيسية 2]\\n\\nنفس المعنى. قواعد مختلفة تماماً.\\nاختبار: هل يمكنك بدء جملة جديدة به؟ trotzdem نعم، obwohl لا."
+  },
+  {
+    "english": "With obwohl (one complex sentence):\\nObwohl es kalt ist, gehe ich schwimmen.\\n[Subclause: verb at end] [Main clause: V2]\\n\\nWith trotzdem (two main clauses):\\nEs ist kalt. Trotzdem gehe ich schwimmen.\\n[Main clause 1] [Main clause 2: V2 after trotzdem]\\n\\nPractice converting:\\nobwohl sentence to trotzdem sentence and vice versa.",
+    "arabic": "مع obwohl (جملة مركبة واحدة):\\nObwohl es kalt ist, gehe ich schwimmen.\\n[جملة تابعة: الفعل في النهاية] [جملة رئيسية: الموضع الثاني]\\n\\nمع trotzdem (جملتان رئيسيتان):\\nEs ist kalt. Trotzdem gehe ich schwimmen.\\n[جملة رئيسية 1] [جملة رئيسية 2: الموضع الثاني بعد trotzdem]\\n\\nتدرب على التحويل:\\nمن جملة obwohl إلى جملة trotzdem والعكس."
+  },
+  {
+    "english": "From casual to formal:\\n\\nauch = also (simplest form)\\naußerdem = moreover (everyday, versatile)\\nzudem = furthermore (slightly formal)\\ndarüber hinaus = beyond that (essays only)\\n\\nAll add new information. außerdem is the safe default.",
+    "arabic": "من غير الرسمي إلى الرسمي:\\n\\nauch = أيضاً (الأبسط)\\naußerdem = علاوة على ذلك (يومي ومتعدد الاستخدام)\\nzudem = فضلاً عن ذلك (رسمي نسبياً)\\ndarüber hinaus = بالإضافة إلى ما سبق (للمقالات فقط)\\n\\nكلها تضيف معلومات جديدة. außerdem هو الخيار الآمن الافتراضي."
+  },
+  {
+    "english": "Position 1 (with inversion):\\nAußerdem spricht sie Französisch.\\n\\nMiddle of sentence (without inversion):\\nSie spricht außerdem Französisch.\\n\\nBoth correct. Position 1 emphasizes the addition.",
+    "arabic": "الموضع الأول (مع القلب):\\nAußerdem spricht sie Französisch.\\n\\nوسط الجملة (بدون قلب):\\nSie spricht außerdem Französisch.\\n\\nكلاهما صحيح. الموضع الأول يؤكد الإضافة."
+  },
+  {
+    "english": "sowohl A als auch B = both A and B:\\nSie ist sowohl intelligent als auch fleißig.\\n\\nweder A noch B = neither A nor B:\\nEr trinkt weder Kaffee noch Tee.\\n\\nIMPORTANT: weder...noch is already negative.\\nNever add nicht or kein on top:\\nEr trinkt weder Kaffee noch Tee. (correct)\\nEr trinkt nicht weder Kaffee noch Tee. (incorrect)",
+    "arabic": "sowohl A als auch B = كلا A وB:\\nSie ist sowohl intelligent als auch fleißig.\\n\\nweder A noch B = لا A ولا B:\\nEr trinkt weder Kaffee noch Tee.\\n\\nمهم: weder...noch بحد ذاتها نافية.\\nلا تضف nicht أو kein فوقها:\\nEr trinkt weder Kaffee noch Tee. (صحيح)\\nEr trinkt nicht weder Kaffee noch Tee. (خطأ)"
+  },
+  {
+    "english": "With full sentences, weder triggers inversion in both parts:\\nWeder hat er Zeit, noch hat er Lust.\\n(Neither does he have time, nor does he feel like it.)\\n\\nThe verb comes in BOTH parts directly after weder/noch.",
+    "arabic": "مع الجمل الكاملة، يُحفز weder القلب في كلا الجزأين:\\nWeder hat er Zeit, noch hat er Lust.\\n(لا وقت لديه، ولا رغبة.)\\n\\nيأتي الفعل في كلا الجزأين مباشرة بعد weder/noch."
+  },
+  {
+    "english": "NOT a drugstore in the American sense.\\ndm, Rossmann, Müller: toiletries, cosmetics, household. No medicine.",
+    "arabic": "ليست صيدلية بالمعنى الأمريكي.\\ndm وRossmann وMüller: مستلزمات العناية الشخصية ومستحضرات التجميل والمواد المنزلية. لا أدوية."
+  },
+  {
+    "english": "A famous false friend. A Drogerie sells toiletries, cosmetics, and household products. No prescription drugs. For medicine, you need the Apotheke.",
+    "arabic": "صديق كاذب مشهور. تبيع Drogerie مستلزمات العناية الشخصية ومستحضرات التجميل والمنتجات المنزلية. لا أدوية بوصفة طبية. للأدوية، تحتاج إلى Apotheke."
+  },
+  {
+    "english": "Zahn (tooth) + Creme (cream).\\nAlso called 'Zahnpasta.' Both are correct.",
+    "arabic": "Zahn (سن) + Creme (كريم).\\nيُقال لها أيضاً 'Zahnpasta'. كلاهما صحيح."
+  },
+  {
+    "english": "Germans use both Zahncreme and Zahnpasta interchangeably. Regional preference: north tends toward Zahnpasta, south toward Zahncreme.",
+    "arabic": "يستخدم الألمان Zahncreme وZahnpasta بالتبادل. التفضيل الإقليمي: الشمال يميل إلى Zahnpasta، والجنوب إلى Zahncreme."
+  },
+  {
+    "english": "Zahn (tooth) + Pasta (paste). From Italian.\\nSynonym for Zahncreme.",
+    "arabic": "Zahn (سن) + Pasta (معجون). من الإيطالية.\\nمرادف لـ Zahncreme."
+  },
+  {
+    "english": "From Italian 'pasta' (paste). The other word for toothpaste. Both Zahncreme and Zahnpasta are correct. Regional and personal preference decides.",
+    "arabic": "من الإيطالية 'pasta' (معجون). الكلمة الأخرى لمعجون الأسنان. كلا Zahncreme وZahnpasta صحيحان. التفضيل الإقليمي والشخصي يحسم الأمر."
+  },
+  {
+    "english": "Zahn (tooth) + Bürste (brush).\\nCompound noun: you already know both halves.",
+    "arabic": "Zahn (سن) + Bürste (فرشاة).\\nاسم مركب: أنت تعرف بالفعل كلا الجزأين."
+  },
+  {
+    "english": "Compound noun: you already know both halves. This is how German vocabulary grows exponentially. Know the parts, know the whole.",
+    "arabic": "اسم مركب: أنت تعرف بالفعل كلا الجزأين. هكذا تنمو المفردات الألمانية بشكل أسي. اعرف الأجزاء، تعرف الكل."
+  },
+  {
+    "english": "Not just for teeth: Haarbürste, Schuhbürste, Nagelbürste.\\nA bristle tool for cleaning anything.",
+    "arabic": "ليست للأسنان فقط: Haarbürste (فرشاة الشعر)، Schuhbürste (فرشاة الأحذية)، Nagelbürste (فرشاة الأظافر).\\nأداة بشعيرات لتنظيف أي شيء."
+  },
+  {
+    "english": "Haarbürste (hairbrush), Schuhbürste (shoe brush), Nagelbürste (nail brush). A bristle tool for cleaning anything. From Middle High German 'burste.'",
+    "arabic": "Haarbürste (فرشاة الشعر)، Schuhbürste (فرشاة الأحذية)، Nagelbürste (فرشاة الأظافر). أداة بشعيرات لتنظيف أي شيء. من الألمانية الوسطى العليا 'burste'."
+  },
+  {
+    "english": "Tasche (pocket) + Tuch (cloth).\\nTempo is the generic German word for tissue.",
+    "arabic": "Tasche (جيب) + Tuch (قماش).\\nTempo هي الكلمة العامة في الألمانية للمنديل الورقي."
+  },
+  {
+    "english": "Tempo is the generic German word for tissue (brand name, like Kleenex in English). 'Hast du ein Taschentuch?' is what you ask when someone has Schnupfen.",
+    "arabic": "Tempo هي الكلمة العامة في الألمانية للمنديل الورقي (اسم تجاري كـ Kleenex في الإنجليزية). 'Hast du ein Taschentuch?' هي ما تسأل به حين يعاني شخص من Schnupfen (سيلان الأنف)."
+  },
+  {
+    "english": "From 'pflegen' (to care for) + -er.\\n'Altenpfleger' = elderly care worker.",
+    "arabic": "من 'pflegen' (يعتني بـ) + اللاحقة -er.\\n'Altenpfleger' = عامل رعاية المسنين."
+  },
+  {
+    "english": "An increasingly important profession in aging Germany. The country has a chronic shortage of Pfleger. 'Altenpfleger' (elderly care worker) is one of the most needed jobs.",
+    "arabic": "مهنة تكتسب أهمية متزايدة في ألمانيا الشائخة. تعاني البلاد من نقص مزمن في Pfleger. 'Altenpfleger' (عامل رعاية المسنين) من أكثر الوظائف المطلوبة."
+  },
+  {
+    "english": "Pfleger + -in. Standard feminine suffix.\\nThe majority of Pflege workers are female.",
+    "arabic": "Pfleger + اللاحقة -in. اللاحقة المؤنثة القياسية.\\nغالبية عمال Pflege من الإناث."
+  },
+  {
+    "english": "The majority of Pflege workers in Germany are female. The profession is chronically understaffed. Same pattern: male -er, female -erin.",
+    "arabic": "غالبية عمال Pflege في ألمانيا من الإناث. تعاني المهنة من نقص مزمن في الموظفين. نفس النمط: المذكر -er، والمؤنث -erin."
+  },
+  {
+    "english": "Kranke (sick person) + Pfleger (carer).\\nModern: 'Pflegefachkraft' for all genders.",
+    "arabic": "Kranke (الشخص المريض) + Pfleger (المعتني).\\nالحديث: 'Pflegefachkraft' لجميع الأجناس."
+  },
+  {
+    "english": "Modern German is moving toward 'Pflegefachkraft' for all genders. But 'Krankenpfleger' is still widely understood and used.",
+    "arabic": "تتجه الألمانية الحديثة نحو 'Pflegefachkraft' لجميع الأجناس. لكن 'Krankenpfleger' لا يزال مفهوماً وشائع الاستخدام على نطاق واسع."
+  },
+  {
+    "english": "Kranke (sick) + Schwester (sister).\\nHistorically, nuns cared for the sick. The name stuck.",
+    "arabic": "Kranke (مريض) + Schwester (أخت).\\nتاريخياً، كانت الراهبات يعتنين بالمرضى. بقي الاسم."
+  },
+  {
+    "english": "Historically, nuns (Schwestern) cared for the sick. The name stuck. Being phased out officially in favor of 'Pflegefachfrau,' but still widely used.",
+    "arabic": "تاريخياً، كانت الراهبات (Schwestern) يعتنين بالمرضى. بقي الاسم. يتم التخلص منه رسمياً لصالح 'Pflegefachfrau'، لكنه لا يزال شائع الاستخدام."
+  },
+  {
+    "english": "From 'betreuen' (to look after).\\nBroader than Pfleger: children, patients, elderly.",
+    "arabic": "من 'betreuen' (يشرف على/يرعى).\\nأوسع من Pfleger: الأطفال، والمرضى، والمسنون."
+  },
+  {
+    "english": "Broader than Pfleger: a Betreuer can supervise children, patients, or elderly. 'Kinderbetreuer' (childcare worker). The person responsible for your wellbeing.",
+    "arabic": "أوسع من Pfleger: يمكن لـ Betreuer الإشراف على الأطفال أو المرضى أو المسنين. 'Kinderbetreuer' (عامل رعاية الأطفال). الشخص المسؤول عن رفاهيتك."
+  },
+  {
+    "english": "Betreuer + -in.\\n'Die Betreuerin kümmert sich um die Senioren.'",
+    "arabic": "Betreuer + اللاحقة -in.\\n'Die Betreuerin kümmert sich um die Senioren.' (المشرفة تعتني بكبار السن)."
+  },
+  {
+    "english": "Same pattern: male -er, female -erin. Betreuer/Betreuerin, Pfleger/Pflegerin. German is consistent with its gendered suffixes.",
+    "arabic": "نفس النمط: المذكر -er، المؤنث -erin. Betreuer/Betreuerin، Pfleger/Pflegerin. الألمانية متسقة في لواحقها الجندرية."
+  },
+  {
+    "english": "From 'betreuen' + -ung. Abstract noun.\\n'Kinderbetreuung' = childcare.",
+    "arabic": "من 'betreuen' + اللاحقة -ung. اسم مجرد.\\n'Kinderbetreuung' = رعاية الأطفال."
+  },
+  {
+    "english": "'Kinderbetreuung' (childcare), 'Seniorenbetreuung' (elderly care). The -ung suffix creates the concept from the verb. German's favorite noun-maker.",
+    "arabic": "'Kinderbetreuung' (رعاية الأطفال)، 'Seniorenbetreuung' (رعاية المسنين). اللاحقة -ung تستخرج المفهوم من الفعل. أداة الألمانية المفضلة لصنع الأسماء."
+  },
+  {
+    "english": "'Einen Kranken pflegen' = to care for a sick person.\\nAlso: 'Kontakte pflegen' = to maintain contacts.",
+    "arabic": "'Einen Kranken pflegen' = الاعتناء بشخص مريض.\\nأيضاً: 'Kontakte pflegen' = الحفاظ على العلاقات."
+  },
+  {
+    "english": "Care in every sense. 'Einen Kranken pflegen' (to care for a sick person). 'Kontakte pflegen' (to maintain contacts). 'Den Garten pflegen' (to tend the garden).",
+    "arabic": "العناية بكل معانيها. 'Einen Kranken pflegen' (الاعتناء بشخص مريض). 'Kontakte pflegen' (الحفاظ على العلاقات). 'Den Garten pflegen' (العناية بالحديقة)."
+  },
+  {
+    "english": "Inseparable prefix be-.\\nBroader than pflegen. 'Kinder betreuen' = to look after children.",
+    "arabic": "بادئة غير قابلة للفصل be-.\\nأوسع من pflegen. 'Kinder betreuen' = رعاية الأطفال."
+  },
+  {
+    "english": "Be- + treuen (loyalty-related root). To be loyal to someone by watching over them. Inseparable prefix. Broader than pflegen.",
+    "arabic": "Be- + treuen (جذر مرتبط بالولاء). أن تكون وفياً لشخص من خلال الإشراف عليه. بادئة غير قابلة للفصل. أوسع من pflegen."
+  },
+  {
+    "english": "Er- + leicht (light/easy) + -ern. To make lighter.\\n'Erleichtert sein' = to be relieved.",
+    "arabic": "Er- + leicht (خفيف/سهل) + -ern. تجعل الأمر أخف.\\n'Erleichtert sein' = الشعور بالارتياح."
+  },
+  {
+    "english": "A beautiful compound verb. Er- + leicht (light/easy) + -ern. To make lighter. Recovery is literally making the burden lighter.",
+    "arabic": "فعل مركب جميل. Er- + leicht (خفيف/سهل) + -ern. تجعل الأمر أخف. التعافي هو حرفياً تخفيف العبء."
+  },
+  {
+    "english": "Ver- + binden (to bind).\\n'Eine Wunde verbinden' = to bandage a wound.",
+    "arabic": "Ver- + binden (يربط).\\n'Eine Wunde verbinden' = تضميد جرح."
+  },
+  {
+    "english": "The bandage binds; the phone line connects. Same verb. 'Eine Wunde verbinden' (to bandage a wound). 'Verbunden sein' (to be connected).",
+    "arabic": "الضمادة تربط، وخط الهاتف يصل. نفس الفعل. 'Eine Wunde verbinden' (تضميد جرح). 'Verbunden sein' (أن تكون متصلاً)."
+  },
+  {
+    "english": "Er- + setzen (to set/place).\\nTo set something new in the place of the old.",
+    "arabic": "Er- + setzen (يضع/يضع في مكانه).\\nوضع شيء جديد في مكان القديم."
+  },
+  {
+    "english": "'Nichts kann Gesundheit ersetzen' (Nothing can replace health). To set something new in the place of the old. The verb that built the Ersatz noun.",
+    "arabic": "'Nichts kann Gesundheit ersetzen' (لا شيء يعوض الصحة). وضع شيء جديد في مكان القديم. الفعل الذي أنجب الاسم Ersatz."
+  },
+  {
+    "english": "From ersetzen. 'Ersatzteil' = spare part.\\nEntered English during the World Wars.",
+    "arabic": "من ersetzen. 'Ersatzteil' = قطعة غيار.\\nدخلت إلى الإنجليزية إبان الحربين العالميتين."
+  },
+  {
+    "english": "During both World Wars, 'Ersatz' entered English as a word meaning cheap substitute. Germans use it neutrally. 'Ersatzteil' (spare part). 'Kaffee-Ersatz' (coffee substitute).",
+    "arabic": "في الحربين العالميتين، دخلت 'Ersatz' إلى الإنجليزية بمعنى بديل رخيص. يستخدمها الألمان بحياد. 'Ersatzteil' (قطعة غيار). 'Kaffee-Ersatz' (بديل القهوة)."
+  },
+  {
+    "english": "From 'besser' (better) + -ung.\\n'Gute Besserung!' = Get well soon!",
+    "arabic": "من 'besser' (أفضل) + اللاحقة -ung.\\n'Gute Besserung!' = الشفاء العاجل!"
+  },
+  {
+    "english": "'Gute Besserung!' is THE thing Germans say when someone is sick. The most important two-word phrase in German healthcare culture. Say it often.",
+    "arabic": "'Gute Besserung!' هي ما يقوله الألمان عندما يمرض أحدهم. العبارة المكونة من كلمتين الأكثر أهمية في ثقافة الرعاية الصحية الألمانية. قلها كثيراً."
+  },
+  {
+    "english": "'In Rente gehen' = to retire. From Latin 'renta.'\\nRentenversicherung (pension insurance) is mandatory.",
+    "arabic": "'In Rente gehen' = التقاعد. من اللاتينية 'renta'.\\nRentenversicherung (تأمين المعاش) إلزامي."
+  },
+  {
+    "english": "The German Rentensystem is pay-as-you-go: today's workers fund today's retirees. 'Rentenversicherung' (pension insurance) is mandatory for all employees.",
+    "arabic": "نظام Rente الألماني قائم على التوزيع: يموّل العمال اليوم متقاعدي اليوم. 'Rentenversicherung' (تأمين المعاش) إلزامي لجميع الموظفين."
+  },
+  {
+    "english": "Two meanings: retirement pay for Beamte, or a small hotel.\\nContext is essential.",
+    "arabic": "معنيان: مستحقات التقاعد للـ Beamte (موظفي الدولة)، أو فندق صغير.\\nالسياق ضروري."
+  },
+  {
+    "english": "Two meanings. For civil servants: retirement pay (Beamtenpension). For travelers: a small guesthouse. 'In Pension gehen' (to retire, for Beamte). Context is essential.",
+    "arabic": "معنيان. لموظفي الدولة: مستحقات التقاعد (Beamtenpension). للمسافرين: بيت ضيافة صغير. 'In Pension gehen' (التقاعد، لموظفي الدولة). السياق ضروري."
+  },
+  {
+    "english": "From Latin 'senior' (older).\\n'Seniorenrabatt' = senior discount.",
+    "arabic": "من اللاتينية 'senior' (أكبر سناً).\\n'Seniorenrabatt' = خصم كبار السن."
+  },
+  {
+    "english": "'Seniorenrabatt' (senior discount), 'Seniorenticket' (reduced fare). Respectful term for older adults. From Latin 'senior' (older).",
+    "arabic": "'Seniorenrabatt' (خصم كبار السن)، 'Seniorenticket' (تذكرة مخفضة). مصطلح محترم لكبار السن. من اللاتينية 'senior' (أكبر سناً)."
+  },
+  {
+    "english": "Senior + -in. Standard feminine formation.\\nGerman insists on gendered forms, even for international words.",
+    "arabic": "Senior + اللاحقة -in. التأنيث القياسي.\\nتصرّ الألمانية على الصيغ الجندرية حتى للكلمات الدولية."
+  },
+  {
+    "english": "German insists on gendered forms, even for international words. Senior becomes Seniorin. The -in suffix is universal for person nouns.",
+    "arabic": "تصرّ الألمانية على الصيغ الجندرية حتى للكلمات الدولية. Senior يصبح Seniorin. اللاحقة -in عالمية لأسماء الأشخاص."
+  },
+  {
+    "english": "Austrian German primarily.\\nIn Germany, 'Rentner' is more common.",
+    "arabic": "الألمانية النمساوية بشكل أساسي.\\nفي ألمانيا، 'Rentner' أكثر شيوعاً."
+  },
+  {
+    "english": "Austrian German primarily. In Germany, 'Rentner' is more common. Regional variation within German-speaking countries shows the language is not monolithic.",
+    "arabic": "الألمانية النمساوية بشكل أساسي. في ألمانيا، 'Rentner' أكثر شيوعاً. التباين الإقليمي في البلدان الناطقة بالألمانية يُظهر أن اللغة ليست متجانسة."
+  },
+  {
+    "english": "Austrian form. Pensionist + -in.\\nStandard feminine formation.",
+    "arabic": "الصيغة النمساوية. Pensionist + اللاحقة -in.\\nالتأنيث القياسي."
+  },
+  {
+    "english": "Austrian form. Four morphemes: Pension-ist-in. Standard feminine formation applied to a regional word.",
+    "arabic": "الصيغة النمساوية. أربعة مورفيمات: Pension-ist-in. التأنيث القياسي مطبق على كلمة إقليمية."
+  },
+  {
+    "english": "Alten (old people) + Heim (home).\\nGermany has over 15,000 Altenheime.",
+    "arabic": "Alten (المسنون) + Heim (بيت).\\nتضم ألمانيا أكثر من 15,000 Altenheim."
+  },
+  {
+    "english": "A place where Senioren receive Betreuung and Pflege. Germany has over 15,000 Altenheime. The aging population makes this an increasingly important topic.",
+    "arabic": "مكان يتلقى فيه Senioren الرعاية والعناية. تضم ألمانيا أكثر من 15,000 Altenheim. يجعل شيخوخة السكان هذا الموضوع متزايد الأهمية."
+  },
+  {
+    "english": "Alter (age) + Heim (home). Synonym for Altenheim.\\nRegional preference decides which one you hear.",
+    "arabic": "Alter (عمر/شيخوخة) + Heim (بيت). مرادف لـ Altenheim.\\nالتفضيل الإقليمي يحدد أيهما تسمع."
+  },
+  {
+    "english": "'Altersheim' focuses on age; 'Altenheim' focuses on the people. Both mean the same thing. Regional preference decides which one you hear.",
+    "arabic": "'Altersheim' تركز على العمر، أما 'Altenheim' فتركز على الأشخاص. كلتاهما بنفس المعنى. التفضيل الإقليمي يحدد أيهما تسمع."
+  },
+  {
+    "english": "Ein (in) + Richtung (direction) = arrangement.\\nAlso means furniture ('die Einrichtung des Zimmers').",
+    "arabic": "Ein (داخل) + Richtung (اتجاه) = ترتيب.\\nتعني أيضاً الأثاث ('die Einrichtung des Zimmers' = أثاث الغرفة)."
+  },
+  {
+    "english": "To set things in the right direction. 'Eine medizinische Einrichtung' (a medical facility). Also: furniture ('die Einrichtung des Zimmers'). Direction and arrangement in one word.",
+    "arabic": "توجيه الأمور في الاتجاه الصحيح. 'Eine medizinische Einrichtung' (منشأة طبية). أيضاً: الأثاث ('die Einrichtung des Zimmers'). الاتجاه والترتيب في كلمة واحدة."
+  },
+  {
+    "english": "The -ieren ending makes it regular.\\nPrimarily for Beamte. Workers: 'in Rente gehen.'",
+    "arabic": "اللاحقة -ieren تجعله منتظماً.\\nيستخدم أساساً للـ Beamte (موظفي الدولة). الموظفون العاديون: 'in Rente gehen'."
+  },
+  {
+    "english": "Primarily for civil servants (Beamte). For normal workers: 'in Rente gehen.' Germany has two retirement systems: one for Beamte, one for everyone else.",
+    "arabic": "يستخدم أساساً لموظفي الدولة (Beamte). للعمال العاديين: 'in Rente gehen'. تمتلك ألمانيا نظامَي تقاعد: أحدهما للـ Beamte، والآخر للجميع."
+  },
+  {
+    "english": "Root of Notfall, Notaufnahme, Notruf, Notausgang.\\nOne tiny word spawns an entire emergency vocabulary.",
+    "arabic": "جذر Notfall وNotaufnahme وNotruf وNotausgang.\\nكلمة صغيرة واحدة تُنتج مفردات طوارئ كاملة."
+  },
+  {
+    "english": "Root of Notfall, Notaufnahme, Notruf, Notausgang. One tiny word spawns an entire emergency vocabulary. 'Not macht erfinderisch' (Necessity is the mother of invention).",
+    "arabic": "جذر Notfall وNotaufnahme وNotruf وNotausgang. كلمة صغيرة واحدة تُنتج مفردات طوارئ كاملة. 'Not macht erfinderisch' (الحاجة أم الاختراع)."
+  },
+  {
+    "english": "Not (emergency) + Ausgang (exit).\\nGreen signs, required by law in every public building.",
+    "arabic": "Not (طوارئ) + Ausgang (مخرج).\\nلافتات خضراء، مطلوبة قانوناً في كل مبنى عام."
+  },
+  {
+    "english": "Green signs with a running figure. Required by law in every public building. 'Wo ist der Notausgang?' is essential survival German.",
+    "arabic": "لافتات خضراء بشخصية تجري. مطلوبة قانوناً في كل مبنى عام. 'Wo ist der Notausgang?' من الألمانية الأساسية للبقاء."
+  },
+  {
+    "english": "From Latin 'offerre' (to offer).\\nBoth meanings: the one harmed and the one given up.",
+    "arabic": "من اللاتينية 'offerre' (يقدم).\\nمعنيان: الشخص المتضرر والشيء المُضحَّى به."
+  },
+  {
+    "english": "The word holds both meanings: the one harmed and the one given up. 'Unfallopfer' (accident victim). 'Ein Opfer bringen' (to make a sacrifice). Same word, dual fate.",
+    "arabic": "الكلمة تحمل المعنيين: الشخص المتضرر والشيء المُضحَّى به. 'Unfallopfer' (ضحية الحادث). 'Ein Opfer bringen' (التضحية). نفس الكلمة، مصيران."
+  },
+  {
+    "english": "Masculine despite being abstract.\\nCognate with English 'death.' Often personified.",
+    "arabic": "مذكر على الرغم من كونه مجرداً.\\nمرتبط بالإنجليزية 'death'. كثيراً ما يُشخصَن."
+  },
+  {
+    "english": "Often personified in German literature as 'der Sensenmann' (the grim reaper). Cognate with English 'death.' Masculine, despite being an abstract noun.",
+    "arabic": "كثيراً ما يُشخصَن في الأدب الألماني بـ 'der Sensenmann' (حامل المنجل). مرتبط بالإنجليزية 'death'. مذكر، على الرغم من كونه اسماً مجرداً."
+  },
+  {
+    "english": "Adjectival noun from 'tot' (dead).\\nDer/die Tote changes with gender and case like an adjective.",
+    "arabic": "اسم صفي من 'tot' (ميت).\\nDer/die Tote يتغير تبعاً للجنس والحالة الإعرابية كالصفة."
+  },
+  {
+    "english": "Adjectival noun: der/die Tote changes with gender and case like an adjective. 'Die Zahl der Toten' (the number of dead). Grammatically, death is declined.",
+    "arabic": "اسم صفي: der/die Tote يتغير تبعاً للجنس والحالة الإعرابية كالصفة. 'Die Zahl der Toten' (عدد الضحايا). نحوياً، يُصرَّف الموت."
+  },
+  {
+    "english": "Adjectival noun from 'krank.'\\nDer Kranke (male), die Kranke (female).",
+    "arabic": "اسم صفي من 'krank' (مريض).\\nDer Kranke (مذكر)، die Kranke (مؤنث)."
+  },
+  {
+    "english": "Another adjective acting as a noun. Der Kranke (male), die Kranke (female). 'Die Kranken pflegen' (to care for the sick). Adjective becomes person.",
+    "arabic": "صفة أخرى تعمل كاسم. Der Kranke (مذكر)، die Kranke (مؤنث). 'Die Kranken pflegen' (رعاية المرضى). الصفة تصبح شخصاً."
+  },
+  {
+    "english": "From Tod + -lich.\\n'Tödlich langweilig' = deadly boring (emphasis).",
+    "arabic": "من Tod (موت) + اللاحقة -lich.\\n'Tödlich langweilig' = مميت من الملل (للتأكيد)."
+  },
+  {
+    "english": "Germans use tödlich for emphasis, like English 'dead tired.' 'Tödlich langweilig' (deadly boring). From Tod + -lich. The adjective of death.",
+    "arabic": "يستخدم الألمان tödlich للتأكيد، كقول الإنجليزية 'dead tired'. 'Tödlich langweilig' (مميت من الملل). من Tod + اللاحقة -lich. صفة الموت."
+  },
+  {
+    "english": "From 'liefern' (to deliver) + -ung.\\nIn insurance: what the Krankenkasse delivers (pays for).",
+    "arabic": "من 'liefern' (يوصّل/يُسلّم) + اللاحقة -ung.\\nفي التأمين: ما تُسلّمه Krankenkasse (صندوق التأمين الصحي) أي ما تدفعه."
+  },
+  {
+    "english": "In the insurance context: what the Krankenkasse delivers (pays for). 'Medikamentenlieferung' (medicine delivery). From 'liefern' (to deliver) + -ung.",
+    "arabic": "في سياق التأمين: ما تدفعه Krankenkasse (صندوق التأمين الصحي). 'Medikamentenlieferung' (توصيل الأدوية). من 'liefern' (يوصّل) + اللاحقة -ung."
+  },
+  {
+    "english": "From 'rauchen' (to smoke) + -er.\\n'Raucherbereich' = smoking area.",
+    "arabic": "من 'rauchen' (يدخن) + اللاحقة -er.\\n'Raucherbereich' = منطقة التدخين."
+  },
+  {
+    "english": "Germany was one of the last EU countries to ban indoor smoking (2007). 'Raucher oder Nichtraucher?' was once asked on every train.",
+    "arabic": "كانت ألمانيا من آخر دول الاتحاد الأوروبي التي حظرت التدخين في الأماكن المغلقة (2007). كان يُسأل 'Raucher oder Nichtraucher?' في كل قطار."
+  },
+  {
+    "english": "Raucher + -in. Standard feminine suffix.\\nSame pattern as Pfleger/Pflegerin.",
+    "arabic": "Raucher + اللاحقة -in. اللاحقة المؤنثة القياسية.\\nنفس نمط Pfleger/Pflegerin."
+  },
+  {
+    "english": "Same pattern as Pfleger/Pflegerin, Betreuer/Betreuerin. German's consistent feminine suffix at work.",
+    "arabic": "نفس نمط Pfleger/Pflegerin وBetreuer/Betreuerin. اللاحقة المؤنثة المتسقة في الألمانية في العمل."
+  },
+  {
+    "english": "Nicht + Raucher. The Nicht- prefix negates.\\n'Nichtraucherzone' = non-smoking zone.",
+    "arabic": "Nicht (لا) + Raucher (مدخن). البادئة Nicht- تنفي.\\n'Nichtraucherzone' = منطقة خالية من التدخين."
+  },
+  {
+    "english": "The Nicht- prefix negates the person noun. 'Nichtraucher sein' (to be a non-smoker) is now the default in public spaces across Germany.",
+    "arabic": "البادئة Nicht- تنفي اسم الشخص. 'Nichtraucher sein' (أن تكون غير مدخن) هو المعيار الافتراضي في الأماكن العامة في ألمانيا."
+  },
+  {
+    "english": "Nichtraucher + -in.\\nFour morphemes: Nicht-rauch-er-in.",
+    "arabic": "Nichtraucher + اللاحقة -in.\\nأربعة مورفيمات: Nicht-rauch-er-in."
+  },
+  {
+    "english": "Four morphemes in one word: Nicht-rauch-er-in. German stacks prefixes and suffixes like building blocks. Know the parts, decode any word.",
+    "arabic": "أربعة مورفيمات في كلمة واحدة: Nicht-rauch-er-in. تُكدّس الألمانية البوادئ واللواحق كمكعبات البناء. اعرف الأجزاء، فكّ شفرة أي كلمة."
+  },
+  {
+    "english": "From 'suchen' (to seek). An endless seeking.\\n'Drogensucht' = drug addiction.",
+    "arabic": "من 'suchen' (يبحث). بحث لا ينتهي.\\n'Drogensucht' = إدمان المخدرات."
+  },
+  {
+    "english": "From 'suchen' (to seek). An addiction is an endless seeking. 'Drogensucht' (drug addiction), 'Spielsucht' (gambling addiction), 'Internetsucht' (internet addiction). Whatever you cannot stop seeking.",
+    "arabic": "من 'suchen' (يبحث). الإدمان هو بحث لا ينتهي. 'Drogensucht' (إدمان المخدرات)، 'Spielsucht' (إدمان القمار)، 'Internetsucht' (إدمان الإنترنت). ما لا تستطيع التوقف عن البحث عنه."
+  },
+  {
+    "english": "Sucht (addiction) + Mittel (substance/means).\\nClinical, official, legal.",
+    "arabic": "Sucht (إدمان) + Mittel (مادة/وسيلة).\\nسريري، رسمي، قانوني."
+  },
+  {
+    "english": "The compound is clinical, official, legal. Used in medical and legal contexts. 'Suchtmittelgesetz' (narcotics law). German compounds leave nothing ambiguous.",
+    "arabic": "المركب سريري ورسمي وقانوني. يستخدم في السياقات الطبية والقانونية. 'Suchtmittelgesetz' (قانون المخدرات). المركبات الألمانية لا تترك شيئاً غامضاً."
+  },
+  {
+    "english": "From Dutch 'droog' (dry). Originally dried herbs.\\nThe Drogerie kept the old, innocent meaning.",
+    "arabic": "من الهولندية 'droog' (جاف). كانت في الأصل تعني الأعشاب المجففة.\\nاحتفظت Drogerie بالمعنى القديم البريء."
+  },
+  {
+    "english": "From Dutch 'droog' (dry). Originally meant dried herbs and spices. The meaning shifted to illegal substances. The Drogerie kept the old, innocent meaning.",
+    "arabic": "من الهولندية 'droog' (جاف). كانت تعني في الأصل الأعشاب والتوابل المجففة. تحول المعنى إلى المواد غير المشروعة. احتفظت Drogerie بالمعنى القديم البريء."
+  },
+  {
+    "english": "The ultimate false friend.\\nEnglish 'gift' = present. German 'Gift' = poison.",
+    "arabic": "الصديق الكاذب بامتياز.\\nالإنجليزية 'gift' = هدية. الألمانية 'Gift' = سم."
+  },
+  {
+    "english": "The ultimate false friend. English 'gift' = present. German 'Gift' = poison. Same root (something given), opposite outcomes. Do not confuse at the pharmacy.",
+    "arabic": "الصديق الكاذب بامتياز. الإنجليزية 'gift' = هدية. الألمانية 'Gift' = سم. نفس الجذر (شيء يُعطى)، نتيجتان متضادتان. لا تخلط بينهما في الصيدلية."
+  },
+  {
+    "english": "From Sucht + -ig.\\n'Süchtig machen' = to be addictive. Can be serious or playful.",
+    "arabic": "من Sucht + اللاحقة -ig.\\n'Süchtig machen' = أن يكون مسبباً للإدمان. يمكن أن يكون جدياً أو مرحاً."
+  },
+  {
+    "english": "Can be serious or playful. 'Süchtig nach Schokolade' (addicted to chocolate) is lighthearted. 'Drogenabhängig' is the clinical term for serious addiction.",
+    "arabic": "يمكن أن يكون جدياً أو مرحاً. 'Süchtig nach Schokolade' (مدمن الشوكولاتة) خفيف. 'Drogenabhängig' هو المصطلح السريري للإدمان الجدي."
+  },
+  {
+    "english": "Same in English and German.\\n'Blinder Passagier' = stowaway (blind passenger).",
+    "arabic": "نفسها في الإنجليزية والألمانية.\\n'Blinder Passagier' = مسافر سري (مسافر أعمى)."
+  },
+  {
+    "english": "From Proto-Germanic *blindaz. 'Blinder Passagier' (stowaway, literally 'blind passenger'). 'Blindenschrift' = Braille (blind-writing).",
+    "arabic": "من الجرمانية الأولى *blindaz. 'Blinder Passagier' (مسافر سري، حرفياً 'مسافر أعمى'). 'Blindenschrift' = طريقة برايل (الكتابة العمياء)."
+  },
+  {
+    "english": "Cognate with English 'deaf' through sound shifts.\\nAlso means 'numb': 'Mein Finger ist taub.'",
+    "arabic": "مرتبطة بالإنجليزية 'deaf' عبر تحولات صوتية.\\nتعني أيضاً 'خدر': 'Mein Finger ist taub.' (إصبعي خدر)."
+  },
+  {
+    "english": "Also means 'numb.' 'Mein Finger ist taub' (My finger is numb). 'Gehörlos' (hearing-less) is preferred in modern usage over 'taubstumm' (deaf-mute).",
+    "arabic": "تعني أيضاً 'مخدّر'. 'Mein Finger ist taub' (إصبعي مخدّر). 'Gehörlos' (فاقد السمع) مفضّل في الاستخدام الحديث على 'taubstumm' (أصم أبكم)."
+  },
+  {
+    "english": "'Die linke Hand' = the left hand.\\nColloquially: 'ein linker Typ' = a shady character.",
+    "arabic": "'Die linke Hand' = اليد اليسرى.\\nبالعامية: 'ein linker Typ' = شخص مشبوه."
+  },
+  {
+    "english": "The association of left with dishonesty exists in many languages (Latin 'sinister'). Colloquially: 'ein linker Typ' (a shady character). An ancient bias preserved in language.",
+    "arabic": "ارتباط اليسار بعدم الأمانة موجود في كثير من اللغات (اللاتينية 'sinister'). بالعامية: 'ein linker Typ' (شخص مشبوه). تحيز قديم محفوظ في اللغة."
+  },
+  {
+    "english": "Irregular: sticht, stach, gestochen.\\nRelated to English 'stick.'",
+    "arabic": "فعل شاذ: sticht، stach، gestochen.\\nمرتبط بالإنجليزية 'stick'."
+  },
+  {
+    "english": "'Die Biene sticht' (The bee stings). 'Es sticht in der Brust' (There is a stabbing pain in the chest). Related to English 'stick.' Irregular: sticht, stach, gestochen.",
+    "arabic": "'Die Biene sticht' (النحلة تلسع). 'Es sticht in der Brust' (ألم حاد في الصدر). مرتبط بالإنجليزية 'stick'. فعل شاذ: sticht، stach، gestochen."
+  },
+  {
+    "english": "Irregular: schob, geschoben.\\n'Den Rollstuhl schieben' = to push the wheelchair.",
+    "arabic": "فعل شاذ: schob، geschoben.\\n'Den Rollstuhl schieben' = دفع الكرسي المتحرك."
+  },
+  {
+    "english": "'Etwas auf die lange Bank schieben' (to put something on the long bench) = to procrastinate. Irregular: schob, geschoben. Pushing in every sense.",
+    "arabic": "'Etwas auf die lange Bank schieben' (وضع شيء على المقعد الطويل) = التسويف والمماطلة. فعل شاذ: schob، geschoben. الدفع بكل معانيه."
+  },
+  {
+    "english": "Irregular: wog, gewogen.\\nAlso: 'das Baby wiegen' = to rock the baby.",
+    "arabic": "فعل شاذ: wog، gewogen.\\nأيضاً: 'das Baby wiegen' = هزّ الطفل."
+  },
+  {
+    "english": "Two different verbs that merged into one form. 'Wie viel wiegen Sie?' (How much do you weigh?). 'Das Baby wiegen' (to rock the baby). Context decides.",
+    "arabic": "فعلان مختلفان اندمجا في صورة واحدة. 'Wie viel wiegen Sie?' (كم تزن؟). 'Das Baby wiegen' (هزّ الطفل). السياق يحسم الأمر."
+  },
+  {
+    "english": "From Latin 'moneta' (mint).\\nRelated to English 'money' and 'mint.'",
+    "arabic": "من اللاتينية 'moneta' (دار سك العملة).\\nمرتبطة بالإنجليزية 'money' و'mint'."
+  },
+  {
+    "english": "German parking meters still love Münzen. The 1-Euro-Münze has country-specific designs on the back. Each country's coin tells a different story.",
+    "arabic": "عدادات الوقوف الألمانية لا تزال تُفضّل Münzen (القطع المعدنية). للـ 1-Euro-Münze تصاميم خاصة بكل دولة على ظهرها. قطعة كل دولة تحكي قصة مختلفة."
+  },
+  {
+    "english": "Separable: 'Geld abheben' = to withdraw money.\\nAlso: 'Das Flugzeug hebt ab' = the plane lifts off.",
+    "arabic": "قابل للفصل: 'Geld abheben' = سحب المال.\\nأيضاً: 'Das Flugzeug hebt ab' = الطائرة تقلع."
+  },
+  {
+    "english": "Money leaves the account; the plane leaves the ground. Same verb. Separable: 'Ich hebe 100 Euro ab.' The ab- prefix means away/off.",
+    "arabic": "المال يغادر الحساب، والطائرة تغادر الأرض. نفس الفعل. قابل للفصل: 'Ich hebe 100 Euro ab.' البادئة ab- تعني بعيداً/عن."
+  },
+  {
+    "english": "Separable: ab- (off/down) + nehmen (to take).\\nThree meanings, all about taking something away.",
+    "arabic": "قابل للفصل: ab- (بعيداً/أسفل) + nehmen (يأخذ).\\nثلاثة معانٍ، كلها عن أخذ شيء بعيداً."
+  },
+  {
+    "english": "Three meanings, all about taking something away. 'Fünf Kilo abnehmen' (to lose five kilos). 'Den Hörer abnehmen' (to pick up the receiver). 'Die Kosten nehmen ab' (Costs are decreasing).",
+    "arabic": "ثلاثة معانٍ، كلها عن أخذ شيء بعيداً. 'Fünf Kilo abnehmen' (إنقاص خمسة كيلوجرامات). 'Den Hörer abnehmen' (رفع السماعة). 'Die Kosten nehmen ab' (التكاليف تتناقص)."
+  },
+  {
+    "english": "The opposite of abnehmen.\\nZu- (to/toward) + nehmen = to take on more.",
+    "arabic": "عكس abnehmen.\\nZu- (نحو) + nehmen = أخذ المزيد."
+  },
+  {
+    "english": "What goes up (zunehmen) can come down (abnehmen). 'Die Kosten nehmen zu' (Costs are increasing). The opposite twins of German weight and finance talk.",
+    "arabic": "ما يرتفع (zunehmen) يمكن أن ينخفض (abnehmen). 'Die Kosten nehmen zu' (التكاليف ترتفع). التوأمان المتضادان في الحديث الألماني عن الوزن والمال."
+  },
+  {
+    "english": "Reflexive. Er- + kalt = to become cold.\\nPerfekt: 'Ich habe mich erkältet.'",
+    "arabic": "انعكاسي. Er- + kalt (بارد) = أن يصبح بارداً.\\nصيغة الماضي التام: 'Ich habe mich erkältet.' (أصبت بنزلة برد)."
+  },
+  {
+    "english": "The verb form of Erkältung. Reflexive: 'sich erkälten.' The Perfekt uses haben because it is reflexive. 'Ich habe mich erkältet' (I caught a cold).",
+    "arabic": "الصيغة الفعلية لـ Erkältung. انعكاسي: 'sich erkälten'. يستخدم الماضي التام haben لأنه انعكاسي. 'Ich habe mich erkältet' (أصبت بنزلة برد)."
+  },
+  {
+    "english": "Reflexive. Er- + holen (to fetch).\\nYou fetch yourself back from illness.",
+    "arabic": "انعكاسي. Er- + holen (يجلب).\\nأنت تجلب نفسك عائداً من المرض."
+  },
+  {
+    "english": "Beautiful metaphor: recovery is self-retrieval. You fetch yourself back from illness. 'Sich von einer Operation erholen' (to recover from an operation).",
+    "arabic": "استعارة جميلة: التعافي هو استرداد الذات. أنت تجلب نفسك عائداً من المرض. 'Sich von einer Operation erholen' (التعافي من عملية جراحية)."
+  },
+  {
+    "english": "From erholen + -ung.\\n'Erholungsurlaub' = recovery vacation. Kur may be prescribed.",
+    "arabic": "من erholen + اللاحقة -ung.\\n'Erholungsurlaub' = إجازة للنقاهة. يمكن وصف Kur (علاج منتجعي) طبياً."
+  },
+  {
+    "english": "In Germany, your doctor can prescribe a Kur (health retreat) for Erholung. The Krankenkasse may pay. Recovery is a medical right, not a luxury.",
+    "arabic": "في ألمانيا، يمكن لطبيبك وصف Kur (إقامة في منتجع صحي) للنقاهة. قد تتحمل Krankenkasse التكلفة. التعافي حق طبي، ليس رفاهية."
+  },
+  {
+    "english": "Three meanings in one verb.\\n'Geschätzt' = approximately.",
+    "arabic": "ثلاثة معانٍ في فعل واحد.\\n'Geschätzt' = تقريباً."
+  },
+  {
+    "english": "Three meanings in one verb. 'Die Kosten schätzen' (to estimate costs). 'Ich schätze deine Hilfe' (I appreciate your help). A word of judgment and gratitude.",
+    "arabic": "ثلاثة معانٍ في فعل واحد. 'Die Kosten schätzen' (تقدير التكاليف). 'Ich schätze deine Hilfe' (أقدّر مساعدتك). كلمة للحكم والامتنان."
+  },
+  {
+    "english": "Ver- + teilen (to share/divide). Inseparable.\\n'Die Kosten werden verteilt.'",
+    "arabic": "Ver- + teilen (يقسم/يوزع). غير قابل للفصل.\\n'Die Kosten werden verteilt.' (يتم توزيع التكاليف)."
+  },
+  {
+    "english": "The system distributes everything. 'Medikamente verteilen' (to distribute medicine). 'Die Kosten werden verteilt' (The costs are distributed). Inseparable prefix ver-.",
+    "arabic": "النظام يوزع كل شيء. 'Medikamente verteilen' (توزيع الأدوية). 'Die Kosten werden verteilt' (يتم توزيع التكاليف). البادئة غير القابلة للفصل ver-."
+  },
+  {
+    "english": "Be- + hindern (to prevent).\\n'Menschen mit Behinderung' = people with disabilities.",
+    "arabic": "Be- + hindern (يمنع/يعيق).\\n'Menschen mit Behinderung' = أشخاص ذوو إعاقة."
+  },
+  {
+    "english": "'Behindert' as an adjective means 'disabled.' 'Menschen mit Behinderung' (people with disabilities) is the preferred modern phrase.",
+    "arabic": "'Behindert' كصفة تعني 'معاق'. 'Menschen mit Behinderung' (أشخاص ذوو إعاقة) هي العبارة الحديثة المفضلة."
+  },
+  {
+    "english": "'Er ist gestürzt' = he fell.\\nAlso: 'die Regierung stürzen' = to topple the government.",
+    "arabic": "'Er ist gestürzt' = سقط.\\nأيضاً: 'die Regierung stürzen' = إسقاط الحكومة."
+  },
+  {
+    "english": "Falls in medicine, revolutions in politics. Same verb. 'Vom Fahrrad stürzen' (to fall off the bicycle). 'Die Regierung stürzen' (to topple the government).",
+    "arabic": "السقوط في الطب، والثورة في السياسة. نفس الفعل. 'Vom Fahrrad stürzen' (السقوط من الدراجة). 'Die Regierung stürzen' (إسقاط الحكومة)."
+  },
+  {
+    "english": "Austrian German. In Germany: 'Arztpraxis.'\\nKnowing both words helps across German-speaking countries.",
+    "arabic": "الألمانية النمساوية. في ألمانيا: 'Arztpraxis'.\\nمعرفة الكلمتين مفيدة في جميع البلدان الناطقة بالألمانية."
+  },
+  {
+    "english": "Austrian German. In Germany: 'Arztpraxis.' Regional vocabulary: knowing both words helps across German-speaking countries. Austria, Germany, and Switzerland all speak differently.",
+    "arabic": "الألمانية النمساوية. في ألمانيا: 'Arztpraxis'. مفردات إقليمية: معرفة الكلمتين مفيدة في جميع البلدان الناطقة بالألمانية. النمسا وألمانيا وسويسرا كل منها تتكلم بطريقة مختلفة."
+  },
+  {
+    "english": "From 'befreien' (to free).\\n'Von der Zuzahlung befreit' = exempt from co-payment.",
+    "arabic": "من 'befreien' (يحرر).\\n'Von der Zuzahlung befreit' = معفى من مشاركة التكلفة."
+  },
+  {
+    "english": "In the insurance context: certain groups are befreit from paying extra. Low-income patients, children, and chronically ill people may be befreit von der Zuzahlung.",
+    "arabic": "في سياق التأمين: فئات معينة معفاة من الدفع الإضافي. المرضى ذوو الدخل المنخفض والأطفال والمرضى المزمنون قد يكونون معفَين von der Zuzahlung."
+  },
+  {
+    "english": "From 'befriedigen' (to satisfy).\\nAlso a school grade: 3 = befriedigend.",
+    "arabic": "من 'befriedigen' (يُرضي).\\nأيضاً درجة مدرسية: 3 = befriedigend (مُرضٍ)."
+  },
+  {
+    "english": "Also a school grade in Germany (3 = befriedigend). Not great, not terrible. The German grade of adequacy. 'Eine befriedigende Lösung' (a satisfactory solution).",
+    "arabic": "درجة مدرسية أيضاً في ألمانيا (3 = befriedigend). ليست ممتازة ولا سيئة. درجة الكفاية الألمانية. 'Eine befriedigende Lösung' (حل مُرضٍ)."
+  },
+  {
+    "english": "From 'Kraft' (strength/force).\\n'Kräftig essen' = to eat heartily.",
+    "arabic": "من 'Kraft' (قوة).\\n'Kräftig essen' = تناول الطعام بشهية."
+  },
+  {
+    "english": "Conveys robust, physical strength. 'Eine kräftige Suppe' (a hearty soup). German comfort food is kräftig. From 'Kraft' (strength/force).",
+    "arabic": "تعبّر عن قوة جسدية متينة. 'Eine kräftige Suppe' (حساء دسم). طعام الراحة الألماني kräftig. من 'Kraft' (قوة)."
+  },
+  {
+    "english": "Same in most European languages.\\n'Die gesetzliche und private Versicherung laufen parallel.'",
+    "arabic": "نفسها في معظم اللغات الأوروبية.\\n'Die gesetzliche und private Versicherung laufen parallel.' (يسير التأمين الحكومي والخاص بالتوازي)."
+  },
+  {
+    "english": "In insurance: 'Die gesetzliche und private Versicherung laufen parallel' (public and private insurance run in parallel). Germany's dual healthcare system.",
+    "arabic": "في التأمين: 'Die gesetzliche und private Versicherung laufen parallel' (يسير التأمين الحكومي والخاص بالتوازي). النظام الصحي المزدوج في ألمانيا."
+  },
+  {
+    "english": "'Fachkräftemangel' = shortage of skilled workers.\\n'Mangelware' = scarce commodity.",
+    "arabic": "'Fachkräftemangel' = نقص العمالة الماهرة.\\n'Mangelware' = سلعة نادرة."
+  },
+  {
+    "english": "Germany's healthcare system suffers from Pflegermangel (caregiver shortage). 'Fachkräftemangel' (shortage of skilled workers) is a national concern across many sectors.",
+    "arabic": "يعاني النظام الصحي الألماني من Pflegermangel (نقص مقدمي الرعاية). 'Fachkräftemangel' (نقص العمالة الماهرة) هاجس وطني في قطاعات عديدة."
+  },
+  {
+    "english": "Bade (bathing) + Wanne (tub).\\nHaving a Badewanne instead of just a Dusche is a luxury.",
+    "arabic": "Bade (استحمام) + Wanne (حوض).\\nامتلاك Badewanne بدلاً من Dusche (دش) وحده يُعدّ رفاهية."
+  },
+  {
+    "english": "In German apartments, having a Badewanne instead of just a Dusche is a luxury. Insurance covers bath aids for elderly patients. Bathing is healthcare in Germany.",
+    "arabic": "في الشقق الألمانية، امتلاك Badewanne بدلاً من Dusche وحده يُعدّ رفاهية. يغطي التأمين مساعدات الاستحمام للمرضى المسنين. الاستحمام في ألمانيا جزء من الرعاية الصحية."
+  },
+  {
+    "english": "A: Do you have your insurance card with you?\\nB: Yes, here you go.\\nA: Thank you. Please take a seat in the waiting room.\\nB: How long do I have to wait?",
+    "arabic": "أ: هل معك بطاقة التأمين الصحي؟\\nب: نعم، تفضل.\\nأ: شكراً. من فضلك اجلس في غرفة الانتظار.\\nب: كم من الوقت سأنتظر؟"
+  },
+  {
+    "english": "A: The payment is due.\\nB: When do I have to pay?\\nA: By the 15th of the month.\\nB: Can I pay by bank transfer?",
+    "arabic": "أ: موعد الدفع قد حلّ.\\nب: متى يجب أن أدفع؟\\nأ: قبل الخامس عشر من الشهر.\\nب: هل يمكنني الدفع بتحويل مصرفي؟"
+  },
+  {
+    "english": "A: I received a payment reminder!\\nB: The first or the second one?\\nA: The second one.\\nB: Then you need to pay quickly.",
+    "arabic": "أ: لقد تلقيت إشعاراً بالدفع!\\nب: الأول أم الثاني؟\\nأ: الثاني.\\nب: إذن عليك الدفع سريعاً."
+  },
+  {
+    "english": "A: How high are your monthly expenses?\\nB: About 1500 euros.\\nA: Those are high expenses.\\nB: Yes, the rent alone costs 800 euros.",
+    "arabic": "أ: كم تبلغ نفقاتك الشهرية؟\\nب: نحو 1500 يورو.\\nأ: هذه نفقات مرتفعة.\\nب: نعم، الإيجار وحده يكلّف 800 يورو."
+  },
+  {
+    "english": "A: There is a premium increase.\\nB: Again? By how much?\\nA: By 0.5 percent.\\nB: That is just a small increase.",
+    "arabic": "أ: هناك زيادة في قسط التأمين.\\nب: مرة أخرى؟ بكم؟\\nأ: بنسبة 0.5 بالمئة.\\nب: هذه زيادة بسيطة فقط."
+  },
+  {
+    "english": "A: How high is the total?\\nB: The total amounts to 3,500 euros.\\nA: That is a large sum.\\nB: Yes, but it includes everything.",
+    "arabic": "أ: كم يبلغ المجموع الإجمالي؟\\nب: يبلغ المجموع 3,500 يورو.\\nأ: هذا مبلغ كبير.\\nب: نعم، لكنه يشمل كل شيء."
+  },
+  {
+    "english": "A: How much tax do you pay?\\nB: Way too much! Almost 40 percent.\\nA: The tax in Germany is high.\\nB: Yes, but the system works because of it.",
+    "arabic": "أ: كم تدفع من الضرائب؟\\nب: كثيراً جداً! ما يقارب 40 بالمئة.\\nأ: الضريبة في ألمانيا مرتفعة.\\nب: نعم، لكن النظام يعمل بسببها."
+  },
+  {
+    "english": "A: How high is the minimum wage?\\nB: 12.41 euros per hour.\\nA: Is the wage enough to live on?\\nB: In Berlin it is tight.",
+    "arabic": "أ: كم يبلغ الحد الأدنى للأجور؟\\nب: 12.41 يورو في الساعة.\\nأ: هل يكفي هذا الأجر للعيش؟\\nب: في برلين الأمر ضيق."
+  },
+  {
+    "english": "A: Can you calculate the costs?\\nB: Yes, I will calculate everything for you.\\nA: What do you charge for the examination?\\nB: We charge that through the health insurance.",
+    "arabic": "أ: هل يمكنك احتساب التكاليف؟\\nب: نعم، سأحسب كل شيء لك.\\nأ: كم تحسبون مقابل الفحص؟\\nب: نحسبه عبر التأمين الصحي."
+  },
+  {
+    "english": "A: How do you finance your studies?\\nB: My parents finance it partly.\\nA: And the rest?\\nB: I finance that with a part-time job.",
+    "arabic": "أ: كيف تموّل دراستك؟\\nب: والداي يموّلانها جزئياً.\\nأ: والباقي؟\\nب: أموّله بعمل بدوام جزئي."
+  },
+  {
+    "english": "A: What is your monthly income?\\nB: My income is 2,500 euros net.\\nA: And the expenses?\\nB: About 1,800 euros.",
+    "arabic": "أ: ما هو دخلك الشهري؟\\nب: دخلي 2,500 يورو صافياً.\\nأ: والنفقات؟\\nب: نحو 1,800 يورو."
+  },
+  {
+    "english": "A: I still need to do shopping.\\nB: What do you need?\\nA: Just the daily shopping. Bread, milk, vegetables.\\nB: Should I come along?",
+    "arabic": "أ: ما زلت بحاجة إلى التسوق.\\nب: ماذا تحتاج؟\\nأ: فقط المشتريات اليومية. خبز، حليب، خضروات.\\nب: هل أرافقك؟"
+  },
+  {
+    "english": "A: Was that a good purchase?\\nB: Yes, a very good purchase.\\nA: How much did you pay?\\nB: Only 50 euros. A real bargain.",
+    "arabic": "أ: هل كانت عملية شراء موفقة؟\\nب: نعم، عملية شراء ممتازة.\\nأ: كم دفعت؟\\nب: 50 يورو فقط. صفقة رائعة."
+  },
+  {
+    "english": "A: Did the company make a profit?\\nB: Yes, the profit was higher than last year.\\nA: How high was the profit?\\nB: Almost one million euros.",
+    "arabic": "أ: هل حققت الشركة ربحاً؟\\nب: نعم، كان الربح أعلى من العام الماضي.\\nأ: كم بلغ الربح؟\\nب: ما يقارب مليون يورو."
+  },
+  {
+    "english": "A: The costs are relatively low.\\nB: Really? How low?\\nA: Only 150 euros per month.\\nB: That is indeed low.",
+    "arabic": "أ: التكاليف منخفضة نسبياً.\\nب: حقاً؟ كم هي منخفضة؟\\nأ: 150 يورو فقط في الشهر.\\nب: هذا منخفض فعلاً."
+  },
+  {
+    "english": "A: Are the risks minor?\\nB: Yes, only a minor risk.\\nA: Then I will do it.\\nB: The costs are also minor.",
+    "arabic": "أ: هل المخاطر ضئيلة؟\\nب: نعم، مخاطر ضئيلة جداً.\\nأ: إذن سأفعله.\\nب: التكاليف أيضاً ضئيلة."
+  },
+  {
+    "english": "A: Do you have enough money?\\nB: It is tight. Very tight.\\nA: Is it enough for the insurance?\\nB: Just barely. Tight, but it is enough.",
+    "arabic": "أ: هل معك ما يكفي من المال؟\\nب: الوضع ضيق. ضيق جداً.\\nأ: هل يكفي للتأمين؟\\nب: بالكاد. ضيق لكنه يكفي."
+  },
+  {
+    "english": "A: Do you have a bandage?\\nB: Yes, here. Large or small?\\nA: A large bandage please.\\nB: Here, stick it on the wound.",
+    "arabic": "أ: هل معك لاصقة طبية؟\\nب: نعم، تفضل. كبيرة أم صغيرة؟\\nأ: لاصقة كبيرة من فضلك.\\nب: تفضل، ضعها على الجرح."
+  },
+  {
+    "english": "A: This ointment helps against pain.\\nB: How often should I apply the ointment?\\nA: Twice a day.\\nB: Morning and evening?",
+    "arabic": "أ: هذا المرهم يساعد في تخفيف الألم.\\nب: كم مرة يجب أن أضع المرهم؟\\nأ: مرتين في اليوم.\\nب: صباحاً ومساءً؟"
+  },
+  {
+    "english": "A: Take these pills three times daily.\\nB: Before or after eating?\\nA: After eating. With water.\\nB: How long should I take them?",
+    "arabic": "أ: تناول هذه الحبوب ثلاث مرات يومياً.\\nب: قبل الأكل أم بعده؟\\nأ: بعد الأكل. مع الماء.\\nب: كم من الوقت يجب أن أتناولها؟"
+  },
+  {
+    "english": "A: I need an injection for the pain.\\nB: Are you afraid of injections?\\nA: A little.\\nB: Don't worry, it only takes a second.",
+    "arabic": "أ: أحتاج إلى حقنة لتخفيف الألم.\\nب: هل تخاف من الحقن؟\\nأ: قليلاً.\\nب: لا تقلق، لن تستغرق سوى ثانية."
+  },
+  {
+    "english": "A: Take these drops three times a day.\\nB: How many drops?\\nA: Ten drops in a glass of water.\\nB: Before or after eating?",
+    "arabic": "أ: تناول هذه القطرات ثلاث مرات يومياً.\\nب: كم قطرة؟\\nأ: عشر قطرات في كوب من الماء.\\nب: قبل الأكل أم بعده؟"
+  },
+  {
+    "english": "A: Do you have a painkiller?\\nB: Yes, ibuprofen or paracetamol?\\nA: What do you recommend?\\nB: For headaches: ibuprofen.",
+    "arabic": "أ: هل معك مسكن للألم؟\\nب: نعم، إيبوبروفين أم باراسيتامول؟\\nأ: ماذا توصي؟\\nب: للصداع: إيبوبروفين."
+  },
+  {
+    "english": "A: Do you have a cold?\\nB: Yes, my nose is running all day.\\nA: Here, take a tissue.\\nB: Thanks. This cold won't go away.",
+    "arabic": "أ: هل أصابك زكام؟\\nب: نعم، أنفي يسيل طوال اليوم.\\nأ: تفضل، خذ منديلاً.\\nب: شكراً. هذا الزكام لا يذهب."
+  },
+  {
+    "english": "A: How long have you had a cough?\\nB: For a week.\\nA: Dry cough or with mucus?\\nB: Dry cough, especially at night.",
+    "arabic": "أ: منذ متى وأنت تسعل؟\\nب: منذ أسبوع.\\nأ: سعال جاف أم مع مخاط؟\\nب: سعال جاف، خاصة في الليل."
+  },
+  {
+    "english": "A: It is a bacterial infection.\\nB: Do I need antibiotics?\\nA: Yes, I will prescribe some.\\nB: How long does the infection last?",
+    "arabic": "أ: إنه التهاب بكتيري.\\nب: هل أحتاج إلى مضادات حيوية؟\\nأ: نعم، سأصف لك بعضها.\\nب: كم يستمر الالتهاب؟"
+  },
+  {
+    "english": "A: Is it a virus or an infection?\\nB: A virus. Antibiotics won't help.\\nA: What should I do?\\nB: Rest, fluids, and wait it out.",
+    "arabic": "أ: هل هو فيروس أم التهاب؟\\nب: فيروس. المضادات الحيوية لن تفيد.\\nأ: ماذا أفعل؟\\nب: الراحة، والسوائل، والانتظار."
+  },
+  {
+    "english": "A: The doctor prescribed me drops.\\nB: For what?\\nA: For the infection.\\nB: Good, take them regularly.",
+    "arabic": "أ: وصف لي الطبيب قطرات.\\nب: لماذا؟\\nأ: للالتهاب.\\nب: جيد، تناولها بانتظام."
+  },
+  {
+    "english": "A: How should I take the medicine?\\nB: Twice daily, morning and evening.\\nA: Before or after eating?\\nB: Take it after eating.",
+    "arabic": "أ: كيف أتناول الدواء؟\\nب: مرتين يومياً، صباحاً ومساءً.\\nأ: قبل الأكل أم بعده؟\\nب: تناوله بعد الأكل."
+  },
+  {
+    "english": "A: We need to operate.\\nB: Is the operation dangerous?\\nA: No, a routine procedure.\\nB: When will you operate?",
+    "arabic": "أ: يجب أن نجري العملية.\\nب: هل العملية خطيرة؟\\nأ: لا، إجراء اعتيادي.\\nب: متى ستجرون العملية؟"
+  },
+  {
+    "english": "A: The doctor will be right with you.\\nB: Which doctor?\\nA: Dr. Weber. She is very good.\\nB: Good, I will wait.",
+    "arabic": "أ: الطبيبة ستأتي إليك حالاً.\\nب: أيّ طبيبة؟\\nأ: الدكتورة ويبر. إنها ممتازة.\\nب: جيد، سأنتظر."
+  },
+  {
+    "english": "A: Good day, Doctor.\\nB: Good day. What can I do for you?\\nA: I have a stomachache.\\nB: Since when?",
+    "arabic": "أ: مرحباً، يا دكتورة.\\nب: مرحباً. كيف يمكنني مساعدتك؟\\nأ: أشعر بألم في المعدة.\\nب: منذ متى؟"
+  },
+  {
+    "english": "A: Do you have difficulties with the form?\\nB: Yes, I do not understand point 5.\\nA: That is a known difficulty.\\nB: Can someone help me?",
+    "arabic": "أ: هل لديك صعوبة في ملء الاستمارة؟\\nب: نعم، لا أفهم البند الخامس.\\nأ: هذه صعوبة معروفة.\\nب: هل يمكن لأحد مساعدتي؟"
+  },
+  {
+    "english": "A: How many tablets am I allowed to take?\\nB: Maximum three per day.\\nA: And if the pain gets worse?\\nB: Then come back.",
+    "arabic": "أ: كم قرصاً يُسمح لي بتناوله؟\\nب: ثلاثة أقراص كحدٍّ أقصى يومياً.\\nأ: وإذا اشتدّ الألم؟\\nب: عد إلينا إذن."
+  },
+  {
+    "english": "A: How big is the risk?\\nB: Minimal. Really very low.\\nA: Are there minimal side effects?\\nB: Yes, only minimal.",
+    "arabic": "أ: ما مدى خطورة ذلك؟\\nب: ضئيل جداً. منخفض حقاً.\\nأ: هل هناك آثار جانبية ضئيلة؟\\nب: نعم، ضئيلة فحسب."
+  },
+  {
+    "english": "A: Verumius was sick. Therefore he went to the doctor.\\nB: Did the doctor prescribe something?\\nA: Yes, therefore he feels better.\\nB: Good, therefore he can come back tomorrow.",
+    "arabic": "أ: كان فيروميوس مريضاً. لذلك ذهب إلى الطبيب.\\nب: هل وصف له الطبيب شيئاً؟\\nأ: نعم، لذلك يشعر بتحسن.\\nب: جيد، لذلك يمكنه العودة غداً."
+  },
+  {
+    "english": "After an adverbial conjunction, the verb comes immediately next.",
+    "arabic": "بعد حرف العطف الظرفي، يأتي الفعل مباشرةً في المرتبة التالية."
+  },
+  {
+    "english": "Bei takes dative. Ärztin is feminine. What is the feminine dative relative pronoun?",
+    "arabic": "حرف الجر bei يستلزم حالة المفعول غير المباشر. كلمة Ärztin مؤنثة. ما هو الضمير الموصول المؤنث في حالة المفعول غير المباشر؟"
+  },
+  {
+    "english": "The doctor I was at prescribed me drops.",
+    "arabic": "الطبيبة التي زرتها وصفت لي قطرات."
+  },
+  {
+    "english": "Which conjunction shows a direct cause-effect relationship?",
+    "arabic": "أيّ حرف عطف يعبّر عن علاقة سببية مباشرة؟"
+  },
+  {
+    "english": "First blank: in + dative, feminine Klinik. Second blank: a consequence conjunction.",
+    "arabic": "الفراغ الأول: حرف الجر in مع حالة المفعول غير المباشر، وكلمة Klinik مؤنثة. الفراغ الثاني: حرف عطف يفيد النتيجة."
+  },
+  {
+    "english": "The clinic I was at was very good. Therefore I recommend it.",
+    "arabic": "العيادة التي كنت فيها كانت ممتازة. لذلك أنصح بها."
+  },
+  {
+    "english": "A: Where do you buy shampoo?\\nB: At the drugstore. At dm or Rossmann.\\nA: Not at the pharmacy?\\nB: No, the drugstore is for personal care.",
+    "arabic": "أ: أين تشتري الشامبو؟\\nب: من متجر مستحضرات التجميل. من dm أو Rossmann.\\nأ: وليس من الصيدلية؟\\nب: لا، متجر مستحضرات التجميل للعناية الشخصية."
+  },
+  {
+    "english": "A: Which toothpaste do you use?\\nB: One with fluoride.\\nA: Where do you buy it?\\nB: At the drugstore. It is cheaper there.",
+    "arabic": "أ: أيّ معجون أسنان تستخدم؟\\nب: واحداً يحتوي على الفلوريد.\\nأ: أين تشتريه؟\\nب: من متجر مستحضرات التجميل. إنه أرخص هناك."
+  },
+  {
+    "english": "A: Do you still have toothpaste?\\nB: No, it is empty.\\nA: I will buy new toothpaste.\\nB: Get the one with herbs.",
+    "arabic": "أ: هل ما زال لديك معجون أسنان؟\\nب: لا، لقد نفد.\\nأ: سأشتري معجون أسنان جديداً.\\nب: خذ الذي يحتوي على الأعشاب."
+  },
+  {
+    "english": "A: I need a new toothbrush.\\nB: An electric one or a normal one?\\nA: An electric toothbrush.\\nB: Those cost from 30 euros.",
+    "arabic": "أ: أحتاج إلى فرشاة أسنان جديدة.\\nب: كهربائية أم عادية؟\\nأ: فرشاة أسنان كهربائية.\\nب: تلك تبدأ من 30 يورو."
+  },
+  {
+    "english": "A: Where is my brush?\\nB: Which brush? The hairbrush?\\nA: Yes, the hairbrush.\\nB: In the bathroom, next to the mirror.",
+    "arabic": "أ: أين فرشاتي؟\\nب: أيّ فرشاة؟ فرشاة الشعر؟\\nأ: نعم، فرشاة الشعر.\\nب: في الحمام، بجانب المرآة."
+  },
+  {
+    "english": "A: Do you have a tissue?\\nB: Yes, here. Do you have a cold?\\nA: Yes, since yesterday.\\nB: Get well soon!",
+    "arabic": "أ: هل معك منديل ورقي؟\\nب: نعم، تفضل. هل أصابك زكام؟\\nأ: نعم، منذ الأمس.\\nب: شفاءً عاجلاً!"
+  },
+  {
+    "english": "A: The caregiver comes at eight o'clock.\\nB: Is he nice?\\nA: Yes, a very good caregiver.\\nB: Good, grandma needs good care.",
+    "arabic": "أ: يأتي المعالج الصحي في الساعة الثامنة.\\nب: هل هو لطيف؟\\nأ: نعم، معالج صحي ممتاز.\\nب: جيد، تحتاج الجدة إلى رعاية جيدة."
+  },
+  {
+    "english": "A: The caregiver is very experienced.\\nB: How long has she been working?\\nA: For ten years as a caregiver.\\nB: You can tell.",
+    "arabic": "أ: المعالجة الصحية ذات خبرة كبيرة.\\nب: منذ متى وهي تعمل؟\\nأ: عشر سنوات كمعالجة صحية.\\nب: يظهر ذلك عليها."
+  },
+  {
+    "english": "A: My brother is a nurse.\\nB: At which clinic does he work?\\nA: At the Charité.\\nB: That is a very good profession.",
+    "arabic": "أ: أخي ممرّض.\\nب: في أيّ مستشفى يعمل؟\\nأ: في مستشفى الشاريتيه.\\nب: هذه مهنة ممتازة."
+  },
+  {
+    "english": "A: The nurse is measuring my blood pressure.\\nB: Is it too high?\\nA: No, says the nurse.\\nB: Good, then everything is fine.",
+    "arabic": "أ: الممرضة تقيس ضغط دمي.\\nب: هل هو مرتفع جداً؟\\nأ: لا، هكذا تقول الممرضة.\\nب: جيد، إذن كل شيء على ما يرام."
+  },
+  {
+    "english": "A: Who is the supervisor of the group?\\nB: Mr. Schmidt. He looks after ten patients.\\nA: Is he good?\\nB: Yes, a very caring supervisor.",
+    "arabic": "أ: من هو المشرف على المجموعة؟\\nب: السيد شميدت. يعتني بعشرة مرضى.\\nأ: هل هو جيد؟\\nب: نعم، مشرف مهتم جداً."
+  },
+  {
+    "english": "A: The caretaker comes this afternoon.\\nB: Good, grandpa always looks forward to it.\\nA: Yes, the caretaker is very nice.\\nB: He trusts her.",
+    "arabic": "أ: تأتي المشرفة هذا المساء.\\nب: جيد، الجد دائماً يتطلع إلى زيارتها.\\nأ: نعم، المشرفة لطيفة جداً.\\nب: إنه يثق بها."
+  },
+  {
+    "english": "A: The care at the nursing home is very good.\\nB: How many hours per day?\\nA: 24-hour care.\\nB: That is reassuring.",
+    "arabic": "أ: الرعاية في دار المسنين ممتازة.\\nب: كم ساعة يومياً؟\\nأ: رعاية على مدار 24 ساعة.\\nب: هذا مطمئن."
+  },
+  {
+    "english": "A: Who cares for your mother?\\nB: A caregiver comes every day.\\nA: Does he care for her well?\\nB: Yes, he cares for her with great patience.",
+    "arabic": "أ: من يعتني بأمك؟\\nب: يأتي معالج صحي كل يوم.\\nأ: هل يعتني بها جيداً؟\\nب: نعم، يعتني بها بصبر كبير."
+  },
+  {
+    "english": "A: Who looks after the children?\\nB: A caretaker looks after them.\\nA: How many children does she look after?\\nB: Ten children per group.",
+    "arabic": "أ: من يشرف على الأطفال؟\\nب: تشرف عليهم مشرفة.\\nأ: كم طفلاً تشرف عليه؟\\nب: عشرة أطفال في كل مجموعة."
+  },
+  {
+    "english": "A: This medicine eases the pain.\\nB: Really? How fast?\\nA: After about 30 minutes.\\nB: Good, I am relieved.",
+    "arabic": "أ: هذا الدواء يخفف الألم.\\nب: حقاً؟ كم يستغرق ذلك؟\\nأ: بعد نحو 30 دقيقة.\\nب: جيد، هذا يريحني."
+  },
+  {
+    "english": "A: I need to bandage the wound.\\nB: Do you have a bandage?\\nA: Yes, I will bandage it right away.\\nB: Thanks, that feels better already.",
+    "arabic": "أ: أحتاج إلى تضميد الجرح.\\nب: هل معك ضمادة؟\\nأ: نعم، سأضمده الآن.\\nب: شكراً، أشعر بتحسن بالفعل."
+  },
+  {
+    "english": "A: We need to replace the bandage.\\nB: How often?\\nA: Replace it every day.\\nB: And then the wound heals faster?",
+    "arabic": "أ: يجب تغيير الضمادة.\\nب: كم مرة؟\\nأ: غيّرها كل يوم.\\nب: وعندها يلتئم الجرح بشكل أسرع؟"
+  },
+  {
+    "english": "A: Do you have a substitute for this medicine?\\nB: Yes, there is a cheaper substitute.\\nA: Does the substitute work just as well?\\nB: Yes, same active ingredient.",
+    "arabic": "أ: هل لديك بديل لهذا الدواء؟\\nب: نعم، هناك بديل أرخص.\\nأ: هل البديل بنفس الفعالية؟\\nب: نعم، المادة الفعالة نفسها."
+  },
+  {
+    "english": "A: Get well soon!\\nB: Thanks! I hope for a quick recovery.\\nA: Rest well.\\nB: I will. Thanks for the well wishes.",
+    "arabic": "أ: شفاءً عاجلاً!\\nب: شكراً! أتمنى تعافياً سريعاً.\\nأ: استرح جيداً.\\nب: سأفعل. شكراً على التمنيات الطيبة."
+  },
+  {
+    "english": "This store sells toiletries and cosmetics, not prescription medicine.",
+    "arabic": "يبيع هذا المتجر مستلزمات النظافة الشخصية ومستحضرات التجميل، وليس الأدوية الموصوفة."
+  },
+  {
+    "english": "Which word means 'therefore' and is followed by verb-second word order?",
+    "arabic": "أيّ كلمة تعني 'لذلك' ويأتي بعدها الفعل في المرتبة الثانية من الجملة؟"
+  },
+  {
+    "english": "The nurse works hard. Therefore she is often exhausted.",
+    "arabic": "الممرضة تعمل بجد. لذلك كثيراً ما تكون منهكة."
+  },
+  {
+    "english": "First blank: accusative relative pronoun for feminine Salbe. Second blank: consequence conjunction + verb-second.",
+    "arabic": "الفراغ الأول: الضمير الموصول في حالة المفعول به لكلمة Salbe المؤنثة. الفراغ الثاني: حرف عطف يفيد النتيجة مع وضع الفعل في المرتبة الثانية."
+  },
+  {
+    "english": "The ointment the doctor prescribed me does not help. That is why I need a different painkiller.",
+    "arabic": "المرهم الذي وصفه لي الطبيب لا يفيد. لهذا السبب أحتاج إلى مسكن ألم مختلف."
+  },
+  {
+    "english": "A: When will you retire?\\nB: At 67. Another 30 years.\\nA: Will you get a good pension?\\nB: I hope so. I pay in every month.",
+    "arabic": "أ: متى ستتقاعد؟\\nب: في سن 67. ثلاثون سنة أخرى.\\nأ: هل ستحصل على معاش جيد؟\\nب: أتمنى ذلك. أدفع الاشتراك كل شهر."
+  },
+  {
+    "english": "A: My father gets a pension.\\nB: Is he a civil servant?\\nA: Yes, he was a teacher for 40 years.\\nB: Then the pension is surely good.",
+    "arabic": "أ: والدي يحصل على معاش تقاعدي.\\nب: هل هو موظف حكومي؟\\nأ: نعم، كان معلماً لمدة 40 سنة.\\nب: إذن المعاش سيكون جيداً بالتأكيد."
+  },
+  {
+    "english": "A: Is there a senior discount?\\nB: Yes, for seniors from 65 years.\\nA: How many percent?\\nB: 20 percent on all tickets.",
+    "arabic": "أ: هل هناك خصم لكبار السن؟\\nب: نعم، لكبار السن من سن 65 فصاعداً.\\nأ: كم بالمئة؟\\nب: 20 بالمئة على جميع التذاكر."
+  },
+  {
+    "english": "A: The senior woman jogs every morning.\\nB: How old is she?\\nA: 78 years old.\\nB: Impressive! An athletic senior.",
+    "arabic": "أ: المسنّة تركض كل صباح.\\nب: كم عمرها؟\\nأ: 78 سنة.\\nب: رائع! مسنّة رياضية."
+  },
+  {
+    "english": "A: My neighbor is a pensioner.\\nB: From Austria?\\nA: Yes, he is from Vienna.\\nB: There they say Pensionist instead of Rentner.",
+    "arabic": "أ: جاري متقاعد.\\nب: من النمسا؟\\nأ: نعم، هو من فيينا.\\nب: هناك يقولون Pensionist بدلاً من Rentner."
+  },
+  {
+    "english": "A: The pensioner lives in Salzburg.\\nB: Does she get a good pension?\\nA: Yes, she was a teacher.\\nB: Teachers get good pensions.",
+    "arabic": "أ: المتقاعدة تعيش في زالتسبورغ.\\nب: هل تحصل على معاش جيد؟\\nأ: نعم، كانت معلمة.\\nب: المعلمون يحصلون على معاشات جيدة."
+  },
+  {
+    "english": "A: My grandma lives in the nursing home.\\nB: Does she like it there?\\nA: Yes, the nursing home is very nice.\\nB: Does she have good care?",
+    "arabic": "أ: جدتي تعيش في دار المسنين.\\nب: هل هي مرتاحة هناك؟\\nأ: نعم، دار المسنين رائع.\\nب: هل تحظى برعاية جيدة؟"
+  },
+  {
+    "english": "A: Is there a retirement home nearby?\\nB: Yes, on the outskirts.\\nA: Is the retirement home good?\\nB: Yes, it has a good reputation.",
+    "arabic": "أ: هل يوجد دار مسنين قريب؟\\nب: نعم، في أطراف المدينة.\\nأ: هل دار المسنين جيد؟\\nب: نعم، له سمعة طيبة."
+  },
+  {
+    "english": "A: The facility is modern.\\nB: Which facility do you mean?\\nA: The medical facility by the park.\\nB: Ah yes, that one only opened last year.",
+    "arabic": "أ: المنشأة حديثة.\\nب: أيّ منشأة تعني؟\\nأ: المنشأة الطبية المجاورة للحديقة.\\nب: آه نعم، تلك افتُتحت العام الماضي فحسب."
+  },
+  {
+    "english": "A: When will he be retired?\\nB: Next year.\\nA: Is he looking forward to it?\\nB: Yes, he was informed last month.",
+    "arabic": "أ: متى سيُحال إلى التقاعد؟\\nب: العام القادم.\\nأ: هل هو متحمس لذلك؟\\nب: نعم، أُبلغ بالأمر الشهر الماضي."
+  },
+  {
+    "english": "A: He is in great distress.\\nB: What happened?\\nA: He lost his money.\\nB: We need to help him.",
+    "arabic": "أ: إنه في ضائقة شديدة.\\nب: ماذا جرى؟\\nأ: لقد خسر أمواله.\\nب: يجب أن نساعده."
+  },
+  {
+    "english": "A: Where is the emergency exit?\\nB: Back there, next to the stairs.\\nA: Thanks. You should always know where it is.\\nB: Exactly, that is safety.",
+    "arabic": "أ: أين مخرج الطوارئ؟\\nب: هناك في الخلف، بجانب الدرج.\\nأ: شكراً. يجب أن تعرف دائماً أين يوجد.\\nب: بالضبط، هذا هو الأمان."
+  },
+  {
+    "english": "A: How many victims were there?\\nB: Three injured, no dead.\\nA: That is terrible.\\nB: Yes, the victims are being treated in the hospital.",
+    "arabic": "أ: كم ضحية كان هناك؟\\nب: ثلاثة مصابين، لا وفيات.\\nأ: هذا أمر مروّع.\\nب: نعم، الضحايا يتلقون العلاج في المستشفى."
+  },
+  {
+    "english": "A: Death is a difficult topic.\\nB: Yes, but an important one.\\nA: In Germany, people talk about it openly.\\nB: I think that is good.",
+    "arabic": "أ: الموت موضوع صعب.\\nب: نعم، لكنه موضوع مهم.\\nأ: في ألمانيا، يتحدث الناس عنه بصراحة.\\nب: أظن أن ذلك جيد."
+  },
+  {
+    "english": "A: The police found a dead woman.\\nB: Who was the dead woman?\\nA: That is still being investigated.\\nB: The number of dead is rising.",
+    "arabic": "أ: عثرت الشرطة على امرأة متوفاة.\\nب: من كانت المتوفاة؟\\nأ: التحقيقات جارية.\\nب: عدد الضحايا في ازدياد."
+  },
+  {
+    "english": "A: The sick woman needs rest.\\nB: How is the sick woman doing?\\nA: Better. The sick woman is recovering slowly.\\nB: That is good news.",
+    "arabic": "أ: المريضة بحاجة إلى راحة.\\nب: كيف حال المريضة؟\\nأ: أفضل. المريضة تتعافى ببطء.\\nب: هذا خبر سار."
+  },
+  {
+    "english": "A: Is the disease deadly?\\nB: No, not with the right treatment.\\nA: Thank God.\\nB: But without treatment it can be deadly.",
+    "arabic": "أ: هل المرض قاتل؟\\nب: لا، ليس مع العلاج المناسب.\\nأ: الحمد لله.\\nب: لكن بدون علاج قد يكون قاتلاً."
+  },
+  {
+    "english": "A: When does the delivery come?\\nB: The delivery comes tomorrow.\\nA: Good, I am waiting for the medicine delivery.\\nB: It will be delivered by 12 o'clock.",
+    "arabic": "أ: متى يصل التوصيل؟\\nب: يصل التوصيل غداً.\\nأ: جيد، أنا بانتظار توصيل الدواء.\\nب: سيُسلَّم بحلول الساعة الثانية عشرة."
+  },
+  {
+    "english": "sich entscheiden für + accusative. Versicherung is feminine.",
+    "arabic": "الفعل sich entscheiden für يستلزم حالة المفعول به. كلمة Versicherung مؤنثة."
+  },
+  {
+    "english": "The separable verb for making regular contributions to a pension or insurance fund.",
+    "arabic": "الفعل المنفصل الذي يعني تقديم مساهمات منتظمة في صندوق تقاعد أو تأمين."
+  },
+  {
+    "english": "Every employee must pay into the pension insurance monthly.",
+    "arabic": "يجب على كل موظف المساهمة في تأمين التقاعد شهرياً."
+  },
+  {
+    "english": "A: Are you a smoker?\\nB: No, I quit three years ago.\\nA: Well done! Smoking is unhealthy.\\nB: Yes, I feel much better.",
+    "arabic": "أ: هل أنت مدخن؟\\nب: لا، أقلعت منذ ثلاث سنوات.\\nأ: أحسنت! التدخين ضار بالصحة.\\nب: نعم، أشعر بتحسن كبير."
+  },
+  {
+    "english": "A: Is she a smoker?\\nB: Yes, unfortunately. She has been smoking for 20 years.\\nA: That is bad for health.\\nB: I know, but she cannot quit.",
+    "arabic": "أ: هل هي مدخنة؟\\nب: نعم، للأسف. إنها تدخن منذ 20 سنة.\\nأ: هذا ضار بالصحة.\\nب: أعلم، لكنها لا تستطيع الإقلاع."
+  },
+  {
+    "english": "A: I am a non-smoker.\\nB: Very good. Since always?\\nA: Yes, I have never smoked.\\nB: Enviable!",
+    "arabic": "أ: أنا لا أدخن.\\nب: ممتاز. منذ الأبد؟\\nأ: نعم، لم أدخن قط.\\nب: يا له من أمر يُحسد عليه!"
+  },
+  {
+    "english": "A: She is a committed non-smoker.\\nB: Good for her.\\nA: Yes, she never started.\\nB: That is the best decision.",
+    "arabic": "أ: إنها من غير المدخنين المقتنعين.\\nب: هنيئاً لها.\\nأ: نعم، لم تبدأ قط.\\nب: هذا أفضل قرار."
+  },
+  {
+    "english": "A: Addiction is a disease.\\nB: Yes, a very serious one.\\nA: Can you cure addiction?\\nB: With therapy and support, yes.",
+    "arabic": "أ: الإدمان مرض.\\nب: نعم، مرض خطير جداً.\\nأ: هل يمكن علاج الإدمان؟\\nب: بالعلاج والدعم، نعم."
+  },
+  {
+    "english": "A: Alcohol is an addictive substance.\\nB: Yes, and nicotine too.\\nA: Which addictive substances are legal?\\nB: Alcohol, nicotine, and caffeine.",
+    "arabic": "أ: الكحول مادة مخدرة.\\nب: نعم، والنيكوتين أيضاً.\\nأ: أيّ المواد المخدرة قانونية؟\\nب: الكحول والنيكوتين والكافيين."
+  },
+  {
+    "english": "A: Drugs are dangerous.\\nB: Yes, especially hard drugs.\\nA: Is there help for addicts?\\nB: Yes, there are drug counseling centers.",
+    "arabic": "أ: المخدرات خطيرة.\\nب: نعم، خاصة المخدرات الثقيلة.\\nأ: هل هناك مساعدة للمدمنين؟\\nب: نعم، هناك مراكز إرشاد للمخدرات."
+  },
+  {
+    "english": "A: Careful, that is poison!\\nB: Really? It looks harmless.\\nA: No, that is very poisonous material.\\nB: Thanks for the warning!",
+    "arabic": "أ: انتبه، هذا سُمّ!\\nب: حقاً؟ يبدو غير ضار.\\nأ: لا، هذه مادة سامة جداً.\\nب: شكراً على التحذير!"
+  },
+  {
+    "english": "A: Are you addicted to coffee?\\nB: Yes, totally addicted! Three cups a day.\\nA: That is not so bad yet.\\nB: But without coffee I cannot function.",
+    "arabic": "أ: هل أنت مدمن على القهوة؟\\nب: نعم، مدمن تماماً! ثلاثة أكواب يومياً.\\nأ: هذا ليس سيئاً جداً بعد.\\nب: لكن بدون قهوة لا أستطيع العمل."
+  },
+  {
+    "english": "A: My grandpa is almost blind.\\nB: Does he need help in daily life?\\nA: Yes, a caregiver comes daily.\\nB: Good that he has support.",
+    "arabic": "أ: جدي شبه أعمى.\\nب: هل يحتاج إلى مساعدة في حياته اليومية؟\\nأ: نعم، يأتي معالج صحي يومياً.\\nب: من الجيد أن لديه دعماً."
+  },
+  {
+    "english": "A: She has been deaf since childhood.\\nB: Can she do sign language?\\nA: Yes, fluently.\\nB: Impressive.",
+    "arabic": "أ: إنها صماء منذ الطفولة.\\nب: هل تتقن لغة الإشارة؟\\nأ: نعم، بطلاقة.\\nب: رائع."
+  },
+  {
+    "english": "A: Are you left-handed?\\nB: Yes, I write with the left hand.\\nA: Interesting. My brother too.\\nB: We are about ten percent of the population.",
+    "arabic": "أ: هل أنت أعسر؟\\nب: نعم، أكتب باليد اليسرى.\\nأ: مثير للاهتمام. أخي أيضاً.\\nب: نحن نمثل نحو عشرة بالمئة من السكان."
+  },
+  {
+    "english": "A: Ow! The bee stung me!\\nB: Where did it sting you?\\nA: On the arm. It burns and stings.\\nB: Let me see. Are you allergic?",
+    "arabic": "أ: آه! لسعتني نحلة!\\nب: أين لسعتك؟\\nأ: في الذراع. إنها تحترق وتلسع.\\nب: دعني أرى. هل أنت مصاب بحساسية؟"
+  },
+  {
+    "english": "A: Can you push the wheelchair?\\nB: Yes, no problem.\\nA: Carefully, the ramp is steep.\\nB: I will push very slowly.",
+    "arabic": "أ: هل يمكنك دفع الكرسي المتحرك؟\\nب: نعم، لا مشكلة.\\nأ: بعناية، المنحدر حاد.\\nب: سأدفع ببطء شديد."
+  },
+  {
+    "english": "A: How much do you weigh?\\nB: About 80 kilos.\\nA: That is a normal weight.\\nB: Yes, I pay attention to my health.",
+    "arabic": "أ: كم يبلغ وزنك؟\\nب: نحو 80 كيلوغراماً.\\nأ: هذا وزن طبيعي.\\nب: نعم، أهتم بصحتي."
+  },
+  {
+    "english": "This is the most famous German-English false friend. Not a present!",
+    "arabic": "هذه أشهر كلمة مضللة بين الألمانية والإنجليزية. وهي لا تعني هدية!"
+  },
+  {
+    "english": "Which preposition means 'at' or 'from' when collecting something from a place?",
+    "arabic": "أيّ حرف جر يعني 'عند' أو 'من' عند أخذ شيء من مكان ما؟"
+  },
+  {
+    "english": "The pharmacy I get my medicine from is nearby.",
+    "arabic": "الصيدلية التي أحصل منها على دوائي قريبة."
+  },
+  {
+    "english": "First blank: dative masculine relative pronoun. Second blank: contrast conjunction (despite that).",
+    "arabic": "الفراغ الأول: الضمير الموصول المذكر في حالة المفعول غير المباشر. الفراغ الثاني: حرف عطف يفيد التناقض (رغم ذلك)."
+  },
+  {
+    "english": "The patient the doctor gave the injection to was afraid. Nevertheless, he was relieved afterwards.",
+    "arabic": "كان المريض الذي أعطاه الطبيب الحقنة خائفاً. ومع ذلك، شعر بارتياح بعدها."
+  },
+  {
+    "english": "This conjunction shows direct consequence, similar to 'deshalb.'",
+    "arabic": "يدل هذا الرابط على النتيجة المباشرة، مشابهاً لكلمة deshalb."
+  },
+  {
+    "english": "Which conjunction means 'otherwise' and warns of a negative consequence?",
+    "arabic": "أيّ حرف عطف يعني 'وإلا' ويحذّر من عاقبة سلبية؟"
+  },
+  {
+    "english": "Take your medicine. Otherwise it will get worse.",
+    "arabic": "تناول دواءك. وإلا سيزداد وضعك سوءاً."
+  },
+  {
+    "english": "A: Do you have a coin for the machine?\\nB: Yes, here is a 1-euro coin.\\nA: Thanks! The machine only takes coins.\\nB: No bills? Only coins?",
+    "arabic": "أ: هل معك عملة معدنية للآلة؟\\nب: نعم، تفضل عملة يورو واحد.\\nأ: شكراً! الآلة لا تقبل إلا العملات المعدنية.\\nب: لا ورقنقود؟ عملات فقط؟"
+  },
+  {
+    "english": "A: I need to withdraw money.\\nB: Where is the nearest ATM?\\nA: Around the corner. I will quickly withdraw 100 euros.\\nB: Good, I will wait here.",
+    "arabic": "أ: أحتاج إلى سحب أموال.\\nب: أين أقرب صراف آلي؟\\nأ: خلف الزاوية. سأسحب 100 يورو بسرعة.\\nب: جيد، سأنتظر هنا."
+  },
+  {
+    "english": "A: I would like to lose five kilos.\\nB: Then you need to eat less.\\nA: Or exercise more.\\nB: Best to do both!",
+    "arabic": "أ: أريد أن أخسر خمسة كيلوغرامات.\\nب: إذن عليك أن تأكل أقل.\\nأ: أو تمارس المزيد من الرياضة.\\nب: الأفضل القيام بالاثنين معاً!"
+  },
+  {
+    "english": "A: In winter I always gain weight.\\nB: How much?\\nA: About two kilos.\\nB: That is not much. In spring you will lose it again.",
+    "arabic": "أ: في الشتاء أزيد وزني دائماً.\\nب: كم؟\\nأ: نحو كيلوغرامين.\\nب: هذا ليس كثيراً. في الربيع ستخسرهما مجدداً."
+  },
+  {
+    "english": "A: I caught a cold.\\nB: Again? Dress more warmly.\\nA: Yes, it was too cold outside.\\nB: Drink tea and rest.",
+    "arabic": "أ: أصابني الزكام.\\nب: مجدداً؟ ارتدِ ملابس أدفأ.\\nأ: نعم، كان الجو بارداً جداً في الخارج.\\nب: اشرب شاياً وارتح."
+  },
+  {
+    "english": "A: Have you recovered from the flu?\\nB: Yes, I have recovered well.\\nA: How long did the recovery take?\\nB: About a week.",
+    "arabic": "أ: هل تعافيت من الإنفلونزا؟\\nب: نعم، تعافيت جيداً.\\nأ: كم استغرق التعافي؟\\nب: نحو أسبوع."
+  },
+  {
+    "english": "A: You need rest.\\nB: Yes, I am exhausted.\\nA: Take a few days of rest.\\nB: The doctor prescribed me a health retreat.",
+    "arabic": "أ: أنت بحاجة إلى راحة.\\nب: نعم، أنا منهك.\\nأ: خذ أياماً من الراحة.\\nب: الطبيب وصف لي رحلة استشفاء."
+  },
+  {
+    "english": "A: I estimate the costs at 500 euros.\\nB: That is a rough estimate.\\nA: Yes, but I estimate it will not be more.\\nB: I appreciate your honesty.",
+    "arabic": "أ: أقدّر التكاليف بـ 500 يورو.\\nب: هذا تقدير تقريبي.\\nأ: نعم، لكنني أقدّر أنها لن تتجاوز ذلك.\\nب: أقدّر صدقك."
+  },
+  {
+    "english": "A: Who distributes the medicine?\\nB: The caregiver distributes them.\\nA: How are the costs distributed?\\nB: Equally among all insured persons.",
+    "arabic": "أ: من يوزّع الدواء؟\\nب: المعالج الصحي يوزّعه.\\nأ: كيف تُوزَّع التكاليف؟\\nب: بالتساوي على جميع المشتركين في التأمين."
+  },
+  {
+    "english": "A: The accident is obstructing traffic.\\nB: For how much longer?\\nA: About an hour.\\nB: Then I will take another route.",
+    "arabic": "أ: الحادث يعيق حركة المرور.\\nب: إلى متى؟\\nأ: نحو ساعة.\\nب: إذن سآخذ طريقاً آخر."
+  },
+  {
+    "english": "A: What happened?\\nB: He fell from the ladder.\\nA: Is he injured?\\nB: Yes, he broke his arm.",
+    "arabic": "أ: ماذا جرى؟\\nب: سقط من السلم.\\nأ: هل أصيب؟\\nب: نعم، كسرت ذراعه."
+  },
+  {
+    "english": "A: Where is the doctor's office?\\nB: In Vienna they say Ordination.\\nA: In Germany they say Arztpraxis.\\nB: Yes, same thing, different word.",
+    "arabic": "أ: أين عيادة الطبيب؟\\nب: في فيينا يقولون Ordination.\\nأ: في ألمانيا يقولون Arztpraxis.\\nب: نعم، نفس الشيء، كلمة مختلفة."
+  },
+  {
+    "english": "A: Are you exempt from the co-payment?\\nB: Yes, I am exempt.\\nA: Then you do not have to pay anything extra.\\nB: Good, I have the exemption card with me.",
+    "arabic": "أ: هل أنت معفى من الرسوم الإضافية؟\\nب: نعم، أنا معفى.\\nأ: إذن لا يتعين عليك دفع أي شيء إضافي.\\nب: جيد، معي بطاقة الإعفاء."
+  },
+  {
+    "english": "A: How was the treatment?\\nB: Satisfactory. Not bad, not great.\\nA: So grade three?\\nB: Yes, exactly. Satisfactory.",
+    "arabic": "أ: كيف كان العلاج؟\\nب: مُرضٍ. ليس سيئاً ولا ممتازاً.\\nأ: إذن درجة ثلاثة؟\\nب: نعم، بالضبط. مُرضٍ."
+  },
+  {
+    "english": "A: You look strong!\\nB: Thanks, I train a lot.\\nA: And do you eat heartily?\\nB: Yes, a hearty soup for lunch.",
+    "arabic": "أ: تبدو قوياً!\\nب: شكراً، أتدرب كثيراً.\\nأ: وهل تأكل بشهية؟\\nب: نعم، حساء دسم على الغداء."
+  },
+  {
+    "english": "A: The two systems run in parallel.\\nB: The public and the private one?\\nA: Yes, parallel to each other.\\nB: And which one is better?",
+    "arabic": "أ: النظامان يعملان بالتوازي.\\nب: النظام العام والخاص؟\\nأ: نعم، بالتوازي مع بعضهما.\\nب: وأيهما أفضل؟"
+  },
+  {
+    "english": "A: There is a shortage of caregivers.\\nB: Yes, the caregiver shortage is a big problem.\\nA: What can be done about it?\\nB: Better pay and more training positions.",
+    "arabic": "أ: هناك نقص في المعالجين الصحيين.\\nب: نعم، نقص المعالجين الصحيين مشكلة كبيرة.\\nأ: ما الذي يمكن فعله؟\\nب: رواتب أفضل ومزيد من وظائف التدريب."
+  },
+  {
+    "english": "A: Does the apartment have a bathtub?\\nB: Yes, a large bathtub.\\nA: Great! I love lying in the bathtub.\\nB: The bathtub is almost new.",
+    "arabic": "أ: هل في الشقة حوض استحمام؟\\nب: نعم، حوض كبير.\\nأ: رائع! أحب الاستلقاء في حوض الاستحمام.\\nب: الحوض شبه جديد."
+  },
+  {
+    "english": "zahlen an + accusative. Krankenkasse is feminine. What is the feminine accusative?",
+    "arabic": "الفعل zahlen مع حرف الجر an يستلزم حالة المفعول به. كلمة Krankenkasse مؤنثة. ما هي الصيغة المؤنثة لحالة المفعول به؟"
+  },
+  {
+    "english": "First blank: in + dative, neuter Altenheim. Second blank: consequence conjunction.",
+    "arabic": "الفراغ الأول: حرف الجر in مع حالة المفعول غير المباشر، وكلمة Altenheim محايدة الجنس. الفراغ الثاني: حرف عطف يفيد النتيجة."
+  },
+  {
+    "english": "The nursing home my grandma lives in is very good. Therefore I visit her often.",
+    "arabic": "دار المسنين الذي تعيش فيه جدتي ممتاز. لذلك أزورها كثيراً."
+  }
+]

@@ -1,0 +1,1107 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Enter the world of German proverbs and oral tradition. Learn core literary vocabulary. Understand why proverbs matter so much in German culture."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn 18 words from the literary tradition"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Understand proverbs as cultural wisdom"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Distinguish Sprichwort, Redewendung, and Gleichnis"
+  },
+  {
+    "line": 9,
+    "field": "unknown",
+    "english": "Join Heinrich on his Sunday visit"
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "Sunday afternoon at Hildi's. The room smells of coffee and old wood. Heinrich sits in his armchair, a blanket on his lap. Hildi places cake on the table. Afternoon light filters through lace curtains. Verumius arrives with a notebook. He has learned to write things down."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "Ah, Verumius! Sit down. Today I will tell you something important. No textbook. No grammar. Proverbs."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "Proverbs? Like 'Practice makes perfect'?"
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "Exactly! But a proverb is more than words. It is wisdom that has survived generations. Each one has a story."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "He tells them slightly differently every time. But do not interrupt him."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "proverb"
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: Do you know a German proverb?\\nB: Yes! 'The early bird catches the worm.'\\nA: That is a nice proverb.\\nB: There are thousands of proverbs."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "idiom, figure of speech"
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: What is a Redewendung?\\nB: A fixed expression like 'to put your foot in it.'\\nA: And a proverb?\\nB: A complete sentence of wisdom, like 'Practice makes perfect.'"
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "wisdom"
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: What do proverbs carry?\\nB: Old wisdom. Experience from centuries.\\nA: Is every piece of wisdom timeless?\\nB: Not all. Some wisdom no longer fits."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "expression, manner of speaking"
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: 'That is just a Redensart' means what?\\nB: It means: do not take it literally.\\nA: So a way of speaking?\\nB: Exactly. A particular way of expressing something."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "fairy tale"
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: Do you know German fairy tales?\\nB: Yes, Little Red Riding Hood and Snow White.\\nA: Who collected the fairy tales?\\nB: The Brothers Grimm. In the 19th century."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "narrative, story"
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: What is the difference between Erzählung and Geschichte?\\nB: Erzählung sounds more literary.\\nA: So a technical term?\\nB: Yes, for short literary works."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "metaphor"
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: What is a metaphor?\\nB: An image for something else.\\nA: For example?\\nB: 'Life is a journey.' Life does not actually travel."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "parable, allegory"
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: What is a parable?\\nB: A simple story with deeper meaning.\\nA: Like in the Bible?\\nB: Yes, but Heinrich's stories are also parables."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "poet, literary writer"
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: Who is the most famous German poet?\\nB: Goethe. Without doubt.\\nA: What did the poet write?\\nB: Poems, novels, plays. Everything."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "poet, literary writer (female)"
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Do you know a German female poet?\\nB: Ingeborg Bachmann. A magnificent poet.\\nA: What did the poet write?\\nB: Poems and narratives. Wonderful language."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "literary"
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Is that a literary text?\\nB: Yes, very literary. Poetic language.\\nA: What does 'literary' mean exactly?\\nB: Belonging to literature. Artistically written."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "poetic"
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: That sounds very poetic.\\nB: Thanks! Or do you mean that ironically?\\nA: No, really. Poetic language is beautiful.\\nB: When it is genuine, yes."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "timeless"
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Are proverbs timeless?\\nB: The best ones, yes. They survive centuries.\\nA: Timeless wisdom then?\\nB: Exactly. It is valid today as it was 500 years ago."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "folk, popular, traditional"
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: Are proverbs folk in nature?\\nB: Yes, they come from ordinary people, not scholars.\\nA: Folk language is simple?\\nB: Simple, but deep. That is the art."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "handed down, transmitted"
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: How did proverbs survive?\\nB: They were handed down orally.\\nA: From generation to generation?\\nB: Yes. Transmitted wisdom needs no book."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "to tell, to narrate"
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Heinrich, tell us a story!\\nB: Gladly. I will tell you about my grandfather.\\nA: He narrates so vividly.\\nB: Yes, he is a born storyteller."
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "to compose poetry, to write literary works"
+  },
+  {
+    "line": 32,
+    "field": "exampleSrc",
+    "english": "A: Goethe composed poetry in Weimar.\\nB: What did he compose there?\\nA: Faust, poems, everything possible.\\nB: Composing poetry is an art."
+  },
+  {
+    "line": 33,
+    "field": "src",
+    "english": "to quote"
+  },
+  {
+    "line": 33,
+    "field": "exampleSrc",
+    "english": "A: May I quote Heinrich?\\nB: Of course. What did he say?\\nA: I quote: 'The early bird catches the worm.'\\nB: That is a classic. Good quote."
+  },
+  {
+    "line": 34,
+    "field": "hint",
+    "english": "A complete sentence of folk wisdom, passed down for generations. Not an expression or idiom, but a full standalone saying."
+  },
+  {
+    "line": 35,
+    "field": "hint",
+    "english": "The German word for 'wisdom'. What proverbs carry from generation to generation."
+  },
+  {
+    "line": 35,
+    "field": "sSrc",
+    "english": "This old wisdom has survived generations."
+  },
+  {
+    "line": 41,
+    "field": "hint",
+    "english": "From 'gleich' (same/equal). A simple story that stands for something deeper."
+  },
+  {
+    "line": 44,
+    "field": "desc",
+    "english": "Learn the words of German literature. From poems and novels to epochs and genres. Master the vocabulary of the literary tradition."
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Learn 20 words for literary genres and forms"
+  },
+  {
+    "line": 46,
+    "field": "unknown",
+    "english": "Understand the three genres of literature"
+  },
+  {
+    "line": 47,
+    "field": "unknown",
+    "english": "Describe poems, stories, and novels in German"
+  },
+  {
+    "line": 48,
+    "field": "unknown",
+    "english": "Expand your literary vocabulary"
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "Before I tell you my stories, you must know the language of stories. What is a poem? What is a narrative? Without the words, you cannot write the stories down."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "poem"
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: Do you know a German poem?\\nB: Yes, 'The Erlking' by Goethe.\\nA: Can you recite the poem?\\nB: The beginning, yes. It is very well known."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "verse, line of poetry"
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: How many verses does the poem have?\\nB: Twelve verses in three stanzas.\\nA: The first verse is the most beautiful.\\nB: Yes, it sets the tone for the whole poem."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "stanza"
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: How many stanzas does the poem have?\\nB: Four stanzas with four verses each.\\nA: The last stanza is the strongest.\\nB: Yes, that is where the turning point comes."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "rhyme"
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Do these words rhyme?\\nB: Yes, 'Haus' and 'Maus' are a rhyme.\\nA: Children learn through rhymes.\\nB: Yes, counting rhymes and children's songs."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "lyric poetry"
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: What is lyric poetry?\\nB: Poems. Personal, emotional texts.\\nA: And the difference from prose?\\nB: Lyric poetry has rhythm, rhymes, verses."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "prose"
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: Is that prose or poetry?\\nB: Prose. No rhythm, no rhymes.\\nA: Prose sounds simpler.\\nB: Simpler, but not less artful."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "novel"
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: What novel are you reading right now?\\nB: A novel by Thomas Mann.\\nA: The novel is long, right?\\nB: Yes, but every sentence is worth it."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "short story"
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: What is a short story?\\nB: A short narrative with an open ending.\\nA: Who wrote good short stories?\\nB: Heinrich Boell and Wolfgang Borchert."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "novella"
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: Is a novella a short story?\\nB: Yes, but with strict rules.\\nA: What rules?\\nB: A turning point and a symbolic object, the 'falcon.'"
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "play, drama"
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: What is a drama?\\nB: A play. Dialogue on stage.\\nA: And in everyday life?\\nB: There you say 'No drama!' and mean: no problem."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "fable"
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Do you know a fable?\\nB: Yes, the fox and the grapes.\\nA: What is the moral of the fable?\\nB: One despises what one cannot reach."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "genre, category"
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Which genre does this text belong to?\\nB: Lyric poetry. It is a poem.\\nA: And a novel?\\nB: That belongs to epic. Narrative prose."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "work (of art/literature)"
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Do you know Kafka's work?\\nB: Yes, especially 'The Metamorphosis.'\\nA: His work is timeless.\\nB: Yes, every work surprises anew."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "plot, action"
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: Where does the plot take place?\\nB: In Berlin, in the 19th century.\\nA: Is the plot exciting?\\nB: Yes, full of twists and surprises."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "main character, protagonist"
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: Who is the main character of the novel?\\nB: A young man named Werther.\\nA: Is the main character likeable?\\nB: Yes, but also tragic."
+  },
+  {
+    "line": 66,
+    "field": "src",
+    "english": "setting, scene"
+  },
+  {
+    "line": 66,
+    "field": "exampleSrc",
+    "english": "A: What is the setting of the story?\\nB: A small town in Saxony.\\nA: Why is the setting important?\\nB: It determines the atmosphere."
+  },
+  {
+    "line": 67,
+    "field": "src",
+    "english": "era, literary period"
+  },
+  {
+    "line": 67,
+    "field": "exampleSrc",
+    "english": "A: From which era does this poem come?\\nB: From the Romantic period. Early 19th century.\\nA: What characterizes this era?\\nB: Emotion, nature, and longing."
+  },
+  {
+    "line": 68,
+    "field": "src",
+    "english": "epic"
+  },
+  {
+    "line": 68,
+    "field": "exampleSrc",
+    "english": "A: Is 'The Lord of the Rings' epic?\\nB: Yes, in both meanings!\\nA: Literary and colloquial?\\nB: Exactly. Epic as a technical term and as slang."
+  },
+  {
+    "line": 69,
+    "field": "src",
+    "english": "lyrical"
+  },
+  {
+    "line": 69,
+    "field": "exampleSrc",
+    "english": "A: This text has a lyrical quality.\\nB: Yes, almost like a poem.\\nA: Lyrical means poetic?\\nB: Similar, but lyrical refers to emotion and rhythm."
+  },
+  {
+    "line": 70,
+    "field": "src",
+    "english": "poetic, of a poet"
+  },
+  {
+    "line": 70,
+    "field": "exampleSrc",
+    "english": "A: He used poetic license.\\nB: What does that mean?\\nA: He bent the rules for art.\\nB: So artistic license?"
+  },
+  {
+    "line": 71,
+    "field": "text",
+    "english": "German literary theory divides all literature into three genres:\\n\\n1. Epik: narrative prose. Romane, Novellen, Kurzgeschichten, Maerchen, Fabeln. A narrator tells a story.\\n\\n2. Lyrik: poetry. Gedichte, Verse, Strophen, Reime. Emotional, rhythmic, personal.\\n\\n3. Dramatik: theatre. Dramen, Tragödien, Komoedien. Dialogue and stage directions, no narrator.\\n\\nEvery text belongs to one of these three genres. This system comes from ancient Greek poetics."
+  },
+  {
+    "line": 71,
+    "field": "text",
+    "english": "This classification system dates back to Aristotle's Poetics and was formalized in German literary theory by the Romantics.\\n\\nEpik (Epic/Narrative): A narrator tells a story. Past tense is typical. Subtypes: Roman (novel), Novelle (novella), Kurzgeschichte (short story), Maerchen (fairy tale), Fabel (fable).\\n\\nLyrik (Lyric): Personal expression through rhythm and imagery. Present tense is common. Subtypes: Sonett, Ballade, Ode, Elegie, Haiku.\\n\\nDramatik (Dramatic): Action through dialogue. No narrator. Stage directions replace description. Subtypes: Tragödie, Komoedie, Tragikomoedie.\\n\\nGerman schools test this classification regularly. Knowing the Gattung is the first step of any Textanalyse (text analysis)."
+  },
+  {
+    "line": 77,
+    "field": "hint",
+    "english": "German literary theory gives the Novelle strict rules: one central conflict, a turning point, and a 'Falke' (falcon symbol)."
+  },
+  {
+    "line": 79,
+    "field": "hint",
+    "english": "The word for 'plot' or 'action' of a story. From 'handeln' (to act)."
+  },
+  {
+    "line": 79,
+    "field": "sSrc",
+    "english": "The plot of the novel takes place in Berlin in the 19th century."
+  },
+  {
+    "line": 85,
+    "field": "hint",
+    "english": "A 'Schau-Platz' (show-place). Where the events of the plot unfold."
+  },
+  {
+    "line": 86,
+    "field": "src",
+    "english": "Good. Now you know the words. Now I can tell you what my grandfather told me. And you can write it down. In the right words."
+  },
+  {
+    "line": 89,
+    "field": "desc",
+    "english": "Learn Konjunktiv I for indirect speech. Master the vocabulary of literary analysis. Report what others say in formal German."
+  },
+  {
+    "line": 90,
+    "field": "unknown",
+    "english": "Learn 20 words for literary analysis and reporting"
+  },
+  {
+    "line": 91,
+    "field": "unknown",
+    "english": "Understand Konjunktiv I as 'reporter mode'"
+  },
+  {
+    "line": 92,
+    "field": "unknown",
+    "english": "Report what others say in formal German"
+  },
+  {
+    "line": 93,
+    "field": "unknown",
+    "english": "Analyze literary style devices"
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "Heinrich leans forward. His eyes brighten. He is about to tell a story he has told a hundred times, each time slightly different. Verumius's pen is ready."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "My grandfather always said: 'The early bird catches the worm.' And he was right. He got up every morning at four o'clock. The bakery was his kingdom."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "So: Heinrich told that his grandfather had started every morning at four o'clock. The bakery had been his kingdom."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "It was half past three, not four. But keep telling, Papa."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "quote, citation"
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: Do you know a famous quote?\\nB: Yes: 'I know that I know nothing.'\\nA: Who is the quote from?\\nB: From Socrates. A timeless quote."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "context"
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: What does the word mean in context?\\nB: Viewed in context, the meaning changes.\\nA: Without context, you understand nothing.\\nB: Exactly. Context is everything."
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "perspective, point of view"
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: From whose perspective is the story?\\nB: From the narrator's perspective.\\nA: And Heinrich's perspective?\\nB: That is naturally subjective."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "motif, theme"
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: What is the central motif?\\nB: Bread. It keeps appearing.\\nA: So a motif is a recurring element?\\nB: Yes, it runs through the story."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "symbol"
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: What does bread symbolize in Heinrich's stories?\\nB: Community and work.\\nA: A symbol stands for something else?\\nB: Yes, something concrete for something abstract."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "comparison, simile"
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: What is a comparison?\\nB: 'Life is like a book.' With 'like.'\\nA: And a metaphor?\\nB: 'Life is a book.' Without 'like.'"
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "pun, play on words"
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: Was that a pun?\\nB: Yes! Did you notice it?\\nA: A successful pun.\\nB: Thanks. Puns are an art."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "ambiguity, double meaning"
+  },
+  {
+    "line": 106,
+    "field": "exampleSrc",
+    "english": "A: This word has a double meaning.\\nB: It can mean two things?\\nA: Yes, that makes it interesting.\\nB: Ambiguities are typical for proverbs."
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "allusion, reference"
+  },
+  {
+    "line": 107,
+    "field": "exampleSrc",
+    "english": "A: Was that an allusion to Goethe?\\nB: Yes, a subtle allusion.\\nA: Not everyone understands allusions.\\nB: That is the charm. You have to recognize it."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "reading material, text being read"
+  },
+  {
+    "line": 108,
+    "field": "exampleSrc",
+    "english": "A: What is your current reading?\\nB: Kafka. Difficult but fascinating reading.\\nA: Is that required reading?\\nB: No, voluntary. The best reading is voluntary."
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "allegedly, supposedly"
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: Allegedly he started at four o'clock.\\nB: Allegedly? You do not believe it?\\nA: Hildi says it was half past three.\\nB: So 'four o'clock' is only allegedly correct."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "apparently"
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: Apparently it was half past three.\\nB: That seems likely.\\nA: Apparently is not certain?\\nB: No, it is based on what one sees."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "as is well known"
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: As is well known, proverbs are timeless.\\nB: Yes, everyone knows that.\\nA: 'Bekanntlich' sounds very formal.\\nB: It fits in essays and speeches."
+  },
+  {
+    "line": 112,
+    "field": "src",
+    "english": "obviously, evidently"
+  },
+  {
+    "line": 112,
+    "field": "exampleSrc",
+    "english": "A: Obviously Heinrich was right.\\nB: Yes, that is fairly clear.\\nA: Offenbar is stronger than anscheinend?\\nB: Yes, offenbar means: it is almost certain."
+  },
+  {
+    "line": 113,
+    "field": "src",
+    "english": "according to (preposition)"
+  },
+  {
+    "line": 113,
+    "field": "exampleSrc",
+    "english": "A: According to Heinrich, the day began at four.\\nB: According to Hildi, it was half past three.\\nA: According to whom should I believe?\\nB: According to the truth. It lies in between."
+  },
+  {
+    "line": 114,
+    "field": "src",
+    "english": "to claim, to assert"
+  },
+  {
+    "line": 114,
+    "field": "exampleSrc",
+    "english": "A: Heinrich claims he never overslept.\\nB: That is what he claims.\\nA: Behaupten sounds doubtful?\\nB: Yes, you do not know if it is true."
+  },
+  {
+    "line": 115,
+    "field": "src",
+    "english": "to report"
+  },
+  {
+    "line": 115,
+    "field": "exampleSrc",
+    "english": "A: Verumius reports what Heinrich tells.\\nB: Berichten is neutral?\\nA: Yes, without judgment.\\nB: Different from behaupten, which implies doubt."
+  },
+  {
+    "line": 116,
+    "field": "src",
+    "english": "to emphasize"
+  },
+  {
+    "line": 116,
+    "field": "exampleSrc",
+    "english": "A: Heinrich emphasized that bread was important.\\nB: He placed special value on that.\\nA: Betonen means to highlight?\\nB: Yes, to give something special emphasis."
+  },
+  {
+    "line": 117,
+    "field": "src",
+    "english": "to describe, to depict vividly"
+  },
+  {
+    "line": 117,
+    "field": "exampleSrc",
+    "english": "A: Heinrich describes the bakery in all details.\\nB: You can almost smell it.\\nA: Schildern is more vivid than beschreiben?\\nB: Yes, schildern paints a picture with words."
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "to mean, to think, to be of the opinion"
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: What do you think about that?\\nB: I think Heinrich is right.\\nA: He was of the opinion that the old times were better.\\nB: Many older people think that."
+  },
+  {
+    "line": 119,
+    "field": "text",
+    "english": "German has a special verb form for reported speech: the Konjunktiv I.\\n\\nFormation: verb stem + endings (-e, -est, -e, -en, -et, -en).\\n\\nsein: er sei\\nhaben: er habe\\nkönnen: er könne\\nsagen: er sage\\n\\nExample: 'Heinrich sagte, die Backstube sei sein Königreich.'\\n\\nThe Konjunktiv I signals: 'I am reporting, not giving my own opinion.'\\n\\nUsage: newspapers, academic writing, formal language.\\nIn everyday speech, many speakers use Konjunktiv II (wäre, hätte) instead of Konjunktiv I, but B2 learners must be able to recognize and produce the Konjunktiv I."
+  },
+  {
+    "line": 119,
+    "field": "text",
+    "english": "The Konjunktiv I is formed from the verb stem (infinitive minus -en) plus endings: -e, -est, -e, -en, -et, -en.\\n\\nWhen Konjunktiv I is identical to the indicative (e.g., 'sie haben' = 'sie haben'), German switches to Konjunktiv II instead: 'sie hätten.' This happens mainly in ich and wir/sie forms.\\n\\nThe Konjunktiv I is used in:\\n1. Newspapers and news broadcasts\\n2. Academic writing\\n3. Formal speech and reports\\n4. Legal documents\\n\\nIn everyday speech, most Germans use Konjunktiv II or 'würde + Infinitiv' for indirect speech. But recognizing and producing Konjunktiv I is essential at B2 level."
+  },
+  {
+    "line": 143,
+    "field": "hint",
+    "english": "This special verb form signals that you are reporting someone else's words, not your own opinion."
+  },
+  {
+    "line": 144,
+    "field": "hint",
+    "english": "In reporter mode the auxiliary verb changes. Past tense + Partizip II gives the reported past."
+  },
+  {
+    "line": 144,
+    "field": "sSrc",
+    "english": "Heinrich told that he had gotten up at four o'clock every morning."
+  },
+  {
+    "line": 147,
+    "field": "desc",
+    "english": "Master 'als ob' + Konjunktiv II for unreal comparisons. Learn literary character and genre vocabulary. Combine indirect speech with hypothetical comparison."
+  },
+  {
+    "line": 148,
+    "field": "unknown",
+    "english": "Master 'als ob' + Konjunktiv II for unreal comparisons"
+  },
+  {
+    "line": 149,
+    "field": "unknown",
+    "english": "Learn vocabulary for characters and literary styles"
+  },
+  {
+    "line": 150,
+    "field": "unknown",
+    "english": "Understand the short form: 'als wäre' (inversion)"
+  },
+  {
+    "line": 151,
+    "field": "unknown",
+    "english": "Combine Konjunktiv I (speech) with Konjunktiv II (comparison)"
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "Heinrich continues telling. He describes the bakery as if he could still smell the flour dust. His hands move as if kneading invisible dough. Hildi shakes her head but smiles. Verumius writes and writes."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "He always acts as if he knew everything. As if he had been the only baker in the world. When in fact Grandma ran half the business."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "narrator"
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: Who is the narrator of this story?\\nB: An omniscient narrator. He knows everything.\\nA: And Heinrich? Is he also a narrator?\\nB: Yes, a born narrator."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "narrator (female)"
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Is the narrator reliable?\\nB: No, she is an unreliable narrator.\\nA: You cannot trust her?\\nB: Exactly. She changes the facts."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "secondary character"
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: Is Hildi a secondary character?\\nB: In Heinrich's stories, yes.\\nA: Secondary characters enrich the plot.\\nB: Without them the story would be flat."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "tragedy"
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Is 'Faust' a tragedy?\\nB: Yes, one of the greatest German tragedies.\\nA: What defines a tragedy?\\nB: The hero fails because of his fate."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "poetry, poetic quality"
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Is there poetry in proverbs?\\nB: Yes, everyday poetry. Simple and beautiful.\\nA: Poetry is more than poems?\\nB: Yes, poetry is beauty in language."
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "writer, author"
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: Is Thomas Mann an author or a Schriftsteller?\\nB: A Schriftsteller. That sounds more literary.\\nA: What is the difference?\\nB: Schriftsteller write literary works."
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "writer, author (female)"
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: Do you know a German female writer?\\nB: Herta Mueller. She won the Nobel Prize.\\nA: An important writer.\\nB: Yes, her works are powerful."
+  },
+  {
+    "line": 162,
+    "field": "src",
+    "english": "contemporary"
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: Was Schiller a contemporary of Goethe?\\nB: Yes, they lived in the same era.\\nA: And colloquially?\\nB: 'A strange Zeitgenosse' means: a weird fellow."
+  },
+  {
+    "line": 163,
+    "field": "src",
+    "english": "fictional"
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: Is Verumius fictional?\\nB: Yes, a fictional character.\\nA: But he feels real.\\nB: That is good fiction."
+  },
+  {
+    "line": 164,
+    "field": "src",
+    "english": "classic, classical"
+  },
+  {
+    "line": 164,
+    "field": "exampleSrc",
+    "english": "A: Is that classical literature?\\nB: Yes, from the Weimar Classical period.\\nA: Klassisch also means 'typical'?\\nB: Yes. 'That is classic!' means: typical!"
+  },
+  {
+    "line": 165,
+    "field": "src",
+    "english": "tragic"
+  },
+  {
+    "line": 165,
+    "field": "exampleSrc",
+    "english": "A: Does the story have a tragic ending?\\nB: Yes, unfortunately. The main character fails.\\nA: Tragic stories are often the best.\\nB: Because they are honest."
+  },
+  {
+    "line": 166,
+    "field": "src",
+    "english": "satirical"
+  },
+  {
+    "line": 166,
+    "field": "exampleSrc",
+    "english": "A: Is this text satirical?\\nB: Yes, it criticizes society with humor.\\nA: German satire is often sharp.\\nB: Sharp, but on point."
+  },
+  {
+    "line": 167,
+    "field": "src",
+    "english": "ironic"
+  },
+  {
+    "line": 167,
+    "field": "exampleSrc",
+    "english": "A: That was meant ironically.\\nB: I did not recognize it.\\nA: German irony is subtle.\\nB: Yes, you have to hear the tone of voice."
+  },
+  {
+    "line": 168,
+    "field": "src",
+    "english": "humorous"
+  },
+  {
+    "line": 168,
+    "field": "exampleSrc",
+    "english": "A: Heinrich's stories are humorous.\\nB: Yes, in a dry, warm way.\\nA: German humor is dry?\\nB: Dry, but deep. And surprising."
+  },
+  {
+    "line": 169,
+    "field": "src",
+    "english": "metaphorical"
+  },
+  {
+    "line": 169,
+    "field": "exampleSrc",
+    "english": "A: Bread as a metaphorical symbol?\\nB: Yes, metaphorically bread stands for community.\\nA: Metaphorically speaking then.\\nB: Exactly. Not literally, but figuratively."
+  },
+  {
+    "line": 170,
+    "field": "src",
+    "english": "symbolic, allegorical"
+  },
+  {
+    "line": 170,
+    "field": "exampleSrc",
+    "english": "A: The bread is symbolic of work.\\nB: Symbolic? So symbolically?\\nA: Yes, the image (bread) carries the meaning (work).\\nB: A beautiful word."
+  },
+  {
+    "line": 171,
+    "field": "src",
+    "english": "as if"
+  },
+  {
+    "line": 171,
+    "field": "exampleSrc",
+    "english": "A: He acts as if he knew everything.\\nB: Knew? Why not 'knows'?\\nA: Because it is not real. 'Als ob' requires Konjunktiv II.\\nB: So: he does not really know?"
+  },
+  {
+    "line": 172,
+    "field": "src",
+    "english": "as if (colloquial)"
+  },
+  {
+    "line": 172,
+    "field": "exampleSrc",
+    "english": "A: He speaks as if he were a poet.\\nB: Is that the same as 'als ob'?\\nA: Yes, just slightly more colloquial.\\nB: So als ob = als wenn?"
+  },
+  {
+    "line": 173,
+    "field": "src",
+    "english": "as if (informal)"
+  },
+  {
+    "line": 173,
+    "field": "exampleSrc",
+    "english": "A: It feels like when you come home.\\nB: Wie wenn? That sounds informal.\\nA: Yes, people say that in everyday speech.\\nB: So the casual version of 'als ob'?"
+  },
+  {
+    "line": 174,
+    "field": "src",
+    "english": "as if (were) (literary short form)"
+  },
+  {
+    "line": 174,
+    "field": "exampleSrc",
+    "english": "A: He speaks as if he were an expert.\\nB: No 'ob' after 'als'?\\nA: No, that is the short form. More elegant.\\nB: So: als + verb immediately after?"
+  },
+  {
+    "line": 175,
+    "field": "text",
+    "english": "German compares reality with imagination using 'als ob.' The Konjunktiv II signals that something is NOT reality, it only LOOKS that way.\\n\\nTwo main patterns exist:\\n- Als ob with the verb at the END of the clause: 'Er tut, als ob er alles wüsste.'\\n- Als alone with INVERSION (no ob needed): 'Er tut, als wüsste er alles.' This short form is more elegant and literary.\\n\\nBoth mean the same thing. Two informal variants also exist: 'als wenn' (slightly colloquial) and 'wie wenn' (most informal). All four patterns take Konjunktiv II.\\n\\nCommon verb forms after als ob: wäre, hätte, wüsste, könnte.\\n\\nIn Heinrich's stories: 'Er erzählte es, als wäre er noch jung.' He is no longer young, but it LOOKS that way."
+  },
+  {
+    "line": 175,
+    "field": "text",
+    "english": "The four patterns:\\n1. als ob + Konj. II + verb END: Er tut, als ob er reich wäre.\\n2. als + Konj. II + INVERSION: Er tut, als wäre er reich.\\n3. als wenn + Konj. II + verb END: Er tut, als wenn er reich wäre.\\n4. wie wenn + Konj. II + verb END: Er tut, wie wenn er reich wäre.\\n\\nAll four mean the same thing. Patterns 1-2 are standard. Pattern 2 is most elegant. Pattern 3 is common in speech. Pattern 4 is informal.\\n\\nImportant: The 'würde + Infinitiv' form also works after als ob: 'Er tut, als ob er alles wissen würde.' Grammatically correct but less elegant than Konjunktiv II directly.\\n\\nRecognition tip: whenever you see 'als ob,' 'als wenn,' 'wie wenn,' or 'als' followed immediately by a Konjunktiv II verb, you are looking at an unreal comparison."
+  },
+  {
+    "line": 195,
+    "field": "hint",
+    "english": "After 'als' with this verb form, you compare reality with imagination. He speaks AS IF, but reality is different."
+  },
+  {
+    "line": 196,
+    "field": "hint",
+    "english": "After 'als ob' the verb must be in Konjunktiv II. Recall the Konjunktiv II form of the verb 'sein' from the paradigm."
+  },
+  {
+    "line": 196,
+    "field": "sSrc",
+    "english": "He talks about bread as if it were the most important thing in the world."
+  },
+  {
+    "line": 202,
+    "field": "hint",
+    "english": "Two different verb forms: one reports Heinrich's words, the other describes a state that is not real."
+  },
+  {
+    "line": 203,
+    "field": "src",
+    "english": "to exist"
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: Does the old bakery still exist?\\nB: No, it no longer exists.\\nA: When did it stop existing?\\nB: Twenty years ago. But in Heinrich's stories it goes on existing."
+  },
+  {
+    "line": 204,
+    "field": "hint",
+    "english": "The 'als ob' construction: als ob + Konjunktiv II at the end. The bakery no longer exists."
+  },
+  {
+    "line": 211,
+    "field": "src",
+    "english": "Heinrich tells stories as if he were still thirty. As if time had no power over the bakery. I write down what he says. But I also write down how he says it. That is almost more important."
+  },
+  {
+    "line": 214,
+    "field": "desc",
+    "english": "Heinrich remembers the bakery of the 1960s. Learn how to shift tenses in indirect speech, distinguish literal from figurative meaning, and report narratives correctly."
+  },
+  {
+    "line": 215,
+    "field": "unknown",
+    "english": "Master tense shifting in indirect speech"
+  },
+  {
+    "line": 216,
+    "field": "unknown",
+    "english": "Distinguish literal and figurative meaning"
+  },
+  {
+    "line": 217,
+    "field": "unknown",
+    "english": "Report narratives precisely in formal German"
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "The scene shifts. Golden-sepia light. A 1960s bakery. Wooden tables covered in flour. Ovens glowing. Young Heinrich kneads dough at 4 AM. The smell of fresh bread fills the memory."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "My grandfather always said: 'The apple does not fall far from the tree.' He meant I was just like him. And he was right. I took over the bakery."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "So: Heinrich reported that his grandfather had said the apple does not fall far from the tree. He had meant that Heinrich was like him."
+  }
+]

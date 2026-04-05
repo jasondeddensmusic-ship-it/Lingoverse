@@ -1,0 +1,3762 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "A community hall in Berlin. A panel discussion about integration begins. Verumius sits in the audience, notebook ready. Learn the key words of German politics and democracy."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn 20 words from politics and democracy"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Discover the world of the German panel discussion"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Join Verumius in his first public debate"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "A community hall in Berlin. Rows of chairs filling up. A banner above the stage: 'Integration and Living Together.' Microphones on the panel table. Water glasses catching the fluorescent light. Verumius finds a seat, notebook on his knee."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "A few rows ahead, Dr. Yilmaz turns and catches his eye. A subtle nod. 'You belong here.' No words needed."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "A panel discussion in German. About politics. About integration. I understand everything. But formulating the question in my head, that is something else entirely."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "The moderator steps to the microphone. 'Ladies and gentlemen, welcome to our debate. The topic is controversial, the viewpoints are different.'"
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "the debate"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "From French 'debat.' Die Debatte is the formal arena of ideas.\\nIn the Bundestag, debates follow strict rules."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: How was the debate yesterday?\\nB: Very lively. Everyone had strong opinions.\\nA: Was there a clear debate?\\nB: Yes, the debate was fair and respectful."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From French 'debat,' from 'debattre' (to fight/discuss). In the Bundestag, debates follow strict rules: speaking time, topic order, right to reply. A Debatte is not a fight. It is structured disagreement."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "democracy"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "From Greek 'demos' (people) + 'kratia' (rule).\\nArticle 20 of the Grundgesetz enshrines it."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: What does democracy mean to you?\\nB: That the people decide.\\nA: Is democracy in danger?\\nB: No, but we must protect it."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "From Greek 'demos' (people) + 'kratia' (rule). Germany's Basic Law was written in 1949 to prevent what happened before. Article 20: 'Alle Staatsgewalt geht vom Volke aus' (All state power emanates from the people)."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "the (political) party"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "From Latin 'pars' (part). Germany has a multi-party system.\\nCoalition governments are standard."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: Which party do you support?\\nB: I vote for whichever party convinces me.\\nA: Are there many parties?\\nB: Yes, six major parties in the Bundestag."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From Latin 'pars' (part). Germany has a multi-party system: CDU, SPD, Grüne, FDP, Linke, AfD. Coalition governments are standard. A single party almost never wins alone. Politics is always about Kompromiss."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "the politician (male)"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "From Greek 'politikos.' German politicians navigate\\ncoalition politics, federalism, and the EU simultaneously."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Do you know the politician?\\nB: Yes, he is a member of the Bundestag.\\nA: Is he a good politician?\\nB: He represents his voters well."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "From Greek 'politikos.' German politicians must navigate coalition politics, federalism (16 Bundesländer), and the EU simultaneously. 'Berufspolitiker' (career politician) can be either neutral or slightly critical."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "the politician (female)"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Politiker + '-in.' Die Politikerin.\\nGermany had its first female chancellor in 2005."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Who is this politician?\\nB: A well-known member of parliament.\\nA: What does the politician demand?\\nB: More equality in politics."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Politiker + '-in.' Germany had its first female chancellor (Kanzlerin) in 2005. The feminine form of political titles is now standard in all German media and official documents."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "the government"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From 'regieren' (to govern). Germany has 17 governments\\nsimultaneously: 1 federal + 16 state."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: What is the government doing about climate change?\\nB: The government has passed new laws.\\nA: Is the government popular?\\nB: The government has many critics."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From 'regieren' (to govern). The federal government sits in Berlin. But each Bundesland also has its own Regierung. Germany has 17 governments simultaneously: 1 federal + 16 state."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "the opposition"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "From Latin 'oppositio' (placing against). In the Bundestag,\\nthe opposition holds the government accountable."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What does the opposition say?\\nB: The opposition criticizes the bill.\\nA: Is the opposition strong?\\nB: Yes, they have many members of parliament."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "From Latin 'oppositio' (placing against). In the Bundestag, the opposition parties have a formal role: they hold the government accountable. 'Konstruktive Opposition' (constructive opposition) is considered ideal."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "the parliament"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "From French 'parlement,' from 'parler' (to speak).\\nThe Bundestag has over 700 members."
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: How many members does the parliament have?\\nB: Over 700 in the Bundestag.\\nA: Does parliament meet every day?\\nB: No, parliament has session weeks."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "From French 'parlement,' from 'parler' (to speak). The Bundestag is one of the world's largest parliaments with over 700 members. The Reichstag building, with its glass dome, symbolizes transparency in democracy."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "the Bundestag (German federal parliament)"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "'Bund' (federation) + 'Tag' (day/assembly).\\nMeets in the Reichstag building in Berlin."
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: What is happening in the Bundestag today?\\nB: A vote on a new law.\\nA: Who sits in the Bundestag?\\nB: The elected members of all parties."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Bund' (federation) + 'Tag' (day/assembly). Originally 'Tag' meant 'assembly' (same root as English 'diet' in its political sense). The Bundestag meets in the Reichstag building in Berlin. It is the heart of German democracy."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "the viewpoint, the position"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "'Stand' (standing) + 'Punkt' (point). The point where\\nyou plant your feet in a debate."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: What is your viewpoint on this topic?\\nB: My position is clear: integration needs both sides.\\nA: Can you justify your viewpoint?\\nB: Of course. I support my position with facts."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "'Stand' (standing) + 'Punkt' (point). Literally the point where you stand. 'Meinen Standpunkt vertreten' (to represent my point of view). Where you plant your feet in a debate."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "the difference of opinion"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "'Meinung' (opinion) + 'Verschiedenheit' (difference).\\nNot a fight. Just: our opinions are different."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: Are there differences of opinion in the team?\\nB: Yes, but we discuss respectfully.\\nA: Is a difference of opinion bad?\\nB: No, it is normal and healthy."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "'Meinung' (opinion) + 'Verschiedenheit' (difference). One of those beautifully precise German compounds. Not a fight, not a conflict. Just: our opinions are different. Clinical and civilized."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "political"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "From Greek 'politikos.' 'Politische Bildung' (political education)\\nis a school subject in Germany."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Are you interested in political topics?\\nB: Yes, political education is important.\\nA: Is that a political problem?\\nB: Yes, it affects the whole society."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "From Greek 'politikos.' 'Politische Bildung' (political education) is a school subject in Germany. Teaching students HOW democracy works is considered essential."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "democratic"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Demokratie + '-isch.' 'Demokratische Grundwerte'\\nare enshrined in the Grundgesetz."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Is Germany a democratic country?\\nB: Yes, democratic elections are the foundation.\\nA: What are democratic values?\\nB: Freedom, equality, and human dignity."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "Demokratie + '-isch.' 'Demokratische Grundwerte' (democratic basic values) are enshrined in the Grundgesetz. The word carries weight in Germany, where democracy was hard-won and once lost."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "parliamentary"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Parlament + '-isch.' 'Parlamentarische Anfrage' is how\\nopposition politicians hold the government accountable."
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: What is a parliamentary question?\\nB: An official question to the government.\\nA: Must the government answer?\\nB: Yes, every parliamentary question is answered."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "Parlament + '-isch.' 'Parlamentarische Anfrage' (parliamentary question) is how opposition politicians hold the government accountable. Every question must be answered officially."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "controversial"
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From Latin 'controversus' (turned against). Calling something\\n'kontrovers' is neutral: it means people disagree."
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Is the topic controversial?\\nB: Yes, very controversial. Opinions differ.\\nA: Why is it so controversial?\\nB: Because it affects everyone."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From Latin 'controversus' (turned against). Same word internationally. In German debates, calling something 'kontrovers' is neutral. It means people disagree. That is democracy."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "contested, disputed"
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "'Um' (around) + 'stritten' (fought). More negative than\\n'kontrovers.' Something umstritten has active opponents."
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: The proposal is contested.\\nB: Yes, many are against it.\\nA: Why is the decision so contested?\\nB: Because it does not convince everyone."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "'Um' (around) + 'stritten' (fought). The um- prefix suggests fighting all around something. More negative than kontrovers. Something umstritten has active opponents."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "to criticize"
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "From Greek 'kritikos' (able to judge). 'Konstruktive Kritik'\\n(constructive criticism) is valued in German culture."
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: The opposition criticizes the bill.\\nB: What exactly do they criticize?\\nA: They criticize the high costs.\\nB: Constructive criticism is important."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "From Greek 'kritikos' (able to judge). 'Die Opposition kritisiert den Gesetzentwurf' (The opposition criticizes the bill). In German political culture, constructive criticism (konstruktive Kritik) is valued. Pure negativity is not."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "to convince"
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "'Über' (over/completely) + 'zeugen' (to bear witness).\\n'Mich überzeugt das nicht' is polite skepticism."
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Did the speech convince you?\\nB: Not quite. The argument does not convince me.\\nA: How can one convince you?\\nB: With facts and good examples."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Über' (over/completely) + 'zeugen' (to bear witness). Literally: to completely witness something to someone. 'Mich überzeugt das nicht' (That does not convince me) is polite skepticism."
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "to support"
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "'Unter' (under) + 'stützen' (to prop up). Not separable.\\nYou hold something up from beneath."
+  },
+  {
+    "line": 32,
+    "field": "exampleSrc",
+    "english": "A: Do you support this proposal?\\nB: Yes, I fully support it.\\nA: Who supports the reform?\\nB: The coalition supports it unanimously."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "'Unter' (under) + 'stützen' (to support). Literally to prop up from below. 'Ich unterstütze diesen Vorschlag' (I support this proposal). Not separable. The under-support image: you hold something up from beneath."
+  },
+  {
+    "line": 33,
+    "field": "src",
+    "english": "to defend"
+  },
+  {
+    "line": 33,
+    "field": "note",
+    "english": "From Middle High German 'verteidingen' (to settle in court).\\nOriginally a legal term that moved into everyday language."
+  },
+  {
+    "line": 33,
+    "field": "exampleSrc",
+    "english": "A: Are you defending your position?\\nB: Yes, I defend it with facts.\\nA: Can this position be defended?\\nB: Yes, it can be well defended."
+  },
+  {
+    "line": 33,
+    "field": "funFact",
+    "english": "From Middle High German 'verteidingen' (to settle in court). Originally a legal term that moved into everyday language. You defend positions, rights, and people. 'Seinen Standpunkt verteidigen' (to defend one's position)."
+  },
+  {
+    "line": 39,
+    "field": "hint",
+    "english": "A compound noun: a spatial metaphor for where someone stands intellectually. It describes a personal attitude or viewpoint in a discussion."
+  },
+  {
+    "line": 40,
+    "field": "hint",
+    "english": "The group in parliament whose job is to scrutinize and challenge the government."
+  },
+  {
+    "line": 40,
+    "field": "sSrc",
+    "english": "The opposition criticizes the government's bill."
+  },
+  {
+    "line": 46,
+    "field": "hint",
+    "english": "He understands everything. But formulating a question publicly in German is a different challenge."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "The moderator announces a break. Fifteen minutes. Verumius stays seated. He looks at his notes. Debate, democracy, viewpoint, difference of opinion. The words of a society that can argue without hating each other."
+  },
+  {
+    "line": 56,
+    "field": "desc",
+    "english": "The language of parliament. Learn the key words for legislation, debates, and the structures of German democracy."
+  },
+  {
+    "line": 57,
+    "field": "unknown",
+    "english": "Learn 20 words from parliamentary language"
+  },
+  {
+    "line": 58,
+    "field": "unknown",
+    "english": "Understand how German legislation works"
+  },
+  {
+    "line": 59,
+    "field": "unknown",
+    "english": "Build your political vocabulary"
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "The break is over. The audience returns to their seats. Verumius has his notebook open, the page half full. The vocabulary of democracy. He wants it all."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "the counterargument"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "'Gegen' (against) + 'Argument.' German debate culture\\nvalues having a strong Gegenargument ready."
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Do you have a counterargument?\\nB: Yes, my counterargument is simple.\\nA: Is the counterargument strong?\\nB: Yes, it completely refutes the thesis."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "'Gegen' (against) + 'Argument.' German debate culture values having a strong Gegenargument ready. 'Dazu habe ich ein Gegenargument' (I have a counterargument to that) is how you signal disagreement respectfully."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "the coalition"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Latin 'coalitio' (growing together). German governments\\nare almost always coalitions of two or three parties."
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Which parties form the coalition?\\nB: Three parties in the current coalition.\\nA: Is the coalition stable?\\nB: Yes, but compromises are necessary."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Latin 'coalitio' (growing together). German governments are almost always coalitions. The coalition agreement (Koalitionsvertrag) can be hundreds of pages long. Two or three parties must agree before governing."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "the compromise"
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "From Latin 'compromissum' (mutual promise).\\nThe backbone of German coalition politics."
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: Have the parties found a compromise?\\nB: Yes, after long negotiations.\\nA: Is a compromise weakness?\\nB: No, a compromise is political skill."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From Latin 'compromissum' (mutual promise). The backbone of German coalition politics. 'Einen Kompromiss finden' (to find a compromise) is what politicians do daily. Not weakness. Skill."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "the parliamentary group"
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "From Latin 'fractio' (breaking). A parliamentary group\\nof the same party that votes together."
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: How large is the parliamentary group?\\nB: The parliamentary group has 200 members.\\nA: Does the parliamentary group always vote together?\\nB: Usually. Party discipline is real."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From Latin 'fractio' (breaking). A parliamentary group of the same party. The Fraktion votes together, debates internally, and presents a united front. 'Fraktionszwang' (party discipline) is real but unofficial."
+  },
+  {
+    "line": 66,
+    "field": "src",
+    "english": "the bill, the draft law"
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "'Gesetz' (law) + 'Entwurf' (draft). Before a law becomes\\nlaw, it starts as an Entwurf. Long legislative road."
+  },
+  {
+    "line": 66,
+    "field": "exampleSrc",
+    "english": "A: Who wrote the bill?\\nB: The ministry drafted the bill.\\nA: Was the bill accepted?\\nB: No, the bill was rejected."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "'Gesetz' (law) + 'Entwurf' (draft/design). Before a Gesetz becomes law, it starts as an Entwurf. Three readings in the Bundestag, Bundesrat approval, presidential signature. Long road."
+  },
+  {
+    "line": 67,
+    "field": "src",
+    "english": "the committee"
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "From 'ausschliessen' (to exclude) in the sense of a selected group.\\n25 standing committees in the Bundestag."
+  },
+  {
+    "line": 67,
+    "field": "exampleSrc",
+    "english": "A: Which committee is responsible?\\nB: The Committee for Internal Affairs.\\nA: What does a committee do?\\nB: It examines laws and hears experts."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "From 'ausschliessen' (to exclude) in the sense of a selected group. The real work happens in Ausschüsse: they examine bills, hear experts, write amendments. 25 standing committees in the Bundestag."
+  },
+  {
+    "line": 68,
+    "field": "src",
+    "english": "the member of parliament"
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "From 'abordnen' (to delegate). Declines like an adjective:\\nder Abgeordnete, ein Abgeordneter."
+  },
+  {
+    "line": 68,
+    "field": "exampleSrc",
+    "english": "A: Who is your member of parliament?\\nB: The member for my constituency.\\nA: What does a member of parliament do?\\nB: He represents the citizens in the Bundestag."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "From 'abordnen' (to delegate). Like 'Angestellte,' it declines as an adjective: der Abgeordnete, die Abgeordnete, ein Abgeordneter. Over 700 in the current Bundestag."
+  },
+  {
+    "line": 69,
+    "field": "src",
+    "english": "the reform"
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "From Latin 'reformare' (to reshape). German political history\\nis measured in reforms: Agenda 2010, Energiewende."
+  },
+  {
+    "line": 69,
+    "field": "exampleSrc",
+    "english": "A: Do we need a reform?\\nB: Yes, the system needs a reform.\\nA: Which reform is most important?\\nB: The education reform, many say."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "From Latin 'reformare' (to reshape). 'Eine Reform durchführen' (to carry out a reform). German political history is measured in reforms: Agenda 2010, Energiewende, Bildungsreform. Each one reshapes something fundamental."
+  },
+  {
+    "line": 70,
+    "field": "src",
+    "english": "the election campaign"
+  },
+  {
+    "line": 70,
+    "field": "note",
+    "english": "'Wahl' (election) + 'Kampf' (fight/battle). Literally\\n'election battle.' Shorter than American campaigns."
+  },
+  {
+    "line": 70,
+    "field": "exampleSrc",
+    "english": "A: When does the election campaign begin?\\nB: The campaign starts three months before the election.\\nA: Is the campaign expensive?\\nB: Yes, but less than in America."
+  },
+  {
+    "line": 70,
+    "field": "funFact",
+    "english": "'Wahl' (election) + 'Kampf' (fight/battle). Literally 'election battle.' German Wahlkampf is shorter and less expensive than American campaigns. TV debates (Kanzlerduell) are the highlight."
+  },
+  {
+    "line": 71,
+    "field": "src",
+    "english": "the Basic Law (German constitution)"
+  },
+  {
+    "line": 71,
+    "field": "note",
+    "english": "'Grund' (ground/basic) + 'Gesetz' (law). Written in 1949.\\nDeliberately not called 'Constitution.'"
+  },
+  {
+    "line": 71,
+    "field": "exampleSrc",
+    "english": "A: What is in the Basic Law?\\nB: The fundamental rights of all citizens.\\nA: Can the Basic Law be changed?\\nB: Only with a two-thirds majority."
+  },
+  {
+    "line": 71,
+    "field": "funFact",
+    "english": "'Grund' (ground/basic) + 'Gesetz' (law). Germany's constitution, written in 1949. Deliberately called 'Basic Law' not 'Constitution' because reunification was still hoped for. The name stuck."
+  },
+  {
+    "line": 72,
+    "field": "src",
+    "english": "the fundamental right"
+  },
+  {
+    "line": 72,
+    "field": "note",
+    "english": "'Grund' (basic) + 'Recht' (right). Articles 1-19 of the\\nGrundgesetz. They cannot be abolished. Ever."
+  },
+  {
+    "line": 72,
+    "field": "exampleSrc",
+    "english": "A: What is a fundamental right?\\nB: For example, freedom of expression.\\nA: Can a fundamental right be abolished?\\nB: No, fundamental rights are inviolable."
+  },
+  {
+    "line": 72,
+    "field": "funFact",
+    "english": "'Grund' (basic) + 'Recht' (right). Articles 1-19 of the Grundgesetz are Grundrechte: dignity, freedom, equality, religious freedom, press freedom. They cannot be abolished. Ever. That is the lesson of history."
+  },
+  {
+    "line": 73,
+    "field": "src",
+    "english": "the controversy"
+  },
+  {
+    "line": 73,
+    "field": "note",
+    "english": "From Latin 'controversia.' More structured than 'Streit.'\\nA Kontroverse involves positions and public discourse."
+  },
+  {
+    "line": 73,
+    "field": "exampleSrc",
+    "english": "A: The controversy has lasted for weeks.\\nB: Yes, there is no simple solution.\\nA: Is the controversy justified?\\nB: Yes, both sides have good arguments."
+  },
+  {
+    "line": 73,
+    "field": "funFact",
+    "english": "From Latin 'controversia.' More structured than 'Streit' (quarrel). A Kontroverse involves positions, arguments, and public discourse. Intellectual, not emotional."
+  },
+  {
+    "line": 74,
+    "field": "src",
+    "english": "the measure, the action taken"
+  },
+  {
+    "line": 74,
+    "field": "note",
+    "english": "'Maß' (measure) + 'nahme' (taking). 'Maßnahmen ergreifen'\\n(to take measures). Always plural in political speech."
+  },
+  {
+    "line": 74,
+    "field": "exampleSrc",
+    "english": "A: What measures is the government planning?\\nB: New measures against unemployment.\\nA: Are the measures sufficient?\\nB: No, we need more measures."
+  },
+  {
+    "line": 74,
+    "field": "funFact",
+    "english": "'Maß' (measure) + 'nahme' (taking). 'Maßnahmen ergreifen' (to take measures) is political language for doing something. Always plural in political speech: never just one measure, always a package."
+  },
+  {
+    "line": 75,
+    "field": "src",
+    "english": "the concern, the reservation"
+  },
+  {
+    "line": 75,
+    "field": "note",
+    "english": "From 'bedenken' (to consider). 'Ich habe Bedenken' is the\\ndiplomatic way to say 'I disagree.'"
+  },
+  {
+    "line": 75,
+    "field": "exampleSrc",
+    "english": "A: Do you have concerns about the proposal?\\nB: Yes, I have serious concerns.\\nA: What concerns exactly?\\nB: My concerns relate to the costs."
+  },
+  {
+    "line": 75,
+    "field": "funFact",
+    "english": "From 'bedenken' (to consider). 'Ich habe Bedenken' (I have concerns) is the diplomatic way to say 'I disagree.' Softer than Einwand, more serious than Zweifel."
+  },
+  {
+    "line": 76,
+    "field": "src",
+    "english": "the demand"
+  },
+  {
+    "line": 76,
+    "field": "note",
+    "english": "From 'fordern' (to demand). Stronger than Wunsch (wish)\\nor Bitte (request). Parties announce Forderungen."
+  },
+  {
+    "line": 76,
+    "field": "exampleSrc",
+    "english": "A: What is the opposition's demand?\\nB: Their demand: lower taxes.\\nA: Is the demand realistic?\\nB: That depends on the compromise."
+  },
+  {
+    "line": 76,
+    "field": "funFact",
+    "english": "From 'fordern' (to demand). Stronger than Wunsch (wish) or Bitte (request). Political parties announce their Forderungen before negotiations begin."
+  },
+  {
+    "line": 77,
+    "field": "src",
+    "english": "to reject, to decline"
+  },
+  {
+    "line": 77,
+    "field": "note",
+    "english": "'Ab' (off) + 'lehnen' (to lean). Separable. You lean away\\nfrom something. The formal 'no' in parliament."
+  },
+  {
+    "line": 77,
+    "field": "exampleSrc",
+    "english": "A: Did the parliamentary group reject the bill?\\nB: Yes, they rejected it unanimously.\\nA: Why do they reject it?\\nB: Because it is too expensive."
+  },
+  {
+    "line": 77,
+    "field": "funFact",
+    "english": "'Ab' (off) + 'lehnen' (to lean). Separable. You lean away from something. The formal way to say no in parliament. 'Der Antrag wurde abgelehnt' (The motion was rejected)."
+  },
+  {
+    "line": 78,
+    "field": "src",
+    "english": "to decide, to pass (a law)"
+  },
+  {
+    "line": 78,
+    "field": "note",
+    "english": "'Be-' + 'schließen' (to close). To close a matter by deciding.\\nStrong verb: beschloss, beschlossen. Not separable."
+  },
+  {
+    "line": 78,
+    "field": "exampleSrc",
+    "english": "A: Did parliament pass the law?\\nB: Yes, it was passed yesterday.\\nA: Who made the decision?\\nB: The majority decided."
+  },
+  {
+    "line": 78,
+    "field": "funFact",
+    "english": "'Be-' + 'schließen' (to close). Literally to close a matter by deciding. Strong verb: beschließen, beschloss, beschlossen. Not separable. When parliament beschließt, the debate is closed."
+  },
+  {
+    "line": 79,
+    "field": "src",
+    "english": "to object"
+  },
+  {
+    "line": 79,
+    "field": "note",
+    "english": "'Ein' (in) + 'wenden' (to turn). Separable. You turn IN with\\nan objection. Formal and precise."
+  },
+  {
+    "line": 79,
+    "field": "exampleSrc",
+    "english": "A: What is your objection to it?\\nB: I object that the costs are too high.\\nA: Can one not object?\\nB: Of course, objections are always welcome."
+  },
+  {
+    "line": 79,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'wenden' (to turn). Separable. You turn IN with an objection. Formal and precise. The polite cousin of 'widersprechen.' 'Dagegen ist einzuwenden, dass...' (The objection to that is that...)."
+  },
+  {
+    "line": 80,
+    "field": "src",
+    "english": "to reply, to retort"
+  },
+  {
+    "line": 80,
+    "field": "note",
+    "english": "'Ent-' + 'gegnen' (from 'gegen,' against). Not separable.\\nMore formal than 'antworten.' A substantive response."
+  },
+  {
+    "line": 80,
+    "field": "exampleSrc",
+    "english": "A: What did the minister reply?\\nB: He replied: 'I see that differently.'\\nA: Was the response convincing?\\nB: Yes, he replied with strong facts."
+  },
+  {
+    "line": 80,
+    "field": "funFact",
+    "english": "'Ent-' + 'gegnen' (from 'gegen,' against). Not separable. More formal than 'antworten.' Implies you are responding to a specific point with substance. 'Er entgegnete: Das sehe ich anders.'"
+  },
+  {
+    "line": 81,
+    "field": "src",
+    "english": "to pass (a law), to adopt"
+  },
+  {
+    "line": 81,
+    "field": "note",
+    "english": "'Ver-' + 'Abschied' (farewell). The law 'departs' from\\ndraft status into reality. Not separable."
+  },
+  {
+    "line": 81,
+    "field": "exampleSrc",
+    "english": "A: Was the law passed?\\nB: Yes, it was passed last week.\\nA: How is a law passed?\\nB: By vote in the Bundestag."
+  },
+  {
+    "line": 81,
+    "field": "funFact",
+    "english": "'Ver-' + 'Abschied' (farewell). The law 'departs' from draft status into reality. Also: 'sich verabschieden' (to say goodbye). 'Das Gesetz wurde verabschiedet' (The law was passed)."
+  },
+  {
+    "line": 82,
+    "field": "text",
+    "english": "A bill begins in a ministry or in the Bundestag.\\n\\n1. First reading: introduction in the plenary session\\n2. Committee: detailed review, expert hearings, amendments\\n3. Second reading: committee report\\n4. Third reading: final vote\\n5. Bundesrat: approval by the states\\n6. Federal President: signature\\n\\nThen: 'Verkündet im Bundesgesetzblatt.' Binding law."
+  },
+  {
+    "line": 82,
+    "field": "text",
+    "english": "Not every law needs Bundesrat approval. 'Zustimmungsgesetze' (consent laws) need it. 'Einspruchsgesetze' (objection laws) can override a Bundesrat veto with a Bundestag majority. The distinction matters because it determines how much power the Länder have over federal legislation."
+  },
+  {
+    "line": 83,
+    "field": "hint",
+    "english": "The body that hears experts, works out amendments, and does the actual legislative work."
+  },
+  {
+    "line": 90,
+    "field": "hint",
+    "english": "The verb used when a legislative body officially approves and passes a law. It implies a formal send-off from the drafting stage."
+  },
+  {
+    "line": 90,
+    "field": "sSrc",
+    "english": "Parliament passed the new law."
+  },
+  {
+    "line": 96,
+    "field": "hint",
+    "english": "This noun expresses thoughtful hesitation rather than outright refusal. It is diplomatic: you have considered and are worried, not simply opposed."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "Coalition, parliamentary group, bill, Basic Law. The words come together like a puzzle. This is no longer a foreign language. This is a system I can understand."
+  },
+  {
+    "line": 100,
+    "field": "desc",
+    "english": "The panel discussion is in full swing. Panelists debate with two-part connectors. Learn these powerful bracket constructions of German argumentation."
+  },
+  {
+    "line": 101,
+    "field": "unknown",
+    "english": "Master two-part connectors (sowohl...als auch, weder...noch)"
+  },
+  {
+    "line": 102,
+    "field": "unknown",
+    "english": "Structure balanced arguments in German"
+  },
+  {
+    "line": 103,
+    "field": "unknown",
+    "english": "Understand word order with paired conjunctions"
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "The debate is alive. Four panelists at the table. One gestures passionately, another nods thoughtfully. The audience leans forward. Verumius writes in his notebook, capturing phrases."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "On the one hand we must be open to new cultures. On the other hand we must not forget our own values."
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "I agree insofar as integration changes both society and the newcomers. It is not a one-way process."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "In his notebook: 'Sowohl...als auch. Einerseits...andererseits. These words make the sentences smart.'"
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "on the one hand"
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "'Einer' (one) + 'seits' (side). Always paired with\\n'andererseits.' The opening bracket of balanced argumentation."
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: What do you think about the reform?\\nB: On the one hand it is necessary.\\nA: And on the other hand?\\nB: On the one hand yes, on the other hand too fast."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "'Einer' (one) + 'seits' (side). Always paired with andererseits. In academic German, starting with 'einerseits' signals: I will present both sides before taking my position."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "on the other hand"
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "'Anderer' (other) + 'seits' (side). The closing bracket.\\nThe classic German fairness structure."
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: On the one hand the idea is good.\\nB: On the other hand it is expensive.\\nA: On the one hand...on the other. A dilemma.\\nB: Exactly. On the other hand there are always counterarguments."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'Anderer' (other) + 'seits' (side). The closing bracket. Together, einerseits...andererseits creates the classic German fairness structure: acknowledge both perspectives before taking your position."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "however, yet"
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "From Middle High German 'iedoch.' Position: after the verb\\nor as a conjunction. More formal than 'aber.'"
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: The plan sounds good, however there are risks.\\nB: What risks though?\\nA: The costs are high, yet manageable.\\nB: However, we must be careful."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "From Middle High German 'iedoch.' Position: after the verb ('Das ist richtig, jedoch sehe ich das anders') or as a conjunction. More formal than 'aber.' The elevated 'but.'"
+  },
+  {
+    "line": 112,
+    "field": "src",
+    "english": "on the contrary, in contrast"
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "'Hin' (towards) + 'gegen' (against). Sharper contrast\\nthan 'andererseits.' Position 1 or Mittelfeld."
+  },
+  {
+    "line": 112,
+    "field": "exampleSrc",
+    "english": "A: The government is in favor.\\nB: The opposition, in contrast, is against it.\\nA: And the citizens?\\nB: They, on the contrary, are divided."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'Hin' (towards) + 'gegen' (against). 'Die Regierung ist dafür, die Opposition hingegen dagegen.' Hingegen sits in position 1 or in the Mittelfeld. Sharper contrast than andererseits."
+  },
+  {
+    "line": 113,
+    "field": "src",
+    "english": "both...and"
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "'So' (so) + 'wohl' (well/indeed) + 'als auch' (as also).\\nBoth elements get equal status. The connector of inclusion."
+  },
+  {
+    "line": 113,
+    "field": "exampleSrc",
+    "english": "A: Who is affected?\\nB: Both the government and the opposition.\\nA: Both locals and newcomers?\\nB: Yes, both the one group and the other."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "'So' (so) + 'wohl' (well/indeed) + 'als' (as) + 'auch' (also). Not just one, but BOTH. The connector of inclusion. Word order: both elements get equal grammatical status."
+  },
+  {
+    "line": 114,
+    "field": "src",
+    "english": "neither...nor"
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "The connector of double negation. After 'weder,' the verb\\ncan invert. After 'noch,' it must."
+  },
+  {
+    "line": 114,
+    "field": "exampleSrc",
+    "english": "A: Who agreed?\\nB: Neither the majority nor the minority.\\nA: Neither the government nor the opposition?\\nB: Exactly. Neither nor. Nobody."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "'Weder' (neither) + 'noch' (nor). The connector of double negation. 'Weder die Mehrheit noch die Minderheit war zufrieden.' After weder, the verb can invert. After noch, it must."
+  },
+  {
+    "line": 115,
+    "field": "src",
+    "english": "admittedly...but"
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "'Zwar' (indeed/admittedly) + 'aber' (but). Zwar concedes\\na point, aber delivers the counterpoint. 'Yes, but.'"
+  },
+  {
+    "line": 115,
+    "field": "exampleSrc",
+    "english": "A: Is the proposal good?\\nB: It is admittedly good, but expensive.\\nA: Admittedly popular but unrealistic?\\nB: Admittedly not perfect, but a start."
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "'Zwar' (indeed/admittedly) + 'aber' (but). 'Das Gesetz ist zwar populär, aber schwer umzusetzen.' Zwar concedes a point, aber delivers the counterpoint. The connector of 'yes, but.'"
+  },
+  {
+    "line": 116,
+    "field": "src",
+    "english": "the more...the more"
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "After 'je': comparative + verb at end. After 'desto':\\ncomparative + inverted verb. Precise grammar brackets."
+  },
+  {
+    "line": 116,
+    "field": "exampleSrc",
+    "english": "A: The longer the debate, the clearer the viewpoints.\\nB: The more you discuss, the better you understand.\\nA: The more controversial, the more interesting?\\nB: Exactly. The more opinions, the richer the debate."
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "'Je' (ever/the) + 'desto' (the). After je: comparative + verb at end. After desto: comparative + inverted verb. Precise grammar brackets."
+  },
+  {
+    "line": 117,
+    "field": "src",
+    "english": "partly...partly"
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "'Teils' (partly). When you cannot commit to one side.\\nThe connector of ambivalence. Short, balanced, honest."
+  },
+  {
+    "line": 117,
+    "field": "exampleSrc",
+    "english": "A: How were the reactions?\\nB: Partly positive, partly negative.\\nA: And the press?\\nB: Partly enthusiastic, partly critical."
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "'Teils' (partly). 'Die Reaktionen waren teils positiv, teils negativ.' When you cannot commit to one side. The connector of ambivalence. Short, balanced, honest."
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "not only...but also"
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "The connector of addition with emphasis. Not just X.\\nAlso Y. After 'sondern auch,' you deliver the surprise."
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: Does he only speak German?\\nB: Not only German, but also Turkish.\\nA: Not only the government acts?\\nB: Not only the government, but also the citizens."
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "'Not only...but also.' 'Er spricht nicht nur Deutsch, sondern auch Türkisch.' The connector of addition with emphasis. After sondern auch, you deliver the surprise element."
+  },
+  {
+    "line": 119,
+    "field": "src",
+    "english": "just as, equally as"
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "'Ebenso' (just as) + 'wie' (as). Both sides affected equally.\\nFormal and precise. The connector of equality."
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: Who does integration affect?\\nB: Newcomers just as much as locals.\\nA: Just as in other countries?\\nB: Yes, just as everywhere else."
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "'Ebenso' (just as) + 'wie' (as). 'Integration betrifft Neuankömmlinge ebenso wie Einheimische.' The connector of equality. Both sides affected equally. Formal and precise."
+  },
+  {
+    "line": 120,
+    "field": "src",
+    "english": "the vote"
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "'Ab' (off) + 'Stimmung' (tuning/mood). Literally: tuning\\ntogether. 'Namentliche Abstimmung' = roll-call vote."
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: When does the vote take place?\\nB: The vote is tomorrow.\\nA: How does the vote work?\\nB: By show of hands or roll-call vote."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "'Ab' (off) + 'Stimmung' (tuning/mood). Literally: tuning together, reaching harmony. 'Namentliche Abstimmung' (roll-call vote) is when every Abgeordnete's vote is recorded publicly."
+  },
+  {
+    "line": 121,
+    "field": "src",
+    "english": "the majority"
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "'Mehr' (more) + '-heit' (state of). 'Einfache Mehrheit' =\\n50%+1. 'Zweidrittelmehrheit' to change the Grundgesetz."
+  },
+  {
+    "line": 121,
+    "field": "exampleSrc",
+    "english": "A: Does the coalition have the majority?\\nB: Yes, a narrow majority.\\nA: Is a simple majority enough?\\nB: For this law we need a two-thirds majority."
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "'Mehr' (more) + '-heit' (state of). 'Einfache Mehrheit' (simple majority) = 50%+1. 'Zweidrittelmehrheit' (two-thirds majority) needed to change the Grundgesetz. Numbers that shape law."
+  },
+  {
+    "line": 122,
+    "field": "src",
+    "english": "the minority"
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "'Minder' (less) + '-heit.' 'Minderheitenschutz' (minority\\nprotection) is a core principle of German democracy."
+  },
+  {
+    "line": 122,
+    "field": "exampleSrc",
+    "english": "A: Does the minority have rights?\\nB: Yes, minority protection is a fundamental principle.\\nA: Can the minority be outvoted?\\nB: Yes, but their rights remain protected."
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "'Minder' (less) + '-heit.' 'Minderheitenschutz' (minority protection) is a core principle of German democracy. The Grundgesetz protects minorities from the 'Tyrannei der Mehrheit.'"
+  },
+  {
+    "line": 123,
+    "field": "src",
+    "english": "the chancellor (male)"
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "From Latin 'cancellarius.' The head of government.\\nHas 'Richtlinienkompetenz': power to set policy direction."
+  },
+  {
+    "line": 123,
+    "field": "exampleSrc",
+    "english": "A: Who is the chancellor?\\nB: The chancellor leads the government.\\nA: What does the chancellor decide?\\nB: The chancellor determines the guidelines of policy."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "From Latin 'cancellarius' (secretary behind a screen). Not head of state (that is the Bundespräsident). The Kanzler has 'Richtlinienkompetenz': the power to set government policy direction."
+  },
+  {
+    "line": 124,
+    "field": "src",
+    "english": "the chancellor (female)"
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "Kanzler + '-in.' Used prominently from 2005 to 2021.\\n'Frau Bundeskanzlerin' was the official address."
+  },
+  {
+    "line": 124,
+    "field": "exampleSrc",
+    "english": "A: Who was the first female chancellor?\\nB: Angela Merkel was the first female chancellor.\\nA: How long was she chancellor?\\nB: She was chancellor for 16 years."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "Kanzler + '-in.' Used prominently from 2005 to 2021. 'Frau Bundeskanzlerin' was the official address. The title normalized having women in the highest office."
+  },
+  {
+    "line": 125,
+    "field": "src",
+    "english": "the constitution"
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "From 'verfassen' (to compose/author). Germany's Grundgesetz\\nfunctions as a Verfassung but technically is not called one."
+  },
+  {
+    "line": 125,
+    "field": "exampleSrc",
+    "english": "A: Does Germany have a constitution?\\nB: Yes, the Basic Law is the constitution.\\nA: Can the constitution be changed?\\nB: Only with a two-thirds majority."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "From 'verfassen' (to compose/author). Literally: something composed/written down. Germany's Grundgesetz functions as a Verfassung but technically is not called one. Historical precision."
+  },
+  {
+    "line": 126,
+    "field": "src",
+    "english": "resistance"
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "'Wider' (against) + 'Stand' (standing). In German history,\\n'der Widerstand' often means resistance against the Nazis."
+  },
+  {
+    "line": 126,
+    "field": "exampleSrc",
+    "english": "A: Is there resistance against the law?\\nB: Yes, strong resistance from the population.\\nA: How is the resistance expressed?\\nB: Through demonstrations and petitions."
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "'Wider' (against) + 'Stand' (standing). 'Auf Widerstand stoßen' (to meet resistance). In German history, 'der Widerstand' often refers to resistance against the Nazi regime. A word with heavy moral weight."
+  },
+  {
+    "line": 127,
+    "field": "src",
+    "english": "to plead, to advocate"
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "From French 'plaider' (to plead). Originally a legal term.\\nNow used broadly for strong advocacy."
+  },
+  {
+    "line": 127,
+    "field": "exampleSrc",
+    "english": "A: What do you advocate for?\\nB: I advocate for more dialogue.\\nA: Does the opposition advocate for a reform?\\nB: Yes, they advocate for fundamental changes."
+  },
+  {
+    "line": 127,
+    "field": "funFact",
+    "english": "From French 'plaider' (to plead). Originally a legal term (Plädoyer = closing argument). Now used broadly for strong advocacy. 'Ich plädiere für mehr Dialog' (I advocate for more dialogue)."
+  },
+  {
+    "line": 128,
+    "field": "src",
+    "english": "to represent"
+  },
+  {
+    "line": 128,
+    "field": "note",
+    "english": "'Ver-' + 'treten' (to step). You step into someone's place.\\nStrong verb: vertreten, vertrat, vertreten."
+  },
+  {
+    "line": 128,
+    "field": "exampleSrc",
+    "english": "A: Who do you represent?\\nB: I represent the citizens of my constituency.\\nA: Do you hold this viewpoint?\\nB: Yes, I represent it with conviction."
+  },
+  {
+    "line": 128,
+    "field": "funFact",
+    "english": "'Ver-' + 'treten' (to step). You step into someone's place. Strong verb: vertreten, vertrat, vertreten. 'Ich vertrete den Standpunkt, dass...' (I hold the position that...)."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "Two-part connectors frame your argument like brackets around the content.\\n\\nInclusion: sowohl...als auch (both)\\nExclusion: weder...noch (neither)\\nConcession: zwar...aber (yes, but...)\\nProportion: je...desto (proportional comparison)\\nAddition: nicht nur...sondern auch (addition with emphasis)\\n\\nKey rule for je...desto: after 'je,' the verb goes to the end.\\nAfter 'desto,' the verb comes in position 2 (inversion).\\nThese connectors are B2 tools for academic and professional discourse."
+  },
+  {
+    "line": 140,
+    "field": "text",
+    "english": "Sowohl...als auch: both elements get equal grammatical weight. 'Sowohl die Regierung als auch die Opposition hat/haben zugestimmt.' Singular or plural verb is debated, but plural is more common.\\n\\nWeder...noch: double negation. 'Weder die Mehrheit noch die Minderheit war zufrieden.' Verb usually singular if both nouns are singular.\\n\\nJe...desto: 'Je länger die Debatte dauert, desto klarer werden die Argumente.' The je-clause is a subordinate clause (verb at end). The desto-clause has verb-second (inversion)."
+  },
+  {
+    "line": 141,
+    "field": "hint",
+    "english": "The word 'sowohl' is the first half of a fixed pairing. It cannot stand alone. Look for the second element that closes the inclusive bracket."
+  },
+  {
+    "line": 142,
+    "field": "hint",
+    "english": "The second bracket of the proportional comparison. Je mehr X, ... mehr Y."
+  },
+  {
+    "line": 142,
+    "field": "sSrc",
+    "english": "The longer the debate lasts, the clearer the arguments become."
+  },
+  {
+    "line": 143,
+    "field": "hint",
+    "english": "Concede a point, then deliver the counterpoint. The pattern: acknowledge, then push back."
+  },
+  {
+    "line": 144,
+    "field": "src",
+    "english": "On the one hand, on the other. Both, and also. Not only, but also. German sentences are brackets. You open them and must close them. Like mathematics, but with opinions."
+  },
+  {
+    "line": 147,
+    "field": "desc",
+    "english": "Concessive clauses at B2 level. Learn the elevated variants of 'obwohl' and build the logical framework of formal argumentation."
+  },
+  {
+    "line": 148,
+    "field": "unknown",
+    "english": "Master concessive clauses: obgleich, wenngleich, wenn auch, selbst wenn"
+  },
+  {
+    "line": 149,
+    "field": "unknown",
+    "english": "Distinguish between obwohl (B1) and its elevated variants"
+  },
+  {
+    "line": 150,
+    "field": "unknown",
+    "english": "Build the logical framework of formal argumentation"
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "A panelist raises her hand. 'Although we have made progress, it is not enough.' The moderator nods. 'Even though that is true, others see it differently.' Verumius underlines both words. Obgleich. Wenngleich. Same meaning, different weight."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "although (literary)"
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "'Ob' (whether/if) + 'gleich' (equal/even). The elevated\\nsibling of 'obwohl.' Subordinating: verb to the end."
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Although the debate was heated, the tone remained respectful.\\nB: That is true. Although everyone had different opinions.\\nA: Although I was nervous, I spoke.\\nB: Well done, although it was difficult."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "'Ob' (whether/if) + 'gleich' (equal/even). The elevated sibling of 'obwohl.' Subordinating conjunction: verb goes to the end. Used in written German, speeches, and academic texts."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "even though, albeit"
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "'Wenn' (when/if) + 'gleich' (equal/even). Slightly more formal\\nthan 'obgleich.' The 'even if/even though' nuance."
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Even though I respect your opinion, I do not share it.\\nB: That is fair. Even though we disagree.\\nA: Even though there is resistance, we must act.\\nB: Yes, even though the path is difficult."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "'Wenn' (when/if) + 'gleich' (equal/even). Slightly more formal than obgleich. The 'even if/even though' nuance. 'Wenngleich ich Ihre Meinung respektiere, teile ich sie nicht.'"
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "even if, although"
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "'Wenn' (if) + 'auch' (also/even). Can start the clause\\nor appear mid-sentence. Less literary than obgleich."
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: Even if not all agree, the resolution is valid.\\nB: Yes, even though the minority was against it.\\nA: Even if late, the reform came.\\nB: Better late than never, even if barely."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "'Wenn' (if) + 'auch' (also/even). Can start the clause or appear mid-sentence. Less literary than obgleich, more flexible. 'Wenn auch nicht alle zustimmen, ist der Beschluss gültig.'"
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "even if (strongest)"
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "'Selbst' (self/even) + 'wenn' (if). The strongest concessive:\\neven in the worst case, the conclusion holds."
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Even if the opposition votes against it, the coalition has the majority.\\nB: Even if everyone is against it?\\nA: Even if there is resistance, we must continue.\\nB: Yes, even if it gets difficult."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "'Selbst' (self/even) + 'wenn' (if). The strongest concessive: even in the worst case, the conclusion holds. 'Selbst wenn die Opposition dagegen stimmt, hat die Koalition die Mehrheit.'"
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "despite all that, nevertheless"
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "'Trotz' (despite) + 'all' + 'dem' (that). A sentence-level\\nconnector, not a conjunction. Emphatic."
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: The situation is difficult.\\nB: Despite all that, I believe in dialogue.\\nA: Optimistic despite all that?\\nB: Yes, despite all that. Always."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "'Trotz' (despite) + 'all' + 'dem' (that). A sentence-level connector, not a conjunction. I acknowledge everything you said. AND YET. Emphatic and defiant."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "nevertheless, nonetheless"
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "'Nichts' + 'desto' + 'trotz.' A magnificent German word:\\n'nothing-the-less-defiance.' Formal and powerful."
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: The proposal is contested.\\nB: Nevertheless we should examine it.\\nA: The criticism is justified, nevertheless...\\nB: Nevertheless we must act."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "'Nichts' (nothing) + 'desto' (the) + 'trotz' (defiance). A magnificent German word: 'nothing-the-less-defiance.' Formal, powerful, and uniquely German in its construction."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "nonetheless, nevertheless"
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "'Nichts' + 'desto' + 'weniger' (less). The slightly more formal\\ntwin of nichtsdestotrotz. Academic register."
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: The concerns are justified.\\nB: Nonetheless we must act.\\nA: The risk is high, nonetheless...\\nB: Nonetheless the reform remains necessary."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "'Nichts' (nothing) + 'desto' (the) + 'weniger' (less). The slightly more formal twin of nichtsdestotrotz. Academic register. 'Die Bedenken sind berechtigt, nichtsdestoweniger müssen wir handeln.'"
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "so that, with the result that"
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "'So' (so) + 'dass' (that). Result clause: the first part\\ncauses the second. Subordinating: verb at the end."
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: The debate was constructive, so that a compromise became possible.\\nB: Everyone agreed, so that the law was passed.\\nA: He spoke clearly, so that everyone understood him.\\nB: Well formulated, so that no questions remained."
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "'So' (so) + 'dass' (that). Result clause: the first part causes the second. Subordinating: verb at the end after sodass. 'Die Debatte war konstruktiv, sodass ein Kompromiss möglich wurde.'"
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "consequently, as a result"
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "'Infolge' (as a consequence of) + 'dessen' (that).\\nFormal connective adverb. Written and academic register."
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: The vote failed.\\nB: Consequently the draft was revised.\\nA: The costs rose, as a result...\\nB: Consequently savings had to be made."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "'Infolge' (as a consequence of) + 'dessen' (that). Formal connective adverb. Position 1 or Mittelfeld. Written and academic register."
+  },
+  {
+    "line": 162,
+    "field": "src",
+    "english": "consequently, accordingly"
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "'Dem' (that) + 'zufolge' (according to). Even more formal\\nthan 'infolgedessen.' Legal and academic standard."
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: The study shows clear results.\\nB: Accordingly the government must respond.\\nA: Consequently the reform was necessary?\\nB: Yes, accordingly there was no alternative."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "'Dem' (that) + 'zufolge' (according to). Even more formal than infolgedessen. The conclusion drawn from evidence. Legal and academic standard."
+  },
+  {
+    "line": 163,
+    "field": "src",
+    "english": "thus, therefore"
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "'So' (so) + 'mit' (with). Short, conclusive, formal.\\nThe period at the end of a logical chain."
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: All arguments have been heard.\\nB: Thus the question is answered.\\nA: The majority agreed, thus...\\nB: Thus the law is decided."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "'So' (so) + 'mit' (with). Short, conclusive, formal. The period at the end of a logical chain. Shorter than infolgedessen but equally authoritative. 'Somit ist die Frage beantwortet.'"
+  },
+  {
+    "line": 164,
+    "field": "src",
+    "english": "the premise"
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "From Latin 'praemissa' (sent before). The starting assumption.\\nIf the premise is wrong, the conclusion falls."
+  },
+  {
+    "line": 164,
+    "field": "exampleSrc",
+    "english": "A: What premise are you starting from?\\nB: My premise is that dialogue helps.\\nA: Is the premise correct?\\nB: If the premise is wrong, everything falls apart."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "From Latin 'praemissa' (sent before). A premise, the starting assumption. 'Von welcher Prämisse gehen Sie aus?' (What premise are you starting from?). If the premise is wrong, the conclusion falls."
+  },
+  {
+    "line": 165,
+    "field": "src",
+    "english": "the conclusion, the inference"
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "'Schluss' (conclusion) + 'Folgerung' (inference). The compound\\nitself tells the logic: closing + following from evidence."
+  },
+  {
+    "line": 165,
+    "field": "exampleSrc",
+    "english": "A: What is your conclusion?\\nB: My conclusion is clear: we need dialogue.\\nA: Is the conclusion logical?\\nB: The logical conclusion follows from the data."
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "'Schluss' (conclusion) + 'Folgerung' (inference). The compound itself tells the logic: closing + following from evidence. 'Die logische Schlussfolgerung ist...'"
+  },
+  {
+    "line": 166,
+    "field": "src",
+    "english": "the statement, the position paper"
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "'Stellung' (position) + 'Nahme' (taking). You take a\\nposition and make it public."
+  },
+  {
+    "line": 166,
+    "field": "exampleSrc",
+    "english": "A: Is there an official statement?\\nB: Yes, the statement was published.\\nA: What does the statement say?\\nB: The statement demands more dialogue."
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "'Stellung' (position) + 'Nahme' (taking). 'Eine offizielle Stellungnahme abgeben' (to issue an official statement). You take a position and make it public."
+  },
+  {
+    "line": 167,
+    "field": "src",
+    "english": "the conviction, the belief"
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "From 'überzeugen' (to convince). Stronger than 'Meinung'\\n(opinion). Something you cannot easily give up."
+  },
+  {
+    "line": 167,
+    "field": "exampleSrc",
+    "english": "A: What is your conviction?\\nB: In my firm conviction we need reforms.\\nA: Will you change your conviction?\\nB: No, that is a deep conviction."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "From 'überzeugen' (to convince). 'Meiner festen Überzeugung nach...' (In my firm conviction...). Stronger than Meinung (opinion). A conviction is something you cannot easily give up."
+  },
+  {
+    "line": 168,
+    "field": "src",
+    "english": "willingness to compromise"
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "'Kompromiss' + 'Bereitschaft' (readiness). A word that could\\nonly exist in German politics. It is a political virtue."
+  },
+  {
+    "line": 168,
+    "field": "exampleSrc",
+    "english": "A: Does the government show willingness to compromise?\\nB: Yes, the willingness to compromise is there.\\nA: Without willingness to compromise...\\nB: Without willingness to compromise every coalition fails."
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "'Kompromiss' + 'Bereitschaft' (readiness). A word that could only exist in German politics. 'Ohne Kompromissbereitschaft scheitert jede Koalition.' It is a political virtue."
+  },
+  {
+    "line": 169,
+    "field": "src",
+    "english": "to justify, to give reasons for"
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "'Be-' + 'gründen' (to found/establish). Literally: to build a\\nfoundation under your argument. Not separable."
+  },
+  {
+    "line": 169,
+    "field": "exampleSrc",
+    "english": "A: Can you justify your position?\\nB: Yes, I justify it with facts.\\nA: How do you justify that?\\nB: I justify it with three arguments."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "'Be-' + 'gründen' (to found/establish). Literally: to establish a foundation under your argument. 'Können Sie Ihren Standpunkt begründen?' (Can you justify your position?). Not separable."
+  },
+  {
+    "line": 170,
+    "field": "src",
+    "english": "to refute"
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "'Wider' (against) + 'legen' (to lay). You lay something\\nagainst the claim and it falls. The ultimate debate move."
+  },
+  {
+    "line": 170,
+    "field": "exampleSrc",
+    "english": "A: Can the argument be refuted?\\nB: Yes, it can be easily refuted.\\nA: How does one refute a thesis?\\nB: By presenting counter-evidence."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "'Wider' (against) + 'legen' (to lay). You lay something against the claim and it falls. The ultimate debate move: not disagreeing, but proving wrong. 'Das Argument lässt sich leicht widerlegen.'"
+  },
+  {
+    "line": 171,
+    "field": "src",
+    "english": "to weigh up, to consider carefully"
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "'Ab' (off) + 'wägen' (to weigh). The image of scales:\\nplacing arguments on each side. Separable."
+  },
+  {
+    "line": 171,
+    "field": "exampleSrc",
+    "english": "A: Have you weighed the pros and cons?\\nB: Yes, we weighed everything carefully.\\nA: What prevails when you weigh it up?\\nB: The advantages prevail, after we weighed it up."
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "'Ab' (off) + 'wägen' (to weigh). 'Wir müssen die Vor- und Nachteile abwägen' (We must weigh the pros and cons). The image of scales: placing arguments on each side. Separable."
+  },
+  {
+    "line": 172,
+    "field": "src",
+    "english": "to concede, to admit"
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "'Ein' (in) + 'räumen' (to clear/make room). Separable.\\nYou clear room for the other's argument inside your own."
+  },
+  {
+    "line": 172,
+    "field": "exampleSrc",
+    "english": "A: Do you concede that he is right?\\nB: I concede that he has a point.\\nA: That is fair. You concede mistakes.\\nB: Yes, one must be able to concede mistakes."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'räumen' (to clear/make room). Separable. You clear room for the other person's argument inside your own position. 'Ich räume ein, dass Sie einen Punkt haben.'"
+  },
+  {
+    "line": 186,
+    "field": "text",
+    "english": "Obwohl (B1) means 'although.' At B2 level, the following are added:\\nobgleich (literary 'although'), wenngleich (even though/albeit),\\nwenn auch (even if), selbst wenn (even if, strongest).\\n\\nAll are subordinating: verb goes to the end.\\nThe adverbs (nichtsdestotrotz, trotz alledem) are NOT subordinating:\\nthey stand in position 1 with the verb in position 2.\\n\\nExample: 'Obgleich er dagegen war, stimmte er zu.'\\nvs. 'Er war dagegen, nichtsdestotrotz stimmte er zu.'\\nSame meaning, different grammar."
+  },
+  {
+    "line": 186,
+    "field": "text",
+    "english": "From weakest to strongest concession: obwohl (B1 standard) < obgleich (literary) < wenngleich (elevated, 'even though') < wenn auch (flexible) < selbst wenn (strongest, 'even if in the worst case'). The adverbs nichtsdestotrotz and nichtsdestoweniger are not subordinating conjunctions but connective adverbs. They take position 1 with verb inversion, unlike the subordinating conjunctions which send the verb to the end."
+  },
+  {
+    "line": 192,
+    "field": "hint",
+    "english": "A subordinating conjunction sends the verb to the end of its clause. Check each option: only one correctly places the verb in both the subordinate and main clause."
+  },
+  {
+    "line": 193,
+    "field": "hint",
+    "english": "A concessive conjunction meaning 'even though.' The elevated variant of obwohl. Verb goes to the end."
+  },
+  {
+    "line": 193,
+    "field": "sSrc",
+    "english": "Even though I respect your opinion, I do not share it."
+  },
+  {
+    "line": 194,
+    "field": "hint",
+    "english": "A two-part concessive structure: the first word signals a conceded point, the second introduces the contrasting counterargument."
+  },
+  {
+    "line": 200,
+    "field": "hint",
+    "english": "Sowohl...als auch means both...and. Inclusion of both sides."
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "Obgleich, wenngleich, selbst wenn, nichtsdestotrotz. The language of concession. You grant your opponent a point and win anyway. The most elegant form of contradiction."
+  },
+  {
+    "line": 210,
+    "field": "desc",
+    "english": "Verumius stands up and asks his question. In German. In front of everyone. Learn discourse markers that structure your arguments and the elegant technique of wenn-less conditionals."
+  },
+  {
+    "line": 211,
+    "field": "unknown",
+    "english": "Discourse markers for structured argumentation"
+  },
+  {
+    "line": 212,
+    "field": "unknown",
+    "english": "Uninverted wenn clauses (verb-first conditionals)"
+  },
+  {
+    "line": 213,
+    "field": "unknown",
+    "english": "The milestone experience: speaking publicly in German"
+  },
+  {
+    "line": 215,
+    "field": "src",
+    "english": "The moderator opens the floor. 'Questions from the audience?' Hands go up. Verumius's heart is pounding. His question is ready. In German. Every word chosen."
+  },
+  {
+    "line": 216,
+    "field": "src",
+    "english": "He stands. Walks to the microphone. The room quiets. Four panelists look at him. Yilmaz, three rows back, holds her breath."
+  },
+  {
+    "line": 217,
+    "field": "src",
+    "english": "My question is directed at the entire panel. Integration is often presented as the task of newcomers. Would it not be more accurate to say that integration is a mutual process?"
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "A pause. Then: 'That is an important perspective. Indeed, research shows that integration only succeeds when both sides move.'"
+  },
+  {
+    "line": 219,
+    "field": "src",
+    "english": "He sits down. His hands are shaking. But he said it. Every word. In German. At a public debate."
+  },
+  {
+    "line": 220,
+    "field": "src",
+    "english": "above all, especially"
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "Vor (before) + allem (everything). Prioritizing marker.\\nSignals: this point matters most."
+  },
+  {
+    "line": 220,
+    "field": "exampleSrc",
+    "english": "A: What is most important now?\\nB: Above all, we must listen.\\nA: Above all to those affected?\\nB: Yes, above all to them."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "Vor (before) + allem (everything). Above all. 'Vor allem müssen wir zuhören' (Above all, we must listen). A prioritizing marker: this point matters most. Position 1 or Mittelfeld."
+  },
+  {
+    "line": 221,
+    "field": "src",
+    "english": "in particular, especially"
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "In + besondere (particular). More formal than 'vor allem.'\\nAcademic and political standard."
+  },
+  {
+    "line": 221,
+    "field": "exampleSrc",
+    "english": "A: Who is affected?\\nB: Young families in particular.\\nA: Especially in big cities?\\nB: Yes, the situation is particularly difficult there."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "In + besondere (particular). In particular, especially. 'Insbesondere für Neuankömmlinge ist Integration wichtig.' More formal than 'vor allem.' Academic and political standard."
+  },
+  {
+    "line": 222,
+    "field": "src",
+    "english": "furthermore, beyond that"
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Darüber (about/over that) + hinaus (beyond).\\nThe additive marker: there is more beyond what was just said."
+  },
+  {
+    "line": 222,
+    "field": "exampleSrc",
+    "english": "A: Education must be improved.\\nB: Furthermore, we need more training positions.\\nA: Beyond that, also more language courses?\\nB: Yes, that is part of it."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "Darüber (about/over that) + hinaus (beyond). Furthermore, beyond that. 'Darüber hinaus sollten wir die strukturellen Probleme beachten.' The additive marker that says: there is more beyond what was just said."
+  },
+  {
+    "line": 223,
+    "field": "src",
+    "english": "besides, moreover"
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Ausser (outside/besides) + dem (that). More conversational\\nthan 'darüber hinaus.' The everyday 'in addition.'"
+  },
+  {
+    "line": 223,
+    "field": "exampleSrc",
+    "english": "A: We need more dialogue.\\nB: Besides, more patience.\\nA: Moreover, I would like to note...\\nB: Please, continue."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Ausser (outside/besides) + dem (that). Besides, moreover. 'Ausserdem möchte ich anmerken, dass...' More conversational than 'darüber hinaus.' The everyday 'in addition.'"
+  },
+  {
+    "line": 224,
+    "field": "src",
+    "english": "not least, last but not least"
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "Nicht (not) + zuletzt (lastly). Signals: this point,\\nthough mentioned last, is NOT least important."
+  },
+  {
+    "line": 224,
+    "field": "exampleSrc",
+    "english": "A: Why was the debate important?\\nB: Not least because of citizen participation.\\nA: Not least also because of the media?\\nB: Yes, the reporting was fair."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "Nicht (not) + zuletzt (lastly). Not least. 'Nicht zuletzt dank der Freiwilligen.' Signals that this point, though mentioned last, is not least important."
+  },
+  {
+    "line": 225,
+    "field": "src",
+    "english": "furthermore (formal)"
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Des (of the) + Weiteren (further). Highly formal.\\nWritten register only: academic papers, official speeches."
+  },
+  {
+    "line": 225,
+    "field": "exampleSrc",
+    "english": "A: The report shows progress.\\nB: Furthermore, it should be noted that the numbers are rising.\\nA: Furthermore, the committee recommends...\\nB: Which recommendation exactly?"
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "Des (of the) + Weiteren (further). Furthermore. 'Des Weiteren ist zu bemerken, dass...' Highly formal. Written register only. Academic papers, official speeches, legal texts. The elevated 'furthermore.'"
+  },
+  {
+    "line": 226,
+    "field": "src",
+    "english": "however, though"
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "From 'aller Dinge' (of all things). Softer than 'jedoch.'\\nIntroduces a qualification without full contradiction."
+  },
+  {
+    "line": 226,
+    "field": "exampleSrc",
+    "english": "A: The results are positive.\\nB: However, one must also see the risks.\\nA: Though, that is not entirely correct.\\nB: In which regard?"
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "From 'aller Dinge' (of all things). However, though. 'Allerdings muss man auch bedenken, dass...' Softer than 'jedoch.' Introduces a qualification without full contradiction. The gentle 'however.'"
+  },
+  {
+    "line": 227,
+    "field": "src",
+    "english": "nevertheless, despite that"
+  },
+  {
+    "line": 227,
+    "field": "note",
+    "english": "Trotz (despite) + dem (that). Position 1 with verb inversion.\\nThe everyday 'nichtsdestotrotz.' Simpler, equally effective."
+  },
+  {
+    "line": 227,
+    "field": "exampleSrc",
+    "english": "A: The situation is difficult.\\nB: Nevertheless, I remain optimistic.\\nA: Despite that, we must continue?\\nB: Yes, precisely because of that."
+  },
+  {
+    "line": 227,
+    "field": "funFact",
+    "english": "Trotz (despite) + dem (that). Nevertheless, despite that. 'Trotzdem bleibe ich optimistisch.' Position 1 with verb inversion. The everyday 'nichtsdestotrotz.' Simpler, less formal, equally effective."
+  },
+  {
+    "line": 228,
+    "field": "src",
+    "english": "consequently, therefore"
+  },
+  {
+    "line": 228,
+    "field": "note",
+    "english": "From 'folgen' (to follow). The logical conclusion marker.\\nShort and authoritative."
+  },
+  {
+    "line": 228,
+    "field": "exampleSrc",
+    "english": "A: The majority agreed.\\nB: Consequently, the law takes effect.\\nA: Therefore, we must adapt?\\nB: Yes, effective immediately."
+  },
+  {
+    "line": 228,
+    "field": "funFact",
+    "english": "From 'folgen' (to follow). Consequently, therefore. 'Folglich müssen wir handeln.' The logical conclusion marker. What follows from the evidence. Short and authoritative."
+  },
+  {
+    "line": 229,
+    "field": "src",
+    "english": "admittedly"
+  },
+  {
+    "line": 229,
+    "field": "note",
+    "english": "Zugegeben (admitted) + -ermassen (in a manner).\\nYou admit something before arguing against it."
+  },
+  {
+    "line": 229,
+    "field": "exampleSrc",
+    "english": "A: Is the problem serious?\\nB: Admittedly, yes.\\nA: Admittedly, the situation is complicated.\\nB: But not hopeless."
+  },
+  {
+    "line": 229,
+    "field": "funFact",
+    "english": "Zugegeben (admitted) + -ermassen (in a manner). Admittedly. 'Zugegebenermassen ist die Lage kompliziert.' You admit something before arguing against it. The honest concession marker."
+  },
+  {
+    "line": 230,
+    "field": "src",
+    "english": "mind you, note well"
+  },
+  {
+    "line": 230,
+    "field": "note",
+    "english": "Wohl (well) + gemerkt (noted). An interjection that inserts\\nan important qualification. 'Pay attention to this detail.'"
+  },
+  {
+    "line": 230,
+    "field": "exampleSrc",
+    "english": "A: He has no experience.\\nB: Mind you, he just started.\\nA: Mind you, that was his first attempt.\\nB: And still quite successful."
+  },
+  {
+    "line": 230,
+    "field": "funFact",
+    "english": "Wohl (well) + gemerkt (noted). Mind you, note well. 'Er hat, wohlgemerkt, keine Erfahrung in diesem Bereich.' An interjection that inserts an important qualification. Pay attention to this detail."
+  },
+  {
+    "line": 231,
+    "field": "src",
+    "english": "in short, in a nutshell"
+  },
+  {
+    "line": 231,
+    "field": "note",
+    "english": "Kurz (short) + um (around). The summary marker.\\nEverything condensed into one sentence."
+  },
+  {
+    "line": 231,
+    "field": "exampleSrc",
+    "english": "A: How was the debate?\\nB: In short: a success.\\nA: In a nutshell, we need a compromise.\\nB: I agree with that."
+  },
+  {
+    "line": 231,
+    "field": "funFact",
+    "english": "Kurz (short) + um (around). In short, in a nutshell. 'Kurzum: Wir brauchen einen Kompromiss.' The summary marker. Everything said before condensed into one sentence."
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "counterposition"
+  },
+  {
+    "line": 232,
+    "field": "note",
+    "english": "Gegen (against) + Position. The formal way to present\\nthe opposing view. Neutral: it is a position, not an attack."
+  },
+  {
+    "line": 232,
+    "field": "exampleSrc",
+    "english": "A: What is the counterposition?\\nB: The counterposition is: integration is the state's task.\\nA: Who represents this counterposition?\\nB: Above all, the left-wing parties."
+  },
+  {
+    "line": 232,
+    "field": "funFact",
+    "english": "Gegen (against) + Position. Die Gegenposition. The formal way to present the opposing view. 'Die Gegenposition lautet...' Neutral: it is a position, not an attack."
+  },
+  {
+    "line": 233,
+    "field": "src",
+    "english": "counterproposal"
+  },
+  {
+    "line": 233,
+    "field": "note",
+    "english": "Gegen + Vorschlag (proposal). More constructive than\\nGegenargument. Not just against, but offering an alternative."
+  },
+  {
+    "line": 233,
+    "field": "exampleSrc",
+    "english": "A: The proposal was rejected.\\nB: Do you have a counterproposal?\\nA: My counterproposal would be a pilot project.\\nB: That sounds reasonable."
+  },
+  {
+    "line": 233,
+    "field": "funFact",
+    "english": "Gegen + Vorschlag (proposal). Der Gegenvorschlag. A counterproposal. 'Ich habe einen Gegenvorschlag.' More constructive than Gegenargument. Not just against, but offering an alternative."
+  },
+  {
+    "line": 234,
+    "field": "src",
+    "english": "opinion formation"
+  },
+  {
+    "line": 234,
+    "field": "note",
+    "english": "Meinung (opinion) + Bildung (formation/education).\\nThe process by which citizens form opinions. Democracy depends on it."
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: How do you form your opinion?\\nB: Through media and discussions.\\nA: Free opinion formation is a fundamental right.\\nB: Yes, without it no democracy."
+  },
+  {
+    "line": 234,
+    "field": "funFact",
+    "english": "Meinung (opinion) + Bildung (formation/education). Die Meinungsbildung. Opinion formation. 'Freie Meinungsbildung ist ein Grundrecht.' The process by which citizens form opinions. Democracy depends on informed Meinungsbildung."
+  },
+  {
+    "line": 235,
+    "field": "src",
+    "english": "right to vote"
+  },
+  {
+    "line": 235,
+    "field": "note",
+    "english": "Stimm (voice/vote) + Recht (right). Your voice IS your right.\\nWomen gained Stimmrecht in Germany in 1918."
+  },
+  {
+    "line": 235,
+    "field": "exampleSrc",
+    "english": "A: Who has the right to vote?\\nB: All citizens from age 18.\\nA: Does the right to vote apply to local elections too?\\nB: Yes, EU citizens also have voting rights there."
+  },
+  {
+    "line": 235,
+    "field": "funFact",
+    "english": "Stimm (voice/vote) + Recht (right). Das Stimmrecht. The right to vote. 'Allgemeines Stimmrecht' (universal suffrage). Your voice IS your right. Women gained Stimmrecht in Germany in 1918."
+  },
+  {
+    "line": 236,
+    "field": "src",
+    "english": "concession"
+  },
+  {
+    "line": 236,
+    "field": "note",
+    "english": "From 'zugestehen' (to concede). Not weakness, but strategic\\nflexibility. Every coalition requires Zugeständnisse."
+  },
+  {
+    "line": 236,
+    "field": "exampleSrc",
+    "english": "A: Is there a compromise?\\nB: Only with concessions from both sides.\\nA: What concession do you expect?\\nB: The government must give in."
+  },
+  {
+    "line": 236,
+    "field": "funFact",
+    "english": "From 'zugestehen' (to concede). Das Zugeständnis. A concession. 'Ein Zugeständnis machen' (to make a concession). Not weakness, but strategic flexibility. Every coalition requires Zugeständnisse from all parties."
+  },
+  {
+    "line": 237,
+    "field": "src",
+    "english": "to counter, to object"
+  },
+  {
+    "line": 237,
+    "field": "note",
+    "english": "Dagegen (against it) + halten (to hold). Separable.\\nYou hold your position AGAINST theirs."
+  },
+  {
+    "line": 237,
+    "field": "exampleSrc",
+    "english": "A: The argument is strong.\\nB: To counter that, the data is outdated.\\nA: What do you hold against it?\\nB: Newer studies show the opposite."
+  },
+  {
+    "line": 237,
+    "field": "funFact",
+    "english": "Dagegen (against it) + halten (to hold). To counter, to object. 'Dem ist dagegenzuhalten, dass...' (The objection to that is that...). Separable. You hold your position AGAINST theirs."
+  },
+  {
+    "line": 238,
+    "field": "src",
+    "english": "to reply, to respond"
+  },
+  {
+    "line": 238,
+    "field": "note",
+    "english": "From 'wider' (against). Not separable. More formal than\\nantworten. Implies a substantive response."
+  },
+  {
+    "line": 238,
+    "field": "exampleSrc",
+    "english": "A: What did the panelist say?\\nB: He replied: 'I see that differently.'\\nA: How do you respond to the accusation?\\nB: With facts and evidence."
+  },
+  {
+    "line": 238,
+    "field": "funFact",
+    "english": "From 'wider' (against). To reply, to respond. 'Er erwiderte ruhig: Das sehe ich anders.' Not separable. More formal than antworten. Implies a substantive response, not just acknowledgment."
+  },
+  {
+    "line": 239,
+    "field": "src",
+    "english": "to oppose"
+  },
+  {
+    "line": 239,
+    "field": "note",
+    "english": "From Latin 'opponere' (to place against). Formal, political.\\nThe verb form of Opposition."
+  },
+  {
+    "line": 239,
+    "field": "exampleSrc",
+    "english": "A: Who opposes the bill?\\nB: The entire opposition.\\nA: Why do they oppose it?\\nB: They consider the bill unjust."
+  },
+  {
+    "line": 239,
+    "field": "funFact",
+    "english": "From Latin 'opponere' (to place against). To oppose. 'Die Fraktion opponiert gegen den Entwurf.' Formal, political. The verb form of Opposition. Less common in everyday speech, standard in political discourse."
+  },
+  {
+    "line": 240,
+    "field": "src",
+    "english": "would (Konjunktiv II of werden)"
+  },
+  {
+    "line": 240,
+    "field": "note",
+    "english": "Konjunktiv II of 'werden'. Used for polite requests\\nand hypothetical statements: 'Ich würde...'"
+  },
+  {
+    "line": 240,
+    "field": "exampleSrc",
+    "english": "A: What would you do differently?\\nB: I would act early.\\nA: Would more dialogue help?\\nB: Yes, that would help a lot."
+  },
+  {
+    "line": 240,
+    "field": "funFact",
+    "english": "Würde is the Konjunktiv II form of werden. It works like English 'would': würde + Infinitiv = polite or hypothetical. In uneingeleiteten Konditionalsaetzen (verb-first conditionals), würde appears in the main clause: 'Hätte ich Zeit, würde ich kommen.'"
+  },
+  {
+    "line": 241,
+    "field": "text",
+    "english": "In formal German, 'wenn' can be omitted and the verb placed in position 1.\\n\\nWith wenn: Wenn ich mehr Zeit hätte, würde ich kommen.\\nWithout wenn: Hätte ich mehr Zeit, würde ich kommen.\\n\\nThe meaning is identical. The register is elevated.\\n\\nHow to recognize it: verb in position 1 + Konjunktiv II = conditional clause without wenn.\\n\\nExamples:\\n- Wäre es möglich, würde ich zustimmen.\\n- Hätten wir früher gehandelt, wäre es besser.\\n- Könnten alle teilnehmen, wäre die Debatte reicher.\\n\\nCommon in speeches, essays, and formal argumentation."
+  },
+  {
+    "line": 247,
+    "field": "hint",
+    "english": "Look at where the finite verb appears in the first clause. An unusual verb placement combined with a subjunctive mood can replace a conditional connector."
+  },
+  {
+    "line": 248,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. The subject is 'die Opposition'. Which Konjunktiv II form of the auxiliary verb for agreement goes to position 1?"
+  },
+  {
+    "line": 248,
+    "field": "sSrc",
+    "english": "Had the opposition agreed, the compromise would have been possible."
+  },
+  {
+    "line": 249,
+    "field": "hint",
+    "english": "First honestly acknowledge the difficulty, then nevertheless emphasize the need to act."
+  },
+  {
+    "line": 252,
+    "field": "desc",
+    "english": "The debate intensifies. Verumius's question has opened a new thread. Learn formal comparison markers and practice all three grammar constructs in debate contexts."
+  },
+  {
+    "line": 253,
+    "field": "unknown",
+    "english": "Master formal comparison markers"
+  },
+  {
+    "line": 254,
+    "field": "unknown",
+    "english": "Practice all three grammar constructs in combination"
+  },
+  {
+    "line": 255,
+    "field": "unknown",
+    "english": "Express nuanced agreement and disagreement"
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "In comparison to other European countries, Germany has a unique approach to integration. But unlike in France, there is no strict secularism here."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "In view of the current situation, we should compare less and act more. Had we acted ten years ago, we would be further along today."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "in comparison to/with"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Im (in the) + Vergleich (comparison) + zu (to).\\nThe standard formal comparison frame."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: How does Germany stand?\\nB: In comparison to France, well.\\nA: Compared to last year?\\nB: Significantly better."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Im (in the) + Vergleich (comparison) + zu (to). In comparison to/with. 'Im Vergleich zu letztem Jahr sind die Zahlen besser.' The standard formal comparison frame. Opens with context, then delivers the contrast."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "compared with"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Past participle 'verglichen' (compared) + mit (with).\\nShorter than 'im Vergleich zu.' Same meaning."
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: Compared with other countries...\\nB: ...the system here is efficient.\\nA: Compared with the past?\\nB: Great progress."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Past participle 'verglichen' (compared) + mit (with). Compared with. 'Verglichen mit anderen Ländern ist das System effizient.' Shorter than 'im Vergleich zu.' Same meaning, different grammar (participle construction)."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "just like, in the same way as"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Genauso (just as) + wie (as). The equality marker:\\nX is the same as Y."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Does integration only affect newcomers?\\nB: No, locals just like newcomers.\\nA: Just like with language?\\nB: Yes, dialogue goes in both directions."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Genauso (just as) + wie (as). Just like. 'Integration betrifft Einheimische genauso wie Neuankömmlinge.' The equality marker: X is the same as Y."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "unlike, different from"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Anders (differently) + als (than). The contrast marker:\\nX is NOT like Y. Short, direct, common."
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Is it like in France here?\\nB: No, unlike in France, there is no headscarf ban here.\\nA: Unlike expected?\\nB: Yes, the debate was constructive."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Anders (differently) + als (than). Unlike, different from. 'Anders als erwartet war die Debatte konstruktiv.' The contrast marker: X is NOT like Y. Short, direct, common in speech and writing."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "similar to"
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Aehnlich (similar) + wie (as). Not identical, but comparable.\\nThe approximation marker."
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Is the system here similar to Austria?\\nB: Similar to there, there is a coalition government.\\nA: Similar to last time?\\nB: Yes, but with new partners."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Aehnlich (similar) + wie (as). Similar to. 'Aehnlich wie in Oesterreich gibt es auch hier eine Koalitionsregierung.' Not identical, but comparable. The approximation marker."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "in contrast to, unlike"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Im (in the) + Unterschied (difference) + zu (to).\\nFormal, written register. Points to a specific difference."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: In contrast to earlier debates...\\nB: ...this one was factual and respectful.\\nA: In contrast to other countries?\\nB: Germany relies on federalism."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "Im (in the) + Unterschied (difference) + zu (to). In contrast to, unlike. 'Im Unterschied zu früheren Debatten war diese sachlich.' Formal, written register. Points to a specific difference."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "in contrast to, as opposed to"
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Im (in the) + Gegensatz (contrast/opposite) + zu (to).\\nStronger contrast than 'im Unterschied zu.'"
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: What is your position?\\nB: In contrast to my predecessor, I am optimistic.\\nA: As opposed to the polls?\\nB: Yes, I see progress."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Im (in the) + Gegensatz (contrast/opposite) + zu (to). In contrast to, as opposed to. 'Im Gegensatz zu meinem Vorredner bin ich optimistisch.' Stronger contrast than 'im Unterschied zu.' Almost adversarial."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "in contrast to that, on the other hand"
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "Dem (that) + gegenüber (opposite/across from).\\nFormal connective adverb. Points to the other side."
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: The government is confident.\\nB: In contrast, there is the opposition's skepticism.\\nA: On the other hand, there are positive voices too.\\nB: That is true."
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Dem (that) + gegenüber (opposite/across from). In contrast to that. 'Demgegenüber steht die Position der Opposition.' Formal connective adverb. Points across to the other side of the argument."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "equally, in equal measure"
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Gleicher (equal) + massen (measure). Everything in equal\\nportion. Formal and precise. The fairness adverb."
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: Who is affected?\\nB: All citizens equally.\\nA: Men and women equally?\\nB: Yes, without distinction."
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "Gleicher (equal) + massen (measure). Equally, in equal measure. 'Das betrifft alle Bürger gleichermassen.' Everything in equal portion. Formal and precise. The fairness adverb."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "regardless of that, notwithstanding"
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "Ungeachtet (disregarded) + dessen (of that). Legal register.\\nThe strongest 'regardless': it does not change my conclusion."
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: There is criticism of the process.\\nB: Regardless of that, the decision remains valid.\\nA: Notwithstanding, we must continue?\\nB: Yes, fundamental rights apply nonetheless."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "Ungeachtet (disregarded) + dessen (of that). Regardless of that, notwithstanding. 'Ungeachtet dessen bleiben die Grundrechte bestehen.' Legal register. The strongest 'regardless.'"
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "in view of, considering"
+  },
+  {
+    "line": 269,
+    "field": "note",
+    "english": "In + Anbetracht (consideration/view). Formal framing phrase.\\nSets the context before the judgment. Takes genitive."
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: How do you see the situation?\\nB: In view of the circumstances, the decision was right.\\nA: Considering the costs?\\nB: Also financially justifiable."
+  },
+  {
+    "line": 269,
+    "field": "funFact",
+    "english": "In + Anbetracht (consideration/view). In view of, considering. 'In Anbetracht der Umstände war die Entscheidung richtig.' Formal framing phrase. Sets context before judgment. Takes genitive."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "jurisdiction, area of responsibility"
+  },
+  {
+    "line": 270,
+    "field": "note",
+    "english": "Zuständig (responsible) + -keit. Bureaucratic precision:\\nwho handles what. Essential in German administration."
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: Who is responsible for that?\\nB: That does not fall within my jurisdiction.\\nA: Whose area of responsibility is that?\\nB: That of the Interior Ministry."
+  },
+  {
+    "line": 270,
+    "field": "funFact",
+    "english": "Zuständig (responsible/competent) + -keit. Die Zuständigkeit. Jurisdiction, area of responsibility. 'Das fällt nicht in meine Zuständigkeit.' Bureaucratic precision: who handles what."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "referendum"
+  },
+  {
+    "line": 271,
+    "field": "note",
+    "english": "Volk (people) + Abstimmung (vote). Direct democracy.\\nGermany rarely uses them at federal level."
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: Should there be a referendum?\\nB: On this topic? Perhaps.\\nA: Referendums are direct democracy.\\nB: Yes, but they are rare in Germany."
+  },
+  {
+    "line": 271,
+    "field": "funFact",
+    "english": "Volk (people) + Abstimmung (vote). Die Volksabstimmung. A referendum. 'Eine Volksabstimmung über das Thema fordern.' Direct democracy. Germany rarely uses them at federal level. Switzerland uses them constantly."
+  },
+  {
+    "line": 272,
+    "field": "src",
+    "english": "electoral law / right to vote"
+  },
+  {
+    "line": 272,
+    "field": "note",
+    "english": "Wahl (election) + Recht (right/law). 'Aktives Wahlrecht' =\\nright to vote. 'Passives Wahlrecht' = right to run for office."
+  },
+  {
+    "line": 272,
+    "field": "exampleSrc",
+    "english": "A: What is active electoral law?\\nB: The right to vote.\\nA: And passive electoral law?\\nB: The right to be elected."
+  },
+  {
+    "line": 272,
+    "field": "funFact",
+    "english": "Wahl (election) + Recht (right/law). Das Wahlrecht. Electoral law or the right to vote. 'Das aktive Wahlrecht' (the right to vote) vs. 'das passive Wahlrecht' (the right to run for office). Two rights, one word."
+  },
+  {
+    "line": 273,
+    "field": "src",
+    "english": "merger, union, alliance"
+  },
+  {
+    "line": 273,
+    "field": "note",
+    "english": "Zusammen (together) + Schluss (closing). Closing together:\\nuniting. Political and business vocabulary."
+  },
+  {
+    "line": 273,
+    "field": "exampleSrc",
+    "english": "A: What is an alliance?\\nB: When several groups unite.\\nA: An alliance of citizen initiatives?\\nB: Yes, together they are stronger."
+  },
+  {
+    "line": 273,
+    "field": "funFact",
+    "english": "Zusammen (together) + Schluss (closing). Der Zusammenschluss. A merger, a union, an alliance. 'Ein Zusammenschluss von Bürgerinitiativen.' Closing together: uniting."
+  },
+  {
+    "line": 274,
+    "field": "src",
+    "english": "state governed by the rule of law"
+  },
+  {
+    "line": 274,
+    "field": "note",
+    "english": "Recht (law/right) + Staat (state). The government itself\\nis bound by law. No one is above the law."
+  },
+  {
+    "line": 274,
+    "field": "exampleSrc",
+    "english": "A: What does Rechtsstaat mean?\\nB: That everyone, including the government, follows the law.\\nA: Is Germany a Rechtsstaat?\\nB: Yes, that is a fundamental principle."
+  },
+  {
+    "line": 274,
+    "field": "funFact",
+    "english": "Recht (law/right) + Staat (state). Der Rechtsstaat. A state governed by the rule of law. 'Deutschland ist ein Rechtsstaat.' The government itself is bound by law. No one is above the law."
+  },
+  {
+    "line": 275,
+    "field": "src",
+    "english": "pertaining to the rule of law"
+  },
+  {
+    "line": 275,
+    "field": "note",
+    "english": "Rechtsstaat + -lich. 'Rechtsstaatlich handeln' means:\\nacting within the law, due process, fair procedures."
+  },
+  {
+    "line": 275,
+    "field": "exampleSrc",
+    "english": "A: Is the process lawful?\\nB: Yes, all rules were followed.\\nA: Rule-of-law principles are important.\\nB: They are the foundation of democracy."
+  },
+  {
+    "line": 275,
+    "field": "funFact",
+    "english": "Rechtsstaat + -lich. Pertaining to the rule of law. 'Rechtsstaatliche Prinzipien müssen gewahrt bleiben.' The adjective of legal order. 'Rechtsstaatlich handeln' means acting within the law."
+  },
+  {
+    "line": 276,
+    "field": "src",
+    "english": "oppositional, relating to the opposition"
+  },
+  {
+    "line": 276,
+    "field": "note",
+    "english": "Opposition + -ell. The adjective for organized disagreement.\\nNot negative: structurally necessary in democracy."
+  },
+  {
+    "line": 276,
+    "field": "exampleSrc",
+    "english": "A: Are there oppositional voices?\\nB: Yes, they are getting louder.\\nA: Is oppositional behavior desired?\\nB: In a democracy, it is necessary."
+  },
+  {
+    "line": 276,
+    "field": "funFact",
+    "english": "Opposition + -ell. Oppositional, relating to the opposition. 'Oppositionelle Stimmen werden lauter.' The adjective for the role of organized disagreement. Not negative: structurally necessary in democracy."
+  },
+  {
+    "line": 277,
+    "field": "src",
+    "english": "to concede, to grant"
+  },
+  {
+    "line": 277,
+    "field": "note",
+    "english": "Zu (to) + gestehen (to confess/admit). The act of granting\\nyour opponent a valid point."
+  },
+  {
+    "line": 277,
+    "field": "exampleSrc",
+    "english": "A: Is he right?\\nB: One must concede that to him.\\nA: So you concede that...\\nB: Yes, on this point the opposition is right."
+  },
+  {
+    "line": 277,
+    "field": "funFact",
+    "english": "Zu (to) + gestehen (to confess/admit). To concede, to grant. 'Das muss man dem Gegner zugestehen.' The act of granting your opponent a valid point."
+  },
+  {
+    "line": 278,
+    "field": "src",
+    "english": "to push for, to accelerate"
+  },
+  {
+    "line": 278,
+    "field": "note",
+    "english": "From French 'forcer' (to force). Stronger than 'unterstuetzen.'\\nYou actively accelerate the process."
+  },
+  {
+    "line": 278,
+    "field": "exampleSrc",
+    "english": "A: The reform is going too slowly.\\nB: We must push for it.\\nA: How do you want to accelerate it?\\nB: With clear deadlines and measures."
+  },
+  {
+    "line": 278,
+    "field": "funFact",
+    "english": "From French 'forcer' (to force). To push for, to accelerate, to force. 'Die Reform forcieren.' Stronger than 'unterstuetzen.' You actively accelerate the process."
+  },
+  {
+    "line": 284,
+    "field": "hint",
+    "english": "Identify each distinct B2 structure in the sentence: one marks a contrast with something prior, the other concedes a point. Count them."
+  },
+  {
+    "line": 285,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. The verb 'abwägen' determines which auxiliary belongs here."
+  },
+  {
+    "line": 285,
+    "field": "sSrc",
+    "english": "Had we weighed all viewpoints, we could reach a compromise."
+  },
+  {
+    "line": 286,
+    "field": "hint",
+    "english": "Two B2 structures: a subordinating concessive conjunction opening the first clause, and a connective adverb reinforcing the contrast in the second clause."
+  },
+  {
+    "line": 292,
+    "field": "hint",
+    "english": "'Verglichen' (compared) + 'mit' (with). Partizip II used as a comparison frame."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "The room goes quiet. The panelists look at each other. A question from the audience has changed the tone. The moderator smiles. 'Thank you. These are exactly the contributions we need.' Verumius does not realize she means him."
+  },
+  {
+    "line": 302,
+    "field": "desc",
+    "english": "Everything from Unit 29 on the test bench. Prove you can argue, concede, compare, and conclude. In formal German."
+  },
+  {
+    "line": 303,
+    "field": "unknown",
+    "english": "Test all three grammar constructs in combination"
+  },
+  {
+    "line": 304,
+    "field": "unknown",
+    "english": "Master political German and debate vocabulary"
+  },
+  {
+    "line": 305,
+    "field": "unknown",
+    "english": "Use discourse markers precisely"
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "The debate is over. The audience stands, stretches. But in my head it continues. Every argument, every concession, every comparison. Now I want to prove that I can do it."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "minister (government)"
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "From Latin 'minister' (servant). 'Bundesminister' for federal,\\n'Landesminister' for state level."
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: Who is the new minister?\\nB: The minister for education.\\nA: What did the minister say?\\nB: He supports the reform."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "From Latin 'minister' (servant). Der Minister. In Germany, the Kanzler appoints ministers. 'Bundesminister' for federal, 'Landesminister' for state level. The Latin origin is ironic: ministers are supposed to serve."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "minister (female)"
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Minister + -in. 'Frau Ministerin' is the formal address.\\nMultiple women have held top ministries in Germany."
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: The minister is giving a speech.\\nB: Which minister?\\nA: The justice minister.\\nB: She is very convincing."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "Minister + -in. Die Ministerin. 'Frau Ministerin' is the formal address. Multiple women have held top ministries: defense, justice, education. The -in suffix on Latin-origin words is standard German."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "petition"
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "From Latin 'petitio' (request). Germany's Bundestag has a\\ndedicated Petitionsausschuss. Over 10,000 petitions per year."
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Did you sign the petition?\\nB: Yes, for better education.\\nA: How many signatures does the petition have?\\nB: Over 50,000."
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "From Latin 'petitio' (request). Die Petition. A formal request to parliament. Germany's Bundestag has a dedicated Petitionsausschuss (petitions committee). Citizens can petition directly."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "plenary session, full assembly"
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "From Latin 'plenum' (full assembly). The Ausschuss does\\nthe detailed work. The Plenum makes the final decision."
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: When will the plenary vote?\\nB: Tomorrow afternoon.\\nA: Are all MPs in the plenary?\\nB: For important votes, yes."
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "From Latin 'plenum' (full assembly). Das Plenum. The full assembly of all parliamentarians. 'Im Plenum abstimmen' (to vote in plenary session). The Ausschuss does the detailed work. The Plenum decides."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "strategy"
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "From Greek 'strategia' (generalship). The long-term plan\\nbehind short-term actions."
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: What is the government's strategy?\\nB: More dialogue and less confrontation.\\nA: Is that a good strategy?\\nB: It has worked so far."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "From Greek 'strategia' (generalship). Die Strategie. Strategy. 'Eine politische Strategie entwickeln.' Same word internationally. In politics: the long-term plan behind short-term actions."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "representative"
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "From 'vertreten' (to represent). 'Volksvertreter' = Abgeordnete.\\nOne who steps in for others."
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: Who is your representative in parliament?\\nB: The MP from my constituency.\\nA: Is he a good representative?\\nB: He represents our interests well."
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "From 'vertreten' (to represent). Der Vertreter. A representative. 'Volksvertreter' (people's representative) = Abgeordnete. One who steps in for others."
+  },
+  {
+    "line": 314,
+    "field": "src",
+    "english": "representative (female)"
+  },
+  {
+    "line": 314,
+    "field": "note",
+    "english": "Vertreter + -in. Standard gender pair in political language.\\n'Die Vertreterin der Opposition sprach zuerst.'"
+  },
+  {
+    "line": 314,
+    "field": "exampleSrc",
+    "english": "A: The opposition representative spoke first.\\nB: What did she say?\\nA: She demands more transparency.\\nB: A legitimate demand."
+  },
+  {
+    "line": 314,
+    "field": "funFact",
+    "english": "Vertreter + -in. Die Vertreterin. A female representative. 'Die Vertreterin der Opposition sprach zuerst.' Standard gender pair in political language."
+  },
+  {
+    "line": 315,
+    "field": "src",
+    "english": "reform-oriented"
+  },
+  {
+    "line": 315,
+    "field": "note",
+    "english": "Reform + orientiert (oriented). Neither radical nor conservative:\\nstrategically progressive."
+  },
+  {
+    "line": 315,
+    "field": "exampleSrc",
+    "english": "A: Is the party reform-oriented?\\nB: Yes, they want to change a lot.\\nA: Reform-oriented policy is important.\\nB: Especially in education."
+  },
+  {
+    "line": 315,
+    "field": "funFact",
+    "english": "Reform + orientiert (oriented). Reform-oriented. 'Eine reformorientierte Politik.' The adjective for those who push for change. Neither radical nor conservative: strategically progressive."
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "constitutional"
+  },
+  {
+    "line": 316,
+    "field": "note",
+    "english": "Verfassung (constitution) + maessig (in accordance with).\\nThe adjectival form of legal conformity with the Grundgesetz."
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "A: Is that constitutional?\\nB: Yes, the Federal Constitutional Court has decided.\\nA: Constitutionally guaranteed rights...\\nB: ...may not be touched."
+  },
+  {
+    "line": 316,
+    "field": "funFact",
+    "english": "Verfassung (constitution) + maessig (in accordance with). Constitutional. 'Verfassungsmaessig garantierte Rechte.' The adjectival form of legal conformity with the Grundgesetz."
+  },
+  {
+    "line": 317,
+    "field": "src",
+    "english": "populist"
+  },
+  {
+    "line": 317,
+    "field": "note",
+    "english": "From Latin 'populus' (people). In German political discourse,\\nalmost always negative: oversimplifying for political gain."
+  },
+  {
+    "line": 317,
+    "field": "exampleSrc",
+    "english": "A: Was the speech populist?\\nB: Yes, it stirred up fears.\\nA: Populist rhetoric is dangerous.\\nB: Because it oversimplifies complex topics."
+  },
+  {
+    "line": 317,
+    "field": "funFact",
+    "english": "From Latin 'populus' (people). Populist. 'Populistische Rhetorik' (populist rhetoric). In German political discourse, almost always negative: oversimplifying complex issues for political gain. Not the same as 'populaer.'"
+  },
+  {
+    "line": 318,
+    "field": "src",
+    "english": "radical"
+  },
+  {
+    "line": 318,
+    "field": "note",
+    "english": "From Latin 'radix' (root). In German politics, means going\\nto the extreme. The Verfassungsschutz monitors it."
+  },
+  {
+    "line": 318,
+    "field": "exampleSrc",
+    "english": "A: Are the demands radical?\\nB: Some are, others are not.\\nA: Radical positions harm the debate.\\nB: They make compromises impossible."
+  },
+  {
+    "line": 318,
+    "field": "funFact",
+    "english": "From Latin 'radix' (root). Radical. 'Radikale Forderungen.' In German political language, radikal means going to the root/extreme. The Verfassungsschutz (domestic intelligence) monitors 'radikale Bestrebungen.'"
+  },
+  {
+    "line": 319,
+    "field": "src",
+    "english": "disputed, contentious"
+  },
+  {
+    "line": 319,
+    "field": "note",
+    "english": "From 'Streit' (dispute). Lighter than 'umstritten.'\\nSomething strittig is debated, not fought over."
+  },
+  {
+    "line": 319,
+    "field": "exampleSrc",
+    "english": "A: Is the point contentious?\\nB: Yes, there are different opinions about it.\\nA: The topic remains disputed.\\nB: Perhaps the next debate will clarify it."
+  },
+  {
+    "line": 319,
+    "field": "funFact",
+    "english": "From 'Streit' (dispute). Disputed, contentious. 'Ein strittiger Punkt.' Lighter than 'umstritten.' Something strittig is debated. Something umstritten has active opposition."
+  },
+  {
+    "line": 320,
+    "field": "src",
+    "english": "uncontestable, irrefutable"
+  },
+  {
+    "line": 320,
+    "field": "note",
+    "english": "Un- (not) + anfechtbar (challengeable). What cannot be\\nlegally challenged. Final, done, beyond dispute."
+  },
+  {
+    "line": 320,
+    "field": "exampleSrc",
+    "english": "A: Is the decision uncontestable?\\nB: Yes, it can no longer be challenged.\\nA: An incontestable right.\\nB: The Basic Law protects it."
+  },
+  {
+    "line": 320,
+    "field": "funFact",
+    "english": "Un- (not) + anfechtbar (challengeable). Uncontestable, irrefutable. 'Ein unanfechtbares Recht.' What cannot be legally challenged. The ultimate legal adjective: final, done, beyond dispute."
+  },
+  {
+    "line": 321,
+    "field": "src",
+    "english": "undemocratic"
+  },
+  {
+    "line": 321,
+    "field": "note",
+    "english": "Un- + demokratisch. One of the strongest political\\naccusations in Germany."
+  },
+  {
+    "line": 321,
+    "field": "exampleSrc",
+    "english": "A: Was the decision undemocratic?\\nB: That is what the critics allege.\\nA: Undemocratic behavior is not tolerated.\\nB: The constitution protects against it."
+  },
+  {
+    "line": 321,
+    "field": "funFact",
+    "english": "Un- + demokratisch. Undemocratic. 'Eine undemokratische Entscheidung.' In Germany, calling something 'undemokratisch' is one of the strongest political accusations."
+  },
+  {
+    "line": 322,
+    "field": "src",
+    "english": "conservative"
+  },
+  {
+    "line": 322,
+    "field": "note",
+    "english": "From Latin 'conservare' (to preserve). In Germany, CDU/CSU.\\nMore centrist than American conservatism."
+  },
+  {
+    "line": 322,
+    "field": "exampleSrc",
+    "english": "A: Is the CDU conservative?\\nB: Yes, but in the German sense.\\nA: What does conservative mean here?\\nB: Preserving traditions, but not radical."
+  },
+  {
+    "line": 322,
+    "field": "funFact",
+    "english": "From Latin 'conservare' (to preserve). Conservative. 'Konservative Werte.' In Germany, the CDU/CSU is the main konservative party. More centrist than American conservatism by international standards."
+  },
+  {
+    "line": 323,
+    "field": "src",
+    "english": "liberal (pro-free-market)"
+  },
+  {
+    "line": 323,
+    "field": "note",
+    "english": "From Latin 'liberalis' (of freedom). In Germany means\\npro-free-market (FDP). Different from American usage."
+  },
+  {
+    "line": 323,
+    "field": "exampleSrc",
+    "english": "A: What does liberal mean in Germany?\\nB: Pro free market and individual freedom.\\nA: So the FDP?\\nB: Yes, the FDP is the liberal party."
+  },
+  {
+    "line": 323,
+    "field": "funFact",
+    "english": "From Latin 'liberalis' (of freedom). Liberal. In Germany, 'liberal' means pro-free-market (FDP). Different from American usage where it means left-leaning."
+  },
+  {
+    "line": 324,
+    "field": "src",
+    "english": "progressive"
+  },
+  {
+    "line": 324,
+    "field": "note",
+    "english": "From Latin 'progressus' (advancement). Forward-moving.\\nTo the left of liberal, not as far as radikal."
+  },
+  {
+    "line": 324,
+    "field": "exampleSrc",
+    "english": "A: Is the party progressive?\\nB: Yes, they want social change.\\nA: Progressive politics means progress?\\nB: Yes, but with responsibility."
+  },
+  {
+    "line": 324,
+    "field": "funFact",
+    "english": "From Latin 'progressus' (advancement). Progressive. 'Progressive Politik.' Forward-moving, reform-oriented. In the German political spectrum, to the left of liberal, not as far as radikal."
+  },
+  {
+    "line": 325,
+    "field": "src",
+    "english": "reactionary"
+  },
+  {
+    "line": 325,
+    "field": "note",
+    "english": "From French 'reactionnaire.' Wanting to go back to an earlier\\nstate. Strongly negative in political discourse."
+  },
+  {
+    "line": 325,
+    "field": "exampleSrc",
+    "english": "A: Is that a reactionary position?\\nB: Yes, it wants to go back to the past.\\nA: Reactionary tendencies are problematic.\\nB: They block progress."
+  },
+  {
+    "line": 325,
+    "field": "funFact",
+    "english": "From French 'reactionnaire.' Reactionary. 'Reaktionaere Tendenzen.' The opposite of progressiv: wanting to go back to an earlier state. Strongly negative in political discourse."
+  },
+  {
+    "line": 326,
+    "field": "src",
+    "english": "to push through, to enforce"
+  },
+  {
+    "line": 326,
+    "field": "note",
+    "english": "Durch (through) + setzen (to set). Separable. Reflexive:\\n'sich durchsetzen' means to prevail."
+  },
+  {
+    "line": 326,
+    "field": "exampleSrc",
+    "english": "A: Can the government push through the reform?\\nB: Only with a majority.\\nA: He prevailed.\\nB: Yes, his argument was convincing."
+  },
+  {
+    "line": 326,
+    "field": "funFact",
+    "english": "Durch (through) + setzen (to set). To push through, to enforce. 'Eine Reform durchsetzen.' Separable. Reflexive: 'sich durchsetzen' means to prevail. You set something through all obstacles."
+  },
+  {
+    "line": 327,
+    "field": "src",
+    "english": "to counteract"
+  },
+  {
+    "line": 327,
+    "field": "note",
+    "english": "Entgegen (against) + wirken (to work/have effect).\\nNot separable. The constructive response to a negative force."
+  },
+  {
+    "line": 327,
+    "field": "exampleSrc",
+    "english": "A: How can one counteract populism?\\nB: With education and dialogue.\\nA: Counteract instead of ignore?\\nB: Yes, active action is important."
+  },
+  {
+    "line": 327,
+    "field": "funFact",
+    "english": "Entgegen (against) + wirken (to work/have effect). To counteract. 'Dem Populismus entgegenwirken.' Not separable. You work against something. The constructive response to a negative force."
+  },
+  {
+    "line": 333,
+    "field": "hint",
+    "english": "Count the number of distinct B2 grammatical structures in the sentence. Look at: where the finite verb appears at the start, how both subject elements are connected, and how the final clause relates."
+  },
+  {
+    "line": 334,
+    "field": "hint",
+    "english": "The first bracket of the inclusion pair. Both citizens AND ALSO politicians."
+  },
+  {
+    "line": 334,
+    "field": "sSrc",
+    "english": "The decision affects both citizens and politicians equally."
+  },
+  {
+    "line": 340,
+    "field": "hint",
+    "english": "This conjunction belongs to the class that requires the finite verb at the end of the clause it introduces. Check each option for correct verb placement."
+  },
+  {
+    "line": 341,
+    "field": "hint",
+    "english": "Verb-first conditional without 'wenn'. Both verbs in Konjunktiv II. If one were to ignore... would suffer harm."
+  },
+  {
+    "line": 353,
+    "field": "hint",
+    "english": "First the thesis, then honestly concede a point, then come back stronger. Thesis, concession, reinforcement."
+  },
+  {
+    "line": 354,
+    "field": "hint",
+    "english": "The evidence is there, the conclusion follows. The logical consequence marker."
+  },
+  {
+    "line": 354,
+    "field": "sSrc",
+    "english": "The arguments are clear. Consequently, parliament should act."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "Verumius closes his notebook. Every page full. Concessions, comparisons, conditional clauses. The grammar of a democracy. He has not only learned it. He has used it."
+  },
+  {
+    "line": 358,
+    "field": "desc",
+    "english": "The debate is over. Yilmaz says two words. Learn the formal debate phrases that complete your argumentation toolkit. The capstone of Unit 29."
+  },
+  {
+    "line": 359,
+    "field": "unknown",
+    "english": "Master formal debate phrases"
+  },
+  {
+    "line": 360,
+    "field": "unknown",
+    "english": "Review all constructs from Unit 29"
+  },
+  {
+    "line": 361,
+    "field": "unknown",
+    "english": "Celebrate the milestone of public German discourse"
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "The lobby after the event. People milling about, coffee in paper cups. Verumius and Yilmaz find each other near the exit."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "Simply: 'Important contribution.' Two words. She nods. Maximum meaning."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "Thank you. I chose every word carefully."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "I heard that. And the panel did too."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "They drink their coffee in comfortable silence. Through the window, Berlin glows. Verumius has spoken German at a public debate. Not survived it. Contributed to it."
+  },
+  {
+    "line": 368,
+    "field": "src",
+    "english": "On the U-Bahn home, his phone buzzes. A letter from the tax office. 47 words, one sentence. The glow fades. Reality returns."
+  },
+  {
+    "line": 369,
+    "field": "src",
+    "english": "I am of the view that"
+  },
+  {
+    "line": 369,
+    "field": "note",
+    "english": "The formal position statement. Stronger than 'Ich denke.'\\nAcademic and legal standard."
+  },
+  {
+    "line": 369,
+    "field": "exampleSrc",
+    "english": "A: What is your opinion?\\nB: I am of the view that we must act.\\nA: And why?\\nB: Because time is pressing."
+  },
+  {
+    "line": 369,
+    "field": "funFact",
+    "english": "'I am of the view that.' The formal position statement. Stronger than 'Ich denke' or 'Ich glaube.' You have an Auffassung (understanding/view), not just an opinion. Academic and legal standard."
+  },
+  {
+    "line": 370,
+    "field": "src",
+    "english": "in my view"
+  },
+  {
+    "line": 370,
+    "field": "note",
+    "english": "Ansicht from 'ansehen' (to look at). Dative case: meiner.\\nThe polite but firm positioning phrase."
+  },
+  {
+    "line": 370,
+    "field": "exampleSrc",
+    "english": "A: In my view, we need reform.\\nB: I see it that way too.\\nA: In my view, the compromise is fair.\\nB: We can build on that."
+  },
+  {
+    "line": 370,
+    "field": "funFact",
+    "english": "'In my view.' 'Ansicht' from 'ansehen' (to look at). Your view of the matter. 'Meiner Ansicht nach brauchen wir Reform.' Dative case: meiner. The polite but firm positioning phrase."
+  },
+  {
+    "line": 371,
+    "field": "src",
+    "english": "it is beyond question that"
+  },
+  {
+    "line": 371,
+    "field": "note",
+    "english": "The phrase that closes debate on a point.\\nEstablishes something as uncontested fact."
+  },
+  {
+    "line": 371,
+    "field": "exampleSrc",
+    "english": "A: Is that certain?\\nB: It is beyond question that fundamental rights apply.\\nA: It is beyond question that we must act.\\nB: On that we agree."
+  },
+  {
+    "line": 371,
+    "field": "funFact",
+    "english": "'It is beyond question that.' The phrase that closes debate on a point. 'Es steht ausser Frage, dass die Grundrechte gelten.' When you want to establish something as uncontested fact."
+  },
+  {
+    "line": 372,
+    "field": "src",
+    "english": "to counter that, it must be said that"
+  },
+  {
+    "line": 372,
+    "field": "note",
+    "english": "Dem (dative) + entgegenzuhalten (to hold against).\\nElegant, indirect, devastating. The formal objection."
+  },
+  {
+    "line": 372,
+    "field": "exampleSrc",
+    "english": "A: The argument seems strong.\\nB: To counter that, the data is outdated.\\nA: A good objection.\\nB: Facts must be current."
+  },
+  {
+    "line": 372,
+    "field": "funFact",
+    "english": "'To counter that, it must be said that.' Dem (dative) + entgegenzuhalten (to hold against). Elegant, indirect, devastating. You do not attack. You present what must be held against the argument."
+  },
+  {
+    "line": 373,
+    "field": "src",
+    "english": "it cannot be denied that"
+  },
+  {
+    "line": 373,
+    "field": "note",
+    "english": "Leugnen (to deny). The concession marker that acknowledges\\ninconvenient truth. Honest, then move on."
+  },
+  {
+    "line": 373,
+    "field": "exampleSrc",
+    "english": "A: Are there problems?\\nB: It cannot be denied that there are some.\\nA: But there is also progress.\\nB: That cannot be denied either."
+  },
+  {
+    "line": 373,
+    "field": "funFact",
+    "english": "'It cannot be denied that.' 'Leugnen' (to deny). The concession marker that acknowledges inconvenient truth. Honest, then move on."
+  },
+  {
+    "line": 374,
+    "field": "src",
+    "english": "from that follows"
+  },
+  {
+    "line": 374,
+    "field": "note",
+    "english": "'Sich ergeben' (to result). The logical consequence phrase.\\nThe evidence produces the conclusion organically."
+  },
+  {
+    "line": 374,
+    "field": "exampleSrc",
+    "english": "A: The majority has decided.\\nB: From that follows the necessity to act.\\nA: From that also follows responsibility.\\nB: For all involved."
+  },
+  {
+    "line": 374,
+    "field": "funFact",
+    "english": "'From that follows.' 'Sich ergeben' (to result). The logical consequence phrase. 'Daraus ergibt sich die Notwendigkeit zu handeln.' The evidence produces the conclusion organically."
+  },
+  {
+    "line": 375,
+    "field": "src",
+    "english": "in a nutshell, to sum up"
+  },
+  {
+    "line": 375,
+    "field": "note",
+    "english": "Brought to the point. The summary marker.\\nEverything condensed to its essence."
+  },
+  {
+    "line": 375,
+    "field": "exampleSrc",
+    "english": "A: How would you summarize it?\\nB: In a nutshell: we need dialogue.\\nA: To sum up: more willingness to compromise.\\nB: Exactly."
+  },
+  {
+    "line": 375,
+    "field": "funFact",
+    "english": "'Brought to the point.' The summary marker. 'Auf den Punkt gebracht: Wir brauchen Dialog.' Everything condensed to its essence. The German 'in a nutshell.'"
+  },
+  {
+    "line": 376,
+    "field": "src",
+    "english": "all in all"
+  },
+  {
+    "line": 376,
+    "field": "note",
+    "english": "The comprehensive summary. Everything considered,\\neverything weighed. The final assessment."
+  },
+  {
+    "line": 376,
+    "field": "exampleSrc",
+    "english": "A: How was the debate?\\nB: All in all, very productive.\\nA: All in all a success?\\nB: Yes, despite some disagreements."
+  },
+  {
+    "line": 376,
+    "field": "funFact",
+    "english": "'All in all.' 'Alles in allem war es eine produktive Debatte.' The comprehensive summary. Everything considered, everything weighed. The final assessment."
+  },
+  {
+    "line": 377,
+    "field": "src",
+    "english": "in the face of, in view of"
+  },
+  {
+    "line": 377,
+    "field": "note",
+    "english": "An (at) + Gesichts (face). Takes genitive.\\nYou look the situation in the face."
+  },
+  {
+    "line": 377,
+    "field": "exampleSrc",
+    "english": "A: In the face of the challenges...\\nB: ...we must work together.\\nA: In view of the situation?\\nB: Quick action is necessary."
+  },
+  {
+    "line": 377,
+    "field": "funFact",
+    "english": "An (at) + Gesichts (face). In the face of, in view of. Takes genitive: 'Angesichts der Herausforderungen.' You look the situation in the face. Formal written register."
+  },
+  {
+    "line": 378,
+    "field": "src",
+    "english": "on the basis of, due to"
+  },
+  {
+    "line": 378,
+    "field": "note",
+    "english": "Auf (on) + Grund (ground/reason). Takes genitive.\\nStanding on the ground of evidence."
+  },
+  {
+    "line": 378,
+    "field": "exampleSrc",
+    "english": "A: Why was it rejected?\\nB: Due to the concerns.\\nA: On the basis of the results...\\nB: ...we must change the strategy."
+  },
+  {
+    "line": 378,
+    "field": "funFact",
+    "english": "Auf (on) + Grund (ground/reason). On the basis of, due to. Takes genitive: 'Aufgrund der Ergebnisse.' Standing on the ground of evidence. Can be written 'auf Grund' (two words)."
+  },
+  {
+    "line": 379,
+    "field": "src",
+    "english": "regardless of, irrespective of"
+  },
+  {
+    "line": 379,
+    "field": "note",
+    "english": "Un- + geachtet (regarded). Takes genitive.\\nYou have regarded and you disregard anyway."
+  },
+  {
+    "line": 379,
+    "field": "exampleSrc",
+    "english": "A: Is there resistance?\\nB: Regardless of the criticism, it continues.\\nA: Regardless of the costs?\\nB: Yes, the cause is more important."
+  },
+  {
+    "line": 379,
+    "field": "funFact",
+    "english": "Un- + geachtet (regarded). Regardless of, irrespective of. Takes genitive: 'Ungeachtet der Bedenken.' You have regarded the concerns, and you disregard them anyway. Formal, decisive."
+  },
+  {
+    "line": 380,
+    "field": "src",
+    "english": "in favor of"
+  },
+  {
+    "line": 380,
+    "field": "note",
+    "english": "Zu (to) + Gunsten (favor). Takes genitive.\\nOn whose side the decision falls."
+  },
+  {
+    "line": 380,
+    "field": "exampleSrc",
+    "english": "A: Who benefits?\\nB: In favor of the minority.\\nA: The decision was made in favor of the plaintiffs.\\nB: An important signal."
+  },
+  {
+    "line": 380,
+    "field": "funFact",
+    "english": "Zu (to) + Gunsten (favor). In favor of. Takes genitive: 'Zugunsten der Minderheit.' The preposition of benefit. On whose side the decision falls."
+  },
+  {
+    "line": 381,
+    "field": "src",
+    "english": "to polarize"
+  },
+  {
+    "line": 381,
+    "field": "note",
+    "english": "From Greek 'polos' (axis/pole). Pulling people to\\nopposite poles. Seen as dangerous in German politics."
+  },
+  {
+    "line": 381,
+    "field": "exampleSrc",
+    "english": "A: The debate polarizes.\\nB: Yes, there is hardly any center left.\\nA: Polarizing harms democracy.\\nB: That is why we need more dialogue."
+  },
+  {
+    "line": 381,
+    "field": "funFact",
+    "english": "From Greek 'polos' (axis/pole). To polarize. 'Die Debatte polarisiert.' Pulling people to opposite poles. In German politics, Polarisierung is seen as dangerous to the democratic center."
+  },
+  {
+    "line": 382,
+    "field": "src",
+    "english": "to put into perspective, to relativize"
+  },
+  {
+    "line": 382,
+    "field": "note",
+    "english": "From Latin 'relativus.' Making something relative,\\nreducing its absolute weight. Can be positive or negative."
+  },
+  {
+    "line": 382,
+    "field": "exampleSrc",
+    "english": "A: Should one put the result into perspective?\\nB: No, the numbers speak for themselves.\\nA: Critics relativize the successes.\\nB: That is unfair."
+  },
+  {
+    "line": 382,
+    "field": "funFact",
+    "english": "From Latin 'relativus.' To put into perspective, to relativize. 'Man sollte das Ergebnis nicht relativieren.' Making something relative, reducing its absolute weight. Can be positive (nuance) or negative (downplaying)."
+  },
+  {
+    "line": 383,
+    "field": "src",
+    "english": "to reject, to dismiss"
+  },
+  {
+    "line": 383,
+    "field": "note",
+    "english": "Zurück (back) + weisen (to direct). Separable.\\nStronger than ablehnen. You direct it back."
+  },
+  {
+    "line": 383,
+    "field": "exampleSrc",
+    "english": "A: The accusation was rejected.\\nB: Rightly so?\\nA: Yes, it was unfounded.\\nB: Then the rejection was correct."
+  },
+  {
+    "line": 383,
+    "field": "funFact",
+    "english": "Zurück (back) + weisen (to direct). To reject, to dismiss. 'Den Vorwurf zurückweisen.' Separable. You direct it back where it came from. Stronger than ablehnen."
+  },
+  {
+    "line": 384,
+    "field": "src",
+    "english": "to call into question, to challenge"
+  },
+  {
+    "line": 384,
+    "field": "note",
+    "english": "In + Frage (question) + stellen (to place). Not rejecting,\\nbut questioning the validity."
+  },
+  {
+    "line": 384,
+    "field": "exampleSrc",
+    "english": "A: Can one call the decision into question?\\nB: Yes, everyone has the right to.\\nA: He challenges the method.\\nB: A legitimate criticism."
+  },
+  {
+    "line": 384,
+    "field": "funFact",
+    "english": "In + Frage (question) + stellen (to place). To call into question, to challenge. 'Die Entscheidung infrage stellen.' You place something inside a question mark. Not rejecting, but questioning its validity."
+  },
+  {
+    "line": 385,
+    "field": "src",
+    "english": "to agree with, to concur"
+  },
+  {
+    "line": 385,
+    "field": "note",
+    "english": "Bei (by/with) + pflichten (duty/to agree). Formal agreement.\\nOld-fashioned but still used in formal debate."
+  },
+  {
+    "line": 385,
+    "field": "exampleSrc",
+    "english": "A: Do you agree?\\nB: I fully and completely concur.\\nA: May I agree with you?\\nB: Of course."
+  },
+  {
+    "line": 385,
+    "field": "funFact",
+    "english": "Bei (by/with) + pflichten (duty/to agree). To agree with, to concur. 'Ich pflichte Ihnen bei.' Formal agreement. You place your obligation alongside theirs. Old-fashioned but still used in formal debate."
+  },
+  {
+    "line": 386,
+    "field": "src",
+    "english": "to defuse, to de-escalate"
+  },
+  {
+    "line": 386,
+    "field": "note",
+    "english": "Ent- (un-) + schaerfen (to sharpen). Literally: to un-sharpen.\\nRemoving the edge from a conflict."
+  },
+  {
+    "line": 386,
+    "field": "exampleSrc",
+    "english": "A: The situation is tense.\\nB: We must defuse it.\\nA: How can one de-escalate the conflict?\\nB: Through dialogue and concessions."
+  },
+  {
+    "line": 386,
+    "field": "funFact",
+    "english": "Ent- (un-) + schaerfen (to sharpen). To defuse, to de-escalate. 'Die Situation entschaerfen.' Literally: to un-sharpen. Removing the edge from a conflict."
+  },
+  {
+    "line": 387,
+    "field": "src",
+    "english": "to provoke"
+  },
+  {
+    "line": 387,
+    "field": "note",
+    "english": "From Latin 'provocare' (to call forth). In debates,\\nProvokation can be strategic or destructive."
+  },
+  {
+    "line": 387,
+    "field": "exampleSrc",
+    "english": "A: Did the speaker want to provoke?\\nB: Yes, he wanted a reaction.\\nA: Provoking is not a strategy.\\nB: Unfortunately, sometimes it is."
+  },
+  {
+    "line": 387,
+    "field": "funFact",
+    "english": "From Latin 'provocare' (to call forth). To provoke. 'Der Redner wollte provozieren.' Calling something forth that was hidden. In debates, Provokation can be strategic or destructive."
+  },
+  {
+    "line": 388,
+    "field": "src",
+    "english": "contestable, challengeable"
+  },
+  {
+    "line": 388,
+    "field": "note",
+    "english": "Anfechten (to challenge) + -bar (able). The opposite of\\nunanfechtbar. It can be challenged."
+  },
+  {
+    "line": 388,
+    "field": "exampleSrc",
+    "english": "A: Is the verdict contestable?\\nB: Yes, one can appeal.\\nA: A contestable decision.\\nB: The next instance will decide."
+  },
+  {
+    "line": 388,
+    "field": "funFact",
+    "english": "Anfechten (to challenge) + -bar (able). Contestable, challengeable. The opposite of unanfechtbar. 'Das Urteil ist anfechtbar.' It can be challenged in a higher court. Legal precision."
+  },
+  {
+    "line": 394,
+    "field": "hint",
+    "english": "From accounting: the final number below the calculation line. What counts when everything is added up."
+  },
+  {
+    "line": 395,
+    "field": "hint",
+    "english": "A formal genitive preposition. You face a situation directly and act on what you see before you."
+  },
+  {
+    "line": 395,
+    "field": "sSrc",
+    "english": "In the face of the current challenges, we must act."
+  },
+  {
+    "line": 401,
+    "field": "hint",
+    "english": "Identify all three grammatical layers: verb at position one without 'wenn', an inclusive linking pair, and a concessive clause at the close."
+  },
+  {
+    "line": 402,
+    "field": "hint",
+    "english": "Three blanks: a summary expression, then a concession word, then the word introducing the counterargument. Think: overall / admittedly / however."
+  }
+]

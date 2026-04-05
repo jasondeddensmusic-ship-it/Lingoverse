@@ -1,0 +1,3797 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Tomorrow is Verumius's first presentation in German. Tonight he rehearses alone in front of the mirror. Learn the key words of the German Vortrag."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Enter the world of the German academic presentation"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Learn core vocabulary for presentations"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Understand what sets a German Vortrag apart from casual speaking"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "Verumius's apartment, late evening. The laptop screen glows with half-finished slides. A mirror reflects his rehearsal attempts. He gestures too broadly, then stands rigid. Neither feels right."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "Tomorrow is the presentation. My first presentation in German. In front of the whole team. What if I forget everything?"
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "I need a clear outline. Introduction, main body, conclusion. And a key message that convinces."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "He opens a new document. Types: 'Project Report Q2.' Deletes it. Types: 'How Roman Aqueducts Explain Our Project Management.' Pause. Smile."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "presentation"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "From Latin 'praesentare' (to present/show).\\nThe formal word for a presentation in German business culture."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: Is your presentation ready?\\nB: Almost. I still need to revise the slides.\\nA: When is the presentation?\\nB: Tomorrow at ten o'clock."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Latin 'praesentare' (to present/show). Germans expect structured, well-prepared Praesentationen. 'Tod durch PowerPoint' (death by PowerPoint) is a German office joke too."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "lecture, talk, presentation"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Vor (before/in front of) + Trag (carrying).\\nYou 'carry' your ideas before an audience."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: Who is giving the talk?\\nB: Verumius is giving the talk.\\nA: What is the talk about?\\nB: About project management."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Vor' (before/in front of) + 'Trag' (carrying). You 'carry' your ideas before an audience. More formal than Praesentation and implies expertise. 'Einen Vortrag halten' (to give a presentation) is the standard collocate."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "audience"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "From Latin 'publicum' (the public).\\nSame root as English 'public.'"
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: How big is the audience?\\nB: About fifteen people.\\nA: Does the audience know the topic?\\nB: Yes, they all work on the same project."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From Latin 'publicum' (the public). In German, your Publikum can be a theater audience, a lecture hall, or your colleagues at the Monday meeting."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "specialist presentation"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Fach (subject/field) + Vortrag. Implies deep expertise.\\nGeneral audiences get an 'Überblicksvortrag' instead."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Is this a specialist presentation?\\nB: Yes, for experts in the IT field.\\nA: Can I come as a beginner?\\nB: Better not, the specialist talk is very technical."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "'Fach' (subject/field) + 'Vortrag.' A specialist presentation. At German conferences, a Fachvortrag is expected to go into technical detail. General audiences get an 'Überblicksvortrag' instead."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "slide (presentation)"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "From Latin 'folium' (leaf). Originally meant a transparency\\nsheet for overhead projectors. Now means a presentation slide."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: How many slides do you have?\\nB: Twenty slides, maybe too many.\\nA: Next slide, please.\\nB: Here you see the results."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "From Latin 'folium' (leaf). Originally meant a transparency sheet for overhead projectors. 'Nächste Folie, bitte' (Next slide, please) is heard in every German meeting room."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "outline, structure"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From 'gliedern' (to structure/divide into parts).\\n'Glied' means limb. A Gliederung is the skeleton."
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: Do you have an outline?\\nB: Yes, introduction, main body, and conclusion.\\nA: Show me the outline.\\nB: Here, three main points with sub-points."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From 'gliedern' (to structure/divide into parts). Die Gliederung is sacred in German academic and professional culture. No thesis, no Vortrag, no report ships without a Gliederung. 'Glied' means limb. A Gliederung is the skeleton."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "main body (of a presentation)"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Haupt (main/head) + Teil (part).\\nGerman Vorträge follow a strict three-part structure."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What goes in the main body?\\nB: The arguments and data.\\nA: How long is the main body?\\nB: About eighty percent of the presentation."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "'Haupt' (main/head) + 'Teil' (part). German Vorträge follow a strict three-part structure: Einleitung (introduction), Hauptteil (main body), Schluss (conclusion). No exceptions."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "concluding remarks"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Schluss (end/conclusion) + Wort (word).\\nWhere you summarize, thank the audience, and open for questions."
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: How does your presentation end?\\nB: With a short concluding remark.\\nA: What do you say in the closing?\\nB: I summarize and say thank you."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "'Schluss' (end/conclusion) + 'Wort' (word). In German presentations, the Schlusswort is where you summarize, thank the audience, and open the floor for questions. A strong Schlusswort leaves a lasting impression."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "structure, organization"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Auf (up) + Bau (building/construction).\\nHow something is built up."
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: What is the structure of your presentation?\\nB: Three parts, clearly structured.\\nA: Explain the structure to me.\\nB: First the problem, then the analysis, then the solution."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'Bau' (building/construction). How something is built up. 'Der Aufbau des Vortrags' (the structure of the presentation) is what every German coach asks about first."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "sequence, procedure"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Ab (off/away) + Lauf (run/course).\\nHow things run from start to finish."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: What is the schedule today?\\nB: First the presentation, then questions.\\nA: Is the schedule set?\\nB: Yes, everything is planned."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "'Ab' (off/away) + 'Lauf' (run/course). 'Der Ablauf der Veranstaltung' (the schedule of the event). How things run from start to finish. Germans love a clear Ablauf."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "preparation"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Vor (before) + Bereitung (preparation).\\nGermans are legendary for Vorbereitung."
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: How did the preparation go?\\nB: Good, but it was a lot of work.\\nA: Preparation is everything.\\nB: True, nothing works without preparation."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Bereitung' (preparation). Germans are legendary for Vorbereitung. An unprepared presentation is a professional sin. The compound tells you: do it BEFORE the event."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "key message"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Kern (core/kernel) + Aussage (statement).\\nEvery German Vortrag must have one clear Kernaussage."
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: What is your key message?\\nB: That our project is on the right track.\\nA: Is the key message clear enough?\\nB: I will formulate it more precisely."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "'Kern' (core/kernel) + 'Aussage' (statement). Every German Vortrag must have one clear Kernaussage. If your audience remembers one thing, it should be this. The kernel inside the shell of details."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "convincing"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Über (over) + zeugend (generating/witnessing).\\nPresent participle of überzeugen."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Was the presentation convincing?\\nB: Yes, very convincing.\\nA: What made it so convincing?\\nB: The clear arguments and examples."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Über' (over) + 'zeugend' (generating/witnessing). Present participle of überzeugen. 'Ein überzeugender Vortrag' is one that 'generates belief over' the audience. The highest compliment for a presentation in German."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "vivid, illustrative"
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "An (at) + schaulich (viewable).\\nMaking the abstract visible."
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: Can you explain that vividly?\\nB: Sure, I will use an example.\\nA: That was very vivid.\\nB: Thanks, I always try to explain with images."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "'An' (at) + 'schaulich' (viewable). 'Anschaulich erklären' means to explain so people can 'look at' the idea. German teachers prize anschauliche Beispiele (vivid examples). Making the abstract visible."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "structured, organized"
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From Latin 'structura.' Past participle used as adjective.\\n'Klar strukturiert' is the gold standard."
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Is your presentation well structured?\\nB: Yes, with a clear outline.\\nA: Working in a structured way is important.\\nB: Especially for a presentation."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From Latin 'structura.' 'Klar strukturiert' (clearly structured) is the gold standard for German presentations. Past participle used as adjective. German professional culture worships Struktur."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "to present"
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From Latin 'praesentare.' Not separable.\\nThe professional verb for showing work."
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: Who presents the results?\\nB: I present them tomorrow.\\nA: Can you also present the numbers?\\nB: Yes, with a chart."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From Latin 'praesentare.' Not separable. 'Ich praesentiere die Ergebnisse' (I present the results). More formal than 'zeigen' (to show). The professional verb for showing work."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "to present, to deliver (a speech)"
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Vor (before) + tragen (to carry). Separable.\\nStrong verb: vortragen/trug vor/vorgetragen."
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: When are you delivering your presentation?\\nB: I am delivering it at ten o'clock.\\nA: Have you ever presented in German before?\\nB: No, this is my first time."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'tragen' (to carry). Separable: 'Ich trage meine Ideen vor.' Strong verb: vortragen/trug vor/vorgetragen. More formal than praesentieren and implies oral delivery."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "to introduce, to open"
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Ein (in/into) + leiten (to lead/guide). Separable.\\nDie Einleitung (introduction) is the noun form."
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: How do you open the presentation?\\nB: With a short story.\\nA: A good introduction is important.\\nB: Yes, it sparks interest."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Ein' (in/into) + 'leiten' (to lead/guide). Separable: 'Ich leite den Vortrag ein.' You 'lead into' the topic. Die Einleitung (introduction) is the noun form. The first step of the sacred three-part structure."
+  },
+  {
+    "line": 32,
+    "field": "hint",
+    "english": "Every presentation has three sections. The one asked about sits between the opening and the closing."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The central idea a presentation must communicate. A compound noun: the inner part of something + what is stated."
+  },
+  {
+    "line": 33,
+    "field": "sSrc",
+    "english": "A good presentation needs a clear key message."
+  },
+  {
+    "line": 34,
+    "field": "hint",
+    "english": "The word literally means 'to generate belief in someone'. The highest praise for a presentation."
+  },
+  {
+    "line": 35,
+    "field": "src",
+    "english": "He leans back. A Roman aqueduct as a metaphor for project management. Crazy. But somehow it fits. He closes the laptop and smiles."
+  },
+  {
+    "line": 38,
+    "field": "desc",
+    "english": "From flipchart to Moderatorin: learn the technical terms for presentation tools, speaker roles, and professional qualities."
+  },
+  {
+    "line": 39,
+    "field": "unknown",
+    "english": "Learn words for presentation tools and technology"
+  },
+  {
+    "line": 40,
+    "field": "unknown",
+    "english": "Master vocabulary for speaker roles"
+  },
+  {
+    "line": 41,
+    "field": "unknown",
+    "english": "Describe professional qualities in German"
+  },
+  {
+    "line": 43,
+    "field": "src",
+    "english": "Office, early morning. Verumius sits alone at his desk, coffee steaming. Before him a list: technical terms he needs. Every word must be solid before he faces the team."
+  },
+  {
+    "line": 44,
+    "field": "src",
+    "english": "flipchart"
+  },
+  {
+    "line": 44,
+    "field": "note",
+    "english": "English loanword. Neuter because it is a foreign word.\\nMany German workshops still love the Flipchart."
+  },
+  {
+    "line": 44,
+    "field": "exampleSrc",
+    "english": "A: Do we have a flipchart in the room?\\nB: Yes, the flipchart is in the corner.\\nA: Write the ideas on the flipchart.\\nB: Good idea, then everyone can see them."
+  },
+  {
+    "line": 44,
+    "field": "funFact",
+    "english": "English loanword. Das Flipchart. Despite PowerPoint dominance, many German workshops still love the Flipchart. 'Etwas am Flipchart festhalten' (to capture something on the flipchart) is workshop culture at its finest."
+  },
+  {
+    "line": 45,
+    "field": "src",
+    "english": "handout"
+  },
+  {
+    "line": 45,
+    "field": "note",
+    "english": "English loanword. In German academia, a Handout is expected\\nat every seminar presentation."
+  },
+  {
+    "line": 45,
+    "field": "exampleSrc",
+    "english": "A: Do you have the handout with you?\\nB: Yes, a copy for each listener.\\nA: The handout summarizes everything.\\nB: Exactly, one page with the key points."
+  },
+  {
+    "line": 45,
+    "field": "funFact",
+    "english": "English loanword. Das Handout. In German academia, a Handout is expected at every seminar presentation. It summarizes key points on one page. Professors judge your Handout as seriously as your Vortrag."
+  },
+  {
+    "line": 46,
+    "field": "src",
+    "english": "screen presentation, slideshow"
+  },
+  {
+    "line": 46,
+    "field": "note",
+    "english": "Bildschirm (screen) + Praesentation. At 24 letters,\\nthis compound shows why Germans love abbreviations."
+  },
+  {
+    "line": 46,
+    "field": "exampleSrc",
+    "english": "A: Is the slideshow ready?\\nB: Yes, twenty-five slides.\\nA: Please start the slideshow.\\nB: One moment, I am connecting the laptop."
+  },
+  {
+    "line": 46,
+    "field": "funFact",
+    "english": "'Bildschirm' (screen, literally 'picture-screen') + 'Praesentation.' At 24 letters, this compound demonstrates why Germans love abbreviations. Most just say 'Praesentation.'"
+  },
+  {
+    "line": 47,
+    "field": "src",
+    "english": "chart, diagram"
+  },
+  {
+    "line": 47,
+    "field": "note",
+    "english": "From Greek 'diagramma' (figure drawn with lines).\\nGermans love data visualizations in Vorträge."
+  },
+  {
+    "line": 47,
+    "field": "exampleSrc",
+    "english": "A: Do you need a chart?\\nB: Yes, a bar chart for the numbers.\\nA: The chart shows the trend.\\nB: Sure, visually you understand it better."
+  },
+  {
+    "line": 47,
+    "field": "funFact",
+    "english": "From Greek 'diagramma' (figure drawn with lines). 'Kreisdiagramm' (pie chart), 'Balkendiagramm' (bar chart), 'Liniendiagramm' (line chart). Germans love data visualizations in Vorträge."
+  },
+  {
+    "line": 48,
+    "field": "src",
+    "english": "overview"
+  },
+  {
+    "line": 48,
+    "field": "note",
+    "english": "Über (over) + Sicht (view/sight). Literally a 'view from above.'\\n'Ich gebe Ihnen eine Übersicht' is a standard opening."
+  },
+  {
+    "line": 48,
+    "field": "exampleSrc",
+    "english": "A: Do you have an overview?\\nB: Yes, here is a short overview.\\nA: The overview shows all projects.\\nB: Good, now we see the big picture."
+  },
+  {
+    "line": 48,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Sicht' (view/sight). Literally a 'view from above.' 'Ich gebe Ihnen eine Übersicht' (I will give you an overview) is how many German presentations begin."
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "transition (in a presentation)"
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Über (over) + Leitung (leading/guidance).\\nThe art of smoothly moving from one topic to the next."
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: The transition was very elegant.\\nB: Thanks, I practiced it for a long time.\\nA: Without good transitions you lose the thread.\\nB: True, they connect the topics."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Leitung' (leading/guidance). The art of smoothly moving from one topic to the next. 'Eine elegante Überleitung' separates good speakers from great ones."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "transition, passage"
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Über (over) + Gang (walk/passage).\\nWhile Überleitung is about guiding, Übergang is about the passage itself."
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: The transition to the next topic was smooth.\\nB: Good, that was my goal.\\nA: Pay attention to the transition between parts.\\nB: Yes, otherwise it gets bumpy."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Gang' (walk/passage). While Überleitung is about guiding, Übergang is about the passage itself. 'Der Übergang zum nächssten Thema' (the transition to the next topic)."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "wording, phrasing"
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "From 'formulieren' (to formulate).\\nGerman business culture values precise Formulierungen."
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: The wording is too complicated.\\nB: I will change it, simpler.\\nA: A good phrasing is short and clear.\\nB: How about this sentence?"
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "From 'formulieren' (to formulate). 'Eine glückliche Formulierung' (a felicitous phrasing) can make or break a presentation. German business culture values precise Formulierungen."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "listener, audience member"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Zu (to) + Hoerer (listener). Active listening:\\n'zuhören' is more attentive than just 'hören.'"
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: How many listeners were there?\\nB: About twenty listeners.\\nA: Were the listeners interested?\\nB: Yes, they asked many questions."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "'Zu' (to) + 'Hoerer' (listener). 'Die Zuhörer fesseln' (to captivate the listeners) is every speaker's goal. Active listening: 'zuhören' is more attentive than just 'hören.'"
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "listener, audience member (female)"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Zuhörer + '-in.' The standard feminine form.\\nModern German uses 'Zuhörerinnen und Zuhörer' inclusively."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: The female listener in the first row nodded.\\nB: Yes, she was very attentive.\\nA: Each female listener had a handout.\\nB: Good, so everyone could follow."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Zuhörer + '-in.' The standard feminine form. In modern German, many speakers use 'Zuhörerinnen und Zuhörer' to address their full audience inclusively."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "speaker, presenter"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "From Latin 'referens' (one who reports). More formal than 'Sprecher.'\\nN-Deklination: Referent, Referenten."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Who is the speaker today?\\nB: The speaker is Professor Mueller.\\nA: Is the speaker well prepared?\\nB: Yes, he is an experienced speaker."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "From Latin 'referens' (one who reports). More formal than 'Sprecher.' At German conferences, the Referent is the expert who delivers the Fachvortrag. N-Deklination: Referent, Referenten."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "speaker, presenter (female)"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Referent + '-in.' The standard feminine form.\\nAt conferences, the Referentin is credited by name."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: The speaker gave a brilliant talk.\\nB: Yes, the speaker was convincing.\\nA: Do you know the speaker?\\nB: Yes, she is an expert in project management."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "Referent + '-in.' 'Die Referentin hat überzeugend vorgetragen' (The speaker presented convincingly) is high praise at a German conference."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "moderator, host"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Latin 'moderator' (one who regulates).\\nIn meetings, the Moderator keeps things on track and on time."
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: Who is the moderator of the discussion?\\nB: The moderator is Herr Schmidt.\\nA: The moderator gives everyone five minutes.\\nB: Good, that keeps the discussion fair."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Latin 'moderator' (one who regulates). In German TV, the Moderator is the host. In meetings, the Moderator keeps things on track and on time."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "moderator, host (female)"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Moderator + '-in.' German conference culture always\\ncredits the Moderatorin by name."
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: The host is leading the round.\\nB: She is doing it very professionally.\\nA: Many thanks to our host.\\nB: She led the discussion superbly."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "Moderator + '-in.' German conference culture always credits the Moderatorin by name. 'Vielen Dank an unsere Moderatorin' is a standard closing line."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "detailed, thorough"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Aus (out) + führlich (leading). The opposite of 'kurz' (brief).\\nGerman academic culture values ausführliche Darstellungen."
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Can you explain that in detail?\\nB: Yes, I will explain step by step.\\nA: That was very detailed.\\nB: Sometimes you have to go into detail."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Aus' (out) + 'führlich' (leading). 'Ausführlich erklären' (to explain in detail). The opposite of 'kurz' (brief). German academic culture values ausführliche Darstellungen (detailed accounts)."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "concise, pithy"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "From Latin 'praegnans' (weighty/meaningful). False friend:\\n'praegnant' in German does NOT mean pregnant."
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: Your phrasing is very concise.\\nB: Thanks, short and to the point.\\nA: A pithy sentence stays in your head.\\nB: Exactly, less is more."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "From Latin 'praegnans' (weighty/meaningful). False friend alert: 'praegnant' in German does NOT mean pregnant. It means pithy, succinct. 'Eine praegnante Formulierung' is brief but powerful."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "understandable, comprehensible"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "From 'verstehen' (to understand) + '-lich.'\\n'Klar und verständlich' is what every audience wants."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Was the explanation understandable?\\nB: Yes, everything clear and understandable.\\nA: Please explain it in an accessible way.\\nB: Without technical terms, understood."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "From 'verstehen' (to understand) + '-lich.' 'Klar und verständlich' (clear and understandable) is what every audience wants. 'Allgemeinverständlich' means accessible to a general audience."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "concrete, specific"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "From Latin 'concretus' (solid/dense). The opposite of 'abstrakt.'\\nGermans ask 'Können Sie das konkret beschreiben?'"
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Can you give a concrete example?\\nB: Yes, for example our last project.\\nA: That is too abstract, please be more concrete.\\nB: Okay, here are the exact numbers."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "From Latin 'concretus' (solid/dense). 'Können Sie das konkret beschreiben?' (Can you describe that concretely?) is what Germans ask when you are too vague. The opposite of 'abstrakt.'"
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "professional"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "From French 'professionnel.' Stress on the last syllable.\\nNot a compliment but a baseline in German business."
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: The presentation was very professional.\\nB: Thanks, I practiced a lot.\\nA: You always have to appear professional.\\nB: Yes, the first impression counts."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "From French 'professionnel.' Stress on the last syllable: pro-fess-io-NELL. 'Eine professionelle Praesentation' is the minimum expectation in German business culture. Not a compliment but a baseline."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "competent, knowledgeable"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Latin 'competens' (suitable). Germans value demonstrated\\nKompetenz over charisma."
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: The speaker seemed very competent.\\nB: Yes, he knows his field.\\nA: Being professionally competent is important.\\nB: Competence shows in the details."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Latin 'competens' (suitable). 'Fachlich kompetent' (professionally competent) is how German colleagues earn respect. 'Kompetenz' (competence) is the noun. Germans value demonstrated Kompetenz over charisma."
+  },
+  {
+    "line": 64,
+    "field": "text",
+    "english": "Every German presentation follows three parts:\\n\\n1. Einleitung (~10%): greeting, introducing the topic, stating the main point\\n2. Hauptteil (~80%): developing arguments, presenting data, giving examples\\n3. Schluss (~10%): summarizing, thanking the audience, opening questions\\n\\nThe Einleitung captures attention and announces the structure. The Hauptteil delivers evidence and arguments. The Schluss summarizes and opens the discussion.\\n\\nAnyone who deviates from this structure is considered unprepared."
+  },
+  {
+    "line": 64,
+    "field": "text",
+    "english": "The three-part structure is non-negotiable in German professional culture. The Einleitung greets, introduces the topic, and states the Kernaussage. The Hauptteil develops arguments with evidence. The Schluss summarizes, thanks, and opens for questions. Deviating from this structure marks you as unprepared. Time allocation: roughly 10-80-10 percent."
+  },
+  {
+    "line": 65,
+    "field": "hint",
+    "english": "From Latin 'referens'. The expert who reports on their field before an audience."
+  },
+  {
+    "line": 72,
+    "field": "hint",
+    "english": "She explained it so vividly that everyone could 'see' it. Making the abstract visible."
+  },
+  {
+    "line": 72,
+    "field": "sSrc",
+    "english": "The speaker explained the topic very vividly."
+  },
+  {
+    "line": 73,
+    "field": "hint",
+    "english": "A false friend between German and English. In German it describes tight, impactful communication. Not what the English cognate suggests."
+  },
+  {
+    "line": 74,
+    "field": "src",
+    "english": "He has the words. Now he needs the voice. He closes the list and opens Mia's message: 'Tomorrow morning, meeting room. I will be merciless.'"
+  },
+  {
+    "line": 77,
+    "field": "desc",
+    "english": "Mia coaches Verumius through his script. Learn consecutive clauses (result clauses) and vocabulary for meetings and conferences."
+  },
+  {
+    "line": 78,
+    "field": "unknown",
+    "english": "Learn consecutive clauses (result clauses with sodass, so... dass)"
+  },
+  {
+    "line": 79,
+    "field": "unknown",
+    "english": "Master vocabulary for meetings and conferences"
+  },
+  {
+    "line": 80,
+    "field": "unknown",
+    "english": "Use discourse markers to structure arguments"
+  },
+  {
+    "line": 82,
+    "field": "src",
+    "english": "Office meeting room, 7:30 AM. Mia is already there, red pen in hand. Verumius's script is spread across the table. She has circled entire paragraphs."
+  },
+  {
+    "line": 83,
+    "field": "src",
+    "english": "Your presentation is too long. The listeners will lose patience. You must formulate so clearly that everyone understands the point immediately."
+  },
+  {
+    "line": 84,
+    "field": "src",
+    "english": "So: firstly the problem, furthermore the analysis, finally the solution?"
+  },
+  {
+    "line": 85,
+    "field": "src",
+    "english": "Exactly. And the transition must be so concise that nobody loses the thread. Accordingly: fewer slides, more structure."
+  },
+  {
+    "line": 86,
+    "field": "src",
+    "english": "conference, convention"
+  },
+  {
+    "line": 86,
+    "field": "note",
+    "english": "From 'tagen' (to meet in session). More academic than 'Konferenz.'\\n'Jahrestagung' (annual conference) is the big one."
+  },
+  {
+    "line": 86,
+    "field": "exampleSrc",
+    "english": "A: When is the next conference?\\nB: In October, in Berlin.\\nA: Who organizes the conference?\\nB: The university and the professional association."
+  },
+  {
+    "line": 86,
+    "field": "funFact",
+    "english": "From 'tagen' (to meet in session). More academic than 'Konferenz.' German universities host Tagungen where researchers present Fachvorträge. 'Jahrestagung' (annual conference) is the big one."
+  },
+  {
+    "line": 87,
+    "field": "src",
+    "english": "event"
+  },
+  {
+    "line": 87,
+    "field": "note",
+    "english": "From 'veranstalten' (to organize). The umbrella word\\nfor any organized gathering."
+  },
+  {
+    "line": 87,
+    "field": "exampleSrc",
+    "english": "A: What kind of event is this?\\nB: A specialist conference with workshops.\\nA: Where does the event take place?\\nB: In the conference room on the third floor."
+  },
+  {
+    "line": 87,
+    "field": "funFact",
+    "english": "From 'veranstalten' (to organize). The umbrella word for any organized gathering: conference, concert, workshop, lecture. 'Veranstaltungsort' (venue) and 'Veranstalter' (organizer) derive from it."
+  },
+  {
+    "line": 88,
+    "field": "src",
+    "english": "meeting, session"
+  },
+  {
+    "line": 88,
+    "field": "note",
+    "english": "From 'sitzen' (to sit). Literally 'a sitting.'\\nGerman committee culture runs on Sitzungen."
+  },
+  {
+    "line": 88,
+    "field": "exampleSrc",
+    "english": "A: When does the meeting start?\\nB: At nine o'clock, punctually.\\nA: How long does the meeting last?\\nB: Two hours at most."
+  },
+  {
+    "line": 88,
+    "field": "funFact",
+    "english": "From 'sitzen' (to sit). Literally 'a sitting.' German committee culture runs on Sitzungen. 'Vorstandssitzung' (board meeting), 'Ausschusssitzung' (committee meeting). Everyone sits. Everyone talks."
+  },
+  {
+    "line": 89,
+    "field": "src",
+    "english": "meeting, discussion"
+  },
+  {
+    "line": 89,
+    "field": "note",
+    "english": "From 'besprechen' (to discuss). More informal than Sitzung.\\n'Team-Besprechung' is the standard German office meeting."
+  },
+  {
+    "line": 89,
+    "field": "exampleSrc",
+    "english": "A: Do we have a meeting today?\\nB: Yes, at eleven, short meeting.\\nA: What is the meeting about?\\nB: About the current project status."
+  },
+  {
+    "line": 89,
+    "field": "funFact",
+    "english": "From 'besprechen' (to discuss). More informal than Sitzung. 'Team-Besprechung' is the standard German office meeting. 'Besprechungszimmer' (meeting room) is on every floor."
+  },
+  {
+    "line": 90,
+    "field": "src",
+    "english": "conference room"
+  },
+  {
+    "line": 90,
+    "field": "note",
+    "english": "Konferenz (conference) + Raum (room). Where decisions\\nare made in German offices."
+  },
+  {
+    "line": 90,
+    "field": "exampleSrc",
+    "english": "A: Is the conference room free?\\nB: Yes, it is free from ten o'clock.\\nA: Please book the conference room.\\nB: For how many people?"
+  },
+  {
+    "line": 90,
+    "field": "funFact",
+    "english": "'Konferenz' (conference) + 'Raum' (room). Where decisions are made in German offices. Always has a projector, a whiteboard, and water glasses. Booking one is a competitive sport."
+  },
+  {
+    "line": 91,
+    "field": "src",
+    "english": "agenda"
+  },
+  {
+    "line": 91,
+    "field": "note",
+    "english": "Tages (of the day) + Ordnung (order). Sacred in German\\nmeeting culture. No meeting starts without one."
+  },
+  {
+    "line": 91,
+    "field": "exampleSrc",
+    "english": "A: Do you have the agenda?\\nB: Yes, five items today.\\nA: Are there more items on the agenda?\\nB: No, that was everything."
+  },
+  {
+    "line": 91,
+    "field": "funFact",
+    "english": "'Tages' (of the day) + 'Ordnung' (order). Sacred in German meeting culture. No meeting starts without one. 'Gibt es noch Punkte zur Tagesordnung?' (Are there more items on the agenda?) signals the meeting is ending."
+  },
+  {
+    "line": 92,
+    "field": "src",
+    "english": "agenda item"
+  },
+  {
+    "line": 92,
+    "field": "note",
+    "english": "Tagesordnung + Punkt (point/item). Abbreviated TOP.\\n'TOP 3: Projektbericht' is how German agendas work."
+  },
+  {
+    "line": 92,
+    "field": "exampleSrc",
+    "english": "A: Which agenda item is next?\\nB: Item three: project report.\\nA: How many agenda items do we have?\\nB: Five, but item four is short."
+  },
+  {
+    "line": 92,
+    "field": "funFact",
+    "english": "Tagesordnung + 'Punkt' (point/item). Abbreviated TOP. 'TOP 3: Projektbericht' is how German agendas are structured. Each TOP gets a time slot. Germans take this seriously."
+  },
+  {
+    "line": 93,
+    "field": "src",
+    "english": "supporting program, side events"
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "Rahmen (frame) + Programm. The frame around the main content.\\nIncludes dinners, excursions, and networking."
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: Is there a supporting program?\\nB: Yes, a group dinner in the evening.\\nA: What else is in the side program?\\nB: A city tour on Saturday."
+  },
+  {
+    "line": 93,
+    "field": "funFact",
+    "english": "'Rahmen' (frame) + 'Programm.' At German conferences, the Rahmenprogramm includes dinners, excursions, and networking. The frame around the main content."
+  },
+  {
+    "line": 94,
+    "field": "src",
+    "english": "speaking time"
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "Rede (speech) + Zeit (time). Strictly enforced at\\nGerman conferences and in parliament."
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: How long is my speaking time?\\nB: Fifteen minutes, no more.\\nA: The speaking time is almost up.\\nB: Please come to your conclusion."
+  },
+  {
+    "line": 94,
+    "field": "funFact",
+    "english": "'Rede' (speech) + 'Zeit' (time). At German conferences and parliament, Redezeit is strictly enforced. Going over your Redezeit is a serious breach of Ordnung. The Moderator will cut you off."
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "spoken contribution"
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Rede (speech) + Beitrag (contribution).\\n'Vielen Dank für Ihren Redebeitrag' is the polite acknowledgment."
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: That was a good contribution.\\nB: Thanks, I wanted to add a point.\\nA: Every spoken contribution counts.\\nB: Yes, different perspectives are important."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "'Rede' (speech) + 'Beitrag' (contribution). Your turn to speak in a meeting or debate. 'Vielen Dank für Ihren Redebeitrag' (Thank you for your contribution) is the polite acknowledgment."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "consequently, accordingly"
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "Dem (that) + nach (after/according to). An adverb\\nthat signals a logical conclusion."
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: The numbers are positive.\\nB: Accordingly, we can proceed.\\nA: The costs are rising.\\nB: Accordingly, we must save."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "'Dem' (that) + 'nach' (after/according to). An adverb that signals a logical conclusion. 'Die Zahlen sind gut, demnach können wir fortfahren.' Formal and precise."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "as a result, thereupon"
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Darauf (thereupon) + hin (toward). Something happens,\\nand daraufhin the consequence follows."
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: He presented the data.\\nB: As a result, the team changed the plan.\\nA: She asked a question.\\nB: As a result, he corrected his statement."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "'Darauf' (thereupon) + 'hin' (toward). 'Er praesentierte die Daten, daraufhin änderte das Team den Plan.' Something happens, and daraufhin the consequence follows. More narrative than demnach."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "firstly"
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "Erst (first) + '-ens' (adverb suffix). Essential for\\nstructured Vorträge."
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: Why should we start the project?\\nB: Firstly, we save costs.\\nA: And secondly?\\nB: Secondly, we improve the quality."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "'Erst' (first) + '-ens' (adverb suffix). 'Erstens..., zweitens..., drittens...' is the German numbered argument structure. Essential for structured Vorträge."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "furthermore, moreover"
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From 'fern' (far/distant). Formal written register.\\nElegant and slightly old-fashioned."
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: The budget is not enough.\\nB: Furthermore, two employees are missing.\\nA: Furthermore, I would like to point out...\\nB: That we need more time."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "From 'fern' (far/distant). Formal written register. 'Ferner möchte ich darauf hinweisen...' (Furthermore, I would like to point out...). Elegant and slightly old-fashioned. Perfect for academic Vorträge."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "finally, ultimately"
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From 'schliessen' (to close). Marks the end of an argument chain.\\nAlso means 'after all.'"
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: Firstly the costs, secondly the time.\\nB: And finally the quality.\\nA: After all, I am the expert.\\nB: True, you know the most about it."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "From 'schliessen' (to close). 'Schließlich kommen wir zum letzten Punkt' (Finally, we come to the last point). Marks the end of an argument chain. Also means 'after all': 'Schließlich bin ich der Experte.'"
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "to present, to depict"
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Dar (there/forth) + stellen (to place). Separable.\\nThe formal word for showing data."
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: How do you present the results?\\nB: I present them in a chart.\\nA: Can you present that differently?\\nB: Yes, as a table or as a graphic."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "'Dar' (there/forth) + 'stellen' (to place). Separable: 'Ich stelle die Ergebnisse dar.' The formal word for showing data. 'Die Situation anders darstellen' (to present the situation differently)."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "to emphasize, to highlight"
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "Hervor (forth) + heben (to lift). Separable.\\nStrong verb: hervorheben/hob hervor/hervorgehoben."
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: Which point do you want to emphasize?\\nB: I emphasize the key message.\\nA: Please highlight the most important numbers.\\nB: I will highlight them with color."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "'Hervor' (forth) + 'heben' (to lift). Separable: 'Ich hebe die Kernaussage hervor.' Lifting something forth from the background. Strong verb: hervorheben/hob hervor/hervorgehoben."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "to point out, to demonstrate"
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "Auf (up) + zeigen (to show). Separable.\\nMore formal than 'zeigen' alone. Implies revealing something."
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: The study points out problems.\\nB: Which problems does it point out?\\nA: We must demonstrate the risks.\\nB: Yes, clearly and backed by data."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'zeigen' (to show). Separable: 'Die Studie zeigt Probleme auf.' More formal than 'zeigen' alone. 'Aufzeigen' implies revealing something that was not obvious."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "to sketch, to outline"
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "From Italian 'schizzo' (sketch). Not separable.\\nUsed when giving a quick overview without full detail."
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Can you briefly outline the plan?\\nB: Yes, I will outline the three main points.\\nA: Please sketch the procedure.\\nB: First the analysis, then the implementation."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "From Italian 'schizzo' (sketch). Not separable. 'Ich skizziere kurz den Ablauf' (I will briefly outline the procedure). Used when giving a quick overview without full detail."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "to point out, to draw attention to"
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Hin (toward) + weisen (to point). Separable.\\n'Darauf hinweisen' is essential in German presentations."
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: I would like to point out a problem.\\nB: Which problem do you mean?\\nA: I would like to draw particular attention to this.\\nB: Thank you for pointing that out."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Hin' (toward) + 'weisen' (to point). Separable: 'Ich weise auf ein Problem hin.' 'Darauf hinweisen' (to point out) is essential in German presentations and meetings. Polite but direct."
+  },
+  {
+    "line": 106,
+    "field": "text",
+    "english": "German has several ways to express consequences:\\n\\n1. 'sodass' (so that, as a result): Er sprach klar, sodass alle verstanden.\\n2. 'so... dass' (so... that): Er war so nervoes, dass er stockte.\\n3. Adverbs: 'infolgedessen' (as a result of that), 'folglich' (consequently), 'demnach' (accordingly)\\n\\nThe 'sodass' pattern puts the result in a subordinate clause (verb at the end). The adverbs connect independent main clauses. Both express cause and effect.\\n\\nIn presentations, these patterns are indispensable for logical argumentation."
+  },
+  {
+    "line": 106,
+    "field": "text",
+    "english": "The 'sodass' pattern puts the result in a subordinate clause (verb at the end). The 'so... dass' pattern separates the degree (so + adjective) from the result (dass-clause). The adverbs (infolgedessen, folglich, demnach, daraufhin) connect independent main clauses and are more formal. In presentations, these are essential for building logical arguments. Choose 'sodass' for general results, 'so...dass' for degree-based results, and adverbs for formal sequential reasoning."
+  },
+  {
+    "line": 120,
+    "field": "hint",
+    "english": "The pattern 'so + adjective, dass...' expresses a degree that leads to a result."
+  },
+  {
+    "line": 121,
+    "field": "hint",
+    "english": "An adverb meaning 'accordingly' or 'consequently'. It connects a cause to its logical outcome."
+  },
+  {
+    "line": 121,
+    "field": "sSrc",
+    "english": "The numbers were good, accordingly we can proceed."
+  },
+  {
+    "line": 122,
+    "field": "src",
+    "english": "Seven pages cut to three. You will thank me later."
+  },
+  {
+    "line": 125,
+    "field": "desc",
+    "english": "Beyond 'wenn' and 'falls': master advanced conditional clauses. Learn discussion and negotiation vocabulary."
+  },
+  {
+    "line": 126,
+    "field": "unknown",
+    "english": "Master advanced conditional clauses beyond wenn and falls"
+  },
+  {
+    "line": 127,
+    "field": "unknown",
+    "english": "Learn discussion and negotiation vocabulary"
+  },
+  {
+    "line": 128,
+    "field": "unknown",
+    "english": "Lead professional German debates"
+  },
+  {
+    "line": 130,
+    "field": "src",
+    "english": "Suppose someone asks you an uncomfortable question. What then? You need phrases that sound polite but hit hard."
+  },
+  {
+    "line": 131,
+    "field": "src",
+    "english": "panel discussion"
+  },
+  {
+    "line": 131,
+    "field": "note",
+    "english": "Podium (platform) + Diskussion. Experts sit on a raised platform.\\nGerman Podiumsdiskussionen follow strict Redezeit rules."
+  },
+  {
+    "line": 131,
+    "field": "exampleSrc",
+    "english": "A: Is there a panel discussion?\\nB: Yes, with five experts on the panel.\\nA: What is the panel discussion about?\\nB: About the future of digitalization."
+  },
+  {
+    "line": 131,
+    "field": "funFact",
+    "english": "'Podium' (platform) + 'Diskussion.' Experts sit on a raised platform and discuss. German Podiumsdiskussionen follow strict Redezeit rules. The Moderator controls who speaks."
+  },
+  {
+    "line": 132,
+    "field": "src",
+    "english": "discussion round"
+  },
+  {
+    "line": 132,
+    "field": "note",
+    "english": "Diskussion + Runde (round). Less formal than a Podiumsdiskussion.\\nThe 'round' implies equality."
+  },
+  {
+    "line": 132,
+    "field": "exampleSrc",
+    "english": "A: Let's start a discussion round.\\nB: Good, everyone has five minutes.\\nA: The discussion round was productive.\\nB: Yes, many good ideas came together."
+  },
+  {
+    "line": 132,
+    "field": "funFact",
+    "english": "'Diskussion' + 'Runde' (round). Less formal than a Podiumsdiskussion. Often in a circle. 'Offene Diskussionsrunde' means everyone can contribute. The 'round' implies equality."
+  },
+  {
+    "line": 133,
+    "field": "src",
+    "english": "moderation, hosting"
+  },
+  {
+    "line": 133,
+    "field": "note",
+    "english": "From Latin 'moderatio' (restraint). More than just hosting:\\nkeeping the discussion fair, balanced, and on schedule."
+  },
+  {
+    "line": 133,
+    "field": "exampleSrc",
+    "english": "A: The moderation was excellent.\\nB: Yes, she let everyone have their say.\\nA: Who takes over the moderation?\\nB: Frau Schmidt takes over the moderation."
+  },
+  {
+    "line": 133,
+    "field": "funFact",
+    "english": "From Latin 'moderatio' (restraint). More than just hosting: German Moderation means keeping the discussion fair, balanced, and on schedule. 'Die Moderation lag bei Frau Schmidt.'"
+  },
+  {
+    "line": 134,
+    "field": "src",
+    "english": "exchange of opinions"
+  },
+  {
+    "line": 134,
+    "field": "note",
+    "english": "Meinung (opinion) + Austausch (exchange). More neutral\\nthan 'Debatte' or 'Streit.'"
+  },
+  {
+    "line": 134,
+    "field": "exampleSrc",
+    "english": "A: That was a good exchange of opinions.\\nB: Yes, everyone could share their opinion.\\nA: An open exchange of opinions is important.\\nB: Only that way we find the best solution."
+  },
+  {
+    "line": 134,
+    "field": "funFact",
+    "english": "'Meinung' (opinion) + 'Austausch' (exchange). More neutral than 'Debatte' or 'Streit.' 'Ein offener Meinungsaustausch' is the ideal of German deliberative culture."
+  },
+  {
+    "line": 135,
+    "field": "src",
+    "english": "consensus"
+  },
+  {
+    "line": 135,
+    "field": "note",
+    "english": "From Latin 'consensus' (agreement). German business culture\\nheavily favors Konsens over top-down decisions."
+  },
+  {
+    "line": 135,
+    "field": "exampleSrc",
+    "english": "A: Do we have a consensus?\\nB: Almost, one point is still open.\\nA: Without consensus we do not start.\\nB: Agreed, let's keep talking."
+  },
+  {
+    "line": 135,
+    "field": "funFact",
+    "english": "From Latin 'consensus' (agreement). German business culture heavily favors Konsens over top-down decisions. 'Konsenssuche' (consensus-seeking) can make German meetings long but decisions stick."
+  },
+  {
+    "line": 136,
+    "field": "src",
+    "english": "compromise"
+  },
+  {
+    "line": 136,
+    "field": "note",
+    "english": "From Latin 'compromissum' (mutual promise).\\n'Einen Kompromiss finden' is the goal of most German negotiations."
+  },
+  {
+    "line": 136,
+    "field": "exampleSrc",
+    "english": "A: Can we find a compromise?\\nB: Yes, if both sides give in.\\nA: The compromise is fair.\\nB: Good, then we agree."
+  },
+  {
+    "line": 136,
+    "field": "funFact",
+    "english": "From Latin 'compromissum' (mutual promise). 'Einen Kompromiss finden' (to find a compromise) is the goal of most German negotiations. Kompromissbereitschaft (willingness to compromise) is a valued skill."
+  },
+  {
+    "line": 137,
+    "field": "src",
+    "english": "negotiation"
+  },
+  {
+    "line": 137,
+    "field": "note",
+    "english": "From 'verhandeln' (to negotiate). Also means 'trial'\\nin legal context: 'Gerichtsverhandlung.'"
+  },
+  {
+    "line": 137,
+    "field": "exampleSrc",
+    "english": "A: How did the negotiations go?\\nB: Difficult, but we have a compromise.\\nA: The negotiation lasted three hours.\\nB: Yes, but the result is good."
+  },
+  {
+    "line": 137,
+    "field": "funFact",
+    "english": "From 'verhandeln' (to negotiate). Also means 'trial' in a legal context: 'Gerichtsverhandlung.' In business: 'Gehaltsverhandlung' (salary negotiation). The -ung ending always makes feminine nouns."
+  },
+  {
+    "line": 138,
+    "field": "src",
+    "english": "objection"
+  },
+  {
+    "line": 138,
+    "field": "note",
+    "english": "Ein (in) + Wand (wall/turning). In German meetings,\\nEinwaende are expected and respected. Plural: Einwaende."
+  },
+  {
+    "line": 138,
+    "field": "exampleSrc",
+    "english": "A: I have an objection.\\nB: Please, what is your objection?\\nA: My objection concerns the costs.\\nB: That is a valid objection."
+  },
+  {
+    "line": 138,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'Wand' (wall/turning). 'Einen Einwand erheben' (to raise an objection). In German meetings, Einwaende are expected and respected. Ignoring them is poor form. Plural: Einwaende."
+  },
+  {
+    "line": 139,
+    "field": "src",
+    "english": "counterproposal"
+  },
+  {
+    "line": 139,
+    "field": "note",
+    "english": "Gegen (against/counter) + Vorschlag (suggestion).\\nIn German culture: never just object, always bring a Gegenvorschlag."
+  },
+  {
+    "line": 139,
+    "field": "exampleSrc",
+    "english": "A: Do you have a counterproposal?\\nB: Yes, I would have a counterproposal.\\nA: What is your counterproposal?\\nB: We postpone the start by two weeks."
+  },
+  {
+    "line": 139,
+    "field": "funFact",
+    "english": "'Gegen' (against/counter) + 'Vorschlag' (suggestion). German negotiation culture: never just object. Always bring a Gegenvorschlag. 'Ich hätte einen Gegenvorschlag' is the respectful way."
+  },
+  {
+    "line": 140,
+    "field": "src",
+    "english": "interjection, question during a talk"
+  },
+  {
+    "line": 140,
+    "field": "note",
+    "english": "Zwischen (between) + Frage (question). In parliament:\\n'Gestatten Sie eine Zwischenfrage?'"
+  },
+  {
+    "line": 140,
+    "field": "exampleSrc",
+    "english": "A: Do you permit an interjection?\\nB: Yes, please, briefly.\\nA: My question concerns point three.\\nB: Sure, I will answer it right away."
+  },
+  {
+    "line": 140,
+    "field": "funFact",
+    "english": "'Zwischen' (between) + 'Frage' (question). In German parliament: 'Gestatten Sie eine Zwischenfrage?' (Do you permit a question?). In meetings, raising your hand signals a Zwischenfrage."
+  },
+  {
+    "line": 141,
+    "field": "src",
+    "english": "provided that, as long as"
+  },
+  {
+    "line": 141,
+    "field": "note",
+    "english": "So + fern (far). More formal than 'wenn.'\\nImplies a specific condition must be met."
+  },
+  {
+    "line": 141,
+    "field": "exampleSrc",
+    "english": "A: Provided that the data is correct, we start.\\nB: The data has been checked.\\nA: Provided that you agree, we continue.\\nB: Yes, I agree."
+  },
+  {
+    "line": 141,
+    "field": "funFact",
+    "english": "'So' + 'fern' (far). More formal than 'wenn.' Sofern implies a specific condition must be met. Used in contracts, presentations, and formal writing. 'Sofern die Daten stimmen, können wir fortfahren.'"
+  },
+  {
+    "line": 142,
+    "field": "src",
+    "english": "supposing that, given the case"
+  },
+  {
+    "line": 142,
+    "field": "note",
+    "english": "Gesetzt (set/posited) + den Fall (the case). Very formal.\\nSets up a hypothetical scenario for analysis."
+  },
+  {
+    "line": 142,
+    "field": "exampleSrc",
+    "english": "A: Supposing that the numbers change.\\nB: Then we have to re-plan.\\nA: Supposing the client cancels.\\nB: Then we have a plan B."
+  },
+  {
+    "line": 142,
+    "field": "funFact",
+    "english": "'Gesetzt' (set/posited) + 'den Fall' (the case). Very formal. Sets up a hypothetical scenario for analysis. Academic and legal register. 'Gesetzt den Fall, die Zahlen ändern sich...'"
+  },
+  {
+    "line": 143,
+    "field": "src",
+    "english": "provided that, on the condition that"
+  },
+  {
+    "line": 143,
+    "field": "note",
+    "english": "Vorausgesetzt (presupposed) + dass (that).\\nOften shortened to 'vorausgesetzt' alone."
+  },
+  {
+    "line": 143,
+    "field": "exampleSrc",
+    "english": "A: Provided that everyone agrees, we start.\\nB: I agree.\\nA: Provided the funds are there, we can build.\\nB: The financing is secured."
+  },
+  {
+    "line": 143,
+    "field": "funFact",
+    "english": "'Vorausgesetzt' (presupposed) + 'dass' (that). Often shortened to 'vorausgesetzt' alone. More everyday than 'gesetzt den Fall.' 'Vorausgesetzt, dass alle zustimmen, können wir starten.'"
+  },
+  {
+    "line": 144,
+    "field": "src",
+    "english": "on the condition that"
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Unter (under) + der Bedingung (the condition) + dass.\\nContract language. Every word spells out the condition."
+  },
+  {
+    "line": 144,
+    "field": "exampleSrc",
+    "english": "A: On the condition that you deliver on time.\\nB: We guarantee that.\\nA: Only under this condition do we agree.\\nB: Understood, we will meet the deadline."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "'Unter' (under) + 'der Bedingung' (the condition) + 'dass.' Very explicit. 'Unter der Bedingung, dass Sie puenktlich liefern, erhalten Sie den Auftrag.' Contract language. Every word spells out the condition."
+  },
+  {
+    "line": 145,
+    "field": "src",
+    "english": "unless"
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Es sei (it be, subjunctive) + denn (for/unless).\\nThe elegant way to say 'unless.'"
+  },
+  {
+    "line": 145,
+    "field": "exampleSrc",
+    "english": "A: The project starts Monday.\\nB: Unless there are objections.\\nA: We continue, unless you have questions.\\nB: No, everything is clear."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "'Es sei' (it be, subjunctive) + 'denn' (for/unless). The 'sei' is Konjunktiv I, giving it a formal, slightly literary quality. The elegant way to say 'unless.' 'Das Projekt startet Montag, es sei denn, es gibt Einwaende.'"
+  },
+  {
+    "line": 146,
+    "field": "src",
+    "english": "assuming that, supposing"
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Past participle of 'annehmen' (to assume).\\nMore conversational than 'gesetzt den Fall.'"
+  },
+  {
+    "line": 146,
+    "field": "exampleSrc",
+    "english": "A: Assuming the costs rise.\\nB: Then we need more budget.\\nA: Just assuming we have more time.\\nB: Then we can work more thoroughly."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "Past participle of 'annehmen' (to assume). Used alone to introduce a hypothesis. More conversational than 'gesetzt den Fall.' 'Mal angenommen' is the informal version."
+  },
+  {
+    "line": 147,
+    "field": "src",
+    "english": "constructive"
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "From Latin 'constructivus.' Building up, not tearing down.\\n'Konstruktive Kritik' is what German colleagues claim to give."
+  },
+  {
+    "line": 147,
+    "field": "exampleSrc",
+    "english": "A: That was a constructive suggestion.\\nB: Thanks, I try to find solutions.\\nA: Please stay constructive.\\nB: Of course, criticism must build up."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "From Latin 'constructivus.' 'Konstruktive Kritik' (constructive criticism) is what German colleagues claim to give. 'Ein konstruktiver Vorschlag' moves the discussion forward. Building up, not tearing down."
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "factual, objective, on-topic"
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Sache (matter/thing) + bezogen (related to).\\n'Bitte bleiben Sie sachbezogen' is what a Moderator says."
+  },
+  {
+    "line": 148,
+    "field": "exampleSrc",
+    "english": "A: Please stay on topic.\\nB: Sorry, back to the topic.\\nA: A factual discussion is productive.\\nB: Yes, emotions do not help here."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "'Sache' (matter/thing) + 'bezogen' (related to). 'Bitte bleiben Sie sachbezogen' (Please stay on topic) is what a Moderator says when the discussion drifts. Germans value sachbezogene Diskussionen."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "results-oriented"
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Ergebnis (result) + orientiert (oriented). A buzzword\\nin German job ads. Meetings should produce outcomes."
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: We need to work in a results-oriented way.\\nB: Yes, less talking, more deciding.\\nA: This meeting was results-oriented.\\nB: Good, we made three decisions."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "'Ergebnis' (result) + 'orientiert' (oriented). 'Ergebnisorientiert arbeiten' is a buzzword in German job ads. Meetings should be ergebnisorientiert: produce outcomes, not just talk."
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "to clarify, to resolve"
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "From 'klar' (clear). Making something clear.\\n'Eine Frage klaeren' (to resolve a question)."
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: Can we clarify that?\\nB: Yes, let's talk about it.\\nA: Is the question resolved?\\nB: Yes, everything is clear now."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "From 'klar' (clear). Making something clear. 'Können wir das klaeren?' (Can we clarify that?). 'Eine Frage klaeren' (to resolve a question). The verb form of achieving clarity."
+  },
+  {
+    "line": 151,
+    "field": "text",
+    "english": "At B1 level you learned wenn (if) and falls (in case). At B2, German offers precise conditional connectors:\\n\\n- 'sofern' = provided that (formal wenn)\\n- 'gesetzt den Fall' = assuming that (hypothetical, academic)\\n- 'vorausgesetzt, dass' = on the condition that (explicit)\\n- 'unter der Bedingung, dass' = contract language (very explicit)\\n- 'es sei denn' = unless (exception, elegant)\\n- 'angenommen' = assuming (hypothesis, spoken language)\\n\\nEach carries a different nuance. Sofern is everyday formal. Gesetzt den Fall is academic. Es sei denn is elegant."
+  },
+  {
+    "line": 151,
+    "field": "text",
+    "english": "Sofern is everyday formal, used in contracts and business. Gesetzt den Fall is academic and legal, for hypothetical analysis. Vorausgesetzt, dass is explicit, often shortened to 'vorausgesetzt' alone. Unter der Bedingung, dass is contract-level explicit. Es sei denn means 'unless' with a literary quality from the subjunctive 'sei.' Angenommen is conversational, the most informal of the group. Mastering these separates B1 from B2."
+  },
+  {
+    "line": 162,
+    "field": "hint",
+    "english": "'Sofern' is a more formal version of wenn/falls. It means 'provided that' a condition is met."
+  },
+  {
+    "line": 163,
+    "field": "hint",
+    "english": "A single-word conditional connector that works like an introductory participle. It opens a hypothesis informally."
+  },
+  {
+    "line": 163,
+    "field": "sSrc",
+    "english": "Assuming the costs rise, we have to change the plan."
+  },
+  {
+    "line": 169,
+    "field": "hint",
+    "english": "The sentence contains two subordinate structures: one expressing a precondition, the other expressing a consequence of sufficient degree."
+  },
+  {
+    "line": 170,
+    "field": "hint",
+    "english": "A very formal conditional: 'Given the case that...' The verb in the main clause goes to position 2."
+  },
+  {
+    "line": 170,
+    "field": "sSrc",
+    "english": "Given the case that new data is available, we must revise the report."
+  },
+  {
+    "line": 179,
+    "field": "desc",
+    "english": "Verumius rehearses his presentation with Mia's help. Learn final clauses (damit, um... zu, zwecks). Practice all three grammar constructs together. Perfect the presentation."
+  },
+  {
+    "line": 180,
+    "field": "unknown",
+    "english": "Learn final clauses (purpose clauses) with damit, um... zu, and zwecks"
+  },
+  {
+    "line": 181,
+    "field": "unknown",
+    "english": "Practice consecutive and conditional clauses in combination"
+  },
+  {
+    "line": 182,
+    "field": "unknown",
+    "english": "Master the rhetoric of professional presentations"
+  },
+  {
+    "line": 184,
+    "field": "src",
+    "english": "Same conference room. One hour before the audience arrives. Mia has spread out index cards. Verumius stands at the front, practicing his opening line."
+  },
+  {
+    "line": 185,
+    "field": "src",
+    "english": "Verumius, why are you using the aqueduct example? You need to deliver the punchline so well that it lands. Illustrate your argument so that even the non-technical people understand."
+  },
+  {
+    "line": 186,
+    "field": "src",
+    "english": "So: I use the example in order to illustrate the project workflow. Provided the audience laughs, I know the comparison works."
+  },
+  {
+    "line": 187,
+    "field": "src",
+    "english": "Conclusive. Apt. Let's go."
+  },
+  {
+    "line": 188,
+    "field": "src",
+    "english": "results presentation"
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Feminine noun. Ergebnis (result) + Praesentation.\\n'Die Ergebnispraesentation findet am Freitag statt.'"
+  },
+  {
+    "line": 188,
+    "field": "exampleSrc",
+    "english": "A: When is the results presentation?\\nB: On Friday at 10 o'clock.\\nA: Who is giving the results presentation?\\nB: Verumius. He compiled the data."
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "Ergebnis (result) + Praesentation. In German project culture, every project phase ends with one. The Ergebnispraesentation shows what was achieved and what comes next. No project closes without this formal step."
+  },
+  {
+    "line": 189,
+    "field": "src",
+    "english": "conversation management"
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "Feminine noun. Gespraech (conversation) + Fuehrung (leading).\\nThe art of steering a discussion productively."
+  },
+  {
+    "line": 189,
+    "field": "exampleSrc",
+    "english": "A: The moderator has good conversation management.\\nB: Yes, she steers the discussion skillfully.\\nA: Good conversation management is an art.\\nB: You have to listen and lead at the same time."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "Gespraech (conversation) + Fuehrung (leading). A moderator's core skill. 'Gute Gespraechsführung' keeps meetings productive and people heard. The compound tells you everything: lead the conversation, do not let it lead you."
+  },
+  {
+    "line": 190,
+    "field": "src",
+    "english": "guide, manual"
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "Masculine noun. Leit (leading) + Faden (thread).\\n'Ein Leitfaden für Praesentationen.'"
+  },
+  {
+    "line": 190,
+    "field": "exampleSrc",
+    "english": "A: Is there a guide for the presentation?\\nB: Yes, I created a guide.\\nA: The guide helps with the structure.\\nB: It is like a common thread through the topic."
+  },
+  {
+    "line": 190,
+    "field": "funFact",
+    "english": "Leit (leading) + Faden (thread). A 'leading thread' through complexity. German companies produce Leitfaeden for everything. Ariadne's thread through the labyrinth of process. Related to 'roter Faden' (common thread)."
+  },
+  {
+    "line": 191,
+    "field": "src",
+    "english": "practical example"
+  },
+  {
+    "line": 191,
+    "field": "note",
+    "english": "Neuter noun. Praxis (practice) + Beispiel (example).\\nTheory brought to life through real cases."
+  },
+  {
+    "line": 191,
+    "field": "exampleSrc",
+    "english": "A: Can you give a practical example?\\nB: Of course. Let's take our last project.\\nA: Practical examples make the presentation vivid.\\nB: The audience understands theory better with examples."
+  },
+  {
+    "line": 191,
+    "field": "funFact",
+    "english": "Praxis (practice) + Beispiel (example). German presentations love Praxisbeispiele. Theory without practice is suspect. 'Können Sie ein Praxisbeispiel nennen?' is a frequent audience question that separates good speakers from great ones."
+  },
+  {
+    "line": 192,
+    "field": "src",
+    "english": "conclusion, deduction"
+  },
+  {
+    "line": 192,
+    "field": "note",
+    "english": "Feminine noun. Schluss (end) + Folgerung (inference).\\n'Daraus ergibt sich die Schlussfolgerung...'"
+  },
+  {
+    "line": 192,
+    "field": "exampleSrc",
+    "english": "A: What is your conclusion?\\nB: My conclusion is clear: the project is worth it.\\nA: The conclusion must be logical.\\nB: Without valid arguments, no conclusion."
+  },
+  {
+    "line": 192,
+    "field": "funFact",
+    "english": "Schluss (conclusion) + Folgerung (inference). The logical endpoint of an argument. 'Daraus ergibt sich die Schlussfolgerung...' (From this follows the conclusion...) is academic gold. Every schluessiges Argument leads to a Schlussfolgerung."
+  },
+  {
+    "line": 193,
+    "field": "src",
+    "english": "greeting formula"
+  },
+  {
+    "line": 193,
+    "field": "note",
+    "english": "Feminine noun. Gruss (greeting) + Formel (formula).\\nThe opening and closing phrases of a Vortrag."
+  },
+  {
+    "line": 193,
+    "field": "exampleSrc",
+    "english": "A: Which greeting formula does one use in a presentation?\\nB: 'Ladies and gentlemen' is standard.\\nA: And more informally?\\nB: 'Dear colleagues' is warmer."
+  },
+  {
+    "line": 193,
+    "field": "funFact",
+    "english": "Gruss (greeting) + Formel (formula). In German presentations, the opening Grussformel sets the tone. 'Sehr geehrte Damen und Herren' (formal) versus 'Liebe Kolleginnen und Kollegen' (warm professional). Choose wrong and you lose the room."
+  },
+  {
+    "line": 194,
+    "field": "src",
+    "english": "punchline"
+  },
+  {
+    "line": 194,
+    "field": "note",
+    "english": "Feminine noun. From French 'pointe' (point/tip).\\nStress on the second syllable: po-IN-te."
+  },
+  {
+    "line": 194,
+    "field": "exampleSrc",
+    "english": "A: The punchline of your presentation was perfect.\\nB: Thanks! I worked on the punchline for a long time.\\nA: A good punchline stays in the memory.\\nB: The aqueduct was my best punchline."
+  },
+  {
+    "line": 194,
+    "field": "funFact",
+    "english": "From French 'pointe' (point/tip). 'Eine gute Pointe setzen' (to deliver a good punchline). In German, the stress falls on the second syllable: po-IN-te. A Vortrag with a Pointe is memorable. Without one, it is just data."
+  },
+  {
+    "line": 195,
+    "field": "src",
+    "english": "interactive"
+  },
+  {
+    "line": 195,
+    "field": "note",
+    "english": "From inter (between) + aktiv (active).\\n'Ein interaktiver Workshop.'"
+  },
+  {
+    "line": 195,
+    "field": "exampleSrc",
+    "english": "A: Was the presentation interactive?\\nB: Yes, the audience was allowed to ask questions.\\nA: Interactive formats are more popular.\\nB: People like being included."
+  },
+  {
+    "line": 195,
+    "field": "funFact",
+    "english": "Inter (between) + aktiv (active). 'Ein interaktiver Vortrag' involves the audience. German presentation culture is moving toward more interaktive Formate. Questions during the talk, not just after. The audience becomes part of the event."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "practice-oriented, hands-on"
+  },
+  {
+    "line": 196,
+    "field": "note",
+    "english": "Praxis + nah (close/near).\\n'Praxisnahe Lösungen' are what clients demand."
+  },
+  {
+    "line": 196,
+    "field": "exampleSrc",
+    "english": "A: The presentation was very practice-oriented.\\nB: Yes, with many concrete examples.\\nA: Practice-oriented content is well received.\\nB: Theory alone convinces nobody."
+  },
+  {
+    "line": 196,
+    "field": "funFact",
+    "english": "Praxis + nah (close/near). Close to real-world application. The opposite of 'theoretisch.' 'Praxisnahe Lösungen' (practical solutions) is what German clients demand. Abstract ideas must be brought nah an die Praxis."
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "conclusive, logical"
+  },
+  {
+    "line": 197,
+    "field": "note",
+    "english": "From schliessen (to close/conclude).\\n'Ein schluessiges Argument' has no gaps."
+  },
+  {
+    "line": 197,
+    "field": "exampleSrc",
+    "english": "A: Is your argument conclusive?\\nB: Yes, everything is built up logically.\\nA: Only conclusive arguments convince.\\nB: Every point leads to the next."
+  },
+  {
+    "line": 197,
+    "field": "funFact",
+    "english": "From 'schliessen' (to close/conclude). Everything 'closes' together without gaps. Your reasoning must be lueckenlos (without gaps) to be schluessig. Mia's highest compliment for Verumius's presentation structure."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "apt, to the point"
+  },
+  {
+    "line": 198,
+    "field": "note",
+    "english": "From treffen (to hit/meet).\\n'Eine treffende Formulierung' hits the mark."
+  },
+  {
+    "line": 198,
+    "field": "exampleSrc",
+    "english": "A: That was an apt phrasing.\\nB: Thanks, I worked on it for a long time.\\nA: Apt words stick.\\nB: Like an arrow hitting the bullseye."
+  },
+  {
+    "line": 198,
+    "field": "funFact",
+    "english": "From 'treffen' (to hit/meet). Like an arrow: your words treffend means they land exactly where intended. 'Eine treffende Bemerkung' (an apt remark) shows you understand the core of the matter. Mia uses this word when Verumius nails it."
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "tenable, valid"
+  },
+  {
+    "line": 199,
+    "field": "note",
+    "english": "Stich (stab/poke) + haltig (holding).\\n'Ein stichhaltiges Argument' survives testing."
+  },
+  {
+    "line": 199,
+    "field": "exampleSrc",
+    "english": "A: Are your arguments tenable?\\nB: Yes, they withstand any examination.\\nA: Only valid evidence counts.\\nB: Everything else is speculation."
+  },
+  {
+    "line": 199,
+    "field": "funFact",
+    "english": "Stich (stab/poke) + haltig (holding). An argument that 'holds up when poked at.' It survives testing. The ultimate compliment for a B2-level argument. If your reasoning is stichhaltig, no Einwand can topple it."
+  },
+  {
+    "line": 200,
+    "field": "src",
+    "english": "expert, knowledgeable"
+  },
+  {
+    "line": 200,
+    "field": "note",
+    "english": "Fach (field) + kundig (knowledgeable).\\n'Fachkundig beraten' (to advise expertly)."
+  },
+  {
+    "line": 200,
+    "field": "exampleSrc",
+    "english": "A: The speaker spoke very knowledgeably.\\nB: Yes, he knows the topic precisely.\\nA: An expert audience asks difficult questions.\\nB: Then one must be especially well prepared."
+  },
+  {
+    "line": 200,
+    "field": "funFact",
+    "english": "Fach (field) + kundig (knowledgeable). Having deep knowledge in your field. 'Fachkundiges Publikum' means your audience knows the subject too. When the audience is fachkundig, you cannot hide behind jargon."
+  },
+  {
+    "line": 201,
+    "field": "src",
+    "english": "in keyword form, using bullet points"
+  },
+  {
+    "line": 201,
+    "field": "note",
+    "english": "Stichwort (keyword) + artig (like).\\n'Stichwortartig zusammenfassen' is efficient."
+  },
+  {
+    "line": 201,
+    "field": "exampleSrc",
+    "english": "A: Summarize the presentation in keyword form.\\nB: Introduction, data, analysis, conclusion.\\nA: Perfect. Keyword form is sufficient.\\nB: No full sentences needed."
+  },
+  {
+    "line": 201,
+    "field": "funFact",
+    "english": "Stichwort (keyword/cue) + artig (like). How Germans take notes: no full sentences, just Stichworte. Efficient and focused. 'Stichwortartig notieren' (to note in keywords) is the standard method for Mitschriften in meetings."
+  },
+  {
+    "line": 202,
+    "field": "src",
+    "english": "to supplement, to add to"
+  },
+  {
+    "line": 202,
+    "field": "note",
+    "english": "Not separable. From gaenzen (to complete, archaic).\\n'Darf ich etwas ergänzen?' is polite meeting rhetoric."
+  },
+  {
+    "line": 202,
+    "field": "exampleSrc",
+    "english": "A: May I add something?\\nB: Of course, please go ahead.\\nA: I would like to add the figures.\\nB: Good, that completes the picture perfectly."
+  },
+  {
+    "line": 202,
+    "field": "funFact",
+    "english": "From 'gaenzen' (to complete, archaic). Not separable. 'Darf ich etwas ergänzen?' (May I add something?) is the polite way to expand on someone's point in a meeting. You do not contradict, you ergänzen."
+  },
+  {
+    "line": 203,
+    "field": "src",
+    "english": "to affirm, to reinforce"
+  },
+  {
+    "line": 203,
+    "field": "note",
+    "english": "Not separable. Be- + kraeftigen (to strengthen).\\nStronger than zustimmen (to agree)."
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: I would like to reinforce this statement.\\nB: Thanks. It is good to have support.\\nA: The data reinforce our thesis.\\nB: Then we can proceed with confidence."
+  },
+  {
+    "line": 203,
+    "field": "funFact",
+    "english": "Be- + kraeftigen (to strengthen). You actively strengthen a claim. Stronger than 'zustimmen' (to agree). 'Ich möchte diese Aussage bekraeftigen' (I would like to reinforce this statement) shows you are not just nodding along."
+  },
+  {
+    "line": 204,
+    "field": "src",
+    "english": "to illustrate, to make vivid"
+  },
+  {
+    "line": 204,
+    "field": "note",
+    "english": "Not separable. Ver- + anschaulich (vivid) + -en.\\n'Ein Diagramm veranschaulicht die Daten.'"
+  },
+  {
+    "line": 204,
+    "field": "exampleSrc",
+    "english": "A: How do you illustrate the problem?\\nB: I illustrate it with a diagram.\\nA: A good example illustrates more than numbers.\\nB: Exactly. People think in images."
+  },
+  {
+    "line": 204,
+    "field": "funFact",
+    "english": "Ver- + anschaulich (vivid) + -en. Making something visible. 'Ein Diagramm veranschaulicht die Daten' (A diagram illustrates the data). The verb form of 'anschaulich.' Verumius's aqueduct analogy is pure Veranschaulichung."
+  },
+  {
+    "line": 205,
+    "field": "src",
+    "english": "to underline, to emphasize"
+  },
+  {
+    "line": 205,
+    "field": "note",
+    "english": "Not separable. Unter (under) + streichen (to draw/stroke).\\nStrong verb: unterstrich, unterstrichen."
+  },
+  {
+    "line": 205,
+    "field": "exampleSrc",
+    "english": "A: I would like to emphasize this point.\\nB: Yes, it is particularly important.\\nA: The results underline our position.\\nB: I saw it that way too."
+  },
+  {
+    "line": 205,
+    "field": "funFact",
+    "english": "Unter (under) + streichen (to stroke/draw). Drawing a line under something to make it stand out. Not separable in this meaning. Strong verb: unterstreichen/unterstrich/unterstrichen. The metaphor of marking importance with a line."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "to suggest, to recommend"
+  },
+  {
+    "line": 206,
+    "field": "note",
+    "english": "Separable: nahe + legen. Die Daten legen nahe, dass...\\nMore elegant than vorschlagen."
+  },
+  {
+    "line": 206,
+    "field": "exampleSrc",
+    "english": "A: What do the data suggest?\\nB: The data suggest that we are right.\\nA: I would like to suggest a change.\\nB: What change do you suggest?"
+  },
+  {
+    "line": 206,
+    "field": "funFact",
+    "english": "Nahe (near) + legen (to lay). Separable. You 'lay something near' someone for them to consider. More elegant than 'vorschlagen.' 'Die Daten legen nahe, dass...' (The data suggest that...) is scientific register at its finest."
+  },
+  {
+    "line": 207,
+    "field": "src",
+    "english": "to specify, to make more precise"
+  },
+  {
+    "line": 207,
+    "field": "note",
+    "english": "Not separable. From Latin praecisus (exact).\\n'Können Sie das präzisieren?' is a common meeting question."
+  },
+  {
+    "line": 207,
+    "field": "exampleSrc",
+    "english": "A: Can you please be more specific?\\nB: Of course. I mean specifically the Q2 figures.\\nA: Thank you, that makes the point more precise.\\nB: Precision is decisive."
+  },
+  {
+    "line": 207,
+    "field": "funFact",
+    "english": "From Latin 'praecisus' (cut short/exact). Not separable. 'Können Sie das präzisieren?' (Can you be more specific?) is a common German meeting question. Precision is not pedantry in German culture. It is respect."
+  },
+  {
+    "line": 208,
+    "field": "text",
+    "english": "Purpose clauses express a goal or intention. German has three main ways to build them.\\n\\n- damit introduces a subordinate clause with the verb at the end. It allows different subjects in each clause: 'Ich nutze ein Beispiel, damit alle verstehen.'\\n- um... zu uses an infinitive construction. Both clauses must share the same subject: 'Ich nutze ein Beispiel, um den Punkt zu veranschaulichen.'\\n- zwecks takes a genitive noun and belongs to very formal, official register: 'Zwecks besserer Übersicht...' (For the purpose of a better overview...)\\n\\nWhen the subject is the same in both clauses, um... zu is more elegant than damit."
+  },
+  {
+    "line": 208,
+    "field": "text",
+    "english": "The key difference: with 'um... zu,' both clauses must share the same subject. 'Ich lerne Deutsch, um mich vorzustellen' (I study, I introduce myself). With 'damit,' the subjects can differ: 'Ich erkläre es langsam, damit SIE es verstehen' (I explain, they understand). When both forms are possible, Germans often prefer 'um... zu' because it is shorter and more elegant."
+  },
+  {
+    "line": 226,
+    "field": "hint",
+    "english": "When the subject is the same in both parts, um...zu is preferred. Damit fits when subjects differ."
+  },
+  {
+    "line": 227,
+    "field": "hint",
+    "english": "The subjects differ in the two clauses. Only one purpose connector allows different subjects in each part."
+  },
+  {
+    "line": 227,
+    "field": "sSrc",
+    "english": "He uses a diagram so that the data are more understandable."
+  },
+  {
+    "line": 233,
+    "field": "hint",
+    "english": "'Sofern' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 234,
+    "field": "hint",
+    "english": "Same subject: 'Ich' in both parts. The infinitive construction: um + zu + verb at the end."
+  },
+  {
+    "line": 243,
+    "field": "desc",
+    "english": "The big day. Verumius gives his presentation. The aqueduct example lands. The boss says: 'Gut gemacht.' Practice all three grammar constructs in professional context."
+  },
+  {
+    "line": 244,
+    "field": "unknown",
+    "english": "Experience the presentation with Verumius"
+  },
+  {
+    "line": 245,
+    "field": "unknown",
+    "english": "Practice consecutive, conditional, and final clauses together"
+  },
+  {
+    "line": 246,
+    "field": "unknown",
+    "english": "Learn vocabulary for meetings, feedback, and collaboration"
+  },
+  {
+    "line": 248,
+    "field": "src",
+    "english": "Conference room. Fifteen colleagues seated. The projector hums. Verumius stands at the front, slides behind him. His hands are steady. Mia gives a subtle nod from the second row."
+  },
+  {
+    "line": 249,
+    "field": "src",
+    "english": "Good morning. I would like to present the results of the Q2 project today. So that you better understand the workflow, I will begin with a comparison."
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "Imagine a Roman aqueduct. Every arch supports the next. If one arch is missing, everything collapses. Our project management works the same way."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "A pause. Someone chuckles softly. Then the whole room laughs. Not at him. With him. The comparison was so apt that even the boss smiles."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "The boss, from the back row: 'Well done, Verumius.' Two words. In German professional culture, they weigh a ton."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "minutes, protocol"
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Neuter noun. From Greek protokollon (first page of a scroll).\\n'Wer führt Protokoll?' starts every German meeting."
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: Who is taking minutes today?\\nB: I can write the minutes.\\nA: Good. Please send the minutes by tomorrow.\\nB: The minutes will be distributed to everyone."
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "From Greek 'protokollon' (first page glued to a scroll). In German meetings, someone always writes the Protokoll. 'Wer führt Protokoll?' (Who is taking minutes?) is asked at the start of every meeting. No meeting is complete without one."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "feedback"
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Feminine noun. Rueck (back) + Meldung (report).\\nThe German alternative to the English loanword 'Feedback.'"
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: Do you have feedback on my presentation?\\nB: Yes, positive feedback.\\nA: I welcome any feedback.\\nB: Constructive feedback helps the most."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "Rueck (back) + Meldung (report). The German alternative to the English loanword 'Feedback.' 'Haben Sie eine Rueckmeldung?' (Do you have feedback?) is more formal than 'Haben Sie Feedback?' Both are used, but Rueckmeldung is purer German."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "remark, note"
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Feminine noun. An (at) + Merkung (noting).\\n'Ich hätte eine Anmerkung.' Lighter than Einwand."
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: I would have a remark about slide 3.\\nB: Please, which remark?\\nA: The number seems to be outdated.\\nB: Thanks for the remark. I will check that."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "An (at) + Merkung (noting). 'Ich hätte eine Anmerkung' (I would have a remark) is the polite way to comment during a presentation. Lighter than an Einwand (objection). You note something without attacking the speaker."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "explanation, clarification"
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "Feminine noun. From erläutern (to explain).\\n'Zur Erläuterung...' introduces context."
+  },
+  {
+    "line": 256,
+    "field": "exampleSrc",
+    "english": "A: Can you give an explanation?\\nB: For clarification: the numbers refer to Q2.\\nA: Thanks for the clarification.\\nB: Further explanations can be found in the handout."
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "From 'erläutern' (to explain/elucidate). More thorough than a brief Erklärung. 'Zur Erläuterung...' (For clarification...) introduces additional context in presentations. A good Erläuterung makes the complex accessible."
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "notes (taken during a meeting)"
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Feminine noun. Mit (along) + Schrift (writing).\\nLess official than Protokoll, more personal."
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: Did you take notes?\\nB: Yes, I took notes.\\nA: Can you show me your notes?\\nB: Sure. The most important points are in there."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "Mit (along) + Schrift (writing). Writing along with the speaker. 'Eine Mitschrift anfertigen' (to take notes). Less official than a Protokoll, more personal. Your Mitschrift is your version of what was said."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "vote"
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Feminine noun. Ab + Stimmung (from Stimme = voice).\\n'Wir kommen zur Abstimmung.'"
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: We will now proceed to the vote.\\nB: Who is in favor? Please raise your hand.\\nA: The vote is unanimous.\\nB: Good. The resolution is passed."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "Ab + Stimmung (from Stimme = voice). 'Wir kommen zur Abstimmung' (We will now vote). Each person's Stimme (voice) counts. 'Einstimmig' (unanimous) means all voices agree. German democratic culture at the meeting-room level."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "working group"
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Feminine noun. Arbeit (work) + Gruppe (group).\\nAbbreviated 'AG.' Each AG reports back to the Plenum."
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: We will form three working groups.\\nB: Which topic does our working group cover?\\nA: The finance working group meets in room 2.\\nB: The working groups report tomorrow in plenary."
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "Arbeit (work) + Gruppe (group). German project culture divides big tasks into Arbeitsgruppen. 'AG' for short. Each AG focuses on one aspect and reports back to the Plenum. Divide and conquer, German organizational style."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "plenary, full assembly"
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Neuter noun. From Latin plenum (full).\\n'Im Plenum besprechen' means the whole group discusses."
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: When do we meet in plenary?\\nB: The plenary convenes at 2 PM.\\nA: The results will be presented in plenary.\\nB: All working groups report to the plenary."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "From Latin 'plenum' (full assembly). After Arbeitsgruppen work separately, results return to the Plenum for collective decision. 'Im Plenum besprechen' (to discuss in the full group) is where decisions are made."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "networking"
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Neuter noun. Nominalized infinitive of netzwerken.\\n'Beim Netzwerken' happens at every conference."
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Did you make new contacts while networking?\\nB: Yes, the networking was very productive.\\nA: Networking is just as important as the presentation.\\nB: While networking, you get to know the people behind the projects."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "Netz (net) + Werk (work). The nominalized infinitive. Germans borrowed the concept from English but made it a neuter noun. 'Beim Netzwerken' (while networking) happens at every conference Rahmenprogramm. Kaffee und Kontakte."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "workshop"
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Masculine noun. English loanword.\\nMasculine because German Kurs (course) is masculine."
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: Are you leading the workshop tomorrow?\\nB: Yes, I am leading the workshop on project planning.\\nA: The workshop is interactive.\\nB: All participants work in groups."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "English loanword. Masculine because German 'Kurs' and 'Lehrgang' (course) are masculine. More hands-on than a Vortrag. 'Einen Workshop leiten' (to lead a workshop) means creating an interactive format. No lectures, only collaboration."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "to lead, to direct, to chair"
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Regular verb. Not separable.\\n'Eine Sitzung leiten' (to chair a meeting)."
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Who is chairing the meeting today?\\nB: Frau Mueller is chairing the meeting.\\nA: She also leads the entire project.\\nB: A good leader motivates the team."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "To lead, to direct, to conduct. 'Eine Sitzung leiten' (to chair a meeting). Not separable. Der Leiter/die Leiterin = the leader. 'Leitfaden' (guideline) shares the root. In German meetings, someone must always leiten."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "to moderate, to host"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Not separable. From Latin moderare (to regulate).\\n'Eine Diskussion moderieren.'"
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: Who is moderating the panel discussion?\\nB: Herr Schmidt is moderating today.\\nA: He always moderates very objectively.\\nB: Good moderating means: listening and guiding."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "From Latin 'moderare' (to regulate). Not separable. The Moderator moderiert: guiding the conversation without dominating it. In German TV, the Moderator is the host. In meetings, moderieren means keeping things on track and fair."
+  },
+  {
+    "line": 265,
+    "field": "src",
+    "english": "to include, to involve"
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Separable: ein + beziehen. Wir beziehen alle ein.\\nStrong verb: bezog ein, einbezogen."
+  },
+  {
+    "line": 265,
+    "field": "exampleSrc",
+    "english": "A: We must include all departments.\\nB: Yes, everyone will be included in the decision.\\nA: Who was not included?\\nB: The marketing department. We will catch up on that."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Ein (in) + beziehen (to include/draw). Separable. Drawing people into the process. 'Alle einbeziehen' is the German ideal of inclusive decision-making. Nobody should be left outside the circle of consultation."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "to contribute"
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "Separable: bei + tragen. Jeder trägt bei.\\nStrong verb: trug bei, beigetragen."
+  },
+  {
+    "line": 266,
+    "field": "exampleSrc",
+    "english": "A: What can you contribute to the project?\\nB: I contribute my experience.\\nA: Everyone contributed to the success.\\nB: Collaboration is the key."
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Bei (alongside) + tragen (to carry). Separable. Carrying your share alongside others. Strong verb: beitragen/trug bei/beigetragen. 'Jeder trägt zum Erfolg bei' (Everyone contributes to the success). Teamwork, German style."
+  },
+  {
+    "line": 267,
+    "field": "src",
+    "english": "to take up, to pick up on"
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Separable: auf + greifen. Ich greife den Punkt auf.\\nStrong verb: griff auf, aufgegriffen."
+  },
+  {
+    "line": 267,
+    "field": "exampleSrc",
+    "english": "A: I will pick up on your point.\\nB: Thanks. That is an important idea.\\nA: The boss picked up the suggestion.\\nB: Good, then it will be implemented."
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "Auf (up) + greifen (to grab). Separable. Grabbing an idea and running with it. 'Ich greife Ihren Punkt auf' is essential German meeting rhetoric. It shows you listened and value the contribution."
+  },
+  {
+    "line": 268,
+    "field": "src",
+    "english": "to address a topic, to bring up"
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "Not separable. From Thema (topic).\\nMore formal than ansprechen."
+  },
+  {
+    "line": 268,
+    "field": "exampleSrc",
+    "english": "A: We should address this problem.\\nB: Yes, it must be addressed in the next meeting.\\nA: Who addresses it first?\\nB: I can bring up the topic."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "From 'Thema' (topic). Making something a Thema. Not separable. More formal than 'ansprechen.' 'Wir sollten das thematisieren' (We should address that) signals that something deserves the group's attention."
+  },
+  {
+    "line": 269,
+    "field": "src",
+    "english": "to agree upon, to arrange"
+  },
+  {
+    "line": 269,
+    "field": "note",
+    "english": "Not separable. Ver- + einbar (agreeable).\\n'Wir vereinbaren den nächssten Termin.'"
+  },
+  {
+    "line": 269,
+    "field": "exampleSrc",
+    "english": "A: Can we arrange an appointment?\\nB: Yes, how about next Tuesday?\\nA: Agreed. I will note it down.\\nB: The arrangement stands."
+  },
+  {
+    "line": 269,
+    "field": "funFact",
+    "english": "Ver- + einbar (agreeable). Not separable. Reaching a formal agreement. 'Wir vereinbaren den nächssten Termin' (We agree on the next date). 'Vereinbarung' (agreement) is the noun form. German meetings end with vereinbarte Schritte."
+  },
+  {
+    "line": 270,
+    "field": "src",
+    "english": "to negotiate"
+  },
+  {
+    "line": 270,
+    "field": "note",
+    "english": "Not separable. Ver- + handeln (to act/trade).\\nFrom Hand: negotiation is a handshake process."
+  },
+  {
+    "line": 270,
+    "field": "exampleSrc",
+    "english": "A: We must negotiate the conditions.\\nB: Yes, there are still open points.\\nA: Who negotiates with the client?\\nB: The team negotiates together."
+  },
+  {
+    "line": 270,
+    "field": "funFact",
+    "english": "Ver- + handeln (to act/trade). Not separable. From 'Hand' (hand): negotiation is a handshake process. 'Verhandlungsgeschick' (negotiation skill) is prized in German business culture. Every Kompromiss requires Verhandlung."
+  },
+  {
+    "line": 271,
+    "field": "src",
+    "english": "to convince"
+  },
+  {
+    "line": 271,
+    "field": "note",
+    "english": "Not separable. Über (over) + zeugen (to generate).\\n'Er überzeugte das Publikum.'"
+  },
+  {
+    "line": 271,
+    "field": "exampleSrc",
+    "english": "A: Did the presentation convince you?\\nB: Yes, Verumius convinced me completely.\\nA: The arguments were convincing.\\nB: Especially the aqueduct example."
+  },
+  {
+    "line": 271,
+    "field": "funFact",
+    "english": "Über (over) + zeugen (to generate/witness). Not separable. Generating belief over someone. 'Überzeugend' (convincing) is the present participle. Verumius's presentation succeeded because it überzeugte through vivid examples, not just data."
+  },
+  {
+    "line": 272,
+    "field": "src",
+    "english": "to summarize"
+  },
+  {
+    "line": 272,
+    "field": "note",
+    "english": "Separable: zusammen + fassen. Ich fasse zusammen.\\n'Zusammenfassung' is the noun: summary."
+  },
+  {
+    "line": 272,
+    "field": "exampleSrc",
+    "english": "A: Can you summarize the results?\\nB: I will briefly summarize: the project was a success.\\nA: A good summary saves time.\\nB: In summary, one can say: we are on track."
+  },
+  {
+    "line": 272,
+    "field": "funFact",
+    "english": "Zusammen (together) + fassen (to grasp). Separable. Grasping everything together into one statement. 'Zusammenfassung' is the noun: summary. 'Zusammenfassend lässt sich sagen...' (In summary, one can say...) is the classic German presentation closing."
+  },
+  {
+    "line": 273,
+    "field": "hint",
+    "english": "The damit clause expresses WHY he starts with the comparison: so that they understand."
+  },
+  {
+    "line": 274,
+    "field": "hint",
+    "english": "The 'so + adjective' pattern expresses a degree that leads to a consequence. Fill in the connector that introduces the resulting clause."
+  },
+  {
+    "line": 274,
+    "field": "sSrc",
+    "english": "The presentation was so convincing that the boss said 'Well done.'"
+  },
+  {
+    "line": 280,
+    "field": "hint",
+    "english": "'Sofern' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose. Three constructs."
+  },
+  {
+    "line": 281,
+    "field": "hint",
+    "english": "A separable verb whose prefix belongs at the end. Different subjects in the two clauses: the speaker acts so that others benefit."
+  },
+  {
+    "line": 288,
+    "field": "src",
+    "english": "Verumius sits down. His hands tremble slightly. But he is smiling. The aqueduct stands."
+  },
+  {
+    "line": 291,
+    "field": "desc",
+    "english": "Everything from Unit 27 on the test bench. Show you can structure a presentation, formulate conditions, express results, and state purposes."
+  },
+  {
+    "line": 292,
+    "field": "unknown",
+    "english": "Test your complete knowledge from Unit 27"
+  },
+  {
+    "line": 293,
+    "field": "unknown",
+    "english": "Prove confidence with all three grammar constructs"
+  },
+  {
+    "line": 294,
+    "field": "unknown",
+    "english": "Master professional German presentation language"
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "Break room. He runs through the presentation in his head. Introduction, body, conclusion. Condition, result, purpose. The three pillars stand. Now he has to prove they hold."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "attendance list"
+  },
+  {
+    "line": 297,
+    "field": "note",
+    "english": "Feminine noun. Teilnehmer (participant) + Liste.\\nWho was present? The Protokoll needs this."
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: Did you sign the attendance list?\\nB: Yes, my name is on the attendance list.\\nA: The attendance list goes into the minutes.\\nB: Please check the attendance list."
+  },
+  {
+    "line": 297,
+    "field": "funFact",
+    "english": "Teilnehmer (participant) + Liste (list). At German events, you sign the Teilnehmerliste at arrival. For internal meetings, it documents who was present for the Protokoll. No list, no proof you were there."
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "position paper, thesis paper"
+  },
+  {
+    "line": 298,
+    "field": "note",
+    "english": "Neuter noun. These (thesis) + Papier (paper).\\nA paper stating your arguments for discussion."
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: Did you read the position paper?\\nB: Yes, the theses are clearly formulated.\\nA: A good position paper is the basis of every discussion.\\nB: I distribute my position paper before the presentation."
+  },
+  {
+    "line": 298,
+    "field": "funFact",
+    "english": "These (thesis) + Papier (paper). In German universities, you present your Thesenpapier before a seminar discussion. It states your arguments clearly for others to critique. A Thesenpapier is a commitment: here is what I believe and why."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "table document, meeting handout"
+  },
+  {
+    "line": 299,
+    "field": "note",
+    "english": "Feminine noun. Tisch (table) + Vorlage (template/document).\\nDistributed at the table during a meeting."
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: The table document is in front of you.\\nB: Thanks. I will quickly read through it.\\nA: The table document summarizes the key points.\\nB: Very clear. That helps with taking notes."
+  },
+  {
+    "line": 299,
+    "field": "funFact",
+    "english": "Tisch (table) + Vorlage (template/document). A document distributed at the table during a meeting. Literally 'table submission.' Given out at the start so participants can follow along. German meeting Ordnung at its most organized."
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "core topic"
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Neuter noun. Kern (core) + Thema (topic).\\n'Was ist das Kernthema der Sitzung?'"
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: What is the core topic today?\\nB: The core topic is budget planning.\\nA: Please do not deviate from the core topic.\\nB: Everything revolves around the core topic."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "Kern (core) + Thema (topic). The central question that everything revolves around. 'Was ist das Kernthema der Sitzung?' (What is the core topic of the meeting?). If you lose the Kernthema, you lose the meeting."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "basic idea, fundamental concept"
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Masculine noun. Grund (ground/basic) + Gedanke (thought).\\nThe bedrock of any argument."
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: What is the basic idea of your presentation?\\nB: The basic idea is: structure creates success.\\nA: A clear basic idea convinces.\\nB: Without a basic idea, the presentation lacks direction."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "Grund (ground/basic) + Gedanke (thought). The foundational thought. 'Der Grundgedanke meines Vortrags ist...' (The fundamental idea of my presentation is...). The bedrock upon which all other arguments are built."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "rules of procedure"
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Feminine noun. Geschäft (business) + Ordnung (order/rules).\\nThe rulebook governing how meetings work."
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: According to the rules of procedure, we need a majority.\\nB: The rules of procedure govern the process.\\nA: Is there a procedural motion?\\nB: Yes, I move for a vote."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "Geschäft (business) + Ordnung (order/rules). Every German organization has one. It governs how meetings run, how votes work, and who may speak. 'Antrag zur Geschäftsordnung' (procedural motion) is the nuclear option in German meetings."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "meaningful, informative"
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Aussage (statement) + kraeftig (strong).\\n'Aussagekraeftige Daten' tell a clear story."
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: Are the data meaningful?\\nB: Yes, very meaningful.\\nA: We need informative results.\\nB: Without meaningful numbers, nobody makes decisions."
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "Aussage (statement) + kraeftig (strong). Data that tells a clear story. Strong enough to make a statement on its own. 'Aussagekraeftige Daten' is the gold standard in German project reporting."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "in overview form"
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "Überblick (overview) + artig (like).\\nThe bird's-eye view without detail."
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: Present the results in overview form.\\nB: Gladly. Here is a summary in overview form.\\nA: Overview form is enough for the beginning.\\nB: Details follow in the discussion."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "Überblick (overview) + artig (like). Giving the big picture without too much detail. The bird's-eye view. 'Überblicksartig darstellen' (to present in overview form) is often the first step before diving into details."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "applicable, accurate"
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "Zu (to) + treffend (hitting).\\n'Zutreffendes bitte ankreuzen' appears on every German form."
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: Is this statement accurate?\\nB: Yes, the description is completely accurate.\\nA: Please mark what applies.\\nB: Not everything written is accurate."
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "Zu (to) + treffend (hitting). Something that 'hits' the truth. 'Zutreffendes bitte ankreuzen' (Please check what applies) appears on every German form. Precise and correct."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "appropriate, adequate"
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "An (at) + gemessen (measured).\\n'Ein angemessener Ton' is the professional standard."
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: Was the tone appropriate?\\nB: Yes, completely appropriate for the situation.\\nA: An appropriate reaction is important.\\nB: Not too much, not too little. Appropriate."
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "An (at) + gemessen (measured). Measured against what fits. The German standard for professional behavior. 'Angemessen reagieren' (to react appropriately) means finding exactly the right level."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "summarizing, in summary"
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "Present participle of zusammenfassen.\\n'Zusammenfassend lässt sich sagen...' closes presentations."
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: In summary, one can say: the presentation was a success.\\nB: Yes, in summary, I am satisfied.\\nA: Can you present that in summary form?\\nB: Summarizing in one sentence: it worked."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "Present participle of 'zusammenfassen.' 'Zusammenfassend lässt sich sagen...' (In summary, one can say...) is the classic German presentation closing line. The present participle used as adverb. Professional and elegant."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "in closing, finally"
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Present participle of abschließen.\\n'Abschließend möchte ich betonen...' is the final word."
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: In closing, I would like to emphasize: teamwork was the key.\\nB: One more question in closing?\\nA: Yes, in closing: when is the next appointment?\\nB: In closing, we agree on the schedule."
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Present participle of 'abschließen.' 'Abschließend möchte ich betonen...' (In closing, I would like to emphasize...). The final word before questions. More formal than 'schließlich.' It signals: the end is here."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "building on that, following up"
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Daran (to that) + anknüpfend (connecting).\\nLinking your point to the previous speaker's idea."
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: Building on that, I would like to add...\\nB: Good point. Building on that, I ask...\\nA: Building on that, I see a solution.\\nB: Thank you for building on that."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "Daran (to that) + anknüpfend (connecting). Linking your point to the previous speaker's contribution. Elegant meeting rhetoric. It shows you listened and are continuing the thread, not starting a new one."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "regarding this, in this regard"
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "Dies (this) + bezüglich (regarding).\\nOne word replacing 'regarding this matter.'"
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: Regarding this, I have a question.\\nB: Please, what would you like to know regarding this?\\nA: Regarding this, there is a proposal.\\nB: I will get back to you regarding this."
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "Dies (this) + bezüglich (regarding). One word that replaces 'regarding this matter.' Compact and formal. 'Diesbezüglich habe ich eine Frage' (Regarding this, I have a question). German efficiency in a single word."
+  },
+  {
+    "line": 311,
+    "field": "src",
+    "english": "likewise, equally"
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "Eben (just/exactly) + so (so/thus).\\n'Ebenso wichtig ist...' puts two things on the same level."
+  },
+  {
+    "line": 311,
+    "field": "exampleSrc",
+    "english": "A: The presentation was good. The discussion likewise.\\nB: Equally important is the follow-up.\\nA: I see it likewise.\\nB: Likewise, I would like to thank Mia."
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "Eben (just/exactly) + so (so/thus). A transition word that puts two things on the same level. Short and effective. 'Ebenso wichtig ist...' (Equally important is...) is a common discourse marker in German presentations."
+  },
+  {
+    "line": 312,
+    "field": "src",
+    "english": "to conclude, to finalize"
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "Separable: ab + schliessen.\\nStrong verb: schloss ab, abgeschlossen."
+  },
+  {
+    "line": 312,
+    "field": "exampleSrc",
+    "english": "A: We will conclude the discussion.\\nB: Good. Can we close the topic?\\nA: The contract is finalized.\\nB: Concluded and done."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "Ab (off/away) + schliessen (to close). Separable. Closing something off definitively. Strong verb: abschließen/schloss ab/abgeschlossen. 'Eine Vereinbarung abschließen' (to finalize an agreement) is the goal of every Verhandlung."
+  },
+  {
+    "line": 313,
+    "field": "src",
+    "english": "to explain, to elucidate"
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "Not separable. From Middle High German erliutern.\\n'Können Sie das näher erläutern?'"
+  },
+  {
+    "line": 313,
+    "field": "exampleSrc",
+    "english": "A: Can you explain that in more detail?\\nB: Gladly. I will explain it using an example.\\nA: Thanks for the detailed explanation.\\nB: I am happy to explain further details."
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "From Middle High German 'erliutern' (to make clear). Not separable. More thorough than 'erklären.' 'Können Sie das näher erläutern?' (Can you explain that in more detail?) is one of the most frequent questions in German meetings."
+  },
+  {
+    "line": 314,
+    "field": "src",
+    "english": "to demonstrate"
+  },
+  {
+    "line": 314,
+    "field": "note",
+    "english": "Not separable. From Latin demonstrare.\\nAlso means 'to protest' in a different context."
+  },
+  {
+    "line": 314,
+    "field": "exampleSrc",
+    "english": "A: I will demonstrate the new function.\\nB: Please demonstrate step by step.\\nA: The results demonstrate the success.\\nB: A practical example demonstrates it best."
+  },
+  {
+    "line": 314,
+    "field": "funFact",
+    "english": "From Latin 'demonstrare.' Same word internationally. In business: 'Ich demonstriere die Funktion' (I demonstrate the function). But also: 'Für den Frieden demonstrieren' (to protest for peace). Context determines the meaning."
+  },
+  {
+    "line": 315,
+    "field": "src",
+    "english": "to add, to append"
+  },
+  {
+    "line": 315,
+    "field": "note",
+    "english": "Separable: an + fuegen. Darf ich etwas anfügen?\\nMore formal than hinzufügen."
+  },
+  {
+    "line": 315,
+    "field": "exampleSrc",
+    "english": "A: May I add something?\\nB: Please, feel free to add something.\\nA: I would like to append a remark.\\nB: Gladly. What would you like to add?"
+  },
+  {
+    "line": 315,
+    "field": "funFact",
+    "english": "An (at/on) + fuegen (to join/add). Separable. Joining something onto what already exists. 'Darf ich etwas anfügen?' (May I add something?) is formal and polite. More elegant than 'hinzufügen.'"
+  },
+  {
+    "line": 316,
+    "field": "src",
+    "english": "to enclose, to attach"
+  },
+  {
+    "line": 316,
+    "field": "note",
+    "english": "Separable: bei + fuegen. Ich fuege das Dokument bei.\\nStandard in German email culture."
+  },
+  {
+    "line": 316,
+    "field": "exampleSrc",
+    "english": "A: I am attaching the minutes.\\nB: Thanks. Can you also attach the table document?\\nA: All documents are attached.\\nB: Perfect. I have received everything."
+  },
+  {
+    "line": 316,
+    "field": "funFact",
+    "english": "Bei (alongside) + fuegen (to join). Separable. Adding something alongside the main item. 'Anbei fuege ich bei...' (Enclosed herewith...) is standard German email language. Every attachment is beigefuegt."
+  },
+  {
+    "line": 322,
+    "field": "hint",
+    "english": "The pattern 'so + adjective, dass...' shows the result of a quality. Clear speaking led to the nodding."
+  },
+  {
+    "line": 323,
+    "field": "hint",
+    "english": "Choose the formal B2 conditional connector that is more precise than 'wenn', implying a strict condition."
+  },
+  {
+    "line": 323,
+    "field": "sSrc",
+    "english": "Provided that all participants agree, we can start the project."
+  },
+  {
+    "line": 329,
+    "field": "hint",
+    "english": "One construction expresses the speaker's goal (purpose). The other describes what actually occurred as a consequence (result). Which is which?"
+  },
+  {
+    "line": 330,
+    "field": "hint",
+    "english": "Three constructs in one sentence: the formal conditional opener, the result-clause connector, and the infinitive purpose marker."
+  },
+  {
+    "line": 342,
+    "field": "hint",
+    "english": "'Gesetzt den Fall' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 343,
+    "field": "hint",
+    "english": "A formal verb meaning 'to explain in detail'. More thorough than a simple 'erklären'."
+  },
+  {
+    "line": 343,
+    "field": "sSrc",
+    "english": "Can you explain that in more detail?"
+  },
+  {
+    "line": 346,
+    "field": "desc",
+    "english": "After the presentation: coffee, praise, and reflection. Learn formal presentation phrases, understand German praise culture, and review all constructs from Unit 27."
+  },
+  {
+    "line": 347,
+    "field": "unknown",
+    "english": "Learn formal presentation phrases and polite interjections"
+  },
+  {
+    "line": 348,
+    "field": "unknown",
+    "english": "Understand German professional praise culture"
+  },
+  {
+    "line": 349,
+    "field": "unknown",
+    "english": "Review all grammar constructs from Unit 27"
+  },
+  {
+    "line": 351,
+    "field": "src",
+    "english": "Office kitchen after the presentation. Colleagues stand around with coffee. Verumius at the center, still slightly dazed. Mia leans against the counter."
+  },
+  {
+    "line": 352,
+    "field": "src",
+    "english": "See? I told you so. Your presentation was so clearly structured that even Herr Braun laughed."
+  },
+  {
+    "line": 353,
+    "field": "src",
+    "english": "The boss said 'Well done.' Two words. But somehow they feel like a whole round of applause."
+  },
+  {
+    "line": 354,
+    "field": "src",
+    "english": "That IS applause. In Germany. Get used to it."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "Later, Verumius checks the group chat. Lukas has sent a voice note: 'The Roman aqueduct? Hahaha, typical Verumius. By the way, the music school is running. First students!'"
+  },
+  {
+    "line": 356,
+    "field": "src",
+    "english": "I would like to point that out"
+  },
+  {
+    "line": 356,
+    "field": "note",
+    "english": "Polite presentation phrase.\\nThe diplomatic way to draw attention to something."
+  },
+  {
+    "line": 356,
+    "field": "exampleSrc",
+    "english": "A: I would like to point out that the numbers are outdated.\\nB: Thank you for the hint.\\nA: I would also like to point out that the date is changing.\\nB: Good that you point that out."
+  },
+  {
+    "line": 356,
+    "field": "funFact",
+    "english": "The polite way to draw attention to something in a presentation. More diplomatic than 'Achtung!' or 'Bitte beachten Sie.' Standard Vortrag rhetoric that signals respect while delivering potentially unwelcome news."
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "allow me"
+  },
+  {
+    "line": 357,
+    "field": "note",
+    "english": "Extremely formal. From gestatten (to permit).\\nUsed to introduce a point or politely interrupt."
+  },
+  {
+    "line": 357,
+    "field": "exampleSrc",
+    "english": "A: Allow me a remark?\\nB: Of course, please.\\nA: Allow me to briefly summarize.\\nB: Please, go ahead."
+  },
+  {
+    "line": 357,
+    "field": "funFact",
+    "english": "From 'gestatten' (to permit). Extremely formal. Royal court formality surviving in boardrooms. 'Gestatten Sie mir eine Bemerkung' (Allow me a remark) belongs to the highest register of German professional language."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "if I may"
+  },
+  {
+    "line": 358,
+    "field": "note",
+    "english": "Semi-formal. Softer than 'Gestatten Sie mir.'\\nWorks in formal and semi-formal settings."
+  },
+  {
+    "line": 358,
+    "field": "exampleSrc",
+    "english": "A: If I may, I would like to add an example.\\nB: Please, go ahead.\\nA: If I may: I see that differently.\\nB: Of course you may."
+  },
+  {
+    "line": 358,
+    "field": "funFact",
+    "english": "Softer than 'Gestatten Sie mir.' Works in formal and semi-formal settings. 'Wenn ich darf, möchte ich ein Beispiel anfügen.' A polite bridge before making your point. Not as stiff as Gestatten but still respectful."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "might I ask you"
+  },
+  {
+    "line": 359,
+    "field": "note",
+    "english": "Konjunktiv II of dürfen + bitten.\\nThe most polite request formula in German."
+  },
+  {
+    "line": 359,
+    "field": "exampleSrc",
+    "english": "A: Might I ask you to send the documents?\\nB: Of course, I will send them immediately.\\nA: Might I ask you to speak a bit more quietly?\\nB: Of course, apologies."
+  },
+  {
+    "line": 359,
+    "field": "funFact",
+    "english": "Konjunktiv II of dürfen + bitten. The most polite request formula in German. 'Dürfte ich Sie bitten, die Unterlagen zu senden?' is more courteous than 'Können Sie bitte...' Subjunctive mood signals maximum politeness."
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "would you be so kind"
+  },
+  {
+    "line": 360,
+    "field": "note",
+    "english": "Konjunktiv II of sein + freundlich.\\nOld-fashioned elegance for formal requests."
+  },
+  {
+    "line": 360,
+    "field": "exampleSrc",
+    "english": "A: Would you be so kind as to pass the microphone?\\nB: Of course, here you go.\\nA: Would you be so kind as to close the door?\\nB: My pleasure."
+  },
+  {
+    "line": 360,
+    "field": "funFact",
+    "english": "Konjunktiv II of sein + freundlich. Old-fashioned elegance still used in formal emails and presentations. 'Wären Sie so freundlich, das Mikrofon weiterzugeben?' is pure Höflichkeit at its finest."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "it would be agreeable to me"
+  },
+  {
+    "line": 361,
+    "field": "note",
+    "english": "Konjunktiv II expressing preference.\\nUnderstated. The German way of saying 'I would prefer.'"
+  },
+  {
+    "line": 361,
+    "field": "exampleSrc",
+    "english": "A: It would suit me if we begin at 2 PM.\\nB: It would suit me too.\\nA: Would that be agreeable to you?\\nB: Yes, that would suit me very well."
+  },
+  {
+    "line": 361,
+    "field": "funFact",
+    "english": "Konjunktiv II expressing preference without imposition. 'Es wäre mir recht, wenn wir um 14 Uhr beginnen.' Understated. You do not demand. You express what would be recht (right/agreeable). Maximum politeness through minimal pressure."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "may I briefly interject"
+  },
+  {
+    "line": 362,
+    "field": "note",
+    "english": "Einhaken means 'to hook in.'\\nThe polite way to interrupt during a discussion."
+  },
+  {
+    "line": 362,
+    "field": "exampleSrc",
+    "english": "A: May I briefly interject?\\nB: Of course, please.\\nA: I would like to briefly interject: the number is wrong.\\nB: Thanks for interjecting. Good point."
+  },
+  {
+    "line": 362,
+    "field": "funFact",
+    "english": "Einhaken literally means 'to hook in.' You hook your point into the conversation. The polite way to interrupt during a discussion. Essential for German meetings where cutting in rudely is unprofessional."
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "I now come to the next point"
+  },
+  {
+    "line": 363,
+    "field": "note",
+    "english": "Standard transition phrase in German presentations.\\n'Nun' signals forward movement."
+  },
+  {
+    "line": 363,
+    "field": "exampleSrc",
+    "english": "A: I now come to the next point.\\nB: Please, continue.\\nA: I now come to the next point: the finances.\\nB: Thanks for the clear structure."
+  },
+  {
+    "line": 363,
+    "field": "funFact",
+    "english": "The standard transition phrase in German presentations. 'Nun' (now) signals movement forward. Every structured Vortrag uses this between Tagesordnungspunkte. It tells the audience: one section ends, the next begins."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "by (doing something)"
+  },
+  {
+    "line": 364,
+    "field": "note",
+    "english": "Instrumental subordinating conjunction.\\nDescribes HOW something is done."
+  },
+  {
+    "line": 364,
+    "field": "exampleSrc",
+    "english": "A: He convinced the audience by giving examples.\\nB: By practicing, you get better.\\nA: You learn by making mistakes.\\nB: Exactly. By doing it, you understand it."
+  },
+  {
+    "line": 364,
+    "field": "funFact",
+    "english": "In + dem (the). Instrumental subordinate conjunction. The clause after 'indem' describes HOW something is done. 'Er überzeugte das Publikum, indem er Praxisbeispiele nutzte' (He convinced the audience by using practical examples)."
+  },
+  {
+    "line": 365,
+    "field": "src",
+    "english": "by the fact that"
+  },
+  {
+    "line": 365,
+    "field": "note",
+    "english": "Two-word connector. Dadurch (through that) + dass.\\nMore explicit than indem."
+  },
+  {
+    "line": 365,
+    "field": "exampleSrc",
+    "english": "A: By the fact that he was well prepared, he convinced.\\nB: By the fact that everyone contributed, the result was good.\\nA: Success arises by working together.\\nB: By the fact that we practice, we get better."
+  },
+  {
+    "line": 365,
+    "field": "funFact",
+    "english": "Dadurch (through that) + dass. More explicit than 'indem.' Emphasizes the means or cause. Two-word connector introducing a subordinate clause. 'Dadurch, dass er gut vorbereitet war, überzeugte er' puts the cause front and center."
+  },
+  {
+    "line": 366,
+    "field": "src",
+    "english": "by means of"
+  },
+  {
+    "line": 366,
+    "field": "note",
+    "english": "Genitive preposition. Mittel (means) + -s.\\nFormal and precise. Used in technical writing."
+  },
+  {
+    "line": 366,
+    "field": "exampleSrc",
+    "english": "A: By means of a diagram, he explained the data.\\nB: By means of this method, we can solve the problem.\\nA: The analysis was carried out by means of statistical methods.\\nB: By means of practical examples, the topic became tangible."
+  },
+  {
+    "line": 366,
+    "field": "funFact",
+    "english": "Mittel (means) + -s (genitive). Genitive preposition. Formal and precise. 'Mittels eines Diagramms' (by means of a diagram). Used in technical and legal writing. The compact alternative to 'mit Hilfe von.'"
+  },
+  {
+    "line": 375,
+    "field": "desc",
+    "english": "Present arguments, introduce proposals, and weigh options. Academic vocabulary for structured debate and professional communication."
+  },
+  {
+    "line": 376,
+    "field": "unknown",
+    "english": "Learn verbs for structured argumentation"
+  },
+  {
+    "line": 377,
+    "field": "unknown",
+    "english": "Present and compare viewpoints"
+  },
+  {
+    "line": 378,
+    "field": "unknown",
+    "english": "Use transitional phrases in debate"
+  },
+  {
+    "line": 380,
+    "field": "src",
+    "english": "with the help of"
+  },
+  {
+    "line": 380,
+    "field": "note",
+    "english": "Takes Dativ via 'von.'\\nSlightly less formal than mittels."
+  },
+  {
+    "line": 380,
+    "field": "exampleSrc",
+    "english": "A: With the help of practical examples, he explained the topic.\\nB: With the help of diagrams, data become vivid.\\nA: With the help of colleagues, we managed it.\\nB: With the help of technology, everything goes faster."
+  },
+  {
+    "line": 380,
+    "field": "funFact",
+    "english": "Mit (with) + Hilfe (help) + von (of). Takes Dativ via 'von.' Slightly less formal than 'mittels.' 'Mithilfe von Praxisbeispielen' (with the help of practical examples) is everyday professional language."
+  },
+  {
+    "line": 381,
+    "field": "src",
+    "english": "chairperson"
+  },
+  {
+    "line": 381,
+    "field": "note",
+    "english": "Adjectival noun. Vor (before) + Sitzende (one who sits).\\nDeclines like an adjective: der/die Vorsitzende."
+  },
+  {
+    "line": 381,
+    "field": "exampleSrc",
+    "english": "A: The chairperson opens the meeting.\\nB: The chairwoman has the floor.\\nA: Who is the new chairperson?\\nB: Frau Meyer was elected chairwoman."
+  },
+  {
+    "line": 381,
+    "field": "funFact",
+    "english": "Vor (before) + Sitzende (one who sits). The one who sits at the front. Declines like an adjective: der Vorsitzende (m), die Vorsitzende (f), des Vorsitzenden (gen). Gender-flexible by grammar. Every Verein, Ausschuss, and Partei has one."
+  },
+  {
+    "line": 382,
+    "field": "src",
+    "english": "to carry out, to elaborate"
+  },
+  {
+    "line": 382,
+    "field": "note",
+    "english": "Separable: aus + führen.\\nDouble meaning: execute or explain in detail."
+  },
+  {
+    "line": 382,
+    "field": "exampleSrc",
+    "english": "A: We carry out the plan as discussed.\\nB: As I have already elaborated, the data are clear.\\nA: Can you elaborate on that?\\nB: Gladly. I will elaborate the point in detail."
+  },
+  {
+    "line": 382,
+    "field": "funFact",
+    "english": "Aus (out) + führen (to lead). Separable. Double meaning: execute ('den Plan ausführen') or explain in detail ('Wie ich bereits ausgeführt habe'). Leading something out from the abstract into reality."
+  },
+  {
+    "line": 383,
+    "field": "src",
+    "english": "to submit, to present a proposal"
+  },
+  {
+    "line": 383,
+    "field": "note",
+    "english": "Not separable. Unter (under) + breiten (to spread).\\n'Ich unterbreite Ihnen einen Vorschlag.'"
+  },
+  {
+    "line": 383,
+    "field": "exampleSrc",
+    "english": "A: I submit a proposal to you.\\nB: Please, submit your proposal.\\nA: We submitted an offer to the board.\\nB: The submitted proposal will be examined."
+  },
+  {
+    "line": 383,
+    "field": "funFact",
+    "english": "Unter (under) + breiten (to spread). Not separable. Spreading your idea under someone for their consideration. Very formal. 'Ich unterbreite Ihnen einen Vorschlag' is boardroom language at its most elegant."
+  },
+  {
+    "line": 384,
+    "field": "src",
+    "english": "to develop, to elaborate in detail"
+  },
+  {
+    "line": 384,
+    "field": "note",
+    "english": "Separable: aus + arbeiten.\\nWorking something from raw idea to finished product."
+  },
+  {
+    "line": 384,
+    "field": "exampleSrc",
+    "english": "A: We still need to develop the plan.\\nB: I will work out the details.\\nA: The concept is well developed.\\nB: By Friday, everything will be worked out."
+  },
+  {
+    "line": 384,
+    "field": "funFact",
+    "english": "Aus (out) + arbeiten (to work). Separable. Working something out from raw idea to finished product. 'Ausgearbeitet' = fully developed. A rough idea becomes a concrete plan through Ausarbeitung."
+  },
+  {
+    "line": 385,
+    "field": "src",
+    "english": "to introduce, to implement"
+  },
+  {
+    "line": 385,
+    "field": "note",
+    "english": "Separable: ein + führen.\\n'Wir führen ein neues System ein.'"
+  },
+  {
+    "line": 385,
+    "field": "exampleSrc",
+    "english": "A: We are introducing a new system next week.\\nB: When will it be introduced?\\nA: The introduction is planned for Monday.\\nB: Good. Please inform all employees."
+  },
+  {
+    "line": 385,
+    "field": "funFact",
+    "english": "Ein (in) + führen (to lead). Separable. Leading something new into existence. 'Einführung' = introduction (of a system, product, or concept). Not to be confused with 'vorstellen' (to introduce a person)."
+  },
+  {
+    "line": 386,
+    "field": "src",
+    "english": "to compile, to gather"
+  },
+  {
+    "line": 386,
+    "field": "note",
+    "english": "Separable: zusammen + tragen.\\nStrong verb: trug zusammen, zusammengetragen."
+  },
+  {
+    "line": 386,
+    "field": "exampleSrc",
+    "english": "A: We compile the results.\\nB: I have compiled all the data.\\nA: Please compile the information by tomorrow.\\nB: Everything compiled and sorted."
+  },
+  {
+    "line": 386,
+    "field": "funFact",
+    "english": "Zusammen (together) + tragen (to carry). Separable. Carrying pieces together into one place. Strong verb: zusammentragen/trug zusammen/zusammengetragen. The gathering phase before analysis."
+  },
+  {
+    "line": 387,
+    "field": "src",
+    "english": "to refer to"
+  },
+  {
+    "line": 387,
+    "field": "note",
+    "english": "Not separable. Ver- + weisen (to point).\\n'Ich verweise auf die Studie.'"
+  },
+  {
+    "line": 387,
+    "field": "exampleSrc",
+    "english": "A: I refer to the 2025 study.\\nB: The reference is justified.\\nA: He referred to earlier results.\\nB: May I refer to page 3?"
+  },
+  {
+    "line": 387,
+    "field": "funFact",
+    "english": "Ver- + weisen (to point/show). Not separable. Pointing someone toward a source. 'Verweis' (reference) is the noun. Essential in academic and professional presentations. Every claim needs a Verweis."
+  },
+  {
+    "line": 388,
+    "field": "src",
+    "english": "to hint at, to suggest"
+  },
+  {
+    "line": 388,
+    "field": "note",
+    "english": "Separable: an + deuten.\\nSubtle and diplomatic. 'Andeutung' is the noun."
+  },
+  {
+    "line": 388,
+    "field": "exampleSrc",
+    "english": "A: He hinted at changes.\\nB: What did he hint at?\\nA: The hints were vague.\\nB: Sometimes you have to read between the lines."
+  },
+  {
+    "line": 388,
+    "field": "funFact",
+    "english": "An (at) + deuten (to interpret/point). Separable. Not stating directly but pointing toward. Subtle and diplomatic. 'Andeutung' (hint) is the noun. In German business, sometimes people deuten an rather than state directly."
+  },
+  {
+    "line": 389,
+    "field": "src",
+    "english": "to transition, to segue"
+  },
+  {
+    "line": 389,
+    "field": "note",
+    "english": "Separable: über + leiten.\\nLeading the audience from one topic to the next."
+  },
+  {
+    "line": 389,
+    "field": "exampleSrc",
+    "english": "A: I transition to the next topic.\\nB: The transition was very elegant.\\nA: How does one best transition?\\nB: With a connecting sentence."
+  },
+  {
+    "line": 389,
+    "field": "funFact",
+    "english": "Über (over) + leiten (to lead). Separable. Leading the audience over from one topic to the next. The art of smooth Überleitungen separates good speakers from great ones. A clumsy Überleitung loses the audience."
+  },
+  {
+    "line": 390,
+    "field": "src",
+    "english": "to present, to introduce"
+  },
+  {
+    "line": 390,
+    "field": "note",
+    "english": "Separable: vor + stellen.\\nAlso reflexive: sich vorstellen (to introduce oneself)."
+  },
+  {
+    "line": 390,
+    "field": "exampleSrc",
+    "english": "A: I present the results.\\nB: May I introduce my colleague?\\nA: Please introduce yourself briefly.\\nB: I would like to present our new concept to you."
+  },
+  {
+    "line": 390,
+    "field": "funFact",
+    "english": "Vor (before) + stellen (to place). Separable. Placing something before the audience. Also reflexive: 'Ich stelle mich vor' (I introduce myself). The most versatile presentation verb in German."
+  },
+  {
+    "line": 391,
+    "field": "src",
+    "english": "to weigh against each other"
+  },
+  {
+    "line": 391,
+    "field": "note",
+    "english": "Multi-word verb. Gegeneinander (against each other) + abwägen.\\nThe core of German deliberative culture."
+  },
+  {
+    "line": 391,
+    "field": "exampleSrc",
+    "english": "A: We must weigh the options against each other.\\nB: Yes, weigh all advantages and disadvantages.\\nA: First weigh, then decide.\\nB: That is how one makes well-founded decisions."
+  },
+  {
+    "line": 391,
+    "field": "funFact",
+    "english": "Gegeneinander (against each other) + abwägen (to weigh). Putting arguments on a scale. The core of German deliberative culture. No decision is made without careful Abwägung. Pros on one side, cons on the other, then decide."
+  },
+  {
+    "line": 392,
+    "field": "text",
+    "english": "In many cultures, praise is expressed lavishly. In German professional culture, 'Gut gemacht' from a manager is already high praise.\\n\\n'Nicht schlecht' (not bad) is a genuine compliment.\\n'Passt' (fine/okay) means: everything is in order.\\n'Gut gemacht' means: you have exceeded expectations.\\n\\nGermans tend to understate positive feedback and express criticism directly. If nothing negative is said, things are going well. When 'Gut gemacht' is spoken, you have done something remarkable."
+  },
+  {
+    "line": 392,
+    "field": "text",
+    "english": "In German professional culture, excessive praise loses its value. 'Großartig!' after every little thing wears thin. That is why Germans give praise sparingly, so it retains weight. When a German manager says 'Das haben Sie gut gemacht,' they MEAN it. The praise is genuine because it is rare. Verumius has just experienced this: two words that feel like a full round of applause."
+  },
+  {
+    "line": 398,
+    "field": "hint",
+    "english": "This formula uses an imperative of the verb meaning 'to permit' addressed formally. It is the most elevated way to ask for the floor in German."
+  },
+  {
+    "line": 399,
+    "field": "hint",
+    "english": "The subordinating connector that describes the METHOD of an action. It answers the question 'how?' rather than 'why?' or 'when?'."
+  },
+  {
+    "line": 399,
+    "field": "sSrc",
+    "english": "He convinced the audience by using practical examples."
+  },
+  {
+    "line": 405,
+    "field": "hint",
+    "english": "'Vorausgesetzt dass' introduces the condition. 'So... dass' expresses the result. 'Um... zu' formulates the purpose."
+  },
+  {
+    "line": 412,
+    "field": "src",
+    "english": "Later, at the window. The city glows. Somewhere out there the next presentation waits. But this time he knows: he can do it. In German. In his own way."
+  }
+]

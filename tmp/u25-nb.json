@@ -1,0 +1,797 @@
+[
+  {
+    "line": 178,
+    "field": "funFact",
+    "english": "From Latin 'praecisus' (cut short). Academic writing demands precision. Vague language is the enemy. 'Seien Sie präziser' is a common margin note from German professors."
+  },
+  {
+    "line": 179,
+    "field": "note",
+    "english": "Adjective. Nach (after) + vollziehbar (traceable).\\n'Ihre Argumentation muss nachvollziehbar sein.'"
+  },
+  {
+    "line": 179,
+    "field": "funFact",
+    "english": "'Nach' (after) + 'vollziehbar' (executable/traceable). Others must be able to follow your logic step by step. If it is not nachvollziehbar, it is not wissenschaftlich."
+  },
+  {
+    "line": 180,
+    "field": "note",
+    "english": "Adjective. Methode + -isch.\\n'Methodisch vorgehen' (to proceed methodically)."
+  },
+  {
+    "line": 180,
+    "field": "funFact",
+    "english": "From 'Methode' + '-isch.' German academia demands methodisches Arbeiten (methodical work) as a baseline, not a bonus. Unmethodisch is never acceptable."
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Nominalization of auswerten. The -ung suffix always creates feminine nouns."
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "German loves turning verbs into nouns with -ung. It is one of the most productive word-formation patterns in the language."
+  },
+  {
+    "line": 208,
+    "field": "note",
+    "english": "Always plural. Semester + Ferien (holidays).\\n'In den Semesterferien' (during semester break)."
+  },
+  {
+    "line": 208,
+    "field": "funFact",
+    "english": "German students call them 'vorlesungsfreie Zeit' (lecture-free time), but they are NOT free: exam preparation, internships, and Hausarbeiten fill every day. The name is misleading by design."
+  },
+  {
+    "line": 209,
+    "field": "note",
+    "english": "Neuter noun. Plural: Stipendien.\\nFrom Latin 'stipendium' (tax/payment)."
+  },
+  {
+    "line": 209,
+    "field": "funFact",
+    "english": "Germany offers Stipendien from 13 major foundations. The Deutschlandstipendium gives 300 EUR per month. Not enough to live on, but prestigious on a CV. Half comes from the government, half from private donors."
+  },
+  {
+    "line": 210,
+    "field": "note",
+    "english": "Neuter noun. Studenten + Wohn (living) + Heim (home).\\nA triple compound noun."
+  },
+  {
+    "line": 210,
+    "field": "funFact",
+    "english": "Rooms cost 200-400 EUR per month. Shared kitchen, shared bathroom, shared everything. A German student rite of passage. Waiting lists can be months long. The Studentenwerk manages most Wohnheime."
+  },
+  {
+    "line": 211,
+    "field": "note",
+    "english": "Feminine noun. From 'prüfen' (to test).\\n'Eine Prüfung bestehen' (to pass an exam)."
+  },
+  {
+    "line": 211,
+    "field": "funFact",
+    "english": "German university exams can be oral (mündlich) or written (schriftlich). Failing twice at some universities means you cannot repeat the course. The Prüfungsangst (exam anxiety) is real and even has its own Wikipedia page."
+  },
+  {
+    "line": 212,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'clausura' (enclosure).\\nAlways written, always timed."
+  },
+  {
+    "line": 212,
+    "field": "funFact",
+    "english": "Different from Prüfung: a Klausur is always written, always timed, always in a supervised room. 'Klausur schreiben' (to take a written exam). The word comes from Latin 'clausura' (enclosure), because you are locked in."
+  },
+  {
+    "line": 213,
+    "field": "note",
+    "english": "Feminine noun. Haus (home) + Arbeit (work).\\nTypically 15-25 pages with strict formatting."
+  },
+  {
+    "line": 213,
+    "field": "funFact",
+    "english": "Written at home, hence the name. Typically 15-25 pages. German Hausarbeiten have strict formatting rules: margins, font size, citation style, everything regulated. The Deckblatt (cover page) alone has rules."
+  },
+  {
+    "line": 214,
+    "field": "note",
+    "english": "Masculine noun. N-Deklination: Kommilitone, Kommilitonen.\\nFrom Latin 'commilito' (fellow soldier)."
+  },
+  {
+    "line": 214,
+    "field": "funFact",
+    "english": "Students as 'comrades-in-arms' in the battle of education. N-Deklination: den Kommilitonen, dem Kommilitonen. Only used for university students, not school pupils. The word carries a sense of shared struggle."
+  },
+  {
+    "line": 215,
+    "field": "note",
+    "english": "Feminine noun. Kommilitone + '-in.'\\nPlural: Kommilitoninnen."
+  },
+  {
+    "line": 215,
+    "field": "funFact",
+    "english": "The feminine form follows the standard '-in' pattern. The gender-neutral trend uses 'Kommiliton*innen' or 'Mitstudierende' (fellow students). But Kommilitone/Kommilitonin persists in everyday university language."
+  },
+  {
+    "line": 216,
+    "field": "note",
+    "english": "Feminine noun. Sprech (speaking) + Stunde (hour).\\n'In die Sprechstunde gehen' (to go to office hours)."
+  },
+  {
+    "line": 216,
+    "field": "funFact",
+    "english": "Every German professor holds Sprechstunden. You must usually sign up in advance on a list outside the office door. 'Sprechstunde' is also used for doctors. The concept: a designated hour for speaking."
+  },
+  {
+    "line": 217,
+    "field": "note",
+    "english": "Feminine noun. Prüfung + Ordnung (order/regulation).\\nThe bureaucratic rulebook for all exams."
+  },
+  {
+    "line": 217,
+    "field": "funFact",
+    "english": "Every Studiengang has one. It specifies how many exam attempts, what percentage to pass, which deadlines. German Ordnung at its finest. Students who do not read their Prüfungsordnung regret it."
+  },
+  {
+    "line": 218,
+    "field": "note",
+    "english": "Separable verb. Ein (in) + reichen (to hand/reach).\\n'Die Hausarbeit einreichen' (to submit the paper)."
+  },
+  {
+    "line": 218,
+    "field": "funFact",
+    "english": "You 'reach it in' to the professor or department. Missing the Einreichungsfrist (submission deadline) typically means zero points. No exceptions, no extensions. German academic culture values punctuality above almost everything."
+  },
+  {
+    "line": 219,
+    "field": "note",
+    "english": "Regular verb. Reflexive: 'sich auf etwas spezialisieren.'\\nFrom Latin 'specialis.'"
+  },
+  {
+    "line": 219,
+    "field": "funFact",
+    "english": "Reflexive with 'sich auf.' From the general to the specific. 'Spezialisierung' is the nominalized form. German universities encourage early Spezialisierung compared to the broader American liberal arts model."
+  },
+  {
+    "line": 220,
+    "field": "note",
+    "english": "Regular -ieren verb. 'Über ein Thema referieren.'\\nA Referat is a student presentation."
+  },
+  {
+    "line": 220,
+    "field": "funFact",
+    "english": "A Referat is a student presentation, typically 15-20 minutes with a handout. 'Wer referiert nächsste Woche?' is the professor's dreaded question. The word comes from Latin 'referre' (to report). Academic ritual."
+  },
+  {
+    "line": 221,
+    "field": "note",
+    "english": "Regular -ieren verb.\\n'Einen Artikel publizieren' (to publish an article)."
+  },
+  {
+    "line": 221,
+    "field": "funFact",
+    "english": "The academic pressure: 'Publish or perish' is 'Publiziere oder gehe unter' in German. Publications are academic currency. Your Publikationsliste (list of publications) determines your career. Quantity and quality both count."
+  },
+  {
+    "line": 222,
+    "field": "note",
+    "english": "Regular -ieren verb.\\n'Sie promoviert in Physik' (she is doing her PhD in physics)."
+  },
+  {
+    "line": 222,
+    "field": "funFact",
+    "english": "German doctoral titles (Dr.) are used in everyday life, even on doorbells and ID cards. 'Herr Doktor' is a form of address. The Promotion (doctorate) is the highest academic achievement, and Germans wear it proudly."
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Adjective. Zu (to) + verlaessig (relying).\\n'Zuverlässiige Quellen' (reliable sources)."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "Academic writing demands zuverlässiige sources. Wikipedia alone is never zuverlässiig enough for a Hausarbeit. The adjective also describes people: 'Er ist zuverlässiig' (He is reliable). A high compliment in German culture."
+  },
+  {
+    "line": 224,
+    "field": "note",
+    "english": "Adjective/participle. From Latin 'fundare' (to found).\\n'Fundierte Argumentation' (well-founded argumentation)."
+  },
+  {
+    "line": 224,
+    "field": "funFact",
+    "english": "Your claims need a Fundament (foundation). A fundierte Studie is one built on solid evidence. The opposite: 'unbefundiert' or 'haltlos' (baseless). In German academia, unfundierte claims are the cardinal sin."
+  },
+  {
+    "line": 225,
+    "field": "note",
+    "english": "Adjective. From Latin 'complexus' (intertwined).\\n'Ein komplexes Thema' (a complex topic)."
+  },
+  {
+    "line": 225,
+    "field": "funFact",
+    "english": "Academic code for 'this will be difficult.' 'Die Komplexitaet' (the complexity) is the nominalized form. German scholars love to call problems 'komplex' rather than 'schwierig.' It sounds more respectful of the challenge."
+  },
+  {
+    "line": 226,
+    "field": "note",
+    "english": "Adjective. Stich (stab) + haltig (holding).\\n'Ein stichhaltiges Argument' (a sound argument)."
+  },
+  {
+    "line": 226,
+    "field": "funFact",
+    "english": "Literally: an argument that 'holds up under stabbing.' Battle-tested logic. If your Argument is stichhaltig, no one can poke holes in it. The metaphor is beautifully physical for something purely intellectual."
+  },
+  {
+    "line": 227,
+    "field": "note",
+    "english": "Adjective/participle. Um (around) + fassend (grasping).\\n'Eine umfassende Studie' (a comprehensive study)."
+  },
+  {
+    "line": 227,
+    "field": "funFact",
+    "english": "Grasping something from all sides. 'Umfassend' means nothing is left out. The prefix 'um-' (around) creates the image of wrapping your arms around an entire topic. The ultimate academic compliment for a study."
+  },
+  {
+    "line": 249,
+    "field": "note",
+    "english": "Feminine noun. Diplom + Arbeit.\\nThe old German degree thesis before the Bologna reform."
+  },
+  {
+    "line": 249,
+    "field": "funFact",
+    "english": "Many Germans over 40 still proudly cite their Diplomarbeit. The Bologna reform replaced the Diplom with Bachelor and Master around 2010. The Diplom-Ingenieur (Dipl.-Ing.) title is a source of generational pride."
+  },
+  {
+    "line": 250,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'dissertatio' (discussion).\\n'An der Dissertation schreiben' (to be writing one's doctoral thesis)."
+  },
+  {
+    "line": 250,
+    "field": "funFact",
+    "english": "German Dissertationen are published as books, often by academic publishers. Writing one can last 3-7 years. The Rigorosum or Disputation (oral defense) is the final hurdle. Several German politicians lost their Dr. titles due to Dissertations-Plagiate."
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "Neuter noun. Literatur + Verzeichnis (index/list).\\nAlphabetically ordered list of all sources."
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "Every German Hausarbeit ends with one. Alphabetically ordered by author last name. Missing a source equals academic dishonesty. The Literaturverzeichnis is the proof that you did your homework. Literally."
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "Feminine noun. Fuss (foot) + Note (note).\\nGerman academic writing uses footnotes extensively."
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "Some pages in German academic writing have more footnote text than main text. Fussnoten prove you did your research. They contain citations, cross-references, and additional commentary. A Hausarbeit without Fussnoten is incomplete."
+  },
+  {
+    "line": 253,
+    "field": "note",
+    "english": "Feminine noun. Ein (in) + Leitung (leading).\\n'In der Einleitung stellen Sie Ihre These vor.'"
+  },
+  {
+    "line": 253,
+    "field": "funFact",
+    "english": "The Einleitung leads the reader into your argument. It must contain: Forschungsfrage, Methode, Gliederung, and your central These. A good Einleitung is a contract with the reader about what they will receive."
+  },
+  {
+    "line": 254,
+    "field": "note",
+    "english": "Feminine noun. From 'gliedern' (to structure).\\nNumbered: 1., 1.1, 1.1.1, etc."
+  },
+  {
+    "line": 254,
+    "field": "funFact",
+    "english": "German Hausarbeiten require a detailed Gliederung with numbered sections: 1., 1.1, 1.1.1. The Gliederung IS the argument in miniature. Professors often ask to see the Gliederung before you start writing."
+  },
+  {
+    "line": 255,
+    "field": "note",
+    "english": "Masculine noun. Nach (after) + Weis (showing).\\n'Einen Nachweis erbringen' (to provide proof)."
+  },
+  {
+    "line": 255,
+    "field": "funFact",
+    "english": "Academic and bureaucratic German. Your Leistungsnachweis proves you passed a course. Your Sprachnachweis proves your language level. Germany loves Nachweise: written proof for everything. Without a Nachweis, it did not happen."
+  },
+  {
+    "line": 256,
+    "field": "note",
+    "english": "Neuter noun. From Latin 'plagiarius' (kidnapper).\\nGerman universities scan every submission."
+  },
+  {
+    "line": 256,
+    "field": "funFact",
+    "english": "German universities take Plagiate extremely seriously. Software scans every submission. Several German politicians lost their doctoral titles to Plagiat scandals, including a former defense minister. The word comes from Latin for 'kidnapper.'"
+  },
+  {
+    "line": 257,
+    "field": "note",
+    "english": "Feminine noun. From French 'recherche' (search).\\nMore specific than Forschung."
+  },
+  {
+    "line": 257,
+    "field": "funFact",
+    "english": "More specific than Forschung: Recherche is the active search for information. Forschung is the broader scientific endeavor. Journalists do Recherche too. 'Gruendliche Recherche' (thorough research) is the prerequisite for everything academic."
+  },
+  {
+    "line": 258,
+    "field": "note",
+    "english": "Feminine noun. Reihen (rows) + Folge (sequence).\\n'In der richtigen Reihenfolge' (in the correct order)."
+  },
+  {
+    "line": 258,
+    "field": "funFact",
+    "english": "The order in which things follow in a row. German loves compound precision. 'In chronologischer Reihenfolge' (in chronological order), 'in alphabetischer Reihenfolge' (in alphabetical order). The concept of order has its own compound word."
+  },
+  {
+    "line": 259,
+    "field": "note",
+    "english": "Regular verb. Ver- + fassen (to grasp/compose).\\nMore formal than 'schreiben.'"
+  },
+  {
+    "line": 259,
+    "field": "funFact",
+    "english": "More formal than 'schreiben.' You verfassen a Hausarbeit. You schreiben a WhatsApp message. Academic register demands 'verfassen' for serious texts. 'Der Verfasser' (the author) is the formal word for who wrote it."
+  },
+  {
+    "line": 260,
+    "field": "note",
+    "english": "Regular -ieren verb.\\nRestating ideas in your own words."
+  },
+  {
+    "line": 260,
+    "field": "funFact",
+    "english": "Essential academic skill: restating ideas in your own words while keeping the meaning. Bad paraphrasieren too close to the original equals Plagiat. German professors can spot lazy paraphrasing instantly."
+  },
+  {
+    "line": 261,
+    "field": "note",
+    "english": "Regular -ieren verb. From Latin 'citare' (to summon).\\n'Korrekt zitieren' (to cite correctly)."
+  },
+  {
+    "line": 261,
+    "field": "funFact",
+    "english": "German citation styles (Chicago, Harvard, APA) are taught in every Proseminar. 'Wer nicht zitiert, plagiiert' (Who does not cite, plagiarizes). The Zitat (quote) must be exact. Even a missing comma can be a problem."
+  },
+  {
+    "line": 262,
+    "field": "note",
+    "english": "Regular -ieren verb. Re- (again) + konstruieren.\\n'Ein Argument rekonstruieren' (to reconstruct an argument)."
+  },
+  {
+    "line": 262,
+    "field": "funFact",
+    "english": "Building something again from its pieces. Academic skill: understanding HOW an argument was built. 'Die Rekonstruktion' is the nominalized form. In Hausarbeiten you often must reconstruct other scholars' arguments before critiquing them."
+  },
+  {
+    "line": 263,
+    "field": "note",
+    "english": "Inseparable verb. Über (over) + arbeiten (to work).\\n'Den Text überarbeiten' (to revise the text)."
+  },
+  {
+    "line": 263,
+    "field": "funFact",
+    "english": "Not separable. Working OVER your text again and again. First draft is never good enough. Die Überarbeitung is where quality lives. German professors expect multiple drafts. 'Überarbeiten Sie den Text' is the most common feedback."
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Separable verb. Nach (after) + weisen (to show).\\nStronger than 'zeigen.'"
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "Stronger than 'zeigen' (to show): nachweisen demands evidence. 'Ich weise nach, dass...' (I demonstrate that...). The nominalized form 'der Nachweis' is equally important. Academic German distinguishes between showing and proving."
+  },
+  {
+    "line": 265,
+    "field": "note",
+    "english": "Inseparable verb. Ver- + weisen (to point).\\n'Auf eine Quelle verweisen' (to refer to a source)."
+  },
+  {
+    "line": 265,
+    "field": "funFact",
+    "english": "Not separable. 'Siehe auch...' (See also...) is a Verweis in written form. 'Der Verweis' (the reference) is the noun. Academic texts are networks of Verweise: every claim points to another source."
+  },
+  {
+    "line": 266,
+    "field": "note",
+    "english": "Inseparable verb. Ver- + tiefen (from tief, deep).\\nVerbalisierung: adjective 'tief' becomes verb 'vertiefen.'"
+  },
+  {
+    "line": 266,
+    "field": "funFact",
+    "english": "Verbalisierung in action: the adjective 'tief' (deep) becomes the verb 'vertiefen' (to deepen). Going below the surface. 'Die Vertiefung' is the nominalized form. Academic work IS Vertiefung: going deeper than the surface allows."
+  },
+  {
+    "line": 267,
+    "field": "note",
+    "english": "Adjective. From Greek 'analytikos.'\\n'Analytisches Denken' (analytical thinking)."
+  },
+  {
+    "line": 267,
+    "field": "funFact",
+    "english": "The adjective form of Analyse. 'Ein analytischer Ansatz' (an analytical approach). Required on every German academic CV under 'Faehigkeiten' (skills). Analytical thinking is not just valued: it is expected as baseline competence."
+  },
+  {
+    "line": 268,
+    "field": "note",
+    "english": "Adjective. From Latin 'significare' (to indicate).\\n'Statistisch signifikant' (statistically significant)."
+  },
+  {
+    "line": 268,
+    "field": "funFact",
+    "english": "In research, signifikant has a precise meaning: the result is unlikely to be random (p < 0.05). Not just 'important' but 'proven meaningful.' Using 'signifikant' casually is a common mistake that annoys statisticians."
+  },
+  {
+    "line": 276,
+    "field": "note",
+    "english": "From French 'rechercher'. Active verb for finding sources.\\nMore specific than 'forschen': targeted source search."
+  },
+  {
+    "line": 276,
+    "field": "funFact",
+    "english": "Borrowed from French 'rechercher' in the 18th century. More specific than forschen: you recherchieren when actively hunting for sources. Journalists and academics both recherchieren. The noun is 'die Recherche.'"
+  },
+  {
+    "line": 294,
+    "field": "note",
+    "english": "Feminine noun. Forschung + Frage.\\nThe first thing every Hausarbeit must state."
+  },
+  {
+    "line": 294,
+    "field": "funFact",
+    "english": "The first thing every Hausarbeit must state. 'Was ist Ihre Forschungsfrage?' Without one, your paper has no direction. A good Forschungsfrage is specific, answerable, and relevant. It is the compass of your entire paper."
+  },
+  {
+    "line": 295,
+    "field": "note",
+    "english": "Neuter noun. Forschung + Ergebnis.\\nPlural: Forschungsergebnisse."
+  },
+  {
+    "line": 295,
+    "field": "funFact",
+    "english": "A compound built from two already-nominalized words: Forschung (from forschen) + Ergebnis (from ergeben). Plural: Forschungsergebnisse. German loves stacking nominalizations. Each layer adds precision."
+  },
+  {
+    "line": 296,
+    "field": "note",
+    "english": "Masculine noun. Fach (subject) + Bereich (area).\\n'Im Fachbereich Linguistik.'"
+  },
+  {
+    "line": 296,
+    "field": "funFact",
+    "english": "More specific than Fakultaet. A Fachbereich is a subdivision of a Fakultaet. 'Im Fachbereich Linguistik' (in the linguistics department). The organizational unit where your academic life happens daily."
+  },
+  {
+    "line": 297,
+    "field": "note",
+    "english": "Neuter noun. Fach + Gebiet (territory).\\n'Mein Fachgebiet ist Computerlinguistik.'"
+  },
+  {
+    "line": 297,
+    "field": "funFact",
+    "english": "Your academic territory. Fach (subject) + Gebiet (territory). 'Fachgebiet' implies ownership: this is YOUR area of knowledge. German academics identify strongly with their Fachgebiet. It becomes part of their identity."
+  },
+  {
+    "line": 298,
+    "field": "note",
+    "english": "Feminine noun. Fach + Sprache.\\nEvery discipline has its own Fachsprache."
+  },
+  {
+    "line": 298,
+    "field": "funFact",
+    "english": "Every academic discipline has its own Fachsprache. Linguists study Fachsprache itself: meta-language about language. 'Medizinische Fachsprache' (medical jargon), 'juristische Fachsprache' (legal jargon). Each is a language within a language."
+  },
+  {
+    "line": 299,
+    "field": "note",
+    "english": "Feminine noun. Hoch (high) + Schule (school).\\nBroader than Universitaet."
+  },
+  {
+    "line": 299,
+    "field": "funFact",
+    "english": "Broader than Universitaet: includes Fachhochschulen (universities of applied sciences). 'Hochschulbildung' (higher education). Germany has over 400 Hochschulen. The word literally means 'high school' but refers to tertiary education, not secondary."
+  },
+  {
+    "line": 300,
+    "field": "note",
+    "english": "Masculine noun. Leistung (achievement) + Nachweis (proof).\\nProof that you passed a course."
+  },
+  {
+    "line": 300,
+    "field": "funFact",
+    "english": "You collect Leistungsnachweise like currency: each one counts toward your degree. Without the right Leistungsnachweise, you cannot register for the final exam. German bureaucracy meets academia in this compound noun."
+  },
+  {
+    "line": 301,
+    "field": "note",
+    "english": "Neuter noun. From Latin 'rector' (ruler).\\nThe administrative heart of the university."
+  },
+  {
+    "line": 301,
+    "field": "funFact",
+    "english": "Where policy is made. The Rektor or Rektorin is the university president. The Rektorat is their office and the administrative body. 'Im Rektorat vorstellig werden' (to appear at the president's office) is usually not a good sign."
+  },
+  {
+    "line": 302,
+    "field": "note",
+    "english": "Feminine noun. Wirksam (effective) + -keit.\\nNominalisierung: adjective to noun."
+  },
+  {
+    "line": 302,
+    "field": "funFact",
+    "english": "Nominalisierung: adjective 'wirksam' (effective) + '-keit' becomes the noun 'Wirksamkeit.' The same pattern: freundlich > Freundlichkeit, zuverlässiig > Zuverlässiigkeit. The '-keit' suffix is productive with '-sam' adjectives."
+  },
+  {
+    "line": 303,
+    "field": "note",
+    "english": "Feminine noun. Stich (stab/prick) + Probe (test/sample).\\n'Eine repraesentative Stichprobe.'"
+  },
+  {
+    "line": 303,
+    "field": "funFact",
+    "english": "You 'prick' into the data to extract a test portion. A repraesentative Stichprobe must reflect the whole population. Too small, and your results are not signifikant. Too large, and you waste resources. Finding the right Stichprobe is an art."
+  },
+  {
+    "line": 304,
+    "field": "note",
+    "english": "Separable verb. An (on) + wenden (to turn).\\n'Methoden anwenden' (to apply methods)."
+  },
+  {
+    "line": 304,
+    "field": "funFact",
+    "english": "Separable: 'Ich wende die Methode an.' You turn (wenden) knowledge toward (an) a problem. 'Die Anwendung' is the nominalized form. Verbalisierung in reverse: the noun Anwendung became the verb anwenden, or perhaps the other way around."
+  },
+  {
+    "line": 305,
+    "field": "note",
+    "english": "Separable verb. Auf (up) + stellen (to place).\\n'Eine Hypothese aufstellen.'"
+  },
+  {
+    "line": 305,
+    "field": "funFact",
+    "english": "You place your idea up for examination. 'Eine These aufstellen' (to put forward a thesis). Separable: 'Ich stelle eine Hypothese auf.' The Aufstellung (setup/proposal) is the nominalized form. Academic German demands that you aufstellen before you beweisen."
+  },
+  {
+    "line": 306,
+    "field": "note",
+    "english": "Regular verb. Be- + legen (to lay/place).\\nDouble meaning in academic contexts."
+  },
+  {
+    "line": 306,
+    "field": "funFact",
+    "english": "Double meaning: 'Eine These belegen' (to substantiate a thesis with evidence) and 'Einen Kurs belegen' (to enroll in a course). The Beleg (proof/receipt) is the nominalized form. In both cases, you 'lay down' something as proof or claim."
+  },
+  {
+    "line": 307,
+    "field": "note",
+    "english": "Inseparable verb. Wider (against) + legen (to lay).\\nThe opposite of belegen."
+  },
+  {
+    "line": 307,
+    "field": "funFact",
+    "english": "The opposite of belegen. You lay evidence AGAINST a claim. Not separable. 'Die Widerlegung' (refutation) is the nominalized form. In good science, a widerlegt hypothesis is just as valuable as a confirmed one."
+  },
+  {
+    "line": 308,
+    "field": "note",
+    "english": "Separable verb. Zusammen (together) + fassen (to grasp).\\n'Die Ergebnisse zusammenfassen.'"
+  },
+  {
+    "line": 308,
+    "field": "funFact",
+    "english": "Grasping everything together into one compact form. Separable: 'Ich fasse die Ergebnisse zusammen.' Die Zusammenfassung (summary) is the nominalized form. Every German Hausarbeit ends with a Zusammenfassung. It must be short, precise, and self-contained."
+  },
+  {
+    "line": 309,
+    "field": "note",
+    "english": "Regular -ieren verb. From French 'evaluer.'\\nMore formal than bewerten."
+  },
+  {
+    "line": 309,
+    "field": "funFact",
+    "english": "More formal than bewerten. Used in institutional contexts: Lehrevaluation (teaching evaluation) happens every semester at German universities. Students rate their professors, and the results are taken seriously. Sometimes."
+  },
+  {
+    "line": 310,
+    "field": "note",
+    "english": "Regular -ieren verb. From Latin 'documentare.'\\n'Ergebnisse dokumentieren.'"
+  },
+  {
+    "line": 310,
+    "field": "funFact",
+    "english": "Every step of research must be documented. Die Dokumentation is the nominalized form. In German academia, undocumented work might as well not exist. 'Sorgfaeltige Dokumentation' (careful documentation) is a research fundamental."
+  },
+  {
+    "line": 311,
+    "field": "note",
+    "english": "Regular -ieren verb. From Latin 'differentia.'\\n'Zwischen Theorie und Praxis differenzieren.'"
+  },
+  {
+    "line": 311,
+    "field": "funFact",
+    "english": "Academic precision: seeing differences others miss. 'Differenzieren zwischen' (to differentiate between). 'Die Differenzierung' is the nominalized form. German academic culture values nuance: the ability to differenzieren separates good scholars from mediocre ones."
+  },
+  {
+    "line": 312,
+    "field": "note",
+    "english": "Adjective. From Greek 'hypothesis.'\\nKonjunktiv II is the grammar of hypothetische Situationen."
+  },
+  {
+    "line": 312,
+    "field": "funFact",
+    "english": "The adjective form of Hypothese. Konjunktiv II past is the grammar of hypothetische Vergangenheit (hypothetical past). 'Hypothetisch gesehen' (hypothetically speaking) frames academic thought experiments."
+  },
+  {
+    "line": 313,
+    "field": "note",
+    "english": "Adjective. Inter- (between) + disziplinaer.\\n'Interdisziplinaere Forschung.'"
+  },
+  {
+    "line": 313,
+    "field": "funFact",
+    "english": "Working across Fachbereiche. Modern academia values interdisziplinaer collaboration. 'Interdisziplinaere Zusammenarbeit' (interdisciplinary collaboration) is a funding buzzword. The best research often happens at the borders between disciplines."
+  },
+  {
+    "line": 355,
+    "field": "note",
+    "english": "Feminine noun. Um (around) + Frage (question).\\n'Eine Umfrage durchführen' (to conduct a survey)."
+  },
+  {
+    "line": 355,
+    "field": "funFact",
+    "english": "You ask questions 'around' a group. Meinungsumfrage (opinion poll) is what news channels love before elections. Online-Umfragen have revolutionized academic research. Die Umfrage is the researcher's workhorse."
+  },
+  {
+    "line": 356,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'variabilis.'\\nAlways feminine in German."
+  },
+  {
+    "line": 356,
+    "field": "funFact",
+    "english": "Statistical terminology borrowed directly from Latin. Always feminine in German. 'Abhängige und unabhängige Variablen' (dependent and independent variables). The foundation of experimental research design."
+  },
+  {
+    "line": 357,
+    "field": "note",
+    "english": "Feminine noun. Daten (data) + Bank (bench/bank).\\n'In der Datenbank suchen.'"
+  },
+  {
+    "line": 357,
+    "field": "funFact",
+    "english": "Where data sits on a 'bench' waiting to be accessed. 'In der Datenbank suchen' (to search the database). Modern research without Datenbanken is unthinkable. The metaphor: data resting on a bank, ready for withdrawal."
+  },
+  {
+    "line": 358,
+    "field": "note",
+    "english": "Feminine noun. Borrowed directly from English.\\nUsed alongside 'Frist' (deadline/time limit)."
+  },
+  {
+    "line": 358,
+    "field": "funFact",
+    "english": "Germans use it alongside 'Frist' (deadline/time limit). 'Die Deadline einhalten' (to meet the deadline). One of many English words adopted unchanged into German. The gender is feminine, following the pattern of 'die Frist.'"
+  },
+  {
+    "line": 359,
+    "field": "note",
+    "english": "Masculine or feminine (der/die Dozierende).\\nPresent participle of 'dozieren' used as noun."
+  },
+  {
+    "line": 359,
+    "field": "funFact",
+    "english": "The modern gender-inclusive alternative to Dozent/Dozentin. Participle used as noun: 'dozierend' (lecturing) becomes 'der/die Dozierende.' Part of the gender-neutral language movement in German academia."
+  },
+  {
+    "line": 360,
+    "field": "note",
+    "english": "Masculine noun. From 'belegen' (to prove).\\n'Einen Beleg vorlegen' (to present evidence)."
+  },
+  {
+    "line": 360,
+    "field": "funFact",
+    "english": "In academic writing: a passage that supports your argument. In everyday life: a receipt (Kassenbeleg). The nominalized form of belegen. 'Belege sammeln' (to collect evidence) is what researchers and accountants both do."
+  },
+  {
+    "line": 361,
+    "field": "note",
+    "english": "Masculine noun. Be- + Fund (find/discovery).\\n'Der empirische Befund.'"
+  },
+  {
+    "line": 361,
+    "field": "funFact",
+    "english": "More specific than Ergebnis: a Befund is what you actually found during investigation. Medical: 'Der aerztliche Befund' (medical findings). Academic: 'Der empirische Befund' (the empirical finding). What the data actually revealed."
+  },
+  {
+    "line": 362,
+    "field": "note",
+    "english": "Masculine noun. Gegen (opposite) + Stand (standing).\\n'Der Gegenstand der Untersuchung.'"
+  },
+  {
+    "line": 362,
+    "field": "funFact",
+    "english": "What stands before you for examination. 'Der Forschungsgegenstand' (the research subject) is more precise than 'Thema' (topic). The word implies physicality: something standing opposite you, waiting to be examined. Academic German at its most concrete-abstract."
+  },
+  {
+    "line": 363,
+    "field": "note",
+    "english": "Separable verb. Voraus (ahead) + setzen (to set).\\n'Grundkenntnisse voraussetzen.'"
+  },
+  {
+    "line": 363,
+    "field": "funFact",
+    "english": "What must be 'set ahead' before you can proceed. Separable: 'Der Kurs setzt Grundkenntnisse voraus.' 'Die Voraussetzung' (the prerequisite) is the nominalized form. German universities list Voraussetzungen for every course."
+  },
+  {
+    "line": 364,
+    "field": "note",
+    "english": "Separable verb. Gegenüber (opposite) + stellen (to place).\\n'Zwei Theorien gegenüberstellen.'"
+  },
+  {
+    "line": 364,
+    "field": "funFact",
+    "english": "Placing two things opposite each other to see differences. Separable: 'Ich stelle die Theorien gegenüber.' 'Die Gegenüberstellung' (the juxtaposition) is the nominalized form. A powerful analytical tool in academic writing."
+  },
+  {
+    "line": 365,
+    "field": "note",
+    "english": "Strong verb: erwarb, erworben. Er- + werben.\\n'Kenntnisse erwerben' (to acquire knowledge)."
+  },
+  {
+    "line": 365,
+    "field": "funFact",
+    "english": "Strong verb: erwerben/erwarb/erworben. You 'recruit' knowledge to yourself. Formal register. 'Der Erwerb' (the acquisition) is the nominalized form. 'Spracherwerb' (language acquisition) is what Verumius has been doing this entire time."
+  },
+  {
+    "line": 366,
+    "field": "note",
+    "english": "Feminine noun. Gleich (equal) + -heit.\\nNominalisierung: adjective to noun."
+  },
+  {
+    "line": 366,
+    "field": "funFact",
+    "english": "Article 3 of the German Grundgesetz guarantees Gleichheit vor dem Gesetz (equality before the law). Nominalisierung: adjective 'gleich' (equal) becomes noun 'Gleichheit.' Same pattern as frei > Freiheit, sicher > Sicherheit."
+  },
+  {
+    "line": 367,
+    "field": "note",
+    "english": "Feminine noun. Gerecht (just/fair) + -igkeit.\\nThe -igkeit suffix on consonant-cluster adjectives."
+  },
+  {
+    "line": 367,
+    "field": "funFact",
+    "english": "A core value in German political discourse. 'Soziale Gerechtigkeit' (social justice) is a central theme in every Bundestagswahl (federal election). The '-igkeit' suffix on adjectives ending in consonant clusters: gerecht > Gerechtigkeit."
+  },
+  {
+    "line": 368,
+    "field": "note",
+    "english": "Feminine noun. Frei (free) + -heit.\\nConstitutionally protected in Germany."
+  },
+  {
+    "line": 368,
+    "field": "funFact",
+    "english": "'Akademische Freiheit' (academic freedom) is constitutionally protected in Germany, Article 5 Grundgesetz. The Berlin Wall's fall was a victory for Freiheit. Nominalisierung: adjective 'frei' becomes noun 'Freiheit.' One of the most powerful words in German."
+  },
+  {
+    "line": 369,
+    "field": "note",
+    "english": "Feminine noun. Sicher (safe/certain) + -heit.\\n'Mit Sicherheit' (with certainty)."
+  },
+  {
+    "line": 369,
+    "field": "funFact",
+    "english": "German values Sicherheit in all its meanings: social security (soziale Sicherheit), job security (Arbeitsplatzsicherheit), certainty of knowledge (Wissenssicherheit). 'Mit Sicherheit' means both 'with certainty' and 'safely.' A culture word."
+  }
+]

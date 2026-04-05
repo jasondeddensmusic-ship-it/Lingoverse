@@ -1,0 +1,1017 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Verumius stands in front of the Goethe-Institut. Today is the B2 exam day. Same door as the B1 exam, but the expectations are higher."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn 17 words related to the exam"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Understand the four sections of the Goethe B2"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Express nervousness and determination"
+  },
+  {
+    "line": 9,
+    "field": "unknown",
+    "english": "Know exam strategies in German"
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "Early morning. Berlin. The Goethe-Institut on Neue Schönhauser Straße. Verumius stands at the entrance, hands in his jacket pockets. He has been here before, for the B1 exam. Same door. Same steps. But today the certificate says B2."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "Exam day. Again. But this time everything is harder. Reading comprehension, listening comprehension, writing, speaking. Four parts. Three hours."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "He takes a deep breath. He thinks of Dr. Yilmaz: 'You can do this. You worked hard.' He thinks of Hildi correcting his dative for two years. He thinks of every Döner ordered, every form filled out, every misunderstanding survived."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "By staying calm and working systematically, I can do this. I am prepared."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "He pushes through the glass door. The exam room waits."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "exam section"
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: How many exam sections does the B2 exam have?\\nB: Four exam sections.\\nA: Which exam section is the hardest?\\nB: For me, the listening comprehension."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "listening comprehension"
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: The listening comprehension was hard.\\nB: Yes, the speakers were very fast.\\nA: How do you practice listening comprehension?\\nB: With podcasts and radio."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "reading comprehension"
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: Reading comprehension takes 65 minutes.\\nB: That is a lot of text.\\nA: What comes in the reading comprehension?\\nB: Newspaper articles and formal letters."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "writing task"
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: The writing task was interesting.\\nB: What was the topic?\\nA: Digital media in school.\\nB: Oh, you can write a lot about that."
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "language building block"
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: What are language building blocks?\\nB: Gaps in the text that you must fill.\\nA: So a grammar test?\\nB: Yes, but in context, not in isolation."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "text production"
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: Text production is the hardest part.\\nB: Why?\\nA: You have to argue, not just describe.\\nB: Structure and expression count."
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "exam preparation"
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: Did you do an exam preparation course?\\nB: Yes, an intensive course.\\nA: Did the exam preparation help?\\nB: A lot. I now know all the task types."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "exam anxiety"
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: Do you have exam anxiety?\\nB: Yes, every time.\\nA: What helps against exam anxiety?\\nB: Breathing deeply and being well prepared."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "time allowed, processing time"
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: How long is the time allowed?\\nB: 75 minutes for the writing section.\\nA: Is the time allowed enough?\\nB: Barely. You have to work fast."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "to pass (an exam)"
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Did you pass the exam?\\nB: Yes, with 78 points!\\nA: Congratulations!\\nB: Thanks. 'Passed!' is the most beautiful word."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "to read through completely"
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Read the task through completely first.\\nB: Read everything through, then answer?\\nA: Exactly. Reading through saves time.\\nB: Okay, I'll read everything through."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "to mark, to highlight"
+  },
+  {
+    "line": 27,
+    "field": "exampleSrc",
+    "english": "A: Mark the keywords.\\nB: With a highlighter?\\nA: Yes, marking helps with understanding.\\nB: I always mark the most important parts."
+  },
+  {
+    "line": 28,
+    "field": "src",
+    "english": "to correct, to proofread"
+  },
+  {
+    "line": 28,
+    "field": "exampleSrc",
+    "english": "A: Did you correct the text?\\nB: Yes, I found three mistakes.\\nA: Correcting is important.\\nB: Five minutes at the end are enough."
+  },
+  {
+    "line": 29,
+    "field": "src",
+    "english": "to structure"
+  },
+  {
+    "line": 29,
+    "field": "exampleSrc",
+    "english": "A: How do you structure your essay?\\nB: Introduction, main body, conclusion.\\nA: Well-structured texts get better grades.\\nB: Yes, structure is half the battle."
+  },
+  {
+    "line": 30,
+    "field": "src",
+    "english": "advanced"
+  },
+  {
+    "line": 30,
+    "field": "exampleSrc",
+    "english": "A: Are you a beginner?\\nB: No, advanced.\\nA: Advanced German skills?\\nB: Yes, B2 level."
+  },
+  {
+    "line": 31,
+    "field": "src",
+    "english": "exam-relevant"
+  },
+  {
+    "line": 31,
+    "field": "exampleSrc",
+    "english": "A: Is that exam-relevant?\\nB: Yes, that comes up in the exam.\\nA: Then I'll study that more carefully.\\nB: Everything here is exam-relevant."
+  },
+  {
+    "line": 32,
+    "field": "src",
+    "english": "on time, in good time"
+  },
+  {
+    "line": 32,
+    "field": "exampleSrc",
+    "english": "A: Did you arrive on time?\\nB: Yes, 20 minutes before the exam.\\nA: Good. Being on time reduces stress.\\nB: Better too early than too late."
+  },
+  {
+    "line": 33,
+    "field": "hint",
+    "english": "The four sections are Lesen, Hören, Schreiben, and Sprechen. Translation is not tested."
+  },
+  {
+    "line": 33,
+    "field": "sSrc",
+    "english": "The Goethe B2 exam has four exam sections. Which does NOT belong?"
+  },
+  {
+    "line": 34,
+    "field": "hint",
+    "english": "The separable prefix that signals reading something all the way to the end. Think of a directional prefix meaning movement through something completely."
+  },
+  {
+    "line": 34,
+    "field": "sSrc",
+    "english": "Read the task through completely first."
+  },
+  {
+    "line": 44,
+    "field": "desc",
+    "english": "The vocabulary of the exam world. Task types, assessment criteria, and instructions you find on every exam sheet."
+  },
+  {
+    "line": 45,
+    "field": "unknown",
+    "english": "Learn 17 words about exams and assessment"
+  },
+  {
+    "line": 46,
+    "field": "unknown",
+    "english": "Understand different task formats"
+  },
+  {
+    "line": 47,
+    "field": "unknown",
+    "english": "Know what examiners look for"
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "task prompt, question as formulated"
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: Read the task prompt carefully.\\nB: What does the task prompt say?\\nA: 'Take a position on the topic.'\\nB: So write an opinion."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "assessment, grade, evaluation"
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: How is the assessment structured?\\nB: Four criteria: content, structure, grammar, vocabulary.\\nA: Do all criteria count equally?\\nB: Yes, each criterion counts equally."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "criterion"
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: By which criteria is it graded?\\nB: Content, structure, grammar, vocabulary.\\nA: Is each criterion equally important?\\nB: Yes, all four criteria count."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "standard, yardstick, scale"
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: What standard do the examiners apply?\\nB: A high standard.\\nA: Is the standard stricter at B2?\\nB: Yes, stricter than at B1."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "model answer"
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: Is there a model answer?\\nB: Yes, on the Goethe website.\\nA: Does the model answer help with studying?\\nB: A lot. It shows the perfect solution."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "model solution"
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Compare your answer with the model solution.\\nB: My answer is similar.\\nA: The model solution shows the ideal approach.\\nB: I see what I can do better."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "answer sheet"
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: Transfer the answers to the answer sheet.\\nB: Everything onto the answer sheet?\\nA: Yes, only the answer sheet is graded.\\nB: Good, I'll transfer everything carefully."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "gap-fill text, cloze test"
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: What is a gap-fill text?\\nB: A text with gaps to fill in.\\nA: Like in the language building blocks section?\\nB: Exactly. Gap-fill text is the technical term."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "mind map"
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: First make a mind map.\\nB: Why a mind map?\\nA: It helps to sort ideas.\\nB: True, then I write more structured."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "task type"
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Which task type do you find easiest?\\nB: Multiple choice.\\nA: Each task type needs its own strategy.\\nB: Yes, you have to know all task types."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "multiple-choice task"
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: The next task is a multiple-choice task.\\nB: So multiple choice?\\nA: Yes, one answer from four options.\\nB: I'll eliminate the wrong ones first."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "grammar exercise"
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Grammar exercises are important.\\nB: Yes, you have to practice grammar.\\nA: The best grammar exercise is the cloze test.\\nB: True, grammar in context."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "practice task"
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Have you done enough practice tasks?\\nB: Yes, at least 50 of them.\\nA: Many practice tasks make the patterns automatic.\\nB: Exactly, practice makes perfect."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "to fill out, to complete (a form)"
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Fill out the form.\\nB: Fill out everything?\\nA: Yes, fill out every field.\\nB: Also the back side?"
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "to mark with an X, to tick"
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Mark the correct answer.\\nB: Mark only one answer?\\nA: Yes, exactly one.\\nB: I'll mark B."
+  },
+  {
+    "line": 64,
+    "field": "src",
+    "english": "to review, to scan, to sort through"
+  },
+  {
+    "line": 64,
+    "field": "exampleSrc",
+    "english": "A: First review the material.\\nB: Review everything or just the texts?\\nA: Review everything, then sort.\\nB: Good, I'll review the documents."
+  },
+  {
+    "line": 65,
+    "field": "src",
+    "english": "to sort, to organize"
+  },
+  {
+    "line": 65,
+    "field": "exampleSrc",
+    "english": "A: First sort your ideas.\\nB: How do I sort best?\\nA: Sort by importance.\\nB: Good, the most important points first."
+  },
+  {
+    "line": 71,
+    "field": "hint",
+    "english": "A fill-in-the-blank exercise. Lücke means gap. Each gap must be completed with the right word."
+  },
+  {
+    "line": 71,
+    "field": "sSrc",
+    "english": "A gap-fill text is..."
+  },
+  {
+    "line": 79,
+    "field": "hint",
+    "english": "The separable verb for marking with an X. The prefix 'an' goes at the end."
+  },
+  {
+    "line": 79,
+    "field": "sSrc",
+    "english": "Please mark the correct answer."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "First read the task completely. Then highlight key words. Finally fill in the answer sheet."
+  },
+  {
+    "line": 80,
+    "field": "sSrc",
+    "english": "First read through the task prompt, then mark the keywords, and finally fill out the answer sheet."
+  },
+  {
+    "line": 86,
+    "field": "hint",
+    "english": "Inhalt, Textaufbau, Grammatik, and Wortschatz count. How pretty the letters look does not."
+  },
+  {
+    "line": 86,
+    "field": "sSrc",
+    "english": "At B2 level, written texts are evaluated by four criteria. What does NOT belong?"
+  },
+  {
+    "line": 87,
+    "field": "hint",
+    "english": "A compound noun. The first part means 'model' or 'template'. The second part means 'solution'. Together they form the ideal example answer."
+  },
+  {
+    "line": 87,
+    "field": "sSrc",
+    "english": "The model solution shows what a perfect answer looks like."
+  },
+  {
+    "line": 93,
+    "field": "hint",
+    "english": "Auswahl = selection. Think about the physical gesture used to indicate your choice on paper."
+  },
+  {
+    "line": 96,
+    "field": "desc",
+    "english": "Verumius sits in the exam room. The writing task lies before him. Learn modal clauses and the language of argumentation."
+  },
+  {
+    "line": 97,
+    "field": "unknown",
+    "english": "Master modal clauses: indem, dadurch dass, ohne dass, anstatt dass"
+  },
+  {
+    "line": 98,
+    "field": "unknown",
+    "english": "Structure a B2 essay"
+  },
+  {
+    "line": 99,
+    "field": "unknown",
+    "english": "Learn the technical language of argumentation"
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "The writing task. 75 minutes. The topic: 'Should schools use more digital media in class? Take a position.' Verumius reads it twice. He breathes. He has practiced this."
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "Introduction, main body, conclusion. By structuring clearly, I get good marks. Through giving examples, my text becomes convincing."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "He begins. The pen moves. Two years of German pour onto the page. Compound sentences, Konjunktiv II, connectors. The essay takes shape."
+  },
+  {
+    "line": 104,
+    "field": "src",
+    "english": "argumentation, making a case"
+  },
+  {
+    "line": 104,
+    "field": "exampleSrc",
+    "english": "A: Your argumentation is convincing.\\nB: Thanks, I gave examples.\\nA: Good argumentation needs structure.\\nB: Thesis, examples, counterargument, conclusion."
+  },
+  {
+    "line": 105,
+    "field": "src",
+    "english": "introduction"
+  },
+  {
+    "line": 105,
+    "field": "exampleSrc",
+    "english": "A: The introduction is too long.\\nB: How long should the introduction be?\\nA: Two to three sentences.\\nB: Okay, I'll shorten the introduction."
+  },
+  {
+    "line": 106,
+    "field": "src",
+    "english": "main body (of an essay)"
+  },
+  {
+    "line": 106,
+    "field": "exampleSrc",
+    "english": "A: The arguments go in the main body.\\nB: How many arguments?\\nA: At least three in the main body.\\nB: Pro and con in the main body?"
+  },
+  {
+    "line": 107,
+    "field": "src",
+    "english": "conclusion, ending"
+  },
+  {
+    "line": 107,
+    "field": "exampleSrc",
+    "english": "A: In conclusion, I summarize.\\nB: What goes in the conclusion?\\nA: Summary and personal opinion.\\nB: The conclusion is short but important."
+  },
+  {
+    "line": 108,
+    "field": "src",
+    "english": "conclusion, final assessment"
+  },
+  {
+    "line": 108,
+    "field": "exampleSrc",
+    "english": "A: What is your conclusion?\\nB: My conclusion: digital media are useful.\\nA: A good conclusion summarizes everything.\\nB: Yes, the conclusion is the quintessence."
+  },
+  {
+    "line": 109,
+    "field": "src",
+    "english": "text type, genre"
+  },
+  {
+    "line": 109,
+    "field": "exampleSrc",
+    "english": "A: Which text type do you have to write?\\nB: An argumentative essay.\\nA: Each text type has its own rules.\\nB: Yes, a letter is different from an essay."
+  },
+  {
+    "line": 110,
+    "field": "src",
+    "english": "sentence structure"
+  },
+  {
+    "line": 110,
+    "field": "exampleSrc",
+    "english": "A: Your sentence structure is good.\\nB: Thanks, I practice sentence structure.\\nA: Good sentence structure means good grades.\\nB: Yes, verb-second and verb-final."
+  },
+  {
+    "line": 111,
+    "field": "src",
+    "english": "expression, phrasing"
+  },
+  {
+    "line": 111,
+    "field": "exampleSrc",
+    "english": "A: Your expression is very precise.\\nB: Thanks, I pay attention to good expression.\\nA: Expression is an assessment criterion.\\nB: Yes, word choice counts."
+  },
+  {
+    "line": 112,
+    "field": "src",
+    "english": "summary"
+  },
+  {
+    "line": 112,
+    "field": "exampleSrc",
+    "english": "A: Write a summary of the text.\\nB: In your own words?\\nA: Yes, a short summary.\\nB: Okay, summarize the most important points."
+  },
+  {
+    "line": 113,
+    "field": "src",
+    "english": "to retell, to narrate after hearing"
+  },
+  {
+    "line": 113,
+    "field": "exampleSrc",
+    "english": "A: Retell the text.\\nB: In my own words?\\nA: Yes, retell the content.\\nB: So, it was about digital media..."
+  },
+  {
+    "line": 114,
+    "field": "src",
+    "english": "to paraphrase"
+  },
+  {
+    "line": 114,
+    "field": "exampleSrc",
+    "english": "A: Can you paraphrase the sentence?\\nB: 'One should' instead of 'it is necessary.'\\nA: Well paraphrased.\\nB: Paraphrasing shows vocabulary range."
+  },
+  {
+    "line": 115,
+    "field": "src",
+    "english": "to summarize"
+  },
+  {
+    "line": 115,
+    "field": "exampleSrc",
+    "english": "A: Summarize the text.\\nB: In two sentences?\\nA: Yes, summarize briefly.\\nB: The text is about education and technology."
+  },
+  {
+    "line": 116,
+    "field": "src",
+    "english": "to revise, to rework"
+  },
+  {
+    "line": 116,
+    "field": "exampleSrc",
+    "english": "A: Did you revise the text?\\nB: Yes, I revised it twice.\\nA: Revising improves the quality.\\nB: Yes, the first draft is never perfect."
+  },
+  {
+    "line": 117,
+    "field": "src",
+    "english": "to rephrase, to reformulate"
+  },
+  {
+    "line": 117,
+    "field": "exampleSrc",
+    "english": "A: The sentence sounds odd.\\nB: Then rephrase it.\\nA: Okay, I'll rephrase it.\\nB: Better. Rephrasing helps."
+  },
+  {
+    "line": 118,
+    "field": "src",
+    "english": "to structure, to divide into sections"
+  },
+  {
+    "line": 118,
+    "field": "exampleSrc",
+    "english": "A: Divide the text into sections.\\nB: How many sections?\\nA: Three: introduction, main body, conclusion.\\nB: Well structured, well written."
+  },
+  {
+    "line": 119,
+    "field": "src",
+    "english": "to work out, to highlight"
+  },
+  {
+    "line": 119,
+    "field": "exampleSrc",
+    "english": "A: Work out the main message.\\nB: What is the main message?\\nA: You have to work that out.\\nB: So find the central thesis."
+  },
+  {
+    "line": 120,
+    "field": "src",
+    "english": "written, in writing"
+  },
+  {
+    "line": 120,
+    "field": "exampleSrc",
+    "english": "A: Is the exam written?\\nB: Partly written, partly oral.\\nA: Which part is written?\\nB: Reading, listening, and writing are written."
+  },
+  {
+    "line": 121,
+    "field": "text",
+    "english": "Manner clauses answer the question: 'Auf welche Weise?' (In what way?)\\n\\nKey connectors:\\n\\n'indem' (by doing X)\\nIndem ich überarbeite, verbessere ich den Text.\\n(By revising, I improve the text.)\\n\\n'dadurch dass' (through the fact that)\\nDadurch dass er übt, wird er besser.\\n(Through practicing, he gets better.)\\n\\n'ohne dass' (without doing)\\nEr besteht die Prüfung, ohne dass er nervoes wird.\\n(He passes the exam without getting nervous.)\\n\\n'anstatt dass' (instead of doing)\\nAnstatt dass er aufgibt, arbeitet er weiter.\\n(Instead of giving up, he keeps working.)\\n\\nPosition: The verb goes to the END of the dass-clause.\\n'Indem' is the most common and versatile connector."
+  },
+  {
+    "line": 121,
+    "field": "text",
+    "english": "Modalsätze express HOW an action is carried out. They answer the question 'Auf welche Weise?' (In what way?).\\n\\n'Indem' is the most common. It introduces a manner clause: 'Indem ich lerne, werde ich besser.' The verb goes to the end of the indem-clause.\\n\\n'Ohne dass' and 'anstatt dass' can be shortened with 'zu + Infinitiv' when the subject is the same: 'Er ging, ohne sich zu verabschieden.' (He left without saying goodbye.)\\n\\n'Dadurch dass' is slightly more formal and emphasizes the method or means. It can also be split: 'Dadurch, dass er übt, wird er besser.'"
+  },
+  {
+    "line": 135,
+    "field": "hint",
+    "english": "Which connector specifically answers the question HOW one achieves something? By doing X..."
+  },
+  {
+    "line": 135,
+    "field": "sSrc",
+    "english": "Which sentence contains a manner clause?"
+  },
+  {
+    "line": 136,
+    "field": "hint",
+    "english": "Which connector answers the question HOW? It introduces a manner clause describing the method used to achieve a goal."
+  },
+  {
+    "line": 136,
+    "field": "sSrc",
+    "english": "By marking the keywords, I find the answer faster."
+  },
+  {
+    "line": 137,
+    "field": "hint",
+    "english": "The three formal parts of a German essay. The technical terms, not the everyday words."
+  },
+  {
+    "line": 137,
+    "field": "sSrc",
+    "english": "A good essay has an introduction, a main body, and a conclusion."
+  },
+  {
+    "line": 138,
+    "field": "hint",
+    "english": "Rendering content in your own words: the academic verb of Greek origin."
+  },
+  {
+    "line": 138,
+    "field": "sSrc",
+    "english": "'Rendering content in your own words' means the same as..."
+  },
+  {
+    "line": 139,
+    "field": "src",
+    "english": "He puts down the pen. 248 words. Introduction, three arguments, conclusion. He reads through the text once more, corrects two comma errors. The time runs out. He hands in the sheet."
+  },
+  {
+    "line": 142,
+    "field": "desc",
+    "english": "Extended indefinite pronouns for formal texts. Reading strategies for reading comprehension. Academic vocabulary."
+  },
+  {
+    "line": 143,
+    "field": "unknown",
+    "english": "Master extended indefinite pronouns for formal contexts"
+  },
+  {
+    "line": 144,
+    "field": "unknown",
+    "english": "Understand reading strategies: global and detailed comprehension"
+  },
+  {
+    "line": 145,
+    "field": "unknown",
+    "english": "Build academic vocabulary"
+  },
+  {
+    "line": 146,
+    "field": "unknown",
+    "english": "Review Modalsatze in new contexts"
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "Second section. Reading comprehension. Four texts, all questions in 65 minutes. Verumius looks at the first text. A newspaper article. He reads it once globally, then again in detail. He marks the keywords. His pen moves with confidence."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "all, every single one (emphatic)"
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: All tasks must be completed.\\nB: Really all of them?\\nA: Yes, every single one. Without exception.\\nB: Then I'll start right away."
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "any whatsoever, all manner of"
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: Any aids whatsoever are forbidden.\\nB: Even dictionaries?\\nA: Yes, any aids whatsoever.\\nB: So really nothing at all allowed."
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "some (unspecified), any"
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: Do you have any idea?\\nB: Any? Yes, maybe.\\nA: Any suggestion would be good.\\nB: Let me think."
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "some (plural, unspecified), any"
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: Are there any questions?\\nB: Yes, some questions about the procedure.\\nA: Do you have any concerns?\\nB: No, none."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "many a, some"
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Many a student has exam anxiety.\\nB: Yes, many a one manages it anyway.\\nA: Many a problem solves itself.\\nB: True, sometimes you just have to wait."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "every single, any whatsoever"
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: Any cheating whatsoever will be punished.\\nB: Any whatsoever? That sounds strict.\\nA: Yes, any violation has consequences.\\nB: Understood, no risk."
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "all sorts of, quite a lot"
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: There's all sorts of things to learn.\\nB: All sorts of vocabulary and grammar.\\nA: Quite something!\\nB: Yes, quite a lot."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "all sorts of, various"
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: All sorts of questions appear in the exam.\\nB: All sorts of topics too?\\nA: Yes, all sorts of text types and topics.\\nB: Then I have to practice all sorts of things."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "main message, key point"
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: What is the main message of the text?\\nB: The author demands more environmental protection.\\nA: Exactly, recognizing the main message is important.\\nB: For that you have to read the whole text."
+  },
+  {
+    "line": 158,
+    "field": "src",
+    "english": "keyword"
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: Mark the keywords in the text.\\nB: Which words are keywords?\\nA: The most important terms.\\nB: So 'environment,' 'protection,' 'danger.'"
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "paragraph"
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Read the second paragraph.\\nB: Only the second paragraph?\\nA: Yes, the answer is in the second paragraph.\\nB: Okay, I'll read the paragraph again."
+  },
+  {
+    "line": 160,
+    "field": "src",
+    "english": "heading, title"
+  },
+  {
+    "line": 160,
+    "field": "exampleSrc",
+    "english": "A: What does the heading say?\\nB: 'Climate change and education.'\\nA: The heading gives the first hint.\\nB: Yes, the topic is clear."
+  },
+  {
+    "line": 161,
+    "field": "src",
+    "english": "gist comprehension, global understanding"
+  },
+  {
+    "line": 161,
+    "field": "exampleSrc",
+    "english": "A: First global comprehension.\\nB: What does global comprehension mean?\\nA: Understanding the text roughly. What is it about?\\nB: So grasping the topic."
+  },
+  {
+    "line": 162,
+    "field": "src",
+    "english": "detailed comprehension"
+  },
+  {
+    "line": 162,
+    "field": "exampleSrc",
+    "english": "A: Now comes the detailed comprehension.\\nB: What exactly is in paragraph 3?\\nA: Detailed comprehension means: finding exact information.\\nB: Okay, I'll read more carefully."
+  },
+  {
+    "line": 163,
+    "field": "src",
+    "english": "to recognize, to identify"
+  },
+  {
+    "line": 163,
+    "field": "exampleSrc",
+    "english": "A: Can you identify the main message?\\nB: Yes, I recognize it in the first paragraph.\\nA: Well spotted.\\nB: You have to read carefully to recognize it."
+  },
+  {
+    "line": 164,
+    "field": "src",
+    "english": "to deduce, to infer"
+  },
+  {
+    "line": 164,
+    "field": "exampleSrc",
+    "english": "A: What does this word mean?\\nB: I don't know it, but I can infer it.\\nA: Infer from context?\\nB: Yes, the sentences before help."
+  },
+  {
+    "line": 165,
+    "field": "src",
+    "english": "to classify, to categorize"
+  },
+  {
+    "line": 165,
+    "field": "exampleSrc",
+    "english": "A: Classify the information.\\nB: Into which category?\\nA: Classify into 'pro' and 'con.'\\nB: Okay, I'll classify the arguments."
+  },
+  {
+    "line": 166,
+    "field": "text",
+    "english": "German has many indefinite pronouns for formal and academic contexts.\\n\\nFrom vague to emphatic:\\n'irgendein' (some, any) = most vague\\n'manch ein' (many a) = literary\\n'jeder' (every) = standard\\n'sämtliche' (all, every single) = emphatic\\n'jegliche' (any whatsoever) = very formal\\n'jedweder' (every last one) = almost legal\\n\\nFor variety:\\n'allerhand' and 'allerlei' both mean 'all sorts of.'\\n\\nIn B2 writing, using a range of indefinite pronouns signals language competence.\\n'Alle Studenten' is A2.\\n'Sämtliche Studierende' is B2."
+  },
+  {
+    "line": 166,
+    "field": "text",
+    "english": "Sämtliche, jegliche, and jedweder decline like regular adjectives. They take the same endings as 'alle' or 'jede' depending on the article context.\\n\\nWithout article (strong declension):\\nsämtliche Aufgaben (all tasks)\\njeglicher Kontakt (any contact whatsoever)\\n\\n'Allerhand' and 'allerlei' are special: they do NOT decline. They stay unchanged regardless of case: 'allerhand Probleme', 'mit allerhand Tricks.'\\n\\n'Manch ein' declines like 'ein': 'manch einem' (dative), 'manch einen' (accusative).\\n\\nIn formal writing, varying your indefinite pronouns signals B2+ competence."
+  },
+  {
+    "line": 167,
+    "field": "hint",
+    "english": "The emphatic, formal word meaning 'every single one without exception.'"
+  },
+  {
+    "line": 167,
+    "field": "sSrc",
+    "english": "What is the most formal way to say 'all tasks'?"
+  },
+  {
+    "line": 168,
+    "field": "hint",
+    "english": "The strongest, most formal word for 'any whatsoever.' Used in rules and regulations."
+  },
+  {
+    "line": 168,
+    "field": "sSrc",
+    "english": "Any aids whatsoever are forbidden during the exam."
+  },
+  {
+    "line": 174,
+    "field": "hint",
+    "english": "Global = the big picture. What is the text about in general?"
+  },
+  {
+    "line": 174,
+    "field": "sSrc",
+    "english": "Global comprehension means..."
+  },
+  {
+    "line": 182,
+    "field": "hint",
+    "english": "Two gaps: a manner clause connector showing HOW you find the answer faster, and a verb meaning to identify or perceive the main message."
+  },
+  {
+    "line": 182,
+    "field": "sSrc",
+    "english": "By marking the keywords, you can recognize the main message faster."
+  },
+  {
+    "line": 183,
+    "field": "hint",
+    "english": "Deriving meaning from context. The verb that describes 'unlocking' the meaning."
+  },
+  {
+    "line": 183,
+    "field": "sSrc",
+    "english": "When a word is unknown, you can infer its meaning from context."
+  },
+  {
+    "line": 189,
+    "field": "hint",
+    "english": "The correct sentence must contain both a manner clause (answering HOW) AND a formal emphatic word for totality. Check each option for both features."
+  },
+  {
+    "line": 189,
+    "field": "sSrc",
+    "english": "Which sentence uses BOTH a manner clause AND an indefinite pronoun?"
+  }
+]

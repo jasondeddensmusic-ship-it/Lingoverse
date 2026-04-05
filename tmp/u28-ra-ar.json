@@ -1,0 +1,886 @@
+[
+  {
+    "english": "Enter the world of German proverbs and oral tradition. Learn core literary vocabulary. Understand why proverbs matter so much in German culture.",
+    "arabic": "ادخل إلى عالم الأمثال الألمانية والتراث الشفهي. تعلم المفردات الأدبية الأساسية. افهم سبب أهمية الأمثال في الثقافة الألمانية."
+  },
+  {
+    "english": "Learn 18 words from the literary tradition",
+    "arabic": "تعلم 18 كلمة من التراث الأدبي"
+  },
+  {
+    "english": "Understand proverbs as cultural wisdom",
+    "arabic": "افهم الأمثال باعتبارها حكمة ثقافية"
+  },
+  {
+    "english": "Distinguish Sprichwort, Redewendung, and Gleichnis",
+    "arabic": "ميّز بين Sprichwort وRedewendung وGleichnis"
+  },
+  {
+    "english": "Join Heinrich on his Sunday visit",
+    "arabic": "انضم إلى هاينريش في زيارته يوم الأحد"
+  },
+  {
+    "english": "Sunday afternoon at Hildi's. The room smells of coffee and old wood. Heinrich sits in his armchair, a blanket on his lap. Hildi places cake on the table. Afternoon light filters through lace curtains. Verumius arrives with a notebook. He has learned to write things down.",
+    "arabic": "بعد ظهر الأحد في بيت هيلدي. تفوح رائحة القهوة والخشب العتيق في الغرفة. يجلس هاينريش على كرسيه المريح وعلى ركبتيه بطانية. تضع هيلدي الكعك على الطاولة. يتسرب ضوء الظهيرة عبر الستائر الدانتيلية. يصل فيروميوس حاملاً دفتر ملاحظات. لقد تعلم تدوين الأشياء."
+  },
+  {
+    "english": "Ah, Verumius! Sit down. Today I will tell you something important. No textbook. No grammar. Proverbs.",
+    "arabic": "آه، فيروميوس! اجلس. سأخبرك اليوم بشيء مهم. لا كتاب مدرسي. لا قواعد. أمثال."
+  },
+  {
+    "english": "Proverbs? Like 'Practice makes perfect'?",
+    "arabic": "أمثال؟ مثل 'التكرار يُعلّم الشطار'؟"
+  },
+  {
+    "english": "Exactly! But a proverb is more than words. It is wisdom that has survived generations. Each one has a story.",
+    "arabic": "بالضبط! لكن المثل أكثر من مجرد كلمات. إنه حكمة نجت عبر الأجيال. لكل مثل حكاية."
+  },
+  {
+    "english": "He tells them slightly differently every time. But do not interrupt him.",
+    "arabic": "يرويها بشكل مختلف قليلاً في كل مرة. لكن لا تقاطعه."
+  },
+  {
+    "english": "proverb",
+    "arabic": "مَثَل"
+  },
+  {
+    "english": "A: Do you know a German proverb?\\nB: Yes! 'The early bird catches the worm.'\\nA: That is a nice proverb.\\nB: There are thousands of proverbs.",
+    "arabic": "أ: هل تعرف مثلاً ألمانياً؟\\nب: نعم! 'الطائر الباكر يصطاد الدود.'\\nأ: هذا مثل جميل.\\nب: هناك آلاف الأمثال."
+  },
+  {
+    "english": "idiom, figure of speech",
+    "arabic": "تعبير اصطلاحي، أسلوب كلامي"
+  },
+  {
+    "english": "A: What is a Redewendung?\\nB: A fixed expression like 'to put your foot in it.'\\nA: And a proverb?\\nB: A complete sentence of wisdom, like 'Practice makes perfect.'",
+    "arabic": "أ: ما هو الـ Redewendung؟\\nب: تعبير ثابت مثل 'وقع في ورطة'.\\nأ: والمثل؟\\nب: جملة كاملة من الحكمة، مثل 'التكرار يُعلّم الشطار'."
+  },
+  {
+    "english": "wisdom",
+    "arabic": "حِكمة"
+  },
+  {
+    "english": "A: What do proverbs carry?\\nB: Old wisdom. Experience from centuries.\\nA: Is every piece of wisdom timeless?\\nB: Not all. Some wisdom no longer fits.",
+    "arabic": "أ: ماذا تحمل الأمثال؟\\nب: حكمة قديمة. خبرة من قرون.\\nأ: هل كل حكمة خالدة؟\\nب: ليس كلها. بعض الحكمة لم تعد تنطبق."
+  },
+  {
+    "english": "expression, manner of speaking",
+    "arabic": "أسلوب تعبير، طريقة كلام"
+  },
+  {
+    "english": "A: 'That is just a Redensart' means what?\\nB: It means: do not take it literally.\\nA: So a way of speaking?\\nB: Exactly. A particular way of expressing something.",
+    "arabic": "أ: 'ذلك مجرد Redensart' يعني ماذا؟\\nب: يعني: لا تأخذه حرفياً.\\nأ: إذن طريقة في الكلام؟\\nب: بالضبط. أسلوب معين للتعبير عن شيء ما."
+  },
+  {
+    "english": "fairy tale",
+    "arabic": "حكاية خرافية"
+  },
+  {
+    "english": "A: Do you know German fairy tales?\\nB: Yes, Little Red Riding Hood and Snow White.\\nA: Who collected the fairy tales?\\nB: The Brothers Grimm. In the 19th century.",
+    "arabic": "أ: هل تعرف الحكايات الخرافية الألمانية؟\\nب: نعم، ذات الرداء الأحمر وبياض الثلج.\\nأ: من جمع الحكايات الخرافية؟\\nب: الأخوان غريم. في القرن التاسع عشر."
+  },
+  {
+    "english": "narrative, story",
+    "arabic": "رواية، قصة"
+  },
+  {
+    "english": "A: What is the difference between Erzählung and Geschichte?\\nB: Erzählung sounds more literary.\\nA: So a technical term?\\nB: Yes, for short literary works.",
+    "arabic": "أ: ما الفرق بين Erzählung وGeschichte؟\\nب: Erzählung يبدو أكثر أدبية.\\nأ: إذن مصطلح تقني؟\\nب: نعم، للأعمال الأدبية القصيرة."
+  },
+  {
+    "english": "metaphor",
+    "arabic": "استعارة"
+  },
+  {
+    "english": "A: What is a metaphor?\\nB: An image for something else.\\nA: For example?\\nB: 'Life is a journey.' Life does not actually travel.",
+    "arabic": "أ: ما هي الاستعارة؟\\nب: صورة لشيء آخر.\\nأ: مثلاً؟\\nب: 'الحياة رحلة.' الحياة لا تسافر فعلياً."
+  },
+  {
+    "english": "parable, allegory",
+    "arabic": "مَثَل، قصة رمزية"
+  },
+  {
+    "english": "A: What is a parable?\\nB: A simple story with deeper meaning.\\nA: Like in the Bible?\\nB: Yes, but Heinrich's stories are also parables.",
+    "arabic": "أ: ما هو المثل الرمزي؟\\nب: قصة بسيطة ذات معنى أعمق.\\nأ: كما في الإنجيل؟\\nب: نعم، لكن قصص هاينريش هي أيضاً أمثال رمزية."
+  },
+  {
+    "english": "poet, literary writer",
+    "arabic": "شاعر، كاتب أدبي"
+  },
+  {
+    "english": "A: Who is the most famous German poet?\\nB: Goethe. Without doubt.\\nA: What did the poet write?\\nB: Poems, novels, plays. Everything.",
+    "arabic": "أ: من هو أشهر شاعر ألماني؟\\nب: غوته. بلا شك.\\nأ: ماذا كتب الشاعر؟\\nب: قصائد وروايات ومسرحيات. كل شيء."
+  },
+  {
+    "english": "poet, literary writer (female)",
+    "arabic": "شاعرة، كاتبة أدبية"
+  },
+  {
+    "english": "A: Do you know a German female poet?\\nB: Ingeborg Bachmann. A magnificent poet.\\nA: What did the poet write?\\nB: Poems and narratives. Wonderful language.",
+    "arabic": "أ: هل تعرف شاعرة ألمانية؟\\nب: إنغبورغ باخمان. شاعرة رائعة.\\nأ: ماذا كتبت الشاعرة؟\\nب: قصائد وقصصاً. لغة بديعة."
+  },
+  {
+    "english": "literary",
+    "arabic": "أدبي"
+  },
+  {
+    "english": "A: Is that a literary text?\\nB: Yes, very literary. Poetic language.\\nA: What does 'literary' mean exactly?\\nB: Belonging to literature. Artistically written.",
+    "arabic": "أ: هل هذا نص أدبي؟\\nب: نعم، أدبي جداً. لغة شعرية.\\nأ: ماذا يعني 'أدبي' بالضبط؟\\nب: ينتمي إلى الأدب. مكتوب بأسلوب فني."
+  },
+  {
+    "english": "poetic",
+    "arabic": "شِعري"
+  },
+  {
+    "english": "A: That sounds very poetic.\\nB: Thanks! Or do you mean that ironically?\\nA: No, really. Poetic language is beautiful.\\nB: When it is genuine, yes.",
+    "arabic": "أ: هذا يبدو شعرياً جداً.\\nب: شكراً! أم تقصد ذلك بسخرية؟\\nأ: لا، حقاً. اللغة الشعرية جميلة.\\nب: حين تكون صادقة، نعم."
+  },
+  {
+    "english": "timeless",
+    "arabic": "خالد، لا يُقيّد بزمن"
+  },
+  {
+    "english": "A: Are proverbs timeless?\\nB: The best ones, yes. They survive centuries.\\nA: Timeless wisdom then?\\nB: Exactly. It is valid today as it was 500 years ago.",
+    "arabic": "أ: هل الأمثال خالدة؟\\nب: الأفضل منها، نعم. تعيش عبر القرون.\\nأ: إذن حكمة خالدة؟\\nب: بالضبط. صالحة اليوم كما كانت قبل 500 عام."
+  },
+  {
+    "english": "folk, popular, traditional",
+    "arabic": "شعبي، تقليدي"
+  },
+  {
+    "english": "A: Are proverbs folk in nature?\\nB: Yes, they come from ordinary people, not scholars.\\nA: Folk language is simple?\\nB: Simple, but deep. That is the art.",
+    "arabic": "أ: هل الأمثال ذات طابع شعبي؟\\nب: نعم، تأتي من الناس العاديين لا من العلماء.\\nأ: اللغة الشعبية بسيطة؟\\nب: بسيطة لكن عميقة. هذه هي الفن."
+  },
+  {
+    "english": "handed down, transmitted",
+    "arabic": "متوارَث، منقول"
+  },
+  {
+    "english": "A: How did proverbs survive?\\nB: They were handed down orally.\\nA: From generation to generation?\\nB: Yes. Transmitted wisdom needs no book.",
+    "arabic": "أ: كيف نجت الأمثال؟\\nب: تناقلت شفهياً.\\nأ: من جيل إلى جيل؟\\nب: نعم. الحكمة المتوارثة لا تحتاج إلى كتاب."
+  },
+  {
+    "english": "to tell, to narrate",
+    "arabic": "يحكي، يروي"
+  },
+  {
+    "english": "A: Heinrich, tell us a story!\\nB: Gladly. I will tell you about my grandfather.\\nA: He narrates so vividly.\\nB: Yes, he is a born storyteller.",
+    "arabic": "أ: هاينريش، احكِ لنا قصة!\\nب: بكل سرور. سأحدثكم عن جدي.\\nأ: يروي بشكل حي جداً.\\nب: نعم، هو حكاء بالفطرة."
+  },
+  {
+    "english": "to compose poetry, to write literary works",
+    "arabic": "يَنظم شعراً، يكتب أعمالاً أدبية"
+  },
+  {
+    "english": "A: Goethe composed poetry in Weimar.\\nB: What did he compose there?\\nA: Faust, poems, everything possible.\\nB: Composing poetry is an art.",
+    "arabic": "أ: نظم غوته شعره في فيمار.\\nب: ماذا نظم هناك؟\\nأ: فاوست وقصائد وكل شيء ممكن.\\nب: نظم الشعر فن."
+  },
+  {
+    "english": "to quote",
+    "arabic": "يقتبس"
+  },
+  {
+    "english": "A: May I quote Heinrich?\\nB: Of course. What did he say?\\nA: I quote: 'The early bird catches the worm.'\\nB: That is a classic. Good quote.",
+    "arabic": "أ: هل أستطيع الاقتباس من هاينريش؟\\nب: بالطبع. ماذا قال؟\\nأ: أقتبس: 'الطائر الباكر يصطاد الدود.'\\nب: هذا كلاسيكي. اقتباس جيد."
+  },
+  {
+    "english": "A complete sentence of folk wisdom, passed down for generations. Not an expression or idiom, but a full standalone saying.",
+    "arabic": "جملة كاملة من الحكمة الشعبية، تناقلتها الأجيال. ليست تعبيراً أو اصطلاحاً، بل قول مأثور قائم بذاته."
+  },
+  {
+    "english": "The German word for 'wisdom'. What proverbs carry from generation to generation.",
+    "arabic": "الكلمة الألمانية التي تعني 'حكمة'. ما تحمله الأمثال من جيل إلى جيل."
+  },
+  {
+    "english": "This old wisdom has survived generations.",
+    "arabic": "لقد نجت هذه الحكمة القديمة عبر الأجيال."
+  },
+  {
+    "english": "From 'gleich' (same/equal). A simple story that stands for something deeper.",
+    "arabic": "من 'gleich' (نفس/متساوٍ). قصة بسيطة تمثل شيئاً أعمق."
+  },
+  {
+    "english": "Learn the words of German literature. From poems and novels to epochs and genres. Master the vocabulary of the literary tradition.",
+    "arabic": "تعلم مفردات الأدب الألماني. من القصائد والروايات إلى العصور والأجناس الأدبية. أتقن مفردات التراث الأدبي."
+  },
+  {
+    "english": "Learn 20 words for literary genres and forms",
+    "arabic": "تعلم 20 كلمة للأجناس والأشكال الأدبية"
+  },
+  {
+    "english": "Understand the three genres of literature",
+    "arabic": "افهم الأجناس الأدبية الثلاثة"
+  },
+  {
+    "english": "Describe poems, stories, and novels in German",
+    "arabic": "صِف القصائد والقصص والروايات بالألمانية"
+  },
+  {
+    "english": "Expand your literary vocabulary",
+    "arabic": "وسّع مفرداتك الأدبية"
+  },
+  {
+    "english": "Before I tell you my stories, you must know the language of stories. What is a poem? What is a narrative? Without the words, you cannot write the stories down.",
+    "arabic": "قبل أن أحكي لك قصصي، يجب أن تعرف لغة القصص. ما هي القصيدة؟ ما هي الرواية؟ بدون الكلمات لا تستطيع تدوين القصص."
+  },
+  {
+    "english": "poem",
+    "arabic": "قصيدة"
+  },
+  {
+    "english": "A: Do you know a German poem?\\nB: Yes, 'The Erlking' by Goethe.\\nA: Can you recite the poem?\\nB: The beginning, yes. It is very well known.",
+    "arabic": "أ: هل تعرف قصيدة ألمانية؟\\nب: نعم، 'ملك الغابة' لغوته.\\nأ: هل تستطيع تلاوة القصيدة؟\\nب: البداية نعم. إنها مشهورة جداً."
+  },
+  {
+    "english": "verse, line of poetry",
+    "arabic": "بيت شعر، سطر شعري"
+  },
+  {
+    "english": "A: How many verses does the poem have?\\nB: Twelve verses in three stanzas.\\nA: The first verse is the most beautiful.\\nB: Yes, it sets the tone for the whole poem.",
+    "arabic": "أ: كم بيتاً في القصيدة؟\\nب: اثنا عشر بيتاً في ثلاثة مقاطع.\\nأ: البيت الأول هو الأجمل.\\nب: نعم، يُحدد نبرة القصيدة كلها."
+  },
+  {
+    "english": "stanza",
+    "arabic": "مقطع شعري"
+  },
+  {
+    "english": "A: How many stanzas does the poem have?\\nB: Four stanzas with four verses each.\\nA: The last stanza is the strongest.\\nB: Yes, that is where the turning point comes.",
+    "arabic": "أ: كم مقطعاً في القصيدة؟\\nب: أربعة مقاطع بأربعة أبيات في كل مقطع.\\nأ: المقطع الأخير هو الأقوى.\\nب: نعم، هناك تأتي نقطة التحول."
+  },
+  {
+    "english": "rhyme",
+    "arabic": "قافية"
+  },
+  {
+    "english": "A: Do these words rhyme?\\nB: Yes, 'Haus' and 'Maus' are a rhyme.\\nA: Children learn through rhymes.\\nB: Yes, counting rhymes and children's songs.",
+    "arabic": "أ: هل هذه الكلمات لها قافية؟\\nب: نعم، 'Haus' و'Maus' قافية.\\nأ: يتعلم الأطفال عبر القوافي.\\nب: نعم، أناشيد العدّ وأغاني الأطفال."
+  },
+  {
+    "english": "lyric poetry",
+    "arabic": "شعر غنائي"
+  },
+  {
+    "english": "A: What is lyric poetry?\\nB: Poems. Personal, emotional texts.\\nA: And the difference from prose?\\nB: Lyric poetry has rhythm, rhymes, verses.",
+    "arabic": "أ: ما هو الشعر الغنائي؟\\nب: قصائد. نصوص شخصية وعاطفية.\\nأ: وما الفرق عن النثر؟\\nب: الشعر الغنائي له إيقاع وقوافٍ وأبيات."
+  },
+  {
+    "english": "prose",
+    "arabic": "نَثر"
+  },
+  {
+    "english": "A: Is that prose or poetry?\\nB: Prose. No rhythm, no rhymes.\\nA: Prose sounds simpler.\\nB: Simpler, but not less artful.",
+    "arabic": "أ: هذا نثر أم شعر؟\\nب: نثر. بدون إيقاع وبدون قوافٍ.\\nأ: النثر يبدو أبسط.\\nب: أبسط لكن ليس أقل فنية."
+  },
+  {
+    "english": "novel",
+    "arabic": "رواية"
+  },
+  {
+    "english": "A: What novel are you reading right now?\\nB: A novel by Thomas Mann.\\nA: The novel is long, right?\\nB: Yes, but every sentence is worth it.",
+    "arabic": "أ: أيّ رواية تقرأ الآن؟\\nب: رواية لتوماس مان.\\nأ: الرواية طويلة، أليس كذلك؟\\nب: نعم، لكن كل جملة تستحق ذلك."
+  },
+  {
+    "english": "short story",
+    "arabic": "قصة قصيرة"
+  },
+  {
+    "english": "A: What is a short story?\\nB: A short narrative with an open ending.\\nA: Who wrote good short stories?\\nB: Heinrich Boell and Wolfgang Borchert.",
+    "arabic": "أ: ما هي القصة القصيرة؟\\nب: سرد قصير بنهاية مفتوحة.\\nأ: من كتب قصصاً قصيرة جيدة؟\\nب: هاينريش بول وفولفغانغ بورشيرت."
+  },
+  {
+    "english": "novella",
+    "arabic": "رواية قصيرة"
+  },
+  {
+    "english": "A: Is a novella a short story?\\nB: Yes, but with strict rules.\\nA: What rules?\\nB: A turning point and a symbolic object, the 'falcon.'",
+    "arabic": "أ: هل الرواية القصيرة نوع من القصص القصيرة؟\\nب: نعم، لكن بقواعد صارمة.\\nأ: ما هي القواعد؟\\nب: نقطة تحول وعنصر رمزي، 'الصقر'."
+  },
+  {
+    "english": "play, drama",
+    "arabic": "مسرحية، دراما"
+  },
+  {
+    "english": "A: What is a drama?\\nB: A play. Dialogue on stage.\\nA: And in everyday life?\\nB: There you say 'No drama!' and mean: no problem.",
+    "arabic": "أ: ما هي الدراما؟\\nب: مسرحية. حوار على الخشبة.\\nأ: وفي الحياة اليومية؟\\nب: هناك تقول 'لا دراما!' وتعني: لا مشكلة."
+  },
+  {
+    "english": "fable",
+    "arabic": "خُرافة، حكاية تعليمية"
+  },
+  {
+    "english": "A: Do you know a fable?\\nB: Yes, the fox and the grapes.\\nA: What is the moral of the fable?\\nB: One despises what one cannot reach.",
+    "arabic": "أ: هل تعرف خرافة؟\\nب: نعم، الثعلب والعنب.\\nأ: ما هو درس الخرافة؟\\nب: يُحتقر ما لا يمكن الوصول إليه."
+  },
+  {
+    "english": "genre, category",
+    "arabic": "جِنس أدبي، فئة"
+  },
+  {
+    "english": "A: Which genre does this text belong to?\\nB: Lyric poetry. It is a poem.\\nA: And a novel?\\nB: That belongs to epic. Narrative prose.",
+    "arabic": "أ: إلى أي جنس أدبي ينتمي هذا النص؟\\nب: شعر غنائي. إنه قصيدة.\\nأ: والرواية؟\\nب: تنتمي إلى الملحمة. النثر السردي."
+  },
+  {
+    "english": "work (of art/literature)",
+    "arabic": "عمل (فني/أدبي)"
+  },
+  {
+    "english": "A: Do you know Kafka's work?\\nB: Yes, especially 'The Metamorphosis.'\\nA: His work is timeless.\\nB: Yes, every work surprises anew.",
+    "arabic": "أ: هل تعرف أعمال كافكا؟\\nب: نعم، خاصة 'المسخ'.\\nأ: أعماله خالدة.\\nب: نعم، كل عمل يُفاجئ من جديد."
+  },
+  {
+    "english": "plot, action",
+    "arabic": "حَبكة، أحداث"
+  },
+  {
+    "english": "A: Where does the plot take place?\\nB: In Berlin, in the 19th century.\\nA: Is the plot exciting?\\nB: Yes, full of twists and surprises.",
+    "arabic": "أ: أين تدور أحداث الحبكة؟\\nب: في برلين في القرن التاسع عشر.\\nأ: هل الحبكة مثيرة؟\\nب: نعم، مليئة بالمفاجآت والتقلبات."
+  },
+  {
+    "english": "main character, protagonist",
+    "arabic": "شخصية رئيسية، بطل"
+  },
+  {
+    "english": "A: Who is the main character of the novel?\\nB: A young man named Werther.\\nA: Is the main character likeable?\\nB: Yes, but also tragic.",
+    "arabic": "أ: من هو الشخصية الرئيسية في الرواية؟\\nب: شاب اسمه فيرتر.\\nأ: هل الشخصية الرئيسية محبوبة؟\\nب: نعم، لكنها مأساوية أيضاً."
+  },
+  {
+    "english": "setting, scene",
+    "arabic": "مكان الأحداث، مَشهد"
+  },
+  {
+    "english": "A: What is the setting of the story?\\nB: A small town in Saxony.\\nA: Why is the setting important?\\nB: It determines the atmosphere.",
+    "arabic": "أ: ما هو مكان أحداث القصة؟\\nب: بلدة صغيرة في ساكسونيا.\\nأ: لماذا مكان الأحداث مهم؟\\nب: يُحدد الأجواء."
+  },
+  {
+    "english": "era, literary period",
+    "arabic": "حِقبة، مرحلة أدبية"
+  },
+  {
+    "english": "A: From which era does this poem come?\\nB: From the Romantic period. Early 19th century.\\nA: What characterizes this era?\\nB: Emotion, nature, and longing.",
+    "arabic": "أ: من أي حقبة تأتي هذه القصيدة؟\\nب: من الحقبة الرومانسية. مطلع القرن التاسع عشر.\\nأ: ما الذي يميز هذه الحقبة؟\\nب: العاطفة والطبيعة والشوق."
+  },
+  {
+    "english": "epic",
+    "arabic": "مَلحمة، ملحمي"
+  },
+  {
+    "english": "A: Is 'The Lord of the Rings' epic?\\nB: Yes, in both meanings!\\nA: Literary and colloquial?\\nB: Exactly. Epic as a technical term and as slang.",
+    "arabic": "أ: هل 'سيد الخواتم' ملحمي؟\\nب: نعم، بكلا المعنيين!\\nأ: أدبياً وعامياً؟\\nب: بالضبط. ملحمي كمصطلح تقني وكلغة عامية."
+  },
+  {
+    "english": "lyrical",
+    "arabic": "غِنائي"
+  },
+  {
+    "english": "A: This text has a lyrical quality.\\nB: Yes, almost like a poem.\\nA: Lyrical means poetic?\\nB: Similar, but lyrical refers to emotion and rhythm.",
+    "arabic": "أ: هذا النص ذو طابع غنائي.\\nب: نعم، يشبه القصيدة تقريباً.\\nأ: غنائي يعني شعري؟\\nب: مشابه، لكن الغنائي يشير إلى العاطفة والإيقاع."
+  },
+  {
+    "english": "poetic, of a poet",
+    "arabic": "شِعري، يخص الشاعر"
+  },
+  {
+    "english": "A: He used poetic license.\\nB: What does that mean?\\nA: He bent the rules for art.\\nB: So artistic license?",
+    "arabic": "أ: استخدم الرخصة الشعرية.\\nب: ماذا يعني ذلك؟\\nأ: انحرف عن القواعد من أجل الفن.\\nب: إذن الرخصة الفنية؟"
+  },
+  {
+    "english": "German literary theory divides all literature into three genres:\\n\\n1. Epik: narrative prose. Romane, Novellen, Kurzgeschichten, Maerchen, Fabeln. A narrator tells a story.\\n\\n2. Lyrik: poetry. Gedichte, Verse, Strophen, Reime. Emotional, rhythmic, personal.\\n\\n3. Dramatik: theatre. Dramen, Tragödien, Komoedien. Dialogue and stage directions, no narrator.\\n\\nEvery text belongs to one of these three genres. This system comes from ancient Greek poetics.",
+    "arabic": "تقسّم النظرية الأدبية الألمانية الأدب إلى ثلاثة أجناس:\\n\\n1. Epik: النثر السردي. Romane وNovellen وKurzgeschichten وMaerchen وFabeln. راوٍ يحكي قصة.\\n\\n2. Lyrik: الشعر. Gedichte وVerse وStrophen وReime. عاطفي وإيقاعي وشخصي.\\n\\n3. Dramatik: المسرح. Dramen وTragödien وKomoedien. حوار وتوجيهات مسرحية بدون راوٍ.\\n\\nكل نص ينتمي إلى أحد هذه الأجناس الثلاثة. يعود هذا النظام إلى الشعرية الإغريقية القديمة."
+  },
+  {
+    "english": "This classification system dates back to Aristotle's Poetics and was formalized in German literary theory by the Romantics.\\n\\nEpik (Epic/Narrative): A narrator tells a story. Past tense is typical. Subtypes: Roman (novel), Novelle (novella), Kurzgeschichte (short story), Maerchen (fairy tale), Fabel (fable).\\n\\nLyrik (Lyric): Personal expression through rhythm and imagery. Present tense is common. Subtypes: Sonett, Ballade, Ode, Elegie, Haiku.\\n\\nDramatik (Dramatic): Action through dialogue. No narrator. Stage directions replace description. Subtypes: Tragödie, Komoedie, Tragikomoedie.\\n\\nGerman schools test this classification regularly. Knowing the Gattung is the first step of any Textanalyse (text analysis).",
+    "arabic": "يعود هذا النظام التصنيفي إلى 'فن الشعر' لأرسطو وقُنّن في النظرية الأدبية الألمانية على يد الرومانسيين.\\n\\nEpik (الملحمة/السرد): راوٍ يحكي قصة. صيغة الماضي هي الشائعة. الأنواع الفرعية: Roman (رواية)، Novelle (رواية قصيرة)، Kurzgeschichte (قصة قصيرة)، Maerchen (حكاية خرافية)، Fabel (خرافة).\\n\\nLyrik (الغنائي): تعبير شخصي عبر الإيقاع والصور. صيغة المضارع شائعة. الأنواع الفرعية: Sonett وBallade وOde وElegie وHaiku.\\n\\nDramatik (الدرامي): الحدث عبر الحوار. لا راوٍ. الإرشادات المسرحية تحل محل الوصف. الأنواع الفرعية: Tragödie وKomoedie وTragikomoedie.\\n\\nتختبر المدارس الألمانية هذا التصنيف بانتظام. معرفة الـ Gattung هي الخطوة الأولى في أي Textanalyse (تحليل نص)."
+  },
+  {
+    "english": "German literary theory gives the Novelle strict rules: one central conflict, a turning point, and a 'Falke' (falcon symbol).",
+    "arabic": "تضع النظرية الأدبية الألمانية للـ Novelle قواعد صارمة: صراع مركزي واحد ونقطة تحول ورمز 'الصقر' (Falke)."
+  },
+  {
+    "english": "The word for 'plot' or 'action' of a story. From 'handeln' (to act).",
+    "arabic": "الكلمة التي تعني 'حبكة' أو 'أحداث' القصة. مشتقة من 'handeln' (يتصرف)."
+  },
+  {
+    "english": "The plot of the novel takes place in Berlin in the 19th century.",
+    "arabic": "تدور أحداث الرواية في برلين في القرن التاسع عشر."
+  },
+  {
+    "english": "A 'Schau-Platz' (show-place). Where the events of the plot unfold.",
+    "arabic": "'Schau-Platz' (مكان العرض). حيث تتكشف أحداث الحبكة."
+  },
+  {
+    "english": "Good. Now you know the words. Now I can tell you what my grandfather told me. And you can write it down. In the right words.",
+    "arabic": "جيد. الآن تعرف الكلمات. الآن أستطيع أن أحكي لك ما حدثني به جدي. وتستطيع أنت تدوينه. بالكلمات الصحيحة."
+  },
+  {
+    "english": "Learn Konjunktiv I for indirect speech. Master the vocabulary of literary analysis. Report what others say in formal German.",
+    "arabic": "تعلم Konjunktiv I للكلام غير المباشر. أتقن مفردات التحليل الأدبي. أبلغ عما يقوله الآخرون بالألمانية الرسمية."
+  },
+  {
+    "english": "Learn 20 words for literary analysis and reporting",
+    "arabic": "تعلم 20 كلمة للتحليل الأدبي والإبلاغ"
+  },
+  {
+    "english": "Understand Konjunktiv I as 'reporter mode'",
+    "arabic": "افهم Konjunktiv I باعتباره 'وضع المراسل'"
+  },
+  {
+    "english": "Report what others say in formal German",
+    "arabic": "أبلغ عما يقوله الآخرون بالألمانية الرسمية"
+  },
+  {
+    "english": "Analyze literary style devices",
+    "arabic": "حلّل الأساليب الأدبية البلاغية"
+  },
+  {
+    "english": "Heinrich leans forward. His eyes brighten. He is about to tell a story he has told a hundred times, each time slightly different. Verumius's pen is ready.",
+    "arabic": "يميل هاينريش إلى الأمام. تبرق عيناه. هو على وشك أن يحكي قصة حكاها مئة مرة، في كل مرة بشكل مختلف قليلاً. قلم فيروميوس جاهز."
+  },
+  {
+    "english": "My grandfather always said: 'The early bird catches the worm.' And he was right. He got up every morning at four o'clock. The bakery was his kingdom.",
+    "arabic": "كان جدي يقول دائماً: 'الطائر الباكر يصطاد الدود.' وكان محقاً. كان يستيقظ كل صباح في الساعة الرابعة. المخبزة كانت مملكته."
+  },
+  {
+    "english": "So: Heinrich told that his grandfather had started every morning at four o'clock. The bakery had been his kingdom.",
+    "arabic": "إذن: أخبر هاينريش أن جده كان يبدأ كل صباح في الساعة الرابعة. المخبزة كانت مملكته."
+  },
+  {
+    "english": "It was half past three, not four. But keep telling, Papa.",
+    "arabic": "كانت الساعة الثالثة والنصف لا الرابعة. لكن استمر في الحكي يا أبي."
+  },
+  {
+    "english": "quote, citation",
+    "arabic": "اقتباس، استشهاد"
+  },
+  {
+    "english": "A: Do you know a famous quote?\\nB: Yes: 'I know that I know nothing.'\\nA: Who is the quote from?\\nB: From Socrates. A timeless quote.",
+    "arabic": "أ: هل تعرف اقتباساً مشهوراً؟\\nب: نعم: 'أعلم أنني لا أعلم شيئاً.'\\nأ: ممن هذا الاقتباس؟\\nب: من سقراط. اقتباس خالد."
+  },
+  {
+    "english": "context",
+    "arabic": "سياق"
+  },
+  {
+    "english": "A: What does the word mean in context?\\nB: Viewed in context, the meaning changes.\\nA: Without context, you understand nothing.\\nB: Exactly. Context is everything.",
+    "arabic": "أ: ماذا تعني الكلمة في السياق؟\\nب: في السياق يتغير المعنى.\\nأ: بدون سياق لا تفهم شيئاً.\\nب: بالضبط. السياق هو كل شيء."
+  },
+  {
+    "english": "perspective, point of view",
+    "arabic": "منظور، وجهة نظر"
+  },
+  {
+    "english": "A: From whose perspective is the story?\\nB: From the narrator's perspective.\\nA: And Heinrich's perspective?\\nB: That is naturally subjective.",
+    "arabic": "أ: من منظور مَن تُروى القصة؟\\nب: من منظور الراوي.\\nأ: ومنظور هاينريش؟\\nب: ذلك ذاتي بطبيعة الحال."
+  },
+  {
+    "english": "motif, theme",
+    "arabic": "مَوتيف، موضوع"
+  },
+  {
+    "english": "A: What is the central motif?\\nB: Bread. It keeps appearing.\\nA: So a motif is a recurring element?\\nB: Yes, it runs through the story.",
+    "arabic": "أ: ما هو الموتيف المركزي؟\\nب: الخبز. يظهر مراراً.\\nأ: إذن الموتيف عنصر متكرر؟\\nب: نعم، يسري في القصة."
+  },
+  {
+    "english": "symbol",
+    "arabic": "رَمز"
+  },
+  {
+    "english": "A: What does bread symbolize in Heinrich's stories?\\nB: Community and work.\\nA: A symbol stands for something else?\\nB: Yes, something concrete for something abstract.",
+    "arabic": "أ: ماذا يرمز الخبز في قصص هاينريش؟\\nب: الجماعة والعمل.\\nأ: الرمز يدل على شيء آخر؟\\nب: نعم، شيء ملموس لشيء مجرد."
+  },
+  {
+    "english": "comparison, simile",
+    "arabic": "تشبيه، مقارنة"
+  },
+  {
+    "english": "A: What is a comparison?\\nB: 'Life is like a book.' With 'like.'\\nA: And a metaphor?\\nB: 'Life is a book.' Without 'like.'",
+    "arabic": "أ: ما هو التشبيه؟\\nب: 'الحياة كالكتاب.' بـ'مثل'.\\nأ: والاستعارة؟\\nب: 'الحياة كتاب.' بدون 'مثل'."
+  },
+  {
+    "english": "pun, play on words",
+    "arabic": "تَورية، لعبة كلمات"
+  },
+  {
+    "english": "A: Was that a pun?\\nB: Yes! Did you notice it?\\nA: A successful pun.\\nB: Thanks. Puns are an art.",
+    "arabic": "أ: هل كانت تلك تورية؟\\nب: نعم! هل لاحظتها؟\\nأ: تورية موفقة.\\nب: شكراً. التورية فن."
+  },
+  {
+    "english": "ambiguity, double meaning",
+    "arabic": "غُموض، ازدواجية المعنى"
+  },
+  {
+    "english": "A: This word has a double meaning.\\nB: It can mean two things?\\nA: Yes, that makes it interesting.\\nB: Ambiguities are typical for proverbs.",
+    "arabic": "أ: هذه الكلمة لها معنيان.\\nب: يمكن أن تعني شيئين؟\\nأ: نعم، هذا ما يجعلها مثيرة للاهتمام.\\nب: الغموض من سمات الأمثال."
+  },
+  {
+    "english": "allusion, reference",
+    "arabic": "تَلميح، إشارة"
+  },
+  {
+    "english": "A: Was that an allusion to Goethe?\\nB: Yes, a subtle allusion.\\nA: Not everyone understands allusions.\\nB: That is the charm. You have to recognize it.",
+    "arabic": "أ: هل كان ذلك تلميحاً لغوته؟\\nب: نعم، تلميح خفي.\\nأ: ليس الجميع يفهم التلميحات.\\nب: هذا هو السحر. يجب أن تتعرف عليه."
+  },
+  {
+    "english": "reading material, text being read",
+    "arabic": "مادة للقراءة، نص يُقرأ"
+  },
+  {
+    "english": "A: What is your current reading?\\nB: Kafka. Difficult but fascinating reading.\\nA: Is that required reading?\\nB: No, voluntary. The best reading is voluntary.",
+    "arabic": "أ: ما هو ما تقرأه حالياً؟\\nب: كافكا. قراءة صعبة لكن رائعة.\\nأ: هل هذه قراءة إلزامية؟\\nب: لا، طوعية. أفضل قراءة هي الطوعية."
+  },
+  {
+    "english": "allegedly, supposedly",
+    "arabic": "يُقال إن، من المفترض"
+  },
+  {
+    "english": "A: Allegedly he started at four o'clock.\\nB: Allegedly? You do not believe it?\\nA: Hildi says it was half past three.\\nB: So 'four o'clock' is only allegedly correct.",
+    "arabic": "أ: يُقال إنه بدأ في الساعة الرابعة.\\nب: يُقال؟ لا تصدق ذلك؟\\nأ: تقول هيلدي إنها كانت الثالثة والنصف.\\nب: إذن 'الساعة الرابعة' صحيحة من المفترض فقط."
+  },
+  {
+    "english": "apparently",
+    "arabic": "على ما يبدو"
+  },
+  {
+    "english": "A: Apparently it was half past three.\\nB: That seems likely.\\nA: Apparently is not certain?\\nB: No, it is based on what one sees.",
+    "arabic": "أ: على ما يبدو كانت الثالثة والنصف.\\nب: يبدو ذلك محتملاً.\\nأ: 'على ما يبدو' ليست يقيناً؟\\nب: لا، تستند إلى ما يُرى."
+  },
+  {
+    "english": "as is well known",
+    "arabic": "كما هو معروف"
+  },
+  {
+    "english": "A: As is well known, proverbs are timeless.\\nB: Yes, everyone knows that.\\nA: 'Bekanntlich' sounds very formal.\\nB: It fits in essays and speeches.",
+    "arabic": "أ: كما هو معروف، الأمثال خالدة.\\nب: نعم، الجميع يعرف ذلك.\\nأ: 'Bekanntlich' يبدو رسمياً جداً.\\nب: يناسب المقالات والخطب."
+  },
+  {
+    "english": "obviously, evidently",
+    "arabic": "من الواضح، بشكل جلي"
+  },
+  {
+    "english": "A: Obviously Heinrich was right.\\nB: Yes, that is fairly clear.\\nA: Offenbar is stronger than anscheinend?\\nB: Yes, offenbar means: it is almost certain.",
+    "arabic": "أ: من الواضح أن هاينريش كان محقاً.\\nب: نعم، هذا واضح إلى حد ما.\\nأ: offenbar أقوى من anscheinend؟\\nب: نعم، offenbar تعني: إنه شبه مؤكد."
+  },
+  {
+    "english": "according to (preposition)",
+    "arabic": "وفقاً لـ، حسب (حرف جر)"
+  },
+  {
+    "english": "A: According to Heinrich, the day began at four.\\nB: According to Hildi, it was half past three.\\nA: According to whom should I believe?\\nB: According to the truth. It lies in between.",
+    "arabic": "أ: وفقاً لهاينريش، بدأ اليوم في الرابعة.\\nب: وفقاً لهيلدي، كانت الثالثة والنصف.\\nأ: وفقاً لمَن يجب أن أصدق؟\\nب: وفقاً للحقيقة. إنها في المنتصف."
+  },
+  {
+    "english": "to claim, to assert",
+    "arabic": "يدّعي، يؤكد"
+  },
+  {
+    "english": "A: Heinrich claims he never overslept.\\nB: That is what he claims.\\nA: Behaupten sounds doubtful?\\nB: Yes, you do not know if it is true.",
+    "arabic": "أ: يدّعي هاينريش أنه لم ينم بشكل مفرط أبداً.\\nب: هكذا يدّعي.\\nأ: behaupten يبدو مريباً؟\\nب: نعم، لا تعرف إن كان صحيحاً."
+  },
+  {
+    "english": "to report",
+    "arabic": "يُبلّغ، يُخبر"
+  },
+  {
+    "english": "A: Verumius reports what Heinrich tells.\\nB: Berichten is neutral?\\nA: Yes, without judgment.\\nB: Different from behaupten, which implies doubt.",
+    "arabic": "أ: فيروميوس يُبلّغ عما يحكيه هاينريش.\\nب: berichten محايد؟\\nأ: نعم، بدون حكم.\\nب: مختلف عن behaupten الذي يوحي بالشك."
+  },
+  {
+    "english": "to emphasize",
+    "arabic": "يُشدد، يُبرز"
+  },
+  {
+    "english": "A: Heinrich emphasized that bread was important.\\nB: He placed special value on that.\\nA: Betonen means to highlight?\\nB: Yes, to give something special emphasis.",
+    "arabic": "أ: شدّد هاينريش على أن الخبز مهم.\\nب: أعطى اهتماماً خاصاً لذلك.\\nأ: betonen تعني الإبراز؟\\nب: نعم، إعطاء شيء ما تأكيداً خاصاً."
+  },
+  {
+    "english": "to describe, to depict vividly",
+    "arabic": "يصف، يُصوّر بحيوية"
+  },
+  {
+    "english": "A: Heinrich describes the bakery in all details.\\nB: You can almost smell it.\\nA: Schildern is more vivid than beschreiben?\\nB: Yes, schildern paints a picture with words.",
+    "arabic": "أ: يصف هاينريش المخبزة بكل تفاصيلها.\\nب: تكاد تشم رائحتها.\\nأ: schildern أكثر حيوية من beschreiben؟\\nب: نعم، schildern يرسم صورة بالكلمات."
+  },
+  {
+    "english": "to mean, to think, to be of the opinion",
+    "arabic": "يقصد، يعتقد، يرى"
+  },
+  {
+    "english": "A: What do you think about that?\\nB: I think Heinrich is right.\\nA: He was of the opinion that the old times were better.\\nB: Many older people think that.",
+    "arabic": "أ: ما رأيك في ذلك؟\\nب: أعتقد أن هاينريش محق.\\nأ: كان يرى أن الأزمنة القديمة كانت أفضل.\\nب: كثير من كبار السن يعتقدون ذلك."
+  },
+  {
+    "english": "German has a special verb form for reported speech: the Konjunktiv I.\\n\\nFormation: verb stem + endings (-e, -est, -e, -en, -et, -en).\\n\\nsein: er sei\\nhaben: er habe\\nkönnen: er könne\\nsagen: er sage\\n\\nExample: 'Heinrich sagte, die Backstube sei sein Königreich.'\\n\\nThe Konjunktiv I signals: 'I am reporting, not giving my own opinion.'\\n\\nUsage: newspapers, academic writing, formal language.\\nIn everyday speech, many speakers use Konjunktiv II (wäre, hätte) instead of Konjunktiv I, but B2 learners must be able to recognize and produce the Konjunktiv I.",
+    "arabic": "للألمانية صيغة فعلية خاصة للكلام غير المباشر: Konjunktiv I.\\n\\nالصياغة: جذر الفعل + اللواحق (-e وَ-est وَ-e وَ-en وَ-et وَ-en).\\n\\nsein: er sei\\nhaben: er habe\\nkönnen: er könne\\nsagen: er sage\\n\\nمثال: 'Heinrich sagte, die Backstube sei sein Königreich.'\\n\\nيُشير Konjunktiv I إلى: 'أنا أُبلّغ، لا أُعطي رأيي الخاص.'\\n\\nالاستخدام: الصحف والكتابة الأكاديمية واللغة الرسمية.\\nفي الكلام اليومي يستخدم كثيرون Konjunktiv II (wäre وhätte) بدلاً من Konjunktiv I، لكن يجب على متعلمي المستوى B2 التعرف على Konjunktiv I وإنتاجه."
+  },
+  {
+    "english": "The Konjunktiv I is formed from the verb stem (infinitive minus -en) plus endings: -e, -est, -e, -en, -et, -en.\\n\\nWhen Konjunktiv I is identical to the indicative (e.g., 'sie haben' = 'sie haben'), German switches to Konjunktiv II instead: 'sie hätten.' This happens mainly in ich and wir/sie forms.\\n\\nThe Konjunktiv I is used in:\\n1. Newspapers and news broadcasts\\n2. Academic writing\\n3. Formal speech and reports\\n4. Legal documents\\n\\nIn everyday speech, most Germans use Konjunktiv II or 'würde + Infinitiv' for indirect speech. But recognizing and producing Konjunktiv I is essential at B2 level.",
+    "arabic": "يتكون Konjunktiv I من جذر الفعل (المصدر ناقص -en) مضافاً إليه اللواحق: -e وَ-est وَ-e وَ-en وَ-et وَ-en.\\n\\nعندما يكون Konjunktiv I مطابقاً للمؤشر (مثل 'sie haben' = 'sie haben')، تنتقل الألمانية إلى Konjunktiv II بدلاً منه: 'sie hätten.' يحدث هذا بصفة رئيسية في صيغ ich وwir/sie.\\n\\nيُستخدم Konjunktiv I في:\\n1. الصحف ونشرات الأخبار\\n2. الكتابة الأكاديمية\\n3. الخطاب الرسمي والتقارير\\n4. الوثائق القانونية\\n\\nفي الكلام اليومي يستخدم معظم الألمان Konjunktiv II أو 'würde + Infinitiv' للكلام غير المباشر. لكن التعرف على Konjunktiv I وإنتاجه ضروري في المستوى B2."
+  },
+  {
+    "english": "This special verb form signals that you are reporting someone else's words, not your own opinion.",
+    "arabic": "هذه الصيغة الفعلية الخاصة تُشير إلى أنك تُبلّغ عن كلام شخص آخر، لا عن رأيك الخاص."
+  },
+  {
+    "english": "In reporter mode the auxiliary verb changes. Past tense + Partizip II gives the reported past.",
+    "arabic": "في وضع المراسل يتغير الفعل المساعد. صيغة الماضي + Partizip II تُعطي الماضي المُبلَّغ عنه."
+  },
+  {
+    "english": "Heinrich told that he had gotten up at four o'clock every morning.",
+    "arabic": "أخبر هاينريش أنه كان يستيقظ في الساعة الرابعة كل صباح."
+  },
+  {
+    "english": "Master 'als ob' + Konjunktiv II for unreal comparisons. Learn literary character and genre vocabulary. Combine indirect speech with hypothetical comparison.",
+    "arabic": "أتقن 'als ob' + Konjunktiv II للمقارنات غير الواقعية. تعلم مفردات الشخصيات والأجناس الأدبية. دمج الكلام غير المباشر مع المقارنة الافتراضية."
+  },
+  {
+    "english": "Master 'als ob' + Konjunktiv II for unreal comparisons",
+    "arabic": "أتقن 'als ob' + Konjunktiv II للمقارنات غير الواقعية"
+  },
+  {
+    "english": "Learn vocabulary for characters and literary styles",
+    "arabic": "تعلم مفردات الشخصيات والأساليب الأدبية"
+  },
+  {
+    "english": "Understand the short form: 'als wäre' (inversion)",
+    "arabic": "افهم الشكل المختصر: 'als wäre' (القلب)"
+  },
+  {
+    "english": "Combine Konjunktiv I (speech) with Konjunktiv II (comparison)",
+    "arabic": "دمج Konjunktiv I (الكلام) مع Konjunktiv II (المقارنة)"
+  },
+  {
+    "english": "Heinrich continues telling. He describes the bakery as if he could still smell the flour dust. His hands move as if kneading invisible dough. Hildi shakes her head but smiles. Verumius writes and writes.",
+    "arabic": "يواصل هاينريش الحكي. يصف المخبزة كأنه لا يزال يشم غبار الطحين. تتحرك يداه كأنه يعجن عجيناً غير مرئي. تهز هيلدي رأسها لكنها تبتسم. يكتب فيروميوس ويكتب."
+  },
+  {
+    "english": "He always acts as if he knew everything. As if he had been the only baker in the world. When in fact Grandma ran half the business.",
+    "arabic": "دائماً يتصرف كأنه يعلم كل شيء. كأنه كان الخباز الوحيد في العالم. في حين أن جدتي هي التي كانت تُدير نصف العمل."
+  },
+  {
+    "english": "narrator",
+    "arabic": "راوٍ"
+  },
+  {
+    "english": "A: Who is the narrator of this story?\\nB: An omniscient narrator. He knows everything.\\nA: And Heinrich? Is he also a narrator?\\nB: Yes, a born narrator.",
+    "arabic": "أ: من هو راوي هذه القصة؟\\nب: راوٍ كلي المعرفة. يعرف كل شيء.\\nأ: وهاينريش؟ هل هو أيضاً راوٍ؟\\nب: نعم، راوٍ بالفطرة."
+  },
+  {
+    "english": "narrator (female)",
+    "arabic": "راوية"
+  },
+  {
+    "english": "A: Is the narrator reliable?\\nB: No, she is an unreliable narrator.\\nA: You cannot trust her?\\nB: Exactly. She changes the facts.",
+    "arabic": "أ: هل الراوية موثوقة؟\\nب: لا، إنها راوية غير موثوقة.\\nأ: لا تستطيع الوثوق بها؟\\nب: بالضبط. تُغيّر الحقائق."
+  },
+  {
+    "english": "secondary character",
+    "arabic": "شخصية ثانوية"
+  },
+  {
+    "english": "A: Is Hildi a secondary character?\\nB: In Heinrich's stories, yes.\\nA: Secondary characters enrich the plot.\\nB: Without them the story would be flat.",
+    "arabic": "أ: هل هيلدي شخصية ثانوية؟\\nب: في قصص هاينريش، نعم.\\nأ: الشخصيات الثانوية تُثري الحبكة.\\nب: بدونها ستكون القصة مسطحة."
+  },
+  {
+    "english": "tragedy",
+    "arabic": "مأساة، تراجيديا"
+  },
+  {
+    "english": "A: Is 'Faust' a tragedy?\\nB: Yes, one of the greatest German tragedies.\\nA: What defines a tragedy?\\nB: The hero fails because of his fate.",
+    "arabic": "أ: هل 'فاوست' مأساة؟\\nب: نعم، إحدى أعظم المآسي الألمانية.\\nأ: ما الذي يُحدد المأساة؟\\nب: يفشل البطل بسبب مصيره."
+  },
+  {
+    "english": "poetry, poetic quality",
+    "arabic": "شِعر، جودة شعرية"
+  },
+  {
+    "english": "A: Is there poetry in proverbs?\\nB: Yes, everyday poetry. Simple and beautiful.\\nA: Poetry is more than poems?\\nB: Yes, poetry is beauty in language.",
+    "arabic": "أ: هل في الأمثال شعر؟\\nب: نعم، شعر يومي. بسيط وجميل.\\nأ: الشعر أكثر من مجرد قصائد؟\\nب: نعم، الشعر هو الجمال في اللغة."
+  },
+  {
+    "english": "writer, author",
+    "arabic": "كاتب، مؤلف"
+  },
+  {
+    "english": "A: Is Thomas Mann an author or a Schriftsteller?\\nB: A Schriftsteller. That sounds more literary.\\nA: What is the difference?\\nB: Schriftsteller write literary works.",
+    "arabic": "أ: هل توماس مان مؤلف أم Schriftsteller؟\\nب: Schriftsteller. يبدو أكثر أدبية.\\nأ: ما الفرق؟\\nب: Schriftsteller يكتبون الأعمال الأدبية."
+  },
+  {
+    "english": "writer, author (female)",
+    "arabic": "كاتبة، مؤلفة"
+  },
+  {
+    "english": "A: Do you know a German female writer?\\nB: Herta Mueller. She won the Nobel Prize.\\nA: An important writer.\\nB: Yes, her works are powerful.",
+    "arabic": "أ: هل تعرف كاتبة ألمانية؟\\nب: هيرتا مولر. فازت بجائزة نوبل.\\nأ: كاتبة مهمة.\\nب: نعم، أعمالها قوية."
+  },
+  {
+    "english": "contemporary",
+    "arabic": "مُعاصِر"
+  },
+  {
+    "english": "A: Was Schiller a contemporary of Goethe?\\nB: Yes, they lived in the same era.\\nA: And colloquially?\\nB: 'A strange Zeitgenosse' means: a weird fellow.",
+    "arabic": "أ: هل كان شيلر معاصراً لغوته؟\\nب: نعم، عاشا في العصر نفسه.\\nأ: وفي الكلام العامي؟\\nب: 'Zeitgenosse غريب' تعني: شخص غريب الأطوار."
+  },
+  {
+    "english": "fictional",
+    "arabic": "خيالي، وهمي"
+  },
+  {
+    "english": "A: Is Verumius fictional?\\nB: Yes, a fictional character.\\nA: But he feels real.\\nB: That is good fiction.",
+    "arabic": "أ: هل فيروميوس شخصية خيالية؟\\nب: نعم، شخصية خيالية.\\nأ: لكنه يبدو حقيقياً.\\nب: هذا ما يُميّز الخيال الجيد."
+  },
+  {
+    "english": "classic, classical",
+    "arabic": "كلاسيكي"
+  },
+  {
+    "english": "A: Is that classical literature?\\nB: Yes, from the Weimar Classical period.\\nA: Klassisch also means 'typical'?\\nB: Yes. 'That is classic!' means: typical!",
+    "arabic": "أ: هل هذا أدب كلاسيكي؟\\nب: نعم، من حقبة فيمار الكلاسيكية.\\nأ: klassisch تعني أيضاً 'نموذجي'؟\\nب: نعم. 'هذا كلاسيكي!' تعني: نموذجي!"
+  },
+  {
+    "english": "tragic",
+    "arabic": "مأساوي"
+  },
+  {
+    "english": "A: Does the story have a tragic ending?\\nB: Yes, unfortunately. The main character fails.\\nA: Tragic stories are often the best.\\nB: Because they are honest.",
+    "arabic": "أ: هل للقصة نهاية مأساوية؟\\nب: نعم، للأسف. تفشل الشخصية الرئيسية.\\nأ: القصص المأساوية غالباً هي الأفضل.\\nب: لأنها صادقة."
+  },
+  {
+    "english": "satirical",
+    "arabic": "ساخر، هجائي"
+  },
+  {
+    "english": "A: Is this text satirical?\\nB: Yes, it criticizes society with humor.\\nA: German satire is often sharp.\\nB: Sharp, but on point.",
+    "arabic": "أ: هل هذا النص ساخر؟\\nب: نعم، ينتقد المجتمع بالفكاهة.\\nأ: السخرية الألمانية غالباً حادة.\\nب: حادة لكن في صميم الموضوع."
+  },
+  {
+    "english": "ironic",
+    "arabic": "ساخر بأسلوب عكسي، إيروني"
+  },
+  {
+    "english": "A: That was meant ironically.\\nB: I did not recognize it.\\nA: German irony is subtle.\\nB: Yes, you have to hear the tone of voice.",
+    "arabic": "أ: كان ذلك بأسلوب إيروني.\\nب: لم أتعرف عليه.\\nأ: الإيرونيا الألمانية دقيقة.\\nب: نعم، يجب أن تسمع نبرة الصوت."
+  },
+  {
+    "english": "humorous",
+    "arabic": "فكاهي، مرح"
+  },
+  {
+    "english": "A: Heinrich's stories are humorous.\\nB: Yes, in a dry, warm way.\\nA: German humor is dry?\\nB: Dry, but deep. And surprising.",
+    "arabic": "أ: قصص هاينريش فكاهية.\\nب: نعم، بأسلوب جاف ودافئ.\\nأ: الفكاهة الألمانية جافة؟\\nب: جافة لكن عميقة. ومفاجئة."
+  },
+  {
+    "english": "metaphorical",
+    "arabic": "مجازي، استعاري"
+  },
+  {
+    "english": "A: Bread as a metaphorical symbol?\\nB: Yes, metaphorically bread stands for community.\\nA: Metaphorically speaking then.\\nB: Exactly. Not literally, but figuratively.",
+    "arabic": "أ: الخبز كرمز مجازي؟\\nب: نعم، مجازياً يمثل الخبز المجتمع.\\nأ: مجازاً إذن.\\nب: بالضبط. ليس حرفياً بل مجازياً."
+  },
+  {
+    "english": "symbolic, allegorical",
+    "arabic": "رمزي، تلميحي"
+  },
+  {
+    "english": "A: The bread is symbolic of work.\\nB: Symbolic? So symbolically?\\nA: Yes, the image (bread) carries the meaning (work).\\nB: A beautiful word.",
+    "arabic": "أ: الخبز رمزي للعمل.\\nب: رمزي؟ إذن بشكل رمزي؟\\nأ: نعم، الصورة (الخبز) تحمل المعنى (العمل).\\nب: كلمة جميلة."
+  },
+  {
+    "english": "as if",
+    "arabic": "كأن، كما لو"
+  },
+  {
+    "english": "A: He acts as if he knew everything.\\nB: Knew? Why not 'knows'?\\nA: Because it is not real. 'Als ob' requires Konjunktiv II.\\nB: So: he does not really know?",
+    "arabic": "أ: يتصرف كأنه يعرف كل شيء.\\nب: يعرف؟ لماذا لا 'يعلم'؟\\nأ: لأنه ليس حقيقياً. 'Als ob' تتطلب Konjunktiv II.\\nب: إذن: هو لا يعرف حقاً؟"
+  },
+  {
+    "english": "as if (colloquial)",
+    "arabic": "كأن، كما لو (عامي)"
+  },
+  {
+    "english": "A: He speaks as if he were a poet.\\nB: Is that the same as 'als ob'?\\nA: Yes, just slightly more colloquial.\\nB: So als ob = als wenn?",
+    "arabic": "أ: يتكلم كأنه شاعر.\\nب: هل هذا نفس 'als ob'؟\\nأ: نعم، أكثر عامية قليلاً فقط.\\nب: إذن als ob = als wenn؟"
+  },
+  {
+    "english": "as if (informal)",
+    "arabic": "كأن، كما لو (غير رسمي)"
+  },
+  {
+    "english": "A: It feels like when you come home.\\nB: Wie wenn? That sounds informal.\\nA: Yes, people say that in everyday speech.\\nB: So the casual version of 'als ob'?",
+    "arabic": "أ: يبدو كما لو كنت عائداً إلى المنزل.\\nب: wie wenn؟ يبدو غير رسمي.\\nأ: نعم، يقول الناس ذلك في الكلام اليومي.\\nب: إذن النسخة العامية من 'als ob'؟"
+  },
+  {
+    "english": "as if (were) (literary short form)",
+    "arabic": "كأنّ (الشكل الأدبي المختصر)"
+  },
+  {
+    "english": "A: He speaks as if he were an expert.\\nB: No 'ob' after 'als'?\\nA: No, that is the short form. More elegant.\\nB: So: als + verb immediately after?",
+    "arabic": "أ: يتكلم كأنه خبير.\\nب: لا 'ob' بعد 'als'؟\\nأ: لا، هذا هو الشكل المختصر. أكثر أناقة.\\nب: إذن: als + الفعل مباشرة؟"
+  },
+  {
+    "english": "German compares reality with imagination using 'als ob.' The Konjunktiv II signals that something is NOT reality, it only LOOKS that way.\\n\\nTwo main patterns exist:\\n- Als ob with the verb at the END of the clause: 'Er tut, als ob er alles wüsste.'\\n- Als alone with INVERSION (no ob needed): 'Er tut, als wüsste er alles.' This short form is more elegant and literary.\\n\\nBoth mean the same thing. Two informal variants also exist: 'als wenn' (slightly colloquial) and 'wie wenn' (most informal). All four patterns take Konjunktiv II.\\n\\nCommon verb forms after als ob: wäre, hätte, wüsste, könnte.\\n\\nIn Heinrich's stories: 'Er erzählte es, als wäre er noch jung.' He is no longer young, but it LOOKS that way.",
+    "arabic": "تُقارن الألمانية الواقع بالخيال باستخدام 'als ob'. يُشير Konjunktiv II إلى أن الشيء ليس واقعاً، بل يبدو كذلك فحسب.\\n\\nيوجد نمطان رئيسيان:\\n- als ob مع وضع الفعل في نهاية الجملة: 'Er tut, als ob er alles wüsste.'\\n- als وحدها مع القلب (دون الحاجة إلى ob): 'Er tut, als wüsste er alles.' هذا الشكل المختصر أكثر أناقة وأدبية.\\n\\nكلاهما يعني الشيء نفسه. يوجد أيضاً صيغتان غير رسميتين: 'als wenn' (عامية قليلاً) و'wie wenn' (الأكثر عامية). جميع الأنماط الأربعة تأخذ Konjunktiv II.\\n\\nصيغ الأفعال الشائعة بعد als ob: wäre وhätte وwüsste وkönnte.\\n\\nفي قصص هاينريش: 'Er erzählte es, als wäre er noch jung.' هو لم يعد شاباً لكنه يبدو كذلك."
+  },
+  {
+    "english": "The four patterns:\\n1. als ob + Konj. II + verb END: Er tut, als ob er reich wäre.\\n2. als + Konj. II + INVERSION: Er tut, als wäre er reich.\\n3. als wenn + Konj. II + verb END: Er tut, als wenn er reich wäre.\\n4. wie wenn + Konj. II + verb END: Er tut, wie wenn er reich wäre.\\n\\nAll four mean the same thing. Patterns 1-2 are standard. Pattern 2 is most elegant. Pattern 3 is common in speech. Pattern 4 is informal.\\n\\nImportant: The 'würde + Infinitiv' form also works after als ob: 'Er tut, als ob er alles wissen würde.' Grammatically correct but less elegant than Konjunktiv II directly.\\n\\nRecognition tip: whenever you see 'als ob,' 'als wenn,' 'wie wenn,' or 'als' followed immediately by a Konjunktiv II verb, you are looking at an unreal comparison.",
+    "arabic": "الأنماط الأربعة:\\n1. als ob + Konj. II + الفعل في النهاية: Er tut, als ob er reich wäre.\\n2. als + Konj. II + القلب: Er tut, als wäre er reich.\\n3. als wenn + Konj. II + الفعل في النهاية: Er tut, als wenn er reich wäre.\\n4. wie wenn + Konj. II + الفعل في النهاية: Er tut, wie wenn er reich wäre.\\n\\nجميعها تعني الشيء ذاته. الأنماط 1-2 هي المعيارية. النمط 2 هو الأكثر أناقة. النمط 3 شائع في الكلام. النمط 4 غير رسمي.\\n\\nمهم: صيغة 'würde + Infinitiv' تعمل أيضاً بعد als ob: 'Er tut, als ob er alles wissen würde.' صحيح نحوياً لكن أقل أناقة من Konjunktiv II مباشرة.\\n\\nتلميح للتعرف: كلما رأيت 'als ob' أو 'als wenn' أو 'wie wenn' أو 'als' متبوعة مباشرة بفعل Konjunktiv II، فأنت أمام مقارنة غير واقعية."
+  },
+  {
+    "english": "After 'als' with this verb form, you compare reality with imagination. He speaks AS IF, but reality is different.",
+    "arabic": "بعد 'als' مع هذه الصيغة الفعلية تُقارن الواقع بالخيال. يتكلم كأنّ، لكن الواقع مختلف."
+  },
+  {
+    "english": "After 'als ob' the verb must be in Konjunktiv II. Recall the Konjunktiv II form of the verb 'sein' from the paradigm.",
+    "arabic": "بعد 'als ob' يجب أن يكون الفعل في Konjunktiv II. تذكر صيغة Konjunktiv II للفعل 'sein' من النموذج."
+  },
+  {
+    "english": "He talks about bread as if it were the most important thing in the world.",
+    "arabic": "يتحدث عن الخبز كأنه أهم شيء في العالم."
+  },
+  {
+    "english": "Two different verb forms: one reports Heinrich's words, the other describes a state that is not real.",
+    "arabic": "صيغتان فعليتان مختلفتان: إحداهما تُبلّغ عن كلام هاينريش، والأخرى تصف حالة غير واقعية."
+  },
+  {
+    "english": "to exist",
+    "arabic": "يوجد، يتواجد"
+  },
+  {
+    "english": "A: Does the old bakery still exist?\\nB: No, it no longer exists.\\nA: When did it stop existing?\\nB: Twenty years ago. But in Heinrich's stories it goes on existing.",
+    "arabic": "أ: هل لا تزال المخبزة القديمة موجودة؟\\nب: لا، لم تعد موجودة.\\nأ: متى توقفت عن الوجود؟\\nب: منذ عشرين عاماً. لكن في قصص هاينريش تستمر في الوجود."
+  },
+  {
+    "english": "The 'als ob' construction: als ob + Konjunktiv II at the end. The bakery no longer exists.",
+    "arabic": "تركيب 'als ob': als ob + Konjunktiv II في النهاية. المخبزة لم تعد موجودة."
+  },
+  {
+    "english": "Heinrich tells stories as if he were still thirty. As if time had no power over the bakery. I write down what he says. But I also write down how he says it. That is almost more important.",
+    "arabic": "يحكي هاينريش القصص كأنه لا يزال في الثلاثين من عمره. كأن الزمن لا سلطة له على المخبزة. أكتب ما يقوله. لكنني أكتب أيضاً كيف يقوله. هذا يكاد يكون أكثر أهمية."
+  },
+  {
+    "english": "Heinrich remembers the bakery of the 1960s. Learn how to shift tenses in indirect speech, distinguish literal from figurative meaning, and report narratives correctly.",
+    "arabic": "يتذكر هاينريش مخبزة الستينيات. تعلم كيفية إزاحة الأزمنة في الكلام غير المباشر، وميّز بين المعنى الحرفي والمجازي، وأبلغ عن السرديات بشكل صحيح."
+  },
+  {
+    "english": "Master tense shifting in indirect speech",
+    "arabic": "أتقن إزاحة الأزمنة في الكلام غير المباشر"
+  },
+  {
+    "english": "Distinguish literal and figurative meaning",
+    "arabic": "ميّز بين المعنى الحرفي والمجازي"
+  },
+  {
+    "english": "Report narratives precisely in formal German",
+    "arabic": "أبلغ عن السرديات بدقة في الألمانية الرسمية"
+  },
+  {
+    "english": "The scene shifts. Golden-sepia light. A 1960s bakery. Wooden tables covered in flour. Ovens glowing. Young Heinrich kneads dough at 4 AM. The smell of fresh bread fills the memory.",
+    "arabic": "يتغير المشهد. ضوء ذهبي بني داكن. مخبزة من الستينيات. طاولات خشبية مغطاة بالطحين. أفران متوهجة. هاينريش الشاب يعجن العجين في الساعة الرابعة صباحاً. رائحة الخبز الطازج تملأ الذاكرة."
+  },
+  {
+    "english": "My grandfather always said: 'The apple does not fall far from the tree.' He meant I was just like him. And he was right. I took over the bakery.",
+    "arabic": "كان جدي يقول دائماً: 'الشبل من ذاك الأسد.' كان يقصد أنني مثله تماماً. وكان محقاً. توليت إدارة المخبزة."
+  },
+  {
+    "english": "So: Heinrich reported that his grandfather had said the apple does not fall far from the tree. He had meant that Heinrich was like him.",
+    "arabic": "إذن: أفاد هاينريش بأن جده قال إن الشبل من ذاك الأسد. وكان يقصد أن هاينريش مثله."
+  }
+]

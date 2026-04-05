@@ -1,0 +1,61 @@
+const fs = require('fs');
+const data = JSON.parse(fs.readFileSync('C:/Users/Jason/OneDrive/Documents/GitHub/Lingoverse/.claude/worktrees/sleepy-lalande/tmp/ar-markers-unit-21.json', 'utf8'));
+const filtered = data.filter(e => ['note','funFact','text'].includes(e.field));
+
+const batch = [
+  {english: filtered[100].english, arabic: 'Einer (واحد) + seits (جانب). يأتي دائماً مع andererseits.\nرابط لتقديم حجج متوازنة.'},
+  {english: filtered[101].english, arabic: 'Einerseits ist Leipzig schön, andererseits hat es eine schwere Geschichte. هذا الزوج من الروابط أساسي للتعبير عن وجهات نظر متوازنة في مستوى B1.'},
+  {english: filtered[102].english, arabic: 'حين لا تسبق الصفةَ أداةٌ، تتولى الصفة مهمة الأداة. تُظهر الجنس والعدد والحالة.\n\nحالة الرفع:\n- المذكر: guter Wein (مثل der)\n- المؤنث: kalte Milch (مثل die)\n- المحايد: frisches Brot (مثل das)\n- الجمع: neue Ideen (مثل die)\n\nحالة النصب:\n- المذكر: guten Wein (مثل den)\n- المؤنث: kalte Milch (مثل die)\n- المحايد: frisches Brot (مثل das)\n- الجمع: neue Ideen (مثل die)\n\nحالة الجر:\n- المذكر: gutem Wein (مثل dem)\n- المؤنث: kalter Milch (مثل der)\n- المحايد: frischem Brot (مثل dem)\n- الجمع: neuen Ideen (مثل den)\n\nتذكَّر: الصفة تؤدي مهمة الأداة.'},
+  {english: filtered[103].english, arabic: 'تظهر الصفات بلا أداة عادةً مع:\n\n1. أسماء المواد: kaltes Wasser، frische Milch\n2. الأسماء المجردة: politische Freiheit، soziale Gerechtigkeit\n3. الجمع بلا أداة: neue Ideen، alte Freunde\n4. بعد الأعداد: zwei gute Bücher\n5. في السرد: mit großem Mut und starker Hoffnung\n\nتطابق النهايات نهايات الأداة المعرَّفة (der/die/das/den/dem).'},
+  {english: filtered[104].english, arabic: 'تأخذ الصفة نهاية الأداة المعرَّفة. تؤدي مهمة الأداة.'},
+  {english: filtered[105].english, arabic: 'Ver- + sammeln (يجمع) + -ung. التجمع معاً.\nVersammlungsfreiheit = حرية التجمع.'},
+  {english: filtered[106].english, arabic: 'Versammlungsfreiheit (حرية التجمع) حق دستوري في ألمانيا. كانت Montagsdemonstrationen (مظاهرات الاثنين) عام 1989 تجمعاتٍ (Versammlungen) غيَّرت التاريخ: محظورة بموجب قانون DDR، لكنها لم تُوقَف.'},
+  {english: filtered[107].english, arabic: 'Gemein (مشترك) + -schaft. ما يشترك فيه الناس.\nأدفأ من Gesellschaft: تقوم على الروابط لا الهياكل.'},
+  {english: filtered[108].english, arabic: 'Europäische Gemeinschaft (الجماعة الأوروبية) كانت سلَفَ الاتحاد الأوروبي. Gemeinschaft أدفأ وأكثر شخصيةً من Gesellschaft (المجتمع): تقوم على الروابط لا الهياكل.'},
+  {english: filtered[109].english, arabic: 'لا جمع لها. die Jugend تُشير إلى الشباب بصفة جماعية.\nJugendherberge (بيت شباب) اختراع ألماني.'},
+  {english: filtered[110].english, arabic: 'In meiner Jugend... (في شبابي...) هكذا تبدأ كثير من قصص DDR. Jugendherberge (بيت شباب) اختراع ألماني. die Jugend لا جمع لها: دائماً جماعية.'},
+  {english: filtered[111].english, arabic: 'من zeugen (يشهد). اسم ضعيف: der Zeuge، den Zeugen.\nZeitzeuge = شاهد معاصر عاش الحقبة التاريخية.'},
+  {english: filtered[112].english, arabic: 'Zeitzeuge (شاهد معاصر) من عاش حقبة تاريخية. تضم لايبزيغ كثيراً من Zeitzeugen على أحداث 1989. تحمل شهاداتهم ثقل التجربة المعاشة. تصريف الاسم الضعيف (den Zeugen، dem Zeugen) سمة مميزة.'},
+  {english: filtered[113].english, arabic: 'لاحقة -in تدل على الصيغة المؤنثة.\nals Zeugin aussagen = الإدلاء بشهادة شاهدة.'},
+  {english: filtered[114].english, arabic: 'أجداد ميا Zeitzeuginnen وZeitzeugen لحقبة DDR. تحمل شهاداتهم ثقل التجربة المعاشة. في ألمانيا، يزور Zeitzeugen المدارس بانتظام لمشاركة ذكرياتهم.'},
+  {english: filtered[115].english, arabic: 'من اللاتينية realitas. die Realität sieht anders aus = الواقع يبدو مختلفاً.\nكلمة مستعارة، تُقرَن بالمفردة الأصيلة Wirklichkeit.'},
+  {english: filtered[116].english, arabic: 'يقرن الألمان أحياناً Realität بـ Wirklichkeit للتأكيد: كلاهما تعني الواقع، لكن Realität مستعارة من اللاتينية، بينما Wirklichkeit ألمانية أصيلة. die Realität sieht anders aus (الواقع يبدو مختلفاً) ألمانية يومية.'},
+  {english: filtered[117].english, arabic: 'من wirklich (حقيقي). Wirk- (أثر/فعل) + -lich + -keit.\nما يُحدث أثراً حقاً، ما يعمل فعلاً.'},
+  {english: filtered[118].english, arabic: 'in Wirklichkeit (في الحقيقة) هكذا يكشف الألمان ما يجري فعلاً تحت السطح. Wirklichkeit مشتقة من wirken (يُحدث أثراً): الواقع هو ما يُحدث أثراً فعلياً في العالم.'},
+  {english: filtered[119].english, arabic: 'Gleich (ذاته) + Zeit (وقت) + -ig. في الوقت ذاته.\nيصف المشاعر في Nikolaikirche وصفاً دقيقاً.'},
+  {english: filtered[120].english, arabic: 'gleichzeitig traurig und hoffnungsvoll (حزين ومتفائل في آنٍ واحد) يصف المشاعر في Nikolaikirche وصفاً دقيقاً. جمال الأعمدة وثقل ما جرى هنا يتعايشان.'},
+  {english: filtered[121].english, arabic: 'من Mensch (إنسان). menschliche Würde = الكرامة الإنسانية.\nالمادة الأولى من الدستور الألماني.'},
+  {english: filtered[122].english, arabic: 'menschliche Würde (الكرامة الإنسانية) المادة الأولى من الدستور الألماني. menschlich تعني بشري وإنساني معاً. أن تكون إنساناً يعني أن تكون متعاطفاً. هذا المبدأ شكَّل ألمانيا ما بعد الحرب.'},
+  {english: filtered[123].english, arabic: 'من voll (كامل). أقوى من ganz (تماماً).\nvöllig unerwartet = غير متوقع البتة.'},
+  {english: filtered[124].english, arabic: 'völlig unerwartet (غير متوقع البتة) يصف ما جرى في نوفمبر 1989. مُكثِّف أقوى من ganz. تُضيف völlig اكتمالاً لأي صفة تسبقها.'},
+  {english: filtered[125].english, arabic: 'شاذ: geschieht، geschah، ist geschehen. أكثر رسمية من\npassieren. Geschichte (التاريخ) من الجذر ذاته.'},
+  {english: filtered[126].english, arabic: 'Was ist geschehen? (ماذا حدث؟) تحمل ثقلاً ورسمية. Geschichte (التاريخ) من الجذر ذاته: التاريخ هو ما حدث. geschehen محجوزة للأحداث الجسيمة.'},
+  {english: filtered[127].english, arabic: 'Ent- (خارج من) + wickeln (يلف). الفكّ.\nالانعكاسي: sich entwickeln = يتطور بصورة عضوية.'},
+  {english: filtered[128].english, arabic: 'sich entwickeln (أن يتطور بذاته) انعكاسي للنمو العضوي. die Stadt hat sich schnell entwickelt (تطورت المدينة بسرعة). المتعدي entwickeln لما يُصنع بتعمد: eine App entwickeln (تطوير تطبيق).'},
+  {english: filtered[129].english, arabic: 'Über (فوق) + legen (يضع). وضع الأفكار فوق مسألة ما.\nصفة أيضاً: überlegen = متفوق.'},
+  {english: filtered[130].english, arabic: 'Ich überlege mir das (سأفكر في الأمر) هكذا يكسب الألمان وقتاً قبل اتخاذ القرارات. صفةً، überlegen تعني متفوق: الكلمة ذاتها لكن تغيُّر النبر يُغيِّر المعنى.'},
+  {english: filtered[131].english, arabic: 'Anderer (آخر) + seits (جانب). شريك einerseits.\nأساسي للحجاج في مستوى B1.'},
+  {english: filtered[132].english, arabic: 'Andererseits muss man die Geschichte verstehen (من ناحية أخرى، لا بد من فهم التاريخ). أساسي للحجاج في مستوى B1. يأتي دائماً مع einerseits لتقديم وجهات نظر متوازنة.'},
+  {english: filtered[133].english, arabic: 'بعد كل أداة مضاف إليه (des، der، des، der، eines، einer، eines)، تنتهي الصفة دائماً بـ -en. لا استثناء.\n\nأمثلة:\n- des guten Mannes (مذكر)\n- der guten Frau (مؤنث)\n- des guten Kindes (محايد)\n- der guten Leute (جمع)\n- eines guten Mannes\n- einer guten Frau\n- eines guten Kindes\n\nسياقات شائعة:\n- während des Kalten Krieges\n- trotz des schlechten Wetters\n- wegen des großen Erfolgs\n\nحالة المضاف إليه أسهل حالة لتصريف الصفة: دائماً -en مع الأداة.'},
+  {english: filtered[134].english, arabic: 'تستلزم هذه الحروف حالة المضاف إليه:\n\nwährend = خلال: während des Krieges\ntrotz = رغم: trotz des Regens\nwegen = بسبب: wegen des Wetters\naußerhalb = خارج: außerhalb der Stadt\ninnerhalb = داخل: innerhalb eines Jahres\nstatt/anstatt = بدلاً من: statt des Buches\n\nفي اللغة المنطوقة، يستخدم بعض الألمان حالة الجر بعد هذه الحروف، لكن في الكتابة حالة المضاف إليه هي الصواب.'},
+  {english: filtered[135].english, arabic: 'حين يفعل فاعل جمع شيئاً لبعضه البعض، يستخدم الألمان sich (غامضة) أو einander (صريحة).\n\nSie kennen sich. = يعرفون بعضهم. أو يعرفون أنفسهم.\nSie kennen einander. = يعرف بعضهم بعضاً بلا لبس.\n\nمع حروف الجر، تصبح einander كلمة واحدة:\n- miteinander (مع بعض)\n- füreinander (من أجل بعض)\n- voneinander (من بعض)\n- zueinander (إلى بعض)\n\nمقارنة:\n- Sie waschen sich. = انعكاسي (أنفسهم)\n- Sie helfen einander. = تبادلي (بعضهم)'},
+  {english: filtered[136].english, arabic: 'أفعال تبادلية شائعة:\n\nsich kennen / einander kennen = يعرف بعضهم\nsich verstehen / einander verstehen = يفهم بعضهم\nsich vertrauen / einander vertrauen = يثق ببعضهم\nsich helfen / einander helfen = يساعد بعضهم\nsich sehen / einander sehen = يرى بعضهم\n\nمع حرف جر + einander:\nSie sprechen miteinander. = يتحدثون مع بعضهم.\nSie sorgen füreinander. = يهتمون ببعضهم.\nSie lernen voneinander. = يتعلمون من بعضهم.\n\neinander أكثر رسمية ووضوحاً من sich.'},
+  {english: filtered[137].english, arabic: 'من اليونانية dialektos (أسلوب الكلام).\nاللهجة السكسونية Sächsisch هي لهجة لايبزيغ.'},
+  {english: filtered[138].english, arabic: 'في ألمانيا عشرات اللهجات المتمايزة. Sächsisch (السكسونية) لهجة لايبزيغ، يُحاكيها البعض لكن أبناؤها يعتزون بها. اللهجة Dialekt هوية: أسلوب كلامك يُخبر عن جذورك.'},
+  {english: filtered[139].english, arabic: 'Kind (طفل) + -heit. لاحقة -heit تُكوِّن أسماء مجردة.\nMeine Kindheit in der DDR هكذا يبدأ الملايين قصصهم.'},
+  {english: filtered[140].english, arabic: 'Meine Kindheit in der DDR (طفولتي في DDR) هكذا يبدأ الملايين من الألمان قصصهم. لاحقة -heit تحوِّل الكلمات الملموسة إلى حالات مجردة: Kind يصبح حالة الطفولة.'},
+  {english: filtered[141].english, arabic: 'Heim (بيت/وطن) + Weh (ألم/وجع). وجع البيت.\nFernweh (وجع البُعد) نقيضه: الشوق للسفر.'},
+  {english: filtered[142].english, arabic: 'الكلمة الألمانية دقيقة لدرجة أنها استُعيرت إلى لغات أخرى. Fernweh (وجع البُعد) نقيضها: الشوق للسفر. اخترع الألمان كلتا الكلمتين لاتجاهَي الشوق.'},
+  {english: filtered[143].english, arabic: 'أدفأ من Haus (منزل). Heimat (الوطن) مشتقة من هذا الجذر.\nsich heimisch fühlen = يشعر ببيئة مريحة.'},
+  {english: filtered[144].english, arabic: 'Altenheim (دار رعاية المسنين)، Kinderheim (دار الأطفال)، Tierheim (ملجأ الحيوانات): Heim حيث تنتمي. Heimat (الوطن) مشتقة من هذا الجذر. Heim دائماً أدفأ من Haus.'},
+  {english: filtered[145].english, arabic: 'من fliehen (يفر). كان Fluchtversuch من DDR جريمة يُعاقب عليها.\nفرَّ أكثر من 3.5 مليون شخص من ألمانيا الشرقية قبل بناء الجدار.'},
+  {english: filtered[146].english, arabic: 'Flüchtling (لاجئ) مشتقة من Flucht. فرَّ أكثر من 3.5 مليون شخص من ألمانيا الشرقية قبل بناء الجدار. بعد إقامة الجدار، أصبح Fluchtversuch (محاولة الهروب) جريمة تُهدد الحياة.'},
+  {english: filtered[147].english, arabic: 'Er- + leben (يعيش) + -nis. شيء عِشتَه بنشاط.\nأقوى من Erfahrung. لاحقة -nis دائماً للمحايد.'},
+  {english: filtered[148].english, arabic: 'ein unvergessliches Erlebnis (تجربة لا تُنسى) شيء عِشتَه بنشاط. لاحقة -nis تُكوِّن أسماء محايدة: das Erlebnis، das Ergebnis، das Geheimnis.'},
+  {english: filtered[149].english, arabic: 'من erziehen (يُربي). Er- + ziehen (يسحب). السحب إلى الأعلى.\ngute Erziehung (تربية حسنة) قيمة عالية التقدير.'},
+];
+
+const existing = JSON.parse(fs.readFileSync('C:/Users/Jason/OneDrive/Documents/GitHub/Lingoverse/.claude/worktrees/sleepy-lalande/tmp/unit-21-notes-ar.json', 'utf8'));
+const combined = existing.concat(batch);
+fs.writeFileSync('C:/Users/Jason/OneDrive/Documents/GitHub/Lingoverse/.claude/worktrees/sleepy-lalande/tmp/unit-21-notes-ar.json', JSON.stringify(combined, null, 2), 'utf8');
+console.log('Batch 100-149 appended, total:', combined.length);

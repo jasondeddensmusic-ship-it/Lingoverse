@@ -1,0 +1,1067 @@
+[
+  {
+    "line": 180,
+    "field": "src",
+    "english": "municipality, community"
+  },
+  {
+    "line": 180,
+    "field": "exampleSrc",
+    "english": "A: How big is this municipality?\\nB: About 5,000 residents.\\nA: Does every municipality have a mayor?\\nB: Yes, that is mandatory."
+  },
+  {
+    "line": 181,
+    "field": "src",
+    "english": "the Hanseatic League"
+  },
+  {
+    "line": 181,
+    "field": "exampleSrc",
+    "english": "A: What was the Hanse?\\nB: An alliance of northern German merchants.\\nA: Which cities belonged to it?\\nB: Hamburg, Bremen, Lübeck, Rostock."
+  },
+  {
+    "line": 182,
+    "field": "src",
+    "english": "cultural event"
+  },
+  {
+    "line": 182,
+    "field": "exampleSrc",
+    "english": "A: Is there a cultural event today?\\nB: Yes, a concert at the Münsterplatz.\\nA: Freiburg has many cultural events.\\nB: Almost every evening something happens."
+  },
+  {
+    "line": 183,
+    "field": "src",
+    "english": "regulars' table at a pub"
+  },
+  {
+    "line": 183,
+    "field": "exampleSrc",
+    "english": "A: What is a Stammtisch?\\nB: A table for the regulars.\\nA: Do you have a Stammtisch?\\nB: Yes, every Thursday at the pub."
+  },
+  {
+    "line": 184,
+    "field": "src",
+    "english": "folk festival"
+  },
+  {
+    "line": 184,
+    "field": "exampleSrc",
+    "english": "A: Have you been to a folk festival?\\nB: Yes, to the Munich Oktoberfest.\\nA: That is the biggest folk festival in the world.\\nB: Millions of visitors every year."
+  },
+  {
+    "line": 185,
+    "field": "src",
+    "english": "fair, annual market"
+  },
+  {
+    "line": 185,
+    "field": "exampleSrc",
+    "english": "A: Shall we go to the fair?\\nB: Yes, I love fairs!\\nA: Ferris wheel or roller coaster?\\nB: First ferris wheel, then roller coaster."
+  },
+  {
+    "line": 186,
+    "field": "src",
+    "english": "carnival (southern German term)"
+  },
+  {
+    "line": 186,
+    "field": "exampleSrc",
+    "english": "A: Do you celebrate Fasching?\\nB: Yes, in southern Germany we say Fasching.\\nA: And in the Rhineland?\\nB: There it is called Karneval."
+  },
+  {
+    "line": 187,
+    "field": "src",
+    "english": "to discover"
+  },
+  {
+    "line": 187,
+    "field": "exampleSrc",
+    "english": "A: What did you discover in Freiburg?\\nB: A great café in the old town.\\nA: I like to discover new places.\\nB: Me too. Discovering makes you happy."
+  },
+  {
+    "line": 193,
+    "field": "hint",
+    "english": "Stamm (regular/core group) + Tisch. The same group gathers here every week for community."
+  },
+  {
+    "line": 196,
+    "field": "desc",
+    "english": "Strolling, stopping by, exploring: the verbs of regional travel. Plus adverbs of possibility and the warm feeling of Gemuetlichkeit."
+  },
+  {
+    "line": 196,
+    "field": "unknown",
+    "english": "Learn verbs for local exploration"
+  },
+  {
+    "line": 196,
+    "field": "unknown",
+    "english": "Use adverbs of possibility"
+  },
+  {
+    "line": 196,
+    "field": "unknown",
+    "english": "Describe places with atmosphere"
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "to stroll leisurely"
+  },
+  {
+    "line": 197,
+    "field": "exampleSrc",
+    "english": "A: Shall we stroll through the old town?\\nB: Yes, perfect in this weather.\\nA: Strolling is better than rushing.\\nB: Completely relaxed, without hurry."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "to stop in at an inn"
+  },
+  {
+    "line": 198,
+    "field": "exampleSrc",
+    "english": "A: Shall we stop in somewhere?\\nB: Yes, at that inn over there.\\nA: After hiking you like to stop in.\\nB: A beer and a pretzel, please!"
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "to drop by, to stop in briefly"
+  },
+  {
+    "line": 199,
+    "field": "exampleSrc",
+    "english": "A: Drop by sometime!\\nB: Gladly, when suits you?\\nA: This afternoon?\\nB: Perfect, I will drop by at three."
+  },
+  {
+    "line": 200,
+    "field": "src",
+    "english": "cosmopolitan"
+  },
+  {
+    "line": 200,
+    "field": "exampleSrc",
+    "english": "A: Is Freiburg cosmopolitan?\\nB: Yes, because of the university.\\nA: Students from all over the world.\\nB: And the proximity to France and Switzerland."
+  },
+  {
+    "line": 201,
+    "field": "src",
+    "english": "remote, secluded"
+  },
+  {
+    "line": 201,
+    "field": "exampleSrc",
+    "english": "A: The village is quite remote.\\nB: Yes, no highway, no train station.\\nA: But the landscape is wonderful.\\nB: Remote, but breathtaking."
+  },
+  {
+    "line": 202,
+    "field": "src",
+    "english": "somehow"
+  },
+  {
+    "line": 202,
+    "field": "exampleSrc",
+    "english": "A: Somehow we will manage.\\nB: Are you sure?\\nA: Yes, somehow it always works out.\\nB: Your optimism is contagious."
+  },
+  {
+    "line": 203,
+    "field": "src",
+    "english": "possibly, perhaps"
+  },
+  {
+    "line": 203,
+    "field": "exampleSrc",
+    "english": "A: Will it rain tomorrow?\\nB: Possibly, according to the weather report.\\nA: Then we will take umbrellas.\\nB: Possibly we won't need them."
+  },
+  {
+    "line": 204,
+    "field": "src",
+    "english": "presumably, probably"
+  },
+  {
+    "line": 204,
+    "field": "exampleSrc",
+    "english": "A: Will Lukas arrive on time?\\nB: Presumably not, he is always late.\\nA: Presumably he got lost.\\nB: That would not be the first time."
+  },
+  {
+    "line": 205,
+    "field": "src",
+    "english": "curiosity"
+  },
+  {
+    "line": 205,
+    "field": "exampleSrc",
+    "english": "A: Why did you go to Freiburg?\\nB: Out of curiosity. I wanted to see the city.\\nA: Curiosity is a good quality.\\nB: Yes, it opens new worlds."
+  },
+  {
+    "line": 206,
+    "field": "src",
+    "english": "cozy, comfortable, leisurely"
+  },
+  {
+    "line": 206,
+    "field": "exampleSrc",
+    "english": "A: How was the walk?\\nB: So cozy and leisurely! No stress, just strolling.\\nA: Leisurely through the old town. Perfect.\\nB: Freiburg is a very comfortable city."
+  },
+  {
+    "line": 207,
+    "field": "text",
+    "english": "When a sentence has multiple adverbs, German orders them like this:\\n\\nTe = Temporal (when?)\\nKa = Kausal (why?)\\nMo = Modal (how?)\\nLo = Lokal (where/to where?)\\n\\nExample: 'Ich fahre morgen(Te) wegen des Regens(Ka) lieber(Mo) nach Freiburg(Lo).'\\n\\nMemory aid: 'Tea, Coffee, Poppy, Lotto' (Tee, Kaffee, Mohn, Lotto).\\n\\nThis is the default order, not an absolute rule. Emphasis can shift elements, but TeKaMoLo sounds most natural."
+  },
+  {
+    "line": 207,
+    "field": "text",
+    "english": "TeKaMoLo is the default adverb order in German middle field (Mittelfeld) sentences. When multiple adverbs compete for position, this order sounds most natural to native speakers.\\n\\nTemporal: morgen, gestern, heute, oft, manchmal\\nKausal: wegen, deshalb, deswegen, aus Freude\\nModal: gern, leider, irgendwie, vermutlich\\nLokal: dort, hier, nach Freiburg, in der Altstadt\\n\\nExample: 'Wir sind gestern(Te) aus Neugier(Ka) gemütlich(Mo) durch die Altstadt(Lo) flaniert.'\\n\\nNote: Pronouns and known information tend to move left, new information moves right. TeKaMoLo applies when all else is equal."
+  },
+  {
+    "line": 213,
+    "field": "hint",
+    "english": "Apply the four-position rule. Check each option to find the one with the correct order."
+  },
+  {
+    "line": 213,
+    "field": "sSrc",
+    "english": "Which sentence follows the TeKaMoLo rule correctly?"
+  },
+  {
+    "line": 214,
+    "field": "hint",
+    "english": "A kausal element (WHY) between temporal (gestern) and modal (leider)."
+  },
+  {
+    "line": 214,
+    "field": "sSrc",
+    "english": "He did not go to Freiburg yesterday because of a headache, unfortunately."
+  },
+  {
+    "line": 215,
+    "field": "hint",
+    "english": "When? Yesterday. Why? Out of curiosity. How? Comfortably. The verb goes at the end."
+  },
+  {
+    "line": 215,
+    "field": "sSrc",
+    "english": "We strolled through the old town yesterday out of curiosity comfortably."
+  },
+  {
+    "line": 221,
+    "field": "hint",
+    "english": "Identify which part of the compound gives it its gender. Then ask: which negation prefix creates the mildest opposite of an adjective?"
+  },
+  {
+    "line": 221,
+    "field": "sSrc",
+    "english": "Naturschutzgebiet: What is the base word, and which prefix could negate 'natürlich'?"
+  },
+  {
+    "line": 234,
+    "field": "hint",
+    "english": "From Gemuet (soul/warmth). Describes a relaxed, warm atmosphere. One of the most untranslatable German words."
+  },
+  {
+    "line": 237,
+    "field": "desc",
+    "english": "Experience Lukas's musical comeback. Discover Germany's geographic and cultural diversity. Practice all three grammar constructs together."
+  },
+  {
+    "line": 238,
+    "field": "unknown",
+    "english": "Experience Lukas's concert with 'Fernweh'"
+  },
+  {
+    "line": 239,
+    "field": "unknown",
+    "english": "Discover Germany's geographic diversity"
+  },
+  {
+    "line": 240,
+    "field": "unknown",
+    "english": "Combine TeKaMoLo, word formation, and negation prefixes"
+  },
+  {
+    "line": 242,
+    "field": "src",
+    "english": "Evening in Freiburg. A small venue in the old town. Fairy lights. The stage is tiny but the sound is big. Lukas's new band: drums, bass, keys, and Lukas on guitar and vocals. They are called 'Fernweh.'"
+  },
+  {
+    "line": 243,
+    "field": "src",
+    "english": "The music starts. It is good. Really good. Lukas plays with his eyes closed, lost in the sound. The crowd leans in. Mia records on her phone. Hildi taps her foot. Verumius thinks: he found his way back."
+  },
+  {
+    "line": 244,
+    "field": "src",
+    "english": "He has become really good. The new band suits him."
+  },
+  {
+    "line": 245,
+    "field": "src",
+    "english": "Not bad. I would not have thought I would like something like this."
+  },
+  {
+    "line": 246,
+    "field": "src",
+    "english": "Lukas has played everywhere in Germany and has traveled a lot. That is why he knows every region."
+  },
+  {
+    "line": 247,
+    "field": "src",
+    "english": "state capital"
+  },
+  {
+    "line": 247,
+    "field": "exampleSrc",
+    "english": "A: What is the state capital of Bavaria?\\nB: Munich.\\nA: And of Baden-Württemberg?\\nB: Stuttgart."
+  },
+  {
+    "line": 248,
+    "field": "src",
+    "english": "coastal region"
+  },
+  {
+    "line": 248,
+    "field": "exampleSrc",
+    "english": "A: Have you been to a coastal region?\\nB: Yes, on the Baltic Sea.\\nA: What is it like there?\\nB: Flat, windy, and beautiful."
+  },
+  {
+    "line": 249,
+    "field": "src",
+    "english": "Northern Germany"
+  },
+  {
+    "line": 249,
+    "field": "exampleSrc",
+    "english": "A: What is Northern Germany like?\\nB: Flat and windy.\\nA: And the people?\\nB: A bit more reserved than in the south."
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "Southern Germany"
+  },
+  {
+    "line": 250,
+    "field": "exampleSrc",
+    "english": "A: What is typical of Southern Germany?\\nB: Mountains, beer, and pretzels.\\nA: And the dialects?\\nB: Much stronger than in the north."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "low mountain range"
+  },
+  {
+    "line": 251,
+    "field": "exampleSrc",
+    "english": "A: What is a Mittelgebirge?\\nB: A mountain range of medium height.\\nA: The Black Forest is one?\\nB: Yes, also the Harz and the Erzgebirge."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "lowland plain"
+  },
+  {
+    "line": 252,
+    "field": "exampleSrc",
+    "english": "A: Why is Northern Germany so flat?\\nB: Because of the lowland plain.\\nA: The North German Plain?\\nB: Yes, perfect for wind power and cycling."
+  },
+  {
+    "line": 253,
+    "field": "src",
+    "english": "river landscape"
+  },
+  {
+    "line": 253,
+    "field": "exampleSrc",
+    "english": "A: Which river landscape is the most beautiful?\\nB: The Rhine Valley, with castles and vineyards.\\nA: The Mosel is also wonderful.\\nB: Every river landscape has its charm."
+  },
+  {
+    "line": 254,
+    "field": "src",
+    "english": "industrial area"
+  },
+  {
+    "line": 254,
+    "field": "exampleSrc",
+    "english": "A: What is the Ruhrgebiet?\\nB: A large industrial area.\\nA: Are there only factories there?\\nB: No, today also museums and parks."
+  },
+  {
+    "line": 255,
+    "field": "src",
+    "english": "Zugspitze (Germany's highest peak)"
+  },
+  {
+    "line": 255,
+    "field": "exampleSrc",
+    "english": "A: How high is the Zugspitze?\\nB: 2,962 meters.\\nA: Can you ski there?\\nB: Yes, even in spring still."
+  },
+  {
+    "line": 256,
+    "field": "src",
+    "english": "onion dome tower"
+  },
+  {
+    "line": 256,
+    "field": "exampleSrc",
+    "english": "A: Why do Bavarian churches have onion dome towers?\\nB: Nobody knows exactly.\\nA: Maybe because of the snow?\\nB: Possibly. The shape deflects snow."
+  },
+  {
+    "line": 257,
+    "field": "src",
+    "english": "guild, medieval craft association"
+  },
+  {
+    "line": 257,
+    "field": "exampleSrc",
+    "english": "A: What was a guild?\\nB: A medieval craftsmen's association.\\nA: Do guilds still exist today?\\nB: As cultural associations, yes."
+  },
+  {
+    "line": 258,
+    "field": "src",
+    "english": "UNESCO World Heritage Site"
+  },
+  {
+    "line": 258,
+    "field": "exampleSrc",
+    "english": "A: Is Cologne Cathedral a UNESCO World Heritage Site?\\nB: Yes, since 1996.\\nA: How many World Heritage Sites does Germany have?\\nB: 52, from castles to the Wadden Sea."
+  },
+  {
+    "line": 259,
+    "field": "src",
+    "english": "to house, to accommodate"
+  },
+  {
+    "line": 259,
+    "field": "exampleSrc",
+    "english": "A: What does this museum house?\\nB: Over 10,000 artworks.\\nA: The city accommodates many tourists.\\nB: Especially in summer."
+  },
+  {
+    "line": 260,
+    "field": "src",
+    "english": "to erect, to build"
+  },
+  {
+    "line": 260,
+    "field": "exampleSrc",
+    "english": "A: When was this castle erected?\\nB: In the 12th century.\\nA: Who erected it?\\nB: Presumably a local prince."
+  },
+  {
+    "line": 261,
+    "field": "src",
+    "english": "to restore"
+  },
+  {
+    "line": 261,
+    "field": "exampleSrc",
+    "english": "A: Is the palace being restored?\\nB: Yes, for three years.\\nA: Restoring costs a lot of money.\\nB: But it is worth it for the cultural heritage."
+  },
+  {
+    "line": 262,
+    "field": "src",
+    "english": "to present, to showcase"
+  },
+  {
+    "line": 262,
+    "field": "exampleSrc",
+    "english": "A: The city showcases its cultural heritage.\\nB: How does it showcase it?\\nA: With city tours and museums.\\nB: That is a good strategy."
+  },
+  {
+    "line": 263,
+    "field": "src",
+    "english": "everywhere"
+  },
+  {
+    "line": 263,
+    "field": "exampleSrc",
+    "english": "A: Where are there half-timbered houses?\\nB: Everywhere in Germany.\\nA: Everywhere?\\nB: Well, especially in the center and south."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "somewhere"
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: Where is the café?\\nB: Somewhere in the old town.\\nA: Somewhere? That does not help me.\\nB: Near the cathedral, I think."
+  },
+  {
+    "line": 270,
+    "field": "hint",
+    "english": "Apply the four-slot rule: WHEN, then WHY, then HOW, then WHERE. Check each option for the correct sequence."
+  },
+  {
+    "line": 270,
+    "field": "sSrc",
+    "english": "Which sentence has the correct TeKaMoLo order? 'Lukas has...'"
+  },
+  {
+    "line": 271,
+    "field": "hint",
+    "english": "This grammatical term names the element that always comes last in a compound and controls its gender."
+  },
+  {
+    "line": 271,
+    "field": "sSrc",
+    "english": "In a German compound noun, the ___ determines the grammatical gender."
+  },
+  {
+    "line": 272,
+    "field": "hint",
+    "english": "It is un-believable that heritage was des-troyed. But much was also re-stored."
+  },
+  {
+    "line": 272,
+    "field": "sSrc",
+    "english": "It is unbelievable that so much cultural heritage was destroyed. But much was also restored."
+  },
+  {
+    "line": 285,
+    "field": "hint",
+    "english": "The sentence orders adverbs correctly, uses a compound adjective, and a probability adverb."
+  },
+  {
+    "line": 285,
+    "field": "sSrc",
+    "english": "Which B2 constructs appear in: 'The medieval castle was presumably erected in the 13th century because of its strategic location high above the valley'?"
+  },
+  {
+    "line": 288,
+    "field": "desc",
+    "english": "Test everything from Unit 34. Prove you can decompose compounds, negate with prefixes, and order adverbs."
+  },
+  {
+    "line": 289,
+    "field": "unknown",
+    "english": "Decompose compounds into their parts"
+  },
+  {
+    "line": 290,
+    "field": "unknown",
+    "english": "Negate with un-, miss-, and zer-"
+  },
+  {
+    "line": 291,
+    "field": "unknown",
+    "english": "Order adverbs according to TeKaMoLo"
+  },
+  {
+    "line": 293,
+    "field": "src",
+    "english": "to colonize, to settle (an area)"
+  },
+  {
+    "line": 293,
+    "field": "exampleSrc",
+    "english": "A: Who settled the Rhineland?\\nB: The Romans, 2,000 years ago.\\nA: And later?\\nB: Germanic tribes settled it afterward."
+  },
+  {
+    "line": 294,
+    "field": "src",
+    "english": "to roam through, to wander across"
+  },
+  {
+    "line": 294,
+    "field": "exampleSrc",
+    "english": "A: We roamed through the Black Forest.\\nB: How long were you on the go?\\nA: Three days, without a fixed destination.\\nB: That sounds wonderful."
+  },
+  {
+    "line": 295,
+    "field": "src",
+    "english": "to maintain, to keep in repair"
+  },
+  {
+    "line": 295,
+    "field": "exampleSrc",
+    "english": "A: Who maintains the castle?\\nB: The municipality.\\nA: That costs a lot of money.\\nB: Yes, but it is important for the cultural heritage."
+  },
+  {
+    "line": 296,
+    "field": "src",
+    "english": "to redesign, to transform"
+  },
+  {
+    "line": 296,
+    "field": "exampleSrc",
+    "english": "A: The old town was redesigned.\\nB: How was it redesigned?\\nA: New pedestrian zones and green spaces.\\nB: That sounds like a good transformation."
+  },
+  {
+    "line": 297,
+    "field": "src",
+    "english": "to drive around (insep.) / to knock down (sep.)"
+  },
+  {
+    "line": 297,
+    "field": "exampleSrc",
+    "english": "A: I drove around the construction site.\\nB: Good, then you went around it.\\nA: Last week I almost knocked over a bollard.\\nB: That would not have been so good!"
+  },
+  {
+    "line": 298,
+    "field": "src",
+    "english": "nowhere"
+  },
+  {
+    "line": 298,
+    "field": "exampleSrc",
+    "english": "A: Nowhere is it more beautiful than here.\\nB: You say that everywhere.\\nA: But here I mean it.\\nB: Nowhere else are there such mountains."
+  },
+  {
+    "line": 299,
+    "field": "src",
+    "english": "downstream"
+  },
+  {
+    "line": 299,
+    "field": "exampleSrc",
+    "english": "A: Where are we heading?\\nB: Downstream, toward Heidelberg.\\nA: And upstream?\\nB: There lies Basel, in Switzerland."
+  },
+  {
+    "line": 300,
+    "field": "src",
+    "english": "unbelievable, incredible"
+  },
+  {
+    "line": 300,
+    "field": "exampleSrc",
+    "english": "A: The view is incredible!\\nB: Incredibly beautiful, yes.\\nA: Unbelievable that we are here.\\nB: Sometimes reality is unbelievable."
+  },
+  {
+    "line": 301,
+    "field": "src",
+    "english": "impossible"
+  },
+  {
+    "line": 301,
+    "field": "exampleSrc",
+    "english": "A: That is impossible!\\nB: Why impossible?\\nA: The task is simply too hard.\\nB: Hard, but not impossible."
+  },
+  {
+    "line": 302,
+    "field": "src",
+    "english": "absolutely, by all means"
+  },
+  {
+    "line": 302,
+    "field": "exampleSrc",
+    "english": "A: You absolutely must come!\\nB: Really? Absolutely?\\nA: Yes, it will definitely be great.\\nB: Then I will definitely come."
+  },
+  {
+    "line": 303,
+    "field": "src",
+    "english": "incomprehensible"
+  },
+  {
+    "line": 303,
+    "field": "exampleSrc",
+    "english": "A: His dialect is incomprehensible.\\nB: For me too.\\nA: That is completely incomprehensible.\\nB: You need years to understand that."
+  },
+  {
+    "line": 304,
+    "field": "src",
+    "english": "unbearable, intolerable"
+  },
+  {
+    "line": 304,
+    "field": "exampleSrc",
+    "english": "A: The heat is unbearable.\\nB: Yes, almost 40 degrees.\\nA: Unbearably hot.\\nB: Let us go to the outdoor pool."
+  },
+  {
+    "line": 305,
+    "field": "src",
+    "english": "to shatter, to break into pieces"
+  },
+  {
+    "line": 305,
+    "field": "exampleSrc",
+    "english": "A: The glass shattered.\\nB: Into a thousand pieces.\\nA: Shattering is final.\\nB: Yes, you cannot repair that."
+  },
+  {
+    "line": 306,
+    "field": "src",
+    "english": "to tear apart, to rip to pieces"
+  },
+  {
+    "line": 306,
+    "field": "exampleSrc",
+    "english": "A: He tore the letter apart.\\nB: Why?\\nA: He was angry.\\nB: Torn paper everywhere."
+  },
+  {
+    "line": 307,
+    "field": "src",
+    "english": "to decay, to disintegrate"
+  },
+  {
+    "line": 307,
+    "field": "exampleSrc",
+    "english": "A: The old castle is decaying.\\nB: Nobody maintains it.\\nA: Decay is a slow process.\\nB: But just as destructive as shattering."
+  },
+  {
+    "line": 308,
+    "field": "src",
+    "english": "to disassemble, to take apart"
+  },
+  {
+    "line": 308,
+    "field": "exampleSrc",
+    "english": "A: Can you take the word apart?\\nB: Sure: Natur + Schutz + Gebiet.\\nA: Taking apart helps with understanding.\\nB: Every long word can be taken apart."
+  },
+  {
+    "line": 309,
+    "field": "src",
+    "english": "gender, sex"
+  },
+  {
+    "line": 309,
+    "field": "exampleSrc",
+    "english": "A: What is the gender of 'Tuer'?\\nB: Feminine. Die Tuer.\\nA: And 'Haus'?\\nB: Neuter. Das Haus. The base word determines the gender."
+  },
+  {
+    "line": 310,
+    "field": "src",
+    "english": "joyful, cheerful"
+  },
+  {
+    "line": 310,
+    "field": "exampleSrc",
+    "english": "A: How was the hike?\\nB: Wonderful! We walked joyfully through the forest.\\nA: Hiking joyfully is the best.\\nB: Yes, with good weather everything is fun."
+  },
+  {
+    "line": 316,
+    "field": "hint",
+    "english": "Un- = cannot be. Miss- = went wrong. Zer- = completely fallen apart. Three levels of darkness."
+  },
+  {
+    "line": 316,
+    "field": "sSrc",
+    "english": "'Impossible, failed, decayed.' Which description fits?"
+  },
+  {
+    "line": 317,
+    "field": "hint",
+    "english": "The base word determines the property that makes it der, die, or das."
+  },
+  {
+    "line": 317,
+    "field": "sSrc",
+    "english": "The base word determines the ___ of the compound noun."
+  },
+  {
+    "line": 318,
+    "field": "hint",
+    "english": "When? This morning. Why? Because of the weather. How? Joyfully. The verb goes at the end."
+  },
+  {
+    "line": 318,
+    "field": "sSrc",
+    "english": "We hiked through the Black Forest this morning because of the nice weather joyfully."
+  },
+  {
+    "line": 324,
+    "field": "hint",
+    "english": "When um- is inseparable (umFAHREN), it means 'to drive around.' Separable (UMfahren) means 'to knock over.'"
+  },
+  {
+    "line": 324,
+    "field": "sSrc",
+    "english": "'I drove around the construction site.' What happened?"
+  },
+  {
+    "line": 332,
+    "field": "src",
+    "english": "worthy, dignified"
+  },
+  {
+    "line": 332,
+    "field": "exampleSrc",
+    "english": "He is a worthy successor."
+  },
+  {
+    "line": 333,
+    "field": "hint",
+    "english": "The middle element of this compound means deserving or meriting something. Related to 'Würde' (dignity) but functioning as an adjective suffix."
+  },
+  {
+    "line": 333,
+    "field": "sSrc",
+    "english": "The tourist guide explains: 'This building is a real attraction.' The middle element means ___."
+  },
+  {
+    "line": 334,
+    "field": "hint",
+    "english": "It is un-believable that one can possibly (modal) discover beautiful places everywhere (local)."
+  },
+  {
+    "line": 334,
+    "field": "sSrc",
+    "english": "It is unbelievable that one can possibly discover beautiful places everywhere in Germany."
+  },
+  {
+    "line": 335,
+    "field": "hint",
+    "english": "'Die Bildung, die Freiheit, die Möglichkeit, die Freundschaft.' The pattern never breaks."
+  },
+  {
+    "line": 335,
+    "field": "sSrc",
+    "english": "Words ending in -ung, -heit, -keit, and -schaft are always..."
+  },
+  {
+    "line": 338,
+    "field": "desc",
+    "english": "Reflect on Germany's diversity. Master all suffix families. Review everything from Unit 34. Appreciate the journey."
+  },
+  {
+    "line": 339,
+    "field": "unknown",
+    "english": "Learn the key suffix families"
+  },
+  {
+    "line": 340,
+    "field": "unknown",
+    "english": "Review all constructs from Unit 34"
+  },
+  {
+    "line": 341,
+    "field": "unknown",
+    "english": "Reflect on the journey through Germany"
+  },
+  {
+    "line": 343,
+    "field": "src",
+    "english": "Sunday morning. The Black Forest. A viewpoint above the mist. The trees are dark and ancient. The valleys below are hidden in white. The sun is just touching the treetops. The group stands together, quiet for once."
+  },
+  {
+    "line": 344,
+    "field": "src",
+    "english": "This is also Germany. Not just Berlin, not just grammar. Federal states, dialects, mountains, rivers, castles. An entire country."
+  },
+  {
+    "line": 345,
+    "field": "src",
+    "english": "You have learned a lot on this trip, Verumius. Not just words."
+  },
+  {
+    "line": 346,
+    "field": "src",
+    "english": "And you won the chain word game. Stage fright. I will not forget that."
+  },
+  {
+    "line": 347,
+    "field": "src",
+    "english": "Next time we will drive to the North Sea. Then you will learn Low German."
+  },
+  {
+    "line": 348,
+    "field": "src",
+    "english": "Possibly I will not understand anything anymore. But somehow I will manage."
+  },
+  {
+    "line": 349,
+    "field": "src",
+    "english": "to disregard, to ignore disrespectfully"
+  },
+  {
+    "line": 349,
+    "field": "exampleSrc",
+    "english": "A: He disregards the rules.\\nB: That is dangerous.\\nA: Disregarding rules has consequences.\\nB: Yes, especially in traffic."
+  },
+  {
+    "line": 350,
+    "field": "src",
+    "english": "to fail, to not succeed"
+  },
+  {
+    "line": 350,
+    "field": "exampleSrc",
+    "english": "A: The attempt failed.\\nB: What went wrong?\\nA: Everything. It failed completely.\\nB: Then we will try again."
+  },
+  {
+    "line": 351,
+    "field": "src",
+    "english": "misunderstanding"
+  },
+  {
+    "line": 351,
+    "field": "exampleSrc",
+    "english": "A: There was a misunderstanding.\\nB: What kind of misunderstanding?\\nA: I thought we were meeting at three.\\nB: No, at four. Typical misunderstanding."
+  },
+  {
+    "line": 352,
+    "field": "src",
+    "english": "to misuse, to abuse"
+  },
+  {
+    "line": 352,
+    "field": "exampleSrc",
+    "english": "A: Power must not be abused.\\nB: That is true.\\nA: Abusing trust is terrible.\\nB: Yes, that destroys friendships."
+  },
+  {
+    "line": 353,
+    "field": "src",
+    "english": "freedom"
+  },
+  {
+    "line": 353,
+    "field": "exampleSrc",
+    "english": "A: Freedom is priceless.\\nB: Yes, the freedom to travel.\\nA: The freedom to learn.\\nB: The freedom to make mistakes."
+  },
+  {
+    "line": 354,
+    "field": "src",
+    "english": "beauty"
+  },
+  {
+    "line": 354,
+    "field": "exampleSrc",
+    "english": "A: The beauty of the landscape is breathtaking.\\nB: Yes, this beauty exists nowhere else.\\nA: Beauty is in the eye of the beholder.\\nB: But here everyone agrees."
+  },
+  {
+    "line": 355,
+    "field": "src",
+    "english": "possibility"
+  },
+  {
+    "line": 355,
+    "field": "exampleSrc",
+    "english": "A: There are many possibilities.\\nB: Which possibility do you choose?\\nA: The best possibility.\\nB: Sometimes there is no good possibility."
+  },
+  {
+    "line": 356,
+    "field": "src",
+    "english": "ability, skill"
+  },
+  {
+    "line": 356,
+    "field": "exampleSrc",
+    "english": "A: Language skills are important.\\nB: What skills do you have?\\nA: I speak three languages.\\nB: That is a great ability."
+  },
+  {
+    "line": 357,
+    "field": "src",
+    "english": "landscape"
+  },
+  {
+    "line": 357,
+    "field": "exampleSrc",
+    "english": "A: The German landscape is diverse.\\nB: From coast to Alps.\\nA: Every landscape has its charm.\\nB: Especially the Black Forest."
+  },
+  {
+    "line": 358,
+    "field": "src",
+    "english": "friendship"
+  },
+  {
+    "line": 358,
+    "field": "exampleSrc",
+    "english": "A: Our friendship is strong.\\nB: Yes, even stronger through this trip.\\nA: Friendship needs shared experiences.\\nB: Like a road trip through Germany."
+  },
+  {
+    "line": 359,
+    "field": "src",
+    "english": "wealth, richness"
+  },
+  {
+    "line": 359,
+    "field": "exampleSrc",
+    "english": "A: The richness of German culture.\\nB: Not just material wealth.\\nA: Cultural richness is more important.\\nB: Traditions, languages, landscapes."
+  },
+  {
+    "line": 360,
+    "field": "src",
+    "english": "growth"
+  },
+  {
+    "line": 360,
+    "field": "exampleSrc",
+    "english": "A: Economic growth is important.\\nB: But not at the expense of the environment.\\nA: Sustainable growth is the goal.\\nB: Growth with responsibility."
+  },
+  {
+    "line": 361,
+    "field": "src",
+    "english": "result, outcome"
+  },
+  {
+    "line": 361,
+    "field": "exampleSrc",
+    "english": "A: What is the result of the trip?\\nB: New words, new friends.\\nA: A good result.\\nB: The best result of all."
+  },
+  {
+    "line": 362,
+    "field": "src",
+    "english": "knowledge, awareness"
+  },
+  {
+    "line": 362,
+    "field": "exampleSrc",
+    "english": "A: Do you have knowledge of German?\\nB: Yes, good knowledge.\\nA: Language skills are valuable.\\nB: They open doors."
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "feasible, doable"
+  },
+  {
+    "line": 363,
+    "field": "exampleSrc",
+    "english": "A: Is that feasible?\\nB: Yes, absolutely feasible.\\nA: In two days?\\nB: Difficult, but doable."
+  },
+  {
+    "line": 364,
+    "field": "src",
+    "english": "solvable"
+  },
+  {
+    "line": 364,
+    "field": "exampleSrc",
+    "english": "A: Is the problem solvable?\\nB: Every problem is solvable.\\nA: Even grammar problems?\\nB: Especially those. With practice."
+  },
+  {
+    "line": 365,
+    "field": "hint",
+    "english": "Most -tum nouns follow the masculine pattern, but one exception in the list comes from a verb of increase rather than a noun of state. Which option represents process or increase?"
+  },
+  {
+    "line": 365,
+    "field": "sSrc",
+    "english": "Most -tum nouns are masculine (der Reichtum). Which is an exception?"
+  },
+  {
+    "line": 366,
+    "field": "hint",
+    "english": "The plan did not succeed. The miss- prefix turns success (gelingen) into failure."
+  },
+  {
+    "line": 366,
+    "field": "sSrc",
+    "english": "The plan unfortunately failed."
+  },
+  {
+    "line": 367,
+    "field": "src",
+    "english": "priceless, invaluable"
+  },
+  {
+    "line": 367,
+    "field": "exampleSrc",
+    "english": "A: Was the trip expensive?\\nB: Financially yes, but the experience is priceless.\\nA: Friendship is priceless.\\nB: The most valuable thing there is."
+  },
+  {
+    "line": 368,
+    "field": "hint",
+    "english": "The beauty of the landscape and the friendship of the people make the trip priceless (un- + bezahlbar)."
+  },
+  {
+    "line": 368,
+    "field": "sSrc",
+    "english": "The beauty of the landscape and the friendship of the people make this trip priceless."
+  },
+  {
+    "line": 381,
+    "field": "hint",
+    "english": "This category describes the manner of an action. Position 3 in the four-slot rule. Think: not when, not why, not where."
+  },
+  {
+    "line": 381,
+    "field": "sSrc",
+    "english": "Verumius says: 'Possibly I will not understand anything anymore.' What does 'möglicherweise' represent in TeKaMoLo?"
+  }
+]

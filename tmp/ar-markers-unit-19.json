@@ -1,0 +1,3042 @@
+[
+  {
+    "line": 5,
+    "field": "desc",
+    "english": "Verumius sits in the immigration office. Queue number B089. The display shows A247. His folder is perfectly organized. Hildi helped."
+  },
+  {
+    "line": 6,
+    "field": "unknown",
+    "english": "Learn key vocabulary for government offices and applications"
+  },
+  {
+    "line": 7,
+    "field": "unknown",
+    "english": "Understand how a German Amt works"
+  },
+  {
+    "line": 8,
+    "field": "unknown",
+    "english": "Follow Verumius in the waiting room of the Ausländerbehörde"
+  },
+  {
+    "line": 10,
+    "field": "src",
+    "english": "Verumius sits in the immigration office. Queue number B089. The digital display shows A247. His folder lies on his lap, perfectly organized. Hildi sorted everything. Birth certificate, registration confirmation, employment contract, health insurance, passport photos. Fluorescent light hums above the rows of plastic chairs. A printer rattles somewhere in the background."
+  },
+  {
+    "line": 11,
+    "field": "src",
+    "english": "the government authority"
+  },
+  {
+    "line": 11,
+    "field": "note",
+    "english": "From 'beherrschen' (to govern). Any official authority.\\nAusländerbehörde = foreigners' authority."
+  },
+  {
+    "line": 11,
+    "field": "exampleSrc",
+    "english": "A: Which authority handles visas?\\nB: The immigration office.\\nA: And where can I find it?\\nB: At Friedrichring 12, third floor."
+  },
+  {
+    "line": 11,
+    "field": "funFact",
+    "english": "Germans have a Behörde for everything. The word comes from 'beherrschen' (to govern). There are over 14,000 different Behörden in Germany, from the Finanzamt to the Jugendamt."
+  },
+  {
+    "line": 12,
+    "field": "src",
+    "english": "the office, the bureau"
+  },
+  {
+    "line": 12,
+    "field": "note",
+    "english": "From Gothic 'andbahti' (service). Plural: Ämter.\\nBürgeramt, Finanzamt, Standesamt."
+  },
+  {
+    "line": 12,
+    "field": "exampleSrc",
+    "english": "A: I have to go to the office.\\nB: Which office?\\nA: The citizens' office, for registration.\\nB: Do you have an appointment?"
+  },
+  {
+    "line": 12,
+    "field": "funFact",
+    "english": "The word Amt comes from Gothic 'andbahti' (service). An Amt is an office or bureau. Bürgeramt, Finanzamt, Standesamt. German bureaucracy runs on Ämter. Das Amt is neuter, like most institutions."
+  },
+  {
+    "line": 13,
+    "field": "src",
+    "english": "the document"
+  },
+  {
+    "line": 13,
+    "field": "note",
+    "english": "From Latin 'documentum' (lesson/proof). Plural: Dokumente.\\nNearly identical in English."
+  },
+  {
+    "line": 13,
+    "field": "exampleSrc",
+    "english": "A: Do you have all documents with you?\\nB: Yes, here is my folder.\\nA: Very good. I'll check everything in order.\\nB: Please, take your time."
+  },
+  {
+    "line": 13,
+    "field": "funFact",
+    "english": "In Germany, you need Dokumente for everything: renting an apartment, opening a bank account, starting a job, even getting a library card. The phrase 'Bringen Sie alle Dokumente mit' is survival German."
+  },
+  {
+    "line": 14,
+    "field": "src",
+    "english": "the application, the formal request"
+  },
+  {
+    "line": 14,
+    "field": "note",
+    "english": "An- (toward) + tragen (to carry). Literally 'to carry toward.'\\n'Einen Antrag stellen' = to file an application."
+  },
+  {
+    "line": 14,
+    "field": "exampleSrc",
+    "english": "A: I would like to file an application.\\nB: Which application?\\nA: An application for a residence permit.\\nB: Please fill out this form."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "'Einen Antrag stellen' (to file an application) is survival vocabulary in Germany. The verb is stellen, not machen. Every official process begins with an Antrag."
+  },
+  {
+    "line": 15,
+    "field": "src",
+    "english": "the visa"
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "From Latin 'visum' (something seen/approved). Plural: Visa.\\nDer Aufenthaltstitel replaces it long-term."
+  },
+  {
+    "line": 15,
+    "field": "exampleSrc",
+    "english": "A: How long is your visa valid?\\nB: Three more months.\\nA: Then you must renew in time.\\nB: Yes, that's why I'm here today."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "Every non-EU resident in Germany needs a Visum. The Aufenthaltstitel (residence permit) replaces it long-term. Das Visum, plural: Visa. The word comes from Latin 'visum' (something officially seen and approved)."
+  },
+  {
+    "line": 16,
+    "field": "src",
+    "english": "the stay, the residence"
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Auf- (up/upon) + enthalten (to hold). A stay or residence.\\nAufenthaltserlaubnis = residence permit."
+  },
+  {
+    "line": 16,
+    "field": "exampleSrc",
+    "english": "A: How long is your stay in Germany?\\nB: I've lived here for a year.\\nA: And you want to extend the stay?\\nB: Yes, indefinitely, if possible."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "Aufenthaltserlaubnis, Aufenthaltstitel, Aufenthaltsgenehmigung. German compound words build meaning layer by layer. Aufenthalt (stay) is the root of an entire family of immigration terms."
+  },
+  {
+    "line": 17,
+    "field": "src",
+    "english": "the document, the paperwork"
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Unter (under) + Lage (position). Usually plural: Unterlagen.\\n'Haben Sie alle Unterlagen?' is the classic question."
+  },
+  {
+    "line": 17,
+    "field": "exampleSrc",
+    "english": "A: Do you have all the paperwork?\\nB: Yes, everything is in this folder.\\nA: Birth certificate, registration confirmation?\\nB: Everything's here, in the right order."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Die Unterlagen (plural) means 'documents/paperwork.' Every Behörde asks: 'Haben Sie alle Unterlagen?' The word literally means 'things lying underneath,' supporting your case."
+  },
+  {
+    "line": 18,
+    "field": "src",
+    "english": "the deadline"
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "From Old High German 'frist' (time period).\\n'Die Frist läuft ab' = the deadline expires."
+  },
+  {
+    "line": 18,
+    "field": "exampleSrc",
+    "english": "A: When is the deadline for the application?\\nB: March 15th.\\nA: Then I have two more weeks.\\nB: Submit everything on time."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "Missing a Frist in German bureaucracy has real consequences. Always ask: 'Wann ist die Frist?' The word comes from Old High German 'frist' (time period). Once the Frist expires, your case may be closed."
+  },
+  {
+    "line": 19,
+    "field": "src",
+    "english": "necessary, needed"
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From 'Not' (need/necessity). Stronger than 'brauchen.'\\n'Es ist nötig, alle Dokumente mitzubringen.'"
+  },
+  {
+    "line": 19,
+    "field": "exampleSrc",
+    "english": "A: Is a passport photo necessary?\\nB: Yes, two passport photos are necessary.\\nA: Biometric?\\nB: Yes, that is required."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "Nötig implies urgency or obligation, stronger than 'brauchen' (to need). 'Es ist nötig, alle Dokumente mitzubringen.' The root is 'Not' (need/necessity), the same root as English 'need.'"
+  },
+  {
+    "line": 20,
+    "field": "src",
+    "english": "on time, punctual"
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Recht (right) + zeitig (timely). Arriving rechtzeitig at\\nthe Behörde means arriving early."
+  },
+  {
+    "line": 20,
+    "field": "exampleSrc",
+    "english": "A: Did you come on time?\\nB: Yes, I'm half an hour early.\\nA: Very good. Punctuality is important.\\nB: I learned that in Germany."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "Germans value Pünktlichkeit (punctuality). Arriving rechtzeitig at the Behörde means arriving early. Late? Your appointment may be gone. The word combines 'recht' (right) and 'zeitig' (timely)."
+  },
+  {
+    "line": 21,
+    "field": "src",
+    "english": "first of all, initially"
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Zu (to) + nächst (nearest). A formal connector.\\n'Zunächst müssen Sie das Formular ausfüllen.'"
+  },
+  {
+    "line": 21,
+    "field": "exampleSrc",
+    "english": "A: What do I have to do first?\\nB: First of all, fill out the form.\\nA: And then?\\nB: After that, go to counter three."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "Zunächst is a formal word for 'first of all.' You hear it constantly in official instructions. 'Zunächst müssen Sie das Formular ausfüllen, danach die Gebühr bezahlen.'"
+  },
+  {
+    "line": 22,
+    "field": "src",
+    "english": "provisional, temporary"
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Vor (before) + läufig (running). Not yet final.\\nA vorläufige Genehmigung = temporary approval."
+  },
+  {
+    "line": 22,
+    "field": "exampleSrc",
+    "english": "A: Is the residence permit already final?\\nB: No, initially it is provisional.\\nA: How long is the temporary approval valid?\\nB: Six months. Then comes the final one."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "Many German permits start vorläufig before becoming endgültig (final). A vorläufige Genehmigung is a temporary approval. The word literally means 'pre-running,' something that comes before the real thing."
+  },
+  {
+    "line": 23,
+    "field": "src",
+    "english": "safe, certain, sure"
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "From Latin 'securus' (without care). Two meanings:\\n'Ich bin sicher' = I am sure. 'Das ist sicher' = safe/certain."
+  },
+  {
+    "line": 23,
+    "field": "exampleSrc",
+    "english": "A: Are you sure all documents are here?\\nB: Yes, completely sure. I checked everything three times.\\nA: Good. Then we can get started.\\nB: I'm sure everything is in order."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "Sicher means both 'safe' and 'certain.' Context determines which. 'Ich bin sicher' = I am sure. 'Das ist sicher' = That is safe/certain. The word comes from Latin 'securus' (without care)."
+  },
+  {
+    "line": 24,
+    "field": "src",
+    "english": "after that, afterwards"
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Da (there) + nach (after). A pronominal adverb.\\n'Zunächst das Formular, danach die Gebühr bezahlen.'"
+  },
+  {
+    "line": 24,
+    "field": "exampleSrc",
+    "english": "A: First fill out the application.\\nB: And after that?\\nA: After that, bring everything to the counter.\\nB: Understood. First the form, then the counter."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "Germans love sequencing with zunächst...danach...schließlich. Danach is a pronominal adverb (da + nach). It means 'after that' and is essential for following multi-step bureaucratic instructions."
+  },
+  {
+    "line": 25,
+    "field": "src",
+    "english": "the confirmation"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "From 'bestätigen' (to confirm). Paper proof of anything.\\n'Können Sie mir eine Bestätigung geben?'"
+  },
+  {
+    "line": 25,
+    "field": "exampleSrc",
+    "english": "A: Can I get a confirmation?\\nB: Yes, I'll print out a confirmation for you.\\nA: Thanks, I need it for my employer.\\nB: Here you go, here is your confirmation."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Every official action in Germany produces a Bestätigung. Paper proof is king. 'Können Sie mir eine Bestätigung geben?' is a phrase you will use again and again."
+  },
+  {
+    "line": 26,
+    "field": "src",
+    "english": "the registration, the report"
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "From 'melden' (to report/register). Die Anmeldung is\\nthe residential registration every resident needs."
+  },
+  {
+    "line": 26,
+    "field": "exampleSrc",
+    "english": "A: Have you done your registration yet?\\nB: Yes, I completed the registration last week.\\nA: Good, we need the registration certificate here.\\nB: Here it is."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "The Anmeldung (residential registration) is the first Meldung every resident needs. No Meldung = no bank account, no insurance, no phone contract. The word comes from 'melden' (to report)."
+  },
+  {
+    "line": 27,
+    "field": "src",
+    "english": "Verumius checks his folder one more time. Birth certificate, registration confirmation, employment contract, health insurance, passport photos. Everything is there. Hildi's checklist system works. He takes a deep breath. B089. It can't be much longer now."
+  },
+  {
+    "line": 28,
+    "field": "hint",
+    "english": "A place where you take a number and wait for government services."
+  },
+  {
+    "line": 29,
+    "field": "hint",
+    "english": "Which word means 'first of all' when listing steps?"
+  },
+  {
+    "line": 29,
+    "field": "sSrc",
+    "english": "Verumius must first of all collect all the documents."
+  },
+  {
+    "line": 35,
+    "field": "hint",
+    "english": "Vorläufig means something is not yet permanent."
+  },
+  {
+    "line": 36,
+    "field": "src",
+    "english": "The display shows B052. Verumius calculates: 37 more numbers. He takes out his phone and texts KD: 'I am at the office. Been waiting for an hour.' KD replies immediately: 'Normal. Patience is a German virtue.'"
+  },
+  {
+    "line": 37,
+    "field": "hint",
+    "english": "Think of a permit that is temporary before becoming final."
+  },
+  {
+    "line": 38,
+    "field": "hint",
+    "english": "Which adverb means 'first of all' in a sequence of steps?"
+  },
+  {
+    "line": 38,
+    "field": "sSrc",
+    "english": "He must first of all fill out the form and then pay the fee."
+  },
+  {
+    "line": 41,
+    "field": "desc",
+    "english": "The language of German administration: long, precise, and full of technical terms. Laws, fees, obligations. Welcome to the world of official German."
+  },
+  {
+    "line": 42,
+    "field": "unknown",
+    "english": "Learn bureaucratic vocabulary for government offices and law"
+  },
+  {
+    "line": 43,
+    "field": "unknown",
+    "english": "Understand administrative terminology"
+  },
+  {
+    "line": 44,
+    "field": "unknown",
+    "english": "Master vocabulary for citizenship and civic duties"
+  },
+  {
+    "line": 46,
+    "field": "src",
+    "english": "Verumius watches the other people waiting. A woman sorts papers. A man nervously taps on his phone. A poster on the wall reads: 'Please have all documents ready.' The clock shows 9:47. His appointment was at 9:30."
+  },
+  {
+    "line": 47,
+    "field": "src",
+    "english": "the fee"
+  },
+  {
+    "line": 47,
+    "field": "note",
+    "english": "From 'gebühren' (to be due). A government fee.\\nDie Bearbeitungsgebühr = processing fee."
+  },
+  {
+    "line": 47,
+    "field": "exampleSrc",
+    "english": "A: How much is the fee for the application?\\nB: The fee is 100 euros.\\nA: Can I pay by card?\\nB: No, only bank transfer or cash."
+  },
+  {
+    "line": 47,
+    "field": "funFact",
+    "english": "Die Bearbeitungsgebühr (processing fee) is attached to every Antrag. Germany never does paperwork for free. The word comes from 'gebühren' (to be due)."
+  },
+  {
+    "line": 48,
+    "field": "src",
+    "english": "the certificate"
+  },
+  {
+    "line": 48,
+    "field": "note",
+    "english": "From Old High German 'urchundi' (testimony). Original only.\\nGeburtsurkunde, Heiratsurkunde."
+  },
+  {
+    "line": 48,
+    "field": "exampleSrc",
+    "english": "A: I need a certified certificate.\\nB: Which certificate exactly?\\nA: The birth certificate.\\nB: Please bring the original."
+  },
+  {
+    "line": 48,
+    "field": "funFact",
+    "english": "Geburtsurkunde (birth certificate), Heiratsurkunde (marriage certificate). The word comes from Old High German 'urchundi' (testimony). Original documents only. Copies will not do."
+  },
+  {
+    "line": 49,
+    "field": "src",
+    "english": "the law"
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "From 'setzen' (to set/place). Something 'set' in place.\\n'Gesetz ist Gesetz' is a very German phrase."
+  },
+  {
+    "line": 49,
+    "field": "exampleSrc",
+    "english": "A: What does the law say about that?\\nB: The law is clear here.\\nA: Are there exceptions?\\nB: No, the law is the law."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "Das Grundgesetz is the German constitution. The word Gesetz comes from 'setzen' (to set in place). 'Gesetz ist Gesetz' (the law is the law) is a very German expression."
+  },
+  {
+    "line": 50,
+    "field": "src",
+    "english": "the right, the law"
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Same root as English 'right.' Both a right and the legal system.\\n'Sie haben das Recht auf...' = you are entitled to..."
+  },
+  {
+    "line": 50,
+    "field": "exampleSrc",
+    "english": "A: Do I have the right to a residence permit?\\nB: Yes, if all requirements are met.\\nA: What rights do I have as a resident?\\nB: Many. Inform yourself at the office."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "'Recht' means both a right (das Recht auf...) and the legal system (das Recht). 'Sie haben das Recht auf einen Aufenthaltstitel' means you are legally entitled to one."
+  },
+  {
+    "line": 51,
+    "field": "src",
+    "english": "the duty, the obligation"
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "From Old High German 'pflihti' (care/duty).\\nSchulpflicht, Versicherungspflicht. Germany runs on Pflichten."
+  },
+  {
+    "line": 51,
+    "field": "exampleSrc",
+    "english": "A: What are my duties as a resident?\\nB: You must register and pay taxes.\\nA: Are there other duties?\\nB: Yes, mandatory insurance for example."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "Die Schulpflicht (compulsory education), die Versicherungspflicht (mandatory insurance). Germany runs on Pflichten. The word comes from Old High German 'pflihti' (care/duty)."
+  },
+  {
+    "line": 52,
+    "field": "src",
+    "english": "the origin"
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Her- (from) + Kunft (coming). Where you come from.\\nHerkunftsland = country of origin."
+  },
+  {
+    "line": 52,
+    "field": "exampleSrc",
+    "english": "A: Where do you come from? What is your origin?\\nB: I come from Greece.\\nA: And how long have you been in Germany?\\nB: For two years."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "The Behörde always asks about Herkunft. Herkunftsland = country of origin. Not the same as Heimat (which is emotional). Herkunft is factual, about geography and nationality."
+  },
+  {
+    "line": 53,
+    "field": "src",
+    "english": "the integration"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Latin 'integratio' (renewal). The process of becoming\\npart of society. Integrationskurse are mandatory for many."
+  },
+  {
+    "line": 53,
+    "field": "exampleSrc",
+    "english": "A: Have you attended an integration course?\\nB: Yes, 600 hours of German and 100 hours of civics.\\nA: Very good. That is important for integration.\\nB: It was exhausting, but helpful."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Germany has Integrationskurse (integration courses): 600 hours of German + 100 hours of civics. Mandatory for many immigrants. The concept of Integration is central to German immigration policy."
+  },
+  {
+    "line": 54,
+    "field": "src",
+    "english": "the migration"
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "Latin 'migratio' (moving). Population movement as a concept.\\nEinwanderung = immigration, Auswanderung = emigration."
+  },
+  {
+    "line": 54,
+    "field": "exampleSrc",
+    "english": "A: Migration is a global topic.\\nB: Yes, millions of people migrate every year.\\nA: Germany has a long history of migration.\\nB: Since the 1960s, with the guest workers."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "Immigration (Einwanderung) and emigration (Auswanderung) are both types of Migration. Germany's Migrationsgeschichte goes back to the 1960s Gastarbeiter (guest workers) program."
+  },
+  {
+    "line": 55,
+    "field": "src",
+    "english": "the migrant (male)"
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "A person who migrates. Die Migrantin = female form.\\nPlural 'Migranten' covers everyone."
+  },
+  {
+    "line": 55,
+    "field": "exampleSrc",
+    "english": "A: How many migrants live in Berlin?\\nB: Over a million people have a migration background.\\nA: That's almost a third of the population.\\nB: Berlin is a very diverse city."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "German always has masculine and feminine forms: der Migrant, die Migrantin. The plural 'Migranten' covers everyone. Gender-specific titles are standard in official German."
+  },
+  {
+    "line": 56,
+    "field": "src",
+    "english": "the administration"
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From 'verwalten' (to administer). Die Stadtverwaltung =\\ncity administration. Verwaltungsakt = administrative act."
+  },
+  {
+    "line": 56,
+    "field": "exampleSrc",
+    "english": "A: The administration processed my application.\\nB: How long did that take?\\nA: Six weeks.\\nB: That's quite normal for the German administration."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "Germany's Verwaltung is legendarily thorough. Every process has a Verwaltungsakt (administrative act). Die Stadtverwaltung = city administration. The word comes from 'verwalten' (to administer)."
+  },
+  {
+    "line": 57,
+    "field": "src",
+    "english": "the place of residence"
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Wohn- (dwelling) + Ort (place). On every form.\\nDifferent from Wohnsitz (official registered address)."
+  },
+  {
+    "line": 57,
+    "field": "exampleSrc",
+    "english": "A: What is your place of residence?\\nB: Berlin, Kreuzberg.\\nA: Is that also your official registered address?\\nB: Yes, I'm registered there."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "You can have a Wohnort without a Wohnsitz if you haven't registered yet. Wohnort = where you live. Wohnsitz = where you are officially registered. Both appear on every German form."
+  },
+  {
+    "line": 58,
+    "field": "src",
+    "english": "the official registered address"
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Wohn- (dwelling) + Sitz (seat). Your officially registered address.\\nThe Anmeldung establishes your Wohnsitz."
+  },
+  {
+    "line": 58,
+    "field": "exampleSrc",
+    "english": "A: Do you have a registered address in Germany?\\nB: Yes, since the registration last week.\\nA: Good. Nothing works here without a registered address.\\nB: I learned that quickly."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "Without a Wohnsitz, you legally do not live anywhere in Germany. No Wohnsitz means no bank account, no insurance, no phone contract. The Anmeldung (registration) establishes your Wohnsitz."
+  },
+  {
+    "line": 59,
+    "field": "src",
+    "english": "the data, personal details"
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Latin 'data' (things given). Always plural in German.\\nPersönliche Daten = personal data. Datenschutz = data protection."
+  },
+  {
+    "line": 59,
+    "field": "exampleSrc",
+    "english": "A: Please provide your personal data.\\nB: Name, date of birth, and address?\\nA: Yes, and your phone number.\\nB: Here, everything is filled in."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "Daten is always plural in German. Persönliche Daten = personal data. Data protection (Datenschutz) is a near-sacred concept in Germany. The word comes from Latin 'data' (things given)."
+  },
+  {
+    "line": 60,
+    "field": "src",
+    "english": "legal, juridical"
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Recht + -lich. 'Rechtlich gesehen...' = legally speaking.\\nDifferent from 'recht' (right) and 'rechts' (to the right)."
+  },
+  {
+    "line": 60,
+    "field": "exampleSrc",
+    "english": "A: Is that legally permitted?\\nB: Legally speaking, yes.\\nA: Are there legal problems?\\nB: No, everything is legally in order."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "'Rechtlich gesehen...' (legally speaking...) is how officials introduce legal requirements. Different from 'recht' (right/correct) and 'rechts' (to the right). Three forms, three meanings."
+  },
+  {
+    "line": 61,
+    "field": "src",
+    "english": "final, definitive"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "End- (final) + gültig (valid). Cannot be appealed normally.\\nThe opposite of vorläufig."
+  },
+  {
+    "line": 61,
+    "field": "exampleSrc",
+    "english": "A: Is the decision final?\\nB: Yes, the ruling is final.\\nA: Can I still file an objection?\\nB: Only within four weeks."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "An endgültiger Bescheid (final decision) cannot be appealed through normal channels. The opposite of vorläufig. The word you want to hear at the Behörde."
+  },
+  {
+    "line": 62,
+    "field": "src",
+    "english": "responsible"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Ver- + Antwort (answer) + -lich. Literally 'answerable.'\\n'Wer ist dafür verantwortlich?'"
+  },
+  {
+    "line": 62,
+    "field": "exampleSrc",
+    "english": "A: Who is responsible for this case?\\nB: Ms. Müller is responsible for it.\\nA: Can I speak with her?\\nB: She is currently in a meeting."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "The Behörde always wants to know who is verantwortlich. The word literally means 'answerable' (ver- + Antwort + -lich). 'Wer ist dafür verantwortlich?' is a key bureaucratic question."
+  },
+  {
+    "line": 63,
+    "field": "src",
+    "english": "responsible, in charge (jurisdictionally)"
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "Zu- + Stand + -ig. Competent for a specific matter.\\n'Diese Behörde ist für Visa zuständig.'"
+  },
+  {
+    "line": 63,
+    "field": "exampleSrc",
+    "english": "A: Are you in charge of residence permits?\\nB: No, counter three is in charge of that.\\nA: And who is in charge here?\\nB: I'm in charge of registrations."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "Each office is zuständig for specific matters. Wrong Behörde? They send you to the zuständige one. 'Diese Behörde ist für Visa zuständig.' Zuständig means jurisdictionally responsible, not personally responsible."
+  },
+  {
+    "line": 64,
+    "field": "text",
+    "english": "German official language uses:\\n\\n1. Long compound nouns: Aufenthaltsgenehmigung, Bearbeitungsgebühr\\n2. Passive constructions: 'wird bearbeitet' (is being processed)\\n3. Formal vocabulary: erhalten instead of bekommen\\n\\nKey pattern: nouns are built from smaller parts.\\nAufenthalts-genehmigungs-antrag = residence-permit-application.\\nRead right to left for meaning: it is an Antrag (application)\\nfor a Genehmigung (approval) of an Aufenthalt (stay)."
+  },
+  {
+    "line": 64,
+    "field": "deepDive",
+    "english": "Amtsdeutsch sounds different from everyday German because it evolved from legal Latin traditions. The long compound nouns are actually more precise than using multiple words. Each compound has exactly one meaning, leaving no room for ambiguity. This precision is intentional: in law, every word matters."
+  },
+  {
+    "line": 65,
+    "field": "hint",
+    "english": "This word refers to a time limit for submitting something."
+  },
+  {
+    "line": 66,
+    "field": "hint",
+    "english": "Wohn- relates to living, Sitz relates to an official seat or registration."
+  },
+  {
+    "line": 67,
+    "field": "hint",
+    "english": "Which adjective describes jurisdictional responsibility of an office?"
+  },
+  {
+    "line": 67,
+    "field": "sSrc",
+    "english": "The immigration office is in charge of visas."
+  },
+  {
+    "line": 80,
+    "field": "hint",
+    "english": "This official document records the moment and place a person came into the world."
+  },
+  {
+    "line": 81,
+    "field": "src",
+    "english": "Verumius mutters to himself: fee paid, certificate here, registration done. He now knows every word on the form. Official German is like a foreign language within a foreign language."
+  },
+  {
+    "line": 84,
+    "field": "desc",
+    "english": "Passive with modal verbs: What must be done? What can be applied for? What must not be forgotten? The language of the government office, step by step."
+  },
+  {
+    "line": 85,
+    "field": "unknown",
+    "english": "Learn passive with modal verbs: muss/kann/soll/darf + Partizip II + werden"
+  },
+  {
+    "line": 86,
+    "field": "unknown",
+    "english": "Express obligations, permissions, and prohibitions"
+  },
+  {
+    "line": 87,
+    "field": "unknown",
+    "english": "Use bureaucratic German with confidence"
+  },
+  {
+    "line": 89,
+    "field": "src",
+    "english": "The display jumps to B085. Four more numbers. Verumius reads the notice next to counter three: 'Applications can only be processed with complete documents. Missing documents must be submitted later.' Passive everywhere. The office speaks its own language."
+  },
+  {
+    "line": 90,
+    "field": "src",
+    "english": "to apply for (officially)"
+  },
+  {
+    "line": 90,
+    "field": "note",
+    "english": "Be- + Antrag + -en. To apply for something at an office.\\n'Einen Aufenthaltstitel beantragen.'"
+  },
+  {
+    "line": 90,
+    "field": "exampleSrc",
+    "english": "A: What would you like to apply for?\\nB: I would like to apply for a residence permit.\\nA: Do you have all the documents?\\nB: Yes, everything is complete."
+  },
+  {
+    "line": 90,
+    "field": "funFact",
+    "english": "The be- prefix makes it transitive: you beantragen something directly. 'Einen Aufenthaltstitel beantragen' is what Verumius is doing right now. Without be-, Antrag is just the noun."
+  },
+  {
+    "line": 91,
+    "field": "src",
+    "english": "to approve, to grant permission"
+  },
+  {
+    "line": 91,
+    "field": "note",
+    "english": "From 'genehm' (agreeable). To approve officially.\\n'Der Antrag wurde genehmigt.' = the golden words."
+  },
+  {
+    "line": 91,
+    "field": "exampleSrc",
+    "english": "A: Was my application approved?\\nB: Yes, your application was approved.\\nA: Really? That's great news!\\nB: Congratulations."
+  },
+  {
+    "line": 91,
+    "field": "funFact",
+    "english": "'Der Antrag wurde genehmigt' is the sentence every applicant wants to hear. Die Genehmigung = the approval. The word comes from 'genehm' (agreeable)."
+  },
+  {
+    "line": 92,
+    "field": "src",
+    "english": "to issue (a document)"
+  },
+  {
+    "line": 92,
+    "field": "note",
+    "english": "Aus- (out) + stellen (to place). To issue officially.\\n'Einen Pass ausstellen' = to issue a passport."
+  },
+  {
+    "line": 92,
+    "field": "exampleSrc",
+    "english": "A: Where is the residence permit issued?\\nB: At counter five.\\nA: How long does the issuing take?\\nB: About 20 minutes."
+  },
+  {
+    "line": 92,
+    "field": "funFact",
+    "english": "The Behörde stellt Dokumente aus. Without ausstellen, no official paper exists. Separable verb: 'Sie stellt den Pass aus.' In passive: 'Der Pass wird ausgestellt.'"
+  },
+  {
+    "line": 93,
+    "field": "src",
+    "english": "to extend, to renew"
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "Ver- + länger (longer) + -n. To make something last longer.\\n'Das Visum verlängern' = to extend the visa."
+  },
+  {
+    "line": 93,
+    "field": "exampleSrc",
+    "english": "A: I need to extend my visa.\\nB: When does it expire?\\nA: In three weeks.\\nB: Then file an application quickly."
+  },
+  {
+    "line": 93,
+    "field": "funFact",
+    "english": "Every permit has an expiry date. Verlängern before the Frist. Always. The word literally means 'to make longer' (ver- + länger)."
+  },
+  {
+    "line": 94,
+    "field": "src",
+    "english": "to officially recognize"
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "An- (at) + erkennen (to recognize). To recognize officially.\\n'Einen Abschluss anerkennen' = to recognize a degree."
+  },
+  {
+    "line": 94,
+    "field": "exampleSrc",
+    "english": "A: Is my diploma recognized in Germany?\\nB: That depends on the subject.\\nA: I studied computer science.\\nB: Computer science is usually recognized."
+  },
+  {
+    "line": 94,
+    "field": "funFact",
+    "english": "Foreign qualifications must be anerkannt (recognized) in Germany before they count. The process is called Anerkennung. Without it, your degree is just a piece of paper."
+  },
+  {
+    "line": 95,
+    "field": "src",
+    "english": "to receive (formal)"
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Er- + halten (to hold). Formal register for 'to receive.'\\n'Sie erhalten den Bescheid per Post.'"
+  },
+  {
+    "line": 95,
+    "field": "exampleSrc",
+    "english": "A: When will I receive the decision?\\nB: You will receive it within six weeks.\\nA: By mail or by email?\\nB: By mail, as registered post."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "In official German, erhalten replaces bekommen (to get). Same meaning, higher register. 'Sie erhalten den Bescheid per Post.' You see erhalten on every official letter."
+  },
+  {
+    "line": 96,
+    "field": "src",
+    "english": "to contain"
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "Ent- + halten (to hold). What is inside something.\\nNot to be confused with erhalten (receive)."
+  },
+  {
+    "line": 96,
+    "field": "exampleSrc",
+    "english": "A: What does the application contain?\\nB: It contains all personal data.\\nA: Is the birth certificate included?\\nB: Yes, all documents are included."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "Enthalten = what is inside. Erhalten = what you get. Same root (halten = to hold), different prefixes, very different meanings. A common source of confusion for learners."
+  },
+  {
+    "line": 97,
+    "field": "src",
+    "english": "to obligate"
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Ver- + Pflicht + -en. When the Behörde says verpflichtet,\\nit is not a suggestion. It is the law."
+  },
+  {
+    "line": 97,
+    "field": "exampleSrc",
+    "english": "A: Are we obligated to take an integration course?\\nB: Yes, you are legally obligated to do so.\\nA: What happens if I don't attend?\\nB: There are consequences for your residence status."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "When the Behörde says verpflichtet, it is not a suggestion. It is the law. The word combines ver- (intensifier) + Pflicht (duty) + -en (verb ending)."
+  },
+  {
+    "line": 98,
+    "field": "src",
+    "english": "due, payable"
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "From 'fallen' (to fall due). The deadline has arrived.\\n'Die Gebühr ist sofort fällig.'"
+  },
+  {
+    "line": 98,
+    "field": "exampleSrc",
+    "english": "A: When is the fee due?\\nB: The fee is due immediately.\\nA: Can I also pay next week?\\nB: No, due immediately means immediately."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "When something is fällig, the deadline has arrived. No more waiting. 'Die Gebühr ist sofort fällig.' The word comes from 'fallen' (to fall due)."
+  },
+  {
+    "line": 99,
+    "field": "src",
+    "english": "additional"
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "Zu- (to) + Satz (set) + -lich. The word you do not want\\nto hear at the Behörde: it means more paperwork."
+  },
+  {
+    "line": 99,
+    "field": "exampleSrc",
+    "english": "A: Do you need additional documents?\\nB: Yes, we additionally need a registration certificate.\\nA: I don't have that with me.\\nB: Then you'll have to come again."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "The word you do not want to hear at the Behörde. 'Zusätzliche Dokumente sind erforderlich' means more paperwork, more time, more waiting."
+  },
+  {
+    "line": 100,
+    "field": "src",
+    "english": "forbidden, prohibited"
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "Unter- + sagen (to say). Stronger than 'verboten.'\\nUsed in official documents and formal contexts."
+  },
+  {
+    "line": 100,
+    "field": "exampleSrc",
+    "english": "A: Am I allowed to work here without a permit?\\nB: No, that is strictly prohibited.\\nA: What happens if someone works anyway?\\nB: There are heavy penalties."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "Stronger than 'verboten.' 'Das Arbeiten ist ohne Genehmigung untersagt.' Official German prefers untersagt in formal documents. Unter- + sagen literally means 'to say against.'"
+  },
+  {
+    "line": 101,
+    "field": "src",
+    "english": "presumably, expected"
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Voraus (ahead) + sichtlich (visibly). Bureaucratic hedging.\\n'Voraussichtlich sechs Wochen.' No guarantees."
+  },
+  {
+    "line": 101,
+    "field": "exampleSrc",
+    "english": "A: How long does processing take?\\nB: Presumably six weeks.\\nA: Could it be faster?\\nB: Presumably not, but sometimes it happens."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "Bureaucratic hedging: they expect it, but no guarantees. 'Die Bearbeitung dauert voraussichtlich sechs Wochen.' Voraus (ahead) + sichtlich (visibly) = 'as far as can be seen ahead.'"
+  },
+  {
+    "line": 102,
+    "field": "src",
+    "english": "including (casual)"
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "From Latin. Casual form of 'including.'\\nEinschließlich is the formal German equivalent."
+  },
+  {
+    "line": 102,
+    "field": "exampleSrc",
+    "english": "A: How much does the application cost?\\nB: 100 euros, including processing fee.\\nA: Are passport photos included?\\nB: No, you have to bring those yourself."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "Both inklusive and einschließlich mean 'including.' Inklusive is from Latin (casual). Einschließlich is the German compound (formal). Same meaning, different register."
+  },
+  {
+    "line": 103,
+    "field": "src",
+    "english": "including (formal)"
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "Ein- + schließlich. Formal German for 'including.'\\n'Einschließlich aller Unterlagen.'"
+  },
+  {
+    "line": 103,
+    "field": "exampleSrc",
+    "english": "A: What costs are there?\\nB: 150 euros, including all fees.\\nA: Are there hidden costs?\\nB: No, everything is included."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "Einschließlich is the formal German compound for 'including.' You see it on every official document. 'Einschließlich aller Unterlagen' = including all paperwork."
+  },
+  {
+    "line": 104,
+    "field": "text",
+    "english": "You already know the passive with werden and Partizip II. Now add a modal verb.\\n\\nThe modal verb takes the second position in the sentence. The Partizip II and werden go to the end, with werden last.\\n\\n- Das Formular muss ausgefüllt werden. (The form must be filled out.)\\n- Der Antrag kann online gestellt werden. (The application can be filed online.)\\n- Das Dokument darf nicht kopiert werden. (The document may not be copied.)\\n\\nAll modals work this way: muss, kann, soll, darf, will."
+  },
+  {
+    "line": 104,
+    "field": "deepDive",
+    "english": "In a Nebensatz (subordinate clause), the modal goes to the very end, after werden:\\n\\n'Ich weiß, dass das Formular ausgefüllt werden muss.'\\n\\nThe order is: Partizip II + werden + modal.\\nThis triple verb cluster at the end is typical of German subordinate clauses and sounds complex, but the pattern is always the same."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Modal in V2 position. Partizip II before werden at the end. Always."
+  },
+  {
+    "line": 114,
+    "field": "hint",
+    "english": "Which modal verb expresses obligation? The structure is modal + PP + werden."
+  },
+  {
+    "line": 120,
+    "field": "hint",
+    "english": "Modal in V2, Partizip II before werden at the end."
+  },
+  {
+    "line": 121,
+    "field": "hint",
+    "english": "Which modal expresses ability or permission?"
+  },
+  {
+    "line": 121,
+    "field": "sSrc",
+    "english": "The passport can be picked up at the counter."
+  },
+  {
+    "line": 127,
+    "field": "hint",
+    "english": "The sentence expresses prohibition, not just absence. Which modal verb signals that something is not permitted?"
+  },
+  {
+    "line": 128,
+    "field": "hint",
+    "english": "Three blanks: first the obligation modal for a plural subject, then the past participle of 'einreichen', then the passive auxiliary."
+  },
+  {
+    "line": 128,
+    "field": "sSrc",
+    "english": "The documents must be submitted on time."
+  },
+  {
+    "line": 129,
+    "field": "src",
+    "english": "B088. Verumius swallows. I'm next. He reads his notes one more time: 'The application must be submitted in full. The fee must be transferred. The visa must not be expired.' He can recite the rules in his sleep now."
+  },
+  {
+    "line": 135,
+    "field": "hint",
+    "english": "Kann...gestellt werden asks about possibility. Online = digitally."
+  },
+  {
+    "line": 138,
+    "field": "desc",
+    "english": "Eight new conjunctions. Time, purpose, condition, concession. Complex sentences for official situations. The verb goes to the end."
+  },
+  {
+    "line": 139,
+    "field": "unknown",
+    "english": "Learn 8 new subordinating conjunctions"
+  },
+  {
+    "line": 140,
+    "field": "unknown",
+    "english": "Express time, purpose, condition, and concession"
+  },
+  {
+    "line": 141,
+    "field": "unknown",
+    "english": "Build complex German sentences for official contexts"
+  },
+  {
+    "line": 143,
+    "field": "src",
+    "english": "B089. Verumius's number lights up on the display. He stands up, tucks the folder under his arm, and walks to counter three. His heart pounds. Before he enters the room, he takes one deep breath. Although he prepared everything, this moment feels enormous."
+  },
+  {
+    "line": 144,
+    "field": "src",
+    "english": "although"
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Ob (whether) + wohl (well). Introduces a concession.\\nVerb goes to the END of the obwohl-clause."
+  },
+  {
+    "line": 144,
+    "field": "exampleSrc",
+    "english": "A: Although he was nervous, he had all documents.\\nB: That's impressive.\\nA: Although the deadline was short, he managed everything.\\nB: Good preparation is everything."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "Obwohl always sends the verb to the end of its clause. 'Obwohl er nervös war, hatte er alle Dokumente.' It introduces a concession: something is true despite another fact."
+  },
+  {
+    "line": 145,
+    "field": "src",
+    "english": "nevertheless, despite that"
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Trotz (despite) + dem (that). NOT a conjunction but an adverb.\\nTrotzdem takes V2 position in its clause."
+  },
+  {
+    "line": 145,
+    "field": "exampleSrc",
+    "english": "A: He was nervous.\\nB: Nevertheless, he had all documents.\\nA: The deadline was short.\\nB: Nevertheless, he managed everything."
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "Trotzdem is NOT a conjunction but an adverb. 'Er war nervös. Trotzdem hatte er alle Dokumente.' Trotzdem takes V2 position in its clause. Compare: obwohl = verb-final, trotzdem = verb-second."
+  },
+  {
+    "line": 146,
+    "field": "src",
+    "english": "before"
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Be- + vor (before). The bevor-clause describes what\\nhas NOT happened yet. Verb-final."
+  },
+  {
+    "line": 146,
+    "field": "exampleSrc",
+    "english": "A: Before the deadline expires, everything must be submitted.\\nB: When does the deadline expire?\\nA: On Friday.\\nB: Then we still have three days."
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "The bevor-clause describes what has NOT happened yet. 'Bevor die Frist abläuft, müssen alle Dokumente eingereicht werden.' Verb goes to the end of the bevor-clause."
+  },
+  {
+    "line": 147,
+    "field": "src",
+    "english": "since (a point in time)"
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "Seit (since) + dem (that). Marks the starting point\\nof an ongoing situation. Verb-final."
+  },
+  {
+    "line": 147,
+    "field": "exampleSrc",
+    "english": "A: Since I've been living in Berlin, I've been learning German.\\nB: And how long have you been living here?\\nA: Since I got the job.\\nB: That's almost two years already."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "Seitdem marks the starting point of an ongoing situation. 'Seitdem ich in Berlin wohne, lerne ich Deutsch.' The conjunction version always takes verb-final word order."
+  },
+  {
+    "line": 148,
+    "field": "src",
+    "english": "until"
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Old High German 'biz.' Marks the endpoint. Short, powerful.\\n'Warten Sie, bis Ihre Nummer aufgerufen wird.'"
+  },
+  {
+    "line": 148,
+    "field": "exampleSrc",
+    "english": "A: Please wait until your number is called.\\nB: How much longer will that take?\\nA: Until number B089 comes up, maybe an hour.\\nB: I'll wait until it's time."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "'Bis' is short and powerful: 'Warten Sie, bis Ihre Nummer aufgerufen wird.' It marks the endpoint. Used constantly in bureaucratic instructions."
+  },
+  {
+    "line": 149,
+    "field": "src",
+    "english": "so that, in order that"
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Da- (there) + mit (with). Different subjects allowed.\\nVerb-final. 'Damit der Antrag bearbeitet werden kann.'"
+  },
+  {
+    "line": 149,
+    "field": "exampleSrc",
+    "english": "A: Bring all documents with you.\\nB: Why?\\nA: So that the application can be processed.\\nB: Understood. I'll bring everything."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "Damit expresses purpose: 'so that.' Different subjects are allowed (unlike um...zu). 'Bringen Sie alle Unterlagen mit, damit der Antrag bearbeitet werden kann.'"
+  },
+  {
+    "line": 150,
+    "field": "src",
+    "english": "in case, if (uncertain)"
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "From 'Fall' (case). More uncertain than 'wenn.'\\nFalls = it might happen. Wenn = it probably will."
+  },
+  {
+    "line": 150,
+    "field": "exampleSrc",
+    "english": "A: In case you have questions, call us.\\nB: What happens if I miss the deadline?\\nA: If that happens, you must file a new application.\\nB: Then I'll watch the deadline."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "Falls is more uncertain than 'wenn.' Falls = it might happen. Wenn = it probably will. Formal German prefers falls for conditions that may or may not occur."
+  },
+  {
+    "line": 151,
+    "field": "src",
+    "english": "while, during"
+  },
+  {
+    "line": 151,
+    "field": "note",
+    "english": "From 'währen' (to last). Temporal overlap.\\nAlso a preposition with genitive: während des Gesprächs."
+  },
+  {
+    "line": 151,
+    "field": "exampleSrc",
+    "english": "A: While the officer checks the documents, Verumius waits.\\nB: Is that normal?\\nA: Yes, during the check you have to wait.\\nB: While I wait, I read a book."
+  },
+  {
+    "line": 151,
+    "field": "funFact",
+    "english": "Während is both a conjunction (while) and a preposition with genitive (during). As a conjunction: 'Während der Beamte prüft, wartet Verumius.' As a preposition: 'während des Gesprächs.'"
+  },
+  {
+    "line": 152,
+    "field": "src",
+    "english": "to depend on"
+  },
+  {
+    "line": 152,
+    "field": "note",
+    "english": "Ab- (from) + hängen (to hang). Always with 'von.'\\n'Es hängt davon ab, ob...' = it depends on whether..."
+  },
+  {
+    "line": 152,
+    "field": "exampleSrc",
+    "english": "A: Will my application be approved?\\nB: That depends on the documents.\\nA: What else does it depend on?\\nB: It also depends on the processing time."
+  },
+  {
+    "line": 152,
+    "field": "funFact",
+    "english": "Always used with 'von': von etwas abhängen. 'Es hängt davon ab, ob alle Unterlagen vollständig sind.' The outcome is 'hanging from' a condition."
+  },
+  {
+    "line": 153,
+    "field": "src",
+    "english": "to coordinate, to align"
+  },
+  {
+    "line": 153,
+    "field": "note",
+    "english": "Ab- (off) + stimmen (to be correct/to vote). In bureaucracy:\\nalign, coordinate. Also: to vote (in politics)."
+  },
+  {
+    "line": 153,
+    "field": "exampleSrc",
+    "english": "A: Are the documents coordinated with each other?\\nB: Yes, everything fits together.\\nA: Good, that is important.\\nB: We coordinated everything carefully."
+  },
+  {
+    "line": 153,
+    "field": "funFact",
+    "english": "In bureaucracy, everything must be abgestimmt (aligned, coordinated). 'Die Unterlagen müssen aufeinander abgestimmt sein.' The word also means 'to vote' in political contexts."
+  },
+  {
+    "line": 154,
+    "field": "src",
+    "english": "to handle, to deal with"
+  },
+  {
+    "line": 154,
+    "field": "note",
+    "english": "Um- (around) + gehen (to go). Separable: UMgehen = handle.\\nInseparable: umGEHen = circumvent."
+  },
+  {
+    "line": 154,
+    "field": "exampleSrc",
+    "english": "A: How do you deal with the administration?\\nB: Patiently and well prepared.\\nA: And if there are problems?\\nB: Stay calm and ask politely."
+  },
+  {
+    "line": 154,
+    "field": "funFact",
+    "english": "Two meanings depending on stress. 'UMgehen' (separable) = to handle/deal with. 'umGEHen' (inseparable) = to circumvent. 'Wie geht man mit der Verwaltung um?' = How do you deal with the administration?"
+  },
+  {
+    "line": 155,
+    "field": "src",
+    "english": "to secure, to safeguard"
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "From 'sicher' (safe/certain). To secure, protect, back up.\\n'Sichern Sie Ihre Daten' = protect your data."
+  },
+  {
+    "line": 155,
+    "field": "exampleSrc",
+    "english": "A: Do you have copies of your documents?\\nB: Yes, I've secured everything.\\nA: Good. One should always secure copies.\\nB: Hildi taught me that."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "In bureaucratic context: make copies, store safely, have backups. 'Sichern Sie Ihre Daten.' Related to Sicherheit (security). Always have backup copies of every official document."
+  },
+  {
+    "line": 156,
+    "field": "src",
+    "english": "the access"
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Zu- (to) + Gang (way/passage). Access to something.\\n'Zugang zum Arbeitsmarkt' = access to the job market."
+  },
+  {
+    "line": 156,
+    "field": "exampleSrc",
+    "english": "A: Do I have access to the job market?\\nB: Yes, with the residence permit you have full access.\\nA: And without?\\nB: Without a residence permit, access is restricted."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "The Aufenthaltstitel determines your Zugang to many things in Germany: work, education, social services. Zu- (to) + Gang (way/passage) = the way to something."
+  },
+  {
+    "line": 157,
+    "field": "src",
+    "english": "the phone number (formal)"
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "Ruf (call) + Nummer (number). More formal than Telefonnummer.\\nAlways appears on official forms."
+  },
+  {
+    "line": 157,
+    "field": "exampleSrc",
+    "english": "A: What is your phone number?\\nB: 030-5551234.\\nA: And your mobile number?\\nB: 0170-9876543."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "More formal than Telefonnummer. On official forms, you always see Rufnummer. Die Rufnummer is feminine because Nummer is feminine."
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "Zivil (civil) + Stand (status). Germany uses Familienstand\\nmore often. Ledig, verheiratet, geschieden, verwitwet."
+  },
+  {
+    "line": 158,
+    "field": "exampleSrc",
+    "english": "A: What is your marital status?\\nB: Single.\\nA: And your nationality?\\nB: Greek."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "Swiss/Austrian term; Germany uses Familienstand more often. Both appear on forms. Options: ledig (single), verheiratet (married), geschieden (divorced), verwitwet (widowed)."
+  },
+  {
+    "line": 159,
+    "field": "src",
+    "english": "the original (document)"
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "From Latin 'originalis.' The original, not a copy.\\n'Bringen Sie bitte das Original mit.'"
+  },
+  {
+    "line": 159,
+    "field": "exampleSrc",
+    "english": "A: Is that a copy or the original?\\nB: That is the original.\\nA: Good, we always need the original.\\nB: Copies are not accepted?"
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "German offices almost always require Originale. Copies are only accepted exceptionally. 'Bringen Sie bitte das Original mit' is something you hear at every Behörde."
+  },
+  {
+    "line": 160,
+    "field": "text",
+    "english": "All subordinating conjunctions push the conjugated verb to the END of their clause.\\n\\nObwohl er nervös WAR.\\nBevor die Frist ABLÄUFT.\\nWährend der Beamte die Dokumente PRÜFT.\\n\\nThe main clause keeps normal V2 order.\\nWhen the subordinate clause comes first, the main clause verb comes immediately after the comma:\\n'Bevor die Frist abläuft, MUSS man den Antrag einreichen.'"
+  },
+  {
+    "line": 160,
+    "field": "deepDive",
+    "english": "Trotzdem is NOT a subordinating conjunction. It is an adverb and keeps V2 word order: 'Trotzdem HAT er alle Dokumente.'\\n\\nCompare:\\n'Obwohl er nervös war, hatte er alle Dokumente.'\\nvs.\\n'Er war nervös. Trotzdem hatte er alle Dokumente.'\\n\\nSame meaning, different structure. Obwohl = verb-final clause. Trotzdem = verb-second in a new sentence."
+  },
+  {
+    "line": 161,
+    "field": "hint",
+    "english": "After obwohl, the verb goes to the END. Subject + object + verb."
+  },
+  {
+    "line": 162,
+    "field": "hint",
+    "english": "This conjunction means 'in case' or 'if (uncertain)'. It introduces a possibility."
+  },
+  {
+    "line": 163,
+    "field": "hint",
+    "english": "Which conjunction marks the starting point of an ongoing situation?"
+  },
+  {
+    "line": 163,
+    "field": "sSrc",
+    "english": "Since I've been living in Germany, I need a residence permit."
+  },
+  {
+    "line": 169,
+    "field": "hint",
+    "english": "One option uses a subordinating conjunction in a single sentence. The other uses a standalone adverb in position 1 of a new sentence."
+  },
+  {
+    "line": 170,
+    "field": "src",
+    "english": "to expire / to run out"
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Separable: läuft ab. Past: ist abgelaufen. Used for deadlines, visas, and time limits."
+  },
+  {
+    "line": 170,
+    "field": "exampleSrc",
+    "english": "A: When does my visa expire?\\nB: In three months.\\nA: So soon? I need to submit an application.\\nB: Yes, before it expires."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "'Ablaufen' literally means 'to run off' (ab = away, laufen = to run). Time runs away when a deadline expires. The same verb describes water draining from a sink."
+  },
+  {
+    "line": 171,
+    "field": "hint",
+    "english": "Which conjunction means 'before'? The verb goes to the end of the subordinate clause."
+  },
+  {
+    "line": 171,
+    "field": "sSrc",
+    "english": "Before the deadline expires, the application must be submitted."
+  },
+  {
+    "line": 172,
+    "field": "src",
+    "english": "Verumius sits across from the officer. She has opened his folder. Before she asks a question, she briefly looks at each document. Since he entered the room, she has not smiled once."
+  },
+  {
+    "line": 173,
+    "field": "hint",
+    "english": "Which conjunction expresses purpose: 'so that' something can happen?"
+  },
+  {
+    "line": 176,
+    "field": "desc",
+    "english": "The clerk checks every document. Verumius waits. Passive with modal verbs and subordinate clauses in practice. Bureaucracy live."
+  },
+  {
+    "line": 177,
+    "field": "unknown",
+    "english": "Practice passive with modal verbs in a government office dialogue"
+  },
+  {
+    "line": 178,
+    "field": "unknown",
+    "english": "Combine conjunctions with complex grammar"
+  },
+  {
+    "line": 179,
+    "field": "unknown",
+    "english": "Navigate a document check at the government office"
+  },
+  {
+    "line": 181,
+    "field": "src",
+    "english": "Good day. Please take a seat. I must first check all documents before we can process the application."
+  },
+  {
+    "line": 182,
+    "field": "src",
+    "english": "Good day. Here are all documents, including the birth certificate and the registration confirmation."
+  },
+  {
+    "line": 183,
+    "field": "src",
+    "english": "The officer takes the folder without looking up. On her desk sits a stamp. Verumius stares at it. That stamp decides whether he is allowed to stay."
+  },
+  {
+    "line": 184,
+    "field": "src",
+    "english": "the civil servant (female)"
+  },
+  {
+    "line": 184,
+    "field": "note",
+    "english": "Feminine form of Beamter. Civil servants in Germany\\nhave lifelong job security and their own pension system."
+  },
+  {
+    "line": 184,
+    "field": "exampleSrc",
+    "english": "A: The civil servant is checking your documents.\\nB: How long will that take?\\nA: The civil servant works thoroughly, it takes a while.\\nB: I'll wait patiently."
+  },
+  {
+    "line": 184,
+    "field": "funFact",
+    "english": "In Germany, Beamte have special status: job security for life, their own pension system, no right to strike. The person behind the desk at the Behörde is almost always a Beamter or Beamtin."
+  },
+  {
+    "line": 185,
+    "field": "src",
+    "english": "the asylum"
+  },
+  {
+    "line": 185,
+    "field": "note",
+    "english": "From Greek 'asylon' (sanctuary). Political asylum.\\nGuaranteed in Germany's Grundgesetz, Article 16a."
+  },
+  {
+    "line": 185,
+    "field": "exampleSrc",
+    "english": "A: What does asylum mean?\\nB: Asylum is protection for politically persecuted people.\\nA: Is the right to asylum in the constitution?\\nB: Yes, in Article 16a."
+  },
+  {
+    "line": 185,
+    "field": "funFact",
+    "english": "Das Asylrecht (right to asylum) is guaranteed in Germany's Grundgesetz, Article 16a. The word comes from Greek 'asylon' (sanctuary). A foundational principle of German democracy."
+  },
+  {
+    "line": 186,
+    "field": "src",
+    "english": "the birth"
+  },
+  {
+    "line": 186,
+    "field": "note",
+    "english": "From 'gebären' (to give birth). Root of many compounds:\\nGeburtsurkunde, Geburtsort, Geburtsdatum."
+  },
+  {
+    "line": 186,
+    "field": "exampleSrc",
+    "english": "A: What is your date of birth?\\nB: May 15, 1990.\\nA: And your place of birth?\\nB: Athens, Greece."
+  },
+  {
+    "line": 186,
+    "field": "funFact",
+    "english": "One root word, many compounds: die Geburtsurkunde (birth certificate), der Geburtsort (birthplace), das Geburtsdatum (date of birth). German builds precise meaning by combining words."
+  },
+  {
+    "line": 187,
+    "field": "src",
+    "english": "the pregnancy"
+  },
+  {
+    "line": 187,
+    "field": "note",
+    "english": "Schwanger (pregnant) + -schaft (state of).\\nTriggers special protections: Mutterschutz, Kündigungsschutz."
+  },
+  {
+    "line": 187,
+    "field": "exampleSrc",
+    "english": "A: Are there special regulations for pregnancy?\\nB: Yes, pregnancy means special protection.\\nA: Maternity protection and termination protection?\\nB: Exactly, both are guaranteed by law."
+  },
+  {
+    "line": 187,
+    "field": "funFact",
+    "english": "In Germany, Schwangerschaft triggers special protections: Mutterschutz (maternity protection), Kündigungsschutz (termination protection). The Behörde tracks this information."
+  },
+  {
+    "line": 188,
+    "field": "src",
+    "english": "the resident, the inhabitant (male)"
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Ein- (in) + Wohner (dweller). Die Einwohnerin = female.\\nDifferent from Bürger (citizen): Einwohner includes everyone."
+  },
+  {
+    "line": 188,
+    "field": "exampleSrc",
+    "english": "A: How many inhabitants does Berlin have?\\nB: About 3.7 million inhabitants.\\nA: Am I also a resident now?\\nB: Yes, with the registration you are officially a resident."
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "Different from Bürger (citizen): Einwohner includes everyone who lives there, regardless of citizenship. Das Einwohnermeldeamt is where you register."
+  },
+  {
+    "line": 189,
+    "field": "src",
+    "english": "the camp, the warehouse"
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "From 'lagern' (to store/camp). In immigration context:\\nErstaufnahmelager = initial reception camp."
+  },
+  {
+    "line": 189,
+    "field": "exampleSrc",
+    "english": "A: What is an initial reception camp?\\nB: A camp for new asylum seekers.\\nA: How long does one stay there?\\nB: Until a place in an apartment becomes available."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "Historically loaded word in German. In immigration context: Erstaufnahmelager (initial reception camp). Modern usage is primarily logistical. The word simply means a place where things or people are stored/housed."
+  },
+  {
+    "line": 190,
+    "field": "src",
+    "english": "the consulate"
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "Handles visas and documents for citizens abroad.\\nEvery large city has consulates of many countries."
+  },
+  {
+    "line": 190,
+    "field": "exampleSrc",
+    "english": "A: Do I need a certificate from the consulate?\\nB: Yes, the consulate of your home country must issue that.\\nA: Where is the Greek consulate?\\nB: On Wittenbergplatz Street."
+  },
+  {
+    "line": 190,
+    "field": "funFact",
+    "english": "Das Konsulat handles visas and documents for citizens abroad. Die Botschaft (embassy) handles diplomatic relations. Every country has a Botschaft in Berlin. Botschaft also means 'message' in everyday German."
+  },
+  {
+    "line": 191,
+    "field": "src",
+    "english": "the embassy, the message"
+  },
+  {
+    "line": 191,
+    "field": "note",
+    "english": "Two meanings: embassy (diplomatic) and message (everyday).\\n'Die griechische Botschaft in Berlin.'"
+  },
+  {
+    "line": 191,
+    "field": "exampleSrc",
+    "english": "A: I need to go to the embassy.\\nB: To the Greek embassy?\\nA: Yes, for a document.\\nB: The embassy is in Charlottenburg."
+  },
+  {
+    "line": 191,
+    "field": "funFact",
+    "english": "Botschaft means both 'embassy' and 'message.' 'Die Botschaft des Botschafters' could mean 'the message of the ambassador' or 'the embassy of the ambassador.' Context makes it clear."
+  },
+  {
+    "line": 192,
+    "field": "src",
+    "english": "to exclude, to rule out"
+  },
+  {
+    "line": 192,
+    "field": "note",
+    "english": "Aus- (out) + schließen (to close). To close out, exclude.\\n'Das kann nicht ausgeschlossen werden.'"
+  },
+  {
+    "line": 192,
+    "field": "exampleSrc",
+    "english": "A: Can an error be ruled out?\\nB: No, errors can never be completely ruled out.\\nA: What do we do if an error comes up?\\nB: Then we correct it immediately."
+  },
+  {
+    "line": 192,
+    "field": "funFact",
+    "english": "In legal German: possibilities are ausgeschlossen (ruled out) or not. 'Das kann nicht ausgeschlossen werden' is a careful bureaucratic way of saying 'it's possible.'"
+  },
+  {
+    "line": 193,
+    "field": "src",
+    "english": "to receive (formal)"
+  },
+  {
+    "line": 193,
+    "field": "note",
+    "english": "Emp- + fangen (to catch). Higher register than bekommen\\nor erhalten. Used in official correspondence."
+  },
+  {
+    "line": 193,
+    "field": "exampleSrc",
+    "english": "A: Have you received the decision?\\nB: Yes, I received it yesterday.\\nA: Good, then we can proceed.\\nB: I also received the confirmation."
+  },
+  {
+    "line": 193,
+    "field": "funFact",
+    "english": "Higher register than bekommen or erhalten. 'Den Bescheid empfangen.' Used in official correspondence. The word literally means 'to catch toward' (emp- + fangen)."
+  },
+  {
+    "line": 194,
+    "field": "src",
+    "english": "to integrate"
+  },
+  {
+    "line": 194,
+    "field": "note",
+    "english": "From Latin 'integrare' (to make whole).\\n'Sich in die Gesellschaft integrieren.'"
+  },
+  {
+    "line": 194,
+    "field": "exampleSrc",
+    "english": "A: Have you integrated well?\\nB: Yes, I learned German and work here.\\nA: That is exemplary.\\nB: It wasn't always easy, but it was worth it."
+  },
+  {
+    "line": 194,
+    "field": "funFact",
+    "english": "Germany expects active integration: language courses, civic knowledge, cultural participation. 'Sich in die Gesellschaft integrieren' is the official phrase."
+  },
+  {
+    "line": 195,
+    "field": "src",
+    "english": "illegal"
+  },
+  {
+    "line": 195,
+    "field": "note",
+    "english": "Same in English. Il- (not) + legal. 'Illegaler Aufenthalt.'\\nThe term 'irregulärer Aufenthalt' is increasingly preferred."
+  },
+  {
+    "line": 195,
+    "field": "exampleSrc",
+    "english": "A: Is it illegal to work without a visa?\\nB: Yes, that is illegal.\\nA: What happens then?\\nB: There are heavy penalties and consequences for the residence status."
+  },
+  {
+    "line": 195,
+    "field": "funFact",
+    "english": "'Illegaler Aufenthalt' = illegal stay. In German legal language, the term 'irregulärer Aufenthalt' is increasingly preferred. Both are used in official contexts."
+  },
+  {
+    "line": 196,
+    "field": "src",
+    "english": "right, correct (adjective)"
+  },
+  {
+    "line": 196,
+    "field": "note",
+    "english": "As adjective: right, correct. 'Das ist recht.'\\nDifferent from 'Recht' (noun) and 'rechts' (to the right)."
+  },
+  {
+    "line": 196,
+    "field": "exampleSrc",
+    "english": "A: Is that correct like this?\\nB: Yes, that is exactly right.\\nA: Did you understand correctly?\\nB: I believe I did everything correctly."
+  },
+  {
+    "line": 196,
+    "field": "funFact",
+    "english": "Three forms, three meanings: 'recht' (adjective: correct), 'Recht' (noun: law/right), 'rechts' (adverb: to the right). Context determines which meaning applies."
+  },
+  {
+    "line": 197,
+    "field": "src",
+    "english": "accessible"
+  },
+  {
+    "line": 197,
+    "field": "note",
+    "english": "Zu- (to) + Gang (way) + -lich. Available, accessible.\\n'Die Informationen sind öffentlich zugänglich.'"
+  },
+  {
+    "line": 197,
+    "field": "exampleSrc",
+    "english": "A: Are the forms accessible online?\\nB: Yes, all forms are accessible online.\\nA: Good, then I can prepare.\\nB: The authority's website is very accessible."
+  },
+  {
+    "line": 197,
+    "field": "funFact",
+    "english": "Related to Zugang (access). In bureaucracy: services should be zugänglich for everyone. 'Die Informationen sind öffentlich zugänglich' = the information is publicly accessible."
+  },
+  {
+    "line": 198,
+    "field": "src",
+    "english": "The birth certificate must be certified. Did you bring the original, or only a copy? We had agreed that all originals must be included."
+  },
+  {
+    "line": 199,
+    "field": "src",
+    "english": "Yes, the original is here. Hildi insisted that I copy everything in triplicate and sort the originals separately. Here, please."
+  },
+  {
+    "line": 200,
+    "field": "src",
+    "english": "Hmm. Very neat. You do not see that often. The registration certificate, the employment contract, the health insurance. All complete. I will still verify the birth certificate with the consulate."
+  },
+  {
+    "line": 206,
+    "field": "hint",
+    "english": "Beglaubigt means certified/authenticated. Muss...werden means it must be done."
+  },
+  {
+    "line": 210,
+    "field": "hint",
+    "english": "Which conjunction means 'after'? The application can only be processed after everything is complete."
+  },
+  {
+    "line": 210,
+    "field": "sSrc",
+    "english": "The application can only be processed after all documents are complete."
+  },
+  {
+    "line": 216,
+    "field": "hint",
+    "english": "The conditional clause sends its verb to the end. After the comma, the main clause uses standard V2 word order."
+  },
+  {
+    "line": 217,
+    "field": "hint",
+    "english": "First blank: the reporting connector after 'sagt'. Second blank: the modal pushed to the end of that clause. Third blank: the time connector for the fee condition."
+  },
+  {
+    "line": 217,
+    "field": "sSrc",
+    "english": "The officer says that the application can only be approved after all fees are paid."
+  },
+  {
+    "line": 218,
+    "field": "src",
+    "english": "The officer flips through the last page. She puts the folder down, folds her hands, and looks at Verumius. He holds his breath. The verdict is about to come."
+  },
+  {
+    "line": 224,
+    "field": "hint",
+    "english": "Vorläufig means temporary. Falls means in case. He wants a provisional solution."
+  },
+  {
+    "line": 227,
+    "field": "desc",
+    "english": "Money and mail: two pillars of German daily life. Cash, bank transfers, mailboxes, and registered letters. Plus: family words for official forms."
+  },
+  {
+    "line": 228,
+    "field": "unknown",
+    "english": "Learn banking and postal vocabulary"
+  },
+  {
+    "line": 229,
+    "field": "unknown",
+    "english": "Describe family relationships"
+  },
+  {
+    "line": 230,
+    "field": "unknown",
+    "english": "Master compound nouns for financial and postal services"
+  },
+  {
+    "line": 232,
+    "field": "src",
+    "english": "The officer types something into the computer. 'Please transfer the fee to the following bank details. You will receive the confirmation by registered mail.' Verumius nods. Banking German. Another language he must learn."
+  },
+  {
+    "line": 233,
+    "field": "src",
+    "english": "the cash"
+  },
+  {
+    "line": 233,
+    "field": "note",
+    "english": "Bar (cash/bare) + Geld (money). Cash money.\\nGermany is one of the most cash-loving countries in Europe."
+  },
+  {
+    "line": 233,
+    "field": "exampleSrc",
+    "english": "A: Can I pay by card?\\nB: No, we only accept cash.\\nA: Where is the nearest ATM?\\nB: Right around the corner."
+  },
+  {
+    "line": 233,
+    "field": "funFact",
+    "english": "Germany is one of the most cash-loving countries in Europe. Many shops still do not accept cards. 'Bargeld abheben' = to withdraw cash. The word combines 'bar' (cash) + 'Geld' (money)."
+  },
+  {
+    "line": 234,
+    "field": "src",
+    "english": "the checking account"
+  },
+  {
+    "line": 234,
+    "field": "note",
+    "english": "Giro (from Italian 'giro,' circulation) + Konto (account).\\nEvery resident needs one. No Girokonto = no rent, no salary."
+  },
+  {
+    "line": 234,
+    "field": "exampleSrc",
+    "english": "A: Do you have a checking account in Germany?\\nB: Yes, at the savings bank.\\nA: Good, nothing works without a checking account.\\nB: I learned that quickly."
+  },
+  {
+    "line": 234,
+    "field": "funFact",
+    "english": "Every resident needs a Girokonto. Without it: no rent payment, no salary, no insurance. The Anmeldung enables the Girokonto. The word comes from Italian 'giro' (circulation)."
+  },
+  {
+    "line": 235,
+    "field": "src",
+    "english": "the bank transfer"
+  },
+  {
+    "line": 235,
+    "field": "note",
+    "english": "Über (over) + Weisung (direction). Germans pay rent, bills,\\nand each other by Überweisung. IBAN is essential."
+  },
+  {
+    "line": 235,
+    "field": "exampleSrc",
+    "english": "A: How do I pay the rent?\\nB: By bank transfer.\\nA: Do I need the IBAN for that?\\nB: Yes, the landlord's IBAN."
+  },
+  {
+    "line": 235,
+    "field": "funFact",
+    "english": "Germans pay rent, bills, and each other by Überweisung. 'Können Sie mir die IBAN für die Überweisung geben?' is everyday banking German."
+  },
+  {
+    "line": 236,
+    "field": "src",
+    "english": "the deposit"
+  },
+  {
+    "line": 236,
+    "field": "note",
+    "english": "Ein- (in) + Zahlung (payment). A deposit into an account.\\nOpposite: Auszahlung (withdrawal). Ein = in, Aus = out."
+  },
+  {
+    "line": 236,
+    "field": "exampleSrc",
+    "english": "A: I would like to make a deposit.\\nB: How much would you like to deposit?\\nA: 500 euros.\\nB: In cash or by transfer?"
+  },
+  {
+    "line": 236,
+    "field": "funFact",
+    "english": "The opposite of Einzahlung is Auszahlung (withdrawal). Ein = in, Aus = out. Simple German logic for banking transactions."
+  },
+  {
+    "line": 237,
+    "field": "src",
+    "english": "to arrange, to agree on"
+  },
+  {
+    "line": 237,
+    "field": "note",
+    "english": "Separable: ab + machen. 'Wir haben einen Termin abgemacht.'\\nAlso: etwas abmachen = to take something off."
+  },
+  {
+    "line": 237,
+    "field": "exampleSrc",
+    "english": "A: We had agreed that all originals must be included.\\nB: I am sorry, I forgot.\\nA: Please arrange a new appointment.\\nB: Yes, I will call tomorrow."
+  },
+  {
+    "line": 237,
+    "field": "funFact",
+    "english": "Abmachen has two meanings: to agree/arrange (einen Termin abmachen) and to remove (ein Etikett abmachen). Context makes the meaning clear. Abgemacht! means Deal! or Agreed!"
+  },
+  {
+    "line": 238,
+    "field": "src",
+    "english": "the receipt, the proof"
+  },
+  {
+    "line": 238,
+    "field": "note",
+    "english": "From belegen (to prove/document).\\nKassenbeleg = receipt. Beleg vorlegen = to present proof."
+  },
+  {
+    "line": 238,
+    "field": "exampleSrc",
+    "english": "A: Do you have the receipt?\\nB: Yes, here is the receipt.\\nA: Please keep all receipts.\\nB: For the tax return?"
+  },
+  {
+    "line": 238,
+    "field": "funFact",
+    "english": "Germans keep Belege for everything. Kassenbeleg (cash register receipt), Überweisungsbeleg (transfer receipt). Ohne Beleg kein Beweis (without receipt, no proof) is a German tax motto."
+  },
+  {
+    "line": 239,
+    "field": "src",
+    "english": "the debit card"
+  },
+  {
+    "line": 239,
+    "field": "note",
+    "english": "EC = Electronic Cash. The standard German debit card.\\nNow officially called girocard, but everyone says EC-Karte."
+  },
+  {
+    "line": 239,
+    "field": "exampleSrc",
+    "english": "A: Can I pay with a debit card?\\nB: Yes, from five euros.\\nA: Where is my debit card?\\nB: Maybe in the wallet?"
+  },
+  {
+    "line": 239,
+    "field": "funFact",
+    "english": "The EC-Karte was renamed girocard in 2007, but nobody uses the new name. Kreditkarte (credit card) is less common in Germany. Cash and EC-Karte dominate daily payments."
+  },
+  {
+    "line": 240,
+    "field": "src",
+    "english": "to deposit (money)"
+  },
+  {
+    "line": 240,
+    "field": "note",
+    "english": "Separable: ein + zahlen. Opposite: abheben (to withdraw).\\nGeld einzahlen = to deposit money."
+  },
+  {
+    "line": 240,
+    "field": "exampleSrc",
+    "english": "A: I would like to deposit 200 euros.\\nB: In cash or by transfer?\\nA: In cash, please.\\nB: Please put the money in the machine."
+  },
+  {
+    "line": 240,
+    "field": "funFact",
+    "english": "Ein (in) + zahlen (to pay). Money goes IN. The opposite is abheben (to lift off/withdraw). Simple German logic: ein = in, ab = off/away."
+  },
+  {
+    "line": 241,
+    "field": "src",
+    "english": "the amount (of money)"
+  },
+  {
+    "line": 241,
+    "field": "note",
+    "english": "From 'betragen' (to amount to). 'Der Betrag beträgt 35 Euro.'\\nYes, Betrag and betragen look almost the same."
+  },
+  {
+    "line": 241,
+    "field": "exampleSrc",
+    "english": "A: What amount would you like to transfer?\\nB: The amount of 100 euros.\\nA: The amount has been transferred.\\nB: Thanks, I can see the confirmation."
+  },
+  {
+    "line": 241,
+    "field": "funFact",
+    "english": "'Der Betrag beträgt 35 Euro.' Yes, Betrag (noun: amount) and betragen (verb: to amount to) look almost the same. The noun is the amount, the verb means 'to amount to.'"
+  },
+  {
+    "line": 242,
+    "field": "src",
+    "english": "the interest (financial)"
+  },
+  {
+    "line": 242,
+    "field": "note",
+    "english": "From Latin 'census' (tax). Die Zinsen (plural) = interest rates.\\n'Wie hoch sind die Zinsen?'"
+  },
+  {
+    "line": 242,
+    "field": "exampleSrc",
+    "english": "A: How high are the interest rates on the checking account?\\nB: The interest rates are currently very low.\\nA: Almost zero percent?\\nB: Yes, interest rates were negative for years."
+  },
+  {
+    "line": 242,
+    "field": "funFact",
+    "english": "Germany had negative Zinsen for years. The concept is central to Girokonto discussions. Die Zinsen (plural) = interest rates. The word comes from Latin 'census' (tax)."
+  },
+  {
+    "line": 243,
+    "field": "src",
+    "english": "the ATM"
+  },
+  {
+    "line": 243,
+    "field": "note",
+    "english": "Geld (money) + Automat (machine). ATM.\\nAustria says Bankomat, Switzerland says Bancomat."
+  },
+  {
+    "line": 243,
+    "field": "exampleSrc",
+    "english": "A: Where is the nearest ATM?\\nB: Across the street, at the savings bank.\\nA: Can I also deposit money there?\\nB: Yes, this ATM handles both."
+  },
+  {
+    "line": 243,
+    "field": "funFact",
+    "english": "Austria says Bankomat, Switzerland says Bancomat, Germany says Geldautomat. Three countries, three words, one machine. The gender comes from 'der Automat.'"
+  },
+  {
+    "line": 244,
+    "field": "src",
+    "english": "the bank routing number"
+  },
+  {
+    "line": 244,
+    "field": "note",
+    "english": "Bank + Leit- (routing) + Zahl (number). Being replaced by IBAN.\\nOlder forms still ask for it."
+  },
+  {
+    "line": 244,
+    "field": "exampleSrc",
+    "english": "A: What is your bank routing number?\\nB: 10050000. But today we use the IBAN.\\nA: True, the IBAN is international.\\nB: The routing number is only for old forms."
+  },
+  {
+    "line": 244,
+    "field": "funFact",
+    "english": "Being replaced by IBAN in Europe, but older forms still ask for it. The gender comes from the last element: die Zahl. This is the rule for all German compound nouns."
+  },
+  {
+    "line": 245,
+    "field": "src",
+    "english": "the mailbox"
+  },
+  {
+    "line": 245,
+    "field": "note",
+    "english": "Brief (letter) + Kasten (box). Yellow in Germany (Deutsche Post).\\nLeerungszeiten (collection times) posted on front."
+  },
+  {
+    "line": 245,
+    "field": "exampleSrc",
+    "english": "A: Where is the nearest mailbox?\\nB: At the end of the street, the yellow box.\\nA: When is it emptied?\\nB: Every day at 5 PM."
+  },
+  {
+    "line": 245,
+    "field": "funFact",
+    "english": "Yellow in Germany (Deutsche Post). Every German neighborhood has one. Leerungszeiten (collection times) are posted on the front. Brief (letter) + Kasten (box) = mailbox."
+  },
+  {
+    "line": 246,
+    "field": "src",
+    "english": "the envelope"
+  },
+  {
+    "line": 246,
+    "field": "note",
+    "english": "Brief (letter) + Umschlag (envelope, literally 'turn-around').\\nGerman has precise postal vocabulary."
+  },
+  {
+    "line": 246,
+    "field": "exampleSrc",
+    "english": "A: Do you have an envelope?\\nB: Yes, here. What size do you need?\\nA: A large envelope for the documents.\\nB: A4? Here you go."
+  },
+  {
+    "line": 246,
+    "field": "funFact",
+    "english": "'Umschlag' literally means 'turn-around,' because you fold paper around the letter. German has some of the most precise postal vocabulary of any language."
+  },
+  {
+    "line": 247,
+    "field": "src",
+    "english": "the mail carrier (male)"
+  },
+  {
+    "line": 247,
+    "field": "note",
+    "english": "Brief (letter) + Träger (carrier). Die Briefträgerin = female.\\nGerman mail delivery is remarkably punctual."
+  },
+  {
+    "line": 247,
+    "field": "exampleSrc",
+    "english": "A: When does the mail carrier come?\\nB: Every day around ten o'clock.\\nA: Also on Saturday?\\nB: Yes, but not on Sunday."
+  },
+  {
+    "line": 247,
+    "field": "funFact",
+    "english": "In Germany, mail delivery is remarkably punctual. You can almost set your clock by the Briefträger. Der Briefträger, die Briefträgerin. Brief (letter) + Träger (carrier)."
+  },
+  {
+    "line": 248,
+    "field": "src",
+    "english": "the registered mail"
+  },
+  {
+    "line": 248,
+    "field": "note",
+    "english": "Ein- (in) + schreiben (to write). Registered mail with proof.\\n'Per Einschreiben schicken' for important documents."
+  },
+  {
+    "line": 248,
+    "field": "exampleSrc",
+    "english": "A: How should I send the application?\\nB: By registered mail.\\nA: Why by registered mail?\\nB: Because then you have proof that it arrived."
+  },
+  {
+    "line": 248,
+    "field": "funFact",
+    "english": "For anything important (Kündigung, Antrag, Beschwerde), Germans use Einschreiben. Proof of delivery. 'Per Einschreiben schicken' is the safest way to send official documents."
+  },
+  {
+    "line": 249,
+    "field": "src",
+    "english": "the cousin (male)"
+  },
+  {
+    "line": 249,
+    "field": "note",
+    "english": "From French. Pronounced koo-ZAN. Die Cousine = female.\\nGerman borrowed these because Vetter/Base became outdated."
+  },
+  {
+    "line": 249,
+    "field": "exampleSrc",
+    "english": "A: Do you have relatives in Germany?\\nB: Yes, my cousin lives in Munich.\\nA: And your female cousin?\\nB: She lives in Hamburg."
+  },
+  {
+    "line": 249,
+    "field": "funFact",
+    "english": "Pronounced the French way in German: koo-ZAN (Cousin), koo-ZEE-neh (Cousine). German borrowed these because the old Germanic words (Vetter/Base) became outdated."
+  },
+  {
+    "line": 250,
+    "field": "src",
+    "english": "the nephew"
+  },
+  {
+    "line": 250,
+    "field": "note",
+    "english": "From Latin 'nepos' (grandson, then nephew). Your sibling's son.\\nSame root as English 'nephew' and 'nepotism.'"
+  },
+  {
+    "line": 250,
+    "field": "exampleSrc",
+    "english": "A: Who is the boy?\\nB: That's my nephew, my sister's son.\\nA: And the girl?\\nB: That's my niece."
+  },
+  {
+    "line": 250,
+    "field": "funFact",
+    "english": "Same root as English 'nephew' and the word 'nepotism' (favoring your nephews). From Latin 'nepos' (grandson, then nephew)."
+  },
+  {
+    "line": 251,
+    "field": "src",
+    "english": "the niece"
+  },
+  {
+    "line": 251,
+    "field": "note",
+    "english": "Your sibling's daughter. Die Nichte.\\nNot related to 'nicht' (not), despite the similar spelling."
+  },
+  {
+    "line": 251,
+    "field": "exampleSrc",
+    "english": "A: Is that your niece?\\nB: Yes, my brother's daughter.\\nA: She looks like you.\\nB: Everyone says that."
+  },
+  {
+    "line": 251,
+    "field": "funFact",
+    "english": "Not related to 'nicht' (not), despite the similar appearance. Die Nichte is your sibling's daughter. The word has its own Latin etymology."
+  },
+  {
+    "line": 252,
+    "field": "src",
+    "english": "the uncle"
+  },
+  {
+    "line": 252,
+    "field": "note",
+    "english": "From French 'oncle,' from Latin 'avunculus.'\\nAlso used affectionately: 'Onkel' + first name for close friends."
+  },
+  {
+    "line": 252,
+    "field": "exampleSrc",
+    "english": "A: My uncle is coming to visit.\\nB: From Germany?\\nA: No, from Greece.\\nB: Nice that he's visiting you."
+  },
+  {
+    "line": 252,
+    "field": "funFact",
+    "english": "Every German child calls friendly adult men 'Onkel' even if they are not related. 'Onkel' + first name = affectionate address. From French 'oncle,' from Latin 'avunculus.'"
+  },
+  {
+    "line": 253,
+    "field": "text",
+    "english": "German builds banking vocabulary by combining words into compounds:\\n\\n- Geld and Automat become Geldautomat (ATM)\\n- Bank, Leit, and Zahl become Bankleitzahl (bank routing number)\\n- Über and Weisung become Überweisung (bank transfer)\\n\\nThe gender always comes from the LAST element:\\n- der Automat is masculine, so der Geldautomat is also masculine.\\n- die Zahl is feminine, so die Bankleitzahl is also feminine.\\n- die Weisung is feminine, so die Überweisung is also feminine.\\n\\nMaster this rule and you can decode any compound noun.\\n\\nBonus: der Beleg (receipt). After every Einzahlung or Überweisung,\\nyou get a Beleg as proof. Der Beleg ist Ihre Bestätigung."
+  },
+  {
+    "line": 253,
+    "field": "deepDive",
+    "english": "This rule is universal in German. No exceptions. Die Tasche is feminine, so die Brieftasche is also feminine. Der Kasten is masculine, so der Briefkasten is also masculine. Das Konto is neuter, so das Girokonto is also neuter. The last word always determines the gender."
+  },
+  {
+    "line": 254,
+    "field": "hint",
+    "english": "Abheben means to withdraw. Which machine gives you Bargeld?"
+  },
+  {
+    "line": 255,
+    "field": "hint",
+    "english": "Important documents need proof of delivery. Which postal service provides that?"
+  },
+  {
+    "line": 256,
+    "field": "hint",
+    "english": "Your sister's son is a specific family relationship. Which option names a sibling's male child?"
+  },
+  {
+    "line": 256,
+    "field": "sSrc",
+    "english": "My sister's son is my nephew."
+  },
+  {
+    "line": 264,
+    "field": "src",
+    "english": "to execute / to carry out"
+  },
+  {
+    "line": 264,
+    "field": "note",
+    "english": "Separable: führt aus. Past: ausgeführt. Formal; used for orders, transfers, tasks."
+  },
+  {
+    "line": 264,
+    "field": "exampleSrc",
+    "english": "A: When will the transfer be executed?\\nB: Within three days.\\nA: And if it takes longer?\\nB: Then you can lodge a complaint."
+  },
+  {
+    "line": 264,
+    "field": "funFact",
+    "english": "'Ausführen' literally means 'to lead out' (aus = out, führen = to lead). In banking it means executing a transfer. The same verb is also used for walking a dog: 'den Hund ausführen.'"
+  },
+  {
+    "line": 265,
+    "field": "hint",
+    "english": "Three blanks: the obligation modal, then the past participle of 'ausführen', then the passive auxiliary at the end."
+  },
+  {
+    "line": 265,
+    "field": "sSrc",
+    "english": "The transfer must be executed within three days."
+  },
+  {
+    "line": 266,
+    "field": "src",
+    "english": "Verumius stands in the hallway staring at the slip with the bank details. IBAN, BIC, payment reference. He must transfer the fee before the deadline expires. Then it is waiting. For the letter. By registered mail. Of course."
+  },
+  {
+    "line": 269,
+    "field": "desc",
+    "english": "Everything from Unit 19 under review. Passive with modal verbs, conjunctions, bureaucracy, banking, family. Show what you can do."
+  },
+  {
+    "line": 270,
+    "field": "unknown",
+    "english": "Test passive with modal verbs and conjunctions"
+  },
+  {
+    "line": 271,
+    "field": "unknown",
+    "english": "Prove your government office and banking vocabulary"
+  },
+  {
+    "line": 272,
+    "field": "unknown",
+    "english": "Combine multiple grammar structures in complex sentences"
+  },
+  {
+    "line": 274,
+    "field": "src",
+    "english": "Two weeks later. Verumius sits at the kitchen table. The transfer is done, the confirmation arrived by mail. Now he waits for the final decision. KD said: 'Presumably six weeks.' Six weeks. He uses the time to go through everything one more time."
+  },
+  {
+    "line": 275,
+    "field": "src",
+    "english": "the grandson, the grandchild"
+  },
+  {
+    "line": 275,
+    "field": "note",
+    "english": "From Old High German 'eninchili' (little grandfather).\\nDie Enkelin = granddaughter. Originally 'little ancestor.'"
+  },
+  {
+    "line": 275,
+    "field": "exampleSrc",
+    "english": "A: Do you have grandchildren?\\nB: Yes, two grandsons and one granddaughter.\\nA: How old are they?\\nB: The grandson is five, the granddaughter is three."
+  },
+  {
+    "line": 275,
+    "field": "funFact",
+    "english": "The word originally meant 'little ancestor' because grandchildren resemble grandparents. Der Enkel (grandson), die Enkelin (granddaughter). From Old High German 'eninchili.'"
+  },
+  {
+    "line": 276,
+    "field": "src",
+    "english": "the relative, the family member"
+  },
+  {
+    "line": 276,
+    "field": "note",
+    "english": "An- (to) + gehören (to belong) + -ige. Family member.\\n'Nächste Angehörige' = next of kin on official forms."
+  },
+  {
+    "line": 276,
+    "field": "exampleSrc",
+    "english": "A: Who are your next of kin?\\nB: My sister and my uncle.\\nA: Name and phone number please.\\nB: Maria, 0170-1234567."
+  },
+  {
+    "line": 276,
+    "field": "funFact",
+    "english": "'Nächste Angehörige' = next of kin. On official forms, this field asks who should be contacted in emergencies. The word means 'those who belong to you.'"
+  },
+  {
+    "line": 277,
+    "field": "src",
+    "english": "related (by family)"
+  },
+  {
+    "line": 277,
+    "field": "note",
+    "english": "'Wir sind verwandt' = We are related.\\nDie Verwandtschaft = the relatives (collectively)."
+  },
+  {
+    "line": 277,
+    "field": "exampleSrc",
+    "english": "A: Are you related to Mr. Müller?\\nB: Yes, he is my uncle.\\nA: Do you have more relatives in Berlin?\\nB: Yes, the whole family lives here."
+  },
+  {
+    "line": 277,
+    "field": "funFact",
+    "english": "Germans take Verwandtschaft seriously at holidays. Die Verwandtschaft = the relatives (collectively). 'Wir sind verwandt' = we are related."
+  },
+  {
+    "line": 278,
+    "field": "src",
+    "english": "at the latest"
+  },
+  {
+    "line": 278,
+    "field": "note",
+    "english": "Superlative of 'spät' (late) + -ens. Absolute deadline.\\n'Spätestens am Freitag' = by Friday at the latest."
+  },
+  {
+    "line": 278,
+    "field": "exampleSrc",
+    "english": "A: When must the application be submitted?\\nB: By March 15th at the latest.\\nA: And if I'm too late?\\nB: Then the application will no longer be processed."
+  },
+  {
+    "line": 278,
+    "field": "funFact",
+    "english": "The word bureaucrats use to set absolute deadlines. No flexibility after spätestens. 'Spätestens am Freitag' means there is absolutely no extension beyond Friday."
+  },
+  {
+    "line": 279,
+    "field": "src",
+    "english": "exclusively"
+  },
+  {
+    "line": 279,
+    "field": "note",
+    "english": "Aus- + schließlich (finally). Only this, nothing else.\\n'Ausschließlich mit Termin' = by appointment only."
+  },
+  {
+    "line": 279,
+    "field": "exampleSrc",
+    "english": "A: Can I come without an appointment?\\nB: No, by appointment only.\\nA: And online?\\nB: The service is exclusively in person."
+  },
+  {
+    "line": 279,
+    "field": "funFact",
+    "english": "The Behörde loves this word. It means 'only this, nothing else.' 'Ausschließlich mit Termin' = by appointment only. No exceptions."
+  },
+  {
+    "line": 280,
+    "field": "src",
+    "english": "instead of"
+  },
+  {
+    "line": 280,
+    "field": "note",
+    "english": "Short for 'anstatt.' Preposition with genitive.\\n'Statt einer Kopie brauchen wir das Original.'"
+  },
+  {
+    "line": 280,
+    "field": "exampleSrc",
+    "english": "A: Can I bring a copy?\\nB: No, instead of a copy we need the original.\\nA: Instead of a transfer, can I pay cash?\\nB: Yes, that works too."
+  },
+  {
+    "line": 280,
+    "field": "funFact",
+    "english": "Short for 'anstatt' (instead of). Takes genitive. 'Statt einer Kopie brauchen wir das Original.' Also used in 'statt...zu' (instead of doing)."
+  },
+  {
+    "line": 281,
+    "field": "src",
+    "english": "despite"
+  },
+  {
+    "line": 281,
+    "field": "note",
+    "english": "Preposition with genitive. 'Trotz aller Schwierigkeiten.'\\nRelated to trotzdem (adverb: nevertheless)."
+  },
+  {
+    "line": 281,
+    "field": "exampleSrc",
+    "english": "A: Despite all difficulties, he submitted the application.\\nB: That was brave.\\nA: Despite the long wait, he remained patient.\\nB: Impressive."
+  },
+  {
+    "line": 281,
+    "field": "funFact",
+    "english": "Closely related to trotzdem (nevertheless). Trotz = preposition with genitive, trotzdem = adverb. 'Trotz aller Schwierigkeiten' = despite all difficulties."
+  },
+  {
+    "line": 282,
+    "field": "src",
+    "english": "there, to that place"
+  },
+  {
+    "line": 282,
+    "field": "note",
+    "english": "Da- (there) + hin (toward). Direction away from the speaker.\\nContrast: daher = from there (toward speaker)."
+  },
+  {
+    "line": 282,
+    "field": "exampleSrc",
+    "english": "A: How do I get to the immigration office?\\nB: Take the subway. Line 6 goes there.\\nA: How long does it take to get there?\\nB: About 20 minutes."
+  },
+  {
+    "line": 282,
+    "field": "funFact",
+    "english": "Hin and her define direction in German. Dahin = there (away from speaker). Daher = from there (toward speaker). 'Wie komme ich dahin?' = How do I get there?"
+  },
+  {
+    "line": 283,
+    "field": "src",
+    "english": "the aunt"
+  },
+  {
+    "line": 283,
+    "field": "note",
+    "english": "From French 'tante.' Your parent's sister.\\n'Tante-Emma-Laden' = a small corner shop."
+  },
+  {
+    "line": 283,
+    "field": "exampleSrc",
+    "english": "A: My aunt is coming to visit tomorrow.\\nB: From which city?\\nA: From Düsseldorf.\\nB: Nice, then you'll have family visiting."
+  },
+  {
+    "line": 283,
+    "field": "funFact",
+    "english": "'Tante-Emma-Laden' is a German expression for a small corner shop (Aunt Emma's shop). Die Tante is the counterpart to der Onkel. Also used affectionately for older family friends."
+  },
+  {
+    "line": 284,
+    "field": "src",
+    "english": "the granddaughter"
+  },
+  {
+    "line": 284,
+    "field": "note",
+    "english": "Enkel + -in. The feminine form of Enkel.\\nPlural: die Enkelinnen."
+  },
+  {
+    "line": 284,
+    "field": "exampleSrc",
+    "english": "A: Is that your granddaughter?\\nB: Yes, her name is Lena.\\nA: How old is your granddaughter?\\nB: Three years old."
+  },
+  {
+    "line": 284,
+    "field": "funFact",
+    "english": "The feminine form of Enkel. Der Enkel (grandson/grandchild), die Enkelin (granddaughter). Plural: die Enkelinnen. German always provides gendered forms for family members."
+  },
+  {
+    "line": 285,
+    "field": "hint",
+    "english": "Which modal expresses obligation? Structure: modal + PP + werden."
+  },
+  {
+    "line": 286,
+    "field": "hint",
+    "english": "Working without a visa is not just absent, it is forbidden. Which modal pair expresses prohibition in a passive construction?"
+  },
+  {
+    "line": 287,
+    "field": "hint",
+    "english": "Which conjunction means 'although'? It requires verb-final order."
+  },
+  {
+    "line": 287,
+    "field": "sSrc",
+    "english": "Although he had all documents, he was still nervous."
+  },
+  {
+    "line": 288,
+    "field": "hint",
+    "english": "He waits until a specific event happens. Which conjunction means 'until'?"
+  },
+  {
+    "line": 289,
+    "field": "hint",
+    "english": "The approval happens AFTER the fees are paid. Which conjunction marks time sequence?"
+  },
+  {
+    "line": 289,
+    "field": "sSrc",
+    "english": "The application can only be approved after all fees are paid."
+  },
+  {
+    "line": 295,
+    "field": "hint",
+    "english": "The conditional clause pushes its verb last. After the comma, the main clause uses standard V2 word order with the passive infinitive at the end."
+  },
+  {
+    "line": 303,
+    "field": "hint",
+    "english": "Four blanks: the time conjunction, the obligation modal, the past participle of 'ausstellen', then the passive auxiliary."
+  },
+  {
+    "line": 303,
+    "field": "sSrc",
+    "english": "After Verumius submitted the application, the decision must be issued within six weeks."
+  },
+  {
+    "line": 309,
+    "field": "hint",
+    "english": "Sitz implies official registration. Ort is more general."
+  },
+  {
+    "line": 310,
+    "field": "hint",
+    "english": "Your brother's daughter is a specific family relationship. Which option names a sibling's female child?"
+  },
+  {
+    "line": 310,
+    "field": "sSrc",
+    "english": "My brother's daughter is my niece."
+  },
+  {
+    "line": 316,
+    "field": "hint",
+    "english": "Muss...werden = obligation. Bis Freitag = deadline."
+  },
+  {
+    "line": 317,
+    "field": "hint",
+    "english": "After the officer checked everything, the permit can be issued, if all fees are paid. Time + possibility + condition."
+  },
+  {
+    "line": 317,
+    "field": "sSrc",
+    "english": "After the officer checked all documents, the residence permit can be issued, if all fees are paid."
+  },
+  {
+    "line": 318,
+    "field": "hint",
+    "english": "The word that marks an absolute deadline. Not one day later is acceptable."
+  },
+  {
+    "line": 321,
+    "field": "desc",
+    "english": "The stamp falls. THUNK. Approved. Verumius calls KD. The group chat explodes. Official resident of Germany."
+  },
+  {
+    "line": 322,
+    "field": "unknown",
+    "english": "Celebrate Verumius' residence permit"
+  },
+  {
+    "line": 323,
+    "field": "unknown",
+    "english": "Learn vocabulary for commerce and everyday life"
+  },
+  {
+    "line": 324,
+    "field": "unknown",
+    "english": "Reflect on the bureaucratic journey and German administrative culture"
+  },
+  {
+    "line": 326,
+    "field": "src",
+    "english": "The officer reaches for the stamp. THUNK. Approved. Verumius's face transforms. He stands up, thanks her three times, and walks into the hallway. The phone is already in his hand."
+  },
+  {
+    "line": 327,
+    "field": "src",
+    "english": "Mr. Hoffmann, I made it! The residence permit was approved!"
+  },
+  {
+    "line": 328,
+    "field": "src",
+    "english": "Of course. You had all the documents. That was obvious."
+  },
+  {
+    "line": 329,
+    "field": "src",
+    "english": "Mr. Hoffmann, you sound like you never doubted it."
+  },
+  {
+    "line": 330,
+    "field": "src",
+    "english": "I did not. Anyone who copies their documents in triplicate passes any government office. Come by when you have time. We will have a coffee."
+  },
+  {
+    "line": 331,
+    "field": "src",
+    "english": "the buyer (male)"
+  },
+  {
+    "line": 331,
+    "field": "note",
+    "english": "From 'kaufen' (to buy). Die Käuferin = female buyer.\\nIn contracts: Käufer (buyer) vs. Verkäufer (seller)."
+  },
+  {
+    "line": 331,
+    "field": "exampleSrc",
+    "english": "A: Who is the buyer?\\nB: Mr. Schmidt is the buyer.\\nA: And the female buyer?\\nB: Mrs. Weber is buying the second car."
+  },
+  {
+    "line": 331,
+    "field": "funFact",
+    "english": "In legal contracts, the Käufer is the buyer, the Verkäufer is the seller. Every Kaufvertrag (sales contract) names both. The word comes from 'kaufen' (to buy)."
+  },
+  {
+    "line": 332,
+    "field": "src",
+    "english": "the sales clerk (female)"
+  },
+  {
+    "line": 332,
+    "field": "note",
+    "english": "Ver- + Käuferin. Female sales clerk. Der Verkäufer = male.\\nCommon job title on signs: 'Verkäuferin gesucht.'"
+  },
+  {
+    "line": 332,
+    "field": "exampleSrc",
+    "english": "A: Excuse me, can you help me?\\nB: Yes, I'm the sales clerk. What are you looking for?\\nA: A new folder for my documents.\\nB: You'll find the folders in aisle three."
+  },
+  {
+    "line": 332,
+    "field": "funFact",
+    "english": "In German, you still commonly see gendered job titles on signs: 'Verkäuferin gesucht' (female sales clerk wanted). The masculine form is Verkäufer."
+  },
+  {
+    "line": 333,
+    "field": "src",
+    "english": "the works council member (female)"
+  },
+  {
+    "line": 333,
+    "field": "note",
+    "english": "Betrieb (company) + Rat (council) + -in. Employee representative\\nwith real legal power. Codetermination = Mitbestimmung."
+  },
+  {
+    "line": 333,
+    "field": "exampleSrc",
+    "english": "A: Who is the works council member?\\nB: Ms. Schneider represents the employees.\\nA: What exactly does the works council member do?\\nB: She negotiates working conditions with management."
+  },
+  {
+    "line": 333,
+    "field": "funFact",
+    "english": "Der Betriebsrat is a uniquely German institution: employee representatives with real legal power. Codetermination (Mitbestimmung) is fundamental to German labor law."
+  },
+  {
+    "line": 334,
+    "field": "src",
+    "english": "the chip card"
+  },
+  {
+    "line": 334,
+    "field": "note",
+    "english": "Chip + Karte. A card with an electronic chip.\\nDie EC-Karte is the German debit card (officially 'girocard')."
+  },
+  {
+    "line": 334,
+    "field": "exampleSrc",
+    "english": "A: Do you have your chip card with you?\\nB: Yes, here is my debit card.\\nA: The debit card is also a chip card.\\nB: Right, with the golden chip."
+  },
+  {
+    "line": 334,
+    "field": "funFact",
+    "english": "Die EC-Karte (Electronic Cash card) is the German debit card. Germans use 'EC-Karte' even though the official name changed to 'girocard' in 2007. Old habits die hard."
+  },
+  {
+    "line": 335,
+    "field": "src",
+    "english": "the ATM (Swiss German)"
+  },
+  {
+    "line": 335,
+    "field": "note",
+    "english": "Swiss German for ATM. From Italian 'banco' (bank) +\\n'automatico.' Die Bancomatkarte = Swiss debit card."
+  },
+  {
+    "line": 335,
+    "field": "exampleSrc",
+    "english": "A: Where is the nearest ATM?\\nB: In Switzerland they say Bancomat.\\nA: And in Germany?\\nB: There they say Geldautomat."
+  },
+  {
+    "line": 335,
+    "field": "funFact",
+    "english": "Switzerland has its own banking vocabulary. Same machine, different name. Bancomat (Swiss) vs. Bankomat (Austrian) vs. Geldautomat (German)."
+  },
+  {
+    "line": 336,
+    "field": "src",
+    "english": "the ATM (Austrian German)"
+  },
+  {
+    "line": 336,
+    "field": "note",
+    "english": "Austrian German for ATM. Die Bankomatkarte = Austrian\\ndebit card. Three countries, three words, one machine."
+  },
+  {
+    "line": 336,
+    "field": "exampleSrc",
+    "english": "A: I'm looking for an ATM.\\nB: In Austria they say Bankomat.\\nA: And the card is called Bankomatkarte?\\nB: Yes, exactly."
+  },
+  {
+    "line": 336,
+    "field": "funFact",
+    "english": "Austria says Bankomat, Switzerland says Bancomat, Germany says Geldautomat. Three countries, three words. Austrian German is its own world with many unique terms."
+  },
+  {
+    "line": 337,
+    "field": "src",
+    "english": "the wallet"
+  },
+  {
+    "line": 337,
+    "field": "note",
+    "english": "Brief (letter) + Tasche (bag). Originally for carrying letters.\\nDas Portemonnaie (from French) is the elegant alternative."
+  },
+  {
+    "line": 337,
+    "field": "exampleSrc",
+    "english": "A: Where is my wallet?\\nB: On the table, next to the keys.\\nA: Thanks, I need my wallet for the fee.\\nB: Brieftasche and Portemonnaie are the same thing."
+  },
+  {
+    "line": 337,
+    "field": "funFact",
+    "english": "Brief (letter) + Tasche (bag) = wallet (originally for carrying letters/documents). Das Portemonnaie is from French 'porte-monnaie' (money carrier). Both mean wallet. Brieftasche is more German, Portemonnaie more elegant."
+  },
+  {
+    "line": 338,
+    "field": "src",
+    "english": "the surcharge, the supplement"
+  },
+  {
+    "line": 338,
+    "field": "note",
+    "english": "Zu- (to) + Schlag (strike/hit). Extra charge on top of base price.\\nICE-Zuschlag, Nachtzuschlag."
+  },
+  {
+    "line": 338,
+    "field": "exampleSrc",
+    "english": "A: Is there a surcharge for the ICE?\\nB: Yes, the ICE surcharge is 13 euros.\\nA: And for first class?\\nB: There's an additional surcharge for that."
+  },
+  {
+    "line": 338,
+    "field": "funFact",
+    "english": "ICE-Zuschlag (high-speed train surcharge). Nachtzuschlag (night surcharge). Germany loves adding Zuschläge to base prices. Zu- (to) + Schlag (strike/hit)."
+  },
+  {
+    "line": 339,
+    "field": "src",
+    "english": "Verumius's phone explodes. Lukas sends party emojis. Mia writes: 'Congratulations!' Hildi (who learned to text): 'Good news.' Heinrich (via Hildi's phone): 'Finally!'"
+  },
+  {
+    "line": 340,
+    "field": "src",
+    "english": "PARTYYY! When do we celebrate? I will bring cake. And balloons. And maybe a banner: 'Official resident.' Mia, you do the decorations?"
+  },
+  {
+    "line": 341,
+    "field": "src",
+    "english": "Congratulations, Verumius. Really. I know how much work that was. All those forms, the deadlines, the waiting. You earned it."
+  },
+  {
+    "line": 342,
+    "field": "src",
+    "english": "Verumius sits on the couch. The residence permit lies on the coffee table. Since he arrived in Germany, so much had to be done. Registration, checking account, insurance, language course, employment contract, trips to government offices. But now: official resident. Finally a home. Everything is included."
+  },
+  {
+    "line": 343,
+    "field": "text",
+    "english": "Germany's administrative system dates back to Prussian efficiency reforms in the 1700s.\\n\\nThe principle: if something is documented, it exists. If it is not documented, it does not.\\n\\nThis explains the obsession with Urkunden, Bescheinigungen, and Originale.\\n\\nThe Ausländerbehörde is not trying to be difficult. It follows a system designed for maximum legal certainty.\\n\\nEvery stamp, every Frist, every Bestätigung serves a purpose: protecting both the state and the individual.\\n\\n'Ordnung muss sein' (there must be order) captures the philosophy."
+  },
+  {
+    "line": 343,
+    "field": "deepDive",
+    "english": "The German word 'Beamtenstaat' (civil servant state) describes a country where bureaucracy is a profession, not just a job. Beamte study for years, pass state exams, and receive lifelong employment. This creates consistency but also rigidity. The system prioritizes fairness through uniformity: everyone follows the same rules, fills out the same forms, waits the same amount of time."
+  },
+  {
+    "line": 344,
+    "field": "hint",
+    "english": "The checking is complete. The permit becomes possible to issue. Which modal expresses ability in the past, combined with a passive infinitive?"
+  },
+  {
+    "line": 345,
+    "field": "hint",
+    "english": "He celebrates after waiting. Which conjunction marks completed prior action?"
+  },
+  {
+    "line": 346,
+    "field": "hint",
+    "english": "The official registered address that everyone needs. The Anmeldung establishes this."
+  },
+  {
+    "line": 346,
+    "field": "sSrc",
+    "english": "In Germany, every resident must have a registered address."
+  },
+  {
+    "line": 347,
+    "field": "hint",
+    "english": "Swiss German borrows from Italian rather than English for this machine. The spelling differs from the Austrian term by a single letter."
+  },
+  {
+    "line": 355,
+    "field": "hint",
+    "english": "Four blanks: time conjunction, past-tense ability modal, passive auxiliary, then the same time conjunction again for the payment condition."
+  },
+  {
+    "line": 355,
+    "field": "sSrc",
+    "english": "After Verumius had submitted all documents, the residence permit could be approved, after he had paid all fees."
+  },
+  {
+    "line": 356,
+    "field": "src",
+    "english": "Verumius looks at his phone. An email from the immigration office. 'Your application has been processed. Please pick up your residence permit at counter five.' He reads the sentence three times. Processed. Pick up. It worked."
+  },
+  {
+    "line": 362,
+    "field": "hint",
+    "english": "The full process requires multiple steps. Which answer covers everything?"
+  },
+  {
+    "line": 363,
+    "field": "src",
+    "english": "Verumius puts the residence permit in his folder. Next to the birth certificate, the registration certificate, and the employment contract. Everything has its place. He is no longer a visitor. He is a resident. He belongs. And tomorrow? Tomorrow the next chapter begins."
+  },
+  {
+    "line": 364,
+    "field": "hint",
+    "english": "Which adverb sets an absolute time limit, meaning no later than a certain date?"
+  },
+  {
+    "line": 364,
+    "field": "sSrc",
+    "english": "The residence permit must be picked up by the counter at the latest."
+  }
+]

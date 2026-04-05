@@ -1,0 +1,802 @@
+[
+  {
+    "line": 14,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Universitäten.\\nOften shortened to 'Uni' in spoken German."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Latin 'universitas' (community of scholars). Germany has over 400 Hochschulen. Freie Universität Berlin was founded in 1948 in West Berlin as a 'free' alternative to the Soviet-controlled Humboldt. The name itself is political history."
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Masculine noun. Hör (listen) + Saal (hall).\\nPlural: die Hörsäle."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Hör' (hear/listen) + 'Saal' (hall). A 'listening hall.' German university Hörsäle can seat 500+ students. The word tells you your job: sit and listen."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Mensen.\\nSubsidized student cafeteria."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From Latin 'mensa' (table). German Mensa meals cost 2-4 EUR for students. A democratic space: everyone eats the same food at the same price. Subsidized by the state."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Neuter noun. A small discussion class.\\nContrast with Vorlesung (large lecture)."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "From Latin 'seminarium' (seed plot). A Seminar has 20-30 students and expects active participation. A Vorlesung has 200+ and expects listening. The difference is fundamental to German university culture."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Feminine noun. Vor (before) + Lesung (reading).\\n'Eine Vorlesung besuchen' (to attend a lecture)."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Lesung' (reading). A 'reading aloud.' Professors traditionally 'read' their material aloud. German students show appreciation by knocking on the desk, not clapping."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Masculine noun. Studien (studies) + Gang (path).\\n'Welchen Studiengang belegst du?'"
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "'Studien' (studies) + 'Gang' (path/course). Your path through academic study. German universities offer over 20,000 different Studiengänge. The word captures it: a journey through knowledge."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Masculine noun. N-Deklination: den Dozenten.\\nBelow Professor, above Tutor."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "From Latin 'docens' (teaching). Below Professor but above Tutor in the academic hierarchy. Dozenten do the heavy lifting of university teaching."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Feminine noun. Dozent + -in.\\nGender-neutral alternative: Dozierende."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "Dozent + '-in.' The feminine form follows the standard pattern. German universities now use 'Dozierende' as a gender-neutral alternative, but Dozent/Dozentin remains standard in daily use."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Fakultäten.\\n'Die Philosophische Fakultät.'"
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "From Latin 'facultas' (ability). German universities are organized into Fakultäten: Philosophische, Naturwissenschaftliche, Juristische. Each is like a small university within the university."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Feminine noun. Ein (in) + Schreibung (writing).\\n'Die Einschreibung abschließen.'"
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "You 'write yourself in' to the university. The Einschreibung deadline is sacred. Miss it and you wait a semester. A classic example of Nominalisierung: einschreiben becomes Einschreibung."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Feminine noun. Formal synonym of Einschreibung.\\nMore bureaucratic register."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "From Latin 'immatriculare' (to enter in a register). Your Immatrikulationsbescheinigung (enrollment certificate) is your student ID for everything. One of the longest German compound words students encounter."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Regular verb. NOT the same as 'lernen.'\\n'Ich studiere Linguistik' = enrolled in a degree."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "From Latin 'studere' (to be eager). Not the same as 'lernen.' 'Ich studiere Linguistik' means you are enrolled in a degree. 'Ich lerne Deutsch' means you are learning the language. Two different words for two different activities."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Regular, reflexive: sich immatrikulieren.\\nThe bureaucratic verb for becoming a student."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "See Immatrikulation. Reflexive: 'sich immatrikulieren.' You immatrikulieren yourself. Once done, you get your Studentenausweis. The bureaucratic verb for becoming an official student."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Adjective. 'Akademisches Viertel' = lectures\\nstart 15 minutes late (written 'c.t.')."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From Greek 'akademeia' (Plato's school). 'Akademisches Viertel' means lectures start 15 minutes late. Written 'c.t.' (cum tempore). If a lecture is at 10:00 c.t., it starts at 10:15. This is tradition, not laziness."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Adjective. Wissenschaft (scholarship) + -lich.\\nCovers ALL scholarship, not just natural science."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "'Wissenschaft' (science/scholarship) + '-lich.' 'Wissenschaftliches Arbeiten' is a course every German student must take. The word covers ALL scholarship, not just natural science."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "Adjective. Grund (ground) + legend (laying).\\n'Grundlegende Kenntnisse' (fundamental knowledge)."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "'Grund' (ground/foundation) + 'legend' (laying). The word paints a picture: laying the foundation. 'Grundlegende Kenntnisse' is used constantly in academic writing. You cannot skip the grundlegenden concepts."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Adverb. In + s + besondere.\\nFormal register. 'Insbesondere in der Linguistik.'"
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'In' + 's' + 'besondere.' A formal adverb beloved by German academics. One word where English needs two. Elegant and precise. You will hear it in every lecture and read it in every paper."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Adverb. Grundsatz (principle) + -lich.\\n'Grundsätzlich gilt...' (In principle, ... applies)."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Grundsatz' (principle) + '-lich.' A hedging word: it says 'in theory' while leaving room for exceptions. 'Grundsätzlich gilt...' opens many an academic argument."
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "Preposition + Genitiv. An (at) + Hand (hand).\\n'Anhand der Daten' (on the basis of the data)."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "'An' (at) + 'Hand' (hand). Literally 'at the hand of.' Academic German uses this constantly. Always followed by Genitiv. You will see 'anhand' on every page of every German research paper."
+  },
+  {
+    "line": 33,
+    "field": "note",
+    "english": "Preposition + Genitiv. Hin (toward) + Sicht (view).\\nFormal academic register."
+  },
+  {
+    "line": 33,
+    "field": "funFact",
+    "english": "'Hin' (toward) + 'Sicht' (view) + '-lich.' A formal preposition with Genitiv. One of the hallmarks of academic register. You will almost never hear it in casual conversation."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Feminine noun. From 'forschen' (to research).\\n'Forschung und Lehre' (research and teaching)."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "From 'forschen' (to research). 'Forschung und Lehre' (research and teaching) is the dual mission of every German university. The Forschung half is what makes a university different from a school."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Hypothesen.\\n'Eine Hypothese aufstellen' (to put forward a hypothesis)."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Greek 'hypothesis' (foundation). German academic writing demands that you state your Hypothese clearly before investigating it. 'Eine Hypothese aufstellen' is the first step of every research project."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Methoden.\\n'Wissenschaftliche Methoden' (scientific methods)."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "From Greek 'methodos' (pursuit of knowledge). 'Wissenschaftliche Methoden' is the backbone of German research. Every Hausarbeit must describe its Methode explicitly. No method, no scholarship."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Feminine noun. 'Laut Statistik' (according to statistics).\\nOriginally meant data about the state."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "From Latin 'statisticum' (of the state). Originally meant data about the state. Now covers all quantitative analysis. 'Laut Statistik' (according to statistics) starts many German arguments."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Studien.\\nNot the same as 'Studium' (university studies)."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "From Latin 'studium.' A specific research project, not your university studies. 'Eine Studie durchführen' (to conduct a study). A Studie produces Ergebnisse (results)."
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Analysen.\\n'Eine gründliche Analyse' (a thorough analysis)."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "From Greek 'analysis' (breaking up). Academic German loves this word. The verb form 'analysieren' is equally common. Analyse (noun) and analysieren (verb) are a Nominalisierung pair."
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Neuter noun. Plural: die Ergebnisse.\\n'Die Ergebnisse zeigen...' (The results show...)."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "From 'ergeben' (to result in). 'Die Ergebnisse zeigen...' opens paragraphs in every German research paper. Neuter because of the Er- prefix pattern. Plural: Ergebnisse."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Feminine noun. From 'untersuchen' (to investigate).\\nClassic Nominalisierung: verb + -ung."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "From 'untersuchen' (to investigate). Notice the pattern: the verb 'untersuchen' becomes the noun 'Untersuchung' with the -ung suffix. This is Nominalisierung. Academic German loves this transformation."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Quellen.\\nLiterally 'spring' (as in water)."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "Literally 'spring/source' (as in water). Knowledge flows from its source. 'Quellenangabe' (source citation) is mandatory in German academia. Forgetting your Quellen is academic suicide."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "Feminine noun. Plural: die Thesen.\\n'Eine These verteidigen' (to defend a thesis)."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From Greek 'thesis' (placement). Martin Luther nailed 95 Thesen to a church door. The word carries weight in German. 'Eine These verteidigen' is what every student must do."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Regular verb. From Analyse.\\n'Daten analysieren' (to analyze data)."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From Analyse. Notice: Analyse (noun) and analysieren (verb) are a pair. The noun came first from Greek; the verb was formed from it. This reverse process is called Verbalisierung."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Inseparable verb. Unter (under) + suchen (search).\\n'Wir untersuchen den Zusammenhang.'"
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "'Unter' (under) + 'suchen' (to search). Searching underneath the surface. The noun: Untersuchung (investigation). A classic Nominalisierung pair: untersuchen becomes die Untersuchung."
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "Regular verb. From Latin 'definire.'\\n'Den Begriff definieren' (to define the term)."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "From Latin 'definire' (to set boundaries). Every German Hausarbeit starts by defining its key terms. Academic writing rule number one: define before you argue."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "Regular verb. From Latin 'formulare.'\\n'Eine Hypothese formulieren.'"
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "From Latin 'formulare.' 'Eine Hypothese formulieren' (to formulate a hypothesis). 'Wie würden Sie das formulieren?' is what advisors ask students constantly. Precision in phrasing is everything."
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "Regular verb. From Latin 'interpretari.'\\n'Ergebnisse interpretieren' (to interpret results)."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "From Latin 'interpretari.' Data alone says nothing. The Interpretation is where academic skill shows. 'Wie interpretieren Sie diese Daten?' is the question that separates good researchers from great ones."
+  },
+  {
+    "line": 70,
+    "field": "note",
+    "english": "Strong verb: verglich, verglichen. Inseparable.\\n'Zwei Studien vergleichen.'"
+  },
+  {
+    "line": 70,
+    "field": "funFact",
+    "english": "'Ver-' + 'gleichen' (to equal/level). You make things 'equal' to see the differences. Strong verb: vergleichen/verglich/verglichen. Der Vergleich is the nominalized form."
+  },
+  {
+    "line": 71,
+    "field": "note",
+    "english": "Adjective. The opposite of 'theoretisch.'\\n'Empirische Forschung' (empirical research)."
+  },
+  {
+    "line": 71,
+    "field": "funFact",
+    "english": "From Greek 'empeiria' (experience). Research based on data, not just theory. The opposite of 'theoretisch.' A key academic distinction in every German research seminar."
+  },
+  {
+    "line": 72,
+    "field": "note",
+    "english": "Adjective. From Greek 'theoria' (contemplation).\\n'Theoretisch möglich' (theoretically possible)."
+  },
+  {
+    "line": 72,
+    "field": "funFact",
+    "english": "From Greek 'theoria' (contemplation). 'Theoretisch möglich' always implies 'but practically unlikely.' Academic work needs both: theoretischer Rahmen (theoretical framework) + empirische Daten."
+  },
+  {
+    "line": 73,
+    "field": "note",
+    "english": "Adjective. From Greek 'systema.'\\n'Systematische Untersuchung.'"
+  },
+  {
+    "line": 73,
+    "field": "funFact",
+    "english": "From Greek 'systema.' German scholarship values system above all. A systematischer Ansatz (systematic approach) is not optional; it is expected. Unsystematisch is an insult in academia."
+  },
+  {
+    "line": 74,
+    "field": "note",
+    "english": "Adjective. The opposite of 'subjektiv.'\\n'Bleiben Sie objektiv' (Stay objective)."
+  },
+  {
+    "line": 74,
+    "field": "funFact",
+    "english": "From Latin 'objectivus.' The academic ideal: your personal opinion stays out. 'Bleiben Sie objektiv' is the professor's mantra. 'Objektive Analyse' is what every paper must deliver."
+  },
+  {
+    "line": 82,
+    "field": "note",
+    "english": "Regular verb. From 'Forschung' (research).\\nThe verb behind every scientific inquiry."
+  },
+  {
+    "line": 82,
+    "field": "funFact",
+    "english": "'Forschung' (research) is the nominalized form. Germany invests heavily in Forschung und Entwicklung (research and development). 'Der Forscher' and 'die Forscherin' are the agent nouns. Renowned for Grundlagenforschung (basic research)."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Masculine noun. Zusammen (together) + Hang (slope).\\n'In diesem Zusammenhang' (in this context)."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "'Zusammen' (together) + 'Hang' (hang/slope). Things that 'hang together.' 'In diesem Zusammenhang' opens paragraphs in every academic paper. Plural: Zusammenhänge."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "Feminine noun. From 'bedeuten' (to mean).\\n'Von großer Bedeutung' (of great significance)."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "From 'bedeuten' (to mean). Academic German distinguishes between Bedeutung (meaning) and Wichtigkeit (importance). Bedeutung is deeper. 'Von großer Bedeutung' signals that something truly matters."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "Feminine noun. Ent- (un-) + Wicklung (winding).\\nLiterally 'unwinding,' something that unfolds."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "'Ent-' (un-) + 'Wicklung' (winding). Literally 'unwinding.' Something that unfolds over time. 'Die historische Entwicklung' frames every academic narrative. Nominalisierung from 'entwickeln.'"
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "Feminine noun. Dar (there) + Stellung (placement).\\n'Die Darstellung der Ergebnisse.'"
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "'Dar' (there) + 'Stellung' (placement). You 'place something there' for others to see. Academic writing IS Darstellung: presenting your findings for the world."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "Feminine noun. Schluss + Folgerung.\\nTriple compound: Schluss + Folge + -ung."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'Schluss' (conclusion) + 'Folgerung' (inference). Triple compound. 'Welche Schlussfolgerung ziehen Sie?' (What conclusion do you draw?). The crown of academic argument."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Feminine noun. Grund (ground) + Lage (position).\\n'Auf der Grundlage von Daten.'"
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Grund' (ground) + 'Lage' (position/layer). The bedrock on which your argument stands. 'Auf der Grundlage von Daten' appears in every serious German research paper."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Masculine noun. Sach (matter) + Verhalt (condition).\\n'Den Sachverhalt darstellen.'"
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'Sach' (thing/matter) + 'Verhalt' (condition). Pure academic German. No emotional coloring, just the facts. 'Den Sachverhalt darstellen' means to present the facts objectively."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Feminine noun. Ver- + Änderung (change).\\nStronger than 'Änderung' alone."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "'Ver-' + 'Änderung' (change). The ver- prefix implies thoroughness. 'Grundlegende Veränderungen' (fundamental changes). More complete than a simple Änderung."
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "Inseparable verb. Be- + gründen (to found).\\n'Begründen Sie Ihre These.'"
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "'Be-' + 'gründen' (to found). Every claim in German academia must be begründet (justified). No argument without Begründung. The noun is die Begründung."
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Regular verb. Not fighting, but building\\na logical case. 'Überzeugend argumentieren.'"
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "From Latin 'argumentari.' Building a logical case, not fighting. 'Überzeugend argumentieren' (to argue convincingly). 'Wie argumentiert der Autor?' is a standard exam question."
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "Inseparable verb. Formal academic register.\\n'Ein Thema erörtern.'"
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "Old German 'ertörtern' (to explore a place). The Erörterung (discussion essay) is a standard German school format. Every student writes hundreds. Formal register only."
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "Regular verb. From 'Folge' (consequence).\\n'Daraus lässt sich folgern, dass...'"
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "From 'Folge' (consequence). The academic verb for drawing a conclusion. 'Daraus lässt sich folgern, dass...' (From this one can conclude that...). Related to 'folglich' (consequently)."
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "Inseparable compound verb.\\nSchluss (conclusion) + folgern (to infer)."
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "'Schluss' (conclusion) + 'folgern' (to infer). Inseparable compound verb. Combines the finality of 'Schluss' with the logic of 'folgern.' The noun: Schlussfolgerung."
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "Regular verb. From Latin 'reflectere.'\\n'Kritisch reflektieren' (to reflect critically)."
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "From Latin 'reflectere' (to bend back). Academic reflection means looking back at your own argument and questioning it. Self-awareness in scholarship. 'Kritisch reflektieren' is a core academic skill."
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "Adjective. The opposite of 'konkret.'\\n'Abstrakte Begriffe' (abstract concepts)."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "From Latin 'abstractus' (drawn away). 'Abstrakte Begriffe' like Freiheit, Gerechtigkeit, Wahrheit. Academic thinking moves between abstrakt and konkret. Both are necessary."
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "Adjective. 'Logisch aufgebaut' (logically structured).\\nCasually also means 'Obviously!'"
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "From Greek 'logikos.' 'Logisch!' also means 'Obviously!' in casual German. The academic meaning demands rigorous step-by-step reasoning. Two registers, one word."
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "Adjective. 'Relevante Literatur.'\\nProfessors love asking: 'Ist das relevant?'"
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "From Latin 'relevare' (to raise up). German professors love asking: 'Ist das relevant?' If you cannot answer yes with evidence, cut it from your paper."
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "Adjective. From 'Sache' (thing/matter).\\n'Bleiben Sie sachlich' (Stick to the facts)."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "From 'Sache' (thing/matter). Academic register demands sachlich tone. No emotions, no drama, just evidence. 'Bleiben Sie sachlich' is a command every German student hears."
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "Adjective. From 'Wesen' (essence/being).\\n'Ein wesentlicher Unterschied.'"
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "From 'Wesen' (essence/being). What touches the essence of the matter. More philosophical than 'wichtig' (important). 'Ein wesentlicher Unterschied' carries more weight than 'ein wichtiger Unterschied.'"
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "Adverb. Folge (consequence) + -lich.\\nAcademic connector. Signals a conclusion."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "From 'Folge' (consequence) + '-lich.' 'Folglich müssen wir annehmen, dass...' (Consequently we must assume that...). Signals that a conclusion follows from evidence."
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "Konjunktiv II of 'haben'. Used in hypothetical past.\\n'Hätte' + Partizip II = something that didn't happen."
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "Hätte is the Konjunktiv II of haben. In the hypothetical past (Konjunktiv II Vergangenheit), hätte + Partizip II expresses what could have happened but did not. Paired with wäre for sein-verbs."
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Hätte for verbs that take 'haben' in the Perfekt. Wäre for verbs that take 'sein' in the Perfekt."
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "Feminine noun. From 'verbessern' (to improve).\\nClassic -ung Nominalisierung."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "From 'verbessern' (to improve). The -ung suffix transforms any verb into a feminine noun. 'Die Verbesserung der Methode' = 'dass man die Methode verbessert.' Same meaning, different density."
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "Feminine noun. From 'verschlechtern' (to worsen).\\nExact opposite of Verbesserung."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "From 'verschlechtern' (to worsen). The exact opposite of Verbesserung. German loves these pairs: besser/schlechter becomes Verbesserung/Verschlechterung. Symmetry in language."
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "Feminine noun. From 'erklären' (to explain).\\nAlso: Steuererklärung (tax return)."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "From 'erklären' (to explain). Also the word for a tax return: Steuererklärung. Explaining yourself to the Finanzamt uses the same word as explaining your thesis."
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "Feminine noun. From 'begründen' (to justify).\\n'Ohne Begründung' = academic death sentence."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "From 'begründen' (to justify). 'Ohne Begründung' is the academic death sentence. Every claim needs its Begründung. No argument survives without one."
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "Feminine noun. From 'bewerten' (to evaluate).\\n'Die Bewertung der Ergebnisse.'"
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "From 'bewerten' (to evaluate). Your Hausarbeit gets a Bewertung. Your professor gives it a Note (grade). The Bewertung determines your academic fate."
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "Feminine noun. From 'beobachten' (to observe).\\n'Empirische Beobachtungen.'"
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "From 'beobachten' (to observe). The foundation of all science: first you beobachten, then you analysieren. 'Empirische Beobachtungen' are the raw material of research."
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "Feminine noun. From 'lösen' (to solve).\\nAlso: liquid solution in chemistry."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "From 'lösen' (to solve/dissolve). Also means a liquid solution in chemistry. Solving is dissolving the problem. 'Eine kreative Lösung finden' is what every researcher aims for."
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "Feminine noun. From 'entscheiden' (to decide).\\n'Eine wichtige Entscheidung treffen.'"
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "Ent- (un-/dis-) + scheiden (to separate). A decision separates one path from another. You cut away alternatives until one remains. 'Eine wichtige Entscheidung treffen' is a core phrase."
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "Feminine noun. Fähig (capable) + -keit.\\nThe -keit suffix works on adjectives ending in -ig."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "From 'fähig' (capable) + '-keit.' The -keit suffix works on adjectives ending in -ig. 'Analytische Fähigkeiten' (analytical skills) are required on every German academic CV. Always feminine."
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Feminine noun. Dankbar (grateful) + -keit.\\nAbstract qualities love the -keit ending."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "'Dankbar' (grateful) + '-keit.' Another -keit nominalization. The adjective 'dankbar' becomes the abstract noun 'Dankbarkeit.' A pattern that creates entire families of abstract nouns."
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "Inseparable verb. Be- + Wert (value).\\n'Wie bewerten Sie dieses Ergebnis?'"
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "'Be-' + 'Wert' (value). Literally to assign value. The reverse of Bewertung: verb from noun root. 'Wie bewerten Sie dieses Ergebnis?' is the professor's standard question."
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "Inseparable verb. Be- + Urteil (judgment).\\nSlightly different from bewerten."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "'Be-' + 'Urteil' (judgment). Slightly different from bewerten: beurteilen is about judgment, bewerten about assigning value. 'Die Qualität beurteilen' (to assess the quality)."
+  },
+  {
+    "line": 173,
+    "field": "note",
+    "english": "Separable verb. Aus (out) + werten (to value).\\n'Daten auswerten' (to analyze data)."
+  },
+  {
+    "line": 173,
+    "field": "funFact",
+    "english": "'Aus' (out) + 'werten' (to value). You extract the value from raw data. Separable: 'Ich werte die Daten aus.' The nominalized form: die Auswertung (the data analysis)."
+  },
+  {
+    "line": 174,
+    "field": "note",
+    "english": "Separable verb. Heraus (out) + finden (to find).\\n'Wir wollen herausfinden, ob...'"
+  },
+  {
+    "line": 174,
+    "field": "funFact",
+    "english": "'Heraus' (out) + 'finden' (to find). The verb of research curiosity. Separable. Strong verb: herausfinden, fand heraus, herausgefunden. Finding what was hidden."
+  },
+  {
+    "line": 175,
+    "field": "note",
+    "english": "Inseparable verb. Über (over) + prüfen (to test).\\n'Die Hypothese überprüfen.'"
+  },
+  {
+    "line": 175,
+    "field": "funFact",
+    "english": "'Über' (over) + 'prüfen' (to test/check). Not separable. Checking something thoroughly by going over it. 'Überprüfung' is the nominalized form."
+  },
+  {
+    "line": 176,
+    "field": "note",
+    "english": "Inseparable verb. Hinter (behind) + fragen (ask).\\n'Ergebnisse hinterfragen.'"
+  },
+  {
+    "line": 176,
+    "field": "funFact",
+    "english": "'Hinter' (behind) + 'fragen' (to ask). Asking what is BEHIND the surface. Not separable. The hallmark of critical thinking in German academia."
+  },
+  {
+    "line": 177,
+    "field": "note",
+    "english": "Adjective. In academia, kritisch is POSITIVE.\\n'Kritisches Denken' (critical thinking)."
+  },
+  {
+    "line": 177,
+    "field": "funFact",
+    "english": "From Greek 'kritikos' (able to judge). In German academia, kritisch is positive: it means thoughtful, not negative. 'Seien Sie kritisch' means 'think carefully,' not 'be negative.'"
+  },
+  {
+    "line": 178,
+    "field": "note",
+    "english": "Adjective. From Latin 'praecisus' (cut short).\\n'Präzise formulieren' (to formulate precisely)."
+  }
+]

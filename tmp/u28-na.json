@@ -1,0 +1,802 @@
+[
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Sprich (speak) + Wort (word). A complete sentence of folk wisdom.\\nDas Sprichwort. Plural: die Sprichwörter."
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "Literally a 'speak-word.' German has thousands of Sprichwörter, many dating back centuries. 'Morgenstund hat Gold im Mund' is one of the oldest. A Sprichwort is always a complete sentence of wisdom."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Rede (speech) + Wendung (turn). A fixed phrase used in sentences.\\nDifferent from Sprichwort: not a complete sentence of wisdom."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "Literally a 'speech-turn.' A Redewendung is a fixed phrase you use inside sentences, while a Sprichwort stands alone as a complete sentence. 'Ins Fettnäpfchen treten' is a Redewendung, not a Sprichwort."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "From weise (wise) + -heit (state of being). Die Weisheit.\\nThe -heit suffix always creates feminine abstract nouns."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "From 'weise' (wise) + '-heit' (state of being). 'Alte Weisheit' (ancient wisdom) is what Sprichwörter carry. 'Weisheitszahn' (wisdom tooth) is the bonus compound. The -heit suffix always makes feminine abstract nouns."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Reden (to speak) + Art (kind/manner). Broader than Redewendung.\\nAny characteristic way of expressing something."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "'Reden' (to speak) + 'Art' (kind/manner). Broader than Redewendung. Any characteristic way of expressing something. 'Das ist so eine Redensart' dismisses literal interpretation."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "From Maer (old word for story) + -chen (diminutive). Das Maerchen.\\nThe diminutive suffix makes it neuter."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "The Brothers Grimm collected German Maerchen and made them world-famous. The diminutive '-chen' suffix gives it neuter gender and a gentle quality. From 'Maer,' an old word for story or news."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "From erzählen (to narrate). More literary than Geschichte.\\nA short literary work. Kurzerzählung = short story."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "More literary than 'Geschichte' (story/history). A short literary work. 'Kurzerzählung' = short story. The formal word for narrative fiction. From 'erzählen' (to tell/narrate)."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "From Greek 'metaphora' (transfer). Feminine in German.\\n'Das Leben ist eine Reise' is a classic Metapher."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "From Greek 'metaphora' (transfer). Feminine in German, though many learners guess neuter. 'Das Leben ist eine Reise' is a classic Metapher. German literary analysis loves identifying Metaphern in texts."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "From gleich (same/equal) + -nis (abstract noun suffix).\\nBiblical parables are Gleichnisse."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "From 'gleich' (same/equal) + '-nis' (abstract noun suffix). Biblical parables are 'Gleichnisse.' Heinrich's bakery stories are Gleichnisse: simple tales carrying deeper meaning."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "From dichten (to compose poetry). Der Dichter.\\nGoethe is 'der groesste deutsche Dichter.'"
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "'Dichter und Denker' (poets and thinkers) is how Germans describe their cultural tradition. The word covers poets and literary authors. Goethe is 'der groesste deutsche Dichter' (the greatest German poet)."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Dichter + -in. Die Dichterin.\\nAnnette von Droste-Huelshoff, Ingeborg Bachmann."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "Annette von Droste-Huelshoff, Else Lasker-Schüler, Ingeborg Bachmann: Germany's great Dichterinnen deserve the title. The -in suffix consistently creates feminine forms for professions."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "From Latin 'litterarius.' Literarische Werke = literary works.\\n'Ein literarischer Abend' is a German cultural tradition."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "From Latin 'litterarius.' 'Ein literarischer Abend' (a literary evening) is a German cultural tradition: readings, wine, and discussion. 'Literarische Werke' (literary works) is the standard term."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "From Greek 'poietikos' (creative). Poetische Sprache\\nuses imagery, rhythm, and metaphor."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From Greek 'poietikos' (creative). 'Poetische Sprache' uses imagery, rhythm, and metaphor. 'Das klingt sehr poetisch' is both a compliment and sometimes gentle teasing."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Zeit (time) + -los (without). Timeless.\\nThe -los suffix always means 'without': endlos, grenzenlos."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "'Zeit' (time) + '-los' (without). Timeless. 'Zeitlose Weisheit' is what good Sprichwörter carry. They outlive the people who coined them. The -los suffix always means 'without': zeitlos, endlos, grenzenlos."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "Volk (people/folk) + tuemlch (characteristic of).\\nCarries warmth and earthiness."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "'Volk' (people/folk) + 'tuemlch' (characteristic of). 'Volkstümlche Sprichwörter' come from ordinary people, not scholars. The word carries warmth and earthiness."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Über (over) + liefert (delivered). Past participle of überliefern.\\n'Mündlich überliefert' = orally transmitted."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Über' (over) + 'liefert' (delivered). Past participle of 'überliefern.' 'Mündlich überliefert' (orally transmitted) describes how proverbs survived before writing. Delivered over the generations."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Not separable. Different from sagen (to say):\\nerzählen implies a story, sagen implies a statement."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "From old German 'irzellen' (to recount). Not separable. Different from 'sagen' (to say): erzählen implies a narrative with beginning, middle, and end. Sagen implies a single statement."
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "From Latin 'dictare' (to dictate). Not separable.\\nAlso colloquially: 'Das ist gedichtet!' (That is made up!)."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "From Latin 'dictare' (to dictate). 'Goethe dichtete in Weimar.' Also colloquially: 'Das ist gedichtet!' (That is made up!). Creating with words. The verb behind Dichter and Dichtung."
+  },
+  {
+    "line": 33,
+    "field": "note",
+    "english": "From Latin 'citare' (to summon). Not separable.\\nEin Zitat (a quote) is the noun."
+  },
+  {
+    "line": 33,
+    "field": "funFact",
+    "english": "From Latin 'citare' (to summon). 'Ich zitiere Heinrich' (I quote Heinrich). Not separable. 'Ein Zitat' (a quote) is the noun. Germans love zitieren in academic and professional contexts."
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "From dichten (to compose). Das Gedicht. Neuter because of Ge- prefix.\\n'Ein Gedicht aufsagen' = to recite a poem."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "Neuter because of the Ge- prefix. 'Ein Gedicht aufsagen' (to recite a poem) is a German school tradition. Schiller's 'Die Buergschaft' is the classic recitation piece."
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "From Latin 'versus' (a turning, a line). Der Vers.\\nEach line in a poem is a Vers."
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "From Latin 'versus' (a turning, a line). In German poetry, each line is a Vers. 'Freie Verse' (free verse) has no rhyme or fixed meter. 'Der erste Vers' sets the tone."
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "From Greek 'strophe' (turning). A group of Verse forming a unit.\\nGerman poetry analysis always counts Strophen."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "From Greek 'strophe' (turning). A group of Verse forming a unit. 'Die erste Strophe' (the first stanza). German poetry analysis always counts Strophen and Verse."
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "From Old French 'rime.' Der Reim.\\n'Sich einen Reim auf etwas machen' = to make sense of something."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "From Old French 'rime.' 'Sich einen Reim auf etwas machen' (to make a rhyme out of something) means to make sense of something. German children learn Reime (nursery rhymes) early."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "From Greek 'lyrikos' (of the lyre). One of the three Gattungen.\\nPersonal, emotional, rhythmic."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "One of the three Gattungen (genres) of literature. Lyrik is personal, emotional, rhythmic. German Lyrik from Goethe to Celan is world-renowned. From Greek 'lyrikos' (of the lyre)."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Latin 'prosa' (straightforward). Non-verse writing.\\n'Prosaisch' means both 'in prose' and 'unimaginative.'"
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Latin 'prosa' (straightforward). The opposite of poetry. 'Prosaisch' as an adjective means both 'in prose' and 'unimaginative.' Context decides which meaning."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "From French 'roman.' Masculine. Der Bildungsroman\\n(coming-of-age novel) is a German literary invention."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "From French 'roman' (novel). 'Der Bildungsroman' (coming-of-age novel) is a German literary invention. Thomas Mann's novels are landmarks of German Roman tradition."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Kurz (short) + Geschichte (story). Die Kurzgeschichte.\\nPost-war German literature excelled at Kurzgeschichten."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Kurz' (short) + 'Geschichte' (story). Post-war German literature excelled at Kurzgeschichten. Heinrich Boell and Wolfgang Borchert wrote defining examples of the form."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "From Italian 'novella.' In German literary theory, a Novelle\\nhas strict features: central conflict, turning point, symbolic 'Falke.'"
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "From Italian 'novella' (short new story). In German literary theory, a Novelle has specific features: a central conflict, a turning point, and a 'Falke' (falcon, a symbolic object). Stricter than a Kurzgeschichte."
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "From Greek 'drama' (action/deed). One of the three Gattungen.\\n'Kein Drama!' = No big deal! (slang)."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "One of the three Gattungen. Schiller and Brecht are Germany's great Dramatiker. 'Kein Drama!' (No drama!) is also everyday slang for 'no big deal.'"
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "From Latin 'fabula' (story). Animal stories with moral lessons.\\nAlso means 'plot': die Fabel des Romans."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "From Latin 'fabula' (story). Animal stories with moral lessons. German fables by Lessing are classics. The word also means 'plot': 'Die Fabel des Romans' (the plot of the novel). Double meaning."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Three literary Gattungen: Epik (prose), Lyrik (poetry),\\nDramatik (drama). Every text belongs to one of these."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "The three literary Gattungen: Epik (prose fiction), Lyrik (poetry), Dramatik (drama). Every text belongs to one. This system comes from ancient Greek poetics and German schools still teach it."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Germanic 'werk.' Das Werk von Kafka = the works of Kafka.\\nAlso: factory (Automobilwerk)."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Germanic 'werk' (work/creation). 'Das Werk von Kafka' (the works of Kafka). Also: factory ('Automobilwerk'). A completed creation, the result of labor."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "From handeln (to act). 'Die Handlung spielt in Berlin.'\\nAlso: a physical shop (Buchhandlung = bookshop)."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "From 'handeln' (to act). 'Die Handlung spielt in Berlin' (The plot takes place in Berlin). Also: a physical shop ('Buchhandlung' = bookshop). The thread of events in a story."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Haupt (main) + Figur (figure/character). Die Hauptfigur.\\n'Wer ist die Hauptfigur?' is the first question in Literaturunterricht."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "'Haupt' (main) + 'Figur' (figure/character). 'Wer ist die Hauptfigur?' (Who is the main character?) is the first question in German Literaturunterricht."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Schau (show/view) + Platz (place). Der Schauplatz.\\nWhere the story unfolds. Literally a 'show-place.'"
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "'Schau' (show/view) + 'Platz' (place). 'Der Schauplatz der Handlung' (the setting of the plot). Where the story unfolds. Literally a 'show-place.'"
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "From Greek 'epoche' (stopping point). German literary history\\nis organized by Epochen: Klassik, Romantik, Expressionismus."
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "From Greek 'epoche' (stopping point). German literary history is organized by Epochen: Klassik, Romantik, Expressionismus. Each Epoche has defining characteristics."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "In literary theory: belonging to Epik (narrative prose).\\nIn slang: 'Das war episch!' (That was epic!)."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "Both formal literary term and modern youth slang. In literary theory: belonging to Epik (narrative prose). In slang: 'Das war episch!' (That was epic!). From Greek 'epikos.'"
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "From Greek 'lyrikos.' Belonging to Lyrik.\\n'Lyrische Sprache' is emotionally charged and rhythmic."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "From Greek 'lyrikos.' 'Lyrische Sprache' (lyrical language) is emotionally charged and rhythmic. Also used loosely: 'ein lyrischer Moment' (a lyrical moment)."
+  },
+  {
+    "line": 70,
+    "field": "note",
+    "english": "From Dichter + -isch. 'Dichterische Freiheit' = poetic license.\\nThe adjective form of being a Dichter."
+  },
+  {
+    "line": 70,
+    "field": "funFact",
+    "english": "From 'Dichter' + '-isch.' 'Dichterische Freiheit' (poetic license) means a writer can bend rules for art. 'Dichterisch begabt' (poetically gifted). The adjective form of being a Dichter."
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From Latin 'citatum.' Ein bekanntes Zitat = a famous quote.\\n'Zitat Ende' is said aloud in speeches."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "From Latin 'citatum' (something cited). 'Zitat Ende' (end quote) is said aloud in speeches. German essays always require Zitate with proper attribution."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From Latin 'contextus' (weaving together). Der Kontext.\\n'Aus dem Kontext gerissen' = taken out of context."
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "From Latin 'contextus' (weaving together). 'Im Kontext betrachtet' (viewed in context) changes meaning. 'Aus dem Kontext gerissen' = taken out of context."
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "From Latin 'perspectivus.' Die Perspektive.\\nLiterary analysis always asks: whose Perspektive is this?"
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "From Latin 'perspectivus' (of looking through). 'Aus Heinrichs Perspektive' (from Heinrich's perspective). Literary analysis always asks: whose Perspektive is this?"
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "From Latin 'motivum' (moving). A recurring element in a text.\\nAlso means 'motive' for an action."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "From Latin 'motivum' (moving). A recurring element in a text. 'Das Brot-Motiv' (the bread motif) runs through Heinrich's stories. Also means 'motive' for an action."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "From Greek 'symbolon' (token/sign). Das Symbol.\\nSomething concrete that represents something abstract."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "From Greek 'symbolon' (token/sign). 'Brot ist ein Symbol für Gemeinschaft' (Bread is a symbol of community). Something concrete that represents something abstract."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "From vergleichen (to compare). A simile uses 'wie' (like).\\nDifferent from Metapher: Vergleich states likeness, not identity."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "A simile uses 'wie' (like) or 'als' (as). Different from a Metapher, which states identity directly. 'Ein Vergleich: Das Leben ist wie ein Buch.'"
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Wort (word) + Spiel (game/play). Das Wortspiel.\\nGermans love Wortspiele despite their reputation for no humor."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Wort' (word) + 'Spiel' (game/play). Germans love Wortspiele, though they are famously accused of having no humor. 'Ein gelungenes Wortspiel' (a successful pun) earns groans and respect."
+  },
+  {
+    "line": 106,
+    "field": "note",
+    "english": "Doppel (double) + Deutigkeit (meaning-ness).\\nMany Sprichwörter work through Doppeldeutigkeit."
+  },
+  {
+    "line": 106,
+    "field": "funFact",
+    "english": "'Doppel' (double) + 'Deutigkeit' (meaning-ness). Having two possible interpretations. Many Sprichwörter work through Doppeldeutigkeit."
+  },
+  {
+    "line": 107,
+    "field": "note",
+    "english": "From anspielen auf (to allude to). An indirect reference.\\nSubtlety as art. Rewards those who recognize it."
+  },
+  {
+    "line": 107,
+    "field": "funFact",
+    "english": "From 'anspielen auf' (to allude to). 'Eine Anspielung auf Goethe' (an allusion to Goethe). Indirect reference that rewards those who recognize it. Subtlety as art."
+  },
+  {
+    "line": 108,
+    "field": "note",
+    "english": "From Latin 'lectura' (reading). Die Lektüre.\\n'Pflichtlektüre' = required reading."
+  },
+  {
+    "line": 108,
+    "field": "funFact",
+    "english": "From Latin 'lectura' (reading). 'Pflichtlektüre' (required reading) is what German students must read. The word means both the text and the act of reading it."
+  },
+  {
+    "line": 109,
+    "field": "note",
+    "english": "An + geblich (from geben). Signals doubt about what is reported.\\nA distancing adverb for unverified claims."
+  },
+  {
+    "line": 109,
+    "field": "funFact",
+    "english": "Signals doubt about what is being reported. 'Angeblich hat er um vier Uhr angefangen' casts doubt on the claim. A distancing adverb."
+  },
+  {
+    "line": 110,
+    "field": "note",
+    "english": "An + scheinend (appearing). Based on appearances.\\nSlightly less certain than offenbar, more than angeblich."
+  },
+  {
+    "line": 110,
+    "field": "funFact",
+    "english": "'An' + 'scheinend' (appearing). Based on appearances. Slightly less certain than 'offenbar' but more confident than 'angeblich.' The scale: angeblich < anscheinend < offenbar."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Bekannt (known) + -lich. Signals shared knowledge.\\nAcademic and journalistic register."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "'Bekannt' (known) + '-lich.' Signals shared knowledge. The speaker assumes everyone knows this. Academic and journalistic register."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Offen (open) + -bar (visible). Something openly visible.\\nStronger than anscheinend, weaker than sicher."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "'Offen' (open) + 'bar' (visible/bearable). Something openly visible. Stronger than 'anscheinend,' weaker than 'sicher.'"
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Originally 'loud,' but as preposition: 'according to.'\\nLaut + dative/genitive. Compact attribution."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "Originally 'loud,' but as a preposition: 'according to.' 'Laut Heinrich begann der Tag um vier.' A compact way to attribute a statement. Preposition + dative or genitive."
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "Be- + haupten (from Haupt = head). Not separable.\\nImplies the statement may not be verified."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "'Be-' + 'haupten' (from 'Haupt' = head). To claim, to assert. Implies the statement may not be verified. Not separable."
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Be- + richten (to direct/set right). Factual reporting.\\nMore neutral than behaupten. Not separable."
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "'Be-' + 'richten' (to direct/set right). Factual reporting. More neutral than 'behaupten.' Not separable. 'Bericht' (report) is the noun."
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "Be- + Ton (tone/emphasis). Placing weight on something.\\nNot separable. 'Betonung' is the noun."
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "'Be-' + 'Ton' (tone/emphasis). Placing tone/weight on something. Not separable. 'Betonung' (emphasis, stress) is the noun."
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "From Schild (sign/shield). More vivid than beschreiben.\\nPainting a picture with words."
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "From 'Schild' (sign/shield). More vivid than 'beschreiben.' Painting a picture with words. Originally: to paint a sign. 'Er schildert die Backstube in allen Details.'"
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "From old German 'meinen' (to think/intend).\\n'Was meinen Sie?' = What do you think?"
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "'Was meinen Sie?' (What do you think?) is the polite way to ask for an opinion. 'Er meinte, die alten Zeiten seien besser gewesen' uses Konjunktiv I for indirect speech."
+  },
+  {
+    "line": 155,
+    "field": "note",
+    "english": "From erzählen (to narrate). Der Erzaehler.\\nIn Literaturanalyse: 'der allwissende Erzaehler' = omniscient narrator."
+  },
+  {
+    "line": 155,
+    "field": "funFact",
+    "english": "In literary analysis: 'der allwissende Erzaehler' (the omniscient narrator) knows everything. 'Der Ich-Erzaehler' narrates in first person. Heinrich is a natural Erzaehler."
+  },
+  {
+    "line": 156,
+    "field": "note",
+    "english": "Erzaehler + -in. Die Erzaehlerin.\\n'Die unzuverlässiige Erzaehlerin' = the unreliable narrator."
+  },
+  {
+    "line": 156,
+    "field": "funFact",
+    "english": "'Die unzuverlässiige Erzaehlerin' (the unreliable narrator) is a literary device. The reader cannot fully trust what she reports. The -in suffix creates the feminine form."
+  },
+  {
+    "line": 157,
+    "field": "note",
+    "english": "Neben (beside/secondary) + Figur (figure/character).\\nThe supporting cast. Essential but not the star."
+  },
+  {
+    "line": 157,
+    "field": "funFact",
+    "english": "'Neben' (beside/secondary) + 'Figur' (figure/character). 'Nebenfiguren bereichern die Handlung' (Secondary characters enrich the plot). Not the star, but essential."
+  },
+  {
+    "line": 158,
+    "field": "note",
+    "english": "From Greek 'tragodia' (goat song). Die Tragödie.\\nSchiller's 'Die Raeuber' and Goethe's 'Faust' are world literature."
+  },
+  {
+    "line": 158,
+    "field": "funFact",
+    "english": "From Greek 'tragodia' (goat song). One of the oldest dramatic forms. German Tragödien by Schiller and Goethe are world literature. 'Das ist eine Tragödie!' is also everyday drama."
+  },
+  {
+    "line": 159,
+    "field": "note",
+    "english": "From Greek 'poiesis' (making/creating). Broader than Lyrik:\\nPoesie is the beauty and art in language itself."
+  },
+  {
+    "line": 159,
+    "field": "funFact",
+    "english": "From Greek 'poiesis' (making/creating). Broader than Lyrik: Poesie is the beauty and art in language itself. 'Alltägliche Poesie' (everyday poetry) is found in Sprichwörter."
+  },
+  {
+    "line": 160,
+    "field": "note",
+    "english": "Schrift (writing) + Steller (one who places). Der Schriftsteller.\\nMore prestige than 'Autor.'"
+  },
+  {
+    "line": 160,
+    "field": "funFact",
+    "english": "'Schrift' (writing) + 'Steller' (one who places). More prestige than 'Autor': a Schriftsteller creates literary works. 'Freier Schriftsteller' (freelance writer) is a German tax category."
+  },
+  {
+    "line": 161,
+    "field": "note",
+    "english": "Schriftsteller + -in. Die Schriftstellerin.\\nHerta Mueller (Nobel Prize), Juli Zeh: great Schriftstellerinnen."
+  },
+  {
+    "line": 161,
+    "field": "funFact",
+    "english": "Christa Wolf, Herta Mueller (Nobel Prize), Juli Zeh: Germany's great Schriftstellerinnen shape contemporary German literature. The -in suffix creates the feminine form."
+  },
+  {
+    "line": 162,
+    "field": "note",
+    "english": "Zeit (time) + Genosse (companion). Der Zeitgenosse.\\nSomeone who lives in the same era."
+  },
+  {
+    "line": 162,
+    "field": "funFact",
+    "english": "'Zeit' (time) + 'Genosse' (companion). 'Goethes Zeitgenossen' (Goethe's contemporaries). Also colloquially: 'ein seltsamer Zeitgenosse' (a strange fellow)."
+  },
+  {
+    "line": 163,
+    "field": "note",
+    "english": "From Latin 'fictivus' (feigned). The opposite of real/wahr.\\n'Fiktive Figuren' do not exist but feel real."
+  },
+  {
+    "line": 163,
+    "field": "funFact",
+    "english": "From Latin 'fictivus' (feigned). 'Eine fiktive Geschichte' (a fictional story). The opposite of 'real' or 'wahr.' Fictional characters do not exist but feel real in good literature."
+  },
+  {
+    "line": 164,
+    "field": "note",
+    "english": "From Latin 'classicus.' In German: 'die Klassik' is a specific\\nEpoche (Goethe and Schiller era, ~1786-1832)."
+  },
+  {
+    "line": 164,
+    "field": "funFact",
+    "english": "'Die Klassik' is a specific Epoche in German literary history (Goethe and Schiller era, ~1786-1832). Also everyday: 'Das ist klassisch!' (That is classic/typical!)."
+  },
+  {
+    "line": 165,
+    "field": "note",
+    "english": "From Greek 'tragikos.' Related to Tragödie.\\n'Tragischerweise' (tragically) is the adverb."
+  },
+  {
+    "line": 165,
+    "field": "funFact",
+    "english": "From Greek 'tragikos.' Related to Tragödie. 'Tragischerweise' (tragically) is the adverb. Heinrich's stories sometimes have tragische Elemente."
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "From Latin 'satiricus.' Using humor to critique society.\\nGerman Satire tradition: from Heinrich Heine to Jan Boehmermann."
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "German Satire has a long tradition: from Heinrich Heine to Jan Boehmermann. 'Ein satirischer Kommentar' uses humor to critique society."
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "From Greek 'eironeia' (dissimulation). Saying the opposite\\nof what you mean. German Ironie is just more subtle."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "From Greek 'eironeia' (dissimulation). Saying the opposite of what you mean. Germans are accused of not understanding irony, but German Ironie is just more subtle."
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "Humor + voll (full of). German humor exists.\\nIt is just structured differently."
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "'Humor' + 'voll' (full of). German humor exists. It is just structured differently. Heinrich's stories are humorvoll in a dry, warm way."
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "From Metapher + -isch. 'Metaphorisch gesprochen'\\nintroduces a figurative comparison."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "From 'Metapher' + '-isch.' 'Metaphorisch gesprochen' (metaphorically speaking) introduces a figurative comparison. 'Brot als metaphorisches Symbol' in Heinrich's tales."
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Sinn (sense/meaning) + Bild (image) + -lich.\\nA German alternative to 'symbolisch.' Image carries meaning."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "'Sinn' (sense/meaning) + 'Bild' (image) + '-lich.' 'Sinnbildlich für das Leben' (symbolic of life). A German alternative to 'symbolisch.' The image (Bild) carries meaning (Sinn)."
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "Als (as) + ob (if/whether). Introduces unreal comparison.\\nAlways followed by Konjunktiv II. Verb goes to END."
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "'Als' (as) + 'ob' (if/whether). 'Er tut als ob er alles wüsste' (He acts as if he knew everything). Always followed by Konjunktiv II. Verb goes to the END of the clause."
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "Als + wenn. Same meaning as als ob. Slightly more colloquial.\\nSame grammar: Konjunktiv II, verb at end."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "'Als' + 'wenn.' Same meaning as 'als ob': as if. Slightly more colloquial. Same grammar: Konjunktiv II, verb at end."
+  },
+  {
+    "line": 173,
+    "field": "note",
+    "english": "Wie (how/like) + wenn (if/when). The most informal variant.\\n'Es fühlt sich an, wie wenn man nach Hause kommt.'"
+  },
+  {
+    "line": 173,
+    "field": "funFact",
+    "english": "'Wie' (how/like) + 'wenn' (if/when). The most informal of the three. Same structure as als ob/als wenn but with 'wie' instead of 'als.'"
+  },
+  {
+    "line": 174,
+    "field": "note",
+    "english": "Als + wäre (Konjunktiv II of sein). The SHORT form:\\nals alone, verb directly after (inversion). No ob/wenn needed."
+  },
+  {
+    "line": 174,
+    "field": "funFact",
+    "english": "The SHORT form: 'als' alone, with verb directly after (inversion). No 'ob' or 'wenn' needed. More elegant and literary. 'Er spricht, als wäre er ein Experte.'"
+  },
+  {
+    "line": 203,
+    "field": "note",
+    "english": "From Latin 'existere' (to stand out, to come into being).\\nRegular -ieren verb. 'Noch existieren' = to still exist."
+  },
+  {
+    "line": 203,
+    "field": "funFact",
+    "english": "From Latin 'existere' (to stand out, to come into being). Borrowed into German via French. 'Die Existenz' (existence) is the noun. 'Das existenzielle Problem' (the existential problem). German Existenzphilosophie (existentialism) made this root famous worldwide."
+  },
+  {
+    "line": 223,
+    "field": "note",
+    "english": "Feminine noun. From 'üben' (to practice).\\n'Übung macht den Meister' (practice makes the master)."
+  },
+  {
+    "line": 223,
+    "field": "funFact",
+    "english": "'Übung macht den Meister' is one of Germany's most beloved Sprichwörter. Every German knows it by heart. The word comes from 'üben' (to practice), and the -ung suffix creates a feminine action noun."
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "english": "Sprich (speak) + Wort (word). A complete sentence of folk wisdom.\\nDas Sprichwort. Plural: die Sprichwörter.",
+    "arabic": "Sprich (تكلم) + Wort (كلمة). جملة كاملة من الحكمة الشعبية.\\nDas Sprichwort. الجمع: die Sprichwörter."
+  },
+  {
+    "english": "Literally a 'speak-word.' German has thousands of Sprichwörter, many dating back centuries. 'Morgenstund hat Gold im Mund' is one of the oldest. A Sprichwort is always a complete sentence of wisdom.",
+    "arabic": "حرفياً 'كلمة المتكلم'. تمتلك اللغة الألمانية آلاف Sprichwörter، كثير منها يعود إلى قرون مضت. 'Morgenstund hat Gold im Mund' من أقدمها. Sprichwort دائماً جملة حكمة كاملة."
+  },
+  {
+    "english": "Rede (speech) + Wendung (turn). A fixed phrase used in sentences.\\nDifferent from Sprichwort: not a complete sentence of wisdom.",
+    "arabic": "Rede (خطاب) + Wendung (انعطاف). عبارة ثابتة تُستخدم داخل الجمل.\\nتختلف عن Sprichwort: فهي ليست جملة حكمة كاملة."
+  },
+  {
+    "english": "Literally a 'speech-turn.' A Redewendung is a fixed phrase you use inside sentences, while a Sprichwort stands alone as a complete sentence. 'Ins Fettnäpfchen treten' is a Redewendung, not a Sprichwort.",
+    "arabic": "حرفياً 'انعطاف الخطاب'. Redewendung عبارة ثابتة تستخدمها داخل الجمل، بينما Sprichwort يقف وحده جملةً كاملة. 'Ins Fettnäpfchen treten' هي Redewendung وليست Sprichwort."
+  },
+  {
+    "english": "From weise (wise) + -heit (state of being). Die Weisheit.\\nThe -heit suffix always creates feminine abstract nouns.",
+    "arabic": "من weise (حكيم) + -heit (حالة الوجود). Die Weisheit.\\nلاحقة -heit تُنشئ دائماً أسماء مجردة مؤنثة."
+  },
+  {
+    "english": "From 'weise' (wise) + '-heit' (state of being). 'Alte Weisheit' (ancient wisdom) is what Sprichwörter carry. 'Weisheitszahn' (wisdom tooth) is the bonus compound. The -heit suffix always makes feminine abstract nouns.",
+    "arabic": "من 'weise' (حكيم) + '-heit' (حالة الوجود). 'Alte Weisheit' (الحكمة القديمة) هو ما تحمله Sprichwörter. 'Weisheitszahn' (ضرس العقل) مركب إضافي. لاحقة -heit تُنشئ دائماً أسماء مجردة مؤنثة."
+  },
+  {
+    "english": "Reden (to speak) + Art (kind/manner). Broader than Redewendung.\\nAny characteristic way of expressing something.",
+    "arabic": "Reden (التحدث) + Art (نوع/أسلوب). أوسع من Redewendung.\\nأي طريقة مميزة للتعبير عن شيء ما."
+  },
+  {
+    "english": "'Reden' (to speak) + 'Art' (kind/manner). Broader than Redewendung. Any characteristic way of expressing something. 'Das ist so eine Redensart' dismisses literal interpretation.",
+    "arabic": "'Reden' (التحدث) + 'Art' (نوع/أسلوب). أوسع من Redewendung. أي طريقة مميزة للتعبير عن شيء ما. 'Das ist so eine Redensart' يرفض التفسير الحرفي."
+  },
+  {
+    "english": "From Maer (old word for story) + -chen (diminutive). Das Maerchen.\\nThe diminutive suffix makes it neuter.",
+    "arabic": "من Maer (كلمة قديمة للقصة) + -chen (تصغير). Das Maerchen.\\nلاحقة التصغير تجعله محايداً."
+  },
+  {
+    "english": "The Brothers Grimm collected German Maerchen and made them world-famous. The diminutive '-chen' suffix gives it neuter gender and a gentle quality. From 'Maer,' an old word for story or news.",
+    "arabic": "جمع الأخوان غريم Maerchen الألمانية وجعلاها مشهورة عالمياً. لاحقة التصغير '-chen' تمنحها جنساً محايداً وطابعاً لطيفاً. من 'Maer'، كلمة قديمة تعني القصة أو الأخبار."
+  },
+  {
+    "english": "From erzählen (to narrate). More literary than Geschichte.\\nA short literary work. Kurzerzählung = short story.",
+    "arabic": "من erzählen (السرد). أكثر أدبية من Geschichte.\\nعمل أدبي قصير. Kurzerzählung = قصة قصيرة."
+  },
+  {
+    "english": "More literary than 'Geschichte' (story/history). A short literary work. 'Kurzerzählung' = short story. The formal word for narrative fiction. From 'erzählen' (to tell/narrate).",
+    "arabic": "أكثر أدبية من 'Geschichte' (قصة/تاريخ). عمل أدبي قصير. 'Kurzerzählung' = قصة قصيرة. الكلمة الرسمية للنثر السردي. من 'erzählen' (الرواية/السرد)."
+  },
+  {
+    "english": "From Greek 'metaphora' (transfer). Feminine in German.\\n'Das Leben ist eine Reise' is a classic Metapher.",
+    "arabic": "من اليونانية 'metaphora' (نقل). مؤنثة في الألمانية.\\n'Das Leben ist eine Reise' استعارة كلاسيكية."
+  },
+  {
+    "english": "From Greek 'metaphora' (transfer). Feminine in German, though many learners guess neuter. 'Das Leben ist eine Reise' is a classic Metapher. German literary analysis loves identifying Metaphern in texts.",
+    "arabic": "من اليونانية 'metaphora' (نقل). مؤنثة في الألمانية رغم أن كثيرين يخمنون أنها محايدة. 'Das Leben ist eine Reise' استعارة كلاسيكية. يحب التحليل الأدبي الألماني تحديد Metaphern في النصوص."
+  },
+  {
+    "english": "From gleich (same/equal) + -nis (abstract noun suffix).\\nBiblical parables are Gleichnisse.",
+    "arabic": "من gleich (نفس/مساوٍ) + -nis (لاحقة الاسم المجرد).\\nالأمثال الإنجيلية هي Gleichnisse."
+  },
+  {
+    "english": "From 'gleich' (same/equal) + '-nis' (abstract noun suffix). Biblical parables are 'Gleichnisse.' Heinrich's bakery stories are Gleichnisse: simple tales carrying deeper meaning.",
+    "arabic": "من 'gleich' (نفس/مساوٍ) + '-nis' (لاحقة الاسم المجرد). الأمثال الإنجيلية هي 'Gleichnisse'. قصص مخبزة هاينريش هي Gleichnisse: حكايات بسيطة تحمل معنى أعمق."
+  },
+  {
+    "english": "From dichten (to compose poetry). Der Dichter.\\nGoethe is 'der groesste deutsche Dichter.'",
+    "arabic": "من dichten (نظم الشعر). Der Dichter.\\nغوته هو 'der groesste deutsche Dichter'."
+  },
+  {
+    "english": "'Dichter und Denker' (poets and thinkers) is how Germans describe their cultural tradition. The word covers poets and literary authors. Goethe is 'der groesste deutsche Dichter' (the greatest German poet).",
+    "arabic": "'Dichter und Denker' (الشعراء والمفكرون) هو كيف يصف الألمان تقليدهم الثقافي. الكلمة تشمل الشعراء والكتّاب الأدبيين. غوته هو 'der groesste deutsche Dichter' (أعظم شاعر ألماني)."
+  },
+  {
+    "english": "Dichter + -in. Die Dichterin.\\nAnnette von Droste-Huelshoff, Ingeborg Bachmann.",
+    "arabic": "Dichter + -in. Die Dichterin.\\nأنيته فون دروستيه-هولسهوف، إنغبورغ باخمان."
+  },
+  {
+    "english": "Annette von Droste-Huelshoff, Else Lasker-Schüler, Ingeborg Bachmann: Germany's great Dichterinnen deserve the title. The -in suffix consistently creates feminine forms for professions.",
+    "arabic": "أنيته فون دروستيه-هولسهوف، إيلزه لاسكر-شولر، إنغبورغ باخمان: عظيمات Dichterinnen في ألمانيا يستحققن اللقب. لاحقة -in تُنشئ باستمرار الصيغة المؤنثة للمهن."
+  },
+  {
+    "english": "From Latin 'litterarius.' Literarische Werke = literary works.\\n'Ein literarischer Abend' is a German cultural tradition.",
+    "arabic": "من اللاتينية 'litterarius'. Literarische Werke = أعمال أدبية.\\n'Ein literarischer Abend' تقليد ثقافي ألماني."
+  },
+  {
+    "english": "From Latin 'litterarius.' 'Ein literarischer Abend' (a literary evening) is a German cultural tradition: readings, wine, and discussion. 'Literarische Werke' (literary works) is the standard term.",
+    "arabic": "من اللاتينية 'litterarius'. 'Ein literarischer Abend' (أمسية أدبية) تقليد ثقافي ألماني: قراءات ونبيذ ونقاش. 'Literarische Werke' (أعمال أدبية) المصطلح القياسي."
+  },
+  {
+    "english": "From Greek 'poietikos' (creative). Poetische Sprache\\nuses imagery, rhythm, and metaphor.",
+    "arabic": "من اليونانية 'poietikos' (إبداعي). Poetische Sprache\\nتستخدم الصور والإيقاع والاستعارة."
+  },
+  {
+    "english": "From Greek 'poietikos' (creative). 'Poetische Sprache' uses imagery, rhythm, and metaphor. 'Das klingt sehr poetisch' is both a compliment and sometimes gentle teasing.",
+    "arabic": "من اليونانية 'poietikos' (إبداعي). 'Poetische Sprache' تستخدم الصور والإيقاع والاستعارة. 'Das klingt sehr poetisch' إطراء وأحياناً مداعبة لطيفة."
+  },
+  {
+    "english": "Zeit (time) + -los (without). Timeless.\\nThe -los suffix always means 'without': endlos, grenzenlos.",
+    "arabic": "Zeit (زمن) + -los (بدون). خارج الزمن.\\nلاحقة -los تعني دائماً 'بدون': endlos, grenzenlos."
+  },
+  {
+    "english": "'Zeit' (time) + '-los' (without). Timeless. 'Zeitlose Weisheit' is what good Sprichwörter carry. They outlive the people who coined them. The -los suffix always means 'without': zeitlos, endlos, grenzenlos.",
+    "arabic": "'Zeit' (زمن) + '-los' (بدون). خارج الزمن. 'Zeitlose Weisheit' هو ما تحمله Sprichwörter الجيدة. فهي تعيش أطول من أصحابها. لاحقة -los تعني دائماً 'بدون': zeitlos, endlos, grenzenlos."
+  },
+  {
+    "english": "Volk (people/folk) + tuemlch (characteristic of).\\nCarries warmth and earthiness.",
+    "arabic": "Volk (شعب/فلك) + tuemlch (مميز لـ).\\nيحمل دفئاً وطابعاً شعبياً."
+  },
+  {
+    "english": "'Volk' (people/folk) + 'tuemlch' (characteristic of). 'Volkstümlche Sprichwörter' come from ordinary people, not scholars. The word carries warmth and earthiness.",
+    "arabic": "'Volk' (شعب/فلك) + 'tuemlch' (مميز لـ). 'Volkstümlche Sprichwörter' تأتي من الناس العاديين لا من العلماء. الكلمة تحمل دفئاً وطابعاً أرضياً."
+  },
+  {
+    "english": "Über (over) + liefert (delivered). Past participle of überliefern.\\n'Mündlich überliefert' = orally transmitted.",
+    "arabic": "Über (فوق) + liefert (سُلِّم). اسم المفعول من überliefern.\\n'Mündlich überliefert' = منقول شفهياً."
+  },
+  {
+    "english": "'Über' (over) + 'liefert' (delivered). Past participle of 'überliefern.' 'Mündlich überliefert' (orally transmitted) describes how proverbs survived before writing. Delivered over the generations.",
+    "arabic": "'Über' (فوق) + 'liefert' (سُلِّم). اسم المفعول من 'überliefern'. 'Mündlich überliefert' (منقول شفهياً) يصف كيف نجت الأمثال قبل الكتابة. مُسلَّم عبر الأجيال."
+  },
+  {
+    "english": "Not separable. Different from sagen (to say):\\nerzählen implies a story, sagen implies a statement.",
+    "arabic": "غير قابل للفصل. يختلف عن sagen (القول):\\nerzählen يعني قصة، sagen يعني تصريحاً."
+  },
+  {
+    "english": "From old German 'irzellen' (to recount). Not separable. Different from 'sagen' (to say): erzählen implies a narrative with beginning, middle, and end. Sagen implies a single statement.",
+    "arabic": "من الألمانية القديمة 'irzellen' (الحكاية). غير قابل للفصل. يختلف عن 'sagen' (القول): erzählen يعني سرداً له بداية ووسط ونهاية. Sagen يعني تصريحاً واحداً."
+  },
+  {
+    "english": "From Latin 'dictare' (to dictate). Not separable.\\nAlso colloquially: 'Das ist gedichtet!' (That is made up!).",
+    "arabic": "من اللاتينية 'dictare' (الإملاء). غير قابل للفصل.\\nوعامياً: 'Das ist gedichtet!' (هذا مخترع!)."
+  },
+  {
+    "english": "From Latin 'dictare' (to dictate). 'Goethe dichtete in Weimar.' Also colloquially: 'Das ist gedichtet!' (That is made up!). Creating with words. The verb behind Dichter and Dichtung.",
+    "arabic": "من اللاتينية 'dictare' (الإملاء). 'Goethe dichtete in Weimar.' وعامياً: 'Das ist gedichtet!' (هذا مخترع!). الإبداع بالكلمات. الفعل الأصل لـ Dichter و Dichtung."
+  },
+  {
+    "english": "From Latin 'citare' (to summon). Not separable.\\nEin Zitat (a quote) is the noun.",
+    "arabic": "من اللاتينية 'citare' (الاستدعاء). غير قابل للفصل.\\nEin Zitat (اقتباس) هو الاسم."
+  },
+  {
+    "english": "From Latin 'citare' (to summon). 'Ich zitiere Heinrich' (I quote Heinrich). Not separable. 'Ein Zitat' (a quote) is the noun. Germans love zitieren in academic and professional contexts.",
+    "arabic": "من اللاتينية 'citare' (الاستدعاء). 'Ich zitiere Heinrich' (أقتبس من هاينريش). غير قابل للفصل. 'Ein Zitat' (اقتباس) هو الاسم. يحب الألمان zitieren في السياقات الأكاديمية والمهنية."
+  },
+  {
+    "english": "From dichten (to compose). Das Gedicht. Neuter because of Ge- prefix.\\n'Ein Gedicht aufsagen' = to recite a poem.",
+    "arabic": "من dichten (النظم). Das Gedicht. محايد بسبب بادئة Ge-.\\n'Ein Gedicht aufsagen' = إلقاء قصيدة."
+  },
+  {
+    "english": "Neuter because of the Ge- prefix. 'Ein Gedicht aufsagen' (to recite a poem) is a German school tradition. Schiller's 'Die Buergschaft' is the classic recitation piece.",
+    "arabic": "محايد بسبب بادئة Ge-. 'Ein Gedicht aufsagen' (إلقاء قصيدة) تقليد مدرسي ألماني. 'Die Buergschaft' لشيلر هي العمل الكلاسيكي للإلقاء."
+  },
+  {
+    "english": "From Latin 'versus' (a turning, a line). Der Vers.\\nEach line in a poem is a Vers.",
+    "arabic": "من اللاتينية 'versus' (التحول، السطر). Der Vers.\\nكل سطر في القصيدة هو Vers."
+  },
+  {
+    "english": "From Latin 'versus' (a turning, a line). In German poetry, each line is a Vers. 'Freie Verse' (free verse) has no rhyme or fixed meter. 'Der erste Vers' sets the tone.",
+    "arabic": "من اللاتينية 'versus' (التحول، السطر). في الشعر الألماني كل سطر هو Vers. 'Freie Verse' (الشعر الحر) بلا قافية أو وزن ثابت. 'Der erste Vers' يحدد النبرة."
+  },
+  {
+    "english": "From Greek 'strophe' (turning). A group of Verse forming a unit.\\nGerman poetry analysis always counts Strophen.",
+    "arabic": "من اليونانية 'strophe' (التحول). مجموعة من Verse تُشكّل وحدة.\\nالتحليل الشعري الألماني يحسب دائماً Strophen."
+  },
+  {
+    "english": "From Greek 'strophe' (turning). A group of Verse forming a unit. 'Die erste Strophe' (the first stanza). German poetry analysis always counts Strophen and Verse.",
+    "arabic": "من اليونانية 'strophe' (التحول). مجموعة من Verse تُشكّل وحدة. 'Die erste Strophe' (المقطع الأول). التحليل الشعري الألماني يحسب دائماً Strophen و Verse."
+  },
+  {
+    "english": "From Old French 'rime.' Der Reim.\\n'Sich einen Reim auf etwas machen' = to make sense of something.",
+    "arabic": "من الفرنسية القديمة 'rime'. Der Reim.\\n'Sich einen Reim auf etwas machen' = إيجاد معنى لشيء ما."
+  },
+  {
+    "english": "From Old French 'rime.' 'Sich einen Reim auf etwas machen' (to make a rhyme out of something) means to make sense of something. German children learn Reime (nursery rhymes) early.",
+    "arabic": "من الفرنسية القديمة 'rime'. 'Sich einen Reim auf etwas machen' (صنع قافية من شيء) تعني إيجاد معنى لشيء ما. الأطفال الألمان يتعلمون Reime (أغاني الأطفال) مبكراً."
+  },
+  {
+    "english": "From Greek 'lyrikos' (of the lyre). One of the three Gattungen.\\nPersonal, emotional, rhythmic.",
+    "arabic": "من اليونانية 'lyrikos' (خاص بالقيثارة). واحدة من الـ Gattungen الثلاثة.\\nشخصية وعاطفية وإيقاعية."
+  },
+  {
+    "english": "One of the three Gattungen (genres) of literature. Lyrik is personal, emotional, rhythmic. German Lyrik from Goethe to Celan is world-renowned. From Greek 'lyrikos' (of the lyre).",
+    "arabic": "واحدة من الـ Gattungen الثلاثة (أنواع) في الأدب. Lyrik شخصية وعاطفية وإيقاعية. Lyrik الألمانية من غوته إلى تسيلان مشهورة عالمياً. من اليونانية 'lyrikos' (خاص بالقيثارة)."
+  },
+  {
+    "english": "From Latin 'prosa' (straightforward). Non-verse writing.\\n'Prosaisch' means both 'in prose' and 'unimaginative.'",
+    "arabic": "من اللاتينية 'prosa' (مباشر). كتابة غير شعرية.\\n'Prosaisch' تعني 'نثري' و'بلا إبداع' معاً."
+  },
+  {
+    "english": "From Latin 'prosa' (straightforward). The opposite of poetry. 'Prosaisch' as an adjective means both 'in prose' and 'unimaginative.' Context decides which meaning.",
+    "arabic": "من اللاتينية 'prosa' (مباشر). عكس الشعر. 'Prosaisch' كصفة تعني 'نثري' و'بلا إبداع' معاً. السياق يحدد المعنى."
+  },
+  {
+    "english": "From French 'roman.' Masculine. Der Bildungsroman\\n(coming-of-age novel) is a German literary invention.",
+    "arabic": "من الفرنسية 'roman'. مذكر. Der Bildungsroman\\n(رواية النشأة) اختراع أدبي ألماني."
+  },
+  {
+    "english": "From French 'roman' (novel). 'Der Bildungsroman' (coming-of-age novel) is a German literary invention. Thomas Mann's novels are landmarks of German Roman tradition.",
+    "arabic": "من الفرنسية 'roman' (رواية). 'Der Bildungsroman' (رواية النشأة) اختراع أدبي ألماني. روايات توماس مان معالم بارزة في تقليد Roman الألماني."
+  },
+  {
+    "english": "Kurz (short) + Geschichte (story). Die Kurzgeschichte.\\nPost-war German literature excelled at Kurzgeschichten.",
+    "arabic": "Kurz (قصير) + Geschichte (قصة). Die Kurzgeschichte.\\nتميّز الأدب الألماني ما بعد الحرب في Kurzgeschichten."
+  },
+  {
+    "english": "'Kurz' (short) + 'Geschichte' (story). Post-war German literature excelled at Kurzgeschichten. Heinrich Boell and Wolfgang Borchert wrote defining examples of the form.",
+    "arabic": "'Kurz' (قصير) + 'Geschichte' (قصة). تميّز الأدب الألماني ما بعد الحرب في Kurzgeschichten. كتب هاينريش بول وفولفغانغ بورشرت أمثلة معرِّفة للنوع."
+  },
+  {
+    "english": "From Italian 'novella.' In German literary theory, a Novelle\\nhas strict features: central conflict, turning point, symbolic 'Falke.'",
+    "arabic": "من الإيطالية 'novella'. في النظرية الأدبية الألمانية، لـ Novelle\\nخصائص صارمة: صراع محوري ونقطة تحول و'Falke' رمزي."
+  },
+  {
+    "english": "From Italian 'novella' (short new story). In German literary theory, a Novelle has specific features: a central conflict, a turning point, and a 'Falke' (falcon, a symbolic object). Stricter than a Kurzgeschichte.",
+    "arabic": "من الإيطالية 'novella' (قصة قصيرة جديدة). في النظرية الأدبية الألمانية، لـ Novelle خصائص محددة: صراع محوري ونقطة تحول و'Falke' (صقر، رمز). أكثر صرامة من Kurzgeschichte."
+  },
+  {
+    "english": "From Greek 'drama' (action/deed). One of the three Gattungen.\\n'Kein Drama!' = No big deal! (slang).",
+    "arabic": "من اليونانية 'drama' (فعل/حدث). واحدة من الـ Gattungen الثلاثة.\\n'Kein Drama!' = لا يهم! (عامية)."
+  },
+  {
+    "english": "One of the three Gattungen. Schiller and Brecht are Germany's great Dramatiker. 'Kein Drama!' (No drama!) is also everyday slang for 'no big deal.'",
+    "arabic": "واحدة من الـ Gattungen الثلاثة. شيلر وبريخت من عظام Dramatiker في ألمانيا. 'Kein Drama!' (لا دراما!) تُستخدم أيضاً في العامية اليومية بمعنى 'لا يهم'."
+  },
+  {
+    "english": "From Latin 'fabula' (story). Animal stories with moral lessons.\\nAlso means 'plot': die Fabel des Romans.",
+    "arabic": "من اللاتينية 'fabula' (قصة). قصص حيوانات ذات دروس أخلاقية.\\nتعني أيضاً 'الحبكة': die Fabel des Romans."
+  },
+  {
+    "english": "From Latin 'fabula' (story). Animal stories with moral lessons. German fables by Lessing are classics. The word also means 'plot': 'Die Fabel des Romans' (the plot of the novel). Double meaning.",
+    "arabic": "من اللاتينية 'fabula' (قصة). قصص حيوانات ذات دروس أخلاقية. حكايات ليسينغ الألمانية كلاسيكيات. الكلمة تعني أيضاً 'الحبكة': 'Die Fabel des Romans' (حبكة الرواية). معنى مزدوج."
+  },
+  {
+    "english": "Three literary Gattungen: Epik (prose), Lyrik (poetry),\\nDramatik (drama). Every text belongs to one of these.",
+    "arabic": "ثلاثة Gattungen أدبية: Epik (النثر)، Lyrik (الشعر)،\\nDramatik (المسرح). كل نص ينتمي إلى واحد منها."
+  },
+  {
+    "english": "The three literary Gattungen: Epik (prose fiction), Lyrik (poetry), Dramatik (drama). Every text belongs to one. This system comes from ancient Greek poetics and German schools still teach it.",
+    "arabic": "الـ Gattungen الثلاثة في الأدب: Epik (النثر الروائي)، Lyrik (الشعر)، Dramatik (المسرح). كل نص ينتمي إلى واحدة. هذا النظام مشتق من الشعرية اليونانية القديمة ولا تزال المدارس الألمانية تدرّسه."
+  },
+  {
+    "english": "From Germanic 'werk.' Das Werk von Kafka = the works of Kafka.\\nAlso: factory (Automobilwerk).",
+    "arabic": "من الجرمانية 'werk'. Das Werk von Kafka = أعمال كافكا.\\nأيضاً: مصنع (Automobilwerk)."
+  },
+  {
+    "english": "From Germanic 'werk' (work/creation). 'Das Werk von Kafka' (the works of Kafka). Also: factory ('Automobilwerk'). A completed creation, the result of labor.",
+    "arabic": "من الجرمانية 'werk' (عمل/خلق). 'Das Werk von Kafka' (أعمال كافكا). أيضاً: مصنع ('Automobilwerk'). إبداع مكتمل، نتاج العمل."
+  },
+  {
+    "english": "From handeln (to act). 'Die Handlung spielt in Berlin.'\\nAlso: a physical shop (Buchhandlung = bookshop).",
+    "arabic": "من handeln (التصرف). 'Die Handlung spielt in Berlin.'\\nأيضاً: متجر (Buchhandlung = مكتبة)."
+  },
+  {
+    "english": "From 'handeln' (to act). 'Die Handlung spielt in Berlin' (The plot takes place in Berlin). Also: a physical shop ('Buchhandlung' = bookshop). The thread of events in a story.",
+    "arabic": "من 'handeln' (التصرف). 'Die Handlung spielt in Berlin' (تدور الحبكة في برلين). أيضاً: متجر ('Buchhandlung' = مكتبة). خيط الأحداث في القصة."
+  },
+  {
+    "english": "Haupt (main) + Figur (figure/character). Die Hauptfigur.\\n'Wer ist die Hauptfigur?' is the first question in Literaturunterricht.",
+    "arabic": "Haupt (رئيسي) + Figur (شخصية). Die Hauptfigur.\\n'Wer ist die Hauptfigur?' أول سؤال في Literaturunterricht."
+  },
+  {
+    "english": "'Haupt' (main) + 'Figur' (figure/character). 'Wer ist die Hauptfigur?' (Who is the main character?) is the first question in German Literaturunterricht.",
+    "arabic": "'Haupt' (رئيسي) + 'Figur' (شخصية). 'Wer ist die Hauptfigur?' (من هي الشخصية الرئيسية؟) أول سؤال في Literaturunterricht الألماني."
+  },
+  {
+    "english": "Schau (show/view) + Platz (place). Der Schauplatz.\\nWhere the story unfolds. Literally a 'show-place.'",
+    "arabic": "Schau (عرض/منظر) + Platz (مكان). Der Schauplatz.\\nحيث تتكشف القصة. حرفياً 'مكان العرض'."
+  },
+  {
+    "english": "'Schau' (show/view) + 'Platz' (place). 'Der Schauplatz der Handlung' (the setting of the plot). Where the story unfolds. Literally a 'show-place.'",
+    "arabic": "'Schau' (عرض/منظر) + 'Platz' (مكان). 'Der Schauplatz der Handlung' (مسرح الحبكة). حيث تتكشف القصة. حرفياً 'مكان العرض'."
+  },
+  {
+    "english": "From Greek 'epoche' (stopping point). German literary history\\nis organized by Epochen: Klassik, Romantik, Expressionismus.",
+    "arabic": "من اليونانية 'epoche' (نقطة توقف). التاريخ الأدبي الألماني\\nمنظم بحسب Epochen: Klassik, Romantik, Expressionismus."
+  },
+  {
+    "english": "From Greek 'epoche' (stopping point). German literary history is organized by Epochen: Klassik, Romantik, Expressionismus. Each Epoche has defining characteristics.",
+    "arabic": "من اليونانية 'epoche' (نقطة توقف). التاريخ الأدبي الألماني منظم بحسب Epochen: Klassik, Romantik, Expressionismus. لكل Epoche خصائص مميزة."
+  },
+  {
+    "english": "In literary theory: belonging to Epik (narrative prose).\\nIn slang: 'Das war episch!' (That was epic!).",
+    "arabic": "في النظرية الأدبية: ينتمي إلى Epik (النثر السردي).\\nفي العامية: 'Das war episch!' (كانت ملحمية!)."
+  },
+  {
+    "english": "Both formal literary term and modern youth slang. In literary theory: belonging to Epik (narrative prose). In slang: 'Das war episch!' (That was epic!). From Greek 'epikos.'",
+    "arabic": "مصطلح أدبي رسمي وعامية شبابية حديثة معاً. في النظرية الأدبية: ينتمي إلى Epik (النثر السردي). في العامية: 'Das war episch!' (كانت ملحمية!). من اليونانية 'epikos'."
+  },
+  {
+    "english": "From Greek 'lyrikos.' Belonging to Lyrik.\\n'Lyrische Sprache' is emotionally charged and rhythmic.",
+    "arabic": "من اليونانية 'lyrikos'. ينتمي إلى Lyrik.\\n'Lyrische Sprache' مشحونة عاطفياً وإيقاعية."
+  },
+  {
+    "english": "From Greek 'lyrikos.' 'Lyrische Sprache' (lyrical language) is emotionally charged and rhythmic. Also used loosely: 'ein lyrischer Moment' (a lyrical moment).",
+    "arabic": "من اليونانية 'lyrikos'. 'Lyrische Sprache' (لغة غنائية) مشحونة عاطفياً وإيقاعية. تُستخدم أيضاً بمعنى فضفاض: 'ein lyrischer Moment' (لحظة غنائية)."
+  },
+  {
+    "english": "From Dichter + -isch. 'Dichterische Freiheit' = poetic license.\\nThe adjective form of being a Dichter.",
+    "arabic": "من Dichter + -isch. 'Dichterische Freiheit' = الحرية الشعرية.\\nالصيغة الصفتية لكون المرء Dichter."
+  },
+  {
+    "english": "From 'Dichter' + '-isch.' 'Dichterische Freiheit' (poetic license) means a writer can bend rules for art. 'Dichterisch begabt' (poetically gifted). The adjective form of being a Dichter.",
+    "arabic": "من 'Dichter' + '-isch'. 'Dichterische Freiheit' (الحرية الشعرية) تعني أن الكاتب يمكنه كسر القواعد من أجل الفن. 'Dichterisch begabt' (موهوب شعرياً). الصيغة الصفتية لكون المرء Dichter."
+  },
+  {
+    "english": "From Latin 'citatum.' Ein bekanntes Zitat = a famous quote.\\n'Zitat Ende' is said aloud in speeches.",
+    "arabic": "من اللاتينية 'citatum'. Ein bekanntes Zitat = اقتباس مشهور.\\n'Zitat Ende' تُقال بصوت عالٍ في الخطب."
+  },
+  {
+    "english": "From Latin 'citatum' (something cited). 'Zitat Ende' (end quote) is said aloud in speeches. German essays always require Zitate with proper attribution.",
+    "arabic": "من اللاتينية 'citatum' (شيء مقتبس). 'Zitat Ende' (نهاية الاقتباس) تُقال بصوت عالٍ في الخطب. المقالات الألمانية تتطلب دائماً Zitate مع نسب صحيح."
+  },
+  {
+    "english": "From Latin 'contextus' (weaving together). Der Kontext.\\n'Aus dem Kontext gerissen' = taken out of context.",
+    "arabic": "من اللاتينية 'contextus' (النسج معاً). Der Kontext.\\n'Aus dem Kontext gerissen' = مأخوذ خارج السياق."
+  },
+  {
+    "english": "From Latin 'contextus' (weaving together). 'Im Kontext betrachtet' (viewed in context) changes meaning. 'Aus dem Kontext gerissen' = taken out of context.",
+    "arabic": "من اللاتينية 'contextus' (النسج معاً). 'Im Kontext betrachtet' (في سياقه) يغيّر المعنى. 'Aus dem Kontext gerissen' = مأخوذ خارج السياق."
+  },
+  {
+    "english": "From Latin 'perspectivus.' Die Perspektive.\\nLiterary analysis always asks: whose Perspektive is this?",
+    "arabic": "من اللاتينية 'perspectivus'. Die Perspektive.\\nالتحليل الأدبي يسأل دائماً: من أي Perspektive هذا؟"
+  },
+  {
+    "english": "From Latin 'perspectivus' (of looking through). 'Aus Heinrichs Perspektive' (from Heinrich's perspective). Literary analysis always asks: whose Perspektive is this?",
+    "arabic": "من اللاتينية 'perspectivus' (النظر من خلال). 'Aus Heinrichs Perspektive' (من منظور هاينريش). التحليل الأدبي يسأل دائماً: من أي Perspektive هذا؟"
+  },
+  {
+    "english": "From Latin 'motivum' (moving). A recurring element in a text.\\nAlso means 'motive' for an action.",
+    "arabic": "من اللاتينية 'motivum' (المحرك). عنصر متكرر في النص.\\nتعني أيضاً 'دافع' للفعل."
+  },
+  {
+    "english": "From Latin 'motivum' (moving). A recurring element in a text. 'Das Brot-Motiv' (the bread motif) runs through Heinrich's stories. Also means 'motive' for an action.",
+    "arabic": "من اللاتينية 'motivum' (المحرك). عنصر متكرر في النص. 'Das Brot-Motiv' (موتيف الخبز) يتردد في قصص هاينريش. تعني أيضاً 'دافع' للفعل."
+  },
+  {
+    "english": "From Greek 'symbolon' (token/sign). Das Symbol.\\nSomething concrete that represents something abstract.",
+    "arabic": "من اليونانية 'symbolon' (رمز/علامة). Das Symbol.\\nشيء ملموس يمثل شيئاً مجرداً."
+  },
+  {
+    "english": "From Greek 'symbolon' (token/sign). 'Brot ist ein Symbol für Gemeinschaft' (Bread is a symbol of community). Something concrete that represents something abstract.",
+    "arabic": "من اليونانية 'symbolon' (رمز/علامة). 'Brot ist ein Symbol für Gemeinschaft' (الخبز رمز للمجتمع). شيء ملموس يمثل شيئاً مجرداً."
+  },
+  {
+    "english": "From vergleichen (to compare). A simile uses 'wie' (like).\\nDifferent from Metapher: Vergleich states likeness, not identity.",
+    "arabic": "من vergleichen (المقارنة). التشبيه يستخدم 'wie' (مثل).\\nيختلف عن Metapher: Vergleich يُثبت التشابه لا الهوية."
+  },
+  {
+    "english": "A simile uses 'wie' (like) or 'als' (as). Different from a Metapher, which states identity directly. 'Ein Vergleich: Das Leben ist wie ein Buch.'",
+    "arabic": "التشبيه يستخدم 'wie' (مثل) أو 'als' (كـ). يختلف عن Metapher التي تُثبت الهوية مباشرة. 'Ein Vergleich: Das Leben ist wie ein Buch.'"
+  },
+  {
+    "english": "Wort (word) + Spiel (game/play). Das Wortspiel.\\nGermans love Wortspiele despite their reputation for no humor.",
+    "arabic": "Wort (كلمة) + Spiel (لعبة). Das Wortspiel.\\nيحب الألمان Wortspiele رغم سمعتهم بانعدام الفكاهة."
+  },
+  {
+    "english": "'Wort' (word) + 'Spiel' (game/play). Germans love Wortspiele, though they are famously accused of having no humor. 'Ein gelungenes Wortspiel' (a successful pun) earns groans and respect.",
+    "arabic": "'Wort' (كلمة) + 'Spiel' (لعبة). يحب الألمان Wortspiele رغم اتهامهم المشهور بانعدام الفكاهة. 'Ein gelungenes Wortspiel' (توريةٌ ناجحة) يكسب تذمراً واحتراماً."
+  },
+  {
+    "english": "Doppel (double) + Deutigkeit (meaning-ness).\\nMany Sprichwörter work through Doppeldeutigkeit.",
+    "arabic": "Doppel (مضاعف) + Deutigkeit (دلالية). كثير من Sprichwörter تعمل من خلال Doppeldeutigkeit."
+  },
+  {
+    "english": "'Doppel' (double) + 'Deutigkeit' (meaning-ness). Having two possible interpretations. Many Sprichwörter work through Doppeldeutigkeit.",
+    "arabic": "'Doppel' (مضاعف) + 'Deutigkeit' (دلالية). وجود تفسيرين محتملين. كثير من Sprichwörter تعمل من خلال Doppeldeutigkeit."
+  },
+  {
+    "english": "From anspielen auf (to allude to). An indirect reference.\\nSubtlety as art. Rewards those who recognize it.",
+    "arabic": "من anspielen auf (الإيحاء بـ). إشارة غير مباشرة.\\nالدقة فنٌّ. تكافئ من يتعرف عليها."
+  },
+  {
+    "english": "From 'anspielen auf' (to allude to). 'Eine Anspielung auf Goethe' (an allusion to Goethe). Indirect reference that rewards those who recognize it. Subtlety as art.",
+    "arabic": "من 'anspielen auf' (الإيحاء بـ). 'Eine Anspielung auf Goethe' (تلميح إلى غوته). إشارة غير مباشرة تكافئ من يتعرف عليها. الدقة فنٌّ."
+  },
+  {
+    "english": "From Latin 'lectura' (reading). Die Lektüre.\\n'Pflichtlektüre' = required reading.",
+    "arabic": "من اللاتينية 'lectura' (القراءة). Die Lektüre.\\n'Pflichtlektüre' = القراءة الإلزامية."
+  },
+  {
+    "english": "From Latin 'lectura' (reading). 'Pflichtlektüre' (required reading) is what German students must read. The word means both the text and the act of reading it.",
+    "arabic": "من اللاتينية 'lectura' (القراءة). 'Pflichtlektüre' (القراءة الإلزامية) هو ما يجب على الطلاب الألمان قراءته. الكلمة تعني النص وفعل قراءته معاً."
+  },
+  {
+    "english": "An + geblich (from geben). Signals doubt about what is reported.\\nA distancing adverb for unverified claims.",
+    "arabic": "An + geblich (من geben). يُشير إلى الشك فيما يُروى.\\nظرف إبعاد للادعاءات غير المتحقق منها."
+  },
+  {
+    "english": "Signals doubt about what is being reported. 'Angeblich hat er um vier Uhr angefangen' casts doubt on the claim. A distancing adverb.",
+    "arabic": "يُشير إلى الشك فيما يُروى. 'Angeblich hat er um vier Uhr angefangen' يُلقي شكاً على الادعاء. ظرف إبعاد."
+  },
+  {
+    "english": "An + scheinend (appearing). Based on appearances.\\nSlightly less certain than offenbar, more than angeblich.",
+    "arabic": "An + scheinend (الظهور). مبني على المظاهر.\\nأقل يقيناً قليلاً من offenbar، وأكثر من angeblich."
+  },
+  {
+    "english": "'An' + 'scheinend' (appearing). Based on appearances. Slightly less certain than 'offenbar' but more confident than 'angeblich.' The scale: angeblich < anscheinend < offenbar.",
+    "arabic": "'An' + 'scheinend' (الظهور). مبني على المظاهر. أقل يقيناً قليلاً من 'offenbar' وأكثر ثقة من 'angeblich'. السلّم: angeblich < anscheinend < offenbar."
+  },
+  {
+    "english": "Bekannt (known) + -lich. Signals shared knowledge.\\nAcademic and journalistic register.",
+    "arabic": "Bekannt (معروف) + -lich. يُشير إلى المعرفة المشتركة.\\nمستوى أكاديمي وصحفي."
+  },
+  {
+    "english": "'Bekannt' (known) + '-lich.' Signals shared knowledge. The speaker assumes everyone knows this. Academic and journalistic register.",
+    "arabic": "'Bekannt' (معروف) + '-lich'. يُشير إلى المعرفة المشتركة. المتكلم يفترض أن الجميع يعرف ذلك. مستوى أكاديمي وصحفي."
+  },
+  {
+    "english": "Offen (open) + -bar (visible). Something openly visible.\\nStronger than anscheinend, weaker than sicher.",
+    "arabic": "Offen (مفتوح) + -bar (مرئي). شيء مرئي علناً.\\nأقوى من anscheinend، وأضعف من sicher."
+  },
+  {
+    "english": "'Offen' (open) + 'bar' (visible/bearable). Something openly visible. Stronger than 'anscheinend,' weaker than 'sicher.'",
+    "arabic": "'Offen' (مفتوح) + 'bar' (مرئي). شيء مرئي علناً. أقوى من 'anscheinend'، وأضعف من 'sicher'."
+  },
+  {
+    "english": "Originally 'loud,' but as preposition: 'according to.'\\nLaut + dative/genitive. Compact attribution.",
+    "arabic": "في الأصل 'بصوت عالٍ'، لكن كحرف جر: 'وفقاً لـ'.\\nLaut + المفعول به/المضاف إليه. نسبٌ مضغوط."
+  },
+  {
+    "english": "Originally 'loud,' but as a preposition: 'according to.' 'Laut Heinrich begann der Tag um vier.' A compact way to attribute a statement. Preposition + dative or genitive.",
+    "arabic": "في الأصل 'بصوت عالٍ'، لكن كحرف جر: 'وفقاً لـ'. 'Laut Heinrich begann der Tag um vier.' طريقة مضغوطة لنسب تصريح. حرف جر + مفعول به أو مضاف إليه."
+  },
+  {
+    "english": "Be- + haupten (from Haupt = head). Not separable.\\nImplies the statement may not be verified.",
+    "arabic": "Be- + haupten (من Haupt = رأس). غير قابل للفصل.\\nيعني أن التصريح قد لا يكون موثقاً."
+  },
+  {
+    "english": "'Be-' + 'haupten' (from 'Haupt' = head). To claim, to assert. Implies the statement may not be verified. Not separable.",
+    "arabic": "'Be-' + 'haupten' (من 'Haupt' = رأس). الادعاء والتأكيد. يعني أن التصريح قد لا يكون موثقاً. غير قابل للفصل."
+  },
+  {
+    "english": "Be- + richten (to direct/set right). Factual reporting.\\nMore neutral than behaupten. Not separable.",
+    "arabic": "Be- + richten (التوجيه/التصحيح). تقرير وقائعي.\\nأكثر حيادية من behaupten. غير قابل للفصل."
+  },
+  {
+    "english": "'Be-' + 'richten' (to direct/set right). Factual reporting. More neutral than 'behaupten.' Not separable. 'Bericht' (report) is the noun.",
+    "arabic": "'Be-' + 'richten' (التوجيه/التصحيح). تقرير وقائعي. أكثر حيادية من 'behaupten'. غير قابل للفصل. 'Bericht' (تقرير) هو الاسم."
+  },
+  {
+    "english": "Be- + Ton (tone/emphasis). Placing weight on something.\\nNot separable. 'Betonung' is the noun.",
+    "arabic": "Be- + Ton (نبرة/تأكيد). إضفاء وزن على شيء.\\nغير قابل للفصل. 'Betonung' هو الاسم."
+  },
+  {
+    "english": "'Be-' + 'Ton' (tone/emphasis). Placing tone/weight on something. Not separable. 'Betonung' (emphasis, stress) is the noun.",
+    "arabic": "'Be-' + 'Ton' (نبرة/تأكيد). إضفاء نبرة/وزن على شيء. غير قابل للفصل. 'Betonung' (تأكيد، تشديد) هو الاسم."
+  },
+  {
+    "english": "From Schild (sign/shield). More vivid than beschreiben.\\nPainting a picture with words.",
+    "arabic": "من Schild (لافتة/درع). أكثر حيوية من beschreiben.\\nرسم صورة بالكلمات."
+  },
+  {
+    "english": "From 'Schild' (sign/shield). More vivid than 'beschreiben.' Painting a picture with words. Originally: to paint a sign. 'Er schildert die Backstube in allen Details.'",
+    "arabic": "من 'Schild' (لافتة/درع). أكثر حيوية من 'beschreiben'. رسم صورة بالكلمات. في الأصل: رسم لافتة. 'Er schildert die Backstube in allen Details.'"
+  },
+  {
+    "english": "From old German 'meinen' (to think/intend).\\n'Was meinen Sie?' = What do you think?",
+    "arabic": "من الألمانية القديمة 'meinen' (التفكير/القصد).\\n'Was meinen Sie?' = ماذا تعتقد؟"
+  },
+  {
+    "english": "'Was meinen Sie?' (What do you think?) is the polite way to ask for an opinion. 'Er meinte, die alten Zeiten seien besser gewesen' uses Konjunktiv I for indirect speech.",
+    "arabic": "'Was meinen Sie?' (ماذا تعتقد؟) الطريقة المهذبة للسؤال عن رأي. 'Er meinte, die alten Zeiten seien besser gewesen' يستخدم Konjunktiv I للكلام غير المباشر."
+  },
+  {
+    "english": "From erzählen (to narrate). Der Erzaehler.\\nIn Literaturanalyse: 'der allwissende Erzaehler' = omniscient narrator.",
+    "arabic": "من erzählen (السرد). Der Erzaehler.\\nفي Literaturanalyse: 'der allwissende Erzaehler' = الراوي العليم."
+  },
+  {
+    "english": "In literary analysis: 'der allwissende Erzaehler' (the omniscient narrator) knows everything. 'Der Ich-Erzaehler' narrates in first person. Heinrich is a natural Erzaehler.",
+    "arabic": "في التحليل الأدبي: 'der allwissende Erzaehler' (الراوي العليم) يعرف كل شيء. 'Der Ich-Erzaehler' يروي بضمير المتكلم. هاينريش Erzaehler بالفطرة."
+  },
+  {
+    "english": "Erzaehler + -in. Die Erzaehlerin.\\n'Die unzuverlässiige Erzaehlerin' = the unreliable narrator.",
+    "arabic": "Erzaehler + -in. Die Erzaehlerin.\\n'Die unzuverlässiige Erzaehlerin' = الراوية غير الموثوقة."
+  },
+  {
+    "english": "'Die unzuverlässiige Erzaehlerin' (the unreliable narrator) is a literary device. The reader cannot fully trust what she reports. The -in suffix creates the feminine form.",
+    "arabic": "'Die unzuverlässiige Erzaehlerin' (الراوية غير الموثوقة) أسلوب أدبي. لا يستطيع القارئ الثقة الكاملة بما ترويه. لاحقة -in تُنشئ الصيغة المؤنثة."
+  },
+  {
+    "english": "Neben (beside/secondary) + Figur (figure/character).\\nThe supporting cast. Essential but not the star.",
+    "arabic": "Neben (جانبي/ثانوي) + Figur (شخصية).\\nالممثلون المساندون. أساسيون لكن ليسوا النجوم."
+  },
+  {
+    "english": "'Neben' (beside/secondary) + 'Figur' (figure/character). 'Nebenfiguren bereichern die Handlung' (Secondary characters enrich the plot). Not the star, but essential.",
+    "arabic": "'Neben' (جانبي/ثانوي) + 'Figur' (شخصية). 'Nebenfiguren bereichern die Handlung' (الشخصيات الثانوية تُثري الحبكة). ليست النجمة، لكنها أساسية."
+  },
+  {
+    "english": "From Greek 'tragodia' (goat song). Die Tragödie.\\nSchiller's 'Die Raeuber' and Goethe's 'Faust' are world literature.",
+    "arabic": "من اليونانية 'tragodia' (أغنية الماعز). Die Tragödie.\\n'Die Raeuber' لشيلر و'Faust' لغوته من الأدب العالمي."
+  },
+  {
+    "english": "From Greek 'tragodia' (goat song). One of the oldest dramatic forms. German Tragödien by Schiller and Goethe are world literature. 'Das ist eine Tragödie!' is also everyday drama.",
+    "arabic": "من اليونانية 'tragodia' (أغنية الماعز). واحدة من أقدم الأشكال الدرامية. Tragödien الألمانية لشيلر وغوته من الأدب العالمي. 'Das ist eine Tragödie!' تُستخدم أيضاً في الدراما اليومية."
+  },
+  {
+    "english": "From Greek 'poiesis' (making/creating). Broader than Lyrik:\\nPoesie is the beauty and art in language itself.",
+    "arabic": "من اليونانية 'poiesis' (الصنع/الخلق). أوسع من Lyrik:\\nPoesie هو الجمال والفن في اللغة ذاتها."
+  },
+  {
+    "english": "From Greek 'poiesis' (making/creating). Broader than Lyrik: Poesie is the beauty and art in language itself. 'Alltägliche Poesie' (everyday poetry) is found in Sprichwörter.",
+    "arabic": "من اليونانية 'poiesis' (الصنع/الخلق). أوسع من Lyrik: Poesie هو الجمال والفن في اللغة ذاتها. 'Alltägliche Poesie' (شعر الحياة اليومية) يوجد في Sprichwörter."
+  },
+  {
+    "english": "Schrift (writing) + Steller (one who places). Der Schriftsteller.\\nMore prestige than 'Autor.'",
+    "arabic": "Schrift (كتابة) + Steller (من يضع). Der Schriftsteller.\\nأكثر مكانةً من 'Autor'."
+  },
+  {
+    "english": "'Schrift' (writing) + 'Steller' (one who places). More prestige than 'Autor': a Schriftsteller creates literary works. 'Freier Schriftsteller' (freelance writer) is a German tax category.",
+    "arabic": "'Schrift' (كتابة) + 'Steller' (من يضع). أكثر مكانةً من 'Autor': Schriftsteller يُنشئ أعمالاً أدبية. 'Freier Schriftsteller' (كاتب حر) تصنيف ضريبي ألماني."
+  },
+  {
+    "english": "Schriftsteller + -in. Die Schriftstellerin.\\nHerta Mueller (Nobel Prize), Juli Zeh: great Schriftstellerinnen.",
+    "arabic": "Schriftsteller + -in. Die Schriftstellerin.\\nهيرتا مولر (جائزة نوبل)، يولي تسه: عظيمات Schriftstellerinnen."
+  },
+  {
+    "english": "Christa Wolf, Herta Mueller (Nobel Prize), Juli Zeh: Germany's great Schriftstellerinnen shape contemporary German literature. The -in suffix creates the feminine form.",
+    "arabic": "كريستا فولف، هيرتا مولر (جائزة نوبل)، يولي تسه: عظيمات Schriftstellerinnen في ألمانيا يشكّلن الأدب الألماني المعاصر. لاحقة -in تُنشئ الصيغة المؤنثة."
+  },
+  {
+    "english": "Zeit (time) + Genosse (companion). Der Zeitgenosse.\\nSomeone who lives in the same era.",
+    "arabic": "Zeit (زمن) + Genosse (رفيق). Der Zeitgenosse.\\nشخص يعيش في نفس العصر."
+  },
+  {
+    "english": "'Zeit' (time) + 'Genosse' (companion). 'Goethes Zeitgenossen' (Goethe's contemporaries). Also colloquially: 'ein seltsamer Zeitgenosse' (a strange fellow).",
+    "arabic": "'Zeit' (زمن) + 'Genosse' (رفيق). 'Goethes Zeitgenossen' (معاصرو غوته). وعامياً: 'ein seltsamer Zeitgenosse' (شخص غريب الأطوار)."
+  },
+  {
+    "english": "From Latin 'fictivus' (feigned). The opposite of real/wahr.\\n'Fiktive Figuren' do not exist but feel real.",
+    "arabic": "من اللاتينية 'fictivus' (متظاهر). عكس real/wahr.\\n'Fiktive Figuren' لا وجود لها لكنها تبدو حقيقية."
+  },
+  {
+    "english": "From Latin 'fictivus' (feigned). 'Eine fiktive Geschichte' (a fictional story). The opposite of 'real' or 'wahr.' Fictional characters do not exist but feel real in good literature.",
+    "arabic": "من اللاتينية 'fictivus' (متظاهر). 'Eine fiktive Geschichte' (قصة خيالية). عكس 'real' أو 'wahr'. الشخصيات الخيالية لا وجود لها لكنها تبدو حقيقية في الأدب الجيد."
+  },
+  {
+    "english": "From Latin 'classicus.' In German: 'die Klassik' is a specific\\nEpoche (Goethe and Schiller era, ~1786-1832).",
+    "arabic": "من اللاتينية 'classicus'. في الألمانية: 'die Klassik' هي Epoche محددة\\n(حقبة غوته وشيلر، ~1786-1832)."
+  },
+  {
+    "english": "'Die Klassik' is a specific Epoche in German literary history (Goethe and Schiller era, ~1786-1832). Also everyday: 'Das ist klassisch!' (That is classic/typical!).",
+    "arabic": "'Die Klassik' هي Epoche محددة في التاريخ الأدبي الألماني (حقبة غوته وشيلر، ~1786-1832). وفي اليومي: 'Das ist klassisch!' (هذا كلاسيكي/نموذجي!)."
+  },
+  {
+    "english": "From Greek 'tragikos.' Related to Tragödie.\\n'Tragischerweise' (tragically) is the adverb.",
+    "arabic": "من اليونانية 'tragikos'. مرتبط بـ Tragödie.\\n'Tragischerweise' (بشكل مأساوي) هو الظرف."
+  },
+  {
+    "english": "From Greek 'tragikos.' Related to Tragödie. 'Tragischerweise' (tragically) is the adverb. Heinrich's stories sometimes have tragische Elemente.",
+    "arabic": "من اليونانية 'tragikos'. مرتبط بـ Tragödie. 'Tragischerweise' (بشكل مأساوي) هو الظرف. قصص هاينريش أحياناً فيها tragische Elemente."
+  },
+  {
+    "english": "From Latin 'satiricus.' Using humor to critique society.\\nGerman Satire tradition: from Heinrich Heine to Jan Boehmermann.",
+    "arabic": "من اللاتينية 'satiricus'. استخدام الفكاهة لنقد المجتمع.\\nتقليد Satire الألمانية: من هاينريش هاينه إلى يان بومرمان."
+  },
+  {
+    "english": "German Satire has a long tradition: from Heinrich Heine to Jan Boehmermann. 'Ein satirischer Kommentar' uses humor to critique society.",
+    "arabic": "لـ Satire الألمانية تقليد طويل: من هاينريش هاينه إلى يان بومرمان. 'Ein satirischer Kommentar' يستخدم الفكاهة لنقد المجتمع."
+  },
+  {
+    "english": "From Greek 'eironeia' (dissimulation). Saying the opposite\\nof what you mean. German Ironie is just more subtle.",
+    "arabic": "من اليونانية 'eironeia' (التظاهر). قول عكس ما تعني.\\nIronie الألمانية أكثر دقة فحسب."
+  },
+  {
+    "english": "From Greek 'eironeia' (dissimulation). Saying the opposite of what you mean. Germans are accused of not understanding irony, but German Ironie is just more subtle.",
+    "arabic": "من اليونانية 'eironeia' (التظاهر). قول عكس ما تعني. يُتهم الألمان بعدم فهم السخرية، لكن Ironie الألمانية أكثر دقة فحسب."
+  },
+  {
+    "english": "Humor + voll (full of). German humor exists.\\nIt is just structured differently.",
+    "arabic": "Humor + voll (مليء بـ). الفكاهة الألمانية موجودة.\\nإنها منظمة بشكل مختلف فحسب."
+  },
+  {
+    "english": "'Humor' + 'voll' (full of). German humor exists. It is just structured differently. Heinrich's stories are humorvoll in a dry, warm way.",
+    "arabic": "'Humor' + 'voll' (مليء بـ). الفكاهة الألمانية موجودة. إنها منظمة بشكل مختلف فحسب. قصص هاينريش humorvoll بطريقة جافة ودافئة."
+  },
+  {
+    "english": "From Metapher + -isch. 'Metaphorisch gesprochen'\\nintroduces a figurative comparison.",
+    "arabic": "من Metapher + -isch. 'Metaphorisch gesprochen'\\nيُقدّم مقارنة مجازية."
+  },
+  {
+    "english": "From 'Metapher' + '-isch.' 'Metaphorisch gesprochen' (metaphorically speaking) introduces a figurative comparison. 'Brot als metaphorisches Symbol' in Heinrich's tales.",
+    "arabic": "من 'Metapher' + '-isch'. 'Metaphorisch gesprochen' (مجازاً) يُقدّم مقارنة مجازية. 'Brot als metaphorisches Symbol' في حكايات هاينريش."
+  },
+  {
+    "english": "Sinn (sense/meaning) + Bild (image) + -lich.\\nA German alternative to 'symbolisch.' Image carries meaning.",
+    "arabic": "Sinn (معنى) + Bild (صورة) + -lich.\\nبديل ألماني لـ 'symbolisch'. الصورة تحمل المعنى."
+  },
+  {
+    "english": "'Sinn' (sense/meaning) + 'Bild' (image) + '-lich.' 'Sinnbildlich für das Leben' (symbolic of life). A German alternative to 'symbolisch.' The image (Bild) carries meaning (Sinn).",
+    "arabic": "'Sinn' (معنى) + 'Bild' (صورة) + '-lich'. 'Sinnbildlich für das Leben' (رمزي للحياة). بديل ألماني لـ 'symbolisch'. الصورة (Bild) تحمل المعنى (Sinn)."
+  },
+  {
+    "english": "Als (as) + ob (if/whether). Introduces unreal comparison.\\nAlways followed by Konjunktiv II. Verb goes to END.",
+    "arabic": "Als (كـ) + ob (إذا/هل). يُدخل مقارنة غير حقيقية.\\nدائماً يتبعه Konjunktiv II. الفعل يذهب إلى النهاية."
+  },
+  {
+    "english": "'Als' (as) + 'ob' (if/whether). 'Er tut als ob er alles wüsste' (He acts as if he knew everything). Always followed by Konjunktiv II. Verb goes to the END of the clause.",
+    "arabic": "'Als' (كـ) + 'ob' (إذا/هل). 'Er tut als ob er alles wüsste' (يتصرف كأنه يعرف كل شيء). دائماً يتبعه Konjunktiv II. الفعل يذهب إلى نهاية الجملة."
+  },
+  {
+    "english": "Als + wenn. Same meaning as als ob. Slightly more colloquial.\\nSame grammar: Konjunktiv II, verb at end.",
+    "arabic": "Als + wenn. نفس معنى als ob. أكثر عامية قليلاً.\\nنفس القواعد: Konjunktiv II، الفعل في النهاية."
+  },
+  {
+    "english": "'Als' + 'wenn.' Same meaning as 'als ob': as if. Slightly more colloquial. Same grammar: Konjunktiv II, verb at end.",
+    "arabic": "'Als' + 'wenn'. نفس معنى 'als ob': كأنما. أكثر عامية قليلاً. نفس القواعد: Konjunktiv II، الفعل في النهاية."
+  },
+  {
+    "english": "Wie (how/like) + wenn (if/when). The most informal variant.\\n'Es fühlt sich an, wie wenn man nach Hause kommt.'",
+    "arabic": "Wie (كيف/مثل) + wenn (إذا/عندما). الصيغة الأكثر غير رسمية.\\n'Es fühlt sich an, wie wenn man nach Hause kommt.'"
+  },
+  {
+    "english": "'Wie' (how/like) + 'wenn' (if/when). The most informal of the three. Same structure as als ob/als wenn but with 'wie' instead of 'als.'",
+    "arabic": "'Wie' (كيف/مثل) + 'wenn' (إذا/عندما). الأكثر غير رسمية من الثلاثة. نفس بنية als ob/als wenn لكن مع 'wie' بدلاً من 'als'."
+  },
+  {
+    "english": "Als + wäre (Konjunktiv II of sein). The SHORT form:\\nals alone, verb directly after (inversion). No ob/wenn needed.",
+    "arabic": "Als + wäre (Konjunktiv II من sein). الصيغة المختصرة:\\nals وحدها، يلي الفعل مباشرة (قلب). لا ob/wenn مطلوب."
+  },
+  {
+    "english": "The SHORT form: 'als' alone, with verb directly after (inversion). No 'ob' or 'wenn' needed. More elegant and literary. 'Er spricht, als wäre er ein Experte.'",
+    "arabic": "الصيغة المختصرة: 'als' وحدها، يلي الفعل مباشرة (قلب). لا 'ob' أو 'wenn' مطلوب. أكثر أناقة وأدبية. 'Er spricht, als wäre er ein Experte.'"
+  },
+  {
+    "english": "From Latin 'existere' (to stand out, to come into being).\\nRegular -ieren verb. 'Noch existieren' = to still exist.",
+    "arabic": "من اللاتينية 'existere' (البروز، الوجود).\\nفعل منتظم -ieren. 'Noch existieren' = لا يزال موجوداً."
+  },
+  {
+    "english": "From Latin 'existere' (to stand out, to come into being). Borrowed into German via French. 'Die Existenz' (existence) is the noun. 'Das existenzielle Problem' (the existential problem). German Existenzphilosophie (existentialism) made this root famous worldwide.",
+    "arabic": "من اللاتينية 'existere' (البروز، الوجود). دخل الألمانية عبر الفرنسية. 'Die Existenz' (الوجود) هو الاسم. 'Das existenzielle Problem' (المشكلة الوجودية). Existenzphilosophie الألمانية (الوجودية) جعلت هذا الجذر مشهوراً عالمياً."
+  },
+  {
+    "english": "Feminine noun. From 'üben' (to practice).\\n'Übung macht den Meister' (practice makes the master).",
+    "arabic": "اسم مؤنث. من 'üben' (الممارسة).\\n'Übung macht den Meister' (الممارسة تصنع المتقن)."
+  },
+  {
+    "english": "'Übung macht den Meister' is one of Germany's most beloved Sprichwörter. Every German knows it by heart. The word comes from 'üben' (to practice), and the -ung suffix creates a feminine action noun.",
+    "arabic": "'Übung macht den Meister' من أحب Sprichwörter ألمانيا. كل ألماني يحفظها عن ظهر قلب. الكلمة مشتقة من 'üben' (الممارسة)، ولاحقة -ung تُنشئ اسم فعل مؤنثاً."
+  }
+]

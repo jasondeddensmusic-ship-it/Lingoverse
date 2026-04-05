@@ -1,0 +1,772 @@
+[
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Masculine noun. From French 'journalisme.'\\n'Qualitaetsjournalismus' (quality journalism)."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "From French 'journalisme.' Germany has a strong tradition of Qualitaetsjournalismus. The Grundgesetz (constitution) guarantees Pressefreiheit. Journalism is a protected right in Germany."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "Masculine noun. N-Deklination: Journalist, Journalisten.\\nFrom French 'journaliste.'"
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "N-Deklination: den Journalisten, dem Journalisten. German journalists typically study at a Journalistenschule or complete a Volontariat (journalism apprenticeship). A two-year training that is uniquely German."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Feminine noun. Journalist + '-in.'\\nPlural: die Journalistinnen."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "The -in pattern holds perfectly across professions: Journalist/Journalistin, Redakteur/Redakteurin. Women now make up about 40% of German newsrooms. The feminine form is always used when referring to a specific woman."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "Always plural when meaning 'news.'\\n'Nachrichten hören' (to listen to the news)."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "'Nach' (after) + 'richten' (to direct). News: things directed after you so you know what happened. Die Tagesschau is Germany's most-watched Nachrichtensendung, broadcasting since 1952."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "Feminine noun. Tag (day) + Zeitung (newspaper).\\nAbbreviated 'taz' for the Berlin paper."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "Germany has many: Sueddeutsche Zeitung, Frankfurter Allgemeine Zeitung (FAZ), Die Welt. Also the name of a left-leaning Berlin paper: 'die tageszeitung' (lowercase, abbreviated 'taz'). Die Zeit is actually a Wochenzeitung (weekly)."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Feminine noun. Schlag (hit) + Zeile (line).\\n'Schlagzeilen machen' (to make headlines)."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "A 'strike line' that hits you in the face with information. 'Schlagzeilen machen' means causing a sensation. German tabloid Schlagzeilen are famously bold and loud. Quality papers keep theirs more restrained."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Masculine noun. From Latin 'commentarius.'\\nSeparate from Bericht (report)."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "German newspapers clearly label Kommentare. They are separate from Berichte (reports). Opinion vs. fact. The distinction matters deeply in German journalism ethics. Mixing them is considered unprofessional."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Feminine noun. From 'senden' (to send/broadcast).\\n'Nachrichtensendung' (news broadcast)."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Die Sendung mit der Maus' is Germany's most beloved children's show, running since 1971. 'Nachrichtensendung' = news broadcast. One root word, 'senden,' builds an entire media vocabulary."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Masculine noun. Rund (around) + Funk (radio).\\n'Öffentlich-rechtlicher Rundfunk' (public broadcasting)."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "Radio signals sent 'around' to everyone. 'Öffentlich-rechtlicher Rundfunk' (public broadcasting) is funded by the Rundfunkbeitrag. Every German household pays about 18 euros per month for it. A unique funding model."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Always plural. Massen (mass) + Medien (media).\\n'Die Macht der Massenmedien' (the power of mass media)."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "Print, radio, television, internet. 'Die Macht der Massenmedien' (the power of mass media) is a classic German essay topic. The singular 'das Medium' is rarely used for traditional media; it is almost always 'die Medien.'"
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Regular verb. 'Über etwas berichten' (to report on something).\\nThe core journalistic verb."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "The core journalistic verb. 'Wir berichten live' (We are reporting live). Neutral, factual, objective. Der Bericht (the report) is the noun. A journalist who berichtet states facts without personal opinion."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Regular verb. From Latin 'informare.'\\nReflexive: 'sich informieren' (to inform oneself)."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "From Latin 'informare' (to give form to). Also reflexive: 'sich informieren' (to inform oneself). The media's primary duty is to inform. 'Gut informiert' (well informed) is the goal of every news consumer."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "Regular verb. From French 'rechercher.'\\n'Gruendlich recherchieren' (to research thoroughly)."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "From French 'rechercher' (to search again). The essential journalistic skill. A journalist who does not recherchieren is not a journalist. 'Investigative Recherche' is the German term for in-depth investigative reporting."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "Regular verb. From Kommentar.\\n'Ein Ereignis kommentieren' (to comment on an event)."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "Separating Bericht from Kommentar is journalism ethics. The noun Kommentar becomes the verb kommentieren. In German media, the line between reporting and commenting is a professional boundary."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "Adjective. From French 'serieux.'\\n'Eine serioese Zeitung' (a reputable newspaper)."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "'Serioeser Journalismus' (serious journalism) vs. Boulevardpresse (tabloid press). The dividing line of German media. A serioese Quelle (reputable source) is the foundation of trust in reporting."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Adjective. Glaub (believe) + würdig (worthy).\\n'Glaubwürdige Quellen' (credible sources)."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "A journalist's most valuable asset. 'Die Glaubwürdigkeit' (credibility) is the nominalized form. Once you lose your Glaubwürdigkeit, you cannot get it back. The compound literally means 'worthy of being believed.'"
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Adjective. Un- (not) + abhängig (dependent).\\n'Unabhängige Medien' (independent media)."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "The press must be unabhängig from government and business. Article 5 of the Grundgesetz protects this independence. 'Unabhängigkeit' is the noun. In Germany, public broadcasting is designed to be structurally unabhängig."
+  },
+  {
+    "line": 32,
+    "field": "note",
+    "english": "Adverb. An + geblich (from geben).\\nRed flag word in journalism."
+  },
+  {
+    "line": 32,
+    "field": "funFact",
+    "english": "A word journalists use when they cannot confirm something. Red flag word: if something is 'angeblich,' doubt it. 'Der angebliche Experte' (the alleged expert) signals that the claim has not been verified."
+  },
+  {
+    "line": 33,
+    "field": "note",
+    "english": "Adverb. Offen (open) + -bar (capable of).\\nStronger than 'anscheinend.'"
+  },
+  {
+    "line": 33,
+    "field": "funFact",
+    "english": "Something that is 'open-able' to see. The scale of certainty in German: anscheinend (seemingly) < offenbar (apparently) < offensichtlich (obviously). Journalists choose carefully between these three."
+  },
+  {
+    "line": 34,
+    "field": "note",
+    "english": "Adverb. Bekannt (known) + -lich.\\nAcademic and journalistic register."
+  },
+  {
+    "line": 34,
+    "field": "funFact",
+    "english": "Signals shared knowledge. Academic and journalistic. 'Bekanntlich ist Deutschland ein foederaler Staat' (As is well known, Germany is a federal state). Using bekanntlich assumes your audience already knows the fact. It adds authority."
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "Feminine noun. Presse + Freiheit (freedom).\\nArticle 5 of the Grundgesetz."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "Article 5 of the German Grundgesetz: 'Die Pressefreiheit und die Freiheit der Berichterstattung werden gewährleistet.' A non-negotiable right. Germany ranks consistently in the top 20 of press freedom indices."
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "Feminine noun. Meinung (opinion) + Freiheit.\\nAlso Article 5, but with limits."
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "Also Article 5 of the Grundgesetz. But Meinungsfreiheit has limits in Germany. Volksverhetzung (incitement) and Holocaustleugnung (Holocaust denial) are criminal offenses. Freedom with responsibility."
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "Feminine noun. Des- (un/dis) + Information.\\nDeliberately false information."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "Different from Fehlinformation (misinformation, unintentionally wrong). Desinformation is a weapon. The 'Des-' prefix signals deliberate undoing of truth. Intentional deception designed to manipulate."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "Always plural in German. Borrowed from English.\\n'Fake News erkennen' (to recognize fake news)."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "Borrowed from English. Always plural in German: 'die Fake News.' German also uses 'Falschmeldung' (false report) and 'Falschnachricht.' The English term became universal after 2016. 'Fake News erkennen' is now taught in German schools."
+  },
+  {
+    "line": 64,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'propagare' (to spread).\\nEspecially loaded word in Germany."
+  },
+  {
+    "line": 64,
+    "field": "funFact",
+    "english": "Germany's history makes this word especially loaded. The Propagandaministerium under the Nazi regime weaponized media. Modern usage: systematic spreading of biased information to serve a political agenda."
+  },
+  {
+    "line": 65,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'manipulus' (handful).\\n'Mediale Manipulation' (media manipulation)."
+  },
+  {
+    "line": 65,
+    "field": "funFact",
+    "english": "From Latin 'manipulus' (handful). Controlling what people think by controlling what they see. Subtler than Propaganda but equally dangerous. 'Mediale Manipulation' operates through selection, framing, and omission."
+  },
+  {
+    "line": 66,
+    "field": "note",
+    "english": "Feminine noun. Filter + Blase (bubble).\\n'Aus der Filterblase ausbrechen' (to break out)."
+  },
+  {
+    "line": 66,
+    "field": "funFact",
+    "english": "Algorithms show you what you already believe. You never see opposing views. 'Aus der Filterblase ausbrechen' (to break out of the filter bubble). A modern media challenge coined by Eli Pariser in 2011."
+  },
+  {
+    "line": 67,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'censura.'\\nArticle 5: 'Eine Zensur findet nicht statt.'"
+  },
+  {
+    "line": 67,
+    "field": "funFact",
+    "english": "Article 5 of the Grundgesetz states: 'Eine Zensur findet nicht statt' (There shall be no censorship). Historical context: GDR censorship was pervasive. The memory shapes German media law today."
+  },
+  {
+    "line": 68,
+    "field": "note",
+    "english": "Feminine noun. Bericht + Erstattung (rendering).\\n'Objektive Berichterstattung' (objective reporting)."
+  },
+  {
+    "line": 68,
+    "field": "funFact",
+    "english": "The compound captures the formal act of rendering reports to the public. 'Objektive Berichterstattung' is the journalistic ideal. 'Tendenzoese Berichterstattung' (biased reporting) is its opposite and a serious accusation."
+  },
+  {
+    "line": 69,
+    "field": "note",
+    "english": "Feminine noun. Medien + Kompetenz (competence).\\nA core skill taught in German schools."
+  },
+  {
+    "line": 69,
+    "field": "funFact",
+    "english": "The ability to critically evaluate media. German schools increasingly teach Medienkompetenz as a core skill. Knowing HOW to read news, not just WHAT to read. In the age of Fake News, Medienkompetenz is survival."
+  },
+  {
+    "line": 70,
+    "field": "note",
+    "english": "Regular verb. From Manipulation.\\n'Informationen manipulieren' (to manipulate information)."
+  },
+  {
+    "line": 70,
+    "field": "funFact",
+    "english": "Manipulation becomes manipulieren. Active deception. 'Manipulierte Bilder' (manipulated images) are a growing problem. The Partizip II 'manipuliert' is often used as an adjective: 'manipulierte Daten' (manipulated data)."
+  },
+  {
+    "line": 71,
+    "field": "note",
+    "english": "Regular verb. Be- + Einfluss (influence).\\nNot always negative."
+  },
+  {
+    "line": 71,
+    "field": "funFact",
+    "english": "Not always negative: teachers also beeinflussen. Context determines whether it is manipulation or education. 'Die öffentliche Meinung beeinflussen' (to influence public opinion) can be responsible journalism or propaganda."
+  },
+  {
+    "line": 72,
+    "field": "note",
+    "english": "Regular verb. Ver- + breit (broad).\\n'Falschnachrichten verbreiten' (to spread false news)."
+  },
+  {
+    "line": 72,
+    "field": "funFact",
+    "english": "Making something broad, sending it everywhere. 'Die Verbreitung' (the spread) is the nominalized form. In the digital age, Falschnachrichten verbreiten sich schneller als Korrekturen (corrections)."
+  },
+  {
+    "line": 73,
+    "field": "note",
+    "english": "Regular verb. Ver- + faelschen (to falsify).\\n'Daten verfaelschen' (to falsify data)."
+  },
+  {
+    "line": 73,
+    "field": "funFact",
+    "english": "The ver- prefix intensifies: faelschen is already bad, verfaelschen is deliberate and thorough corruption. 'Verfaelschte Ergebnisse' (falsified results) can destroy careers and institutions."
+  },
+  {
+    "line": 74,
+    "field": "note",
+    "english": "Regular verb. Ver- + Schleier (veil).\\n'Die Wahrheit verschleiern' (to veil the truth)."
+  },
+  {
+    "line": 74,
+    "field": "funFact",
+    "english": "Putting a Schleier (veil) over reality. Subtler than luegen (lying): making truth invisible without directly contradicting it. 'Verschleierungstaktik' (obfuscation tactic) is a compound that says it all."
+  },
+  {
+    "line": 75,
+    "field": "note",
+    "english": "Regular verb. Ver- + zerren (to pull/drag).\\n'Die Realitaet verzerren' (to distort reality)."
+  },
+  {
+    "line": 75,
+    "field": "funFact",
+    "english": "Pulling reality out of shape. A Zerrung is a muscle strain. 'Verzerrte Berichterstattung' (distorted reporting) bends facts without breaking them. The image stays recognizable but is no longer accurate."
+  },
+  {
+    "line": 76,
+    "field": "note",
+    "english": "Adjective. Ein (one) + seitig (sided).\\nOpposite: 'ausgewogen' (balanced)."
+  },
+  {
+    "line": 76,
+    "field": "funFact",
+    "english": "Only showing one Seite (side) of the story. 'Einseitige Berichterstattung' (one-sided reporting) is a common criticism. The opposite: 'ausgewogen' (balanced). Every story has mindestens zwei Seiten (at least two sides)."
+  },
+  {
+    "line": 77,
+    "field": "note",
+    "english": "Adjective. From Tendenz (tendency).\\nStronger than einseitig: implies agenda."
+  },
+  {
+    "line": 77,
+    "field": "funFact",
+    "english": "Stronger than einseitig: tendenzioes implies a deliberate agenda. 'Tendenzioes berichten' (to report with bias). 'Die Tendenz' = the bias. A tendenzioeser Artikel tries to push the reader toward a predetermined conclusion."
+  },
+  {
+    "line": 78,
+    "field": "note",
+    "english": "Adjective. Partei (party) + -isch.\\nOpposite: 'unparteiisch' (impartial)."
+  },
+  {
+    "line": 78,
+    "field": "funFact",
+    "english": "Taking a Partei (side/party). The opposite: 'unparteiisch' (impartial). In German media law, public broadcasters must be unparteiisch. Private media may be parteiisch, but they should disclose it."
+  },
+  {
+    "line": 79,
+    "field": "note",
+    "english": "Adjective. Vor (before) + eingenommen (taken in).\\nThe strongest word for personal bias."
+  },
+  {
+    "line": 79,
+    "field": "funFact",
+    "english": "Your opinion was 'taken in' before you even saw the evidence. The strongest word for personal bias. Stronger than einseitig or parteiisch because it describes an internal attitude, not just external behavior."
+  },
+  {
+    "line": 111,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'redactio.'\\n'In der Redaktion' (in the newsroom)."
+  },
+  {
+    "line": 111,
+    "field": "funFact",
+    "english": "From Latin 'redactio' (bringing back into order). Where journalists work together to bring order to the day's news. 'Die Redaktion' means both the physical room and the team. 'Redaktionsschluss' (editorial deadline) waits for no one."
+  },
+  {
+    "line": 112,
+    "field": "note",
+    "english": "Masculine noun. From French 'redacteur.'\\n'Chefredakteur' (editor-in-chief)."
+  },
+  {
+    "line": 112,
+    "field": "funFact",
+    "english": "The person who shapes raw reporting into published text. 'Chefredakteur' (editor-in-chief) runs the whole operation. From French 'redacteur,' reflecting the strong French influence on German journalism vocabulary."
+  },
+  {
+    "line": 113,
+    "field": "note",
+    "english": "Feminine noun. Redakteur + '-in.'\\n'Chefredakteurin' (female editor-in-chief)."
+  },
+  {
+    "line": 113,
+    "field": "funFact",
+    "english": "The standard feminine form. 'Chefredakteurin' = female editor-in-chief. German consistently forms feminine professional titles with -in. More women than ever hold Chefredakteurin positions in German media."
+  },
+  {
+    "line": 114,
+    "field": "note",
+    "english": "Masculine noun. Leit (leading) + Artikel.\\nThe most important opinion piece."
+  },
+  {
+    "line": 114,
+    "field": "funFact",
+    "english": "The most important opinion piece, usually on page one. It 'leads' the newspaper's position on an issue. Different from a Kommentar: the Leitartikel represents the newspaper's official stance."
+  },
+  {
+    "line": 115,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'columna.'\\nA regular, personal opinion piece."
+  },
+  {
+    "line": 115,
+    "field": "funFact",
+    "english": "A Kolumnist writes regularly on the same topic. Personal voice, consistent perspective. Different from Leitartikel: a Kolumne is personal, while a Leitartikel speaks for the newspaper."
+  },
+  {
+    "line": 116,
+    "field": "note",
+    "english": "Feminine noun. From Latin 'recensio.'\\nFound in the Feuilleton section."
+  },
+  {
+    "line": 116,
+    "field": "funFact",
+    "english": "Found in the Feuilleton (arts section) of German newspapers. 'Eine Buchrezension schreiben' (to write a book review). The Rezension is a respected form of cultural criticism in Germany."
+  },
+  {
+    "line": 117,
+    "field": "note",
+    "english": "Masculine noun. Heraus (out) + Geber (giver).\\n'Herausgegeben von...' (Published by...)."
+  },
+  {
+    "line": 117,
+    "field": "funFact",
+    "english": "The person who 'gives out' a publication to the world. 'Herausgegeben von...' (Published by...) appears in every academic book. Different from Verlag (publishing house): the Herausgeber is a person, the Verlag is an institution."
+  },
+  {
+    "line": 118,
+    "field": "note",
+    "english": "Masculine noun. From 'verlegen' (to publish).\\nGermany is a Verlag powerhouse."
+  },
+  {
+    "line": 118,
+    "field": "funFact",
+    "english": "Germany is a publishing powerhouse: Suhrkamp, Fischer, Rowohlt, Hanser. 'Im Verlag erscheinen' (to be published by). The Frankfurt Book Fair (Frankfurter Buchmesse) is the world's largest. The Verlag decides what the world reads."
+  },
+  {
+    "line": 119,
+    "field": "note",
+    "english": "Masculine noun. N-Deklination.\\n'Auslandskorrespondent' (foreign correspondent)."
+  },
+  {
+    "line": 119,
+    "field": "funFact",
+    "english": "N-Deklination: den Korrespondenten, dem Korrespondenten. The journalist stationed abroad who reports back. 'Auslandskorrespondent' (foreign correspondent) is one of the most prestigious roles in journalism."
+  },
+  {
+    "line": 120,
+    "field": "note",
+    "english": "Feminine noun. Korrespondent + '-in.'\\nStandard feminine form."
+  },
+  {
+    "line": 120,
+    "field": "funFact",
+    "english": "German TV news always credits 'unsere Korrespondentin in Washington' or 'unser Korrespondent in Moskau.' The role carries high prestige and requires deep cultural knowledge of the host country."
+  },
+  {
+    "line": 121,
+    "field": "note",
+    "english": "Separable verb. Hervor (forth) + heben (to lift).\\n'Einen Punkt hervorheben' (to emphasize a point)."
+  },
+  {
+    "line": 121,
+    "field": "funFact",
+    "english": "Lifting something forth from the background so it stands out. Separable: 'Er hebt den Punkt hervor.' In journalism, knowing what to hervorheben and what to weglassen (leave out) is the art of editing."
+  },
+  {
+    "line": 122,
+    "field": "note",
+    "english": "Regular verb. From 'lauter' (pure/clear).\\nMore formal than 'erklären.'"
+  },
+  {
+    "line": 122,
+    "field": "funFact",
+    "english": "Making something 'clear.' More formal than 'erklären.' Academic and journalistic register. 'Erläuterung' (explanation/commentary) is the nominalized form. You erläutern complex topics; you erklären simple ones."
+  },
+  {
+    "line": 123,
+    "field": "note",
+    "english": "Separable verb. Heraus (out) + geben (to give).\\nDer Herausgeber herausgibt."
+  },
+  {
+    "line": 123,
+    "field": "funFact",
+    "english": "Separable: 'Er gibt das Buch heraus.' The act of releasing something to the public. Related to Herausgeber (publisher/editor). 'Eine Pressemitteilung herausgeben' (to issue a press release) is standard media vocabulary."
+  },
+  {
+    "line": 124,
+    "field": "note",
+    "english": "Separable verb. Dar (there) + stellen (to place).\\n'Einen Sachverhalt darstellen' (to present a matter)."
+  },
+  {
+    "line": 124,
+    "field": "funFact",
+    "english": "How you darstellen the facts changes the story. Same facts, different Darstellung, different conclusion. Separable: 'Er stellt es dar.' 'Die Darstellung' (the portrayal/presentation) is a key concept in media criticism."
+  },
+  {
+    "line": 125,
+    "field": "note",
+    "english": "Regular verb. From Greek 'kritikos.'\\nKritik (noun) becomes kritisieren (verb)."
+  },
+  {
+    "line": 125,
+    "field": "funFact",
+    "english": "Constructive criticism is valued in German public discourse. Kritisieren is not the same as 'meckern' (to complain). 'Berechtigte Kritik' (justified criticism) drives improvement. 'Unsachliche Kritik' (unfounded criticism) is dismissed."
+  },
+  {
+    "line": 126,
+    "field": "note",
+    "english": "Adjective. Aus (out) + gewogen (weighed).\\nThe journalistic ideal. Opposite of einseitig."
+  },
+  {
+    "line": 126,
+    "field": "funFact",
+    "english": "All sides have been 'weighed out' equally. The opposite of einseitig. The journalistic ideal that every serious newspaper claims to pursue. 'Ausgewogenheit' (balance) is the nominalized form."
+  },
+  {
+    "line": 127,
+    "field": "note",
+    "english": "Adjective. From Latin 'investigare' (to track).\\n'Investigativer Journalismus' (investigative journalism)."
+  },
+  {
+    "line": 127,
+    "field": "funFact",
+    "english": "Digging deep. Germany's investigative tradition uncovered the NSA spying scandal (through Der Spiegel) and contributed to the Wirecard fraud exposure. 'Investigative Recherche' takes months, sometimes years."
+  },
+  {
+    "line": 128,
+    "field": "note",
+    "english": "Adjective. From Latin 'controversia.'\\n'Ein kontroverses Thema' (a controversial topic)."
+  },
+  {
+    "line": 128,
+    "field": "funFact",
+    "english": "A Kontroverse is a public disagreement. German media thrives on Kontroversen. 'Kontrovers diskutieren' (to discuss controversially). Political talk shows like 'Hart aber fair' live from kontroverse Themen."
+  },
+  {
+    "line": 129,
+    "field": "note",
+    "english": "Adjective. Sach (matter) + kundig (knowledgeable).\\nStronger than 'informiert.'"
+  },
+  {
+    "line": 129,
+    "field": "funFact",
+    "english": "Knowing the Sache (subject matter). Stronger than 'informiert': sachkundig implies deep expertise built over years. 'Ein sachkundiger Beitrag' (an expert contribution) carries weight in German discourse."
+  },
+  {
+    "line": 130,
+    "field": "note",
+    "english": "Compound adjective. Öffentlich (public) + rechtlich (legal).\\nARD and ZDF are öffentlich-rechtlich."
+  },
+  {
+    "line": 130,
+    "field": "funFact",
+    "english": "ARD and ZDF are öffentlich-rechtlich. Funded by citizens through the Rundfunkbeitrag, independent from government and advertisers. A uniquely German model designed to prevent the media manipulation that enabled the Nazi regime."
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Partizip I: stem + d + adjective ending. Partizip II: ge- + stem + t/en + adjective ending. Gerundive: zu + Partizip I + adjective ending."
+  },
+  {
+    "line": 166,
+    "field": "note",
+    "english": "Feminine noun. Presse + Konferenz.\\n'Auf der Pressekonferenz' (at the press conference)."
+  },
+  {
+    "line": 166,
+    "field": "funFact",
+    "english": "Where officials speak and journalists ask tough questions. German Pressekonferenzen are formal. 'Die Bundespressekonferenz' in Berlin is unique: it is organized by journalists themselves, not by the government."
+  },
+  {
+    "line": 167,
+    "field": "note",
+    "english": "Feminine noun. Presse + Mitteilung (communication).\\nOne-way communication, no questions."
+  },
+  {
+    "line": 167,
+    "field": "funFact",
+    "english": "One-way communication: the organization tells the media what it wants known. No questions allowed. The controlled version of a Pressekonferenz. Good journalists treat Pressemitteilungen as starting points, not final products."
+  },
+  {
+    "line": 168,
+    "field": "note",
+    "english": "Feminine noun. Nachrichten + Agentur.\\nDPA is Germany's biggest."
+  },
+  {
+    "line": 168,
+    "field": "funFact",
+    "english": "DPA (Deutsche Presse-Agentur) is Germany's biggest. Reuters, AP, AFP are international agencies. They supply raw news to newspapers and TV stations. Most news you read starts at a Nachrichtenagentur."
+  },
+  {
+    "line": 169,
+    "field": "note",
+    "english": "Feminine noun. Information + Quelle (source).\\n'Zuverlässiige Quellen' (reliable sources)."
+  },
+  {
+    "line": 169,
+    "field": "funFact",
+    "english": "In journalism, your sources make or break your credibility. 'Quellenschutz' (source protection) is sacred. German law protects journalists from having to reveal their Informationsquellen. 'Zuverlässiige Informationsquellen' is the gold standard."
+  },
+  {
+    "line": 170,
+    "field": "note",
+    "english": "Feminine noun. Reich (reach) + Weite (width).\\nIn digital media: how many people see content."
+  },
+  {
+    "line": 170,
+    "field": "funFact",
+    "english": "In print: circulation. In digital media: how many people see your content. Social media lives and dies by Reichweite. 'Die organische Reichweite' (organic reach) vs. 'bezahlte Reichweite' (paid reach) is a key distinction."
+  },
+  {
+    "line": 171,
+    "field": "note",
+    "english": "Feminine noun. Ziel (target) + Gruppe (group).\\nEvery medium has its Zielgruppe."
+  },
+  {
+    "line": 171,
+    "field": "funFact",
+    "english": "Every medium has its Zielgruppe. Knowing yours determines how you write, what you cover, and which stories you prioritize. 'Die Zielgruppe ansprechen' (to address the target audience) is the core of media strategy."
+  },
+  {
+    "line": 172,
+    "field": "note",
+    "english": "Feminine noun. Privat + Sphaere (sphere).\\nGerman privacy law is among the strictest."
+  },
+  {
+    "line": 172,
+    "field": "funFact",
+    "english": "German privacy law is among the strictest in the world. The Privatsphaere is a legal and cultural fortress. Even public figures have a Privatsphaere that media must respect. Paparazzi culture is far less accepted in Germany than in the UK or US."
+  },
+  {
+    "line": 173,
+    "field": "note",
+    "english": "Masculine noun. Daten (data) + Schutz (protection).\\nGermany led the EU's DSGVO (GDPR)."
+  },
+  {
+    "line": 173,
+    "field": "funFact",
+    "english": "Germany led the EU's DSGVO (GDPR). 'Datenschutzbeauftragter' (data protection officer) is a real job title. Privacy is serious business in Germany. Every company needs a Datenschutzerklärung (privacy policy)."
+  },
+  {
+    "line": 174,
+    "field": "note",
+    "english": "Separable verb. Auf (up) + decken (to cover).\\nThe verb of investigative journalism."
+  },
+  {
+    "line": 174,
+    "field": "funFact",
+    "english": "Lifting the cover off something hidden. Separable: 'Er deckt den Skandal auf.' The verb of investigative journalism. 'Aufgedeckt!' (Uncovered!) is a powerful one-word headline."
+  },
+  {
+    "line": 175,
+    "field": "note",
+    "english": "Regular verb. Ent- (un-) + huellen (to wrap).\\nStronger than aufdecken."
+  },
+  {
+    "line": 175,
+    "field": "funFact",
+    "english": "Removing the Huelle (wrapping). Stronger than aufdecken: implies something deliberately concealed. 'Enthuellung' (revelation) is the noun. 'Enthuelungsjournalismus' (revelatory journalism) shakes institutions."
+  },
+  {
+    "line": 176,
+    "field": "note",
+    "english": "Regular verb. From French 'dementir.'\\nOfficial denial by politicians or institutions."
+  },
+  {
+    "line": 176,
+    "field": "funFact",
+    "english": "Official denial. When politicians dementieren, journalists investigate harder. 'Das Dementi' (the denial) is the noun. A famous journalism rule: 'Ein Dementi ist eine Nachricht' (A denial is news in itself)."
+  },
+  {
+    "line": 177,
+    "field": "note",
+    "english": "Not separable. Unter (under) + drücken (to press).\\n'Informationen unterdrücken' (to suppress information)."
+  },
+  {
+    "line": 177,
+    "field": "funFact",
+    "english": "Pressing something down so it stays hidden. Not separable. What authoritarian regimes do to inconvenient truths. 'Unterdrückte Informationen' (suppressed information) eventually surface. Truth is difficult to unterdrücken permanently."
+  },
+  {
+    "line": 178,
+    "field": "note",
+    "english": "Separable verb. Zurück (back) + weisen (to direct).\\n'Kritik zurückweisen' (to reject criticism)."
+  },
+  {
+    "line": 178,
+    "field": "funFact",
+    "english": "Pushing criticism back where it came from. Separable: 'Sie weist die Kritik zurück.' Formal, diplomatic language. Weaker than 'widersprechen' (to contradict) but stronger than simply 'ablehnen' (to decline)."
+  },
+  {
+    "line": 179,
+    "field": "note",
+    "english": "Regular verb. Sensibel + -isieren.\\n'Für etwas sensibilisieren' (to raise awareness of)."
+  },
+  {
+    "line": 179,
+    "field": "funFact",
+    "english": "Making people sensitive to an issue. 'Sensibilisierungskampagne' (awareness campaign) is a common compound. Media literacy education aims to sensibilisieren, not to indoctrinate. The goal: informed, critical media consumers."
+  },
+  {
+    "line": 180,
+    "field": "note",
+    "english": "Adjective. Irre (astray) + führend (leading).\\nPartizip I used as adjective."
+  },
+  {
+    "line": 180,
+    "field": "funFact",
+    "english": "Leading readers astray. A Partizip I used as adjective. The headlines lead (führen) you into error (Irre). 'Irreführende Werbung' (misleading advertising) is illegal in Germany under the UWG (Unfair Competition Act)."
+  },
+  {
+    "line": 181,
+    "field": "note",
+    "english": "Adjective. Frag (question) + würdig (worthy).\\nNot proven wrong, but suspicious."
+  },
+  {
+    "line": 181,
+    "field": "funFact",
+    "english": "Worth questioning. Not proven wrong, but suspicious enough to deserve scrutiny. The -würdig suffix appears in many evaluative adjectives: glaubwürdig (credible), fragwürdig (questionable), denkwürdig (memorable)."
+  },
+  {
+    "line": 182,
+    "field": "note",
+    "english": "Adjective. From 'reissen' (to tear/rip).\\nThe mark of tabloid journalism."
+  }
+]

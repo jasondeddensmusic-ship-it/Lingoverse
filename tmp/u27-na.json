@@ -1,0 +1,807 @@
+[
+  {
+    "line": 14,
+    "field": "note",
+    "english": "From Latin 'praesentare' (to present/show).\\nThe formal word for a presentation in German business culture."
+  },
+  {
+    "line": 14,
+    "field": "funFact",
+    "english": "From Latin 'praesentare' (to present/show). Germans expect structured, well-prepared Praesentationen. 'Tod durch PowerPoint' (death by PowerPoint) is a German office joke too."
+  },
+  {
+    "line": 15,
+    "field": "note",
+    "english": "Vor (before/in front of) + Trag (carrying).\\nYou 'carry' your ideas before an audience."
+  },
+  {
+    "line": 15,
+    "field": "funFact",
+    "english": "'Vor' (before/in front of) + 'Trag' (carrying). You 'carry' your ideas before an audience. More formal than Praesentation and implies expertise. 'Einen Vortrag halten' (to give a presentation) is the standard collocate."
+  },
+  {
+    "line": 16,
+    "field": "note",
+    "english": "From Latin 'publicum' (the public).\\nSame root as English 'public.'"
+  },
+  {
+    "line": 16,
+    "field": "funFact",
+    "english": "From Latin 'publicum' (the public). In German, your Publikum can be a theater audience, a lecture hall, or your colleagues at the Monday meeting."
+  },
+  {
+    "line": 17,
+    "field": "note",
+    "english": "Fach (subject/field) + Vortrag. Implies deep expertise.\\nGeneral audiences get an 'Überblicksvortrag' instead."
+  },
+  {
+    "line": 17,
+    "field": "funFact",
+    "english": "'Fach' (subject/field) + 'Vortrag.' A specialist presentation. At German conferences, a Fachvortrag is expected to go into technical detail. General audiences get an 'Überblicksvortrag' instead."
+  },
+  {
+    "line": 18,
+    "field": "note",
+    "english": "From Latin 'folium' (leaf). Originally meant a transparency\\nsheet for overhead projectors. Now means a presentation slide."
+  },
+  {
+    "line": 18,
+    "field": "funFact",
+    "english": "From Latin 'folium' (leaf). Originally meant a transparency sheet for overhead projectors. 'Nächste Folie, bitte' (Next slide, please) is heard in every German meeting room."
+  },
+  {
+    "line": 19,
+    "field": "note",
+    "english": "From 'gliedern' (to structure/divide into parts).\\n'Glied' means limb. A Gliederung is the skeleton."
+  },
+  {
+    "line": 19,
+    "field": "funFact",
+    "english": "From 'gliedern' (to structure/divide into parts). Die Gliederung is sacred in German academic and professional culture. No thesis, no Vortrag, no report ships without a Gliederung. 'Glied' means limb. A Gliederung is the skeleton."
+  },
+  {
+    "line": 20,
+    "field": "note",
+    "english": "Haupt (main/head) + Teil (part).\\nGerman Vorträge follow a strict three-part structure."
+  },
+  {
+    "line": 20,
+    "field": "funFact",
+    "english": "'Haupt' (main/head) + 'Teil' (part). German Vorträge follow a strict three-part structure: Einleitung (introduction), Hauptteil (main body), Schluss (conclusion). No exceptions."
+  },
+  {
+    "line": 21,
+    "field": "note",
+    "english": "Schluss (end/conclusion) + Wort (word).\\nWhere you summarize, thank the audience, and open for questions."
+  },
+  {
+    "line": 21,
+    "field": "funFact",
+    "english": "'Schluss' (end/conclusion) + 'Wort' (word). In German presentations, the Schlusswort is where you summarize, thank the audience, and open the floor for questions. A strong Schlusswort leaves a lasting impression."
+  },
+  {
+    "line": 22,
+    "field": "note",
+    "english": "Auf (up) + Bau (building/construction).\\nHow something is built up."
+  },
+  {
+    "line": 22,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'Bau' (building/construction). How something is built up. 'Der Aufbau des Vortrags' (the structure of the presentation) is what every German coach asks about first."
+  },
+  {
+    "line": 23,
+    "field": "note",
+    "english": "Ab (off/away) + Lauf (run/course).\\nHow things run from start to finish."
+  },
+  {
+    "line": 23,
+    "field": "funFact",
+    "english": "'Ab' (off/away) + 'Lauf' (run/course). 'Der Ablauf der Veranstaltung' (the schedule of the event). How things run from start to finish. Germans love a clear Ablauf."
+  },
+  {
+    "line": 24,
+    "field": "note",
+    "english": "Vor (before) + Bereitung (preparation).\\nGermans are legendary for Vorbereitung."
+  },
+  {
+    "line": 24,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'Bereitung' (preparation). Germans are legendary for Vorbereitung. An unprepared presentation is a professional sin. The compound tells you: do it BEFORE the event."
+  },
+  {
+    "line": 25,
+    "field": "note",
+    "english": "Kern (core/kernel) + Aussage (statement).\\nEvery German Vortrag must have one clear Kernaussage."
+  },
+  {
+    "line": 25,
+    "field": "funFact",
+    "english": "'Kern' (core/kernel) + 'Aussage' (statement). Every German Vortrag must have one clear Kernaussage. If your audience remembers one thing, it should be this. The kernel inside the shell of details."
+  },
+  {
+    "line": 26,
+    "field": "note",
+    "english": "Über (over) + zeugend (generating/witnessing).\\nPresent participle of überzeugen."
+  },
+  {
+    "line": 26,
+    "field": "funFact",
+    "english": "'Über' (over) + 'zeugend' (generating/witnessing). Present participle of überzeugen. 'Ein überzeugender Vortrag' is one that 'generates belief over' the audience. The highest compliment for a presentation in German."
+  },
+  {
+    "line": 27,
+    "field": "note",
+    "english": "An (at) + schaulich (viewable).\\nMaking the abstract visible."
+  },
+  {
+    "line": 27,
+    "field": "funFact",
+    "english": "'An' (at) + 'schaulich' (viewable). 'Anschaulich erklären' means to explain so people can 'look at' the idea. German teachers prize anschauliche Beispiele (vivid examples). Making the abstract visible."
+  },
+  {
+    "line": 28,
+    "field": "note",
+    "english": "From Latin 'structura.' Past participle used as adjective.\\n'Klar strukturiert' is the gold standard."
+  },
+  {
+    "line": 28,
+    "field": "funFact",
+    "english": "From Latin 'structura.' 'Klar strukturiert' (clearly structured) is the gold standard for German presentations. Past participle used as adjective. German professional culture worships Struktur."
+  },
+  {
+    "line": 29,
+    "field": "note",
+    "english": "From Latin 'praesentare.' Not separable.\\nThe professional verb for showing work."
+  },
+  {
+    "line": 29,
+    "field": "funFact",
+    "english": "From Latin 'praesentare.' Not separable. 'Ich praesentiere die Ergebnisse' (I present the results). More formal than 'zeigen' (to show). The professional verb for showing work."
+  },
+  {
+    "line": 30,
+    "field": "note",
+    "english": "Vor (before) + tragen (to carry). Separable.\\nStrong verb: vortragen/trug vor/vorgetragen."
+  },
+  {
+    "line": 30,
+    "field": "funFact",
+    "english": "'Vor' (before) + 'tragen' (to carry). Separable: 'Ich trage meine Ideen vor.' Strong verb: vortragen/trug vor/vorgetragen. More formal than praesentieren and implies oral delivery."
+  },
+  {
+    "line": 31,
+    "field": "note",
+    "english": "Ein (in/into) + leiten (to lead/guide). Separable.\\nDie Einleitung (introduction) is the noun form."
+  },
+  {
+    "line": 31,
+    "field": "funFact",
+    "english": "'Ein' (in/into) + 'leiten' (to lead/guide). Separable: 'Ich leite den Vortrag ein.' You 'lead into' the topic. Die Einleitung (introduction) is the noun form. The first step of the sacred three-part structure."
+  },
+  {
+    "line": 44,
+    "field": "note",
+    "english": "English loanword. Neuter because it is a foreign word.\\nMany German workshops still love the Flipchart."
+  },
+  {
+    "line": 44,
+    "field": "funFact",
+    "english": "English loanword. Das Flipchart. Despite PowerPoint dominance, many German workshops still love the Flipchart. 'Etwas am Flipchart festhalten' (to capture something on the flipchart) is workshop culture at its finest."
+  },
+  {
+    "line": 45,
+    "field": "note",
+    "english": "English loanword. In German academia, a Handout is expected\\nat every seminar presentation."
+  },
+  {
+    "line": 45,
+    "field": "funFact",
+    "english": "English loanword. Das Handout. In German academia, a Handout is expected at every seminar presentation. It summarizes key points on one page. Professors judge your Handout as seriously as your Vortrag."
+  },
+  {
+    "line": 46,
+    "field": "note",
+    "english": "Bildschirm (screen) + Praesentation. At 24 letters,\\nthis compound shows why Germans love abbreviations."
+  },
+  {
+    "line": 46,
+    "field": "funFact",
+    "english": "'Bildschirm' (screen, literally 'picture-screen') + 'Praesentation.' At 24 letters, this compound demonstrates why Germans love abbreviations. Most just say 'Praesentation.'"
+  },
+  {
+    "line": 47,
+    "field": "note",
+    "english": "From Greek 'diagramma' (figure drawn with lines).\\nGermans love data visualizations in Vorträge."
+  },
+  {
+    "line": 47,
+    "field": "funFact",
+    "english": "From Greek 'diagramma' (figure drawn with lines). 'Kreisdiagramm' (pie chart), 'Balkendiagramm' (bar chart), 'Liniendiagramm' (line chart). Germans love data visualizations in Vorträge."
+  },
+  {
+    "line": 48,
+    "field": "note",
+    "english": "Über (over) + Sicht (view/sight). Literally a 'view from above.'\\n'Ich gebe Ihnen eine Übersicht' is a standard opening."
+  },
+  {
+    "line": 48,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Sicht' (view/sight). Literally a 'view from above.' 'Ich gebe Ihnen eine Übersicht' (I will give you an overview) is how many German presentations begin."
+  },
+  {
+    "line": 49,
+    "field": "note",
+    "english": "Über (over) + Leitung (leading/guidance).\\nThe art of smoothly moving from one topic to the next."
+  },
+  {
+    "line": 49,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Leitung' (leading/guidance). The art of smoothly moving from one topic to the next. 'Eine elegante Überleitung' separates good speakers from great ones."
+  },
+  {
+    "line": 50,
+    "field": "note",
+    "english": "Über (over) + Gang (walk/passage).\\nWhile Überleitung is about guiding, Übergang is about the passage itself."
+  },
+  {
+    "line": 50,
+    "field": "funFact",
+    "english": "'Über' (over) + 'Gang' (walk/passage). While Überleitung is about guiding, Übergang is about the passage itself. 'Der Übergang zum nächssten Thema' (the transition to the next topic)."
+  },
+  {
+    "line": 51,
+    "field": "note",
+    "english": "From 'formulieren' (to formulate).\\nGerman business culture values precise Formulierungen."
+  },
+  {
+    "line": 51,
+    "field": "funFact",
+    "english": "From 'formulieren' (to formulate). 'Eine glückliche Formulierung' (a felicitous phrasing) can make or break a presentation. German business culture values precise Formulierungen."
+  },
+  {
+    "line": 52,
+    "field": "note",
+    "english": "Zu (to) + Hoerer (listener). Active listening:\\n'zuhören' is more attentive than just 'hören.'"
+  },
+  {
+    "line": 52,
+    "field": "funFact",
+    "english": "'Zu' (to) + 'Hoerer' (listener). 'Die Zuhörer fesseln' (to captivate the listeners) is every speaker's goal. Active listening: 'zuhören' is more attentive than just 'hören.'"
+  },
+  {
+    "line": 53,
+    "field": "note",
+    "english": "Zuhörer + '-in.' The standard feminine form.\\nModern German uses 'Zuhörerinnen und Zuhörer' inclusively."
+  },
+  {
+    "line": 53,
+    "field": "funFact",
+    "english": "Zuhörer + '-in.' The standard feminine form. In modern German, many speakers use 'Zuhörerinnen und Zuhörer' to address their full audience inclusively."
+  },
+  {
+    "line": 54,
+    "field": "note",
+    "english": "From Latin 'referens' (one who reports). More formal than 'Sprecher.'\\nN-Deklination: Referent, Referenten."
+  },
+  {
+    "line": 54,
+    "field": "funFact",
+    "english": "From Latin 'referens' (one who reports). More formal than 'Sprecher.' At German conferences, the Referent is the expert who delivers the Fachvortrag. N-Deklination: Referent, Referenten."
+  },
+  {
+    "line": 55,
+    "field": "note",
+    "english": "Referent + '-in.' The standard feminine form.\\nAt conferences, the Referentin is credited by name."
+  },
+  {
+    "line": 55,
+    "field": "funFact",
+    "english": "Referent + '-in.' 'Die Referentin hat überzeugend vorgetragen' (The speaker presented convincingly) is high praise at a German conference."
+  },
+  {
+    "line": 56,
+    "field": "note",
+    "english": "From Latin 'moderator' (one who regulates).\\nIn meetings, the Moderator keeps things on track and on time."
+  },
+  {
+    "line": 56,
+    "field": "funFact",
+    "english": "From Latin 'moderator' (one who regulates). In German TV, the Moderator is the host. In meetings, the Moderator keeps things on track and on time."
+  },
+  {
+    "line": 57,
+    "field": "note",
+    "english": "Moderator + '-in.' German conference culture always\\ncredits the Moderatorin by name."
+  },
+  {
+    "line": 57,
+    "field": "funFact",
+    "english": "Moderator + '-in.' German conference culture always credits the Moderatorin by name. 'Vielen Dank an unsere Moderatorin' is a standard closing line."
+  },
+  {
+    "line": 58,
+    "field": "note",
+    "english": "Aus (out) + führlich (leading). The opposite of 'kurz' (brief).\\nGerman academic culture values ausführliche Darstellungen."
+  },
+  {
+    "line": 58,
+    "field": "funFact",
+    "english": "'Aus' (out) + 'führlich' (leading). 'Ausführlich erklären' (to explain in detail). The opposite of 'kurz' (brief). German academic culture values ausführliche Darstellungen (detailed accounts)."
+  },
+  {
+    "line": 59,
+    "field": "note",
+    "english": "From Latin 'praegnans' (weighty/meaningful). False friend:\\n'praegnant' in German does NOT mean pregnant."
+  },
+  {
+    "line": 59,
+    "field": "funFact",
+    "english": "From Latin 'praegnans' (weighty/meaningful). False friend alert: 'praegnant' in German does NOT mean pregnant. It means pithy, succinct. 'Eine praegnante Formulierung' is brief but powerful."
+  },
+  {
+    "line": 60,
+    "field": "note",
+    "english": "From 'verstehen' (to understand) + '-lich.'\\n'Klar und verständlich' is what every audience wants."
+  },
+  {
+    "line": 60,
+    "field": "funFact",
+    "english": "From 'verstehen' (to understand) + '-lich.' 'Klar und verständlich' (clear and understandable) is what every audience wants. 'Allgemeinverständlich' means accessible to a general audience."
+  },
+  {
+    "line": 61,
+    "field": "note",
+    "english": "From Latin 'concretus' (solid/dense). The opposite of 'abstrakt.'\\nGermans ask 'Können Sie das konkret beschreiben?'"
+  },
+  {
+    "line": 61,
+    "field": "funFact",
+    "english": "From Latin 'concretus' (solid/dense). 'Können Sie das konkret beschreiben?' (Can you describe that concretely?) is what Germans ask when you are too vague. The opposite of 'abstrakt.'"
+  },
+  {
+    "line": 62,
+    "field": "note",
+    "english": "From French 'professionnel.' Stress on the last syllable.\\nNot a compliment but a baseline in German business."
+  },
+  {
+    "line": 62,
+    "field": "funFact",
+    "english": "From French 'professionnel.' Stress on the last syllable: pro-fess-io-NELL. 'Eine professionelle Praesentation' is the minimum expectation in German business culture. Not a compliment but a baseline."
+  },
+  {
+    "line": 63,
+    "field": "note",
+    "english": "From Latin 'competens' (suitable). Germans value demonstrated\\nKompetenz over charisma."
+  },
+  {
+    "line": 63,
+    "field": "funFact",
+    "english": "From Latin 'competens' (suitable). 'Fachlich kompetent' (professionally competent) is how German colleagues earn respect. 'Kompetenz' (competence) is the noun. Germans value demonstrated Kompetenz over charisma."
+  },
+  {
+    "line": 86,
+    "field": "note",
+    "english": "From 'tagen' (to meet in session). More academic than 'Konferenz.'\\n'Jahrestagung' (annual conference) is the big one."
+  },
+  {
+    "line": 86,
+    "field": "funFact",
+    "english": "From 'tagen' (to meet in session). More academic than 'Konferenz.' German universities host Tagungen where researchers present Fachvorträge. 'Jahrestagung' (annual conference) is the big one."
+  },
+  {
+    "line": 87,
+    "field": "note",
+    "english": "From 'veranstalten' (to organize). The umbrella word\\nfor any organized gathering."
+  },
+  {
+    "line": 87,
+    "field": "funFact",
+    "english": "From 'veranstalten' (to organize). The umbrella word for any organized gathering: conference, concert, workshop, lecture. 'Veranstaltungsort' (venue) and 'Veranstalter' (organizer) derive from it."
+  },
+  {
+    "line": 88,
+    "field": "note",
+    "english": "From 'sitzen' (to sit). Literally 'a sitting.'\\nGerman committee culture runs on Sitzungen."
+  },
+  {
+    "line": 88,
+    "field": "funFact",
+    "english": "From 'sitzen' (to sit). Literally 'a sitting.' German committee culture runs on Sitzungen. 'Vorstandssitzung' (board meeting), 'Ausschusssitzung' (committee meeting). Everyone sits. Everyone talks."
+  },
+  {
+    "line": 89,
+    "field": "note",
+    "english": "From 'besprechen' (to discuss). More informal than Sitzung.\\n'Team-Besprechung' is the standard German office meeting."
+  },
+  {
+    "line": 89,
+    "field": "funFact",
+    "english": "From 'besprechen' (to discuss). More informal than Sitzung. 'Team-Besprechung' is the standard German office meeting. 'Besprechungszimmer' (meeting room) is on every floor."
+  },
+  {
+    "line": 90,
+    "field": "note",
+    "english": "Konferenz (conference) + Raum (room). Where decisions\\nare made in German offices."
+  },
+  {
+    "line": 90,
+    "field": "funFact",
+    "english": "'Konferenz' (conference) + 'Raum' (room). Where decisions are made in German offices. Always has a projector, a whiteboard, and water glasses. Booking one is a competitive sport."
+  },
+  {
+    "line": 91,
+    "field": "note",
+    "english": "Tages (of the day) + Ordnung (order). Sacred in German\\nmeeting culture. No meeting starts without one."
+  },
+  {
+    "line": 91,
+    "field": "funFact",
+    "english": "'Tages' (of the day) + 'Ordnung' (order). Sacred in German meeting culture. No meeting starts without one. 'Gibt es noch Punkte zur Tagesordnung?' (Are there more items on the agenda?) signals the meeting is ending."
+  },
+  {
+    "line": 92,
+    "field": "note",
+    "english": "Tagesordnung + Punkt (point/item). Abbreviated TOP.\\n'TOP 3: Projektbericht' is how German agendas work."
+  },
+  {
+    "line": 92,
+    "field": "funFact",
+    "english": "Tagesordnung + 'Punkt' (point/item). Abbreviated TOP. 'TOP 3: Projektbericht' is how German agendas are structured. Each TOP gets a time slot. Germans take this seriously."
+  },
+  {
+    "line": 93,
+    "field": "note",
+    "english": "Rahmen (frame) + Programm. The frame around the main content.\\nIncludes dinners, excursions, and networking."
+  },
+  {
+    "line": 93,
+    "field": "funFact",
+    "english": "'Rahmen' (frame) + 'Programm.' At German conferences, the Rahmenprogramm includes dinners, excursions, and networking. The frame around the main content."
+  },
+  {
+    "line": 94,
+    "field": "note",
+    "english": "Rede (speech) + Zeit (time). Strictly enforced at\\nGerman conferences and in parliament."
+  },
+  {
+    "line": 94,
+    "field": "funFact",
+    "english": "'Rede' (speech) + 'Zeit' (time). At German conferences and parliament, Redezeit is strictly enforced. Going over your Redezeit is a serious breach of Ordnung. The Moderator will cut you off."
+  },
+  {
+    "line": 95,
+    "field": "note",
+    "english": "Rede (speech) + Beitrag (contribution).\\n'Vielen Dank für Ihren Redebeitrag' is the polite acknowledgment."
+  },
+  {
+    "line": 95,
+    "field": "funFact",
+    "english": "'Rede' (speech) + 'Beitrag' (contribution). Your turn to speak in a meeting or debate. 'Vielen Dank für Ihren Redebeitrag' (Thank you for your contribution) is the polite acknowledgment."
+  },
+  {
+    "line": 96,
+    "field": "note",
+    "english": "Dem (that) + nach (after/according to). An adverb\\nthat signals a logical conclusion."
+  },
+  {
+    "line": 96,
+    "field": "funFact",
+    "english": "'Dem' (that) + 'nach' (after/according to). An adverb that signals a logical conclusion. 'Die Zahlen sind gut, demnach können wir fortfahren.' Formal and precise."
+  },
+  {
+    "line": 97,
+    "field": "note",
+    "english": "Darauf (thereupon) + hin (toward). Something happens,\\nand daraufhin the consequence follows."
+  },
+  {
+    "line": 97,
+    "field": "funFact",
+    "english": "'Darauf' (thereupon) + 'hin' (toward). 'Er praesentierte die Daten, daraufhin änderte das Team den Plan.' Something happens, and daraufhin the consequence follows. More narrative than demnach."
+  },
+  {
+    "line": 98,
+    "field": "note",
+    "english": "Erst (first) + '-ens' (adverb suffix). Essential for\\nstructured Vorträge."
+  },
+  {
+    "line": 98,
+    "field": "funFact",
+    "english": "'Erst' (first) + '-ens' (adverb suffix). 'Erstens..., zweitens..., drittens...' is the German numbered argument structure. Essential for structured Vorträge."
+  },
+  {
+    "line": 99,
+    "field": "note",
+    "english": "From 'fern' (far/distant). Formal written register.\\nElegant and slightly old-fashioned."
+  },
+  {
+    "line": 99,
+    "field": "funFact",
+    "english": "From 'fern' (far/distant). Formal written register. 'Ferner möchte ich darauf hinweisen...' (Furthermore, I would like to point out...). Elegant and slightly old-fashioned. Perfect for academic Vorträge."
+  },
+  {
+    "line": 100,
+    "field": "note",
+    "english": "From 'schliessen' (to close). Marks the end of an argument chain.\\nAlso means 'after all.'"
+  },
+  {
+    "line": 100,
+    "field": "funFact",
+    "english": "From 'schliessen' (to close). 'Schließlich kommen wir zum letzten Punkt' (Finally, we come to the last point). Marks the end of an argument chain. Also means 'after all': 'Schließlich bin ich der Experte.'"
+  },
+  {
+    "line": 101,
+    "field": "note",
+    "english": "Dar (there/forth) + stellen (to place). Separable.\\nThe formal word for showing data."
+  },
+  {
+    "line": 101,
+    "field": "funFact",
+    "english": "'Dar' (there/forth) + 'stellen' (to place). Separable: 'Ich stelle die Ergebnisse dar.' The formal word for showing data. 'Die Situation anders darstellen' (to present the situation differently)."
+  },
+  {
+    "line": 102,
+    "field": "note",
+    "english": "Hervor (forth) + heben (to lift). Separable.\\nStrong verb: hervorheben/hob hervor/hervorgehoben."
+  },
+  {
+    "line": 102,
+    "field": "funFact",
+    "english": "'Hervor' (forth) + 'heben' (to lift). Separable: 'Ich hebe die Kernaussage hervor.' Lifting something forth from the background. Strong verb: hervorheben/hob hervor/hervorgehoben."
+  },
+  {
+    "line": 103,
+    "field": "note",
+    "english": "Auf (up) + zeigen (to show). Separable.\\nMore formal than 'zeigen' alone. Implies revealing something."
+  },
+  {
+    "line": 103,
+    "field": "funFact",
+    "english": "'Auf' (up) + 'zeigen' (to show). Separable: 'Die Studie zeigt Probleme auf.' More formal than 'zeigen' alone. 'Aufzeigen' implies revealing something that was not obvious."
+  },
+  {
+    "line": 104,
+    "field": "note",
+    "english": "From Italian 'schizzo' (sketch). Not separable.\\nUsed when giving a quick overview without full detail."
+  },
+  {
+    "line": 104,
+    "field": "funFact",
+    "english": "From Italian 'schizzo' (sketch). Not separable. 'Ich skizziere kurz den Ablauf' (I will briefly outline the procedure). Used when giving a quick overview without full detail."
+  },
+  {
+    "line": 105,
+    "field": "note",
+    "english": "Hin (toward) + weisen (to point). Separable.\\n'Darauf hinweisen' is essential in German presentations."
+  },
+  {
+    "line": 105,
+    "field": "funFact",
+    "english": "'Hin' (toward) + 'weisen' (to point). Separable: 'Ich weise auf ein Problem hin.' 'Darauf hinweisen' (to point out) is essential in German presentations and meetings. Polite but direct."
+  },
+  {
+    "line": 131,
+    "field": "note",
+    "english": "Podium (platform) + Diskussion. Experts sit on a raised platform.\\nGerman Podiumsdiskussionen follow strict Redezeit rules."
+  },
+  {
+    "line": 131,
+    "field": "funFact",
+    "english": "'Podium' (platform) + 'Diskussion.' Experts sit on a raised platform and discuss. German Podiumsdiskussionen follow strict Redezeit rules. The Moderator controls who speaks."
+  },
+  {
+    "line": 132,
+    "field": "note",
+    "english": "Diskussion + Runde (round). Less formal than a Podiumsdiskussion.\\nThe 'round' implies equality."
+  },
+  {
+    "line": 132,
+    "field": "funFact",
+    "english": "'Diskussion' + 'Runde' (round). Less formal than a Podiumsdiskussion. Often in a circle. 'Offene Diskussionsrunde' means everyone can contribute. The 'round' implies equality."
+  },
+  {
+    "line": 133,
+    "field": "note",
+    "english": "From Latin 'moderatio' (restraint). More than just hosting:\\nkeeping the discussion fair, balanced, and on schedule."
+  },
+  {
+    "line": 133,
+    "field": "funFact",
+    "english": "From Latin 'moderatio' (restraint). More than just hosting: German Moderation means keeping the discussion fair, balanced, and on schedule. 'Die Moderation lag bei Frau Schmidt.'"
+  },
+  {
+    "line": 134,
+    "field": "note",
+    "english": "Meinung (opinion) + Austausch (exchange). More neutral\\nthan 'Debatte' or 'Streit.'"
+  },
+  {
+    "line": 134,
+    "field": "funFact",
+    "english": "'Meinung' (opinion) + 'Austausch' (exchange). More neutral than 'Debatte' or 'Streit.' 'Ein offener Meinungsaustausch' is the ideal of German deliberative culture."
+  },
+  {
+    "line": 135,
+    "field": "note",
+    "english": "From Latin 'consensus' (agreement). German business culture\\nheavily favors Konsens over top-down decisions."
+  },
+  {
+    "line": 135,
+    "field": "funFact",
+    "english": "From Latin 'consensus' (agreement). German business culture heavily favors Konsens over top-down decisions. 'Konsenssuche' (consensus-seeking) can make German meetings long but decisions stick."
+  },
+  {
+    "line": 136,
+    "field": "note",
+    "english": "From Latin 'compromissum' (mutual promise).\\n'Einen Kompromiss finden' is the goal of most German negotiations."
+  },
+  {
+    "line": 136,
+    "field": "funFact",
+    "english": "From Latin 'compromissum' (mutual promise). 'Einen Kompromiss finden' (to find a compromise) is the goal of most German negotiations. Kompromissbereitschaft (willingness to compromise) is a valued skill."
+  },
+  {
+    "line": 137,
+    "field": "note",
+    "english": "From 'verhandeln' (to negotiate). Also means 'trial'\\nin legal context: 'Gerichtsverhandlung.'"
+  },
+  {
+    "line": 137,
+    "field": "funFact",
+    "english": "From 'verhandeln' (to negotiate). Also means 'trial' in a legal context: 'Gerichtsverhandlung.' In business: 'Gehaltsverhandlung' (salary negotiation). The -ung ending always makes feminine nouns."
+  },
+  {
+    "line": 138,
+    "field": "note",
+    "english": "Ein (in) + Wand (wall/turning). In German meetings,\\nEinwaende are expected and respected. Plural: Einwaende."
+  },
+  {
+    "line": 138,
+    "field": "funFact",
+    "english": "'Ein' (in) + 'Wand' (wall/turning). 'Einen Einwand erheben' (to raise an objection). In German meetings, Einwaende are expected and respected. Ignoring them is poor form. Plural: Einwaende."
+  },
+  {
+    "line": 139,
+    "field": "note",
+    "english": "Gegen (against/counter) + Vorschlag (suggestion).\\nIn German culture: never just object, always bring a Gegenvorschlag."
+  },
+  {
+    "line": 139,
+    "field": "funFact",
+    "english": "'Gegen' (against/counter) + 'Vorschlag' (suggestion). German negotiation culture: never just object. Always bring a Gegenvorschlag. 'Ich hätte einen Gegenvorschlag' is the respectful way."
+  },
+  {
+    "line": 140,
+    "field": "note",
+    "english": "Zwischen (between) + Frage (question). In parliament:\\n'Gestatten Sie eine Zwischenfrage?'"
+  },
+  {
+    "line": 140,
+    "field": "funFact",
+    "english": "'Zwischen' (between) + 'Frage' (question). In German parliament: 'Gestatten Sie eine Zwischenfrage?' (Do you permit a question?). In meetings, raising your hand signals a Zwischenfrage."
+  },
+  {
+    "line": 141,
+    "field": "note",
+    "english": "So + fern (far). More formal than 'wenn.'\\nImplies a specific condition must be met."
+  },
+  {
+    "line": 141,
+    "field": "funFact",
+    "english": "'So' + 'fern' (far). More formal than 'wenn.' Sofern implies a specific condition must be met. Used in contracts, presentations, and formal writing. 'Sofern die Daten stimmen, können wir fortfahren.'"
+  },
+  {
+    "line": 142,
+    "field": "note",
+    "english": "Gesetzt (set/posited) + den Fall (the case). Very formal.\\nSets up a hypothetical scenario for analysis."
+  },
+  {
+    "line": 142,
+    "field": "funFact",
+    "english": "'Gesetzt' (set/posited) + 'den Fall' (the case). Very formal. Sets up a hypothetical scenario for analysis. Academic and legal register. 'Gesetzt den Fall, die Zahlen ändern sich...'"
+  },
+  {
+    "line": 143,
+    "field": "note",
+    "english": "Vorausgesetzt (presupposed) + dass (that).\\nOften shortened to 'vorausgesetzt' alone."
+  },
+  {
+    "line": 143,
+    "field": "funFact",
+    "english": "'Vorausgesetzt' (presupposed) + 'dass' (that). Often shortened to 'vorausgesetzt' alone. More everyday than 'gesetzt den Fall.' 'Vorausgesetzt, dass alle zustimmen, können wir starten.'"
+  },
+  {
+    "line": 144,
+    "field": "note",
+    "english": "Unter (under) + der Bedingung (the condition) + dass.\\nContract language. Every word spells out the condition."
+  },
+  {
+    "line": 144,
+    "field": "funFact",
+    "english": "'Unter' (under) + 'der Bedingung' (the condition) + 'dass.' Very explicit. 'Unter der Bedingung, dass Sie puenktlich liefern, erhalten Sie den Auftrag.' Contract language. Every word spells out the condition."
+  },
+  {
+    "line": 145,
+    "field": "note",
+    "english": "Es sei (it be, subjunctive) + denn (for/unless).\\nThe elegant way to say 'unless.'"
+  },
+  {
+    "line": 145,
+    "field": "funFact",
+    "english": "'Es sei' (it be, subjunctive) + 'denn' (for/unless). The 'sei' is Konjunktiv I, giving it a formal, slightly literary quality. The elegant way to say 'unless.' 'Das Projekt startet Montag, es sei denn, es gibt Einwaende.'"
+  },
+  {
+    "line": 146,
+    "field": "note",
+    "english": "Past participle of 'annehmen' (to assume).\\nMore conversational than 'gesetzt den Fall.'"
+  },
+  {
+    "line": 146,
+    "field": "funFact",
+    "english": "Past participle of 'annehmen' (to assume). Used alone to introduce a hypothesis. More conversational than 'gesetzt den Fall.' 'Mal angenommen' is the informal version."
+  },
+  {
+    "line": 147,
+    "field": "note",
+    "english": "From Latin 'constructivus.' Building up, not tearing down.\\n'Konstruktive Kritik' is what German colleagues claim to give."
+  },
+  {
+    "line": 147,
+    "field": "funFact",
+    "english": "From Latin 'constructivus.' 'Konstruktive Kritik' (constructive criticism) is what German colleagues claim to give. 'Ein konstruktiver Vorschlag' moves the discussion forward. Building up, not tearing down."
+  },
+  {
+    "line": 148,
+    "field": "note",
+    "english": "Sache (matter/thing) + bezogen (related to).\\n'Bitte bleiben Sie sachbezogen' is what a Moderator says."
+  },
+  {
+    "line": 148,
+    "field": "funFact",
+    "english": "'Sache' (matter/thing) + 'bezogen' (related to). 'Bitte bleiben Sie sachbezogen' (Please stay on topic) is what a Moderator says when the discussion drifts. Germans value sachbezogene Diskussionen."
+  },
+  {
+    "line": 149,
+    "field": "note",
+    "english": "Ergebnis (result) + orientiert (oriented). A buzzword\\nin German job ads. Meetings should produce outcomes."
+  },
+  {
+    "line": 149,
+    "field": "funFact",
+    "english": "'Ergebnis' (result) + 'orientiert' (oriented). 'Ergebnisorientiert arbeiten' is a buzzword in German job ads. Meetings should be ergebnisorientiert: produce outcomes, not just talk."
+  },
+  {
+    "line": 150,
+    "field": "note",
+    "english": "From 'klar' (clear). Making something clear.\\n'Eine Frage klaeren' (to resolve a question)."
+  },
+  {
+    "line": 150,
+    "field": "funFact",
+    "english": "From 'klar' (clear). Making something clear. 'Können wir das klaeren?' (Can we clarify that?). 'Eine Frage klaeren' (to resolve a question). The verb form of achieving clarity."
+  },
+  {
+    "line": 188,
+    "field": "note",
+    "english": "Feminine noun. Ergebnis (result) + Praesentation.\\n'Die Ergebnispraesentation findet am Freitag statt.'"
+  },
+  {
+    "line": 188,
+    "field": "funFact",
+    "english": "Ergebnis (result) + Praesentation. In German project culture, every project phase ends with one. The Ergebnispraesentation shows what was achieved and what comes next. No project closes without this formal step."
+  },
+  {
+    "line": 189,
+    "field": "note",
+    "english": "Feminine noun. Gespraech (conversation) + Fuehrung (leading).\\nThe art of steering a discussion productively."
+  },
+  {
+    "line": 189,
+    "field": "funFact",
+    "english": "Gespraech (conversation) + Fuehrung (leading). A moderator's core skill. 'Gute Gespraechsführung' keeps meetings productive and people heard. The compound tells you everything: lead the conversation, do not let it lead you."
+  },
+  {
+    "line": 190,
+    "field": "note",
+    "english": "Masculine noun. Leit (leading) + Faden (thread).\\n'Ein Leitfaden für Praesentationen.'"
+  }
+]

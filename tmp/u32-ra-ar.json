@@ -1,0 +1,798 @@
+[
+  {
+    "english": "Neues Museum Berlin. Yilmaz and Verumius walk through the galleries together. Art provokes questions about identity, origin, and belonging.",
+    "arabic": "متحف نيوس في برلين. يمشي يلماز وفيروميوس معاً في صالات المتحف. يُثير الفن تساؤلات حول الهوية والأصل والانتماء."
+  },
+  {
+    "english": "Learn core vocabulary for identity and culture",
+    "arabic": "تعلّم المفردات الأساسية للهوية والثقافة"
+  },
+  {
+    "english": "Discuss what belonging means",
+    "arabic": "ناقش معنى الانتماء"
+  },
+  {
+    "english": "Begin thinking about diversity and tolerance",
+    "arabic": "ابدأ التفكير في التنوع والتسامح"
+  },
+  {
+    "english": "Neues Museum Berlin. Hushed halls. Golden light filters through high arched windows. Yilmaz and Verumius walk slowly past ancient artifacts. They are no longer teacher and student. They are two people thinking together.",
+    "arabic": "متحف نيوس في برلين. قاعات هادئة. يتسلل الضوء الذهبي عبر النوافذ المقوسة العالية. يمشي يلماز وفيروميوس ببطء أمام القطع الأثرية القديمة. لم يعودا معلماً وطالباً. بل هما شخصان يفكران معاً."
+  },
+  {
+    "english": "Look at this collection. Objects from a thousand cultures, under one roof. Whoever knows their heritage understands the world better.",
+    "arabic": "انظر إلى هذه المجموعة. قطع من ألف ثقافة، تحت سقف واحد. من يعرف تراثه يفهم العالم بشكل أفضل."
+  },
+  {
+    "english": "But what is identity? I come from everywhere and nowhere. Is that a strength or a weakness?",
+    "arabic": "لكن ما هي الهوية؟ أنا من كل مكان ولا مكان. هل ذلك قوة أم ضعف؟"
+  },
+  {
+    "english": "Both. I am Turkish and German. This part of me and that one contradict each other sometimes. But diversity is not a weakness.",
+    "arabic": "كلاهما. أنا تركي وألماني. هذا الجزء مني وذاك يتناقضان أحياناً. لكن التنوع ليس ضعفاً."
+  },
+  {
+    "english": "identity",
+    "arabic": "هوية"
+  },
+  {
+    "english": "A: What does identity mean to you?\\nB: Identity is who I really am.\\nA: Can identity change?\\nB: Yes, it develops throughout a lifetime.",
+    "arabic": "أ: ماذا تعني لك الهوية؟\\nب: الهوية هي من أنا حقاً.\\nأ: هل يمكن للهوية أن تتغير؟\\nب: نعم، تتطور على مدى العمر."
+  },
+  {
+    "english": "consciousness, awareness",
+    "arabic": "وعي، إدراك"
+  },
+  {
+    "english": "A: What is cultural awareness?\\nB: The ability to understand other cultures.\\nA: How does one develop awareness?\\nB: Through traveling, reading, and listening.",
+    "arabic": "أ: ما هو الوعي الثقافي؟\\nب: القدرة على فهم الثقافات الأخرى.\\nأ: كيف ينمي المرء وعيه؟\\nب: من خلال السفر والقراءة والاستماع."
+  },
+  {
+    "english": "origin, heritage",
+    "arabic": "أصل، موروث"
+  },
+  {
+    "english": "A: Where is your heritage from?\\nB: My family comes from Turkey.\\nA: Heritage shapes us all.\\nB: Yes, but it does not define us.",
+    "arabic": "أ: من أين أصلك؟\\nب: عائلتي من تركيا.\\nأ: الأصل يشكّلنا جميعاً.\\nب: نعم، لكنه لا يحدّدنا."
+  },
+  {
+    "english": "tradition",
+    "arabic": "تقليد"
+  },
+  {
+    "english": "A: Which traditions do you maintain?\\nB: Christmas and Sugar Feast.\\nA: Two traditions in one family?\\nB: Yes, that is normal for us.",
+    "arabic": "أ: ما التقاليد التي تحافظ عليها؟\\nب: عيد الميلاد وعيد الفطر.\\nأ: تقليدان في عائلة واحدة؟\\nب: نعم، هذا طبيعي بالنسبة لنا."
+  },
+  {
+    "english": "diversity, variety",
+    "arabic": "تنوع، تعدد"
+  },
+  {
+    "english": "A: What makes Berlin special?\\nB: The cultural diversity.\\nA: Diversity means richness?\\nB: Yes, diversity enriches everyone.",
+    "arabic": "أ: ما الذي يجعل برلين مميزة؟\\nب: التنوع الثقافي.\\nأ: التنوع يعني الثراء؟\\nب: نعم، التنوع يُثري الجميع."
+  },
+  {
+    "english": "tolerance",
+    "arabic": "تسامح"
+  },
+  {
+    "english": "A: What does tolerance mean?\\nB: Accepting others as they are.\\nA: Is tolerance always easy?\\nB: No, but it is necessary.",
+    "arabic": "أ: ماذا يعني التسامح؟\\nب: قبول الآخرين كما هم.\\nأ: هل التسامح سهل دائماً؟\\nب: لا، لكنه ضروري."
+  },
+  {
+    "english": "prejudice",
+    "arabic": "تحيز، تعصب"
+  },
+  {
+    "english": "A: Do you have prejudices?\\nB: Everyone does, unfortunately.\\nA: Can one reduce prejudices?\\nB: Yes, through encounter and dialogue.",
+    "arabic": "أ: هل لديك تحيزات؟\\nب: الجميع لديه، للأسف.\\nأ: هل يمكن تقليل التحيزات؟\\nب: نعم، من خلال اللقاء والحوار."
+  },
+  {
+    "english": "perception",
+    "arabic": "إدراك، تصوّر"
+  },
+  {
+    "english": "A: Perception is subjective.\\nB: Yes, everyone sees the world differently.\\nA: Can one train perception?\\nB: Yes, through conscious observation.",
+    "arabic": "أ: الإدراك ذاتي.\\nب: نعم، كل شخص يرى العالم بشكل مختلف.\\nأ: هل يمكن تدريب الإدراك؟\\nب: نعم، من خلال الملاحظة الواعية."
+  },
+  {
+    "english": "belonging, affiliation",
+    "arabic": "انتماء، ارتباط"
+  },
+  {
+    "english": "A: Do you feel a sense of belonging to Berlin?\\nB: Yes, by now I do.\\nA: Belonging takes time.\\nB: And openness from both sides.",
+    "arabic": "أ: هل تشعر بالانتماء إلى برلين؟\\nب: نعم، بحلول الوقت الحالي نعم.\\nأ: الانتماء يحتاج وقتاً.\\nب: وانفتاحاً من الجانبين."
+  },
+  {
+    "english": "coexistence, living together",
+    "arabic": "تعايش، العيش المشترك"
+  },
+  {
+    "english": "A: How does coexistence work?\\nB: Through respect and communication.\\nA: Peaceful coexistence is the goal?\\nB: Yes, for everyone in society.",
+    "arabic": "أ: كيف يتحقق التعايش؟\\nب: من خلال الاحترام والتواصل.\\nأ: التعايش السلمي هو الهدف؟\\nب: نعم، للجميع في المجتمع."
+  },
+  {
+    "english": "social, societal",
+    "arabic": "اجتماعي، مجتمعي"
+  },
+  {
+    "english": "A: What are societal changes?\\nB: Changes in the whole of society.\\nA: Gesellschaftlich or sozial?\\nB: Gesellschaftlich is more formal and broader.",
+    "arabic": "أ: ما هي التغييرات المجتمعية؟\\nب: تغييرات في المجتمع بأسره.\\nأ: gesellschaftlich أم sozial؟\\nب: gesellschaftlich أكثر رسمية وأشمل."
+  },
+  {
+    "english": "multicultural",
+    "arabic": "متعدد الثقافات"
+  },
+  {
+    "english": "A: Is Berlin multicultural?\\nB: Absolutely. People from all over the world.\\nA: A multicultural city thrives on diversity.\\nB: That is what makes Berlin so special.",
+    "arabic": "أ: هل برلين متعددة الثقافات؟\\nب: بالتأكيد. أناس من كل أنحاء العالم.\\nأ: المدينة متعددة الثقافات تزدهر بالتنوع.\\nب: هذا ما يجعل برلين مميزة."
+  },
+  {
+    "english": "intercultural",
+    "arabic": "بين الثقافات، عابر للثقافات"
+  },
+  {
+    "english": "A: What is intercultural competence?\\nB: The ability to mediate between cultures.\\nA: Is that a qualification?\\nB: Yes, in many German professions.",
+    "arabic": "أ: ما هي الكفاءة بين الثقافات؟\\nب: القدرة على التوسط بين الثقافات.\\nأ: هل هذه مؤهل؟\\nب: نعم، في كثير من المهن الألمانية."
+  },
+  {
+    "english": "tolerant",
+    "arabic": "متسامح"
+  },
+  {
+    "english": "A: Are you tolerant?\\nB: I try every day.\\nA: A tolerant society requires work.\\nB: Yes, tolerance does not come by itself.",
+    "arabic": "أ: هل أنت متسامح؟\\nب: أحاول كل يوم.\\nأ: المجتمع المتسامح يتطلب جهداً.\\nب: نعم، التسامح لا يأتي من تلقاء نفسه."
+  },
+  {
+    "english": "traditional",
+    "arabic": "تقليدي"
+  },
+  {
+    "english": "A: Are those traditional values?\\nB: Yes, for generations.\\nA: Traditional can be positive.\\nB: Or conservative. Depends on the context.",
+    "arabic": "أ: هل هذه قيم تقليدية؟\\nب: نعم، عبر الأجيال.\\nأ: التقليدي قد يكون إيجابياً.\\nب: أو محافظاً. يعتمد على السياق."
+  },
+  {
+    "english": "to reflect",
+    "arabic": "يتأمل، يفكر بعمق"
+  },
+  {
+    "english": "A: What are you reflecting on?\\nB: On my identity.\\nA: It is important to reflect.\\nB: Yes, especially in a new culture.",
+    "arabic": "أ: على ماذا تتأمل؟\\nب: على هويتي.\\nأ: التأمل أمر مهم.\\nب: نعم، خاصةً في ثقافة جديدة."
+  },
+  {
+    "english": "to perceive, to notice",
+    "arabic": "يُدرك، يلاحظ"
+  },
+  {
+    "english": "A: Do you perceive the differences?\\nB: Yes, every day.\\nA: Consciously perceiving your surroundings is important.\\nB: It changes the perspective.",
+    "arabic": "أ: هل تُدرك الاختلافات؟\\nب: نعم، كل يوم.\\nأ: إدراك محيطك بوعي أمر مهم.\\nب: يغيّر المنظور."
+  },
+  {
+    "english": "to question critically, to scrutinize",
+    "arabic": "يُساءل بشكل نقدي، يتدقق"
+  },
+  {
+    "english": "A: Should one question traditions critically?\\nB: Yes, always.\\nA: Questioning critically does not mean rejecting.\\nB: Exactly. It means wanting to understand.",
+    "arabic": "أ: هل ينبغي مساءلة التقاليد نقدياً؟\\nب: نعم، دائماً.\\nأ: المساءلة النقدية لا تعني الرفض.\\nب: بالضبط. تعني الرغبة في الفهم."
+  },
+  {
+    "english": "Where you come from. 'Her' (from) + 'Kunft' (coming). Your origin and your roots.",
+    "arabic": "من أين أتيت. 'Her' (من) + 'Kunft' (القدوم). أصلك وجذورك."
+  },
+  {
+    "english": "From 'zugehören' (to belong). The feeling of being part of something.",
+    "arabic": "من 'zugehören' (ينتمي). شعور الانتماء إلى شيء ما."
+  },
+  {
+    "english": "The Latin-derived word for acceptance of differences. Lessing wrote about it.",
+    "arabic": "الكلمة المشتقة من اللاتينية لقبول الاختلافات. كتب عنها ليسينغ."
+  },
+  {
+    "english": "In a multicultural society, tolerance is especially important.",
+    "arabic": "في مجتمع متعدد الثقافات، التسامح مهم بشكل خاص."
+  },
+  {
+    "english": "Build a vocabulary of values, beliefs, and worldviews. Understand the philosophical concepts that Germans debate.",
+    "arabic": "ابنِ مفردات للقيم والمعتقدات ورؤى العالم. افهم المفاهيم الفلسفية التي يتناقشها الألمان."
+  },
+  {
+    "english": "Learn core vocabulary for values and beliefs",
+    "arabic": "تعلّم المفردات الأساسية للقيم والمعتقدات"
+  },
+  {
+    "english": "Understand philosophical concepts in German",
+    "arabic": "افهم المفاهيم الفلسفية بالألمانية"
+  },
+  {
+    "english": "Articulate your own values",
+    "arabic": "عبّر عن قيمك الخاصة"
+  },
+  {
+    "english": "Room 2.10, North Dome Hall. Nefertiti behind glass, three thousand years old. Yilmaz and Verumius stand before her, audio guides forgotten.",
+    "arabic": "غرفة 2.10، قاعة القبة الشمالية. نفرتيتي خلف الزجاج، عمرها ثلاثة آلاف عام. يقف يلماز وفيروميوس أمامها، ناسيَين أدلة الصوت."
+  },
+  {
+    "english": "She was found in Amarna, exhibited in Berlin, reclaimed by Egypt. Who does culture belong to? Who gets to define what identity means?",
+    "arabic": "وُجدت في أمارنا، عُرضت في برلين، وطالبت مصر باستعادتها. لمن تنتمي الثقافة؟ ومن يحق له تحديد معنى الهوية؟"
+  },
+  {
+    "english": "view, perspective, worldview",
+    "arabic": "نظرة، منظور، رؤية للعالم"
+  },
+  {
+    "english": "A: What is your view?\\nB: I believe in tolerance and openness.\\nA: A positive worldview.\\nB: Yes, shaped by experience.",
+    "arabic": "أ: ما هي نظرتك؟\\nب: أؤمن بالتسامح والانفتاح.\\nأ: رؤية إيجابية للعالم.\\nب: نعم، شكّلتها التجربة."
+  },
+  {
+    "english": "conviction, firm belief",
+    "arabic": "قناعة، إيمان راسخ"
+  },
+  {
+    "english": "A: Do you act from conviction?\\nB: Yes, always.\\nA: Conviction gives strength.\\nB: Without conviction one is disoriented.",
+    "arabic": "أ: هل تتصرف من قناعة؟\\nب: نعم، دائماً.\\nأ: القناعة تمنح القوة.\\nب: بدون قناعة يضيع المرء."
+  },
+  {
+    "english": "concept, idea, imagination",
+    "arabic": "مفهوم، فكرة، تصوّر"
+  },
+  {
+    "english": "A: What is your idea of happiness?\\nB: Time with family.\\nA: Everyone has different ideas.\\nB: That makes life interesting.",
+    "arabic": "أ: ما هو تصوّرك للسعادة؟\\nب: الوقت مع العائلة.\\nأ: لكل شخص تصوّراته المختلفة.\\nب: هذا ما يجعل الحياة مثيرة للاهتمام."
+  },
+  {
+    "english": "value system, moral conception",
+    "arabic": "منظومة قيم، تصوّر أخلاقي"
+  },
+  {
+    "english": "A: What values do you hold?\\nB: Honesty and respect.\\nA: Values shape our actions.\\nB: Yes, they are our inner compass.",
+    "arabic": "أ: ما القيم التي تؤمن بها؟\\nب: الصدق والاحترام.\\nأ: القيم تشكّل أفعالنا.\\nب: نعم، هي بوصلتنا الداخلية."
+  },
+  {
+    "english": "self-image",
+    "arabic": "صورة الذات"
+  },
+  {
+    "english": "A: Does your self-image match reality?\\nB: Not always.\\nA: Self-image changes.\\nB: Yes, with every new experience.",
+    "arabic": "أ: هل تتطابق صورة ذاتك مع الواقع؟\\nب: ليس دائماً.\\nأ: صورة الذات تتغير.\\nب: نعم، مع كل تجربة جديدة."
+  },
+  {
+    "english": "concept, plan",
+    "arabic": "مفهوم، خطة"
+  },
+  {
+    "english": "A: Do you have a concept?\\nB: Yes, for the project.\\nA: A good concept takes time.\\nB: But it saves work later.",
+    "arabic": "أ: هل لديك مفهوم؟\\nب: نعم، للمشروع.\\nأ: المفهوم الجيد يحتاج وقتاً.\\nب: لكنه يوفر الجهد لاحقاً."
+  },
+  {
+    "english": "philosophy",
+    "arabic": "فلسفة"
+  },
+  {
+    "english": "A: Are you interested in philosophy?\\nB: Yes, especially German philosophy.\\nA: Which philosopher inspires you?\\nB: Hannah Arendt. She thought radically.",
+    "arabic": "أ: هل تهتم بالفلسفة؟\\nب: نعم، خاصةً الفلسفة الألمانية.\\nأ: أي فيلسوف يلهمك؟\\nب: حنة أرندت. فكّرت بجذرية."
+  },
+  {
+    "english": "ethics",
+    "arabic": "أخلاق، علم الأخلاق"
+  },
+  {
+    "english": "A: What is ethics?\\nB: The study of right action.\\nA: Do we need ethics in technology?\\nB: Absolutely. Without ethics, progress is dangerous.",
+    "arabic": "أ: ما هي الأخلاق؟\\nب: دراسة الفعل الصحيح.\\nأ: هل نحتاج الأخلاق في التكنولوجيا؟\\nب: بالتأكيد. بدون أخلاق، التقدم خطير."
+  },
+  {
+    "english": "fundamental value",
+    "arabic": "قيمة أساسية"
+  },
+  {
+    "english": "A: What are Germany's fundamental values?\\nB: Human dignity, freedom, equality.\\nA: Fundamental values are non-negotiable.\\nB: Exactly, they are the basis of everything.",
+    "arabic": "أ: ما هي القيم الأساسية لألمانيا؟\\nب: الكرامة الإنسانية والحرية والمساواة.\\nأ: القيم الأساسية غير قابلة للتفاوض.\\nب: بالضبط، هي أساس كل شيء."
+  },
+  {
+    "english": "quality of life",
+    "arabic": "جودة الحياة"
+  },
+  {
+    "english": "A: How is the quality of life in Berlin?\\nB: High, despite the hustle.\\nA: What makes good quality of life?\\nB: Green spaces, culture, and affordable rent.",
+    "arabic": "أ: كيف هي جودة الحياة في برلين؟\\nب: عالية، رغم الازدحام.\\nأ: ما الذي يُشكّل جودة حياة جيدة؟\\nب: المساحات الخضراء والثقافة والإيجار المعقول."
+  },
+  {
+    "english": "human dignity",
+    "arabic": "كرامة إنسانية"
+  },
+  {
+    "english": "A: What is human dignity?\\nB: The right to be respected as a human being.\\nA: Is human dignity in the constitution?\\nB: Yes, Article 1. The most important sentence.",
+    "arabic": "أ: ما هي الكرامة الإنسانية؟\\nب: الحق في الاحترام كإنسان.\\nأ: هل الكرامة الإنسانية في الدستور؟\\nب: نعم، المادة الأولى. أهم جملة."
+  },
+  {
+    "english": "independent, autonomous",
+    "arabic": "مستقل، ذاتي"
+  },
+  {
+    "english": "A: Do you think independently?\\nB: I always try to.\\nA: Independent thinking is important.\\nB: Especially in a democracy.",
+    "arabic": "أ: هل تفكر باستقلالية؟\\nب: أحاول دائماً.\\nأ: التفكير المستقل مهم.\\nب: خاصةً في الديمقراطية."
+  },
+  {
+    "english": "open",
+    "arabic": "منفتح"
+  },
+  {
+    "english": "A: Are you open to new things?\\nB: Yes, always.\\nA: An open society needs open people.\\nB: I fully agree.",
+    "arabic": "أ: هل أنت منفتح على الأشياء الجديدة؟\\nب: نعم، دائماً.\\nأ: المجتمع المنفتح يحتاج أناساً منفتحين.\\nب: أتفق تماماً."
+  },
+  {
+    "english": "respectful",
+    "arabic": "محترم، مُبدٍ للاحترام"
+  },
+  {
+    "english": "A: Was the conversation respectful?\\nB: Yes, despite different opinions.\\nA: Respectful interaction is the basis.\\nB: Without respect, no dialogue.",
+    "arabic": "أ: هل كان الحوار محترماً؟\\nب: نعم، رغم اختلاف الآراء.\\nأ: التفاعل المحترم هو الأساس.\\nب: بدون احترام لا حوار."
+  },
+  {
+    "english": "cosmopolitan, open to the world",
+    "arabic": "عالمي، منفتح على العالم"
+  },
+  {
+    "english": "A: Is Hamburg cosmopolitan?\\nB: Yes, as a port city, always.\\nA: Cosmopolitanism is a strength.\\nB: It comes from international trade.",
+    "arabic": "أ: هل هامبورغ مدينة عالمية؟\\nب: نعم، كمدينة ميناء، دائماً.\\nأ: العالمية قوة.\\nب: تأتي من التجارة الدولية."
+  },
+  {
+    "english": "diverse, manifold",
+    "arabic": "متنوع، متعدد الأوجه"
+  },
+  {
+    "english": "A: The program is diverse.\\nB: Yes, something for everyone.\\nA: Diverse offerings enrich everyone.\\nB: Diversity is always good.",
+    "arabic": "أ: البرنامج متنوع.\\nب: نعم، هناك شيء للجميع.\\nأ: العروض المتنوعة تُثري الجميع.\\nب: التنوع جيد دائماً."
+  },
+  {
+    "english": "to respect",
+    "arabic": "يحترم"
+  },
+  {
+    "english": "A: Do you respect other cultures?\\nB: Of course.\\nA: Respecting means taking seriously.\\nB: Yes, not just tolerating, but valuing.",
+    "arabic": "أ: هل تحترم الثقافات الأخرى؟\\nب: بالطبع.\\nأ: الاحترام يعني الأخذ بجدية.\\nب: نعم، ليس مجرد التسامح بل التقدير."
+  },
+  {
+    "english": "to shape, to coin, to imprint",
+    "arabic": "يُشكّل، يصوغ، يطبع"
+  },
+  {
+    "english": "A: What shapes a person?\\nB: Family, culture, and experiences.\\nA: Berlin has shaped me.\\nB: Every city shapes its residents.",
+    "arabic": "أ: ما الذي يُشكّل الإنسان؟\\nب: العائلة والثقافة والتجارب.\\nأ: برلين شكّلتني.\\nب: كل مدينة تُشكّل سكانها."
+  },
+  {
+    "english": "to care for, to maintain, to cultivate",
+    "arabic": "يعتني بـ، يحافظ على، يُنمّي"
+  },
+  {
+    "english": "A: Do you maintain your traditions?\\nB: Yes, that is important to me.\\nA: To maintain means to actively preserve.\\nB: Exactly, not just passively remember.",
+    "arabic": "أ: هل تحافظ على تقاليدك؟\\nب: نعم، هذا مهم بالنسبة لي.\\nأ: المحافظة تعني الحفظ بشكل فعّال.\\nب: بالضبط، ليس مجرد التذكر السلبي."
+  },
+  {
+    "english": "to acknowledge, to recognize officially",
+    "arabic": "يعترف بـ، يُقرّ رسمياً"
+  },
+  {
+    "english": "A: Is your degree recognized?\\nB: Yes, after a long review.\\nA: Recognition is important for one's career.\\nB: Without recognition, little is possible.",
+    "arabic": "أ: هل شهادتك معترف بها؟\\nب: نعم، بعد مراجعة طويلة.\\nأ: الاعتراف مهم للمسيرة المهنية.\\nب: بدون اعتراف، القليل ممكن."
+  },
+  {
+    "english": "A compound noun enshrined in Article 1 of the German constitution. Identify the two root elements: the being and the quality being protected.",
+    "arabic": "اسم مركب مُرسَّخ في المادة الأولى من الدستور الألماني. حدّد العنصرين الجذريين: الكائن والصفة المحمية."
+  },
+  {
+    "english": "To form and shape. Childhood stamps something into a person that stays.",
+    "arabic": "يُشكّل ويصوغ. تطبع مرحلة الطفولة شيئاً في الإنسان يبقى."
+  },
+  {
+    "english": "The small -s- that connects two parts of a compound noun. A phonetic bridge.",
+    "arabic": "الـ -s- الصغيرة التي تصل بين جزأي الاسم المركب. جسر صوتي."
+  },
+  {
+    "english": "Think independently. Question values. Stay open. Easier said than done when you do not even know where you come from.",
+    "arabic": "فكّر باستقلالية. اسأل عن القيم. ابقَ منفتحاً. أسهل قولاً من فعلاً حين لا تعرف حتى من أين أتيت."
+  },
+  {
+    "english": "Master generalized relative clauses for universal statements. Discuss migration, integration, and identity in German.",
+    "arabic": "أتقن الجمل الوصفية المعمّمة للجمل ذات الطابع العالمي. ناقش الهجرة والاندماج والهوية بالألمانية."
+  },
+  {
+    "english": "Learn generalized relative clauses (wer..., der...; alles, was...)",
+    "arabic": "تعلّم الجمل الوصفية المعمّمة (wer..., der...; alles, was...)"
+  },
+  {
+    "english": "Discuss migration and integration",
+    "arabic": "ناقش الهجرة والاندماج"
+  },
+  {
+    "english": "Build complex argumentative sentences",
+    "arabic": "ابنِ جملاً حجاجية معقدة"
+  },
+  {
+    "english": "Whoever lives between two cultures sees the world differently. Everything I have experienced has shaped me: Istanbul, Berlin, the language in between.",
+    "arabic": "من يعيش بين ثقافتين يرى العالم بشكل مختلف. كل ما عشته قد شكّلني: إسطنبول وبرلين واللغة التي بينهما."
+  },
+  {
+    "english": "What surprises me the most is the question itself. What does it mean to belong somewhere?",
+    "arabic": "ما يُدهشني أكثر شيء هو السؤال نفسه. ماذا يعني الانتماء إلى مكان ما؟"
+  },
+  {
+    "english": "Later. Heinrich's apartment. Warm, cluttered with baking memorabilia. Bread awards on the wall. Heinrich sits in his armchair, a blanket over his knees. Verumius reads Die Zeit aloud.",
+    "arabic": "لاحقاً. شقة هاينريش. دافئة، مليئة بمذكرات الخبز. جوائز الخبز على الحائط. يجلس هاينريش في كرسيه المريح، وبطانية على ركبتيه. يقرأ فيروميوس Die Zeit بصوت عالٍ."
+  },
+  {
+    "english": "Not Wirtschaft. WIRT-schaft. The emphasis! Whoever speaks correctly is also understood correctly.",
+    "arabic": "ليس Wirtschaft. وِرت-شافت. التشديد! من يتكلم بشكل صحيح يُفهم بشكل صحيح أيضاً."
+  },
+  {
+    "english": "Heinrich hears worse than last year. But his corrections are as precise as ever. Everything this man knows, he carries in his voice.",
+    "arabic": "يسمع هاينريش أسوأ من العام الماضي. لكن تصحيحاته دقيقة كما كانت دائماً. كل ما يعرفه هذا الرجل يحمله في صوته."
+  },
+  {
+    "english": "migration",
+    "arabic": "هجرة"
+  },
+  {
+    "english": "A: How has migration changed Germany?\\nB: Fundamentally. 26 percent have a migration background.\\nA: Migration brings diversity.\\nB: And challenges. Both.",
+    "arabic": "أ: كيف غيّرت الهجرة ألمانيا؟\\nب: جذرياً. 26 بالمئة لديهم خلفية هجرة.\\nأ: الهجرة تجلب التنوع.\\nب: والتحديات. كلاهما."
+  },
+  {
+    "english": "integration",
+    "arabic": "اندماج"
+  },
+  {
+    "english": "A: How does integration succeed?\\nB: Through language, work, and respect.\\nA: Integration requires both sides.\\nB: Yes, it is not a one-way street.",
+    "arabic": "أ: كيف ينجح الاندماج؟\\nب: من خلال اللغة والعمل والاحترام.\\nأ: الاندماج يتطلب جانبين.\\nب: نعم، ليس شارعاً ذا اتجاه واحد."
+  },
+  {
+    "english": "immigration",
+    "arabic": "هجرة وافدة، استقدام"
+  },
+  {
+    "english": "A: Is Germany an immigration country?\\nB: Yes, officially since 2005.\\nA: Immigration has changed history.\\nB: Millions of people came and stayed.",
+    "arabic": "أ: هل ألمانيا دولة هجرة؟\\nب: نعم، رسمياً منذ عام 2005.\\nأ: الهجرة غيّرت التاريخ.\\nب: جاء الملايين وبقوا."
+  },
+  {
+    "english": "discrimination",
+    "arabic": "تمييز"
+  },
+  {
+    "english": "A: Have you experienced discrimination?\\nB: Unfortunately yes.\\nA: Discrimination is legally prohibited.\\nB: But it still exists despite that.",
+    "arabic": "أ: هل تعرّضت للتمييز؟\\nب: للأسف نعم.\\nأ: التمييز محظور قانونياً.\\nب: لكنه لا يزال موجوداً رغم ذلك."
+  },
+  {
+    "english": "inclusion",
+    "arabic": "إدماج، شمول"
+  },
+  {
+    "english": "A: What does inclusion mean?\\nB: Everyone belongs, without exception.\\nA: Inclusion goes further than tolerance.\\nB: Yes, it means actively including.",
+    "arabic": "أ: ماذا يعني الإدماج؟\\nب: الجميع ينتمون، بدون استثناء.\\nأ: الإدماج يذهب أبعد من التسامح.\\nب: نعم، يعني الضم بشكل فعّال."
+  },
+  {
+    "english": "social environment, milieu",
+    "arabic": "بيئة اجتماعية، وسط اجتماعي"
+  },
+  {
+    "english": "A: What social environment do you come from?\\nB: From an academic milieu.\\nA: The milieu shapes the worldview.\\nB: Yes, it forms how we think.",
+    "arabic": "أ: من أي بيئة اجتماعية أتيت؟\\nب: من وسط أكاديمي.\\nأ: البيئة الاجتماعية تُشكّل رؤية العالم.\\nب: نعم، تُحدّد طريقة تفكيرنا."
+  },
+  {
+    "english": "generational conflict",
+    "arabic": "صراع أجيال"
+  },
+  {
+    "english": "A: Is there a generational conflict in your family?\\nB: Yes, on the topic of climate.\\nA: Every generation has its conflict.\\nB: The 68ers against their parents, we against climate change.",
+    "arabic": "أ: هل يوجد صراع أجيال في عائلتك؟\\nب: نعم، حول موضوع المناخ.\\nأ: لكل جيل صراعه.\\nب: جيل الـ68 ضد آبائهم، نحن ضد تغير المناخ."
+  },
+  {
+    "english": "change, transformation",
+    "arabic": "تغيير، تحوّل"
+  },
+  {
+    "english": "A: Do you see societal change?\\nB: Yes, society is becoming more open.\\nA: Change is slow but steady.\\nB: Better slow than not at all.",
+    "arabic": "أ: هل ترى تغييراً مجتمعياً؟\\nب: نعم، المجتمع يصبح أكثر انفتاحاً.\\nأ: التغيير بطيء لكن ثابت.\\nب: بطيء أفضل من لا شيء."
+  },
+  {
+    "english": "way of life, lifestyle",
+    "arabic": "أسلوب حياة، نمط حياة"
+  },
+  {
+    "english": "A: Which lifestyle do you prefer?\\nB: Simple and conscious.\\nA: Alternative lifestyles are accepted.\\nB: In Berlin, definitely.",
+    "arabic": "أ: أي نمط حياة تفضّل؟\\nب: بسيط وواعٍ.\\nأ: أنماط الحياة البديلة مقبولة.\\nب: في برلين، بالتأكيد."
+  },
+  {
+    "english": "worldview",
+    "arabic": "رؤية للعالم، نظرة كونية"
+  },
+  {
+    "english": "A: What is your worldview?\\nB: Humanistic and cosmopolitan.\\nA: A worldview is more than an opinion.\\nB: Yes, it is an entire system of thought.",
+    "arabic": "أ: ما هي رؤيتك للعالم؟\\nب: إنسانية وعالمية.\\nأ: رؤية العالم أكثر من مجرد رأي.\\nب: نعم، هي منظومة فكر كاملة."
+  },
+  {
+    "english": "ethnic",
+    "arabic": "عرقي، إثني"
+  },
+  {
+    "english": "A: What does ethnic diversity mean?\\nB: People of different origins together.\\nA: Ethnic is a sensitive word.\\nB: Yes, one uses it carefully.",
+    "arabic": "أ: ماذا يعني التنوع العرقي؟\\nب: أناس من أصول مختلفة معاً.\\nأ: عرقي كلمة حساسة.\\nب: نعم، يستخدمها المرء بحذر."
+  },
+  {
+    "english": "pluralistic",
+    "arabic": "تعددي"
+  },
+  {
+    "english": "A: Is Germany pluralistic?\\nB: Yes, many opinions coexist.\\nA: A pluralistic society needs dialogue.\\nB: And the willingness to listen.",
+    "arabic": "أ: هل ألمانيا تعددية؟\\nب: نعم، آراء كثيرة تتعايش.\\nأ: المجتمع التعددي يحتاج حواراً.\\nب: والاستعداد للاستماع."
+  },
+  {
+    "english": "cosmopolitan",
+    "arabic": "كوني، عالمي المشاعر"
+  },
+  {
+    "english": "A: Do you feel cosmopolitan?\\nB: In Berlin, definitely.\\nA: Cosmopolitan means living open to the world.\\nB: Yes, feeling at home in the world.",
+    "arabic": "أ: هل تشعر بأنك إنسان عالمي؟\\nب: في برلين، بالتأكيد.\\nأ: الكوني يعني العيش بانفتاح على العالم.\\nب: نعم، الشعور بالراحة في أي مكان بالعالم."
+  },
+  {
+    "english": "to integrate",
+    "arabic": "يندمج، يتكامل"
+  },
+  {
+    "english": "A: How can one integrate?\\nB: Learn the language and participate.\\nA: Integration begins with wanting to.\\nB: And with the openness of society.",
+    "arabic": "أ: كيف يمكن للمرء أن يندمج؟\\nب: يتعلم اللغة ويشارك.\\nأ: الاندماج يبدأ بالرغبة.\\nب: ومع انفتاح المجتمع."
+  },
+  {
+    "english": "to engage critically with, to confront",
+    "arabic": "يتعامل نقدياً مع، يواجه"
+  },
+  {
+    "english": "A: Do you engage critically with prejudices?\\nB: Yes, actively.\\nA: To engage critically means to examine.\\nB: Not simply accept, but question.",
+    "arabic": "أ: هل تتعامل نقدياً مع التحيزات؟\\nب: نعم، بشكل فعّال.\\nأ: التعامل النقدي يعني الفحص.\\nب: ليس القبول البسيط، بل التساؤل."
+  },
+  {
+    "english": "to identify with",
+    "arabic": "يتماهى مع، يتعرّف على نفسه في"
+  },
+  {
+    "english": "A: Do you identify with Berlin?\\nB: Yes, the city has become part of me.\\nA: To identify with means to feel belonging.\\nB: Exactly, it is a feeling of connection.",
+    "arabic": "أ: هل تتماهى مع برلين؟\\nب: نعم، المدينة أصبحت جزءاً مني.\\nأ: التماهي يعني الشعور بالانتماء.\\nب: بالضبط، هو شعور بالارتباط."
+  },
+  {
+    "english": "to adapt, to adjust",
+    "arabic": "يتكيّف، يتأقلم"
+  },
+  {
+    "english": "A: Do you adapt quickly?\\nB: Yes, I had to learn that.\\nA: Adapting is not giving up who you are.\\nB: Right. Adapting and preserving at the same time.",
+    "arabic": "أ: هل تتكيّف بسرعة؟\\nب: نعم، كان عليّ أن أتعلم ذلك.\\nأ: التكيّف لا يعني التخلي عن هويتك.\\nب: صحيح. التكيّف والحفاظ على الذات في آنٍ واحد."
+  },
+  {
+    "english": "to mediate, to convey",
+    "arabic": "يتوسط، ينقل، يُبلّغ"
+  },
+  {
+    "english": "A: Can you mediate between cultures?\\nB: I try that every day.\\nA: To mediate means to build bridges.\\nB: Yes, between different worlds.",
+    "arabic": "أ: هل تستطيع التوسط بين الثقافات؟\\nب: أحاول ذلك كل يوم.\\nأ: التوسط يعني بناء جسور.\\nب: نعم، بين عوالم مختلفة."
+  },
+  {
+    "english": "German has special relative clauses for universal statements. No specific person, but anyone who fits.\\n\\nwer..., der...: 'Wer tolerant ist, der gewinnt Freunde.'\\n(Whoever is tolerant gains friends.)\\n\\nwas..., das...: 'Was er sagt, das stimmt.'\\n(What he says is true.)\\n\\nalles, was...: 'Alles, was ich erlebt habe, hat mich geformt.'\\n(Everything I experienced shaped me.)\\n\\nnichts, was...: 'Nichts, was er sagt, überrascht mich.'\\n(Nothing he says surprises me.)\\n\\ndas, was...: 'Das, was zählt, ist Respekt.'\\n(That which counts is respect.)\\n\\nThe wer-clause is a free relative clause: no antecedent noun needed. The verb goes to the end of the relative clause.",
+    "arabic": "في اللغة الألمانية جمل وصفية خاصة للجمل ذات الطابع العالمي. لا شخص محدد، بل كل من ينطبق عليه الوصف.\\n\\nwer..., der...: 'Wer tolerant ist, der gewinnt Freunde.'\\n(من يكون متسامحاً يكسب أصدقاء.)\\n\\nwas..., das...: 'Was er sagt, das stimmt.'\\n(ما يقوله صحيح.)\\n\\nalles, was...: 'Alles, was ich erlebt habe, hat mich geformt.'\\n(كل ما عشته قد شكّلني.)\\n\\nnichts, was...: 'Nichts, was er sagt, überrascht mich.'\\n(لا شيء يقوله يُدهشني.)\\n\\ndas, was...: 'Das, was zählt, ist Respekt.'\\n(ما يهم هو الاحترام.)\\n\\nجملة wer هي جملة وصفية حرة: لا تحتاج اسماً مرجعياً. يذهب الفعل إلى نهاية الجملة الوصفية."
+  },
+  {
+    "english": "Wer, wen, wem function like relative pronouns:\\n\\nNominative: Wer tolerant ist, der gewinnt.\\nAccusative: Wen man respektiert, den hoert man.\\nDative: Wem man hilft, dem hilft man gern.\\n\\nThe demonstrative pronoun in the main clause (der/den/dem) can be dropped:\\n'Wer tolerant ist, gewinnt Freunde.' (also correct)\\n\\nAfter alles, nichts, etwas, das, always use 'was' (not 'das'):\\n'Alles, was zaehlt' (not: 'Alles, das zaehlt')",
+    "arabic": "تعمل Wer وwen وwem كضمائر وصفية:\\n\\nحالة الرفع: Wer tolerant ist, der gewinnt.\\nحالة النصب: Wen man respektiert, den hoert man.\\nحالة الجر: Wem man hilft, dem hilft man gern.\\n\\nيمكن حذف الضمير الإشاري في الجملة الرئيسية (der/den/dem):\\n'Wer tolerant ist, gewinnt Freunde.' (صحيح أيضاً)\\n\\nبعد alles وnichts وetwas وdas، استخدم دائماً 'was' (وليس 'das'):\\n'Alles, was zaehlt' (وليس: 'Alles, das zaehlt')"
+  },
+  {
+    "english": "'Wer' without a reference word means 'whoever.' A universal statement.",
+    "arabic": "'Wer' بدون كلمة مرجعية تعني 'كل من'. جملة ذات طابع عالمي."
+  },
+  {
+    "english": "A relative pronoun for universal statements, not referring to a specific person. It opens a free relative clause followed by 'der' in the main clause.",
+    "arabic": "ضمير وصفي للجمل ذات الطابع العالمي، لا يحيل إلى شخص محدد. يفتح جملة وصفية حرة يتبعها 'der' في الجملة الرئيسية."
+  },
+  {
+    "english": "Whoever knows their heritage understands themselves better.",
+    "arabic": "من يعرف تراثه يفهم نفسه بشكل أفضل."
+  },
+  {
+    "english": "Master reference words for precise reference in German. Build text cohesion in written and formal language.",
+    "arabic": "أتقن كلمات الإحالة للإشارة الدقيقة في الألمانية. ابنِ تماسك النص في اللغة الكتابية والرسمية."
+  },
+  {
+    "english": "Learn reference words: dieser, jener, solcher, derjenige, derselbe",
+    "arabic": "تعلّم كلمات الإحالة: dieser وjener وsolcher وderjenige وderselbe"
+  },
+  {
+    "english": "Distinguish similar items with elegance",
+    "arabic": "ميّز بين الأشياء المتشابهة بأناقة"
+  },
+  {
+    "english": "Build logical discourse with ersterer/letzterer",
+    "arabic": "ابنِ خطاباً منطقياً باستخدام ersterer/letzterer"
+  },
+  {
+    "english": "Back in the museum. Yilmaz points at two sculptures: one Greek, one Egyptian. Both headless. Both three thousand years old. But not the same.",
+    "arabic": "عودة إلى المتحف. يشير يلماز إلى تمثالين: واحد يوناني والآخر مصري. كلاهما بلا رأس. كلاهما يبلغ ثلاثة آلاف عام. لكنهما ليسا متشابهَين."
+  },
+  {
+    "english": "This one here is Greek. That one there is Egyptian. The one who put them together wanted to show: culture knows no borders.",
+    "arabic": "هذا هنا يوناني. وذاك هناك مصري. من وضعهما معاً أراد أن يُظهر: الثقافة لا تعرف حدوداً."
+  },
+  {
+    "english": "this one, this",
+    "arabic": "هذا، هذه"
+  },
+  {
+    "english": "A: Which book do you mean?\\nB: This one here.\\nA: This value is important to me.\\nB: To me too. This value connects us.",
+    "arabic": "أ: أي كتاب تقصد؟\\nب: هذا هنا.\\nأ: هذه القيمة مهمة بالنسبة لي.\\nب: ولي أيضاً. هذه القيمة تربطنا."
+  },
+  {
+    "english": "that one (distant)",
+    "arabic": "ذلك (البعيد)"
+  },
+  {
+    "english": "A: Do you know that artist?\\nB: That one from the 19th century?\\nA: Yes, that one lived here.\\nB: That era was fascinating.",
+    "arabic": "أ: هل تعرف ذلك الفنان؟\\nب: ذاك من القرن التاسع عشر؟\\nأ: نعم، ذاك عاش هنا.\\nب: تلك الحقبة كانت رائعة."
+  },
+  {
+    "english": "such a one, such",
+    "arabic": "مثل هذا، كهذا"
+  },
+  {
+    "english": "A: Such prejudices are dangerous.\\nB: Yes, such ways of thinking must change.\\nA: Such a person inspires me.\\nB: The world needs such people.",
+    "arabic": "أ: مثل هذه التحيزات خطيرة.\\nب: نعم، مثل هذه طرق التفكير يجب أن تتغير.\\nأ: مثل هذا الشخص يُلهمني.\\nب: العالم يحتاج مثل هؤلاء الناس."
+  },
+  {
+    "english": "the one who (masculine)",
+    "arabic": "الذي (مذكر)"
+  },
+  {
+    "english": "A: The one who comes first wins.\\nB: Who is the one?\\nA: The one who works the hardest.\\nB: Then I need to hurry.",
+    "arabic": "أ: الذي يأتي أولاً يفوز.\\nب: من هو ذاك؟\\nأ: الذي يعمل بأكبر جهد.\\nب: إذن علي أن أسارع."
+  },
+  {
+    "english": "the one who (feminine)",
+    "arabic": "التي (مؤنث)"
+  },
+  {
+    "english": "A: The one who reads the most knows the most.\\nB: Is that Yilmaz?\\nA: Yes, the one who always has a book with her.\\nB: True, she reads constantly.",
+    "arabic": "أ: التي تقرأ أكثر تعرف أكثر.\\nب: هل تلك يلماز؟\\nأ: نعم، التي لديها دائماً كتاب معها.\\nب: صحيح، تقرأ باستمرار."
+  },
+  {
+    "english": "the one which (neuter)",
+    "arabic": "الذي (محايد)"
+  },
+  {
+    "english": "A: That which truly counts is respect.\\nB: True. I would like to read that book.\\nA: That child playing over there?\\nB: Yes, the one with the red hat.",
+    "arabic": "أ: ما يهم حقاً هو الاحترام.\\nب: صحيح. أودّ قراءة ذلك الكتاب.\\nأ: ذلك الطفل الذي يلعب هناك؟\\nب: نعم، ذاك بالقبعة الحمراء."
+  },
+  {
+    "english": "the same one (masculine)",
+    "arabic": "نفسه (مذكر)"
+  },
+  {
+    "english": "A: Is that the same man?\\nB: Yes, the same one as yesterday.\\nA: The same mistake happens again and again.\\nB: We must learn from it.",
+    "arabic": "أ: هل هذا نفس الرجل؟\\nب: نعم، نفسه من أمس.\\nأ: نفس الخطأ يحدث مراراً وتكراراً.\\nب: يجب أن نتعلم منه."
+  },
+  {
+    "english": "the same one (feminine)",
+    "arabic": "نفسها (مؤنث)"
+  },
+  {
+    "english": "A: Every generation faces the same question.\\nB: Yes, always the same one.\\nA: Is it the same or just a similar one?\\nB: Dieselbe: identical. Die gleiche: similar.",
+    "arabic": "أ: كل جيل يواجه نفس السؤال.\\nب: نعم، دائماً نفسه.\\nأ: هل هو نفسه أم مجرد مشابه؟\\nب: dieselbe: متطابق. die gleiche: مشابه."
+  },
+  {
+    "english": "the same one (neuter)",
+    "arabic": "نفسه (محايد)"
+  },
+  {
+    "english": "A: Is that the same thing?\\nB: No, just a similar one.\\nA: I had the same feeling too.\\nB: We share the same experience.",
+    "arabic": "أ: هل هذا نفس الشيء؟\\nب: لا، مجرد شيء مشابه.\\nأ: شعرت بنفس الشعور أيضاً.\\nب: نشترك في نفس التجربة."
+  },
+  {
+    "english": "the former",
+    "arabic": "الأول (المذكور أولاً)"
+  },
+  {
+    "english": "A: Tolerance and respect: the former is passive, the latter active.\\nB: Good comparison.\\nA: The former accepts, the latter values.\\nB: Both are important.",
+    "arabic": "أ: التسامح والاحترام: الأول سلبي والأخير إيجابي.\\nب: مقارنة جيدة.\\nأ: الأول يقبل، والأخير يُقدّر.\\nب: كلاهما مهم."
+  },
+  {
+    "english": "the latter",
+    "arabic": "الأخير (المذكور أخيراً)"
+  },
+  {
+    "english": "A: Culture and language: the latter connects people.\\nB: And the former shapes them.\\nA: The former... the latter... is elegant.\\nB: Yes, especially in academic texts.",
+    "arabic": "أ: الثقافة واللغة: الأخيرة تربط الناس.\\nب: والأولى تُشكّلهم.\\nأ: الأول... الأخير... أسلوب راقٍ.\\nب: نعم، خاصةً في النصوص الأكاديمية."
+  },
+  {
+    "english": "such a (one)",
+    "arabic": "مثل هذا (الـ)"
+  },
+  {
+    "english": "A: Such a change takes time.\\nB: Yes, such a process is slow.\\nA: Such a person inspires me.\\nB: Such people are rare.",
+    "arabic": "أ: مثل هذا التغيير يحتاج وقتاً.\\nب: نعم، مثل هذه العملية بطيئة.\\nأ: مثل هذا الشخص يُلهمني.\\nب: مثل هؤلاء الناس نادرون."
+  },
+  {
+    "english": "equally, in equal measure",
+    "arabic": "بالتساوي، بقدر متساوٍ"
+  },
+  {
+    "english": "A: Everyone benefits equally.\\nB: That is the goal.\\nA: Equally important are tolerance and respect.\\nB: Yes, both equally.",
+    "arabic": "أ: الجميع يستفيد بالتساوي.\\nب: هذا هو الهدف.\\nأ: التسامح والاحترام مهمان بالقدر نفسه.\\nب: نعم، كلاهما بالتساوي."
+  },
+  {
+    "english": "essentially, in essence",
+    "arabic": "في جوهره، بشكل أساسي"
+  },
+  {
+    "english": "A: Do you agree?\\nB: Essentially yes.\\nA: Essentially we are of one opinion.\\nB: Only in details are there differences.",
+    "arabic": "أ: هل تتفق؟\\nب: في جوهره نعم.\\nأ: في جوهرنا نحن على رأي واحد.\\nب: فقط في التفاصيل توجد فروق."
+  },
+  {
+    "english": "fundamentally, basically",
+    "arabic": "بشكل جذري، في الأساس"
+  },
+  {
+    "english": "A: Fundamentally, all people are equal.\\nB: Yes, fundamentally.\\nA: Fundamentally we all want the same thing.\\nB: Belonging and respect.",
+    "arabic": "أ: في الأساس، كل الناس متساوون.\\nب: نعم، في الأساس.\\nأ: في الأساس نريد جميعاً الشيء نفسه.\\nب: الانتماء والاحترام."
+  },
+  {
+    "english": "by no means, not at all",
+    "arabic": "بأي حال من الأحوال، أبداً"
+  },
+  {
+    "english": "A: Is that acceptable?\\nB: By no means.\\nA: Keineswegs means: absolutely not.\\nB: A strong negation.",
+    "arabic": "أ: هل هذا مقبول؟\\nب: بأي حال من الأحوال.\\nأ: keineswegs تعني: بالتأكيد لا.\\nب: نفي قوي."
+  },
+  {
+    "english": "under no circumstances",
+    "arabic": "تحت أي ظرف من الظروف، لا بأي حال"
+  },
+  {
+    "english": "A: May that happen?\\nB: Under no circumstances.\\nA: Keinesfalls means: never.\\nB: Even stronger than keineswegs.",
+    "arabic": "أ: هل يجوز حدوث ذلك؟\\nب: تحت أي ظرف من الظروف.\\nأ: keinesfalls تعني: أبداً.\\nب: أقوى حتى من keineswegs."
+  },
+  {
+    "english": "ultimately, in the end",
+    "arabic": "في النهاية، في المحصلة"
+  },
+  {
+    "english": "A: What ultimately counts?\\nB: Ultimately, only respect counts.\\nA: Ultimately we are all equal.\\nB: Yes, that is the ultimate truth.",
+    "arabic": "أ: ما الذي يهم في النهاية؟\\nب: في النهاية، الاحترام وحده يهم.\\nأ: في النهاية نحن جميعاً متساوون.\\nب: نعم، هذه هي الحقيقة النهائية."
+  },
+  {
+    "english": "German has a rich system of reference words (Verweiswörter) that create text cohesion.\\n\\ndieser/jener: this vs. that (near vs. far)\\nsolcher/ein solcher: such (a type of)\\nderjenige: the particular one (formal, with relative clause)\\nderselbe: the identical one (not just similar)\\nersterer/letzterer: the former/the latter (academic pair)\\n\\nAll decline like der-words. In writing, they replace repeated nouns and create elegant reference chains.\\n'Die Wirtschaft und die Kultur: Erstere wächst, letztere blüht.'",
+    "arabic": "في الألمانية منظومة غنية من كلمات الإحالة (Verweiswörter) تُنشئ التماسك النصي.\\n\\ndieser/jener: هذا مقابل ذاك (القريب مقابل البعيد)\\nsolcher/ein solcher: كهذا (من هذا النوع)\\nderjenige: الشخص بعينه (رسمي، مع جملة وصفية)\\nderselbe: المتطابق (ليس فقط المشابه)\\nersterer/letzterer: الأول/الأخير (ثنائية أكاديمية)\\n\\nكلها تُصرَّف كصرف كلمات der. في الكتابة تحل محل الأسماء المكررة وتُنشئ سلاسل إحالة أنيقة.\\n'Die Wirtschaft und die Kultur: Erstere wächst, letztere blüht.'"
+  },
+  {
+    "english": "With derjenige and derselbe, BOTH parts decline:\\n\\nNominative: derjenige / diejenige / dasjenige\\nAccusative: denjenigen / diejenige / dasjenige\\nDative: demjenigen / derjenigen / demjenigen\\nGenitive: desjenigen / derjenigen / desjenigen\\n\\nSame with derselbe:\\nNominative: derselbe / dieselbe / dasselbe\\nAccusative: denselben / dieselbe / dasselbe\\nDative: demselben / derselben / demselben\\n\\nThe first part (der/die/das/den/dem/des) follows the article.\\nThe second part (-jenige/-selbe) follows adjective declension.",
+    "arabic": "مع derjenige وderselbe، يُصرَّف كلا الجزأين:\\n\\nحالة الرفع: derjenige / diejenige / dasjenige\\nحالة النصب: denjenigen / diejenige / dasjenige\\nحالة الجر: demjenigen / derjenigen / demjenigen\\nحالة الملكية: desjenigen / derjenigen / desjenigen\\n\\nبالمثل مع derselbe:\\nحالة الرفع: derselbe / dieselbe / dasselbe\\nحالة النصب: denselben / dieselbe / dasselbe\\nحالة الجر: demselben / derselben / demselben\\n\\nالجزء الأول (der/die/das/den/dem/des) يتبع تصريف الأداة.\\nالجزء الثاني (-jenige/-selbe) يتبع تصريف الصفة."
+  },
+  {
+    "english": "The first of a pair refers to whichever noun was named first in the previous sentence. The second refers to the second. Order matches order.",
+    "arabic": "الأول من الثنائي يحيل إلى الاسم المذكور أولاً في الجملة السابقة. والثاني يحيل إلى الثاني. الترتيب يتطابق مع الترتيب."
+  },
+  {
+    "english": "A formal demonstrative that singles out a specific person and leads directly into a relative clause. More precise than 'dieser' or 'jener'.",
+    "arabic": "ضمير إشاري رسمي يُفرد شخصاً محدداً ويقود مباشرةً إلى جملة وصفية. أدق من 'dieser' أو 'jener'."
+  },
+  {
+    "english": "The one who denies their heritage loses a part of themselves.",
+    "arabic": "من يُنكر تراثه يفقد جزءاً من نفسه."
+  },
+  {
+    "english": "'Wer...' and 'alles, was...' are free relative patterns for universal statements.",
+    "arabic": "'Wer...' و'alles, was...' أنماط وصفية حرة للجمل ذات الطابع العالمي."
+  },
+  {
+    "english": "Formal demonstrative pronoun introducing a relative clause, plus an accusative plural form referring back to what was just mentioned.",
+    "arabic": "ضمير إشاري رسمي يُدخل جملة وصفية، إضافةً إلى صيغة جمع في حالة النصب تُحيل إلى ما ذُكر للتو."
+  },
+  {
+    "english": "The one who has prejudices should confront them.",
+    "arabic": "من لديه تحيزات ينبغي له مواجهتها."
+  },
+  {
+    "english": "Dinner table debate: equality, solidarity, and freedom of speech. Along the way, learn the Fugenelement system for compound nouns.",
+    "arabic": "نقاش على مائدة العشاء: المساواة والتضامن وحرية التعبير. وفي الطريق، تعلّم نظام Fugenelement للأسماء المركبة."
+  }
+]
