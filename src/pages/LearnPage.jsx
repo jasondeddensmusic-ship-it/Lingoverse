@@ -378,19 +378,24 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
       return(
         <div className="anim" onKeyDown={e=>{if(e.code==="Space"&&!e.target.closest("button,input,textarea")){e.preventDefault();goNext();}if(e.code==="ArrowLeft"){e.preventDefault();goPrev();}if(e.code==="ArrowRight"){e.preventDefault();goNext();}}} tabIndex={0} ref={el=>{if(el)el.focus();}} style={{outline:"none"}}>
           <div style={{marginBottom:20}}><NavArrow onClick={()=>setFkSection(null)} isBack size={44}/></div>
-          <div style={{background:dk?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)",borderRadius:22,padding:"24px 28px",marginBottom:24,border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), 0 0 14px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), 0 0 12px rgba(180,165,240,0.15), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",position:"relative",overflow:"hidden"}}>
+          <div style={{background:dk?"linear-gradient(180deg, rgba(55,45,105,0.96) 0%, rgba(42,36,90,0.98) 50%, rgba(30,26,68,1) 100%)":"linear-gradient(180deg, #FDFBFF 0%, #F6F2FF 35%, #F0ECFF 65%, #EAE4FF 100%)",borderRadius:22,padding:"24px 28px",marginBottom:24,border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.15)",boxShadow:dk?"0 8px 28px rgba(0,0,0,0.4), inset 0 2px 0 rgba(255,255,255,0.1), inset 0 -3px 0 rgba(0,0,0,0.15)":"0 8px 28px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.85), inset 0 -3px 0 rgba(123,94,232,0.06)",position:"relative",overflow:"hidden"}}>
             <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",pointerEvents:"none",zIndex:0}}/>
-            <div style={{display:"flex",alignItems:"center",gap:14,position:"relative",zIndex:1}}>
-              <div style={{width:52,height:52,borderRadius:16,background:dk?"linear-gradient(180deg,#C0AEF8 0%,#A488F0 15%,#8B6AE4 35%,#7B5EE8 50%,#6545C8 75%,#5840B8 90%,#4A2BA6 100%)":"linear-gradient(180deg,#B8A8FA 0%,#9B7AE8 20%,#7B5EE8 55%,#6545C8 85%,#5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:dk?"0 0 18px rgba(123,94,232,0.4), 0 5px 16px rgba(85,53,181,0.5), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 4px 16px rgba(123,94,232,0.4), 0 2px 4px rgba(0,0,0,0.1), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",flexShrink:0}}><BrandIcon name={openSec.icon} size={24}/></div>
-              <div style={{flex:1}}>
-                <h2 className="hd" style={{fontSize:22,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--purple-accent-text)"}}>{openSec.title}</h2>
-                <p style={{color:"var(--gray-500)",fontSize:13,fontFamily:"'Nunito',sans-serif"}}>{openSec.desc}</p>
-                <div style={{fontSize:11,color:"var(--purple-accent-text)",fontWeight:600,marginTop:4}}>{sp.done}/{sp.total} completed</div>
+            <div style={{position:"relative",zIndex:1}}>
+              <div style={{fontSize:10,fontWeight:800,letterSpacing:1.5,textTransform:"uppercase",color:dk?"rgba(192,174,250,0.6)":"rgba(123,94,232,0.5)",marginBottom:8,fontFamily:"'Quicksand',sans-serif"}}>Chapter {secIdx+1}</div>
+              <div style={{display:"flex",alignItems:"center",gap:14}}>
+                <div style={{width:52,height:52,borderRadius:16,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0 4px 16px rgba(123,94,232,0.4), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.15)",flexShrink:0}}><BrandIcon name={openSec.icon} size={24}/></div>
+                <div style={{flex:1}}>
+                  <h2 className="hd" style={{fontSize:22,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--purple-accent-text)",margin:0}}>{openSec.title}</h2>
+                  <p style={{color:"var(--gray-500)",fontSize:13,fontFamily:"'Nunito',sans-serif",margin:"4px 0 0"}}>{openSec.desc}</p>
+                </div>
+              </div>
+              <div style={{display:"flex",alignItems:"center",gap:10,marginTop:14}}>
+                {sp.total>0&&<div style={{flex:1,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden"}}>
+                  <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(90deg, #C0AEFA 0%, #7B5EE8 50%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
+                </div>}
+                <span style={{fontSize:11,fontWeight:700,color:"var(--purple-accent-text)",flexShrink:0}}>{sp.done}/{sp.total}</span>
               </div>
             </div>
-            {sp.total>0&&<div style={{marginTop:12,height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"var(--purple-border)",overflow:"hidden",position:"relative",zIndex:1}}>
-              <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
-            </div>}
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:12}}>
             {(openSec.items||[]).map((item,i)=>{
@@ -399,10 +404,14 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               const hasInv=!!item.inventory;
               const allChars=hasGrid?item.grid.rows.flatMap(r=>r.cells.filter(c=>c.ch).map(c=>c.ch)):hasInv?item.inventory.split("|").map(p=>p.trim().split(" ")[0]):[];
               return(
-              <div key={i} className="anim" style={{padding:"14px 18px",animationDelay:`${i*0.04}s`,borderRadius:22,background:dk?(done?"linear-gradient(180deg, rgba(46,205,167,0.15) 0%, rgba(46,205,167,0.08) 40%, rgba(46,205,167,0.03) 100%)":"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)"):(done?"linear-gradient(180deg, rgba(46,205,167,0.2) 0%, rgba(46,205,167,0.1) 50%, rgba(46,205,167,0.05) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)"),border:done?(dk?"1.5px solid rgba(46,205,167,0.35)":"1.5px solid rgba(46,205,167,0.4)"):(dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)"),boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",position:"relative",overflow:"hidden",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>
-                <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:4}}>
-                  {done&&<span style={{fontSize:14}}>✅</span>}
-                  <div className="hd" style={{fontSize:15,fontWeight:700,color:"var(--gray-800)"}}>{item.title}</div>
+              <div key={i} className="anim" style={{padding:"16px 18px",animationDelay:`${i*0.04}s`,borderRadius:20,background:dk?(done?"linear-gradient(180deg, rgba(46,205,167,0.1) 0%, rgba(46,205,167,0.04) 50%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 50%, rgba(30,26,68,0.98) 100%)"):(done?"linear-gradient(180deg, rgba(46,205,167,0.1) 0%, rgba(46,205,167,0.04) 50%, #FDFBFF 100%)":"linear-gradient(180deg, #FDFBFF 0%, #F6F2FF 40%, #F0ECFF 70%, #EDE8FF 100%)"),border:done?(dk?"1.5px solid rgba(46,205,167,0.3)":"1.5px solid rgba(46,205,167,0.3)"):(dk?"1.5px solid rgba(123,94,232,0.2)":"1.5px solid rgba(180,165,240,0.3)"),boxShadow:dk?"0 4px 16px rgba(0,0,0,0.25), inset 0 2px 0 rgba(255,255,255,0.05), inset 0 -2px 0 rgba(0,0,0,0.1)":"0 4px 16px rgba(123,94,232,0.07), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -2px 0 rgba(123,94,232,0.04)",position:"relative",overflow:"hidden",transition:"all .25s cubic-bezier(.4,0,.2,1)"}}>
+                {/* Gloss highlight */}
+                <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"40%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.05) 60%, transparent 100%)",pointerEvents:"none",zIndex:0}}/>
+                {/* Page number */}
+                <div style={{position:"absolute",top:8,right:14,fontSize:10,color:dk?"rgba(180,170,220,0.4)":"rgba(123,94,232,0.3)",fontWeight:600,fontFamily:"'Quicksand',sans-serif",zIndex:1}}>{i+1}/{openSec.items.length}</div>
+                <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:4,position:"relative",zIndex:1}}>
+                  {done&&<span style={{fontSize:14}}>✓</span>}
+                  <div className="hd" style={{fontSize:15,fontWeight:700,color:done?"var(--teal)":"var(--gray-800)"}}>{item.title}</div>
                 </div>
                 {item.desc&&<p style={{fontSize:13,color:"var(--gray-500)",marginBottom:8,lineHeight:1.6}}>{item.desc}</p>}
                 {hasGrid&&<div style={{background:dk?"linear-gradient(180deg, rgba(123,94,232,0.18) 0%, rgba(100,80,200,0.1) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.35) 0%, rgba(235,230,255,0.15) 100%)",borderRadius:22,padding:"12px 10px",marginBottom:8,overflowX:"auto",border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(180,165,240,0.3)"}}>
@@ -554,30 +563,57 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         </div>}
         </>}
 
-        {/* ── Reference Mode: existing FK section tiles (unchanged) ── */}
+        {/* ── Reference Mode: Glossy Book Chapter List ── */}
         {fkMode==="reference"&&<>
-        {sections.length>0?
-          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12}}>
+        {sections.length>0?<div>
+          {/* Overall progress bar */}
+          {op.total>0&&<div style={{marginBottom:16,padding:"14px 18px",borderRadius:16,background:dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 50%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F0ECFF 50%, #EDE8FF 100%)",border:dk?"1.5px solid rgba(123,94,232,0.25)":"1.5px solid rgba(180,165,240,0.3)",boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.8)"}}>
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
+              <span style={{fontSize:12,fontWeight:700,color:"var(--purple-accent-text)",fontFamily:"'Quicksand',sans-serif",letterSpacing:0.5,textTransform:"uppercase"}}>Reference Library</span>
+              <span style={{fontSize:12,fontWeight:600,color:"var(--gray-400)"}}>{op.done}/{op.total} {t("found_items",baseLang)}</span>
+            </div>
+            <div style={{height:5,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden"}}>
+              <div style={{height:"100%",width:`${op.pct}%`,background:"linear-gradient(90deg, #C0AEFA 0%, #7B5EE8 50%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
+            </div>
+          </div>}
+          {/* Chapter cards */}
+          <div style={{display:"flex",flexDirection:"column",gap:10}}>
             {sections.map((sec,i)=>{
               const sp=secProgress(sec);
+              const done=sp.pct===100;
               return(
               <div key={sec.id} className="anim" onClick={()=>setFkSection(sec.id)} style={{
-                cursor:"pointer",padding:"20px 16px",textAlign:"center",borderRadius:22,position:"relative",overflow:"hidden",
-                background:sp.pct===100?(dk?"linear-gradient(180deg, rgba(46,205,167,0.15) 0%, rgba(46,205,167,0.08) 40%, rgba(46,205,167,0.03) 100%)":"linear-gradient(180deg, rgba(46,205,167,0.2) 0%, rgba(46,205,167,0.1) 50%, rgba(46,205,167,0.05) 100%)"):(dk?"linear-gradient(180deg, rgba(123,94,232,0.22) 0%, rgba(100,80,200,0.14) 40%, rgba(80,60,180,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.45) 0%, rgba(220,210,255,0.3) 50%, rgba(235,230,255,0.18) 100%)"),
-                border:sp.pct===100?(dk?"1.5px solid rgba(46,205,167,0.35)":"1.5px solid rgba(46,205,167,0.4)"):(dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)"),
-                boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.07), inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1), inset 0 2px 0 rgba(255,255,255,0.75), inset 0 -3px 0 rgba(123,94,232,0.05)",
-                animationDelay:`${i*0.05}s`,transition:"all .25s cubic-bezier(.4,0,.2,1)",
+                cursor:"pointer",padding:"16px 18px",borderRadius:18,position:"relative",overflow:"hidden",
+                display:"flex",alignItems:"center",gap:14,
+                background:done?(dk?"linear-gradient(180deg, rgba(46,205,167,0.12) 0%, rgba(46,205,167,0.06) 50%, rgba(46,205,167,0.02) 100%)":"linear-gradient(180deg, rgba(46,205,167,0.12) 0%, rgba(46,205,167,0.06) 50%, rgba(255,255,255,0.9) 100%)"):(dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 50%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #FDFBFF 0%, #F6F2FF 40%, #F0ECFF 70%, #EDE8FF 100%)"),
+                border:done?(dk?"1.5px solid rgba(46,205,167,0.3)":"1.5px solid rgba(46,205,167,0.35)"):(dk?"1.5px solid rgba(123,94,232,0.25)":"1.5px solid rgba(180,165,240,0.35)"),
+                boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06), inset 0 -2px 0 rgba(0,0,0,0.1)":"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.85), inset 0 -2px 0 rgba(123,94,232,0.04)",
+                animationDelay:`${i*0.04}s`,transition:"all .2s cubic-bezier(.4,0,.2,1)",
               }}>
-                <div style={{fontSize:32,marginBottom:8}}><BrandIcon name={sec.icon} size={32}/></div>
-                <div className="hd" style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:sp.pct===100?"var(--teal)":"var(--purple-accent-text)",marginBottom:4}}>{sec.title}</div>
-                <div style={{fontSize:11,color:"var(--gray-400)",lineHeight:1.4}}>{sec.desc}</div>
-                <div style={{marginTop:8,fontSize:10,fontWeight:600,color:sp.pct===100?"var(--teal)":"var(--gray-300)"}}>{sp.pct===100?`✓ ${t("found_done",baseLang)}`:`${sp.done}/${sp.total} ${t("found_items",baseLang)}`}</div>
-                {sp.total>0&&sp.pct>0&&sp.pct<100&&<div style={{marginTop:6,height:4,borderRadius:3,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden"}}>
-                  <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,boxShadow:"0 0 8px rgba(123,94,232,0.4)"}}/>
-                </div>}
+                {/* Gloss highlight */}
+                <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.05) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.05) 60%, transparent 100%)",pointerEvents:"none",zIndex:0}}/>
+                {/* Chapter number pill */}
+                <div style={{width:38,height:38,borderRadius:"50%",background:done?"linear-gradient(180deg, #5AEDC1 0%, #2ECDA7 55%, #1DAF8E 100%)":"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,boxShadow:done?"0 3px 10px rgba(46,205,167,0.4), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":"0 3px 10px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)",position:"relative",zIndex:1}}>
+                  {done?<span style={{color:"white",fontSize:16,fontWeight:800}}>✓</span>:<span style={{color:"white",fontSize:15,fontWeight:800,fontFamily:"'Quicksand',sans-serif",textShadow:"0 1px 2px rgba(0,0,0,0.2)"}}>{i+1}</span>}
+                </div>
+                {/* Content */}
+                <div style={{flex:1,minWidth:0,position:"relative",zIndex:1}}>
+                  <div style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:done?"var(--teal)":"var(--purple-accent-text)",marginBottom:2,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{sec.title}</div>
+                  <div style={{fontSize:11,color:"var(--gray-400)",lineHeight:1.4,display:"-webkit-box",WebkitLineClamp:2,WebkitBoxOrient:"vertical",overflow:"hidden"}}>{sec.desc}</div>
+                  {sp.total>0&&sp.pct>0&&sp.pct<100&&<div style={{marginTop:6,height:3,borderRadius:2,background:dk?"rgba(255,255,255,0.07)":"rgba(180,165,240,0.2)",overflow:"hidden",maxWidth:160}}>
+                    <div style={{height:"100%",width:`${sp.pct}%`,background:"linear-gradient(90deg, #C0AEFA, #7B5EE8)",borderRadius:2}}/>
+                  </div>}
+                </div>
+                {/* Progress text */}
+                <div style={{flexShrink:0,textAlign:"right",position:"relative",zIndex:1}}>
+                  <div style={{fontSize:11,fontWeight:700,color:done?"var(--teal)":"var(--gray-400)"}}>{done?t("found_done",baseLang):`${sp.done}/${sp.total}`}</div>
+                </div>
+                {/* Chevron */}
+                <svg width={14} height={14} viewBox="0 0 24 24" fill="none" style={{flexShrink:0,position:"relative",zIndex:1,opacity:0.3}}><path d="M9 5l7 7-7 7" stroke="var(--gray-400)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"/></svg>
               </div>);
             })}
           </div>
+        </div>
         :
           <div className="card" style={{textAlign:"center",padding:"40px 20px"}}>
             <div style={{marginBottom:12}}><AppIcon name="construction" size={56}/></div>
@@ -592,7 +628,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         {fkMode==="playthrough"&&<FoundationsPlaythrough lang={lang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag} baseLang={baseLang} onBack={()=>setFkMode("select")}/>}
 
         {/* ── Gate Quiz Mode (Batch 4) ── */}
-        {fkMode==="gatequiz"&&<FoundationsGateQuiz lang={lang} user={user} setUser={setUser} showToast={showToast} addFlag={addFlag} onBack={()=>setFkMode("select")} onPass={()=>{setChapterNav("select");showToast&&showToast("🏆 Foundations passed! You can start lessons.");}}/>}
+        {fkMode==="gatequiz"&&<FoundationsGateQuiz lang={lang} baseLang={baseLang} user={user} setUser={setUser} showToast={showToast} addFlag={addFlag} onBack={()=>setFkMode("select")} onPass={()=>{setChapterNav("select");showToast&&showToast("🏆 Foundations passed! You can start lessons.");}}/>}
       </div>
     );
   }
@@ -818,7 +854,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
 // Per-language quiz data in FK_GATE_QUIZ. Score labels pulled from quiz data.
 // Accessible at all times from Foundations landing.
 // ══════════════════════════════════════════════════════════════════
-function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass}){
+function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
   const quizData = FK_GATE_QUIZ[lang];
   const [phase,setPhase]=useState("intro"); // intro | running | results

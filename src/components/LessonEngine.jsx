@@ -24,7 +24,28 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   React.useEffect(()=>{try{localStorage.setItem("vl_story_mode",storyMode?"true":"false");}catch(e){}},[storyMode]);
   const _allSteps=lesson.steps||[];
   const hasStoryCards=_allSteps.some(s=>s.type==="story");
-  const steps=React.useMemo(()=>storyMode?_allSteps:_allSteps.filter(s=>s.type!=="story"),[_allSteps,storyMode]);
+  const steps=React.useMemo(()=>{
+    const filtered=storyMode?_allSteps:_allSteps.filter(s=>s.type!=="story");
+    // Inject breather checkpoints after every 5 consecutive teach cards
+    const MAX_TEACH=5;
+    const result=[];
+    let run=0,recent=[];
+    for(const step of filtered){
+      if(step.type==="teach"){
+        run++;
+        recent.push({trg:step.trg||step.nl||"",src:step.src||step.en||""});
+        result.push(step);
+        if(run>=MAX_TEACH){
+          result.push({type:"_breather",_generated:true,wordsReviewed:recent.slice(-MAX_TEACH),totalLearned:recent.length});
+          run=0;
+        }
+      }else{
+        run=0;
+        result.push(step);
+      }
+    }
+    return result;
+  },[_allSteps,storyMode]);
   const [si,setSi]=useState(0);
   const [score,setScore]=useState(0);
   const lessonId=lesson?.id;
@@ -509,7 +530,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     setShowHint(false);setFocusIdx(-1);setDfSlots({});setDfPoolIdx(0);setDfFocusSlot(null);setDfDrag(null);UISounds.pageTurn();
   };
   // ── Swipe navigation (mobile) ──
-  const isSwipeable=["teach","intro","tip","gramref","vocab_ref","verb_table","story"].includes(steps[si]?.type);
+  const isSwipeable=["teach","intro","tip","gramref","vocab_ref","verb_table","story","_breather"].includes(steps[si]?.type);
   const swipeHandlers=useSwipe(
     ()=>{if(isSwipeable||answered)goNext();}, // swipe left = next
     ()=>{goBack();},                            // swipe right = back
@@ -523,11 +544,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // teach: learnWord + goNext, others: just goNext
   const spaceAction=st_type==="teach"?()=>{if(curSt?.nl&&learnWord)learnWord(curSt.nl);setShowPhonetic(false);setShowCognate(false);setShowHanja(false);goNext();}:goNext;
   // Set immediately for first render (fixes spacebar not working on first slide)
-  if(["teach","intro","tip","gramref","vocab_ref","verb_table"].includes(st_type)&&!continueRef.current){
+  if(["teach","intro","tip","gramref","vocab_ref","verb_table","_breather"].includes(st_type)&&!continueRef.current){
     continueRef.current=spaceAction;
   }
   useEffect(()=>{
-    if(["teach","intro","tip","gramref","vocab_ref","verb_table"].includes(st_type)){
+    if(["teach","intro","tip","gramref","vocab_ref","verb_table","_breather"].includes(st_type)){
       continueRef.current=spaceAction;
     } else {
       // For quiz steps, ContinueButton handles registration when answered
@@ -2118,6 +2139,32 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       {D==="all"?(<div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:18}}>{blocks.cv_v}{blocks.cv_h}{blocks.cv_combo}</div>):blocks[D]||null}
     </div>);
   };
+
+  // ═══ BREATHER — auto-injected review checkpoint after consecutive teaches ═══
+  if(st.type==="_breather") return(
+    <div className="anim" key={si}>
+      <ProgressBar/>
+      <div style={{maxWidth:460,margin:"0 auto"}}>
+        <div className="gloss" style={{background:dk?"linear-gradient(180deg, rgba(55,45,105,0.96) 0%, rgba(42,36,90,0.98) 50%, rgba(30,26,68,1) 100%)":"linear-gradient(180deg, #FDFBFF 0%, #F6F2FF 35%, #F0ECFF 65%, #EAE4FF 100%)",borderRadius:22,padding:"28px 24px",textAlign:"center",border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.15)",boxShadow:dk?"0 8px 28px rgba(0,0,0,0.4), inset 0 2px 0 rgba(255,255,255,0.1), inset 0 -3px 0 rgba(0,0,0,0.15)":"0 8px 28px rgba(123,94,232,0.12), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -3px 0 rgba(123,94,232,0.06)",position:"relative",overflow:"hidden"}}>
+          <div style={{position:"absolute",top:0,left:"8%",right:"8%",height:"40%",borderRadius:"0 0 48% 48%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.06) 50%, transparent 100%)",pointerEvents:"none"}}/>
+          <div style={{position:"relative",zIndex:1}}>
+            <div style={{fontSize:28,marginBottom:8}}>{"🧠"}</div>
+            <div style={{fontFamily:"'Quicksand',sans-serif",fontSize:18,fontWeight:800,color:"var(--purple-accent-text)",marginBottom:4}}>{t("breather_title",baseLang)}</div>
+            <div style={{fontSize:13,color:"var(--gray-400)",marginBottom:18}}>{st.totalLearned} {t("prof_words_learned",baseLang).toLowerCase()} {t("le_so_far",baseLang)||"so far"}</div>
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:20}}>
+              {(st.wordsReviewed||[]).map((w,i)=>(
+                <div key={i} style={{padding:"10px 12px",borderRadius:14,background:dk?"rgba(123,94,232,0.12)":"rgba(123,94,232,0.06)",border:dk?"1.5px solid rgba(123,94,232,0.25)":"1.5px solid rgba(123,94,232,0.12)",textAlign:"left"}}>
+                  <div className="trg-text" style={{fontSize:15,fontWeight:700,color:"var(--gray-800)"}}>{w.trg}</div>
+                  <div style={{fontSize:11,color:"var(--teal-dark)",fontWeight:600,...srcDir}}>{w.src}</div>
+                </div>
+              ))}
+            </div>
+            <ContinueButton onClick={goNext} baseLang={baseLang} spaceRef={continueRef}/>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 
   // ═══ INTRO — Board-style (v2 lessons with board:true) ═══
   if(st.type==="intro" && lesson.board) return(
