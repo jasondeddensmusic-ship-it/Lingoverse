@@ -1931,9 +1931,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           wordStyle = { cursor: "pointer", display: "inline", transition: "all .15s" };
         }
       }
-      // ── GRAMMAR TOGGLE OFF or no pack: just clickable ──
+      // ── GRAMMAR TOGGLE OFF or no pack or noColor: just clickable, default text color ──
       else {
-        wordStyle = { cursor: "pointer", display: "inline", transition: "all .15s" };
+        const defaultTextColor = opts.noColor ? (dk ? "rgba(230,225,245,0.9)" : "var(--gray-800)") : undefined;
+        wordStyle = { color: defaultTextColor, fontWeight: 700, cursor: "pointer", display: "inline", transition: "all .15s" };
       }
 
       spans.push(
