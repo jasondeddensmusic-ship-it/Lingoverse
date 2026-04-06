@@ -270,7 +270,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (new) | 36 | 369 | 9,396 | 5,147 | **PERFECT.** All validations PASS: PP8, PP43, PP48, PP52, PP59, PP61. |
-| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | A1+A2 translated. B1 5/12, B2 0/12. 19 units with [AR] markers remain. PAUSED. |
+| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | A1+A2 translated. B1 12/12. B2 12/12. **All 36 units translated.** Grammar (58), idioms (125), CEFR vocab (4,199/4,699). |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -307,6 +307,11 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Standalone `src/pages/GrammarPage.jsx` updated.
 - **GrammarPage v2 + teacher-board rewrite** (2026-04-03): Full redesign. Mobile bottom sheet (useBottomSheet + useSwipe), desktop glossy modal. Explanation-first layout. HTML table for pixel-perfect alignment. Full-width list cards (no emoji icons). All 58 entries rewritten: dense paragraphs → bold headings, short sentences, one idea per line, child-friendly. One bullet per item. 142 umlaut violations fixed. Muted purple translations (not teal). Portal rendering for .anim escape.
 
+- **Arabic B2 complete** (2026-04-06): Units 33-36 fully translated (2,649 [AR] markers). All 36 Arabic-source units now clean.
+- **Arabic grammar module** (2026-04-06): `src/data/grammar/german-ar.js` (58 entries, 2,205 lines). MSA explanations with Arabic-German contrastive hooks. GrammarPage auto-selects when baseLang=ar.
+- **Arabic idioms** (2026-04-06): srcAr/litAr/noteAr added to all 125 entries in idioms-german.js. Arabic proverb equivalents bridged. IdiomsPage wired for baseLang=ar.
+- **Arabic CEFR vocab** (2026-04-06): trAr field on 4,199 of 4,699 entries (A1: 677, A2: 723/1,223, B1: 2,799). CefrReferencePage wired with baseLang + RTL. 500 A2 entries remain.
+
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
 2. ~~PP64 violations widespread~~ — **RESOLVED.** Quiz coverage added during splits.
@@ -315,7 +320,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 5. ~~B2 content not validated~~ — **RESOLVED.** PP8 (205+ fixes), PP52 (5 fixes), PP48 all PASS.
 6. ~~pos/gender fields missing~~ — **RESOLVED.** All 5,147 teach cards tagged (PP59 PASS).
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-8. ~~Arabic A1 translation~~ — **RESOLVED.** A1+A2 fully translated. 19 B1/B2 units remain (PAUSED).
+8. ~~Arabic translation~~ — **RESOLVED.** All 36 units translated (A1+A2+B1+B2). Grammar (58), idioms (125), CEFR vocab (4,199/4,699). 500 A2 CEFR entries remain.
 9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage.
 10. ~~Dictionary: unknown word fallback~~ — **RESOLVED.** Unknown words now tappable with subtle style + "Not yet catalogued" popup.
 11. ~~Dictionary: proper noun detection~~ — **RESOLVED.** Capitalization heuristic detects names. Warm grey + "PROPER NOUN" badge.
@@ -334,9 +339,9 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ---
 
-## Next Priorities (updated 2026-04-04)
+## Next Priorities (updated 2026-04-06)
 
-> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-05.md`.
+> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-07.md`.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -360,10 +365,11 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - Grammar toggle default behavior review
 - Sentence-level word-by-word breakdown display
 
-### Phase 2: Arabic B1+B2 Translation
-11. **Arabic source completion** — 20 units, ~12,757 [AR] markers. Sonnet agents, max 4 at a time.
-12. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
-13. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+### Phase 2: Arabic Finishing Touches
+11. ~~**Arabic B1+B2 translation**~~ — **DONE.** All 36 units translated. Zero content [AR] markers.
+12. **CEFR A2 gap** — 500 entries in A2-chunk-2 still need trAr. 1 Sonnet agent + apply script.
+13. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
+14. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
 
 ### Phase 3: Navigation + Flow Redesign
 14. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
