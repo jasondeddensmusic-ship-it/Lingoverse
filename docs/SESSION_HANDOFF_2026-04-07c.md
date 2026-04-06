@@ -1,6 +1,6 @@
 # Session Handoff 2026-04-07c
 
-## What was done (10 commits on main)
+## What was done (14 commits on main)
 
 ### 1. Plumbing Fixes (commit 076dfe5)
 - **Profile vocab progress**: Now uses `buildUnitsVocabCount()` extracting teach cards from UNITS (5,147 for German v2) instead of static `VOCAB[lang]` (~200 words). Users see accurate progress.
@@ -48,39 +48,73 @@
 
 ---
 
-## CRITICAL: Next Session Priorities
+### 7. Story Mode Hidden + Story Quizzes Filtered (commits 474a77e, 178d01c)
+- **Story mode toggle hidden** from lesson header bar. Story mode is post-launch.
+- **191 story-referencing quiz steps filtered** when storyMode is off. Regex matches character names (Verumius, Sophie, Lisa, Markus, Klara, Max, Tobias, Frau Weber, Herr Schmidt) in mc.q and fb.s fields. These quizzes are skipped alongside story cards.
+- `storyMode` defaults to `false`. Story cards and story quizzes are invisible to users. All story data/renderers remain in code for post-launch.
+- **This makes the quiz scarcity WORSE** — 191 fewer quiz steps. The next session MUST add replacement quizzes.
 
-### Priority 1: Quiz Interleaving in Lesson Data (URGENT)
-**The breather system is a band-aid. The real fix is more quizzes.**
+---
 
-The owner says lessons are still "too few quizzes." The breather adds review pauses but NOT actual quiz steps. The data itself needs restructuring.
+## CRITICAL: Next Session Priority — Quiz Interleaving (URGENT)
 
-**Current state (confirmed by analysis):**
-- Unit 1 (A1): max 26 consecutive teaches in one lesson before any quiz
+### The Problem (3 compounding factors)
+1. **Teach dump pattern**: Lessons authored with 15-26 consecutive teach cards followed by a quiz block at the end
+2. **Story quizzes now filtered**: 191 quiz steps removed (reference story characters). These were often the only quizzes in some lessons.
+3. **Owner feedback**: "Way too few quizzes." Breathers add review pauses but NOT actual quiz steps.
+
+### The Numbers
+**Before story filter:**
+- 1,426 total quiz steps (mc+fb) across 36 units
+- Many lessons have a "teach dump then quiz block" pattern
+
+**After story filter:**
+- 1,235 quiz steps remain (191 removed)
+- Some lessons may now have ZERO quizzes
+
+**Consecutive teach runs (worst cases):**
+- Unit 1 (A1): max 26 consecutive teaches in one lesson
+- Unit 2 (A1): max 26 consecutive teaches
 - Unit 13 (B1): max 21 consecutive teaches
 - Unit 29 (B2): eight runs of 20+ teaches each
-- Many lessons have a "teach dump then quiz block" pattern instead of interleaved teach-quiz-teach-quiz
 
-**What needs to happen:**
-1. Audit each unit file to find lessons with >8 teach cards before a quiz step
-2. For each offending lesson, insert additional mc/fb quiz steps between teach card groups
-3. Target pattern: 3-4 teaches, then 1-2 quiz steps testing those words, then next 3-4 teaches
-4. Quiz steps must test words from the IMMEDIATELY preceding teach cards (PP52/PP34 compliance)
-5. This is a DATA task, not an engine task. Edit the unit files directly.
+### What Needs to Happen
+1. **Scan all 36 unit files** for lessons where: (a) consecutive teach runs >6, OR (b) quiz steps were removed by story filter leaving <3 quizzes per lesson
+2. **Insert interleaved quiz steps** between teach card groups
+3. **Target pattern**: 3-4 teaches, then 1-2 quiz steps testing those words, then next 3-4 teaches
+4. **Quiz steps must NOT reference story characters** (no Verumius, Sophie, etc.)
+5. **Quiz steps must test words from the IMMEDIATELY preceding teach cards** (PP52/PP34 compliance)
+6. **PP8 anti-leak scan** after every batch — hints must not contain answers, position must vary
+7. This is a DATA task, not an engine task. Edit the per-unit files in `src/data/german-v2/unit-NN.js`
 
-**Scope estimate:**
+### Scope Estimate
 - A1: 6 units, ~15 lessons need restructuring
 - A2: 6 units, ~10 lessons need restructuring
 - B1: 12 units, ~40 lessons need restructuring
 - B2: 12 units, ~45 lessons need restructuring
 - Total: ~110 lessons across 36 units
+- Estimated new quiz steps needed: ~300-500
 
-**Agent approach:**
-- Use Sonnet agents to scan each unit file and identify lessons with consecutive teach runs >6
-- For each identified lesson, have Opus agents write interleaved quiz steps
-- Max 4 agents at a time (Rule B.7). Each agent handles 1 unit.
-- Follow AGENT_CONTENT_RULES.md for all quiz content
-- PP8 anti-leak scan after every batch
+### Agent Approach
+- **Phase 1 (Sonnet):** Scan each unit file. Output: list of lessons with consecutive teach runs >6, plus lessons that lost story quizzes. Include lesson IDs, step indices, and teach card words.
+- **Phase 2 (Opus):** For each identified lesson, write interleaved mc/fb quiz steps. Each quiz tests the 3-5 words from the immediately preceding teach cards. No story character references. Follow AGENT_CONTENT_RULES.md.
+- **Phase 3 (Sonnet):** PP8 anti-leak validation on all new quiz steps.
+- Max 4 agents at a time (Rule B.7). Each agent handles 1-2 units.
+- Agents read per-unit files (`src/data/german-v2/unit-NN.js`, ~250 lines each). NEVER the re-export or monolith.
+- Write to temp files. Main session merges + validates.
+
+### Replacement Quiz Guidelines
+- Use `mc` (multiple choice) and `fb` (fill-in-blank, SINGLE blank only) types
+- `mc`: 4 options, 1 correct. Hint 15+ chars, must GUIDE not give answer.
+- `fb`: Single `{1}` blank. 4 options in `opts[]`. Hint 15+ chars.
+- All explanatory text (hints) in English (PP61)
+- No em-dashes (PP22c). No CEFR labels in questions (PP49).
+- Answer position must vary (PP8 position leak)
+- Every quiz word must trace to a prior teach card in the same lesson (PP52)
+
+---
+
+## Other Priorities (after quiz interleaving)
 
 ### Priority 2: "REVIEW" vs "NEW WORD" Label
 Words taught in the current lesson show "REVIEW" instead of "NEW WORD" because `learnWord()` fires on the previous card and adds to `user.lw`. By the time the next card for a different word renders, words from earlier in the same lesson are already "learned."
@@ -99,16 +133,19 @@ Words taught in the current lesson show "REVIEW" instead of "NEW WORD" because `
 - Korean (most audited) -> Dutch -> French -> Spanish
 - Massive scope: each language needs full rehaul treatment
 
+---
+
 ## Current State Summary
 
 | Component | Status |
 |-----------|--------|
-| German v2 content (36 units) | PERFECT. All validations pass. |
+| German v2 content (36 units) | All validations pass but quiz density too low. |
 | Breather system | LIVE. 809 checkpoints, max 5 consecutive teaches. |
+| Story mode | HIDDEN. Toggle removed, story quizzes filtered. Post-launch. |
 | Foundations Reference | REDESIGNED. Glossy book chapter list. |
 | Gate Quiz | FIXED. No more white screen. |
 | Profile vocab progress | FIXED. Shows 5,147 not 200. |
 | Chat health check | LIVE. Graceful fallback. |
 | noColor (all renderers) | FIXED. Black text everywhere, Aa toggle opt-in. |
 | Arabic source (36 units) | COMPLETE. Grammar, idioms, CEFR, i18n, RTL all done. |
-| Quiz interleaving | NOT DONE. Data needs restructuring. Priority 1 for next session. |
+| **Quiz interleaving** | **NOT DONE. Priority 1. ~110 lessons, ~300-500 new quiz steps needed.** |
