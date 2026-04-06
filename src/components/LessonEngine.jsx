@@ -25,7 +25,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const _allSteps=lesson.steps||[];
   const hasStoryCards=_allSteps.some(s=>s.type==="story");
   const steps=React.useMemo(()=>{
-    const filtered=storyMode?_allSteps:_allSteps.filter(s=>s.type!=="story");
+    const STORY_NAMES=/\b(?:Verumius|Sophie|Lisa|Markus|Klara|Max|Tobias|Frau\s+Weber|Herr\s+Schmidt)\b/i;
+    const isStoryQuiz=(s)=>!storyMode&&(s.type==="mc"||s.type==="fb")&&((s.q&&STORY_NAMES.test(s.q))||(s.s&&STORY_NAMES.test(s.s)));
+    const filtered=storyMode?_allSteps:_allSteps.filter(s=>s.type!=="story"&&!isStoryQuiz(s));
     // Inject breather checkpoints after every 5 consecutive teach cards
     const MAX_TEACH=5;
     const result=[];
