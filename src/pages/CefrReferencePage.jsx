@@ -12,7 +12,7 @@ import { SPANISH_CEFR } from '../data/cefr-reference/spanish.js';
 
 const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR };
 
-function CefrReferencePage({lang, user}){
+function CefrReferencePage({lang, baseLang="en", user}){
   const dk=document.documentElement.classList.contains("dark");
   const ref = CEFR_REFS[lang];
   const [tab,setTab]=useState("vocab");
@@ -118,10 +118,10 @@ function CefrReferencePage({lang, user}){
     for(const w of items){
       const key=w.w.toLowerCase();
       if(!map.has(key)){
-        map.set(key,{...w,examples:w.ex?[{ex:w.ex,tr:w.tr,l:w.l}]:[]});
+        map.set(key,{...w,examples:w.ex?[{ex:w.ex,tr:w.tr,trAr:w.trAr,l:w.l}]:[]});
       } else {
         const existing=map.get(key);
-        if(w.ex) existing.examples.push({ex:w.ex,tr:w.tr,l:w.l});
+        if(w.ex) existing.examples.push({ex:w.ex,tr:w.tr,trAr:w.trAr,l:w.l});
         // Keep lowest level
         if((lvOrder[w.l]??9)<(lvOrder[existing.l]??9)){
           existing.l=w.l;
@@ -614,7 +614,7 @@ function VocabTable({words,dk,lang,rowStyle,LevelPill,posLabel,genderLabel,gende
                 {(w.examples||[]).map((ex,ei)=>(
                   <div key={ei} style={{marginBottom:ei<(w.examples||[]).length-1?6:0}}>
                     <div style={{fontSize:13,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(220,215,240,0.8)":"var(--gray-700)",lineHeight:1.5}}>{ex.ex}</div>
-                    {ex.tr&&<div style={{fontSize:12,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(110,85,200,0.55)",lineHeight:1.4,fontStyle:"italic"}}>{ex.tr}</div>}
+                    {(baseLang==="ar"&&ex.trAr?ex.trAr:ex.tr)&&<div style={{fontSize:12,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(168,144,255,0.5)":"rgba(110,85,200,0.55)",lineHeight:1.4,fontStyle:"italic",direction:baseLang==="ar"?"rtl":"ltr"}}>{baseLang==="ar"&&ex.trAr?ex.trAr:ex.tr}</div>}
                   </div>
                 ))}
               </div>
