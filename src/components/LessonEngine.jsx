@@ -1834,15 +1834,17 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         const startsUpper = mainWord[0] === mainWord[0].toUpperCase() && mainWord[0] !== mainWord[0].toLowerCase();
         const isProperNoun = !isFirstWord && startsUpper;
 
-        const unknownColor = isProperNoun
+        const unknownColor = opts.noColor
+          ? (dk ? "rgba(230,225,245,0.9)" : "var(--gray-800)")  // noColor: same as normal text
+          : isProperNoun
           ? (dk ? "#B0BEC5" : "#546E7A")  // warm grey for proper nouns
           : (dk ? "rgba(200,190,255,0.45)" : "rgba(100,80,160,0.35)");  // subtle muted for unknown
 
         spans.push(<span key={contractionPart ? i+"w" : i} style={{
           color: unknownColor,
-          fontWeight: isProperNoun ? 600 : 400,
+          fontWeight: isProperNoun ? 600 : (opts.noColor ? 700 : 400),
           cursor: "pointer",
-          borderBottom: grammarHl ? ("1px dashed " + (dk ? "rgba(200,190,255,0.25)" : "rgba(100,80,160,0.2)")) : "none",
+          borderBottom: (grammarHl && !opts.noColor) ? ("1px dashed " + (dk ? "rgba(200,190,255,0.25)" : "rgba(100,80,160,0.2)")) : "none",
           transition: "all .1s",
         }} onClick={(e) => {
           e.stopPropagation();
