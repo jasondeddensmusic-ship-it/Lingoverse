@@ -1,6 +1,6 @@
 // German v2 Unit 18 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten",sub:"Beer garden, Spargelzeit, als vs wenn, fixed prepositions, da-/wo- compounds",icon:"🍺",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten",sub:"حديقة البيرة، Spargelzeit، als مقابل wenn، حروف الجر الثابتة، مركبات da-/wo-",icon:"🍺",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r18l1",title:"Unter den Kastanien",icon:"🌳",xp:15,board:true,steps:[
         {type:"intro",title:"Unter den Kastanien",desc:"حديقة بيرة في برلين في أواخر يونيو. ضوء ذهبي عبر أوراق الكستناء. أضواء زينة، نقانق مشوية، قرع أكواب البيرة. حان الوقت لتعلم كيف يتواصل الألمان في الهواء الطلق.",goals:[
             "تعلّم 18 كلمة عن المطاعم والتواصل الاجتماعي",

@@ -1,6 +1,6 @@
 // German v2 Unit 8 — Arabic source language (srcLang:"ar")
 // Auto-generated. Arabic translations completed.
-const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor",sub:"Recycling lecture, Abendbrot discovery, meeting Mia",icon:"♻️",level:"A2.1",color:"#7B5EE8",lessons:[
+const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor",sub:"محاضرة إعادة التدوير، اكتشاف Abendbrot، لقاء Mia",icon:"♻️",level:"A2.1",color:"#7B5EE8",lessons:[
     {id:"deu_r8l1",title:"Der falsche Eimer",icon:"♻️",xp:15,board:true,steps:[
         {type:"intro",title:"Der falsche Eimer",desc:"يقف فيروميوس في الفناء الخلفي أمام ست حاويات نفايات ملونة. في يده كوب زبادي فارغ. تأتي هيلدي من حول الزاوية ويصبح وجهها شاحباً.",goals:[
             "10 كلمات جديدة عن النفايات والطبيعة والجيران",

@@ -1,6 +1,6 @@
 // German v2 Unit 4 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",sub:"Shopping, food & the accusative case",icon:"🛒",level:"A1.1",color:"#7B5EE8",lessons:[
+const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",sub:"التسوق، الطعام وحالة النصب",icon:"🛒",level:"A1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r4l1",title:"Einkaufswagen-Panik",icon:"🛒",xp:15,board:true,steps:[
         {type:"intro",title:"Speed Checkout Survival",desc:"فيروميوس يدخل سوبرماركت ألمانياً لأول مرة. عربات التسوق تحتاج عملة معدنية. الكاشير لا يعبّئ الأكياس. الدفع النقدي هو السائد. البقاء يبدأ الآن.",goals:["مفردات التسوق","كلمات المال والدفع","التنقل في سوبرماركت ألماني"]},
         {type:"story",speaker:"narrator",mood:"cinematic",art:"de-rewe-entrance",trg:"REWE. Rote Buchstaben. Automatische Türen. Verumius steht davor mit einer leeren Stofftasche. Nein, Moment. Ohne Stofftasche. Ohne alles.",src:"REWE. حروف حمراء. أبواب آلية. فيروميوس يقف أمامها بكيس قماش فارغ. لا، انتظر. بدون كيس قماش. بدون أي شيء."},

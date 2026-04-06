@@ -1,6 +1,6 @@
 // German v2 Unit 1 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked يحتاج ترجمة يدوية إلى العربية.
-const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in Deutschland",sub:"Airport arrival, wrong train, first German words",icon:"✈️",level:"A1.1",color:"#7B5EE8",lessons:[
+const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in Deutschland",sub:"الوصول إلى المطار، القطار الخاطئ، أول كلمات ألمانية",icon:"✈️",level:"A1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r01l1",title:"Ankunft",icon:"✈️",xp:15,board:true,steps:[
         {type:"intro",title:"Willkommen in Deutschland",desc:"يصل فيروميوس إلى ألمانيا لأول مرة. لكن الأمور لا تسير كما هو مخطط...",goals:["تعلم التحيات الأساسية","فهم الأسئلة البسيطة","النجاة في محادثتك الألمانية الأولى"]},
         {type:"story",speaker:"narrator",mood:"excited",art:"de-ber-airport",trg:"Flughafen Berlin Brandenburg. Die Türen öffnen sich. Warme Luft, fremde Stimmen, deutsche Schilder überall. Verumius atmet tief ein. Er ist da.",src:"مطار برلين براندنبورغ. تُفتح الأبواب. هواء دافئ، أصوات غير مألوفة، لافتات ألمانية في كل مكان. يأخذ فيروميوس نفسًا عميقًا. لقد وصل."},

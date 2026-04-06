@@ -1,6 +1,6 @@
 // German v2 Unit 16 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",sub:"Neighbor conflict, Ruhezeit, indirect questions, nachdem + Plusquamperfekt",icon:"📝",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",sub:"خلاف مع الجيران، Ruhezeit، الأسئلة غير المباشرة، nachdem + Plusquamperfekt",icon:"📝",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r16l1",title:"Das Bohrloch",icon:"🔩",xp:15,board:true,steps:[
         {type:"intro",title:"Das Bohrloch",desc:"مساء الأحد، الساعة 20:05. لدى فيروميوس مثقاب ورف. ماذا يمكن أن يحدث؟ الكثير، إن لم تعرف أوقات الهدوء.",goals:[
             "تعلّم مفردات الجدالات والنزاعات والمشاعر",

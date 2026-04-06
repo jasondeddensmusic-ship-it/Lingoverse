@@ -1,6 +1,6 @@
 // German v2 Unit 7 — Arabic source language (srcLang:"ar")
 // Auto-generated. Arabic translations completed.
-const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch",sub:"First cold, pharmacy visit, four-minute doctor, Beipackzettel",icon:"🤧",level:"A2.1",color:"#7B5EE8",lessons:[
+const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch",sub:"أول نزلة برد، زيارة الصيدلية، طبيب الأربع دقائق، Beipackzettel",icon:"🤧",level:"A2.1",color:"#7B5EE8",lessons:[
     {id:"deu_r07l1",title:"Die Apotheke",icon:"🤧",xp:15,board:true,steps:[
         {type:"intro",title:"Die Apotheke",desc:"يستيقظ فيروميوس وهو مريض. صداع وسعال ورشح. يحتاج إلى مساعدة، لكن إلى أين يذهب؟ حان الوقت لاكتشاف الصيدلية الألمانية.",goals:[
             "تعلّم 8 كلمات أساسية عن الصحة والمرض",

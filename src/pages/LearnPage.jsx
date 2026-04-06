@@ -606,7 +606,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         <div style={{width:56,height:56,borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,position:"relative",zIndex:2,boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)"}}><CountryFlag code={lang} size={34}/></div>
         <div style={{flex:1,position:"relative",zIndex:2}}>
           <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)"}}><span className="trg-inline">{L?.native||"Course"}</span></h1>
-          <p style={{color:"rgba(255,255,255,0.75)",fontSize:13}}>{langUnits.length} units · {tl} lessons{op>0?` · ${op}%`:""}</p>
+          <p style={{color:"rgba(255,255,255,0.75)",fontSize:13}}>{langUnits.length} {t("map_units",baseLang)} · {tl} {t("map_lessons",baseLang)}{op>0?` · ${op}%`:""}</p>
           {op>0&&<div style={{marginTop:8,height:5,borderRadius:3,background:"rgba(255,255,255,0.15)",overflow:"hidden",boxShadow:"inset 0 1px 2px rgba(0,0,0,0.15)"}}>
             <div style={{height:"100%",width:`${op}%`,background:"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(255,255,255,0.4)",position:"relative",overflow:"hidden"}}><div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"50%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.6) 0%, transparent 100%)",pointerEvents:"none"}}/></div>
           </div>}
@@ -619,7 +619,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         <div style={{width:56,height:56,borderRadius:16,background:dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.08)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,position:"relative",zIndex:2}}><CountryFlag code={lang} size={34}/></div>
         <div style={{flex:1,position:"relative",zIndex:2}}>
           <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2}}><span className="trg-inline">{L?.native||"Course"}</span></h1>
-          <p style={{color:"var(--gray-500)",fontSize:13}}>{langUnits.length} units · {tl} lessons{op>0?` · ${op}%`:""}</p>
+          <p style={{color:"var(--gray-500)",fontSize:13}}>{langUnits.length} {t("map_units",baseLang)} · {tl} {t("map_lessons",baseLang)}{op>0?` · ${op}%`:""}</p>
           {op>0&&<div style={{marginTop:8,height:5,borderRadius:3,background:"rgba(123,94,232,0.08)",overflow:"hidden"}}>
             <div style={{height:"100%",width:`${op}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.3)",position:"relative",overflow:"hidden"}}><div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 100%)",pointerEvents:"none"}}/></div>
           </div>}
@@ -1156,7 +1156,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
             </div>
             <div style={{flex:1}}>
               <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{stage.title}</h2>
-              <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{stage.desc} · {lessons.length} lessons{sPct>0?` · ${sPct}%`:""}</p>
+              <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,margin:0}}>{stage.desc} · {lessons.length} {t("map_lessons",baseLang)}{sPct>0?` · ${sPct}%`:""}</p>
             </div>
             {sPct===100&&<div style={{fontSize:24,flexShrink:0}}>✅</div>}
           </div>
@@ -1295,7 +1295,7 @@ function LessonList({unit,user,lang,baseLang,onBack,onStart}){
               <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{t("map_unit_prefix",baseLang)} {unit.n}: <span className="trg-inline">{unit.title}</span></h2>
               {(()=>{const fw=LANG_FRAMEWORK[unit.lang]||"CEFR";const info=getCefrInfo(unit.level);return <span style={{padding:"2px 8px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:9,fontWeight:700}}>{unit.level} • {info.label}</span>;})()}
             </div>
-            <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,marginTop:2,margin:0}}>{unit.sub} · {unit.lessons.length} lessons{unitProg?` · ${unitProg.pct}%`:""}</p>
+            <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,marginTop:2,margin:0}}>{unit.sub} · {unit.lessons.length} {t("map_lessons",baseLang)}{unitProg?` · ${unitProg.pct}%`:""}</p>
           </div>
           {unitProg&&unitProg.completed&&<div style={{fontSize:24,flexShrink:0}}>✅</div>}
           <svg width={16} height={16} viewBox="0 0 24 24" fill="none" style={{position:"relative",zIndex:2,opacity:0.5,flexShrink:0}}><path d="M9 5l7 7-7 7" stroke="white" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"/></svg>

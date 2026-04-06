@@ -1,6 +1,6 @@
 // German v2 Unit 17 — Arabic source language (srcLang:"ar")
 // Arabic source language version. All fields translated to MSA.
-const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rheinland",sub:"Cologne carnival, infinitive clauses, costumes, Rosenmontagszug",icon:"🎭",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rheinland",sub:"كرنفال كولونيا، جمل المصدر، الأزياء، Rosenmontagszug",icon:"🎭",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r17l1",title:"Kölle Alaaf!",icon:"🎉",xp:15,board:true,steps:[
         {type:"intro",title:"Kölle Alaaf!",desc:"ينزل فيروميوس من قطار ICE في كولونيا. أبراج الكاتدرائية تعلو فوق الفوضى. الجميع يرتدي أزياء تنكرية. قصاصات ورق على الأرض. موسيقى في كل مكان. مرحباً بكم في الكرنفال.",goals:[
             "تعلّم مفردات الكرنفال الأساسية",

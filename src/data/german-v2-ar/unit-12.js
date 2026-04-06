@@ -1,6 +1,6 @@
 // German v2 Unit 12 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbilanz",sub:"Six months in Germany: reflection, KD's first joke, the decision to stay",icon:"🎉",level:"A2.3",color:"#7B5EE8",lessons:[
+const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbilanz",sub:"ستة أشهر في ألمانيا: تأمل، أول نكتة لـ KD، قرار البقاء",icon:"🎉",level:"A2.3",color:"#7B5EE8",lessons:[
     {id:"deu_r12l1",title:"Im Literaturcafé",icon:"☕",xp:15,board:true,steps:[
         {type:"intro",title:"Im Literaturcafé",desc:"ستة أشهر في ألمانيا. يلتقي فيروميوس بيلماز في مقهى أدبي في برلين لتناول القهوة والكعك. للمرة الأولى، يتحدثان لا كمعلمة وطالب، بل كأصدقاء.",goals:[
             "التعبير عن الآراء والأفكار",

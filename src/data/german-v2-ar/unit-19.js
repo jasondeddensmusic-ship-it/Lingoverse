@@ -1,6 +1,6 @@
 // German v2 Unit 19 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_19_AR = {n:19,lang:"de",srcLang:"ar",track:"v2",title:"Ausländerbehörde",sub:"Immigration office, passive with modals, advanced subordination, residence permit",icon:"📋",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_19_AR = {n:19,lang:"de",srcLang:"ar",track:"v2",title:"Ausländerbehörde",sub:"مكتب الهجرة، المبني للمجهول مع الأفعال الناقصة، الجمل الثانوية المتقدمة، تصريح الإقامة",icon:"📋",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r19l1",title:"Wartenummer B089",icon:"🏢",xp:15,board:true,steps:[
         {type:"intro",title:"Wartenummer B089",desc:"يجلس فيروميوس في مكتب الهجرة. رقم الانتظار B089. تعرض الشاشة A247. ملفه منظم بشكل مثالي. ساعدته هيلدي.",goals:[
             "تعلّم المفردات الأساسية للدوائر الحكومية والطلبات الرسمية",

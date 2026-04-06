@@ -1,6 +1,6 @@
 // German v2 Unit 15 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Hamburg",sub:"Business trip, genitive case, N-Deklination, regional differences",icon:"🚄",level:"B1.1",color:"#7B5EE8",lessons:[
+const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Hamburg",sub:"رحلة عمل، حالة الإضافة، N-Deklination، الفروقات الإقليمية",icon:"🚄",level:"B1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r15l1",title:"Moin, Hamburg!",icon:"🌧️",xp:15,board:true,steps:[
         {type:"intro",title:"Moin, Hamburg!",desc:"يصل فيروميوس إلى هامبورغ في رحلة عمل. مطر وطوب أحمر وتحية لم يسمعها من قبل.",goals:[
             "تعلّم مفردات السفر والجغرافيا",

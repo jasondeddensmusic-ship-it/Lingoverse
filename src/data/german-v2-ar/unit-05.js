@@ -1,6 +1,6 @@
 // German v2 Unit 5 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"Restaurant, modal verbs & dative prepositions",icon:"🍽️",level:"A1.1",color:"#7B5EE8",lessons:[
+const UNIT_05_AR = {n:5,lang:"de",srcLang:"ar",track:"v2",title:"Hunger!",sub:"المطعم، الأفعال الناقصة وحروف الجر مع المجرور",icon:"🍽️",level:"A1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r05l1",title:"Was gibt's zum Essen?",icon:"🍽️",xp:15,board:true,steps:[
         {type:"intro",title:"Was gibt's zum Essen?",desc:"تعلّم أهم الكلمات عن الأكل والشرب في ألمانيا.",goals:["تسمية الوجبات والأطعمة","تصريف الفعلين essen و trinken","الطلب في المطعم"]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-gasthaus-exterior-evening",trg:"Die Sonne geht unter in Neukölln. Verumius steht vor einem alten Gasthaus. Eine Kreidetafel steht neben der Tür.",src:"الشمس تغرب في نويكولن. فيروميوس يقف أمام مطعم ألماني قديم (Gasthaus). لوح طباشير بجانب الباب."},

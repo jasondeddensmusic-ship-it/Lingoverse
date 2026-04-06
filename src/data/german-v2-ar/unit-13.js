@@ -1,6 +1,6 @@
 // German v2 Unit 13 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung",sub:"Job application, formal German, mock interview, Konjunktiv II",icon:"📝",level:"B1.1",color:"#7B5EE8",lessons:[
+const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung",sub:"طلب وظيفة، الألمانية الرسمية، مقابلة تدريبية، Konjunktiv II",icon:"📝",level:"B1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r13l1",title:"Der rote Stift",icon:"🖊️",xp:15,board:true,steps:[
         {type:"intro",title:"Der rote Stift",desc:"فيروميوس يجلس في مكتب د. يلماز. سيرته الذاتية مغطاة بتصحيحات حمراء. حان الوقت لاكتشاف عالم طلبات التوظيف الألمانية.",goals:[
             "تعلّم المفردات الأساسية لطلبات التوظيف ومقابلات العمل",

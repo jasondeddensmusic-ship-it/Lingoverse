@@ -1,5 +1,5 @@
 // German v2 Unit 20 — Arabic source language (srcLang:"ar")
-const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicherung",sub:"Health insurance maze, compound nouns, relative clauses with prepositions, adverbial conjunctions",icon:"🏥",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicherung",sub:"متاهة التأمين الصحي، الأسماء المركبة، الجمل الموصولة مع حروف الجر، الروابط الظرفية",icon:"🏥",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r20l1",title:"Der Papierstapel",icon:"📄",xp:15,board:true,steps:[
         {type:"intro",title:"Der Papierstapel",desc:"يجلس فيروميوس على طاولة مطبخه. أمامه عشرون رسالة من شركة التأمين الصحي. لا يفهم كلمة واحدة.",goals:[
             "تعلّم مفردات متعلقة بالصحة والتأمين",
