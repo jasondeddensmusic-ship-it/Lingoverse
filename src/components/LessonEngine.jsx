@@ -2141,7 +2141,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           </div>
 
           {/* Description — line-aware with candy bubbles */}
-          <div style={{textAlign:"center",padding:"4px 22px 16px"}}>
+          <div className="meta-text" style={{textAlign:"center",padding:"4px 22px 16px"}}>
             {(()=>{
               const dL=(st.desc||"").split(/\\n|\n/);
               const o=[];let i=0;
@@ -2164,7 +2164,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {/* Goals — clean rows with green bullets */}
           {st.goals&&st.goals.length>0&&<div style={{borderTop:"1.5px solid var(--gray-100)",padding:"14px 22px"}}>
             <div style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"var(--purple-accent-text)",marginBottom:10}}>{t("le_in_this_lesson",baseLang)}</div>
-            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{})}}><span style={{color:"var(--purple-accent-text)",fontWeight:800,fontSize:12}}>▸</span><span>{g}</span></div>)}
+            {st.goals.map((g,i)=><div key={i} style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,padding:"5px 0",display:"flex",alignItems:"center",gap:8,...(/[\u0600-\u06FF]/.test(g)?{direction:"rtl"}:{direction:"ltr",textAlign:"left"})}}><span style={{color:"var(--purple-accent-text)",fontWeight:800,fontSize:12}}>▸</span><span>{g}</span></div>)}
           </div>}
         </div>
 
@@ -2278,7 +2278,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={storyBubble}>
             <div style={storyGloss}/>
             <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:16,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+              <div className="trg-text" style={{fontSize:16,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                 {st.tagged ? renderTaggedStory(st.tagged) : universalHl(st.trg || "", lang, { noColor: true })}
                 <SpeakerButton text={st.trg || ""} lang={ttsLocStory} size={13} showToast={showToast}/>
               </div>
@@ -2353,7 +2353,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 </div>
               </div>
               {/* Word display — article color-coded (no separate article chip), same as v1 */}
-              <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
+              <div className="trg-text-center" style={{textAlign:"center",padding:"16px 28px 8px"}}>
                 <div style={{marginBottom:6}}>
                   {artWordNew&&artWordNew[1] ? (
                     <span className="hd" style={{fontSize:36,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
@@ -2393,7 +2393,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                     <div style={{...compBubble,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px",padding:"14px 18px"}}>
                       <div style={glossArc}/>
                       <div style={{position:"relative",zIndex:2}}>
-                        <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                        <div className="trg-text" style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                           {st.tagged ? renderTagged(st.tagged) : universalHl(content, lang, { noColor: true })}
                           <SpeakerButton text={content} lang={ttsLocNew} size={13} showToast={showToast}/>
                         </div>
@@ -2407,7 +2407,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             return <div style={{...compBubble, padding:"14px 18px", marginBottom:16}}>
               <div style={glossArc}/>
               <div style={{position:"relative",zIndex:2}}>
-                <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                <div className="trg-text" style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                   {st.tagged ? renderTagged(st.tagged) : universalHl(ex, lang, { noColor: true })}
                   <SpeakerButton text={ex} lang={ttsLocNew} size={13} showToast={showToast}/>
                 </div>
@@ -2462,7 +2462,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           })()}
 
           {/* Note section — purple-bar card (matches board-mode). Notes are source-language metalanguage (PP61), so no universalHl */}
-          {st.note && <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:16}}>
+          {st.note && <div className="meta-text" style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:16}}>
               {(st.note||"").split(/\\n|\n/).map((line,li)=>{
                 if(!line.trim()) return <div key={li} style={{height:6}}/>;
                 if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{line.slice(1).trim()}</span></div>;
@@ -2656,7 +2656,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           </div>
 
           {/* The word/letter — big, centered, article ALWAYS color-coded on teach cards */}
-          <div style={{textAlign:"center",padding:"16px 28px 8px"}}>
+          <div className="trg-text-center" style={{textAlign:"center",padding:"16px 28px 8px"}}>
             <div style={{marginBottom:6}}>
               {artWord&&artWord[1] ? (
                 <span className="hd" style={{fontSize:nlSize,fontWeight:800,lineHeight:1.1,fontFamily:"'Quicksand','system-ui',sans-serif"}}>
@@ -2750,7 +2750,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   <div style={{...bubbleStyle,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}>
                     <div style={glossArc}/>
                     <div style={{position:"relative",zIndex:2}}>
-                      <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+                      <div className="trg-text" style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                         {universalHl(content, lang, { noColor: true })}
                         <SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
                       </div>
@@ -2764,7 +2764,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           return <div style={{...bubbleStyle,marginBottom:14}}>
             <div style={glossArc}/>
             <div style={{position:"relative",zIndex:2}}>
-              <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
+              <div className="trg-text" style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.5,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
                 {universalHl(ex, lang, { noColor: true })}
                 <SpeakerButton text={ex} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/>
               </div>
@@ -2907,7 +2907,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 </div>;
               }
               // Standard purple-bar note card
-              return <div style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px"}}>
+              return <div className="meta-text" style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px"}}>
               {noteLines.map((line,li)=>{
                 if(!line.trim()) return <div key={li} style={{height:6}}/>;
                 if(line.startsWith("⚠️")) return <div key={li} style={{background:dk?"rgba(245,166,35,0.1)":"rgba(245,166,35,0.06)",borderRadius:10,padding:"8px 12px",margin:"4px 0",display:"flex",gap:8,alignItems:"flex-start"}}><AppIcon name="lightbulb" size={16}/><span style={{fontSize:14,color:"var(--gray-700)",fontWeight:600,lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif"}}>{noteHl(line.slice(2).trim())}</span></div>;
@@ -3138,7 +3138,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       {wordBubble&&<WordBubble entry={wordBubble.entry} word={wordBubble.word} stem={wordBubble.stem} particle={wordBubble.particle} onClose={()=>setWordBubble(null)}/>}
       {MiniWordPopup}
       <ProgressBar/>
-      <div style={{maxWidth:480,margin:"0 auto"}}>
+      <div className="trg-text" style={{maxWidth:480,margin:"0 auto"}}>
 
         {/* Header */}
         <div style={{background:"linear-gradient(135deg, #7B5EE8, #6B4FCC)",borderRadius:"20px 20px 0 0",padding:"18px 24px",textAlign:"center"}}>
@@ -3182,7 +3182,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           })}
 
           {/* Summary note */}
-          {st.note&&<div style={{borderTop:"1.5px solid rgba(123,94,232,0.1)",padding:"14px 20px",background:"rgba(46,205,167,0.04)"}}>
+          {st.note&&<div className="meta-text" style={{borderTop:"1.5px solid rgba(123,94,232,0.1)",padding:"14px 20px",background:"rgba(46,205,167,0.04)"}}>
             <div style={{fontSize:14,color:"var(--gray-600)",lineHeight:1.6,textAlign:"center"}}>{st.note.split(/\\n|\n/).map((line,i)=>{
               const isBold=/^\d|^Only|^Same|^Just|^That|^Compare/.test(line.trim());
               return <div key={i} style={{fontWeight:isBold?700:400,color:isBold?"var(--gray-700)":"var(--gray-500)",marginTop:i>0&&!line.trim()?6:0}}>{line||"\u00A0"}</div>;
@@ -3191,7 +3191,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         </div>
 
         {/* DeepDive */}
-        {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div style={{marginTop:16}}>
+        {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div className="meta-text" style={{marginTop:16}}>
           <button onClick={()=>setShowDeepDive(!showDeepDive)} style={{background:"none",border:"none",cursor:"pointer",padding:"12px 0",width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",fontSize:14,fontWeight:700,color:"var(--purple-accent-text)",fontFamily:"'Nunito','system-ui',sans-serif"}}>
             <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/> {dd.title}</span>
             <span style={{fontSize:18,transition:"transform .2s",transform:showDeepDive?"rotate(180deg)":"rotate(0)"}}>⌄</span>
@@ -3252,7 +3252,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:8,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif",display:"flex",alignItems:"center",gap:6}}><AppIcon name="lightbulb" size={18}/>{t("le_good_to_know",baseLang)}</div>
             {st.title&&<h3 style={{fontSize:19,fontWeight:800,color:"var(--gray-800)",fontFamily:"'Quicksand','system-ui',sans-serif",margin:0,lineHeight:1.35,letterSpacing:"-0.3px"}}>{st.title.replace(/^[\u{1F300}-\u{1F9FF}\u{2600}-\u{27BF}\u{1FA00}-\u{1FA9F}]\s*/u,"")}</h3>}
           </div>
-          <div style={{padding:"0 24px 22px"}}>
+          <div className="meta-text" style={{padding:"0 24px 22px"}}>
             {/* Conjugation grid — when rows[] is present */}
             {st.rows&&<div style={{marginBottom:st.text?14:0}}>
               {st.rows.map((r,ri)=>{
@@ -3359,7 +3359,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return <div key={i2} style={{fontSize:14,color:"var(--gray-800)",fontWeight:isHeader?700:500,lineHeight:1.65,marginTop:isHeader?10:0,padding:"2px 0",fontFamily:"'Nunito','system-ui',sans-serif"}}>{hl(line)}</div>;
             });})()}
           </div>
-          {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div style={{borderTop:"1.5px solid rgba(123,94,232,0.12)",padding:"0 24px 4px"}}>
+          {st.deepDive&&(()=>{const dd=typeof st.deepDive==="string"?{title:"Deep Dive",text:st.deepDive}:st.deepDive;return <div className="meta-text" style={{borderTop:"1.5px solid rgba(123,94,232,0.12)",padding:"0 24px 4px"}}>
             <button onClick={()=>setShowDeepDive(!showDeepDive)} style={{background:"none",border:"none",cursor:"pointer",padding:"14px 0",width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",fontSize:14,fontWeight:700,color:"var(--purple-accent-text)",fontFamily:"'Nunito','system-ui',sans-serif"}}>
               <span><AppIcon name="lightbulb" size={16} style={{marginRight:6}}/>  {dd.title}</span>
               <span style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontSize:18,transition:"transform .2s",transform:showDeepDive?"rotate(180deg)":"rotate(0)"}}>⌄</span></span>
@@ -3430,7 +3430,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.01),transparent)":"linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.1),transparent)",pointerEvents:"none",zIndex:1}}/>
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_choose_correct",baseLang)}</div>
-          {(()=>{const{korean:mcKo,english:mcEnRaw}=splitKoEn(st.q||"");const mcEn=mcEnRaw||st.qSrc||st.qEn||null;return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
+          {(()=>{const{korean:mcKo,english:mcEnRaw}=splitKoEn(st.q||"");const mcEn=mcEnRaw||st.qSrc||st.qEn||null;return<><div className="trg-text-center" style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {universalHl(mcKo, lang)}
           </div>{renderEnglishBelow(mcEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>{tk("tk_hint_button",baseLang)}</button></div>}
@@ -3545,7 +3545,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{color:isNlEn?"#7B5EE8":"var(--teal-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:12,fontWeight:800}}>{t("le_translate_to",baseLang)} {isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}</div>
           <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:8}}>
             <span style={{fontSize:11,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>{isNlEn?(LANGUAGES.find(l=>l.code===lang)?.native||lang):(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English")}</span>
-            <span style={{fontSize:22,fontWeight:700,fontFamily:"'Quicksand','system-ui',sans-serif",color:"var(--gray-800)"}}>{trS}</span>
+            <span className={isNlEn?"trg-inline":""} style={{fontSize:22,fontWeight:700,fontFamily:"'Quicksand','system-ui',sans-serif",color:"var(--gray-800)"}}>{trS}</span>
           </div>
         </div>
         {/* Input area — premium card */}
@@ -3554,7 +3554,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             {isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}
           </div>
           <div style={{display:"flex",gap:10,alignItems:"stretch"}}>
-            <input className="chat-input" value={inputVal} onChange={e=>setInputVal(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!answered&&inputVal.trim())checkAns();}} placeholder={`${t("le_type_in",baseLang)} ${isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}...`} disabled={answered} autoFocus/>
+            <input className={`chat-input${!isNlEn?" trg-input":""}`} value={inputVal} onChange={e=>setInputVal(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!answered&&inputVal.trim())checkAns();}} placeholder={`${t("le_type_in",baseLang)} ${isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}...`} disabled={answered} autoFocus/>
             <button className="btn" style={{fontSize:15,padding:"14px 24px",borderRadius:16,background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:800,border:"none",cursor:answered||!inputVal.trim()?"default":"pointer",opacity:answered||!inputVal.trim()?0.5:1,boxShadow:"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)",transition:"all .15s",position:"relative",overflow:"hidden",letterSpacing:0.3}} disabled={answered||!inputVal.trim()} onClick={checkAns} onMouseEnter={e=>{if(!answered&&inputVal.trim())e.currentTarget.style.transform="scale(1.05)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>
               <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",pointerEvents:"none"}}/>
               <span style={{position:"relative",zIndex:1}}>Check</span>
@@ -3598,7 +3598,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.01),transparent)":"linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.1),transparent)",pointerEvents:"none",zIndex:1}}/>
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
-          {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));const fbTrans=fbEn||st.sSrc||st.sEn||null;return<><div style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
+          {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));const fbTrans=fbEn||st.sSrc||st.sEn||null;return<><div className="trg-text-center" style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{universalHl(part, lang)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
           </div>{renderEnglishBelow(fbTrans,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>{tk("tk_hint_button",baseLang)}</button></div>}
@@ -3774,7 +3774,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         {/* Sentence card with slots */}
         <div style={{background:"var(--card-bg)",borderRadius:20,border:"2px solid rgba(255,255,255,0.45)",borderLeft:"4px solid var(--purple-accent)",padding:"22px 26px",marginBottom:18,textAlign:"center",...glass}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2,marginBottom:12,fontWeight:700}}>{t("le_fill_blanks",baseLang)}</div>
-          <div style={{fontSize:19,fontWeight:700,lineHeight:2.2,fontFamily:"'Quicksand','system-ui',sans-serif",color:"var(--gray-800)"}}>
+          <div className="trg-text-center" style={{fontSize:19,fontWeight:700,lineHeight:2.2,fontFamily:"'Quicksand','system-ui',sans-serif",color:"var(--gray-800)"}}>
             {sentParts.map((part,i)=>{
               if(i%2===1){
                 const slotKey=part;

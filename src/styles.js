@@ -1162,4 +1162,11 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 [dir="rtl"] .sp-body { text-align: right; }
 [dir="rtl"] input, [dir="rtl"] textarea { text-align: right; }
 [dir="rtl"] .sf-panel { text-align: right; }
+
+/* ── Target-language (LTR) text inside RTL pages ── */
+[dir="rtl"] .trg-text { direction: ltr; text-align: left; unicode-bidi: isolate; }
+[dir="rtl"] .trg-text-center { direction: ltr; text-align: center; unicode-bidi: isolate; }
+[dir="rtl"] .trg-inline { direction: ltr; unicode-bidi: isolate; display: inline; }
+[dir="rtl"] .meta-text { direction: ltr; text-align: left; unicode-bidi: isolate; }
+[dir="rtl"] input.trg-input, [dir="rtl"] textarea.trg-input { text-align: left; direction: ltr; }
 `;

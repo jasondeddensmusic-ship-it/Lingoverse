@@ -86,7 +86,7 @@ function LearnPage({lang,baseLang="en",user,setUser,addXp,learnWord,showToast,ad
       onContinue={nextUnitLesson?()=>{completeLesson(selUnit,selLesson);setSelLesson(nextUnitLesson);}:null}
     /></LessonErrorBoundary>;
   }
-  if(view==="lesson"&&selUnit) return <LessonList unit={selUnit} user={user} lang={lang} onBack={()=>{setView("map");setSelUnit(null);}} onStart={ls=>{setSelLesson(ls);setView("exercise");}}/>;
+  if(view==="lesson"&&selUnit) return <LessonList unit={selUnit} user={user} lang={lang} baseLang={baseLang} onBack={()=>{setView("map");setSelUnit(null);}} onStart={ls=>{setSelLesson(ls);setView("exercise");}}/>;
 
   return(
     <>
@@ -277,7 +277,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           <div style={{display:"flex",flexDirection:"column",gap:6}}>
             {units.map(u=><div key={u.n} style={{padding:"10px 14px",borderRadius:12,background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.05)",border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)",display:"flex",alignItems:"center",gap:10}}>
               <span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)"}}>{u.level}</span>
-              <span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600}}>{t("map_unit_prefix",baseLang)} {u.n}: {u.title}</span>
+              <span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600}}>{t("map_unit_prefix",baseLang)} {u.n}: <span className="trg-inline">{u.title}</span></span>
               <span style={{fontSize:11,color:"var(--gray-400)",marginLeft:"auto"}}>{u.lessons.length} {t("map_lessons",baseLang)}</span>
             </div>)}
             {units.length===0&&<div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic",textAlign:"center",padding:16}}>{t("map_content_dev",baseLang)}</div>}
@@ -322,7 +322,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                   <span style={{position:"relative",zIndex:1,textShadow:"0 1px 3px rgba(0,0,0,0.25)",filter:"drop-shadow(0 1px 2px rgba(0,0,0,0.15))"}}>{done?"✓":`U${u.n}`}</span>
                 </div>
                 <div style={{textAlign:"center",position:"relative",zIndex:2}}>
-                  <div className="hd" style={{fontSize:12,fontWeight:700,color:available?(dk?"rgba(220,215,240,0.9)":"var(--gray-700)"):"var(--gray-400)",lineHeight:1.3}}>{u.title}</div>
+                  <div className="hd trg-text-center" style={{fontSize:12,fontWeight:700,color:available?(dk?"rgba(220,215,240,0.9)":"var(--gray-700)"):"var(--gray-400)",lineHeight:1.3}}>{u.title}</div>
                   <span style={{display:"inline-block",padding:"2px 8px",borderRadius:6,marginTop:3,background:dk?"rgba(123,94,232,0.15)":"rgba(123,94,232,0.08)",color:"var(--purple-accent-text)",fontSize:9,fontWeight:800,letterSpacing:0.3}}>{u.level}</span>
                 </div>
                 {available&&pctVal>0&&<div style={{width:"80%",position:"relative",zIndex:2}}>
@@ -605,7 +605,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"44%",borderRadius:"0 0 48% 48%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 55%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
         <div style={{width:56,height:56,borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,position:"relative",zIndex:2,boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)"}}><CountryFlag code={lang} size={34}/></div>
         <div style={{flex:1,position:"relative",zIndex:2}}>
-          <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)"}}>{L?.native||"Course"}</h1>
+          <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)"}}><span className="trg-inline">{L?.native||"Course"}</span></h1>
           <p style={{color:"rgba(255,255,255,0.75)",fontSize:13}}>{langUnits.length} units · {tl} lessons{op>0?` · ${op}%`:""}</p>
           {op>0&&<div style={{marginTop:8,height:5,borderRadius:3,background:"rgba(255,255,255,0.15)",overflow:"hidden",boxShadow:"inset 0 1px 2px rgba(0,0,0,0.15)"}}>
             <div style={{height:"100%",width:`${op}%`,background:"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(255,255,255,0.4)",position:"relative",overflow:"hidden"}}><div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"50%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.6) 0%, transparent 100%)",pointerEvents:"none"}}/></div>
@@ -618,7 +618,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"38%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
         <div style={{width:56,height:56,borderRadius:16,background:dk?"rgba(123,94,232,0.2)":"rgba(123,94,232,0.08)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,position:"relative",zIndex:2}}><CountryFlag code={lang} size={34}/></div>
         <div style={{flex:1,position:"relative",zIndex:2}}>
-          <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2}}>{L?.native||"Course"}</h1>
+          <h1 className="hd" style={{fontSize:26,fontWeight:800,marginBottom:2}}><span className="trg-inline">{L?.native||"Course"}</span></h1>
           <p style={{color:"var(--gray-500)",fontSize:13}}>{langUnits.length} units · {tl} lessons{op>0?` · ${op}%`:""}</p>
           {op>0&&<div style={{marginTop:8,height:5,borderRadius:3,background:"rgba(123,94,232,0.08)",overflow:"hidden"}}>
             <div style={{height:"100%",width:`${op}%`,background:"linear-gradient(180deg, #C0AEFA 0%, #7B5EE8 55%, #5840B8 100%)",borderRadius:3,transition:"width 0.3s",boxShadow:"0 0 8px rgba(123,94,232,0.3)",position:"relative",overflow:"hidden"}}><div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"45%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 100%)",pointerEvents:"none"}}/></div>
@@ -785,7 +785,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               </div>
               <div style={{flex:1}}>
                 <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:2}}>
-                  <span className="hd" style={{fontWeight:800,fontSize:16,color:available?"var(--gray-800)":"var(--gray-400)"}}>{t("map_unit_prefix",baseLang)} {u.n}: {u.title}</span>
+                  <span className="hd" style={{fontWeight:800,fontSize:16,color:available?"var(--gray-800)":"var(--gray-400)"}}>{t("map_unit_prefix",baseLang)} {u.n}: <span className="trg-inline">{u.title}</span></span>
                   <span className="badge" style={{background:getCefrBandColor(getCefrInfo(u.level).band)+"18",color:getCefrBandColor(getCefrInfo(u.level).band),fontSize:10}}>{u.level}</span>
                 </div>
                 <p style={{color:"var(--gray-400)",fontSize:13}}>{u.sub}{up&&up.pct>0?` · ${up.pct}%`:""}</p>
@@ -1181,7 +1181,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
                   <span style={{position:"relative",zIndex:1,textShadow:"0 1px 3px rgba(0,0,0,0.25)"}}>{done?"✓":i+1}</span>
                 </div>
                 <div style={{textAlign:"center",position:"relative",zIndex:2}}>
-                  <div className="hd" style={{fontWeight:700,fontSize:12,lineHeight:1.3,color:dk?"rgba(220,215,240,0.9)":"var(--gray-700)"}}>{ls.title}</div>
+                  <div className="hd trg-text-center" style={{fontWeight:700,fontSize:12,lineHeight:1.3,color:dk?"rgba(220,215,240,0.9)":"var(--gray-700)"}}>{ls.title}</div>
                   <div style={{color:dk?"rgba(180,170,220,0.6)":"var(--gray-400)",fontSize:10,marginTop:2}}>{(ls.steps||[]).length} steps · +{ls.xp} XP{done?" ✓":""}</div>
                 </div>
               </div>
@@ -1260,7 +1260,7 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
 }
 
 // ── LESSON LIST (inside a unit) ──
-function LessonList({unit,user,lang,onBack,onStart}){
+function LessonList({unit,user,lang,baseLang,onBack,onStart}){
   const dk=document.documentElement.classList.contains("dark");
   const [whyOpen,setWhyOpen]=useState(false);
   const [showUnitPopup,setShowUnitPopup]=useState(false);
@@ -1292,7 +1292,7 @@ function LessonList({unit,user,lang,onBack,onStart}){
           </div>
           <div style={{flex:1}}>
             <div style={{display:"flex",alignItems:"center",gap:8,flexWrap:"wrap"}}>
-              <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{t("map_unit_prefix",baseLang)} {unit.n}: {unit.title}</h2>
+              <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{t("map_unit_prefix",baseLang)} {unit.n}: <span className="trg-inline">{unit.title}</span></h2>
               {(()=>{const fw=LANG_FRAMEWORK[unit.lang]||"CEFR";const info=getCefrInfo(unit.level);return <span style={{padding:"2px 8px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:9,fontWeight:700}}>{unit.level} • {info.label}</span>;})()}
             </div>
             <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,marginTop:2,margin:0}}>{unit.sub} · {unit.lessons.length} lessons{unitProg?` · ${unitProg.pct}%`:""}</p>
@@ -1306,7 +1306,7 @@ function LessonList({unit,user,lang,onBack,onStart}){
       </div>
 
       {/* Unit info popup */}
-      {showUnitPopup&&<GlossyPopup title={`${t("map_unit_prefix",baseLang)} ${unit.n}: ${unit.title}`} onClose={()=>setShowUnitPopup(false)}>
+      {showUnitPopup&&<GlossyPopup title={<span>{t("map_unit_prefix",baseLang)} {unit.n}: <span className="trg-inline">{unit.title}</span></span>} onClose={()=>setShowUnitPopup(false)}>
         <div style={{fontSize:13,color:"var(--gray-600)",lineHeight:1.6,marginBottom:14}}>{unit.sub}</div>
         {unit.goals&&unit.goals.length>0&&<div style={{marginBottom:14}}>
           <div style={{fontSize:12,fontWeight:700,color:"var(--gray-500)",marginBottom:8}}>What you'll learn:</div>
@@ -1372,7 +1372,7 @@ function LessonList({unit,user,lang,onBack,onStart}){
               <span style={{position:"relative",zIndex:1,textShadow:"0 1px 3px rgba(0,0,0,0.25)",filter:"drop-shadow(0 1px 2px rgba(0,0,0,0.15))"}}>{lessonDone?"✓":`L${i+1}`}</span>
             </div>
             <div style={{textAlign:"center",position:"relative",zIndex:2}}>
-              <div className="hd" style={{fontWeight:700,fontSize:12,lineHeight:1.3,color:dk?"rgba(220,215,240,0.9)":"var(--gray-700)"}}>{ls.title}</div>
+              <div className="hd trg-text-center" style={{fontWeight:700,fontSize:12,lineHeight:1.3,color:dk?"rgba(220,215,240,0.9)":"var(--gray-700)"}}>{ls.title}</div>
               <div style={{color:dk?"rgba(180,170,220,0.6)":"var(--gray-400)",fontSize:10,marginTop:2}}>{(ls.steps||[]).length} steps · +{ls.xp} XP{lessonDone?" ✓":""}</div>
             </div>
           </div>);
