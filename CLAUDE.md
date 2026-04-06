@@ -270,7 +270,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (new) | 36 | 369 | 9,396 | 5,147 | **PERFECT.** All validations PASS: PP8, PP43, PP48, PP52, PP59, PP61. |
-| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | A1+A2 translated. B1 12/12. B2 12/12. **All 36 units translated.** Grammar (58), idioms (125), CEFR vocab (4,199/4,699). |
+| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | **COMPLETE.** All 36 units translated. Grammar (58), idioms (125), CEFR vocab (4,699/4,699). VocabularyPage WORD_DB translations not yet Arabic. |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -311,6 +311,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Arabic grammar module** (2026-04-06): `src/data/grammar/german-ar.js` (58 entries, 2,205 lines). MSA explanations with Arabic-German contrastive hooks. GrammarPage auto-selects when baseLang=ar.
 - **Arabic idioms** (2026-04-06): srcAr/litAr/noteAr added to all 125 entries in idioms-german.js. Arabic proverb equivalents bridged. IdiomsPage wired for baseLang=ar.
 - **Arabic CEFR vocab** (2026-04-06): trAr field on 4,199 of 4,699 entries (A1: 677, A2: 723/1,223, B1: 2,799). CefrReferencePage wired with baseLang + RTL. 500 A2 entries remain.
+- **i18n + RTL polish** (2026-04-07): 50+ UI strings localized for Arabic (LearnPage, CefrReferencePage, IdiomsPage, GrammarPage, Profile). RTL isolation via CSS utility classes (trg-text, trg-inline, meta-text) — German punctuation displays correctly in RTL pages. 24 unit subtitles translated. Tip/deepDive noColor readability fix.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -320,7 +321,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 5. ~~B2 content not validated~~ — **RESOLVED.** PP8 (205+ fixes), PP52 (5 fixes), PP48 all PASS.
 6. ~~pos/gender fields missing~~ — **RESOLVED.** All 5,147 teach cards tagged (PP59 PASS).
 7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-8. ~~Arabic translation~~ — **RESOLVED.** All 36 units translated (A1+A2+B1+B2). Grammar (58), idioms (125), CEFR vocab (4,199/4,699). 500 A2 CEFR entries remain.
+8. ~~Arabic translation~~ — **RESOLVED.** All 36 units translated (A1+A2+B1+B2). Grammar (58 entries), idioms (125 entries), CEFR vocab (4,699/4,699). i18n + RTL polish complete (50+ strings, CSS utility classes). VocabularyPage WORD_DB word-meaning translations not yet Arabic — tracked as item 24.
 9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage.
 10. ~~Dictionary: unknown word fallback~~ — **RESOLVED.** Unknown words now tappable with subtle style + "Not yet catalogued" popup.
 11. ~~Dictionary: proper noun detection~~ — **RESOLVED.** Capitalization heuristic detects names. Warm grey + "PROPER NOUN" badge.
@@ -336,6 +337,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 21. ~~`verumlingua.jsx` is dead code~~ — **RESOLVED.** Deleted (6,010 lines). `App.jsx` is the real entry.
 22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
 23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
+24. **VocabularyPage WORD_DB** — Word meanings/definitions in `dictionary.js` are English only. Arabic source users see English definitions in the word popup. Scope: translate WORD_DB entry `meanings` + `note` fields to Arabic, or add `meaningsAr`/`noteAr` parallel fields.
 
 ---
 
@@ -367,9 +369,10 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 
 ### Phase 2: Arabic Finishing Touches
 11. ~~**Arabic B1+B2 translation**~~ — **DONE.** All 36 units translated. Zero content [AR] markers.
-12. **CEFR A2 gap** — 500 entries in A2-chunk-2 still need trAr. 1 Sonnet agent + apply script.
-13. **LessonEngine RTL polish** — Apply `srcDir` to all source-text containers.
-14. **Arabic UI localization** — ~180 hardcoded strings need `t()` routing.
+12. ~~**CEFR A2 gap**~~ — **DONE.** All 4,699 CEFR entries have trAr. Complete.
+13. ~~**Arabic UI localization**~~ — **DONE.** 50+ strings localized. RTL CSS utility classes in place.
+14. **WORD_DB Arabic translations** — Word meanings in `dictionary.js` are English only. Scope: add `meaningsAr`/`noteAr` fields or translate existing fields. Affects VocabularyPage word popups for Arabic source users.
+15. **Arabic Foundations text** — Scope not yet defined. Foundations mode ("coming soon") has no Arabic content.
 
 ### Phase 3: Navigation + Flow Redesign
 14. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
