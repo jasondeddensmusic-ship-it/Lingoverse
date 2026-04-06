@@ -77,7 +77,7 @@
 ## Remaining work to finish Arabic source language
 1. **A2-chunk-2** (500 CEFR entries) — 1 Sonnet agent + apply script. ~10 min.
 2. **Batch F scoping** — Decide if German foundations text needs Arabic, or if this is N/A.
-3. **PR creation** — Branch has 3 commits ready to merge.
 
 ## PR
-Not yet created. Branch: `claude/awesome-franklin` with 3 commits.
+https://github.com/jasondeddensmusic-ship-it/Lingoverse/pull/107
+Branch: `claude/awesome-franklin` — 4 commits, pushed to remote.
