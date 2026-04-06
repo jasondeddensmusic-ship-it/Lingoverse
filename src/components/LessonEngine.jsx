@@ -657,21 +657,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         </button>
         <span className="hd" style={{fontSize:13,fontWeight:700,color:"var(--gray-400)"}}>{renderNavTitle(lesson.icon,lesson.title,13)}</span>
         <div style={{display:"flex",alignItems:"center",gap:8}}>
-          {/* Story mode toggle — only show if lesson has story cards */}
-          {hasStoryCards&&<button onClick={()=>setStoryMode(!storyMode)} title={storyMode?t("le_story_on",baseLang):t("le_story_off",baseLang)} style={{
-            width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
-            display:"flex",alignItems:"center",justifyContent:"center",
-            fontSize:16,transition:"all .15s",
-            background:storyMode
-              ?(dk?"linear-gradient(180deg,rgba(46,205,167,0.25),rgba(30,160,130,0.2))":"linear-gradient(180deg,rgba(230,255,248,0.95),rgba(200,245,235,0.9))")
-              :(dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)"),
-            boxShadow:storyMode
-              ?(dk?"0 0 8px rgba(46,205,167,0.3),inset 0 1px 0 rgba(255,255,255,0.1)":"0 2px 8px rgba(46,205,167,0.15),inset 0 1px 0 rgba(255,255,255,0.9)")
-              :"none",
-            color:storyMode?(dk?"#5EDDB5":"#1A9A7A"):(dk?"rgba(255,255,255,0.3)":"var(--gray-300)"),
-          }} onMouseEnter={e=>{e.currentTarget.style.transform="scale(1.1)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>
-            <svg width={16} height={16} viewBox="0 0 24 24" fill="none"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/></svg>
-          </button>}
+          {/* Story mode toggle — HIDDEN (post-launch feature) */}
           {/* Grammar colorizer toggle */}
           <button onClick={()=>setGrammarHl(!grammarHl)} title={grammarHl?t("le_grammar_on",baseLang):t("le_grammar_off",baseLang)} style={{
             width:32,height:32,borderRadius:10,border:"none",cursor:"pointer",
@@ -1780,7 +1766,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       if (!isTarget) {
         // Non-target (English, punctuation)
         // When grammar toggle ON: English translations turn PURPLE
-        if (grammarHl && cleanWord && !/^[\s.,!?;:'"()\-]+$/.test(cleanWord)) {
+        if (grammarHl && !opts.noColor && cleanWord && !/^[\s.,!?;:'"()\-]+$/.test(cleanWord)) {
           spans.push(<span key={i} style={{color:dk?"#A890FF":"#7B5EE8",fontWeight:600}}>{raw}</span>);
         } else {
           spans.push(<span key={i}>{raw}</span>);
