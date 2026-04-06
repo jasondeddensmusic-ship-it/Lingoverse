@@ -75,12 +75,19 @@
 1. **WORD_DB Arabic translations** — VocabularyPage word meanings are English-only. Requires adding `ar` field to ~2,132 WORD_DB entries in `dictionary.js`
 2. **Foundations text scoping** — Decide if German foundations need Arabic translation or if this is N/A
 
-### Phase 1.5A (next priorities from CLAUDE.md)
-3. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors
-4. **Flashcards German v2** — Verify `VOCAB[lang]` maps correctly to German v2 `trg/src` data
-5. **Idioms page search/filter** — 45 entries with no way to filter by level or search
-6. **"Continue Learning" on home** — Returning users need resume prompt
-7. **German Foundations** — "Coming soon" placeholder needs at least alphabet/basics content
+### Phase 1.5A — ALREADY DONE (session 2026-04-05)
+Verb tables, Flashcards v2, Idioms redesign (125 entries), Continue Learning card, German Foundations — all completed in prior session.
+
+### Plumbing fixes (from 2026-04-05 handoff, status unknown)
+3. **Profile vocab progress** — May still use old static VOCAB[lang] (200 words) instead of buildUnitsVocab (5,147)
+4. **Chat/Verumius health check** — Cloudflare Worker endpoint may be dead
+5. **Quiz German v2 compatibility** — Needs verification
+
+### Next phases
+6. **Phase 2: Arabic B1+B2** — DONE (completed in prior sessions)
+7. **Phase 3: Navigation + Flow Redesign** — Home screen, smooth transitions
+8. **Phase 4: Audio/TTS** — Google Cloud TTS integration
+9. **Phase 5: V1-to-V2 upgrades** — Korean, Dutch, French, Spanish
 
 ## PR
 Branch: `claude/crazy-beaver` — 5 commits, pushed to remote.
