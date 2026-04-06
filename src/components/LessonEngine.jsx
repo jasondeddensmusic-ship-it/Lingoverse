@@ -2148,8 +2148,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         {/* Card — matches teach card style: white bg, left accent, clean layout */}
         <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.55)",borderLeft:"4px solid #7B5EE8",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.3)":"0 4px 20px rgba(0,0,0,0.05)",overflow:"hidden",marginBottom:16}}>
           {/* Header strip */}
-          <div style={{background:"linear-gradient(135deg, rgba(123,94,232,0.06), rgba(46,205,167,0.04))",padding:"14px 20px 12px",display:"flex",alignItems:"center",gap:10}}>
-            <span style={{fontSize:22}}>{"🧠"}</span>
+          <div style={{background:"linear-gradient(135deg, rgba(123,94,232,0.06), rgba(123,94,232,0.03))",padding:"14px 20px 12px",display:"flex",alignItems:"center",gap:10}}>
+            <div style={{width:32,height:32,borderRadius:10,background:"linear-gradient(135deg, #C0AEF8, #7B5EE8)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0 2px 8px rgba(123,94,232,0.3), inset 0 1px 0 rgba(255,255,255,0.3)"}}><span style={{fontSize:15,color:"white",fontWeight:900}}>✦</span></div>
             <div>
               <div style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"#7B5EE8"}}>{t("breather_title",baseLang)}</div>
               <div style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{st.totalLearned} {t("prof_words_learned",baseLang).toLowerCase()} {t("le_so_far",baseLang)||"so far"}</div>
@@ -2163,7 +2163,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   {/* Gloss arc */}
                   <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"50%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 100%)",pointerEvents:"none"}}/>
                   <div className="trg-text" style={{fontSize:15,fontWeight:800,color:"var(--gray-800)",position:"relative",zIndex:1}}>{w.trg}</div>
-                  <div style={{fontSize:11,color:"var(--teal-dark)",fontWeight:600,position:"relative",zIndex:1,...srcDir}}>{w.src}</div>
+                  <div style={{fontSize:11,color:"rgba(123,94,232,0.6)",fontWeight:600,position:"relative",zIndex:1,...srcDir}}>{w.src}</div>
                 </div>
               ))}
             </div>
