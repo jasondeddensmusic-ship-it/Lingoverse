@@ -150,7 +150,7 @@ function IdiomsPage({lang,baseLang="en"}){
                   color:dk?"rgba(220,210,255,0.85)":"#2D2455",
                   fontFamily:"'Nunito','system-ui',sans-serif",
                 }}>
-                  {id.src}
+                  {baseLang==="ar"&&id.srcAr?id.srcAr:id.src}
                 </div>
 
                 {/* Expand indicator */}
@@ -172,7 +172,7 @@ function IdiomsPage({lang,baseLang="en"}){
                     Word for word
                   </div>
                   <div style={{fontSize:16,fontWeight:700,fontStyle:"italic",color:dk?"rgba(255,255,255,0.9)":"#1E1840",fontFamily:"'Nunito','system-ui',sans-serif",lineHeight:1.5}}>
-                    {id.lit}
+                    {baseLang==="ar"&&id.litAr?id.litAr:id.lit}
                   </div>
                 </div>
 
@@ -186,7 +186,7 @@ function IdiomsPage({lang,baseLang="en"}){
                     color:dk?"rgba(255,255,255,0.9)":"#1E1840",
                     fontFamily:"'Nunito','system-ui',sans-serif",
                   }}>
-                    {id.note.split(/\.\s+/).map((sentence,si,arr)=>(
+                    {(baseLang==="ar"&&id.noteAr?id.noteAr:id.note).split(/\.\s+/).map((sentence,si,arr)=>(
                       <span key={si}>{sentence}{si<arr.length-1?". ":""}</span>
                     ))}
                   </div>
