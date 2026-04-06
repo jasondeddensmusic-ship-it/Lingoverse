@@ -63,18 +63,18 @@ function CefrReferencePage({lang, baseLang="en", user}){
     <div className="anim" style={{textAlign:"center",padding:"60px 20px"}}>
       <div style={{fontSize:48,marginBottom:16}}>{"📚"}</div>
       <h2 className="hd" style={{fontSize:22,fontWeight:800,color:"var(--gray-800)",marginBottom:8,fontFamily:"'Quicksand',sans-serif"}}>CEFR Reference</h2>
-      <p style={{color:"var(--gray-500)",fontSize:14,fontFamily:"'Nunito',sans-serif"}}>No CEFR reference data loaded for this language yet.</p>
+      <p style={{color:"var(--gray-500)",fontSize:14,fontFamily:"'Nunito',sans-serif"}}>{t("cefr_no_data",baseLang)}</p>
       <p style={{color:"var(--gray-400)",fontSize:13,fontFamily:"'Nunito',sans-serif",marginTop:8}}>Available: {Object.keys(CEFR_REFS).map(k=>({de:"German",ko:"Korean",nl:"Dutch",fr:"French",es:"Spanish"}[k]||k)).join(", ")}</p>
     </div>
   );
 
   const levels=["ALL","A1","A2","B1","B2"];
   const tabs=[
-    {id:"vocab",label:"Vocabulary",icon:"📖",count:ref.vocabulary?.length||0},
-    {id:"grammar",label:"Grammar",icon:"📐",count:Object.values(ref.grammar||{}).reduce((s,arr)=>s+(Array.isArray(arr)?arr.length:0),0)},
-    {id:"idioms",label:"Idioms & Phrases",icon:"💬",count:Object.values(ref.idioms||{}).reduce((s,arr)=>s+(Array.isArray(arr)?arr.length:0),0)},
-    {id:"particles",label:"Particles & Connectors",icon:"🔗"},
-    {id:"functions",label:"Communicative Functions",icon:"🗣️"},
+    {id:"vocab",label:t("cefr_vocabulary",baseLang),icon:"📖",count:ref.vocabulary?.length||0},
+    {id:"grammar",label:t("cefr_grammar_constructs",baseLang),icon:"📐",count:Object.values(ref.grammar||{}).reduce((s,arr)=>s+(Array.isArray(arr)?arr.length:0),0)},
+    {id:"idioms",label:t("cefr_idioms_phrases",baseLang),icon:"💬",count:Object.values(ref.idioms||{}).reduce((s,arr)=>s+(Array.isArray(arr)?arr.length:0),0)},
+    {id:"particles",label:t("cefr_particles",baseLang),icon:"🔗"},
+    {id:"functions",label:t("cefr_functions",baseLang),icon:"🗣️"},
   ];
 
   // POS categories for filter
@@ -87,12 +87,12 @@ function CefrReferencePage({lang, baseLang="en", user}){
     }
     // Group into main categories
     const groups=[
-      {id:"noun",label:"Nouns",match:["noun"],count:counts.noun||0},
-      {id:"verb",label:"Verbs",match:["verb","modal","aux"],count:(counts.verb||0)+(counts.modal||0)+(counts.aux||0)},
-      {id:"adj",label:"Adjectives",match:["adj","adjective"],count:(counts.adj||0)+(counts.adjective||0)},
-      {id:"adv",label:"Adverbs",match:["adv","adverb"],count:(counts.adv||0)+(counts.adverb||0)},
-      {id:"prep",label:"Prepositions",match:["prep","preposition"],count:(counts.prep||0)+(counts.preposition||0)},
-      {id:"other",label:"Other",match:["conj","conjunction","pron","pronoun","part","particle","intj","interjection","num","number","det","phrase","prefix","abbrev"],count:Object.entries(counts).filter(([k])=>!["noun","verb","modal","aux","adj","adjective","adv","adverb","prep","preposition"].includes(k)).reduce((s,[,v])=>s+v,0)},
+      {id:"noun",label:t("pos_nouns",baseLang),match:["noun"],count:counts.noun||0},
+      {id:"verb",label:t("pos_verbs",baseLang),match:["verb","modal","aux"],count:(counts.verb||0)+(counts.modal||0)+(counts.aux||0)},
+      {id:"adj",label:t("pos_adjectives",baseLang),match:["adj","adjective"],count:(counts.adj||0)+(counts.adjective||0)},
+      {id:"adv",label:t("pos_adverbs",baseLang),match:["adv","adverb"],count:(counts.adv||0)+(counts.adverb||0)},
+      {id:"prep",label:t("pos_prepositions",baseLang),match:["prep","preposition"],count:(counts.prep||0)+(counts.preposition||0)},
+      {id:"other",label:t("pos_other",baseLang),match:["conj","conjunction","pron","pronoun","part","particle","intj","interjection","num","number","det","phrase","prefix","abbrev"],count:Object.entries(counts).filter(([k])=>!["noun","verb","modal","aux","adj","adjective","adv","adverb","prep","preposition"].includes(k)).reduce((s,[,v])=>s+v,0)},
     ];
     return groups.filter(g=>g.count>0);
   },[ref.vocabulary]);
@@ -189,10 +189,10 @@ function CefrReferencePage({lang, baseLang="en", user}){
       {/* Header */}
       <div style={{textAlign:"center",padding:"16px 0 12px"}}>
         <h1 className="hd" style={{fontSize:24,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",marginBottom:4}}>
-          {ref.meta?.languageName||lang.toUpperCase()} CEFR Progress
+          {ref.meta?.languageName||lang.toUpperCase()} {t("cefr_title",baseLang)}
         </h1>
         <p style={{fontSize:12,color:"var(--gray-400)",fontFamily:"'Nunito',sans-serif"}}>
-          Official word lists: A1-B2
+          {t("cefr_official_lists",baseLang)}: A1-B2
         </p>
       </div>
 
@@ -202,7 +202,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
           {/* Big number line */}
           <div style={{display:"flex",alignItems:"baseline",justifyContent:"center",gap:6,marginBottom:12}}>
             <span style={{fontSize:32,fontWeight:900,fontFamily:"'Quicksand',sans-serif",color:dk?"#E8E0FF":"#5840B8",lineHeight:1}}>{progressStats.learned}</span>
-            <span style={{fontSize:14,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)"}}>/ {progressStats.total} words learned</span>
+            <span style={{fontSize:14,fontWeight:700,fontFamily:"'Nunito',sans-serif",color:dk?"rgba(200,184,255,0.45)":"rgba(100,80,160,0.4)"}}>/ {progressStats.total} {t("cefr_words_learned",baseLang)}</span>
           </div>
           {/* Compact level bars */}
           <div style={{display:"flex",flexDirection:"column",gap:6}}>
@@ -280,7 +280,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
           {/* Filter toggle pills */}
           {learnedSet.size > 0 && (
             <div style={{display:"flex",gap:6,marginBottom:12}}>
-              {[{id:"all",label:"All Words"},{id:"learning",label:"Still Learning"},{id:"learned",label:"Learned"}].map(fm=>{
+              {[{id:"all",label:t("cefr_all_words",baseLang)},{id:"learning",label:t("cefr_still_learning",baseLang)},{id:"learned",label:t("cefr_learned",baseLang)}].map(fm=>{
                 const active=filterMode===fm.id;
                 return(
                   <button key={fm.id} onClick={()=>setFilterMode(fm.id)} style={{
@@ -324,7 +324,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
           <div style={{display:"flex",gap:8,alignItems:"center",marginBottom:12}}>
             <input
               type="text" value={search} onChange={e=>setSearch(e.target.value)}
-              placeholder="Search words..."
+              placeholder={t("cefr_search_ph",baseLang)}
               style={{
                 flex:1,padding:"7px 12px",borderRadius:12,
                 border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",
@@ -337,12 +337,12 @@ function CefrReferencePage({lang, baseLang="en", user}){
 
           {/* Stats */}
           <div style={{fontSize:12,color:"var(--gray-500)",fontFamily:"'Nunito',sans-serif",marginBottom:10}}>
-            Showing {filteredVocab.length} of {ref.vocabulary?.length||0} words
+            {t("cefr_showing",baseLang)} {filteredVocab.length} {t("cefr_of",baseLang)} {ref.vocabulary?.length||0} {t("cefr_words",baseLang)}
             {learnedSet.size > 0 && progressStats && <span> ({progressStats.learned} learned)</span>}
           </div>
 
           {/* Word list — virtualized-ish: show first 200, load more on scroll */}
-          <VocabTable words={filteredVocab} dk={dk} lang={lang} rowStyle={rowStyle} LevelPill={LevelPill} posLabel={posLabel} genderLabel={genderLabel} genderColor={genderColor} GlossArc={GlossArc} isLearned={isLearned} hasProgress={learnedSet.size>0}/>
+          <VocabTable words={filteredVocab} dk={dk} lang={lang} baseLang={baseLang} rowStyle={rowStyle} LevelPill={LevelPill} posLabel={posLabel} genderLabel={genderLabel} genderColor={genderColor} GlossArc={GlossArc} isLearned={isLearned} hasProgress={learnedSet.size>0}/>
         </div>
       )}
 
@@ -564,7 +564,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
 }
 
 // Sub-component: vocabulary table with pagination
-function VocabTable({words,dk,lang,rowStyle,LevelPill,posLabel,genderLabel,genderColor,GlossArc,isLearned,hasProgress}){
+function VocabTable({words,dk,lang,baseLang="en",rowStyle,LevelPill,posLabel,genderLabel,genderColor,GlossArc,isLearned,hasProgress}){
   const dict = WORD_DB[lang] || {};
   // Look up English meaning from WORD_DB
   const getMeaning=(word)=>{
@@ -640,7 +640,7 @@ function VocabTable({words,dk,lang,rowStyle,LevelPill,posLabel,genderLabel,gende
 
       {words.length===0&&(
         <div style={{textAlign:"center",padding:"40px 20px",color:"var(--gray-400)",fontSize:14,fontFamily:"'Nunito',sans-serif"}}>
-          No words match your filters.
+          {t("cefr_no_match",baseLang)}
         </div>
       )}
     </div>

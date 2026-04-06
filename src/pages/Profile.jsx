@@ -57,8 +57,8 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
           <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"44%",borderRadius:"0 0 48% 48%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.06) 55%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
           <div style={{width:52,height:52,borderRadius:16,background:"rgba(255,255,255,0.15)",display:"flex",alignItems:"center",justifyContent:"center",color:"white",fontSize:18,fontWeight:900,position:"relative",zIndex:2,boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), 0 3px 10px rgba(0,0,0,0.15)"}}>{cefr.band}</div>
           <div style={{flex:1,position:"relative",zIndex:2}}>
-            <div style={{fontSize:14,fontWeight:700,color:"white",marginBottom:2,textShadow:"0 1px 3px rgba(0,0,0,0.2)"}}>CEFR Level: {cefr.level}</div>
-            <div style={{fontSize:12,color:"rgba(255,255,255,0.7)"}}>{cefr.label} • {cefr.desc}</div>
+            <div style={{fontSize:14,fontWeight:700,color:"white",marginBottom:2,textShadow:"0 1px 3px rgba(0,0,0,0.2)"}}>{t("prof_cefr_level",baseLang)+": "}{cefr.level}</div>
+            <div style={{fontSize:12,color:"rgba(255,255,255,0.7)"}}>{t({A1:"level_beginner",A2:"level_elementary",B1:"level_intermediate",B2:"level_upper_int",C1:"level_advanced",C2:"level_mastery"}[cefr.band]||"level_beginner",baseLang)} • {cefr.desc}</div>
           </div>
         </div>
       );})()}

@@ -226,7 +226,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
   });
 
   const allBands=["A1","A2","B1","B2","C1","C2"];
-  const bandLabels={A1:"Beginner",A2:"Elementary",B1:"Intermediate",B2:"Upper-Intermediate",C1:"Advanced",C2:"Mastery"};
+  const bandLabels={A1:t("level_beginner",baseLang),A2:t("level_elementary",baseLang),B1:t("level_intermediate",baseLang),B2:t("level_upper_int",baseLang),C1:t("level_advanced",baseLang),C2:t("level_mastery",baseLang)};
   const bandIcons={A1:<BrandIcon name="band-a1" size={32}/>,A2:<BrandIcon name="band-a2" size={32}/>,B1:<BrandIcon name="band-b1" size={32}/>,B2:<BrandIcon name="band-b2" size={32}/>,C1:<BrandIcon name="band-c1" size={32}/>,C2:<BrandIcon name="band-c2" size={32}/>};
 
   const getUnitProg=(u)=>prog.units?.[`${lang}:${u.n}`];
@@ -277,7 +277,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           <div style={{display:"flex",flexDirection:"column",gap:6}}>
             {units.map(u=><div key={u.n} style={{padding:"10px 14px",borderRadius:12,background:dk?"rgba(123,94,232,0.1)":"rgba(123,94,232,0.05)",border:dk?"1px solid rgba(123,94,232,0.12)":"1px solid rgba(123,94,232,0.06)",display:"flex",alignItems:"center",gap:10}}>
               <span style={{fontSize:12,fontWeight:800,color:"var(--purple-accent-text)"}}>{u.level}</span>
-              <span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600}}>Unit {u.n}: {u.title}</span>
+              <span style={{fontSize:13,color:"var(--gray-700)",fontWeight:600}}>{t("map_unit_prefix",baseLang)} {u.n}: {u.title}</span>
               <span style={{fontSize:11,color:"var(--gray-400)",marginLeft:"auto"}}>{u.lessons.length} {t("map_lessons",baseLang)}</span>
             </div>)}
             {units.length===0&&<div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic",textAlign:"center",padding:16}}>{t("map_content_dev",baseLang)}</div>}
@@ -660,7 +660,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
       {/* View toggle */}
       <div style={{display:"flex",alignItems:"center",marginBottom:16}}>
         <div style={{display:"inline-flex",background:dk?"rgba(40,38,65,0.6)":"rgba(0,0,0,0.04)",borderRadius:16,padding:4,gap:4}}>
-          {[["chapters","Chapters"],["all","All Units"]].map(([k,label])=>{
+          {[["chapters",t("map_chapters",baseLang)],["all",t("map_all_units",baseLang)]].map(([k,label])=>{
             const active=viewMode===k;
             return <button key={k} onClick={()=>setViewMode(k)} style={{padding:"9px 20px",borderRadius:13,fontSize:12,fontWeight:800,border:"none",cursor:"pointer",transition:"all 0.15s",letterSpacing:0.3,background:active?"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)":"transparent",color:active?"white":"var(--gray-400)",boxShadow:active?"0 3px 12px rgba(100,69,200,0.3), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)":"none",position:"relative",overflow:"hidden"}}>
               {active&&<span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"40%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.35) 0%, transparent 100%)",pointerEvents:"none"}}/>}
@@ -698,8 +698,8 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
           return <>
             {showLock&&<div style={{background:"linear-gradient(145deg,#FFF8F0,#FFF3E6)",border:"2px solid #FBBF2420",borderRadius:16,padding:"16px 20px",marginBottom:14,textAlign:"center"}}>
               <div style={{fontSize:24,marginBottom:6}}>🔒</div>
-              <div style={{fontSize:13,fontWeight:700,color:"#92400E",marginBottom:4}}>Complete Foundations to unlock units</div>
-              <div style={{fontSize:11,color:"#B45309",lineHeight:1.5}}>Play through the Foundations course or pass the Gate Quiz to unlock A1 and beyond.</div>
+              <div style={{fontSize:13,fontWeight:700,color:"#92400E",marginBottom:4}}>{t("map_unlock_foundations",baseLang)}</div>
+              <div style={{fontSize:11,color:"#B45309",lineHeight:1.5}}>{t("map_unlock_desc",baseLang)}</div>
               <div onClick={()=>{
                 setUser(u=>{
                   const p={...(u.progress||{}),foundationsUnlocked:{...((u.progress||{}).foundationsUnlocked||{})}};
@@ -707,7 +707,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                   return{...u,progress:p};
                 });
               }} style={{marginTop:10,fontSize:11,color:"#B45309",cursor:"pointer",textDecoration:"underline",opacity:0.7}}>
-                Unlock anyway →
+                {t("map_unlock_anyway",baseLang)} →
               </div>
             </div>}
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:14,position:"relative"}}>
@@ -746,7 +746,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                     <div style={{textAlign:"center",position:"relative",zIndex:2}}>
                       <div style={{fontSize:13,fontWeight:800,color:showLock?"var(--gray-400)":(dk?"rgba(220,215,240,0.9)":"var(--gray-700)"),lineHeight:1.2}}>{bandLabels[band]}</div>
                       {hasUnits?
-                        <div style={{fontSize:10,color:showLock?"var(--gray-400)":(dk?"rgba(180,170,220,0.8)":"var(--purple-accent-text)"),fontWeight:700,marginTop:2}}>{bp.done}/{bp.total} units{isComplete?" ✓":""}</div>
+                        <div style={{fontSize:10,color:showLock?"var(--gray-400)":(dk?"rgba(180,170,220,0.8)":"var(--purple-accent-text)"),fontWeight:700,marginTop:2}}>{bp.done}/{bp.total} {t("map_units",baseLang)}{isComplete?" ✓":""}</div>
                       :
                         <div style={{fontSize:10,color:dk?"rgba(160,155,200,0.5)":"var(--gray-300)",fontWeight:600,fontStyle:"italic",marginTop:2}}>{t("coming_soon",baseLang)}</div>
                       }
@@ -785,7 +785,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               </div>
               <div style={{flex:1}}>
                 <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:2}}>
-                  <span className="hd" style={{fontWeight:800,fontSize:16,color:available?"var(--gray-800)":"var(--gray-400)"}}>Unit {u.n}: {u.title}</span>
+                  <span className="hd" style={{fontWeight:800,fontSize:16,color:available?"var(--gray-800)":"var(--gray-400)"}}>{t("map_unit_prefix",baseLang)} {u.n}: {u.title}</span>
                   <span className="badge" style={{background:getCefrBandColor(getCefrInfo(u.level).band)+"18",color:getCefrBandColor(getCefrInfo(u.level).band),fontSize:10}}>{u.level}</span>
                 </div>
                 <p style={{color:"var(--gray-400)",fontSize:13}}>{u.sub}{up&&up.pct>0?` · ${up.pct}%`:""}</p>
@@ -1292,7 +1292,7 @@ function LessonList({unit,user,lang,onBack,onStart}){
           </div>
           <div style={{flex:1}}>
             <div style={{display:"flex",alignItems:"center",gap:8,flexWrap:"wrap"}}>
-              <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>Unit {unit.n}: {unit.title}</h2>
+              <h2 style={{fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",margin:0,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>{t("map_unit_prefix",baseLang)} {unit.n}: {unit.title}</h2>
               {(()=>{const fw=LANG_FRAMEWORK[unit.lang]||"CEFR";const info=getCefrInfo(unit.level);return <span style={{padding:"2px 8px",borderRadius:6,background:"rgba(255,255,255,0.18)",color:"white",fontSize:9,fontWeight:700}}>{unit.level} • {info.label}</span>;})()}
             </div>
             <p style={{color:"rgba(255,255,255,0.75)",fontSize:13,marginTop:2,margin:0}}>{unit.sub} · {unit.lessons.length} lessons{unitProg?` · ${unitProg.pct}%`:""}</p>
@@ -1306,7 +1306,7 @@ function LessonList({unit,user,lang,onBack,onStart}){
       </div>
 
       {/* Unit info popup */}
-      {showUnitPopup&&<GlossyPopup title={`Unit ${unit.n}: ${unit.title}`} onClose={()=>setShowUnitPopup(false)}>
+      {showUnitPopup&&<GlossyPopup title={`${t("map_unit_prefix",baseLang)} ${unit.n}: ${unit.title}`} onClose={()=>setShowUnitPopup(false)}>
         <div style={{fontSize:13,color:"var(--gray-600)",lineHeight:1.6,marginBottom:14}}>{unit.sub}</div>
         {unit.goals&&unit.goals.length>0&&<div style={{marginBottom:14}}>
           <div style={{fontSize:12,fontWeight:700,color:"var(--gray-500)",marginBottom:8}}>What you'll learn:</div>
