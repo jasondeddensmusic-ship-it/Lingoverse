@@ -2168,8 +2168,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               ))}
             </div>
           </div>
-          {/* Continue */}
-          <div style={{padding:"8px 18px 18px",textAlign:"center"}}>
+          {/* Navigation */}
+          <div style={{padding:"8px 18px 18px",display:"flex",alignItems:"center",justifyContent:"center",gap:12}}>
+            {si>0&&<NavArrow onClick={goBack} isBack/>}
             <ContinueButton onClick={goNext} baseLang={baseLang} spaceRef={continueRef}/>
           </div>
         </div>
