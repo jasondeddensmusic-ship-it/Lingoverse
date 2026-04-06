@@ -48,10 +48,14 @@
 - Master batch plan: docs/GERMAN_MASTER_BATCH_PLAN.md
 
 ### V2 Arabic Source (srcLang:"ar")
-- 36 units generated (scaffolds from EN source). A1+A2 (12 units) fully translated to Arabic MSA.
-- B1: 5/12 translated (U13, U14, U17, U23, U24). B2: 0/12. ~4,500 [AR] markers remain.
-- Arabic-specific pedagogy: ch≈خ, /p/ warnings, neuter=محايد, compound≈إضافة, cases=إعراب.
-- PAUSED — English source features need to be functional first.
+- 36 units generated (scaffolds from EN source). **All 36 units fully translated to Arabic MSA.**
+- A1+A2 (12 units): translated. B1 (12 units): translated. B2 (12 units): translated.
+- Zero content [AR] markers remain (header comments only).
+- Arabic-specific pedagogy: ch=خ, /p/ warnings, neuter=محايد, compound=إضافة, cases=إعراب.
+- Grammar module: `src/data/grammar/german-ar.js` (58 entries across A1-B2).
+- Idioms: srcAr/litAr/noteAr on all 125 entries in idioms-german.js.
+- CEFR vocab: trAr field on 4,199/4,699 entries (500 A2 entries remain).
+- Pages wired: GrammarPage, IdiomsPage, CefrReferencePage all baseLang-aware.
 
 ## French (v1) — PRODUCTION-READY (old format, pending rehaul)
 
@@ -69,10 +73,11 @@
 - CEFR distribution flagged (D110): 8-8-8-6 was template-based.
 - D113 bug fixes: 2 syntax errors + CEFR tab grouping fix.
 
-## Arabic — SKELETON ONLY
+## Arabic — Foundations Only (learning Arabic)
 
-- 5 skeleton units, 29 lessons. RTL works. Missing from vocabulary.js.
-- Deferred until new format is established.
+- 5 skeleton units, 29 lessons for learning Arabic as a target language.
+- RTL works. Missing from vocabulary.js.
+- Separate from German v2 Arabic source (above), which is Arabic speakers learning German.
 
 ## Infrastructure
 
