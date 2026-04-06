@@ -909,7 +909,7 @@ function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass}
           </div>
         </div>
         <div style={{fontSize:12,color:"var(--gray-400)",marginBottom:16,lineHeight:1.5}}>Uses pseudo-words and unfamiliar syllables to test real decoding skill, not memorized words.</div>
-        <button className="btn" onClick={()=>setPhase("running")} style={{background:"linear-gradient(135deg,#D4890B,#E8960A)",color:"white",padding:"14px 32px",fontSize:15,fontWeight:700,borderRadius:14,border:"none",cursor:"pointer",boxShadow:"0 4px 16px rgba(212,137,11,0.3)"}}>Start Quiz</button>
+        <button className="btn" onClick={()=>setPhase("running")} style={{background:"linear-gradient(135deg,#D4890B,#E8960A)",color:"white",padding:"14px 32px",fontSize:15,fontWeight:700,borderRadius:14,border:"none",cursor:"pointer",boxShadow:"0 4px 16px rgba(212,137,11,0.3)"}}>{t("gate_start_quiz",baseLang)}</button>
       </div>
     </div>
   );
@@ -1035,7 +1035,7 @@ function FoundationsGateQuiz({lang,user,setUser,showToast,addFlag,onBack,onPass}
           </div>
 
           <div style={{display:"flex",gap:10,justifyContent:"center",flexWrap:"wrap"}}>
-            {r.passed&&onPass&&<button className="btn" onClick={onPass} style={{background:"linear-gradient(135deg,var(--teal),#2ECDA7)",color:"white",padding:"12px 24px",fontSize:14,fontWeight:700,borderRadius:12,border:"none",cursor:"pointer"}}>Continue to Lessons →</button>}
+            {r.passed&&onPass&&<button className="btn" onClick={onPass} style={{background:"linear-gradient(135deg,var(--teal),#2ECDA7)",color:"white",padding:"12px 24px",fontSize:14,fontWeight:700,borderRadius:12,border:"none",cursor:"pointer"}}>{t("gate_continue_lessons",baseLang)} →</button>}
             <button className="btn btn-outline" onClick={()=>{setPhase("intro");setTaskIdx(0);setItemIdx(0);setAnswers({});setSelected(null);}} style={{padding:"12px 24px",fontSize:14}}>Retry Quiz</button>
             <NavArrow onClick={onBack} isBack size={44}/>
           </div>

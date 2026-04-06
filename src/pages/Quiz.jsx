@@ -274,7 +274,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
           })}
         </div>
 
-        {!answered&&<div style={{textAlign:"center",marginTop:10,fontSize:11,color:"var(--gray-300)"}}>Arrow keys navigate · Space select · Esc quit</div>}
+        {!answered&&<div style={{textAlign:"center",marginTop:10,fontSize:11,color:"var(--gray-300)"}}>{t("quiz_kb_hint",baseLang)}</div>}
         {answered&&<div style={{textAlign:"center",marginTop:14,fontSize:14,fontWeight:700,color:selOpt===q.ans?"var(--teal-dark)":"var(--coral)"}}>{selOpt===q.ans?t("le_correct",baseLang):<span>{t("le_not_quite",baseLang)} — {q.ans}</span>}</div>}
         {answered&&<ContinueButton onClick={goNext} correct={selOpt===q.ans} baseLang={baseLang} spaceRef={continueRef}/>}
       </div>

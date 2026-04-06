@@ -1,11 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { LANGUAGES } from '../data/metadata.js';
 import { VOCAB, ACHS, t } from '../data/vocabulary.js';
-import { getLevel, xpNext, xpCurr, clamp } from '../utils.js';
+import { getLevel, xpNext, xpCurr, clamp, UNITS } from '../utils.js';
 import { AppIcon, BrandIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import GlossyPopup from '../components/GlossyPopup.jsx';
 import { getUserCefr } from '../helpers.js';
+
+function buildUnitsVocabCount(lang) {
+  const seen = new Set();
+  for (const u of UNITS.filter(u => u.lang === lang)) {
+    for (const lesson of (u.lessons || [])) {
+      for (const st of (lesson.steps || [])) {
+        if (st.type !== "teach") continue;
+        const word = st.nl || st.trg || "";
+        if (word && !seen.has(word.toLowerCase())) seen.add(word.toLowerCase());
+      }
+    }
+  }
+  return seen.size;
+}
 
 function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,setPage}){
   const dk=document.documentElement.classList.contains("dark");
@@ -13,8 +27,8 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
   const c=xpCurr(user.xp),n=xpNext(user.xp);
   const pct=((user.xp-c)/(n-c))*100;
   const L=LANGUAGES.find(l=>l.code===lang);
-  const vocab=VOCAB[lang]||[];
-  const learnedPct=vocab.length>0?Math.round((user.wl/vocab.length)*100):0;
+  const vocabCount=useMemo(()=>{const uc=buildUnitsVocabCount(lang);return uc>50?uc:(VOCAB[lang]||[]).length;},[lang]);
+  const learnedPct=vocabCount>0?Math.round((user.wl/vocabCount)*100):0;
   const [showManifesto,setShowManifesto]=useState(false);
   const [showAchievements,setShowAchievements]=useState(false);
 
@@ -76,7 +90,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
       <div style={{background:dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)",borderRadius:18,padding:"18px 20px",border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.12)",marginBottom:20,boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.8)"}}>
         <div style={{display:"flex",justifyContent:"space-between",marginBottom:8}}>
           <span style={{fontWeight:700,fontSize:14,color:"var(--gray-700)",display:"flex",alignItems:"center",gap:6}}><AppIcon name="abc_blocks" size={20}/>{t("prof_vocab_progress",baseLang)}</span>
-          <span style={{color:"var(--gray-400)",fontSize:13,fontWeight:600}}>{user.wl} / {vocab.length}</span>
+          <span style={{color:"var(--gray-400)",fontSize:13,fontWeight:600}}>{user.wl} / {vocabCount}</span>
         </div>
         <div className="xpbar"><div className="xpbar-fill" style={{width:`${clamp(learnedPct,1,100)}%`,background:"linear-gradient(90deg, #A890FF, #7B5EE8)"}}/></div>
         <div style={{fontSize:12,color:"var(--gray-400)",marginTop:6}}>{learnedPct}% {t("prof_of",baseLang)} {L?.native} {t("prof_dict_mastered",baseLang)}</div>
