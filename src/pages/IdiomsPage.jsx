@@ -75,11 +75,10 @@ function IdiomsPage({lang,baseLang="en"}){
       {/* Header */}
       <div style={{textAlign:"center",marginBottom:32,padding:"0 20px"}}>
         <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:8,fontFamily:"'Quicksand','system-ui',sans-serif",color:dk?"rgba(255,255,255,0.92)":"var(--gray-800)",lineHeight:1.2}}>
-          {(LANGUAGES.find(l=>l.code===lang)?.native||"")} Idioms
+          {(LANGUAGES.find(l=>l.code===lang)?.native||"")} {t("idioms_header",baseLang)}
         </h2>
         <p style={{color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",fontSize:14,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:600,lineHeight:1.5,maxWidth:360,margin:"0 auto"}}>
-          Real expressions Germans actually use.
-          {"\n"}Tap any card to read the story behind it.
+          {t("idioms_subtitle",baseLang)}
         </p>
       </div>
 
@@ -96,7 +95,7 @@ function IdiomsPage({lang,baseLang="en"}){
           {gloss}
           <input
             type="text" value={search} onChange={e => setSearch(e.target.value)}
-            placeholder="Search..."
+            placeholder={t("idioms_search_ph",baseLang)}
             style={{
               width:"100%",padding:"14px 18px 14px 44px",borderRadius:22,
               border:"none",background:"transparent",
@@ -111,13 +110,13 @@ function IdiomsPage({lang,baseLang="en"}){
 
         {/* Level filter */}
         {levels.length > 1 && <div style={{display:"flex",justifyContent:"center",gap:6,marginBottom:24,flexWrap:"wrap"}}>
-          <button onClick={()=>setFilterLevel(null)} style={candyChip(filterLevel===null)}>All</button>
+          <button onClick={()=>setFilterLevel(null)} style={candyChip(filterLevel===null)}>{t("pos_all",baseLang)}</button>
           {levels.map(lv=>(
             <button key={lv} onClick={()=>setFilterLevel(filterLevel===lv?null:lv)} style={candyChip(filterLevel===lv)}>{lv}</button>
           ))}
         </div>}
 
-        {(search||filterLevel) && <div style={{textAlign:"center",marginBottom:16,fontSize:12,color:dk?"rgba(200,184,255,0.35)":"var(--gray-300)",fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{idioms.length} found</div>}
+        {(search||filterLevel) && <div style={{textAlign:"center",marginBottom:16,fontSize:12,color:dk?"rgba(200,184,255,0.35)":"var(--gray-300)",fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{idioms.length} {t("idioms_found",baseLang)}</div>}
       </>}
 
       {/* Idiom list — teacher board style */}
@@ -169,7 +168,7 @@ function IdiomsPage({lang,baseLang="en"}){
                 {/* Literal translation */}
                 <div style={{paddingTop:16,marginBottom:16}}>
                   <div style={{fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1,color:dk?"rgba(180,160,255,0.7)":"#6040B0",marginBottom:5,fontFamily:"'Nunito','system-ui',sans-serif"}}>
-                    Word for word
+                    {t("idioms_word_for_word",baseLang)}
                   </div>
                   <div style={{fontSize:16,fontWeight:700,fontStyle:"italic",color:dk?"rgba(255,255,255,0.9)":"#1E1840",fontFamily:"'Nunito','system-ui',sans-serif",lineHeight:1.5}}>
                     {baseLang==="ar"&&id.litAr?id.litAr:id.lit}
@@ -179,7 +178,7 @@ function IdiomsPage({lang,baseLang="en"}){
                 {/* The story / note — teacher board style */}
                 {id.note && <div style={{marginBottom:14}}>
                   <div style={{fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1,color:dk?"rgba(180,160,255,0.7)":"#6040B0",marginBottom:5,fontFamily:"'Nunito','system-ui',sans-serif"}}>
-                    {phrase ? "How it's used" : "The story"}
+                    {phrase ? t("idioms_how_used",baseLang) : t("idioms_the_story",baseLang)}
                   </div>
                   <div style={{
                     fontSize:15,fontWeight:600,lineHeight:1.8,
@@ -212,8 +211,8 @@ function IdiomsPage({lang,baseLang="en"}){
 
       {/* No results */}
       {idioms.length===0 && allIdioms.length>0 && <div style={{textAlign:"center",padding:"48px 20px"}}>
-        <div style={{fontSize:16,fontWeight:800,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",marginBottom:8,fontFamily:"'Quicksand','system-ui',sans-serif"}}>No matches</div>
-        <button onClick={()=>{setSearch("");setFilterLevel(null);}} style={{background:"none",border:"none",color:"var(--purple-accent-text)",fontWeight:800,fontSize:14,cursor:"pointer",fontFamily:"'Quicksand','system-ui',sans-serif"}}>Clear filters</button>
+        <div style={{fontSize:16,fontWeight:800,color:dk?"rgba(200,184,255,0.4)":"var(--gray-400)",marginBottom:8,fontFamily:"'Quicksand','system-ui',sans-serif"}}>{t("idioms_no_matches",baseLang)}</div>
+        <button onClick={()=>{setSearch("");setFilterLevel(null);}} style={{background:"none",border:"none",color:"var(--purple-accent-text)",fontWeight:800,fontSize:14,cursor:"pointer",fontFamily:"'Quicksand','system-ui',sans-serif"}}>{t("idioms_clear",baseLang)}</button>
       </div>}
     </div>
   );

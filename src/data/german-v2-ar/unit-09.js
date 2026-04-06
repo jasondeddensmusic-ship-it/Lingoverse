@@ -1,6 +1,6 @@
 // German v2 Unit 9 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Vereine",sub:"Running club, Vereinskultur, hobbies, and German social life",icon:"🏃",level:"A2.2",color:"#7B5EE8",lessons:[
+const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Vereine",sub:"نادي الجري، Vereinskultur، الهوايات والحياة الاجتماعية الألمانية",icon:"🏃",level:"A2.2",color:"#7B5EE8",lessons:[
     {id:"deu_r9l1",title:"Der Lauftreff",icon:"🏃",xp:15,board:true,steps:[
         {type:"intro",title:"Der Lauftreff",desc:"ميا تسحب فيروميوس إلى نادي الجري في حديقة فريدريشسهاين. الساعة 6:30 صباحاً, هواء الخريف قارس, وفيروميوس يندم بالفعل على هذا.",goals:["تعلّم 12 كلمة عن الرياضة والترفيه","اكتشف ثقافة الأندية الألمانية (Vereinskultur)","انجُ من أول جلسة جري جماعية"]},
         {type:"story",speaker:"narrator",mood:"tired",art:"de-volkspark-dawn",trg:"Volkspark Friedrichshain. 6:30 Uhr. Die Bäume sind orange und rot. Kalte Luft, Atem wie kleine Wolken. Mia steht am Eingang und dehnt sich. Verumius steht daneben und gähnt.",src:"حديقة فريدريشسهاين. الساعة 6:30 صباحاً. الأشجار برتقالية وحمراء. هواء بارد, أنفاس كالغيوم الصغيرة. ميا تقف عند المدخل وتتمدد. فيروميوس يقف بجانبها ويتثاءب."},

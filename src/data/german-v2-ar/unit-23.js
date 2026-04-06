@@ -1,6 +1,6 @@
 // German v2 Unit 23 — Arabic source language (srcLang:"ar")
 // Arabic source language version. All fields translated to MSA Arabic.
-const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",sub:"Goethe B1 exam, irreale Bedingungssätze, brauchen+zu, double infinitive",icon:"📝",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",sub:"امتحان Goethe B1، الجمل الشرطية غير الواقعية، brauchen+zu، المصدر المزدوج",icon:"📝",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r23l1",title:"Lernmaschine",icon:"📚",xp:15,board:true,steps:[
         {type:"intro",title:"Lernmaschine",desc:"تحوّل فيروميوس إلى آلة تعلّم. شقّته مليئة بالبطاقات التعليمية وجداول القواعد وأكواب القهوة الفارغة. الامتحان بعد ثلاثة أيام.",goals:[
             "تعلّم مفردات تتعلق بالدراسة والتعلّم",

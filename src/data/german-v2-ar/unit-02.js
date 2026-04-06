@@ -1,6 +1,6 @@
 // German v2 Unit 2 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked يحتاج ترجمة يدوية إلى العربية.
-const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung, wo ist...?",sub:"Lost in Berlin, directions, articles, jaywalking",icon:"🗺️",level:"A1.1",color:"#7B5EE8",lessons:[
+const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung, wo ist...?",sub:"ضائع في برلين، الاتجاهات، أدوات التعريف، عبور الشارع",icon:"🗺️",level:"A1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r2l1",title:"Rosa Himmel über Berlin",icon:"🌅",xp:15,board:true,steps:[
         {type:"intro",title:"Rosa Himmel über Berlin",desc:"يقف فيروميوس عند بوابة براندنبورغ بخريطة مقلوبة. ضوء فجر وردي. أسماء شوارع ألمانية في كل مكان. حان وقت تعلم المدينة.",goals:[
             "تعلم معالم وأماكن برلين",

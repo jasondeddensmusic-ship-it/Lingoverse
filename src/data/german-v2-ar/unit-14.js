@@ -1,6 +1,6 @@
 // German v2 Unit 14 — Arabic source language (srcLang:"ar")
 // Arabic source language. All fields translated to MSA.
-const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeitstag",sub:"First day at work, office culture, passive voice, relative clauses",icon:"💼",level:"B1.1",color:"#7B5EE8",lessons:[
+const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeitstag",sub:"اليوم الأول في العمل، ثقافة المكتب، المبني للمجهول، الجمل الموصولة",icon:"💼",level:"B1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r14l1",title:"Der erste Morgen",icon:"🌅",xp:15,board:true,steps:[
         {type:"intro",title:"Der erste Morgen",desc:"يقف فيروميوس أمام مكان عمله الجديد في برلين-ميته. يرتدي بدلة رسمية بينما يرتدي الجميع الجينز. حان وقت اكتشاف عالم المكاتب الألمانية.",goals:[
             "تعلّم 20 كلمة أساسية في مفردات بيئة العمل",

@@ -1,6 +1,6 @@
 // German v2 Unit 6 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deutsch",sub:"Daily life, health, work, hobbies & Hildi's tea",icon:"☕",level:"A1.2",color:"#7B5EE8",lessons:[
+const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deutsch",sub:"الحياة اليومية، الصحة، العمل، الهوايات وشاي Hildi",icon:"☕",level:"A1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r6l1",title:"Kaltes Wasser!",icon:"🚿",xp:15,board:true,steps:[
         {type:"story",speaker:"narrator",mood:"shocked",art:"de-altbau-bathroom",trg:"Montagmorgen. 6:47 Uhr. Verumius dreht den Wasserhahn auf. Kalt. Er wartet. Noch kälter. Er zieht die Hand zurück. Kein Dampf, kein warmes Wasser. Nur Kälte.",src:"صباح الاثنين. الساعة 6:47. فيروميوس يفتح الصنبور. بارد. ينتظر. أبرد. يسحب يده. لا بخار، لا ماء ساخن. فقط برد."},
         {type:"intro",title:"Alles auf Deutsch",desc:"فيروميوس يستقر في شقته. لكن الماء الساخن انقطع. حان وقت تعلّم الروتين اليومي وأجزاء الجسم والماضي البسيط لـ sein/haben.",goals:["تعلّم مفردات الروتين اليومي","تعلّم أجزاء الجسم","تعلّم الماضي البسيط: war/hatte"]},

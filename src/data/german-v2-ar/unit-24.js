@@ -1,6 +1,6 @@
 // German v2 Unit 24 — Arabic source language (srcLang:"ar")
 // Arabic source language version. All fields translated to MSA Arabic.
-const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",sub:"One year in Germany, Plusquamperfekt, Futur I, the decision to stay",icon:"🎉",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",sub:"عام في ألمانيا، Plusquamperfekt، Futur I، قرار البقاء",icon:"🎉",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r24l1",title:"Ein Jahr",icon:"📅",xp:15,board:true,steps:[
         {type:"intro",title:"Ein Jahr",desc:"عام كامل في ألمانيا. يقف فيروميوس عند النافذة وينظر إلى برج التلفزيون. يتذكّر كل شيء. تعلّم كلمات عن التجارب والعادات والحقيقة.",goals:[
             "تعلّم 16 كلمة جديدة عن التجارب والحياة اليومية",

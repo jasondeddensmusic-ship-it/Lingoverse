@@ -1,6 +1,6 @@
 // German v2 Unit 10 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn",sub:"Train delays, seat conflicts, sprinting for connections",icon:"🚂",level:"A2.2",color:"#7B5EE8",lessons:[
+const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn",sub:"تأخيرات القطار، صراعات المقاعد، الركض للحاق بالرحلات",icon:"🚂",level:"A2.2",color:"#7B5EE8",lessons:[
     {id:"deu_r10l1",title:"47 Minuten Verspätung",icon:"🚂",xp:15,board:true,steps:[
         {type:"intro",title:"47 Minuten Verspätung",desc:"محطة برلين المركزية. قطار ICE متأخر 47 دقيقة. لوحة المغادرة تتوهج باللون الأحمر. المسافرون ذوو الخبرة يشربون القهوة. فيروميوس يحدّق في اللوحة.",goals:[
             "تعلّم 10 كلمات عن السفر والمواصلات",

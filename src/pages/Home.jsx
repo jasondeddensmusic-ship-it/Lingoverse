@@ -33,9 +33,9 @@ function Home({user,setPage,lang,baseLang="en"}){
     <div className="anim">
       {/* Welcome header — immersive in the target language */}
       <div style={{textAlign:"center",padding:"16px 0 32px"}}>
-        <h1 className="hd" style={{fontSize:30,fontWeight:800,marginBottom:8,color:"var(--gray-800)"}}>{L?.welcomeBack||L?.greeting}</h1>
+        <h1 className="hd trg-text-center" style={{fontSize:30,fontWeight:800,marginBottom:8,color:"var(--gray-800)"}}>{L?.welcomeBack||L?.greeting}</h1>
         <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:8}}>
-          <span style={{fontSize:18,fontWeight:700,color:"var(--purple-accent-text)"}}>{L?.native}</span>
+          <span className="trg-inline" style={{fontSize:18,fontWeight:700,color:"var(--purple-accent-text)"}}>{L?.native}</span>
           <CountryFlag code={lang} size={24}/>
         </div>
       </div>
@@ -62,7 +62,7 @@ function Home({user,setPage,lang,baseLang="en"}){
             <div style={{fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.2,color:"var(--purple-accent-text)",marginBottom:4}}>
               {t("home_continue",baseLang) || "Continue Learning"}
             </div>
-            <div style={{fontSize:16,fontWeight:800,color:"var(--gray-800)",marginBottom:2,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>
+            <div className="trg-text" style={{fontSize:16,fontWeight:800,color:"var(--gray-800)",marginBottom:2,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>
               {continueInfo.unit.title} — {continueInfo.lesson.title}
             </div>
             <div style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>

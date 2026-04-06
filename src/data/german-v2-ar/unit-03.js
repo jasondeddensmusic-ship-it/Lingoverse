@@ -1,6 +1,6 @@
 // German v2 Unit 3 — Arabic source language (srcLang:"ar")
 // Auto-generated. Fields marked [AR] need manual Arabic translation.
-const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuche",sub:"Family, home, furniture & the 14-page Hausordnung",icon:"🏠",level:"A1.1",color:"#7B5EE8",lessons:[
+const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuche",sub:"العائلة، المنزل، الأثاث ونظام المنزل من 14 صفحة",icon:"🏠",level:"A1.1",color:"#7B5EE8",lessons:[
     {id:"deu_r03l1",title:"Wohnung frei",icon:"🏠",xp:15,board:true,steps:[
         {type:"intro",title:"Die Wohnungssuche",desc:"فيروميوس يحتاج شقة. بسرعة. إعلان واحد يلفت نظره: ٣ غرف، شرفة، برينتسلاور بيرغ. مكالمة واحدة تغيّر كل شيء.",goals:["تعلّم مفردات السكن","افهم الإيجار والتكاليف الإضافية","تعرّف على السيدة هيلدغارد شرايبر"]},
         {type:"story",speaker:"narrator",mood:"neutral",art:"de-prenzlauer-berg-rain",trg:"Prenzlauer Berg. Regen. Verumius steht vor einem Laternenpfahl voller Wohnungsanzeigen. Eine ist rot eingekreist: '3 Zimmer, Balkon, Prenzlauer Berg. 650 Euro warm.' Er macht ein Foto.",src:"برينتسلاور بيرغ. مطر. فيروميوس يقف أمام عمود إنارة مغطى بإعلانات الشقق. إعلان واحد محاط بدائرة حمراء: '٣ غرف، شرفة، برينتسلاور بيرغ. ٦٥٠ يورو شامل التدفئة.' يلتقط صورة."},

@@ -1,6 +1,6 @@
 // German v2 Unit 11 — Arabic source language (srcLang:"ar")
 // German v2 Unit 11 — Arabic source language (srcLang:"ar")
-const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihnachtsmarkt",sub:"Christmas market, Opa Heinrich, Glühwein, adjective declension",icon:"🎄",level:"A2.3",color:"#7B5EE8",lessons:[
+const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihnachtsmarkt",sub:"سوق عيد الميلاد، الجد Heinrich، Glühwein، تصريف الصفات",icon:"🎄",level:"A2.3",color:"#7B5EE8",lessons:[
     {id:"deu_r11l1",title:"Gendarmenmarkt",icon:"🎄",xp:15,board:true,steps:[
         {type:"intro",title:"Gendarmenmarkt",desc:"يهبط الغسق على أجمل سوق لعيد الميلاد في برلين. أضواء ذهبية، أكشاك خشبية، رائحة النبيذ الساخن واللوز المحمّص. هيلدي تسحب فيروميوس إلى الحشد.",goals:[
             "تعلّم ١٠ كلمات عن الشتاء وسوق عيد الميلاد",

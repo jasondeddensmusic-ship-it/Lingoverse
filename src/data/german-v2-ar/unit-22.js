@@ -1,6 +1,6 @@
 // German v2 Unit 22 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und Alltag",sub:"Environment, sustainability, Partizip I+II as adjectives, lassen causative",icon:"♻️",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und Alltag",sub:"البيئة، الاستدامة، Partizip I+II كصفات، lassen السببية",icon:"♻️",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r22l1",title:"Nachhaltigkeit im Büro",icon:"♻️",xp:15,board:true,steps:[
         {type:"intro",title:"Nachhaltigkeit im Büro",desc:"يقف فيروميوس أمام زملائه ويلقي عرضاً تقديمياً. بالألمانية. موضوعه: الاستدامة في المكتب. حان الوقت لتعلّم أهم المفردات البيئية.",goals:[
             "تعلّم 18 كلمة مفتاحية تتعلق بالبيئة والمناخ",

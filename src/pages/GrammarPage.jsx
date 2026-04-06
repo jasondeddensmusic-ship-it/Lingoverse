@@ -174,7 +174,7 @@ function GrammarPage({lang,baseLang="en"}){
 
         {/* ── Rules ── */}
         {entry.rules&&entry.rules.length>0&&<div style={{marginBottom:28}}>
-          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>Rules & Patterns</div>
+          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>{t("grammar_rules_patterns",baseLang)}</div>
           <div style={{
             padding:"18px 20px",borderRadius:18,position:"relative",overflow:"hidden",
             background:dk?"rgba(255,255,255,0.03)":"rgba(255,255,255,0.7)",
@@ -205,7 +205,7 @@ function GrammarPage({lang,baseLang="en"}){
 
         {/* ── Examples ── */}
         {entry.examples&&entry.examples.length>0&&<div style={{marginBottom:12}}>
-          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>Examples</div>
+          <div style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":"rgba(123,94,232,0.5)",textTransform:"uppercase",letterSpacing:2,marginBottom:12}}>{t("grammar_examples",baseLang)}</div>
           <div style={{display:"flex",flexDirection:"column",gap:10}}>
             {entry.examples.map((ex,j)=>{
               const parts=ex.split(" - ");
@@ -344,7 +344,7 @@ function GrammarPage({lang,baseLang="en"}){
               <div style={glossArc(dk,"35%")}/>
               <div style={{display:"flex",alignItems:"center",gap:10,position:"relative",zIndex:1}}>
                 <span className="hd" style={{fontSize:15,fontWeight:700,color:"var(--gray-800)",lineHeight:1.35,flex:1}}>{r.title}</span>
-                {r.table&&<span style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":P,background:dk?"rgba(123,94,232,0.15)":"rgba(123,94,232,0.06)",padding:"3px 8px",borderRadius:8,letterSpacing:0.5,textTransform:"uppercase",flexShrink:0}}>Table</span>}
+                {r.table&&<span style={{fontSize:10,fontWeight:700,color:dk?"rgba(200,180,255,0.5)":P,background:dk?"rgba(123,94,232,0.15)":"rgba(123,94,232,0.06)",padding:"3px 8px",borderRadius:8,letterSpacing:0.5,textTransform:"uppercase",flexShrink:0}}>{t("grammar_table",baseLang)}</span>}
               </div>
               <p style={{fontSize:13,color:"var(--gray-400)",lineHeight:1.5,margin:0,position:"relative",zIndex:1,overflow:"hidden",textOverflow:"ellipsis",display:"-webkit-box",WebkitLineClamp:2,WebkitBoxOrient:"vertical"}}>{r.explanation}</p>
             </button>

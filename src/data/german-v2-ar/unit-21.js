@@ -1,6 +1,6 @@
 // German v2 Unit 21 — Arabic source language (srcLang:"ar")
 // تمت الترجمة إلى العربية.
-const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",sub:"Leipzig, reunification, Nikolaikirche, adjective declension without articles, reciprocal verbs",icon:"🏛️",level:"B1.2",color:"#7B5EE8",lessons:[
+const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",sub:"لايبزيغ، إعادة التوحيد، Nikolaikirche، تصريف الصفات بدون أدوات، الأفعال المتبادلة",icon:"🏛️",level:"B1.2",color:"#7B5EE8",lessons:[
     {id:"deu_r21l1",title:"Leipzig Hauptbahnhof",icon:"🚉",xp:15,board:true,steps:[
         {type:"intro",title:"Leipzig Hauptbahnhof",desc:"سافر مع ميا إلى لايبزيغ. تعلّم مفردات التاريخ والمجتمع والتغيير. اكتشف قصة إعادة توحيد ألمانيا.",goals:[
             "تعلّم 16 كلمة أساسية عن التاريخ والمجتمع",
