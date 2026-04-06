@@ -2145,24 +2145,31 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     <div className="anim" key={si}>
       <ProgressBar/>
       <div style={{maxWidth:460,margin:"0 auto"}}>
-        {/* Outer card — purple gradient with candy gloss */}
-        <div style={{background:"linear-gradient(180deg, #C0AEF8 0%, #A488F0 12%, #8B6AE4 30%, #7B5EE8 50%, #6545C8 75%, #5840B8 90%, #4A2BA6 100%)",borderRadius:22,padding:"28px 24px",textAlign:"center",border:"2px solid rgba(255,255,255,0.18)",boxShadow:dk?"0 0 20px rgba(123,94,232,0.4), 0 8px 28px rgba(0,0,0,0.4), inset 0 2px 0 rgba(255,255,255,0.25), inset 0 -3px 0 rgba(0,0,0,0.15)":"0 0 16px rgba(123,94,232,0.2), 0 8px 28px rgba(123,94,232,0.25), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.12)",position:"relative",overflow:"hidden"}}>
-          {/* Gloss shine */}
-          <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"44%",borderRadius:"0 0 48% 48%",background:"linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 55%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
-          <div style={{position:"relative",zIndex:2}}>
-            {/* Icon + header */}
-            <div style={{width:52,height:52,borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 10px",boxShadow:"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)"}}><span style={{fontSize:28}}>{"🧠"}</span></div>
-            <div style={{fontFamily:"'Quicksand',sans-serif",fontSize:20,fontWeight:800,color:"white",textShadow:"0 2px 4px rgba(0,0,0,0.2)",marginBottom:4}}>{t("breather_title",baseLang)}</div>
-            <div style={{fontSize:13,color:"rgba(255,255,255,0.75)",marginBottom:18}}>{st.totalLearned} {t("prof_words_learned",baseLang).toLowerCase()} {t("le_so_far",baseLang)||"so far"}</div>
-            {/* Word tiles — frosted glass */}
-            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:20}}>
+        {/* Card — matches teach card style: white bg, left accent, clean layout */}
+        <div style={{background:"var(--card-bg)",borderRadius:22,border:"2px solid rgba(255,255,255,0.55)",borderLeft:"4px solid #7B5EE8",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.3)":"0 4px 20px rgba(0,0,0,0.05)",overflow:"hidden",marginBottom:16}}>
+          {/* Header strip */}
+          <div style={{background:"linear-gradient(135deg, rgba(123,94,232,0.06), rgba(46,205,167,0.04))",padding:"14px 20px 12px",display:"flex",alignItems:"center",gap:10}}>
+            <span style={{fontSize:22}}>{"🧠"}</span>
+            <div>
+              <div style={{fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,color:"#7B5EE8"}}>{t("breather_title",baseLang)}</div>
+              <div style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>{st.totalLearned} {t("prof_words_learned",baseLang).toLowerCase()} {t("le_so_far",baseLang)||"so far"}</div>
+            </div>
+          </div>
+          {/* Word tiles — compound bubbles matching teach card example style */}
+          <div style={{padding:"14px 18px 8px"}}>
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8}}>
               {(st.wordsReviewed||[]).map((w,i)=>(
-                <div key={i} style={{padding:"12px 14px",borderRadius:16,background:"rgba(255,255,255,0.15)",backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",border:"1.5px solid rgba(255,255,255,0.25)",textAlign:"left",boxShadow:"inset 0 1px 0 rgba(255,255,255,0.2), 0 2px 8px rgba(0,0,0,0.1)"}}>
-                  <div className="trg-text" style={{fontSize:15,fontWeight:800,color:"white",textShadow:"0 1px 2px rgba(0,0,0,0.15)"}}>{w.trg}</div>
-                  <div style={{fontSize:11,color:"rgba(255,255,255,0.7)",fontWeight:600,...srcDir}}>{w.src}</div>
+                <div key={i} style={{padding:"10px 14px",borderRadius:16,background:dk?"linear-gradient(180deg, rgba(123,94,232,0.15) 0%, rgba(100,80,200,0.08) 100%)":"linear-gradient(180deg, rgba(200,190,255,0.35) 0%, rgba(220,210,255,0.2) 50%, rgba(235,230,255,0.1) 100%)",border:dk?"1.5px solid rgba(123,94,232,0.25)":"1.5px solid rgba(180,165,240,0.35)",boxShadow:dk?"inset 0 1px 0 rgba(255,255,255,0.05)":"inset 0 1px 0 rgba(255,255,255,0.6), 0 2px 8px rgba(123,94,232,0.06)",textAlign:"left",position:"relative",overflow:"hidden"}}>
+                  {/* Gloss arc */}
+                  <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"50%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 100%)",pointerEvents:"none"}}/>
+                  <div className="trg-text" style={{fontSize:15,fontWeight:800,color:"var(--gray-800)",position:"relative",zIndex:1}}>{w.trg}</div>
+                  <div style={{fontSize:11,color:"var(--teal-dark)",fontWeight:600,position:"relative",zIndex:1,...srcDir}}>{w.src}</div>
                 </div>
               ))}
             </div>
+          </div>
+          {/* Continue */}
+          <div style={{padding:"8px 18px 18px",textAlign:"center"}}>
             <ContinueButton onClick={goNext} baseLang={baseLang} spaceRef={continueRef}/>
           </div>
         </div>
