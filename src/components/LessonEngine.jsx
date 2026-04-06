@@ -2685,8 +2685,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     const _word=st.trg||st.nl||"";const _trans=st.src||st.en||"";
     const art=getArticle(_word,lang);const c=ARTICLE_COLORS[art]||ARTICLE_COLORS.none;
     const accentColor=isNew?"#7B5EE8":"var(--gray-300)";
-    const noteHl=(text)=>universalHl(text, lang);
-    const exHl=(t)=>universalHl(t, lang);
+    const noteHl=(text)=>universalHl(text, lang, {noColor:true});
+    const exHl=(t)=>universalHl(t, lang, {noColor:true});
     // Letter size: single Hangul jamo/syllable gets extra large
     const nlSize = teachKind==="letter" ? 64 : isScript ? 48 : 36;
     // Force purple for non-ASCII letters, otherwise noun stays dark, article gets color
@@ -3493,7 +3493,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_choose_correct",baseLang)}</div>
           {(()=>{const{korean:mcKo,english:mcEnRaw}=splitKoEn(st.q||"");const mcEn=mcEnRaw||st.qSrc||st.qEn||null;return<><div className="trg-text-center" style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
-            {universalHl(mcKo, lang)}
+            {universalHl(mcKo, lang, {noColor:true})}
           </div>{renderEnglishBelow(mcEn,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>{tk("tk_hint_button",baseLang)}</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
@@ -3661,7 +3661,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{position:"relative",zIndex:2}}>
           <div style={{color:"var(--purple-accent-text)",fontSize:10,textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,fontWeight:700,fontFamily:"'Nunito','system-ui',sans-serif"}}>{t("le_fill_blank",baseLang)}</div>
           {(()=>{const{korean:fbKo,english:fbEn}=splitKoEn(st.s.replace(/\{1\}/g,"___"));const fbTrans=fbEn||st.sSrc||st.sEn||null;return<><div className="trg-text-center" style={{fontSize:17,fontWeight:600,lineHeight:1.55,fontFamily:"'Nunito','system-ui',sans-serif",color:"var(--gray-800)"}}>
-            {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{universalHl(part, lang)}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
+            {fbKo.split(/_{3,}/).map((part,i,arr)=><span key={i}>{universalHl(part, lang, {noColor:true})}{i<arr.length-1&&<span style={{display:"inline-block",minWidth:70,borderBottom:"3px solid var(--purple-accent)",margin:"0 4px",color:"var(--teal-dark)",fontWeight:800,fontFamily:"'Nunito','system-ui',sans-serif"}}>{answered?showAnswer:"___"}</span>}</span>)}
           </div>{renderEnglishBelow(fbTrans,true)}</>;})()}
           {st.hint&&!showHint&&!answered&&!hideQuizRom&&<div style={{marginTop:8}}><button onClick={()=>setShowHint&&setShowHint(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"inherit",padding:"4px 12px",borderRadius:8,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="#7B5EE8";e.target.style.background="rgba(123,94,232,0.06)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";e.target.style.background="none";}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>{tk("tk_hint_button",baseLang)}</button></div>}
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
@@ -3874,7 +3874,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                   {isWrongSlot&&<span style={{display:"block",fontSize:11,color:"var(--teal-dark)",fontWeight:600}}>{st.blanks[slotKey]}</span>}
                 </span>;
               }
-              return <span key={i}>{universalHl(part, lang)}</span>;
+              return <span key={i}>{universalHl(part, lang, {noColor:true})}</span>;
             })}
           </div>
           {renderEnglishBelow(dfEn,true)}
@@ -3987,7 +3987,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return <div key={i} data-match-nl={i} data-match-side="nl" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
                 onClick={()=>{if(!d){UISounds.click();handleMatch("nl",w);}}}
                 onPointerDown={(e)=>{if(d)return;e.preventDefault();matchDragRef.current={active:true,side:"nl",val:w,startEl:e.currentTarget};e.currentTarget.setPointerCapture&&e.currentTarget.releasePointerCapture(e.pointerId);handleMatch("nl",w);const container=matchContainerRef.current;if(!container)return;const rect=container.getBoundingClientRect();const elR=e.currentTarget.getBoundingClientRect();setMatchPendingLine({x1:elR.right-rect.left,y1:elR.top+elR.height/2-rect.top,x2:e.clientX-rect.left,y2:e.clientY-rect.top});}}
-                onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i);}}}>{universalHl(w, lang)}{d&&" ✓"}</div>;})}
+                onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i);}}}>{universalHl(w, lang, {noColor:true})}{d&&" ✓"}</div>;})}
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:8}}>
             <div style={{fontSize:11,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>{BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"}</div>
